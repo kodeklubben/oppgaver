@@ -5,9 +5,9 @@ language: en
 stylesheet: python
 ...
 
-# Introduction {.intro}
+# Introduksjon {.intro}
 
-Today we're going to try and write some code so that the computer can play noughts and crosses. It won't play well at first, but soon it might even win against you!
+I dag skal vi prøve å skrive kode slik at datamaskinen kan spille tre på rad mot oss. Datamaskinen vil ikke spille så bra i begynnelsen, men etterhvert som den lærer noen triks vil den kanskje klare å vinne mot deg!
 
 # Step 1: Start with what we have from last week { .activity}
 
