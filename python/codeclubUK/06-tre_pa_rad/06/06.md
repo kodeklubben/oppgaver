@@ -35,7 +35,7 @@ Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag skal vi i
     mainloop()
     ```
 
-3. Lagre og kjør programmet ditt. Du vil se et rutenett tegnet på skjermen!
+3. Lagre og kjør programmet ditt. Du vil se et rutenett tegnet på skjermen! Steng vinduet rutenettet ble tegnet i for å avslutte programmet ditt.
 
 ### Lerretet
 
@@ -108,7 +108,7 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
 
 ## Steg 2: Tegne en sirkel
 
-1. I den samme filen vil vi nå legge til en prosedyre som kan tegne når du klikker med musen!
+1. I den samme filen vil vi nå legge til en prosedyre som kan tegne en sirkel når du klikker med musen!
 
     ```python
     from tkinter import *
@@ -176,7 +176,7 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
 
 ## Steg 3: Holde oversikten
 
-Tilsvarende slik vi gjorde i forrige leksjon, vil vi nå innføre en liste som kan holde oversikten over hvor vi allerede har klikket. Dette vil være viktig når vi senere vil sjekke om man har tre på rad.
+Tilsvarende slik vi gjorde i forrige leksjon om Hangman, vil vi nå innføre en liste som kan holde oversikten over hvor vi allerede har klikket. Dette vil være viktig når vi senere vil sjekke om man har tre på rad.
 
 1. Vi lager først en liste `grid` med ni elementer, en for hver rute. Legg til følgende kode rett før definisjonen av prosedyren `click`:
 
@@ -198,7 +198,7 @@ Tilsvarende slik vi gjorde i forrige leksjon, vil vi nå innføre en liste som k
         down = int(c.canvasy(event.y) / 200)
         square = across + (down * 3)
 
-	if grid[square] == "O":
+        if grid[square] == "O":
             print("Du har allerede klikket i rute " + str(square))
         else:
             print("Du klikket i rute " + str(square))
@@ -245,7 +245,7 @@ Vi vil nå legge til en spiller til, som tegner kryss i stedet for sirkel.
         shape = choose_shape()
         across = int(c.canvasx(event.x) / 200)
         down = int(c.canvasy(event.y) / 200)
-	square = across + (down * 3)
+        square = across + (down * 3)
 
         if grid[square] == "X" or grid[square] == "O":
           return
@@ -311,7 +311,7 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
         shape = choose_shape()
         across = int(c.canvasx(event.x) / 200)
         down = int(c.canvasy(event.y) / 200)
-	square = across + (down * 3)
+        square = across + (down * 3)
 
         if grid[square] == "X" or grid[square] == "O":
             return
