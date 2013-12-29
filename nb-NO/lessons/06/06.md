@@ -12,7 +12,7 @@ _|_|_
  | | 
 ```
 
-Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag skal vi i stedet lære å bruke Tk-lerretet til tegning.
+Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag skal vi i stedet lære å bruke tk-biblioteket til tegning.
 
 1. Åpne IDLE, lag en ny fil og lagre den som 'xox.py'
 
@@ -39,7 +39,7 @@ Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag skal vi i
 
 ### Lerretet
 
-På samme måte som vi brukte `turtle`-biblioteket når vi tegnet med skilpadder bruker vi her `tkinter`-biblioteket. Vi lager et 600 ganger 600-piksler vindu med kommandoen `c = Canvas(main, width=600, height=600)`. For datamaskinen ser dette slik ut:
+På samme måte som vi brukte `turtle`-biblioteket når vi tegnet med skilpadder bruker vi her `tkinter`-biblioteket. Vi lager et 600 ganger 600-piksler lerret som tegnes i et vindu med kommandoen `c = Canvas(main, width=600, height=600)`. For datamaskinen ser dette slik ut:
 
 ```
     0       200      400      600   ...
@@ -174,66 +174,52 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
 
     Koden `c.create_oval(across * 200, down * 200, (across+1) * 200, (down+1) * 200)` gjør om 'Bortover 1, Nedover 2' til posisjoner på lerretet som Bortover 200, Nedover 400.
 
-## Steg 3: Tegne et kryss
+## Steg 3: Holde oversikten
 
-1. I den samme filen legger vi nå inn kode som først tegner en sirkel, deretter et kryss, deretter en sirkel, ...
+Tilsvarende slik vi gjorde i forrige leksjon, vil vi nå innføre en liste som kan holde oversikten over hvor vi allerede har klikket. Dette vil være viktig når vi senere vil sjekke om man har tre på rad.
+
+1. Vi lager først en liste `grid` med ni elementer, en for hver rute. Legg til følgende kode rett før definisjonen av prosedyren `click`:
 
     ```python
-    from tkinter import *
+    grid = [
+        "0", "1", "2", 
+        "3", "4", "5",
+        "6", "7", "8", 
+    ]
+    ```
 
-    main = Tk()
+    Vi kunne ha startet listen med ni tomme strenger, `grid = ["", "", "", "", "", "", "", "", ""]`, men ved å skrive listen som vi gjør er det enklere å huske hvordan rutene på brettet er nummerert.
 
-    c = Canvas(main, width=600, height=600)
-    c.pack()
+2. Nå vil vi registrere at vi tegner sirkler i denne listen. Bytt ut `click`-prosedyren med følgende:
 
-    c.create_line(200, 0, 200, 600)
-    c.create_line(400, 0, 400, 600)
-
-    c.create_line(0, 200, 600, 200)
-    c.create_line(0, 400, 600, 400)
-
-    shape = "O"
-
+    ```python
     def click(event):
-        global shape
         across = int(c.canvasx(event.x) / 200)
         down = int(c.canvasy(event.y) / 200)
+        square = across + (down * 3)
 
-        if shape == "O":
-            c.create_oval(
-                across * 200, down * 200,
-                (across+1) * 200, (down+1) * 200
-            )
-            shape = "X"
+	if grid[square] == "O":
+            print("Du har allerede klikket i rute " + str(square))
         else:
-            c.create_line(
+            print("Du klikket i rute " + str(square))
+
+        c.create_oval(
                 across * 200, down * 200,
                 (across+1) * 200, (down+1) * 200
-            )
-            c.create_line(
-                across * 200, (down+1) * 200,
-                (across+1) * 200, down * 200
-            )
-            shape = "O"
-
-    c.bind("<Button-1>", click)
-
-    mainloop()
+        )
+        grid[square] = "O"
     ```
-2. Kjør programmet ditt. Prøv å trykk på en rute. Det skal tegnes en O. Klikk på en annen rute. Nå tegnes en X.
+    For å teste at listen virker bruker vi en enkel `print`-kommando som forteller oss hvilken rute vi klikker i, og om vi klikker i samme rute to ganger. `str` gjør om et tall til tekst (en streng) slik at den kan skrives ut sammen med den forklarende teksten.
 
-    Vi har brukt en ny kommando i python, `global` lar oss endre variabelen `shape` inne i prosedyren `click`.
-    Dersom du endrer variabler som er definert utenfor funksjoner og prosedyrer må du bruke `global` inne i funksjonen eller prosedyren.
+3. Kjør koden. Klikk i forskjellige ruter slik at du skjønner hvordan vi har nummerert rutene på brettet.
 
-3. Hva skjer om du trykker på samme rute to ganger på rad?
+## Steg 4: Tegne et kryss
 
-    Dette skjer fordi koden vår enda ikke følger med på hva som faktisk har blitt tegnet eller hvor spillerne har flyttet. Vi må skrive litt mer kode for å holde styr på dette.
+Vi vil nå legge til en spiller til, som tegner kryss i stedet for sirkel.
 
-## Steg 4: Hvor er det allerede klikket?
+1. Vi lager en prosedyre som bestemmer hvem sin tur det er. `choose_shape` undersøker `grid`-listen vår og lar det være `X` sin tur dersom det allerede er flere `O` enn `X` i listen.
 
-For å hindre at spillerene klikker i samme rute to ganger vil vi følge med på hvor de klikker. For å gjøre dette bruker vi en liste kalt `grid`.
-
-1. I den samme filen,
+2. Vi utvider også `click`-prosedyren slik at den kan tegne både sirkler og kryss. Koden ser nå slik ut:
 
     ```python
     from tkinter import *
@@ -249,7 +235,6 @@ For å hindre at spillerene klikker i samme rute to ganger vil vi følge med på
     c.create_line(0, 200, 600, 200)
     c.create_line(0, 400, 600, 400)
 
-    shape = "O"
     grid = [
         "0", "1", "2", 
         "3", "4", "5",
@@ -257,22 +242,20 @@ For å hindre at spillerene klikker i samme rute to ganger vil vi følge med på
     ]
 
     def click(event):
-        global shape, grid
+        shape = choose_shape()
         across = int(c.canvasx(event.x) / 200)
         down = int(c.canvasy(event.y) / 200)
-
-        square = across + (down * 3)
+	square = across + (down * 3)
 
         if grid[square] == "X" or grid[square] == "O":
-            return
+          return
 
         if shape == "O":
             c.create_oval(
-                cross * 200, down * 200,
+                across * 200, down * 200,
                 (across+1) * 200, (down+1) * 200
             )
             grid[square] = "O"
-            shape = "X"
         else:
             c.create_line(
                 across * 200, down * 200,
@@ -283,13 +266,18 @@ For å hindre at spillerene klikker i samme rute to ganger vil vi følge med på
                 (across+1) * 200, down * 200
             )
             grid[square] = "X"
-            shape = "O"
+
+    def choose_shape():
+        if grid.count("O") > grid.count("X"):
+            return "X"
+        else:
+            return "O"
 
     c.bind("<Button-1>", click)
 
     mainloop()
     ```
-2. Kjør programmet ditt. Hva skjer nå om du prøver å klikke i samme rute to ganger på rad?
+3. Kjør programmet ditt. Prøv å trykk på en rute. Det skal tegnes en O. Klikk på en annen rute. Nå tegnes en X.
 
 ## Steg 5: Å finne en vinner
 
@@ -313,7 +301,6 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
     c.create_line(0, 200, 600, 200)
     c.create_line(0, 400, 600, 400)
 
-    shape = "O"
     grid = [
         "0", "1", "2", 
         "3", "4", "5",
@@ -321,11 +308,10 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
     ]
 
     def click(event):
-        global shape, grid
+        shape = choose_shape()
         across = int(c.canvasx(event.x) / 200)
         down = int(c.canvasy(event.y) / 200)
-
-        square = across + (down * 3)
+	square = across + (down * 3)
 
         if grid[square] == "X" or grid[square] == "O":
             return
@@ -339,7 +325,6 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
                 (across+1) * 200, (down+1) * 200
             )
             grid[square] = "O"
-            shape = "X"
         else:
             c.create_line(
                 across * 200, down * 200,
@@ -350,7 +335,12 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
                 (across+1) * 200, down * 200
             )
             grid[square] = "X"
-            shape = "O"
+
+    def choose_shape():
+        if grid.count("O") > grid.count("X"):
+            return "X"
+        else:
+            return "O"
 
     def winner():
         for across in range(3):
