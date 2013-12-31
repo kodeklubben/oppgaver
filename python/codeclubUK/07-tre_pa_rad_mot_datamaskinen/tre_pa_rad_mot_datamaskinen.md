@@ -198,7 +198,6 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
 
     ```python
     def click(event):
-        shape = choose_shape()
         across = int(c.canvasx(event.x) / 200)
         down = int(c.canvasy(event.y) / 200)
         square = across + (down * 3)
@@ -255,8 +254,7 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
 
     ```python
     def click(event):
-        shape = choose_shape()
-        across = int(c.canvasx(event.x) / 200)
+         across = int(c.canvasx(event.x) / 200)
         down = int(c.canvasy(event.y) / 200)
         square = across + (down * 3)
 
@@ -367,7 +365,6 @@ grid = [
 ]
 
 def click(event):
-    shape = choose_shape()
     across = int(c.canvasx(event.x) / 200)
     down = int(c.canvasy(event.y) / 200)
     square = across + (down * 3)
@@ -396,12 +393,6 @@ def draw_shape(shape, across, down):
         c.create_line(across * 200, (down+1) * 200,
             (across+1) * 200, down * 200)
 
-def choose_shape():
-    if grid.count("O") > grid.count("X"):
-        return "X"
-    else:
-        return "O"
- 
 def winner(grid):
     for across in range(3):
         row = across * 3
