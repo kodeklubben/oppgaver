@@ -129,16 +129,7 @@ Før vi kan lære datamaskinen hvordan den gjør gode trekk vil vi lære den hvo
 
 Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet ser ut. Det er en liste som starter som `["0", "1", "2", ... ]`, hvor vi putter inn `"X"` og `"O"` etterhvert som vi spiller. Vi begynner med å finne ledige ruter i denne listen for deretter å spille en slik rute.
 
-1. På toppen av filen vil vi importere `random`-biblioteket, som vi vil bruke til å tilfeldig velge et trekk
-
-    ```python
-    from tkinter import *
-    import random
-    ```
-    
-    Du husker kanskje at vi brukte `random.choice` i en tidligere leksjon om Hangman.
-
-2. Vi vil nå lage en ny prosedyre, `free_squares`, som kan finne ledige ruter. Legg til denn koden nedenfor prosedyren `winner`, men over linjen `c.bind(...)`:
+1. Vi vil først lage en ny prosedyre, `free_squares`, som kan finne ledige ruter. Legg til denne koden nedenfor prosedyren `winner`, men over linjen `c.bind(...)`:
 
     ```python
     def free_squares():
@@ -151,7 +142,16 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
     
     Denne prosedyren lager en tom liste. Deretter går den gjennom hele rutenettet og sjekker hver rute om den er tom.
 
-    Prosedyren `enumerate` kan fortelle oss posisjonen til hvert element i `grid`-listen. For eksempel vil `enumerate` gjøre om en liste `['A','B','C']` til par `(0, 'A'), (1,'B'), (2, 'C')` slik at vi ikke trenger å telle elementene selv. 
+    Kommandoen `enumerate` kan fortelle oss posisjonen til hvert element i `grid`-listen. For eksempel vil `enumerate` gjøre om en liste `['A','B','C']` til parene `(0, 'A'), (1,'B'), (2, 'C')` slik at vi ikke trenger å telle elementene selv. 
+
+2. På toppen av filen vil vi importere `random`-biblioteket, som vi vil bruke for å tilfeldig velge et trekk
+
+    ```python
+    from tkinter import *
+    import random
+    ```
+    
+    Du husker kanskje at vi brukte `random.choice` i en tidligere leksjon om Hangman.
 
 3. Nå skriver vi en prosedyre `play_move()` som kan spille i en tilfeldig tom rute. Legg til denne prosedyren etter `free_squares` men før linjnen `c.bind(...)`
 
@@ -224,7 +224,7 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
     
 # Steg 3: Velg et trekk som vinner { .activity}
 
-Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hjelpe den litt. I stedet for å bare velge trekk helt tilfeldig, la datamaskinen velge trekk som gjør at den vinner om de finnes. Ideen er at vi kan sjekke alle de mulige trekkene til datamaskinen, og om ett av dem vil vinne spillet lar vi datamaskinen spille det.
+Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hjelpe den litt. I stedet for å bare velge trekk helt tilfeldig, la datamaskinen velge trekk som gjør at den vinner om de finnes. Ideen er at vi kan sjekke alle de mulige trekkene til datamaskinen, og om ett av disse vil vinne spillet lar vi datamaskinen spille det.
 
 1. Endre prosedyren `winner` slik at den tar et argument `grid`:
 
@@ -345,120 +345,120 @@ Den andre strategien vi vil lære datamaskinen er å blokkere trekk som gjør at
 
 Det ferdige programmet ditt vil nå se omtrent ut som dette!
 
-    ```python
-    from tkinter import *
-    import random
+```python
+from tkinter import *
+import random
 
-    main = Tk()
+main = Tk()
 
-    c = Canvas(main, width=600, height=600)
-    c.pack()
+c = Canvas(main, width=600, height=600)
+c.pack()
 
-    c.create_line(200, 0, 200, 600)
-    c.create_line(400, 0, 400, 600)
+c.create_line(200, 0, 200, 600)
+c.create_line(400, 0, 400, 600)
 
-    c.create_line(0, 200, 600, 200)
-    c.create_line(0, 400, 600, 400)
+c.create_line(0, 200, 600, 200)
+c.create_line(0, 400, 600, 400)
 
-    grid = [
-        "0", "1", "2", 
-        "3", "4", "5",
-        "6", "7", "8", 
-    ]
+grid = [
+    "0", "1", "2", 
+    "3", "4", "5",
+    "6", "7", "8", 
+]
 
-    def click(event):
-        shape = choose_shape()
-        across = int(c.canvasx(event.x) / 200)
-        down = int(c.canvasy(event.y) / 200)
-        square = across + (down * 3)
+def click(event):
+    shape = choose_shape()
+    across = int(c.canvasx(event.x) / 200)
+    down = int(c.canvasy(event.y) / 200)
+    square = across + (down * 3)
 
-        if grid[square] == "X" or grid[square] == "O":
-            return
+    if grid[square] == "X" or grid[square] == "O":
+        return
 
-        if winner(grid):
-            return
+    if winner(grid):
+        return
     
-        grid[square] = "O"
-        draw_shape("O", across, down)
+    grid[square] = "O"
+    draw_shape("O", across, down)
 
-        if winner(grid):
-            return
+    if winner(grid):
+        return
 
-        play_move()
+    play_move()
 
-    def draw_shape(shape, across, down):
-        if shape == "O":
-            c.create_oval(across * 200, down * 200,
-                (across+1) * 200, (down+1) * 200)
-        else:
-            c.create_line(across * 200, down * 200,
-                (across+1) * 200, (down+1) * 200)
-            c.create_line(across * 200, (down+1) * 200,
-                (across+1) * 200, down * 200)
+def draw_shape(shape, across, down):
+    if shape == "O":
+        c.create_oval(across * 200, down * 200,
+            (across+1) * 200, (down+1) * 200)
+    else:
+        c.create_line(across * 200, down * 200,
+            (across+1) * 200, (down+1) * 200)
+        c.create_line(across * 200, (down+1) * 200,
+            (across+1) * 200, down * 200)
 
-    def choose_shape():
-        if grid.count("O") > grid.count("X"):
-            return "X"
-        else:
-            return "O"
+def choose_shape():
+    if grid.count("O") > grid.count("X"):
+        return "X"
+    else:
+        return "O"
  
-    def winner(grid):
-        for across in range(3):
-            row = across * 3
-            line = grid[row] + grid[row+1] + grid[row+2]
-            if line == "XXX" or line == "OOO":
-                return True
+def winner(grid):
+    for across in range(3):
+        row = across * 3
+        line = grid[row] + grid[row+1] + grid[row+2]
+        if line == "XXX" or line == "OOO":
+            return True
             
-        for down in range(3):
-            line = grid[down] + grid[down+3] + grid[down+6]
-            if line == "XXX" or line == "OOO":
-                return True
-
-        line = grid[0] + grid[4] + grid[8]
+    for down in range(3):
+        line = grid[down] + grid[down+3] + grid[down+6]
         if line == "XXX" or line == "OOO":
             return True
 
-        line = grid[2] + grid[4] + grid[6]
-        if line == "XXX" or line == "OOO":
-            return True
+    line = grid[0] + grid[4] + grid[8]
+    if line == "XXX" or line == "OOO":
+        return True
 
-    def free_squares():
-        output = []
-        for position, square in enumerate(grid):
-            if square != "X" and square != "O":
-                output.append(position)
-        return output
+    line = grid[2] + grid[4] + grid[6]
+    if line == "XXX" or line == "OOO":
+        return True
 
-    def play_move():
-        moves = free_squares()
-        square = random.choice(moves)
+def free_squares():
+    output = []
+    for position, square in enumerate(grid):
+        if square != "X" and square != "O":
+            output.append(position)
+    return output
 
-        # Bruk et blokkerende trekk om det eksisterer
-        for possible in moves:
-            new_grid = list(grid)
-            new_grid[possible] = "O"
-            if winner(new_grid):
-                square = possible
-                break
+def play_move():
+    moves = free_squares()
+    square = random.choice(moves)
 
-        # Bruk et vinnende trekk om det eksisterer
-        for possible in moves:
-            new_grid = list(grid)
-            new_grid[possible] = "X"
-            if winner(new_grid):
-                square = possible
-                break
+    # Bruk et blokkerende trekk om det eksisterer
+    for possible in moves:
+        new_grid = list(grid)
+        new_grid[possible] = "O"
+        if winner(new_grid):
+            square = possible
+            break
 
-        down = square // 3
-        across = square % 3
+    # Bruk et vinnende trekk om det eksisterer
+    for possible in moves:
+        new_grid = list(grid)
+        new_grid[possible] = "X"
+        if winner(new_grid):
+            square = possible
+            break
 
-        grid[square] = "X"
-        draw_shape("X", across, down)
+    down = square // 3
+    across = square % 3
 
-    c.bind("<Button-1>", click)
+    grid[square] = "X"
+    draw_shape("X", across, down)
 
-    mainloop()
-    ```
+c.bind("<Button-1>", click)
+
+mainloop()
+```
 
 ## Utfordring { .challenge}
 
