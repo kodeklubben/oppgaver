@@ -1,124 +1,185 @@
 # Felix og Herbert
 
-## Introduksjon
+## Introduksjon { .intro}
 
-Vi skal lage et spill hvor katten Felix skal fange musa Herbert. Du styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
+Vi skal lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Du styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
-![skjearmbilde](Screengrab.PNG)
+![skjærmbilde](Screengrab.PNG)
 
+|Sjekkliste| Følg instruksjonene på lista. Huk av etter hvert|
+|---|-----|
+|**Test**| **Klikk på det grønne flagget for å teste koden**|
+|**Lagre**| **Husk å lagre koden når du har lagt til noe nytt**|
 
-|Sjekkliste| Følg instruksjonene på lista. Huk av etter hvert.|
-|Test| Klikk på det grønne flagget for å teste koden.|
-|Lagre| Husk å lagre koden når du har lagt til noe nytt.|
+## Steg 1: Felix følger musepekeren { .activity}
 
-## Steg 1: Felix følger musepekeren
+__Vi ønsker at katten Felix skal følge etter musepekeren.__
 
-Vi ønsker at katten Felix skal følge etter musepekeren.
+### Sjekkliste{ .check}
 
-### Sjekkliste
++ Start et nytt prosjekt.
++ Trykk på ´i´ i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til Felix.
++ Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til ![Høyre/Venstre](rotasjonsmate-hv.png).
++ Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/Brick wall2'.
++ Velg ![skript](ROOT/images/fane-skript.png)-fanen og lag dette skriptet:
 
-* Start et nytt prosjekt.
-* Trykk på 'i' i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til 'Felix'.
-* Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til ![Høyre/Venstre](rotasjonsmate-hv.png).
-* Klikk på scenen ved siden av 'Felix' i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/Brick wall2'.
-* Velg ![skript](ROOT/images/fane-skript.png)-fanen og lag dette skriptet:
-![skript](skript1.png)
+  ´´´blocks
+    
+      Når FLAG klikkes
+      for alltid
+        pek mot [musepeker]
+        gå (10) steg
+        neste drakt
+        trommeslag (62) som varer (0.3) takter
+  ´´´
+      
 
-### Test prosjektet
+### Test prosjektet { .flag}
 
-Klikk på det grønne flagget.
+__Klikk på det grønne flagget.__
 
-* Følger Felix musepekeren?
-* Ser det ut som han går når han beveger seg?
-* Beveger han seg med riktig hastighet?
++ Følger Felix musepekeren?
++ Ser det ut som han går når han beveger seg?
++ Beveger han seg med riktig hastighet?
 
-### Lagre prosjektet
+### Lagre prosjektet { .save}
 
-## Steg 2: Felix jager Herbert
+## Steg 2: Felix jager Herbert { .activity}
 
-Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.
+__Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.__
 
-### Sjekkliste
+### Sjekkliste { .check}
 
-* Lag en ny figur ved å trykke på ![Velg figur fra biblioteket](figur-fra-bibliotek.png) og velg figuren 'Dyr/Mouse1'.
-* Bytt navn på figuren til Herbert og sørg for at også Herbert kun kan se til høyre og venstre ![Høyre/Venstre](rotasjonsmate-hv.png).
-* Gjør Herbert mindre enn Felix ved å trykke på ![krymp](krymp.png) (øverst mot midten av vinduet). Prøv seks klikk.
-* Gi Herbert dette skriptet:
-![skript2](skript2.png)
++ Lag en ny figur ved å trykke på ![Velg figur fra biblioteket](figur-fra-bibliotek.png) og velg figuren 'Dyr/Mouse1'.
++ Bytt navn på figuren til Herbert og sørg for at også Herbert kun kan se til høyre og venstre ![Høyre/Venstre](rotasjonsmate-hv.png).
++ Gjør Herbert mindre enn Felix ved å trykke på ![krymp](krymp.png) (øverst mot midten av vinduet). Prøv seks klikk.
++ Gi Herbert dette skriptet:
 
-### Test prosjektet
+  ´´´blocks
+  
+      når FLAG klikkes
+      for alltid
+        gå til [musepeker]
+        pek mot [felix]
+  ´´´
 
-Klikk på det grønne flagget.
+### Test prosjektet { .flag}
 
-* Flytter Herbert seg med musepekeren?
-* Jager Felix Herbert?
+__Klikk på det grønne flagget.__
 
-### Lagre prosjektet
++ Flytter Herbert seg med musepekeren?
++ Jager Felix Herbert?
 
-## Steg 3: Felix sier når han har fanget Herbert
+### Lagre prosjektet { .save}
 
-Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.
+## Steg 3: Felix sier når han har fanget Herbert { .activity}
 
-### Sjekkliste
+__Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.__
 
-* Endre skriptet til Felix til dette:
-![skript3](skript3.png)
+### Sjekkliste { .check}
 
-### Test prosjektet
++ Endre skriptet til Felix til dette:
 
-Klikk på det grønne flagget.
+  ´´´blocks
 
-* Sier Felix fra når han har fanget Herbert?
+      når FLAG klikkes
+      for alltid
+        pek mot [musepeker]
+        gå (10) steg
+        neste drakt
+        trommeslag (62) som varer (0.3) takter
+        hvis <berører [Herbert]?>
+          si [Tok deg!] i (1) sekunder
+  ´´´
 
-### Lagre prosjektet
+### Test prosjektet { .flag}
 
-## Steg 4: Herbert blir et spøkelse når han fanges
+__Klikk på det grønne flagget.__
 
-I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøkelse når han fanges.
++ Sier Felix fra når han har fanget Herbert?
 
-### Sjekkliste
+### Lagre prosjektet { .save}
 
-* Endre skriptet til Felix slik at det sender en melding og lager en lyd når han fanger Herbert:
-![skript4](skript4.png)
-* Velg Herbert og gå til ![drakter](ROOT/images/fane-drakter.png)-fanen.
-* Hent en ny drakt ved å trykke på ![Velg drakt fra biblioteket](figur-fra-bibliotek.png) og velg 'Fantasi/ghost2-a'
-* Gjør drakten mindre ved å velge ![Krymp](krymp.png) og trykke seks ganger på spøkelsesdrakten.
-* Endre navnene på Herbers drakter slik at kattedrakten heter 'levende' og spøkelsesdrakten heter 'død'.
-* Lag et nytt skript for Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle skriptet:
-![skript5](skript5.png)
+## Steg 4: Herbert blir et spøkelse når han fanges { .activity}
 
-### Test prosjektet
+__I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøkelse når han fanges.__
 
-Klikk på det grønne flagget.
+### Sjekkliste { .check}
 
-* Forvandles Herbert til et spøkelse når han fanges?
-* Spiller Felix de riktige lydene til riktig tid?
-* Står Felix stille lenge nok til at Herbert kommer seg unna?
++ Endre skriptet til Felix slik at det sender en melding og lager en lyd når han fanger Herbert:
 
-### Lagre prosjektet
+  ´´´blocks
 
-## Steg 5: Telle poeng
+      når FLAG klikkes
+      for alltid
+        pek mot [musepeker]
+        gå (10) steg
+        neste drakt
+        trommeslag (62) som varer (0.3) takter
+        hvis <berører [Herbert]?>
+          send melding [Fanget!]
+          trommeslag (58) som varer (0.2) takter
+          vent (1) sekunder
+          si [Tok deg!] i (1) sekunder
+  ´´´
+  
++ Velg Herbert og gå til ![drakter](ROOT/images/fane-drakter.png)-fanen.
++ Hent en ny drakt ved å trykke på ![Velg drakt fra biblioteket](figur-fra-bibliotek.png) og velg 'Fantasi/ghost2-a'
++ Gjør drakten mindre ved å velge ![Krymp](krymp.png) og trykke seks ganger på spøkelsesdrakten.
++ Endre navnene på Herberts drakter slik at musedrakten heter 'levende' og spøkelsesdrakten heter 'død'.
++ Lag et nytt skript for Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle skriptet!:
 
-La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde Herbert i live. Vi begynner med poengsummen null og øker den med en for hvert sekund. Hvis Felix fanger Herbert, minker vi poengsummen med hundre.
+  ´´´blocks
+  
+      når jeg mottar [Fanget!]
+      bytt drakt til [død]
+      vent (0.5) sekunder
+      bytt drakt til [levende]
+  ´´´
+  
 
-### Sjekkliste
+### Test prosjektet { .flag}
 
-* På ![skript](ROOT/images/fane-skript.png)-fanen under kategorien ![Data](ROOT/images/kategori-data.png), lag en ny variabel. La den gjelde for alle figurer og kall den poengsum.
+__Klikk på det grønne flagget.__
+
++ Forvandles Herbert til et spøkelse når han fanges?
++ Spiller Felix de riktige lydene til riktig tid?
++ Står Felix stille lenge nok til at Herbert kommer seg unna?
+
+### Lagre prosjektet { .save}
+
+## Steg 5: Telle poeng { .activity}
+
+__La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde Herbert i live. Vi begynner med poengsummen null og øker den med en for hvert sekund. Hvis Felix fanger Herbert, minker vi poengsummen med hundre.__
+
+### Sjekkliste { .check}
+
++ På ![skript](ROOT/images/fane-skript.png)-fanen under kategorien ![Data](ROOT/images/kategori-data.png), lag en ny variabel. La den gjelde for alle figurer og kall den 'Poeng'.
 ![poengsum](ny-variabel-poengsum.png)
-* Lag disse to skriptene på scenen:
-![skript](skript6.png)
++ Lag disse to skriptene på scenen:
 
-### Test prosjektet
+  ´´´blocks
 
-Klikk på det grønne flagget.
+      når FLAG klikkes
+      sett [Poeng] til (0)
+      for alltid
+        endre [Poeng] med (1)
+        vent (1) sekunder
+      når jeg mottar [Fanget!]
+      endre [Poeng] med (-100)
+      ´´´
 
-* Øker poengsummen med en hvert sekund?
-* Går poengsummen ned med hundre når Herbert blir fanget?
-* Hva skjer når Herbert fanges før du har hundre poeng?
-* Går poengsummen tilbake til null når du starter spillet på nytt?
+### Test prosjektet { .flag}
 
-### Lagre prosjektet
+__Klikk på det grønne flagget.__
 
-Du er ferdig. Godt gjort. Nå kan du spille spillet!
++ Øker poengsummen med en hvert sekund?
++ Går poengsummen ned med hundre når Herbert blir fanget?
++ Hva skjer når Herbert fanges før du har hundre poeng?
++ Går poengsummen tilbake til null når du starter spillet på nytt?
+
+### Lagre prosjektet { .save}
+
+__Du er ferdig. Godt gjort. Nå kan du spille spillet!__
 Husk at du kan dele spillet med familie og venner ved å trykke 'Legg ut' på menylinjen.
 
