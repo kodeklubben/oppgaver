@@ -31,80 +31,79 @@ Vi starter med en penn som tegner når du drar den rundt på scenen.
 4. Bytt til __drakter__-fliken og velge hele figuren med velgeverktøyet. Flytt blyanten slik at spissen peker på det lille grå korset i midten. Da vil spissen tegne og ikke midten av blyanten.
 5. Få pennen til å følge musa rundt på scenen ved å bruke __for alltid__-blokka og __gå til musepeker__-blokka.
 
-```scratch
-when FLAG clicked
-forever
-	go to mouse-pointer
-(end forever)
+```blocks
+Når grønt flagg klikkes
+for alltid
+	gå til musepeker
+slutt
 ```
 
-__Now we want to use this pen sprite as an actual pen.__ If you look under the pen section you’ll see all sorts of drawing related blocks. The ones we’re initially interested in are __pen down__ and __pen up__
+__Nå vil vi bruke denne pennefiguren som en ordentlig penn.__ Om du ser under penn-kategorien kan du se alle slags tegefunksjoner. De vi er interessert i nå er __penn på__ og __penn av__
 
-6. We want to use the mouse button to control the pen – whenever the mouse button is down the pen should be down, and when it is up the pen should be up. We can do this using an if... else and mouse down? blocks.
-
-```scratch
-when FLAG clicked
-forever
-	go to mouse-pointer
-	if mouse down?
-	pen down
-	else
-	pen up
-	(end if)
-(end forever)
-```
-##Test Your Project
-__Click on the green flag.__
-Does the pen follow the mouse around? What happens if you hold the mouse button down and move the mouse? Don’t worry about the pen colour for now.
-
-
-7. Eventually the screen is going to get pretty filled with scribbles. The clear block can be used to clear the screen.
+6. Vi vil bruke museknappen til å kontrollere pennen - når museknappen er nede går pennen ned og når museknappen er oppe er pennen oppe. Vi kan gjøre dette ved å bruke enn hvis ... ellers ... og en mus nede-blokk
 
 ```scratch
-when FLAG clicked
-clear
-forever
-	go to mouse-pointer
-	if mouse down?
-	pen down
-	else
-	pen up
-	(end if)
-(end forever)
+når grønt flagg klikkes
+for alltid
+	gå til musepeker
+	hvis museknappen er nede?
+	penn på
+	ellers
+	pen av
+	(slutt hvis)
+(slutt for alltid)
+```
+##Test prosjektet ditt
+__Klikk på det grønne flagget.__
+Følger pennen musa rundt? Hva skjer om du holder museknappen nede og flytter på musa? Ikke bry deg om pennefargen enda.
+
+
+7. Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke slett-blokka til å fjerne dette.
+
+```blocks
+når grønt flagg klikkes
+slett
+for alltid
+	gå til musepeker
+	hvis museknappen er nede?
+	penn på
+	ellers
+	penn av
+	(slutt hvis)
+(slutt for alltid)
 ```
 
-##Test Your Project
-__Click on the green flag.__
+##Test prosjektet ditt
+__Klikk på det grønne flagget.__
 
-Does your drawing disappear when you click on the green flag?
+Forsvinner tegningene dine når du klikker på det grønne flagget?
 
-SAVE YOUR PROJECT
+LAGRE PROSJEKTET DITT
 
-##STEP 2: Clearing up
+##STEG 2: Rydde opp
 
-Rather than having to stop and start the whole project, let’s add a button that
-clears the drawing. It will do that using the clear block.
+I stedet for å måtte starte og stoppe prosjektet for å slette tavla kan vi lage en knapp som sletter alt i stedet. Vi kan bruke slett-blokka.
 
-1. Create a new sprite from the __resources/cancel button__ costume. 
-2. Change the sprite’s name to __clear__.
-3. Position the sprite near the bottom-left corner of the stage.
-4. Give the clear sprite this simple script:
+1. Lag en ny figur fra ressursmappa du lasta ned i begynnelsen av prosjektet-. Velg __cancel button__ drakten.
+2. Bytt navn på figuren til __slett__.
+3. Flytt figuren til nederste høyre hjørne av scenen.
+4. Gi slette-figuren dette skriptet:
 
-```scratch
-when clear clicked
-clear
+```blocks
+når denne figuren klikkes
+slett
 ```
 
-##Test Your Project
-__Click on the green flag.__
+##Test prosjektet ditt
+__Klikk på det grønne flagget.__
 
-Does the clear button clear all your drawing?
+Sletter sletteknappen alle tegningene dine?
 
-SAVE YOUR PROJECT
+LAGRE PROSJEKTET DITT
 
-##STEP 3: Changing colour
+##STEG 3: Bytte farge
 
-So far, we can only draw blue lines. Let’s draw with some different colours! We’ll add some sprites at the bottom of the frame. The sprites will look like coloured buttons. If we click on a button, it will change the colour of the line we draw. So we know what colour we’re using, the button will also change the colour of the pencil sprite.
+Toil nå har vi bare kunnet tegne blå streker. Vi kan bruke andre farger også! Vi legge rtil noen figurer i bunn av rammen. Figurene vil se ut som fargede knapper. Når vi klikker på en knapp endres pennefagen til den fargen knappen har. For å vite at vi har byttet farge skal vi gjøre det slik at blyanten skifter farge til den fargen vi bruker.
 
 1. Add a new sprite, called __red__, using the __resources/red-selector costume__. 
 2. Place it somewhere along the bottom of the frame, near the __clear button__.
