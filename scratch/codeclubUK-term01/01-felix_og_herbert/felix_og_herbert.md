@@ -20,7 +20,7 @@ __Vi ønsker at katten Felix skal følge etter musepekeren.__
 + Start et nytt prosjekt.
 + Trykk på ´i´ i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til Felix.
 + Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til ![Høyre/Venstre](rotasjonsmate-hv.png).
-+ Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/Brick wall2'.
++ Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/brick wall2'.
 + Velg ![skript](ROOT/images/fane-skript.png)-fanen og lag dette skriptet:
 
   [scratchblocks]
@@ -30,7 +30,7 @@ __Vi ønsker at katten Felix skal følge etter musepekeren.__
         pek mot [musepeker v]
         gå (10) steg
         neste drakt
-        trommeslag (62 v) som varer (0.3) takter
+        trommeslag (3 v) som varer (0.25) takter
   [\scratchblocks]
       
 
@@ -60,7 +60,7 @@ __Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.__
       når FLAG klikkes
       for alltid
         gå til [musepeker v]
-        pek mot [felix v]
+        pek mot [Felix v]
   [\scratchblocks]
 
 ### Test prosjektet { .flag}
@@ -87,7 +87,7 @@ __Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.
         pek mot [musepeker v]
         gå (10) steg
         neste drakt
-        trommeslag (62 v) som varer (0.3) takter
+        trommeslag (3 v) som varer (0.25) takter
         hvis <berører [Herbert v]?>
           si [Tok deg!] i (1) sekunder
   [\scratchblocks]
@@ -115,12 +115,12 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
         pek mot [musepeker v]
         gå (10) steg
         neste drakt
-        trommeslag (62 v) som varer (0.3) takter
+        trommeslag (3 v) som varer (0.25) takter
         hvis <berører [Herbert v]?>
           send melding [Fanget!]
-          trommeslag (58 v) som varer (0.2) takter
-          vent (1) sekunder
+          trommeslag (1 v) som varer (0.25) takter
           si [Tok deg!] i (1) sekunder
+          vent (1) sekunder
   [\scratchblocks]
   
 + Velg Herbert og gå til ![drakter](ROOT/images/fane-drakter.png)-fanen.
