@@ -165,9 +165,6 @@ __La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde 
       for alltid
         endre [Poeng v] med (1)
         vent (1) sekunder
-  [\scratchblocks]
-  
-  [scratchblocks]
       når jeg mottar [Fanget! v]
       endre [Poeng v] med (-100)
   [\scratchblocks]
