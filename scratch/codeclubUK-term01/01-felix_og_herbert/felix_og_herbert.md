@@ -27,10 +27,10 @@ __Vi ønsker at katten Felix skal følge etter musepekeren.__
     
       Når FLAG klikkes
       for alltid
-        pek mot [musepeker]
+        pek mot [musepeker v]
         gå (10) steg
         neste drakt
-        trommeslag (62) som varer (0.3) takter
+        trommeslag (62 v) som varer (0.3) takter
   ´´´
       
 
@@ -59,8 +59,8 @@ __Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.__
   
       når FLAG klikkes
       for alltid
-        gå til [musepeker]
-        pek mot [felix]
+        gå til [musepeker v]
+        pek mot [felix v]
   ´´´
 
 ### Test prosjektet { .flag}
@@ -84,11 +84,11 @@ __Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.
 
       når FLAG klikkes
       for alltid
-        pek mot [musepeker]
+        pek mot [musepeker v]
         gå (10) steg
         neste drakt
-        trommeslag (62) som varer (0.3) takter
-        hvis <berører [Herbert]?>
+        trommeslag (62 v) som varer (0.3) takter
+        hvis <berører [Herbert v]?>
           si [Tok deg!] i (1) sekunder
   ´´´
 
@@ -112,13 +112,13 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
 
       når FLAG klikkes
       for alltid
-        pek mot [musepeker]
+        pek mot [musepeker v]
         gå (10) steg
         neste drakt
-        trommeslag (62) som varer (0.3) takter
-        hvis <berører [Herbert]?>
+        trommeslag (62 v) som varer (0.3) takter
+        hvis <berører [Herbert v]?>
           send melding [Fanget!]
-          trommeslag (58) som varer (0.2) takter
+          trommeslag (58 v) som varer (0.2) takter
           vent (1) sekunder
           si [Tok deg!] i (1) sekunder
   ´´´
@@ -131,10 +131,10 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
 
   ´´´blocks
   
-      når jeg mottar [Fanget!]
-      bytt drakt til [død]
+      når jeg mottar [Fanget! v]
+      bytt drakt til [død v]
       vent (0.5) sekunder
-      bytt drakt til [levende]
+      bytt drakt til [levende v]
   ´´´
   
 
@@ -161,12 +161,12 @@ __La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde 
   ´´´blocks
 
       når FLAG klikkes
-      sett [Poeng] til (0)
+      sett [Poeng v] til (0)
       for alltid
-        endre [Poeng] med (1)
+        endre [Poeng v] med (1)
         vent (1) sekunder
-      når jeg mottar [Fanget!]
-      endre [Poeng] med (-100)
+      når jeg mottar [Fanget! v]
+      endre [Poeng v] med (-100)
       ´´´
 
 ### Test prosjektet { .flag}
