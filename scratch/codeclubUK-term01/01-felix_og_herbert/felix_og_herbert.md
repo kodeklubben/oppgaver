@@ -1,21 +1,21 @@
-h1(nivaa1). Felix og Herbert
+# Felix og Herbert
 
-h2. Introduksjon
+## Introduksjon
 
 Vi skal lage et spill hvor katten Felix skal fange musa Herbert. Du styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
-!Screengrab.PNG!
+![skjearmbilde](Screengrab.PNG)
 
 table(oversikt).
 |%(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
 | %(test)Test%| Klikk på det grønne flagget for å teste koden.|
 | %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
 
-h2(steg). Steg 1: Felix følger musepekeren
+## Steg 1: Felix følger musepekeren
 
 Vi ønsker at katten Felix skal følge etter musepekeren.
 
-h3(sjekkliste). Sjekkliste
+### Sjekkliste
 
 # Start et nytt prosjekt.
 # Trykk på 'i' i hjørnet av !sprite1.png(Sprite1)! og bytt navn på figuren til 'Felix'.
