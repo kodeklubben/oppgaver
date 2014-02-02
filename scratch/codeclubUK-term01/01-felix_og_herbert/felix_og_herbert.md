@@ -6,10 +6,10 @@ Vi skal lage et spill hvor katten Felix skal fange musa Herbert. Du styrer Herbe
 
 ![skjearmbilde](Screengrab.PNG)
 
-table(oversikt).
-|%(sjekkliste)Sjekkliste%| Følg instruksjonene på lista. Huk av etter hvert.|
-| %(test)Test%| Klikk på det grønne flagget for å teste koden.|
-| %(lagre)Lagre%| Husk å lagre koden når du har lagt til noe nytt.|
+
+|Sjekkliste| Følg instruksjonene på lista. Huk av etter hvert.|
+|Test| Klikk på det grønne flagget for å teste koden.|
+|Lagre| Husk å lagre koden når du har lagt til noe nytt.|
 
 ## Steg 1: Felix følger musepekeren
 
@@ -17,11 +17,11 @@ Vi ønsker at katten Felix skal følge etter musepekeren.
 
 ### Sjekkliste
 
-# Start et nytt prosjekt.
-# Trykk på 'i' i hjørnet av !sprite1.png(Sprite1)! og bytt navn på figuren til 'Felix'.
-# Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til !rotasjonsmate-hv.png(Høyre/venstre)!.
-# Klikk på scenen ved siden av 'Felix' i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på !velg-bakgrunn.png(Velg en ferdig bakgrunn)! for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/Brick wall2'.
-# Velg !ROOT/images/fane-skript.png(skript)!-fanen og lag dette skriptet:
+* Start et nytt prosjekt.
+* Trykk på 'i' i hjørnet av !sprite1.png(Sprite1)! og bytt navn på figuren til 'Felix'.
+* Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til !rotasjonsmate-hv.png(Høyre/venstre)!.
+* Klikk på scenen ved siden av 'Felix' i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på !velg-bakgrunn.png(Velg en ferdig bakgrunn)! for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/Brick wall2'.
+* Velg !ROOT/images/fane-skript.png(skript)!-fanen og lag dette skriptet:
 !(skript)skript1.png!
 
 h3(test). Test prosjektet
