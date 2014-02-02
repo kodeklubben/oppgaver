@@ -4,7 +4,7 @@
 
 Vi skal lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Du styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
-![skjærmbilde](Screengrab.PNG)
+![skjermbilde](Screengrab.PNG)
 
 |Sjekkliste| Følg instruksjonene på lista. Huk av etter hvert|
 |---|-----|
@@ -23,15 +23,15 @@ __Vi ønsker at katten Felix skal følge etter musepekeren.__
 + Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/brick wall2'.
 + Velg ![skript](ROOT/images/fane-skript.png)-fanen og lag dette skriptet:
 
-  [scratchblocks]
+  ´´´blocks
     
-      Når FLAG klikkes
+      Når grønt flagg klikkes
       for alltid
         pek mot [musepeker v]
         gå (10) steg
         neste drakt
         trommeslag (3 v) som varer (0.25) takter
-  [\scratchblocks]
+  ´´´
       
 
 ### Test prosjektet { .flag}
@@ -55,13 +55,13 @@ __Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.__
 + Gjør Herbert mindre enn Felix ved å trykke på ![krymp](krymp.png) (øverst mot midten av vinduet). Prøv seks klikk.
 + Gi Herbert dette skriptet:
 
-  [scratchblocks]
+  ´´´blocks
   
-      når FLAG klikkes
+      Når grønt flagg klikkes
       for alltid
         gå til [musepeker v]
         pek mot [Felix v]
-  [\scratchblocks]
+  '''
 
 ### Test prosjektet { .flag}
 
@@ -80,9 +80,9 @@ __Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.
 
 + Endre skriptet til Felix til dette:
 
-  [scratchblocks]
+  ´´´blocks
 
-      når FLAG klikkes
+      Når grønt flagg klikkes
       for alltid
         pek mot [musepeker v]
         gå (10) steg
@@ -90,7 +90,7 @@ __Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.
         trommeslag (3 v) som varer (0.25) takter
         hvis <berører [Herbert v]?>
           si [Tok deg!] i (1) sekunder
-  [\scratchblocks]
+  ´´´
 
 ### Test prosjektet { .flag}
 
@@ -108,9 +108,9 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
 
 + Endre skriptet til Felix slik at det sender en melding og lager en lyd når han fanger Herbert:
 
-  [scratchblocks]
+  ´´´blocks
 
-      når FLAG klikkes
+      Når grønt flagg klikkes
       for alltid
         pek mot [musepeker v]
         gå (10) steg
@@ -121,7 +121,7 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
           trommeslag (1 v) som varer (0.25) takter
           si [Tok deg!] i (1) sekunder
           vent (1) sekunder
-  [\scratchblocks]
+  ´´´
   
 + Velg Herbert og gå til ![drakter](ROOT/images/fane-drakter.png)-fanen.
 + Hent en ny drakt ved å trykke på ![Velg drakt fra biblioteket](figur-fra-bibliotek.png) og velg 'Fantasi/ghost2-a'
@@ -129,13 +129,13 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
 + Endre navnene på Herberts drakter slik at musedrakten heter 'levende' og spøkelsesdrakten heter 'død'.
 + Lag et nytt skript for Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle skriptet!:
 
-  [scratchblocks]
+  ´´´blocks
   
       når jeg mottar [Fanget! v]
       bytt drakt til [død v]
       vent (0.5) sekunder
       bytt drakt til [levende v]
-  [\scratchblocks]
+  ´´´
   
 
 ### Test prosjektet { .flag}
@@ -158,16 +158,16 @@ __La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde 
 ![poengsum](ny-variabel-poengsum.png)
 + Lag disse to skriptene på scenen:
 
-  [scratchblocks]
+  ´´´blocks
 
-      når FLAG klikkes
+      Når grønt flagg klikkes
       sett [Poeng v] til (0)
       for alltid
         endre [Poeng v] med (1)
         vent (1) sekunder
       når jeg mottar [Fanget! v]
       endre [Poeng v] med (-100)
-  [\scratchblocks]
+  ´´´
 
 ### Test prosjektet { .flag}
 
