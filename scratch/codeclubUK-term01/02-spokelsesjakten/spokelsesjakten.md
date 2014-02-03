@@ -163,7 +163,7 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 
 Hvis et spøkelse er bra, må vel flere være bedre! La oss ha tre spøkelser flyvende rundt! 
 
-+ __Lag flere spøkelser__ ved å høyreklikke på den du allerede har, og så kopiere denne:![lag kopi](lag-kopi.png)
++ __Lag flere spøkelser__ ved å høyreklikke på den du allerede har, og så kopiere denne.
 + __La spøkelsene få ulik størrelse__. Dette gjør du ved først å klikke på ´Drakter´, og så én av knappene under. Den til venstre forstørrer figuren og den til høyre forminsker:![](endre-storrelse.png)
 + Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i  ´hastighet´-variabelen i det øverste skriptet for hver enkelt figur.
 + Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette gjør du ved å klikke og dra figurene rundt i selve skjermbildet.
