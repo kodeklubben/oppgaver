@@ -1,3 +1,6 @@
+---
+embeds: "*.PNG"
+...
 # Felix og Herbert
 
 ## Introduksjon { .intro}
