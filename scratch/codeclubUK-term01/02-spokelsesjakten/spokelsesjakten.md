@@ -25,16 +25,17 @@ Dette prosjektet er inspirert av tivolispillet __Whack-a-mole__, 	hvor man slår
 
 Du skal nå __lage en variabel__ som styrer hvor fort spøkelset beveger seg. Denne kan vi senere bruke til å endre hastigheten når spillet er i gang.
 
-+ Klikk på 'Variabler' og deretter 'Lag en ny variabel'. Kall den __hastighet__. Huk av der det står 'For denne figuren'.
-+ På scenen skal variabelen hete __spøkelse1: hastighet__. Hvis den bare heter __hastighet__ så slett den og legg den til en gang til.  
-+ Fjern avhukingen ved siden av variabelen, slik at den ikke blir med på scenen: ![](hastighet.png)
++ Under ´Skript´, trykk på ´Data´ og lag en ny variabel. Kall den __hastighet__. Huk av der det står ´For denne figuren´.
++ På scenen skal variabelen hete __spøkelse1: hastighet__. Hvis den bare heter __hastighet__, så slett den og legg den til en gang til.  
++ Fjern avhukingen ved siden av variabelen, slik at den ikke vises på scenen: ![](hastighet.png)
 + Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi ved å lage følgende skript:
 
   ´´´blocks
+  
       Når grønt flagg klikkes
       sett [hastighet v] til (5)
       for alltid
-        gå [hastighet] steg
+        gå (hastighet) steg
   ´´´
 
 ### Test Prosjektet { .flag}
@@ -43,7 +44,7 @@ __Klikk på det grønne flagget__. Hvorfor sitter spøkelset fast når det treff
 
 ### Sjekkliste { .check}
 
-+ For å unngå at spøkelset sitter fast i veggen så må vi få det til å snu når det treffer den. Dette gjøres ved å legge til blokken 'sprett tilbake ved kanten'. Skriptet ser da slik ut:
++ For å unngå at spøkelset sitter fast i veggen så må vi få det til å snu når det treffer den. Dette gjøres ved å legge til blokken ´sprett tilbake ved kanten´. Skriptet ser da slik ut:
 
   ´´´blocks
       Når grønt flagg klikkes
