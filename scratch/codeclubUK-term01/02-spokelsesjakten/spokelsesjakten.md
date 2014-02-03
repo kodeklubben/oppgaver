@@ -25,7 +25,7 @@ Dette prosjektet er inspirert av tivolispillet __Whack-a-mole__, 	hvor man slår
 
 Du skal nå __lage en variabel__ som styrer hvor fort spøkelset beveger seg. Denne kan vi senere bruke til å endre hastigheten når spillet er i gang.
 
-+ Under ´Skript´, trykk på ´Data´ og lag en ny variabel. Kall den __hastighet__. Huk av der det står ´For denne figuren´.
++ Under ´Skript´, trykk på ´Data´ og så ´Lag en variabel´. Kall den __hastighet__. Huk av der det står ´For denne figuren´.
 + På scenen skal variabelen hete __spøkelse1: hastighet__. Hvis den bare heter __hastighet__, så slett den og legg den til en gang til.  
 + Fjern avhukingen ved siden av variabelen, slik at den ikke vises på scenen: ![](hastighet.png)
 + Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi ved å lage følgende skript:
@@ -54,7 +54,7 @@ __Klikk på det grønne flagget__. Hvorfor sitter spøkelset fast når det treff
           sprett tilbake ved kanten
   ´´´
 
-+ For å hindre at hun snur seg opp-ned, klikk på ![venstre/høyre](kun-mot-venstre-eller-hoyre.png)-knappen i figurens infoboks. 
++ For å hindre at spøkelset snur seg opp-ned, klikk på ![venstre/høyre](kun-mot-venstre-eller-hoyre.png)-knappen i spøkelsets infoboks. 
 
 ### Test prosjektet{ .flag}
 
@@ -65,7 +65,7 @@ __Klikk på det grønne flagget__.
 ### Ting å prøve { .try}
 
 + __Endre hastighetsvariabelen__, slik at spøkelset går raskere eller saktere.
-+ Hvordan kan vi få spøkelset til å __gå fortere jo lenger det flyr?__ (Dette er nokså vanskelig, så ikke være bekymret hvis du ikke skjønner hvordan. Du vil få flere hint underveis.)
++ Hvordan kan vi få spøkelset til å __fly fortere jo lenger det flyr?__ (Dette er nokså vanskelig, så ikke vær bekymret hvis du ikke skjønner hvordan. Du vil få flere hint underveis.)
 
 ## Steg 2: Få spøkelset til å dukke opp og forsvinne { .activity}
 
@@ -76,6 +76,7 @@ __For å gjøre spillet morsommere vil vi få spøkelset til å dukke opp og for
 + Vi lager et nytt skript, som skal kjøre samtidig med skriptet som beveger på spøkelset. Det nye skriptet __gjemmer bort spøkelset en tilfeldig periode__ og __viser det deretter frem igjen i en tilfeldig periode__. Dette skal skje om og om igjen, frem til spillet er slutt. Slik lager du skriptet:
 
   ´´´blocks
+  
       Når grønt flagg klikkes
       for alltid
         skjul
@@ -92,7 +93,7 @@ __Klikk på det grønne flagget__. Flytter heksa fra side til side? Forsvinner h
 
 ###Ting å prøve { .try}
 
-+ Prøv å __endre tallene i koden__ der det står 'tilfeldig tall fra ( ) til ( )'. Hva skjer hvis du velger veldig store eller små tall? (Dette gir deg kanskje et nytt hint for hvordan vi skal få heksa til å gå fortere jo lenger man spiller.)
++ Prøv å __endre tallene i koden__ der det står ´´´tilfeldig tall fra ( ) til ( )´´´. Hva skjer hvis du velger veldig store eller små tall? (Dette gir deg kanskje et nytt hint for hvordan vi skal få heksa til å gå fortere jo lenger man spiller.)
 
 ## Steg 3: Tryll bort spøkelset med et klikk! { .activity}
 
@@ -100,11 +101,11 @@ __For å gjøre dette til et ordentlig spill må vi gi spilleren noe å gjøre -
 
 ### Sjekkliste { .check}
 
-+ Fra 'Lyd'-boksen henter du lyden __Elektronisk/fairydust__.
++ Fra ´Lyd´-boksen henter du lyden __Elektronisk/fairydust__.
 + Så lager du skriptet som får __spøkelset til å forsvinne__ når det blir klikket på:
 
   ´´´blocks
-      når [spøkelse1 v] klikkes
+      når denne figuren klikkes
       skjul
       spill lyden [fairydust v]
   ´´´
@@ -128,17 +129,26 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 + Lag en ny variabel som heter __poeng__. Denne skal gjelde for alle figurer. Legg til en ny blokk som gjør at __poengvariabelen økes__ med 1 poeng for hver gang spilleren klikker på heksa.
 
   ´´´blocks
-      når [spøkelse1 v] klikkes
+      når denne figuren klikkes
       skjul
       spill lyden [fairydust v]
       endre [poeng v] med (1)
   ´´´
 
 + Klikk på 'Scene' og lag en ny variabel som heter __tid__. La variablen vises på skjermen. 
-+ Lag et nytt skript som kjører når det grønne flagget klikkes. Legg inn følgende blokker:<br> %(variabel)sett tid til% 30 (sekunder)<br> %(variabel)sett tid til%  0
-+ Bruk så en %(styring)gjenta til% -blokk %(styring)for å vente% 1 %(styring)sekunder% og deretter redusere tiden med 1 sekund ( %(variabel)endre tid med% -1 ). Denne skal kjøre fram til tiden er ute ( %(operator)tid = 0% ). <br>Til slutt stopper du hele spillet med en %(styring)stopp alle% -blokk.<br>
- 
-![skript](skript-4.png)
++ Lag et nytt skript som setter ´tid´-variabelen til __30__ og ´poeng´-variablen til __0__ når det grønne flagget klikkes. 
++ Bruk så en ´gjenta til < >´-blokk for å vente i __1__ sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre fram til tiden er ute Til slutt stopper du hele spillet med en ´stopp alle´-blokk.
+
+  ´´´blocks
+      
+      Når grønt flagg klikkes
+      sett [tid v] til (30)
+      sett [poeng v] til (0)
+      gjenta til <(tid) = 0>
+        vent (1) sekunder
+        endre [tid v] med (-1)
+      stop [alle v]
+  ´´´
 
 ### Test prosjektet { .flag}
 
@@ -146,7 +156,7 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 
 ### Ting å prøve { .try}
 
-+ Hvordan får du heksa til å gå fortere når spillet er i gang?
++ Hvordan får du spøkelset til å gå fortere når spillet er i gang?
 + __Bra jobba!__. Nå er du egentlig ferdig med spillet, men prøv deg gjerne på neste steg også.
 
 ### En ekstra utfordring: Flere hekser! { .challenge}
