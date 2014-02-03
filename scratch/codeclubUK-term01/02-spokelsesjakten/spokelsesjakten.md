@@ -159,19 +159,18 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 + Hvordan får du spøkelset til å gå fortere når spillet er i gang?
 + __Bra jobba!__. Nå er du egentlig ferdig med spillet, men prøv deg gjerne på neste steg også.
 
-### En ekstra utfordring: Flere hekser! { .challenge}
+### En ekstra utfordring: Flere spøkelser! { .challenge}
 
 Hvis et spøkelse er bra, må vel flere være bedre! La oss ha tre spøkelser flyvende rundt! 
 
-+ __Lag flere spøkelser__ ved å høyreklikke på den du allerede har, og så kopiere denne:![](lag-kopi.png)
-+ __La spøkelsene få ulik størrelse__. Dette gjør du ved først å klikke på 'Drakter' og deretter 'Rediger'. Velg så én av knappene under. Den til venstre forstørrer figuren og den til høyre forminsker:![](endre-storrelse.png)
-+ Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i  'hastighet'-variabelen i det øverste skriptet for hver enkelt figur.
-+ For at nedtellingen skal gå i riktig tempo må det nederste skriptet (det som teller ned sekunder) slettes fra to av figurene.
++ __Lag flere spøkelser__ ved å høyreklikke på den du allerede har, og så kopiere denne:![lag kopi](lag-kopi.png)
++ __La spøkelsene få ulik størrelse__. Dette gjør du ved først å klikke på ´Drakter´, og så én av knappene under. Den til venstre forstørrer figuren og den til høyre forminsker:![](endre-storrelse.png)
++ Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i  ´hastighet´-variabelen i det øverste skriptet for hver enkelt figur.
 + Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette gjør du ved å klikke og dra figurene rundt i selve skjermbildet.
 
 ### Test prosjektet { .test}
 
-+__Klikk på det grønne flagget.__ Har du nå tre hekser som flyr fra side til side? Plutselig forsvinner og dukker opp igjen? Forsvinner når du klikker på dem?
++__Klikk på det grønne flagget.__ Har du nå tre spøkelser som flyr fra side til side? Som plutselig forsvinner og dukker opp igjen? Forsvinner når du klikker på dem?
 Gratulerer! Da har du gjort alt riktig!
 
 ### Lagre prosjektet { .save}
@@ -182,4 +181,4 @@ Gratulerer! Da har du gjort alt riktig!
 + Klarer du å få spøkelsene til __å se forskjellige ut__? Klikk på 'Drakter' og prøv deg frem. Du kan også velge noen av blokkene under 'Utseende'.
 + Kan du få spøkelsene til __å bli verdt forskjellige antall poeng?__ Hva med å få den minste og raskeste til å gi 10 poeng?
 
-Bra jobba! Nå er du ferdig, og det er på tide med litt seriøs spilling. Husk også at du kan dele spillet med vennene dine. Det gjør du ved å klikke på 'Legg ut' i toppmenyen.
+Bra jobba! Nå er du ferdig, og det er på tide med litt seriøs spilling. Husk også at du kan dele spillet med vennene dine. Det gjør du ved å klikke på ´Legg ut´ i toppmenyen.
