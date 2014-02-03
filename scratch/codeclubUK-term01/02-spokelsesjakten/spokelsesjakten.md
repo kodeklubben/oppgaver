@@ -5,7 +5,7 @@
 Dette prosjektet er inspirert av tivolispillet __Whack-a-mole__, 	hvor man slår muldvarper ned igjen i hullene sine. I vårt spill er det spøkelsene som blir borte når vi klikker på dem. Målet er å klikke bort flest mulig i løpet av 30 sekunder.
 
 
-![skjermbilde](skjermbilde-tre-hekser.png)
+![skjermbilde](tre_spoekelser_screenshot.png)
 
 
 |Sjekkliste| Følg instruksjonene på lista. Huk av etter hvert|
