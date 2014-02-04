@@ -1,6 +1,6 @@
 ---
 language: nb-NO
-embeds: "*.png"
+embeds: ["*.png", "../../../../images/fane-skript.png", "../../../../images/fane-drakter.png", "../../../../images/fane-skript.png", "../../../../images/kategori-data.png"]
 ...
 # Felix og Herbert
 
@@ -25,7 +25,7 @@ __Vi ønsker at katten Felix skal følge etter musepekeren.__
 + Trykk på ´i´ i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til Felix.
 + Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til ![Høyre/Venstre](rotasjonsmate-hv.png).
 + Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/brick wall2'.
-+ Velg ![skript](ROOT/images/fane-skript.png)-fanen og lag dette skriptet:
++ Velg ![skript](fane-skript.png)-fanen og lag dette skriptet:
 
 ```blocks
 Når grønt flagg klikkes
@@ -123,7 +123,7 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
           vent (1) sekunder
 ```
   
-+ Velg Herbert og gå til ![drakter](ROOT/images/fane-drakter.png)-fanen.
++ Velg Herbert og gå til ![drakter](fane-drakter.png)-fanen.
 + Hent en ny drakt ved å trykke på ![Velg drakt fra biblioteket](figur-fra-bibliotek.png) og velg 'Fantasi/ghost2-a'
 + Gjør drakten mindre ved å velge ![Krymp](krymp.png) og trykke seks ganger på spøkelsesdrakten.
 + Endre navnene på Herberts drakter slik at musedrakten heter 'levende' og spøkelsesdrakten heter 'død'.
@@ -153,7 +153,7 @@ __La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde 
 
 ### Sjekkliste { .check}
 
-+ På ![skript](ROOT/images/fane-skript.png)-fanen under kategorien ![Data](ROOT/images/kategori-data.png), lag en ny variabel. La den gjelde for alle figurer og kall den 'Poeng'.
++ På ![skript](fane-skript.png)-fanen under kategorien ![Data](kategori-data.png), lag en ny variabel. La den gjelde for alle figurer og kall den 'Poeng'.
 ![poengsum](ny-variabel-poengsum.png)
 + Lag disse to skriptene på scenen:
 
