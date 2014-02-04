@@ -1,25 +1,28 @@
 ---
+title: Felix og Herbert
+level: 01
 language: nb-NO
 embeds: ["*.png", "../../../../images/fane-skript.png", "../../../../images/fane-drakter.png", "../../../../images/fane-skript.png", "../../../../images/kategori-data.png"]
 ...
+
 # Felix og Herbert
 
-## Introduksjon { .intro}
+# Introduksjon { .intro}
 
 Vi skal lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Du styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
-![skjermbilde](Screengrab.PNG)
+![skjermbilde](screengrab.png)
 
 |Sjekkliste| Følg instruksjonene på lista. Huk av etter hvert|
 |---|-----|
 |**Test**| **Klikk på det grønne flagget for å teste koden**|
 |**Lagre**| **Husk å lagre koden når du har lagt til noe nytt**|
 
-## Steg 1: Felix følger musepekeren { .activity}
+# Steg 1: Felix følger musepekeren { .activity}
 
 __Vi ønsker at katten Felix skal følge etter musepekeren.__
 
-### Sjekkliste{ .check}
+## Sjekkliste{ .check}
 
 + Start et nytt prosjekt.
 + Trykk på ´i´ i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til Felix.
@@ -37,7 +40,7 @@ for alltid
 ```
       
 
-### Test prosjektet { .flag}
+## Test prosjektet { .flag}
 
 __Klikk på det grønne flagget.__
 
@@ -45,13 +48,13 @@ __Klikk på det grønne flagget.__
 + Ser det ut som han går når han beveger seg?
 + Beveger han seg med riktig hastighet?
 
-### Lagre prosjektet { .save}
+## Lagre prosjektet { .save}
 
-## Steg 2: Felix jager Herbert { .activity}
+# Steg 2: Felix jager Herbert { .activity}
 
 __Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.__
 
-### Sjekkliste { .check}
+## Sjekkliste { .check}
 
 + Lag en ny figur ved å trykke på ![Velg figur fra biblioteket](figur-fra-bibliotek.png) og velg figuren 'Dyr/Mouse1'.
 + Bytt navn på figuren til Herbert og sørg for at også Herbert kun kan se til høyre og venstre ![Høyre/Venstre](rotasjonsmate-hv.png).
@@ -65,20 +68,20 @@ __Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.__
         pek mot [Felix v]
 ```
 
-### Test prosjektet { .flag}
+## Test prosjektet { .flag}
 
 __Klikk på det grønne flagget.__
 
 + Flytter Herbert seg med musepekeren?
 + Jager Felix Herbert?
 
-### Lagre prosjektet { .save}
+## Lagre prosjektet { .save}
 
-## Steg 3: Felix sier når han har fanget Herbert { .activity}
+# Steg 3: Felix sier når han har fanget Herbert { .activity}
 
 __Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.__
 
-### Sjekkliste { .check}
+## Sjekkliste { .check}
 
 + Endre skriptet til Felix til dette:
 
@@ -93,19 +96,19 @@ __Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.
           si [Tok deg!] i (1) sekunder
 ```
 
-### Test prosjektet { .flag}
+## Test prosjektet { .flag}
 
 __Klikk på det grønne flagget.__
 
 + Sier Felix fra når han har fanget Herbert?
 
-### Lagre prosjektet { .save}
+## Lagre prosjektet { .save}
 
-## Steg 4: Herbert blir et spøkelse når han fanges { .activity}
+# Steg 4: Herbert blir et spøkelse når han fanges { .activity}
 
 __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøkelse når han fanges.__
 
-### Sjekkliste { .check}
+## Sjekkliste { .check}
 
 + Endre skriptet til Felix slik at det sender en melding og lager en lyd når han fanger Herbert:
 
@@ -137,7 +140,7 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
 ```
   
 
-### Test prosjektet { .flag}
+## Test prosjektet { .flag}
 
 __Klikk på det grønne flagget.__
 
@@ -145,13 +148,13 @@ __Klikk på det grønne flagget.__
 + Spiller Felix de riktige lydene til riktig tid?
 + Står Felix stille lenge nok til at Herbert kommer seg unna?
 
-### Lagre prosjektet { .save}
+## Lagre prosjektet { .save}
 
-## Steg 5: Telle poeng { .activity}
+# Steg 5: Telle poeng { .activity}
 
 __La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde Herbert i live. Vi begynner med poengsummen null og øker den med en for hvert sekund. Hvis Felix fanger Herbert, minker vi poengsummen med hundre.__
 
-### Sjekkliste { .check}
+## Sjekkliste { .check}
 
 + På ![skript](fane-skript.png)-fanen under kategorien ![Data](kategori-data.png), lag en ny variabel. La den gjelde for alle figurer og kall den 'Poeng'.
 ![poengsum](ny-variabel-poengsum.png)
@@ -167,7 +170,7 @@ __La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde 
       endre [Poeng v] med (-100)
 ```
 
-### Test prosjektet { .flag}
+## Test prosjektet { .flag}
 
 __Klikk på det grønne flagget.__
 
@@ -176,8 +179,9 @@ __Klikk på det grønne flagget.__
 + Hva skjer når Herbert fanges før du har hundre poeng?
 + Går poengsummen tilbake til null når du starter spillet på nytt?
 
-### Lagre prosjektet { .save}
+## Lagre prosjektet { .save}
 
 __Du er ferdig. Godt gjort. Nå kan du spille spillet!__
+
 Husk at du kan dele spillet med familie og venner ved å trykke 'Legg ut' på menylinjen.
 
