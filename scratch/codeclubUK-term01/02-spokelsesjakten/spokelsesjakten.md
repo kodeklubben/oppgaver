@@ -44,7 +44,7 @@ __Klikk på det grønne flagget__. Hvorfor sitter spøkelset fast når det treff
 
 ### Sjekkliste { .check}
 
-+ For å unngå at spøkelset sitter fast i veggen så må vi få det til å snu når det treffer den. Dette gjøres ved å legge til blokken ´sprett tilbake ved kanten´. Skriptet ser da slik ut:
++ For å unngå at spøkelset sitter fast i veggen må vi få det til å snu når det treffer den. Dette gjøres ved å legge til blokken ´sprett tilbake ved kanten´. Skriptet ser da slik ut:
 
   ´´´blocks
       Når grønt flagg klikkes
@@ -137,7 +137,7 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 
 + Klikk på 'Scene' og lag en ny variabel som heter __tid__. La variablen vises på skjermen. 
 + Lag et nytt skript som setter ´tid´-variabelen til __30__ og ´poeng´-variablen til __0__ når det grønne flagget klikkes. 
-+ Bruk så en ´gjenta til < >´-blokk for å vente i __1__ sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre fram til tiden er ute Til slutt stopper du hele spillet med en ´stopp alle´-blokk.
++ Bruk så en ´gjenta til < >´-blokk for å vente i __1__ sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre fram til tiden er ute. Til slutt stopper du hele spillet med en ´stopp alle´-blokk.
 
   ´´´blocks
       
@@ -156,16 +156,16 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 
 ### Ting å prøve { .try}
 
-+ Hvordan får du spøkelset til å gå fortere når spillet er i gang?
++ Hvordan kan du få spøkelset til å gå fortere når spillet er i gang?
 + __Bra jobba!__. Nå er du egentlig ferdig med spillet, men prøv deg gjerne på neste steg også.
 
 ### En ekstra utfordring: Flere spøkelser! { .challenge}
 
-Hvis et spøkelse er bra, må vel flere være bedre! La oss ha tre spøkelser flyvende rundt! 
+Hvis ett spøkelse er bra, må vel flere være enda bedre! La oss ha tre spøkelser flyvende rundt! 
 
 + __Lag flere spøkelser__ ved å høyreklikke på den du allerede har, og så kopiere denne.
 + __La spøkelsene få ulik størrelse__. Dette gjør du ved først å klikke på ´Drakter´, og så én av knappene under. Den til venstre forstørrer figuren og den til høyre forminsker:![](endre-storrelse.png)
-+ Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i  ´hastighet´-variabelen i det øverste skriptet for hver enkelt figur.
++ Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i ´hastighet´-variabelen i det øverste skriptet for hver enkelt figur.
 + Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette gjør du ved å klikke og dra figurene rundt i selve skjermbildet.
 
 ### Test prosjektet { .test}
