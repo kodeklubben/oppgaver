@@ -1,3 +1,8 @@
+---
+language: nb-NO
+embeds: ["*.png"]
+...
+
 # Spøkelsesjakten
 
 ## Introduksjon { .intro}
@@ -30,13 +35,12 @@ Du skal nå __lage en variabel__ som styrer hvor fort spøkelset beveger seg. De
 + Fjern avhukingen ved siden av variabelen, slik at den ikke vises på scenen: ![](hastighet.png)
 + Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi ved å lage følgende skript:
 
-  ´´´blocks
-  
-      Når grønt flagg klikkes
-      sett [hastighet v] til (5)
-      for alltid
-        gå (hastighet) steg
-  ´´´
+```blocks
+	Når grønt flagg klikkes
+		sett [hastighet v] til (5)
+		for alltid
+		gå (hastighet) steg
+```
 
 ### Test Prosjektet { .flag}
 
@@ -46,13 +50,13 @@ __Klikk på det grønne flagget__. Hvorfor sitter spøkelset fast når det treff
 
 + For å unngå at spøkelset sitter fast i veggen må vi få det til å snu når det treffer den. Dette gjøres ved å legge til blokken ´sprett tilbake ved kanten´. Skriptet ser da slik ut:
 
-  ´´´blocks
-      Når grønt flagg klikkes
-        sett [hastighet v] til (5)
-        for alltid
-          gå [hastighet] steg
-          sprett tilbake ved kanten
-  ´´´
+	```blocks
+	Når grønt flagg klikkes
+		sett [hastighet v] til (5)
+		for alltid
+			gå [hastighet] steg
+			sprett tilbake ved kanten
+	```
 
 + For å hindre at spøkelset snur seg opp-ned, klikk på ![venstre/høyre](kun-mot-venstre-eller-hoyre.png)-knappen i spøkelsets infoboks. 
 
@@ -75,15 +79,14 @@ __For å gjøre spillet morsommere vil vi få spøkelset til å dukke opp og for
 
 + Vi lager et nytt skript, som skal kjøre samtidig med skriptet som beveger på spøkelset. Det nye skriptet __gjemmer bort spøkelset en tilfeldig periode__ og __viser det deretter frem igjen i en tilfeldig periode__. Dette skal skje om og om igjen, frem til spillet er slutt. Slik lager du skriptet:
 
-  ´´´blocks
-  
-      Når grønt flagg klikkes
-      for alltid
-        skjul
-        vent (tilfeldig tall fra (2) til (5)) sekunder
-        vis
-        vent (tilfeldig tall fra (3) til (5)) sekunder
-  ´´´
+```blocks
+	Når grønt flagg klikkes
+	for alltid
+		skjul
+		vent (tilfeldig tall fra (2) til (5)) sekunder
+		vis
+		vent (tilfeldig tall fra (3) til (5)) sekunder
+```
 
 ### Test prosjektet { .flag}
 
@@ -93,7 +96,7 @@ __Klikk på det grønne flagget__. Flytter heksa fra side til side? Forsvinner h
 
 ###Ting å prøve { .try}
 
-+ Prøv å __endre tallene i koden__ der det står ´´´tilfeldig tall fra ( ) til ( )´´´. Hva skjer hvis du velger veldig store eller små tall? (Dette gir deg kanskje et nytt hint for hvordan vi skal få heksa til å gå fortere jo lenger man spiller.)
++ Prøv å __endre tallene i koden__ der det står ```tilfeldig tall fra ( ) til ( )```. Hva skjer hvis du velger veldig store eller små tall? (Dette gir deg kanskje et nytt hint for hvordan vi skal få heksa til å gå fortere jo lenger man spiller.)
 
 ## Steg 3: Tryll bort spøkelset med et klikk! { .activity}
 
@@ -104,11 +107,11 @@ __For å gjøre dette til et ordentlig spill må vi gi spilleren noe å gjøre -
 + Fra ´Lyd´-boksen henter du lyden __Elektronisk/fairydust__.
 + Så lager du skriptet som får __spøkelset til å forsvinne__ når det blir klikket på:
 
-  ´´´blocks
-      når denne figuren klikkes
-      skjul
-      spill lyden [fairydust v]
-  ´´´
+```blocks
+	når denne figuren klikkes
+		skjul
+		spill lyden [fairydust v]
+```
   
 ### Test prosjektet { .flag}
 
@@ -128,27 +131,26 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 
 + Lag en ny variabel som heter __poeng__. Denne skal gjelde for alle figurer. Legg til en ny blokk som gjør at __poengvariabelen økes__ med 1 poeng for hver gang spilleren klikker på heksa.
 
-  ´´´blocks
-      når denne figuren klikkes
-      skjul
-      spill lyden [fairydust v]
-      endre [poeng v] med (1)
-  ´´´
+```blocks
+	når denne figuren klikkes
+		skjul
+		spill lyden [fairydust v]
+		endre [poeng v] med (1)
+```
 
 + Klikk på 'Scene' og lag en ny variabel som heter __tid__. La variablen vises på skjermen. 
 + Lag et nytt skript som setter ´tid´-variabelen til __30__ og ´poeng´-variablen til __0__ når det grønne flagget klikkes. 
 + Bruk så en ´gjenta til < >´-blokk for å vente i __1__ sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre fram til tiden er ute. Til slutt stopper du hele spillet med en ´stopp alle´-blokk.
 
-  ´´´blocks
-      
-      Når grønt flagg klikkes
-      sett [tid v] til (30)
-      sett [poeng v] til (0)
-      gjenta til <(tid) = 0>
-        vent (1) sekunder
-        endre [tid v] med (-1)
-      stop [alle v]
-  ´´´
+```blocks   
+	Når grønt flagg klikkes
+	sett [tid v] til (30)
+	sett [poeng v] til (0)
+	gjenta til <(tid) = 0>
+		vent (1) sekunder
+		endre [tid v] med (-1)
+	stop [alle v]
+```
 
 ### Test prosjektet { .flag}
 
