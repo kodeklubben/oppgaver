@@ -89,7 +89,7 @@ __Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.
         gå (10) steg
         neste drakt
         trommeslag (3 v) som varer (0.25) takter
-        hvis <berører [Herbert v]?>
+        hvis (berører [Herbert v]?)
           si [Tok deg!] i (1) sekunder
 ```
 
@@ -116,7 +116,7 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
         gå (10) steg
         neste drakt
         trommeslag (3 v) som varer (0.25) takter
-        hvis <berører [Herbert v]?>
+        hvis (berører [Herbert v]?)
           send melding [Fanget!]
           trommeslag (1 v) som varer (0.25) takter
           si [Tok deg!] i (1) sekunder
