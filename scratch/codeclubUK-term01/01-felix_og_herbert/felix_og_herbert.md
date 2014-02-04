@@ -8,7 +8,7 @@ embeds: "*.png"
 
 Her skal vi lage et spill hvor katten __Felix__  fanger musa __Herbert__. Du styrer Herbert med musepekeren, og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham, jo flere poeng får du. Men blir du tatt går poengsummen din ned.
 
-![skjermbilde](Screengrab.PNG)
+![skjermbilde](screengrab.png)
 
 |Sjekkliste| Følg instruksjonene på lista. Huk av etter hvert|
 |---|-----|
