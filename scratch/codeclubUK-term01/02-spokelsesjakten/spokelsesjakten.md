@@ -1,6 +1,6 @@
 ---
 title: Spøkelsesjakten
-level: 02
+level: 1.2
 language: nb-NO
 embeds: ["*.png"]
 ...
