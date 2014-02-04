@@ -1,5 +1,6 @@
 ---
-embeds: "*.PNG"
+language: nb-NO
+embeds: "*.png"
 ...
 # Felix og Herbert
 
