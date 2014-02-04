@@ -1,6 +1,6 @@
 ---
 title: Felix og Herbert
-level: 01
+level: 1.1
 language: nb-NO
 embeds: ["*.png", "../../../../images/fane-skript.png", "../../../../images/fane-drakter.png", "../../../../images/fane-skript.png", "../../../../images/kategori-data.png"]
 ...
