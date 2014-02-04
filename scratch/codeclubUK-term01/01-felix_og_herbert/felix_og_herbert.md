@@ -6,9 +6,9 @@ embeds: "*.png"
 
 ## Introduksjon { .intro}
 
-Her skal vi lage et spill hvor katten __Felix__  fanger musa __Herbert__. Du styrer Herbert med musepekeren, og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham, jo flere poeng får du. Men blir du tatt går poengsummen din ned.
+Vi skal lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Du styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
-![skjermbilde](screengrab.png)
+![skjermbilde](Screengrab.PNG)
 
 |Sjekkliste| Følg instruksjonene på lista. Huk av etter hvert|
 |---|-----|
@@ -21,11 +21,11 @@ __Vi ønsker at katten Felix skal følge etter musepekeren.__
 
 ### Sjekkliste{ .check}
 
-+ Start et nytt prosjekt i Scratch.
-+ Trykk på ´i´ i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til 'Felix'.
-+ Sørg for at Felix kun ser til høyre og venstre, ved å sette rotasjonsmåte til ![Høyre/Venstre](rotasjonsmate-hv.png).
++ Start et nytt prosjekt.
++ Trykk på ´i´ i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til Felix.
++ Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til ![Høyre/Venstre](rotasjonsmate-hv.png).
 + Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/brick wall2'.
-+ Velg ![skript](../../../../images/fane-skript.png)-fanen og lag dette skriptet:
++ Velg ![skript](ROOT/images/fane-skript.png)-fanen og lag dette skriptet:
 
 ```blocks
 Når grønt flagg klikkes
@@ -54,8 +54,8 @@ __Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.__
 ### Sjekkliste { .check}
 
 + Lag en ny figur ved å trykke på ![Velg figur fra biblioteket](figur-fra-bibliotek.png) og velg figuren 'Dyr/Mouse1'.
-+ Bytt navn på figuren til 'Herbert', og sørg for at også Herbert bare kan se til høyre og venstre ![Høyre/Venstre](rotasjonsmate-hv.png).
-+ Gjør Herbert mindre enn Felix, ved å trykke på ![krymp](krymp.png) (øverst mot midten av vinduet). Prøv seks klikk.
++ Bytt navn på figuren til Herbert og sørg for at også Herbert kun kan se til høyre og venstre ![Høyre/Venstre](rotasjonsmate-hv.png).
++ Gjør Herbert mindre enn Felix ved å trykke på ![krymp](krymp.png) (øverst mot midten av vinduet). Prøv seks klikk.
 + Gi Herbert dette skriptet:
 
 ```blocks
@@ -107,7 +107,7 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
 
 ### Sjekkliste { .check}
 
-+ Endre skriptet til Felix, slik at det sender en melding og lager en lyd når han fanger Herbert:
++ Endre skriptet til Felix slik at det sender en melding og lager en lyd når han fanger Herbert:
 
 ```blocks
       Når grønt flagg klikkes
@@ -123,11 +123,11 @@ __I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøk
           vent (1) sekunder
 ```
   
-+ Velg Herbert og gå til ![drakter](../../../../images/fane-drakter.png)-fanen.
++ Velg Herbert og gå til ![drakter](ROOT/images/fane-drakter.png)-fanen.
 + Hent en ny drakt ved å trykke på ![Velg drakt fra biblioteket](figur-fra-bibliotek.png) og velg 'Fantasi/ghost2-a'
 + Gjør drakten mindre ved å velge ![Krymp](krymp.png) og trykke seks ganger på spøkelsesdrakten.
 + Endre navnene på Herberts drakter slik at musedrakten heter 'levende' og spøkelsesdrakten heter 'død'.
-+ Lag et nytt skript for Herbert for å gjøre ham om til et spøkelse - men ikke slett det gamle skriptet!:
++ Lag et nytt skript for Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle skriptet!:
 
 ```blocks
       når jeg mottar [Fanget! v]
@@ -149,11 +149,11 @@ __Klikk på det grønne flagget.__
 
 ## Steg 5: Telle poeng { .activity}
 
-__La oss legge til en poengsum slik at en kan se hvor flink man er til å holde Herbert i live. Vi begynner med poengsummen 0 og øker den med ett poeng for hvert sekund. Hvis Felix fanger Herbert, reduserer vi poengsummen med 100.__
+__La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde Herbert i live. Vi begynner med poengsummen null og øker den med en for hvert sekund. Hvis Felix fanger Herbert, minker vi poengsummen med hundre.__
 
 ### Sjekkliste { .check}
 
-+ På ![skript](../../../../images/fane-skript.png)-fanen under kategorien ![Data](../../../../images/kategori-data.png), lag en ny variabel. La den gjelde for alle figurer og kall den 'Poeng'.
++ På ![skript](ROOT/images/fane-skript.png)-fanen under kategorien ![Data](ROOT/images/kategori-data.png), lag en ny variabel. La den gjelde for alle figurer og kall den 'Poeng'.
 ![poengsum](ny-variabel-poengsum.png)
 + Lag disse to skriptene på scenen:
 
@@ -171,10 +171,10 @@ __La oss legge til en poengsum slik at en kan se hvor flink man er til å holde 
 
 __Klikk på det grønne flagget.__
 
-+ Øker poengsummen med 1 hvert sekund?
-+ Går poengsummen ned med 100 når Herbert blir fanget?
-+ Hva skjer hvis Herbert fanges før du har 100 poeng?
-+ Går poengsummen tilbake til 0 når du starter spillet på nytt?
++ Øker poengsummen med en hvert sekund?
++ Går poengsummen ned med hundre når Herbert blir fanget?
++ Hva skjer når Herbert fanges før du har hundre poeng?
++ Går poengsummen tilbake til null når du starter spillet på nytt?
 
 ### Lagre prosjektet { .save}
 
