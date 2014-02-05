@@ -148,7 +148,7 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 	Når grønt flagg klikkes
 	sett [tid v] til (30)
 	sett [poeng v] til (0)
-	gjenta til <(tid) = 0>
+	gjenta til ((tid) = (0))
 		vent (1) sekunder
 		endre [tid v] med (-1)
 	stop [alle v]
