@@ -56,7 +56,7 @@ __Klikk på det grønne flagget__. Hvorfor sitter spøkelset fast når det treff
 	Når grønt flagg klikkes
 		sett [hastighet v] til (5)
 		for alltid
-			gå [hastighet] steg
+			gå (hastighet) steg
 			sprett tilbake ved kanten
 	```
 
