@@ -7,114 +7,114 @@ embeds: "*.png"
 materials: "*.sb2"
 ...
 
-# Introduction { .intro}
-__In this project we’ll make our own version of the highly popular mobile game Flappy Bird. This project requires Scratch 2.0.__
-Press the space bar to flap and try to navigate through the gaps in the pipes!
+# Introduksjon { .intro}
+__I denne oppgaven skal vi lage vår egen versjon av spillet Flappy Bird.__
+Trykk på mellomromstasten for å flakse og prøv å styre mellom rørene!
 
 ![screenshot](flappy_screenshot.png)
 
-#**Step 1:** Make Flappy fall {.activity}
+#**Steg 1:** Få Flappy til å falle {.activity}
 
-## Activity Checklist { .check}
+## Sjekkliste { .check}
 
-+ Start a new Scratch project. Delete the cat by right-clicking it and selecting Delete
-+ Replace the background with an outdoor landscape. **desert** is a good choice.
-+ Add the Flappy character. You'll need a sprite with costumes for wings up and wings down. **parrot** is a good choice.
-+ Change the name of your sprite to __Flappy__.
-+ Give Flappy the following script:
++ Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke den og velge "Slett".
++ Bytt ut bakgrunnen med et utendørslandskap. **desert** er et bra valg.
++ Legg til Flapppy-figuren. Du trenger en figur drakter for vinger opp og vinger ned. **parrot** er et bra forslag.
++ Bytt navn på figuren til __Flappy__.
++ Gi Flappy dette scriptet:
 
 ```blocks
-when FLAG clicked
-	go to x: (-50) y: (0)
-	forever
-		change y by (-3)
+når Grønt flagg klikkes
+	gå til x: (-50) y: (0)
+	for alltid
+		endre y med (-3)
 ```
 
-## Test Your Project { .flag}
+## Test prsjektet ditt { .flag}
 
-__Click the green flag__, does Flappy start in the middle of the screen and then fall to the bottom?
+__klikk det grønne flagget__, starter Flappy midt på skjermen og faller mot bunnen?
 
-## Save your project { .save}
+## Lagre prosjektet ditt hvis du kan { .save}
 
-#**Step 2:** Make Flappy fly {.activity}
+#**Steg 2:** Få Flappy til å fly {.activity}
 
-*Next, we want Flappy to flap upwards when you press the space bar.*
+*Nå vil vi at Flappy flyr oppover når du trykker mellomrom.*
 
-##Activity Checklist { .check}
+##Sjekkliste { .check}
 
-+ Click on the __Costumes__ tab and name the costumes **wings up** and **wings down**.
-+ Now switch back to the __Scripts__ tab and add this script:
++ Klikk på __Drakter__ og gi de to draktene navnene **Vinger opp** og **Vinger ned**.
++ Gå tilbake til __Skript__ og legg til dette skriptet:
 
 ```blocks
-when [space v] key pressed
-	switch costume to [wings down v]
-	repeat (10)
-		change y by (6)
+Når [mellomrom] trykkes
+	bytt drakt til [Vinger ned]
+	gjenta (10) ganger
+		endre y med (6)
 	end
-	switch costume to [wings up v]
-	repeat (10)
-		change y by (6)
+	bytt drakt til [Vinger opp]
+	gjenta (10) ganger
+		endre y med (6)
 	end
 ```
 
-## Test Your Project { .flag}
+## Test prosjektet ditt { .flag}
 
-__Click the green flag__, are you able to control Flappy with the space bar? Do you notice that sometimes you press the space bar but Flappy doesn't move? We'll fix that next...
+__Klikk det grønne flagget__, klarer du å kontrollere Flappy med mellomromstasten? La du merke til at noen ganger så flytter ikke Flappy seg når du trykker mellomrom? Det er det neste vi skal fikse.
 
-## Save your project { .save}
+## Lagre prosjektet ditt { .save}
 
-#**Step 3:** Fix the controls {.activity}
+#**Steg 3:** Gjør kontrollen bedre {.activity}
 
-*We'd like Flappy to respond every time we press the space bar. But when we push the space bar Flappy begins two loops of movements. If we push the space bar again before these loops have finished, Scratch ignores the second press. To solve this, we'll use a variable to count up how many flaps we need to do.*
+*Vi vil at Flappy skal reagere hver gang vi trykker mellomrom. Men når vi trykker mellomrom så starter to løkker etterhverandre. Hvis vi trykke rmellomrom før disse to løkkene er ferdig så skjer det ikke noe. For å løse dette problemet skal vi bruke en variabel til å telle hvor mange flaks vi trenger å gjøre.*
 
-##Activity Checklist { .check}
+##Sjekkliste { .check}
 
-+ Disconnect the blocks under the `when space key pressed` {.blockbrown} and put them to the side (we'll use them in a few moments.)
-+ Make a new variable `For this sprite only` {.blockgrey} and call it `flaps` {.blockorange}.
-+ Add the following script by draging in the blocks you put aside:
++ Ta fra hverandre skriptet som starter med `når mellomrom trykkes` {.blockbrown} og legg de til siden. Vi skal bruke de straks.
++ Lag en ny variabel `For denne figuren` {.blockgrey} og kall den `flaks` {.blockorange}.
++ Legg til dette skriptet ved å bruke blokkene du la til siden:
 
 ```blocks
-when FLAG clicked
-	set [flaps v] to [0]
-	switch costume to [wings up v]
-	forever
-		repeat until <(flaps) = [0]>
-			change [flaps v] by (-1)
-			switch costume to [wings down v]
-			repeat (10)
-				change y by (6)
-			end
-			switch costume to [wings up v]
-			repeat (10)
-				change y by (6)
-			end
+når grønt flagg klikkes
+	sett [flaks] til [0]
+	bytt drakt til [Vinger opp]
+	for alltid
+		gjenta til <(flaks) = [0]>
+			endre [flaks] med (-1)
+			bytt drakt til [Vinger ned]
+			gjenta (10) ganger
+				endre y med (6)
+			slutt
+			bytt drakt til [Vinger opp]
+			gjenta (10) ganger
+				endre y med (6)
+			slutt
 
 ```
 
-+ Finally, add to your `when space key pressed` {.blockbrown} event:
++ Til slutt, legg til dette skriptet på `når mellomrom trykkes` {.blockbrown} knappen:
 
 ```blocks
-when [space v] key pressed
-	change [flaps v] by (1)
+når [mellomrom] trykkes
+	endre [flaks] med (1)
 ```
 
-## Test Your Project { .flag}
+## Test prosjektet{ .flag}
 
-__Click the green flag__, does Flappy now flap once for each time you press the space bar?
+__Klikk det grønne flagget__, Flakser Flappy en gang for hver gang du trykker mellomrom??
 
-## Save your project { .save}
+## Lagre prosjektet ditt om det trengs { .save}
 
-#**Step 4:** Add the pipes {.activity}
+#**Steg 4:** Legg til rørene {.activity}
 
-*Next we'll add some obstacles for Flappy to fly through.*
+*Vi vil legge til noen hindringer som Flappy kan fly igjennom.*
 
-##Activity Checklist { .check}
+##Sjekkliste { .check}
 
-+ Click on the `Paint new sprite` {.blockgrey} button.
-+ Name your costume **pipe**.
-+ If the costume is in `Bitmap Mode` {.blockgrey} click on the `Convert to vector` {.blockgrey} button.
-+ Click on the `Zoom -` {.blockgrey} so that you can see the entire drawing area.
-+ Click on the `Rectangle` {.blockgrey}, pick a colour, and click on the `Filled rectangle` {.blockgrey} button.
++ Klikk på `tegn ny figur` {.blockgrey} knappen.
++ Gi den nye figuren navnet **rør**.
++ Hvis drakten er i `Punktgrafikk` {.blockgrey} klikk på `Bytt til vektorgrafikk` {.blockgrey} knappen.
++ Klikk på `Zoom -` {.blockgrey} så du kan se hele tegneområdet.
++ Klikk på `Rektangel` {.blockgrey}, pick a colour, and click on the `Filled rectangle` {.blockgrey} button.
 + Click and drag two boxes, one from the top middle and one from the bottom middle as shown:
 
 ![screenshot](pipe_design.png)
