@@ -1,5 +1,5 @@
 ---
-title: Flappy Parrot
+title: Flaksefugl
 level: Level 2
 language: en-GB
 stylesheet: scratch
@@ -13,14 +13,14 @@ Trykk på mellomromstasten for å flakse og prøv å styre mellom rørene!
 
 ![screenshot](flappy_screenshot.png)
 
-#**Steg 1:** Få Flappy til å falle {.activity}
+#**Steg 1:** Få Flakse til å falle {.activity}
 
 ## Sjekkliste { .check}
 
 + Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke den og velge "Slett".
 + Bytt ut bakgrunnen med et utendørslandskap. **desert** er et bra valg.
-+ Legg til Flapppy-figuren. Du trenger en figur drakter for vinger opp og vinger ned. **parrot** er et bra forslag.
-+ Bytt navn på figuren til __Flappy__.
++ Legg til Flapppy-figuren. Du trenger en figur med drakter for vinger opp og vinger ned. **parrot** er et bra forslag.
++ Bytt navn på figuren til __Flakse__.
 + Gi Flappy dette scriptet:
 
 ```blocks
@@ -30,15 +30,15 @@ når Grønt flagg klikkes
 		endre y med (-3)
 ```
 
-## Test prsjektet ditt { .flag}
+## Test prosjektet ditt { .flag}
 
-__klikk det grønne flagget__, starter Flappy midt på skjermen og faller mot bunnen?
+__klikk det grønne flagget__: starter Flakse midt på skjermen og faller mot bunnen?
 
 ## Lagre prosjektet ditt hvis du kan { .save}
 
-#**Steg 2:** Få Flappy til å fly {.activity}
+#**Steg 2:** Få Flakse til å fly {.activity}
 
-*Nå vil vi at Flappy flyr oppover når du trykker mellomrom.*
+*Nå vil vi at Flakse skal fly oppover når du trykker mellomrom.*
 
 ##Sjekkliste { .check}
 
@@ -59,17 +59,17 @@ Når [mellomrom] trykkes
 
 ## Test prosjektet ditt { .flag}
 
-__Klikk det grønne flagget__, klarer du å kontrollere Flappy med mellomromstasten? La du merke til at noen ganger så flytter ikke Flappy seg når du trykker mellomrom? Det er det neste vi skal fikse.
+__Klikk det grønne flagget__: klarer du å kontrollere Flakse med mellomromstasten? La du merke til at noen ganger så flytter ikke Flakse seg når du trykker mellomrom? Det er det neste vi skal fikse.
 
 ## Lagre prosjektet ditt { .save}
 
 #**Steg 3:** Gjør kontrollen bedre {.activity}
 
-*Vi vil at Flappy skal reagere hver gang vi trykker mellomrom. Men når vi trykker mellomrom så starter to løkker etterhverandre. Hvis vi trykke rmellomrom før disse to løkkene er ferdig så skjer det ikke noe. For å løse dette problemet skal vi bruke en variabel til å telle hvor mange flaks vi trenger å gjøre.*
+*Vi vil at Flakse skal reagere hver gang vi trykker mellomrom. Men når vi trykker mellomrom så starter to løkker etterhverandre. Hvis vi trykker mellomrom før disse to løkkene er ferdig så skjer det ikke noe. For å løse dette problemet skal vi bruke en variabel til å telle hvor mange flaks vi trenger å gjøre.*
 
 ##Sjekkliste { .check}
 
-+ Ta fra hverandre skriptet som starter med `når mellomrom trykkes` {.blockbrown} og legg de til siden. Vi skal bruke de straks.
++ Ta fra hverandre skriptet som starter med `når mellomrom trykkes` {.blockbrown} og legg de til siden. Vi skal bruke klossene straks.
 + Lag en ny variabel `For denne figuren` {.blockgrey} og kall den `flaks` {.blockorange}.
 + Legg til dette skriptet ved å bruke blokkene du la til siden:
 
@@ -91,7 +91,7 @@ når grønt flagg klikkes
 
 ```
 
-+ Til slutt, legg til dette skriptet på `når mellomrom trykkes` {.blockbrown} knappen:
++ Til slutt, legg til dette skriptet på `når mellomrom trykkes` {.blockbrown} blokken:
 
 ```blocks
 når [mellomrom] trykkes
@@ -100,13 +100,13 @@ når [mellomrom] trykkes
 
 ## Test prosjektet{ .flag}
 
-__Klikk det grønne flagget__, Flakser Flappy en gang for hver gang du trykker mellomrom??
+__Klikk det grønne flagget__: Flakser Flakse en gang for hver gang du trykker mellomrom??
 
 ## Lagre prosjektet ditt om det trengs { .save}
 
 #**Steg 4:** Legg til rørene {.activity}
 
-*Vi vil legge til noen hindringer som Flappy kan fly igjennom.*
+*Vi vil legge til noen hindringer som Flakse kan fly igjennom.*
 
 ##Sjekkliste { .check}
 
@@ -114,74 +114,74 @@ __Klikk det grønne flagget__, Flakser Flappy en gang for hver gang du trykker m
 + Gi den nye figuren navnet **rør**.
 + Hvis drakten er i `Punktgrafikk` {.blockgrey} klikk på `Bytt til vektorgrafikk` {.blockgrey} knappen.
 + Klikk på `Zoom -` {.blockgrey} så du kan se hele tegneområdet.
-+ Klikk på `Rektangel` {.blockgrey}, pick a colour, and click on the `Filled rectangle` {.blockgrey} button.
-+ Click and drag two boxes, one from the top middle and one from the bottom middle as shown:
++ Klikk på `Rektangel` {.blockgrey}, velg en farge og klikk på `Fylt rektangel` {.blockgrey} knappen nederst til venstre.
++ Klikk og dra to bokser, en fra toppen og en fr bunn i midten av tegneflaten. Det skal se sånn ut:
 
 ![screenshot](pipe_design.png)
  
-+ You can shade your pipes by clicking on the `Color a shape` {.blockgrey} button and click on the `Horizontal gradient` {.blockgrey} button. Choose two shades of the same colour one for the foreground and one for the background. When you click to fill the shapes, the colours will fade between your chosen colours.
-+ Name your sprite **Pipe**.
++ Du kan skyggelegge røra ved å klikke på `Fyll farge` {.blockgrey} og klikke på en av skyggemetodene i firkantene nede til venstre. Velg to varianter av samme farge: en for forgrunnen og en for bakgrunnen. Når du klikker på en firkant med fylleverktøyet får du en fin effekt.
++ Gi figuren navnet **Rør**.
 
-## Save your project { .save}
+## Lagre prosjektet ditt { .save}
 
-#**Step 5:** Make the pipes move {.activity}
+#**Steg 5:** Få røra til å bevege seg{.activity}
 
-*Next we'll make the pipes move and arrange them randomly to provide an obstacle course for Flappy.*
+*Nå skal vi få røra til å flytte seg og gjøre plasseringen tilfeldig slik at vi får en hinderløype til Flakse.*
 
-##Activity Checklist { .check}
+##Sjekkliste { .check}
 
-+ Click on your **Pipe** sprite and select the `Scripts` {.blockgrey} tab.
-+ Add the following scripts:
++ Klikk på **rør**-figuren og velg `Skript` {.blockgrey}.
++ Legg til dette skriptet:
 
 ```blocks
-when FLAG clicked
-	hide
-	set size to (200)%
-	forever
-		create clone of [myself v]
-		wait (2) secs
+når grønt flagg klikkes
+	skjul
+	sett størrelse til (200)%
+	for alltid
+		lag klon av [meg]
+		vent (2) sekunder
 
-when I start as a clone
-	go to x: (240) y: (pick random (-80) to (80))
-	show
-	repeat (120)
-		change x by (-4)
-	end
-	delete this clone
+når jeg starter som klon
+	gå til x: (240) y: (tilfeldig tall fra(-80) til (80))
+	vis
+	gjenta (120) ganger
+		endre x med (-4)
+	slutt
+	slett denne klonen
 ```
 
-## Test Your Project { .flag}
+## Test prosjektet { .flag}
 
-__Click the green flag__, do pipes appear with gaps to fly through at different heights? If you find it difficult to navigate Flappy through the pipes without touching them, you can make the gap bigger in the **pipe** sprite by editing the costume.
+__Klikk det grønne flagget__: Kommer det mange rør flygende mot Flakse? Har rørene åpninger til å fly gjennom? Om du synes det er vanskelig å fly Flakse gjennom åpningene kan du endre på åpningen mellom rørene med tegneverktøyet, eller du kan lage Flakse mindre.
 
-## Save your project { .save}
+## Lagre prosjektet { .save}
 
-#**Step 6:** Detect collision with the pipes {.activity}
+#**Steg 6:** Finn ut om Flakse kræsjer med rørene {.activity}
 
-*To make the game a challenge, the player needs to guide Flappy through the gaps without touching the pipes or the edges of the screen. Now we'll add some blocks to detect if Flappy hits something.*
+*For at spillet skal bli vanskelig må spilleren styre Flakse gjennom åpningene mellom rørene uten å komme borti hverken rør eller kanten av skjermen. Vi skal legge til noen blokker for å merke om Flakse kræsjer.*
 
-##Activity Checklist { .check}
+##Sjekkliste { .check}
 
-+ Let's add a sound to play when Flappy collides. Click on the **Flappy** sprite then on the `Sounds` {.blockgrey} tab.
-+ Click the `Choose sound from library` {.blockgrey} button.
-+ Pick a collision sound for **Flappy**. The **screech** sound is good.
-+ Now click back on the `Scripts` {.blockgrey} tab.
-+ Add the following script:
++ Vi legger til en lyd som vi kan spille når Flakse kræsjer. Kliukk på **Flakse** og så på `Lyder` {.blockgrey}.
++ Klikk på `Velg lyd fra biblioteket` {.blockgrey}.
++ Velg en kræsjelyd for **Flakse**.  **screech** er en kul lyd.
++ Klikk deg tilbake til `Skript` {.blockgrey} fliken.
++ Legg til dette skriptet:
 
 ```blocks
-when FLAG clicked
-	wait until ((touching [edge v]?) or (touching [Pipe v]?))
-	play sound [screech v]
-	say [Game Over!]
-	broadcast [GameOver v]
-	stop [other scripts in sprite v]
+når grønt flagg klikkes
+	vent til ((berører [kant]?) eller (berører [Rør]?))
+	spill lyden [screech v]
+	si [Du tapte!]
+	send melding [Tap]
+	stopp [andre skript i figuren]
 ```
 
-+ Click on the **Pipe** sprite and add a script:
++ Klikk på **Rør** og legg til dette skriptet:
 
 ```blocks
-when I receive [GameOver v]
-	stop [other scripts in sprite v]
+når jeg mottar [Tap]
+	stopp [andre skript i figuren]
 ```
 
 ## Test Your Project { .flag}
