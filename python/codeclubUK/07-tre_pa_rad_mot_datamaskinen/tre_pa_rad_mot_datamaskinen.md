@@ -1,7 +1,7 @@
 ---
-lesson_title: Spille mot datamaskinen
-level: 07
-language: no
+title: Spille mot datamaskinen
+level: 4.7
+language: nb-NO
 stylesheet: python
 ...
 
