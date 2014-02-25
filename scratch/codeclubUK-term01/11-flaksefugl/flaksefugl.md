@@ -184,125 +184,125 @@ når jeg mottar [Tap]
 	stopp [andre skript i figuren]
 ```
 
-## Test Your Project { .flag}
+## Test prosjektet ditt { .flag}
 
-__Click the green flag__, does the game end when Flappy touches a pipe or the edge of the screen?
+__Klikk det grønne flagget__: Stopper spillet når Flakse kommer borti et rør eller kanten av brettet?
 
-## Save your project { .save}
+## Lagre prosjektet ditt { .save}
 
-#**Step 7:** Add scoring {.activity}
+#**Steg 7:** Legg til poeng {.activity}
 
-*The player should score a point every time Flappy makes it though a pipe. Let's add that next.*
+*Spilleren skal score ett poeng hver gang Flakse flyr gjennom en røråpning.*
 
-##Activity Checklist { .check}
+##Sjekkliste { .check}
 
-+ Let's add a sound to play when Flappy scores a point. Click on the **Pipe** sprite add a score sound. **bird** is a good choice.
-+ Now click back on the `Scripts` {.blockgrey} tab.
-+ Make a new variable `For all sprites` {.blockgrey} and call it `score` {.blockorange}.
-+ Add a block to set the score to 0 when the flag is clicked.
-+ Add the following block:
-
-```blocks
-when I start as a clone
-	wait until <(x position) < ([x position v] of [Flappy v])>
-	change [score v] by (1)
-	play sound [bird v]
-```
-
-## Test Your Project { .flag}
-
-__Click the green flag__, does the player score points for flying Flappy through the pipes?
-
-## Save your project { .save}
-
-##Things to try { .try}
-1. __How many ways can you make this game easier or harder?__
-2. __Well done you’ve finished the basic game. There are more things you can do to your game though. Have a go at these challenges!__
-
-##Challenge 1: add a high score { .challenge}
-
-+ Make a new variable and tick the `Cloud variable (stored on server)` {.blockgrey} box. Call the variable `hi-score` {.blockorange}
-+ when the game is over check if you need to set a new high score:
++ Vi legger til en lyd hver gang Flakse scorer ett poeng. Klikk på **Rør** og legg til en lyd. **bird** er et lurt valg.
++ Gå tilbake til `Skript` {.blockgrey} .
++ Lag en ny variabel `for alle figurer` {.blockgrey} og kall den `poeng` {.blockorange}.
++ Legg til et skript som setter poengene til 0 når det grønne flagget klikkes.
++ Legg til dette skriptet:
 
 ```blocks
-when I receive [GameOver v]
-	if <(score) > (hi-score)> then
-		set [hi-score v] to (score)
-	end
-	stop [other scripts in sprite v]
+når jeg starter som klon
+	vent til <(x posisjon) < ([x posisjon] av [Flakse])>
+	endre [poeng] med (1)
+	spill lyden [bird]
 ```
 
-##Test Your Project { .flag}
-__Click the green flag__, does your score update the hi score?
+## Test prosjektet ditt { .flag}
 
-##Save your project { .save}
+__Klikk det grønne flagget__: scorer du poeng når Flakse flyr forbi en åpning mellom rørene?
 
-##Challenge 2: add gravity { .challenge}
+## Lagre prosjektet ditt { .save}
 
-When something falls under gravity it doesn't usually fall at a fixed rate. For this challenge we will make Flappy fall as if under gravity.
+##Ting du kan prøve{ .try}
+1. __Kan du lage dette spillet lettere eller vanskeligere?__
+2. __Supert, du har laga ferdig spillet i sin enkleste form. Her er noen flere ting du kan prøve:__
 
-+ Add a new variable `For this sprite only` {.blockgrey} to **Flappy** and call it `rise` {.blockorange}.
-+ Change Flappy's falling script:
+##Utfordring 1: legg til rekorder { .challenge}
+
++ Lag en ny variabel og klikk `Nett variabel (lagret på nett)` {.blockgrey} boksen. Kall variabelen `Rekord` {.blockorange}
++ når spillet er ferdig må du sjekke om det er en ny rekord:
 
 ```blocks
-when FLAG clicked
-	set [rise v] to [0]
-	go to x: (-50) y: (0)
-	forever
-		change y by (rise)
-		change [rise v] by (-0.4)
+når jeg mottar [Tap]
+	hvis <(poeng) > (rekord)> 
+		sett [rekord] til (poeng)
+	slutt
+	stopp [andre skript i figuren]
 ```
 
-+ And change Flappy's flapping script:
+##Test prosjektet { .flag}
+__Klikk det grønne flagget__: Oppdaterer rekorden seg for hver gang du setter ny rekord?
+
+##Lagre prosjektet ditt { .save}
+
+##Utfordring 2: legg til tyngdekraft { .challenge}
+
+Når noe faller på grunn avtyngdekraft øker farten jo lenger fallet varer. Vi skal prøve å etterligne denne måten å falle på.
+
++ Legg til en ny variabel `for denne figuren` {.blockgrey} for **Flakse** og kall den `løft` {.blockorange}.
++ Endre Flakses falleskript:
 
 ```blocks
-when FLAG clicked
-	set [flaps v] to [0]
-	switch costume to [wings up v]
-	forever
-		repeat until <(flaps) = [0]>
-			change [flaps v] by (-1)
-			switch costume to [wings down v]
-			change [rise v] by (8)
-			wait (0.2) secs
-			switch costume to [wings up v]
-			wait (0.2) secs
+når grønt flagg klikkes
+	sett [løft] til [0]
+	gå til x: (-50) y: (0)
+	for alltid
+		endre y med (løft)
+		endre [løft] med (-0.4)
 ```
 
-##Test Your Project { .flag}
-__Click the green flag__, does Flappy now accelerate when falling and flapping?
-
-##Save your project { .save}
-
-##Challenge 3: fall off screen { .challenge}
-
-When the player loses make Flappy fall off the bottom of the screen before ending the game.
-
-+ Replace the `broadcast GameOver` {.blockbrown}  block with `broadcast Fall` {.blockbrown}
-+ Now add the following scripts:
++ og endre Flakses flakseskript:
 
 ```blocks
-when I receive [Fall v]
-	repeat (10)
-		turn ccw (5) degrees
-
-when I receive [Fall v]
-	repeat until <(y position) < [-180]>
-		change y by (rise)
-		change [rise v] by (-0.4)
-	end
-	hide
-	broadcast [GameOver v]
+når grønt flagg klikkes
+	sett [flaks] til [0]
+	bytt drakt til [vinger opp]
+	for alltid
+		gjenta til <(flaks) = [0]>
+			endre [flaks] med (-1)
+			bytt drakt til [vinger ned]
+			endre [løft] med (8)
+			vent (0.2) sekunder
+			bytt drakt til [vinger opp]
+			vent (0.2) sekunder
 ```
 
-+ Don't forget to add a `show` {.blockpurple} block and reset Flappy's direction when the game restarts.
+##Test prosjektet ditt { .flag}
+__Klikk det grønne flagget__: detter Flakse fortere jo lenger han detter?
 
-##Test Your Project { .flag}
-__Click the green flag__, does Flappy now fall off the screen after hitting a pipe? Does Flappy reappear in the correct orientation when restarting the game.
+##Lagre prosjektet ditt { .save}
 
-##Save your project { .save}
+##Utfordring 3: dett ut av skjermen { .challenge}
 
-__Well done you’ve finished, now you can enjoy the game!__
-Don’t forget you can share your game with all your friends and family by clicking on __Share__ on the menu bar!
+Når spilleren taper skal Flakse dette ned og ut av skjermen.
+
++ Bytt ut `send meldingen Tap` {.blockbrown}  blokka med `send meldingen fall` {.blockbrown}
++ Legg til dett eskriptet:
+
+```blocks
+når jeg mottar [Fall]
+	gjenta (10) ganger
+		vend høyre (5) grader
+
+når jeg mottar [Fall]
+	gjenta til <(y posisjon) < [-180]>
+		endre y med (løft)
+		endre [løft] med (-0.4)
+	slutt
+	skjul
+	send melding [Tap]
+```
+
++ ikke glem å legge til en `vis` {.blockpurple}-blokk og sett Flakses retning når spillet starter på nytt.
+
+##Test prosjektet ditt { .flag}
+__Klikk det grønne flagget__: detter Flakse ut av skjermen når han treffer et rør? Flyr Flakse riktig vei når spillet starter igjen?
+
+##Lagre prosjektet ditt { .save}
+
+__Gratulerer, du er ferdig med spillet! Hva er rekorden din?__
+ikke glem å dele spillet med vennene dine. Trykk på __Legg ut__ for at andre skal få prøve!
 
 
