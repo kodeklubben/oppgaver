@@ -151,6 +151,7 @@ __Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre det!
 	gjenta til ((tid) = (0))
 		vent (1) sekunder
 		endre [tid v] med (-1)
+        slutt
 	stop [alle v]
 ```
 
