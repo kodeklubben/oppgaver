@@ -1,10 +1,15 @@
-#01—Skilpadder
+---
+title: Skilpadder
+level: 4.1
+language: nb-NO
+stylesheet: python
+...
 
-__Introduksjon:__
+# Introduksjon: {.intro}
 
 I denne modulen skal vi lære et programmeringsspråk som heter Python. Personen som laget det kalte det opp etter sitt favorittprogrammet på TV: Monthy Pythons Flyvende Cirkus. Python brukes av mange forskjellige programmerere til mange forskjellige ting. Python brukes av YouTube, NASA, CERN og andre. Hvis din Kodeklubb har en Raspperry Pi kan du bruke Python til å programmere den. Mange elsker Python fordi de synes det er lett å lese (i motsetning til språk de synes er vanskeligere å lese). Her er meningene mange, når du lærer flere språk får du sikkert også sterke meninger om dem. Å være i stand til å lese kode er viktig for en programmerer, kanskje like viktig som å kunne skrive den.
 
-##Steg 0: Åpne Python-editoren
+# Steg 0: Åpne Python-editoren {.activity}
 
 Hvis Python allerede er installert på maskinen din er det bare å begynne.
 
@@ -17,9 +22,11 @@ versjonsnummeret bør begynne med 3 (og ikke 2).
 
 Når IDLE starter ser du et Output-vindu som heter `Python Shell`. Vi må åpne et nytt vindu for å skrive kode i. Trykk `File -> New Window` så er du klar for steg 1. Pass på at du har begge vinduene synlige.
 
-##Steg 1: Hello, World!
+# Steg 1: Hello, World! {.activity}
 
 `Hello, World!` betyr `Hei, Verden!` og brukes ofte for å vise frem et nytt programmeringsspråk. Alt man skal få til er å få datamaskinen til å skrive akkurat disse ordene på skjermen.
+
+## Sjekkliste {.check}
 
 1. Åpne IDLE, editoren som følger med Python. Vi kommer til å skrive all koden vår i denne editoren. Når du åpner den ser du et Output-vindu. I dette vinduet kommer feilmeldinger og resultater til å dukke opp.
 
@@ -43,15 +50,17 @@ velge `Run -> Run Module`.
 Gratulerer med ditt første Python-program :D (PS! Du kan be det skrive hva
 du vil, kanskje kan du prøve å få det til å si hei til deg selv?)
 
-__ProTip__:
+### __ProTip__: {.protip}
 * På __Windows__ og __Ubuntu__, bruk Ctrl-N for å lage nye shell-vinduer, bruk ctrl+s for å lagre og bruk F5 for å kjøre programmet ditt. På noen maskiner må du kanskje trykke Fn-knappen også.
 * På __Mac OS X__, cmd-N for å lage nye shell vinduer, Command-S for å lagre, og hold nede (fn) knappen og trykk F5 for å kjøre programmet ditt.
 
-##Steg 2: Hei, Skilpadde!
+# Steg 2: Hei, Skilpadde! {.activity}
 
 Nå skal vi ha det litt gøy med skilpadder. En skilpadde er en liten robot
 som tegner seg selv på skjermen din, vi kan få den til å bevege seg rundt
 med Python-kommandoer.
+
+## Sjekkliste {.check}
 
 1. Åpne et nytt kodevindu (Fra `File` menyen) og skriv dette:
 
@@ -101,9 +110,6 @@ Vest      |     Øst
 
 Når skilpadden ser nordover og du ber den snu seg 90 grader til høyre, ser den østover. Snur du den 180 grader fra nord, ser den sydover, og snur du den 270 grader fra nord ser den vestover. Snur du 360 grader stopper den der den begynte. Kanskje er det lettere å tenke på som snowboard-triks?
 
-
-
-
 Hva med å snu mot venstre?
 
 ```
@@ -120,8 +126,7 @@ Vest      |      Øst
 
 Når skilpadden ser nordover og du ber den snu seg 90 grader mot venstre, ser den vestover. Når skilpadden ser nordover og du ber den snu seg 180 grader mot venstre ser den sydover, og om den ser nordover og du ber den snu seg 270 grader ser den østover. Snur du 360 grader er du tilbake der du starter, 360 grader er alltid helt rundt.
 
-
-###Hva gjør koden på starten av programmet vårt?
+### Hva gjør koden på starten av programmet vårt? {.protip}
 
 * `from turtle import *` forteller Python at vi vil bruke skilpadde-biblioteket (turtle), en samling av kode vi kan bruke for å tegne på skjermen. Å bruke et ferdig bibliotek gjør at vi kan spare tid og gjenbruke andres arbeid.
 * `speed()` bestemmer farten til skilpadden. Vi må gi inn en verdi mellom 1 og 11, der 11 er det raskeste og 1 er det treigeste.
@@ -129,9 +134,11 @@ Når skilpadden ser nordover og du ber den snu seg 90 grader mot venstre, ser de
 
 Vi kommer til å bruke disse instruksjonene på toppen av alle programmene våre i denne leksjonen. Hvis du vil kan du forsøke å gi skilpadden en av de andre formene, som pil, og få den til å gå så fort eller sakte som du vil.
 
-##Steg 3: Tegne figurer!
+# Steg 3: Tegne figurer! {.activity}
 
 La oss lage et kvadrat ved å fortelle skilpadden hvordan den skal bevege seg rundt.
+
+## Sjekkliste {.check}
 
 1. Åpne en ny fil i IDLE og skriv inn følgende kode:
 
@@ -208,11 +215,13 @@ Hva er yndlingsfargen din? Du kan endre fargen på linjene ved å bruke funksjon
     `pencolor("#FF0000")`. Hvilken farge er #FF4F00?
 
 
-##Steg 4: Gjenta deg selv (med en for-løkke)
+# Steg 4: Gjenta deg selv (med en for-løkke) {.activity}
 
 Det siste programmet var de samme kommandoene igjen og igjen. Istedenfor å skrive dem ned, la oss be maskinen om å gjenta dem for oss. Du har vært borti *iterasjon* i Scratch ved å bruke `Forever` og `Repeat`/`Repeat until` blokker. I Python brukes __for-løkker__ når du har kode som du vil gjenta n ganger. I dette eksemplet vil vi gjenta koden (den som er skjøvet inn) 4 ganger fordi en firkant har 4 sider.
 
-1. Åpne en ny fil go skriv inn følgende:
+## Sjekkliste {.check}
+
+1. Åpne en ny fil og skriv inn følgende:
 
     ```python
     from turtle import *
@@ -267,7 +276,7 @@ tror du dette programmet gjør? Forsøk å kjøre det og finn det ut.
 
 6. Lagre programmet og velg: `Run -> Run module`.
 
-### Oppgave: Tegn de andre formene
+## Oppgave: Tegn de andre formene {.challenge}
 
 Kan du tegne noen av figurene under bare ved å endre verdiene?
 
@@ -282,12 +291,14 @@ grader i hvert hjørne, som også blir 360 grader.
 Hvis du snur seks ganger, hvor mange ganger må du snu for at det skal bli
 360 grader? Prøv med forskjellige tall og se hva som skjer.
 
-##Steg 6: Snu, snu, snu
+# Steg 5: Snu, snu, snu {.activity}
 
 Istedenfor å regne ut vinklene, kan vi ikke heller få datamaskinen til å gjøre det for oss? Python lar deg plusse, trekke fra, gange og dele.
 Vi kan skrive `sides = 4 + 1` istedenfor 5, eller `sides = 4 - 1` istedenfor 3. For multiplikasjon bruker Python `*`, og for divisjon skriver vi `/`.
 Hvis vi må snu 360 grader tilsammen, kan vi regne ut vinkelen vi trenger.
 For en firkant er `360 / 4` lik 90, for trekanten er `360 / 3` lik 120.
+
+## Sjekkliste {.check}
 
 1. Endre programmet ditt til å regne ut vinkelen.
 
@@ -309,7 +320,9 @@ For en firkant er `360 / 4` lik 90, for trekanten er `360 / 3` lik 120.
 2. Nå kan du endre antall sider, klarer Python å gjøre jobben riktig? Prøv
 med så mange kanter du vil!
 
-##Step 6: Fylte figurer
+# Step 6: Fylte figurer {.activity}
+
+## Sjekkliste {.check}
 
 1. Vi kan be skilpadden om å fylle figurene med en farge ved å bruke `begin_fill()` og `end_fill()`. Endre koden din til å bruke disse kommandoene:
 
@@ -344,10 +357,12 @@ med så mange kanter du vil!
 
 2. Forsøk å endre fargene, sidene og lengdene og se hvilke figurer du kan tegne!
 
-##Steg 7: Pennen går opp, pennen går ned
+# Steg 7: Pennen går opp, pennen går ned {.activity}
 
 Hvis du vil flytte skilpadden uten at den skal sette spor etter seg, kan du
 bruke `penup()` og `pendown()` for å slå av og på at skilpadden skal tegne.
+
+## Sjekkliste {.check}
 
 1. Forsøk dette i en ny fil:
 
@@ -368,11 +383,11 @@ bruke `penup()` og `pendown()` for å slå av og på at skilpadden skal tegne.
 
 2. Dette burde tegne en stiplet strek over skjermen din. Kjør det og se!
 
-### Hjem, kjære hjem på skjermen
+### Hjem, kjære hjem på skjermen {.protip}
 
 Et par triks på slutten: `home()` får skilpadden til å gå hjem dit den begynte, `clear()` tørker alle sporene av skjermen, og `reset()` flytter skilpadden og renser opp skjermen.
 
-## Steg 8: Gjør hva du vil!
+# Steg 8: Gjør hva du vil! {.activity}
 
 Du kan `forward()`, `backward()`, `left()`, `right()`, du kan gjenta ting
 med `for count in range(4)`, endre farger, endre fart og til og med fylle
