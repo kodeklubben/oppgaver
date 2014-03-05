@@ -4,7 +4,6 @@ level: Level 3
 language: bn-NO
 stylesheet: scratch
 embeds: "*.png"
-note: "Notater for klubbledere.md"
 ...
 
 __Introduksjon:__
