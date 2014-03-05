@@ -1,8 +1,15 @@
-#03—Hemmelige koder
+---
+title: Hemmelige Koder
+level: 4.3
+language: nb-NO
+stylesheet: python
+...
+
+# Introduksjon {.intro}
 
 Legg bort skilpaddene dine, i dag skal vi lære hvordan vi kan sende hemmelige beskjeder!
 
-## Kodeklubb-koden
+# Kodeklubb-koden {.activity}
 
 Et chiffer er et system for å gjøre om vanlig tekst til kode som ikke andre skal kunne lese. Vi skal bruke et av de eldste og mest berømte chifferene, Cæsar-chifferet eller Cæsars kode - oppkalt etter Gaius Julius Cæsar som sannsynligvis brukte det til å sende hemmelige beskjeder. Det er neppe den beste måten å hindre andre i å lese beskjedene dine, men det kommer vi tilbake til. Det finnes ferdige moduler til Python du kan bruke hvis du vil lage noe som skal være vanskelig å knekke, men nå skal vi forsøke å lage Cæsar-chifferet selv.
 
@@ -43,9 +50,11 @@ For å lage en hemmelig bokstav fra en vanlig bokstav, trenger vi et tall vi kan
 Vi begynner med A og teller fremover 3 bokstaver: B, C, D. Så bokstaven A blir til bokstaven D. For å dekode gjør vi det samme, men baklengs. Vi begynner med D og teller bakover for å få A.
 
 
-## Oppgave 1: Alfabetet
+# Oppgave 1: Alfabetet {.activity}
 
 Her kan du få trøbbel med norske bokstaver om du ikke har Python 3. Du ser det i IDLE, står det 2.6 eller 2.7 eller noe sånt har du Python 2. I så fall kan du enten installere 3 eller bare hoppe over norske bokstaver.
+
+## Sjekkliste {.check}
 
 1. Først må vi lære python alfabetet. Åpne IDLE og lag en ny fil med koden
 under:

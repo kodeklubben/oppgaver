@@ -1,3 +1,10 @@
+---
+title: Hangman
+level: 4.5
+language: nb-NO
+stylesheet: python
+...
+
 # 05—Hangman
 
 La oss lage et spill: Hangman! Datamaskinen vil velge et ord og du kan gjette det bokstav for bokstav. Dersom du gjetter feil for mange ganger taper du.

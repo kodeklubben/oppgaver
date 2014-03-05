@@ -1,3 +1,10 @@
+---
+title: Tre På Rad
+level: 4.6
+language: nb-NO
+stylesheet: python
+...
+
 # 06—Tre på rad
 
 På tide med et nytt spill! I dag skal vi lage tre på rad, hvor spillerne etter tur merker ruter med X eller O inntil en av spillerne får tre på rad.
