@@ -1,0 +1,38 @@
+{
+    "id": "python",
+    "title":"Introduksjon til Python",
+    "description":"Python er et tekstbasert programmeringsspråk som brukes av mange mennesker rundt omkring i verden til å lage interessante ting.",
+    "language": "nb-NO",
+    "number": 1,
+
+    "projects": [
+        {
+            "filename": "01-skilpadder/skilpadder.md",
+            "number": 1
+        },
+        {
+            "filename": "02-skilpaddeskolen/skilpaddeskolen.md",
+            "number": 2
+        },
+        {
+            "filename": "03-hemmelige_koder/hemmelige_koder.md",
+            "number": 3
+        },
+        {
+            "filename": "04-skilpadder_hele_veien/skilpadder_hele_veien.md",
+            "number": 4
+        },
+        {
+            "filename": "05-hangman/hangman.md",
+            "number": 5
+        },
+        {
+            "filename": "06-tre_pa_rad/tre_pa_rad.md",
+            "number": 6
+        },
+        {
+            "filename": "07-tre_pa_rad_mot_datamaskinen/tre_pa_rad_mot_datamaskinen.md",
+            "number": 7
+        }]
+}
+
