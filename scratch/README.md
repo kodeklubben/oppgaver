@@ -50,7 +50,8 @@ I tillegg finnes flere stiler som brukes ved behov:
 
 Generelle bilder av grensesnittet som kan brukes på tvers av oppgavene
 ligger i `bilder`-katalogen, mens bilder som er spesielle for en gitt
-oppgave ligger i den oppgavens katalog.
+oppgave ligger i den oppgavens katalog. Bruk `bilder`-katalogen så mye
+som mulig slik at vi får mest mulig gjenbruk av bildene.
 
 For at bilder skal legges inn riktig av byggeverktøyet, må de
 defineres i header-delen av oversettelsen:
@@ -71,15 +72,6 @@ bilder-katalogen kan brukes i oppgaveteksten.
   kode `![bilde](lite-bilde.png)`, men da med koden som en del av
   teksten. For disse bildene blir teksten mellom `[` og `]` brukt som
   alternativ tekst i tilfelle bildet ikke kan vises.
-
-- Referanse til en fane (skript, drakter, lyder) legges inn slik:
-  `![drakter](fane-drakter.png)`. Dette blir da seende slik ut:
-  ![drakter](bilder/fane-drakter.png).
-
-- Referanse til en kategori (bevegelse, utseende, lyd, penn, data,
-  hendelser, styring, sansning, operatorer, flere klosser) legges inn
-  slik: `![Bevegelse](kategori-bevegelse.png)`. Dette blir da seende
-  slik ut: ![Bevegelse](bilder/kategori-bevegelse.png).
 
 ### Kodeblokker
 
@@ -103,7 +95,30 @@ rundt. For eksempel vil man typisk ha fire mellomrom innrykk for kode
 som er en del av en sjekkliste.
 
 Man kan også referere til enkeltblokker i teksten. Dette gjøres slik:
-`` `for alltid`{.blockorange}-klossen``. Man kan velge mellom fargene
+```for alltid`{.blockorange}-klossen``. Man kan velge mellom fargene
 grey, lightgrey, orange, purple, pink, blue, lightblue, yellow, green
 og lightgreen.
+
+Den samme funksjonaliteten brukes for å referere til faner og
+kategorier:
+
+- Referanse til en fane (Skript, Drakter, Lyder) legges inn slik:
+  ```Drakter`{.blocklightgrey}``. For fanene brukes alltid fargen
+  lightgrey.
+
+- Referanse til en kategori (Bevegelse, Utseende, Lyd, Penn, Data,
+  Hendelser, Styring, Sansning, Operatorer, Flere klosser) legges inn
+  slik: ```Bevegelse`{.blockblue}``. Pass på at du bruker de riktige
+  fargene (per nå matcher ikke alle helt, vi skal få lagt inn de
+  riktige fargene etterhvert). Det vil si
+    - ```Bevegelse`{.blockblue}``
+    - ```Utseende`{.blockpurple}``
+    - ```Lyd`{.blockpink}``
+    - ```Penn`{.blockgreen}``
+    - ```Data`{.blockorange}``
+    - ```Hendelser`{.blockgrey}``
+    - ```Styring`{.blockyellow}``
+    - ```Sansning`{.blocklightblue}``
+    - ```Operatorer`{.blocklightgreen}``
+    - ```Flere klosser`{.blockpurple}``
 
