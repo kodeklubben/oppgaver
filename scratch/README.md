@@ -95,7 +95,7 @@ rundt. For eksempel vil man typisk ha fire mellomrom innrykk for kode
 som er en del av en sjekkliste.
 
 Man kan også referere til enkeltblokker i teksten. Dette gjøres slik:
-```for alltid`{.blockorange}-klossen``. Man kan velge mellom fargene
+`` `for alltid`{.blockorange}-klossen``. Man kan velge mellom fargene
 grey, lightgrey, orange, purple, pink, blue, lightblue, yellow, green
 og lightgreen.
 
@@ -103,22 +103,22 @@ Den samme funksjonaliteten brukes for å referere til faner og
 kategorier:
 
 - Referanse til en fane (Skript, Drakter, Lyder) legges inn slik:
-  ```Drakter`{.blocklightgrey}``. For fanene brukes alltid fargen
+  `` `Drakter`{.blocklightgrey}``. For fanene brukes alltid fargen
   lightgrey.
 
 - Referanse til en kategori (Bevegelse, Utseende, Lyd, Penn, Data,
   Hendelser, Styring, Sansning, Operatorer, Flere klosser) legges inn
-  slik: ```Bevegelse`{.blockblue}``. Pass på at du bruker de riktige
+  slik: `` `Bevegelse`{.blockblue}``. Pass på at du bruker de riktige
   fargene (per nå matcher ikke alle helt, vi skal få lagt inn de
   riktige fargene etterhvert). Det vil si
-    - ```Bevegelse`{.blockblue}``
-    - ```Utseende`{.blockpurple}``
-    - ```Lyd`{.blockpink}``
-    - ```Penn`{.blockgreen}``
-    - ```Data`{.blockorange}``
-    - ```Hendelser`{.blockgrey}``
-    - ```Styring`{.blockyellow}``
-    - ```Sansning`{.blocklightblue}``
-    - ```Operatorer`{.blocklightgreen}``
-    - ```Flere klosser`{.blockpurple}``
+    - `` `Bevegelse`{.blockblue}``
+    - `` `Utseende`{.blockpurple}``
+    - `` `Lyd`{.blockpink}``
+    - `` `Penn`{.blockgreen}``
+    - `` `Data`{.blockorange}``
+    - `` `Hendelser`{.blockgrey}``
+    - `` `Styring`{.blockyellow}``
+    - `` `Sansning`{.blocklightblue}``
+    - `` `Operatorer`{.blocklightgreen}``
+    - `` `Flere klosser`{.blockpurple}``
 
