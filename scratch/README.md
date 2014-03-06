@@ -89,7 +89,7 @@ oversatt til bilder av et verktøy som heter
 hjemmesidene til Scratch finnes
 [dokumentasjon](http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax).
 
-Hele kodesnutter skrives som et eget avsnitt på følgende måte
+Hele kodesnutter skrives som et eget avsnitt på følgende måte:
 ```
     ```blocks
         når grønt flagg trykkes
@@ -98,6 +98,12 @@ Hele kodesnutter skrives som et eget avsnitt på følgende måte
         slutt
     ```
 ```
+Man kan rykke inn koden slik at den ligger i flukt med teksten
+rundt. For eksempel vil man typisk ha fire mellomrom innrykk for kode
+som er en del av en sjekkliste.
 
-Man kan også inkludere enkeltblokker i teksten. Dette gjøres slik:
+Man kan også referere til enkeltblokker i teksten. Dette gjøres slik:
+`\`for alltid\`{.blockorange}-klossen`. Man kan velge mellom fargene
+grey, lightgrey, orange, purple, pink, blue, lightblue, yellow, green
+og lightgreen.
 
