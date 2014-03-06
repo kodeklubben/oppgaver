@@ -3,23 +3,48 @@ Scratch
 
 Scratch er et programmeringsspråk utviklet ved MIT, med spesiell fokus
 på å lære barn og unge å være kreative, tenke systematisk og
-samarbeide med andre. Scratch er tilgjengelig på http://scratch.mit.edu/.
+samarbeide med andre. Scratch er tilgjengelig på <http://scratch.mit.edu/>.
 
 ## Guide til oppgaveskrivere og oversettere
 
 Scratch-oppgavene ligger under denne scratch-katalogen. Se
-https://github.com/kodeklubben/oppgaver for mer info om den generelle
+<https://github.com/kodeklubben/oppgaver> for mer info om den generelle
 katalogstrukturen.
 
 ### Formattering av tekst
 
 Oppgaveteksten skrives i Markdown. Nettet har flere beskrivelser av
-![Markdown-syntaksen](http://daringfireball.net/projects/markdown/syntax). De
+[Markdown-syntaksen](http://daringfireball.net/projects/markdown/syntax). De
 viktigste vi bruker er
 
-- *Kursiv skrift* skrives `*Kursiv skrift*`,
+- *Uthevet skrift* skrives `*Uthevet skrift*`,
 
 - __Fet skrift__ skrives `__Fet skrift__`.
+
+Overskrifter lages ved å begynne en linje med en eller flere `#`. En
+`#` gir den største overskriften, mens seks `######` gir den minste
+tilgjengelige overskriften. I tillegg bruker vi stiler på
+overskriftene, som byggevektøyet anvender på de ferdige HTML- og
+PDF-dokumentene. Stilene er som følger (antall `#` er viktig her):
+
+- Introduksjon brukes øverst i hver oppgave: `# Introduksjon
+  {.intro}`.
+
+- Hver oppgave er delt inn i steg: `# Steg 1: Lag en figur
+  {.activity}`.
+
+- Hvert steg har flere aktiviteter i en sjekkliste: `## Sjekkliste
+  {.check}`.
+
+I tillegg finnes flere stiler som brukes ved behov:
+
+- Ting å prøve: `## Ting å prøve {.try}`,
+
+- Utfordringer: `## Utfordring: Flere ting {.challenge}`,
+
+- Test prosjektet: `## Test prosjektet {.flag}`,
+
+- Lagre prosjektet: `## Lagre prosjektet {.save}`.
 
 ### Bilder
 
@@ -43,9 +68,9 @@ bilder-katalogen kan brukes i oppgaveteksten.
   `[` og `]` slik `![Dette er en billedtekst](stort-bilde.png)`.
 
 - Små bilder, som skal være en del av teksten, legges inn med samme
-  kode `![](lite-bilde.png)`, men da med koden som en del av
-  teksten. For disse bildene blir billedteksten (mellom `[` og `]`)
-  ignorert.
+  kode `![bilde](lite-bilde.png)`, men da med koden som en del av
+  teksten. For disse bildene blir teksten mellom `[` og `]` brukt som
+  alternativ tekst i tilfelle bildet ikke kan vises.
 
 - Referanse til en fane (skript, drakter, lyder) legges inn slik:
   `![drakter](fane-drakter.png)`. Dette blir da seende slik ut:
@@ -57,4 +82,22 @@ bilder-katalogen kan brukes i oppgaveteksten.
   slik ut: ![Bevegelse](bilder/kategori-bevegelse.png).
 
 ### Kodeblokker
+
+Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir
+oversatt til bilder av et verktøy som heter
+[Scratchblocks2](https://github.com/blob8108/scratchblocks2). På
+hjemmesidene til Scratch finnes
+[dokumentasjon](http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax).
+
+Hele kodesnutter skrives som et eget avsnitt på følgende måte
+```
+    ```blocks
+        når grønt flagg trykkes
+        for alltid
+            pek mot [musepekeren v]
+        slutt
+    ```
+```
+
+Man kan også inkludere enkeltblokker i teksten. Dette gjøres slik:
 
