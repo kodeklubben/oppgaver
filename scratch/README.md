@@ -103,7 +103,7 @@ rundt. For eksempel vil man typisk ha fire mellomrom innrykk for kode
 som er en del av en sjekkliste.
 
 Man kan også referere til enkeltblokker i teksten. Dette gjøres slik:
-```for alltid``{.blockorange}-klossen`. Man kan velge mellom fargene
+`` `for alltid`{.blockorange}-klossen``. Man kan velge mellom fargene
 grey, lightgrey, orange, purple, pink, blue, lightblue, yellow, green
 og lightgreen.
 
