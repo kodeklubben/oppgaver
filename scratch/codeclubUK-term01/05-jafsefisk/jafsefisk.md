@@ -20,7 +20,7 @@ __Først skal vi lage JafseFisk som svømmer rundt i havet!__
 + __Start et nytt Scratch prosjekt__.
 + __Riktig bakgrunn__ får du ved å velge Scene og så Bakgrunn-fanen. Importer bakgrunnen __Natur/underwater3__ ved å velge `Velg en ferdig bakgrunn`{.blocklightgrey}. Slett så den andre bakgrunnen __backdrop1__.
 + Endre Sprite1's navn til `JafseFisk` ved å trykke på det blå '__i__' symbolet.
-+ Gi figuren en haidrakt ved å velge `Velg drakt fra biblioteket`. Velg kostyme __Dyr/shark-b.png__. Slett så figurens andre kostymer (__costume1__ og __costume2__).
++ Gi figuren en haidrakt ved å velge `Velg drakt fra biblioteket`. Velg drakt __Dyr/shark-b.png__. Kall drakten `åpen munn`. Slett så figurens andre drakt (__costume1__ og __costume2__).
 + Klikk på det blå '__i__' symbolet igjen, og pass på at figuren bare kan bevege seg fra side til side.
 + Få fisken til å følge musepekeren rundt i sjøen ved å lage dette skriptet:
 
@@ -38,224 +38,223 @@ Flytt musepekeren rundt i sjøen. Følger fisken med?
 Hva skjer hvis du ikke flytter musepekeren, og fisken når den igjen?
 Hvordan ser den ut? Hvorfor gjør den dette?
 
-+ You can stop the Hungry Fish flipping like crazy if you make it only move when it’s not too near the mouse pointer
-(The `distance to`{.blocklightblue} block is in the `Sensing`{.blocklightgrey} palette).
++ Du kan stoppe JafseFisks maniske flipping hvis du sørger for at den bare flytter seg når den ikke er for nær musepekeren
+(`avstand til`{.blocklightblue} blokken ligger under `Sansning`{.blocklightgrey} paletten).
 
     ```blocks
-    when FLAG clicked
-        forever if <(distance to [mouse-pointer v]) > (10)>
-            point towards [mouse-pointer v]
-            move (3) steps
+    når grønt flagg klikkes
+	for alltid
+		hvis <(avstand til [musepeker v]) > (10)>
+            pek mot [musepeker v]
+            gå (3) steg
     ```
 
-## Save your project { .save}
+## Lagre prosjektet { .save}
 
-## Things to try { .try}
+## Ting å prøve { .try}
 
-If you want, you can put different numbers in the script. How does that change how Hungry Fish moves? Change the distance threshold to a large number (e.g. 100), or a small number (e.g. 1). Change the amount the fish moves to a large number (e.g. 20) or a small number (e.g. 1 or even 0).
+If you want, you can put different numbers in the script. How does that change how Hungry Fish moves? Change the distance threshold to a large number (e.g. 100), or a small number (e.g. 1). Change the amount the fish moves to a large number (e.g. 20) or a small number (e.g. 1 or even 0).9. Hvis du vil kan du forandre tallene i skriptet, og se hvordan det forandrer
+bevegelsene:?
+Sett avstandensgrensen til et stort tall (f.eks. 100), eller et lite tall (f.eks. 1).
+Sett antall steg fisken flytter seg til et stort tall (f.eks. 20) eller et lite tall (f.eks. 1, eller
+0).
 
 
-# Steg 2: Add some prey { .activity}
-__It's time to make something for the Hungry Fish to try to eat!__
+# Steg 2: Legg til byttedyr { .activity}
+__Det er på tide å gi JafseFisk noe å spise!__
 
 ## Sjekkliste { .check}
 
-+ Create a new sprite from the library, using **Animals/starfish**. 
-+ Use the `Shrink`{.blocklightgrey} sprite tool (above the Stage) to make the sprite smaller.
-+ Create a script to make the prey swim around. We want them to move randomly, so let’s make it move forward a bit, then turn a random amount left or right, then do it again.
++ Lag en ny figur fra biblioteket ved å bruke **Dyr/Fish2**. 
++ Gjør figuren mindre med `krympeknappen`{.blocklightgrey} som ligger over den røde stopp-knappen.
++ Få byttedyrene til å bevege seg i tilfeldige retninger. Først skal vi la dem bevege seg litt framover, og så snu en tilfeldig valgt vinkel med eller mot klokka, og deretter gjenta. 
 
     ```blocks
-    when FLAG clicked
-        forever		
-            move (2) steps
-            turn right (pick random (-20) to (20)) degrees
-            if on edge, bounce  
+    når grønt flagg klikkes
+    for alltid		
+		gå (2) steg
+		vend til høyre (tilfeldig tall fra (-20) to (20)) grader
+		sprett tilbake ved kanten  
     ```
 
-## Test Your Project { .flag}
+## Test prosjektet { .flag}
 
-__Click the green flag__ and watch the prey swim around. Does it swim like you expect? Does it swim realistically?
+__Klikk på det grønne flagget__ og se hvordan byttedyret svømmer rundt. Svømmer det slik du forventet? Ser bevegelsene naturlige ut?
 
-__At the moment, the Hungry Fish and the prey don’t interact with each other. We’ll sort that out in the next step.__
+__For øyeblikket samspiller ikke JafseFisk og byttedyret med hverandre. Det skal vi gjøre noe med i neste steg.__
 
-## Save your project { .save}
+## Lagre prosjektet { .save}
 
-## Things to try { .try}
+## Ting å prøve{ .try}
 
-* Try changing the numbers in the `pick random`{.blockgreen} and move blocks. How do they make the prey move differently?
-* What does the `if on edge, bounce`{.blockblue} block do? Take it out and see what happens.
+* Prøv å forandre tallene for steg og `tilfeldig tall`{.blockgreen}. Hvordan forandrer det byttedyrenes bevegelser?
 
-#Steg 3: Hungry Fish eats the prey { .activity}
+* Hva gjør`sprett tilbake ved kanten`{.blockblue} blokken? Fjern blokken og se hva som skjer.
 
-__Now we want to make the Hungry Fish eat the prey!__ Once the Hungry Fish has caught the prey in its mouth, two things need to happen:
-* The Hungry Fish needs to close its mouth and make a "chomp" sound.
-* The prey needs to disappear, then reappear a short while later.
+#Steg 3: JafseFisk spiser byttet { .activity}
+
+__Nå skal vi la JafseFisk spise byttet!__ Når den har fanget byttet i munnen skal to ting skje:
+* Den må lukke munnen og lage en gomlelyd.
+* Byttet må forsvinne, og så komme igjen en liten stund senere.
 
 ## Sjekkliste { .check}
 
-+ First, let’s make the prey disappear if it is touching the Hungry Fish, and then reappear 3 seconds later. Use the `touching`{.blocklightblue} block to see if it is touching the fish.
++ FVi starter med å la byttet forsvinne hvis den berører JafseFisk, og så komme tilbake etter 3 sekunder. Bruk `berører`{.blocklightblue}-blokken for å sjekke om byttet kommer borti JafseFisk.
 
     ```blocks
+    når grønt flagg klikkes
+    for alltid		
+		gå (2) steg
+		vend til høyre (tilfeldig tall fra (-20) to (20)) grader
+		sprett tilbake ved kanten
+		hvis <berører [JafseFisk v]?>
+			skjul
+			vent (3) sekunder
+			vis
+    ```
+
+## Test prosjektet { .flag}
+__Prøv spillet ditt igjen. Ser du noen problemer?__ ? Legg merke til at byttet forsvinner uansett hvor det berører JafseFisk. Dessuten kan fisken bare vente 3 sekunder og så spise byttet i samme øyeblikk som det dukker opp igjen, det er ikke særlig rettferdig!
+
+
++ Hvordan kan vi sikre at byttet bare forsvinner hvis det berører JafseFisks munn? Tja, vi kunne bruke `berører farge`{.blocklightblue} blokken og se om den berører fiskens tenner. For å gjøre dette, bytt ut `berører`{.blocklightblue} blokken med en `berører farge`{.blocklightblue} blokk i skriptet ditt, klikk på fargen i blokken og klikk så på fiskens tenner.
++ Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen før den dukker opp igjen ved å bruke en `gå til`{.blockblue} blokk, og gi den en tilfeldig verdig for __x__ og __y__.
+
+    ```blocks
+    når grønt flagg klikkes
+    for alltid
+		gå (2) steg
+		vend til høyre (tilfeldig tall fra (-20) to (20)) grader
+		sprett tilbake ved kanten
+		hvis <berører fargen [#FFFFFF]?>
+			skjul
+			vent (3) sekunder
+			gå til x:(tilfeldig tall fra (-200) til (220)) y: (tilfeldig tall fra (-170) til 170))
+			vis
+    ```
     
-    forever    	
-		move (2) steps
-		turn right (pick random (-20) to (20)) degrees
-		if on edge, bounce
-		if <touching [Hungry Fish v]?> then
-			hide
-			wait (3) secs
-			show
-    ```
+## Test prosjektet { .flag}
 
-## Test Your Project { .flag}
-__Try out your game again – can you spot any problems?__ Notice that the prey disappears no matter where it touches the Hungry Fish. Also, the fish could just wait 3 seconds and eat the prey the moment it reappears – this isn’t very fair!
+Prøv spillet igjen. Forsvinner byttet bare når det berører fiskens tenner? Og kommer det igjen i et tilfeldig punkt på skjermen – altså ikke samme sted som det ble spist?
 
-+ How could we make sure the prey only disappears if it is touching the Hungry Fish’s mouth? Well, we could use the `touching color`{.blocklightblue} block, and see if it is touching the fish’s blue teeth. To do this, replace the `touching`{.blocklightblue} block with a `touching color`{.blocklightblue} block in your script, click on the color in the block and then click again on the fish’s teeth.
-+ Next we can make the prey move to a random point on the screen before reappearing using a `go to`{.blockblue} block, and giving it a random value for **x** and **y**.
++ JafseFisk må vite når den har spist noe slik at den kan gi fra seg en lyd og bytte drakt. For å gjøre dette kan vi la byttet `send melding`{.blockyellow} om at det er spist, før det forsvinner.
 
     ```blocks
-    when FLAG clicked
-        forever		
-            move (2) steps
-            turn right (pick random (-20) to (20)) degrees
-            if on edge, bounce
-            if <touching color [#FFFFFF]?> then
-                hide
-                wait (3) secs
-                go to x:(pick random (-220) to (220)) y: (pick random (-170) to (170))
-                show
+	når grønt flagg klikkes
+    for alltid
+		gå (2) steg
+		vend til høyre (tilfeldig tall fra (-20) to (20)) grader
+		sprett tilbake ved kanten
+		hvis <berører fargen [#FFFFFF]?>
+			send melding [Du tok meg!]
+			skjul
+			vent (3) sekunder
+			gå til x:(tilfeldig tall fra (-200) til (220)) y: (tilfeldig tall fra (-170) til 170))
+			vis
     ```
-    
-## Test Your Project { .flag}
+    __Nå vil vi at fiskens respons på denne meldingen er å lage en gomlelyd og klikke med kjevene.__
 
-Try the game again – does the prey only vanish when it touches the fish’s mouth? And does it re-appear in a random point on the screen instead of where it was eaten?
-
-+ The fish needs to know when it has eaten something so it can play a sound and change its skin. To do this, we can have the prey `broadcast`{.blockyellow} the fact that it’s been eaten before vanishing.
++ Legg til drakten __Dyr/shark-a__ og lyden  __Effekter/bubbles__ stil JafseFisk. Kall drakten `lukket munn`.
++ Legg så til et skript til JafseFisk slik at han kan svare på meldingen `send melding`{.blockyellow} fra byttedyret. Dette skriptet gjør at fisken spiller av boblelyden og `bytter drakt til`{.blockpurple} of lukket-munn drakten, venter litt og så bytter tilbake.
 
     ```blocks
-    
-    when FLAG clicked
-    forever		
-        move (2) steps
-        turn right <pick random (-20) to (20)> degrees
-        if on edge, bounce
-        if <touching color [#FFFFFF]?>
-            broadcast [got me v]
-            hide
-            wait (3) secs
-            go to x:<pick random (-220) to (220)> y: <pick random (-170) to (170)>
-            show
-        
-    ```
-    __Now we want the fish to respond to this message by making a “chomp” sound and snapping its jaws.__
-
-+ Add the **resources/mouth-closed.png** costume and the **resources/chomp.mp3** sound to the Hungry Fish sprite.
-+ Then, add a new script to the Hungry Fish to respond to the message `broadcast`{.blockyellow} by the prey. This script should make the fish play the **'chomp'** sound and `switch to`{.blockpurple} the mouth-closed costume, wait briefly and then switch back.
-
-    ```blocks
-    when I receive [got me v]
-        play sound [chomp v]
-        repeat (2)
-            switch to costume [mouth-closed v]
-            wait (0.5) secs
-            switch to costume [hungry-fish v]
+    når jeg mottar [Du tok meg! v]
+    spill lyden [bubbles v]
+    gjenta (2) ganger
+		bytt drakt til [lukket munn v]
+		vent (0.5) sekunder
+		bytt drakt til [åpen munn v]
     ```
 
-__Now our Hungry Fish is ready to eat, let’s fill the ocean with prey. Right-click on the prey sprite and click “duplicate” several times.__
+__Nå er JafseFisk klar til å spise, så la oss fylle havet med byttedyr. Høyreklikk på byttefiguren og velg `lag kopi` til du føler du har fått nok fisk.__
 
-## Test Your Project { .flag}
-Click the green flag.
-Does the Hungry Fish eat the prey? Does it eat each of the different prey?
+## Test prosjektet { .flag}
+Klikk på det grønne flagget. Spiser JafseFisk byttet? Spiser den alle byttedyrene?
 
-## Save your project { .save}
+## Lagre prosjektet { .save}
 
-##Things to think about
-Why do we need to add a `show`{.blockblue} block to the start of the prey’s script? Think about what would happen if the prey is eaten, then the game is stopped before it reappears. What would happen if the game was restarted then?
-
-__Well done you’ve finished the basic game. There are more things you can do to your game though. Are you ready for a challenge?__
+## Noe å tenke på
+Hvorfor må vi legge til en `vis`{.blockblue} blokk på starten av byttedyrets skript? Tenk på hva som ville skje om byttet blir spist og spillet stoppes før det dukker opp igjen. Og hva ville skje om spillet ble startet igjen?
 
 
-## Challenge 1: Make the prey move differently { .challenge}
-
-At the moment, all the prey move in the same way. __Can you make one of them move differently?__ __Hint:__ Don’t spend too long on this bit without looking at the other activities in this project.
-
-__Pick one of the prey to experiment on.__ If they have the same costumes, make it a different colour with the `set color effect`{.blockpurple} block. That way, you can tell it apart from the rest of the prey.
-
-Make this prey move slower than the others. __Hint:__ Look at the `move 2 steps`{.blockblue} block.
+__Godt gjort! Du har igrunn fullført spillet! Men fins flere muligheter for utvidelse av spillet. Er du klar for en utfordring?__
 
 
-## Test Your Project { .flag}
-Does the prey move slower? Does this make the game better?
-If you can do that, __try making one of the prey move quicker than the others.__
+## Utfordring 1: Forandre bevegelsene til byttedyrene { .challenge}
+
+For øyeblikket beveger alle byttedyrene seg likt. __Kan du få ett av dem til å bevegeseg annerledes?__ 
+__Hint:__ Ikke bruke for lang tid på denne oppgaven uten å se på de andre aktivitene i dette prosjektet.
+
+__Velg deg ut et byttedyr å eksperimentere med.__ Hvis de har samme drakt, bytt farge me `sett farge effekt`{.blockpurple} blokken. Slik kan du se forskjell fra resten av byttedyrene. Prøv nå å få dette byttedyret til å bevege seg saktere enn de andre.
+
+Få byttedyret til å bevege seg saktere enn de andre. __Hint:__ Se på blokken `gå (2) steg`{.blockblue}.
 
 
-Does the prey still move in a sensible way? Do these changes make the game better?
-__Hint:__ If your prey swims around in circles, check the values of the `pick random`{.blockgreen} block in the `turn`{.blockblue} block.
+## Test prosjektet{ .flag}
+Beveger byttet seg saktere? Gjør dette spillet bedre?
+Hvis du klarte dette, __, prøv å gjøre et av byttedyrene kjappere enn de andre.__
 
-How about you make each of the prey behave differently, using different combinations of these changes?
 
-Do any of these changes make the game better? Do they make the game more interesting, more fun, harder, or easier? Are any of those “better”?
+Beveger byttedyrene seg på en fornuftig måte?  Gjør disse forandringene spillet bedre?
+__Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i `tilfeldig tall`{.blockgreen} blokken i `vend`{.blockblue} blokken.
 
-## Save your project { .save}
+Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke forskjellige kombinasjoner av disse bevegelsene?
 
-## Challenge 2: Make the prey avoid the Hungry Fish { .challenge}
+Gjør noen av disse forandringene spillet bedre? Gjør de spillet med interessant, morsommere, vanskeligere eller lettere? Er noe av dette bedre, syns du?
 
-The prey in this game are really stupid! They just swim around randomly until they’re eaten. Real prey swim away from predators. __Let’s make one of the prey swim away from the Hungry Fish.__
+## Lagre prosjektet { .save}
 
-There’s no block in Scratch that tells you the direction that another sprite is in. But you can make one sprite point towards another, then make it turn around to face away. The blocks you need are in the `Motion`{.blocklightgrey} palette.
+## Utfordring 2: Hjelp byttet å unngå JafseFisk { .challenge}
 
-Using that idea, __make one of the prey always point away from the Hungry Fish.__ 
+Byttedyrene i dette spillet er skikkelig dumme! De svømmer bare tilfeldig rundt til de blir spist. Ekte fisk svømmer vekk fra rovfisker. Nå vil vi __la ett av byttedyrene svømme vekk fra JafseFisk.__
 
-You might find that your prey gets stuck in the corner if it is always swimming away from the fish. You might want to have the prey only try to escape when the fish gets close. __Hint:__ Look back at how we used the `distance to`{.blocklightblue} block ealier in the game. 
+Det fins ingen blokk i Scratch som kan gi oss retningen til en annen figur. Men du kan få en figur til å snu seg i retningen av en annen, og deretter la den snu seg i motsatt retning. Blokkene du trenger er i `Bevegelse`{.blocklightgrey} paletten.
 
-## Test Your Project { .flag}
-Does this make the prey harder to catch? Does it make the game better?
+Prøv nå å hjelpe et av byttedyrene med å __snu seg vekk fra JafseFisk__. Du vil kanskje også la den virre mens den svømmer bort?
+Du vil kanskje oppdage at byttet setter seg fast i et hjørne? Du  ønsker kanskje at byttet bare ønsker å flykte dersom JafseFisk kommer for nære?
+__Hint:__ Se tilbake på hvordan vi brukte `avstand til`{.blocklightblue} blokken tidligere i spillet. 
 
-## Save your project { .save}
+## Test prosjektet { .flag}
+Gjør dette at fisken er vanskeligere å ta? Gjør det spillet bedre?
 
-## Challenge 3: Add a score { .challenge}
-It’s not enough just to eat lobsters. How do you know you’re better at the game than your friends? __You need a way to keep score so lets add a score board.__ Look at the __Keep Score scratch card__ for an idea of how to do it. 
+## Lagre prosjektet{ .save}
 
-Where should you put the block that changes the score?
+## Utfordring 3: Legg til poeng { .challenge}
+Det er ikke nok bare å spise fisk. Hvordan vet du at du er en bedre spiller enn vennene dine? __Du må kunne samle poeng, så la oss legge til en poengtavle.__ Se på __Keep Score scratch card__ for å få noen hint om hvordan det kan gjøres. 
+Pass på at poengene går tilbake til null ved begynnelsen av spillet. Hvor skal du legge inn denne blokken?
 
-Make sure the score goes back to zero at the start of the game. Where should you put that block?
+## Test prosjektet { .flag}
+Går poengsummen tilbake til null når spillet starter? Går den opp hver gang du spiser byttedyr?
 
-## Test Your Project { .flag}
-Does the score go to zero at the start of the game? Does it go up every time you eat prey?
+## Lagre prosjektet { .save}
 
-## Save your project { .save}
+## Utfordring 4: Legg til en nedtelling { .challenge}
 
-## Challenge 4: Add a countdown { .challenge}
+__Gi deg selv en tidsfrist.__ Hvor mange fisk kan du spise på 30 sekunder?
 
-__Give yourself a time limit in the game.__ How many prey can you eat in thirty seconds?
+Se på __Timer scratch card__  for å se hvordan man legger til en tidtaker til et spill. Begynn med 30 sekunders-spill.
 
-Look at the __Timer scratch card__ for how to add a timer to the game. Start with the game lasting thirty seconds.
+## Test prosjektet { .flag}
+Begynner tidtakeren på 30?
+Teller den ned med rett hastighet? 
+Kan du fange fisk mens tiden telles ned? Stopper spillet når telleren når null?
 
-## Test Your Project { .flag}
-Does the timer start at 30?
+## Lagre prosjektet { .save}
 
-Does it go down at the right speed?
+## Utfordring 5: Legg til bonuspoeng { .challenge}
+Legg til en belønning med høy bonus poeng om du kan spise alle tre fiskene samtidig. Hvordan kan du vite hvor mange som er spist?
 
-Can you catch prey while the timer is going?
+__Hint:__ En måte å gjøre dette på er å bruke en variabel for å __telle hvor mange byttedyr som svømmer i havet.__
 
-Does the game stop when the timer reaches zero?
+## Lagre prosjektet { .save}
 
-## Save your project { .save}
+## Utfordring 6: Forandre spillet: Hold byttedyrene i live! { .challenge}
+Av og til kan man få glimrende nye idèer ved å gjøre det motsatte av det man allerede har gjort.
 
-## Challenge 5: Add a bonus score { .challenge}
-Award a large bonus score if you can eat all three lobsters at the same time. How can you tell how many prey have been eaten?
+__Endre spillet slik at du isteden kontrollerer et byttedyr i et hav av mange JafseFisk.__ Hvor lenge kan du holde det gående før du blir spist? Istedet for å bruke poeng, hva med å  gi byttedyret 3 liv og avslutte spillet når de er brukt opp?
 
-__Hint:__ One way to do this __uses a variable to count how many prey are swimming around.__
+## Lagre prosjektet { .save}
 
-## Save your project { .save}
-
-## Challenge 6: Change the game: keep a prey alive! { .challenge}
-Sometimes, you can have great new ideas by taking an existing idea and doing the opposite.
-
-__Modify the game so that, instead of you controlling a fish that tries to eat the others, you control one prey in a sea with lots of Hungry Fish.__ How long can you last before you’re eaten? Instead of having a score, how about giving the prey 3 lives and ending the game when they're all gone?
-
-## Save your project { .save}
-
-__Well done you’ve finished, now you can enjoy the game!__
-Don’t forget you can share your game with all your friends and family by clicking on __Share__ on the menu bar!
+__Godt gjort, du er ferdig! Nå kan du nyte spillet ditt!__
+Ikke glem at du kan dele spillet med alle vennene og familien din ved å klikke på __Legg ut__ i topp-menyen!
 
