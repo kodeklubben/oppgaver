@@ -2,7 +2,7 @@
 title: JafseFisk
 level: 1.5
 language: nb-NO
-embeds: "*.png"
+embeds: ["*.png", "../../bilder/*.png"]
 ...
 
 #JafseFisk
@@ -10,7 +10,7 @@ embeds: "*.png"
 #Introduksjon { .intro}
 Vi skal nå lage et JafseFisk-spill! Målet i spillet er å hjelpe JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 
-![skjermbilde](skjermbilde.png)
+![skjermbilde](jafsefisk.png)
 
 # Steg 1: JafseFisk følger musepekeren { .activity}
 __Først skal vi lage JafseFisk som svømmer rundt i havet!__
@@ -21,7 +21,7 @@ __Først skal vi lage JafseFisk som svømmer rundt i havet!__
 + __Riktig bakgrunn__ får du ved å velge Scene og så Bakgrunn-fanen. Importer bakgrunnen __Natur/underwater3__ ved å velge `Velg en ferdig bakgrunn`{.blocklightgrey}. Slett så den andre bakgrunnen __backdrop1__.
 + Endre Sprite1's navn til `JafseFisk` ved å trykke på det blå '__i__' symbolet.
 + Gi figuren en haidrakt ved å velge `Velg drakt fra biblioteket`. Velg drakt __Dyr/shark-b.png__. Kall drakten `åpen munn`. Slett så figurens andre drakt (__costume1__ og __costume2__).
-+ Klikk på det blå '__i__' symbolet igjen, og pass på at figuren bare kan bevege seg fra side til side.
++ Klikk på det blå '__i__' symbolet igjen, og pass på at figuren bare kan bevege seg fra side til side ved å velge rotasjonsmåte `<-->`.
 + Få fisken til å følge musepekeren rundt i sjøen ved å lage dette skriptet:
 
 ```blocks
@@ -53,11 +53,9 @@ Hvordan ser den ut? Hvorfor gjør den dette?
 
 ## Ting å prøve { .try}
 
-If you want, you can put different numbers in the script. How does that change how Hungry Fish moves? Change the distance threshold to a large number (e.g. 100), or a small number (e.g. 1). Change the amount the fish moves to a large number (e.g. 20) or a small number (e.g. 1 or even 0).9. Hvis du vil kan du forandre tallene i skriptet, og se hvordan det forandrer
-bevegelsene:?
+Hvis du vil kan du forandre tallene i skriptet, og se hvordan det forandrer bevegelsene:?
 Sett avstandensgrensen til et stort tall (f.eks. 100), eller et lite tall (f.eks. 1).
-Sett antall steg fisken flytter seg til et stort tall (f.eks. 20) eller et lite tall (f.eks. 1, eller
-0).
+Sett antall steg fisken flytter seg til et stort tall (f.eks. 20) eller et lite tall (f.eks. 1, eller 0).
 
 
 # Steg 2: Legg til byttedyr { .activity}
@@ -99,7 +97,7 @@ __Nå skal vi la JafseFisk spise byttet!__ Når den har fanget byttet i munnen ska
 
 ## Sjekkliste { .check}
 
-+ FVi starter med å la byttet forsvinne hvis den berører JafseFisk, og så komme tilbake etter 3 sekunder. Bruk `berører`{.blocklightblue}-blokken for å sjekke om byttet kommer borti JafseFisk.
++ Vi starter med å la byttet forsvinne hvis den berører JafseFisk, og så komme tilbake etter 3 sekunder. Bruk `berører`{.blocklightblue}-blokken for å sjekke om byttet kommer borti JafseFisk.
 
     ```blocks
     når grønt flagg klikkes
@@ -117,7 +115,7 @@ __Nå skal vi la JafseFisk spise byttet!__ Når den har fanget byttet i munnen ska
 __Prøv spillet ditt igjen. Ser du noen problemer?__ ? Legg merke til at byttet forsvinner uansett hvor det berører JafseFisk. Dessuten kan fisken bare vente 3 sekunder og så spise byttet i samme øyeblikk som det dukker opp igjen, det er ikke særlig rettferdig!
 
 
-+ Hvordan kan vi sikre at byttet bare forsvinner hvis det berører JafseFisks munn? Tja, vi kunne bruke `berører farge`{.blocklightblue} blokken og se om den berører fiskens tenner. For å gjøre dette, bytt ut `berører`{.blocklightblue} blokken med en `berører farge`{.blocklightblue} blokk i skriptet ditt, klikk på fargen i blokken og klikk så på fiskens tenner.
++ Hvordan kan vi sikre at byttet bare forsvinner hvis det berører JafseFisks munn? Tja, vi kunne bruke `berører farge`{.blocklightblue} blokken og se om den berører fiskens tenner. For å gjøre dette, bytt ut `berører`{.blocklightblue} blokken med en `berører farge`{.blocklightblue} blokk i skriptet ditt, klikk på fargen i blokken og klikk så på fiskens tenner. 
 + Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen før den dukker opp igjen ved å bruke en `gå til`{.blockblue} blokk, og gi den en tilfeldig verdig for __x__ og __y__.
 
     ```blocks
@@ -154,8 +152,8 @@ Prøv spillet igjen. Forsvinner byttet bare når det berører fiskens tenner? Og ko
     ```
     __Nå vil vi at fiskens respons på denne meldingen er å lage en gomlelyd og klikke med kjevene.__
 
-+ Legg til drakten __Dyr/shark-a__ og lyden  __Effekter/bubbles__ stil JafseFisk. Kall drakten `lukket munn`.
-+ Legg så til et skript til JafseFisk slik at han kan svare på meldingen `send melding`{.blockyellow} fra byttedyret. Dette skriptet gjør at fisken spiller av boblelyden og `bytter drakt til`{.blockpurple} of lukket-munn drakten, venter litt og så bytter tilbake.
++ Legg til drakten __Dyr/shark-a__ og lyden  __Effekter/bubbles__ til JafseFisk. Kall drakten `lukket munn`.
++ Legg så til et nytt skript til JafseFisk slik at han kan svare på meldingen `send melding`{.blockyellow} fra byttedyret. Dette skriptet gjør at fisken spiller av boblelyden og `bytter drakt til`{.blockpurple} of lukket-munn drakten, venter litt og så bytter tilbake.
 
     ```blocks
     når jeg mottar [Du tok meg! v]
