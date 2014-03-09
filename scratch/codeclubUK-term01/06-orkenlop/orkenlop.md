@@ -11,7 +11,7 @@ embeds: ["*.png", "../../bilder/*.png"]
 Dette er et spill for to, der en papegøye og en løve kjemper om å komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og ofte som mulig for å flytte figuren sin, og den som kommer først til kanten av skjermen vinner.
 
 
-![screenshot](ørkenløp.png)
+![screenshot](orkenlop.png)
 
 # Steg 1: Lage en scene og legg til figurer { .activity}
 
@@ -83,7 +83,7 @@ Teller knappen ned? Sier den ‘LØP’? Blir den borte?
 
 Vi ønsker at figurene bare beveger seg etter at kappløpet er startet og vi ønsker å vite når kappløpet er over.
 
-+ For å vite når kappløpet har startet og sluttet lager vi en variabel med navnet `kappløp`{.blockorange}. Fjern avhukingen til venstre for variabelen, slik at den ikke vises på scenen.
++ For å vite når kappløpet har startet og sluttet lager vi en variabel med navnet `kappløp`{.blockorange}. Variabelen skal være tilgjengelig for alle figurer. Fjern avhukingen foran variabelen, slik at den ikke vises på scenen.
 + Sett __kappløp__ til __[0]__ når spillet startes. Forandre `når flagget klikkes`{.blockyellow} skriptet slik:
 
     ```blocks
@@ -91,164 +91,176 @@ Vi ønsker at figurene bare beveger seg etter at kappløpet er startet og vi ønske
         vis
         sett [kappløp v] til (0)
     ```
-+ Når nedtellingen er ferdig og løpet begynner, forandrer vi __kappløp__verdien til 1.
-+ Now we need to stop the lion and the parrot from moving unless the racing variable is set to be 1. Click on the parrot sprite. __Add a control block to the script__ that only allows the parrot to move if __racing = 1__.
+
++ Når nedtellingen er ferdig og løpet begynner, forandrer vi __kappløp__verdien til 1. Dette gjør du ved å legge til blokken `Sett [kappløp] til (1)`{.blockorange} under `si [1] i (1) sekunder`{.blockpurple} i skriptet som starter med `når denne figuren klikkes`{.blockyellow}.
++ Så må vi lage en regel som sier at figurene bare får lov til å bevege seg når løpet har startet – det vil si når kappløp har verdien 1. Klikk først på papegøyen. Så legger du til:
 
     ```blocks
-    
-        when [a v] key pressed
-        if <(racing) = [1]>
-            move (4) steps
+	når [a v] trykkes
+	hvis <(kappløp) = [1]>
+		gå (4) steg
     ```
-+ Now do the same for the lion sprite.
++ Gjenta det samme for løvinnen.
 
 ## Test prosjektet { .flag}
 __Klikk på det grønne flagget.__
 
-Does the lioness or the parrot move only after the countdown has finished?
-
-We want to know who wins the race and reset it when it has finished so you can
-race again.
+Kan løven og papegøyen bare flytte seg når nedtellingen er ferdig?
 
 ## Lagre prosjektet { .save}
 
-# Steg 4: Finishing the race { .activity}
+# Steg 4: Avslutte kappløpet { .activity}
+
+__Nå vil vi vite hvem som vinner kappløpet, og i tillegg gjøre klart for en ny runde.__
 
 ## Sjekkliste { .check}
 
-+ Add a block to the parrot’s script that sets the **racing** variable to be 0 when the sprite touches the edge of the screen.
++ Legg til en blokk i papegøyens skript som `setter [kappløp] til (0)`{.blockorange} hvis figuren berører kanten av skjermen.
+
 
     ```blocks
-    when [a v] key pressed
-    if <(racing) = [1]>
-        move (4) steps
-        if <touching [edge v]?>
-        set (racing) to [0]
+    når [a v] trykkes
+    hvis <(kappløp) = [1]>
+        gå (4) steg
+        hvis <berører [kant v]?>
+			sett [kappløp v] til (0)
     ```
-+ Now we want the parrot to let us know if it wins the race. Record a new sound for the Parrot sprite that will be played when the parrot wins. Click `sounds`{.blocklightgrey} and then record the sound of the parrot winning the race!
-+ Now add blocks that `play`{.blockpurple} the sound you recorded and makes the parrot say it has won:
++ Spill så inn en lyd som skal avspilles hvis papegøyen vinner.
+Trykk på Lyder-fanen og deretter mikrofon-ikonet og spill inn en morsom trudelutt! Opptaket starter når du har klikket på rundingen slik at den blir rød. Klikk Stopp (firkanten) når du er ferdig, og gi den et navn – for eksempel Polly. Noen nettlesere kan spørre om tillatelse til å spille inn lyd. Hvis du ikke ønsker dette, bruk lydene som følger med figurene.
++ Deretter legger du til blokkene som vil spille lyden og la papegøyen fortelle at den vant:
 
     ```blocks
-        when [a v] key pressed
-        if <(racing) = [1]>
-            move (4) steps
-            if <touching [edge v]?>
-                set (racing) to [0]
-                play sound [recording1 v]
-                say [The Parrot Wins! v] for (3) secs   
+	    når [a v] trykkes
+		hvis <(kappløp) = [1]>
+			gå (4) steg
+			hvis <berører [kant v]?>
+				sett [kappløp v] til (0)
+                spill lyden [Polly v]
+                si [Polly vinner! v] i (3) sekunder  
     ```
-+ Now repeat these steps for the lioness.
+	
++ Gjør det samme for løvinnen.
 
 ## Test prosjektet { .flag}
 __Klikk på det grønne flagget.__
 
-Can you press the start button and race by pressing the ‘A’ and ‘L’ keys?
-Do the sprites make their winning sound and say they’ve won when they reach the end of the race?
+Kan du trykke på startknappen og deretter bevege dyrene med tastene __A__ og __L__?
+Kommer riktig vinnerlyd og melding opp på skjermen?
 
 ## Lagre prosjektet { .save}
 
-# Steg 5: Resetting the game { .activity}
+# Steg 5: Nullstill spillet { .activity}
 
-After the race is finished we need to tell the other sprites we have won and reset the game so we can play again.
-
-__We need the winning sprite to broadcast that it has won.__
+__Når kappløpet er over må vi fortelle de andre figurene at spillet er over og nullstille spillet, slik at er klart for en ny runde.__
 
 ## Sjekkliste { .check}
 
-+ Click on the Parrot sprite.
-Add a block that broadcasts a **"finished”** message after the sprite says it has won.
++ Klikk på papegøyefiguren og legg til en blokk som sender melding ‘avslutt’ etter at figuren sier den har vunnet.
+
 
     ```blocks
-    when [a v] key pressed
-    if <(racing) = [1]>
-        move (4) steps
-        if <touching [edge v]?>
-            set (racing) to [0]
-            play sound [recording1 v]
-            say [The Parrot Wins! v] for (3) secs
-            broadcast [finished v]
+	når [a v] trykkes
+	hvis <(kappløp) = [1]>
+		gå (4) steg
+		hvis <berører [kant v]?>
+			sett [kappløp v] til (0)
+			spill lyden [Polly v]
+			si [Polly vinner! v] i (3) sekunder
+			send melding [avslutt v]
     ```
 
-+ Now we need to add a new script that listens for the finished broadcast and moves the parrot back to the start. What happens if you change the value that **x** is set to?
++ Vi trenger nå et nytt skript som lytter etter denne avslutningsmeldingen og flytter papegøyen tilbake til start.
 
     ```blocks
-    when I receive [finished v]
-        set x to (-170)
+    når jeg mottar [avslutt v]
+    sett x til (-170)
     ```
-+ Now add the same script for the lioness. Test different **x** values to make sure the lion and the parrot line up at the start.
-+ We also want to put the lion and the parrot in the same position when the project is run, so add another script to each that moves them to the start when we click the flag.
+	
++ Legg til det samme skriptet for løven. Test forskjellige __x__-verdier for å være sikker på at løven og papegøyen starter fra samme sted.
++ For at figurene skal stå på startstreken når kappløpet starter den aller første gangen må vi også legge til følgende blokk til begge figurene: 
 
     ```blocks
-    when FLAG clicked
-        set x to (-170)
+    når flagg klikkes
+        sett x til (-170)
     ```
-+ Now click on the button sprite and add a script that shows it when it receives the finished message.
+	
++ For at spillerne skal kunne klikke i gang nye runder må passe på at start-knappen kommer etter hver avsluttet runde. Klikk på figuren og legg til et skript som viser knappen når avslutningsmeldingen er mottatt.
 
+    ```blocks
+    når jeg mottar [avslutt v]
+    vis
+    ```
+
+	
 ## Test prosjektet { .flag}
 
 __Klikk på det grønne flagget.__
 
-Can you race against a friend, one of you moving the parrot by pressing ‘A’ and the other moving the Lion by pressing ‘L’?
+Kan du spille mot en venn? En av dere styrer papegøyen ved å trykke A, og den andre løven
+ved å trykke L.
 
 ## Lagre prosjektet { .save}
 
-##Challenge 1: Add a booster { .challenge}
 
-* __Try to add a booster__ that you can use once each race that moves the parrot or the lion __30 steps in 1 go.__
-* __Add a new costume__ with fire coming out behind for each sprite and make it appear when the boost is pressed.
-* __Create another sound__ that the sprite will make when the boost is pressed.
+##Utfordring 1: Legg til en rakett! { .challenge}
+
+* __Legg til en rakett__ som kan brukes én gang per kappløp og som flytter papegøyen eller løven __30 steg på en gang.__
+* __Legg til en ny drakt__  med ild som kommer ut bak hver figur. La denne aktiveres når raketten avfyres.
+* __Lag en lyd__ som figuren kan gi fra seg når raketten avfyres.
 
     ```blocks
-    when [p v] key pressed
-    if <<(racing) = [1]> and <(boosted) = [0]>>
-        switch to costume [parrot-boost v]
-        set [boosted v] to [1]     
-        move (4) steps
-        if <touching [edge v]?>
-             set (racing) to [0]
-            play sound [recording1 v]
-            say [The Parrot Wins! v] for (3) secs
-            broadcast [finished v]
-    ```
+	når [a v] trykkes
+		hvis <(kappløp) = (1) og (rakett) = (0)> 
+			skift til drakt [parrot-b v]
+			sett [rakett v] til (1)
+			gå (4) steg
+			spill lyden [Rooster v]
+			hvis <berører [kant v]?>
+				sett [kappløp v] til (0)
+                spill lyden [Polly v]
+                si [Polly vinner! v] i (3) sekunder
+				send melding [avslutt v]
+	
     
 ## Test prosjektet { .flag}
 
 ## Lagre prosjektet { .save}
 
-##Challenge 2: Use custom blocks to simplify your script { .challenge}
+## Utfordring 2: Bruk egendefinerte blokker for å forenkle skriptet ditt { .challenge}
 
-The code to check if the race has finished is now used in two places for each sprite: when the sprite is moving normally and when it's moving with the booster. We can simplify our script using a custom block which is a chunk of code that gets used in more than one place. It's a bit like making up our own Scratch code block!
+Koden som brukes til å sjekke om kappløpet er over brukes nå to steder for hver figur; når figuren beveger seg normalt og når den beveger seg med rakett.
+Vi kan forenkle skriptet vårt ved å bruke en egendefinert blokk. Dette er en samling kode som brukes flere steder. Det er nesten som at vi lager vår egen Scratch kodeblokk!
 
-+  Choose the Parrot's script.
-+ Select the `More Blocks`{.blocklightgrey} palette and then click the `Make a Block`{.blocklightgrey} button. 
-+ Give the custom block a name by typing **"finished"** into the pink box. Then click OK.
-+ You'll now see a `define finished`{.blockpurple} block appear in the scripts window. Drag it to a clear area.
-+ Detach the `if`{.blockyellow}`touching edge?`{.blocklightblue}`then`{.blockyellow} block and drag it to the `define finished`{.blockpurple} block.
-
++  Velg papegøyens skript.
++ Velg `Flere klosser`{.blocklightgrey}-paletten og klikk så på `Lag en kloss`{.blocklightgrey} knappen.
++ Kall klossen din __ferdig__ og trykk OK.
++ Du vil nå få en `definer ferdig`{.blockpurple} blokk i skriptvinduet ditt. Flytt den litt for seg selv. 
++ Løsriv `hvis`{.blockyellow} `berører [kant v]?`{.blocklightblue}` blokken og dra den til `definer ferdig`{.blockpurple} blokken.
 
     ```blocks
-    define finished
-     if <touching [edge v]?>
-         set (racing) to [0]
-         play sound [recording1 v]
-         say [The Parrot Wins! v] for (3) secs
-         broadcast [finished v]
+    definer ferdig
+	hvis <berører [kant v]?>
+				sett [kappløp v] til (0)
+                spill lyden [Polly v]
+                si [Polly vinner! v] i (3) sekunder
+				send melding [avslutt v]
     
-    when [q v] key pressed 
-    if <<(racing) = [1]> and <(boosted) = [0]>>
-        switch to costume [parrot-boost v]
-        set [boosted v] to [1]     
-        move (4) steps
-    finished
+    når [a v] trykkes 
+    hvis <(kappløp) = (1) og (rakett) = (0)>
+		skift til drakt [parrot-b v]
+		sett [rakett v] til (1)
+		gå (4) steg
+		spill lyden [Rooster v]
     ```
-Can you drag the `finished`{.blockpurple} block from the palette and use it like any other code item?
+	
+Kan du dra `ferdig`{.blockpurple} blokken fra paletten og bruke den slik som andre kodebiter?
 
-Delete the other `if`{.blockyellow}`touching edge?`{.blocklightblue} block from your script and replace it with another `finished`{.blockpurple} custom block.
+Slett den andre `hvis`{.blockyellow}` berører [kant v]?`{.blocklightblue} blokken fra skriptet ditt og erstatt den med en `ferdig`{.blockpurple} blokk.
 
-Does this make your code easier to read? Can you create a similar custom block for the lioness sprite?
+Gjør dette koden din enklere å lese? Kan du lage en tilsvarende egendefinert blokk for løvinnen?
 
 ## Test prosjektet { .flag}
 
 ## Lagre prosjektet { .save}
 
-__Well done you’ve finished, now you can enjoy the game!__
+__Veldig bra! Nå er du ferdig og kan nye spillet du har laget!__
