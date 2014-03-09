@@ -18,266 +18,268 @@ __Vi vil at noen forskjellige bilder skal komme opp på tavlen.__
 ## Sjekkliste { .check}
 
 + Start et nytt Scratch-prosjekt og slett kattefiguren.
-+ Click Stage and then the Backdrops tab. `Choose Backdrop From Library` {.blockgrey} to change the backdrop to __indoors/chalkboard__.
-+ Create a new sprite from the library, and give it any costume you like. You can pick something from the things folder.
-+ Position the new sprite in the middle of the blackboard. Make it bigger or smaller if you need to.
-+ Click the Costumes tab and import four more things. They can be anything you want, yay!
-Let’s now make a random picture appear. 
-+ Create this script:
++ Klikk på Scene og deretter Bakgrunner-fanen. Åpne biblioteket med bakgrunner ved å trykke på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) og velg så __Innendørs/chalkboard__.
++ Importer en valgfri figur. Velg gjerne en fra Ting-mappen.
++ Plasser figuren på midten av tavlen, og endre størrelsen hvis den ikke passer.
++ Legg til fire nye drakter fra Ting-mappen. Du kan velge hva du vil!
++ La oss nå få en tilfeldig ting til å dukke opp. Bruk dette skriptet. 
 
     ```blocks
-    
-        when FLAG clicked
-        repeat (pick random (1) to (5)
-            next costume
-        end
+        når grønt flagg klikkes
+        gjenta <tilfeldig tall fra(1) til (5)> ganger
+            neste drakt
+		slutt
     ```
 
 ##Test prosjektet { .flag}
-__Click the green flag.__
+__Trykk på det grønne flagget.__
+Endrer figuren seg? Klikk flere ganger. Får figuren stadig nye drakter? Flott. 
 
-Does the sprite show a different costume?
+Det gjør ingenting om samme drakt kommer opp flere ganger på rad. Det er helt normalt når det trekkes en tilfeldig drakt hver gang. 
+Du legger kanskje merke til at det flimrer litt når drakten skiftes? Det skal vi fikse i neste steg.
 
-__Click on it a few more times.__
- Do you get different costumes every time? Sometimes you’ll get the same costume twice in a row, but that’s OK. You’ll also notice that you can see the sprite flicker as it changes costume. We’ll fix that in the next step.
 
-##Lagre prosjektet{ .save}
+##Lagre prosjektet {.save}
 
-#Steg 2: Make the pictures distorted {.activity}
+#Steg 2: Forvreng bildet {.activity}
 
-__Let’s now make a picture distorted when it appears, and become clearer over a few seconds.__
+__La oss nå forvrenge figuren når den dukker opp på tavlen, så det blir vanskeligere å gjette hva det er. Deretter skal vi gradvis gjøre vi den tydeligere igjen.__
 
-We’ll use a score variable to control how much distortion there is. If the score is high, there will be lots of distortion. As the score goes down, there will be less and less distortion. The score also acts as a timer, like on the __Timer Scratch Card.__
+Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom poengscoren er høy vil bildet bli veldig forvrengt. Når antallet poeng synker, vil også graden av forvrenging synke. Poengvariabelen fungerer dermed som en tidteller.
 
 ## Sjekkliste { .check}
 
-+ On the Data palette, create a variable called Score. 
++ Velg Data-paletten og opprett en variabel kalt __poeng__. 
 
-+ Change the script to look like this:
++ Endre skriptet slik:
 
     ```blocks	
-    
-        when FLAG clicked
-        hide
-        repeat (pick random (1) to (5)		
-            next costume
-        end
-        set [score v] to (110)
-        repeat until ((score) = (0)
-            change [score v] by [-10]
-            set [pixelate v] effect to (score)
-            set [colour v] effect to (score)
-            show
-            wait (1) secs
-        end
+		når grønt flagg klikkes
+		skjul
+		gjenta <tilfeldig tall fra(1) til (5)> ganger
+            neste drakt
+        slutt
+        sett [poeng v] til (110)
+        gjenta til ((poeng) = (0)
+            endre [poeng v] med [-10]
+            sett [piksel v] effekt til (poeng)
+            sett [farge v] effekt til (poeng)
+            vis
+            vent (1) sekunder
+        slutt
     ```
 
-You should add the `hide` {.blockpurple} block at the top and the `set [score] to 110` {.blockorange} block, and everything below it.
-
 ##Test prosjektet { .flag}
-__Click the green flag.__
+__Trykk på det grønne flagget.__
 
-Does a random and distorted picture appear?
+Kommer det opp et tilfeldig og forvrengt bilde?
 
-Does the distortion get less in stages?
+Blir bildet gradvis tydeligere?
 
-Does the score go down as the picture becomes less distorted?
+Går poengsummen ned i takt med at bildet blir tydeligere?
 
-Do you get an undistorted image when the score reaches zero?
+Blir bildet fullstendig tydelig når poengsummen er 0?
 
-Do you still get a different picture every time you click the green button?
+Får du fremdeles nye ting på tavlen når du klikker på det grønne flagget?
+
 
 ##Lagre prosjektet{ .save}
 
-##Things to try { .try .activity}
+##Ting å prøve { .try .activity}
 
-+ __Try changing the starting score and how much it changes each time around the loop.__ How does this change how the picture looks? Does it make it harder or easier to spot what the picture is?
++ __Prøv å endre poengsummen fra start, samt hvor mye den skal forandre seg for hver gang den går gjennom løkka.__ Hvordan endrer deg utseendet til bildet? Blir det vanskeligere eller enklere å se hva bildet forestiller?
 
-+ __Try some different graphic effects from the pull-down lists.__ How do they change the difficulty?
++ __Forsøk noen ulike grafiske effekter fra nedtrekkslisten.__ Hvordan påvirker dette vanskelighetgsraden?
 
-#Steg 3: Allow the player to guess the picture {.activity}
+#Steg 3: La spilleren prøve å gjette bildet {.activity}
 
-So far we’ve got our random picture appearing slowly, and a score which decreases over time, but how do you win the game? We’ll add some sprites at the bottom of the screen for the player to click on. If they click on the right one, they win the game. If they click on the wrong one, that sprite disappears and the game carries on.
+Så langt har vi fått vårt tilfeldige bilde til gradvis å bli tydeligere, samtidig som poengsummen synker. Men hvordan skal man vinne spillet? Vi vil legge til noen figurer nederst på skjermen som spilleren kan klikke på. Klikker man på den rette, vinner man spillet. Klikker man på feil, forsvinner figuren og spillet fortsetter med en ny figur.
 
-First, we need to know what the right answer is.
+Først må vi å vite hva det rette svaret er.
 
-+ __Create a new variable__ called __answer__. Make sure it’s for all sprites.
-+ Change the script you’ve written to record the right answer. Add the `set [answer] to costume #` {.blockorange} blocks just after the first repeat loop:
+## Sjekkliste { .check} 
+
++ __Opprett en ny variabel__ og kall den __svar__. Pass på at den er tilgjengelig for alle figurer.
++ Endre skriptet slik at det klarer å holde styr på hva som er rett svar.  Etter den første `gjenta`{.blockorange}-løkken legger du derfor til blokken `sett [svar] til`{.blockorange} `drakt #`{.blockpurple}:
 
     ```blocks
-        when FLAG clicked
-        hide
-        repeat (pick random (1) to (5)	
-            next costume
-        end
-        set [answer v] to (costume #)
-        set [score v] to (110)
-        repeat until ((score) = (0))
-            change [score v] by (-10)
-            set [pixelate effect v] to (score)
-            set [colour effect v] to (score)
-            show
-            wait (1) secs
-        end
+		når grønt flagg klikkes
+		skjul
+		gjenta <tilfeldig tall fra(1) til (5)> ganger
+            neste drakt
+        slutt
+		sett [svar v] til (drakt #)
+        sett [poeng v] til (110)
+        gjenta til ((poeng) = (0)
+            endre [poeng v] med [-10]
+            sett [piksel v] effekt til (poeng)
+            sett [farge v] effekt til (poeng)
+            vis
+            vent (1) sekunder
+        slutt
     ```
-__Now we need to add the sprites that the player can click on.__
+__Nå må vi legge til flere figurer som spilleren kan klikke på.__
 
-+ Duplicate the main sprite and drag the duplicate to the bottom left corner of the stage.
-+ Rename this sprite to __answer1.__ (This makes it easier to talk about.)
-+ Delete __answer1__'s script and all its costumes but its first one.
-+ Do these last three steps again, but put the __answer2__ sprite next to __answer1__ and delete all but its second costume.
-+ Do it three more times for __answer3__, __answer4__, and __answer5.__
-You should end up with a row of five answer sprites along the bottom of the Stage, each showing a different costume the the main sprite can be. __None of the answer sprites should have any scripts.__
++ Gi først figuren din navnet __spørsmål__.
++ Lag så en kopi av figuren ved å høyreklikke på den. På scenen drar du deretter figuren ned til det venstre hjørnet.
++ Endre figurens navn til __svar1__.
++ Slett skriptet til __svar1__ og alle kostymer bortsett fra det første.
++ Gjenta de tre siste stegene igjen (kall neste kopi __svar2__), men plasser __svar2__ ved siden av __svar1__ og slett alle bortsett fra den andre drakten.
++ Gjenta disse punktene tre ganger til, slik at du har fått laget __svar3__, __svar4__ og __svar5__.
+Du skal nå ha en rad med fem svar-figurer nederst på scenen, hver viser en drakt som hovedfiguren kan ha. __Ingen av svar-figurene skal ha skript knyttet til seg.__
 
-Now we want to have each sprite respond to being clicked and do something depending on whether its the right answer or not.
-
-+ Add this script to the answer1 sprite:
++ Nå må vi få alle figurene til å reagere når de blir klikket på. Hva som skal skje avhenger av om spilleren har klikket riktig eller galt. Legg til dette skriptet til __svar1__:
 
     ```blocks
-    
-        when this sprite clicked
-        if ((answer) = (1)
-            broadcast [won v]
-        else
-            hide
+        når denne figuren klikkes
+        hvis <(svar) = (1)>
+            send melding [vant v]
+        ellers
+            skjul
         
     ```
 
-+ Drag this script into each of the other answer sprites. __In each sprite, change the 1 to 2, 3, and so on.__
-+ We now have to add something that responds to the won message. Go back to sprite1, the one on the blackboard. Add this extra script:
++ Dra skriptet over til de andre figurene, slik at alle får hver sin kopi. __For hver figur, bytt 1 til 2, 3, osv.__
++ Nå skal vi lage skriptet som gir melding til spilleren når han har vunnet. Klikk på __spørsmål__ igjen og legg til dette skriptet:
 
     ```blocks
-    
-        when I receive [won v]
-        say (join [Congratulations! You scored] (score))
+        når jeg mottar [vant v]
+        si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
     ```
 
 ##Test prosjektet {.flag}
-__Click the green flag.__
+__Trykk på det grønne flagget.__
 
-When you test the game, you can use the __answer monitor__ on the stage to tell what the right answer is. That’s good for testing.
+Når du tester spillet kan du bruke svarskjermen på scenen for å si hva rett svar er. Det
+fungerer bra for testing.
 
-What happens when you click on the __right answer__?
+Hva skjer når du klikker på __riktig svar__?
 
-What happens when you click on the __wrong answer?__
+Hva skjer når du klikker på __galt svar__?
 
-What happens to the wrong answer when you __start a new game?__
+Hva skjer med det gale svaret når du __starter på et nytt spill__?
 
-The test shows up two problems. First, wrong guesses don’t reappear when the next game starts. Second, the score doesn’t stop going down when we get the right answer.
+__Testen viser oss to problemer:__
+Først og fremst, ting som ble klikket på ved galt svar kommer ikke tilbake når et nytt spill starter. 
+For det andre, poengsummen fortsetter å gå ned, selv når man har klikket på riktig svar.
 
-+ To fix the first problem, add this script to each of the five answer sprites:
++ For å fikse det første problemet må vi legge til følgende skript for hver av de fem svarfigurene:
 
     ```blocks
-    
-        when FLAG clicked
-        show
+        når grønt flagg klikkes
+        vis
     ```
 
-To fix the second problem, we need to stop the __question sprite__’s repeat until loop when the player clicks on the right answer. We’ll use a new variable to do that. We’ll set it to __zero__ when the game starts and set it to __one__ when the game is won. We’ll make the repeat until loop stop when either the score reaches __zero__ OR the __game-winning flag__ is set to __one.__
-
-+ Create a new variable called won?
-+ Change the scripts so they look like this:
+For å fikse det andre problemet må vi få stoppet __spørsmålfigurens__’s `gjenta til`{.blockyellow}-løkke, når spilleren klikker på riktig svar. Vi kan bruke en ny variabel for å gjøre det. 
+Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den verdien 0 når spillet starter, og en annen som setter verdien til 1 når spillet vinnes. Se skript under.
++ I tillegg må vi stoppe `gjenta til`{.blockyellow}-løkken når poengsummen har blitt 0 eller vant er 1. 
++ Til slutt legger vi også inn en `ta bort grafiske effekter`{.blockpurple}-blokk som avslører spørsmålsfiguren, når spilleren har gjettet riktig. Skriptet skal nå se slik ut:
 
     ```blocks
-    
-        when FLAG clicked
-        hide
-        repeat (pick random (1) to (5)
-            next costume
-        end
-        set [answer v] to (costume)
-        set [score v] to (110)
-        set [won v] to (0)
-        repeat until <<(score) = (0)> or <(won) = (1)>>
-            change [score v] by (-10)
-            set [pixelate effect v] to (score)
-            set [colour effect v] to (score)
-            show
-            wait (1) secs
-        end
+		når grønt flagg klikkes
+		skjul
+		gjenta <tilfeldig tall fra(1) til (5)> ganger
+            neste drakt
+        slutt
+		sett [svar v] til (drakt #)
+        sett [poeng v] til (110)
+		sett [vant v] tuk (0)
+        gjenta til <<((poeng) = (0)> eller <(vant) = (1)>>
+            endre [poeng v] med [-10]
+            sett [piksel v] effekt til (poeng)
+            sett [farge v] effekt til (poeng)
+            vis
+            vent (1) sekunder
+        slutt
+	
+	    
+		når jeg mottar [vant v]
+		sett [vant v] til (1)
+		ta bort grafiske effekter
+        si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
         
-        when I receive [won v]
-        set [won v] to (1)
-        clear graphic effects
-        say (join [Congratulations! You scored] (score))
     ```
 
 ##Lagre prosjektet{.save}
 
-__Well done you’ve finished the basic game!__
-
-There are more things you can do to your game though. Have a go at these challenges!
+__Gratulerer! Du er nå ferdig med spillet. Men det fins mange flere ting du kan gjøre med det. Prøv deg gjerne på utfordringene vi har laget!__
 
 
-##Challenge 1: Make the game harder or easier {.challenge}
+##Utfordring 1:Gjør spillet enklere eller vanskeligere {.challenge}
 
-Change how difficult the game is.
+Endre vanskelighetsgrad for spillet.
 
-* Try changing how fast the picture is revealed and how fast the score goes down.
-* Try changing the distortions on the picture.
-* Try changing the pictures being guessed, to make them either more similar or more different. If you do this, don’t forget to change the answer sprite’s costume.
+* Forsøk å endre hvor lenge bildet vises frem og hvor raskt poengsummen minker.
+* Forsøk å endre forvrengingen av bildet.
+* Forsøk å gjøre tingene likere hverandre eller mer forskjellig. Husk også å forandre svarfigurenes drakter.
 
 ##Lagre prosjektet{.save}
 
-##Challenge 2: Distort the picture differently in each game {.challenge}
+##Utfordring 2: Forvreng bildet ulikt fra gang til gang {.challenge}
 
-At the moment, each play of the game uses the same distortion. In Step 2, you might have tried some different distortions that work at least as well as the colour + pixelation we used.
+For øyeblikket bruker spillet samme forvrengingsalgoritme hele tiden. Men i steg 2 prøvde du kanskje ut noen forskjellige alternativer. Prøv nå om du kan finne noen flere forvrenginger som du synes virker like bra som farge og piksler.
+ 
+Endre spillet slik at hvert spill bruker forskjellige forvrengninger i gjenta til-løkken.
 
-Find some different distortions that work well. 
+__Hint:__ 
+Forsøk å opprette en ny variabel som du kaller forvrenging. Sett denne til en tilfeldig verdi i starten av spillet. Bruk så hvis-blokker i gjenta til-løkken for å velge ut en forvrenging til det hvert spill.
 
-Change the game so that each game uses a different distortion in the repeat until loop.
-
-__Hint:__ Try creating a new variable, called distortion to use. Set it to a random value at the start of the game. Use if blocks in the body of the repeat until loop to apply the correct distortion for this game.
-
-##Lagre prosjektet{.save}
-
-##Challenge 3: Make a game have a few rounds {.challenge}
-
-At the moment, each game is independent. Change it so that the game proceeds in several rounds. For instance, have one game take three rounds, so the player has to guess three pictures and can score up to 300 points.
-
-__Hint:__ You’ll need an extra variable to store the grand total across all the rounds. You’ll also need a loop to go through the different rounds.
-
-__Hint:__ You’ll also have to make the wrong guesses reappear at the start of each round. Perhaps you could use a broadcast message to do that?
 
 ##Lagre prosjektet{.save}
 
-##Challenge 4: Make later rounds more difficult {.challenge}
+##Utfordring 3: La hvert spill ha flere runder {.challenge}
 
-As you go through different rounds, make the game harder each time.
+For øyeblikket er hvert spill uavhengig av andre. Prøv om du kan legge til flere
+runder slik at man får gjette på tre ting og kan vinne inntil 300 poeng.
 
-Does each round need to score the same? Should you get more points for guessing quickly in the later, more difficult rounds?
+__Hint:__ Du vil trenge en ekstra variabel for å lagre den totale poengsummen. Du må også ha en løkke som går rundt for hver runde.
 
-__Hint:__ How will you know which round you’re in? How can you use that to change the difficulty and the score?
+__Hint:__ Du vil trenge en ekstra variabel for å lagre den totale poengsummen. Du må også ha en løkke som går rundt for hver runde.
 
-##Lagre prosjektet{.save}
-
-##Challenge 5: Keep playing until the player gets it wrong {.challenge}
-
-Instead of using a fixed number of rounds, keep playing the game until the player doesn’t get a picture right. This probably only works if the game gets harder in later rounds.
 
 ##Lagre prosjektet{.save}
 
-##Challenge 6: Make the game harder or easier depending on how well the player does {.challenge}
+##Utfordring 4: Øk vanskelighetsgraden gradvis {.challenge}
 
-Rather than always making the game harder, make the game adjust the difficulty depending on the skill of the player. If they get the right picture quickly, make the next game a bit harder. If they don’t get the right picture, or only get it late, make the next game a bit easier.
+Gjør nå spillet vanskeligere og vanskeligere for hver runde.
 
-This idea only really works if you don’t add up someone’s score over several rounds.
+Kanskje hver runde
+også skal gi ulikt antall poeng? Bør spilleren også få ekstra mange poeng for å gjette kjapt i de vanskeligste rundene? 
 
-##Lagre prosjektet{.save}
 
-##Challenge 7: Keep track of the highest score {.challenge}
+__Hint:__ : Hvordan kan du vite hvilken runde du er i? Hvordan kan du bruke det til å endre vanskelighetsgraden og poengsummen?
 
-Keep track of the highest score. If someone manages to beat it, ask for their name and update the highest score. Make sure the highest score, and the name of the person who scored it, are displayed.
-
-##Lagre prosjektet{.save}
-
-##Challenge 8: Make wrong guesses expensive {.challenge}
-
-At the moment, there’s no penalty to just clicking on all the answer sprites as quickly as you can. Change the game so that the score goes down a bit every time you make an incorrect guess.
-
-Does this make the game better?
 
 ##Lagre prosjektet{.save}
 
-__Well done you’ve finished, now you can enjoy the game!__
-Don’t forget you can share your game with all your friends and family by clicking on __Share__ on the menu bar!
+##Utfordring 5: Fortsett til spilleren gjør feil {.challenge}
+
+steden for et bestemt antall runder, kan du la spillet gå til det blir klikket på feil svar. Dette funker nok best dersom man også øker vanskelighetsgraden utover i spillet.
+
+##Lagre prosjektet{.save}
+
+##Utfordring 6: Gjør spillet enklere eller vanskeligere basert på hvor flink spilleren er {.challenge}
+
+Istedenfor å gjøre det stadig vanskeligere kan vi tilpasse vanskelighetsgraden til spillernes dyktighet. Hvis de raskt gjetter riktig ting, kan den neste runden gjøres vanskeligere. Hvis de klikker feil eller gjetter sakte, kan neste runde gjøres enklere.
+
+Dette fungerer bare hvis du ikke samler opp poengsummen fra runde til runde.
+
+##Lagre prosjektet{.save}
+
+##Utfordring 7: Hold styr på rekorden {.challenge}
+
+Finn en måte å lagre den høyeste poengsummen på. Klarer du også å lagre navnet til spilleren, og få spillet til å si hvem som har rekorden?
+
+
+##Lagre prosjektet{.save}
+
+##Utfordring 8: Gi en straff for galt svar {.challenge}
+
+Slik spillet er nå kan man bare klikke som en gal på alle svarene, så vil man raskt finne riktig svar. Det kan derfor være en god idé å trekke fra poeng hver gang spilleren klikker galt.
+
+Gjør dette spillet bedre?
+
+##Lagre prosjektet{.save}
+
+__Veldig bra! Nå er du ferdig og kan nye spillet du har laget!__
+Ikke glem å del spillet ditt med venner og familie ved å trykke på __Legg ut__ i menyen!
