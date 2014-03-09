@@ -20,6 +20,11 @@
             "filename": "lesson3/lesson3.md",
             "number": 3,
             "materials": "lesson3/ressurser/*"
+        },
+        {
+            "filename": "lesson8/lesson8.md",
+            "number": 8,
+            "materials": "lesson8/ressurser/*"
         }
     ]
 }
