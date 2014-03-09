@@ -147,7 +147,7 @@ Vi får til dette ved å dele problemet i to: Det enkle problemet og spesialtilf
     mountain(3)
     ```
 
-    Du kan se at vi har brukt kode som er veldig likt `first, `second` og `third`. Vi bruker en `if`-setning for å finne ut om vi skal tegne det enkle tilfellet eller spesialtilfellet. I det spesielle tilfellet ber vi om å tegne et fjell, akkurat slik som `third` kalte `second`, men vi ber den om å tegne en enklere hver gang, med en ny verdi for `depth`, en mindre enn det vi startet med.
+    Du kan se at vi har brukt kode som er veldig likt `first`, `second` og `third`. Vi bruker en `if`-setning for å finne ut om vi skal tegne det enkle tilfellet eller spesialtilfellet. I det spesielle tilfellet ber vi om å tegne et fjell, akkurat slik som `third` kalte `second`, men vi ber den om å tegne en enklere hver gang, med en ny verdi for `depth`, en mindre enn det vi startet med.
 
 2. Kjør det og se hva som skjer. Hva skjer om du prøver `mountain(1)`, `mountain(2)`, eller `mountain(4)`?
 
@@ -265,7 +265,7 @@ Vi har det enkle tilellet `forward(100)`, og vi vet hvordan vi skal tegne linjen
             newdepth = depth -1
 
             # Hva skal vi skrive her?
-            # Kopier inn koden fra `bumpy line` hit, men
+            # Kopier inn koden fra steg 5 hit, men
             # bruk box(newdepth, length) istedenfor forward(100)
             # Spør om hjelp om du ikke forstår helt, men prøv deg gjerne
             # frem først.

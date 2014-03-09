@@ -210,8 +210,8 @@ Hva er yndlingsfargen din? Du kan endre fargen på linjene ved å bruke funksjon
 
 3. Forsøk å endre fargene i koden din, kjør den og se hva som skjer.
     Skilpadden kan mange hundre forskjellige farger, ikke bare blå, rød og
-    grønn. Forsøk med din yndlingsfarge! Du kan også bruke farger i __hex__ som
-    vi gjorde med CSS. Istedenfor å bruke `pencolor("red")` kan du bruke hex
+    grønn. Forsøk med din yndlingsfarge! Du kan også bruke farger i __hex__, som
+    du kanskje har gjort med CSS før. Istedenfor å bruke `pencolor("red")` kan du bruke hex
     `pencolor("#FF0000")`. Hvilken farge er #FF4F00?
 
 
@@ -236,7 +236,7 @@ Det siste programmet var de samme kommandoene igjen og igjen. Istedenfor å skri
     ```
 2. Lagre programmet og velg: Run -> Run module.
 
-    Legg merke til at koden er skjøvet inn, *indentert*, eller dyttet til venstre under for-løkken. Python bruker mellomrom for å vite hvilke kommandoer som skal gjentas. Du kan bruke Tab-tasten for å få IDLE til å *indentere*, eller bruke Shift-Tab til å ta dem bort.
+    Legg merke til at koden er skjøvet inn, *indentert*, eller dyttet til høyre under for-løkken. Python bruker mellomrom for å vite hvilke kommandoer som skal gjentas. Du kan bruke Tab-tasten for å få IDLE til å *indentere*, eller bruke Shift-Tab til å ta dem bort.
 
 3. La oss se hva som skjer hvis vi bare indenterer (skyver inn) `forward`. Gjør om programmet ditt så det ser ut som dette:
 
@@ -320,7 +320,7 @@ For en firkant er `360 / 4` lik 90, for trekanten er `360 / 3` lik 120.
 2. Nå kan du endre antall sider, klarer Python å gjøre jobben riktig? Prøv
 med så mange kanter du vil!
 
-# Step 6: Fylte figurer {.activity}
+# Steg 6: Fylte figurer {.activity}
 
 ## Sjekkliste {.check}
 
