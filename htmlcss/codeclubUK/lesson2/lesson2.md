@@ -124,13 +124,26 @@ Hvis du bare kopierer adressen til websiden fra nettleseren din, og deretter sen
 
 Husker du servere fra den første økten? Servere er datamaskiner som alltid er på og koblet til Internett, og de er satt opp slik at folk kan besøke nettsteder som lever på disse datamaskinene.
 
-For å gjøre dette vil vi bruke __Cyberduck__ - det er et program for å flytte filer fra din datamaskin til en server.
+For å gjøre dette vil vi bruke dropbox eller google drive. Hvis du ikke har en egen konto kan du spørre om å få bruke mamma eller pappa sin.
 
-1. Klikk `Åpne Tilkobling`.
-2. Legg inn servernavn, brukernavn og passord som instruert av Kodeklubben-hjelperen.
-3.  Klikk `Tilkoble`. Du vil da se alle mappene og filene på serveren - mest sannsynlig vil serveren være tom, om du ikke har lagt filene dine ennå.
-4. Dra nettsted-filene fra datamaskinen din til servervinduet. Opplastingen vil begynne.
-5. Når det er lastet opp, kan du besøke nettstedet ditt på adressen gitt til deg av Kodeklubben-hjelperen.
+## Dropbox:
+
+1. Åpne dropboxmappen på datamaskinen.
+2. Finn publicmappen, og lag en ny mappe inne i den. Den nye mappen kan få samme navn som hjemmesiden din, for eksempel 'om_meg'
+3. Kopier deretter htmlfilen din over i denne mappen. Dersom du bruker noen bilder eller lignende må disse også kopieres over.
+4. Høyreklikk på htmlfilen og velge `Kopier offentlig link`
+5. Lim inn urlen i nettleseren din (ctrl + v) og se at nettsiden din kommer opp.
+6. Denne urlen kan du nå gi til vennene dine, så kan de se på siden din. 
+
+## Google drive:
+
+1. Åpne google drive mappen på datamaskinen.
+2. Lag en ny mappe her. Den nye mappen kan få samme navn som hjemmesiden din, for eksempel 'om_meg'.
+3. Kopier deretter htmlfilen din over i denne mappen. Dersom du bruker noen bilder eller lignende må disse også kopieres over.
+4. Høyreklikk på mappen du opprettet. Under Google Drive velger du ´Del´. Kryss av at mappen skal være offentlig - at alle skal kunne se den.
+5. Høyreklikk på htmlfilen din og under Google Drive velger du 'Se på internett'.
+6. På siden du får opp kan du velge `Forhåndsvis`. Nå skal du se nettsiden din.
+7. Urlen du er på nå kan du dele med vennene dine, så kan de også se på siden din.
 
 ## Ting du kan prøve { .try}
 
