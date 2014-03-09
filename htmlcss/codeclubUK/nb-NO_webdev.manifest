@@ -1,0 +1,25 @@
+{
+    "id": "webdev",
+    "title": "HTML & CSS",
+    "description":"Learn how to build websites using HTML and CSS.",
+    "language": "nb-NO",
+    "number": 3,
+
+    "projects": [
+        {
+            "filename": "lesson1/lesson1.md",
+            "number": 1,
+            "materials": "lesson1/ressurser/*"
+        },
+        {
+            "filename": "lesson2/lesson2.md",
+            "number": 2,
+            "materials": "lesson2/ressurser/*"
+        },
+        {
+            "filename": "lesson3/lesson3.md",
+            "number": 3,
+            "materials": "lesson3/ressurser/*"
+        }
+    ]
+}
