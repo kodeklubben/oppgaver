@@ -31,7 +31,9 @@ __Hvordan kan vi se disse filene?__
 
 Når du skriver en adresse inn i nettleseren din, blir forespørselen din sendt avgårde til en datamaskin som alltid står på og er innstilt for å la deg se nettsidene som lever inni den. Denne datamaskinen kalles en server. Når den mottar en forespørsel fra din datamaskin, ser den etter alle de nødvendige filene, som for eksempel `.html`-filen, og sender deg den sammen med alt det andre nettsiden trenger, for eksempel bilder og videoer.
 
-// diagram som viser hvordan nettet fungerer - på toppen burde det stå: Kan jeg få denne siden takk? Og på bunnen: Her, værsågod
+###Kan jeg få denne siden takk?
+![screenshot](diagram_screenshot.png)
+Her, værsågod
 
 # Steg 2: Hva er HTML? { .activity}
 
