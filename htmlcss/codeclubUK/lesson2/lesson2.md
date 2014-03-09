@@ -131,7 +131,7 @@ For å gjøre dette vil vi bruke dropbox eller google drive. Hvis du ikke har en
 1. Åpne dropboxmappen på datamaskinen.
 2. Finn publicmappen, og lag en ny mappe inne i den. Den nye mappen kan få samme navn som hjemmesiden din, for eksempel 'om_meg'
 3. Kopier deretter htmlfilen din over i denne mappen. Dersom du bruker noen bilder eller lignende må disse også kopieres over.
-4. Høyreklikk på htmlfilen og velge `Kopier offentlig link`
+4. Høyreklikk på htmlfilen og velge `Copy Public Link`
 5. Lim inn urlen i nettleseren din (ctrl + v) og se at nettsiden din kommer opp.
 6. Denne urlen kan du nå gi til vennene dine, så kan de se på siden din. 
 
@@ -141,8 +141,8 @@ For å gjøre dette vil vi bruke dropbox eller google drive. Hvis du ikke har en
 2. Lag en ny mappe her. Den nye mappen kan få samme navn som hjemmesiden din, for eksempel 'om_meg'.
 3. Kopier deretter htmlfilen din over i denne mappen. Dersom du bruker noen bilder eller lignende må disse også kopieres over.
 4. Høyreklikk på mappen du opprettet. Under Google Drive velger du ´Del´. Kryss av at mappen skal være offentlig - at alle skal kunne se den.
-5. Høyreklikk på htmlfilen din og under Google Drive velger du 'Se på internett'.
-6. På siden du får opp kan du velge `Forhåndsvis`. Nå skal du se nettsiden din.
+5. Høyreklikk på htmlfilen din og under Google Drive velger du 'Se på nettet'.
+6. På siden du får opp kan du velge `Preview`. Nå skal du se nettsiden din.
 7. Urlen du er på nå kan du dele med vennene dine, så kan de også se på siden din.
 
 ## Ting du kan prøve { .try}

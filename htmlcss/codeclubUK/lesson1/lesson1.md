@@ -1,5 +1,5 @@
 ---
-title: the web
+title: Internett
 level: Lesson 1
 language: nb_NO
 embeds: "*.png"
