@@ -100,24 +100,22 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 
 ## Aktiviteter { .check}
 
-+ Legg merke til hvordan tagger kan stå på innsiden av andre tagger. Vi har `<a>` taggen, som er inni `<p>` taggen, som igjen er inni `<div>`, som er plassert i `<body>`.
-
-Når det skjer sier vi at taggen som er på innsiden er _barnet_ og taggen som er på utsiden er en __forelder__. Det er nesten som et slektstre!
++ Legg merke til hvordan tagger kan stå på innsiden av andre tagger. Vi har `<a>` taggen, som er inni `<p>` taggen, som igjen er inni `<div>`, som er plassert i `<body>`. Når det skjer sier vi at taggen som er på innsiden er `barnet` og taggen som er på utsiden er en `forelder`. Det er nesten som et slektstre!
 
 + For nettleseren er alle tagger av samme type like, men du kan skille de fra hverandre ved å bruke klasser og ID'er.
 For eksempel, noen av paragrafene kan være introduksjoner, så du kan gi de en klasse som du kaller `introduksjon`. Se om du finner noen klasser i `side.html` .
 
-+ ID'er brukes for å markere unike elementer på siden din. Se om du kan finne `div` taggen med en `ID` lik `katt` på siden.
++ ID'er brukes for å markere unike elementer på siden din. Se om du kan finne `div` taggen med en `ID` lik `kattunge` på siden.
 
 + Hva skjer hvis du flytter ting rundt? La oss gå tilbake til tekstprogrammet. Finn en `<ol>` tagg i koden og velg den og alt som er inne i den, slik som dette:
 
 ```HTML
-<ol>
-	<li>Katter</li>
-	<li>Bløtkake</li>
-	<li>Sove lenge</li>
-	<li>Spille spill</li>
-</ol>
+  <ol>
+    <li>Kattunger</li>
+    <li>Universet</li>
+    <li>Å sove lenge</li>
+    <li>Å spille spill</li>
+  </ol>
 ```
 
 Så kopierer du det og flytter det et annet sted. Lagre siden, og oppdater den i nettleseren. Hvordan påvirker rekkefølgen av koden rekkefølgen på det som vises i nettleseren?
