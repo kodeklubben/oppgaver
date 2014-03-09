@@ -50,7 +50,7 @@ For å lage en hemmelig bokstav fra en vanlig bokstav, trenger vi et tall vi kan
 Vi begynner med A og teller fremover 3 bokstaver: B, C, D. Så bokstaven A blir til bokstaven D. For å dekode gjør vi det samme, men baklengs. Vi begynner med D og teller bakover for å få A.
 
 
-# Oppgave 1: Alfabetet {.activity}
+# Steg 1: Alfabetet {.activity}
 
 Her kan du få trøbbel med norske bokstaver om du ikke har Python 3. Du ser det i IDLE, står det 2.6 eller 2.7 eller noe sånt har du Python 2. I så fall kan du enten installere 3 eller bare hoppe over norske bokstaver.
 
@@ -69,7 +69,7 @@ under:
 
     Hvis du er fornøyd med alfabetet ditt kan vi begynne å kode en bokstav.
 
-## Oppgave 2: Kode en bokstav
+## Steg 2: Kode en bokstav
 
 1. Akkurat som vi gjorde med hjulet ovenfor kan vi finne posisjonen til en bokstav ved å telle forover, og så bruke bokstaven vi ender opp med.
 
@@ -136,7 +136,7 @@ under:
 
 Nå som vi kan kode en bokstav, hva med å dekode en?
 
-## Oppgave 3: Finne tilbake bokstavene
+## Steg 3: Finne tilbake bokstavene
 
 Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til bokstaven, men denne gangen skal vi gå bakover i alfabetet for å dekode.
 
@@ -160,7 +160,7 @@ Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til boksta
     print(letter)
     ```
 
-## Oppgave 4: Bygge funksjoner
+## Steg 4: Bygge funksjoner
 
 La oss ta den første programkoden (som laget Cæsar-kode av bokstaver) og gjøre den om til en
 funksjon `encode` og den andre programkoden til en funksjon `decode`. I modul to snakket vi om å bruke prosedyrer for å unngå gjentagelser, denne gangen skal vi lage funksjoner i stedet. Ved første øyekast er prosedyrer og funksjoner veldig like (og Python bryr seg strengt tatt ikke om forskjellen), men når man ser nærmere etter har de ulike egenskaper. Dette spiller ikke så stor rolle nå, men det er like greit å lære seg forskjellen med en gang.
@@ -205,7 +205,7 @@ For å få en funksjon (eller en prosedyre som beregner noe) til å returnere en
 2. Prøv å kode og dekode noen bokstaver!
 
 
-## Oppgave 5: Send et hemmelig ord eller to, og finn dem tilbake igjen
+## Steg 5: Send et hemmelig ord eller to, og finn dem tilbake igjen
 
 Nå har vi noen funksjoner, la oss bruke dem til å kode ord. Vi kommer til å gå igjennom hver bokstav i ordet og kode det hvis det finnes i alfabetet (vi hopper over tegn som punktum og mellomrom).
 
@@ -244,7 +244,7 @@ Nå har vi noen funksjoner, la oss bruke dem til å kode ord. Vi kommer til å g
 
     Den første delen av koden burde skrive ut "yvååc kcfåu", som er den hemmelige versjonen av "hello world". Den andre delen dekoder det igjen og skriver ut "hello world"
 
-## Oppgave 6: Dekoding av noen hemmelige beskjeder
+## Steg 6: Dekoding av noen hemmelige beskjeder
 
 Her er noen hemmelige beskjeder, forsøk å dekode dem!
 
