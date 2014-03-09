@@ -163,7 +163,7 @@ Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til boksta
 ## Oppgave 4: Bygge funksjoner
 
 La oss ta den første programkoden (som laget Cæsar-kode av bokstaver) og gjøre den om til en
-funksjon 'encode' og den andre programkoden til en funksjon `decode`. I modul to snakket vi om å bruke prosedyrer for å unngå gjentagelser, denne gangen skal vi lage funksjoner i stedet. Ved første øyekast er prosedyrer og funksjoner veldig like (og Python bryr seg strengt tatt ikke om forskjellen), men når man ser nærmere etter har de ulike egenskaper. Dette spiller ikke så stor rolle nå, men det er like greit å lære seg forskjellen med en gang.
+funksjon `encode` og den andre programkoden til en funksjon `decode`. I modul to snakket vi om å bruke prosedyrer for å unngå gjentagelser, denne gangen skal vi lage funksjoner i stedet. Ved første øyekast er prosedyrer og funksjoner veldig like (og Python bryr seg strengt tatt ikke om forskjellen), men når man ser nærmere etter har de ulike egenskaper. Dette spiller ikke så stor rolle nå, men det er like greit å lære seg forskjellen med en gang.
 
 Prosedyrer bare gjør ting, mens funksjoner bare beregner ting. Noen ganger blander man de to tingene sammen og lager prosedyrer som både beregner og gjør ting, men jo mer du kan skille disse fra hverandre jo enklere blir programmet ditt både for deg selv og for andre. Grunnen til at vi kaller det vi lager nå for funksjoner, er at de bare beregner en verdi - de skriver ingenting ut, de tegner ingenting på skjermen og resultatet blir likt hver eneste gang hvis man gir inn samme bokstav og hemmelige tall.
 
