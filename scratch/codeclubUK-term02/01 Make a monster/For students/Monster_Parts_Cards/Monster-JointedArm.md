@@ -14,6 +14,7 @@ materials: "*.sb2"
  noe som regelmessig brukes i produksjon av dataspill, roboter og andre kule teknologier. Armens første figur er overarmen,
  som ikke er så vanskelig, da den ganske enkelt vil rotere ved skulderen og flytte seg med kroppen og de andre
  kroppsdelene. En ting vi må legge til er å sette retningen `retning`{.blockblue} til armen i en variabel (mer om det seinere).
+
 ```blocks
 når [mellomrom v] trykkes 
 vend venstre (15) grader
@@ -21,13 +22,16 @@ sett [venstre arm v] til (retning)
 send melding [flyttet v]
 endre x med (hastighet)
 ```
+
 + Den neste beregningen brukes for å kontrollere **underarmen**. Her bruker vi trigonometri for å beregne hvor underarmen
   bør plasseres (Det kan godt være at du trenger å be om hjelp når du skal gjøre dette).
+
 ```blocks
 når jeg mottar [flyttet v]
 gå til [Sprite3 v]
 gå til x: ((x-posisjon) + ((45) * ([sin v] av (venstre arm)))) y: ((y-position) + ((45) * ([cos v] av (venstre arm))))
 ```
+
 + Først oppdaterer armen seg, når meldingen `flyttet`{.blockbrown} blir sendt, men du kan bruke hvilken som helst melding,
  så lenge overarmen sender den eller flytter seg til samme medling som underarmen.
 

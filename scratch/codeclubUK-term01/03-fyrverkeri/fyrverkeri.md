@@ -71,7 +71,7 @@ __Klikk på det grønne flagget, plaser musa over scenen og trykk mellomromstast
 + Bytt så klossen `når mellomrom trykkes`{.blockgrey} til `når grønt flagg klikkes`{.blockgrey} og sist men ikke minst sørg for at raketten er skjult når alt starter opp.
 
     ```blocks
-        når grønt flagg klikkes
+    når grønt flagg klikkes
 	skjul
 	for alltid 
 		hvis <(museknappen er nede?)>
@@ -178,8 +178,8 @@ __Klikk på det grønne flagget.__
     ```blocks
 	når jeg mottar [explode]
 	skjul
-        neste drakt	
-        sett [farge] effekt til (tilfeldig tall fra (1) til (200))
+    neste drakt	
+    sett [farge] effekt til (tilfeldig tall fra (1) til (200))
 	gå til x: ([x-posisjon] av [rocket]) y: ([y-posisjon] av [rocket])
 	sett størrelse til (5) %
 	vis

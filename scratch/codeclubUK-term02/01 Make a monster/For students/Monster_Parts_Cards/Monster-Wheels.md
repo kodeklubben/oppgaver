@@ -10,6 +10,7 @@ materials: "*.sb2"
 ## Sjekkliste { .check}
 
 + For å få et hjul til å bevege seg, kan vi **rotere** det litt av gangen og flytte det når vi mottar en **flyttet melding**.
+
 ```blocks
 når jeg mottar [flyttet venstre v]
 endre x med ((hastighet) * (-1))

@@ -14,6 +14,7 @@ materials: "*.sb2"
  figurer, kan du rett og slett legge til kontroller på kroppsfiguren og bruke en `send melding`{.blockgrey}
  for å kontrollere andre figurer.  Når vår tentakkelfigur (eller en hvilken som helst annen
  figur!) mottar en `flyttet høyre`{.blockgrey} melding, kan vi flytte den også til høyre.
+
 ```blocks
 // på spøkelseskroppen
 når [pil høyre v] trykkes
@@ -37,6 +38,7 @@ endre x med ((hastighet) * (-1))
 
 + Ved å bruke en `send melding`{.blockgrey} kan vi også endre hvordan bevegelseskommandoen
  virker, ved å bare endre et skript. **Ta en titt på dette eksempelet:**
+
 ```blocks
 // på spøkelseskroppen
 når [pil høyre v] trykkes
@@ -68,6 +70,7 @@ slutt
 
 + Du kan også animere kroppsfiguren ved å bruke `neste drakt`{.blockpurple}, som kan aktiveres hver gang en
   bevegelsesmelding mottas.
+
 ```blocks
 når jeg mottar [flyttet høyre v]
 neste drakt
