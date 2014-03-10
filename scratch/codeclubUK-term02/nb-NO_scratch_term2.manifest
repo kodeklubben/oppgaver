@@ -6,62 +6,72 @@
     "number": 2,
 
 
-    "projects": [
+"projects": [
         {
             "filename": "01 Make a monster/For students/Monster-worksheet.md",
             "title": "Lag ditt eget monster",
-            "number": 1,
-            "extras": [
-            {
-                "name": "Make a monster: Eyes",
-                 "note": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Eyes.md"
-            },
-            {
-                "name":"Make a monster: Jointed Arm",
-                "note": "01 Make a monster/For students/Monster_Parts_Cards/Monster-JointedArm.md"
-            },
-            {
-                "name":"Make a monster: Legs",
-                "note": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Legs.md"
-            },
-            {
-                "name":"Make a monster: MouthsTalk",
-                "note": "01 Make a monster/For students/Monster_Parts_Cards/Monster-MouthsTalk.md"
-            },
-            {
-                "name":"Make a monster: Movement",
-                "note": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Movement.md"
-            },
-            {
-                "name":"Make a monster: Tentacles",
-                "note": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Tentacles.md"
-            },
-            {
-                "name":"Make a monster: Wheels",
-                "note": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Wheels.md"
-            }]
+            "number": 1
         },
+        {
+            "filename": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Eyes.md",
+            "title": "Scratchkort - Øyne",
+            "number": 1
+        },
+        {
+            "filename": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Legs.md",
+            "title": "Scratchkort - Bein",
+            "number": 1
+        },
+        {
+            "filename": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Movement.md",
+            "title": "Scratchkort - Bevegelse",
+            "number": 1
+        },
+        {
+            "filename": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Wheels.md",
+            "title": "Scratchkort - Hjul",
+            "number": 1
+        },
+        {
+            "filename": "01 Make a monster/For students/Monster_Parts_Cards/Monster-JointedArm.md",
+            "title": "Scratchkort - Hengslede armer",
+            "number": 1
+        },
+        {
+            "filename": "01 Make a monster/For students/Monster_Parts_Cards/Monster-MouthsTalk.md",
+            "title": "Scratchkort - Munn som prater",
+            "number": 1
+        },
+        {
+            "filename": "01 Make a monster/For students/Monster_Parts_Cards/Monster-Tentacles.md",
+            "title": "Scratchkort - Tentakler",
+            "number": 1
+        },
+
         {
             "filename": "02 Sound machine/For students/SoundMachine-worksheet.md",
             "title": "Lag din egen lydmaskin",
             "number": 2
-            "extras":[
-            {
-                "note": "02 Sound machine/For students/Scratch cards/soundMachine-Drum.md",
-                "name": "Lydmaskin: Tromme"
-            },
-            {
-                "note": "02 Sound machine/For students/Scratch cards/soundMachine-Piano.md",
-                "name": "Lydmaskin: Piano"
-            },
-            {
-                "note": "02 Sound machine/For students/Scratch cards/soundMachine-SoundSample.md",
-                "name": "Lydmaskin: Lyd"
-            },
-            {
-                "note": "02 Sound machine/For students/Scratch cards/soundMachine-Recorder.md",
-                "name": "Lydmaskin: Opptaker"
-            }]
+        },
+        {
+            "filename": "02 Sound machine/For students/Scratch cards/soundMachine-Drum.md",
+            "title": "Scratchkort - Tromme",
+            "number": 2
+        },
+        {
+            "filename": "02 Sound machine/For students/Scratch cards/soundMachine-Recorder.md",
+            "title": "Scratchkort - Opptaker",
+            "number": 2
+        },
+        {
+            "filename": "02 Sound machine/For students/Scratch cards/soundMachine-Piano.md",
+            "title": "Scratchkort - Piano",
+            "number": 2
+        },
+        {
+            "filename": "02 Sound machine/For students/Scratch cards/soundMachine-SoundSample.md",
+            "title": "Scratchkort - Lyd",
+            "number": 2
         }
     ]
 }
