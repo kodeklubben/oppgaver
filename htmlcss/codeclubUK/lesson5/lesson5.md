@@ -10,7 +10,7 @@ stylesheet: web
 ## __Introduksjon:__ { .intro }
 I denne oppgaven skal vi se på og lære hvordan vi kan forandre skrifttyper, farge og størrelse. Vi skal også lære hvordan vi kan legge til en bakgrunnsfarge og ramme. Vi vil fortsette å bruke det samme prosjektet som i forrige oppgave. Så vi må være sikre på at vi har åpnet filen index.html fra mappen Felix.
 
-#Step 1: Skrifttyper  { .activity}
+# Steg 1: Skrifttyper  { .activity}
 
 Vi kan forandre utseende på teksten ved å endre __skrifttypen__. De mest vanlige skrifttypene heter:
 
