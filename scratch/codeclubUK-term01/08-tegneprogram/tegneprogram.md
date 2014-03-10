@@ -2,7 +2,7 @@
 title: Tegneprogram
 level: 1.8
 language: nb-NO
-embeds: ["*.png", "../../bilder/*.png"]
+embeds: ["*.PNG", "../../bilder/*.png"]
 stylesheet: scratch
 ...
 
