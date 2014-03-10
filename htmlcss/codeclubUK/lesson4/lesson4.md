@@ -73,7 +73,7 @@ En måte å gjøre dette på er å putte taggen <span> rundt ordet, på denne m�
 
 `<span>oransje</span>`
 
-Vi kan da i seksjonen “head” lage en stil for “span”
+Vi kan da i seksjonen `head` lage en stil for `span`
 
 ```css
 span {
@@ -115,7 +115,6 @@ h1 {
   
 ## Nå skal du __LAGRE__ filen og se hvordan det ser ut. { .save}
 
-
 ## Morro med tekst
 Kanskje skulle tittelen være __større__ og med store bokstaver. Vi kan spesifisere størrelsen på teksten gjennom å bruke `font-size`. Verdiene kan være forskjellige, men de mest brukte er 12, 14, 16, 32, 48 og 72 piksler.
 La oss prøve ut 72px for nå. (px betyr piksel)
@@ -140,7 +139,7 @@ Det finnes faktisk også en annen verdi for “text-decoration” som er “blin
 # Steg 6. Sentrere tekst (og bilder) horisontalt { .activity}
 
 All vår tekst vises helt borte til venstre. Vi kan endre det gjennom å bruke `text-align:center` (man kan også bruke ´right´(høyre), ´left´(venstre) er standard).
-1. For denne nettsiden vil vi at all vår tekst skal være sentrert, og da kan vi skrive: (Merk deg at den amerikanske stavningen på ordet senter er center.)
+1. For denne nettsiden vil vi at all vår tekst skal være sentrert, og da kan vi skrive: (Merk deg at den engelske måten å stave senter på er center.)
 
 ```css
 body {
