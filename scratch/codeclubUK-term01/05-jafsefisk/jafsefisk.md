@@ -134,7 +134,7 @@ __Prøv spillet ditt igjen. Ser du noen problemer?__ ? Legg merke til at byttet 
     
 ## Test prosjektet { .flag}
 
-Prøv spillet igjen. Forsvinner byttet bare når det berører fiskens tenner? Og kommer det igjen i et tilfeldig punkt på skjermen  altså ikke samme sted som det ble spist?
+Prøv spillet igjen. Forsvinner byttet bare når det berører fiskens tenner? Og kommer det igjen i et tilfeldig punkt på skjermen? altså ikke samme sted som det ble spist?
 
 + JafseFisk må vite når den har spist noe slik at den kan gi fra seg en lyd og bytte drakt. For å gjøre dette kan vi la byttet `send melding`{.blockyellow} om at det er spist, før det forsvinner.
 
@@ -256,4 +256,3 @@ __Endre spillet slik at du isteden kontrollerer et byttedyr i et hav av mange Ja
 
 __Godt gjort, du er ferdig! Nå kan du nyte spillet ditt!__
 Ikke glem at du kan dele spillet med alle vennene og familien din ved å klikke på __Legg ut__ i topp-menyen!
-
