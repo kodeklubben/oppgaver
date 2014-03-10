@@ -13,7 +13,7 @@ Dette er et spill med tre figurer som endrer utseende. Spillerens oppgave er å 
 
 # Steg 1: Lag en figur som bytter drakt {.activity}
 
-*La oss importere de bildene vi trenger for spillet*
+La oss importere de bildene vi trenger for spillet.
 
 ## Sjekkliste { .check}
 
@@ -56,16 +56,16 @@ Tilpass tiden i `vent`{.blockyellow}-blokken. Hvilke tall gjør spillet for vans
 
 Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan får vi dem til å stoppe når vi klikker på dem?
 
-+ Klikk på `data`{.blockorange} og __lag en ny variabel__. Gi den navnet __stoppet__ og la det stå huket av 'for denne figuren'. 
++ Klikk på `data`{.blockorange} og __lag en ny variabel__. Gi den navnet __stoppet__ og la det stå huket av __for denne figuren__. 
 + Når variabelen er opprettet __fjerner du avhukingen ved siden av__, slik at den ikke vises på scenen.
-+ Nå skal vi gi __stoppet__ verdien 1 når spilleren klikker på figuren. Det gjør vi med en `når denne figuren klikkes`{.blockyellow} og en `sett stoppet til 1`. Husk å endre verdien fra 0 til 1 i den siste blokken.
++ Nå skal vi gi __stoppet__ verdien 1 når spilleren klikker på figuren. Det gjør vi med en `når denne figuren klikkes`{.blockyellow} og en `sett (stoppet v) til 1`. Husk å endre verdien fra 0 til 1 i den siste blokken.
 
     ```blocks
         Når denne figuren klikkes
         sett (stoppet v) til (1)
     ```
 
-+ Neste steg er å __få ruletten til å stoppe__ når __stoppet__ får verdien 1. Velg `styring`{.block} og sett inn en `hvis`{.block}-blokk inni `for alltid`{.block}-blokken. Bruk så en `([] = [])`{.block}-blokk fra `operatorer`-kategorien i `hvis`{.block}-testen for å sjekke om `([stoppet v] = (0))`{.block}. 
++ Neste steg er å __få ruletten til å stoppe__ når __stoppet__ får verdien 1. Velg `styring`{.block} og sett inn en `hvis`{.block}-blokk inni `for alltid`{.block}-løkken. Bruk så en `([] = [])`{.block}-blokk fra `operatorer`-kategorien i `hvis`{.block}-testen for å sjekke om `([stoppet v] = (0))`{.block}. 
 
     ```blocks
         Når grønt flagg klikkes
@@ -86,7 +86,6 @@ Stopper den __når__ du klikker på den?
 + __Start skriptet igjen__. 
 Stopper den når du setter pekeren over den uten å klikke? 
 Stopper den når du klikker andre steder på scenen eller andre steder i Scratch?
-
 
 
 # Steg 4: Lag de andre figurene
@@ -139,7 +138,7 @@ Spillets mål er å klikke på figurene slik at de stopper når alle har samme d
 For å sjekke om spillet er slutt lager vi et eget skript. Denne sjekken kan kjøres hver gang en figur er klikket. 
 
 
-+ Først må vi __gi scenen beskjed når en figur har blitt klikket på__. Finn tilbake til `når denne figuren klikkes`{.block} og legg til blokken `send melding (SjekkOmSlutt)`{.block}. Du må lage meldingen 'SjekkOmSlutt' selv. Gjør det samme for de andre figurene. 
++ Først må vi __gi scenen beskjed når en figur har blitt klikket på__. Finn tilbake til `når denne figuren klikkes`{.block} og legg til blokken `send melding (SjekkOmSlutt)`{.block}. Du må lage meldingen __SjekkOmSlutt__ selv. Gjør det samme for de andre figurene. 
 + Når scenen mottar beskjeden __SjekkOmSlutt__, setter den i gang skriptet som kjører sjekken. Hvis alle figurenes __stoppet__-variabel har verdien 1, så vet vi at spillet er ferdig. 
 Bruk  blokken %(sansning)'x-posisjon' av Figur1'% og endre 'x-posisjon' til 'stoppet'. 
 + Neste punkt blir å sjekke om spilleren har vunnet. Det har hun eller han hvis alle tre figurene er frosset med samme drakt.
