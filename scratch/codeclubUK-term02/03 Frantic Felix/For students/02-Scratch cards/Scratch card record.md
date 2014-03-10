@@ -36,7 +36,7 @@ materials: "*.sb2"
 4.  Hvis du vil ta opp flere ting samtidig, bruk en liste for hver.
 
     ```scratch
-    når <tast [mellomrom v] trykket?>
+    når [mellomrom v] trykkes
     gå (10) steg
     legg (x-posisjon) til [xs v]
     legg (y-posisjon) til [ys v]
