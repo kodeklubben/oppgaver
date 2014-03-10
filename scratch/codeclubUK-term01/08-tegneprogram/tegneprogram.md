@@ -15,20 +15,22 @@ Dette prosjektet lager tegneprogram slik at du kan lage din egen kunst. Du kan t
 
 Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
 
-1. Lag en ny tab i nettleseren din
-2. skriv inn denne nettadressen: http://bit.ly/Tegneutstyr
-3. Last ned zip-fila "Ressurser_Tegneprogram.zip" og legg det på skrivebordet på datamaskinen din eller en annen plass du husker.
-4. Pakk ut zip-filen ved å høyreklikke på den og velge "Extract All".
+## Sjekkliste { .check}
+
++ Lag en ny tab i nettleseren din
++ skriv inn denne nettadressen: http://bit.ly/Tegneutstyr
++ Last ned zip-fila "Ressurser_Tegneprogram.zip" og legg det på skrivebordet på datamaskinen din eller en annen plass du husker.
++ Pakk ut zip-filen ved å høyreklikke på den og velge "Extract All".
 
 ##STEG 1: Dra og tegn!
 
 Vi starter med en penn som tegner når du drar den rundt på scenen.
 
-1. Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke og velge slett.
-2. Klikk på __Scene__ og så på __Bakgrunner__-fliken. Last opp bakgrunnen som heter frame.bmp fra folderen du hentet i forberedelsene. 
-3. Lag en figur som heter __penn__ av bildet __green-pencil__ som ligger i den nedlastede mappen.
-4. Bytt til __drakter__-fliken og velge hele figuren med velgeverktøyet. Flytt blyanten slik at spissen peker på det lille grå korset i midten. Da vil spissen tegne og ikke midten av blyanten.
-5. Få pennen til å følge musa rundt på scenen ved å bruke __for alltid__-blokka og __gå til musepeker__-blokka.
++ Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke og velge slett.
++ Klikk på __Scene__ og så på __Bakgrunner__-fliken. Last opp bakgrunnen som heter frame.bmp fra folderen du hentet i forberedelsene. 
++ Lag en figur som heter __penn__ av bildet __green-pencil__ som ligger i den nedlastede mappen.
++ Bytt til __drakter__-fliken og velge hele figuren med velgeverktøyet. Flytt blyanten slik at spissen peker på det lille grå korset i midten. Da vil spissen tegne og ikke midten av blyanten.
++ Få pennen til å følge musa rundt på scenen ved å bruke __for alltid__-blokka og __gå til musepeker__-blokka.
 
 ```blocks
 Når grønt flagg klikkes
@@ -39,7 +41,7 @@ slutt
 
 __Nå vil vi bruke denne pennefiguren som en ordentlig penn.__ Om du ser under penn-kategorien kan du se alle slags tegefunksjoner. De vi er interessert i nå er __penn på__ og __penn av__
 
-6. Vi vil bruke museknappen til å kontrollere pennen - når museknappen er nede går pennen ned og når museknappen er oppe er pennen oppe. Vi kan gjøre dette ved å bruke enn hvis ... ellers ... og en mus nede-blokk
++ Vi vil bruke museknappen til å kontrollere pennen - når museknappen er nede går pennen ned og når museknappen er oppe er pennen oppe. Vi kan gjøre dette ved å bruke enn hvis ... ellers ... og en mus nede-blokk
 
 ```scratch
 når grønt flagg klikkes
@@ -56,8 +58,9 @@ for alltid
 __Klikk på det grønne flagget.__
 Følger pennen musa rundt? Hva skjer om du holder museknappen nede og flytter på musa? Ikke bry deg om pennefargen enda.
 
+## Sjekkliste { .check}
 
-7. Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke slett-blokka til å fjerne dette.
++ Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke slett-blokka til å fjerne dette.
 
 ```blocks
 når grønt flagg klikkes
@@ -77,20 +80,22 @@ __Klikk på det grønne flagget.__
 
 Forsvinner tegningene dine når du klikker på det grønne flagget?
 
-LAGRE PROSJEKTET DITT
+## Lagre prosjektet { .save}
 
 ##STEG 2: Rydde opp
 
 I stedet for å måtte starte og stoppe prosjektet for å slette tavla kan vi lage en knapp som sletter alt i stedet. Vi kan bruke slett-blokka.
 
-1. Lag en ny figur fra ressursmappa du lasta ned i begynnelsen av prosjektet-. Velg __cancel button__ drakten.
-2. Bytt navn på figuren til __slett__.
-3. Flytt figuren til nederste høyre hjørne av scenen.
-4. Gi slette-figuren dette skriptet:
+## Sjekkliste { .check}
+
++ Lag en ny figur fra ressursmappa du lasta ned i begynnelsen av prosjektet-. Velg __cancel button__ drakten.
++ Bytt navn på figuren til __slett__.
++ Flytt figuren til nederste høyre hjørne av scenen.
++ Gi slette-figuren dette skriptet:
 
 ```blocks
-når denne figuren klikkes
-slett
+	når denne figuren klikkes
+	slett
 ```
 
 ##Test prosjektet ditt
@@ -98,35 +103,36 @@ __Klikk på det grønne flagget.__
 
 Sletter sletteknappen alle tegningene dine?
 
-LAGRE PROSJEKTET DITT
+## Lagre prosjektet { .save}
 
 ##STEG 3: Bytte farge
 
-Toil nå har vi bare kunnet tegne blå streker. Vi kan bruke andre farger også! Vi legge rtil noen figurer i bunn av rammen. Figurene vil se ut som fargede knapper. Når vi klikker på en knapp endres pennefagen til den fargen knappen har. For å vite at vi har byttet farge skal vi gjøre det slik at blyanten skifter farge til den fargen vi bruker.
+Til nå har vi bare kunnet tegne blå streker. Vi kan bruke andre farger også! Vi legger til noen figurer i bunn av rammen. Figurene vil se ut som fargede knapper. Når vi klikker på en knapp endres pennefagen til den fargen knappen har. For å vite at vi har byttet farge skal vi gjøre det slik at blyanten skifter farge til den fargen vi bruker.
 
-1. Add a new sprite, called __red__, using the __resources/red-selector costume__. 
-2. Place it somewhere along the bottom of the frame, near the __clear button__.
-3. When the red sprite is clicked, it should broadcast the message __red__.
+1. Hent en ny figur fra  __ressurser/red-selector__.
+2. Gi den navnet __Rød__ og flytt den ned i venstre hjørne
+3. Gi den et skript som sender meldingen __rød__.
 
 ```scratch
-when Red clicked
-broadcast red
+	når Rød klikkes
+	send melding [rød v]
 ```
-__Yes, that’s all it does. The hard work is done by the pencil.__
+__Dette er alt den gjør. Det vanskelige arbeidet gjøres av blyanten.__
 
-In the pencil, import a new costume, __resources/red-pencil__. Set the costume centre to be the tip of the pencil as you did for the original costume.
+4. Klikk på blyanten og importer drakten __Ressurser/red-pencil__ .
+Sett midtpunktet til blyantspissen for denne drakten også.
 
-4. Add a new script to the pencil. When the pencil receives the message __red__, it should change to the red pencil costume and change the pen colour to red (using the set pen color to block).
+5. Legg til et nytt skript. Når blyanten får meldingen __rød__, skal den også forandre
+drakt til rød (red-pencil). Og så skal den selvsagt også begynne å tegne rødt. Slik
+bygger du skriptet:
 
-__Hint:__ if you click on the coloured square
-in the __set pen color to__ block, you can
-click the eyedropper on the red sprite to make sure it’s the same colour.
+__Hint:__ Når du skal velge farge kan du flytte dråpeplukkeren bort til fargeblyanten og velge rødfargen derifra også.
+
 
 ```scratch
-when I receive red
-switch to costume
-red-pencil
-set pen color to (red)
+	når jeg mottar [rød v]
+	skift til drakt [red-pencil v]
+	set pen color to (red)
 ```
 
 ##Test Your Project
