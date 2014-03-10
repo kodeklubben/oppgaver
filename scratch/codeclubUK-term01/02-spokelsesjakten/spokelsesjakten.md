@@ -19,7 +19,7 @@ Dette prosjektet er inspirert av tivolispillet __Whack-a-mole__, hvor man slår 
 + Start et nytt Scratch-prosjekt.
 + Slett kattefiguren ved å høyreklikke på den og velge `slett`
 + Endre bakgrunnen til `Natur/woods`.
-+ For å legge til et spøkelse klikker du på ![Velg figur fra biblioteket](figur-fra-bibliotek.png)-knappen. Velg `Fantasi/Ghost1`-figuren.
++ For å legge til et spøkelse klikker du på ![Velg figur fra biblioteket](hent-fra-bibliotek.png)-knappen. Velg `Fantasi/Ghost1`-figuren.
 + Gi spøkelset navnet `spøkelse1`.
 
 Du skal nå __lage en variabel__ som styrer hvor fort spøkelset beveger seg. Denne kan vi senere bruke til å endre hastigheten når spillet er i gang.

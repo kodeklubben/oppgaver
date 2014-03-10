@@ -53,7 +53,7 @@ Scratch lagrer alle prosjektene dine automatisk med jevne mellomrom. Det kan lik
 
 ## Sjekkliste { .check}
 
-+ Lag en ny figur ved å trykke på ![Velg figur fra biblioteket](figur-fra-bibliotek.png) og velg figuren `Dyr/Mouse1`.
++ Lag en ny figur ved å trykke på ![Velg figur fra biblioteket](hent-fra-bibliotek.png) og velg figuren `Dyr/Mouse1`.
 + Bytt navn på figuren til `Herbert` og sørg for at også Herbert kun kan se til høyre og venstre, ![Høyre/Venstre](rotasjonsmate-hv.png).
 + Gjør Herbert mindre enn Felix ved å trykke på ![krymp](krymp.png) (øverst mot midten av vinduet). Prøv seks klikk.
 + Gi Herbert dette skriptet:
@@ -120,7 +120,7 @@ __Klikk på det grønne flagget.__
     ```
   
 + Velg Herbert og gå til `Drakter`{.blocklightgrey}-fanen.
-+ Hent en ny drakt ved å trykke på ![Velg drakt fra biblioteket](figur-fra-bibliotek.png) og velg `Fantasi/ghost2-a`
++ Hent en ny drakt ved å trykke på ![Velg drakt fra biblioteket](hent-fra-bibliotek.png) og velg `Fantasi/ghost2-a`
 + Gjør drakten mindre ved å velge ![Krymp](krymp.png) og trykke seks ganger på spøkelsesdrakten.
 + Endre navnene på Herberts drakter slik at musedrakten heter `levende` og spøkelsesdrakten heter `død`.
 + Lag et nytt skript for Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle skriptet!:

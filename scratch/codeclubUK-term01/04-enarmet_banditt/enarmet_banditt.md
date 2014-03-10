@@ -18,7 +18,7 @@ La oss importere de bildene vi trenger for spillet.
 ## Sjekkliste { .check}
 
 + __Start et nytt Scratch-prosjekt__. __Slett katten__ ved å høyreklikke og velge `slett`.
-+ Importer __en ny figur__, ![Velg figur fra biblioteket](figur-fra-bibliotek.png). Velg den figuren du vil.
++ Importer __en ny figur__, ![Velg figur fra biblioteket](hent-fra-bibliotek.png). Velg den figuren du vil.
 + Gå til `Drakter`{.blocklightgrey}, og importer to ekstra drakter fra biblioteket, så figuren til sammen har tre drakter.
 
 # Steg 2: Få figuren til å rullere {.activity}

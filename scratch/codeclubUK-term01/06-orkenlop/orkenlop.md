@@ -19,7 +19,7 @@ Dette er et spill for to, der en papegøye og en løve kjemper om å komme førs
 
 + Klikk på Scene og hent en ny bakgrunn fra biblioteket. Velg __Natur/desert__.
 + Fjern Sprite1 ved å høyreklikke på figuren og velg Slett.
-+ Legg til en ny figur ved å trykke på ![Velg figur fra biblioteket](figur-fra-bibliotek.png). Velg __Dyr/Lionness__.
++ Legg til en ny figur ved å trykke på ![Velg figur fra biblioteket](hent-fra-bibliotek.png). Velg __Dyr/Lionness__.
 + Legg så til enda en ny figur: velg Dyr/Parrot. Krymp figuren slik at den er omtrendt like stor som løvinnen ved å bruke ![Krymp](krymp.png).
 
 
