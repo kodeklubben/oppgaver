@@ -46,6 +46,7 @@ slutt
 	 du at monstret skal gjøre det!). Ikke glem å flytte
 	 beina langs kroppen ved å bruke
 	 `hastighet`{.blockorange} variabel.
+
 ```blocks
 når jeg mottar [flyttet høyre v]
 endre x med (hastighet)
