@@ -72,7 +72,25 @@
             "filename": "02 Sound machine/For students/Scratch cards/soundMachine-SoundSample.md",
             "title": "Scratchkort - Lyd",
             "number": 2
+        },
+        {
+            "filename": "03 Frantic Felix/For students/Frantic-Felix-worksheet.md",
+            "title": "Frantic Felix",
+            "number": 3
+        },
+
+        {
+            "filename": "03 Frantic Felix/For students/02-Scratch cards/Scratch card playback.md",
+            "title": "Scratchkort - Avspilling",
+            "number": 3
+        },
+
+        {
+            "filename": "03 Frantic Felix/For students/02-Scratch cards/Scratch card record.md",
+            "title": "Scratchkort - Opptak",
+            "number": 3
         }
+
     ]
 }
 
