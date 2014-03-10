@@ -1,12 +1,12 @@
 ---
 title: Tegneprogram
-level: Level 3
-language: bn-NO
+level: 1.8
+language: nb-NO
+embeds: ["*.png", "../../bilder/*.png"]
 stylesheet: scratch
-embeds: "*.png"
 ...
 
-__Introduksjon:__
+# Introduksjon { .intro}
 Dette prosjektet lager tegneprogram slik at du kan lage din egen kunst. Du kan tegne med forskjellige farger, bruke viskelær, lage stempler og mye mer!
 
 ![skjermbilde](skjermbilde.png)

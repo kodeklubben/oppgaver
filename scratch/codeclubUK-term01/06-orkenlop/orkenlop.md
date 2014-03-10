@@ -2,6 +2,7 @@
 title: Ørkenløp
 level: 1.6
 language: nb-NO
+stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 ...
 
