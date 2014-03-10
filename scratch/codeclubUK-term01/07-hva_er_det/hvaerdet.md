@@ -8,45 +8,45 @@ embeds: ["*.png", "../../bilder/*.png"]
 
 # Introduksjon { .intro}
 
-Et bilde av en tilfeldig ting vises på tavlen. Men bildet er forvrengt, slik at du må gjette hva det er ved å klikke på et av alternativene som vises under. Desto raskere du gjetter riktig, desto flere poeng får du.
+Et bilde av en tilfeldig ting vises pÃ¥ tavlen. Men bildet er forvrengt, slik at du mÃ¥ gjette hva det er ved Ã¥ klikke pÃ¥ et av alternativene som vises under. Desto raskere du gjetter riktig, desto flere poeng fÃ¥r du.
 
 
 ![skjermbilde](hvaerdet.png)
 
-#Steg 1: Få flere ting til å vise seg på tavlen { .activity}
-__Vi vil at noen forskjellige bilder skal komme opp på tavlen.__
+#Steg 1: FÃ¥ flere ting til Ã¥ vise seg pÃ¥ tavlen { .activity}
+__Vi vil at noen forskjellige bilder skal komme opp pÃ¥ tavlen.__
 
 ## Sjekkliste { .check}
 
 + Start et nytt Scratch-prosjekt og slett kattefiguren.
-+ Klikk på Scene og deretter Bakgrunner-fanen. Åpne biblioteket med bakgrunner ved å trykke på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) og velg så __Innendørs/chalkboard__.
++ Klikk pÃ¥ Scene og deretter Bakgrunner-fanen. Ã…pne biblioteket med bakgrunner ved Ã¥ trykke pÃ¥ ![Velg en ferdig bakgrunn](velg-bakgrunn.png) og velg sÃ¥ __InnendÃ¸rs/chalkboard__.
 + Importer en valgfri figur. Velg gjerne en fra Ting-mappen.
-+ Plasser figuren på midten av tavlen, og endre størrelsen hvis den ikke passer.
++ Plasser figuren pÃ¥ midten av tavlen, og endre stÃ¸rrelsen hvis den ikke passer.
 + Legg til fire nye drakter fra Ting-mappen. Du kan velge hva du vil!
-+ La oss nå få en tilfeldig ting til å dukke opp. Bruk dette skriptet. 
++ La oss nÃ¥ fÃ¥ en tilfeldig ting til Ã¥ dukke opp. Bruk dette skriptet. 
 
     ```blocks
-        når grønt flagg klikkes
+        nÃ¥r grÃ¸nt flagg klikkes
         gjenta <tilfeldig tall fra(1) til (5)> ganger
             neste drakt
 		slutt
     ```
 
 ##Test prosjektet { .flag}
-__Trykk på det grønne flagget.__
-Endrer figuren seg? Klikk flere ganger. Får figuren stadig nye drakter? Flott. 
+__Trykk pÃ¥ det grÃ¸nne flagget.__
+Endrer figuren seg? Klikk flere ganger. FÃ¥r figuren stadig nye drakter? Flott. 
 
-Det gjør ingenting om samme drakt kommer opp flere ganger på rad. Det er helt normalt når det trekkes en tilfeldig drakt hver gang. 
-Du legger kanskje merke til at det flimrer litt når drakten skiftes? Det skal vi fikse i neste steg.
+Det gjÃ¸r ingenting om samme drakt kommer opp flere ganger pÃ¥ rad. Det er helt normalt nÃ¥r det trekkes en tilfeldig drakt hver gang. 
+Du legger kanskje merke til at det flimrer litt nÃ¥r drakten skiftes? Det skal vi fikse i neste steg.
 
 
 ##Lagre prosjektet {.save}
 
 #Steg 2: Forvreng bildet {.activity}
 
-__La oss nå forvrenge figuren når den dukker opp på tavlen, så det blir vanskeligere å gjette hva det er. Deretter skal vi gradvis gjøre vi den tydeligere igjen.__
+__La oss nÃ¥ forvrenge figuren nÃ¥r den dukker opp pÃ¥ tavlen, sÃ¥ det blir vanskeligere Ã¥ gjette hva det er. Deretter skal vi gradvis gjÃ¸re vi den tydeligere igjen.__
 
-Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom poengscoren er høy vil bildet bli veldig forvrengt. Når antallet poeng synker, vil også graden av forvrenging synke. Poengvariabelen fungerer dermed som en tidteller.
+Vi skal bruke en poeng-variabel til Ã¥ kontrollere graden av forvrenging. Dersom poengscoren er hÃ¸y vil bildet bli veldig forvrengt. NÃ¥r antallet poeng synker, vil ogsÃ¥ graden av forvrenging synke. Poengvariabelen fungerer dermed som en tidteller.
 
 ## Sjekkliste { .check}
 
@@ -55,7 +55,7 @@ Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom 
 + Endre skriptet slik:
 
     ```blocks	
-		når grønt flagg klikkes
+		nÃ¥r grÃ¸nt flagg klikkes
 		skjul
 		gjenta <tilfeldig tall fra(1) til (5)> ganger
             neste drakt
@@ -71,40 +71,40 @@ Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom 
     ```
 
 ##Test prosjektet { .flag}
-__Trykk på det grønne flagget.__
+__Trykk pÃ¥ det grÃ¸nne flagget.__
 
 Kommer det opp et tilfeldig og forvrengt bilde?
 
 Blir bildet gradvis tydeligere?
 
-Går poengsummen ned i takt med at bildet blir tydeligere?
+GÃ¥r poengsummen ned i takt med at bildet blir tydeligere?
 
-Blir bildet fullstendig tydelig når poengsummen er 0?
+Blir bildet fullstendig tydelig nÃ¥r poengsummen er 0?
 
-Får du fremdeles nye ting på tavlen når du klikker på det grønne flagget?
+FÃ¥r du fremdeles nye ting pÃ¥ tavlen nÃ¥r du klikker pÃ¥ det grÃ¸nne flagget?
 
 
 ##Lagre prosjektet{ .save}
 
-##Ting å prøve { .try .activity}
+##Ting Ã¥ prÃ¸ve { .try .activity}
 
-+ __Prøv å endre poengsummen fra start, samt hvor mye den skal forandre seg for hver gang den går gjennom løkka.__ Hvordan endrer deg utseendet til bildet? Blir det vanskeligere eller enklere å se hva bildet forestiller?
++ __PrÃ¸v Ã¥ endre poengsummen fra start, samt hvor mye den skal forandre seg for hver gang den gÃ¥r gjennom lÃ¸kka.__ Hvordan endrer deg utseendet til bildet? Blir det vanskeligere eller enklere Ã¥ se hva bildet forestiller?
 
-+ __Forsøk noen ulike grafiske effekter fra nedtrekkslisten.__ Hvordan påvirker dette vanskelighetgsraden?
++ __ForsÃ¸k noen ulike grafiske effekter fra nedtrekkslisten.__ Hvordan pÃ¥virker dette vanskelighetgsraden?
 
-#Steg 3: La spilleren prøve å gjette bildet {.activity}
+#Steg 3: La spilleren prÃ¸ve Ã¥ gjette bildet {.activity}
 
-Så langt har vi fått vårt tilfeldige bilde til gradvis å bli tydeligere, samtidig som poengsummen synker. Men hvordan skal man vinne spillet? Vi vil legge til noen figurer nederst på skjermen som spilleren kan klikke på. Klikker man på den rette, vinner man spillet. Klikker man på feil, forsvinner figuren og spillet fortsetter med en ny figur.
+SÃ¥ langt har vi fÃ¥tt vÃ¥rt tilfeldige bilde til gradvis Ã¥ bli tydeligere, samtidig som poengsummen synker. Men hvordan skal man vinne spillet? Vi vil legge til noen figurer nederst pÃ¥ skjermen som spilleren kan klikke pÃ¥. Klikker man pÃ¥ den rette, vinner man spillet. Klikker man pÃ¥ feil, forsvinner figuren og spillet fortsetter med en ny figur.
 
-Først må vi å vite hva det rette svaret er.
+FÃ¸rst mÃ¥ vi Ã¥ vite hva det rette svaret er.
 
 ## Sjekkliste { .check} 
 
-+ __Opprett en ny variabel__ og kall den __svar__. Pass på at den er tilgjengelig for alle figurer.
-+ Endre skriptet slik at det klarer å holde styr på hva som er rett svar.  Etter den første `gjenta`{.blockorange}-løkken legger du derfor til blokken `sett [svar] til`{.blockorange} `drakt #`{.blockpurple}:
++ __Opprett en ny variabel__ og kall den __svar__. Pass pÃ¥ at den er tilgjengelig for alle figurer.
++ Endre skriptet slik at det klarer Ã¥ holde styr pÃ¥ hva som er rett svar.  Etter den fÃ¸rste `gjenta`{.blockorange}-lÃ¸kken legger du derfor til blokken `sett [svar] til`{.blockorange} `drakt #`{.blockpurple}:
 
     ```blocks
-		når grønt flagg klikkes
+		nÃ¥r grÃ¸nt flagg klikkes
 		skjul
 		gjenta <tilfeldig tall fra(1) til (5)> ganger
             neste drakt
@@ -119,20 +119,20 @@ Først må vi å vite hva det rette svaret er.
             vent (1) sekunder
         slutt
     ```
-__Nå må vi legge til flere figurer som spilleren kan klikke på.__
+__NÃ¥ mÃ¥ vi legge til flere figurer som spilleren kan klikke pÃ¥.__
 
-+ Gi først figuren din navnet __spørsmål__.
-+ Lag så en kopi av figuren ved å høyreklikke på den. På scenen drar du deretter figuren ned til det venstre hjørnet.
++ Gi fÃ¸rst figuren din navnet __spÃ¸rsmÃ¥l__.
++ Lag sÃ¥ en kopi av figuren ved Ã¥ hÃ¸yreklikke pÃ¥ den. PÃ¥ scenen drar du deretter figuren ned til det venstre hjÃ¸rnet.
 + Endre figurens navn til __svar1__.
-+ Slett skriptet til __svar1__ og alle kostymer bortsett fra det første.
++ Slett skriptet til __svar1__ og alle kostymer bortsett fra det fÃ¸rste.
 + Gjenta de tre siste stegene igjen (kall neste kopi __svar2__), men plasser __svar2__ ved siden av __svar1__ og slett alle bortsett fra den andre drakten.
-+ Gjenta disse punktene tre ganger til, slik at du har fått laget __svar3__, __svar4__ og __svar5__.
-Du skal nå ha en rad med fem svar-figurer nederst på scenen, hver viser en drakt som hovedfiguren kan ha. __Ingen av svar-figurene skal ha skript knyttet til seg.__
++ Gjenta disse punktene tre ganger til, slik at du har fÃ¥tt laget __svar3__, __svar4__ og __svar5__.
+Du skal nÃ¥ ha en rad med fem svar-figurer nederst pÃ¥ scenen, hver viser en drakt som hovedfiguren kan ha. __Ingen av svar-figurene skal ha skript knyttet til seg.__
 
-+ Nå må vi få alle figurene til å reagere når de blir klikket på. Hva som skal skje avhenger av om spilleren har klikket riktig eller galt. Legg til dette skriptet til __svar1__:
++ NÃ¥ mÃ¥ vi fÃ¥ alle figurene til Ã¥ reagere nÃ¥r de blir klikket pÃ¥. Hva som skal skje avhenger av om spilleren har klikket riktig eller galt. Legg til dette skriptet til __svar1__:
 
     ```blocks
-        når denne figuren klikkes
+        nÃ¥r denne figuren klikkes
         hvis <(svar) = (1)>
             send melding [vant v]
         ellers
@@ -140,44 +140,44 @@ Du skal nå ha en rad med fem svar-figurer nederst på scenen, hver viser en drakt
         
     ```
 
-+ Dra skriptet over til de andre figurene, slik at alle får hver sin kopi. __For hver figur, bytt 1 til 2, 3, osv.__
-+ Nå skal vi lage skriptet som gir melding til spilleren når han har vunnet. Klikk på __spørsmål__ igjen og legg til dette skriptet:
++ Dra skriptet over til de andre figurene, slik at alle fÃ¥r hver sin kopi. __For hver figur, bytt 1 til 2, 3, osv.__
++ NÃ¥ skal vi lage skriptet som gir melding til spilleren nÃ¥r han har vunnet. Klikk pÃ¥ __spÃ¸rsmÃ¥l__ igjen og legg til dette skriptet:
 
     ```blocks
-        når jeg mottar [vant v]
+        nÃ¥r jeg mottar [vant v]
         si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
     ```
 
 ##Test prosjektet {.flag}
-__Trykk på det grønne flagget.__
+__Trykk pÃ¥ det grÃ¸nne flagget.__
 
-Når du tester spillet kan du bruke svarskjermen på scenen for å si hva rett svar er. Det
+NÃ¥r du tester spillet kan du bruke svarskjermen pÃ¥ scenen for Ã¥ si hva rett svar er. Det
 fungerer bra for testing.
 
-Hva skjer når du klikker på __riktig svar__?
+Hva skjer nÃ¥r du klikker pÃ¥ __riktig svar__?
 
-Hva skjer når du klikker på __galt svar__?
+Hva skjer nÃ¥r du klikker pÃ¥ __galt svar__?
 
-Hva skjer med det gale svaret når du __starter på et nytt spill__?
+Hva skjer med det gale svaret nÃ¥r du __starter pÃ¥ et nytt spill__?
 
 __Testen viser oss to problemer:__
-Først og fremst, ting som ble klikket på ved galt svar kommer ikke tilbake når et nytt spill starter. 
-For det andre, poengsummen fortsetter å gå ned, selv når man har klikket på riktig svar.
+FÃ¸rst og fremst, ting som ble klikket pÃ¥ ved galt svar kommer ikke tilbake nÃ¥r et nytt spill starter. 
+For det andre, poengsummen fortsetter Ã¥ gÃ¥ ned, selv nÃ¥r man har klikket pÃ¥ riktig svar.
 
-+ For å fikse det første problemet må vi legge til følgende skript for hver av de fem svarfigurene:
++ For Ã¥ fikse det fÃ¸rste problemet mÃ¥ vi legge til fÃ¸lgende skript for hver av de fem svarfigurene:
 
     ```blocks
-        når grønt flagg klikkes
+        nÃ¥r grÃ¸nt flagg klikkes
         vis
     ```
 
-For å fikse det andre problemet må vi få stoppet __spørsmålfigurens__’s `gjenta til`{.blockyellow}-løkke, når spilleren klikker på riktig svar. Vi kan bruke en ny variabel for å gjøre det. 
-Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den verdien 0 når spillet starter, og en annen som setter verdien til 1 når spillet vinnes. Se skript under.
-+ I tillegg må vi stoppe `gjenta til`{.blockyellow}-løkken når poengsummen har blitt 0 eller vant er 1. 
-+ Til slutt legger vi også inn en `ta bort grafiske effekter`{.blockpurple}-blokk som avslører spørsmålsfiguren, når spilleren har gjettet riktig. Skriptet skal nå se slik ut:
+For Ã¥ fikse det andre problemet mÃ¥ vi fÃ¥ stoppet __spÃ¸rsmÃ¥lfigurens__Â’s `gjenta til`{.blockyellow}-lÃ¸kke, nÃ¥r spilleren klikker pÃ¥ riktig svar. Vi kan bruke en ny variabel for Ã¥ gjÃ¸re det. 
+Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den verdien 0 nÃ¥r spillet starter, og en annen som setter verdien til 1 nÃ¥r spillet vinnes. Se skript under.
++ I tillegg mÃ¥ vi stoppe `gjenta til`{.blockyellow}-lÃ¸kken nÃ¥r poengsummen har blitt 0 eller vant er 1. 
++ Til slutt legger vi ogsÃ¥ inn en `ta bort grafiske effekter`{.blockpurple}-blokk som avslÃ¸rer spÃ¸rsmÃ¥lsfiguren, nÃ¥r spilleren har gjettet riktig. Skriptet skal nÃ¥ se slik ut:
 
     ```blocks
-		når grønt flagg klikkes
+		nÃ¥r grÃ¸nt flagg klikkes
 		skjul
 		gjenta <tilfeldig tall fra(1) til (5)> ganger
             neste drakt
@@ -194,7 +194,7 @@ Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den
         slutt
 	
 	    
-		når jeg mottar [vant v]
+		nÃ¥r jeg mottar [vant v]
 		sett [vant v] til (1)
 		ta bort grafiske effekter
         si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
@@ -203,84 +203,84 @@ Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den
 
 ##Lagre prosjektet{.save}
 
-__Gratulerer! Du er nå ferdig med spillet. Men det fins mange flere ting du kan gjøre med det. Prøv deg gjerne på utfordringene vi har laget!__
+__Gratulerer! Du er nÃ¥ ferdig med spillet. Men det fins mange flere ting du kan gjÃ¸re med det. PrÃ¸v deg gjerne pÃ¥ utfordringene vi har laget!__
 
 
-##Utfordring 1:Gjør spillet enklere eller vanskeligere {.challenge}
+##Utfordring 1:GjÃ¸r spillet enklere eller vanskeligere {.challenge}
 
 Endre vanskelighetsgrad for spillet.
 
-* Forsøk å endre hvor lenge bildet vises frem og hvor raskt poengsummen minker.
-* Forsøk å endre forvrengingen av bildet.
-* Forsøk å gjøre tingene likere hverandre eller mer forskjellig. Husk også å forandre svarfigurenes drakter.
+* ForsÃ¸k Ã¥ endre hvor lenge bildet vises frem og hvor raskt poengsummen minker.
+* ForsÃ¸k Ã¥ endre forvrengingen av bildet.
+* ForsÃ¸k Ã¥ gjÃ¸re tingene likere hverandre eller mer forskjellig. Husk ogsÃ¥ Ã¥ forandre svarfigurenes drakter.
 
 ##Lagre prosjektet{.save}
 
 ##Utfordring 2: Forvreng bildet ulikt fra gang til gang {.challenge}
 
-For øyeblikket bruker spillet samme forvrengingsalgoritme hele tiden. Men i steg 2 prøvde du kanskje ut noen forskjellige alternativer. Prøv nå om du kan finne noen flere forvrenginger som du synes virker like bra som farge og piksler.
+For Ã¸yeblikket bruker spillet samme forvrengingsalgoritme hele tiden. Men i steg 2 prÃ¸vde du kanskje ut noen forskjellige alternativer. PrÃ¸v nÃ¥ om du kan finne noen flere forvrenginger som du synes virker like bra som farge og piksler.
  
-Endre spillet slik at hvert spill bruker forskjellige forvrengninger i gjenta til-løkken.
+Endre spillet slik at hvert spill bruker forskjellige forvrengninger i gjenta til-lÃ¸kken.
 
 __Hint:__ 
-Forsøk å opprette en ny variabel som du kaller forvrenging. Sett denne til en tilfeldig verdi i starten av spillet. Bruk så hvis-blokker i gjenta til-løkken for å velge ut en forvrenging til det hvert spill.
+ForsÃ¸k Ã¥ opprette en ny variabel som du kaller forvrenging. Sett denne til en tilfeldig verdi i starten av spillet. Bruk sÃ¥ hvis-blokker i gjenta til-lÃ¸kken for Ã¥ velge ut en forvrenging til det hvert spill.
 
 
 ##Lagre prosjektet{.save}
 
 ##Utfordring 3: La hvert spill ha flere runder {.challenge}
 
-For øyeblikket er hvert spill uavhengig av andre. Prøv om du kan legge til flere
-runder slik at man får gjette på tre ting og kan vinne inntil 300 poeng.
+For Ã¸yeblikket er hvert spill uavhengig av andre. PrÃ¸v om du kan legge til flere
+runder slik at man fÃ¥r gjette pÃ¥ tre ting og kan vinne inntil 300 poeng.
 
-__Hint:__ Du vil trenge en ekstra variabel for å lagre den totale poengsummen. Du må også ha en løkke som går rundt for hver runde.
+__Hint:__ Du vil trenge en ekstra variabel for Ã¥ lagre den totale poengsummen. Du mÃ¥ ogsÃ¥ ha en lÃ¸kke som gÃ¥r rundt for hver runde.
 
-__Hint:__ Du vil trenge en ekstra variabel for å lagre den totale poengsummen. Du må også ha en løkke som går rundt for hver runde.
+__Hint:__ Du vil trenge en ekstra variabel for Ã¥ lagre den totale poengsummen. Du mÃ¥ ogsÃ¥ ha en lÃ¸kke som gÃ¥r rundt for hver runde.
 
 
 ##Lagre prosjektet{.save}
 
-##Utfordring 4: Øk vanskelighetsgraden gradvis {.challenge}
+##Utfordring 4: Ã˜k vanskelighetsgraden gradvis {.challenge}
 
-Gjør nå spillet vanskeligere og vanskeligere for hver runde.
+GjÃ¸r nÃ¥ spillet vanskeligere og vanskeligere for hver runde.
 
 Kanskje hver runde
-også skal gi ulikt antall poeng? Bør spilleren også få ekstra mange poeng for å gjette kjapt i de vanskeligste rundene? 
+ogsÃ¥ skal gi ulikt antall poeng? BÃ¸r spilleren ogsÃ¥ fÃ¥ ekstra mange poeng for Ã¥ gjette kjapt i de vanskeligste rundene? 
 
 
-__Hint:__ : Hvordan kan du vite hvilken runde du er i? Hvordan kan du bruke det til å endre vanskelighetsgraden og poengsummen?
+__Hint:__ : Hvordan kan du vite hvilken runde du er i? Hvordan kan du bruke det til Ã¥ endre vanskelighetsgraden og poengsummen?
 
 
 ##Lagre prosjektet{.save}
 
-##Utfordring 5: Fortsett til spilleren gjør feil {.challenge}
+##Utfordring 5: Fortsett til spilleren gjÃ¸r feil {.challenge}
 
-steden for et bestemt antall runder, kan du la spillet gå til det blir klikket på feil svar. Dette funker nok best dersom man også øker vanskelighetsgraden utover i spillet.
+steden for et bestemt antall runder, kan du la spillet gÃ¥ til det blir klikket pÃ¥ feil svar. Dette funker nok best dersom man ogsÃ¥ Ã¸ker vanskelighetsgraden utover i spillet.
 
 ##Lagre prosjektet{.save}
 
-##Utfordring 6: Gjør spillet enklere eller vanskeligere basert på hvor flink spilleren er {.challenge}
+##Utfordring 6: GjÃ¸r spillet enklere eller vanskeligere basert pÃ¥ hvor flink spilleren er {.challenge}
 
-Istedenfor å gjøre det stadig vanskeligere kan vi tilpasse vanskelighetsgraden til spillernes dyktighet. Hvis de raskt gjetter riktig ting, kan den neste runden gjøres vanskeligere. Hvis de klikker feil eller gjetter sakte, kan neste runde gjøres enklere.
+Istedenfor Ã¥ gjÃ¸re det stadig vanskeligere kan vi tilpasse vanskelighetsgraden til spillernes dyktighet. Hvis de raskt gjetter riktig ting, kan den neste runden gjÃ¸res vanskeligere. Hvis de klikker feil eller gjetter sakte, kan neste runde gjÃ¸res enklere.
 
 Dette fungerer bare hvis du ikke samler opp poengsummen fra runde til runde.
 
 ##Lagre prosjektet{.save}
 
-##Utfordring 7: Hold styr på rekorden {.challenge}
+##Utfordring 7: Hold styr pÃ¥ rekorden {.challenge}
 
-Finn en måte å lagre den høyeste poengsummen på. Klarer du også å lagre navnet til spilleren, og få spillet til å si hvem som har rekorden?
+Finn en mÃ¥te Ã¥ lagre den hÃ¸yeste poengsummen pÃ¥. Klarer du ogsÃ¥ Ã¥ lagre navnet til spilleren, og fÃ¥ spillet til Ã¥ si hvem som har rekorden?
 
 
 ##Lagre prosjektet{.save}
 
 ##Utfordring 8: Gi en straff for galt svar {.challenge}
 
-Slik spillet er nå kan man bare klikke som en gal på alle svarene, så vil man raskt finne riktig svar. Det kan derfor være en god idé å trekke fra poeng hver gang spilleren klikker galt.
+Slik spillet er nÃ¥ kan man bare klikke som en gal pÃ¥ alle svarene, sÃ¥ vil man raskt finne riktig svar. Det kan derfor vÃ¦re en god idÃ© Ã¥ trekke fra poeng hver gang spilleren klikker galt.
 
-Gjør dette spillet bedre?
+GjÃ¸r dette spillet bedre?
 
 ##Lagre prosjektet{.save}
 
-__Veldig bra! Nå er du ferdig og kan nye spillet du har laget!__
-Ikke glem å del spillet ditt med venner og familie ved å trykke på __Legg ut__ i menyen!
+__Veldig bra! NÃ¥ er du ferdig og kan nye spillet du har laget!__
+Ikke glem Ã¥ del spillet ditt med venner og familie ved Ã¥ trykke pÃ¥ __Legg ut__ i menyen!
