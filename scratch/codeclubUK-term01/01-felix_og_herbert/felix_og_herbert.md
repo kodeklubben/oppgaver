@@ -2,6 +2,7 @@
 title: Felix og Herbert
 level: 1.1
 language: nb-NO
+stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 ...
 
@@ -18,10 +19,10 @@ Vi skal lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Du styr
 ## Sjekkliste{ .check}
 
 + Start et nytt prosjekt.
-+ Trykk på ´i´ i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til Felix.
++ Trykk på `i`{.blockblue} i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til `Felix`.
 + Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til ![Høyre/Venstre](rotasjonsmate-hv.png).
-+ Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen 'Bakgrunner' og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen 'Utendørs/brick wall2'.
-+ Velg ![skript](fane-skript.png)-fanen og lag dette skriptet:
++ Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen `Bakgrunner`{.blocklightgrey} og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen `Utendørs/brick wall2`.
++ Velg `Skript`{.blocklightgrey}-fanen og lag dette skriptet:
 
     ```blocks
         Når grønt flagg klikkes
@@ -52,8 +53,8 @@ Scratch lagrer alle prosjektene dine automatisk med jevne mellomrom. Det kan lik
 
 ## Sjekkliste { .check}
 
-+ Lag en ny figur ved å trykke på ![Velg figur fra biblioteket](figur-fra-bibliotek.png) og velg figuren 'Dyr/Mouse1'.
-+ Bytt navn på figuren til Herbert og sørg for at også Herbert kun kan se til høyre og venstre ![Høyre/Venstre](rotasjonsmate-hv.png).
++ Lag en ny figur ved å trykke på ![Velg figur fra biblioteket](figur-fra-bibliotek.png) og velg figuren `Dyr/Mouse1`.
++ Bytt navn på figuren til `Herbert` og sørg for at også Herbert kun kan se til høyre og venstre, ![Høyre/Venstre](rotasjonsmate-hv.png).
 + Gjør Herbert mindre enn Felix ved å trykke på ![krymp](krymp.png) (øverst mot midten av vinduet). Prøv seks klikk.
 + Gi Herbert dette skriptet:
 
@@ -118,10 +119,10 @@ __Klikk på det grønne flagget.__
                 vent (1) sekunder
     ```
   
-+ Velg Herbert og gå til ![drakter](fane-drakter.png)-fanen.
-+ Hent en ny drakt ved å trykke på ![Velg drakt fra biblioteket](figur-fra-bibliotek.png) og velg 'Fantasi/ghost2-a'
++ Velg Herbert og gå til `Drakter`{.blocklightgrey}-fanen.
++ Hent en ny drakt ved å trykke på ![Velg drakt fra biblioteket](figur-fra-bibliotek.png) og velg `Fantasi/ghost2-a`
 + Gjør drakten mindre ved å velge ![Krymp](krymp.png) og trykke seks ganger på spøkelsesdrakten.
-+ Endre navnene på Herberts drakter slik at musedrakten heter 'levende' og spøkelsesdrakten heter 'død'.
++ Endre navnene på Herberts drakter slik at musedrakten heter `levende` og spøkelsesdrakten heter `død`.
 + Lag et nytt skript for Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle skriptet!:
 
     ```blocks
@@ -145,7 +146,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste { .check}
 
-+ På ![skript](fane-skript.png)-fanen under kategorien ![Data](kategori-data.png), lag en ny variabel. La den gjelde for alle figurer og kall den 'Poeng'.
++ På `Skript`{.blocklightgrey}-fanen under kategorien `Data`{.blockorange}, lag en ny variabel. La den gjelde for alle figurer og kall den `Poeng`.
 
     ![](ny-variabel-poeng.png)
 
@@ -175,5 +176,5 @@ __Klikk på det grønne flagget.__
 
 *Du er ferdig. Godt gjort. Nå kan du spille spillet!*
 
-Husk at du kan dele spillet med familie og venner ved å trykke 'Legg ut' på menylinjen.
+Husk at du kan dele spillet med familie og venner ved å trykke `Legg ut` på menylinjen.
 
