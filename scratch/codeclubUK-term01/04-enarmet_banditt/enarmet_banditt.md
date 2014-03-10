@@ -58,14 +58,14 @@ Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan får vi dem t
 
 + Klikk på `data`{.blockorange} og __lag en ny variabel__. Gi den navnet __stoppet__ og la det stå huket av __for denne figuren__. 
 + Når variabelen er opprettet __fjerner du avhukingen ved siden av__, slik at den ikke vises på scenen.
-+ Nå skal vi gi __stoppet__ verdien 1 når spilleren klikker på figuren. Det gjør vi med en `når denne figuren klikkes`{.blockyellow} og en `sett (stoppet v) til 1`. Husk å endre verdien fra 0 til 1 i den siste blokken.
++ Nå skal vi gi __stoppet__ verdien 1 når spilleren klikker på figuren. Det gjør vi med en `når denne figuren klikkes`{.blockyellow} og en `sett [stoppet v] til (1)`{.blockorange}. Husk å endre verdien fra 0 til 1 i den siste blokken.
 
     ```blocks
         Når denne figuren klikkes
         sett (stoppet v) til (1)
     ```
 
-+ Neste steg er å __få ruletten til å stoppe__ når __stoppet__ får verdien 1. Velg `styring`{.block} og sett inn en `hvis`{.block}-blokk inni `for alltid`{.block}-løkken. Bruk så en `([] = [])`{.block}-blokk fra `operatorer`-kategorien i `hvis`{.block}-testen for å sjekke om `([stoppet v] = (0))`{.block}. 
++ Neste steg er å __få ruletten til å stoppe__ når __stoppet__ får verdien 1. Velg `Styring`{.blockyellow} og sett inn en `hvis`{.blockyellow}-blokk inni `for alltid`{.blockyellow}-løkken. Bruk så en `([] = [])`{.blocklightgreen}-blokk fra `Operatorer`{.blocklightgreen}-kategorien i `hvis`{.blockyellow}-testen for å sjekke om `([stoppet v] = (0))`{.blocklightgreen}. 
 
     ```blocks
         Når grønt flagg klikkes
@@ -75,7 +75,7 @@ Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan får vi dem t
         vent (0.5) sekunder
     ```
                                                                     
-+ Til slutt må du huske å nullstille __stoppet__ når spillet startes på nytt. For da vil vi jo at ruletten skal begynne å gå rundt igjen. Legg til en `sett (stoppet) til (0)`{.block} rett under `når grønt flagg klikkes`{.block}-blokken.
++ Til slutt må du huske å nullstille __stoppet__ når spillet startes på nytt. For da vil vi jo at ruletten skal begynne å gå rundt igjen. Legg til en `sett (stoppet) til (0)`{.blockorange} rett under `når grønt flagg klikkes`{.blockgrey}-blokken.
 
 
 ## Test prosjektet { .test}
@@ -94,9 +94,9 @@ Stopper den når du klikker andre steder på scenen eller andre steder i Scratch
 
 Nå trenger vi to figurer til for å gjøre spillet komplett!
 
-+ __Dupliser figuren din__ ved å høyreklikke på den og velge `lag kopi`{.block}.
++ __Dupliser figuren din__ ved å høyreklikke på den og velge `lag kopi`{.blocklightgrey}.
 + Gjør det en gang til - slik at vi får tre figurer på skjermen.
-+ Flytt figurene slik at de er på en linje. Gjør dem mindre med krympeknappen ![](mindre.png) hvis det trengs.
++ Flytt figurene slik at de er på en linje. Gjør dem mindre med krympeknappen ![](krymp.png) hvis det trengs.
 
 
 ## Test prosjektet { .test}
@@ -130,7 +130,7 @@ Hver gang du endrer noe, tenk på om det vil gjøre spillet lettere eller vanske
 
 Noen spillere vil være gode og andre ikke fullt så gode. Hvordan kan du få spillet til å __justere vanskelighetsgrad ut ifra hvor god spilleren er?__
 
-+ En måte er å __justere rulleringshastigheten for draktene__. Du kan bruke en variabel, som du kaller __forsinkelse__, som bestemmer varigheten til `vent`{.block}-blokken for hver figur. Hvis spilleren vinner en runde, kan verdien på __forsinkelse__-variabelen settes litt ned - for å gjøre spillet vanskeligere. Hvis spilleren taper en runde, så kan den justeres litt opp - for å gjøre det lettere.
++ En måte er å __justere rulleringshastigheten for draktene__. Du kan bruke en variabel, som du kaller __forsinkelse__, som bestemmer varigheten til `vent`{.blockyellow}-blokken for hver figur. Hvis spilleren vinner en runde, kan verdien på __forsinkelse__-variabelen settes litt ned - for å gjøre spillet vanskeligere. Hvis spilleren taper en runde, så kan den justeres litt opp - for å gjøre det lettere.
 
 ## Utfordring 3:  Oppdag når spillet er vunnet - eller tapt { .challenge}
 
@@ -138,15 +138,19 @@ Spillets mål er å klikke på figurene slik at de stopper når alle har samme d
 For å sjekke om spillet er slutt lager vi et eget skript. Denne sjekken kan kjøres hver gang en figur er klikket. 
 
 
-+ Først må vi __gi scenen beskjed når en figur har blitt klikket på__. Finn tilbake til `når denne figuren klikkes`{.block} og legg til blokken `send melding (SjekkOmSlutt)`{.block}. Du må lage meldingen __SjekkOmSlutt__ selv. Gjør det samme for de andre figurene. 
++ Først må vi __gi scenen beskjed når en figur har blitt klikket på__. Finn tilbake til `når denne figuren klikkes`{.blockgrey} og legg til blokken `send melding [SjekkOmSlutt v]`{.blockgrey}. Du må lage meldingen __SjekkOmSlutt__ selv. Gjør det samme for de andre figurene. 
 + Når scenen mottar beskjeden __SjekkOmSlutt__, setter den i gang skriptet som kjører sjekken. Hvis alle figurenes __stoppet__-variabel har verdien 1, så vet vi at spillet er ferdig. 
-Bruk  blokken %(sansning)'x-posisjon' av Figur1'% og endre 'x-posisjon' til 'stoppet'. 
+Bruk  blokken `x-posisjon av [Figur1 v]`{.blocklightblue} og endre `[x-posisjon v]`{.blocklightblue} til `[stoppet v]`{.blocklightblue}. 
 + Neste punkt blir å sjekke om spilleren har vunnet. Det har hun eller han hvis alle tre figurene er frosset med samme drakt.
-For å sjekke dette bruker vi nok en gang %(sansning)'x-posisjon' av Figur1'%. Men denne gangen er det draktnummeret vi sammenligner. 
-I tillegg trenger vi en %(styring)hvis%-blokk som sjekker hver _stoppet_-variabel og inn i den en %(styring)hvis..ellers%-blokk. Kanskje det er lettest å skjønne når du ser litt på skriptet?
+For å sjekke dette bruker vi nok en gang `[x-posisjon v] av [Figur1 v]`{.blocklightblue}. Men denne gangen er det draktnummeret vi sammenligner. 
+I tillegg trenger vi en `hvis`{.blockyellow}-blokk som sjekker hver __stoppet__-variabel og inni den en `hvis..ellers`{.blockyellow}-blokk. Kanskje det er lettest å skjønne når du ser litt på skriptet?
 
     ```blocks
-        Når jeg mottar (SjekkOmSlutt)
+        Når jeg mottar (SjekkOmSlutt v)
+        hvis ((([stoppet v] av [Figur1 v]) = (1)) og ((([stoppet v] av [Figur2 v]) = (1)) og (([stoppet v] av [Figur3 v]) = (1)))
+            hvis ((([drakt # v] av [Figur1 v]) = ([drakt # v] av [Figur2 v])) og (([drakt # v] av [Figur2 v]) = ([drakt # v] av [Figur3 v]))
+            ellers
+            
     ```
 
 + Til slutt kan du annonsere resultatet ved å bruke en ny melding og en ny figur. Kanskje Felix kan komme tilbake for å gratulere spilleren?
