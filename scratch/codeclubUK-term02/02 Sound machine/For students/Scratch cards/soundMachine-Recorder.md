@@ -52,7 +52,7 @@ sett størrelse til (100) %
 + Nå må vi få avspillingen til å gjøre noe. Legg dette skriptet til
   "Spill av"
 ```blocks
-når denne figures klikkes
+når denne figuren klikkes
 sett [recording v] til (0)
 sett [index v] til (1)
 nullstill klokka
@@ -60,7 +60,7 @@ for alltid
   hvis <(element (index) av [timing v]) < (timer)>
     send melding (element (index) av [instrument v])
     endre [index v] med (1)
-    hvis <(index) > (lengde av [timing v])>
+    hvis <(index) > (lengden av [timing v])>
       stopp [dette skriptet]
     slutt 
   slutt 
