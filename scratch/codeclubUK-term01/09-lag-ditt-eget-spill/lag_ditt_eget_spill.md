@@ -1,44 +1,56 @@
 ---
-title: Create Your Own Game
-level: Level 3
-language: en-GB
+title: Lag ditt eget spill
+level: 1.8
+language: nb-NO
+embeds: ["*.png", "../../bilder/*.png"]
 stylesheet: scratch
-embeds: "*.png"
-note: "notes for club leaders.md"
-materials: "*.sb2"
 ...
 
-# Introduction { .intro}
+# Introduksjon { .intro}
 
-In this project you will design and create a game for you and your friends
-to play! You will need to think about its different parts and plan your ideas before you begin making it on Scratch. You can use ideas from past projects and Scratch cards to help you.
+Nå skal du endelig få lage ditt eget spill som du og vennene dine kan spille! 
+Legg hodet i bløt og kom opp med en kul idé! 
+Men før du går i gang med koding, må du legge en plan. Prøv også å dele opp spillet i flere mindre
+deler. Da ser du fort at hver del kan løses med sitt eget skript, eller ved å legg til noe på et
+annet. Tenk også tilbake på Scratch-kortene og de andre spillene du har laget, 
+kan det være noen idéer derifra du kan bruke?
 
-# STEP 1: Planning your game {.activity}
+# Steg 1: Planlegg spillet {.activity}
 
-What is the aim of the game? (For example, the aim of Felix & Herbert was to avoid getting caught by the cat.) It might help for you to think of as many ideas as you can then choose the best. You could brainstorm with a friend or work on your own. Write your ideas below and choose the best one.
+Hva er formålet med spillet? Tenk for eksempel på Felix og Herbert . Der var målet å ikke bli tatt av
+katten. Det kan være smart å tenke ut flere spillidéer, og så velge den beste etterpå. Du kan gjerne
+drodle litt med en venn underveis.
 
-# STEP 2: Design your characters {.activity}
+# Steg 2: Design figurene {.activity}
 
-What characters will be in your game? Draw them in the box below. If they will need different costumes make sure you draw these too. Ask for more paper if you need it.
+Hvilke figurer vil du ha med? Tegn de på et ark. Hvis de skal ha forskjellige drakter kan du
+tegne på det også. Spør gjerne om mer papir, hvis du trenger. 
 
-# STEP 3: Design your stage {.activity}
+# Steg 3: Design scenen {.activity}
 
-What will the stage look like? Draw it below. Remember to think about how
-the characters might interact with it.
-
-# STEP 4: How does your game work? {.activity}
-
-How will points be scored? How do you win the game? How many players are there? Will there be a timer?
-How will the game be controlled? E.g. Will you click a mouse button or press a key? Do you need sound effects? If so, what are they?
-Answer these questions in the space below:
+Hvordan skal scenen se ut? Tegn den på et ark. Husk å tenke på hvordan karakterene skal
+forholde seg til den: for eksempel hvor de skal stå, hvordan de skal bevege seg, hvor mange det er
+plass til, etc.
 
 
-# STEP 5: Building your game {.activity}
+# Steg 4: How does your game work? {.activity}
 
-Now it’s time to start writing the scripts that will make your game work.
+* Hvordan får man poeng?
+* Hvordan vinner man spillet?
+* Hvor mange spillere er det?
+* Skal det være nedtelling?
+* Hvordan styres spillet? Med tastene eller med museknappen?
+* Skal det ha lydeffekter? Hvilke?
 
-## Things to remember:
+Skriv ned tankene dine!
 
-1. You can always refer back to the Scratch cards and the games you have already built.
-2. Remember to test your project and save your game regularly. 
-3. Be creative!
+
+# Steg 5: Sett i gang! {.activity}
+
+Nå er det på tide å begynne på skriptene!
+
+## Ting å huske:
+
+1. Du kan alltid henvise tilbake til Scratch-kortene og spillene du allerede har lagd.
+2. Husk å teste og lagre fortløpende. 
+3. Vær kreativ!
