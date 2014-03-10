@@ -26,7 +26,6 @@ gjenta (8) ganger
 slutt
 ```
 + For å koble de to sammen, få `si`{.blockpurple}-klossen til å sende en melding, som den andre klossen kan reagere på.
-
 ```blocks
 når [mellomrom v] trykkes
 send melding [snakk v]
@@ -43,7 +42,6 @@ slutt
 
 + For å gjøre det litt mer fleksibelt, bruk en variabel for å kontrollere `snakketid`{.blockorange} hvor lenge monsteret
  sier noe, og for å kontrollere hvor mange ganger animasjonsløkken er gjentatt.
-
 ```blocks
 når [mellomrom v] trykkes
 sett [snakketid v] til (2)
@@ -66,7 +64,6 @@ slutt
 **(Merk at vi multipliserer `snakketid`{.blockorange} med 4 for å være sikkre på at løkken gjentas nok ganger)**
 
 + Du kan også få monsteret ditt til å si lyder ved å bruke en av lydklossene. Husk å importere lydene i `Lyd`{.blocklightgrey}.
-
 ```blocks
 når jeg mottar [snakk v]
 spill lyden [Screech v]

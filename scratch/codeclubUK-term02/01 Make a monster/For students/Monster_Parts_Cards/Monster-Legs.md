@@ -19,7 +19,6 @@ materials: "*.sb2"
  mottas, **øker vi variabelen med 1**. Hvis
  variablen går høyere enn 1 (vi kan teste dette
  med større enn operatøren `>`{.blockgreen}) nullstiller vi den.
-
 ```blocks
 når grønt flagg klikkes
 sett [hastighet v] til [5]
@@ -47,7 +46,6 @@ slutt
 	 du at monstret skal gjøre det!). Ikke glem å flytte
 	 beina langs kroppen ved å bruke
 	 `hastighet`{.blockorange} variabel.
-
 ```blocks
 når jeg mottar [flyttet høyre v]
 endre x med (hastighet)

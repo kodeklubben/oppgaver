@@ -10,7 +10,6 @@ materials: "*.sb2"
 ## Sjekkliste { .check}
 
 + Du kan gi monsteret øyne som følger musepekeren rundt på skjermen. Det kan ha så mange øyne som du vil,  kankje har det åtte øyne, som en edderkopp! Siden vi alltid vil at monsterøynene skal følge musepekeren må vi sette `for alltid`{.blockyellow} klossen. Når man trykker på det grønne flagget og skriptet har startet vil vi at øynene peker i retningen av musepekeren og flytter seg hvert brøkdelssekund.
-
 ```blocks
 når denne figuren klikkes
 for alltid
