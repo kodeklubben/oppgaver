@@ -146,7 +146,11 @@ For å sjekke dette bruker vi nok en gang %(sansning)'x-posisjon' av Figur1'%. M
 I tillegg trenger vi en %(styring)hvis%-blokk som sjekker hver _stoppet_-variabel og inn i den en %(styring)hvis..ellers%-blokk. Kanskje det er lettest å skjønne når du ser litt på skriptet?
 
     ```blocks
-        Når jeg mottar (SjekkOmSlutt)
+        Når jeg mottar (SjekkOmSlutt v)
+        hvis ((([stoppet v] av [Figur1 v]) = (1)) og ((([stoppet v] av [Figur2 v]) = (1)) og (([stoppet v] av [Figur3 v]) = (1)))
+            hvis ((([drakt # v] av [Figur1 v]) = ([drakt # v] av [Figur2 v])) og (([drakt # v] av [Figur2 v]) = ([drakt # v] av [Figur3 v]))
+            ellers
+            
     ```
 
 + Til slutt kan du annonsere resultatet ved å bruke en ny melding og en ny figur. Kanskje Felix kan komme tilbake for å gratulere spilleren?
