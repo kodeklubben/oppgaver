@@ -1,7 +1,7 @@
 ---
 title: En hjemmeside
 level: Lesson 2
-language: nb_NO
+language: nb-NO
 embeds: "*.png"
 materials: "ressurser"
 stylesheet: web
