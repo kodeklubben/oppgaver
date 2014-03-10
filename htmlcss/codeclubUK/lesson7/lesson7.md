@@ -1,26 +1,23 @@
 ---
-title: Design & build your own website
+title: Lag din egen nettside
 level: Lesson 7
 language: nb-NO
 embeds: "*.png"
 stylesheet: web
 ...
 
-## __Introduction:__ { .intro}
-In this project you will design and code your very own website! You’ll need to plan what your website is going to be about, and create the content (text, information, pictures, video etc.) that should go on it.
+## __Introduksjon:__ { .intro}
+I denne oppgaven skal du lage din egen nettside! Du skal selv besteme hva du vil at nettsiden skal handle om og lage innholdet selv (tekst, bilder, video etc.)
 
-#Step 1: Designing your website { .activity}
-What should your website be about? Maybe you want a website about yourself, your favourite pet, a hobby you do, or your favourite subject. It’s completely up to you! What would you like to share with the rest of the world?
+# Trinn 1: Utforming av nettsiden { .activity}
+Hva skal nettsiden din handle om? Kanskje du vil at den skal være om deg selv, ditt favorittdyr, en hobby du har eller favorittfaget ditt. Det er helt opp til deg! Hva vil du dele med resten av verden?
 
-Some people like to sketch out their website with pen and paper before starting to code it, others prefer to get straight into the code and just play around.
+Noen liker å la lage en skisse av nettsiden med en blyant før man starter å kode. Andre liker å starte rett på kodingen og bare prøve seg frem.
 
-You will need to think about what content should go on the website. If you’re writing about your favourite hobby, what do you think people would like to know about it? Do you have any pictures or videos? If you don’t have any pictures you can always make a drawing.
+Du må tenke gjennom hva slags innhold du vil ha på nettsiden. Hvis du skriver om en hobby du har, hva tror du andre vil vite om den? Har du bilder eller video? Dersom du ikke har bilder kan du alltids lage en tegning.
 
-#Step 2: Coding you website { .activity}
+# Trinn 2: Koding av nettsiden { .activity}
 
-Use the knowledge you’ve learnt in the previous lessons to code your website. Your Code Club leader have some new materials for you as well that you can use, including how to put audio and video on your website. Exciting!
+Bruk kunnskapen du har tilegnet deg i de forrige oppgavene til å kode nettsiden din. Veilederene kan vise deg hvordan du legger til lyd og video på nettsiden. Spennende!
 
-#Step 3: Putting your website on the web for everyone to see { .activity}
-[these instructions will have to wait until we have the hosting in order]
-
-__Remember to keep saving your work so you can show your friends and family later!__
+__Husk å lagre arbeidet ditt så du senere kan vise det til venner og familie!__
