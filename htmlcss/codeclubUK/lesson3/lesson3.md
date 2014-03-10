@@ -1,7 +1,7 @@
 ---
 title: Forsvunnet katt webside
 level: Lesson 3
-language: nb_NO
+language: nb-NO
 embeds: "*.png"
 materials: "ressurser"
 stylesheet: web
@@ -105,8 +105,6 @@ Ser du nå hvordan vennligst vises i *skrå* og Tusen takk i **fet**?
 #Step 5: Kommentarer { .activity}
 
 Noen ganger er det lønnsomt å skrive kommentarer i selve html-filen. Med kommentarer mener vi ting som er ment for at mennesker skal lese hvis de åpner og ser filen, og ikke for nettleseren å lese og vise. Vi gjør dette ved å bruke den spesielle koden:
-
-Sometimes it is useful to write comments in the html file itself. By comments we mean stuff that is meant for humans to read if they’re viewing the file, and not for the browser to read and display. We do that by using the special code:
 
 ```HTML
 <!-- skriv hva som helst her -->
