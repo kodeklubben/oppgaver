@@ -245,7 +245,7 @@ Husk å sette midtpunktet på viskelæret foran.
 ```scratch
 	når jeg mottar [visk v]
 	bytt drakt til [eraser v]
-	velg pennefarge (grå)
+	velg pennefarge (#606060)
 ```
 
 
@@ -287,7 +287,7 @@ slik at de setter __stempelmodus__ til av. Eksempel (for viskelæret):
 ```scratch
 	når jeg mottar [visk v]
 	bytt drakt til [eraser v]
-	velg pennefarge (grå)
+	velg pennefarge (#606060)
 	sett [stempelmodus v] til (av)
 ```
 
