@@ -11,7 +11,7 @@ embeds: ["*.png", "../../bilder/*.png"]
 #Introduksjon { .intro}
 Vi skal nå lage et JafseFisk-spill! Målet i spillet er å hjelpe JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 
-![skjermbilde](jafsefisk.png)
+![skjermbilde](jafsefisk.PNG)
 
 # Steg 1: JafseFisk følger musepekeren { .activity}
 __Først skal vi lage JafseFisk som svømmer rundt i havet!__
