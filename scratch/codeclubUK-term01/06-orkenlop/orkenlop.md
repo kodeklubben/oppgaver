@@ -1,14 +1,14 @@
 ---
-title: Ørkenløp
+title: Ã˜rkenlÃ¸p
 level: 1.6
 language: nb-NO
 embeds: ["*.png", "../../bilder/*.png"]
 ...
 
-#Ørkenløp
+#Ã˜rkenlÃ¸p
 
 # Introduksjon { .intro}
-Dette er et spill for to, der en papegøye og en løve kjemper om å komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og ofte som mulig for å flytte figuren sin, og den som kommer først til kanten av skjermen vinner.
+Dette er et spill for to, der en papegÃ¸ye og en lÃ¸ve kjemper om Ã¥ komme fÃ¸rst gjennom Ã¸rkenen. Hver spiller mÃ¥ trykke en tast sÃ¥ fort og ofte som mulig for Ã¥ flytte figuren sin, og den som kommer fÃ¸rst til kanten av skjermen vinner.
 
 
 ![skjermbilde](orkenlop.png)
@@ -17,206 +17,206 @@ Dette er et spill for to, der en papegøye og en løve kjemper om å komme først gj
 
 ## Sjekkliste { .check}
 
-+ Klikk på Scene og hent en ny bakgrunn fra biblioteket. Velg __Natur/desert__.
-+ Fjern Sprite1 ved å høyreklikke på figuren og velg Slett.
-+ Legg til en ny figur ved å trykke på ![Velg figur fra biblioteket](figur-fra-bibliotek.png). Velg __Dyr/Lionness__.
-+ Legg så til enda en ny figur: velg Dyr/Parrot. Krymp figuren slik at den er omtrendt like stor som løvinnen ved å bruke ![Krymp](krymp.png).
++ Klikk pÃ¥ Scene og hent en ny bakgrunn fra biblioteket. Velg __Natur/desert__.
++ Fjern Sprite1 ved Ã¥ hÃ¸yreklikke pÃ¥ figuren og velg Slett.
++ Legg til en ny figur ved Ã¥ trykke pÃ¥ ![Velg figur fra biblioteket](figur-fra-bibliotek.png). Velg __Dyr/Lionness__.
++ Legg sÃ¥ til enda en ny figur: velg Dyr/Parrot. Krymp figuren slik at den er omtrendt like stor som lÃ¸vinnen ved Ã¥ bruke ![Krymp](krymp.png).
 
 
-# Steg 2: La løven og papegøyen bevege seg { .activity}
+# Steg 2: La lÃ¸ven og papegÃ¸yen bevege seg { .activity}
 
-Vi vil at figurene skal bevege seg når du trykker på en knapp.
+Vi vil at figurene skal bevege seg nÃ¥r du trykker pÃ¥ en knapp.
 
 ## Sjekkliste { .check}
 
-+ Velg først løvefiguren og få den til å `gå (4) steg`{.blockblue} når du trykker __‘L’__ tasten.
++ Velg fÃ¸rst lÃ¸vefiguren og fÃ¥ den til Ã¥ `gÃ¥ (4) steg`{.blockblue} nÃ¥r du trykker __â€˜Lâ€™__ tasten.
     ```blocks
-    når [l v] trykkes
-    gå (4) steg
+    nÃ¥r [l v] trykkes
+    gÃ¥ (4) steg
     ```
 
-+ Velg så papegøyefiguren og la den `gå (4) steg`{.blockblue} når du trykker __‘A’__ tasten.
++ Velg sÃ¥ papegÃ¸yefiguren og la den `gÃ¥ (4) steg`{.blockblue} nÃ¥r du trykker __â€˜Aâ€™__ tasten.
 
     ```blocks
-    når [a v] trykkes
-    gå (4) steg
+    nÃ¥r [a v] trykkes
+    gÃ¥ (4) steg
     ```
 
 ## Test prosjektet { .flag}
 
-__Trykk på det grønne flagget.__ 
-Beveger løven og papegøyen seg over skjermen når du trykker på ‘A’ og ‘L’ tastene?
+__Trykk pÃ¥ det grÃ¸nne flagget.__ 
+Beveger lÃ¸ven og papegÃ¸yen seg over skjermen nÃ¥r du trykker pÃ¥ â€˜Aâ€™ og â€˜Lâ€™ tastene?
 
 ## Lagre prosjektet { .save}
 
-# Steg 3: Start kappløpet { .activity}
+# Steg 3: Start kapplÃ¸pet { .activity}
 
-__Nå må vi kjøre i gang kappløpet og kåre en vinner. Vi begynner med å lage startknapp.__
+__NÃ¥ mÃ¥ vi kjÃ¸re i gang kapplÃ¸pet og kÃ¥re en vinner. Vi begynner med Ã¥ lage startknapp.__
 
 ## Sjekkliste { .check}
 
 + Legg til en ny figur. Velg __Ting/Button3__. Flytt den til midten av scenen. 
-+ Klikk på Drakter-fanen og symbolet T for å legge til tekst. Trykk på venstre kant av knappen for å legge til et tekstfelt og skriv inn teksten ‘start’. Du kan flytte på teksten ved å trykke en gang på den, og endre innhold ved å dobbeltklikke.
-+ Legg nå til et skript som viser figuren når spillet starter:
++ Klikk pÃ¥ Drakter-fanen og symbolet T for Ã¥ legge til tekst. Trykk pÃ¥ venstre kant av knappen for Ã¥ legge til et tekstfelt og skriv inn teksten â€˜startâ€™. Du kan flytte pÃ¥ teksten ved Ã¥ trykke en gang pÃ¥ den, og endre innhold ved Ã¥ dobbeltklikke.
++ Legg nÃ¥ til et skript som viser figuren nÃ¥r spillet starter:
 
     ```blocks
-        når grønt flagg klikkes
+        nÃ¥r grÃ¸nt flagg klikkes
         vis
     ```
-+ I tillegg vil vi ha en knapp som teller ned fra 3, sier ‘LØP’ og deretter blir skjult når den klikkes. Dette ordner du med følgende skript:
++ I tillegg vil vi ha en knapp som teller ned fra 3, sier â€˜LÃ˜Pâ€™ og deretter blir skjult nÃ¥r den klikkes. Dette ordner du med fÃ¸lgende skript:
 
     ```blocks
-    når denne figuren klikkes
+    nÃ¥r denne figuren klikkes
         si [3] i (1) sekunder
         si [2] i (1) sekunder
         si [2] i (1) sekunder
-        si [LØP!] i (1) sekunder
+        si [LÃ˜P!] i (1) sekunder
         skjul
     ```
 
 ## Test prosjektet { .flag}
 
-__Klikk på det grønne flagget__ og __trykk på startknappen__.
-Teller knappen ned? Sier den ‘LØP’? Blir den borte?
+__Klikk pÃ¥ det grÃ¸nne flagget__ og __trykk pÃ¥ startknappen__.
+Teller knappen ned? Sier den â€˜LÃ˜Pâ€™? Blir den borte?
 
 ## Lagre prosjektet { .save}
 
-Vi ønsker at figurene bare beveger seg etter at kappløpet er startet og vi ønsker å vite når kappløpet er over.
+Vi Ã¸nsker at figurene bare beveger seg etter at kapplÃ¸pet er startet og vi Ã¸nsker Ã¥ vite nÃ¥r kapplÃ¸pet er over.
 
-+ For å vite når kappløpet har startet og sluttet lager vi en variabel med navnet `kappløp`{.blockorange}. Variabelen skal være tilgjengelig for alle figurer. Fjern avhukingen foran variabelen, slik at den ikke vises på scenen.
-+ Sett __kappløp__ til __[0]__ når spillet startes. Forandre `når flagget klikkes`{.blockyellow} skriptet slik:
++ For Ã¥ vite nÃ¥r kapplÃ¸pet har startet og sluttet lager vi en variabel med navnet `kapplÃ¸p`{.blockorange}. Variabelen skal vÃ¦re tilgjengelig for alle figurer. Fjern avhukingen foran variabelen, slik at den ikke vises pÃ¥ scenen.
++ Sett __kapplÃ¸p__ til __[0]__ nÃ¥r spillet startes. Forandre `nÃ¥r flagget klikkes`{.blockyellow} skriptet slik:
 
     ```blocks
-    når grønt flagg klikkes
+    nÃ¥r grÃ¸nt flagg klikkes
         vis
-        sett [kappløp v] til (0)
+        sett [kapplÃ¸p v] til (0)
     ```
 
-+ Når nedtellingen er ferdig og løpet begynner, forandrer vi __kappløp__verdien til 1. Dette gjør du ved å legge til blokken `Sett [kappløp] til (1)`{.blockorange} under `si [1] i (1) sekunder`{.blockpurple} i skriptet som starter med `når denne figuren klikkes`{.blockyellow}.
-+ Så må vi lage en regel som sier at figurene bare får lov til å bevege seg når løpet har startet – det vil si når kappløp har verdien 1. Klikk først på papegøyen. Så legger du til:
++ NÃ¥r nedtellingen er ferdig og lÃ¸pet begynner, forandrer vi __kapplÃ¸p__verdien til 1. Dette gjÃ¸r du ved Ã¥ legge til blokken `Sett [kapplÃ¸p] til (1)`{.blockorange} under `si [1] i (1) sekunder`{.blockpurple} i skriptet som starter med `nÃ¥r denne figuren klikkes`{.blockyellow}.
++ SÃ¥ mÃ¥ vi lage en regel som sier at figurene bare fÃ¥r lov til Ã¥ bevege seg nÃ¥r lÃ¸pet har startet â€“ det vil si nÃ¥r kapplÃ¸p har verdien 1. Klikk fÃ¸rst pÃ¥ papegÃ¸yen. SÃ¥ legger du til:
 
     ```blocks
-	når [a v] trykkes
-	hvis <(kappløp) = [1]>
-		gå (4) steg
+	nÃ¥r [a v] trykkes
+	hvis <(kapplÃ¸p) = [1]>
+		gÃ¥ (4) steg
     ```
-+ Gjenta det samme for løvinnen.
++ Gjenta det samme for lÃ¸vinnen.
 
 ## Test prosjektet { .flag}
-__Klikk på det grønne flagget.__
+__Klikk pÃ¥ det grÃ¸nne flagget.__
 
-Kan løven og papegøyen bare flytte seg når nedtellingen er ferdig?
+Kan lÃ¸ven og papegÃ¸yen bare flytte seg nÃ¥r nedtellingen er ferdig?
 
 ## Lagre prosjektet { .save}
 
-# Steg 4: Avslutte kappløpet { .activity}
+# Steg 4: Avslutte kapplÃ¸pet { .activity}
 
-__Nå vil vi vite hvem som vinner kappløpet, og i tillegg gjøre klart for en ny runde.__
+__NÃ¥ vil vi vite hvem som vinner kapplÃ¸pet, og i tillegg gjÃ¸re klart for en ny runde.__
 
 ## Sjekkliste { .check}
 
-+ Legg til en blokk i papegøyens skript som `setter [kappløp] til (0)`{.blockorange} hvis figuren berører kanten av skjermen.
++ Legg til en blokk i papegÃ¸yens skript som `setter [kapplÃ¸p] til (0)`{.blockorange} hvis figuren berÃ¸rer kanten av skjermen.
 
 
     ```blocks
-    når [a v] trykkes
-    hvis <(kappløp) = [1]>
-        gå (4) steg
-        hvis <berører [kant v]?>
-			sett [kappløp v] til (0)
+    nÃ¥r [a v] trykkes
+    hvis <(kapplÃ¸p) = [1]>
+        gÃ¥ (4) steg
+        hvis <berÃ¸rer [kant v]?>
+			sett [kapplÃ¸p v] til (0)
     ```
-+ Spill så inn en lyd som skal avspilles hvis papegøyen vinner.
-Trykk på Lyder-fanen og deretter mikrofon-ikonet og spill inn en morsom trudelutt! Opptaket starter når du har klikket på rundingen slik at den blir rød. Klikk Stopp (firkanten) når du er ferdig, og gi den et navn – for eksempel Polly. Noen nettlesere kan spørre om tillatelse til å spille inn lyd. Hvis du ikke ønsker dette, bruk lydene som følger med figurene.
-+ Deretter legger du til blokkene som vil spille lyden og la papegøyen fortelle at den vant:
++ Spill sÃ¥ inn en lyd som skal avspilles hvis papegÃ¸yen vinner.
+Trykk pÃ¥ Lyder-fanen og deretter mikrofon-ikonet og spill inn en morsom trudelutt! Opptaket starter nÃ¥r du har klikket pÃ¥ rundingen slik at den blir rÃ¸d. Klikk Stopp (firkanten) nÃ¥r du er ferdig, og gi den et navn â€“ for eksempel Polly. Noen nettlesere kan spÃ¸rre om tillatelse til Ã¥ spille inn lyd. Hvis du ikke Ã¸nsker dette, bruk lydene som fÃ¸lger med figurene.
++ Deretter legger du til blokkene som vil spille lyden og la papegÃ¸yen fortelle at den vant:
 
     ```blocks
-	    når [a v] trykkes
-		hvis <(kappløp) = [1]>
-			gå (4) steg
-			hvis <berører [kant v]?>
-				sett [kappløp v] til (0)
+	    nÃ¥r [a v] trykkes
+		hvis <(kapplÃ¸p) = [1]>
+			gÃ¥ (4) steg
+			hvis <berÃ¸rer [kant v]?>
+				sett [kapplÃ¸p v] til (0)
                 spill lyden [Polly v]
                 si [Polly vinner! v] i (3) sekunder  
     ```
 	
-+ Gjør det samme for løvinnen.
++ GjÃ¸r det samme for lÃ¸vinnen.
 
 ## Test prosjektet { .flag}
-__Klikk på det grønne flagget.__
+__Klikk pÃ¥ det grÃ¸nne flagget.__
 
-Kan du trykke på startknappen og deretter bevege dyrene med tastene __A__ og __L__?
-Kommer riktig vinnerlyd og melding opp på skjermen?
+Kan du trykke pÃ¥ startknappen og deretter bevege dyrene med tastene __A__ og __L__?
+Kommer riktig vinnerlyd og melding opp pÃ¥ skjermen?
 
 ## Lagre prosjektet { .save}
 
 # Steg 5: Nullstill spillet { .activity}
 
-__Når kappløpet er over må vi fortelle de andre figurene at spillet er over og nullstille spillet, slik at er klart for en ny runde.__
+__NÃ¥r kapplÃ¸pet er over mÃ¥ vi fortelle de andre figurene at spillet er over og nullstille spillet, slik at er klart for en ny runde.__
 
 ## Sjekkliste { .check}
 
-+ Klikk på papegøyefiguren og legg til en blokk som sender melding ‘avslutt’ etter at figuren sier den har vunnet.
++ Klikk pÃ¥ papegÃ¸yefiguren og legg til en blokk som sender melding â€˜avsluttâ€™ etter at figuren sier den har vunnet.
 
 
     ```blocks
-	når [a v] trykkes
-	hvis <(kappløp) = [1]>
-		gå (4) steg
-		hvis <berører [kant v]?>
-			sett [kappløp v] til (0)
+	nÃ¥r [a v] trykkes
+	hvis <(kapplÃ¸p) = [1]>
+		gÃ¥ (4) steg
+		hvis <berÃ¸rer [kant v]?>
+			sett [kapplÃ¸p v] til (0)
 			spill lyden [Polly v]
 			si [Polly vinner! v] i (3) sekunder
 			send melding [avslutt v]
     ```
 
-+ Vi trenger nå et nytt skript som lytter etter denne avslutningsmeldingen og flytter papegøyen tilbake til start.
++ Vi trenger nÃ¥ et nytt skript som lytter etter denne avslutningsmeldingen og flytter papegÃ¸yen tilbake til start.
 
     ```blocks
-    når jeg mottar [avslutt v]
+    nÃ¥r jeg mottar [avslutt v]
     sett x til (-170)
     ```
 	
-+ Legg til det samme skriptet for løven. Test forskjellige __x__-verdier for å være sikker på at løven og papegøyen starter fra samme sted.
-+ For at figurene skal stå på startstreken når kappløpet starter den aller første gangen må vi også legge til følgende blokk til begge figurene: 
++ Legg til det samme skriptet for lÃ¸ven. Test forskjellige __x__-verdier for Ã¥ vÃ¦re sikker pÃ¥ at lÃ¸ven og papegÃ¸yen starter fra samme sted.
++ For at figurene skal stÃ¥ pÃ¥ startstreken nÃ¥r kapplÃ¸pet starter den aller fÃ¸rste gangen mÃ¥ vi ogsÃ¥ legge til fÃ¸lgende blokk til begge figurene: 
 
     ```blocks
-    når flagg klikkes
+    nÃ¥r flagg klikkes
         sett x til (-170)
     ```
 	
-+ For at spillerne skal kunne klikke i gang nye runder må passe på at start-knappen kommer etter hver avsluttet runde. Klikk på figuren og legg til et skript som viser knappen når avslutningsmeldingen er mottatt.
++ For at spillerne skal kunne klikke i gang nye runder mÃ¥ passe pÃ¥ at start-knappen kommer etter hver avsluttet runde. Klikk pÃ¥ figuren og legg til et skript som viser knappen nÃ¥r avslutningsmeldingen er mottatt.
 
     ```blocks
-    når jeg mottar [avslutt v]
+    nÃ¥r jeg mottar [avslutt v]
     vis
     ```
 
 	
 ## Test prosjektet { .flag}
 
-__Klikk på det grønne flagget.__
+__Klikk pÃ¥ det grÃ¸nne flagget.__
 
-Kan du spille mot en venn? En av dere styrer papegøyen ved å trykke A, og den andre løven
-ved å trykke L.
+Kan du spille mot en venn? En av dere styrer papegÃ¸yen ved Ã¥ trykke A, og den andre lÃ¸ven
+ved Ã¥ trykke L.
 
 ## Lagre prosjektet { .save}
 
 
 ##Utfordring 1: Legg til en rakett! { .challenge}
 
-* __Legg til en rakett__ som kan brukes én gang per kappløp og som flytter papegøyen eller løven __30 steg på en gang.__
-* __Legg til en ny drakt__  med ild som kommer ut bak hver figur. La denne aktiveres når raketten avfyres.
-* __Lag en lyd__ som figuren kan gi fra seg når raketten avfyres.
+* __Legg til en rakett__ som kan brukes Ã©n gang per kapplÃ¸p og som flytter papegÃ¸yen eller lÃ¸ven __30 steg pÃ¥ en gang.__
+* __Legg til en ny drakt__  med ild som kommer ut bak hver figur. La denne aktiveres nÃ¥r raketten avfyres.
+* __Lag en lyd__ som figuren kan gi fra seg nÃ¥r raketten avfyres.
 
     ```blocks
-	når [a v] trykkes
-		hvis <(kappløp) = (1) og (rakett) = (0)> 
+	nÃ¥r [a v] trykkes
+		hvis <(kapplÃ¸p) = (1) og (rakett) = (0)> 
 			skift til drakt [parrot-b v]
 			sett [rakett v] til (1)
-			gå (4) steg
+			gÃ¥ (4) steg
 			spill lyden [Rooster v]
-			hvis <berører [kant v]?>
-				sett [kappløp v] til (0)
+			hvis <berÃ¸rer [kant v]?>
+				sett [kapplÃ¸p v] til (0)
                 spill lyden [Polly v]
                 si [Polly vinner! v] i (3) sekunder
 				send melding [avslutt v]
@@ -226,41 +226,41 @@ ved å trykke L.
 
 ## Lagre prosjektet { .save}
 
-## Utfordring 2: Bruk egendefinerte blokker for å forenkle skriptet ditt { .challenge}
+## Utfordring 2: Bruk egendefinerte blokker for Ã¥ forenkle skriptet ditt { .challenge}
 
-Koden som brukes til å sjekke om kappløpet er over brukes nå to steder for hver figur; når figuren beveger seg normalt og når den beveger seg med rakett.
-Vi kan forenkle skriptet vårt ved å bruke en egendefinert blokk. Dette er en samling kode som brukes flere steder. Det er nesten som at vi lager vår egen Scratch kodeblokk!
+Koden som brukes til Ã¥ sjekke om kapplÃ¸pet er over brukes nÃ¥ to steder for hver figur; nÃ¥r figuren beveger seg normalt og nÃ¥r den beveger seg med rakett.
+Vi kan forenkle skriptet vÃ¥rt ved Ã¥ bruke en egendefinert blokk. Dette er en samling kode som brukes flere steder. Det er nesten som at vi lager vÃ¥r egen Scratch kodeblokk!
 
-+  Velg papegøyens skript.
-+ Velg `Flere klosser`{.blocklightgrey}-paletten og klikk så på `Lag en kloss`{.blocklightgrey} knappen.
++  Velg papegÃ¸yens skript.
++ Velg `Flere klosser`{.blocklightgrey}-paletten og klikk sÃ¥ pÃ¥ `Lag en kloss`{.blocklightgrey} knappen.
 + Kall klossen din __ferdig__ og trykk OK.
-+ Du vil nå få en `definer ferdig`{.blockpurple} blokk i skriptvinduet ditt. Flytt den litt for seg selv. 
-+ Løsriv `hvis`{.blockyellow} `berører [kant v]?`{.blocklightblue}` blokken og dra den til `definer ferdig`{.blockpurple} blokken.
++ Du vil nÃ¥ fÃ¥ en `definer ferdig`{.blockpurple} blokk i skriptvinduet ditt. Flytt den litt for seg selv. 
++ LÃ¸sriv `hvis`{.blockyellow} `berÃ¸rer [kant v]?`{.blocklightblue}` blokken og dra den til `definer ferdig`{.blockpurple} blokken.
 
     ```blocks
     definer ferdig
-	hvis <berører [kant v]?>
-				sett [kappløp v] til (0)
+	hvis <berÃ¸rer [kant v]?>
+				sett [kapplÃ¸p v] til (0)
                 spill lyden [Polly v]
                 si [Polly vinner! v] i (3) sekunder
 				send melding [avslutt v]
     
-    når [a v] trykkes 
-    hvis <(kappløp) = (1) og (rakett) = (0)>
+    nÃ¥r [a v] trykkes 
+    hvis <(kapplÃ¸p) = (1) og (rakett) = (0)>
 		skift til drakt [parrot-b v]
 		sett [rakett v] til (1)
-		gå (4) steg
+		gÃ¥ (4) steg
 		spill lyden [Rooster v]
     ```
 	
 Kan du dra `ferdig`{.blockpurple} blokken fra paletten og bruke den slik som andre kodebiter?
 
-Slett den andre `hvis`{.blockyellow}` berører [kant v]?`{.blocklightblue} blokken fra skriptet ditt og erstatt den med en `ferdig`{.blockpurple} blokk.
+Slett den andre `hvis`{.blockyellow}` berÃ¸rer [kant v]?`{.blocklightblue} blokken fra skriptet ditt og erstatt den med en `ferdig`{.blockpurple} blokk.
 
-Gjør dette koden din enklere å lese? Kan du lage en tilsvarende egendefinert blokk for løvinnen?
+GjÃ¸r dette koden din enklere Ã¥ lese? Kan du lage en tilsvarende egendefinert blokk for lÃ¸vinnen?
 
 ## Test prosjektet { .flag}
 
 ## Lagre prosjektet { .save}
 
-__Veldig bra! Nå er du ferdig og kan nye spillet du har laget!__
+__Veldig bra! NÃ¥ er du ferdig og kan nye spillet du har laget!__
