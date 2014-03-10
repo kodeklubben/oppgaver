@@ -1,7 +1,7 @@
 ---
 title: Flaksefugl
 level: Level 2
-language: en-GB
+language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 ...
@@ -18,9 +18,9 @@ Trykk på mellomromstasten for å flakse og prøv å styre mellom rørene!
 
 + Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke den og velge "Slett".
 + Bytt ut bakgrunnen med et utendørslandskap. **desert** er et bra valg.
-+ Legg til Flapppy-figuren. Du trenger en figur med drakter for vinger opp og vinger ned. **parrot** er et bra forslag.
++ Legg til Flakse-figuren. Du trenger en figur med drakter for vinger opp og vinger ned. **parrot** er et bra forslag.
 + Bytt navn på figuren til __Flakse__.
-+ Gi Flappy dette scriptet:
++ Gi Flakse dette scriptet:
 
 ```blocks
 når Grønt flagg klikkes
@@ -119,7 +119,7 @@ __Klikk det grønne flagget__: Flakser Flakse en gang for hver gang du trykker m
 ![screenshot](pipe_design.png)
  
 + Du kan skyggelegge røra ved å klikke på `Fyll farge` {.blockgrey} og klikke på en av skyggemetodene i firkantene nede til venstre. Velg to varianter av samme farge: en for forgrunnen og en for bakgrunnen. Når du klikker på en firkant med fylleverktøyet får du en fin effekt.
-+ Gi figuren navnet **Rør**.
++ Gi figuren navnet **rør**.
 
 ## Lagre prosjektet ditt { .save}
 
