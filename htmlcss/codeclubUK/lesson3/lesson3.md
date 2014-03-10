@@ -3,7 +3,7 @@ title: Forsvunnet katt webside
 level: Lesson 3
 language: nb_NO
 embeds: "*.png"
-materials: "kode og bilder"
+materials: "ressurser"
 stylesheet: web
 ...
 

@@ -3,7 +3,7 @@ title: Styling web pages
 level: Lesson 4
 language: nb_NO
 embeds: "*.png"
-materials: “kode og bilder”
+materials: “ressurser”
 stylesheet: web
 ...
 
