@@ -3,7 +3,7 @@ title: JafseFisk
 level: 1.5
 language: nb-NO
 stylesheet: scratch
-embeds: ["*.PNG", "../../bilder/*.png"]
+embeds: ["*.PNG", "*.png", "../../bilder/*.png"]
 ...
 
 #JafseFisk

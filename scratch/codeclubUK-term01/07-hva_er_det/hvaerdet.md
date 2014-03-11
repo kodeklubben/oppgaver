@@ -3,7 +3,7 @@ title: Hva er det?
 level: 1.7
 language: nb-NO
 stylesheet: scratch
-embeds: ["*.PNG", "../../bilder/*.png"]
+embeds: ["*.PNG", "*.png", "../../bilder/*.png"]
 ...
 
 # Introduksjon { .intro}

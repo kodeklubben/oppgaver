@@ -2,7 +2,7 @@
 title: Lag ditt eget spill
 level: 1.8
 language: nb-NO
-embeds: ["*.png", "../../bilder/*.png"]
+embeds: ["*.PNG", "*.png", "../../bilder/*.png"]
 stylesheet: scratch
 ...
 

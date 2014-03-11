@@ -3,7 +3,7 @@ title: Flaksefugl
 level: Level 2
 language: nb-NO
 stylesheet: scratch
-embeds: "*.png"
+embeds: ["*.PNG", "*.png", "../../bilder/*.png"]
 ...
 
 # Introduksjon { .intro}
