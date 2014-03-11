@@ -8,7 +8,7 @@ embeds: ["*.PNG", "../../bilder/*.png"]
 
 #JafseFisk
 
-#Introduksjon { .intro}
+# Introduksjon { .intro}
 Vi skal nå lage et JafseFisk-spill! Målet i spillet er å hjelpe JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 
 ![skjermbilde](jafsefisk.PNG)
