@@ -88,7 +88,7 @@ Stopper den når du setter pekeren over den uten å klikke?
 Stopper den når du klikker andre steder på scenen eller andre steder i Scratch?
 
 
-# Steg 4: Lag de andre figurene
+# Steg 4: Lag de andre figurene { .activity}
 
 ## Sjekkliste { .check}
 
