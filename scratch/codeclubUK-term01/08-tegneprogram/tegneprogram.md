@@ -9,7 +9,7 @@ stylesheet: scratch
 # Introduksjon { .intro}
 Dette prosjektet lager tegneprogram slik at du kan lage din egen kunst. Du kan tegne med forskjellige farger, bruke viskelær, lage stempler og mye mer!
 
-![skjermbilde](skjermbilde.png)
+![skjermbilde](skjermbilde.PNG)
 
 ## FORBEREDELSER: Last ned nødvendige ressurser.
 
