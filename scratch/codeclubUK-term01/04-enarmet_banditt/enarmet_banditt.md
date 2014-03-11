@@ -83,7 +83,7 @@ En måte å gjøre dette på er ved å bruke en variabel som setter statusen til
     Når grønt flagg klikkes
     sett [stoppet v] til (0)
     for alltid
-        if <(stoppet) = [0]> then	
+        hvis <(stoppet) = [0]>	
             neste drakt
 			vent (0.1) sekunder
     ```
@@ -144,7 +144,7 @@ slik at figuren skifter til en ulik drakt hver gang den forandres.
     sett [stoppet v] til (0)
 	bytt drakt til <tilfeldig tall fra (1) til (3)>
     for alltid
-        if <(stoppet) = [0]> then	
+        hvis <(stoppet) = [0]> then	
             bytt drakt til <tilfeldig tall fra (1) til (3)>
 			vent (0.1) sekunder
     ```
