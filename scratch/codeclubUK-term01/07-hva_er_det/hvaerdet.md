@@ -27,7 +27,7 @@ __Vi vil at noen forskjellige bilder skal komme opp på tavlen.__
 
     ```blocks
         når grønt flagg klikkes
-        gjenta <tilfeldig tall fra(1) til (5)> ganger
+        gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
 		slutt
     ```
@@ -57,11 +57,11 @@ Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom
     ```blocks	
 		når grønt flagg klikkes
 		skjul
-		gjenta <tilfeldig tall fra(1) til (5)> ganger
+		gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
         slutt
         sett [poeng v] til (110)
-        gjenta til ((poeng) = (0)
+        gjenta til ((poeng) = (0))
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
@@ -106,12 +106,12 @@ Først må vi å vite hva det rette svaret er.
     ```blocks
 		når grønt flagg klikkes
 		skjul
-		gjenta <tilfeldig tall fra(1) til (5)> ganger
+		gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
         slutt
 		sett [svar v] til (drakt #)
         sett [poeng v] til (110)
-        gjenta til ((poeng) = (0)
+        gjenta til ((poeng) = (0))
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
@@ -179,13 +179,13 @@ Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den
     ```blocks
 		når grønt flagg klikkes
 		skjul
-		gjenta <tilfeldig tall fra(1) til (5)> ganger
+		gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
         slutt
 		sett [svar v] til (drakt #)
         sett [poeng v] til (110)
 		sett [vant v] tuk (0)
-        gjenta til <<((poeng) = (0)> eller <(vant) = (1)>>
+        gjenta til (<(poeng) = (0)> eller <(vant) = (1)>)
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)

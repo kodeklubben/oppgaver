@@ -9,13 +9,13 @@ stylesheet: scratch
 # Introduksjon { .intro}
 Dette prosjektet lager tegneprogram slik at du kan lage din egen kunst. Du kan tegne med forskjellige farger, bruke viskelær, lage stempler og mye mer!
 
-![skjermbilde](skjermbilde.PNG)
+![skjermbilde](skjermbilde.png)
 
 ## FORBEREDELSER: Last ned nødvendige ressurser.
 
 Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Lag en ny tab i nettleseren din
 + Skriv inn denne nettadressen: http://bit.ly/Tegneutstyr
@@ -48,12 +48,10 @@ __Nå vil vi bruke denne pennefiguren som en ordentlig penn.__ Om du ser under p
 	når grønt flagg klikkes
 	for alltid
 		gå til [musepeker v]
-		hvis <museknappen er nede?>
+		hvis <(museknappen er nede?)>
 			penn på
 		ellers
 			penn av
-		(slutt hvis)
-	(slutt for alltid)
 ```
 ## Test prosjektet ditt
 __Klikk på det grønne flagget.__
@@ -68,12 +66,10 @@ Følger pennen musa rundt? Hva skjer om du holder museknappen nede og flytter p�
 	slett
 	for alltid
 		gå til [musepeker v]
-		hvis <museknappen er nede?>
+		hvis <(museknappen er nede?)>
 			penn på
 		ellers
 			penn av
-		(slutt hvis)
-	(slutt for alltid)
 ```
 
 ## Test prosjektet ditt
@@ -176,15 +172,12 @@ __NB__ For å få plass til alle sjekkene må du først leggge inn en `<> og <>`
 	når grønt flagg klikkes
 	slett
 	for alltid 
-		hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> pg <(mus y) < (170)>>>
+		hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
 			gå til [musepeker v]
-			hvis <museknappen er nede?>
+			hvis hvis <(museknappen er nede?)>
 				penn på
 			ellers
 				penn av
-			(slutt hvis)
-		(slutt hvis)
-	(slutt for alltid)
 ```
 + Siden vi ikke kan tegne utenfor tavla er det like greit at blyanten bare blir borte når
 musepekeren går utenfor tavlen. For å gjøre dette må vi erstatte `hvis`{.blockyellow}-blokka ovenfor med en
@@ -204,15 +197,12 @@ igjen når den går innenfor igjen. Pass derfor på at du får lagt inn en `vis`
 		hvis <<(mus x) > (-230)> og <(mus x) < (230)> og <(mus y) > (-120)> og <(mus y) < (170)>>
 			gå til [musepeker v]
 			vis
-			hvis <museknappen er nede?>
+			hvis <(museknappen er nede?)>
 				penn på
 			ellers
 				penn av
-			(slutt hvis)
 		ellers
 			skjul
-		(slutt hvis)
-	(slutt for alltid)
 ```
 
 ## Test prosjektet ditt
@@ -303,19 +293,15 @@ skal vi stemple, hvis ikke skal vi bruke den eksiterende __penn på__.
 		hvis <<(mus x) > (-230)> og <(mus x) < (230)> og <(mus y) > (-120)> og <(mus y) < (170)>>
 			gå til [musepeker v]
 			vis
-			hvis <museknappen er nede?>
+			hvis <(museknappen er nede?)>
 				hvis <(stempelmodus) = (av)>
 					penn på
 				ellers
 					stemple avtrykk
-				(slutt hvis)
 			ellers
 				penn av
-			(slutt hvis)
 		ellers
 			skjul
-		(slutt hvis)
-	(slutt for alltid)
 ```
 
 
@@ -441,6 +427,4 @@ blyanten?
 
 
 __Veldig, veldig bra! Nå kan du tegne akkurat det du vil!__
-
-
-Don’t forget you can share your game with all your friends and family by clicking on __Share__ on the menu bar!
+Ikke glem å del spillet ditt med venner og familie ved å trykke på __Legg ut__ i menyen!
