@@ -1,6 +1,6 @@
 ---
 title: Flaksefugl
-level: Level 2
+level: 1.11
 language: nb-NO
 stylesheet: scratch
 embeds: ["*.PNG", "*.png", "../../bilder/*.png"]
