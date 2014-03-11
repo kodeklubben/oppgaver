@@ -33,7 +33,7 @@ forholde seg til den: for eksempel hvor de skal stå, hvordan de skal bevege seg
 plass til, etc.
 
 
-# Steg 4: How does your game work? {.activity}
+# Steg 4: Hvordan virker spillet ditt? {.activity}
 
 * Hvordan får man poeng?
 * Hvordan vinner man spillet?
