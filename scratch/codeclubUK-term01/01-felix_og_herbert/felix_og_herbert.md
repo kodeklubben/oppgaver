@@ -21,7 +21,7 @@ Vi skal lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Du styr
 + Start et nytt prosjekt.
 + Trykk på `i`{.blockblue} i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til `Felix`.
 + Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte til ![Høyre/Venstre](rotasjonsmate-hv.png).
-+ Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen `Bakgrunner`{.blocklightgrey} og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg bakgrunnen `Utendørs/brick wall2`.
++ Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen `Bakgrunner`{.blocklightgrey} og trykk på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) for å importere en ferdig bakgrunn. Velg den bakgrunnen du vil.
 + Velg `Skript`{.blocklightgrey}-fanen og lag dette skriptet:
 
     ```blocks
@@ -160,7 +160,7 @@ __Klikk på det grønne flagget.__
             vent (1) sekunder
 
         når jeg mottar [Fanget! v]
-        endre [Poeng v] med (-100)
+        endre [Poeng v] med (-10)
     ```
 
 ## Test prosjektet { .flag}
@@ -168,8 +168,8 @@ __Klikk på det grønne flagget.__
 __Klikk på det grønne flagget.__
 
 + Øker poengsummen med en hvert sekund?
-+ Går poengsummen ned med hundre når Herbert blir fanget?
-+ Hva skjer når Herbert fanges før du har hundre poeng?
++ Går poengsummen ned med ti når Herbert blir fanget?
++ Hva skjer når Herbert fanges før du har ti poeng?
 + Går poengsummen tilbake til null når du starter spillet på nytt?
 
 ## Lagre prosjektet { .save}
