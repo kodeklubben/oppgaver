@@ -72,12 +72,12 @@ __Klikk på det grønne flagget, plaser musa over scenen og trykk mellomromstast
 
     ```blocks
         når grønt flagg klikkes
-	skjul
-	for alltid 
-		hvis <(museknappen er nede?)>
-			gå til x: (mus x) y: (-200)
-			vis
-			gli (1) sekunder til x: (mus x) y: (mus y)
+        skjul
+        for alltid 
+            hvis <(museknappen er nede?)>
+                gå til x: (mus x) y: (-200)
+                vis
+                gli (1) sekunder til x: (mus x) y: (mus y)
     ```
 
 ## Test prosjektet { .flag}
@@ -176,18 +176,18 @@ __Klikk på det grønne flagget.__
 + Endelig, gjør eksplosjonen større etter at raketten eksploderte! Istedenfor å vente i 1 sekund sett størrelsen til figuren til 5% før den vises, og så når den blir synlig øk størrelsen med 2 femti ganger ved bruk av klossen `gjenta`{.blockyellow}.  
 
     ```blocks
-	når jeg mottar [explode]
-	skjul
+        når jeg mottar [eksploder v]
+        skjul
         neste drakt	
-        sett [farge] effekt til (tilfeldig tall fra (1) til (200))
-	gå til x: ([x-posisjon] av [rocket]) y: ([y-posisjon] av [rocket])
-	sett størrelse til (5) %
-	vis
-	gjenta (20) ganger
-	    endre størrelse med (5)
-	slutt
-	vent (1) sekunder
-	skjul
+        sett [farge v] effekt til (tilfeldig tall fra (1) til (200))
+        gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
+        sett størrelse til (5) %
+        vis
+        gjenta (20) ganger
+            endre størrelse med (5)
+        slutt
+        vent (1) sekunder
+        skjul
     ```
 
 ## Test prosjektet { .flag}

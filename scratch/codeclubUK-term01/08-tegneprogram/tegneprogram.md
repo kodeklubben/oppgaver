@@ -1,42 +1,43 @@
 ---
 title: Tegneprogram
-level: Level 3
-language: bn-NO
+level: 1.8
+language: nb-NO
+embeds: ["*.png", "../../bilder/*.png"]
 stylesheet: scratch
-embeds: "*.png"
 ...
 
-__Introduksjon:__
+# Introduksjon { .intro}
 Dette prosjektet lager tegneprogram slik at du kan lage din egen kunst. Du kan tegne med forskjellige farger, bruke viskelær, lage stempler og mye mer!
 
-![screenshot](paintbox_screenshot.png)
+![skjermbilde](skjermbilde.png)
 
-##FORBEREDELSER: Last ned ustyr
+## FORBEREDELSER: Last ned nødvendige ressurser.
 
 Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Lag en ny tab i nettleseren din
-+ skriv inn denne nettadressen: http://bit.ly/Tegneutstyr
++ Skriv inn denne nettadressen: http://bit.ly/Tegneutstyr
 + Last ned zip-fila "Ressurser_Tegneprogram.zip" og legg det på skrivebordet på datamaskinen din eller en annen plass du husker.
-+ Pakk ut zip-filen ved å høyreklikke på den og velge "Extract All".
++ Pakk ut zip-filen ved å høyreklikke på den og velge "Extract All"/"Pakk ut filer".
 
-##STEG 1: Dra og tegn!
+## Steg 1: Dra og tegn!
 
 Vi starter med en penn som tegner når du drar den rundt på scenen.
 
 + Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke og velge slett.
-+ Klikk på __Scene__ og så på __Bakgrunner__-fliken. Last opp bakgrunnen som heter frame.bmp fra folderen du hentet i forberedelsene. 
++ Klikk på __Scene__ og så på __Bakgrunner__-fliken. Last opp bakgrunnen som heter frame.bmp fra folderen du hentet i forberedelsene.
 + Lag en figur som heter __penn__ av bildet __green-pencil__ som ligger i den nedlastede mappen.
-+ Bytt til __drakter__-fliken og velge hele figuren med velgeverktøyet. Flytt blyanten slik at spissen peker på det lille grå korset i midten. Da vil spissen tegne og ikke midten av blyanten.
++ Bytt til __drakter__-fliken og velge senterpunkt for figurer ved hjelp av ![Velg senterpunkt](velg_senterpunkt.png). Flytt blyanten slik at spissen peker på det lille grå korset i midten. Da vil spissen tegne og ikke midten av blyanten.
+![Velg senterpunkt](steg1.png)
 + Få pennen til å følge musa rundt på scenen ved å bruke __for alltid__-blokka og __gå til musepeker__-blokka.
 
 ```blocks
-Når grønt flagg klikkes
-for alltid
-	gå til musepeker
-slutt
+	når grønt flagg klikkes
+	for alltid
+		gå til musepeker
+	slutt
 ```
 
 __Nå vil vi bruke denne pennefiguren som en ordentlig penn.__ Om du ser under penn-kategorien kan du se alle slags tegefunksjoner. De vi er interessert i nå er __penn på__ og __penn av__
@@ -44,17 +45,15 @@ __Nå vil vi bruke denne pennefiguren som en ordentlig penn.__ Om du ser under p
 + Vi vil bruke museknappen til å kontrollere pennen - når museknappen er nede går pennen ned og når museknappen er oppe er pennen oppe. Vi kan gjøre dette ved å bruke enn hvis ... ellers ... og en mus nede-blokk
 
 ```scratch
-når grønt flagg klikkes
-for alltid
-	gå til musepeker
-	hvis museknappen er nede?
-	penn på
-	ellers
-	pen av
-	(slutt hvis)
-(slutt for alltid)
+	når grønt flagg klikkes
+	for alltid
+		gå til [musepeker v]
+		hvis <(museknappen er nede?)>
+			penn på
+		ellers
+			penn av
 ```
-##Test prosjektet ditt
+## Test prosjektet ditt
 __Klikk på det grønne flagget.__
 Følger pennen musa rundt? Hva skjer om du holder museknappen nede og flytter på musa? Ikke bry deg om pennefargen enda.
 
@@ -63,32 +62,30 @@ Følger pennen musa rundt? Hva skjer om du holder museknappen nede og flytter p�
 + Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke slett-blokka til å fjerne dette.
 
 ```blocks
-når grønt flagg klikkes
-slett
-for alltid
-	gå til musepeker
-	hvis museknappen er nede?
-	penn på
-	ellers
-	penn av
-	(slutt hvis)
-(slutt for alltid)
+	når grønt flagg klikkes
+	slett
+	for alltid
+		gå til [musepeker v]
+		hvis <(museknappen er nede?)>
+			penn på
+		ellers
+			penn av
 ```
 
-##Test prosjektet ditt
+## Test prosjektet ditt
 __Klikk på det grønne flagget.__
 
 Forsvinner tegningene dine når du klikker på det grønne flagget?
 
 ## Lagre prosjektet { .save}
 
-##STEG 2: Rydde opp
+## Steg 2: Rydde opp
 
 I stedet for å måtte starte og stoppe prosjektet for å slette tavla kan vi lage en knapp som sletter alt i stedet. Vi kan bruke slett-blokka.
 
 ## Sjekkliste { .check}
 
-+ Lag en ny figur fra ressursmappa du lasta ned i begynnelsen av prosjektet-. Velg __cancel button__ drakten.
++ Lag en ny figur fra ressursmappa du lasta ned i begynnelsen av prosjektet. Velg __cancel-button__.
 + Bytt navn på figuren til __slett__.
 + Flytt figuren til nederste høyre hjørne av scenen.
 + Gi slette-figuren dette skriptet:
@@ -98,220 +95,336 @@ I stedet for å måtte starte og stoppe prosjektet for å slette tavla kan vi la
 	slett
 ```
 
-##Test prosjektet ditt
+## Test prosjektet ditt
 __Klikk på det grønne flagget.__
 
 Sletter sletteknappen alle tegningene dine?
 
 ## Lagre prosjektet { .save}
 
-##STEG 3: Bytte farge
+## Steg 3: Bytte farge
 
 Til nå har vi bare kunnet tegne blå streker. Vi kan bruke andre farger også! Vi legger til noen figurer i bunn av rammen. Figurene vil se ut som fargede knapper. Når vi klikker på en knapp endres pennefagen til den fargen knappen har. For å vite at vi har byttet farge skal vi gjøre det slik at blyanten skifter farge til den fargen vi bruker.
 
-1. Hent en ny figur fra  __ressurser/red-selector__.
-2. Gi den navnet __Rød__ og flytt den ned i venstre hjørne
-3. Gi den et skript som sender meldingen __rød__.
+## Sjekkliste { .check}
+
++ Hent en ny figur fra  __ressurser/red-selector__.
++ Gi den navnet __Rød__ og flytt den ned i venstre hjørne
++ Gi den et skript som sender meldingen __rød__.
 
 ```scratch
-	når Rød klikkes
+	når denne figuren klikkes
 	send melding [rød v]
 ```
 __Dette er alt den gjør. Det vanskelige arbeidet gjøres av blyanten.__
 
-4. Klikk på blyanten og importer drakten __Ressurser/red-pencil__ .
-Sett midtpunktet til blyantspissen for denne drakten også.
++ Klikk på blyanten og importer drakten __Ressurser/red-pencil__ . Sett midtpunktet til blyantspissen for denne drakten også.
 
-5. Legg til et nytt skript. Når blyanten får meldingen __rød__, skal den også forandre
-drakt til rød (red-pencil). Og så skal den selvsagt også begynne å tegne rødt. Slik
-bygger du skriptet:
++ Legg til et nytt skript. Når blyanten får meldingen __rød__, skal den også forandre drakt til rød (red-pencil). Og så skal den selvsagt også begynne å tegne rødt. Slik bygger du skriptet:
 
 __Hint:__ Når du skal velge farge kan du flytte dråpeplukkeren bort til fargeblyanten og velge rødfargen derifra også.
 
 
 ```scratch
 	når jeg mottar [rød v]
-	skift til drakt [red-pencil v]
-	set pen color to (red)
+	bytt drakt til [red-pencil v]
+	velg pennefarge (#FF0000)
 ```
 
-##Test Your Project
-__Click on the green flag.__
+## Test prosjektet ditt
+__Klikk på det grønne flagget.__
 
-Start by drawing a line. Then click on the red selector sprite and draw some more. Does the pencil change costume? Does it now draw red? Does it draw from the tip of the red pencil?
+Begynn å tegne en strek. Bytt til rødt, og se om fargen forandres.
+Kommer streken fra blyantspissen nå også?
 
-SAVE YOUR PROJECT
+## Lagre prosjektet { .save}
 
-5. Repeat what you just did for the blue, yellow, and green selector sprites.
++ Gjenta punktene for å lage blå, gule og grønne knapper.
 
-##Test Your Project
-__Click on the green flag.__
+## Test prosjektet ditt
+__Klikk på det grønne flagget.__
 
-Do all the selector buttons work? Do they all change the pencil’s costume to the right colour? Do they all make the pencil draw in the right colour? Do all the costumes draw with the tip of the pencil?
+Funker alle knappene?
+Skifter de til en annen farge på blyanten?
+Tegner de med riktig farge?
+Tegner alle figurene fra tuppen av blyanten?
 
-SAVE YOUR PROJECT
+## Lagre prosjektet { .save}
 
-##STEP 4: Only drawing inside the border
+## Steg 4: Bare tegne på tavla
 
-You’ve probably noticed that you can draw all over the Stage, even in the border. We don’t want that to happen. We want to keep the drawing in the middle of the Stage. We can do this by making sure the pen isn’t allowed to leave the drawing area - the light grey part on the Stage.
+Du har sikkert lagt merke til at man kan tegne over hele scenen, og det blir jo litt rotete. Skal vi begrense skriblingen til bare den lysegrå tavla må vi sette grenser for hvor blyanten kan gå.
 
+Du husker kanskje at Scratch definerer punkter på scenen ved hjelp av en x- og en y-akse. Når du flytter musepekeren rundt omkring vil du se disse verdiene nede i det venstre hjørnet.
+For å finne ut hvor grensene for tavla går kan vi begynne nede i det venstre hjørnet. Da står det x: - 230 og y: 120. Flytter vi pekeren rett bort til det høyre hjørnet ser vi at y er uforandret, mens x har blitt til 230. Da vet vi at x-aksen er -230 til 230. y-aksen finner vi ved å flytte pekeren opp i toppen av tavla. Da finner vi ut at y-aksen er 170 til -120.
 
-Remember that Scratch defines points using x and y axis. Our drawing area lies between 230 and -230 on the x-axis and 170 and -120 on the y-axis. We can use these values in an __if__ block, making sure the mouse is inside this area before we move the pencil to it.
+Disse verdiene kan vi bruke in en `hvis`{.blockyellow}-blokk, og si at når musepekeren er utenfor tavlas x- og y-akse, så virker ikke blyanten
 
-To do this, wrap a new if block around your existing __go to... if__ block, and inside this new if check for the following:
+## Sjekkliste { .check}
 
-mouse y is greater than -120 and mouse y is less than 170
-and mouse x is greater than -230 and mouse x is less than 230
++ Fyll inn sjekkene som sier at __blyanten får følge musepekeren bare hvis__:
+y er større enn -120 og mindre enn 170
+x er større enn -230 og mindre enn 230
 
-__Note__ to do this you’ll need to use multiple __and__ operator blocks, one for the two mouse x conditions, one for the two mouse y conditions and a final one to join these all together:
+__NB__ For å få plass til alle sjekkene må du først leggge inn en `<> og <>`{.blockgreen}-blokk, og deretter legge til to nye `<> og <>`{.blockgreen}-blokker inni denne.
 
 ```scratch
-clear
-forever if mouse y is greater than -120 and mouse y is less than 170 and mouse x is greater than -230 and mouse x is less than 230
-go to mouse-pointer
+	når grønt flagg klikkes
+	slett
+	for alltid 
+		hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
+			gå til [musepeker v]
+			hvis hvis <(museknappen er nede?)>
+				penn på
+			ellers
+				penn av
 ```
++ Siden vi ikke kan tegne utenfor tavla er det like greit at blyanten bare blir borte når
+musepekeren går utenfor tavlen. For å gjøre dette må vi erstatte `hvis`{.blockyellow}-blokka ovenfor med en
+`hvis.. ellers..`{.blockyellow}-blokk. Reglene blir nå:
+hvis musepekeren er innenfor tavlas x- og y-akse følger blyanten pekeren. 
+ellers skjules blyanten.
 
-Since we can’t draw outside of the drawing area, we could hide the pencil tool whenever we leave it. To do this, replace the __if__ with an __if else__ block. Keep the same condition for the __if__, and __show__ the pencil if it’s true, otherwise hide it.
+__NB!__ Fordi blyanten vil skjules når pekeren går utenfor tavla, må vi få den til å vise
+igjen når den går innenfor igjen. Pass derfor på at du får lagt inn en `vis`{.blockblue}-kommando i
+`hvis`{.blockyellow}-blokka.
+
 
 ```scratch
-when FLAG clicked
-pen up
-clear
-forever
-	if mouse y is greater than -120 and mouse y is less than 170 and mouse x is greater than -230 and mouse x is less than 230
-		go to mouse-pointer
-		show
-		if mouse down?
-			pen down
-		else
-			pen up
-		(end if)
-	else
-		hide
-	(end if)
-(end forever)
+	når grønt flagg klikkes
+	slett
+	for alltid 
+		hvis <<(mus x) > (-230)> og <(mus x) < (230)> og <(mus y) > (-120)> og <(mus y) < (170)>>
+			gå til [musepeker v]
+			vis
+			hvis <(museknappen er nede?)>
+				penn på
+			ellers
+				penn av
+		ellers
+			skjul
 ```
 
-##Test Your Project
-__Click on the green flag.__
+## Test prosjektet ditt
+__Klikk på det grønne flagget.__
+Kan du fremdeles tegne på tavla? Kan du tegne utenfor tavla?
+Hva skjer med blyanten når musepekeren går ut og inn av tavla?
 
-Can you still draw inside the drawing area? Can you draw outside the drawing area? What happens to the pencil when you leave the drawing area and go back in?
+## Lagre prosjektet { .save}
 
-SAVE YOUR PROJECT
+## Steg 5: Viskelær
 
-##STEP 5: Eraser
+__Nå kan vi tegne hva vi vil. Men hva om vi trenger et viskelær? Hmm… da kan vi jo bare få
+blyanten til å tegne med samme farge som tavla! Og så gir vi blyanten en viskelærdrakt!__
 
-__Drawing lines is great, but there are times when you’ve made a mistake and you want to rub it out.__ We can do that with a new pencil tool that draws in grey (the same colour as the background).
+## Sjekkliste { .check}
 
-Add a new button-sprite to the Stage to select the eraser. Use the __resources/eraser__ costume for it, making it smaller to fit at the bottom of the Stage. It should work the same as the other colour-selection buttons, sending an eraser message.
++ Last opp en figur fra fil. Velg figuren __eraser__ fra mappen du lastet ned i starten. Kall figuren __viskelær__.
++ Gjør figuren litt mindre med krympeknappen ![Krymp](krymp.png), og så drar du den ned i høyre hjørne, ved siden av slett-knappen.
++ Gi viskelær-figuren et skript som sender meldingen __visk__.
 
-The pencil sprite should respond to the eraser message by switching the pen colour to grey (remember you can use the __picker__ to select the colour of the background). It will also need a new costume to represent the eraser tools: use the same __resources/eraser__ costume. __Remember to reset the costume’s centre.__
+```scratch
+	når denne figuren klikkes
+	send melding [visk v]
+```
 
-##Test Your Project
-__Click on the green flag.__
++ For å få blyanten til å viske må du legge til en viskelæret som en drakt til figuren. 
++ Blyanten svarer på __visk__ meldingen med å bytte pennefarge til grå (bruk fargevelgeren for å velge bakgrunnen til tavlen).
+Husk å sette midtpunktet på viskelæret foran.
 
-Does the eraser rub out lines? Does it work right up to the edges? Can you switch between eraser and pencil tools?
-
-SAVE YOUR PROJECT
-
-##STEP 6: Stamps
-
-The next thing to add is a stamp tool, to stamp small pictures on the drawing.
-Activity Checklist
-
-1. Add a new sprite, using whichever image or costume you want. Shrink the sprite down and place it at the bottom of the screen alongside the other tools. When this sprite is clicked, it should __broadcast stamp__
-2. Add a new costume for this pencil sprite, the same as the one you chose for the __stamp__ button.
-3. Select the pencil sprite and create a new variable __pencil mode__ for this sprite only. We’ll use this variable to keep track of whether or not we are drawing or stamping.
-4. Add a new script to respond to the stamp message. It needs to set the costume to the stamp and set the __pencil mode__ variable to __false__.
-5. Change the other scripts that respond to tool-selection messages (red, green, blue, and eraser) so that they each set the __pencil mode__ to __true__.
-6. Finally, lets check this variable __when the mouse button is down__ to see if we should be drawing or stamping. If pencil mode = true we should use the existing __pen down__, if not we should stamp instead. 
-
-##Test Your Project
-__Click on the green flag.__
-
-Does the stamp tool work correctly?
-
-What happens when you switch back to one of the normal pencil tools?
-
-SAVE YOUR PROJECT
-
-__Well done, you have completed the basic steps for this project.
-Try these challenges!__
-
-##Challenge 1: Rainbow pencil
-
-Let’s add a special pencil that paints in rainbow colours. It’s something that you can’t do with ordinary pens and pencils, so it’s nice to show off how drawing on a computer allows you do to different things. The secret to making it work is the change pen colour by block.
-
-First, add the rainbow tool selection sprite and the rainbow tool costume to the pencil sprite:
-
-1. Create a new tool selection sprite and place it at the bottom of the stage, alongside all the other pencil colour sprites. Use the resources/rainbow-selector costume and have it broadcast rainbow when clicked.
-2. Add the resources/rainbow-pencil costume to the pencil sprite.
-
-You need to build a script that will change the pen colour many times a second to give the rainbow effect (I found that changing it by 5 every 0.05 seconds works well, but you should try out different values). The timer Scratch card shows how you can make something change every so often. Use a change pen colour by 5 block instead of a change timer by -1 block inside the loop.
-
-You also need to control that loop so that it only changes the pen colour when you’ve selected the rainbow pencil, otherwise all the pencils will have a rainbow effect! You can do this in a very similar way to how the pencil sprite changes between pencil and stamp modes. You need to create a variable called rainbowChange that has the value true when you want the rainbow effect and false otherwise. Every time the pencil responds to a tool-selection message, it should set the value of rainbowChange accordingly.
-
-Use what you learnt from the stamp step above to control the rainbow effect. The scripts that respond to the tool-selection messages will set two variables each: pencilMode and rainbowChange.
-
-##Test Your Project
-__Click on the green flag.__
-
-Does the rainbow tool work correctly?
-
-What happens when you switch back to one of the normal pencil tools?
-
-SAVE YOUR PROJECT
-
-##Challenge 2: Keyboard shortcuts
-
-Rather than using the tool-selection sprites at the bottom of the stage, you can use the keyboard to select the different tools.
-You can use the when [] key pressed blocks to respond to the keyboard. For each key you want to use, you’ll need another when [] key pressed block, which sends the same message as the respective tool-selection sprite does when its clicked. Add these scripts to the stage.
-
-I used these shortcuts:
-* Clear all - a
-* Eraser - e
-* Red pencil -r 
-* Blue pencil - b
-* Yellow pencil - y
-* Green pencil - g
-* Rainbow pencil - w
-* Stamp - s
-
-##Test Your Project
-__Click on the green flag.__
-
-Do all the tools get selected with the correct keyboard shortcuts? Does each of the tools work correctly when you select it with keyboard? Are the correct tools still selected with the tool-selection sprites on the stage?
-
-SAVE YOUR PROJECT
-
-##Challenge 3: Big and Small
-Another feature that most drawing packages have is the ability to change the
-size of the pencil. Let’s add that.
-There’s one complication, though, which is that sometimes the resizing needs to change the pen size and sometimes it needs to change the pencil sprite’s costume size. It depends on whether you’re using a pencil or a stamp.
-
-Create two new tool-selection sprites, called bigger and smaller. They should have the resources/bigger-selector and resources/smaller-selector costumes and should send the bigger and smaller messages.
-
-The pencil sprite can respond to the messages by changing either the pen size by 1 or the costume size by 10, depending on the value of pencil mode (use an if-else block, similar to how the sprite chooses between putting the pen down or stamping)
-Don’t forget the keyboard shortcuts for the bigger and smaller tools. I used the up and down arrows.
-
-SAVE YOUR PROJECT
-
-What you should have noticed is that changing the size of the stamp also changes the size of the pencil on-screen when you change to that tool.
-To stop that, you need to set the size to 100% every time you change to a pencil tool. so that the tools look the right size.
-
-To make it even better, have the stamp remember what size it was before you selected the pencil and go back to that size when you select the stamp tool again. The easiest way to do that is to create a new variable called stampSize, that is updated with the current size every time the stamp is resized. When the stamp tool is selected, it can set its size from the contents of this variable.
-
-##Test Your Project
-__Click on the green flag.__
-
-Do the size controls work for the pencils?
-
-What happens if you switch to the stamp, change the size and then switch back to a pencil?
-
-SAVE YOUR PROJECT
+```scratch
+	når jeg mottar [visk v]
+	bytt drakt til [eraser v]
+	velg pennefarge (#606060)
+```
 
 
-__Well done you’ve finished, now you can enjoy the game!__
+## Test prosjektet ditt
+__Klikk på det grønne flagget.__
+
+Klarer viskelæret å viske? Fungerer det helt ut til kantene av tavla? 
+Går det greit å veksle mellom blyant og viskelær?
+
+## Lagre prosjektet { .save}
+
+## Steg 6: Stempel
+
+__Nå skal vi lage et stempel som kan lage små avtrykk på tavla.__
+
+## Sjekkliste { .check}
+
++ Legg til en ny figur med valgfri drakt og kall den stempel. Vi valgte Scratch-logoen fra __ting__-mappen.
+Krymp figuren og plasser den nederst på skjermen ved siden av de andre verktøyene.
+Når figuren klikkes skal den sende meldingen __stempel__.
++ Legg til en ny drakt for blyantfiguren. Det skal være samme drakt som du nettopp ga stempelet.
++ Velg blyanten og legg til en ny variabel som bare gjelder for denne figuren.
+Kall variabelen __stempelmodus__. 
+Fjern avhukingen foran variabelen slik at den ikke vises på scenen. 
+Oppgaven til denne variabelen er å holde styr på om vi skal tegne eller stemple.
++ Legg til et skript for blyanten som responderer på meldingen. 
+Skriptet skal skifte drakt til den samme drakten du valgte for stempelet. 
+Og så skal det sette verdien til __stempelmodus__ til på.
+
+```scratch
+	når jeg mottar [stempel v]
+	bytt drakt til [scratch logo v]
+	sett [stempelmodus v] til (på)
+```
+
++ Forandre de andre skriptene som er knyttet til fargevelgerne og viskelæret
+slik at de setter __stempelmodus__ til av. Eksempel (for viskelæret):
+
+```scratch
+	når jeg mottar [visk v]
+	bytt drakt til [eraser v]
+	velg pennefarge (#606060)
+	sett [stempelmodus v] til (av)
+```
+
++ Til slutt må vi sjekke variabelen __hvis museknappen er nede?__ 
+for å se om vi skal tegne eller stemple. Hvis stempelmodus er satt til på
+skal vi stemple, hvis ikke skal vi bruke den eksiterende __penn på__.
+ 
+
+```scratch
+	når grønt flagg klikkes
+	slett
+	for alltid 
+		hvis <<(mus x) > (-230)> og <(mus x) < (230)> og <(mus y) > (-120)> og <(mus y) < (170)>>
+			gå til [musepeker v]
+			vis
+			hvis <(museknappen er nede?)>
+				hvis <(stempelmodus) = (av)>
+					penn på
+				ellers
+					stemple avtrykk
+			ellers
+				penn av
+		ellers
+			skjul
+```
 
 
-Don’t forget you can share your game with all your friends and family by clicking on __Share__ on the menu bar!
+## Test prosjektet ditt
+__Klikk på det grønne flagget.__
+
+Klarer du å lage avtrykk?
+Hva skjer når du skifter tilbake til en av blyantene?
+
+
+## Lagre prosjektet { .save}
+
+__Veldig bra jobba! Du er nå ferdig med programmet.
+Prøv disse utfordringene!__
+
+## Utfordring 1: Regnbueblyant { .challenge}
+
+I denne utfordringen skal du legge til en blyant som kan forandrer farge mens du tegner.
+Kult, ikke sant?
+
+## Sjekkliste { .check}
+
+Først må du legge til regnbue-valget og regnbue-kostymen:
+
++ Legg til regnbue-selektoren som figur. Du finner den i mappen du lastet ned i starten (velg __rainbow-selector.gif__).
+Sett den ved siden av de andre selektorene nederst til venstre.
+Figuren skal sende meldingen __regnbue__ når den klikkes.
++ Legg til en regnbue-blyanten (__rainbow-pencil.png) som en ny drakt til blyanten.
+Husk å justere midtpunktet.
+
++ Nå må du lage et skript som får blyantfargen til å skifte mange ganger i sekundet. 
+(Vi fant ut at å endre den med 5 hvert 0.05 sekunder fungerer fint, men du bør prøve ut egne verdier).
+
+__Hint:__ Scratch-kortet Timer/Tid viser hvordan du kan få noe til å forandre seg med
+jevne mellomrom. Men i vårt tilfelle er det pennfarge, og ikke tid, som skal forandres.
+
+Denne blokken må legges inn i en løkke. Men du trenger også noe å kontrollere
+løkken med, så den bare endrer farge når regnbueblyanten er valgt.
+
+__Hint:__ Du kan gjøre dette på en måte som ligner på hvordan stempelmodus styrte når
+stempelet skulle skrus av og på. Prøv å lage en variabel som du kaller
+regnbuemodus. La denne skrus på når regnbueblyanten klikkes, og av når de andre
+velges.
+
+
+## Test prosjektet ditt
+__Klikk på det grønne flagget.__
+
+Virker regnbueblyanten?
+Hva skjer når du skifter tilbake til en av de andre blyantene?
+
+## Lagre prosjektet { .save}
+
+## Utfordring 1: Snarveier { .challenge}
+
+Nå skal du få prøve å deg på å lage snarveier på tastaturet. Det betyr at man istedenfor å
+klikke på knappene kan bruke tastene for å bytte farge, stemple eller viske ut.
+Du kan bruke `hvis`{.blockyellow}` tast [] trykkes`{.blocklightblue} for å benytte tastaturet.
+For hver tast du legger til trenger du en ny `hvis`{.blockyellow}` tast [] trykkes`{.blocklightblue}-blokk 
+som sender samme meldingene som verktøy-valgene gjør når de klikkes. Legg til skriptene til scenen.
+
+Vi brukte disse snarveiene:
+* Slett alt - a
+* Visk - v
+* Rød blyant - r 
+* Blå blyant - b
+* Gul blyant - y
+* Grønn blyant - g
+* Regnbue blyant - w
+* Stempel - s
+
+## Test prosjektet ditt
+__Klikk på det grønne flagget.__
+
+Virker alle snarveiene? 
+Virker knappene fremdeles også?
+
+## Lagre prosjektet { .save}
+
+## Utfordring 1: Større og mindre { .challenge}
+
+En annen funksjon som tegneprogrammer gjerne har er å forandre størrelsen på
+blyantstreken. Prøv å se om du får til dette.
+Det er en ting som gjør dette vanskelig. Noen ganger trenger vi å endre
+størrelsen på pennen og noen ganger trenger vi å forandre størrelsen på drakten.
+Det er avhengig av om du bruker blyanten eller stemplet. 
+
++ Lag to nye figurer ved å importere bigger-selector og smaller-selctor fra mappen med ressurser.
+Kall figurene __større__ og __mindre__.
++ La figurene sende ut meldingene __større__ og __mindre__.
++ Blyanten kan svare på meldingen ved å enten forandre pennestørrelsen med 1
+eller kostymestørrelsen med 10, avhengig av verdien på __stempelmodus__.
+
+__Hint:__ Du kan bruke en av endre-blokkene under Penn eller Utseende. For å forminske
+setter du bare et minustegn foran tallet.
+
+__Hint 2:__ For å holde styr på om det er blyantstørrelse eller stempel som skal endres må
+du bruke en `hvis-ellers`{.blockyellow}-blokk
+
++ Glem ikke å lage snarveier for disse funksjonene også. For eksempel pil opp for
+større og pil ned for mindre.
+
+
++ Har du lagt merke til at også blyantfiguren blir større når du forstørrer stempelet?
+For å unngå dette kan vi sette størrelsen til 100% hver gang blyant klikkes.
+
++ For å gjøre det enda mer avansert kan du få stempelet til å huske størrelsen sin fra
+gang til gang. Den enkleste måten å gjøre dette på er å opprette en variabel som du
+kaller __stempelstørrelse__. Denne må oppdateres for hver gang størrelsen på stempelet
+endres. Når man skifter fra blyant til stempel, bestemmes så størrelsen fra denne
+variabelen.
+
+
+## Test prosjektet ditt
+__Klikk på det grønne flagget.__
+
+Fungerer forstørrelsesknappen? Fungerer forminskingsknappen? 
+Hva skjer om du bytter til stempelet, endrer størrelsen og så forandrer tilbake til
+blyanten?
+
+
+## Lagre prosjektet { .save}
+
+
+__Veldig, veldig bra! Nå kan du tegne akkurat det du vil!__
+Ikke glem å del spillet ditt med venner og familie ved å trykke på __Legg ut__ i menyen!

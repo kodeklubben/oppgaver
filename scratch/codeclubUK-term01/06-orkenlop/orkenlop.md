@@ -2,6 +2,7 @@
 title: Ørkenløp
 level: 1.6
 language: nb-NO
+stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 ...
 
@@ -122,7 +123,7 @@ __Nå vil vi vite hvem som vinner kappløpet, og i tillegg gjøre klart for en n
     når [a v] trykkes
     hvis <(kappløp) = [1]>
         gå (4) steg
-        hvis <berører [kant v]?>
+        hvis (berører [kant v]?)
 			sett [kappløp v] til (0)
     ```
 + Spill så inn en lyd som skal avspilles hvis papegøyen vinner.
@@ -133,7 +134,7 @@ Trykk på Lyder-fanen og deretter mikrofon-ikonet og spill inn en morsom trudelu
 	    når [a v] trykkes
 		hvis <(kappløp) = [1]>
 			gå (4) steg
-			hvis <berører [kant v]?>
+			hvis (berører [kant v]?)
 				sett [kappløp v] til (0)
                 spill lyden [Polly v]
                 si [Polly vinner! v] i (3) sekunder  
@@ -162,7 +163,7 @@ __Når kappløpet er over må vi fortelle de andre figurene at spillet er over o
 	når [a v] trykkes
 	hvis <(kappløp) = [1]>
 		gå (4) steg
-		hvis <berører [kant v]?>
+		hvis (berører [kant v]?)
 			sett [kappløp v] til (0)
 			spill lyden [Polly v]
 			si [Polly vinner! v] i (3) sekunder
@@ -180,7 +181,7 @@ __Når kappløpet er over må vi fortelle de andre figurene at spillet er over o
 + For at figurene skal stå på startstreken når kappløpet starter den aller første gangen må vi også legge til følgende blokk til begge figurene: 
 
     ```blocks
-    når flagg klikkes
+    når grønt flagg klikkes
         sett x til (-170)
     ```
 	
@@ -215,7 +216,7 @@ ved å trykke L.
 			sett [rakett v] til (1)
 			gå (4) steg
 			spill lyden [Rooster v]
-			hvis <berører [kant v]?>
+			hvis (berører [kant v]?)
 				sett [kappløp v] til (0)
                 spill lyden [Polly v]
                 si [Polly vinner! v] i (3) sekunder
@@ -239,14 +240,14 @@ Vi kan forenkle skriptet vårt ved å bruke en egendefinert blokk. Dette er en s
 
     ```blocks
     definer ferdig
-	hvis <berører [kant v]?>
+	hvis (berører [kant v]?)
 				sett [kappløp v] til (0)
                 spill lyden [Polly v]
                 si [Polly vinner! v] i (3) sekunder
 				send melding [avslutt v]
     
     når [a v] trykkes 
-    hvis <(kappløp) = (1) og (rakett) = (0)>
+    hvis <<(kappløp) = (1)> og <(rakett) = (0)>>
 		skift til drakt [parrot-b v]
 		sett [rakett v] til (1)
 		gå (4) steg

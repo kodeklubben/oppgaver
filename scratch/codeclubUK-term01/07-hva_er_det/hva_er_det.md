@@ -2,6 +2,7 @@
 title: Hva er det?
 level: 1.7
 language: nb-NO
+stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 ...
 
@@ -10,7 +11,7 @@ embeds: ["*.png", "../../bilder/*.png"]
 Et bilde av en tilfeldig ting vises på tavlen. Men bildet er forvrengt, slik at du må gjette hva det er ved å klikke på et av alternativene som vises under. Desto raskere du gjetter riktig, desto flere poeng får du.
 
 
-![skjermbilde](hvaerdet.png)
+![skjermbilde](hva_er_det.png)
 
 #Steg 1: Få flere ting til å vise seg på tavlen { .activity}
 __Vi vil at noen forskjellige bilder skal komme opp på tavlen.__
@@ -26,7 +27,7 @@ __Vi vil at noen forskjellige bilder skal komme opp på tavlen.__
 
     ```blocks
         når grønt flagg klikkes
-        gjenta <tilfeldig tall fra(1) til (5)> ganger
+        gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
 		slutt
     ```
@@ -56,11 +57,11 @@ Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom
     ```blocks	
 		når grønt flagg klikkes
 		skjul
-		gjenta <tilfeldig tall fra(1) til (5)> ganger
+		gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
         slutt
         sett [poeng v] til (110)
-        gjenta til ((poeng) = (0)
+        gjenta til ((poeng) = (0))
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
@@ -105,12 +106,12 @@ Først må vi å vite hva det rette svaret er.
     ```blocks
 		når grønt flagg klikkes
 		skjul
-		gjenta <tilfeldig tall fra(1) til (5)> ganger
+		gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
         slutt
 		sett [svar v] til (drakt #)
         sett [poeng v] til (110)
-        gjenta til ((poeng) = (0)
+        gjenta til ((poeng) = (0))
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
@@ -170,7 +171,7 @@ For det andre, poengsummen fortsetter å gå ned, selv når man har klikket på 
         vis
     ```
 
-For å fikse det andre problemet må vi få stoppet __spørsmålfigurens__’s `gjenta til`{.blockyellow}-løkke, når spilleren klikker på riktig svar. Vi kan bruke en ny variabel for å gjøre det. 
+For å fikse det andre problemet må vi få stoppet __spørsmålfigurens__s `gjenta til`{.blockyellow}-løkke, når spilleren klikker på riktig svar. Vi kan bruke en ny variabel for å gjøre det. 
 Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den verdien 0 når spillet starter, og en annen som setter verdien til 1 når spillet vinnes. Se skript under.
 + I tillegg må vi stoppe `gjenta til`{.blockyellow}-løkken når poengsummen har blitt 0 eller vant er 1. 
 + Til slutt legger vi også inn en `ta bort grafiske effekter`{.blockpurple}-blokk som avslører spørsmålsfiguren, når spilleren har gjettet riktig. Skriptet skal nå se slik ut:
@@ -178,13 +179,13 @@ Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den
     ```blocks
 		når grønt flagg klikkes
 		skjul
-		gjenta <tilfeldig tall fra(1) til (5)> ganger
+		gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
         slutt
 		sett [svar v] til (drakt #)
         sett [poeng v] til (110)
 		sett [vant v] tuk (0)
-        gjenta til <<((poeng) = (0)> eller <(vant) = (1)>>
+        gjenta til (<(poeng) = (0)> eller <(vant) = (1)>)
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)

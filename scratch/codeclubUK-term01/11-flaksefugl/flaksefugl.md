@@ -1,9 +1,9 @@
 ---
 title: Flaksefugl
-level: Level 2
+level: 1.11
 language: nb-NO
 stylesheet: scratch
-embeds: "*.png"
+embeds: ["*.png", "../../bilder/*.png"]
 ...
 
 # Introduksjon { .intro}
@@ -77,7 +77,7 @@ når grønt flagg klikkes
 	sett [flaks] til [0]
 	bytt drakt til [Vinger opp]
 	for alltid
-		gjenta til <(flaks) = [0]>
+		gjenta til ((flaks) = [0])
 			endre [flaks] med (-1)
 			bytt drakt til [Vinger ned]
 			gjenta (10) ganger
@@ -259,7 +259,7 @@ når grønt flagg klikkes
 	sett [flaks] til [0]
 	bytt drakt til [vinger opp]
 	for alltid
-		gjenta til <(flaks) = [0]>
+		gjenta til ((flaks) = [0])
 			endre [flaks] med (-1)
 			bytt drakt til [vinger ned]
 			endre [løft] med (8)
@@ -286,7 +286,7 @@ når jeg mottar [Fall]
 		vend høyre (5) grader
 
 når jeg mottar [Fall]
-	gjenta til <(y posisjon) < [-180]>
+	gjenta til ((y-posisjon) < [-180])
 		endre y med (løft)
 		endre [løft] med (-0.4)
 	slutt
