@@ -142,7 +142,7 @@ __Klikk på det grønne flagget.__
 
 # Steg 5: Telle poeng { .activity}
 
-*La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde Herbert i live. Vi begynner med poengsummen null og øker den med en for hvert sekund. Hvis Felix fanger Herbert, minker vi poengsummen med hundre.*
+*La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde Herbert i live. Vi begynner med poengsummen null og øker den med en for hvert sekund. Hvis Felix fanger Herbert, minker vi poengsummen med ti.*
 
 ## Sjekkliste { .check}
 
