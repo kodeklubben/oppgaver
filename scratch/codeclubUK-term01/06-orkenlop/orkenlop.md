@@ -31,7 +31,8 @@ Vi vil at figurene skal bevege seg når du trykker på en knapp.
 ## Sjekkliste { .check}
 
 + Velg først løvefiguren og få den til å `gå (4) steg`{.blockblue} når du trykker __L__ tasten.
-    ```blocks
+    
+	```blocks
     når [l v] trykkes
     gå (4) steg
     ```
@@ -211,8 +212,8 @@ ved å trykke L.
 
     ```blocks
 	når [a v] trykkes
-		hvis <(kappløp) = (1) og (rakett) = (0)> 
-			skift til drakt [parrot-b v]
+		hvis <((kappløp) = (1)) og ((rakett) = (0))> 
+			bytt drakt til [parrot-b v]
 			sett [rakett v] til (1)
 			gå (4) steg
 			spill lyden [Rooster v]
@@ -248,7 +249,7 @@ Vi kan forenkle skriptet vårt ved å bruke en egendefinert blokk. Dette er en s
     
     når [a v] trykkes 
     hvis <<(kappløp) = (1)> og <(rakett) = (0)>>
-		skift til drakt [parrot-b v]
+		bytt drakt til [parrot-b v]
 		sett [rakett v] til (1)
 		gå (4) steg
 		spill lyden [Rooster v]

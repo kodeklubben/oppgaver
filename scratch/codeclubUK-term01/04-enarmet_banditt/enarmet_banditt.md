@@ -178,7 +178,7 @@ Hver gang du endrer noe, tenk på om det vil gjøre spillet lettere eller vanske
 eller for vanskelig? Hvordan kan du justere det slik at det blir akkurat passe?
 
 
-## Steg 6: Vis en melding når spillet er over { .activity}
+# Steg 6: Vis en melding når spillet er over { .activity}
 __La oss vise en "Game Over" melding når spillet er over__
 
 ## Sjekkliste { .check}
