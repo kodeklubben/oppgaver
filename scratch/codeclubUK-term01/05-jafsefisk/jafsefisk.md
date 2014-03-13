@@ -72,7 +72,7 @@ __Det er på tide å gi JafseFisk noe å spise!__
     når grønt flagg klikkes
     for alltid		
 		gå (2) steg
-		vend til høyre (tilfeldig tall fra (-20) to (20)) grader
+		vend høyre (tilfeldig tall fra (-20) til (20)) grader
 		sprett tilbake ved kanten  
     ```
 
@@ -104,7 +104,7 @@ __Nå skal vi la JafseFisk spise byttet!__ Når den har fanget byttet i munnen s
     når grønt flagg klikkes
     for alltid		
 		gå (2) steg
-		vend til høyre (tilfeldig tall fra (-20) to (20)) grader
+		vend høyre (tilfeldig tall fra (-20) til (20)) grader
 		sprett tilbake ved kanten
 		hvis <berører [JafseFisk v]?>
 			skjul
@@ -123,12 +123,12 @@ __Prøv spillet ditt igjen. Ser du noen problemer?__ ? Legg merke til at byttet 
     når grønt flagg klikkes
     for alltid
 		gå (2) steg
-		vend til høyre (tilfeldig tall fra (-20) to (20)) grader
+		vend høyre (tilfeldig tall fra (-20) til (20)) grader
 		sprett tilbake ved kanten
 		hvis <berører fargen [#FFFFFF]?>
 			skjul
 			vent (3) sekunder
-			gå til x:(tilfeldig tall fra (-200) til (220)) y: (tilfeldig tall fra (-170) til 170))
+			gå til x:(tilfeldig tall fra (-200) til (220)) y: (tilfeldig tall fra (-170) til (170))
 			vis
     ```
     
@@ -142,13 +142,13 @@ Prøv spillet igjen. Forsvinner byttet bare når det berører fiskens tenner? Og
 	når grønt flagg klikkes
     for alltid
 		gå (2) steg
-		vend til høyre (tilfeldig tall fra (-20) to (20)) grader
+		vend høyre (tilfeldig tall fra (-20) til (20)) grader
 		sprett tilbake ved kanten
 		hvis <berører fargen [#FFFFFF]?>
 			send melding [Du tok meg!]
 			skjul
 			vent (3) sekunder
-			gå til x:(tilfeldig tall fra (-200) til (220)) y: (tilfeldig tall fra (-170) til 170))
+			gå til x:(tilfeldig tall fra (-200) til (220)) y: (tilfeldig tall fra (-170) til (170))
 			vis
     ```
     __Nå vil vi at fiskens respons på denne meldingen er å lage en gomlelyd og klikke med kjevene.__
