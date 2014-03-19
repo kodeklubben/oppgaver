@@ -4,6 +4,7 @@ level: 1.2
 language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
+note: "README.md"
 ...
 
 # Introduksjon {.intro}
