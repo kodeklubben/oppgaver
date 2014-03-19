@@ -1,0 +1,14 @@
+{
+    "id":          "scratch",
+    "title":       "Enkle introduksjonsoppgaver til Scratch",
+    "description": "Lær programmering med Scratch",
+    "language":    "nb-NO",
+    "number":      1,
+
+    "projects": [
+        {
+            "filename": "labyrint/labyrint.md",
+            "number": 1
+        }]
+}
+
