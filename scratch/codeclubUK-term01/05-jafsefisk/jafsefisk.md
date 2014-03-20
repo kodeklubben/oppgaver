@@ -4,6 +4,7 @@ level: 1.5
 language: nb-NO
 stylesheet: scratch
 embeds: ["*.PNG", "*.png", "../../bilder/*.png"]
+materials: "ressurser/*"
 ...
 
 #JafseFisk
