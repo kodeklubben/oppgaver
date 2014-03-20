@@ -7,53 +7,53 @@
 
     "projects": [
         {
-            "number": 1
+            "number": 1,
             "filename": "01-felix_og_herbert/felix_og_herbert.md",
             "note": "01-felix_og_herbert/notater-for-veiledere.md"
         },
         {
-            "number": 2
+            "number": 2,
             "filename": "02-spokelsesjakten/spokelsesjakten.md",
             "note": "02-spokelsesjakten/notater-for-veiledere.md"
         },
         {
-            "number": 3
+            "number": 3,
             "filename": "03-fyrverkeri/fyrverkeri.md",
             "note": "03-fyrverkeri/notater-for-veiledere.md"
         },
         {
-            "number": 4
+            "number": 4,
             "filename": "04-enarmet_banditt/enarmet_banditt.md",
             "note": "04-enarmet_banditt/notater-for-veiledere.md"
         },
         {
-            "number": 5
+            "number": 5,
             "filename": "05-jafsefisk/jafsefisk.md",
             "note": "05-jafsefisk/notater-for-veiledere.md"
         },
         {
-            "number": 6
+            "number": 6,
             "filename": "06-orkenlop/orkenlop.md",
             "note": "06-orkenlop/notater-for-veiledere.md"
         },
         {
-            "number": 7
+            "number": 7,
             "filename": "07-hva_er_det/hvaerdet.md",
             "note": "07-hva_er_det/notater-for-veiledere.md"
         },
         {
-            "number": 8
+            "number": 8,
             "filename": "08-tegneprogram/tegneprogram.md",
             "note": "08-tegneprogram/notater-for-veiledere.md"
         },
         {
-            "number": 9
+            "number": 9,
             "filename": "09-lag-ditt-eget-spill/lag_ditt_eget_spill.md",
             "note": "09-lag-ditt-eget-spill/notater-for-veiledere.md"
         },
         {
-            "number": 11
-            "filename": "11-flaksefugl/flaksefugl.md",
+            "number": 11,
+            "filename": "11-flaksefugl/flaksefugl.md"
         }]
 }
 
