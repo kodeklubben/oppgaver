@@ -1,43 +1,39 @@
 ---
-title: Paint Box â€” Notes for Club Leaders           
-language: en-GB
+title: Tegneprogram — Notater for veiledere
+language: nb-NO
 embeds: "*.png"
 ...
 
-#Introduction
+# Introduksjon {.intro}
+Denne gangen skal vi laget et enkelt tegneprogram. Man kan tegne linjer når musen dras over skjermen. Man kan bytte linjefargen og tømme skjermen.
 
-The project creates a basic drawing tool. It draws a line as you move your mouse over the screen. You can change the colour of the line and clear the screen.
+# Ferdigheter
+* Flytte figurer
+* Tegne med pennen
+* Sende og lytte på hendelser
+* Endre drakter
+* Sette begrensninger
+* Lage og bruke boolske utrykk
 
-#Skills
+# Ressurser
+Dette prosjektet bruker egen ressurser. Disse er tilgjengelig på nettstedet. Sørg for at disse finnes på skrivebordet til hver av barna.
 
-This project covers
+# Øvelser
+* Steg 1: Dra og tegn
+* Steg 2: Tømme områder
+* Steg 3: Endre farge
+* Steg 4: Tegne innenfor en grense
+* Steg 5: Viskelær
+* Steg 6: Stempel
 
-* Moving sprites
-* Drawing with the pen
-* Broadcasting and listening for events
-* Changing costumes
-* Setting constraints
-* Constructing and using Boolean expressions
+# Utfordringer
+1. Regnbueblyant
+2. Tastatursnarveier
+3. Stor og liten
 
-#Resources
+# Verdt å merke seg
 
-This project uses resources found in this project folder. Make sure this folder is on the desktop of each computer your children are using so they can access it.
-
-#Basic exercises
-* Step 1: Drag and draw
-* Step 2: Clearing up
-* Step 3: Changing colour
-* Step 4: Only drawing inside the border Step 5: Eraser
-* Step 6: Stamps
-
-#Challenges
-
-1. Rainbow pencil
-2. Keyboard shortcuts 3. Big and small
-
-#Some things to be aware of
-
-Some people have reported that they had an issue with getting the pen to draw a consistent line. This is because when the stage is not full screen, the act of clicking on a sprite and dragging is captured by the Scratch environment because it assumes you are trying to move the sprite, so the events are not handled by your code correctly. (If this is the problem you were seeing, you'll find that running the paintbox in full screen makes the problem go away).
-The solution? When you edit the pencil sprite and 'Set costume center' in step 1, make sure you set the center to be a transparent pixel (i.e. a point just left and down from the tip of the pencil). By doing this, when your code moves the sprite to the cursor's position, the mouse drag won't get captured by the Scratch environment.
+Noen har rapportert at de har hatt problemer med å få pennen til å linje. Hvis man ikke er i fullskjermmodus og man trykker eller flytter på en figur vil Scratch-utviklingsmijøet oppdage dette og anta du vil flyttet på figuren. Koden får da ikke de riktig beskjedene og programmet oppfører seg ikke som forventet. (Hvis du har problemer med dette kan du kjøre i fullskjermmodus og problemet skal forsvinne).
+Løsning? Når du redigerer blyant figuren og 'Set costume center' i steg 1, sørg for at senter blir satt til en gjennomsikit pixel (f. eks et punlt rett til venstre og ned fra spissen av blyanten). Ved å gjøre dette vil ikke Scratch påvirke koden.
 
 

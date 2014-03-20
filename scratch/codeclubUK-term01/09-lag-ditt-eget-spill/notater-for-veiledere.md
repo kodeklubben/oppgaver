@@ -1,32 +1,25 @@
 ---
-title: Make Your Own Game â€” Notes for Club Leaders           
-language: en-GB
+title: Lag ditt eget spill — Notater for veiledere
+language: nb-NO
 embeds: "*.png"
 ...
 
-#NOTES FOR CLUB LEADERS
-(Make Your Own Game)
+# Introduksjon {.intro}
+I dette prosjektet skal du designe og laget et spill som du og venne dine kan spille. Du må tenke på de ulike delene av spillet og planlegge hvordan ideene skal realiseres før du lager det i Scratch. Du kan bruke ideer fra tidligere prosjekter og Scratchkortene kan være til god hjelp.
 
-#Introduction:
-
-In this project you will design and create a game for you and your friends
-to play! You will need to think about its different parts and plan your ideas before you begin making it on Scratch. You can use ideas from past projects and Scratch cards to help you.
-
-#Skills
-This project covers 
-
+# Ferdigheter
 * Design
-* Planning
-* Bug fixing
+* Planlegging
+* Feilretting
 
-#Resources
+# Ressurser
+Barna skal lage sine egne ressurser for dette prosjektet, inkludert karakterer, bakgrunn og lyder. Ha gjerne klart ekstra papir i tilfelle de trenger det. Sørg for å ha penner og blyanter som de kan tegne med. Du må tenke over hvor mange sessjoner barna skal bruke på dette prosjektet. Design og planlegging kan ta en hel sessjon eller to. Planlegg dette før dere starter og informer barna hvor lang tid de har til rådighet.
 
-The children will be designing their own resources for this project including characters, stage and sound design. Have extra paper ready for the children in case they need it. Make sure there are pens and pencils available to draw with. You will need to have a think about how many sessions the children will do this project over. The design and planning stage could take them a whole session or even two. Plan it before you start then inform the children how long they have.
+# Øvelser
+* Steg 1: Planlegg spillet
+* Steg 2: Design karakterer
+* Steg 3: Design bakgrunn
+* Steg 4: Hvordan virker spillet?
+* Steg 5: Bygg og lag spillet
 
-#Basic exercises
-* Step 1: Planning your game
-* Step 2: Design your characters
-* Step 3: Design your stage
-* Step 4: How does your game work? 
-* Step 5: Building your game
 

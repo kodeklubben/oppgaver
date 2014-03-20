@@ -1,39 +1,35 @@
 ---
-title: Desert Race â€” Notes for Club Leaders                  
-language: en-GB
+title: Ørkenløp — Notater for veiledere
+language: nb-NO
 embeds: "*.png"
 ...
 
-#Introduction
+# Introduksjon {.intro}
+Dette er et spill for to spillere hvor en papegøye og en løve konkurrerer om å krysse ørkenen. Hver spill trykker på en task så raskt hun kan for å bevege sitt dyr. Første person som når kanten av skjermen vinner.
 
-This game is a two player game where you race a parrot and a lion across the desert. Each player has to press a key as fast as they can to move their animal, the first one to reach the edge of the screen wins.
+# Ferdigheter
+* Hendelser
+* Variabler
+* Animasjon
+* Spille lyder
+* Betingede uttrykk
+* Endre ressurser
+* Bruke egne klosser
 
-#Skills
-This project covers: 
+# Ressurser
+Prosjektet bruker bilder og drakter fra Scratchbibliotektet i tillegg til egnenlagde ressurser basert på eksisterende.
 
-* Events
-* Variables
-* Animation
-* Playing Sounds
-* Conditional statements 
-* Modifying resources
-* Using custom blocks
-
-#Resources
-This project uses resources found in the scratch backgrounds and costumes folders as well as a user created resource based on a scratch resource.
-
-#Scratch Cards
+# Aktuelle Scratchkort
 Say Something
 
-#Basic Exercises
+# Øvelser
+* Steg 1: Lag scenen og legg til figurer
+* Steg 2: Få figurene til å begeve seg
+* Steg 3: Start løpet
+* Steg 4: Avslutt løpet
+* Steg 5: Nullstill spillet
 
-* Step 1: Create the scene and add sprites 
-* Step 2: Make the characters move
-* Step 3: Starting the race
-* Step 4: Finishing the race
-* Step 5: Resetting the game 
 
-#Challenge 
-
-Add a booster
+# Utfordringer
+Legg til fartsøkning
 

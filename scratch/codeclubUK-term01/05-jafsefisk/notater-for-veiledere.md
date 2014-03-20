@@ -1,40 +1,39 @@
 ---
-title: Fish Chomp — Notes for Club Leaders                  
-language: en-GB
+title: Jafsefisk — Notater for veildere
+language: nb-NO
 embeds: "*.png"
 ...
 
-#Introduction
-We’re going to make a Fish Chomp game! Guide the large Hungry Fish around and try to eat all the prey that are swimming around.
+# Introduksjon {.intro}
+Denne gangen skal vi skal lage Jafsfisk! Hjelp den Store Sultne Fisk rundt sli at den kan spise alle byttedyrene som svømmer rundt.
 
-#Skills
-This project covers:
-
-* Moving sprites
-* Controlling sprites with the mouse
-* Changing costumes
+# Ferdigheter
+* Flytte figurer
+* Styre figurer med musen
+* Bytte drakter
 * Collision detection
-* Sprites reading other sprites’ state
-* Keeping and changing scores
+* Figurer leser andre figurers tilstand
+* Holder orden på og endre poengsummen
 
-#Resources
-This project uses resources found in the Scratch Backgrounds and Costumes folders AND the hungry fish costumes can be found in the volunteers packs.
+# Ressurser
+Prosjektet bruker bilder og drakter fra Scratchbibliotektet OG fiskedraktene i som finnes i ressurskatalogen.
 
-#Scratch Cards required:
+# Aktuelle Scratchkort
 * Animate it
 * Keep score
 * Timer
 * Follow the mouse
 
-#Basic exercises
-* Step 1: Hungry Fish follows the mouse pointer 
-* Step 2: Add some prey
-* Step 3: Hungry Fish eats the prey
+# Øvelser
+* Steg 1: Store Sultne Fisk følger musepekeren
+* Steg 2: Legg til noen byttedyr
+* Steg 3: Store Sultne Fisk spiser byttedyrene
 
-#Challenges
-1. Make the prey move differently
-2. Make the prey avoid the hungry fish
-3. Add a score
-4. Add a countdown
-5. Add a bonus score
-6. Change the game: keep a prey alive!
+# Utfordringer
+1. Få byttedyrene til å bevege seg ulikt
+2. Byttedyrene unngå Store Sultne Fisk
+3. Legg til poengsum
+4. Legg til nedtelling
+5. Legg til bonus poeng
+6. Endre spillet: holde liv i ett byttedyr
+

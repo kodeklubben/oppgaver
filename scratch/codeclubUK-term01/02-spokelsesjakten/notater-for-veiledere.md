@@ -1,33 +1,31 @@
 ---
-title: Ghostbusters  — Notes for Club Leaders 
-language: en-GB
+title: Spøkelsesjakten — Notater for veiledere
+language: nb-NO
 embeds: "*.png"
 ...
 
-#Introduction
-This project is like the carnival game called whack-a-mole. You get points for hitting the ghosts that appear on the screen. The aim is to get as many points as possible in 30 seconds.
+# Introduksjon {.intro}
+Spillet vi skal lage nå er kjent fra tivoli som whack-a-mole. Man får poeng for å trykke på spøkelser som dukke opp på skjermen. Målet er å få så mange poeng som mulig på 30 sekunder.
 
-#Skills
-This project covers:
+# Ferdigheter
+* Sette variabler
+* Løkker
+* Holde orden på poengsum
 
-* Setting a variable
-* Loops
-* Keeping and setting the score
+# Ressurser
+Prosjektet bruker bakgrunn og drakter fra Scratchbibliotektet.
 
-#Resources
-This project uses resources found in the Scratch Backgrounds and Costumes folders
-
-#Scratch Cards required
+# Aktuelle Scratchkort
 * Keep score 
 * Timer 
 * Animate it
 
-#Basic exercises
-* Step 1: Create a flying ghost
-* Step 2: Make the ghost appear and vanish randomly 
-* Step 3: Make the ghost disappear when it’s clicked 
-* Step 4: Add a score and timer
+# Øvelser
+* Steg 1: Lag et flyvende spøkelse
+* Steg 2: Få spøkelset til å forsvinne og dukke opp på tilfeldige steder
+* Steg 3: Når man klikker på spøkelset forsvinner det
+* Steg 4: Legg til poengsum og nedtelling
 
-#Challenges
-1. Add more ghosts
+# Utfordringer
+1. Legg til flere spøkelser
 

@@ -1,33 +1,31 @@
 ---
-title: Fruit Machine — Notes for Club Leaders
-language: en-GB
+title: Enarmet Banditt — Notater for veiledere
+language: nb-NO
 embeds: "*.png"
 ...
 
-#Introduction:
-This is a simple game that has three sprites that change costume. You have to stop them when they’re showing the same picture (like a fruit machine!).
+# Introduksjon {.intro}
+Dette er et enkelt spill der tre figurer bytter drakter. Spilleren må stoppe dem når de viser det samme bildet (som en enarmet banditt-maskin!).
 
-#Skills
-This project covers
+# Ferdigheter
+* Endre drakter
+* Kjøre i en løkke
+* Stoppe en løkke når når man klikker på musen
 
-- Changing costumes
-- Running a loop
-- Stopping a loop on click
+# Ressurser
+Prosjektet bruker bilder og drakter fra Scratchbibliotektet.
 
-#Resources
-This project uses only standard Scratch images found within Scratch.
+# Aktuelle Scratchkort
+* Sende melding
 
-#Scratch Cards required:
-Broadcast
+# Øvelser
+* Steg 1: Lag en figur som endrer drakt
+* Steg 2: Få bildet til å endre seg
+* Steg 3: Stoppe når man klikker på den
+* Steg 4: Lag de andre figurene
 
-#Basic exercises
-* Step 1: Create a sprite that changes costumes 
-* Step 2: Making the picture change
-* Step 3: Making it stop when we click on it 
-* Step 4: Creating the other sprites
-
-#Challenges
-1. Make the game harder
-2. Make the game get harder and easier over time
-3. Detect when all the sprites have stopped on the same costume
+# Utfordringer
+1. Gjør spillet vanskeligere
+2. Få vansklighetsgraden til å variere
+3. Oppdag når figurene stoppes med samme drakt
 

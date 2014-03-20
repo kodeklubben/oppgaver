@@ -1,43 +1,38 @@
 ---
-title: Whatâ€™s That â€” Notes for Club Leaders           
-language: en-GB
+title: Hva er det — Notater for veiledere
+language: nb-NO
 embeds: "*.png"
 ...
 
-#Introduction
+# Introduksjon {.intro}
+En tilfeldig valgt figur vises utydelig på tavla. Spilleren må gjette hva et skal forestille ved å klikke på riktig figur under. Jo kjappere spilleren gjetter riktig, desto flere poeng for han.
 
-A random object is shown on the blackboard, all distorted. You have to guess what it is by clicking on the right picture below. The quicker you guess, the higher your score!
+# Ferdigheter
+* Holde orden på poengsum
+* Endre drakter og utseende
+* Velge en tilfeldig riktig løsning
+* Reagere på klikk og se om riktig figur ble klikket
+* Send meldinger
 
-#Skills
+# Ressurser
+Prosjektet bruker bilder og drakter fra Scratchbibliotektet.
 
-This project covers
-
-* Keeping and setting the score
-* Changing costumes and appearance
-* Setting a random answer
-* Detecting a click and checking if the right sprite was clicked 
-* Broadcast messages
-
-#Resources
-
-This project uses resources found in the Scratch Backgrounds and Costumes folders
-
-#Scratch Cards required:
-
+# Aktuelle Scratchkort
 Timer
 
-#Basic exercises
-* Step 1: Make different things appear on the blackboard 
-* Step 2: Make the pictures distorted
-* Step 3: Allow the player to guess the picture
+# Øvelser
+* Steg 1: Få ulike ting til å dukke opp på tavla
+* Steg 2: Gjør bildene utydelige
+* Steg 3: La spilleren gjette hvilken figur som er riktig
 
-#Challenges
-1. Make the game harder or easier
-2. Distort the picture differently in each game
-3. Make a game have a few rounds
-4. Make later rounds more difficult
-5. Keep playing until the player gets it wrong
-6. Make the game harder or easier depending on how well the player does. 
-7. Keep track of the highest score
-8. Make wrong guesses expensive
+# Utfordringer
+1. Lage spille enklere eller vansekligere
+2. Bruk forskjellig bildeeffekt i hvert spill
+3. Gjør slik at spillet går over flere runder
+4. Lag spillet vansekgliere for hver runde
+5. La spilleren spille til han gjør en feil
+6. Endre spillet slik at det blir enklere eller vansekligere avhengig av hvor bra spilleren gjør det.
+7. Ta vare på den høyeste poengsummen
+8. Hvis man gjetter feil, taper man poeng.
+
 
