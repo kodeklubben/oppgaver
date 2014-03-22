@@ -14,7 +14,7 @@ poeng får spilleren. Men blir Herbert tatt, går poengsummen ned.
 
 Dette er et enkelt spill som gir en god introduksjon til Scratch.
 
-![](skjermbilde.png)
+![](felix_og_herbert.png)
 
 # Forberedelser
 

@@ -13,7 +13,7 @@ note: "README.md"
 Dette er et spill for to, der en papegøye og en løve kjemper om å komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og ofte som mulig for å flytte figuren sin, og den som kommer først til kanten av skjermen vinner.
 
 
-![skjermbilde](orkenlop.png)
+![](orkenlop.png)
 
 # Steg 1: Lage en scene og legg til figurer { .activity}
 

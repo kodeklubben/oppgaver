@@ -12,7 +12,7 @@ note: "README.md"
 Et bilde av en tilfeldig ting vises på tavlen. Men bildet er forvrengt, slik at du må gjette hva det er ved å klikke på et av alternativene som vises under. Desto raskere du gjetter riktig, desto flere poeng får du.
 
 
-![skjermbilde](hva_er_det.png)
+![](hva_er_det.png)
 
 #Steg 1: Få flere ting til å vise seg på tavlen { .activity}
 __Vi vil at noen forskjellige bilder skal komme opp på tavlen.__

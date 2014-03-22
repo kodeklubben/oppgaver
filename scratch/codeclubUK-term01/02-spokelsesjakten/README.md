@@ -14,7 +14,7 @@ skjermen. Målet er å få så mange poeng som mulig på 30 sekunder.
 
 Dette er et enkelt spill som gir en god introduksjon til Scratch.
 
-![](skjermbilde.png)
+![](spokelsesjakten.png)
 
 # Forberedelser
 

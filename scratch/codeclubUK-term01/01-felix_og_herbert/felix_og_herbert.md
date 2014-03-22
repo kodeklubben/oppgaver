@@ -11,7 +11,7 @@ note: "README.md"
 
 Vi skal lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Du styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
-![](skjermbilde.png)
+![](felix_og_herbert.png)
 
 # Steg 1: Felix følger musepekeren { .activity}
 

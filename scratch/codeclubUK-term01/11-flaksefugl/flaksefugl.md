@@ -10,7 +10,7 @@ embeds: ["*.png", "../../bilder/*.png"]
 __I denne oppgaven skal vi lage vår egen versjon av spillet Flappy Bird.__
 Trykk på mellomromstasten for å flakse og prøv å styre mellom rørene!
 
-![screenshot](flappy_screenshot.png)
+![](flaksefugl.png)
 
 #**Steg 1:** Få Flakse til å falle {.activity}
 

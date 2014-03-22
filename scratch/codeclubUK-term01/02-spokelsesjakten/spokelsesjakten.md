@@ -11,7 +11,7 @@ note: "README.md"
 
 Dette prosjektet er inspirert av tivolispillet __Whack-a-mole__, hvor man slår muldvarper ned igjen i hullene sine. I vårt spill er det spøkelsene som blir borte når vi klikker på dem. Målet er å klikke bort flest mulig i løpet av 30 sekunder.
 
-![](skjermbilde.png)
+![](spokelsesjakten.png)
 
 # Steg 1: Lag et flyvende spøkelse { .activity}
 

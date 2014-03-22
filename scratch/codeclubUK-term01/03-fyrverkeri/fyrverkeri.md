@@ -11,7 +11,7 @@ note: "README.md"
 # Introduksjon { .intro}
 I dette prosjektet skal vi skyte opp fyrverkeri over en by.
 
-![](skjermbilde.png)
+![](fyrverkeri.png)
 
 # Steg 1: Lag en rakett som flyr mot muspekeren { .activity}
 *Vi starter med å importere forskjellige bilder vi skal bruke i spillet*
