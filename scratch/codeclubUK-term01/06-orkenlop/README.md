@@ -1,11 +1,16 @@
 ---
-title: Ørkenløp — Notater for veiledere
+title: Ørkenløp
+level: 1.6
 language: nb-NO
 embeds: "*.png"
 ...
 
-# Introduksjon {.intro}
-Dette er et spill for to spillere hvor en papegøye og en løve konkurrerer om å krysse ørkenen. Hver spill trykker på en task så raskt hun kan for å bevege sitt dyr. Første person som når kanten av skjermen vinner.
+# Informasjon til Veiledere
+
+Dette er et spill for to spillere hvor en papegøye og en løve
+konkurrerer om å krysse ørkenen. Hver spill trykker på en task så
+raskt hun kan for å bevege sitt dyr. Første person som når kanten av
+skjermen vinner.
 
 # Ferdigheter
 * Hendelser

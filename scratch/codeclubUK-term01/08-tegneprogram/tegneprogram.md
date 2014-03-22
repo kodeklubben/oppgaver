@@ -5,6 +5,7 @@ language: nb-NO
 embeds: ["*.png", "../../bilder/*.png"]
 stylesheet: scratch
 materials: "ressurser/*"
+note: "README.md"
 ...
 
 # Introduksjon { .intro}

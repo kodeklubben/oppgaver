@@ -1,11 +1,15 @@
 ---
-title: Enarmet Banditt — Notater for veiledere
+title: Enarmet Banditt
+level: 1.4
 language: nb-NO
 embeds: "*.png"
 ...
 
-# Introduksjon {.intro}
-Dette er et enkelt spill der tre figurer bytter drakter. Spilleren må stoppe dem når de viser det samme bildet (som en enarmet banditt-maskin!).
+# Informasjon til Veiledere
+
+Dette er et enkelt spill der tre figurer bytter drakter. Spilleren må
+stoppe dem når de viser det samme bildet (som en enarmet
+banditt-maskin!).
 
 # Ferdigheter
 * Endre drakter

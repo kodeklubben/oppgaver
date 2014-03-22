@@ -1,11 +1,15 @@
 ---
-title: Tegneprogram — Notater for veiledere
+title: Tegneprogram
+level: 1.8
 language: nb-NO
 embeds: "*.png"
 ...
 
-# Introduksjon {.intro}
-Denne gangen skal vi laget et enkelt tegneprogram. Man kan tegne linjer når musen dras over skjermen. Man kan bytte linjefargen og tømme skjermen.
+# Informasjon til Veiledere
+
+Denne gangen skal vi laget et enkelt tegneprogram. Man kan tegne
+linjer når musen dras over skjermen. Man kan bytte linjefargen og
+tømme skjermen.
 
 # Ferdigheter
 * Flytte figurer

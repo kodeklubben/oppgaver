@@ -1,11 +1,14 @@
 ---
-title: Jafsefisk — Notater for veildere
+title: Jafsefisk
+level: 1.5
 language: nb-NO
 embeds: "*.png"
 ...
 
-# Introduksjon {.intro}
-Denne gangen skal vi skal lage Jafsfisk! Hjelp den Store Sultne Fisk rundt sli at den kan spise alle byttedyrene som svømmer rundt.
+# Informasjon til Veiledere
+
+Denne gangen skal vi skal lage Jafsfisk! Hjelp den Store Sultne Fisk
+rundt sli at den kan spise alle byttedyrene som svømmer rundt.
 
 # Ferdigheter
 * Flytte figurer

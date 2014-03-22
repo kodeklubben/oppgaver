@@ -1,11 +1,15 @@
 ---
-title: Hva er det — Notater for veiledere
+title: Hva er det
+level: 1.7
 language: nb-NO
 embeds: "*.png"
 ...
 
-# Introduksjon {.intro}
-En tilfeldig valgt figur vises utydelig på tavla. Spilleren må gjette hva et skal forestille ved å klikke på riktig figur under. Jo kjappere spilleren gjetter riktig, desto flere poeng for han.
+# Informasjon til Veiledere
+
+En tilfeldig valgt figur vises utydelig på tavla. Spilleren må gjette
+hva et skal forestille ved å klikke på riktig figur under. Jo kjappere
+spilleren gjetter riktig, desto flere poeng for han.
 
 # Ferdigheter
 * Holde orden på poengsum

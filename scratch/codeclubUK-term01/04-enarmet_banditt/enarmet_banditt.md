@@ -3,7 +3,8 @@ title: Enarmet Banditt
 level: 1.4
 language: nb-NO
 stylesheet: scratch
-embeds: ["*.PNG", "*.png", "../../bilder/*.png"]
+embeds: ["*.png", "../../bilder/*.png"]
+note: "README.md"
 ...
 
 # Introduksjon {.intro}
