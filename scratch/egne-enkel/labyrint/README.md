@@ -35,8 +35,8 @@ Her er likevel noen generelle ting som kan være verdt å huske på:
 
 De to viktigste læringsmålene i Labyrint er
 
-1. hvordan styre figurer ved hjelp av tastaturet, og
-2. hvordan man kan tegne egne bakgrunner og figurer.
+1. hvordan __styre figurer__ ved hjelp av __tastaturet__, og
+2. hvordan man kan __tegne egne bakgrunner og figurer__.
 
 I tillegg gis det litt motivasjon for bruk av variable til å holde
 styr på informasjon, samt at vi ser et eksempel på hvordan man kan

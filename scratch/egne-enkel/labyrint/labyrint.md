@@ -134,7 +134,8 @@ seg rundt inni.*
 ## Sjekkliste {.check}
 
 + Velg ![Tegn ny bakgrunn](tegn-ny.png) nederst til venstre på
-skjermen for å tegne en ny bakgrunn.
+skjermen for å tegne en ny bakgrunn. Pass på at du faktisk tegner en
+ny __bakgrunn__, og ikke en ny figur.
 + Gi den nye bakgrunnen navnet `Labyrint`.
 + Velg en farge du liker og tegn en liten labyrint. Det er viktig at
 alle veggene i labyrinten har samme farge (vi oppdager hvorfor
@@ -370,9 +371,9 @@ tallene for `x` og `y` med noe som passer for din labyrint.
 deretter `Lag en Variabel`. Kall variabelen `hastighet` og la den
 gjelde kun `For denne figuren`. Tilslutt, fjern avhukingen på
 variabelen.
-+ Vi kan nå utvide skriptet slik at Skumling går fram og tilbake. Vi
-får ham til å snu når han treffer veggen på nesten samme måte som vi
-hindrer utforskeren i å gå gjennom veggen.
++ Vi kan nå utvide skriptet slik at froskekongen går fram og
+tilbake. Vi får ham til å snu når han treffer veggen på nesten samme
+måte som vi hindrer utforskeren i å gå gjennom veggen.
 
     ```blocks
         når grønt flagg klikkes
