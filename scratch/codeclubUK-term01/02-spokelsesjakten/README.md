@@ -1,16 +1,16 @@
 ---
-title: Felix og Herbert
-level: 1.1
+title: Spøkelsesjakten
+level: 1.2
 language: nb-NO
 embeds: "skjermbilde.png"
 ...
 
 # Informasjon til Veiledere
 
-Vi skal lage et spill hvor katten __Felix__ skal fange musa
-__Herbert__. Spilleren styrer Herbert med musepekeren og skal prøve å
-unngå å bli tatt av Felix. Jo lenger Herbert unngår katten jo flere
-poeng får spilleren. Men blir Herbert tatt, går poengsummen ned.
+Spillet vi skal lage nå er inspirert av tivolispillet
+__Whack-a-mole__, hvor man slår muldvarper ned igjen i hullene sine. I
+vårt spill får man poeng for å trykke på spøkelser som dukker opp på
+skjermen. Målet er å få så mange poeng som mulig på 30 sekunder.
 
 Dette er et enkelt spill som gir en god introduksjon til Scratch.
 
@@ -18,8 +18,9 @@ Dette er et enkelt spill som gir en god introduksjon til Scratch.
 
 # Forberedelser
 
-Felix og Herbert bruker bare ressurser som er inkludert i
-Scratch-platformen og krever som sådann ingen spesielle forberedelser.
+Spøkelsesjakten bruker bakgrunn og drakter fra
+Scratchbibliotektet. Ingen spesielle forberedelser er derfor
+nødvendige.
 
 Her er likevel noen generelle ting som kan være verdt å huske på:
 
@@ -37,9 +38,9 @@ Her er likevel noen generelle ting som kan være verdt å huske på:
 
 # Læringsmål
 
-Felix og Herbert introduserer flere konsepter, inkludert
+Spøkelsesjakten viser eksempler på
 
-1. hvordan __styre figurer__ med __musen__,
-2. bruk av __drakter__ for å endre figurers utseende,
+1. hvordan man __skjuler__ og __viser__ figurer,
+2. bruk av __løkker__ for å få noe til å skje flere ganger (eller for alltid),
 3. bruk av __variable__ for å telle poeng,
-4. bruk av __meldinger__ for at figurer kan kommunisere med hverandre.
+4. hvordan man kan __telle ned tiden som går__.
