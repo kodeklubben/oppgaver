@@ -7,17 +7,17 @@ embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
 ...
 
-# Introduksjon { .intro}
+# Introduksjon {.intro}
 
 Vi skal lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Du styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
 ![](felix_og_herbert.png)
 
-# Steg 1: Felix følger musepekeren { .activity}
+# Steg 1: Felix følger musepekeren {.activity}
 
 *Vi ønsker at katten Felix skal følge etter musepekeren.*
 
-## Sjekkliste{ .check}
+## Sjekkliste {.check}
 
 + Start et nytt prosjekt.
 + Trykk på `i`{.blockblue} i hjørnet av ![Sprite1](sprite1.png) og bytt navn på figuren til `Felix`.
@@ -34,7 +34,7 @@ Vi skal lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Du styr
             trommeslag (3 v) som varer (0.25) takter
     ```
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
@@ -42,17 +42,17 @@ __Klikk på det grønne flagget.__
 + Ser det ut som han går når han beveger seg?
 + Beveger han seg med riktig hastighet?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 Scratch lagrer alle prosjektene dine automatisk med jevne mellomrom. Det kan likevel være lurt å passe på at prosjektet faktisk er lagret innimellom.
 
 + I filmenyen, velg `Lagre nå`.
 
-# Steg 2: Felix jager Herbert { .activity}
+# Steg 2: Felix jager Herbert {.activity}
 
 *Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.*
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Lag en ny figur ved å trykke på ![Velg figur fra biblioteket](hent-fra-bibliotek.png) og velg figuren `Dyr/Mouse1`.
 + Bytt navn på figuren til `Herbert` og sørg for at også Herbert kun kan se til høyre og venstre, ![Høyre/Venstre](rotasjonsmate-hv.png).
@@ -66,18 +66,18 @@ Scratch lagrer alle prosjektene dine automatisk med jevne mellomrom. Det kan lik
             pek mot [Felix v]
     ```
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 + Flytter Herbert seg med musepekeren?
 + Jager Felix Herbert?
 
-# Steg 3: Felix sier når han har fanget Herbert { .activity}
+# Steg 3: Felix sier når han har fanget Herbert {.activity}
 
 *Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.*
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Endre skriptet til Felix til dette:
 
@@ -92,17 +92,17 @@ __Klikk på det grønne flagget.__
                 si [Tok deg!] i (1) sekunder
     ```
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 + Sier Felix fra når han har fanget Herbert?
 
-# Steg 4: Herbert blir et spøkelse når han fanges { .activity}
+# Steg 4: Herbert blir et spøkelse når han fanges {.activity}
 
 *I stedet for at Felix sier noe, vil vi at Herbert blir forvandlet til et spøkelse når han fanges.*
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Endre skriptet til Felix slik at det sender en melding og lager en lyd når han fanger Herbert:
 
@@ -133,7 +133,7 @@ __Klikk på det grønne flagget.__
         bytt drakt til [levende v]
     ```
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
@@ -141,11 +141,11 @@ __Klikk på det grønne flagget.__
 + Spiller Felix de riktige lydene til riktig tid?
 + Står Felix stille lenge nok til at Herbert kommer seg unna?
 
-# Steg 5: Telle poeng { .activity}
+# Steg 5: Telle poeng {.activity}
 
 *La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde Herbert i live. Vi begynner med poengsummen null og øker den med en for hvert sekund. Hvis Felix fanger Herbert, minker vi poengsummen med ti.*
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + På `Skript`{.blocklightgrey}-fanen under kategorien `Data`{.blockorange}, lag en ny variabel. La den gjelde for alle figurer og kall den `Poeng`.
 
@@ -164,7 +164,7 @@ __Klikk på det grønne flagget.__
         endre [Poeng v] med (-10)
     ```
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
@@ -173,7 +173,7 @@ __Klikk på det grønne flagget.__
 + Hva skjer når Herbert fanges før du har ti poeng?
 + Går poengsummen tilbake til null når du starter spillet på nytt?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 *Du er ferdig. Godt gjort. Nå kan du spille spillet!*
 

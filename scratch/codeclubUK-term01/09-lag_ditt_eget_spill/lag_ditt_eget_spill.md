@@ -6,7 +6,7 @@ stylesheet: scratch
 note: "README.md"
 ...
 
-# Introduksjon { .intro}
+# Introduksjon {.intro}
 
 Nå skal du endelig få lage ditt eget spill som du og vennene dine kan
 spille!  Legg hodet i bløt og kom opp med en kul idé!  Men før du går
@@ -34,7 +34,6 @@ papir, hvis du trenger.
 Hvordan skal scenen se ut? Tegn den på et ark. Husk å tenke på hvordan
 karakterene skal forholde seg til den: for eksempel hvor de skal stå,
 hvordan de skal bevege seg, hvor mange det er plass til, etc.
-
 
 # Steg 4: Hvordan virker spillet ditt? {.activity}
 

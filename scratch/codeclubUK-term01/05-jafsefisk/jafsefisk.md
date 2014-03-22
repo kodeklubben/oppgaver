@@ -7,17 +7,17 @@ embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
 ...
 
-#Introduksjon { .intro}
+#Introduksjon {.intro}
 
 Vi skal nå lage et JafseFisk-spill! Målet i spillet er å hjelpe JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 
 ![](jafsefisk.png)
 
-# Steg 1: JafseFisk følger musepekeren { .activity}
+# Steg 1: JafseFisk følger musepekeren {.activity}
 
 *Først skal vi lage JafseFisk som svømmer rundt i havet!*
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + __Start et nytt Scratch prosjekt__.
 + __Riktig bakgrunn__ får du ved å velge `Scene`{.blocklightgrey} og så `Bakgrunner`{.blocklightgrey}-fanen. Importer bakgrunnen `Natur/underwater3` ved å velge ![Velg en ferdig bakgrunn](bakgrunn-fra-bibliotek.png). Slett så den andre bakgrunnen `backdrop1`.
@@ -33,7 +33,7 @@ Vi skal nå lage et JafseFisk-spill! Målet i spillet er å hjelpe JafseFisk med
             gå (3) steg
     ```
 
-## Test Prosjektet { .flag}
+## Test Prosjektet {.flag}
 
 __Klikk det grønne flagget.__
 
@@ -54,7 +54,7 @@ __Klikk det grønne flagget.__
                 gå (3) steg
     ```
 
-## Ting å prøve { .try}
+## Ting å prøve {.try}
 
 Hvis du vil kan du forandre tallene i skriptet, og se hvordan det forandrer bevegelsene.
 
@@ -62,11 +62,11 @@ Hvis du vil kan du forandre tallene i skriptet, og se hvordan det forandrer beve
 + Sett antall steg fisken flytter seg til et stort tall (f.eks. 20) eller et lite tall (f.eks. 1, eller 0).
 
 
-# Steg 2: Legg til byttedyr { .activity}
+# Steg 2: Legg til byttedyr {.activity}
 
 *Det er på tide å gi JafseFisk noe å spise!*
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Legg til en ny figur fra biblioteket ved å bruke `Dyr/Fish2`. 
 + Gjør figuren mindre med krympeknappen ![krymp](krymp.png) som ligger over den røde stopp-knappen.
@@ -80,7 +80,7 @@ Hvis du vil kan du forandre tallene i skriptet, og se hvordan det forandrer beve
             sprett tilbake ved kanten  
     ```
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget__ og se hvordan byttedyret svømmer rundt.
 
@@ -89,13 +89,13 @@ __Klikk på det grønne flagget__ og se hvordan byttedyret svømmer rundt.
 
 *For øyeblikket samspiller ikke JafseFisk og byttedyret med hverandre. Det skal vi gjøre noe med i neste steg.*
 
-## Ting å prøve{ .try}
+## Ting å prøve {.try}
 
 * Prøv å forandre tallene for steg og `tilfeldig tall`{.blockgreen}. Hvordan forandrer det byttedyrenes bevegelser?
 
 * Hva gjør `sprett tilbake ved kanten`{.blockblue} blokken? Fjern blokken og se hva som skjer.
 
-# Steg 3: JafseFisk spiser byttet { .activity}
+# Steg 3: JafseFisk spiser byttet {.activity}
 
 *Nå skal vi la JafseFisk spise byttet!*
 
@@ -104,7 +104,7 @@ Når JafseFisk har fanget byttet i munnen skal to ting skje:
 + Den må lukke munnen og lage en gomlelyd.
 + Byttet må forsvinne, og så dukke opp igjen en liten stund senere.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Vi starter med å la byttet forsvinne hvis den berører JafseFisk, og så komme tilbake etter 3 sekunder. Bruk `berører`{.blocklightblue}-blokken for å sjekke om byttet kommer borti JafseFisk.
 
@@ -120,7 +120,7 @@ Når JafseFisk har fanget byttet i munnen skal to ting skje:
                 vis
     ```
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 __Prøv spillet ditt igjen. Ser du noen problemer?__
 
 + Legg merke til at byttet forsvinner uansett hvor det berører JafseFisk.
@@ -146,7 +146,7 @@ __Prøv spillet ditt igjen. Ser du noen problemer?__
                 vis
     ```
     
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Prøv spillet igjen.__
 
@@ -194,7 +194,7 @@ __Prøv spillet igjen.__
 
 + Høyreklikk på byttedyret og velg `lag kopi` til du føler du har fått nok fisk.
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
@@ -205,11 +205,11 @@ __Klikk på det grønne flagget.__
 
 Hvorfor bør vi legge til en `vis`{.blockpink}-blokk på starten av byttedyrets skript? Tenk på hva som ville skje om byttet blir spist og spillet stoppes før det dukker opp igjen. Og hva ville skje om spillet ble startet igjen?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 __Godt gjort!__ Du har igrunn fullført spillet! Men det finnes flere muligheter for utvidelse av spillet. Er du klar for en utfordring?
 
-## Utfordring 1: Forandre bevegelsene til byttedyrene { .challenge}
+## Utfordring 1: Forandre bevegelsene til byttedyrene {.challenge}
 
 For øyeblikket beveger alle byttedyrene seg likt. __Kan du få ett av dem til å bevege seg annerledes?__ 
 
@@ -219,7 +219,7 @@ __Velg deg ut et byttedyr å eksperimentere med.__ Hvis de har samme drakt, bytt
 
 __Hint:__ Se på blokken `gå 2 steg`{.blockblue}.
 
-## Test prosjektet{ .flag}
+## Test prosjektet {.flag}
 
 + Beveger byttet seg saktere? Gjør dette spillet bedre?
 + Hvis du klarte dette, __prøv å gjøre et av byttedyrene kjappere enn de andre.__
@@ -228,7 +228,7 @@ __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i `tilfeldig
 + Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke forskjellige kombinasjoner av disse bevegelsene?
 + Gjør noen av disse forandringene spillet bedre? Gjør de spillet med interessant, morsommere, vanskeligere eller lettere? Er noe av dette bedre, syns du?
 
-## Utfordring 2: Hjelp byttet å unngå JafseFisk { .challenge}
+## Utfordring 2: Hjelp byttet å unngå JafseFisk {.challenge}
 
 Byttedyrene i dette spillet er skikkelig dumme! De svømmer bare tilfeldig rundt til de blir spist. Ekte fisk svømmer vekk fra rovfisker. Nå vil vi __la ett av byttedyrene svømme vekk fra JafseFisk.__
 
@@ -238,45 +238,45 @@ Prøv nå å hjelpe et av byttedyrene med å __snu seg vekk fra JafseFisk__. Du 
 Du vil kanskje oppdage at byttet setter seg fast i et hjørne? Du  ønsker kanskje at byttet bare ønsker å flykte dersom JafseFisk kommer for nære?
 __Hint:__ Se tilbake på hvordan vi brukte `avstand til`{.blocklightblue} blokken tidligere i spillet. 
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 + Gjør dette at fisken er vanskeligere å ta? Gjør det spillet bedre?
 
-## Utfordring 3: Legg til poeng { .challenge}
+## Utfordring 3: Legg til poeng {.challenge}
 Det er ikke nok bare å spise fisk. Hvordan vet du at du er en bedre spiller enn vennene dine? __Du må kunne samle poeng, så la oss legge til en poengtavle.__ Se på __Keep Score scratch card__ for å få noen hint om hvordan det kan gjøres. 
 Pass på at poengene går tilbake til null ved begynnelsen av spillet. Hvor skal du legge inn denne blokken?
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 + Går poengsummen tilbake til null når spillet starter?
 + Går den opp hver gang du spiser byttedyr?
 
-## Utfordring 4: Legg til en nedtelling { .challenge}
+## Utfordring 4: Legg til en nedtelling {.challenge}
 
 __Gi deg selv en tidsfrist.__ Hvor mange fisk kan du spise på 30 sekunder?
 
 Se på __Timer scratch card__  for å se hvordan man legger til en tidtaker til et spill. Begynn med 30 sekunders-spill.
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 + Begynner tidtakeren på 30?
 + Teller den ned med rett hastighet? 
 + Kan du fange fisk mens tiden telles ned?
 + Stopper spillet når telleren når null?
 
-## Utfordring 5: Legg til bonuspoeng { .challenge}
+## Utfordring 5: Legg til bonuspoeng {.challenge}
 Legg til en belønning med høy bonus poeng om du kan spise alle tre fiskene samtidig. Hvordan kan du vite hvor mange som er spist?
 
 __Hint:__ En måte å gjøre dette på er å bruke en variabel for å __telle hvor mange byttedyr som svømmer i havet.__
 
 ## Test prosjektet {.flag}
 
-## Utfordring 6: Forandre spillet: Hold byttedyrene i live! { .challenge}
+## Utfordring 6: Forandre spillet: Hold byttedyrene i live! {.challenge}
 Av og til kan man få glimrende nye idèer ved å gjøre det motsatte av det man allerede har gjort.
 
 __Endre spillet slik at du i stedet kontrollerer et byttedyr i et hav av mange JafseFisk.__ Hvor lenge kan du holde det gående før du blir spist? Istedet for å bruke poeng, hva med å  gi byttedyret 3 liv og avslutte spillet når de er brukt opp?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 __Godt gjort, du er ferdig! Nå kan du nyte spillet ditt!__
 

@@ -7,17 +7,17 @@ embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
 ...
 
-# Introduksjon { .intro}
+# Introduksjon {.intro}
 
 Et bilde av en tilfeldig ting vises på tavlen. Men bildet er forvrengt, slik at du må gjette hva det er ved å klikke på et av alternativene som vises under. Desto raskere du gjetter riktig, desto flere poeng får du.
 
 
 ![](hva_er_det.png)
 
-#Steg 1: Få flere ting til å vise seg på tavlen { .activity}
+#Steg 1: Få flere ting til å vise seg på tavlen {.activity}
 __Vi vil at noen forskjellige bilder skal komme opp på tavlen.__
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Start et nytt Scratch-prosjekt og slett kattefiguren.
 + Klikk på Scene og deretter Bakgrunner-fanen. Åpne biblioteket med bakgrunner ved å trykke på ![Velg en ferdig bakgrunn](velg-bakgrunn.png) og velg så __Innendørs/chalkboard__.
@@ -32,7 +32,7 @@ __Vi vil at noen forskjellige bilder skal komme opp på tavlen.__
             neste drakt
     ```
 
-##Test prosjektet { .flag}
+##Test prosjektet {.flag}
 __Trykk på det grønne flagget.__
 Endrer figuren seg? Klikk flere ganger. Får figuren stadig nye drakter? Flott. 
 
@@ -48,7 +48,7 @@ __La oss nå forvrenge figuren når den dukker opp på tavlen, så det blir vans
 
 Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom poengscoren er høy vil bildet bli veldig forvrengt. Når antallet poeng synker, vil også graden av forvrenging synke. Poengvariabelen fungerer dermed som en tidteller.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Velg Data-paletten og opprett en variabel kalt __poeng__. 
 
@@ -68,7 +68,7 @@ Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom
             vent (1) sekunder
     ```
 
-##Test prosjektet { .flag}
+##Test prosjektet {.flag}
 __Trykk på det grønne flagget.__
 
 Kommer det opp et tilfeldig og forvrengt bilde?
@@ -82,9 +82,9 @@ Blir bildet fullstendig tydelig når poengsummen er 0?
 Får du fremdeles nye ting på tavlen når du klikker på det grønne flagget?
 
 
-##Lagre prosjektet{ .save}
+##Lagre prosjektet {.save}
 
-##Ting å prøve { .try .activity}
+##Ting å prøve {.try .activity}
 
 + __Prøv å endre poengsummen fra start, samt hvor mye den skal forandre seg for hver gang den går gjennom løkka.__ Hvordan endrer deg utseendet til bildet? Blir det vanskeligere eller enklere å se hva bildet forestiller?
 
@@ -96,7 +96,7 @@ Så langt har vi fått vårt tilfeldige bilde til gradvis å bli tydeligere, sam
 
 Først må vi å vite hva det rette svaret er.
 
-## Sjekkliste { .check} 
+## Sjekkliste {.check} 
 
 + __Opprett en ny variabel__ og kall den __svar__. Pass på at den er tilgjengelig for alle figurer.
 + Endre skriptet slik at det klarer å holde styr på hva som er rett svar.  Etter den første `gjenta`{.blockorange}-løkken legger du derfor til blokken `sett [svar] til`{.blockorange} `drakt #`{.blockpurple}:

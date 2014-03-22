@@ -8,7 +8,7 @@ materials: "ressurser/*"
 note: "README.md"
 ...
 
-# Introduksjon { .intro}
+# Introduksjon {.intro}
 Dette prosjektet lager tegneprogram slik at du kan lage din egen kunst. Du kan tegne med forskjellige farger, bruke viskelær, lage stempler og mye mer!
 
 ![](tegneprogram.png)
@@ -58,7 +58,7 @@ __Nå vil vi bruke denne pennefiguren som en ordentlig penn.__ Om du ser under p
 __Klikk på det grønne flagget.__
 Følger pennen musa rundt? Hva skjer om du holder museknappen nede og flytter på musa? Ikke bry deg om pennefargen enda.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke slett-blokka til å fjerne dette.
 
@@ -78,13 +78,13 @@ __Klikk på det grønne flagget.__
 
 Forsvinner tegningene dine når du klikker på det grønne flagget?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 ## Steg 2: Rydde opp
 
 I stedet for å måtte starte og stoppe prosjektet for å slette tavla kan vi lage en knapp som sletter alt i stedet. Vi kan bruke slett-blokka.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Lag en ny figur fra ressursmappa du lasta ned i begynnelsen av prosjektet. Velg __cancel-button__.
 + Bytt navn på figuren til __slett__.
@@ -101,13 +101,13 @@ __Klikk på det grønne flagget.__
 
 Sletter sletteknappen alle tegningene dine?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 ## Steg 3: Bytte farge
 
 Til nå har vi bare kunnet tegne blå streker. Vi kan bruke andre farger også! Vi legger til noen figurer i bunn av rammen. Figurene vil se ut som fargede knapper. Når vi klikker på en knapp endres pennefagen til den fargen knappen har. For å vite at vi har byttet farge skal vi gjøre det slik at blyanten skifter farge til den fargen vi bruker.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Hent en ny figur fra  __ressurser/red-selector__.
 + Gi den navnet __Rød__ og flytt den ned i venstre hjørne
@@ -138,7 +138,7 @@ __Klikk på det grønne flagget.__
 Begynn å tegne en strek. Bytt til rødt, og se om fargen forandres.
 Kommer streken fra blyantspissen nå også?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 + Gjenta punktene for å lage blå, gule og grønne knapper.
 
@@ -150,7 +150,7 @@ Skifter de til en annen farge på blyanten?
 Tegner de med riktig farge?
 Tegner alle figurene fra tuppen av blyanten?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 ## Steg 4: Bare tegne på tavla
 
@@ -161,7 +161,7 @@ For å finne ut hvor grensene for tavla går kan vi begynne nede i det venstre h
 
 Disse verdiene kan vi bruke in en `hvis`{.blockyellow}-blokk, og si at når musepekeren er utenfor tavlas x- og y-akse, så virker ikke blyanten
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Fyll inn sjekkene som sier at __blyanten får følge musepekeren bare hvis__:
 y er større enn -120 og mindre enn 170
@@ -211,14 +211,14 @@ __Klikk på det grønne flagget.__
 Kan du fremdeles tegne på tavla? Kan du tegne utenfor tavla?
 Hva skjer med blyanten når musepekeren går ut og inn av tavla?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 ## Steg 5: Viskelær
 
 __Nå kan vi tegne hva vi vil. Men hva om vi trenger et viskelær? Hmm… da kan vi jo bare få
 blyanten til å tegne med samme farge som tavla! Og så gir vi blyanten en viskelærdrakt!__
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Last opp en figur fra fil. Velg figuren __eraser__ fra mappen du lastet ned i starten. Kall figuren __viskelær__.
 + Gjør figuren litt mindre med krympeknappen ![Krymp](krymp.png), og så drar du den ned i høyre hjørne, ved siden av slett-knappen.
@@ -246,13 +246,13 @@ __Klikk på det grønne flagget.__
 Klarer viskelæret å viske? Fungerer det helt ut til kantene av tavla? 
 Går det greit å veksle mellom blyant og viskelær?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 ## Steg 6: Stempel
 
 __Nå skal vi lage et stempel som kan lage små avtrykk på tavla.__
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Legg til en ny figur med valgfri drakt og kall den stempel. Vi valgte Scratch-logoen fra __ting__-mappen.
 Krymp figuren og plasser den nederst på skjermen ved siden av de andre verktøyene.
@@ -313,17 +313,17 @@ Klarer du å lage avtrykk?
 Hva skjer når du skifter tilbake til en av blyantene?
 
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 __Veldig bra jobba! Du er nå ferdig med programmet.
 Prøv disse utfordringene!__
 
-## Utfordring 1: Regnbueblyant { .challenge}
+## Utfordring 1: Regnbueblyant {.challenge}
 
 I denne utfordringen skal du legge til en blyant som kan forandrer farge mens du tegner.
 Kult, ikke sant?
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 Først må du legge til regnbue-valget og regnbue-kostymen:
 
@@ -354,9 +354,9 @@ __Klikk på det grønne flagget.__
 Virker regnbueblyanten?
 Hva skjer når du skifter tilbake til en av de andre blyantene?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
-## Utfordring 1: Snarveier { .challenge}
+## Utfordring 1: Snarveier {.challenge}
 
 Nå skal du få prøve å deg på å lage snarveier på tastaturet. Det betyr at man istedenfor å
 klikke på knappene kan bruke tastene for å bytte farge, stemple eller viske ut.
@@ -380,9 +380,9 @@ __Klikk på det grønne flagget.__
 Virker alle snarveiene? 
 Virker knappene fremdeles også?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
-## Utfordring 1: Større og mindre { .challenge}
+## Utfordring 1: Større og mindre {.challenge}
 
 En annen funksjon som tegneprogrammer gjerne har er å forandre størrelsen på
 blyantstreken. Prøv å se om du får til dette.
@@ -424,7 +424,7 @@ Hva skjer om du bytter til stempelet, endrer størrelsen og så forandrer tilbak
 blyanten?
 
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 
 __Veldig, veldig bra! Nå kan du tegne akkurat det du vil!__

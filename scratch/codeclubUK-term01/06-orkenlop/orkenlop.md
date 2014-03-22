@@ -9,15 +9,15 @@ note: "README.md"
 
 #Ørkenløp
 
-# Introduksjon { .intro}
+# Introduksjon {.intro}
 Dette er et spill for to, der en papegøye og en løve kjemper om å komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og ofte som mulig for å flytte figuren sin, og den som kommer først til kanten av skjermen vinner.
 
 
 ![](orkenlop.png)
 
-# Steg 1: Lage en scene og legg til figurer { .activity}
+# Steg 1: Lage en scene og legg til figurer {.activity}
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Klikk på Scene og hent en ny bakgrunn fra biblioteket. Velg __Natur/desert__.
 + Fjern Sprite1 ved å høyreklikke på figuren og velg Slett.
@@ -25,11 +25,11 @@ Dette er et spill for to, der en papegøye og en løve kjemper om å komme førs
 + Legg så til enda en ny figur: velg Dyr/Parrot. Krymp figuren slik at den er omtrendt like stor som løvinnen ved å bruke ![Krymp](krymp.png).
 
 
-# Steg 2: La løven og papegøyen bevege seg { .activity}
+# Steg 2: La løven og papegøyen bevege seg {.activity}
 
 Vi vil at figurene skal bevege seg når du trykker på en knapp.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Velg først løvefiguren og få den til å `gå (4) steg`{.blockblue} når du trykker __‘L’__ tasten.
 
@@ -45,18 +45,18 @@ Vi vil at figurene skal bevege seg når du trykker på en knapp.
     gå (4) steg
     ```
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Trykk på det grønne flagget.__ 
 Beveger løven og papegøyen seg over skjermen når du trykker på ‘A’ og ‘L’ tastene?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
-# Steg 3: Start kappløpet { .activity}
+# Steg 3: Start kappløpet {.activity}
 
 __Nå må vi kjøre i gang kappløpet og kåre en vinner. Vi begynner med å lage startknapp.__
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Legg til en ny figur. Velg __Ting/Button3__. Flytt den til midten av scenen. 
 + Klikk på Drakter-fanen og symbolet T for å legge til tekst. Trykk på venstre kant av knappen for å legge til et tekstfelt og skriv inn teksten ‘start’. Du kan flytte på teksten ved å trykke en gang på den, og endre innhold ved å dobbeltklikke.
@@ -77,12 +77,12 @@ __Nå må vi kjøre i gang kappløpet og kåre en vinner. Vi begynner med å lag
         skjul
     ```
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget__ og __trykk på startknappen__.
 Teller knappen ned? Sier den ‘LØP’? Blir den borte?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 Vi ønsker at figurene bare beveger seg etter at kappløpet er startet og vi ønsker å vite når kappløpet er over.
 
@@ -105,18 +105,18 @@ Vi ønsker at figurene bare beveger seg etter at kappløpet er startet og vi øn
     ```
 + Gjenta det samme for løvinnen.
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 __Klikk på det grønne flagget.__
 
 Kan løven og papegøyen bare flytte seg når nedtellingen er ferdig?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
-# Steg 4: Avslutte kappløpet { .activity}
+# Steg 4: Avslutte kappløpet {.activity}
 
 __Nå vil vi vite hvem som vinner kappløpet, og i tillegg gjøre klart for en ny runde.__
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Legg til en blokk i papegøyens skript som `setter [kappløp] til (0)`{.blockorange} hvis figuren berører kanten av skjermen.
 
@@ -144,19 +144,19 @@ Trykk på Lyder-fanen og deretter mikrofon-ikonet og spill inn en morsom trudelu
 	
 + Gjør det samme for løvinnen.
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 __Klikk på det grønne flagget.__
 
 Kan du trykke på startknappen og deretter bevege dyrene med tastene __A__ og __L__?
 Kommer riktig vinnerlyd og melding opp på skjermen?
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
-# Steg 5: Nullstill spillet { .activity}
+# Steg 5: Nullstill spillet {.activity}
 
 __Når kappløpet er over må vi fortelle de andre figurene at spillet er over og nullstille spillet, slik at er klart for en ny runde.__
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Klikk på papegøyefiguren og legg til en blokk som sender melding ‘avslutt’ etter at figuren sier den har vunnet.
 
@@ -195,17 +195,17 @@ __Når kappløpet er over må vi fortelle de andre figurene at spillet er over o
     ```
 
 	
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 Kan du spille mot en venn? En av dere styrer papegøyen ved å trykke A, og den andre løven
 ved å trykke L.
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 
-##Utfordring 1: Legg til en rakett! { .challenge}
+##Utfordring 1: Legg til en rakett! {.challenge}
 
 * __Legg til en rakett__ som kan brukes én gang per kappløp og som flytter papegøyen eller løven __30 steg på en gang.__
 * __Legg til en ny drakt__  med ild som kommer ut bak hver figur. La denne aktiveres når raketten avfyres.
@@ -225,11 +225,11 @@ ved å trykke L.
 				send melding [avslutt v]
 	
     
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
-## Utfordring 2: Bruk egendefinerte blokker for å forenkle skriptet ditt { .challenge}
+## Utfordring 2: Bruk egendefinerte blokker for å forenkle skriptet ditt {.challenge}
 
 Koden som brukes til å sjekke om kappløpet er over brukes nå to steder for hver figur; når figuren beveger seg normalt og når den beveger seg med rakett.
 Vi kan forenkle skriptet vårt ved å bruke en egendefinert blokk. Dette er en samling kode som brukes flere steder. Det er nesten som at vi lager vår egen Scratch kodeblokk!
@@ -262,8 +262,8 @@ Slett den andre `hvis`{.blockyellow}` berører [kant v]?`{.blocklightblue} blokk
 
 Gjør dette koden din enklere å lese? Kan du lage en tilsvarende egendefinert blokk for løvinnen?
 
-## Test prosjektet { .flag}
+## Test prosjektet {.flag}
 
-## Lagre prosjektet { .save}
+## Lagre prosjektet {.save}
 
 __Veldig bra! Nå er du ferdig og kan nye spillet du har laget!__
