@@ -7,8 +7,16 @@
 
     "projects": [
         {
-            "filename": "labyrint/labyrint.md",
-            "number": 1
-        }]
+            "number":   1,
+            "filename": "labyrint/labyrint.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Introduksjon til Programmering",
+            "note": "../intro_til_programmering.md"
+        }
+    ]
 }
 

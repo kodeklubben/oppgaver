@@ -13,7 +13,7 @@ I dette spillet vil vi kontrollere en liten __utforsker__ mens hun
 leter etter __skatten__ gjemt inne i labyrinten. Dessverre er skatten
 beskyttet av den skumle __froskekongen__.
 
-![](skjermbilde.png)
+![](labyrint.png)
 
 # Steg 1: Hvordan styre figurer med piltastene {.activity}
 
@@ -95,8 +95,8 @@ Nå må vi endre i skriptene våre slik at bruker `hastighet`-variabelen.
         sett [hastighet v] til (10)
     ```
 
-+ Deretter endrer vi de fire skriptene vi allerede har laget til å
-bruke `hastighet`.
++ Deretter endrer vi de fire skriptene vi allerede har laget slik at de
+bruker `hastighet`.
 
     ```blocks
         når [pil opp v] trykkes
@@ -142,7 +142,7 @@ alle veggene i labyrinten har samme farge (vi oppdager hvorfor
 snart). Du kan velge selv hvordan labyrinten skal se ut, den trenger
 ikke en gang å ha rette vegger!
 
-![](liten-labyrint.png)
+![Dette er et eksempel på en liten og enkel labyrint. Du kan selv velge hvordan din labyrint skal se ut! Men ikke bruk for lang tid på å tegne labyrinten nå, for vi vil jo fortsette å programmere. Du kan i stedet komme tilbake og tegne en mer avansert labyrint etter at du er ferdig med spillet!](liten-labyrint.png)
 
 ## Tips {.protip}
 
@@ -179,7 +179,7 @@ vi allerede har laget som setter `hastighet`-variabelen.
         når grønt flagg klikkes
         sett [hastighet v] til [10]
         for alltid
-            hvis <(berører fargen [#cc0000]?)>
+            hvis (berører fargen [#cc0000]?)
                 vend @ (180) grader
                 gå (hastighet) steg
                 vend @ (180) grader
@@ -245,7 +245,7 @@ litt enklere å lage skriptet på `Skatt`.
     ```blocks
         når grønt flagg klikkes
         for alltid
-            hvis <(berører [Utforsker v]?)>
+            hvis (berører [Utforsker v]?)
                 skjul
             slutt
         slutt
@@ -272,7 +272,7 @@ begynnelsen.
         når grønt flagg klikkes
         vis
         for alltid
-            hvis <(berører [Utforsker v]?)>
+            hvis (berører [Utforsker v]?)
                 skjul
             slutt
         slutt
@@ -299,7 +299,7 @@ forskjellige):
         sett [hastighet v] til [10]
         gå til x: (-200) y: (0)
         for alltid
-            hvis <(berører fargen [#cc0000]?)>
+            hvis (berører fargen [#cc0000]?)
                 vend @ (180) grader
                 gå (hastighet) steg
                 vend @ (180) grader
@@ -335,7 +335,7 @@ blir veldig likt hvordan `Skatt` merket at den ble funnet.
     ```blocks
         når grønt flagg klikkes
         for alltid
-            hvis <(berører [Utforsker v]?)>
+            hvis (berører [Utforsker v]?)
                 si [Tok deg!] i (1) sekunder
                 stopp [alle v]
             slutt
@@ -382,7 +382,7 @@ måte som vi hindrer utforskeren i å gå gjennom veggen.
         sett [hastighet v] til (5)
         for alltid
             gå (hastighet) steg
-            hvis <(berører fargen [#cc0000]?)>
+            hvis (berører fargen [#cc0000]?)
                 vend @ (180) grader
             slutt
         slutt
@@ -400,10 +400,10 @@ av og til endre retning.
         sett [hastighet v] til (5)
         for alltid
             gå (hastighet) steg
-            hvis <(berører fargen [#cc0000]?)>
+            hvis (berører fargen [#cc0000]?)
                 vend @ (180) grader
             slutt
-            hvis <((tilfeldig tall fra (1) til (25)) = (1))>
+            hvis ((tilfeldig tall fra (1) til (25)) = (1))
                 vend @ ((tilfeldig tall fra (-1) til (1)) * (90)) grader
             slutt
         slutt
