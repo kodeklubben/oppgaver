@@ -7,45 +7,52 @@
 
     "projects": [
         {
-            "number":    1,
-            "filename": "01-felix_og_herbert/felix_og_herbert.md",
-	    "note":     "01-felix_og_herbert/README.md"
+            "number":   1,
+            "filename": "01-felix_og_herbert/felix_og_herbert.md"
         },
         {
-            "filename": "02-spokelsesjakten/spokelsesjakten.md",
-            "number": 2
+            "number":   2,
+            "filename": "02-spokelsesjakten/spokelsesjakten.md"
         },
         {
-            "filename": "03-fyrverkeri/fyrverkeri.md",
-            "number": 3
+            "number":   3,
+            "filename": "03-fyrverkeri/fyrverkeri.md"
         },
         {
-            "filename": "04-enarmet_banditt/enarmet_banditt.md",
-            "number": 4
+            "number":   4,
+            "filename": "04-enarmet_banditt/enarmet_banditt.md"
         },
         {
-            "filename": "05-jafsefisk/jafsefisk.md",
-            "number": 5
+            "number":   5,
+            "filename": "05-jafsefisk/jafsefisk.md"
         },
         {
-            "filename": "06-orkenlop/orkenlop.md",
-            "number": 6
+            "number":   6,
+            "filename": "06-orkenlop/orkenlop.md"
         },
         {
-            "filename": "07-hva_er_det/hva_er_det.md",
-            "number": 7
+            "number":   7,
+            "filename": "07-hva_er_det/hva_er_det.md"
         },
         {
-            "filename": "08-tegneprogram/tegneprogram.md",
-            "number": 8
+            "number":   8,
+            "filename": "08-tegneprogram/tegneprogram.md"
         },
         {
-            "filename": "09-lag_ditt_eget_spill/lag_ditt_eget_spill.md",
-            "number": 9
+            "number":   9,
+            "filename": "09-lag_ditt_eget_spill/lag_ditt_eget_spill.md"
         },
         {
-            "filename": "11-flaksefugl/flaksefugl.md",
-            "number": 11
-        }]
+            "number":   11,
+            "filename": "11-flaksefugl/flaksefugl.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Introduksjon til Programmering",
+            "note": "../intro_til_programmering.md"
+        }
+    ]
 }
 
