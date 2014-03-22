@@ -1,6 +1,6 @@
 ---
 title: Lag ditt eget spill
-level: 1.8
+level: 1.9
 language: nb-NO
 embeds: ["*.png", "../../bilder/*.png"]
 stylesheet: scratch

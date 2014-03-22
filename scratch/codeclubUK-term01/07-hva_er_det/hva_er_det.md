@@ -29,7 +29,6 @@ __Vi vil at noen forskjellige bilder skal komme opp på tavlen.__
         når grønt flagg klikkes
         gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
-		slutt
     ```
 
 ##Test prosjektet { .flag}
@@ -59,7 +58,6 @@ Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom
 		skjul
 		gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
-        slutt
         sett [poeng v] til (110)
         gjenta til ((poeng) = (0))
             endre [poeng v] med [-10]
@@ -67,7 +65,6 @@ Vi skal bruke en poeng-variabel til å kontrollere graden av forvrenging. Dersom
             sett [farge v] effekt til (poeng)
             vis
             vent (1) sekunder
-        slutt
     ```
 
 ##Test prosjektet { .flag}
@@ -108,7 +105,6 @@ Først må vi å vite hva det rette svaret er.
 		skjul
 		gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
-        slutt
 		sett [svar v] til (drakt #)
         sett [poeng v] til (110)
         gjenta til ((poeng) = (0))
@@ -117,7 +113,6 @@ Først må vi å vite hva det rette svaret er.
             sett [farge v] effekt til (poeng)
             vis
             vent (1) sekunder
-        slutt
     ```
 __Nå må vi legge til flere figurer som spilleren kan klikke på.__
 
@@ -173,6 +168,7 @@ For det andre, poengsummen fortsetter å gå ned, selv når man har klikket på 
 
 For å fikse det andre problemet må vi få stoppet __spørsmålfigurens__s `gjenta til`{.blockyellow}-løkke, når spilleren klikker på riktig svar. Vi kan bruke en ny variabel for å gjøre det. 
 Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den verdien 0 når spillet starter, og en annen som setter verdien til 1 når spillet vinnes. Se skript under.
+
 + I tillegg må vi stoppe `gjenta til`{.blockyellow}-løkken når poengsummen har blitt 0 eller vant er 1. 
 + Til slutt legger vi også inn en `ta bort grafiske effekter`{.blockpurple}-blokk som avslører spørsmålsfiguren, når spilleren har gjettet riktig. Skriptet skal nå se slik ut:
 
@@ -181,17 +177,16 @@ Vi kaller denne __vant__ og legger inn en `sett`{.blockorange}-blokk som gir den
 		skjul
 		gjenta (tilfeldig tall fra (1) til (5)) ganger
             neste drakt
-        slutt
 		sett [svar v] til (drakt #)
         sett [poeng v] til (110)
-		sett [vant v] tuk (0)
+		sett [vant v] til (0)
         gjenta til (<(poeng) = (0)> eller <(vant) = (1)>)
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
             vis
             vent (1) sekunder
-        slutt
+        
 	
 	    
 		når jeg mottar [vant v]

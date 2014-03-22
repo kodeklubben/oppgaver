@@ -4,6 +4,7 @@ level: 1.8
 language: nb-NO
 embeds: ["*.png", "../../bilder/*.png"]
 stylesheet: scratch
+materials: "ressurser/*"
 ...
 
 # Introduksjon { .intro}
@@ -36,8 +37,7 @@ Vi starter med en penn som tegner når du drar den rundt på scenen.
 ```blocks
 	når grønt flagg klikkes
 	for alltid
-		gå til musepeker
-	slutt
+		gå til [musepeker v]
 ```
 
 __Nå vil vi bruke denne pennefiguren som en ordentlig penn.__ Om du ser under penn-kategorien kan du se alle slags tegefunksjoner. De vi er interessert i nå er __penn på__ og __penn av__
@@ -48,7 +48,7 @@ __Nå vil vi bruke denne pennefiguren som en ordentlig penn.__ Om du ser under p
 	når grønt flagg klikkes
 	for alltid
 		gå til [musepeker v]
-		hvis <(museknappen er nede?)>
+		hvis (museknappen er nede?)
 			penn på
 		ellers
 			penn av
@@ -66,7 +66,7 @@ Følger pennen musa rundt? Hva skjer om du holder museknappen nede og flytter p�
 	slett
 	for alltid
 		gå til [musepeker v]
-		hvis <(museknappen er nede?)>
+		hvis (museknappen er nede?)
 			penn på
 		ellers
 			penn av
@@ -128,7 +128,7 @@ __Hint:__ Når du skal velge farge kan du flytte dråpeplukkeren bort til fargeb
 ```scratch
 	når jeg mottar [rød v]
 	bytt drakt til [red-pencil v]
-	velg pennefarge (#FF0000)
+	velg pennfarge (#FF0000)
 ```
 
 ## Test prosjektet ditt
@@ -174,7 +174,7 @@ __NB__ For å få plass til alle sjekkene må du først leggge inn en `<> og <>`
 	for alltid 
 		hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
 			gå til [musepeker v]
-			hvis hvis <(museknappen er nede?)>
+			hvis (museknappen er nede?)
 				penn på
 			ellers
 				penn av
@@ -194,10 +194,10 @@ igjen når den går innenfor igjen. Pass derfor på at du får lagt inn en `vis`
 	når grønt flagg klikkes
 	slett
 	for alltid 
-		hvis <<(mus x) > (-230)> og <(mus x) < (230)> og <(mus y) > (-120)> og <(mus y) < (170)>>
+		hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
 			gå til [musepeker v]
 			vis
-			hvis <(museknappen er nede?)>
+			hvis (museknappen er nede?)
 				penn på
 			ellers
 				penn av
@@ -235,7 +235,7 @@ Husk å sette midtpunktet på viskelæret foran.
 ```scratch
 	når jeg mottar [visk v]
 	bytt drakt til [eraser v]
-	velg pennefarge (#606060)
+	velg pennfarge (#606060)
 ```
 
 
@@ -277,7 +277,7 @@ slik at de setter __stempelmodus__ til av. Eksempel (for viskelæret):
 ```scratch
 	når jeg mottar [visk v]
 	bytt drakt til [eraser v]
-	velg pennefarge (#606060)
+	velg pennfarge (#606060)
 	sett [stempelmodus v] til (av)
 ```
 
@@ -290,10 +290,10 @@ skal vi stemple, hvis ikke skal vi bruke den eksiterende __penn på__.
 	når grønt flagg klikkes
 	slett
 	for alltid 
-		hvis <<(mus x) > (-230)> og <(mus x) < (230)> og <(mus y) > (-120)> og <(mus y) < (170)>>
+		hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
 			gå til [musepeker v]
 			vis
-			hvis <(museknappen er nede?)>
+			hvis (museknappen er nede?)
 				hvis <(stempelmodus) = (av)>
 					penn på
 				ellers

@@ -144,7 +144,7 @@ slik at figuren skifter til en ulik drakt hver gang den forandres.
     sett [stoppet v] til (0)
 	bytt drakt til <tilfeldig tall fra (1) til (3)>
     for alltid
-        hvis <(stoppet) = [0]> then	
+        hvis <(stoppet) = [0]>	
             bytt drakt til <tilfeldig tall fra (1) til (3)>
 			vent (0.1) sekunder
     ```
@@ -178,7 +178,7 @@ Hver gang du endrer noe, tenk på om det vil gjøre spillet lettere eller vanske
 eller for vanskelig? Hvordan kan du justere det slik at det blir akkurat passe?
 
 
-## Steg 6: Vis en melding når spillet er over { .activity}
+# Steg 6: Vis en melding når spillet er over { .activity}
 __La oss vise en "Game Over" melding når spillet er over__
 
 ## Sjekkliste { .check}
@@ -194,7 +194,7 @@ La oss først hente en ny bakgrunn som vi viser når spillet er over.
 	Når grønt flagg klikkes
 	bytt bakgrunn til [GameOn v]
     for alltid
-        hvis <([stoppet v] av [Figur3 v]  = [1])>	
+        hvis <([stoppet v] av [Figur3 v])  = [1]>	
             bytt bakgrunn til [GameOver v]
     ```
 
@@ -212,7 +212,7 @@ Dette er en komplisert blokk som kan være litt trøblette å lage, så forsøk 
 	Når grønt flagg klikkes
 	bytt bakgrunn til [GameOn v]
     for alltid
-		hvis <<<([stoppet v] av [Figur3 v]  = [1])> og <([stoppet v] av [Figur2 v]  = [1])>> og <([stoppet v] av [Figur1 v]  = [1])>>
+		hvis <<<([stoppet v] av [Figur3 v])  = [1]> og <([stoppet v] av [Figur2 v])  = [1]>> og <([stoppet v] av [Figur1 v])  = [1]>>
             bytt bakgrunn til [GameOver v]
     ```
 
@@ -242,7 +242,7 @@ og se om Figur1 har samme drakt som Figur2 og om Figur2 har samme drakt som Figu
 	Når grønt flagg klikkes
 	bytt bakgrunn til [GameOn v]
     for alltid
-        hvis <<<([stoppet v] av [Figur3 v]  = [1])> og <([stoppet v] av [Figur2 v]  = [1])>> og <([stoppet v] av [Figur1 v]  = [1])>>	
+        hvis <<<([stoppet v] av [Figur3 v])  = [1]> og <([stoppet v] av [Figur2 v])  = [1]>> og <([stoppet v] av [Figur1 v])  = [1]>>	
 			hvis <<([drakt nr. v]  av [Figur1 v]) = ([drakt nr. v]  av [Figur2 v])> og <([drakt nr. v]  av [Figur2 v]) = ([drakt nr. v] av [Figur3 v])>>
 				bytt bakgrunn til [vinner v]
 			ellers
