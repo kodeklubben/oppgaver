@@ -5,11 +5,13 @@ language: nb-NO
 stylesheet: python
 ...
 
-# 06—Tre på rad
+# Introduksjon {.intro}
 
-På tide med et nytt spill! I dag skal vi lage tre på rad, hvor spillerne etter tur merker ruter med X eller O inntil en av spillerne får tre på rad.
+På tide med et nytt spill! I dag skal vi lage tre på rad, hvor
+spillerne etter tur merker ruter med X eller O inntil en av spillerne
+får tre på rad.
 
-## Steg 1: Tegne rutenettet
+# Steg 1: Tegne rutenettet {.activity}
 
 Vi vil tegne fire linjer, i et #-mønster, som dette:
 
@@ -19,11 +21,14 @@ _|_|_
  | | 
 ```
 
-Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag skal vi i stedet lære å bruke tk-biblioteket til tegning.
+Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag
+skal vi i stedet lære å bruke tk-biblioteket til tegning.
 
-1. Åpne IDLE, lag en ny fil og lagre den som 'xox.py'
+## Sjekkliste {.check}
 
-2. Skriv følgende kode
++ Åpne IDLE, lag en ny fil og lagre den som 'xox.py'
+
++ Skriv følgende kode
 
     ```python
     from tkinter import *
@@ -42,9 +47,9 @@ Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag skal vi i
     mainloop()
     ```
 
-3. Lagre og kjør programmet ditt. Du vil se et rutenett tegnet på skjermen! Steng vinduet rutenettet ble tegnet i for å avslutte programmet ditt.
++ Lagre og kjør programmet ditt. Du vil se et rutenett tegnet på skjermen! Steng vinduet rutenettet ble tegnet i for å avslutte programmet ditt.
 
-### Lerretet
+## Lerretet {.protip}
 
 På samme måte som vi brukte `turtle`-biblioteket når vi tegnet med skilpadder bruker vi her `tkinter`-biblioteket. Vi lager et 600 ganger 600-piksler lerret som tegnes i et vindu med kommandoen `c = Canvas(main, width=600, height=600)`. For datamaskinen ser dette slik ut:
 
@@ -113,9 +118,11 @@ c.create_line(0, 400, 600, 400) # N til P
 
 Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Dette rutenettet ligner ganske mye på koordinatene du kanskje har lært om i mattetimen. Forskjellen er at her begynner vi i øvre, i stedet for nedre, venstre hjørne, slik at `y` blir større når vi går nedover.
 
-## Steg 2: Tegne en sirkel
+# Steg 2: Tegne en sirkel {.activity}
 
-1. I den samme filen vil vi nå legge til en prosedyre som kan tegne en sirkel når du klikker med musen!
+## Sjekkliste {.check}
+
++ I den samme filen vil vi nå legge til en prosedyre som kan tegne en sirkel når du klikker med musen!
 
     ```python
     from tkinter import *
@@ -139,11 +146,11 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
     mainloop()
     ```
 
-2. Kjør koden din, og klikk et sted i rutenettet. Hva skjer?
++ Kjør koden din, og klikk et sted i rutenettet. Hva skjer?
 
     Du skal se en sirkel i den midterste ruta på skjermen.
 
-3. La oss endre på koden slik at vi tegner sirkelen i den samme ruta som du klikker i.
++ La oss endre på koden slik at vi tegner sirkelen i den samme ruta som du klikker i.
 
     For å gjøre dette må vi finne posisjonen til muspekeren og regne ut hvilken rute i rutenettet dette tilsvarer. Dette gjør vi ved å endre på `click`-prosedyren.
 
@@ -177,15 +184,17 @@ Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Det
 
     Linjen `int(c.canvasx(event.x) / 200)` finner først posisjonen til muspekeren `event.x`, gjør om denne til en lerret-posisjon, `c.canvas(event.x)` og deler denne på 200 og runder nedover slik at vi får et tall som er enten 0, 1 eller 2. Dette tallet forteller oss i hvilken kolonne muspekeren er. Linjen `int(c.canvasy(event.y) / 200)` finner på samme måte ut hvilken rad muspekeren befinner seg i.
 
-4. Kjør koden. Legg merke til at hver gang du klikker i en rute tegnes en sirkel i den ruten.
++ Kjør koden. Legg merke til at hver gang du klikker i en rute tegnes en sirkel i den ruten.
 
     Koden `c.create_oval(across * 200, down * 200, (across+1) * 200, (down+1) * 200)` gjør om 'Bortover 1, Nedover 2' til posisjoner på lerretet som Bortover 200, Nedover 400.
 
-## Steg 3: Holde oversikten
+# Steg 3: Holde oversikten {.activity}
 
 Tilsvarende slik vi gjorde i forrige leksjon om Hangman, vil vi nå innføre en liste som kan holde oversikten over hvor vi allerede har klikket. Dette vil være viktig når vi senere vil sjekke om man har tre på rad.
 
-1. Vi lager først en liste `grid` med ni elementer, en for hver rute. Legg til følgende kode rett før definisjonen av prosedyren `click`:
+## Sjekkliste {.check}
+
++ Vi lager først en liste `grid` med ni elementer, en for hver rute. Legg til følgende kode rett før definisjonen av prosedyren `click`:
 
     ```python
     grid = [
@@ -197,7 +206,7 @@ Tilsvarende slik vi gjorde i forrige leksjon om Hangman, vil vi nå innføre en 
 
     Vi kunne ha startet listen med ni tomme strenger, `grid = ["", "", "", "", "", "", "", "", ""]`, men ved å skrive listen som vi gjør er det enklere å huske hvordan rutene på brettet er nummerert.
 
-2. Nå vil vi registrere at vi tegner sirkler i denne listen. Bytt ut `click`-prosedyren med følgende:
++ Nå vil vi registrere at vi tegner sirkler i denne listen. Bytt ut `click`-prosedyren med følgende:
 
     ```python
     def click(event):
@@ -218,15 +227,17 @@ Tilsvarende slik vi gjorde i forrige leksjon om Hangman, vil vi nå innføre en 
     ```
     For å teste at listen virker bruker vi en enkel `print`-kommando som forteller oss hvilken rute vi klikker i, og om vi klikker i samme rute to ganger. `str` gjør om et tall til tekst (en streng) slik at den kan skrives ut sammen med den forklarende teksten.
 
-3. Kjør koden. Klikk i forskjellige ruter slik at du skjønner hvordan vi har nummerert rutene på brettet.
++ Kjør koden. Klikk i forskjellige ruter slik at du skjønner hvordan vi har nummerert rutene på brettet.
 
-## Steg 4: Tegne et kryss
+# Steg 4: Tegne et kryss {.activity}
 
 Vi vil nå legge til en spiller til, som tegner kryss i stedet for sirkel.
 
-1. Vi lager en prosedyre som bestemmer hvem sin tur det er. `choose_shape` undersøker `grid`-listen vår og lar det være `X` sin tur dersom det allerede er flere `O` enn `X` i listen.
+## Sjekkliste {.check}
 
-2. Vi utvider også `click`-prosedyren slik at den kan tegne både sirkler og kryss. Koden ser nå slik ut:
++ Vi lager en prosedyre som bestemmer hvem sin tur det er. `choose_shape` undersøker `grid`-listen vår og lar det være `X` sin tur dersom det allerede er flere `O` enn `X` i listen.
+
++ Vi utvider også `click`-prosedyren slik at den kan tegne både sirkler og kryss. Koden ser nå slik ut:
 
     ```python
     from tkinter import *
@@ -284,13 +295,16 @@ Vi vil nå legge til en spiller til, som tegner kryss i stedet for sirkel.
 
     mainloop()
     ```
-3. Kjør programmet ditt. Prøv å trykk på en rute. Det skal tegnes en O. Klikk på en annen rute. Nå tegnes en X.
++ Kjør programmet ditt. Prøv å trykk på en rute. Det skal tegnes en O. Klikk på en annen rute. Nå tegnes en X.
 
-## Steg 5: Å finne en vinner
+# Steg 5: Å finne en vinner {.activity}
 
-Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre på rad!
+Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen
+får tre på rad!
 
-1. I den samme filen vil vi nå skrive en ny prosedyre `winner`. Vi kaller denne etter hvert klikk for å sjekke om en av spillerene har vunnet.
+## Sjekkliste {.check}
+
++ I den samme filen vil vi nå skrive en ny prosedyre `winner`. Vi kaller denne etter hvert klikk for å sjekke om en av spillerene har vunnet.
     
     Den ferdige koden ser ut som følger:
 
@@ -373,7 +387,7 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
 
     mainloop()
     ```
-2. Prøv å spill spillet slik at du får tre på rad. Kan du klikke i noen flere ruter?
++ Prøv å spill spillet slik at du får tre på rad. Kan du klikke i noen flere ruter?
 
     Prosedyren `winner` undersøker de fire forskjellige måtene man kan få tre på rad på:
 
@@ -385,6 +399,7 @@ Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre
 
     4. Sjekk diagonalen fra øvre høyre til nedre venstre hjørne.
 
-## Steg 6:
+# Steg 6: {.activity}
 
-Du er ferdig med en enkel versjon av tre på rad! Prøv å endre koden, for eksempel slik at den tegner andre symboler.
+Du er ferdig med en enkel versjon av tre på rad! Prøv å endre koden,
+for eksempel slik at den tegner andre symboler.

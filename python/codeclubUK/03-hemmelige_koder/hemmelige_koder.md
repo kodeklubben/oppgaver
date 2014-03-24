@@ -56,7 +56,7 @@ Her kan du få trøbbel med norske bokstaver om du ikke har Python 3. Du ser det
 
 ## Sjekkliste {.check}
 
-1. Først må vi lære python alfabetet. Åpne IDLE og lag en ny fil med koden
++ Først må vi lære python alfabetet. Åpne IDLE og lag en ny fil med koden
 under:
 
     ```python
@@ -65,13 +65,15 @@ under:
     print(len(alphabet))
     ```
 
-2. Når du kjører dette programmet skal det skrive ut 29. Pass på at du har med alle bokstavene, ellers kommer ikke den hemmelige koden din til å virke.
++ Når du kjører dette programmet skal det skrive ut 29. Pass på at du har med alle bokstavene, ellers kommer ikke den hemmelige koden din til å virke.
 
     Hvis du er fornøyd med alfabetet ditt kan vi begynne å kode en bokstav.
 
-## Steg 2: Kode en bokstav
+# Steg 2: Kode en bokstav {.activity}
 
-1. Akkurat som vi gjorde med hjulet ovenfor kan vi finne posisjonen til en bokstav ved å telle forover, og så bruke bokstaven vi ender opp med.
+## Sjekkliste {.check}
+
++ Akkurat som vi gjorde med hjulet ovenfor kan vi finne posisjonen til en bokstav ved å telle forover, og så bruke bokstaven vi ender opp med.
 
     Skriv inn koden under og kjør den:
 
@@ -95,52 +97,52 @@ under:
 
     Vi slår opp hvor "a" er i alfabetet og legger til det hemmelige tallet vårt for å telle fremover. Vi sjekker om vi har gått rundt, hvis vi har det må vi gå en hel runde tilbake igjen ved å trekke fra 29 (dette er litt som med gradene, å trekke fra 360 gjør at vi er akkurat der vi var). Så slår vi opp i alfabetet igjen for å se hvilken hemmelige bokstav vi fikk.
 
-2. Kjør koden og se hva som skjer.
++ Kjør koden og se hva som skjer.
 
-3. La oss ta en titt på koden igjen, men vi tar det sakte.
++ La oss ta en titt på koden igjen, men vi tar det sakte.
 
     Du trenger ikke å skrive dette! Alt som står bak firkant-tegnet bryr python seg vanligvis ikke om, det er bare kommentarer til mennesker som skal lese koden.
 
     ```python
-
     # alphabet er navnet på teksten fra a til å
     alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-    # Den hemmelige bokstaven (letter) og det hemmelige tallet (secret) vi
-    # bruker for å kode det
+    # Den hemmelige bokstaven (letter) og det hemmelige tallet
+    # (secret) vi bruker for å kode det
     letter = "a"
     secret = 3
 
-    # Finn posisjonen til bokstaven
-    # og python vil gi oss et tall fra 0 til 28 (python teller fra 0)
+    # Finn posisjonen til bokstaven. Python vil gi oss et
+    # tall fra 0 til 28 (python teller fra 0)
     pos = alphabet.find(letter)
 
-    # gå like langt fremover som det hemmelige tallet sier vi skal
+    # Gå like langt fremover som det hemmelige tallet sier
     newpos = (pos + secret)
 
-    # Hvis vi har telt for langt, må vi gå en runde tilbake for å få et tall
-    # mellom 0 og 28
+    # Hvis vi har telt for langt, må vi gå en runde tilbake
+    # for å få et tall mellom 0 og 28
     if newpos >= 29:
         newpos = newpos - 29
 
-    # Slå opp denne posisjonen for å se hvilken bokstav i alfabetet som står
-    # der
+    # Slå opp denne posisjonen for å se hvilken bokstav
+    # i alfabetet som står der
     secretletter = alphabet[newpos]
 
-    # og skriv dette ut på skjermen
+    # Skriv denne bokstaven ut på skjermen
     print(secretletter)
     ```
 
     Det er mye python-ting som skjer her, men ikke bli skremt om du ikke forstår alt til å begynne med. Mye av dette er akkurat som i scratch. `if newpos >= 29` er bare en `if`-setning, en ting som bare kjører koden under hvis det som står etter `if` er sant. En `if`-setning bruker en innrykksblokk, akkurat som `for` og `def` som vi har sett tidligere.
 
-
 Nå som vi kan kode en bokstav, hva med å dekode en?
 
-## Steg 3: Finne tilbake bokstavene
+# Steg 3: Finne tilbake bokstavene {.activity}
 
 Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til bokstaven, men denne gangen skal vi gå bakover i alfabetet for å dekode.
 
-1. Forsøk å skriv inn denne koden og kjør den:
+## Sjekkliste {.check}
+
++ Forsøk å skriv inn denne koden og kjør den:
 
     ```python
     alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
@@ -160,7 +162,7 @@ Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til boksta
     print(letter)
     ```
 
-## Steg 4: Bygge funksjoner
+# Steg 4: Bygge funksjoner {.activity}
 
 La oss ta den første programkoden (som laget Cæsar-kode av bokstaver) og gjøre den om til en
 funksjon `encode` og den andre programkoden til en funksjon `decode`. I modul to snakket vi om å bruke prosedyrer for å unngå gjentagelser, denne gangen skal vi lage funksjoner i stedet. Ved første øyekast er prosedyrer og funksjoner veldig like (og Python bryr seg strengt tatt ikke om forskjellen), men når man ser nærmere etter har de ulike egenskaper. Dette spiller ikke så stor rolle nå, men det er like greit å lære seg forskjellen med en gang.
@@ -169,7 +171,9 @@ Prosedyrer bare gjør ting, mens funksjoner bare beregner ting. Noen ganger blan
 
 For å få en funksjon (eller en prosedyre som beregner noe) til å returnere en verdi som vi kan bruke senere, bruker vi kommandoen `return`.
 
-1. Lag en fil som ser slik ut:
+## Sjekkliste {.check}
+
++ Lag en fil som ser slik ut:
 
     ```python
     alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
@@ -183,7 +187,6 @@ For å få en funksjon (eller en prosedyre som beregner noe) til å returnere en
             newpos = newpos - 29
 
         return alphabet[newpos]
-
 
 
     def decode(letter, secret):
@@ -202,17 +205,18 @@ For å få en funksjon (eller en prosedyre som beregner noe) til å returnere en
 
     Husk at du kan bruke 'Tab' i IDLE for å få innrykk. Du kan også merke deler av koden og rykke alt inn på en gang.
 
-2. Prøv å kode og dekode noen bokstaver!
++ Prøv å kode og dekode noen bokstaver!
 
 
-## Steg 5: Send et hemmelig ord eller to, og finn dem tilbake igjen
+# Steg 5: Send et hemmelig ord eller to, og finn dem tilbake igjen {.activity}
 
 Nå har vi noen funksjoner, la oss bruke dem til å kode ord. Vi kommer til å gå igjennom hver bokstav i ordet og kode det hvis det finnes i alfabetet (vi hopper over tegn som punktum og mellomrom).
 
-1. Under de nye funksjonene fra forrige oppgave kan du skrive inn koden under (med andre ord: behold det du gjorde i oppgave 4, og legg til koden under).
+## Sjekkliste {.check}
+
++ Under de nye funksjonene fra forrige oppgave kan du skrive inn koden under (med andre ord: behold det du gjorde i oppgave 4, og legg til koden under).
 
     ```python
-
     secret = 17
     message = "hello world"
 
@@ -240,11 +244,11 @@ Nå har vi noen funksjoner, la oss bruke dem til å kode ord. Vi kommer til å g
     print(output)
     ```
 
-2. Kjør programmet og se hva som skjer.
++ Kjør programmet og se hva som skjer.
 
     Den første delen av koden burde skrive ut "yvååc kcfåu", som er den hemmelige versjonen av "hello world". Den andre delen dekoder det igjen og skriver ut "hello world"
 
-## Steg 6: Dekoding av noen hemmelige beskjeder
+# Steg 6: Dekoding av noen hemmelige beskjeder {.activity}
 
 Her er noen hemmelige beskjeder, forsøk å dekode dem!
 

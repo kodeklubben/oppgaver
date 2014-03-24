@@ -5,17 +5,21 @@ language: nb-NO
 stylesheet: python
 ...
 
-# 05—Hangman
+# Introduksjon {.intro}
 
-La oss lage et spill: Hangman! Datamaskinen vil velge et ord og du kan gjette det bokstav for bokstav. Dersom du gjetter feil for mange ganger taper du.
+La oss lage et spill: Hangman! Datamaskinen vil velge et ord og du kan
+gjette det bokstav for bokstav. Dersom du gjetter feil for mange
+ganger taper du.
 
-## Steg 1: Velg et ord
+# Steg 1: Velg et ord {.activity}
 
 Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne.
 
-1. Åpne IDLE, og åpne et nytt vindu
+## Sjekkliste {.check}
 
-2. Skriv inn følgende kode:
++ Åpne IDLE, og åpne et nytt vindu
+
++ Skriv inn følgende kode:
 
     ```python
     from random import choice
@@ -25,17 +29,19 @@ Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne
     print(word)
     ```
 
-3. Lagre programmet ditt og kjør det. Hvilket ord skrives ut?
++ Lagre programmet ditt og kjør det. Hvilket ord skrives ut?
 
-4. Kjør programmet en gang til. Skriver det ut et annet ord?
++ Kjør programmet en gang til. Skriver det ut et annet ord?
 
 Hver gang du kjører dette programmet vil det velge et tilfeldig ord fra listen `["kode", "kurs"]` ved hjelp av `choice`-funksjonen.
 
-## Steg 2: Gjett en bokstav
+# Steg 2: Gjett en bokstav {.activity}
 
 Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
 
-1. I den samme filen, endre koden så den ser ut som følger
+## Sjekkliste {.check}
+
++ I den samme filen, endre koden så den ser ut som følger
 
     ```python
     from random import choice
@@ -50,13 +56,13 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
     print("Gjett en bokstav i ordet:", out)
     ```
 
-2. Lagre og kjør programmet.
++ Lagre og kjør programmet.
 
-3. Du burde se `Gjett en bokstav i ordet: ____`, i output-vinduet (det andre vinduet, ikke vinduet du har skrevet programmet ditt i).
++ Du burde se `Gjett en bokstav i ordet: ____`, i output-vinduet (det andre vinduet, ikke vinduet du har skrevet programmet ditt i).
 
     Vi bruker en `for`-løkke for å bygge en tekst hvor hver bokstav i ordet er byttet med en understrek `_`. Ordet `kode` vil da for eksempel skrives som `____` til skjermen.
 
-4. La oss gjette på en bokstav! Endre koden så den ser ut som dette
++ La oss gjette på en bokstav! Endre koden så den ser ut som dette
 
     ```python
     from random import choice
@@ -82,13 +88,18 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
 
 Da har vi gjort det viktigste, la oss fortsette videre.
 
-(Python 2 tips: Bruk `raw_input` i stedet for `input` dersom du bruker en gammel version av python)
+## Python 2 tips: {.protip}
 
-## Steg 3: Husk bokstavene som er gjettet
+Bruk `raw_input` i stedet for `input` dersom du bruker en gammel
+version av python.
+
+# Steg 3: Husk bokstavene som er gjettet {.activity}
 
 Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
 
-1. I den samme filen, endre koden så den ser slik ut:
+## Sjekkliste {.check}
+
++ I den samme filen, endre koden så den ser slik ut:
 
     ```python
     from random import choice
@@ -98,7 +109,6 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
     guessed = []
 
     while True:
-
         out = ""
         for letter in word:
             if letter in guessed:
@@ -125,18 +135,21 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
         print()
     ```
 
-2. Kjør koden og prøv å gjette bokstavene.
++ Kjør koden og prøv å gjette bokstavene.
 
     Vi har laget en `while True`-løkke, tilsvarende `for alltid` i scratch. Denne vil i utgangspunktet fortsette å spørre spilleren om å gjette bokstaver for alltid. For å komme ut av løkken bruker vi kommandoen `break` når ordet har blitt gjettet.
 
     Vi bruker også en liste, `guessed`, hvor vi legger til bokstavene som er riktige for å huske dem senere.
 
 
-## Steg 4: Tell feilene
+# Steg 4: Tell feilene {.activity}
 
-For at Hangman skal holde oversikt over alle bokstavene som er gjettet på må vi også huske på når spilleren gjetter feil.
+For at Hangman skal holde oversikt over alle bokstavene som er gjettet
+på må vi også huske på når spilleren gjetter feil.
 
-1. Endre filen du jobber med slik at den blir seende ut som dette:
+## Sjekkliste {.check}
+
++ Endre filen du jobber med slik at den blir seende ut som dette:
 
     ```python
     from random import choice
@@ -147,7 +160,6 @@ For at Hangman skal holde oversikt over alle bokstavene som er gjettet på må v
     wrong = []
 
     while True:
-
         out = ""
         for letter in word:
             if letter in guessed:
@@ -173,15 +185,17 @@ For at Hangman skal holde oversikt over alle bokstavene som er gjettet på må v
             wrong.append(guess)
 
         print()
-
     ```
     Vi bruker en ny liste `wrong` som tar vare på alle bokstavene vi har gjettet som er feil.
 
-Bare en ting gjenstår før spillet er ferdig, vi vil begrense hvor mange forsøk man har til å gjette.
+# Steg 5: Bare noen få forsøk {.activity}
 
-## Steg 5: Bare noen få forsøk
+Bare en ting gjenstår før spillet er ferdig, vi vil begrense hvor
+mange forsøk man har til å gjette.
 
-1. Endre filen for å legge til en ny variabel, `tries`:
+## Sjekkliste {.check}
+
++ Endre filen for å legge til en ny variabel, `tries`:
 
     ```python
     from random import choice
@@ -194,7 +208,6 @@ Bare en ting gjenstår før spillet er ferdig, vi vil begrense hvor mange forsø
     tries = 7
 
     while tries > 0:
-
         out = ""
         for letter in word:
             if letter in guessed:
@@ -228,25 +241,24 @@ Bare en ting gjenstår før spillet er ferdig, vi vil begrense hvor mange forsø
         print("Du klarte ikke å gjette", word)
     ```
 
-2. Kjør programmet, og se hva som skjer når du gjetter feil bokstaver.
++ Kjør programmet, og se hva som skjer når du gjetter feil bokstaver.
 
     Legg merke til at vi endret `while`-løkken ved å legge inn en forutsetning, `while tries > 0`. Dette betyr at løkken bare kjøres så lenge variabelen `tries` er større enn 0. Kikker du litt rundt i koden ser du at `tries` starter med verdien 7, også blir den 1 mindre for hver feil bokstav som gjettes. Altså vil spilleren kunne gjette opp til 7 bokstaver feil før spillet er slutt.
 
-## Steg 6: Legg til nye ord
+# Steg 6: Legg til nye ord {.activity}
 
-1. Finn linjen i programkoden som sier:
+## Sjekkliste {.check}
+
++ Finn linjen i programkoden som sier:
 
     ```python
     word = choice(["kode", "kurs"])
     ```
 
-2. Vi kan endre denne linjen for å legge til flere ord i spillet. Prøv for eksempel
++ Vi kan endre denne linjen for å legge til flere ord i spillet. Prøv for eksempel
 
     ```python
     word = choice(["kode", "kurs", "robot", "klubb"])
     ```
     
     Husk at ordene må stå i anførselstegn og at det må være komma mellom ordene for å lage en liste. Legg til flere ord som du finner på selv.
-
-
-

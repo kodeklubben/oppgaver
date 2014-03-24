@@ -9,7 +9,7 @@ stylesheet: python
 
 ## Sjekkliste {.check}
 
-1. Åpne IDLE-editoren, og åpne en ny fil ved å trykke `File > New Window`,
++ Åpne IDLE-editoren, og åpne en ny fil ved å trykke `File > New Window`,
 og la oss begynne.
 
     Husk at du skal ha to vinduer åpne. Det ene er 'Python Shell' og det andre er for å skrive kode i.
@@ -24,7 +24,7 @@ og la oss begynne.
         right(90)
 
     ```
-2. Lagre det som en ny fil, og kjør programmet fra menyen ved å trykke `Run > Run Module`.
++ Lagre det som en ny fil, og kjør programmet fra menyen ved å trykke `Run > Run Module`.
 
     Husk at `for n in range(4)` gjentar koden, og at koden må grupperes med mellomrom (innrykk) for å være en del av for-løkken. Bruk 'Tab' (knappen over Caps-Lock) for å flytte kode.
 
@@ -34,7 +34,7 @@ La oss bruke variabler for å gjøre programmet vårt lettere å lese og lettere
 
 ## Sjekkliste {.check}
 
-1. Endre programmet så det ser slik ut:
++ Endre programmet så det ser slik ut:
 
     ```python
     from turtle import *
@@ -48,7 +48,7 @@ La oss bruke variabler for å gjøre programmet vårt lettere å lese og lettere
         right(angle)
     ```
 
-2. Kjør det ved å trykke `Run > Run Module` fra menyen. Får du den samme firkanten som før? Sjekk at det virker før du går videre.
++ Kjør det ved å trykke `Run > Run Module` fra menyen. Får du den samme firkanten som før? Sjekk at det virker før du går videre.
 
 Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken figur vi vil. Problemet er bare at vi er nødt til å klippe og lime programmet for å få det til. Som tidligere kan vi skrive kode for å slippe å gjenta oss selv (programmerere anstrenger seg gjerne litt slik at de kan være late etterpå!). Denne gangen vil vi definere en ny kommando.
 
@@ -56,7 +56,7 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
 
 ## Sjekkliste {.check}
 
-1. Vi endrer koden og legger til `def poly():`. Pass på at koden har riktig innrykk (du kan merke den og trykke Tab) og bruk den nye prosedyren. (Å bruke en prosedyre heter å kalle prosedyren).
++ Vi endrer koden og legger til `def poly():`. Pass på at koden har riktig innrykk (du kan merke den og trykke Tab) og bruk den nye prosedyren. (Å bruke en prosedyre heter å kalle prosedyren).
 
     ```python
     from turtle import *
@@ -76,7 +76,7 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
     poly()
     ```
 
-2. Kjør programmet. Hvis det virker skal to røde firkanter bli tegnet.
++ Kjør programmet. Hvis det virker skal to røde firkanter bli tegnet.
 
 Vi sparte litt tid ved å definere en ny prosedyre i Python, og nå kan vi tegne en rød firkant to ganger, uten å skrive hele greia to ganger. Disse nye kommandoene heter prosedyrer i Python, og de er fine for å slippe å skrive så mye.
 
@@ -86,7 +86,7 @@ Vi er ikke ferdige ennå - hva med å endre prosedyren så den kan tegne hvilken
 
 ## Sjekkliste {.check}
 
-1. Endre koden så den ser slik ut:
++ Endre koden så den ser slik ut:
 
     ```python
     from turtle import *
@@ -105,7 +105,7 @@ Vi er ikke ferdige ennå - hva med å endre prosedyren så den kan tegne hvilken
     poly(3, 150)
     ```
 
-2. Kjør den og se hva som skjer.
++ Kjør den og se hva som skjer.
 
     La oss ta dette litt sakte, for dette er ganske kule greier. Istedenfor å bestemme variablene i prosedyren, sier vi at prosedyren tar noen verdier som har navn, og så bruker vi verdiene der vi trenger dem.
 
@@ -113,14 +113,14 @@ Vi er ikke ferdige ennå - hva med å endre prosedyren så den kan tegne hvilken
 
 Å være i stand til å definere nye prosedyrer som kan oppføre seg forskjellig basert på verdiene vi gir inn er et av de kraftigste verktøyene i programmering.
 
-### __Protip:__ {.protip}
+### Tips {.protip}
 Vi skiller mellom prosedyrer og funksjoner når vi snakker om dem, men de er ser helt like ut i Python. Det kommer funksjoner i neste kapittel, men vi nevner det allerede nå så du har hørt om det. Forskjellen er at en prosedyre kan gjøre noe med omverdenen, for eksempel tegne noe eller skrive noe på skjermen. Både prosedyrer og funksjoner kan returnere en verdi også, det kommer vi tilbake til, men prosedyren kan finne på å gi forskjellig resultat selv om du gir inn samme verdier. For eksempel kan en prosedyre `erDet("fredag")` svare ja på fredager og nei på lørdager. En funksjon derimot må alltid svare det samme hvis den får de samme verdiene.
 
 # Steg 5: Skilpaddestreker {.activity}
 
 ## Sjekkliste {.check}
 
-1. Selv om skilpadden er en liten robot som kan tegne, kan den også flytte seg uten å tegne. Husk at vi kan bruke `penup()` og `pendown()` for å slå av og på at skilpadden setter spor. Åpne en ny Python-fil, og skriv inn koden under:
++ Selv om skilpadden er en liten robot som kan tegne, kan den også flytte seg uten å tegne. Husk at vi kan bruke `penup()` og `pendown()` for å slå av og på at skilpadden setter spor. Åpne en ny Python-fil, og skriv inn koden under:
 
     ```python
     from turtle import *
@@ -133,7 +133,7 @@ Vi skiller mellom prosedyrer og funksjoner når vi snakker om dem, men de er ser
         pendown()
     ```
 
-2. Dette programmet tegner en stiplet linje over skjermen. Kjør det og sjekk!
++ Dette programmet tegner en stiplet linje over skjermen. Kjør det og sjekk!
 
 # Steg 6: Tegne figurer {.activity}
 
@@ -141,7 +141,7 @@ Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut
 
 ## Sjekkliste {.check}
 
-1. Endre koden så den ser ut som følgende:
++ Endre koden så den ser ut som følgende:
 
     ```python
     from turtle import *
@@ -165,7 +165,7 @@ Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut
     pencolor('blue')
     dashpoly(3, 150)
     ```
-2. Kjør koden og se hva den gjør.
++ Kjør koden og se hva den gjør.
 
     Vi har to for-løkker inni hverandre, en ytre og en indre. Den ytre løkken `for n in range(sides)` tegner hver kant av figuren, og hver gang kjører den indre løkken `for num in range(8)` som tegner stiplete linjer.
 
@@ -175,7 +175,7 @@ Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut
 
 ## Sjekkliste {.check}
 
-1. La oss bruke prosedyrer igjen for å rydde opp i koden. Endre koden fra steg 6 og la oss dele koden i biter.
++ La oss bruke prosedyrer igjen for å rydde opp i koden. Endre koden fra steg 6 og la oss dele koden i biter.
 
     ```python
     from turtle import *
@@ -203,9 +203,9 @@ Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut
     dashpoly(3, 150)
     ```
 
-2. Kjør koden og se at den gjør akkurat det samme som før. 
++ Kjør koden og se at den gjør akkurat det samme som før. 
 
-### Protip {.protip}
+### Tips {.protip}
 
 Trikset er at istedenfor å bygge programmer ved å klippe og lime, kan vi definere nye kommandoer og gjenbruke dem. Da blir koden kortere og litt lettere å forstå.
 
@@ -215,7 +215,7 @@ Hva om vi gjør litt tilfeldige sprell rett før vi er ferdige?  Vi kan be datam
 
 ## Sjekkliste {.check}
 
-1. I en ny fil, skriv inn følgende:
++ I en ny fil, skriv inn følgende:
 
     ```python
 
@@ -238,7 +238,7 @@ Hva om vi gjør litt tilfeldige sprell rett før vi er ferdige?  Vi kan be datam
 
     ```
 
-2. Lagre og kjør koden
++ Lagre og kjør koden
 
     Programmet skal tegne ti figurer i forskjellige farger med forskjellig størrelse. Linjen  `from random import randrange, random` gir oss to nye prosedyrer, `randrange()` og `choice()`.
 
