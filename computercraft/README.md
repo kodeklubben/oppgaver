@@ -19,7 +19,7 @@ med Minecraft.
    eksempel versjon 1.6.4).
 
 2. Start Minecraft Launcher. Sjekk om du har den riktige versjonen av
-   Minecraft tilgjengelig. Hvis ikke kan du velge `New Profile`, og i
+   Minecraft tilgjengelig. Hvis ikke kan du velge `New Profile` og i
    nedtrekksmenyen `Use Version` velger du riktig versjon. Gi profilen
    et navn (for eksempel versjonsnummeret) og klikk `Save
    Profile`. Klikk `Play` slik at denne versjonen blir lastet ned og
@@ -46,10 +46,12 @@ med Minecraft.
    `mods`-katalogen.
 
 7. Nå er vi så godt som ferdige. Start Minecraft Launcher en gang
-   til. Velg profilen `Forge` og klikk `Edit Profile`. Endre navnet på
-   profilen til `ComputerCraft` og klikk `Save Profile`. Klikk
-   `Play`. Når du klikker `Mods` fra hovedmenyen skal du se at
-   ComputerCraft er en av de tilgjengelige mods'ene.
+   til. Velg profilen `Forge` og klikk `Play`. Når du klikker `Mods`
+   fra hovedmenyen skal du se at ComputerCraft er en av de
+   tilgjengelige mods'ene. Om du vil kan du endre på navnet til
+   profilen ved å klikke `Edit Profile` tilbake i Minecraft
+   Launcher. Om du for eksempel kaller profilen `ComputerCraft` blir
+   det enklere å finne den igjen senere.
 
 ## Kom i gang
 
@@ -64,11 +66,12 @@ et rolig og enkelt spill:
 
 3. Du kan nå lage din første datamaskin.  Trykk `E` for å gå til
    Inventory-listen. Øverst kan du nå velge å klikke `>` for å gå til
-   side 2. Trykk deretter på datamaskin-symbolet (en grå
+   neste side. Trykk deretter på datamaskin-symbolet (en grå
    kloss/skjerm), og gi deg selv en `Computer`.
 
 4. Sett ut en `Computer` ved å høyre-klikke. Høyre-klikk så en gang
    til på datamaskinen du nettopp satte ut. En svart skjerm skal dukke
    opp, med teksten CraftOS og et versjonsnummer i øverste
-   linje. Gratulerer! Du har startet en datamaskin inne i
-   Minecraft-verdenen.
+   linje.
+
+Gratulerer! Du har startet en datamaskin inne i Minecraft-verdenen.
