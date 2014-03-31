@@ -1,16 +1,16 @@
 ComputerCraft
 =============
 
-[ComputerCraft](http://www.computercraft.info/) er en Mod til
+[ComputerCraft](http://www.computercraft.info/) er en mod til
 [Minecraft](https://minecraft.net/), som gir deg muligheten til å
 bygge og programmere datamaskiner og skilpadder inne i
 Minecraft-verdenen.
 
-## Innstallering av ComputerCraft
+## Installering av ComputerCraft
 
 ComputerCraft er en mod til Minecraft, og krever derfor at Minecraft
-allerede er innstallert på datamaskinen. Vi antar at brukeren er kjent
-med Minecraft.
+allerede er installert på datamaskinen. Vi antar at du er kjent med
+Minecraft.
 
 1. Gå til <http://www.computercraft.info/download/>. Bla nedover på
    siden til du finner et avsnitt som heter __Download and
@@ -25,7 +25,7 @@ med Minecraft.
    Profile`. Klikk `Play` slik at denne versjonen blir lastet ned og
    startet opp. Avslutt spillet.
 
-3. Før vi kan legge inn ComputerCraft må vi innstallere Minecraft
+3. Før vi kan legge inn ComputerCraft må vi installere Minecraft
    Forge, som gir oss tilgang til å legge inn Mods. Gå til
    <http://files.minecraftforge.net/> og velg den riktige Minecraft
    versjonen i nedtrekksmenyen på toppen av skjermen. Finn linjen som
