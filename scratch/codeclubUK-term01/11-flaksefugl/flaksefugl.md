@@ -4,6 +4,7 @@ level: 1.11
 language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
+note: "README.md"
 ...
 
 # Introduksjon {.intro}
@@ -16,15 +17,18 @@ vingene. Du må holde Flakse flyvende og prøve å styre mellom rørene!
 
 # Steg 1: Få Flakse til å falle {.activity}
 
-*Vi begynner enkelt, med å introdusere Flakse og få ham til å falle.*
+*Vi begynner enkelt, ved å introdusere Flakse og få ham til å falle.*
 
 ## Sjekkliste {.check}
 
-+ Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke den og velge *Slett*.
-+ Bytt ut bakgrunnen med et utendørslandskap. `Desert` er et bra valg.
-+ Legg til Flakse-figuren. Du trenger en figur med drakter for vinger opp og vinger ned. `Parrot` er et bra forslag.
++ Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke den
+og velge *Slett*. Alternativt kan du klikke på saksen i topplinjen, og
+deretter på katten.
++ Bytt ut bakgrunnen med et landskap. `Desert` er et bra valg.
++ Legg til Flakse-figuren. Du trenger en figur med drakter for vinger
+opp og vinger ned. `Parrot` er et bra forslag.
 + Bytt navn på figuren til `Flakse`.
-+ Gi Flakse dette scriptet:
++ Gi Flakse dette skriptet:
 
     ```blocks
         når grønt flagg klikkes
@@ -46,12 +50,13 @@ __Klikk det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Klikk på `Drakter`{.blocklightgrey} og gi de to draktene navnene `Vinger opp` og `Vinger ned`.
++ Klikk på `Drakter`{.blocklightgrey} og gi de to draktene navnene
+`Vinger opp` og `Vinger ned`.
 + Gå tilbake til `Skript`{.blocklightgrey} og legg til dette skriptet:
 
     ```blocks
         Når [mellomrom v] trykkes
-	bytt drakt til [Vinger ned v]
+        bytt drakt til [Vinger ned v]
         gjenta (10) ganger
             endre y med (6)
         slutt
@@ -65,22 +70,27 @@ __Klikk det grønne flagget.__
 
 __Klikk det grønne flagget.__
 
-+ Klarer du å kontrollere Flakse med mellomromstasten?
-+ La du merke til at noen ganger så flytter ikke Flakse seg når du trykker mellomrom? Det er det neste vi skal fikse.
++ Klarer du å kontrollere Flakse med mellomromtasten?
++ La du merke til at noen ganger så flytter ikke Flakse seg når du
+trykker mellomrom? Det er det neste vi skal fikse.
 
 # Steg 3: Gjør kontrollen bedre {.activity}
 
 *Vi vil at Flakse skal reagere hver gang vi trykker mellomrom. Men når
-vi trykker mellomrom så starter to løkker etterhverandre. Hvis vi
+vi trykker mellomrom så starter to løkker etter hverandre. Hvis vi
 trykker mellomrom før disse to løkkene er ferdig så skjer det ikke
 noe. For å løse dette problemet skal vi bruke en variabel til å telle
 hvor mange flaks vi trenger å gjøre.*
 
 ## Sjekkliste {.check}
 
-+ Ta fra hverandre skriptet som starter med `når mellomrom trykkes`{.blockgrey} og legg de til siden. Vi skal bruke blokkene igjen straks.
-+ Lag en ny variabel `For denne figuren` og kall den `flaks`.
-+ Legg til dette skriptet ved å bruke blokkene du la til siden:
++ Ta fra hverandre skriptet som starter med `når mellomrom
+trykkes`{.blockgrey} og legg de til siden. Vi skal bruke klossene
+igjen straks.
++ Lag en ny variabel og kall den `flaks`. Velg at den bare skal gjelde
+`For denne figuren`. Klikk `OK`. Skjul variabelen ved å ta vekk
+avhukingen foran variabelen.
++ Lag et nytt skript ved å bruke klossene du la til siden tidligere:
 
     ```blocks
         når grønt flagg klikkes
@@ -88,7 +98,7 @@ hvor mange flaks vi trenger å gjøre.*
         bytt drakt til [Vinger opp v]
         for alltid
             gjenta til ((flaks) = [0])
-                endre [flaks] med (-1)
+                endre [flaks v] med (-1)
                 bytt drakt til [Vinger ned v]
                 gjenta (10) ganger
                     endre y med (6)
@@ -102,11 +112,11 @@ hvor mange flaks vi trenger å gjøre.*
     ```
 
 + Til slutt, legg til dette skriptet på `når mellomrom
-trykkes`{.blockgrey} blokken:
+trykkes`{.blockgrey}-klossen:
 
     ```blocks
-        når [mellomrom] trykkes
-        endre [flaks] med (1)
+        når [mellomrom v] trykkes
+        endre [flaks v] med (1)
     ```
 
 ## Test prosjektet {.flag}
@@ -121,32 +131,41 @@ __Klikk det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Klikk på *Tegn ny figur*-knappen, ![Tegn ny figur](tegn-ny.png).
-+ Gi den nye figuren navnet `Rør`.
-+ Hvis drakten er i `Punktgrafikk`{.blocklightgrey}, klikk på `Bytt til vektorgrafikk`{.blocklightgrey}-knappen.
++ Legg til en ny figur ved å klikke på *Tegn ny figur*-knappen,
+![Tegn ny figur](tegn-ny.png).
++ Hvis det står `Punktgrafikk`{.blocklightgrey} nede til høyre, klikk
+på `Bytt til vektorgrafikk`{.blocklightgrey}-knappen.
 + Klikk på `Zoom -`{.blocklightgrey} så du kan se hele tegneområdet.
-+ Klikk på `Rektangel`{.blocklightgrey}, velg en farge og klikk på `Fylt rektangel`{.blocklightgrey} knappen nederst til venstre.
-+ Klikk og dra to bokser, en fra toppen og en fra bunn i midten av tegneflaten. Det skal se omtrent sånn ut:
++ Klikk på `Rektangel`{.blocklightgrey}, velg en farge og klikk på
+`Fylt rektangel`{.blocklightgrey} knappen nederst til venstre.
++ Klikk og dra to bokser, en fra toppen og en fra bunnen i midten av
+tegneflaten. Det skal se omtrent sånn ut:
 
-![](pipe_design.png)
+    ![](pipe_design.png)
  
-+ Du kan skyggelegge rørene ved å klikke på `Fyll farge`{.blocklightgrey} og klikke på en av skyggemetodene i firkantene nede til venstre. Velg to varianter av samme farge: en for forgrunnen og en for bakgrunnen. Når du klikker på en firkant med fylleverktøyet får du en fin effekt.
++ Du kan skyggelegge rørene ved å klikke på `Fyll
+farge`{.blocklightgrey} og klikke på en av skyggemetodene i firkantene
+nede til venstre. Velg to varianter av samme farge: en for forgrunnen
+og en for bakgrunnen. Når du klikker på en firkant med fylleverktøyet
+får du en fin effekt.
++ Gi den nye figuren navnet `Rør`.
 
 # Steg 5: Få rørene til å bevege seg{.activity}
 
-*Nå skal vi få rørene til å flytte seg og gjøre plasseringen tilfeldig slik at vi får en hinderløype til Flakse.*
+*Nå skal vi få rørene til å flytte seg og gjøre høyden tilfeldig slik
+ at vi får en hinderløype til Flakse.*
 
 ## Sjekkliste {.check}
 
 + Klikk på `Rør`-figuren og velg `Skript`{.blocklightgrey}.
-+ Legg til disse skriptene:
++ Legg til disse to skriptene:
 
     ```blocks
         når grønt flagg klikkes
         skjul
         sett størrelse til (200)%
         for alltid
-            lag klon av [meg]
+            lag klon av [meg v]
             vent (2) sekunder
 
         når jeg starter som klon
@@ -164,25 +183,31 @@ __Klikk det grønne flagget.__
 
 + Kommer det mange rør flygende mot Flakse?
 + Har rørene åpninger til å fly gjennom?
-+ Om du synes det er vanskelig å fly Flakse gjennom åpningene kan du endre på åpningen mellom rørene med tegneverktøyet, eller du kan lage Flakse mindre.
++ Om du synes det er vanskelig å fly Flakse gjennom åpningene kan du
+for eksempel endre på åpningen mellom rørene med tegneverktøyet. En
+annen mulighet er å lage Flakse mindre.
 
 # Steg 6: Finn ut om Flakse kræsjer med rørene {.activity}
 
-*For at spillet skal bli vanskelig må spilleren styre Flakse gjennom åpningene mellom rørene uten å komme borti hverken rør eller kanten av skjermen. Vi skal legge til noen blokker for å merke om Flakse kræsjer.*
+*For at spillet skal bli vanskelig må spilleren styre Flakse gjennom
+ åpningene mellom rørene uten å komme borti hverken rør eller kanten
+ av skjermen. Vi skal legge til noen klosser som merker om Flakse
+ kræsjer.*
 
 ## Sjekkliste {.check}
 
-+ Vi legger til en lyd som vi kan spille når Flakse kræsjer. Klikk på `Flakse`-figuren og så på `Lyder`{.blocklightgrey}.
++ Vi legger til en lyd som vi kan spille når Flakse kræsjer. Klikk på
+`Flakse`-figuren og så på `Lyder`{.blocklightgrey}.
 + Klikk på `Velg lyd fra biblioteket`{.blockgrey}.
 + Velg en kræsjelyd for `Flakse`.  `Screech` er en kul lyd.
 + Klikk deg tilbake til `Skript`{.blocklightgrey}-fanen.
-+ Legg til dette skriptet:
++ Legg til dette skriptet på Flakse:
 
     ```blocks
         når grønt flagg klikkes
         vent til ((berører [kant v]?) eller (berører [Rør v]?))
         spill lyden [screech v]
-        si [Du tapte!]
+        say [Du tapte!]
         send melding [Tap v]
         stopp [andre skript i figuren v]
     ```
@@ -206,15 +231,17 @@ __Klikk det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Vi legger til en lyd hver gang Flakse scorer ett poeng. Klikk på `Rør`-figuren og legg til en lyd. `Bird` er et lurt valg.
++ Vi legger til en lyd hver gang Flakse scorer ett poeng. Klikk på
+`Rør`-figuren og legg til en lyd. `Bird` er et lurt valg.
 + Gå tilbake til `Skript`{.blocklightgrey}-fanen.
-+ Lag en ny variabel `for alle figurer` og kall den `poeng`.
-+ Legg til et skript som setter poengene til 0 når det grønne flagget klikkes. Dette klarer du selv!
-+ Legg til dette skriptet:
++ Lag en ny variabel som skal gjelde `For alle figurer`. Kall den `poeng`.
++ Legg til et skript som setter poengene til 0 når det grønne flagget
+klikkes. Dette klarer du selv!
++ Legg så til dette skriptet på `Rør`:
 
     ```blocks
         når jeg starter som klon
-        vent til ((x posisjon) < ([x posisjon] av [Flakse v]))
+        vent til ((x-posisjon) < ([x-posisjon v] av [Flakse v]))
         endre [poeng v] med (1)
         spill lyden [bird v]
     ```
@@ -234,8 +261,10 @@ Her er noen flere ting du kan prøve:
 
 ## Utfordring 1: Legg til rekorder {.challenge}
 
-+ Lag en ny variabel og merk av `Nett variabel (lagret på nett)` boksen. Kall variabelen `Rekord`.
-+ Når spillet er ferdig må vi sjekke om det er en ny rekord. Det gjør vi slik:
++ Lag en ny variabel og merk av `Nett variabel (lagret på nett)`
+boksen. Kall variabelen `Rekord`.
++ Når spillet er ferdig må vi sjekke om det er en ny rekord. Det gjør
+vi ved å endre `Tap`-skriptet på `Rør` slik:
 
     ```blocks
         når jeg mottar [Tap v]
@@ -249,13 +278,15 @@ Her er noen flere ting du kan prøve:
 
 __Klikk det grønne flagget.__
 
-+ Oppdaterer rekorden seg for hver gang du setter ny rekord?
++ Oppdaterer rekorden seg hver gang du setter ny rekord?
 
 ## Utfordring 2: Legg til tyngdekraft {.challenge}
 
-Når noe faller på grunn av tyngdekraft øker farten jo lenger fallet varer. Vi skal prøve å etterligne denne måten å falle på.
+Når noe faller på grunn av tyngdekraft øker farten jo lenger fallet
+varer. Vi skal prøve å etterligne denne måten å falle på.
 
-+ Legg til en ny variabel `for denne figuren` for `Flakse` og kall den `løft`.
++ Legg til en ny variabel for `Flakse` som heter `løft`. Variablen
+skal gjelde for `For denne figuren`.
 + Endre Flakses falleskript:
 
     ```blocks
@@ -273,14 +304,14 @@ Når noe faller på grunn av tyngdekraft øker farten jo lenger fallet varer. Vi
     ```blocks
         når grønt flagg klikkes
         sett [flaks v] til [0]
-        bytt drakt til [vinger opp v]
+        bytt drakt til [Vinger opp v]
         for alltid
             gjenta til ((flaks) = [0])
-                endre [flaks] med (-1)
-                bytt drakt til [vinger ned v]
+                endre [flaks v] med (-1)
+                bytt drakt til [Vinger ned v]
                 endre [løft v] med (8)
                 vent (0.2) sekunder
-                bytt drakt til [vinger opp]
+                bytt drakt til [Vinger opp v]
                 vent (0.2) sekunder
     ```
 
@@ -294,12 +325,15 @@ __Klikk det grønne flagget.__
 
 Når spilleren taper vil vi at Flakse faller ned og ut av skjermen.
 
-+ Bytt ut `send meldingen Tap`{.blockgrey}-blokken med `send meldingen Fall`{.blockgrey}
-+ Legg til disse skriptene på `Flakse`-figuren:
++ Bytt ut `send meldingen Tap`{.blockgrey}-klossen med `send meldingen
+Fall`{.blockgrey} i skriptet som merker når Flakse kræsjer i kanten
+eller i et rør. Slett `stopp`{.blockyellow}-klossen på slutten av
+skriptet.
++ Legg til disse nye skriptene på `Flakse`-figuren:
 
     ```blocks
         når jeg mottar [Fall v]
-        gjenta (10) ganger
+        for alltid
             vend høyre (5) grader
 
         når jeg mottar [Fall v]
@@ -309,11 +343,14 @@ Når spilleren taper vil vi at Flakse faller ned og ut av skjermen.
 	slutt
 	skjul
 	send melding [Tap v]
+	stopp [andre skript i figuren v]
     ```
 
-+ Du må også legge til en `vis`{.blockpurple}-blokk og sette Flakses retning når spillet starter på nytt.
++ Du må også legge til en `vis`{.blockpurple}-kloss samt sette Flakses
+retning når spillet starter på nytt.
 
 ## Test prosjektet {.flag}
+
 __Klikk det grønne flagget.__
 
 + Faller Flakse ut av skjermen når han treffer et rør?
@@ -323,6 +360,7 @@ __Klikk det grønne flagget.__
 
 __Gratulerer, du er ferdig med spillet! Hva er rekorden din?__
 
-ikke glem å dele spillet med vennene dine. Trykk på `Legg ut` for at andre skal få prøve!
+Ikke glem å dele spillet med vennene dine. Trykk på `Legg ut` for at
+andre skal få prøve!
 
 
