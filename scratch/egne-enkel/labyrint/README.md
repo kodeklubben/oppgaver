@@ -11,7 +11,7 @@ I dette spillet vil vi kontrollere en liten __utforsker__ mens hun
 leter etter __skatten__ gjemt inne i labyrinten. Dessverre er skatten
 beskyttet av den skumle __froskekongen__.
 
-![](skjermbilde.png)
+![](labyrint.png)
 
 # Forberedelser
 
