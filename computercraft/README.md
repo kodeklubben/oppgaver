@@ -3,7 +3,7 @@ ComputerCraft
 
 [ComputerCraft](http://www.computercraft.info/) er en mod til
 [Minecraft](https://minecraft.net/), som gir deg muligheten til å
-bygge og programmere datamaskiner og skilpadder inne i
+bygge og programmere datamaskiner og roboter inne i
 Minecraft-verdenen.
 
 ## Installering av ComputerCraft
@@ -27,10 +27,11 @@ Minecraft.
 
 3. Før vi kan legge inn ComputerCraft må vi installere Minecraft
    Forge, som gir oss tilgang til å legge inn Mods. Gå til
-   <http://files.minecraftforge.net/> og velg den riktige Minecraft
-   versjonen i nedtrekksmenyen på toppen av skjermen. Finn linjen som
-   sier `Latest`, og klikk på `Installer`. Etter litt reklame (du kan
-   velge *Skip ad* etter noen sekunder) starter nedlasting av en fil.
+   <http://files.minecraftforge.net/> og velg den riktige
+   Minecraft-versjonen i nedtrekksmenyen på toppen av skjermen. Finn
+   linjen som sier `Latest`, og klikk på `Installer`. Etter litt
+   reklame (du kan velge *Skip ad* etter noen sekunder) starter
+   nedlastingen av en fil.
 
 4. Kjør filen som ble lastet ned (om du blir spurt hvordan den skal
    kjøres kan du velge Java eller JDK). Velg `Install Client` og klikk
@@ -67,11 +68,11 @@ et rolig og enkelt spill:
 3. Du kan nå lage din første datamaskin.  Trykk `E` for å gå til
    Inventory-listen. Øverst kan du nå velge å klikke `>` for å gå til
    neste side. Trykk deretter på datamaskin-symbolet (en grå
-   kloss/skjerm), og gi deg selv en `Computer`.
+   kloss/skjerm), og gi deg selv en __Computer__.
 
-4. Sett ut en `Computer` ved å høyre-klikke. Høyre-klikk så en gang
+4. Sett ut en __Computer__ ved å høyre-klikke. Høyre-klikk så en gang
    til på datamaskinen du nettopp satte ut. En svart skjerm skal dukke
-   opp, med teksten CraftOS og et versjonsnummer i øverste
+   opp, med teksten `CraftOS` og et versjonsnummer i øverste
    linje.
 
 Gratulerer! Du har startet en datamaskin inne i Minecraft-verdenen.
