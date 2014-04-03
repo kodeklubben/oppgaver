@@ -30,7 +30,7 @@ Minecraft:
 
 + Trykk `E` for å åpne inventory'et ditt. Finn frem 7 __Stone__, 1
 __Redstone__ og 1 __Glass pane__.
-+ Åpne en __Crafting table__, og legg ut materialet slik:
++ Åpne et __Crafting table__, og legg ut materialet slik:
 
     ![](craft_computer.png)
 
@@ -63,16 +63,16 @@ datamaskinen med.
 + Skriv `programs` og trykk enter.
 
     Mange av disse programmene er enkle programmer som lar deg undersøke
-    datamaskinen nærmere. Vi vil se på noen av dem litt senere.
+    datamaskinen nærmere. Vi vil se på noen av dem i en senere leksjon.
 
 # Steg 2: Vårt første program {.activity}
 
 *Det er nå på tide at vi skriver vårt første program.*
 
 Det er en lang tradisjon blant programmerere at det første programmet
-de skriver når de lærer et nytt språk skriver en trivelig melding til
-skjermen. Vi følger den tradisjonen og lager et program som heter
-`heiverden`.
+de lager når de lærer et nytt språk skriver en trivelig melding til
+skjermen. Vi følger den tradisjonen og begynner med et program som
+heter `heiverden`.
 
 ## Sjekkliste {.check}
 
@@ -91,7 +91,7 @@ heter `heiverden`.
 
 + Vi har nå laget vårt første program. Prøv å skriv `programs` og du
 vil se at `heiverden` er på listen over programmer.
-+ For å kjøre programmet vi har laget, skriver vi bare `heiverden` og
++ For å kjøre programmet vi har laget, skriver vi `heiverden` og
 trykker enter.
 
 ### Prøv selv {.try}
