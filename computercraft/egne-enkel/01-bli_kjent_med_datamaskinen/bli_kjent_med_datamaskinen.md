@@ -338,8 +338,8 @@ passordet?
     programmer.
 
 + Vi vil at døren skal åpne seg når vi skriver riktig passord. Dette
-kan vi gjøre ved å bruke __redstone__ som er en energikilde i
-Minecraft. Endre programmet `passord` som følger:
+kan vi gjøre ved å bruke __redstone__ som brukes for å overføre energi
+i Minecraft. Endre programmet `passord` som følger:
 
     ```lua
     local passord = 'kodeklubben'
