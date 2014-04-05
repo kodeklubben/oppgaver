@@ -146,12 +146,11 @@ gjøre alle kommandoene du skriver med en gang.
 
 ### Funksjoner {.protip}
 
-Alle programmeringsspråk lar deg lage noe som kalles
-*funksjoner*. Dette er en samling instruksjoner som utføres sammen
-slik at det blir enklere å gjøre vanskelige ting. Lua kommer også med
-innebygde funksjoner. Vi har så langt sett `print` og `math.random`
-som eksempler på dette. Senere vil vi også lære hvordan vi lager egne
-funksjoner.
+Alle programmeringsspråk lar deg lage noe som kalles *funksjoner*.
+Dette er en samling instruksjoner som utføres sammen slik at det blir
+enklere å gjøre vanskelige ting. Lua kommer med innebygde funksjoner.
+Vi har så langt sett `print` og `math.random` som eksempler på dette.
+Senere vil vi også lære hvordan vi lager egne funksjoner.
 
 ## Sjekkliste {.check}
 
@@ -192,8 +191,8 @@ tilfeldige tall, og `print` skriver en melding til skjermen. Det nye
 er at vi bruker *variabler* til å huske verdiene av de tilfeldige
 tallene. Den første linjen sier at vi vil ha et tilfeldig tall mellom
 2 og 12. Dette tilfeldige tallet husker vi så med en variabel som
-heter `tall1`. Ordet `local` foran variabelen sier vi bare skal huske
-variabelen i dette programmet (lokalt).
+heter `tall1`. Ordet `local` foran variabelen sier at vi bare skal
+huske variabelen i dette programmet (lokalt).
 
 ## Sjekkliste {.check}
 
@@ -302,7 +301,7 @@ vil vi endre verdien av variabelen etterhvert som svarer riktig.
 lag en vegg hvor du setter inn en dør og med datamaskinen rett ved
 siden av døren. Det skal se omtrent slik ut:
 
-    ![](bli_kjent_med_datamaskinen.png)
+    ![](passord.png)
 
 + Start datamaskinen.
 + Lag et nytt program som heter `passord`:
@@ -382,7 +381,7 @@ vises. Programmet ser da slik ut:
         term.clear()
         term.setCursorPos(1, 1)
         print('Hva er passordet?')
-        svar = read(*)
+        svar = read('*')
 
         if svar == passord then
             redstone.setOutput('left', true)
