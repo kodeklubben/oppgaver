@@ -104,7 +104,7 @@ trykker enter.
 ### Prøv selv {.try}
 
 Klarer du å endre på programmet slik at det for eksempel sier hei til
-deg, eller til de som sitter ved siden av deg?
+deg, eller kanskje til de som sitter ved siden av deg?
 
 Prøv å skriv `edit heiverden` en gang til. Da åpner programmet ditt
 seg igjen, og du kan endre på det slik at det sier noe annet. Som
@@ -148,7 +148,7 @@ Vi skal nå prøve å skrive noen kommandoer direkte i Lua. Dette er en
 fin måte å teste enkle ting på.
 
 + Skriv `lua` og trykk enter. Dette starter en *Lua-tolker* som vil
-gjøre hver enkelt kommando du skriver med en gang.
+utføre hver enkelt kommando du skriver med en gang.
 
 + Vi begynner med kommandoen fra det første programmet vårt. Skriv
 `print('Hei verden!')` og trykk enter. Skjer det samme som tidligere?
@@ -182,8 +182,9 @@ dette.  Det går også an å lage egne funksjoner.
 
 + Trykk pil opp-tasten slik at du kan endre
 `redstone.setOutput('left', true)` til `redstone.setOutput('left',
-false)`. Trykk enter. Nå lukker døren seg igjen, fordi vi skrur av
+false)`. Trykk enter. Nå lukker døren seg igjen fordi vi skrur av
 *redstone*-energien.
+
 + Avslutt Lua-tolkeren ved å skrive `exit()` og trykk enter.
 
 # Steg 4: Passordlås på en dør {.activity}
@@ -220,20 +221,21 @@ variabelen i dette programmet (lokalt).
 ## Sjekkliste {.check}
 
 + Vi skal nå jobbe videre med programmet. Vi vil jo at datamaskinen
-skal spørre oss om passordet. Ikke fortelle oss det. Skriv `edit
-passord` igjen, og endre programmet slik:
+skal spørre oss om passordet, ikke fortelle oss hva det er. Skriv
+`edit passord` igjen, og endre programmet slik:
 
     ```lua
     local passord = 'kodeklubben'
-    print('Hva er passordet?')
-    svar = read()
+    print('Hva er passordet?')                    -- endret linje
+    svar = read()                                 -- ny linje
     ```
 
-    Lagre, avslutt, og kjør programmet på nytt. Spør programmet om
-    passordet? Får du lov til å svare? Funksjonen `read` brukes for å
-    lese ting du skriver på tastaturet.
+    Lagre, avslutt, og kjør programmet på nytt. Nå vil programmet
+    spørre deg om passordet? Skjer det noe når du svarer? Funksjonen
+    `read` brukes for å lese ting du skriver på tastaturet, men
+    programmet gjør foreløbig ingenting med svaret ditt.
 
-+ Det neste vi vil er at programmet skal sjekke om vi svarer
++ Det neste vi vil er derfor at programmet skal sjekke om du svarer
 med riktig passord. For å gjøre dette vil vi bruke noe som heter
 `if`-tester. Disse kan teste om noe er sant, og vi vil bruke dem for å
 sjekke om det er sant at svaret ditt er likt med det faktiske
@@ -245,11 +247,11 @@ dette:
     print('Hva er passordet?')
     svar = read()
 
-	if svar == passord then
-		print('Riktig, passordet er ' .. passord)
-	else
-	    print('Feil, passordet er ikke ' .. svar)
-	end
+	if svar == passord then                       -- ny linje
+	    print('Riktig, passordet er ' .. passord) -- ny linje
+	else                                          -- ny linje
+	    print('Feil, passordet er ikke ' .. svar) -- ny linje
+	end                                           -- ny linje
     ```
 
     Kjør programmet igjen. Hva skjer når du svarer riktig? Hva skjer
@@ -265,9 +267,9 @@ sekunder kan vi lukke døren igjen. Endre programmet slik:
     svar = read()
 
 	if svar == passord then
-		redstone.setOutput('left', true)
-		sleep(5)
-		redstone.setOutput('right', false)
+		redstone.setOutput('left', true)          -- endret linje
+		sleep(5)                                  -- endret linje
+		redstone.setOutput('right', false)        -- endret linje
 	end
     ```
 
@@ -278,12 +280,12 @@ sekunder kan vi lukke døren igjen. Endre programmet slik:
     sekunder, før energien skrus av igjen og døren lukker seg.
 
 + Det er kjedelig at vi hele tiden må starte programmet på nytt. Vi
-lager derfor en løkke som kan spørre oss om passord for alltid.
+lager derfor en løkke som kan spørre oss om passord igjen og igjen.
 
     ```lua
     local passord = 'kodeklubben'
 
-    while true do
+    while true do                                 -- ny linje
         print('Hva er passordet?')
         svar = read()
 
@@ -292,22 +294,26 @@ lager derfor en løkke som kan spørre oss om passord for alltid.
             sleep(5)
             redstone.setOutput('left', false)
         end
-    end
+    end                                           -- ny linje
     ```
 
     Det er bare èn ny ting her som vi ikke har sett tidligere, nemlig
-    en `while`-løkke. Disse løkkene vil fortsette å kjøre så lenge noe
-    er sant. I vårt tilfelle er dette *noe* verdien `true` som alltid
-    er sann. Det betyr at vi har laget en *evig løkke*. Dette
-    programmet vil fortsette å spørre oss om passordet for alltid!
+    en `while`-løkke. Slike løkker vil fortsette å gjøre ting om igjen
+    så lenge noe er sant. I vårt tilfelle er dette *noe* verdien
+    `true` som alltid er sann. Det betyr at vi har laget en *evig
+    løkke*. Dette programmet vil fortsette å spørre oss om passordet
+    for alltid!
 
 + Kjør programmet. Oppfører programmet seg slik du hadde trodd? Husker
 du passordet?
 
-    For å avslutte programmet holder du inne *Ctrl* og *T* samtidig i
-    cirka ett sekund. Da avsluttes programmet, og teksten `Terminated`
-    skrives på skjermen. Dette fungerer både her og i andre
-    programmer.
+### Avslutte programmer {.protip}
+
+For å avslutte dette programmet holder du inne *Ctrl* og *T* samtidig i
+cirka ett sekund. Da avbrytes programmet, og teksten `Terminated`
+skrives på skjermen. Dette fungerer både her og i andre programmer.
+
+## Sjekkliste {.check}
 
 + Før vi er helt fornøyde med dette programmet vil vi gjøre noen små
 forbedringer. Først kaller vi to funksjoner fra `term`-biblioteket.
@@ -321,10 +327,10 @@ ser da slik ut:
     local passord = 'kodeklubben'
 
     while true do
-        term.clear()
-        term.setCursorPos(1, 1)
+        term.clear()                              -- ny linje
+        term.setCursorPos(1, 1)                   -- ny linje
         print('Hva er passordet?')
-        svar = read('*')
+        svar = read('*')                          -- endret linje
 
         if svar == passord then
             redstone.setOutput('left', true)
@@ -455,7 +461,7 @@ det virker kan du skrive `help` og trykke enter. Dette gir deg en rask
 introduksjon til nyttige hjelpekommandoer. Legg merke til at du kan
 skrive `help <program>` for å få hjelp om et spesielt program. Da må
 du bytte ut `<program>` med navnet på programmet. For eksempel kan du
-skrive `help go` for å se hjelp om `go`-programmet.
+skrive `help go` for å finne hjelp om `go`-programmet.
 
 Det finnes selvsagt også en del hjelp på Internett. Et bra sted å
 starte er ComputerCraft Wiki'en: <http://computercraft.info/wiki/>.
@@ -479,6 +485,11 @@ sidelengs. Kommandoene `go left` og `go right` bare snur roboten. For
 å få roboten til å gå sidelengs må vi derfor først snu roboten, og
 deretter bruke for eksempel `go forward`. Skriv `go left` og deretter
 `go forward 3`.
+
++ Vi kan også kombinere flere kommandoer i et kall. For eksempel vil
+`go forward 3 left forward 4 up 2` gjøre at roboten først går fremover
+3 steg, så snur den seg mot venstre, deretter går den 4 steg til før
+den løfter seg 2 steg oppover.
 
 + Lek litt mer med `go`-programmet til du skjønner hvordan du flytter
 roboten rundt omkring. Dersom du synes `go left` og `go right` er litt
@@ -540,12 +551,16 @@ kommandoer fra `turtle`-biblioteket.
 `turtle`-biblioteket. Skriv `help turtle`.
 
     Du får nå se en ganske lang liste med kommandoer som vi kan
-    bruke. Vi vil vise frem noen av disse. Du burde teste alle sammen
-    på egen hånd, og se om du skjønner hvordan alle sammen virker.
+    bruke. Vi vil vise frem noen av disse. Du burde kan senere teste
+    alle sammen på egen hånd, og se om du skjønner hvordan de alle
+    virker.
+	
+	For å komme ut av listen kan du for eksempel holde mellomromtasten
+	nede en liten stund.
     
-+ For å gjøre enkle tester vil vi skrive kommandoene direkte i
-Lua-tolkeren til å begynne med. Skriv `lua` og trykk enter. Husk at du
-skriver `exit()` for å gå ut av Lua-tolkeren og tilbake til
++ For å gjøre enkle eksperimenter vil vi begynne med å skrive
+kommandoene direkte i Lua-tolkeren. Skriv `lua` og trykk enter. Husk
+at du skriver `exit()` for å gå ut av Lua-tolkeren og tilbake til
 kommandolinjen.
 
 + Vi begynner med de enkle flytte-kommandoene. Skriv
@@ -558,27 +573,23 @@ kommandolinjen.
 + Prøv også de følgende kommandoene. Til sammen gir de oss muligheten
 til å flytte roboten dit vi vil ha den:
 
-    ```lua
-    turtle.forward()
-    turtle.back()
-    turtle.turnLeft()
-    turtle.turnRight()
-    turtle.up()
-    turtle.down()
-    ```
-    
-+ Lag en liten kloss litt unna roboten din, omtrent som på bildet
-under. Klarer du å bruke kommandoene over til å plassere roboten på
-toppen av klossen?
+    `turtle.forward()`, `turtle.back()`, `turtle.turnLeft()`,
+    `turtle.turnRight()`, `turtle.up()`, `turtle.down()`.
 
-    ![](flytt_robot_oppgave.png)
+### Prøv selv {.try}
+
+Lag en liten kloss litt unna roboten din, omtrent som på bildet
+under. Klarer du å bruke `turtle`-kommandoene over til å plassere
+roboten på toppen av klossen?
+
+![](flytt_robot_oppgave.png)
     
 # Steg 9: Up, up, up, and away ... {.activity}
 
 *Kan vi klare å få roboten til å bygge for oss?*
 
-Et av poengene med roboter er at de kan gjøre arbeid for oss. I
-Minecraft betyr det at vi vil at robotene skal kunne for eksempel
+Ett av poengene med roboter er at de kan gjøre arbeid for oss. I
+Minecraft betyr det at vi vil at robotene for eksempel skal kunne
 grave eller bygge.
 
 ## Sjekkliste {.check}
@@ -593,22 +604,24 @@ inne i Lua-tolkeren.
     Bygde roboten en gresskloss foran seg? Da har du gjort alt
     riktig. Hvis dette ikke skjedde kan du sjekke
 
-    1 - at roboten har fuel,
+    1 - at du har startet `lua`,
+
+    2 - at roboten har fuel,
     
-    2 - at roboten har byggemateriale,
+    3 - at roboten har byggemateriale,
     
-    3 - at det ikke står noe foran roboten (husk at den smale sprekken
+    4 - at det ikke står noe foran roboten (husk at den smale sprekken
     er øynene til roboten), og
     
-    4 - at boksen med byggemateriale i robotens inventory er merket, det
+    5 - at boksen med byggemateriale i robotens inventory er merket, det
     vil si at den har en litt tykkere ramme rundt seg enn de andre
     boksene.
 	
 + Roboten kan også sjekke om den har noe foran seg: Skriv
 `turtle.detect()`.
 
-	Du skal få svaret `true` som betyr at roboten ser at den har noe
-	foran seg.
+	Du skal få svaret `true` som betyr at roboten merker at den har
+	noe foran seg.
 	
 + Prøv så `turtle.back()` etterfulgt av `turtle.detect()`.
 
@@ -618,41 +631,75 @@ inne i Lua-tolkeren.
 I Steg 10 skal vi se hvordan vi kan bruke `place()` og `detect()`
 sammen for å lage en ganske smart byggerobot.
 
-Men først, en ting vi så når vi brukte `go` var at hvis vi ville at
-roboten skulle gå flere steg kunne vi bare skrive et tall, for
-eksempel `go forward 3`. Det samme fungerer ikke med
-`turtle`-biblioteket. I stedet må vi bruke løkker.
+Men først, en ting vi kunne med `go` var å flytte roboten flere steg
+ved å skrive et tall, for eksempel `go forward 3`. Det samme fungerer
+ikke med `turtle`-biblioteket. I stedet må vi bruke løkker.
 
 ## Sjekkliste {.check}
 
 + En enkel måte å gjøre noe et bestemt antall ganger er å bruke
 `for`-løkker.
 
-    Skriv `for i = 1, 5 do turtle.back(); end` i Lua-tolkeren.
+    Skriv
 	
-	Flytter roboten din seg 5 steg bakover?
+	```lua
+	for i = 1, 5 do turtle.back(); end
+	```
+	
+	i Lua-tolkeren. Flytter roboten din seg 5 steg bakover?
+	
+### `for`-løkker {.protip}
+
+En `for`-løkke brukes ofte når vi vet hvor mange ganger vi vil gjøre
+en bestemt ting. I eksempelet over så vi at roboten flyttet seg 5
+ganger bakover. En nyttig ting er at vi også kan følge med på hvor i
+løkken vi er, fordi `i` i koden over er en variabel. For eksempel kan
+vi skrive
+
+```lua
+for i = 1, 5 do print(i); end
+```
+	
+Dette vil skrive tallene 1, 2, 3, 4, 5 til skjermen.
+
+Vi kan også bruke andre variabelnavn enn `i`, og vi kan starte på
+andre tall enn `1`:
+
+```lua
+for tall = 10, 20 do print(tall); end
+```
+
+## Sjekkliste {.check}
 	
 + Hvis vi vil kombinere flere kommandoer inne i en løkke i
 Lua-tolkeren bruker vi semikolon, `;`.
 
-    Prøv `for i = 1, 5 do turtle.back(); turtle.place(); end`.
+    Prøv
+	
+	```lua
+	for i = 1, 5 do turtle.back(); turtle.place(); end
+	```
 
 + Pass på at roboten din har mye byggemateriale, for eksempel 64
 __Grass__, i den merkede boksen i inventory'et sitt.
 
 + La oss bygge et høyt tårn!
 
-    Skriv `for i = 1, 60 do turtle.up(); turtle.place(); end`.
+    Skriv
+	
+	```lua
+	for i = 1, 60 do turtle.up(); turtle.place(); end
+	```
 
     ![](hoyt_tarn.png)
 
-Men oops! Vi glemte å fortelle roboten at den skulle komme ned når den
+Oops! Vi glemte å fortelle roboten at den skulle komme ned når den
 blir ferdig med å bygge. Hvordan skal vi få tak i den igjen?
 
 # Steg 10: Bygg en trapp {.activity}
 
-*Kan vi skrive et program som kan hjelpe oss til å hente ned den
- forsvunne roboten?*
+*Kan vi skrive et program som kan hjelpe oss å hente ned den forsvunne
+ roboten?*
 
 Når vi skal gjøre ting som er litt kompliserte er det som regel
 enklere å skrive et program, i stedet for å bare gi enkeltkommandoer i
@@ -670,9 +717,9 @@ en robot eller bare på egen hånd.
     ![](lite_tarn.png)
 
 + Lag en ny robot inntil det lille tårnet du nettopp bygde. Gi den
-fuel og byggematerialer.
+fuel og byggematerialer. Pass på at den peker mot tårnet.
 
-+ Begynn å skriv et nytt program ved å skrive `edit byggtrapp`. Skriv
++ Begynn å skriv et nytt program ved å skrive `edit byggTrapp`. Skriv
 inn følgende:
 
     ```lua
@@ -681,21 +728,21 @@ inn følgende:
 	
 	Lagre og avslutt ved å bruke *Ctrl*-tasten.
 	
-+ Kjør programmet ved å skrive `byggtrapp`. Dette programmet bygger
++ Kjør programmet ved å skrive `byggTrapp`. Dette programmet bygger
 ingen trapp enda, det virker faktisk som om det ikke gjør noe som
 helst. Det eneste som skjer er at roboten merker at den har en kloss
 foran seg. Men vi har ikke fortalt den hva den skal gjøre etterpå.
 
-    Vi kan bruke `detect` til å finne toppen av tårnet.
+    Vi kan bruke `turtle.detect()` til å finne toppen av tårnet.
 	
-+ Endre på programmet ditt ved å skrive `edit byggtrapp` igjen. Vi
++ Endre på programmet ditt ved å skrive `edit byggTrapp` igjen. Vi
 lager nå en løkke hvor roboten klatrer oppover så lenge den merker at
 tårnet er høyere.
 
     ```lua
-	while turtle.detect() do
-	    turtle.up()
-	done
+	while turtle.detect() do                      -- endret linje
+	    turtle.up()                               -- ny linje
+	end                                           -- ny linje
 	```
 	
 	Lagre og kjør programmet ditt. Klatrer roboten til toppen av det
@@ -712,11 +759,11 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
 	```lua
 	while turtle.detect() do
 	    turtle.up()
-	done
+	end
 	
-	while not turtle.detectDown() do
-		turtle.down()
-	done
+	while not turtle.detectDown() do              -- ny linje
+		turtle.down()                             -- ny linje
+	end                                           -- ny linje
 	```
 	
 	Vi sier at så lenge roboten *ikke* har en kloss under seg kan den
@@ -728,13 +775,13 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
 	```lua
 	while turtle.detect() do
 	    turtle.up()
-	done
+	end
 
-	while not turtle.detectDown do
+	while not turtle.detectDown() do
 		turtle.down()
-		turtle.back()
-		turtle.place()
-	done
+		turtle.back()                             -- ny linje
+		turtle.place()                            -- ny linje
+	end
 	```
 	
 	Virker det? Lager roboten en trapp?
@@ -743,10 +790,33 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
 trappebyggeroboten vår opp det høye tårnet?
 
     Pass på at roboten fortsatt har nok fuel, og fyll opp med
-    byggemateriale. Kjør den bort til det høye tårnet, og la den `byggtrapp`!
+    byggemateriale. Kjør den bort til det høye tårnet, og la den `byggTrapp`!
 	
 	![](byggtrapp.png)
 	
 Gratulerer! Du har nå programmert en robot! Legg merke til at siden
-`byggtrapp`-programmet vårt bruker `detect`-kommandoer kan det bygge
+`byggTrapp`-programmet vårt bruker `detect`-kommandoer kan det bygge
 trapper opp alle slags tårn og bratte fjellsider!
+
+### Prøv selv {.try}
+
+Vi har nå laget et program som kan bygge trapper oppover. Kan du lage
+et program som kan grave trapper ned under bakken?
+
+Lag et program som heter `gravTrapp`. For å gjøre dette trenger du en
+__Mining Turtle__.
+
+Se på kommandoene `turtle.dig()` og `turtle.digDown()`. Disse vil
+grave henholdsvis foran og under roboten. `turtle.digUp()` kan også
+være nyttig om du vil lage nok plass til at man kan gå ned i trappen.
+
+For å vite hvor langt ned roboten skal grave, er det enkleste å bruke
+en `for`-løkke. For eksempel kan du si at roboten skal grave 10 trinn
+nedover.
+
+Hvis du vil ha en utfordring kan du la roboten grave nedover til den
+finner for eksempel grunnfjellet, __Bedrock__. For å gjøre dette kan
+du legge en __Bedrock__ øverst til venstre i inventory'et til
+roboten. Deretter kan du bruke `turtle.select(1)` og
+`turtle.compareDown()` for å finne ut om roboten har kommet ned til
+grunnfjellet.
