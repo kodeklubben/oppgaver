@@ -77,15 +77,15 @@ borti læringsmålet, mens `X` brukes der læringsmålet er en sentral del
 av leksjonen.
 
 Mål                                   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
-------------------------------------- | - | - | - | - | - | - | - | - | - 
+---                                   |---|---|---|---|---|---|---|---|---
 Kommandolinjen                        | X | X | X |   |   |   |   |   |  
 Interaktiv lua-tolker                 | X | X | X |   |   |   |   |   |  
 Editering av programmer               | X | X | X |   |   |   |   |   |  
 Filsystemet                           |   |   |   | X |   |   |   |   | 
 Variabler                             | / | / | / |   |   |   |   |   | 
-If-tester                             | / | / | / |   |   |   |   |   | 
+If-tester                             | / | / | / |   |   | X |   |   | 
 For-løkker                            | / | / | / |   | X |   |   |   | 
-While-løkker                          | / | / | / |   |   |   |   |   | 
+While-løkker                          | / | / | / |   |   | X |   |   | 
 Funksjoner                            |   |   |   |   | X |   |   |   | 
 Hendelser (os.pullEvent)              |   |   |   | / |   |   |   |   | 
 Typer (strings, numbers, bools, etc)  |   |   |   |   |   |   |   |   | 
