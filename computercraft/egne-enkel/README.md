@@ -15,7 +15,7 @@ Minecraft.
 
 Leksjonen
 
-+ Introduksjon til ComputerCraft
++ [Introduksjon til ComputerCraft](introduksjon_til_computercraft/)
 
 er lagt opp til å brukes i et enkeltstående introduksjonskurs (som
 ikke nødvendigvis går videre med de andre leksjonene), og dekker det
@@ -25,12 +25,8 @@ grundigere innføring i enkelte begreper.
 
 Anbefalt rekkefølge for leksjonene er
 
-1. Bli Kjent Med Datamaskinen
-2. Robotinvasjon
-
-De resterende leksjonene er fortsatt under utarbeidelse (med store
-muligheter for endringer).
-
+1. [Bli Kjent Med Datamaskinen](bli_kjent_med_datamaskinen/)
+2. [Robotinvasjon](robotinvasjon/)
 3. Datamaskin-Guru
     + Hvordan bevege seg rundt i filsystemet
     + Kopiering av filer
@@ -70,3 +66,36 @@ størrelser hus
     + Hvordan kan en robot finne ut hvor den er
     + Bruke lokasjon til å forbedre f.eks. bonderoboten?
 
+Leksjonene er fortsatt under utarbeidelse (med store muligheter for
+endringer).
+
+## Læringsmål
+
+Tabellen under er en oversikt over læringsmål i hver leksjon fra et
+programmeringsperspektiv. Symbolet `/` brukes for leksjoner som kommer
+borti læringsmålet, mens `X` brukes der læringsmålet er en sentral del
+av leksjonen.
+
+|Mål                                  |0|1|2|3|4|5|6|7|8|
+|-------------------------------------|-|-|-|-|-|-|-|-|-|
+|Kommandolinjen                       |X|X|X| | | | | | |
+|Interaktiv lua-tolker                |X|X|X| | | | | | |
+|Editering av programmer              |X|X|X| | | | | | |
+|Filsystemet                          | | | |X| | | | | |
+|Variabler                            |/|/|/| | | | | | |
+|If-tester                            |/|/|/| | | | | | |
+|For-løkker                           |/|/|/| |X| | | | |
+|While-løkker                         |/|/|/| | | | | | |
+|Funksjoner                           | | | | |X| | | | |
+|Hendelser (os.pullEvent)             | | | |/| | | | | |
+|Typer (strings, numbers, bools, etc) | | | | | | | | | |
+|Matematiske operasjoner              | | | | | | | | | |
+|Relasjonelle og logiske operatorer   | | | | | | | | | |
+|Iteratorer                           | | | | | | | | | |
+|Lokal og global scope                | | | | | | | | | |
+|Rekursjon                            | | | | | | | | | |
+|Data-strukturer (tables)             | | | | | | | | | |
+
+Også denne tabellen er for tiden under utarbeidelse. Sannsynligvis vil
+ikke alle disse målene bli dekt i dette introduksjonskurset. Det vil
+også dukke opp andre mål som for øyeblikket er glemt.
