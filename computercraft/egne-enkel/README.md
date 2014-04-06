@@ -25,8 +25,8 @@ grundigere innføring i enkelte begreper.
 
 Anbefalt rekkefølge for leksjonene er
 
-1. [Bli Kjent Med Datamaskinen](bli_kjent_med_datamaskinen/)
-2. [Robotinvasjon](robotinvasjon/)
+1. [Bli Kjent Med Datamaskinen](01-bli_kjent_med_datamaskinen/)
+2. [Robotinvasjon](02-robotinvasjon/)
 3. Datamaskin-Guru
     + Hvordan bevege seg rundt i filsystemet
     + Kopiering av filer
@@ -76,25 +76,25 @@ programmeringsperspektiv. Symbolet `/` brukes for leksjoner som kommer
 borti læringsmålet, mens `X` brukes der læringsmålet er en sentral del
 av leksjonen.
 
-|Mål                                  |0|1|2|3|4|5|6|7|8|
-|-------------------------------------|-|-|-|-|-|-|-|-|-|
-|Kommandolinjen                       |X|X|X| | | | | | |
-|Interaktiv lua-tolker                |X|X|X| | | | | | |
-|Editering av programmer              |X|X|X| | | | | | |
-|Filsystemet                          | | | |X| | | | | |
-|Variabler                            |/|/|/| | | | | | |
-|If-tester                            |/|/|/| | | | | | |
-|For-løkker                           |/|/|/| |X| | | | |
-|While-løkker                         |/|/|/| | | | | | |
-|Funksjoner                           | | | | |X| | | | |
-|Hendelser (os.pullEvent)             | | | |/| | | | | |
-|Typer (strings, numbers, bools, etc) | | | | | | | | | |
-|Matematiske operasjoner              | | | | | | | | | |
-|Relasjonelle og logiske operatorer   | | | | | | | | | |
-|Iteratorer                           | | | | | | | | | |
-|Lokal og global scope                | | | | | | | | | |
-|Rekursjon                            | | | | | | | | | |
-|Data-strukturer (tables)             | | | | | | | | | |
+Mål                                   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
+------------------------------------- | - | - | - | - | - | - | - | - | - 
+Kommandolinjen                        | X | X | X |   |   |   |   |   |  
+Interaktiv lua-tolker                 | X | X | X |   |   |   |   |   |  
+Editering av programmer               | X | X | X |   |   |   |   |   |  
+Filsystemet                           |   |   |   | X |   |   |   |   | 
+Variabler                             | / | / | / |   |   |   |   |   | 
+If-tester                             | / | / | / |   |   |   |   |   | 
+For-løkker                            | / | / | / |   | X |   |   |   | 
+While-løkker                          | / | / | / |   |   |   |   |   | 
+Funksjoner                            |   |   |   |   | X |   |   |   | 
+Hendelser (os.pullEvent)              |   |   |   | / |   |   |   |   | 
+Typer (strings, numbers, bools, etc)  |   |   |   |   |   |   |   |   | 
+Matematiske operasjoner               |   |   |   |   |   |   |   |   | 
+Relasjonelle og logiske operatorer    |   |   |   |   |   |   |   |   | 
+Iteratorer                            |   |   |   |   |   |   |   |   |  
+Lokal og global scope                 |   |   |   |   |   |   |   |   |  
+Rekursjon                             |   |   |   |   |   |   |   |   |   
+Data-strukturer (tables)              |   |   |   |   |   |   |   |   | 
 
 Også denne tabellen er for tiden under utarbeidelse. Sannsynligvis vil
 ikke alle disse målene bli dekt i dette introduksjonskurset. Det vil
