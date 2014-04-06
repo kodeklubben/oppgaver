@@ -1,0 +1,30 @@
+{
+    "id":          "computercraft",
+    "title":       "ComputerCraft: Datamaskiner i Minecraft",
+    "description": "Lær å programmere datamaskiner og roboter inne i Minecraft",
+    "language":    "nb-NO",
+    "number":      1,
+
+    "projects": [
+        {
+            "number":   0,
+            "filename": "introduksjon_til_computercraft/introduksjon_til_computercraft.md"
+        },
+        {
+            "number":   1,
+            "filename": "01-bli_kjent_med_datamaskinen/bli_kjent_med_datamaskinen.md"
+        },
+        {
+            "number":   2,
+            "filename": "02-robotinvasjon/robotinvasjon.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Installering av ComputerCraft",
+            "note": "../README.md"
+        }
+    ]
+}
+
