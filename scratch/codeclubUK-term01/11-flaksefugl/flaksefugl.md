@@ -207,7 +207,7 @@ annen mulighet er å lage Flakse mindre.
         når grønt flagg klikkes
         vent til ((berører [kant v]?) eller (berører [Rør v]?))
         spill lyden [screech v]
-        say [Du tapte!]
+        si [Du tapte!]
         send melding [Tap v]
         stopp [andre skript i figuren v]
     ```
