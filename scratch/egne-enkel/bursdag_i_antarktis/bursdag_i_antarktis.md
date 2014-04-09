@@ -184,13 +184,93 @@ midten av skjermen. Skjer dette?
 
 # Steg 5: Si hei til pingvinene {.activity}
 
-# Steg 6: Pingvinene danser {.activity}
+*Felix skal nå møte to pingviner som bor inne i pepperkakehuset. De skal komme ut av huset og snakke litt med Felix*
+
+## Sjekkliste {.check}
++ Lag to nye figurer ved å trykke på ![velg figur fra biblioteket](hent-fra-bibliotek.png). Velg `Penguin1` og `Penguin2`
+
++ For å få pingvinene til dukke opp i scene 3, må vi først skjule de. Legg til følgende script på begge figurene:
+
+    ```blocks
+        når grønt flagg klikkes
+        skjul
+    ```
++ Først skal Felix spørre om det er noen hjemme og så sende en melding. Legg til følgende skript på Felix:
+
+    ```blocks
+        når jeg mottar [scene 3 v]
+        gå til x: (-160) y: (-50)
+        si [Oj, så flott hus! Er det noen hjemme?] i (2) sekunder
+        send melding [kom ut v]
+    ```
++ Pingvin 1 skal nå komme ut av døra og gå litt til siden. Sjekk med musepeker hva x og y -posisjonen til døren er. Legg til følgende skript på Pingvin 1:
+
+    ```blocks
+        når jeg mottar [kom ut v]
+        gå til x: (41) y: (-73)
+        vis
+        gli (1) sekunder til x: (128) y: (-100)
+    ```
++ Pingvin 2 kommer ut litt etterpå, og spør Felix et spørsmål. Legg til følgende script på Pingvin 2:
+
+    ```blocks
+        når jeg mottar [kom ut v]
+        vent (2) sekunder
+        gå til x: (41) y: (-73)
+        vis
+        vent (1) sekunder
+        spør [Hva heter du?] og vent
+    ```
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-+ blah blah
++ Kommer pingvinene ut av huset som forventet?
++ Hva tror du skjer med navnet som du skrev inn?
+
+# Steg 6: Pingvinene danser {.activity}
+*Pingvinene blir glad for å treffe Felix, og etter en liten samtale begynner den ene pingvinen å danse siden det er Felix sin bursdag.*
+
+## Sjekkliste {.check}
++ Få Pingvin 2 til å sende en melding etter at han har spurt hva Felix heter. Kall for eksempel meldingen [navn1] 
+
++ Legg til følgende skript på Pingvin 1
+
+    ```blocks
+        når jeg mottar [navn1 v]
+        si (svar) i (2) sekunder
+        si [Det er et rart navn!] i (2) sekunder
+        send melding [navn2 v]
+    ```
+	
++ Legg til følgende skript på Felix for å få han til å svare tilbake og si at han har bursdag:
+
+    ```blocks
+        når jeg mottar [navn2 v]
+        si [Jeg har bursdag i dag!] i (2) sekunder
+        si (sett sammen [Jeg blir](alder)) i (2) sekunder
+        send melding [party v]
+    ```
+	
++ Nå skal vi få Pingvin 1 til å danse! Lag to nye drakter for pingvin 1 ved å velge `Penguin1` to ganger. Vri de litt i vinkel.
++ Legg til en lyd du liker under [Lyder], og lag følgende skript på Pingvin 1:
+
+    ```blocks
+        når jeg mottar [party v]
+        spill lyden [human beatbox1 v]
+        gjenta (20) ganger
+            neste drakt
+            vent (0.2) sekunder
+        slutt
+    ```
+	
+## Test prosjektet {.flag}
+
+__Klikk på det grønne flagget.__
+
++ Danser pingvinen sånn som du forventet?
++ Hva er forskjellen mellom å lagre svaret i en variabel og å ikke gjøre det?
 
 ## Lagre prosjektet {.save}
 
