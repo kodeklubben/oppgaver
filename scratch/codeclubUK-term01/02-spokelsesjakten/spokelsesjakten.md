@@ -45,7 +45,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ For å unngå at spøkelset sitter fast i veggen må vi få det til å snu når det treffer den. Dette gjøres ved å legge til blokken `sprett tilbake ved kanten`{.blockblue}. Skriptet ser da slik ut:
++ For å unngå at spøkelset sitter fast i veggen må vi få det til å snu når det treffer den. Dette gjøres ved å legge til klossen `sprett tilbake ved kanten`{.blockblue}. Skriptet ser da slik ut:
 
     ```blocks
         Når grønt flagg klikkes
@@ -124,7 +124,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Lag en ny variabel som heter `poeng`. Denne skal gjelde for alle figurer. Legg til en ny blokk som gjør at __poengvariabelen økes__ med 1 poeng for hver gang spilleren klikker på spøkelset.
++ Lag en ny variabel som heter `poeng`. Denne skal gjelde for alle figurer. Legg til en ny kloss som gjør at __poengvariabelen økes__ med 1 poeng for hver gang spilleren klikker på spøkelset.
 
     ```blocks
         når denne figuren klikkes
@@ -135,7 +135,7 @@ __Klikk på det grønne flagget.__
 
 + Klikk på `Scene` og lag en ny variabel som heter `tid`. La variablen vises på skjermen. 
 + Lag et nytt skript som setter `tid`-variabelen til __30__ og `poeng`-variablen til __0__ når det grønne flagget klikkes. 
-+ Bruk så en `gjenta til`{.blockyellow}-blokk for å vente i __1__ sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre fram til tiden er ute. Til slutt stopper du hele spillet med en `stopp alle`{.blockyellow}-blokk.
++ Bruk så en `gjenta til`{.blockyellow}-kloss for å vente i __1__ sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre fram til tiden er ute. Til slutt stopper du hele spillet med en `stopp alle`{.blockyellow}-kloss.
 
     ```blocks   
         Når grønt flagg klikkes
@@ -178,7 +178,7 @@ __Klikk på det grønne flagget.__
 ## Ting å prøve {.try}
 
 + Hvor mange spøkelser synes du spillet fungerer best med? __Legg til flere__ og prøv!
-+ Klarer du å få spøkelsene til __å se forskjellige ut__? Klikk på `Drakter`{.blocklightgrey} og prøv deg frem. Du kan også velge noen av blokkene under `Utseende`{.blockpurple}.
++ Klarer du å få spøkelsene til __å se forskjellige ut__? Klikk på `Drakter`{.blocklightgrey} og prøv deg frem. Du kan også velge noen av klossene under `Utseende`{.blockpurple}.
 + Kan du få spøkelsene til __å bli verdt forskjellige antall poeng?__ Hva med å få den minste og raskeste til å gi 10 poeng?
 
 ## Lagre prosjektet {.save}

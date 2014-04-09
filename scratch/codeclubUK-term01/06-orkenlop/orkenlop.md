@@ -240,15 +240,15 @@ __Klikk på det grønne flagget.__
 ## Utfordring 2: Bruk egendefinerte klosser for å forenkle skriptet ditt {.challenge}
 
 Koden som brukes til å sjekke om kappløpet er over brukes nå to steder for hver figur; når figuren beveger seg normalt og når den beveger seg med rakett.
-Vi kan forenkle skriptet vårt ved å bruke en egendefinert kloss. Dette er en samling kode som brukes flere steder. Det er nesten som at vi lager vår egen Scratch kodeblokk!
+Vi kan forenkle skriptet vårt ved å bruke en egendefinert kloss. Dette er en samling kode som brukes flere steder. Det er nesten som at vi lager vår egen Scratch kodekloss!
 
 + Velg papegøyens skript.
 + Velg `Flere klosser`{.blockpurple}-paletten og klikk så på `Lag en kloss`{.blocklightgrey} knappen.
 + Kall klossen din `ferdig` og trykk OK.
 + Du vil nå få en `definer ferdig`{.blockpurple}-kloss i skriptvinduet ditt. Flytt den litt for seg selv. 
-+ Løsriv hele `hvis`{.blockyellow}`berører kant?`{.blocklightblue}-blokken og dra den til `definer ferdig`{.blockpurple}-klossen.
++ Løsriv hele `hvis`{.blockyellow}`berører kant?`{.blocklightblue}-klossen og dra den til `definer ferdig`{.blockpurple}-klossen.
 + Kan du dra `ferdig`{.blockpurple}-klossen fra paletten og bruke den på samme måte som andre kodeklosser?
-+ Slett den andre `hvis`{.blockyellow}`berører kant?`{.blocklightblue}-blokken fra skriptet ditt og erstatt også den med en `ferdig`{.blockpurple}-kloss.
++ Slett den andre `hvis`{.blockyellow}`berører kant?`{.blocklightblue}-klossen fra skriptet ditt og erstatt også den med en `ferdig`{.blockpurple}-kloss.
 
     ```blocks
         definer ferdig

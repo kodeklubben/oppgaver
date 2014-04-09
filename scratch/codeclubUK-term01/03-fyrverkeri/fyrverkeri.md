@@ -68,7 +68,7 @@ __Klikk på det grønne flagget, plaser musa over scenen og trykk mellomromstast
 
 ## Sjekkliste {.check}
 
-+ Endelig, prøv å få til det samme ved å bruke musknappen istedenfor mellomromstasten. For å gjøre dette kan vi pakke skriptet vårt inn i en `for alltid - hvis museknappen er nede`{.blockyellow}-blokk.
++ Endelig, prøv å få til det samme ved å bruke musknappen istedenfor mellomromstasten. For å gjøre dette kan vi pakke skriptet vårt inn i en `for alltid - hvis museknappen er nede`{.blockyellow}-kloss.
 + Bytt så klossen `når mellomrom trykkes`{.blockgrey} til `når grønt flagg klikkes`{.blockgrey} og sist men ikke minst sørg for at raketten er skjult når alt starter opp.
 
     ```blocks
