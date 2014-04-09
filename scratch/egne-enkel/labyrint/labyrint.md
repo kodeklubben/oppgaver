@@ -19,7 +19,7 @@ beskyttet av den skumle __froskekongen__.
 
 *Vi begynner med å se på hvordan vi kan styre figurer med
 piltastene. For å få til dette vil vi bruke
-`Hendelser`{.blockgrey}-blokker som merker når man trykker på
+`Hendelser`{.blockgrey}-klosser som merker når man trykker på
 tastaturet.*
 
 ## Sjekkliste {.check}
@@ -68,7 +68,7 @@ __Klikk på det grønne flagget.__
 + Beveger utforskeren din seg rundt slik du hadde forventet?
 + Kan du forandre hvor raskt utforskeren flytter seg?
 
-Tallet `5` i `gå 5 steg`{.blockblue}-blokkene bestemmer hvor raskt
+Tallet `5` i `gå 5 steg`{.blockblue}-klossene bestemmer hvor raskt
 utforskeren flytter seg rundt. Vi vil gjerne eksperimentere litt for å
 se hvilken fart som passer best i spillet vårt, men for å endre farten
 må vi bytte tallet i fire forskjellige skript. Det blir for mye jobb!
@@ -83,7 +83,7 @@ klikk `Lag en Variabel`{.blocklightgrey}.
 + Kall variabelen `hastighet`, og velg at den bare skal gjelde `For
 denne figuren`.
 + Til slutt, fjern avhukingen ved siden av den nye
-`hastighet`{.blockorange}-blokken for at variabelen ikke skal vises på
+`hastighet`{.blockorange}-klossen for at variabelen ikke skal vises på
 scenen.
 
 Nå må vi endre i skriptene våre slik at bruker `hastighet`-variabelen.
@@ -167,12 +167,12 @@ om den. Hun kan bare gå gjennom veggene. Det skal vi gjøre noe med nå*
 ## Sjekkliste {.check}
 
 For å oppdage når `Utforsker`-figuren vår går gjennom veggen på
-labyrinten vil vi bruke en `berører fargen`{.blocklightblue}-blokk.
-Denne blokken kan sanse om en figur kommer borti en spesiell farge.
+labyrinten vil vi bruke en `berører fargen`{.blocklightblue}-kloss.
+Denne klossen kan sanse om en figur kommer borti en spesiell farge.
 Her er det viktig at vi har tegnet alle veggene i labyrinten i samme
 farge.
 
-+ Vi legger `berører fargen`{.blocklightblue}-blokken inn i skriptet
++ Vi legger `berører fargen`{.blocklightblue}-klossen inn i skriptet
 vi allerede har laget som setter `hastighet`-variabelen.
 
     ```blocks
@@ -187,7 +187,7 @@ vi allerede har laget som setter `hastighet`-variabelen.
         slutt
     ```
 
-+ For å få riktig farge i `berører fargen`{.blocklightblue}-blokken
++ For å få riktig farge i `berører fargen`{.blocklightblue}-klossen
 klikker du først på den lille firkanten hvor fargen vises. Deretter
 flytter du musepekeren slik at den peker på en vegg i labyrinten
 din. Da forandres fargen i den lille firkanten. Klikk igjen for å
@@ -283,14 +283,14 @@ utforskeren fortsatt der den fant skatten sist. Det blir ikke veldig
 spennende.
 
 + Klikk på `Utforsker`-figuren.
-+ Legg til en `gå til x: _ y: _`{.blockblue}-blokk rett etter `sett
-hastighet til 10`{.blockorange}-blokken.
++ Legg til en `gå til x: _ y: _`{.blockblue}-kloss rett etter `sett
+hastighet til 10`{.blockorange}-klossen.
 + For å finne ut hvilke tall vi vil bruke for `x` og `y` kan vi gjøre
 følgende. Dra utforskeren til et sted det er fint å starte fra. Klikk
 deretter på `i`{.blockblue} på `Utforsker`-figuren. Under navnet
 `Utforsker` står det `x` og `y` sammen med to tall. Dette er
 posisjonen til figuren akkurat nå. Skriv disse to tallene inn i `gå
-til x: _ y: _`{.blockblue}-blokken.
+til x: _ y: _`{.blockblue}-klossen.
 + Hele skriptet vil nå se slik ut (dine tall for `x` og `y` vil være
 forskjellige):
 
@@ -409,9 +409,9 @@ av og til endre retning.
         slutt
     ```
 
-Disse to siste blokkene ser litt kompliserte ut. La oss se litt nøyere på dem.
+Disse to siste klossene ser litt kompliserte ut. La oss se litt nøyere på dem.
 
-+ Blokken `hvis `{.blockorange}`tilfeldig tall fra 1 til 25 =
++ Klossen `hvis `{.blockorange}`tilfeldig tall fra 1 til 25 =
 1`{.blocklightgreen} sier at vi skal gjøre *noe* cirka èn av 25
 ganger.
 + Dette *noe* er `vend `{.blockblue}`tilfeldig tall fra -1 til 1 *

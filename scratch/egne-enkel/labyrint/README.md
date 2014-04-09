@@ -2,7 +2,7 @@
 title: Labyrint
 level: 1.2
 language: nb-NO
-embeds: "skjermbilde.png"
+embeds: "labyrint.png"
 ...
 
 # Informasjon til Veiledere
