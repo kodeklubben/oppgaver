@@ -9,6 +9,10 @@
         {
             "number":   1,
             "filename": "labyrint/labyrint.md"
+        },
+        {
+            "number":   2,
+            "filename": "bursdag_i_antarktis/bursdag_i_antarktis.md"
         }
     ],
 
