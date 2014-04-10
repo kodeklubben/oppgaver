@@ -499,7 +499,7 @@ etter ordet `blir`!
 + Nå skal vi få Pingu til å danse! Lag to nye drakter for Pingu ved å
 importere `Dyr/Penguin1` to ganger. Roter de to nye draktene litt i
 forhold til hverandre ved å klikke på draktene i tegnevinduet og
-rotere rundt med musen.
+rotere rundt med musen (du må kanskje bytte til vektorgrafikk).
 
     ![](roter_pingu.png)
 
