@@ -267,7 +267,7 @@ Husker du at vi tidligere hadde et problem med å holde museknappen
 nede?
 
 Dette problemet oppstår fordi når raketten sender sin melding om
-eksplosjonen, gjentar den hvis-løkka med en gang. Dermed blir det
+eksplosjonen, gjentar den hvis-løkken med en gang. Dermed blir det
 sendt en eksplosjonsmelding før den forrige er ferdig med animasjonen.
 
 I programmeringsverden kaller vi denne type problemer for *bugs*,
