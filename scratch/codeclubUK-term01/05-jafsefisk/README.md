@@ -1,42 +1,28 @@
 ---
-title: Jafsefisk
+title: JafseFisk
 level: 1.5
 language: nb-NO
-embeds: "*.png"
+embeds: "jafsefisk.png"
 ...
 
 # Informasjon til Veiledere
 
-Denne gangen skal vi skal lage Jafsfisk! Hjelp den Store Sultne Fisk
-rundt sli at den kan spise alle byttedyrene som svømmer rundt.
+Vi skal nå lage et JafseFisk-spill! Målet i spillet er å hjelpe
+JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 
-# Ferdigheter
-* Flytte figurer
-* Styre figurer med musen
-* Bytte drakter
-* Collision detection
-* Figurer leser andre figurers tilstand
-* Holder orden på og endre poengsummen
+![](jafsefisk.png)
 
-# Ressurser
-Prosjektet bruker bilder og drakter fra Scratchbibliotektet OG fiskedraktene i som finnes i ressurskatalogen.
+# Forberedelser
 
-# Aktuelle Scratchkort
-* Animate it
-* Keep score
-* Timer
-* Follow the mouse
+JafseFisk bruker bare ressurser som er inkludert i Scratch-platformen
+og krever som sådann ingen spesielle forberedelser.
 
-# Øvelser
-* Steg 1: Store Sultne Fisk følger musepekeren
-* Steg 2: Legg til noen byttedyr
-* Steg 3: Store Sultne Fisk spiser byttedyrene
+# Læringsmål
 
-# Utfordringer
-1. Få byttedyrene til å bevege seg ulikt
-2. Byttedyrene unngå Store Sultne Fisk
-3. Legg til poengsum
-4. Legg til nedtelling
-5. Legg til bonus poeng
-6. Endre spillet: holde liv i ett byttedyr
+JafseFisk demonstrerer hvordan man
+
+1. styrer figurer __med musen__,
+2. flytter figurer __tilfeldig__ rundt på skjermen,
+3. oppdager at to figurer __kolliderer__ med hverandre,
+4. legger inn __forbedringer__ og __variasjoner__ i spillet.
 
