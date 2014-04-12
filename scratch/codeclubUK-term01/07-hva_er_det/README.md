@@ -1,42 +1,30 @@
 ---
-title: Hva er det
+title: Hva Er Det?
 level: 1.7
 language: nb-NO
-embeds: "*.png"
+embeds: "hva_er_det.png"
 ...
 
 # Informasjon til Veiledere
 
-En tilfeldig valgt figur vises utydelig på tavla. Spilleren må gjette
-hva et skal forestille ved å klikke på riktig figur under. Jo kjappere
-spilleren gjetter riktig, desto flere poeng for han.
+Et bilde av en tilfeldig ting vises på tavlen. Men bildet er
+forvrengt, slik at du må gjette hva det er ved å klikke på et av
+alternativene som vises under. Desto raskere du gjetter riktig, desto
+flere poeng får du.
 
-# Ferdigheter
-* Holde orden på poengsum
-* Endre drakter og utseende
-* Velge en tilfeldig riktig løsning
-* Reagere på klikk og se om riktig figur ble klikket
-* Send meldinger
+![](hva_er_det.png)
 
-# Ressurser
-Prosjektet bruker bilder og drakter fra Scratchbibliotektet.
+# Forberedelser
 
-# Aktuelle Scratchkort
-Timer
+Hva Er Det? bruker bare ressurser som er inkludert i Scratch-platformen
+og krever som sådann ingen spesielle forberedelser.
 
-# Øvelser
-* Steg 1: Få ulike ting til å dukke opp på tavla
-* Steg 2: Gjør bildene utydelige
-* Steg 3: La spilleren gjette hvilken figur som er riktig
+# Læringsmål
 
-# Utfordringer
-1. Lage spille enklere eller vansekligere
-2. Bruk forskjellig bildeeffekt i hvert spill
-3. Gjør slik at spillet går over flere runder
-4. Lag spillet vansekgliere for hver runde
-5. La spilleren spille til han gjør en feil
-6. Endre spillet slik at det blir enklere eller vansekligere avhengig av hvor bra spilleren gjør det.
-7. Ta vare på den høyeste poengsummen
-8. Hvis man gjetter feil, taper man poeng.
+Hva Er Det? viser hvordan man kan
 
+1. gi en figur en __tilfeldig drakt__,
+2. __sjekke__ om et gitt svar er riktig,
+3. endre utseende på figurer ved å bruke __forskjellige effekter__,
+4. bruker variabler for å __stanse løkker__.
 
