@@ -42,9 +42,20 @@ Minecraft.
    har dukket opp et nytt valg i hovedmenyen: `Mods`. Avslutt spillet
    igjen.
 
-6. Finn `.minecraft`-katalogen din i en filutforsker. Velg katalogen
-   `mods`, og kopier ComputerCraft-filen vi lastet ned i steg 1 inn i
-   `mods`-katalogen.
+6. Finn `Minecraft`-katalogen din (se nedenfor) i en filutforsker.
+   Velg katalogen `mods`, og kopier ComputerCraft-filen vi lastet ned
+   i steg 1 inn i `mods`-katalogen.
+
+    - __Windows__: Under Windows finner du `Minecraft`-katalogen under
+      `%appdata%\.minecraft`. Søk etter `%appdata%` i en utforsker
+      eller i kjør-feltet etter å ha klikket start-knappen.
+	  
+	- __Mac OS X__: Under Mac ligger `Minecraft`-katalogen i
+      `Library/Application Support/minecraft/` under hjemmekatalogen
+      din. På norsk heter `Library` `Bibliotek`.
+	  
+	- __Linux__: På Linux finner du `Minecraft`-katalogen som en
+      skjult katalog `.minecraft` rett under hjemmekatalogen din.
 
 7. Nå er vi så godt som ferdige. Start Minecraft Launcher en gang
    til. Velg profilen `Forge` og klikk `Play`. Når du klikker `Mods`

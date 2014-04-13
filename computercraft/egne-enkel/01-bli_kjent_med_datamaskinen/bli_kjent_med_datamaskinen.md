@@ -97,7 +97,7 @@ trykker enter.
 ### Prøv selv {.try}
 
 Klarer du å endre på programmet slik at det for eksempel sier hei til
-deg, eller til de som sitter ved siden av deg?
+deg, eller kanskje til de som sitter ved siden av deg?
 
 Prøv å skriv `edit heiverden` en gang til. Da åpner programmet ditt
 seg igjen, og du kan endre på det slik at det sier noe annet. Som
@@ -123,11 +123,11 @@ universitetet i Rio de Janeiro brukte de tidligere et språk som het
 
 ## Sjekkliste {.check}
 
-Vi vil nå prøve å skrive noen kommandoer direkte i Lua. Dette er en
+Vi skal nå prøve å skrive noen kommandoer direkte i Lua. Dette er en
 fin måte å teste enkle ting på.
 
 + Skriv `lua` og trykk enter. Dette starter en *Lua-tolker* som vil
-gjøre alle kommandoene du skriver med en gang.
+utføre hver enkelt kommando du skriver med en gang.
 + Vi begynner med kommandoen fra det første programmet vårt. Skriv
 `print('Hei verden!')` og trykk enter. Skjer det samme som tidligere?
 + Som de aller fleste programmeringsspråk er Lua glad i å regne. Skriv
@@ -172,7 +172,7 @@ tall tilbake?
     ```lua
     local tall1 = math.random(2, 12)
     local tall2 = math.random(2, 12)
-    print('Hvor mye er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
+    print('Hva er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
     ```
 
     Pass på at du skriver de to punktumene `..` riktig. Disse betyr at
@@ -202,9 +202,9 @@ igjen, og legg til en linje nederst i programmet.
     ```lua
     local tall1 = math.random(2, 12)
     local tall2 = math.random(2, 12)
-    print('Hvor mye er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
+    print('Hva er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
 
-    svar = read()
+    svar = read()                                 -- ny linje
     ```
 
     Lagre, avslutt, og kjør programmet på nytt. Får du lov til å svare
@@ -221,12 +221,12 @@ dette:
     ```lua
     local tall1 = math.random(2, 12)
     local tall2 = math.random(2, 12)
-    print('Hvor mye er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
+    print('Hva er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
 
     svar = read()
 
-    if tonumber(svar) == tall1 * tall2 then
-        print('Ja, svaret er ' .. svar)
+    if tonumber(svar) == tall1 * tall2 then  -- alle linjer herifra
+        print('Ja, svaret er ' .. svar)      -- og ned er nye
     else
         print('Nei, det riktige svaret er ' .. tall1 * tall2)
     end
@@ -241,10 +241,10 @@ spiller. Her bruker vi en `for`-løkke som bare teller fra 1 til 5 for
 å stille oss fem spørsmål.
 
     ```lua
-    for i = 1, 5 do
+    for i = 1, 5 do                               -- ny linje
         local tall1 = math.random(2, 12)
         local tall2 = math.random(2, 12)
-        print('Hvor mye er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
+        print('Hva er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
 
         svar = read()
 
@@ -253,7 +253,7 @@ spiller. Her bruker vi en `for`-løkke som bare teller fra 1 til 5 for
         else
             print('Nei, det riktige svaret er ' .. tall1 * tall2)
         end
-    end
+    end                                           -- ny linje
     ```
 
     Test programmet ditt igjen. Blir du spurt om fem gangestykker? Kan
@@ -266,26 +266,40 @@ klarer. For å gjøre dette bruker vi en ny variabel. Men denne gangen
 vil vi endre verdien av variabelen etterhvert som svarer riktig.
 
     ```lua
-    local ant_stykker = 5
-    local ant_riktig  = 0
+    local ant_stykker = 5                         -- ny linje
+    local ant_riktig  = 0                         -- ny linje
 
-    for i = 1, ant_stykker do
+    for i = 1, ant_stykker do                     -- endret linje
         local tall1 = math.random(2, 12)
         local tall2 = math.random(2, 12)
-        print('Hvor mye er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
+        print('Hva er ' .. tall1 .. ' ganger ' .. tall2 .. '?')
 
         svar = read()
 
         if tonumber(svar) == tall1 * tall2 then
             print('Ja, svaret er ' .. svar)
-            ant_riktig = ant_riktig + 1
+            ant_riktig = ant_riktig + 1           -- ny linje
         else
             print('Nei, det riktige svaret er ' .. tall1 * tall2)
         end
     end
-
+                                             -- ny linje nedenfor
     print('Du klarte ' .. ant_riktig .. ' av ' .. ant_stykker)
     ```
+
+### Prøv selv {.try}
+
+Kan du endre programmet slik at det spør om andre typer mattestykker?
+For eksempel plusstykker, minusstykker eller delestykker?
+
+For minusstykker, hvordan kan du lage tilfeldige `tall2` på en slik
+måte at `tall2` aldri er større enn `tall1`?
+
+For delestykker, hvordan kan du enkelt lage stykker som du vet går
+opp, det vil si slik at svaret blir et helt tall?
+
+Kan du bruke `math.random` og passende `if`-tester for å tilfeldig
+velge hvilken type mattestykke det spørres om?
 
 # Steg 5: Passordlås på en dør {.activity}
 
@@ -323,19 +337,22 @@ siden av døren. Det skal se omtrent slik ut:
 
     Dette programmet ligner ganske mye på `mattetest`-programmet vi
     laget tidligere. Det er bare èn ny ting her som vi ikke har sett
-    tidligere, nemlig en `while`-løkke. Disse løkkene vil fortsette å
-    kjøre så lenge noe er sant. I vårt tilfelle er dette *noe* verdien
-    `true` som alltid er sann. Det betyr at vi har laget en *evig
-    løkke*. Dette programmet vil fortsette å spørre oss om passordet
-    for alltid!
+    tidligere, nemlig en `while`-løkke. Slike løkker vil fortsette å
+    gjøre ting om igjen så lenge noe er sant. I vårt tilfelle er dette
+    *noe* verdien `true` som alltid er sann. Det betyr at vi har laget
+    en *evig løkke*. Dette programmet vil fortsette å spørre oss om
+    passordet for alltid!
 
-+ Kjør programmet. Oppfører programmet seg slik du hadde trodd? Hva er
-passordet?
++ Kjør programmet. Oppfører programmet seg slik du hadde trodd? Husker
+du passordet?
 
-    For å avslutte programmet holder du inne *Ctrl* og *T* samtidig i
-    cirka ett sekund. Da avsluttes programmet, og teksten `Terminated`
-    skrives på skjermen. Dette fungerer både her og i andre
-    programmer.
+### Avslutte programmer {.protip}
+
+For å avslutte dette programmet holder du inne *Ctrl* og *T* samtidig
+i cirka ett sekund. Da avbrytes programmet, og teksten `Terminated`
+skrives på skjermen. Dette fungerer både her og i andre programmer.
+
+## Sjekkliste {.check}
 
 + Vi vil at døren skal åpne seg når vi skriver riktig passord. Dette
 kan vi gjøre ved å bruke __redstone__ som brukes for å overføre energi
@@ -349,9 +366,9 @@ i Minecraft. Endre programmet `passord` som følger:
         svar = read()
 
         if svar == passord then
-            redstone.setOutput('left', true)
-            sleep(5)
-            redstone.setOutput('left', false)
+            redstone.setOutput('left', true)      -- endret linje
+            sleep(5)                              -- endret linje
+            redstone.setOutput('left', false)     -- endret linje
         end
     end
     ```
@@ -367,21 +384,21 @@ i Minecraft. Endre programmet `passord` som følger:
     døren lukker seg.
 
 + Før vi er helt fornøyde med dette programmet vil vi gjøre noen små
-forbedringer. Først legger vi til to funksjoner fra
-`term`-biblioteket. Den ene vil rense skjermen, mens den andre setter
-posisjonen hvor vi skriver teksten til `(1, 1)` som betyr øverst til
-venstre. I tillegg forteller vi `read` at vi ikke vil at passordet vi
-skriver inn skal synes på skjermen, i stedet vil vi at `*`-tegn skal
-vises. Programmet ser da slik ut:
+forbedringer. Først kaller vi to funksjoner fra `term`-biblioteket.
+Den ene vil rense skjermen, mens den andre setter posisjonen hvor vi
+skriver teksten til `(1, 1)` som betyr øverst til venstre. I tillegg
+forteller vi `read` at vi ikke vil at passordet vi skriver inn skal
+synes på skjermen, i stedet vil vi at `*`-tegn skal vises. Programmet
+ser da slik ut:
 
     ```lua
     local passord = 'kodeklubben'
 
     while true do
-        term.clear()
-        term.setCursorPos(1, 1)
+        term.clear()                              -- ny linje
+        term.setCursorPos(1, 1)                   -- ny linje
         print('Hva er passordet?')
-        svar = read('*')
+        svar = read('*')                          -- endret linje
 
         if svar == passord then
             redstone.setOutput('left', true)
@@ -394,3 +411,17 @@ vises. Programmet ser da slik ut:
 Gratulerer, du har nå lært ganske mye om hvordan man programmerer
 datamaskiner med ComputerCraft i Minecraft! Prøv gjerne å forandre
 noen av programmene vi har laget. Kan du lage dem enda bedre?
+
+### Prøv selv {.try}
+
+Datamaskinene kan sende ut *redstone*-energi i alle retninger. Prøv å
+koble en __Trap door__ til høyre side av datamaskinen ved hjelp av
+litt *redstone wire*. Aktiver denne fellen hvis det skrives feil
+passord!
+
+Alle kan vi skrive feil passord innimellom. Det er kanskje bedre å
+ikke aktivere fellen før noen svarer galt passord tre ganger på rad?
+Innfør en variabel som teller hvor mange feil passord som er
+skrevet. Aktiver fellen om tre gale passord skrives på rad.
+
+
