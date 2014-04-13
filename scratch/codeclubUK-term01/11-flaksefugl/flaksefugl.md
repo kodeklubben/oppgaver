@@ -255,7 +255,8 @@ __Klikk det grønne flagget.__
 
 ## Lagre prosjektet ditt {.save}
 
-Supert, du har laget ferdig en enkel versjon av Flappy Bird-spillet.
+Supert, du har laget ferdig din egen enkle versjon av Flappy
+Bird-spillet.
 
 Her er noen flere ting du kan prøve:
 
@@ -340,10 +341,10 @@ skriptet.
         gjenta til ((y-posisjon) < [-180])
             endre y med (løft)
             endre [løft v] med (-0.2)
-	slutt
-	skjul
-	send melding [Tap v]
-	stopp [andre skript i figuren v]
+        slutt
+        skjul
+        send melding [Tap v]
+        stopp [andre skript i figuren v]
     ```
 
 + Du må også legge til en `vis`{.blockpurple}-kloss samt sette Flakses

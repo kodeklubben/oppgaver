@@ -1,5 +1,5 @@
 ---
-title: Enarmet Banditt
+title: Enarmet banditt
 level: 1.4
 language: nb-NO
 stylesheet: scratch
@@ -52,7 +52,7 @@ med `vent`{.blockyellow}-klossen?
 
 ## Test Prosjektet {.flag}
 
-__Klikk det grønne flagget.__
+__Klikk på det grønne flagget.__
 
 + Endrer figuren drakt i et fornuftig tempo? 
 
@@ -95,7 +95,7 @@ noen klikker på figuren.
         når denne figuren klikkes
         sett [stoppet v] til (1)
     ```
-	
+        
 + Til slutt må vi få figuren til å slutte å forandre drakt når
  variabelen `stoppet`{.blockorange} blir `1`. Legg til en
  `hvis`{.blockyellow}-løkke og bruk en `_ = _`{.blockgreen}
@@ -337,7 +337,4 @@ __Godt gjort, du er ferdig! Nå kan du nyte spillet ditt!__
 
 Ikke glem at du kan dele spillet med alle vennene og familien din ved
 å klikke på `Legg ut` i topp-menyen!
-
-
-
 

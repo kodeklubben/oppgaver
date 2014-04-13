@@ -1,5 +1,5 @@
 ---
-title: Enarmet Banditt
+title: Enarmet banditt
 level: 1.4
 language: nb-NO
 embeds: "enarmet_banditt.png"
@@ -15,12 +15,12 @@ banditt-maskin).
 
 # Forberedelser
 
-Enarmet Banditt bruker bare ressurser som er inkludert i
+Enarmet banditt bruker bare ressurser som er inkludert i
 Scratch-platformen og krever som sådann ingen spesielle forberedelser.
 
 # Læringsmål
 
-Enarmet Banditt gir trening i flere konsepter, inkludert
+Enarmet banditt gir trening i flere konsepter, inkludert
 
 1. __endring av drakter__,
 2. __bruk av løkker__ for å gjøre ting flere ganger,

@@ -180,8 +180,8 @@ og la den gjelde for alle figurer.
 
     ![](ny-variabel-poeng.png)
 
-	Legg merke til at `Poeng `{.blockgrey}` 0 `{.blockorange}`
-	`{.blockgrey} dukket opp øverst til venstre i spillet ditt.
+    Legg merke til at `Poeng `{.blockgrey}` 0 `{.blockorange}`
+    `{.blockgrey} dukket opp øverst til venstre i spillet ditt.
 
 + Klikk på `Scene` til venstre på skjermen, ved siden av
 `Figurer`. Lag disse to skriptene på scenen:

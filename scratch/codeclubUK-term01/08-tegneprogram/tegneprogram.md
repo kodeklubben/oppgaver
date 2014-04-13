@@ -158,7 +158,7 @@ skjermen.
         når denne figuren klikkes
         send melding [Rød v]
     ```
-	
+    
     Dette er alt denne figuren gjør. Det vanskelige arbeidet gjøres av
     blyanten.
 
@@ -174,7 +174,7 @@ forandre drakt til `red-pencil`. Og så skal den selvsagt også begynne
         bytt drakt til [red-pencil v]
         velg pennfarge [#FF0000]
     ```
-	
+    
     For å velge fargen i `velg pennfarge`{.blockgreen}-klossen kan du
     først klikke i fargeruten på klossen, og deretter på den røde
     knappen du lagde på scenen tidligere.
@@ -242,7 +242,7 @@ legge til to nye `_ og _`{.blocklightgreen}-klosser inni denne.
                 ellers
                     penn av
     ```
-	
+    
 + Siden vi ikke kan tegne utenfor tavla, er det like greit at
 blyanten bare blir borte når musepekeren går utenfor tavla. For å
 gjøre dette må vi erstatte `hvis`{.blockyellow}-klossen ovenfor med en
@@ -256,25 +256,25 @@ __ellers__ skjules blyanten.
         for alltid 
             hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
                 gå til [musepeker v]
-				vis
+                vis
                 hvis (museknappen er nede?)
                     penn på
                 ellers
                     penn av
-				slutt
-			ellers
-			    skjul
-				penn av
+                slutt
+            ellers
+                skjul
+                penn av
     ```
 
     Fordi blyanten vil skjules når pekeren går utenfor tavla, må vi få
     den til å vises igjen når den kommer innenfor. Pass derfor på at
     du får lagt inn en `vis`{.blockpurple}-kommando innenfor
     `hvis`{.blockyellow}-klossen.
-	
-	Vi har også lagt på en `penn av`{.blockgreen}-kloss når blyanten
-	er utenfor tavla, for at den ikke skal tegne en strek akkurat i
-	det den kommer tilbake inn på tavla.
+    
+    Vi har også lagt på en `penn av`{.blockgreen}-kloss når blyanten
+    er utenfor tavla, for at den ikke skal tegne en strek akkurat i
+    det den kommer tilbake inn på tavla.
 
 ## Test prosjektet ditt {.flag}
 
@@ -381,19 +381,19 @@ på`{.blockgreen}-klossen.
         for alltid 
             hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
                 gå til [musepeker v]
-				vis
+                vis
                 hvis (museknappen er nede?)
-				    hvis <(stempelmodus) = [på]>
-					    stemple avtrykk
-					ellers
+                    hvis <(stempelmodus) = [på]>
+                        stemple avtrykk
+                    ellers
                         penn på
-					slutt
+                    slutt
                 ellers
                     penn av
-				slutt
-			ellers
-			    skjul
-				penn av
+                slutt
+            ellers
+                skjul
+                penn av
     ```
 
 ## Test prosjektet ditt {.flag}

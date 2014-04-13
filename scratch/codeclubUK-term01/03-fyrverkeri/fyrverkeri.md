@@ -140,7 +140,7 @@ når musepekeren. For å importere en lyd gå til fanen
                 gli (1) sekunder til x: (mus x) y: (mus y)
                 skjul
     ```
-	
+        
 + Neste steg er å få raketten til å sende en melding til resten av
 spillet når den eksploderer. Vi skal lytte etter meldingen senere. Lag
 en ny melding som heter `Eksploder`.
