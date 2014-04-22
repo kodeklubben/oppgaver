@@ -12,7 +12,7 @@ note: "README.md"
 
 ![](krabbe_bakgrunn.png)
 
-# Steg 1: Vi lager en kanon {.activity}
+# Steg 1: Bli kjent med spillet {.activity}
 
 ## Sjekkliste {.check}
 
