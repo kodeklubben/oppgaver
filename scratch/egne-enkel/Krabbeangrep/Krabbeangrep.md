@@ -95,5 +95,5 @@ Nå er vi ferdig med å fortelle deg hva du skal gjøre. Resten av tiden kan du 
 ##Utfordring: Flere elementer i menyen {.challenge}
 *Hva med å legge til flere knapper i menyen? Kanskje en knapp som heter ‘Hjelp’ som når du trykker på den tar deg til en bakgrunn hvor det står hvordan man spiller spillet? Her må du huske på å ha en ’tilbake’-knapp så man kommer seg tilbake til menyen etter man har lært seg spillet?*
 
-
-
+##Utfordring: Gjør spillet vanskeligere {.challenge}
+Akkurat nå er spillet ganske enkelt. Prøv å la krabbene dale nedover skjermen raskere og raskere når når man skyter fler av dem. Her kan det være lurt å lage en variabel som heter ‘hastighet’ og bruke denne i hovedløkken til Romvesen-figuren. Så kan du for eksempel bruke en `endre (hastighet v) med (1)`{.blockorange} når et romvesen treffes.
