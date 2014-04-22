@@ -255,7 +255,8 @@ __Klikk det grønne flagget.__
 
 ## Lagre prosjektet ditt {.save}
 
-Supert, du har laget ferdig en enkel versjon av Flappy Bird-spillet.
+Supert, du har laget ferdig din egen enkle versjon av Flappy
+Bird-spillet.
 
 Her er noen flere ting du kan prøve:
 
@@ -295,7 +296,7 @@ skal gjelde for `For denne figuren`.
         gå til x: (-50) y: (0)
         for alltid
             endre y med (løft)
-            endre [løft v] med (-0.4)
+            endre [løft v] med (-0.2)
         slutt
     ```
 
@@ -309,10 +310,10 @@ skal gjelde for `For denne figuren`.
             gjenta til ((flaks) = [0])
                 endre [flaks v] med (-1)
                 bytt drakt til [Vinger ned v]
-                endre [løft v] med (8)
-                vent (0.2) sekunder
+                endre [løft v] med (4)
+                vent (0.1) sekunder
                 bytt drakt til [Vinger opp v]
-                vent (0.2) sekunder
+                vent (0.1) sekunder
     ```
 
 ## Test prosjektet {.flag}
@@ -339,11 +340,11 @@ skriptet.
         når jeg mottar [Fall v]
         gjenta til ((y-posisjon) < [-180])
             endre y med (løft)
-            endre [løft v] med (-0.4)
-	slutt
-	skjul
-	send melding [Tap v]
-	stopp [andre skript i figuren v]
+            endre [løft v] med (-0.2)
+        slutt
+        skjul
+        send melding [Tap v]
+        stopp [andre skript i figuren v]
     ```
 
 + Du må også legge til en `vis`{.blockpurple}-kloss samt sette Flakses

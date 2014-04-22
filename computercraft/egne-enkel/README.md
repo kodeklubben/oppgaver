@@ -73,10 +73,10 @@ endringer).
 
 Tabellen under er en oversikt over læringsmål i hver leksjon fra et
 programmeringsperspektiv. Symbolet `/` brukes for leksjoner som kommer
-borti læringsmålet, mens `X` brukes der læringsmålet er en sentral del
+innom læringsmålet, mens `X` brukes der læringsmålet er en sentral del
 av leksjonen.
 
-Mål                                   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
+Mål     \     Leksjon                 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
 ---                                   |---|---|---|---|---|---|---|---|---
 Kommandolinjen                        | X | X | X |   |   |   |   |   |  
 Interaktiv lua-tolker                 | X | X | X |   |   |   |   |   |  
@@ -95,6 +95,7 @@ Iteratorer                            |   |   |   |   |   |   |   |   |
 Lokal og global scope                 |   |   |   |   |   |   |   |   |  
 Rekursjon                             |   |   |   |   |   |   |   |   |   
 Data-strukturer (tables)              |   |   |   |   |   |   |   |   | 
+Debugging                             |   |   |   |   |   |   |   |   | 
 
 Også denne tabellen er for tiden under utarbeidelse. Sannsynligvis vil
 ikke alle disse målene bli dekt i dette introduksjonskurset. Det vil

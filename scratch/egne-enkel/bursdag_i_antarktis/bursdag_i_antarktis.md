@@ -364,7 +364,7 @@ ny scene.
                 endre størrelse med (-2)
                 vent (0.1) sekunder
             slutt
-            pek i retning (([retning v] av [Felix v]) * (-1.5))
+            pek i retning ((retning) * (-1.5))
         slutt
         skjul
         vent (1) sekunder
@@ -396,8 +396,10 @@ __Klikk på det grønne flagget.__
 
 + Har Felix blitt flinkere til å følge veien oppover mot de to husene?
 + Skifter bakgrunnen over til huset som det skal?
-+ Får Felix riktig størrelse igjen på slutten av animasjonen? Og når du starter animasjonen på nytt?
-+ Hvordan kan du sørge for at Felix alltid dukker opp i full størrelse når det grønne flagget klikkes på nytt?
++ Får Felix riktig størrelse igjen på slutten av animasjonen? Og når
+du starter animasjonen på nytt?
++ Hvordan kan du sørge for at Felix alltid dukker opp i full størrelse
+når det grønne flagget klikkes på nytt?
 
 # Steg 5: Si hei til pingvinene {.activity}
 
@@ -497,7 +499,7 @@ etter ordet `blir`!
 + Nå skal vi få Pingu til å danse! Lag to nye drakter for Pingu ved å
 importere `Dyr/Penguin1` to ganger. Roter de to nye draktene litt i
 forhold til hverandre ved å klikke på draktene i tegnevinduet og
-rotere rundt med musen.
+rotere rundt med musen (du må kanskje bytte til vektorgrafikk).
 
     ![](roter_pingu.png)
 
@@ -520,7 +522,8 @@ __Klikk på det grønne flagget.__
 + Danser pingvinen slik du forventet?
 + Hvorfor tror du det kan være lurt å spare på svaret Pappa Pingu får
 i en variabel?
-+ Dukker Pingu opp i riktig drakt når du starter animasjonen på nytt igjen? Hvis ikke: finn ut hvordan du kan fikse det!
++ Dukker Pingu opp i riktig drakt når du starter animasjonen på nytt
+igjen? Hvis ikke: finn ut hvordan du kan fikse det!
 
 ## Lagre prosjektet {.save}
 

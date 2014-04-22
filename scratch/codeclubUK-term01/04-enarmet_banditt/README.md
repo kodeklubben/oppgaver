@@ -1,35 +1,28 @@
 ---
-title: Enarmet Banditt
+title: Enarmet banditt
 level: 1.4
 language: nb-NO
-embeds: "*.png"
+embeds: "enarmet_banditt.png"
 ...
 
 # Informasjon til Veiledere
 
 Dette er et enkelt spill der tre figurer bytter drakter. Spilleren må
-stoppe dem når de viser det samme bildet (som en enarmet
-banditt-maskin!).
+stoppe dem når de alle viser det samme bildet (tilsvarende en enarmet
+banditt-maskin).
 
-# Ferdigheter
-* Endre drakter
-* Kjøre i en løkke
-* Stoppe en løkke når når man klikker på musen
+![](enarmet_banditt.png)
 
-# Ressurser
-Prosjektet bruker bilder og drakter fra Scratchbibliotektet.
+# Forberedelser
 
-# Aktuelle Scratchkort
-* Sende melding
+Enarmet banditt bruker bare ressurser som er inkludert i
+Scratch-platformen og krever som sådann ingen spesielle forberedelser.
 
-# Øvelser
-* Steg 1: Lag en figur som endrer drakt
-* Steg 2: Få bildet til å endre seg
-* Steg 3: Stoppe når man klikker på den
-* Steg 4: Lag de andre figurene
+# Læringsmål
 
-# Utfordringer
-1. Gjør spillet vanskeligere
-2. Få vansklighetsgraden til å variere
-3. Oppdag når figurene stoppes med samme drakt
+Enarmet banditt gir trening i flere konsepter, inkludert
+
+1. __endring av drakter__,
+2. __bruk av løkker__ for å gjøre ting flere ganger,
+3. hvordan __stoppe løkker__ når man klikker med musen.
 

@@ -2,39 +2,29 @@
 title: Ørkenløp
 level: 1.6
 language: nb-NO
-embeds: "*.png"
+embeds: "orkenlop.png"
 ...
 
 # Informasjon til Veiledere
 
-Dette er et spill for to spillere hvor en papegøye og en løve
-konkurrerer om å krysse ørkenen. Hver spill trykker på en task så
-raskt hun kan for å bevege sitt dyr. Første person som når kanten av
-skjermen vinner.
+Dette er et spill for to, der en papegøye og en løvinne kjemper om å
+komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og
+ofte som mulig for å flytte figuren sin, og den som kommer først til
+kanten av skjermen vinner.
 
-# Ferdigheter
-* Hendelser
-* Variabler
-* Animasjon
-* Spille lyder
-* Betingede uttrykk
-* Endre ressurser
-* Bruke egne klosser
+![](orkenlop.png)
 
-# Ressurser
-Prosjektet bruker bilder og drakter fra Scratchbibliotektet i tillegg til egnenlagde ressurser basert på eksisterende.
+# Forberedelser
 
-# Aktuelle Scratchkort
-Say Something
+Ørkenløp bruker bare ressurser som er inkludert i Scratch-platformen
+og krever som sådann ingen spesielle forberedelser.
 
-# Øvelser
-* Steg 1: Lag scenen og legg til figurer
-* Steg 2: Få figurene til å begeve seg
-* Steg 3: Start løpet
-* Steg 4: Avslutt løpet
-* Steg 5: Nullstill spillet
+# Læringsmål
 
+Ørkenløp lærer bort ferdigheter som
 
-# Utfordringer
-Legg til fartsøkning
+1. å styre figurer __med tastene__,
+2. å bruke en __startknapp__ for å starte spillet,
+3. å __nullstille spillet__ slik at det kan spilles igjen,
+4. bruk av __egendefinerte__ klosser.
 
