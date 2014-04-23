@@ -28,7 +28,7 @@ __Prøv et spill eller to for å bli bedre kjent med spillet__
 
 Se nøye på skissen under før du går videre. Her ser du hvordan flyten i spillet skal være. Flyten i spillet skal styres gjennom beskjeder som sendes mellom figurene. Hver gang noe nytt skal skje, som for eksempel et nytt spill skal startes, eller at menyen skal vises etter spillet er tapt skal det sendes en beskjed. 
 
-![skisse over spillflyten](spillflyt.png)
+![Skisse over spillflyten](spillflyt.png)
 
 ## Sjekkliste {.check}
 + Først må du lage en figur som skal fungere som startknapp. Denne kan du tegne selv ved å klikke på ![](tegn-ny.png) i figurområdet. En enkel rektangel med teksten ‘Start’ inni burde gjøre susen. Gi den navnet ‘Startknapp’.
@@ -45,34 +45,34 @@ Du kan sjekke hvem som mottar en bestemt beskjed ved å høyreklikke på en meld
 + Endre på skriptene i scenen så du har følgende skript:
 
 	```blocks
-		når grønt flag klikkes
-		send melding (hovedmeny v)
+		når grønt flagg klikkes
+		send melding [hovedmeny v]
 	```
 
 	```blocks
-		Når jeg mottar (Hovedmeny v)
-		skift bakgrunn til (hovedmeny v)
+		Når jeg mottar [hovedmeny v]
+		bytt bakgrunn til [hovedmeny v]
 	```
 
 + Gi startknappen følgende skript (de to første sørger for at knappen oppfører seg riktig i starten av spillet, og det siste sørger for at startknappen faktisk er en startknapp:
 
 	```blocks
-		når grønt flag klikkes
+		når grønt flagg klikkes
 		skjul
 	```
 
 	```blocks
-		når jeg mottar (hovedmeny v)
+		når jeg mottar [hovedmeny v]
 		gå til x: (0) y: (0)
 		vis
 	```		
 
 	```blocks
 		når denne figuren klikkes
-		send melding (nytt spill)
+		send melding [nytt spill v]
 	```
 
-+ Nå må vi sørge for at resten av figurene oppfører seg som vi vil både når flagget klikkes, når hovedmenyen skal vises og når startknappen klikkes! Det betyr at vi må ha mange små skript som lytter etter disse meldingene (skript som starter med blokkene under `Hendelser`{ .blockred}). Vi skal ikke skrive nøyaktig opp hvordan disse skriptene skal se ut, det skal du klare selv, men her er det som må med:
++ Nå må vi sørge for at resten av figurene oppfører seg som vi vil både når flagget klikkes, når hovedmenyen skal vises og når startknappen klikkes! Det betyr at vi må ha mange små skript som lytter etter disse meldingene (skript som starter med blokkene under `Hendelser`{ .blockgrey}). Vi skal ikke skrive nøyaktig opp hvordan disse skriptene skal se ut, det skal du klare selv, men her er det som må med:
 + Både romskipet, romvesenet og godbiten må gjøre følgende: figuren skjules når flagget klikkes og figuren går inn i hovedløkken sin når ‘nytt spill’ mottas. Hva som er ‘hovedløkken’ til en figur står tydelig skrevet i kommentarene.
 + Startknappen må skjules når ‘nytt spill’ mottas.
 + Scenen må skifte bakgrunn til ‘Rommet’ når ‘nytt spill’ mottas. 
@@ -87,7 +87,7 @@ __Klikk det grønne flagget__
 Nå er vi ferdig med å fortelle deg hva du skal gjøre. Resten av tiden kan du bruke på en eller flere av utfordringene nedenfor. 
 
 ## Utfordring: Vis poengsummen når spillet er ferdig {.challenge}
-*Nå som spillet har en god start kan du prøve å gi det en god slutt også. I denne utfordringen er målet å gjøre det siste steget i spillflyt-tegningen ovenfor. Du legger kanskje merke til at scenen har et skript som starter med `Når jeg mottar (treff v)`{.blockred}, og at her sendes meldingen ‘tapte’ hvis spilleren ikke har flere liv igjen? Det er ingen som mottar denne meldingen! Gi de andre figurene skript som reagerer på denne meldingen. En av figurene kan for eksempel si hvor mange poeng spilleren fikk i noen sekunder og så kan spillet gå tilbake til hovedmenyen*
+*Nå som spillet har en god start kan du prøve å gi det en god slutt også. I denne utfordringen er målet å gjøre det siste steget i spillflyt-tegningen ovenfor. Du legger kanskje merke til at scenen har et skript som starter med `Når jeg mottar [treff v]`{.blockgrey}, og at her sendes meldingen ‘tapte’ hvis spilleren ikke har flere liv igjen? Det er ingen som mottar denne meldingen! Gi de andre figurene skript som reagerer på denne meldingen. En av figurene kan for eksempel si hvor mange poeng spilleren fikk i noen sekunder og så kan spillet gå tilbake til hovedmenyen*
 
 ## Utfordring: Lag flere typer angripere {.challenge}
 *Spillet heter jo Krabbeangrep, men det kan jo hende at det finnes andre romvesener som vil angripe jorden! Du kan gi Romvesen-figuren flere drakter som tilsvarer andre typer angripere. Klarer du å gjøre det slik at man får høyere poengsum om man skyter noen romvesener enn for andre? Da må du gjøre endringer i skriptet til scenen som lytter etter beskjeden ‘treff!’. Du kan jo også gi Godbit-figuren flere drakter som man får flere poeng for å treffe*
@@ -96,4 +96,4 @@ Nå er vi ferdig med å fortelle deg hva du skal gjøre. Resten av tiden kan du 
 *Hva med å legge til flere knapper i menyen? Kanskje en knapp som heter ‘Hjelp’ som når du trykker på den tar deg til en bakgrunn hvor det står hvordan man spiller spillet? Her må du huske på å ha en ’tilbake’-knapp så man kommer seg tilbake til menyen etter man har lært seg spillet?*
 
 ##Utfordring: Gjør spillet vanskeligere {.challenge}
-Akkurat nå er spillet ganske enkelt. Prøv å la krabbene dale nedover skjermen raskere og raskere når når man skyter fler av dem. Her kan det være lurt å lage en variabel som heter ‘hastighet’ og bruke denne i hovedløkken til Romvesen-figuren. Så kan du for eksempel bruke en `endre (hastighet v) med (1)`{.blockorange} når et romvesen treffes.
+Akkurat nå er spillet ganske enkelt. Prøv å la krabbene dale nedover skjermen raskere og raskere når når man skyter fler av dem. Her kan det være lurt å lage en variabel som heter ‘hastighet’ og bruke denne i hovedløkken til Romvesen-figuren. Så kan du for eksempel bruke en `endre [hastighet v] med (1)`{.blockorange} når et romvesen treffes.
