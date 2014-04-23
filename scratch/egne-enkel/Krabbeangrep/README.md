@@ -7,14 +7,16 @@ embeds: “Krabbeangrep_bakgrunn.png"
 
 # Informasjon til Veiledere
 
-I våre kodeklubbmøter i Deichmannske på majorstuen merker vi at barna ofte bare blir nesten ferdige med et spill før timen er over. Derfor er ideen bak Krabbeangrep at skjelettet til spillet står ferdig før barna selv remikser det for å legge til ekstra funksjonalitet. 
+I våre kodeklubbmøter i Deichmanske på Majorstuen merker vi at barna ofte bare blir nesten ferdige med et spill før timen er over. Derfor er ideen bak Krabbeangrep! at skjelettet til spillet står ferdig før barna selv remikser det for å legge til ekstra funksjonalitet. 
 
 ![](Krabbeangrep_bakgrunn.png)
 
 # Forberedelser
 
-Krabbeangrep bruker bare ressurser som er inkludert i
-Scratch-platformen og krever som sådann ingen spesielle forberedelser.
+Krabbeangrep! bruker bare ressurser som er inkludert i
+Scratch-platformen, samt prosjektet Krabbeangrep! som barna blir
+guidet til å laste inn og starte en remiks av i Steg 1. Prosjektet
+krever som sådann ingen spesielle forberedelser.
 
 Her er likevel noen generelle ting som kan være verdt å huske på:
 
@@ -34,6 +36,7 @@ Her er likevel noen generelle ting som kan være verdt å huske på:
 
 I Krabbeangrep fokuserer vi på:
 
-+ Lære hvordan alle figurene i et spill kan synkroniseres og styres med meldinger. Lære å sette pris på hvor lurt det er å ha et hovedobjekt (scenen) som tar for seg viktige avgjørelser i spillflyten. Et aller første møte med en slags MVC-idé. 
++ Lære hvordan alle figurene i et spill kan synkroniseres og styres med meldinger.
++ Lære å sette pris på hvor lurt det er å ha et hovedobjekt (scenen) som tar for seg viktige avgjørelser i spillflyten. Et aller første møte med en slags MVC-idé. 
 + Lære hvordan et ‘spill’ kan gjøres til et skikkelig spill der man kan spille flere ganger og ikke være avhengige av å klikke det grønne flagget hele tiden. 
 + Leke med forskjellige ting som vanskelighetsgrad, lyder og annet pynt.
