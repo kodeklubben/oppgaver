@@ -71,8 +71,9 @@ __Klikk det grønne flagget.__
 __Klikk det grønne flagget.__
 
 + Klarer du å kontrollere Flakse med mellomromtasten?
-+ La du merke til at noen ganger så flytter ikke Flakse seg når du
-trykker mellomrom? Det er det neste vi skal fikse.
++ La du merke til at om du trykker mellomrom flere ganger raskt
+etterhverandre så flakser Flakse av og til bare en gang? Det er det
+neste vi skal fikse.
 
 # Steg 3: Gjør kontrollen bedre {.activity}
 
@@ -84,13 +85,16 @@ hvor mange flaks vi trenger å gjøre.*
 
 ## Sjekkliste {.check}
 
-+ Ta fra hverandre skriptet som starter med `når mellomrom
-trykkes`{.blockgrey} og legg de til siden. Vi skal bruke klossene
-igjen straks.
 + Lag en ny variabel og kall den `flaks`. Velg at den bare skal gjelde
 `For denne figuren`. Klikk `OK`. Skjul variabelen ved å ta vekk
 avhukingen foran variabelen.
-+ Lag et nytt skript ved å bruke klossene du la til siden tidligere:
++ Vi skal nå gjøre om på skriptet som starter med `når mellomrom
+trykkes`{.blockgrey}. Dra i `bytt drakt til Vinger
+ned`{.blockpurple}-klossen slik at den og klossene under løsner. Legg
+disse klossene til siden. Vi skal bruke dem igjen straks.
++ Lag et nytt skript. Legg merke til at klossene du nettopp la til
+siden kan brukes igjen inne i `gjenta til flaks =
+0`{.blockyellow}-løkken:
 
     ```blocks
         når grønt flagg klikkes
@@ -111,13 +115,15 @@ avhukingen foran variabelen.
         slutt
     ```
 
-+ Til slutt, legg til dette skriptet på `når mellomrom
-trykkes`{.blockgrey}-klossen:
++ Til slutt, legg følgende skript på `når mellomrom
+trykkes`{.blockgrey}-klossen som ble til overs tidligere:
 
     ```blocks
         når [mellomrom v] trykkes
         endre [flaks v] med (1)
     ```
+
++ Du skal nå ha tre forskjellige skript på Flakse.
 
 ## Test prosjektet {.flag}
 
@@ -260,28 +266,7 @@ Bird-spillet.
 
 Her er noen flere ting du kan prøve:
 
-## Utfordring 1: Legg til rekorder {.challenge}
-
-+ Lag en ny variabel og merk av `Nett variabel (lagret på nett)`
-boksen. Kall variabelen `Rekord`.
-+ Når spillet er ferdig må vi sjekke om det er en ny rekord. Det gjør
-vi ved å endre `Tap`-skriptet på `Rør` slik:
-
-    ```blocks
-        når jeg mottar [Tap v]
-        hvis <(poeng) > (Rekord)> 
-            sett [Rekord v] til (poeng)
-        slutt
-        stopp [andre skript i figuren v]
-    ```
-
-## Test prosjektet {.flag}
-
-__Klikk det grønne flagget.__
-
-+ Oppdaterer rekorden seg hver gang du setter ny rekord?
-
-## Utfordring 2: Legg til tyngdekraft {.challenge}
+## Utfordring 1: Legg til tyngdekraft {.challenge}
 
 Når noe faller på grunn av tyngdekraft øker farten jo lenger fallet
 varer. Vi skal prøve å etterligne denne måten å falle på.
@@ -322,7 +307,7 @@ __Klikk det grønne flagget.__
 
 + Faller Flakse fortere jo lenger han detter?
 
-## Utfordring 3: Fall ut av skjermen {.challenge}
+## Utfordring 2: Fall ut av skjermen {.challenge}
 
 Når spilleren taper vil vi at Flakse faller ned og ut av skjermen.
 
@@ -356,6 +341,40 @@ __Klikk det grønne flagget.__
 
 + Faller Flakse ut av skjermen når han treffer et rør?
 + Flyr Flakse riktig vei når spillet starter igjen?
+
+## Utfordring 3: Legg til rekorder {.challenge}
+
++ Lag en ny variabel og merk av `Nett variabel (lagret på nett)`
+boksen. Kall variabelen `Rekord`.
++ Når spillet er ferdig må vi sjekke om det er en ny rekord. Det gjør
+vi ved å endre `Tap`-skriptet på `Rør` slik:
+
+    ```blocks
+        når jeg mottar [Tap v]
+        hvis <(poeng) > (Rekord)> 
+            sett [Rekord v] til (poeng)
+        slutt
+        stopp [andre skript i figuren v]
+    ```
+
+## Nettvariabler {.protip}
+
+Nettvariabler gir deg muligheten til å huske ting mellom forskjellige
+brukere og forskjellige kjøringer av spillet ditt (i motsetning til
+vanlige variabler hvor verdiene blir nullstilt hver gang du trykker
+det grønne flagget). Dette er nøyaktig det vi trenger for å huske hva
+rekorden i spillet er.
+
+Nettvariabler er fortsatt litt eksperimentelle, og for tiden får ikke
+nye brukere av Scratch lov til å lage slike variabler. Hvis du ikke
+får lov til å lage en slik variabel må du hoppe over den siste
+utfordringen.
+
+## Test prosjektet {.flag}
+
+__Klikk det grønne flagget.__
+
++ Oppdaterer rekorden seg hver gang du setter ny rekord?
 
 ## Lagre prosjektet ditt {.save}
 
