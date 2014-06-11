@@ -42,10 +42,10 @@ ned tidligere.
 
 ### Norgeskart {.protip}
 
-Det finnes mengder av kart man kan finne på internett. Det kartet vi
-bruker i denne oppgaven er laget av Kartverket og delt slik at alle
-kan bruke det til hva de ønsker. Bakerst i denne oppgaven beskrives
-hvordan du kan bruke andre kart.
+Det finnes mengder av kart på internett. Det kartet vi bruker i denne
+oppgaven er laget av Kartverket og delt slik at alle kan bruke det til
+hva de ønsker. Bakerst i denne oppgaven beskrives hvordan du kan bruke
+andre kart.
 
 # Steg 2: Styr helikopteret {.activity}
 
@@ -187,10 +187,10 @@ sirkel som er omtrent fire ruter stor. `skift`-knappen hjelper deg til
 første reisemål. Vi har brukt `Hønefoss` som første reisemål, men du
 kan velge et annet sted om du vil.
 
-+ Vi trenger nå koordinatene til reisemålet vårt. Disse finner vi ved
-se på figurinformasjonen etter tallene som står bak `x` og `y`. I
-eksempelet under er koordinatene `x: 6` og `y: -112`. Disse forteller
-hvor på kartet vi har lagt reisemålet.
++ Vi trenger nå posisjonen til reisemålet vårt. Denne finner vi ved se
+på figurinformasjonen etter tallene som står bak `x` og `y`. Disse
+tallene kalles koordinater. I eksempelet under er koordinatene `x: 6`
+og `y: -112`. Disse forteller hvor på kartet vi har lagt reisemålet.
 
     ![](reisemaal.png)
 
@@ -268,11 +268,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-Vi vil først fortelle spilleren hvor han skal fly. Dette kan for
-eksempel gjøres ved at vi lager en ny figur (kanskje `Dyr/Monkey2`?),
-som kan si `Reis til Hønefoss` når den mottar meldingen `Sted:
-Hønefoss` og så videre. I punktene under viser vi et annet alternativ,
-men prøv gjerne å lage en slik figur selv!
+Vi vil først fortelle spilleren hvor han skal fly.
 
 + Lag en ny variabel, ved å klikke på `Data`{.blockorange} og deretter
 `Lag en variabel`{.blocklightgrey}. Kall variabelen `Reis til` og velg
@@ -361,7 +357,7 @@ __Klikk på det grønne flagget.__
 + Er fortsatt den røde sirkelen usynlig?
 + Hva skjer nå om du reiser til Hønefoss?
 
-# Steg 6: Vis reisemålet når det blir funnet {.activity}
+# Steg 6: Vis reisemålet etter at det blir funnet {.activity}
 
 *Det vil være kult å vise spilleren hvor reisemålet faktisk er etter
  at hun har funnet det!*
@@ -415,9 +411,9 @@ vi starter spillet på nytt kan vi bruke
 
     ```blocks
 	    når grønt flagg klikkes
+        slett
         vis
 		sett [gjennomsiktig v] effekt til (100)
-        slett
         send melding [Sted: Hønefoss v]
     ```
 
@@ -448,12 +444,281 @@ __Klikk på det grønne flagget.__
 
 # Steg 7: Tiden går {.activity}
 
-*Vi skal nå gjøre spillet enda mere utfordrende, ved å legge på en
+*Vi skal nå gjøre spillet enda mere utfordrende ved å legge på en
  tidsbegrensning.*
  
 ## Sjekkliste {.check}
 
++ Klikk på `Scene` til venstre for figurene. Skript som skal gjelde
+for hele spillet, og ikke en spesiell figur kan man legge på scenen. I
+dette tilfellet vil vi ha en variabel som teller ned hvor mye tid
+spilleren har til å reise rundt. Denne er et bra eksempel på noe som
+tilhører hele spillet.
+
++ Velg `Data`{.blockorange} og `Lag en
+variabel`{.blocklightgrey}. Kall variabelen `Tid`. Legg merke til at
+siden vi lager variabelen på scenen må den gjelde for alle figurer.
+
++ Når spillet starter vil vi gi spilleren litt tid. Dette gjør vi ved
+å sette `Tid` til for eksempel `30`, du kan selvsagt eksperimentere
+med andre tall. Deretter starter vi en løkke som teller ned hvert
+sekund.
+
+    ```blocks
+	    når grønt flagg klikkes
+		sett [Tid v] til [30]
+		gjenta til <(Tid) = [0]>
+		    vent (1) sekunder
+			endre [Tid v] med (-1)
+		slutt
+		send melding [Avslutt v]
+    ```
+
+    Legg merke til at vi også sender ut en ny melding `Avslutt` når
+    tiden er ute. Denne bruker vi til å avslutte spillet.
+
++ Lag et nytt skript på scenen som avslutter spillet.
+
+    ```blocks
+	    når jeg mottar [Avslutt v]
+		stopp [alle v]
+	```
+	
+## Test prosjektet {.flag}
+
+__Klikk på det grønne flagget.__
+
++ Starter tiden på 30 når spillet begynner?
++ Telles tiden ned etterhvert?
++ Avsluttes spillet (helikopteret kan ikke fly rundt lengre) når tiden
+  løper ut?
+
+## Sjekkliste {.check}
+
+Som en bonus kan vi også gi spilleren litt ekstra tid hver gang han
+finner et reisemål.
+
++ Lag et nytt skript på scenen som reagerer på meldingen `Fant sted`.
+
+    ```blocks
+	    når jeg mottar [Fant sted v]
+		endre [Tid v] med (10)
+	```
+
 # Steg 8: Flere steder å besøke {.activity}
+
+*Til sist vil vi legge til litt flere steder å besøke for å gjøre
+ spillet mer spennende!*
+
+## Sjekkliste {.check}
+
+For å legge til nye steder må vi bare gjøre det samme som vi gjorde
+tidligere i oppgaven (under Steg 3 og 4). Det enkleste er å kopiere
+kodeklossene vi allerede har lagd, og deretter endre på dem.
+
++ Velg figuren `Sted`.
+
++ Vi har gjort `Sted`-figuren helt gjennomsiktig. For å gjøre den
+synlig igjen, kan du bare klikke på (du trenger ikke legge den til i
+noe skript) klossen `ta bort grafiske effekter`{.blockpurple} i
+`Utseende`{.blockpurple}-kategorien. Det kan også være nyttig å klikke
+på `slett`{.blockgreen}-klossen i `Penn`{.blockgreen}-kategorien.
+
++ Flytt den røde sirkelen til et nytt sted. Noter deg koordinatene ved
+å se på figurinformasjonen, `i`{.blockblue}.
+
++ Høyreklikk på skriptet som begynner `når jeg mottar Sted:
+Hønefoss`{.blockgrey} og velg `lag en kopi`. Oppdater denne kopien med
+navnet og koordinatene du fant ovenfor.
+
++ Nedenfor har vi lagt til tre nye steder (samt lagt til en melding
+for å reise videre fra Tromsø). Dine skript bør ligne på disse, men
+kan gjerne inneholde andre navn og koordinater.
+
+    ```blocks
+        når jeg mottar [Sted: Hønefoss v]
+		gå til x: (6) y: (-112)
+        sett [Reis til v] til [Hønefoss]
+        vent til (berører [Helikopter v]?)
+		send melding [Fant sted v] og vent
+		send melding [Sted: Tromsø v]
+
+        når jeg mottar [Sted: Tromsø v]
+		gå til x: (103) y: (121)
+        sett [Reis til v] til [Tromsø]
+        vent til (berører [Helikopter v]?)
+		send melding [Fant sted v] og vent
+		send melding [Sted: Lillehammer v]
+
+        når jeg mottar [Sted: Lillehammer v]
+		gå til x: (14) y: (-94)
+        sett [Reis til v] til [Lillehammer]
+        vent til (berører [Helikopter v]?)
+		send melding [Fant sted v] og vent
+		send melding [Sted: Bergen v]
+
+        når jeg mottar [Sted: Bergen v]
+		gå til x: (-52) y: (-107)
+        sett [Reis til v] til [Bergen]
+        vent til (berører [Helikopter v]?)
+		send melding [Fant sted v] og vent
+		send melding [Sted: Narvik v]
+
+        når jeg mottar [Sted: Narvik v]
+		gå til x: (91) y: (90)
+        sett [Reis til v] til [Narvik]
+        vent til (berører [Helikopter v]?)
+		send melding [Fant sted v] og vent
+		send melding [Avslutt v]
+    ```
+
+## Test prosjektet {.flag}
+
+__Klikk på det grønne flagget.__
+
++ Kan du reise innom alle stedene?
++ Virker stedene å være riktig plassert på kartet?
+
+## Lagre prosjektet {.save}
+
+*Da er norgesturen vår ferdig!*
+
+Du kan nå utfordre venner og familie til å reise rundt omkring i Norge
+sammen med deg! Hvis du vil dele spillet på internett kan du trykke
+`Legg ut` øverst til høyre på skjermen.
+
+# Flere utfordringer {.activity}
+
+*Det er alltid muligheter til å utvide spill, nedenfor har vi noen
+ forslag som du kan prøve deg på!*
+
+## Utfordring: Enda flere reisemål {.challenge}
+
+Det er ingen begrensning på hvor mange reisemål du kan legge til i
+spillet. Har du reisemål fra alle deler av landet? Kanskje du kan
+besøke et sted i hvert fylke i Norge?
+
+##
+
+## Utfordring: En skikkelig avslutning {.challenge}
+
+Slik spillet er nå bare slutter helikopteret å fly enten når tiden er
+ute eller når spilleren har funnet alle reisemålene. Kan du legge til
+en skikkelig avslutning? Denne bør gi spilleren tilbakemelding på om
+hun vant ved å finne alle reisemålene eller tapte fordi tiden var ute.
+
+En måte å gjøre dette på vil være å lage to nye meldinger `Vant` og
+`Tapte` som sendes i stedet for `Avslutt` henholdsvis etter at siste
+reisemål er funnet, og etter at tiden er ute. Du kan så lage to nye
+bakgrunner ved å kopiere norgeskartet, og deretter skrive en passende
+tekst på de nye bakgrunnene. Disse kan så vises etter at spillet er
+enten vunnet eller tapt.
+
+##
+
+## Utfordring: Reisemål i tilfeldig rekkefølge {.challenge}
+
+Dette er en skikkelig utfordring! Slik det er nå kommer reisemålene
+alltid i samme rekkefølge, kan du gjøre det slik at rekkefølgen blir
+tilfeldig?
+
+Det finnes ingen måte å sende ut tilfeldige meldinger i Scratch. Det
+vi i stedet kan gjøre er å tilfeldig bestemme om vi skal be spilleren
+reise til et reisemål, eller bare gå videre til neste reisemål uten å
+spørre.
+
++ Nedenfor er noen hint om hvordan dette kan gjøres. Vær oppmerksom på
+at skriptene bruker noen variable du selv må lage.
+
+
+    ```blocks
+	    definer sjekk sted
+		hvis (((tilfeldig tall fra (1) til (Antall steder totalt)) > (1)) eller (berører fargen [#ff0000]?))
+		    sett [bruk sted v] til [nei]
+		ellers
+		    sett [bruk sted v] til [ja]
+		slutt
+
+        når jeg mottar [Sted: Hønefoss v]
+		gå til x: (6) y: (-112)
+		sjekk sted
+		hvis ((bruk sted) = [ja])
+            sett [Reis til v] til [Hønefoss]
+            vent til (berører [Helikopter v]?)
+		    send melding [Fant sted v] og vent
+		slutt
+	 	send melding [Sted: Tromsø v]
+    ```
+
+    Klossen `berører fargen`{.blocklightblue} brukes for å sjekke om
+    vi allerede har besøkt et reisemål. I såfall vil vi jo ha stemplet
+    rødfarge på kartet.
+
++ Siden dette vil hoppe over reisemål, er det viktig at det siste
+reisemålet sender melding om at vi skal besøke det første reisemålet
+igjen, i stedet for at spillet avsluttes etter det siste reisemålet.
+
++ Det blir også vanskeligere å vite når spilleren har funnet alle
+(eller mange nok) reisemål. En måte å gjøre dette på er å bruke en ny
+variabel, for eksempel `Antall steder funnet`, som teller hvor mange
+steder som er funnet. Når mange nok steder er funnet kan det sendes ut
+en `Avslutt`- (eller `Vant`-) melding.
 
 # Hvordan lage egne kart {.activity}
 
+*Til sist vil vi se på hvordan du kan reise rundt i egne kart eller
+ andre kart som du finner på internett.*
+
+## Sjekkliste {.check}
+
++ Åpne nettleseren din og finn en søkemotor som for eksempel Google,
+Bing eller DuckDuckGo.
+
++ Søk etter et kart du er interessert i, for eksempel
+`Europakart`. Velg å bare se bilderesultatene.
+
++ Når du finner et kart du synes ser bra ut, klikk på det slik at du
+kommer til originalbildet. Deretter kan du prøve å høyreklikke på
+kartet, og velge Lagre bilde eller noe som ligner.
+
++ Før du bruker kartet i et prosjekt du deler med andre, må du
+undersøke om du har rettigheter til å bruke kartet. Noen ganger vil
+det stå på nettsiden du fant kartet på at du kan bruke det (et
+eksempel på dette kan du se på
+<http://no.wikipedia.org/wiki/Fil:EUR_location_NOR.PNG>). Andre ganger
+må du ta kontakt med de som eier nettsiden (for eksempel ved å sende
+en e-post) for å undersøke om du kan bruke kartet. Se mer informasjon
+om opphavsrett nedenfor.
+
++ Bakgrunner i Scratch skal helst ha oppløsningen 480 x 360
+bildepunkter. Som regel vil ikke kartene du finner på nettet ha denne
+oppløsningen. Det gjør som regel ingenting, fordi Scratch vil gjøre
+bildene mindre om de er for store. Om bildet er mindre enn 480 x 360
+vil Scratch fylle resten av bakgrunnen automatisk. Om du vil ha mer
+kontroll over denne konverteringen kan du endre oppløsningen selv i et
+bildebehandlingsprogram som for eksempel Paint, Gimp eller Photoshop
+(Elements).
+
++ Les inn det nye kartet i Scratchprosjektet ditt på samme måte som du
+leste inn det opprinnelige norgeskartet i Steg 1, ved å velge
+![Last opp bakgrunn fra fil](hent-fra-fil.png) under `Ny bakgrunn`
+helt til venstre på skjermen.
+
++ Lag reisemål basert på det nye kartet!
+
+## Opphavsrett {.protip}
+
+Noen har laget de kartene du finner på internett, og som regel vil de
+ha opphavsretten til disse kartene. I praksis betyr det at de eier
+kartene. Det betyr at dersom du vil bruke kartene i et spill du gjør
+tilgjengelig for andre (bruker `Legg ut`-knappen i Scratch), må du
+undersøke om dette er greit for de som har laget kartene.
+
+Mye materiell på internett, inkludert kartet vi har brukt i denne
+oppgaven, er lagt ut med en såkalt lisens som kan si at du kan bruke
+materiellet så lenge du referer til dem som opprinnelig lagde
+materiellet. Dette er lett å gjøre i Scratch. Klikk på `Se
+prosjektsiden` øverst til høyre. Du kommer da til en side hvor du kan
+beskrive prosjektet. En av boksene heter `Merknader og
+bidragsytere`. Her kan du nevne dem som opprinnelig har laget for
+eksempel kartet du bruker.
