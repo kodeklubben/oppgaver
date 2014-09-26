@@ -17,6 +17,14 @@
         {
             "number":   2,
             "filename": "02-robotinvasjon/robotinvasjon.md"
+        },
+        {
+            "number":   3,
+            "filename": "03-datamaskin_guru/datamaskin_guru.md"
+        },
+        {
+            "number":   4,
+            "filename": "04-bygg_et_hus/bygg_et_hus.md"
         }
     ],
 
