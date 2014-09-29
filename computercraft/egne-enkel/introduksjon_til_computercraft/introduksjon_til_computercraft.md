@@ -269,7 +269,7 @@ sekunder kan vi lukke døren igjen. Endre programmet slik:
 	if svar == passord then
 		redstone.setOutput('left', true)          -- endret linje
 		sleep(5)                                  -- endret linje
-		redstone.setOutput('right', false)        -- endret linje
+		redstone.setOutput('left', false)         -- endret linje
 	end
     ```
 
@@ -405,8 +405,8 @@ høyreklikke på dem. Dette vil starte kommandolinjen til roboten.
 igjen. I kommandolinjen står det nå en liten tekst som sier at du kan
 få roboten til å slutte å danse ved å trykke en knapp på tastaturet.
 
-    Hvis du vil kan du også la roboten fortsette å danse. Lag da en ny
-    robot som du kan bruke i de neste oppgavene.
+    Hvis du vil kan du også la roboten fortsette å danse. Lag i så
+    fall en ny robot som du kan bruke i de neste oppgavene.
 
 # Steg 6: Roboter og skilpadder {.activity}
 
@@ -445,14 +445,15 @@ side. Dette er robotens inventory. Flytt kullet over til roboten.
     Roboten vil nå spise opp alt kullet, og deretter rapportere at den
     er klar til å gå ganske så langt!
     
-+ Da prøver vi igjen: Kjør programmet `go forward`.
++ Da prøver vi igjen: Kjør programmet `go forward`. Dette skal flytte
+roboten forover ett steg.
 
     Flytter roboten din seg? Det kan være litt vanskelig å se hva som
     er fram og bak på en robot. Et triks kan være å tenke på den
     lange, smale sprekken som øynene til roboten. Altså at den siden
     med sprekken er foran.
     
-+ Vi kan få roboten til å flytte seg tilbake ved å skrive `go back`.
++ Vi kan få roboten til å flytte seg bakover ved å skrive `go back`.
 
 ### Finne hjelp {.protip}
 
@@ -551,9 +552,8 @@ kommandoer fra `turtle`-biblioteket.
 `turtle`-biblioteket. Skriv `help turtle`.
 
     Du får nå se en ganske lang liste med kommandoer som vi kan
-    bruke. Vi vil vise frem noen av disse. Du burde kan senere teste
-    alle sammen på egen hånd, og se om du skjønner hvordan de alle
-    virker.
+    bruke. Vi vil vise frem noen av disse. Du kan senere teste alle
+    sammen på egen hånd, og se om du skjønner hvordan de alle virker.
 	
 	For å komme ut av listen kan du for eksempel holde mellomromtasten
 	nede en liten stund.
@@ -570,8 +570,9 @@ kommandolinjen.
     gjør. Høyreklikk på roboten for å komme tilbake til
     Lua-tolkeren.
     
-+ Prøv også de følgende kommandoene. Til sammen gir de oss muligheten
-til å flytte roboten dit vi vil ha den:
++ Prøv også de følgende kommandoene. Disse tilsvarer `go`-programmet,
+og til sammen gir de oss muligheten til å flytte roboten dit vi vil ha
+den:
 
     `turtle.forward()`, `turtle.back()`, `turtle.turnLeft()`,
     `turtle.turnRight()`, `turtle.up()`, `turtle.down()`.
@@ -631,9 +632,9 @@ inne i Lua-tolkeren.
 I Steg 10 skal vi se hvordan vi kan bruke `place()` og `detect()`
 sammen for å lage en ganske smart byggerobot.
 
-Men først, en ting vi kunne med `go` var å flytte roboten flere steg
-ved å skrive et tall, for eksempel `go forward 3`. Det samme fungerer
-ikke med `turtle`-biblioteket. I stedet må vi bruke løkker.
+Men først, en ting vi kunne gjøre med `go` var å flytte roboten flere
+steg ved å skrive et tall, for eksempel `go forward 3`. Det samme
+fungerer ikke med `turtle`-biblioteket. I stedet må vi bruke løkker.
 
 ## Sjekkliste {.check}
 
@@ -660,7 +661,7 @@ vi skrive
 for i = 1, 5 do print(i); end
 ```
 	
-Dette vil skrive tallene 1, 2, 3, 4, 5 til skjermen.
+Dette vil skrive tallene 1, 2, 3, 4, 5 til skjermen på hver sin linje.
 
 Vi kan også bruke andre variabelnavn enn `i`, og vi kan starte på
 andre tall enn `1`:
