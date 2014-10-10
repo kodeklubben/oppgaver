@@ -27,7 +27,7 @@ Vi begynner med å lage ringefiguren. Du kan enkelt tegne den selv som to sirkle
 	når jeg mottar [nytt spill v]
 		skjul
 		for alltid
-			lag en klon av [meg v]
+			lag klon av [meg v]
 			vent (1) sekunder
 ```
 ```blocks
@@ -35,7 +35,7 @@ Vi begynner med å lage ringefiguren. Du kan enkelt tegne den selv som to sirkle
 		gå til x: (0) y: (0)
 		vis
 		gjenta (10) ganger
-			endre størrelse med 5
+			endre størrelse med (5)
 			vent (0.1) sekunder
 		slett denne klonen
 ```
@@ -46,11 +46,11 @@ Du må også lage et skript som sørger for at meldingen ‘nytt spill’ sendes
 
 + Hva gjør de to skriptene over? Ser det ut som om ringene kommer mot deg?
 
-De to skriptene vi har foreløpig er en OK start, men de er ikke gode nok til å virkelig kalles 3D! Tenk litt på hvordan det virker som om noe vokser i størrelse når det kommer mot deg. Når det er langt unna så vokser det ganske sakte, mens når det er nærme så vokser det mye fortere. Dette skal vi få til ved hjelp av en *variabel* som vi kaller __avstand__. Når __avstand__ er stor, så er ringen langt borte, og skal vokse sakte. Når __avstand__ er liten så betyr det at ringen er nærme, og den skal vokse fort.
+De to skriptene vi har foreløpig er en OK start, men de er ikke gode nok til å virkelig kalles 3D! Tenk litt på hvordan det virker som om noe vokser i størrelse når det kommer mot deg. Når det er langt unna så vokser det ganske sakte, mens når det er nærme så vokser det mye fortere. Dette skal vi få til ved hjelp av en *variabel* som vi kaller `avstand`. Når `avstand` er stor, så er ringen langt borte, og skal vokse sakte. Når `avstand` er liten så betyr det at ringen er nærme, og den skal vokse fort.
 
 ## Sjekkliste { .check}
 
-+ Lag en variabel som heter __avstand__. Pass på at den kun gjelder ‘for denne figuren’. 
++ Lag en variabel som heter `avstand`. Pass på at den kun gjelder ‘for denne figuren’. 
 + Endre skriptet over til dette:
 
  ```blocks
@@ -68,7 +68,7 @@ De to skriptene vi har foreløpig er en OK start, men de er ikke gode nok til å
 
 ## Utfordring: Gjennomsiktig effekt {.challenge}
 
-Dette er ikke viktig for å kunne fortsette med spillet, men prøv hvis du vil. For at det skal se enda mer ut som at ringene først er langt borte og så nærme, så kan du bruke klossen `endre [gjennomsiktig v] effekt med (25)`{.blockpurple}-klossen for å gjøre ringene mer gjennomsiktig når de er langt borte. Hvor må du putte denne klossen for at det skal se bra ut, og hvilket tall passer bra?
+Dette er ikke viktig for å kunne fortsette med spillet, men prøv hvis du vil. For at det skal se enda mer ut som at ringene først er langt borte og så nærme, så kan du bruke klossen `sett [gjennomsiktig v] effekt til ((100)-((150)/(avstand))`{.blockpurple} for å gjøre ringene mer gjennomsiktig når de er langt borte. Hvilke tall må du putte i denne klossen for at det skal se bra ut?
 
 # Steg 2: Få ringene til å dukke opp tilfeldige steder { .activity}
 
@@ -78,20 +78,20 @@ For at spillet skal bli mest mulig utfordrende så burde ringene dukke opp på f
 
 + Prøv først å endre på blokken som plasserer ring-klonene til 
 ```blocks
-	gå til x: ((tilfeldig tall mellom (-100) og (100)) y: ((tilfeldig tall mellom (-100) og (100))))
+	gå til x: (tilfeldig tall fra (-100) til (100)) y: (tilfeldig tall fra (-100) til (100)))
 ```
 Det ser ganske bra ut, men ikke helt riktig, eller hva? Det er fordi *midtpunktet* til ringen er på samme sted hele tiden mens ringen er på vei mot deg. For at det skal se ut som at den suser *forbi deg* så må du hele tiden flytte på ringen mens den er på vei mot deg. For å få det til å fungere må ringklonen huske hvor den dukket opp til å begynne med. 
 
-+ Lag variabler __ringX__ og __ringY__, som *kun gjelder for ringfiguren*
++ Lag variabler `ringX` og `ringY`, som *kun gjelder for ringfiguren*
 + Erstatt blokken som først plasserer ringen med dette:
 ```blocks
-	sett [ringX v] til ((tilfeldig tall mellom (-100) og (100))
-	sett [ringY v] til ((tilfeldig tall mellom (-100) og (100))
-	gå til x: ((ringX)) y: ((ringY))
+	sett [ringX v] til (tilfeldig tall fra (-100) til (100)
+	sett [ringY v] til (tilfeldig tall fra (-100) til (100)
+	gå til x: (ringX) y: (ringY)
 ```
 Forhåpentligvis har ikke oppførselen til ringene endret seg ennå. For å få midtpunktet til ringene til å flytte på seg mens ringene kommer mot deg kan du putte følgende blokk et sted inni løkken hvor ringen vokser:
 ```blocks
-	gå til x: (((ringX)/(avstand))) y: (((ringY)/(avstand)))
+	gå til x: ((ringX)/(avstand)) y: ((ringY)/(avstand))
 ```
 
 ## Test prosjektet {.flag}
@@ -105,40 +105,43 @@ I neste del av dette kurset skal vi få en figur til å fly gjennom ringene. I d
 ## Sjekkliste {.check}
 
 + Lag en ny figur. Det er best om den er symmetrisk, slik at det kan se ut som om den flyr innover i skjermen uten at det ser teit ut, bruk for eksempel flaggermus-figuren. Kall den __Flakse__.
-+ Lag to nye variabler, __x__ og __y__. La dem gjelde *for alle figurer*. 
++ Lag to nye variabler, `x` og `y`. La dem gjelde *for alle figurer*. 
 + Gi Flakse følgende skript:
 
 ```blocks
 	når jeg mottar [nytt spill v]
 		for alltid
 			hvis (tast [pil høyre v] trykket)
-				endre [x v] med 10
+				endre [x v] med (10)
 				vent (0.05) sekunder
+                        slutt
 			hvis (tast [pil venstre v] trykket)
-				endre [x v] med -10
+				endre [x v] med (-10)
 				vent (0.05) sekunder
+                        slutt
 			hvis (tast [pil opp v] trykket)
-				endre [y v] med 10
+				endre [y v] med (10)
 				vent (0.05) sekunder
+                        slutt
 			hvis (tast [pil ned v] trykket)
-				endre [y v] med -10
+				endre [y v] med (-10)
 				vent (0.05) sekunder
+                        slutt
 ```
- Nå endres __x__ og __y__ når du styrer med piltastene. Vi venter inni hver hvis-test for at __x__ og __y__ ikke plutselig vokser over alle grenser. Se hva som skjer om vi ikke venter om du vil..
+ Nå endres `x` og `y` når du styrer med piltastene. Vi venter inni hver hvis-test for at `x` og `y` ikke plutselig vokser over alle grenser. Se hva som skjer om vi ikke venter om du vil..
 
 Nå vil vi at posisjonen til ringene skal endre seg når vi styrer. Det kan vi få til ved å endre på blokken 
 ```blocks
-	gå til x: (((ringX)/(avstand))) y: (((ringY)/(avstand)))
-```
+	gå til x: ((ringX)/(avstand)) y: ((ringY)/(avstand))```
 til dette:
 ```blocks
-	gå til x: ((((ringX)-(x))/(avstand))) y: ((((ringY - (y))/(avstand)))
+	gå til x: (((ringX)-(x))/(avstand)) y: (((ringY) - (y))/(avstand))
 ```
 Ser det riktig ut nå? Nå er vi igrunn ferdig med det som trengs for å gå videre med del 2. I del 2 skal vi få det til å virke som om Flakse flakser når vi trykker på mellomromstasten, akkurat som i Flappy Bird og Flaksefugl. Prøv deg på disse utfordringene hvis du har mer tid igjen.
 
 ## Ting å prøve {.try}
 
-+ Er det mulig å styre figuren gjennom alle ringene? Husk at spillet skal være akkurat passe vanskelig, og hvertfall ikke umulig. Gå gjennom alle skriptene og endre på verdiene slik at spillet er gøy å spille, og at det ser bra ut. Kanskje du må endre på størrelsen til ringen, hvor mye ringene skal vokse, hvor mye __x__ og __y__ endrer seg når pilene trykkes, hvor lenge vi venter eller noen av de andre verdiene. 
++ Er det mulig å styre figuren gjennom alle ringene? Husk at spillet skal være akkurat passe vanskelig, og hvertfall ikke umulig. Gå gjennom alle skriptene og endre på verdiene slik at spillet er gøy å spille, og at det ser bra ut. Kanskje du må endre på størrelsen til ringen, hvor mye ringene skal vokse, hvor mye `x` og `y` endrer seg når pilene trykkes, hvor lenge vi venter eller noen av de andre verdiene. 
 + Tegn din egen figur! Flaggermusfiguren er kankjse ikke helt perfekt. Prøv å se om du kan finne noen bilder på nettet du kan bruke, eller tegn din helt egen figur (den burde være et fugleliknende dyr). Husk at det ser mye bedre ut om figuren er symmetrisk. Det er lurt å gi figuren to drakter; en med vingene ned og en med vingene opp. Da kan vi senere få Flakse til å flakse!
 
 Del 2:
