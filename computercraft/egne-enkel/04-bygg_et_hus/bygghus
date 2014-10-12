@@ -1,0 +1,81 @@
+local tArgs = { ... }
+if #tArgs ~= 3 then
+   print('Skriv: bygghus <høyde> <bredde> <dybde>')
+   print('F.eks. bygghus 3 5 4')
+   return
+end
+
+byggHus(tonumber(tArgs[1]), tonumber(tArgs[2]),
+	tonumber(tArgs[3]))
+
+function byggHus(hoyde, bredde, dybde)
+   byggVegg(hoyde - 1, bredde - 1, 2, nil)
+   turtle.turnLeft()
+   byggVegg(hoyde - 1, dybde - 1, nil, math.floor(dybde / 2))
+   turtle.turnLeft()
+   byggVegg(hoyde - 1, bredde - 1, nil, bredde - 2)
+   turtle.turnLeft()
+   byggVegg(hoyde - 1, dybde - 1, nil, 2)
+   turtle.turnLeft()
+
+   byggTak(bredde, dybde)
+   for i = 1, hoyde do
+      turtle.down()
+   end
+end
+
+function byggVegg(hoyde, lengde, dor, vindu)
+   for j = 1, hoyde do
+      turtle.up()
+      for i = 1, lengde do
+	 if not (j <= 2 and i == dor or
+                 j == 2 and i == vindu) then
+	    plasser()
+	 end
+	 if i < lengde then
+	    turtle.forward()
+	 end
+      end
+
+      if j < hoyde then
+	 for i = 1, lengde - 1 do
+	    turtle.back()
+	 end
+      end
+   end
+
+   turtle.forward()
+   for j = 1, hoyde do
+      turtle.down()
+   end
+end
+
+function byggTak(bredde, dybde)
+   turtle.up()
+   for j = 1, dybde do
+      for i = 1, bredde do
+	 plasser()
+	 turtle.forward()
+      end
+
+      for i = 1, bredde do
+	 turtle.back()
+      end
+      turtle.turnLeft()
+      turtle.forward()
+      turtle.turnRight()
+   end
+end
+
+function plasser()
+   while turtle.getItemCount() == 0 do
+      local slot = turtle.getSelectedSlot()
+      if slot < 16 then
+	 turtle.select(slot + 1)
+      else
+	 turtle.select(1)
+      end
+   end
+
+   turtle.placeDown()
+end
