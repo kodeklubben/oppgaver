@@ -25,6 +25,10 @@
         {
             "number":   4,
             "filename": "04-bygg_et_hus/bygg_et_hus.md"
+        },
+        {
+            "number":   5,
+            "filename": "05-sprettball/sprettball.md"
         }
     ],
 
