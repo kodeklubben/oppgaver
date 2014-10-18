@@ -11,7 +11,7 @@ note: "README.md"
 
 *Denne uken skal vi gjøre noe litt annerledes. I stedet for å lage et spill fra bunnen av skal vi remikse et eksisterende spill. Vi skal lære hvordan vi kan gjøre et spill mer komplett ved å blant annet legge til en meny som styrer spillflyten, og som lar oss spille flere ganger. Spillet vi skal remikse heter Krabbeangrep! og det går ut på at spilleren styrer en kanon som skal forsvare jorden mot et intergalaktisk krabbeangrep! Kanonen skyter kuler som tar knekken på krabbene og får poeng når den treffer.*
 
-![](Krabbeangrep_bakgrunn.png)
+![](krabbeangrep.png)
 
 # Steg 1: Bli kjent med spillet {.activity}
 
