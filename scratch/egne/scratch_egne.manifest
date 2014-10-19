@@ -16,7 +16,15 @@
         },
         {
             "number":   3,
+            "filename": "krabbeangrep/krabbeangrep.md"
+        },
+        {
+            "number":   4,
             "filename": "norgestur/norgestur.md"
+        },
+        {
+            "number":   5,
+            "filename": "snoballkrig/snoballkrig.md"
         }
     ],
 
