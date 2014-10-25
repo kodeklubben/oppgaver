@@ -384,8 +384,8 @@ venner, ved å trykke `Legg ut`.
 
 # Projiser animasjonene {.activity}
 
-*Vi avslutter med å se på hvordan du kan skremme nabolaget ved å
- projisere de skumle animasjonene dine slik at alle kan se dem.*
+*Vi avslutter med å se på hvordan du kan skremme nabolaget med
+ de skumle animasjonene dine slik at alle kan se dem. Det enkleste er å sette skjermen i vinduet, og klikke på firkanten for fullskjermvisning øverst til venstre under Scratch-logoen. Men hvis du kan låne en prosjektør til Halloween kan du vise animasjonen utendørs, på en vegg eller på et gardin eller laken, slik bildet i begynnelsen viser. I begge tilfeller er det litt dumt at Scratch viser animasjonen med en hvit ramme på skermen. For å få en bedre visning kan du følge tipsene nedenfor.*
 
 ## Sjekkliste {.check}
 
@@ -436,5 +436,5 @@ finner du et 8-sifret tall. Dette er ditt prosjektnummer.
 
 + Du skal nå se animasjonen din på svart bakgrunn.
 
-+ Koble datamaskinen din til en prosjektor, og projiser animasjonen
++ Koble datamaskinen din til en prosjektør, og vis animasjonen
   din på et hvitt laken, en gardin eller kanskje en vegg!
