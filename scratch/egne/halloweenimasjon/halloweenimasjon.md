@@ -40,11 +40,11 @@ gardin, et laken eller en vegg under Halloween.
   skjermen. Bygg sammen en `gjenta`{.blockyellow}- og en
   `gå`{.blockblue}-kloss på denne måten:
 
-	```blocks
-		gjenta (200) ganger
-			gå (5) steg
-		slutt
-	```
+    ```blocks
+        gjenta (200) ganger
+            gå (5) steg
+        slutt
+    ```
 
 + Klikk på skriptet ditt for å starte animasjonen. Flytter spøkelset
   ditt på seg? Ser du et problem?
@@ -53,12 +53,12 @@ gardin, et laken eller en vegg under Halloween.
   kanten! Dette kan vi fikse med en
   `sprett tilbake`{.blockblue}-kloss:
 
-	```blocks
-		gjenta (200) ganger
-			gå (5) steg
-			sprett tilbake ved kanten
-		slutt
-	```
+    ```blocks
+        gjenta (200) ganger
+            gå (5) steg
+            sprett tilbake ved kanten
+        slutt
+    ```
 
 + Klikk på skriptet ditt igjen. Virker det bedre nå?
 
@@ -67,13 +67,13 @@ gardin, et laken eller en vegg under Halloween.
   `begrens rotasjon`{.blockblue}-kloss. Denne legger vi helt først i
   skriptet på denne måten:
 
-	```blocks
-		begrens rotasjon [vend sideveis v]
-		gjenta (200) ganger
-			gå (5) steg
-			sprett tilbake ved kanten
-		slutt
-	```
+    ```blocks
+        begrens rotasjon [vend sideveis v]
+        gjenta (200) ganger
+            gå (5) steg
+            sprett tilbake ved kanten
+        slutt
+    ```
 
 + Til slutt, det ser skumlere ut med en svart bakgrunn! Klikk på
   `Scene` helt til venstre på skjermen, og deretter på
@@ -100,12 +100,12 @@ gardin, et laken eller en vegg under Halloween.
   den skal starte veldig liten, og deretter bli større. Lag dette
   skriptet.
 
-	```blocks
-	    sett størrelse til (0) %
-		gjenta (100) ganger
-		    endre størrelse med (4)
-		slutt
-	```
+    ```blocks
+        sett størrelse til (0) %
+        gjenta (100) ganger
+            endre størrelse med (4)
+        slutt
+    ```
 
 + Trykk på skriptet for å se om det virker.
 
@@ -114,15 +114,15 @@ gardin, et laken eller en vegg under Halloween.
   spøkelsesfiguren, og legg til en `vis`{.blockpurple}- og en
   `skjul`{.blockpurple}-kloss i skriptet:
 
-	```blocks
-		begrens rotasjon [vend sideveis v]
-		vis
-		gjenta (200) ganger
-			gå (5) steg
-			sprett tilbake ved kanten
-		slutt
-		skjul
-	```
+    ```blocks
+        begrens rotasjon [vend sideveis v]
+        vis
+        gjenta (200) ganger
+            gå (5) steg
+            sprett tilbake ved kanten
+        slutt
+        skjul
+    ```
 
 + Klikk på spøkelset sitt skript. Skjules spøkelset etter at det er
   ferdig med å fly frem og tilbake?
@@ -130,14 +130,14 @@ gardin, et laken eller en vegg under Halloween.
 + Vi kan også gjøre det samme med demonen sitt skript. Klikk på
   demon-figuren, og endre skriptet til
   
-	```blocks
-	    sett størrelse til (0) %
-		vis
-		gjenta (100) ganger
-		    endre størrelse med (4)
-		slutt
-		skjul
-	```
+    ```blocks
+        sett størrelse til (0) %
+        vis
+        gjenta (100) ganger
+            endre størrelse med (4)
+        slutt
+        skjul
+    ```
 
 + For å få litt variasjon vil vi at demonen skal animeres over en
   skummel skog-bakgrunn. Klikk på
@@ -164,33 +164,33 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 
 + Klikk på `Scene` og lag dette skriptet:
 
-	```blocks
-		når jeg mottar [Animer spøkelse v]
-		bytt bakgrunn til [Svart v]
-	```
+    ```blocks
+        når jeg mottar [Animer spøkelse v]
+        bytt bakgrunn til [Svart v]
+    ```
 
 + Klikk på spøkelsesfiguren og endre skriptet ved å legge til en kloss
   på toppen:
 
-	```blocks
-		når jeg mottar [Animer spøkelse v]
-		begrens rotasjon [vend sideveis v]
-		vis
-		gjenta (200) ganger
-			gå (5) steg
-			sprett tilbake ved kanten
-		slutt
-		skjul
-	```
+    ```blocks
+        når jeg mottar [Animer spøkelse v]
+        begrens rotasjon [vend sideveis v]
+        vis
+        gjenta (200) ganger
+            gå (5) steg
+            sprett tilbake ved kanten
+        slutt
+        skjul
+    ```
 
 + Nå venter skriptene våre på meldingen. For å teste kan vi dra
   klossen
 
-	```blocks
-		send melding [Animer spøkelse v]
-	```
+    ```blocks
+        send melding [Animer spøkelse v]
+    ```
 
-	ut ved siden av det store skriptet til spøkelset.
+    ut ved siden av det store skriptet til spøkelset.
 
 + Send meldingen ved å klikke på `send melding`{.blockgrey}-klossen.
   Animeres spøkelset over en svart bakgrunn?
@@ -198,30 +198,30 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 + Vi vil nå gjøre det samme for demonen. Legg til et nytt skript på
   scenen:
 
-	```blocks
-		når jeg mottar [Animer demon v]
-		bytt bakgrunn til [Skog v]
-	```
+    ```blocks
+        når jeg mottar [Animer demon v]
+        bytt bakgrunn til [Skog v]
+    ```
 
 + Klikk på demonfiguren og endre skriptet slik
 
-	```blocks
-		når jeg mottar [Animer demon v]
-	    sett størrelse til (0) %
-		vis
-		gjenta (100) ganger
-		    endre størrelse med (4)
-		slutt
-		skjul
-	```
+    ```blocks
+        når jeg mottar [Animer demon v]
+        sett størrelse til (0) %
+        vis
+        gjenta (100) ganger
+            endre størrelse med (4)
+        slutt
+        skjul
+    ```
 
 + Legg også til klossen
 
-	```blocks
-		send melding [Animer demon v]
-	```
+    ```blocks
+        send melding [Animer demon v]
+    ```
 
-	for å teste at animasjonen fungerer.
+    for å teste at animasjonen fungerer.
 
 + Send meldingene som animerer spøkelset og demonen. Starter
   animasjonene når du klikker på meldingene? Byttes bakgrunnene
@@ -237,12 +237,12 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 + Vi begynner med å lage en `for alltid`{.blockyellow}-løkke på
   scenen, som sender meldinger:
 
-	```blocks
-		for alltid
-			send melding [Animer spøkelse v] og vent
-			send melding [Animer demon v] og vent
-		slutt
-	```
+    ```blocks
+        for alltid
+            send melding [Animer spøkelse v] og vent
+            send melding [Animer demon v] og vent
+        slutt
+    ```
 
 + Klikk på skriptet for å teste det. Trykk den røde stopp-sirkelen for
   å stoppe animasjonen. Vises animasjonene etter hverandre i en evig løkke?
@@ -250,46 +250,46 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 + Det vil se litt bedre ut med en kort pause mellom animasjonene. Legg
   til et par `vent`{.blockyellow}-klosser i skriptet.
 
-	```blocks
-		for alltid
-			send melding [Animer spøkelse v] og vent
-			vent (1) sekunder
-			send melding [Animer demon v] og vent
-			vent (1) sekunder
-		slutt
-	```
+    ```blocks
+        for alltid
+            send melding [Animer spøkelse v] og vent
+            vent (1) sekunder
+            send melding [Animer demon v] og vent
+            vent (1) sekunder
+        slutt
+    ```
 
 + For å gjøre det enklere å starte animasjonen legger vi til en kloss
   som gjør at animasjonen starter når det grønne flagget øverst på
   skjermen klikkes.
 
-	```blocks
-		når grønt flagg klikkes
-		for alltid
-			send melding [Animer spøkelse v] og vent
-			vent (1) sekunder
-			send melding [Animer demon v] og vent
-			vent (1) sekunder
-		slutt
-	```
+    ```blocks
+        når grønt flagg klikkes
+        for alltid
+            send melding [Animer spøkelse v] og vent
+            vent (1) sekunder
+            send melding [Animer demon v] og vent
+            vent (1) sekunder
+        slutt
+    ```
 
 + Vi kan også bruke grønt flagg-klosser på figurene for å være sikre
   på at de starter animasjonen på riktig måte. Legg dette skriptet på
   spøkelset:
 
-	```blocks
-		når grønt flagg klikkes
-		skjul
-		gå til x: (0) y:(0)
-	```
+    ```blocks
+        når grønt flagg klikkes
+        skjul
+        gå til x: (0) y:(0)
+    ```
 
 + Legg et tilsvarende skript på demonen:
 
-	```blocks
-		når grønt flagg klikkes
-		skjul
-		gå til x: (0) y:(0)
-	```
+    ```blocks
+        når grønt flagg klikkes
+        skjul
+        gå til x: (0) y:(0)
+    ```
 
 ## Test prosjektet {.flag}
 
@@ -311,12 +311,12 @@ __Klikk på det grønne flagget.__
   siden av `Ny figur`. Du kan tegne hva du vil. Her har vi tegnet et
   Jack-O'-Lantern-gresskar.
 
-	![](gresskar.png)
+    ![](gresskar.png)
 
 + Lag en kopi av drakten du nettopp tegnet ved å høyreklikke på
   miniatyren under `Ny drakt`-overskriften og velg `lag en kopi`.
 
-	![](kopier_gresskar.png)
+    ![](kopier_gresskar.png)
 
 + Endre litt på den kopierte drakten, slik at du får to drakter som er
   ganske, men ikke helt, like. Vi vil nå animere figuren ved å bytte
@@ -324,50 +324,50 @@ __Klikk på det grønne flagget.__
 
 + Klikk på `Skript`{.blocklightgrey}-fanen og legg på dette skriptet:
 
-	```blocks
-		når jeg mottar [Animer gresskar v]
-		vis
-		gjenta (50) ganger
-			neste drakt
-			vent (tilfeldig tall fra (0.1) til (0.3)) sekunder
-		slutt
-		skjul
-	```
+    ```blocks
+        når jeg mottar [Animer gresskar v]
+        vis
+        gjenta (50) ganger
+            neste drakt
+            vent (tilfeldig tall fra (0.1) til (0.3)) sekunder
+        slutt
+        skjul
+    ```
 
-	Bytt gjerne ut meldingsnavnet `Animer gresskar` med noe som passer
-	for din figur. Klikk på skriptet (eller send en melding) for å
-	teste animasjonen. Ser det bra ut?
+    Bytt gjerne ut meldingsnavnet `Animer gresskar` med noe som passer
+    for din figur. Klikk på skriptet (eller send en melding) for å
+    teste animasjonen. Ser det bra ut?
 
 + Legg også til startposisjonen for den figuren:
 
-	```blocks
-		når grønt flagg klikkes
-		skjul
-		gå til x: (0) y: (0)
-	```
+    ```blocks
+        når grønt flagg klikkes
+        skjul
+        gå til x: (0) y: (0)
+    ```
 
 + Gå så til scenen og legg på et skript som bytter til riktig bakgrunn
   for den siste animasjonen. Her har vi brukt den svarte bakgrunnen.
 
-	```blocks
-		når jeg mottar [Animer gresskar v]
-		bytt bakgrunn til [Svart v]
-	```
-	
+    ```blocks
+        når jeg mottar [Animer gresskar v]
+        bytt bakgrunn til [Svart v]
+    ```
+    
 + Til slutt legger vi denne siste animasjonen til i hovedløkken som
   viser animasjonene:
 
-	```blocks
-		når grønt flagg klikkes
-		for alltid
-			send melding [Animer spøkelse v] og vent
-			vent (1) sekunder
-			send melding [Animer demon v] og vent
-			vent (1) sekunder
-			send melding [Animer gresskar v] og vent
-			vent (1) sekunder
-		slutt
-	```
+    ```blocks
+        når grønt flagg klikkes
+        for alltid
+            send melding [Animer spøkelse v] og vent
+            vent (1) sekunder
+            send melding [Animer demon v] og vent
+            vent (1) sekunder
+            send melding [Animer gresskar v] og vent
+            vent (1) sekunder
+        slutt
+    ```
 
 # Steg 6: Enda flere animasjoner? {.activity}
 
@@ -384,8 +384,16 @@ venner, ved å trykke `Legg ut`.
 
 # Projiser animasjonene {.activity}
 
-*Vi avslutter med å se på hvordan du kan skremme nabolaget med
- de skumle animasjonene dine slik at alle kan se dem. Det enkleste er å sette skjermen i vinduet, og klikke på firkanten for fullskjermvisning øverst til venstre under Scratch-logoen. Men hvis du kan låne en prosjektør til Halloween kan du vise animasjonen utendørs, på en vegg eller på et gardin eller laken, slik bildet i begynnelsen viser. I begge tilfeller er det litt dumt at Scratch viser animasjonen med en hvit ramme på skermen. For å få en bedre visning kan du følge tipsene nedenfor.*
+*Vi avslutter med å se på hvordan du kan skremme nabolaget med de
+ skumle animasjonene dine slik at alle kan se dem.*
+
+Det enkleste er å sette skjermen i vinduet, og klikke på firkanten for
+fullskjermvisning øverst til venstre under Scratch-logoen. Men hvis du
+kan låne en prosjektør til Halloween kan du vise animasjonen utendørs,
+på en vegg eller på et gardin eller laken, slik bildet i begynnelsen
+viser. I begge tilfeller er det litt dumt at Scratch viser animasjonen
+med en hvit ramme på skjermen. For å få en bedre visning kan du følge
+tipsene nedenfor.
 
 ## Sjekkliste {.check}
 
@@ -393,7 +401,7 @@ venner, ved å trykke `Legg ut`.
   med svart bakgrunn. Dette gjør vi med litt HTML-kode. HTML er det
   språket som brukes til å lage nettsider.
 
-	Last ned filen
+    Last ned filen
     <http://kodeklubben.github.io/nb-NO/scratch.1/06/projiser.html>.
     Etter at du har gått til denne adressen kan du velge `Fil > lagre
     som`, eller noe som ligner, i menyen til nettleseren din. Legg
@@ -402,19 +410,19 @@ venner, ved å trykke `Legg ut`.
 + Åpne filen i Notepad eller et tilsvarende program. Du vil se en
   tekst som ser slik ut:
 
-	```html
-	<html>
-	<head>
-	<title>Halloweenimasjon</title>
-	</head>
+    ```html
+    <html>
+    <head>
+    <title>Halloweenimasjon</title>
+    </head>
  
-	<body bgcolor="#000000">
-	<div style="overflow-y: hidden; height: 890px; margin-left: auto; margin-right: auto; width: 1180px;" id="applet">
-	<iframe style="margin-top:-56px; margin-left: -10px" allowtransparency="true" width="1200" height="960" src="http://scratch.mit.edu/projects/embed/30923784/?autostart=true" frameborder="0" scrolling="no" seamless="seamless" allowfullscreen=""></iframe>
-	</div>
-	</body>
-	</html>
-	```
+    <body bgcolor="#000000">
+    <div style="overflow-y: hidden; height: 890px; margin-left: auto; margin-right: auto; width: 1180px;" id="applet">
+    <iframe style="margin-top:-56px; margin-left: -10px" allowtransparency="true" width="1200" height="960" src="http://scratch.mit.edu/projects/embed/30923784/?autostart=true" frameborder="0" scrolling="no" seamless="seamless" allowfullscreen=""></iframe>
+    </div>
+    </body>
+    </html>
+    ```
 
 + Gjemt inne i denne teksten står det et Scratch-prosjektnummer. I
   dette tilfelle er nummeret `30923784`. Du må bytte dette nummeret
