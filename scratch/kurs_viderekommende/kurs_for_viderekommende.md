@@ -22,7 +22,7 @@ Tema for leksjonene:
 + Lister
 + Bevegelig bakgrunn
 + Bakgrunn bestående av flere figurer
-+ Interaksjon med verden utenfor Scratch (webcam, mikrofon, arduino?)
++ Interaksjon med verden utenfor Scratch (webcam, mikrofon, arduino, MakeyMakey)
 + Bruke scenen til å kontrollere scriptet (MVC)
 + Struktur for større spill/programmer
 + Bruk av input fra tastaturet
@@ -38,14 +38,12 @@ selv, men fortsatt under veiledning.
 
 Tre prosjekter:
 
-1. Hvor i all verden
+1. Hvor i all verden (3 leksjoner)
     - Piltaster for å flytte figur, Meldinger
     - Bevegelig bakgrunn / bakgrunn bestående av flere figurer
     - Lister, Struktur for større spill / programmer
-2. 3D flakser
+2. Hoppehelt (1 leksjon)
+    - Kloner
+3. 3D flakser (2 leksjoner)
     - Aritmetikk, Kloner
-	- Tester, variabler for hastighet, størrelse
-3. Plattform
-    - MVC, Sensorfigurer
-	-
-	- MakeyMakey
+    - Tester, variabler for hastighet, størrelse
