@@ -13,7 +13,7 @@ I dette prosjektet skal vi lage en utgave av Flaksefugl (som er en kopi av Flapp
 
 ![](flakser.png)
 
-# Steg 1: Lag ringer, og få dem til å komme mot deg. { .activity}
+# Steg 1: Lag ringer, og få dem til å komme mot deg { .activity}
 
 Spillet skal bestå av tre figurer: __Ring__, __Flakser__ og __Bakken__. 
 
@@ -143,8 +143,3 @@ Ser det riktig ut nå? Nå er vi igrunn ferdig med det som trengs for å gå vid
 
 + Er det mulig å styre figuren gjennom alle ringene? Husk at spillet skal være akkurat passe vanskelig, og hvertfall ikke umulig. Gå gjennom alle skriptene og endre på verdiene slik at spillet er gøy å spille, og at det ser bra ut. Kanskje du må endre på størrelsen til ringen, hvor mye ringene skal vokse, hvor mye `x` og `y` endrer seg når pilene trykkes, hvor lenge vi venter eller noen av de andre verdiene. 
 + Tegn din egen figur! Flaggermusfiguren er kankjse ikke helt perfekt. Prøv å se om du kan finne noen bilder på nettet du kan bruke, eller tegn din helt egen figur (den burde være et fugleliknende dyr). Husk at det ser mye bedre ut om figuren er symmetrisk. Det er lurt å gi figuren to drakter; en med vingene ned og en med vingene opp. Da kan vi senere få Flakse til å flakse!
-
-Del 2:
-+ Tyngdekraft og rotasjon
-+ Bakkefiguren følger med
-+ Kollisjon/poeng-deteksjon
