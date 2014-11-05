@@ -227,7 +227,7 @@ slik at helikopteret ikke kan fly ut av kartet?
   Det er fordi vi har laget et større kart. Da stemmer ikke lengre de
   gamle koordinatene.
 
-    Endre verdiene for `X` og `Y` til det ser ut som om den reisemålet
+    Endre verdiene for `X` og `Y` til det ser ut som om reisemålet
     ligger omtrent på riktig sted igjen.
 
 # Steg 5: Flere steder {.activity}
@@ -308,10 +308,10 @@ eller lage egne klosser som man gjør i Scratch.
     Den enkleste måten å løse dette på er å legge på klossen
 
     ```blocks
-        vent til (ikke (berører [Helikopter]?))
+        vent til (ikke (berører [Helikopter v]?))
     ```
 
-    rett før vi venter på helikopteret berøres inne i funksjonen vår.
+    rett før vi venter til helikopteret berøres inne i funksjonen vår.
 
 ## Test prosjektet {.flag}
 
@@ -332,6 +332,10 @@ tilfeldig reiserute. Vi skal også se hvordan vi kan lage en intro til
 spillet, samt legge på en tidsbegrensning og poengsum.
 
 ## Prøv selv {.try}
+
+Kan du legge til flere reisemål på egen hånd? Husk at det er lurt å
+gjøre reisemålet synlig mens du tester. Da blir det enklere å finne
+koordinatene til reisemålet!
 
 Spillet blir morsommere hvis ikke reisemålene kommer i samme
 rekkefølge hver gang du spiller. Hvordan kan du få reisemålene til å
