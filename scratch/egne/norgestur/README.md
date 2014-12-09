@@ -3,7 +3,7 @@ title: Norgestur
 level: 1.4
 language: nb-NO
 embeds: "norgestur.png"
-...
+---
 
 # Informasjon til Veiledere
 

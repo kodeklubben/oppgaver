@@ -3,7 +3,7 @@ title: Tegneprogram
 level: 1.8
 language: nb-NO
 embeds: "tegneprogram.png"
-...
+---
 
 # Informasjon til Veiledere
 

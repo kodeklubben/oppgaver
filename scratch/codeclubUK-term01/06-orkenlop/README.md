@@ -3,7 +3,7 @@ title: Ørkenløp
 level: 1.6
 language: nb-NO
 embeds: "orkenlop.png"
-...
+---
 
 # Informasjon til Veiledere
 

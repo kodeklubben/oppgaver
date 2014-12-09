@@ -4,7 +4,7 @@ level: Lesson 7
 language: nb-NO
 embeds: "*.png"
 stylesheet: web
-...
+---
 
 ## __Introduksjon:__ { .intro}
 I denne oppgaven skal du lage din egen nettside! Du skal selv besteme hva du vil at nettsiden skal handle om og lage innholdet selv (tekst, bilder, video etc.)

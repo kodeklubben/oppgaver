@@ -56,9 +56,9 @@ som mulig slik at vi får mest mulig gjenbruk av bildene.
 For at bilder skal legges inn riktig av byggeverktøyet, må de
 defineres i header-delen av oversettelsen:
 
-```
+---
     embeds: ["*.png", "../../bilder/*.png"]
-```
+---
 
 Denne koden sier at alle png-bilder i oppgavekatalogen og i
 bilder-katalogen kan brukes i oppgaveteksten.
@@ -82,14 +82,14 @@ hjemmesidene til Scratch finnes
 [dokumentasjon](http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax).
 
 Hele kodesnutter skrives som et eget avsnitt på følgende måte:
-```
+---
     ```blocks
         når grønt flagg trykkes
         for alltid
             pek mot [musepekeren v]
         slutt
     ```
-```
+---
 Man kan rykke inn koden slik at den ligger i flukt med teksten
 rundt. For eksempel vil man typisk ha fire mellomrom innrykk for kode
 som er en del av en sjekkliste.

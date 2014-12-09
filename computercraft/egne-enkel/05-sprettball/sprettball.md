@@ -3,7 +3,7 @@ title: Sprettball
 level: 1.5
 language: nb-NO
 embeds: ["*.png", "../../bilder/*.png"]
-...
+---
 
 # Introduksjon {.intro}
 

@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
-...
+---
 
 ## Sjekkliste {.check}
 
@@ -19,7 +19,7 @@ materials: "*.sb2"
 hvis <(opptak) = (1)>
   legg (timer) til [timing v]
   legg (cat) til [instrument v]
-```
+---
   Endre ordet “cat” in `legg [cat] til [instrument v]`{.blockred} slik at det stemmer med
   navnet til meldingen som brukes for å spille denne lyden.
 ```blocks
@@ -32,7 +32,7 @@ slutt
 sett størrelse til (110) %
 vent (0.1) sekunder
 sett størrelse til (100) %
-```
+---
 
 + Tegn en ny figur og gi den en rød sirkeldrakt. Gi denne figuren navnet “Opptak”.
   ![record costume](record-costume.png)
@@ -65,7 +65,7 @@ for alltid
     slutt 
   slutt 
 slutt
-```
+---
 
 ## Test prosjektet {.flag}
 Trykk på den grønne play knappen. Hva skjer?

@@ -3,7 +3,7 @@ title: Spøkelsesjakten
 level: 1.2
 language: nb-NO
 embeds: "skjermbilde.png"
-...
+---
 
 # Informasjon til Veiledere
 

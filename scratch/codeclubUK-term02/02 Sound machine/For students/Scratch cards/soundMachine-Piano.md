@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
-...
+---
 
 ## Sjekkliste { .check}
 
@@ -20,7 +20,7 @@ send melding [piano-1 v]
 
 når jeg mottar [piano-1 v]
 spill tone (60 v) i (0.5) takter
-```
+---
 + Lag to noter til for når man trykker "s" eller "d" på tastaturet.
 
 ```blocks
@@ -42,7 +42,7 @@ spill tone (64 v) i (0.5) takter
 når jeg mottar [piano-3 v]
 spill tone (67 v) i (0.5) takter
 
-```
+---
 
 + Kopier drakten 3 ganger og fyll ulike tangenter.
 
@@ -66,7 +66,7 @@ når jeg mottar [piano-3 v]
 bytt drakt til [costume4 v]
 spill tone (60 v) i (0.5) takter
 bytt drakt til [costume1 v]
-```
+---
 
 # Utfordring {.challenge} 
 En måte å endre hvilket instrument som spilles.
@@ -74,5 +74,5 @@ En måte å endre hvilket instrument som spilles.
 ```blocks
 når [pil opp v] trykkes
 velg instrument (tilfeldig tall fra (1) til (99))
-```
+---
 

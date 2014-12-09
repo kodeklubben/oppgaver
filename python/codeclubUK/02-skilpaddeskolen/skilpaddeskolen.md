@@ -3,7 +3,7 @@ title: Skilpaddeskolen
 level: 4.2
 language: nb-NO
 stylesheet: python
-...
+---
 
 # Steg 1: Flere firkanter {.activity}
 

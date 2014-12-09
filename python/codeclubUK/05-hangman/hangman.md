@@ -3,7 +3,7 @@ title: Hangman
 level: 4.5
 language: nb-NO
 stylesheet: python
-...
+---
 
 # Introduksjon {.intro}
 

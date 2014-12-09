@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png", "europakart.zip"]
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -14,7 +14,7 @@ mulig skal fly innom reisemål spredt rundt i Europa. Dette er den
 andre leksjonen av tre. Her skal vi spesielt se på hvordan vi kan
 gjøre kartet større enn skjermen, ved å la kartet rulle i
 bakgrunnen. Underveis vil vi se litt nærmere på hva et koordinatsystem
-er.
+---
 
 I den siste leksjonen vil lage lister som gjør det enklere å legge til
 mange reisemål. Vi vil også lage en skikkelig intro til spillet.

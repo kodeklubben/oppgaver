@@ -6,7 +6,7 @@ stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 materials: "ressurser/*"
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 I dette prosjektet skal vi skyte opp fyrverkeri over en by.

@@ -5,7 +5,7 @@ language: nb-NO
 embeds: "*.png"
 materials: "resursser"
 stylesheet: web
-...
+---
 
 ## Introduksjon  { .intro}
 Dette prosjektet vil utvide din kunnskapen din om CSS-kungfu.

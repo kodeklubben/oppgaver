@@ -2,7 +2,7 @@
 title: Lag Ditt Eget Spill
 level: 1.9
 language: nb-NO
-...
+---
 
 # Informasjon til Veiledere
 

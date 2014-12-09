@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
-...
+---
 
 ## Sjekkliste { .check}
 

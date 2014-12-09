@@ -3,7 +3,7 @@ title: Skilpadder
 level: 4.1
 language: nb-NO
 stylesheet: python
-...
+---
 
 # Introduksjon: {.intro}
 

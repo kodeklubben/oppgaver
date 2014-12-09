@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
-...
+---
 
 # Introduksjon: {.intro}
 I dette prosjektet skal du designe og animere ditt helt eget monster! Men før monsteret ditt er ferdig, er det et par ting som må gjøres. Du må planlegge hvordan monsteret skal se ut, hvordan det beveger seg, hvor det bor og om det lager noen lyder.

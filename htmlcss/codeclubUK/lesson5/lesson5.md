@@ -5,7 +5,7 @@ language: nb-NO
 embeds: "*.png"
 materials: "resursser"
 stylesheet: web
-...
+---
 
 ## __Introduksjon:__ { .intro }
 I denne oppgaven skal vi se på og lære hvordan vi kan forandre skrifttyper, farge og størrelse. Vi skal også lære hvordan vi kan legge til en bakgrunnsfarge og ramme. Vi vil fortsette å bruke det samme prosjektet som i forrige oppgave. Så vi må være sikre på at vi har åpnet filen index.html fra mappen Felix.
@@ -39,14 +39,14 @@ h1 {
 	text-decoration:blink;
 	font-family:impact, sans-serif;
 }
-```
+---
 Og nå – endre skrifttypen i en paragraf...
 
 ```CSS
-p {
+---
 	font-family:georgia, 'times new roman', serif;
 }
-```
+---
 
 ## __Lagre__ og __se__ det i nettleseren. { .save}
 
@@ -63,20 +63,20 @@ Du kan også lage teksten i __fet__, *kursiv* eller begge deler ved hjelp av skr
 
 
 ```CSS
-a {
+---
 	font-style:bold;
 }
-```
+---
 
 ## __Lagre__ og __se__ det i nettleseren. { .save}
 
 Eller vi kan sette teksten til *kursiv*.
 
 ```CSS
-a {
+---
 	font-style:italic;
 }
-```
+---
 ## __Lagre__ og __se__ det i nettleseren. { .save}
 
 Det er også en skriftstil-verdi som heter ‘oblique’. Hvordan ser den ut?
@@ -87,7 +87,7 @@ Vi kan til og med bestemme hvor fet skriften skal være ved å bruke egenskapen 
 h2 {
 	font-weight:normal;
 }
-```
+---
 
 Prøv det!
 
@@ -101,7 +101,7 @@ img {
 	border-width:5px;
 	border-style:solid;
 }
-```
+---
 ## __Lagre__ og __se__ det i nettleseren. { .save}
 
 Prøv nå å forandre farge, bredden, og linje-stil til du er fornøyd. Her er noen linje-stiler: `dashed`, `dotted`, `double`, `groove`, `ridge`, `inset`, `outset`. 
@@ -114,21 +114,21 @@ Vi ønsker å lage et kontaktavsnitt som er __uthevet__. Vi kan ikke bruke `<p>`
 
 ```html
 <p  id ="uthevet">Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
-```
+---
 Nå kan vi endre stilen til IDen slik:
 
 ```CSS
 #uthevet {
 	color:red;
 }
-```
+---
 ## __Lagre__ og __se__ det i nettleseren. { .save}
 En ID er unik og kan bare bli brukt en gang per side. Så hva gjør vi hvis du ønsker å lage to paragrafer med større skrift? Dette kan vi løse ved å bruke klasser. Det første vi må gjøre er å gi teksten klassenavnet for den teksten vi ønsker å gjøre større.
 
 ```HTML
 <p class="stor">Han forvant fra hagen i går.</p>
 <p class="stor"><strong>Takk!</strong><p>
-```
+---
 
 Deretter setter vi stilen slik (legg merke til at vi bruker `.` i stedet for `#`):
 
@@ -136,7 +136,7 @@ Deretter setter vi stilen slik (legg merke til at vi bruker `.` i stedet for `#`
 .stor {
 	font-size:24px;
 }
-```
+---
 
 ## Ting du kan prøve: { .try}
 

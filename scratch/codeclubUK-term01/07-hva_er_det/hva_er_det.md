@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -207,7 +207,7 @@ poengsummen har blitt `0` eller `vant` er `1`.
 + Til slutt legger vi også inn en `ta bort grafiske
 effekter`{.blockpurple}-kloss som avslører spørsmålsfiguren når
 spilleren har gjettet riktig. Skriptene på `Spørsmål` skal nå se slik
-ut:
+---
 
     ```blocks
         når grønt flagg klikkes

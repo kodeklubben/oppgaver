@@ -3,7 +3,7 @@ title: Spille mot datamaskinen
 level: 4.7
 language: nb-NO
 stylesheet: python
-...
+---
 
 # Introduksjon {.intro}
 
@@ -464,7 +464,7 @@ def play_move():
 c.bind("<Button-1>", click)
 
 mainloop()
-```
+---
 
 ## Utfordring {.challenge}
 

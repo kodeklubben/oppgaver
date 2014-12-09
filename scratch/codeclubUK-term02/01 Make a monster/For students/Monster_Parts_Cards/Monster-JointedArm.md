@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
-...
+---
 
 ## Sjekkliste { .check}
 
@@ -21,7 +21,7 @@ vend venstre (15) grader
 sett [venstre arm v] til (retning)
 send melding [flyttet v]
 endre x med (hastighet)
-```
+---
 
 + Den neste beregningen brukes for å kontrollere **underarmen**. Her bruker vi trigonometri for å beregne hvor underarmen
   bør plasseres (Det kan godt være at du trenger å be om hjelp når du skal gjøre dette).
@@ -30,7 +30,7 @@ endre x med (hastighet)
 når jeg mottar [flyttet v]
 gå til [Sprite3 v]
 gå til x: ((x-posisjon) + ((45) * ([sin v] av (venstre arm)))) y: ((y-position) + ((45) * ([cos v] av (venstre arm))))
-```
+---
 
 + Først oppdaterer armen seg, når meldingen `flyttet`{.blockbrown} blir sendt, men du kan bruke hvilken som helst melding,
  så lenge overarmen sender den eller flytter seg til samme medling som underarmen.

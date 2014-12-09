@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -287,7 +287,7 @@ legge til noen lyder og variabler på egen hånd.
             send melding [Avslutt v]
         slutt
         bytt drakt til [parrot-a v]
-```
+---
 
 ## Test prosjektet {.flag}
 

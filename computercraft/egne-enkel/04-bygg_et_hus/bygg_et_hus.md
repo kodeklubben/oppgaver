@@ -3,7 +3,7 @@ title: Bygg et Hus
 level: 1.4
 language: nb-NO
 embeds: ["*.png", "../../bilder/*.png"]
-...
+---
 
 # Introduksjon {.intro}
 

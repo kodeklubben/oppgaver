@@ -4,7 +4,7 @@ level: Nivå 6
 language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
-...
+---
 
 # Introduksjon: {.intro}
 I dette prosjektet skal du lage et komplett spill. Det er et plattformspill, hvor katten Felix hopper rundt, unnslipper slemminger og samler nøkler for å slippe ut av hulen. Når han kommer seg ut, fortsetter spillet i neste hule.
@@ -42,7 +42,7 @@ for alltid
 		sett [blokkert høyre v] til (0)
 	slutt
 slutt
-```
+---
 6. Endre variablene for hver av sensorene.
 Den nederste sensoren trenger en __eller__ kloss slik at den setter __blokkert bunn__ hvis den berører grønn eller svart.
 
@@ -94,7 +94,7 @@ for alltid
 		endre y med (-2)
 	slutt
 slutt
-```
+---
 
 ## Test prosjektet ditt {.flag}
 
@@ -143,7 +143,7 @@ for alltid
 		slutt
 	slutt
 slutt
-```
+---
 
 ## Test prosjektet ditt {.flag}
 __Trykk på det grønne flagget__. Kan Felix hoppe? Hopper han fra en plattform til en annen? Faller han hvis han går over kanten? Hva om han hopper oppover over kanten av en plattform? Hva om han prøver å hoppe under den grønne blokken til høyre? Hva skjer når du trykker på mellomromstasten mens Felix faller?
@@ -175,7 +175,7 @@ for alltid
 		slutt	
 	slutt
 slutt
-```
+---
 
 ## Test prosjektet ditt {.flag}
 __Trykk på det grønne flagget__.
@@ -212,7 +212,7 @@ for alltid
 	slutt
 	gå (2) steg
 slutt
-```
+---
 
 3. Legg skript til både Felix og redningskapselen slik at den svarer på tap meldingen. Felix skal bare skjule seg selv.  Kapselen skal si [Du tapte!].
 
@@ -307,7 +307,7 @@ __Fortsett å teste spillet etter hver endring. Husk å teste de delene som du a
 når jeg mottar [start brett v]
 gå til x:(element [nåværende nivå v] av [xs v]) y: (element [nåværende nivå v] av [ys v])
 pek i retning (element [nåværende nivå v] av [retning v])
-vis
+---
 for alltid
 	hvis <<tast[pil venstre v] trykket?> og <(blokkert venstre)=(0)>
 		pek i retning (-90)
@@ -321,7 +321,7 @@ for alltid
 		sett [hopphøyde v] til (100)
 	slutt
 slutt
-```
+---
 
 Du legger kanskje merke til at start verdiene __x__, __y__, og __retning__ for Felix settes med lister. Vi laget noen lister for hver figur (hver liste privat til den figuren) for å lagre verdiene vi trenger for den figuren. Du trenger en liste for hver ting du lagrer. Du trenger ikke bruke lister, du kan bruke `hvis`-klosser som sjekker hvilket brett du er på og gjør riktig ting basert på dette.
 
@@ -349,7 +349,7 @@ for alltid
 		slutt
 	slutt
 slutt
-```
+---
 
 # Oppgave 2: Spill! {.activity}
 

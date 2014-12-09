@@ -3,7 +3,7 @@ title: Bursdag i Antarktis
 level: 1.3
 language: nb-NO
 embeds: "bursdag_i_Antarktis.png"
-...
+---
 
 # Informasjon til Veiledere
 

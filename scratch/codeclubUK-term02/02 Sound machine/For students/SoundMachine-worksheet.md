@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
-...
+---
 
 # Introduksjon: {.intro}
 I dette prosjektet skal du designe din egen lydmaskin. Med denne kan du komponere og spille inn din egen sang, og alt i Scratch!

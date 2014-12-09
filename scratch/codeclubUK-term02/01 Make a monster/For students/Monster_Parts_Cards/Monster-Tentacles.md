@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
-...
+---
 
 ## Sjekkliste { .check}
 
@@ -18,6 +18,6 @@ vend venstre (tentakelRotasjon) grader
 vent (0.5) sekunder
 endre størrelse med ((tentakelStørrelse) * (-1))
 vend høyre (tentakelRotasjon) grader
-```
+---
 
 **(Merk at vi multipliserer tentakelStørrelse med -1 for å få en negativ verdi?)**

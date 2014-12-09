@@ -4,7 +4,7 @@ level: 1.9
 language: nb-NO
 stylesheet: scratch
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 

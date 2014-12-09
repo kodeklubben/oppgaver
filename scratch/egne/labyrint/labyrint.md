@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -209,7 +209,7 @@ den til å ta et skritt tilbake når den gjør noe feil. I koden
     vend @ (180) grader
     gå (hastighet) steg
     vend @ (180) grader
-```
+---
 
 vil figuren først snu seg helt rundt (180 grader), deretter ta et
 skritt, og til slutt snu seg rundt igjen slik at den peker i samme

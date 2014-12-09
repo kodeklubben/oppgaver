@@ -3,7 +3,7 @@ title: Bli Kjent med Datamaskinen
 level: 1.1
 language: nb-NO
 embeds: ["*.png", "../../bilder/*.png"]
-...
+---
 
 # Introduksjon {.intro}
 

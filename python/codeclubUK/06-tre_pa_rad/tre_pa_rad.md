@@ -3,7 +3,7 @@ title: Tre På Rad
 level: 4.6
 language: nb-NO
 stylesheet: python
-...
+---
 
 # Introduksjon {.intro}
 
@@ -15,11 +15,11 @@ får tre på rad.
 
 Vi vil tegne fire linjer, i et #-mønster, som dette:
 
-```
+---
 _|_|_
 _|_|_
  | | 
-```
+---
 
 Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag
 skal vi i stedet lære å bruke tk-biblioteket til tegning.
@@ -53,7 +53,7 @@ skal vi i stedet lære å bruke tk-biblioteket til tegning.
 
 På samme måte som vi brukte `turtle`-biblioteket når vi tegnet med skilpadder bruker vi her `tkinter`-biblioteket. Vi lager et 600 ganger 600-piksler lerret som tegnes i et vindu med kommandoen `c = Canvas(main, width=600, height=600)`. For datamaskinen ser dette slik ut:
 
-```
+---
     0       200      400      600   ...
    0+--------+--------+--------+-----> bortover
     |
@@ -75,13 +75,13 @@ På samme måte som vi brukte `turtle`-biblioteket når vi tegnet med skilpadder
  ...|
     V
   nedover
-```
+---
 
 Her er punkt `A` ved 200 bortover, 200 nedover. Punkt `B` er ved 400 bortover, 200 nedover. Punkt `C` er ved 200 bortover, 400 nedover. Til slutt er punkt `D` ved 400 bortover, 400 nedover.
 
 Hver av kodelinjene `c.create_line(bortover1, nedover1, bortover2, nedover2)` tegner en linje på skjermen, hvor de fire tallene beskriver hvor linjer starter og slutter. For eksempel, om vi vil tegne en linje fra `A` til `D` kan vi bruke `c.create_line(200, 200, 400, 400)`.
 
-```
+---
      0       200      400      600   ...
    0 +--------A--------B--------+-----> bortover
      |
@@ -103,7 +103,7 @@ Hver av kodelinjene `c.create_line(bortover1, nedover1, bortover2, nedover2)` te
  ... |
      V
    nedover
-```
+---
 
 Med punktene som i den siste figuren vil vi tegne linjer fra A til C, B til D, M til O og N til P.  
 
@@ -114,7 +114,7 @@ c.create_line(400, 0, 400, 600) # B til D
 c.create_line(0, 200, 600, 200) # M til O
 c.create_line(0, 400, 600, 400) # N til P
 
-```
+---
 
 Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`. Dette rutenettet ligner ganske mye på koordinatene du kanskje har lært om i mattetimen. Forskjellen er at her begynner vi i øvre, i stedet for nedre, venstre hjørne, slik at `y` blir større når vi går nedover.
 

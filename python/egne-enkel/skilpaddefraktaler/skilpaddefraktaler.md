@@ -4,7 +4,7 @@ level: Python
 language: nb-NO
 stylesheet: python
 embeds: "*.png"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -31,7 +31,7 @@ color('yellow')
 speed(3)
 
 forward(270)
-```
+---
 
 ## Sjekkliste {.check}
 

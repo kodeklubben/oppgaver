@@ -3,7 +3,7 @@ title: Snøballkrig
 level: 1.5
 language: nb-NO
 embeds: "snoballkrig.png"
-...
+---
 
 # Informasjon til Veiledere
 
@@ -51,7 +51,7 @@ utfordrende etterhvert som man spiller.
 	når jeg mottar [slutt v]
 	stopp [other scripts in stage v]
 	bytt bakgrunn til [Slutt v]
-```
+---
 
 # Kodelisting: Helten
 
@@ -85,7 +85,7 @@ utfordrende etterhvert som man spiller.
 	når jeg mottar [slutt v]
 	skjul
 	stopp [andre skript i figuren v]
-```
+---
 
 # Kodelisting: Snøball
 
@@ -113,7 +113,7 @@ utfordrende etterhvert som man spiller.
 
 	når jeg mottar [slutt v]
 	slett denne klonen
-```
+---
 
 # Kodelisting: Skumling
 
@@ -166,4 +166,4 @@ utfordrende etterhvert som man spiller.
 
 	når jeg mottar [slutt v]
 	slett denne klonen
-```
+---

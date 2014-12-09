@@ -3,7 +3,7 @@ title: Krabbeangrep!
 level: 1.3
 language: nb-NO
 embeds: “Krabbeangrep_bakgrunn.png"
-...
+---
 
 # Informasjon til Veiledere
 

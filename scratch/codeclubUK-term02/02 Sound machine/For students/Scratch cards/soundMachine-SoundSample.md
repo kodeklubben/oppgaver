@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
-...
+---
 
 ## Sjekkliste { .check}
 
@@ -18,12 +18,12 @@ materials: "*.sb2"
 ```blocks
 når denne figuren klikkes
 send melding [katt v]
-```
+---
 + Nå må vi spille `lyd`{.blockpurple} når den får `meldingen`{.blockbrown}.
 ```blocks
 når jeg mottar [katt v]
 spill lyden [meow v]
-```
+---
 
 + Til slutt endrer vi utseende når `lyd`{.blockpurple} spilles.
 ```blocks
@@ -32,5 +32,5 @@ spill lyden [moew v]
 sett størrelse til (110) %
 vent (0.1) sekunder
 sett størrelse til (100) %
-```
+---
 

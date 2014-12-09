@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -293,7 +293,7 @@ til ballen, siden koden tilhører ballfiguren.  Så langt har vi brukt
 
 ```blocks
     pek i retning ((180) + (retning))
-```
+---
 
 for at ballen skal snu. I figuren ser vi at dette betyr at ballen
 spretter tilbake der den kom i fra.
@@ -305,13 +305,13 @@ nye retningen
 
 ```blocks
     (((180) + (retning)) - ((2) * ((retning) - ([retning v] av [Katt v])))
-```
+---
 
 Vi kan forenkle dette til
 
 ```blocks
     (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
-```
+---
 
 + Endre i skriptet til ballen slik at spretten blir bedre,
 
@@ -402,7 +402,7 @@ Hastigheten på ballen styres nå av klossen
 
 ```blocks
     gå (3) steg
-```
+---
 
 Ved å endre på `3`-tallet endrer vi hastigheten på ballen. Prøv dette
 selv!

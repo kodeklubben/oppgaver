@@ -4,7 +4,7 @@ level: Python
 language: nb-NO
 stylesheet: python
 embeds: "*.png"
-...
+---
 
 # Introduksjon {.intro}
 

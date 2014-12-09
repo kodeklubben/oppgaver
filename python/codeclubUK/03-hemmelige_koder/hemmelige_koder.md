@@ -3,7 +3,7 @@ title: Hemmelige Koder
 level: 4.3
 language: nb-NO
 stylesheet: python
-...
+---
 
 # Introduksjon {.intro}
 
@@ -16,7 +16,7 @@ Et chiffer er et system for å gjøre om vanlig tekst til kode som ikke andre sk
 
 Start med å tegne alle bokstavene i en sirkel.
 
-```
+---
                           Å    A
                      Ø              B
                  Æ                      C
@@ -39,13 +39,13 @@ Start med å tegne alle bokstavene i en sirkel.
                     Q                M
                         P    O   N
 
-```
+---
 
 For å lage en hemmelig bokstav fra en vanlig bokstav, trenger vi et tall vi kan bruke som hemmelig nøkkel. Jeg liker tallet 3, det er et magisk tall, så vi bruker det.
 
-```
+---
     A + 3 = D       T + 3 = W       Å + 3 = C
-```
+---
 
 Vi begynner med A og teller fremover 3 bokstaver: B, C, D. Så bokstaven A blir til bokstaven D. For å dekode gjør vi det samme, men baklengs. Vi begynner med D og teller bakover for å få A.
 

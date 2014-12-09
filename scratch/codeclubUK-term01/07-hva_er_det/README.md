@@ -3,7 +3,7 @@ title: Hva er det?
 level: 1.7
 language: nb-NO
 embeds: "hva_er_det.png"
-...
+---
 
 # Informasjon til Veiledere
 

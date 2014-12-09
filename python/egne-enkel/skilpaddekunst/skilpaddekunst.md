@@ -4,7 +4,7 @@ level: Python
 language: nb-NO
 stylesheet: python
 embeds: "*.png"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -25,7 +25,7 @@ enkleste, hvor vi starter alle skilpaddeprogrammene våre med linjen
 
 ```python
 from turtle import *
-```
+---
 
 Her betyr `*` alt, slik at linjen sier `Importer all kode fra
 turtle-biblioteket`.

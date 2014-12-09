@@ -3,7 +3,7 @@ title: Enarmet banditt
 level: 1.4
 language: nb-NO
 embeds: "enarmet_banditt.png"
-...
+---
 
 # Informasjon til Veiledere
 

@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -78,7 +78,7 @@ Dette er ikke viktig for å kunne fortsette med spillet, men prøv hvis du vil. 
 
 ```blocks
     sett [gjennomsiktig v] effekt til ((100)-((150)/(distanse))
-```
+---
 
 for å gjøre ringene mer gjennomsiktig når de er langt borte. Hvilke tall må du putte i denne klossen for at det skal se bra ut?
 

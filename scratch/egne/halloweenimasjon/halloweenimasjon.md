@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: ["halloweenimasjon.jpg", "projiser.html", "*.png", "../../bilder/*.png"]
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 

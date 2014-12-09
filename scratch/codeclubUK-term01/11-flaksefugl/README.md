@@ -3,7 +3,7 @@ title: Flaksefugl
 level: 1.11
 language: nb-NO
 embeds: "flaksefugl.png"
-...
+---
 
 # Informasjon til Veiledere
 

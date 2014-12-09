@@ -3,7 +3,7 @@ title: JafseFisk
 level: 1.5
 language: nb-NO
 embeds: "jafsefisk.png"
-...
+---
 
 # Informasjon til Veiledere
 

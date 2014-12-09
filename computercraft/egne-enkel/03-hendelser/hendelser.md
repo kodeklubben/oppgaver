@@ -3,7 +3,7 @@ title: Hendelser
 level: 1.3
 language: nb-NO
 embeds: ["*.png", "../../bilder/*.png"]
-...
+---
 
 # Introduksjon {.intro}
 

@@ -3,7 +3,7 @@ title: Introduksjon til ComputerCraft
 level: Intro
 language: nb-NO
 embeds: ["*.png", "../01-bli_kjent_med_datamaskinen/*.png", "../02-robotinvasjon/*.png"]
-...
+---
 
 # Introduksjon {.intro}
 
@@ -659,7 +659,7 @@ vi skrive
 
 ```lua
 for i = 1, 5 do print(i); end
-```
+---
 	
 Dette vil skrive tallene 1, 2, 3, 4, 5 til skjermen på hver sin linje.
 
@@ -668,7 +668,7 @@ andre tall enn `1`:
 
 ```lua
 for tall = 10, 20 do print(tall); end
-```
+---
 
 ## Sjekkliste {.check}
 	

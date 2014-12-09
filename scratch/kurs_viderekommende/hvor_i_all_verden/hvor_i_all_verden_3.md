@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -308,7 +308,7 @@ reisemål. Her er for eksempel to steder du kan legge til,
     legg [Roma] til [steder v]
     legg [-30] til [stederX v]
     legg [-180] til [stederY v]
-```
+---
 
 men det er enda bedre om du finner på dine egne reisemål. Husk det
 trenger ikke bare være byer, det kan også være fjell, sjøer eller

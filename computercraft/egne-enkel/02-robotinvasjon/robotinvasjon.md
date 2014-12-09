@@ -3,7 +3,7 @@ title: Robotinvasjon
 level: 1.2
 language: nb-NO
 embeds: ["*.png", "../../bilder/*.png"]
-...
+---
 
 # Introduksjon {.intro}
 

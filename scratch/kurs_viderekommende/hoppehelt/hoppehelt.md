@@ -5,7 +5,7 @@ language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
-...
+---
 
 # Introduksjon {.intro}
 
@@ -180,13 +180,13 @@ tilfeldig, for eksempel med klossen
 
 ```blocks
     sett størrelse til (tilfeldig tall fra (30) til (100)) %
-```
+---
 
 På samme måte kan du bruke
 
 ```blocks
     sett [farge v] effekt til (tilfeldig tall fra (-100) til (100))
-```
+---
 
 til å endre fargen på boksene tilfeldig. Finn også på andre effekter,
 kanskje ved å bruke flere drakter?
@@ -200,7 +200,7 @@ gjerne en
 
 ```blocks
     tilfeldig tall fra (1.2) til (3.2)
-```
+---
 
 kloss. Eksperimenter med verdiene i klossen.
 
