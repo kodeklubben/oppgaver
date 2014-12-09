@@ -244,27 +244,27 @@ Vi vil skrive et program som kan regne ut fakultetet av et tall.
 Fakultetet finner man ved å gange tallet med alle tall som er mindre
 enn seg. For eksempel er fakultetet av 4
 
----
+```
 fakultet(4) = 4 * 3 * 2 * 1 = 24
----
+```
 
 Trikset med rekursjon er at vi kan redusere oppgaven til noe som er
 veldig likt, men litt enklere. For eksempel kan vi her se at hvis vi
 hadde visst fakultetet av 3 kunne vi funnet fakultetet av 4 bare ved å
 gange med 4:
 
----
+```
 fakultet(4) = 4 * 3 * 2 * 1 = 4 * fakultet(3)
----
+```
 
 Videre kan vi finne fakultetet av 3 hvis vi vet fakultetet av 2 og så
 videre:
 
----
+```
 fakultet(3) = 3 * 2 * 1 = 3 * fakultet(2)
 fakultet(2) = 2 * 1 = 2 * fakultet(1)
 fakultet(1) = 1
----
+```
 
 ## Sjekkliste {.check}
 

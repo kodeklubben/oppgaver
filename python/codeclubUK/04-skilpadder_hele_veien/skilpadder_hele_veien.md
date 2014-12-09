@@ -14,7 +14,7 @@ Hent frem skilpaddene dine, åpne IDLE, det er på tide å tegne igjen.
 Men først, la oss se på de følgende tre figurene: Hvordan kan vi tegne
 dem i Python?
 
----
+```
 _________________________
 
             /\
@@ -27,7 +27,7 @@ _________/      \________
          \      /
 ____/\___/      \___/\___
 
----
+```
 
 ## Sjekkliste {.check}
 
@@ -83,13 +83,13 @@ Hva med den tredje figuren? Selv om den er litt komplisert å programmere om
 vi må skrive alle stegene vi må ta, er det egentlig bare det første fjellet
 tegnet fire ganger.
 
----
+```
             /\
          __/  \__
          \      /
 ____/\___/      \___/\___
 
----
+```
 
 Du kan se at vi tegner den andre figuren (det enkle fjellet), deretter snur vi, tegner den igjen, snur, tegner igjen, snur og tegner den en siste gang.
 
@@ -201,7 +201,7 @@ Vi får til dette ved å dele problemet i to: Det enkle problemet og spesialtilf
 La oss se på en annen figur, en som ligner veldig på snøflaket, men med
 bokser istedenfor fjell.
 
----
+```
 
 
 ___________________________
@@ -222,7 +222,7 @@ ________|         |________
 ___| |__|         |__| |___
 
 
----
+```
 
 Akkurat som med fjellet er det et enkelt tilfelle: en rett linje, og et spesialtilfelle: Tegn en linje med en firkanthump på. Vi ser også at den tredje er akkurat som før, tegn den andre figuren noen ganger.
 
@@ -300,7 +300,7 @@ La oss tegne et siste fraktal, og som før har vi et enkelt tilfelle og et spesi
 
 De første tre versjonene ser ut som dette. Vi tegner et triangel, og så tegner vi det som tre trekanter sammen.
 
----
+```
        /\
       /  \
      /    \
@@ -328,7 +328,7 @@ De første tre versjonene ser ut som dette. Vi tegner et triangel, og så tegner
   ----    ----
  /\  /\  /\  /\
 ----------------
----
+```
 
 ## Sjekkliste {.check}
 
