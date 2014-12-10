@@ -1,5 +1,5 @@
 ---
-title: Lag Ditt Eget Spill
+title: Lag ditt eget spill
 level: 1.9
 language: nb-NO
 stylesheet: scratch
