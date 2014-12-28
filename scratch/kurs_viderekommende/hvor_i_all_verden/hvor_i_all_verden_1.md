@@ -1,6 +1,6 @@
 ---
-title: Hvor i All Verden? Del 1
-level: Scratch
+title: Hvor i All Verden?
+level: 2.1
 language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]

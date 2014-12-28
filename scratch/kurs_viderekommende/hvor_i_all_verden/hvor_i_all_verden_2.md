@@ -1,6 +1,6 @@
 ---
-title: Hvor i All Verden? Del 2
-level: Scratch
+title: Hvor i All Verden?
+level: 2.2
 language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png", "europakart.zip"]
