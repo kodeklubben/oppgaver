@@ -1,5 +1,6 @@
 ---
 title: Hva er det?
+playlist: Introduksjon til scratch
 level: 1.7
 language: nb-NO
 stylesheet: scratch
@@ -45,7 +46,7 @@ skriptet.
 __Klikk på det grønne flagget.__
 
 + Endrer figuren seg?
-+ Klikk flere ganger. Får figuren stadig nye drakter? Flott. 
++ Klikk flere ganger. Får figuren stadig nye drakter? Flott.
 
 Det gjør ingenting om samme drakt kommer opp flere ganger på rad. Det
 er helt normalt når det velges en tilfeldig drakt hver gang.
@@ -68,7 +69,7 @@ synke. Poengvariabelen fungerer dermed som en slags tidteller.
 
 + Endre skriptet slik:
 
-    ```blocks   
+    ```blocks
         når grønt flagg klikkes
         bytt drakt til (tilfeldig tall fra (1) til (5))
         sett [poeng v] til (110)
@@ -109,7 +110,7 @@ spillet. Klikker man feil forsvinner figuren og spillet fortsetter.
 
 Først må vi å vite hva det rette svaret er.
 
-## Sjekkliste {.check} 
+## Sjekkliste {.check}
 
 + Lag en ny variabel og kall den `riktig`. Pass på at den er
 tilgjengelig `for alle figurer`. Fjern avhukingen slik at variabelen
@@ -220,7 +221,7 @@ spilleren har gjettet riktig. Skriptene på `Spørsmål` skal nå se slik
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
             vent (1) sekunder
-        
+
         når jeg mottar [Vant v]
         sett [vant v] til (1)
         ta bort grafiske effekter
@@ -252,7 +253,7 @@ For øyeblikket bruker spillet samme forvrengingsalgoritme hele
 tiden. Men i steg 2 prøvde du kanskje ut noen forskjellige
 alternativer. Prøv nå om du kan finne noen flere forvrenginger som du
 synes fungerer like bra som `farge` og `piksler`.
- 
+
 Endre spillet slik at hvert spill bruker forskjellige forvrengninger i
 `gjenta til`{.blockyellow}-løkken.
 

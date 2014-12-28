@@ -1,5 +1,6 @@
 ---
 title: Spøkelsesjakten
+playlist: Introduksjon til scratch
 level: 1.2
 language: nb-NO
 stylesheet: scratch
@@ -144,12 +145,12 @@ klikket på:
         skjul
         spill lyden [fairydust v]
     ```
-  
+
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-+ Forsvinner spøkelset med en tryllelyd når du klikker på det? 
++ Forsvinner spøkelset med en tryllelyd når du klikker på det?
 
 ## Ting å prøve {.try}
 
@@ -183,7 +184,7 @@ vises på skjermen.
 `poeng`-variablen til __0__ når det grønne flagget klikkes.
 + Bruk så en `gjenta til`{.blockyellow}-kloss for å vente i __1__ sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre fram til tiden er ute. Til slutt stopper du hele spillet med en `stopp alle`{.blockyellow}-kloss.
 
-    ```blocks   
+    ```blocks
         Når grønt flagg klikkes
         sett [tid v] til (30)
         sett [poeng v] til (0)

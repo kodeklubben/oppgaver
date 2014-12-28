@@ -1,5 +1,6 @@
 ---
 title: JafseFisk
+playlist: Introduksjon til scratch
 level: 1.5
 language: nb-NO
 stylesheet: scratch
@@ -40,7 +41,7 @@ skriptet:
 
     ```blocks
         når grønt flagg klikkes
-        for alltid      
+        for alltid
             pek mot [musepeker v]
             gå (3) steg
     ```
@@ -95,7 +96,7 @@ med eller mot klokka, og deretter gjenta.
 
     ```blocks
         når grønt flagg klikkes
-        for alltid      
+        for alltid
             gå (2) steg
             vend @ (tilfeldig tall fra (-20) til (20)) grader
             sprett tilbake ved kanten  
@@ -137,7 +138,7 @@ JafseFisk. Utvid skriptet på byttedyret slik som dette:
 
     ```blocks
         når grønt flagg klikkes
-        for alltid      
+        for alltid
             gå (2) steg
             vend @ (tilfeldig tall fra (-20) til (20)) grader
             sprett tilbake ved kanten
@@ -183,7 +184,7 @@ vi gir tilfeldige verdier for `x` og `y`.
                 gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
                 vis
     ```
-    
+
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
@@ -351,7 +352,7 @@ spillet.
 __Klikk på det grønne flagget.__
 
 + Begynner tidtakeren på 30?
-+ Teller den ned med rett hastighet? 
++ Teller den ned med rett hastighet?
 + Kan du fange fisk mens tiden telles ned?
 + Stopper spillet når telleren når null?
 
@@ -385,4 +386,3 @@ __Godt gjort, du er ferdig! Nå kan du nyte spillet ditt!__
 
 Ikke glem at du kan dele spillet med alle vennene og familien din ved
 å klikke på `Legg ut` i topp-menyen!
-

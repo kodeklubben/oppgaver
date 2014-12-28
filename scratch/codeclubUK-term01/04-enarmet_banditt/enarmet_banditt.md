@@ -1,5 +1,6 @@
 ---
 title: Enarmet banditt
+playlist: Introduksjon til scratch
 level: 1.4
 language: nb-NO
 stylesheet: scratch
@@ -54,7 +55,7 @@ med `vent`{.blockyellow}-klossen?
 
 __Klikk på det grønne flagget.__
 
-+ Endrer figuren drakt i et fornuftig tempo? 
++ Endrer figuren drakt i et fornuftig tempo?
 
 ## Ting å prøve {.try}
 
@@ -83,7 +84,7 @@ vi variabelen til `0`.
     ```blocks
         når grønt flagg klikkes
         sett [stoppet v] til (0)
-        for alltid 
+        for alltid
             neste drakt
             vent (0.5) sekunder
     ```
@@ -95,7 +96,7 @@ noen klikker på figuren.
         når denne figuren klikkes
         sett [stoppet v] til (1)
     ```
-        
+
 + Til slutt må vi få figuren til å slutte å forandre drakt når
  variabelen `stoppet`{.blockorange} blir `1`. Legg til en
  `hvis`{.blockyellow}-løkke og bruk en `_ = _`{.blockgreen}
@@ -118,9 +119,9 @@ __Klikk på det grønne flagget.__
 + Endres drakten før du klikker på den?
 + Stopper den når du klikker på den?
 
-__Start skriptet igjen.__ 
+__Start skriptet igjen.__
 
-+ Stopper figuren når du setter musepekeren over den uten å klikke? 
++ Stopper figuren når du setter musepekeren over den uten å klikke?
 + Stopper den når du klikker andre steder på scenen eller andre steder
 i Scratch?
 
@@ -176,18 +177,18 @@ hver gang den forandres.
                 vent (0.5) sekunder
     ```
 
-+ Gjør det samme for hver av de andre figurene. 
++ Gjør det samme for hver av de andre figurene.
 
 ## Test prosjektet{.flag}
 
-__Klikk på det grønne flagget.__ 
+__Klikk på det grønne flagget.__
 
 + Alle figurene skal nå skifte drakter i tilfeldig rekkefølge.
 + Hvordan må vi forandre skriptet dersom vi legger til en annen drakt?
 
 ## Ting å prøve{.try}
- 
- __Gjør spillet vanskeligere!__ 
+
+ __Gjør spillet vanskeligere!__
 
 Se om du klarer å endre vanskelighetsgraden på et eller annet vis. Å
 få draktene til å rullere raskere er enkelt. Prøv å gjøre noe litt mer
@@ -224,17 +225,17 @@ hadde blitt klikket på. La oss sjekke
 klikket. For å gjøre dette bruker vi en `x-posisjon av
 Figur3`{.blocklightblue}-kloss fra `Sansning`{.blocklightblue}, men
 hvor vi bytter ut `x-posisjon` med `stoppet`.
-    
+
     ```blocks
         når grønt flagg klikkes
         bytt bakgrunn til [Spill v]
-        vent til <([stoppet v] av [Figur3 v])  = [1]>   
+        vent til <([stoppet v] av [Figur3 v])  = [1]>
         bytt bakgrunn til [Slutt v]
     ```
 
 ## Test prosjektet{.flag}
 
-__Klikk på det grønne flagget.__ 
+__Klikk på det grønne flagget.__
 
 + Vises `Spillet er slutt`-meldingen når du klikker på `Figur3`?
 + Hva skjer dersom du stopper `Figur3` før du har klikket begge de
@@ -262,7 +263,7 @@ Figur`{.blocklightblue}-klosser.
 
 ## Test prosjektet{.flag}
 
-__Klikk på det grønne flagget.__ 
+__Klikk på det grønne flagget.__
 
 + Vises `Spillet er slutt`-meldingen når alle tre figurene er stoppet,
 uansett hvilken rekkefølge du klikket på dem?
@@ -285,7 +286,7 @@ navnet `Taper`.
 + I `Taper`-bakgrunnen kan du skrive teksten `Du tapte!`.
 
 Nå trenger vi kode for å velge hvilken bakgrunn vi skal vise når
-spillet er over. 
+spillet er over.
 
 + Vi kan bruke en `hvis ellers`{.blockyellow} kloss for å se om
 brukeren har vunnet eller tapt ved å sammenligne `drakt nr.` (drakt
@@ -294,7 +295,7 @@ Figur`{.blocklightblue}-klossen vi brukte tidligere.  Denne gangen,
 istedet for å se på `stoppet`{.blockorange}-variabelen, skal vi sjekke
 `drakt nr.` og se om `Figur1` har samme drakt som `Figur2` og om
 `Figur2` har samme drakt som `Figur3`.
- 
+
     ```blocks
         når grønt flagg klikkes
         bytt bakgrunn til [Spill v]
@@ -304,7 +305,7 @@ istedet for å se på `stoppet`{.blockorange}-variabelen, skal vi sjekke
         ellers
             bytt bakgrunn til [Taper v]
     ```
- 
+
 ## Test prosjektet{.flag}
 
 __Klikk på det grønne flagget.__
@@ -337,4 +338,3 @@ __Godt gjort, du er ferdig! Nå kan du nyte spillet ditt!__
 
 Ikke glem at du kan dele spillet med alle vennene og familien din ved
 å klikke på `Legg ut` i topp-menyen!
-

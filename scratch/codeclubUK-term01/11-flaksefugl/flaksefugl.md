@@ -1,5 +1,6 @@
 ---
 title: Flaksefugl
+playlist: Introduksjon til scratch
 level: 1.11
 language: nb-NO
 stylesheet: scratch
@@ -148,7 +149,7 @@ på `Bytt til vektorgrafikk`{.blocklightgrey}-knappen.
 tegneflaten. Det skal se omtrent sånn ut:
 
     ![](pipe_design.png)
- 
+
 + Du kan skyggelegge rørene ved å klikke på `Fyll
 farge`{.blocklightgrey} og klikke på en av skyggemetodene i firkantene
 nede til venstre. Velg to varianter av samme farge: en for forgrunnen
@@ -351,7 +352,7 @@ vi ved å endre `Tap`-skriptet på `Rør` slik:
 
     ```blocks
         når jeg mottar [Tap v]
-        hvis <(poeng) > (Rekord)> 
+        hvis <(poeng) > (Rekord)>
             sett [Rekord v] til (poeng)
         slutt
         stopp [andre skript i figuren v]
@@ -382,5 +383,3 @@ __Gratulerer, du er ferdig med spillet! Hva er rekorden din?__
 
 Ikke glem å dele spillet med vennene dine. Trykk på `Legg ut` for at
 andre skal få prøve!
-
-

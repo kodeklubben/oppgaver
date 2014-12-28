@@ -1,5 +1,6 @@
 ---
 title: Ørkenløp
+playlist: Introduksjon til scratch
 level: 1.6
 language: nb-NO
 stylesheet: scratch
@@ -57,7 +58,7 @@ trykker ‘A’ tasten.
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget.__ 
+__Klikk på det grønne flagget.__
 
 + Beveger løvinnen og papegøyen seg over skjermen når du trykker på
 `A` og `L` tastene?
@@ -162,7 +163,7 @@ ferdig?
             hvis (berører [kant v]?)
                 sett [kappløp v] til (0)
     ```
-    
+
 + Spill så inn en lyd som skal spilles av hvis papegøyen vinner.
 
     Trykk på `Lyder`{.blocklightgrey}-fanen og deretter
@@ -185,7 +186,7 @@ fortelle at den vant:
                 spill lyden [Polly v]
                 si [Polly vinner!] i (3) sekunder  
     ```
-    
+
 + Gjør tilsvarende for løvinnen.
 
 ## Test prosjektet {.flag}
@@ -225,7 +226,7 @@ avslutningsmeldingen og flytter papegøyen tilbake til start.
         når jeg mottar [Avslutt v]
         sett x til (-170)
     ```
-    
+
 + Gjør det samme for løvinnen. Test forskjellige `x`-verdier for å
 være sikker på at løvinnen og papegøyen starter fra samme sted.
 + For at figurene skal stå på startstreken når kappløpet starter den
@@ -236,7 +237,7 @@ figurene:
         når grønt flagg klikkes
         sett x til (-170)
     ```
-    
+
 + For at spillerne skal kunne klikke i gang nye runder må vi passe på
 at start-knappen kommer tilbake etter hver avsluttet runde. Klikk på
 startknapp-figuren og legg til et skript som viser knappen når
@@ -246,7 +247,7 @@ avslutningsmeldingen blir mottatt.
         når jeg mottar [Avslutt v]
         vis
     ```
-    
+
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
@@ -275,7 +276,7 @@ legge til noen lyder og variabler på egen hånd.
 
 ```blocks
     når [q v] trykkes
-    hvis <((kappløp) = (1)) og ((rakett_brukt) = (0))> 
+    hvis <((kappløp) = (1)) og ((rakett_brukt) = (0))>
         bytt drakt til [parrot-rakett v]
         sett [rakett_brukt v] til (1)
         gå (30) steg
@@ -327,14 +328,14 @@ med en `ferdig`{.blockpurple}-kloss.
             spill lyden [Polly v]
             si [Polly vinner! v] i (3) sekunder
             send melding [Avslutt v]
-    
+
         når [a v] trykkes
         hvis <(kappløp) = [1]>
             gå (4) steg
             ferdig
-    
+
         når [q v] trykkes
-        hvis <((kappløp) = (1)) og ((rakett_brukt) = (0))> 
+        hvis <((kappløp) = (1)) og ((rakett_brukt) = (0))>
             bytt drakt til [parrot-rakett v]
             sett [rakett_brukt v] til (1)
             gå (30) steg
@@ -342,7 +343,7 @@ med en `ferdig`{.blockpurple}-kloss.
             ferdig
             bytt drakt til [parrot-a v]
     ```
-    
+
 + Gjør dette koden din enklere å lese? Kan du lage en tilsvarende
 egendefinert kloss for løvinnen?
 

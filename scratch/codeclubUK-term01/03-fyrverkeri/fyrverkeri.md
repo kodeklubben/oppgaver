@@ -1,5 +1,6 @@
 ---
 title: Fyrverkeri
+playlist: Introduksjon til scratch
 level: 1.3
 language: nb-NO
 stylesheet: scratch
@@ -42,11 +43,11 @@ lager vi to klosser som gjør raketten synlig og lar den bevege seg
 mot musepekeren.
 
     ```blocks
-        når [mellomrom v] trykkes 
+        når [mellomrom v] trykkes
         vis
         gli (1) sekunder til x: (mus x) y: (mus y)
     ```
-        
+
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
@@ -95,7 +96,7 @@ grønt flagg klikkes`{.blockgrey}, slik at det blir seende slik ut:
     ```blocks
         når grønt flagg klikkes
         skjul
-        for alltid 
+        for alltid
             hvis (museknappen er nede?)
                 gå til x: (mus x) y: (-200)
                 vis
@@ -140,7 +141,7 @@ når musepekeren. For å importere en lyd gå til fanen
                 gli (1) sekunder til x: (mus x) y: (mus y)
                 skjul
     ```
-        
+
 + Neste steg er å få raketten til å sende en melding til resten av
 spillet når den eksploderer. Vi skal lytte etter meldingen senere. Lag
 en ny melding som heter `Eksploder`.
@@ -160,7 +161,7 @@ en ny melding som heter `Eksploder`.
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget.__ 
+__Klikk på det grønne flagget.__
 
 + Sørg for at raketten spiller av lyden og gjemmer seg når den når
 musepekeren.
@@ -185,7 +186,7 @@ til`{.blockblue}, viser den og skjuler den igjen 1 sekund senere.
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget.__ 
+__Klikk på det grønne flagget.__
 
 + Blir raketten erstattet av et eksplosjonsbilde når den eksploderer?
 + Hva skjer hvis du holder musknappen nede mens du beveger på musa?
@@ -209,7 +210,7 @@ eksplosjonen vises.
         gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
         vis
         vent (1) sekunder
-        skjul   
+        skjul
     ```
 
 + Legg til forskjellige bilder av eksplosjoner som drakter ved å velge
@@ -223,7 +224,7 @@ passende sted i skriptet til Firework1.)
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget.__ 
+__Klikk på det grønne flagget.__
 
 + Har hver eksplosjon en forskjellig farge?
 + Ser hver eksplosjon forskjellig ut?
@@ -238,7 +239,7 @@ ved bruk av klossen `gjenta`{.blockyellow}.
     ```blocks
         når jeg mottar [Eksploder v]
         skjul
-        neste drakt 
+        neste drakt
         sett [farge v] effekt til (tilfeldig tall fra (1) til (200))
         gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
         sett størrelse til (5) %
@@ -251,7 +252,7 @@ ved bruk av klossen `gjenta`{.blockyellow}.
     ```
 
 ## Test prosjektet {.flag}
-__Klikk på det grønne flagget.__ 
+__Klikk på det grønne flagget.__
 
 + Sprer eksplosjonen seg ut fra midten av raketten?
 + Vokser eksplosjonen gradvis?
@@ -286,7 +287,7 @@ skriptet:
         når grønt flagg klikkes
         skjul
         for alltid
-            hvis (museknappen er nede?) 
+            hvis (museknappen er nede?)
                 gå til x: (mus x) y: (-200)
                 spill lyden [bang v]
                 vis

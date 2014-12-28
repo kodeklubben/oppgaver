@@ -1,5 +1,6 @@
 ---
 title: Lag ditt eget spill
+playlist: Introduksjon til scratch
 level: 1.9
 language: nb-NO
 stylesheet: scratch

@@ -1,5 +1,6 @@
 ---
 title: Felix og Herbert
+playlist: Introduksjon til scratch
 level: 1.1
 language: nb-NO
 stylesheet: scratch
@@ -137,7 +138,7 @@ lyd når han fanger Herbert:
                 si [Tok deg!] i (1) sekunder
                 vent (1) sekunder
     ```
-  
+
 + Velg Herbert og gå til `Drakter`{.blocklightgrey}-fanen.
 + Hent en ny drakt ved å trykke på
 ![Velg drakt fra biblioteket](hent-fra-bibliotek.png) og velg
@@ -212,4 +213,3 @@ __Klikk på det grønne flagget.__
 
 Du kan dele spillet med familie og venner ved å trykke `Legg
 ut` på menylinjen.
-

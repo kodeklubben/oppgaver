@@ -1,5 +1,6 @@
 ---
 title: Tegneprogram
+playlist: Introduksjon til scratch
 level: 1.8
 language: nb-NO
 stylesheet: scratch
@@ -158,7 +159,7 @@ skjermen.
         når denne figuren klikkes
         send melding [Rød v]
     ```
-    
+
     Dette er alt denne figuren gjør. Det vanskelige arbeidet gjøres av
     blyanten.
 
@@ -174,7 +175,7 @@ forandre drakt til `red-pencil`. Og så skal den selvsagt også begynne
         bytt drakt til [red-pencil v]
         velg pennfarge [#FF0000]
     ```
-    
+
     For å velge fargen i `velg pennfarge`{.blockgreen}-klossen kan du
     først klikke i fargeruten på klossen, og deretter på den røde
     knappen du lagde på scenen tidligere.
@@ -234,7 +235,7 @@ legge til to nye `_ og _`{.blocklightgreen}-klosser inni denne.
     ```blocks
         når grønt flagg klikkes
         slett
-        for alltid 
+        for alltid
             hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
                 gå til [musepeker v]
                 hvis (museknappen er nede?)
@@ -242,7 +243,7 @@ legge til to nye `_ og _`{.blocklightgreen}-klosser inni denne.
                 ellers
                     penn av
     ```
-    
+
 + Siden vi ikke kan tegne utenfor tavla, er det like greit at
 blyanten bare blir borte når musepekeren går utenfor tavla. For å
 gjøre dette må vi erstatte `hvis`{.blockyellow}-klossen ovenfor med en
@@ -253,7 +254,7 @@ __ellers__ skjules blyanten.
     ```blocks
         når grønt flagg klikkes
         slett
-        for alltid 
+        for alltid
             hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
                 gå til [musepeker v]
                 vis
@@ -271,7 +272,7 @@ __ellers__ skjules blyanten.
     den til å vises igjen når den kommer innenfor. Pass derfor på at
     du får lagt inn en `vis`{.blockpurple}-kommando innenfor
     `hvis`{.blockyellow}-klossen.
-    
+
     Vi har også lagt på en `penn av`{.blockgreen}-kloss når blyanten
     er utenfor tavla, for at den ikke skal tegne en strek akkurat i
     det den kommer tilbake inn på tavla.
@@ -322,7 +323,7 @@ drakt på denne. Klikk blyantfiguren. Gå til
 __Klikk på det grønne flagget.__
 
 + Klarer viskelæret å viske?
-+ Fungerer det helt ut til kantene av tavla? 
++ Fungerer det helt ut til kantene av tavla?
 + Går det greit å veksle mellom blyant og viskelær?
 
 # Steg 6: Stempel {.activity}
@@ -378,7 +379,7 @@ på`{.blockgreen}-klossen.
     ```blocks
         når grønt flagg klikkes
         slett
-        for alltid 
+        for alltid
             hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
                 gå til [musepeker v]
                 vis
@@ -463,7 +464,7 @@ Legg til skriptene på scenen.
 
 Vi har brukt disse snarveiene:
 
-+ Rød blyant - `r` 
++ Rød blyant - `r`
 + Grønn blyant - `g`
 + Blå blyant - `b`
 + Gul blyant - `y`
@@ -476,7 +477,7 @@ Vi har brukt disse snarveiene:
 
 __Klikk på det grønne flagget.__
 
-+ Virker alle snarveiene? 
++ Virker alle snarveiene?
 + Virker knappene på skjermen fremdeles også?
 
 ## Utfordring 3: Større og mindre {.challenge}
@@ -523,7 +524,7 @@ variabelen.
 __Klikk på det grønne flagget.__
 
 + Fungerer forstørrelsesknappen?
-+ Fungerer forminskingsknappen? 
++ Fungerer forminskingsknappen?
 + Hva skjer om du bytter til stempelet, endrer størrelsen og så
 forandrer tilbake til blyanten?
 
