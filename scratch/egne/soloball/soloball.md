@@ -1,6 +1,5 @@
 ---
 title: Soloball
-level: Scratch
 language: nb-NO
 stylesheet: scratch
 embeds: ["*.png", "../../bilder/*.png"]

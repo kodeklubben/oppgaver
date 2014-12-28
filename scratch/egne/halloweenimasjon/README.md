@@ -1,6 +1,5 @@
 ---
 title: Halloweenimasjon
-level: Scratch
 language: nb-NO
 embeds: "halloweenimasjon.jpg"
 ---

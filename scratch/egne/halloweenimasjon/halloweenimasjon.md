@@ -1,6 +1,5 @@
 ---
 title: Halloweenimasjon
-level: Scratch
 language: nb-NO
 stylesheet: scratch
 embeds: ["halloweenimasjon.jpg", "projiser.html", "*.png", "../../bilder/*.png"]
