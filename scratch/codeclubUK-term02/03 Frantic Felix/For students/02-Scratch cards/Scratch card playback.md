@@ -1,5 +1,6 @@
 ---
 title: Frantic Felix - Avspilling
+playlist: Scratchkort
 level: Nivå 6
 language: nb-NO
 stylesheet: scratch

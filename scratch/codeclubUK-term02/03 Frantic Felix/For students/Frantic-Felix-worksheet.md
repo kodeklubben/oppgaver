@@ -1,5 +1,6 @@
 ---
 title: Frantic Felix
+playlist: Scratchkort
 level: Nivå 6
 language: nb-NO
 stylesheet: scratch
@@ -11,7 +12,7 @@ I dette prosjektet skal du lage et komplett spill. Det er et plattformspill, hvo
 
 I del 1 av dette prosjektet kommer du til å lære hvordan vi får Felix til å flytte seg og samhandle med forskjellige ting. I uke to, skal du designe egne brett og nivåer. Til slutt skal du sette brettene sammen til et ferdig spill.
 
-# Del 1: Lag byggeklossene 
+# Del 1: Lag byggeklossene
 
 __Plattformspill__, som __Manic Miner__ og __Mario Bros__, handler om en figur som beveger seg rundt i en verden og hopper inn i ting. Noen ting, som vegger, stopper deg. Andre ting, som slemminger, ta livet av deg. Ting som nøkler må du samle på. Andre ting er bakgrunner og påvirker ikke spillet i det heletatt.
 
@@ -38,7 +39,7 @@ for alltid
 	gå til [Felix v]
 	hvis <farge [rød v] berører [grønn v] ?>
 		sett [blokkert høyre v] til (1)
-	ellers	
+	ellers
 		sett [blokkert høyre v] til (0)
 	slutt
 slutt
@@ -73,7 +74,7 @@ for alltid
 	hvis < <tast [pil venstre v] trykket?> og (blokkert venstre)=(0)>
 		pek i retning (-90)
 		gå (2) steg
-        slutt	
+        slutt
 	hvis < <tast [pil høyre v] trykket?> og (blokkert høyre)=(0)>
 		pek i retning (90)
 		gå (2) steg
@@ -83,8 +84,8 @@ slutt
 når grønt flagg klikkes // beveg Felix
 for alltid
 	hvis < <tast [pil venstre v] trykket?> eller <tast [pil høyre v] trykket?> >
-	neste drakt	
-	vent (0.1) sekunder 
+	neste drakt
+	vent (0.1) sekunder
 	slutt
 slutt
 
@@ -133,11 +134,11 @@ for alltid
 	hvis <(hopphøyde)=(0)>
 		hvis <(blokkert topp)=(1)>
 			sett (hopphøyde) til (0)
-		ellers	
+		ellers
 			endre y med (10)
 			endre [hopphøyde v] med (-10)
 		slutt
-	ellers	
+	ellers
 		hvis <(blokkert bunn)=(0)>
 			endre y med (-2)
 		slutt
@@ -172,7 +173,7 @@ for alltid
 		hvis <berører [Felix v]?>
 			send melding [seier v]
 			si [Du vant!]
-		slutt	
+		slutt
 	slutt
 slutt
 ---

@@ -1,5 +1,6 @@
 ---
-title: Scratchkort - Hjul
+title: Hjul
+playlist: Scratchkort
 level: Nivå 4
 language: no-NB
 stylesheet: scratch

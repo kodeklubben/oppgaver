@@ -1,5 +1,6 @@
 ---
-title: Scratchkort - Hengslede armer
+title: Hengslede armer
+playlist: Scratchkort
 level: Nivå 4
 language: nb-NO
 stylesheet: scratch

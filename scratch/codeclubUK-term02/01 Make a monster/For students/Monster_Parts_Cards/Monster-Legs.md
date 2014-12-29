@@ -1,5 +1,6 @@
 ---
-title: Scratchkort - Bein
+title: Bein
+playlist: Scratchkort
 level: Nivå 4
 language: nb-NO
 stylesheet: scratch

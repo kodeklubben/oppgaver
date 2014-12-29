@@ -1,5 +1,6 @@
 ---
-title: Scratchkort - Bevegelse
+title: Bevegelse
+playlist: Scratchkort
 level: Nivå 4
 language: nb-NO
 stylesheet: scratch

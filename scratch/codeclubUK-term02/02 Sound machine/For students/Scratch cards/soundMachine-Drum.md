@@ -1,5 +1,6 @@
 ---
-title: Scratchkort - Tromme
+title: Tromme
+playlist: Scratchkort
 level: Nivå 4
 language: nb-NO
 stylesheet: scratch

@@ -1,5 +1,6 @@
 ---
 title: Lydmaskin
+playlist: Scratchkort
 level: Nivå 5
 language: nb-NO
 stylesheet: scratch
