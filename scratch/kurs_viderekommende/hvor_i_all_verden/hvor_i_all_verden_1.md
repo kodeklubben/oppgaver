@@ -1,5 +1,6 @@
 ---
 title: Hvor i All Verden?
+playlist: Hvor i all verden?
 level: 2.1
 language: nb-NO
 stylesheet: scratch
