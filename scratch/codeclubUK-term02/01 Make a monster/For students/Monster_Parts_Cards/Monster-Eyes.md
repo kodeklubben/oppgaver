@@ -23,6 +23,6 @@ endre x med (hastighet)
 
 når jeg mottar [flyttet venstre v]
 endre x med ((hastighet) * (-1))
----
+```
 
 **Merk at vi ogå lytter til meldinger om at kroppen har flyttet seg, slik at øynene beveger seg sammen med kroppen og andre kroppsdeler. Er det noe annet du kan få øynene til å gjøre? Hvis du flytter muspekeren mellom monsterets øyne, så går øynene i kryss!**

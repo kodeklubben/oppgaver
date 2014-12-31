@@ -20,7 +20,7 @@ vend høyre (15) grader
 når jeg mottar [flyttet høyre  v]
 endre x med (hastiget)
 vend venstre (15) grader
----
+```
 
 + Hvis du vil, kan du erstatte verdiene med variabler som `hastiget`{.blockorange}, slik at du kan kontrollere hastigheten
  i alle retninger fra ett sted.

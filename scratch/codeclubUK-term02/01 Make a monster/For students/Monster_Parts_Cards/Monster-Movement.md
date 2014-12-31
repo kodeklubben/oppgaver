@@ -25,7 +25,7 @@ send melding [flyttet høyre v]
 når [pil venstre v] trykkes
 endre x med ((hastighet) * (-1))
 send melding [flyttet venstre v]
----
+```
 
 ```blocks
 // på tentakkelen
@@ -35,7 +35,7 @@ endre x med (hastighet)
 
 når jeg mottar [flyttet venstre v]
 endre x med ((hastighet) * (-1))
----
+```
 
 + Ved å bruke en `send melding`{.blockgrey} kan vi også endre hvordan bevegelseskommandoen
  virker, ved å bare endre et skript. **Ta en titt på dette eksempelet:**
@@ -59,7 +59,7 @@ hvis (ikke (berører [kant v]?))
 	send melding [flyttet venstre v]
 	send melding [flyttet v]
 slutt
----
+```
 
 + Her forteller vi at kroppen skal gå i den retningen den beveger seg i (husk å sette figur orienteringen
   til **“venstre-høyre”**) og for å stoppe og at den snur hvis den kolliderer med skjermkanten. Kanskje har du også
@@ -75,5 +75,5 @@ slutt
 ```blocks
 når jeg mottar [flyttet høyre v]
 neste drakt
----
+```
 

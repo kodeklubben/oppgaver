@@ -20,14 +20,14 @@ send melding [tromme v]
 
 når [mellomrom v] trykkes
 send melding [tromme v]
----
+```
 
 + Nå må vi lage lyd når den mottar `tromme`{.blockbrown}. Ved å endre tallet, kan du endre lyden trommen lager.
 
 ```blocks
 når jeg mottar [tromme v]
 trommeslag (48 v) som varer (0.2) takter
----
+```
 
 + Prøv å endre utseende slik at man ser hvilket instrument som spiller.
 
@@ -37,5 +37,5 @@ trommeslag (48 v) som varer (0.2) takter
 sett størrelse til (110) %
 vent (0.1) sekunder
 sett størrelse til (100) %
----
+```
 

@@ -37,7 +37,7 @@ endre [steg v] med [1]
 hvis < (steg) > [1] >
 	sett [steg v] til [0]
 slutt
----
+```
 
 +	 Nå kan vi sette beina i bevegelse ved å sjekke
 	 vår `steg`{.blockorange} variabel. **Når variabelen
@@ -65,7 +65,7 @@ hvis < (steg) = [1] >
 else
 	pek i retning (180 v)
 slutt
----
+```
 
 **Du kan bruke samme type handling for å lage
 armer som vinker, eller fuglevinger som flakser.**
