@@ -6,6 +6,8 @@ language: no-NB
 stylesheet: scratch
 embeds: "*.png"
 materials: "*.sb2"
+author: Oversatt fra [Code Club UK](//codeclub.org.uk)
+license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 ## Sjekkliste { .check}
