@@ -5,6 +5,8 @@ level: 1.9
 language: nb-NO
 stylesheet: scratch
 note: "README.md"
+author: Oversatt fra [Code Club UK](//codeclub.org.uk)
+license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 # Introduksjon {.intro}
