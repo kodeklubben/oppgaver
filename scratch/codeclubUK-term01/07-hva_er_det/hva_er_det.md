@@ -208,7 +208,7 @@ poengsummen har blitt `0` eller `vant` er `1`.
 + Til slutt legger vi også inn en `ta bort grafiske
 effekter`{.blockpurple}-kloss som avslører spørsmålsfiguren når
 spilleren har gjettet riktig. Skriptene på `Spørsmål` skal nå se slik
----
+
 
     ```blocks
         når grønt flagg klikkes
