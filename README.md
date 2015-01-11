@@ -24,7 +24,7 @@ Du kan også laste ned med *github for [windows](//windows.github.com)* eller *[
 Dette steget vil bygge websider av oppgavene og åpne de i nettleseren. Hver gang en oppgave endres bygges websidene om igjen og nettleseren laster inn nettsiden på nytt. For brukere av windows, finnes også `gulp.bat` som kan åpnes direkte fra filbehandleren.
 
 
-# Kurs og leksjoner
+## Kurs og leksjoner
 Per nå finnes følgende kurs og leksjoner:
 - Scratch
     - [Enkle introduksjonsoppgaver](scratch/egne-enkel/)
