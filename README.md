@@ -3,7 +3,7 @@
 Her finnes kodeklubbens oppgaver i flere programmeringsspråk. For å komme i gang, følg anvisningene under.
 
 ## Komme i gang
-Enkleste vei for å komme i gang er å se videoen som forklarer hvordan man setter opp og arbeider med oppgavene: http://youtu.be/GtXxBGsAXOs Videoen er laget for windows-brukere, men det vil være tilsvarende for Linux og Mac brukere. Dersom du er mer en *tekst-type* og foretrekker terminalen fremfor GUI, les videre.
+Enkleste vei for å komme i gang er å se videoen som forklarer hvordan man setter opp og arbeider med oppgavene: http://youtu.be/GtXxBGsAXOs Videoen er laget for windows-brukere, men det vil være tilsvarende for Linux og Mac-brukere. Dersom du er mer en *tekst-type* og foretrekker terminalen fremfor GUI, les videre.
 
 For å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up-git/) og [node](//nodejs.org). Når du har installert git og node, kan du følge anvisningene under. Anvisningene er kommandoer som må skrives inn i en konsoll.
 
