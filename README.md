@@ -3,13 +3,14 @@
 Her finnes kodeklubbens oppgaver i flere programmeringsspråk. For å komme i gang, følg anvisningene under.
 
 ## Komme i gang
-Hvis du ønsker å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up-git/) og [node](//nodejs.org). Når du har installert git og node, kan du følge anvisningene under. Anvisningene er kommandoer som må skrives inn i en konsoll når man er i *oppgaver* katalogen.
+Hvis du ønsker å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up-git/) og [node](//nodejs.org). Når du har installert git og node, kan du følge anvisningene under. Anvisningene er kommandoer som må skrives inn i en konsoll.
 
-**Laste ned oppgaver**
+**Laste ned oppgavene**
 ```
 git clone https://github.com/arve0/oppgaver
+cd oppgaver
 ```
-Du kan også laste ned oppgaver med *github for [windows](//windows.github.com)* eller *[mac](//mac.github.com)*.
+Du kan også laste ned med *github for [windows](//windows.github.com)* eller *[mac](//mac.github.com)*.
 
 **Sette opp**
 ```
