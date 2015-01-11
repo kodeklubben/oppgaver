@@ -12,7 +12,7 @@ For å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up
 git clone --recursive https://github.com/arve0/oppgaver
 cd oppgaver
 ```
-*Du kan også laste ned oppgavene med github for [windows](//windows.github.com) eller [mac](//mac.github.com).*
+*Du kan også laste ned oppgavene med [github for windows](//windows.github.com) eller [github for mac](//mac.github.com).*
 
 **Sette opp**
 ```
