@@ -27,12 +27,12 @@ Dette steget vil bygge websider av oppgavene og åpne de i nettleseren. Hver gan
 ## Kurs og leksjoner
 Per nå finnes følgende kurs og leksjoner:
 - Scratch
-    - [Enkle introduksjonsoppgaver](scratch/egne-enkel/)
-    - [Introduksjon til Scratch](scratch/codeclubUK-term01/) (CodeClub UK)
-    - [Avansert Scratch](scratch/codeclubUK-term02/) (CodeClub UK)
+    - [Enkle introduksjonsoppgaver](src/scratch/egne-enkel/)
+    - [Introduksjon til Scratch](src/scratch/codeclubUK-term01/) (CodeClub UK)
+    - [Avansert Scratch](src/scratch/codeclubUK-term02/) (CodeClub UK)
 - HTML/CSS
-    - [Introduksjon til webutvikling](htmlcss/codeclubUK) (CodeClub UK)
+    - [Introduksjon til webutvikling](src/htmlcss/codeclubUK) (CodeClub UK)
 - Python
-    - [Introduksjon til Python](python/codeclubUK) (CodeClub UK)
+    - [Introduksjon til Python](src/python/codeclubUK) (CodeClub UK)
 - ComputerCraft (Minecraft)
-    - [Introduksjon til datamaskiner og roboter](computercraft/egne-enkel)
+    - [Introduksjon til datamaskiner og roboter](src/computercraft/egne-enkel)
