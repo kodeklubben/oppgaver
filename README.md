@@ -27,9 +27,9 @@ Dette steget vil bygge websider av oppgavene og åpne de i nettleseren din. Hver
 
 
 ## Filstruktur og formatering
-Alle oppgavene finnes i katalogen [src](src). Hver mappe i `src` representerer et programmeringsspråk eller kurs. Filer som heter *README.md* blir ekskludert fra byggingen, men vises på github (slik som denne teksten du leser nå). Derfor egner *README.md* seg for merknader til lærere og lignende.
+Alle oppgavene finnes i katalogen [src](src). Hver mappe i `src` representerer et programmeringsspråk eller kurs. Filer som heter `README.md` blir ekskludert fra byggingen, men vises på github (slik som denne teksten du leser nå). Derfor egner `README.md` seg for merknader til lærere og lignende.
 
-Ellers blir alle markdown-filer (.md) omgjort til HTML og bilder eller andre filer blir kopiert under *bygging*. Dersom en oppgave skal inkludere filer eller bilder, skal oppgaven ligge i en egen mappe med filene. I motsatt tilfelle, dersom en oppgave ikke inkluderer bilder eller filer, så skal den ligge i roten av sitt kurs/programmeringsspråk (feks ligger scratch-oppgavene [her](src/scratch)).
+Ellers blir alle markdown-filer (.md) omgjort til HTML og bilder eller andre filer blir kopiert ved bygging. Dersom en oppgave skal inkludere filer eller bilder, skal oppgaven ligge i en egen mappe med filene. I motsatt tilfelle, dersom en oppgave ikke inkluderer bilder eller filer, så skal den ligge i roten av sitt kurs/programmeringsspråk (feks ligger scratch-oppgavene [her](src/scratch)).
 
 Byggeren lager en førsteside som viser alle oppgavene. Det er to typer oppgaver, vanlige og spillelister. Førstesiden er sortert etter filnanvet til oppgavene, så dersom en spesiell rekkefølge er ønsket kan man bruke prefiks i filnavnene. For eksempel `01-felix_og_herbert`, `02-spokelsejakten`, osv.
 
@@ -100,9 +100,11 @@ alternativ tekst i tilfelle bildet ikke kan vises.
 **Kodeblokker**
 Kodeblokker skrives med tre `-tegn foran og bak koden:
 
-  ```
-  for i in range(10):
-  ```
+<pre>
+```
+for i in range(10):
+```
+</pre>
 
 **Scratch kodeblokker**
 Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir
@@ -113,12 +115,14 @@ hjemmesidene til Scratch finnes
 
 Hele kodesnutter skrives som et eget avsnitt på følgende måte:
 
-  ```blocks
-  når grønt flagg trykkes
-  for alltid
-  pek mot [musepekeren v]
-  slutt
-  ```
+<pre>
+```blocks
+når grønt flagg trykkes
+for alltid
+pek mot [musepekeren v]
+slutt
+```
+</pre>
 
 Man kan rykke inn koden slik at den ligger i flukt med teksten
 rundt. For eksempel vil man typisk ha fire mellomrom innrykk for kode
