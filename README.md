@@ -21,7 +21,7 @@ Du kan også laste ned med *github for [windows](//windows.github.com)* eller *[
 ```
 ./gulp
 ```
-Dette steget vil bygge websider av oppgavene og åpne de i nettleseren. En server kjører i bakgrunnen og hver gang en oppgave endres, bygges websidene om igjen og nettleseren laster inn nettsiden på nytt. For brukere av windows, finnes det også `gulp.bat` som kan åpnes direkte fra en filbehandler.
+Dette steget vil bygge websider av oppgavene og åpne de i nettleseren. Hver gang en oppgave endres bygges websidene om igjen og nettleseren laster inn nettsiden på nytt. For brukere av windows, finnes også `gulp.bat` som kan åpnes direkte fra filbehandleren.
 
 
 # Kurs og leksjoner
