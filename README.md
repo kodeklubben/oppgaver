@@ -26,6 +26,14 @@ cd oppgaver
 Dette steget vil bygge websider av oppgavene og åpne de i nettleseren din. Hver gang en oppgave endres bygges websidene om igjen og nettleseren oppdaterer nettsiden. For brukere av windows, finnes også `gulp.bat` som kan åpnes direkte fra filbehandleren.
 
 
+## Kurs/programmeringsspråk
+Per nå finnes følgende kurs:
+- [ComputerCraft (Minecraft)](src/computercraft)
+- [Python](src/python)
+- [Scratch](src/scratch)
+- [Web](src/web)
+
+
 ## Filstruktur og formatering
 Alle oppgavene finnes i katalogen [src](src). Hver mappe i `src` representerer et programmeringsspråk eller kurs. Filer som heter `README.md` blir ekskludert fra byggingen, men vises på github (slik som denne teksten du leser nå). Derfor egner `README.md` seg for merknader til lærere og lignende.
 
@@ -49,17 +57,15 @@ Dette er introen.
 YAML-headeren er alt som befinner seg mellom `---` i toppen, som blir gjort tilgjengelig som variabler i malen. Det er bare `title` og `level` som er påkrevd, men man kan også definere `author`, `language` (hvis en ønsker inkludere engelske oppgaver), `license` (standard lisens er [CC-BY 4.0](//creativecommons.org/licenses/by/4.0/deed.no)) og `playlist` (navn på spilleliste dersom oppgaver skal grupperes).
 
 Nettet har flere beskrivelser av
-[Markdown-syntaksen](//daringfireball.net/projects/markdown/syntax). De
-viktigste vi bruker er:
-
-**Skrift**
+[Markdown-syntaksen](//daringfireball.net/projects/markdown/syntax). Du kan også lære endel ved å bruke en [live markdown editor](//jbt.github.io/markdown-editor/). Her er noen eksempler:
 
 - *Uthevet skrift* skrives `*Uthevet skrift*`,
 
 - **Fet skrift** skrives `**Fet skrift**`.
 
 
-**Overskrift**
+**Overskrifter**
+
 Overskrifter lages ved å begynne en linje med en eller flere `#`. En
 `#` gir den største overskriften, mens seks `######` gir den minste
 tilgjengelige overskriften. I tillegg bruker vi stiler på
@@ -86,6 +92,7 @@ I tillegg finnes flere stiler som brukes ved behov:
 
 
 **Bilder**
+
 - Store bilder legges inn ved å skrive `![](stort-bilde.png)` på en
 egen linje, med blanke linjer før og etter. Bildet vil da sentreres
 i et avsnitt for seg selv. Eventuell billedtekst kan legges mellom
@@ -98,6 +105,7 @@ alternativ tekst i tilfelle bildet ikke kan vises.
 
 
 **Kodeblokker**
+
 Kodeblokker skrives med tre `-tegn foran og bak koden:
 
 <pre>
@@ -106,7 +114,9 @@ for i in range(10):
 ```
 </pre>
 
+
 **Scratch kodeblokker**
+
 Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir
 oversatt til bilder av et verktøy som heter
 [Scratchblocks2](https://github.com/blob8108/scratchblocks2). På
@@ -154,12 +164,3 @@ lightgrey.
     - `` `Styring`{.blockyellow}``
     - `` `Sansning`{.blocklightblue}``
     - `` `Operatorer`{.blocklightgreen}``
-    - `` `Flere klosser`{.blockpurple}``
-
-
-## Kurs/programmeringsspråk
-Per nå finnes følgende kurs:
-- [ComputerCraft (Minecraft)](src/computercraft)
-- [Python](src/python)
-- [Scratch](src/scratch)
-- [Web](src/web)
