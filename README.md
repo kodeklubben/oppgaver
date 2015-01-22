@@ -115,8 +115,8 @@ for i in range(10):
 ```
 </pre>
 
-For å få farger og stil som passer til et spesielt, legges språkets navn etter
-<code>```</code> slik som dette:
+For å få farger og stil som passer til et spesielt programmeringsspråk, legges
+språkets navn etter <code>```</code> slik som dette:
 
 <pre>
 ```python
