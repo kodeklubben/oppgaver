@@ -111,17 +111,33 @@ Kodeblokker skrives med tre `-tegn foran og bak koden:
 <pre>
 ```
 for i in range(10):
+    print(i)
 ```
 </pre>
 
+For å få farger og stil som passer til et spesielt, legges språkets navn etter
+<code>```</code> slik som dette:
+
+<pre>
+```python
+for i in range(10):
+    print(i)
+```
+</pre>
+
+Les videre for inkludering av scratchkode.
 
 **Scratch kodeblokker**
 
-Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir
-oversatt til bilder av et verktøy som heter
-[Scratchblocks2](https://github.com/blob8108/scratchblocks2). På
-hjemmesidene til Scratch finnes
-[dokumentasjon](http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax). Et nyttig verktøy er [scratchblocks translator](http://scratchblocks.codeclub.org.uk/translator/) som lar deg hente ut og oversette scratchblocks.
+Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir oversatt til
+figurer av et verktøy som heter [Scratchblocks2][sb2]. På
+hjemmesidene til Scratch finnes [dokumentasjon over syntaks][doc sb]. Et
+nyttig verktøy er [scratchblocks translator][sbt] som lar deg hente ut og
+oversette scratchkode.
+
+[sb2]: https://github.com/blob8108/scratchblocks2 "Scratchblocks2"
+[doc sb]: http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax "Dokumentasjon scratchblocks"
+[sbt]: http://scratchblocks.codeclub.org.uk/translator/ "Scratchblocks translator"
 
 Hele kodesnutter skrives som et eget avsnitt på følgende måte:
 
