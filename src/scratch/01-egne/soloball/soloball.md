@@ -243,7 +243,7 @@ truffet nettet. Det skal vi gjøre nå.
 + Vi skal nå bruke `berører fargen`{.blocklightblue}-klossen for å
   oppdage at ballen treffer nettet. Legg til nye klosser i skriptet
   ditt slik at det blir seende slik ut:
-  
+
     ```blocks
         når grønt flagg klikkes
         gå til x: (0) y: (0)

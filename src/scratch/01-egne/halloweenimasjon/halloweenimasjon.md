@@ -131,7 +131,7 @@ gardin, et laken eller en vegg under Halloween.
 
 + Vi kan også gjøre det samme med demonen sitt skript. Klikk på
   demon-figuren, og endre skriptet til
-  
+
     ```blocks
         sett størrelse til (0) %
         vis
@@ -356,7 +356,7 @@ __Klikk på det grønne flagget.__
         når jeg mottar [Animer gresskar v]
         bytt bakgrunn til [Svart v]
     ```
-    
+
 + Til slutt legger vi denne siste animasjonen til i hovedløkken som
   viser animasjonene:
 
@@ -418,7 +418,7 @@ tipsene nedenfor.
     <head>
     <title>Halloweenimasjon</title>
     </head>
- 
+
     <body bgcolor="#000000">
     <div style="overflow-y: hidden; height: 890px; margin-left: auto; margin-right: auto; width: 1180px;" id="applet">
     <iframe style="margin-top:-56px; margin-left: -10px" allowtransparency="true" width="1200" height="960" src="http://scratch.mit.edu/projects/embed/30923784/?autostart=true" frameborder="0" scrolling="no" seamless="seamless" allowfullscreen=""></iframe>

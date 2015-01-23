@@ -53,10 +53,10 @@ møter dansende pingviner på bursdagen sin. Men som alltid er det greit
         når grønt flagg klikkes
         gå til x: (-100) y: (-50)
     ```
-    
+
     Her kan du eksperimentere litt med tallene for `x` og `y` til du
     finner noe som du synes ser bra ut.
-    
+
 + La oss nå få Felix til å bevege seg over skjermen. Vi skifter mellom
   de to draktene hans for at det skal se ut som om han går. Utvid
   skriptet til Felix på denne måten:
@@ -71,7 +71,7 @@ møter dansende pingviner på bursdagen sin. Men som alltid er det greit
             vent (0.1) sekunder
         slutt
     ```
-	
+
 	Tallet 100 i `pek i retning`{.blockblue}-klossen gjør at Felix går
 	litt nedover mens han går over skjermen. Prøv gjerne med noen
 	andre tall for å se effekten av dem.
@@ -168,7 +168,7 @@ synlige for oss som ser på.
         når jeg mottar [Scene 2 v]
         bytt bakgrunn til [winter-lights v]
     ```
-	
+
 + Felix kan også motta meldinger han sender selv. Vi kan bruke dette
   til å flytte ham inn på veien samtidig som vi bytter bakgrunn. Legg
   til følgende som et nytt skript på Felix:
@@ -205,7 +205,7 @@ mennesker.
 		tenk [Jeg har gått meg bort ... også på bursdagen min] i (2) sekunder
 		spør [Hvor gammel blir jeg igjen?] og vent
 	```
-	
+
 + For å teste hvordan skriptet virker kan du bare klikke på for
   eksempel klossen `når jeg mottar Si hei`{.blockgrey}. Snakker og
   tenker Felix?
@@ -437,7 +437,7 @@ __Klikk på det grønne flagget.__
         når grønt flagg klikkes
         skjul
     ```
-	
+
 + Først skal Felix spørre om det er noen hjemme, og så skal han sende
   en melding hvor han ber pingvinene om å komme ut. Endre Felix sitt
   skript ved å legge til to klosser på slutten:
@@ -450,7 +450,7 @@ __Klikk på det grønne flagget.__
         si [Oj, så flott hus! Er det noen hjemme?] i (2) sekunder
         send melding [Kom ut v]
     ```
-	
+
 + Pingu skal nå komme ut av døra og gå litt til siden. Sjekk med
   musepekeren hva `x` og `y`-posisjonen til døren er. Legg til
   følgende skript på Pingu:
@@ -461,7 +461,7 @@ __Klikk på det grønne flagget.__
         vis
         gli (1) sekunder til x: (150) y: (-100)
     ```
-	
+
 + Pappa Pingu kommer ut litt senere, og stiller Felix et spørsmål.
   Legg til følgende script på Pappa Pingu:
 
@@ -500,7 +500,7 @@ __Klikk på det grønne flagget.__
         si [Det er et rart navn!] i (2) sekunder
         send melding [Navn2 v]
     ```
-	
+
 + Legg til følgende skript på Felix for å få ham til å svare og si at
   han har bursdag:
 
@@ -533,7 +533,7 @@ etter ordet `blir`!
             vent (0.2) sekunder
         slutt
     ```
-	
+
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__

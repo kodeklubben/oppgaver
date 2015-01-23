@@ -90,7 +90,7 @@ Vi vil i stedet bruke en __variabel__ som kan styre farten til
 
 + Kall variabelen `hastighet`, og velg at den bare skal gjelde `For
   denne figuren`.
-  
+
 + Til slutt, fjern avhukingen ved siden av den nye
   `hastighet`{.blockorange}-klossen for at variabelen ikke skal vises
   på scenen.
@@ -483,4 +483,3 @@ __Klikk på det grønne flagget.__
 
 Nå kan du gå på skattejakt! Hvis du vil kan du dele spillet med
 familie og venner ved å trykke `Legg ut`.
-

@@ -55,7 +55,7 @@ andre kart.
  helikopteret med piltastene.*
 
 ## Sjekkliste {.check}
- 
+
 + Legg til en ny figur ved å klikke
   ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)
   under `Figurer`. Vi har brukt `Transport/Helicopter`, men du kan
@@ -74,7 +74,7 @@ andre kart.
 		sett størrelse til (25) %
 		gå til x: (0) y: (0)
 	```
-	
+
 + Vi skal nå programmere at helikopteret kontrolleres med
   piltastene. Vi gjør dette ved å starte en løkke som vi gjentar for
   alltid. Inne i denne evige løkken tester vi om piltastene er trykket
@@ -166,7 +166,7 @@ steg`{.blockblue}-klossene med `gå
 
 *Nå som helikopteret kan fly rundt omkring i Norge kan vi gi spilleren
  et mål med reisen.*
- 
+
 ## Sjekkliste {.check}
 
 + Vi skal nå tegne vår egen figur som vi vil bruke til å markere et
@@ -213,7 +213,7 @@ steg`{.blockblue}-klossene med `gå
 		vent til (berører [Helikopter v]?)
 		si [Fant Hønefoss!] i (2) sekunder
     ```
-	
+
 	Legg merke til at i `gå til`{.blockblue}-klossen bruker vi samme
 	koordinater som de vi fant ovenfor. Det betyr at om du bruker ditt
 	eget reisemål må du bytte disse tallene med de du fant.
@@ -256,7 +256,7 @@ __Klikk på det grønne flagget.__
 		vent til (berører [Helikopter v]?)
 		si [Fant Tromsø!] i (2) sekunder
     ```
-	
+
 	Bruk dine egne koordinater (og navn) også for det andre
 	reisemålet.
 
@@ -373,7 +373,7 @@ __Klikk på det grønne flagget.__
 
 *Det vil være kult å vise spilleren hvor reisemålet faktisk er etter
  at hun har funnet det!*
- 
+
 ## Sjekkliste {.check}
 
 + La oss lage en ny melding, `Fant sted`, som vi kan sende hver gang
@@ -395,7 +395,7 @@ __Klikk på det grønne flagget.__
         vent til (berører [Helikopter v]?)
 		send melding [Fant sted v] og vent
     ```
-	
+
 + Når vi mottar `Fant sted`-meldingen vil vi vise hvor reisemålet
   faktisk ligger. Siden sirkelen snart flyttes videre kan vi ikke bare
   gjøre figuren synlig, vi må også `stemple avtrykk`{.blockgreen} av
@@ -461,7 +461,7 @@ __Klikk på det grønne flagget.__
 
 *Vi skal nå gjøre spillet enda mere utfordrende ved å legge på en
  tidsbegrensning.*
- 
+
 ## Sjekkliste {.check}
 
 + Klikk på `Scene` til venstre for figurene. Skript som skal gjelde
@@ -498,7 +498,7 @@ __Klikk på det grønne flagget.__
 	    når jeg mottar [Avslutt v]
 		stopp [alle v]
 	```
-	
+
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
