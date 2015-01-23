@@ -1,8 +1,9 @@
 ---
 title: Snøballkrig
-level: 1.5
+level: 4
 language: nb-NO
 stylesheet: scratch
+author: Geir Arne Hjelle
 embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
 ---
@@ -28,8 +29,8 @@ figurene vi spiller mot blir raskere og vanskeligere å jage bort.
 + La oss lage en bakgrunn. Til dette spillet trenger vi en ganske
   enkel bakgrunn med litt vinterfølelse. Den kan vi tegne selv:
 
-	Velg ![Tegn ny bakgrunn](tegn-ny.png) for å tegne en ny
-    bakgrunn. Pass på at du bruker vektorgrafikk, og tegn en stor
+	Velg ![Tegn ny bakgrunn](../../bilder/tegn-ny.png) for å tegne en
+    ny bakgrunn. Pass på at du bruker vektorgrafikk, og tegn en stor
     firkant som dekker hele bakgrunnen. Velg så en mørkeblå
     forgrunnsfarge og en lysere bakgrunnsfarge. Klikk på
     malingsspannet for å fylle firkanten med farge, og velg en
@@ -114,7 +115,7 @@ __Klikk på det grønne flagget.__
 
 + Tegn en ny figur. Bruk sirkelverkøyet til å tegne en liten hvit
   sirkel, fargelegg den deretter slik at den blir helt hvit. Trykk på
-  ![Velg senterpunkt](velg_senterpunkt.png) og pass på at
+  ![Velg senterpunkt](../../bilder/velg_senterpunkt.png) og pass på at
   senterpunktet er satt midt på snøballen. Kall figuren `Snøball`.
 
 + På samme måte som for __Helten__ setter vi først opp noen
@@ -289,8 +290,6 @@ Vi har tidligere laget meldingen `slutt` som sendes ut når __Helten__
 blir tatt av en __Skumling__. Nå vil vi bruke denne til å avslutte
 spillet. Men først, la oss lage en meny og en bakgrunn som forteller
 oss at vi tapte.
-
-## Sjekkliste {.check}
 
 + Klikk på `Scene` til venstre for `Figurer`, og velg
   `Bakgrunner`{.blockgray}-fanen. Lag to kopier av bakgrunnen din og

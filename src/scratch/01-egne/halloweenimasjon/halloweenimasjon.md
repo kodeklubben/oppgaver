@@ -1,8 +1,10 @@
 ---
 title: Halloweenimasjon
+level: 1
 language: nb-NO
 stylesheet: scratch
 embeds: ["halloweenimasjon.jpg", "projiser.html", "*.png", "../../bilder/*.png"]
+author: Torbjørn Skauli
 note: "README.md"
 ---
 
@@ -23,12 +25,12 @@ gardin, et laken eller en vegg under Halloween.
 ## Sjekkliste {.check}
 
 + Start et nytt prosjekt. Slett kattefiguren, ved for eksempel å
-  klikke på ![Slett](slett.png) i menylinjen øverst på skjermen, og
-  deretter på katten.
+  klikke på ![Slett](../../bilder/slett.png) i menylinjen øverst på
+  skjermen, og deretter på katten.
 
 + Velg en ny figur ved å klikke
-  ![Velg figur fra biblioteket](hent-fra-bibliotek.png). Finn et
-  skummelt spøkelse! Vi har brukt `Fantasi/Ghost2`.
+  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png). Finn
+  et skummelt spøkelse! Vi har brukt `Fantasi/Ghost2`.
 
 + Trykk på `i`{.blockblue} øverst til venstre på den nye
   spøkelsesfiguren din. Gi den navnet `Spøkelse`.
@@ -78,8 +80,9 @@ gardin, et laken eller en vegg under Halloween.
   `Scene` helt til venstre på skjermen, og deretter på
   `Bakgrunner`{.blocklightgrey}-fanen nesten øverst på skjermen.
 
-+ Klikk på malingsspannet, ![Fyll med farge](fyll-med-farge.png), og
-  deretter på den hvite bakgrunnen for å male denne svart.
++ Klikk på malingsspannet,
+  ![Fyll med farge](../../bilder/fyll-med-farge.png), og deretter på
+  den hvite bakgrunnen for å male denne svart.
 
 + Gi bakgrunnen navnet `Svart`.
 
@@ -92,8 +95,8 @@ gardin, et laken eller en vegg under Halloween.
 ## Sjekkliste {.check}
 
 + Lag en ny figur ved å klikke
-  ![Velg figur fra biblioteket](hent-fra-bibliotek.png). Vi har brukt
-  `Fantasi/Ghoul`. Endre navnet på figuren til `Demon`.
+  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png). Vi
+  har brukt `Fantasi/Ghoul`. Endre navnet på figuren til `Demon`.
 
 + For at det skal se ut som demonen kommer flyvende mot oss, vil vi at
   den skal starte veldig liten, og deretter bli større. Lag dette
@@ -140,9 +143,9 @@ gardin, et laken eller en vegg under Halloween.
 
 + For å få litt variasjon vil vi at demonen skal animeres over en
   skummel skog-bakgrunn. Klikk på
-  ![Velg en ferdig bakgrunn](bakgrunn-fra-bibliotek.png) helt til
-  venstre på skjermen, og velg bakgrunnen `Utendørs/forest`. Gi
-  bakgrunnen navnet `Skog`.
+  ![Velg en ferdig bakgrunn](../../bilder/bakgrunn-fra-bibliotek.png)
+  helt til venstre på skjermen, og velg bakgrunnen
+  `Utendørs/forest`. Gi bakgrunnen navnet `Skog`.
 
 # Steg 3: Bytte bakgrunner {.activity}
 
@@ -306,8 +309,9 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Lag en ny figur ved å trykke på ![Tegn ny figur](tegn-ny.png) ved
-  siden av `Ny figur`. Du kan tegne hva du vil. Her har vi tegnet et
++ Lag en ny figur ved å trykke på
+  ![Tegn ny figur](../../bilder/tegn-ny.png) ved siden av `Ny
+  figur`. Du kan tegne hva du vil. Her har vi tegnet et
   Jack-O'-Lantern-gresskar.
 
     ![](gresskar.png)

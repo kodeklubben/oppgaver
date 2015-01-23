@@ -1,7 +1,9 @@
 ---
 title: Soloball
+level: 1
 language: nb-NO
 stylesheet: scratch
+author: Geir Arne Hjelle
 embeds: ["*.png", "../../bilder/*.png"]
 note: "README.md"
 ---
@@ -105,8 +107,8 @@ annerledes. Skjønner du hvorfor?
 Når vi sier at katten skal `peke mot musepekeren`{.blockblue} må den
 rotere rundt et punkt. Dette punktet kalles senterpunktet til figuren,
 og du kan se (og endre) senterpunktet til en figur ved å klikke på
-![Velg senterpunkt](velg_senterpunkt.png) øverst til høyre på
-skjermen.
+![Velg senterpunkt](../../bilder/velg_senterpunkt.png) øverst til
+høyre på skjermen.
 
 Når vi flytter senterpunktet utenfor katten vil det se ut som om
 katten løper rundt dette punktet i stedet for at den bare roterer uten
@@ -122,15 +124,16 @@ katten løper rundt dette punktet i stedet for at den bare roterer uten
 + Klikk på `Skript`{.blocklightgrey}-fanen slik at du ser skriptet du
   skrev tidligere.
 
-+ Klikk på ![Velg figur fra biblioteket](hent-fra-bibliotek.png) ved
-  siden av `Ny figur` under scenen for å hente en ny figur.
++ Klikk på
+  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)
+  ved siden av `Ny figur` under scenen for å hente en ny figur.
 
 + Hvis du klikker kategorien `Ting` til venstre på skjermen vil du se
   flere baller. Velg en av dem.
 
 + Vi skal nå se en annen måte å gjøre figurer mindre på. Klikk
-  ![Krymp](krymp.png) øverst på skjermen. Klikk deretter på
-  ballfiguren noen ganger slik at den er passe stor i forhold til
+  ![Krymp](../../bilder/krymp.png) øverst på skjermen. Klikk deretter
+  på ballfiguren noen ganger slik at den er passe stor i forhold til
   katten.
 
 + Nå lager vi et program for ballen. Vi vil at ballen skal starte midt
@@ -182,8 +185,8 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 + Vi skal nå lage en figur som vi tegner selv. For å gjøre dette
-  klikker du ![Tegn ny figur](tegn-ny.png) ved siden av `Ny figur`
-  under scenen.
+  klikker du ![Tegn ny figur](../../bilder/tegn-ny.png) ved siden av
+  `Ny figur` under scenen.
 
 + Klikk på `Bytt til vektorgrafikk` nederst til høyre på skjermen.
 
@@ -292,7 +295,7 @@ til ballen, siden koden tilhører ballfiguren.  Så langt har vi brukt
 
 ```blocks
     pek i retning ((180) + (retning))
----
+```
 
 for at ballen skal snu. I figuren ser vi at dette betyr at ballen
 spretter tilbake der den kom i fra.
@@ -304,13 +307,13 @@ nye retningen
 
 ```blocks
     (((180) + (retning)) - ((2) * ((retning) - ([retning v] av [Katt v])))
----
+```
 
 Vi kan forenkle dette til
 
 ```blocks
     (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
----
+```
 
 + Endre i skriptet til ballen slik at spretten blir bedre,
 
@@ -401,7 +404,7 @@ Hastigheten på ballen styres nå av klossen
 
 ```blocks
     gå (3) steg
----
+```
 
 Ved å endre på `3`-tallet endrer vi hastigheten på ballen. Prøv dette
 selv!
