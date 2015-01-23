@@ -1,8 +1,8 @@
 ---
 title: Hendelser
-level: 1.3
+level: 2
 language: nb-NO
-embeds: ["*.png", "../../bilder/*.png"]
+author: Geir Arne Hjelle
 ---
 
 # Introduksjon {.intro}
@@ -23,7 +23,7 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
 
 ## Sjekkliste {.check}
 
-+ Start på et nytt program ved å skrive `edit skattejakt`, skriv inn
++ Start et nytt program ved å skrive `edit skattejakt`, skriv inn
   det følgende:
 
 	```lua
@@ -66,9 +66,9 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
     for oss nå, men kan være nyttig i andre programmet om man lytter
     på flere forskjellige hendelser.
 
-	Tallet vi fikk er derimot veldig viktig. Hver tast på tastatur har
-    sin egen tastekode. Prøv å kjøre programmet flere ganger, ser du
-    at om du trykker samme tast får du samme tall tilbake. For
+	Tallet vi fikk er derimot veldig viktig. Hver tast på tastaturet
+    har sin egen tastekode. Prøv å kjøre programmet flere ganger, ser
+    du at om du trykker samme tast får du samme tall tilbake. For
     eksempel er `A` alltid 30, mens `pil opp` alltid er 200.
 
 + Vi trenger heldigvis ikke huske disse kodene. Biblioteket `keys`
@@ -237,7 +237,7 @@ se på noen enkle kommandoer for å kopiere og flytte filer.
   for *change directory* som betyr *endre katalog*). Skriv
   `cd mine_programmer`. Du vil se at det som står foran `>` endrer seg
   for å vise deg hvilken katalog du er i. Prøv også å skriv `dir` for å
-  bekrefte at du er i samme katalogen som **skattejakt*.
+  bekrefte at du er i samme katalogen som **skattejakt**.
 
     For å gå tilbake en katalog bruker du det spesielle navnet
     **..**. Skriv `cd ..`. Du vil nå komme tilbake til utgangspunktet.
@@ -313,10 +313,10 @@ tryggere.
   heter `os.pullEventRaw`. Disse fungerer omtrent på samme måte, men
   den siste bryr seg ikke om `Ctrl-T`.
 
-	Skriv `edit startup` og legg til en linje øverst i koden din: 
+	Skriv `edit startup` og legg til en linje øverst i koden din:
 
     ```lua
-	os.pullEvent = os.pullEventRaw
+	os.pullEvent = os.pullEventRaw                -- ny linje
 	local passord = 'kodeklubben'
 
     while true do
@@ -377,7 +377,7 @@ flytte filer mellom forskjellige datamaskiner.
 + Vi kan nå ta med oss dette programmet til en annen datamaskin:
 
 	1 Steng datamaskinen.
-	
+
 	2 Åpne diskettstasjonen, og flytt disketten til inventory'et ditt.
 
 	3 Lag en ny datamaskin, også denne med en diskettstasjon inntil
@@ -431,11 +431,11 @@ gjøre følgende (utenfor Minecraft):
 + __Windows__: Under Windows finner du *Minecraft*-katalogen under
   `%appdata%\.minecraft`. Søk etter `%appdata%` i en utforsker eller i
   kjør-feltet etter å ha klikket start-knappen.
-      
+
 + __Mac OS X__: Under Mac ligger *Minecraft*-katalogen i
   `Library/Application Support/minecraft/` under hjemmekatalogen
   din. På norsk heter `Library` `Bibliotek`.
-      
+
 + __Linux__: På Linux finner du *Minecraft*-katalogen som en skjult
   katalog `.minecraft` rett under hjemmekatalogen din.
 
@@ -612,7 +612,7 @@ datamaskin, men har noen ekstra muligheter.
 		end                                       -- ny linje
 	end
 	```
-	
+
 ### Prøv selv {.try}
 
 Kan du legge til farger i tegneprogrammet? Se tilbake på

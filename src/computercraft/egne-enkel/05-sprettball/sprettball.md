@@ -1,8 +1,8 @@
 ---
 title: Sprettball
-level: 1.5
+level: 3
 language: nb-NO
-embeds: ["*.png", "../../bilder/*.png"]
+author: Geir Arne Hjelle
 ---
 
 # Introduksjon {.intro}
@@ -262,7 +262,7 @@ ballen flytter på seg.
 		local bredde, hoyde = skjerm.getSize()
 		local X, Y = 1, 2                         -- ny linje
 		local fartX, fartY = 1, 1                 -- ny linje
-		
+
 		while true do                             -- endret linje
 			skjerm.clear()
 			skjerm.setCursorPos(X, Y)             -- endret linje
@@ -286,7 +286,7 @@ ballen flytter på seg.
 		local bredde, hoyde = skjerm.getSize()
 		local X, Y = 1, 2
 		local fartX, fartY = 1, 1
-		
+
 		while true do
 			skjerm.clear()
 			skjerm.setCursorPos(X, Y)
@@ -598,7 +598,7 @@ animerer teksten slik at den ruller over skjermen.
 		local bredde, hoyde = skjerm.getSize()
 		local luft = string.rep(" ", bredde)      -- ny linje
 		tekst = luft .. tekst .. luft             -- ny linje
-		
+
 		local lengde = #tekst
 		while true do
 			for i = 0, lengde - bredde do
@@ -613,9 +613,5 @@ animerer teksten slik at den ruller over skjermen.
 		print("Ingen skjerm er koblet til")
 	end
 	```
-	
+
 	Pass på at det er et mellomromstegn i `string.rep(" ", bredde)`.
-
-# Steg 8: Whack-a-ball {.activity}
-
-

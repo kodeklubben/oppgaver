@@ -1,5 +1,5 @@
 Egenutviklede oppgaver i ComputerCraft
-========
+======================================
 
 Dette oppgavesettet inneholder oppgaver utviklet av kodeklubben. Disse
 oppgavene er tilpasset en introduksjon til programmering gjennom bruk
@@ -81,21 +81,21 @@ Mål     \     Leksjon                 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
 Kommandolinjen                        | X | X | X |   |   |   |   |   |  
 Interaktiv lua-tolker                 | X | X | X |   |   |   |   |   |  
 Editering av programmer               | X | X | X |   |   |   |   |   |  
-Filsystemet                           |   |   |   | X |   |   |   |   | 
-Variabler                             | / | / | / |   |   |   |   |   | 
-If-tester                             | / | / | / |   |   | X |   |   | 
-For-løkker                            | / | / | / |   | X |   |   |   | 
-While-løkker                          | / | / | / |   |   | X |   |   | 
-Funksjoner                            |   |   |   |   | X |   |   |   | 
-Hendelser (os.pullEvent)              |   |   |   | / |   |   |   |   | 
-Typer (strings, numbers, bools, etc)  |   |   |   |   |   |   |   |   | 
-Matematiske operasjoner               |   |   |   |   |   |   |   |   | 
-Relasjonelle og logiske operatorer    |   |   |   |   |   |   |   |   | 
+Filsystemet                           |   |   |   | X |   |   |   |   |
+Variabler                             | / | / | / |   |   |   |   |   |
+If-tester                             | / | / | / |   |   | X |   |   |
+For-løkker                            | / | / | / |   | X |   |   |   |
+While-løkker                          | / | / | / |   |   | X |   |   |
+Funksjoner                            |   |   |   |   | X |   |   |   |
+Hendelser (os.pullEvent)              |   |   |   | / |   |   |   |   |
+Typer (strings, numbers, bools, etc)  |   |   |   |   |   |   |   |   |
+Matematiske operasjoner               |   |   |   |   |   |   |   |   |
+Relasjonelle og logiske operatorer    |   |   |   |   |   |   |   |   |
 Iteratorer                            |   |   |   |   |   |   |   |   |  
 Lokal og global scope                 |   |   |   |   |   |   |   |   |  
-Rekursjon                             |   |   |   |   |   |   |   |   |   
-Data-strukturer (tables)              |   |   |   |   |   |   |   |   | 
-Debugging                             |   |   |   |   |   |   |   |   | 
+Rekursjon                             |   |   |   |   |   |   |   |   |
+Data-strukturer (tables)              |   |   |   |   |   |   |   |   |
+Debugging                             |   |   |   |   |   |   |   |   |
 
 Også denne tabellen er for tiden under utarbeidelse. Sannsynligvis vil
 ikke alle disse målene bli dekt i dette introduksjonskurset. Det vil

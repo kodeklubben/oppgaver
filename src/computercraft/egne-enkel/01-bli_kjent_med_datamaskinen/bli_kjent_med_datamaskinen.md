@@ -1,8 +1,8 @@
 ---
 title: Bli Kjent med Datamaskinen
-level: 1.1
+level: 1
 language: nb-NO
-embeds: ["*.png", "../../bilder/*.png"]
+author: Geir Arne Hjelle
 ---
 
 # Introduksjon {.intro}
@@ -39,8 +39,8 @@ slik at du kan ta den på hånden. Lukk inventory'et.
 + Bruk talltastene til å velge datamaskinen, og høyreklikk for å lage
 en datamaskin.
 
-I *Creative Mode* kan du også få tak i datamaskiner ved å trykke 'E',
-deretter klikke '>' for å gå til neste side, og til slutt velge fanen
+I *Creative Mode* kan du også få tak i datamaskiner ved å trykke `E`,
+deretter klikke `>` for å gå til neste side, og til slutt velge fanen
 med datamaskinsymbolet.
 
 ### ComputerCraft datamaskiner {.protip}
@@ -82,7 +82,7 @@ heter `heiverden`.
 + I det nye vinduet, skriv
 
     ```lua
-        print('Hei verden!')
+    print('Hei verden!')
     ```
 
     Etter at du har skrevet dette så trykker du på *Ctrl*-tasten og
@@ -423,5 +423,3 @@ Alle kan vi skrive feil passord innimellom. Det er kanskje bedre å
 ikke aktivere fellen før noen svarer galt passord tre ganger på rad?
 Innfør en variabel som teller hvor mange feil passord som er
 skrevet. Aktiver fellen om tre gale passord skrives på rad.
-
-
