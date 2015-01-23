@@ -3,7 +3,6 @@ title: Bygg et Hus
 level: 2
 language: nb-NO
 author: Geir Arne Hjelle
-embeds: ["*.png", "../../bilder/*.png"]
 ---
 
 # Introduksjon {.intro}
@@ -172,7 +171,7 @@ etterhvert som du skriver det inn.
 	```lua
 	local hoyde = 3                               -- ny linje
 	local lengde = 5                              -- ny linje
-	
+
 	for j = 1, hoyde do                           -- endret linje
 		turtle.up()
 		for i = 1, lengde do                      -- endret linje
@@ -213,7 +212,7 @@ kan bruke på samme måte som de innebygde kommandoene (som for eksempel
 	function byggVegg()                           -- ny linje
 		local hoyde = 3
 		local lengde = 5
-	
+
 		for j = 1, hoyde do
 			turtle.up()
 			for i = 1, lengde do
@@ -413,7 +412,7 @@ vil den bare bruke en av dem. Ved hjelp av funksjonene
 		turtle.turnLeft()
 	end
 	```
-	
+
 	Les nøye gjennom den nye funksjonen `plasser()`. Skjønner du hva
     den gjør?
 

@@ -3,7 +3,6 @@ title: Hendelser
 level: 2
 language: nb-NO
 author: Geir Arne Hjelle
-embeds: ["*.png"]
 ---
 
 # Introduksjon {.intro}
@@ -314,7 +313,7 @@ tryggere.
   heter `os.pullEventRaw`. Disse fungerer omtrent på samme måte, men
   den siste bryr seg ikke om `Ctrl-T`.
 
-	Skriv `edit startup` og legg til en linje øverst i koden din: 
+	Skriv `edit startup` og legg til en linje øverst i koden din:
 
     ```lua
 	os.pullEvent = os.pullEventRaw                -- ny linje
@@ -378,7 +377,7 @@ flytte filer mellom forskjellige datamaskiner.
 + Vi kan nå ta med oss dette programmet til en annen datamaskin:
 
 	1 Steng datamaskinen.
-	
+
 	2 Åpne diskettstasjonen, og flytt disketten til inventory'et ditt.
 
 	3 Lag en ny datamaskin, også denne med en diskettstasjon inntil
@@ -432,11 +431,11 @@ gjøre følgende (utenfor Minecraft):
 + __Windows__: Under Windows finner du *Minecraft*-katalogen under
   `%appdata%\.minecraft`. Søk etter `%appdata%` i en utforsker eller i
   kjør-feltet etter å ha klikket start-knappen.
-      
+
 + __Mac OS X__: Under Mac ligger *Minecraft*-katalogen i
   `Library/Application Support/minecraft/` under hjemmekatalogen
   din. På norsk heter `Library` `Bibliotek`.
-      
+
 + __Linux__: På Linux finner du *Minecraft*-katalogen som en skjult
   katalog `.minecraft` rett under hjemmekatalogen din.
 
@@ -613,7 +612,7 @@ datamaskin, men har noen ekstra muligheter.
 		end                                       -- ny linje
 	end
 	```
-	
+
 ### Prøv selv {.try}
 
 Kan du legge til farger i tegneprogrammet? Se tilbake på

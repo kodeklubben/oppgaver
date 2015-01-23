@@ -3,7 +3,6 @@ title: Bli Kjent med Datamaskinen
 level: 1
 language: nb-NO
 author: Geir Arne Hjelle
-embeds: ["*.png"]
 ---
 
 # Introduksjon {.intro}
@@ -424,5 +423,3 @@ Alle kan vi skrive feil passord innimellom. Det er kanskje bedre å
 ikke aktivere fellen før noen svarer galt passord tre ganger på rad?
 Innfør en variabel som teller hvor mange feil passord som er
 skrevet. Aktiver fellen om tre gale passord skrives på rad.
-
-

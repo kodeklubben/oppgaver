@@ -3,7 +3,6 @@ title: Introduksjon til ComputerCraft
 level: 1
 language: nb-NO
 author: Geir Arne Hjelle
-embeds: ["*.png", "../01-bli_kjent_med_datamaskinen/*.png", "../02-robotinvasjon/*.png"]
 ---
 
 # Introduksjon {.intro}
@@ -364,7 +363,7 @@ __Chest__ og 1 __Computer__.
 + Start et __Crafting table__, og lag en robot slik:
 
     ![](../02-robotinvasjon/craft_turtle.png)
-    
+
 + Legg den nye roboten i hånden din. Lukk inventory'et og lag en
 robot.
 
@@ -397,12 +396,12 @@ høyreklikke på dem. Dette vil starte kommandolinjen til roboten.
     sammenligner med programmene en datamaskin kjenner til vil du se
     at det er mange av de samme programmene, men at roboten også kan
     noen ting som datamaskinen ikke kan.
-    
+
 + Kjør programmet `dance`.
 
     Roboten begynner nå å danse! Trykk *Esc*-knappen for å stenge
     kommandolinjen, slik at du ser roboten. Blir du imponert?
-    
+
 + Hvis du vil at roboten skal slutte å danse kan du høyreklikke på den
 igjen. I kommandolinjen står det nå en liten tekst som sier at du kan
 få roboten til å slutte å danse ved å trykke en knapp på tastaturet.
@@ -423,12 +422,12 @@ for nesten 70 år siden. Dette gjør vi ved å bruke programmet `go` for
 
 + Kjør programmet `go forward` i kommandolinjen til en robot.
 
-+ Roboten sier at den er `Out of fuel`. 
++ Roboten sier at den er `Out of fuel`.
 
     Roboter bruker *fuel* for å bevege seg. De kan bruke stort sett
     samme materiale som en __Furnace__ som fuel, for eksempel er
     __Coal__ eller __Blaze Rod__ fine å bruke.
-    
+
 + Finn litt __Coal__ i inventory'et ditt. Høyreklikk på roboten. Legg
 merke til at det er et inventory med 16 plasser (4 ganger 4) på høyre
 side. Dette er robotens inventory. Flytt kullet over til roboten.
@@ -441,12 +440,12 @@ side. Dette er robotens inventory. Flytt kullet over til roboten.
     inventory. Roboten svarer også ved å fortelle om sin *fuel
     level*. Dette tallet forteller hvor langt roboten kan bevege seg
     før den går tom for fuel igjen.
-    
+
 + Gi roboten litt mer __Coal__ og skriv `refuel all`.
 
     Roboten vil nå spise opp alt kullet, og deretter rapportere at den
     er klar til å gå ganske så langt!
-    
+
 + Da prøver vi igjen: Kjør programmet `go forward`. Dette skal flytte
 roboten forover ett steg.
 
@@ -454,7 +453,7 @@ roboten forover ett steg.
     er fram og bak på en robot. Et triks kan være å tenke på den
     lange, smale sprekken som øynene til roboten. Altså at den siden
     med sprekken er foran.
-    
+
 + Vi kan få roboten til å flytte seg bakover ved å skrive `go back`.
 
 ### Finne hjelp {.protip}
@@ -478,11 +477,11 @@ starte er ComputerCraft Wiki'en: <http://computercraft.info/wiki/>.
     `go down`, `go left` og `go right` for å flytte roboten rundt. I
     tillegg ser vi at vi kan bruke tall for at roboten skal flytte seg
     flere steg.
-    
+
 + Prøv `go up 2`, `go forward 10`, `go down` og lignende kommandoer.
 
     Hvordan kan vi få roboten til å bevege seg sidelengs?
-    
+
 + Det finnes ingen kommando som får roboten til å bevege seg
 sidelengs. Kommandoene `go left` og `go right` bare snur roboten. For
 å få roboten til å gå sidelengs må vi derfor først snu roboten, og
@@ -498,7 +497,7 @@ den løfter seg 2 steg oppover.
 roboten rundt omkring. Dersom du synes `go left` og `go right` er litt
 forvirrende siden roboten ikke går noe sted, kan du bruke `turn left`
 og `turn right` i stedet.
-	
+
 	Hva skjer dersom du ber roboten gå gjennom bakken, gjennom en
     vegg, eller om du står i veien for roboten?
 
@@ -520,7 +519,7 @@ og plukke ut en __Mining Turtle__. Lag og start en gruverobot.
 ut*. og vil be roboten om å grave ut et hull i bakken.
 
     Skriv `excavate 3` og trykk enter.
-    
+
     Ta et steg tilbake og se på mens roboten graver. Roboten vil
     fortsette å grave til den går tom for fuel eller kommer til
     grunnfjellet, __Bedrock__.
@@ -556,10 +555,10 @@ kommandoer fra `turtle`-biblioteket.
     Du får nå se en ganske lang liste med kommandoer som vi kan
     bruke. Vi vil vise frem noen av disse. Du kan senere teste alle
     sammen på egen hånd, og se om du skjønner hvordan de alle virker.
-	
+
 	For å komme ut av listen kan du for eksempel holde mellomromtasten
 	nede en liten stund.
-    
+
 + For å gjøre enkle eksperimenter vil vi begynne med å skrive
 kommandoene direkte i Lua-tolkeren. Skriv `lua` og trykk enter. Husk
 at du skriver `exit()` for å gå ut av Lua-tolkeren og tilbake til
@@ -571,7 +570,7 @@ kommandolinjen.
     Husk at du kan trykke *Esc*-knappen for enklere å se hva roboten
     gjør. Høyreklikk på roboten for å komme tilbake til
     Lua-tolkeren.
-    
+
 + Prøv også de følgende kommandoene. Disse tilsvarer `go`-programmet,
 og til sammen gir de oss muligheten til å flytte roboten dit vi vil ha
 den:
@@ -586,7 +585,7 @@ under. Klarer du å bruke `turtle`-kommandoene over til å plassere
 roboten på toppen av klossen?
 
 ![](../02-robotinvasjon/flytt_robot_oppgave.png)
-    
+
 # Steg 9: Up, up, up, and away ... {.activity}
 
 *Kan vi klare å få roboten til å bygge for oss?*
@@ -610,27 +609,27 @@ inne i Lua-tolkeren.
     1 - at du har startet `lua`,
 
     2 - at roboten har fuel,
-    
+
     3 - at roboten har byggemateriale,
-    
+
     4 - at det ikke står noe foran roboten (husk at den smale sprekken
     er øynene til roboten), og
-    
+
     5 - at boksen med byggemateriale i robotens inventory er merket, det
     vil si at den har en litt tykkere ramme rundt seg enn de andre
     boksene.
-	
+
 + Roboten kan også sjekke om den har noe foran seg: Skriv
 `turtle.detect()`.
 
 	Du skal få svaret `true` som betyr at roboten merker at den har
 	noe foran seg.
-	
+
 + Prøv så `turtle.back()` etterfulgt av `turtle.detect()`.
 
 	Siden roboten nå ikke har noe rett foran seg får du svaret
 	`false`.
-	
+
 I Steg 10 skal vi se hvordan vi kan bruke `place()` og `detect()`
 sammen for å lage en ganske smart byggerobot.
 
@@ -644,13 +643,13 @@ fungerer ikke med `turtle`-biblioteket. I stedet må vi bruke løkker.
 `for`-løkker.
 
     Skriv
-	
+
 	```lua
 	for i = 1, 5 do turtle.back(); end
 	```
-	
+
 	i Lua-tolkeren. Flytter roboten din seg 5 steg bakover?
-	
+
 ### `for`-løkker {.protip}
 
 En `for`-løkke brukes ofte når vi vet hvor mange ganger vi vil gjøre
@@ -662,7 +661,7 @@ vi skrive
 ```lua
 for i = 1, 5 do print(i); end
 ```
-	
+
 Dette vil skrive tallene 1, 2, 3, 4, 5 til skjermen på hver sin linje.
 
 Vi kan også bruke andre variabelnavn enn `i`, og vi kan starte på
@@ -673,12 +672,12 @@ for tall = 10, 20 do print(tall); end
 ```
 
 ## Sjekkliste {.check}
-	
+
 + Hvis vi vil kombinere flere kommandoer inne i en løkke i
 Lua-tolkeren bruker vi semikolon, `;`.
 
     Prøv
-	
+
 	```lua
 	for i = 1, 5 do turtle.back(); turtle.place(); end
 	```
@@ -689,7 +688,7 @@ __Grass__, i den merkede boksen i inventory'et sitt.
 + La oss bygge et høyt tårn!
 
     Skriv
-	
+
 	```lua
 	for i = 1, 60 do turtle.up(); turtle.place(); end
 	```
@@ -728,16 +727,16 @@ følgende:
     ```lua
 	turtle.detect()
 	```
-	
+
 	Lagre og avslutt ved å bruke *Ctrl*-tasten.
-	
+
 + Kjør programmet ved å skrive `byggTrapp`. Dette programmet bygger
 ingen trapp enda, det virker faktisk som om det ikke gjør noe som
 helst. Det eneste som skjer er at roboten merker at den har en kloss
 foran seg. Men vi har ikke fortalt den hva den skal gjøre etterpå.
 
     Vi kan bruke `turtle.detect()` til å finne toppen av tårnet.
-	
+
 + Endre på programmet ditt ved å skrive `edit byggTrapp` igjen. Vi
 lager nå en løkke hvor roboten klatrer oppover så lenge den merker at
 tårnet er høyere.
@@ -747,10 +746,10 @@ tårnet er høyere.
 	    turtle.up()                               -- ny linje
 	end                                           -- ny linje
 	```
-	
+
 	Lagre og kjør programmet ditt. Klatrer roboten til toppen av det
 	lille tårnet?
-	
+
 + Vi har lært av feilen vi gjorde tidligere, så nå vil vi passe på at
 roboten kommer ned igjen. La oss legge til en ny løkke i programmet,
 slik at roboten klatrer ned. Denne gangen bruker vi kommandoen
@@ -758,20 +757,20 @@ slik at roboten klatrer ned. Denne gangen bruker vi kommandoen
 den merker om roboten har en kloss under seg i stedet for foran seg.
 
     Utvid programmet ditt slik:
-	
+
 	```lua
 	while turtle.detect() do
 	    turtle.up()
 	end
-	
+
 	while not turtle.detectDown() do              -- ny linje
 		turtle.down()                             -- ny linje
 	end                                           -- ny linje
 	```
-	
+
 	Vi sier at så lenge roboten *ikke* har en kloss under seg kan den
 	ta et steg ned. Kommer roboten ned igjen når du kjører programmet?
-	
+
 + Nå er vi klar til å la roboten bygge selve trappen. Det gjør vi ved
 å ta et steg tilbake i den andre løkken, og plassere ut en kloss.
 
@@ -786,17 +785,17 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
 		turtle.place()                            -- ny linje
 	end
 	```
-	
+
 	Virker det? Lager roboten en trapp?
-	
+
 + Nå er vi klare for den store testen. Klarer vi å sende
 trappebyggeroboten vår opp det høye tårnet?
 
     Pass på at roboten fortsatt har nok fuel, og fyll opp med
     byggemateriale. Kjør den bort til det høye tårnet, og la den `byggTrapp`!
-	
+
 	![](../02-robotinvasjon/byggtrapp.png)
-	
+
 Gratulerer! Du har nå programmert en robot! Legg merke til at siden
 `byggTrapp`-programmet vårt bruker `detect`-kommandoer kan det bygge
 trapper opp alle slags tårn og bratte fjellsider!
