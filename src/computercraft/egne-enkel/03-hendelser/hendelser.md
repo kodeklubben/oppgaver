@@ -1,8 +1,9 @@
 ---
 title: Hendelser
-level: 1.3
+level: 2
 language: nb-NO
-embeds: ["*.png", "../../bilder/*.png"]
+author: Geir Arne Hjelle
+embeds: ["*.png"]
 ---
 
 # Introduksjon {.intro}
@@ -23,7 +24,7 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
 
 ## Sjekkliste {.check}
 
-+ Start på et nytt program ved å skrive `edit skattejakt`, skriv inn
++ Start et nytt program ved å skrive `edit skattejakt`, skriv inn
   det følgende:
 
 	```lua
@@ -66,9 +67,9 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
     for oss nå, men kan være nyttig i andre programmet om man lytter
     på flere forskjellige hendelser.
 
-	Tallet vi fikk er derimot veldig viktig. Hver tast på tastatur har
-    sin egen tastekode. Prøv å kjøre programmet flere ganger, ser du
-    at om du trykker samme tast får du samme tall tilbake. For
+	Tallet vi fikk er derimot veldig viktig. Hver tast på tastaturet
+    har sin egen tastekode. Prøv å kjøre programmet flere ganger, ser
+    du at om du trykker samme tast får du samme tall tilbake. For
     eksempel er `A` alltid 30, mens `pil opp` alltid er 200.
 
 + Vi trenger heldigvis ikke huske disse kodene. Biblioteket `keys`
@@ -237,7 +238,7 @@ se på noen enkle kommandoer for å kopiere og flytte filer.
   for *change directory* som betyr *endre katalog*). Skriv
   `cd mine_programmer`. Du vil se at det som står foran `>` endrer seg
   for å vise deg hvilken katalog du er i. Prøv også å skriv `dir` for å
-  bekrefte at du er i samme katalogen som **skattejakt*.
+  bekrefte at du er i samme katalogen som **skattejakt**.
 
     For å gå tilbake en katalog bruker du det spesielle navnet
     **..**. Skriv `cd ..`. Du vil nå komme tilbake til utgangspunktet.
@@ -316,7 +317,7 @@ tryggere.
 	Skriv `edit startup` og legg til en linje øverst i koden din: 
 
     ```lua
-	os.pullEvent = os.pullEventRaw
+	os.pullEvent = os.pullEventRaw                -- ny linje
 	local passord = 'kodeklubben'
 
     while true do

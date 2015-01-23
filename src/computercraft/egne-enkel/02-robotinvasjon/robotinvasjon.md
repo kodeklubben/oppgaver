@@ -1,8 +1,9 @@
 ---
 title: Robotinvasjon
-level: 1.2
+level: 1
 language: nb-NO
-embeds: ["*.png", "../../bilder/*.png"]
+author: Geir Arne Hjelle
+embeds: ["*.png"]
 ---
 
 # Introduksjon {.intro}
@@ -50,7 +51,7 @@ Senere ble måten disse skilpaddene beveget seg på (vi skal se hvordan
 snart) tatt inn i forskjellige programmeringsspråk, spesielt som en
 måte å tegne på. Språket *Logo* er nok det som er mest kjent for slik
 skilpaddegrafikk, men nesten alle programmeringsspråk støtter dette i
-dag, inkludert for eksempel *Scratch* og *Python*.
+dag, inkludert for eksempel *Scratch*, *Python* og *ComputerCraft*.
 
 ## Sjekkliste {.check}
 
@@ -232,20 +233,16 @@ kommandolinjen.
 + Prøv også de følgende kommandoene. Til sammen gir de oss muligheten
 til å flytte roboten dit vi vil ha den:
 
-    ```lua
-    turtle.forward()
-    turtle.back()
-    turtle.turnLeft()
-    turtle.turnRight()
-    turtle.up()
-    turtle.down()
-    ```
-    
-+ Lag en liten kloss litt unna roboten din, omtrent som på bildet
-under. Klarer du å bruke kommandoene over til å plassere roboten på
-toppen av klossen?
+    `turtle.forward()`, `turtle.back()`, `turtle.turnLeft()`,
+    `turtle.turnRight()`, `turtle.up()`, `turtle.down()`.
 
-    ![](flytt_robot_oppgave.png)
+### Prøv selv {.try}
+
+Lag en liten kloss litt unna roboten din, omtrent som på bildet
+under. Klarer du å bruke `turtle`-kommandoene over til å plassere
+roboten på toppen av klossen?
+
+![](flytt_robot_oppgave.png)
     
 # Steg 5: Up, up, up, and away ... {.activity}
 
@@ -267,14 +264,16 @@ inne i Lua-tolkeren.
     Bygde roboten en gresskloss foran seg? Da har du gjort alt
     riktig. Hvis dette ikke skjedde kan du sjekke
 
-    1 - at roboten har fuel,
+    1 - at du har startet `lua`,
+
+    2 - at roboten har fuel,
     
-    2 - at roboten har byggemateriale,
+    3 - at roboten har byggemateriale,
     
-    3 - at det ikke står noe foran roboten (husk at den smale sprekken
+    4 - at det ikke står noe foran roboten (husk at den smale sprekken
     er øynene til roboten), og
     
-    4 - at boksen med byggemateriale i robotens inventory er merket, det
+    5 - at boksen med byggemateriale i robotens inventory er merket, det
     vil si at den har en litt tykkere ramme rundt seg enn de andre
     boksene.
 	

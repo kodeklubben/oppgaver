@@ -1,7 +1,8 @@
 ---
 title: Sprettball
-level: 1.5
+level: 3
 language: nb-NO
+author: Geir Arne Hjelle
 embeds: ["*.png", "../../bilder/*.png"]
 ---
 
@@ -615,7 +616,5 @@ animerer teksten slik at den ruller over skjermen.
 	```
 	
 	Pass på at det er et mellomromstegn i `string.rep(" ", bredde)`.
-
-# Steg 8: Whack-a-ball {.activity}
 
 

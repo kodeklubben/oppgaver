@@ -1,7 +1,8 @@
 ---
 title: Bygg et Hus
-level: 1.4
+level: 2
 language: nb-NO
+author: Geir Arne Hjelle
 embeds: ["*.png", "../../bilder/*.png"]
 ---
 
@@ -61,7 +62,7 @@ bruke forskjellige variabler, det vil si at du må bytte ut `i` men
 andre bokstaver eller variabelnavn i de andre løkkene du lager.
 
 For å lage dør eller vinduer i huset ditt vil det enkleste være å
-bruke `if`-tester for å sjekke hvor på huset roboten bygger
+bruke `if`-tester for å sjekke hvor på huset roboten bygger.
 
 ## Sjekkliste {.check}
 
@@ -80,8 +81,8 @@ konsepter som gjør at programmet blir både kraftigere og enklere.
 
 Et problem du kanskje allerede har oppdaget er at roboten innimellom
 krasjer i ting, og derfor ender opp litt andre steder enn du hadde
-tenkt. Et eksempel på dette er i den følgende koden, som er ment å
-bygge grunnmuren til et hus.
+tenkt. Et eksempel på dette er i den følgende koden, hvor meningen var
+å bygge grunnmuren til et hus.
 
 ## Sjekkliste {.check}
 
@@ -169,8 +170,8 @@ etterhvert som du skriver det inn.
   også gjøre det enklere for oss å endre størrelsen på veggen senere.
 
 	```lua
-	local hoyde = 3                                     -- ny linje
-	local lengde = 5                                    -- ny linje
+	local hoyde = 3                               -- ny linje
+	local lengde = 5                              -- ny linje
 	
 	for j = 1, hoyde do                           -- endret linje
 		turtle.up()
@@ -187,7 +188,8 @@ etterhvert som du skriver det inn.
 
 	Legg merke til at vi skriver `hoyde` med `o` og ikke med
     `ø`. Siden ComputerCraft er et engelsk programmeringsspråk kan
-    ikke variabler ha navn de norske bokstavene æ, ø og å.
+    ikke variabler ha navn som inneholder de norske bokstavene æ, ø og
+    å.
 
 ### Prøv selv {.try}
 
@@ -288,7 +290,7 @@ bygge et enkelt hus. La oss prøve å sette sammen fire vegger!
 
 	Hva skjer når du kjører programmet ditt?
 
-![](firevegger.png)
+    ![](firevegger.png)
 
 + Hmm ... det ble jo litt stilig, men et hus er det definitivt
   ikke. Problemet er at vi ikke har tenkt gjennom hvor roboten er
@@ -429,7 +431,7 @@ vil den bare bruke en av dem. Ved hjelp av funksjonene
   byggemateriale? Den blir da bare stående å vente på at du skal fylle
   den opp med nytt materiale.
 
-![](flerefarger.png)
+    ![](flerefarger.png)
 
 ### Prøv selv {.try}
 

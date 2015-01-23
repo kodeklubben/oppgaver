@@ -1,7 +1,8 @@
 ---
 title: Introduksjon til ComputerCraft
-level: Intro
+level: 1
 language: nb-NO
+author: Geir Arne Hjelle
 embeds: ["*.png", "../01-bli_kjent_med_datamaskinen/*.png", "../02-robotinvasjon/*.png"]
 ---
 
@@ -38,18 +39,18 @@ Minecraft:
 __Redstone__ og 1 __Glass pane__.
 + Åpne et __Crafting table__, og legg ut materialet slik:
 
-    ![](craft_computer.png)
+    ![](../01-bli_kjent_med_datamaskinen/craft_computer.png)
 
 + Legg den nye datamaskinen i den nederste raden i inventory'et ditt,
 slik at du kan ta den på hånden. Lukk inventory'et.
 + Bruk talltastene til å velge datamaskinen, og høyreklikk for å lage
 en datamaskin.
 
-I *Creative Mode* kan du også få tak i datamaskiner ved å trykke 'E',
-deretter klikke '>' for å gå til neste side, og til slutt velge fanen
+I *Creative Mode* kan du også få tak i datamaskiner ved å trykke `E`,
+deretter klikke `>` for å gå til neste side, og til slutt velge fanen
 med datamaskinsymbolet.
 
-### ComputerCraft datamaskiner {.protip}
+### ComputerCraft-datamaskiner {.protip}
 
 Høyreklikk en datamaskin for å starte den opp. Den vil åpne en svart
 skjerm med teksten `CraftOS` på toppen. Dette er
@@ -134,13 +135,13 @@ Vi vil bruke __Redstone__ for å kontrollere døren. Redstone er et
 materiale som kan overføre energi i Minecraft. La oss først sette opp
 en datamaskin ved siden av en dør.
 
-+ Gå ut av datamaskinen ved å trykke *Esc*-knappen.
++ Gå ut av datamaskinen ved å trykke `Esc`-knappen.
 
 + Samle sammen litt __Stone__, en __Iron door__ og en __Computer__, og
 lag en vegg hvor du setter inn en dør og med datamaskinen rett ved
 siden av døren. Det skal se omtrent slik ut:
 
-    ![](passord.png)
+    ![](../01-bli_kjent_med_datamaskinen/passord.png)
 
 + Start datamaskinen.
 
@@ -195,7 +196,7 @@ false)`. Trykk enter. Nå lukker døren seg igjen fordi vi skrur av
 ## Sjekkliste {.check}
 
 + Start et nytt program ved å skrive `edit passord` og trykk enter.
-+ Skriv inn følgende program
++ Skriv inn følgende program nøyaktig slik det står
 
     ```lua
     local passord = 'kodeklubben'
@@ -222,7 +223,8 @@ variabelen i dette programmet (lokalt).
 
 + Vi skal nå jobbe videre med programmet. Vi vil jo at datamaskinen
 skal spørre oss om passordet, ikke fortelle oss hva det er. Skriv
-`edit passord` igjen, og endre programmet slik:
+`edit passord` igjen, og endre programmet slik at det blir seende ut
+som følger:
 
     ```lua
     local passord = 'kodeklubben'
@@ -231,7 +233,7 @@ skal spørre oss om passordet, ikke fortelle oss hva det er. Skriv
     ```
 
     Lagre, avslutt, og kjør programmet på nytt. Nå vil programmet
-    spørre deg om passordet? Skjer det noe når du svarer? Funksjonen
+    spørre deg om passordet. Skjer det noe når du svarer? Funksjonen
     `read` brukes for å lese ting du skriver på tastaturet, men
     programmet gjør foreløbig ingenting med svaret ditt.
 
@@ -361,7 +363,7 @@ __Chest__ og 1 __Computer__.
 
 + Start et __Crafting table__, og lag en robot slik:
 
-    ![](craft_turtle.png)
+    ![](../02-robotinvasjon/craft_turtle.png)
     
 + Legg den nye roboten i hånden din. Lukk inventory'et og lag en
 robot.
@@ -382,7 +384,7 @@ Senere ble måten disse skilpaddene beveget seg på (vi skal se hvordan
 snart) tatt inn i forskjellige programmeringsspråk, spesielt som en
 måte å tegne på. Språket *Logo* er nok det som er mest kjent for slik
 skilpaddegrafikk, men nesten alle programmeringsspråk støtter dette i
-dag, inkludert for eksempel *Scratch* og *Python*.
+dag, inkludert for eksempel *Scratch*, *Python* og *ComputerCraft*.
 
 ## Sjekkliste {.check}
 
@@ -431,7 +433,7 @@ for nesten 70 år siden. Dette gjør vi ved å bruke programmet `go` for
 merke til at det er et inventory med 16 plasser (4 ganger 4) på høyre
 side. Dette er robotens inventory. Flytt kullet over til roboten.
 
-    ![](robot_inventory.png)
+    ![](../02-robotinvasjon/robot_inventory.png)
 
 + Skriv `refuel` i kommandolinjen og trykk enter.
 
@@ -583,7 +585,7 @@ Lag en liten kloss litt unna roboten din, omtrent som på bildet
 under. Klarer du å bruke `turtle`-kommandoene over til å plassere
 roboten på toppen av klossen?
 
-![](flytt_robot_oppgave.png)
+![](../02-robotinvasjon/flytt_robot_oppgave.png)
     
 # Steg 9: Up, up, up, and away ... {.activity}
 
@@ -659,7 +661,7 @@ vi skrive
 
 ```lua
 for i = 1, 5 do print(i); end
----
+```
 	
 Dette vil skrive tallene 1, 2, 3, 4, 5 til skjermen på hver sin linje.
 
@@ -668,7 +670,7 @@ andre tall enn `1`:
 
 ```lua
 for tall = 10, 20 do print(tall); end
----
+```
 
 ## Sjekkliste {.check}
 	
@@ -692,7 +694,7 @@ __Grass__, i den merkede boksen i inventory'et sitt.
 	for i = 1, 60 do turtle.up(); turtle.place(); end
 	```
 
-    ![](hoyt_tarn.png)
+    ![](../02-robotinvasjon/hoyt_tarn.png)
 
 Oops! Vi glemte å fortelle roboten at den skulle komme ned når den
 blir ferdig med å bygge. Hvordan skal vi få tak i den igjen?
@@ -715,13 +717,13 @@ oss øve oss, og teste programmet på et mindre tårn.
 + Bygg et tårn som er tre klosser høyt. Dette kan du bygge enten med
 en robot eller bare på egen hånd.
 
-    ![](lite_tarn.png)
+    ![](../02-robotinvasjon/lite_tarn.png)
 
 + Lag en ny robot inntil det lille tårnet du nettopp bygde. Gi den
 fuel og byggematerialer. Pass på at den peker mot tårnet.
 
-+ Begynn å skriv et nytt program ved å skrive `edit byggTrapp`. Skriv
-inn følgende:
++ Begynn et nytt program ved å skrive `edit byggTrapp`. Skriv inn
+følgende:
 
     ```lua
 	turtle.detect()
@@ -793,7 +795,7 @@ trappebyggeroboten vår opp det høye tårnet?
     Pass på at roboten fortsatt har nok fuel, og fyll opp med
     byggemateriale. Kjør den bort til det høye tårnet, og la den `byggTrapp`!
 	
-	![](byggtrapp.png)
+	![](../02-robotinvasjon/byggtrapp.png)
 	
 Gratulerer! Du har nå programmert en robot! Legg merke til at siden
 `byggTrapp`-programmet vårt bruker `detect`-kommandoer kan det bygge
