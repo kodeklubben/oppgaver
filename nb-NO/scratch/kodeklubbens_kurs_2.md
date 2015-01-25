@@ -1,3 +1,9 @@
+---
+title: Scratch for Viderekommende
+author: Geir Arne Hjelle og Gudbrand Tandberg
+indexed: false
+---
+
 # Scratch for viderekommende
 
 Dette kurset er ment for interesserte som vil lære grunnleggende
