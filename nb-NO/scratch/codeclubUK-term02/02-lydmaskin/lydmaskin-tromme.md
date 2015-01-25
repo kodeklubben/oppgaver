@@ -1,43 +1,40 @@
 ---
-title: Tromme
-playlist: Scratchkort
-level: Nivå 4
-language: nb-NO
-stylesheet: scratch
-embeds: "*.png"
-materials: "*.sb2"
+title: Lydmaskin - Tromme
+indexed: false
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 ## Sjekkliste { .check}
 
-+ Importer en ny figur og velg Ting -> Tromme. Gi den navnet “Tromme”.
++ Importer en ny figur ved å velge `Ting/Drum1`. Gi den navnet `Tromme`.
 
-+ Vi vil at trommen skal lage lyd når vi klikker på den eller trykker på `mellomromstasten`{.blockbrown}.
++ Vi vil at trommen skal lage lyd når vi klikker på den eller trykker
+  på `mellomromstasten`.
 
-```blocks
-når denne figuren klikkes
-send melding [tromme v]
+    ```blocks
+        når denne figuren klikkes
+        send melding [tromme v]
 
-når [mellomrom v] trykkes
-send melding [tromme v]
-```
+        når [mellomrom v] trykkes
+        send melding [tromme v]
+    ```
 
-+ Nå må vi lage lyd når den mottar `tromme`{.blockbrown}. Ved å endre tallet, kan du endre lyden trommen lager.
++ Nå må vi lage lyd når den mottar `tromme`. Ved å endre tallet, kan
+  du endre lyden trommen lager.
 
-```blocks
-når jeg mottar [tromme v]
-trommeslag (48 v) som varer (0.2) takter
-```
+    ```blocks
+        når jeg mottar [tromme v]
+        trommeslag (48 v) som varer (0.2) takter
+    ```
 
-+ Prøv å endre utseende slik at man ser hvilket instrument som spiller.
++ Prøv å endre utseende slik at man ser hvilket instrument som
+  spiller.
 
-```blocks
-når jeg mottar [tromme v]
-trommeslag (48 v) som varer (0.2) takter
-sett størrelse til (110) %
-vent (0.1) sekunder
-sett størrelse til (100) %
-```
-
+    ```blocks
+        når jeg mottar [tromme v]
+        trommeslag (48 v) som varer (0.2) takter
+        sett størrelse til (110) %
+        vent (0.1) sekunder
+        sett størrelse til (100) %
+    ```

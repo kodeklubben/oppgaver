@@ -9,8 +9,8 @@ codeclubUK-term02/01-lag_ditt_eget_monster/monster-tentakler.md
 codeclubUK-term02/02-lydmaskin/lydmaskin.md
 codeclubUK-term02/02-lydmaskin/lydmaskin-tromme.md
 codeclubUK-term02/02-lydmaskin/lydmaskin-piano.md
+codeclubUK-term02/02-lydmaskin/lydmaskin-lyder.md
 codeclubUK-term02/02-lydmaskin/lydmaskin-opptaker.md
-codeclubUK-term02/02-lydmaskin/lydmaskin-lyd.md
 codeclubUK-term02/03-frantic_felix/frantic_felix.md
 codeclubUK-term02/03-frantic_felix/frantic_felix-opptak.md
 codeclubUK-term02/03-frantic_felix/frantic_felix-avspilling.md
