@@ -1,7 +1,7 @@
 ---
 title: Introduksjon til programmering
 author: Gubrand Tandberg
-index: false
+indexed: false
 ---
 
 # Programmering

@@ -1,11 +1,10 @@
 codeclubUK-term01/01-felix_og_herbert/felix_og_herbert.md
-codeclubUK-term01/01-felix_og_herbert/felix_og_herbert.md
 codeclubUK-term01/02-spokelsesjakten/spokelsesjakten.md
 codeclubUK-term01/03-fyrverkeri/fyrverkeri.md
 codeclubUK-term01/04-enarmet_banditt/enarmet_banditt.md
+codeclubUK-term01/11-flaksefugl/flaksefugl.md
 codeclubUK-term01/05-jafsefisk/jafsefisk.md
 codeclubUK-term01/06-orkenlop/orkenlop.md
 codeclubUK-term01/07-hva_er_det/hva_er_det.md
 codeclubUK-term01/08-tegneprogram/tegneprogram.md
 codeclubUK-term01/09-lag_ditt_eget_spill/lag_ditt_eget_spill.md
-codeclubUK-term01/11-flaksefugl/flaksefugl.md

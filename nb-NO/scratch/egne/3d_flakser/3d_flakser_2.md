@@ -1,10 +1,7 @@
 ---
 title: 3D-Flakser, Del 2
-level: 1.6
-language: nb-NO
-stylesheet: scratch
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
+level: 4
+author: Gudbrand Tandberg og Geir Arne Hjelle
 ---
 
 # Introduksjon {.intro}

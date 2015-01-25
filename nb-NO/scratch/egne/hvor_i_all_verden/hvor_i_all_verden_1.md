@@ -1,11 +1,7 @@
 ---
-title: Hvor i All Verden?
-playlist: Hvor i all verden?
-level: 2.1
-language: nb-NO
-stylesheet: scratch
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
+title: Hvor i All Verden? Del 1
+level: 4
+author: Geir Arne Hjelle
 ---
 
 # Introduksjon {.intro}

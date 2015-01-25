@@ -1,9 +1,7 @@
 ---
 title: Hoppehelt
-language: nb-NO
-stylesheet: scratch
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
+level: 4
+author: Geir Arne Hjelle
 ---
 
 # Introduksjon {.intro}
