@@ -11,7 +11,7 @@ note: "README.md"
 
 Velkommen til andre og siste del av __3D-flaksefugl__! I denne delen skal vi få flakse til å flakse som en fugl, og snu seg i luften når vi svinger med piltastene.  Til slutt skal vi gjøre det slik at man får poeng når man flyr igjennom en ring og taper hvis man treffer en ring. Etter det er det opp til deg; lag en meny, lag flere vanskelighetsgrader eller lag noe helt annet! 
 
-![](flakser.png)
+![](3d_flakser.png)
 
 # Steg 1: Lag bakken og få den til  følge med { .activity}
 

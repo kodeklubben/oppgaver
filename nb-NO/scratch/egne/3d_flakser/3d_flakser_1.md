@@ -11,7 +11,7 @@ note: "README.md"
 
 I dette prosjektet skal vi lage en utgave av Flaksefugl (som er en kopi av Flappy Bird) i *tre dimensjoner*! Spillet går ut på at man styrer en flyvende figur gjennom ringer som kommer mot deg. Spilleren må styre figuren opp og ned og side til side. Hovedutfordringen i dette spillet er å få det til å virke som om ringene faktisk kommer mot flakseren, og så forsvinner forbi. Prosjektet er delt inn i to deler siden det er ganske mye vi skal igjennom. I denne første delen skal vi få ringene til å fungere som de skal. La oss sette i gang!
 
-![](flakser.png)
+![](3d_flakser.png)
 
 # Steg 1: Lag ringer, og få dem til å komme mot deg { .activity}
 
