@@ -1,11 +1,7 @@
 ---
-title: Krabbeangrep!
+title: Krabbeangrep! Remiks
 level: 3
-language: nb-NO
-stylesheet: scratch
 author: Gudbrand Tandberg
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
 ---
 
 # Introduksjon {.intro}
@@ -19,7 +15,7 @@ at spilleren styrer en kanon som skal forsvare jorden mot et
 intergalaktisk krabbeangrep! Kanonen skyter kuler som tar knekken på
 krabbene og får poeng når den treffer.
 
-![](krabbeangrep.png)
+![](krabbeangrep_remiks.png)
 
 # Steg 1: Bli kjent med spillet {.activity}
 
@@ -28,7 +24,7 @@ krabbene og får poeng når den treffer.
 
 ## Sjekkliste {.check}
 + Gå inn på <http://scratch.mit.edu/users/gubbisduff/> og klikk på
-  prosjektet `Krabbeangrep!` Velg `Se inni`{.blocklightblue}.
+  prosjektet `Krabbeangrep!` Velg `Se inni`{.blocksensing}.
 
 + Trykk på knappen der det står `Remiks` øverst i høyre hjørne. Nå har
   du en kopi av spillet på din egen bruker som du kan gjøre hva du vil
@@ -40,7 +36,10 @@ krabbene og får poeng når den treffer.
 
 ## Test prosjektet {.flag}
 
-__Prøv et spill eller to for å bli bedre kjent med spillet.__
+__Klikk på det grønne flagget.__
+
++ Prøv spillet en gang eller to for å bli bedre kjent med hvordan det
+  fungerer.
 
 # Steg 2: Vi lager en meny, del I {.activity}
 
@@ -54,7 +53,7 @@ som sendes mellom figurene. Hver gang noe nytt skal skje, som for
 eksempel et nytt spill skal startes, eller at menyen skal vises etter
 spillet er tapt skal det sendes en melding.
 
-![Skisse over spillflyten](spillflyt.png)
+![](spillflyt.png)
 
 ## Sjekkliste {.check}
 
@@ -64,10 +63,10 @@ spillet er tapt skal det sendes en melding.
   gjøre susen. Gi den navnet `Startknapp`.
 
 + Vi må også lage en bakgrunn som kan fungere som hovedmeny. Trykk på
-  scenen og velg `Bakgrunner`{.blocklightgrey}. Lag en kopi av
-  bakgrunnen `Rommet` ved å høyreklikke og trykke på `lag en
-  kopi`. Pynt litt på den med tekst og hva annet du måtte ønske så man
-  ser at det er en hovedmeny. Gi den navnet `Hovedmeny`.
+  scenen og velg `Bakgrunner`. Lag en kopi av bakgrunnen `Rommet` ved
+  å høyreklikke og trykke på `lag en kopi`. Pynt litt på den med tekst
+  og hva annet du måtte ønske så man ser at det er en hovedmeny. Gi
+  den navnet `Hovedmeny`.
 
 # Steg 3: Vi lager en meny, del II {.activity}
 
@@ -87,35 +86,35 @@ figurområdet.
 
 + Endre på skriptene i scenen slik at du har følgende skript:
 
-	```blocks
-		når grønt flagg klikkes
-		send melding [hovedmeny v]
+    ```blocks
+        når grønt flagg klikkes
+        send melding [hovedmeny v]
 
-		Når jeg mottar [hovedmeny v]
-		bytt bakgrunn til [Hovedmeny v]
-	```
+        Når jeg mottar [hovedmeny v]
+        bytt bakgrunn til [Hovedmeny v]
+    ```
 
 + Gi startknappen de følgende skriptene (de to første sørger for at
   knappen oppfører seg riktig i starten av spillet, og det siste
   sørger for at startknappen faktisk er en startknapp):
 
-	```blocks
-		når grønt flagg klikkes
-		skjul
+    ```blocks
+        når grønt flagg klikkes
+        skjul
 
-		når jeg mottar [hovedmeny v]
-		gå til x: (0) y: (0)
-		vis
+        når jeg mottar [hovedmeny v]
+        gå til x: (0) y: (0)
+        vis
 
-		når denne figuren klikkes
-		send melding [nytt spill v]
-	```
+        når denne figuren klikkes
+        send melding [nytt spill v]
+    ```
 
 + Nå må vi sørge for at resten av figurene oppfører seg som vi vil
   både når flagget klikkes, når hovedmenyen skal vises og når
   startknappen klikkes! Det betyr at vi må ha mange små skript som
   lytter etter disse meldingene (skript som starter med klossene under
-  `Hendelser`{ .blockgrey}). Vi skal ikke skrive nøyaktig opp hvordan
+  `Hendelser`{.blockevents}). Vi skal ikke skrive nøyaktig opp hvordan
   disse skriptene skal se ut, det skal du klare selv, men her er det
   som må med:
 
@@ -146,7 +145,7 @@ kan du bruke på en eller flere av utfordringene nedenfor.
 Nå som spillet har en god start kan du prøve å gi det en god slutt
 også. I denne utfordringen er målet å gjøre det siste steget i
 spillflyt-tegningen ovenfor. Du legger kanskje merke til at scenen har
-et skript som starter med `Når jeg mottar treff`{.blockgrey}, og at
+et skript som starter med `Når jeg mottar treff`{.blockevents}, og at
 her sendes meldingen `tapte` hvis spilleren ikke har flere liv igjen?
 Det er ingen som mottar denne meldingen! Gi de andre figurene skript
 som reagerer på denne meldingen. En av figurene kan for eksempel si
@@ -175,6 +174,7 @@ lært seg spillet.
 
 Akkurat nå er spillet ganske enkelt. Prøv å la krabbene dale nedover
 skjermen raskere og raskere når når man skyter flere av dem. Her kan
-det være lurt å lage en variabel som heter `hastighet` og bruke denne
-i hovedløkken til Romvesen-figuren. Så kan du for eksempel bruke en
-`endre hastighet med 1`{.blockorange}-kloss når et romvesen treffes.
+det være lurt å lage en variabel som heter `hastighet`{.blockdata} og
+bruke denne i hovedløkken til Romvesen-figuren. Så kan du for eksempel
+bruke en `endre hastighet med 1`{.blockdata}-kloss når et romvesen
+treffes.

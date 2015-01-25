@@ -13,24 +13,24 @@ og animasjoner. Når det er ferdig vil det se omtrent slik ut.
 
 # Steg 1: Endre bakgrunn og finne figurer {.activity}
 
-Når du er klar til å starte velger du `Programmering` i menyen
-øverst. Da kommer vi inn i Scratch.
+Når du er klar til å starte velger du `Programmering` i menyen øverst
+på siden <http://scratch.mit.edu/>. Da kommer vi inn i Scratch.
 
 ![](programmering.png)
 
 ## Sjekkliste {.check}
 
 + Klikk på scenen ved siden av kattefiguren `Sprite1` i vinduet for
-figurer. Trykk på ![](bakgrunn-fra-bibliotek.png) for å importere en
-ferdig bakgrunn. Velg den bakgrunnen du vil. Slett deretter den tomme
-bakgrunnen som ligger der.
+  figurer. Trykk på ![](../../bilder/bakgrunn-fra-bibliotek.png) for å
+  importere en ferdig bakgrunn. Velg den bakgrunnen du vil. Slett
+  deretter den tomme bakgrunnen som ligger der.
 
     ![](ny_bakgrunn.png)
 
 + Slett kattefiguren `Sprite1` ved å høyreklikke på ham og slette.
 
 + Velg nye figurer fra biblioteket. Legg til isbjørnen, snømannen og
-juletreet.
+  juletreet.
 
     ![](velg_figurer.png)
 
@@ -41,7 +41,7 @@ Nå skal vi få figurene til å gjøre ting når de blir klikket på.
 ## Sjekkliste {.check}
 
 + Velg isbjørnen og fanen `Skript`{.blocklightgrey} og lag denne
-  koden. Når isbjørnen blir klikket på skal den si "God jul!".
+  koden. Når isbjørnen blir klikket på skal den si `God jul!`.
   Deretter skal den skifte utseende hvert sekund, 10 ganger.
 
     ```blocks
@@ -57,15 +57,15 @@ Nå skal vi få figurene til å gjøre ting når de blir klikket på.
 
 __Klikk på isbjørnen og se om koden din virker.__
 
-+ Sier isbjørnen "God jul!"?
++ Sier isbjørnen `God jul!`?
 
 + Forandrer isbjørnen stilling?
 
 ## Sjekkliste {.check}
 
-+ Velg snømannen og fanen `Skript`{.blocklightgrey} og lag denne
-koden.  Snømannen skal spørre etter navnet ditt. Den setter svaret inn
-i en ny setning. Deretter skal den skifte farge.
++ Velg snømannen og fanen `Skript` og lag denne koden.  Snømannen skal
+  spørre etter navnet ditt. Den setter svaret inn i en ny
+  setning. Deretter skal den skifte farge.
 
     ```blocks
         når denne figuren klikkes

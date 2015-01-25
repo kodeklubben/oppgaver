@@ -1,11 +1,7 @@
 ---
 title: Norgestur
 level: 3
-language: nb-NO
-stylesheet: scratch
 author: Geir Arne Hjelle
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
 ---
 
 # Introduksjon {.intro}
@@ -61,7 +57,7 @@ andre kart.
   under `Figurer`. Vi har brukt `Transport/Helicopter`, men du kan
   eventuelt bruke en annen figur du vil reise rundt med.
 
-+ Klikk `i`{.blockblue} og skift navn på figuren til
++ Klikk `i`{.blockmotion} og skift navn på figuren til
   `Helikopter`. Sett også rotasjonsmåten til
   ![vend sideveis](../../bilder/rotasjonsmate-hv.png) for å unngå at
   helikopteret flyr opp-ned.
@@ -70,10 +66,10 @@ andre kart.
   alltid starter på samme sted. Lag dette skriptet:
 
     ```blocks
-	    når grønt flagg klikkes
-		sett størrelse til (25) %
-		gå til x: (0) y: (0)
-	```
+        når grønt flagg klikkes
+        sett størrelse til (25) %
+        gå til x: (0) y: (0)
+    ```
 
 + Vi skal nå programmere at helikopteret kontrolleres med
   piltastene. Vi gjør dette ved å starte en løkke som vi gjentar for
@@ -82,16 +78,16 @@ andre kart.
   flytter helikopteret oppover:
 
     ```blocks
-	    når grønt flagg klikkes
-		sett størrelse til (25) %
-		gå til x: (0) y: (0)
+        når grønt flagg klikkes
+        sett størrelse til (25) %
+        gå til x: (0) y: (0)
         for alltid
-		    hvis (tast [pil opp v] trykket?)
-			    pek i retning (0 v)
-				gå (2) steg
-			slutt
-		slutt
-	```
+            hvis (tast [pil opp v] trykket?)
+                pek i retning (0 v)
+                gå (2) steg
+            slutt
+        slutt
+    ```
 
 ## Test prosjektet {.flag}
 
@@ -110,35 +106,35 @@ Vi skal nå programmere de andre piltastene også.
 
 + Koden for å flytte helikopteret med de andre piltastene er veldig
   lik koden som flytter helikopteret oppover. Vi kan derfor kopiere
-  denne! Høyreklikk på klossen `hvis `{.blockyellow}`tast pil opp
-  trykket?`{.blocklightblue}, og velg `lag en kopi`. Slipp disse
-  klossene inn i `for alltid`{.blockyellow}-løkken. Gjenta til du har
-  fire `hvis`{.blockyellow}-klosser. Endre på skriptet ditt slik at
+  denne! Høyreklikk på klossen `hvis `{.blockcontrol}`tast pil opp
+  trykket?`{.blocksensing}, og velg `lag en kopi`. Slipp disse
+  klossene inn i `for alltid`{.blockcontrol}-løkken. Gjenta til du har
+  fire `hvis`{.blockcontrol}-klosser. Endre på skriptet ditt slik at
   det ser ut som følger:
 
     ```blocks
-	    når grønt flagg klikkes
-		sett størrelse til (25) %
-		gå til x: (0) y: (0)
+        når grønt flagg klikkes
+        sett størrelse til (25) %
+        gå til x: (0) y: (0)
         for alltid
-		    hvis (tast [pil opp v] trykket?)
-			    pek i retning (0 v)
-				gå (2) steg
-			slutt
-		    hvis (tast [pil høyre v] trykket?)
-			    pek i retning (90 v)
-				gå (2) steg
-			slutt
-		    hvis (tast [pil ned v] trykket?)
-			    pek i retning (180 v)
-				gå (2) steg
-			slutt
-		    hvis (tast [pil venstre v] trykket?)
-			    pek i retning (-90 v)
-				gå (2) steg
-			slutt
-		slutt
-	```
+            hvis (tast [pil opp v] trykket?)
+                pek i retning (0 v)
+                gå (2) steg
+            slutt
+            hvis (tast [pil høyre v] trykket?)
+                pek i retning (90 v)
+                gå (2) steg
+            slutt
+            hvis (tast [pil ned v] trykket?)
+                pek i retning (180 v)
+                gå (2) steg
+            slutt
+            hvis (tast [pil venstre v] trykket?)
+                pek i retning (-90 v)
+                gå (2) steg
+            slutt
+        slutt
+    ```
 
 ## Test prosjektet {.flag}
 
@@ -157,10 +153,10 @@ ganger. Dette gjør det vanskeligere for oss om vil endre hvor fort
 helikopteret beveger seg.
 
 Hvis du vil kan du prøve å lage en ny variabel som heter
-`hastighet`{.blockorange}. Deretter kan du sette denne variabelen lik
+`hastighet`{.blockdata}. Deretter kan du sette denne variabelen lik
 2 etter at det grønne flagget klikkes. Til slutt kan du bytte ut `gå 2
-steg`{.blockblue}-klossene med `gå
-`{.blockblue}`hastighet`{.blockorange}` steg`{.blockblue}-klosser.
+steg`{.blockmotion}-klossene med `gå
+`{.blockmotion}`hastighet`{.blockdata}` steg`{.blockmotion}-klosser.
 
 # Steg 3: Legg til et reisemål {.activity}
 
@@ -186,7 +182,7 @@ steg`{.blockblue}-klossene med `gå
 
     ![](sirkel.png)
 
-+ Klikk på `i`{.blockblue} og gi denne nye figuren navnet `Sted`.
++ Klikk på `i`{.blockmotion} og gi denne nye figuren navnet `Sted`.
 
 + Dra denne nye sted-figuren til et sted på kartet du vil at skal være
   første reisemål. Vi har brukt `Hønefoss` som første reisemål, men du
@@ -205,18 +201,18 @@ steg`{.blockblue}-klossene med `gå
   helikopteret reiser dit.
 
     ```blocks
-	    når grønt flagg klikkes
-	    send melding [Sted: Hønefoss v]
+        når grønt flagg klikkes
+        send melding [Sted: Hønefoss v]
 
         når jeg mottar [Sted: Hønefoss v]
-		gå til x: (6) y: (-112)
-		vent til (berører [Helikopter v]?)
-		si [Fant Hønefoss!] i (2) sekunder
+        gå til x: (6) y: (-112)
+        vent til (berører [Helikopter v]?)
+        si [Fant Hønefoss!] i (2) sekunder
     ```
 
-	Legg merke til at i `gå til`{.blockblue}-klossen bruker vi samme
-	koordinater som de vi fant ovenfor. Det betyr at om du bruker ditt
-	eget reisemål må du bytte disse tallene med de du fant.
+    Legg merke til at i `gå til`{.blockmotion}-klossen bruker vi samme
+    koordinater som de vi fant ovenfor. Det betyr at om du bruker ditt
+    eget reisemål må du bytte disse tallene med de du fant.
 
 ## Test prosjektet {.flag}
 
@@ -241,24 +237,24 @@ __Klikk på det grønne flagget.__
 + Legg til en melding nederst i `Hønefoss`-skriptet som kaller et nytt
   reisemål. Lag deretter et nytt skript for det nye stedet. Dette nye
   skriptet er veldig likt det første, så du bør høyreklikke på `når
-  jeg mottar Sted: Hønefoss`{.blockgrey}-klossen og velge `lag en
+  jeg mottar Sted: Hønefoss`{.blockevents}-klossen og velge `lag en
   kopi`.
 
     ```blocks
         når jeg mottar [Sted: Hønefoss v]
-		gå til x: (6) y: (-112)
-		vent til (berører [Helikopter v]?)
-		si [Fant Hønefoss!] i (2) sekunder
-		send melding [Sted: Tromsø v]
+        gå til x: (6) y: (-112)
+        vent til (berører [Helikopter v]?)
+        si [Fant Hønefoss!] i (2) sekunder
+        send melding [Sted: Tromsø v]
 
         når jeg mottar [Sted: Tromsø v]
-		gå til x: (103) y: (121)
-		vent til (berører [Helikopter v]?)
-		si [Fant Tromsø!] i (2) sekunder
+        gå til x: (103) y: (121)
+        vent til (berører [Helikopter v]?)
+        si [Fant Tromsø!] i (2) sekunder
     ```
 
-	Bruk dine egne koordinater (og navn) også for det andre
-	reisemålet.
+    Bruk dine egne koordinater (og navn) også for det andre
+    reisemålet.
 
 ## Test prosjektet {.flag}
 
@@ -279,34 +275,35 @@ __Klikk på det grønne flagget.__
 
 Vi vil først fortelle spilleren hvor han skal fly.
 
-+ Lag en ny variabel, ved å klikke på `Data`{.blockorange} og deretter
-`Lag en variabel`{.blocklightgrey}. Kall variabelen `Reis til` og velg
-at den skal gjelde `For alle figurer`.
++ Lag en ny variabel, ved å klikke på `Data`{.blockdata} og deretter
+  `Lag en variabel`. Kall variabelen `Reis til`{.blockdata} og velg at
+  den skal gjelde `For alle figurer`.
 
 + Legg merke til at det dukket opp en boks på kartet, `Reis til
-`{.blocklightgrey}` 0 `{.blockorange}. Flytt denne boksen til et
-passende sted slik at den er lett å lese.
+  `{.blocklightgrey}` 0 `{.blockdata}. Flytt denne boksen til et
+  passende sted slik at den er lett å lese.
 
 + Nå kan vi oppdatere koden til `Sted` slik at den setter denne `Reis
-til`-variabelen. Endre først `Hønefoss`-skriptet som følger:
+  til`{.blockdata}-variabelen. Endre først `Hønefoss`-skriptet som
+  følger:
 
     ```blocks
         når jeg mottar [Sted: Hønefoss v]
-		gå til x: (6) y: (-112)
+        gå til x: (6) y: (-112)
         sett [Reis til v] til [Hønefoss]
         vent til (berører [Helikopter v]?)
-		si [Fant Hønefoss!] i (2) sekunder
-		send melding [Sted: Tromsø v]
+        si [Fant Hønefoss!] i (2) sekunder
+        send melding [Sted: Tromsø v]
     ```
 
 + Endre også det andre reisemål-skriptet på samme måte:
 
     ```blocks
         når jeg mottar [Sted: Tromsø v]
-		gå til x: (103) y: (121)
+        gå til x: (103) y: (121)
         sett [Reis til v] til [Tromsø]
         vent til (berører [Helikopter v]?)
-		si [Fant Tromsø!] i (2) sekunder
+        si [Fant Tromsø!] i (2) sekunder
     ```
 
 ## Test prosjektet {.flag}
@@ -315,18 +312,18 @@ __Klikk på det grønne flagget.__
 
 + Fungerer fortsatt spillet som tidligere?
 
-+ Oppdaterer `Reis til`-variabelen seg slik du forventet?
++ Oppdaterer `Reis til`{.blockdata}-variabelen seg slik du forventet?
 
 ## Sjekkliste {.check}
 
 Vi er nå klare til å skjule den røde sirkelen. Vi prøver først det
 enkleste og mest opplagte:
 
-+ Legg til en `skjul`{.blockpurple}-kloss i oppstartskriptet på
++ Legg til en `skjul`{.blocklooks}-kloss i oppstartskriptet på
   `Sted`-figuren.
 
     ```blocks
-	    når grønt flagg klikkes
+        når grønt flagg klikkes
         skjul
         send melding [Sted: Hønefoss v]
     ```
@@ -347,17 +344,17 @@ usynlig på!
 ## Sjekkliste {.check}
 
 + I stedet for å skjule sirkelen helt vil vi heller gjøre den
-  gjennomsiktig! Bytt ut `skjul`{.blockpurple}-klossen med en `sett
-  effekt`{.blockpurple}-kloss.
+  gjennomsiktig! Bytt ut `skjul`{.blocklooks}-klossen med en `sett
+  effekt`{.blocklooks}-kloss.
 
     ```blocks
-	    når grønt flagg klikkes
+        når grønt flagg klikkes
         vis
-		sett [gjennomsiktig v] effekt til (100)
+        sett [gjennomsiktig v] effekt til (100)
         send melding [Sted: Hønefoss v]
     ```
 
-    Vi har også lagt til en `vis`{.blockpurple}-kloss for å være på
+    Vi har også lagt til en `vis`{.blocklooks}-kloss for å være på
     den sikre siden (vi har jo oppdaget at spillet ikke virker om
     `Sted`-figuren er skjult).
 
@@ -383,29 +380,29 @@ __Klikk på det grønne flagget.__
 
     ```blocks
         når jeg mottar [Sted: Hønefoss v]
-		gå til x: (6) y: (-112)
+        gå til x: (6) y: (-112)
         sett [Reis til v] til [Hønefoss]
         vent til (berører [Helikopter v]?)
-		send melding [Fant sted v] og vent
-		send melding [Sted: Tromsø v]
+        send melding [Fant sted v] og vent
+        send melding [Sted: Tromsø v]
 
         når jeg mottar [Sted: Tromsø v]
-		gå til x: (103) y: (121)
+        gå til x: (103) y: (121)
         sett [Reis til v] til [Tromsø]
         vent til (berører [Helikopter v]?)
-		send melding [Fant sted v] og vent
+        send melding [Fant sted v] og vent
     ```
 
 + Når vi mottar `Fant sted`-meldingen vil vi vise hvor reisemålet
   faktisk ligger. Siden sirkelen snart flyttes videre kan vi ikke bare
-  gjøre figuren synlig, vi må også `stemple avtrykk`{.blockgreen} av
+  gjøre figuren synlig, vi må også `stemple avtrykk`{.blockpen} av
   figuren på bakgrunnen. Legg til dette skriptet:
 
     ```blocks
-	    når jeg mottar [Fant sted v]
-		sett [gjennomsiktig v] effekt til (0)
-		stemple avtrykk
-		sett [gjennomsiktig v] effekt til (100)
+        når jeg mottar [Fant sted v]
+        sett [gjennomsiktig v] effekt til (0)
+        stemple avtrykk
+        sett [gjennomsiktig v] effekt til (100)
     ```
 
 ## Test prosjektet {.flag}
@@ -421,13 +418,13 @@ __Klikk på det grønne flagget.__
 
 + For å være sikker på at avtrykkene (de røde sirklene) blir borte når
   vi starter spillet på nytt kan vi bruke
-  `slett`{.blockgreen}-klossen. Legg til en kloss på oppstart-skripet:
+  `slett`{.blockpen}-klossen. Legg til en kloss på oppstart-skripet:
 
     ```blocks
-	    når grønt flagg klikkes
+        når grønt flagg klikkes
         slett
         vis
-		sett [gjennomsiktig v] effekt til (100)
+        sett [gjennomsiktig v] effekt til (100)
         send melding [Sted: Hønefoss v]
     ```
 
@@ -439,14 +436,14 @@ __Klikk på det grønne flagget.__
 
 + Spill lyden når et sted blir funnet. Klikk
   `Skript`{.blocklightgrey}-fanen og legg til en `spill
-  lyden`{.blockpink}-kloss.
+  lyden`{.blocksound}-kloss.
 
     ```blocks
-	    når jeg mottar [Fant sted v]
-		spill lyden [rattle v]
-		sett [gjennomsiktig v] effekt til (0)
-		stemple avtrykk
-		sett [gjennomsiktig v] effekt til (100)
+        når jeg mottar [Fant sted v]
+        spill lyden [rattle v]
+        sett [gjennomsiktig v] effekt til (0)
+        stemple avtrykk
+        sett [gjennomsiktig v] effekt til (100)
     ```
 
 ## Test prosjektet {.flag}
@@ -470,23 +467,23 @@ __Klikk på det grønne flagget.__
   mye tid spilleren har til å reise rundt. Denne er et bra eksempel på
   noe som tilhører hele spillet.
 
-+ Velg `Data`{.blockorange} og `Lag en variabel`{.blocklightgrey}.
-  Kall variabelen `Tid`. Legg merke til at siden vi lager variabelen
-  på scenen må den gjelde for alle figurer.
++ Velg `Data`{.blockdata} og `Lag en variabel`{.blocklightgrey}.  Kall
+  variabelen `Tid`{.blockdata}. Legg merke til at siden vi lager
+  variabelen på scenen må den gjelde for alle figurer.
 
 + Når spillet starter vil vi gi spilleren litt tid. Dette gjør vi ved
-  å sette `Tid` til for eksempel `30`, du kan selvsagt eksperimentere
-  med andre tall. Deretter starter vi en løkke som teller ned hvert
-  sekund.
+  å sette `Tid`{.blockdata} til for eksempel `30`, du kan selvsagt
+  eksperimentere med andre tall. Deretter starter vi en løkke som
+  teller ned hvert sekund.
 
     ```blocks
-	    når grønt flagg klikkes
-		sett [Tid v] til [30]
-		gjenta til <(Tid) = [0]>
-		    vent (1) sekunder
-			endre [Tid v] med (-1)
-		slutt
-		send melding [Avslutt v]
+        når grønt flagg klikkes
+        sett [Tid v] til [30]
+        gjenta til <(Tid) = [0]>
+            vent (1) sekunder
+            endre [Tid v] med (-1)
+        slutt
+        send melding [Avslutt v]
     ```
 
     Legg merke til at vi også sender ut en ny melding `Avslutt` når
@@ -495,9 +492,9 @@ __Klikk på det grønne flagget.__
 + Lag et nytt skript på scenen som avslutter spillet.
 
     ```blocks
-	    når jeg mottar [Avslutt v]
-		stopp [alle v]
-	```
+        når jeg mottar [Avslutt v]
+        stopp [alle v]
+    ```
 
 ## Test prosjektet {.flag}
 
@@ -518,9 +515,9 @@ finner et reisemål.
 + Lag et nytt skript på scenen som reagerer på meldingen `Fant sted`.
 
     ```blocks
-	    når jeg mottar [Fant sted v]
-		endre [Tid v] med (10)
-	```
+        når jeg mottar [Fant sted v]
+        endre [Tid v] med (10)
+    ```
 
 # Steg 8: Flere steder å besøke {.activity}
 
@@ -537,16 +534,16 @@ kodeklossene vi allerede har lagd, og deretter endre på dem.
 
 + Vi har gjort `Sted`-figuren helt gjennomsiktig. For å gjøre den
   synlig igjen, kan du bare klikke på (du trenger ikke legge den til i
-  noe skript) klossen `ta bort grafiske effekter`{.blockpurple} i
-  `Utseende`{.blockpurple}-kategorien. Det kan også være nyttig å
-  klikke på `slett`{.blockgreen}-klossen i
-  `Penn`{.blockgreen}-kategorien.
+  noe skript) klossen `ta bort grafiske effekter`{.blocklooks} i
+  `Utseende`{.blocklooks}-kategorien. Det kan også være nyttig å
+  klikke på `slett`{.blockpen}-klossen i
+  `Penn`{.blockpen}-kategorien.
 
 + Flytt den røde sirkelen til et nytt sted. Noter deg koordinatene ved
-  å se på figurinformasjonen, `i`{.blockblue}.
+  å se på figurinformasjonen, `i`{.blockmotion}.
 
 + Høyreklikk på skriptet som begynner `når jeg mottar Sted:
-  Hønefoss`{.blockgrey} og velg `lag en kopi`. Oppdater denne kopien
+  Hønefoss`{.blockevents} og velg `lag en kopi`. Oppdater denne kopien
   med navnet og koordinatene du fant ovenfor.
 
 + Nedenfor har vi lagt til tre nye steder (samt lagt til en melding
@@ -555,39 +552,39 @@ kodeklossene vi allerede har lagd, og deretter endre på dem.
 
     ```blocks
         når jeg mottar [Sted: Hønefoss v]
-		gå til x: (6) y: (-112)
+        gå til x: (6) y: (-112)
         sett [Reis til v] til [Hønefoss]
         vent til (berører [Helikopter v]?)
-		send melding [Fant sted v] og vent
-		send melding [Sted: Tromsø v]
+        send melding [Fant sted v] og vent
+        send melding [Sted: Tromsø v]
 
         når jeg mottar [Sted: Tromsø v]
-		gå til x: (103) y: (121)
+        gå til x: (103) y: (121)
         sett [Reis til v] til [Tromsø]
         vent til (berører [Helikopter v]?)
-		send melding [Fant sted v] og vent
-		send melding [Sted: Lillehammer v]
+        send melding [Fant sted v] og vent
+        send melding [Sted: Lillehammer v]
 
         når jeg mottar [Sted: Lillehammer v]
-		gå til x: (14) y: (-94)
+        gå til x: (14) y: (-94)
         sett [Reis til v] til [Lillehammer]
         vent til (berører [Helikopter v]?)
-		send melding [Fant sted v] og vent
-		send melding [Sted: Bergen v]
+        send melding [Fant sted v] og vent
+        send melding [Sted: Bergen v]
 
         når jeg mottar [Sted: Bergen v]
-		gå til x: (-52) y: (-107)
+        gå til x: (-52) y: (-107)
         sett [Reis til v] til [Bergen]
         vent til (berører [Helikopter v]?)
-		send melding [Fant sted v] og vent
-		send melding [Sted: Narvik v]
+        send melding [Fant sted v] og vent
+        send melding [Sted: Narvik v]
 
         når jeg mottar [Sted: Narvik v]
-		gå til x: (91) y: (90)
+        gå til x: (91) y: (90)
         sett [Reis til v] til [Narvik]
         vent til (berører [Helikopter v]?)
-		send melding [Fant sted v] og vent
-		send melding [Avslutt v]
+        send melding [Fant sted v] og vent
+        send melding [Avslutt v]
     ```
 
 ## Test prosjektet {.flag}
@@ -647,25 +644,25 @@ spørre.
 
 
     ```blocks
-	    definer sjekk sted
-		hvis (((tilfeldig tall fra (1) til (Antall steder totalt)) > (1)) eller (berører fargen [#ff0000]?))
-		    sett [bruk sted v] til [nei]
-		ellers
-		    sett [bruk sted v] til [ja]
-		slutt
+        definer sjekk sted
+        hvis (((tilfeldig tall fra (1) til (Antall steder totalt)) > (1)) eller (berører fargen [#ff0000]?))
+            sett [bruk sted v] til [nei]
+        ellers
+            sett [bruk sted v] til [ja]
+        slutt
 
         når jeg mottar [Sted: Hønefoss v]
-		gå til x: (6) y: (-112)
-		sjekk sted
-		hvis ((bruk sted) = [ja])
+        gå til x: (6) y: (-112)
+        sjekk sted
+        hvis ((bruk sted) = [ja])
             sett [Reis til v] til [Hønefoss]
             vent til (berører [Helikopter v]?)
-		    send melding [Fant sted v] og vent
-		slutt
-	 	send melding [Sted: Tromsø v]
+            send melding [Fant sted v] og vent
+        slutt
+        send melding [Sted: Tromsø v]
     ```
 
-    Klossen `berører fargen`{.blocklightblue} brukes for å sjekke om
+    Klossen `berører fargen`{.blocksensing} brukes for å sjekke om
     vi allerede har besøkt et reisemål. I såfall vil vi jo ha stemplet
     rødfarge på kartet.
 
@@ -675,9 +672,9 @@ spørre.
 
 + Det blir også vanskeligere å vite når spilleren har funnet alle
   (eller mange nok) reisemål. En måte å gjøre dette på er å bruke en
-  ny variabel, for eksempel `Antall steder funnet`, som teller hvor
-  mange steder som er funnet. Når mange nok steder er funnet kan det
-  sendes ut en `Avslutt`- (eller `Vant`-) melding.
+  ny variabel, for eksempel `Antall steder funnet`{.blockdata}, som
+  teller hvor mange steder som er funnet. Når mange nok steder er
+  funnet kan det sendes ut en `Avslutt`- (eller `Vant`-) melding.
 
 # Hvordan lage egne kart {.activity}
 

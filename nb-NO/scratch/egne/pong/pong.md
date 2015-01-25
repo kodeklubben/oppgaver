@@ -19,9 +19,9 @@ andre spilleren poeng.
 *Mesteparten av kodingen av Pong skal du gjøre på egen hånd. Men vi
  vil gi litt tips underveis. Spesielt vil vi se litt på hvordan vi
  kontrollerer en ballfigur mens den spretter rundt på skjermen. I
- resten av heftet vil du finne følgende:*
+ resten av leksjonen vil du finne følgende:*
 
-## Sjekkliste {.check}
+## Plan {.check}
 
 + Hvordan lage en sprettende ball-figur
 
@@ -50,7 +50,7 @@ sprettende ball!
   tegne en selv.
 
 + Vi vil ha muligheten til senere enkelt å endre hastigheten til
-  ballen. Lag derfor en ny variabel `hastighet`{.blockorange} som
+  ballen. Lag derfor en ny variabel `hastighet`{.blockdata} som
   gjelder for ball-figuren.
 
 + Vår enkle kode for en sprettende ball består essensielt av to deler:
@@ -94,7 +94,7 @@ enklere starte spillet.
 
 # Steg 2: Litt mer kontroll på ballen {.activity}
 
-*Klossen `sprett tilbake ved kanten`{.blockblue} er veldig enkel å
+*Klossen `sprett tilbake ved kanten`{.blockmotion} er veldig enkel å
  bruke, men dessverre gir den oss ikke så mye kontroll. For eksempel
  kan vi ikke bruke den om vi vil at ballen skal sprette andre steder
  enn ved kanten (for eksempel i en racket). Den er også vanskelig å
@@ -102,7 +102,7 @@ enklere starte spillet.
  vi vil spille en lyd, endring på hastigheten eller endre litt i
  retningen.*
 
-Vi vil bruke `sansning`{.blocklightblue}-klosser for å bedre
+Vi vil bruke `sansning`{.blocksensing}-klosser for å bedre
 kontrollere hvordan ballen spretter. Da kan vi oppdage når ballen
 berører andre figurer (som for eksempel racketene til spillerene),
 eller når den berører spesielle farger.
@@ -164,7 +164,7 @@ eller når den berører spesielle farger.
 + Skriv kode som starter på meldingen `Ny ball`. På samme måte som for
   ballen skal denne bestå av to deler: Først må koden passe på at
   racketen starter på riktig sted. Deretter går koden inn i en løkke
-  hvor racketen flyttes opp og ned (`endre y`{.blockblue}) når for
+  hvor racketen flyttes opp og ned (`endre y`{.blockmotion}) når for
   eksempel tastene `W` og `S` trykkes.
 
 + Test at du kan flytte racketen. Du vil kanskje også legge inn en
@@ -186,12 +186,13 @@ eller når den berører spesielle farger.
 
 + Til slutt må vi legge til kode på ball-figuren slik at ballen
   spretter når den berører en racket. Dette kan gjøres veldig likt
-  hvordan vi fikk ballen til å sprette på veggen. Du må bare bytte ut
-  `berører farge`{.blocklightblue} med `berører`{.blocklightblue}.
+  hvordan vi fikk ballen til å sprette på veggen. Du må bare bruke
+  `berører farge`{.blocksensing} i stedet for
+  `berører`{.blocksensing}.
 
 + Siden ballen nå treffer en vertikal racket i stedet for en
   horisontal vegg må vi også bytte ut tallet `180` i `pek i
-  retning`{.blockblue}-klossen. Hvilket tall kan du bruke? Prøv deg
+  retning`{.blockmotion}-klossen. Hvilket tall kan du bruke? Prøv deg
   fram, eller tenk gjennom hvordan en ball spretter når den treffer en
   vegg.
 
@@ -204,7 +205,7 @@ eller når den berører spesielle farger.
 + Du vil kanskje oppleve at racketene beveger seg raskere og raskere
   for hver ny ball? Dette skjer fordi hver gang meldingen `Ny ball`
   blir sendt startes en ny løkke som flytter racketene. For å fikse
-  dette kan du `stoppe andre skript i figuren`{.blockyellow} for de to
+  dette kan du `stoppe andre skript i figuren`{.blockcontrol} for de to
   racketene når meldingen `Poeng` mottas.
 
 # Steg 4: Videreutvikling av spillet {.activity}

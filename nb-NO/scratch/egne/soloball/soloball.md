@@ -1,11 +1,7 @@
 ---
 title: Soloball
 level: 1
-language: nb-NO
-stylesheet: scratch
 author: Geir Arne Hjelle
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
 ---
 
 # Introduksjon {.intro}
@@ -64,9 +60,9 @@ Vi skal nå gjøre et lite triks hvor vi flytter katten vekk fra sentrum
 slik at det ser ut som om den løper i sirkel i stedet for å rotere.
 
 + Gi først kattefiguren din navnet `Katt`. Dette gjør du ved å først
-  klikke på den lille `i`{.blockblue}en på kattefiguren under
+  klikke på den lille `i`{.blockmotion}en på kattefiguren under
   scenen. Deretter kan du skrive `Katt` i tekstfeltet. Når du går
-  tilbake, `<`{.blockblue}, ser du at figuren har fått det riktige
+  tilbake, `<`{.blockmotion}, ser du at figuren har fått det riktige
   navnet.
 
 + Klikk på `Drakter`{.blocklightgrey}-fanen øverst på skjermen. Du vil
@@ -104,7 +100,7 @@ __Klikk på det grønne flagget.__
 Selv om ikke endret programmet vårt oppfører katten seg veldig
 annerledes. Skjønner du hvorfor?
 
-Når vi sier at katten skal `peke mot musepekeren`{.blockblue} må den
+Når vi sier at katten skal `peke mot musepekeren`{.blockmotion} må den
 rotere rundt et punkt. Dette punktet kalles senterpunktet til figuren,
 og du kan se (og endre) senterpunktet til en figur ved å klikke på
 ![Velg senterpunkt](../../bilder/velg_senterpunkt.png) øverst til
@@ -151,8 +147,8 @@ katten løper rundt dette punktet i stedet for at den bare roterer uten
         slutt
     ```
 
-    Klossen `retning`{.blockblue} finner du helt nederst i
-    `Bevegelse`{.blockblue}-kategorien.
+    Klossen `retning`{.blockmotion} finner du helt nederst i
+    `Bevegelse`{.blockmotion}-kategorien.
 
 + Skjønner du hvorfor
 
@@ -212,9 +208,9 @@ __Klikk på det grønne flagget.__
         slutt
     ```
 
-    `stemple avtrykk`{.blockgreen} stempler en figur på bakgrunnen
+    `stemple avtrykk`{.blockpen} stempler en figur på bakgrunnen
     slik at den blir der. Du kan fjerne slike avtrykk ved å bruke
-    `slett`{.blockgreen}-klossen.
+    `slett`{.blockpen}-klossen.
 
 ## Test prosjektet {.flag}
 
@@ -234,13 +230,13 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-Foreløbig har vi ikke laget noe kode som forteller ballen at den har
+Foreløpig har vi ikke laget noe kode som forteller ballen at den har
 truffet nettet. Det skal vi gjøre nå.
 
 + Klikk på ball-figuren, slik at du ser skriptet vi tidligere lagde
   for denne.
 
-+ Vi skal nå bruke `berører fargen`{.blocklightblue}-klossen for å
++ Vi skal nå bruke `berører fargen`{.blocksensing}-klossen for å
   oppdage at ballen treffer nettet. Legg til nye klosser i skriptet
   ditt slik at det blir seende slik ut:
 
@@ -258,7 +254,7 @@ truffet nettet. Det skal vi gjøre nå.
         slutt
     ```
 
-+ For å få riktig farge i `berører fargen`{.blocklightblue}-klossen
++ For å få riktig farge i `berører fargen`{.blocksensing}-klossen
   klikker du først på den lille firkanten hvor fargen vises. Deretter
   flytter du musepekeren slik at den peker på nettet. Da forandres
   fargen i den lille firkanten. Klikk igjen for å velge denne fargen.
@@ -269,7 +265,7 @@ __Klikk på det grønne flagget.__
 
 + Stopper ballen når den kommer til nettet?
 
-+ Med `stopp alle`{.blockyellow}-klossen stoppes hele spillet når
++ Med `stopp alle`{.blockcontrol}-klossen stoppes hele spillet når
   ballen treffer nettet. For å spille videre må du klikke det grønne
   flagget igjen.
 
@@ -290,7 +286,7 @@ retningen kattefiguren står i.
 
 ![](sprett_vinkel2.png)
 
-I figuren over og i koden videre betyr `retning`{.blockblue} retningen
+I figuren over og i koden videre betyr `retning`{.blockmotion} retningen
 til ballen, siden koden tilhører ballfiguren.  Så langt har vi brukt
 
 ```blocks
@@ -301,8 +297,8 @@ for at ballen skal snu. I figuren ser vi at dette betyr at ballen
 spretter tilbake der den kom i fra.
 
 Vi bør også kompensere for retningen til `Katt`. Dette kan vi gjøre
-ved å trekke fra to ganger (`retning`{.blockblue} - `retning av
-katt`{.blocklightblue}). Skjønner du hvorfor av figuren? Da blir den
+ved å trekke fra to ganger (`retning`{.blockmotion} - `retning av
+katt`{.blocksensing}). Skjønner du hvorfor av figuren? Da blir den
 nye retningen
 
 ```blocks
@@ -367,12 +363,12 @@ variabel er et navn på en verdi som kan variere.
 + Klikk på `Data`-kategorien og deretter på
   `Lag en Variabel`{.blocklightgrey}.
 
-+ Gi variabelen navnet `Poeng`{.blockorange}, og la den gjelde for
++ Gi variabelen navnet `Poeng`{.blockdata}, og la den gjelde for
   alle figurer. Legg merke til at når du klikker `OK` dukker det opp
-  en boks som heter `Poeng`{.blockorange} på scenen, og flere nye
+  en boks som heter `Poeng`{.blockdata} på scenen, og flere nye
   klosser under `Lag en Variabel`{.blocklightgrey}.
 
-Vi vil nå at `Poeng`{.blockorange} skal settes til `0` når spillet
+Vi vil nå at `Poeng`{.blockdata} skal settes til `0` når spillet
 starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
 
 + Legg på to nye klosser i skriptet som styrer ballen:
@@ -410,12 +406,12 @@ Ved å endre på `3`-tallet endrer vi hastigheten på ballen. Prøv dette
 selv!
 
 + For å endre hastigheten underveis i spillet trenger vi en variabel.
-  Lag en ny variabel som du kaller `Hastighet`{.blockorange}. Du kan
+  Lag en ny variabel som du kaller `Hastighet`{.blockdata}. Du kan
   la denne gjelde kun for denne figuren.
 
 + Hastigheten er ikke så interessant å vise på scenen. Du kan skjule
   boksen på scenen ved å fjerne avhukingen ved siden av
-  `Hastighet`{.blockorange}.
+  `Hastighet`{.blockdata}.
 
     ![](variabel.png)
 
@@ -442,7 +438,7 @@ selv!
         slutt
     ```
 
-    Pass på at du også endrer `gå steg`{.blockblue}-klossen.
+    Pass på at du også endrer `gå steg`{.blockmotion}-klossen.
 
 # Ekstra 3: Unngå at katten fanger ballen {.activity}
 
@@ -457,16 +453,16 @@ fortsetter å berøre katten og blir derfor snudd igjen ... og igjen
 ... og igjen.
 
 + Vi skal nå lage nok en variabel. Denne skal hete
-  `Flytt`{.blockorange}, kun gjelde for denne figuren, og heller ikke
+  `Flytt`{.blockdata}, kun gjelde for denne figuren, og heller ikke
   vises på scenen.
 
-`Flytt`{.blockorange}-variabelen vil vi bruke til å telle hvor mange
+`Flytt`{.blockdata}-variabelen vil vi bruke til å telle hvor mange
 flytt ballen har gjort siden den sist berørte katten. Deretter kan vi
 si at ballen skal snu kun hvis den har flyttet mange ganger siden den
 sist snudde.
 
 + Utvid skriptet ditt som under. Legg spesielt merke til at
-  `hvis`{.blockyellow}-testen har blitt utvidet.
+  `hvis`{.blockcontrol}-testen har blitt utvidet.
 
     ```blocks
         når grønt flagg klikkes
@@ -493,14 +489,14 @@ sist snudde.
 I disse ekstrastegene har vi sett på noen måter vi kan gjøre spillet
 bedre og mer spennende på. Her er enda flere ideer:
 
-Du kan bytte kattefiguren med en annen figur. Dette gjør du enklest
-ved å gå til `Drakter`{.blocklightgrey}-fanen fordi da beholder du
-skriptet du allerede har laget på figuren. Her kan du velge en av de
-ferdige figurene eller tegne en ny figur selv.
++ Du kan bytte kattefiguren med en annen figur. Dette gjør du enklest
+  ved å gå til `Drakter`-fanen fordi da beholder du skriptet du
+  allerede har laget på figuren. Her kan du velge en av de ferdige
+  figurene eller tegne en ny figur selv.
 
-Prøv å legg på lyder, for eksempel når katten berører ballen eller når
-ballen treffer nettet. Se på de forskjellige klossene i
-`Lyder`{.blockpink}-kategorien, og lydene som finnes under
-`Lyder`{.blocklightgrey}-fanen.
++ Prøv å legg på lyder, for eksempel når katten berører ballen eller
+  når ballen treffer nettet. Se på de forskjellige klossene i
+  `Lyder`{.blocksound}-kategorien, og lydene som finnes under
+  `Lyder`-fanen.
 
 Det finnes mange andre ting å prøve også. Du bestemmer!

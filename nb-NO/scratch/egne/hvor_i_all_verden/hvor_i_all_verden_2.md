@@ -1,6 +1,6 @@
 ---
 title: Hvor i All Verden? Del 2
-level: 4
+level: 3
 author: Geir Arne Hjelle
 ---
 
@@ -24,11 +24,16 @@ mange reisemål. Vi vil også lage en skikkelig intro til spillet.
 
 ## Sjekkliste {.check}
 
-Sjekk spesielt at
+Siden vi skal forandre og videreutvikle flere ting trenger ikke
+spillet du laget i del 1 være helt perfekt. Sjekk likevel at
 
-+ du har et helikopter som du kan styre rundt på skjermen med piltastene,
++ du har et helikopter som du kan styre rundt på skjermen med
+  piltastene, og
 
 + du har en stedfigur som kan bli funnet av helikopteret.
+
+Hvis ikke disse tingene fungerer så gå tilbake til del 1 og gjør dem
+ferdige.
 
 # Steg 1: Bakgrunnen som figur {.activity}
 
@@ -42,9 +47,10 @@ Sjekk spesielt at
   bra nå.
 
 + Lag en ny figur ved å klikke
-  ![Last opp figur fra fil](hent-fra-fil.png) ved siden av `Ny figur`.
-  Velg filen `europakart.png` som du lastet ned forrige gang. Hvis du
-  ikke har denne lett tilgjengelig kan du laste den ned på nytt fra
+  ![Last opp figur fra fil](../../bilder/hent-fra-fil.png) ved siden
+  av `Ny figur`.  Velg filen `europakart.png` som du lastet ned
+  forrige gang. Hvis du ikke har denne lett tilgjengelig kan du laste
+  den ned på nytt fra
   <http://kodeklubben.github.io/nb-NO/scratch_kurs.2/02/europakart.png>.
 
 + Gi denne nye kartfiguren navnet `Kart`.
@@ -59,8 +65,8 @@ Sjekk spesielt at
 
 + Vi vil nå lage denne figuren så stor som mulig. Dessverre har
   Scratch en begrensning på hvor store figurer kan være. Du kan se
-  denne om du først krysser av for at `størrelse`{.blockpurple} skal
-  vises på kart-figuren. Deretter kan du endre tallet i
+  dette om du først krysser av for at `størrelse`{.blocklooks} skal
+  vises på kart-figuren. Deretter kan du endre størrelsen med
 
     ```blocks
         sett størrelse til (9999) %
@@ -71,13 +77,13 @@ Sjekk spesielt at
     mulig på kartet når det grønne flagget klikkes.
 
 + Til bruk senere, når vi skal lage en intro til spillet, er det greit
-  å skjule kartfiguren når det grønne flagget klikkes.
+  å `skjule`{.blocklooks} kartfiguren når det grønne flagget klikkes.
 
 # Koordinatsystemer {.activity}
 
 I del 1 så vi såvidt hvordan vi bruker koordinater for å beskrive hvor
 helikopteret og reisemålet er på skjermen (og på kartet). Om du
-trykker `i`{.blockblue} på en figur vil du alltid se koordinatene til
+trykker `i`{.blockmotion} på en figur vil du alltid se koordinatene til
 figuren, som to tall `x` og `y`.
 
 ![](reisemaal.png)
@@ -117,8 +123,8 @@ og bakgrunnen.
         gå (hastighet) steg
     ```
 
-    vil vi endre `X`{.blockorange} eller `Y`{.blockorange} med
-    `hastighet`{.blockorange} eller med
+    vil vi endre `X`{.blockdata} eller `Y`{.blockdata} med
+    `hastighet`{.blockdata} eller med
 
     ```blocks
         ((0) - (hastighet))
@@ -132,7 +138,7 @@ __Klikk på det grønne flagget.__
 
 + Helikopteret skal nå __ikke__ flytte seg når du trykker på
   piltastene. Hvis helikopteret flytter seg må du slette
-  `gå`{.blockblue}-klossene.
+  `gå`{.blockmotion}-klossene.
 
 + Helikopteret skal fortsatt snu seg til høyre eller venstre når du
   trykker på piltastene.
@@ -193,7 +199,7 @@ slik at helikopteret ikke kan fly ut av kartet?
   sted-figuren flytte seg sammen med kartet. Vi behøver da to
   variabler som holder rede på hvor stedet skal ligge i forhold til
   kartet. Lag to variabler som heter `stedX` og `stedY`. Begge disse
-  skal gjelde kun for denne figuren.
+  skal gjelde kun for sted-figuren.
 
 + Bytt ut
 
@@ -238,14 +244,14 @@ Om du bare ser på koden vi har lagt på sted-figuren kan det se ut som
 om det er mye arbeid å legge til et nytt reisemål. Men om vi ser litt
 nøyere oppdager vi at om vi vil ha et nytt sted å reise til kan vi
 bruke mye av den samme koden. Vi må bare endre navnet
-(`Reis til`{.blockorange}) og koordinatene (`X`{.blockorange} og
-`Y`{.blockorange}).
+(`Reis til`{.blockdata}) og koordinatene (`X`{.blockdata} og
+`Y`{.blockdata}).
 
 Dette er et bra eksempel på når det kan lønne seg å bruke funksjoner,
 eller lage egne klosser som man gjør i Scratch.
 
-+ Klikk på `Flere klosser`{.blockpurple} og lag en kloss som ser slik
-  ut:
++ Klikk på `Flere klosser`{.blockmoreblocks} og lag en kloss som ser
+  slik ut:
 
     ![](nykloss.png)
 
@@ -259,7 +265,7 @@ eller lage egne klosser som man gjør i Scratch.
 
     Under denne klossen kan vi definere hva funksjonen vår skal gjøre.
 
-+ Flytt skriptet ditt fra `Nytt sted`{.blockgrey}-blokken til den nye
++ Flytt skriptet ditt fra `Nytt sted`{.blockevents}-blokken til den nye
   funksjonen, og endre litt - spesielt i variablene - slik at
   funksjonen din ser slik ut:
 
@@ -273,17 +279,17 @@ eller lage egne klosser som man gjør i Scratch.
         sett [gjennomsiktig v] effekt til (0)
         si (sett sammen [Fant ] (sted))
         gjenta (5) ganger
-			gjenta (10) ganger
-				endre størrelse med (10)
-			slutt
-			gjenta (10) ganger
-				endre størrelse med (-10)
-			slutt
-		slutt
+            gjenta (10) ganger
+                endre størrelse med (10)
+            slutt
+            gjenta (10) ganger
+                endre størrelse med (-10)
+            slutt
+        slutt
         si []
     ```
 
-+ Til slutt kan vi endre på `Nytt spill`{.blockgrey}-blokken slik at
++ Til slutt kan vi endre på `Nytt spill`{.blockevents}-blokken slik at
   vi bruker den nye funksjonen. For eksempel
 
     ```blocks
@@ -330,19 +336,19 @@ spillet, samt legge på en tidsbegrensning og poengsum.
 
 ## Prøv selv {.try}
 
-Kan du legge til flere reisemål på egen hånd? Husk at det er lurt å
-gjøre reisemålet synlig mens du tester. Da blir det enklere å finne
-koordinatene til reisemålet!
++ Kan du legge til flere reisemål på egen hånd? Husk at det er lurt å
+  gjøre reisemålet synlig mens du tester. Da blir det enklere å finne
+  koordinatene til reisemålet!
 
-Spillet blir morsommere hvis ikke reisemålene kommer i samme
-rekkefølge hver gang du spiller. Hvordan kan du få reisemålene til å
-komme i tilfeldig rekkefølge? Prøv å lage kode som gjør dette!
++ Spillet blir morsommere hvis ikke reisemålene kommer i samme
+  rekkefølge hver gang du spiller. Hvordan kan du få reisemålene til å
+  komme i tilfeldig rekkefølge? Prøv å lage kode som gjør dette!
 
-Fortsatt er ikke kartet så veldig stort. En måte å komme seg rundt
-begrensningen på figurstørrelse i Scratch er å la bakgrunnen bestå av
-flere deler. Filen
-<http://kodeklubben.github.io/nb-NO/scratch_kurs.2/02/europakart.zip>
-inneholder 9 kartfliser du kan prøve å pusle sammen. Du må da laste
-inn hver av dem som en egen figur. Hver av dem trenger omtrent samme
-kode som kartet vi har brukt så langt. Du må bare endre litt i
-`gå til`{.blockblue}-klossene.
++ Fortsatt er ikke kartet så veldig stort. En måte å komme seg rundt
+  begrensningen på figurstørrelse i Scratch er å la bakgrunnen bestå
+  av flere deler. Filen
+  <http://kodeklubben.github.io/nb-NO/scratch_kurs.2/02/europakart.zip>
+  inneholder 9 kartfliser du kan prøve å pusle sammen. Du må da laste
+  inn hver av dem som en egen figur. Hver av dem trenger omtrent samme
+  kode som kartet vi har brukt så langt. Du må bare endre litt i `gå
+  til`{.blockmotion}-klossene.

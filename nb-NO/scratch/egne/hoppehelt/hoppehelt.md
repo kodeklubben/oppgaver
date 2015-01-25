@@ -8,11 +8,9 @@ author: Geir Arne Hjelle
 
 Hoppehelt er litt inspirert av musikkspillet Guitar Hero. I Hoppehelt
 skal man kontrollere flere helter samtidig mens de hopper over fargede
-bokser som lager lyd.
-
-Gjennom spillet Hoppehelt vil vi se litt nærmere på hvordan kloner
-brukes når man programmerer i Scratch. Vi vil til og med se eksempler
-på kloner av kloner!
+bokser som lager lyd.  Gjennom spillet Hoppehelt vil vi se litt
+nærmere på hvordan kloner brukes når man programmerer i Scratch. Vi
+vil til og med se eksempler på kloner av kloner!
 
 ![](hoppehelt.png)
 
@@ -48,14 +46,14 @@ på kloner av kloner!
     Du kan senere lage flere drakter slik at spillet ser bedre ut, men
     vi vil ikke bruke tid på det nå.
 
-+ Lag en ny variabel som du kaller `sprett`{.blockorange}. Det er viktig
++ Lag en ny variabel som du kaller `sprett`{.blockdata}. Det er viktig
   at denne gjelder kun for denne figuren.
 
-    Vi vil bruke `sprett`{.blockorange}-variabelen til å beskrive
+    Vi vil bruke `sprett`{.blockdata}-variabelen til å beskrive
     heltens bevegelse når han hopper.
 
 + I heltens hovedløkke lar vi gravitasjonen virke ved at vi stadig
-  prøver å gjøre `sprett`{.blockorange} mindre, samtidig som vi sier
+  prøver å gjøre `sprett`{.blockdata} mindre, samtidig som vi sier
   at dersom helten berører bakken skal han ikke falle.
 
     ```blocks
@@ -71,15 +69,15 @@ på kloner av kloner!
         slutt
     ```
 
-    Sett fargen i `berører fargen`{.blocklightblue}-klossen til samme
+    Sett fargen i `berører fargen`{.blocksensing}-klossen til samme
     farge som streken du tegnet på bakgrunnen i Steg 1.
 
 + Prøv å endre startposisjonen til helten, spesielt y-koordinaten. Får
   du helten til å falle mot bakken?
 
-+ Legg til en ny `hvis`{.blockyellow}-test inne i
-  `hvis`{.blockyellow}-testen du allerede har. Hvis tasten `m` trykkes
-  setter du `sprett`{.blockorange} til et positivt tall. Prøv deg fram
++ Legg til en ny `hvis`{.blockcontrol}-test inne i
+  `hvis`{.blockcontrol}-testen du allerede har. Hvis tasten `m` trykkes
+  setter du `sprett`{.blockdata} til et positivt tall. Prøv deg fram
   slik at du finner en verdi som gjør at helten gjør passe store hopp.
 
 ## Test prosjektet {.flag}
@@ -99,27 +97,27 @@ __Klikk på det grønne flagget.__
 
 + Lag en ny figur ved å tegne en liten fargelagt boks som helten kan
   hoppe over. Kall figuren `Boks`. Bruk
-  ![Velg senterpunkt](velg_senterpunkt.png) til å sette senterpunktet
-  nederst til venstre på boksen.
+  ![Velg senterpunkt](../../bilder/velg_senterpunkt.png) til å sette
+  senterpunktet nederst til venstre på boksen.
 
 + Når boksen mottar meldingen `Nytt spill` vil vi at den plasserer seg
   på bakken helt til venstre på skjermen. Bruk en
-  `gå til`{.blockblue}-kloss og lag dette skriptet selv. Pass på at boksen
+  `gå til`{.blockmotion}-kloss og lag dette skriptet selv. Pass på at boksen
   ikke berører kanten av skjermen.
 
 + Etter at du har funnet en bra plassering på boksen kan du utvide
-  skriptet ved å `skjule`{.blockpurple} figuren, samt lage en løkke
+  skriptet ved å `skjule`{.blocklooks} figuren, samt lage en løkke
   hvor boksen lager en klone av seg selv hvert andre sekund.
 
 + Gå til scenen og lag en variabel du kaller
-  `hastighet`{.blockorange}. Lag et skript på scenen som setter denne
+  `hastighet`{.blockdata}. Lag et skript på scenen som setter denne
   variabelen til `3` når meldingen `Nytt spill` mottas.
 
 + Gå tilbake til boksfiguren. Vi vil nå at boksklonene flytter seg mot
   helten. Lag et nytt skript som begynner når boksen starter som
-  klon. I dette skriptet må du `vise`{.blockpurple} boksen. Deretter
+  klon. I dette skriptet må du `vise`{.blocklooks} boksen. Deretter
   kan du starte en løkke som gjentas til boksen berører kanten. Inne i
-  løkken vil du endre x med `hastighet`{.blockorange}. Etter løkken
+  løkken vil du endre x med `hastighet`{.blockdata}. Etter løkken
   kan du slette denne klonen.
 
 ## Test prosjektet {.flag}
@@ -134,12 +132,12 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Vi vil la spille stoppe når helten springer inn i en boks. Gå til
-  `Helt 1`. Bytt nå ut `for alltid`{.blockyellow}-løkken med en
-  `gjenta til`{.blockyellow}-løkke som du lar gjenta til helten
++ Vi vil la spillet stoppe når helten springer inn i en boks. Gå til
+  `Helt 1`. Bytt nå ut `for alltid`{.blockcontrol}-løkken med en
+  `gjenta til`{.blockcontrol}-løkke som du lar gjenta til helten
   berører `Boks`.
 
-+ Etter den nye `gjenta til`{.blockyellow}-løkken kan du sende ut en
++ Etter den nye `gjenta til`{.blockcontrol}-løkken kan du sende ut en
   ny melding `Spill slutt`.
 
 + Klikk på boks-figuren. Legg til et skript som stopper andre skript i
@@ -157,13 +155,13 @@ __Klikk på det grønne flagget.__
     ```
 
     kloss etter løkken som flytter boksen, men før klonen
-    slettes. Bruk gjerne `velg instrument`{.blockpink}-klossen til å
+    slettes. Bruk gjerne `velg instrument`{.blocksound}-klossen til å
     velge et passende instrument før spillet starter.
 
 + Om du tester dette vil du se at boksene blir hengende litt mens
   lyden spilles. En enkel måte å unngå dette på er å legge til en
-  `skjul`{.blockpurple}-kloss rett før
-  `spill tone`{.blockpink}-klossen.
+  `skjul`{.blocklooks}-kloss rett før
+  `spill tone`{.blocksound}-klossen.
 
 ## Prøv selv {.try}
 
@@ -177,13 +175,13 @@ tilfeldig, for eksempel med klossen
 
 ```blocks
     sett størrelse til (tilfeldig tall fra (30) til (100)) %
----
+```
 
 På samme måte kan du bruke
 
 ```blocks
     sett [farge v] effekt til (tilfeldig tall fra (-100) til (100))
----
+```
 
 til å endre fargen på boksene tilfeldig. Finn også på andre effekter,
 kanskje ved å bruke flere drakter?
@@ -197,7 +195,7 @@ gjerne en
 
 ```blocks
     tilfeldig tall fra (1.2) til (3.2)
----
+```
 
 kloss. Eksperimenter med verdiene i klossen.
 
@@ -210,14 +208,14 @@ kloss. Eksperimenter med verdiene i klossen.
 
 + Se på skriptene til `Boks`. Ser du at du har en *generator-løkke*
   som lager nye bokser omtrent hvert annet sekund (du har kanskje lagt
-  på en `tilfeldig`{.blocklightgreen}-kloss i denne løkken). Videre
+  på en `tilfeldig`{.blockoperators}-kloss i denne løkken). Videre
   har du en *flytte-løkke* som flytter boksene mot høyre, med
   eventuelle tilfeldige innstillinger på boksene.
 
     Riv løs begge disse to løkkene og legg dem til side. Vi skal bruke
     dem igjen straks, så ikke slett noe.
 
-+ Lag en ny variabel som du kaller `er generator`{.blockorange}. Denne
++ Lag en ny variabel som du kaller `er generator`{.blockdata}. Denne
   må gjelde kun for denne figuren. Vi vil bruke denne variabelen til å
   identifisere generator-løkken.
 
@@ -251,11 +249,11 @@ kloss. Eksperimenter med verdiene i klossen.
     ```
 
 + Flytt nå generator-løkken som du la til side tidligere inn i
-  `hvis`{.blockyellow}-testen rett under
-  `sett er generator`{.blockorange}-klossen.
+  `hvis`{.blockcontrol}-testen rett under
+  `sett er generator`{.blockdata}-klossen.
 
 + Tilsvarende legger du flytt-løkken fra tidligere inn i
-  `ellers`{.blockyellow}-testen.
+  `ellers`{.blockcontrol}-testen.
 
 Prøv spillet ditt. Du skal nå ha tre rader med bokser som flyttes over
 skjermen.
@@ -271,7 +269,7 @@ __Klikk på det grønne flagget.__
 
 + Har du tre rader med bokser som kommer skliende over skjermen?
 
-+ Det er foreløbig bare en hoppehelt på den nederste raden?
++ Det er foreløpig bare en hoppehelt på den nederste raden?
 
 # Steg 5: Hvor er alle heltene? {.activity}
 
@@ -285,9 +283,9 @@ __Klikk på det grønne flagget.__
 + Klikk på `Helt 2`. Det eneste vi trenger å endre på er y-posisjonen
   og tasten som brukes til å hoppe.
 
-    Endre y-posisjonen i `gå til`{.blockblue}-klossen med 110.
+    Endre y-posisjonen i `gå til`{.blockmotion}-klossen med 110.
 
-    Endre `m` til `k` i `tast trykket`{.blocklightblue}-testen.
+    Endre `m` til `k` i `tast trykket`{.blocksensing}-testen.
 
 Prøv spillet ditt igjen. Har du nå to hoppehelter? Virker de som de skal?
 
@@ -309,7 +307,7 @@ Oppgaven slutter her, men det er jo fortsatt mange spennende ting du
 kan gjøre med spillet ditt for å gjøre det enda bedre.
 
 Prøv for eksempel å legge til poeng ved å lage en
-`Poeng`{.blockorange}-variabel som du øker hver gang en boks har blitt
+`Poeng`{.blockdata}-variabel som du øker hver gang en boks har blitt
 hoppet over. Du kan også øke hastigheten etterhvert som spillet går.
 
 Prøv å gjøre tonen som spilles avhengig av y-posisjonen til

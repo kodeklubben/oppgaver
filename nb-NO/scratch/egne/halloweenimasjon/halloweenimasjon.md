@@ -1,11 +1,7 @@
 ---
 title: Halloweenimasjon
 level: 1
-language: nb-NO
-stylesheet: scratch
-embeds: ["halloweenimasjon.jpg", "projiser.html", "*.png", "../../bilder/*.png"]
 author: Torbjørn Skauli
-note: "README.md"
 ---
 
 # Introduksjon {.intro}
@@ -32,14 +28,14 @@ gardin, et laken eller en vegg under Halloween.
   ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png). Finn
   et skummelt spøkelse! Vi har brukt `Fantasi/Ghost2`.
 
-+ Trykk på `i`{.blockblue} øverst til venstre på den nye
++ Trykk på `i`{.blockmotion} øverst til venstre på den nye
   spøkelsesfiguren din. Gi den navnet `Spøkelse`.
 
     ![](spokelse.png)
 
 + Nå skal vi lage et enkelt skript som får spøkelset til å fly over
-  skjermen. Bygg sammen en `gjenta`{.blockyellow}- og en
-  `gå`{.blockblue}-kloss på denne måten:
+  skjermen. Bygg sammen en `gjenta`{.blockcontrol}- og en
+  `gå`{.blockmotion}-kloss på denne måten:
 
     ```blocks
         gjenta (200) ganger
@@ -52,7 +48,7 @@ gardin, et laken eller en vegg under Halloween.
 
 + Spøkelset ser ut som om det setter seg fast når det kommer til
   kanten! Dette kan vi fikse med en
-  `sprett tilbake`{.blockblue}-kloss:
+  `sprett tilbake`{.blockmotion}-kloss:
 
     ```blocks
         gjenta (200) ganger
@@ -65,7 +61,7 @@ gardin, et laken eller en vegg under Halloween.
 
 + Hmm ... Spøkelset flyr opp-ned ... Det ser litt rart ut. Vi kan si
   at spøkelset bare skal snu seg sidelengs med en
-  `begrens rotasjon`{.blockblue}-kloss. Denne legger vi helt først i
+  `begrens rotasjon`{.blockmotion}-kloss. Denne legger vi helt først i
   skriptet på denne måten:
 
     ```blocks
@@ -113,8 +109,8 @@ gardin, et laken eller en vegg under Halloween.
 
 + Et lite problem er at spøkelset også ligger på skjermen. Det vil
   være bedre å skjule spøkelset når det ikke animeres. Klikk på
-  spøkelsesfiguren, og legg til en `vis`{.blockpurple}- og en
-  `skjul`{.blockpurple}-kloss i skriptet:
+  spøkelsesfiguren, og legg til en `vis`{.blocklooks}- og en
+  `skjul`{.blocklooks}-kloss i skriptet:
 
     ```blocks
         begrens rotasjon [vend sideveis v]
@@ -194,7 +190,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 
     ut ved siden av det store skriptet til spøkelset.
 
-+ Send meldingen ved å klikke på `send melding`{.blockgrey}-klossen.
++ Send meldingen ved å klikke på `send melding`{.blockevents}-klossen.
   Animeres spøkelset over en svart bakgrunn?
 
 + Vi vil nå gjøre det samme for demonen. Legg til et nytt skript på
@@ -236,7 +232,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 
 ## Sjekkliste {.check}
 
-+ Vi begynner med å lage en `for alltid`{.blockyellow}-løkke på
++ Vi begynner med å lage en `for alltid`{.blockcontrol}-løkke på
   scenen, som sender meldinger:
 
     ```blocks
@@ -250,7 +246,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   å stoppe animasjonen. Vises animasjonene etter hverandre i en evig løkke?
 
 + Det vil se litt bedre ut med en kort pause mellom animasjonene. Legg
-  til et par `vent`{.blockyellow}-klosser i skriptet.
+  til et par `vent`{.blockcontrol}-klosser i skriptet.
 
     ```blocks
         for alltid

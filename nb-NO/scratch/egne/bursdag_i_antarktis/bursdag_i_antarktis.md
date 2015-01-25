@@ -1,11 +1,7 @@
 ---
 title: Bursdag i Antarktis
 level: 2
-language: nb-NO
-stylesheet: scratch
 author: Caroline Tandberg
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
 ---
 
 # Introduksjon {.intro}
@@ -72,7 +68,7 @@ møter dansende pingviner på bursdagen sin. Men som alltid er det greit
         slutt
     ```
 
-	Tallet 100 i `pek i retning`{.blockblue}-klossen gjør at Felix går
+	Tallet 100 i `pek i retning`{.blockmotion}-klossen gjør at Felix går
 	litt nedover mens han går over skjermen. Prøv gjerne med noen
 	andre tall for å se effekten av dem.
 
@@ -128,7 +124,7 @@ __Klikk på det grønne flagget.__
 
 + Skifter bakgrunnen når Felix kommer til enden av skjermen?
 
-+ Klarer du å endre tallet i klossen `vent 3 sekunder`{.blockyellow}
++ Klarer du å endre tallet i klossen `vent 3 sekunder`{.blockcontrol}
   slik at det ser bedre ut?
 
 # Steg 2: Det blir enklere med meldinger {.activity}
@@ -137,7 +133,7 @@ __Klikk på det grønne flagget.__
  likt.*
 
 Vi har sett at vi kan klare å få ting til å skje samtidig ved å bruke
-`vent`{.blockyellow}-klosser. Men det er vanskelig å finne ut akkurat
+`vent`{.blockcontrol}-klosser. Men det er vanskelig å finne ut akkurat
 hvor lenge vi bør vente, og det er kjedelig å måtte endre på denne
 tiden om vi forandrer for eksempel hvor fort Felix går.
 
@@ -207,13 +203,13 @@ mennesker.
 	```
 
 + For å teste hvordan skriptet virker kan du bare klikke på for
-  eksempel klossen `når jeg mottar Si hei`{.blockgrey}. Snakker og
+  eksempel klossen `når jeg mottar Si hei`{.blockevents}. Snakker og
   tenker Felix?
 
 + Når du svarer på Felix spørsmål blir svaret ditt tatt vare på i en
-  variabel som heter `svar`{.blocklightblue}. Vi vil lage en ny
+  variabel som heter `svar`{.blocksensing}. Vi vil lage en ny
   variabel med et bedre navn som kan ta vare på dette svaret. Lag en
-  ny variabel som heter `alder`{.blockorange}. La denne variabelen
+  ny variabel som heter `alder`{.blockdata}. La denne variabelen
   gjelde for alle figurer, og fjern avhuking slik at variabelen ikke
   vises.
 
@@ -228,7 +224,7 @@ mennesker.
     ```
 
 + Nå vil vi at Felix skal si og gjøre alt dette før han vandrer
-  gjennom skogen. Legg til en `send melding`{.blockgrey}-kloss i det
+  gjennom skogen. Legg til en `send melding`{.blockevents}-kloss i det
   første skriptet til Felix:
 
     ```blocks
@@ -257,8 +253,8 @@ __Klikk på det grønne flagget.__
 
 + Vi vil at Felix snakker ferdig før han begynner å gå. Dette er
   heldigvis ganske enkelt. Hvis vi bytter ut `send
-  melding`{.blockgrey}-klossen med en `send melding og
-  vent`{.blockgrey}-kloss, vil ikke Felix begynne å gå før han er
+  melding`{.blockevents}-klossen med en `send melding og
+  vent`{.blockevents}-kloss, vil ikke Felix begynne å gå før han er
   ferdig å snakke (og vi har svart på spørsmålet hans):
 
     ```blocks
@@ -293,7 +289,7 @@ mindre mens han går.
 
 + Vi skal nå fortsette på skriptet til Felix som begynner med at han
   mottar meldingen `Scene 2`. Legg til en liten
-  `si`{.blockpurple}-kloss først:
+  `si`{.blocklooks}-kloss først:
 
     ```blocks
         når jeg mottar [Scene 2 v]
@@ -319,15 +315,15 @@ mindre mens han går.
 
 + Følger Felix veien oppover? Blir han mindre mens han går? Husk at om
   du vil teste dette skriptet uten å se hele animasjonen kan du klikke
-  på `når jeg mottar Scene 2`{.blockgrey}-klossen. Du bør også klikke
-  på `sett størrelse til 100%`{.blockpurple}-klossen i
-  `Utseende`{.blockpurple}-kategorien innimellom, slik at Felix får
+  på `når jeg mottar Scene 2`{.blockevents}-klossen. Du bør også klikke
+  på `sett størrelse til 100%`{.blocklooks}-klossen i
+  `Utseende`{.blocklooks}-kategorien innimellom, slik at Felix får
   tilbake sin vanlige størrelse.
 
 + Nå vil vi at Felix skal forandre retning slik at han følger
   veien. Et triks er at vi kan gange retningen hans med -1. Da blir
   det som om han snur seg rundt. Siden vi vil gjøre dette fire ganger
-  lager vi også en ny `gjenta`{.blockyellow}-kloss:
+  lager vi også en ny `gjenta`{.blockcontrol}-kloss:
 
     ```blocks
         når jeg mottar [Scene 2 v]
@@ -357,9 +353,9 @@ forskjellig fra -1 i retningen.
 
 ## Sjekkliste {.check}
 
-+ Endre `-1` i `pek i retning`{.blockblue}-klossen til `-1.5`.
++ Endre `-1` i `pek i retning`{.blockmotion}-klossen til `-1.5`.
 
-+ For å skjønne bedre hva som skjer kan du klikke på `i`{.blockblue}
++ For å skjønne bedre hva som skjer kan du klikke på `i`{.blockmotion}
   på Felix og følge med på `retning` mens skriptet kjører.
 
 + Når Felix kommer fram til huset kan vi skjule ham, og skifte til en
@@ -511,7 +507,7 @@ __Klikk på det grønne flagget.__
         send melding [Party v]
     ```
 
-Legg merke til `sett sammen`{.blocklightgreen}-klossen. Denne kan vi
+Legg merke til `sett sammen`{.blockoperators}-klossen. Denne kan vi
 bruke for å sette sammen tekst. Pass på at du skriver et mellomrom
 etter ordet `blir`!
 
