@@ -1,17 +1,13 @@
 ---
 title: Fyrverkeri
-playlist: Introduksjon til scratch
-level: 1.3
-language: nb-NO
-stylesheet: scratch
-embeds: ["*.png", "../../bilder/*.png"]
+level: 2
 materials: "ressurser/*"
-note: "README.md"
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 # Introduksjon {.intro}
+
 I dette prosjektet skal vi skyte opp fyrverkeri over en by.
 
 ![](fyrverkeri.png)
@@ -24,13 +20,16 @@ I dette prosjektet skal vi skyte opp fyrverkeri over en by.
 ## Sjekkliste {.check}
 
 + Lag et nytt Scratch-prosjekt. Fjern katten ved å høyreklikke på den
-og velge `slett`.
+  og velge `slett`.
+
 + Bytt bakgrunnsbilde til for eksempel `utendørs/city-with-water`.
+
 + Klikk på *Ny figur: Last opp figur fra fil*,
-![Last opp figur fra fil](hent-fra-fil.png), for å legge til en
-rakett-figur i prosjektet, `ressurser/rocket.png`.
+  ![Last opp figur fra fil](../../bilder/hent-fra-fil.png), for å
+  legge til en rakett-figur i prosjektet, `ressurser/rocket.png`.
+
 + Vi vil at raketten skal skjules når du klikker på det grønne
-flagget.
+  flagget.
 
     ```blocks
         når grønt flagg klikkes
@@ -40,9 +39,9 @@ flagget.
 Nå vil vi gjerne at raketten skal bevege seg mot musepekeren når du
 trykker på mellomromstasten.
 
-+ Legg til en kloss `når mellomrom trykkes`{.blockgrey}. Deretter
-lager vi to klosser som gjør raketten synlig og lar den bevege seg
-mot musepekeren.
++ Legg til en kloss `når mellomrom trykkes`{.blockevents}. Deretter
+  lager vi to klosser som gjør raketten synlig og lar den bevege seg
+  mot musepekeren.
 
     ```blocks
         når [mellomrom v] trykkes
@@ -55,18 +54,20 @@ mot musepekeren.
 __Klikk på det grønne flagget.__
 
 + Plasser musepekeren over scenen og trykk mellomromstasten.
+
 + Ser du raketten som beveger seg mot musepekeren?
+
 + Hva skjer hvis du flytter på musepekeren og trykker mellomromstasten
-igjen?
+  igjen?
 
 ## Sjekkliste {.check}
 
 Fyrverkeri pleier ikke å fly fra side til side, så du bør gjøre det
 slik at raketten alltid flyr mot musepekeren fra bunnen av skjermen.
 
-+ Før du fyrer opp raketten: bruk klossen `gå til`{.blockblue} for å
-få raketten til å flytte seg til bunnen av skjermen, men slik at den
-er samme sted horisontalt.
++ Før du fyrer opp raketten: bruk klossen `gå til`{.blockmotion} for å
+  få raketten til å flytte seg til bunnen av skjermen, men slik at den
+  er samme sted horisontalt.
 
     ```blocks
         når grønt flagg klikkes
@@ -83,17 +84,20 @@ er samme sted horisontalt.
 __Klikk på det grønne flagget.__
 
 + Trykk mellomromstasten.
+
 + Flyr raketten mot musepekeren fra bunnen av skjermen?
+
 + Hva skjer hvis du flytter på musa og trykker mellomromstasten igjen?
 
 ## Sjekkliste {.check}
 
 + Endelig, prøv å få til det samme ved å bruke museknappen i stedet
-for mellomromstasten. For å gjøre dette kan vi pakke skriptet vårt inn
-i `for alltid`{.blockyellow}- og `hvis museknappen er
-nede`{.blockyellow}-klosser.
-+ Flytt skriptet fra `når mellomrom trykkes`{.blockgrey} til `når
-grønt flagg klikkes`{.blockgrey}, slik at det blir seende slik ut:
+  for mellomromstasten. For å gjøre dette kan vi pakke skriptet vårt
+  inn i `for alltid`{.blockcontrol}- og `hvis museknappen er
+  nede`{.blockcontrol}-klosser.
+
++ Flytt skriptet fra `når mellomrom trykkes`{.blockevents} til `når
+  grønt flagg klikkes`{.blockevents}, slik at det blir seende slik ut:
 
     ```blocks
         når grønt flagg klikkes
@@ -103,6 +107,8 @@ grønt flagg klikkes`{.blockgrey}, slik at det blir seende slik ut:
                 gå til x: (mus x) y: (-200)
                 vis
                 gli (1) sekunder til x: (mus x) y: (mus y)
+            slutt
+        slutt
     ```
 
 ## Test prosjektet {.flag}
@@ -110,14 +116,16 @@ grønt flagg klikkes`{.blockgrey}, slik at det blir seende slik ut:
 __Klikk på det grønne flagget.__
 
 + Klikk musknappen over scenen. Klikk igjen et annet sted.
+
 + Kommer det raketter flyvende?
 
 ## Utfordringer {.try}
 
 + Prøv å få noen raketter til å bevege seg litt saktere eller fortere
-enn andre.
+  enn andre.
+
 + Prøv å endre måten raketten flyr mot musepekeren på: få den for
-eksempel til å bue seg litt.
+  eksempel til å bue seg litt.
 
 # Steg 2: Få raketten til å eksplodere {.activity}
 
@@ -126,11 +134,11 @@ eksempel til å bue seg litt.
 ## Sjekkliste {.check}
 
 + Første steg for å få raketten til å eksplodere er å spille av en
-bang-lyd før den begynner å bevege seg, og deretter gjemme seg når den
-når musepekeren. For å importere en lyd gå til fanen
-`Lyder`{.blocklightgrey} og klikk på *Last opp lyd fra fil*,
-![Last opp lyd fra fil](hent-fra-fil.png). Last opp lyden
-`ressurser/bang.wav`.
+  bang-lyd før den begynner å bevege seg, og deretter gjemme seg når
+  den når musepekeren. For å importere en lyd gå til fanen
+  `Lyder`{.blocklightgrey} og klikk på *Last opp lyd fra fil*,
+  ![Last opp lyd fra fil](../../bilder/hent-fra-fil.png). Last opp
+  lyden `ressurser/bang.wav`.
 
     ```blocks
         når grønt flagg klikkes
@@ -142,11 +150,13 @@ når musepekeren. For å importere en lyd gå til fanen
                 vis
                 gli (1) sekunder til x: (mus x) y: (mus y)
                 skjul
+            slutt
+        slutt
     ```
 
 + Neste steg er å få raketten til å sende en melding til resten av
-spillet når den eksploderer. Vi skal lytte etter meldingen senere. Lag
-en ny melding som heter `Eksploder`.
+  spillet når den eksploderer. Vi skal lytte etter meldingen
+  senere. Lag en ny melding som heter `Eksploder`.
 
     ```blocks
         når grønt flagg klikkes
@@ -159,6 +169,8 @@ en ny melding som heter `Eksploder`.
                 gli (1) sekunder til x: (mus x) y: (mus y)
                 skjul
                 send melding [Eksploder v]
+            slutt
+        slutt
     ```
 
 ## Test prosjektet {.flag}
@@ -166,16 +178,18 @@ en ny melding som heter `Eksploder`.
 __Klikk på det grønne flagget.__
 
 + Sørg for at raketten spiller av lyden og gjemmer seg når den når
-musepekeren.
-+ Prøv å endre tallet i `gli`{.blockblue}-klossen slik at raketten
-skjules akkurat samtidig som det smeller.
+  musepekeren.
+
++ Prøv å endre tallet i `gli`{.blockmotion}-klossen slik at raketten
+  skjules akkurat samtidig som det smeller.
 
 ## Sjekkliste {.check}
 
 + Last opp en ny figur fra fil, `ressurser/firework1.png`.
+
 + Når denne figuren får meldingen `Eksploder` passer vi på at den er
-gjemt, flytter den til raketten ved bruk av klossen `gå
-til`{.blockblue}, viser den og skjuler den igjen 1 sekund senere.
+  gjemt, flytter den til raketten ved bruk av klossen `gå
+  til`{.blockmotion}, viser den og skjuler den igjen 1 sekund senere.
 
     ```blocks
         når jeg mottar [Eksploder v]
@@ -191,8 +205,9 @@ til`{.blockblue}, viser den og skjuler den igjen 1 sekund senere.
 __Klikk på det grønne flagget.__
 
 + Blir raketten erstattet av et eksplosjonsbilde når den eksploderer?
+
 + Hva skjer hvis du holder musknappen nede mens du beveger på musa?
-(Ikke bekymre deg, vi skal fikse det senere).
+  (Ikke bekymre deg, vi skal fikse det senere.)
 
 # Steg 3: Gjør hver eksplosjon unik {.activity}
 
@@ -202,8 +217,8 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 + Vi kan gjøre hver eksplosjon unik ved å bruke klossen `sett
-fargeeffekt`{.blockpurple} og velge en tilfeldig farge før
-eksplosjonen vises.
+  fargeeffekt`{.blocklooks} og velge en tilfeldig farge før
+  eksplosjonen vises.
 
     ```blocks
         når jeg mottar [Eksploder v]
@@ -216,27 +231,30 @@ eksplosjonen vises.
     ```
 
 + Legg til forskjellige bilder av eksplosjoner som drakter ved å velge
-`Drakter`{.blocklightgrey}-fanen til `firework1`. Ved å klikke *Last
-opp drakt fra fil*, ![Last opp drakt fra fil](hent-fra-fil.png), kan
-du legge til `firework2.png`, `firework3.png` og `firework4.png` fra
-`ressurser`.
+  `Drakter`{.blocklightgrey}-fanen til `firework1`. Ved å klikke *Last
+  opp drakt fra fil*,
+  ![Last opp drakt fra fil](../../bilder/hent-fra-fil.png), kan du
+  legge til `firework2.png`, `firework3.png` og `firework4.png` fra
+  `ressurser`.
+
 + Klarer du å få eksplosjonene til å bruke forskjellige drakter?
-(Hint: Du kan for eksempel bruke `neste drakt`{.blockpurple} et
-passende sted i skriptet til Firework1.)
+  (Hint: Du kan for eksempel bruke `neste drakt`{.blocklooks} et
+  passende sted i skriptet til Firework1.)
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 + Har hver eksplosjon en forskjellig farge?
+
 + Ser hver eksplosjon forskjellig ut?
 
 ## Sjekkliste {.check}
 
-+ Til slutt, gjør eksplosjonen større etter at raketten eksploderer!
-I stedet for å vente i 1 sekund sett størrelsen til figuren til 5% før
-den vises, og etter at den blir synlig øk størrelsen med 5 tjue ganger
-ved bruk av klossen `gjenta`{.blockyellow}.
++ Til slutt, gjør eksplosjonen større etter at raketten eksploderer! I
+  stedet for å vente i 1 sekund sett størrelsen til figuren til 5% før
+  den vises, og etter at den blir synlig øk størrelsen med 5 tjue
+  ganger ved bruk av klossen `gjenta`{.blockcontrol}.
 
     ```blocks
         når jeg mottar [Eksploder v]
@@ -254,9 +272,11 @@ ved bruk av klossen `gjenta`{.blockyellow}.
     ```
 
 ## Test prosjektet {.flag}
+
 __Klikk på det grønne flagget.__
 
 + Sprer eksplosjonen seg ut fra midten av raketten?
+
 + Vokser eksplosjonen gradvis?
 
 ## Utfordringer {.try}
@@ -270,8 +290,9 @@ Husker du at vi tidligere hadde et problem med å holde museknappen
 nede?
 
 Dette problemet oppstår fordi når raketten sender sin melding om
-eksplosjonen, gjentar den hvis-løkken med en gang. Dermed blir det
-sendt en eksplosjonsmelding før den forrige er ferdig med animasjonen.
+eksplosjonen, gjentar den `hvis`{.blockcontrol}-løkken med en
+gang. Dermed blir det sendt en eksplosjonsmelding før den forrige er
+ferdig med animasjonen.
 
 I programmeringsverden kaller vi denne type problemer for *bugs*,
 fordi man i gamle dager (da datamaskiner var mye større) kunne ha
@@ -280,10 +301,10 @@ programmer.
 
 ## Sjekkliste {.check}
 
-+ For å fikse dette kan du erstatte klossen `send melding`{.blockgrey}
-med `send melding og vent`{.blockgrey}. Da vil ikke løkken gjentas før
-den forrige eksplosjonen er ferdig. Gå tilbake til `rocket` og endre
-skriptet:
++ For å fikse dette kan du erstatte klossen `send melding`{.blockevents}
+  med `send melding og vent`{.blockevents}. Da vil ikke løkken gjentas
+  før den forrige eksplosjonen er ferdig. Gå tilbake til `rocket` og
+  endre skriptet:
 
     ```blocks
         når grønt flagg klikkes
@@ -296,13 +317,16 @@ skriptet:
                 gli (1.5) sekunder til x: (mus x) y: (mus y)
                 skjul
                 send melding [Eksploder v] og vent
+            slutt
+        slutt
     ```
 
 ## Test prosjektet {.flag}
+
 __Klikk på det grønne flagget.__
 
 + Får du eksplosjonen til å dukke opp på riktig sted og til riktig
-tid?
+  tid?
 
 ## Lagre prosjektet {.save}
 

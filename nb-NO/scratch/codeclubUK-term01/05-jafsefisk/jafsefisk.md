@@ -1,11 +1,6 @@
 ---
 title: JafseFisk
-playlist: Introduksjon til scratch
-level: 1.5
-language: nb-NO
-stylesheet: scratch
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
+level: 2
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
@@ -23,29 +18,35 @@ JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 
 ## Sjekkliste {.check}
 
-+ __Start et nytt Scratch prosjekt__.
-+ __Riktig bakgrunn__ får du ved å velge `Scene`{.blocklightgrey} og
-så `Bakgrunner`{.blocklightgrey}-fanen. Importer bakgrunnen
-`Natur/underwater3` ved å velge
-![Velg en ferdig bakgrunn](bakgrunn-fra-bibliotek.png). Slett så den
-opprinnelige bakgrunnen `backdrop1`.
++ Start et nytt Scratch prosjekt.
+
++ __Riktig bakgrunn__ får du ved å velge `Scene` og så
+  `Bakgrunner`-fanen. Importer bakgrunnen `Natur/underwater3` ved å
+  velge
+  ![Velg en ferdig bakgrunn](../../bilder/bakgrunn-fra-bibliotek.png). Slett
+  så den opprinnelige bakgrunnen `backdrop1`.
+
 + Endre Sprite1's navn til `JafseFisk` ved å klikke på katten og
-deretter på det blå `i`{.blockblue}-symbolet.
-+ Gi figuren en haidrakt ved å gå til `Drakter`{.blocklightgrey}-fanen
-og velge ![Velg drakt fra biblioteket](hent-fra-bibliotek.png). Velg
-drakten `Dyr/shark-b`. Kall drakten `Åpen munn`. Slett så figurens
-kattedrakter.
-+ Klikk på det blå `i`{.blockblue}-symbolet igjen, og pass på at
-figuren bare kan bevege seg fra side til side ved å velge
-rotasjonsmåte ![Høyre/Venstre](rotasjonsmate-hv.png).
+  deretter på det blå `i`{.blockmotion}-symbolet.
+
++ Gi figuren en haidrakt ved å gå til `Drakter`-fanen og velge
+  ![Velg drakt fra biblioteket](../../bilder/hent-fra-bibliotek.png). Velg
+  drakten `Dyr/shark-b`. Kall drakten `Åpen munn`. Slett så figurens
+  kattedrakter.
+
++ Klikk på det blå `i`{.blockmotion}-symbolet igjen, og pass på at
+  figuren bare kan bevege seg fra side til side ved å velge
+  rotasjonsmåte ![Høyre/Venstre](../../bilder/rotasjonsmate-hv.png).
+
 + Få fisken til å følge musepekeren rundt i sjøen ved å lage dette
-skriptet:
+  skriptet:
 
     ```blocks
         når grønt flagg klikkes
         for alltid
             pek mot [musepeker v]
             gå (3) steg
+        slutt
     ```
 
 ## Test Prosjektet {.flag}
@@ -53,15 +54,17 @@ skriptet:
 __Klikk på det grønne flagget.__
 
 + Flytt musepekeren rundt i sjøen. Følger fisken etter?
+
 + Hva skjer hvis du ikke flytter musepekeren og fisken når den igjen?
+
 + Hvordan ser den ut? Hvorfor gjør den dette?
 
 ## Sjekkliste {.check}
 
 + Du kan stoppe JafseFisks maniske flipping hvis du sørger for at den
-bare flytter seg når den ikke er for nær musepekeren (`avstand
-til`{.blocklightblue}-klossen ligger i
-`Sansning`{.blocklightblue}-kategorien).
+  bare flytter seg når den ikke er for nær musepekeren (`avstand
+  til`{.blocksensing}-klossen ligger i
+  `Sansning`{.blocksensing}-kategorien).
 
     ```blocks
         når grønt flagg klikkes
@@ -69,6 +72,8 @@ til`{.blocklightblue}-klossen ligger i
             hvis <(avstand til [musepeker v]) > (10)>
                 pek mot [musepeker v]
                 gå (3) steg
+            slutt
+        slutt
     ```
 
 ## Ting å prøve {.try}
@@ -77,10 +82,10 @@ Hvis du vil kan du forandre tallene i skriptet, og se hvordan det
 forandrer bevegelsene.
 
 + Sett avstandsgrensen til et stort tall (f.eks. 100), eller et lite
-tall (f.eks. 1).
-+ Sett antall steg fisken flytter seg til et stort tall (f.eks. 20)
-eller et lite tall (f.eks. 1, eller til og med 0, hva skjer?).
+  tall (f.eks. 1).
 
++ Sett antall steg fisken flytter seg til et stort tall (f.eks. 20)
+  eller et lite tall (f.eks. 1, eller til og med 0, hva skjer?).
 
 # Steg 2: Legg til byttedyr {.activity}
 
@@ -89,19 +94,23 @@ eller et lite tall (f.eks. 1, eller til og med 0, hva skjer?).
 ## Sjekkliste {.check}
 
 + Legg til en ny figur fra biblioteket ved å bruke `Dyr/Fish2`. Gi
-figuren navnet `Byttedyr`.
-+ Gjør figuren mindre ved å bruke krympeknappen ![krymp](krymp.png)
-som ligger over den røde stopp-knappen.
+  figuren navnet `Byttedyr`.
+
++ Gjør figuren mindre ved å bruke krympeknappen
+  ![krymp](../../bilder/krymp.png) som ligger over den røde
+  stopp-knappen.
+
 + Få byttedyret til å bevege seg i tilfeldige retninger. Først skal vi
-la det bevege seg litt framover, og så snu en tilfeldig valgt vinkel
-med eller mot klokka, og deretter gjenta.
+  la det bevege seg litt framover, og så snu en tilfeldig valgt vinkel
+  med eller mot klokka, og deretter gjenta.
 
     ```blocks
         når grønt flagg klikkes
         for alltid
             gå (2) steg
             vend @ (tilfeldig tall fra (-20) til (20)) grader
-            sprett tilbake ved kanten  
+            sprett tilbake ved kanten
+        slutt
     ```
 
 ## Test prosjektet {.flag}
@@ -109,6 +118,7 @@ med eller mot klokka, og deretter gjenta.
 __Klikk på det grønne flagget.__
 
 + Svømmer byttedyret rundt slik du forventet?
+
 + Ser bevegelsene naturlige ut?
 
 *For øyeblikket samspiller ikke JafseFisk og byttedyret med
@@ -116,27 +126,27 @@ __Klikk på det grønne flagget.__
 
 ## Ting å prøve {.try}
 
-* Prøv å forandre tallene for `steg`{.blockblue} og `tilfeldig
-  tall`{.blockgreen}. Hvordan forandrer det byttedyrets bevegelser?
++ Prøv å forandre tallene for `steg`{.blockmotion} og `tilfeldig
+  tall`{.blockoperators}. Hvordan forandrer det byttedyrets
+  bevegelser?
 
-* Hva gjør `sprett tilbake ved kanten`{.blockblue}-klossen? Fjern
++ Hva gjør `sprett tilbake ved kanten`{.blockmotion}-klossen? Fjern
   klossen og se hva som skjer.
 
 # Steg 3: JafseFisk spiser byttet {.activity}
 
 *Nå skal vi la JafseFisk spise byttet!*
 
-Når JafseFisk har fanget byttet i munnen skal to ting skje:
-
-+ JafseFisk må lukke munnen og lage en gomlelyd.
-+ Byttet må forsvinne, og så dukke opp igjen en liten stund senere.
+Når JafseFisk har fanget byttet i munnen skal to ting skje: JafseFisk
+må lukke munnen og lage en gomlelyd. Videre må byttet forsvinne, for
+så å dukke opp igjen en liten stund senere.
 
 ## Sjekkliste {.check}
 
 + Vi starter med å la byttet forsvinne hvis det berører JafseFisk, og
-så komme tilbake etter 3 sekunder. Bruk
-`berører`{.blocklightblue}-klossen for å sjekke om byttet kommer borti
-JafseFisk. Utvid skriptet på byttedyret slik som dette:
+  så komme tilbake etter 3 sekunder. Bruk
+  `berører`{.blocksensing}-klossen for å sjekke om byttet kommer borti
+  JafseFisk. Utvid skriptet på byttedyret slik som dette:
 
     ```blocks
         når grønt flagg klikkes
@@ -148,6 +158,8 @@ JafseFisk. Utvid skriptet på byttedyret slik som dette:
                 skjul
                 vent (3) sekunder
                 vis
+            slutt
+        slutt
     ```
 
 ## Test prosjektet {.flag}
@@ -155,24 +167,26 @@ JafseFisk. Utvid skriptet på byttedyret slik som dette:
 __Klikk på det grønne flagget.__
 
 + Legg merke til at byttet forsvinner uansett hvor det berører
-JafseFisk.
+  JafseFisk.
+
 + Dessuten kan JafseFisk bare vente 3 sekunder og så spise byttet i
-samme øyeblikk som det dukker opp igjen, det er ikke særlig
-rettferdig!
+  samme øyeblikk som det dukker opp igjen, det er ikke særlig
+  rettferdig!
 
 ## Sjekkliste {.check}
 
 *Hvordan kan vi sikre at byttet bare forsvinner hvis det berører
  JafseFisks munn? Tja, vi kan bruke `berører
- farge`{.blocklightblue}-klossen og se om den berører det hvite på
+ farge`{.blocksensing}-klossen og se om den berører det hvite på
  fiskens tenner.*
 
-+ Legg til en `berører farge`{.blocklightblue}-kloss i tillegg til
-`berører`{.blocklightblue}-klossen i skriptet ditt. For å velge hvit
-klikker du på fargen i klossen og deretter på fiskens tenner.
++ Legg til en `berører farge`{.blocksensing}-kloss i tillegg til
+  `berører`{.blocksensing}-klossen i skriptet ditt. For å velge hvit
+  klikker du på fargen i klossen og deretter på fiskens tenner.
+
 + Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen
-før det dukker opp igjen ved å bruke en `gå til`{.blockblue}-kloss som
-vi gir tilfeldige verdier for `x` og `y`.
+  før det dukker opp igjen ved å bruke en `gå til`{.blockmotion}-kloss
+  som vi gir tilfeldige verdier for `x` og `y`.
 
     ```blocks
         når grønt flagg klikkes
@@ -185,6 +199,8 @@ vi gir tilfeldige verdier for `x` og `y`.
                 vent (3) sekunder
                 gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
                 vis
+            slutt
+        slutt
     ```
 
 ## Test prosjektet {.flag}
@@ -192,8 +208,9 @@ vi gir tilfeldige verdier for `x` og `y`.
 __Klikk på det grønne flagget.__
 
 + Forsvinner byttet bare når det berører fiskens tenner?
+
 + Kommer det tilbake et tilfeldig sted på skjermen – altså ikke samme
-sted som det ble spist?
+  sted som det ble spist?
 
 # Steg 4: JafseFisk reagerer {.activity}
 
@@ -203,7 +220,7 @@ sted som det ble spist?
 ## Sjekkliste {.check}
 
 + For at JafseFisk skal vite hva som skjer kan vi la byttet `sende
-melding`{.blockgrey} om at det er spist, før det forsvinner.
+  melding`{.blockevents} om at det er spist, før det forsvinner.
 
     ```blocks
         når grønt flagg klikkes
@@ -217,17 +234,20 @@ melding`{.blockgrey} om at det er spist, før det forsvinner.
                 vent (3) sekunder
                 gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
                 vis
+            slutt
+        slutt
     ```
 
 Nå vil vi at JafseFisk reagerer på denne meldingen ved å lage en
 gomlelyd og klikke med kjevene.
 
 + Legg til drakten `Dyr/shark-a` og lyden `Effekter/bubbles` på
-JafseFisk. Kall drakten `Lukket munn`.
+  JafseFisk. Kall drakten `Lukket munn`.
+
 + Legg så til et nytt skript til JafseFisk slik at han kan svare på
-meldingen `Du tok meg!` fra byttedyret. Dette skriptet gjør at fisken
-spiller av boblelyden og `bytter drakt til`{.blockpurple} lukket-munn
-drakten, venter litt og så bytter tilbake.
+  meldingen `Du tok meg!` fra byttedyret. Dette skriptet gjør at
+  fisken spiller av boblelyden og `bytter drakt til`{.blocklooks}
+  lukket-munn drakten, venter litt og så bytter tilbake.
 
     ```blocks
         når jeg mottar [Du tok meg! v]
@@ -237,23 +257,25 @@ drakten, venter litt og så bytter tilbake.
             vent (0.5) sekunder
             bytt drakt til [Åpen munn v]
             vent (0.5) sekunder
+        slutt
     ```
 
 Nå er JafseFisk klar til å spise, så la oss fylle havet med byttedyr.
 
-+ Høyreklikk på byttedyret og velg `lag kopi` til du føler at du har fått
-nok fisk.
++ Høyreklikk på byttedyret og velg `lag kopi` til du føler at du har
+  fått nok fisk.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 + Spiser JafseFisk byttet?
+
 + Spiser den alle byttedyrene?
 
 ## Noe å tenke på {.protip}
 
-Hvorfor bør vi legge til en `vis`{.blockpurple}-kloss i starten av
+Hvorfor bør vi legge til en `vis`{.blocklooks}-kloss i starten av
 byttedyrets skript? Tenk på hva som vil skje om byttet blir spist og
 spillet stoppes før det dukker opp igjen. Og hva vil skje om spillet
 deretter blir startet igjen?
@@ -272,30 +294,34 @@ __Hint:__ Ikke bruke for lang tid på denne oppgaven uten å se på de
 andre utfordringene i dette prosjektet.
 
 __Velg deg ut et byttedyr å eksperimentere med.__ Hvis de har samme
-drakt, bytt farge med `sett fargeeffekt`{.blockpurple}-klossen. Slik
+drakt, bytt farge med `sett fargeeffekt`{.blocklooks}-klossen. Slik
 kan du se forskjell fra resten av byttedyrene. Prøv nå å få dette
 byttedyret til å bevege seg saktere enn de andre.
 
-__Hint:__ Se på klossen `gå 2 steg`{.blockblue}.
+__Hint:__ Se på klossen `gå 2 steg`{.blockmotion}.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 + Beveger byttet seg saktere? Gjør dette spillet bedre?
-+ Hvis du klarte dette, prøv å gjøre et av byttedyrene __raskere enn
-de andre.__
-+ Beveger byttedyrene seg på en fornuftig måte?  Gjør disse
-forandringene spillet bedre?
 
-__Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i
-`tilfeldig tall`{.blockgreen}-klossen inne i `vend`{.blockblue}-klossen.
++ Hvis du klarte dette, prøv å gjøre et av byttedyrene __raskere enn
+  de andre.__
+
++ Beveger byttedyrene seg på en fornuftig måte?  Gjør disse
+  forandringene spillet bedre?
+
+    __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene
+    i `tilfeldig tall`{.blockoperators}-klossen inne i
+    `vend`{.blockmotion}-klossen.
 
 + Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
-forskjellige kombinasjoner av disse bevegelsene?
+  forskjellige kombinasjoner av disse bevegelsene?
+
 + Gjør noen av disse forandringene spillet bedre? Gjør de spillet med
-interessant, morsommere, vanskeligere eller lettere? Er noe av dette
-bedre synes du?
+  interessant, morsommere, vanskeligere eller lettere? Er noe av dette
+  bedre synes du?
 
 ## Utfordring 2: Hjelp byttet å unngå JafseFisk {.challenge}
 
@@ -307,14 +333,14 @@ JafseFisk.__
 Det fins ingen kloss i Scratch som kan gi oss retningen vekk fra en
 annen figur. Men du kan få en figur til å snu seg i retningen mot en
 annen, og deretter la den snu seg i motsatt retning. Klossene du
-trenger er i `Bevegelse`{.blockblue}-kategorien.
+trenger er i `Bevegelse`{.blockmotion}-kategorien.
 
 Prøv nå å hjelpe et av byttedyrene med å __snu seg vekk fra
 JafseFisk__. La den også virre litt mens den svømmer bort!  Du vil
-kanskje oppdage at byttet setter seg fast i et hjørne? Du vil
-kanskje at byttet bare ønsker å flykte dersom JafseFisk kommer for
-nære?  __Hint:__ Se tilbake på hvordan vi brukte `avstand
-til`{.blocklightblue}-klossen tidligere i spillet.
+kanskje oppdage at byttet setter seg fast i et hjørne? Du vil kanskje
+at byttet bare ønsker å flykte dersom JafseFisk kommer for nære?
+__Hint:__ Se tilbake på hvordan vi brukte `avstand
+til`{.blocksensing}-klossen tidligere i spillet.
 
 ## Test prosjektet {.flag}
 
@@ -326,16 +352,17 @@ __Klikke på det grønne flagget.__
 
 Det er ikke nok bare å spise fisk. Hvordan vet du at du er en bedre
 spiller enn vennene dine? Du må kunne __samle poeng__, så la oss legge
-til __en poengtavle.__ Lag en variabel som heter
-`poeng`{.blockorange}, og endre denne når JafseFisk spiser.  Pass på
-at poengene går tilbake til null ved begynnelsen av spillet. Hvor skal
-du legge inn disse endringene?
+til __en poengtavle.__ Lag en variabel som heter `poeng`{.blockdata},
+og endre denne når JafseFisk spiser.  Pass på at poengene går tilbake
+til null ved begynnelsen av spillet. Hvor skal du legge inn disse
+endringene?
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 + Går poengsummen opp hver gang JafseFisk spiser byttedyr?
+
 + Går den tilbake til null når spillet starter?
 
 ## Utfordring 4: Legg til en nedtelling {.challenge}
@@ -343,10 +370,10 @@ __Klikk på det grønne flagget.__
 Gi deg selv __en tidsfrist__. Hvor mange fisk kan du spise på 30
 sekunder?
 
-Legg til en ny variabel, `tid`{.blockorange}. Lag et nytt skript som
+Legg til en ny variabel, `tid`{.blockdata}. Lag et nytt skript som
 setter variabelen til for eksempel `30`, for deretter å endre denne
 med `-1`, vente 1 sekund, og endre igjen, helt til den når null. Til
-slutt kan du bruke en `stopp`{.blockyellow}-kloss for å slutte
+slutt kan du bruke en `stopp`{.blockcontrol}-kloss for å slutte
 spillet.
 
 ## Test prosjektet {.flag}
@@ -354,8 +381,11 @@ spillet.
 __Klikk på det grønne flagget.__
 
 + Begynner tidtakeren på 30?
+
 + Teller den ned med rett hastighet?
+
 + Kan du fange fisk mens tiden telles ned?
+
 + Stopper spillet når telleren når null?
 
 ## Utfordring 5: Legg til bonuspoeng {.challenge}

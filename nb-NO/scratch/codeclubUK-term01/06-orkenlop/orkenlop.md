@@ -1,11 +1,6 @@
 ---
 title: Ørkenløp
-playlist: Introduksjon til scratch
-level: 1.6
-language: nb-NO
-stylesheet: scratch
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
+level: 2
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
@@ -26,15 +21,18 @@ kanten av skjermen vinner.
 ## Sjekkliste {.check}
 
 + Klikk på Scene og velg en ferdig bakgrunn,
-![velg en ferdig bakgrunn](bakgrunn-fra-bibliotek.png). Velg
-`Natur/desert`.
+  ![velg en ferdig bakgrunn](../../bilder/bakgrunn-fra-bibliotek.png). Velg
+  `Natur/desert`.
+
 + Fjern katten ved å høyreklikke på figuren og velg `slett`.
+
 + Legg til en ny figur ved å trykke på
-![velg figur fra biblioteket](hent-fra-bibliotek.png). Velg
-`Dyr/Lionness`.
+  ![velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png). Velg
+  `Dyr/Lionness`.
+
 + Legg så til enda en ny figur: velg `Dyr/Parrot`. Krymp figuren slik
-at den er omtrent like stor som løvinnen ved å bruke
-![krymp](krymp.png).
+  at den er omtrent like stor som løvinnen ved å bruke
+  ![krymp](../../bilder/krymp.png).
 
 # Steg 2: La løvinnen og papegøyen bevege seg {.activity}
 
@@ -42,16 +40,16 @@ at den er omtrent like stor som løvinnen ved å bruke
 
 ## Sjekkliste {.check}
 
-+ Velg først løvefiguren og få den til å `gå 4 steg`{.blockblue} når
-du trykker ‘L’ tasten.
++ Velg først løvefiguren og få den til å `gå 4 steg`{.blockmotion} når
+  du trykker `L` tasten.
 
     ```blocks
         når [l v] trykkes
         gå (4) steg
     ```
 
-+ Velg så papegøyefiguren og la den `gå 4 steg`{.blockblue} når du
-trykker ‘A’ tasten.
++ Velg så papegøyefiguren og la den `gå 4 steg`{.blockmotion} når du
+  trykker `A` tasten.
 
     ```blocks
         når [a v] trykkes
@@ -63,7 +61,7 @@ trykker ‘A’ tasten.
 __Klikk på det grønne flagget.__
 
 + Beveger løvinnen og papegøyen seg over skjermen når du trykker på
-`A` og `L` tastene?
+  `A` og `L` tastene?
 
 # Steg 3: Start kappløpet {.activity}
 
@@ -73,11 +71,13 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 + Legg til en ny figur. Velg `Ting/Button3`. Flytt den til midten av
-scenen.
-+ Klikk på `Drakter`{.blocklightgrey}-fanen og verktøyet T for å legge
-til tekst. Trykk på venstre kant av knappen for å legge til et
-tekstfelt og skriv inn teksten `Start`. Du kan flytte på teksten ved å
-trykke en gang på den, og endre innhold ved å dobbeltklikke.
+  scenen.
+
++ Klikk på `Drakter`-fanen og verktøyet `T` for å legge til
+  tekst. Trykk på venstre kant av knappen for å legge til et tekstfelt
+  og skriv inn teksten `Start`. Du kan flytte på teksten ved å trykke
+  en gang på den, og endre innhold ved å dobbeltklikke.
+
 + Legg nå til et skript som viser figuren når spillet starter:
 
     ```blocks
@@ -85,9 +85,9 @@ trykke en gang på den, og endre innhold ved å dobbeltklikke.
         vis
     ```
 
-+ I tillegg vil vi at knappen først teller ned fra 3, sier `LØP!`
-og deretter blir skjult når den klikkes. Dette ordner du med følgende
-skript:
++ I tillegg vil vi at knappen først teller ned fra 3, sier `LØP!` og
+  deretter blir skjult når den klikkes. Dette ordner du med følgende
+  skript:
 
     ```blocks
         når denne figuren klikkes
@@ -102,9 +102,11 @@ skript:
 
 __Klikk på det grønne flagget, og deretter på startknappen.__
 
-* Teller knappen ned?
-* Sier den `LØP!`?
-* Blir den borte?
++ Teller knappen ned?
+
++ Sier den `LØP!`?
+
++ Blir den borte?
 
 Vi ønsker at figurene bare beveger seg etter at kappløpet er startet
 og vi ønsker å vite når kappløpet er over.
@@ -112,11 +114,12 @@ og vi ønsker å vite når kappløpet er over.
 ## Sjekkliste {.check}
 
 + For å vite når kappløpet har startet og sluttet lager vi en variabel
-med navnet `kappløp`{.blockorange}. Variabelen skal være tilgjengelig
-`for alle figurer`. Fjern avhukingen foran variabelen, slik at den
-ikke vises på scenen.
-+ Sett `kappløp`{.blockorange} til 0 når spillet startes ved å
-forandre `når grønt flagg klikkes`{.blockgrey}-skriptet slik:
+  med navnet `kappløp`{.blockdata}. Variabelen skal være tilgjengelig
+  `for alle figurer`. Fjern avhukingen foran variabelen, slik at den
+  ikke vises på scenen.
+
++ Sett `kappløp`{.blockdata} til 0 når spillet startes ved å forandre
+  `når grønt flagg klikkes`{.blockevents}-skriptet slik:
 
     ```blocks
         når grønt flagg klikkes
@@ -125,19 +128,21 @@ forandre `når grønt flagg klikkes`{.blockgrey}-skriptet slik:
     ```
 
 + Når nedtellingen er ferdig og løpet begynner, forandrer vi
-`kappløp`{.blockorange}-verdien til 1. Dette gjør du ved å legge til
-klossen `Sett kappløp til 1`{.blockorange} under `si 1 i 1
-sekunder`{.blockpurple} i skriptet som starter med `når denne figuren
-klikkes`{.blockgrey}.
+  `kappløp`{.blockdata}-verdien til 1. Dette gjør du ved å legge til
+  klossen `Sett kappløp til 1`{.blockdata} under `si 1 i 1
+  sekunder`{.blocklooks} i skriptet som starter med `når denne figuren
+  klikkes`{.blockevents}.
+
 + Nå må vi lage en regel som sier at figurene bare får lov til å
-bevege seg etter at løpet har startet – det vil si når
-`kappløp`{.blockorange} har verdien 1. Klikk først på papegøyen. Så
-endrer du:
+  bevege seg etter at løpet har startet – det vil si når
+  `kappløp`{.blockdata} har verdien 1. Klikk først på papegøyen. Så
+  endrer du:
 
     ```blocks
         når [a v] trykkes
         hvis <(kappløp) = [1]>
             gå (4) steg
+        slutt
     ```
 + Gjenta det samme for løvinnen.
 
@@ -146,7 +151,7 @@ endrer du:
 __Klikk på det grønne flagget.__
 
 + Kan løvinnen og papegøyen bare flytte seg når nedtellingen er
-ferdig?
+  ferdig?
 
 # Steg 4: Avslutte kappløpet {.activity}
 
@@ -156,7 +161,7 @@ ferdig?
 ## Sjekkliste {.check}
 
 + Legg til en kloss i papegøyens skript som sier `sett kappløp til
-0`{.blockorange} hvis figuren berører kanten av skjermen:
+  0`{.blockdata} hvis figuren berører kanten av skjermen:
 
     ```blocks
         når [a v] trykkes
@@ -164,20 +169,21 @@ ferdig?
             gå (4) steg
             hvis (berører [kant v]?)
                 sett [kappløp v] til (0)
+            slutt
+        slutt
     ```
 
 + Spill så inn en lyd som skal spilles av hvis papegøyen vinner.
 
-    Trykk på `Lyder`{.blocklightgrey}-fanen og deretter
-    mikrofon-ikonet og spill inn en morsom trudelutt! Opptaket starter
-    når du har klikket på rundingen slik at den blir rød. Klikk stopp
-    (firkanten) når du er ferdig, og gi lyden et navn – for eksempel
-    `Polly`. Noen nettlesere kan spørre om tillatelse til å spille inn
-    lyd. Hvis du ikke ønsker dette, bruk lydene som følger med
-    figurene.
+    Trykk på `Lyder`-fanen og deretter mikrofon-ikonet og spill inn en
+    morsom trudelutt! Opptaket starter når du har klikket på rundingen
+    slik at den blir rød. Klikk stopp (firkanten) når du er ferdig, og
+    gi lyden et navn – for eksempel `Polly`. Noen nettlesere kan
+    spørre om tillatelse til å spille inn lyd. Hvis du ikke ønsker
+    dette, bruk lydene som følger med figurene.
 
 + Deretter legger du til klossene som spiller lyden og lar papegøyen
-fortelle at den vant:
+  fortelle at den vant:
 
     ```blocks
         når [a v] trykkes
@@ -186,7 +192,9 @@ fortelle at den vant:
             hvis (berører [kant v]?)
                 sett [kappløp v] til (0)
                 spill lyden [Polly v]
-                si [Polly vinner!] i (3) sekunder  
+                si [Polly vinner!] i (3) sekunder
+            slutt
+        slutt
     ```
 
 + Gjør tilsvarende for løvinnen.
@@ -196,7 +204,8 @@ fortelle at den vant:
 __Klikk på det grønne flagget.__
 
 + Kan du trykke på startknappen og deretter bevege dyrene med tastene
-`A` og `L`?
+  `A` og `L`?
+
 + Kommer riktig vinnerlyd og melding opp på skjermen?
 
 # Steg 5: Nullstill spillet {.activity}
@@ -207,7 +216,7 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 + Klikk på papegøyefiguren og legg til en kloss som sender melding
-`Avslutt` etter at figuren sier den har vunnet.
+  `Avslutt` etter at figuren sier den har vunnet.
 
 
     ```blocks
@@ -219,10 +228,12 @@ __Klikk på det grønne flagget.__
                 spill lyden [Polly v]
                 si [Polly vinner! v] i (3) sekunder
                 send melding [Avslutt v]
+            slutt
+        slutt
     ```
 
 + Vi trenger nå et nytt skript som lytter etter denne
-avslutningsmeldingen og flytter papegøyen tilbake til start.
+  avslutningsmeldingen og flytter papegøyen tilbake til start.
 
     ```blocks
         når jeg mottar [Avslutt v]
@@ -230,10 +241,11 @@ avslutningsmeldingen og flytter papegøyen tilbake til start.
     ```
 
 + Gjør det samme for løvinnen. Test forskjellige `x`-verdier for å
-være sikker på at løvinnen og papegøyen starter fra samme sted.
+  være sikker på at løvinnen og papegøyen starter fra samme sted.
+
 + For at figurene skal stå på startstreken når kappløpet starter den
-aller første gangen må vi også legge til følgende klosser på begge
-figurene:
+  aller første gangen må vi også legge til følgende klosser på begge
+  figurene:
 
     ```blocks
         når grønt flagg klikkes
@@ -241,9 +253,9 @@ figurene:
     ```
 
 + For at spillerne skal kunne klikke i gang nye runder må vi passe på
-at start-knappen kommer tilbake etter hver avsluttet runde. Klikk på
-startknapp-figuren og legg til et skript som viser knappen når
-avslutningsmeldingen blir mottatt.
+  at start-knappen kommer tilbake etter hver avsluttet runde. Klikk på
+  startknapp-figuren og legg til et skript som viser knappen når
+  avslutningsmeldingen blir mottatt.
 
     ```blocks
         når jeg mottar [Avslutt v]
@@ -255,7 +267,7 @@ avslutningsmeldingen blir mottatt.
 __Klikk på det grønne flagget.__
 
 + Kan du spille mot en venn? En av dere styrer papegøyen ved å trykke
-`A`, og den andre løvinnen ved å trykke `L`.
+  `A`, og den andre løvinnen ved å trykke `L`.
 
 ## Lagre prosjektet {.save}
 
@@ -268,9 +280,11 @@ spillet og gjøre det enda mer interessant.
 ## Utfordring 1: Legg til en rakett! {.challenge}
 
 + __Legg til en rakett__ som kan brukes én gang per kappløp og som
-flytter papegøyen eller løvinnen __30 steg på en gang.__
+  flytter papegøyen eller løvinnen __30 steg på en gang.__
+
 + __Legg til en ny drakt__ med ild som kommer ut bak figurene. La
-denne aktiveres når raketten avfyres.
+  denne aktiveres når raketten avfyres.
+
 + __Lag en lyd__ som figuren kan gi fra seg når raketten avfyres.
 
 Nedenfor er et forslag til hvordan et rakett-skript kan se ut. Du må
@@ -290,15 +304,17 @@ legge til noen lyder og variabler på egen hånd.
             send melding [Avslutt v]
         slutt
         bytt drakt til [parrot-a v]
+    slutt
 ```
-
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 + Fungerer raketten slik du hadde planlagt?
+
 + Hva skjer om man forsøker å bruke raketten to ganger?
+
 + Hva skjer om man bruker raketten for å komme til mål?
 
 ## Utfordring 2: Bruk egendefinerte klosser for å forenkle skriptet ditt {.challenge}
@@ -310,19 +326,25 @@ kloss. Dette er en samling kode som brukes flere steder. Det er nesten
 som at vi lager vår egen Scratch-kodekloss!
 
 + Velg papegøyens skript.
-+ Velg `Flere klosser`{.blockpurple}-paletten og klikk så på `Lag en
-kloss`{.blocklightgrey} knappen.
+
++ Velg `Flere klosser`{.blockmoreblocks}-paletten og klikk så på `Lag
+  en kloss`-knappen.
+
 + Kall klossen din `ferdig` og trykk OK.
-+ Du vil nå få en `definer ferdig`{.blockpurple}-kloss i skriptvinduet
-ditt. Flytt den litt for seg selv.
-+ Løsriv hele `hvis`{.blockyellow}`berører
-kant?`{.blocklightblue}-klossen og dra den til `definer
-ferdig`{.blockpurple}-klossen.
-+ Kan du dra `ferdig`{.blockpurple}-klossen fra paletten og bruke den
-på samme måte som andre kodeklosser?
-+ Slett den andre `hvis`{.blockyellow}`berører
-kant?`{.blocklightblue}-klossen fra skriptet ditt og erstatt også den
-med en `ferdig`{.blockpurple}-kloss.
+
++ Du vil nå få en `definer ferdig`{.blockmoreblocks}-kloss i
+  skriptvinduet ditt. Flytt den litt for seg selv.
+
++ Løsriv hele `hvis`{.blockcontrol}`berører
+  kant?`{.blocksensing}-klossen og dra den til `definer
+  ferdig`{.blockmoreblocks}-klossen.
+
++ Kan du dra `ferdig`{.blockmoreblocks}-klossen fra paletten og bruke
+  den på samme måte som andre kodeklosser?
+
++ Slett den andre `hvis`{.blockcontrol}`berører
+  kant?`{.blocksensing}-klossen fra skriptet ditt og erstatt også den
+  med en `ferdig`{.blockmoreblocks}-kloss.
 
     ```blocks
         definer ferdig
@@ -348,13 +370,14 @@ med en `ferdig`{.blockpurple}-kloss.
     ```
 
 + Gjør dette koden din enklere å lese? Kan du lage en tilsvarende
-egendefinert kloss for løvinnen?
+  egendefinert kloss for løvinnen?
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 * Virker spillet fortsatt slik det skal?
+
 * Er spillet ferdig når papegøyen eller løvinnen kommer til kanten av
   skjermen?
 

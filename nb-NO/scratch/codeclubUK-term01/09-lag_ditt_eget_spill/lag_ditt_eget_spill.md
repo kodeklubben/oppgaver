@@ -1,10 +1,6 @@
 ---
 title: Lag ditt eget spill
-playlist: Introduksjon til scratch
-level: 1.9
-language: nb-NO
-stylesheet: scratch
-note: "README.md"
+level: 4
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
@@ -43,10 +39,15 @@ hvordan de skal bevege seg, hvor mange det er plass til, etc.
 Tenk for eksempel på
 
 + Hvordan man vinner spillet?
+
 + Hvordan man får poeng?
+
 + Hvor mange spillere kan spille?
+
 + Skal det være nedtelling?
+
 + Hvordan styres spillet? Med tastene eller med museknappen?
+
 + Skal det være lydeffekter? Hvilke?
 
 Skriv ned tankene dine!
@@ -56,8 +57,10 @@ Skriv ned tankene dine!
 Nå som du har en plan, kan du begynne med utviklingen av figurene og
 skriptene dine.
 
-## Ting å huske:
+## Ting å huske: {.check}
 
-1. Du kan alltid se tilbake til de spillene du allerede har laget.
-2. Husk å teste og lagre fortløpende.
-3. Vær kreativ!
++ Du kan alltid se tilbake til de spillene du allerede har laget.
+
++ Husk å teste og lagre fortløpende.
+
++ Vær kreativ!
