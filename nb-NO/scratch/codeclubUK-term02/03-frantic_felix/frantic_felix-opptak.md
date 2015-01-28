@@ -1,11 +1,6 @@
 ---
 title: Frantic Felix - Opptak
-playlist: Scratchkort
-level: Nivå 6
-language: nb-NO
-stylesheet: scratch
-embeds: "*.png"
-materials: "*.sb2"
+indexed: false
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
@@ -16,7 +11,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 
     Trykk på Lag en Liste for å lage en ny liste.
 
-    ![](variable.png)
+    ![](variabel.png)
 
 
 2.  Prøv denne koden
