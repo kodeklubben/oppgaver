@@ -1,6 +1,7 @@
 ---
 title: Lydmaskin
 level: 4
+indexed: false
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
