@@ -1,6 +1,9 @@
 ---
 title: Skilpadder
 level: 1
+logo: ../../../assets/img/ccuk_logo.png
+author: Oversatt fra [Code Club UK](//codeclub.org.uk)
+license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 # Introduksjon: {.intro}

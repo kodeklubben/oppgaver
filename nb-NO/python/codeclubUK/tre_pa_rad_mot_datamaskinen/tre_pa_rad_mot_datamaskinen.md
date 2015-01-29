@@ -1,6 +1,9 @@
 ---
 title: Tre på rad mot datamaskinen
 level: 4
+logo: ../../../assets/img/ccuk_logo.png
+author: Oversatt fra [Code Club UK](//codeclub.org.uk)
+license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 # Introduksjon {.intro}
@@ -462,6 +465,9 @@ def play_move():
 c.bind("<Button-1>", click)
 
 mainloop()
+logo: ../../../assets/img/ccuk_logo.png
+author: Oversatt fra [Code Club UK](//codeclub.org.uk)
+license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 ## Utfordring {.challenge}
