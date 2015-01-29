@@ -1,9 +1,6 @@
 ---
 title: Skilpaddefraktaler
-level: Python
-language: nb-NO
-stylesheet: python
-embeds: "*.png"
+level: 3
 ---
 
 # Introduksjon {.intro}
@@ -246,7 +243,7 @@ trenger å tegne en rett strek.
             forward(lengde)
             return
     ```
-        
+
     Her bruker vi `return` for å si at vi ikke vil gjøre mer for det
     enkle tilfellet.
 

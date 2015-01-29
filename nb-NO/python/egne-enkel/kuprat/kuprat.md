@@ -1,9 +1,6 @@
 ---
 title: Kuprat
-level: Python
-language: nb-NO
-stylesheet: python
-embeds: "*.png"
+level: 1
 ---
 
 # Introduksjon {.intro}
@@ -189,7 +186,7 @@ omtrent hva som helst.
 + Nå kan vi bruke det vi har lært tidligere for å enkelt endre på
   meldingene som kua sier. Ved hjelp av `input` kan vi spørre om hva
   kua skal si. Endre programmet slik at det ser ut som følger:
-  
+
 	```python
 	melding = input('Hva skal kua si? ')
 
@@ -261,4 +258,3 @@ kanskje legge til en tunge?
 
 Du kan også legge til flere forskjellige figurer i samme program, slik
 at det virker som om de snakker sammen. Prøv deg fram!
-

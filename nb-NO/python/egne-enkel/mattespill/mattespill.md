@@ -1,9 +1,6 @@
 ---
 title: Mattespill
-level: Python
-language: nb-NO
-stylesheet: python
-embeds: "*.png"
+level: 2
 ---
 
 # Introduksjon {.intro}
@@ -153,7 +150,7 @@ Vi kan nå bruke tilfeldige tall til å lage et enkelt mattespill.
 	if svar == tall1 * tall2:
 		print('Ja, svaret er ' + svar)
 	else:
-		print('Nei, det riktige svaret er ' + str(tall1 * tall2)) 
+		print('Nei, det riktige svaret er ' + str(tall1 * tall2))
 	```
 
 	Pass på at som i __for-løkker__ må du skyve koden i __if-testen__
@@ -222,7 +219,7 @@ Det er litt kjedelig å alltid starte programmet på nytt. La oss prøve
 	for i in range(ant_stykker):
 		tall1 = randint(2, 12)
 		tall2 = randint(2, 12)
-	
+
 		print('Hva er ' + str(tall1) + ' ganger ' + str(tall2) + '?')
 		svar = input()
 
@@ -230,7 +227,7 @@ Det er litt kjedelig å alltid starte programmet på nytt. La oss prøve
 			print('Ja, svaret er ' + svar)
 			ant_rett = ant_rett + 1
 		else:
-			print('Nei, det riktige svaret er ' + str(tall1 * tall2)) 
+			print('Nei, det riktige svaret er ' + str(tall1 * tall2))
 
 	print('Du fikk ' + str(ant_rett) + ' av ' + str(ant_stykker))
 	```
