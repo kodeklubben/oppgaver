@@ -1,0 +1,7 @@
+codeclubUK/skilpadder/skilpadder.md
+codeclubUK/skilpaddeskolen/skilpaddeskolen.md
+codeclubUK/hemmelige_koder/hemmelige_koder.md
+codeclubUK/skilpadder_hele_veien/skilpadder_hele_veien.md
+codeclubUK/hangman/hangman.md
+codeclubUK/tre_pa_rad/tre_pa_rad.md
+codeclubUK/tre_pa_rad_mot_datamaskinen/tre_pa_rad_mot_datamaskinen.md

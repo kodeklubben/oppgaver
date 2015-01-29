@@ -1,8 +1,6 @@
 ---
-title: Tre På Rad
-level: 4.6
-language: nb-NO
-stylesheet: python
+title: Tre på rad
+level: 3
 ---
 
 # Introduksjon {.intro}
@@ -18,7 +16,7 @@ Vi vil tegne fire linjer, i et #-mønster, som dette:
 ```
 _|_|_
 _|_|_
- | | 
+ | |
 ```
 
 Vi kunne brukt skilpadde-kommandoer for å tegne rutenettet, men i dag
@@ -198,9 +196,9 @@ Tilsvarende slik vi gjorde i forrige leksjon om Hangman, vil vi nå innføre en 
 
     ```python
     grid = [
-        "0", "1", "2", 
+        "0", "1", "2",
         "3", "4", "5",
-        "6", "7", "8", 
+        "6", "7", "8",
     ]
     ```
 
@@ -254,9 +252,9 @@ Vi vil nå legge til en spiller til, som tegner kryss i stedet for sirkel.
     c.create_line(0, 400, 600, 400)
 
     grid = [
-        "0", "1", "2", 
+        "0", "1", "2",
         "3", "4", "5",
-        "6", "7", "8", 
+        "6", "7", "8",
     ]
 
     def click(event):
@@ -305,7 +303,7 @@ får tre på rad!
 ## Sjekkliste {.check}
 
 + I den samme filen vil vi nå skrive en ny prosedyre `winner`. Vi kaller denne etter hvert klikk for å sjekke om en av spillerene har vunnet.
-    
+
     Den ferdige koden ser ut som følger:
 
     ```python
@@ -323,9 +321,9 @@ får tre på rad!
     c.create_line(0, 400, 600, 400)
 
     grid = [
-        "0", "1", "2", 
+        "0", "1", "2",
         "3", "4", "5",
-        "6", "7", "8", 
+        "6", "7", "8",
     ]
 
     def click(event):
@@ -369,7 +367,7 @@ får tre på rad!
             line = grid[row] + grid[row+1] + grid[row+2]
             if line == "XXX" or line == "OOO":
                 return True
-            
+
         for down in range(3):
             line = grid[down] + grid[down+3] + grid[down+6]
             if line == "XXX" or line == "OOO":
@@ -382,7 +380,7 @@ får tre på rad!
         line = grid[2] + grid[4] + grid[6]
         if line == "XXX" or line == "OOO":
                 return True
-            
+
     c.bind("<Button-1>", click)
 
     mainloop()

@@ -1,13 +1,11 @@
 ---
-title: Skilpadder Hele Veien Ned
-level: 4.4
-language: nb-NO
-stylesheet: python
+title: Skilpadder hele veien ned
+level: 3
 ---
 
 # Introduksjon {.intro}
 
-Hent frem skilpaddene dine, åpne IDLE, det er på tide å tegne igjen. 
+Hent frem skilpaddene dine, åpne IDLE, det er på tide å tegne igjen.
 
 # Steg 1: Tegn et fjell {.activity}
 

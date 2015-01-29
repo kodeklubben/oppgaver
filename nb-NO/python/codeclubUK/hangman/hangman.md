@@ -1,8 +1,6 @@
 ---
 title: Hangman
-level: 4.5
-language: nb-NO
-stylesheet: python
+level: 3
 ---
 
 # Introduksjon {.intro}
@@ -82,7 +80,7 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
         print("Yay")
     else:
         print("Nope")
-    ``` 
+    ```
 
     Vi bruker en ny prosedyre `input()` for å finne ut hvilken bokstav spilleren skriver. Vi bruker `if` for å sjekke om bokstaven er i ordet.
 
@@ -119,7 +117,7 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
         if out == word:
             print("Du gjettet", word)
             break
-            
+
 
         print("Gjett en bokstav i ordet:", out)
         guess = input()
@@ -230,7 +228,7 @@ mange forsøk man har til å gjette.
             guessed.append(guess)
         else:
             print("Nope")
-            tries = tries - 1 
+            tries = tries - 1
             wrong.append(guess)
 
         print()
@@ -260,5 +258,5 @@ mange forsøk man har til å gjette.
     ```python
     word = choice(["kode", "kurs", "robot", "klubb"])
     ```
-    
+
     Husk at ordene må stå i anførselstegn og at det må være komma mellom ordene for å lage en liste. Legg til flere ord som du finner på selv.

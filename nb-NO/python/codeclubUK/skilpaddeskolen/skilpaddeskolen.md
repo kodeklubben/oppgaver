@@ -1,8 +1,6 @@
 ---
 title: Skilpaddeskolen
-level: 4.2
-language: nb-NO
-stylesheet: python
+level: 1
 ---
 
 # Steg 1: Flere firkanter {.activity}
@@ -203,7 +201,7 @@ Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut
     dashpoly(3, 150)
     ```
 
-+ Kjør koden og se at den gjør akkurat det samme som før. 
++ Kjør koden og se at den gjør akkurat det samme som før.
 
 ### Tips {.protip}
 

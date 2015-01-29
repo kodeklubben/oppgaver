@@ -1,8 +1,6 @@
 ---
-title: Spille mot datamaskinen
-level: 4.7
-language: nb-NO
-stylesheet: python
+title: Tre på rad mot datamaskinen
+level: 4
 ---
 
 # Introduksjon {.intro}
@@ -39,9 +37,9 @@ følgende:
     c.create_line(0, 400, 600, 400)
 
     grid = [
-        "0", "1", "2", 
+        "0", "1", "2",
         "3", "4", "5",
-        "6", "7", "8", 
+        "6", "7", "8",
     ]
 
     def click(event):
@@ -79,7 +77,7 @@ følgende:
             line = grid[row] + grid[row+1] + grid[row+2]
             if line == "XXX" or line == "OOO":
                 return True
-            
+
         for down in range(3):
             line = grid[down] + grid[down+3] + grid[down+6]
             if line == "XXX" or line == "OOO":
@@ -92,7 +90,7 @@ følgende:
         line = grid[2] + grid[4] + grid[6]
         if line == "XXX" or line == "OOO":
                 return True
-            
+
     c.bind("<Button-1>", click)
 
     mainloop()
@@ -150,10 +148,10 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
                 output.append(position)
         return output
     ```
-    
+
     Denne prosedyren lager en tom liste. Deretter går den gjennom hele rutenettet og sjekker hver rute om den er tom.
 
-    Kommandoen `enumerate` kan fortelle oss posisjonen til hvert element i `grid`-listen. For eksempel vil `enumerate` gjøre om en liste `['A','B','C']` til parene `(0, 'A'), (1,'B'), (2, 'C')` slik at vi ikke trenger å telle elementene selv. 
+    Kommandoen `enumerate` kan fortelle oss posisjonen til hvert element i `grid`-listen. For eksempel vil `enumerate` gjøre om en liste `['A','B','C']` til parene `(0, 'A'), (1,'B'), (2, 'C')` slik at vi ikke trenger å telle elementene selv.
 
 + På toppen av filen vil vi importere `random`-biblioteket, som vi vil bruke for å tilfeldig velge et trekk
 
@@ -161,7 +159,7 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
     from tkinter import *
     import random
     ```
-    
+
     Du husker kanskje at vi brukte `random.choice` i en tidligere leksjon om Hangman.
 
 + Nå skriver vi en prosedyre `play_move()` som kan spille i en tilfeldig tom rute. Legg til denne prosedyren etter `free_squares` men før linjnen `c.bind(...)`
@@ -170,17 +168,17 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
     def play_move():
         moves = free_squares()
         square = random.choice(moves)
-            
+
         across = square % 3
         down = square // 3
-        
+
         grid[square] = "X"
         draw_shape("X", across, down)
     ```
 
     Først bruker vi `free_squares` til å lage en liste over de tomme rutene. Deretter velger vi en tilfeldig av disse rutene. Vi vil nå oversette dette rutenummeret til rad- og kolonne-nummer. Dette gjør vi ved å bruke `%` og `//` operatorene. La oss se litt nærmere på hvordan dette virker:
-    
-    ``` 
+
+    ```
          0 1 2
          -----
      0 | 0 1 2
@@ -191,7 +189,7 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
     For eksempel er rute nummer 5 i rad 1 og kolonne 2. Hvis vi deler 5 på 3 får vi 1 med 2 i rest.
 
     `5 // 3` er 1, `6 // 3` er 2, og så videre. Operatoren `//` forteller oss hvor mange ganger et tall deler et annet, men ser bort i fra resten. Siden vi har 3 kolonner forteller `5 // 3` oss i hvilken rad rute 5 er.
-    
+
     `5 % 3` er 2, `6 % 3` er 0. Operatoren `%` forteller oss hva resten er når vi deler et tall med et annet. Dette gir oss kolonnenummeret.
 
     Legg merke til at de to linjene
@@ -224,14 +222,14 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
 
         if winner():
             return
-    
+
         play_move()
     ```
 
     Vi sjekker først om spilleren har vunnet, og hvis ikke lar vi datamaskinen gjøre sitt trekk.
 
 + Lagre programmet og kjør det. Datamaskinen vil nå trekke etter deg. Den vil ikke spille spesielt bra siden den bare gjør tilfeldige trekk.
-    
+
 # Steg 3: Velg et trekk som vinner {.activity}
 
 Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hjelpe den litt. I stedet for å bare velge trekk helt tilfeldig, la datamaskinen velge trekk som gjør at den vinner om de finnes. Ideen er at vi kan sjekke alle de mulige trekkene til datamaskinen, og om ett av disse vil vinne spillet lar vi datamaskinen spille det.
@@ -247,7 +245,7 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
             line = grid[row] + grid[row+1] + grid[row+2]
             if line == "XXX" or line == "OOO":
                 return True
-            
+
         for down in range(3):
             line = grid[down] + grid[down+3] + grid[down+6]
             if line == "XXX" or line == "OOO":
@@ -282,7 +280,7 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
 
         if winner(grid):
             return
-    
+
         play_move()
     ```
     Alle steder vi har `winner()` i koden bytter vi det ut med `winner(grid)`.
@@ -295,7 +293,7 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
     def play_move():
         moves = free_squares()
         square = random.choice(moves)
-            
+
         # Bruk et vinnende trekk om det eksisterer
         for possible in moves:
             new_grid = list(grid)
@@ -306,7 +304,7 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
 
         across = square % 3
         down = square // 3
-        
+
         grid[square] = "X"
         draw_shape("X", across, down)
     ```
@@ -317,7 +315,7 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
 
 # Steg 4: Velg et trekk som blokkerer {.activity}
 
-Den andre strategien vi vil lære datamaskinen er å blokkere trekk som gjør at vi vil vinne. Dette gjør vi på nesten samme måte, men nå ser vi hva som skjer om vi plasserer ut O i de ledige rutene. 
+Den andre strategien vi vil lære datamaskinen er å blokkere trekk som gjør at vi vil vinne. Dette gjør vi på nesten samme måte, men nå ser vi hva som skjer om vi plasserer ut O i de ledige rutene.
 
 ## Sjekkliste {.check}
 
@@ -327,7 +325,7 @@ Den andre strategien vi vil lære datamaskinen er å blokkere trekk som gjør at
     def play_move():
         moves = free_squares()
         square = random.choice(moves)
-            
+
         # Bruk et blokkerende trekk om det eksisterer
         for possible in moves:
             new_grid = list(grid)
@@ -346,12 +344,12 @@ Den andre strategien vi vil lære datamaskinen er å blokkere trekk som gjør at
 
         across = square % 3
         down = square // 3
-        
+
         grid[square] = "X"
         draw_shape("X", across, down)
     ```
     Legg merke til at datamaskinen først plukker en tilfeldig ledig rute. Deretter sjekker den om den kan blokkere, og hvis den kan det så ombestemmer den seg. Til slutt sjekker den om den kan vinne, og dersom den kan det så ombestemmer den seg en gang til!
-        
+
 + Kjør koden og se om du klarer å vinne mot datamaskinen! Det har nå blitt mye vanskeligere.
 
 # Hele programmet {.activity}
@@ -374,9 +372,9 @@ c.create_line(0, 200, 600, 200)
 c.create_line(0, 400, 600, 400)
 
 grid = [
-    "0", "1", "2", 
+    "0", "1", "2",
     "3", "4", "5",
-    "6", "7", "8", 
+    "6", "7", "8",
 ]
 
 def click(event):
@@ -389,7 +387,7 @@ def click(event):
 
     if winner(grid):
         return
-    
+
     grid[square] = "O"
     draw_shape("O", across, down)
 
@@ -414,7 +412,7 @@ def winner(grid):
         line = grid[row] + grid[row+1] + grid[row+2]
         if line == "XXX" or line == "OOO":
             return True
-            
+
     for down in range(3):
         line = grid[down] + grid[down+3] + grid[down+6]
         if line == "XXX" or line == "OOO":

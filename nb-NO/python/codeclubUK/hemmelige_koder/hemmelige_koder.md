@@ -1,8 +1,6 @@
 ---
-title: Hemmelige Koder
-level: 4.3
-language: nb-NO
-stylesheet: python
+title: Hemmelige koder
+level: 2
 ---
 
 # Introduksjon {.intro}
@@ -52,7 +50,11 @@ Vi begynner med A og teller fremover 3 bokstaver: B, C, D. Så bokstaven A blir 
 
 # Steg 1: Alfabetet {.activity}
 
-Her kan du få trøbbel med norske bokstaver om du ikke har Python 3. Du ser det i IDLE, står det 2.6 eller 2.7 eller noe sånt har du Python 2. I så fall kan du enten installere 3 eller bare hoppe over norske bokstaver.
+Her kan du få trøbbel med norske bokstaver om du ikke har Python 3. Du  har
+Python 2 dersom det står 2.6 eller 2.7 i IDLE. I så fall må du legge en `u`
+foran tekst som er inni `""`. For eksempel blir alfabetet under
+`u"abcdefghijklmnopqrstuvwxyzæøå"`. `u`-en betyr at teksten er av typen
+*Unicode* som støtter alle norske bokstaver.
 
 ## Sjekkliste {.check}
 
