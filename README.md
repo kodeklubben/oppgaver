@@ -53,22 +53,8 @@ fra filbehandleren.
 ## Filstruktur og formatering
 Alle oppgavene finnes i katalogen [nb-NO](nb-NO). Hver mappe i `nb-NO`
 representerer et programmeringsspråk eller kurs. Filer som heter `README.md`
-blir ekskludert fra byggingen, men vises på github (slik som denne teksten
-du leser nå). Derfor egner `README.md` seg for merknader til lærere og
-lignende.
-
-Ellers blir alle markdown-filer (.md) omgjort til HTML og bilder eller andre
-filer blir kopiert ved bygging. Dersom en oppgave skal inkludere filer eller
-bilder, skal oppgaven ligge i en egen mappe med filene. I motsatt tilfelle,
-dersom en oppgave ikke inkluderer bilder eller filer, så skal den ligge i
-roten av sitt kurs/programmeringsspråk (feks ligger scratch-oppgavene
-[her](nb-NO/scratch)).
-
-Byggeren lager en førsteside som viser alle oppgavene. Det er to typer
-oppgaver, vanlige og spillelister. Førstesiden er sortert etter filnanvet
-til oppgavene, så dersom en spesiell rekkefølge er ønsket kan man bruke
-prefiks i filnavnene. For eksempel `01-felix_og_herbert`,
-`02-spokelsejakten`, osv.
+blir ekskludert, men vises på github (slik som denne teksten du leser nå).
+Derfor egner `README.md` seg for merknader til lærere og lignende.
 
 Oppgavene skrives i markdown og har en YAML-header i toppen. Formatet er
 beskrevet i [FORMAT.md](//github.com/arve0/codeclub_lesson_builder/blob/docs/FORMAT.md),
@@ -90,18 +76,41 @@ tilgjengelig som variabler i malen. Det er bare `title` og `level` som er
 påkrevd, men man kan også definere `author` og `license` (standard lisens er
 [CC-BY 4.0](//creativecommons.org/licenses/by/4.0/deed.no)).
 
-Nettet har flere beskrivelser av
-[Markdown-syntaksen](//daringfireball.net/projects/markdown/syntax). Du kan
-også lære endel ved å bruke en [live markdown editor](//jbt.github.io/markdown-editor/).
-Her er noen eksempler:  
 
+**Bygging**
+Ved *bygging* blir alle markdown-filer (.md) omgjort til HTML og bilder eller
+andre filer blir kopiert. Dersom en oppgave skal inkludere filer eller bilder,
+skal oppgaven ligge i en egen mappe med filene. I motsatt tilfelle, dersom en
+oppgave ikke inkluderer bilder eller filer, så skal den ligge i roten av sitt
+kurs/programmeringsspråk (feks ligger scratch-oppgavene [her](nb-NO/scratch)).
+
+Byggeren lager en forside som viser alle oppgavene. Forsiden er sortert
+etter nivå (`level` i YAML) og deretter filnanvet til oppgavene, så dersom en
+spesiell rekkefølge er ønsket kan man bruke prefiks i filnavnene. For eksempel
+`01-felix_og_herbert`, `02-spokelsejakten`, osv.
+
+Det er også mulig å lage spillelister, som er fint dersom en ønsker å kombinere
+forskjellige oppgaver i en spesiell rekkefølge for et kurs eller lignende. Les
+mer om spillelister [her](/nb-NO/scratch/spillelister).
+
+Hvis en oppgave bare skal vises i sin spilleliste, kan `indexed: false` legges
+til i YAML-header. Hvis oppgaven ikke finnes i noen spilleliste, vil det ikke
+lenkes til oppgaven fra noe sted og den er da gjemt.
+
+
+**Markdown**
+Nettet har flere beskrivelser av [Markdown-syntaksen](md-syntaks). Du kan
+også lære endel ved å bruke en [live markdown editor](md-live).
+
+[md-syntaks]: http://daringfireball.net/projects/markdown/syntax "Markdown-syntaks"
+[md-live]: http://jbt.github.io/markdown-editor/ "live markdown editor"
+
+Her kommer noen eksempler:
 - *Uthevet skrift* skrives `*Uthevet skrift*`,
-
 - **Fet skrift** skrives `**Fet skrift**`.
 
 
 **Overskrifter**
-
 Overskrifter lages ved å begynne en linje med en eller flere `#`. En `#` gir
 den største overskriften, mens seks `######` gir den minste overskriften. I
 tillegg kan en stil legges til overskriften slik som dette `# Overskrift {.stil}`.
@@ -144,7 +153,7 @@ Kodeblokker skrives med tre `-tegn foran og bak koden:
 <pre>
 ```
 for i in range(10):
-print(i)
+    print(i)
 ```
 </pre>
 
@@ -154,7 +163,7 @@ språkets navn etter <code>```</code> slik som dette:
 <pre>
 ```python
 for i in range(10):
-print(i)
+    print(i)
 ```
 </pre>
 
@@ -191,10 +200,10 @@ sjekkliste:
 ## Sjekkliste {.check}
 - En forklarende tekst her. Og kode som hører til:
 
-```blocks
-for alltid
-pek mot [musepekeren v]
-```
+    ```blocks
+    for alltid
+    pek mot [musepekeren v]
+    ```
 
 - Neste sjekkpunkt.
 </pre>
