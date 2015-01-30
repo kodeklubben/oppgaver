@@ -86,13 +86,13 @@ oppgave ikke inkluderer bilder eller filer, så skal den ligge i roten av sitt
 kurs/programmeringsspråk (feks ligger scratch-oppgavene [her](nb-NO/scratch)).
 
 Byggeren lager en forside som viser alle oppgavene. Forsiden er sortert
-etter nivå (`level` i YAML) og deretter filnanvet til oppgavene, så dersom en
-spesiell rekkefølge er ønsket kan man bruke prefiks i filnavnene. For eksempel
+etter nivå (`level` i YAML) og deretter filnavnet til oppgavene. Så dersom en
+spesiell rekkefølge er ønsket kan man bruke prefiks i filnavnene, som eksempel
 `01-felix_og_herbert`, `02-spokelsejakten`, osv.
 
-Det er også mulig å lage spillelister, som er fint dersom en ønsker å kombinere
-forskjellige oppgaver i en spesiell rekkefølge for et kurs eller lignende. Les
-mer om spillelister [her](/nb-NO/scratch/spillelister).
+Det er også mulig å lage spillelister, som er nyttig for å kombinere oppgaver i
+en spesiell rekkefølge for et kurs eller lignende. Les mer om spillelister
+[her](/nb-NO/scratch/spillelister).
 
 Hvis en oppgave bare skal vises i sin spilleliste, kan `indexed: false` legges
 til i YAML-header. Hvis oppgaven ikke finnes i noen spilleliste, vil det ikke
@@ -138,10 +138,17 @@ I tillegg finnes flere stiler som brukes ved behov:
 
 **Bilder**
 
-- Store bilder legges inn ved å skrive `![felix](bilde-felix.png)` på en
-  egen linje, med tomme linjer før og etter. Bildet vil da sentreres
+- Store bilder legges inn ved å skrive:
+
+    ```
+
+    ![felix](bilde-felix.png)
+
+    ```
+
+  Legg merke til de tomme linjene over og under bilder. Bildet vil da sentreres
   i et avsnitt for seg selv. Alternativ billedtekst legges mellom
-  `[` og `]` slik at bildene gir mening også for synshemmede.
+  `[` og `]` slik at bildene også gir mening for synshemmede.
 
 - Små bilder, som skal være en del av teksten, legges inn med samme
   kode `![bilde](lite-bilde.png)`, men da med koden som en del av
@@ -230,3 +237,7 @@ Her er en liste over alle kategoriene med navn:
 
 For å referere til en fane som skript, drakter eller lyder, brukes `` ` `` slik
 som dette: `` `Drakter` ``
+
+## Bidra
+Dersom du finner feil eller har lyst å forbedre noe, vent ikke med å sende en
+[issue](//github.com/kodeklubben/oppgaver/issues). Vi trenger din hjelp!
