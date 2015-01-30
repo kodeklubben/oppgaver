@@ -1,8 +1,9 @@
 ---
 title: Skilpaddeskolen
-level: 4.2
-language: nb-NO
-stylesheet: python
+level: 1
+logo: ../../../assets/img/ccuk_logo.png
+author: Oversatt fra [Code Club UK](//codeclub.org.uk)
+license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 # Steg 1: Flere firkanter {.activity}
@@ -203,7 +204,7 @@ Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut
     dashpoly(3, 150)
     ```
 
-+ Kjør koden og se at den gjør akkurat det samme som før. 
++ Kjør koden og se at den gjør akkurat det samme som før.
 
 ### Tips {.protip}
 

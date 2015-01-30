@@ -1,8 +1,9 @@
 ---
 title: Skilpadder
-level: 4.1
-language: nb-NO
-stylesheet: python
+level: 1
+logo: ../../../assets/img/ccuk_logo.png
+author: Oversatt fra [Code Club UK](//codeclub.org.uk)
+license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 # Introduksjon: {.intro}
@@ -51,8 +52,8 @@ Gratulerer med ditt første Python-program :D (PS! Du kan be det skrive hva
 du vil, kanskje kan du prøve å få det til å si hei til deg selv?)
 
 ### Tips {.protip}
-* På __Windows__ og __Ubuntu__, bruk Ctrl-N for å lage nye shell-vinduer, bruk ctrl+s for å lagre og bruk F5 for å kjøre programmet ditt. På noen maskiner må du kanskje trykke Fn-knappen også.
-* På __Mac OS X__, cmd-N for å lage nye shell vinduer, Command-S for å lagre, og hold nede (fn) knappen og trykk F5 for å kjøre programmet ditt.
+* På __Windows__ og __Ubuntu__, bruk Ctrl-N for å lage nye shell-vinduer, bruk Ctrl-S for å lagre og bruk F5 for å kjøre programmet ditt. På noen maskiner må du kanskje trykke fn-knappen også.
+* På __Mac OS X__, cmd-N for å lage nye shell vinduer, Command-S for å lagre, og hold nede fn-knappen og trykk F5 for å kjøre programmet ditt.
 
 # Steg 2: Hei, Skilpadde! {.activity}
 

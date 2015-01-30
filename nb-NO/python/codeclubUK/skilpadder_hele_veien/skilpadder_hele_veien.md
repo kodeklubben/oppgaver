@@ -1,13 +1,14 @@
 ---
-title: Skilpadder Hele Veien Ned
-level: 4.4
-language: nb-NO
-stylesheet: python
+title: Skilpadder hele veien ned
+level: 3
+logo: ../../../assets/img/ccuk_logo.png
+author: Oversatt fra [Code Club UK](//codeclub.org.uk)
+license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 # Introduksjon {.intro}
 
-Hent frem skilpaddene dine, åpne IDLE, det er på tide å tegne igjen. 
+Hent frem skilpaddene dine, åpne IDLE, det er på tide å tegne igjen.
 
 # Steg 1: Tegn et fjell {.activity}
 
