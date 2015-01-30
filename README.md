@@ -78,6 +78,7 @@ påkrevd, men man kan også definere `author` og `license` (standard lisens er
 
 
 **Bygging**
+
 Ved *bygging* blir alle markdown-filer (.md) omgjort til HTML og bilder eller
 andre filer blir kopiert. Dersom en oppgave skal inkludere filer eller bilder,
 skal oppgaven ligge i en egen mappe med filene. I motsatt tilfelle, dersom en
@@ -99,6 +100,7 @@ lenkes til oppgaven fra noe sted og den er da gjemt.
 
 
 **Markdown**
+
 Nettet har flere beskrivelser av [Markdown-syntaksen](md-syntaks). Du kan
 også lære endel ved å bruke en [live markdown editor](md-live).
 
@@ -111,6 +113,7 @@ Her kommer noen eksempler:
 
 
 **Overskrifter**
+
 Overskrifter lages ved å begynne en linje med en eller flere `#`. En `#` gir
 den største overskriften, mens seks `######` gir den minste overskriften. I
 tillegg kan en stil legges til overskriften slik som dette `# Overskrift {.stil}`.
