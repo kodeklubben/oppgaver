@@ -146,7 +146,7 @@ I tillegg finnes flere stiler som brukes ved behov:
 
     ```
 
-  Legg merke til de tomme linjene over og under bilder. Bildet vil da sentreres
+  Legg merke til de tomme linjene over og under bildet. Bildet vil da sentreres
   i et avsnitt for seg selv. Alternativ billedtekst legges mellom
   `[` og `]` slik at bildene også gir mening for synshemmede.
 
