@@ -1,0 +1,10 @@
+uk_codeclub/felix_og_herbert/felix_og_herbert.md
+uk_codeclub/spokelsesjakten/spokelsesjakten.md
+uk_codeclub/fyrverkeri/fyrverkeri.md
+uk_codeclub/enarmet_banditt/enarmet_banditt.md
+uk_codeclub/flaksefugl/flaksefugl.md
+uk_codeclub/jafsefisk/jafsefisk.md
+uk_codeclub/orkenlop/orkenlop.md
+uk_codeclub/hva_er_det/hva_er_det.md
+uk_codeclub/tegneprogram/tegneprogram.md
+uk_codeclub/lag_ditt_eget_spill/lag_ditt_eget_spill.md
