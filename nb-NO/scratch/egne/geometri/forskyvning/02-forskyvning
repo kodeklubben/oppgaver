@@ -1,0 +1,36 @@
+---
+title: Forskyving
+level: 1.2
+language: nb-NO
+stylesheet: scratch
+embeds: ["*.png", "../../bilder/*.png"]
+note: "README.md"
+---
+
+# Introduksjon {.intro}
+
+Denne oppgaven forutsetter at du har fullført oppgave 1 i denne oppgaveserien.
+
+Vi skal nå se på hvordan vi kan flytte en figur rundt på skjermen uten at den endrer form, størrelse eller retning. Det kalles en forskyvning!
+
+Aller først henter vi frem trollmannhatten fra forrige oppgave. Trykk på "mine ting" og se inni Oppgave 1.
+
+Vi skal la rotasjonen ligge en liten stund, så vi kobler ganske enkelt "Når grønt flagg klikkes"-boksen fra resten av koden.
+Ikke slett koden, vi skal bruke den igjen senere!
+
+## Steg 1 {.activity}
+
+Vi må huske at for en datamaskin foregår all bevegelse på skjermen i et koordinatsystem. Koordinatene for bevegelse i lengderetning, altså fra høyre til venstre, kaller vi x-koordinater. 
+Vil du bevege deg i høyden må vi endre på y-koordinatene.
+
+Vi begynner med å endre på X-koordinatene
+
+## Sjekkliste {.checklist}
+
++ Vi henter en `endre x med`-{.blockblue} fra `Bevegelse`-{.blockblue} og kobler den til `Når grønt flagg klikkes`
++ Du kan endre verdien med så mye som du selv ønsker. 
+
+	```blocks
+	når grønt flagg klikkes
+	endre x med 
+	```
