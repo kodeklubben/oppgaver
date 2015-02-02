@@ -1,5 +1,7 @@
 # Kodeklubbens oppgavesett
 
+[![Join the chat at https://gitter.im/kodeklubben/oppgaver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kodeklubben/oppgaver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Her finnes kilden til kodeklubbens oppgaver. Oppgavene er skrevet i formatet
 markdown, og det er en [bygger](/arve0/codeclub_lesson_builder) som konverterer
 oppgavene til [websider](http://kodeklubben.github.io/). For å komme i gang,
