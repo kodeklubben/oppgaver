@@ -51,7 +51,7 @@ ferdige.
   av `Ny figur`.  Velg filen `europakart.png` som du lastet ned
   forrige gang. Hvis du ikke har denne lett tilgjengelig kan du laste
   den ned på nytt fra
-  <http://kodeklubben.github.io/nb-NO/scratch_kurs.2/02/europakart.png>.
+  <https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/egne/hvor_i_all_verden/europakart.png>.
 
 + Gi denne nye kartfiguren navnet `Kart`.
 
@@ -347,7 +347,7 @@ spillet, samt legge på en tidsbegrensning og poengsum.
 + Fortsatt er ikke kartet så veldig stort. En måte å komme seg rundt
   begrensningen på figurstørrelse i Scratch er å la bakgrunnen bestå
   av flere deler. Filen
-  <http://kodeklubben.github.io/nb-NO/scratch_kurs.2/02/europakart.zip>
+  <https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/egne/hvor_i_all_verden/europakart.zip>
   inneholder 9 kartfliser du kan prøve å pusle sammen. Du må da laste
   inn hver av dem som en egen figur. Hver av dem trenger omtrent samme
   kode som kartet vi har brukt så langt. Du må bare endre litt i `gå
