@@ -1,7 +1,7 @@
 ---
 title: Halloweenimasjon
 level: 1
-author: Torbjørn Skauli
+author: Torbjørn Skauli og Geir Arne Hjelle
 ---
 
 # Introduksjon {.intro}
@@ -401,7 +401,7 @@ tipsene nedenfor.
   språket som brukes til å lage nettsider.
 
     Last ned filen
-    <http://kodeklubben.github.io/nb-NO/scratch.1/06/projiser.html>.
+    <https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/egne/halloweenimasjon/projiser.html>.
     Etter at du har gått til denne adressen kan du velge `Fil > lagre
     som`, eller noe som ligner, i menyen til nettleseren din. Legg
     filen et sted du finner den igjen.
