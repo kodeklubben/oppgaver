@@ -1,7 +1,6 @@
 ---
 title: Hendelser
 level: 2
-language: nb-NO
 author: Geir Arne Hjelle
 ---
 
@@ -26,47 +25,47 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
 + Start et nytt program ved å skrive `edit skattejakt`, skriv inn
   det følgende:
 
-	```lua
-	local x = 20
-	local y = 10
+    ```lua
+    local x = 20
+    local y = 10
 
-	term.clear()
-	term.setCursorPos(x, y)
-	print('O')
-	```
+    term.clear()
+    term.setCursorPos(x, y)
+    print('O')
+    ```
 
-	Lagre og kjør programmet. Skjønner du hva det gjør? Prøv å
+    Lagre og kjør programmet. Skjønner du hva det gjør? Prøv å
     forandre verdiene av `x` og `y` og kjør igjen.
 
 + Så langt skriver programmet bare ut en `O` på en gitt posisjon. Nå
   vil vi bruke hendelser for å kunne flytte denne figuren rundt på
   skjermen.
 
-	For å vente på hendelser bruker vi `os.pullEvent()`. Vi vil
+    For å vente på hendelser bruker vi `os.pullEvent()`. Vi vil
     spesielt vente på taste-hendelser. Disse hendelsene kalles `key` i
     ComputerCraft. Forandre programmet ditt som under:
 
-	```lua
-	local x = 20
-	local y = 10
+    ```lua
+    local x = 20
+    local y = 10
 
-	term.clear()
-	term.setCursorPos(x, y)
-	print('O')
+    term.clear()
+    term.setCursorPos(x, y)
+    print('O')
 
-	local hendelse, tast = os.pullEvent('key')    -- ny linje
-	print(hendelse)                               -- ny linje
-	print(tast)                                   -- ny linje
-	```
+    local hendelse, tast = os.pullEvent('key')    -- ny linje
+    print(hendelse)                               -- ny linje
+    print(tast)                                   -- ny linje
+    ```
 
-	Når du kjører programmet ditt nå blir programmet stående og vente
+    Når du kjører programmet ditt nå blir programmet stående og vente
     til du trykker en tast. Deretter skrives teksten **key** samt et
     tall til skjermen. Teksten **key** betyr bare at det var en
     taste-hendelse som skjedde. Dette er ikke så veldig interessant
     for oss nå, men kan være nyttig i andre programmet om man lytter
     på flere forskjellige hendelser.
 
-	Tallet vi fikk er derimot veldig viktig. Hver tast på tastaturet
+    Tallet vi fikk er derimot veldig viktig. Hver tast på tastaturet
     har sin egen tastekode. Prøv å kjøre programmet flere ganger, ser
     du at om du trykker samme tast får du samme tall tilbake. For
     eksempel er `A` alltid 30, mens `pil opp` alltid er 200.
@@ -75,42 +74,42 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
   kjenner alle disse, og gjør at vi kan skrive for eksempel `keys.q`
   for å representere `Q`-tasten. Endre programmet ditt igjen:
 
-	```lua
-	local x = 20
-	local y = 10
+    ```lua
+    local x = 20
+    local y = 10
 
-	term.clear()
-	term.setCursorPos(x, y)
-	print('O')
+    term.clear()
+    term.setCursorPos(x, y)
+    print('O')
 
-	local hendelse, tast = os.pullEvent('key')
-	if tast == keys.q then                        -- ny linje
-		print('Du trykket Q')                     -- ny linje
-	else                                          -- ny linje
-		print('Du trykket ikke Q')                -- ny linje
-	end                                           -- ny linje
-	```
+    local hendelse, tast = os.pullEvent('key')
+    if tast == keys.q then                        -- ny linje
+        print('Du trykket Q')                     -- ny linje
+    else                                          -- ny linje
+        print('Du trykket ikke Q')                -- ny linje
+    end                                           -- ny linje
+    ```
 
 + Vi kan nå lage en løkke hvor vi alltid sjekker hvilken tast som er
   trykket. Dersom tasten `Q` trykkes avslutter vi løkken med `break`.
 
-	```lua
-	local x = 20
-	local y = 10
+    ```lua
+    local x = 20
+    local y = 10
 
-	while true do                                 -- ny linje
-		term.clear()
-		term.setCursorPos(x, y)
-		print('O')
+    while true do                                 -- ny linje
+        term.clear()
+        term.setCursorPos(x, y)
+        print('O')
 
-		local hendelse, tast = os.pullEvent('key')
-		if tast == keys.q then
-			break                                 -- endret linje
-		end
-	end                                           -- ny linje
-	```
+        local hendelse, tast = os.pullEvent('key')
+        if tast == keys.q then
+            break                                 -- endret linje
+        end
+    end                                           -- ny linje
+    ```
 
-	Når du kjører dette programmet vil det tilsynelatende ikke skje
+    Når du kjører dette programmet vil det tilsynelatende ikke skje
     noe før du trykker `Q`, siden det er den eneste hendelsen vi
     har kode som reagerer på.
 
@@ -118,27 +117,27 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
   rundt på skjermen. For å gjøre dette trenger vi bare å endre
   verdiene av `x` og `y` avhengig av hvilken piltast som trykkes.
 
-	```lua
-	local x = 20
-	local y = 10
+    ```lua
+    local x = 20
+    local y = 10
 
-	while true do
-		term.clear()
-		term.setCursorPos(x, y)
-		print('O')
+    while true do
+        term.clear()
+        term.setCursorPos(x, y)
+        print('O')
 
-		local hendelse, tast = os.pullEvent('key')
-		if tast == keys.q then
-			break
-		end
+        local hendelse, tast = os.pullEvent('key')
+        if tast == keys.q then
+            break
+        end
 
-		if tast == keys.right then                -- ny linje
-			x = x + 1                             -- ny linje
-		end                                       -- ny linje
-	end
-	```
+        if tast == keys.right then                -- ny linje
+            x = x + 1                             -- ny linje
+        end                                       -- ny linje
+    end
+    ```
 
-	Når du kjører dette programmet vil du se at du kan bruke `pil
+    Når du kjører dette programmet vil du se at du kan bruke `pil
     høyre` til å bevege figuren mot høyre.
 
 ### Prøv selv {.try}
@@ -153,30 +152,30 @@ da å sammenligne med kodene `keys.left`, `keys.down` og
   etter. Vi bruker tilfeldige tall for å bestemme hvor skatten skal
   ligge. Endre begynnelsen av programmet ditt som følger:
 
-	```lua
-	local x = 20
-	local y = 10
-	local skattX = math.random(1, 50)             -- ny linje
-	local skattY = math.random(1, 18)             -- ny linje
+    ```lua
+    local x = 20
+    local y = 10
+    local skattX = math.random(1, 50)             -- ny linje
+    local skattY = math.random(1, 18)             -- ny linje
 
-	while true do
-		term.clear()
-		term.setCursorPos(skattX, skattY)         -- ny linje
-		print('X')                                -- ny linje
-		term.setCursorPos(x, y)
-		print('O')
+    while true do
+        term.clear()
+        term.setCursorPos(skattX, skattY)         -- ny linje
+        print('X')                                -- ny linje
+        term.setCursorPos(x, y)
+        print('O')
 
-		if x == skattX and y == skattY then       -- ny linje
-			term.setCursorPos(1, 1)               -- ny linje
-			print('Du fant skatten!')             -- ny linje
-			break                                 -- ny linje
-		end                                       -- ny linje
+        if x == skattX and y == skattY then       -- ny linje
+            term.setCursorPos(1, 1)               -- ny linje
+            print('Du fant skatten!')             -- ny linje
+            break                                 -- ny linje
+        end                                       -- ny linje
 
-		local hendelse, tast = os.pullEvent('key')
+        local hendelse, tast = os.pullEvent('key')
         -- resten av programmet er som tidligere
-	```
+    ```
 
-	Prøv spillet! Fungerer det som du hadde trodd? Klarer du å kanskje
+    Prøv spillet! Fungerer det som du hadde trodd? Klarer du å kanskje
     legge til flere skatter?
 
 ### Prøv selv {.try}
@@ -293,7 +292,7 @@ tryggere.
     end
     ```
 
-	Kjør programmet, og sjekk at det virker som det skal.
+    Kjør programmet, og sjekk at det virker som det skal.
 
 + Når en datamaskin starter sjekker den først om det finnes et program
   som heter `startup` (*startup* betyr *oppstart*). Om den finner
@@ -301,7 +300,7 @@ tryggere.
   vi kaller passord-programmet vårt for **startup** så vil det kjøre
   automatisk.
 
-	Skriv `move passord startup`. Dette endre navnet på
+    Skriv `move passord startup`. Dette endre navnet på
     passord-programmet vårt. Vi kan nå starte datamaskinen på nytt ved
     å skrive `reboot`. Datamaskinen vil nå direkte spørre deg om
     passordet.
@@ -313,11 +312,11 @@ tryggere.
   heter `os.pullEventRaw`. Disse fungerer omtrent på samme måte, men
   den siste bryr seg ikke om `Ctrl-T`.
 
-	Skriv `edit startup` og legg til en linje øverst i koden din:
+    Skriv `edit startup` og legg til en linje øverst i koden din:
 
     ```lua
-	os.pullEvent = os.pullEventRaw                -- ny linje
-	local passord = 'kodeklubben'
+    os.pullEvent = os.pullEventRaw                -- ny linje
+    local passord = 'kodeklubben'
 
     while true do
         term.clear()
@@ -363,29 +362,29 @@ flytte filer mellom forskjellige datamaskiner.
 + La oss lage et enkelt program. Skriv `edit navn` og skriv inn
   følgende:
 
-	```lua
-	print('Hva heter du?')
-	navn = read()
-	print('Hei, ' .. navn)
-	```
+    ```lua
+    print('Hva heter du?')
+    navn = read()
+    print('Hei, ' .. navn)
+    ```
 
-	Test at programmet virker ved å skrive `navn`.
+    Test at programmet virker ved å skrive `navn`.
 
 + Vi kan nå kopiere dette programmet over til disketten ved å skrive
   `copy navn disk`.
 
 + Vi kan nå ta med oss dette programmet til en annen datamaskin:
 
-	1 Steng datamaskinen.
+    1 Steng datamaskinen.
 
-	2 Åpne diskettstasjonen, og flytt disketten til inventory'et ditt.
+    2 Åpne diskettstasjonen, og flytt disketten til inventory'et ditt.
 
-	3 Lag en ny datamaskin, også denne med en diskettstasjon inntil
+    3 Lag en ny datamaskin, også denne med en diskettstasjon inntil
     seg.
 
-	4 Sett disketten inn i den nye diskettstasjonen.
+    4 Sett disketten inn i den nye diskettstasjonen.
 
-	5 Åpne den nye datamaskinen. Skriv `dir` og `dir disk` slik at du
+    5 Åpne den nye datamaskinen. Skriv `dir` og `dir disk` slik at du
     ser at programmet ditt er flyttet til den nye datamaskinen ved
     hjelp av disketten.
 
@@ -500,21 +499,21 @@ dem.
   se på **hello** som er det enkleste programmet. Dette er en variant
   av **heisann** som vi skrev tidligere.
 
-	Prøv først å kjøre programmet ved å skrive `hello`. Teksten
+    Prøv først å kjøre programmet ved å skrive `hello`. Teksten
     **Hello World!** skrives til skjermen, ett tegn om gangen.
 
 + La oss se på koden til **hello**. Skriv `edit hello`. Du vil se det
   følgende:
 
-	```lua
-	if term.isColour() then
-		term.setTextColour( 2^math.random(0,15) )
-	end
-	textutils.slowPrint( "Hello World!" )
-	term.setTextColour( colours.white )
-	```
+    ```lua
+    if term.isColour() then
+        term.setTextColour( 2^math.random(0,15) )
+    end
+    textutils.slowPrint( "Hello World!" )
+    term.setTextColour( colours.white )
+    ```
 
-	Ser du hvilken kodelinje det er som har ansvaret for å skrive
+    Ser du hvilken kodelinje det er som har ansvaret for å skrive
     teksten til skjermen?
 
 + Nå vil vi endre teksten **Hello World!** til noe annet. Men om du
@@ -577,17 +576,17 @@ datamaskin, men har noen ekstra muligheter.
 
 + La oss lage et enkelt tegneprogram. Skriv `edit tegne`, og skriv
 
-	```lua
-	term.clear()
+    ```lua
+    term.clear()
 
-	while true do
-		local hendelse, knapp, x, y = os.pullEvent('mouse_click')
-		print('Du klikket ' .. knapp)
-		print('Posisjon: x = ' .. x .. ', y = ' .. y)
-	end
-	```
+    while true do
+        local hendelse, knapp, x, y = os.pullEvent('mouse_click')
+        print('Du klikket ' .. knapp)
+        print('Posisjon: x = ' .. x .. ', y = ' .. y)
+    end
+    ```
 
-	Kjør programmet og prøv å klikk litt rundt omkring på skjermen.
+    Kjør programmet og prøv å klikk litt rundt omkring på skjermen.
     Bruk både venstre og høyre museknapp. Skjønner du hvordan
     museklikk-hendelser fungerer? Bruk `Ctrl-T` for å avslutte
     programmet.
@@ -596,22 +595,22 @@ datamaskin, men har noen ekstra muligheter.
   venstre-klikker. Vi kan også bruke høyre-klikk til å viske vekk det
   som er tegnet. Endre koden til
 
-	```lua
-	term.clear()
+    ```lua
+    term.clear()
 
-	while true do
-		local hendelse, knapp, x, y = os.pullEvent('mouse_click')
-		term.setCursorPos(x, y)                   -- ny linje
+    while true do
+        local hendelse, knapp, x, y = os.pullEvent('mouse_click')
+        term.setCursorPos(x, y)                   -- ny linje
 
-		if knapp == 1 then                        -- ny linje
-			print('#')                            -- ny linje
-		end                                       -- ny linje
+        if knapp == 1 then                        -- ny linje
+            print('#')                            -- ny linje
+        end                                       -- ny linje
 
-		if knapp == 2 then                        -- ny linje
-			print(' ')                            -- ny linje
-		end                                       -- ny linje
-	end
-	```
+        if knapp == 2 then                        -- ny linje
+            print(' ')                            -- ny linje
+        end                                       -- ny linje
+    end
+    ```
 
 ### Prøv selv {.try}
 

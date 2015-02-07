@@ -1,7 +1,6 @@
 ---
 title: Bli Kjent med Datamaskinen
 level: 1
-language: nb-NO
 author: Geir Arne Hjelle
 ---
 

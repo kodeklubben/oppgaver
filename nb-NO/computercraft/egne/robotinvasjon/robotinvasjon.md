@@ -1,7 +1,6 @@
 ---
 title: Robotinvasjon
 level: 1
-language: nb-NO
 author: Geir Arne Hjelle
 ---
 
@@ -159,7 +158,7 @@ roboten rundt omkring. Dersom du synes `go left` og `go right` er litt
 forvirrende siden roboten ikke går noe sted, kan du bruke `turn left`
 og `turn right` i stedet.
 
-	Hva skjer dersom du ber roboten gå gjennom bakken, gjennom en
+    Hva skjer dersom du ber roboten gå gjennom bakken, gjennom en
     vegg, eller om du står i veien for roboten?
 
 # Steg 3: Gruverobot {.activity}
@@ -279,13 +278,13 @@ inne i Lua-tolkeren.
 + Roboten kan også sjekke om den har noe foran seg: Skriv
 `turtle.detect()`.
 
-	Du skal få svaret `true` som betyr at roboten ser at den har noe
-	foran seg.
+    Du skal få svaret `true` som betyr at roboten ser at den har noe
+    foran seg.
 
 + Prøv så `turtle.back()` etterfulgt av `turtle.detect()`.
 
-	Siden roboten nå ikke har noe rett foran seg får du svaret
-	`false`.
+    Siden roboten nå ikke har noe rett foran seg får du svaret
+    `false`.
 
 I Steg 6 skal vi se hvordan vi kan bruke `place()` og `detect()`
 sammen for å lage en ganske smart byggerobot.
@@ -302,7 +301,7 @@ eksempel `go forward 3`. Det samme fungerer ikke med
 
     Skriv `for i = 1, 5 do turtle.back(); end` i Lua-tolkeren.
 
-	Flytter roboten din seg 5 steg bakover?
+    Flytter roboten din seg 5 steg bakover?
 
 + Hvis vi vil kombinere flere kommandoer inne i en løkke i
 Lua-tolkeren bruker vi semikolon, `;`.
@@ -348,10 +347,10 @@ fuel og byggematerialer.
 inn følgende:
 
     ```lua
-	turtle.detect()
-	```
+    turtle.detect()
+    ```
 
-	Lagre og avslutt ved å bruke *Ctrl*-tasten.
+    Lagre og avslutt ved å bruke *Ctrl*-tasten.
 
 + Kjør programmet ved å skrive `byggtrapp`. Dette programmet bygger
 ingen trapp enda, det virker faktisk som om det ikke gjør noe som
@@ -365,13 +364,13 @@ lager nå en løkke hvor roboten klatrer oppover så lenge den merker at
 tårnet er høyere.
 
     ```lua
-	while turtle.detect() do
-	    turtle.up()
-	done
-	```
+    while turtle.detect() do
+        turtle.up()
+    done
+    ```
 
-	Lagre og kjør programmet ditt. Klatrer roboten til toppen av det
-	lille tårnet?
+    Lagre og kjør programmet ditt. Klatrer roboten til toppen av det
+    lille tårnet?
 
 + Vi har lært av feilen vi gjorde tidligere, så nå vil vi passe på at
 roboten kommer ned igjen. La oss legge til en ny løkke i programmet,
@@ -381,35 +380,35 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
 
     Utvid programmet ditt slik:
 
-	```lua
-	while turtle.detect() do
-	    turtle.up()
-	done
+    ```lua
+    while turtle.detect() do
+        turtle.up()
+    done
 
-	while not turtle.detectDown() do
-		turtle.down()
-	done
-	```
+    while not turtle.detectDown() do
+        turtle.down()
+    done
+    ```
 
-	Vi sier at så lenge roboten *ikke* har en kloss under seg kan den
-	ta et steg ned. Kommer roboten ned igjen når du kjører programmet?
+    Vi sier at så lenge roboten *ikke* har en kloss under seg kan den
+    ta et steg ned. Kommer roboten ned igjen når du kjører programmet?
 
 + Nå er vi klar til å la roboten bygge selve trappen. Det gjør vi ved
 å ta et steg tilbake i den andre løkken, og plassere ut en kloss.
 
-	```lua
-	while turtle.detect() do
-	    turtle.up()
-	done
+    ```lua
+    while turtle.detect() do
+        turtle.up()
+    done
 
-	while not turtle.detectDown do
-		turtle.down()
-		turtle.back()
-		turtle.place()
-	done
-	```
+    while not turtle.detectDown do
+        turtle.down()
+        turtle.back()
+        turtle.place()
+    done
+    ```
 
-	Virker det? Lager roboten en trapp?
+    Virker det? Lager roboten en trapp?
 
 + Nå er vi klare for den store testen. Klarer vi å sende
 trappebyggeroboten vår opp det høye tårnet?
@@ -417,7 +416,7 @@ trappebyggeroboten vår opp det høye tårnet?
     Pass på at roboten fortsatt har nok fuel, og fyll opp med
     byggemateriale. Kjør den bort til det høye tårnet, og la den `byggtrapp`!
 
-	![](byggtrapp.png)
+    ![](byggtrapp.png)
 
 Gratulerer! Du har nå programmert en robot! Legg merke til at siden
 `byggtrapp`-programmet vårt bruker `detect`-kommandoer kan det bygge
