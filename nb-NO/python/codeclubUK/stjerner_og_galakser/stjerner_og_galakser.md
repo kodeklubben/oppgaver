@@ -8,7 +8,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver enklere og mer oversiktlig.
+I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver enklere og mer oversiktlige.
 
 # Steg 1: Tegne stjerner {.activity}
 
@@ -41,7 +41,7 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
 Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen til den som ligger i color.
 Sørg for å forstå alle før du går videre.
 
-+ Nå skal vi tenge 3 stjerner på forskjellige posisjoner på skjermen. Vi lager en funsksjon som heter `drawStar()` og kaller denne te ganger for å tegne tre stjerner.
++ Nå skal vi tenge tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne te ganger for å tegne tre stjerner.
 
     ```python
     from turtle import *
@@ -75,20 +75,20 @@ Sørg for å forstå alle før du går videre.
 
     `hideturtle()` gjemmer skilpadden.
 
-    Du har sett og brukt funksjoner før. For eksempel, `penup()`og `pendown()` er funksjoner. Din nye `drawStar()`funksjon virker på damme måte. Nå som du har en funksjon for å tegne en stjerne trenger du ikke tenke på hvilke komandoer du må skrive for å tegne dem, du kan bare kalle funksjonen og den vil tegne stjernen for deg! 
+    Du har sett og brukt funksjoner før. For eksempel, `penup()`og `pendown()` er funksjoner. Din nye `drawStar()`funksjon virker på samme måte. Nå som du har en funksjon for å tegne en stjerne trenger du ikke tenke på hvilke komandoer du må skrive for å tegne dem, du kan bare kalle funksjonen og den vil tegne stjernen for deg! 
 
 
 
 # Steg 2: Sende verdier inn i funksjoner {.activity}
 
-Funksjonen du lagde i forrige steg tegner en like stor stjerne hver gang. Hva om du vil tegne stjerner med forskjellig størrelse? En måte du kunne gjort det på er å lage forskjellige funksjoner som `drawBigStar()` , `drawMediumStar()` eller `drawSmallStar()`
+Funksjonen du lagde i forrige steg tegner en like stor stjerne hver gang. Hva om du vil tegne stjerner med forskjellige størrelser? En måte du kunne gjøre det på er å lage forskjellige funksjoner som `drawBigStar()` , `drawMediumStar()` eller `drawSmallStar()`
 
-En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawStar()` for å fortelle hvilken størrelse du vil ha. Du har allerede brukt flere funksjoner som mottar da på denne måten. For eksempel: `forward(100)` Her sender du 100 inn funksjonen og det gjør at skilpadden går 100 piksler frem.
+En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawStar()` for å fortelle hvilken størrelse du vil ha. Du har allerede brukt flere funksjoner som mottar verdier på denne måten. For eksempel: `forward(100)` Her sender du 100 inn funksjonen og det gjør at skilpadden går 100 piksler frem.
 
 
 ## Sjekkliste {.check}
 
-+ Her er et program med en "stjernetegne-funksjon" som kan tegne stjerner i forskjellige størrelse ut i fra hvilket tall du sender inn i funskjonen.
++ Her er et program med en "stjernetegne-funksjon" som kan tegne stjerner i forskjellige størrelser ut i fra hvilket tall du sender inn i funskjonen.
 
     ```python
     from turtle import *
@@ -240,7 +240,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
 Du kan skrive funksjoner som igjen bruker andre funksjoner. Dette gjør det lettere å ha oversikt når man lager store programmer.
 
 ## Sjekkliste {.check}
-+ Det ville vært fint hvis vi kunne lage en galakse med små flerfargede stjerner i tegningen vår. Vi lager defor en funksjon som heter `drawGlaxy()` som bruker `drawStar()` som vi laget tidligere.
++ Det ville vært kult hvis vi kunne lage en galakse med små flerfargede stjerner i tegningen vår. Vi lager defor en funksjon som heter `drawGlaxy()` som bruker `drawStar()` som vi laget tidligere.
 
     ```python
     from turtle import *
@@ -295,7 +295,7 @@ Du kan skrive funksjoner som igjen bruker andre funksjoner. Dette gjør det lett
     ```
     Ved å kjøre `drawGalaxy(40)` 3 ganger for vi 3 nye galakser som hver inneholder 40 stjerner. For hver galakse kjøres `drawStar()` 40 ganger, mellom hver gang flyttes posisjonen til den neste stjernen litt. Ser du hvor i koden dette skjer?
 
-+ Du kan også tenge stjernebilder satt sammen av stjerner. Dette er ikke så vanskelig siden vi allerede har mange av funksjonene vi trenger.
++ Du kan også tegne stjernebilder satt sammen av stjerner. Dette er ikke så vanskelig siden vi allerede har mange av funksjonene vi trenger.
 
     ```python
     from turtle import *
