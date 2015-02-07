@@ -53,14 +53,14 @@ tid på denne oppgaven slik at du får tenkt gjennom hva som kreves for
 
 Et par små tips:
 
-Det er nok å bruke kommandoene vi har nevnt så langt.
++ Det er nok å bruke kommandoene vi har nevnt så langt.
 
-Du vil helst bruke flere for-løkker. For at dette skal virke må du
-bruke forskjellige variabler, det vil si at du må bytte ut `i` men
-andre bokstaver eller variabelnavn i de andre løkkene du lager.
++ Du vil helst bruke flere for-løkker. For at dette skal virke må du
+  bruke forskjellige variabler, det vil si at du må bytte ut `i` men
+  andre bokstaver eller variabelnavn i de andre løkkene du lager.
 
-For å lage dør eller vinduer i huset ditt vil det enkleste være å
-bruke `if`-tester for å sjekke hvor på huset roboten bygger.
++ For å lage dør eller vinduer i huset ditt vil det enkleste være å
+  bruke `if`-tester for å sjekke hvor på huset roboten bygger.
 
 ## Sjekkliste {.check}
 

@@ -88,7 +88,7 @@ heter `heiverden`.
 + I det nye vinduet, skriv
 
     ```lua
-        print('Hei verden!')
+    print('Hei verden!')
     ```
 
     Etter at du har skrevet dette så trykker du på *Ctrl*-tasten og
@@ -605,18 +605,18 @@ inne i Lua-tolkeren.
     Bygde roboten en gresskloss foran seg? Da har du gjort alt
     riktig. Hvis dette ikke skjedde kan du sjekke
 
-    1 - at du har startet `lua`,
+    __1__: at du har startet `lua`,
 
-    2 - at roboten har fuel,
+    __2__: at roboten har fuel,
 
-    3 - at roboten har byggemateriale,
+    __3__: at roboten har byggemateriale,
 
-    4 - at det ikke står noe foran roboten (husk at den smale sprekken
-    er øynene til roboten), og
+    __4__: at det ikke står noe foran roboten (husk at den smale
+    sprekken er øynene til roboten), og
 
-    5 - at boksen med byggemateriale i robotens inventory er merket, det
-    vil si at den har en litt tykkere ramme rundt seg enn de andre
-    boksene.
+    __5__: at boksen med byggemateriale i robotens inventory er
+    merket, det vil si at den har en litt tykkere ramme rundt seg enn
+    de andre boksene.
 
 + Roboten kan også sjekke om den har noe foran seg: Skriv
 `turtle.detect()`.

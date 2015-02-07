@@ -375,18 +375,19 @@ flytte filer mellom forskjellige datamaskiner.
 
 + Vi kan nå ta med oss dette programmet til en annen datamaskin:
 
-    1 Steng datamaskinen.
+    __1__: Steng datamaskinen.
 
-    2 Åpne diskettstasjonen, og flytt disketten til inventory'et ditt.
+    __2__: Åpne diskettstasjonen, og flytt disketten til inventory'et
+    ditt.
 
-    3 Lag en ny datamaskin, også denne med en diskettstasjon inntil
-    seg.
+    __3__: Lag en ny datamaskin, også denne med en diskettstasjon
+    inntil seg.
 
-    4 Sett disketten inn i den nye diskettstasjonen.
+    __4__: Sett disketten inn i den nye diskettstasjonen.
 
-    5 Åpne den nye datamaskinen. Skriv `dir` og `dir disk` slik at du
-    ser at programmet ditt er flyttet til den nye datamaskinen ved
-    hjelp av disketten.
+    __5__: Åpne den nye datamaskinen. Skriv `dir` og `dir disk` slik
+    at du ser at programmet ditt er flyttet til den nye datamaskinen
+    ved hjelp av disketten.
 
 + Vi kan nå kopiere programmet fra disketten til denne nye
   datamaskinen slik at vi kan ta med disketten videre og likevel bruke
@@ -412,31 +413,31 @@ symbolet for å lagre filer i forskjellige programmer.
 Vi kan også se på og endre programmene våre utenfor Minecraft og
 ComputerCraft. Dette kan være nyttig på flere måter.
 
-1. Om vi ved et uhell ødelegger en datamaskin kan vi hente tilbake
-   programmene på den datamaskinen, og kopiere de til en annen
-   datamaskin.
+__1__: Om vi ved et uhell ødelegger en datamaskin kan vi hente tilbake
+programmene på den datamaskinen, og kopiere de til en annen
+datamaskin.
 
-2. Vi kan raskere kopiere filer mellom datamaskiner enn om vi bruker
-   disketter som vi lærte i forrige steg.
+__2__: Vi kan raskere kopiere filer mellom datamaskiner enn om vi
+bruker disketter som vi lærte i forrige steg.
 
-3. Programmet `edit` som vi bruker til å skrive programmer er ikke så
-   lett å skrive i. Det er enklere å bruke for eksempel Notepad eller
-   andre tekstprogrammer vi har installert.
+__3__: Programmet `edit` som vi bruker til å skrive programmer er ikke
+så lett å skrive i. Det er enklere å bruke for eksempel Notepad eller
+andre tekstprogrammer vi har installert.
 
 Som du kanskje vet blir omtrent alle data i Minecraft lagret i en
 *Minecraft*-katalog på datamaskinen din. For å finne denne kan du
 gjøre følgende (utenfor Minecraft):
 
-+ __Windows__: Under Windows finner du *Minecraft*-katalogen under
-  `%appdata%\.minecraft`. Søk etter `%appdata%` i en utforsker eller i
-  kjør-feltet etter å ha klikket start-knappen.
+__Windows__: Under Windows finner du *Minecraft*-katalogen under
+`%appdata%\.minecraft`. Søk etter `%appdata%` i en utforsker eller i
+kjør-feltet etter å ha klikket start-knappen.
 
-+ __Mac OS X__: Under Mac ligger *Minecraft*-katalogen i
-  `Library/Application Support/minecraft/` under hjemmekatalogen
-  din. På norsk heter `Library` `Bibliotek`.
+__Mac OS X__: Under Mac ligger *Minecraft*-katalogen i
+`Library/Application Support/minecraft/` under hjemmekatalogen din. På
+norsk heter `Library` `Bibliotek`.
 
-+ __Linux__: På Linux finner du *Minecraft*-katalogen som en skjult
-  katalog `.minecraft` rett under hjemmekatalogen din.
+__Linux__: På Linux finner du *Minecraft*-katalogen som en skjult
+katalog `.minecraft` rett under hjemmekatalogen din.
 
 Finn *Minecraft*-katalogen din i en filutforsker. Gå videre til
 katalogen `saves`, deretter velger du navnet på den verden du spiller
