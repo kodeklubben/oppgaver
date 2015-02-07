@@ -1,5 +1,5 @@
 ---
-title: Stjerner og galsker
+title: Stjerner og galakser
 level: 2
 logo: ../../../assets/img/ccuk_logo.png
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
