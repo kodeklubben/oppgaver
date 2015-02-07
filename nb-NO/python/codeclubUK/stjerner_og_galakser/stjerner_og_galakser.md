@@ -15,7 +15,7 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
 ## Sjekkliste {.check}
 
 
-+ Vi begynner med å bruke det du allerede kan om å tenge med skilpadden. Kjør dette programmet, kall filen noe annet enn turle.py:
++ Vi begynner med å bruke det du allerede kan om å tenge med skilpadden. Kjør dette programmet:
 
     ```python
     from turtle import *
@@ -81,7 +81,7 @@ Sørg for å forstå alle før du går videre.
 
 # Steg 2: Sende verdier inn i funksjoner {.activity}
 
-Funksjonen du lagde i forrige steg tegner en like stor stjerne hver gang. Hva om du vil tegne stjerner med forskjellige størrelser? En måte du kunne gjøre det på er å lage forskjellige funksjoner som `drawBigStar()` , `drawMediumStar()` eller `drawSmallStar()`
+Funksjonen du lagde i forrige steg tegner en like stor stjerne hver gang. Hva om du vil tegne stjerner med forskjellige størrelser? En måte du kan gjøre det på er å lage forskjellige funksjoner som `drawBigStar()` , `drawMediumStar()` eller `drawSmallStar()`
 
 En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawStar()` for å fortelle hvilken størrelse du vil ha. Du har allerede brukt flere funksjoner som mottar verdier på denne måten. For eksempel: `forward(100)` Her sender du 100 inn funksjonen og det gjør at skilpadden går 100 piksler frem.
 
@@ -240,7 +240,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
 Du kan skrive funksjoner som igjen bruker andre funksjoner. Dette gjør det lettere å ha oversikt når man lager store programmer.
 
 ## Sjekkliste {.check}
-+ Det ville vært kult hvis vi kunne lage en galakse med små flerfargede stjerner i tegningen vår. Vi lager defor en funksjon som heter `drawGlaxy()` som bruker `drawStar()` som vi laget tidligere.
++ Det ville vært kult hvis vi kunne lage en galakse med små flerfargede stjerner i tegningen vår. Vi lager defor en funksjon som heter `drawGalaxy()` som bruker funksjonen `drawStar()` som vi laget tidligere.
 
     ```python
     from turtle import *
