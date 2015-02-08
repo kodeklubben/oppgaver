@@ -20,15 +20,17 @@ from time import sleep
 # The font contains a lot of straight lines (e.g. /|\_), making it easy to draw.
 
 TEXT = """
-______      _   _                                           
-| ___ \    | | | |                                          
-| |_/ /   _| |_| |__   ___  _ __                            
-|  __/ | | | __| '_ \ / _ \| '_ \                           
-| |  | |_| | |_| | | | (_) | | | |                          
-\_|   \__, |\__|_| |_|\___/|_| |_|                          
-       __/ |                                                
-      |___/                                                 
+______      _   _
+| ___ \    | | | |
+| |_/ /   _| |_| |__   ___  _ __
+|  __/ | | | __| '_ \ / _ \| '_ \\
+| |  | |_| | |_| | | | (_) | | | |
+\_|   \__, |\__|_| |_|\___/|_| |_|
+       __/ |
+      |___/
 """
+
+LINES = TEXT.split('\n')
 
 SIZE = 15
 
@@ -91,12 +93,12 @@ def blank():
     penup()
     forward(SIZE)
 
-def newline(): # move to next line
+def newline(lineLength): # move to next line
     penup()
     right(90)
     forward(SIZE)
     right(90)
-    forward(xcor()-(-window_height()/2))
+    forward(SIZE*lineLength)
     right(180)
 
 
@@ -122,22 +124,24 @@ def create_text():
     setx(-window_width()/2)
     sety(window_height()/2)
 
-    for char in TEXT:
-        # alternatively: MOVES.get(char, blank)()
-        if char in MOVES:
-            move = MOVES[char]
-        else:
-            move = blank
-        move()
+    for line in LINES:
+        for char in line:
+            # alternatively: MOVES.get(char, blank)()
+            if char in MOVES:
+                move = MOVES[char]
+            else:
+                move = blank
+            move()
+        newline(len(line))
 
 def main():
     shape("turtle")
-    speed(11)
-    width(5)
 
-    for i in range(1):
+    for i in range(2):
+        speed(11)
+        width(5)
         create_text()
         sleep(5)
         reset()
 
-#main()
+main()
