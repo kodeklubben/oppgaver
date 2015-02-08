@@ -147,13 +147,13 @@ I tillegg finnes flere stiler som brukes ved behov:
 
     ```
 
-    ![felix](bilde-felix.png)
+    ![](bilde-felix.png "katten felix")
 
     ```
 
   Legg merke til de tomme linjene over og under bildet. Bildet vil da sentreres
   i et avsnitt for seg selv. Alternativ billedtekst legges mellom
-  `[` og `]` slik at bildene også gir mening for synshemmede.
+  `"` og `"` slik at bildene også gir mening for synshemmede.
 
 - Små bilder, som skal være en del av teksten, legges inn med samme
   kode `![bilde](lite-bilde.png)`, men da med koden som en del av
