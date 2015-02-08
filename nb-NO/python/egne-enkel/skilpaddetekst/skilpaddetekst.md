@@ -208,7 +208,7 @@ Nå har vi bare to tegn igjen å lage! Nemlig `/` og `\`. Disse tegnene må tegn
 
 Hvis du går på ungdomsskolen har du kanskje lært at sammenhengen mellom katetene og hypotenusen i et rettvinklet trekant er slik `a^2 + b^2 = c^2`, det er dermed mulig å regne ut diagonalen til firkanten.
 
-Her skal du bare få svaret og slippe å regne det ut selv. Diagonalen i boksene våre vil være lik `(2 * SIZE**2)**0.5`. `**`-operatoren betyr "opphøyd i" slik at `2**2` blir `4`. Når du opphøyer noe i `0.5`, er det det samme som å ta kvadratrota av tallet. Dermed vil `4**0.5` bli `2.0` Dersom du lurer på hvordan dette fungerer kan du spørre en CodeMaster/veileder, eller mattelæreren din.
+Her skal du bare få svaret og slippe å regne det ut selv. Diagonalen i boksene våre vil være lik `(2 * SIZE**2)**0.5`. `**`-operatoren betyr "opphøyd i" slik at `3**2` blir `9`. Når du opphøyer noe i `0.5`, er det det samme som å ta kvadratrota av tallet. Dermed vil `9**0.5` bli `3.0` Dersom du lurer på hvordan dette fungerer kan du spørre en CodeMaster/veileder, eller mattelæreren din.
 
 ## Sjekkliste {.check}
 
