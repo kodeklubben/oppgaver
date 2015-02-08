@@ -6,9 +6,9 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi skrive kode, slik at vi kan skrive stor tekst ved hjelp av ```turtle```, slik som i animasjonen under.
+I denne oppgaven skal vi skrive kode, slik at vi kan skrive stor tekst ved hjelp av ```turtle```, slik som på bildet under.
 
-![python_ascii_art][]
+![](turtle_python.png)
 
 # Steg 1: Tekst på flere linjer {.activity}
 
@@ -79,7 +79,7 @@ SIZE  = 15
 
 ```SIZE``` er nå en variabel som inneholder størrelsen på boksen vår.
 
-* Vi lager en funksjon ```underscore``` for å lage en understrek:
+* Vi lager en funksjon ```underline``` for å lage en understrek:
 
 ```python
 def underline():
@@ -113,6 +113,9 @@ underline()
 for n in range(10):
     underline()
 ```
+
+Det skal se slik ut, hvis du du ikke har feil i koden:
+![](turtle_underline.png)
 
 * Hva skjer hvis du endrer størrelsen på "boksen"? Prøv å endre på ```SIZE``` variabelen, og se hva som skjer. (Prøv for eksempel 5 og 50)
 
@@ -151,8 +154,8 @@ for n in range(10):
     bar()
 ```
 
-* Tegner skilpadden nå strekene på samme linje?
-Slik: ```| | | | | | | |```
+* Tegner skilpadden nå strekene på samme linje, slik som på bildet?
+![](turtle_bars.png)
 
 # Steg 4: Skilpaddetegn på flere linjer {.activity}
 
@@ -191,6 +194,9 @@ for i in range(15):
 ```
 
 Legg merke til at ```newline``` blir fortalt hvor mange tegn som ble skrevet på linjen over, ikke hvor mange som skal bli skrevet på linjen under!
+
+Dette skal se omtrent slik ut:
+![](turtle_newline.png)
 
 
 # Steg 5: Skilpadder på skråplanet {.activity}
@@ -245,6 +251,9 @@ newline(length)
 for i in range(length):
     slash()
 ```
+
+Denne gangen skal mønsteret bli slik:
+![](turtle_slashes.png)
 
 Nå er vi nesten ferdige! Bare litt igjen nå...
 
@@ -333,7 +342,3 @@ main()
 ```
 
 * Kjør koden og se resultatet ditt!
-
-
-
-
