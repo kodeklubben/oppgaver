@@ -108,14 +108,12 @@ MOVES = {
     "/" : slash,
     "|" : bar,
     "\\": backslash,
-    "\n": newline,
 
     # the following are left as an excercise for the kid
     "(" : bar,
     ")" : bar,
     "'" : blank,
     "," : blank,
-    "`" : blank
 }
 
 def create_text():
