@@ -38,10 +38,14 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
     forward(100)
     done()
     ```
-Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen til den som ligger i color.
-Sørg for å forstå alle før du går videre.
 
-+ Nå skal vi tenge tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne te ganger for å tegne tre stjerner.
+    ![](sky-star.png "Sky med en stjerne og skilpadde")
+
+
+    Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen til den som ligger i color.
+    Sørg for å forstå alle før du går videre.
+
++ Nå skal vi tenge tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å tegne tre stjerner.
 
     ```python
     from turtle import *
@@ -73,9 +77,11 @@ Sørg for å forstå alle før du går videre.
     done()
     ```
 
+    ![](sky-function.png "Sky med tre stjerner")
+
     `hideturtle()` gjemmer skilpadden.
 
-    Du har sett og brukt funksjoner før. For eksempel, `penup()`og `pendown()` er funksjoner. Din nye `drawStar()`funksjon virker på samme måte. Nå som du har en funksjon for å tegne en stjerne trenger du ikke tenke på hvilke komandoer du må skrive for å tegne dem, du kan bare kalle funksjonen og den vil tegne stjernen for deg! 
+    Du har sett og brukt funksjoner før. For eksempel, `penup()`og `pendown()` er funksjoner. Din nye `drawStar()`funksjon virker på samme måte. Nå som du har en funksjon for å tegne en stjerne trenger du ikke tenke på hvilke komandoer du må skrive for å tegne dem, du kan bare kalle funksjonen og den vil tegne stjernen for deg!
 
 
 
@@ -118,7 +124,7 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
     hideturtle()
     done()
     ```
-+ Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner en linje som er 50 piksler lang. 
++ Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner en linje som er 50 piksler lang.
 
 + Det er mulig å sende inn flere verdier inn i funksjonen. For eksempel kan vi sende inn hvilken farge vi vil at stjernen skal ha.
 
@@ -192,7 +198,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     hideturtle()
     done()
 
-    ``` 
+    ```
 + Vi bruker funskjonen `setpos(x,y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200,200)` flytter altså skilpadden til posisjonen (200,200). Prøv å endre på tallene i denne funksjonen!
 
 + Vi skal nå flytte til en tilfeldig posisjon. Vi lager en ny funksjon som heter `moveToRandomLocation()`, denne flytter altså skilpadden til en tilfeldig posisjon.
@@ -231,7 +237,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     ```
 
     Kjør koden flere ganger. Ser du at den tegner stjernene forskjellige plasser hver gang?
-    Prøv å tegne flere stjerner i flere forskjellige størrelser og farger. 
+    Prøv å tegne flere stjerner i flere forskjellige størrelser og farger.
 
     `from random import *` gjør at vi får tilgang på funksjonen `randint(a,b)` . Hvis vi skriver `randint(5,25)` gir denne funksjonen oss et tilfeldig tall som er større eller lik 5 og mindre enn eller lik 25.
 
@@ -327,7 +333,7 @@ Du kan skrive funksjoner som igjen bruker andre funksjoner. Dette gjør det lett
             penup()
             left( randint(-180,180) )
             forward( randint(5,20) )
-            pendown()       
+            pendown()
             #draw a small star in a random colour
             drawStar( 2, choice(starColours) )
 
