@@ -34,6 +34,9 @@ mange linjer.
 
 
 ```python
+from turtle import *
+
+
 TEXT = """
 ______      _   _
 | ___ \    | | | |
@@ -343,3 +346,47 @@ main()
 ```
 
 * Kjør koden og se resultatet ditt!
+
+## Kjøre koden uendelig mange ganger {.try}
+
+Dersom du ønsker å kjøre koden uendelig mange ganger, kan du endre ```main```-funksjonen til:
+
+```python
+def main():
+    shape("turtle")
+
+    while true:
+        speed(11)
+        width(5)
+        create_text()
+        sleep(5)
+        reset()
+```
+
+For at dette skal fungere må vi importere ```sleep```-funksjonen. Dette gjør vi helt på toppen:
+
+```python
+from turtle import *
+from time import sleep
+```
+
+Skilpadden vil nå lage teksten, vente i fem sekunder (```sleep(5)```), og nullstille vinduet ved hjelp av ```reset()``` før den starter på nytt.
+
+
+
+## Utfordringer {.challenge}
+
+Dersom du går tilbake til ordboka vi deklarerte i MOVES-konstanten vil du se at vi "jukset" ved å tegne paranteser - ```(``` og ```)``` som ```|```. Vi "jukset" også ved å bare tegne et blankt tegn istedenfor komma og apostrof - ```,``` og ```'```.
+
+Prøv å lage disse på egenhånd! ```,``` og ```'``` er lettest, for disse kan tegnes som rette streker. For å kunne lage ```(``` og ```)```, må du bruke det du har lært om sirkler!
+
+Lag kode for hvert tegn i en egen funksjon, og husk og oppdatere ```MOVES```. For eksempel, hvis du lagde en komma-funksjon så må du endre
+
+```",": blank``` 
+
+til 
+
+```",": comma```, 
+
+der ```comma``` er navnet på funksjonen din.
+
