@@ -1,4 +1,4 @@
-egne/soloball/soloball.md
+egne/straffespark/straffespark.md
 egne/labyrint/labyrint.md
 egne/bursdag_i_antarktis/bursdag_i_antarktis.md
 uk_codeclub/flaksefugl/flaksefugl.md

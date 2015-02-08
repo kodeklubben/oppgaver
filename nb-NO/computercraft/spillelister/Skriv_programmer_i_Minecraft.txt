@@ -1,0 +1,5 @@
+egne/bli_kjent_med_datamaskinen/bli_kjent_med_datamaskinen.md
+egne/robotinvasjon/robotinvasjon.md
+egne/hendelser/hendelser.md
+egne/bygg_et_hus/bygg_et_hus.md
+egne/sprettball/sprettball.md
