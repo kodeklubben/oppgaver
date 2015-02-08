@@ -12,14 +12,14 @@ I denne oppgaven skal vi skrive kode, slik at vi kan skrive stor tekst ved hjelp
 
 # Steg 1: Tekst på flere linjer {.activity}
 
-Vi har allerede lært at tekststrenger skrives slik: 
+Vi har allerede lært at tekststrenger skrives slik:
 ```python
 tekst = "Hei, verden!"
 ```
 Men hva hvis vi ønsker tekst på flere linjer? Da kan vi bruke tre `"`-tegn, på denne måten:
 ```
 tekst = """
-Dette er en 
+Dette er en
 tekst
 over
 mange linjer.
@@ -157,7 +157,7 @@ La oss prøve å lage tegnet `|`. Dette er rett og slett bare en rett strek som 
         bar()
     ```
 
-* Tegner skilpadden nå strekene på samme linje, slik som på bildet? 
+* Tegner skilpadden nå strekene på samme linje, slik som på bildet?
 
     ![](turtle_bars.png)
 
@@ -206,7 +206,7 @@ For å kunne lage en ny linje  må funksjonen vite hvor mange tegn den skal gå 
 
 Nå har vi bare to tegn igjen å lage! Nemlig `/` og `\`. Disse tegnene må tegnes på skrå. Vi kan dermed ikke lenger tegne streker av lengde `SIZE`, vi er nødt til å regne litt.
 
-Hvis du går på ungdomsskolen har du kanskje lært at sammenhengen mellom katetene og hypotenusen i et rettvinklet trekant er slik `a^2 + b^2 = c^2`, det er dermed mulig å regne ut diagonalen til firkanten.
+Hvis du går på ungdomsskolen har du kanskje lært at sammenhengen mellom katetene og hypotenusen i et rettvinklet trekant er slik `a² + b² = c²`, det er dermed mulig å regne ut diagonalen til firkanten.
 
 Her skal du bare få svaret og slippe å regne det ut selv. Diagonalen i boksene våre vil være lik `(2 * SIZE**2)**0.5`. `**`-operatoren betyr "opphøyd i" slik at `3**2` blir `9`. Når du opphøyer noe i `0.5`, er det det samme som å ta kvadratrota av tallet. Dermed vil `9**0.5` bli `3.0` Dersom du lurer på hvordan dette fungerer kan du spørre en CodeMaster/veileder, eller mattelæreren din.
 
@@ -380,11 +380,10 @@ Prøv å lage disse på egenhånd! `,` og `'` er lettest, for disse kan tegnes s
 
 Lag kode for hvert tegn i en egen funksjon, og husk og oppdatere `MOVES`. For eksempel, hvis du lagde en komma-funksjon så må du endre
 
-`",": blank` 
+`",": blank`
 
-til 
+til
 
-`",": comma`, 
+`",": comma`,
 
 der `comma` er navnet på funksjonen din.
-
