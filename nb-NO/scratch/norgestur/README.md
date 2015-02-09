@@ -22,7 +22,7 @@ er gitt i Steg 1 av oppgaven.
 
 Alternativt, kan du gjøre kartet tilgjengelig for deltakerne på
 forhånd om dette er mulig. Kartet er tilgjengelig på
-<https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/egne/norgestur/norgeskart.png>.
+<https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/norgestur/norgeskart.png>.
 
 # Læringsmål
 

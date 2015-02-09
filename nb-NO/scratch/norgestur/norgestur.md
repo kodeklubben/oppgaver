@@ -24,7 +24,7 @@ raskest mulig finne steder og byer du blir bedt om å besøke.
   over det neste punktet.
 
 + Åpne en ny fane i nettleseren din og skriv inn adressen
-  <https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/egne/norgestur/norgeskart.png>.
+  <https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/norgestur/norgeskart.png>.
   Dette vil åpne et bilde av et norgeskart. Høyreklikk på bildet, og velg
   `Lagre bildet som` eller noe som ligner. Lagre bildet et sted du
   finner det igjen, for eksempel på Skrivebordet.
