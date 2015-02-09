@@ -1,7 +1,7 @@
-egne/straffespark/straffespark.md
-egne/labyrint/labyrint.md
-egne/bursdag_i_antarktis/bursdag_i_antarktis.md
-uk_codeclub/flaksefugl/flaksefugl.md
-egne/norgestur/norgestur.md
-egne/krabbeangrep_remiks/krabbeangrep_remiks.md
-uk_codeclub/lag_ditt_eget_spill/lag_ditt_eget_spill.md
+straffespark/straffespark.md
+labyrint/labyrint.md
+bursdag_i_antarktis/bursdag_i_antarktis.md
+flaksefugl/flaksefugl.md
+norgestur/norgestur.md
+krabbeangrep_remiks/krabbeangrep_remiks.md
+lag_ditt_eget_spill/lag_ditt_eget_spill.md
