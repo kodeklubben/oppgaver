@@ -25,7 +25,7 @@ figurene vi spiller mot blir raskere og vanskeligere å jage bort.
 + La oss lage en bakgrunn. Til dette spillet trenger vi en ganske
   enkel bakgrunn med litt vinterfølelse. Den kan vi tegne selv:
 
-    Velg ![Tegn ny bakgrunn](../../bilder/tegn-ny.png) for å tegne en
+    Velg ![Tegn ny bakgrunn](../bilder/tegn-ny.png) for å tegne en
     ny bakgrunn. Pass på at du bruker vektorgrafikk, og tegn en stor
     firkant som dekker hele bakgrunnen. Velg så en mørkeblå
     forgrunnsfarge og en lysere bakgrunnsfarge. Klikk på
@@ -111,7 +111,7 @@ __Klikk på det grønne flagget.__
 
 + Tegn en ny figur. Bruk sirkelverkøyet til å tegne en liten hvit
   sirkel, fargelegg den deretter slik at den blir helt hvit. Trykk på
-  ![Velg senterpunkt](../../bilder/velg_senterpunkt.png) og pass på at
+  ![Velg senterpunkt](../bilder/velg_senterpunkt.png) og pass på at
   senterpunktet er satt midt på snøballen. Kall figuren `Snøball`.
 
 + På samme måte som for __Helten__ setter vi først opp noen

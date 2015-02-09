@@ -25,7 +25,7 @@ I dette prosjektet skal vi skyte opp fyrverkeri over en by.
 + Bytt bakgrunnsbilde til for eksempel `utendørs/city-with-water`.
 
 + Klikk på *Ny figur: Last opp figur fra fil*,
-  ![Last opp figur fra fil](../../bilder/hent-fra-fil.png), for å
+  ![Last opp figur fra fil](../bilder/hent-fra-fil.png), for å
   legge til en rakett-figur i prosjektet, `ressurser/rocket.png`.
 
 + Vi vil at raketten skal skjules når du klikker på det grønne
@@ -137,7 +137,7 @@ __Klikk på det grønne flagget.__
   bang-lyd før den begynner å bevege seg, og deretter gjemme seg når
   den når musepekeren. For å importere en lyd gå til fanen
   `Lyder`{.blocklightgrey} og klikk på *Last opp lyd fra fil*,
-  ![Last opp lyd fra fil](../../bilder/hent-fra-fil.png). Last opp
+  ![Last opp lyd fra fil](../bilder/hent-fra-fil.png). Last opp
   lyden `ressurser/bang.wav`.
 
     ```blocks
@@ -233,7 +233,7 @@ __Klikk på det grønne flagget.__
 + Legg til forskjellige bilder av eksplosjoner som drakter ved å velge
   `Drakter`{.blocklightgrey}-fanen til `firework1`. Ved å klikke *Last
   opp drakt fra fil*,
-  ![Last opp drakt fra fil](../../bilder/hent-fra-fil.png), kan du
+  ![Last opp drakt fra fil](../bilder/hent-fra-fil.png), kan du
   legge til `firework2.png`, `firework3.png` og `firework4.png` fra
   `ressurser`.
 

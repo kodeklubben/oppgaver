@@ -33,7 +33,7 @@ raskest mulig finne steder og byer du blir bedt om å besøke.
   å høyreklikke på den og velge `slett`.
 
 + Legg inn norgeskartet som bakgrunn ved å velge
-  ![Last opp bakgrunn fra fil](../../bilder/hent-fra-fil.png) under
+  ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) under
   `Ny bakgrunn` helt til venstre på skjermen. Velg filen
   `norgeskart.png` du lastet ned tidligere.
 
@@ -53,13 +53,13 @@ andre kart.
 ## Sjekkliste {.check}
 
 + Legg til en ny figur ved å klikke
-  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
   under `Figurer`. Vi har brukt `Transport/Helicopter`, men du kan
   eventuelt bruke en annen figur du vil reise rundt med.
 
 + Klikk `i`{.blockmotion} og skift navn på figuren til
   `Helikopter`. Sett også rotasjonsmåten til
-  ![vend sideveis](../../bilder/rotasjonsmate-hv.png) for å unngå at
+  ![vend sideveis](../bilder/rotasjonsmate-hv.png) for å unngå at
   helikopteret flyr opp-ned.
 
 + Vi begynner med å gjøre helikopteret mindre, samt sikre oss at det
@@ -166,7 +166,7 @@ steg`{.blockmotion}-klossene med `gå
 ## Sjekkliste {.check}
 
 + Vi skal nå tegne vår egen figur som vi vil bruke til å markere et
-  sted på kartet. Klikk ![Tegn ny figur](../../bilder/tegn-ny.png)
+  sted på kartet. Klikk ![Tegn ny figur](../bilder/tegn-ny.png)
   under `Figurer`.
 
 + Vi trenger bare en ganske liten sirkel. Velg en passende farge, for
@@ -713,7 +713,7 @@ spørre.
 
 + Les inn det nye kartet i Scratchprosjektet ditt på samme måte som du
   leste inn det opprinnelige norgeskartet i Steg 1, ved å velge
-  ![Last opp bakgrunn fra fil](../../bilder/hent-fra-fil.png) under
+  ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) under
   `Ny bakgrunn` helt til venstre på skjermen.
 
 + Lag reisemål basert på det nye kartet!

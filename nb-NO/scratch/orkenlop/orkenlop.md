@@ -21,18 +21,18 @@ kanten av skjermen vinner.
 ## Sjekkliste {.check}
 
 + Klikk på Scene og velg en ferdig bakgrunn,
-  ![velg en ferdig bakgrunn](../../bilder/bakgrunn-fra-bibliotek.png). Velg
+  ![velg en ferdig bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Velg
   `Natur/desert`.
 
 + Fjern katten ved å høyreklikke på figuren og velg `slett`.
 
 + Legg til en ny figur ved å trykke på
-  ![velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png). Velg
+  ![velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
   `Dyr/Lionness`.
 
 + Legg så til enda en ny figur: velg `Dyr/Parrot`. Krymp figuren slik
   at den er omtrent like stor som løvinnen ved å bruke
-  ![krymp](../../bilder/krymp.png).
+  ![krymp](../bilder/krymp.png).
 
 # Steg 2: La løvinnen og papegøyen bevege seg {.activity}
 

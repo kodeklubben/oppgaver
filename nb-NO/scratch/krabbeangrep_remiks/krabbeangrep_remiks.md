@@ -58,7 +58,7 @@ spillet er tapt skal det sendes en melding.
 ## Sjekkliste {.check}
 
 + Først må du lage en figur som skal fungere som startknapp. Denne kan
-  du tegne selv ved å klikke på ![Tegn ny](../../bilder/tegn-ny.png) i
+  du tegne selv ved å klikke på ![Tegn ny](../bilder/tegn-ny.png) i
   figurområdet. Et enkelt rektangel med teksten `Start` inni burde
   gjøre susen. Gi den navnet `Startknapp`.
 

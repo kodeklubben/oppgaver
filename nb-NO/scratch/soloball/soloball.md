@@ -103,7 +103,7 @@ annerledes. Skjønner du hvorfor?
 Når vi sier at katten skal `peke mot musepekeren`{.blockmotion} må den
 rotere rundt et punkt. Dette punktet kalles senterpunktet til figuren,
 og du kan se (og endre) senterpunktet til en figur ved å klikke på
-![Velg senterpunkt](../../bilder/velg_senterpunkt.png) øverst til
+![Velg senterpunkt](../bilder/velg_senterpunkt.png) øverst til
 høyre på skjermen.
 
 Når vi flytter senterpunktet utenfor katten vil det se ut som om
@@ -121,14 +121,14 @@ katten løper rundt dette punktet i stedet for at den bare roterer uten
   skrev tidligere.
 
 + Klikk på
-  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
   ved siden av `Ny figur` under scenen for å hente en ny figur.
 
 + Hvis du klikker kategorien `Ting` til venstre på skjermen vil du se
   flere baller. Velg en av dem.
 
 + Vi skal nå se en annen måte å gjøre figurer mindre på. Klikk
-  ![Krymp](../../bilder/krymp.png) øverst på skjermen. Klikk deretter
+  ![Krymp](../bilder/krymp.png) øverst på skjermen. Klikk deretter
   på ballfiguren noen ganger slik at den er passe stor i forhold til
   katten.
 
@@ -181,7 +181,7 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 + Vi skal nå lage en figur som vi tegner selv. For å gjøre dette
-  klikker du ![Tegn ny figur](../../bilder/tegn-ny.png) ved siden av
+  klikker du ![Tegn ny figur](../bilder/tegn-ny.png) ved siden av
   `Ny figur` under scenen.
 
 + Klikk på `Bytt til vektorgrafikk` nederst til høyre på skjermen.

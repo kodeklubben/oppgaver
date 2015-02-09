@@ -23,20 +23,20 @@ JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 + __Riktig bakgrunn__ får du ved å velge `Scene` og så
   `Bakgrunner`-fanen. Importer bakgrunnen `Natur/underwater3` ved å
   velge
-  ![Velg en ferdig bakgrunn](../../bilder/bakgrunn-fra-bibliotek.png). Slett
+  ![Velg en ferdig bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Slett
   så den opprinnelige bakgrunnen `backdrop1`.
 
 + Endre Sprite1's navn til `JafseFisk` ved å klikke på katten og
   deretter på det blå `i`{.blockmotion}-symbolet.
 
 + Gi figuren en haidrakt ved å gå til `Drakter`-fanen og velge
-  ![Velg drakt fra biblioteket](../../bilder/hent-fra-bibliotek.png). Velg
+  ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
   drakten `Dyr/shark-b`. Kall drakten `Åpen munn`. Slett så figurens
   kattedrakter.
 
 + Klikk på det blå `i`{.blockmotion}-symbolet igjen, og pass på at
   figuren bare kan bevege seg fra side til side ved å velge
-  rotasjonsmåte ![Høyre/Venstre](../../bilder/rotasjonsmate-hv.png).
+  rotasjonsmåte ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
 + Få fisken til å følge musepekeren rundt i sjøen ved å lage dette
   skriptet:
@@ -97,7 +97,7 @@ forandrer bevegelsene.
   figuren navnet `Byttedyr`.
 
 + Gjør figuren mindre ved å bruke krympeknappen
-  ![krymp](../../bilder/krymp.png) som ligger over den røde
+  ![krymp](../bilder/krymp.png) som ligger over den røde
   stopp-knappen.
 
 + Få byttedyret til å bevege seg i tilfeldige retninger. Først skal vi

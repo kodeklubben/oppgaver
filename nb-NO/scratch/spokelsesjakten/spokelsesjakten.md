@@ -25,7 +25,7 @@ bort flest mulig i løpet av 30 sekunder.
 + Endre bakgrunnen til `Natur/woods`.
 
 + For å legge til et spøkelse klikker du på
-  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)-knappen.
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen.
   Velg `Fantasi/Ghost1`-figuren.
 
 + Gi spøkelset navnet `spøkelse1`, ved å klikke på `i`{.blockmotion} på
@@ -80,7 +80,7 @@ __Klikk på det grønne flagget.__
     ```
 
 + For å hindre at spøkelset snur seg opp-ned, klikk på
-  ![venstre/høyre](../../bilder/rotasjonsmate-hv.png)-knappen i
+  ![venstre/høyre](../bilder/rotasjonsmate-hv.png)-knappen i
   spøkelsets infoboks, `i`{.blockmotion}.
 
 ## Test prosjektet {.flag}

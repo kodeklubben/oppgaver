@@ -24,7 +24,7 @@ flere poeng får du.
 
 + Klikk på scenen og deretter `Bakgrunner`-fanen.  Åpne biblioteket
   med bakgrunner ved å trykke på
-  ![Velg en ferdig bakgrunn](../../bilder/velg-bakgrunn.png) og velg
+  ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) og velg
   så `Innendørs/chalkboard`.
 
 + Importer en valgfri figur. Velg gjerne en figur fra `Ting`-mappen.

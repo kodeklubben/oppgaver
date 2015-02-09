@@ -22,7 +22,7 @@ Dette er et spill med tre figurer som endrer utseende. Din oppgave er
   og velge `slett`.
 
 + Importer __en ny figur__,
-  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png). Velg
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
   den figuren du vil.
 
 + Gå til `Drakter`{.blocklightgrey}, og importer to ekstra drakter fra
@@ -144,7 +144,7 @@ __Start skriptet en gang til ved å klikke på det grønne flagget igjen.__
   våre figurer `Figur1`, `Figur2` og `Figur3`.
 
 + Flytt figurene slik at de er en linje. Gjør dem mindre med
-  krympeknappen, ![krymp](../../bilder/krymp.png), hvis det trengs.
+  krympeknappen, ![krymp](../bilder/krymp.png), hvis det trengs.
 
 ## Test prosjektet{.flag}
 

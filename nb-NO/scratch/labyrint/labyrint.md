@@ -26,7 +26,7 @@ beskyttet av den skumle __froskekongen__.
 + Slett kattefiguren ved å høyreklikke på den og velge `slett`.
 
 + Legg til en ny figur. Klikk på
-  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)-knappen
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen
   og velg en figur du har lyst til å styre rundt. Vi har brukt
   `Dyr/Beetle`-figuren.
 
@@ -144,7 +144,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Velg ![Tegn ny bakgrunn](../../bilder/tegn-ny.png) nederst til
++ Velg ![Tegn ny bakgrunn](../bilder/tegn-ny.png) nederst til
   venstre på skjermen for å tegne en ny bakgrunn. Pass på at du
   faktisk tegner en ny __bakgrunn__, og ikke en ny figur.
 
@@ -166,7 +166,7 @@ __Klikk på det grønne flagget.__
 ## Tips {.protip}
 
 Dersom du vil tegne rette vegger er det enklest å bruke
-linjeverktøyet, ![Linjeverktøy](../../bilder/tegn-linje.png). Du kan i
+linjeverktøyet, ![Linjeverktøy](../bilder/tegn-linje.png). Du kan i
 tillegg holde inne `shift`-knappen for at linjene skal bli helt rette.
 
 ## Test prosjektet {.flag}
@@ -176,7 +176,7 @@ __Klikk på det grønne flagget.__
 + Kan du bevege utforskerfiguren din rundt inne i labyrinten?
 
 + Dersom figuren din er for stor kan du gjøre den mindre ved å trykke
-  på ![krymp](../../bilder/krymp.png)-knappen på toppen av skjermen.
+  på ![krymp](../bilder/krymp.png)-knappen på toppen av skjermen.
 
 + Hva skjer dersom figuren din går på veggen i labyrinten?
 
@@ -249,9 +249,9 @@ retning som da den startet.
 
 + Legg til en ny figur. Du kan velge en figur fra biblioteket ved å
   trykke
-  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
   eller tegne en figur selv ved å trykke
-  ![Tegn ny figur](../../bilder/tegn-ny.png). Vi brukte figuren
+  ![Tegn ny figur](../bilder/tegn-ny.png). Vi brukte figuren
   `Ting/Star1`.
 
 + Gi den nye figuren navnet `Skatt`.

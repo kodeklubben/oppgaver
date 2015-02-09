@@ -29,7 +29,7 @@ som holder oversikt over alle stedene vi kan besøke.
   å høyreklikke på den og velge `slett`.
 
 + Legg til en ny figur ved å klikke
-  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
   under `Figurer`. Vi har brukt `Transport/Helicopter`, men du kan
   gjerne bruke en annen figur å reise rundt med.
 
@@ -114,7 +114,7 @@ __Klikk på det grønne flagget.__
   velg `Lagre bildet som` eller noe som ligner. Lagre bildet et sted
   du finner det igjen.
 
-+ Velg ![Last opp bakgrunn fra fil](../../bilder/hent-fra-fil.png)
++ Velg ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png)
   under `Ny bakgrunn` helt til venstre på skjermen. Velg filen
   `europakart.png` du nettopp lastet ned.
 
@@ -133,7 +133,7 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 + Vi begynner med å tegne en liten figur som kan markere reisemålet i
-  kartet. Velg ![Tegn ny figur](../../bilder/tegn-ny.png) under
+  kartet. Velg ![Tegn ny figur](../bilder/tegn-ny.png) under
   `Figurer`.
 
 + Velg en passende farge. For eksempel vil rød synes ganske godt på

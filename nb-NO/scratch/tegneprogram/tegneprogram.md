@@ -42,16 +42,16 @@ Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
   den og velge `slett`.
 
 + Klikk på `Scene` og deretter på `Bakgrunner`-fanen. Klikk
-  ![hent fra fil](../../bilder/hent-fra-fil.png) for å laste opp
+  ![hent fra fil](../bilder/hent-fra-fil.png) for å laste opp
   bakgrunnen som heter `frame.png` i katalogen du hentet under
   forberedelsene.
 
-+ Klikk ![hent fra fil](../../bilder/hent-fra-fil.png) ved siden av
++ Klikk ![hent fra fil](../bilder/hent-fra-fil.png) ved siden av
   `Ny figur`-teksten. Velg filen `green-pencil.png` som ligger i den
   nedlastede katalogen. Kall den nye figuren `Blyant`.
 
 + Bytt til `Drakter`-fanen og velg senterpunkt for figuren ved hjelp
-  av ![Velg senterpunkt](../../bilder/velg_senterpunkt.png). Flytt
+  av ![Velg senterpunkt](../bilder/velg_senterpunkt.png). Flytt
   korset slik at det markerer blyantspissen. Da vil spissen tegne og
   ikke midten av blyanten.
 
@@ -329,7 +329,7 @@ tavla!  Og så gir vi blyanten en viskelærdrakt!
   lastet ned i starten. Kall figuren `Viskelær`.
 
 + Gjør figuren litt mindre med krympeknappen,
-  ![krymp](../../bilder/krymp.png), og deretter drar du den ned i
+  ![krymp](../bilder/krymp.png), og deretter drar du den ned i
   høyre hjørne, ved siden av slett-knappen.
 
 + Gi viskelær-figuren et skript som sender meldingen `Visk`.

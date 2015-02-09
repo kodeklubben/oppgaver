@@ -25,10 +25,10 @@ møter dansende pingviner på bursdagen sin. Men som alltid er det greit
 
 + Start et nytt prosjekt. Gi kattefiguren navnet `Felix`, og sett
   rotasjonsmåten hans til
-  ![sideveis](../../bilder/rotasjonsmate-hv.png).
+  ![sideveis](../bilder/rotasjonsmate-hv.png).
 
 + Lag en ny bakgrunn ved å klikke
-  ![velg en ferdig bakgrunn](../../bilder/velg-bakgrunn.png) nede til
+  ![velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) nede til
   venstre på skjermen. Velg `Holiday/winter`.
 
 + Legg også til bakgrunnen `Holiday/winter-lights`.
@@ -381,7 +381,7 @@ forskjellig fra -1 i retningen.
     ```
 
 + For den scenen trenger vi en ny bakgrunn. Klikk
-  ![velg en ferdig bakgrunn](../../bilder/velg-bakgrunn.png) og legg
+  ![velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) og legg
   til bakgrunnen `Holiday/gingerbread`. Gi scenen dette skriptet:
 
     ```blocks
@@ -422,7 +422,7 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 + Lag to nye figurer ved å trykke på
-  ![velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png). Velg
+  ![velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
   `Dyr/Penguin1` og `Dyr/Penguin2`. Gi pingvinene navn du liker, vi
   har valgt å kalle dem `Pingu` og `Pappa Pingu`.
 

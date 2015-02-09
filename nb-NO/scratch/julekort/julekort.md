@@ -21,7 +21,7 @@ på siden <http://scratch.mit.edu/>. Da kommer vi inn i Scratch.
 ## Sjekkliste {.check}
 
 + Klikk på scenen ved siden av kattefiguren `Sprite1` i vinduet for
-  figurer. Trykk på ![](../../bilder/bakgrunn-fra-bibliotek.png) for å
+  figurer. Trykk på ![](../bilder/bakgrunn-fra-bibliotek.png) for å
   importere en ferdig bakgrunn. Velg den bakgrunnen du vil. Slett
   deretter den tomme bakgrunnen som ligger der.
 

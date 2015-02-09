@@ -97,7 +97,7 @@ __Klikk på det grønne flagget.__
 
 + Lag en ny figur ved å tegne en liten fargelagt boks som helten kan
   hoppe over. Kall figuren `Boks`. Bruk
-  ![Velg senterpunkt](../../bilder/velg_senterpunkt.png) til å sette
+  ![Velg senterpunkt](../bilder/velg_senterpunkt.png) til å sette
   senterpunktet nederst til venstre på boksen.
 
 + Når boksen mottar meldingen `Nytt spill` vil vi at den plasserer seg

@@ -47,7 +47,7 @@ ferdige.
   bra nå.
 
 + Lag en ny figur ved å klikke
-  ![Last opp figur fra fil](../../bilder/hent-fra-fil.png) ved siden
+  ![Last opp figur fra fil](../bilder/hent-fra-fil.png) ved siden
   av `Ny figur`.  Velg filen `europakart.png` som du lastet ned
   forrige gang. Hvis du ikke har denne lett tilgjengelig kan du laste
   den ned på nytt fra

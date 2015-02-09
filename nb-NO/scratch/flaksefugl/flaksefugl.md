@@ -144,7 +144,7 @@ __Klikk det grønne flagget.__
 ## Sjekkliste {.check}
 
 + Legg til en ny figur ved å klikke på *Tegn ny figur*-knappen,
-  ![Tegn ny figur](../../bilder/tegn-ny.png).
+  ![Tegn ny figur](../bilder/tegn-ny.png).
 
 + Hvis det står `Punktgrafikk` nede til høyre, klikk på `Bytt til
   vektorgrafikk`-knappen.

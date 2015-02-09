@@ -24,7 +24,7 @@ mange straffespark som mulig.
 + Klikk på `i`{.blockmotion} i hjørnet av kattefiguren, og gi katten
   navnet `Leo`.
 
-+ Klikk på ![Velg ny bakgrunn](../../bilder/velg-bakgrunn.png) nederst
++ Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nederst
   til venstre på skjermen for å hente inn en ny bakgrunn. Velg
   bakgrunnen `Utendørs/goal1` eller `Utendørs/goal2`.
 
@@ -81,13 +81,13 @@ innimellom.
 ## Sjekkliste {.check}
 
 + Vi skal nå legge til en ball-figur i spillet vårt. Klikk på
-  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
   og velg fotballen `Ting/Soccer Ball`.
 
 + Gi fotballen navnet `Ball`.
 
 + Lag ballen mindre ved først å trykke på
-  ![krymp](../../bilder/krymp.png) øverst mot midten av vinduet.
+  ![krymp](../bilder/krymp.png) øverst mot midten av vinduet.
   Deretter kan du trykke på ballen seks ganger.
 
 + Vi skal nå skrive et litt lengre program. I dette programmet legger
@@ -162,7 +162,7 @@ __Klikk på det grønne flagget.__
   sideveis`{.blockmotion}-kloss helt i begynnelsen av skriptet vårt.
 
 + Du synes kanskje at keeperen er litt stor? Vi har tidligere sett
-  hvordan vi kan bruke ![krymp](../../bilder/krymp.png) for å gjøre
+  hvordan vi kan bruke ![krymp](../bilder/krymp.png) for å gjøre
   figurer mindre. En annen måte å endre størrelsen på er ved å bruke
   klosser fra `Utseendet`{.blocklooks}-kategorien. Endre skriptet ditt
   slik at det ser ut som dette:

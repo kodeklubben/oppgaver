@@ -27,11 +27,11 @@ blir du tatt, går poengsummen din ned.
 
 + Sørg for at Felix kun ser til høyre og venstre ved å sette
   rotasjonsmåte til
-  ![Høyre/Venstre](../../bilder/rotasjonsmate-hv.png).
+  ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
 + Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen
   `Bakgrunner`{.blocklightgrey} og trykk på
-  ![Velg en ferdig bakgrunn](../../bilder/velg-bakgrunn.png) for å
+  ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) for å
   importere en ferdig bakgrunn. Velg den bakgrunnen du vil.
 
 + Klikk på Felix, velg `Skript`{.blocklightgrey}-fanen og lag dette
@@ -74,13 +74,13 @@ Det kan likevel være lurt å lagre manuelt innimellom.
 ## Sjekkliste {.check}
 
 + Lag en ny figur ved å trykke på
-  ![Velg figur fra biblioteket](../../bilder/hent-fra-bibliotek.png)
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
   og velg figuren `Dyr/Mouse1`.
 
 + Bytt navn på figuren til `Herbert`.
 
 + Gjør Herbert mindre enn Felix ved å trykke på
-  ![krymp](../../bilder/krymp.png) (øverst mot midten av
+  ![krymp](../bilder/krymp.png) (øverst mot midten av
   vinduet). Prøv seks klikk.
 
 + Gi Herbert dette skriptet:
@@ -158,10 +158,10 @@ __Klikk på det grønne flagget.__
 + Velg Herbert og gå til `Drakter`{.blocklightgrey}-fanen.
 
 + Hent en ny drakt ved å trykke på
-  ![Velg drakt fra biblioteket](../../bilder/hent-fra-bibliotek.png)
+  ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png)
   og velg `Fantasi/ghost2-a`
 
-+ Gjør drakten mindre ved å velge ![Krymp](../../bilder/krymp.png) og
++ Gjør drakten mindre ved å velge ![Krymp](../bilder/krymp.png) og
   trykke seks ganger på spøkelsesdrakten.
 
 + Endre navnene på Herberts drakter slik at musedrakten heter
