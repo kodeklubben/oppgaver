@@ -45,7 +45,7 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
     Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen til den som ligger i color.
     Sørg for å forstå alle før du går videre.
 
-+ Nå skal vi tenge tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å tegne tre stjerner.
++ Nå skal vi tegne tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å tegne tre stjerner.
 
     ```python
     from turtle import *
