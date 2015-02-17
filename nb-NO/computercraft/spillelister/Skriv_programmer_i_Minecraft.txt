@@ -1,0 +1,5 @@
+bli_kjent_med_datamaskinen/bli_kjent_med_datamaskinen.md
+robotinvasjon/robotinvasjon.md
+hendelser/hendelser.md
+bygg_et_hus/bygg_et_hus.md
+sprettball/sprettball.md

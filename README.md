@@ -18,7 +18,7 @@ Per nå finnes følgende kurs:
 Enkleste vei for å komme i gang er å se videoen som forklarer hvordan man
 setter opp og arbeider med oppgavene: http://youtu.be/GtXxBGsAXOs Videoen er
 laget for windows-brukere, men det vil være tilsvarende for Linux og
-Mac-brukere. Dersom du er mer en *tekst-type* og foretrekker terminalen
+Mac-brukere. Dersom du er en *tekst-type* og foretrekker terminalen
 fremfor GUI, les videre.
 
 For å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up-git/)
@@ -49,6 +49,11 @@ gang en oppgave endres bygges websidene om igjen og nettleseren oppdaterer
 nettsiden. For brukere av windows, finnes også `gulp.bat` som kan åpnes direkte
 fra filbehandleren.
 
+## Problemer og support
+[![Chat med oss på gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kodeklubben/oppgaver)
+
+Dersom du har problemer med å komme i gang, hjelper vi deg gjerne om du kommer
+og [chatter med oss på gitter](https://gitter.im/kodeklubben/oppgaver).
 
 ## Filstruktur og formatering
 Alle oppgavene finnes i katalogen [nb-NO](nb-NO). Hver mappe i `nb-NO`
@@ -142,13 +147,13 @@ I tillegg finnes flere stiler som brukes ved behov:
 
     ```
 
-    ![felix](bilde-felix.png)
+    ![](bilde-felix.png "katten felix")
 
     ```
 
   Legg merke til de tomme linjene over og under bildet. Bildet vil da sentreres
   i et avsnitt for seg selv. Alternativ billedtekst legges mellom
-  `[` og `]` slik at bildene også gir mening for synshemmede.
+  `"` og `"` slik at bildene også gir mening for synshemmede.
 
 - Små bilder, som skal være en del av teksten, legges inn med samme
   kode `![bilde](lite-bilde.png)`, men da med koden som en del av
