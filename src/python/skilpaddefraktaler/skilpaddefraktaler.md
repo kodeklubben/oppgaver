@@ -205,7 +205,7 @@ over.
         to(lengde / 3)
         right(120)
         to(lengde / 3)
-        right(120)
+        left(60)
         to(lengde / 3)
 
     tre()
