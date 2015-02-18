@@ -13,6 +13,13 @@ Per nå finnes følgende kurs:
 - [Scratch](nb-NO/scratch)
 - [Web](nb-NO/web) - denne er ikke ferdig og vi trenger **din** hjelp.
 
+## Fiks og rapporter enkle feil
+For enkle feil og fiks kan du gjerne bruke webgrensesnittet til github. Se
+[denne videoen](http://youtu.be/v9CS62-MED4) for hvordan dette fungerer uten å
+installere noen programvare. Dersom du ønsker å oversette eller lage nye oppgaver
+anbefaler vi at leser videre for et oppsett som laster ned oppgavene til din 
+egen maskin slik at du kan jobbe lokalt. (Det er ikke noe galt i å kun bruke
+githubs websider, kun litt vanskeligere når man ikke ser resultatet.)
 
 ## Komme i gang
 Enkleste vei for å komme i gang er å se videoen som forklarer hvordan man
