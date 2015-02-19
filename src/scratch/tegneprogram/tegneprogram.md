@@ -1,7 +1,6 @@
 ---
 title: Tegneprogram
 level: 3
-materials: "ressurser/*"
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
@@ -14,19 +13,16 @@ viskelær, lage stempler og mye mer!
 
 ![](tegneprogram.png)
 
-# Forberedelser: Last ned nødvendige ressurser {.activity}
+# Forberedelser: Last ned bildefiler {.activity}
 
 Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
 
 ## Sjekkliste {.check}
 
-+ Lag en ny fane i nettleseren din
-
-+ Skriv inn denne nettadressen: <http://bit.ly/Tegneutstyr>
-
-+ Last ned zip-filen `Ressurser_Tegneprogram.zip` og legg den på
-  skrivebordet på datamaskinen din eller en annen plass du finner
-  igjen.
++ Last ned zip-filen
+  [tegneprogram_bildefiler.zip](tegneprogram_bildefiler.zip) og legg
+  den på skrivebordet på datamaskinen din eller en annen plass du
+  finner igjen.
 
 + Pakk ut zip-filen ved å høyreklikke på den og velge `Extract All`,
   `Pakk ut filer` eller noe lignende.
