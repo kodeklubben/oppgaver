@@ -114,11 +114,11 @@ lenkes til oppgaven fra noe sted og den er da gjemt.
 
 **Markdown**
 
-Nettet har flere beskrivelser av [Markdown-syntaksen](md-syntaks). Du kan
-også lære endel ved å bruke en [live markdown editor](md-live).
+Nettet har flere beskrivelser av [Markdown-syntaksen]. Du kan
+også lære endel ved å bruke en [live markdown editor].
 
-[md-syntaks]: http://daringfireball.net/projects/markdown/syntax "Markdown-syntaks"
-[md-live]: http://jbt.github.io/markdown-editor/ "live markdown editor"
+[Markdown-syntaksen]: http://daringfireball.net/projects/markdown/syntax "Markdown-syntaks"
+[live markdown editor]: http://jbt.github.io/markdown-editor/ "live markdown editor"
 
 Her kommer noen eksempler:
 - *Uthevet skrift* skrives `*Uthevet skrift*`,
