@@ -400,11 +400,10 @@ tipsene nedenfor.
   med svart bakgrunn. Dette gjør vi med litt HTML-kode. HTML er det
   språket som brukes til å lage nettsider.
 
-    Last ned filen
-    <https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/halloweenimasjon/projiser.html>.
-    Etter at du har gått til denne adressen kan du velge `Fil > lagre
-    som`, eller noe som ligner, i menyen til nettleseren din. Legg
-    filen et sted du finner den igjen.
+    Last ned filen [projiser.html](projiser.html).  Etter at du har
+    gått til denne adressen kan du velge `Fil > lagre som`, eller noe
+    som ligner, i menyen til nettleseren din. Legg filen et sted du
+    finner den igjen.
 
 + Åpne filen i Notepad eller et tilsvarende program. Du vil se en
   tekst som ser slik ut:

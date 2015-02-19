@@ -107,9 +107,8 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Vi vil først laste ned kartet fra nettet. Åpne en ny fane i
-  nettleseren din, og skriv inn adressen
-  <https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/hvor_i_all_verden/europakart.png>.
++ Vi vil først laste ned kartet fra nettet. Åpne lenken
+  [europakart.png](europakart.png) i en ny fane i nettleseren din.
   Dette vil åpne et bilde av et europakart. Høyreklikk på bildet, og
   velg `Lagre bildet som` eller noe som ligner. Lagre bildet et sted
   du finner det igjen.
