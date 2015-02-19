@@ -23,11 +23,11 @@ raskest mulig finne steder og byer du blir bedt om å besøke.
   du allerede har fått denne filen på datamaskinen din kan du hoppe
   over det neste punktet.
 
-+ Åpne en ny fane i nettleseren din og skriv inn adressen
-  <https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/norgestur/norgeskart.png>.
-  Dette vil åpne et bilde av et norgeskart. Høyreklikk på bildet, og velg
-  `Lagre bildet som` eller noe som ligner. Lagre bildet et sted du
-  finner det igjen, for eksempel på Skrivebordet.
++ Høyreklikk på lenken [norgeskart.png](norgeskart.png) og velg at den
+  skal åpnes i en ny fane.  Klikk på den nye fanen som blir
+  åpnet. Dette vil vise et bilde av et norgeskart. Høyreklikk på
+  bildet, og velg `Lagre bildet som` eller noe som ligner. Lagre
+  bildet et sted du finner det igjen, for eksempel på Skrivebordet.
 
 + Start et nytt Scratch-prosjekt. Slett kattefiguren, for eksempel ved
   å høyreklikke på den og velge `slett`.

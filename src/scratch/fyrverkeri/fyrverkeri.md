@@ -1,7 +1,6 @@
 ---
 title: Fyrverkeri
 level: 2
-materials: "ressurser/*"
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
@@ -11,6 +10,20 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 I dette prosjektet skal vi skyte opp fyrverkeri over en by.
 
 ![](fyrverkeri.png)
+
+# Forberedelser: Last ned bildefiler {.activity}
+
+Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
+
+## Sjekkliste {.check}
+
++ Last ned zip-filen
+  [fyrverkeri_lydogbilder.zip](fyrverkeri_lydogbilder.zip) og legg
+  den på skrivebordet på datamaskinen din eller en annen plass du
+  finner igjen.
+
++ Pakk ut zip-filen ved å høyreklikke på den og velge `Extract All`,
+  `Pakk ut filer` eller noe lignende.
 
 # Steg 1: Lag en rakett som flyr mot musepekeren {.activity}
 
@@ -26,7 +39,7 @@ I dette prosjektet skal vi skyte opp fyrverkeri over en by.
 
 + Klikk på *Ny figur: Last opp figur fra fil*,
   ![Last opp figur fra fil](../bilder/hent-fra-fil.png), for å
-  legge til en rakett-figur i prosjektet, `ressurser/rocket.png`.
+  legge til en rakett-figur i prosjektet, `fyrverkeri_lydogbilder/rocket.png`.
 
 + Vi vil at raketten skal skjules når du klikker på det grønne
   flagget.
@@ -138,7 +151,7 @@ __Klikk på det grønne flagget.__
   den når musepekeren. For å importere en lyd gå til fanen
   `Lyder`{.blocklightgrey} og klikk på *Last opp lyd fra fil*,
   ![Last opp lyd fra fil](../bilder/hent-fra-fil.png). Last opp
-  lyden `ressurser/bang.wav`.
+  lyden `fyrverkeri_lydogbilder/bang.wav`.
 
     ```blocks
         når grønt flagg klikkes
@@ -185,7 +198,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Last opp en ny figur fra fil, `ressurser/firework1.png`.
++ Last opp en ny figur fra fil, `fyrverkeri_lydogbilder/firework1.png`.
 
 + Når denne figuren får meldingen `Eksploder` passer vi på at den er
   gjemt, flytter den til raketten ved bruk av klossen `gå
@@ -235,7 +248,7 @@ __Klikk på det grønne flagget.__
   opp drakt fra fil*,
   ![Last opp drakt fra fil](../bilder/hent-fra-fil.png), kan du
   legge til `firework2.png`, `firework3.png` og `firework4.png` fra
-  `ressurser`.
+  `fyrverkeri_lydogbilder`.
 
 + Klarer du å få eksplosjonene til å bruke forskjellige drakter?
   (Hint: Du kan for eksempel bruke `neste drakt`{.blocklooks} et
