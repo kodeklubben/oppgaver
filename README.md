@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/kodeklubben/oppgaver.svg?branch=master)](https://travis-ci.org/kodeklubben/oppgaver)
 # Kodeklubbens oppgavesett
 
 Her finnes kilden til kodeklubbens oppgaver. Oppgavene er skrevet i formatet
