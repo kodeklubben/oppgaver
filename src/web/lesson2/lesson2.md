@@ -48,7 +48,7 @@ Inne i `<img>` taggen har vi `src` og `alt` attributter:
 
 ```HTML
 <img src="katt.png" alt="Katt">
----
+```
 
 Prøv å endre `src` til noe annet. Lagre dokumentet og oppdater i nettleseren.
 
@@ -62,7 +62,7 @@ Endre det tilbake til `src` så vi kan fortsette å se på kattungen.
 
 ```HTML
 <img src="katt.png" alt="Katt />
----
+```
 
 Lagre og oppdater i nettleseren.
 
@@ -89,7 +89,7 @@ Når vi har linket til deler av den samme siden, kunne vi bare peke linken til e
 
 ```HTML
 <a href="#kattunge"> Klikk for å se en kattunge </a>
----
+```
 
 Som da tok deg til noe sånt som dette:
 
@@ -97,14 +97,14 @@ Som da tok deg til noe sånt som dette:
 <div id="kattunge">
 <img src = "kattunge.jpg" alt = "Dette er en kattunge." />
 </div>
----
+```
 Hvis du vil koble til en annen side, trenger vi ikke å inkludere hashsymbolet (`#`), men i stedet må vi si hvilken fil vi vil linken skal ta oss til.
 
 Så for å linke fra `om_meg_side_2.html` til `om_meg.html` skriver vi slik:
 
 ```HTML
 <a href="om_meg.html"> Gå til Om Meg siden </a>
----
+```
 
 Du kan endre anker teksten til noe annet, som tittelen på siden hvis du har endret det.
 
@@ -112,7 +112,7 @@ For å linke tilbake fra `om_meg.html` til `om_meg_side_2.html` må du skrive de
 
 ```HTML
 <a href="om_meg_side_2.html"> Gå til min andre side </a>
----
+```
 
 Gratulerer! Du har laget ditt eget nettsted.
 
