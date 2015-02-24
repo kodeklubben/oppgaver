@@ -1,8 +1,10 @@
 #!/bin/bash
 cd codeclub_lesson_builder
 npm install
-command1
 if [ $? -ne 0 ]; then # try again
+  echo "Setup feilet, prøver en gang til."
+  # oooh, i'm nasty, but i think this will work out for us two
+  rm -fr node_modules
   npm install
 fi
 cd ..
