@@ -29,7 +29,7 @@ Ikke alle skrifttyper finnes på alle datamaskiner, så vi trenger å angi en __
 
 La oss prøve å endre skrifttyper på overskriften ved å bruke `font-family` egenskapene:
 
-```CSS
+```css
 h1 {
 	color: red;
 	background-color:black;
@@ -42,7 +42,7 @@ h1 {
 ```
 Og nå – endre skrifttypen i en paragraf...
 
-```CSS
+```css
 	font-family:georgia, 'times new roman', serif;
 }
 ```
@@ -61,7 +61,7 @@ Finn en du liker og prøv om du kan legge den ut på websiden!
 Du kan også lage teksten i __fet__, *kursiv* eller begge deler ved hjelp av skrifttype-stilegenskaper. La oss forandre epostteksten (husk at den finner vi inne i a-taggen)
 
 
-```CSS
+```css
 	font-style:bold;
 }
 ```
@@ -70,7 +70,7 @@ Du kan også lage teksten i __fet__, *kursiv* eller begge deler ved hjelp av skr
 
 Eller vi kan sette teksten til *kursiv*.
 
-```CSS
+```css
 	font-style:italic;
 }
 ```
@@ -80,7 +80,7 @@ Det er også en skriftstil-verdi som heter ‘oblique’. Hvordan ser den ut?
 
 Vi kan til og med bestemme hvor fet skriften skal være ved å bruke egenskapen font-weight-. Den bruker verdier som `normal`, `bold`, `bolder`, `lighter`. Du kan også bruke tall som 100, 200, 300, 400, 500, 600, 700, 800, og 900, hvor 100 er den tynneste skrifttypen og 900 er den tykkeste (feteste skriften). Normal tekst er det samme som verdien 400, fet er det samme som 700. Derimot så har ikke alle skrifttyper alle disse verdiene. Så for å være på den sikre siden, er det lurt å bruke normal- eller fet- skrift. Overskrifter er normalt satt til fet skrift som standard. Men hvis du for eksempel ikke ønsker at `h2` ikke skal være fet, må vi skrive følgende:
 
-```CSS
+```css
 h2 {
 	font-weight:normal;
 }
@@ -92,7 +92,7 @@ Prøv det!
 
 LLa oss legge til en kantlinje rundt et bilde.
 
-```CSS
+```css
 img {
 	border-color:green;
 	border-width:5px;
@@ -114,7 +114,7 @@ Vi ønsker å lage et kontaktavsnitt som er __uthevet__. Vi kan ikke bruke `<p>`
 ```
 Nå kan vi endre stilen til IDen slik:
 
-```CSS
+```css
 #uthevet {
 	color:red;
 }
@@ -122,14 +122,14 @@ Nå kan vi endre stilen til IDen slik:
 ## __Lagre__ og __se__ det i nettleseren. { .save}
 En ID er unik og kan bare bli brukt en gang per side. Så hva gjør vi hvis du ønsker å lage to paragrafer med større skrift? Dette kan vi løse ved å bruke klasser. Det første vi må gjøre er å gi teksten klassenavnet for den teksten vi ønsker å gjøre større.
 
-```HTML
+```html
 <p class="stor">Han forvant fra hagen i går.</p>
 <p class="stor"><strong>Takk!</strong><p>
 ```
 
 Deretter setter vi stilen slik (legg merke til at vi bruker `.` i stedet for `#`):
 
-```CSS
+```css
 .stor {
 	font-size:24px;
 }

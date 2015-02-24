@@ -43,7 +43,7 @@ La oss legge til farge med hjelp av attributtet color! CSS er faktisk oppfunnet 
 
 La oss endre `h1` til å være rød istedenfor svart.
 
-```HTML
+```html
 <style>
 	h1 {
   		color:red; 
@@ -149,7 +149,7 @@ body {
 ```
 La du merke til at alt på nettsiden ble sentrert når vi har lagt til ‘text-align:center’ i seksjonen “body”? Det er fordi alt innenfor elementet “body” arver stilen. Dette skjer når et element er innenfor et annet, som dette her:
 
-```HTML
+```html
 <p>Har du sett Felix? <em>Vennligst</em> kontakt eieren hans</p>
 ```
 
