@@ -1,18 +1,14 @@
 ---
 title: Forskyving
-level: 1.2
-language: nb-NO
-stylesheet: scratch
-embeds: ["*.png", "../../bilder/*.png"]
-note: "README.md"
+level: 1
+author: Carl A. Myrland
 ---
 
 ## Læringsmål {.tips}
 + beskrive og gjennomføre spegling, rotasjon og parallellforskyving
 + beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
 
-
-# Introduksjon {.intro}
+## Introduksjon {.intro}
 
 Denne oppgaven forutsetter at du har fullført oppgave 1 i denne oppgaveserien.
 
@@ -23,16 +19,16 @@ Aller først henter vi frem `Hattulf` fra forrige oppgave. Trykk på "mine ting"
 Vi skal la rotasjonen ligge en liten stund, så vi kobler ganske enkelt "Når grønt flagg klikkes"-boksen fra resten av koden.
 Ikke slett koden, vi skal bruke den igjen senere!
 
-## Steg 1: Vi forskyver Hattulf {.activity}
+# Steg 1: Vi forskyver Hattulf {.activity}
 
 Vi må huske at for en datamaskin foregår all bevegelse på skjermen i et koordinatsystem. Koordinatene for bevegelse i lengderetning, altså fra høyre til venstre, kaller vi x-koordinater. 
 Vil du bevege deg i høyden må vi endre på y-koordinatene.
 
 Vi begynner med å endre på X-koordinatene
 
-## Sjekkliste {.checklist}
+## Sjekkliste {.check}
 
-+ Vi henter en `endre x med`-{.blockblue} fra `Bevegelse`-{.blockblue} og kobler den til `Når grønt flagg klikkes`
++ Vi henter en `endre x med`-{.blockmotion} fra `Bevegelse`{.blockmotion} og kobler den til `Når grønt flagg klikkes`{.blockcontrol}
 + Du kan endre verdien med så mye som du selv ønsker. 
 
 	```blocks
@@ -45,6 +41,7 @@ Vi begynner med å endre på X-koordinatene
 		når [o] trykkes
 		gå til x: (0) y: (0)
 	```
+	
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
@@ -53,11 +50,13 @@ __Klikk på det grønne flagget.__
 + Husk å trykke "o" om `Hattulf` forsvinner ut av bildekanten
 + Utfordring: Ved å bruke det du kan om bevegelser på ei tallinje, kan du få `Hattulf` til å gå til venstre på skjermen ved å endre på verdien til tallet du endrer x med. Får du det til?
 
-## Steg 2: Flytte `Hattulf` langs y-aksen.
+# Steg 2: Flytte `Hattulf` langs y-aksen. {.activity}
 
-Du blir kanskje ikke veldig overrasket over at vi nå skal benytte oss av `endre y med ()`
+Du blir kanskje ikke veldig overrasket over at vi nå skal benytte oss av `endre y med ()`{.blockmotion}.
+
++ Nå skal kodeblokken din se slik ut:
 
 	```blocks
-		når grønt flagg klikkes
-		endre y med ()
+	når grønt flagg klikkes
+	endre y med ()
 	```
