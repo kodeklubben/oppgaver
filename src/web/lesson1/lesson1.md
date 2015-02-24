@@ -116,7 +116,7 @@ For eksempel, noen av paragrafene kan være introduksjoner, så du kan gi de en 
     <li>Å sove lenge</li>
     <li>Å spille spill</li>
   </ol>
----
+```
 
 Så kopierer du det og flytter det et annet sted. Lagre siden, og oppdater den i nettleseren. Hvordan påvirker rekkefølgen av koden rekkefølgen på det som vises i nettleseren?
 

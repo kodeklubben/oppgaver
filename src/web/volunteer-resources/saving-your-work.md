@@ -32,7 +32,7 @@ the desktop (desktop is just a directory like any other, only a little bit speci
 What if we wanted to copy our site onto a memory stick? We would have to move both files and make sure they live in the same directory on the stick. Maybe we can make it easier by putting them in their own directory and move that. So our file structure now looks like this:
 
 ```
-my_kitty_site 
+my_kitty_site
 |
 \- page.html
 |
@@ -41,8 +41,8 @@ my_kitty_site
 
 Let’s tidy it up a bit more. What if later we want to include more images? Let’s put them in their own directory so it’s easier to find them.
 ```
-my_kitty_site 
-| 
+my_kitty_site
+|
 \- page.html
 |
 \ - images |
@@ -63,11 +63,11 @@ What if you fancied tidying up your file structure some more and put all your HT
 Let’s say you created the following:
 
 ```
-my_kitty_site 
+my_kitty_site
 |
 \ - pages
 ---
-| \ - page.html 
+| \ - page.html
 |
 \ - images
 ---

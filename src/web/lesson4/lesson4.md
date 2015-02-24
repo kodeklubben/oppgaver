@@ -112,7 +112,7 @@ h1 {
 }
 ```
 
----
+```
 ## Nå skal du __LAGRE__ filen og se hvordan det ser ut. { .save}
 
 ## Morro med tekst
