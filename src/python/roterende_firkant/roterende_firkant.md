@@ -1,6 +1,7 @@
 ---
 title: Roterende firkant
 author: H. Kaurel
+indexed: false
 level: 4
 ---
 #Introduksjon {.intro}
