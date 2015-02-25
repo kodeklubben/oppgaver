@@ -252,6 +252,21 @@ Her er en liste over alle kategoriene med navn:
 For å referere til en fane som skript, drakter eller lyder, brukes `` ` `` slik
 som dette: `` `Drakter` ``
 
+## Lisens
+Som standard settes lisensen på alle oppgaver til [CC BY-SA 4.0]. Dersom du ønsker
+å dele en oppgave med en annen lisens må du legge `license` i YAML-headeren:
+
+```
+---
+title: Din tittel
+license: Din lisens
+---
+```
+
+Er ikke dette gjort, godtar du at oppgaven din deles med vilkårene i [CC BY-SA 4.0].
+
+[CC BY-SA 4.0]: http://creativecommons.org/licenses/by-sa/4.0/deed.no
+
 ## Bidra
 Dersom du finner feil eller har lyst å forbedre noe, vent ikke med å sende en
 [issue](//github.com/kodeklubben/oppgaver/issues). Vi trenger din hjelp!
