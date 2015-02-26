@@ -1,8 +1,9 @@
 ---
 title: Skilpaddeskolen
-level: 1
+level: 2
 logo: ../../assets/img/ccuk_logo.png
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
+translator: Bjørn Einar Bjartnes
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
