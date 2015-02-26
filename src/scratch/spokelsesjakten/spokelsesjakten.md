@@ -210,7 +210,7 @@ __Klikk på det grønne flagget.__
             vent (1) sekunder
             endre [Tid v] med (-1)
         slutt
-        stopp [alle v]
+        stopp [alle v] :: control
     ```
 
 ## Test prosjektet {.flag}

@@ -249,7 +249,7 @@ truffet nettet. Det skal vi gjøre nå.
                 pek i retning ((180) + (retning))
             slutt
             hvis (berører fargen [#ff0000] ?)
-                stopp [alle v]
+                stopp [alle v] :: control
             slutt
         slutt
     ```
@@ -322,7 +322,7 @@ Vi kan forenkle dette til
                 pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
             slutt
             hvis (berører fargen [#ff0000] ?)
-                stopp [alle v]
+                stopp [alle v] :: control
             slutt
         slutt
     ```
@@ -384,7 +384,7 @@ starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
                 endre [Poeng v] med (1)
             slutt
             hvis (berører fargen [#ff0000] ?)
-                stopp [alle v]
+                stopp [alle v] :: control
             slutt
         slutt
     ```
@@ -433,7 +433,7 @@ selv!
                 endre [Hastighet v] med (0.1)
             slutt
             hvis (berører fargen [#ff0000] ?)
-                stopp [alle v]
+                stopp [alle v] :: control
             slutt
         slutt
     ```
@@ -479,7 +479,7 @@ sist snudde.
                 sett [Flytt v] til (0)
             slutt
             hvis (berører fargen [#ff0000] ?)
-                stopp [alle v]
+                stopp [alle v] :: control
             slutt
         slutt
     ```
