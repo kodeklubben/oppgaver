@@ -493,7 +493,7 @@ __Klikk på det grønne flagget.__
 
     ```blocks
         når jeg mottar [Avslutt v]
-        stopp [alle v]
+        stopp [alle v] :: control
     ```
 
 ## Test prosjektet {.flag}

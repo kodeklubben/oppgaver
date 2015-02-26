@@ -292,13 +292,11 @@ eller lage egne klosser som man gjør i Scratch.
   vi bruker den nye funksjonen. For eksempel
 
     ```blocks
-        definer Reis til (sted) (x) (y)
-
         når jeg mottar [Nytt spill v]
         vis
-        Reis til [London] (-135) (-30)
-        Reis til [Oslo] (-30) (75)
-        Reis til [Barcelona] (-135) (-175)
+        Reis til [London] (-135) (-30) :: custom
+        Reis til [Oslo] (-30) (75) :: custom
+        Reis til [Barcelona] (-135) (-175) :: custom
     ```
 
 + Om du prøver spillet nå vil du kanskje oppdage et lite

@@ -234,14 +234,14 @@ __Klikk det grønne flagget.__
         spill lyden [screech v]
         si [Du tapte!]
         send melding [Tap v]
-        stopp [andre skript i figuren v]
+        stopp [andre skript i figuren v] :: control
     ```
 
 + Klikk så på `Rør`-figuren og legg til dette skriptet:
 
     ```blocks
         når jeg mottar [Tap v]
-        stopp [andre skript i figuren v]
+        stopp [andre skript i figuren v] :: control
     ```
 
 ## Test prosjektet {.flag}
@@ -361,7 +361,7 @@ Når spilleren taper vil vi at Flakse faller ned og ut av skjermen.
         slutt
         skjul
         send melding [Tap v]
-        stopp [andre skript i figuren v]
+        stopp [andre skript i figuren v] :: control
     ```
 
 + Du må også legge til en `vis`{.blocklooks}-kloss samt sette Flakses
@@ -388,7 +388,7 @@ __Klikk det grønne flagget.__
         hvis <(poeng) > (Rekord)>
             sett [Rekord v] til (poeng)
         slutt
-        stopp [andre skript i figuren v]
+        stopp [andre skript i figuren v] :: control
     ```
 
 ## Nettvariabler {.protip}

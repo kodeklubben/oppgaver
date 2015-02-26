@@ -129,11 +129,9 @@ sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
   lagde forrige gang.
 
     ```blocks
-        definer Reis til (sted) (x) (y)
-
         når jeg mottar [Nytt sted v]
         sett [sted v] til (tilfeldig tall fra (1) til (lengden av [steder v]))
-        Reis til (element (sted) av [steder v]) (element (sted) av [stederX v]) (element (sted) av [stederY v])
+        Reis til (element (sted) av [steder v]) (element (sted) av [stederX v]) (element (sted) av [stederY v]) :: custom
     ```
 
 + Prøv å kjør spillet flere ganger. Virker det som om reisemålet blir
@@ -242,7 +240,7 @@ programflyten omtrent som dette:
     ```blocks
         når jeg mottar [Spill slutt v]
         skjul
-        stopp [andre skript i figuren v]
+        stopp [andre skript i figuren v] :: control
     ```
 
     Med `stopp`{.blockcontrol}-klossen passer vi på at alle skriptene

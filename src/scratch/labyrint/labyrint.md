@@ -373,7 +373,7 @@ Dette blir veldig likt hvordan `Skatt` merket at den ble funnet.
         for alltid
             hvis (berører [Utforsker v]?)
                 si [Tok deg!] i (1) sekunder
-                stopp [alle v]
+                stopp [alle v] :: control
             slutt
         slutt
     ```

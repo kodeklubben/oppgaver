@@ -546,7 +546,7 @@ Og her er redningskapselen, som håndterer all nivå-endringen:
 			    hvis <[nåværende nivå v] = <lengden av [nøkler per brett v]>
 				    si [Du vant!!]
                     send melding [seier v]
-                    stopp [alle v]
+                    stopp [alle v] :: control
                 ellers
 				    endre [nåværende nivå v] med (1)
                     send melding [start brett v]

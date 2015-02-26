@@ -229,7 +229,7 @@ reagere på ting som skjer.
 
     ```blocks
         når jeg mottar [Redning v]
-        stopp [andre skript i figuren v]
+        stopp [andre skript i figuren v] :: control
     ```
 
 ## Test prosjektet {.flag}
@@ -277,7 +277,7 @@ merket `x` og `y`. Disse viser koordinatene til musepekeren.
 
     ```blocks
         når jeg mottar [Mål v]
-        stopp [andre skript i figuren v]
+        stopp [andre skript i figuren v] :: control
     ```
 
 + Vi kan også la `Leo` juble litt når han scorer mål. Klikk på
@@ -419,7 +419,7 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
             send melding [Nytt spark v]
         ellers
             bytt bakgrunn til [Seier v]
-            stopp [alle v]
+            stopp [alle v] :: control
         slutt
     ```
 
@@ -433,7 +433,7 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
             send melding [Nytt spark v]
         ellers
             bytt bakgrunn til [Tap v]
-            stopp [alle v]
+            stopp [alle v] :: control
         slutt
     ```
 

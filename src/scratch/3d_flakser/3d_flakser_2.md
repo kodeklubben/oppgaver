@@ -48,7 +48,7 @@ vi kaller `bakken`.
             sett y til ((20) - (y))
             hvis (berører [Flakse v])
                 si [du tapte!] i (2) sekunder
-                stopp [alle v]
+                stopp [alle v] :: control
             slutt
         slutt
     ```
@@ -184,7 +184,7 @@ ring-figuren.
     ```blocks
         hvis ((berører [Flakse v]) og ((distanse) < (1.2)))
             si [du tapte!] i (1) sekunder
-            stopp [alle v] 
+            stopp [alle v] :: control
         slutt
     ```
 

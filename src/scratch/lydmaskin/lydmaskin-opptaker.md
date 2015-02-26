@@ -73,7 +73,7 @@ Trykk på opptaksknappen. Hva skjer når du spiller på instrumentene?
                 send melding (element (index) av [instrument v])
                 endre [index v] med (1)
                 hvis <(index) > (lengden av [timing v])>
-                    stopp [dette skriptet]
+                    stopp [dette skriptet] :: control
                 slutt
             slutt
         slutt
