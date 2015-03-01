@@ -7,7 +7,7 @@ if [ -e README.md ]
 then
     find * ! -name README.md -delete 
 else
-    rm -rf *
+    rm -r *
 fi
 cp -r ../build/* . && \
 git add --all . && \
