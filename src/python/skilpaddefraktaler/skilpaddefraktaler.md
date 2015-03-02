@@ -90,7 +90,7 @@ over.
   det enkle fjellet. Skriv denne funksjonen i den samme filen.
 
     ```python
-    def to()
+    def to():
         forward(90)
         left(60)
         forward(90)
@@ -140,7 +140,7 @@ over.
   den og sammenlign med figuren. Ser du at det stemmer?
 
     ```python
-    def tre()
+    def tre():
         forward(30)
         left(60)
         forward(30)
