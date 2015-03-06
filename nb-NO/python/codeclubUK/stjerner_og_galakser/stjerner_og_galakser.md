@@ -254,7 +254,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
 
 
 # Steg 4: Funksjoner inne i funskjoner {.activity}
-Du kan skrive funksjoner som igjen bruker andre funksjoner. Dette gjør det lettere å ha oversikt når man lager store programmer.
+Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere å ha oversikt når man lager store programmer.
 
 ## Sjekkliste {.check}
 + Det ville vært kult hvis vi kunne lage en galakse med små flerfargede stjerner i tegningen vår. Vi lager defor en funksjon som heter `drawGalaxy()` som bruker funksjonen `drawStar()` som vi laget tidligere.
