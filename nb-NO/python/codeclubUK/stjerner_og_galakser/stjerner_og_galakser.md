@@ -15,7 +15,7 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
 ## Sjekkliste {.check}
 
 
-+ Vi begynner med å bruke det du allerede kan om å tenge med skilpadden. Kjør dette programmet:
++ Vi begynner med å bruke det du allerede kan om tegning med skilpadden. Kjør dette programmet:
 
     ```python
     from turtle import *
@@ -42,8 +42,8 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
     ![](sky-star.png "Sky med en stjerne og skilpadde")
 
 
-    Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen til den som ligger i color.
-    Sørg for å forstå alle før du går videre.
++ Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen til den som ligger i color.
+Sørg for å forstå alle før du går videre.
 
 + Nå skal vi tegne tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å tegne tre stjerner.
 
@@ -124,7 +124,12 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
     hideturtle()
     done()
     ```
+
+![](sky-function.png "Sky med tre stjerner")
+
 + Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner en linje som er 50 piksler lang.
+
+![](sky-parameter-passing.png )
 
 + Det er mulig å sende inn flere verdier inn i funksjonen. For eksempel kan vi sende inn hvilken farge vi vil at stjernen skal ha.
 
@@ -158,6 +163,8 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
     ```
 
     Ser du hvilke endringer som er gjort i koden?
+
+    ![](sky-colours.png "Tre stjerner med forskjellige farger")
 
 ## Utfordring {.challenge}
 Lag en funksjon for å tenge planeter og kall den `drawPlanet()` Send verdier inn i funksjonen slik at du kan bestemme hvor stor og hvilken farge den skal ha.
@@ -201,6 +208,8 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     ```
 + Vi bruker funskjonen `setpos(x,y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200,200)` flytter altså skilpadden til posisjonen (200,200). Prøv å endre på tallene i denne funksjonen!
 
+![](sky-xy.png)
+
 + Vi skal nå flytte til en tilfeldig posisjon. Vi lager en ny funksjon som heter `moveToRandomLocation()`, denne flytter altså skilpadden til en tilfeldig posisjon.
 
     ```python
@@ -235,6 +244,8 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     hideturtle()
     done()
     ```
+
+    ![](sky-random.png "Stjernehimmel")
 
     Kjør koden flere ganger. Ser du at den tegner stjernene forskjellige plasser hver gang?
     Prøv å tegne flere stjerner i flere forskjellige størrelser og farger.
@@ -299,6 +310,9 @@ Du kan skrive funksjoner som igjen bruker andre funksjoner. Dette gjør det lett
     hideturtle()
     done()
     ```
+
+    ![](sky-galaxies.png "Stjernehimmel med galakser")
+
     Ved å kjøre `drawGalaxy(40)` 3 ganger for vi 3 nye galakser som hver inneholder 40 stjerner. For hver galakse kjøres `drawStar()` 40 ganger, mellom hver gang flyttes posisjonen til den neste stjernen litt. Ser du hvor i koden dette skjer?
 
 + Du kan også tegne stjernebilder satt sammen av stjerner. Dette er ikke så vanskelig siden vi allerede har mange av funksjonene vi trenger.
@@ -372,5 +386,12 @@ Du kan skrive funksjoner som igjen bruker andre funksjoner. Dette gjør det lett
     done()
     ```
 
+    ![](sky-constellations.png "Stjernehimmel med stjernekonstellasjoner")
+ 
 ## Utfordring {.challenge}
 Programmér skilpadden til å tegne ditt eget bilde. Bruk funksjoner der du kan, spesielt til ting du skal gjøre flere ganger. Prøv også å bruke funksjoner som du kan sende inn verdier i.
+
+#Eksempler {.activity}
+
+![](sky-flowers.png)
+![](sky-birds.png)
