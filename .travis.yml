@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "0.10"
+install: ./setup
+script: ./gulp links
+notifications:
+  recipients:
+    - geirarne@gmail.com
+addons:
+  apt_packages:
+    - pandoc

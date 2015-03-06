@@ -1,3 +1,0 @@
-pong/pong.md
-breakout/breakout.md
-snake/snake.md
