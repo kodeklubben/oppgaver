@@ -1,9 +1,10 @@
 ---
 title: Stjerner og galakser
 level: 2
-logo: ../../../assets/img/ccuk_logo.png
+logo: ../../assets/img/ccuk_logo.png
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+translator: Ole Andreas Ramsdal
 ---
 
 # Introduksjon {.intro}
@@ -20,14 +21,14 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
     ```python
     from turtle import *
 
-    #Denne koden tenger en liten grå stjerne på en mørke blå bakgrunn
+    # Denne koden tegner en liten grå stjerne på en mørkeblå bakgrunn
     color("WhiteSmoke")
     bgcolor("MidnightBlue")
 
     pendown()
     begin_fill()
 
-    #Tegn stjernen
+    # Tegn stjernen
     for side in range(5):
         left(144)
         forward(50)
@@ -42,7 +43,7 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
     ![](sky-star.png "Sky med en stjerne og skilpadde")
 
 
-+ Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen til den som ligger i color.
++ Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen.
 Sørg for å forstå alle før du går videre.
 
 + Nå skal vi tegne tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å tegne tre stjerner.
@@ -50,8 +51,8 @@ Sørg for å forstå alle før du går videre.
     ```python
     from turtle import *
 
-    #En funskjon for å tegne stjerner
-    #'def' er kort for 'define' på englsk
+    # En funskjon for å tegne stjerner
+    # 'def' er kort for 'define' på engelsk
     def drawStar():
         pendown()
         begin_fill()
@@ -61,11 +62,11 @@ Sørg for å forstå alle før du går videre.
         end_fill()
         penup()
 
-    #Denne koden tenger en liten grå stjerne på en mørke blå bakgrunn
+    # Denne koden tenger en liten grå stjerne på en mørke blå bakgrunn
     color("WhiteSmoke")
     bgcolor("MidnightBlue")
 
-    #Bruk funksjonen til å tegne stjerner!
+    # Bruk funksjonen til å tegne stjerner!
     drawStar()
     forward(100)
     drawStar()
@@ -99,7 +100,7 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
     ```python
     from turtle import *
 
-    #En funksjon for å tegne en stjerne med bestemt størrelse
+    # En funksjon for å tegne en stjerne med bestemt størrelse
     def drawStar(starSize):
         pendown()
         begin_fill()
@@ -109,11 +110,11 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
         end_fill()
         penup()
 
-    #Denne koden tenger en liten grå stjerne på en mørke blå bakgrunn
+    # Denne koden tenger en liten grå stjerne på en mørke blå bakgrunn
     color("WhiteSmoke")
     bgcolor("MidnightBlue")
 
-    #Bruk funksjonen til å tegne stjerner i ulike størrelse!
+    # Bruk funksjonen til å tegne stjerner i ulike størrelse!
     drawStar(50)
     forward(100)
     drawStar(30)
@@ -125,18 +126,18 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
     done()
     ```
 
-![](sky-function.png "Sky med tre stjerner")
+    ![](sky-function.png "Sky med tre stjerner")
 
 + Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner en linje som er 50 piksler lang.
 
-![](sky-parameter-passing.png )
+    ![](sky-parameter-passing.png)
 
 + Det er mulig å sende inn flere verdier inn i funksjonen. For eksempel kan vi sende inn hvilken farge vi vil at stjernen skal ha.
 
     ```python
     from turtle import *
 
-    #En funksjon for å tegne en stjerne med bestemt størrelse og farge
+    # En funksjon for å tegne en stjerne med bestemt størrelse og farge
     def drawStar(starSize, starColour):
         color(starColour)
         pendown()
@@ -150,7 +151,7 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
     color("WhiteSmoke")
     bgcolor("MidnightBlue")
 
-    #Bruk funksjonen til å tegne stjerner i ulike størrelse!
+    # Bruk funksjonen til å tegne stjerner i ulike størrelse!
     drawStar(50, "Red")
     forward(100)
     drawStar(30, "White")
@@ -181,7 +182,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     ```python
     from turtle import *
 
-    #En funksjon for å tegne en stjerne med bestemt størrelse og farge
+    # En funksjon for å tegne en stjerne med bestemt størrelse og farge
     def drawStar(starSize, starColour):
         color(starColour)
         pendown()
@@ -192,12 +193,12 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
         end_fill()
         penup()
 
-    #Setter bakgrunnsfargen
+    # Setter bakgrunnsfargen
     bgcolor("MidnightBlue")
 
-    #Flytt til en bestemt posisjon (x=200,y=200)
+    # Flytt til en bestemt posisjon (x=200,y=200)
     penup()
-    setpos(200 , 200)
+    setpos(200, 200)
     pendown()
 
     drawStar(50, "White")
@@ -206,9 +207,9 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     done()
 
     ```
-+ Vi bruker funskjonen `setpos(x,y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200,200)` flytter altså skilpadden til posisjonen (200,200). Prøv å endre på tallene i denne funksjonen!
++ Vi bruker funskjonen `setpos(x, y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til posisjonen (200, 200). Prøv å endre på tallene i denne funksjonen!
 
-![](sky-xy.png)
+    ![](sky-xy.png)
 
 + Vi skal nå flytte til en tilfeldig posisjon. Vi lager en ny funksjon som heter `moveToRandomLocation()`, denne flytter altså skilpadden til en tilfeldig posisjon.
 
@@ -216,13 +217,13 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     from turtle import *
     from random import *
 
-    #Flytter skilpadden til tilfeldig posisjon
+    # Flytter skilpadden til tilfeldig posisjon
     def moveToRandomLocation():
         penup()
-        setpos( randint(-400,400) , randint(-400,400) )
+        setpos(randint(-400, 400), randint(-400, 400))
         pendown()
 
-    #Tegner en stjerne
+    # Tegner en stjerne
     def drawStar(starSize, starColour):
         color(starColour)
         pendown()
@@ -233,13 +234,13 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
         end_fill()
         penup()
 
-    #Mørke blå bakgrunn
+    # Mørke blå bakgrunn
     bgcolor("MidnightBlue")
 
-    #Tegner 30 stjerner med tilfeldig størrelse og posisjon
+    # Tegner 30 stjerner med tilfeldig størrelse og posisjon
     for star in range(30):
         moveToRandomLocation()
-        drawStar( randint(5,25) , "White")
+        drawStar(randint(5, 25) , "White")
 
     hideturtle()
     done()
@@ -250,7 +251,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     Kjør koden flere ganger. Ser du at den tegner stjernene forskjellige plasser hver gang?
     Prøv å tegne flere stjerner i flere forskjellige størrelser og farger.
 
-    `from random import *` gjør at vi får tilgang på funksjonen `randint(a,b)` . Hvis vi skriver `randint(5,25)` gir denne funksjonen oss et tilfeldig tall som er større eller lik 5 og mindre enn eller lik 25.
+    `from random import *` gjør at vi får tilgang på funksjonen `randint(a,b)` . Hvis vi skriver `randint(5, 25)` gir denne funksjonen oss et tilfeldig tall som er større eller lik 5 og mindre enn eller lik 25.
 
 
 # Steg 4: Funksjoner inne i funskjoner {.activity}
@@ -263,13 +264,13 @@ Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere �
     from turtle import *
     from random import *
 
-    #a function for moving the turtle to a random location
+    # a function for moving the turtle to a random location
     def moveToRandomLocation():
         penup()
-        setpos( randint(-400,400) , randint(-400,400) )
+        setpos(randint(-400, 400), randint(-400, 400))
         pendown()
 
-    #a function for drawing a star of a particular size
+    # a function for drawing a star of a particular size
     def drawStar(starSize, starColour):
         color(starColour)
         pendown()
@@ -280,30 +281,30 @@ Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere �
         end_fill()
         penup()
 
-    #a function for drawing a small galaxy of stars
+    # a function for drawing a small galaxy of stars
     def drawGalaxy(numberOfStars):
         starColours = ["#058396","#0275A6","#827E01"]
         moveToRandomLocation()
-        #draw lots of small coloured stars
+        # draw lots of small coloured stars
         for star in range(numberOfStars):
             penup()
-            left( randint(-180,180) )
-            forward( randint(5,20) )
+            left(randint(-180, 180) )
+            forward(randint(5, 20) )
             pendown()
-            #draw a small star in a random colour
+            # draw a small star in a random colour
             drawStar( 2, choice(starColours) )
 
     speed(11)
 
-    #this will draw a dark blue background
+    # this will draw a dark blue background
     bgcolor("MidnightBlue")
 
-    #draw 30 white stars (random sizes/locations)
+    # draw 30 white stars (random sizes/locations)
     for star in range(30):
         moveToRandomLocation()
-        drawStar( randint(5,25) , "White")
+        drawStar(randint(5, 25) , "White")
 
-    #draw 3 small galaxies of 40 stars
+    # draw 3 small galaxies of 40 stars
     for galaxy in range(3):
         drawGalaxy(40)
 
@@ -321,13 +322,13 @@ Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere �
     from turtle import *
     from random import *
 
-    #a function for moving the turtle to a random location
+    # a function for moving the turtle to a random location
     def moveToRandomLocation():
         penup()
-        setpos( randint(-400,400) , randint(-400,400) )
+        setpos(randint(-400, 400), randint(-400, 400))
         pendown()
 
-    #a function for drawing a star of a particular size
+    # a function for drawing a star of a particular size
     def drawStar(starSize, starColour):
         color(starColour)
         pendown()
@@ -338,60 +339,61 @@ Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere �
         end_fill()
         penup()
 
-    #a function for drawing a small galaxy of stars
+    # a function for drawing a small galaxy of stars
     def drawGalaxy(numberOfStars):
         starColours = ["#058396","#0275A6","#827E01"]
         moveToRandomLocation()
-        #draw lots of small coloured stars
+        # draw lots of small coloured stars
         for star in range(numberOfStars):
             penup()
-            left( randint(-180,180) )
-            forward( randint(5,20) )
+            left(randint(-180, 180) )
+            forward(randint(5, 20) )
             pendown()
-            #draw a small star in a random colour
+            # draw a small star in a random colour
             drawStar( 2, choice(starColours) )
 
-    #a function for drawing a joined constellation of stars
+    # a function for drawing a joined constellation of stars
     def drawConstellation(numberOfStars):
         moveToRandomLocation()
-        #first draw all stars except the last one,
-        #joined by lines, like this: *--*--*--
+        # first draw all stars except the last one,
+        # joined by lines, like this: *--*--*--
         for star in range(numberOfStars-1):
-            drawStar( randint(7,15) , "white")
+            drawStar(randint(7, 15) , "white")
             pendown()
-            left( randint(-90,90) )
-            forward( randint(30,70) )
-        #now draw the last star
-        drawStar( randint(7,15) , "White")
+            left(randint(-90, 90) )
+            forward(randint(30, 70) )
+        # now draw the last star
+        drawStar(randint(7, 15) , "White")
 
     speed(11)
 
-    #this will draw a dark blue background
+    # this will draw a dark blue background
     bgcolor("MidnightBlue")
 
-    #draw 30 white stars (random sizes/locations)
+    # draw 30 white stars (random sizes/locations)
     for star in range(30):
         moveToRandomLocation()
-        drawStar( randint(5,25) , "White")
+        drawStar(randint(5, 25) , "White")
 
-    #draw 3 small galaxies of 40 stars
+    # draw 3 small galaxies of 40 stars
     for galaxy in range(3):
         drawGalaxy(40)
 
-    #draw 2 constellations, each with a random number of stars
+    # draw 2 constellations, each with a random number of stars
     for constellation in range(2):
-        drawConstellation(randint(4,7))
+        drawConstellation(randint(4, 7))
 
     hideturtle()
     done()
     ```
 
     ![](sky-constellations.png "Stjernehimmel med stjernekonstellasjoner")
- 
+
 ## Utfordring {.challenge}
 Programmér skilpadden til å tegne ditt eget bilde. Bruk funksjoner der du kan, spesielt til ting du skal gjøre flere ganger. Prøv også å bruke funksjoner som du kan sende inn verdier i.
 
-#Eksempler {.activity}
+# Eksempler {.activity}
 
-![](sky-flowers.png)
-![](sky-birds.png)
+![](sky-flowers.png "Blomstereng")
+
+![](sky-birds.png "Himmel med fugler og skyer")
