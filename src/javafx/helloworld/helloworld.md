@@ -172,3 +172,5 @@ Argument-typen viser hva slags verdi du må gi inn. F.eks. tar **setFill** et ar
 + hvordan plassere en tekst i et vindu
 + hvordan endre verdier for plassering, skriftstype, farge og vindusstørrelse
 + hvordan bruke kode-kompletteringsfunksjonen
+
+I leksjonen [FXML-logo](../fxmllogo/fxmllogo.html) vil du lære hvordan lage skjerminnhold med FXML og tegne med JavaFX Scene Builder.
