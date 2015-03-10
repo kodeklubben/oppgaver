@@ -58,7 +58,7 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
 
 ## Sjekkliste {.check}
 
-+ Vi endrer koden og legger til `def poly():`. Pass på at koden har riktig innrykk (du kan merke den og trykke Tab) og bruk den nye prosedyren. (Å bruke en prosedyre heter å kalle prosedyren).
++ Vi endrer koden og legger til `def poly():`. Pass på at koden har riktig innrykk (du kan merke den og trykke Tab) og bruk den nye funksjonen. (Vi sier at vi kaller på en funksjon når vi bruker den).
 
     ```python
     from turtle import *
@@ -80,11 +80,11 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
 
 + Kjør programmet. Hvis det virker skal to røde firkanter bli tegnet.
 
-Vi sparte litt tid ved å definere en ny prosedyre i Python, og nå kan vi tegne en rød firkant to ganger, uten å skrive hele greia to ganger. Disse nye kommandoene heter prosedyrer i Python, og de er fine for å slippe å skrive så mye.
+Vi sparte litt tid ved å definere en ny funksjon i Python, og nå kan vi tegne en rød firkant to ganger, uten å skrive hele greia to ganger. Disse nye kommandoene heter funksjoner i Python, og de er fine for å slippe å skrive så mye.
 
 # Steg 4: Hvorfor stoppe med firkanter {.activity}
 
-Vi er ikke ferdige ennå - hva med å endre prosedyren så den kan tegne hvilken som helst form? Som med `forward` og `right`, kan vi sende verdier inn i prosedyren istedenfor å endre koden hver gang.
+Vi er ikke ferdige ennå - hva med å endre funksjonen så den kan tegne hvilken som helst form? Som med `forward` og `right`, kan vi sende verdier inn i funksjonen istedenfor å endre koden hver gang.
 
 ## Sjekkliste {.check}
 
@@ -109,14 +109,14 @@ Vi er ikke ferdige ennå - hva med å endre prosedyren så den kan tegne hvilken
 
 + Kjør den og se hva som skjer.
 
-    La oss ta dette litt sakte, for dette er ganske kule greier. Istedenfor å bestemme variablene i prosedyren, sier vi at prosedyren tar noen verdier som har navn, og så bruker vi verdiene der vi trenger dem.
+    La oss ta dette litt sakte, for dette er ganske kule greier. Istedenfor å bestemme variablene i funksjonen, sier vi at funksjonen tar noen verdier som har navn, og så bruker vi verdiene der vi trenger dem.
 
-    Vi flyttet noen verdier ut av prosedyren, og flyttet dem til den delen av koden som bruker dem. Nå kan vi, med en eneste prosedyre, tegne *hvilken som helst* form, med *hvilken som helst farge*. Jeg vet ikke hva du tenker, men dette imponerer meg hver gang jeg tenker på det: Vi kan lære datamaskinen nye triks, og så få den til å gjøre triksene.
+    Vi flyttet noen verdier ut av funksjonen, og flyttet dem til den delen av koden som bruker dem. Nå kan vi, med en eneste funksjon, tegne *hvilken som helst* form, med *hvilken som helst farge*. Jeg vet ikke hva du tenker, men dette imponerer meg hver gang jeg tenker på det: Vi kan lære datamaskinen nye triks, og så få den til å gjøre triksene.
 
-Å være i stand til å definere nye prosedyrer som kan oppføre seg forskjellig basert på verdiene vi gir inn er et av de kraftigste verktøyene i programmering.
+Å være i stand til å definere nye funksjoner som kan oppføre seg forskjellig basert på verdiene vi gir inn er et av de kraftigste verktøyene i programmering.
 
 ### Tips {.protip}
-Vi skiller mellom prosedyrer og funksjoner når vi snakker om dem, men de er ser helt like ut i Python. Det kommer funksjoner i neste kapittel, men vi nevner det allerede nå så du har hørt om det. Forskjellen er at en prosedyre kan gjøre noe med omverdenen, for eksempel tegne noe eller skrive noe på skjermen. Både prosedyrer og funksjoner kan returnere en verdi også, det kommer vi tilbake til, men prosedyren kan finne på å gi forskjellig resultat selv om du gir inn samme verdier. For eksempel kan en prosedyre `erDet("fredag")` svare ja på fredager og nei på lørdager. En funksjon derimot må alltid svare det samme hvis den får de samme verdiene.
+I python finnes det funksjoner, mens i andre programmeringsspråk finnes det også noe som blir kalt prosedyrer. Disse begrepene går litt inn ihverandre, så det er ikke så farlig om dere ikke helt ser forskjellen. En funksjon skal gjerne returnere noe, og den skal helst ikke gjøre noe annet enn å regne ut returverdien. I tillegg burde funksjonen alltid returnere det samme når den får samme innputt. Prosedyrer ligner veldig på funksjoner, men de får lov til å returnere forskjellige ting avhenging av andre ting enn innputt. I tillegg er det lov for en prosedyre å gjøre noe annet enn å returnere noe. For eksempel kan en prosedyre tegne på skjermen. I python er det ingen forskjell på funksjoner og prosedyrer, så det er vanlig å bare kalle begge deler for funksjoner.
 
 # Steg 5: Skilpaddestreker {.activity}
 
