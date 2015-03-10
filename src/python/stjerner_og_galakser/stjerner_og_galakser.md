@@ -51,7 +51,7 @@ Sørg for å forstå alle før du går videre.
     ```python
     from turtle import *
 
-    # En funskjon for å tegne stjerner
+    # En funksjon for å tegne stjerner
     # 'def' er kort for 'define' på engelsk
     def drawStar():
         pendown()
@@ -62,7 +62,7 @@ Sørg for å forstå alle før du går videre.
         end_fill()
         penup()
 
-    # Denne koden tenger en liten grå stjerne på en mørke blå bakgrunn
+    # Denne koden tegner en liten grå stjerne på en mørkeblå bakgrunn
     color("WhiteSmoke")
     bgcolor("MidnightBlue")
 
@@ -95,7 +95,7 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
 
 ## Sjekkliste {.check}
 
-+ Her er et program med en "stjernetegne-funksjon" som kan tegne stjerner i forskjellige størrelser ut i fra hvilket tall du sender inn i funskjonen.
++ Her er et program med en "stjernetegne-funksjon" som kan tegne stjerner i forskjellige størrelser ut i fra hvilket tall du sender inn i funksjonen.
 
     ```python
     from turtle import *
@@ -110,7 +110,7 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
         end_fill()
         penup()
 
-    # Denne koden tenger en liten grå stjerne på en mørke blå bakgrunn
+    # Denne koden tegner en liten grå stjerne på en mørkeblå bakgrunn
     color("WhiteSmoke")
     bgcolor("MidnightBlue")
 
@@ -168,7 +168,7 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
     ![](sky-colours.png "Tre stjerner med forskjellige farger")
 
 ## Utfordring {.challenge}
-Lag en funksjon for å tenge planeter og kall den `drawPlanet()` Send verdier inn i funksjonen slik at du kan bestemme hvor stor og hvilken farge den skal ha.
+Lag en funksjon for å tegne planeter og kall den `drawPlanet()` Send verdier inn i funksjonen slik at du kan bestemme hvor stor og hvilken farge den skal ha.
 
 
 
@@ -177,7 +177,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
 
 ## Sjekkliste {.check}
 
-+ Kjør dette programmet. Skilpadden flyttes til en ny posisjon og tenger en hvit stjerne der.
++ Kjør dette programmet. Skilpadden flyttes til en ny posisjon og tegner en hvit stjerne der.
 
     ```python
     from turtle import *
@@ -207,7 +207,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     done()
 
     ```
-+ Vi bruker funskjonen `setpos(x, y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til posisjonen (200, 200). Prøv å endre på tallene i denne funksjonen!
++ Vi bruker funksjonen `setpos(x, y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til posisjonen (200, 200). Prøv å endre på tallene i denne funksjonen!
 
     ![](sky-xy.png)
 
@@ -234,7 +234,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
         end_fill()
         penup()
 
-    # Mørke blå bakgrunn
+    # mørkeblå bakgrunn
     bgcolor("MidnightBlue")
 
     # Tegner 30 stjerner med tilfeldig størrelse og posisjon
@@ -254,7 +254,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
     `from random import *` gjør at vi får tilgang på funksjonen `randint(a,b)` . Hvis vi skriver `randint(5, 25)` gir denne funksjonen oss et tilfeldig tall som er større eller lik 5 og mindre enn eller lik 25.
 
 
-# Steg 4: Funksjoner inne i funskjoner {.activity}
+# Steg 4: Funksjoner inne i funksjoner {.activity}
 Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere å ha oversikt når man lager store programmer.
 
 ## Sjekkliste {.check}
