@@ -28,7 +28,7 @@ og la oss begynne.
 
 + Lagre det som en ny fil, og kjør programmet fra menyen ved å trykke `Run > Run Module`.
 
-    Husk at `for n in range(4)` gjentar koden, og at koden må grupperes med mellomrom (innrykk) for å være en del av for-løkken. Bruk 'Tab' (knappen over Caps-Lock) for å flytte kode.
+    Husk at `for n in range(4)` gjentar koden, og at koden må grupperes med mellomrom (innrykk) for å være en del av for-løkken. Bruk *tab* (knappen rett over *caps lock*) for å flytte kode.
 
 # Steg 2: Forskjellige firkanter {.activity}
 
@@ -52,18 +52,18 @@ La oss bruke variabler for å gjøre programmet vårt lettere å lese og lettere
 
 + Kjør det ved å trykke `Run > Run Module` fra menyen. Får du den samme firkanten som før? Sjekk at det virker før du går videre.
 
-Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken figur vi vil. Problemet er bare at vi er nødt til å klippe og lime programmet for å få det til. Som tidligere kan vi skrive kode for å slippe å gjenta oss selv (programmerere anstrenger seg gjerne litt slik at de kan være late etterpå!). Denne gangen vil vi definere en ny kommando.
+Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken figur vi vil. Problemet er bare at vi er nødt til å klippe og lime programmet for å få det til. Som tidligere kan vi skrive kode for å slippe å gjenta oss selv (programmerere anstrenger seg gjerne litt slik at de kan være late etterpå!). Denne gangen skal vi lage en *funksjon*. En funksjon er en enkel måte for å gjenbruke en kodeblokk (eller oppskrift om du vil) mange ganger. Funksjonen får et navn, og dette navnet kan vi senere bruke.
 
-# Steg 3: En ny kommando dukker opp {.activity}
+# Steg 3: Vi lager en funksjon {.activity}
 
 ## Sjekkliste {.check}
 
-+ Vi endrer koden og legger til `def poly():`. Pass på at koden har riktig innrykk (du kan merke den og trykke Tab) og bruk den nye funksjonen. (Vi sier at vi kaller på en funksjon når vi bruker den).
++ Vi endrer koden og legger til `def poly():`. `def` betyr definer, altså å lage. Pass på at koden har riktig innrykk og bruk den nye funksjonen. For å få innrykk på flere linjer kan man merke linjene og deretter trykke *tab* (knappen rett over *caps lock*). Derdom du vil ha mindre innrykk, bruk *shift + tab*.
 
     ```python
     from turtle import *
 
-    def poly():
+    def poly(): # vi lager funksjonen
         sides = 4
         length = 100
         angle = 360/sides
@@ -73,16 +73,16 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
             right(angle)
 
     pencolor('red')
-    poly()
+    poly() # vi kaller på funksjonen
     right(180)
     poly()
     ```
 
 + Kjør programmet. Hvis det virker skal to røde firkanter bli tegnet.
 
-Vi sparte litt tid ved å definere en ny funksjon i Python, og nå kan vi tegne en rød firkant to ganger, uten å skrive hele greia to ganger. Disse nye kommandoene heter funksjoner i Python, og de er fine for å slippe å skrive så mye.
+Vi sparte litt tid ved å lage en ny funksjon i Python, og nå kan vi tegne en rød firkant to ganger, uten å skrive hele greia to ganger. Den nye funksjonen `poly()` er fin for å slippe å skrive så mye.
 
-# Steg 4: Hvorfor stoppe med firkanter {.activity}
+# Steg 4: Hvorfor stoppe med firkanter? {.activity}
 
 Vi er ikke ferdige ennå - hva med å endre funksjonen så den kan tegne hvilken som helst form? Som med `forward` og `right`, kan vi sende verdier inn i funksjonen istedenfor å endre koden hver gang.
 
@@ -113,10 +113,10 @@ Vi er ikke ferdige ennå - hva med å endre funksjonen så den kan tegne hvilken
 
     Vi flyttet noen verdier ut av funksjonen, og flyttet dem til den delen av koden som bruker dem. Nå kan vi, med en eneste funksjon, tegne *hvilken som helst* form, med *hvilken som helst farge*. Jeg vet ikke hva du tenker, men dette imponerer meg hver gang jeg tenker på det: Vi kan lære datamaskinen nye triks, og så få den til å gjøre triksene.
 
-Å være i stand til å definere nye funksjoner som kan oppføre seg forskjellig basert på verdiene vi gir inn er et av de kraftigste verktøyene i programmering.
+Å være i stand til å lage nye funksjoner som kan oppføre seg forskjellig basert på verdiene vi gir inn er et av de kraftigste verktøyene i programmering.
 
 ### Tips {.protip}
-I python finnes det funksjoner, mens i andre programmeringsspråk finnes det også noe som blir kalt prosedyrer. Disse begrepene går litt inn ihverandre, så det er ikke så farlig om dere ikke helt ser forskjellen. En funksjon skal gjerne returnere noe, og den skal helst ikke gjøre noe annet enn å regne ut returverdien. I tillegg burde funksjonen alltid returnere det samme når den får samme innputt. Prosedyrer ligner veldig på funksjoner, men de får lov til å returnere forskjellige ting avhenging av andre ting enn innputt. I tillegg er det lov for en prosedyre å gjøre noe annet enn å returnere noe. For eksempel kan en prosedyre tegne på skjermen. I python er det ingen forskjell på funksjoner og prosedyrer, så det er vanlig å bare kalle begge deler for funksjoner.
+I python finnes det funksjoner, mens i andre programmeringsspråk finnes det også noe som blir kalt prosedyrer. Disse begrepene går litt inn i hverandre, så det er ikke så farlig om dere ikke ser forskjellen. En funksjon skal gjerne returnere noe, og den skal helst ikke gjøre noe annet enn å regne ut returverdien. I tillegg burde funksjonen alltid returnere det samme når den får samme innputt. Prosedyrer ligner veldig på funksjoner, men de får lov til å returnere forskjellige ting avhenging av andre ting enn innputt. I tillegg er det lov for en prosedyre å gjøre noe annet enn å returnere noe. For eksempel kan en prosedyre tegne på skjermen. I python er det ingen forskjell på funksjoner og prosedyrer, så det er vanlig å bare kalle begge deler for funksjoner.
 
 # Steg 5: Skilpaddestreker {.activity}
 
@@ -139,7 +139,7 @@ I python finnes det funksjoner, mens i andre programmeringsspråk finnes det ogs
 
 # Steg 6: Tegne figurer {.activity}
 
-Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut kommandoen `forward` med koden vi har for stiplete linjer. Vi bruker koden for å tegne figurer ytterst, og inni der bruker vi koden for å lage stiplete linjer istedenfor hele streker.
+Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut funksjonen `forward` med koden vi har for stiplete linjer. Vi bruker koden for å tegne figurer ytterst, og inni der bruker vi koden for å lage stiplete linjer istedenfor hele streker.
 
 ## Sjekkliste {.check}
 
@@ -177,7 +177,7 @@ Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut
 
 ## Sjekkliste {.check}
 
-+ La oss bruke prosedyrer igjen for å rydde opp i koden. Endre koden fra steg 6 og la oss dele koden i biter.
++ La oss bruke funksjoner igjen for å rydde opp i koden. Endre koden fra steg 6 og la oss dele koden i biter.
 
     ```python
     from turtle import *
@@ -209,7 +209,7 @@ Vi kan koble figur-programmet og stiplet-linje-programmet sammen ved å bytte ut
 
 ### Tips {.protip}
 
-Trikset er at istedenfor å bygge programmer ved å klippe og lime, kan vi definere nye kommandoer og gjenbruke dem. Da blir koden kortere og litt lettere å forstå.
+Trikset er at istedenfor å bygge programmer ved å klippe og lime, kan vi lage nye funksjoner og gjenbruke dem. Da blir koden kortere og litt lettere å forstå.
 
 # Steg 8: Litt tilfeldigheter {.activity}
 
@@ -240,7 +240,7 @@ Hva om vi gjør litt tilfeldige sprell rett før vi er ferdige?  Vi kan be datam
 
 + Lagre og kjør koden
 
-    Programmet skal tegne ti figurer i forskjellige farger med forskjellig størrelse. Linjen  `from random import randrange, random` gir oss to nye prosedyrer, `randrange()` og `choice()`.
+    Programmet skal tegne ti figurer i forskjellige farger med forskjellig størrelse. Linjen  `from random import randrange, random` henter inn funksjonene `randrange()` og `choice()`.
 
     `randrange()` plukker ut et tall mellom det laveste og det høyeste tallet vi gir inn, så `randrange(1, 10)` velger et tall mellom 1 og 9 (Python begynner med 1, og stopper rett før 10).
 
