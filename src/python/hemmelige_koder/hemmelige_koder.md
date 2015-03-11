@@ -170,10 +170,10 @@ Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til boksta
 
 # Steg 4: Bygge funksjoner {.activity}
 
-La oss ta den første programkoden (som laget Cæsar-kode av bokstaver) og gjøre den om til en
-funksjon `encode` og den andre programkoden til en funksjon `decode`. I modul to snakket vi litt om funksjoner og prosedyrer. De som er opptatt av forskjellen mellom disse vil si at det vi skal lage nå er funksjoner, mens det vi lagde i modul to var prosedyrer. Dersom en funksjon både returnerer noe og gjør noe kan det være vanskeligere for andre å forstå koden, så det er en fordel å bare gjøre en av disse tingene hvis det ikke er veldig hensiktsmessig å gjøre begge deler.
+La oss ta koden som lager og leser Cæsar-koder og gjøre den om til to
+*funksjoner*. Gi den ene funksjonen navnet `encode` og den andre funksjonen navnet `decode`. **Tips:** Dersom du aldri har hørt om funksjoner, kan du lese mer om de i [Skilpaddeskolen](../skilpaddeskolen/skilpaddeskolen.html).
 
-For å få en funksjon til å returnere en verdi som vi kan bruke senere, bruker vi kommandoen `return`.
+For å få en funksjon til å sende tilbake en verdi bruker vi `return`. Dette gjør at vi kan lagre funksjonens resultat til en variabel og deretter bruke variabelen.
 
 ## Sjekkliste {.check}
 
