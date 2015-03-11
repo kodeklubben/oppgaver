@@ -17,39 +17,39 @@ Et prosjekt er enkelt sagt en mappe med innhold/oppsett tilpasset typen app en s
 
 + Lag et nytt Java-prosjekt ved å velge `File > New > Java Project` (altså `New > Java Project` fra `File`-menyen). Du vil da få opp et skjema hvor du bl.a. kan fylle inn navnet på prosjektet. Skriv `kodeklubben` eller et annet passende navn. Merk at du bør holde deg til de engelske bokstavene a-z og A-Z, ellers får du lett problemer siden. De andre innstillingene lar du være.
 
-	![](../images/new-java-project.png "Skjema for New Java Project")
+	![](new-java-project.png "Skjema for New Java Project")
 
 	I `Package Explorer`-panelet vil du se at det dukker opp en mappe med navnet du valgte. Inne mappa vil du ha en `src`-mappe og en mappe som heter `JRE System Library [JavaSE-1.8]`. `src`-mappe er der du legger koden din, mens `JRE System Library [JavaSE-1.8]` viser at prosjektet er satt for å bruke Java 8, som vi trenger for å bruke JavaFX. Skjermutklippet under viser omtrent hvordan det vil bli seende ut. 
 
-	![](../images/etter-new-java-project.png "Etter New Java Project")
+	![](etter-new-java-project.png "Etter New Java Project")
 	
 + Lag en ny Java-_mappe_ for app-en i denne leksjonen. Java kaller slike mapper for _pakker_, men du kan tenke på dem som mapper. Pass først på at du har valgt (klikket på) riktig Java-prosjekt i `Package Exporer`-panelet. Velg så  `File > New > Package` eller ikonet som ser ut som en pakke med et pluss-tegn i hjørnet. Alternativt kan du høyre-klikke på src-mappa og velge `New > Package`.
 
 	Du vil da få opp et skjema hvor du kan skrive inn hvilken kode-mappe (`Source Folder`) som pakken skal puttes i og pakke-navnet. Kode-mappen skal være `kodeklubben/src` (eller prosjektnavnet du skrev inn tidligere etterfulgt av `/src`. Pakkenavn inneholder som regel bare små bokstaver, altså bokstaven a-z. Derfor kan du kalle mappa `helloworld`.
 
-	![](../images/new-java-package.png "New Java Package")
+	![](new-java-package.png "New Java Package")
 
 	Skjermutklippet under viser omtrent hvordan det vil bli seende ut.
 
-	![](../images/etter-new-java-package.png "Etter New Java Package")
+	![](etter-new-java-package.png "Etter New Java Package")
 
 + Lag en ny Java-klasse (Java-filer kalles _klasser_) ved å høyre-klikke på `helloworld`-pakka du nettopp lagde og velge `New > Class`.
 
-	![](../images/new-java-class-menuitem.png "Meny for New Java Class")
+	![](new-java-class-menuitem.png "Meny for New Java Class")
 
 	Du vil da få opp et skjema hvor kode-mappa og pakken allerede er fylt inn, mens navnet (`Name`) må fylles inn. Klassenavn starter alltid med stor forbokstav, og hvert delord som navnet består av, begynner også med stor forbokstav. Så når vi nå skal lage en app vi kaller Hello World-app, så blir navnet klassenavnet `HelloWorldApp`.
 
-	![](../images/new-java-class.png "New Java Class")
+	![](new-java-class.png "New Java Class")
 	
 	Skjermutklippet under viser omtrent hvordan det vil bli seende ut.
 
-	![](../images/etter-new-java-class.png "Etter New Java Class")
+	![](etter-new-java-class.png "Etter New Java Class")
 
 # Steg 2: Skrive og kjøre HelloWorldApp-klassen {.activity}
 
 En Hello World-app er ment å være den enkleste app-en en kan tenke seg som viser Hello World på skjermen. F.eks. slik som dette:
 
-![](../images/hello-world-app.png "Hello World-appen")
+![](hello-world-app.png "Hello World-appen")
 
 En slik app må inneholde følgende elementer:
 
@@ -126,7 +126,7 @@ public class HelloWorldApp extends Application {
 
 + Kjør koden ved å høyreklikke på fila eller i editoren og velge `Run as > Java Application`. Du skal da få opp følgende vindu:
 
-	![](../images/hello-world-app.png "Hello World-appen")
+	![](hello-world-app.png "Hello World-appen")
 
 + Lek litt med koden over. Prøv f.eks. å endre verdiene som styrer teksten (`new Text(...)`), plassering (`setLayoutX(...)` og `setLayoutY(...)`), skriftstypen (`Font.font(...)`), og vindusstørrelsen (`setPrefWidth(...)` og `setPrefHeight(...)`):
 
@@ -148,13 +148,13 @@ Eclipse inneholder mange nyttige funksjoner for å gjøre koding mer effektivt. 
 
 + Eclipse holder rede på hvilke navn (på variabler, klasser og pakker) som gjelder hvor og kan foreslå alternativer basert på hva du har skrevet inn. Lag en ny linje under der skriftstypen settes med `setFont(...)`. Skriv inn begynnelsen på variablen for Text-objektet f.eks. `hello`. Så holder du nede ctrl-tasten og trykker mellomrom. Eclipse vil da vise en liste over alle navn som begynner med **hello**:
 
-	![](../images/code-completion1.png "Komplettering av navn")
+	![](code-completion1.png "Komplettering av navn")
 
 Her ser du at Eclipse foreslår et variabelnavn (**helloWorldText**), et pakkenavn (**helloworld**) og et klassenavn (**HelloWorldApp**). Hvis du velger **helloWorldText**, så legges denne teksten inn. Denne funksjonen kalles _kode-komplettering_ (eng: _code completion_) og gjør det bl.a. greit å bruke lange navn på variabler, klasser og pakker.
 
 + Eclipse vet hvilke verdier du kan sette for ulike typer grafiske objekter og kan hjelpe deg å skrive (og lære) dem. Skriv et punktum (`.`) etter **helloWorldText**-navnet. Eclipse vil automatisk aktivere kode-kompletteringsfunksjonen og vise en liste over alle metodene til **Text**-objektet. Hvis du skriver inn `setF` så vil Eclipse begrense lista til metodene som begynner med nettopp **setF**:
 
-	![](../images/code-completion.png "Kode-komplettering")
+	![](code-completion2.png "Komplettering av metodenavn")
 
 Der finner du bl.a. **setFill** og **setFont**. **fill** og **font** kalles _egenskaper_ (eng: _properties_) og i Java setter du slike egenskaper med metoder som har **set** foran egenskapsnavnet.
 

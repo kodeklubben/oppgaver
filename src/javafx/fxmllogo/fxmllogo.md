@@ -9,7 +9,7 @@ En viktig del av det å lage app-er er å utforme skjerminnholdet, dvs. alt app-
 
 | Kodeklubben | NTNU |
 |:--------:|:---------:|
-| ![](../../../assets/img/ccno_logo.png) | ![](https://innsida.ntnu.no/documents/10157/3573032/logo2_ntnu_u-slagord.gif) |
+| ![](../../assets/img/ccno_logo.png) | ![](https://innsida.ntnu.no/documents/10157/3573032/logo2_ntnu_u-slagord.gif) |
 
 I leksjonen [Hello world](../helloworld/helloworld.html) lærte du om hvordan du kan lage en app som viste et vindu med et tekst-objekt (av type **Text**). Da skrev du Java-kode som _laget_ tekst-objektet, _satte grafiske egenskaper_ for tekst-objektet og _la det til_ app-vinduet. Slik kode kan fort bli lang og uoversiktlig, og det kan være vanskelig å skrive kode som har ønsket effekt og se for seg hvordan skjerminnholdet vil bli seende ut.
 
@@ -21,15 +21,15 @@ For å gjøre arbeidet med skjerminnhold enklere, så finnes det en egen kode-ty
 
 + Høyreklikk på **fxmllogo**-pakken og velg `New > Other...` så du får opp en liste med såkalte _veivisere_ (eng: _wizards_). Vi skal bruke den som heter **New FXML Document**. Det enkleste er å skrive inn 'fx' i søkefeltet, for å snevre inn utvalget:
 
-	![](../images/new-fxml-document.png "New FXML document")
+	![](new-fxml-document.png "New FXML document")
 	
 	Trykk `Next` for å velge veiviseren. Du vil da få opp følgende skjema:
 
-	![](../images/new-fxml-file-wizard.png "New FXML file")
+	![](new-fxml-file-wizard.png "New FXML file")
 
 	Fyll inn `FxmlLogoApp` og trykk `Finish`. Du vil da få opp en FXML-editor med den nye FXML-fila:
 
-	![](../images/initial-FxmlLogoApp.fxml.png "Initial FxmlLogoApp.fxml")
+	![](initial-FxmlLogoApp.fxml.png "Initial FxmlLogoApp.fxml")
 
 + Denne FXML-en gir bare et tomt panel (av typen **AnchorPane**), så for å få noe å jobbe med, så trenger vi  Rediger teksten slik at den blir som følger:
 
@@ -60,7 +60,7 @@ For å gjøre arbeidet med skjerminnhold enklere, så finnes det en egen kode-ty
 
 + Mens du redigerer FXML-koden, så kan det være kjekt å se hvordan innholdet vil bli seende ut, når det lastes inn og vises frem. Eclipse har et eget panel kalt **JavaFX preview** som hele tiden laster inn FXML-koden du redigerer og viser frem innholdet. Dette åpnes ved å velge `Window > Show View...` og så finne panelet i lista. Bruk søkefeltet for å filtrere lista (skriv 'pre', så panelet blir enklere å finne.
 
-	![](../images/fxml-editor-with-preview-pane.png "FXML-editor med preview-panel")
+	![](fxml-editor-with-preview-pane.png "FXML-editor med preview-panel")
 	
 	Som du ser så inneholder FXML-fila allerede mange av de grafiske elementene som trengs for å lage begge logoene, men ikke alle. Din jobb blir å justere på FXML-koden, så logoene blir omtrent som vist øverst i denne leksjonen.
 
@@ -101,11 +101,11 @@ Det går greit å bruke FXML-editoren for enkel redigering (eller mer komplisert
 
 + Høyreklikk på FXML-fila og velg `Open with SceneBuilder`
 
-	![](../images/open-with-scenebuilder.png "Åpne med SceneBuilder")
+	![](open-with-scenebuilder.png "Åpne med SceneBuilder")
 
 	Hvis du har installer SceneBuilder riktig, så skal du etter litt venting få opp følgende
 
-	![](../images/scene-builder-FxmlLogoApp-1.png "FxmlLogoApp.fxml åpnet med SceneBuilder")
+	![](scene-builder-FxmlLogoApp-1.png "FxmlLogoApp.fxml åpnet med SceneBuilder")
 
 	Som du ser så inneholder panelet i midten de samme grafiske elementene som JavaFX Preview-panelet. Her kan du imidlertid _redigere_ på dem, ved å velge, dra og slippe, som i vanlige tegneprogrammer.
 	
@@ -113,11 +113,11 @@ Det går greit å bruke FXML-editoren for enkel redigering (eller mer komplisert
 	
 	Øverst til venstre ser du en kategorisert liste med elementer som kan dras og slippes inn i redigeringspanelet i midten. I figuren vises bare såkalte **Containers**, som inneholder andre elementer, men (hvis du scroller) lenger ned finner du bl.a. **Controls** (interaktive elementer) og **Shapes** (grafiske elementer). Prøv å finne **Line**-typen og dra og slipp den litt til høyre for det svarte rektangelet. Hvis du vil endre på hvordan streken ser ut, så kan du redigere ulike _egenskaper_ i panelet til høyre. Prøv f.eks. å gjøre streken tykkere (**Stroke Width** = 10), endre fargen til grønn (**Stroke** = #569900) og enden til avrundet (**Stroke Line Cap** = **ROUND**). Da skal det se omtrent slik ut:
 
-	![](../images/scene-builder-FxmlLogoApp-2.png "FxmlLogoApp.fxml åpnet med SceneBuilder")
+	![](scene-builder-FxmlLogoApp-2.png "FxmlLogoApp.fxml åpnet med SceneBuilder")
 	
 	Dette er omtrent de grafiske elementen du trenger for å lage Kodeklubben- og NTNU-logoene. Prøv å bruke redigeringsmulighetene til å få tegningen til å bli seende omtrent slik ut:
 	
-	![](../images/scene-builder-FxmlLogoApp-3.png "Logoer redigert med SceneBuilder")
+	![](scene-builder-FxmlLogoApp-3.png "Logoer redigert med SceneBuilder")
 
 	Her er noen tips om nyttige redigeringsfunksjoner som du kan bruke for å få laget og redigert grafikken:
 
@@ -128,13 +128,13 @@ Det går greit å bruke FXML-editoren for enkel redigering (eller mer komplisert
 	
 	| Valg av farge | Valg av font |
 	|:-------------:|:------------:|
-	|![](../images/color-picker.png)|![](../images/font-picker.png)|
+	|![](color-picker.png)|![](font-picker.png)|
 	
 	Spesielt fin-innstillingen av plassering og dimensjoner kan være vanskelig. Nede til høyre i SceneBuilder-vinduet finner du egenskaper med kategorien **Layout**, bl.a. koordinater og størrelse. Akkurat hvilke egenskaper du kan endre avhenger av hvilket grafisk element som er valgt. I figuren under ser du hva som kan endre på et rektangel.
 	
 	| Layout-egenskaper |  |
 	|:-------------:|------------|
-	|![](../images/layout-properties.png)| Det er egentlig disse egenskapene du endrer, når du velger, drar og slipper de grafiske elementene og de små hjørne-boksene. Ved å redigere tallene, så kan du styre dem helt presist.|
+	|![](layout-properties.png)| Det er egentlig disse egenskapene du endrer, når du velger, drar og slipper de grafiske elementene og de små hjørne-boksene. Ved å redigere tallene, så kan du styre dem helt presist.|
 
 # Steg 3: Få appen til å vise frem innholdet i FXML-fila  {.activity}
 
@@ -173,7 +173,7 @@ Det siste trinnet i denne leksjonen er å få app-en til å vise frem det grafis
 	Trikset her er å lage et **FXMLLoader**-objekt (første linje i start-metoden, og be denne laste inn FXML-fila med load-metoden (andre linje).
 + Kjør app-en ved å høyre-klikke på fila eller i editoren og velge `Run as > Java Application`. Da skal det (etter litt venting) dukke opp et vindu som dette:
 
-	![](../images/run-FxmlLogoApp-as-java-application.png)
+	![](run-FxmlLogoApp-as-java-application.png)
 
 # Hva har du lært?
 
