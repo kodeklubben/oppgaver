@@ -2,6 +2,7 @@
 title: Forskyving
 level: 1
 author: Carl A. Myrland
+indexed: false
 ---
 
 ## Læringsmål {.tips}
@@ -21,7 +22,7 @@ Ikke slett koden, vi skal bruke den igjen senere!
 
 # Steg 1: Vi forskyver Hattulf {.activity}
 
-Vi må huske at for en datamaskin foregår all bevegelse på skjermen i et koordinatsystem. Koordinatene for bevegelse i lengderetning, altså fra høyre til venstre, kaller vi x-koordinater. 
+Vi må huske at for en datamaskin foregår all bevegelse på skjermen i et koordinatsystem. Koordinatene for bevegelse i lengderetning, altså fra høyre til venstre, kaller vi x-koordinater.
 Vil du bevege deg i høyden må vi endre på y-koordinatene.
 
 Vi begynner med å endre på X-koordinatene
@@ -29,7 +30,7 @@ Vi begynner med å endre på X-koordinatene
 ## Sjekkliste {.check}
 
 + Vi henter en `endre x med`-{.blockmotion} fra `Bevegelse`{.blockmotion} og kobler den til `Når grønt flagg klikkes`{.blockcontrol}
-+ Du kan endre verdien med så mye som du selv ønsker. 
++ Du kan endre verdien med så mye som du selv ønsker.
 
 	```blocks
 	når grønt flagg klikkes
@@ -41,7 +42,7 @@ Vi begynner med å endre på X-koordinatene
 		når [o] trykkes
 		gå til x: (0) y: (0)
 	```
-	
+
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__

@@ -10,26 +10,21 @@ author: Carl A. Myrland
 + beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
 
 # Introduksjon {.intro}
-
-
 I denne oppgaven skal vi importere en geometrisk figur og deretter `rotere`{.blockmotion} den.
 OBS! Har du allerede løst oppgaven med rotasjon rundt egen akse kan du hoppe over Steg 1 og heller bare laste inn den forrige oppgaven din fra "Mine ting"-mappen.
 
-
-![](Geometri.png)
-
-
+![](../rotasjon/Geometri.png)
 
 # Steg 1: Forberedelser {.activity}
 
-*For å gjøre det enkelt å komme i gang, henter vi inn en ferdig figur fra biblioteket til Scratch. 
+*For å gjøre det enkelt å komme i gang, henter vi inn en ferdig figur fra biblioteket til Scratch.
 Denne figuren er tilnærmet lik en likebeint trekant*
 
 ## Sjekkliste {.check}
 
 + Start et nytt prosjekt.
 + Slett kattefiguren ved å høyreklikke på den og velge `slett`.
-+ Legg til en ny figur. Klikk på ![Velg figur fra biblioteket](hent-fra-bibliotek.png)-knappen og velg trollmannshatten. Vi har brukt `Ting/Wizard Hat`-figuren.
++ Legg til en ny figur. Klikk på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen og velg trollmannshatten. Vi har brukt `Ting/Wizard Hat`-figuren.
 + Gi den nye figuren navnet `Hattulf` ved å klikke på `i`.
 + Før vi begynner med selve oppgaven, skal vi legge inn en liten hjelpefunksjon om noe uventet skulle skje:
 
@@ -50,7 +45,7 @@ Denne figuren er tilnærmet lik en likebeint trekant*
 
 + Importer bakgrunnen 'xy-grid'
 + Velg Hattulf. I scriptet
-	
+
 	```blocks
 	når [n v] trykkes
 	vis
@@ -83,7 +78,7 @@ Nå skal vi altså rotere Hattulf rundt origo på en ganske enkel måte.
 
 + Trykk tasten "pil høyre" på tastaturet. Hva skjer? Fortsett til Hattulf er tilbake ved startpunktet sitt.
 + Hvis du studerer koden vi nettopp laget til Hattulf, ser du at vi ber Hattulf gå 200 steg. Hvorfor må vi gå så langt?
-+ Prøv å endre på antall steg Hattulf tar. Ender Hattulf opp på samme sted som han startet etter at du har trykket "pil høyre" fire ganger? 
++ Prøv å endre på antall steg Hattulf tar. Ender Hattulf opp på samme sted som han startet etter at du har trykket "pil høyre" fire ganger?
 
 # Steg 4: En ny venn!
 
@@ -98,7 +93,7 @@ Nå skal vi altså rotere Hattulf rundt origo på en ganske enkel måte.
 	```
 ## Test prosjektet {.flag}
 
-+ Trykk pil høyre. Hva skjer? 
++ Trykk pil høyre. Hva skjer?
 + Trykk pil høyre slik at Hattulf kommer tilbake til utgangspunktet. Hvor langt har Venn kommet nå?
 + Hvor mange ganger på du trykke for at Venn kommer tilbake til utgangspunktet?
 + Klarer du å justere utgangspunktet til Venn, slik at figuren har like lang avstand til origo for hver gang du trykker pil høyre?
