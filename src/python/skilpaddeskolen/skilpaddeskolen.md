@@ -24,8 +24,8 @@ og la oss begynne.
     for n in range(4):
         forward(100)
         right(90)
-
     ```
+
 + Lagre det som en ny fil, og kjør programmet fra menyen ved å trykke `Run > Run Module`.
 
     Husk at `for n in range(4)` gjentar koden, og at koden må grupperes med mellomrom (innrykk) for å være en del av for-løkken. Bruk 'Tab' (knappen over Caps-Lock) for å flytte kode.
@@ -220,7 +220,6 @@ Hva om vi gjør litt tilfeldige sprell rett før vi er ferdige?  Vi kan be datam
 + I en ny fil, skriv inn følgende:
 
     ```python
-
     from turtle import *
     from random import randrange, choice
     colors = ['red', 'blue', 'green']
@@ -237,7 +236,6 @@ Hva om vi gjør litt tilfeldige sprell rett før vi er ferdige?  Vi kan be datam
         pencolor(choice(colors))
         right(randrange(0,360))
         poly(randrange(3,9), randrange(10,30))
-
     ```
 
 + Lagre og kjør koden
