@@ -154,7 +154,7 @@ Her ser du at Eclipse foreslår et variabelnavn (**helloWorldText**), et pakkena
 
 + Eclipse vet hvilke verdier du kan sette for ulike typer grafiske objekter og kan hjelpe deg å skrive (og lære) dem. Skriv et punktum (`.`) etter **helloWorldText**-navnet. Eclipse vil automatisk aktivere kode-kompletteringsfunksjonen og vise en liste over alle metodene til **Text**-objektet. Hvis du skriver inn `setF` så vil Eclipse begrense lista til metodene som begynner med nettopp **setF**:
 
-	![](../images/code-completion.png "Kode-komplettering")
+	![](../images/code-completion2.png "Kode-komplettering")
 
 Der finner du bl.a. **setFill** og **setFont**. **fill** og **font** kalles _egenskaper_ (eng: _properties_) og i Java setter du slike egenskaper med metoder som har **set** foran egenskapsnavnet.
 

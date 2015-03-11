@@ -1,11 +1,12 @@
 #!/bin/sh
 #Set CWD to the location of this file
 cd ${0%/*}
+./gulp dist && \
 ./gulp links && \
-cd kwrl.github.io && \
+cd kodeklubben.github.io && \
 if [ -e README.md ]
 then
-    find * ! -name README.md -delete 
+    find * ! -name README.md -delete
 else
     rm -r *
 fi
