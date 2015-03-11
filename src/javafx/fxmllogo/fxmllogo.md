@@ -184,4 +184,4 @@ Det siste trinnet i denne leksjonen er å få app-en til å vise frem det grafis
 + redigere grafiske egenskaper i SceneBuilder
 + skrive app-kode som laster inn og viser frem FXML-fila i et app-vindu
 
-I leksjonen [KalkulatorFX](../kalkulatorfx/kalkulatorfx.html) vil du lære hvordan du kan koble FXML-koden til Java-koden og gjøre app-en levende (interaktiv)!
+I leksjonen KalkulatorFX (to be continued) vil du lære hvordan du kan koble FXML-koden til Java-koden og gjøre app-en levende (interaktiv)!
