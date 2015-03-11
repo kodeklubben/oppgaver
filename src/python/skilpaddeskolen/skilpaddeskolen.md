@@ -58,7 +58,7 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
 
 ## Sjekkliste {.check}
 
-+ Vi endrer koden og legger til `def poly():`. `def` betyr definer, altså å lage. Pass på at koden har riktig innrykk og bruk den nye funksjonen. For å få innrykk på flere linjer kan man merke linjene og deretter trykke *tab* (knappen rett over *caps lock*). Derdom du vil ha mindre innrykk, bruk *shift + tab*.
++ Vi endrer koden og legger til `def poly():`. `def` betyr definer, altså å lage. Pass på at koden har riktig innrykk og bruk den nye funksjonen. For å få innrykk på flere linjer kan man merke linjene og deretter trykke *tab* (knappen rett over *caps lock*). Dersom du vil ha mindre innrykk, bruk *shift + tab*.
 
     ```python
     from turtle import *
