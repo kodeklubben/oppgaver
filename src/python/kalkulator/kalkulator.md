@@ -24,6 +24,7 @@ Her er noen ting å tenke på:
 
 * Hvordan avgjør du hvilken operasjon som skal utføres?
 * Har rekkefølgen på tallene noen betydning? (Er `4-2` lik `2-4`?)
+* Hvis du sitter fast kan det være lurt å lese tipsene i de gule boksene.
 
 ## int() {.protip}
 
@@ -41,6 +42,32 @@ tall = int(input("Skriv et tall: "))
 svar = 3 + tall
 print(svar)
 ```
+
+## Funksjoner med parametre {.protip}
+
+En funksjon deklareres ved hjelp av `def`-nøkkelordet. Den kan brukes ved å skrive funksjonsnavnet med parenteser bak.  **Eksempel:**
+
+```python3
+def hello_word():
+    print("Hello World!")
+
+hello_world()
+```
+
+En funksjon som har *parametre* deklareres med parametre på innsiden av parentesene i funksjonsdefinisjonen. **Eksempel:**
+
+```python3
+def greet(firstName, lastName):
+    print("Hello, " + firstName + " " + lastName)
+```
+
+Når vi senere kaller funksjonen, så gir vi den *argumenter*. **Eksempel:**
+
+```python3
+greet("Ola", "Nordmann")
+```
+
+Du la kanskje merke til at vi skiller mellom *parametre* og *argumenter*. Et parameter er det navnet vi gir til variabelen i funksjonendefinisjonen, slik som `firstName` og `lastName`. Argumenter er de verdiene vi gir til funksjonen når vi kaller den, slik som `"Ola"` og `"Nordmann"`.
 
 # Test programmet {.activity}
 
