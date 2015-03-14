@@ -63,7 +63,7 @@ print(svar)
 
 Hva slags kontrollstrukturer trenger du?
 
-En kontrollstrukturer er for eksempel `for`-løkker, `while`-løkker og `if-elif-else`-uttrykk.
+Eksempel på kontrollstrukturer er `for`-løkker, `while`-løkker og `if-elif-else`-uttrykk.
 
 - `for`-løkker bruker vi når vi vil gjøre noe mange ganger. **Eksempel:**
 
