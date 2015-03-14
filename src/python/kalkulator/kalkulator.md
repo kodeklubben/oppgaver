@@ -25,6 +25,23 @@ Her er noen ting å tenke på:
 * Hvordan avgjør du hvilken operasjon som skal utføres?
 * Har rekkefølgen på tallene noen betydning? (Er `4-2` lik `2-4`?)
 
+## int() {.protip}
+
+Når man får input fra brukeren får man en *tekststreng*, selv om brukeren skrev et tall, da kan det være greit å kunne konvertere teksten til et tall, ved hjelp av `int()`.
+
+Hva er forskjellen på disse kodesnuttene? (Kjør koden og test selv!)
+```python
+tall = input("Skriv et tall: ")
+svar = 3 + tall
+print(svar)
+```
+
+```python3
+tall = int(input("Skriv et tall: "))
+svar = 3 + tall
+print(svar)
+```
+
 # Test programmet {.activity}
 
 Fungerer programmet som det skal? Hvis ikke må du rette på det.
