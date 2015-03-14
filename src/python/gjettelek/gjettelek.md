@@ -65,8 +65,9 @@ Hva slags kontrollstrukturer trenger du?
 
 Eksempel på kontrollstrukturer er `for`-løkker, `while`-løkker og `if-elif-else`-uttrykk.
 
-- `for`-løkker bruker vi når vi vil gjøre noe mange ganger. **Eksempel:**
+- `for`-løkker bruker vi når vi vil gjøre noe mange ganger.
 
+    **Eksempel:**
     ```python
     # skriv ut ti tall
     for i in range(10):
@@ -74,8 +75,9 @@ Eksempel på kontrollstrukturer er `for`-løkker, `while`-løkker og `if-elif-el
     ```
 
 - `while`-løkker brukes når vi vil gjøre noe mange ganger inntil en variabel
-  endrer seg. **Eksempel:**
+  endrer seg.
 
+    **Eksempel:**
     ```python
      a = 0
      # så lenge variablen `a` ikke er lik `10`
@@ -87,8 +89,8 @@ Eksempel på kontrollstrukturer er `for`-løkker, `while`-løkker og `if-elif-el
     Prøv å se hva som skjer dersom du ikke tar med linjen `a = a + 1`.
 
 - `if-elif-else`-uttrykk kan bestemme om vi skal kjøre en spesiell kode.
-  **Eksempel:**
 
+    **Eksempel:**
     ```python
     a = 1
     if a == 2:

@@ -45,8 +45,9 @@ print(svar)
 
 ## Funksjoner med parametre {.protip}
 
-En funksjon deklareres ved hjelp av `def`-nøkkelordet. Den kan brukes ved å skrive funksjonsnavnet med parenteser bak.  **Eksempel:**
+En funksjon deklareres ved hjelp av `def`-nøkkelordet. Den kan brukes ved å skrive funksjonsnavnet med parenteser bak.
 
+**Eksempel:**
 ```python3
 def hello_word():
     print("Hello World!")
@@ -54,15 +55,17 @@ def hello_word():
 hello_world()
 ```
 
-En funksjon som har *parametre* deklareres med parametre på innsiden av parentesene i funksjonsdefinisjonen. **Eksempel:**
+En funksjon som har *parametre* deklareres med parametre på innsiden av parentesene i funksjonsdefinisjonen.
 
+**Eksempel:**
 ```python3
 def greet(firstName, lastName):
     print("Hello, " + firstName + " " + lastName)
 ```
 
-Når vi senere kaller funksjonen, så gir vi den *argumenter*. **Eksempel:**
+Når vi senere kaller funksjonen, så gir vi den *argumenter*.
 
+**Eksempel:**
 ```python3
 greet("Ola", "Nordmann")
 ```
