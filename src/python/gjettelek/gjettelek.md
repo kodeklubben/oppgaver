@@ -27,7 +27,7 @@ Slik ser det ut når programmet kjører:
 
 Nå er det bare å sette i gang! Pass på at du forstår hvordan spillet fungerer før du begynner å programmere! Her er noen hint for å hjelpe deg på vei:
 
-## randint() {.protip} 
+## randint() {.protip}
 
 For å generere tilfelige tall kan det være lurt å bruke funksjonen `randint()`.
 For å bruke `randint()`, må vi importere funksjonen:
@@ -64,6 +64,43 @@ print(svar)
 Hva slags kontrollstrukturer trenger du?
 
 En kontrollstrukturer er for eksempel `for`-løkker, `while`-løkker og `if-elif-else`-uttrykk.
+
+- `for`-løkker bruker vi når vi vil gjøre noe mange ganger. **Eksempel:**
+
+    ```python
+    # skriv ut ti tall
+    for i in range(10):
+        print('variabelen i er: ' + str(i))
+    ```
+
+- `while`-løkker brukes når vi vil gjøre noe mange ganger inntil en variabel
+  endrer seg. **Eksempel:**
+
+    ```python
+     a = 0
+     # så lenge variablen `a` ikke er lik `10`
+     while a != 10:
+         print(a)
+         a = a + 1
+    ```
+
+    Prøv å se hva som skjer dersom du ikke tar med linjen `a = a + 1`.
+
+- `if-elif-else`-uttrykk kan bestemme om vi skal kjøre en spesiell kode.
+  **Eksempel:**
+
+    ```python
+    a = 1
+    if a == 2:
+      print('a er 2')
+    elif a == 3:
+      print('a er 3')
+    else:
+      print('a er ikke 2 og ikke 3')
+    ```
+
+    Prøv å endre verdien `a` på toppen til `2` eller `3` og se hva som skjer.
+
 
 # Test programmet ditt {.activity}
 
