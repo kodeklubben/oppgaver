@@ -8,7 +8,7 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 
 I denne oppgaven skal du lage en kalkulator helt på egenhånd. Det er meningen at du  i denne oppgaven skal skrive all koden selv, ved hjelp av noen hint.
 
-Vi ønsker at kalkulatoren skal kunne addere (`+`), subtrahere (`-`), multiplisere (`*`) og dividere (`/`). Vi kaller `+`, `-`, `*` og `/` for *operatorer*, og i denne oppgaven skal du lage en funksjon for hver operator (disse kan du for eksempel kalle `add`, `subtract`, `multiply` og `divide`). Hver funksjon skal ha 2 tall som parametre og skal utføre regneoperasjonen før den så skriver ut svaret.
+Vi ønsker at kalkulatoren skal kunne addere (`+`), subtrahere (`-`), multiplisere (`*`) og dividere (`/`). Vi kaller `+`, `-`, `*` og `/` for *operatorer*, og i denne oppgaven skal du lage <u>en funksjon for hver operator</u> (disse kan du for eksempel kalle `add`, `subtract`, `multiply` og `divide`). Hver funksjon skal ha to tall som parametre og skal utføre regneoperasjonen, samt skrive ut svaret.
 
 Brukeren skal selv skrive inn hva slags regneoperasjon som skal utføres.
 
