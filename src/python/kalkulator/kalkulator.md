@@ -8,7 +8,7 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 
 I denne oppgaven skal du lage en kalkulator helt på egenhånd. Det er meningen at du  i denne oppgaven skal skrive all koden selv, ved hjelp av noen hint.
 
-Vi ønsker at kalkulatoren skal kunne addere (`+`), subtrahere (`-`), multiplisere (`*`) og dividere (`/`). Vi kaller `+`, `-`, `*` og `/` for *operatorer*, og i denne oppgaven skal du lage en funksjon for hver operator (disse kan du for eksempel kalle `add`, `subtract`, `multiply` og `divide`. Hver funksjon skal ha 2 tall som parametre og skal utføre regneoperasjonen før den så skriver ut svaret.
+Vi ønsker at kalkulatoren skal kunne addere (`+`), subtrahere (`-`), multiplisere (`*`) og dividere (`/`). Vi kaller `+`, `-`, `*` og `/` for *operatorer*, og i denne oppgaven skal du lage en funksjon for hver operator (disse kan du for eksempel kalle `add`, `subtract`, `multiply` og `divide`). Hver funksjon skal ha 2 tall som parametre og skal utføre regneoperasjonen før den så skriver ut svaret.
 
 Brukeren skal selv skrive inn hva slags regneoperasjon som skal utføres.
 
@@ -42,3 +42,9 @@ Hvis programmet ditt feiler nå, så har du trolig fått en delt-på-null-feil. 
 Endre programmet ditt slik at brukeren kan skrive inn hvor mange utregninger kalkulatoren skal utføre. Programmet vil da fungere slik:
 
 ![](python_calculator_multiple_calculations.png)
+
+## Flere operasjoner {.challenge}
+
+Prøv å legge til flere operatorer. Du kan for eksempel legge til `**`-operatoren. `**`-operatoren opphøyer et tall i et annet. F.eks. er `2**3` lik `8` fordi `2*2*2` er lik `8`.
+
+Kommer du på andre operatorer som kan legges til i kalkulatoren din?
