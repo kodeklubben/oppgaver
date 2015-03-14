@@ -14,8 +14,8 @@ Spillet er som følger:
 1. Brukeren gjetter et tall mellom 1 og 100.
 2. Programmet skriver ut:
     * `Higher!` hvis tallet var for lavt.
-    * `Lower!` hvis taller var for høyt.
-    *  Så lenge brukeren gjetter riktig tall, skal programmet skrive ut `Correct!` og avslutte.
+    * `Lower!` hvis tallet var for høyt.
+    *  Hvis brukeren gjetter riktig tall skal programmet skrive ut `Correct!` og avslutte.
 3. Så lenge brukeren ikke har gjettet tallet, så må programmet spørre om et nytt tall (brukeren har uendelig mange forsøk).
 
 
@@ -71,9 +71,8 @@ Fungerer det slik som i beskrivelsen i begynnelsen av oppgaven? Hvis ikke må du
 
 ## 7 forsøk {.challenge}
 
-Når vi bare har tall mellom 1 og 100 kan vi gjette tallet på 7 forsøk. Klarer du dette selv?
+Ettersom vi bare har tall mellom 1 og 100 kan vi gjette tallet på 7 forsøk. Klarer du dette selv?
 
 ## Begrense brukerens forsøk {.challenge}
 
 Til nå har brukeren hatt uendelig mange forsøk. Klarer du å skrive om koden din slik at brukeren bare får 12 forsøk?
-
