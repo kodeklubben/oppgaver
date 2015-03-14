@@ -71,7 +71,7 @@ Fungerer det slik som i beskrivelsen i begynnelsen av oppgaven? Hvis ikke må du
 
 ## 7 forsøk {.challenge}
 
-Ettersom vi bare har tall mellom 1 og 100 kan vi gjette tallet på 7 forsøk. Klarer du dette selv?
+Ettersom vi bare har tall mellom 1 og 100 kan vi alltid gjette tallet på 7 forsøk eller bedre. Klarer du dette selv?
 
 ## Begrense brukerens forsøk {.challenge}
 

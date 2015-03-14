@@ -2,7 +2,7 @@
 
 from random import randint
 
-number = random.randint(1, 100)
+number = randint(1, 100)
 guess = 0
 while guess != number:
     guess = int(input("Please guess a number: "))
