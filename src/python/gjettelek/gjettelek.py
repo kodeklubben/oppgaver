@@ -11,4 +11,4 @@ while guess != number:
     elif (guess > number):
         print("Lower!")
 
-print("You guessed it!")
+print("Correct!")
