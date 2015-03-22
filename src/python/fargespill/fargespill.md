@@ -1,11 +1,11 @@
 ---
 title: Fargespill
-level: 2
+level: 3
 author: Steffen Granberg
+footer: Oppgaven er basert på kode fra [usingpython.com ](http://usingpython.com/pygame/). Sjekk der for flere kule ideer! 
 ---
 
 #Introduksjon
-Denne oppgaven er (med tillatelse) basert på kode fra http://usingpython.com/programs/. Ta en titt der for flere spennende kodesnutter! 
 
 Hjernen vår lar seg lett lure, og det kan av og til være vanskelig for den å tolke forskjellig inntrykk samtidig. I det spillet vi nå skal lage  vil du både få testet hjernen og skrivehastigheten. Vi skal lage et fargespill! 
 
