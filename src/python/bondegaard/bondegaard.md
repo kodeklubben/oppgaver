@@ -11,7 +11,7 @@ Ordlister kjennetegnes ved at hvert element er et par av to stykker data, kalt *
 
     ```python
 nøkkel : verdi
-```
+    ```
 
 Det som står på venstre side av kolonet kalles for nøkkelen. Nøkkelen er en verdi vi vet om som er lagret i ordlista og som har en assosiert verdi vi vil vite og som vi får tak ved å "slå opp" i ordlista.
 En nøkkel i ordlista kan være av en hvilken som helst immutabel (det vil si ikke redigerbar) datatype, som for eksempel streng, heltall, eller tuppel. På høyre side av kolonet står verdien nøkkelen assosieres med.
@@ -21,10 +21,10 @@ Ordlister er kjekke å ha. Vi bruker ordlister når vi vil kategorisere ting ell
 For å finne ut verdien en spesifikk nøkkel *key* assossieres med i ordlista *dict*, "slår vi opp på ordet" ved å skrive
 
     ```python
-dict.get(key)
-#eller
-dict[key]
-```
+    dict.get(key)
+    #eller
+    dict[key]
+    ```
 
 Hvis vi vil lage en ordliste i Python, skriver vi først navnet på variabelen som skal peke på ordlista vi oppretter.
 Så skriver vi er lik ( = ), og deretter en høyrevendt krøllparantes ( { ) for å markere starten av ordlista. Så skriver vi inn alle nøklene sammen med de assosierte verdiene.
@@ -37,8 +37,8 @@ Budeie-Barbi og Bottolf Bonde driver en bondegård på Hofstad i Roan kommune. T
 I denne oppgaven får du oppgitt en ordliste (på engelsk "dictionary") med alle dyra til bøndene. Ordlista heter for -innhegning-, og finnes i fila dictOppgave.  I denne ordlista slår man opp på dyrets navn, som er en streng, og finner dyrets dyretype, som også er en streng. Samtlige navn i ordlista er unike. Når du lager en ordliste i Python 3 vil Python til enhver tid sørge for at alle nøklene (variabler eller strenger du slår opp på i ordlista) har unike navn, for å unngå forvirring. I den importerte ordlista ser hvert enkelt element slik ut:
 
     ```python
-{ "navn" : "dyretype" }
-```
+    { "navn" : "dyretype" }
+    ```
 
 Du skal skrive en funksjon som tar inn en streng som sier hvilket dyr vi skal telle opp. Funksjonen skal ta inn enten "Ku", "Okse", "Kalv", "Søye", "Vær", eller "Lam". Skriv der vi har kommentert #SKRIV KODE HER. Ikke endre på kode som omkranses av kommentaren # IKKE ENDRE PÅ DENNE KODEN.
 
@@ -80,4 +80,4 @@ Du skal skrive en funksjon som tar inn en streng som sier hvilket dyr vi skal te
     # IKKE ENDRE PÅ DENNE KODEN
 
     main() # IKKE ENDRE PÅ DENNE KODEN
-```
+    ```
