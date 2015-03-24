@@ -20,10 +20,10 @@ I denne oppgaven får du oppgitt en ordliste som inneholder navnene til alle ele
 *navn* viser til navnet til eleven i klassen. Skriv en eller flere linjer kode kun der det står #SKRIV KODE HER .
 
     ```python
-    klassensElever = {  "Oskar" : "Gutt", "Thomas" : "Gutt", "Tora" : "Jente", "Eigil" : "Gutt", "Torild" : "Jente", "Isak" : "Gutt", "Erika" : "Jente",
-                        "Mari" : "Jente", "Bente" : "Jente", "Werner" : "Gutt", "Nils" : "Gutt", "Ada" : "Jente", "Igor" : "Gutt", "Pelle" : "Gutt", "Kaja" : "Jente",
-                                         "Ella" : "Jente", "Petra" : "Jente", "Lina" : "Jente", "Silje" : "Jente", "Cecilie" : "Jente", "Kai" : "Gutt", "Trond" : "Gutt", "Anne" : "Jente",
-                                         "Berit" : "Jente" }
+    klassensElever = { "Oskar" : "Gutt", "Thomas" : "Gutt", "Tora" : "Jente", "Eigil" : "Gutt", "Torild" : "Jente", "Isak" : "Gutt", "Erika" : "Jente",
+                       "Mari" : "Jente", "Bente" : "Jente", "Werner" : "Gutt", "Nils" : "Gutt", "Ada" : "Jente", "Igor" : "Gutt", "Pelle" : "Gutt", "Kaja" : "Jente",
+                       "Ella" : "Jente", "Petra" : "Jente", "Lina" : "Jente", "Silje" : "Jente", "Cecilie" : "Jente", "Kai" : "Gutt", "Trond" : "Gutt", "Anne" : "Jente",
+                       "Berit" : "Jente" }
 
     def main():
         antall_gutter = 0 # Denne variabelen holder rede på hvor mange gutter i skoleklassen vi har telt opp
