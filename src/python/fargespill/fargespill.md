@@ -11,7 +11,7 @@ Hjernen vår lar seg lett lure, og det kan av og til være vanskelig for den å 
 
 ![](fargespill.png)
 
-# Steg 1: Klargjøre og importerer bilioteker{.activity}
+# Steg 1: Klargjør og importerer bilioteker{.activity}
 I dette spillet skal vi lage et grafisk brukergrensesnitt (et GUI). Til dette bruker vi et bibliotek som heter `tkinter`. Vi trenger også hjelp for å generere tilfeldige tall.
 
 ## Sjekkliste {.check}
@@ -63,7 +63,7 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
 
     root.title("Fargespill")
     root.geometry("475x300")
-    # Lager en label kalt instructions  med tekst:
+                                    # Lager en label kalt instructions  med tekst:
     instructions  = tkinter.Label(root, text="Skriv inn fargen PÅ ordet, ikke selve ordet!", font=('Helvetica', 30))
 
     points_label = tkinter.Label(root, text="Trykk enter for å starte.", font=('Helvetica', 30))
@@ -99,7 +99,7 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
             time_left = time_left - 1               # Tell ned ett sekund
             time_label.config(text= "Tid igjen: " + str(time_left))
             time_label.after(1000, countdown)       # Denne kjører automatisk countdown() igjen etter 1 sekund
-        if time_left == 0:
+        else:
             time_label.pack_forget()
             label.pack_forget()
             box.pack_forget()
@@ -122,7 +122,7 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
             time_left = time_left - 1
             time_label.config(text= "Tid igjen: " + str(time_left))
             time_label.after(1000, countdown)
-        if time_left == 0:
+        else:
             time_label.pack_forget()
             label.pack_forget()
             box.pack_forget()
@@ -154,15 +154,14 @@ Nå må vi definere fargene som programmet skal bruke.
 
 + Fargene legger vi til som en liste. Legg til denne koden under `from random import randint`
     ```python
-    coloursEng = ['Red','Blue','Green','Pink','Black','Yellow','Orange','Purple','Brown']
+    colours_eng = ['Red','Blue','Green','Pink','Black','Yellow','Orange','Purple','Brown']
     ```
 + Siden vi vil at programmet vårt skal skrive ut de norske ordene, lager vi en liste til, med de norske navnene. Legg til dette rett under den andre listen.
     ```python
     colours  =   ['Rød', 'Blå', 'Grønn', 'Rosa', 'Svart', 'Gul', 'Oransje', 'Lilla', 'Brun']
     ```
-+ Vi må også lage en variabel for å holde orden på hvor mange poeng spilleren har. Vi lager også to variabler for å holde nummeret på  fargene som skal vises. Disse settes til etter tilfeldig takk etterpå. Legg til disse over `time_left`-variabelen. 
++ Vi må også lage en variabel for å holde orden på hvor mange poeng spilleren har. Samt en variabel for å holde nummeret på  fargene som skal vises. Disse settes til tilfeldig tall etterpå. Legg til disse over `time_left`-variabelen. 
     ```python
-    text   = 0          # Brukes til å velge tilfeldig text
     colour = 0          # Brukes til å velge tilfeldig farge
     points = 0
 
@@ -174,7 +173,6 @@ Nå må vi definere fargene som programmet skal bruke.
                         # Henter inn globale variabler:
         global points
         global colour
-        global text
     ```
 
 + Så skal vi sette tekstboxen brukeren kan skrive i aktiv hvis det er tid igjen på klokka. Legg til denne inne i `next_color()`:
@@ -190,7 +188,7 @@ Nå må vi definere fargene som programmet skal bruke.
     if box.get().lower() == colours[colour].lower():        # Hvis det spilleren skrev er riktig farge.
         points = points + 1                                 # Pluss på ett points
     ```
-+ Nå vil vi slette det som brukeren skrev inn. Slik at alt er klart for neste runde. Legg til dette under `points= points+ 1`:
++ Nå vil vi slette det som brukeren skrev inn. Slik at alt er klart for neste runde. Legg til dette under `points = points + 1`:
     ```python
     box.delete(0, tkinter.END)
     ```
@@ -198,7 +196,7 @@ Nå må vi definere fargene som programmet skal bruke.
 
     ```python
     colour = randint(0, len(colours)-1)                     # Lager tilfeldig tall mellom 0 og 8
-    text   = randint(0, len(colours)-1)             
+    text   = randint(0, len(colours)-1)                     # Lager tilfeldig tall til teksten.          
     ```
 + Nå gjenstår det bare å vise teksten og fargen i vinduet. Vi oppdaterer feltene, og legger til en poenglabel.  Funksjonen skal nå se slik ut:
 
@@ -206,7 +204,6 @@ Nå må vi definere fargene som programmet skal bruke.
     def next_color():
         global points
         global colour
-        global text
         
         if time_left > 0:
             box.focus_set()
@@ -219,7 +216,7 @@ Nå må vi definere fargene som programmet skal bruke.
         colour = randint(0, len(colours)-1)
         text   = randint(0, len(colours)-1)
 
-        label.config(fg=str(coloursEng[colour]), text=str(colours[text]))   # Oppdaterer labels
+        label.config(fg=str(colours_eng[colour]), text=str(colours[text]))   # Oppdaterer labels
         points_label.config(text= "Poeng: " + str(points))
     ```
 
@@ -257,9 +254,8 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
     from random import randint
 
 
-    coloursEng = ['Red','Blue','Green','Pink','Black','Yellow','Orange','Purple','Brown']
+    colours_eng = ['Red','Blue','Green','Pink','Black','Yellow','Orange','Purple','Brown']
     colours    = ['Rød', 'Blå', 'Grønn', 'Rosa', 'Svart', 'Gul', 'Oransje', 'Lilla', 'Brun']
-    text   = 0
     colour = 0
 
     points = 0
@@ -274,7 +270,6 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
     def next_color():
         global points
         global colour
-        global text
         
         if time_left > 0:
             box.focus_set()
@@ -287,7 +282,7 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
         colour = randint(0, len(colours)-1)
         text   = randint(0, len(colours)-1)
 
-        label.config(fg=str(coloursEng[colour]), text=str(colours[text]))
+        label.config(fg=str(colours_eng[colour]), text=str(colours[text]))
         points_label.config(text= "Poeng: " + str(points))
 
 
@@ -298,7 +293,7 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
             time_left = time_left - 1
             time_label.config(text= "Tid igjen: " + str(time_left))
             time_label.after(1000, countdown)
-        if time_left == 0:
+        else:
             time_label.pack_forget()
             label.pack_forget()
             box.pack_forget()
@@ -332,5 +327,5 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
 ## Test prosjektet {.flag}
 + Starter spillet og countdownen når du trykker enter?
 + Får du ny farge etter du har skrevet inn svar?
-+ Får du +1 pointsnår du skriver riktig farge på ordet?
++ Får du +1 points når du skriver riktig farge på ordet?
 + Slutter programmet etter 30 sek?
