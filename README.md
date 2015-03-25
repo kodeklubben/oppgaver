@@ -10,6 +10,7 @@ følg [anvisningene under](#komme-i-gang).
 ## Kurs/programmeringsspråk
 Per nå finnes følgende kurs:
 - [ComputerCraft (Minecraft)](src/computercraft)
+- [JavaFX](src/javafx)
 - [Python](src/python)
 - [Scratch](src/scratch)
 - [Web](src/web) - denne er ikke ferdig og vi trenger **din** hjelp.
@@ -26,15 +27,21 @@ githubs websider, kun litt vanskeligere når man ikke ser resultatet.)
 Enkleste vei for å komme i gang er å se videoen som forklarer hvordan man
 setter opp og arbeider med oppgavene: http://youtu.be/GtXxBGsAXOs Videoen er
 laget for windows-brukere, men det vil være tilsvarende for Linux og
-Mac-brukere. Dersom du er en *tekst-type* og foretrekker terminalen
-fremfor GUI, les videre.
+Mac-brukere. Dersom du er en *tekst-type* og foretrekker terminalen, les videre.
 
 For å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up-git/)
 og [node](//nodejs.org). Når du har installert git og node, kan du følge
 anvisningene under. Anvisningene er kommandoer som må skrives inn i en konsoll.
 
+#### Ubuntu-brukere merk dette!
+For å installere node trenger man å installere både *nodejs* og *npm*, samt lenke
+*nodejs* til *node* (ellers vil installasjonen av noen pakker feile).
+```sh
+sudo apt-get install nodejs npm git
+sudo ln -s /usr/bin/nodejs /usr/local/bin/node
+```
 
-**Laste ned oppgavene**
+#### Laste ned oppgavene
 ```
 git clone --recursive https://github.com/kodeklubben/oppgaver
 cd oppgaver
@@ -42,13 +49,13 @@ cd oppgaver
 *Du kan også laste ned oppgavene med [github for windows](//windows.github.com)
 eller [github for mac](//mac.github.com).*  
 
-**Sette opp**
+#### Sette opp
 ```
 ./setup
 ```
 
 
-**Start**
+#### Start
 ```
 ./gulp
 ```
@@ -91,7 +98,7 @@ gjort tilgjengelig som variabler i malen. Det er bare `title` og
 [CC-BY 4.0](//creativecommons.org/licenses/by/4.0/deed.no)).
 
 
-**Bygging**
+#### Bygging
 
 Ved *bygging* blir alle markdown-filer (.md) omgjort til HTML og bilder eller
 andre filer blir kopiert. Dersom en oppgave skal inkludere filer eller bilder,
@@ -113,7 +120,7 @@ til i YAML-header. Hvis oppgaven ikke finnes i noen spilleliste, vil det ikke
 lenkes til oppgaven fra noe sted og den er da gjemt.
 
 
-**Markdown**
+#### Markdown
 
 Nettet har flere beskrivelser av [Markdown-syntaksen]. Du kan
 også lære endel ved å bruke en [live markdown editor].
@@ -126,7 +133,7 @@ Her kommer noen eksempler:
 - **Fet skrift** skrives `**Fet skrift**`.
 
 
-**Overskrifter**
+#### Overskrifter
 
 Overskrifter lages ved å begynne en linje med en eller flere `#`. En `#` gir
 den største overskriften, mens seks `######` gir den minste overskriften. I
@@ -150,7 +157,7 @@ I tillegg finnes flere stiler som brukes ved behov:
 - Lagre prosjektet: `## Lagre prosjektet {.save}`.
 
 
-**Bilder**
+#### Bilder
 
 - Store bilder legges inn ved å skrive:
 
@@ -170,7 +177,7 @@ I tillegg finnes flere stiler som brukes ved behov:
   alternativ tekst i tilfelle bildet ikke kan vises.
 
 
-**Kodeblokker**
+#### Kodeblokker
 
 Kodeblokker skrives med tre `-tegn foran og bak koden:
 
@@ -194,7 +201,7 @@ for i in range(10):
 Les videre for inkludering av scratchkode.
 
 
-**Scratch kodeblokker**
+#### Scratch kodeblokker
 
 Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir oversatt til
 figurer av et verktøy som heter [Scratchblocks2][sb2]. På hjemmesidene til
