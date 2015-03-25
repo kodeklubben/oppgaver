@@ -16,18 +16,24 @@ Per nå finnes følgende kurs:
 - [Web](src/web) - denne er ikke ferdig og vi trenger **din** hjelp.
 
 ## Fiks og rapporter enkle feil
-For enkle feil og fiks kan du gjerne bruke webgrensesnittet til github. Se
-[denne videoen](http://youtu.be/v9CS62-MED4) for hvordan dette fungerer uten å
-installere noen programvare. Dersom du ønsker å oversette eller lage nye oppgaver
-anbefaler vi at leser videre for et oppsett som laster ned oppgavene til din 
-egen maskin slik at du kan jobbe lokalt. (Det er ikke noe galt i å kun bruke
-githubs websider, kun litt vanskeligere når man ikke ser resultatet.)
+[![](http://img.youtube.com/vi/v9CS62-MED4/0.jpg)](http://youtu.be/v9CS62-MED4)
+
+For småfeil og ideer kan du bruke webgrensesnittet til github. Da slipper du 
+installasjon av programvare på din egen maskin. [Videoen over](http://youtu.be/v9CS62-MED4)
+demonstrerer hvordan dette gjøres.
+
+Dersom du ønsker å oversette eller lage nye oppgaver anbefaler vi at leser videre
+for et oppsett som laster ned oppgavene til din egen maskin slik at du kan jobbe
+lokalt. (Det er ikke noe galt i å kun bruke githubs websider, men det er litt 
+vanskeligere å få alt riktig når man selv ikke ser resultatet.)
 
 ## Komme i gang
-Enkleste vei for å komme i gang er å se videoen som forklarer hvordan man
-setter opp og arbeider med oppgavene: http://youtu.be/GtXxBGsAXOs Videoen er
-laget for windows-brukere, men det vil være tilsvarende for Linux og
-Mac-brukere. Dersom du er en *tekst-type* og foretrekker terminalen, les videre.
+[![](http://img.youtube.com/vi/GtXxBGsAXOs/0.jpg)](http://youtu.be/GtXxBGsAXOs)
+
+Enkleste vei for å komme i gang er å [se videoen](http://youtu.be/GtXxBGsAXOs)
+som forklarer hvordan man setter opp og arbeider med oppgavene. Videoen er laget
+for windows-brukere, men det vil være tilsvarende for Linux og Mac-brukere. 
+Dersom du er en *tekst-type* og foretrekker terminalen, les videre.
 
 For å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up-git/)
 og [node](//nodejs.org). Når du har installert git og node, kan du følge
