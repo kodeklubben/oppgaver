@@ -103,8 +103,8 @@ id`{.blockdata} er mindre enn `teller`{.blockdata} -
         slutt
     ```
 
-    Her må `10`-tallet i `gå 10 steg`{.blockmotion}-klossen være likt
-    med størrelsen på din boks.
+    Her må `10`-tallet i `gå 10 steg`{.blockmotion}-klossen være dobbelt
+    så stort som størrelsen på din boks.
 
 + Selve kloneboksene trenger nå bare vente til de skal slette seg
   selv. Det er ganske enkelt.
