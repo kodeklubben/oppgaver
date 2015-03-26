@@ -6,6 +6,7 @@ script: ./gulp dist && ./gulp links
 notifications:
   recipients:
     - geirarne@gmail.com
+    - arve.seljebu@gmail.com
 addons:
   apt_packages:
     - pandoc
