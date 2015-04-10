@@ -63,11 +63,16 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
 
     root.title("Fargespill")
     root.geometry("475x300")
-                                    # Lager en label kalt instructions  med tekst:
-    instructions  = tkinter.Label(root, text="Skriv inn fargen PÅ ordet, ikke selve ordet!", font=('Helvetica', 15))
+    
+    # Lager en label kalt instructions  med tekst:
+    instructions  = tkinter.Label(root, 
+                                  text="Skriv inn fargen PÅ ordet, ikke selve ordet!", 
+                                  font=('Helvetica', 15))
     instructions.pack()
 
-    points_label = tkinter.Label(root, text="Trykk enter for å starte.", font=('Helvetica', 30))
+    points_label = tkinter.Label(root,
+                                 text="Trykk enter for å starte.",
+                                 font=('Helvetica', 30))
     points_label.pack()
 
     label = tkinter.Label(root, font=('Helvetica', 100))
@@ -97,9 +102,12 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
         global time_left
 
         if time_left > 0:
-            time_left = time_left - 1               # Tell ned ett sekund
-            time_label.config(text= "Tid igjen: " + str(time_left))
-            time_label.after(1000, countdown)       # Denne kjører automatisk countdown() igjen etter 1 sekund
+            # Tell ned ett sekund
+            time_left = time_left - 1
+            time_label.config(text="Tid igjen: " + str(time_left))
+
+            # Denne kjører automatisk countdown() igjen etter 1 sekund
+            time_label.after(1000, countdown)       
         else:
             time_label.pack_forget()
             label.pack_forget()
@@ -121,7 +129,7 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
 
         if time_left > 0:
             time_left = time_left - 1
-            time_label.config(text= "Tid igjen: " + str(time_left))
+            time_label.config(text="Tid igjen: " + str(time_left))
             time_label.after(1000, countdown)
         else:
             time_label.pack_forget()
@@ -132,11 +140,17 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
 
     root.title("Fargespill")
     root.geometry("475x300")
-                                        # Lager en label kalt instructions  med tekst:
-    instructions  = tkinter.Label(root, text="Skriv inn fargen PÅ ordet, ikke selve ordet!", font=('Helvetica', 15))
+    
+    # Lager en label kalt instructions  med tekst:
+    instructions  = tkinter.Label(root, 
+                                  text="Skriv inn fargen PÅ ordet, ikke selve ordet!", 
+                                  font=('Helvetica', 15))
     instructions.pack()
 
-    points_label = tkinter.Label(root, text="Trykk enter for å starte.", font=('Helvetica', 30))
+
+    points_label = tkinter.Label(root,
+                                 text="Trykk enter for å starte.",
+                                 font=('Helvetica', 30))
     points_label.pack()
 
 
@@ -156,15 +170,18 @@ Nå må vi definere fargene som programmet skal bruke.
 
 + Fargene legger vi til som en liste. Legg til denne koden under `from random import randint`
     ```python
-    colours_eng = ['Red','Blue','Green','Pink','Black','Yellow','Orange','Purple','Brown']
+    colours_eng = ['Red', 'Blue', 'Green', 'Pink', 'Black',
+                   'Yellow', 'Orange', 'Purple', 'Brown']
     ```
 + Siden vi vil at programmet vårt skal skrive ut de norske ordene, lager vi en liste til, med de norske navnene. Legg til dette rett under den andre listen.
     ```python
-    colours  =   ['Rød', 'Blå', 'Grønn', 'Rosa', 'Svart', 'Gul', 'Oransje', 'Lilla', 'Brun']
+    colours = ['Rød', 'Blå', 'Grønn', 'Rosa', 'Svart',
+               'Gul', 'Oransje', 'Lilla', 'Brun']
     ```
 + Vi må også lage en variabel for å holde orden på hvor mange poeng spilleren har. Samt en variabel for å holde nummeret på  fargene som skal vises. Disse settes til tilfeldig tall etterpå. Legg til disse over `time_left`-variabelen. 
     ```python
-    colour = 0          # Brukes til å velge tilfeldig farge
+    # Brukes til å velge tilfeldig farge
+    colour = 0
     points = 0
 
     ```
@@ -172,7 +189,7 @@ Nå må vi definere fargene som programmet skal bruke.
 
     ```python
     def next_color():
-                        # Henter inn globale variabler:
+        # Henter inn globale variabler:
         global points
         global colour
     ```
@@ -187,8 +204,10 @@ Nå må vi definere fargene som programmet skal bruke.
 + Så vil vi sammenligne det brukeren skriver inn i boxen med den norske fargelisten vår. `.lower()` gjør om alt til små bokstaver, slik at man ikke får feil om man skriver "Rød" i steden for "rød". Legg til dette under:
 
     ```python
-    if box.get().lower() == colours[colour].lower():        # Hvis det spilleren skrev er riktig farge.
-        points = points + 1                                 # Pluss på ett points
+    # Hvis det spilleren skrev er riktig farge.
+    if box.get().lower() == colours[colour].lower():
+        # Pluss på ett points
+        points = points + 1
     ```
 + Nå vil vi slette det som brukeren skrev inn. Slik at alt er klart for neste runde. Legg til dette under `points = points + 1`:
     ```python
@@ -197,8 +216,11 @@ Nå må vi definere fargene som programmet skal bruke.
 + Nå skal vi få tkinter til å displaye farge og tekst. Til dette bruker vi `randint()` funksjonen. Den lager et tilfeldig tall mellom to ytterpunkter. Lag denne under `box.delete(0, tkinter.END)`
 
     ```python
-    colour = randint(0, len(colours)-1)                     # Lager tilfeldig tall mellom 0 og 8
-    text   = randint(0, len(colours)-1)                     # Lager tilfeldig tall til teksten.          
+    # Lager tilfeldig tall mellom 0 og 8
+    colour = randint(0, len(colours)-1)
+
+    # Lager tilfeldig tall til teksten.
+    text = randint(0, len(colours)-1)
     ```
 + Nå gjenstår det bare å vise teksten og fargen i vinduet. Vi oppdaterer feltene, og legger til en poenglabel.  Funksjonen skal nå se slik ut:
 
@@ -216,10 +238,11 @@ Nå må vi definere fargene som programmet skal bruke.
         box.delete(0, tkinter.END)
 
         colour = randint(0, len(colours)-1)
-        text   = randint(0, len(colours)-1)
+        text = randint(0, len(colours)-1)
 
-        label.config(fg=str(colours_eng[colour]), text=str(colours[text]))   # Oppdaterer labels
-        points_label.config(text= "Poeng: " + str(points))
+        # Oppdaterer labels
+        label.config(fg=str(colours_eng[colour]), text=str(colours[text]))
+        points_label.config(text="Poeng: " + str(points))
     ```
 
 ## Test prosjektet {.flag}
@@ -242,7 +265,8 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
 + Siste steg er å kjøre denne funksjonen når spilleren trykker *enter*. Legg til dette rett over `root.mainloop`:
 
     ```python
-    root.bind('<Return>', start_game)    # Kjører funksjonen start_game() når enter trykkes
+    # Kjører funksjonen start_game() når enter trykkes
+    root.bind('<Return>', start_game)
     box.pack()
     box.focus_set()
     ```
@@ -256,23 +280,27 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
     from random import randint
 
 
-    colours_eng = ['Red','Blue','Green','Pink','Black','Yellow','Orange','Purple','Brown']
-    colours    = ['Rød', 'Blå', 'Grønn', 'Rosa', 'Svart', 'Gul', 'Oransje', 'Lilla', 'Brun']
+    colours_eng = ['Red', 'Blue', 'Green', 'Pink', 'Black',
+                   'Yellow', 'Orange', 'Purple', 'Brown']
+    colours = ['Rød', 'Blå', 'Grønn', 'Rosa', 'Svart',
+               'Gul', 'Oransje', 'Lilla', 'Brun']
     colour = 0
 
     points = 0
 
     time_left = 30
 
+
     def start_game(event):
         if time_left == 30:
             countdown()
         next_color()
 
+
     def next_color():
         global points
         global colour
-        
+
         if time_left > 0:
             box.focus_set()
 
@@ -282,10 +310,10 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
         box.delete(0, tkinter.END)
 
         colour = randint(0, len(colours)-1)
-        text   = randint(0, len(colours)-1)
+        text = randint(0, len(colours)-1)
 
         label.config(fg=str(colours_eng[colour]), text=str(colours[text]))
-        points_label.config(text= "Poeng: " + str(points))
+        points_label.config(text="Poeng: " + str(points))
 
 
     def countdown():
@@ -293,7 +321,7 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
 
         if time_left > 0:
             time_left = time_left - 1
-            time_label.config(text= "Tid igjen: " + str(time_left))
+            time_label.config(text="Tid igjen: " + str(time_left))
             time_label.after(1000, countdown)
         else:
             time_label.pack_forget()
@@ -306,13 +334,19 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
     root.title("Fargespill")
     root.geometry("475x300")
 
-    instructions  = tkinter.Label(root, text="Skriv inn fargen PÅ ordet, ikke selve ordet!", font=('Helvetica', 15))
+    instructions  = tkinter.Label(root, 
+                                  text="Skriv inn fargen PÅ ordet, ikke selve ordet!", 
+                                  font=('Helvetica', 15))
     instructions.pack()
 
-    points_label = tkinter.Label(root, text="Trykk enter for å starte.", font=('Helvetica', 30))
+    points_label = tkinter.Label(root,
+                                 text="Trykk enter for å starte.",
+                                 font=('Helvetica', 30))
     points_label.pack()
 
-    time_label = tkinter.Label(root, text="Tid igjen: " + str(time_left), font=('Helvetica', 30))
+    time_label = tkinter.Label(root,
+                               text="Tid igjen: " + str(time_left),
+                               font=('Helvetica', 30))
     time_label.pack()
 
     label = tkinter.Label(root, font=('Helvetica', 100))
