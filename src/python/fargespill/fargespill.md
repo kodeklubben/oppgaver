@@ -63,11 +63,12 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
 
     root.title("Fargespill")
     root.geometry("475x300")
-
+    
     # Lager en label kalt instructions  med tekst:
-    instructions = tkinter.Label(root,
-                                 text="Skriv inn fargen PÅ ordet, ikke selve ordet!",
-                                 font=('Helvetica', 30))
+    instructions  = tkinter.Label(root, 
+                                  text="Skriv inn fargen PÅ ordet, ikke selve ordet!", 
+                                  font=('Helvetica', 15))
+    instructions.pack()
 
     points_label = tkinter.Label(root,
                                  text="Trykk enter for å starte.",
@@ -139,11 +140,13 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
 
     root.title("Fargespill")
     root.geometry("475x300")
-
+    
     # Lager en label kalt instructions  med tekst:
-    instructions = tkinter.Label(root,
-                                 text="Skriv inn fargen PÅ ordet, ikke selve ordet!",
-                                 font=('Helvetica', 30))
+    instructions  = tkinter.Label(root, 
+                                  text="Skriv inn fargen PÅ ordet, ikke selve ordet!", 
+                                  font=('Helvetica', 15))
+    instructions.pack()
+
 
     points_label = tkinter.Label(root,
                                  text="Trykk enter for å starte.",
@@ -331,9 +334,10 @@ Det skjer fortsatt lite i spillet vårt, men det er fordi vi ikke har startet se
     root.title("Fargespill")
     root.geometry("475x300")
 
-    instructions = tkinter.Label(root,
-                                 text="Skriv inn fargen PÅ ordet, ikke selve ordet!",
-                                 font=('Helvetica', 30))
+    instructions  = tkinter.Label(root, 
+                                  text="Skriv inn fargen PÅ ordet, ikke selve ordet!", 
+                                  font=('Helvetica', 15))
+    instructions.pack()
 
     points_label = tkinter.Label(root,
                                  text="Trykk enter for å starte.",
