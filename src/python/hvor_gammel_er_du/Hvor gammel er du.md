@@ -68,9 +68,9 @@ print(endaEtTall)
 **Hva:** Input er en måte vi kan hente tekst som skrives på tastaturet
 
 **Hvordan:** 
-Tekst hentes ved at du skriver: **input(«Tekst som forteller hva en skal skrive» )**
+Tekst hentes ved at du skriver: `input('Tekst som forteller hva en skal skrive')`
 
-Skal man hente inn et tall: **int(input(«Tekst som forteller hva en skal skrive»))**
+Skal man hente inn et tall: `int(input('Tekst som forteller hva en skal skrive'))`
 
 **Eksempler, prøv dem ut og se hva som skjer: **
 ```python
