@@ -13,7 +13,7 @@ I dette oppgavesettet skal du i hvert steg lære om noen av de grunnleggende byg
 **Hvordan:** Du skriver bare print(). Inni parentesen er det du skal skrive ut. Husk at tekst må starte og slutte med ' 
 
 **Eksempler, prøv dem ut og se hva som skjer:**
-```
+```python
 print('Hei')
 print(2)
 print(2+2)
@@ -38,7 +38,7 @@ Skal jeg vise deg?
 **Hvordan:** For å lage en variabel skriver du navnet på variabelen som du velger selv, deretter =, og så det du ønsker å putte i variabelen.
 
 **Eksempler, prøv dem ut og se hva som skjer: **
-```
+```python
 variabel = 4
 petter = 'En gutt'
 frida = 'En jente'
@@ -73,7 +73,7 @@ Tekst hentes ved at du skriver: **input(«Tekst som forteller hva en skal skrive
 Skal man hente inn et tall: **int(input(«Tekst som forteller hva en skal skrive»))**
 
 **Eksempler, prøv dem ut og se hva som skjer: **
-```
+```python
 navn = input('Skriv navnet ditt ')
 print(navn)
 tall = int(input('Skriv et tall '))
@@ -90,7 +90,7 @@ Du skal nå bruke input slik at variabelen for året du er født settes ved hjel
 **Hva:** En if-setning er en måte vi kan bestemme hva datamaskinen skal gjøre basert på en bestemt betingelse som vi forteller den. (if betyr hvis på engelsk) Hvis betingelsen ikke oppfylles kan vi si noe annet som skal skje ved hjelp av else som er engelsk og betyr eller.
 
 **Hvordan:** 
-```
+```python
 if (hvis dette skjer):
 	Gjør dette
 elif(hvis dette skjer i stedet)
@@ -101,21 +101,21 @@ else:
 
 **Her er noen eksempler på betingelser som står bak if og elif:**
 
-tall < 4 : Denne sier at tall må være mindre enn 4
+`tall < 4`: Denne sier at tall må være mindre enn 4
 
-tall > 4: Denne sier at tall må være større enn 4
+`tall > 4`: Denne sier at tall må være større enn 4
 
-tall ==4: Denne sier at tall må være lik 4
+`tall ==4`: Denne sier at tall må være lik 4
 
-tekst == «Hei»: Denne sier at tekst må være lik Hei
+`tekst == 'Hei'`: Denne sier at tekst må være lik Hei
 
 **Eksempel, prøv det ut og se hva som skjer: **
 
-```
-tekst= 'heisann'
-if  tekst== 'hei':
+```python
+tekst = 'heisann'
+if tekst == 'hei':
 	print('Teksten var hei')
-elif tekst== 'hoho'
+elif tekst == 'hoho':
 	print('Teksten var hoho')
 else:
 	print('Teksten var ikke hei eller hoho')
@@ -123,11 +123,11 @@ else:
 ## Gjøre selv {.check}
 **Du skal fortsette under koden fra oppgave 3**
 
-1. Lag en ny variabel som tar inn tekst som input. Teksten som kommer opp når programmet spør om input skal være 'Stemmer det at du er så gammel? '
+1. Lag en ny variabel som tar inn tekst som input. Teksten som kommer opp når programmet spør om input skal være `'Stemmer det at du er så gammel? '`
 
-2. Skriv så en if-setning som sjekker om teksten i denne variabelen er 'ja'
+2. Skriv så en if-setning som sjekker om teksten i denne variabelen er `'ja'`
 
-3. Hvis teksten er ja, skal du skrive ut teksten: 'Der ser du, jeg er kjempeflink i matematikk'
+3. Hvis teksten er ja, skal du skrive ut teksten: `'Der ser du, jeg er kjempeflink i matematikk'`
 
 4. Hvis teksten ikke var ja, skal du minke aldervariabelen med 1 og skrive den ut. Gjerne sammen med en forklarende tekst.
 

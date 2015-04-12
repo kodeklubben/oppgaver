@@ -35,26 +35,26 @@ Lag en funksjon som tar inn en liste som parameter. Funksjonen skal så legge ti
 **Hva:** En liste er en slags variabel som kan lagre flere verdier på en gang.
 
 Eksempler på hvordan lister lages: 
-```
-liste=['sau', 'gris', 'menneske']
-tomListe=[]
+```python
+liste = ['sau', 'gris', 'menneske']
+tomListe = []
 print(liste)
 print(tomListe)
 ```
 Eksempler på hvordan man kan hente ut verdier fra liste:
-```
+```python
 print(liste[2])
 ```
 **Husk at vi begynner å telle på 0, så første posisjon i lista er posisjon 0, deretter teller vi oppover 0,1,2,3...**
 
 Hvordan finne lengden til liste:
-```
+```python
 lengde = len(liste)
 print(lengde)
 ```
 
 Hvordan legge til ny verdi på slutten av liste:
-```
+```python
 print(liste)
 liste.append('nils')
 print(liste)
@@ -65,7 +65,7 @@ print(liste)
 For å få et tilfeldig tall må man benytte random-biblioteket
 
 Eksempel på bruk av random-biblioteket:
-```
+```python
 import random
 tilfeldigTall = random.randint(0, 20)
 ```
@@ -80,16 +80,16 @@ Nå skal du bruke funksjonene fra steg 1 og 2 til å lage programmet. Programmet
 
 ## Tips: Bruke input{.protip}
 For å lagre det spilleren skriver i en variabel, brukes input. Nedenfor ser du et eksempel.
-```
+```python
 tekst = input('Skriv noe')
 ```
 Det som brukeren skriver inn vil nå lagres i variabelen tekst
 
 ## Tips: Benytte split for å lage en liste av det som spilleren skriver inn{.protip}
 Siden spilleren ikke kan skrive inn en liste, men kun en tekst, må vi forandre teksten til en liste. Dette gjøres med noe som kalles split. Hvis vi skiller ordene som skal være i lista med et bestemt tegn, kan split hente ut alle ordene og legge dem i en liste. Nedenfor er et eksempel på hvordan man gjør dette:
-```
+```python
 tekst = 'giraff-neshorn-bjørn-pelikan'
-liste = tekst.split('-') 
+liste = tekst.split('-')
 print(liste)
 ```
 Merk '-' som står i parentesen bak split. Denne forteller hvilket tegn som skiller ordene fra hverandre
