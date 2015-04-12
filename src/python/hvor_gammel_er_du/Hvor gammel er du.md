@@ -10,7 +10,7 @@ I dette oppgavesettet skal du i hvert steg lære om noen av de grunnleggende byg
 # Oppgave 1: Skrive ut til skjerm {.activity}
 **Hva:** Vi kan be datamaskinen om å skrive hva som helst av tekst eller tall.
 
-**Hvordan:** Du skriver bare print(). Inni parentesen er det du skal skrive ut. Husk at tekst må starte og slutte med ' 
+**Hvordan:** Du skriver bare `print()`. Inni parentesen er det du skal skrive ut. Husk at tekst må starte og slutte med ' 
 
 **Eksempler, prøv dem ut og se hva som skjer:**
 ```python
@@ -60,7 +60,7 @@ print(endaEtTall)
 
 2. Lag så en tredje variabel, som du velger navn på selv. Hvordan kan du få denne til å bli lik alderen din ved hjelp av de to andre variablene?
 
-3. Skriv ut teksten: 'Jeg regnet ut at alderen din er:'
+3. Skriv ut teksten: `'Jeg regnet ut at alderen din er:'`
 
 4. Skriv så ut variabelen som sier alderen din.
 
