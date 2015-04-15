@@ -10,21 +10,21 @@ I dette oppgavesettet skal du i hvert steg lære om noen av de grunnleggende byg
 # Del 1: Skrive ut til skjerm {.activity}
 **Hva:** Vi kan be datamaskinen om å skrive hva som helst av tekst eller tall.
 
-**Hvordan:** Funksjonen  `print()`  skriver ut det som er mellom `()` . Tekst må starte og slutte med  `'`  slik som  `'denne teksten'` 
+**Hvordan:** Funksjonen  `print()`  skriver ut det som er mellom `()` . Tekst må starte og slutte med  `'`  slik som  `'denne teksten'`.
 
-**Eksempler, prøv dem ut og se hva som skjer:**
+**Eksempler:** Prøv dem ut og se hva som skjer.
 ```python
 print('Hei')
 print(2)
 print(2+2)
 print('2+2')
 ```
-Kan du forklare hvorfor det skjer?
+Kan du forklare det som skjer?
 
 Husk å ta bort eksemplene når du forsetter med oppgaven
 
-## Gjøre selv{.check} 
-**Skriv ut teksten under. Den skal dekke 3 linjer**
+## Gjøre selv{.check}
+**Skriv ut teksten under. Den skal dekke 3 linjer.**
 
 ```
 Hei, jeg er en datamaskin.
@@ -35,39 +35,39 @@ Skal jeg vise deg?
 # Del 2: Variabler {.activity}
 **Hva:** Variabler gjør at vi kan lagre tekst eller tall i datamaskinen. Tenk på det som en eske som vi putter tall eller bokstaver inni. Utenpå skriver vi hva som er inni esken. Dette er variabelnavnet.
 
-**Hvordan:** For å lage en variabel skriver du navnet på variabelen som du velger selv, deretter =, og så det du ønsker å putte i variabelen.
+**Hvordan:** For å lage en variabel skriver du navnet på variabelen som du velger selv, deretter `=` og det du ønsker å lagre i variabelen.
 
 **Eksempler:** Prøv dem ut og se hva som skjer
 ```python
 variabel = 4
 petter = 'En gutt'
 frida = 'En jente'
-etTall = 3
-endaEtTall = variabel + etTall
+et_tall = 3
+enda_et_tall = variabel + etTall
 
 print(frida)
 print(frida)
 print(petter)
-print(variabel-etTall)
-print(endaEtTall)
+print(variabel - et_tall)
+print(enda_et_tall)
 ```
 Husk å ta bort eksemplene når du forsetter med oppgaven
 
-## Gjøre selv {.check} 
-**Fortsett under koden fra del 1**
+## Gjøre selv {.check}
+**Fortsett med koden du har fra del 1.**
 
-- Lag to variabler som du selv gir navnet på. Den ene skal være lik året i år, altså 2015. Den andre skal være lik året du ble født i. 
+- Lag to variabler som du selv gir navnet på. Den ene variabelen skal være dette året, altså 2015. Den andre variabelen skal være året du ble født i.
 
-- Lag så en tredje variabel, som du velger navn på selv. Hvordan kan du få denne til å bli lik alderen din ved hjelp av de to andre variablene?
+- Lag så en tredje variabel som skal inneholde alderen din. Hvordan kan du regne ut alderen ved hjelp av variablene i steget over?
 
-- Skriv ut teksten: `'Jeg regnet ut at alderen din er:'`
+- Skriv ut teksten: `Jeg regnet ut at alderen din er:`
 
-- Skriv så ut variabelen som sier alderen din.
+- Skriv ut variabelen som inneholder alderen din.
 
-# Del 3: Input {.activity}
-**Hva:** Input er en måte vi kan hente tekst som skrives på tastaturet
+# Del 3: Innputt {.activity}
+**Hva:** Innputt er en måte vi kan hente tekst som skrives på tastaturet.
 
-**Hvordan:** 
+**Hvordan:**
 Tekst hentes ved at du skriver: `input('Tekst som forteller hva en skal skrive')`
 
 Skal man hente inn et tall: `int(input('Tekst som forteller hva en skal skrive'))`
@@ -81,55 +81,57 @@ print(2+tall)
 ```
 
 ## Gjøre selv {.check}
-**Du skal nå endre på koden som du skrev i del 2**
+**Du skal nå endre på koden som du skrev i del 2**.
 
-Du skal nå bruke input slik at variabelen for året du er født settes ved hjelp av input i stedet for slik du gjorde i oppgave 2. Husk at året du skriver er et tall, ikke tekst.
+- Bruk `input()` slik at variabelen for året du er født lagres ved hjelp av innputt når programmet kjøres.
+- Test at det fungerer. Husk at året du skriver må være et tall, ikke tekst.
 
 # Del 4: If-setningen{.activity}
 
-**Hva:** En if-setning er en måte vi kan bestemme hva datamaskinen skal gjøre basert på en bestemt betingelse som vi forteller den. (if betyr hvis på engelsk) Hvis betingelsen ikke oppfylles kan vi si noe annet som skal skje ved hjelp av else som er engelsk og betyr eller.
+**Hva:** En *if-setning* er en måte for å bestemme hva datamaskinen skal gjøre ved å sjekke om noe er sant (if* betyr *hvis* på engelsk). Dersom *if-setningen* ikke er sann kan vi be datamaskinen gjøre noe annet, og vi bruker da *else* som er engelsk for *eller*.
 
-**Hvordan:** 
+**Hvordan:**
 ```python
-if (hvis dette skjer):
-	Gjør dette
-elif(hvis dette skjer i stedet)
-	Gjør dette
+if dette_er_sant:
+	gjor_dette()
+elif noe_annet_er_sant:
+	gjor_noe_annet()
 else:
-	Gjør dette hvis ingen av de andre skjedde
+	ingen_av_if_setningene_er_sann()
 ```
 
-**Her er noen eksempler på betingelser som står bak if og elif:**
+Her er noen eksempler på hva som kan stå bak `if` og `elif`.
 
-`tall < 4`: Denne sier at tall må være mindre enn 4
+`tall < 4`: Sant hvis `tall` er mindre enn 4.
 
-`tall > 4`: Denne sier at tall må være større enn 4
+`tall > 4`: Sant hvis `tall` er større enn 4.
 
-`tall ==4`: Denne sier at tall må være lik 4
+`tall == 4`: Sant hvis `tall` er lik 4.
 
-`tekst == 'Hei'`: Denne sier at tekst må være lik Hei
+`tekst == 'Hei'`: Sant hvis `tekst` er lik `'Hei'`.
 
-**Eksempel:** Prøv det ut og se hva som skjer
+`'nei' in tekst`: Sant hvis ordet *nei* er inni `tekst`.
+
+**Eksempel:** Prøv det ut og se hva som skjer.
 
 ```python
-tekst = 'heisann'
-if tekst == 'hei':
-	print('Teksten var hei')
-elif tekst == 'hoho':
-	print('Teksten var hoho')
+tekst = 'Heisann'
+if tekst == 'Hei':
+	print('Teksten er lik Hei')
+elif tekst == 'Hoho':
+	print('Teksten er lik Hoho')
+elif 'Hei' in tekst:
+	print('Hei er inni teksten')
 else:
-	print('Teksten var ikke hei eller hoho')
+	print('Teksten er ikke Hei eller Hoho og Hei er ikke inni teksten')
 ```
 ## Gjøre selv {.check}
-**Du skal fortsette under koden fra del 3**
+**Fortsett med koden fra del 3.**
 
-- Lag en ny variabel som tar inn tekst som input. Teksten som kommer opp når programmet spør om input skal være `'Stemmer det at du er så gammel? '`
+- Lag en ny variabel som tar inn tekst som innputt. Teksten som kommer opp når programmet spør om innputt skal være `Stemmer det at du er så gammel?`
 
-- Skriv så en if-setning som sjekker om teksten i denne variabelen er `'ja'`
+- Skriv en *if-setning* som sjekker om teksten i variabelen er `ja`.
 
-- Hvis teksten er ja, skal du skrive ut teksten: `'Der ser du, jeg er kjempeflink i matematikk'`
+- Hvis teksten er `ja`, skriv ut teksten: `Der ser du, jeg er kjempeflink i matematikk!`
 
-- Hvis teksten ikke var ja, skal du minke aldervariabelen med 1 og skrive den ut. Gjerne sammen med en forklarende tekst.
-
-
-
+- Hvis teksten ikke er `ja`, mink aldervariabelen med 1 og skriv ut den riktige alderen i lag med en forklarende tekst.
