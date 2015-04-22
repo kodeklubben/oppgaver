@@ -14,7 +14,7 @@ nøkkel : verdi
     ```
 
 Det som står på venstre side av kolonet kalles for nøkkelen. Nøkkelen er en verdi vi vet om som er lagret i ordlista og som har en assosiert verdi vi vil vite og som vi får tak ved å "slå opp" i ordlista.
-En nøkkel i ordlista kan være av en hvilken som helst immutabel (det vil si ikke redigerbar) datatype, som for eksempel streng, heltall, eller tuppel. På høyre side av kolonet står verdien nøkkelen assosieres med.
+En nøkkel i ordlista kan være av en hvilken som helst immutabel (det vil si ikke redigerbar) datatype, som for eksempel tekst eller tall. På høyre side av kolonet står verdien nøkkelen assosieres med.
 Verdien man finner i ordlistens "oppslagsord", kan være både heltall, desimaltall, strenger, lister, tupler og booleanske verdier (Sant eller Usant). Hvert oppslagsord kan også være en variabel som peker på en immutabel verdi.
 
 Ordlister er kjekke å ha. Vi bruker ordlister når vi vil kategorisere ting eller navn eller strenger eller tall eller variabler eller hva det måtte være.
