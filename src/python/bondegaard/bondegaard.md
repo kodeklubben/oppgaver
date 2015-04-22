@@ -36,48 +36,48 @@ Budeie-Barbi og Bottolf Bonde driver en bondegård på Hofstad i Roan kommune. T
 
 I denne oppgaven får du oppgitt en ordliste (på engelsk "dictionary") med alle dyra til bøndene. Ordlista heter for -innhegning-, og finnes i fila dictOppgave.  I denne ordlista slår man opp på dyrets navn, som er en streng, og finner dyrets dyretype, som også er en streng. Samtlige navn i ordlista er unike. Når du lager en ordliste i Python 3 vil Python til enhver tid sørge for at alle nøklene (variabler eller strenger du slår opp på i ordlista) har unike navn, for å unngå forvirring. I den importerte ordlista ser hvert enkelt element slik ut:
 
-    ```python
-    { "navn" : "dyretype" }
-    ```
+```python
+{ "navn" : "dyretype" }
+```
 
 Du skal skrive en funksjon som tar inn en streng som sier hvilket dyr vi skal telle opp. Funksjonen skal ta inn enten "Ku", "Okse", "Kalv", "Søye", "Vær", eller "Lam". Skriv der vi har kommentert #SKRIV KODE HER. Ikke endre på kode som omkranses av kommentaren # IKKE ENDRE PÅ DENNE KODEN.
 
-    ```python
-    # IKKE ENDRE PÅ DENNE KODEN 
-    innhegning = { "Shaun" : "Lam", "Toralf" : "Kalv", "Oskar" : "Vær", "Stella" : "Søye",
-                   "Bobo" : "Lam", "Per" : "Søye", "Baba" : "Vær", "Kjell" : "Okse",
-                   "Staur" : "Okse", "Sune" : "Lam", "Rune" : "Lam", "Tune" : "Lam",
-                   "Scar" : "Søye", "Petra" : "Søye", "Litago" : "Ku", "Kakao" : "Ku",
-                   "Dauingen" : "Gris", "Gris" : "Gris", "Frøya" : "Søye", "Egon" : "Vær",
-                   "Kevin" : "Vær", "Tora" : "Søye", "Ralf" : "Kalv", "Enga" : "Ku", "Kjell" : "Vær",
-                   "Kjell" : "Gris", "Benedikte" : "Ku", "Agnethe" : "Søye", "Grisskjit" : "Søye",
-                   "Bjarne" : "Søye", "Hoppsideisi" : "Søye", "Koskos" : "Lam", "Boms" : "Lam",
-                   "Mulle" : "Lam", "Queen of England" : "Søye", "Dronningen av Sverige" : "Søye",
-                   "Rosenborg" : "Søye", "Lyn" : "Kalv", "Stråmann" : "Vær", "Blåmann" : "Okse",
-                   "Grynte" : "Gris", "Pål" : "Kalv", "Askguri" : "Ku", "Hansen" : "Lam", "Du" : "Søye",
-                   "Bente" : "Søye", "Marit" : "Søye", "Martin" : "Lam", "Pelle" : "Lam", "Anita" : "Lam",
-                   "Bernt" : "Vær", "Jompa" : "Lam", "Grislam" : "Lam", "Ku" : "Vær", "OK" : "Søye", "ArveLarve" : "Lam",
-                   "Sigurd" : "Lam", "Janne" : "Søye", "Nikita" : "Søye", "Saul" : "Søye", "Bonde" : "Søye",
-                   "Thor" : "Vær", "FandenIhelsike" : "Okse", "Mathis" : "Kalv", "Kalle" : "Kalv", "VonKarme" : "Søye",
-                   "Vegard" : "Okse", "Sindre" : "Lam", "Toffe" : "Søye", "Dennis" : "Søye", "Prebz" : "Vær",
-                   "Theodore" : "Ku", "Turbine" : "Søye", "Guri" : "Søye", "Karl" : "Ku", "Karianne" : "Lam", "Grisveitj" : "Søye",
-                   "Grismainn" : "Okse", "Gress" : "Søye", "Esben" : "Lam", "Prut" : "Søye", "Kola" : "Søye", "Peter" : "Søye", "Lom" : "Vær" }
-    # IKKE ENDRE PÅ DENNE KODEN
+```python
+# IKKE ENDRE PÅ DENNE KODEN 
+innhegning = { "Shaun" : "Lam", "Toralf" : "Kalv", "Oskar" : "Vær", "Stella" : "Søye",
+               "Bobo" : "Lam", "Per" : "Søye", "Baba" : "Vær", "Kjell" : "Okse",
+               "Staur" : "Okse", "Sune" : "Lam", "Rune" : "Lam", "Tune" : "Lam",
+               "Scar" : "Søye", "Petra" : "Søye", "Litago" : "Ku", "Kakao" : "Ku",
+               "Dauingen" : "Gris", "Gris" : "Gris", "Frøya" : "Søye", "Egon" : "Vær",
+               "Kevin" : "Vær", "Tora" : "Søye", "Ralf" : "Kalv", "Enga" : "Ku", "Kjell" : "Vær",
+               "Kjell" : "Gris", "Benedikte" : "Ku", "Agnethe" : "Søye", "Grisskjit" : "Søye",
+               "Bjarne" : "Søye", "Hoppsideisi" : "Søye", "Koskos" : "Lam", "Boms" : "Lam",
+               "Mulle" : "Lam", "Queen of England" : "Søye", "Dronningen av Sverige" : "Søye",
+               "Rosenborg" : "Søye", "Lyn" : "Kalv", "Stråmann" : "Vær", "Blåmann" : "Okse",
+               "Grynte" : "Gris", "Pål" : "Kalv", "Askguri" : "Ku", "Hansen" : "Lam", "Du" : "Søye",
+               "Bente" : "Søye", "Marit" : "Søye", "Martin" : "Lam", "Pelle" : "Lam", "Anita" : "Lam",
+               "Bernt" : "Vær", "Jompa" : "Lam", "Grislam" : "Lam", "Ku" : "Vær", "OK" : "Søye", "ArveLarve" : "Lam",
+               "Sigurd" : "Lam", "Janne" : "Søye", "Nikita" : "Søye", "Saul" : "Søye", "Bonde" : "Søye",
+               "Thor" : "Vær", "FandenIhelsike" : "Okse", "Mathis" : "Kalv", "Kalle" : "Kalv", "VonKarme" : "Søye",
+               "Vegard" : "Okse", "Sindre" : "Lam", "Toffe" : "Søye", "Dennis" : "Søye", "Prebz" : "Vær",
+               "Theodore" : "Ku", "Turbine" : "Søye", "Guri" : "Søye", "Karl" : "Ku", "Karianne" : "Lam", "Grisveitj" : "Søye",
+               "Grismainn" : "Okse", "Gress" : "Søye", "Esben" : "Lam", "Prut" : "Søye", "Kola" : "Søye", "Peter" : "Søye", "Lom" : "Vær" }
+# IKKE ENDRE PÅ DENNE KODEN
 
-    def dyretelling(dyr):
-        antall_dyr = 0
-        #SKRIV KODE HER
-        return antall_dyr
+def dyretelling(dyr):
+    antall_dyr = 0
+    #SKRIV KODE HER
+    return antall_dyr
 
-    # IKKE ENDRE PÅ DENNE KODEN
-    def main():
-        dyreliste = [ "Ku", "Okse", "Kalv", "Søye", "Vær", "Lam" ]
-        dyr = input("Skriv inn hvilket dyr som skal telles opp: ")
-        while dyr not in dyreliste:
-            print("Ugyldig dyr.")
+# IKKE ENDRE PÅ DENNE KODEN
+def main():
+    dyreliste = [ "Ku", "Okse", "Kalv", "Søye", "Vær", "Lam" ]
+    dyr = input("Skriv inn hvilket dyr som skal telles opp: ")
+    while dyr not in dyreliste:
+        print("Ugyldig dyr.")
             dyr = input("Skriv inn hvilket dyr som skal telles opp: ")
         print(dyretelling(dyr))
-    # IKKE ENDRE PÅ DENNE KODEN
+# IKKE ENDRE PÅ DENNE KODEN
 
-    main() # IKKE ENDRE PÅ DENNE KODEN
-    ```
+main() # IKKE ENDRE PÅ DENNE KODEN
+```
