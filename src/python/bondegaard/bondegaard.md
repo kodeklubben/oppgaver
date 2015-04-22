@@ -9,9 +9,9 @@ author: Vegard Bjerkli Bugge
 I denne oppgaven skal vi se nærmere på ordister, eller **dictionaries**, som de kalles på engelsk. Ordlister i Python er det som på fagspråket kalles for **assossiative tabeller**.
 Ordlister kjennetegnes ved at hvert element er et par av to stykker data, kalt *ting* (**items** på engelsk). Ordlista kan inneholde mange forskjellige ting. Hvert element i en ordliste ser slik ut:
 
-    ```python
+```python
 nøkkel : verdi
-    ```
+```
 
 Det som står på venstre side av kolonet kalles for nøkkelen. Nøkkelen er en verdi vi vet om som er lagret i ordlista og som har en assosiert verdi vi vil vite og som vi får tak ved å "slå opp" i ordlista.
 En nøkkel i ordlista kan være av en hvilken som helst immutabel (det vil si ikke redigerbar) datatype, som for eksempel tekst eller tall. På høyre side av kolonet står verdien nøkkelen assosieres med.
@@ -20,11 +20,11 @@ Verdien man finner i ordlistens "oppslagsord", kan være både heltall, desimalt
 Ordlister er kjekke å ha. Vi bruker ordlister når vi vil kategorisere ting eller navn eller strenger eller tall eller variabler eller hva det måtte være.
 For å finne ut verdien en spesifikk nøkkel *key* assossieres med i ordlista *dict*, "slår vi opp på ordet" ved å skrive
 
-    ```python
-    dict.get(key)
-    #eller
-    dict[key]
-    ```
+```python
+dict.get(key)
+#eller
+dict[key]
+```
 
 Hvis vi vil lage en ordliste i Python, skriver vi først navnet på variabelen som skal peke på ordlista vi oppretter.
 Så skriver vi er lik ( = ), og deretter en høyrevendt krøllparantes ( { ) for å markere starten av ordlista. Så skriver vi inn alle nøklene sammen med de assosierte verdiene.
