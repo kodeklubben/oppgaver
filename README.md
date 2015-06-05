@@ -73,8 +73,14 @@ fra filbehandleren.
 ## Problemer og support
 [![Chat med oss på gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kodeklubben/oppgaver)
 
-Dersom du har problemer med å komme i gang, hjelper vi deg gjerne om du kommer
-og [chatter med oss på gitter](https://gitter.im/kodeklubben/oppgaver).
+Prøv først dette:
+
+- Åpne terminalen
+- Gå til oppgaver-repoet med `cd`, eks: `cd Downloads/oppgaver`
+- Skriv inn `./setup`
+
+Dersom du fortsatt har problemer, hjelper vi deg gjerne over en [chat på
+gitter](https://gitter.im/kodeklubben/oppgaver).
 
 ## Filstruktur og formatering
 Alle oppgavene finnes i katalogen [src](src). Hver mappe i `src`
