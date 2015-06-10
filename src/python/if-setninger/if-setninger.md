@@ -32,7 +32,7 @@ if age > 18:
 
  * `if` forteller datamaskinen at nå kommer det en `if`-setning
  * `age > 18` tester om `age`-variabelen er større enn 18
- * `:` betyr at nå er vi ferdig med testen vår, og nå kommer koden som skal kjøres.
+ * `:` betyr at vi er ferdig med testen vår, og nå kommer koden som skal kjøres hvis testen er sann.
 
 Legg merke til at det er et "innrykk" før `print`. Dette innrykket sørger for
 at datamaskinen vet nøyaktig hvilken kode som skal kjøres hvis `if`-setningen er
