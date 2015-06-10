@@ -5,7 +5,7 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 ---
 
 # Introduksjon {.intro}
-Vi har allerede lært at vi kan ta bruke `input()` for å få tekst fra
+Vi lærte i [Kuprat](../kuprat/kuprat.html) at vi kan bruke `input()` for å få tekst fra
 brukeren og `print()` for å skrive ut tekst til brukeren. Det kan for
 eksempel gjøres slik:
 
