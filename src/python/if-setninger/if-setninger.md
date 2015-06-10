@@ -14,13 +14,13 @@ navn = input("Hva er navnet ditt? ")
 print("Hei, " + navn)
 ```
 
-I denne oppgaven skal vi lære hvordan vi kan bruke if-setninger for å la
+I denne oppgaven skal vi lære hvordan vi kan bruke `if`-setninger for å la
 programmet bestemme hva det skal gjøre, helt avhengig av hva brukeren
 skriver inn.
 
 # Steg 1: En enkel if-setning {.activity}
 
-En if-setning fungerer slik:
+En `if`-setning fungerer slik:
 
 ```python3
 age = 22
@@ -30,12 +30,12 @@ if age > 18:
 
 `if age > 18:` kan deles opp i tre deler.
 
- * `if` forteller datamaskinen at nå kommer det en if-setning
+ * `if` forteller datamaskinen at nå kommer det en `if`-setning
  * `age > 18` tester om `age`-variabelen er større enn 18
  * `:` betyr at nå er vi ferdig med testen vår, og nå kommer koden som skal kjøres.
 
 Legg merke til at det er et "innrykk" før `print`. Dette innrykket sørger for
-at datamaskinen vet nøyaktig hvilken kode som skal kjøres hvis if-setningen er
+at datamaskinen vet nøyaktig hvilken kode som skal kjøres hvis `if`-setningen er
 sann. Dersom du glemmer dette kan det være at datamaskinen gjør noe annet enn
 det du hadde tenkt, eller ikke vil kjøre programmet ditt i det hele tatt!
 
@@ -47,7 +47,7 @@ Hva skjer om du endrer retningen på ulikhetstegnet, til `age < 18`?
 
 # Steg 2: Hvis.. {.activity}
 
-Vi har altså lært at if-setningen sjekker om en test blir sann, og bare kjører
+Vi har altså lært at `if`-setningen sjekker om en test blir sann, og bare kjører
 koden som har et innrykk hvis testen er sann.
 
 Hva skjer når vi kjører denne koden?
