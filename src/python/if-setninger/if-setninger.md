@@ -47,8 +47,9 @@ Hva skjer om du endrer retningen på ulikhetstegnet, til `age < 18`?
 
 # Steg 2: Hvis.. {.activity}
 
-Vi har altså lært at `if`-setningen sjekker om en test blir sann, og bare kjører
-koden som har et innrykk hvis testen er sann.
+Vi lærte i [Steg 1](#steg-1-en-enkel-if-setning) at `if`-setninger sjekker om en test
+blir sann, og hvis testen er sann kjøres koden som har innrykk etter
+`if`-setningen.
 
 Hva skjer når vi kjører denne koden?
 
@@ -81,26 +82,28 @@ if 7 == 2*4:
 
 # Steg 3: Litt mer avansert {.activity}
 
-Vi har lyst til å skrive et program som hilser på personer som heter "Per".
+* Vi har lyst til å skrive et program som hilser på personer som heter "Per".
+    Dette kan vi gjøre slik:
 
-```python3
-navn = input("Hva heter du? ")
-if navn == "Per":
-    print("Hei!")
+    ```python3
+    navn = input("Hva heter du? ")
+    if navn == "Per":
+        print("Hei!")
+        print("Hyggelig å hilse på deg," + navn + "!")
+    ```
+
+    Her har vi to linjer med innrykk! Begge disse kjøres om testen er sann, og
+    kjører ikke om testen er usann.
+
+* Men hva skjer om den ene linjen ikke har et innrykk, slik som i koden under?
+
+    ```python3
+    navn = input("Hva heter du? ")
+    if navn == "Per":
+        print("Hei!")
     print("Hyggelig å hilse på deg," + navn + "!")
-```
+    ```
 
-Her har vi to linjer med innrykk! Begge disse kjøres om testen er sann.
+    Hva blir skrevet ut nå?
 
-## Prøv det! {.try}
-
-Hva skjer om den ene linjen ikke har et innrykk?
-
-```python3
-navn = input("Hva heter du? ")
-if navn == "Per":
-    print("Hei!")
-print("Hyggelig å hilse på deg," + navn + "!")
-```
-
-Hva blir skrevet ut nå? Prøv med ulike navn!
+* Prøv deg frem med ulike navn!
