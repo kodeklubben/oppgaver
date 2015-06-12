@@ -10,6 +10,49 @@ I denne oppgaven skal vi reptere litt Python-syntaks. Hele dette kurset
 er for de som har programmert Python før. Dersom du aldri har programmert
 Python før bør du starte med [introduksjonskurset i Python](../../python/index.html).
 
+
+# Kodeblokker {.activity}
+I oppgavene er noen eksempler så korte at vi kan skrive de direkte inn i
+Python. Her er en kodeblokk som illustrerer et kort eksempel:
+
+```python
+>>> 1 == 2
+False
+```
+
+Her betyr `>>> ` at Python er klar til å ta imot kode, `1 == 2` er koden, mens
+`False` er svaret.
+
+I andre eksempler er det ikke noe svar, men en utskrift av tekst isteden:
+
+```python
+>>> print("Hei!")
+Hei!
+```
+
+Når vi ikke bruker `>>>` i kodeblokkene, er det fordi koden er flere linjer
+lang. Da er det bedre å bruke en fil:
+
+```python
+for i in range(5):
+    if i == 3:
+        print(i)
+    else:
+        print(2*i)
+```
+
+Og når vi kjører denne filen i IDLE får vi utskriften:
+
+```python
+>>>
+0
+2
+4
+3
+8
+```
+
+
 # Input og output {.activity}
 
 ## input() og print() {.protip}
@@ -79,9 +122,9 @@ skal gå. Det kan for eksempel fungere slik:
 
 <pre>
 >>>
-<font color="blue">Hei! Hva er alderen din?</font>
-77
-<font color="blue">Du er visst en pensjonist.</font>
+Hei! Hva er alderen din?
+<font color="blue">77</font>
+Du er visst en pensjonist.
 </pre>
 
 Det du trenger å gjøre er:
