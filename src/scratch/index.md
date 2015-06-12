@@ -2,6 +2,4 @@
 title: Scratch
 ---
 
-# Scratch
-
 
