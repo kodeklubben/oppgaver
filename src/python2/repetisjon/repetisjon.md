@@ -73,16 +73,24 @@ else:
 <!--A little workaround to avoid checklist being a part of protip-->
 # {.check}
 
-* Skriv et program som spør om brukerens alder, og skriver ut om de er barn,
-  ungdom, voksen eller pensjonist. Du kan selv bestemme hvor aldersgrensene
-  skal gå, men det må være realistisk. Det kan for eksempel fungere slik:
+Du skal nå lage et program som finner ut hvilken aldersgruppe brukeren er i;
+barn, ungdom, voksen eller pensjonist. Du kan selv bestemme hvor aldersgrensene
+skal gå. Det kan for eksempel fungere slik:
 
-    <pre>
-    >>>
-    Hei! Hva er alderen din?
-    <font color="blue">77</font>
-    Du er visst en pensjonist.
-    </pre>
+<pre>
+>>>
+<font color="blue">Hei! Hva er alderen din?</font>
+77
+<font color="blue">Du er visst en pensjonist.</font>
+</pre>
+
+Det du trenger å gjøre er:
+
+* Spør om brukerens alder.
+* Lagre alderen til en variabel.
+* Test om alderen er barn, ungdom, voksen eller pensjonist.
+* Skriv ut hvilken aldersgruppe brukeren er i.
+
 
 # Løkker {.activity}
 
