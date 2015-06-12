@@ -15,15 +15,17 @@ Python før bør du starte med [introduksjonskurset i Python](../../python/index
 ## input() og print() {.protip}
 
 Vi kan bruke `print()` når vi skal skrive ut tekst til brukeren.
+Koden etter `>>>` er kode vi skriver inn i f.eks. IDLE, og som
+kjøres med en gang.
 
-```python3
+```python
 >>> print("Hei, verden")
 Hei, verden
 ```
 
 `input()` brukes når du ønsker å la brukeren gi input til programmet ditt.
 
-```python3
+```python
 >>> number = input("Skriv inn et tall: ")
 Skriv inn et tall: 15
 >>> print("Du skrev inn: " + str(number))
@@ -51,12 +53,12 @@ bli sann eller usann. Dersom testen er sann, kjøres koden i testblokken. `else`
 trenger ikke en test, men kjøres bare når de tidligere testene har vært usanne.
 
 Husk at du alltid må starte med en `if`-setning, og må ha alle `elif`-setningene
-før en `else`-blokk. Du *trenger* ikke å bruke verken `elif`-setninger eller
+før en `else`-blokk. Du *trenger ikke* å bruke verken `elif`-setninger eller
 `else`-blokk dersom du ikke ønsker det.
 
 For eksempel slik:
 
-```python3
+```python
 name = "Ada"
 if name == "Per":
     print("Per er et guttenavn")
@@ -88,8 +90,8 @@ else:
 
 `for`-løkker brukes når vi ønsker å gjøre ting flere ganger.
 
-```python3
-# print "Hello" three times
+```python
+# print Hello three times
 for i in range(3):
     print("Hello")
 ```
@@ -105,8 +107,8 @@ Hello
 
 Vi kan også bruke `for`-løkker når vi ønsker å gå igjennom ei liste:
 
-```python3
-# print each element in the list `food_list`
+```python
+# print all elements in the list food_list
 food_list = ["eggs", "ham", "spiced ham", "jam"]
 for food in food_list:
     print(food)
@@ -125,14 +127,14 @@ jam
 <!--A little workaround to avoid checklist being a part of protip-->
 # {.check}
 
-* Lag ei liste med navn, og skriv ut alle navnene i lista. Dette kan se slik ut:
+* Lag ei liste med navn, og skriv ut alle navnene i lista. Resultatet kan se slik ut:
 
-    <pre>
+    ```
     >>>
     Per
     Ada
     Kim
-    </pre>
+    ```
 
 # range() {.protip}
 
@@ -150,7 +152,7 @@ Dersom vi ønsker å skrive ut lista, må vi bruke `list()` som konverterer
 `range()` til ei liste. Her er noen eksempler:
 
 
-```python3
+```python
 >>> print(list(range(1, 10, 1)))
 [0, 1, ..., 8, 9]
 >>> print(list(range(10)))
@@ -164,7 +166,7 @@ Dersom vi ønsker å skrive ut lista, må vi bruke `list()` som konverterer
 `range()` kan prukes på mange måter, vi kan for eksempel gå igjennom den og
 summere alle tallene fra 1 til 100:
 
-```python3
+```python
 sum = 0
 for number in range(1, 101):
     sum += number
@@ -176,7 +178,7 @@ print(number)
 `while`-løkker har mange ulike bruksområder. De kan for eksempel brukes når
 du vil kjøre kode så lenge du ikke får en bestemt verdi:
 
-```python3
+```python
 word = ""
 while word != "exit":
     print(word)
@@ -185,7 +187,7 @@ while word != "exit":
 
 Den samme løkken kan også skrive slik:
 
-```python3
+```python
 while True:
     word = input("Please write a word: ")
     if word == "exit":
@@ -206,7 +208,7 @@ while True:
 Funksjoner lar oss gjenbruke kode, og er svært nyttig når vi skal programmere
 mer enn noen få linjer. En funksjon er på formen:
 
-```python3
+```python
 def greet(name):
     print("Hei, " + name + "!")
 
@@ -221,7 +223,7 @@ når vi kaller den.
 
 Vi kan også ha funksjoner som returnerer en verdi. Det vil se slik ut:
 
-```python3
+```python
 def multiply(x, y):
     product = x*y
     return product
@@ -234,7 +236,7 @@ def multiply(x, y):
   får inn, før den så _returnerer_ summen av tallene. Test at funksjonen din
   fungerer som dette:
 
-    ```python3
+    ```python
     >>> sum = add(3, 4)
     Fikk inn 3 og 4
     >>> print(sum)
