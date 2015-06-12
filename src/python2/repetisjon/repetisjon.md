@@ -146,39 +146,40 @@ jam
 
 # range() {.protip}
 
-Vi kan bruke `range()` for å få ei slags liste med tall, som vi kan bruke
-løkker for å gå igjennom. `range()` tar inn tre argumenter `start`, `stop`,
-`step`.
+`range()` lager en rekke med tall. Rekken kan brukes til å gjøre noe mange
+ganger med hjelp av en `for`- eller `while`-løkke. `range()` tar inn tre
+argumenter `start`, `stop`, `step`:
 
- * `start` forteller hvor vi skal begynne å telle fra
- * `stop` forteller hvor vi skal slutte å telle fra, merk at vi **ikke** teller
-    med slutt tallet.
- * `step` forteller hvor mye vi skal telle med om gangen. Vi kan for eksempel
-    telle med `2` om gangen, eller med `100` om gangen, hvis vi vil.
+ * `start` forteller hva vi skal telle fra.
+ * `stop` forteller hva vi skal telle til, merk at vi **ikke** teller
+    med slutt-tallet.
+ * `step` forteller hvor store steg vi skal telle med. Vi kan for eksempel
+    telle med steg på `2` eller steg på `100`.
 
-Dersom vi ønsker å skrive ut lista, må vi bruke `list()` som konverterer
-`range()` til ei liste. Her er noen eksempler:
+Ettersom rekken lages etterhvert som man teller over den, må man konvertere
+rekken til en liste dersom vi ønsker å se tallene i rekken. Rekken konverteres
+til en liste med `list()`. Her er noen eksempler:
 
 
 ```python
->>> print(list(range(1, 10, 1)))
-[0, 1, ..., 8, 9]
->>> print(list(range(10)))
-[0, 1, ..., 8, 9]
->>> print(list(range(200, 500)))
-[200, 201, ..., 498, 499]
->>> print(list(range(0, 50, 5)))
-[0, 5, ..., 40, 45]
+>>> list(range(1, 10, 1))
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(200, 500))
+[200, 201, 202, ..., 497, 498, 499]
+>>> list(range(0, 50, 5))
+[0, 5, 10, 15, 20, 25, 30, 35, 40, 45]
 ```
 
-`range()` kan prukes på mange måter, vi kan for eksempel gå igjennom den og
+`range()` kan brukes på mange måter, vi kan for eksempel gå igjennom den og
 summere alle tallene fra 1 til 100:
 
 ```python
 sum = 0
 for number in range(1, 101):
     sum += number
-print(number)
+print(sum)
 ```
 
 # while-løkker {.protip}
