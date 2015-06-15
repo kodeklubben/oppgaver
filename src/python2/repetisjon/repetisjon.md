@@ -52,6 +52,14 @@ Og når vi kjører denne filen i IDLE får vi utskriften:
 8
 ```
 
+Noen ganger har vi eksempler med input fra brukeren. Da vil teksten brukeren
+skriver være grønn, mens det programmet skriver ut vil være svart:
+
+<pre>
+>>>
+Hva heter du? <font color="green">Ada</font>
+Hei, Ada!
+</pre>
 
 # Input og output {.activity}
 
@@ -83,7 +91,7 @@ Du skrev inn: 15
     <pre>
     >>>
     Hei! Hva er navnet ditt?
-    <font color="blue">Per</font>
+    <font color="green">Per</font>
     Hyggelig å treffe deg, Per!
     </pre>
 
@@ -125,7 +133,7 @@ skal gå. Det kan for eksempel fungere slik:
 <pre>
 >>>
 Hei! Hva er alderen din?
-<font color="blue">77</font>
+<font color="green">77</font>
 Du er visst en pensjonist.
 </pre>
 
