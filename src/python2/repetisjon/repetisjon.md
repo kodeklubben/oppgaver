@@ -85,15 +85,21 @@ Du skrev inn: 15
 <!--A little workaround to avoid checklist being a part of protip-->
 # {.check}
 
-* Skriv et program som spør om brukerens navn, og så skriver ut en
-  hilsen til brukeren. Det kan for eksempel fungere slik:
+Skriv et program som spør om brukerens navn, og så skriver ut en
+hilsen til brukeren. Det kan for eksempel fungere slik:
 
-    <pre>
-    >>>
-    Hei! Hva er navnet ditt?
-    <font color="green">Per</font>
-    Hyggelig å treffe deg, Per!
-    </pre>
+<pre>
+>>>
+Hei! Hva er navnet ditt?
+<font color="green">Per</font>
+Hyggelig å treffe deg, Per!
+</pre>
+
+Dette må du gjøre:
+
+ * Spør om brukerens navn.
+ * Lagre brukerens navn i en variabel.
+ * Skriv ut en hilsen til brukeren som inneholder navnet brukeren skrev inn.
 
 # if-elif-else {.activity}
 
@@ -188,14 +194,21 @@ jam
 <!--A little workaround to avoid checklist being a part of protip-->
 # {.check}
 
-* Lag ei liste med navn, og skriv ut alle navnene i lista. Resultatet kan se slik ut:
+Du skal nå lage ei liste med navn, og skrive ut alle navnene i lista. Resultatet
+kan se omtrent slik ut:
 
-    ```
-    >>>
-    Per
-    Ada
-    Kim
-    ```
+```
+>>>
+Per
+Ada
+Kim
+```
+
+Dette du må gjøre:
+
+ * Lag ei liste med navn.
+ * Bruk ei løkke for å gå igjennom lista med navn.
+ * Skriv ut hvert navn.
 
 # range() {.protip}
 
@@ -260,8 +273,16 @@ while True:
 <!--A little workaround to avoid checklist being a part of protip-->
 # {.check}
 
-* Skriv et program som summerer alle tallene fra 1 til 100, ved hjelp av ei
-  `while`-løkke. Pass på at du får `5050` som svar.
+Skriv et program som summerer alle tallene fra `1` til `100` ved hjelp av ei
+`while`-løkke. Pass på at du får `5050` som svar.
+
+Dette må du gjøre:
+
+ * Lag en variabel som inneholder delsummen.
+ * Lag en tellevariabel som inneholder tallet du er kommet til.
+ * Så lenge tellevariabelen ikke er større enn 100:
+    * Oppdater summen.
+    * Inkrementer tellevariabelen din.
 
 # Funksjoner {.activity}
 
@@ -294,13 +315,21 @@ def multiply(x, y):
 <!--A little workaround to avoid checklist being a part of protip-->
 # {.check}
 
-* Skriv en funksjon, `add(x, y)` som tar inn to tall som parametre, skriver ut tallene den
-  får inn, før den så _returnerer_ summen av tallene. Test at funksjonen din
-  fungerer som dette:
+Nå skal vi lage en funksjon som adderer to tall. Denne tar inn to tall som parametre,
+skriver ut tallene den får inn, og **returnerer** summen av tallene. Test at
+funksjonen din fungerer som dette:
 
-    ```python
-    >>> sum = add(3, 4)
-    Fikk inn 3 og 4
-    >>> print(sum)
-    7
-    ```
+
+```python
+>>> sum = add(3, 4)
+Fikk inn 3 og 4
+>>> print(sum)
+7
+```
+
+Dette må du gjøre:
+
+ * Definer en funksjon som tar inn to tall som parametre.
+ * Skriv ut tallene du fikk inn.
+ * Regn ut summen.
+ * Returner summen.
