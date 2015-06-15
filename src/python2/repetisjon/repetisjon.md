@@ -7,7 +7,7 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi reptere litt Python-syntaks. Hele dette kurset
-er for de som har programmert Python før. Dersom du aldri har programmert
+er for de som har programmert Python før. Dersom ikke har mye erfaring med
 Python før bør du starte med [introduksjonskurset i Python](../../python/index.html).
 
 
@@ -91,9 +91,11 @@ Du skrev inn: 15
 
 ## {.protip}
 
-`if`- og `elif`-setninger trenger en test. Koden som skal kjøres i testen må
-bli sann eller usann. Dersom testen er sann, kjøres koden i testblokken. `else`
-trenger ikke en test, men kjøres bare når de tidligere testene har vært usanne.
+Vi bruker `if`, `elif` og `else` for å bestemme hva som skjer i et program.
+Etter `if` og `elif` kommer en test og deretter `:`, mens etter `else` kommer
+alltid `:` uten noen test. På linjen under `:` skrives kodeblokken som skal
+kjøres dersom testen er sann (`if` eller `elif`), eller dersom alle testene
+usanne (`else`).
 
 Husk at du alltid må starte med en `if`-setning, og må ha alle `elif`-setningene
 før en `else`-blokk. Du *trenger ikke* å bruke verken `elif`-setninger eller
