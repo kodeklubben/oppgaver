@@ -40,11 +40,10 @@ og [node](//nodejs.org). Når du har installert git og node, kan du følge
 anvisningene under. Anvisningene er kommandoer som må skrives inn i en konsoll.
 
 #### Ubuntu-brukere merk dette!
-For å installere node trenger man å installere både *nodejs* og *npm*, samt lenke
-*nodejs* til *node* (ellers vil installasjonen av noen pakker feile).
+For å installere node trenger man både *nodejs-legacy* og *npm*:
+
 ```sh
-sudo apt-get install nodejs npm git
-sudo ln -s /usr/bin/nodejs /usr/local/bin/node
+sudo apt-get install nodejs-legacy npm git
 ```
 
 #### Laste ned oppgavene
