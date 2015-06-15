@@ -6,7 +6,7 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi reptere litt Python-syntaks. Hele dette kurset
+I denne oppgaven skal vi repetere litt Python-syntaks. Hele dette kurset
 er for de som har programmert Python før. Dersom ikke har mye erfaring med
 Python før bør du starte med [introduksjonskurset i Python](../../python/index.html).
 
@@ -251,7 +251,7 @@ print(sum)
 # while-løkker {.protip}
 
 `while`-løkker har mange ulike bruksområder. De kan for eksempel brukes når
-du vil kjøre kode så lenge du ikke får en bestemt verdi:
+du vil kjøre kode inntil noe inntreffer:
 
 ```python
 word = ""
@@ -278,7 +278,7 @@ Skriv et program som summerer alle tallene fra `1` til `100` ved hjelp av ei
 
 Dette må du gjøre:
 
- * Lag en variabel som inneholder delsummen.
+ * Lag en variabel som inneholder summen.
  * Lag en tellevariabel som inneholder tallet du er kommet til.
  * Så lenge tellevariabelen ikke er større enn 100:
     * Oppdater summen.
@@ -300,11 +300,11 @@ greet("Per")
 
 Her har vi en funksjon med navn `greet`, som skriver ut en hilsen. `name` er
 et **parameter**, det vil si at `name` er en variabel som funksjonen `greet`
-tar imot. Når vi *kaller* funksjonen `greet`, med `greet("Per")` er `"Per"` et
+tar imot. Når vi **kaller** funksjonen `greet`, med `greet("Per")` er `"Per"` et
 **argument** til funksjonen. Et argument er den variabelen vi gir til funksjonen
 når vi kaller den.
 
-Vi kan også ha funksjoner som returnerer en verdi. Det vil se slik ut:
+Vi kan også lage funksjoner som returnerer en verdi. Det vil se slik ut:
 
 ```python
 def multiply(x, y):
@@ -315,8 +315,7 @@ def multiply(x, y):
 <!--A little workaround to avoid checklist being a part of protip-->
 # {.check}
 
-Nå skal vi lage en funksjon som adderer to tall. Denne tar inn to tall som parametre,
-skriver ut tallene den får inn, og **returnerer** summen av tallene. Test at
+Nå skal vi lage en funksjon som adderer to tall. Test at
 funksjonen din fungerer som dette:
 
 
