@@ -1,100 +1,106 @@
 ---
-title: Tekststrenger 1
+title: Tekst ABC
 level: 1
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 ---
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi begynne med litt enkel manipulering av tekststrenger.
-**Manipulering** betyr i denne sammenhengen å forandre på tekstrengene på ulike
-måter. En **tekststreng** er flere bokstaver etter hverandre. Tekststrenger er
-veldig mye brukt innen programmering, og det er dermed viktig å kunne manipulere
-teksten på ulike måter.
+I denne oppgaven skal vi gjøre enkle operasjoner på tekst, som å endre
+størrelsen på bokstavene og telle ord.
+
+I Python lagrer vi tekst til en **variabel** slik som dette:
+
+```python
+streng = "teksten er her"
+```
+
+Variabelen kalles da **tekststreng** eller bare **streng**, som er typen til
+variabelen.
 
 # Store og små bokstaver {.activity}
 
 ## {.protip}
 
-Den enkleste måten å manipulere tekst på er ved hjelp av funksjoner som endrer
-mellom store og små bokstaver. Disse finnes det mange av. Gitt at vi har en
-tekststreng `s`, så kan vi for eksempel bruke disse funksjonene:
-`s.lower()`, `s.upper()`, `s.title()`, `s.swapcase()` og `s.capitalize()`.
+En måte å endre tekst på er ved hjelp av funksjoner. Innebygget i Python finnes
+flere slike funksjoner. Gitt at vi har tekst i en variabel kalt `s`, så kan vi
+bruke disse funksjonene: `s.lower()`, `s.upper()`, `s.title()`, `s.swapcase()`
+og `s.capitalize()`.
 
-Legg merke til at vi funksjonene kalles **på tekstrengen** istedenfor å gi
-tekststrengen til funksjonene.
+Legg merke til at funksjonen kalles **på** strengen - `s.lower()` - istedenfor
+å **gi** strengen til funksjonen - `lower(s)`.
 
 
-Her er noen eksempler på hvordan funksjonene brukes. Legg merke til hvilke
-bokstaver som er store og små det skrives ut:
+Her er noen eksempler på hvordan funksjonene brukes (legg merke til hvilke
+bokstaver som er store og små i utskriften):
 
 ```python
 >>> s = "Per og Ada"
->>> print(s.upper())        # Bare store bokstaver
-PER OG ADA
->>> print(s.lower())        # Bare små bokstaver
-per og ada
->>> print(s.capitalize())   # Første bokstav i tekststrengen er stor
-Per og ada
->>> print(s.title())        # Første bokstav i hvert ord er stor
-Per Og Ada
->>> print(s.swapcase())     # Gjør store bokstaver små, og motsatt
-pER oG aDA
+>>> s.upper()        # store bokstaver
+'PER OG ADA'
+>>> s.lower()        # små bokstaver
+'per og ada'
+>>> s.capitalize()   # første bokstav er stor
+'Per og ada'
+>>> s.title()        # første bokstav i hvert ord er stor
+'Per Og Ada'
+>>> s.swapcase()     # bytter stor og små
+'pER oG aDA'
 ```
 
-Når bruker vi de ulike funksjonene? Her er noen flere eksempler:
+Her er noen eksempler på hva funksjonene kan brukes til:
 
-* `s.capitalize()` kan brukes når vi ønsker stor forbokstav i en tekststreng:
+* `s.capitalize()` brukes når vi ønsker stor forbokstav kun i begynnelsen:
 
     ```python
     >>> sentence = "dENne sETNinGeN har IKKE riKTige bokSTAVstØrReLSER."
-    >>> print(sentence.capitalize())
-    Denne setningen har ikke riktige bokstavstørrelser.
+    >>> sentence.capitalize()
+    'Denne setningen har ikke riktige bokstavstørrelser.'
     ```
-* `s.title()` kan eksempelvis brukes når vi skal skrive filmtitler:
+* `s.title()` kan brukes når vi skal skrive filmtitler:
 
     ```python
     >>> movie_title = "star wars: a new hope"
-    >>> print(movie_title.title())
-    Star Wars: A New Hope
+    >>> movie_title.title()
+    'Star Wars: A New Hope'
     ```
 
-* `s.upper()` og `s.lower()` har mange ulike bruksområder. De er kanskje mest
-  nyttige når du skal sammenlikne setninger uten å ta hensyn til store og
-  små bokstaver. Her er et galt eksempel, og et riktig eksempel:
+* `s.upper()` og `s.lower()` kan brukes når vi ønsker å sammenlikne tekst uten
+  å ta hensyn størrelsen på bokstavene:
 
     ```python
     >>> answer = "JA"
-    >>> answer == "ja"  # Galt - bare små bokstaver tillatt
+    >>> answer == "ja"  # JA og ja er ikke lik
     False
     ```
 
     ```python
     >>> answer = "JA"
-    >>> answer.lower() == "ja"  # Rikig
+    >>> answer.lower() == "ja"  # konverter JA til ja for testen
     True
     ```
 
-Det er en ting som man må huske på når man bruker disse funksjonene. De
-endrer **ikke** på variabelen. Derfor må du lagre resultatet i en ny variabel
-om du vil beholde endringen din:
+En ting må man huske på når man bruker disse funksjonene, de endrer **ikke** på
+variabelen. Derfor må du lagre resultatet i en ny variabel om du vil beholde
+endringen din:
 
 ```python
 >>> s = "tekst"
->>> print(s.upper())  # Vi endrer ikke på variabelen!!
-TEKST
->>> print(s)  # Fremdeles små bokstaver
-tekst
+>>> s.upper()  # Vi endrer ikke på variabelen!!
+'TEKST'
+>>> s  # Fremdeles små bokstaver
+'tekst'
 >>> s = s.upper()  # Nå endrer vi på variabelen
->>> print(s)  # Denne gangen er det store bokstaver
-TEKST
+>>> s  # Denne gangen er det store bokstaver
+'TEKST'
 ```
 
 <!--Workaround-->
 # {.check}
 
-Nå skal du lage et lite program som skriver ut filmtitler med store bokstaver
-først i hvert ord:
+Lag et program som skriver ut filmtitler med store bokstaver først i hvert ord.
+
+Programmet skal se slik ut:
 
 <pre>
 >>>
@@ -106,23 +112,21 @@ Dette må du gjøre:
 
  * Be om at brukeren skriver inn en filmtittel.
  * Lagre filmtittelen i en variabel.
- * Manipuler tekststrengen slik at resultatet blir som beskrevet over.
- * Skriv ut den nye tekststrengen.
+ * Manipuler strengen slik at resultatet blir som beskrevet over.
+ * Skriv ut den nye strengen.
 
 
-# Telling av substrenger {.activity}
+# Telling av tekst {.activity}
 
-# s.count() {.protip}
+# {.protip}
 
-En tekststreng i en annen tekststreng ofte en **substreng**. For eksempel er
-`"verden"` en substreng av `"Hei verden!"`. Noen ganger ønsker man å finne ut
-om en tekststreng har en bestemt substreng, og hvor mange ganger substrengen
-finnes i tekststrengen.
+Ved hjelp av `s.count()` kan vi finne ut om en streng inneholder en bestemt
+tekst og hvor mange ganger den finnes i strengen. For eksempel så inneholder
+strengen `"Hei verden!"` teksten `"verden"` en gang.
 
-Tenk deg at du ønsker å finne ut hvor mange kommaer (`,`) som er i denne
-tekststrengen: `"A, B, C, D, E, F, G, H, I, J, K, L"`. Du tenker sikkert at
-det er enkelt å telle for hånd, men dette er ikke like gøy som å få
-datamaskinen til å gjøre det for oss. Til dette kan vi bruke `s.count()`.
+Tenk deg at du ønsker å finne ut hvor mange kommaer som er i `"A, B, C, D, E,
+F, G, H, I, J, K, L"`. Det er enkelt å telle for hånd, men ikke like gøy som å
+la datamaskinen gjøre det:
 
 ```python
 >>> s = "A, B, C, D, E, F, G, H, I, J, K, L"
@@ -130,7 +134,7 @@ datamaskinen til å gjøre det for oss. Til dette kan vi bruke `s.count()`.
 11
 ```
 
-Vi kan også telle lengre substrenger, for eksempel `"Per"`:
+Vi kan også telle tekst som er lengre, for eksempel `"Per"`:
 
 ```python
 >>> s = "Per, Ada, Kim, Per, Kim, Per"
@@ -142,24 +146,23 @@ Vi kan også telle lengre substrenger, for eksempel `"Per"`:
 <!--Workaround-->
 # {.check}
 
-Du skal nå skrive et lite program som teller hvor mange ord det er i
-tekststrengen brukeren skriver inn. Dette kan vi løse ved å telle hvor mange
-mellomrom (`" "`) det er, også legge til `1`. Forstår du hvorfor det er slik?
+Lag et program som teller hvor mange ord det er i det brukeren skriver inn.
+Antall ord kan regnes ut ved å telle antall mellomrom, og deretter legge til 1.
+Forstår du hvorfor man må legge til 1?
 
-Slik skal programmet fungere:
+Slik skal programmet se ut:
 
 <pre>
 >>>
-Skriv inn en tekststreng: <font color="green">Hei på deg</font>
+Skriv inn en streng: <font color="green">Hei på deg</font>
 Du skrev inn 3 ord.
 </pre>
 
 Dette må du gjøre:
 
- * Be brukeren om en tekststreng.
- * Lagre tekstrengen i en variabel.
- * Lagre antall mellomrom i en variabel.
- * Legg til `1` til mellomroms-variabelen.
- * Skriv ut en tekst til brukeren som forteller hvor mange ord det er.
+ * Be brukeren om tekst.
+ * Lagre teksten til en variabel.
+ * Regn ut hvor mange ord som er i teksten.
+ * Skriv ut hvor mange ord teksten inneholder.
 
     **Hint:** husk å konvertere fra tall til tekst med `str()`-funksjonen.
