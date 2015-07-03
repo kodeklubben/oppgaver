@@ -1,6 +1,7 @@
 import pygame.draw
 import math
 import random
+import string
 
 ##################
 # global constants
@@ -72,8 +73,8 @@ def start_game():
     game_state["running"] = True
     game_state["used_tries"] = 0
     game_state["remaining_letters"] = []
-    for ordinal in range(ord('a'), ord('z')+1):
-        game_state["remaining_letters"].append(chr(ordinal))
+    for i in range(26):
+        game_state["remaining_letters"].append(string.ascii_letters[i])
     game_state["word"] = random.choice(WORDS)
     game_state["pressed_button"] = ""
     create_word_string()
