@@ -1,5 +1,12 @@
 #!/bin/bash
-# shortcut for gulp
-cd ${0%/*}
-cd codeclub_lesson_builder
-./node_modules/gulp/bin/gulp.js "$@"
+CWD=codeclub_lesson_builder
+MODULES=$CWD/node_modules
+
+
+if [ $# -eq 0 ]; then
+  # no args, run forever
+  ./$MODULES/forever/bin/forever $MODULES/gulp/bin/gulp.js --cwd $CWD
+else
+  # arg supplied, do not run forever
+  ./$MODULES/gulp/bin/gulp.js --cwd $CWD "$@"
+fi
