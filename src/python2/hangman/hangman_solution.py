@@ -62,7 +62,7 @@ def main():
 
 
 def game_over():
-    """Runs when the game is over. `hasWon` indicates whether the player won"""
+    """Runs when the game is over"""
 
     game_state["running"] = False
     game_state['display_string'] = create_display_string(game_state['secret_word'], [])
