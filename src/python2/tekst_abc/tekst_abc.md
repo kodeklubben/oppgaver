@@ -50,7 +50,7 @@ bokstaver som er store og små i utskriften):
 
 Her er noen eksempler på hva funksjonene kan brukes til:
 
-* `s.capitalize()` brukes når vi ønsker stor forbokstav kun i begynnelsen:
+* `s.capitalize()` brukes når vi ønsker stor forbokstav kun i begynnelsen av teksten:
 
     ```python
     >>> sentence = "dENne sETNinGeN har IKKE riKTige bokSTAVstØrReLSER."
@@ -80,9 +80,8 @@ Her er noen eksempler på hva funksjonene kan brukes til:
     True
     ```
 
-En ting må man huske på når man bruker disse funksjonene, de endrer **ikke** på
-variabelen. Derfor må du lagre resultatet i en ny variabel om du vil beholde
-endringen din:
+Du må huske på at disse funksjonene **ikke** endrer på variabelen. Derfor må du
+lagre resultatet i en ny variabel om du vil beholde endringen din:
 
 ```python
 >>> s = "tekst"
