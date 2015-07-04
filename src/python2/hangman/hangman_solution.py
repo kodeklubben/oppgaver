@@ -16,7 +16,7 @@ WORDS = ["koding", "kodeklubb", "python", "hangman"]
 # global variables
 
 # contains the game state
-game_state = {}
+state = {}
 
 
 def create_display_string(secret_word, remaining_letters):
@@ -32,40 +32,40 @@ def create_display_string(secret_word, remaining_letters):
 
 def start_game():
     # set the correct game state
-    game_state["running"] = True
-    game_state["used_tries"] = 0
-    game_state["secret_word"] = random.choice(WORDS)
-    game_state["pressed_button"] = ""
-    game_state["help_text"] = "Guess a letter!"
-    game_state["remaining_letters"] = []
+    state["running"] = True
+    state["used_tries"] = 0
+    state["secret_word"] = random.choice(WORDS)
+    state["pressed_button"] = ""
+    state["help_text"] = "Guess a letter!"
+    state["remaining_letters"] = []
     for i in range(26):
-        game_state["remaining_letters"].append(string.ascii_letters[i])
-    game_state['display_string'] = create_display_string(game_state['secret_word'], game_state['remaining_letters'])
+        state["remaining_letters"].append(string.ascii_letters[i])
+    state['display_string'] = create_display_string(state['secret_word'], state['remaining_letters'])
 
 
 def main():
     """Runs every time the clock ticks"""
-    letter = game_state["pressed_button"].lower()
-    if letter in game_state["remaining_letters"]:
-        game_state["remaining_letters"].remove(letter)
-        if letter in game_state["secret_word"]:
-            game_state['display_string'] = create_display_string(game_state['secret_word'], game_state['remaining_letters'])
+    letter = state["pressed_button"].lower()
+    if letter in state["remaining_letters"]:
+        state["remaining_letters"].remove(letter)
+        if letter in state["secret_word"]:
+            state['display_string'] = create_display_string(state['secret_word'], state['remaining_letters'])
         else:
-            game_state["used_tries"] += 1
+            state["used_tries"] += 1
 
-    if game_state["used_tries"] >= 7:
-        game_state['help_text'] = "You lost!"
+    if state["used_tries"] >= 7:
+        state['help_text'] = "You lost!"
         game_over()
-    elif game_state["display_string"].count("_") == 0:
-        game_state['help_text'] = "You won!"
+    elif state["display_string"].count("_") == 0:
+        state['help_text'] = "You won!"
         game_over()
 
 
 def game_over():
     """Runs when the game is over"""
 
-    game_state["running"] = False
-    game_state['display_string'] = create_display_string(game_state['secret_word'], [])
+    state["running"] = False
+    state['display_string'] = create_display_string(state['secret_word'], [])
 
 
 start_game()
@@ -82,7 +82,7 @@ WIDTH = 1000
 HEIGHT = 600
 
 def update():
-    if game_state.get("running", False):
+    if state.get("running", False):
         main()
 
 def draw():
@@ -162,28 +162,28 @@ def draw():
     draw_base()
     body_parts = [draw_head, draw_body, draw_right_leg, draw_left_leg,
                   draw_left_arm, draw_right_arm, draw_face]
-    for i in range(game_state['used_tries']):
+    for i in range(state['used_tries']):
         body_parts[i]()
 
     # fill the lower textbox
-    screen.draw.text(game_state["display_string"], fontsize=100,
+    screen.draw.text(state["display_string"], fontsize=100,
                      centerx=WIDTH//2, centery=5*HEIGHT//6)
 
     # display help text
-    screen.draw.text(game_state["help_text"], fontsize=80, width=500,
+    screen.draw.text(state["help_text"], fontsize=80, width=500,
                      centerx=WIDTH//2, centery=200)
 
     # display remaining letters
     screen.draw.text("Remaining letters:", fontsize=40, width=300,
                      centerx=850, top=50)
-    screen.draw.text("   ".join(game_state["remaining_letters"]),
+    screen.draw.text("   ".join(state["remaining_letters"]),
                      fontsize=50, width=250,
                      centerx=850, top=150)
 
 
 def on_key_down(key):
     """Handles key presses"""
-    if not game_state["running"]:
+    if not state["running"]:
         return
     if key.name.isalpha():
-        game_state["pressed_button"] = key.name
+        state["pressed_button"] = key.name
