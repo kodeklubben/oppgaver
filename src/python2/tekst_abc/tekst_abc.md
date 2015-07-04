@@ -165,3 +165,45 @@ Dette må du gjøre:
  * Skriv ut hvor mange ord teksten inneholder.
 
     **Hint:** husk å konvertere fra tall til tekst med `str()`-funksjonen.
+
+# Erstatte tekst {.activity}
+
+# {.protip}
+
+Vi kan bruke `s.replace()` for å bytte ut tekst i en streng med en annen tekst.
+Hva om vi vil bytte ut alle kommaer med semikolon?
+
+```python
+>>> s = "A, B, C, D, E, F, G, H, I, J, K, L"
+>>> s.replace(",", ";")
+'A; B; C; D; E; F; G; H; I; J; K; L'
+```
+
+Her får `s.replace()` to argumenter - først teksten vi skal erstatte i strengen `s`, og så
+teksten vi skal erstatte med. Vi kan også bruke `s.replace()` for å fjerne
+tekst. Vi kan for eksempel fjerne alle mellomrom:
+
+```python
+>>> s = "1 2 3 4 5"
+>>> s.replace(" ", "")
+'12345'
+```
+<!--Workaround-->
+# {.check}
+
+Noen operativsystemer og programmer oppfører seg rart dersom man lager filnavn
+med mellomrom i. Du vil derfor lage et program som bytter ut alle mellomrom
+med en understrek. I tillegg skal du sørge for at det bare blir brukt små
+bokstaver i filnavnet. Det skal fungere som i programmet under:
+
+<pre>
+>>>
+Skriv inn et filnavn: <font color="green">Min HemMelige FIL.txt</font>
+min_hemmelige_fil.txt
+</pre>
+
+Dette må du gjøre:
+
+ * Spør brukeren om et filnavn
+ * Endre filnavnet slik som beskrevet ovenfor
+ * Skrive ut det nye filnavnet
