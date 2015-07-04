@@ -19,32 +19,28 @@ WORDS = ["koding", "kodeklubb", "python", "hangman"]
 game_state = {}
 
 
-def create_word_string():
+def create_display_string(secret_word, remaining_letters):
     """Creates the hidden word as it is displayed to the player"""
 
     # insert a space between each letter
-    word_string = " ".join(list(game_state["word"]))
+    display_string = " ".join(list(secret_word))
 
-    for letter in game_state["remaining_letters"]:
-        word_string = word_string.replace(letter, '_')
-    game_state["word_string"] = word_string
-
-
-def set_help_string(sentence):
-    """Changes the help string"""
-    game_state["help_string"] = sentence
+    for letter in remaining_letters:
+        display_string = display_string.replace(letter, '_')
+    return display_string
 
 
-def game_over(hasWon):
-    """Runs when the game is over. `hasWon` indicates whether the player won"""
-
-    clock.unschedule(main)  # stop the clock
-
-    game_state["running"] = False
-    if hasWon:
-        set_help_string("You won!")
-    else:
-        set_help_string("Game Over")
+def start_game():
+    # set the correct game state
+    game_state["running"] = True
+    game_state["used_tries"] = 0
+    game_state["secret_word"] = random.choice(WORDS)
+    game_state["pressed_button"] = ""
+    game_state["help_text"] = "Guess a letter!"
+    game_state["remaining_letters"] = []
+    for i in range(26):
+        game_state["remaining_letters"].append(string.ascii_letters[i])
+    game_state['display_string'] = create_display_string(game_state['secret_word'], game_state['remaining_letters'])
 
 
 def main():
@@ -52,35 +48,25 @@ def main():
     letter = game_state["pressed_button"].lower()
     if letter in game_state["remaining_letters"]:
         game_state["remaining_letters"].remove(letter)
-        if letter in game_state["word"]:
-            create_word_string()
+        if letter in game_state["secret_word"]:
+            game_state['display_string'] = create_display_string(game_state['secret_word'], game_state['remaining_letters'])
         else:
             game_state["used_tries"] += 1
 
     if game_state["used_tries"] >= 7:
-        game_over(False)
-    elif game_state["word_string"].count("_") == 0:
-        game_over(True)
+        game_state['help_text'] = "You lost!"
+        game_over()
+    elif game_state["display_string"].count("_") == 0:
+        game_state['help_text'] = "You won!"
+        game_over()
 
-    ###
 
+def game_over():
+    """Runs when the game is over. `hasWon` indicates whether the player won"""
 
-def start_game():
-    # run main 24 times per second
-    clock.schedule_interval(main, 1.0/24)
+    game_state["running"] = False
+    game_state['display_string'] = create_display_string(game_state['secret_word'], [])
 
-    # set the correct game state
-    game_state["running"] = True
-    game_state["used_tries"] = 0
-    game_state["remaining_letters"] = []
-    for i in range(26):
-        game_state["remaining_letters"].append(string.ascii_letters[i])
-    game_state["word"] = random.choice(WORDS)
-    game_state["pressed_button"] = ""
-    create_word_string()
-    game_state["help_string"] = "HANGMAN!"
-
-    set_help_string("Guess a letter")
 
 start_game()
 
@@ -95,6 +81,9 @@ start_game()
 WIDTH = 1000
 HEIGHT = 600
 
+def update():
+    if game_state.get("running", False):
+        main()
 
 def draw():
     """Draws the screen each time the clock ticks"""
@@ -177,11 +166,11 @@ def draw():
         body_parts[i]()
 
     # fill the lower textbox
-    screen.draw.text(game_state["word_string"], fontsize=100,
+    screen.draw.text(game_state["display_string"], fontsize=100,
                      centerx=WIDTH//2, centery=5*HEIGHT//6)
 
     # display help text
-    screen.draw.text(game_state["help_string"], fontsize=80, width=500,
+    screen.draw.text(game_state["help_text"], fontsize=80, width=500,
                      centerx=WIDTH//2, centery=200)
 
     # display remaining letters
