@@ -127,21 +127,23 @@ begynner å telle på null! Du husker kanskje at det samme skjer når vi bruker 
 ```
 
 Til nå har vi brukt `for element in lst` for å gå igjennom elementene i lista,
-men noen ganger kan det være praktisk å bruke indekser til det samme. Da bruker
-vi `range()` og `len()`. Husk at `len()` returnerer lengden til lista. De to
-følgende kodesnuttene gjør akkurat det samme:
+men noen ganger kan det være praktisk også å kunne bruke indeksen til
+elementet. Til dette kan vi bruke `enumerate()`, som gir oss både verdien og
+indeksen:
 
 ```python
-lst = ['Per', 'Kim', 'Ada']
-for element in lst:
-    print(element)
+>>> lst = ['Per', 'Kim', 'Ada']
+>>> for i, value in enumerate(lst):
+        print(str(i) + " " + value)
+
+0 Per
+1 Kim
+2 Ada
 ```
 
-```python
-lst = ['Per', 'Kim', 'Ada']
-for i in range(len(lst))
-    print(lst[i])
-```
+I eksempelet over får `i` verdien av indeksen, og `value` får verdien av
+elementet. Det er nesten som ei vanlig `for`-løkke, men vi får indeksen i
+tillegg.
 
 # {.check}
 
@@ -162,17 +164,13 @@ Skriv inn en gjenstand: <font color="green">skriv ut</font>
 Dette må du gjøre:
 
  * Skriv et program som likner på det du skrev i forrige oppgave
- * Endre på løkka slik at du skriver ut det samme som i eksempelet.
+ * Endre på løkka slik at du skriver ut indeksen og gjenstanden som i
+   eksempelet.
 
 ## Indekstrening {.challenge}
 
-Vi vil nå la brukeren selv velge hvor mange gjenstander som skal skrives ut,
-men vi må passe på at brukeren ikke skriver inn for høye eller lave tall.
-Dersom brukeren skriver ut negative tall skal du skrive ut `"Feil!"` og
-avslutte programmet. Hvis brukeren skriver ut et for høyt tall skal du skrive
-ut alle gjenstandene i lista.
-
-Her er noen eksempler:
+Vi vil nå la brukeren selv velge hvor mange gjenstander som skal skrives ut.
+Slik som i eksempelet:
 
 <pre>
 >>>
@@ -185,36 +183,12 @@ Hvor mange gjenstander vil du skrive ut? <font color="green">2</font>
 1 melk
 </pre>
 
-<pre>
->>>
-Skriv inn en gjenstand: <font color="green">ost</font>
-Skriv inn en gjenstand: <font color="green">melk</font>
-Skriv inn en gjenstand: <font color="green">brød</font>
-Skriv inn en gjenstand: <font color="green">skriv ut</font>
-Hvor mange gjenstander vil du skrive ut? <font color="green">6</font>
-0 ost
-1 melk
-2 brød
-</pre>
-
-<pre>
->>>
-Skriv inn en gjenstand: <font color="green">ost</font>
-Skriv inn en gjenstand: <font color="green">melk</font>
-Skriv inn en gjenstand: <font color="green">brød</font>
-Skriv inn en gjenstand: <font color="green">skriv ut</font>
-Hvor mange gjenstander vil du skrive ut? <font color="green">-1</font>
-Feil!
-</pre>
-
 Dette må du gjøre:
 
  * Skriv et program som likner på det du gjorde i forrige oppgave.
  * Etter at du er ferdig med å legge til gjenstander i lista, spør brukeren om
    hvor mange gjenstander som skal skrives ut.
- * Dersom tallet er for lavt eller høyt, gjør som beskrevet i oppgaveteksten
- * Ellers, skriv ut antallet gjenstander brukeren ber om.
- * Test at programmet fungerer slik som i eksemplene.
+ * Skriv ut antallet gjenstander brukeren ber om.
 
 # Strenger og indekser {.activity}
 
@@ -248,5 +222,6 @@ Dette må du gjøre:
 
  * Hent input fra brukeren
  * Bruk en løkke for å skrive ut annenhver bokstav
-   **Hint:** Hvordan kan du gå igjennom alle partallsindeksene?
+
+    **Hint:** Hvordan kan du sjekke om et tall er partall eller oddetall?
 
