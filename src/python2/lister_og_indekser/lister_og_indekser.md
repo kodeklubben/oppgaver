@@ -51,7 +51,8 @@ Hva om vi ønsker å legge til eller fjerne elementene fra lista vi vår? Vi ska
 lære om to funksjoner for å gjøre dette - `lst.append(elm)` og `lst.remove(elm)`, der
 `lst` er lista og `elm` er elementet vi ønsker å legge til eller fjerne.
 
-I det følgende eksempelet ser vi hvordan 'lst.append(elm)' fungerer:
+`lst.append(elm)` legger til `elm` på slutten av `lst`, slik som illustrert i
+eksempelet:
 
 ```python
 >>> lst = []
@@ -64,13 +65,15 @@ I det følgende eksempelet ser vi hvordan 'lst.append(elm)' fungerer:
 ['Per', 'Ada', 'Kim']
 ```
 
-Og her ser vi hvordan `lst.remove(elm)` fungerer:
+`lst.remove(elm)` sletter det første elementet `elm` fra `lst`. Det vil si at
+dersom `elm` ligger flere ganger i `lst` slettes bare det første elementet lik
+`elm`:
 
 ```python
->>> lst = ['Per', 'Ada', 'Kim']
->>> lst.remove("Kim")
+>>> lst = ['Per', 'Ada', 'Ada', 'Kim']
+>>> lst.remove("Ada")
 >>> lst
-['Per', 'Ada']
+['Per', 'Ada', 'Kim']
 ```
 
 # {.check}
