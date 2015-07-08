@@ -38,8 +38,10 @@ def start_game():
     state["pressed_button"] = ""
     state["help_text"] = "Guess a letter!"
     state["remaining_letters"] = []
-    for i in range(26):
-        state["remaining_letters"].append(string.ascii_letters[i])
+    for i, letter in enumerate(string.ascii_letters):
+        if i >= 26:
+            break
+        state["remaining_letters"].append(letter)
     state['display_string'] = create_display_string(state['secret_word'], state['remaining_letters'])
 
 
