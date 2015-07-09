@@ -31,7 +31,7 @@ def create_display_string(secret_word, remaining_letters):
 
 
 def start_game():
-    # set the correct game state
+    """Set the correct game state"""
     state["running"] = True
     state["used_tries"] = 0
     state["secret_word"] = random.choice(WORDS)
@@ -91,6 +91,9 @@ def draw():
     """Draws the screen each time the clock ticks"""
 
     screen.clear()
+
+    if state.get("running", None) is None:
+        return
 
     # width of drawn line
     LINE_WIDTH = 3
