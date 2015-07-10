@@ -1,20 +1,20 @@
 ---
 level: 2
-title: Ordlister
+title: Ordbøker
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 ---
 
 # Introduksjon {.intro}
 
-Dette er en kort oppgave der vi skal lære litt om ordlister, og hva disse kan
+Dette er en kort oppgave der vi skal lære litt om ordbøker, og hva disse kan
 brukes til.
 
 # Nøkler og verdier {.activity}
 
 ## {.protip}
 
-En ordliste, på engelsk *dictionary*, brukes for å lagre nøkkel/verdi-par.
-Tenk deg at du skal ha en norsk-engelsk ordliste. Da vi nøkkelen være ordet du
+En ordbok, på engelsk *dictionary*, brukes for å lagre nøkkel/verdi-par.
+Tenk deg at du skal ha en norsk-engelsk ordbok. Da vi nøkkelen være ordet du
 slår opp på, altså det norske ordet. Verdien vil være det engelske ordet.
 F.eks. kan `"ost"` være en nøkkel, mens `"cheese"` vil være den tilhørende
 verdien.
@@ -25,7 +25,7 @@ verdien.
 {'ost': 'cheese', 'brød': 'bread'}
 ```
 
-I eksempelet over lagde vi en norsk-engelsk ordliste. Nøklene og verdiene har
+I eksempelet over lagde vi en norsk-engelsk ordbok. Nøklene og verdiene har
 et kolon (`:`) mellom seg, mens nøkkel/verdi-parene skilles med komma. For å
 slå opp på en nøkkel, bruker vi `[` og `]`, slik som dette:
 
@@ -47,7 +47,7 @@ verdien knyttet til en nøkkel:
 >>> d
 {'ost': 'cheese', 'brød': 'bread', 'farge': 'color'}
 
-En tom ordliste opprettes slik:
+En tom ordbok opprettes slik:
 ```
 
 ```python
@@ -58,7 +58,7 @@ En tom ordliste opprettes slik:
 
 Det trenger ikke bare strenger som nøkler og verdier - du kan bruke både tall
 og strenger som nøkler og hva som helst (strenger, tall, funksjoner, lister,
-ordlister, ...) som verdier. Dette kan du for eksempel bruke til å lage en handleliste.
+ordbøker, ...) som verdier. Dette kan du for eksempel bruke til å lage en handleliste.
 
 # {.check}
 
@@ -78,7 +78,7 @@ Tilhørende verdi er bread
 
 Dette må du gjøre:
 
- * Lag ei tom ordliste
+ * Lag ei tom ordbok
  * Bruk ei løkke for å hente inn 3 nøkkel/verdi-par
 
     * Lagre nøkkel/verdi-parene i ordboka
@@ -86,11 +86,11 @@ Dette må du gjøre:
  * Spør om en nøkkel, og skriv ut den tilhørende verdien
 
 
-# Gå igjennom ordlister {.activity}
+# Gå igjennom ordbøker {.activity}
 
 ## {.protip}
 
-Du kan hente ut nøklene i en ordliste ved å bruke `d.keys()`, og verdiene ved å
+Du kan hente ut nøklene i en ordbøker ved å bruke `d.keys()`, og verdiene ved å
 bruke `d.values()`. Disse kan gås igjennom med en `for`-løkke:
 
 ```python
