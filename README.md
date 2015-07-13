@@ -88,7 +88,7 @@ blir ekskludert, men vises på github (slik som denne teksten du leser nå).
 Derfor egner `README.md` seg for merknader til lærere og lignende.
 
 Oppgavene skrives i markdown og har en YAML-header i toppen. Formatet er
-beskrevet i [FORMAT.md](//github.com/arve0/codeclub_lesson_builder/blob/docs/FORMAT.md),
+beskrevet i [FORMAT.md](//github.com/arve0/codeclub_lesson_builder/blob/master/FORMAT.md),
 men vi tar det viktigste her.
 
 Først et eksempel:
