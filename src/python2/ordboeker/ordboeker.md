@@ -6,18 +6,16 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 
 # Introduksjon {.intro}
 
-Dette er en kort oppgave der vi skal lære litt om ordbøker, og hva disse kan
-brukes til.
+Dette er en kort oppgave som viser hvordan man bruker *ordbøker*.
 
 # Nøkler og verdier {.activity}
 
 ## {.protip}
 
-En ordbok, på engelsk *dictionary*, brukes for å lagre nøkkel/verdi-par.
-Tenk deg at du skal ha en norsk-engelsk ordbok. Da vi nøkkelen være ordet du
-slår opp på, altså det norske ordet. Verdien vil være det engelske ordet.
-F.eks. kan `"ost"` være en nøkkel, mens `"cheese"` vil være den tilhørende
-verdien.
+En ordbok (*dictionary* på engelsk) brukes for å lagre *nøkkel/verdi*-par. Tenk
+deg at du skal ha en norsk-engelsk ordbok. Da vil *nøkkelen* være ordet du slår
+opp på, for eksempel det norske ordet. *Verdien* vil være det engelske ordet.
+F.eks. nøkkelen `"ost"` og verdien `"cheese"`. I Python skrives ordbøker med `{}` slik som dette:
 
 ```python
 >>> d = {'ost':'cheese', 'brød':'bread'}
@@ -25,12 +23,11 @@ verdien.
 {'ost': 'cheese', 'brød': 'bread'}
 ```
 
-I eksempelet over lagde vi en norsk-engelsk ordbok. Nøklene og verdiene har
-et kolon (`:`) mellom seg, mens nøkkel/verdi-parene skilles med komma. For å
-slå opp på en nøkkel, bruker vi `[` og `]`, slik som dette:
+I eksempelet over lagde vi en norsk-engelsk ordbok til variabelen `d`. Nøkkel og
+verdi har et kolon `:` mellom seg, og `'nøkkel':'verdi'`-parene skilles med `,`.
+For å slå opp på en nøkkel, bruker vi `[nøkkel]`, slik som dette:
 
 ```python
->>> d = {'ost':'cheese', 'brød':'bread'}
 >>> d['ost']
 'cheese'
 ```
@@ -39,16 +36,15 @@ Vi kan bruke den samme skrivemåten for å lage nye nøkkel/verdi-par eller endr
 verdien knyttet til en nøkkel:
 
 ```python
->>> d = {'ost':'cheese', 'brød':'bread'}
->>> d['farge'] = 'colour'    # Her legger vi til en ny verdi
+>>> d['farge'] = 'colour'    # legger til en ny verdi
 >>> d
 {'ost': 'cheese', 'brød': 'bread', 'farge': 'colour'}
->>> d['farge'] = 'color'     # Her endrer vi verdien
+>>> d['farge'] = 'color'     # endrer verdien
 >>> d
 {'ost': 'cheese', 'brød': 'bread', 'farge': 'color'}
+```
 
 En tom ordbok opprettes slik:
-```
 
 ```python
 >>> d = {}
@@ -56,14 +52,14 @@ En tom ordbok opprettes slik:
 {}
 ```
 
-Det trenger ikke bare strenger som nøkler og verdier - du kan bruke både tall
-og strenger som nøkler og hva som helst (strenger, tall, funksjoner, lister,
-ordbøker, ...) som verdier. Dette kan du for eksempel bruke til å lage en handleliste.
+**Merk:** Bare tekst og tall kan brukes som nøkler, men verdiene kan være hva
+som helst: strenger, tall, lister, ordbøker, funksjoner, osv.
 
 # {.check}
 
-Vi ønsker å skrive et program som lar en bruker skrive inn 3 nøkkel/verdi-par,
-før brukeren så skriver inn en nøkkel og får ut den tilhørende verdien. Det kan fungere slik:
+Vi skal nå skrive et program som lar en bruker lage en ordbok. Programmet skal
+ta i mot 3 nøkkel/verdi-par, deretter be om en nøkkel å slå opp på og til slutt
+vise hvilken verdi som tilhører nøkkelen. Det skal fungere slik:
 
 <pre>
 Skriv inn en nøkkel: <font color="green">ost</font>
@@ -78,35 +74,57 @@ Tilhørende verdi er bread
 
 Dette må du gjøre:
 
- * Lag ei tom ordbok
- * Bruk ei løkke for å hente inn 3 nøkkel/verdi-par
+ * Lag ei tom ordbok.
+ * Bruk ei løkke for å hente inn 3 nøkkel/verdi-par.
 
-    * Lagre nøkkel/verdi-parene i ordboka
+    * Lagre nøkkel/verdi-parene i ordboka.
 
- * Spør om en nøkkel, og skriv ut den tilhørende verdien
+ * Spør om en nøkkel.
+ * Skriv ut verdien som hører til nøkkelen.
 
 
 # Gå igjennom ordbøker {.activity}
 
 ## {.protip}
 
-Du kan hente ut nøklene i en ordbøker ved å bruke `d.keys()`, og verdiene ved å
-bruke `d.values()`. Disse kan gås igjennom med en `for`-løkke:
+Du kan bruke en løkke til å hente ut nøklene til en ordbok:
 
 ```python
 >>> d = {'brød': 3, 'ost': 1}
->>> for key in d.keys():
-        print("Nøkkel: " + key + ", verdi: " + d[key])
-Nøkkel: brød, verdi: 3
-Nøkkel: ost, verdi: 1
+>>> for key in d:
+...     print("Nøkkel:", key)
+...     print("Verdi:", d[key])
+...
+Nøkkel: ost
+Verdi: 1
+Nøkkel: brød
+Verdi: 3
 ```
 
-Vi kan iterere gjennom `d.values()` på samme måte.
+Dersom du bare trenger verdiene kan du bruke `d.values()`:
+
+```python
+>>> for val in d.values():
+...     print("Verdi:", val)
+...
+Verdi: 1
+Verdi: 3
+```
+
+Dersom du ønsker få tilgang til både nøkkel og verdi kan du bruke `d.items()`:
+
+```python
+>>> for key, value in d.items():
+...     print(key, value)
+...
+ost 1
+brød 3
+```
 
 # {.check}
 
-Vi ønsker å skrive et nytt handleliste-program som lar brukeren velge hvor
-mange av hver gjenstand som skal stå på lista. Dette kan se slik ut:
+Vi skal nå lage et handleliste-program som lar brukeren velge hva og hvor mye
+som skal være på handlelista. Programmet skal se slik ut:
 
 <pre>
 Skriv en gjenstand: <font color="green">brød</font>
@@ -121,8 +139,11 @@ Her er handlelista:
 
 Dette må du gjøre:
 
-* Så lenge brukeren ikke skriver inn en tom streng (`""`)
-* Ta inn en gjenstand, og et antall som lagres i handlelista
-* Skriv ut handlelista som i eksempelet
+* Ta imot input for gjenstand.
+* Så lenge gjenstanden ikke er en tom streng `""`:
+    * Be om antall.
+    * Lagre til en ordliste.
+    * Bruk gjenstanden som nøkkel og antallet som verdi.
+* Skriv ut handlelista.
 
-    **Hint:** Gå  igjennom nøklene.
+    **Hint:** Gå gjennom nøklene.
