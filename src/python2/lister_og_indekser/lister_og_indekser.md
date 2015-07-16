@@ -6,18 +6,17 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi lære å bruke lister - et kjempeviktig verktøy for
-programmerere. Ettersom lister er tett knyttet med løkker i Python, bør
-du være sikker på at du husker løkker før du begynner på denne oppgaven.
-Hvis du ikke husker løkker, eller er usikker, kan du gå tilbake til
-[repetisjonsoppgaven om løkker](../repetisjon/repetisjon.html#løkker).
+Denne oppgaven handler om *lister*, altså å samle flere ting i en og samme
+variabel. Ettersom lister og løkker henger tett sammen i Python, bør du se på
+[løkker i repetisjonsoppgaven](../repetisjon/repetisjon.html#løkker) dersom du
+har glemt hvordan løkker fungerer.
 
-# Lag ei liste! {.activity}
+# Hvordan lage lister? {.activity}
 
 # {.protip}
 
-Vi har tidligere i kurset brukt lister, og har lagd lister ved å skrive
-elementene mellom `[` og `]` med et komma mellom hvert element. Slik:
+Hver ting i en liste kalles et *element*. En liste lages ved å skrive elementer
+inni `[]`, med `,` mellom elementene:
 
 ```python
 >>> lst = ['egg', 'ham', 'spam']
@@ -25,7 +24,7 @@ elementene mellom `[` og `]` med et komma mellom hvert element. Slik:
 ['egg', 'ham', 'spam']
 ```
 
-Vi har nå en liste som inneholder ordene `'egg'`, `'ham'` og `'spam'`.
+Vi har nå ei liste som inneholder ordene `'egg'`, `'ham'` og `'spam'`.
 Vanskeligere er det ikke! Vi kan også lage tomme lister:
 
 ```python
@@ -47,8 +46,8 @@ Ei liste kan inneholde alt mulig - tall, strenger og også andre lister:
 
 # {.protip}
 
-Hva om vi ønsker å legge til eller fjerne elementene fra lista vi vår? Vi skal
-lære om to funksjoner for å gjøre dette - `lst.append(elm)` og `lst.remove(elm)`, der
+Hva om vi ønsker å legge til eller fjerne elementene fra lista vi vår? Da kan vi bruke de
+to funksjonene `lst.append(elm)` og `lst.remove(elm)`, der
 `lst` er lista og `elm` er elementet vi ønsker å legge til eller fjerne.
 
 `lst.append(elm)` legger til `elm` på slutten av `lst`, slik som illustrert i
@@ -70,24 +69,24 @@ dersom `elm` ligger flere ganger i `lst` slettes bare det første elementet lik
 `elm`:
 
 ```python
->>> lst = ['Per', 'Ada', 'Ada', 'Kim']
+>>> lst = ['Per', 'Ada', 'Kim', 'Ada']
 >>> lst.remove("Ada")
 >>> lst
-['Per', 'Ada', 'Kim']
+['Per', 'Kim', 'Ada']
 ```
 
 # {.check}
 
-Vi har lyst til å skrive et handleliste-program som lar brukeren skrive inn
-matvarer helt til `'skriv ut'` skrives inn. Da skal programmet skrive ut
-gjenstandene i lista. Programmet kan fungere slik:
+Vi skal nå lage et handleliste-program. Programmet skal be brukeren skrive inn
+matvarer, og deretter skrive ut matvarene når `ferdig` skrives inn. Programmet
+skal fungere slik:
 
 <pre>
 >>>
 Skriv inn en gjenstand: <font color="green">ost</font>
 Skriv inn en gjenstand: <font color="green">melk</font>
 Skriv inn en gjenstand: <font color="green">brød</font>
-Skriv inn en gjenstand: <font color="green">skriv ut</font>
+Skriv inn en gjenstand: <font color="green">ferdig</font>
 ost
 melk
 brød
@@ -95,13 +94,13 @@ brød
 
 Dette må du gjøre:
 
- * Lag ei tom liste
- * Så lenge brukeren ikke skriver inn `'skriv ut'`, legg til det nye elementet
-   i lista
+ * Lag ei tom liste.
+ * Be om input.
+ * Så lenge input ikke er lik `ferdig`, legg til det nye elementet i lista.
 
      **Hint:** Hva slags løkke kan vi bruke her?
 
- * Skriv ut hvert hvert element i lista
+ * Skriv ut hvert hvert element i lista.
 
     **Hint:** Hva slags løkke kan vi bruke her?
 
@@ -110,8 +109,7 @@ Dette må du gjøre:
 # {.protip}
 
 Tenk deg at vi har ei liste, og ønsker å hente ut det andre elementet i lista.
-Hvordan skal vi klare det?  Da bruker vi indekser. Da bruker vi `[` og `]` med
-et tall mellom. Slik:
+Hvordan skal vi klare det? Da bruker vi noe kalt *indeks*. Indeks er plassen til elementet og skrives mellom `[]` rett etter variabelen: `lst[index]`. Her er et eksempel på en liste med tall:
 
 ```python
 >>> lst = [1, 2, 3, 4, 5]
@@ -130,14 +128,14 @@ begynner å telle på null! Du husker kanskje at det samme skjer når vi bruker 
 ```
 
 Til nå har vi brukt `for element in lst` for å gå igjennom elementene i lista,
-men noen ganger kan det være praktisk også å kunne bruke indeksen til
-elementet. Til dette kan vi bruke `enumerate()`, som gir oss både verdien og
+men noen ganger kan det i tillegg være praktisk å telle hvor langt vi er kommet
+i lista. Til dette kan vi bruke `enumerate()`, som gir oss både verdien og
 indeksen:
 
 ```python
 >>> lst = ['Per', 'Kim', 'Ada']
 >>> for i, value in enumerate(lst):
-        print(str(i) + " " + value)
+        print(i, value)
 
 0 Per
 1 Kim
@@ -150,15 +148,15 @@ tillegg.
 
 # {.check}
 
-Nå vil vi modifisere programmet fra forrige oppgave og skrive ut indekser ved
-siden gjenstandene i handlelista. Slik kan det fungere:
+Modifiser nå programmet fra forrige oppgave til å skrive ut indekser ved
+siden gjenstandene i handlelista. Slik skal det fungere:
 
 <pre>
 >>>
 Skriv inn en gjenstand: <font color="green">ost</font>
 Skriv inn en gjenstand: <font color="green">melk</font>
 Skriv inn en gjenstand: <font color="green">brød</font>
-Skriv inn en gjenstand: <font color="green">skriv ut</font>
+Skriv inn en gjenstand: <font color="green">ferdig</font>
 0 ost
 1 melk
 2 brød
@@ -166,9 +164,9 @@ Skriv inn en gjenstand: <font color="green">skriv ut</font>
 
 Dette må du gjøre:
 
- * Skriv et program som likner på det du skrev i forrige oppgave
- * Endre på løkka slik at du skriver ut indeksen og gjenstanden som i
-   eksempelet.
+ * Bruk programmet fra oppgaven over.
+ * Bruk `enumerate` til for å få indeksen til hver element.
+ * Skriv ut indeksen på samme linje som elementet i lista.
 
 ## Indekstrening {.challenge}
 
@@ -180,7 +178,7 @@ Slik som i eksempelet:
 Skriv inn en gjenstand: <font color="green">ost</font>
 Skriv inn en gjenstand: <font color="green">melk</font>
 Skriv inn en gjenstand: <font color="green">brød</font>
-Skriv inn en gjenstand: <font color="green">skriv ut</font>
+Skriv inn en gjenstand: <font color="green">ferdig</font>
 Hvor mange gjenstander vil du skrive ut? <font color="green">2</font>
 0 ost
 1 melk
@@ -188,16 +186,15 @@ Hvor mange gjenstander vil du skrive ut? <font color="green">2</font>
 
 Dette må du gjøre:
 
- * Skriv et program som likner på det du gjorde i forrige oppgave.
- * Etter at du er ferdig med å legge til gjenstander i lista, spør brukeren om
-   hvor mange gjenstander som skal skrives ut.
- * Skriv ut antallet gjenstander brukeren ber om.
+ * Begynn med programmet du allerede har.
+ * Før gjenstandene skrives ut, spør om hvor mye som skal skrives ut.
+ * Avbryt utskriften når antallet er lik det brukeren ba om.
 
 # Strenger og indekser {.activity}
 
 # {.protip}
 
-Vi kan også bruke indekser på strenger. Koden for dette ser helt lik ut:
+Vi kan også bruke indekser på strenger. For eksempel:
 
 ```python
 >>> s = "Ada"
@@ -207,8 +204,8 @@ Vi kan også bruke indekser på strenger. Koden for dette ser helt lik ut:
 
 # {.check}
 
-Vi vil skrive et program som henter input fra brukeren, og skriver ut annenhver
-bokstav. Det kan fungere som dette:
+Vi skal nå skrive et program som henter input fra brukeren og skriver ut
+annenhver bokstav. Det skal fungere som dette:
 
 <pre>
 >>>
@@ -223,8 +220,8 @@ e
 
 Dette må du gjøre:
 
- * Hent input fra brukeren
- * Bruk en løkke for å skrive ut annenhver bokstav
+ * Hent input fra brukeren.
+ * Bruk en løkke for å hente ut hver bokstav og dens indeks.
+ * Hvis indeksen er et partall, skriv ut bokstaven.
 
-    **Hint:** Hvordan kan du sjekke om et tall er partall eller oddetall?
-
+    **Hint:** `tall%2` er *resten* av `tall` delt på `2`, hva gir `tall%2` når `tall` er et partall?
