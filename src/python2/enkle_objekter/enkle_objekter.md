@@ -125,7 +125,6 @@ variabler du har lagd i klassen.
 Som vi ser så er det ikke så stor forskjell mellom bruk av funksjoner og klasser:
 
 <div class="col-sm-6" >
-
 **Ordbøker**
 
 ```python
@@ -147,11 +146,8 @@ circle["radius"] = 5
 print(circle["color"])
 print(circle_area(circle))
 ```
-
 </div>
-
 <div class="col-sm-6" >
-
 **Klasser**
 
 ```python
@@ -173,7 +169,6 @@ circle.radius = 5
 print(circle.color)
 print(circle.area())
 ```
-
 </div>
 
 Vi kommer dermed til å bruke klasser i de neste oppgavene - det er minst like
