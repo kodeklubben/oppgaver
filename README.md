@@ -2,7 +2,7 @@
 # Kodeklubbens oppgavesett
 
 Her finnes kilden til kodeklubbens oppgaver. Oppgavene er skrevet i formatet
-markdown, og det er en [bygger](/arve0/codeclub_lesson_builder) som konverterer
+markdown, og det er en [bygger](https://github.com/arve0/codeclub_lesson_builder) som konverterer
 oppgavene til [websider](http://kodeklubben.github.io/). For å komme i gang,
 følg [anvisningene under](#komme-i-gang).
 
