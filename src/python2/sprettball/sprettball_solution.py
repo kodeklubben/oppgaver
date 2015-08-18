@@ -15,33 +15,33 @@ class Ball:
     color = COLORS['red']
     x = WIDTH // 2
     y = HEIGHT // 2
-    dx = 3
-    dy = 3
+    speed_x = 3
+    speed_y = 3
 
     def draw(self):
         screen.draw.filled_circle((self.x, self.y), self.radius, self.color)
 
     def update(self):
-        self.x += self.dx
-        self.y += self.dy
+        self.x += self.speed_x
+        self.y += self.speed_y
 
         # Check for wall collisions, bounce of wall
         if self.x + self.radius >= WIDTH or self.x - self.radius <= 0:
-            self.dx = -self.dx
+            self.speed_x = -self.speed_x
         if self.y + self.radius >= HEIGHT or self.y - self.radius <= 0:
-            self.dy = -self.dy
+            self.speed_y = -self.speed_y
 
     def on_key_down(self, key):
         if key == keys.LEFT:
-            self.dx -= 1
+            self.speed_x -= 1
         elif key == keys.RIGHT:
-            self.dx += 1
+            self.speed_x += 1
         elif key == keys.UP:
-            self.dy -= 1
+            self.speed_y -= 1
         elif key == keys.DOWN:
-            self.dy += 1
+            self.speed_y += 1
         elif key == keys.SPACE:
-            self.dy = self.dx = 0
+            self.speed_y = self.speed_x = 0
 
 
 
