@@ -7,9 +7,9 @@ Author: Ole Kristian Pedersen, Kodeklubben Trondheim
 # Introduksjon {.intro}
 
 I denne oppgaven skal du lage en ballanimasjon, ved hjelp av det du har lært i
-[oppgaven om enkle objekter](../enkle_objekter.html). Dermed kan det være lurt
-å gå tilbake for å repetere, dersom du ikke husker hva du lærte der. I tillegg
-skal du lære mer om hvordan Pygame og Pygame Zero fungerer.
+[oppgaven om enkle objekter](../enkle_objekter.html), samt Pygame og Pygame
+Zero. Dersom du ikke husker objekter, kan du [gå
+tilbake](../enkle_objekter.html) og raskt repetere.
 
 # Steg 1: Høyde og bredde {.activity}
 
@@ -25,7 +25,7 @@ piksler høyt, og 600 piksler bredt.
 
 En **piksel** er et lyspunkt på skjermen og nøyaktig hvor stort dette
 lyspunktet er avhenger av hvilken skjerm du har - dermed kan det være at
-personen som sitter ved siden av deg får et større eller mindre vindu enn deg.
+vinduet får ulik størrelse på andre datamaskiner enn din egen.
 
 # Steg 2: Lag en ball! {.activity}
 
@@ -214,8 +214,8 @@ farten ved hjelp av piltastene.
 ## Utfordring: Stopp ballen {.challenge}
 
 Vi ønsker å bruke mellomromstasten for å stoppe ballen. Dvs. sette `speed_x` og
-`speed_y` til `0`. Prøv å endre funksjonen `on_key_down()` i `Ball`-klassen for
-å sjekke om brukeren har trykket på mellomromstasten.
+`speed_y` til `0`. Prøv å endre funksjonen `on_key_down(key)` i `Ball`-klassen
+for å sjekke om brukeren har trykket på mellomromstasten.
 
-**Hint:** Du kan sammenlikne `key` med `keys.SPACE` for å sjekke om brukeren
-har trykket på mellomromstasten.
+**Hint:** `key == keys.SPACE` vil være sant dersom brukeren trykker på
+mellomromstasten.
