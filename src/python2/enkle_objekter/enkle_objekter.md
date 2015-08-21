@@ -6,11 +6,6 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 
 # Introduksjon {.intro}
 
-Vi har i [en tidligere oppgave](#TODO:link) og i
-[hangman-oppgaven](../hangman.html) brukt ordbøker. Disse er veldig nyttige for
-å lagre verdier som hører sammen, f.eks. for å lagre spillets tilstand i en
-`state`-ordbok.
-
 I denne oppgaven skal vi gi en enkel innføring til klasser og objekter (ordene forklares senere i teksten).
 
 # Ordbøker {.activity}
@@ -206,4 +201,3 @@ blue
 ```
 
 Pass på at din "oversettelse" gjør det samme.
-
