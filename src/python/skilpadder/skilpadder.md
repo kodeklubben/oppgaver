@@ -1,4 +1,4 @@
----
+﻿---
 title: Skilpadder
 level: 1
 logo: ../../assets/img/ccuk_logo.png
@@ -22,7 +22,7 @@ Hvis Python allerede er installert på maskinen din er det bare å begynne.
 Hvis du ikke har Python installert fra før - ikke få panikk! Du kan laste ned siste versjon av Python fra [http://www.python.org/](http://www.python.org/getit/). Nøyaktig hvilken versjon det er spiller liten rolle, men vi bruker Python 3, så
 versjonsnummeret bør begynne med 3 (og ikke 2).
 
-Når IDLE starter ser du et Output-vindu som heter `Python Shell`. Vi må åpne et nytt vindu for å skrive kode i. Trykk `File -> New Window` så er du klar for steg 1. Pass på at du har begge vinduene synlige.
+Når IDLE starter ser du et Output-vindu som heter `Python Shell`. Vi må åpne et nytt vindu for å skrive kode i. Trykk `File -> New File` så er du klar for steg 1. Pass på at du har begge vinduene synlige.
 
 # Steg 1: Hello, World! {.activity}
 
@@ -32,7 +32,7 @@ Når IDLE starter ser du et Output-vindu som heter `Python Shell`. Vi må åpne 
 
 + Åpne IDLE, editoren som følger med Python. Vi kommer til å skrive all koden vår i denne editoren. Når du åpner den ser du et Output-vindu. I dette vinduet kommer feilmeldinger og resultater til å dukke opp.
 
-+ Hvis du ikke har gjort det ennå, velg `File -> New Window`. Et tomt vindu
++ Hvis du ikke har gjort det ennå, velg `File -> New File`. Et tomt vindu
 dukker opp, med '*Untitled*' i tittelfeltet.
     Du skal ha to vinduer åpne nå, et for å skrive programmet ditt i, og et
     annet for å vise resultater i. Pass på at du skriver i det riktige!
