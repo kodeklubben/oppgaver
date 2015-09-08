@@ -1,4 +1,4 @@
----
+﻿---
 title: Kuprat
 level: 1
 ---
@@ -42,8 +42,7 @@ kjempeenkelt program. Vi vil bare skrive en enkel hilsen på skjermen.
 
 + Vinduet `Python Shell` som åpnet seg er der du vil se resultatet av
   programmet ditt. For å skrive et nytt program må vi åpne et
-  programmeringsvindu i tillegg. I menyen, velg `File > New Window`
-  eller `File > New File`. Pass på at begge vinduene er synlige.
+  programmeringsvindu i tillegg. I menyen, velg `File > New File`. Pass på at begge vinduene er synlige.
 
 + I dette nye vinduet skal vi nå skrive vårt første Python-program.
   Skriv følgende:
@@ -156,7 +155,7 @@ omtrent hva som helst.
 ## Sjekkliste {.check}
 
 + Vi begynner med å tegne kua. Start et nytt IDLE-vindu ved å velge
-  `File > New Window` eller `File > New File`. Skriv inn følgende
+  `File > New File`. Skriv inn følgende
   program:
 
 	```python

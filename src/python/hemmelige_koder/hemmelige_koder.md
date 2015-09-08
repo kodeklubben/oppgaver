@@ -1,4 +1,4 @@
----
+﻿---
 title: Hemmelige koder
 level: 2
 logo: ../../assets/img/ccuk_logo.png
@@ -172,7 +172,6 @@ Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til boksta
 
 La oss ta koden som lager og leser Cæsar-koder og gjøre den om til to
 *funksjoner*. Gi den ene funksjonen navnet `encode` og den andre funksjonen navnet `decode`. **Tips:** Dersom du aldri har hørt om funksjoner, kan du lese mer om de i [Skilpaddeskolen](../skilpaddeskolen/skilpaddeskolen.html).
-
 For å få en funksjon til å sende tilbake en verdi bruker vi `return`. Dette gjør at vi kan lagre funksjonens resultat til en variabel og deretter bruke variabelen.
 
 ## Sjekkliste {.check}

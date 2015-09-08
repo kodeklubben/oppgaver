@@ -1,4 +1,4 @@
----
+﻿---
 title: Skilpaddeskolen
 level: 2
 logo: ../../assets/img/ccuk_logo.png
@@ -11,7 +11,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 
 ## Sjekkliste {.check}
 
-+ Åpne IDLE-editoren, og åpne en ny fil ved å trykke `File > New Window`,
++ Åpne IDLE-editoren, og åpne en ny fil ved å trykke `File > New File`,
 og la oss begynne.
 
     Husk at du skal ha to vinduer åpne. Det ene er 'Python Shell' og det andre er for å skrive kode i.
@@ -58,7 +58,10 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
 
 ## Sjekkliste {.check}
 
+
+
 + Vi endrer koden og legger til `def poly():`. `def` betyr definer, altså å lage. Pass på at koden har riktig innrykk og bruk den nye funksjonen. For å få innrykk på flere linjer kan man merke linjene og deretter trykke *tab* (knappen rett over *caps lock*). Dersom du vil ha mindre innrykk, bruk *shift + tab*.
+
 
     ```python
     from turtle import *
@@ -80,9 +83,12 @@ Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken fi
 
 + Kjør programmet. Hvis det virker skal to røde firkanter bli tegnet.
 
+
+
 Vi sparte litt tid ved å lage en ny funksjon i Python, og nå kan vi tegne en rød firkant to ganger, uten å skrive hele greia to ganger. Den nye funksjonen `poly()` er fin for å slippe å skrive så mye.
 
 # Steg 4: Hvorfor stoppe med firkanter? {.activity}
+
 
 Vi er ikke ferdige ennå - hva med å endre funksjonen så den kan tegne hvilken som helst form? Som med `forward` og `right`, kan vi sende verdier inn i funksjonen istedenfor å endre koden hver gang.
 
@@ -111,7 +117,9 @@ Vi er ikke ferdige ennå - hva med å endre funksjonen så den kan tegne hvilken
 
     La oss ta dette litt sakte, for dette er ganske kule greier. Istedenfor å bestemme variablene i funksjonen, sier vi at funksjonen tar noen verdier som har navn, og så bruker vi verdiene der vi trenger dem.
 
+
     Vi flyttet noen verdier ut av funksjonen, og flyttet dem til den delen av koden som bruker dem. Nå kan vi, med en eneste funksjon, tegne *hvilken som helst* form, med *hvilken som helst farge*. Jeg vet ikke hva du tenker, men dette imponerer meg hver gang jeg tenker på det: Vi kan lære datamaskinen nye triks, og så få den til å gjøre triksene.
+
 
 Å være i stand til å lage nye funksjoner som kan oppføre seg forskjellig basert på verdiene vi gir inn er et av de kraftigste verktøyene i programmering.
 
