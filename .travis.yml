@@ -2,10 +2,11 @@ language: node_js
 node_js:
   - "0.10"
 install: ./setup
-script: ./gulp links
+script: ./gulp dist && ./gulp links
 notifications:
   recipients:
     - geirarne@gmail.com
+    - arve.seljebu@gmail.com
 addons:
   apt_packages:
     - pandoc
