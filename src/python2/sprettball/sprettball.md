@@ -7,9 +7,9 @@ Author: Ole Kristian Pedersen, Kodeklubben Trondheim
 # Introduksjon {.intro}
 
 I denne oppgaven skal du lage en ballanimasjon, ved hjelp av det du har lært i
-[oppgaven om enkle objekter](../enkle_objekter.html), samt Pygame og Pygame
+[oppgaven om enkle objekter](../enkle_objekter/enkle_objekter.html), samt Pygame og Pygame
 Zero. Dersom du ikke husker objekter, kan du [gå
-tilbake](../enkle_objekter.html) og raskt repetere.
+tilbake](../enkle_objekter/enkle_objekter.html) og raskt repetere.
 
 # Steg 1: Høyde og bredde {.activity}
 
