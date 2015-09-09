@@ -1,6 +1,8 @@
 ---
 title: Oppgaver
 template: index.jade
+license: false
+footer: "[Bidra?](https://github.com/kodeklubben/oppgaver) [![Sponset av Sparebank1 Midt-Norge](smn.jpg) ![Sponset av Studentmediene Trondheim](studentmediene.png)](http://www.kidsakoder.no/2015/07/03/kodeklubben-trondheim-utvikler-materiell-i-sommer/)"
 ---
 
 # Kodeklubbens oppgaver
