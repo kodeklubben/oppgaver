@@ -1,10 +1,7 @@
 ---
 title: Forsvunnet katt webside
-level: Lesson 3
+level: 2
 language: nb-NO
-embeds: "*.png"
-materials: "ressurser"
-stylesheet: web
 ---
 
 ## __Oppdraget:__ { .intro}
@@ -93,7 +90,7 @@ Vi vil virkelig at folk skal finne Felix, så vi vil legge litt *trykk* på `ven
 ```html
 <p>Har du sett Felix? <em>Vennligst</em> kontakt eieren hans på eierentilfelix@email.com</p>
 ```
-Vi vil også at ´Tusen takk´ skal vises skikkelig, som vi oppnår ved å bruke strong taggen.	
+Vi vil også at ´Tusen takk´ skal vises skikkelig, som vi oppnår ved å bruke strong taggen.
 
 ```html
 <p><strong>Tusen takk!</strong><p>
@@ -162,4 +159,4 @@ Og noen nøkkelord, separert med komma
 
 + Mer gøy med bilder. Legg til et bilde som beveger seg. Prøv å legge til bildet `catswithhats.git` til websiden. Åpne det i nettleseren og se hva som skjer.
 
-+ Hvis Felix blir funnet. Bruk taggen `<del>` for å streke over informasjon som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>` for å sette inn ny informasjon istede, som foreksempel __Funnet__! 
++ Hvis Felix blir funnet. Bruk taggen `<del>` for å streke over informasjon som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>` for å sette inn ny informasjon istede, som foreksempel __Funnet__!

@@ -1,10 +1,7 @@
 ---
 title: Styling web pages
-level: Lesson 4
+level: 2
 language: nb-NO
-embeds: "*.png"
-materials: “ressurser”
-stylesheet: web
 ---
 
 ## Introduksjon { .intro}
@@ -35,7 +32,7 @@ selector {
 ```
 
 + Kan du finne knappene for ‘{‘ og ‘}’ på ditt tastatur? Hva med ‘:’ og ‘;’ ?
-Selektorer kan være html-element som `h1`, `p`, `img`, `a`. Men de kan også være andre ting som vi vil lære om senere. 
+Selektorer kan være html-element som `h1`, `p`, `img`, `a`. Men de kan også være andre ting som vi vil lære om senere.
 
 # Steg 2: Legg til farge { .activity}
 
@@ -46,7 +43,7 @@ La oss endre `h1` til å være rød istedenfor svart.
 ```html
 <style>
 	h1 {
-  		color:red; 
+  		color:red;
   	}
 </style>
 ```
@@ -80,7 +77,7 @@ span {
 	color:orange;
 }
 ```
-	
+
 ## __LAGRE__ filen og __VISE__ den i nettleseren din { .save}
 
 #Steg 4: Bakgrunn { .activity}
@@ -89,7 +86,7 @@ Vi kan legge til farge på bakgrunnen også, ikke bare på tekst. For eksempel:
 
 ```css
 body {
-	background-color:#D2FAFC; 
+	background-color:#D2FAFC;
 }
 ```
 
