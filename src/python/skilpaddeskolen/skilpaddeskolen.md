@@ -1,4 +1,4 @@
----
+﻿---
 title: Skilpaddeskolen
 level: 2
 logo: ../../assets/img/ccuk_logo.png
@@ -11,7 +11,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 
 ## Sjekkliste {.check}
 
-+ Åpne IDLE-editoren, og åpne en ny fil ved å trykke `File > New Window`,
++ Åpne IDLE-editoren, og åpne en ny fil ved å trykke `File > New File`,
 og la oss begynne.
 
     Husk at du skal ha to vinduer åpne. Det ene er 'Python Shell' og det andre er for å skrive kode i.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Mattespill
 level: 2
 ---
@@ -18,8 +18,7 @@ La oss se hvordan vi kan få Python til å regne for oss.
 
 ## Sjekkliste {.check}
 
-+ Lag et nytt IDLE-vindu ved å velge `File > New Window` eller `File >
-  New File`.
++ Lag et nytt IDLE-vindu ved å velge `File > New File`.
 
 + Vi begynner med å utforske hvordan vi kan bruke Python til å regne
   ut enkle mattestykker. Skriv det følgende nye programmet:

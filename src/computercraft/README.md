@@ -16,7 +16,7 @@ Minecraft.
    siden til du finner et avsnitt som heter __Download and
    installing__. Last ned ComputerCraft til datamaskinen din, og noter
    deg hvilken versjon av Minecraft denne er kompatibel med (for
-   eksempel versjon 1.6.4).
+   eksempel versjon 1.7.10).
 
 2. Start Minecraft Launcher. Sjekk om du har den riktige versjonen av
    Minecraft tilgjengelig. Hvis ikke kan du velge `New Profile` og i

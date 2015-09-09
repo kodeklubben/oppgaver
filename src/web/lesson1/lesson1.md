@@ -1,10 +1,7 @@
 ---
 title: Internett
-level: Lesson 1
+level: 1
 language: nb-NO
-embeds: "*.png"
-materials: "ressurser"
-stylesheet: web
 ---
 
 # Introduksjon { .intro}

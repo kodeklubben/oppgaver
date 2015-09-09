@@ -1,9 +1,7 @@
 ---
 title: Lag din egen nettside
-level: Lesson 7
+level: 4
 language: nb-NO
-embeds: "*.png"
-stylesheet: web
 ---
 
 ## __Introduksjon:__ { .intro}

@@ -2,7 +2,7 @@
 # Kodeklubbens oppgavesett
 
 Her finnes kilden til kodeklubbens oppgaver. Oppgavene er skrevet i formatet
-markdown, og det er en [bygger](/arve0/codeclub_lesson_builder) som konverterer
+markdown, og det er en [bygger](https://github.com/arve0/codeclub_lesson_builder) som konverterer
 oppgavene til [websider](http://kodeklubben.github.io/). For å komme i gang,
 følg [anvisningene under](#komme-i-gang).
 
@@ -10,31 +10,43 @@ følg [anvisningene under](#komme-i-gang).
 ## Kurs/programmeringsspråk
 Per nå finnes følgende kurs:
 - [ComputerCraft (Minecraft)](src/computercraft)
+- [JavaFX](src/javafx)
 - [Python](src/python)
 - [Scratch](src/scratch)
 - [Web](src/web) - denne er ikke ferdig og vi trenger **din** hjelp.
 
 ## Fiks og rapporter enkle feil
-For enkle feil og fiks kan du gjerne bruke webgrensesnittet til github. Se
-[denne videoen](http://youtu.be/v9CS62-MED4) for hvordan dette fungerer uten å
-installere noen programvare. Dersom du ønsker å oversette eller lage nye oppgaver
-anbefaler vi at leser videre for et oppsett som laster ned oppgavene til din 
-egen maskin slik at du kan jobbe lokalt. (Det er ikke noe galt i å kun bruke
-githubs websider, kun litt vanskeligere når man ikke ser resultatet.)
+[![](http://img.youtube.com/vi/v9CS62-MED4/0.jpg)](http://youtu.be/v9CS62-MED4)
+
+For småfeil og ideer kan du bruke webgrensesnittet til github. Da slipper du 
+installasjon av programvare på din egen maskin. [Videoen over](http://youtu.be/v9CS62-MED4)
+demonstrerer hvordan dette gjøres.
+
+Dersom du ønsker å oversette eller lage nye oppgaver anbefaler vi at leser videre
+for et oppsett som laster ned oppgavene til din egen maskin slik at du kan jobbe
+lokalt. (Det er ikke noe galt i å kun bruke githubs websider, men det er litt 
+vanskeligere å få alt riktig når man selv ikke ser resultatet.)
 
 ## Komme i gang
-Enkleste vei for å komme i gang er å se videoen som forklarer hvordan man
-setter opp og arbeider med oppgavene: http://youtu.be/GtXxBGsAXOs Videoen er
-laget for windows-brukere, men det vil være tilsvarende for Linux og
-Mac-brukere. Dersom du er en *tekst-type* og foretrekker terminalen
-fremfor GUI, les videre.
+[![](http://img.youtube.com/vi/GtXxBGsAXOs/0.jpg)](http://youtu.be/GtXxBGsAXOs)
+
+Enkleste vei for å komme i gang er å [se videoen](http://youtu.be/GtXxBGsAXOs)
+som forklarer hvordan man setter opp og arbeider med oppgavene. Videoen er laget
+for windows-brukere, men det vil være tilsvarende for Linux og Mac-brukere. 
+Dersom du er en *tekst-type* og foretrekker terminalen, les videre.
 
 For å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up-git/)
 og [node](//nodejs.org). Når du har installert git og node, kan du følge
 anvisningene under. Anvisningene er kommandoer som må skrives inn i en konsoll.
 
+#### Ubuntu-brukere merk dette!
+For å installere node trenger man både *nodejs-legacy* og *npm*:
 
-**Laste ned oppgavene**
+```sh
+sudo apt-get install nodejs-legacy npm git
+```
+
+#### Laste ned oppgavene
 ```
 git clone --recursive https://github.com/kodeklubben/oppgaver
 cd oppgaver
@@ -42,13 +54,13 @@ cd oppgaver
 *Du kan også laste ned oppgavene med [github for windows](//windows.github.com)
 eller [github for mac](//mac.github.com).*  
 
-**Sette opp**
+#### Sette opp
 ```
 ./setup
 ```
 
 
-**Start**
+#### Start
 ```
 ./gulp
 ```
@@ -60,8 +72,14 @@ fra filbehandleren.
 ## Problemer og support
 [![Chat med oss på gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kodeklubben/oppgaver)
 
-Dersom du har problemer med å komme i gang, hjelper vi deg gjerne om du kommer
-og [chatter med oss på gitter](https://gitter.im/kodeklubben/oppgaver).
+Prøv først dette:
+
+- Åpne terminalen
+- Gå til oppgaver-repoet med `cd`, eks: `cd Downloads/oppgaver`
+- Skriv inn `./setup`
+
+Dersom du fortsatt har problemer, hjelper vi deg gjerne over en [chat på
+gitter](https://gitter.im/kodeklubben/oppgaver).
 
 ## Filstruktur og formatering
 Alle oppgavene finnes i katalogen [src](src). Hver mappe i `src`
@@ -70,7 +88,7 @@ blir ekskludert, men vises på github (slik som denne teksten du leser nå).
 Derfor egner `README.md` seg for merknader til lærere og lignende.
 
 Oppgavene skrives i markdown og har en YAML-header i toppen. Formatet er
-beskrevet i [FORMAT.md](//github.com/arve0/codeclub_lesson_builder/blob/docs/FORMAT.md),
+beskrevet i [FORMAT.md](//github.com/arve0/codeclub_lesson_builder/blob/master/FORMAT.md),
 men vi tar det viktigste her.
 
 Først et eksempel:
@@ -91,7 +109,7 @@ gjort tilgjengelig som variabler i malen. Det er bare `title` og
 [CC-BY 4.0](//creativecommons.org/licenses/by/4.0/deed.no)).
 
 
-**Bygging**
+#### Bygging
 
 Ved *bygging* blir alle markdown-filer (.md) omgjort til HTML og bilder eller
 andre filer blir kopiert. Dersom en oppgave skal inkludere filer eller bilder,
@@ -113,7 +131,7 @@ til i YAML-header. Hvis oppgaven ikke finnes i noen spilleliste, vil det ikke
 lenkes til oppgaven fra noe sted og den er da gjemt.
 
 
-**Markdown**
+#### Markdown
 
 Nettet har flere beskrivelser av [Markdown-syntaksen]. Du kan
 også lære endel ved å bruke en [live markdown editor].
@@ -126,7 +144,7 @@ Her kommer noen eksempler:
 - **Fet skrift** skrives `**Fet skrift**`.
 
 
-**Overskrifter**
+#### Overskrifter
 
 Overskrifter lages ved å begynne en linje med en eller flere `#`. En `#` gir
 den største overskriften, mens seks `######` gir den minste overskriften. I
@@ -150,7 +168,7 @@ I tillegg finnes flere stiler som brukes ved behov:
 - Lagre prosjektet: `## Lagre prosjektet {.save}`.
 
 
-**Bilder**
+#### Bilder
 
 - Store bilder legges inn ved å skrive:
 
@@ -170,7 +188,7 @@ I tillegg finnes flere stiler som brukes ved behov:
   alternativ tekst i tilfelle bildet ikke kan vises.
 
 
-**Kodeblokker**
+#### Kodeblokker
 
 Kodeblokker skrives med tre `-tegn foran og bak koden:
 
@@ -194,7 +212,7 @@ for i in range(10):
 Les videre for inkludering av scratchkode.
 
 
-**Scratch kodeblokker**
+#### Scratch kodeblokker
 
 Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir oversatt til
 figurer av et verktøy som heter [Scratchblocks2][sb2]. På hjemmesidene til
