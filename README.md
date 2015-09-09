@@ -40,11 +40,10 @@ og [node](//nodejs.org). Når du har installert git og node, kan du følge
 anvisningene under. Anvisningene er kommandoer som må skrives inn i en konsoll.
 
 #### Ubuntu-brukere merk dette!
-For å installere node trenger man å installere både *nodejs* og *npm*, samt lenke
-*nodejs* til *node* (ellers vil installasjonen av noen pakker feile).
+For å installere node trenger man både *nodejs-legacy* og *npm*:
+
 ```sh
-sudo apt-get install nodejs npm git
-sudo ln -s /usr/bin/nodejs /usr/local/bin/node
+sudo apt-get install nodejs-legacy npm git
 ```
 
 #### Laste ned oppgavene
@@ -73,8 +72,14 @@ fra filbehandleren.
 ## Problemer og support
 [![Chat med oss på gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kodeklubben/oppgaver)
 
-Dersom du har problemer med å komme i gang, hjelper vi deg gjerne om du kommer
-og [chatter med oss på gitter](https://gitter.im/kodeklubben/oppgaver).
+Prøv først dette:
+
+- Åpne terminalen
+- Gå til oppgaver-repoet med `cd`, eks: `cd Downloads/oppgaver`
+- Skriv inn `./setup`
+
+Dersom du fortsatt har problemer, hjelper vi deg gjerne over en [chat på
+gitter](https://gitter.im/kodeklubben/oppgaver).
 
 ## Filstruktur og formatering
 Alle oppgavene finnes i katalogen [src](src). Hver mappe i `src`
@@ -83,7 +88,7 @@ blir ekskludert, men vises på github (slik som denne teksten du leser nå).
 Derfor egner `README.md` seg for merknader til lærere og lignende.
 
 Oppgavene skrives i markdown og har en YAML-header i toppen. Formatet er
-beskrevet i [FORMAT.md](//github.com/arve0/codeclub_lesson_builder/blob/docs/FORMAT.md),
+beskrevet i [FORMAT.md](//github.com/arve0/codeclub_lesson_builder/blob/master/FORMAT.md),
 men vi tar det viktigste her.
 
 Først et eksempel:

@@ -1,10 +1,7 @@
 ---
 title: En hjemmeside
-level: Lesson 2
+level: 1
 language: nb-NO
-embeds: "*.png"
-materials: "ressurser"
-stylesheet: web
 ---
 
 ## Introduksjon { .intro}
@@ -15,7 +12,7 @@ Du kjenner en del __HTML__ tagger, så nå er det på tide å lage din første h
 
 ## Aktiviteter { .check}
 
-1. Åpne et __tekstprogram__. 
+1. Åpne et __tekstprogram__.
 2. Åpne filen som heter `om_meg.html`. Filen inneholder bittelitt HTMl kode for å hjelpe deg med å komme igang, men du må skrive resten selv.
 
 
@@ -35,7 +32,7 @@ Legg til avslutnings-taggen `<\ul>` igjen og lagre siden. Når du oppdaterer sid
 
 + Tagger må være stavet riktig for at nettleseren skal forstå dem. Hva skjer hvis vi gjør en skrivefeil?
 
-Finn `<h1>` taggen. La oss se hva som skjer hvis vi forandrer den til `<d1>`. Lagre filen og oppdater siden i nettlesern. 
+Finn `<h1>` taggen. La oss se hva som skjer hvis vi forandrer den til `<d1>`. Lagre filen og oppdater siden i nettlesern.
 
 Hva skjedde? Siden nettleseren ikke vet hva du mener med denne taggen så kan den ikke lenger forstå at det skal være en overskrift, så den bruker ikke lenger en større tekst til å vise hvor viktig akkurat den teksten er.
 
@@ -133,7 +130,7 @@ For å gjøre dette vil vi bruke dropbox eller google drive. Hvis du ikke har en
 3. Kopier deretter htmlfilen din over i denne mappen. Dersom du bruker noen bilder eller lignende må disse også kopieres over.
 4. Høyreklikk på htmlfilen og velge `Copy Public Link`
 5. Lim inn urlen i nettleseren din (ctrl + v) og se at nettsiden din kommer opp.
-6. Denne urlen kan du nå gi til vennene dine, så kan de se på siden din. 
+6. Denne urlen kan du nå gi til vennene dine, så kan de se på siden din.
 
 ## Google drive:
 
@@ -149,7 +146,3 @@ For å gjøre dette vil vi bruke dropbox eller google drive. Hvis du ikke har en
 
 * Hvordan kan du linke til en annen side på nettet? (Hint: prøv å legge til `http://` og deretter adressen til nettstedet du vil koble til)
 * I likhet med forslaget ovenfor, hvordan ville du legge til et bilde fra et sted på nettet i stedet for fra datamaskinen? (Hint: igjen, prøve å legge til `http://` og adressen til bildet)
-
-
-
-
