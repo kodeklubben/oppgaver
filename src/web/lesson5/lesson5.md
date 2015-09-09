@@ -1,10 +1,7 @@
 ---
 title: Endre utseende og stil på tekst
-level: Lesson 5
+level: 2
 language: nb-NO
-embeds: "*.png"
-materials: "resursser"
-stylesheet: web
 ---
 
 ## __Introduksjon:__ { .intro }
