@@ -43,8 +43,8 @@ Vi begynner prosjektet vårt med å få katten til å fly!
   `Utseende`{.blocklooks} og `Lyd`{.blocksound}. Klikk på disse
   kategoriene og prøv noen av klossene du finner!
 
-+ For å sette sammen flere kommandoer til et program eller skript, kan
-  du dra klosser til det store tomme området til høyre på skjermen.
++ For å sette sammen flere kommandoer til et skript kan du dra klosser
+  til det store tomme området til høyre på skjermen.
 
     Prøv å pusle sammen disse klossene (bruk fargene for å finne
     riktig kategori):
@@ -111,7 +111,7 @@ Nå skal vi sende den flyvende katten ut i verdensrommet.
 
 + Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nederst
   til venstre på skjermen for å hente inn en ny bakgrunn. Velg
-  bakgrunnen `Romfart/stars`.
+  bakgrunnen `stars` som du finner i kategorien `Romfart`.
 
 + Vi skal også gi katten en liten oksygentank, siden den flyr rundt
   ute i rommet. Klikk på katten i figurvinduet og deretter på fanen
@@ -156,9 +156,10 @@ realistisk.
   jorda. Det gjør vi ved å endre størrelsen slik at katten blir mindre
   jo nærmere den kommer jordkloden.
 
-    Klikk på katten i figurlisten, og endre på skriptet ved å legge
-    til en kommando nederst som endrer størrelsen på katten avhengig
-    av avstanden til jordkloden:
+    Klikk på katten i figurlisten. Legg `sett størrelse
+    til`{.blocklooks} nederst i `for alltid`{.blockcontrol}-løkka,
+    slik at størrelsen på katten er avhengig av avstanden til
+    jordkloden:
 
     ```blocks
         når grønt flagg klikkes
@@ -180,8 +181,9 @@ realistisk.
 
 __Klikk på det grønne flagget.__
 
-+ Blir katten mindre når den nærmer seg jorda? Ser det ut som om den
-  flyr ned mot jorda, og kommer tilbake til oss?
++ Blir katten mindre når den nærmer seg jorda?
+
++ Ser det ut som om den flyr ned mot jorda, og kommer tilbake til oss?
 
 ## Sjekkliste {.check}
 
