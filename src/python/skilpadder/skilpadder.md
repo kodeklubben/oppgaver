@@ -11,52 +11,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 
 I denne modulen skal vi lære et programmeringsspråk som heter Python. Personen som laget det kalte det opp etter sitt favorittprogrammet på TV: Monthy Pythons Flyvende Cirkus. Python brukes av mange forskjellige programmerere til mange forskjellige ting. Python brukes av YouTube, NASA, CERN og andre. Hvis din Kodeklubb har en Raspperry Pi kan du bruke Python til å programmere den. Mange elsker Python fordi de synes det er lett å lese (i motsetning til språk de synes er vanskeligere å lese). Her er meningene mange, når du lærer flere språk får du sikkert også sterke meninger om dem. Å være i stand til å lese kode er viktig for en programmerer, kanskje like viktig som å kunne skrive den.
 
-# Steg 0: Åpne Python-editoren {.activity}
-
-Hvis Python allerede er installert på maskinen din er det bare å begynne.
-
-- På Windows, finn IDLE i start-menyen
-- På Mac OS X, åpne Terminal.app og skriv `idle` og trykk enter.
-- På Linux, åpne opp en Terminal, skrive `idle` og trykk enter.
-
-Hvis du ikke har Python installert fra før - ikke få panikk! Du kan laste ned siste versjon av Python fra [http://www.python.org/](http://www.python.org/getit/). Nøyaktig hvilken versjon det er spiller liten rolle, men vi bruker Python 3, så
-versjonsnummeret bør begynne med 3 (og ikke 2).
-
-Når IDLE starter ser du et Output-vindu som heter `Python Shell`. Vi må åpne et nytt vindu for å skrive kode i. Trykk `File -> New Window` så er du klar for steg 1. Pass på at du har begge vinduene synlige.
-
-# Steg 1: Hello, World! {.activity}
-
-`Hello, World!` betyr `Hei, Verden!` og brukes ofte for å vise frem et nytt programmeringsspråk. Alt man skal få til er å få datamaskinen til å skrive akkurat disse ordene på skjermen.
-
-## Sjekkliste {.check}
-
-+ Åpne IDLE, editoren som følger med Python. Vi kommer til å skrive all koden vår i denne editoren. Når du åpner den ser du et Output-vindu. I dette vinduet kommer feilmeldinger og resultater til å dukke opp.
-
-+ Hvis du ikke har gjort det ennå, velg `File -> New Window`. Et tomt vindu
-dukker opp, med '*Untitled*' i tittelfeltet.
-    Du skal ha to vinduer åpne nå, et for å skrive programmet ditt i, og et
-    annet for å vise resultater i. Pass på at du skriver i det riktige!
-
-+ Skrive følgende kode inn i det nye vinduet:
-
-    ```python
-    print("Hello, World!")
-    ```
-
-+ Dobbeltsjekk at du ikke er i Output-vinduet og lagre koden din.
-
-Du kan lagre ved å velge `File -> Save`. Når du blir bedt om å skrive inn et
-filnavn, skriv hello.py, og lagre filen på skrivebordet ditt. Så kan du
-velge `Run -> Run Module`.
-
-Gratulerer med ditt første Python-program :D (PS! Du kan be det skrive hva
-du vil, kanskje kan du prøve å få det til å si hei til deg selv?)
-
-### Tips {.protip}
-* På __Windows__ og __Ubuntu__, bruk Ctrl-N for å lage nye shell-vinduer, bruk Ctrl-S for å lagre og bruk F5 for å kjøre programmet ditt. På noen maskiner må du kanskje trykke fn-knappen også.
-* På __Mac OS X__, cmd-N for å lage nye shell vinduer, Command-S for å lagre, og hold nede fn-knappen og trykk F5 for å kjøre programmet ditt.
-
-# Steg 2: Hei, Skilpadde! {.activity}
+# Steg 1: Hei, Skilpadde! {.activity}
 
 Nå skal vi ha det litt gøy med skilpadder. En skilpadde er en liten robot
 som tegner seg selv på skjermen din, vi kan få den til å bevege seg rundt
@@ -140,7 +95,7 @@ Når skilpadden ser nordover og du ber den snu seg 90 grader mot venstre, ser de
 
 Vi kommer til å bruke disse instruksjonene på toppen av alle programmene våre i denne leksjonen. Hvis du vil kan du forsøke å gi skilpadden en av de andre formene, som pil, og få den til å gå så fort eller sakte som du vil.
 
-# Steg 3: Tegne figurer! {.activity}
+# Steg 2: Tegne figurer! {.activity}
 
 La oss lage et kvadrat ved å fortelle skilpadden hvordan den skal bevege seg rundt.
 
@@ -222,7 +177,7 @@ Hva er yndlingsfargen din? Du kan endre fargen på linjene ved å bruke funksjon
     du kanskje har gjort med CSS før. Istedenfor å bruke `pencolor("red")` kan du bruke hex
     `pencolor("#FF0000")`. Hvilken farge er #FF4F00?
 
-# Steg 4: Gjenta deg selv (med en for-løkke) {.activity}
+# Steg 3: Gjenta deg selv (med en for-løkke) {.activity}
 
 Det siste programmet var de samme kommandoene igjen og igjen. Istedenfor å skrive dem ned, la oss be maskinen om å gjenta dem for oss. Du har vært borti *iterasjon* i Scratch ved å bruke `Forever` og `Repeat`/`Repeat until` blokker. I Python brukes __for-løkker__ når du har kode som du vil gjenta n ganger. I dette eksemplet vil vi gjenta koden (den som er skjøvet inn) 4 ganger fordi en firkant har 4 sider.
 
@@ -298,7 +253,7 @@ grader i hvert hjørne, som også blir 360 grader.
 Hvis du snur seks ganger, hvor mange ganger må du snu for at det skal bli
 360 grader? Prøv med forskjellige tall og se hva som skjer.
 
-# Steg 5: Snu, snu, snu {.activity}
+# Steg 4: Snu, snu, snu {.activity}
 
 Istedenfor å regne ut vinklene, kan vi ikke heller få datamaskinen til å gjøre det for oss? Python lar deg plusse, trekke fra, gange og dele.
 Vi kan skrive `sides = 4 + 1` istedenfor 5, eller `sides = 4 - 1` istedenfor 3. For multiplikasjon bruker Python `*`, og for divisjon skriver vi `/`.
@@ -327,7 +282,7 @@ For en firkant er `360 / 4` lik 90, for trekanten er `360 / 3` lik 120.
 + Nå kan du endre antall sider, klarer Python å gjøre jobben riktig? Prøv
 med så mange kanter du vil!
 
-# Steg 6: Fylte figurer {.activity}
+# Steg 5: Fylte figurer {.activity}
 
 ## Sjekkliste {.check}
 
@@ -364,7 +319,7 @@ med så mange kanter du vil!
 
 + Forsøk å endre fargene, sidene og lengdene og se hvilke figurer du kan tegne!
 
-# Steg 7: Pennen går opp, pennen går ned {.activity}
+# Steg 6: Pennen går opp, pennen går ned {.activity}
 
 Hvis du vil flytte skilpadden uten at den skal sette spor etter seg, kan du
 bruke `penup()` og `pendown()` for å slå av og på at skilpadden skal tegne.
@@ -394,7 +349,7 @@ bruke `penup()` og `pendown()` for å slå av og på at skilpadden skal tegne.
 
 Et par triks på slutten: `home()` får skilpadden til å gå hjem dit den begynte, `clear()` tørker alle sporene av skjermen, og `reset()` flytter skilpadden og renser opp skjermen.
 
-# Steg 8: Gjør hva du vil! {.activity}
+# Steg 7: Gjør hva du vil! {.activity}
 
 Du kan `forward()`, `backward()`, `left()`, `right()`, du kan gjenta ting
 med `for count in range(4)`, endre farger, endre fart og til og med fylle
