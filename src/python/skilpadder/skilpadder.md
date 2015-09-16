@@ -19,7 +19,7 @@ med Python-kommandoer.
 
 ## Sjekkliste {.check}
 
-+ Åpne et nytt kodevindu (Fra `File` menyen) og skriv dette:
++ Åpne et nytt kodevindu og skriv dette:
 
     ```python
     from turtle import *

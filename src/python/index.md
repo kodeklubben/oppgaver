@@ -25,7 +25,7 @@ mange prosjekter som du kan jobbe med.
 - Trykk på Ctrl+S eller File --> Save for å lagre programmet ditt.
 - Gi programmet ditt navnet helloworld.py og lagre det i den mappen du ønsker.
 - Trykk på F5 eller Run --> Run Module for å kjøre programmet ditt.
-- Du  har nå skrevet ditt første program!
+- Du  har nå skrevet ditt første program! 
 
 ## Videoer 
 
