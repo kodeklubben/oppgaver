@@ -2,35 +2,22 @@
 title: Python
 ---
 
-Python er et programmeringsspråk som ble utviklet tidlig på 90-tallet av
-Nedelenderen Guido van Rossum. I dag utvikles språket av mange i et
-[fellesskap](https://www.python.org/community/) hvor alle som vil kan delta.
+Python er et tekstbasert programmeringsspråk som ble utviklet tidlig på 90-tallet av
+Nedelenderen Guido van Rossum. Python er ofte anbefalt til nybegynnere på grunn av språkets
+enkle syntaks, sammenlignet med en del andre programmeringsspråk. I kodeklubben anbefaler vi
+ofte å starte med Python etter en er godt kjent med Scratch, og før en går videre med for eksempel 
+programmering i Java. For å komme kjapt igang så har vi laget mange prosjekter som du kan jobbe med.
 
 
-## Installasjon
+## Hvordan installere Python
 
-For å installere Python følg anvisningene for ditt operativsystem:
-
-- [Windows](#win)
-- [Mac OS X](#mac)
-- [Linux](#lin)
-
+- Gå til [python.org/downloads](https://python.org/downloads).
+- Last ned Python til din datamaskin. Velg nyeste versjon.
+- Installer Python ved å følge installasjonsguiden.
+- Når Python er installert kan du åpne programmet som heter Idle.
 
 
-### Windows {#win}
-1. Last ned Python
-2. Installer
-3. Åpne Idle
+## Videoer
 
-
-### Mac OS X {#mac}
-1. Last ned Python
-2. Installer
-3. Åpne Idle
-
-
-### Linux {#lin}
-1. Last ned Python
-2. Installer
-3. Åpne Idle
+- Sjekk ut NTNU sine videoer på norsk for hvordan en kan komme igang og programmere i Python på [youtube](https://www.youtube.com/channel/UCNwXyHlGGOWZLzTy0-hM63w/videos?flow=grid&sort=da&view=0).
 
