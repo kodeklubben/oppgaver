@@ -1,5 +1,5 @@
 ---
-title: Python
+title: Videregående Python
 ---
 
 Python er et tekstbasert programmeringsspråk som ble utviklet tidlig på 90-tallet av
