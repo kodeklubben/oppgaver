@@ -22,7 +22,7 @@ lite stykke ned vil det være en overskrift som ser slik ut:
 All koden under denne overskriften kan du bare overse. Dette er koden som
 hjelper deg med å tegne figurer og hente input fra brukeren.
 
-I koden over overskriften har vi deklarert noen variabler:
+I koden over overskriften har vi laget noen variabler:
 
  * `TRIES` som angir hvor mange forsøk brukeren har. Ettersom det bare er
    tegnet figurer for 7 feil, så er det lurt å la denne være slik den er.
@@ -36,8 +36,7 @@ Vi har begynt å lage fire funksjoner for deg. Disse skal du gi innhold i steg 1
 
 # Steg 0: Test at alt fungerer {.activity}
 
-Følg [instruksjonene beskrevet her](#TODO:commandlineinstructions) for å åpne
-et kommandovindu i mappen som inneholder `hangman.py`. Ved å kjøre kommandoen
+Ved å kjøre kommandoen
 
 ```sh
 pgzrun hangman.py
@@ -45,12 +44,12 @@ pgzrun hangman.py
 
 skal du få opp et vindu som ser slik ut:
 
-![](#TODO:picture)
+![](./hangman_blank_screen.png)
 
 # {.tip}
 
 Dersom du ikke får opp et vindu som beskrevet over, pass på at du har
-[installert Python på riktig måte](#TODO:installinstructions), lastet ned
+installert Python på riktig måte, lastet ned
 [hangman.py](./hangman.py) og er i samme mappe som fila.
 
 Dersom du fremdeles sitter fast bør du snakke med en veileder.
@@ -151,8 +150,8 @@ Dette må du gjøre:
       `string.ascii_letters`, og legg disse til `state["remaining_letters"]`.
 
         **Hint:** Bruk `lst.append(elm)`
- * For å lage verdien som hører til `"display_string"` må vi bruke funksjonen vi
-   lagde i [steg 1](#steg-1-lage-det-hemmelige-ordet). Hvilke to argumenter
+ * For å lage verdien som hører til `"display_string"` må vi bruke funksjonen
+   vi lagde i [steg 1](#steg-1-lage-det-hemmelige-ordet). Hvilke to argumenter
    skal vi gi til funksjonen?
 
 # Test spillet ditt {.flag}
@@ -165,7 +164,7 @@ pgzrun hangman.py
 
 Du skal nå få opp et vindu som ser slik ut:
 
-![](#TODO:testpicture)
+![](./hangman_initial_screen.png)
 
 # Steg 3: Å avslutte spillet {.activity}
 
@@ -229,7 +228,7 @@ Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
 
  * Slik kan det se ut når spilleren vinner.
 
-   ![](#TODO:picture)
+   ![](./hangman_won_game.png)
 
  * Når spilleren taper kan det se ut omtrent som i bildet under. Pass på det
    følgende:
@@ -238,5 +237,5 @@ Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
       `game_over()`.
     * Pass på at du viser løsningsordet nederst.
 
-   ![](#TODO:picture)
+   ![](./hangman_lost_game.png)
 
