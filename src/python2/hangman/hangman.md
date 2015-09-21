@@ -154,7 +154,7 @@ Dette må du gjøre:
    vi lagde i [steg 1](#steg-1-lage-det-hemmelige-ordet). Hvilke to argumenter
    skal vi gi til funksjonen?
 
-# Test spillet ditt {.flag}
+## Test spillet ditt {.flag}
 
 Lagre endringene dine i `hangman.py`, og kjør spillet ditt:
 
@@ -216,7 +216,7 @@ Dette må du gjøre:
    understreker har brukeren vunnet spillet, og du må da endre
    `state["help_text"]` til `"You won!"` og kalle `game_over()`.
 
-# Test spillet ditt {.flag}
+## Test spillet ditt {.flag}
 
 Lagre endringene dine i `hangman.py`, og kjør spillet ditt:
 
