@@ -1,2 +1,0 @@
-kodegenet/intro_til_html.md
-kodegenet/intro_til_js.md
