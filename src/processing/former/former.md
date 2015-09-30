@@ -3,7 +3,6 @@ title: Former
 level: 1
 logo: ../../assets/img/ccuk_logo.png
 author: Sigmund Hansen
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
 # Introduksjon: {.intro}
@@ -24,32 +23,56 @@ som du lager med Processing, så det er et fint sted å starte.
 
 + Start Processing og skriv dette:
 
-  ```processing
-  void setup() {
-    size(640, 480);
-  }
-
-  void draw() {
-    background(0);
-  }
-  ```
+    ```processing
+    void setup() {
+      size(640, 480);
+    }
+    
+    void draw() {
+      background(0);
+    }
+    ```
 + Kjør programmet ved å trykke på **Ctrl+R**, knappen med en pil
   eller **Sketch --> Run** i menyen.
 + Lagre programmet som Former ved å trykke på **Ctrl+S** eller
   velg **File --> Save** i menyen.
-+ Det anbefales at man utforsker mulighetene litt selv, hva skjer hvis du:
-  + Bytter ut det første tallet i size(640, 480);?
-  + Bytter ut det andre tallet?
-  + Hva om du bruker et annet tall i background(0);?
-  + Hva skjer hvis tallet er høyere enn 255?
-  + Hva skjer hvis tallet er lavere enn 0?
+
+### Hvordan skrive krøllparenteser og liknende {.protip}
+
+TODO: Fikse bredden på celler i tabellen (det trengs marger for å få
+litt horisontal luft). Sjekk at pipe skrives med Shift + 7 på Mac.
+
+Her finner du en oversikt over hvordan man skriver en del tegn som
+brukes i Processing og ofte i andre programmeringsspråk. Dette
+beskriver hvordan det gjøres med vanlig norsk tastatur. Den dekker
+også tegn som ikke blir brukt i denne øvelsen, så den kan være fin å
+ta med seg videre.
+
+| Tegn | Windows/Linux          | Mac                    |
+|:----:| ---------------------- | ---------------------- |
+| ;    | Shift + ,              | Shift + ,              |
+| "    | Shift + 2              | Shift + 2              |
+| \'   | \' (til høyre for Æ)   | \' (til venstre for 1) |
+| \|   | \| (til venstre for 1) | Shift + 7              |
+| \&   | Shift + 6              | Shift + 6              |
+| \[   | Alt Gr + 8             | Alt + 8                |
+| \]   | Alt Gr + 9             | Alt + 9                |
+| {    | Alt Gr + 7             | Shift + Alt + 8        |
+| }    | Alt Gr + 0             | Shift + Alt + 9        |
+
+## Utforsking {.try}
+
+Det anbefales at man utforsker mulighetene selv. Hva skjer hvis du:
+
++ Bytter ut det første tallet i size(640, 480);?
++ Bytter ut det andre tallet?
++ Hva om du bruker et annet tall i background(0);?
++ Hva skjer hvis tallet er høyere enn 255?
++ Hva skjer hvis tallet er lavere enn 0?
 + Før du går videre kan det være lurt å fjerne endringene som ble gjort i
   utforskningen med andre tallverdier.
 
-### Tips {.protip}
-
-TODO: Sett inn tabell med oversikt over hvordan man skriver
-forskjellige parenteser og spesieltegn på Windows-maskiner og Mac.
+## Forklaring av koden {.protip}
 
 Selv om du har utforsket size og background litt, lurer du sikkert på
 hva resten av koden gjør eller er godt for. Før vi går videre, skal vi
@@ -76,9 +99,9 @@ spesiell, og blir kjørt om og om igjen så lenge programmet
 kjører. Koden inne i denne, kallet på background, setter
 bakgrunnsfargen i vinduet. Faktisk fylles hele vinduet med denne
 bakgrunnsfargen. Tallet 0 betyr at ikke noe lys skal lages, altså blir
-bakgrunnen svart. Hvit som er den lyseste fargen, har verdien
-255. Tallene imellom gir forskjellige gråtoner. Senere skal vi se på
-hvordan vi kan gå fra svart-hvitt til farger.
+bakgrunnen svart. Hvit har verdien 255. Tallene imellom gir
+forskjellige gråtoner. Senere skal vi se på hvordan vi kan gå fra
+svart-hvitt til farger.
 
 ## Steg 2: Sirkel {.activity}
 
