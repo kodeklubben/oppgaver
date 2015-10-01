@@ -64,13 +64,13 @@ ta med seg videre.
 
 Det anbefales at man utforsker mulighetene selv. Hva skjer hvis du:
 
-+ Bytter ut det første tallet i size(640, 480);?
++ Bytter ut det første tallet i `size(640, 480);`?
 + Bytter ut det andre tallet?
-+ Hva om du bruker et annet tall i background(0);?
-+ Hva skjer hvis tallet er høyere enn 255?
-+ Hva skjer hvis tallet er lavere enn 0?
++ Hva om du bruker et annet tall i `background(0);`?
++ Hva skjer hvis tallet er høyere enn `255`?
++ Hva skjer hvis tallet er lavere enn `0`?
 + Før du går videre kan det være lurt å fjerne endringene som ble gjort i
-  utforskningen med andre tallverdier.
+  denne utforskingen.
 
 ## Forklaring av koden {.protip}
 
@@ -102,5 +102,59 @@ betyr at ikke noe lys skal lages, altså blir bakgrunnen svart. Hvit
 har verdien `255`. Tallene imellom gir forskjellige gråtoner. Senere
 skal vi se på hvordan vi kan gå fra svart-hvitt til farger.
 
-## Steg 2: Sirkel {.activity}
+# Steg 2: Sirkel {.activity}
 
+Siden denne oppgaven skal handle om former, er det på tide at vi
+kommer i gang med å tegne noen former. La oss begnne med å tegne en
+sirkel midt i vinduet.
+
+## Sjekkliste {.check}
+
++ Endre `draw` til følgende uten å endre `setup`:
+    ```processing
+    void draw() {
+      background(0);
+      ellipse(320, 240, 100, 100);
+    }
+    ```
++ Lagre med **Ctrl+S** og kjør programmet med **Ctrl+R**. Du skal
+  da se en hvit sirkel midt i vinduet som i bildet under.
+
+![](sirkel1.png "En hvit sirkel på svart bakgrunn midt i et vindu")
+
++ Legg til en sirkel til og kjør programmet igjen:
+    ```processing
+    void draw() {
+      background(0);
+      ellipse(320, 240, 100, 100);
+      ellipse(0, 0, 200, 200);
+    }
+    ```
+
++ La oss legge til en siste sirkel og kjøre programmet enda en gang:
+    ```processing
+    void draw() {
+      background(0);
+      ellipse(320, 240, 100, 100);
+      ellipse(0, 0, 200, 200);
+      ellipse(640, 480, 50, 50);
+    }
+    ```
+
+![](sirkel2.png "Tre hvite sirkler på svart bakgrunn:
+en stor øverst til venstre, en middels stor midt i vinduet og en liten nederst til høyre")
+
+## Forklaring av koden {.protip}
+
+Nå har du kanskje knekt koden for hvordan `ellipse` fungerer og hva de
+forskjellige tallene gjør. Det første tallet bestemmer hvor langt til
+høyre i vinduet sirkelen skal tegnes opp. Det andre tallet bestemmer
+hvor langt ned i vinduet den skal tegnes opp. Det tredje tallet
+bestemmer hvor bred sirkelen skal være. Det siste tallet bestemmer
+hvor høy sirkelen er. Det siste hørtes kanskje rart ut, for en sirkel
+er jo like bred som den er høy. Hvis de to siste tallene ikke er like,
+får du nemlig ikke en sirkel, men en ellipse som er bredere enn den er
+høy eller høyere enn den er bred. Og det er derfor funksjonen heter
+`ellipse` og ikke `circle`.
+
+# Steg 3: Variabler
