@@ -101,6 +101,7 @@ Du trenger følgende:
 	- Få boksen til å flytte seg mot venstre.
 	- Sjekke om boksen er ute av bildet på venstre side av vinduet. Hvis det, flytt den til høyre side av vinduet.
 	- Sjekke om strekmannen blir truffet av boksen. (Du skal lage funksjonen som gjør at han kan hoppe etterpå)
+
 ```python
 def update():
 	
@@ -113,6 +114,58 @@ def update():
 	#Gjør at boksen flytter seg mot venstre
 ```
 
-**Tips:**
+###Tips
+Her er tips om hvordan du kan sjekke om strekmannen blir truffet av boksen. Legg merke til at y-aksen er positiv nedover, noe som er motsatt av slik det er i matematikken. Boksen sin x og y posisjon (x, y) er hvor boksens øverste venstre hjørne er plassert. Den røde firkaneten rundt strekmannen viser omrisset at strekmann-bildet.
+I tilfelle 1 ser du at boksens øverste venstre hjørne er inni den røde firkanten rundt strekmannen. Dette må du sjekke i if-setningen.
+I tilfelle 2 er boksens øvre høyre hjørne inne den røde firkanten, dette må du også sjekke i if-setningen.
+![](koord_data2.png "Koordinatsystem med figurer")
+
 
 # Steg 5: Animasjoner {.activity}
+
+Du skal nå lage funksjoner for å gjøre strekmannen i stand til å hoppe.
+
++ Vi trenger funksjonen on_key_up() som blir utført hvis man trykker på 'pilopp' på tastaturet.
+
+```python
+def on_key_up():
+	#TO DO
+```
+
++ Vi vil at det kun skal være lov til å hoppe hvis man står på bakken. Lag en if-setning som sjekker dette i funksjonen.
+
+animate(...) er en funksjon som tar inn ulike parametere. I koden under animerer vi stick_man til å 'decelerate' som betyr å miste fart i en tidsperiode på 0.4 sekunder fra sin nåværende posisjon til posisjonen der bunnen av stick_man har x-verdi = (HEIGHT - box.height*1.5), det vil si han kan hoppe 1,5 ganger så høyt som så hvor høy boksen er.
+
+```python
+animate(stick_man, 'decelerate', duration = 0.4, bottom = (HEIGHT - box.height*1.5))
+``` 
++ Du kan bruke koden over for å få strekmannen til å hoppe. 
+
+Vi trenger nå en animasjon som gjør at strekmannen kommer ned til bakken igjen. Sammenlign med koden over og se om du skjønner hva som skjer.
+
+```python
+def back_down():
+	animate(stick_man, 'accelerate', duration = 0.4, bottom = HEIGHT)
+``` 
++ Legg til denne koden nederst i filen din.
+
++ Legg til koden under for å gjøre slik at når strekmannen når toppen av hoppet sitt settes animasjonen som gjør at han beveger seg ned i gang.
+
+```python
+clock.schedule_unique(back_down, 0.4)
+```
+
+Dette er en skisse på hvordan koden din skal se ut:
+```python
+def on_key_up():
+	if "strekmann på bakken"
+
+		#Animasjon oppover
+
+		#Sett i gang animasjon ned
+	
+def back_down():
+	#Animasjon ned
+```
+
+## Test programmet ditt {.flag}
