@@ -157,4 +157,18 @@ får du nemlig ikke en sirkel, men en ellipse som er bredere enn den er
 høy eller høyere enn den er bred. Og det er derfor funksjonen heter
 `ellipse` og ikke `circle`.
 
-# Steg 3: Variabler
+![](sirkel3.png "Tre hvite sirkler på svart bakgrunn med piler som viser X- og Y-aksen.")
+
+I bildet ovenfor, vises også området utenfor bilderammen hvor resten
+av de to siste sirklene tegnes opp. I tillegg viser to piler hvordan
+de to første tallene i kallene på `ellipse` brukes. Det første tallet
+angir posisjon langs X-aksen, vist med pilen merket X. Det andre
+tallet angir posisjon lans Y-aksen, vist med pilen merket Y. Der disse
+to pilene krysser hverandre har de verdien `0`, og de strekker seg til
+kanten av vinduet med verdiene `640` for X og `480` for Y, som ble
+bestemt av kallet på `size`. Man kan også tegne opp ting utenfor
+bildet med negative tall eller tall som er større enn de brukt i
+kallet på `size`.
+
+# Steg 3: Variabler {.activity}
+
