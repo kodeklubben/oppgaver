@@ -172,3 +172,89 @@ kallet på `size`.
 
 # Steg 3: Variabler {.activity}
 
+Til nå har vi brukt faste tall overalt. Dette fungerer ikke alltid så
+bra. Hvis vi endrer størrelsen på vinduet, vil ikke sirkelen i midten
+være i midten lenger og sirkelen i nederste høyre hjørne vil heller
+ikke være riktig plassert. Hvis vi vil at sirklene skal bevege på seg,
+kan vi heller ikke bruke faste verdier.
+
+Dette løser vi ved hjelp av noe som heter variabler. En variabel kan
+du tenke på som en navngitt verdi. Vi kan også endre på verdien som er
+knyttet til navnet, og det er derfor det heter variabler: verdien kan
+variere.
+
+## Sjekkliste {.check}
+
++ For å løse det første problemet skal vi nå første endre størrelsen
+  på vinduet i `setup`:
+
+    ```processing
+    void setup() {
+      size(800, 600);
+    }
+    ```
+
+  Legg merke til at sirkelen som var i midten og sirkelen i nederste
+  høyre hjørnet, nå er litt til venstre og litt lenger opp
+  enn midten og hjørnet:
+
+![](variabler1.png "De tre hvite sirklene er nå vist på en svart bilderamme som er større enn før.")
+
++ Vi skal nå ta i bruk to variabler som heter `width` og `height`,
+  altså bredde og høyde på engelsk. Disse får sin verdi når `size` kalles.
+  Endre `draw` som følger:
+
+    ```processing
+    void draw() {
+      background(0);
+      ellipse(width / 2, height / 2, 100, 100);
+      ellipse(0, 0, 200, 200);
+      ellipse(width, height, 50, 50);
+    }
+    ```
+
+  Her har vi også brukt et regnestykke for å tegne opp den første sirkelen.
+  Skråstreken, `/`,  betyr delt på, så `width / 2` gir altså halvparten
+  av bredden. `height / 2` gir jo da halvparten av høyden. Vi kunne også
+  brukt `width * 0.5` for å oppnå det samme, men det blir da bredden ganget
+  med en halv. Noen ganger er det enklere med deling og andre ganger ganging,
+  men det kommer an på hvor vi vil plassere ting.
+
++ Nå skal vi lage våre egne variabler. Dette kan vi bruke for å få formene
+  til å bevege på seg:
+
+    ```processing
+    float x;
+    float y;
+    
+    void setup() {
+      size(800, 600);
+      x = width / 2;
+      y = height / 2;
+    }
+    ```
+
+  De to linjene som ble lagt til før `setup`, sier at vi skal ha to variabler,
+  `x` og `y`, og at disse er av typen `float`. `float` er en type som brukes
+  til desimaltall. Inne i `setup` har vi gitt disse variablene verdier,
+  som kommer fra det samme regnestykket som vi brukte i forrige punkt.
+
++ Det er ikke nok å bare ha variabler. Vi må bruke dem også, så vi
+  endrer igjen på `draw`:
+
+    ```processing
+    void draw() {
+      background(0);
+      
+      x = x + 1;
+      
+      ellipse(x, y, 100, 100);
+      ellipse(0, 0, 200, 200);
+      ellipse(width, height, 50, 50);
+    }
+    ```
+
+  Den første sirkelen bruker nå variablene til posisjonen. I tillegg
+  la vi til en ny linje som sier at `x` skal settes til én høyere enn
+  den gamle verdien. Hva tror du vil skje nå som `x` blir større hver
+  gang bildet tegnes opp?
