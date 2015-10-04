@@ -220,6 +220,8 @@ variere.
   med en halv. Noen ganger er det enklere med deling og andre ganger ganging,
   men det kommer an på hvor vi vil plassere ting.
 
++ Lagre og kjør programmet, om du ikke har gjort det allerede.
+
 + Nå skal vi lage våre egne variabler. Dette kan vi bruke for å få formene
   til å bevege på seg:
 
@@ -258,3 +260,27 @@ variere.
   la vi til en ny linje som sier at `x` skal settes til én høyere enn
   den gamle verdien. Hva tror du vil skje nå som `x` blir større hver
   gang bildet tegnes opp?
+
++ Lagre og kjør programmet, om du ikke har gjort det allerede.
+
+## Utforsking {.try}
+
+Prøv å utforske hvordan du kan endre `x` og `y` for hver gang `draw` kjøres.
+
++ Kan du få sirkelen til å bevege seg mot venstre istedenfor høyre?
++ Klarer du å få den til å bevege seg opp eller ned istedenfor til en
+  av sidene?
++ Hva med å å få den til å bevege seg på skrå?
+
+# Steg 4: Sprette i veggen {.activity}
+
+Det er litt kjedelig når sirkelen forsvinner ut av vinduet hele
+tiden. Så nå skal vi lære å få sirkelen til å snu når den treffer
+kanten av vinduet, som en ball som spretter tilbake hvis den kastes i
+veggen.
+
+# Steg 5: Andre former {.activity}
+
+Denne leksjonen heter ikke /Sirkler/, men /Former/. Så da må vi nesten
+lære hvordan vi kan tegne opp andre former enn sirkler. Derfor skal vi
+nå se på hvordan man kan tegne firkanter og trekanter.
