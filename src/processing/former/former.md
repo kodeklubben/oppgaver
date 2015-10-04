@@ -141,8 +141,9 @@ sirkel midt i vinduet.
     }
     ```
 
-![](sirkel2.png "Tre hvite sirkler på svart bakgrunn:
-en stor øverst til venstre, en middels stor midt i vinduet og en liten nederst til høyre")
+![](sirkel2.png "Tre hvite sirkler på svart bakgrunn: en stor øverst
+til venstre, en middels stor midt i vinduet og en liten nederst til
+høyre")
 
 ## Forklaring av koden {.protip}
 
@@ -157,7 +158,8 @@ får du nemlig ikke en sirkel, men en ellipse som er bredere enn den er
 høy eller høyere enn den er bred. Og det er derfor funksjonen heter
 `ellipse` og ikke `circle`.
 
-![](sirkel3.png "Tre hvite sirkler på svart bakgrunn med piler som viser X- og Y-aksen.")
+![](sirkel3.png "Tre hvite sirkler på svart bakgrunn med piler som
+ viser X- og Y-aksen.")
 
 I bildet ovenfor, vises også området utenfor bilderammen hvor resten
 av de to siste sirklene tegnes opp. I tillegg viser to piler hvordan
@@ -198,7 +200,8 @@ variere.
   høyre hjørnet, nå er litt til venstre og litt lenger opp
   enn midten og hjørnet:
 
-![](variabler1.png "De tre hvite sirklene er nå vist på en svart bilderamme som er større enn før.")
+![](variabler1.png "De tre hvite sirklene er nå vist på en svart
+ bilderamme som er større enn før.")
 
 + Vi skal nå ta i bruk to variabler som heter `width` og `height`,
   altså bredde og høyde på engelsk. Disse får sin verdi når `size` kalles.
@@ -263,6 +266,14 @@ variere.
 
 + Lagre og kjør programmet, om du ikke har gjort det allerede.
 
+### Lagre som {.protip}
+
+Hvis du ikke vil miste de forskjellige stegene som er gjort på veien,
+kan du bruke *Save as* (*Lagre som*) istedenfor *Save* (*Lagre*). Du
+finner dette under **File -> Save as** ved å trykke **Shift + Ctrl +
+S**. Da kan du lagre programmet med et annet navn, og beholde to
+forskjellige varianter.
+
 ## Utforsking {.try}
 
 Prøv å utforske hvordan du kan endre `x` og `y` for hver gang `draw` kjøres.
@@ -281,6 +292,6 @@ veggen.
 
 # Steg 5: Andre former {.activity}
 
-Denne leksjonen heter ikke /Sirkler/, men /Former/. Så da må vi nesten
+Denne leksjonen heter ikke *Sirkler*, men *Former*. Så da må vi nesten
 lære hvordan vi kan tegne opp andre former enn sirkler. Derfor skal vi
 nå se på hvordan man kan tegne firkanter og trekanter.
