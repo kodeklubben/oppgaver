@@ -249,10 +249,9 @@ variere.
 
     ```processing
     void draw() {
-      background(0);
-      
       x = x + 1;
-      
+
+      background(0);
       ellipse(x, y, 100, 100);
       ellipse(0, 0, 200, 200);
       ellipse(width, height, 50, 50);
@@ -289,6 +288,66 @@ Det er litt kjedelig når sirkelen forsvinner ut av vinduet hele
 tiden. Så nå skal vi lære å få sirkelen til å snu når den treffer
 kanten av vinduet, som en ball som spretter tilbake hvis den kastes i
 veggen.
+
+## Sjekkliste {.check}
+
++ Vi trenger et par nye variabler for å styre retningen til
+  sirkelen. Legg til følgende før `setup`:
+
+    ```processing
+    float xFart = 1.5;
+    float yFart = 2;
+    ```
+
+  Disse skal vi bruke til å styre farten til sirkelen, som også
+  bestemmer retningen. Her kan du også se hvordan desimaltall ser ut i
+  Processing: vi bruker punktum istedenfor komma fordi det er det som
+  brukes i engelsk. Du har kanskje lagt merke til at vi nå gir
+  variablene verdier med en gang, mens vi tidligere ga dem verdier i
+  `setup`. Grunnen til dette er at `width` og `height` kan ikke brukes
+  før `size` er kjørt, så vi kunne ikke sette `x` og `y` med en gang.
+
++ Nå skal vi legge til en større bit med kode i `draw` for å få ballen
+  til å snu. Merk at vi endrer også setningen hvor vi øker `x`:
+
+    ```processing
+    void draw() {
+      x = x + xFart;
+      y = y + yFart;
+      
+      if (x < 50 || x > width - 50) {
+        xFart = -xFart;
+      }
+        
+      if (y < 50 || y > height - 50) {
+        yFart = -yFart;
+      }
+
+      background(0);
+      ellipse(x, y, 100, 100);
+      ellipse(0, 0, 200, 200);
+      ellipse(width, height, 50, 50);
+    }
+    ```
+    
++ Lagre og kjør programmet.
+
+### Forklaring {.protip}
+
+I `draw` ser vi en del nytt som du ikke har sett før. `if`, *hvis* på
+engelsk, lar oss utføre en kodesnutt bare i spesielle tilfeller. Det
+som bestemmer om koden skal utføres eller ikke kommer rett bak `if` i
+parenteser. I den første`if`-setningen er det `x < 50 || x > width -
+50`. Dette er egentlig to tilfeller satt sammen, `x < 50` og `x >
+width - 50`, og de er slått sammen med `||` som betyr *eller*. `x <
+50` betyr *er x mindre enn 50* og `x > width - 50` betyr *er x større
+enn bredden minus 50*. `50` er halvparten av bredden til sirkelen, og
+siden `x` er midt i sirkelen, betyr dette er venstre eller høyre side
+av sirkelen utenfor sirkelen. Hvis det er det, så skal vi utføre koden
+`xFart = -xFart;` Denne setningen gjør at retningen langs X-aksen,
+altså venstre og høyre, blir snudd. Hvis `xFart` er positiv, blir den
+negativ og motsatt. Så gjør vi akkurat det samme for farten i Y-aksen,
+altså opp og ned.
 
 # Steg 5: Andre former {.activity}
 
