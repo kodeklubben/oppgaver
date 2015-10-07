@@ -308,7 +308,8 @@ veggen.
   før `size` er kjørt, så vi kunne ikke sette `x` og `y` med en gang.
 
 + Nå skal vi legge til en større bit med kode i `draw` for å få ballen
-  til å snu. Merk at vi endrer også setningen hvor vi øker `x`:
+  til å snu. Merk at vi endrer også setningen hvor vi øker `x` og
+  fjerner de to sirklene i hjørnene:
 
     ```processing
     void draw() {
@@ -325,8 +326,6 @@ veggen.
 
       background(0);
       ellipse(x, y, 100, 100);
-      ellipse(0, 0, 200, 200);
-      ellipse(width, height, 50, 50);
     }
     ```
     
@@ -354,3 +353,107 @@ altså opp og ned.
 Denne leksjonen heter ikke *Sirkler*, men *Former*. Så da må vi nesten
 lære hvordan vi kan tegne opp andre former enn sirkler. Derfor skal vi
 nå se på hvordan man kan tegne firkanter og trekanter.
+
+## Sjekkliste {.check}
+
++ La oss først se på enkle firkanter, vi bytter ut `ellipse` med `rect`:
+
+    ```processing
+    void draw() {
+      x = x + xFart;
+      y = y + yFart;
+      
+      if (x < 50 || x > width - 50) {
+        xFart = -xFart;
+      }
+        
+      if (y < 50 || y > height - 50) {
+        yFart = -yFart;
+      }
+
+      background(0);
+      rect(x, y, 100, 100);
+    }
+    ```
+
++ Lagre programmet, her kan det være fint å bruke *Save as* (*Lagre
+  som*) med **Shift + Ctrl + S** og gi programmet et nytt navn. Kjør
+  programmet. Legg merke til at firkanten beveger seg litt utenfor
+  vinduet nederst og til høyre, og ikke helt til kanten øverst og til
+  venstre. Dette er fordi firkanter tegnes fra øverste venstre hjørne,
+  mens ellipser tegnes fra midten.
+
++ Vi har nå to valg for hvordan vi kan fikse dette problemet. Vi kan
+  endre hvordan vi sjekker om firkanten har truffet kanten, eller vi
+  kan endre hvordan vi tegner opp firkanter. Den første løsningen
+  gjøres ved å endre `setup` slik:
+
+    ```processing
+    void setup() {
+      size(800, 600);
+      x = width / 2;
+      y = height / 2;
+      rectMode(CENTER);
+    }
+    ```
+
+  Hvis man skal løse det på den andre måten, gjør man det ved å endre
+  de to `if`-setningene i `draw`:
+
+    ```processing
+    void draw() {
+      x = x + xFart;
+      y = y + yFart;
+      
+      if (x < 0 || x > width - 100) {
+        xFart = -xFart;
+      }
+        
+      if (y < 0 || y > height - 100) {
+        yFart = -yFart;
+      }
+
+      background(0);
+      rect(x, y, 100, 100);
+    }
+    ```
+
+  Du må ikke bruke begge løsningene samtidig. Da vil ikke firkanten nå
+  frem til kantene nederst og til høyre, og heller gå litt utenfor
+  vinduet øverst og til venstre.
+
++ Lagre programmet før vi prøver å lage trekanter.
+
++ Når vi skal lage en trekant, må vi si hvor alle hjørnene i trekanten
+  skal være. Dette gir oss mer frihet. Vi kan for eksempel flytte
+  hvert hjørne for seg ved å bruke flere variabler, fire for hvert
+  hjørne: to til posisjon og to til hastighet. Vi ser først hvordan vi
+  kan få en enkel trekant til å sprette rundt som firkanten og
+  sirkelen tidligere, så skal vi lage en hvor hvert hjørne beveger seg
+  for seg selv:
+
+    ```processing
+    void draw() {
+      x = x + xFart;
+      y = y + yFart;
+      
+      if (x < 50 || x > width - 50) {
+        xFart = -xFart;
+      }
+        
+      if (y < 50 || y > height - 50) {
+        yFart = -yFart;
+      }
+
+      background(0);
+      triangle(x, y - 50, x + 50, y + 50, x - 50, y + 50);
+    }
+    ```
+
+  Hvis du endret `if`-setningene i punktet ovenfor om firkanten, så er
+  dette nå endret tilbake. Her er det også viktig å holde rede på
+  pluss og minus for hvert av de tre punktene i trekanten i kallet på
+  `triangle`.
+
++ Lagre programmet igjen, gjerne med nytt navn ved hjelp av *Save as*.
+
