@@ -354,7 +354,7 @@ Denne leksjonen heter ikke *Sirkler*, men *Former*. Så da må vi nesten
 lære hvordan vi kan tegne opp andre former enn sirkler. Derfor skal vi
 nå se på hvordan man kan tegne firkanter og trekanter.
 
-## Sjekkliste {.check}
+## Firkanter {.check}
 
 + La oss først se på enkle firkanter, vi bytter ut `ellipse` med `rect`:
 
@@ -424,6 +424,8 @@ nå se på hvordan man kan tegne firkanter og trekanter.
 
 + Lagre programmet før vi prøver å lage trekanter.
 
+## Enkle trekanter {.check}
+
 + Når vi skal lage en trekant, må vi si hvor alle hjørnene i trekanten
   skal være. Dette gir oss mer frihet. Vi kan for eksempel flytte
   hvert hjørne for seg ved å bruke flere variabler, fire for hvert
@@ -457,3 +459,146 @@ nå se på hvordan man kan tegne firkanter og trekanter.
 
 + Lagre programmet igjen, gjerne med nytt navn ved hjelp av *Save as*.
 
+### Forklaring av triangle {.protip}
+
+`triangle` tar seks argumenter. Disse kommer i par, slik at de to
+første hører sammen og bestemmer posisjonen til det første av de tre
+hjørnene. De neste to bestemmer posisjonen til det andre hjørnet og de
+to siste det tredje. Hvis vi sier at `x` og `y` er midten av
+trekanten, da har vi det første hjørnet `50` piksler over midten (`y -
+50`), og de to neste hjørnene er `50` piksler under (`y + 50`) midten
+og `50` piksler til høyre (`x + 50`) og venstre (`x - 50`) for midten.
+
+## Trekanter {.check}
+
++ Nå skal vi se hvordan vi kan lage trekanter hvor hvert hjørne
+  beveger seg for seg selv. Da trenger vi fire variabler for hvert
+  hjørne, to for posisjon og to for farten, og dette for tre hjørner
+  som blir tolv variabler. Vi kunne kalt dem f.eks. `x1`, `x2`, `x3`
+  og tilsvarende for `y` og farten, men vi skal isteden bruke noe som
+  kalles *array*. Det er vanlig å bruke det engelske ordet også på
+  norsk, men det oversettes noen ganger til vektor, rekke, tabell
+  eller matrise, men de kan lett forveksles med andre typer enn
+  *arrays*. Vi begynner med å endre variablene.
+
+    ```processing
+    float[] x = new float[3];
+    float[] y = new float[3];
+    float[] xFart = new float[3];
+    float[] yFart = new float[3];
+    ```
+
+  Nå har vi endret typen av variablene fra `float` til `float[]`. Når
+  vi putter firkantklammer etter en type, er det en *array* med
+  verdier av typen foran klammene. Bak likhetstegnet ser vi også noe
+  nytt `new float[3]` betyr at vi skal lage en ny `float`-*array* med
+  tre tall i.
+
++ Nå må vi endre startverdiene til disse tallene, ellers vil de bare
+  være `0` alle sammen:
+
+    ```processing
+    void setup() {
+      size(800, 600);
+      
+      x[0] = width / 2;
+      x[1] = width / 2;
+      x[2] = width / 2;
+      
+      y[0] = height / 2;
+      y[1] = height / 2;
+      y[2] = height / 2;
+      
+      xFart[0] = 1.5;
+      xFart[1] = 2.5;
+      xFart[2] = 3.5;
+      
+      yFart[0] = -5;
+      yFart[1] = 2.5;
+      yFart[2] = -1.5;
+    }
+    ```
+
+  Her ser vi hvordan vi jobber med verdiene i en *array*. Vi bruker
+  firkantklammer med et tall i for å si hvilken verdi vi skal jobbe
+  med. Den første verdien finnes på plass `0`, og den siste verdien er
+  på plass `2` som er én lavere enn størrelsen. Tallet for
+  plasseringen kalles *indeks*. Indeksen er alltid én lavere enn om vi
+  skulle telle vanlig fordi vi begynner på `0`. Derfor er den siste
+  indeksen én lavere enn størrelsen.
+
++ Og til slutt må vi flytte rundt på hjørnene og tegne opp trekanten
+  vår:
+
+    ```processing
+    void draw() {
+      for (int i = 0; i < x.length; i++) {
+        x[i] = x[i] + xFart[i];
+        y[i] = y[i] + yFart[i];
+        
+        if (x[i] < 0 || x[i] > width) {
+          xFart[i] = -xFart[i];
+        }
+        
+        if (y[i] < 0 || y[i] > width) {
+          yFart[i] = -yFart[i];
+        }
+      }
+
+      background(0);
+      triangle(x[0], y[0], x[1], y[1], x[2], y[2]);
+    }
+    ```
+
+  Dette er en ganske stor endring med mye nytt. Vi skal derfor se litt
+  nærmere på hver av de nye tingene i forklaringen nedenfor, men først
+  kan du lagre og kjøre programmet.
+
+### Forklaring {.protip}
+
+I begynnelsen av `draw` har vi nå lagt inn noe som kalles en løkke,
+*loop* på engelsk. En løkke er en del med kode som utføres flere
+ganger. Det finnes andre slags løkker, og denne kalles en
+*for-løkke*. Inne i parentesene etter `for` har vi tre setninger. Den
+første, `int i = 0`, blir utført før løkken. Den neste, `i <
+x.length`, bestemmer om koden i løkken skal utføres eller om løkken er
+ferdig. Den siste, `i++`, utføres etter koden mellom krøllparentesene,
+altså innholdet i løkken. `i` bruker vi inne i løkken som indeks når
+vi jobber med arrayene istedenfor å skrive faste tall.
+
+Så om vi går gjennom koden steg for steg, ser vi at først lages en
+variabel `i` av typen `int` som starter med verdien `0`. `int` er
+typen som brukes for tall uten desimaler, altså *heltall* eller
+*integer* på engelsk. Så sjekker vi om `i` er mindre enn størrelsen
+til arrayen `x`. Hvis den er det, og det er den, for størrelsen til
+`x` er `3` og `i` er bare `0`, kjøres koden mellom
+krøllparentesene. Når all koden mellom krøllparentesene er kjørt, så
+kjøres `i++` som også er nytt for oss. `i++` gjør det samme som `i =
+i + 1`, altså det øker `i` med `1`. Nå sjekker vi igjen om `i` er
+mindre enn størrelsen til `x`. Og sånn fortsetter det helt til `i`
+blir like stor eller større enn størrelsen til `x`.
+
+Løkker som ser slik ut, med et heltall som økes med én og sjekkes mot
+størrelsen på en array, er veldig vanlig og brukes til å jobbe med
+arrayer. Du kommer til å se mange slike i fremtidige oppgaver. Løkker
+kan kreve litt øving før man blir god på det, men etter hvert blir man
+veldig glad for at man slipper å skrive den samme koden mange ganger.
+
+### Utfordringer {.try}
+
++ Det går også an å lage firkanter hvor man plasserer hvert hjørne for
+  seg. Da bruker man funksjonen `quad` istedenfor `rect`. For å tegne
+  en firkant trenger man ett hjørne mer enn i en trekant. Prøv å endre
+  programmet til å lage en firkant med hjørner som spretter rundt på
+  skjermen.
+
++ Man kan lage mangekanter også, men da må vi bruke flere
+  funksjoner. Først må vi begynne med `beginShape();`, så må vi angi
+  hvert hjørne med `vertex(x, y);` og til slutt avslutte med
+  `endShape();`. Endre programmet til å tegne en femkant med hjørner
+  som spretter rundt på skjermen. Husk å bytte ut `x` og `y` i kallet
+  på `vertex` med riktige X- og Y-verdier fra arrayene.
+
++ Hvis du bruker en løkke til å løpe gjennom alle hjørnene, og kaller
+  `vertex` som innholdet i løkka, er det lett å lage former med enda
+  flere kanter. Prøv å lage en sekskant, syvkant eller åttekant.
