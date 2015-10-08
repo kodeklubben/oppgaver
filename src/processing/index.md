@@ -10,7 +10,7 @@ til å lære å lage seg spill og multimediaprogrammer.
 
 ## Hvordan installere Processing
 
-- Gå til [processing.org/downloads](https://processing.org/downloads).
+- Gå til [processing.org/download](https://processing.org/download).
 - Last ned Processing til din datamaskin. Velg nyeste versjon (3.0b5
   per september 2015).
 - Installer Processing ved å pakke ut innholdet i arkivet til en
