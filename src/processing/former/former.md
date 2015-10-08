@@ -595,9 +595,9 @@ veldig glad for at man slipper å skrive den samme koden mange ganger.
 + Man kan lage mangekanter også, men da må vi bruke flere
   funksjoner. Først må vi begynne med `beginShape();`, så må vi angi
   hvert hjørne med `vertex(x, y);` og til slutt avslutte med
-  `endShape();`. Endre programmet til å tegne en femkant med hjørner
-  som spretter rundt på skjermen. Husk å bytte ut `x` og `y` i kallet
-  på `vertex` med riktige X- og Y-verdier fra arrayene.
+  `endShape(CLOSE);`. Endre programmet til å tegne en femkant med
+  hjørner som spretter rundt på skjermen. Husk å bytte ut `x` og `y` i
+  kallet på `vertex` med riktige X- og Y-verdier fra arrayene.
 
 + Hvis du bruker en løkke til å løpe gjennom alle hjørnene, og kaller
   `vertex` som innholdet i løkka, er det lett å lage former med enda
