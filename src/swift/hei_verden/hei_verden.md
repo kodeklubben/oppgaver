@@ -69,9 +69,9 @@ Vi skal nå sørge for at ved å trykke på en knapp, vil `Label` endre seg. For
 
 + I tillegg til å dra inn en `Label` i `Main.Storyboard`, skal vi legge til en `Button`. En `Button` kan vi trykke på og kjøre kode knyttet til knappen. Du legger til en `Button` på samme måte som du gjorde med `Label`
 
-+ Ha `Main.Storyboard`i Xcode vinduet valgt, og trykk på de to sirklene øverst i høyre hjørnet i Xcode. Vinduet som dukker opp til venstre viser koden knyttet til en `ViewController` som er den som kontrollerer hvordan app-skjermen oppfører seg. Det er her hvor selve kodingen foregår.
++ Ha `Main.Storyboard`i Xcode vinduet valgt, og trykk på de to sirklene øverst i høyre hjørnet i Xcode. Vinduet som dukker opp til venstre viser koden knyttet til en `ViewController`, som er den som kontrollerer hvordan app-skjermen oppfører seg. Det er her hvor selve kodingen foregår.
 
-+ Venstreklikk på `Button` i `Main.Storyboard`. Hold `ctrl` nede og venstreklikk og dra mot høyre. Dra streken til linjen over der hvor det står `override func didReceiveMemoryWarning()`. Endre `Connection` til å være en `Action`, og gi den navnet `knapp` (du kan velge navnet selv, men det er enklere å følge instruksene nedenfor om du bruker `knapp`).
++ Venstreklikk på `Button` i `Main.Storyboard`. Hold `ctrl` nede mens du venstreklikker og dra mot høyre. Dra streken til linjen over der hvor det står `override func didReceiveMemoryWarning()`. Endre `Connection` til å være en `Action`, og gi den navnet `knapp` (du kan velge navnet selv, men det er enklere å følge instruksene nedenfor om du bruker `knapp`).
 
 + Venstreklikk på `Label` i `Main.Storyboard`. Hold `ctrl`nede og venstreklikk og dra streken til mellom `override func viewDidLoad()` og `class ViewController: UIViewController {`. `Connection` lar du være `Outlet`, og sett navn til `etikett`.
 
@@ -92,12 +92,13 @@ Det er viktig å slippe strekene eksakt som det står i de to stegene over! Diss
     ```
     etikett.text = "Knappen sier: Hei!"
     ```
-
+    
+    
     mellom `{` og `}` der du slapp knappen i koden (`func knapp`). 
 
 + Kjør appen som du lærte i Steg 2 ved å enten klikke på den svarte pilen øverst i hjørnet eller trykke `cmd + r`.
 
-+ Klikk på knappen og observer hva som skjer! Endret `Label` seg til teksten du skrev i `etikett.text = "Knappen sier: Hei!"`?
++ Klikk på knappen og observer hva som skjer! Endret `Label` seg til teksten du skrev i `etikett.text = "Knappen sier: Hei!"`? Hvis etikketen ikke viser hele `Knappen sier: Hei!"`, må du endre størrelsen på `Label`. Klarer du å gjøre det selv?
 
     ![](change_label.png)
 
