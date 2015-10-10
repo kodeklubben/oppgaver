@@ -1,7 +1,6 @@
 ---
 title: Former
 level: 1
-logo: ../../assets/img/ccuk_logo.png
 author: Sigmund Hansen
 ---
 
@@ -39,26 +38,27 @@ som du lager med Processing, så det er et fint sted å starte.
 
 ### Hvordan skrive krøllparenteser og liknende {.protip}
 
-TODO: Fikse bredden på celler i tabellen (det trengs marger for å få
-litt horisontal luft). Sjekk at pipe skrives med Shift + 7 på Mac.
-
 Her finner du en oversikt over hvordan man skriver en del tegn som
 brukes i Processing og ofte i andre programmeringsspråk. Dette
 beskriver hvordan det gjøres med vanlig norsk tastatur. Den dekker
 også tegn som ikke blir brukt i denne øvelsen, så den kan være fin å
 ta med seg videre.
 
-| Tegn | Windows/Linux          | Mac                    |
-|:----:| ---------------------- | ---------------------- |
-| ;    | Shift + ,              | Shift + ,              |
-| "    | Shift + 2              | Shift + 2              |
-| \'   | \' (til høyre for Æ)   | \' (til venstre for 1) |
-| \|   | \| (til venstre for 1) | Shift + 7              |
-| \&   | Shift + 6              | Shift + 6              |
-| \[   | Alt Gr + 8             | Alt + 8                |
-| \]   | Alt Gr + 9             | Alt + 9                |
-| {    | Alt Gr + 7             | Shift + Alt + 8        |
-| }    | Alt Gr + 0             | Shift + Alt + 9        |
+| Tegn | Windows/Linux          | Mac                         |
+|:----:| ---------------------- | --------------------------- |
+| ;    | Shift + ,              | Shift + ,                   |
+| "    | Shift + 2              | Shift + 2                   |
+| \'   | \' (til høyre for Æ)   | \' (til venstre for 1)      |
+| \|   | \| (til venstre for 1) | Alt + 7                     |
+| \&   | Shift + 6              | Shift + 6                   |
+| +    | + (til høyre for 0)    | + (til høyre for 0)         |
+| -    | - (til høyre for .)    | - (til høyre for .)         |
+| *    | Shift + '              | Shift + @ (til høyre for Æ) |
+| /    | Shift + 7              | Shift + 7                   |
+| \[   | Alt Gr + 8             | Alt + 8                     |
+| \]   | Alt Gr + 9             | Alt + 9                     |
+| {    | Alt Gr + 7             | Shift + Alt + 8             |
+| }    | Alt Gr + 0             | Shift + Alt + 9             |
 
 ## Utforsking {.try}
 
