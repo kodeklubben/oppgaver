@@ -66,7 +66,7 @@ Hva skjer hvis du:
 - Endrer `480`?
 - Hva om du endrer `0` i `background(0);`?
 - Hva skjer hvis tallet er høyere enn 255?
-- Hva skjer hvis tallet er lavere enn 0?
+- Hva skjer hvis tallet er negativt?
 - Før du går videre, fjern endringene du gjorde i utforskingen.
 
 ## Forklaring av koden {.protip}
@@ -112,7 +112,7 @@ hva resten av koden gjør? Her er en forklaring:
 # Steg 2: Sirkel {.activity}
 
 Siden denne oppgaven skal handle om en sprettende ball, er det på tide at vi
-kommer i gang med å tegne. La oss begnne med en sirkel midt i vinduet.
+begynner å tegne. La oss tegne en sirkel midt i vinduet.
 
 ## Sjekkliste {.check}
 
