@@ -65,7 +65,7 @@ Hva skjer hvis du:
 - Endrer `640` i `size(640, 480);`?
 - Endrer `480`?
 - Hva om du endrer `0` i `background(0);`?
-- Hva skjer hvis tallet er høyere enn 255?
+- Hva skjer hvis tallet er høyere enn `255`?
 - Hva skjer hvis tallet er negativt?
 - Før du går videre, fjern endringene du gjorde i utforskingen.
 
@@ -160,10 +160,10 @@ Klarer du knekke koden for hvordan `ellipse` fungerer?
 - Det tredje tallet bestemmer hvor bred sirkelen skal være.
 - Det siste tallet bestemmer hvor høy sirkelen er.
 
-Det siste hørtes kanskje rart ut? En sirkel er jo like bred som den er høy?
-Hvis høyden og bredden derimot *ikke* er lik får du en ellipse. En ellipse er
-enten bredere enn den er høy, eller høyere enn den er bred. Derfor heter
-funksjonen `ellipse` og ikke `circle`.
+Det siste hørtes kanskje rart ut? En sirkel er jo like bred som den er
+høy! En ellipse som er like høy som den er bred, er en sirkel, men
+ellipser kan også være bredere enn de er høye, eller høyere enn de er
+brede. Derfor heter funksjonen `ellipse` og ikke `circle`.
 
 ![](sirkel3.png "Tre hvite sirkler på svart bakgrunn med piler som
  viser X- og Y-aksen.")
@@ -222,9 +222,9 @@ derfor det heter variabel: *verdien kan variere*.
     }
     ```
 
-    Her har vi brukt et regnestykkene `width / 2` og `height / 2` for å tegne
-    opp den første sirkelen. Skråstreken `/` betyr delt på, altså gir
-    `width / 2` halvparten av bredden. Hva gir `height / 2`?
+    Her har vi brukt regnestykkene `width / 2` og `height / 2` for å
+    tegne opp den første sirkelen. Skråstreken `/` betyr delt på,
+    altså gir `width / 2` halvparten av bredden. Hva gir `height / 2`?
     
     **Tips:** Vi kunne også brukt `width * 0.5` for å oppnå det samme, bredden
     ganget med en halv. Noen ganger er det enklere med deling og andre ganger
