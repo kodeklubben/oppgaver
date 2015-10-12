@@ -8,7 +8,7 @@ Author: Ole Andreas Ramsdal, Kodeklubben Trondheim
 
 I denne oppgaven skal du lage et spill der du styrer en strekmann som skal hoppe over hindringer.
 
-![](skjermdump.png "Slik ser spillet ut")
+![](animasjon_spill.gif "Slik ser spillet ut")
 
 # Steg 1: Ny fil {.activity}
 
@@ -20,7 +20,7 @@ Vi starter med å bestemme hvor stort vindu hvis skal bruke:
 WIDTH = 550
 HEIGHT = 250
 ```
-+ Lagre og kjør programmet, se at du får opp et vindu.
++ Lagre og kjør programmet, se til at du får opp et vindu.
 
 # Steg 2: Hindringer {.activity}
 
