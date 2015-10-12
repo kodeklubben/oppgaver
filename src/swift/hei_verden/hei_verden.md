@@ -83,7 +83,7 @@ Det er viktig å slippe strekene eksakt som det står i de to stegene over! Diss
 
 ##  Sjekkliste {.check}
 
-+ Vi skal nå begynne å kode litt! Det er anbefalt med noe tidligere porgrammeringserfaring her.
++ Vi skal nå begynne å kode litt! Det er anbefalt med noe tidligere programmeringserfaring her.
 
 + Vi har nå laget to såkalte `Connections`. Den ene er `@IBOutlet weak var etikett: UILabel!`, som refererer til `Label` i `Main.Storyboard`. Den andre er `@IBAction func knapp(sender: AnyObject) { }`
 
@@ -98,7 +98,7 @@ Det er viktig å slippe strekene eksakt som det står i de to stegene over! Diss
 
 + Kjør appen som du lærte i Steg 2 ved å enten klikke på den svarte pilen øverst i hjørnet eller trykke `cmd + r`.
 
-+ Klikk på knappen og observer hva som skjer! Endret `Label` seg til teksten du skrev i `etikett.text = "Knappen sier: Hei!"`? Hvis etikketen ikke viser hele `Knappen sier: Hei!"`, må du endre størrelsen på `Label`. Klarer du å gjøre det selv?
++ Klikk på knappen og observer hva som skjer! Endret `Label` seg til teksten du skrev i `etikett.text = "Knappen sier: Hei!"`? Hvis etiketten ikke viser hele `Knappen sier: Hei!"`, må du endre størrelsen på `Label`. Klarer du å gjøre det selv?
 
     ![](change_label.png)
 
