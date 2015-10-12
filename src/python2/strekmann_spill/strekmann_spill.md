@@ -12,7 +12,7 @@ I denne oppgaven skal du lage et spill der du styrer en strekmann som skal hoppe
 
 # Steg 1: Ny fil {.activity}
 
-Lag en ny fil.
++ Lag en ny fil.
 
 Vi starter med å bestemme hvor stort vindu hvis skal bruke:
 
@@ -109,15 +109,24 @@ def update():
 		print("Du ble truffet")
 
 	elif 'Sjekk om boksen er ute av bildet':
-		#Flytt boksen til høyre side av bildet
+		#(Din kode) Flytt boksen til høyre side av bildet
 
-	#Gjør at boksen flytter seg mot venstre
+	#(Din kode) Gjør at boksen flytter seg mot venstre
 ```
+####**Tips 1:**
+For å få boksen til å flytte seg mot venstre kan du gjøre x-posisjonen til boksen mindre og mindre.
 
-###Tips
+####**Tips 2:**
 Her er tips om hvordan du kan sjekke om strekmannen blir truffet av boksen. Legg merke til at y-aksen er positiv nedover, noe som er motsatt av slik det er i matematikken. Boksen sin x og y posisjon (x, y) er hvor boksens øverste venstre hjørne er plassert. Den røde firkaneten rundt strekmannen viser omrisset at strekmann-bildet.
 I tilfelle 1 ser du at boksens øverste venstre hjørne er inni den røde firkanten rundt strekmannen. Dette må du sjekke i if-setningen.
 I tilfelle 2 er boksens øvre høyre hjørne inne den røde firkanten, dette må du også sjekke i if-setningen.
+
+####**Tips 3:**
+any_actor.bottom gir x-verdi til bunnen av 'any_actor'.
+
+any_actor.left gir x-verdi til venstre side av 'any_actor'.
+
+
 ![](koord_data2.png "Koordinatsystem med figurer")
 
 
@@ -134,7 +143,7 @@ def on_key_up():
 
 + Vi vil at det kun skal være lov til å hoppe hvis man står på bakken. Lag en if-setning som sjekker dette i funksjonen.
 
-animate(...) er en funksjon som tar inn ulike parametere. I koden under animerer vi stick_man til å 'decelerate' som betyr å miste fart i en tidsperiode på 0.4 sekunder fra sin nåværende posisjon til posisjonen der bunnen av stick_man har x-verdi = (HEIGHT - box.height*1.5), det vil si han kan hoppe 1,5 ganger så høyt som så hvor høy boksen er.
+animate(...) er en funksjon som tar inn ulike parametere. I koden under animerer vi stick_man til å 'decelerate' som betyr å miste fart i en tidsperiode på 0.4 sekunder fra sin nåværende posisjon til posisjonen der bunnen av stick_man har x-verdi = (HEIGHT - box.height*1.5), det vil si han kan hoppe 1,5 ganger så høyt som så hvor høy boksen er. Du kan endre disse verdiene hvis du vil.
 
 ```python
 animate(stick_man, 'decelerate', duration = 0.4, bottom = (HEIGHT - box.height*1.5))
@@ -146,14 +155,14 @@ Vi trenger nå en animasjon som gjør at strekmannen kommer ned til bakken igjen
 ```python
 def back_down():
 	animate(stick_man, 'accelerate', duration = 0.4, bottom = HEIGHT)
-``` 
+´´´ 
 + Legg til denne koden nederst i filen din.
 
 + Legg til koden under for å gjøre slik at når strekmannen når toppen av hoppet sitt settes animasjonen som gjør at han beveger seg ned i gang.
 
 ```python
 clock.schedule_unique(back_down, 0.4)
-```
+´´´
 
 Dette er en skisse på hvordan koden din skal se ut:
 ```python
@@ -166,6 +175,40 @@ def on_key_up():
 	
 def back_down():
 	#Animasjon ned
-```
+´´´
+
+# Steg 6: Poeng {.activity}
+
++ Lag en variabel som heter score og gi den verdien 0.
+
+ Du trenger også en variabel som holder styr på om du er blitt truffet. Strekmannen er ikke truffet i begynnelsen så denne skal ha verdien False.
+
++ Lag variabelen stick_man_hit.
+
+Du trenger nå å bruke disse i update(). For at python skal forstå at der disse variablene du skal bruke må du skrive global foran dem øverst i funksjonen.
+
++ ```python
+def update():
+	global score
+	global stick_man_hit
+
+	...
+´´´
+
++ Inne i update(), sett score = 0 hvis du blir truffet. Endre stick_man_hit til True.
+
++ Økt poengsummen med 10 poeng hvis du ikke ble truffet og boksen er ute av bildet på venstre side. Sett stick_man_hit til False.
+
+Du trenger nå en funksjon som printer poengene:
+
+```python
+def print_score():
+	global score
+	screen.draw.text("Poeng: " + str(score), (400, 30), color = (0, 0, 0))
+´´´
+
++ Legg funksjonen til i programmet.
+
++ Nå trenger du å kalle på denne funksjonen inne i draw().
 
 ## Test programmet ditt {.flag}
