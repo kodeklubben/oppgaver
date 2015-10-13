@@ -172,7 +172,7 @@ Dette er en skisse på hvordan koden din skal se ut:
 
 ```python
 def on_key_up(key):
-	if "strekmann på bakken og key er piltast-opp"
+	if "Strekmann på bakken og key er piltast-opp":
 
 		#Animasjon oppover
 
@@ -192,7 +192,7 @@ def back_down():
 
 Du trenger nå å bruke disse i update(). For at python skal forstå at der disse variablene du skal bruke må du skrive global foran dem øverst i funksjonen.
 
-+ To øverste linjer i update():
++ Slik skal de to øverste linjer i update() se ut:
 
 ```python
 def update():
@@ -219,3 +219,11 @@ def print_score():
 + Nå trenger du å kalle på denne funksjonen inne i draw().
 
 ## Test programmet ditt {.flag}
+
+## Utfordringer: {.challenge}
+
+- Utvidspillet slik at boksen har forskjellig høyde eller bredde for hver gang.
+
+- Gjør at flere bokser kommer inn på skjermen samtidig.
+
+- Dine egne ideer?
