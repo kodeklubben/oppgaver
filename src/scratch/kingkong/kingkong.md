@@ -16,7 +16,7 @@ for flyene som angriper ham.
 # Steg 1: Hente grafikk fra nettet {.activity}
 
 Vi skal først se på hvordan vi kan hente bilder og figurer fra nettet
-og bruke dem i våre egne spill. Til dette spillet trenger en
+og bruke dem i våre egne spill. Til dette spillet trenger vi en
 skyskraper, et fly og en gorilla.
 
 ## Sjekkliste {.check}
@@ -33,10 +33,10 @@ skyskraper, et fly og en gorilla.
 ### Tips for søking {.protip}
 
 + Når du søker etter bilder er det best å søke på engelsk fordi det er
-  det mest brukte språket på nettet.
+  det mest brukte språket på internett.
 
 + For å finne grafikk i stedet for bilder kan det være lurt å ta med
-  ord som `icon`, `pixel art` eller `drawing` i søket ditt.
+  ord som `icon`, `pixel` eller `drawing` i søket ditt.
 
 + De fleste søkemotorene har også muligheten for å gjøre _avansert
   bildesøk_. Da kan du som regel begrense søket til å bare lete etter
@@ -44,7 +44,8 @@ skyskraper, et fly og en gorilla.
 
 ## Sjekkliste {.check}
 
-+ Søk også opp grafikk du kan bruke til fly og til King Kong-figuren.
++ Søk også opp grafikk du kan bruke til fly-figuren og til King
+  Kong-figuren.
 
     Her er noen eksempler, men bruk gjerne bilder du finner selv:
 
@@ -58,8 +59,8 @@ skyskraper, et fly og en gorilla.
   dem inn som nye figurer i Scratch. Gå tilbake til Scratch. Klikk på
   ![Last opp figur fra fil](../bilder/hent-fra-fil.png) ved siden av
   **Ny figur** og velg et av bildene du har lastet ned. Gjør det samme
-  med de andre bildene, slik at du har tre figurer, `skyskraper`,
-  `fly` og `kong`.
+  med de andre bildene, slik at du har tre figurer, en skyskraper, et
+  fly og en King Kong-figur.
 
 + Figurene får navn fra bildefilene. Endre gjerne navnet på figurene
   til `skyskraper`, `fly` og `kong` slik at det blir enklere å holde
@@ -89,13 +90,13 @@ Like morsomt som å finne bilder på nettet er det å tegne litt selv.
   nederst til venstre.
 
 + Velg Malingsbøtte-verktøyet (_Fyll med farge_) for å fargelegge
-  bakgrunnen. Finn et par fine himmelfarger, og en overgang fra blå
-  øverst til noe lysere nederst. Klikk på bakgrunnen slik at den blir
-  fargelagt.
+  bakgrunnen. Finn et par fine himmelfarger, for eksempel en overgang
+  fra blå øverst til noe lysere nederst. Klikk på bakgrunnen slik at
+  den blir fargelagt.
 
     ![](tegn_bakgrunn.png)
 
-+ For en litt gammeldags gresseffekt skal vi nå velge
++ For en litt enkel gresseffekt skal vi nå velge
   _Rektangel_-verktøyet, og en helt svart farge. Tegn et svart
   rektangel på den nederste delen av bakgrunnen.
 
@@ -107,9 +108,9 @@ Like morsomt som å finne bilder på nettet er det å tegne litt selv.
 
 + Velg deretter en litt mørkere grønn farge, og tegn et nytt grønt
   rektangel som dekker den nedre delen av det forrige
-  rektangelet. Gjenta dette til du har et passende antall grønne
-  striper som forestiller gresset. Se øverst i oppgaven for et ferdig
-  eksempel.
+  rektangelet. Gjenta dette med stadig mørkere grønnfarger til du har
+  et passende antall striper som forestiller gresset. Se øverst i
+  oppgaven for et ferdig eksempel.
 
 + Du kan også tegne litt på figurene du har lastet ned. For eksempel,
   om du lastet ned skyskraperen fra lenken over er den gjennomsiktig!
@@ -123,7 +124,7 @@ høyre side.
 + Klikk på `kong`-figuren og velg `Drakter`-fanen. Høyreklikk på
   `kong`-drakten og velg `Lag en kopi`.
 
-+ Klikk på kopien og bruk knappene i øverste høyre hjørnet til å
++ Klikk på kopien og bruk knappene i øverste høyre hjørne til å
   speilvende denne nye drakten.
 
 + Gi de to draktene navnene `Høyre` og `Venstre`.
@@ -131,7 +132,7 @@ høyre side.
 ### Utforsk tegneverktøyene {.protip}
 
 Prøv gjerne de forskjellige tegneverktøyene på egen hånd. Vet du hva
-de alle gjør?
+alle gjør?
 
 Legg også merke til at nede i høyre hjørnet kan du velge mellom å
 jobbe med _punktgrafikk_ og _vektorgrafikk_. I punktgrafikk jobber vi
@@ -170,7 +171,6 @@ programmere!
 
     ```blocks
     når grønt flagg klikkes
-    pek i retning (90 v)
     gå til x: (-45) y: (30)
     bytt drakt til [venstre v]
     for alltid
@@ -193,11 +193,11 @@ __Klikk på det grønne flagget.__
 
 + Flytter **King Kong** seg slik han skal når du trykker på piltastene?
 
-Endre på figurene og skriptene slik at du blir fornøyd!
+Endre på figurene og skriptene slik at det ser bra ut!
 
 # Steg 4: Flyene flyr {.activity}
 
-Nå skal vi få flyet vårt til å bli til mange fly som flyr rundt
+Nå skal vi kopiere flyet vårt slik at vi har mange fly som flyr rundt
 skyskraperen.
 
 ## Sjekkliste {.check}
@@ -208,6 +208,7 @@ skyskraperen.
 
     ```blocks
     når grønt flagg klikkes
+    begrens rotasjon [vend sideveis v]
     for alltid
         vent (tilfeldig tall fra (0.5) til (4)) sekunder
         lag klon av [meg v]
@@ -233,6 +234,11 @@ skyskraperen.
   venstre side av skyskraperen, men vi vil ikke at flyet krasjer i
   skyskraperen selv (se bildet øverst i oppgaven).
 
++ Om du vil kan du klikke på `drakter` og rotere flyet litt slik at det
+  flyr i riktig retning.
+
+    ![](roter_fly.png)
+
 + Vi kan også få flyene til å komme fra begge retninger! Ved å bruke
   et tilfeldig tall kan vi bestemme om flyet kommer fra høyre eller
   venstre. Endre koden din slik at den blir som følger:
@@ -251,13 +257,6 @@ skyskraperen.
     slutt
     slett denne klonen
     ```
-
-+ Du legger kanskje merke til at noen av flyene flyr opp-ned? For å
-  fikse dette kan du lage en ny drakt på `fly`-figuren som er en kopi
-  av den opprinnelige. Bruk så knappene for å speilvende den ene
-  drakten. Til slutt kan du legge noen `bytt drakt
-  til`{.blocklooks}-klosser inne i `hvis-ellers`{.blockcontrol} for å
-  bytte til de riktige draktene.
 
 # Steg 5: King Kong må passe seg {.activity}
 
@@ -283,10 +282,11 @@ truffet av flyene.
     for at da har flyet passert slik at ikke King Kong blir truffet
     flere ganger av det samme flyet.
 
-### Prøv selv {.try}
-
 Vi har nå laget et ganske enkelt spill. Men det er flere ting du kan
-prøve på egen hånd!
+prøve på egen hånd! Nedenfor er noen forslag, men du har kanskje egne
+ideer til hvordan spillet kan videreutvikles?
+
+### Prøv selv {.try}
 
 + Legg til lydeffekter! Kanskje litt motorlyd fra flyene, og så klart
   trenger vi en lyd når King Kong blir truffet av flyene.
