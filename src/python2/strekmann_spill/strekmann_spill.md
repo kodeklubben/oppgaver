@@ -4,7 +4,7 @@ level: 3
 Author: Ole Andreas Ramsdal, Kodeklubben Trondheim
 ---
 
-# Introduksjon {.intro}
+#Introduksjon {.intro}
 
 I denne oppgaven skal du lage et spill der du styrer en strekmann som skal hoppe over hindringer.
 
@@ -24,9 +24,9 @@ HEIGHT = 250
 
 # Steg 2: Hindringer {.activity}
 
-+ Du skal nå lage boksene som strekmannen løper mot. Dette skal du gjøre ved hjelp av en klasse.
+Du skal nå lage boksene som strekmannen løper mot. Dette skal du gjøre ved hjelp av en klasse.
 
-Klassen skal hete Box og skal ha egenskapene:
++ Klassen skal hete Box og skal ha egenskapene:
 height, width, color, x, y og en funkson som heter draw()
 
 ```python
@@ -39,11 +39,11 @@ class Box:
 **Tips:**
 Denne koden tegner en boks som har det øverste venstre hjørnet i origo, er 50 piksler høy og bred, og har fargen rød:
 ```python
-screen.draw.filled_rect( Rect((0, 0), (50, 50)) , (255, 0, 0))
+screen.draw.filled_rect( Rect((0, 0), (50, 50)) , (255, 0, 0) )
 ```
-og denne koden tegner en boks som har det øverste venstre hjørnet i punktet (25, 25) , er 100 piksler høy og bred, og har fargen blå:
+og denne koden tegner en boks som har det øverste venstre hjørnet i punktet (25, 25), er 100 piksler høy og bred og har fargen blå:
 ```python
-screen.draw.filled_rect( Rect((25, 25), (100, 100)) , (0, 0, 255))
+screen.draw.filled_rect( Rect((25, 25), (100, 100)) , (0, 0, 255) )
 ```
 
 + Opprett en boks ved å legge til denne linjen i koden:
@@ -134,16 +134,18 @@ any_actor.left gir x-verdi til venstre side av 'any_actor'.
 
 Du skal nå lage funksjoner for å gjøre strekmannen i stand til å hoppe.
 
-+ Vi trenger funksjonen on_key_up() som blir utført hvis man trykker på 'pilopp' på tastaturet.
++ Vi trenger funksjonen on_key_up(key) som blir utført hvis man trykker på 'pilopp' på tastaturet.
 
 ```python
-def on_key_up():
-	#TO DO
+def on_key_up(key):
+	#(Din kode)
 ```
 
 + Vi vil at det kun skal være lov til å hoppe hvis man står på bakken. Lag en if-setning som sjekker dette i funksjonen.
 
-animate(...) er en funksjon som tar inn ulike parametere. I koden under animerer vi stick_man til å 'decelerate' som betyr å miste fart i en tidsperiode på 0.4 sekunder fra sin nåværende posisjon til posisjonen der bunnen av stick_man har x-verdi = (HEIGHT - box.height*1.5), det vil si han kan hoppe 1,5 ganger så høyt som så hvor høy boksen er. Du kan endre disse verdiene hvis du vil.
++ I if-setningen må du også sjekke at input-parameteren key er det samme som keys.UP. 
+
+animate(...) er en funksjon som tar inn ulike parametere. I koden under animerer vi stick_man til å 'decelerate' som betyr å miste fart. Dette gjøres i en tidsperiode på 0.4 sekunder fra sin nåværende posisjon til posisjonen der bunnen av stick_man har x-verdi = (HEIGHT - box.height*1.5). Det vil si han kan hoppe 1,5 ganger så høyt som så hvor høy boksen er. Du kan endre disse verdiene for å endre vanskelighetsgrad på spillet.
 
 ```python
 animate(stick_man, 'decelerate', duration = 0.4, bottom = (HEIGHT - box.height*1.5))
@@ -155,19 +157,22 @@ Vi trenger nå en animasjon som gjør at strekmannen kommer ned til bakken igjen
 ```python
 def back_down():
 	animate(stick_man, 'accelerate', duration = 0.4, bottom = HEIGHT)
-´´´ 
+```
+
 + Legg til denne koden nederst i filen din.
 
 + Legg til koden under for å gjøre slik at når strekmannen når toppen av hoppet sitt settes animasjonen som gjør at han beveger seg ned i gang.
 
 ```python
 clock.schedule_unique(back_down, 0.4)
-´´´
+
+```
 
 Dette er en skisse på hvordan koden din skal se ut:
+
 ```python
-def on_key_up():
-	if "strekmann på bakken"
+def on_key_up(key):
+	if "strekmann på bakken og key er piltast-opp"
 
 		#Animasjon oppover
 
@@ -175,7 +180,7 @@ def on_key_up():
 	
 def back_down():
 	#Animasjon ned
-´´´
+```
 
 # Steg 6: Poeng {.activity}
 
@@ -187,13 +192,15 @@ def back_down():
 
 Du trenger nå å bruke disse i update(). For at python skal forstå at der disse variablene du skal bruke må du skrive global foran dem øverst i funksjonen.
 
-+ ```python
++ To øverste linjer i update():
+
+```python
 def update():
 	global score
 	global stick_man_hit
 
 	...
-´´´
+```
 
 + Inne i update(), sett score = 0 hvis du blir truffet. Endre stick_man_hit til True.
 
@@ -205,7 +212,7 @@ Du trenger nå en funksjon som printer poengene:
 def print_score():
 	global score
 	screen.draw.text("Poeng: " + str(score), (400, 30), color = (0, 0, 0))
-´´´
+```
 
 + Legg funksjonen til i programmet.
 
