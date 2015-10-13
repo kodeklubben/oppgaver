@@ -222,7 +222,7 @@ def print_score():
 
 ## Utfordringer: {.challenge}
 
-- Utvidspillet slik at boksen har forskjellig høyde eller bredde for hver gang.
+- Utvid spillet slik at boksen har forskjellig høyde eller bredde for hver gang.
 
 - Gjør at flere bokser kommer inn på skjermen samtidig.
 
