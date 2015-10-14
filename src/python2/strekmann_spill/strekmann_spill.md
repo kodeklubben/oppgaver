@@ -27,7 +27,7 @@ HEIGHT = 250
 Du skal nå lage boksene som strekmannen løper mot. Dette skal du gjøre ved hjelp av en klasse.
 
 + Klassen skal hete Box og skal ha egenskapene:
-height, width, color, x, y og en funkson som heter draw()
+`height`, `width`, `color`, `x`, `y` og en funkson som heter `draw()`
 
 ```python
 class Box:
@@ -53,7 +53,11 @@ box = Box()
 
 + Lagre og kjør programmet og se at du ikke får noen feilmeldinger. 
 
-+ Hvis du vil se boksen i vinduet må du først tegne den. Dette gjør du med draw() funksjonen.
++ Hvis du vil se boksen i vinduet må du først tegne den. Legg til koden under og kjør programmet.
+```python
+	def draw():
+		box.draw()
+```
 
 # Steg 3: Strekmann {.activity}
 
