@@ -1,133 +1,175 @@
 ---
-title: Strekmann spill
+title: Løpende strekmann
 level: 3
 Author: Ole Andreas Ramsdal, Kodeklubben Trondheim
 ---
 
 #Introduksjon {.intro}
 
-I denne oppgaven skal du lage et spill der du styrer en strekmann som skal hoppe over hindringer.
+I denne oppgaven skal du lage et spill der du styrer en strekmann som hopper over hindringer.
 
 ![](animasjon_spill.gif "Slik ser spillet ut")
 
 # Steg 1: Ny fil {.activity}
 
-+ Lag en ny fil.
+Begynn med å lage en fil som kan kjøres med Pygame Zero.
 
-Vi starter med å bestemme hvor stort vindu hvis skal bruke:
+## Sjekkliste {.check}
 
-```python
-WIDTH = 550
-HEIGHT = 250
-```
-+ Lagre og kjør programmet, se til at du får opp et vindu.
++ Lag en ny fil `run_stickman.py`.
+
++ Du starter med å bestemme hvor stort vindu vi skal bruke:
+
+    ```python
+    WIDTH = 550
+    HEIGHT = 250
+    ```
+
++ Lagre og kjør programmet med `pgzrun run_stickman.py`. Se til at du får opp et vindu.
 
 # Steg 2: Hindringer {.activity}
 
-Du skal nå lage boksene som strekmannen løper mot. Dette skal du gjøre ved hjelp av en klasse.
+Du skal nå lage boksene som strekmannen løper mot. Dette skal gjøres ved hjelp av en klasse.
 
-+ Klassen skal hete Box og skal ha egenskapene:
-height, width, color, x, y og en funkson som heter draw()
 
-```python
-class Box:
-    # Skriv egenskaper her
+## Sjekkliste {.check}
 
-    def draw(self):
-    	# Skriv koden som tegner boksen her
-```
-**Tips:**
-Denne koden tegner en boks som har det øverste venstre hjørnet i origo, er 50 piksler høy og bred, og har fargen rød:
-```python
-screen.draw.filled_rect( Rect((0, 0), (50, 50)) , (255, 0, 0) )
-```
-og denne koden tegner en boks som har det øverste venstre hjørnet i punktet (25, 25), er 100 piksler høy og bred og har fargen blå:
-```python
-screen.draw.filled_rect( Rect((25, 25), (100, 100)) , (0, 0, 255) )
-```
++ Klassen skal hete Box og skal ha egenskapene: `height`, `width`, `color`,
+  `x`, `y` og en funkson som heter `draw()`:
+
+    ```python
+    class Box:
+        # Skriv egenskaper her
+
+        def draw(self):
+            # Skriv koden som tegner boksen her
+    ```
+
+    **Tips:**
+    Bruk kommandoen `screen.draw.filled_rect()` for å tegne rektangler. En rød
+    boks som er 50 piksler bred og høy tegnes i venstre topp med:
+
+    ```python
+    screen.draw.filled_rect( Rect((0, 0), (50, 50)) , (255, 0, 0) )
+    ```
+
+    En blå boks i høyre bunn blir:
+
+    ```python
+    screen.draw.filled_rect( Rect((WIDTH-50, HEIGHT-50), (50, 50)) , (0, 0, 255) )
+    ```
 
 + Opprett en boks ved å legge til denne linjen i koden:
-```python
-box = Box()
-```
 
-+ Lagre og kjør programmet og se at du ikke får noen feilmeldinger. 
+    ```python
+    box = Box()
+    ```
 
-+ Hvis du vil se boksen i vinduet må du først tegne den. Dette gjør du med draw() funksjonen.
++ Lagre og kjør programmet for å sjekke at du ikke får noen feilmeldinger.
+
++ Hvis du vil se boksen i vinduet må du tegne den med:
+
+    ```python
+    def draw():
+        box.draw()
+    ```
 
 # Steg 3: Strekmann {.activity}
+Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 
-+ Du må nå gjøre at strekmannen blir med: 
+## Sjekkliste {.check}
 
-Til dette skal vi bruke en klasse som heter Actor som allerede finnes i Pygame Zero. 
++ Lag en strekmann (`stick_man`) fra klassen `Actor` som bruker bildet
+  `running_man`.
 
-```python
-stick_man = Actor('running_man')
-stick_man.bottomleft = 50, HEIGHT
-```
+    ```python
+    stick_man = Actor('running_man')
+    ```
 
-Første linje i koden sier at variabelen som heter stick_man er en 'Actor' som er bildet som heter 'running_man'. 
++ Sett posisjonen til strekmannens venstre bunn til å være `50, HEIGHT`.
 
-Andre linje setter posisjonen til nedre høyre hjørne av strekmannen til å være punktet (50, HEIGHT)
+    ```python
+    stick_man.bottomleft = 50, HEIGHT
+    ```
 
- + For at denne koden skal kjøre må du lagre bildet under som 'running_man.png' i en mappe som heter 'images' der du har lagret kodefilen.
+ + For at koden skal kjøre må du lagre bildet av strekmannen under som `running_man.png` i mappen `images` der du har lagret `run_stickman.py`.
 
-![](running_man.png "Strekmann")
+    ![](running_man.png "Strekmann")
 
-Slik:
++ Mappen din skal nå se ut som dette:
 
-![](mappestruktur.png "Mappestruktur")
+    ![](mappestruktur.png "Mappestruktur")
 
-# Steg 4: De globale funksjonene draw() og update()  {.activity}
+# Steg 4: Funksjonene draw() og update() {.activity}
 
-Alle spill i Pygame Zero må ha to globale funksjoner som heter draw() og update().
+Alle spill i Pygame Zero må ha to globale funksjoner som heter `draw()` og
+`update()`. Det som står i draw-funksjonen skal sørge for
+at alt i spillvinduet blir tegnet. Det som står i update-funksjonen gjør
+endringer i spillet før de tegnes med `draw()`.
 
-Det som står i draw-funksjon skal sørge for at som skal vises i spillviduet blir tegnet.
+**Tips:** Global betyr at funksjonene er i "bunnen" av programmet ditt, altså
+ikke på boksen eller strekmannen.
 
-Det som står i update-funksjonen gjør alle endringer i spillet mellom hver gang tingene tegnes.
+## Sjekkliste {.check}
 
-+ Vi trenger følgende kode i den globale draw(), pass på at du forstår hva koden gjør.
++ Lag den globale `draw()` med koden i blokken under. Forstår du hva koden gjør?
 
-```python
-def draw():
-	screen.clear()
-	screen.fill((255, 255, 255))
-	stick_man.draw()
-	box.draw()
-```
+    ```python
+    def draw():
+            screen.clear()
+            screen.fill((255, 255, 255))
+            stick_man.draw()
+            box.draw()
+    ```
 
-+ Du må nå skrive koden i update().
-Du trenger følgende:
-	- Få boksen til å flytte seg mot venstre.
-	- Sjekke om boksen er ute av bildet på venstre side av vinduet. Hvis det, flytt den til høyre side av vinduet.
-	- Sjekke om strekmannen blir truffet av boksen. (Du skal lage funksjonen som gjør at han kan hoppe etterpå)
++ Du må nå lage `update()`. Du trenger følgende:
+    - Få boksen til å flytte seg mot venstre.
+    - Sjekk om boksen er ute av bildet på venstre side. Hvis det, flytt boksen til høyre side av vinduet.
+    - Sjekk om strekmannen blir truffet av boksen. (Du skal lage funksjonen som gjør at han kan hoppe etterpå).
 
-```python
-def update():
-	
-	if 'Sjekk om boksen treffer strekmannen':
-		print("Du ble truffet")
+    ```python
+    def update():
+            
+            if 'Sjekk om boksen treffer strekmannen':
+                    print("Du ble truffet")
 
-	elif 'Sjekk om boksen er ute av bildet':
-		#(Din kode) Flytt boksen til høyre side av bildet
+            elif 'Sjekk om boksen er ute av bildet':
+                    #(Din kode) Flytt boksen til høyre side av bildet
 
-	#(Din kode) Gjør at boksen flytter seg mot venstre
-```
-####**Tips 1:**
-For å få boksen til å flytte seg mot venstre kan du gjøre x-posisjonen til boksen mindre og mindre.
+            #(Din kode) Gjør at boksen flytter seg mot venstre
+    ```
 
-####**Tips 2:**
-Her er tips om hvordan du kan sjekke om strekmannen blir truffet av boksen. Legg merke til at y-aksen er positiv nedover, noe som er motsatt av slik det er i matematikken. Boksen sin x og y posisjon (x, y) er hvor boksens øverste venstre hjørne er plassert. Den røde firkaneten rundt strekmannen viser omrisset at strekmann-bildet.
-I tilfelle 1 ser du at boksens øverste venstre hjørne er inni den røde firkanten rundt strekmannen. Dette må du sjekke i if-setningen.
-I tilfelle 2 er boksens øvre høyre hjørne inne den røde firkanten, dette må du også sjekke i if-setningen.
 
-####**Tips 3:**
-any_actor.bottom gir x-verdi til bunnen av 'any_actor'.
+## Tips {.protip}
 
-any_actor.left gir x-verdi til venstre side av 'any_actor'.
+**Flytt boksen**
 
+For å få boksen til å flytte seg kan du endre x-posisjonen til boksen.
+
+
+**Sjekk om strekmannen blir truffet**
+
+Legg merke til at y-aksen til spillvinduet er positiv nedover, motsatt av det
+som er vanlig i matematikk. Boksens x- og y-posisjon er hvor boksens øverste
+venstre hjørne er plassert, som er merket i bildet som **(x, y)**.
 
 ![](koord_data2.png "Koordinatsystem med figurer")
+
+Den røde firkanten illustrerer hvor stort bildet til strekmannen er. I
+tilfellet merket **1** ser du at boksens øverste venstre hjørne er
+inni bildet til strekmannen. Dette må du sjekke i if-setningen.
+
+I tilfelle **2** er boksens øvre høyre hjørne inne den røde firkanten, dette må
+du også sjekke i if-setningen.
+
+
+**Hvordan finne posisjonen til strekmannen?**
+
+- `stick_man.bottom` gir posisjonen til bunnen av `stick_man`.
+
+- `stick_man.left` gir posisjonen til venstre side av `stick_man`.
+
+
 
 
 # Steg 5: Animasjoner {.activity}
