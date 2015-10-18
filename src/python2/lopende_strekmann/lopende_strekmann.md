@@ -10,6 +10,7 @@ I denne oppgaven skal du lage et spill der du styrer en strekmann som hopper ove
 
 ![](animasjon_spill.gif "Slik ser spillet ut")
 
+
 # Steg 1: Ny fil {.activity}
 
 Begynn med å lage en fil som kan kjøres med Pygame Zero.
@@ -26,6 +27,7 @@ Begynn med å lage en fil som kan kjøres med Pygame Zero.
     ```
 
 + Lagre og kjør programmet med `pgzrun run_stickman.py`. Se til at du får opp et vindu.
+
 
 # Steg 2: Hindringer {.activity}
 
@@ -50,13 +52,13 @@ Du skal nå lage boksene som strekmannen løper mot. Dette skal gjøres ved hjel
     boks som er 50 piksler bred og høy tegnes i venstre topp med:
 
     ```python
-    screen.draw.filled_rect( Rect((0, 0), (50, 50)) , (255, 0, 0) )
+    screen.draw.filled_rect( Rect(0, 0, 50, 50) , (255, 0, 0) )
     ```
 
     En blå boks i høyre bunn blir:
 
     ```python
-    screen.draw.filled_rect( Rect((WIDTH-50, HEIGHT-50), (50, 50)) , (0, 0, 255) )
+    screen.draw.filled_rect( Rect(WIDTH-50, HEIGHT-50, 50, 50) , (0, 0, 255) )
     ```
 
 + Opprett en boks ved å legge til denne linjen i koden:
@@ -74,12 +76,14 @@ Du skal nå lage boksene som strekmannen løper mot. Dette skal gjøres ved hjel
         box.draw()
     ```
 
+
 # Steg 3: Strekmann {.activity}
 Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 
+
 ## Sjekkliste {.check}
 
-+ Lag en strekmann (`stick_man`) fra klassen `Actor` som bruker bildet
++ Lag en strekmann (`stick_man`) fra klassen [`Actor`] som bruker bildet
   `running_man`.
 
     ```python
@@ -100,19 +104,24 @@ Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 
     ![](mappestruktur.png "Mappestruktur")
 
+
+[`Actor`]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
+
+
 # Steg 4: Funksjonene draw() og update() {.activity}
 
-Alle spill i Pygame Zero må ha to globale funksjoner som heter `draw()` og
-`update()`. Det som står i draw-funksjonen skal sørge for
-at alt i spillvinduet blir tegnet. Det som står i update-funksjonen gjør
-endringer i spillet før de tegnes med `draw()`.
+De fleste spill i [Pygame Zero] har funksjonene [`draw()`] og [`update()`].
+Draw-funksjonen sørger for at spillvinduet blir tegnet og update-funksjonen
+gjør endringer i spillet før de tegnes med `draw()`.
 
-**Tips:** Global betyr at funksjonene er i "bunnen" av programmet ditt, altså
-ikke på boksen eller strekmannen.
+[Pygame Zero]: https://pygame-zero.readthedocs.org/
+[`draw()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
+[`update()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
+
 
 ## Sjekkliste {.check}
 
-+ Lag den globale `draw()` med koden i blokken under. Forstår du hva koden gjør?
++ Lag `draw()` med koden i blokken under. Forstår du hva koden gjør?
 
     ```python
     def draw():
@@ -124,19 +133,19 @@ ikke på boksen eller strekmannen.
 
 + Du må nå lage `update()`. Du trenger følgende:
     - Få boksen til å flytte seg mot venstre.
-    - Sjekk om boksen er ute av bildet på venstre side. Hvis det, flytt boksen til høyre side av vinduet.
-    - Sjekk om strekmannen blir truffet av boksen. (Du skal lage funksjonen som gjør at han kan hoppe etterpå).
+    - Hvis boksen er ute av bildet på venstre side, flytt den til høyre side av
+      vinduet.
+    - Hvis strekmannen er truffet, skriv "Du ble truffet!" til terminalen.
 
     ```python
     def update():
-            
-            if 'Sjekk om boksen treffer strekmannen':
-                    print("Du ble truffet")
+        # Flytt boksen mot venstre
 
-            elif 'Sjekk om boksen er ute av bildet':
-                    #(Din kode) Flytt boksen til høyre side av bildet
+        if "boksen er ute av bildet":
+            # Flytt boksen til høyre side av bildet
 
-            #(Din kode) Gjør at boksen flytter seg mot venstre
+        if "strekmannen er truffet":
+            print("Du ble truffet!")
     ```
 
 
@@ -174,98 +183,141 @@ du også sjekke i if-setningen.
 
 # Steg 5: Animasjoner {.activity}
 
-Du skal nå lage funksjoner for å gjøre strekmannen i stand til å hoppe.
+Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
 
-+ Vi trenger funksjonen on_key_up(key) som blir utført hvis man trykker på 'pilopp' på tastaturet.
 
-```python
-def on_key_up(key):
-	#(Din kode)
-```
+## Sjekkliste {.check}
 
-+ Vi vil at det kun skal være lov til å hoppe hvis man står på bakken. Lag en if-setning som sjekker dette i funksjonen.
++ Lag funksjonen `on_key_down(key)`.
 
-+ I if-setningen må du også sjekke at input-parameteren key er det samme som keys.UP. 
+    ```python
+    def on_key_down(key):
+        #(Din kode)
+    ```
 
-animate(...) er en funksjon som tar inn ulike parametere. I koden under animerer vi stick_man til å 'decelerate' som betyr å miste fart. Dette gjøres i en tidsperiode på 0.4 sekunder fra sin nåværende posisjon til posisjonen der bunnen av stick_man har x-verdi = (HEIGHT - box.height*1.5). Det vil si han kan hoppe 1,5 ganger så høyt som så hvor høy boksen er. Du kan endre disse verdiene for å endre vanskelighetsgrad på spillet.
+    [`on_key_down()`] kjøres hver gang spilleren trykker på en tast. Hvilken
+    tast som trykkes sendes til funksjonen som `key`.
 
-```python
-animate(stick_man, 'decelerate', duration = 0.4, bottom = (HEIGHT - box.height*1.5))
-``` 
-+ Du kan bruke koden over for å få strekmannen til å hoppe. 
++ Lag en `if`-setning som sjekker at det er tasten "space" (`keys.SPACE`) som
+  trykkes.
 
-Vi trenger nå en animasjon som gjør at strekmannen kommer ned til bakken igjen. Sammenlign med koden over og se om du skjønner hva som skjer.
++ Sjekk i samme `if`-setning om strekmannen er på bakken, det skal kun være lov
+  å hoppe da.
 
-```python
-def back_down():
-	animate(stick_man, 'accelerate', duration = 0.4, bottom = HEIGHT)
-```
++ For å få strekmannen til å hoppe, bruk [`animate()`]:
 
-+ Legg til denne koden nederst i filen din.
+    ```python
+    jump_up = animate(stick_man, 'decelerate', duration=0.4, bottom=(HEIGHT - box.height*1.5))
+    ```
 
-+ Legg til koden under for å gjøre slik at når strekmannen når toppen av hoppet sitt settes animasjonen som gjør at han beveger seg ned i gang.
+    Koden forteller at:
 
-```python
-clock.schedule_unique(back_down, 0.4)
+    - Vi skal lage en animasjon med `stick_man`.
+    - Bevegelsen skal være av type `decelerate`, som er høy hastighet i begynnelsen,
+      deretter saktere og saktere.
+    - Animasjonen skal vare i 0.4 sekunder.
+    - `bottom` av `stick_man` skal flyttes til `HEIGHT - box.height*1.5`, altså
+      1,5 gang av høyden til boksen.
+    - Animasjonen gis navnet `jump_up`.
 
-```
++ Prøv programmet. Hopper strekmannen?
+
++ Vi trenger nå en animasjon som gjør at strekmannen kommer ned til bakken
+  igjen. Lag funksjonen `back_down()`:
+
+    ```python
+    def back_down():
+        animate(stick_man, 'accelerate', duration=0.4, bottom=HEIGHT)
+    ```
+
+    Forstår du hva koden skal animere?
+
++ Sett verdien `jump_up.on_finished` til `back_down`. `back_down()` vil da kjøres
+  når opp-animasjonen er ferdig:
+
+    ```python
+    jump_up.on_finished = back_down
+    ```
+
+[`on_key_down()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
+[`animate()`]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
+
+
+## Tips {.protip}
 
 Dette er en skisse på hvordan koden din skal se ut:
 
 ```python
 def on_key_up(key):
-	if "Strekmann på bakken og key er piltast-opp":
+    if ("key er space" and
+        "strekmannen er på bakken"):
+        # Animasjon oppover
+        # Når animasjon oppover er ferdig, animer ned
 
-		#Animasjon oppover
-
-		#Sett i gang animasjon ned
-	
 def back_down():
-	#Animasjon ned
+    # Animasjon ned
 ```
+
 
 # Steg 6: Poeng {.activity}
+Vi skal nå gi poeng ettersom hvor mange bokser vi klarer å hoppe over. Vi
+trenger to variabler, en for poeng og en for å huske om strekmannen har blitt
+truffet av boksen.
 
-+ Lag en variabel som heter score og gi den verdien 0.
 
- Du trenger også en variabel som holder styr på om du er blitt truffet. Strekmannen er ikke truffet i begynnelsen så denne skal ha verdien False.
+## Sjekkliste {.check}
 
-+ Lag variabelen stick_man_hit.
++ Lag en variabel som heter `SCORE` og gi den verdien `0`.
 
-Du trenger nå å bruke disse i update(). For at python skal forstå at der disse variablene du skal bruke må du skrive global foran dem øverst i funksjonen.
++ Lag variabelen `stick_man.hit` og gi den verdien `False`.
 
-+ Slik skal de to øverste linjer i update() se ut:
++ Inne i `update()`, bestem at av du skal bruke den globale variablen `SCORE`:
 
-```python
-def update():
-	global score
-	global stick_man_hit
+    ```python
+    def update():
+        global SCORE
+        # resten av din kode
+    ```
 
-	...
-```
++ Hvis strekmannen blir truffet, sett `SCORE = 0` og `stick_man.hit = True`.
 
-+ Inne i update(), sett score = 0 hvis du blir truffet. Endre stick_man_hit til True.
++ Øk poengsummen med 10 poeng hvis boksen er ute av bildet og strekmannen ikke
+  er truffet.
+  
++ Før boksen flyttes til høyre side, nullstill `stick_man.hit` til `False`.
 
-+ Økt poengsummen med 10 poeng hvis du ikke ble truffet og boksen er ute av bildet på venstre side. Sett stick_man_hit til False.
++ Tegn poengsummen på skjermen inni `draw()`:
 
-Du trenger nå en funksjon som printer poengene:
+    ```python
+    screen.draw.text("Poeng: " + str(SCORE), (400, 30), color = (0, 0, 0))
+    ```
 
-```python
-def print_score():
-	global score
-	screen.draw.text("Poeng: " + str(score), (400, 30), color = (0, 0, 0))
-```
 
-+ Legg funksjonen til i programmet.
+## Test spillet ditt {.flag}
 
-+ Nå trenger du å kalle på denne funksjonen inne i draw().
-
-## Test programmet ditt {.flag}
 
 ## Utfordringer: {.challenge}
 
-- Utvid spillet slik at boksen har forskjellig høyde eller bredde for hver gang.
+- Endre hastigheten på boksen.
 
-- Gjør at flere bokser kommer inn på skjermen samtidig.
+- Endre høyden på hoppet.
+
+- Endre hvor lang tid et hopp tar.
+
+- Finn en kombinasjon av boksens hastighet og strekmannens hopp slik at spillet
+  er akkurat passe vanskelig.
+
+- Øk hastigheten på boksen når man har fått 100 poeng.
+
+- Øk poengsummen med 20 når man har fått 100 poeng.
+
+- Gi boksen forskjellig høyde for hver gang.
+
+- Gi boksen forskjellig bredde for hver gang.
+
+- Send flere bokser inn på skjermen samtidig.
+
+- Send flere bokser med ulik hastighet inn på skjermen samtidig.
 
 - Dine egne ideer?
+
