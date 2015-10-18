@@ -193,9 +193,10 @@ epler og slikt senere bruker vi kloner av eplene også.
 + Til slutt lager vi oppførselen for et slikt kloneeple. Lag et nytt
   skript som starter med `når jeg starter som klon`{.blockcontrol}.
   Dette skriptet må `vise`{.blocklooks} eplet, `vente
-  til`{.blockcontrol} det `berører slangen`{.blocksensing},
-  `sende`{.blockevents} en `Lag eple`-melding og til slutt `slette
-  denne klonen`{.blockcontrol}.
+  til`{.blockcontrol} det `berører slangen`{.blocksensing}, øke
+  `lengden`{.blockdata} på slangen, deretter `sende`{.blockevents} en
+  `Lag eple`-melding og til slutt `slette denne
+  klonen`{.blockcontrol}.
 
 + Legg på noen enkle lydeffekter! For eksempel passer lyden `chomp`
   ganske bra når et eple blir spist. Hvilken lyd passer når slangen
