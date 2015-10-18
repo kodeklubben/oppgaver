@@ -12,9 +12,14 @@ trenger å kunne lese.
 CodeStudio har utviklet et kurs som passer fint fra 4-årsalderen og
 oppover. Hele kurset er tilgjengelig på
 [studio.code.org/s/course1](https://studio.code.org/s/course1).  Vi
-anbefaler at du starter med lenken nedenfor, som gir en fin
+anbefaler at dere starter med lenken nedenfor, som gir en fin
 introduksjon og tar elevene videre til mer utfordrende oppgaver
 etterhvert.
+
+CodeStudio er oversatt til norsk, både bokmål og nynorsk. I de fleste
+tilfeller vises oppgavene automatisk på norsk. Om dere trenger å endre
+språket gjøres dette enkelt i menyen nederst til venstre på
+oppgavesidene.
 
 ## Oppgaver {.check}
 
