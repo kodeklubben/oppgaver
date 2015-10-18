@@ -48,11 +48,14 @@ skyskraper, et fly og en gorilla.
 
     Her er noen eksempler, men bruk gjerne bilder du finner selv:
 
-    Skyskraper: [![](skyskraper.png "skyskraper")](http://www.iconarchive.com/show/home-sweet-home-icons-by-iconka/Home-Skyscraper-icon.html)
+    ![](eksempel.png)
 
-    Fly: [![](fly.png "fly")](http://hellraz3r.deviantart.com/art/Plane-Pixel-Art-193480982)
-
-    King Kong: [![](kong.png "king kong")](http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726)
+    Skyskraper fra
+    [www.iconka.com](http://www.iconarchive.com/show/home-sweet-home-icons-by-iconka/Home-Skyscraper-icon.html),
+    fly fra
+    [hellraz3r.deviantart.com](http://hellraz3r.deviantart.com/art/Plane-Pixel-Art-193480982)
+    og King Kong fra
+    [www.freepik.com](http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726).
 
 + Etter at du har lastet ned bildene fra nettet er det på tide å ta
   dem inn som nye figurer i Scratch. Gå tilbake til Scratch. Klikk på
@@ -61,9 +64,9 @@ skyskraper, et fly og en gorilla.
   med de andre bildene, slik at du har tre figurer, en skyskraper, et
   fly og en King Kong-figur.
 
-+ Figurene får navn fra bildefilene. Endre gjerne navnet på figurene
-  under `Drakter` til `skyskraper`, `fly` og `kong` slik at det blir enklere å
-  holde oversikten.
++ Figurene får navn fra bildefilene. Endre gjerne navnet på figurene i
+  figurlisten til `skyskraper`, `fly` og `kong` slik at det blir
+  enklere å holde oversikten.
 
 ### Hvilke bilder kan du bruke? {.protip}
 
@@ -220,10 +223,10 @@ skyskraperen.
 
     ```blocks
     når jeg starter som klon
-    vis
     pek i retning (45 v)
     gå til x: (-280) y: (-140)
-    gjenta til ((y-posisjon) > (200))
+    vis
+    gjenta til ((y-posisjon) > (190))
         gå (10) steg
     slutt
     slett denne klonen
@@ -252,6 +255,7 @@ skyskraperen.
         pek i retning (-45 v)
         gå til x: (280) y: (-140)
     slutt
+    vis
     gjenta til ((y-posisjon) > (190))
         gå (10) steg
     slutt
