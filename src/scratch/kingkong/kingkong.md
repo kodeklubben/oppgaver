@@ -44,16 +44,15 @@ skyskraper, et fly og en gorilla.
 
 ## Sjekkliste {.check}
 
-+ Søk også opp grafikk du kan bruke til fly-figuren og til King
-  Kong-figuren.
++ Søk også opp figurer for fly og King Kong.
 
     Her er noen eksempler, men bruk gjerne bilder du finner selv:
 
-    Skyskraper: [www.iconarchive.com/show/home-sweet-home-icons-by-iconka/Home-Skyscraper-icon.html](http://www.iconarchive.com/show/home-sweet-home-icons-by-iconka/Home-Skyscraper-icon.html)
+    Skyskraper: [![](skyskraper.png "skyskraper")](http://www.iconarchive.com/show/home-sweet-home-icons-by-iconka/Home-Skyscraper-icon.html)
 
-    Fly: [hellraz3r.deviantart.com/art/Plane-Pixel-Art-193480982](http://hellraz3r.deviantart.com/art/Plane-Pixel-Art-193480982)
+    Fly: [![](fly.png "fly")](http://hellraz3r.deviantart.com/art/Plane-Pixel-Art-193480982)
 
-    King Kong: [www.flaticon.com/free-icon/small-monkey-with-long-tail_28726](http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726)
+    King Kong: [![](kong.png "king kong")](http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726)
 
 + Etter at du har lastet ned bildene fra nettet er det på tide å ta
   dem inn som nye figurer i Scratch. Gå tilbake til Scratch. Klikk på
@@ -63,8 +62,8 @@ skyskraper, et fly og en gorilla.
   fly og en King Kong-figur.
 
 + Figurene får navn fra bildefilene. Endre gjerne navnet på figurene
-  til `skyskraper`, `fly` og `kong` slik at det blir enklere å holde
-  oversikten.
+  under `Drakter` til `skyskraper`, `fly` og `kong` slik at det blir enklere å
+  holde oversikten.
 
 ### Hvilke bilder kan du bruke? {.protip}
 
@@ -109,8 +108,8 @@ Like morsomt som å finne bilder på nettet er det å tegne litt selv.
 + Velg deretter en litt mørkere grønn farge, og tegn et nytt grønt
   rektangel som dekker den nedre delen av det forrige
   rektangelet. Gjenta dette med stadig mørkere grønnfarger til du har
-  et passende antall striper som forestiller gresset. Se øverst i
-  oppgaven for et ferdig eksempel.
+  et passende antall striper som forestiller gresset. Se
+  [øverst i oppgaven](#introduksjon) for et ferdig eksempel.
 
 + Du kan også tegne litt på figurene du har lastet ned. For eksempel,
   om du lastet ned skyskraperen fra lenken over er den gjennomsiktig!
@@ -124,8 +123,8 @@ høyre side.
 + Klikk på `kong`-figuren og velg `Drakter`-fanen. Høyreklikk på
   `kong`-drakten og velg `Lag en kopi`.
 
-+ Klikk på kopien og bruk knappene i øverste høyre hjørne til å
-  speilvende denne nye drakten.
++ Klikk på kopien og bruk knappen ![](../bilder/speilvend.png "Speilvend
+  høyre-venstre") i øverste høyre hjørne til å speilvende denne nye drakten.
 
 + Gi de to draktene navnene `Høyre` og `Venstre`.
 
@@ -134,13 +133,12 @@ høyre side.
 Prøv gjerne de forskjellige tegneverktøyene på egen hånd. Vet du hva
 alle gjør?
 
-Legg også merke til at nede i høyre hjørnet kan du velge mellom å
-jobbe med _punktgrafikk_ og _vektorgrafikk_. I punktgrafikk jobber vi
-med nettopp punktene (også kalt pikslene) i bildet. Typisk vil du
-gjøre dette med bilder du laster ned fra nettet. Med vektorgrafikk kan
-vi jobbe med direkte med linjer og former. Mange av figurene i
-Scratchbiblioteket bruker dette, og det er ofte bedre når vi skal
-tegne selv.
+Legg merke til at nede i høyre hjørnet velger du mellom å jobbe med
+_punktgrafikk_ og _vektorgrafikk_. I punktgrafikk jobber vi med nettopp
+punktene (også kalt pikslene) i bildet. Typisk vil du gjøre dette med bilder du
+laster ned fra nettet. Med vektorgrafikk kan vi jobbe med direkte med linjer og
+former. Mange av figurene i Scratchbiblioteket bruker dette, og det er ofte
+bedre når vi skal tegne selv.
 
 # Steg 3: King Kong flytter seg {.activity}
 
@@ -208,6 +206,7 @@ skyskraperen.
 
     ```blocks
     når grønt flagg klikkes
+    skjul
     begrens rotasjon [vend sideveis v]
     for alltid
         vent (tilfeldig tall fra (0.5) til (4)) sekunder
@@ -221,6 +220,7 @@ skyskraperen.
 
     ```blocks
     når jeg starter som klon
+    vis
     pek i retning (45 v)
     gå til x: (-280) y: (-140)
     gjenta til ((y-posisjon) > (200))
@@ -232,7 +232,7 @@ skyskraperen.
 + Igjen må du justere tallene slik at de passer for deg. Vi vil at
   flyet skal fly slik at det kommer borti `kong` om han står på
   venstre side av skyskraperen, men vi vil ikke at flyet krasjer i
-  skyskraperen selv (se bildet øverst i oppgaven).
+  skyskraperen selv (se bildet [øverst i oppgaven](#introduksjon)).
 
 + Om du vil kan du klikke på `drakter` og rotere flyet litt slik at det
   flyr i riktig retning.
@@ -252,7 +252,7 @@ skyskraperen.
         pek i retning (-45 v)
         gå til x: (280) y: (-140)
     slutt
-    gjenta til ((y-posisjon) > (200))
+    gjenta til ((y-posisjon) > (190))
         gå (10) steg
     slutt
     slett denne klonen
