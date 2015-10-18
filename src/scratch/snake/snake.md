@@ -1,7 +1,7 @@
 ---
 title: Snake
 level: 4
-author: Geir Arne Hjelle
+author: Geir Arne Hjelle og Martin Lie
 ---
 
 # Introduksjon {.intro}
