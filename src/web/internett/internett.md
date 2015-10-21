@@ -8,7 +8,7 @@ language: nb-NO
 # Introduksjon { .intro}
 Har du noen gang lurt på hvordan internett virker? Klart du har det! I dag kommer du til å lære hvordan man lager nettsider slik at du også kan hjelpe til med å bygge det. Nettsider blir skrevet ved å bruke **HTML**, som er en forkortelse for **HyperText Markup Language** på engelsk. Du kommer til å finne ut mer om dette ettersom du bygger siden din.
 
-Filene som du bes åpne i denne oppgaven finner du i [internet.zip](internet.zip). Last ned filen og pakk den ut før du starter. Om du ikke får pakket ut filen, kan du laste ned programmet [7zip](http://www.7-zip.org/) som pakker ut zip-filer.
+Filene som du bes åpne i denne oppgaven finner du i [internett.zip](internett.zip). Last ned filen og pakk den ut før du starter. Om du ikke får pakket ut filen, kan du laste ned programmet [7zip](http://www.7-zip.org/) som pakker ut zip-filer.
 
 
 # Steg 1: Hva er nettsider? { .activity}
@@ -52,7 +52,7 @@ Tagger kan også ha **attributter**, som er informasjon om elementet. La oss se 
 
 ## Aktiviteter { .check}
 - Installer **X-Ray Goggles** ved å trekke linken [X-Ray Goggles](javascript:(function(){var%20script=document.createElement('script');script.src='https://goggles.webmaker.org/en-US/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.webmaker.org/en-US');document.body.appendChild(script);})();) til din bokmerkerad.
-- Åpne filen `side.html` fra [internet.zip](internet.zip).
+- Åpne filen `side.html` fra [internett.zip](internett.zip).
 - Trykk på *X-Ray Goggles* fra bokmerkeraden din. Om ingenting skjer, spør en CodeMaster/veileder om hjelp til å bruke utviklerverktøyet i din nettleser.
 - Beveg musen rundt på siden. Da kan du se deler av siden lyse opp og se hvilke tagger delene er laget av.
 - Trykk på noe for å se kodesnutten det er laget av.
