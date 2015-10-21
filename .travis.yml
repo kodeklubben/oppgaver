@@ -10,3 +10,6 @@ notifications:
 addons:
   apt_packages:
     - pandoc
+cache:
+  directories:
+    - node_modules
