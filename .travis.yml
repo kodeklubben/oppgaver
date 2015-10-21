@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "stable"
-install: ./setup
+install: ./travis-install.sh
 script: ./gulp dist && ./gulp links
 notifications:
   recipients:
