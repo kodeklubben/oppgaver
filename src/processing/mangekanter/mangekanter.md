@@ -11,7 +11,7 @@ ta utgangspunkt i oppgaven om
 [den sprettende ballen](../sprettende_ball/sprettende_ball.html), men
 bytte ut ballen med trekanter, firkanter og mangekanter. Det anbefales
 derfor at du har gjort den oppgaven før, eller at du har en forståelse
-av `if`-setninger og posisjonssystemet fra før. Altså skal du lære å
+av `if`-setninger og koordinatsystemet fra før. Altså skal du lære å
 tegne former med kanter, mange kanter.
 
 # Steg 1: Enkle firkanter {.activity}
@@ -72,7 +72,7 @@ på datamaskinen.
     med det som står på høyresiden av `+=`.
 
 + Kjør programmet ved å trykke på **Ctrl + R** eller knappen
-  ![](../play.png "Play - En knapp i verktøylinjen merket med pil)
+  ![](../play.png "Play - En knapp i verktøylinjen merket med pil")
 + Lagre programmet som Firkant ved å trykke på **Ctrl+S** eller
   velg **File --> Save** i menyen.
 
@@ -132,7 +132,7 @@ hjørne befinner seg.
 
 + Kjør programmet.
 
-### Forbedre leseligheten {.protip}
+## Forbedre leseligheten {.protip}
 
 Noen ganger kan det være vanskelig å lese kall på funksjoner som tar
 mange argumenter. I Processing tar de fleste funksjoner bare imot noen
@@ -152,17 +152,32 @@ legge til noen ekstra mellomrom for å få ting på linje. Merk at om man
 bruker automatisk formatering av koden i Processing, vil den fjerne
 mellomrom den mener er overflødig.
 
-## Trekanter {.check}
+## Utfordringer {.try}
 
-+ Nå skal vi se hvordan vi kan lage trekanter hvor hvert hjørne
-  beveger seg for seg selv. Da trenger vi fire variabler for hvert
-  hjørne, to for posisjon og to for farten, og dette for tre hjørner
-  som blir tolv variabler. Vi kunne kalt dem f.eks. `x1`, `x2`, `x3`
-  og tilsvarende for `y`, `xFart` og `yFart`. Isteden skal vi bruke
-  noe som kalles *array*. Det er vanlig å bruke det engelske ordet
-  også på norsk, men det oversettes noen ganger til vektor, rekke,
-  tabell eller matrise, men de kan lett forveksles med andre typer enn
-  *arrays*. Vi begynner med å endre variablene:
++ Kan du tegne trekanten motsatt vei, sånn at den ser ut som en
+  pil som peker oppover istedenfor nedover?
++ Kan du tegne to trekanter istedenfor en og lage en sekskantet
+  stjerne?
++ **Vanskelig**: Trekanten i programmet er nesten likesidet, men den
+  er litt for høy, så to av sidene er rundt 12 piksler for lange. I
+  Processing finnes det mange trigonometriske funksjoner: `sin`,
+  `cos`, `tan`, m.fl. Kan du endre regnestykket `y + 100` sånn at
+  trekanten blir likesidet (funksjonen `radians` kan være til hjelp
+  for å gjøre om grader til radianer)?
+
+# Trekanter {.activity}
+
+Nå skal vi se hvordan vi kan lage trekanter hvor hvert hjørne beveger
+seg for seg selv. Da trenger vi fire variabler for hvert hjørne, to
+for posisjon og to for farten, og dette for tre hjørner som blir tolv
+variabler. Vi kunne kalt dem f.eks. `x1`, `x2`, `x3` og tilsvarende
+for `y`, `xFart` og `yFart`. Isteden skal vi bruke noe som kalles en
+*array*. Det er vanlig å bruke det engelske ordet også på norsk, men
+det oversettes noen ganger til vektor, rekke, tabell eller matrise.
+  
+## Sjekkliste {.check}
+
++ Vi begynner med å endre variablene til *arrays*:
 
     ```processing
     float[] x = new float[3];
@@ -231,7 +246,7 @@ mellomrom den mener er overflødig.
           yFart[i] = -yFart[i];
         }
         
-        if (y[i] > width) {
+        if (y[i] > height) {
           yFart[i] = -yFart[i];
         }
       }
@@ -244,7 +259,7 @@ mellomrom den mener er overflødig.
     Her ser du en helt ny konstruksjon som vi skal se nærmere på i
     forklaringen nedenfor, men først kan du lagre og kjøre programmet.
 
-### Forklaring {.protip}
+## Forklaring {.protip}
 
 I begynnelsen av `draw` har vi nå lagt inn noe som kalles en løkke,
 *loop* på engelsk. En løkke er en del med kode som utføres flere
@@ -274,7 +289,7 @@ arrayer. Du kommer til å se mange slike i fremtidige oppgaver. Løkker
 kan kreve litt øving før man blir god på det, men etter hvert blir man
 veldig glad for at man slipper å skrive den samme koden mange ganger.
 
-### Utfordringer {.try}
+## Utfordringer {.try}
 
 + Det går også an å lage firkanter hvor man plasserer hvert hjørne for
   seg. Da bruker man funksjonen `quad` istedenfor `rect`. For å tegne
@@ -282,13 +297,131 @@ veldig glad for at man slipper å skrive den samme koden mange ganger.
   programmet til å lage en firkant med hjørner som spretter rundt på
   skjermen.
 
-+ Man kan lage mangekanter også, men da må vi bruke flere
-  funksjoner. Først må vi begynne med `beginShape();`, så må vi angi
-  hvert hjørne med `vertex(x, y);` og til slutt avslutte med
-  `endShape(CLOSE);`. Endre programmet til å tegne en femkant med
-  hjørner som spretter rundt på skjermen. Husk å bytte ut `x` og `y` i
-  kallet på `vertex` med riktige X- og Y-verdier fra arrayene.
+# Mangekanter
 
-+ Hvis du bruker en løkke til å løpe gjennom alle hjørnene, og kaller
-  `vertex` som innholdet i løkka, er det lett å lage former med enda
-  flere kanter. Prøv å lage en sekskant, syvkant eller åttekant.
+Nå skal vi se på hvordan vi kan lage mangekanter. Mangekanter er bare
+et generelt navn for en form med flere kanter, som trekanter,
+firkanter, femkanter, osv.
+
+## Sjekkliste {.check}
+
++ Vi begynner med å endre på størrelsen på *arrayene* i forrige
+oppgave:
+
+    ```processing
+    int KANTER = 5;
+    float[] x = new float[KANTER];
+    float[] y = new float[KANTER];
+    float[] xFart = new float[KANTER];
+    float[] yFart = new float[KANTER];
+    ```
+
+    Nå bruker vi en variabel for å sette størrelsen isteden. Dette
+    hjelper leseligheten og gjør det enklere å endre antall kanter
+    fordi vi bare trenger å endre tallet ett sted istedenfor fire
+    steder.
+
++ Posisjonene og hastighetene til hjørnene ble satt til faste verdier,
+  men hvis vi ikke vet nøyaktig hvor mange kanter det er fungerer ikke
+  det så bra. Så vi endrer på `setup` til å bruke en løkke for å sette
+  startverdiene:
+
+    ```processing
+    void setup() {
+      size(800, 600);
+      
+      for (int i = 0; i < KANTER; i++) {
+        x[i] = random(width);
+        y[i] = random(height);
+        xFart[i] = random(-5, 5);
+        yFart[i] = random(-5, 5);
+      }
+    }
+    ```
+
+    Denne løkken likner en del på den vi har i `draw` fra før. Vi har
+    derimot introdusert en funksjon som heter `random`. Denne gir oss
+    tilfeldige tall. Hvis vi kaller den uten noen verdier, `random()`,
+    får vi et tall mellom `0` og `1`. Hvis vi kaller den med én verdi,
+    `random(width)`, får vi et tall mellom `0` og verdien. Hvis vi
+    bruker to verdier, `random(-5, 5)`, får vi et tall mellom de to
+    verdiene.
+
++ Nå skal vi tegne opp mangekanten vår. Vi trenger ikke å endre på den
+  første løkken i `draw`, men jeg synes vi skal bytte testen så den
+  likner den over. Vi skal bytte ut kallet på `triangle` med en løkke
+  som tegner hver kant:
+
+    ```processing
+    void draw() {
+      for (int i = 0; i < KANTER; i++) {
+        x[i] += xFart[i];
+        y[i] += yFart[i];
+        
+        if (x[i] < 0) {
+          xFart[i] = -xFart[i];
+        }
+        
+        if (x[i] > width) {
+          xFart[i] = -xFart[i];
+        }
+        
+        if (y[i] < 0) {
+          yFart[i] = -yFart[i];
+        }
+        
+        if (y[i] > height) {
+          yFart[i] = -yFart[i];
+        }
+      }
+      
+      background(0);
+      
+      beginShape();
+      for (int i = 0; i < KANTER; i++) {
+        vertex(x[i], y[i]);
+      }
+      endShape(CLOSE);
+    }
+    ```
+
+    Her ser vi tre nye funksjoner: `beginShape`, `vertex` og
+    `endShape`. `beginShape` angir at vi skal tegne en form. `vertex`
+    betyr at vi skal legge til et hjørne i formen, den tar inn to
+    verdier for posisjonen til hjørnet. `endShape` sier at formen er
+    ferdig og klar til å tegnes på skjermen. Hvis vi kaller `endShape`
+    uten `CLOSE`, blir ikke formen lukket og fylt.
+
+## Utfordringer {.try}
+
++ Kan du bruke `random` til å få hjørnene til å endre hastighet når de
+  treffer kanten av vinduet?
+
+    Pass på, om farten blir lavere enn den var, kan hjørnet bli
+    sittende fast i kanten av vinduet. Det er fordi vi egentlig lar
+    den bevege seg litt utenfor vinduet for så å snu. Sett `x` eller
+    `y` til å være lik posisjonen til vinduskanten inne i
+    `if`-setningene for å unngå det.
+
+De neste to oppgavene drar nytte av trigonometriske funksjoner. De kan
+være noe vanskelige om man ikke er kjent med hva sinus og cosinus
+er. Sinus-funksjonen heter `sin` og cosinus heter `cos` i
+Processing. De tar imot én verdi i form av radianer. De fleste er
+kjent med grader for å måle vinkler, radianer er en annen
+måleenhet. Du kan konvertere grader til radianer med `radians`. Så
+`sin(radians(30))` gir sinus av `30` grader.
+
++ Kan du tegne en pentagon, en femkant der alle kantene er like lange,
+  og alle hjørnene har samme vinkel?
+
++ Hva med en tilsvarende sekskant, hexagon? Eller syvkant, heptagon?
+
++ Stjerner med et oddetall antall kanter, kan tegnes som en mangekant
+  der man hopper over ett hjørne hver gang. Hjørnene i en stjerne
+  ligger på omrisset av en sirkel. Kan du finne hjørnene og tegne en
+  5-kantet stjerne?
+
+    Hjørnene fordeler seg med like stor avstand fra hverandre
+    (vinkelen mellom et hjørne, sentrum og det neste hjørnet er lik
+    for hver spiss). Når man tegner en femkantet stjerne, tegner man
+    en strek fra en spiss til den etter den neste.
