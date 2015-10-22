@@ -411,17 +411,27 @@ kjent med grader for å måle vinkler, radianer er en annen
 måleenhet. Du kan konvertere grader til radianer med `radians`. Så
 `sin(radians(30))` gir sinus av `30` grader.
 
-+ Kan du tegne en pentagon, en femkant der alle kantene er like lange,
-  og alle hjørnene har samme vinkel?
++ Kan du tegne en regulær pentagon, en femkant der alle kantene er
+  like lange, og alle hjørnene har samme vinkel? Hjørnene i en regulær
+  mangekant ligger på omrisset av en sirkel.
 
-+ Hva med en tilsvarende sekskant, hexagon? Eller syvkant, heptagon?
++ Hva med en regulær hexagon, sekskant? Eller heptagon, syvkant?
+  Klarer du å gjøre det slik at du bruker variabelen `KANTER` til å
+  styre hvor mange kanter den skal ha?
 
-+ Stjerner med et oddetall antall kanter, kan tegnes som en mangekant
-  der man hopper over ett hjørne hver gang. Hjørnene i en stjerne
-  ligger på omrisset av en sirkel. Kan du finne hjørnene og tegne en
-  5-kantet stjerne?
++ Stjerner med et oddetall antall spisser, kan tegnes som en regulær
+  mangekant der man hopper over en spisse hver gang. Kan du finne
+  hjørnene og tegne en 5-kantet stjerne?
 
     Hjørnene fordeler seg med like stor avstand fra hverandre
     (vinkelen mellom et hjørne, sentrum og det neste hjørnet er lik
     for hver spiss). Når man tegner en femkantet stjerne, tegner man
     en strek fra en spiss til den etter den neste.
+
++ Kan du tegne en syvkantet stjerne? Eller en nikantet stjerne?
+
++ Stjerner med et partall antall spisser, kan tegnes som to regulære
+  mangekanter. Disses hjørner vil da være de samme som i mangekanten
+  med partall antall kanter. Dette er lettest å løse ved å kopiere
+  løkken, og endre `int i = 0` og `i++`.
+  
