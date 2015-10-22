@@ -7,10 +7,10 @@ mikrokontrollere, samt et programmeringsverktøy som heter Arduino IDE.
 
 ## Hvordan komme igang med Arduino
 
-+ Du trenger en Arduino-kompatibel mikrokontroller. Et bra
-  utgangspunkt vil være en Arduino Uno som er relativt liten, men med
-  god fleksibilitet. Disse får du for eksempel tak i gjennom både
-  norske og utenlandske nettbutikker for noen hundrelapper.
++ Du trenger en Arduino-kompatibel mikrokontroller. Et bra utgangspunkt vil
+  være en Arduino Uno som er relativt liten, men med god fleksibilitet. Disse
+  får du for eksempel tak i gjennom både norske og
+  [utenlandske nettbutikker](https://store.arduino.cc/) for noen hundrelapper.
 
 + Last ned og installer Arduino IDE på din datamaskin fra
   [arduino.cc/en/Main/Software](http://arduino.cc/en/Main/Software).
