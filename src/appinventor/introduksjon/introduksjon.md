@@ -78,7 +78,7 @@ I neste steg får du se hvordan appen ser ut, selv om den ikke er ferdig.
 
 # Steg 6: Teste appen mens du programmerer {.activity}
 
-#### Det kan være veldig nyttig å teste appen din mens du lager den, for å sjekke at alt fungerer som det skal. I App Inventor kan du teste appen din på to forskjellige måter. Den ene måten å teste appen din på er ved å koble telefonen din til App Inventor. Dette krever at operativsystemtet på mobiltelefonen din er Android. Den andre måten å teste appen din på er ved å laste ned en Android-emulator og laste inn appen din der. Begge disse to metodene er beskrevet under. Dersom du har en Android-telefon, så er det den letteste måten å teste på.
+Det kan være veldig nyttig å teste appen din mens du lager den, for å sjekke at alt fungerer som det skal. I App Inventor kan du teste appen din på to forskjellige måter. Den ene måten å teste appen din på er ved å koble telefonen din til App Inventor. Dette krever at operativsystemtet på mobiltelefonen din er Android. Den andre måten å teste appen din på er ved å laste ned en Android-emulator og laste inn appen din der. Begge disse to metodene er beskrevet under. Dersom du har en Android-telefon, så er det den letteste måten å teste på.
 
 ## Problemer {.tip}
 
@@ -91,7 +91,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 ## Steg 6.1: Teste appen på mobiltelefonen
 
-#### For å kunne teste appen din på en telefon mens du programmerer så trenger du tre ting:
+For å kunne teste appen din på en telefon mens du programmerer så trenger du tre ting:
 
 ## Sjekkliste {.check}
 
@@ -99,7 +99,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 + En Android-telefon.
 + Tilgang til WIFI.
 
-#### For å kunne teste appen må du gjøre følgende:
+For å kunne teste appen må du gjøre følgende:
 
 ## Sjekkliste {.check}
 
@@ -111,7 +111,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
   på telefonen din. Der kan du velge om du vil scanne QR-koden eller skrive inn bokstav-koden manuelt. Begge deler fungerer
   helt fint, så du kan velge hva du ønsker å gjøre.
 
-#### Nå kan du teste appen på telefonen din.
+Nå kan du teste appen på telefonen din.
 
 ## Problemer {.tip}
 
@@ -119,7 +119,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 ## Steg 6.2: Teste appen på en emulator
 
-#### For å kunne teste appen din på en emulator mens du programmerer så trenger du en datamaskin med tilgang til Internett. Første steg er å installere *App Inventor Setup Software*, hvor det finnes en guide for hvert av operativsystemene her:
+For å kunne teste appen din på en emulator mens du programmerer så trenger du en datamaskin med tilgang til Internett. Første steg er å installere *App Inventor Setup Software*, hvor det finnes en guide for hvert av operativsystemene her:
 
 ## Sjekkliste {.check}
 
@@ -127,7 +127,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 + [Mac OS X](http://appinventor.mit.edu/explore/ai2/mac.html).
 + [GNU/Linux](http://appinventor.mit.edu/explore/ai2/linux.html).
 
-#### Når "App Inventor Setup Software" er installert gjør du følgende:
+Når "App Inventor Setup Software" er installert gjør du følgende:
 
 ## Sjekkliste {.check}
 
@@ -142,7 +142,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 + Etterhvert vil emulatoren bli klar, ved å først vise en svart skjerm. Så vil en mobil-bakgrunn dukke opp, før du
   til slutt får opp appen du har laget.
 
-#### Nå kan du teste appen på emulatoren din.
+Nå kan du teste appen på emulatoren din.
 
 ## Problemer {.tip}
 
@@ -150,7 +150,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 # Steg 7: Fullføre test-appen {.activity}
 
-#### Nå ser du at du har en knapp på skjermen din som du kan trykke på. Det vil ikkje skje noe når du trykker på den, rett og slett fordi du ikke har skrevet noe kode for det enda. Det kommer du snart til, men aller først må du teste litt hva som skjer når du legger til ting samtidig som du er koblet til appen.
+Nå ser du at du har en knapp på skjermen din som du kan trykke på. Det vil ikkje skje noe når du trykker på den, rett og slett fordi du ikke har skrevet noe kode for det enda. Det kommer du snart til, men aller først må du teste litt hva som skjer når du legger til ting samtidig som du er koblet til appen.
 
 ## Test prosjektet {.flag}
 
@@ -160,7 +160,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 + Hva skjer om du endrer på "AlignHorizontal"?
 + Hva skjer om du endrer "AlignVertical"?
 
-#### Nå er du klar for å programmere komponentene i appen vår. Det kan du gjøre på følgende måte:
+Nå er du klar for å programmere komponentene i appen vår. Det kan du gjøre på følgende måte:
 
 ## Sjekkliste {.check}
 
@@ -171,7 +171,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 + Til slutt kan du trykke på "Text" under "Blocks". Velg den øverste blokken, som er en tom streng, og koble den til "message" i kodeblokken din.
   Klikk inni den tomme strengen og skriv "Hello world!".
 
-#### Nå er appen din kodet ferdig, men det er lurt å sjekke at den fungerer som den skal.
+Nå er appen din kodet ferdig, men det er lurt å sjekke at den fungerer som den skal.
 
 ## Test prosjektet {.flag}
 
@@ -179,7 +179,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 # Steg 8: Bygge en app {.activity}
 
-#### Når appen din er ferdig, så kan du bygge den. Det vil si at koden din blir pakket sammen til en .apk-fil som du kan installere på en Android-telefon. Du kan også laste filen ned og kjøre den i en emulator. For å bygge appen må du gjøre følgende:
+Når appen din er ferdig, så kan du bygge den. Det vil si at koden din blir pakket sammen til en .apk-fil som du kan installere på en Android-telefon. Du kan også laste filen ned og kjøre den i en emulator. For å bygge appen må du gjøre følgende:
 
 ## Sjekkliste {.check}
 
@@ -194,7 +194,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 # Steg 9: Lære mer {.activity}
 
-#### For å lære mer om App Inventor så kan det være lurt å sjekke ut følgende lenker:
+For å lære mer om App Inventor så kan det være lurt å sjekke ut følgende lenker:
 
 ## Sjekkliste {.check}
 
