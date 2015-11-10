@@ -2,7 +2,12 @@
 title: App Inventor
 ---
 
-Dette er en introduksjon til MIT App Inventor, hvor vi kan lage applikasjoner til Android. 
-Å lage apps i MIT App Inventor er en ganske enkel måte å lage apps på, men vi anbefaler 
-at en er kjent med programmering i Scratch før en prøver ut dette. 
+Her vil vi lÃ¦re hvordan MIT App Inventor virker, App Inventor er et
+programmeringsmiljÃ¸ som brukes for Ã¥ lage apps til Android telefoner
+og nettbrett.
+
+For Ã¥ lage apps med MIT App Inventor bygger man sammen klosser pÃ¥
+samme mÃ¥te som i [Scratch](../scratch/). Det er derfor en fordel med
+litt erfaring fra Scratch fÃ¸r du begynner med dette.
+
 [Sjekk ut MIT App Inventor her.](http://ai2.appinventor.mit.edu/)
