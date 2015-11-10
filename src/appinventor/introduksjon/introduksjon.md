@@ -5,76 +5,86 @@ author: Tjerand Silde
 ---
 
 # Introduksjon {.intro}
-#### Dette er en introduksjon til MIT App Inventor, hvor vi skal lære å lage applikasjoner til Android. Å lage apps i MIT App Inventor er en ganske enkel måte å lage apps på, men vi anbefaler at en er godt kjent med programmering i Scratch før en prøver ut dette, samt kan litt engelsk. Før vi kan lage våre egne apps, må vi sette opp MIT App Inventor og bli litt kjent med hvordan det fungerer.
 
-# Steg 1: Logge inn på MIT App Inventor {.activity}
+Dette er en introduksjon til *MIT App Inventor*, hvor du skal lære å lage applikasjoner til Android. Å lage apps i App Inventor er ganske enkelt, men vi anbefaler at du er godt kjent med programmering i Scratch, samt kan litt engelsk. Før du kan lage egne apps, må du sette opp App Inventor og bli kjent med hvordan det fungerer.
 
-## Sjekkliste {.check}
 
-+ [Gå til ai2.appinventor.mit.edu](http://ai2.appinventor.mit.edu/).
-
-+ Logg inn med en Google-konto. Dette kan for eksempel være en gmail-adresse. 
-  Dersom du lurer på om epost-adressen din er en Google-konto, [kan du sjekke det 
-  her](https://support.google.com/accounts/answer/40560?hl=no).
-
-+ Når du har logget inn kommer du til en side hvor MIT App Inventor ber om tillatelse til å åpne kontoen din.
-  Dette må du godta, ved å trykke "Tillat", for å kunne bruke MIT App Inventor for å lage applikasjoner.
-  
-# Steg 2: Starte nytt prosjekt {.activity}
+# Steg 1: Logge inn på App Inventor {.activity}
 
 ## Sjekkliste {.check}
 
-+ Etter innlogging blir du videresendt til prosjekt-siden til MIT App Inventor. Legg merke til at det er på engelsk, du
-  må dermed trykke på "Start new project" for å komme igang med selve programmeringen. Her kan du navngi prosjektet
-  akkurat det du ønsker selv, for eksempel "Test". Så blir du videresendt til hvor du programmerer.
++ Gå til [ai2.appinventor.mit.edu](http://ai2.appinventor.mit.edu/).
+
++ Logg inn med en Google-konto, for eksempel en gmail-adresse. Dersom du lurer på om epost-adressen din er en Google-konto, [kan du sjekke det her](https://support.google.com/accounts/answer/40560?hl=no).
+
++ Når du har logget inn vil App Inventor be om tillatelse til å åpne kontoen din.
++ Trykk **Tillat** for å gi App Inventor tilgang.
+
+# Steg 2: Starte et nytt prosjekt {.activity}
+
+## Sjekkliste {.check}
+
++ Etter innlogging blir du videresendt til prosjekt-siden.
++ Trykk på **Start new project** for å komme igang.
++ Navngi prosjektet slik du ønsker selv, for eksempel `introduksjon`.
++ Du blir nå videresendt til programmeringen.
 
 # Steg 3: Bli kjent med menyene {.activity}
 
-## Sjekkliste {.check}
-  
-+ Til venstre har du en meny som heter "Palette". Her finner du alle de ulike komponentene du kan bruke til å 
+#### Palette
+Til venstre har du en meny som heter **Palette**. Her finner du alle de ulike komponentene du kan bruke til å
   lage en app. Du vil se at det er 9 forskjellige kategorier som du kan trykke på for å få tilgang til komponentene.
   Hver komponent har et spørsmålstegn hvor det står mer om hvilke egenskaper komponenten har, samt en lenke videre til
-  hvor det står enda mer informasjon. [Informasjon om alle komponentene er samlet 
+  hvor det står enda mer informasjon. [Informasjon om alle komponentene er samlet
   her](http://ai2.appinventor.mit.edu/reference/components/).
-  
-+ I midten har du en mobil-skjerm med navn "Viewer" som viser deg hvordan appen din ser ut til en hver tid. 
 
-+ Den tredje menyen heter "Components". I denne menyen kan du velge hvilken komponent du vil endre.
-  
-+ Til høyre har du en meny ved navn "Properties". I denne menyen kan du gjøre endringer på komponentene, for eksempel kan
-  du endre navnet dens og posisjonen dens på skjermen. 
-  
-# Steg 4: Koble til komponenter {.activity}
+#### Viewer
+I midten har du en mobil-skjerm med navn **Viewer** som viser deg hvordan appen din ser ut til en hver tid.
 
-#### For de som allerede er kjent med programmering i Scratch, så vil dere se en del likheter med hvordan vi programmerer i MIT App Inventor. Både Scratch og MIT App Inventor er "Drag-and-drop", det vil si, vi drar komponenter og kodeblokker fra menyen og til hvor de skal være for å programmere.
- 
-# Steg 4: Programmere med blokker {.activity}
+#### Components
+Den tredje menyen heter **Components**. I denne menyen kan du velge hvilken komponent du vil endre.
 
-#### For å programmere komponentene i appen vår så må vi trykke på knappen i høyre hjørne med navnet "Blocks". Da kommer vi til en programmeringsskjerm som ligner veldig mye på Scratch. Ved å trykke på de forkjellige kategoriene (for eksempel "Logic") så får dere opp hvilke funksjoner dere kan bruke. Når dere har valgt funksjon, så kan dere trykke på den og dra den over til kode-feltet. Det samme gjelder for komponentene dere har lagt til i appen.[Trykk her for å se hvordan det ser ut](http://appinventor.mit.edu/explore/designer-blocks.html).
+#### Properties
+Til høyre har du en meny ved navn **Properties**. I denne menyen kan du gjøre endringer på komponentene, for eksempel kan
+  du endre navnet dens og posisjonen dens på skjermen.
+
+
+# Steg 4: Legge til og koble sammen komponenter {.activity}
+
+For de som allerede er kjent med programmering i Scratch, vil en del allerede være kjent. Både Scratch og MIT App Inventor er *Drag-and-drop*. Det vil si at du drar komponenter og kodeblokker fra menyen og til hvor de skal være for å lage et program. Her er et eksempel:
+
+## Sjekkliste {.check}
+
++ Trykk på knappen i høyre hjørne med navnet **Blocks**.
++ En programmeringsskjerm vises.
++ Trykk på kategorien **Logic**.
++ Her ser du hvilke funksjoner du kan bruke fra **Logic** kategorien.
++ Velg en funksjon og dra den over til kode-feltet.
+
+Samme framgangsmåte brukes for å legge til komponenter i appen. Trykk [her](http://appinventor.mit.edu/explore/designer-blocks.html) for å se hvordan det ser ut.
 
 # Steg 5: Lage en test-app {.activity}
 
-#### For å se litt på hvordan dette fungerer, så skal vi lage en test-app. Vi har alleredet opprettet prosjektet og gitt det navn. Da kan vi gå rett på programmeringen. Vi ønsker å lage en app som har en knapp på forsiden hvor det står "Talk to me". Når knappen trykkes så skal appen si "Hello world". Dette kan vi få til ved å gjøre følgende:
+For å se litt på hvordan dette fungerer, så skal vi lage en test-app. Vi har alleredet opprettet prosjektet og gitt det navn. Da kan vi gå rett på programmeringen. Appen skal ha en knapp med teksten `Talk to me`. Når knappen trykkes så skal appen si `Hello world`. Dette kan vi få til ved å gjøre følgende:
 
 ## Sjekkliste {.check}
 
-+ Det første vi gjør er å legge inn en knapp på skjermen. Det gjør vi ved å gå til "Palette" og "User Interface". 
-  Der velger vi "Button", og drar den over til skjermer vår i "Viewer". Legg merke til at knappen vises på skjermen.
++ Det første vi gjør er å legge inn en knapp på skjermen. Det gjør vi ved å gå til **Palette** og **User Interface**.
+  Der velger vi **Button**, og drar den over til skjermer vår i **Viewer**. Legg merke til at knappen vises på skjermen.
 
-+ Neste steg er å legge inn lyd. Dette gjør vi ved å gå til "Palette" og "Media". Der velger vi "TextToSpeech", 
-  og drar den over til skjermer vår i "Viewer". Legg merke til at den ikke vises på skjermen, men legger seg
-  under "Non-visible components".
++ Neste steg er å legge inn lyd. Dette gjør vi ved å gå til **Palette** og **Media**. Der velger vi **TextToSpeech**,
+  og drar den over til skjermer vår i **Viewer**. Legg merke til at den ikke vises på skjermen, men legger seg
+  under **Non-visible components**.
 
-+ Så vil vi endre litt på designet. Det første vi gjør da er å trykke på "Screen1" på "Components", 
-  hvor vi går til "AlignHorizontal" og velger "Center". Vi går også til "AlignVertical" og velger "Center".
-  Vi vil også endre navnet på appen, så vi går til "AppName" og skriver inn "TalkToMe". (Navnet på appen må være i ett ord.)
-  Til slutt går vi til "Title", hvor vi skriver inn "Talk To Me"
++ Så vil vi endre litt på designet. Det første vi gjør da er å trykke på **Screen1** på **Components**,
+  hvor vi går til **AlignHorizontal** og velger **Center**. Vi går også til **AlignVertical** og velger **Center**.
+  Vi vil også endre navnet på appen, så vi går til **AppName** og skriver inn `TalkToMe`. (Navnet på appen må være i ett ord.)
+  Til slutt går vi til **Title**, hvor vi skriver inn `Talk To Me`.
 
-+ Vi vil også endre litt på knappen. Dette gjør vi ved å trykke på "Button1" under "Components". Der endrer vi "FrontSize" til "60", 
-  "Height" til "100pixels", "Width" til "Fill parent" og "Text" til "Talk To Me".
++ Vi vil også endre litt på knappen. Dette gjør vi ved å trykke på **Button1** under **Components**. Der endrer vi **FrontSize** til `60`,
+  **Height** til `100 pixels`, **Width** til `Fill parent` og **Text** til `Talk To Me`.
 
-#### Vi har nå lyst å se hvordan appen vår ser ut, selv om den ikke er ferdig. Det kan vi gjøre ved å følge instruksjonene i neste steg.
+I neste steg får du se hvordan appen ser ut, selv om den ikke er ferdig.
 
 # Steg 6: Teste appen mens du programmerer {.activity}
 
@@ -84,7 +94,7 @@ author: Tjerand Silde
 
 Legg merke til at når du tester appen din live, så vil ikke alltid alt fungere optimalt. Eksempler på ting som ikke
 alltid fungerer som det skal er berøring, tid og lyd. Det første som kan være lurt å gjøre er å opprette en ny kobling
-mellom telefonen og MIT App Inventor. Dette kan du gjøre ved å trykke "Connect", også "Reset Connection", 
+mellom telefonen og MIT App Inventor. Dette kan du gjøre ved å trykke **Connect**, også **Reset Connection**,
 før du så oppretter koblingen på nytt slik som du pleier. Dersom du mener at du har programmert appen slik som den skal
 være, men at den fremdeles ikke fungerer som den skal, så kan det være lurt å bygge appen som en .apt-fil.
 Da kan du teste appen på telefonen din som et fullverdig program istedetfor. Dette er beskrevet lengre nede.
@@ -105,17 +115,17 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 ## Sjekkliste {.check}
 
-+ Last ned "MIT AI2 Companion App" til telefonen din. Den finner du på Google Play.
++ Last ned *MIT AI2 Companion App* til telefonen din. Den finner du på Google Play.
 
 + Koble telefonen din og datamaskinen din til det samme WIFI-nettverket.
 
-+ Når du er i MIT App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på "Connect". 
-  Trykk på "Connect", og velg "AI Companion".
++ Når du er i MIT App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på **Connect**.
+  Trykk på **Connect**, og velg **AI Companion**.
 
-+ I ruten som dukker opp på skjermen så står det to ting; en QR-kode og en bokstav-kode. Åpne "MIT AI2 Companion App"
++ I ruten som dukker opp på skjermen så står det to ting; en QR-kode og en bokstav-kode. Åpne MIT AI2 Companion App
   på telefonen din. Der kan du velge om du vil scanne QR-koden eller skrive inn bokstav-koden manuelt. Begge deler fungerer
   helt fint, så du kan velge hva du ønsker å gjøre.
-  
+
 #### Nå kan du teste appen på telefonen din.
 
 ## Problemer {.tip}
@@ -124,7 +134,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 ## Steg 6.2: Teste appen på en emulator
 
-#### For å kunne teste appen din på en emulator mens du programmerer så trenger du en datamaskin med tilgang til Internett. Første steg er å installere "App Inventor Setup Software", hvor det finnes en guide for hvert av operativsystemene her:
+#### For å kunne teste appen din på en emulator mens du programmerer så trenger du en datamaskin med tilgang til Internett. Første steg er å installere *App Inventor Setup Software*, hvor det finnes en guide for hvert av operativsystemene her:
 
 ## Sjekkliste {.check}
 
@@ -138,18 +148,18 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 ## Sjekkliste {.check}
 
-+ Åpne "aiStarter", det er viktig at dette kjører i bakgrunnen. Dette vil skje automatisk på Mac ved installasjon, 
++ Åpne "aiStarter", det er viktig at dette kjører i bakgrunnen. Dette vil skje automatisk på Mac ved installasjon,
   og i noen tilfeller på Windows også. Dersom du har Linux må du skrive inn følgende i kommandolinjen.
 
     ```sh
     /usr/google/appinventor/commands-for-appinventor/aiStarter &  
     ```
-+ Når du er i MIT App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på "Connect". 
++ Når du er i MIT App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på "Connect".
   Trykk på "Connect", og velg "Emulator". Da vil du se at "aiStarter" begynner å arbeide. Dette kan ta en stund.
-  
+
 + Etterhvert vil emulatoren bli klar, ved å først vise en svart skjerm. Så vil en mobil-bakgrunn dukke opp, før du
-  til slutt får opp appen du har laget. 
-  
+  til slutt får opp appen du har laget.
+
 #### Nå kan du teste appen på emulatoren din.
 
 ## Problemer {.tip}
@@ -162,7 +172,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 ## Test prosjektet {.flag}
 
-+ Dersom du trykker på "Screen1" under "Components", da kan du skifte "BackgroundColor" under "Properties". 
++ Dersom du trykker på "Screen1" under "Components", da kan du skifte "BackgroundColor" under "Properties".
   Hva skjer med appen din på telefonen eller i emulatoren din da?
 
 + Hva skjer om du skifter "Title"?
@@ -177,7 +187,7 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
 
 + Trykk på "Blocks" i høyre hjørne. Da kommer du til programmeringsskjermen.
 
-+ Trykk på "Button1" under "Blocks" i menyen til venstre. Da kommer en ny meny opp. Velg øverste blokk som heter "when Button1.Click - do", 
++ Trykk på "Button1" under "Blocks" i menyen til venstre. Da kommer en ny meny opp. Velg øverste blokk som heter "when Button1.Click - do",
   og dra den over i "Viewer".
 
 + Trykk så på "TextToSpeech1" under "Blocks", og velg "call TextToSpeech1.Speak - message". Dra denne inn i blokken som allerede er der.
@@ -201,13 +211,13 @@ Da kan du teste appen på telefonen din som et fullverdig program istedetfor. De
   Da vil den bygge appen, også vise deg en QR-kode på skjermen som du kan scanne med telefonene din, for eksempel via "MIT AI2 Companion App".
   Legg merke til at denne QR-koden bare er gyldig i to timer.
 
-+ For å laste appen ned til datamaskinen din trykker du på "Build", også på "App (save .apk to my computer)". Da vil du laste ned appen, 
++ For å laste appen ned til datamaskinen din trykker du på "Build", også på "App (save .apk to my computer)". Da vil du laste ned appen,
   slik at du kan åpne den i en Android-emulator eller sende filen til noen andre.
 
 ## Problemer {.tip}
 
 [Dersom du ønsker en mer detaljert veiledning for å laste ned og dele appen din så kan du klikke her](http://appinventor.mit.edu/explore/ai2/share.html).
-  
+
 # Steg 9: Legge appen ut på Google Play {.activity}
 
 #### Det er også mulig å legge appen din ut på Google Play, slik at folk fra hele verden kan laste den ned. [Klikk her for å finne ut hvordan du kan gjøre det](http://appinventor.mit.edu/explore/ai2/google-play.html).
