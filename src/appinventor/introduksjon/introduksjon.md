@@ -79,7 +79,7 @@ I neste steg får du se hvordan appen ser ut, selv om den ikke er ferdig.
 # Steg 6: Teste appen mens du programmerer {.activity}
 Det kan være veldig nyttig å teste appen din mens du lager den for å sjekke at den fungerer. I App Inventor kan du teste appen din på to måter, ved å bruke en Android-telefon eller ved å bruke en Android-emulator på PC-en din. Begge metodene er beskrevet under.
 
-## Steg 6.1: Teste appen på en mobiltelefon
+## På en mobiltelefon
 Denne metoden lar deg teste appen på din egen Android-telefon.
 
 ## Sjekkliste {.check}
@@ -89,12 +89,8 @@ Denne metoden lar deg teste appen på din egen Android-telefon.
 + Åpne MIT AI2 Companion på telefonen din og scan QR-koden.
 + Nå kan du teste appen.
 
-## Problemer {.tip}
-Dersom du har problemer, så kan du sjekke ut [en mer detaljert veiledning på engelsk](http://appinventor.mit.edu/explore/ai2/setup-device-wifi.html).
-
-
-## Steg 6.2: Teste appen på en emulator
-For å teste appen din på en emulator trenger du en datamaskin med tilgang til internett. Første steg er å installere *App Inventor Setup Software*. Hvert operativsystem har sin egen guide for installasjonenen:
+## På en emulator
+For å teste appen din på en emulator trenger du en datamaskin. Første steg er å installere *App Inventor Setup Software*. Hvert operativsystem har sin egen guide for installasjonen:
 
 + [Windows](http://appinventor.mit.edu/explore/ai2/windows.html)
 + [Mac OS X](http://appinventor.mit.edu/explore/ai2/mac.html)
@@ -118,28 +114,19 @@ Når programmet er installert gjør du følgende:
 Nå kan du teste appen på emulatoren.
 
 ## Problemer {.tip}
-Dersom du har problemer, så kan du sjekke ut den [mer detaljerte veiledningen på engelsk](http://appinventor.mit.edu/explore/ai2/setup-emulator.html).
+Dersom du har problemer, så kan du sjekke ut den [en mer detaljert veiledning på engelsk](http://appinventor.mit.edu/explore/ai2/setup.html).
 
-
-## Merknad {.tip}
-Legg merke til at når du tester appen din live, så vil ikke alltid alt fungere optimalt. Eksempler på ting som ikke
-alltid fungerer som det skal er berøring, tid og lyd. Det første som kan være lurt å gjøre er å opprette en ny kobling
-mellom telefonen og MIT App Inventor. Dette kan du gjøre ved å trykke **Connect**, også **Reset Connection**,
-før du så oppretter koblingen på nytt slik som du pleier. Dersom du mener at du har programmert appen slik som den skal
-være, men at den fremdeles ikke fungerer som den skal, så kan det være lurt å bygge appen som en .apt-fil.
-Da kan du teste appen på telefonen din som et fullverdig program istedetfor. Dette er beskrevet lengre nede.
-
-# Steg 7: Fullføre test-appen {.activity}
-Nå ser du at du har en knapp på skjermen din som du kan trykke på. Det vil ikkje skje noe når du trykker på den, rett og slett fordi du ikke har skrevet noe kode for det enda. Det kommer du snart til, men aller først må du teste litt hva som skjer når du legger til ting samtidig som du er koblet til appen.
+## {.slaa-av-tip-sekjson}
+Nå ser du at du har en knapp på skjermen din som du kan trykke på. Det vil ikkje skje noe når du trykker på den, rett og slett fordi du ikke har skrevet noe kode for det enda. Det kommer du snart til, men aller først må du teste hva som skjer når du legger til ting samtidig som du er koblet til appen.
 
 ## Test prosjektet {.flag}
-+ Dersom du trykker på "Screen1" under "Components", da kan du skifte "BackgroundColor" under "Properties".
-  Hva skjer med appen din på telefonen eller i emulatoren din da?
-+ Hva skjer om du skifter "Title"?
-+ Hva skjer om du endrer på "AlignHorizontal"?
-+ Hva skjer om du endrer "AlignVertical"?
++ Endre egenskapen `BackgroundColor` til `Screen1` under **Components**.
++ Skjer det noe med appen på telefonen eller i emulatoren?
++ Prøv å endre `Title`, `AlignHorizontal` og `AlignVertical`. Hva skjer?
 
-Nå er du klar for å programmere komponentene i appen vår. Det kan du gjøre på følgende måte:
+
+# Steg 7: Fullføre test-appen {.activity}
+Nå er vi klar for å programmere komponentene som skal. Det kan du gjøre på følgende måte:
 
 ## Sjekkliste {.check}
 + Trykk på "Blocks" i høyre hjørne. Da kommer du til programmeringsskjermen.
