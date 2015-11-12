@@ -55,8 +55,8 @@ __Klikk på det grønne flagget.__
 # Steg 2: Datamaskinen er en kalkulator {.activity}
 
 Du har kanskje ikke tenkt på det, men datamaskinen er en veldig flink
-kalkulator. Det engelske ordet _computer_ betyr til og med egentlig
-_regnemaskin_. Vi skal nå se på hvordan vi kan få Scratch til å gange
+kalkulator. Det engelske ordet _computer_ betyr til og med
+_regnemaskin_. Vi skal nå se på hvordan vi får Scratch til å gange
 sammen tall.
 
 ## Sjekkliste {.check}
@@ -64,7 +64,7 @@ sammen tall.
 + For å få Scratch til å regne bruker vi
   `Operatorer`{.blockoperators}-klosser. Prøv for eksempel å dra
   gangeklossen - med `*`{.blockoperators}-tegnet - til skriptområdet
-  på høyre siden. Skriv inn to tall og klikk på klossen. Scratch
+  på høyresiden. Skriv inn to tall og klikk på klossen. Scratch
   regner da ut svaret på gangestykket.
 
     ![](gangeoperator.png)
@@ -86,10 +86,10 @@ sammen tall.
     sett [riktig svar v] til ((tall1) * (tall2))
     ```
 
-+ Prøv nå å klikk på dette skriptet for å teste det (siden det ikke
++ Prøv å klikke på skriptet for å teste det (siden det ikke
   starter med et grønt flagg kan vi ikke teste det på den vanlige
   måten). Om du ser på variablene på scenen skal de endre seg hver
-  gang du klikker på skriptet. Er `riktig svar`{.blockdata} riktig?
+  gang du klikker på skriptet. Er `riktig svar`{.blockdata} rett?
 
     ![](variabler.png)
 
@@ -110,10 +110,10 @@ La oss se om vi kan sette sammen disse tallene til et skikkelig spørsmål.
     sett sammen (sett sammen [] []) []
     ```
 
-    Dette gir oss plass til tre tall og ord. Her kan vi putte inn
+    Dette gir oss plass til tre tall eller ord. Her kan vi putte inn
     `tall1`{.blockdata}, teksten ` ganger ` og
-    `tall2`{.blockdata}. Pass på at det ser best ut om du har
-    mellomrom før og etter `ganger`. Om du klikker på den første `sett
+    `tall2`{.blockdata}. Pass på at du har
+    mellomrom før og etter `ganger`, det ser best ut da. Om du klikker på den første `sett
     sammen`{.blockoperators}-klossen vil du se hvordan den ferdige
     teksten blir.
 
@@ -129,7 +129,7 @@ La oss se om vi kan sette sammen disse tallene til et skikkelig spørsmål.
     sett [spørsmål v] til (sett sammen (sett sammen (tall1) [ ganger ]) (tall2))
     ```
 
-+ Nå skal vi få `Læremester` til å stille oss dette spørsmålet vi har
++ Nå skal vi få `Læremester` til å stille oss spørsmålet vi har
   satt sammen. **Bytt ut** det første skriptet (med det grønne
   flagget) du skrev med dette:
 
