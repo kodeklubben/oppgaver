@@ -431,23 +431,38 @@ måleenhet. Du kan konvertere grader til radianer med `radians`. Så
   like lange, og alle hjørnene har samme vinkel? Hjørnene i en regulær
   mangekant ligger på omrisset av en sirkel.
 
+![](Femkant.png "Vinkelen mellom to nabohjørner og sentrum i en femkant er 360° / 5 = 72°.")
+
 + Hva med en regulær hexagon, sekskant? Eller heptagon, syvkant?
   Klarer du å gjøre det slik at du bruker variabelen `KANTER` til å
   styre hvor mange kanter den skal ha?
 
 + Stjerner med et oddetall antall spisser, kan tegnes som en regulær
-  mangekant der man hopper over en spisse hver gang. Kan du finne
-  hjørnene og tegne en 5-kantet stjerne?
+  mangekant der man hopper over en spiss hver gang. Kan du finne
+  spissene og tegne en 5-kantet stjerne?
 
-    Hjørnene fordeler seg med like stor avstand fra hverandre
+    Spissene fordeler seg med like stor avstand fra hverandre
     (vinkelen mellom et hjørne, sentrum og det neste hjørnet er lik
     for hver spiss). Når man tegner en femkantet stjerne, tegner man
     en strek fra en spiss til den etter den neste.
 
+![](Pentagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en femkantet stjerne er 2 · 360° / 5 = 144°.")
+
 + Kan du tegne en syvkantet stjerne? Eller en nikantet stjerne?
 
 + Stjerner med et partall antall spisser, kan tegnes som to regulære
-  mangekanter. Disses hjørner vil da være de samme som i mangekanten
-  med partall antall kanter. Dette er lettest å løse ved å kopiere
-  løkken, og endre `int i = 0` og `i++`.
+  mangekanter. Spissene vil da være de samme som hjørnene i
+  mangekanten med det antallet kanter. Dette er lettest å løse ved å
+  kopiere opptegningen av formene (fra og med `beginShape()` til og
+  med `endShape(CLOSE)`), og endre `int i = 0` og `i++` til noe
+  passende i løkken.
+
+![](Oktagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en åttekantet stjerne er 2 · 360° / 8 = 90°.")
+
+Hvis du vil ha med alle strekene som vist i bildet ovenfor, må du ty
+til tre løkker der den siste kun tegner omrisset av den første formen
+(se dokumentasjonen til `noFill()`, `noStroke()` og `stroke()` ved å
+velge **Help → Reference** og bruke søkefunksjonaliteten i
+nettleseren).
   
+
