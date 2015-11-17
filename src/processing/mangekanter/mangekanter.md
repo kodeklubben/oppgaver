@@ -64,8 +64,8 @@ på datamaskinen.
     om den sprettende ballen, men det er noen små forskjeller:
 
     + Vi har endret tallene brukt i `if`-setningene. Hvorfor tror du
-      dette er gjort? Hva skjer om du også tegner opp en sirkel rett
-      etter at du har tegnet opp firkanten?
+      dette er gjort? Hva skjer om du også tegner opp en sirkel med
+      samme posisjon og størrelse som firkanten?
 
     + Vi har også tatt i bruk `+=`. `x += 1;` gjør det samme som `x =
     x + 1;` Dette er bare en forkortelse for det siste. Altså øk `x`
@@ -73,6 +73,9 @@ på datamaskinen.
 
 + Kjør programmet ved å trykke på **Ctrl + R** eller knappen
   ![](../play.png "Play - En knapp i verktøylinjen merket med pil")
+
+![](SprettendeFirkant.gif "En hvit firkant spretter rundt på en svart bakgrunn.")
+
 + Lagre programmet som Firkant ved å trykke på **Ctrl+S** eller
   velg **File --> Save** i menyen.
 
@@ -132,6 +135,8 @@ hjørne befinner seg.
 
 + Kjør programmet.
 
+![](SprettendeTrekant1.gif "En hvit trekant som peker nedover, spretter rundt på en svart bakgrunn.")
+
 ## Forbedre leseligheten {.protip}
 
 Noen ganger kan det være vanskelig å lese kall på funksjoner som tar
@@ -156,14 +161,21 @@ mellomrom den mener er overflødig.
 
 + Kan du tegne trekanten motsatt vei, sånn at den ser ut som en
   pil som peker oppover istedenfor nedover?
+
+![](SprettendeTrekant2.gif "En hvit trekant som peker oppover, spretter rundt på en svart bakgrunn.")
+
 + Kan du tegne to trekanter istedenfor en og lage en sekskantet
   stjerne?
+
+![](SprettendeSekskantetStjerne.gif "En hvit sekskantet stjerne spretter rundt på en svart bakgrunn.")
+
 + **Vanskelig**: Trekanten i programmet er nesten likesidet, men den
-  er litt for høy, så to av sidene er rundt 12 piksler for lange. I
-  Processing finnes det mange trigonometriske funksjoner: `sin`,
-  `cos`, `tan`, m.fl. Kan du endre regnestykket `y + 100` sånn at
-  trekanten blir likesidet (funksjonen `radians` kan være til hjelp
-  for å gjøre om grader til radianer)?
+  er litt for høy, så to av sidene er rundt 12 piksler for lange. Kan
+  du endre regnestykket `y + 100` sånn at trekanten blir likesidet? Du
+  kan bruke Pytagoras' læresetning, eller sinus-funksjonen, `sin` i
+  Processing, for å finne den riktige høyden. Funksjonen `radians` kan
+  være til hjelp for å gjøre om grader til radianer hvis du vil bruke
+  sinus-funksjonen.
 
 # Trekanter {.activity}
 
@@ -258,6 +270,8 @@ det oversettes noen ganger til vektor, rekke, tabell eller matrise.
     
     Her ser du en helt ny konstruksjon som vi skal se nærmere på i
     forklaringen nedenfor, men først kan du lagre og kjøre programmet.
+
+![](SprettendeTrekantHjorner.gif "En hvit trekant dannes av hjørner som spretter rundt på en svart bakgrunn.")
 
 ## Forklaring {.protip}
 
@@ -391,6 +405,8 @@ oppgave:
     verdier for posisjonen til hjørnet. `endShape` sier at formen er
     ferdig og klar til å tegnes på skjermen. Hvis vi kaller `endShape`
     uten `CLOSE`, blir ikke formen lukket og fylt.
+
+![](SprettendePolygon.gif "En hvit mangekant spretter rundt på en svart bakgrunn.")
 
 ## Utfordringer {.try}
 
