@@ -44,7 +44,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   Profile`. Klikk `Play` slik at denne versjonen blir lastet ned og
   startet opp. Avslutt spillet.
 
-    [![](minecraft_versjon.png)]()
+    ![](minecraft_versjon.png) <!-- Venstrejuster bildet -->
 
 + Før vi kan legge inn ComputerCraft må vi installere **Minecraft
   Forge**, som gir oss tilgang til å legge inn Mods. Gå til
@@ -64,7 +64,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   spurt hvordan den skal kjøres kan du velge Java eller JDK). Velg
   `Install client` og klikk `OK`.
 
-    [![](installer_forge.png)]()
+    ![](installer_forge.png) <!-- Venstrejuster bildet -->
 
 + Start **Minecraft Launcher**. Det har nå dukket opp en ny profil som
   heter `Forge`. Velg denne og start spillet. Dette vil lage en
@@ -72,7 +72,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   har dukket opp et nytt valg i hovedmenyen: `Mods`. Avslutt spillet
   igjen.
 
-    [![](start_forge.png)]()
+    ![](start_forge.png) <!-- Venstrejuster bildet -->
 
 + Finn `Minecraft`-katalogen din ved å starte **Minecraft
   Launcher**. Velg deretter `Edit Profile` og klikk knappen `Open Game
@@ -80,7 +80,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   **ComputerCraft**-filen vi lastet ned helt først inn i
   `mods`-katalogen. Klikk `Cancel` i `Edit Profile`-vinduet.
 
-    [![](minecraft_katalog.png)]()
+    ![](minecraft_katalog.png) <!-- Venstrejuster bildet -->
 
 + Nå er vi ferdige. I **Minecraft Launcher** kan du nå velge
   profilen `Forge` og klikke `Play`. Når du klikker `Mods` fra
