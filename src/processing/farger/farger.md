@@ -66,6 +66,36 @@ programmet med **Ctrl + R**, og hvis du vil, kan du lagre det med
     }
     ```
 
-  Hvis du kjører programmet, får du nå en blå bakgrunn istedenfor en
-  grønn.
+  Og nå får du en blå bakgrunn istedenfor en grønn.
 
+## Forklaring av additive farger {.protip}
+
+Som nevnt har du sikkert lært om farger i skolen og blandet farger med
+maling, fargeblyanter eller -stifter. Da lærte du nok om primærfargene
+rødt, gult og blått, og at du kunne lage omtrent alle slags farger ved
+å blande disse sammen. Jo flere farger du blandet, desto mørkere ble
+den ferdige fargen. Dette er fordi du tegnet med fargede pigmenter som
+absorberer lys. Jo flere farger i lyset som absorberes, desto færre
+farger og mindre lys reflekteres og treffer øyet ditt.
+
+I en datamaskin er det annerledes. Du har nok lagt merke til at
+skjermen lyser. Derfor angir vi fargen som hvor mye lys vi skal lage
+av hver farge. Siden øyet reagerer på rødt, grønt og blått lys, er
+disse valgt som primærfargene i skjermer. Det er derfor de tre
+verdiene i kallet på `background` ga oss henholdsvis rødt, grønt og
+blått. Fordi primærfargene er rød, grønn og blå kalles dette systemet
+som regel RGB. Det er også kjent som et *additivt* system, fordi man
+legger sammen fargene, mens i tegning på papir jobber man med et
+*subtraktivt* system der farger trekkes fra.
+
+Vi kan også blande farger her, men det oppfører seg litt annerledes
+fra du kanskje er vant til fra maling. Hvis vi blander rødt og grønt,
+får vi gult. Hvis vi blander grønt og blått, får vi en slags turkis,
+kalt cyan. Hvis vi blander rødt og blått, får vi en slags rosa, kalt
+magenta. Når alle tre fargene er like sterke, får vi en gråtone. Med
+alle tre på fullt, `255`, får vi hvitt.
+
+![](RGB.png "Tre overlappende sirkler i rødt, grønt og blått. Der de
+ overlapper blandes fargene til gul, cyan, magenta og hvitt.")
+
+![](FargehjulRGB.png "RGB-fargehjulet med primær- og sekundærfarger.")
