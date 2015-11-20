@@ -98,4 +98,40 @@ alle tre på fullt, `255`, får vi hvitt.
 ![](RGB.png "Tre overlappende sirkler i rødt, grønt og blått. Der de
  overlapper blandes fargene til gul, cyan, magenta og hvitt.")
 
+Du har sikkert også sett et fargehjul før, der primærfargne plasseres
+rundt hjulet. Sekundærfargene, fargene man får når man blander to
+primærfarger plasseres da mellom disse. Vi kan også lage et slikt for
+RGB.
+
 ![](FargehjulRGB.png "RGB-fargehjulet med primær- og sekundærfarger.")
+
+# Web-farger - fargekoder i heksadesimaler {.check}
+
+Mange som har jobbet med nettsider, er vant til å angi farger på en
+litt annen måte. De bruker ofte en sekssifret kode med en firkant
+foran: `#00ff00`. Siffer? Kan **f** være et siffer? Ja, i
+heksadesimaler, eller sekstentallssystemet, utvides sifrene med
+bokstavene A-F. Da får vi sifre fra 0-F, som er fra null til
+femten.
+
+Siden vi skal angi tre farger, består koden egentlig bare av tre
+tosifrede tall fra 00 til FF (255). De første to angir rødt, de neste
+to grønt og de to siste blått. I programmet under er bakgrunnen lilla,
+med rødt satt til `8 · 16 = 128`, grønt til `2 · 16 = 32` og blått til
+`15 · 16 + 15 = 255`.
+
+    ```processing
+    void setup() {
+      size(800, 600);
+    }
+    
+    void draw() {
+      background(#8020FF);
+    }
+    ```
+
+Disse kodene kan være nyttige å bruke hvis man er kjent med det fra
+før. De kan bare brukes direkte, og fungerer ikke så bra om man vil at
+fargen skal variere. For eksempel om bakgrunnsfargen ikke endrer seg i
+løpet av programmets kjøring, kan de brukes med `background`. Man kan
+gi variabler av typen `color` verdier med disse kodene.
