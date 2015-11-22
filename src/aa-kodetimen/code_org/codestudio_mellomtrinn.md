@@ -22,5 +22,7 @@ oppgavesidene.
 
 ## Oppgaver {.check}
 
-+ Angry Birds, Plants vs Zombies, Istid: [studio.code.org/hoc/1](https://studio.code.org/hoc/1)
-+ Frost - kode med Anna og Elsa: [studio.code.org/s/frozen](https://studio.code.org/s/frozen)
++ Angry Birds, Plants vs Zombies, og Istid: [studio.code.org/hoc/1](https://studio.code.org/hoc/1)
++ Frost - geometriske figurer med Anna og Elsa: [studio.code.org/s/frozen](https://studio.code.org/s/frozen)
++ Star Wars - lag ditt eget spill: [code.org/starwars](https://code.org/starwars)
++ Minecraft - bygg din egen verden: [code.org/mc](https://code.org/mc)
