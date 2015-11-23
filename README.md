@@ -46,6 +46,14 @@ For å installere node trenger man både *nodejs-legacy* og *npm*:
 sudo apt-get install nodejs-legacy npm git
 ```
 
+#### Mac-brukere merk dette! 
+For å kjøre gulp trenger du *pandoc*. Den enkleste måten å installere pandoc er
+først å installere [brew](//http://brew.sh) og så installere pandoc: 
+
+```
+brew install pandoc
+```
+
 #### Laste ned oppgavene
 ```
 git clone --recursive https://github.com/kodeklubben/oppgaver
