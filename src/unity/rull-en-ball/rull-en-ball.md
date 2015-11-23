@@ -3,6 +3,7 @@ title: Rull-en-ball
 level: 1
 author: Transkribert og oversatt fra [Unity3D](//unity3d.com)
 translator: Bjørn Fjukstad
+license: Oversatt fra [unity3d.com](https://unity3d.com/learn/tutorials/projects/roll-ball-tutorial)
 ---
 
 # Rull-en-ball {.intro}
