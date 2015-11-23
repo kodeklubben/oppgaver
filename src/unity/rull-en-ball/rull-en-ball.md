@@ -22,8 +22,8 @@ nedenfor.
 Se et bilde nedenfor for å se hvordan det ser ut når man er ferdig! I
 denne oppgaven lærer vi litt enkel fysikk, hvordan vi kan flytter spillobjekter
 med tastaturet, og kollisjon mellom objekter. 
-b
-![Skjermbilde](rull-en-ball.png)
+
+![](rull-en-ball.png)
 
 ## [Oppsett av spillet](http://unity3d.com/learn/tutorials/projects/roll-a-ball/set-up?playlist=17141) {.check} 
 - Start med å lage et nytt 3D prosjekt.
@@ -93,8 +93,7 @@ public class PlayerController : MonoBehaviour {
 - Siden vi vil at scriptet må vi dra det inn på Player-objektet. 
 
 ## Test spillet {.flag} 
-
-__ Klikk på Play-knappen øverst i Unity-editoren.__
+__Klikk på Play-knappen øverst i Unity-editoren.__
 
 - Trykk på piltastene, flytter ballen seg? 
 - Hva skjer hvis du prover å styre med tastene WASD? 
@@ -144,7 +143,7 @@ public class CameraController : MonoBehaviour {
 
 ## Test spillet {.flag} 
 
-__ Klikk på Play-knappen øverst i Unity-editoren.__
+__Klikk på Play-knappen øverst i Unity-editoren.__
 
 - Flytt ballen og se at kameraet følger etter den. 
 
@@ -169,7 +168,7 @@ __ Klikk på Play-knappen øverst i Unity-editoren.__
 
 ## Test spillet {.flag} 
 
-__ Klikk på Play-knappen øverst i Unity-editoren.__
+__Klikk på Play-knappen øverst i Unity-editoren.__
 
 - Prøv spillet og se at veggene er på plass. 
 
@@ -216,7 +215,7 @@ public class Rotator : MonoBehaviour {
 
 ## Test spillet {.flag} 
 
-__ Klikk på Play-knappen øverst i Unity-editoren.__
+__Klikk på Play-knappen øverst i Unity-editoren.__
 
 - Start spillet og se at alle er gule og snurrer rundt! 
 
@@ -422,7 +421,7 @@ public class PlayerController : MonoBehaviour {
 
 ## Test spillet {.flag} 
 
-__ Klikk på Play-knappen øverst i Unity-editoren.__
+__Klikk på Play-knappen øverst i Unity-editoren.__
 
 - Prov spillet og se hvor fort du klarer å samle inn alle kubene! 
 
