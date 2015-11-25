@@ -105,6 +105,77 @@ RGB.
 
 ![](FargehjulRGB.png "RGB-fargehjulet med primær- og sekundærfarger.")
 
+# Steg 2: Fyllfarger og omriss {.check}
+
+Når vi tegner former, er det en stor sjanse for at vi vil bruke andre
+farger enn svart og hvit. Foreløpig har vi bare sett at vi kan styre
+fargen på bakgrunnen, så la oss se hva vi kan gjøre med fargene til
+formene vi tegner opp.
+
++ Legg til en sirkel i `draw`:
+
+    ```processing
+    void draw() {
+      background(0, 0, 255);
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+    ```
+
+    Hvis du kjører programmet, ser du kanskje noe du ikke har lagt
+    merke til før: rundt sirkelen er det en tynn sort strek.
+
++ Endre fargen som sirkelen fargelegges med, med funksjonen `fill`:
+
+    ```processing
+    void draw() {
+      background(0, 0, 255);
+      fill(255, 192, 64);
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+    ```
+
+    Nå får du en mørkegul sirkel midt i vinduet på en blå bakgrunn.
+
++ Endre fargen på omrisset med funksjonen `stroke`:
+
+    ```processing
+    void draw() {
+      background(0, 0, 255);
+      fill(255, 192, 64);
+      stroke(192, 96, 64);
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+    ```
+
+    Nå er streken rundt sirkelen en rødlig brun. Det er kanskje ikke
+    så lett å se fargen på streken siden den er så tynn.
+
++ Gjør omrisset fetere med funksjonen `strokeWeight`:
+
+    ```processing
+    void draw() {
+      background(0, 0, 255);
+      fill(255, 192, 64);
+      stroke(192, 96, 64);
+      strokeWeight(3);
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+    ```
+
+    Nå er omrisset tre piksler bredt.
+
+## Eksperimenter {.try}
+
++ Prøv forskjellige bakgrunnsfarger. Hvordan synes du forskjellige
+  bakgrunnsfarger passer sammen med fargene på sirkelen?
++ Prøv forskjellige fyllfarger. Hvordan passer disse med fargen på
+  omrisset?
++ Prøv forskjellige farger på omrisset. Hvordan passer det med
+  bakgrunnen og fyllfargen?
++ Prøv andre tykkelser på omrisset. Hvor synes du at det er passe
+  tykt?
++ Kan du tegne to sirkler på skjermen i forskjellige farger?
+
 # Web-farger - fargekoder i heksadesimaler {.check}
 
 Mange som har jobbet med nettsider, er vant til å angi farger på en
