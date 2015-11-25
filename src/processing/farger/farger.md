@@ -13,13 +13,15 @@ får. Det er en liten forskjell mellom fargene vi har lært om når vi
 tegner og maler og fargene som vises på skjermen. Det skal vi lære om
 i denne leksjonen hvor vi skal se nærmere på farger i Processing.
 
-# Steg 1: Mer enn grått {.check}
+# Steg 1: Mer enn grått {.activity}
 
 Her skal vi raskt se litt på farger. I det første punktet viser vi
 hele programmet, og i resten av punktene ser vi kun på `draw` som er
 den delen av koden som skal endres. For hvert steg kan du kjøre
 programmet med **Ctrl + R**, og hvis du vil, kan du lagre det med
 **Ctrl + S**.
+
+## Sjekkliste {.check}
 
 + Vi begynner med å fylle bakgrunnen med sort:
 
@@ -105,12 +107,14 @@ RGB.
 
 ![](FargehjulRGB.png "RGB-fargehjulet med primær- og sekundærfarger.")
 
-# Steg 2: Fyllfarger og omriss {.check}
+# Steg 2: Fyllfarger og omriss {.activity}
 
 Når vi tegner former, er det en stor sjanse for at vi vil bruke andre
 farger enn svart og hvit. Foreløpig har vi bare sett at vi kan styre
 fargen på bakgrunnen, så la oss se hva vi kan gjøre med fargene til
 formene vi tegner opp.
+
+## Sjekkliste {.check}
 
 + Legg til en sirkel i `draw`:
 
@@ -176,14 +180,64 @@ formene vi tegner opp.
   tykt?
 + Kan du tegne to sirkler på skjermen i forskjellige farger?
 
-# Web-farger - fargekoder i heksadesimaler {.check}
+# Steg 3: Fargevelgeren {.activity}
+
+Noen ganger kan det være tungvint å skulle lage fargene man har lyst
+på ved å bare tenke ut tallene. Man blir riktignok flinkere på dette
+etter hvert som man har gjort det en del ganger. Inntil man har blitt
+komfortabel med dette, kan det være lurt å bruke fargevelgeren som
+finnes i Processing.
+
+## Sjekkliste {.check}
+
++ Åpne fargevelgeren ved å velge **Tools → Color Selector**
+
+    ![](Fargevelger.png "Fargevelgeren slik den er når den først åpnes.")
+
+    Du får da opp et vindu som lar deg velge farger. Her kan du fylle
+    inn tallverdiene som vi har sett tidligere, R, G og B. Det er også
+    noen andre felter hvor du kan fylle inn verdier. Det ene er for et
+    annet fargesystem enn RGB. Det er også noen områder som har farge.
+
++ Prøv å trykke i fargefeltet til venstre. Her kan du velge hvor sterk
+  og hvor lys fargen skal være.
+
+    Hva skjer med verdiene i de forskjellige tekstfeltene? Kan du se
+    hvordan de to tekstfeltene S og B henger sammen hvilken farge du
+    velger i dette fargefeltet?
+
++ Prøv å trykke i fargefeltet rett ved siden av. Her kan du velge
+  hvilken farge du vil ha.
+
+    ![](Fargevelger.gif "En animasjon som viser at fargen endres i
+     fargevelgeren.")
+
+    Du ser kanskje at øverst til høyre er det et fargefelt til. Her
+    vises den fargen du har valgt.
+
+    Hva skjer med verdiene i de forskjellige tekstfeltene nå? Hvordan
+    oppfører H, S og B seg sammenliknet med forrige gang?
+
++ Finn en farge du liker til bakgrunnsfarge. Skriv inn verdiene for R,
+  G og B inn i kallet på `background` i `draw`.
+
++ Finn en farge du liker til sirkelen. Trykk på knappen **Copy**. Visk
+  ut alle verdiene gitt i kallet på `fill` og lim inn den kopierte
+  fargekoden: enten med **Edit → Paste** eller trykk på **Ctrl + V**
+  eller **Cmd + V** hvis du bruker Mac.
+
+    Nå ser du kanskje at verdien som ble kopiert, er den koden som sto
+    i det siste tekstfeltet. Disse verdiene er forklart i boksen
+    under.
+
+## Web-farger - fargekoder i heksadesimaler {.protip}
 
 Mange som har jobbet med nettsider, er vant til å angi farger på en
 litt annen måte. De bruker ofte en sekssifret kode med en firkant
-foran: `#00ff00`. Siffer? Kan **f** være et siffer? Ja, i
+foran: `#00ff00`. Du tenker kanskje: «Kan **f** være et siffer?» Ja, i
 heksadesimaler, eller sekstentallssystemet, utvides sifrene med
-bokstavene A-F. Da får vi sifre fra 0-F, som er fra null til
-femten.
+bokstavene A-F. Da får vi sifre fra 0-F, som er tallene fra null til
+femten. Det er ingen forskjell på små og store bokstaver her.
 
 Siden vi skal angi tre farger, består koden egentlig bare av tre
 tosifrede tall fra 00 til FF (255). De første to angir rødt, de neste
@@ -191,15 +245,15 @@ to grønt og de to siste blått. I programmet under er bakgrunnen lilla,
 med rødt satt til `8 · 16 = 128`, grønt til `2 · 16 = 32` og blått til
 `15 · 16 + 15 = 255`.
 
-    ```processing
-    void setup() {
-      size(800, 600);
-    }
+```processing
+void setup() {
+  size(800, 600);
+}
     
-    void draw() {
-      background(#8020FF);
-    }
-    ```
+void draw() {
+  background(#8020FF);
+}
+```
 
 Disse kodene kan være nyttige å bruke hvis man er kjent med det fra
 før. De kan bare brukes direkte, og fungerer ikke så bra om man vil at
