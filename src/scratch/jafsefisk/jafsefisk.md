@@ -65,7 +65,7 @@ __Klikk på det grønne flagget.__
 
 + Du kan stoppe JafseFisks maniske flipping hvis du sørger for at den
   bare flytter seg når den ikke er for nær musepekeren (`avstand
-  til`{.blocksensing}-klossen ligger i
+  til [musepeker v]`{.b} ligger i
   `Sansning`{.blocksensing}-kategorien).
 
     ```blocks
@@ -128,11 +128,11 @@ __Klikk på det grønne flagget.__
 
 ## Ting å prøve {.try}
 
-+ Prøv å forandre tallene for `steg`{.blockmotion} og `tilfeldig
-  tall`{.blockoperators}. Hvordan forandrer det byttedyrets
++ Prøv å forandre tallene for `gå (2) steg`{.b} og `tilfeldig
+  tall fra (-20) til (20)`{.b}. Hvordan forandrer det byttedyrets
   bevegelser?
 
-+ Hva gjør `sprett tilbake ved kanten`{.blockmotion}-klossen? Fjern
++ Hva gjør `sprett tilbake ved kanten`{.b}? Fjern
   klossen og se hva som skjer.
 
 # Steg 3: JafseFisk spiser byttet {.activity}
@@ -147,7 +147,7 @@ så å dukke opp igjen en liten stund senere.
 
 + Vi starter med å la byttet forsvinne hvis det berører JafseFisk, og
   så komme tilbake etter 3 sekunder. Bruk
-  `berører`{.blocksensing}-klossen for å sjekke om byttet kommer borti
+  `berører [JafseFisk v]?`{.b} for å sjekke om byttet kommer borti
   JafseFisk. Utvid skriptet på byttedyret slik som dette:
 
     ```blocks
@@ -178,16 +178,15 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 *Hvordan kan vi sikre at byttet bare forsvinner hvis det berører
- JafseFisks munn? Tja, vi kan bruke `berører
- farge`{.blocksensing}-klossen og se om den berører det hvite på
- fiskens tenner.*
+ JafseFisks munn? Tja, vi kan bruke `(berører fargen [#FFFFFF]?)`{.b}
+ og se om den berører det hvite på fiskens tenner.*
 
-+ Legg til en `berører farge`{.blocksensing}-kloss i tillegg til
-  `berører`{.blocksensing}-klossen i skriptet ditt. For å velge hvit
++ Legg til `(berører fargen [#FFFFFF]?)`{.b} i tillegg til
+  `(berører [JafseFisk v]?)`{.b} i skriptet ditt. For å velge hvit
   klikker du på fargen i klossen og deretter på fiskens tenner.
 
 + Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen
-  før det dukker opp igjen ved å bruke en `gå til`{.blockmotion}-kloss
+  før det dukker opp igjen ved å bruke `gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))`{.b}
   som vi gir tilfeldige verdier for `x` og `y`.
 
     ```blocks
@@ -221,8 +220,9 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ For at JafseFisk skal vite hva som skjer kan vi la byttet `sende
-  melding`{.blockevents} om at det er spist, før det forsvinner.
++ For at JafseFisk skal vite hva som skjer kan vi la byttet
+  `send melding [Du tok meg! v]`{.b} om at det er spist, før det
+  forsvinner.
 
     ```blocks
         når grønt flagg klikkes
@@ -248,8 +248,8 @@ gomlelyd og klikke med kjevene.
 
 + Legg så til et nytt skript til JafseFisk slik at han kan svare på
   meldingen `Du tok meg!` fra byttedyret. Dette skriptet gjør at
-  fisken spiller av boblelyden og `bytter drakt til`{.blocklooks}
-  lukket-munn drakten, venter litt og så bytter tilbake.
+  fisken spiller av boblelyden og `bytt drakt til [Åpen munn v]`{.b}
+  drakten, venter litt og så bytter tilbake.
 
     ```blocks
         når jeg mottar [Du tok meg! v]
@@ -277,7 +277,7 @@ __Klikk på det grønne flagget.__
 
 ## Noe å tenke på {.protip}
 
-Hvorfor bør vi legge til en `vis`{.blocklooks}-kloss i starten av
+Hvorfor bør vi legge til `vis`{.b} i starten av
 byttedyrets skript? Tenk på hva som vil skje om byttet blir spist og
 spillet stoppes før det dukker opp igjen. Og hva vil skje om spillet
 deretter blir startet igjen?
@@ -296,11 +296,11 @@ __Hint:__ Ikke bruke for lang tid på denne oppgaven uten å se på de
 andre utfordringene i dette prosjektet.
 
 __Velg deg ut et byttedyr å eksperimentere med.__ Hvis de har samme
-drakt, bytt farge med `sett fargeeffekt`{.blocklooks}-klossen. Slik
+drakt, bytt farge med `sett [farge v] effekt til (0)`{.b}. Slik
 kan du se forskjell fra resten av byttedyrene. Prøv nå å få dette
 byttedyret til å bevege seg saktere enn de andre.
 
-__Hint:__ Se på klossen `gå 2 steg`{.blockmotion}.
+__Hint:__ Se på klossen `gå (2) steg`{.b}.
 
 ## Test prosjektet {.flag}
 
@@ -315,8 +315,7 @@ __Klikk på det grønne flagget.__
   forandringene spillet bedre?
 
     __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene
-    i `tilfeldig tall`{.blockoperators}-klossen inne i
-    `vend`{.blockmotion}-klossen.
+    i `vend @ (tilfeldig tall fra (-20) til (20)) grader`{.b}.
 
 + Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
   forskjellige kombinasjoner av disse bevegelsene?
@@ -341,8 +340,7 @@ Prøv nå å hjelpe et av byttedyrene med å __snu seg vekk fra
 JafseFisk__. La den også virre litt mens den svømmer bort!  Du vil
 kanskje oppdage at byttet setter seg fast i et hjørne? Du vil kanskje
 at byttet bare ønsker å flykte dersom JafseFisk kommer for nære?
-__Hint:__ Se tilbake på hvordan vi brukte `avstand
-til`{.blocksensing}-klossen tidligere i spillet.
+__Hint:__ Se tilbake på hvordan vi brukte `(avstand til [musepeker v])`{.b} tidligere i spillet.
 
 ## Test prosjektet {.flag}
 
@@ -354,7 +352,7 @@ __Klikke på det grønne flagget.__
 
 Det er ikke nok bare å spise fisk. Hvordan vet du at du er en bedre
 spiller enn vennene dine? Du må kunne __samle poeng__, så la oss legge
-til __en poengtavle.__ Lag en variabel som heter `poeng`{.blockdata},
+til __en poengtavle.__ Lag en variabel som heter `(poeng)`{.b},
 og endre denne når JafseFisk spiser.  Pass på at poengene går tilbake
 til null ved begynnelsen av spillet. Hvor skal du legge inn disse
 endringene?
@@ -372,10 +370,10 @@ __Klikk på det grønne flagget.__
 Gi deg selv __en tidsfrist__. Hvor mange fisk kan du spise på 30
 sekunder?
 
-Legg til en ny variabel, `tid`{.blockdata}. Lag et nytt skript som
+Legg til en ny variabel, `(tid)`{.b}. Lag et nytt skript som
 setter variabelen til for eksempel `30`, for deretter å endre denne
 med `-1`, vente 1 sekund, og endre igjen, helt til den når null. Til
-slutt kan du bruke en `stopp`{.blockcontrol}-kloss for å slutte
+slutt kan du bruke en `stop [alle v]`{.b}-kloss for å slutte
 spillet.
 
 ## Test prosjektet {.flag}
