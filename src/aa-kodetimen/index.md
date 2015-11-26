@@ -14,9 +14,9 @@ Nedenfor finner du ferdige opplegg for å holde en skoletime med
 programmering. Oppleggene er sortert på årstrinn, og fargekodet etter
 hvor utfordrende de er:
 
-<li class="level-1"> **Introduksjon** Disse oppgavene kan gjennomføres uten noen tidligere erfaring</li>
-<li class="level-2"> **Nybegynner** Dette er oppgaver som passer fint for elever som har vært borti koding tidligere.</li>
-<li class="level-3"> **Erfaren** Disse oppgavene vil kunne gi utfordringer til elevene som allerede har en del erfaring med koding.</li>
+- **Introduksjon** Disse oppgavene kan gjennomføres uten noen tidligere erfaring. {.level-1}
+- **Nybegynner**  Dette er oppgaver som passer fint for elever som har vært borti koding tidligere. {.level-2}
+- **Erfaren**  Disse oppgavene vil kunne gi utfordringer til elevene som allerede har en del erfaring med koding. {.level-3}
 
 ## Si ifra!
 
