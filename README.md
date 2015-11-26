@@ -18,13 +18,13 @@ Per nå finnes følgende kurs:
 ## Fiks og rapporter enkle feil
 [![](http://img.youtube.com/vi/v9CS62-MED4/0.jpg)](http://youtu.be/v9CS62-MED4)
 
-For småfeil og ideer kan du bruke webgrensesnittet til github. Da slipper du 
+For småfeil og ideer kan du bruke webgrensesnittet til github. Da slipper du
 installasjon av programvare på din egen maskin. [Videoen over](http://youtu.be/v9CS62-MED4)
 demonstrerer hvordan dette gjøres.
 
 Dersom du ønsker å oversette eller lage nye oppgaver anbefaler vi at leser videre
 for et oppsett som laster ned oppgavene til din egen maskin slik at du kan jobbe
-lokalt. (Det er ikke noe galt i å kun bruke githubs websider, men det er litt 
+lokalt. (Det er ikke noe galt i å kun bruke githubs websider, men det er litt
 vanskeligere å få alt riktig når man selv ikke ser resultatet.)
 
 ## Komme i gang
@@ -32,7 +32,7 @@ vanskeligere å få alt riktig når man selv ikke ser resultatet.)
 
 Enkleste vei for å komme i gang er å [se videoen](http://youtu.be/GtXxBGsAXOs)
 som forklarer hvordan man setter opp og arbeider med oppgavene. Videoen er laget
-for windows-brukere, men det vil være tilsvarende for Linux og Mac-brukere. 
+for windows-brukere, men det vil være tilsvarende for Linux og Mac-brukere.
 Dersom du er en *tekst-type* og foretrekker terminalen, les videre.
 
 For å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up-git/)
@@ -59,6 +59,12 @@ eller [github for mac](//mac.github.com).*
 ./setup
 ```
 
+#### Mac-brukere merk dette! 
+Noen ganger feiler installasjonen av pandoc. For å fikse dette, sett `+x`
+(executable) på pandoc:
+```
+chmod +x codeclub_lesson_builder/node_modules/metalsmith-pandoc/node_modules/pandoc-bin/vendor/pandoc
+```
 
 #### Start
 ```
