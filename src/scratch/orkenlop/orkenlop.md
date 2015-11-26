@@ -220,7 +220,6 @@ __Klikk på det grønne flagget.__
 + Klikk på papegøyefiguren og legg til en kloss som sender melding
   `Avslutt` etter at figuren sier den har vunnet.
 
-
     ```blocks
         når [a v] trykkes
         hvis <(kappløp) = [1]>
