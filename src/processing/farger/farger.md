@@ -260,3 +260,77 @@ før. De kan bare brukes direkte, og fungerer ikke så bra om man vil at
 fargen skal variere. For eksempel om bakgrunnsfargen ikke endrer seg i
 løpet av programmets kjøring, kan de brukes med `background`. Man kan
 gi variabler av typen `color` verdier med disse kodene.
+
+# Steg 4: HSB {.activity}
+
+Da vi så på fargevelgeren, så vi tre tekstfelter merket H, S og B. Vi
+så også hvordan disse oppførte seg når vi endret fargevalget: H ble
+styrt av det høye fargefeltet i fargevelgeren, S ble styrt av hvor
+langt vi flyttet oss sidelengs i det store kvadratiske feltet og B ble
+styrt av hvordan vi flyttet oss opp og ned i dette feltet.
+
+Dette systemet kalles HSB: Hue, Saturation, Brightness. Som på norsk
+er fargetone/kulør, fargemetning og lyshet/valør. Det første tallet,
+**H**, bestemmer hva slags farge det blir. Det andre, **S**, bestemmer
+hvor sterk fargen skal være. Det siste, **B**, bestemmer hvor lys
+fargen skal være.
+
+## Sjekkliste {.check}
+
++ La oss prøve ut HSB:
+
+    ```processing
+    void setup() {
+      size(800, 600);
+      colorMode(HSB, 360, 100, 100);
+    }
+    
+    void draw() {
+      background(0, 100, 100);
+      fill(120, 100, 100);
+      stroke(120, 75, 50);
+      strokeWeight(3);
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+    ```
+
+    Her kaller vi på en ny funksjon `colorMode` som tar imot
+    fargesystemet som første argument og så maksverdier for de
+    forskjelloge *kanalene* (H, S og B). Bare **RGB** og **HSB** kan
+    brukes som fargesystem.
+
+    Du lurer kanskje på hvorfor **H** har fått `360` som
+    maksverdi. Det er fordi fargetonen baseres på fargehjulet, og det
+    gir 360 grader med fargetoner. Metning og lys gis typisk i
+    prosent. Du kan selvfølgelig velge helt andre maksverdier om du
+    ønsker det.
+
++ Vi har sett at rød ligger på null grader, og grønn på `120`
+  grader. La oss se hvilke farger som befinner seg rundt hjulet:
+
+    ```processing
+    void draw() {
+      background(0);
+      
+      fill(0, 100, 100);
+      ellipse(width / 4, height / 3, 100, 100);
+      
+      fill(60, 100, 100);
+      ellipse(2 * width / 4, height / 3, 100, 100);
+      
+      fill(120, 100, 100);
+      ellipse(3 * width / 4, height / 3, 100, 100);
+      
+      fill(180, 100, 100);
+      ellipse(width / 4, 2 * height / 3, 100, 100);
+      
+      fill(240, 100, 100);
+      ellipse(2 * width / 4, 2 * height / 3, 100, 100);
+      
+      fill(300, 100, 100);
+      ellipse(3 * width / 4, 2 * height / 3, 100, 100);
+    }
+    ```
+
+    
+    
