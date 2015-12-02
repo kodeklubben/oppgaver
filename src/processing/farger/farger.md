@@ -305,8 +305,11 @@ fargen skal være.
     prosent. Du kan selvfølgelig velge helt andre maksverdier om du
     ønsker det.
 
++ Kjør programmet om du ikke har gjort det allerede.
+
 + Vi har sett at rød ligger på null grader, og grønn på `120`
-  grader. La oss se hvilke farger som befinner seg rundt hjulet:
+  grader. La oss se hvilke farger som befinner seg rundt hjulet ved å
+  endre `draw`:
 
     ```processing
     void draw() {
@@ -332,5 +335,79 @@ fargen skal være.
     }
     ```
 
+    Her går vi gjennom fargetonene `60` grader ad gangen. Hvilke
+    farger ligger på de seks vinklene: `0, 60, 120, 180, 240` og
+    `300`? Hva tror du befinner seg på `360` grader?
+    
+    Om du lurer på regnestykkene for plasseringene av sirklene, så
+    deler vi bredden på fire fordi det blir fire tomrom med tre
+    kolonner. Tilsvarende blir det tre tomrom i høyden når vi har to
+    rader. Ved å dele på antall tomrom, får vi bredden på avstanden
+    mellom to nabosirkler eller vinduskanten og den nærmeste sirkelen.
+
++ Kjør programmet om du ikke har gjort det.
+
++ La oss se på hvordan metningen og lysheten påvirker fargen. Vi
+  legger til en variabel for fargetone som skal endres over tid, sånn
+  at vi kan se effekten også på forskjellige fargetoner. Legg derfor
+  til følgende øverst i programmet:
+
+    ```processing
+    int tone;
+    ```
+    
+    Så endrer vi `draw` til å tegne opp 9 sirkler der radene har samme
+    metning, og kolonnene har samme lyshet:
+    
+    ```processing
+    void draw() {
+      background(0);
+      
+      int metning = 100;
+      int lyshet = 100;
+      
+      tone = tone + 1;
+      if (tone > 360) {
+        tone = 0;
+      }
+
+      fill(tone, metning, lyshet);
+      ellipse(width / 4, height / 4, 100, 100);
+
+      lyshet = lyshet - 40;
+      fill(tone, metning, lyshet);
+      ellipse(2 * width / 4, height / 4, 100, 100);
+
+      lyshet = lyshet - 40;
+      fill(tone, metning, lyshet);
+      ellipse(2 * width / 4, height / 4, 100, 100);
+
+      lyshet = 100;
+      metning = metning - 40;
+      fill(tone, metning, lyshet);
+      ellipse(width / 4, 2 * height / 4, 100, 100);
+
+      lyshet = lyshet - 40;
+      fill(tone, metning, lyshet);
+      ellipse(2 * width / 4, 2 * height / 4, 100, 100);
+
+      lyshet = lyshet - 40;
+      fill(tone, metning, lyshet);
+      ellipse(2 * width / 4, 2 * height / 4, 100, 100);
+
+      lyshet = 100;
+      metning = metning - 40;
+      fill(tone, metning, lyshet);
+      ellipse(width / 4, 3 * height / 4, 100, 100);
+
+      lyshet = lyshet - 40;
+      fill(tone, metning, lyshet);
+      ellipse(2 * width / 4, 3 * height / 4, 100, 100);
+
+      lyshet = lyshet - 40;
+      fill(tone, metning, lyshet);
+      ellipse(2 * width / 4, 3 * height / 4, 100, 100);
+    }
+    ```
     
     
