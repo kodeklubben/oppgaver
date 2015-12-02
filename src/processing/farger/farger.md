@@ -409,5 +409,36 @@ fargen skal være.
       ellipse(2 * width / 4, 3 * height / 4, 100, 100);
     }
     ```
+
+### Repetisjon av kode {.protip}
+
+I koden over, er det mye repetisjon av kode for å sette fargen og
+tegne opp sirklene. Selv om vi ikke skal gå gjennom løkker nå, kan det
+være nyttig å se hvordan denne koden kunne vært gjort kortere og
+enklere ved hjelp av løkker.
+
+```processing
+void draw() {
+  background(0);
+  
+  int metning = 100;
+  int lyshet = 100;
+  
+  tone = tone + 1;
+  if (tone > 360) {
+    tone = 0;
+  }
+
+  for (int rad = 1; rad <= 3; rad++) {
+    lyshet = 100;
+
+    for (int kolonne = 1; kolonne <= 3; kolonne++) {
+      lyshet = lyshet - 40;
+      fill(tone, metning, lyshet);
+      ellipse(kolonne * width / 4, rad * height / 4, 100, 100);
+    }
     
-    
+    metning = metning - 40;
+  }
+}
+```
