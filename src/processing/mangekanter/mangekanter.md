@@ -82,8 +82,8 @@ på datamaskinen.
 ## Utfordringer {.try}
 
 + Kan du lage et rektangel som ikke er kvadratisk, altså hvor bredden
-  og høyden er forskjellig? Husk at vi ikke vil at den skal bevege seg
-  utenfor vinduet.
+  og høyden er forskjellig? Husk at vi vil at den skal sprette idet
+  den treffer kanten av vinduet.
 
 # Enkle trekanter {.activity}
 
@@ -139,12 +139,12 @@ hjørne befinner seg.
 
 ## Forbedre leseligheten {.protip}
 
-Noen ganger kan det være vanskelig å lese kall på funksjoner som tar
-mange argumenter. I Processing tar de fleste funksjoner bare imot noen
-få argumenter, men `triangle` og et par andre tar seks eller flere. Da
-kan det være nyttig å dele opp kallet over flere linjer. For eksempel
-kunne setningen ovenfor vært skrevet slik at hvert hjørne var på hver
-sin linje:
+Noen ganger kan det være vanskelig å lese kode med kall på funksjoner
+som tar mange argumenter. I Processing tar de fleste funksjoner bare
+imot noen få argumenter, men `triangle` tar seks. Da kan det være
+nyttig å dele opp kallet over flere linjer. For eksempel kunne
+setningen ovenfor vært skrevet slik at hvert hjørne var på hver sin
+linje:
 
 ```processing
 triangle(x, y,
@@ -172,20 +172,27 @@ mellomrom den mener er overflødig.
 + **Vanskelig**: Trekanten i programmet er nesten likesidet, men den
   er litt for høy, så to av sidene er rundt 12 piksler for lange. Kan
   du endre regnestykket `y + 100` sånn at trekanten blir likesidet? Du
-  kan bruke Pytagoras' læresetning, eller sinus-funksjonen, `sin` i
-  Processing, for å finne den riktige høyden. Funksjonen `radians` kan
-  være til hjelp for å gjøre om grader til radianer hvis du vil bruke
+  kan bruke Pytagoras' læresetning, eller sinus-funksjonen,
+  [`sin`](https://processing.org/reference/sin_.html) i Processing,
+  for å finne den riktige høyden. Funksjonen
+  [`radians`](https://processing.org/reference/radians_.html) kan være
+  til hjelp for å gjøre om grader til radianer hvis du vil bruke
   sinus-funksjonen.
 
 # Trekanter {.activity}
 
 Nå skal vi se hvordan vi kan lage trekanter hvor hvert hjørne beveger
-seg for seg selv. Da trenger vi fire variabler for hvert hjørne, to
-for posisjon og to for farten, og dette for tre hjørner som blir tolv
-variabler. Vi kunne kalt dem f.eks. `x1`, `x2`, `x3` og tilsvarende
-for `y`, `xFart` og `yFart`. Isteden skal vi bruke noe som kalles en
+seg for seg selv. Da trenger vi variabler for posisjon og fart for
+hvert hjørne. Til sammen blir dette fire variabler for hvert hjørne i
+trekanten. En for x-posisjon, en for y-posisjon, en for x-fart og en
+for y-fart. Ettersom trekanten har tre hjørner, blir dette totalt `3
+hjørner * 4 variabler = 12 variabler`.
+
+Vi kunne kalt dem f.eks. `x1`, `x2`, `x3` og tilsvarende lagt tall til
+`y`, `xFart` og `yFart`. Isteden skal vi bruke noe som kalles en
 *array*. Det er vanlig å bruke det engelske ordet også på norsk, men
-det oversettes noen ganger til vektor, rekke, tabell eller matrise.
+det oversettes noen ganger til liste, vektor, rekke, tabell eller
+matrise.
   
 ## Sjekkliste {.check}
 
@@ -306,12 +313,12 @@ veldig glad for at man slipper å skrive den samme koden mange ganger.
 ## Utfordringer {.try}
 
 + Det går også an å lage firkanter hvor man plasserer hvert hjørne for
-  seg. Da bruker man funksjonen `quad` istedenfor `rect`. For å tegne
-  en firkant trenger man ett hjørne mer enn i en trekant. Prøv å endre
+  seg. Da bruker man funksjonen `quad` istedenfor `rect`. Prøv å endre
   programmet til å lage en firkant med hjørner som spretter rundt på
-  skjermen.
+  skjermen. Hvor mange flere variabler trenger du enn for trekanten?
+  Hvor mange parametere tar `quad`?
 
-# Mangekanter
+# Mangekanter {.activity}
 
 Nå skal vi se på hvordan vi kan lage mangekanter. Mangekanter er bare
 et generelt navn for en form med flere kanter, som trekanter,
@@ -418,51 +425,3 @@ oppgave:
     den bevege seg litt utenfor vinduet for så å snu. Sett `x` eller
     `y` til å være lik posisjonen til vinduskanten inne i
     `if`-setningene for å unngå det.
-
-De neste to oppgavene drar nytte av trigonometriske funksjoner. De kan
-være noe vanskelige om man ikke er kjent med hva sinus og cosinus
-er. Sinus-funksjonen heter `sin` og cosinus heter `cos` i
-Processing. De tar imot én verdi i form av radianer. De fleste er
-kjent med grader for å måle vinkler, radianer er en annen
-måleenhet. Du kan konvertere grader til radianer med `radians`. Så
-`sin(radians(30))` gir sinus av `30` grader.
-
-+ Kan du tegne en regulær pentagon, en femkant der alle kantene er
-  like lange, og alle hjørnene har samme vinkel? Hjørnene i en regulær
-  mangekant ligger på omrisset av en sirkel.
-
-![](Femkant.png "Vinkelen mellom to nabohjørner og sentrum i en femkant er 360° / 5 = 72°.")
-
-+ Hva med en regulær hexagon, sekskant? Eller heptagon, syvkant?
-  Klarer du å gjøre det slik at du bruker variabelen `KANTER` til å
-  styre hvor mange kanter den skal ha?
-
-+ Stjerner med et oddetall antall spisser, kan tegnes som en regulær
-  mangekant der man hopper over en spiss hver gang. Kan du finne
-  spissene og tegne en 5-kantet stjerne?
-
-    Spissene fordeler seg med like stor avstand fra hverandre
-    (vinkelen mellom et hjørne, sentrum og det neste hjørnet er lik
-    for hver spiss). Når man tegner en femkantet stjerne, tegner man
-    en strek fra en spiss til den etter den neste.
-
-![](Pentagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en femkantet stjerne er 2 · 360° / 5 = 144°.")
-
-+ Kan du tegne en syvkantet stjerne? Eller en nikantet stjerne?
-
-+ Stjerner med et partall antall spisser, kan tegnes som to regulære
-  mangekanter. Spissene vil da være de samme som hjørnene i
-  mangekanten med det antallet kanter. Dette er lettest å løse ved å
-  kopiere opptegningen av formene (fra og med `beginShape()` til og
-  med `endShape(CLOSE)`), og endre `int i = 0` og `i++` til noe
-  passende i løkken.
-
-![](Oktagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en åttekantet stjerne er 2 · 360° / 8 = 90°.")
-
-Hvis du vil ha med alle strekene som vist i bildet ovenfor, må du ty
-til tre løkker der den siste kun tegner omrisset av den første formen
-(se dokumentasjonen til `noFill()`, `noStroke()` og `stroke()` ved å
-velge **Help → Reference** og bruke søkefunksjonaliteten i
-nettleseren).
-  
-
