@@ -6,15 +6,6 @@ markdown, og det er en [bygger](https://github.com/arve0/codeclub_lesson_builder
 oppgavene til [websider](http://kodeklubben.github.io/). For å komme i gang,
 følg [anvisningene under](#komme-i-gang).
 
-
-## Kurs/programmeringsspråk
-Per nå finnes følgende kurs:
-- [ComputerCraft (Minecraft)](src/computercraft)
-- [JavaFX](src/javafx)
-- [Python](src/python)
-- [Scratch](src/scratch)
-- [Web](src/web) - denne er ikke ferdig og vi trenger **din** hjelp.
-
 ## Fiks og rapporter enkle feil
 [![](http://img.youtube.com/vi/v9CS62-MED4/0.jpg)](http://youtu.be/v9CS62-MED4)
 
@@ -59,13 +50,6 @@ eller [github for mac](//mac.github.com).*
 ./setup
 ```
 
-#### Mac-brukere merk dette! 
-Noen ganger feiler installasjonen av pandoc. For å fikse dette, sett `+x`
-(executable) på pandoc:
-```
-chmod +x codeclub_lesson_builder/node_modules/metalsmith-pandoc/node_modules/pandoc-bin/vendor/pandoc
-```
-
 #### Start
 ```
 ./gulp
@@ -74,6 +58,7 @@ Dette steget vil bygge websider av oppgavene og åpne de i nettleseren din. Hver
 gang en oppgave endres bygges websidene om igjen og nettleseren oppdaterer
 nettsiden. For brukere av windows, finnes også `gulp.bat` som kan åpnes direkte
 fra filbehandleren.
+
 
 ## Problemer og support
 [![Chat med oss på gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kodeklubben/oppgaver)
@@ -86,6 +71,7 @@ Prøv først dette:
 
 Dersom du fortsatt har problemer, hjelper vi deg gjerne over en [chat på
 gitter](https://gitter.im/kodeklubben/oppgaver).
+
 
 ## Filstruktur og formatering
 Alle oppgavene finnes i katalogen [src](src). Hver mappe i `src`
@@ -114,14 +100,16 @@ gjort tilgjengelig som variabler i malen. Det er bare `title` og
 `translator` og `license` (standard lisens er
 [CC-BY 4.0](//creativecommons.org/licenses/by/4.0/deed.no)).
 
+For å lære mer om markdown, kan du gå gjennom
+[denne interaktive guiden](http://eherrera.net/markdowntutorial/).
 
 #### Bygging
-
 Ved *bygging* blir alle markdown-filer (.md) omgjort til HTML og bilder eller
 andre filer blir kopiert. Dersom en oppgave skal inkludere filer eller bilder,
 skal oppgaven ligge i en egen mappe med filene. I motsatt tilfelle, dersom en
-oppgave ikke inkluderer bilder eller filer, så skal den ligge i roten av sitt
-kurs/programmeringsspråk (feks ligger scratch-oppgavene [her](src/scratch)).
+oppgave ikke inkluderer bilder eller filer, så kan den strengt tatt ligge i
+roten av sitt kurs/programmeringsspråk (feks ligger scratch-oppgavene
+[her](src/scratch)).
 
 Byggeren lager en forside som viser alle oppgavene. Forsiden er sortert
 etter nivå (`level` i YAML) og deretter filnavnet til oppgavene. Så dersom en
@@ -136,145 +124,148 @@ Hvis en oppgave bare skal vises i sin spilleliste, kan `indexed: false` legges
 til i YAML-header. Hvis oppgaven ikke finnes i noen spilleliste, vil det ikke
 lenkes til oppgaven fra noe sted og den er da gjemt.
 
+#### Å skrive oppgaver
+Vi bruker markdown-varianten [CommonMark] med [noen tillegg]. En rask måte å
+komme i gang er ved å gå gjennom [den offisielle guiden] eller ved å bruke en
+[live editor].
 
-#### Markdown
+[CommonMark]: http://commonmarkd.org/
+[noen tillegg]: https://github.com/arve0/codeclub_lesson_builder/blob/master/markdown.js
+[den ofisielle guiden]: http://eherrera.net/markdowntutorial/
+[live editor]: http://markdown-it.github.io/
 
-Nettet har flere beskrivelser av [Markdown-syntaksen]. Du kan
-også lære endel ved å bruke en [live markdown editor].
+- Tekst skrives rett fram.
+- *Uthevet skrift* skrives `*Uthevet skrift*`, bruk uthevet skrift på
+  konsepter som *løkker*, *array*, osv.
+- **Fet skrift** skrives `**Fet skrift**`, fet skrift brukes for knapper i
+  brukergrensesnittet og viktige høydepunkt i teksten.
+- `Kode()` og inputt skrives `` `Kode()` `` eller i kodeblokker:
 
-[Markdown-syntaksen]: http://daringfireball.net/projects/markdown/syntax "Markdown-syntaks"
-[live markdown editor]: http://jbt.github.io/markdown-editor/ "live markdown editor"
+  <pre>```python
+  for i in range(10):
+      print(i)
+  ```</pre>
 
-Her kommer noen eksempler:
-- *Uthevet skrift* skrives `*Uthevet skrift*`,
-- **Fet skrift** skrives `**Fet skrift**`.
+  Legg merge til at programmeringsspråket *python* er spesifisert bak
+  <code>```</code>. For kodeblokker i scratch, [les her](src/scratch).
+- Bilder skrives slik som dette `![bildetekst](filnavm.png)`. Dersom du
+  ønsker bildet for seg selv, legg en tom linje før og etter bildet:
 
+  ```
 
-#### Overskrifter
+  ![](stortbilde.jpg "bildetekst")
 
-Overskrifter lages ved å begynne en linje med en eller flere `#`. En `#` gir
-den største overskriften, mens seks `######` gir den minste overskriften. I
-tillegg kan en stil legges til overskriften slik som dette `# Overskrift {.stil}`.
-Stilene som er tilgjengelige er (antall `#` er viktig her):
+  ```
 
-- Introduksjon brukes øverst i hver oppgave: `# Introduksjon {.intro}`.
+  Alternativ billedtekst legges mellom `[bildetekst]` for bilder som er en del
+  av teksten, og mellom `"bildetekst"` for frittstående bilder. Dette for at
+  bildene skal gi mening for synshemmede.
 
-- Hver oppgave er delt inn i steg: `# Steg 1: Lag en figur {.activity}`.
+#### Den gode oppgaven
 
-- Hvert steg har flere aktiviteter i en sjekkliste: `## Sjekkliste {.check}`.
+En god oppgave er bygd opp slik at den er lett å følge. Vi etterstreber å ha
+noenlunde lik struktur i oppgavene.
 
-I tillegg finnes flere stiler som brukes ved behov:
+Oppgaven begynner med en kort introduksjon med et bilde eller animasjon som
+viser sluttresultatet:
 
-- Ting å prøve: `## Ting å prøve {.try}`,
-
-- Utfordringer: `## Utfordring: Flere ting {.challenge}`,
-
-- Test prosjektet: `## Test prosjektet {.flag}`,
-
-- Lagre prosjektet: `## Lagre prosjektet {.save}`.
-
-
-#### Bilder
-
-- Store bilder legges inn ved å skrive:
-
-    ```
-
-    ![](bilde-felix.png "katten felix")
-
-    ```
-
-  Legg merke til de tomme linjene over og under bildet. Bildet vil da sentreres
-  i et avsnitt for seg selv. Alternativ billedtekst legges mellom
-  `"` og `"` slik at bildene også gir mening for synshemmede.
-
-- Små bilder, som skal være en del av teksten, legges inn med samme
-  kode `![bilde](lite-bilde.png)`, men da med koden som en del av
-  teksten. For disse bildene blir teksten mellom `[` og `]` brukt som
-  alternativ tekst i tilfelle bildet ikke kan vises.
-
-
-#### Kodeblokker
-
-Kodeblokker skrives med tre `-tegn foran og bak koden:
-
-<pre>
 ```
-for i in range(10):
-    print(i)
+# Introduksjon {.intro}
+
+I denne oppgaven skal vi lage spillet Hangman. I animasjonen under ser du
+hvordan spillet blir seende ut.
+
+![](animasjon.gif)
 ```
-</pre>
 
-For å få farger og stil som passer til et spesielt programmeringsspråk, legges
-språkets navn etter <code>```</code> slik som dette:
+Deretter er oppgaven bygd opp av steg. Stegene er satt sammen av en kort intro
+og deretter en sjekkliste. Stegene i sjekklisten burde være korte og presise,
+slik at misforståelser unngås.
 
-<pre>
-```python
-for i in range(10):
-    print(i)
 ```
-</pre>
+# Steg 1: Tegne vinduet {.activity}
 
-Les videre for inkludering av scratchkode.
+Vi begynner med å lage et vindu som er stort nok til å holde spillet.
 
-
-#### Scratch kodeblokker
-
-Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir oversatt til
-figurer av et verktøy som heter [Scratchblocks2][sb2]. På hjemmesidene til
-Scratch finnes [dokumentasjon over syntaks][doc sb]. Et nyttig verktøy er
-[scratchblocks translator][sbt] som lar deg hente ut og oversette scratchkode.
-
-[sb2]: https://github.com/blob8108/scratchblocks2 "Scratchblocks2"
-[doc sb]: http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax "Dokumentasjon scratchblocks"
-[sbt]: http://scratchblocks.codeclub.org.uk/translator/ "Scratchblocks translator"
-
-Hele kodesnutter skrives som et eget avsnitt på følgende måte:
-
-<pre>
-```blocks
-når grønt flagg trykkes
-for alltid
-pek mot [musepekeren v]
-slutt
-```
-</pre>
-
-Rykkes koden ekstra inn i lister, vil den flyte med teksten rundt. For eksempel
-vil man typisk ha innrykk på fire mellomrom for kode som er en del av en
-sjekkliste:
-
-<pre>
 ## Sjekkliste {.check}
-- En forklarende tekst her. Og kode som hører til:
+- Åpne editoren **Idle**.
+- Skriv inn denne koden:
 
-    ```blocks
-    for alltid
-    pek mot [musepekeren v]
-    ```
+  ```python
+  WIDTH=640
+  HEIGHT=480
+  ```
 
-- Neste sjekkpunkt.
-</pre>
+- Trykk på **F5**-knappen for å kjøre koden.
+```
 
-Hvis du vil referere til enkeltblokker i teksten kan det gjøres slik:
-`` `for alltid`{.blockcontrol}-klossen``. Kategorier som er tilgjengelig er
-*motion*, *looks*, *sound*, *pen*, *data*, *events*, *control*, *sensing*,
-*operators* og *moreblocks*.
+For å sprite opp stegene, inkluder gjerne en utfordring på slutten:
 
-Her er en liste over alle kategoriene med navn:
-- `` `Bevegelse`{.blockmotion}``
-- `` `Utseende`{.blocklooks}``
-- `` `Lyd`{.blocksound}``
-- `` `Penn`{.blockpen}``
-- `` `Data`{.blockdata}``
-- `` `Hendelser`{.blockevents}``
-- `` `Styring`{.blockcontrol}``
-- `` `Sansning`{.blocksensing}``
-- `` `Operatorer`{.blockoperators}``
-- `` `Flere klosser`{.blockmoreblocks}``
+```
+## Utfordring: Dine egne tilpasninger {.challenge}
+- Klarer du å finne en egen figur på nett?
+- Kan du endre koden slik at ballen blir grønn?
+```
 
-For å referere til en fane som skript, drakter eller lyder, brukes `` ` `` slik
-som dette: `` `Drakter` ``
+Eller et tips:
+
+```
+## Tips {.protip}
+Med `input("spørsmål ")` kan du spørre om tekst fra brukeren av programmet.
+```
+
+Eller ting som kan prøves ut:
+
+```
+## Ting å prøve {.try}
+Klarer du å fly helt til månen?
+```
+
+Eller test prosjektet:
+
+```
+## Test prosjektet {.flag}
+Nå er det smart å teste at programmet fungere som det skal.
+- Stopper programmet når du kræsjer i veggen?
+- Får du poeng når du hopper over hinderne?
+```
+
+Eller lagre:
+
+```
+## Lagre prosjektet {.save}
+Ikke glem å lagre prosjektet. Du kan kalle filen `skilpadde.py`. **Ikke** lagre
+som `turtle.py`, da blir python forvirret på kodelinjen `from turtle import *`.
+```
+
+Når du skrive oppgaven, gjør deg noen tanker på nivået (`level`) til oppgaven.
+Her er noen beskrivelser som kan hjelpe.
+
+- `level: 1` **introduksjonsoppgave**: Alle uten programmeringskunnskap burde ha
+  mulighet til å følge oppgaven. Oppgaven burde være selvstendig, slik at man
+  ikke trenger å sjekke opp andre ressurser for nødvendig tilleggsinformasjon.
+  Oppgaven kan gjerne ha kodeblokker som det ikke er meningen at eleven skal
+  forstå, men som viser hva som er mulig i programmeringsspråket. Kodeblokker
+  kan gjerne være fullstendige, slik at kopier/lim-inn er tilstrekkelig for å
+  komme seg gjennom oppgaven.
+- `level: 2` **nybegynner**: Det anntas at eleven kan bruke editoren og vet
+  hvordan koden kjøres. Bygg opp meget enkle utfordringer med nesten identiske
+  eksempler, slik at eleven ikke setter seg fast, samt at man unngår passiv
+  kopier/lim-inn.
+- `level: 3` **erfaren**: Eleven kan lage program og kjøre de. Eleven kan løse
+  enkle problem på egen hånd. Hjelp eleven å løse middels vanskelige problem
+  med lignende eksempler. Link gjerne til eksterne ressurser som API i
+  `## Utfordring {.challange}`, slik at eleven blir flink til å utforske.
+- `level: 4` **ekspert**: Eleven kan løse middels vanskelige problem på
+  egen hånd. Hjelp eleven til å løse vanskelige problem ved å foreslå søkeord og
+  linke til offisielle API-ressurser. Ikke gi kode som løser oppgaven uten
+  redigering.
+
+Når du har en oppgave du er passelig fornøyd med, send en [PR] mot dette repoet
+så vil noen lese gjennom oppgaven og gi deg tilbakemelding.
+
+[PR]: https://github.com/kodeklubben/oppgaver/compare?expand=1
+
 
 ## Lisens
 Som standard settes lisensen på alle oppgaver til [CC BY-SA 4.0]. Dersom du ønsker
