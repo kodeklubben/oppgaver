@@ -129,9 +129,9 @@ Vi bruker markdown-varianten [CommonMark] med [noen tillegg]. En rask måte å
 komme i gang er ved å gå gjennom [den offisielle guiden] eller ved å bruke en
 [live editor].
 
-[CommonMark]: http://commonmarkd.org/
+[CommonMark]: http://commonmark.org/
 [noen tillegg]: https://github.com/arve0/codeclub_lesson_builder/blob/master/markdown.js
-[den ofisielle guiden]: http://eherrera.net/markdowntutorial/
+[den offisielle guiden]: http://eherrera.net/markdowntutorial/
 [live editor]: http://markdown-it.github.io/
 
 - Tekst skrives rett fram.
@@ -139,15 +139,18 @@ komme i gang er ved å gå gjennom [den offisielle guiden] eller ved å bruke en
   konsepter som *løkker*, *array*, osv.
 - **Fet skrift** skrives `**Fet skrift**`, fet skrift brukes for knapper i
   brukergrensesnittet og viktige høydepunkt i teksten.
-- `Kode()` og inputt skrives `` `Kode()` `` eller i kodeblokker:
+- `Kode()` og inputt skrives `` `Kode()` ``.
+- Eller i kodeblokker, legg merge til at programmeringsspråket *python* er spesifisert bak
+<code>```</code>:
 
-  <pre>```python
+  <pre>
+  ```python
   for i in range(10):
       print(i)
-  ```</pre>
+  ```
+  </pre>
 
-  Legg merge til at programmeringsspråket *python* er spesifisert bak
-  <code>```</code>. For kodeblokker i scratch, [les her](src/scratch).
+- For kodeblokker i scratch, [les her](src/scratch).
 - Bilder skrives slik som dette `![bildetekst](filnavm.png)`. Dersom du
   ønsker bildet for seg selv, legg en tom linje før og etter bildet:
 
@@ -182,8 +185,7 @@ Deretter er oppgaven bygd opp av steg. Stegene er satt sammen av en kort intro
 og deretter en sjekkliste. Stegene i sjekklisten burde være korte og presise,
 slik at misforståelser unngås.
 
-```
-# Steg 1: Tegne vinduet {.activity}
+<pre># Steg 1: Tegne vinduet {.activity}
 
 Vi begynner med å lage et vindu som er stort nok til å holde spillet.
 
@@ -197,7 +199,7 @@ Vi begynner med å lage et vindu som er stort nok til å holde spillet.
   ```
 
 - Trykk på **F5**-knappen for å kjøre koden.
-```
+</pre>
 
 For å sprite opp stegene, inkluder gjerne en utfordring på slutten:
 
@@ -225,7 +227,7 @@ Eller test prosjektet:
 
 ```
 ## Test prosjektet {.flag}
-Nå er det smart å teste at programmet fungere som det skal.
+Nå er det smart å teste at programmet fungerer som det skal.
 - Stopper programmet når du kræsjer i veggen?
 - Får du poeng når du hopper over hinderne?
 ```
