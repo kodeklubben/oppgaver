@@ -181,11 +181,14 @@ hvordan spillet blir seende ut.
 ![](animasjon.gif)
 ```
 
+![](imgs/intro.png)
+
 Deretter er oppgaven bygd opp av steg. Stegene er satt sammen av en kort intro
 og deretter en sjekkliste. Stegene i sjekklisten burde være korte og presise,
 slik at misforståelser unngås.
 
-<pre># Steg 1: Tegne vinduet {.activity}
+<pre>
+# Steg 1: Tegne vinduet {.activity}
 
 Vi begynner med å lage et vindu som er stort nok til å holde spillet.
 
@@ -201,6 +204,8 @@ Vi begynner med å lage et vindu som er stort nok til å holde spillet.
 - Trykk på **F5**-knappen for å kjøre koden.
 </pre>
 
+![](imgs/steg.png)
+
 For å sprite opp stegene, inkluder gjerne en utfordring på slutten:
 
 ```
@@ -209,6 +214,8 @@ For å sprite opp stegene, inkluder gjerne en utfordring på slutten:
 - Kan du endre koden slik at ballen blir grønn?
 ```
 
+![](imgs/utfordring.png)
+
 Eller et tips:
 
 ```
@@ -216,12 +223,16 @@ Eller et tips:
 Med `input("spørsmål ")` kan du spørre om tekst fra brukeren av programmet.
 ```
 
+![](imgs/tips.png)
+
 Eller ting som kan prøves ut:
 
 ```
 ## Ting å prøve {.try}
 Klarer du å fly helt til månen?
 ```
+
+![](imgs/prov.png)
 
 Eller test prosjektet:
 
@@ -232,6 +243,8 @@ Nå er det smart å teste at programmet fungerer som det skal.
 - Får du poeng når du hopper over hinderne?
 ```
 
+![](imgs/test_prosjektet.png)
+
 Eller lagre:
 
 ```
@@ -240,16 +253,20 @@ Ikke glem å lagre prosjektet. Du kan kalle filen `skilpadde.py`. **Ikke** lagre
 som `turtle.py`, da blir python forvirret på kodelinjen `from turtle import *`.
 ```
 
-Når du skrive oppgaven, gjør deg noen tanker på nivået (`level`) til oppgaven.
-Her er noen beskrivelser som kan hjelpe.
+![](imgs/lagre_prosjektet.png)
+
+
+#### Nivå og PR
+Gjør deg noen tanker på **nivået** (`level`) til oppgaven når du skriver
+oppgaven. Her er noen beskrivelser som kan hjelpe.
 
 - `level: 1` **introduksjonsoppgave**: Alle uten programmeringskunnskap burde ha
   mulighet til å følge oppgaven. Oppgaven burde være selvstendig, slik at man
-  ikke trenger å sjekke opp andre ressurser for nødvendig tilleggsinformasjon.
-  Oppgaven kan gjerne ha kodeblokker som det ikke er meningen at eleven skal
-  forstå, men som viser hva som er mulig i programmeringsspråket. Kodeblokker
-  kan gjerne være fullstendige, slik at kopier/lim-inn er tilstrekkelig for å
-  komme seg gjennom oppgaven.
+  ikke trenger å sjekke opp andre ressurser for tilleggsinformasjon. Oppgaven
+  kan gjerne ha kodeblokker som det ikke er meningen at eleven skal forstå, men
+  som viser hva som er mulig i programmeringsspråket. Kodeblokker kan gjerne
+  være fullstendige, slik at kopier/lim-inn er tilstrekkelig for å komme seg
+  gjennom oppgaven.
 - `level: 2` **nybegynner**: Det anntas at eleven kan bruke editoren og vet
   hvordan koden kjøres. Bygg opp meget enkle utfordringer med nesten identiske
   eksempler, slik at eleven ikke setter seg fast, samt at man unngår passiv
