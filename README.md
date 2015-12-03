@@ -181,7 +181,8 @@ hvordan spillet blir seende ut.
 ![](animasjon.gif)
 ```
 
-![](imgs/intro.png)
+<img src="imgs/intro.png" width="500">
+
 
 Deretter er oppgaven bygd opp av steg. Stegene er satt sammen av en kort intro
 og deretter en sjekkliste. Stegene i sjekklisten burde være korte og presise,
@@ -204,7 +205,8 @@ Vi begynner med å lage et vindu som er stort nok til å holde spillet.
 - Trykk på **F5**-knappen for å kjøre koden.
 </pre>
 
-![](imgs/steg.png)
+<img src="imgs/steg.png" width="500">
+
 
 For å sprite opp stegene, inkluder gjerne en utfordring på slutten:
 
@@ -214,7 +216,8 @@ For å sprite opp stegene, inkluder gjerne en utfordring på slutten:
 - Kan du endre koden slik at ballen blir grønn?
 ```
 
-![](imgs/utfordring.png)
+<img src="imgs/utfordring.png" width="500">
+
 
 Eller et tips:
 
@@ -223,7 +226,8 @@ Eller et tips:
 Med `input("spørsmål ")` kan du spørre om tekst fra brukeren av programmet.
 ```
 
-![](imgs/tips.png)
+<img src="imgs/tips.png" width="500">
+
 
 Eller ting som kan prøves ut:
 
@@ -232,7 +236,8 @@ Eller ting som kan prøves ut:
 Klarer du å fly helt til månen?
 ```
 
-![](imgs/prov.png)
+<img src="imgs/prov.png" width="500">
+
 
 Eller test prosjektet:
 
@@ -243,7 +248,8 @@ Nå er det smart å teste at programmet fungerer som det skal.
 - Får du poeng når du hopper over hinderne?
 ```
 
-![](imgs/test_prosjektet.png)
+<img src="imgs/test_prosjektet.png" width="500">
+
 
 Eller lagre:
 
@@ -253,7 +259,7 @@ Ikke glem å lagre prosjektet. Du kan kalle filen `skilpadde.py`. **Ikke** lagre
 som `turtle.py`, da blir python forvirret på kodelinjen `from turtle import *`.
 ```
 
-![](imgs/lagre_prosjektet.png)
+<img src="imgs/lagre_prosjektet.png" width="500">
 
 
 #### Nivå og PR
