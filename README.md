@@ -263,8 +263,8 @@ som `turtle.py`, da blir python forvirret på kodelinjen `from turtle import *`.
 
 
 #### Nivå og PR
-Gjør deg noen tanker på **nivået** (`level`) til oppgaven når du skriver
-oppgaven. Her er noen beskrivelser som kan hjelpe.
+Gjør deg noen tanker på **nivået** (`level`) til oppgaven når du skriver den.
+Her er noen beskrivelser som kan hjelpe.
 
 - `level: 1` **introduksjonsoppgave**: Alle uten programmeringskunnskap burde ha
   mulighet til å følge oppgaven. Oppgaven burde være selvstendig, slik at man
@@ -280,7 +280,7 @@ oppgaven. Her er noen beskrivelser som kan hjelpe.
 - `level: 3` **erfaren**: Eleven kan lage program og kjøre de. Eleven kan løse
   enkle problem på egen hånd. Hjelp eleven å løse middels vanskelige problem
   med lignende eksempler. Link gjerne til eksterne ressurser som API i
-  `## Utfordring {.challange}`, slik at eleven blir flink til å utforske.
+  `## Utfordring {.challenge}`, slik at eleven blir flink til å utforske.
 - `level: 4` **ekspert**: Eleven kan løse middels vanskelige problem på
   egen hånd. Hjelp eleven til å løse vanskelige problem ved å foreslå søkeord og
   linke til offisielle API-ressurser. Ikke gi kode som løser oppgaven uten
