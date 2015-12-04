@@ -41,7 +41,7 @@ Denne figuren er tilnærmet lik en likebeint trekant*
 + Bruk musepekeren og flytt Hattulf til et nytt sted i bildet.
 + Trykk N på tastaturet ditt. Hopper Hattulf tilbake til midten av bildet? Hvis ja: Gå videre til steg 2. Hvis nei: Feilsøk koden din, fiks den, test på nytt.
 
-# Steg 2: Rotasjon i et koordinatsystem
+# Steg 2: Rotasjon i et koordinatsystem {.activity}
 
 + Importer bakgrunnen 'xy-grid'
 + Velg Hattulf. I scriptet
@@ -62,7 +62,7 @@ endrer vi x-verdien til -100, og y-verdien til 100.
 + Hvis alt ser greit ut, fortsett til neste steg.
 + Hvis noe ikke ser riktig ut, prøv å finne ut om du har gjort en feil i koden din og prøv å trykke N på nytt.
 
-# Steg 3: Hattulf roteres rundt origo
+# Steg 3: Hattulf roteres rundt origo {.activity}
 
 Nå skal vi altså rotere Hattulf rundt origo på en ganske enkel måte.
 
@@ -80,7 +80,7 @@ Nå skal vi altså rotere Hattulf rundt origo på en ganske enkel måte.
 + Hvis du studerer koden vi nettopp laget til Hattulf, ser du at vi ber Hattulf gå 200 steg. Hvorfor må vi gå så langt?
 + Prøv å endre på antall steg Hattulf tar. Ender Hattulf opp på samme sted som han startet etter at du har trykket "pil høyre" fire ganger?
 
-# Steg 4: En ny venn!
+# Steg 4: En ny venn! {.activity}
 
 + Legg til en ny figur. Denne gangen skal du få velge figur selv. Hvis den blir veldig stor i forhold til alt det andre, kan du krympe den ned til en passelig størrelse. Kall den nye figuren for "Venn"
 + Lag en kopi av "Når N trykkes"-skriptet fra Hattulf til Venn, men endre y-verdien til 50.

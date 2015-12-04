@@ -288,7 +288,6 @@ med så mange kanter du vil!
 
 + Vi kan be skilpadden om å fylle figurene med en farge ved å bruke `begin_fill()` og `end_fill()`. Endre koden din til å bruke disse kommandoene:
 
-
     ```python
     from turtle import *
 

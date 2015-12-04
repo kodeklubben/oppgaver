@@ -642,7 +642,6 @@ spørre.
 + Nedenfor er noen hint om hvordan dette kan gjøres. Vær oppmerksom på
   at skriptene bruker noen variable du selv må lage.
 
-
     ```blocks
         definer sjekk sted
         hvis (((tilfeldig tall fra (1) til (Antall steder totalt)) > (1)) eller (berører fargen [#ff0000]?))

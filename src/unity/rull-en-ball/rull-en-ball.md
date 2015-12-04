@@ -62,7 +62,7 @@ spillobjekter med tastaturet, og kollisjon mellom objekter.
     kopier den, men skriv inn alle linjene!
 
     __PlayerController.cs__
-    ```c#
+    ```csharp
     using UnityEngine;
     using System.Collections;
 
@@ -116,7 +116,7 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - Lag et nytt C#-script som du kaller `CameraController` og legg til koden:
 
     __CameraController.cs__
-    ```c#
+    ```csharp
     using UnityEngine;
     using System.Collections;
 
@@ -186,7 +186,7 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - Lag et nytt C#-script og kall det `Rotator`. Legg til koden:
 
     __Rotator.cs__
-    ```c#
+    ```csharp
 
     using UnityEngine;
     using System.Collections;
@@ -228,7 +228,7 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - Åpne `PlayerController`-scriptet igjen og legg til funksjonen under i
   PlayerController-klassen:
 
-    ```c#
+    ```csharp
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag ("Pick Up"))
@@ -258,7 +258,7 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - Åpne `PlayerController` og endre det til å være som følger:
 
     __PlayerController.cs__
-    ```c#
+    ```csharp
     using UnityEngine;
     using UnityEngine.UI;
 
@@ -310,12 +310,12 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
   endre det til:
 
     __PlayerController.cs__
-    ```c#
+    ```csharp
     using UnityEngine;
     using UnityEngine.UI;
     using System.Collections;                               // Ny linje
 
-    public class `PlayerController` : MonoBehaviour {
+    public class PlayerController : MonoBehaviour {
 
     	public float speed;
     	public Text countText;                              // Ny linje
@@ -366,9 +366,8 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - Lag en ny variabel `winText`, initialiser den i `Start` og endre den i `SetCountText`.
   Når du har kodet ferdig skal det se slik ut:
 
-
     __PlayerController.cs__
-    ```c#
+    ```csharp
     using UnityEngine;
     using UnityEngine.UI;
     using System.Collections;

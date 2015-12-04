@@ -32,7 +32,6 @@ mange linjer.
 
 * Lagre det følgende programmet som skilpaddetekst.py, og se hva som skjer.
 
-
     ```python
     from turtle import *
 

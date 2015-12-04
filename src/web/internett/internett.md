@@ -51,7 +51,7 @@ Tagger kan også ha **attributter**, som er informasjon om elementet. La oss se 
 
 
 ## Aktiviteter { .check}
-- Installer **X-Ray Goggles** ved å trekke linken [X-Ray Goggles](javascript:(function(){var%20script=document.createElement('script');script.src='https://goggles.webmaker.org/en-US/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.webmaker.org/en-US');document.body.appendChild(script);})();) til din bokmerkerad.
+- Installer **X-Ray Goggles** ved å trekke linken <a href="javascript:(function(){var%20script=document.createElement('script');script.src='https://goggles.webmaker.org/en-US/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.webmaker.org/en-US');document.body.appendChild(script);})();">X-Ray Goggles</a> til din bokmerkerad.
 - Åpne filen `side.html` fra [internett.zip](internett.zip).
 - Trykk på *X-Ray Goggles* fra bokmerkeraden din. Om ingenting skjer, spør en CodeMaster/veileder om hjelp til å bruke utviklerverktøyet i din nettleser.
 - Beveg musen rundt på siden. Da kan du se deler av siden lyse opp og se hvilke tagger delene er laget av.

@@ -106,7 +106,7 @@ innimellom.
             gå (6) steg
         slutt
     ```
-    
+
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
@@ -273,7 +273,6 @@ merket `x` og `y`. Disse viser koordinatene til musepekeren.
 
 + På samme måte som for redning kan vi avslutte bevegelsen til `Ball`
   og `Keeper` ved å lage dette skriptet på begge figurene:
-
 
     ```blocks
         når jeg mottar [Mål v]
