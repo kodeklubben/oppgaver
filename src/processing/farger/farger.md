@@ -259,7 +259,8 @@ Disse kodene kan være nyttige å bruke hvis man er kjent med det fra
 før. De kan bare brukes direkte, og fungerer ikke så bra om man vil at
 fargen skal variere. For eksempel om bakgrunnsfargen ikke endrer seg i
 løpet av programmets kjøring, kan de brukes med `background`. Man kan
-gi variabler av typen `color` verdier med disse kodene.
+fortsatt gi variabler av typen `color` verdier med disse kodene, men
+vi skal se på disse senere i leksjonen.
 
 # Steg 4: HSB {.activity}
 
@@ -353,9 +354,9 @@ fargen skal være.
   til følgende øverst i programmet:
 
     ```processing
-    int tone;
+    float tone;
     ```
-    
+
     Så endrer vi `draw` til å tegne opp 9 sirkler der radene har samme
     metning, og kolonnene har samme lyshet:
     
@@ -363,8 +364,8 @@ fargen skal være.
     void draw() {
       background(0);
       
-      int metning = 100;
-      int lyshet = 100;
+      float metning = 100;
+      float lyshet = 100;
       
       tone = tone + 1;
       if (tone > 360) {
@@ -442,3 +443,111 @@ void draw() {
   }
 }
 ```
+
+# Steg 5: Fargevariabler og -funksjoner {.activity}
+
+Noen ganger er det nyttig å kunne ha variabler for å holde rede på
+farger. Over så vi at vi godt kan bruke tre variabler, en for hver
+fargekanal i systemet, men nå skal vi se på en egen type som kan
+brukes til farger: `color`.
+
+Vi skal også se på noen funksjoner for å jobbe med farger. Dette gjør
+at vi kan få mer nytte av fargevariabler uten å bruke en variabel for
+hver fargekanal. Hvis farger skal endre seg veldig mye, kan det
+likevel være enklere med tre variabler.
+
+## Sjekkliste {.check}
+
++ Vi begynner helt enkelt med en fargevariabel for bakgrunn og en for
+  fyllfarge:
+
+    ```processing
+    color bakgrunn = color(32, 128, 64);
+    color fyll = color(64, 128, 255);
+
+    void setup() {
+      size(800, 600);
+    }
+
+    void draw() {
+      background(bakgrunn);
+      fill(fyll);
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+    ```
+
+    Hvis du kjører programmet ser du en blå sirkel på en grønn
+    bakgrunn. `color(32, 128, 64)` gir oss en verdi som vi kan putte i
+    en `color`-variabel. Nå vi bruker variabelen i
+    `background(bakgrunn)`, er det som om vi skrev `background(32,
+    128, 64)`.
+
++ La oss se hvordan vi kan lage en farge som ligger et sted mellom to
+  farger med `lerpColor`. Legg til en ekstra farge for svart først i
+  programmet:
+
+    ```processing
+    color svart = color(0, 0, 0);
+    ```
+    
+    Så setter vi omrisset til sirkelen til å være en mellomting mellom
+    svart og fyllfargen:
+
+    ```processing
+    void draw() {
+      background(bakgrunn);
+      fill(fyll);
+      stroke(lerpColor(fyll, svart, 0.5));
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+    ```
+
+    `lerpColor(farge1, farge2, blandingsForhold)` gir en som ligger
+    mellom `farge1` og `farge2`, eller `fyll` og `svart` i koden
+    ovenfor. `blandingsForholdet` er et tall mellom `0` og `1`. Når
+    det er `0` blir fargen helt lik `farge1`. Når det er `1` blir
+    fargen helt lik `farge2`. `0.5` gir oss da en farge midt mellom de
+    to.
+
+    Siden resultatet av et kall på `lerpColor` er en farge, kunne du
+    også lagt resultatet i en `color`-variabel: `color omriss =
+    lerpColor(fyll, svart, 0.5);`
+
+    Kjør programmet og merk at omrisset nå er en mørkere variant av
+    blåfargen istedenfor helt svart.
+
++ Hvis man vil bruke HSB istedenfor RGB, går det også an, men da må
+  man bytte fargesystem før man lager fargene:
+
+    ```processing
+    color bakgrunn;
+    color fyll;
+    
+    void setup() {
+      size(800, 600);
+      colorMode(HSB, 360, 100, 100);
+      bakgrunn = color(120, 75, 60);
+      fyll = color(210, 75, 75);
+    }
+
+    void draw() {
+      background(bakgrunn);
+      fill(fyll);
+      ellipse(width / 2, height / 2, 100, 100);
+    }
+    ```
+
+    Kjør programmet.
+
+    Hva skjer med fargene om du lager dem før du bytter til HSB? Hva
+    om du bytter til RGB, `colorMode(RGB, 255);`, etter at du har lagd
+    fargene ovenfor?
+
+### Prøv selv {.try}
+
++ Ta utgangspunkt i punktet hvor du blandet farger med
+  `lerpColor`. Kan du tegne et ansikt eller en annen figur med
+  ellipser der du blander farger med `lerpColor` for omriss- og/eller
+  fyllfargene? Hvis du skal bruke blandingsfarger til både omriss og
+  fyll, kan det være lurt å legge resultatene av blandingen i
+  `color`-variabler.
