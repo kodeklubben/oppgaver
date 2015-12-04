@@ -185,8 +185,8 @@ hvordan spillet blir seende ut.
 
 
 Deretter er oppgaven bygd opp av steg. Stegene er satt sammen av en kort intro
-og deretter en sjekkliste. Stegene i sjekklisten burde være korte og presise,
-slik at misforståelser unngås.
+og en sjekkliste. Punktene i sjekklisten burde være korte og presise, slik at
+misforståelser unngås.
 
 <pre>
 # Steg 1: Tegne vinduet {.activity}
