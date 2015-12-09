@@ -9,10 +9,13 @@ author: Sigmund Hansen
 På skolen lærer man om farger og hvordan man kan blande dem for å få
 andre farger. Slik er det med farger i datamaskinen også; vi blander
 primærfarger og mengden av hver primærfarge bestemmer hvilken farge vi
-får. Hvis vi sammenligner blanding av malingsfarger med blanding av farger
-på en dataskjerm, er det liten forskjell på hvordan blandingen fungerer.
-Hvordan blandingen fungerer på en dataskjerm skal du lære mer om i denne
+får. Hvis vi sammenligner blanding av malingsfarger med blanding av
+farger på en dataskjerm, fungerer blandingen litt annerledes.  Hvordan
+blandingen fungerer på en dataskjerm skal du lære mer om i denne
 leksjonen med Processing.
+
+![](RGB.png "Tre overlappende sirkler i rødt, grønt og blått. Der de
+ overlapper blandes fargene til gul, cyan, magenta og hvitt.")
 
 # Steg 1: Mer enn grått {.activity}
 
@@ -72,15 +75,18 @@ med **Ctrl + R**, og hvis du vil, kan du lagre det med **Ctrl + S**.
 
 ## Forklaring av additive farger {.protip}
 Som nevnt har du kanskje lært om farger på skolen og brukt maling eller
-fargeblyanter. Du lærte nok om primærfargene rød, gul og blå,
+fargeblyanter. Du lærte nok om primærfargene rød, **gul** og blå,
 og at du kunne lage omtrent alle slags farger ved å blande disse sammen.
 
-Når man maler, jo flere farger som blandes sammen, desto mørkere ble den
-ferdige fargen. Dette er fordi malingen inneholder fargede pigmenter som
-absorberer lys. Jo flere farger av lyset som absorberes, desto færre farger
-og mindre lys reflekteres og treffer øyet ditt. For eksempel absorberer grønn
-maling gult og blått lys, det grønne lyset reflekteres tilbake og treffer
-øyet ditt. Derfor kan du blande gul og blå for å få grønn.
+Jo flere farger man blander sammen når man maler, desto mørkere ble
+den ferdige fargen. Dette er fordi malingen inneholder fargede
+pigmenter som absorberer lys. Jo flere farger av lyset som absorberes,
+desto færre farger og mindre lys reflekteres og treffer øyet ditt. For
+eksempel absorberer grønn maling rødt og blått lys, det grønne lyset
+reflekteres tilbake og treffer øyet ditt. Gul maling absorberer blått
+lys, og blå maling absorberer rødt og deler av det grønne lyset. Da
+gjenstår det bare grønt lys igjen, og derfor kan du blande gul og blå
+for å få grønn.
 
 I en datamaskin er det annerledes. Har du lagt merke til at skjermen lyser?
 Siden skjermen lyser, angir vi *hvor mye* hver farge skal *lyse*. Øyet
@@ -236,7 +242,7 @@ finnes i Processing.
 De som har jobbet med nettsider, er vant til å angi farger med en sekssifret
 kode: `#0123EF`. Du tenker kanskje: «Kan `F` være et siffer?» Ja, i
 heksadesimaler, eller sekstentallssystemet, utvides sifrene med
-bokstavene A-F. Da får vi sifre fra 0-F, som er tallene fra null til
+bokstavene A-F. Da får vi sifre fra 0 til F, som er tallene fra null til
 femten. `A` er da 10, `B` er 11, `C` er 12, osv. Det er ingen forskjell på små
 og store bokstaver her, så man kan også skrive det som `#0123EF`.
 
@@ -271,11 +277,9 @@ med eksempelvis `background`. Senere skal vi se på hvordan vi kan lage *color*-
 
 # Steg 4: HSB {.activity}
 
-Da vi så på fargevelgeren, så vi tre tekstfelter merket H, S og B. Vi
-så også hvordan disse oppførte seg når vi endret fargevalget: H ble
-styrt av det høye fargefeltet i fargevelgeren, S ble styrt av hvor
-langt vi flyttet oss sidelengs i det store kvadratiske feltet og B ble
-styrt av hvordan vi flyttet oss opp og ned i dette feltet.
+Da vi så på fargevelgeren, så vi tre tekstfelter merket H, S og B. Du
+så kanskje også hvordan disse oppførte seg når vi endret fargevalget?
+Hvis ikke, tar vi en rask titt på dette igjen under.
 
 Dette systemet kalles HSB: Hue, Saturation, Brightness. Som på norsk
 er fargetone/kulør, fargemetning og lyshet/valør. Det første tallet,
@@ -285,7 +289,20 @@ fargen skal være.
 
 ## Sjekkliste {.check}
 
-+ La oss prøve ut HSB:
++ Først tar vi en titt på hvordan fargevelgeren og HSB henger
+  sammen. Åpne fargevelgeren igjen med **Tools → Color Selector**.
+
++ Bruk det store fargefeltet til venstre og se hva som skjer med de
+  tre verdiene: H, S og B. Hvordan oppfører de seg når du gjør fargen
+  lysere, mørkere, sterkere og svakere? Kan du knytte en av de tre
+  verdiene til bevegelse opp og ned? Hva med sideveis?
+
++ Bruk det lille fargefeltet ved siden av og se hva som skjer med
+  verdiene nå. Hvilke av verdiene endres når du endrer plasseringen i
+  dette feltet?
+
++ La oss prøve ut HSB nå som du har sett hvordan disse verdiene henger
+  sammen i farge velgeren:
 
   ```processing
   void setup() {
