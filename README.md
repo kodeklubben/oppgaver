@@ -208,7 +208,18 @@ Vi begynner med å lage et vindu som er stort nok til å holde spillet.
 <img src="imgs/steg.png" width="500">
 
 
-For å sprite opp stegene, inkluder gjerne en utfordring på slutten:
+For å sprite opp stegene, sjekk gjerne at konseptet er forstått:
+
+```
+**Spørsmål: Hvor mange linjer ble skrevet ut?**
+<input type="text" placeholder="Svar.." for="test-0" answer="10">
+
+# Steg 2: Neste steg {.test-0}
+```
+
+<img src="https://cloud.githubusercontent.com/assets/4810521/11766922/92e5be68-a19b-11e5-9207-3092e6060e35.gif" width="300">
+
+Eller inkluder en utfordring:
 
 ```
 ## Utfordring: Dine egne tilpasninger {.challenge}
@@ -228,6 +239,16 @@ Med `input("spørsmål ")` kan du spørre om tekst fra brukeren av programmet.
 
 <img src="imgs/tips.png" width="500">
 
+Eller et skjult tips:
+
+```
+<toggle>
+  **Hint**
+  <hide>Tekst med kode `code();`.</hide>
+</toggle>
+```
+
+<img src="https://cloud.githubusercontent.com/assets/4810521/11766806/52fcee56-a197-11e5-8354-b1cda2b09e57.gif" width="300">
 
 Eller ting som kan prøves ut:
 
