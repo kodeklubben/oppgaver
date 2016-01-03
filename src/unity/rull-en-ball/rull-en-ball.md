@@ -260,7 +260,7 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
     __PlayerController.cs__
     ```csharp
     using UnityEngine;
-    using UnityEngine.UI;
+    using System.Collections;
 
     public class PlayerController : MonoBehaviour {
 
@@ -312,8 +312,8 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
     __PlayerController.cs__
     ```csharp
     using UnityEngine;
-    using UnityEngine.UI;
-    using System.Collections;                               // Ny linje
+    using UnityEngine.UI;                                   // Ny linje
+    using System.Collections;                               
 
     public class PlayerController : MonoBehaviour {
 
