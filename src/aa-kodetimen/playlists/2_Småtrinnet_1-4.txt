@@ -1,0 +1,3 @@
+code_org/codestudio_barnehage.md
+code_org/codestudio_smatrinn.md
+scratch/kodeklubben.md

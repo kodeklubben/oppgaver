@@ -1,4 +1,9 @@
 .DS_Store
 .idea/*
 build
-kodeklubben.github.io
+dist
+
+# Emacs temporary and recovery files
+*~
+.#*
+\#*#

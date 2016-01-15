@@ -1,7 +1,7 @@
 ---
 title: Straffespark
 level: 1
-author: Geir Arne Hjelle og Erik Kalstad
+author: Erik Kalstad og Geir Arne Hjelle
 ---
 
 # Introduksjon {.intro}
@@ -29,8 +29,10 @@ mange straffespark som mulig.
   bakgrunnen `Utendørs/goal1` eller `Utendørs/goal2`.
 
 + Vi skal nå skrive et lite program som flytter katten `Leo` når vi
-  klikker på ham. Merk `Leo` i figurvinduet. Pusle deretter sammen de
-  følgende klossene i skriptvinduet til høyre:
+  klikker på ham. Merk `Leo` i figurvinduet nederst på skjermen, og
+  klikk `Skript`-fanen slik at du ser de forskjellige kommandoklossene
+  igjen. Pusle deretter sammen de følgende klossene i skriptvinduet
+  til høyre:
 
     ```blocks
         når denne figuren klikkes
@@ -52,8 +54,8 @@ __Klikk på det grønne flagget.__
   ham dit du vil.
 
 + Vi vil likevel programmere en enklere måte å få `Leo` tilbake på
-  banen på. Lag et nytt skript, ved siden av det du allerede har
-  laget, som ser slik ut:
+  banen på. Lag et **nytt** skript, **ved siden av** det du allerede
+  har laget, som ser slik ut:
 
     ```blocks
         når grønt flagg klikkes
@@ -104,7 +106,7 @@ innimellom.
             gå (6) steg
         slutt
     ```
-    
+
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
@@ -113,6 +115,10 @@ __Klikk på det grønne flagget.__
 
 + Kan `Leo` sparke ballen en gang til dersom du trykker det grønne
   flagget igjen?
+
++ Hvis `Leo` sparker ballen før du klikker på ham (med en gang du
+  trykker det grønne flagget), så må du endre litt på tallene i `gå til
+  x: y:`{.blockmotion}-klossen slik at ballen ligger i ro foran `Leo`.
 
 # Steg 3: Vi trenger en keeper! {.activity}
 
@@ -164,24 +170,13 @@ __Klikk på det grønne flagget.__
 + Du synes kanskje at keeperen er litt stor? Vi har tidligere sett
   hvordan vi kan bruke ![krymp](../bilder/krymp.png) for å gjøre
   figurer mindre. En annen måte å endre størrelsen på er ved å bruke
-  klosser fra `Utseendet`{.blocklooks}-kategorien. Endre skriptet ditt
-  slik at det ser ut som dette:
+  klosser fra `Utseendet`{.blocklooks}-kategorien.
 
-    ```blocks
-        når grønt flagg klikkes
-        begrens rotasjon [vend sideveis v]
-        sett størrelse til (50) %
-        gå til x: (100) y: (-50)
-        pek i retning (0 v)
-        for alltid
-            gå (15) steg
-            sprett tilbake ved kanten
-        slutt
-    ```
-
-    Om du har brukt en annen figur enn blekkspruten som `Keeper` vil
-    du kanskje bruke et annet tall enn `50` når du setter størrelsen.
-    Prøv deg frem!
+    Legg klossen `sett størrelse til 100%`{.blocklooks} inn i `for
+    alltid`{.blockcontrol}-løkka. Du kan nå eksperimentere med å endre
+    `100%` til et annet tall til du finner en passende størrelse på
+    keeperen. Om du har brukt blekkspruten som `Keeper` passer `50%`
+    ganske bra. Prøv deg frem!
 
 ## Test prosjektet {.flag}
 
@@ -201,7 +196,8 @@ eller når ballen går i mål.
 ## Sjekkliste {.check}
 
 + Vi begynner med å finne ut når keeperen redder ballen. Klikk på
-  `Ball`. Endre deretter skriptet slik:
+  `Ball`. Legg til en `hvis ellers`{.blockcontrol}-kloss i skriptet
+  slik:
 
     ```blocks
         når grønt flagg klikkes
@@ -231,6 +227,10 @@ reagere på ting som skjer.
         når jeg mottar [Redning v]
         stopp [andre skript i figuren v] :: control
     ```
+
+    Et triks er å først skrive denne koden for `Ball`. Deretter kan du
+    kopiere den til `Keeper` ved å dra koden til `Keeper`-figuren i
+    figurvinduet nederst på skjermen.
 
 ## Test prosjektet {.flag}
 
@@ -274,7 +274,6 @@ merket `x` og `y`. Disse viser koordinatene til musepekeren.
 + På samme måte som for redning kan vi avslutte bevegelsen til `Ball`
   og `Keeper` ved å lage dette skriptet på begge figurene:
 
-
     ```blocks
         når jeg mottar [Mål v]
         stopp [andre skript i figuren v] :: control
@@ -288,8 +287,8 @@ merket `x` og `y`. Disse viser koordinatene til musepekeren.
         si [Ja, det ble mål!!] i (2) sekunder
     ```
 
-+ Lag et tilsvarende skript der `Leo` depper litt, om det blir en
-  `Redning`. Prøv dette på egen hånd!
++ Lag et tilsvarende skript der `Leo` sier noe om at han er lei seg om
+  det blir en `Redning`. Prøv dette på egen hånd!
 
 ## Test prosjektet {.flag}
 

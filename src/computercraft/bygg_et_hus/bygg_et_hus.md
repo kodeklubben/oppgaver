@@ -244,7 +244,6 @@ kan bruke på samme måte som de innebygde kommandoene (som for eksempel
   at det ser ut som dette, pass på at du sletter de to linjene som
   pleide å gi verdi til `hoyde` og `lengde`.
 
-
     ```lua
     function byggVegg(hoyde, lengde)              -- endret linje
         for j = 1, hoyde do

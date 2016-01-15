@@ -315,7 +315,6 @@ ballen flytter på seg.
   at ballen faller stadig raskere ned mot bakken, altså den øker
   `fartY`.
 
-
     ```lua
     function tegnBall(skjerm)
         local bredde, hoyde = skjerm.getSize()

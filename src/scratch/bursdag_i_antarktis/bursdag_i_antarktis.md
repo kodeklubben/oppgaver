@@ -468,6 +468,7 @@ __Klikk på det grønne flagget.__
         vis
         vent (1) sekunder
         spør [Hva heter du?] og vent
+        send melding [Navn1]
     ```
 
 ## Test prosjektet {.flag}
