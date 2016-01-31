@@ -1,5 +1,5 @@
 ---
-title: Hangman
+title: Hangman 2
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 level: 3
 ---
