@@ -1,15 +1,13 @@
 ---
 title: Repetisjon
-level: 1
+level: 3
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 ---
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi repetere litt Python-syntaks. Hele dette kurset
-er for de som har programmert Python før. Dersom ikke har mye erfaring med
-Python før bør du starte med [introduksjonskurset i Python](../../python/index.html).
-
+I denne oppgaven skal vi repetere litt Python-syntaks, det er en god blanding
+av alle tingene du har lært i Python til nå.
 
 # Kodeblokker {.activity}
 I oppgavene er noen eksempler så korte at vi kan skrive de direkte inn i

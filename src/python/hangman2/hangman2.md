@@ -1,7 +1,7 @@
 ---
-title: Hangman
+title: PGZ - Hangman
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
-level: 3
+level: 4
 ---
 
 # Introduksjon {.intro}

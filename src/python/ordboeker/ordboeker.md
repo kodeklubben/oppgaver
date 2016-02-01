@@ -1,5 +1,5 @@
 ---
-level: 2
+level: 3
 title: Ordbøker
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 ---

@@ -1,7 +1,7 @@
 ---
-title: Sprettball
-level: 3
-Author: Ole Kristian Pedersen, Kodeklubben Trondheim
+title: PGZ - Sprettball
+level: 4
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
 ---
 
 # Introduksjon {.intro}
