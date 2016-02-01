@@ -1,5 +1,5 @@
 ---
-title: Løpende strekmann
+title: PGZ - Løpende strekmann
 level: 3
 Author: Ole Andreas Ramsdal, Kodeklubben Trondheim
 ---
@@ -283,7 +283,7 @@ truffet av boksen.
 
 + Øk poengsummen med 10 poeng hvis boksen er ute av bildet og strekmannen ikke
   er truffet.
-  
+
 + Før boksen flyttes til høyre side, nullstill `stick_man.hit` til `False`.
 
 + Tegn poengsummen på skjermen inni `draw()`:

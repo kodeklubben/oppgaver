@@ -1,6 +1,6 @@
 ---
 title: Tekst ABC
-level: 1
+level: 3
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Enkle objekter
-level: 2
+level: 4
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 ---
 

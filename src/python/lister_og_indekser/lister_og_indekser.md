@@ -1,6 +1,6 @@
 ---
 title: Lister og indekser
-level: 2
+level: 3
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 ---
 
