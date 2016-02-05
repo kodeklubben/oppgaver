@@ -88,12 +88,12 @@ app, men det er mulig å utvide appen etter egne ønsker etterpå.
   Inne i denne legger du til to nye labels. La den ene ha teksten `Rekord` og være plassert til venstre.
   La den andre være uten tekst, fylle bredden og plasser teksten til høyre. **Components** ser nå slik ut:
   
-  ![](components1.png)
+  ![](components.png)
 
 + Til slutt fikser du på hvordan **Screen1** skal se ut. Legg gjerne til et bilde, endre bakgrunnsfarge, 
   skriftstørrelse eller andre ting slik at den ser ut som du ønsker. Et eksempel på hvordan det kan se ut er:
   
-  ![](screen1.png)
+  ![](screen.png)
 
 # Steg 4: Programmere menyen {.activity}
 
