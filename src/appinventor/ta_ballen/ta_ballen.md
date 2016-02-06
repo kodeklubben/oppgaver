@@ -6,12 +6,18 @@ author: Tjerand Silde
 
 # Introduksjon {.intro}
 Nå skal vi lage en app som heter `Ta ballen`. For å lage denne appen så forutsetter vi at vi vet hvordan 
-*MIT App Inventor* fungerer fra tidligere oppgavesett, og kan utføre instruksjoner uten å få alt forklart i detalj. 
-Denne appen går ut på at en ball spretter frem og tilbake på skjermen, og du vinner ved å trykke på ballen 
-med fingeren din. Dess kjappere du klarer å treffe ballen, dess flere poeng får du. Dette er en ganske enkel 
-app, men det er mulig å utvide appen etter egne ønsker etterpå.
+*MIT App Inventor* fungerer fra 
+[tidligere oppgavesett](http://kodeklubben.github.io/appinventor/introduksjon/introduksjon.html), og kan 
+utføre instruksjoner uten å få alt forklart i detalj. Denne appen går ut på at en ball spretter frem 
+og tilbake på skjermen, og du vinner ved å trykke på ballen med fingeren din. Dess kjappere du klarer 
+å treffe ballen, dess flere poeng får du. Dette er en ganske enkel app, men det er mulig å utvide 
+appen etter egne ønsker etterpå.
+
+  ![](introduksjon.png)
 
 # Steg 1: Opprette spillskjerm {.activity}
+
+Det første vi skal gjøre er å opprette en spillskjerm, og legge til en klokke og en ball. 
 
 ## Sjekkliste {.check}
 
@@ -33,6 +39,10 @@ app, men det er mulig å utvide appen etter egne ønsker etterpå.
   ![](spill.png)
 
 # Steg 2: Programmere spillet {.activity}
+
+Nå skal vi programmere spillet. Dette gjør vi ved å opprette flere funksjoner for å sjekke tiden 
+og poengene i spillet når ballen blir trykket på. Vi må også bestemme hvordan ballen skal bevege 
+på seg i spillet.
 
 ## Sjekkliste {.check}
 
@@ -74,6 +84,9 @@ app, men det er mulig å utvide appen etter egne ønsker etterpå.
 
 # Steg 3: Designe menyen {.activity}
 
+Nå vi starter appen, så kommer vi til en meny. Der skal vi vise poengsummen fra spillet, 
+og ha muligheten til å starte spillet på nytt.
+
 ## Sjekkliste {.check}
 
 + Gå tilbake til `Screen1` og `Designer`.
@@ -96,6 +109,8 @@ app, men det er mulig å utvide appen etter egne ønsker etterpå.
   ![](screen.png)
 
 # Steg 4: Programmere menyen {.activity}
+
+Nå som menyen er designet ferdig, er vi nødt til å programmere den slik at noe skjer når vi trykker på knappene.
 
 ## Sjekkliste {.check}
 
@@ -121,6 +136,9 @@ app, men det er mulig å utvide appen etter egne ønsker etterpå.
 
 # Steg 5: Opprette krediteringskjerm {.activity}
 
+Når vi har laget en app så er det litt gøy at det står hvem som har laget den, 
+og det skal vi nå lage en egen skjerm for å vise.
+
 ## Sjekkliste {.check}
 
 + Lag en ny skjerm ved navn "Creditz". 
@@ -128,6 +146,6 @@ app, men det er mulig å utvide appen etter egne ønsker etterpå.
 + Legg til en **Label** hvor du skriver at `Denne appen er laget av ...`, etterfulgt av navnet ditt. 
   Det kan også være passende å legge til et bilde, enten av deg selv eller noe annet kult.
  
-+ For å kunne gå tilbake til forsiden så legger vi inn en blokk som sier `when Creditz.BackPressed - do` 
-  fra **Screen1**. Inne i denne blokken plasserer vi `open another screen  screenName` som er koblet 
-  med `Screen1`.
++ For å kunne gå tilbake til forsiden så må vi bytte til `Blocks`, hvor vi legger inn en blokk som sier 
+`when Creditz.BackPressed - do` fra **Screen1**. Inne i denne blokken plasserer vi 
+`open another screen  screenName` som er koblet med `Screen1`.
