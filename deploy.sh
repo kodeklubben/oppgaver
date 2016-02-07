@@ -3,7 +3,7 @@
 cd ${0%/*}
 git pull && \
 cd codeclub_lesson_builder && \
-git fetch origin nb-NO && \
+git fetch origin master && \
 git merge --no-edit FETCH_HEAD && \
 npm install && \
 cd .. && \
