@@ -28,7 +28,7 @@ sirkler.
   midten av sirkelen. Denne avstanden er radius i sirkelen, som regel
   skriver vi bare `r` i figurer og formler.
 
-!()[SirkelRadius.png "En sirkel med linjer med lengde `r` fra sentrum til punkter i omrisset"]
+!()[SirkelRadius.png "En sirkel med linjer med lengde `r` fra sentrum av sirkelen til punkter i omrisset"]
 
 + Vi kan tegne en rettvinklet trekant som ligger vannrett og strekker
   seg fra midten til dette punktet.
@@ -36,11 +36,68 @@ sirkler.
 !()[RettvinkletTrekantSirkel.png "En rettvinklet trekant mellom et punkt i sirkelens omriss og sentrum."]
 
 + Hvis vi sier at sentrum av sirkelen ligger i punktet (0, 0), altså X
-  og Y er null i midten av sirkelen, kan vi se på avstanden til
-  punktet i X og Y hver for seg. Disse avstandene utgjør to av sidene
-  i trekanten ovenfor. Den siste siden er da linjen fra sentrum med
-  avstand `r`. Det er vanlig å kalle de tre sidene i en trekant og
-  lengdene deres `a`, `b` og `c`. I dette tilfellet har vi `c = r`.
+  og Y er null i midten av sirkelen, kan vi se på X og Y hver for seg
+  når vi finner punktet i omrisset. To av sidene i trekanten ovenfor
+  viser da X og Y. Den siste siden er linjen fra sentrum med lengde
+  `r`. Her har vi kalt sidene `a`, `b` og `c`; navnet kan brukes for
+  lengdene til sidene også. I dette tilfellet har vi `c = r` når vi
+  snakker om lengden. For vinkler er det vanlig å bruke greske
+  bokstaver, og vi har her brukt `α`.
 
 + Lengden på de to andre sidene, `a` og `b`, er gitt av funksjonene
-  sinus og cosinus.
+  sinus og cosinus, vinkelen `α` og radien til sirkelen. De korte
+  sidene som sammen lager det rettvinklede hjørnet, kalles kateter og
+  den lange siden med lengde `r` kalles hypotenus. Lengden på katetet
+  som er med på hjørnet med vinkelen `α`, har lengden `cos(α) *
+  r`. Lengden på det andre katetet er `sin(α) * r`.
+
+!()[TrekantSiderSirkel "Den samme rettvinklede trekanten med formler for sidene."]
+
+# Regulære mangekanter {.activity}
+
+La oss tegne opp noen regulære mangekanter. Det vil si mangekanter der
+avstanden mellom hvert hjørne er lik, altså de er likesidede, og
+vinkelen i hvert hjørne er lik, altså de er likevinklede. Da lurer du
+kanskje på hvordan du skal få til dette. Det er faktisk ganske enkelt,
+for hjørnene i en regulær mangekant fordeler seg jevnt langs omrisset
+av en sirkel.
+
++ Kan du tegne en regulær pentagon, en femkant der alle kantene er
+  like lange, og alle hjørnene har samme vinkel? Hjørnene i en regulær
+  mangekant ligger på omrisset av en sirkel.
+
+![](Femkant.png "Vinkelen mellom to nabohjørner og sentrum i en femkant er 360° / 5 = 72°.")
+
++ Hva med en regulær hexagon, sekskant? Eller heptagon, syvkant?
+  Klarer du å gjøre det slik at du bruker variabelen `KANTER` til å
+  styre hvor mange kanter den skal ha?
+
++ Stjerner med et oddetall antall spisser, kan tegnes som en regulær
+  mangekant der man hopper over en spiss hver gang. Kan du finne
+  spissene og tegne en 5-kantet stjerne?
+
+    Spissene fordeler seg med like stor avstand fra hverandre
+    (vinkelen mellom et hjørne, sentrum og det neste hjørnet er lik
+    for hver spiss). Når man tegner en femkantet stjerne, tegner man
+    en strek fra en spiss til den etter den neste.
+
+![](Pentagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en femkantet stjerne er 2 · 360° / 5 = 144°.")
+
++ Kan du tegne en syvkantet stjerne? Eller en nikantet stjerne?
+
++ Stjerner med et partall antall spisser, kan tegnes som to regulære
+  mangekanter. Spissene vil da være de samme som hjørnene i
+  mangekanten med det antallet kanter. Dette er lettest å løse ved å
+  kopiere opptegningen av formene (fra og med `beginShape()` til og
+  med `endShape(CLOSE)`), og endre `int i = 0` og `i++` til noe
+  passende i løkken.
+
+![](Oktagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en åttekantet stjerne er 2 · 360° / 8 = 90°.")
+
+Hvis du vil ha med alle strekene som vist i bildet ovenfor, må du ty
+til tre løkker der den siste kun tegner omrisset av den første formen
+(se dokumentasjonen til `noFill()`, `noStroke()` og `stroke()` ved å
+velge **Help → Reference** og bruke søkefunksjonaliteten i
+nettleseren).
+  
+
