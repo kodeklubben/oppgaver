@@ -51,22 +51,61 @@ sirkler.
   som er med på hjørnet med vinkelen `α`, har lengden `cos(α) *
   r`. Lengden på det andre katetet er `sin(α) * r`.
 
-!()[TrekantSiderSirkel "Den samme rettvinklede trekanten med formler for sidene."]
+!()[TrekantSiderSirkel "Den samme rettvinklede trekanten med formler for lengdene til sidene."]
 
 # Regulære mangekanter {.activity}
 
 La oss tegne opp noen regulære mangekanter. Det vil si mangekanter der
 avstanden mellom hvert hjørne er lik, altså de er likesidede, og
 vinkelen i hvert hjørne er lik, altså de er likevinklede. Da lurer du
-kanskje på hvordan du skal få til dette. Det er faktisk ganske enkelt,
-for hjørnene i en regulær mangekant fordeler seg jevnt langs omrisset
-av en sirkel.
+kanskje på hvordan du skal få til dette. Hjørnene i en regulær
+mangekant fordeler seg jevnt langs omrisset av en sirkel. Derfor kan
+vi bruke formlene for katetene for å regne ut hvor hjørnene skal
+være. Opptegningen ellers er som for vanlige
+[mangekanter](../mangekanter/mangekanter.html).
+
++ Vi begynner med å tegne opp en regulær pentagon (femkant).
+  
+  ```processing
+  int KANTER = 5;
+  float vinkel = 360.0 / KANTER;
+  
+  void setup() {
+    size(600, 600);
+  }
+  
+  void draw() {
+    background(0);
+    
+    beginShape();
+    for (int i = 0; i < KANTER; i++) {
+      vertex(300 + cos(radians(vinkel * i)) * 200, 300 + sin(radians(vinkel * i)) * 200);
+    }
+    endShape(CLOSE);
+  }
+  ```
+
+  Her har vi noen nye utregninger inne i kallet på `vertex`. Her
+  bruker vi tre nye funksjoner `cos` og `sin` som har blitt forklart
+  litt lenger opp, og `radians` som regner om grader til radianer, en
+  annen måleenhet for vinkler. Sinus og cosinus i dataprogrammer
+  bruker vanligvis radianer, så om vi vil jobbe med vinkler i grader,
+  må vi gjør denne konverteringen. Du ser at vi har med en variabel
+  for vinkelen mellom hvert punkt og denne har vi beregnet i grader ut
+  fra at en sirkel er 360°.
+
+![](Femkant.png "Vinkelen mellom to nabohjørner og sentrum i en femkant er 360° / 5 = 72°.")
+
++ Hva er tallet `200` her? Hva skjer om du endrer det til noe annet?
+
++ Hva med tallet `300`?
+
++ Kan du få snudd på femkanten sånn at hjørnet som nå peker rett til
+  høyre, peker opp som i figuren ovenfor?
 
 + Kan du tegne en regulær pentagon, en femkant der alle kantene er
   like lange, og alle hjørnene har samme vinkel? Hjørnene i en regulær
   mangekant ligger på omrisset av en sirkel.
-
-![](Femkant.png "Vinkelen mellom to nabohjørner og sentrum i en femkant er 360° / 5 = 72°.")
 
 + Hva med en regulær hexagon, sekskant? Eller heptagon, syvkant?
   Klarer du å gjøre det slik at du bruker variabelen `KANTER` til å
