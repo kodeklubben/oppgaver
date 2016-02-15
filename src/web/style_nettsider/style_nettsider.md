@@ -1,10 +1,9 @@
 ---
-title: Styling web pages
+title: Style nettsider
 level: 2
-language: nb-NO
 ---
 
-## Introduksjon { .intro}
+# Introduksjon { .intro}
 La oss gjøre nettsiden bedre med noen stiler.
 I denne og neste leksjon skal vi lære oss hvordan å endre farge, tekst, størrelse og mer!
 
@@ -80,7 +79,7 @@ span {
 
 ## __LAGRE__ filen og __VISE__ den i nettleseren din { .save}
 
-#Steg 4: Bakgrunn { .activity}
+# Steg 4: Bakgrunn { .activity}
 
 Vi kan legge til farge på bakgrunnen også, ikke bare på tekst. For eksempel:
 

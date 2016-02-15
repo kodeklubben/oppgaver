@@ -4,14 +4,14 @@ author: H. Kaurel
 indexed: false
 level: 4
 ---
-#Introduksjon {.intro}
+# Introduksjon {.intro}
 I denne oppgaven skal du få en enkel introduksjon til hvordan man kan lage 3D-grafikk ved hjelp av python og OpenGL. Målet med denne oppgaven er å lage en kube som roterer, enkelt og greit.
 
-##Ting du trenger for å komme i gang{.check}
+## Ting du trenger for å komme i gang{.check}
 + pygame
 + OpenGL
 
-#Steg 1 Lage et tomt pygame-program {.activity}
+# Steg 1: Lage et tomt pygame-program {.activity}
 Det første vi må gjøre er å importere en del fra diverse kodebiblioteker. Pygame er et bibliotek for å lage spill i python, og OpenGL kan brukes til å tegne grafikk både i 2D og 3D.
 
 ```python
@@ -46,7 +46,7 @@ while True:
 
 Dette er en while-løkke som kjører helt til noen krysser ut vinduet. Det er inne i denne løkken at vi kommer til å legge koden som tegner og roterer kuben vår.  
 
-#Steg 2 Tegne en firkant{.activity}
+# Steg 2: Tegne en firkant{.activity}
 Til nå har vi bare et tomt vindu som ikke viser noe fornuftig. Nå er det på tide å faktisk tegne en firkant. Det første du må gjøre er å legge til tre linjer rett over while-loopen din.
 
 ```python

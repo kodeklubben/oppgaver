@@ -4,7 +4,7 @@ level: 3
 Author: Ole Andreas Ramsdal, Kodeklubben Trondheim
 ---
 
-#Introduksjon {.intro}
+# Introduksjon {.intro}
 
 I denne oppgaven skal du lage et spill der du styrer en strekmann som hopper over hindringer.
 
@@ -320,4 +320,3 @@ truffet av boksen.
 - Send flere bokser med ulik hastighet inn på skjermen samtidig.
 
 - Dine egne ideer?
-
