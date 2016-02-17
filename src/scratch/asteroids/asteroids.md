@@ -35,7 +35,7 @@ asteroider ved å skyte dem i småbiter.
 
 # Steg 1: Enda et flyvende romskip {.activity}
 
-*I [Lunar Lander](../lunar_lander/lunar_lander.html) laget vi flott
+*I [Lunar Lander](../lunar_lander/lunar_lander.html) laget vi et flott
  romskip. Nå skal vi se hvordan vi kan bruke det samme romskipet i
  dette prosjektet.*
 
@@ -73,7 +73,7 @@ vi laget i Lunar Lander.
   om du har et `Sjekk landing`-skript trenger vi ikke det i dette
   spillet.
 
-+ Legg et lite skript på scenen som sender en melding til romskipet om
++ Legg et skript på scenen som sender en melding til romskipet om
   at det skal begynne å fly når det grønne flagget klikkes. Prøv
   spillet ditt. Kan du fly romskipet rundt omkring?
 
@@ -281,5 +281,3 @@ vi laget i Lunar Lander.
   tallerken (UFO) innimellom. Denne måtte man også passe seg for, men
   i motsetning til asteroidene kunne UFOen skyte tilbake. Prøv å legg
   til en slik UFO i spillet ditt!
-
-
