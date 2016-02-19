@@ -12,6 +12,7 @@ Fem ninjaer kom til byen, og du må skjule dem før noen legger merke til dem. V
 ![screenshot](ninjas.png)
 
 # Steg 1: Møt ninjaene { .activity}
++ Last ned [ninjaer.zip](ninjaer.zip) og pakk ut filene på din datamaskin.
 
 + Åpne filen kalt ninjaer.html i teksteditoren. Åpne det opp i nettleseren også.
 + Les gjennom koden. Kan du gjette hvilken del av koden som hører til delene i gatene? Legg merke til av vi bruker to språk her: HTML for å legge til elementene på siden, og CSS plassert mellom `style` taggene.
