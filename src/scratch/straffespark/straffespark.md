@@ -225,6 +225,7 @@ reagere på ting som skjer.
 
     ```blocks
         når jeg mottar [Redning v]
+        vent (0.1) sekunder
         stopp [andre skript i figuren v] :: control
     ```
 
@@ -276,6 +277,7 @@ merket `x` og `y`. Disse viser koordinatene til musepekeren.
 
     ```blocks
         når jeg mottar [Mål v]
+        vent (0.1) sekunder
         stopp [andre skript i figuren v] :: control
     ```
 
