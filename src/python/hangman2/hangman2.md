@@ -238,4 +238,3 @@ Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
     * Pass på at du viser løsningsordet nederst.
 
    ![](./hangman_lost_game.png)
-

@@ -1,11 +1,8 @@
 ---
-title: Flaksefugl
-level: 1.11
-language: nb-NO
-embeds: "flaksefugl.png"
+title: Lærerveiledning - Flaksefugl
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Nå skal vi lage vår egen versjon av spillet __Flappy Bird__. Du styrer
 fuglen __Flakse__ ved å trykke på mellomromtasten for å flakse med
