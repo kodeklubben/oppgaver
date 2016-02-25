@@ -2,7 +2,7 @@
 title: Lærerveiledning - JafseFisk
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Vi skal nå lage et JafseFisk-spill! Målet i spillet er å hjelpe
 JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.

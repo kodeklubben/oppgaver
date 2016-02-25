@@ -2,7 +2,7 @@
 title: Lærerveiledning - Snøballkrig
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 I dette spillet vil vi kontrollere snøballkaster som prøver å jage
 bort slemme gutter ved å kaste snøball etter dem.

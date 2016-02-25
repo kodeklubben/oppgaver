@@ -2,7 +2,7 @@
 title: Lærerveiledning - Krabbeangrep!
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 I våre kodeklubbmøter i Deichmanske på Majorstuen merker vi at barna ofte bare blir nesten ferdige med et spill før timen er over. Derfor er ideen bak Krabbeangrep! at skjelettet til spillet står ferdig før barna selv remikser det for å legge til ekstra funksjonalitet.
 

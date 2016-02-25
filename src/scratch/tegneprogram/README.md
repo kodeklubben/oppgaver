@@ -2,7 +2,7 @@
 title: Lærerveiledning - Tegneprogram
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 I dette prosjektet lager vi et tegneprogram slik at man etterpå kan
 lage sin egen kunst. Man kan tegne med forskjellige farger, bruke

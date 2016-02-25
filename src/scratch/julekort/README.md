@@ -2,7 +2,7 @@
 title: Lærerveiledning - Julekort
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 I dette prosjektet ser vi på forskjellige måter vi kan animere figurer
 på. Temaet er holdt rundt jul og vinter, slik at oppgaven passer bra i

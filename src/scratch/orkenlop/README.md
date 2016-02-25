@@ -2,7 +2,7 @@
 title: Lærerveiledning - Ørkenløp
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Dette er et spill for to, der en papegøye og en løvinne kjemper om å
 komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og

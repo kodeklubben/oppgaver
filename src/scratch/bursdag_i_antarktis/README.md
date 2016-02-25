@@ -2,7 +2,7 @@
 title: Lærerveiledning - Bursdag i Antarktis
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Bursdag i Antarktis er en interaktiv animasjon som forteller historien
 om en liten katt som har gått seg bort på bursdagen sin. Heldigvis

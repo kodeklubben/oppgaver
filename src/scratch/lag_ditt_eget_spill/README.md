@@ -2,7 +2,7 @@
 title: Lærerveiledning - Lag ditt eget spill
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 I dette prosjektet skal barna designe og lage et spill helt fra
 grunnen av. De må tenke på de ulike delene av spillet og planlegge

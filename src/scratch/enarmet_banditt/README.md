@@ -2,7 +2,7 @@
 title: Lærerveiledning - Enarmet banditt
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Dette er et enkelt spill der tre figurer bytter drakter. Spilleren må
 stoppe dem når de alle viser det samme bildet (tilsvarende en enarmet

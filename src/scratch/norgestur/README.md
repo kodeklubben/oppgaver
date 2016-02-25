@@ -2,7 +2,7 @@
 title: Lærerveiledning - Norgestur
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Bli med på en rundreise i Norge! Vi skal lage et spill hvor du styrer
 et helikopter rundt omkring et kart over Norge, mens du prøver å

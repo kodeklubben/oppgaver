@@ -2,7 +2,7 @@
 title: Hva er det?
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Et bilde av en tilfeldig ting vises på tavlen. Men bildet er
 forvrengt, slik at du må gjette hva det er ved å klikke på et av

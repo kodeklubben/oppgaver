@@ -2,7 +2,7 @@
 title: Lærerveiledning - Felix og Herbert
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Vi skal lage et spill hvor katten __Felix__ skal fange musa
 __Herbert__. Spilleren styrer Herbert med musepekeren og skal prøve å

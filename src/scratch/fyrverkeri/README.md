@@ -2,7 +2,7 @@
 title: Lærerveiledning - Fyrverkeri
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Denne interaktive leken viser fyrverkeri som eksploderer og smeller på
 himmelen når man klikker. Dette prosjektet viser et eksempel på
