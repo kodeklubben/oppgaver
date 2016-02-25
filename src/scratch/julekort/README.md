@@ -1,9 +1,6 @@
 ---
-title: Julekort
-level: Scratch
-language: nb-NO
-embeds: "julekort.png"
-...
+title: Lærerveiledning - Julekort
+---
 
 # Informasjon til Veiledere
 

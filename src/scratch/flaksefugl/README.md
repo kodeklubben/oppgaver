@@ -1,8 +1,5 @@
 ---
-title: Flaksefugl
-level: 1.11
-language: nb-NO
-embeds: "flaksefugl.png"
+title: Lærerveiledning - Flaksefugl
 ---
 
 # Informasjon til Veiledere

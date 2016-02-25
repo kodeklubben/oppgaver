@@ -1,8 +1,5 @@
 ---
-title: Tegneprogram
-level: 1.8
-language: nb-NO
-embeds: "tegneprogram.png"
+title: Lærerveiledning - Tegneprogram
 ---
 
 # Informasjon til Veiledere

@@ -1,8 +1,5 @@
 ---
-title: Fyrverkeri
-level: 1.3
-language: nb-NO
-embeds: "skjermbilde.png"
+title: Lærerveiledning - Fyrverkeri
 ---
 
 # Informasjon til Veiledere
@@ -37,4 +34,3 @@ animasjon. Spesielt lærer man
 3. hvordan __spille lyder__,
 4. hvordan __sende og motta meldinger__ for å samkjøre når ting skjer,
 5. enkel bruk av __koordinater__.
-

@@ -1,8 +1,5 @@
 ---
-title: Felix og Herbert
-level: 1.1
-language: nb-NO
-embeds: "skjermbilde.png"
+title: Lærerveiledning - Felix og Herbert
 ---
 
 # Informasjon til Veiledere

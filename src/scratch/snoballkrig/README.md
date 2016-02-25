@@ -1,8 +1,5 @@
 ---
-title: Snøballkrig
-level: 1.5
-language: nb-NO
-embeds: "snoballkrig.png"
+title: Lærerveiledning - Snøballkrig
 ---
 
 # Informasjon til Veiledere

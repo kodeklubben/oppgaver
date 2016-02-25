@@ -1,8 +1,5 @@
 ---
-title: JafseFisk
-level: 1.5
-language: nb-NO
-embeds: "jafsefisk.png"
+title: Lærerveiledning - JafseFisk
 ---
 
 # Informasjon til Veiledere
@@ -25,4 +22,3 @@ JafseFisk demonstrerer hvordan man
 2. flytter figurer __tilfeldig__ rundt på skjermen,
 3. oppdager at to figurer __kolliderer__ med hverandre,
 4. legger inn __forbedringer__ og __variasjoner__ i spillet.
-

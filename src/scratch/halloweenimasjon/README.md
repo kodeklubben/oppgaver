@@ -1,7 +1,5 @@
 ---
-title: Halloweenimasjon
-language: nb-NO
-embeds: "halloweenimasjon.jpg"
+title: Lærerveiledning - Halloweenimasjon
 ---
 
 # Informasjon til Veiledere

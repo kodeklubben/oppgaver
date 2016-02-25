@@ -1,4 +1,7 @@
-# Hangman
+---
+title: Lærerveiledning - PGZ Hangman
+---
+# Sammendrag
 
 Oppgaven skal gi trening i bruk av enkle strengfunksjoner, samt litt bruk av
 lister, løkker og dictionaries.

@@ -1,8 +1,5 @@
 ---
-title: Norgestur
-level: 1.4
-language: nb-NO
-embeds: "norgestur.png"
+title: Lærerveiledning - Norgestur
 ---
 
 # Informasjon til Veiledere
@@ -28,7 +25,7 @@ forhånd om dette er mulig. Kartet er tilgjengelig på
 
 Noen av læringsmålene i Norgestur inkluderer
 
-1. hvordan __styre figurer__ ved hjelp av __tastaturet__, 
+1. hvordan __styre figurer__ ved hjelp av __tastaturet__,
 2. hvordan man kan __tegne og bruke egne bakgrunner og figurer__,
 3. bruk av __meldinger__ for å styre flyten i et spill,
 4. hvordan figurer kan gjøres __usynlige__, og

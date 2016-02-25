@@ -1,7 +1,5 @@
 ---
-title: Lag Ditt Eget Spill
-level: 1.9
-language: nb-NO
+title: Lærerveiledning - Lag ditt eget spill
 ---
 
 # Informasjon til Veiledere
@@ -37,4 +35,3 @@ Underveis får barna spesielt trening i
 + __planlegging__ av et større prosjekt, og å bryte det ned i __mindre
   delprosjekter__,
 + __testing__ og __feilretting__ av egen kode.
-

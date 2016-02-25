@@ -1,8 +1,5 @@
 ---
-title: Ørkenløp
-level: 1.6
-language: nb-NO
-embeds: "orkenlop.png"
+title: Lærerveiledning - Ørkenløp
 ---
 
 # Informasjon til Veiledere
@@ -27,4 +24,3 @@ og krever som sådann ingen spesielle forberedelser.
 2. å bruke en __startknapp__ for å starte spillet,
 3. å __nullstille spillet__ slik at det kan spilles igjen,
 4. bruk av __egendefinerte__ klosser.
-

@@ -1,8 +1,5 @@
 ---
-title: Enarmet banditt
-level: 1.4
-language: nb-NO
-embeds: "enarmet_banditt.png"
+title: Lærerveiledning - Enarmet banditt
 ---
 
 # Informasjon til Veiledere
@@ -25,4 +22,3 @@ Enarmet banditt gir trening i flere konsepter, inkludert
 1. __endring av drakter__,
 2. __bruk av løkker__ for å gjøre ting flere ganger,
 3. hvordan __stoppe løkker__ når man klikker med musen.
-
