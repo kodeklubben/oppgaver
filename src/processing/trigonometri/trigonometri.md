@@ -28,30 +28,33 @@ sirkler.
   midten av sirkelen. Denne avstanden er radius i sirkelen, som regel
   skriver vi bare `r` i figurer og formler.
 
-!()[SirkelRadius.png "En sirkel med linjer med lengde `r` fra sentrum av sirkelen til punkter i omrisset"]
+![](SirkelRadius.png "En sirkel med linjer med lengde `r` fra sentrum av sirkelen til punkter i omrisset")
 
 + Vi kan tegne en rettvinklet trekant som ligger vannrett og strekker
-  seg fra midten til dette punktet.
+  seg fra midten av sirkelen til ett av disse punktene.
 
-!()[RettvinkletTrekantSirkel.png "En rettvinklet trekant mellom et punkt i sirkelens omriss og sentrum."]
+![](RettvinkletTrekantSirkel.png "En rettvinklet trekant mellom et punkt i sirkelens omriss og sentrum.")
 
 + Hvis vi sier at sentrum av sirkelen ligger i punktet (0, 0), altså X
-  og Y er null i midten av sirkelen, kan vi se på X og Y hver for seg
-  når vi finner punktet i omrisset. To av sidene i trekanten ovenfor
-  viser da X og Y. Den siste siden er linjen fra sentrum med lengde
-  `r`. Her har vi kalt sidene `a`, `b` og `c`; navnet kan brukes for
-  lengdene til sidene også. I dette tilfellet har vi `c = r` når vi
-  snakker om lengden. For vinkler er det vanlig å bruke greske
-  bokstaver, og vi har her brukt `α`.
+  og Y er null i midten av sirkelen, kan vi enkelt regne ut X og Y for
+  punktet i omrisset. To av sidene i trekanten ovenfor viser da X og
+  Y. Den siste siden er linjen fra sentrum med lengde `r`. Her har vi
+  kalt sidene `a`, `b` og `c`; navnet kan brukes for lengdene til
+  sidene også. I dette tilfellet har vi `c = r` når vi snakker om
+  lengden. For vinkler er det vanlig å bruke greske bokstaver, og vi
+  har her brukt `α`, alfa.
 
 + Lengden på de to andre sidene, `a` og `b`, er gitt av funksjonene
-  sinus og cosinus, vinkelen `α` og radien til sirkelen. De korte
-  sidene som sammen lager det rettvinklede hjørnet, kalles kateter og
-  den lange siden med lengde `r` kalles hypotenus. Lengden på katetet
-  som er med på hjørnet med vinkelen `α`, har lengden `cos(α) *
-  r`. Lengden på det andre katetet er `sin(α) * r`.
+  sinus og cosinus, vinkelen `α` og lengden til `c`, altså radien til
+  sirkelen. De korte sidene som sammen lager det rettvinklede hjørnet,
+  kalles kateter og den lange siden med lengde `r` kalles
+  hypotenus. Lengden på kateten som er med på hjørnet med vinkelen
+  `α`, har lengden `cos(α) * r`. Denne kateten kalles gjerne den
+  hosliggende kateten, og mange bruker huskeregelen: Hos blir cos, for
+  å huske hvilken av de to sidene som bruker cosinus og sinus. Lengden
+  på det andre katetet er `sin(α) * r`.
 
-!()[TrekantSiderSirkel "Den samme rettvinklede trekanten med formler for lengdene til sidene."]
+![](TrekantSiderSirkel.png "Den samme rettvinklede trekanten med formler for lengdene til sidene.")
 
 # Regulære mangekanter {.activity}
 
