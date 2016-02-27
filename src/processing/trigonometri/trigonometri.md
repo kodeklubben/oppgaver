@@ -19,13 +19,13 @@ konseptene som brukes i leksjonen.
 
 ## Sinus og cosinus {.protip}
 
-Før vi begynner å tegne regulære mangekanter, skal vi bare ta en liten
+Før vi begynner å tegne regulære mangekanter, skal vi bare ta en
 titt på to trigonometriske funksjoner som vi kommer til å bruke mye:
-sinus og cosinus. Vi skal se på dem spesifikt i forbindelse med
+*sinus* og *cosinus*. Vi skal se på dem spesifikt i forbindelse med
 sirkler.
 
 + Ethvert punkt langs omrisset av sirkelen befinner seg like langt fra
-  midten av sirkelen. Denne avstanden er radius i sirkelen, som regel
+  midten av sirkelen. Denne avstanden er *radius* i sirkelen, som regel
   skriver vi bare `r` i figurer og formler.
 
 ![](SirkelRadius.png "En sirkel med linjer med lengde `r` fra sentrum av sirkelen til punkter i omrisset")
@@ -68,18 +68,18 @@ være. Opptegningen ellers er som for vanlige
 [mangekanter](../mangekanter/mangekanter.html).
 
 + Vi begynner med å tegne opp en regulær pentagon (femkant).
-  
+
   ```processing
   int KANTER = 5;
   float vinkel = 360.0 / KANTER;
-  
+
   void setup() {
     size(600, 600);
   }
-  
+
   void draw() {
     background(0);
-    
+
     beginShape();
     for (int hjorne = 0; hjorne < KANTER; hjorne++) {
       vertex(300 + cos(radians(vinkel * hjorne)) * 200,
@@ -91,12 +91,16 @@ være. Opptegningen ellers er som for vanlige
 
   Her har vi noen nye utregninger inne i kallet på `vertex`. Her
   bruker vi tre nye funksjoner `cos` og `sin` som har blitt forklart
-  litt lenger opp, og `radians` som regner om grader til radianer, en
-  annen måleenhet for vinkler. Sinus og cosinus i dataprogrammer
-  bruker vanligvis radianer, så om vi vil jobbe med vinkler i grader,
+  [lenger opp](#sinus-og-cosinus), og `radians` som regner grader om til radianer, en
+  annen måleenhet for vinkler.
+
+  I dataprogrammer bruker sinus og cosinus vanligvis radianer, så om vi vil jobbe med vinkler i grader,
   må vi gjør denne konverteringen. Du ser at vi har med en variabel
   for vinkelen mellom hvert punkt og denne har vi beregnet i grader ut
   fra at en sirkel er 360°.
+
+  Til slutt forteller `CLOSE` i `endShape` at siste kant i figuren skal settes sammen med første kant, altså at figures lukkes og fylles.
+
 
 ![](Femkant.png "Vinkelen mellom to nabohjørner og sentrum i en femkant er 360° / 5 = 72°.")
 
