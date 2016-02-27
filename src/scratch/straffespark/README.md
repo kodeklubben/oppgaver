@@ -34,14 +34,15 @@ kommer borti.
   scenen, og passe på at hvert skript kodes på riktig sted. Vær nøye
   med at skriptene ligger på riktig figur som beskrevet i oppgaven.
 
-+ Katten må gå flere steg før den når frem til ballen. Om dette skjer
-  kan man enten prøve å plassere `Leo` og `Ball` nærmere hverandre ved
-  å endre på `gå til x: () y: ()`{.b}-klossene, eller endre på hvor
-  langt `Leo` `går`{.blockmotion} når han klikkes. Dersom elevene
-  allerede kan litt om koordinatsystemet er det en fin øvelse å tenke
-  på hvilke koordinater man bør endre for å flytte figurene nærmere
-  hverandre. Alternativt kan man flytte på figurene ved å klikke og
-  dra, og deretter se på koordinatene øverst til høyre i
++ Katten skyter ballen før man klikker på den, eller den må gå flere
+  steg før den når frem til ballen. Om dette skjer bør man flytte på
+  hvor `Leo` og `Ball` plasseres ved å endre på `gå til x: () y:
+  ()`{.b}-klossene. Om problemet er at katten må gå flere steg kan man
+  også endre på hvor langt `Leo` `går`{.blockmotion} når han
+  klikkes. Dersom elevene allerede kan litt om koordinatsystemet er
+  det en fin øvelse å tenke på hvilke koordinater man bør endre for å
+  flytte figurene. Alternativt kan man flytte på figurene ved å klikke
+  og dra, og deretter se på koordinatene øverst til høyre i
   skriptvinduet.
 
 + I steg 4 jobber vi videre med skriptet som ble skrevet på `Ball` i
@@ -55,7 +56,7 @@ kommer borti.
   vil si at `Ball` og `Keeper` har skript med `stopp
   [andre skript i figuren v] :: control`{.b}, `Leo` har skript hvor han
   `sier`{.blocklooks} noe, mens Scenen har skript som teller
-  `Mål`{.blockdata} og `Redninger`{.blockdata}
+  `(Mål)`{.b} og `(Redninger)`{.b}
 
   Dersom elevene vil at også `Ball` eller `Keeper` skal si noe kan det
   være utfordrende på grunn av `stopp`{.blockcontrol}-klossen. En
@@ -67,10 +68,10 @@ kommer borti.
       stopp [andre skript i figuren v] :: control
   ```
 
-  Det er her viktig å ikke bruke `si [ ... ] i (2) sekunder`{.b} siden
-  den klossen vil gjøre at `Ball` eller `Keeper` ikke slutter å bevege
-  seg før etter 2 sekunder. I stedet bruker man en `si []`{.b}-kloss
-  (uten tekst) for at snakkeboblen skal bli borte. Denne kan legges
+  Det er her viktig å _ikke_ bruke `si [Hello!] i (2) sekunder`{.b}
+  siden den klossen vil gjøre at `Ball` eller `Keeper` ikke slutter å
+  bevege seg før etter 2 sekunder. For at snakkeboblen skal bli borte
+  kan man bruke en `si []`{.b}-kloss (uten tekst). Denne kan legges
   øverst i `når grønt flagg klikkes`{.b}- eller `når jeg mottar
   [Nytt spark v]`{.b}-skriptet.
 
@@ -115,7 +116,7 @@ en unik oppførsel ved å legge ulike skript på dem.
 Et viktig konsept i Scratch er at man koder ved å beskrive egenskapene
 (utseende, posisjon, retning, osv.) og oppførselen (skript) til
 figurer. På fagspråket kalles dette __objektorientert programmering__
-(helt presist er Scratch _prototypeorientert programmering_ men
+(mer presist er Scratch _prototypeorientert programmering_, men
 forskjellen er ikke relevant her). Dette virker så naturlig at
 elevene sjelden bevisst tenker på dette, og samtidig skaper det
 sjelden problemer.
@@ -159,8 +160,9 @@ sjelden problemer.
       slutt
   ```
 
-+ Spør elevene om de kan tenke seg noen annen måte å programmere på?
-  Hvor man ikke knytter skriptene til figurene?
++ Spør elevene om de kan tenke seg noen annen måte (enn
+  objektorientert) å programmere på?  Hvor man ikke knytter skriptene
+  til figurene?
 
   Et eksempel på en annen type programmering er __imperativ
   programmering__ hvor programmer skrives som en serie kommandoer uten
