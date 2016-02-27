@@ -78,8 +78,9 @@ være. Opptegningen ellers er som for vanlige
     background(0);
     
     beginShape();
-    for (int i = 0; i < KANTER; i++) {
-      vertex(300 + cos(radians(vinkel * i)) * 200, 300 + sin(radians(vinkel * i)) * 200);
+    for (int hjorne = 0; hjorne < KANTER; hjorne++) {
+      vertex(300 + cos(radians(vinkel * hjorne)) * 200,
+             300 + sin(radians(vinkel * hjorne)) * 200);
     }
     endShape(CLOSE);
   }
@@ -101,42 +102,88 @@ være. Opptegningen ellers er som for vanlige
 + Hva med tallet `300`?
 
 + Kan du få snudd på femkanten sånn at hjørnet som nå peker rett til
-  høyre, peker opp som i figuren ovenfor?
+  høyre, peker opp?
 
-+ Kan du tegne en regulær pentagon, en femkant der alle kantene er
-  like lange, og alle hjørnene har samme vinkel? Hjørnene i en regulær
-  mangekant ligger på omrisset av en sirkel.
+![](FemkantRotering.png "Femkanten før og etter rotering.")
 
-+ Hva med en regulær hexagon, sekskant? Eller heptagon, syvkant?
-  Klarer du å gjøre det slik at du bruker variabelen `KANTER` til å
-  styre hvor mange kanter den skal ha?
++ Hvis du har fått femkanten til å peke opp, kan du legge til en
+  variabel som du bruker til denne justeringen? Kan du bruke denne
+  variabelen til å få femkanten til å snurre?
 
-+ Stjerner med et oddetall antall spisser, kan tegnes som en regulær
-  mangekant der man hopper over en spiss hver gang. Kan du finne
-  spissene og tegne en 5-kantet stjerne?
+![](FemkantSnurrer.gif "Femkanten snurrer rundt.")
 
-    Spissene fordeler seg med like stor avstand fra hverandre
-    (vinkelen mellom et hjørne, sentrum og det neste hjørnet er lik
-    for hver spiss). Når man tegner en femkantet stjerne, tegner man
-    en strek fra en spiss til den etter den neste.
++ Kan du styre hvilken vei femkanten peker med musa eller tastaturet?
+
++ Hva skjer hvis du endrer `KANTER` til en annen verdi enn `5`?
+
+# Regulære stjerner 1 {.activity}
+
+Regulære stjerner med et odde antall spisser kan tegnes nesten helt
+likt som man tegner en regulær mangekant. De kan nesten sees på som en
+variant av mangekanter. Hvis du har tegnet en femkantet stjerne før,
+har du kanskje lagt merke til at dette likner på en femkant, men at du
+hopper over et hjørne når du tegner streken mellom to spisser.
 
 ![](Pentagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en femkantet stjerne er 2 · 360° / 5 = 144°.")
 
++ Siden vi skal hoppe over et hjørne hver gang vi tegner opp neste
+  spiss, trenger vi å gange vinkelen med `2`. Endre derfor kallet på
+  `vertex` til:
+
+  ```processing
+  vertex(300 + cos(radians(vinkel * hjorne * 2)) * 200,
+         300 + sin(radians(vinkel * hjorne * 2)) * 200);
+  ```
+
+  Kunne du ganget med `2` et annet sted i koden og fått den samme
+  effekten?
+
 + Kan du tegne en syvkantet stjerne? Eller en nikantet stjerne?
 
-+ Stjerner med et partall antall spisser, kan tegnes som to regulære
-  mangekanter. Spissene vil da være de samme som hjørnene i
-  mangekanten med det antallet kanter. Dette er lettest å løse ved å
-  kopiere opptegningen av formene (fra og med `beginShape()` til og
-  med `endShape(CLOSE)`), og endre `int i = 0` og `i++` til noe
-  passende i løkken.
++ Hvis du har en stjerne med flere kanter enn fem, kan du gange med
+  andre tall enn to og få andre varianter av mangekantede
+  stjerner. Prøv forskjellige tall for syv-, ni- og ellevekantede
+  stjerner. Hva skjer når du hopper over flere kanter enn halvparten
+  av antallet spisser?
+
+# Regulære stjerner 2 {.activity}
+
+Stjerner med et likt antall spisser, kan tegnes som to regulære
+mangekanter med halvparten så mange hjørner som stjernen har
+spisser.
+
++ Fjern ganging med to om du nå tegner opp stjerner med odde antall
+  spisser.
+
++ Lag en kopi av løkken som tegner opp mangekanten, med `beginShape();`
+  og `endShape(CLOSE);`.
+
++ I den nye løkken, endrer du `int hjorne = 0` til `int hjorne = 1`,
+  slik at denne løkken tegner kantene mellom de odde hjørnene.
+
++ Endre `hjorne++` til `hjorne += 2` sånn at vi bare tegner kanter
+  mellom annenhvert hjørne.
+
++ Pass på at `KANTER` settes til et partall som er minst `6`.
 
 ![](Oktagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en åttekantet stjerne er 2 · 360° / 8 = 90°.")
 
-Hvis du vil ha med alle strekene som vist i bildet ovenfor, må du ty
-til tre løkker der den siste kun tegner omrisset av den første formen
-(se dokumentasjonen til `noFill()`, `noStroke()` og `stroke()` ved å
-velge **Help → Reference** og bruke søkefunksjonaliteten i
-nettleseren).
-  
+## Utfordring {.try}
 
++ Nå ser det nok ut som om det mangler noen streker i stjernen
+  din. Kan du få tegnet opp de siste kantene ved å tegne opp den første
+  av de to mangekantene på nytt og bruke
+  [https://processing.org/reference/noFill_.html](`noFill()`),
+  [https://processing.org/reference/noStroke_.html](`noStroke()`) og
+  [https://processing.org/reference/stroke_.html](`stroke()`).
+
++ Kan du tegne opp flere mangekanter eller stjerner på skjermen
+  samtidig? For eksempel en femkantet, en syvkantet og en nikantet
+  stjerne som vist under?
+
+![](FlereStjerner.png "Flere stjerner samtidig.")
+
++ Hvis stjernene dine ikke snurrer allerede, kan du få dem til å gjøre
+  det?
+
+![](FlereStjernerSnurrer.gif "Tre stjerner som snurrer.")
