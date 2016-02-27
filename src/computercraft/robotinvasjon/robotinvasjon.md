@@ -366,7 +366,7 @@ tårnet er høyere.
     ```lua
     while turtle.detect() do
         turtle.up()
-    done
+    end
     ```
 
     Lagre og kjør programmet ditt. Klatrer roboten til toppen av det
@@ -383,11 +383,11 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
     ```lua
     while turtle.detect() do
         turtle.up()
-    done
+    end
 
     while not turtle.detectDown() do
         turtle.down()
-    done
+    end
     ```
 
     Vi sier at så lenge roboten *ikke* har en kloss under seg kan den
@@ -405,7 +405,7 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
         turtle.down()
         turtle.back()
         turtle.place()
-    done
+    end
     ```
 
     Virker det? Lager roboten en trapp?
