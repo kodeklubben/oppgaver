@@ -173,9 +173,9 @@ spisser.
 + Nå ser det nok ut som om det mangler noen streker i stjernen
   din. Kan du få tegnet opp de siste kantene ved å tegne opp den første
   av de to mangekantene på nytt og bruke
-  [https://processing.org/reference/noFill_.html](`noFill()`),
-  [https://processing.org/reference/noStroke_.html](`noStroke()`) og
-  [https://processing.org/reference/stroke_.html](`stroke()`).
+  [`noFill()`](https://processing.org/reference/noFill_.html),
+  [`noStroke()`](https://processing.org/reference/noStroke_.html) og
+  [`stroke()`](https://processing.org/reference/stroke_.html).
 
 + Kan du tegne opp flere mangekanter eller stjerner på skjermen
   samtidig? For eksempel en femkantet, en syvkantet og en nikantet
