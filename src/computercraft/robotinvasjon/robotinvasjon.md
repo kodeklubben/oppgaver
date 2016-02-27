@@ -399,7 +399,7 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
     ```lua
     while turtle.detect() do
         turtle.up()
-    done
+    end
 
     while not turtle.detectDown do
         turtle.down()
