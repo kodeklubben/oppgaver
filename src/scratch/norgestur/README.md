@@ -18,8 +18,9 @@ et Norgeskart. En beskrivelse for hvordan dette kartet kan lastes ned
 er gitt i Steg 1 av oppgaven.
 
 Alternativt, kan du gjøre kartet tilgjengelig for deltakerne på
-forhånd om dette er mulig. Kartet er tilgjengelig på
-<https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/norgestur/norgeskart.png>.
+forhånd om dette er mulig. Kartet kan du lagre ved å høyreklikke på bildet under:
+
+![](norgeskart.png)
 
 # Læringsmål
 
