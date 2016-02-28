@@ -77,7 +77,7 @@ vi de til å stoppe når vi klikker på de?  En måte å gjøre dette på er
 ved å bruke en variabel som setter statusen til figuren. Dette vil vi
 se at er praktisk også senere.
 
-+ Klikk på `Data` {.blockdata} og `Lag en variabel`.  Kall variabelen
++ Klikk på `Data`{.blockdata} og `Lag en variabel`.  Kall variabelen
   `stoppet`{.blockdata} og huk av for `For denne figuren`. Fjern
   avhukingen foran variabelen slik at den ikke vises på scenen.
 
