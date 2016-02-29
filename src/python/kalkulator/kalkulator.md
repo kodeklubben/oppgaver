@@ -37,7 +37,7 @@ svar = 3 + tall
 print(svar)
 ```
 
-```python3
+```python
 tall = int(input("Skriv et tall: "))
 svar = 3 + tall
 print(svar)
@@ -48,7 +48,7 @@ print(svar)
 En funksjon deklareres ved hjelp av `def`-nøkkelordet. Den kan brukes ved å skrive funksjonsnavnet med parenteser bak.
 
 **Eksempel:**
-```python3
+```python
 def hello_word():
     print("Hello World!")
 
@@ -58,7 +58,7 @@ hello_world()
 En funksjon som har *parametre* deklareres med parametre på innsiden av parentesene i funksjonsdefinisjonen.
 
 **Eksempel:**
-```python3
+```python
 def greet(firstName, lastName):
     print("Hello, " + firstName + " " + lastName)
 ```
@@ -66,7 +66,7 @@ def greet(firstName, lastName):
 Når vi senere kaller funksjonen, så gir vi den *argumenter*.
 
 **Eksempel:**
-```python3
+```python
 greet("Ola", "Nordmann")
 ```
 
