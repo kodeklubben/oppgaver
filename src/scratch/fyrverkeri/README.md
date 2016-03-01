@@ -17,7 +17,7 @@ tillegg til filer som finnes i katalogen `ressurser`.
 
 Katalogen `ressurser` er blant annet tilgjengelig på prosjektsiden på
 GitHub:
-<http://www.github.com/kodeklubben/oppgaver/tree/master/scratch/>,
+<https://github.com/kodeklubben/oppgaver/tree/master/src/scratch/>,
 eller i en zip-fil kalt `Materials` eller `Fyrverkeri_ressurser.zip`,
 tilgjengelig sammen med disse instruksene.
 
