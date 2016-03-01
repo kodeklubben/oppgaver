@@ -7,7 +7,7 @@ translator: Lars-Erik Wollan
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + For å få monsteret til å snakke, kan du bruke en
   `si`{.blocklooks}-kloss.

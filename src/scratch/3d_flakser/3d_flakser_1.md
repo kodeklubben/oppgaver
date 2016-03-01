@@ -17,7 +17,7 @@ få ringene til å fungere som de skal. La oss sette i gang!
 
 ![](3d_flakser.png)
 
-# Steg 1: Lag ringer, og få dem til å komme mot deg { .activity}
+# Steg 1: Lag ringer, og få dem til å komme mot deg {.activity}
 
 Spillet skal bestå av tre figurer: __Ring__, __Flakser__ og
 __Bakken__.
@@ -25,7 +25,7 @@ __Bakken__.
 Vi begynner med å lage ringfiguren. Du kan enkelt tegne den selv som
 to sirkler inni hverandre, fylt med en farge imellom.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Tegn figuren __Ring__. Jo enklere jo bedre.
 
@@ -57,7 +57,7 @@ sendes når det grønne flagget klikkes.
 + Hva gjør de to skriptene over? Ser det ut som om ringene kommer mot
   deg?
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 De to skriptene vi har foreløpig er en OK start, men de er ikke gode
 nok til å virkelig kalles 3D! Tenk litt på hvordan det virker som om
@@ -102,7 +102,7 @@ borte og så nærme, så kan du bruke klossen
 for å gjøre ringene mer gjennomsiktig når de er langt borte. Hvilke
 tall må du putte i denne klossen for at det skal se bra ut?
 
-# Steg 2: Få ringene til å dukke opp tilfeldige steder { .activity}
+# Steg 2: Få ringene til å dukke opp tilfeldige steder {.activity}
 
 *For at spillet skal bli mest mulig utfordrende så burde ringene dukke
  opp på forskjellige steder hver gang.*
@@ -110,7 +110,7 @@ tall må du putte i denne klossen for at det skal se bra ut?
 Å først få dem til å dukke opp på forskjellige steder er ikke så
 vanskelig, men å få dem til å vokse på riktig måte er litt vrient.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Prøv først å endre på blokken som plasserer ring-klonene til
 
@@ -151,7 +151,7 @@ Trykk på det grønne flagget. Nå burde det se ut som om ringene
 virkelig kommer mot deg! Nå kan du ta et pust i bakken og se over det
 du har skrevet så langt.
 
-# Steg 3: Styr en flaksefigur med piltastene { .activity}
+# Steg 3: Styr en flaksefigur med piltastene {.activity}
 
 *I neste del av dette kurset skal vi få en figur til å fly gjennom
  ringene. I dette steget skal vi lage den figuren, men ikke kode all

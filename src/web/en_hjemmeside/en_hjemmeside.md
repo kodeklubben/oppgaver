@@ -4,25 +4,25 @@ level: 1
 language: nb-NO
 ---
 
-## Introduksjon { .intro}
+# Introduksjon {.intro}
 
-Du kjenner en del __HTML__ tagger, så nå er det på tide å lage din første hjemmeside! La oss begynne med en gang.
+I oppgaven [Internett](../internett/internett.html) kan du lære om *HTML*-tagger, og i denne oppgaven skal du bruke HTML-taggene i din første hjemmeside. La oss begynne med en gang!
 
-# Steg 1: Åpne siden som heter om meg { .activity}
+# Steg 1: Åpne siden som heter om meg {.activity}
 
-## Aktiviteter { .check}
+## Aktiviteter {.check}
 
 1. Åpne et __tekstprogram__.
 2. Åpne filen som heter `om_meg.html`. Filen inneholder bittelitt HTMl kode for å hjelpe deg med å komme igang, men du må skrive resten selv.
 
 
-# Steg 2: Lag en hjemmeside om deg selv { .activity}
+# Steg 2: Lag en hjemmeside om deg selv {.activity}
 
 ### Om å gjøre feil
 
 Feil skjer ofte. Det er veldig lett å gjøre dem i HTML fordi du må huske å lukke hver tag, og åpnings-taggen og avslutnings-taggen er litt annerledes. La oss prøve å gjøre noen feil for å se hvordan nettleseren prøver å forstå meningen av koden vår, selv om vi ikke har skrevet den perfekt.
 
-## Aktiviteter { .check}
+## Aktiviteter {.check}
 
 + La oss ta listen av ting vi liker som et eksempel. En av feilene som ofte skjer, er å glemme __avslutnings-taggen__, så la oss fjerne `<\ul>` for å se hvordan det påvirker siden. Lagre filen og oppdater den i nettleseren.
 
@@ -69,7 +69,7 @@ Fiks det igjen ved å legge til et anførselstegn etter `alt` teksten.
 
 Vi har nå gjort noen vanlige feil sammen, og har sett at noen ganger kan en enkelt feil gjøre slik at nettleseren ikke forstår hva vi mener. Men mesteparten av tiden vil den prøve å vise oss noe uansett, så når vi har endret overskrift-koden til noe annet, forsto den ikke at teksten var en overskrift, men viste oss fortsatt teksten. Så den prøver så godt den kan, men noen feil kan gjøre den ganske forvirret.
 
-# Steg 3: Lag en ny side og link til den { .activity}
+# Steg 3: Lag en ny side og link til den {.activity}
 
 La oss lage en ny side. Åpne `omg_meg_side_2.html`.  Den har litt mindre kode en den andre siden du jobbet med, men jeg er sikker på at du kan legge til mer kode selv nå.
 
@@ -142,7 +142,7 @@ For å gjøre dette vil vi bruke dropbox eller google drive. Hvis du ikke har en
 6. På siden du får opp kan du velge `Preview`. Nå skal du se nettsiden din.
 7. Urlen du er på nå kan du dele med vennene dine, så kan de også se på siden din.
 
-## Ting du kan prøve { .try}
+## Ting du kan prøve {.try}
 
 * Hvordan kan du linke til en annen side på nettet? (Hint: prøv å legge til `http://` og deretter adressen til nettstedet du vil koble til)
 * I likhet med forslaget ovenfor, hvordan ville du legge til et bilde fra et sted på nettet i stedet for fra datamaskinen? (Hint: igjen, prøve å legge til `http://` og adressen til bildet)

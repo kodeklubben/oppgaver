@@ -7,7 +7,7 @@ translator: Lars-Erik Wollan
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Ved å bruke to figurer til bein kan vi få monsteret vårt til å
   gå. For å gjøre dette lager vi en **variabel** som bytter mellom de
