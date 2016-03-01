@@ -7,7 +7,7 @@ translator: Lars-Erik Wollan
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Etterhvert vil monsteret ditt bestå av en mengde figurer og det vil
   bli nødvendig å sørge for at alle figurene flyttes sammen. I stedet
