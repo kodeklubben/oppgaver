@@ -206,7 +206,7 @@ Prøv spillet ditt. Grunnmekanismene skal nå fungere.
   plukke opp power-ups etterhvert som man spiller. For eksempel noe
   som endrer hastigheten på ballen, endrer størrelsen på racketen, gir
   ekstra poeng eller kanskje lager litt skru på ballen.
-  
+
 + I stedet for at boksene bare forsvinner når ballen treffer dem, kan
   du la dem løsne og falle nedover. Videre kan spilleren få ekstra
   poeng eller bonuser om hun klarer å fange de fallende boksene med

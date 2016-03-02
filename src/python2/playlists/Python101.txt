@@ -1,7 +1,0 @@
-repetisjon/repetisjon.md
-tekst_abc/tekst_abc.md
-lister_og_indekser/lister_og_indekser.md
-ordboeker/ordboeker.md
-hangman/hangman.md
-enkle_objekter/enkle_objekter.md
-sprettball/sprettball.md

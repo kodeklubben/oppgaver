@@ -1,10 +1,8 @@
 ---
-title: Halloweenimasjon
-language: nb-NO
-embeds: "halloweenimasjon.jpg"
+title: Lærerveiledning - Halloweenimasjon
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 I dette prosjektet ser vi på forskjellige måter vi kan lage
 animasjoner på, og hvordan vi kan sette animasjonene sammen til en

@@ -53,7 +53,7 @@ svar = 3 + tall
 print(svar)
 ```
 
-```python3
+```python
 tall = int(input("Skriv et tall: "))
 svar = 3 + tall
 print(svar)

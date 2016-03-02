@@ -4,14 +4,15 @@ level:  3
 language: nb-NO
 ---
 
-## Introduksjon  { .intro}
+# Introduksjon {.intro}
 Dette prosjektet vil utvide din kunnskapen din om CSS-kungfu.
 
 Fem ninjaer kom til byen, og du må skjule dem før noen legger merke til dem. Ved å bruke dine egne ninja-liknende CSS-kunnskaper må du hjelpe dem å finne et sikkert gjemmested. Du kan flytte ninjaene selv, og noen objekter i gaten også. Fort – det er ingen tid å miste!
 
 ![screenshot](ninjas.png)
 
-# Steg 1: Møt ninjaene { .activity}
+# Steg 1: Møt ninjaene {.activity}
++ Last ned [ninjaer.zip](ninjaer.zip) og pakk ut filene på din datamaskin.
 
 + Åpne filen kalt ninjaer.html i teksteditoren. Åpne det opp i nettleseren også.
 + Les gjennom koden. Kan du gjette hvilken del av koden som hører til delene i gatene? Legg merke til av vi bruker to språk her: HTML for å legge til elementene på siden, og CSS plassert mellom `style` taggene.
@@ -27,7 +28,7 @@ Når position egenskapene er satt til `absolute` menes det at vi vil beskrive po
 
 Pixel beskriver det minste fysiske punktet som kan vises på skjermen din. Det brukes ofte til å beskrive størrelsen på skjermen din.
 
-# Steg 2: Las prøve å beskrive dette litt annerledes. { .activity}
+# Steg 2: Las prøve å beskrive dette litt annerledes. {.activity}
 
 Nå vet du hvordan vi bruker pixel-posisjonering. Dette er ikke den eneste måten man kan beskrive plasseringer på skjermen, så la oss se på hva slags andre muligheter vi har.
 
@@ -35,7 +36,7 @@ Nå vet du hvordan vi bruker pixel-posisjonering. Dette er ikke den eneste måte
 
 100% beskriver hele bredden som er tilgjengelig på skjermen. Når vi plasserer ninjaer og andre objekter i forhold til `gatehjornet`, som er 600 pixler bred, så vil 100% være lik `600px` i vårt eksempel. Hvis vi hadde laget et større gatehjørne, f.eks. 800 pixler bredt, ville 100% bety en bredde på `800px`. Avhengig av sammenhengen så kan størrelsen beskrevet i prosenter har forskjellige betydninger.
 
-# Steg 3:  En størrelsetype til { .activity}
+# Steg 3:  En størrelsetype til {.activity}
 
 Som om vi ikke har nok størrelse-typer nå, skal vi likevel prøve en til! Du vet nå hvordan man skal bruke pixler (px) og prosent(%). La oss nå prøve `em`.
 
@@ -44,12 +45,12 @@ Som om vi ikke har nok størrelse-typer nå, skal vi likevel prøve en til! Du v
 + Vi skrev tidligere at størrelsen på én `em` er basert på fontstørrelsen. For å teste dette, finn `body` i CSSen. Endre `font-size` verdien til 30px. Hva skjedde?
 Som dere ser når vi endre `em` til 30 pixler så endrer bredden og høyden seg til 30 pixels bred og 30 pixels høy på alle elementer som bruker denne verdien. Og som dere ser alle disse elementene har endret posisjon!
 
-# Steg 4: Fort deg, skjul ninjaene!  { .activity}
+# Steg 4: Fort deg, skjul ninjaene!  {.activity}
 
 Nå når du vet hvordan du skal flytte på elementene på skjermen, er det på tide å hjelpe ninjaene. Bruk de forskjellige måtene som er beskrevet over. Husk, du kan også flytte noen av objektene. Hvilken måte synes du er den beste å flytte de på? Finn den beste måten å skjule dem på. Lykke til!
 
 
-## Ting du kan prøve: { .try}
+## Ting du kan prøve: {.try}
 
 + Kan du finne ut hvordan du kan få ninjaene til å komme foran noen av gateobjektene? Hva skjer om du kopierer `<img>` taggen for ninjaen etter `<img>` taggen som viser objektet?
 + Klarer du å legge til flere objekter på scenen? Du kan legge til bilder fra datamaskinen din, eller finne noen på internett.

@@ -34,10 +34,10 @@ mange straffespark som mulig.
   igjen. Pusle deretter sammen de følgende klossene i skriptvinduet
   til høyre:
 
-    ```blocks
-        når denne figuren klikkes
-        gå (10) steg
-    ```
+  ```blocks
+      når denne figuren klikkes
+      gå (10) steg
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -57,10 +57,10 @@ __Klikk på det grønne flagget.__
   banen på. Lag et **nytt** skript, **ved siden av** det du allerede
   har laget, som ser slik ut:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (-180) y: (-30)
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      gå til x: (-180) y: (-30)
+  ```
 
 + Nå vil `Leo` komme tilbake på banen hver gang du klikker det grønne
   flagget rett over scenen.
@@ -98,14 +98,14 @@ innimellom.
   seg. Se om du kjenner igjen hvor i programmet de forskjellige
   tingene skjer:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (-125) y: (-60)
-        vent til (berører [Leo v]?)
-        for alltid
-            gå (6) steg
-        slutt
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      gå til x: (-125) y: (-60)
+      vent til (berører [Leo v]?)
+      for alltid
+          gå (6) steg
+      slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -118,7 +118,7 @@ __Klikk på det grønne flagget.__
 
 + Hvis `Leo` sparker ballen før du klikker på ham (med en gang du
   trykker det grønne flagget), så må du endre litt på tallene i `gå til
-  x: y:`{.blockmotion}-klossen slik at ballen ligger i ro foran `Leo`.
+  x: () y: ()`{.b}-klossen slik at ballen ligger i ro foran `Leo`.
 
 # Steg 3: Vi trenger en keeper! {.activity}
 
@@ -134,24 +134,24 @@ __Klikk på det grønne flagget.__
   `Drakter`-fanen, og deretter på snu-knappen som er merket med rødt i
   figuren under.
 
-    ![](snu_figur.png)
+  ![](snu_figur.png)
 
 + Gi figuren navnet `Keeper`.
 
 + Lag det følgende programmet for keeperen:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (100) y: (-50)
-        pek i retning (0 v)
-        for alltid
-            gå (15) steg
-            sprett tilbake ved kanten
-        slutt
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      gå til x: (100) y: (-50)
+      pek i retning (0 v)
+      for alltid
+          gå (15) steg
+          sprett tilbake ved kanten
+      slutt
+  ```
 
-    Det er et par nye klosser i dette skriptet. Les programmet
-    nøye. Hva tror du de nye klossene gjør?
+  Det er et par nye klosser i dette skriptet. Les programmet nøye. Hva
+  tror du de nye klossene gjør?
 
 ## Test prosjektet {.flag}
 
@@ -164,19 +164,19 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 + En ting som ser litt rart ut er at `Keeper` ikke ser på ballen. Vi
-  fikser dette ved å legge til en `begrens rotasjon vend
-  sideveis`{.blockmotion}-kloss helt i begynnelsen av skriptet vårt.
+  fikser dette ved å legge til en `begrens rotasjon [vend
+  sideveis v]`{.b}-kloss helt i begynnelsen av skriptet vårt.
 
 + Du synes kanskje at keeperen er litt stor? Vi har tidligere sett
   hvordan vi kan bruke ![krymp](../bilder/krymp.png) for å gjøre
   figurer mindre. En annen måte å endre størrelsen på er ved å bruke
   klosser fra `Utseendet`{.blocklooks}-kategorien.
 
-    Legg klossen `sett størrelse til 100%`{.blocklooks} inn i `for
-    alltid`{.blockcontrol}-løkka. Du kan nå eksperimentere med å endre
-    `100%` til et annet tall til du finner en passende størrelse på
-    keeperen. Om du har brukt blekkspruten som `Keeper` passer `50%`
-    ganske bra. Prøv deg frem!
+  Legg klossen `sett størrelse til (100)%`{.b} inn i `for
+  alltid`{.blockcontrol}-løkka. Du kan nå eksperimentere med å endre
+  `100%` til et annet tall til du finner en passende størrelse på
+  keeperen. Om du har brukt blekkspruten som `Keeper` passer `50%`
+  ganske bra. Prøv deg frem!
 
 ## Test prosjektet {.flag}
 
@@ -199,21 +199,21 @@ eller når ballen går i mål.
   `Ball`. Legg til en `hvis ellers`{.blockcontrol}-kloss i skriptet
   slik:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (-125) y: (-60)
-        vent til (berører [Leo v]?)
-        for alltid
-            gå (6) steg
-            hvis (berører [Keeper v]?)
-                send melding [Redning v]
-            ellers
-            slutt
-        slutt
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      gå til x: (-125) y: (-60)
+      vent til (berører [Leo v]?)
+      for alltid
+          gå (6) steg
+          hvis (berører [Keeper v]?)
+              send melding [Redning v]
+          ellers
+          slutt
+      slutt
+  ```
 
-    I klossen `send melding`{.blockevents} må du velge `Ny melding` og
-    deretter skrive inn `Redning` som meldingsnavn.
+  I klossen `send melding [message1 v]`{.b} må du velge `Ny melding` og
+  deretter skrive inn `Redning` som meldingsnavn.
 
 Meldinger er beskjeder som figurene i spillet kan sende seg i mellom
 uten at du egentlig ser det. Disse gjør det lett for flere figurer å
@@ -223,14 +223,14 @@ reagere på ting som skjer.
   redning. Legg til dette som et nytt skript på både `Ball` og
   `Keeper`:
 
-    ```blocks
-        når jeg mottar [Redning v]
-        stopp [andre skript i figuren v] :: control
-    ```
+  ```blocks
+      når jeg mottar [Redning v]
+      stopp [andre skript i figuren v] :: control
+  ```
 
-    Et triks er å først skrive denne koden for `Ball`. Deretter kan du
-    kopiere den til `Keeper` ved å dra koden til `Keeper`-figuren i
-    figurvinduet nederst på skjermen.
+  Et triks er å først skrive denne koden for `Ball`. Deretter kan du
+  kopiere den til `Keeper` ved å dra koden til `Keeper`-figuren i
+  figurvinduet nederst på skjermen.
 
 ## Test prosjektet {.flag}
 
@@ -243,10 +243,10 @@ __Klikk på det grønne flagget.__
 Nå skal vi også sjekke om ballen har gått i mål. Vi gjør dette ved å
 undersøke hvor langt til høyre på skjermen ballen har beveget
 seg. Posisjonen til en figur i Scratch er beskrevet ved hjelp av
-koordinater: `x-posisjon`{.blockmotion} sier hvor en figur er sidelengs
-på skjermen, mens `y-posisjon`{.blockmotion} sier hvor langt opp eller
-ned på skjermen en figur er. Rett under scenen kan du se to tall
-merket `x` og `y`. Disse viser koordinatene til musepekeren.
+koordinater: `(x-posisjon)`{.b} sier hvor en figur er sidelengs på
+skjermen, mens `(y-posisjon)`{.b} sier hvor langt opp eller ned på
+skjermen en figur er. Rett under scenen kan du se to tall merket `x`
+og `y`. Disse viser koordinatene til musepekeren.
 
 ![](koordinater.png)
 
@@ -255,37 +255,37 @@ merket `x` og `y`. Disse viser koordinatene til musepekeren.
   musepekeren ser du at den står omtrent ved `x` lik 160. Utvid
   skriptet på ballen videre slik at det blir seende slik ut:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (-125) y: (-60)
-        vent til (berører [Leo v]?)
-        for alltid
-            gå (6) steg
-            hvis (berører [Keeper v]?)
-                send melding [Redning v]
-            ellers
-                hvis ((x-posisjon) > [160])
-                    send melding [Mål v]
-                slutt
-            slutt
-        slutt
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      gå til x: (-125) y: (-60)
+      vent til (berører [Leo v]?)
+      for alltid
+          gå (6) steg
+          hvis (berører [Keeper v]?)
+              send melding [Redning v]
+          ellers
+              hvis ((x-posisjon) > [160])
+                  send melding [Mål v]
+              slutt
+          slutt
+      slutt
+  ```
 
 + På samme måte som for redning kan vi avslutte bevegelsen til `Ball`
   og `Keeper` ved å lage dette skriptet på begge figurene:
 
-    ```blocks
-        når jeg mottar [Mål v]
-        stopp [andre skript i figuren v] :: control
-    ```
+  ```blocks
+      når jeg mottar [Mål v]
+      stopp [andre skript i figuren v] :: control
+  ```
 
 + Vi kan også la `Leo` juble litt når han scorer mål. Klikk på
   kattefiguren og gi ham følgende skript:
 
-    ```blocks
-        når jeg mottar [Mål v]
-        si [Ja, det ble mål!!] i (2) sekunder
-    ```
+  ```blocks
+      når jeg mottar [Mål v]
+      si [Ja, det ble mål!!] i (2) sekunder
+  ```
 
 + Lag et tilsvarende skript der `Leo` sier noe om at han er lei seg om
   det blir en `Redning`. Prøv dette på egen hånd!
@@ -302,8 +302,8 @@ __Klikk på det grønne flagget.__
 
 Du kan gjøre spillet enklere eller vanskeligere ved å endre farten på
 ballen og hvor fort keeperen beveger seg. Begge disse er bestemt av
-tallet som står i `gå _ steg`{.blockmotion}-klossene til henholdsvis
-`Ball` og `Keeper`.
+tallet som står i `gå () steg`{.b}-klossene til henholdsvis `Ball` og
+`Keeper`.
 
 Prøv forskjellige tall for både fotballen og keeperen til du finner
 den kombinasjonen du liker best. Pass på at det blir litt vanskelig,
@@ -322,28 +322,28 @@ For å telle hvor mange mål du har scoret, og hvor mange redninger
 + Klikk på scenen til venstre for figurlisten.
 
 + Klikk på `Data`{.blockdata}-kategorien og lag en ny variabel. Gi
-  den nye variabelen navnet `Mål`{.blockdata}. Legg merke til at det
+  den nye variabelen navnet `Mål`. Legg merke til at det
   dukket opp en ny boks på scenen som er merket `Mål`, og som viser
-  tallet `0`.
+  tallet `0`{.blockdata}.
 
-+ Vi vil nå telle målene. Lag et nytt skript som endrer
-  `Mål`{.blockdata} hver gang meldingen `Mål` sendes. Lag dette
-  skriptet på Scenen:
++ Vi vil nå telle målene. Lag et nytt skript som endrer `(Mål)`{.b}
+  hver gang meldingen `Mål` sendes, ved å lage dette skriptet på
+  Scenen:
 
-    ```blocks
-        når jeg mottar [Mål v]
-        endre [Mål v] med (1)
-    ```
+  ```blocks
+      når jeg mottar [Mål v]
+      endre [Mål v] med (1)
+  ```
 
 + Vi kan gjøre tilsvarende for å telle antall redninger. Lag en ny
-  variabel som heter `Redninger`{.blockdata}.
+  variabel som heter `(Redninger)`{.b}.
 
 + Lag deretter et nytt skript for å telle redningene:
 
-    ```blocks
-        når jeg mottar [Redning v]
-        endre [Redninger v] med (1)
-    ```
+  ```blocks
+      når jeg mottar [Redning v]
+      endre [Redninger v] med (1)
+  ```
 
 
 ## Test prosjektet {.flag}
@@ -376,65 +376,65 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
 + Lag et skript på bakgrunnen som setter variabelene dine til 0 ved
   begynnelsen av spillet.
 
-    ```blocks
-        når grønt flagg klikkes
-        sett [Mål v] til [0]
-        sett [Redninger v] til [0]
-        bytt bakgrunn til [goal1]
-        send melding [Nytt spark v]
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      sett [Mål v] til [0]
+      sett [Redninger v] til [0]
+      bytt bakgrunn til [goal1]
+      send melding [Nytt spark v]
+  ```
 
 + Vi vil nå spille uten at vi må klikke på det grønne flagget for hver
   gang vi skal skyte et straffespark. Til dette bruker vi meldingen
   `Nytt spark`. Vi må nå bytte ut
 
-    ```blocks
-        når grønt flagg klikkes
-    ```
+  ```blocks
+      når grønt flagg klikkes
+  ```
 
-    med
+  med
 
-    ```blocks
-        når jeg mottar [Nytt spark v]
-    ```
+  ```blocks
+      når jeg mottar [Nytt spark v]
+  ```
 
-    på både `Leo`, `Ball` og `Keeper`. For eksempel, på `Leo` blir
-    skriptet seende slik ut:
+  på både `Leo`, `Ball` og `Keeper`. For eksempel, på `Leo` blir
+  skriptet seende slik ut:
 
-    ```blocks
-        når jeg mottar [Nytt spark v]
-        gå til x: (-180) y: (-30)
-    ```
+  ```blocks
+      når jeg mottar [Nytt spark v]
+      gå til x: (-180) y: (-30)
+  ```
 
 + Til slutt legger vi på testen om vi har scoret 10 mål, eller om
   keeperen har reddet 10 ganger. Endre `Mål`-skriptet på scenen slik
   at det blir seende slik ut:
 
-    ```blocks
-        når jeg mottar [Mål v]
-        endre [Mål v] med (1)
-        vent (2) sekunder
-        hvis ((Mål) < [10])
-            send melding [Nytt spark v]
-        ellers
-            bytt bakgrunn til [Seier v]
-            stopp [alle v] :: control
-        slutt
-    ```
+  ```blocks
+      når jeg mottar [Mål v]
+      endre [Mål v] med (1)
+      vent (2) sekunder
+      hvis ((Mål) < [10])
+          send melding [Nytt spark v]
+      ellers
+          bytt bakgrunn til [Seier v]
+          stopp [alle v] :: control
+      slutt
+  ```
 
 + På samme måte endrer du `Redning`-skriptet på scenen:
 
-    ```blocks
-        når jeg mottar [Redning v]
-        endre [Redninger v] med (1)
-        vent (2) sekunder
-        hvis ((Redninger) < [10])
-            send melding [Nytt spark v]
-        ellers
-            bytt bakgrunn til [Tap v]
-            stopp [alle v] :: control
-        slutt
-    ```
+  ```blocks
+      når jeg mottar [Redning v]
+      endre [Redninger v] med (1)
+      vent (2) sekunder
+      hvis ((Redninger) < [10])
+          send melding [Nytt spark v]
+      ellers
+          bytt bakgrunn til [Tap v]
+          stopp [alle v] :: control
+      slutt
+  ```
 
 ## Test prosjektet {.flag}
 

@@ -4,11 +4,11 @@ level: 3
 language: nb-NO
 ---
 
-# Introduksjon { .intro}
+# Introduksjon {.intro}
 
 Det finnes flere måte å legge til lyd og bilde på nettsidene dine. La oss ta en titt på de sammen.
 
-# Legg til video fra YouTube { .activity}
+# Legg til video fra YouTube {.activity}
 
 Å legge til enn video fra YouTube er veldig lett.
 
@@ -24,7 +24,7 @@ Koden vil ligne på dette:
 Denne kodesnutten vil legge til en kodeklubbvideo på siden din. Kopier koden og lim din der du vil at videoen skal vises. Legg merke til `width`(bredde) og `height`(høyde) attributtene. De gjør at du kan bestemme hvor stort videoen skal  vises på nettsiden. Forsøk gjerne å forandre på de.
 
 
-# Legg til en video fra Vimeo. { .activity}
+# Legg til en video fra Vimeo. {.activity}
 
 + Gå på videosiden på Vimeo.
 + Klikk på `Del`/`Share` knappen i videospilleren.
@@ -36,7 +36,7 @@ Denne kodesnutten vil legge til en kodeklubbvideo på siden din. Kopier koden og
 
 + Lim inn koden der du vil at videoen skal vises på siden. Legg merke til `width`(bredde) og `height`(høyde) attributtene. De gjør at du kan bestemme hvor stort videoen skal  vises på nettsiden. Forsøk gjerne å forandre på de.
 
-# Legge til en video fra datamaskinen din { .activity}
+# Legge til en video fra datamaskinen din {.activity}
 
 Hvis du har en video du har laget kan du legge den til på siden din uten å laste den opp på YouTube eller Vimeo.
 
@@ -94,7 +94,7 @@ For å la nettleseren vite at vi har flere formater tilgjengelig, kan vi skrive 
 	</video>
 ```
 
-# Legg til en lydfil fra datamaskinen din { .activity}
+# Legg til en lydfil fra datamaskinen din {.activity}
 
 Måten man legger lydfiler til på nettsiden din er ganske lik måten man legger til videoer på.
 

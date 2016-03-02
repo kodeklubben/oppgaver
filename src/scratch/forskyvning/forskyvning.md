@@ -9,7 +9,7 @@ indexed: false
 + beskrive og gjennomføre spegling, rotasjon og parallellforskyving
 + beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
 
-## Introduksjon {.intro}
+# Introduksjon {.intro}
 
 Denne oppgaven forutsetter at du har fullført oppgave 1 i denne oppgaveserien.
 

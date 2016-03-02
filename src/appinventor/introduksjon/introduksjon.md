@@ -25,7 +25,7 @@ Dette er en introduksjon til *MIT App Inventor*, hvor du skal lære å lage appl
 
 + Etter innlogging blir du videresendt til prosjekt-siden.
 + Trykk på **Start new project** for å komme igang.
-+ Navngi prosjektet slik du ønsker selv, for eksempel `Test`.
++ Navngi prosjektet slik du ønsker selv, for eksempel `HelloWorld`.
 + Du blir nå videresendt til programmeringen.
 
 # Steg 3: Bli kjent med menyene {.activity}
@@ -55,12 +55,13 @@ For de som allerede er kjent med programmering i Scratch, vil en del allerede v�
 + Trykk på kategorien **Logic**.
 + Her ser du hvilke funksjoner du kan bruke fra **Logic** kategorien.
 + Velg en funksjon og dra den over til kode-feltet.
++ Klikk på funksjonen din og dra den over til søppelbøtta nede til høyre for å fjerne den igjen.
 
-Samme framgangsmåte brukes for å legge til komponenter i appen. Trykk [her](http://appinventor.mit.edu/explore/designer-blocks.html) for å se hvordan det ser ut.
+Samme framgangsmåte brukes for å legge til og fjerne komponenter i appen. Trykk [her](http://appinventor.mit.edu/explore/designer-blocks.html) for å se hvordan det ser ut.
 
 # Steg 5: Lage en test-app {.activity}
 
-For å se litt på hvordan dette fungerer, skal du lage en test-app. Du har alleredet opprettet prosjektet og gitt det navn. Da kan du gå rett på programmeringen. Appen skal ha en knapp med teksten `Talk to me`. Når knappen trykkes så skal appen si `Hello world`. Dette kan du få til ved å gjøre følgende:
+For å se litt på hvordan dette fungerer, skal du lage en test-app. Du har alleredet opprettet prosjektet og gitt det navn. Da kan du gå rett på programmeringen. Appen skal ha en knapp med teksten `Hello world`. Når knappen trykkes så skal appen si `Hello world`. Dette kan du få til ved å gjøre følgende:
 
 ## Sjekkliste {.check}
 
@@ -71,16 +72,15 @@ For å se litt på hvordan dette fungerer, skal du lage en test-app. Du har alle
   under **Non-visible components**.
 + Så vil du endre litt på designet. Det første du gjør da er å trykke på **Screen1** på **Components**,
   hvor du går til **AlignHorizontal** og velger **Center**. Du kan også gå til **AlignVertical** og velge **Center**.
-  Dersin du også vil endre navnet på appen, så kan du gå til **AppName** og skrivee inn `TalkToMe`. (Navnet på appen må være i ett ord.)
-  Til slutt kan du gå til **Title** og skrive inn `Talk To Me`.
+  Til slutt kan du gå til **Title** og skrive inn `Hello world`.
 + Vi vil også endre litt på knappen. Dette gjør vi ved å trykke på **Button1** under **Components**. Der endrer vi **FrontSize** til `60`,
-  **Height** til `100 pixels`, **Width** til `Fill parent` og **Text** til `Talk To Me`.
+  **Height** til `100 pixels`, **Width** til `Fill parent` og **Text** til `Hello world`.
 
 I neste steg får du se hvordan appen ser ut, selv om den ikke er ferdig.
 
 # Steg 6: Teste appen mens du programmerer {.activity}
 
-Det kan være veldig nyttig å teste appen din mens du lager den, for å sjekke at alt fungerer som det skal. I App Inventor kan du teste appen din på to forskjellige måter. Den ene måten å teste appen din på er ved å koble telefonen din til App Inventor. Dette krever at operativsystemtet på mobiltelefonen din er Android. Den andre måten å teste appen din på er ved å laste ned en Android-emulator og laste inn appen din der. Begge disse to metodene er beskrevet under. Dersom du har en Android-telefon, så er det den letteste måten å teste på.
+Det kan være veldig nyttig å teste appen din mens du lager den, for å sjekke at alt fungerer som det skal. I App Inventor kan du teste appen din på to forskjellige måter. Den ene måten å teste appen din på er ved å koble telefonen din til App Inventor. Dette krever at operativsystemtet på mobiltelefonen din er Android. Den andre måten å teste appen din på er ved å laste ned en Android-emulator og laste inn appen din der. Begge disse to metodene er beskrevet under. Dersom du har en Android-telefon, så er det den letteste måten å teste på. **Det er ikke nødvendig å teste både på telefonen og i en emulator, velg en av delene.**
 
 ## Problemer {.tip}
 

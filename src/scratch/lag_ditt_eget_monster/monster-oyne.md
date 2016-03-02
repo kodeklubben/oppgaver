@@ -7,7 +7,7 @@ translator: Lars-Erik Wollan
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Du kan gi monsteret øyne som følger musepekeren rundt på
   skjermen. Det kan ha så mange øyne som du vil, kankje har det åtte

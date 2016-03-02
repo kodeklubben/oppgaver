@@ -1,11 +1,8 @@
 ---
-title: Fyrverkeri
-level: 1.3
-language: nb-NO
-embeds: "skjermbilde.png"
+title: Lærerveiledning - Fyrverkeri
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Denne interaktive leken viser fyrverkeri som eksploderer og smeller på
 himmelen når man klikker. Dette prosjektet viser et eksempel på
@@ -20,7 +17,7 @@ tillegg til filer som finnes i katalogen `ressurser`.
 
 Katalogen `ressurser` er blant annet tilgjengelig på prosjektsiden på
 GitHub:
-<http://www.github.com/kodeklubben/oppgaver/tree/master/scratch/>,
+<https://github.com/kodeklubben/oppgaver/tree/master/src/scratch/>,
 eller i en zip-fil kalt `Materials` eller `Fyrverkeri_ressurser.zip`,
 tilgjengelig sammen med disse instruksene.
 
@@ -37,4 +34,3 @@ animasjon. Spesielt lærer man
 3. hvordan __spille lyder__,
 4. hvordan __sende og motta meldinger__ for å samkjøre når ting skjer,
 5. enkel bruk av __koordinater__.
-

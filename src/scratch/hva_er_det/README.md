@@ -1,11 +1,8 @@
 ---
 title: Hva er det?
-level: 1.7
-language: nb-NO
-embeds: "hva_er_det.png"
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Et bilde av en tilfeldig ting vises på tavlen. Men bildet er
 forvrengt, slik at du må gjette hva det er ved å klikke på et av
@@ -27,4 +24,3 @@ Hva Er Det? viser hvordan man kan
 2. __sjekke__ om et gitt svar er riktig,
 3. endre utseende på figurer ved å bruke __forskjellige effekter__,
 4. bruker variabler for å __stanse løkker__.
-

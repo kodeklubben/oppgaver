@@ -1,11 +1,8 @@
 ---
-title: Ørkenløp
-level: 1.6
-language: nb-NO
-embeds: "orkenlop.png"
+title: Lærerveiledning - Ørkenløp
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Dette er et spill for to, der en papegøye og en løvinne kjemper om å
 komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og
@@ -27,4 +24,3 @@ og krever som sådann ingen spesielle forberedelser.
 2. å bruke en __startknapp__ for å starte spillet,
 3. å __nullstille spillet__ slik at det kan spilles igjen,
 4. bruk av __egendefinerte__ klosser.
-

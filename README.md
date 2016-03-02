@@ -27,7 +27,7 @@ for windows-brukere, men det vil være tilsvarende for Linux og Mac-brukere.
 Dersom du er en *tekst-type* og foretrekker terminalen, les videre.
 
 For å bygge oppgavene lokalt trenger du [git](//help.github.com/articles/set-up-git/)
-og [node](//nodejs.org). Når du har installert git og node, kan du følge
+og [node](//nodejs.org) (>=4.0). Når du har installert git og node, kan du følge
 anvisningene under. Anvisningene er kommandoer som må skrives inn i en konsoll.
 
 #### Ubuntu-brukere merk dette!

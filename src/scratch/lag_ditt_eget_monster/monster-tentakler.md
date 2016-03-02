@@ -7,7 +7,7 @@ translator: Lars-Erik Wollan
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + For å få en tentakel til å bevege seg, kan vi **rotere** den og
   **endre størrelse** ved å bruke `tilfeldig tall`{.blockgreen} med en

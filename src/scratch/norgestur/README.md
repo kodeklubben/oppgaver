@@ -1,11 +1,8 @@
 ---
-title: Norgestur
-level: 1.4
-language: nb-NO
-embeds: "norgestur.png"
+title: Lærerveiledning - Norgestur
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 Bli med på en rundreise i Norge! Vi skal lage et spill hvor du styrer
 et helikopter rundt omkring et kart over Norge, mens du prøver å
@@ -21,14 +18,15 @@ et Norgeskart. En beskrivelse for hvordan dette kartet kan lastes ned
 er gitt i Steg 1 av oppgaven.
 
 Alternativt, kan du gjøre kartet tilgjengelig for deltakerne på
-forhånd om dette er mulig. Kartet er tilgjengelig på
-<https://raw.githubusercontent.com/kodeklubben/oppgaver/master/nb-NO/scratch/norgestur/norgeskart.png>.
+forhånd om dette er mulig. Kartet kan du lagre ved å høyreklikke på bildet under:
+
+![](norgeskart.png)
 
 # Læringsmål
 
 Noen av læringsmålene i Norgestur inkluderer
 
-1. hvordan __styre figurer__ ved hjelp av __tastaturet__, 
+1. hvordan __styre figurer__ ved hjelp av __tastaturet__,
 2. hvordan man kan __tegne og bruke egne bakgrunner og figurer__,
 3. bruk av __meldinger__ for å styre flyten i et spill,
 4. hvordan figurer kan gjøres __usynlige__, og
