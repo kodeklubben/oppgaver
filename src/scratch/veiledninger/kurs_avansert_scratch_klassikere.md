@@ -54,7 +54,7 @@ Nedenfor beskrives hvordan hver oppgave kan introduseres i felleskap:
   bør man tenke gjennom hva er kjernen av spillet. I Pong er det en
   ball som spretter rundt på skjermen. Deretter bør man lage en enkel
   versjon av dette, slik at man kan begynne å teste at ting oppfører
-  seg som tenkt som raskt som mulig.
+  seg som tenkt så raskt som mulig.
 
 + [__Breakout__](../breakout/breakout.html) introduserer
   kloning. Kloning er et av de viktigste, avanserte konseptene i
@@ -97,8 +97,6 @@ Nedenfor beskrives hvordan hver oppgave kan introduseres i felleskap:
   romskip-spill, og poenget med prosjektet er dels å vise hvordan man
   kan jobbe effektivt ved å gjenbruke kode man har skrevet tidligere -
   både i andre prosjekter og i dette prosjektet - og hvordan man
-  tilpasser denne. I tillegg viser Asteroids hvordan kombinerer
+  tilpasser koden. I tillegg viser Asteroids hvordan man kombinerer
   romskipet fra Lunar Lander med klonekonseptene fra tidligere i
   kurset.
-
-
