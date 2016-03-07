@@ -38,23 +38,28 @@ sirkler.
 + Hvis vi sier at sentrum av sirkelen ligger i punktet (0, 0), altså X
   og Y er null i midten av sirkelen, kan vi enkelt regne ut X og Y for
   punktet i omrisset. To av sidene i trekanten ovenfor viser da X og
-  Y. Den siste siden er linjen fra sentrum med lengde `r`. Her har vi
-  kalt sidene `a`, `b` og `c`; navnet kan brukes for lengdene til
-  sidene også. I dette tilfellet har vi `c = r` når vi snakker om
-  lengden. For vinkler er det vanlig å bruke greske bokstaver, og vi
+  Y. Den siste siden er linjen fra sentrum med lengde `r`. Derfor har vi
+  kalt sidene `x`, `y` og `r`; navnet kan brukes for lengdene til
+  sidene også. For vinkler er det vanlig å bruke greske bokstaver, og vi
   har her brukt `α`, alfa.
 
-+ Lengden på de to andre sidene, `a` og `b`, er gitt av funksjonene
-  sinus og cosinus, vinkelen `α` og lengden til `c`, altså radien til
-  sirkelen. De korte sidene som sammen lager det rettvinklede hjørnet,
-  kalles kateter og den lange siden med lengde `r` kalles
-  hypotenus. Lengden på kateten som er med på hjørnet med vinkelen
-  `α`, har lengden `cos(α) * r`. Denne kateten kalles gjerne den
-  hosliggende kateten, og mange bruker huskeregelen: Hos blir cos, for
-  å huske hvilken av de to sidene som bruker cosinus og sinus. Lengden
-  på det andre katetet er `sin(α) * r`.
++ Lengden på sidene `x` og `y` er gitt av funksjonene sinus og
+  cosinus, vinkelen `α` og `r`, altså radien til sirkelen. De korte
+  sidene som sammen lager det rettvinklede hjørnet, kalles kateter og
+  den lange siden med lengde `r` kalles hypotenus. Lengden på kateten
+  som er med på hjørnet med vinkelen `α`, har lengden `cos(α) *
+  r`. Denne kateten kalles gjerne den hosliggende kateten, og mange
+  bruker huskeregelen: Hos blir cos, for å huske hvilken av de to
+  sidene som bruker cosinus og sinus. Lengden på den andre kateten,
+  kalt den motstående kateten er `sin(α) * r`.
 
 ![](TrekantSiderSirkel.png "Den samme rettvinklede trekanten med formler for lengdene til sidene.")
+
++ Det virker kanskje litt merkelig når du bare får formlene sånn, men
+  sinus og cosinus er definert som forholdene mellom hypotenusen, `r`,
+  og katetene, `x` og `y`. `sin(α) = y / r` og `cos(α) = x / r`. Vi
+  skal ikke se på hvordan man finner disse tallene ut fra vinkelen,
+  men det skal vi la datamaskinen gjøre for oss.
 
 # Regulære mangekanter {.activity}
 
