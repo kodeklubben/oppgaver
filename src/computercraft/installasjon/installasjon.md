@@ -1,6 +1,5 @@
 ---
 title: Installering av ComputerCraft
-level: 1
 author: Geir Arne Hjelle
 indexed: False
 ---
@@ -22,7 +21,7 @@ har installert Minecraft.
 
 ComputerCraft er typisk ikke tilgjengelig for siste versjon av
 Minecraft. Legg derfor merke til hvilken versjon av Minecraft som
-kreves (i eksemplene nedenfor kreves versjon 1.7.10, men dette kan
+kreves (i eksemplene nedenfor kreves versjon 1.8.9, men dette kan
 endre seg), og pass på at du installerer riktig versjon av Forge.
 
 ## Sjekkliste {.check}
@@ -32,10 +31,10 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   Bla nedover på siden til du finner et avsnitt som heter **Download
   and installing**. Last ned ComputerCraft til datamaskinen din, og
   noter deg hvilken versjon av Minecraft denne er kompatibel med (for
-  eksempel versjon 1.7.10). _Ikke_ prøv å kjør filen, vi skal kopiere
+  eksempel versjon 1.8.9). _Ikke_ prøv å kjør filen, vi skal kopiere
   den til riktig sted litt senere.
 
-    [![](last_ned_computercraft.png)](http://www.computercraft.info/download/)
+  [![](last_ned_computercraft.png)](http://www.computercraft.info/download/)
 
 + Start **Minecraft Launcher**. Sjekk om du har den riktige versjonen
   av Minecraft tilgjengelig. Hvis ikke kan du velge `New Profile` og i
@@ -44,7 +43,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   Profile`. Klikk `Play` slik at denne versjonen blir lastet ned og
   startet opp. Avslutt spillet.
 
-    ![](minecraft_versjon.png) <!-- Venstrejuster bildet -->
+  ![](minecraft_versjon.png) <!-- Venstrejuster bildet -->
 
 + Før vi kan legge inn ComputerCraft må vi installere **Minecraft
   Forge**, som gir oss tilgang til å legge inn Mods. Gå til
@@ -53,18 +52,20 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   Versions** midt på skjermen. Pass på at riktig versjonsnummer vises
   under tittelen på toppen av skjermen.
 
-    I boksen **Download Recommended** velger du `Installer`. Du kommer
-    nå til en reklameside. **Vent** til nedtellingen øverst til høyre
-    er ferdig. Klikk **deretter** på `Skip` og nedlastingen av en fil
-    starter.
+  [![](minecraft_forge_a.png)](http://files.minecraftforge.net/)
 
-    [![](last_ned_forge.png)](http://files.minecraftforge.net/)
+  I boksen **Download Recommended** velger du `Installer`. Du kommer
+  nå til en reklameside. **Vent** til nedtellingen øverst til høyre er
+  ferdig. Klikk **deretter** på `Skip` og nedlastingen av en fil
+  starter.
+
+  [![](minecraft_forge_b.png)](http://files.minecraftforge.net/)
 
 + Kjør filen som ble lastet ned ved å dobbelklikke på den (om du blir
   spurt hvordan den skal kjøres kan du velge Java eller JDK). Velg
   `Install client` og klikk `OK`.
 
-    ![](installer_forge.png) <!-- Venstrejuster bildet -->
+  ![](installer_forge.png) <!-- Venstrejuster bildet -->
 
 + Start **Minecraft Launcher**. Det har nå dukket opp en ny profil som
   heter `Forge`. Velg denne og start spillet. Dette vil lage en
@@ -72,7 +73,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   har dukket opp et nytt valg i hovedmenyen: `Mods`. Avslutt spillet
   igjen.
 
-    ![](start_forge.png) <!-- Venstrejuster bildet -->
+  ![](start_forge.png) <!-- Venstrejuster bildet -->
 
 + Finn `Minecraft`-katalogen din ved å starte **Minecraft
   Launcher**. Velg deretter `Edit Profile` og klikk knappen `Open Game
@@ -80,7 +81,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   **ComputerCraft**-filen vi lastet ned helt først inn i
   `mods`-katalogen. Klikk `Cancel` i `Edit Profile`-vinduet.
 
-    ![](minecraft_katalog.png) <!-- Venstrejuster bildet -->
+  ![](minecraft_katalog.png) <!-- Venstrejuster bildet -->
 
 + Nå er vi ferdige. I **Minecraft Launcher** kan du nå velge
   profilen `Forge` og klikke `Play`. Når du klikker `Mods` fra
