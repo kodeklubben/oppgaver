@@ -285,3 +285,15 @@ Nå har du en ball som spretter rundt. La oss legge til poeng. Vi har laget en p
 - Sjekk nå at du får poeng når du treffer ballen med et klikk.
 
   ![](poeng.gif)
+
+## Teste spillet {.flag}
+Du er nå kommet så langt at det kan være kult å teste spillet. Ettersom spillet handler om å trykke flest mulig ganger på ballen, egner det seg for å prøve på mobiltelefonen.
+
+## Sjekkliste {.check}
+- Øverst i nettleseren din står adressen til siden.
+
+  ![](adresse.png)
+
+- Adressen du trenger å taste inn på mobilen er det som står før `/edit?js,output`.
+- I eksempelet over blir dette `jsbin.com/dutebe`, tast din adresse inn på mobiltelefonen din.
+- Spill!
