@@ -65,7 +65,6 @@ Vi skal bruke JavaScript til å lage innholdet på siden, altså vi lager *HTML*
     el.style.backgroundColor = 'black'
     el.style.width = '60px'
     el.style.height = '60px'
-
     document.body.appendChild(el)
   }
   ```
@@ -179,7 +178,110 @@ I JavaScript kan vi bruke `Math.random()` for å få en tilfeldig verdi mellom 0
 - Siden `Math.random()` maks er 1 og vi ganger med 80, vil aldri ballen flytte seg lenger ut enn 80% fra toppen eller venstre side.
 
 # Steg 5: Flytte ballen hvert sekund {.activity}
-Vi ønsker at ballen hele tiden skal flytte seg. Nå skal vi bruke `setInterval` til å flytte ballen hvert sekund.
+Vi ønsker at ballen hele tiden skal flytte seg. Nå skal vi bruke `setInterval` til å flytte ballen hvert andre sekund.
 
 ## Sjekkliste {.check}
--
+- Flytt `el.style.left` og `el.style.top` inni en funksjon vi kaller `tegn`:
+
+  ```js
+  function Ball() {
+    var el = document.createElement('div')
+    el.style.backgroundColor = 'black'
+    el.style.width = '60px'
+    el.style.height = '60px'
+    el.style.borderRadius = '30px'
+    el.style.position = 'fixed'
+    document.body.appendChild(el)
+
+    function tegn () {
+      el.style.top = tilfeldig()
+      el.style.left = tilfeldig()
+    }
+  }
+  ```
+
+- Vi kan nå bruke `tegn` for å flytte ballen til et tilfeldig sted.
+- La oss bruke `tegn` med `setInterval`. Legg denne linjen etter `tegn`-funksjonen:
+
+  ```js
+  setInterval(tegn, 2000)
+  ```
+
+- `setInterval(tegn, 2000)` betyr kjør `tegn` hvert `2000` millisekund. 2000 millisekund er 2 sekunder, altså tegnes ballen på et nytt sted hvert andre sekund.
+
+# Steg 6: Poeng {.activity}
+Nå har du en ball som spretter rundt. La oss legge til poeng. Vi har laget en poeng-komponent som du kan bruke, så kommer du raskere i gang. `Poeng` er bygd opp likt som `Ball`, så du må gjerne lese gjennom og se om du forstår den.
+
+## Sjekkliste {.check}
+- Legg til `Poeng` koden:
+
+  ```js
+  /**
+  * Poeng - viser poengsum nede i venstre hjørne.
+   *
+   * Bruk:
+   *   var poeng = Poeng()
+   *   poeng.ink()  // øker poengsummen med 100
+   *   poeng.nullstill()  // setter poengsummen til 0
+   */
+  function Poeng () {
+    var el = document.createElement('div')
+    el.style.position = 'fixed'
+    el.style.bottom = '5px'
+    el.style.left = '8px'
+    el.style.padding = '5px'
+    el.style.backgroundColor = 'black'
+    el.style.color = 'white'
+
+    var poeng = 0
+    el.innerHTML = poeng + ' poeng'
+    document.body.appendChild(el)
+
+    function ink () {
+      poeng += 100
+      el.innerHTML = poeng + ' poeng'
+    }
+    function nullstill () {
+      poeng = 0
+      el.innerHTML = poeng + ' poeng'
+    }
+
+    return { ink: ink, nullstill: nullstill }
+  }
+  ```
+
+- For at poengsummen skal vises, må vi kjøre `Poeng()` en gang, slik vi også gjorde med `Ball()`.
+- Legg denne linjen over `Ball()`:
+
+  ```js
+  var poeng = Poeng()
+  Ball()
+  ```
+
+- For å holde orden på programmet er det lurt å ha det som skjer i toppen. Funksjoner kan brukes likevel om de ikke står først, så flytt `function Ball`, `function tilfeldig` og `function Poeng` ned til bunnen.
+- Nå står det som skjer i toppen, vis poengene, `var poeng = Poeng()` og vis ballen, `Ball()`.
+- Vi må nå utvide `Ball` slik at vi kan registrere når ballen blir trykt på:
+
+  ```js
+  function Ball (handtereKlikk) {
+  ```
+
+  Og `el.onclick` like over `appendChild`:
+
+  ```js
+  el.onclick = handtereKlikk
+  document.body.appendChild(el)
+  ```
+
+- Det som er nytt er at vi tar i mot `handtereKlikk`, som skal være en funksjon.
+- Og `el.onclick = handtereKlikk` betyr at denne funksjonen kjøres når ballen klikkes.
+- Det siste som gjenstår er å sende funksjonen `poeng.ink` til `Ball`:
+
+  ```js
+  var poeng = Poeng()
+  Ball(poeng.ink)  // kjør poeng.ink hver gang ballen klikkes
+  ```
+
+- Sjekk nå at du får poeng når du treffer ballen med et klikk.
+
+  ![](poeng.gif)
