@@ -9,9 +9,9 @@ Oppgaver er *kun* javascript, men det lønner seg å ha kjennskap til HTML og CS
 
 ## Konsepter i bruk i oppgaven
 
-- Variabler
-- Objekter
-- Funksjoner
+- [Variabler]
+- [Objekter]
+- [Funksjoner]
 - [Closures], funksjoner som husker konteksten de ble laget i.
 - [HTML-elementer] via javascript
 - [CSS-stil] via javascript
