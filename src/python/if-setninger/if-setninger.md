@@ -9,7 +9,7 @@ Vi lærte i [Kuprat](../kuprat/kuprat.html) at vi kan bruke `input()` for å få
 brukeren og `print()` for å skrive ut tekst til brukeren. Det kan for
 eksempel gjøres slik:
 
-```python3
+```python
 navn = input("Hva er navnet ditt? ")
 print("Hei, " + navn)
 ```
@@ -22,7 +22,7 @@ skriver inn.
 
 En `if`-setning fungerer slik:
 
-```python3
+```python
 age = 22
 if age > 18:
     print("Du er voksen!")
@@ -53,7 +53,7 @@ blir sann, og hvis testen er sann kjøres koden som har innrykk etter
 
 Hva skjer når vi kjører denne koden?
 
-```python3
+```python
 if 3 == 2+1:
     print("3 er lik 2+1")
 ```
@@ -64,7 +64,7 @@ er like.
 
 Vi kan også sjekke om to verdier er ulike, ved å bruke `!=`.
 
-```python3
+```python
 if 4 != 2+1:
     print("4 er ikke lik 2+1")
 ```
@@ -73,7 +73,7 @@ if 4 != 2+1:
 
 Her har en av CodeMasterne gjort en feil. Kan du hjelpe oss å finne feilen?
 
-```python3
+```python
 if 7 == 2*4:
     print("7 er ikke lik 2*4")
 ```
@@ -85,7 +85,7 @@ if 7 == 2*4:
 * Vi har lyst til å skrive et program som hilser på personer som heter "Per".
     Dette kan vi gjøre slik:
 
-    ```python3
+    ```python
     navn = input("Hva heter du? ")
     if navn == "Per":
         print("Hei!")
@@ -97,7 +97,7 @@ if 7 == 2*4:
 
 * Men hva skjer om den ene linjen ikke har et innrykk, slik som i koden under?
 
-    ```python3
+    ```python
     navn = input("Hva heter du? ")
     if navn == "Per":
         print("Hei!")

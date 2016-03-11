@@ -1,11 +1,8 @@
 ---
 title: Labyrint
-level: 1.2
-language: nb-NO
-embeds: "labyrint.png"
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 I dette spillet vil vi kontrollere en liten __utforsker__ mens hun
 leter etter __skatten__ gjemt inne i labyrinten. Dessverre er skatten

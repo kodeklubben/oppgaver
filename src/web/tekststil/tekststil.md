@@ -4,10 +4,10 @@ level: 2
 language: nb-NO
 ---
 
-## __Introduksjon:__ { .intro }
+## __Introduksjon:__ {.intro }
 I denne oppgaven skal vi se på og lære hvordan vi kan forandre skrifttyper, farge og størrelse. Vi skal også lære hvordan vi kan legge til en bakgrunnsfarge og ramme. Vi vil fortsette å bruke det samme prosjektet som i forrige oppgave. Så vi må være sikre på at vi har åpnet filen index.html fra mappen Felix.
 
-# Steg 1: Skrifttyper  { .activity}
+# Steg 1: Skrifttyper  {.activity}
 
 Vi kan forandre utseende på teksten ved å endre __skrifttypen__. De mest vanlige skrifttypene heter:
 
@@ -44,7 +44,7 @@ Og nå – endre skrifttypen i en paragraf...
 }
 ```
 
-## __Lagre__ og __se__ det i nettleseren. { .save}
+## __Lagre__ og __se__ det i nettleseren. {.save}
 
 Prøv nå med forskjellige skrifttyper som du liker best. Legg merke til at vi kan skille mellom hver skrifttype ved å bruke komma, og hvis navnet på skrifttypen består av flere ord – må navnet skrives inn i anførselstegn.
 
@@ -63,7 +63,7 @@ Du kan også lage teksten i __fet__, *kursiv* eller begge deler ved hjelp av skr
 }
 ```
 
-## __Lagre__ og __se__ det i nettleseren. { .save}
+## __Lagre__ og __se__ det i nettleseren. {.save}
 
 Eller vi kan sette teksten til *kursiv*.
 
@@ -71,7 +71,7 @@ Eller vi kan sette teksten til *kursiv*.
 	font-style:italic;
 }
 ```
-## __Lagre__ og __se__ det i nettleseren. { .save}
+## __Lagre__ og __se__ det i nettleseren. {.save}
 
 Det er også en skriftstil-verdi som heter ‘oblique’. Hvordan ser den ut?
 
@@ -85,7 +85,7 @@ h2 {
 
 Prøv det!
 
-#Step 2: Kantlinjer! { .activity}
+#Step 2: Kantlinjer! {.activity}
 
 LLa oss legge til en kantlinje rundt et bilde.
 
@@ -96,13 +96,13 @@ img {
 	border-style:solid;
 }
 ```
-## __Lagre__ og __se__ det i nettleseren. { .save}
+## __Lagre__ og __se__ det i nettleseren. {.save}
 
 Prøv nå å forandre farge, bredden, og linje-stil til du er fornøyd. Her er noen linje-stiler: `dashed`, `dotted`, `double`, `groove`, `ridge`, `inset`, `outset`.
 
 Du kan sette på kantlinjer på alle slags elementer, vi prøver litt mer.
 
-# Step 3: IDer og klasser { .activity}
+# Step 3: IDer og klasser {.activity}
 
 Vi ønsker å lage et kontaktavsnitt som er __uthevet__. Vi kan ikke bruke `<p>` tag fordi det vil endre alle andre paragrafer også. For å gjøre dette må vi legge til en stil for disse egenskapene. For å lage denne stilen må vi lage noe som kalles en ID. Vi trenger da følgende HTML:
 
@@ -116,7 +116,7 @@ Nå kan vi endre stilen til IDen slik:
 	color:red;
 }
 ```
-## __Lagre__ og __se__ det i nettleseren. { .save}
+## __Lagre__ og __se__ det i nettleseren. {.save}
 En ID er unik og kan bare bli brukt en gang per side. Så hva gjør vi hvis du ønsker å lage to paragrafer med større skrift? Dette kan vi løse ved å bruke klasser. Det første vi må gjøre er å gi teksten klassenavnet for den teksten vi ønsker å gjøre større.
 
 ```html
@@ -132,7 +132,7 @@ Deretter setter vi stilen slik (legg merke til at vi bruker `.` i stedet for `#`
 }
 ```
 
-## Ting du kan prøve: { .try}
+## Ting du kan prøve: {.try}
 
 + Hvordan vil du endre siden for å få den til å se bedre ut? Hvorfor ikke prøve å bruke din favorittskrifttype, farge, osv?
 

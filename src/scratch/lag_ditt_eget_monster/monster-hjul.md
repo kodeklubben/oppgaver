@@ -7,7 +7,7 @@ translator: Lars-Erik Wollan
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + For å få et hjul til å bevege seg, kan vi **rotere** det litt av
   gangen og flytte det når vi mottar en **flyttet melding**.

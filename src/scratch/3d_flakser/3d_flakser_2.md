@@ -15,14 +15,14 @@ vanskelighetsgrader eller lag noe helt annet!
 
 ![](3d_flakser.png)
 
-# Steg 1: Lag bakken og få den til følge med { .activity}
+# Steg 1: Lag bakken og få den til følge med {.activity}
 
 Vi begynner med et enkelt steg som gjør spillet litt mer realistisk.
 Siden figuren flyr så kan vi forvente at hvis man ikke flakser, så
 treffer man før eller siden bakken. Dette gjør vi med en ny figur som
 vi kaller `bakken`.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + Lag en ny figur som heter `bakken`. Tegn en drakt til den. Det
   enkleste er å bare fylle den nederste tredjeparten av tegneområdet
@@ -65,7 +65,7 @@ vi kaller `bakken`.
         slutt
     ```
 
-# Steg 2: Få Flakse til å flakse { .activity}
+# Steg 2: Få Flakse til å flakse {.activity}
 
 Hvis du har gjort del en av 3D-Flakser riktig så kan du nå styre
 flakse-figuren gjennom ringene med piltastene. Det er to ulemper med
@@ -74,7 +74,7 @@ flyr. Vi vil at Flakse faktisk må flakse for å holde seg i
 luften. Derfor endrer vi litt på skriptene til flakse-figuren slik at
 den flakser med vingene når vi trykker mellomromtasten.
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
 + For å holde styr på hvor mange ganger spilleren har trykket på
   mellomrom så lager vi en variabel `flaks`{.blockdata} som gjelder

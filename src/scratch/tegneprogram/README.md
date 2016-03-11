@@ -1,11 +1,8 @@
 ---
-title: Tegneprogram
-level: 1.8
-language: nb-NO
-embeds: "tegneprogram.png"
+title: Lærerveiledning - Tegneprogram
 ---
 
-# Informasjon til Veiledere
+# Informasjon til veiledere
 
 I dette prosjektet lager vi et tegneprogram slik at man etterpå kan
 lage sin egen kunst. Man kan tegne med forskjellige farger, bruke
@@ -19,7 +16,7 @@ Tegneprogram bruker egne ressurser som er tilgjengelige på nettet. I
 seksjonen `Forberedelser` forklares det hvordan disse kan lastes
 ned. Eventuelt er katalogen `ressurser` tilgjengelig på prosjektsiden
 på GitHub:
-<http://www.github.com/kodeklubben/oppgaver/tree/master/scratch/>,
+<https://github.com/kodeklubben/oppgaver/tree/master/src/scratch/>,
 eller i en zip-fil kalt `Materials` eller
 `Tegneprogram_ressurser.zip`, tilgjengelig sammen med disse
 instruksene.

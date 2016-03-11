@@ -5,15 +5,15 @@ language: nb-NO
 ---
 
 
-# Introduksjon { .intro}
+# Introduksjon {.intro}
 Har du noen gang lurt på hvordan internett virker? Klart du har det! I dag kommer du til å lære hvordan man lager nettsider slik at du også kan hjelpe til med å bygge det. Nettsider blir skrevet ved å bruke **HTML**, som er en forkortelse for **HyperText Markup Language** på engelsk. Du kommer til å finne ut mer om dette ettersom du bygger siden din.
 
 Filene som du bes åpne i denne oppgaven finner du i [internett.zip](internett.zip). Last ned filen og pakk den ut før du starter. Om du ikke får pakket ut filen, kan du laste ned programmet [7zip](http://www.7-zip.org/) som pakker ut zip-filer.
 
 
-# Steg 1: Hva er nettsider? { .activity}
+# Steg 1: Hva er nettsider? {.activity}
 
-## Aktiviteter { .check}
+## Aktiviteter {.check}
 1. Åpne en **teksteditor**, for eksempel [teksteditoren atom](http://atom.io).
 2. Lag et nytt dokument.
 3. Skriv noe! For eksempel: `Hei! Jeg heter ...`
@@ -32,7 +32,7 @@ Når du skriver en adresse inn i nettleseren din, blir forespørselen din sendt 
 ![](webdialog.png "Din datamaskin: 'Hei! Kan jeg få se http://kodeklubben.no, vær så snill?', En datamaskin som vet hvor forskjelligere nettsteder bor: 'Denne maskinen har filene', Datamaskin som filene til nettstedet er lagret på: 'Her er filene du trenger'")
 
 
-# Steg 2: Hva er HTML? { .activity}
+# Steg 2: Hva er HTML? {.activity}
 HTML er et **markeringsspråk** - det betyr at det brukes til å beskrive hva ting er. Selv om nettleseren prøver å gjøre sitt beste for å vise ting, hjelper det at den vet hva disse tingene er. For å fortelle nettleseren det, bruker vi **tagger**. Tagger ser sånn ut:
 
 ```html
@@ -50,7 +50,7 @@ Tagger kan også ha **attributter**, som er informasjon om elementet. La oss se 
 `<a>` betyr **anker**, som er det linker ble kalt før. Den har åpningen `<a>` og avslutningen `</a>`. I åpningstaggen la vi til attributten `href` med verdien `http://kodeklubben.no/`. `href` står for *hypertekst referanse*. En tekst som linket til andre tekster ble en gang kalt *hypertekst*, fordi den kunne peke til bilder, lyd og andre tekster. Det gjorde *anker* annerledes enn annen vanlig tekst. `href` forteller nettleseren hvor linken skal føre deg, og teksten i mellom taggene vil bli synlig som en link.
 
 
-## Aktiviteter { .check}
+## Aktiviteter {.check}
 - Installer **X-Ray Goggles** ved å trekke linken <a href="javascript:(function(){var%20script=document.createElement('script');script.src='https://goggles.webmaker.org/en-US/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.webmaker.org/en-US');document.body.appendChild(script);})();">X-Ray Goggles</a> til din bokmerkerad.
 - Åpne filen `side.html` fra [internett.zip](internett.zip).
 - Trykk på *X-Ray Goggles* fra bokmerkeraden din. Om ingenting skjer, spør en CodeMaster/veileder om hjelp til å bruke utviklerverktøyet i din nettleser.
@@ -84,7 +84,7 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 - `<body>`: Her putter vi det som skal dukke opp på nettsiden.
 
 
-## Aktiviteter { .check}
+## Aktiviteter {.check}
 - Åpne filen `side.html` i teksteditoren din.
 - Legg merke til hvordan tagger kan stå på innsiden av andre tagger. Vi har `<a>`-taggen, som er inni `<p>`-taggen, som igjen er inni `<div>`, som er plassert i `<body>`. Når en tagg er på innsiden av en annen sier vi at taggen som er inni er **barnet** og taggen som er rundt er **forelder**. Det er nesten som et slektstre!
 - For nettleseren er tagger av samme type like, men du kan skille de fra hverandre ved å bruke klasser. For eksempel kan noen paragrafer være introduksjoner, og da kan vi bruke klassen `introduksjon` for å skille disse paragrafene fra andre paragrafer. Finn taggene som har klasser i filen `side.html`.
@@ -104,7 +104,7 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 - Lagre siden og åpne den i nettleseren.
 - Hvordan påvirker rekkefølgen av koden rekkefølgen på det som vises i nettleseren?
 
-## Ting du kan prøve { .try}
+## Ting du kan prøve {.try}
 
 - Lag din egen paragraf med tekst.
 - Lag en link som peker til en annen del av siden. **Hint:** Det har noe med ID å gjøre, se etter en link som peker til katten.

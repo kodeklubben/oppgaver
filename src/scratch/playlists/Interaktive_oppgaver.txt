@@ -1,0 +1,13 @@
+interaktive_oppgaver/kom_i_gang_med_scratch.md
+interaktive_oppgaver/animasjon_med_navnet_ditt.md
+interaktive_oppgaver/lag_et_valentinsdag-kort.md
+interaktive_oppgaver/dans_dans_dans.md
+interaktive_oppgaver/ballspillet_pong.md
+interaktive_oppgaver/lop_om_kapp.md
+interaktive_oppgaver/leke_gjemsel.md
+interaktive_oppgaver/ting_jeg_liker.md
+interaktive_oppgaver/lag_et_virtuelt_kjaeledyr.md
+interaktive_oppgaver/lag_et_kort_til_en_venn.md
+interaktive_oppgaver/lag_et_fotballspill.md
+interaktive_oppgaver/bjornebunken.md
+interaktive_oppgaver/basketballkurver.md
