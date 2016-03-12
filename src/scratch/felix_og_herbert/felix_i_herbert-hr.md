@@ -8,7 +8,10 @@ translator: Goran Stene Solomonovic
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 ---
 <!-- This is a croatian translation of Felix and Herbert, originally
-written by Code Club UK. -->
+written by Code Club UK. The shape and category directives for the
+blocks code are added so the code is rendered nicely without loading
+the hr-language in scratchblocks. If croatian is supported in
+scratchblocks, the directives can be removed. -->
 
 # Uvod {.intro}
 
@@ -28,7 +31,7 @@ pokušati da izbjegneš Felixa. Što duže uspiješ da izbjegneš Felixa to
 + Pritisni na `i`{.blockmotion} u kutu od ![Sprite1](sprite1.png) i
   nazovi figuru `Felix`.
 
-+ Stavi «stil rotiranja» da bude
++ Stavi `stil rotiranja` da bude
   ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png). Felix če se onda
   kretati samo lijevo i desno.
 
@@ -40,12 +43,12 @@ pokušati da izbjegneš Felixa. Što duže uspiješ da izbjegneš Felixa to
   ispod:
 
   ```blocks
-      kada je ⚑ kliknut
-      ponavljaj
-          okreni se k [strelice misa v]
-          idi (10) koraka
-          sljedeći kostim
-          bubnjaj po (3 v) (0.25) puta
+      kada je ⚑ kliknut  :: hat events
+      ponavljaj  :: cstart control
+          okreni se k [strelice misa v]  :: motion
+          idi (10) koraka  :: motion
+          sljedeći kostim  :: looks
+          bubnjaj po (3 v) (0.25) puta  :: sound
       end
     ```
 
@@ -88,10 +91,10 @@ nekad spasiš tvoj projekt.
   program ispod:
 
   ```blocks
-      kada je ⚑ kliknut
-      ponavljaj
-          idi do [strelice misa v]
-          okreni se k [Felix v]
+      kada je ⚑ kliknut  :: hat events
+      ponavljaj  :: cstart control
+          idi do [strelice misa v]  :: motion
+          okreni se k [Felix v]  :: motion
       end
     ```
 
@@ -110,14 +113,14 @@ __Pritisni zelenu zastavu.__
 + Promjeni `Skripte` od Felixa tako da bude isti kao program ispod:
 
   ```blocks
-      kada je ⚑ kliknut
-      ponavljaj
-          okreni se k [strelice misa v]
-          idi (10) koraka
-          sljedeći kostim
-          bubnjaj po (3 v) (0.25) puta
-          ako (dodiruje [Herbert v]?) onda
-              govori [Uhvatio sam te!] (1) sekundi
+      kada je ⚑ kliknut  :: hat events
+      ponavljaj  :: cstart control
+          okreni se k [strelice misa v]  :: motion
+          idi (10) koraka  :: motion
+          sljedeći kostim  :: looks
+          bubnjaj po (3 v) (0.25) puta  :: sound
+          ako (dodiruje [Herbert v]? :: sensing) onda  :: cstart control
+              govori [Uhvatio sam te!] (1) sekundi  :: looks
           end
       end
     ```
@@ -136,16 +139,16 @@ __Pritisni zelenu zastavu.__
   Herbert uhvačen:
 
     ```blocks
-      kada je ⚑ kliknut
-      ponavljaj
-          okreni se k [strelice misa v]
-          idi (10) koraka
-          sljedeći kostim
-          bubnjaj po (3 v) (0.25) puta
-          ako (dodiruje [Herbert v]?) onda
-              pošalji [Uhvatio v]
-              govori [Uhvatio sam te!] (1) sekundi
-              čekaj (1) sekundi
+      kada je ⚑ kliknut  :: hat events
+      ponavljaj  :: cstart control
+          okreni se k [strelice misa v]  :: motion
+          idi (10) koraka  :: motion
+          sljedeći kostim  :: looks
+          bubnjaj po (3 v) (0.25) puta  :: sound
+          ako (dodiruje [Herbert v]? :: sensing) onda  :: cstart control
+              pošalji [Uhvatio v]  :: events
+              govori [Uhvatio sam te!] (1) sekundi  :: looks
+              čekaj (1) sekundi  :: control
           end
       end
     ```
@@ -163,10 +166,10 @@ __Pritisni zelenu zastavu.__
 + Pritisni na `Skripte` i dodaj ovaj program. Zadrži stari program.
 
   ```blocks
-      kada primim [Uhvatio v]
-      promijeni kostim u [Duh v]
-      čekaj (5) sekundi
-      promijeni kostim u [Živ v]
+      kada primim [Uhvatio v]  :: hat events
+      promijeni kostim u [Duh v]  :: looks
+      čekaj (0.5) sekundi  :: control
+      promijeni kostim u [Živ v]  :: looks
   ```
 
 ## Probaj program {.flag}
@@ -200,15 +203,15 @@ __Pritisni zelenu zastavu.__
   ova dva programa:
 
   ```blocks
-      kada je ⚑ kliknut
-      postavi [Bodovi v] na [0]
-      ponavljaj
-          čekaj (1) sekundi
-          promijeni [Bodovi v] za (1)
+      kada je ⚑ kliknut  :: hat events
+      postavi [Bodovi v] na [0]  :: variables
+      ponavljaj  :: cstart control
+          čekaj (1) sekundi  :: control
+          promijeni [Bodovi v] za (1)  :: variables
       end
 
-      kada primim [Uhvatio v]
-      promijeni [Bodovi v] za (-10)
+      kada primim [Uhvatio v]  :: hat events
+      promijeni [Bodovi v] za (-10)  :: variables
   ```
 
 ## Probaj program {.flag}
