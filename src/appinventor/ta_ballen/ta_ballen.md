@@ -123,7 +123,7 @@ Nå som menyen er designet ferdig, er vi nødt til å programmere den slik at no
   heter `When SPILL.Click - do`, og så hente frem blokken `open another screen  screenName` fra **Control** og 
   fest på teksten `Spill`. Gjør så det samme for `Creditz`.
   
-+ For å kunne avslutte appen så legger vi inn en blokk som sier `when Screen1.BackPressed - do` fra **Screen1**. 
++ For å kunne avslutte appen så legger vi inn en blokk som sier `when Screen1.BackPressed - do` fra **SPILL**. 
   Inne i denne blokken plasserer vi `close application`.
 
 + Så bestemmer vi poengsummen ved start ved `when Screen1.Initialize - do`, og `set Label3.Text to` knyttet
