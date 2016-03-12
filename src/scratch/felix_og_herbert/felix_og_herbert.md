@@ -9,10 +9,10 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 
 # Introduksjon {.intro}
 
-Vi skal lage et spill hvor katten __Felix__ skal fange musa
-__Herbert__. Du styrer Herbert med musepekeren og skal prøve å unngå å
-bli tatt av Felix. Jo lenger du unngår ham jo flere poeng får du, men
-blir du tatt, går poengsummen din ned.
+Vi skal lage et spill hvor katten Felix skal fange musa Herbert. Du
+styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av
+Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du
+tatt, går poengsummen din ned.
 
 ![](felix_og_herbert.png)
 
@@ -32,22 +32,22 @@ blir du tatt, går poengsummen din ned.
   ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
 + Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen
-  `Bakgrunner`{.blocklightgrey} og trykk på
+  `Bakgrunner` og trykk på
   ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) for å
   importere en ferdig bakgrunn. Velg den bakgrunnen du vil.
 
-+ Klikk på Felix, velg `Skript`{.blocklightgrey}-fanen og lag dette
++ Klikk på Felix, velg `Skript`-fanen og lag dette
   skriptet:
 
-    ```blocks
-        Når grønt flagg klikkes
-        for alltid
-            pek mot [musepeker v]
-            gå (10) steg
-            neste drakt
-            trommeslag (3 v) som varer (0.25) takter
-        slutt
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      for alltid
+          pek mot [musepeker v]
+          gå (10) steg
+          neste drakt
+          trommeslag (3 v) som varer (0.25) takter
+      slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -82,18 +82,18 @@ Det kan likevel være lurt å lagre manuelt innimellom.
 + Bytt navn på figuren til `Herbert`.
 
 + Gjør Herbert mindre enn Felix ved å trykke på
-  ![krymp](../bilder/krymp.png) (øverst mot midten av
-  vinduet). Prøv seks klikk.
+  ![krymp](../bilder/krymp.png) (øverst mot midten av vinduet). Prøv
+  seks klikk.
 
 + Gi Herbert dette skriptet:
 
-    ```blocks
-        Når grønt flagg klikkes
-        for alltid
-            gå til [musepeker v]
-            pek mot [Felix v]
-        slutt
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      for alltid
+          gå til [musepeker v]
+          pek mot [Felix v]
+      slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -112,18 +112,18 @@ __Klikk på det grønne flagget.__
 
 + Endre skriptet til Felix til dette:
 
-    ```blocks
-        Når grønt flagg klikkes
-        for alltid
-            pek mot [musepeker v]
-            gå (10) steg
-            neste drakt
-            trommeslag (3 v) som varer (0.25) takter
-            hvis (berører [Herbert v]?)
-                si [Tok deg!] i (1) sekunder
-            slutt
-        slutt
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      for alltid
+          pek mot [musepeker v]
+          gå (10) steg
+          neste drakt
+          trommeslag (3 v) som varer (0.25) takter
+          hvis (berører [Herbert v]?)
+              si [Tok deg!] i (1) sekunder
+          slutt
+      slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -141,23 +141,23 @@ __Klikk på det grønne flagget.__
 + Endre skriptet til Felix slik at det sender en melding og lager en
   lyd når han fanger Herbert:
 
-    ```blocks
-        Når grønt flagg klikkes
-        for alltid
-            pek mot [musepeker v]
-            gå (10) steg
-            neste drakt
-            trommeslag (3 v) som varer (0.25) takter
-            hvis (berører [Herbert v]?)
-                send melding [Fanget!]
-                trommeslag (1 v) som varer (0.25) takter
-                si [Tok deg!] i (1) sekunder
-                vent (1) sekunder
-            slutt
-        slutt
-    ```
+  ```blocks
+      når grønt flagg klikkes
+      for alltid
+          pek mot [musepeker v]
+          gå (10) steg
+          neste drakt
+          trommeslag (3 v) som varer (0.25) takter
+          hvis (berører [Herbert v]?)
+              send melding [Fanget! v]
+              trommeslag (1 v) som varer (0.25) takter
+              si [Tok deg!] i (1) sekunder
+              vent (1) sekunder
+          slutt
+      slutt
+  ```
 
-+ Velg Herbert og gå til `Drakter`{.blocklightgrey}-fanen.
++ Velg Herbert og gå til `Drakter`-fanen.
 
 + Hent en ny drakt ved å trykke på
   ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png)
@@ -169,16 +169,16 @@ __Klikk på det grønne flagget.__
 + Endre navnene på Herberts drakter slik at musedrakten heter
   `levende` og spøkelsesdrakten heter `død`.
 
-+ Gå til `Skript`{.blocklightgrey}-fanen, og lag et nytt skript for
++ Gå til `Skript`-fanen, og lag et nytt skript for
   Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle
   skriptet:
 
-    ```blocks
-        når jeg mottar [Fanget! v]
-        bytt drakt til [død v]
-        vent (0.5) sekunder
-        bytt drakt til [levende v]
-    ```
+  ```blocks
+      når jeg mottar [Fanget! v]
+      bytt drakt til [død v]
+      vent (0.5) sekunder
+      bytt drakt til [levende v]
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -199,28 +199,29 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ På `Skript`{.blocklightgrey}-fanen under kategorien
-  `Data`{.blockdata}, lag en ny variabel. Kall variabelen for
-  `Poeng`{.blockdata}, og la den gjelde for alle figurer.
++ På `Skript`-fanen under kategorien `Data`{.blockdata}, lag en ny
+  variabel. Kall variabelen for `Poeng`, og la den gjelde for alle
+  figurer.
 
-    ![](ny-variabel-poeng.png)
+  ![](ny-variabel-poeng.png)
 
-    Legg merke til at `Poeng `{.blockgrey}` 0 `{.blockdata}`
-    `{.blockgrey} dukket opp øverst til venstre i spillet ditt.
+  Legg merke til at `Poeng `{}` 0 `{.blockdata}` ` dukket opp øverst til
+  venstre i spillet ditt.
 
 + Klikk på `Scene` til venstre på skjermen, ved siden av
   `Figurer`. Lag disse to skriptene på scenen:
 
-    ```blocks
-        Når grønt flagg klikkes
-        sett [Poeng v] til (0)
-        for alltid
-            vent (1) sekunder
-            endre [Poeng v] med (1)
+  ```blocks
+      når grønt flagg klikkes
+      sett [Poeng v] til [0]
+      for alltid
+          vent (1) sekunder
+          endre [Poeng v] med (1)
+      slutt
 
-        når jeg mottar [Fanget! v]
-        endre [Poeng v] med (-10)
-    ```
+      når jeg mottar [Fanget! v]
+      endre [Poeng v] med (-10)
+  ```
 
 ## Test prosjektet {.flag}
 
