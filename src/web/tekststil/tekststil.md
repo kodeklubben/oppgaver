@@ -5,7 +5,7 @@ language: nb-NO
 ---
 
 # Introduksjon {.intro}
-I denne oppgaven skal vi se på og lære hvordan vi kan forandre skrifttyper, farge og størrelse. Vi skal også lære hvordan vi kan legge til en bakgrunnsfarge og ramme. Vi vil fortsette å bruke det samme prosjektet som i forrige oppgave. Så vi må være sikre på at vi har åpnet filen index.html fra mappen Felix.
+I denne oppgaven skal vi se på og lære hvordan vi kan forandre skrifttyper, farge og størrelse. Vi skal også lære hvordan vi kan legge til en bakgrunnsfarge og ramme. Vi vil fortsette å bruke det samme prosjektet som i [forrige oppgave](../forsvunnet_katt/forsvunnet_katt.html). Så vi må være sikre på at vi har åpnet filen index.html fra mappen Felix.
 
 # Steg 1: Skrifttyper  {.activity}
 
@@ -139,6 +139,6 @@ Deretter setter vi stilen slik (legg merke til at vi bruker `.` i stedet for `#`
 
 + Hvordan vil du endre siden for å få den til å se bedre ut? Hvorfor ikke prøve å bruke din favorittskrifttype, farge, osv?
 
-+ Hvis du er tidlig ferdig. Gå tilbake og legg på en stil i HTML dokumentet fra forrige leksjon
++ Hvis du er tidlig ferdig. Gå tilbake og legg på en stil i HTML dokumentet fra forrige leksjon.
 
 + Forresten, visste du at egenskapene for bakgrunn, ikke bare lar deg endre farger, men også legge til et bilde?
