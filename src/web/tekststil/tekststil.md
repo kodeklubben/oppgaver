@@ -4,7 +4,7 @@ level: 2
 language: nb-NO
 ---
 
-## __Introduksjon:__ {.intro }
+# Introduksjon {.intro}
 I denne oppgaven skal vi se på og lære hvordan vi kan forandre skrifttyper, farge og størrelse. Vi skal også lære hvordan vi kan legge til en bakgrunnsfarge og ramme. Vi vil fortsette å bruke det samme prosjektet som i forrige oppgave. Så vi må være sikre på at vi har åpnet filen index.html fra mappen Felix.
 
 # Steg 1: Skrifttyper  {.activity}
@@ -29,18 +29,19 @@ La oss prøve å endre skrifttyper på overskriften ved å bruke `font-family` e
 ```css
 h1 {
 	color: red;
-	background-color:black;
-	font-size:72px;
-	text-transform:uppercase;
-	text-decoration:underline;
-	text-decoration:blink;
-	font-family:impact, sans-serif;
+	background-color: black;
+	font-size: 72px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration: blink;
+	font-family: impact, sans-serif;
 }
 ```
 Og nå – endre skrifttypen i en paragraf...
 
 ```css
-	font-family:georgia, 'times new roman', serif;
+p {
+	font-family: georgia, 'times new roman', serif;
 }
 ```
 
@@ -59,7 +60,8 @@ Du kan også lage teksten i __fet__, *kursiv* eller begge deler ved hjelp av skr
 
 
 ```css
-	font-weight:bold;
+a {
+	font-weight: bold;
 }
 ```
 
@@ -68,7 +70,8 @@ Du kan også lage teksten i __fet__, *kursiv* eller begge deler ved hjelp av skr
 Eller vi kan sette teksten til *kursiv*.
 
 ```css
-	font-style:italic;
+a {
+	font-style: italic;
 }
 ```
 ## __Lagre__ og __se__ det i nettleseren. {.save}
@@ -79,21 +82,21 @@ Vi kan til og med bestemme hvor fet skriften skal være ved å bruke egenskapen 
 
 ```css
 h2 {
-	font-weight:normal;
+	font-weight: normal;
 }
 ```
 
 Prøv det!
 
-#Step 2: Kantlinjer! {.activity}
+# Step 2: Kantlinjer! {.activity}
 
 LLa oss legge til en kantlinje rundt et bilde.
 
 ```css
 img {
-	border-color:green;
-	border-width:5px;
-	border-style:solid;
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
 }
 ```
 ## __Lagre__ og __se__ det i nettleseren. {.save}
@@ -107,13 +110,13 @@ Du kan sette på kantlinjer på alle slags elementer, vi prøver litt mer.
 Vi ønsker å lage et kontaktavsnitt som er __uthevet__. Vi kan ikke bruke `<p>` tag fordi det vil endre alle andre paragrafer også. For å gjøre dette må vi legge til en stil for disse egenskapene. For å lage denne stilen må vi lage noe som kalles en ID. Vi trenger da følgende HTML:
 
 ```html
-<p  id ="uthevet">Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
+<p id="uthevet">Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
 ```
 Nå kan vi endre stilen til IDen slik:
 
 ```css
 #uthevet {
-	color:red;
+	color: red;
 }
 ```
 ## __Lagre__ og __se__ det i nettleseren. {.save}
@@ -128,7 +131,7 @@ Deretter setter vi stilen slik (legg merke til at vi bruker `.` i stedet for `#`
 
 ```css
 .stor {
-	font-size:24px;
+	font-size: 24px;
 }
 ```
 
