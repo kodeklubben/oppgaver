@@ -59,7 +59,7 @@ Du kan også lage teksten i __fet__, *kursiv* eller begge deler ved hjelp av skr
 
 
 ```css
-	font-style:bold;
+	font-weight:bold;
 }
 ```
 
