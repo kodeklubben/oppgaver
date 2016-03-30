@@ -93,7 +93,7 @@ Vi vil virkelig at folk skal finne Felix, så vi vil legge litt *trykk* på `ven
 Vi vil også at ´Tusen takk´ skal vises skikkelig, som vi oppnår ved å bruke strong taggen.
 
 ```html
-<p><strong>Tusen takk!</strong><p>
+<p><strong>Tusen takk!</strong></p>
 ```
 
 ## Lagre dokumentet ditt og vis det i nettleseren. {.save}
