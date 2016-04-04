@@ -44,7 +44,7 @@ en troverdig måte.
 + Start et nytt prosjekt.
 
 + For å kunne teste at heltefiguren oppfører seg som vi vil trenger vi
-  en enkel plattform (Vi skal tegne flere plattformer senere). Tegn en
+  en enkel plattform (vi skal tegne flere plattformer senere). Tegn en
   ny bakgrunn. Velg å tegne med `Vektorgrafikk`. Tegn en smal, lang
   boks nederst på skjermen. Fyll den med en farge forskjellig fra
   linjefargen.
@@ -84,7 +84,7 @@ en troverdig måte.
   ```blocks
       når jeg mottar [nytt spill v]
       gå til x: (-150) y: (-100)
-      for alltid
+      for alltid  // hovedløkken
           sett [fartX v] til ((0.8) * (fartX))  // farten bremses
           endre [fartY v] med (-0.5)  // gravitasjon, figuren faller
           hvis (berører fargen [#0000ff])  // figuren står på plattformen
@@ -202,6 +202,64 @@ etter at vi har tegnet dem.
 
 # Steg 3: Donkey Kong og rullende ildkuler {.activity}
 
+*På tide med litt utfordringer! Nå skal vi programmere Donkey Kong til
+ å kaste rullende ildkuler mot oss.*
+
+## Sjekkliste {.check}
+
++ Lag en `Donkey Kong`-figur, og plasser den på en passende
+  plattform. Denne vil ikke bevege seg i dette spillet, slik at den
+  eneste koden vi egentlig trenger er for å kaste ildkuler. Vi skal
+  lage denne koden snart.
+
++ Lag også en ny `Ildkule`-figur. Dette kan være en sirkel du farger
+  oransje, eller du kan prøve å tegne noe mer avansert. La figuren
+  `skjules`{.blocklooks} når det grønne flagget klikkes.
+
++ Nå skal vi skrive koden på Donkey Kong. Den blir ganske enkel. Etter
+  at `Donkey Kong` mottar `nytt spill` kan du la han gå inn i en `for
+  alltid`{.blockcontrol}-løkke hvor han `lager klon av
+  Ildkule`{.blockcontrol} og deretter `venter 3
+  sekunder`{.blockcontrol}.
+
++ Men nå må vi programmere hvordan ildkulene skal oppføre seg. Vi vil
+  holde styr på hvordan de beveger seg ved hjelp av `(fartX)`{.b} og
+  `(fartY)`{.b} på samme måte som for `Jumpman`. Lag derfor disse to
+  variablene også på `Ildkule`. Husk at de skal gjelde kun _for denne
+  figuren_.
+
++ Først bestemmer vi hvilken fart kula har når `Donkey Kong` kaster
+  den. Dette gjør vi ved å sette `fart`{.blockdata}-variablene, for
+  eksempel på denne måten:
+
+  ```blocks
+      når jeg starter som klon
+      gå til [Donkey Kong v]
+      sett [fartX v] til [3]
+      sett [fartY v] til (tilfeldig tall fra (0) til (5))
+      vis
+  ```
+
++ Videre bestemmer vi hvordan kulene oppfører seg ved å lage en
+  hovedløkke på omtrent samme måte som for `Jumpman`.
+
+  Legg en `gjenta til ((y-posisjon) < (-170))`{.b}-kloss nederst i
+  `når jeg starter som klon`{.b}-skriptet, og fyll denne med kode som
+  lar kulen falle, merker at ildkulen ligger på plattformen, og
+  flytter selve figuren.
+
++ Legg også til kode som gjør at ildkulene snur, `sett [fartX v] til
+  ((-1) * (fartX))`{.b}, når de `berører kant`{.blocksensing}, og kode
+  som sender en melding, `fanget Jumpman`, når de `berører
+  Jumpman`{.blocksensing}.
+
++ Lag kode på `Jumpman` som mottar `fanget Jumpman`, og som kanskje
+  `spiller en lyd`{.blocksound}.
+
++ Til slutt, lag en skatt som Jumpman skal redde. Dette blir en ny
+  figur som kan stå i ro til den `berører Jumpman` og deretter sende
+  en melding `fant skatten`. Skriv kode som svarer på denne meldingen
+  på passende måte.
 
 # Steg 4: Videreutvikling av spillet {.activity}
 
@@ -212,14 +270,24 @@ etter at vi har tegnet dem.
 
 ## Ideer til videreutvikling {.check}
 
-+ Lag en forside og meny
++ Legg gjerne til flere animasjoner og lyder. For eksempel kan Donkey
+  Kong gjøre en kastebevegelse når han kaster ildkuler.
 
-+ Flere nivåer og brett
++ Lag en forside og meny. Om du lager en forside som forteller litt om
+  hvordan man spiller spillet ditt blir det enklere for andre å spille
+  det også!
 
-+ Poeng og liv
++ Vi har laget ett brett, men du kan enkelt tegne flere bakgrunner med
+  andre plattformer og hindringer. Prøv å lag flere brett hvor man
+  kommer videre til neste nivå etter at man har funnet skatten.
 
-+ Tidsbegrensing
++ For å gi spillerene litt mer motivasjon kan det være lurt å telle
+  poeng og liv. Til dette trenger du to nye variabler, `(poeng)`{.b}
+  og `(liv)`{.b}. For å telle liv kan du bruke `fanget
+  Jumpman`-meldingen. Før du teller poeng må du tenke på hva du vil at
+  spillerene skal få poeng for?
 
-+ Lyder
++ Du kan legge til en tidsbegrensning om du vil gjøre spillet mer
+  utfordrende. Til dette bruker du en variabel `(tid)`{.b} som du
+  `endrer`{.blockdata} og deretter `venter 1 sekund`{.blockcontrol}.
 
-+ Animasjoner
