@@ -100,3 +100,11 @@ Nedenfor beskrives hvordan hver oppgave kan introduseres i felleskap:
   tilpasser koden. I tillegg viser Asteroids hvordan man kombinerer
   romskipet fra Lunar Lander med klonekonseptene fra tidligere i
   kurset.
+
++ [__Donkey Kong__](../donkey_kong/donkey_kong.html) er et enkelt, men
+  fullstendig plattformspill. Denne er også en oppgave i kurset
+  [Avansert Scratch - Plattform](kurs_avansert_scratch_plattform.html)
+  og om denne faller i smak, kan barna lære mye mer om plattformspill
+  i det kurset. Den felles gjennomgangen bør her vektlegge hvordan man
+  simulerer enkel gravitasjon ved hjelp av et par enkle variabler.
+
