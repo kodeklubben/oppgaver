@@ -116,7 +116,7 @@ Vi bruker `el.style.position = 'fixed'` for å fortelle at vi ønsker plassere b
   ```
 
 - Prøv verdier mellom `0%` og `100%`.
-- Når forsvinner ballen vekk fra viduet?
+- Når forsvinner ballen vekk fra vinduet?
 
 ## Tips {.protip}
 Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/pozova/2/edit?js,output).
@@ -202,7 +202,7 @@ I JavaScript kan vi bruke `Math.random()` for å få en tilfeldig verdi mellom 0
   ![](tilfeldig_plassering.gif)
 
 - Hvis du har haket av **Auto-run JS** vil også koden kjøres hver gang du endrer koden.
-- Trykker du nok antall ganger, legger du merke til at ballen noen gang kommer utenfor bunnen og høyre side.
+- Trykker du nok antall ganger, legger du merke til at ballen noen ganger kommer utenfor bunnen og høyre side.
 - For å unngå dette kan vi begrense forflytningen til 80%:
 
   ```js
