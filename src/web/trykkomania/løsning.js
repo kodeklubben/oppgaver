@@ -1,186 +1,174 @@
-// Poengsum nede i hjørnet.
-var poeng = Poeng()
+var poeng = Poeng();
 
-// Når ball klikkes, kjør `poeng.ink`.
-var ball = Ball(poeng.ink)
+var ball = Ball();
+ball.onclick = poeng.øk;
+setInterval(function(){
+  var x = Math.random() * 80 + '%';
+  var y = Math.random() * 80 + '%';
+  ball.posisjon(x, y);
+}, 2000);
 
-// Nedtelling på ti sekunder. Når ferdig, kjør stopp.
-var nedtelling = Nedtelling(10, stopp)
+var knapp = Knapp('Prøv en gang til!');
+knapp.onclick = start;
 
-// Omstartsknapp. Kjør `start` når knappen klikkes.
-var omstart = Omstart(start)
+var nedtelling = Nedtelling(stopp);
+nedtelling.tellNed(10);
 
-// Start spillet.
-start()
-
-
-
-/**
- * Starter spillet.
- */
-function start () {
-  omstart.skjul()
-  poeng.nullstill()
-  ball.hoppTilfeldig()
-  nedtelling.start()
+function start() {
+  poeng.nullstill();
+  nedtelling.tellNed(10);
+  ball.vis();
+  knapp.skjul();
 }
 
-/**
- * Stopper spillet.
- */
-function stopp () {
-  ball.stopp()
-  omstart.vis()
-}
-
-/**
- * En knapp som kjører `handterKlikk` når den klikkes.
- */
-function Omstart(handterKlikk) {
-  var el = document.createElement('button')
-  el.style.display = 'none'
-  el.innerText = 'Prøv en gang til'
-  el.style.position = 'fixed'
-  el.style.top = '50%'
-  el.style.left = '50%'
-  el.style.padding = '20px'
-  el.onclick = handterKlikk
-  document.body.appendChild(el)
-
-  return {
-    skjul: function () {
-      el.style.display = 'none'
-    },
-    vis: function () {
-      el.style.display = ''
-      var w = el.offsetWidth / 2
-      var h = el.offsetHeight / 2
-      el.style.marginLeft = '-' + w + 'px'
-      el.style.marginTop = '-' + h + 'px'
-    }
-  }
+function stopp() {
+  ball.skjul();
+  knapp.vis();
 }
 
 /**
  * Ball - tegner en ball på skjermen.
  *
- * `handleClick` kjøres hver gang ballen trykkes.
+ * Returnerer et ballen som et HTML element. Bruk:
  *
- * Returnerer et objekt med funksjonene
- *   `hoppTilfeldig()` og
- *   `stopp()`.
- *
- * Ballen vises ikke før `hoppTilfeldig` kjøres for første gang.
+ *   var ball = Ball();  // lag ballen
+ *   ball.posisjon(1, 2);  // sett posisjon til x = 1 og y = 2 i piksler
+ *   ball.vis();  // viser ballen
+ *   ball.posisjon('10%', '20%');  // flytter ballen til posisjon x = 10% og y = 20%
+ *   ball.skjul();  // skjuler ballen
+ *   ball.onclick = påKlikk;  // kjør `påKlikk()` når ballen trykkes på
  *
  * Ønsker du å endre utseende?
  * Se CSS-egenskaper på https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference
  *
  */
-function Ball (handtereKlikk) {
-  var el = document.createElement('div')
-  el.style.display = 'none'
-  el.style.backgroundColor = 'black'
-  el.style.width = '60px'
-  el.style.height = '60px'
-  el.style.borderRadius = '30px'
-  el.style.position = 'fixed'
-  el.onclick = handtereKlikk
-  document.body.appendChild(el)
+function Ball() {
+  var el = document.createElement('div');
+  el.style.backgroundColor = 'black';
+  el.style.width = '60px';
+  el.style.height = '60px';
+  el.style.borderRadius = '30px';
+  el.style.position = 'fixed';
 
-  var intervall
+  document.body.appendChild(el);
 
-  function tegn () {
-    var x = tilfeldig()
-    var y = tilfeldig()
-    el.style.display = ''
-    el.style.left = x
-    el.style.top = y
-  }
-  function hoppTilfeldig () {
-    tegn()
-    intervall = setInterval(tegn, 1500)
-  }
-  function stopp () {
-    clearInterval(intervall)
-    el.style.display = 'none'
-  }
+  el.posisjon = function (x, y) {
+    el.style.left = x;
+    el.style.top = y;
+  };
+  el.skjul = function () {
+    el.style.display = 'none';
+  };
+  el.vis = function () {
+    el.style.display = '';
+  };
 
-  return { hoppTilfeldig: hoppTilfeldig, stopp: stopp  }
+  return el;
 }
 
 /**
  * Poeng - viser poengsum nede i venstre hjørne.
  *
- * Returnerer et objekt med funksjonen `ink(i)` som øker poengsummen.
+ * Bruk:
+ *   var poeng = Poeng();  // viser poengsummen
+ *   poeng.øk();  // øker poengsummen med 100
+ *   poeng.nullstill();  // setter poengsummen til 0
  *
  */
-function Poeng () {
-  var el = document.createElement('div')
-  el.style.position = 'fixed'
-  el.style.bottom = '5px'
-  el.style.left = '8px'
-  el.style.padding = '5px'
-  el.style.backgroundColor = 'black'
-  el.style.color = 'white'
+function Poeng() {
+  var el = document.createElement('div');
+  el.style.position = 'fixed';
+  el.style.bottom = '5px';
+  el.style.left = '8px';
+  el.style.padding = '5px';
+  el.style.backgroundColor = 'black';
+  el.style.color = 'white';
 
-  var poeng = 0
-  el.innerHTML = poeng + ' poeng'
-  document.body.appendChild(el)
+  var _poeng = 0;
+  el.innerHTML = _poeng + ' poeng';
+  document.body.appendChild(el);
 
-  function ink () {
-    poeng += 100
-    el.innerHTML = poeng + ' poeng'
-  }
-  function nullstill () {
-    poeng = 0
-    el.innerHTML = poeng + ' poeng'
-  }
+  el.øk = function () {
+    _poeng += 100;
+    el.innerHTML = _poeng + ' poeng';
+  };
+  el.nullstill = function () {
+    _poeng = 0;
+    el.innerHTML = _poeng + ' poeng';
+  };
 
-  return { ink: ink, nullstill: nullstill }
+  return el;
 }
 
 /**
- * Nedtelling - Viser en linje som visualiserer at tiden renner ut.
+ * Nedtelling - En linje som viser at tiden renner ut.
  *
- * Bruk: Nedtelling(tid, slutt)
- *   `tid` i sekunder.
- *   `slutt` funksjon som kjøres når
+ * Bruk:
+ *   var nedtelling = Nedtelling(slutt);  // funksjonen `slutt` kjøres når tiden er utløpt
+ *   nedtelling.tellNed(10);  // teller ned 10 sekunder
  *
  */
-function Nedtelling (tid, ferdig) {
-  var el = document.createElement('div')
-  el.style.position = 'fixed'
-  el.style.left = '0'
-  el.style.bottom = '0'
-  el.style.height = '100%'
-  el.style.width = '3px'
-  el.style.backgroundColor = 'red'
-  document.body.appendChild(el)
+function Nedtelling (ferdig) {
+  var el = document.createElement('div');
+  el.style.position = 'fixed';
+  el.style.left = '0';
+  el.style.bottom = '0';
+  el.style.height = '100%';
+  el.style.width = '3px';
+  el.style.backgroundColor = 'red';
+  document.body.appendChild(el);
 
-  function prosent (slutt) {
-    return (slutt - Date.now()) / tid / 10
+  function prosent (slutt, tid) {
+    return (slutt - Date.now()) / tid / 10;
   }
-
-  function start () {
-    var slutt = Date.now() + tid * 1000
-    var intervall = setInterval(function () {
-      var p = prosent(slutt)
+  el.tellNed = function (tid) {
+    var slutt = Date.now() + tid * 1000;
+    var intervall = setInterval(tegn, 20);
+    function tegn () {
+      var p = prosent(slutt, tid);
       if (p < 0) {
-        el.style.height = '0%'
-        clearInterval(intervall)
-        ferdig()
+        el.style.height = '0%';
+        clearInterval(intervall);
+        ferdig();
       }
-      el.style.height = p + '%'
-    }, 20)
-  }
+      el.style.height = p + '%';
+    }
+  };
 
-  return { start: start }
+  return el;
 }
 
 /**
- * Tilfeldig x/y-koordinat mellom 10% og 90%.
+ * En knapp som ligger midt på siden.
+ *
+ * Bruk:
+ *   var knapp = Knapp('trykk på meg');  // lager en knapp som ligger midt på siden
+ *   knapp.vis();  // viser knappen
+ *   knapp.skjul();  // skjuler knappen
  */
-function tilfeldig () {
-  var prosent = (0.1 + Math.random() * 0.8) * 100
-  return prosent + '%'
+function Knapp(tekst) {
+  var el = document.createElement('button');
+  el.style.display = 'none';
+  el.innerText = tekst;
+  el.style.position = 'fixed';
+  el.style.top = '50%';
+  el.style.left = '50%';
+  el.style.padding = '20px';
+  el.style.border = 'solid 1px';
+  document.body.appendChild(el);
+
+  el.skjul = function () {
+    el.style.display = 'none';
+  };
+  el.vis = function () {
+    el.style.display = '';
+    // plasser akkurat på midten
+    // midten av skjermen er 50% minus halvparten av størrelsen til knappen
+    var w = el.offsetWidth / 2;
+    var h = el.offsetHeight / 2;
+    el.style.marginLeft = '-' + w + 'px';
+    el.style.marginTop = '-' + h + 'px';
+  };
+
+  return el;
 }

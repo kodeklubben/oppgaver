@@ -3,9 +3,9 @@ title: Lærerveiledning - Trykkomania
 ---
 
 # Introduksjon {.intro}
-Denne oppgaven henter ideer fra utvikling av web-applikasjoner med bibliotek som [React](https://facebook.github.io/react/) og [Mithril](http://mithril.js.org/), der elementer i spillet lages som funksjonelle komponenter. Komponentene ligner på objektorientert programmering, men bruker teknikken "closures".
+Denne oppgaven henter ideer fra utvikling av web-applikasjoner med bibliotek som [React](https://facebook.github.io/react/) og [Mithril](http://mithril.js.org/), der elementer i spillet lages som inviduelle komponenter. Komponentene ligner på objektorientert programmering, men bruker teknikken "closures".
 
-Oppgaver er *kun* javascript, men det lønner seg å ha kjennskap til HTML og CSS.
+Oppgaven er *kun* javascript, men det lønner seg å ha kjennskap til HTML og CSS.
 
 ## Konsepter i bruk i oppgaven
 
@@ -26,3 +26,6 @@ Oppgaver er *kun* javascript, men det lønner seg å ha kjennskap til HTML og CS
 [CSS-stil]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
 [`onclick`]: https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
 [`setInterval`]: https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval
+
+## Løsning
+[Her er en full løsning av oppgaven.](løsning.js)
