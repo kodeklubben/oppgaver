@@ -46,7 +46,7 @@ vi kaller `bakken`.
     ```blocks
         for alltid
             sett y til ((20) - (y))
-            hvis (berører [Flakse v])
+            hvis <berører [Flakse v]>
                 si [du tapte!] i (2) sekunder
                 stopp [alle v] :: control
             slutt
@@ -58,7 +58,7 @@ vi kaller `bakken`.
   `vis`{.blocklooks} kommandoene, slik
 
     ```blocks
-        hvis ((y) < (150))
+        hvis <(y) < (150)>
             vis
         ellers
             skjul
@@ -84,7 +84,7 @@ den flakser med vingene når vi trykker mellomromtasten.
   trykkes og erstatte dem med
 
     ```blocks
-        hvis (tast [mellomrom v] trykket?)
+        hvis <tast [mellomrom v] trykket?>
             endre [flaks v] med (1)
             vent (0.01) sekunder
         slutt
@@ -105,7 +105,7 @@ den flakser med vingene når vi trykker mellomromtasten.
 
     ```blocks
         endre [y v] med (løft)
-        hvis ((løft) > (-5))
+        hvis <(løft) > (-5)>
             endre [løft v] med (-0.5)
         slutt
     ```
@@ -117,10 +117,10 @@ den flakser med vingene når vi trykker mellomromtasten.
         for alltid
             gjenta til ((flaks) = (0))
                 endre [flaks v] med (-1)
-                hvis ((løft) < (5))
+                hvis <(løft) < (5)>
                     endre [løft v] med (2)
                 slutt
-                hvis ((løft) < (0))
+                hvis <(løft) < (0)>
                     sett [løft v] til (0)
                 slutt
             slutt
@@ -154,10 +154,10 @@ Dette får vi til ved å endre litt på hovedskriptet til flakse.
   klossene under testene som sjekker om piltastene trykkes.
 
     ```blocks
-        hvis ((retning) < (90))
+        hvis <(retning) < (90)>
             vend høyre (1) grader
         slutt 
-        hvis ((retning) > (90))
+        hvis <(retning) > (90)>
             vend venstre (1) grader
         slutt
     ```
@@ -182,7 +182,7 @@ ring-figuren.
   må legge til denne klossen et sted i skriptet til ring-klonene.
 
     ```blocks
-        hvis ((berører [Flakse v]) og ((distanse) < (1.2)))
+        hvis <(berører [Flakse v]) og ((distanse) < (1.2))>
             si [du tapte!] i (1) sekunder
             stopp [alle v] :: control
         slutt
@@ -201,7 +201,7 @@ ring-figuren.
   ringene gjør før de slettes er å sjekke om Flakse er inni.
 
     ```blocks
-        hvis ((((x) < ((ringX) + (160))) og ((x) > ((ringX) - (160)))) og (((y) < ((ringY) + (160))) og ((ringY) > ((ringY) - (160))))
+        hvis <(((x) < ((ringX) + (160))) og ((x) > ((ringX) - (160)))) og (((y) < ((ringY) + (160))) og ((ringY) > ((ringY) - (160)))>
             endre [poeng v] med (1)
         slutt
     ``` 

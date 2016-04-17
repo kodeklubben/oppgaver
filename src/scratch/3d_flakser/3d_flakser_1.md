@@ -171,19 +171,19 @@ du har skrevet så langt.
     ```blocks
         når jeg mottar [Nytt spill v]
         for alltid
-            hvis (tast [pil høyre v] trykket)
+            hvis <tast [pil høyre v] trykket>
                 endre [x v] med (10)
                 vent (0.05) sekunder
             slutt
-            hvis (tast [pil venstre v] trykket)
+            hvis <tast [pil venstre v] trykket>
                 endre [x v] med (-10)
                 vent (0.05) sekunder
             slutt
-            hvis (tast [pil opp v] trykket)
+            hvis <tast [pil opp v] trykket>
                 endre [y v] med (10)
                 vent (0.05) sekunder
             slutt
-            hvis (tast [pil ned v] trykket)
+            hvis <tast [pil ned v] trykket>
                 endre [y v] med (-10)
                 vent (0.05) sekunder
             slutt

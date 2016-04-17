@@ -208,7 +208,7 @@ programflyten omtrent som dette:
         bytt bakgrunn til [meny v]
 
         når [mellomrom v] trykkes
-        hvis ((bakgrunnsnavn) = [meny])
+        hvis <(bakgrunnsnavn) = [meny]>
             send melding [Nytt spill v]
         slutt
 

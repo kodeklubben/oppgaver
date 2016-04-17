@@ -61,7 +61,7 @@ vil til og med se eksempler på kloner av kloner!
         gå til x: (210) y: (-120)
         for alltid
             endre [sprett v] med (-1)
-            hvis (berører fargen [#00cc00] ?)
+            hvis <berører fargen [#00cc00] ?>
                 neste drakt
                 sett [sprett v] til (0)
             slutt
@@ -242,7 +242,7 @@ kloss. Eksperimenter med verdiene i klossen.
 
     ```blocks
         når jeg starter som klon
-        hvis ((er generator) = [ja])
+        hvis <(er generator) = [ja]>
             sett [er generator v] til [nei]
         ellers
         slutt

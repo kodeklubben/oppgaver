@@ -82,7 +82,7 @@ andre kart.
         sett størrelse til (25) %
         gå til x: (0) y: (0)
         for alltid
-            hvis (tast [pil opp v] trykket?)
+            hvis <tast [pil opp v] trykket?>
                 pek i retning (0 v)
                 gå (2) steg
             slutt
@@ -117,19 +117,19 @@ Vi skal nå programmere de andre piltastene også.
         sett størrelse til (25) %
         gå til x: (0) y: (0)
         for alltid
-            hvis (tast [pil opp v] trykket?)
+            hvis <tast [pil opp v] trykket?>
                 pek i retning (0 v)
                 gå (2) steg
             slutt
-            hvis (tast [pil høyre v] trykket?)
+            hvis <tast [pil høyre v] trykket?>
                 pek i retning (90 v)
                 gå (2) steg
             slutt
-            hvis (tast [pil ned v] trykket?)
+            hvis <tast [pil ned v] trykket?>
                 pek i retning (180 v)
                 gå (2) steg
             slutt
-            hvis (tast [pil venstre v] trykket?)
+            hvis <tast [pil venstre v] trykket?>
                 pek i retning (-90 v)
                 gå (2) steg
             slutt
@@ -644,7 +644,7 @@ spørre.
 
     ```blocks
         definer sjekk sted
-        hvis (((tilfeldig tall fra (1) til (Antall steder totalt)) > (1)) eller (berører fargen [#ff0000]?))
+        hvis <((tilfeldig tall fra (1) til (Antall steder totalt)) > (1)) eller (berører fargen [#ff0000]?)>
             sett [bruk sted v] til [nei]
         ellers
             sett [bruk sted v] til [ja]
@@ -653,7 +653,7 @@ spørre.
         når jeg mottar [Sted: Hønefoss v]
         gå til x: (6) y: (-112)
         sjekk sted
-        hvis ((bruk sted) = [ja])
+        hvis <(bruk sted) = [ja]>
             sett [Reis til v] til [Hønefoss]
             vent til (berører [Helikopter v]?)
             send melding [Fant sted v] og vent
