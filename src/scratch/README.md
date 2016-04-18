@@ -17,13 +17,13 @@ Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir oversatt til
 figurer av et verktøy som heter [Scratchblocks]. 
 
 Nyttige ressurser:
-- [scratchblocks generatoren] henter ut kode direkte fra prosjekter på scratch.mit.edu.
+- [scratchblocks generator] henter ut kode direkte fra prosjekter på scratch.mit.edu.
 - [scratchblocks translator] oversetter kode mellom for eksempel engelsk og norsk.
 - På hjemmesidene til Scratch finnes en [dokumentasjon over syntaksen].
 
 [Scratchblocks]: https://github.com/tjvr/scratchblocks
-[dokumentasjon over syntaks]: http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax
-[scratchblocks generatoren]: http://scratchblocks.github.io/generator/
+[dokumentasjon over syntaksen]: http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax
+[scratchblocks generator]: http://scratchblocks.github.io/generator/
 [scratchblocks translator]: http://scratchblocks.codeclub.org.uk/translator/
 
 Hele kodesnutter skrives som et eget avsnitt på følgende måte:
