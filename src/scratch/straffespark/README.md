@@ -173,7 +173,7 @@ sjelden problemer.
   ```blocks
       for alltid
           flytt [katten v] mot [flaggermusa v] :: motion
-          hvis ([katten v] berører [flaggermusa v] :: sensing)
+          hvis <[katten v] berører [flaggermusa v] :: sensing>
               flytt [flaggermusa v] til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180)) :: motion
           slutt
       slutt

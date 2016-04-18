@@ -118,7 +118,7 @@ __Klikk på det grønne flagget.__
         når grønt flagg klikkes
         skjul
         for alltid
-            hvis (museknappen er nede?)
+            hvis <museknappen er nede?>
                 gå til x: (mus x) y: (-200)
                 vis
                 gli (1) sekunder til x: (mus x) y: (mus y)
@@ -159,7 +159,7 @@ __Klikk på det grønne flagget.__
         når grønt flagg klikkes
         skjul
         for alltid
-            hvis (museknappen er nede?)
+            hvis <museknappen er nede?>
                 gå til x: (mus x) y: (-200)
                 spill lyden [bang v]
                 vis
@@ -177,7 +177,7 @@ __Klikk på det grønne flagget.__
         når grønt flagg klikkes
         skjul
         for alltid
-            hvis (museknappen er nede?)
+            hvis <museknappen er nede?>
                 gå til x: (mus x) y: (-200)
                 spill lyden [bang v]
                 vis
@@ -325,7 +325,7 @@ programmer.
         når grønt flagg klikkes
         skjul
         for alltid
-            hvis (museknappen er nede?)
+            hvis <museknappen er nede?>
                 gå til x: (mus x) y: (-200)
                 spill lyden [bang v]
                 vis

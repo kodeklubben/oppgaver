@@ -141,7 +141,7 @@ katten løper rundt dette punktet i stedet for at den bare roterer uten
         gå til x: (0) y: (0)
         for alltid
             gå (3) steg
-            hvis (berører [Katt v] ?)
+            hvis <berører [Katt v] ?>
                 pek i retning ((180) + (retning))
             slutt
         slutt
@@ -245,10 +245,10 @@ truffet nettet. Det skal vi gjøre nå.
         gå til x: (0) y: (0)
         for alltid
             gå (3) steg
-            hvis (berører [Katt v] ?)
+            hvis <berører [Katt v] ?>
                 pek i retning ((180) + (retning))
             slutt
-            hvis (berører fargen [#ff0000] ?)
+            hvis <berører fargen [#ff0000] ?>
                 stopp [alle v] :: control
             slutt
         slutt
@@ -318,10 +318,10 @@ Vi kan forenkle dette til
         gå til x: (0) y: (0)
         for alltid
             gå (3) steg
-            hvis (berører [Katt v] ?)
+            hvis <berører [Katt v] ?>
                 pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
             slutt
-            hvis (berører fargen [#ff0000] ?)
+            hvis <berører fargen [#ff0000] ?>
                 stopp [alle v] :: control
             slutt
         slutt
@@ -379,11 +379,11 @@ starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
         sett [Poeng v] til [0]
         for alltid
             gå (3) steg
-            hvis (berører [Katt v] ?)
+            hvis <berører [Katt v] ?>
                 pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
                 endre [Poeng v] med (1)
             slutt
-            hvis (berører fargen [#ff0000] ?)
+            hvis <berører fargen [#ff0000] ?>
                 stopp [alle v] :: control
             slutt
         slutt
@@ -427,12 +427,12 @@ selv!
         sett [Hastighet v] til [3]
         for alltid
             gå (hastighet) steg
-            hvis (berører [Katt v] ?)
+            hvis <berører [Katt v] ?>
                 pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
                 endre [Poeng v] med (1)
                 endre [Hastighet v] med (0.1)
             slutt
-            hvis (berører fargen [#ff0000] ?)
+            hvis <berører fargen [#ff0000] ?>
                 stopp [alle v] :: control
             slutt
         slutt
@@ -472,13 +472,13 @@ sist snudde.
         for alltid
             gå (hastighet) steg
             endre [Flytt v] med (1)
-            hvis ((berører [Katt v] ?) og ((Flytt) > (20)))
+            hvis <(berører [Katt v] ?) og ((Flytt) > (20))>
                 pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
                 endre [Poeng v] med (1)
                 endre [Hastighet v] med (0.1)
                 sett [Flytt v] til (0)
             slutt
-            hvis (berører fargen [#ff0000] ?)
+            hvis <berører fargen [#ff0000] ?>
                 stopp [alle v] :: control
             slutt
         slutt
