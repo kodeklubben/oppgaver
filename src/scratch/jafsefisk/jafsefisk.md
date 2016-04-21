@@ -110,7 +110,7 @@ forandrer bevegelsene.
         når grønt flagg klikkes
         for alltid
             gå (2) steg
-            vend @ (tilfeldig tall fra (-20) til (20)) grader
+            vend venstre (tilfeldig tall fra (-20) til (20)) grader
             sprett tilbake ved kanten
         slutt
     ```
@@ -154,7 +154,7 @@ så å dukke opp igjen en liten stund senere.
         når grønt flagg klikkes
         for alltid
             gå (2) steg
-            vend @ (tilfeldig tall fra (-20) til (20)) grader
+            vend venstre (tilfeldig tall fra (-20) til (20)) grader
             sprett tilbake ved kanten
             hvis <berører [JafseFisk v]?>
                 skjul
@@ -193,7 +193,7 @@ __Klikk på det grønne flagget.__
         når grønt flagg klikkes
         for alltid
             gå (2) steg
-            vend @ (tilfeldig tall fra (-20) til (20)) grader
+            vend venstre (tilfeldig tall fra (-20) til (20)) grader
             sprett tilbake ved kanten
             hvis <(berører [JafseFisk v]?) og (berører fargen [#FFFFFF]?)>
                 skjul
@@ -228,7 +228,7 @@ __Klikk på det grønne flagget.__
         når grønt flagg klikkes
         for alltid
             gå (2) steg
-            vend @ (tilfeldig tall fra (-20) til (20)) grader
+            vend venstre (tilfeldig tall fra (-20) til (20)) grader
             sprett tilbake ved kanten
             hvis <(berører [JafseFisk v]?) og (berører fargen [#FFFFFF]?)>
                 send melding [Du tok meg! v]
@@ -315,7 +315,7 @@ __Klikk på det grønne flagget.__
   forandringene spillet bedre?
 
     __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene
-    i `vend @ (tilfeldig tall fra (-20) til (20)) grader`{.b}.
+    i `vend venstre (tilfeldig tall fra (-20) til (20)) grader`{.b}.
 
 + Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
   forskjellige kombinasjoner av disse bevegelsene?
