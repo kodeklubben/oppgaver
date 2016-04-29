@@ -24,7 +24,7 @@ Nyttige ressurser:
 [Scratchblocks]: https://github.com/tjvr/scratchblocks
 [dokumentasjon over syntaksen]: http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax
 [scratchblocks generator]: http://scratchblocks.github.io/generator/
-[scratchblocks translator]: http://scratchblocks.codeclub.org.uk/translator/
+[scratchblocks translator]: http://scratchblocks.github.io/translator/
 
 Hele kodesnutter skrives som et eget avsnitt på følgende måte:
 
