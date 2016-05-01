@@ -1,7 +1,7 @@
 ---
 title: Redd verden
 level: 2
-author: [Arne Hassel](http://icanhasweb.net/) (inspirert av [Redd verden](https://scratch.mit.edu/projects/100835876/), et bidrag i spill-konkurransen til Kodeklubben Oslo våren 2016)
+author: Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)
 ---
 
 # Introduksjon {.intro}
@@ -21,7 +21,7 @@ og søppelet som vi skal kaste.
 
 + Start et nytt prosjekt. Legg til en ny figur, enten fra biblioteket, 
   slik vi har gjort, eller tegn din helt egen hjelper! (Vi valgte figuren
-  `Nano`, da han har flere drakter som vi tenker å bruke i utfordrings-delene.)
+  `nano`, da han har flere drakter som vi tenker å bruke i utfordrings-delene.)
     
   <figure>
     <img src="./ronny.png" />
@@ -31,8 +31,9 @@ og søppelet som vi skal kaste.
   vi fjerner en søppel-figur så får vi et poeng. Målet vårt er å få så mange 
   poeng som det er søppel-biter.
   
-    I første omgang vet ikke Ronny om noe av søppelet, så 
-    vi lar Ronny sette både poeng og mål til null.
+    I første omgang vet ikke Ronny om noe av søppelet, så vi lar Ronny sette 
+    både poeng og mål til null. For å legge til variabler trykker vi på 
+    `Data`{.blockdata}-kategorien og trykk på `Lag en Variabel`.
 
     ```blocks
         når grønt flagg klikkes
@@ -242,8 +243,8 @@ Når vi har fått alt søppelet på plass, må vi avslutte spillet.
         si [Hei, jeg heter Ronny, kan du hjelpe meg med å redde verden?] i (3) sekunder
         send melding [Start spill v]
         vent til <(Poeng) = (Mål)>
-        si [Takk for at du hjelper meg med å redde verden!]
         send melding [Spill ferdig v]
+        si [Takk for at du hjelper meg med å redde verden!]
     ```
   
 + I tillegg til at Ronny takker oss for at vi kildesorterte alt avfallet, så ber vi han også
