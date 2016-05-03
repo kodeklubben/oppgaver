@@ -68,10 +68,19 @@ operativsystemer:
 
 * Windows: `AppData\Roaming\.minecraft\saves\navn-på-din-save\computer\id`
 * Linux: `~/.minecraft/saves/navn-på-din-save/computer/id`
-* Mac: `Application Support/.minecraft/saves/navn-på-din-save/computer/id`
+* Mac: `~/Library/Application Support/.minecraft/saves/navn-på-din-save/computer/id`
 
 Vil du redigere filen `hello` fra spillet "Kodeklubben 2016" på datamskin #3 på
 Windows finner du den altså på `AppData\Roaming\.minecraft\saves\Kodeklubben 2016\computer\3\hello`.
+
+## Finn filene på Mac
+For å åpne filene på Mac kan du bruke Finder:
++ Åpne Finder fra menyen
+![Finn Finder i menyen](finder.png)
++ Trykk på `Gå` og så `Gå til mappe`
+![Gå til mappe](gaatilmappe.png)
++ Skriv inn filplasseringen (`~/Library/Application Support/.minecraft/saves/navn-på-din-save/computer/id`)
+![Skriv inn filplasseringen](gaatilmappedialog.png)
 
 Her finnes programmene du har skrevet som egne filer. Åpne så programmet ditt
 i en egen teksteditor:
