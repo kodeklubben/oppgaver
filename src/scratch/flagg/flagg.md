@@ -49,18 +49,21 @@ La oss se hvordan vi kan bruke dette til å tegne sirkler!
 
 __Klikk på det grønne flagget.__
 
-+ Hva skjer? Kattefiguren skal flytte seg rundt i en sirkel.
++ Hva skjer? Skjønner du hvorfor kattefiguren flytter seg rundt i en sirkel?
 
-+ Tallet `100` forteller hvor stor sirkelen skal være. Prøv å endre på dette
-  (begge steder) for å se hva som skjer.
+  Tallet `100` forteller hvor stor sirkelen skal være (det er lengden av den
+  skrå streken i figuren over). Prøv å endre på tallet (begge steder) for å se
+  hva som skjer.
 
 + Hvordan forandrer bevegelsen til katten seg om du forandrer tallet `5` i `vend
   venstre (5) grader`{.b}? Prøv gjerne med negative tall også!
 
-+ Du legger kanskje merke til at katten flytter seg i motsatt retning av hvordan
-  pilen i `vend venstre (5) grader`{.b} klossen peker? Dette er fordi Scratch
-  måler vinkler i motsatt retning av hva som er vanlig i matematikken (og som vi
-  har tegnet over).
+## Retning på sirkelbevegelsen {.tip}
+
+Du legger kanskje merke til at katten flytter seg i motsatt retning av hvordan
+pilen i `vend venstre (5) grader`{.b} klossen peker? Dette er fordi Scratch
+måler vinkler i motsatt retning av hva som er vanlig i matematikken (og som vi
+har tegnet over).
 
 # Steg 2: Flytt sirkelen {.activity}
 
@@ -68,10 +71,10 @@ Så langt har vi bare tegnet en sirkel midt på skjermen. La oss se om vi kan fl
 
 ## Sjekkliste {.check}
 
-+ Siden vi allerede flytter figuren i sirkel kan vi ikke bruke `gå til x: () y:
-  ()`{.b}-klosser for å flytte hele sirkelen. I stedet vil vi bruke variabler.
-  Lag to variabler som heter `(sentrumX)`{.b} og `(sentrumY)`{.b} og som gjelder
-  kun _for denne figuren_.
++ Siden vi allerede flytter figuren langs en sirkel kan vi ikke bruke `gå til x:
+  () y: ()`{.b}-klosser for å flytte hele sirkelen. I stedet vil vi bruke
+  variabler.  Lag to variabler som heter `(sentrumX)`{.b} og `(sentrumY)`{.b} og
+  som gjelder kun _for denne figuren_.
 
 + Vi kan nå flytte sirkelen over ved å sette `(sentrumX)`{.b}- og
   `(sentrumY)`{.b}-variablene:
@@ -97,7 +100,9 @@ __Klikk på det grønne flagget.__
 ## Prøv selv {.try}
 
 + Legg til en ny variabel, `(radius)`{.b}, som også gjelder kun _for denne
-  figuren_. Kan du bruke denne til å styre hvor stor sirkelen er?
+  figuren_. Kan du bruke denne til å styre hvor stor sirkelen er? Det vil si,
+  `(radius)`{.b} skal fortelle lengden av den skrå streken i figuren i
+  begynnelsen av oppgaven.
 
   Du trenger en `sett [radius v] til []`{.b}-kloss i tillegg til å bruke
   `(radius)`{.b} to steder i koden din.
@@ -213,8 +218,8 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
   sett [flagg v] til [rrrrrhbbhrrrrr]
   ```
 
-  Denne beskriver at vi først vil ha 5 røde disker, deretter 1 hvit, 2 blå, 1
-  hvit og 5 røde disker.
+  Bokstavene `rrrrrhbbhrrrrr` beskriver at vi først vil ha 5 røde disker,
+  deretter 1 hvit, 2 blå, 1 hvit og 5 røde disker.
 
 + For å kunne bruke den nye `(flagg)`{.b}-variabelen må også hver disk vite
   hvilket nummer den har. Lag en ny variabel `(nummer)`{.b} som gjelder kun _for
@@ -264,4 +269,4 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
 
 + Du kan endre utseendet på flagget underveis. For eksempel om du bruker en `når
   [ v] trykkes`{.b}-kloss kan du endre verdien av `(flagg)`{.b} basert på hvilke
-  taster som trykkes. Fargene i flagget vil da oppdatere seg også.
+  taster som trykkes. Fargene i flagget vil da også oppdatere seg.
