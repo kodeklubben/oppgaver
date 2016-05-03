@@ -4,55 +4,21 @@ level: 3
 author: Teodor Heggelund
 ---
 
-<!--
-Forbedringspotensiale:
- - Flere bilder. Særlig hvor man finner programmene
- - Legge til seksjon med SSH-implementasjon. Klientkode kompatibel med react.lua:
-
- -- Starter jeg programmet sånn:
- -- > ssh.lua 5
- arguments = ...
- -- ... blir arguments = "5"
- remoteId = tonumber(arguments)
- -- ... og remoteId = 5!
-
- function pack(...)
-   return arg
- end
-
- function remoteCommand()
-   io.write("ssh@" .. remoteId .. "> ")
-   local intputString = io.read()
-   local commandTable = pack(intputString)
-   print("Sending: ")
-   print(unpack(commandTable))
-   rednet.send(remoteId, commandTable)
- end
-
- function main(  )
-   print("Listening for move commands ...")
-   rednet.open("back")
-   while true do
-     remoteCommand()
-   end
- end
-
- main()
-
--->
-
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi fjernstyre en robot fra en annen datamaskin. Til dette
-kommer vi til å trenge å vite hvordan å tolke tastetrykk fra brukeren og hvordan
-vi sender informasjon over nettverk. Dette dekker andre oppgaver!
+får vi bruk for både å hente tastetrykk fra brukeren, sende disse til en annen
+datamaskin, og tolke disse som en kommando. For avanserte ComputerCraft-ere!
 
-* **Send en beskjed over nettvkerk** beskriver hvordan vi sender og mottar
-meldinger over `rednet`.
-* **Hendelser -- Steg 1: Skattejakt** viser hvordan vi kan gjenkjenne hvilken
-tast brukeren har trykket på.
-* **Bygg et Hus** Steg 4: Funksjoner forklarer hvordan vi kan skrive egne
-funksjoner.
+![](fjernstyring.png)
+
+# Steg 1: Forberedelser {.activity}
+
+Denne oppgaven bygger videre på andre oppgaver:
+
+* [Send en beskjed over nettverk](../nettverk_send_beskjed/nettverk_send_beskjed.html) beskriver hvordan vi sender og mottar meldinger over `rednet`.
+* [Hendelser -- Steg 1: Skattejakt](../hendelser/hendelser.html#steg-1-skattejakt) viser hvordan vi kan gjenkjenne hvilken tast brukeren har trykket på.
+* [Bygg et Hus -- Steg 4: Funksjoner](../bygg_et_hus/bygg_et_hus.html#steg-4-funksjoner) forklarer hvordan vi kan skrive egne funksjoner.
 
 Gå tilbake og kikk på disse to oppgavene hvis denne blir vanskelig.
 
@@ -119,7 +85,7 @@ Og etter du har skrevet koden -- prøv litt fram og tilbake!
 
 Programmering er lek! Ikke la noen fortelle deg noe annet!
 
-# Del 1: Tastetrykk på fjernkontroll {.activity}
+# Steg 2: Tastetrykk på fjernkontroll {.activity}
 
 Først programmerer vi kommandosentralen vår! Den må lytte etter tastetrykk,
 oversette disse til kommandoer og sende til roboten.
@@ -187,7 +153,7 @@ disse!
 Nå kjenner vi igjen tastene for å bevege seg rundt. Neste steg er å sende disse
 til roboten som skal bevege på seg.
 
-# Del 2: Kommandotabell {.activity}
+# Steg 3: Kommandotabell {.activity}
 
 Vi skal bruke en tabell til å lagre kommandoen vår. Lua kaller en tabell for
 `table`, tabell på engelsk.
@@ -324,7 +290,7 @@ programmerer eller voksen! Hva gjør programmet nå forskjellig?
   main()
   ```
 
-# Del 2: Motta kommando på robot {.activity}
+# Steg 4: Motta kommando på robot {.activity}
 
 Gratulerer! Du har nå bygd en fjernkontroll!
 
@@ -378,7 +344,7 @@ Java og Haskell.
 
 + Hvorfor bruker vi en `while`-løkke? Hva skjer om vi ikke har en while-løkke?
 
-# Del 3: Kjør robot! {.activity}
+# Steg 5: Kjør robot! {.activity}
 
 Gratulerer! Du har gjennomført en utfordrende programmeringsoppgave, og sendt
 meningsfulle beskjeder over `rednet`! Vær stolt!
@@ -401,7 +367,7 @@ Nå skal vi prøve det selv!
     * Bygg blokk foran
     * Kjør `excavate 4` her du er
 
-# Del 4: Du vil ha mer? {.activity}
+# Steg 6: Du vil ha mer? {.activity}
 
 Du har spilt ComputerCraft *lenge* og begynner å få et utall forskjellige
 roboter du må styre. Da er det kjekt å kunne kjøre andre kommandoer på roboten!
