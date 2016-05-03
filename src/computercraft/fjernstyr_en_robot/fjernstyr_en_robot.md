@@ -76,10 +76,15 @@ Windows finner du den altså på `AppData\Roaming\.minecraft\saves\Kodeklubben 2
 ## Finn filene på Mac
 For å åpne filene på Mac kan du bruke Finder:
 + Åpne Finder fra menyen
+
 ![Finn Finder i menyen](finder.png)
+
 + Trykk på `Gå` og så `Gå til mappe`
+
 ![Gå til mappe](gaatilmappe.png)
+
 + Skriv inn filplasseringen (`~/Library/Application Support/.minecraft/saves/navn-på-din-save/computer/id`)
+
 ![Skriv inn filplasseringen](gaatilmappedialog.png)
 
 Her finnes programmene du har skrevet som egne filer. Åpne så programmet ditt
