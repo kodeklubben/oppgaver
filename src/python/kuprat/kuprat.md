@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kuprat
 level: 1
 ---
@@ -28,7 +28,7 @@ kjempeenkelt program. Vi vil bare skrive en enkel hilsen på skjermen.
 + Åpne IDLE, editoren som følger med Python. Vi vil bruke denne til å
   både skrive og kjøre programmene vi skriver.
 
-    **Windows**: Åpne IDLE fra startmenyen.
+   **Windows**: Åpne IDLE fra startmenyen.
 
 	**Mac**: Åpne terminal.app, skriv `idle` og trykk enter.
 
@@ -109,6 +109,10 @@ bruke understrek, `_`, for eksempel `mitt_program.py`.
 Vi skal nå se hvordan vi kan få Python til å stille oss spørsmål. For
 å gjøre dette bruker vi en ny funksjon som heter `input`.
 
+Når du bruker funksjonen `input`, venter datamaskinen din med å kjøre
+resten av programmet til du har skrevet noe og trykket på enter-tasten
+på tastaturet.
+
 ## Sjekkliste {.check}
 
 + Endre programmet ditt slik at det nå ser slik ut:
@@ -118,7 +122,8 @@ Vi skal nå se hvordan vi kan få Python til å stille oss spørsmål. For
 	print('Hei ' + navn)
 	```
 
-	Lagre og kjør programmet. Hilser Python deg med navn?
+	Lagre og kjør programmet. Skriv inn navnet ditt når du blir spurt
+	om det, og trykk enter-tasten. Hilser Python deg med navn?
 
 + For at teksten skal se bra ut må du passe på at du bruker
   mellomrom. Det ser best ut med et mellomrom mellom `?` og `'` i

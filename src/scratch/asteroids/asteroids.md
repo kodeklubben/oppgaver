@@ -97,16 +97,16 @@ vi laget i Lunar Lander.
   ```blocks
       når jeg mottar [Nytt spill v]
       for alltid
-          hvis ((x-posisjon) < (-235))
+          hvis <(x-posisjon) < (-235)>
               endre x med (470)
           slutt
-          hvis ((x-posisjon) > (235))
+          hvis <(x-posisjon) > (235)>
               endre x med (-470)
           slutt
-          hvis ((y-posisjon) < (-175))
+          hvis <(y-posisjon) < (-175)>
               endre y med (350)
           slutt
-          hvis ((y-posisjon) > (175))
+          hvis <(y-posisjon) > (175)>
               endre y med (-350)
           slutt
       slutt
@@ -144,7 +144,7 @@ vi laget i Lunar Lander.
   omtrent slik ut:
 
   ```blocks
-      hvis (tast [mellomrom v] trykket?)
+      hvis <tast [mellomrom v] trykket?>
           vent til (ikke (tast [mellomrom v] trykket?))
           ...
       slutt
@@ -229,7 +229,7 @@ vi laget i Lunar Lander.
   legge inn kode som dette i løkka som flytter skudd-figuren:
 
   ```blocks
-      hvis (berører [Asteroide v] ?)
+      hvis <berører [Asteroide v] ?>
           vent (0.01) sekunder
           slett denne klonen
       slutt

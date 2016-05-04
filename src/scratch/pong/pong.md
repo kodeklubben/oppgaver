@@ -142,7 +142,7 @@ eller når den berører spesielle farger.
     med for eksempel
 
     ```blocks
-        hvis (berører fargen [#9999FF])
+        hvis <berører fargen [#9999FF]>
             pek i retning ((180) - (retning))
             trommeslag (15 v) som varer (0.01) takter
         slutt
@@ -172,7 +172,7 @@ eller når den berører spesielle farger.
   kan du gjøre for eksempel med en test som ser omtrent slik ut:
 
     ```blocks
-        hvis ((tast [w v] trykket) og ((y-posisjon) < (150)))
+        hvis <(tast [w v] trykket) og ((y-posisjon) < (150))>
         slutt
     ```
 

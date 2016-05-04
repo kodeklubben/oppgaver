@@ -81,13 +81,13 @@ grønt flagg. __Klikk på det!__
     ```blocks
         når grønt flagg klikkes
         for alltid
-            hvis (tast [pil høyre v] trykket?)
+            hvis <tast [pil høyre v] trykket?>
                 vend høyre (5) grader
             slutt
-            hvis (tast [pil venstre v] trykket?)
+            hvis <tast [pil venstre v] trykket?>
                 vend venstre (5) grader
             slutt
-            hvis (tast [pil opp v] trykket?)
+            hvis <tast [pil opp v] trykket?>
                 gå (5) steg
             slutt
         slutt
@@ -164,13 +164,13 @@ realistisk.
     ```blocks
         når grønt flagg klikkes
         for alltid
-            hvis (tast [pil høyre v] trykket?)
+            hvis <tast [pil høyre v] trykket?>
                 vend høyre (5) grader
             slutt
-            hvis (tast [pil venstre v] trykket?)
+            hvis <tast [pil venstre v] trykket?>
                 vend venstre (5) grader
             slutt
-            hvis (tast [pil opp v] trykket?)
+            hvis <tast [pil opp v] trykket?>
                 gå (5) steg
             slutt
             sett størrelse til (avstand til [Earth v])%
@@ -259,7 +259,7 @@ med. Vi kan la astrokatten vår bli påvirket av gravitasjonen også.
 
 + Vi kan nå bruke denne variabelen til å huske hvilken retning katten
   pekte. Endre skriptet ditt ved å legge til to nye klosser:
-  
+
     ```blocks
         når grønt flagg klikkes
         gå til x: (-200) y: (150)

@@ -175,11 +175,11 @@ programmere!
     gå til x: (-45) y: (30)
     bytt drakt til [venstre v]
     for alltid
-        hvis (tast [pil venstre v] trykket?)
+        hvis <tast [pil venstre v] trykket?>
             gli (0.2) sekunder til x: (-45) y: (30)
             bytt drakt til [venstre v]
         slutt
-        hvis (tast [pil høyre v] trykket?)
+        hvis <tast [pil høyre v] trykket?>
             gli (0.2) sekunder til x: (45) y: (30)
             bytt drakt til [høyre v]
         slutt
@@ -248,7 +248,7 @@ skyskraperen.
 
     ```blocks
     når jeg starter som klon
-    hvis ((tilfeldig tall fra (1) til (2)) = (1))
+    hvis <(tilfeldig tall fra (1) til (2)) = (1)>
         pek i retning (45 v)
         gå til x: (-280) y: (-140)
     ellers

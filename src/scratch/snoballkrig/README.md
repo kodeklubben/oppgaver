@@ -63,17 +63,17 @@ utfordrende etterhvert som man spiller.
 	gå til x: (0) y: (-75)
 	vis
 	for alltid
-		hvis (tast [pil høyre v] trykket?)
+		hvis <tast [pil høyre v] trykket?>
 			pek i retning (90 v)
 			neste drakt
 			gå (hastighet) steg
 		slutt
-		hvis (tast [pil venstre v] trykket?)
+		hvis <tast [pil venstre v] trykket?>
 			pek i retning (-90 v)
 			neste drakt
 			gå (hastighet) steg
 		slutt
-		hvis (tast [mellomrom v] trykket?)
+		hvis <tast [mellomrom v] trykket?>
 			vent til (ikke (tast [mellomrom v] trykket?))
 			send melding [kast v]
 		slutt
@@ -103,7 +103,7 @@ utfordrende etterhvert som man spiller.
 	gjenta til ((berører [Skumling v]?) eller (berører [kant v]?))
 		gå (hastighet) steg
 	slutt
-	hvis (berører [Skumling v]?)
+	hvis <berører [Skumling v]?>
 		vent (0.02) sekunder
 	slutt
 	slett denne klonen
@@ -124,7 +124,7 @@ utfordrende etterhvert som man spiller.
 
 	når jeg mottar [start v]
 	for alltid
-		hvis ((tilfeldig tall fra (0) til (1)) = [0])
+		hvis <(tilfeldig tall fra (0) til (1)) = [0]>
 			pek i retning (90 v)
 			sett x til (-250)
 		ellers
@@ -149,12 +149,12 @@ utfordrende etterhvert som man spiller.
 
 	når jeg starter som klon
 	for alltid
-		hvis (berører [Helten v]?)
+		hvis <berører [Helten v]?>
 			send melding [slutt v]
 		slutt
-		hvis (berører [Snøball v]?)
+		hvis <berører [Snøball v]?>
 			endre [Liv v] med (-1)
-			hvis ((Liv) = (0))
+			hvis <(Liv) = (0)>
 				endre [Poeng v] med (Slem)
 				slett denne klonen
 			slutt

@@ -111,7 +111,7 @@ lang den vannrette streken er i forhold til den skrå streken.
   `for alltid`{.blockcontrol}-løkken din.
 
   ```blocks
-      hvis (tast [pil opp v] trykket?)
+      hvis <tast [pil opp v] trykket?>
           endre [fartX v] med ((0) - ([cos v] av (retning)))
           endre [fartY v] med ([sin v] av (retning))
       slutt
