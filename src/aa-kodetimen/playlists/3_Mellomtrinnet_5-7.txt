@@ -1,3 +1,0 @@
-code_org/codestudio_mellomtrinn.md
-scratch/kodeklubben.md
-processing/vesteraas.md
