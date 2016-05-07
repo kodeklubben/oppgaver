@@ -206,7 +206,7 @@ __Klikk på det grønne flagget.__
     ```blocks
         når jeg mottar [start v]
         for alltid
-            hvis ((tilfeldig tall fra (0) til (1)) = [0])
+            hvis <(tilfeldig tall fra (0) til (1)) = [0]>
                 pek i retning (90 v)
                 sett x til (-250)
             ellers
@@ -234,11 +234,11 @@ __Klikk på det grønne flagget.__
     ```blocks
         når jeg starter som klon
         for alltid
-            hvis (berører [Helten v]?)
+            hvis <berører [Helten v]?>
                 send melding [slutt v]
                 slett denne klonen
             slutt
-            hvis (berører [Snøball v]?)
+            hvis <berører [Snøball v]?>
                 slett denne klonen
             slutt
         slutt

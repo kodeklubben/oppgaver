@@ -45,7 +45,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
         endre x med (hastighet)
         pek i retning (90 v)
         sprett tilbake ved kanten
-        hvis (ikke (berører [kant v]?))
+        hvis <ikke (berører [kant v]?)>
             send melding [flyttet høyre v]
             send melding [flyttet v]
         slutt
@@ -54,7 +54,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
         endre x med ((hastiget) * (-1))
         pek i retning (-90 v)
         sprett tilbake ved kanten
-        hvis (ikke (berører [kant v]?))
+        hvis <ikke (berører [kant v]?)>
             send melding [flyttet venstre v]
             send melding [flyttet v]
         slutt
