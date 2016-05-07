@@ -55,6 +55,8 @@ __Klikk på det grønne flagget.__
   skrå streken i figuren over). Prøv å endre på tallet (begge steder) for å se
   hva som skjer.
 
++ Hva skjer om du bruker forskjellige tall de to stedene i stedet for `100`?
+
 + Hvordan forandrer bevegelsen til katten seg om du forandrer tallet `5` i `vend
   venstre (5) grader`{.b}? Prøv gjerne med negative tall også!
 
