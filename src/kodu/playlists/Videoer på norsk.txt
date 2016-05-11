@@ -1,0 +1,3 @@
+videoer/oystein.md
+videoer/stig.md
+videoer/lisa.md
