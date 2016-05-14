@@ -81,7 +81,7 @@ tegnefunksjoner. De vi er interessert i nå er `penn på`{.blockpen} og
         når grønt flagg klikkes
         for alltid
             gå til [musepeker v]
-            hvis (museknappen er nede?)
+            hvis <museknappen er nede?>
                 penn på
             ellers
                 penn av
@@ -108,7 +108,7 @@ __Klikk på det grønne flagget.__
         slett
         for alltid
             gå til [musepeker v]
-            hvis (museknappen er nede?)
+            hvis <museknappen er nede?>
                 penn på
             ellers
                 penn av
@@ -260,7 +260,7 @@ virker ikke blyanten.
         for alltid
             hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
                 gå til [musepeker v]
-                hvis (museknappen er nede?)
+                hvis <museknappen er nede?>
                     penn på
                 ellers
                     penn av
@@ -283,7 +283,7 @@ virker ikke blyanten.
             hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
                 gå til [musepeker v]
                 vis
-                hvis (museknappen er nede?)
+                hvis <museknappen er nede?>
                     penn på
                 ellers
                     penn av
@@ -422,7 +422,7 @@ __Klikk på det grønne flagget.__
             hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
                 gå til [musepeker v]
                 vis
-                hvis (museknappen er nede?)
+                hvis <museknappen er nede?>
                     hvis <(stempelmodus) = [på]>
                         stemple avtrykk
                     ellers

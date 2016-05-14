@@ -4,3 +4,4 @@ breakout/breakout.md
 snake/snake.md
 lunar_lander/lunar_lander.md
 asteroids/asteroids.md
+donkey_kong/donkey_kong.md

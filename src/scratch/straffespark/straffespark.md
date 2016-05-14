@@ -205,7 +205,7 @@ eller når ballen går i mål.
       vent til (berører [Leo v]?)
       for alltid
           gå (6) steg
-          hvis (berører [Keeper v]?)
+          hvis <berører [Keeper v]?>
               send melding [Redning v]
           ellers
           slutt
@@ -261,10 +261,10 @@ og `y`. Disse viser koordinatene til musepekeren.
       vent til (berører [Leo v]?)
       for alltid
           gå (6) steg
-          hvis (berører [Keeper v]?)
+          hvis <berører [Keeper v]?>
               send melding [Redning v]
           ellers
-              hvis ((x-posisjon) > [160])
+              hvis <(x-posisjon) > [160]>
                   send melding [Mål v]
               slutt
           slutt
@@ -414,7 +414,7 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
       når jeg mottar [Mål v]
       endre [Mål v] med (1)
       vent (2) sekunder
-      hvis ((Mål) < [10])
+      hvis <(Mål) < [10]>
           send melding [Nytt spark v]
       ellers
           bytt bakgrunn til [Seier v]
@@ -428,7 +428,7 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
       når jeg mottar [Redning v]
       endre [Redninger v] med (1)
       vent (2) sekunder
-      hvis ((Redninger) < [10])
+      hvis <(Redninger) < [10]>
           send melding [Nytt spark v]
       ellers
           bytt bakgrunn til [Tap v]

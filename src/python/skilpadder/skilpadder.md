@@ -119,7 +119,7 @@ La oss lage et kvadrat ved å fortelle skilpadden hvordan den skal bevege seg ru
     right(90)
     ```
 
-    Lagre programmet ditt og velg `Run -> New Module`. Ser du en firkant? Skilpadden snur seg 90 grader fire ganger, og ender opp med å se den samme retningen som den starten. å snu 90, 90, 90 og så 90 grader igjen snur skilpadden totalt 360 grader.
+    Lagre programmet ditt og velg `Run -> Run Module`. Ser du en firkant? Skilpadden snur seg 90 grader fire ganger, og ender opp med å se den samme retningen som den starten. å snu 90, 90, 90 og så 90 grader igjen snur skilpadden totalt 360 grader.
 
     Hva med en trekant? En trekant har tre hjørner, så vi må snu tre ganger. Hvis vi vil ende opp i samme retning, må vi snu 360 grader, akkurat som med firkanten. Derfor snur vi 120 grader, deretter 120 grader og så en gang til.
 

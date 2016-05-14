@@ -169,7 +169,7 @@ __Klikk på det grønne flagget.__
         når [a v] trykkes
         hvis <(kappløp) = [1]>
             gå (4) steg
-            hvis (berører [kant v]?)
+            hvis <berører [kant v]?>
                 sett [kappløp v] til (0)
             slutt
         slutt
@@ -191,7 +191,7 @@ __Klikk på det grønne flagget.__
         når [a v] trykkes
         hvis <(kappløp) = [1]>
             gå (4) steg
-            hvis (berører [kant v]?)
+            hvis <berører [kant v]?>
                 sett [kappløp v] til (0)
                 spill lyden [Polly v]
                 si [Polly vinner!] i (3) sekunder
@@ -224,7 +224,7 @@ __Klikk på det grønne flagget.__
         når [a v] trykkes
         hvis <(kappløp) = [1]>
             gå (4) steg
-            hvis (berører [kant v]?)
+            hvis <berører [kant v]?>
                 sett [kappløp v] til (0)
                 spill lyden [Polly v]
                 si [Polly vinner! v] i (3) sekunder
@@ -298,7 +298,7 @@ legge til noen lyder og variabler på egen hånd.
         sett [rakett_brukt v] til (1)
         gå (30) steg
         spill lyden [motorcycle passing v]
-        hvis (berører [kant v]?)
+        hvis <berører [kant v]?>
             sett [kappløp v] til (0)
             spill lyden [Polly v]
             si [Polly vinner! v] i (3) sekunder
@@ -349,7 +349,7 @@ som at vi lager vår egen Scratch-kodekloss!
 
     ```blocks
         definer ferdig
-        hvis (berører [kant v]?)
+        hvis <berører [kant v]?>
             sett [kappløp v] til (0)
             spill lyden [Polly v]
             si [Polly vinner! v] i (3) sekunder

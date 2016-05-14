@@ -170,7 +170,7 @@ Nå som vi kan svare på spørsmål vil vi også vite om vi svarer riktig.
     når grønt flagg klikkes
     send melding [Nytt spørsmål v] og vent
     spør (spørsmål) og vent
-    hvis ((svar) = (riktig svar))
+    hvis <(svar) = (riktig svar)>
         si [Ja, så flink du er!] i (2) sekunder
     ellers
         si [Nei, det ble visst feil.] i (2) sekunder
@@ -206,7 +206,7 @@ I stedet for å måtte trykke det grønne flagget hele tiden, kan vi be
     send melding [Nytt spørsmål v] og vent
     gjenta (10) ganger
         spør (spørsmål) og vent
-        hvis ((svar) = (riktig svar))
+        hvis <(svar) = (riktig svar)>
             si [Ja, så flink du er!] i (2) sekunder
             send melding [Nytt spørsmål v] og vent
         ellers

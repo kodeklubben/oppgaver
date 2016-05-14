@@ -76,11 +76,11 @@ som holder oversikt over alle stedene vi kan besøke.
         gå til x: (0) y: (0)
         vis
         for alltid
-            hvis (tast [pil høyre v] trykket?)
+            hvis <tast [pil høyre v] trykket?>
                 pek i retning (90 v)
                 gå (hastighet) steg
             slutt
-            hvis (tast [pil venstre v] trykket?)
+            hvis <tast [pil venstre v] trykket?>
                 pek i retning (-90 v)
                 gå (hastighet) steg
             slutt
