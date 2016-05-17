@@ -6,9 +6,10 @@ author: Geir Arne Hjelle
 
 # Introduksjon {.intro}
 
-I dette spillet vil vi kontrollere en liten __utforsker__ mens hun
-leter etter __skatten__ gjemt inne i labyrinten. Dessverre er skatten
-beskyttet av den skumle __froskekongen__.
+I dette spillet vil vi kontrollere en liten utforsker mens hun leter
+etter skatten gjemt inne i labyrinten. Dessverre er skatten beskyttet
+av den skumle froskekongen. Vi vil lære hvordan vi kontrollerer
+figurer, og hvordan vi kan programmere figurer til å bevege seg selv.
 
 ![](labyrint.png)
 
@@ -72,7 +73,7 @@ __Klikk på det grønne flagget.__
 
 + Kan du forandre hvor raskt utforskeren flytter seg?
 
-Tallet `5` i `gå 5 steg`{.blockmotion}-klossene bestemmer hvor raskt
+Tallet `5` i `gå (5) steg`{.b}-klossene bestemmer hvor raskt
 utforskeren flytter seg rundt. Vi vil gjerne eksperimentere litt for å
 se hvilken fart som passer best i spillet vårt, men for å endre farten
 må vi bytte tallet i fire forskjellige skript. Det blir for mye jobb!
@@ -85,18 +86,18 @@ Vi vil i stedet bruke en __variabel__ som kan styre farten til
 + Lag en ny variabel ved å gå til `Data`{.blockdata}-kategorien og
   klikk `Lag en Variabel`.
 
-+ Kall variabelen `hastighet`{.blockdata}, og velg at den bare skal
-  gjelde `For denne figuren`.
++ Kall variabelen `hastighet`, og velg at den bare skal gjelde `For
+  denne figuren`.
 
 + Til slutt, fjern avhukingen ved siden av den nye
-  `hastighet`{.blockdata}-klossen for at variabelen ikke skal vises på
+  `(hastighet)`{.b}-klossen for at variabelen ikke skal vises på
   scenen.
 
 Nå må vi endre i skriptene våre slik at bruker
-`hastighet`{.blockdata}-variabelen.
+`(hastighet)`{.b}-variabelen.
 
-+ Lag først et nytt skript som setter verdien av
-  `hastighet`{.blockdata} til `10`.
++ Lag først et nytt skript som setter verdien av `(hastighet)`{.b} til
+  `10`.
 
     ```blocks
         når grønt flagg klikkes
@@ -104,7 +105,7 @@ Nå må vi endre i skriptene våre slik at bruker
     ```
 
 + Deretter endrer vi de fire skriptene vi allerede har laget slik at
-  de bruker `hastighet`{.blockdata}.
+  de bruker `(hastighet)`{.b}.
 
     ```blocks
         når [pil opp v] trykkes
@@ -132,7 +133,7 @@ __Klikk på det grønne flagget.__
   tidligere?
 
 + Forandrer hastigheten til utforskeren seg hvis du endrer verdien av
-  `hastighet`{.blockdata} og klikker på det grønne flagget igjen?
+  `(hastighet)`{.b} og klikker på det grønne flagget igjen?
 
 + Velg en hastighet du synes passer.
 
@@ -189,31 +190,30 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 For å oppdage når `Utforsker`-figuren vår går gjennom veggen på
-labyrinten vil vi bruke en `berører fargen`{.blocksensing}-kloss.
-Denne klossen kan sanse om en figur kommer borti en spesiell farge.
-Her er det viktig at vi har tegnet alle veggene i labyrinten i samme
+labyrinten vil vi bruke en `(berører fargen [#ffffff])`{.b}-kloss.
+Denne klossen merker om en figur kommer borti en spesiell farge.  Her
+er det viktig at vi har tegnet alle veggene i labyrinten i samme
 farge.
 
-+ Vi legger `berører fargen`{.blocksensing}-klossen inn i skriptet
-  vi allerede har laget som setter `hastighet`{.blockdata}-variabelen.
++ Vi legger `(berører fargen [#ffffff])`{.b}-klossen inn i skriptet vi
+  allerede har laget som setter `(hastighet)`{.b}-variabelen.
 
     ```blocks
         når grønt flagg klikkes
         sett [hastighet v] til [10]
         for alltid
             hvis <berører fargen [#cc0000]?>
-                vend @ (180) grader
+                vend høyre (180) grader
                 gå (hastighet) steg
-                vend @ (180) grader
+                vend høyre (180) grader
             slutt
         slutt
     ```
 
-+ For å få riktig farge i `berører fargen`{.blocksensing}-klossen
-  klikker du først på den lille firkanten hvor fargen vises. Deretter
-  flytter du musepekeren slik at den peker på en vegg i labyrinten
-  din. Da forandres fargen i den lille firkanten. Klikk igjen for å
-  velge denne fargen.
++ For å få riktig farge i `berører fargen [#cc0000]`{.b}-klossen klikker du
+  først på den lille firkanten hvor fargen vises. Deretter flytter du
+  musepekeren slik at den peker på en vegg i labyrinten din. Da forandres fargen
+  i den lille firkanten. Klikk igjen for å velge denne fargen.
 
 ## Test prosjektet {.flag}
 
@@ -230,9 +230,9 @@ En måte vi kan bruke for å begrense hvor en figur kan gå, er å tvinge
 den til å ta et skritt tilbake når den gjør noe feil. I koden
 
 ```blocks
-    vend @ (180) grader
+    vend høyre (180) grader
     gå (hastighet) steg
-    vend @ (180) grader
+    vend høyre (180) grader
 ```
 
 vil figuren først snu seg helt rundt (180 grader), deretter ta et
@@ -295,8 +295,7 @@ Det er et problem i spillet vårt. Etter at utforskeren har funnet
 skatten en gang, forblir skatten borte.
 
 + Vi må passe på at skatten vises på begynnelsen av spillet. Endre
-  skriptet på `Skatt` ved å legge til `vis`{.blocklooks} helt i
-  begynnelsen.
+  skriptet på `Skatt` ved å legge til `vis`{.b} helt i begynnelsen.
 
     ```blocks
         når grønt flagg klikkes
@@ -314,16 +313,14 @@ spennende.
 
 + Klikk på `Utforsker`-figuren.
 
-+ Legg til en `gå til x: y: `{.blockmotion}-kloss rett etter `sett
-  hastighet til 10`{.blockdata}-klossen.
++ Legg til en `gå til x: () y: ()`{.b}-kloss rett etter `sett
+  [hastighet v] til (10)`{.b}-klossen.
 
 + For å finne ut hvilke tall vi vil bruke for `x` og `y` kan vi gjøre
-  følgende. Dra utforskeren til et sted det er fint å starte
-  fra. Klikk deretter på `i`{.blockmotion} på
-  `Utforsker`-figuren. Under navnet `Utforsker` står det `x` og `y`
-  sammen med to tall. Dette er posisjonen til figuren akkurat
-  nå. Skriv disse to tallene inn i `gå til x: y:
-  `{.blockmotion}-klossen.
+  følgende. Dra utforskeren til et sted det er fint å starte fra. Se
+  øverst i høyre hjørne. Sammen med `Utforsker`-figuren står det `x`
+  og `y` og to tall. Dette er posisjonen til figuren akkurat nå. Skriv
+  disse to tallene inn i `gå til x: () y: ()`{.b}-klossen.
 
 + Hele skriptet vil nå se slik ut (dine tall for `x` og `y` vil være
   forskjellige):
@@ -334,9 +331,9 @@ spennende.
         gå til x: (-200) y: (0)
         for alltid
             hvis <berører fargen [#cc0000]?>
-                vend @ (180) grader
+                vend høyre (180) grader
                 gå (hastighet) steg
-                vend @ (180) grader
+                vend høyre (180) grader
             slutt
         slutt
     ```
@@ -378,9 +375,9 @@ Dette blir veldig likt hvordan `Skatt` merket at den ble funnet.
         slutt
     ```
 
-Linjen `stopp alle`{.blockcontrol} gjør at skriptet på `Skatt` slutter
-å kjøre. Det betyr at vi klarer ikke å få tak i skatten etter at vi
-har blitt tatt av `Froskekonge`.
+Linjen `stopp [alle v] :: control`{.b} gjør at skriptet på `Skatt`
+slutter å kjøre. Det betyr at vi klarer ikke å få tak i skatten etter
+at vi har blitt tatt av `Froskekonge`.
 
 ## Test prosjektet {.flag}
 
@@ -405,10 +402,10 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
     ```
 
 + Før vi lar `Froskekonge` begynne å bevege seg lager vi en
-  `hastighet`{.blockdata}-variabel også for ham. Klikk på
+  `(hastighet)`{.b}-variabel også for ham. Klikk på
   `Data`{.blockdata}, og deretter `Lag en Variabel`. Kall variabelen
-  `hastighet`{.blockdata} og la den gjelde kun `For denne
-  figuren`. Tilslutt, fjern avhukingen på variabelen.
+  `hastighet` og la den gjelde kun `For denne figuren`. Tilslutt,
+  fjern avhukingen på variabelen.
 
 + Vi kan nå utvide skriptet slik at froskekongen går fram og
   tilbake. Vi får ham til å snu når han treffer veggen på nesten samme
@@ -422,7 +419,8 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
         for alltid
             gå (hastighet) steg
             hvis <berører fargen [#cc0000]?>
-                vend @ (180) grader
+                vend høyre (180) grader
+                gå (hastighet) steg
             slutt
         slutt
     ```
@@ -440,25 +438,35 @@ av og til endre retning.
         for alltid
             gå (hastighet) steg
             hvis <berører fargen [#cc0000]?>
-                vend @ (180) grader
+                vend høyre (180) grader
+                gå (hastighet) steg
             slutt
             hvis <(tilfeldig tall fra (1) til (25)) = (1)>
-                vend @ ((tilfeldig tall fra (-1) til (1)) * (90)) grader
+                vend høyre ((tilfeldig tall fra (-1) til (1)) * (90)) grader
             slutt
         slutt
     ```
 
 Disse to siste klossene ser litt kompliserte ut. La oss se litt nøyere på dem.
 
-+ Klossen `hvis `{.blockcontrol}`tilfeldig tall fra 1 til 25 =
-  1`{.blockoperators} sier at vi skal gjøre *noe* cirka èn av 25
-  ganger.
++ Klossen `hvis <(tilfeldig tall fra (1) til (25)) = (1)>`{.b} sier at
+  vi skal gjøre *noe* cirka èn av 25 ganger.
 
-+ Dette *noe* er `vend `{.blockmotion}`tilfeldig tall fra -1 til 1 *
-  90`{.blockoperators}` grader`{.blockmotion}. Tegnet `*` betyr gange,
-  slik at om vi velger tilfeldig mellom tallene -1, 0 og 1, betyr det
-  at froskekongen vil vende -90, 0 eller 90 grader. Det vil si at den
-  svinger mot venstre, fortsetter rett frem eller svinger mot høyre.
++ Dette *noe* er `vend høyre ((tilfeldig tall fra (-1) til (1)) *
+  (90)) grader`{.b}. Tegnet `*` betyr gange, slik at om vi velger
+  tilfeldig mellom tallene -1, 0 og 1, betyr det at froskekongen vil
+  vende -90, 0 eller 90 grader. Det vil si at den svinger mot venstre,
+  fortsetter rett frem eller svinger mot høyre.
+
+## Tips {.protip}
+
+Du kan av og til oppleve at `Froskekonge` setter seg fast i
+veggen. Dette er fordi `Froskekonge` fortsatt berører labyrintveggen
+etter at den har snudd seg. Et par ting du kan prøve for å forbedre
+dette er å gjøre `Froskekonge`-figuren mindre, legge en `begrens
+rotasjon [ikke roter v]`{.b}-kloss øverst i `Froskekonge`-skriptet,
+eller velge en figur som er _rundere_ (prøv også å viske bort tunga
+til `Froskekonge` om du bruker `Dyr/Frog`-figuren).
 
 ## Test prosjektet {.flag}
 
