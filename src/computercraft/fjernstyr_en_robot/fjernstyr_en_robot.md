@@ -419,11 +419,11 @@ eksempel `excavate` og `dance`.
 Fjernstyrt graverobot er nyttig! En graverobot kan craftes fra en annen turtle
 med pickaxe på ledig side. Dette er hva min gjorde:
 
-![](ssh-1.png)
+![](ssh_1.png)
 Graveroboten er klar til høyre i bildet.
 
-![](ssh-2.png)
+![](ssh_2.png)
 Flytter den til der den skal begynne å grave ...
 
-![](ssh-3.png)
+![](ssh_3.png)
 ... Og der har den kommet et stykke på vei!
