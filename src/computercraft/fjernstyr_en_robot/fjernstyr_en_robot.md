@@ -278,11 +278,12 @@ programmerer eller voksen! Hva gjør programmet nå forskjellig?
     end
   end
 
-  -- Denne ser ut som før.
+  -- Denne er endret litt
   function main(  )
     print("Listening for move commands ...")
     rednet.open("back")
     while true do
+    -- Her skal vi ikke lenger skrive ut, men flytte på roboten
       remoteMove()
     end
   end
