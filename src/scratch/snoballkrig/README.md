@@ -74,7 +74,7 @@ utfordrende etterhvert som man spiller.
 			gå (hastighet) steg
 		slutt
 		hvis <tast [mellomrom v] trykket?>
-			vent til (ikke (tast [mellomrom v] trykket?))
+			vent til <ikke <tast [mellomrom v] trykket?>>
 			send melding [kast v]
 		slutt
 	slutt
@@ -100,7 +100,7 @@ utfordrende etterhvert som man spiller.
 	endre y med (15)
 	gå (30) steg
 	vis
-	gjenta til ((berører [Skumling v]?) eller (berører [kant v]?))
+	gjenta til <<berører [Skumling v]?> eller <berører [kant v]?>>
 		gå (hastighet) steg
 	slutt
 	hvis <berører [Skumling v]?>
@@ -154,7 +154,7 @@ utfordrende etterhvert som man spiller.
 		slutt
 		hvis <berører [Snøball v]?>
 			endre [Liv v] med (-1)
-			hvis <(Liv) = (0)>
+			hvis <(Liv) = [0]>
 				endre [Poeng v] med (Slem)
 				slett denne klonen
 			slutt

@@ -644,7 +644,7 @@ spørre.
 
     ```blocks
         definer sjekk sted
-        hvis <((tilfeldig tall fra (1) til (Antall steder totalt)) > (1)) eller (berører fargen [#ff0000]?)>
+        hvis <<(tilfeldig tall fra (1) til (Antall steder totalt)) > [1]> eller <berører fargen [#ff0000]?>>
             sett [bruk sted v] til [nei]
         ellers
             sett [bruk sted v] til [ja]

@@ -71,7 +71,7 @@ __Klikk på det grønne flagget.__
     ```blocks
         når grønt flagg klikkes
         for alltid
-            hvis <(avstand til [musepeker v]) > (10)>
+            hvis <(avstand til [musepeker v]) > [10]>
                 pek mot [musepeker v]
                 gå (3) steg
             slutt
@@ -195,7 +195,7 @@ __Klikk på det grønne flagget.__
             gå (2) steg
             vend venstre (tilfeldig tall fra (-20) til (20)) grader
             sprett tilbake ved kanten
-            hvis <(berører [JafseFisk v]?) og (berører fargen [#FFFFFF]?)>
+            hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
                 skjul
                 vent (3) sekunder
                 gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
@@ -230,7 +230,7 @@ __Klikk på det grønne flagget.__
             gå (2) steg
             vend venstre (tilfeldig tall fra (-20) til (20)) grader
             sprett tilbake ved kanten
-            hvis <(berører [JafseFisk v]?) og (berører fargen [#FFFFFF]?)>
+            hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
                 send melding [Du tok meg! v]
                 skjul
                 vent (3) sekunder

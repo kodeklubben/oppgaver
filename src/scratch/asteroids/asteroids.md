@@ -97,16 +97,16 @@ vi laget i Lunar Lander.
   ```blocks
       når jeg mottar [Nytt spill v]
       for alltid
-          hvis <(x-posisjon) < (-235)>
+          hvis <(x-posisjon) < [-235]>
               endre x med (470)
           slutt
-          hvis <(x-posisjon) > (235)>
+          hvis <(x-posisjon) > [235]>
               endre x med (-470)
           slutt
-          hvis <(y-posisjon) < (-175)>
+          hvis <(y-posisjon) < [-175]>
               endre y med (350)
           slutt
-          hvis <(y-posisjon) > (175)>
+          hvis <(y-posisjon) > [175]>
               endre y med (-350)
           slutt
       slutt
@@ -145,7 +145,7 @@ vi laget i Lunar Lander.
 
   ```blocks
       hvis <tast [mellomrom v] trykket?>
-          vent til (ikke (tast [mellomrom v] trykket?))
+          vent til <ikke <tast [mellomrom v] trykket?>>
           ...
       slutt
   ```

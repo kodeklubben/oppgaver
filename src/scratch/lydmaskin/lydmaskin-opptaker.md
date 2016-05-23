@@ -18,7 +18,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
   til følgende i `når jeg mottar`{.blockevents} klossen.
 
     ```blocks
-        hvis <(opptak) = (1)>
+        hvis <(opptak) = [1]>
             legg (tid) til [timing v]
             legg (katt) til [instrument v]
         slutt
@@ -31,7 +31,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
     ```blocks
         når jeg mottar [drum v]
         trommeslag (48 v) som varer (0.2) takter
-        hvis <(opptak) = (1)>
+        hvis <(opptak) = [1]>
             legg (tid) til [timing v]
             legg (katt) til [instrument v]
         slutt

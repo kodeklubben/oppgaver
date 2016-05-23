@@ -293,7 +293,7 @@ legge til noen lyder og variabler på egen hånd.
 
 ```blocks
     når [q v] trykkes
-    hvis <((kappløp) = (1)) og ((rakett_brukt) = (0))>
+    hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
         bytt drakt til [parrot-rakett v]
         sett [rakett_brukt v] til (1)
         gå (30) steg
@@ -361,7 +361,7 @@ som at vi lager vår egen Scratch-kodekloss!
             ferdig
 
         når [q v] trykkes
-        hvis <((kappløp) = (1)) og ((rakett_brukt) = (0))>
+        hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
             bytt drakt til [parrot-rakett v]
             sett [rakett_brukt v] til (1)
             gå (30) steg

@@ -126,7 +126,7 @@ eller når den berører spesielle farger.
     med
 
     ```blocks
-        gjenta til (berører fargen [#0000FF])
+        gjenta til <berører fargen [#0000FF]>
         slutt
         send melding [Poeng v]
     ```
@@ -172,7 +172,7 @@ eller når den berører spesielle farger.
   kan du gjøre for eksempel med en test som ser omtrent slik ut:
 
     ```blocks
-        hvis <(tast [w v] trykket) og ((y-posisjon) < (150))>
+        hvis <<tast [w v] trykket> og <(y-posisjon) < [150]>>
         slutt
     ```
 

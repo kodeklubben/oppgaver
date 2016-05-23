@@ -441,7 +441,7 @@ av og til endre retning.
                 vend høyre (180) grader
                 gå (hastighet) steg
             slutt
-            hvis <(tilfeldig tall fra (1) til (25)) = (1)>
+            hvis <(tilfeldig tall fra (1) til (25)) = [1]>
                 vend høyre ((tilfeldig tall fra (-1) til (1)) * (90)) grader
             slutt
         slutt
@@ -449,7 +449,7 @@ av og til endre retning.
 
 Disse to siste klossene ser litt kompliserte ut. La oss se litt nøyere på dem.
 
-+ Klossen `hvis <(tilfeldig tall fra (1) til (25)) = (1)>`{.b} sier at
++ Klossen `hvis <(tilfeldig tall fra (1) til (25)) = [1]>`{.b} sier at
   vi skal gjøre *noe* cirka èn av 25 ganger.
 
 + Dette *noe* er `vend høyre ((tilfeldig tall fra (-1) til (1)) *

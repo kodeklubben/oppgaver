@@ -78,7 +78,7 @@ synke. Poengvariabelen fungerer dermed som en slags tidteller.
         når grønt flagg klikkes
         bytt drakt til (tilfeldig tall fra (1) til (5))
         sett [poeng v] til (110)
-        gjenta til ((poeng) = (0))
+        gjenta til <(poeng) = [0]>
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
@@ -136,7 +136,7 @@ Først må vi å vite hva det rette svaret er.
         bytt drakt til (tilfeldig tall fra (1) til (5))
         sett [riktig v] til (drakt nr.)
         sett [poeng v] til (110)
-        gjenta til ((poeng) = (0))
+        gjenta til <(poeng) = [0]>
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
@@ -172,7 +172,7 @@ Nå skal vi legge til flere figurer som spilleren kan klikke på.
 
     ```blocks
         når denne figuren klikkes
-        hvis <(riktig) = (1)>
+        hvis <(riktig) = [1]>
             send melding [Vant v]
         ellers
             skjul
@@ -240,7 +240,7 @@ vinnes. Se skriptene nedenfor.
         sett [riktig v] til (drakt nr.)
         sett [poeng v] til (110)
         sett [vant v] til (0)
-        gjenta til (<(poeng) = (0)> eller <(vant) = (1)>)
+        gjenta til <<(poeng) = [0]> eller <(vant) = [1]>>
             endre [poeng v] med [-10]
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)

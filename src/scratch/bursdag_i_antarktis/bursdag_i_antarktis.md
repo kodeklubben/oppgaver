@@ -61,7 +61,7 @@ møter dansende pingviner på bursdagen sin. Men som alltid er det greit
         når grønt flagg klikkes
         gå til x: (-100) y: (-50)
         pek i retning (100 v)
-        gjenta til ((x-posisjon) > (240))
+        gjenta til <(x-posisjon) > [240]>
             gå (10) steg
             neste drakt
             vent (0.1) sekunder
@@ -110,7 +110,7 @@ så veldig bra.
         når grønt flagg klikkes
         gå til x: (-100) y: (-50)
         pek i retning (100 v)
-        gjenta til ((x-posisjon) > (240))
+        gjenta til <(x-posisjon) > [240]>
             gå (10) steg
             neste drakt
             vent (0.1) sekunder
@@ -149,7 +149,7 @@ synlige for oss som ser på.
         når grønt flagg klikkes
         gå til x: (-100) y: (-50)
         pek i retning (100 v)
-        gjenta til ((x-posisjon) > (240))
+        gjenta til <(x-posisjon) > [240]>
             gå (10) steg
             neste drakt
             vent (0.1) sekunder
@@ -232,7 +232,7 @@ mennesker.
         gå til x: (-100) y: (-50)
         pek i retning (100 v)
 		send melding [Si hei v]
-        gjenta til ((x-posisjon) > (240))
+        gjenta til <(x-posisjon) > [240]>
             gå (10) steg
             neste drakt
             vent (0.1) sekunder
@@ -262,7 +262,7 @@ __Klikk på det grønne flagget.__
         gå til x: (-100) y: (-50)
         pek i retning (100 v)
 		send melding [Si hei v] og vent
-        gjenta til ((x-posisjon) > (240))
+        gjenta til <(x-posisjon) > [240]>
             gå (10) steg
             neste drakt
             vent (0.1) sekunder

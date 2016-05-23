@@ -208,7 +208,7 @@ __Klikk på det grønne flagget.__
         Når grønt flagg klikkes
         sett [Tid v] til (30)
         sett [Poeng v] til (0)
-        gjenta til ((tid) = (0))
+        gjenta til <(tid) = [0]>
             vent (1) sekunder
             endre [Tid v] med (-1)
         slutt

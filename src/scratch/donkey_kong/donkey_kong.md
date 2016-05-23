@@ -243,7 +243,7 @@ etter at vi har tegnet dem.
 + Videre bestemmer vi hvordan kulene oppfører seg ved å lage en
   hovedløkke på omtrent samme måte som for `Jumpman`.
 
-  Legg en `gjenta til ((y-posisjon) < (-170))`{.b}-kloss nederst i
+  Legg en `gjenta til <(y-posisjon) < [-170]>`{.b}-kloss nederst i
   `når jeg starter som klon`{.b}-skriptet, og fyll denne med kode som
   lar kulen falle, merker at ildkulen ligger på plattformen, og
   flytter selve figuren.

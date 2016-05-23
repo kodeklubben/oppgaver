@@ -226,7 +226,7 @@ skyskraperen.
     pek i retning (45 v)
     gå til x: (-280) y: (-140)
     vis
-    gjenta til ((y-posisjon) > (190))
+    gjenta til <(y-posisjon) > [190]>
         gå (10) steg
     slutt
     slett denne klonen
@@ -246,21 +246,21 @@ skyskraperen.
   et tilfeldig tall kan vi bestemme om flyet kommer fra høyre eller
   venstre. Endre koden din slik at den blir som følger:
 
-    ```blocks
-    når jeg starter som klon
-    hvis <(tilfeldig tall fra (1) til (2)) = (1)>
-        pek i retning (45 v)
-        gå til x: (-280) y: (-140)
-    ellers
-        pek i retning (-45 v)
-        gå til x: (280) y: (-140)
-    slutt
-    vis
-    gjenta til ((y-posisjon) > (190))
-        gå (10) steg
-    slutt
-    slett denne klonen
-    ```
+  ```blocks
+  når jeg starter som klon
+  hvis <(tilfeldig tall fra (1) til (2)) = [1]>
+      pek i retning (45 v)
+      gå til x: (-280) y: (-140)
+  ellers
+      pek i retning (-45 v)
+      gå til x: (280) y: (-140)
+  slutt
+  vis
+  gjenta til <(y-posisjon) > [190]>
+      gå (10) steg
+  slutt
+  slett denne klonen
+  ```
 
 # Steg 5: King Kong må passe seg {.activity}
 
@@ -275,7 +275,7 @@ truffet av flyene.
     ```blocks
     når grønt flagg klikkes
     for alltid
-        vent til (berører [fly v] ?)
+        vent til <berører [fly v] ?>
         endre [farge v] effekt med (25)
         vent (0.5) sekunder
         ta bort grafiske effekter

@@ -171,7 +171,7 @@ __Klikk på det grønne flagget.__
 
         når jeg mottar [Nytt sted v]
         gå til x: (-98) y: (-120)
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         si [Fant Barcelona!] i (2) sekunder
     ```
 

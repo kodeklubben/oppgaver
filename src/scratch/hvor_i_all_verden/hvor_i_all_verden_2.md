@@ -274,7 +274,7 @@ eller lage egne klosser som man gjør i Scratch.
         sett [stedX v] til (x)
         sett [stedY v] til (y)
         sett [Reis til v] til (sted)
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         sett [gjennomsiktig v] effekt til (0)
         si (sett sammen [Fant ] (sted))
         gjenta (5) ganger
@@ -308,7 +308,7 @@ eller lage egne klosser som man gjør i Scratch.
     Den enkleste måten å løse dette på er å legge på klossen
 
     ```blocks
-        vent til (ikke (berører [Helikopter v]?))
+        vent til <ikke <berører [Helikopter v]?>>
     ```
 
     rett før vi venter til helikopteret berøres inne i funksjonen vår.
