@@ -186,8 +186,8 @@ etter at vi har tegnet dem.
   ```
 
   Med denne koden kan vi klatre opp stigen. Hvordan kommer vi oss ned
-  igjen? Kan du legge til en `hvis (tast [pil ned v]
-  trykket?)`{.b}-test til slik at vi også kan klatre ned stigen?
+  igjen? Kan du legge til en `hvis <tast [pil ned v]
+  trykket?>`{.b}-test til slik at vi også kan klatre ned stigen?
 
 + Tegn flere plattformer og stiger. Test underveis at det er mulig for
   `Jumpman` å klatre eller hoppe mellom plattformene, men samtidig at
