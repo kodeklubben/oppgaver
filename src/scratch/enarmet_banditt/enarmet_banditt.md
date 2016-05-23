@@ -86,7 +86,7 @@ se at er praktisk også senere.
 
     ```blocks
         når grønt flagg klikkes
-        sett [stoppet v] til (0)
+        sett [stoppet v] til [0]
         for alltid
             neste drakt
             vent (0.5) sekunder
@@ -98,7 +98,7 @@ se at er praktisk også senere.
 
     ```blocks
         når denne figuren klikkes
-        sett [stoppet v] til (1)
+        sett [stoppet v] til [1]
     ```
 
 + Til slutt må vi få figuren til å slutte å forandre drakt når
@@ -109,7 +109,7 @@ se at er praktisk også senere.
 
     ```blocks
         når grønt flagg klikkes
-        sett [stoppet v] til (0)
+        sett [stoppet v] til [0]
         for alltid
             hvis <(stoppet) = [0]>
                 neste drakt
@@ -179,7 +179,7 @@ endres litt mer uforutsigbart.
 
     ```blocks
         når grønt flagg klikkes
-        sett [stoppet v] til (0)
+        sett [stoppet v] til [0]
         bytt drakt til (tilfeldig tall fra (1) til (3))
         for alltid
             hvis <(stoppet) = [0]>

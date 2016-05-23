@@ -63,7 +63,7 @@ vil til og med se eksempler på kloner av kloner!
             endre [sprett v] med (-1)
             hvis <berører fargen [#00cc00] ?>
                 neste drakt
-                sett [sprett v] til (0)
+                sett [sprett v] til [0]
             slutt
             endre y med (sprett)
         slutt

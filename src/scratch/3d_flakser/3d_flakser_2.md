@@ -121,7 +121,7 @@ den flakser med vingene når vi trykker mellomromtasten.
                     endre [løft v] med (2)
                 slutt
                 hvis <(løft) < [0]>
-                    sett [løft v] til (0)
+                    sett [løft v] til [0]
                 slutt
             slutt
         slutt

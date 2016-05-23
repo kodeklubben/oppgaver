@@ -79,9 +79,9 @@ hinder. Vi bruker __rød__ for berøringssensorene.
         for alltid
 	        gå til [Felix v]
             hvis <farge [rød v] berører [grønn v] ?>
-		        sett [blokkert høyre v] til (1)
+		        sett [blokkert høyre v] til [1]
             ellers
-		        sett [blokkert høyre v] til (0)
+		        sett [blokkert høyre v] til [0]
             slutt
         slutt
     ```
@@ -519,7 +519,7 @@ Felix sitt oppdaterte skript for å vise hva som må gjøres.
             gå (2) steg
         slutt
         hvis <<tast [mellomrom v] trykket?> og <(blokkert bunn)=(1)>
-		    sett [hopphøyde v] til (100)
+		    sett [hopphøyde v] til [100]
         slutt
     slutt
 ```
@@ -536,7 +536,7 @@ Og her er redningskapselen, som håndterer all nivå-endringen:
 
 ```blocks
     når grønt flagg klikkes
-    sett [nåværende nivå v] til (1)
+    sett [nåværende nivå v] til [1]
     send melding [start brett v]
 
     når jeg mottar [start brett v]

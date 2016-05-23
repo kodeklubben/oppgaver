@@ -77,9 +77,9 @@ synke. Poengvariabelen fungerer dermed som en slags tidteller.
     ```blocks
         når grønt flagg klikkes
         bytt drakt til (tilfeldig tall fra (1) til (5))
-        sett [poeng v] til (110)
+        sett [poeng v] til [110]
         gjenta til <(poeng) = [0]>
-            endre [poeng v] med [-10]
+            endre [poeng v] med (-10)
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
             vent (1) sekunder
@@ -135,9 +135,9 @@ Først må vi å vite hva det rette svaret er.
         når grønt flagg klikkes
         bytt drakt til (tilfeldig tall fra (1) til (5))
         sett [riktig v] til (drakt nr.)
-        sett [poeng v] til (110)
+        sett [poeng v] til [110]
         gjenta til <(poeng) = [0]>
-            endre [poeng v] med [-10]
+            endre [poeng v] med (-10)
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
             vent (1) sekunder
@@ -238,17 +238,17 @@ vinnes. Se skriptene nedenfor.
         når grønt flagg klikkes
         bytt drakt til (tilfeldig tall fra (1) til (5))
         sett [riktig v] til (drakt nr.)
-        sett [poeng v] til (110)
-        sett [vant v] til (0)
+        sett [poeng v] til [110]
+        sett [vant v] til [0]
         gjenta til <<(poeng) = [0]> eller <(vant) = [1]>>
-            endre [poeng v] med [-10]
+            endre [poeng v] med (-10)
             sett [piksel v] effekt til (poeng)
             sett [farge v] effekt til (poeng)
             vent (1) sekunder
         slutt
 
         når jeg mottar [Vant v]
-        sett [vant v] til (1)
+        sett [vant v] til [1]
         ta bort grafiske effekter
         si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
     ```

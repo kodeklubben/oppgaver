@@ -209,8 +209,8 @@ slik at helikopteret ikke kan fly ut av kartet?
     med kode som setter variablene i stedet:
 
     ```blocks
-        sett [stedX v] til (-98)
-        sett [stedY v] til (-120)
+        sett [stedX v] til [-98]
+        sett [stedY v] til [-120]
     ```
 
 + Vi kan nå lage en helt ny blokk som flytter stedet rundt på

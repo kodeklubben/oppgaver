@@ -39,7 +39,7 @@ utfordrende etterhvert som man spiller.
 	send melding [start v]
 
 	når jeg mottar [start v]
-	sett [Poeng v] til (0)
+	sett [Poeng v] til [0]
 	bytt bakgrunn til [Spill v]
 	for alltid
 		sett [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
@@ -57,7 +57,7 @@ utfordrende etterhvert som man spiller.
 	skjul
 	sett størrelse til (75) %
 	begrens rotasjon [vend sideveis v]
-	sett [hastighet v] til (5)
+	sett [hastighet v] til [5]
 
 	når jeg mottar [start v]
 	gå til x: (0) y: (-75)

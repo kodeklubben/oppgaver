@@ -77,7 +77,7 @@ liten så betyr det at ringen er nærme, og den skal vokse fort.
         når jeg starter som klon
         gå til x: (0) y: (0)
         vis
-        sett [distanse v] til (10)
+        sett [distanse v] til [10]
         gjenta til <(distanse) < [1]>
             sett størrelse til ((150) / (distanse)) %
             endre [distanse v] med (-0.5)

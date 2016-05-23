@@ -25,13 +25,13 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
         sett [steg v] til [0]
 
         når jeg mottar [flyttet venstre v]
-        endre [steg v] med [1]
+        endre [steg v] med (1)
         hvis <(steg) > [1]>
             sett [steg v] til [0]
         slutt
 
         når jeg mottar [flyttet høyre v]
-        endre [steg v] med [1]
+        endre [steg v] med (1)
         hvis <(steg) > [1]>
             sett [steg v] til [0]
         slutt

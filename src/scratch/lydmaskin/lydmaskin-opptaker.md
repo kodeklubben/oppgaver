@@ -67,8 +67,8 @@ Trykk på opptaksknappen. Hva skjer når du spiller på instrumentene?
 
     ```blocks
         når denne figuren klikkes
-        sett [recording v] til (0)
-        sett [index v] til (1)
+        sett [recording v] til [0]
+        sett [index v] til [1]
         nullstill klokka
         for alltid
             hvis <(element (index) av [timing v]) < (timer)>

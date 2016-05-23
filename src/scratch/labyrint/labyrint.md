@@ -101,7 +101,7 @@ Nå må vi endre i skriptene våre slik at bruker
 
     ```blocks
         når grønt flagg klikkes
-        sett [hastighet v] til (10)
+        sett [hastighet v] til [10]
     ```
 
 + Deretter endrer vi de fire skriptene vi allerede har laget slik at
@@ -415,7 +415,7 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
         når grønt flagg klikkes
         gå til x: (50) y: (100)
         pek i retning (-90 v)
-        sett [hastighet v] til (5)
+        sett [hastighet v] til [5]
         for alltid
             gå (hastighet) steg
             hvis <berører fargen [#cc0000]?>
@@ -434,7 +434,7 @@ av og til endre retning.
         når grønt flagg klikkes
         gå til x: (50) y: (100)
         pek i retning (-90 v)
-        sett [hastighet v] til (5)
+        sett [hastighet v] til [5]
         for alltid
             gå (hastighet) steg
             hvis <berører fargen [#cc0000]?>

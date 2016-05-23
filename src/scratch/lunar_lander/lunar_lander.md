@@ -75,8 +75,8 @@ lang den vannrette streken er i forhold til den skrå streken.
       når jeg mottar [Nytt spill v]
       gå til x: (0) y: (175)
       pek i retning (90 v)
-      sett [fartX v] til (0)
-      sett [fartY v] til (0)
+      sett [fartX v] til [0]
+      sett [fartY v] til [0]
       for alltid
           endre [fartY v] med (-0.01)
           endre x med (fartX)

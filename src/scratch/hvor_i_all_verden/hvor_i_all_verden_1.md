@@ -61,7 +61,7 @@ som holder oversikt over alle stedene vi kan besøke.
         skjul
         begrens rotasjon [vend sideveis v]
         sett størrelse til (30) %
-        sett [hastighet v] til (5)
+        sett [hastighet v] til [5]
     ```
 
     Eksperimenter gjerne med andre verdier for disse klossene, slik at
