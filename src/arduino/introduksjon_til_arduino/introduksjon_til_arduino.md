@@ -43,8 +43,6 @@ Så kan vi koble arduinoen til datamaskinen.
 + Installert programmet.
 + Åpnet programmet og koblet arduinoen til datamasinen.
 
-### TEST! {.protip}
-
 # Steg 2: Studer arduino-brettet {.activity}
 
 *La oss bli kjent med arduino-brettet.*
@@ -58,5 +56,75 @@ til å bruke fremover. Finn det frem og studer det!
 + Finn frem arduino-brettet
 + Bli kjent med brettet
 
+## Steg 3: Lag en krets {.activity}
+
+*Nå skal vi lage vår første krets på en arduino*
+Finn frem noen ledninger, en LED og en motstand.
+Først vil vi koble arduinoen til dataen.
+Etter det kobler vi opp LEDen som på bildet
+under:
+
+![](led.png)
+
+Legg merke til at ingenting vil skje!
+
+## Sjekkliste {.check}
+
++ Funnet en LED, ledninger og en 270 Ohm motstant.
++ Koblet alt opp som på bildet.
+
+### Slik har vi koblet {.protip}
+
+Nå har vi koblet vår første __krets__. Hvis
+du ser på hvordan vi har koblet, vil du se at
+vi har laget en luket krets. Det vil si at vi
+lar strømmen gå fra pluss (+) til minus (gnd).
+Den porten (13) vi koblet den røde ledningen til
+er en digital port. Denne porten kan du
+programmere på datamaskinen din, slik at den
+for eksempel blinker. Akkurat som en __bryter__
+Den fargerike klumpen er en motstand.
+Denne gjør slik at vi ikke ødelegger lampen
+vi har koblet med for mye strøm. Motstanden
+er så koblet i minus (gnd).
+
+## Steg 4: Skriv litt kode {.activity}
+
+*Nå er det på tide at vi koder litt!*
+Det første programmet vi lager vil gjøre
+slik at den kretsen vi laget blinker lampen.
+
+## Sjekkliste {.check}
+
++ Sørg for at arduino-programmet er åpent
++ Sjekk om koden som er der ser ut som dette:
+```processing
+void setup(){
+
+}
+
+void loop(){
+
+}
+```
++ Skriv denne koden:
+```processing
+// Dette er porten vi har koblet LEDen til
+int led = 13;
+
+void setup(){
+	// Her sier vi at LEDen skal være noe som skal gi ut noe (lys)
+	pinMode(led, OUTPUT);
+}
+
+void loop(){
+	// Her skrur vi LEDen på
+	digitalWrite(led, HIGH);
+	// Her lar vi den være på i 1 sekund 
+	delay(1000);
+	// Her skrur vi den av igjen
+	digitalWrite(led, LOW);
+}
+```
 
 ### Prøv selv {.try}
