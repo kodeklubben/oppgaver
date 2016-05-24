@@ -203,7 +203,7 @@ __Klikk på det grønne flagget.__
         når grønt flagg klikkes
         gå til x: (0) y: (0)
         gjenta (36) ganger
-            vend @ (10) grader
+            vend venstre (10) grader
             stemple avtrykk
         slutt
     ```
