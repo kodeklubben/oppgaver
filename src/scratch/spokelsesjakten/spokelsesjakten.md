@@ -52,7 +52,7 @@ i gang.
 
     ```blocks
         når grønt flagg klikkes
-        sett [hastighet v] til (5)
+        sett [hastighet v] til [5]
         for alltid
             gå (hastighet) steg
         slutt
@@ -74,7 +74,7 @@ __Klikk på det grønne flagget.__
 
     ```blocks
         når grønt flagg klikkes
-        sett [hastighet v] til (5)
+        sett [hastighet v] til [5]
         for alltid
             gå (hastighet) steg
             sprett tilbake ved kanten
@@ -206,9 +206,9 @@ __Klikk på det grønne flagget.__
 
     ```blocks
         Når grønt flagg klikkes
-        sett [Tid v] til (30)
-        sett [Poeng v] til (0)
-        gjenta til ((tid) = (0))
+        sett [Tid v] til [30]
+        sett [Poeng v] til [0]
+        gjenta til <(tid) = [0]>
             vent (1) sekunder
             endre [Tid v] med (-1)
         slutt

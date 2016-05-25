@@ -39,7 +39,7 @@ utfordrende etterhvert som man spiller.
 	send melding [start v]
 
 	når jeg mottar [start v]
-	sett [Poeng v] til (0)
+	sett [Poeng v] til [0]
 	bytt bakgrunn til [Spill v]
 	for alltid
 		sett [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
@@ -57,7 +57,7 @@ utfordrende etterhvert som man spiller.
 	skjul
 	sett størrelse til (75) %
 	begrens rotasjon [vend sideveis v]
-	sett [hastighet v] til (5)
+	sett [hastighet v] til [5]
 
 	når jeg mottar [start v]
 	gå til x: (0) y: (-75)
@@ -74,7 +74,7 @@ utfordrende etterhvert som man spiller.
 			gå (hastighet) steg
 		slutt
 		hvis <tast [mellomrom v] trykket?>
-			vent til (ikke (tast [mellomrom v] trykket?))
+			vent til <ikke <tast [mellomrom v] trykket?>>
 			send melding [kast v]
 		slutt
 	slutt
@@ -100,7 +100,7 @@ utfordrende etterhvert som man spiller.
 	endre y med (15)
 	gå (30) steg
 	vis
-	gjenta til ((berører [Skumling v]?) eller (berører [kant v]?))
+	gjenta til <<berører [Skumling v]?> eller <berører [kant v]?>>
 		gå (hastighet) steg
 	slutt
 	hvis <berører [Skumling v]?>
@@ -154,7 +154,7 @@ utfordrende etterhvert som man spiller.
 		slutt
 		hvis <berører [Snøball v]?>
 			endre [Liv v] med (-1)
-			hvis <(Liv) = (0)>
+			hvis <(Liv) = [0]>
 				endre [Poeng v] med (Slem)
 				slett denne klonen
 			slutt

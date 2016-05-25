@@ -79,13 +79,13 @@ hinder. Vi bruker __rød__ for berøringssensorene.
         for alltid
 	        gå til [Felix v]
             hvis <farge [rød v] berører [grønn v] ?>
-		        sett [blokkert høyre v] til (1)
+		        sett [blokkert høyre v] til [1]
             ellers
-		        sett [blokkert høyre v] til (0)
+		        sett [blokkert høyre v] til [0]
             slutt
         slutt
     ```
-    
+
 + Endre variablene for hver av sensorene. Den nederste sensoren
   trenger en __eller__ kloss slik at den setter __blokkert bunn__ hvis
   den berører grønn eller svart.
@@ -301,7 +301,7 @@ redningskapsel og redde seg selv ut av hulen.
         når grønt flagg klikkes
         gå til x:(220) y:(-125)
         for alltid
-	        hvis <(nøkler igjen) = (0)>
+	        hvis <(nøkler igjen) = [0]>
 		        endre [farge v] effekt med (25)
                 hvis <berører [Felix v]?>
 			        send melding [seier v]
@@ -353,10 +353,10 @@ sti.__
 	        hvis <berører [Felix v]?>
 		        send melding [tap v]
             slutt
-            hvis < (x-posisjon) > (-200) >
+            hvis < (x-posisjon) > [-200] >
 		        pek i retning (90)
             slutt
-            hvis < (x-posisjon) > (-50) >
+            hvis < (x-posisjon) > [-50] >
 		        pek i retning (-90)
             slutt
             gå (2) steg
@@ -519,7 +519,7 @@ Felix sitt oppdaterte skript for å vise hva som må gjøres.
             gå (2) steg
         slutt
         hvis <<tast [mellomrom v] trykket?> og <(blokkert bunn)=(1)>
-		    sett [hopphøyde v] til (100)
+		    sett [hopphøyde v] til [100]
         slutt
     slutt
 ```
@@ -536,13 +536,13 @@ Og her er redningskapselen, som håndterer all nivå-endringen:
 
 ```blocks
     når grønt flagg klikkes
-    sett [nåværende nivå v] til (1)
+    sett [nåværende nivå v] til [1]
     send melding [start brett v]
 
     når jeg mottar [start brett v]
     gå til x: (element [nåværende nivå v] av [xs v]) y: (element [nåværende nivå v] av [ys v])
     for alltid
-	    hvis <[nøkler å ta v] = (0)>
+	    hvis <[nøkler å ta v] = [0]>
 	        endre [farge v] effekt med (25)
             hvis <berører [Felix v]?>
 			    hvis <[nåværende nivå v] = <lengden av [nøkler per brett v]>

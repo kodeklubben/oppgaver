@@ -126,7 +126,7 @@ og vi ønsker å vite når kappløpet er over.
     ```blocks
         når grønt flagg klikkes
         vis
-        sett [kappløp v] til (0)
+        sett [kappløp v] til [0]
     ```
 
 + Når nedtellingen er ferdig og løpet begynner, forandrer vi
@@ -170,7 +170,7 @@ __Klikk på det grønne flagget.__
         hvis <(kappløp) = [1]>
             gå (4) steg
             hvis <berører [kant v]?>
-                sett [kappløp v] til (0)
+                sett [kappløp v] til [0]
             slutt
         slutt
     ```
@@ -192,7 +192,7 @@ __Klikk på det grønne flagget.__
         hvis <(kappløp) = [1]>
             gå (4) steg
             hvis <berører [kant v]?>
-                sett [kappløp v] til (0)
+                sett [kappløp v] til [0]
                 spill lyden [Polly v]
                 si [Polly vinner!] i (3) sekunder
             slutt
@@ -225,7 +225,7 @@ __Klikk på det grønne flagget.__
         hvis <(kappløp) = [1]>
             gå (4) steg
             hvis <berører [kant v]?>
-                sett [kappløp v] til (0)
+                sett [kappløp v] til [0]
                 spill lyden [Polly v]
                 si [Polly vinner! v] i (3) sekunder
                 send melding [Avslutt v]
@@ -293,13 +293,13 @@ legge til noen lyder og variabler på egen hånd.
 
 ```blocks
     når [q v] trykkes
-    hvis <((kappløp) = (1)) og ((rakett_brukt) = (0))>
+    hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
         bytt drakt til [parrot-rakett v]
-        sett [rakett_brukt v] til (1)
+        sett [rakett_brukt v] til [1]
         gå (30) steg
         spill lyden [motorcycle passing v]
         hvis <berører [kant v]?>
-            sett [kappløp v] til (0)
+            sett [kappløp v] til [0]
             spill lyden [Polly v]
             si [Polly vinner! v] i (3) sekunder
             send melding [Avslutt v]
@@ -350,7 +350,7 @@ som at vi lager vår egen Scratch-kodekloss!
     ```blocks
         definer ferdig
         hvis <berører [kant v]?>
-            sett [kappløp v] til (0)
+            sett [kappløp v] til [0]
             spill lyden [Polly v]
             si [Polly vinner! v] i (3) sekunder
             send melding [Avslutt v]
@@ -361,9 +361,9 @@ som at vi lager vår egen Scratch-kodekloss!
             ferdig
 
         når [q v] trykkes
-        hvis <((kappløp) = (1)) og ((rakett_brukt) = (0))>
+        hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
             bytt drakt til [parrot-rakett v]
-            sett [rakett_brukt v] til (1)
+            sett [rakett_brukt v] til [1]
             gå (30) steg
             spill lyden [motorcycle passing v]
             ferdig

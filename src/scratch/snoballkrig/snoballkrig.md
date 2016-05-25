@@ -143,7 +143,7 @@ __Klikk på det grønne flagget.__
         gå til [Helten v]
         pek i retning ([retning v] av [Helten v])
         vis
-        gjenta til (berører [kant v])
+        gjenta til <berører [kant v]>
             gå (hastighet) steg
         slutt
         slett denne klonen
@@ -170,7 +170,7 @@ __Klikk på det grønne flagget.__
   mellomrom-tasten er sluppet før vi kaster snøballen. Legg til
 
     ```blocks
-        vent til (ikke (tast [mellomrom v] trykket?))
+        vent til <ikke <tast [mellomrom v] trykket?>>
     ```
 
     på __Helten__-figuren før `kast`-meldingen sendes.

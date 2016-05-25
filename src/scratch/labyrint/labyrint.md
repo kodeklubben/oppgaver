@@ -101,7 +101,7 @@ Nå må vi endre i skriptene våre slik at bruker
 
     ```blocks
         når grønt flagg klikkes
-        sett [hastighet v] til (10)
+        sett [hastighet v] til [10]
     ```
 
 + Deretter endrer vi de fire skriptene vi allerede har laget slik at
@@ -190,12 +190,12 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 For å oppdage når `Utforsker`-figuren vår går gjennom veggen på
-labyrinten vil vi bruke en `(berører fargen [#ffffff])`{.b}-kloss.
+labyrinten vil vi bruke en `<berører fargen [#ffffff]>`{.b}-kloss.
 Denne klossen merker om en figur kommer borti en spesiell farge.  Her
 er det viktig at vi har tegnet alle veggene i labyrinten i samme
 farge.
 
-+ Vi legger `(berører fargen [#ffffff])`{.b}-klossen inn i skriptet vi
++ Vi legger `<berører fargen [#ffffff]>`{.b}-klossen inn i skriptet vi
   allerede har laget som setter `(hastighet)`{.b}-variabelen.
 
     ```blocks
@@ -415,7 +415,7 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
         når grønt flagg klikkes
         gå til x: (50) y: (100)
         pek i retning (-90 v)
-        sett [hastighet v] til (5)
+        sett [hastighet v] til [5]
         for alltid
             gå (hastighet) steg
             hvis <berører fargen [#cc0000]?>
@@ -434,14 +434,14 @@ av og til endre retning.
         når grønt flagg klikkes
         gå til x: (50) y: (100)
         pek i retning (-90 v)
-        sett [hastighet v] til (5)
+        sett [hastighet v] til [5]
         for alltid
             gå (hastighet) steg
             hvis <berører fargen [#cc0000]?>
                 vend høyre (180) grader
                 gå (hastighet) steg
             slutt
-            hvis <(tilfeldig tall fra (1) til (25)) = (1)>
+            hvis <(tilfeldig tall fra (1) til (25)) = [1]>
                 vend høyre ((tilfeldig tall fra (-1) til (1)) * (90)) grader
             slutt
         slutt
@@ -449,7 +449,7 @@ av og til endre retning.
 
 Disse to siste klossene ser litt kompliserte ut. La oss se litt nøyere på dem.
 
-+ Klossen `hvis <(tilfeldig tall fra (1) til (25)) = (1)>`{.b} sier at
++ Klossen `hvis <(tilfeldig tall fra (1) til (25)) = [1]>`{.b} sier at
   vi skal gjøre *noe* cirka èn av 25 ganger.
 
 + Dette *noe* er `vend høyre ((tilfeldig tall fra (-1) til (1)) *

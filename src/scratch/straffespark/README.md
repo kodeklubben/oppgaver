@@ -155,7 +155,7 @@ sjelden problemer.
 
   ```blocks
       for alltid
-          vent til (berører [Sprite1 v])
+          vent til <berører [Sprite1 v]>
           gli (0.2) sekunder til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180))
       slutt
   ```

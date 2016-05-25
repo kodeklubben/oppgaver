@@ -94,7 +94,7 @@ id`{.blockdata} er mindre enn `teller`{.blockdata} -
         når jeg mottar [Nytt spill v]
         sett [teller v] til [0]
         sett [lengde v] til [5]
-        gjenta til (berører [kant v])
+        gjenta til <berører [kant v]>
             sett [min id v] til (teller)
             endre [teller v] med (1)
             vent (0.1) sekunder
@@ -111,7 +111,7 @@ id`{.blockdata} er mindre enn `teller`{.blockdata} -
 
     ```blocks
         når jeg starter som klon
-        vent til (((teller) - (lengde)) > (min id))
+        vent til <((teller) - (lengde)) > (min id)>
         slett denne klonen
     ```
 

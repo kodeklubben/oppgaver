@@ -206,7 +206,7 @@ steg`{.blockmotion}-klossene med `gå
 
         når jeg mottar [Sted: Hønefoss v]
         gå til x: (6) y: (-112)
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         si [Fant Hønefoss!] i (2) sekunder
     ```
 
@@ -243,13 +243,13 @@ __Klikk på det grønne flagget.__
     ```blocks
         når jeg mottar [Sted: Hønefoss v]
         gå til x: (6) y: (-112)
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         si [Fant Hønefoss!] i (2) sekunder
         send melding [Sted: Tromsø v]
 
         når jeg mottar [Sted: Tromsø v]
         gå til x: (103) y: (121)
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         si [Fant Tromsø!] i (2) sekunder
     ```
 
@@ -291,7 +291,7 @@ Vi vil først fortelle spilleren hvor han skal fly.
         når jeg mottar [Sted: Hønefoss v]
         gå til x: (6) y: (-112)
         sett [Reis til v] til [Hønefoss]
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         si [Fant Hønefoss!] i (2) sekunder
         send melding [Sted: Tromsø v]
     ```
@@ -302,7 +302,7 @@ Vi vil først fortelle spilleren hvor han skal fly.
         når jeg mottar [Sted: Tromsø v]
         gå til x: (103) y: (121)
         sett [Reis til v] til [Tromsø]
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         si [Fant Tromsø!] i (2) sekunder
     ```
 
@@ -382,14 +382,14 @@ __Klikk på det grønne flagget.__
         når jeg mottar [Sted: Hønefoss v]
         gå til x: (6) y: (-112)
         sett [Reis til v] til [Hønefoss]
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         send melding [Fant sted v] og vent
         send melding [Sted: Tromsø v]
 
         når jeg mottar [Sted: Tromsø v]
         gå til x: (103) y: (121)
         sett [Reis til v] til [Tromsø]
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         send melding [Fant sted v] og vent
     ```
 
@@ -554,35 +554,35 @@ kodeklossene vi allerede har lagd, og deretter endre på dem.
         når jeg mottar [Sted: Hønefoss v]
         gå til x: (6) y: (-112)
         sett [Reis til v] til [Hønefoss]
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         send melding [Fant sted v] og vent
         send melding [Sted: Tromsø v]
 
         når jeg mottar [Sted: Tromsø v]
         gå til x: (103) y: (121)
         sett [Reis til v] til [Tromsø]
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         send melding [Fant sted v] og vent
         send melding [Sted: Lillehammer v]
 
         når jeg mottar [Sted: Lillehammer v]
         gå til x: (14) y: (-94)
         sett [Reis til v] til [Lillehammer]
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         send melding [Fant sted v] og vent
         send melding [Sted: Bergen v]
 
         når jeg mottar [Sted: Bergen v]
         gå til x: (-52) y: (-107)
         sett [Reis til v] til [Bergen]
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         send melding [Fant sted v] og vent
         send melding [Sted: Narvik v]
 
         når jeg mottar [Sted: Narvik v]
         gå til x: (91) y: (90)
         sett [Reis til v] til [Narvik]
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         send melding [Fant sted v] og vent
         send melding [Avslutt v]
     ```
@@ -644,7 +644,7 @@ spørre.
 
     ```blocks
         definer sjekk sted
-        hvis <((tilfeldig tall fra (1) til (Antall steder totalt)) > (1)) eller (berører fargen [#ff0000]?)>
+        hvis <<(tilfeldig tall fra (1) til (Antall steder totalt)) > [1]> eller <berører fargen [#ff0000]?>>
             sett [bruk sted v] til [nei]
         ellers
             sett [bruk sted v] til [ja]
@@ -655,7 +655,7 @@ spørre.
         sjekk sted
         hvis <(bruk sted) = [ja]>
             sett [Reis til v] til [Hønefoss]
-            vent til (berører [Helikopter v]?)
+            vent til <berører [Helikopter v]?>
             send melding [Fant sted v] og vent
         slutt
         send melding [Sted: Tromsø v]

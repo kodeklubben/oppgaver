@@ -56,12 +56,12 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 
     ```blocks
         når [mellomrom v] trykkes
-        sett [snakketid v] til (2)
+        sett [snakketid v] til [2]
         send melding [snakk v]
         si [Hallo!] i (snakketid) sekunder
 
         når [a v] trykkes
-        sett [snakketid v] til (4)
+        sett [snakketid v] til [4]
         send melding [snakk v]
         si [Noe litt lengre] i (snakketid) sekunder
 

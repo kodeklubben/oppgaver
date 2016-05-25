@@ -82,7 +82,7 @@ en boks, og deretter lage mange kopier av denne.
     ```blocks
         når jeg starter som klon
         vis
-        vent til (tast [mellomrom v] trykket?)
+        vent til <tast [mellomrom v] trykket?>
         endre [Antall bokser v] med (-1)
         slett denne klonen
     ```

@@ -258,7 +258,7 @@ virker ikke blyanten.
         når grønt flagg klikkes
         slett
         for alltid
-            hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
+            hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
                 gå til [musepeker v]
                 hvis <museknappen er nede?>
                     penn på
@@ -280,7 +280,7 @@ virker ikke blyanten.
         når grønt flagg klikkes
         slett
         for alltid
-            hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
+            hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
                 gå til [musepeker v]
                 vis
                 hvis <museknappen er nede?>
@@ -419,7 +419,7 @@ __Klikk på det grønne flagget.__
         når grønt flagg klikkes
         slett
         for alltid
-            hvis <<<(mus x) > (-230)> og <(mus x) < (230)>> og <<(mus y) > (-120)> og <(mus y) < (170)>>>
+            hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
                 gå til [musepeker v]
                 vis
                 hvis <museknappen er nede?>

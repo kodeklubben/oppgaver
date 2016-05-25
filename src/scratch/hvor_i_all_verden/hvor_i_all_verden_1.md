@@ -61,7 +61,7 @@ som holder oversikt over alle stedene vi kan besøke.
         skjul
         begrens rotasjon [vend sideveis v]
         sett størrelse til (30) %
-        sett [hastighet v] til (5)
+        sett [hastighet v] til [5]
     ```
 
     Eksperimenter gjerne med andre verdier for disse klossene, slik at
@@ -171,7 +171,7 @@ __Klikk på det grønne flagget.__
 
         når jeg mottar [Nytt sted v]
         gå til x: (-98) y: (-120)
-        vent til (berører [Helikopter v]?)
+        vent til <berører [Helikopter v]?>
         si [Fant Barcelona!] i (2) sekunder
     ```
 

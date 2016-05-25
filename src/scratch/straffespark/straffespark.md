@@ -101,7 +101,7 @@ innimellom.
   ```blocks
       når grønt flagg klikkes
       gå til x: (-125) y: (-60)
-      vent til (berører [Leo v]?)
+      vent til <berører [Leo v]?>
       for alltid
           gå (6) steg
       slutt
@@ -202,7 +202,7 @@ eller når ballen går i mål.
   ```blocks
       når grønt flagg klikkes
       gå til x: (-125) y: (-60)
-      vent til (berører [Leo v]?)
+      vent til <berører [Leo v]?>
       for alltid
           gå (6) steg
           hvis <berører [Keeper v]?>
@@ -258,7 +258,7 @@ og `y`. Disse viser koordinatene til musepekeren.
   ```blocks
       når grønt flagg klikkes
       gå til x: (-125) y: (-60)
-      vent til (berører [Leo v]?)
+      vent til <berører [Leo v]?>
       for alltid
           gå (6) steg
           hvis <berører [Keeper v]?>

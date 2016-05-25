@@ -109,7 +109,7 @@ __Klikk det grønne flagget.__
         sett [flaks v] til [0]
         bytt drakt til [Vinger opp v]
         for alltid
-            gjenta til ((flaks) = [0])
+            gjenta til <(flaks) = [0]>
                 endre [flaks v] med (-1)
                 bytt drakt til [Vinger ned v]
                 gjenta (10) ganger
@@ -232,7 +232,7 @@ __Klikk det grønne flagget.__
 
     ```blocks
         når grønt flagg klikkes
-        vent til ((berører [kant v]?) eller (berører [Rør v]?))
+        vent til <<berører [kant v]?> eller <berører [Rør v]?>>
         spill lyden [screech v]
         si [Du tapte!]
         send melding [Tap v]
@@ -275,7 +275,7 @@ __Klikk det grønne flagget.__
 
     ```blocks
         når jeg starter som klon
-        vent til ((x-posisjon) < ([x-posisjon v] av [Flakse v]))
+        vent til <(x-posisjon) < ([x-posisjon v] av [Flakse v])>
         endre [poeng v] med (1)
         spill lyden [bird v]
     ```
@@ -322,7 +322,7 @@ varer. Vi skal prøve å etterligne denne måten å falle på.
         sett [flaks v] til [0]
         bytt drakt til [Vinger opp v]
         for alltid
-            gjenta til ((flaks) = [0])
+            gjenta til <(flaks) = [0]>
                 endre [flaks v] med (-1)
                 bytt drakt til [Vinger ned v]
                 endre [løft v] med (4)
@@ -357,7 +357,7 @@ Når spilleren taper vil vi at Flakse faller ned og ut av skjermen.
         slutt
 
         når jeg mottar [Fall v]
-        gjenta til ((y-posisjon) < [-180])
+        gjenta til <(y-posisjon) < [-180]>
             endre y med (løft)
             endre [løft v] med (-0.2)
         slutt

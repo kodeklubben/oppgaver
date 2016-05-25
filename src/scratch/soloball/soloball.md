@@ -472,11 +472,11 @@ sist snudde.
         for alltid
             gå (hastighet) steg
             endre [Flytt v] med (1)
-            hvis <(berører [Katt v] ?) og ((Flytt) > (20))>
+            hvis <<berører [Katt v] ?> og <(Flytt) > [20]>>
                 pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
                 endre [Poeng v] med (1)
                 endre [Hastighet v] med (0.1)
-                sett [Flytt v] til (0)
+                sett [Flytt v] til [0]
             slutt
             hvis <berører fargen [#ff0000] ?>
                 stopp [alle v] :: control
