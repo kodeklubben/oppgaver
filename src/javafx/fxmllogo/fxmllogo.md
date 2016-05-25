@@ -21,48 +21,48 @@ For å gjøre arbeidet med skjerminnhold enklere, så finnes det en egen kode-ty
 
 + Høyreklikk på **fxmllogo**-pakken og velg `New > Other...` så du får opp en liste med såkalte _veivisere_ (eng: _wizards_). Vi skal bruke den som heter **New FXML Document**. Det enkleste er å skrive inn 'fx' i søkefeltet, for å snevre inn utvalget:
 
-	![](new-fxml-document.png "New FXML document")
+  ![](new-fxml-document.png "New FXML document")
 
-	Trykk `Next` for å velge veiviseren. Du vil da få opp følgende skjema:
+  Trykk `Next` for å velge veiviseren. Du vil da få opp følgende skjema:
 
-	![](new-fxml-file-wizard.png "New FXML file")
+  ![](new-fxml-file-wizard.png "New FXML file")
 
-	Fyll inn `FxmlLogoApp` og trykk `Finish`. Du vil da få opp en FXML-editor med den nye FXML-fila:
+  Fyll inn `FxmlLogoApp` og trykk `Finish`. Du vil da få opp en FXML-editor med den nye FXML-fila:
 
-	![](initial-FxmlLogoApp.fxml.png "Initial FxmlLogoApp.fxml")
+  ![](initial-FxmlLogoApp.fxml.png "Initial FxmlLogoApp.fxml")
 
 + Denne FXML-en gir bare et tomt panel (av typen **AnchorPane**), så for å få noe å jobbe med, så trenger vi  Rediger teksten slik at den blir som følger:
 
-	```xml
+  ```xml
 <AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefWidth="500" prefHeight="400">
-	<Rectangle layoutX="100" layoutY="20" width="80" height="80" fill="black"
-		arcWidth="25" arcHeight="25"
-	/>
-	<Text layoutX="140" layoutY="60" text="k" fill="white">
-		<font>
-			<Font name="Courier" size="72"/>
-		</font>
-	</Text>
-	<Circle layoutX="150" layoutY="150" radius="40" fill="blue"/>
-	<Text layoutX="10" layoutY="120" text="NTNU">
-		<font>
-			<Font name="Arial" size="36"/>
-		</font>
-	</Text>
+  <Rectangle layoutX="100" layoutY="20" width="80" height="80" fill="black"
+    arcWidth="25" arcHeight="25"
+  />
+  <Text layoutX="140" layoutY="60" text="k" fill="white">
+    <font>
+      <Font name="Courier" size="72"/>
+    </font>
+  </Text>
+  <Circle layoutX="150" layoutY="150" radius="40" fill="blue"/>
+  <Text layoutX="10" layoutY="120" text="NTNU">
+    <font>
+      <Font name="Arial" size="36"/>
+    </font>
+  </Text>
 </AnchorPane>
 ```
 
-	FXML-editoren har samme type kode-komplettering som Java-editoren. Når du f.eks. har skrevet inn `<Rect`, kan du trykk ctrl-mellomrom og editoren vil både fylle ut resten av **Rectangle**-navnet og legge til en import-setning øverst i fila (tilsvarende import-setningen i Java):
+  FXML-editoren har samme type kode-komplettering som Java-editoren. Når du f.eks. har skrevet inn `<Rect`, kan du trykk ctrl-mellomrom og editoren vil både fylle ut resten av **Rectangle**-navnet og legge til en import-setning øverst i fila (tilsvarende import-setningen i Java):
 
-	`<?import javafx.scene.shape.Rectangle?>`
+  `<?import javafx.scene.shape.Rectangle?>`
 
-	(Hvis du ikke bruker kode-kompletteringsfunksjonen, så må du skrive inn import-setningen selv.) Tilsvarende kan du bruke kode-komplettering på attributt-navnene **layoutX**, **layoutY**, **width**, **height**, **fill** osv.
+  (Hvis du ikke bruker kode-kompletteringsfunksjonen, så må du skrive inn import-setningen selv.) Tilsvarende kan du bruke kode-komplettering på attributt-navnene **layoutX**, **layoutY**, **width**, **height**, **fill** osv.
 
 + Mens du redigerer FXML-koden, så kan det være kjekt å se hvordan innholdet vil bli seende ut, når det lastes inn og vises frem. Eclipse har et eget panel kalt **JavaFX preview** som hele tiden laster inn FXML-koden du redigerer og viser frem innholdet. Dette åpnes ved å velge `Window > Show View...` og så finne panelet i lista. Bruk søkefeltet for å filtrere lista (skriv 'pre', så panelet blir enklere å finne.
 
-	![](fxml-editor-with-preview-pane.png "FXML-editor med preview-panel")
+  ![](fxml-editor-with-preview-pane.png "FXML-editor med preview-panel")
 
-	Som du ser så inneholder FXML-fila allerede mange av de grafiske elementene som trengs for å lage begge logoene, men ikke alle. Din jobb blir å justere på FXML-koden, så logoene blir omtrent som vist øverst i denne leksjonen.
+  Som du ser så inneholder FXML-fila allerede mange av de grafiske elementene som trengs for å lage begge logoene, men ikke alle. Din jobb blir å justere på FXML-koden, så logoene blir omtrent som vist øverst i denne leksjonen.
 
 ## Litt om FXML
 
@@ -91,7 +91,7 @@ pane.getChildren().add(circle);
 
 ```xml
 <Pane>
-	<Circle layoutX="150" layoutY="150" radius="40" fill="blue"/>
+  <Circle layoutX="150" layoutY="150" radius="40" fill="blue"/>
 </Pane>
 ```
 
@@ -101,40 +101,40 @@ Det går greit å bruke FXML-editoren for enkel redigering (eller mer komplisert
 
 + Høyreklikk på FXML-fila og velg `Open with SceneBuilder`
 
-	![](open-with-scenebuilder.png "Åpne med SceneBuilder")
+  ![](open-with-scenebuilder.png "Åpne med SceneBuilder")
 
-	Hvis du har installer SceneBuilder riktig, så skal du etter litt venting få opp følgende
+  Hvis du har installer SceneBuilder riktig, så skal du etter litt venting få opp følgende
 
-	![](scene-builder-FxmlLogoApp-1.png "FxmlLogoApp.fxml åpnet med SceneBuilder")
+  ![](scene-builder-FxmlLogoApp-1.png "FxmlLogoApp.fxml åpnet med SceneBuilder")
 
-	Som du ser så inneholder panelet i midten de samme grafiske elementene som JavaFX Preview-panelet. Her kan du imidlertid _redigere_ på dem, ved å velge, dra og slippe, som i vanlige tegneprogrammer.
-	
-	Nederst til venstre ser du trestrukturen av objekter, med et panel (**AnchorPane**) som inneholder et rektangel (**Rectangle**), en sirkel (**Circle**) og to tekst-objekter (**Text**). 
-	
-	Øverst til venstre ser du en kategorisert liste med elementer som kan dras og slippes inn i redigeringspanelet i midten. I figuren vises bare såkalte **Containers**, som inneholder andre elementer, men (hvis du scroller) lenger ned finner du bl.a. **Controls** (interaktive elementer) og **Shapes** (grafiske elementer). Prøv å finne **Line**-typen og dra og slipp den litt til høyre for det svarte rektangelet. Hvis du vil endre på hvordan streken ser ut, så kan du redigere ulike _egenskaper_ i panelet til høyre. Prøv f.eks. å gjøre streken tykkere (**Stroke Width** = 10), endre fargen til grønn (**Stroke** = #569900) og enden til avrundet (**Stroke Line Cap** = **ROUND**). Da skal det se omtrent slik ut:
+  Som du ser så inneholder panelet i midten de samme grafiske elementene som JavaFX Preview-panelet. Her kan du imidlertid _redigere_ på dem, ved å velge, dra og slippe, som i vanlige tegneprogrammer.
 
-	![](scene-builder-FxmlLogoApp-2.png "FxmlLogoApp.fxml åpnet med SceneBuilder")
-	
-	Dette er omtrent de grafiske elementen du trenger for å lage Kodeklubben- og NTNU-logoene. Prøv å bruke redigeringsmulighetene til å få tegningen til å bli seende omtrent slik ut:
+  Nederst til venstre ser du trestrukturen av objekter, med et panel (**AnchorPane**) som inneholder et rektangel (**Rectangle**), en sirkel (**Circle**) og to tekst-objekter (**Text**).
 
-	![](scene-builder-FxmlLogoApp-3.png "Logoer redigert med SceneBuilder")
+  Øverst til venstre ser du en kategorisert liste med elementer som kan dras og slippes inn i redigeringspanelet i midten. I figuren vises bare såkalte **Containers**, som inneholder andre elementer, men (hvis du scroller) lenger ned finner du bl.a. **Controls** (interaktive elementer) og **Shapes** (grafiske elementer). Prøv å finne **Line**-typen og dra og slipp den litt til høyre for det svarte rektangelet. Hvis du vil endre på hvordan streken ser ut, så kan du redigere ulike _egenskaper_ i panelet til høyre. Prøv f.eks. å gjøre streken tykkere (**Stroke Width** = 10), endre fargen til grønn (**Stroke** = #569900) og enden til avrundet (**Stroke Line Cap** = **ROUND**). Da skal det se omtrent slik ut:
 
-	Her er noen tips om nyttige redigeringsfunksjoner som du kan bruke for å få laget og redigert grafikken:
+  ![](scene-builder-FxmlLogoApp-2.png "FxmlLogoApp.fxml åpnet med SceneBuilder")
 
-	* Du kan raskt lage en kopi (duplisere) et element med `Edit > Duplicate`
-	* Du kan runde av hjørnene på et rektangel ved å endre **Arc Height** og **Arc Width**
-	* Når du klikker på **Stroke**- og **Fill**-egenskapene, så kommer det opp et nytt vindu med mulighet til å velge farge på flere måter (se under til venstre)
-	* Tilsvarende kan du stille inn navn og størrelsen på font-en til tekst-objekter ved å klikke på **Font**-egenskapen (se under til høyre)
-	
-	| Valg av farge | Valg av font |
-	|:-------------:|:------------:|
-	|![](color-picker.png)|![](font-picker.png)|
-	
-	Spesielt fin-innstillingen av plassering og dimensjoner kan være vanskelig. Nede til høyre i SceneBuilder-vinduet finner du egenskaper med kategorien **Layout**, bl.a. koordinater og størrelse. Akkurat hvilke egenskaper du kan endre avhenger av hvilket grafisk element som er valgt. I figuren under ser du hva som kan endre på et rektangel.
-	
-	| Layout-egenskaper |  |
-	|:-------------:|------------|
-	|![](layout-properties.png)| Det er egentlig disse egenskapene du endrer, når du velger, drar og slipper de grafiske elementene og de små hjørne-boksene. Ved å redigere tallene, så kan du styre dem helt presist.|
+  Dette er omtrent de grafiske elementen du trenger for å lage Kodeklubben- og NTNU-logoene. Prøv å bruke redigeringsmulighetene til å få tegningen til å bli seende omtrent slik ut:
+
+  ![](scene-builder-FxmlLogoApp-3.png "Logoer redigert med SceneBuilder")
+
+  Her er noen tips om nyttige redigeringsfunksjoner som du kan bruke for å få laget og redigert grafikken:
+
+  * Du kan raskt lage en kopi (duplisere) et element med `Edit > Duplicate`
+  * Du kan runde av hjørnene på et rektangel ved å endre **Arc Height** og **Arc Width**
+  * Når du klikker på **Stroke**- og **Fill**-egenskapene, så kommer det opp et nytt vindu med mulighet til å velge farge på flere måter (se under til venstre)
+  * Tilsvarende kan du stille inn navn og størrelsen på font-en til tekst-objekter ved å klikke på **Font**-egenskapen (se under til høyre)
+
+  | Valg av farge | Valg av font |
+  |:-------------:|:------------:|
+  |![](color-picker.png)|![](font-picker.png)|
+
+  Spesielt fin-innstillingen av plassering og dimensjoner kan være vanskelig. Nede til høyre i SceneBuilder-vinduet finner du egenskaper med kategorien **Layout**, bl.a. koordinater og størrelse. Akkurat hvilke egenskaper du kan endre avhenger av hvilket grafisk element som er valgt. I figuren under ser du hva som kan endre på et rektangel.
+
+  | Layout-egenskaper |  |
+  |:-------------:|------------|
+  |![](layout-properties.png)| Det er egentlig disse egenskapene du endrer, når du velger, drar og slipper de grafiske elementene og de små hjørne-boksene. Ved å redigere tallene, så kan du styre dem helt presist.|
 
 # Steg 3: Få appen til å vise frem innholdet i FXML-fila  {.activity}
 
@@ -144,36 +144,36 @@ Det siste trinnet i denne leksjonen er å få app-en til å vise frem det grafis
 + Klikk i FXML-editoren. Den skal da vise frem det nye innholdet, som er resultatet av all redigeringen du gjorde i SceneBuilder.
 + Det er greit å gjøre endringer rett i FXML-koden i editor. Når du går tilbake til SceneBuilder, så sjekk om du ser de samme endringene der. Hvis ikke så må du kanskje lukke den og åpne den igjen med `Open with SceneBuilder`.
 + Velg editoren med **FxmlLogoApp**-klassen i (eller åpne den ved å dobbel-klikke på **FxmlLogoApp.java**) og rediger slik at du får følgende kode:
-	```java
-	package fxmllogoapp;
+  ```java
+  package fxmllogoapp;
 
-	import java.io.IOException;
+  import java.io.IOException;
 
-	import javafx.application.Application;
-	import javafx.fxml.FXMLLoader;
-	import javafx.scene.Scene;
-	import javafx.scene.layout.Pane;
-	import javafx.stage.Stage;
+  import javafx.application.Application;
+  import javafx.fxml.FXMLLoader;
+  import javafx.scene.Scene;
+  import javafx.scene.layout.Pane;
+  import javafx.stage.Stage;
 
-	public class FxmlLogoApp extends Application {
+  public class FxmlLogoApp extends Application {
 
-		public void start(Stage primaryStage) throws IOException {
-			FXMLLoader fxmlLoader = new FXMLLoader(FxmlLogoApp.class.getResource("FxmlLogoApp.fxml"));
-			Pane root = fxmlLoader.load();
-        	primaryStage.setScene(new Scene(root));
-        	primaryStage.show();
-		}
+    public void start(Stage primaryStage) throws IOException {
+      FXMLLoader fxmlLoader = new FXMLLoader(FxmlLogoApp.class.getResource("FxmlLogoApp.fxml"));
+      Pane root = fxmlLoader.load();
+          primaryStage.setScene(new Scene(root));
+          primaryStage.show();
+    }
 
-		public static void main(String[] args) {
-			launch(FxmlLogoApp.class, args);
-		}
-	}
+    public static void main(String[] args) {
+      launch(FxmlLogoApp.class, args);
+    }
+  }
 ```
 
-	Trikset her er å lage et **FXMLLoader**-objekt (første linje i start-metoden, og be denne laste inn FXML-fila med load-metoden (andre linje).
+  Trikset her er å lage et **FXMLLoader**-objekt (første linje i start-metoden, og be denne laste inn FXML-fila med load-metoden (andre linje).
 + Kjør app-en ved å høyre-klikke på fila eller i editoren og velge `Run as > Java Application`. Da skal det (etter litt venting) dukke opp et vindu som dette:
 
-	![](run-FxmlLogoApp-as-java-application.png)
+  ![](run-FxmlLogoApp-as-java-application.png)
 
 # Hva har du lært?
 

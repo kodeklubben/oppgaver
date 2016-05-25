@@ -68,9 +68,9 @@ møter dansende pingviner på bursdagen sin. Men som alltid er det greit
         slutt
     ```
 
-	Tallet 100 i `pek i retning`{.blockmotion}-klossen gjør at Felix går
-	litt nedover mens han går over skjermen. Prøv gjerne med noen
-	andre tall for å se effekten av dem.
+  Tallet 100 i `pek i retning`{.blockmotion}-klossen gjør at Felix går
+  litt nedover mens han går over skjermen. Prøv gjerne med noen
+  andre tall for å se effekten av dem.
 
 ## Test prosjektet {.flag}
 
@@ -115,7 +115,7 @@ så veldig bra.
             neste drakt
             vent (0.1) sekunder
         slutt
-		gå til x: (-20) y: (-100)
+    gå til x: (-20) y: (-100)
     ```
 
 ## Test prosjektet {.flag}
@@ -154,7 +154,7 @@ synlige for oss som ser på.
             neste drakt
             vent (0.1) sekunder
         slutt
-		send melding [Scene 2 v]
+    send melding [Scene 2 v]
     ```
 
 + Vi kan nå slette det gamle skriptet på scenen som byttet bakgrunn
@@ -170,8 +170,8 @@ synlige for oss som ser på.
   til følgende som et nytt skript på Felix:
 
     ```blocks
-	    når jeg mottar [Scene 2 v]
-		gå til x: (-20) y: (-100)
+      når jeg mottar [Scene 2 v]
+    gå til x: (-20) y: (-100)
     ```
 
 ## Test prosjektet {.flag}
@@ -196,11 +196,11 @@ mennesker.
 + Start et nytt skript på Felix:
 
     ```blocks
-	    når jeg mottar [Si hei v]
-		si [Å nei! Hvor er jeg?] i (2) sekunder
-		tenk [Jeg har gått meg bort ... også på bursdagen min] i (2) sekunder
-		spør [Hvor gammel blir jeg igjen?] og vent
-	```
+      når jeg mottar [Si hei v]
+    si [Å nei! Hvor er jeg?] i (2) sekunder
+    tenk [Jeg har gått meg bort ... også på bursdagen min] i (2) sekunder
+    spør [Hvor gammel blir jeg igjen?] og vent
+  ```
 
 + For å teste hvordan skriptet virker kan du bare klikke på for
   eksempel klossen `når jeg mottar Si hei`{.blockevents}. Snakker og
@@ -231,13 +231,13 @@ mennesker.
         når grønt flagg klikkes
         gå til x: (-100) y: (-50)
         pek i retning (100 v)
-		send melding [Si hei v]
+    send melding [Si hei v]
         gjenta til <(x-posisjon) > [240]>
             gå (10) steg
             neste drakt
             vent (0.1) sekunder
         slutt
-		send melding [Scene 2 v]
+    send melding [Scene 2 v]
     ```
 
 ## Test prosjektet {.flag}
@@ -261,13 +261,13 @@ __Klikk på det grønne flagget.__
         når grønt flagg klikkes
         gå til x: (-100) y: (-50)
         pek i retning (100 v)
-		send melding [Si hei v] og vent
+    send melding [Si hei v] og vent
         gjenta til <(x-posisjon) > [240]>
             gå (10) steg
             neste drakt
             vent (0.1) sekunder
         slutt
-		send melding [Scene 2 v]
+    send melding [Scene 2 v]
     ```
 
 ## Test prosjektet {.flag}
@@ -301,8 +301,8 @@ mindre mens han går.
   skript:
 
     ```blocks
-	    når jeg mottar [Scene 2 v]
-		gå til x: (-20) y: (-100)
+      når jeg mottar [Scene 2 v]
+    gå til x: (-20) y: (-100)
         si [Å! Der er det noen hus!] i (2) sekunder
         pek i retning (20 v)
         gjenta (6) ganger
@@ -337,7 +337,7 @@ mindre mens han går.
                 endre størrelse med (-2)
                 vent (0.1) sekunder
             slutt
-			pek i retning ((retning) * (-1))
+      pek i retning ((retning) * (-1))
         slutt
     ```
 
@@ -385,20 +385,20 @@ forskjellig fra -1 i retningen.
   til bakgrunnen `Holiday/gingerbread`. Gi scenen dette skriptet:
 
     ```blocks
-	    når jeg mottar [Scene 3 v]
-		bytt bakgrunn til [gingerbread v]
-	```
+      når jeg mottar [Scene 3 v]
+    bytt bakgrunn til [gingerbread v]
+  ```
 
 + I det vi skifter til den nye scenen vil vi også at Felix skal få
   tilbake sin vanlige størrelse. Klikk på Felix og start et nytt
   skript:
 
     ```blocks
-	    når jeg mottar [Scene 3 v]
-		sett størrelse til (100)%
-		gå til x: (-160) y: (-65)
-		vis
-	```
+      når jeg mottar [Scene 3 v]
+    sett størrelse til (100)%
+    gå til x: (-160) y: (-65)
+    vis
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -439,10 +439,10 @@ __Klikk på det grønne flagget.__
   skript ved å legge til to klosser på slutten:
 
     ```blocks
-	    når jeg mottar [Scene 3 v]
-		sett størrelse til (100)%
-		gå til x: (-160) y: (-65)
-		vis
+      når jeg mottar [Scene 3 v]
+    sett størrelse til (100)%
+    gå til x: (-160) y: (-65)
+    vis
         si [Oj, så flott hus! Er det noen hjemme?] i (2) sekunder
         send melding [Kom ut v]
     ```

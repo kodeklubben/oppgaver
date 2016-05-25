@@ -101,7 +101,7 @@ hva resten av koden gjør? Her er en forklaring:
 
 - `void draw() {` på linje 5 betyr at vi lager en funksjon som heter `draw`.
     `draw` er spesiell, den blir kjørt om og om igjen så lenge programmet ditt
-    kjører. 
+    kjører.
 
 - `background(0);` setter bakgrunnsfargen i vinduet. Tallet `0` betyr at
     bakgrunnen skal være svart. Hvit har verdien `255`.  Tallene mellom 0-255 gir
@@ -225,7 +225,7 @@ derfor det heter variabel: *verdien kan variere*.
     Her har vi brukt regnestykkene `width / 2` og `height / 2` for å
     tegne opp den første sirkelen. Skråstreken `/` betyr delt på,
     altså gir `width / 2` halvparten av bredden. Hva gir `height / 2`?
-    
+
     **Tips:** Vi kunne også brukt `width * 0.5` for å oppnå det samme, bredden
     ganget med en halv. Noen ganger er det enklere med deling og andre ganger
     ganging.
@@ -307,7 +307,7 @@ tilbake hvis den kastes i en vegg.
     sirkelen. I Processing, og i de fleste programmeringsspråk, bruker vi
     punktum istedenfor komma på desimaltall. Dette er fordi punktum er det som
     brukes i engelsk.
-    
+
     **Notis:** La du merke til at variablene ble gitt verdier med en gang,
     mens vi tidligere ga dem verdier inni `setup`? Grunnen til dette er at `width`
     og `height` kan ikke brukes før `size` er kjørt, så vi kunne ikke gi `x`
@@ -346,7 +346,7 @@ tilbake hvis den kastes i en vegg.
 
 ### Forklaring {.protip}
 
-I `draw` ser vi en del nytt som du ikke har sett før. 
+I `draw` ser vi en del nytt som du ikke har sett før.
 
 - `if (x < 50)`, *hvis x er under 50*, lar oss kjøre `xFart = -xFart;` kun
   dersom x er under 50. Hva betyr de andre `if`-setningene?

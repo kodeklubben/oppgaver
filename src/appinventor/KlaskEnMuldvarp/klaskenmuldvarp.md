@@ -11,11 +11,11 @@ I denne oppgaven skal vi lage et veldig enkelt spill med litt animasjon. Det som
 
 Vi skal nå lære litt om animasjon, hendelser og prosedyrer.
 
-![spillbrettet](spillbrettet.png) 
+![spillbrettet](spillbrettet.png)
 
 # Steg 1: Gjøre klart spillbrettet {.activity}
-Det første vi trenger er en _Canvas_-komponent som tegner selve spillbrettet. Dette vil være området hvor muldvarpen hopper rundt på skjermen. 
-En canvas er bare en komponent som inneholder grafikk, den synes ikke selv, men vi kan legge til streker, sirkler, tekst, firkanter og bilder på canvasen. 
+Det første vi trenger er en _Canvas_-komponent som tegner selve spillbrettet. Dette vil være området hvor muldvarpen hopper rundt på skjermen.
+En canvas er bare en komponent som inneholder grafikk, den synes ikke selv, men vi kan legge til streker, sirkler, tekst, firkanter og bilder på canvasen.
 
 ## Sjekkliste {.check}
 
@@ -28,35 +28,35 @@ En canvas er bare en komponent som inneholder grafikk, den synes ikke selv, men 
 + Gå til **Properties** og sett høyden og bredden for spillbrettet:
 
     Trykk på **Height** og skriv inn `300` ved siden av pixels og trykk **OK**.
-    
+
     Trykk på **Width** og skriv inn `340` ved siden av pixels og trykk **OK**.
-    
+
 * Gå til **BackgroundImage** og trykk på **None...**. Trykk **Upload File**. Trykk på **Velg Fil** og velg bildet `gress.png` du nettopp lastet ned. Trykk **OK**. Sjekk at gresset vises i firkanten øverst på skjermen.
 
 # Steg 2: Legge til poengtelleren og restartknappen {.activity}
-For å vite hvor mange poeng spilleren har, må vi legge til en tekst som oppdateres hver gang spilleren treffer muldvarpen. Restartknappen lar spilleren starte spillet på nytt. 
+For å vite hvor mange poeng spilleren har, må vi legge til en tekst som oppdateres hver gang spilleren treffer muldvarpen. Restartknappen lar spilleren starte spillet på nytt.
 
 ## Sjekkliste {.check}
 
 + Gå til **Palette** og **User Interface**. Der velger du ![label](label.png), og drar den over til skjermen i **Viewer**. Under **Components**, trykk på **Rename** og gi den navnet `PoengTekst`. Pass på at teksten vises under spillbrettet.
 
-+ Gå til **Properties** og forandre verdien under **Text** til `Poeng: 0`. 
++ Gå til **Properties** og forandre verdien under **Text** til `Poeng: 0`.
 
 + Trykk på **Width**, velg **Fill parent** og trykk **OK**.
 
 + Gå til **Palette** og **User Interface**. Der velger du ![button](knapp.png), og drar den over til skjermen i **Viewer**. Under **Components**, trykk på **Rename** og gi den navnet 'RestartKnapp'. Pass på at knappen vises under spillbrettet.
 
-+ Gå til **Properties** og forandre verdien under **Text** til `Start på nytt`. 
++ Gå til **Properties** og forandre verdien under **Text** til `Start på nytt`.
 
 # Steg 3: Få mobilen til å vibrere {.activity}
 For å få mobilen til å vibrere når spilleren får poeng, må vi legge til en lyd.
 
 ## Sjekkliste {.check}
 
-+ Gå til **Palette** og **Media**. Der velger du ![sound](lyd.png), og drar den over til skjermen i **Viewer**. Under **Components**, trykk på **Rename** og gi den navnet `Brrr`. 
++ Gå til **Palette** og **Media**. Der velger du ![sound](lyd.png), og drar den over til skjermen i **Viewer**. Under **Components**, trykk på **Rename** og gi den navnet `Brrr`.
 
 # Steg 4: Ta tiden {.activity}
-For at muldvarpen skal kunne hoppe rundt på brettet over tid, trenger vi å legge til en klokke. Klokken hjelper oss å jobbe med tid, for eksempel vite hvilken dato det er eller hva klokken er. Her skal vi bruke den til å fortelle spillet at det skal gjøre noe hvert halvsekund. 
+For at muldvarpen skal kunne hoppe rundt på brettet over tid, trenger vi å legge til en klokke. Klokken hjelper oss å jobbe med tid, for eksempel vite hvilken dato det er eller hva klokken er. Her skal vi bruke den til å fortelle spillet at det skal gjøre noe hvert halvsekund.
 
 ## Sjekkliste {.check}
 
@@ -73,7 +73,7 @@ Hver figur har en fart (_Speed_), retning (_Heading_) og intervall (_Interval_).
 
 ## Sjekkliste {.check}
 
-+ Gå til **Palette** og **Drawing and Animation**. Der velger du ![imagesprite](bilde.png), og drar den over til skjermen i **Viewer**. Pass på at du drar den oppå spillbrettet (gresset). Under **Components**, trykk på **Rename** og gi den navnet `Muldvarpen`. 
++ Gå til **Palette** og **Drawing and Animation**. Der velger du ![imagesprite](bilde.png), og drar den over til skjermen i **Viewer**. Pass på at du drar den oppå spillbrettet (gresset). Under **Components**, trykk på **Rename** og gi den navnet `Muldvarpen`.
 
 + Last ned muldvarpbildet fra lenken [mole.png](http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/moleMash/mole.png).
 
@@ -84,14 +84,14 @@ Skjermbildet ditt burde nå se slik ut:
 ![komponenteneinne](komponenteneinne.png)
 
 # Steg 6: Få ting til å skje! {.activity}
-Vi har nå lagt til alle delene i appen vår. Du kan teste den på mobilen din, men du vil se at ingenting skjer. For å få noe til å skje på skjermen må vi legge til logikk, altså kode. 
+Vi har nå lagt til alle delene i appen vår. Du kan teste den på mobilen din, men du vil se at ingenting skjer. For å få noe til å skje på skjermen må vi legge til logikk, altså kode.
 
-Koden er den magiske biten som gir applikasjonen din liv. Helt enkelt forteller koden spillet hva det skal gjøre med alle tingene vi har puttet på skjermen. 
+Koden er den magiske biten som gir applikasjonen din liv. Helt enkelt forteller koden spillet hva det skal gjøre med alle tingene vi har puttet på skjermen.
 I AppInventor skriver vi kode ved hjelp av klosser. Disse klossene er kommandoer som settes sammen og ber applikasjonen å gjøre ting, for eksempel tegne et bilde eller vise en tekst.
 
-Vi skal nå lage prosedyrer til spillet. Dette er en samling av flere kommandoer som har et navn og er satt sammen før de kalles. 
-Hvis du har en samling av klosser som trenger å bli kalt flere ganger i et program, kan du definere det som en prosedyre. 
-Da trenger du ikke sette sammen de samme klossene flere ganger. I stedet kan du kalle dem ved å legge inn en enkelt kloss. 
+Vi skal nå lage prosedyrer til spillet. Dette er en samling av flere kommandoer som har et navn og er satt sammen før de kalles.
+Hvis du har en samling av klosser som trenger å bli kalt flere ganger i et program, kan du definere det som en prosedyre.
+Da trenger du ikke sette sammen de samme klossene flere ganger. I stedet kan du kalle dem ved å legge inn en enkelt kloss.
 
 ## Sjekkliste {.check}
 
@@ -103,7 +103,7 @@ Da trenger du ikke sette sammen de samme klossene flere ganger. I stedet kan du 
 
 + Trykk på `procedure` og gi den navnet `FlyttMuldvarp`.
 
-Klossen `FlyttMuldvarp` har et område i midten som sier `do`. Det er her vi putter inn klossene som sier hva som skal skje når prosedyren kjører. 
+Klossen `FlyttMuldvarp` har et område i midten som sier `do`. Det er her vi putter inn klossene som sier hva som skal skje når prosedyren kjører.
 
 + Vi vil nå plassere muldvarpen et tilfeldig sted på spillbrettet. Det gjør vi ved å sette muldvarpens X- og Y-posisjon til to forskjellige tilfeldige tall:
 
@@ -113,20 +113,20 @@ Klossen `FlyttMuldvarp` har et område i midten som sier `do`. Det er her vi put
 
     Klossen `random fraction` gir et tilfeldig tall mellom 0 og 1. Vi kan derfor gange denne med spillbrettets størrelse minus muldvarpens størrelse for å sette posisjonen slik vi vil.
 
-+ Gå til **Blocks** og se hva du får fram når du trykker på de forskjellige fargene. 
++ Gå til **Blocks** og se hva du får fram når du trykker på de forskjellige fargene.
 
-+ Klossene du trenger vil være under **Math**, og på muldvarpen og spillbrettet. 
++ Klossene du trenger vil være under **Math**, og på muldvarpen og spillbrettet.
 + Lag en prosedyre som flytter muldvarpen slik beskrevet.
 
     ![flyttmuldvarp](flyttmuldvarp.png)
 
 Se hvordan klossene kobler sammen. Den første delen bruker Muldvarp.X til å sette muldvarpens horisontale posisjon. Verdien den får er resultatet av å gange en tilfeldig verdi mellom 0 og 1 med resultatet av spillbrettets bredde minus muldvarpens bredde.
 
-+ Lag en variabel som holder styr på hvor mange poeng spilleren har. Denne kan vi kalle `Poeng`. 
++ Lag en variabel som holder styr på hvor mange poeng spilleren har. Denne kan vi kalle `Poeng`.
 
     ![initpoeng](initPoeng.png)
 
-+ Lag en prosedyre som du kaller `OppdaterPoeng` på samme måte som du lagde `FlyttMuldvarp`. Velg den lilla **Procedures** og velg en **to procedure do**. Denne prosedyren skal oppdatere tekstfeltet med poengene når poengene endres. 
++ Lag en prosedyre som du kaller `OppdaterPoeng` på samme måte som du lagde `FlyttMuldvarp`. Velg den lilla **Procedures** og velg en **to procedure do**. Denne prosedyren skal oppdatere tekstfeltet med poengene når poengene endres.
 
 Det vi vil at skal skje er PoengTeksten blir oppdatert med en tekst satt sammen av `Poeng: ` og hvor mange poeng spilleren har.
 
@@ -136,7 +136,7 @@ Det vi vil at skal skje er PoengTeksten blir oppdatert med en tekst satt sammen 
 
 + Ta ut en tekstkloss under rosa **Text** og forandre den slik at den sier `Poeng: ` og koble denne øverst i `join`-klossen slik at denne teksten kommer først. Pass på at du skriver et mellomrom etter kolonet.
 
-+ Under `Poeng: ` legger du til en kloss fra orange **Variables** som heter `get`, og forandrer den til `get global Poeng`. 
++ Under `Poeng: ` legger du til en kloss fra orange **Variables** som heter `get`, og forandrer den til `get global Poeng`.
 
     ![initOppdater](initOppdaterPoeng.png)
 
@@ -154,7 +154,7 @@ For å få noe til å skje når en hendelse sendes bruker vi en _event handler_.
     ![initOppdater](timerflytt.png)
 
 # Steg 8: Klask muldvarpen! {.activity}
-Den viktigste biten er å vite når noen trykker på muldvarpen, slik at vi vet når spilleren skal få poeng. Hvis du husker fra tidligere så sa vi at figurer vet når de blir trykket på. 
+Den viktigste biten er å vite når noen trykker på muldvarpen, slik at vi vet når spilleren skal få poeng. Hvis du husker fra tidligere så sa vi at figurer vet når de blir trykket på.
 Alt vi trenger å gjøre er å fortelle hva som skal skje ved å bruke _event handleren_ for dette på muldvarpen. Denne hendelsen kalles **Touched**.
 
 ## Sjekkliste {.check}
@@ -162,7 +162,7 @@ Alt vi trenger å gjøre er å fortelle hva som skal skje ved å bruke _event ha
 + Legg til **when Muldvarpen.Touched do**.
 
     Videre vil vi at:
-    
+
     + Poengvariabelen økes med 1 poeng.
     + Mobilen vibrerer i 1/10 sekund (100 millisekunder).
     + `OppdaterPoeng` blir kalt slik at poengene opdaterer seg på skjermen.
@@ -171,8 +171,8 @@ Alt vi trenger å gjøre er å fortelle hva som skal skje ved å bruke _event ha
     ![event](event.png)
 
 # Steg 9: Start spillet på nytt {.activity}
-Den siste biten vi trenger å få på plass nå er å kunne starte spillet på nytt når vi trykker på restartknappen. 
-Knapper har en hendelse som heter **click** som sendes når knappen trykkes på. 
+Den siste biten vi trenger å få på plass nå er å kunne starte spillet på nytt når vi trykker på restartknappen.
+Knapper har en hendelse som heter **click** som sendes når knappen trykkes på.
 
 ## Sjekkliste {.check}
 
@@ -187,7 +187,7 @@ Knapper har en hendelse som heter **click** som sendes når knappen trykkes på.
     Dette kan se slik ut:
 
     ![restart](restart.png)
-  
+
 ## Test  appen på mobiltelefonen {.flag}
 Installer appen på mobilen din og prøv spillet.
 

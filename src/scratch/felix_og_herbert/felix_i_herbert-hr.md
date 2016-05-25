@@ -81,7 +81,7 @@ nekad spasiš tvoj projekt.
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
   iznad Felixa. Izaberi kategoriju `Životinje` i `Mouse1`
   (miš). Pritisni OK.
-  
+
 + Nazovi novu figuru `Herbert`.
 
 + Smanji Herberta tako da bude manji od Felixa. Pritisni

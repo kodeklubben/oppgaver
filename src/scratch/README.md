@@ -14,7 +14,7 @@ generelle katalogstrukturen.
 ## Kodeblokker
 
 Scratchkode kan skrives rett inn i Markdown-teksten. Denne blir oversatt til
-figurer av et verktøy som heter [Scratchblocks]. 
+figurer av et verktøy som heter [Scratchblocks].
 
 Nyttige ressurser:
 - [scratchblocks generator] henter ut kode direkte fra prosjekter på scratch.mit.edu.

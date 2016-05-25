@@ -47,16 +47,16 @@ dag, inkludert for eksempel *Scratch*, *Lua* og *Python*.
   nytt programmeringsvindu. I dette nye vinduet kan du skrive inn
   følgende kode:
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
-	```
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
+    ```
 
-	Lagre programmet med navnet `skilpadde.py` og kjør det. Du skal nå
+    Lagre programmet med navnet `skilpadde.py` og kjør det. Du skal nå
     få opp et nytt vindu med en gul skilpadde på en blå bakgrunn. Hvis
     dette ikke skjer kan du se i det opprinnelige `Python
     Shell`-vinduet om du har fått en feilmelding.
@@ -92,16 +92,16 @@ om til en kunstner.
 + Legg til en linje nederst i programmet ditt, slik at det ser slik
   ut:
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
 
-	forward(200)
-	```
+    forward(200)
+    ```
 
 + Når du kjører programmet vil du se at skilpadden har beveget seg
   forover et lite stykke, og at den har tegnet en strek der den
@@ -112,23 +112,23 @@ om til en kunstner.
   svinge mot høyre. Prøv for eksempel å endre programmet ditt til det
   følgende:
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
 
-	forward(200)
-	left(60)
-	forward(50)
-	backward(200)
-	right(90)
-	forward(100)
-	```
+    forward(200)
+    left(60)
+    forward(50)
+    backward(200)
+    right(90)
+    forward(100)
+    ```
 
-	Ser du at skilpadden utfører alle kommandoene du gir den?
+    Ser du at skilpadden utfører alle kommandoene du gir den?
 
 + Hvis vi setter sammen kommandoene litt systematisk kan vi tegne noen
   grunnleggende geometriske figurer. For eksempel, om vi vil tegne en
@@ -137,25 +137,25 @@ om til en kunstner.
   fremover, så svinge og til slutt fremover en gang til. I Python kan
   vi skrive dette som
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
 
-	forward(100)
-	right(90)
-	forward(100)
-	right(90)
-	forward(100)
-	right(90)
-	forward(100)
-	right(90)
-	```
+    forward(100)
+    right(90)
+    forward(100)
+    right(90)
+    forward(100)
+    right(90)
+    forward(100)
+    right(90)
+    ```
 
-	Tegner skilpadden en firkant når du kjører dette programmet?
+    Tegner skilpadden en firkant når du kjører dette programmet?
 
 + Hva med en trekant? Hvordan må du forandre koden din for at
   skilpadden skal tegne en trekant i stedet for en firkant? Prøv selv
@@ -173,20 +173,20 @@ bruker vi __for-løkker__.
 + Det følgende programmet tegner også en firkant, akkurat som det
 tidligere programmet vi lagde:
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
 
-	for i in range(4):
-		forward(100)
-		right(90)
-	```
+    for i in range(4):
+        forward(100)
+        right(90)
+    ```
 
-	Endre koden din som over, og kjør programmet.
+    Endre koden din som over, og kjør programmet.
 
 + Legg merke til at linjene som kommer etter `for` er skjøvet inn til
   høyre. Dette er veldig viktig i Python, fordi det forteller hvor mye
@@ -197,16 +197,16 @@ tidligere programmet vi lagde:
 + Prøv å trekk linjen `right(90)` til venstre, slik at for-løkken ser
   slik ut:
 
-	```python
-	for i in range(4):
-		forward(100)
-	right(90)
-	```
+    ```python
+    for i in range(4):
+        forward(100)
+    right(90)
+    ```
 
-	Hva tror du programmet ditt vil gjøre nå? Forsøk å kjøre
+    Hva tror du programmet ditt vil gjøre nå? Forsøk å kjøre
     programmet for å se om du har rett!
 
-	Skilpadden vil bare gå fremover fire ganger før den svinger til
+    Skilpadden vil bare gå fremover fire ganger før den svinger til
     høyre en gang til slutt. Det betyr at den vil tegne en rett linje
     i stedet for en firkant.
 
@@ -218,18 +218,18 @@ tidligere programmet vi lagde:
   grader (360 delt på 3) i hvert hjørne. Programmet for å tegne en
   trekant blir dermed seende slik ut:
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
 
-	for i in range(3):
-		forward(100)
-		right(120)
-	```
+    for i in range(3):
+        forward(100)
+        right(120)
+    ```
 
 + Prøv å endre programmet slik at det tegner andre mangekanter.
   Hvordan kan du tegne for eksempel en femkant, åttekant eller kanskje
@@ -246,24 +246,24 @@ ting navn. Dette vil også gjøre det enklere å forstå hva koden gjør.
   hvor lang hver side skal være og hvor mange grader vi skal snu ved
   hvert hjørne. Endre programmet ditt slik at det ser slik ut:
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
 
-	sides = 4
-	length = 100
-	angle = 90
+    sides = 4
+    length = 100
+    angle = 90
 
-	for i in range(sides):
-		forward(length)
-		right(angle)
-	```
+    for i in range(sides):
+        forward(length)
+        right(angle)
+    ```
 
-	Tegner programmet fortsatt en firkant?
+    Tegner programmet fortsatt en firkant?
 
 + Nå kan du få programmet til å tegne en trekant bare ved å endre
   verdiene på variablene dine. Prøv om du får det til?
@@ -272,11 +272,11 @@ ting navn. Dette vil også gjøre det enklere å forstå hva koden gjør.
   regne vinkelen kan programmet gjøre det. Bytt ut linjen `angle = 90`
   med
 
-	```python
-	angle = 360 / sides
-	```
+    ```python
+    angle = 360 / sides
+    ```
 
-	Nå kan du prøve å bare endre verdien av `sides` og kjøre om igjen.
+    Nå kan du prøve å bare endre verdien av `sides` og kjøre om igjen.
     Tegner programmet de riktige mangekantene?
 
 # Steg 5: Egne kommandoer {.activity}
@@ -290,40 +290,40 @@ funksjoner.  Dette er en annen måte vi kan unngå å gjenta oss selv på.
   ved å bruke kommandoen `def` (def er en forkortelse for *define* som
   betyr definer). Endre programmet ditt slik at det ser ut som under:
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
 
-	def polygon(sides, length):
-		angle = 360 / sides
+    def polygon(sides, length):
+        angle = 360 / sides
 
-		for i in range(sides):
-			forward(length)
-			right(angle)
+        for i in range(sides):
+            forward(length)
+            right(angle)
 
-	polygon(4, 100)
-	```
+    polygon(4, 100)
+    ```
 
-	Kjør programmet. Kjenner du igjen firkanten?
+    Kjør programmet. Kjenner du igjen firkanten?
 
 + Nå som vi har laget `polygon`-funksjonen er det kjempelett å tegne
   forskjellige mangekanter. Legg for eksempel til de følgende linjene
   nederst i programmet ditt:
 
-	```python
-	polygon(3, 100)
-	polygon(4, 100)
-	polygon(5, 100)
-	forward(125)
-	right(180)
-	polygon(3, 150)
-	polygon(5, 150)
-	polygon(7, 150)
-	```
+    ```python
+    polygon(3, 100)
+    polygon(4, 100)
+    polygon(5, 100)
+    forward(125)
+    right(180)
+    polygon(3, 150)
+    polygon(5, 150)
+    polygon(7, 150)
+    ```
 
 # Steg 6: Skilpaddekunst {.activity}
 
@@ -337,58 +337,58 @@ bare tegner kjedelige mangekanter.
   alltid summerer seg til 360. Dette gjør underverker for kunsten vår!
   Endre programmet ditt slik at det ser slik ut:
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
 
-	def polylines(sides, length, angle):
-		for i in range(sides):
-			forward(length)
-			right(angle)
+    def polylines(sides, length, angle):
+        for i in range(sides):
+            forward(length)
+            right(angle)
 
-	polylines(5, 100, 144)
-	```
+    polylines(5, 100, 144)
+    ```
 
-	Kjør programmet. Hva tegner skilpadden nå?
+    Kjør programmet. Hva tegner skilpadden nå?
 
 + En annen variant kan være hvor vi tegner en litt skjev mangekant.
   For eksempel den følgende kommandoen vil tegne firkanter hvor
   vinklene er 91 grader i stedet for 90 grader. Dette blir
   overraskende stilig. Bytt ut `polylines`-kommandoen med
 
-	```python
-	polylines(91, 200, 91)
-	```
+    ```python
+    polylines(91, 200, 91)
+    ```
 
 + Vi kan også endre lengden av strekene etterhvert som vi tegner.
   Dette skaper en fin spiraleffekt. Legg merke til hvor mye funksjonen
   `spiral` ligner på `polylines`:
 
-	```python
-	from turtle import *
+    ```python
+    from turtle import *
 
-	shape('turtle')
-	shapesize(2)
-	bgcolor('darkblue')
-	color('yellow')
+    shape('turtle')
+    shapesize(2)
+    bgcolor('darkblue')
+    color('yellow')
 
-	def polylines(sides, length, angle):
-		for i in range(sides):
-			forward(length)
-			right(angle)
+    def polylines(sides, length, angle):
+        for i in range(sides):
+            forward(length)
+            right(angle)
 
-	def spiral(sides, length, angle):
-		for i in range(sides):
-			forward(length)
-			right(angle)
-			length = length + 5
+    def spiral(sides, length, angle):
+        for i in range(sides):
+            forward(length)
+            right(angle)
+            length = length + 5
 
-	spiral(100, 5, 125)
-	```
+    spiral(100, 5, 125)
+    ```
 
 + Prøv forskjellige verdier i stedet for 100, 5 og 125 når du kaller
   `spiral`. Finner du noen verdier som gir spesielt fine bilder synes

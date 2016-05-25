@@ -32,16 +32,16 @@ Vi begynner med å endre på X-koordinatene
 + Vi henter en `endre x med`-{.blockmotion} fra `Bevegelse`{.blockmotion} og kobler den til `Når grønt flagg klikkes`{.blockcontrol}
 + Du kan endre verdien med så mye som du selv ønsker.
 
-	```blocks
-	når grønt flagg klikkes
-	endre x med ()
-	```
+  ```blocks
+  når grønt flagg klikkes
+  endre x med ()
+  ```
 + Det blir litt slitsomt å holde kontroll på hvor hatten er hele tiden. Derfor legger vi til en tastekommando som får hatten tilbake til utgangspunktet, koordinatet (0,0):
 
-	```blocks
-		når [o] trykkes
-		gå til x: (0) y: (0)
-	```
+  ```blocks
+    når [o] trykkes
+    gå til x: (0) y: (0)
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -57,7 +57,7 @@ Du blir kanskje ikke veldig overrasket over at vi nå skal benytte oss av `endre
 
 + Nå skal kodeblokken din se slik ut:
 
-	```blocks
-	når grønt flagg klikkes
-	endre y med ()
-	```
+  ```blocks
+  når grønt flagg klikkes
+  endre y med ()
+  ```

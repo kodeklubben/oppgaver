@@ -28,20 +28,20 @@ La oss prøve å endre skrifttyper på overskriften ved å bruke `font-family` e
 
 ```css
 h1 {
-	color: red;
-	background-color: black;
-	font-size: 72px;
-	text-transform: uppercase;
-	text-decoration: underline;
-	text-decoration: blink;
-	font-family: impact, sans-serif;
+  color: red;
+  background-color: black;
+  font-size: 72px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration: blink;
+  font-family: impact, sans-serif;
 }
 ```
 Og nå – endre skrifttypen i en paragraf...
 
 ```css
 p {
-	font-family: georgia, 'times new roman', serif;
+  font-family: georgia, 'times new roman', serif;
 }
 ```
 
@@ -61,7 +61,7 @@ Du kan også lage teksten i __fet__, *kursiv* eller begge deler ved hjelp av skr
 
 ```css
 a {
-	font-weight: bold;
+  font-weight: bold;
 }
 ```
 
@@ -71,7 +71,7 @@ Eller vi kan sette teksten til *kursiv*.
 
 ```css
 a {
-	font-style: italic;
+  font-style: italic;
 }
 ```
 ## __Lagre__ og __se__ det i nettleseren. {.save}
@@ -82,7 +82,7 @@ Vi kan til og med bestemme hvor fet skriften skal være ved å bruke egenskapen 
 
 ```css
 h2 {
-	font-weight: normal;
+  font-weight: normal;
 }
 ```
 
@@ -94,9 +94,9 @@ LLa oss legge til en kantlinje rundt et bilde.
 
 ```css
 img {
-	border-color: green;
-	border-width: 5px;
-	border-style: solid;
+  border-color: green;
+  border-width: 5px;
+  border-style: solid;
 }
 ```
 ## __Lagre__ og __se__ det i nettleseren. {.save}
@@ -116,7 +116,7 @@ Nå kan vi endre stilen til IDen slik:
 
 ```css
 #uthevet {
-	color: red;
+  color: red;
 }
 ```
 ## __Lagre__ og __se__ det i nettleseren. {.save}
@@ -131,7 +131,7 @@ Deretter setter vi stilen slik (legg merke til at vi bruker `.` i stedet for `#`
 
 ```css
 .stor {
-	font-size: 24px;
+  font-size: 24px;
 }
 ```
 

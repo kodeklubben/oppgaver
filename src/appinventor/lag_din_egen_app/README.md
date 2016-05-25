@@ -13,8 +13,8 @@ bruke idèer fra spill og programmer de har laget tidligere i kurset eller i and
 # Forberedelser
 
 I første del av prosjektet skal barna designe sine egne ressurser,
-inkludert figurer, bakgrunner og lyder og annen funksjonalitet. Til 
-dette kan det være lurt å ha papir og noe å skrive med. Ha gjerne 
+inkludert figurer, bakgrunner og lyder og annen funksjonalitet. Til
+dette kan det være lurt å ha papir og noe å skrive med. Ha gjerne
 klart ekstra papir slik at de kan prøve ut mange forskjellige idèer.
 
 Du må tenke over hvor lang tid barna skal bruke på dette prosjektet.

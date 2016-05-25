@@ -28,38 +28,38 @@ på datamaskinen.
     float y;
     float xFart = 1.5;
     float yFart = 2;
-    
+
     void setup() {
       size(640, 480);
       x = width / 2;
       y = height / 2;
     }
-    
+
     void draw() {
       x += xFart;
       y += yFart;
-      
+
       if (x < 0) {
         xFart = -xFart;
       }
-      
+
       if (x > width - 100) {
         xFart = -xFart;
       }
-      
+
       if (y < 0) {
         yFart = -yFart;
       }
-      
+
       if (y > height - 100) {
         yFart = -yFart;
       }
-    
+
       background(0);
       rect(x, y, 100, 100);
     }
     ```
-    
+
     Dette programmet er ganske likt det som ble lagd i siste oppgave
     om den sprettende ballen, men det er noen små forskjeller:
 
@@ -102,28 +102,28 @@ hjørne befinner seg.
     void draw() {
       x += xFart;
       y += yFart;
-      
+
       if (x < 0) {
         xFart = -xFart;
       }
-      
+
       if (x > width - 100) {
         xFart = -xFart;
       }
-      
+
       if (y < 0) {
         yFart = -yFart;
       }
-      
+
       if (y > height - 100) {
         yFart = -yFart;
       }
-    
+
       background(0);
       triangle(x, y, x + 100, y, x + 50, y + 100);
     }
     ```
-    
+
     Her har vi tatt i bruk `triangle` istedenfor `rect`. Denne tar
     imot seks argumenter, to for hvert hjørne i trekanten. `x, y` er
     posisjonen til det første hjørnet øverst til venstre, `x + 100, y`
@@ -193,7 +193,7 @@ Vi kunne kalt dem f.eks. `x1`, `x2`, `x3` og tilsvarende lagt tall til
 *array*. Det er vanlig å bruke det engelske ordet også på norsk, men
 det oversettes noen ganger til liste, vektor, rekke, tabell eller
 matrise.
-  
+
 ## Sjekkliste {.check}
 
 + Vi begynner med å endre variablene til *arrays*:
@@ -204,7 +204,7 @@ matrise.
     float[] xFart = new float[3];
     float[] yFart = new float[3];
     ```
-    
+
     Nå har vi endret typen av variablene fra `float` til
     `float[]`. Når vi putter firkantklammer etter en type, er det en
     *array* som inneholder verdier av typen foran klammene. Bak
@@ -217,19 +217,19 @@ matrise.
     ```processing
     void setup() {
       size(800, 600);
-      
+
       x[0] = width / 2;
       x[1] = width / 2;
       x[2] = width / 2;
-      
+
       y[0] = height / 2;
       y[1] = height / 2;
       y[2] = height / 2;
-      
+
       xFart[0] = 1.5;
       xFart[1] = 2.5;
       xFart[2] = 3.5;
-      
+
       yFart[0] = -5;
       yFart[1] = 2.5;
       yFart[2] = -1.5;
@@ -252,19 +252,19 @@ matrise.
       for (int i = 0; i < x.length; i++) {
         x[i] += xFart[i];
         y[i] += yFart[i];
-        
+
         if (x[i] < 0) {
           xFart[i] = -xFart[i];
         }
-        
+
         if (x[i] > width) {
           xFart[i] = -xFart[i];
         }
-        
+
         if (y[i] < 0) {
           yFart[i] = -yFart[i];
         }
-        
+
         if (y[i] > height) {
           yFart[i] = -yFart[i];
         }
@@ -274,7 +274,7 @@ matrise.
       triangle(x[0], y[0], x[1], y[1], x[2], y[2]);
     }
     ```
-    
+
     Her ser du en helt ny konstruksjon som vi skal se nærmere på i
     forklaringen nedenfor, men først kan du lagre og kjøre programmet.
 
@@ -350,7 +350,7 @@ oppgave:
     ```processing
     void setup() {
       size(800, 600);
-      
+
       for (int i = 0; i < KANTER; i++) {
         x[i] = random(width);
         y[i] = random(height);
@@ -378,26 +378,26 @@ oppgave:
       for (int i = 0; i < KANTER; i++) {
         x[i] += xFart[i];
         y[i] += yFart[i];
-        
+
         if (x[i] < 0) {
           xFart[i] = -xFart[i];
         }
-        
+
         if (x[i] > width) {
           xFart[i] = -xFart[i];
         }
-        
+
         if (y[i] < 0) {
           yFart[i] = -yFart[i];
         }
-        
+
         if (y[i] > height) {
           yFart[i] = -yFart[i];
         }
       }
-      
+
       background(0);
-      
+
       beginShape();
       for (int i = 0; i < KANTER; i++) {
         vertex(x[i], y[i]);
