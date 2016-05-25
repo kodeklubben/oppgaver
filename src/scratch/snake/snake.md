@@ -111,7 +111,7 @@ id`{.blockdata} er mindre enn `teller`{.blockdata} -
 
     ```blocks
         når jeg starter som klon
-        vent til <<(teller) - (lengde)> > <min id>>
+        vent til <((teller) - (lengde)) > (min id)>
         slett denne klonen
     ```
 
