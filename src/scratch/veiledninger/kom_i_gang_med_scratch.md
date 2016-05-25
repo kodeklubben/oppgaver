@@ -146,13 +146,13 @@ oppgaven sammen med barna.
 + Pek raskt på de tre delene av scratchmiljøet:
 
   + __Scenen__ øverst til venstre er der ting vil skje. Snart skal vi
-  fortelle katten at den skal flytte på seg!
+    fortelle katten at den skal flytte på seg!
 
   + __Figurlisten__ under scenen viser figurene i programmet
-  vårt. Etterhvert vil vi ha flere figurer enn katten.
+    vårt. Etterhvert vil vi ha flere figurer enn katten.
 
   + __Kodevinduet__ til høyre, inkludert listen over klosser i midten,
-   er der selve programmeringen skjer.
+    er der selve programmeringen skjer.
 
 + Pek på den øverste blå klossen, `gå (10) steg`{.b}. Fortell at når
   vi klikker på den forteller vi katten at den skal gå. Klikk på

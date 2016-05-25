@@ -174,13 +174,13 @@ du prøve noe av det følgende. Du kan endre størrelsen på boksen
 tilfeldig, for eksempel med klossen
 
 ```blocks
-  sett størrelse til (tilfeldig tall fra (30) til (100)) %
+sett størrelse til (tilfeldig tall fra (30) til (100)) %
 ```
 
 På samme måte kan du bruke
 
 ```blocks
-  sett [farge v] effekt til (tilfeldig tall fra (-100) til (100))
+sett [farge v] effekt til (tilfeldig tall fra (-100) til (100))
 ```
 
 til å endre fargen på boksene tilfeldig. Finn også på andre effekter,
@@ -194,7 +194,7 @@ Prøv tilslutt å endre på hvor ofte det dukker opp nye bokser. Bruk
 gjerne en
 
 ```blocks
-  tilfeldig tall fra (1.2) til (3.2)
+tilfeldig tall fra (1.2) til (3.2)
 ```
 
 kloss. Eksperimenter med verdiene i klossen.

@@ -74,6 +74,6 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 En måte å endre hvilket instrument som spilles.
 
 ```blocks
-  når [pil opp v] trykkes
-  velg instrument (tilfeldig tall fra (1) til (99))
+når [pil opp v] trykkes
+velg instrument (tilfeldig tall fra (1) til (99))
 ```

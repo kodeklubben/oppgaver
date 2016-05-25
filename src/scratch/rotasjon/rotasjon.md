@@ -82,8 +82,8 @@ Heldigvis kan vi ved hjelp av litt programmeringsmagi få datamaskinen til å gj
 
   ```blocks
   når grønt flagg klikkes
-    gjenta (8) ganger
-    vend høyre (45) grader
+  gjenta (8) ganger
+  vend høyre (45) grader
   ```
 
 + Tips: For hver gang du halverer vinkelen, må du doble antall repetisjoner for at hatten skal snurre like langt.

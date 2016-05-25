@@ -96,7 +96,7 @@ du vil. For at det skal se enda mer ut som at ringene først er langt
 borte og så nærme, så kan du bruke klossen
 
 ```blocks
-  sett [gjennomsiktig v] effekt til ((100)-((150)/(distanse))
+sett [gjennomsiktig v] effekt til ((100)-((150)/(distanse))
 ```
 
 for å gjøre ringene mer gjennomsiktig når de er langt borte. Hvilke

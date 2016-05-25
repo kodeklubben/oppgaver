@@ -45,8 +45,8 @@ Til slutt så viser vi et eksempel på et tenkt program en datamaskin kunne bruk
   bland melk i bakebolle
 
   gjenta 3 ganger:
-  hvis egg ikke er rottent
-  bland 1 egg i bakebollen
+    hvis egg ikke er rottent
+      bland 1 egg i bakebollen
 
   gjenta til bakebollen er tom:
-  stek en pannekake*
+    stek en pannekake*

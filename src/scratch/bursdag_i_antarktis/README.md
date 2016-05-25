@@ -29,9 +29,9 @@ Her er likevel noen generelle ting som kan være verdt å huske på:
   og følg instruksene på skjermen.
 + For å skifte språk til norsk:
   + På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
-  å velge språk helt nederst på skjermen.
+    å velge språk helt nederst på skjermen.
   + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
-  venstre for å endre språket som brukes.
+    venstre for å endre språket som brukes.
 
 # Læringsmål
 

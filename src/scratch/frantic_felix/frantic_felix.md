@@ -506,22 +506,22 @@ Vi kommer ikke beskrive alle endringene, men vi skal vise hvordan
 Felix sitt oppdaterte skript for å vise hva som må gjøres.
 
 ```blocks
-  når jeg mottar [start brett v]
-      gå til x: (element [nåværende nivå v] av [xs v]) y: (element [nåværende nivå v] av [ys v])
-  pek i retning (element [nåværende nivå v] av [retning v])
-  for alltid
-    hvis <<tast[pil venstre v] trykket?> og <(blokkert venstre)=(0)>
-      pek i retning (-90)
-          gå (2) steg
-      slutt
-      hvis <<tast [pil høyre v] trykket?> og <(blokkert høyre)=(0)>
-          pek i retning (90)
-          gå (2) steg
-      slutt
-      hvis <<tast [mellomrom v] trykket?> og <(blokkert bunn)=(1)>
-      sett [hopphøyde v] til [100]
-      slutt
-  slutt
+når jeg mottar [start brett v]
+    gå til x: (element [nåværende nivå v] av [xs v]) y: (element [nåværende nivå v] av [ys v])
+pek i retning (element [nåværende nivå v] av [retning v])
+for alltid
+  hvis <<tast[pil venstre v] trykket?> og <(blokkert venstre)=(0)>
+    pek i retning (-90)
+        gå (2) steg
+    slutt
+    hvis <<tast [pil høyre v] trykket?> og <(blokkert høyre)=(0)>
+        pek i retning (90)
+        gå (2) steg
+    slutt
+    hvis <<tast [mellomrom v] trykket?> og <(blokkert bunn)=(1)>
+    sett [hopphøyde v] til [100]
+    slutt
+slutt
 ```
 
 Du legger kanskje merke til at start verdiene __x__, __y__, og
@@ -535,27 +535,27 @@ gjør riktig ting basert på dette.
 Og her er redningskapselen, som håndterer all nivå-endringen:
 
 ```blocks
-  når grønt flagg klikkes
-  sett [nåværende nivå v] til [1]
-  send melding [start brett v]
+når grønt flagg klikkes
+sett [nåværende nivå v] til [1]
+send melding [start brett v]
 
-  når jeg mottar [start brett v]
-  gå til x: (element [nåværende nivå v] av [xs v]) y: (element [nåværende nivå v] av [ys v])
-  for alltid
-    hvis <[nøkler å ta v] = [0]>
-        endre [farge v] effekt med (25)
-          hvis <berører [Felix v]?>
-        hvis <[nåværende nivå v] = <lengden av [nøkler per brett v]>
-          si [Du vant!!]
-                  send melding [seier v]
-                  stopp [alle v] :: control
-              ellers
-          endre [nåværende nivå v] med (1)
-                  send melding [start brett v]
-              slutt
-          slutt
-      slutt
-  slutt
+når jeg mottar [start brett v]
+gå til x: (element [nåværende nivå v] av [xs v]) y: (element [nåværende nivå v] av [ys v])
+for alltid
+  hvis <[nøkler å ta v] = [0]>
+      endre [farge v] effekt med (25)
+        hvis <berører [Felix v]?>
+      hvis <[nåværende nivå v] = <lengden av [nøkler per brett v]>
+        si [Du vant!!]
+                send melding [seier v]
+                stopp [alle v] :: control
+            ellers
+        endre [nåværende nivå v] med (1)
+                send melding [start brett v]
+            slutt
+        slutt
+    slutt
+slutt
 ```
 
 # Steg 2: Spill! {.activity}

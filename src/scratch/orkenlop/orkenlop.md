@@ -292,20 +292,20 @@ Nedenfor er et forslag til hvordan et rakett-skript kan se ut. Du må
 legge til noen lyder og variabler på egen hånd.
 
 ```blocks
-  når [q v] trykkes
-  hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
-      bytt drakt til [parrot-rakett v]
-      sett [rakett_brukt v] til [1]
-      gå (30) steg
-      spill lyden [motorcycle passing v]
-      hvis <berører [kant v]?>
-          sett [kappløp v] til [0]
-          spill lyden [Polly v]
-          si [Polly vinner! v] i (3) sekunder
-          send melding [Avslutt v]
-      slutt
-      bytt drakt til [parrot-a v]
-  slutt
+når [q v] trykkes
+hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
+    bytt drakt til [parrot-rakett v]
+    sett [rakett_brukt v] til [1]
+    gå (30) steg
+    spill lyden [motorcycle passing v]
+    hvis <berører [kant v]?>
+        sett [kappløp v] til [0]
+        spill lyden [Polly v]
+        si [Polly vinner! v] i (3) sekunder
+        send melding [Avslutt v]
+    slutt
+    bytt drakt til [parrot-a v]
+slutt
 ```
 
 ## Test prosjektet {.flag}

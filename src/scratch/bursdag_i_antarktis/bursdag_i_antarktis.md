@@ -171,7 +171,7 @@ synlige for oss som ser på.
 
   ```blocks
   når jeg mottar [Scene 2 v]
-gå til x: (-20) y: (-100)
+  gå til x: (-20) y: (-100)
   ```
 
 ## Test prosjektet {.flag}
@@ -197,9 +197,9 @@ mennesker.
 
   ```blocks
   når jeg mottar [Si hei v]
-si [Å nei! Hvor er jeg?] i (2) sekunder
-tenk [Jeg har gått meg bort ... også på bursdagen min] i (2) sekunder
-spør [Hvor gammel blir jeg igjen?] og vent
+  si [Å nei! Hvor er jeg?] i (2) sekunder
+  tenk [Jeg har gått meg bort ... også på bursdagen min] i (2) sekunder
+  spør [Hvor gammel blir jeg igjen?] og vent
   ```
 
 + For å teste hvordan skriptet virker kan du bare klikke på for
@@ -302,15 +302,15 @@ mindre mens han går.
 
   ```blocks
   når jeg mottar [Scene 2 v]
-gå til x: (-20) y: (-100)
-    si [Å! Der er det noen hus!] i (2) sekunder
-    pek i retning (20 v)
-    gjenta (6) ganger
-        gå (9) steg
-        neste drakt
-        endre størrelse med (-2)
-        vent (0.1) sekunder
-    slutt
+  gå til x: (-20) y: (-100)
+  si [Å! Der er det noen hus!] i (2) sekunder
+  pek i retning (20 v)
+  gjenta (6) ganger
+      gå (9) steg
+      neste drakt
+      endre størrelse med (-2)
+      vent (0.1) sekunder
+  slutt
   ```
 
 + Følger Felix veien oppover? Blir han mindre mens han går? Husk at om
@@ -337,7 +337,7 @@ gå til x: (-20) y: (-100)
           endre størrelse med (-2)
           vent (0.1) sekunder
       slutt
-pek i retning ((retning) * (-1))
+      pek i retning ((retning) * (-1))
   slutt
   ```
 
@@ -386,7 +386,7 @@ forskjellig fra -1 i retningen.
 
   ```blocks
   når jeg mottar [Scene 3 v]
-bytt bakgrunn til [gingerbread v]
+  bytt bakgrunn til [gingerbread v]
   ```
 
 + I det vi skifter til den nye scenen vil vi også at Felix skal få
@@ -395,9 +395,9 @@ bytt bakgrunn til [gingerbread v]
 
   ```blocks
   når jeg mottar [Scene 3 v]
-sett størrelse til (100)%
-gå til x: (-160) y: (-65)
-vis
+  sett størrelse til (100)%
+  gå til x: (-160) y: (-65)
+  vis
   ```
 
 ## Test prosjektet {.flag}
@@ -440,11 +440,11 @@ __Klikk på det grønne flagget.__
 
   ```blocks
   når jeg mottar [Scene 3 v]
-sett størrelse til (100)%
-gå til x: (-160) y: (-65)
-vis
-    si [Oj, så flott hus! Er det noen hjemme?] i (2) sekunder
-    send melding [Kom ut v]
+  sett størrelse til (100)%
+  gå til x: (-160) y: (-65)
+  vis
+  si [Oj, så flott hus! Er det noen hjemme?] i (2) sekunder
+  send melding [Kom ut v]
   ```
 
 + Pingu skal nå komme ut av døra og gå litt til siden. Sjekk med

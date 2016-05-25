@@ -50,7 +50,7 @@ pokušati da izbjegneš Felixa. Što duže uspiješ da izbjegneš Felixa to
       sljedeći kostim  :: looks
       bubnjaj po (3 v) (0.25) puta  :: sound
   end
-```
+  ```
 
 ## Probaj program {.flag}
 
@@ -78,17 +78,17 @@ nekad spasiš tvoj projekt.
 ## Spisak {.check}
 
 + Dodaj novu figuru, pritisni
-![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
-iznad Felixa. Izaberi kategoriju `Životinje` i `Mouse1`
-(miš). Pritisni OK.
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
+  iznad Felixa. Izaberi kategoriju `Životinje` i `Mouse1`
+  (miš). Pritisni OK.
 
 + Nazovi novu figuru `Herbert`.
 
 + Smanji Herberta tako da bude manji od Felixa. Pritisni
-![krymp](../bilder/krymp.png) na vrhu stranice 6 puta.
+  ![krymp](../bilder/krymp.png) na vrhu stranice 6 puta.
 
 + Pritisni na Herberta, odaberi karticu `Skripte` i programiraj
-program ispod:
+  program ispod:
 
   ```blocks
   kada je ⚑ kliknut  :: hat events
@@ -96,7 +96,7 @@ program ispod:
       idi do [strelice misa v]  :: motion
       okreni se k [Felix v]  :: motion
   end
-```
+  ```
 
 ## Probaj program {.flag}
 
@@ -123,7 +123,7 @@ __Pritisni zelenu zastavu.__
           govori [Uhvatio sam te!] (1) sekundi  :: looks
       end
   end
-```
+  ```
 
 ## Probaj program {.flag}
 
@@ -136,32 +136,32 @@ __Pritisni zelenu zastavu.__
 ## Spisak {.check}
 
 + Promjeni `Skripte` od Felixa tako da program pošalje poruku da je
-Herbert uhvačen:
+  Herbert uhvačen:
 
   ```blocks
-kada je ⚑ kliknut  :: hat events
-ponavljaj  :: cstart control
-    okreni se k [strelice misa v]  :: motion
-    idi (10) koraka  :: motion
-    sljedeći kostim  :: looks
-    bubnjaj po (3 v) (0.25) puta  :: sound
-    ako (dodiruje [Herbert v]? :: sensing) onda  :: cstart control
-        pošalji [Uhvatio v]  :: events
-        govori [Uhvatio sam te!] (1) sekundi  :: looks
-        čekaj (1) sekundi  :: control
-    end
-end
-```
+  kada je ⚑ kliknut  :: hat events
+  ponavljaj  :: cstart control
+      okreni se k [strelice misa v]  :: motion
+      idi (10) koraka  :: motion
+      sljedeći kostim  :: looks
+      bubnjaj po (3 v) (0.25) puta  :: sound
+      ako (dodiruje [Herbert v]? :: sensing) onda  :: cstart control
+          pošalji [Uhvatio v]  :: events
+          govori [Uhvatio sam te!] (1) sekundi  :: looks
+          čekaj (1) sekundi  :: control
+      end
+  end
+  ```
 
 + Izaberi Herberta i pritisni `Kostimi` pored `Skripte`.
 
 + Pritisni na ![](../bilder/hent-fra-bibliotek.png) i izaberi
-kategoriju `Mašta` pa onda kostim `ghost2a` (duh).
+  kategoriju `Mašta` pa onda kostim `ghost2a` (duh).
 
 + Smanji malo veličinu, pritisni 6 puta na ![](../bilder/krymp.png).
 
 + Promjeni imena Herbertovih kostima. Miš kostim nazovi `Živ` a duh
-kostim `Duh`.
+  kostim `Duh`.
 
 + Pritisni na `Skripte` i dodaj ovaj program. Zadrži stari program.
 

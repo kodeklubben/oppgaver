@@ -290,7 +290,7 @@ I figuren over og i koden videre betyr `retning`{.blockmotion} retningen
 til ballen, siden koden tilhører ballfiguren.  Så langt har vi brukt
 
 ```blocks
-  pek i retning ((180) + (retning))
+pek i retning ((180) + (retning))
 ```
 
 for at ballen skal snu. I figuren ser vi at dette betyr at ballen
@@ -302,13 +302,13 @@ katt`{.blocksensing}). Skjønner du hvorfor av figuren? Da blir den
 nye retningen
 
 ```blocks
-  (((180) + (retning)) - ((2) * ((retning) - ([retning v] av [Katt v])))
+(((180) + (retning)) - ((2) * ((retning) - ([retning v] av [Katt v])))
 ```
 
 Vi kan forenkle dette til
 
 ```blocks
-  (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+(((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
 ```
 
 + Endre i skriptet til ballen slik at spretten blir bedre,
@@ -399,7 +399,7 @@ starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
 Hastigheten på ballen styres nå av klossen
 
 ```blocks
-  gå (3) steg
+gå (3) steg
 ```
 
 Ved å endre på `3`-tallet endrer vi hastigheten på ballen. Prøv dette

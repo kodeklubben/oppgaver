@@ -46,17 +46,17 @@ og søppelet som vi skal kaste.
 
   <style>
   figure.inline > img {
-  width: 100px;
-  display: inline;
+    width: 100px;
+    display: inline;
   }
   </style>
   <figure class="inline">
-  <img src="bananer.png" />
-  <img src="eple.png" />
-  <img src="ballong.png" />
-  <img src="hellikopter.png" />
-  <img src="melk.png" />
-  <img src="avis.png" />
+    <img src="bananer.png" />
+    <img src="eple.png" />
+    <img src="ballong.png" />
+    <img src="hellikopter.png" />
+    <img src="melk.png" />
+    <img src="avis.png" />
   </figure>
 
 + Velg så en bakgrunn som vi kan plassere figurene våre rundt i. Vi valgte
@@ -151,9 +151,9 @@ Nå som vi vet antall poeng vi skal nå, kan vi sette opp bøttene våre.
 + Tegn en ny figur for hver av bøttene `Mat`, `Plast` og `Papir`.
 
   <figure class="inline">
-  <img src="mat.png" />
-  <img src="plast.png" />
-  <img src="papir.png" />
+    <img src="mat.png" />
+    <img src="plast.png" />
+    <img src="papir.png" />
   </figure>
 
 + Vi ønsker ikke å vise bøttene før spillet er i gang. For å få til dette kan vi
