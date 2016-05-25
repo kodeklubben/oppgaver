@@ -278,7 +278,7 @@ rekkefølge figurene stoppes i.
     ```blocks
         når grønt flagg klikkes
         bytt bakgrunn til [Spill v]
-        vent til <<<([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1])> og <([stoppet v] av [Figur3 v]> = [1]>>
+        vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
         bytt bakgrunn til [Slutt v]
     ```
 
@@ -322,7 +322,7 @@ spillet er over.
     ```blocks
         når grønt flagg klikkes
         bytt bakgrunn til [Spill v]
-        vent til <<<([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1])> og <([stoppet v] av [Figur3 v]> = [1]>>
+        vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
         hvis <<([drakt nr. v]  av [Figur1 v]) = ([drakt nr. v]  av [Figur2 v])> og <([drakt nr. v]  av [Figur2 v]) = ([drakt nr. v] av [Figur3 v])>>
             bytt bakgrunn til [Vinner v]
         ellers
