@@ -53,18 +53,18 @@ Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
   korset slik at det markerer blyantspissen. Da vil spissen tegne og
   ikke midten av blyanten.
 
-    ![](senterpunkt.png)
+  ![](senterpunkt.png)
 
 + Få blyanten til å følge musepekeren rundt på scenen ved å bruke `for
   alltid`{.blockcontrol}- og `gå til
   musepeker`{.blockmotion}-klossene.
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            gå til [musepeker v]
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      gå til [musepeker v]
+  slutt
+  ```
 
 Nå vil vi bruke denne blyantfiguren som en ordentlig blyant. Om du ser
 under `Penn`{.blockpen}-kategorien kan du se mange slags
@@ -77,17 +77,17 @@ tegnefunksjoner. De vi er interessert i nå er `penn på`{.blockpen} og
   ellers`{.blockcontrol}- og en `museknappen er
   nede?`{.blocksensing}-kloss. Utvid skriptet som følger.
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            gå til [musepeker v]
-            hvis <museknappen er nede?>
-                penn på
-            ellers
-                penn av
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      gå til [musepeker v]
+      hvis <museknappen er nede?>
+          penn på
+      ellers
+          penn av
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet ditt {.flag}
 
@@ -103,18 +103,18 @@ __Klikk på det grønne flagget.__
 + Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke
   `slett`{.blockpen}-klossen til å fjerne dette.
 
-    ```blocks
-        når grønt flagg klikkes
-        slett
-        for alltid
-            gå til [musepeker v]
-            hvis <museknappen er nede?>
-                penn på
-            ellers
-                penn av
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  slett
+  for alltid
+      gå til [musepeker v]
+      hvis <museknappen er nede?>
+          penn på
+      ellers
+          penn av
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet ditt {.flag}
 
@@ -140,10 +140,10 @@ Vi kan fortsatt bruke `slett`{.blockpen}-klossen.
 
 + Gi slette-figuren dette skriptet:
 
-    ```blocks
-        når denne figuren klikkes
-        slett
-    ```
+  ```blocks
+  når denne figuren klikkes
+  slett
+  ```
 
 ## Test prosjektet ditt {.flag}
 
@@ -170,13 +170,13 @@ gjøre det slik at blyanten også skifter farge.
 
 + Gi den et skript som sender meldingen `Rød`.
 
-    ```blocks
-        når denne figuren klikkes
-        send melding [Rød v]
-    ```
+  ```blocks
+  når denne figuren klikkes
+  send melding [Rød v]
+  ```
 
-    Dette er alt denne figuren gjør. Det vanskelige arbeidet gjøres av
-    blyanten.
+  Dette er alt denne figuren gjør. Det vanskelige arbeidet gjøres av
+  blyanten.
 
 + Klikk på blyanten, og deretter på
   `Drakter`{.blocklightgrey}-fanen. Importer drakten
@@ -187,15 +187,15 @@ gjøre det slik at blyanten også skifter farge.
   forandre drakt til `red-pencil`. Og så skal den selvsagt også
   begynne å tegne rødt. Slik bygger du skriptet:
 
-    ```blocks
-        når jeg mottar [Rød v]
-        bytt drakt til [red-pencil v]
-        velg pennfarge [#FF0000]
-    ```
+  ```blocks
+  når jeg mottar [Rød v]
+  bytt drakt til [red-pencil v]
+  velg pennfarge [#FF0000]
+  ```
 
-    For å velge fargen i `velg pennfarge`{.blockpen}-klossen kan du
-    først klikke i fargeruten på klossen, og deretter på den røde
-    knappen du lagde på scenen tidligere.
+  For å velge fargen i `velg pennfarge`{.blockpen}-klossen kan du
+  først klikke i fargeruten på klossen, og deretter på den røde
+  knappen du lagde på scenen tidligere.
 
 ## Test prosjektet ditt {.flag}
 
@@ -254,20 +254,20 @@ virker ikke blyanten.
   du først legge inn en `_ og _`{.blockoperators}-kloss, og deretter
   legge til to nye `_ og _`{.blockoperators}-klosser inni denne.
 
-    ```blocks
-        når grønt flagg klikkes
-        slett
-        for alltid
-            hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
-                gå til [musepeker v]
-                hvis <museknappen er nede?>
-                    penn på
-                ellers
-                    penn av
-                slutt
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  slett
+  for alltid
+      hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
+          gå til [musepeker v]
+          hvis <museknappen er nede?>
+              penn på
+          ellers
+              penn av
+          slutt
+      slutt
+  slutt
+  ```
 
 + Siden vi ikke kan tegne utenfor tavla, er det like greit at blyanten
   bare blir borte når musepekeren går utenfor tavla. For å gjøre dette
@@ -276,33 +276,33 @@ virker ikke blyanten.
   er innenfor tavlas `x`- og `y`-koordinater følger blyanten pekeren,
   __ellers__ skjules blyanten.
 
-    ```blocks
-        når grønt flagg klikkes
-        slett
-        for alltid
-            hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
-                gå til [musepeker v]
-                vis
-                hvis <museknappen er nede?>
-                    penn på
-                ellers
-                    penn av
-                slutt
-            ellers
-                skjul
-                penn av
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  slett
+  for alltid
+      hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
+          gå til [musepeker v]
+          vis
+          hvis <museknappen er nede?>
+              penn på
+          ellers
+              penn av
+          slutt
+      ellers
+          skjul
+          penn av
+      slutt
+  slutt
+  ```
 
-    Fordi blyanten vil skjules når pekeren går utenfor tavla, må vi få
-    den til å vises igjen når den kommer innenfor. Pass derfor på at
-    du får lagt inn en `vis`{.blocklooks}-kommando innenfor
-    `hvis`{.blockcontrol}-klossen.
+  Fordi blyanten vil skjules når pekeren går utenfor tavla, må vi få
+  den til å vises igjen når den kommer innenfor. Pass derfor på at
+  du får lagt inn en `vis`{.blocklooks}-kommando innenfor
+  `hvis`{.blockcontrol}-klossen.
 
-    Vi har også lagt på en `penn av`{.blockpen}-kloss når blyanten er
-    utenfor tavla, for at den ikke skal tegne en strek akkurat i det
-    den kommer tilbake inn på tavla.
+  Vi har også lagt på en `penn av`{.blockpen}-kloss når blyanten er
+  utenfor tavla, for at den ikke skal tegne en strek akkurat i det
+  den kommer tilbake inn på tavla.
 
 ## Test prosjektet ditt {.flag}
 
@@ -332,10 +332,10 @@ tavla!  Og så gir vi blyanten en viskelærdrakt!
 
 + Gi viskelær-figuren et skript som sender meldingen `Visk`.
 
-    ```blocks
-        når denne figuren klikkes
-        send melding [Visk v]
-    ```
+  ```blocks
+  når denne figuren klikkes
+  send melding [Visk v]
+  ```
 
 + For å få blyanten til å viske må du legge til viskelæret også som en
   drakt på denne. Klikk blyantfiguren. Gå til `Drakter`-fanen og
@@ -345,11 +345,11 @@ tavla!  Og så gir vi blyanten en viskelærdrakt!
 + Blyanten svarer på `Visk`-meldingen med å bytte pennfarge til grå
   (bruk fargevelgeren for å velge bakgrunnsfargen til tavla).
 
-    ```blocks
-        når jeg mottar [Visk v]
-        bytt drakt til [eraser v]
-        velg pennfarge [#606060]
-    ```
+  ```blocks
+  når jeg mottar [Visk v]
+  bytt drakt til [eraser v]
+  velg pennfarge [#606060]
+  ```
 
 ## Test prosjektet ditt {.flag}
 
@@ -373,10 +373,10 @@ __Klikk på det grønne flagget.__
   siden av de andre verktøyene.  Når figuren klikkes skal den sende
   meldingen `Stempel`.
 
-    ```blocks
-        når denne figuren klikkes
-        send melding [Stempel v]
-    ```
+  ```blocks
+  når denne figuren klikkes
+  send melding [Stempel v]
+  ```
 
 + Legg til en ny drakt for blyantfiguren. Det skal være samme drakt
   som du nettopp ga stempelet.
@@ -392,22 +392,22 @@ __Klikk på det grønne flagget.__
   drakten du valgte for stempelet.  Deretter skal det sette verdien
   til `stempelmodus`{.blockdata} lik `på`.
 
-    ```blocks
-        når jeg mottar [Stempel v]
-        bytt drakt til [scratch logo v]
-        sett [stempelmodus v] til [på]
-    ```
+  ```blocks
+  når jeg mottar [Stempel v]
+  bytt drakt til [scratch logo v]
+  sett [stempelmodus v] til [på]
+  ```
 
 + Forandre de andre skriptene som er knyttet til fargevelgerne og
   viskelæret slik at de setter `stempelmodus`{.blockdata} lik
   `av`. For eksempel blir viskelærskriptet slik:
 
-    ```blocks
-        når jeg mottar [Visk v]
-        bytt drakt til [eraser v]
-        velg pennfarge [#606060]
-        sett [stempelmodus v] til [av]
-    ```
+  ```blocks
+  når jeg mottar [Visk v]
+  bytt drakt til [eraser v]
+  velg pennfarge [#606060]
+  sett [stempelmodus v] til [av]
+  ```
 
 + Til slutt må vi sjekke variabelen inne i
   `hvis`{.blockcontrol}`museknappen er nede?`{.blocksensing} for å se
@@ -415,28 +415,28 @@ __Klikk på det grønne flagget.__
   satt til `på` skal vi stemple, hvis ikke skal vi bruke den
   eksisterende `penn på`{.blockpen}-klossen.
 
-    ```blocks
-        når grønt flagg klikkes
-        slett
-        for alltid
-            hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
-                gå til [musepeker v]
-                vis
-                hvis <museknappen er nede?>
-                    hvis <(stempelmodus) = [på]>
-                        stemple avtrykk
-                    ellers
-                        penn på
-                    slutt
-                ellers
-                    penn av
-                slutt
-            ellers
-                skjul
-                penn av
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  slett
+  for alltid
+      hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
+          gå til [musepeker v]
+          vis
+          hvis <museknappen er nede?>
+              hvis <(stempelmodus) = [på]>
+                  stemple avtrykk
+              ellers
+                  penn på
+              slutt
+          ellers
+              penn av
+          slutt
+      ellers
+          skjul
+          penn av
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet ditt {.flag}
 
@@ -539,13 +539,13 @@ stemplet.
   pennebredde`{.blockpen} med 1 eller `endre størrelse`{.blocklooks}
   med 10, avhengig av verdien på `stempelmodus`.
 
-    __Hint:__ Du kan bruke noen av `endre`-klossene under
-    `Penn`{.blockpen} eller `Utseende`{.blocklooks}. For å forminske
-    setter du bare et minustegn foran tallet.
+  __Hint:__ Du kan bruke noen av `endre`-klossene under
+  `Penn`{.blockpen} eller `Utseende`{.blocklooks}. For å forminske
+  setter du bare et minustegn foran tallet.
 
-    __Hint:__ For å holde styr på om det er blyantstreken eller
-    stempelet som skal endres må du bruke en `hvis -
-    ellers`{.blockcontrol}-kloss.
+  __Hint:__ For å holde styr på om det er blyantstreken eller
+  stempelet som skal endres må du bruke en `hvis -
+  ellers`{.blockcontrol}-kloss.
 
 + Glem ikke å lage snarveier for disse funksjonene også. For eksempel
   `pil opp` for større og `pil ned` for mindre.

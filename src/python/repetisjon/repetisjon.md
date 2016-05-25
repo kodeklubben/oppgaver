@@ -216,9 +216,9 @@ argumenter `start`, `stop`, `step`:
 
  * `start` forteller hva vi skal telle fra.
  * `stop` forteller hva vi skal telle til, merk at vi **ikke** teller
-    med slutt-tallet.
+  med slutt-tallet.
  * `step` forteller hvor store steg vi skal telle med. Vi kan for eksempel
-    telle med steg på `2` eller steg på `100`.
+  telle med steg på `2` eller steg på `100`.
 
 Ettersom rekken lages etterhvert som man teller over den, må man konvertere
 rekken til en liste dersom vi ønsker å se tallene i rekken. Rekken konverteres
@@ -279,8 +279,8 @@ Dette må du gjøre:
  * Lag en variabel som inneholder summen.
  * Lag en tellevariabel som inneholder tallet du er kommet til.
  * Så lenge tellevariabelen ikke er større enn 100:
-    * Oppdater summen.
-    * Inkrementer tellevariabelen din.
+  * Oppdater summen.
+  * Inkrementer tellevariabelen din.
 
 # Funksjoner {.activity}
 

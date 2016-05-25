@@ -43,13 +43,13 @@ JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 + Få fisken til å følge musepekeren rundt i sjøen ved å lage dette
   skriptet:
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            pek mot [musepeker v]
-            gå (3) steg
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      pek mot [musepeker v]
+      gå (3) steg
+  slutt
+  ```
 
 ## Test Prosjektet {.flag}
 
@@ -68,15 +68,15 @@ __Klikk på det grønne flagget.__
   til [musepeker v]`{.b} ligger i
   `Sansning`{.blocksensing}-kategorien).
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            hvis <(avstand til [musepeker v]) > [10]>
-                pek mot [musepeker v]
-                gå (3) steg
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      hvis <(avstand til [musepeker v]) > [10]>
+          pek mot [musepeker v]
+          gå (3) steg
+      slutt
+  slutt
+  ```
 
 ## Ting å prøve {.try}
 
@@ -106,14 +106,14 @@ forandrer bevegelsene.
   la det bevege seg litt framover, og så snu en tilfeldig valgt vinkel
   med eller mot klokka, og deretter gjenta.
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            gå (2) steg
-            vend venstre (tilfeldig tall fra (-20) til (20)) grader
-            sprett tilbake ved kanten
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      gå (2) steg
+      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      sprett tilbake ved kanten
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -150,19 +150,19 @@ så å dukke opp igjen en liten stund senere.
   `berører [JafseFisk v]?`{.b} for å sjekke om byttet kommer borti
   JafseFisk. Utvid skriptet på byttedyret slik som dette:
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            gå (2) steg
-            vend venstre (tilfeldig tall fra (-20) til (20)) grader
-            sprett tilbake ved kanten
-            hvis <berører [JafseFisk v]?>
-                skjul
-                vent (3) sekunder
-                vis
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      gå (2) steg
+      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      sprett tilbake ved kanten
+      hvis <berører [JafseFisk v]?>
+          skjul
+          vent (3) sekunder
+          vis
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -189,20 +189,20 @@ __Klikk på det grønne flagget.__
   før det dukker opp igjen ved å bruke `gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))`{.b}
   som vi gir tilfeldige verdier for `x` og `y`.
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            gå (2) steg
-            vend venstre (tilfeldig tall fra (-20) til (20)) grader
-            sprett tilbake ved kanten
-            hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
-                skjul
-                vent (3) sekunder
-                gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
-                vis
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      gå (2) steg
+      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      sprett tilbake ved kanten
+      hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
+          skjul
+          vent (3) sekunder
+          gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
+          vis
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -224,21 +224,21 @@ __Klikk på det grønne flagget.__
   `send melding [Du tok meg! v]`{.b} om at det er spist, før det
   forsvinner.
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            gå (2) steg
-            vend venstre (tilfeldig tall fra (-20) til (20)) grader
-            sprett tilbake ved kanten
-            hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
-                send melding [Du tok meg! v]
-                skjul
-                vent (3) sekunder
-                gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
-                vis
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      gå (2) steg
+      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      sprett tilbake ved kanten
+      hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
+          send melding [Du tok meg! v]
+          skjul
+          vent (3) sekunder
+          gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
+          vis
+      slutt
+  slutt
+  ```
 
 Nå vil vi at JafseFisk reagerer på denne meldingen ved å lage en
 gomlelyd og klikke med kjevene.
@@ -251,16 +251,16 @@ gomlelyd og klikke med kjevene.
   fisken spiller av boblelyden og `bytt drakt til [Åpen munn v]`{.b}
   drakten, venter litt og så bytter tilbake.
 
-    ```blocks
-        når jeg mottar [Du tok meg! v]
-        spill lyden [bubbles v]
-        gjenta (2) ganger
-            bytt drakt til [Lukket munn v]
-            vent (0.5) sekunder
-            bytt drakt til [Åpen munn v]
-            vent (0.5) sekunder
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Du tok meg! v]
+  spill lyden [bubbles v]
+  gjenta (2) ganger
+      bytt drakt til [Lukket munn v]
+      vent (0.5) sekunder
+      bytt drakt til [Åpen munn v]
+      vent (0.5) sekunder
+  slutt
+  ```
 
 Nå er JafseFisk klar til å spise, så la oss fylle havet med byttedyr.
 
@@ -314,8 +314,8 @@ __Klikk på det grønne flagget.__
 + Beveger byttedyrene seg på en fornuftig måte?  Gjør disse
   forandringene spillet bedre?
 
-    __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene
-    i `vend venstre (tilfeldig tall fra (-20) til (20)) grader`{.b}.
+  __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene
+  i `vend venstre (tilfeldig tall fra (-20) til (20)) grader`{.b}.
 
 + Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
   forskjellige kombinasjoner av disse bevegelsene?

@@ -28,14 +28,14 @@ vi kaller `bakken`.
   enkleste er å bare fylle den nederste tredjeparten av tegneområdet
   med grønt. Vi starter med å gi den følgende skript
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        gå til x: (0) y: (-300)
-        sett størrelse til (200) %
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  gå til x: (0) y: (-300)
+  sett størrelse til (200) %
+  ```
 
-    Nå bør bakken ligge nederst i scenen når spillet begynner. Hvis
-    den ikke gjør det kan du endre litt på tallene.
+  Nå bør bakken ligge nederst i scenen når spillet begynner. Hvis
+  den ikke gjør det kan du endre litt på tallene.
 
 + Nå vil vi at bakken skal følge med Flakse, det vil si: når Flakse er
   høyt oppe (`y`{.blockdata} er stor) så skal bakken gå nedover, og
@@ -43,27 +43,27 @@ vi kaller `bakken`.
   Flakse berører bakken skal spilleren tape. Vi legger til følgende
   `for alltid`{.blockcontrol}-løkke i skriptet til bakken,
 
-    ```blocks
-        for alltid
-            sett y til ((20) - (y))
-            hvis <berører [Flakse v]>
-                si [du tapte!] i (2) sekunder
-                stopp [alle v] :: control
-            slutt
-        slutt
-    ```
+  ```blocks
+  for alltid
+      sett y til ((20) - (y))
+      hvis <berører [Flakse v]>
+          si [du tapte!] i (2) sekunder
+          stopp [alle v] :: control
+      slutt
+  slutt
+  ```
 
 + Til slutt så vil vi helst at bakken skal forsvinne når Flakse flyr
   veldig høyt. Det kan vi gjøre med `skjul`{.blocklooks} og
   `vis`{.blocklooks} kommandoene, slik
 
-    ```blocks
-        hvis <(y) < [150]>
-            vis
-        ellers
-            skjul
-        slutt
-    ```
+  ```blocks
+  hvis <(y) < [150]>
+      vis
+  ellers
+      skjul
+  slutt
+  ```
 
 # Steg 2: Få Flakse til å flakse {.activity}
 
@@ -83,16 +83,16 @@ den flakser med vingene når vi trykker mellomromtasten.
 + Vi må slette testene som sjekker om `pil opp`eller `pil ned` tastene
   trykkes og erstatte dem med
 
-    ```blocks
-        hvis <tast [mellomrom v] trykket?>
-            endre [flaks v] med (1)
-            vent (0.01) sekunder
-        slutt
-    ```
+  ```blocks
+  hvis <tast [mellomrom v] trykket?>
+      endre [flaks v] med (1)
+      vent (0.01) sekunder
+  slutt
+  ```
 
-    Alt som skjer nå er at `flaks`{.blockdata} økes med én hver gang
-    mellomrom trykkes. Vi lager et nytt skript hos Flakse som tar seg
-    av flaksingen.
+  Alt som skjer nå er at `flaks`{.blockdata} økes med én hver gang
+  mellomrom trykkes. Vi lager et nytt skript hos Flakse som tar seg
+  av flaksingen.
 
 + Lag en ny variabel. Kall den `løft`{.blockdata}, og la den gjelde
   kun for denne figuren. Denne variabelen skal fortelle oss hvor fort
@@ -103,32 +103,32 @@ den flakser med vingene når vi trykker mellomromtasten.
 
 + Sett inn disse klossene først i hovedløkken til Flakse:
 
-    ```blocks
-        endre [y v] med (løft)
-        hvis <(løft) > [-5]>
-            endre [løft v] med (-0.5)
-        slutt
-    ```
+  ```blocks
+  endre [y v] med (løft)
+  hvis <(løft) > [-5]>
+      endre [løft v] med (-0.5)
+  slutt
+  ```
 
 + Til slutt lager vi et nytt skript hos Flakse slik:
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        for alltid
-            gjenta til <(flaks) = [0]>
-                endre [flaks v] med (-1)
-                hvis <(løft) < [5]>
-                    endre [løft v] med (2)
-                slutt
-                hvis <(løft) < [0]>
-                    sett [løft v] til [0]
-                slutt
-            slutt
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  for alltid
+      gjenta til <(flaks) = [0]>
+          endre [flaks v] med (-1)
+          hvis <(løft) < [5]>
+              endre [løft v] med (2)
+          slutt
+          hvis <(løft) < [0]>
+              sett [løft v] til [0]
+          slutt
+      slutt
+  slutt
+  ```
 
-    Nå kan du justere litt på tallene i skriptene over for at Flakse
-    flyr slik DU vil!
+  Nå kan du justere litt på tallene i skriptene over for at Flakse
+  flyr slik DU vil!
 
 # Steg 3: Få Flakse til å snu seg i luften {.activity}
 
@@ -153,18 +153,18 @@ Dette får vi til ved å endre litt på hovedskriptet til flakse.
   ikke trykkes lenger. Det kan vi enkelt få til ved å legge til disse
   klossene under testene som sjekker om piltastene trykkes.
 
-    ```blocks
-        hvis <(retning) < [90]>
-            vend høyre (1) grader
-        slutt
-        hvis <(retning) > [90]>
-            vend venstre (1) grader
-        slutt
-    ```
+  ```blocks
+  hvis <(retning) < [90]>
+      vend høyre (1) grader
+  slutt
+  hvis <(retning) > [90]>
+      vend venstre (1) grader
+  slutt
+  ```
 
-    Disse klossene sørger enkelt og greit for at figuren alltid prøver
-    å peke mot retning 90 (som er vannrett for figuren). Når bør
-    flyvningen til Flakse se ganske bra ut!
+  Disse klossene sørger enkelt og greit for at figuren alltid prøver
+  å peke mot retning 90 (som er vannrett for figuren). Når bør
+  flyvningen til Flakse se ganske bra ut!
 
 # Steg 4: Sjekk om Flakse treffer ringene {.activity}
 
@@ -181,16 +181,16 @@ ring-figuren.
   sjekke om Flakse berører ringen, *og* om ringen faktisk er nærme. Du
   må legge til denne klossen et sted i skriptet til ring-klonene.
 
-    ```blocks
-        hvis <<berører [Flakse v]> og <(distanse) < [1.2]>>
-            si [du tapte!] i (1) sekunder
-            stopp [alle v] :: control
-        slutt
-    ```
+  ```blocks
+  hvis <<berører [Flakse v]> og <(distanse) < [1.2]>>
+      si [du tapte!] i (1) sekunder
+      stopp [alle v] :: control
+  slutt
+  ```
 
-    Nå stopper spillet om man treffer en ring som er nærme. Hvis du
-    vil kan du kode noe annen oppførsel når man treffer en ring
-    (kanskje man bare mister et liv, eller det spilles en lyd?)
+  Nå stopper spillet om man treffer en ring som er nærme. Hvis du
+  vil kan du kode noe annen oppførsel når man treffer en ring
+  (kanskje man bare mister et liv, eller det spilles en lyd?)
 
 + Så ønsker vi å få poeng når vi fly gjennom ringene. Lag først en
   variabel `poeng`{.blockdata} som gjelder for alle figurene. Nå må vi
@@ -200,16 +200,16 @@ ring-figuren.
   klosser rett under hovedløkken til ringene, slik at det siste
   ringene gjør før de slettes er å sjekke om Flakse er inni.
 
-    ```blocks
-        hvis < <(x) < ((ringX) + (160))> og <(x) > ((ringX) - (160))> >
-            hvis < <(y) < ((ringY) + (160))> og <(ringY) > ((ringY) - (160))> >
-                endre [poeng v] med (1)
-            slutt
-        slutt
-    ```
+  ```blocks
+  hvis < <(x) < ((ringX) + (160))> og <(x) > ((ringX) - (160))> >
+      hvis < <(y) < ((ringY) + (160))> og <(ringY) > ((ringY) - (160))> >
+          endre [poeng v] med (1)
+      slutt
+  slutt
+  ```
 
-    Fungerer skriptet som det skal? Hva er det vi egentlig sjekker i
-    den siste `hvis`{.blockcontrol}-testen?
+  Fungerer skriptet som det skal? Hva er det vi egentlig sjekker i
+  den siste `hvis`{.blockcontrol}-testen?
 
 Nå er vi igrunn ferdig med det viktigste i spillet. Men det er
 fremdeles masse spennende igjen du kan prøve:

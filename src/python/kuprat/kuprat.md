@@ -30,15 +30,15 @@ kjempeenkelt program. Vi vil bare skrive en enkel hilsen på skjermen.
 
    **Windows**: Åpne IDLE fra startmenyen.
 
-    **Mac**: Åpne terminal.app, skriv `idle` og trykk enter.
+  **Mac**: Åpne terminal.app, skriv `idle` og trykk enter.
 
-    **Linux**: Åpne en terminal, skriv `idle` og trykk enter.
+  **Linux**: Åpne en terminal, skriv `idle` og trykk enter.
 
-    Dette vil åpne et vindu som heter `Python Shell`. Hvis du ikke
-    finner IDLE, eller vinduet ikke åpner seg kan det være fordi
-    Python ikke er installert. I såfall kan du laste ned siste versjon
-    fra [http://www.python.org/](http://www.python.org/). Spør gjerne
-    om hjelp til dette om nødvendig.
+  Dette vil åpne et vindu som heter `Python Shell`. Hvis du ikke
+  finner IDLE, eller vinduet ikke åpner seg kan det være fordi
+  Python ikke er installert. I såfall kan du laste ned siste versjon
+  fra [http://www.python.org/](http://www.python.org/). Spør gjerne
+  om hjelp til dette om nødvendig.
 
 + Vinduet `Python Shell` som åpnet seg er der du vil se resultatet av
   programmet ditt. For å skrive et nytt program må vi åpne et
@@ -47,16 +47,16 @@ kjempeenkelt program. Vi vil bare skrive en enkel hilsen på skjermen.
 + I dette nye vinduet skal vi nå skrive vårt første Python-program.
   Skriv følgende:
 
-    ![](hei_program.png)
+  ![](hei_program.png)
 
 + Vi skal nå lagre og kjøre dette programmet. Velg først `File >
   Save`, og gi programmet ditt navnet `hei.py`. Deretter kan du kjøre
   programmet ved å klikke `Run > Run Module`. Du skal nå se at Python
   skriver en liten hilsen i det første vinduet.
 
-    ![](hei_kjor.png)
+  ![](hei_kjor.png)
 
-    Gratulerer! Du har nå skrevet og kjørt ditt første Python-program!
+  Gratulerer! Du har nå skrevet og kjørt ditt første Python-program!
 
 ### Feilmeldinger {.protip}
 
@@ -83,11 +83,11 @@ fnutter, `'`.
 + Vi kan enkelt endre på hva Python skriver til skjermen. Prøv å endre
   programmet ditt til det følgende:
 
-    ```python
-    print('Hei alle sammen!')
-    ```
+  ```python
+  print('Hei alle sammen!')
+  ```
 
-    Lagre filen på nytt, og kjør programmet.
+  Lagre filen på nytt, og kjør programmet.
 
 + Prøv å endre teksten til noe du finner på selv, og kjør programmet
   igjen!
@@ -117,13 +117,13 @@ på tastaturet.
 
 + Endre programmet ditt slik at det nå ser slik ut:
 
-    ```python
-    navn = input('Hva heter du? ')
-    print('Hei ' + navn)
-    ```
+  ```python
+  navn = input('Hva heter du? ')
+  print('Hei ' + navn)
+  ```
 
-    Lagre og kjør programmet. Skriv inn navnet ditt når du blir spurt
-    om det, og trykk enter-tasten. Hilser Python deg med navn?
+  Lagre og kjør programmet. Skriv inn navnet ditt når du blir spurt
+  om det, og trykk enter-tasten. Hilser Python deg med navn?
 
 + For at teksten skal se bra ut må du passe på at du bruker
   mellomrom. Det ser best ut med et mellomrom mellom `?` og `'` i
@@ -163,46 +163,46 @@ omtrent hva som helst.
   `File > New File`. Skriv inn følgende
   program:
 
-    ```python
-    print('^__^')
-    print('(oo)\_______')
-    print('(__)\       )')
-    print('    ||----W |')
-    print('    ||     ||')
-    ```
+  ```python
+  print('^__^')
+  print('(oo)\_______')
+  print('(__)\       )')
+  print('    ||----W |')
+  print('    ||     ||')
+  ```
 
-    Lagre programmet som `kuprat.py` og kjør det. En ganske stilig ku!
+  Lagre programmet som `kuprat.py` og kjør det. En ganske stilig ku!
 
 + Men nå må vi få kua til å si noe. Legg til og endre kodelinjene dine
   slik at dette ser bra ut:
 
-    ```python
-    print(' ____________________')
-    print('< Python er morsomt! >')
-    print(' --------------------')
-    print('     \   ^__^')
-    print('      \  (oo)\_______')
-    print('         (__)\       )')
-    print('             ||----W |')
-    print('             ||     ||')
-    ```
+  ```python
+  print(' ____________________')
+  print('< Python er morsomt! >')
+  print(' --------------------')
+  print('     \   ^__^')
+  print('      \  (oo)\_______')
+  print('         (__)\       )')
+  print('             ||----W |')
+  print('             ||     ||')
+  ```
 
 + Nå kan vi bruke det vi har lært tidligere for å enkelt endre på
   meldingene som kua sier. Ved hjelp av `input` kan vi spørre om hva
   kua skal si. Endre programmet slik at det ser ut som følger:
 
-    ```python
-    melding = input('Hva skal kua si? ')
+  ```python
+  melding = input('Hva skal kua si? ')
 
-    print(' ____________________')
-    print('< ' + melding + ' >')
-    print(' --------------------')
-    print('     \   ^__^')
-    print('      \  (oo)\_______')
-    print('         (__)\       )')
-    print('             ||----W |')
-    print('             ||     ||')
-    ```
+  print(' ____________________')
+  print('< ' + melding + ' >')
+  print(' --------------------')
+  print('     \   ^__^')
+  print('      \  (oo)\_______')
+  print('         (__)\       )')
+  print('             ||----W |')
+  print('             ||     ||')
+  ```
 
 + Hvordan virker programmet når du kjører det nå? Prøv med
   forskjellige tekster. Ser du et problem?
@@ -214,19 +214,19 @@ omtrent hva som helst.
   kan finne lengden til en tekst. For å teste denne funksjonen, prøv å
   legge inn denne linjen rett etter `input`-linjen i programmet ditt:
 
-    ```python
-    print(len(melding))
-    ```
+  ```python
+  print(len(melding))
+  ```
 
-    Dette vil skrive ut lengden av meldingen før kua skrives ut.
+  Dette vil skrive ut lengden av meldingen før kua skrives ut.
 
 + Vi kan bruke denne lengden av meldingen til å regne ut hvor lang
   snakkeboblen må være. Siden vi har mellomrom på begge sider av
   meldingen bør snakkeboblen være 2 tegn lengre enn meldingen.
 
-    ```python
-    boblelengde = len(melding) + 2
-    ```
+  ```python
+  boblelengde = len(melding) + 2
+  ```
 
 + For å tegne snakkeboblen kan vi bruke et Pythontriks som kan
   repetere tekst. Vi har allerede sett at vi kan sette sammen tekst
@@ -237,21 +237,21 @@ omtrent hva som helst.
 
 + Endre programmet ditt slik at det blir seende ut som følger:
 
-    ```python
-    melding = input('Hva skal kua si? ')
-    boblelengde = len(melding) + 2
+  ```python
+  melding = input('Hva skal kua si? ')
+  boblelengde = len(melding) + 2
 
-    print(' ' + '_' * boblelengde)
-    print('< ' + melding + ' >')
-    print(' ' + '-' * boblelengde)
-    print('     \   ^__^')
-    print('      \  (oo)\_______')
-    print('         (__)\       )')
-    print('             ||----W |')
-    print('             ||     ||')
-    ```
+  print(' ' + '_' * boblelengde)
+  print('< ' + melding + ' >')
+  print(' ' + '-' * boblelengde)
+  print('     \   ^__^')
+  print('      \  (oo)\_______')
+  print('         (__)\       )')
+  print('             ||----W |')
+  print('             ||     ||')
+  ```
 
-    Lagre og kjør programmet. Blir snakkeboblen riktig størrelse?
+  Lagre og kjør programmet. Blir snakkeboblen riktig størrelse?
 
 ### Prøv selv {.try}
 

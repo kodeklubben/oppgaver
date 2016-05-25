@@ -59,20 +59,20 @@ sprettende ball!
   løkken som gjør at ballen beveger seg og snur når den treffer kanten
   av skjermen.
 
-    ```blocks
-        når jeg mottar [Ny ball v]
-        sett [hastighet v] til [7]
-        gå til x: (0) y: (0)
-        pek i retning (tilfeldig tall fra (1) til (360))
-        for alltid
-            gå (hastighet) steg
-            sprett tilbake ved kanten
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Ny ball v]
+  sett [hastighet v] til [7]
+  gå til x: (0) y: (0)
+  pek i retning (tilfeldig tall fra (1) til (360))
+  for alltid
+      gå (hastighet) steg
+      sprett tilbake ved kanten
+  slutt
+  ```
 
-    Les koden nøye mens du legger den til på ball-figuren. Pass på at
-    du skjønner hva hver enkelt kloss gjør, fordi denne koden skal du
-    endre selv etterhvert.
+  Les koden nøye mens du legger den til på ball-figuren. Pass på at
+  du skjønner hva hver enkelt kloss gjør, fordi denne koden skal du
+  endre selv etterhvert.
 
 + Klikk på kodeblokken din for at den skal kjøre, og for at ballen
   skal begynne å bevege seg. Ser det bra ut?
@@ -87,10 +87,10 @@ enklere starte spillet.
 
 + Legg denne enkle kodesnutten til på scenen:
 
-    ```blocks
-        når grønt flagg klikkes
-        send melding [Ny ball v]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  send melding [Ny ball v]
+  ```
 
 # Steg 2: Litt mer kontroll på ballen {.activity}
 
@@ -113,43 +113,43 @@ eller når den berører spesielle farger.
   vil at ballen skal sprette (vi har brukt lyseblått) og der du vil gi
   poeng (vi har brukt mørkeblått).
 
-    ![](bakgrunn.png)
+  ![](bakgrunn.png)
 
 + Om ballen treffer mål (mørkeblå) vil vi at den stopper, og
   etterhvert skal vi telle poeng. Dette kan vi gjøre ved å bytte ut
 
-    ```blocks
-        for alltid
-        slutt
-    ```
+  ```blocks
+  for alltid
+  slutt
+  ```
 
-    med
+  med
 
-    ```blocks
-        gjenta til <berører fargen [#0000FF]>
-        slutt
-        send melding [Poeng v]
-    ```
+  ```blocks
+  gjenta til <berører fargen [#0000FF]>
+  slutt
+  send melding [Poeng v]
+  ```
 
 + For at ballen skal sprette når den treffer veggen (lyseblå) vil vi
   endre retningen på ballen selv. Igjen undersøker vi om ballen
   berører en spesiell farge ved å bytte ut
 
-    ```blocks
-        sprett tilbake ved kanten
-    ```
+  ```blocks
+  sprett tilbake ved kanten
+  ```
 
-    med for eksempel
+  med for eksempel
 
-    ```blocks
-        hvis <berører fargen [#9999FF]>
-            pek i retning ((180) - (retning))
-            trommeslag (15 v) som varer (0.01) takter
-        slutt
-    ```
+  ```blocks
+  hvis <berører fargen [#9999FF]>
+      pek i retning ((180) - (retning))
+      trommeslag (15 v) som varer (0.01) takter
+  slutt
+  ```
 
-    Skjønner du hva tallet `180` gjør? Prøv å tenk på hvordan en ball
-    spretter i en vegg, og hvordan retningen på ballen endrer seg.
+  Skjønner du hva tallet `180` gjør? Prøv å tenk på hvordan en ball
+  spretter i en vegg, og hvordan retningen på ballen endrer seg.
 
 # Steg 3: Racketer til spillerene {.activity}
 
@@ -171,10 +171,10 @@ eller når den berører spesielle farger.
   begrensning slik at ikke racketen kan forsvinne ut av skjermen? Det
   kan du gjøre for eksempel med en test som ser omtrent slik ut:
 
-    ```blocks
-        hvis <<tast [w v] trykket> og <(y-posisjon) < [150]>>
-        slutt
-    ```
+  ```blocks
+  hvis <<tast [w v] trykket> og <(y-posisjon) < [150]>>
+  slutt
+  ```
 
 + Når du er fornøyd med hvordan denne racketen styres kan du kopiere
   den.

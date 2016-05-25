@@ -63,9 +63,9 @@ kommer borti.
   mulig løsning er som følger:
 
   ```blocks
-      når jeg mottar [Redning v]
-      si [Hurra, jeg reddet!]
-      stopp [andre skript i figuren v] :: control
+  når jeg mottar [Redning v]
+  si [Hurra, jeg reddet!]
+  stopp [andre skript i figuren v] :: control
   ```
 
   Det er her viktig å _ikke_ bruke `si [Hello!] i (2) sekunder`{.b}
@@ -137,10 +137,10 @@ sjelden problemer.
   siden Katten beveger seg er det Kattens oppførsel vi må beskrive_).
 
   ```blocks
-      for alltid
-          pek mot [Bat1 v]
-          gå (10) steg
-      slutt
+  for alltid
+      pek mot [Bat1 v]
+      gå (10) steg
+  slutt
   ```
 
 + Hvordan kan vi programmere at flaggermusa rømmer fra katten når
@@ -154,10 +154,10 @@ sjelden problemer.
   følgende er et eksempel (husk at koden hører til flaggermusa):
 
   ```blocks
-      for alltid
-          vent til <berører [Sprite1 v]>
-          gli (0.2) sekunder til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180))
-      slutt
+  for alltid
+      vent til <berører [Sprite1 v]>
+      gli (0.2) sekunder til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180))
+  slutt
   ```
 
 + Spør elevene om de kan tenke seg noen annen måte (enn
@@ -171,12 +171,12 @@ sjelden problemer.
   som dette (ikke alle disse klossene eksisterer i Scratch):
 
   ```blocks
-      for alltid
-          flytt [katten v] mot [flaggermusa v] :: motion
-          hvis <[katten v] berører [flaggermusa v] :: sensing>
-              flytt [flaggermusa v] til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180)) :: motion
-          slutt
+  for alltid
+      flytt [katten v] mot [flaggermusa v] :: motion
+      hvis <[katten v] berører [flaggermusa v] :: sensing>
+          flytt [flaggermusa v] til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180)) :: motion
       slutt
+  slutt
   ```
 
   Vis gjerne denne koden til elevene. I tillegg til at det bare er ett

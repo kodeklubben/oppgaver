@@ -52,33 +52,33 @@ Her er noen eksempler på hva funksjonene kan brukes til:
 
 * `s.capitalize()` brukes når vi ønsker stor forbokstav kun i begynnelsen av teksten:
 
-    ```python
-    >>> sentence = "dENne sETNinGeN har IKKE riKTige bokSTAVstØrReLSER."
-    >>> sentence.capitalize()
-    'Denne setningen har ikke riktige bokstavstørrelser.'
-    ```
+  ```python
+  >>> sentence = "dENne sETNinGeN har IKKE riKTige bokSTAVstØrReLSER."
+  >>> sentence.capitalize()
+  'Denne setningen har ikke riktige bokstavstørrelser.'
+  ```
 * `s.title()` kan brukes når vi skal skrive filmtitler:
 
-    ```python
-    >>> movie_title = "star wars: a new hope"
-    >>> movie_title.title()
-    'Star Wars: A New Hope'
-    ```
+  ```python
+  >>> movie_title = "star wars: a new hope"
+  >>> movie_title.title()
+  'Star Wars: A New Hope'
+  ```
 
 * `s.upper()` og `s.lower()` kan brukes når vi ønsker å sammenlikne tekst uten
   å ta hensyn størrelsen på bokstavene:
 
-    ```python
-    >>> answer = "JA"
-    >>> answer == "ja"  # JA og ja er ikke lik
-    False
-    ```
+  ```python
+  >>> answer = "JA"
+  >>> answer == "ja"  # JA og ja er ikke lik
+  False
+  ```
 
-    ```python
-    >>> answer = "JA"
-    >>> answer.lower() == "ja"  # konverter JA til ja for testen
-    True
-    ```
+  ```python
+  >>> answer = "JA"
+  >>> answer.lower() == "ja"  # konverter JA til ja for testen
+  True
+  ```
 
 Du må huske på at disse funksjonene **ikke** endrer på variabelen. Derfor må du
 lagre resultatet i en ny variabel om du vil beholde endringen din:
@@ -164,7 +164,7 @@ Dette må du gjøre:
  * Regn ut hvor mange ord som er i teksten.
  * Skriv ut hvor mange ord teksten inneholder.
 
-    **Hint:** husk å konvertere fra tall til tekst med `str()`-funksjonen.
+  **Hint:** husk å konvertere fra tall til tekst med `str()`-funksjonen.
 
 # Erstatte tekst {.activity}
 

@@ -25,31 +25,31 @@ figurene vi spiller mot blir raskere og vanskeligere å jage bort.
 + La oss lage en bakgrunn. Til dette spillet trenger vi en ganske
   enkel bakgrunn med litt vinterfølelse. Den kan vi tegne selv:
 
-    Velg ![Tegn ny bakgrunn](../bilder/tegn-ny.png) for å tegne en
-    ny bakgrunn. Pass på at du bruker vektorgrafikk, og tegn en stor
-    firkant som dekker hele bakgrunnen. Velg så en mørkeblå
-    forgrunnsfarge og en lysere bakgrunnsfarge. Klikk på
-    malingsspannet for å fylle firkanten med farge, og velg en
-    overgang nederst til venstre. Klikk på bakgrunnen for å fylle den
-    med farge.
+  Velg ![Tegn ny bakgrunn](../bilder/tegn-ny.png) for å tegne en
+  ny bakgrunn. Pass på at du bruker vektorgrafikk, og tegn en stor
+  firkant som dekker hele bakgrunnen. Velg så en mørkeblå
+  forgrunnsfarge og en lysere bakgrunnsfarge. Klikk på
+  malingsspannet for å fylle firkanten med farge, og velg en
+  overgang nederst til venstre. Klikk på bakgrunnen for å fylle den
+  med farge.
 
-    Velg nå hvit som forgrunnsfarge, og lag en litt mindre boks som
-    dekker nedre del av bakgrunnen. Fyll også denne med passende farger.
+  Velg nå hvit som forgrunnsfarge, og lag en litt mindre boks som
+  dekker nedre del av bakgrunnen. Fyll også denne med passende farger.
 
-    ![](bakgrunn.png)
+  ![](bakgrunn.png)
 
-    Kall bakgrunnen for `Spill`.
+  Kall bakgrunnen for `Spill`.
 
 + Legg følgende lille skript på scenen:
 
-    ```blocks
-        når grønt flagg klikkes
-        send melding [start v]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  send melding [start v]
+  ```
 
-    Du har kanskje sett dette trikset tidligere. Dette gjør det
-    enklere for oss å senere komme tilbake og legge på en startmeny og
-    lignende.
+  Du har kanskje sett dette trikset tidligere. Dette gjør det
+  enklere for oss å senere komme tilbake og legge på en startmeny og
+  lignende.
 
 + Neste steg er å finne en passende figur som vi kan styre rundt og
   kaste snøballer med. Vi har brukt snømannen, `Fantasi/Snowman`, men
@@ -58,27 +58,27 @@ figurene vi spiller mot blir raskere og vanskeligere å jage bort.
 + Lag en ny variabel, `hastighet`{.blockdata}, som gjelder kun for
   denne figuren, og lag dette skriptet:
 
-    ```blocks
-        når grønt flagg klikkes
-        sett størrelse til (75) %
-        begrens rotasjon [vend sideveis v]
-        sett [hastighet v] til [5]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett størrelse til (75) %
+  begrens rotasjon [vend sideveis v]
+  sett [hastighet v] til [5]
+  ```
 
-    På det grønne flagget legger vi innstillinger som skal gjelde for
-    __Helten__ gjennom hele spillet. Endre gjerne på størrelsen og
-    hastigheten etterhvert som du tester spillet, slik at du finner
-    innstillinger du liker.
+  På det grønne flagget legger vi innstillinger som skal gjelde for
+  __Helten__ gjennom hele spillet. Endre gjerne på størrelsen og
+  hastigheten etterhvert som du tester spillet, slik at du finner
+  innstillinger du liker.
 
 + Nå kan vi lage selve hovedløkken til __Helten__. Lag først en løkke
   som starter på meldingen `start`:
 
-    ```blocks
-        når jeg mottar [start v]
-        gå til x: (0) y: (-75)
-        for alltid
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [start v]
+  gå til x: (0) y: (-75)
+  for alltid
+  slutt
+  ```
 
 + Inne i løkken trenger vi to `hvis`{.blockcontrol}-klosser som flytter
 __Helten__ `hastighet`{.blockdata} steg mot høyre eller venstre når
@@ -118,36 +118,36 @@ __Klikk på det grønne flagget.__
   standardinnstillinger for snøballen. Lag en variabel
   `hastighet`{.blockdata} som kun gjelder for denne figuren:
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
-        sett størrelse til (40) %
-        sett [hastighet v] til [10]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  skjul
+  sett størrelse til (40) %
+  sett [hastighet v] til [10]
+  ```
 
 + Vi bruker `skjul`{.blocklooks} fordi vi vil lage kloner (kopier) av
   denne snøballen som vi kaster av gårde. Dette er et veldig nyttig
   triks i Scratch. Selve koden som reagerer på `kast`-meldingen er
   veldig enkel.
 
-    ```blocks
-        når jeg mottar [kast v]
-        lag klon av [meg v]
-    ```
+  ```blocks
+  når jeg mottar [kast v]
+  lag klon av [meg v]
+  ```
 
 + Selve oppførselen til hver enkelt snøball programmerer vi så på en
   `når jeg starter som klon`{.blockcontrol}-kloss.
 
-    ```blocks
-        når jeg starter som klon
-        gå til [Helten v]
-        pek i retning ([retning v] av [Helten v])
-        vis
-        gjenta til <berører [kant v]>
-            gå (hastighet) steg
-        slutt
-        slett denne klonen
-    ```
+  ```blocks
+  når jeg starter som klon
+  gå til [Helten v]
+  pek i retning ([retning v] av [Helten v])
+  vis
+  gjenta til <berører [kant v]>
+      gå (hastighet) steg
+  slutt
+  slett denne klonen
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -169,11 +169,11 @@ __Klikk på det grønne flagget.__
   snøballer. Dette kan vi løse ganske enkelt ved å vente til
   mellomrom-tasten er sluppet før vi kaster snøballen. Legg til
 
-    ```blocks
-        vent til <ikke <tast [mellomrom v] trykket?>>
-    ```
+  ```blocks
+  vent til <ikke <tast [mellomrom v] trykket?>>
+  ```
 
-    på __Helten__-figuren før `kast`-meldingen sendes.
+  på __Helten__-figuren før `kast`-meldingen sendes.
 
 # Steg 3: Slemme gutter {.activity}
 
@@ -191,65 +191,65 @@ __Klikk på det grønne flagget.__
   igjen en variabel `hastighet`{.blockdata} som gjelder kun for denne
   figuren. Deretter,
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
-        gå til x: (0) y: (-70)
-        begrens rotasjon [vend sideveis v]
-        sett størrelse til (30) %
-        sett [hastighet v] til [3]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  skjul
+  gå til x: (0) y: (-70)
+  begrens rotasjon [vend sideveis v]
+  sett størrelse til (30) %
+  sett [hastighet v] til [3]
+  ```
 
 + Vi vil la klonene dukke opp med litt tilfeldig mellomrom, og fra
   begge sider av skjermen.
 
-    ```blocks
-        når jeg mottar [start v]
-        for alltid
-            hvis <(tilfeldig tall fra (0) til (1)) = [0]>
-                pek i retning (90 v)
-                sett x til (-250)
-            ellers
-                pek i retning (-90 v)
-                sett x til (250)
-            slutt
-            lag klon av [meg v]
-            vent (tilfeldig tall fra (2) til (4)) sekunder
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [start v]
+  for alltid
+      hvis <(tilfeldig tall fra (0) til (1)) = [0]>
+          pek i retning (90 v)
+          sett x til (-250)
+      ellers
+          pek i retning (-90 v)
+          sett x til (250)
+      slutt
+      lag klon av [meg v]
+      vent (tilfeldig tall fra (2) til (4)) sekunder
+  slutt
+  ```
 
 + På samme måte som for snøballene må vi også bestemme oppførselen til
   hver enkelt __Skumling__.
 
-    Lag først en `når jeg starter som klon`{.blockcontrol}-kloss hvor
-    du først viser figuren, og deretter lager en
-    `for alltid`{.blockcontrol}-løkke hvor figuren beveger seg
-    `hastighet`{.blockdata} steg og deretter venter et lite øyeblikk,
-    for eksempel 0.1 sekunder.
+  Lag først en `når jeg starter som klon`{.blockcontrol}-kloss hvor
+  du først viser figuren, og deretter lager en
+  `for alltid`{.blockcontrol}-løkke hvor figuren beveger seg
+  `hastighet`{.blockdata} steg og deretter venter et lite øyeblikk,
+  for eksempel 0.1 sekunder.
 
 + Deretter lager vi en *ny*
   `når jeg starter som klon`{.blockcontrol}-kloss hvor vi undersøker
   om vi treffer enten en __snøball__ eller __Helten__.
 
-    ```blocks
-        når jeg starter som klon
-        for alltid
-            hvis <berører [Helten v]?>
-                send melding [slutt v]
-                slett denne klonen
-            slutt
-            hvis <berører [Snøball v]?>
-                slett denne klonen
-            slutt
-        slutt
-    ```
+  ```blocks
+  når jeg starter som klon
+  for alltid
+      hvis <berører [Helten v]?>
+          send melding [slutt v]
+          slett denne klonen
+      slutt
+      hvis <berører [Snøball v]?>
+          slett denne klonen
+      slutt
+  slutt
+  ```
 
-    Grunnen til at disse må ligge i et eget skript er at det første
-    skriptet venter litt mellom hver gang figuren tar et steg. Hadde
-    vi lagt disse `hvis`{.blockcontrol}-klossene på det skriptet ville
-    vi bare sjekket om __Skumlingen__ var truffet av en snøball
-    innimellom ventingen. Ved å lage et eget skript sjekker vi dette
-    hele tiden.
+  Grunnen til at disse må ligge i et eget skript er at det første
+  skriptet venter litt mellom hver gang figuren tar et steg. Hadde
+  vi lagt disse `hvis`{.blockcontrol}-klossene på det skriptet ville
+  vi bare sjekket om __Skumlingen__ var truffet av en snøball
+  innimellom ventingen. Ved å lage et eget skript sjekker vi dette
+  hele tiden.
 
 ## Test prosjektet {.flag}
 
@@ -291,30 +291,30 @@ oss at vi tapte.
   `Bakgrunner`-fanen. Lag to kopier av bakgrunnen din og
   kall dem henholdsvis `Meny` og `Slutt`.
 
-    På `Meny`-bakgrunnen kan du lage en fin tittel. Skriv også
-    `Trykk 'S' for å starte`.
+  På `Meny`-bakgrunnen kan du lage en fin tittel. Skriv også
+  `Trykk 'S' for å starte`.
 
-    På `Slutt`-bakgrunnen kan du skrive en passende melding for når
-    spillet er slutt. Skriv også `Trykk 'S' for å spille igjen`.
+  På `Slutt`-bakgrunnen kan du skrive en passende melding for når
+  spillet er slutt. Skriv også `Trykk 'S' for å spille igjen`.
 
 + Endre nå litt på skriptene på scenen. Først vil vi bare vise menyen
   når det grønne flagget klikkes:
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt bakgrunn til [Meny v]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt bakgrunn til [Meny v]
+  ```
 
-    Deretter vil vi starte spillet når `S` trykkes:
+  Deretter vil vi starte spillet når `S` trykkes:
 
-    ```blocks
-        når [s v] trykkes
-        send melding [start v]
-    ```
+  ```blocks
+  når [s v] trykkes
+  send melding [start v]
+  ```
 
-    Pass også på at du bytter til bakgrunnen `Spill` når meldingen
-    `start` mottas, og til bakgrunnen `Slutt` når meldingen `slutt`
-    mottas.
+  Pass også på at du bytter til bakgrunnen `Spill` når meldingen
+  `start` mottas, og til bakgrunnen `Slutt` når meldingen `slutt`
+  mottas.
 
 + Til slutt må vi passe på at spillet faktisk avsluttes etter at
   `slutt`-meldingen er sendt. Legg på skript for å
@@ -342,40 +342,40 @@ __Klikk på det grønne flagget.__
 + Vi regner ut nivå basert på `Poeng`{.blockdata}. Utvid skriptet
   ditt som mottar `start`-meldingen på scenen med den følgende løkken:
 
-    ```blocks
-        for alltid
-            sett [Nivå v] til ((1) + ([gulv v] av ((Poeng) / (5))))
-        slutt
-    ```
+  ```blocks
+  for alltid
+      sett [Nivå v] til ((1) + ([gulv v] av ((Poeng) / (5))))
+  slutt
+  ```
 
-    Funksjonen `gulv`{.blockoperators} runder nedover. Dermed sier vi
-    at `Nivå`{.blockdata} skal øke for hver femte __Skumling__ vi
-    jager vekk.
+  Funksjonen `gulv`{.blockoperators} runder nedover. Dermed sier vi
+  at `Nivå`{.blockdata} skal øke for hver femte __Skumling__ vi
+  jager vekk.
 
 + Nå kan vi bruke `Nivå`{.blockdata} til å lage __Skumlingene__
   slemmere. For eksempel kan de bli større, gå raskere og kanskje
   trenge flere snøballer før de blir borte.
 
-    Lag et par nye variabler som gjelder for denne figuren:
-    `Slem`{.blockdata} og `Liv`{.blockdata}. `Slem`{.blockdata} vil si
-    noe om hvor stor og slem den enkelte __Skumlingen__ er. Ved å la
-    dette være et tall mellom 1 og `Nivå`{.blockdata} blir spillet
-    vanskeligere etterhvert som `Nivå`{.blockdata} øker. For eksempel
-    kan du legge til disse klossene på __Skumling__ sitt hovedskript:
+  Lag et par nye variabler som gjelder for denne figuren:
+  `Slem`{.blockdata} og `Liv`{.blockdata}. `Slem`{.blockdata} vil si
+  noe om hvor stor og slem den enkelte __Skumlingen__ er. Ved å la
+  dette være et tall mellom 1 og `Nivå`{.blockdata} blir spillet
+  vanskeligere etterhvert som `Nivå`{.blockdata} øker. For eksempel
+  kan du legge til disse klossene på __Skumling__ sitt hovedskript:
 
-    ```blocks
-        når jeg starter som klon
-        sett [Slem v] til (tilfeldig tall fra (1) til (Nivå))
-        sett [Liv v] til (Slem)
-        endre [hastighet v] med (Slem)
-        endre [farge v] effekt med ((10) * (Slem))
-        endre størrelse med ((5) * (Slem))
-        vis
-        for alltid
-            gå (hastighet) steg
-            vent (0.1) sekunder
-        slutt
-    ```
+  ```blocks
+  når jeg starter som klon
+  sett [Slem v] til (tilfeldig tall fra (1) til (Nivå))
+  sett [Liv v] til (Slem)
+  endre [hastighet v] med (Slem)
+  endre [farge v] effekt med ((10) * (Slem))
+  endre størrelse med ((5) * (Slem))
+  vis
+  for alltid
+      gå (hastighet) steg
+      vent (0.1) sekunder
+  slutt
+  ```
 
 + For at en __Skumling__ skal tåle flere snøballer må vi også endre
   litt på hva som skjer når han blir truffet. I stedet for å bare
@@ -391,14 +391,14 @@ __Klikk på det grønne flagget.__
   bli veldig fort vanskeligere etterhvert. Du kan for eksempel bruke
   denne utregningen:
 
-    ```blocks
-        for alltid
-            sett [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
-        slutt
-    ```
+  ```blocks
+  for alltid
+      sett [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
+  slutt
+  ```
 
-    Da vil vi fortsatt øke nivået for omtrent hver femte __Skumling__
-    som jages bort.
+  Da vil vi fortsatt øke nivået for omtrent hver femte __Skumling__
+  som jages bort.
 
 ## Test prosjektet {.flag}
 

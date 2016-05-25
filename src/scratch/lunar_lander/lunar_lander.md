@@ -60,7 +60,7 @@ lang den vannrette streken er i forhold til den skrå streken.
 + Lag romskipet ganske lite. Du kan for eksempel bruke
 
   ```blocks
-      sett størrelse til (20) %
+  sett størrelse til (20) %
   ```
 
   rett etter at det grønne flagget er klikket.
@@ -72,23 +72,23 @@ lang den vannrette streken er i forhold til den skrå streken.
   tyngdekraften. Skriv denne koden:
 
   ```blocks
-      når jeg mottar [Nytt spill v]
-      gå til x: (0) y: (175)
-      pek i retning (90 v)
-      sett [fartX v] til [0]
-      sett [fartY v] til [0]
-      for alltid
-          endre [fartY v] med (-0.01)
-          endre x med (fartX)
-          endre y med (fartY)
-      slutt
+  når jeg mottar [Nytt spill v]
+  gå til x: (0) y: (175)
+  pek i retning (90 v)
+  sett [fartX v] til [0]
+  sett [fartY v] til [0]
+  for alltid
+      endre [fartY v] med (-0.01)
+      endre x med (fartX)
+      endre y med (fartY)
+  slutt
   ```
 
   Om du prøver spillet ditt nå skal romskipet falle stadig raskere
   nedover skjermen. Prøv å endre litt i klossen
 
   ```blocks
-      endre [fartY v] med (-0.01)
+  endre [fartY v] med (-0.01)
   ```
 
   Det er denne som modellerer tyngdekraften. Om du forandrer verdien
@@ -111,16 +111,16 @@ lang den vannrette streken er i forhold til den skrå streken.
   `for alltid`{.blockcontrol}-løkken din.
 
   ```blocks
-      hvis <tast [pil opp v] trykket?>
-          endre [fartX v] med ((0) - ([cos v] av (retning)))
-          endre [fartY v] med ([sin v] av (retning))
-      slutt
+  hvis <tast [pil opp v] trykket?>
+      endre [fartX v] med ((0) - ([cos v] av (retning)))
+      endre [fartY v] med ([sin v] av (retning))
+  slutt
   ```
 
   Du finner både sinus og cosinus-funksjonene som valg på klossen
 
   ```blocks
-      ([kvadratrot v] av (9))
+  ([kvadratrot v] av (9))
   ```
 
   Vi må bruke `((0) - ([cos v] av (retning)))`{.b} i stedet for
@@ -133,8 +133,8 @@ lang den vannrette streken er i forhold til den skrå streken.
   `endre fart`{.blockdata}-klossene, for eksempel slik,
 
   ```blocks
-      endre [fartX v] med ((0.3) * ((0) - ([cos v] av (retning))))
-      endre [fartY v] med ((0.3) * ([sin v] av (retning)))
+  endre [fartX v] med ((0.3) * ((0) - ([cos v] av (retning))))
+  endre [fartY v] med ((0.3) * ([sin v] av (retning)))
   ```
 
   Pass på at du justerer begge klossene med det samme tallet.

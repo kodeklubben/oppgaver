@@ -45,11 +45,11 @@ selv, men fortsatt under veiledning.
 Tre prosjekter:
 
 1. Hvor i all verden (3 leksjoner)
-    - Piltaster for å flytte figur, Meldinger
-    - Bevegelig bakgrunn / bakgrunn bestående av flere figurer
-    - Lister, Struktur for større spill / programmer
+  - Piltaster for å flytte figur, Meldinger
+  - Bevegelig bakgrunn / bakgrunn bestående av flere figurer
+  - Lister, Struktur for større spill / programmer
 2. Hoppehelt (1 leksjon)
-    - Kloner
+  - Kloner
 3. 3D flakser (2 leksjoner)
-    - Aritmetikk, Kloner
-    - Tester, variabler for hastighet, størrelse
+  - Aritmetikk, Kloner
+  - Tester, variabler for hastighet, størrelse

@@ -46,10 +46,10 @@ Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
 + Vi vil at raketten skal skjules når du klikker på det grønne
   flagget.
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  skjul
+  ```
 
 Nå vil vi gjerne at raketten skal bevege seg mot musepekeren når du
 trykker på mellomromstasten.
@@ -58,11 +58,11 @@ trykker på mellomromstasten.
   lager vi to klosser som gjør raketten synlig og lar den bevege seg
   mot musepekeren.
 
-    ```blocks
-        når [mellomrom v] trykkes
-        vis
-        gli (1) sekunder til x: (mus x) y: (mus y)
-    ```
+  ```blocks
+  når [mellomrom v] trykkes
+  vis
+  gli (1) sekunder til x: (mus x) y: (mus y)
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -84,15 +84,15 @@ slik at raketten alltid flyr mot musepekeren fra bunnen av skjermen.
   få raketten til å flytte seg til bunnen av skjermen, men slik at den
   er samme sted horisontalt.
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
+  ```blocks
+  når grønt flagg klikkes
+  skjul
 
-        når [mellomrom v] trykkes
-        gå til x: (mus x) y: (-200)
-        vis
-        gli (1) sekunder til x: (mus x) y: (mus y)
-    ```
+  når [mellomrom v] trykkes
+  gå til x: (mus x) y: (-200)
+  vis
+  gli (1) sekunder til x: (mus x) y: (mus y)
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -114,17 +114,17 @@ __Klikk på det grønne flagget.__
 + Flytt skriptet fra `når mellomrom trykkes`{.blockevents} til `når
   grønt flagg klikkes`{.blockevents}, slik at det blir seende slik ut:
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
-        for alltid
-            hvis <museknappen er nede?>
-                gå til x: (mus x) y: (-200)
-                vis
-                gli (1) sekunder til x: (mus x) y: (mus y)
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  skjul
+  for alltid
+      hvis <museknappen er nede?>
+          gå til x: (mus x) y: (-200)
+          vis
+          gli (1) sekunder til x: (mus x) y: (mus y)
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -155,38 +155,38 @@ __Klikk på det grønne flagget.__
   ![Last opp lyd fra fil](../bilder/hent-fra-fil.png). Last opp
   lyden `fyrverkeri_lydogbilder/bang.wav`.
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
-        for alltid
-            hvis <museknappen er nede?>
-                gå til x: (mus x) y: (-200)
-                spill lyden [bang v]
-                vis
-                gli (1) sekunder til x: (mus x) y: (mus y)
-                skjul
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  skjul
+  for alltid
+      hvis <museknappen er nede?>
+          gå til x: (mus x) y: (-200)
+          spill lyden [bang v]
+          vis
+          gli (1) sekunder til x: (mus x) y: (mus y)
+          skjul
+      slutt
+  slutt
+  ```
 
 + Neste steg er å få raketten til å sende en melding til resten av
   spillet når den eksploderer. Vi skal lytte etter meldingen
   senere. Lag en ny melding som heter `Eksploder`.
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
-        for alltid
-            hvis <museknappen er nede?>
-                gå til x: (mus x) y: (-200)
-                spill lyden [bang v]
-                vis
-                gli (1) sekunder til x: (mus x) y: (mus y)
-                skjul
-                send melding [Eksploder v]
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  skjul
+  for alltid
+      hvis <museknappen er nede?>
+          gå til x: (mus x) y: (-200)
+          spill lyden [bang v]
+          vis
+          gli (1) sekunder til x: (mus x) y: (mus y)
+          skjul
+          send melding [Eksploder v]
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -206,14 +206,14 @@ __Klikk på det grønne flagget.__
   gjemt, flytter den til raketten ved bruk av klossen `gå
   til`{.blockmotion}, viser den og skjuler den igjen 1 sekund senere.
 
-    ```blocks
-        når jeg mottar [Eksploder v]
-        skjul
-        gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
-        vis
-        vent (1) sekunder
-        skjul
-    ```
+  ```blocks
+  når jeg mottar [Eksploder v]
+  skjul
+  gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
+  vis
+  vent (1) sekunder
+  skjul
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -235,15 +235,15 @@ __Klikk på det grønne flagget.__
   fargeeffekt`{.blocklooks} og velge en tilfeldig farge før
   eksplosjonen vises.
 
-    ```blocks
-        når jeg mottar [Eksploder v]
-        skjul
-        sett [farge v] effekt til (tilfeldig tall fra (1) til (200))
-        gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
-        vis
-        vent (1) sekunder
-        skjul
-    ```
+  ```blocks
+  når jeg mottar [Eksploder v]
+  skjul
+  sett [farge v] effekt til (tilfeldig tall fra (1) til (200))
+  gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
+  vis
+  vent (1) sekunder
+  skjul
+  ```
 
 + Legg til forskjellige bilder av eksplosjoner som drakter ved å velge
   `Drakter`{.blocklightgrey}-fanen til `firework1`. Ved å klikke *Last
@@ -271,20 +271,20 @@ __Klikk på det grønne flagget.__
   den vises, og etter at den blir synlig øk størrelsen med 5 tjue
   ganger ved bruk av klossen `gjenta`{.blockcontrol}.
 
-    ```blocks
-        når jeg mottar [Eksploder v]
-        skjul
-        neste drakt
-        sett [farge v] effekt til (tilfeldig tall fra (1) til (200))
-        gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
-        sett størrelse til (5) %
-        vis
-        gjenta (20) ganger
-            endre størrelse med (5)
-        slutt
-        vent (1) sekunder
-        skjul
-    ```
+  ```blocks
+  når jeg mottar [Eksploder v]
+  skjul
+  neste drakt
+  sett [farge v] effekt til (tilfeldig tall fra (1) til (200))
+  gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
+  sett størrelse til (5) %
+  vis
+  gjenta (20) ganger
+      endre størrelse med (5)
+  slutt
+  vent (1) sekunder
+  skjul
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -321,20 +321,20 @@ programmer.
   før den forrige eksplosjonen er ferdig. Gå tilbake til `rocket` og
   endre skriptet:
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
-        for alltid
-            hvis <museknappen er nede?>
-                gå til x: (mus x) y: (-200)
-                spill lyden [bang v]
-                vis
-                gli (1.5) sekunder til x: (mus x) y: (mus y)
-                skjul
-                send melding [Eksploder v] og vent
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  skjul
+  for alltid
+      hvis <museknappen er nede?>
+          gå til x: (mus x) y: (-200)
+          spill lyden [bang v]
+          vis
+          gli (1.5) sekunder til x: (mus x) y: (mus y)
+          skjul
+          send melding [Eksploder v] og vent
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 

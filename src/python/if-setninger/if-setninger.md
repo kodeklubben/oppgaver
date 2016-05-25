@@ -83,27 +83,27 @@ if 7 == 2*4:
 # Steg 3: Litt mer avansert {.activity}
 
 * Vi har lyst til å skrive et program som hilser på personer som heter "Per".
-    Dette kan vi gjøre slik:
+  Dette kan vi gjøre slik:
 
-    ```python
-    navn = input("Hva heter du? ")
-    if navn == "Per":
-        print("Hei!")
-        print("Hyggelig å hilse på deg," + navn + "!")
-    ```
+  ```python
+  navn = input("Hva heter du? ")
+  if navn == "Per":
+      print("Hei!")
+      print("Hyggelig å hilse på deg," + navn + "!")
+  ```
 
-    Her har vi to linjer med innrykk! Begge disse kjøres om testen er sann, og
-    kjører ikke om testen er usann.
+  Her har vi to linjer med innrykk! Begge disse kjøres om testen er sann, og
+  kjører ikke om testen er usann.
 
 * Men hva skjer om den ene linjen ikke har et innrykk, slik som i koden under?
 
-    ```python
-    navn = input("Hva heter du? ")
-    if navn == "Per":
-        print("Hei!")
-    print("Hyggelig å hilse på deg," + navn + "!")
-    ```
+  ```python
+  navn = input("Hva heter du? ")
+  if navn == "Per":
+      print("Hei!")
+  print("Hyggelig å hilse på deg," + navn + "!")
+  ```
 
-    Hva blir skrevet ut nå?
+  Hva blir skrevet ut nå?
 
 * Prøv deg frem med ulike navn!

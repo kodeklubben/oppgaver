@@ -79,7 +79,7 @@ id`{.blockdata} er mindre enn `teller`{.blockdata} -
   boksen blir like bred som høy. Et sted mellom `10 x 10` og `20 x 20`
   er en fin størrelse.
 
-    ![](boks.png)
+  ![](boks.png)
 
 + Lag så de tre variablene: `lengde`{.blockdata} og
   `teller`{.blockdata} skal gjelde for alle figurer, mens `min
@@ -90,33 +90,33 @@ id`{.blockdata} er mindre enn `teller`{.blockdata} -
   variablene, deretter bruker vi en løkke til å lage stadig nye
   slangebokser.
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        sett [teller v] til [0]
-        sett [lengde v] til [5]
-        gjenta til <berører [kant v]>
-            sett [min id v] til (teller)
-            endre [teller v] med (1)
-            vent (0.1) sekunder
-            lag klon av [meg v]
-            gå (10) steg
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  sett [teller v] til [0]
+  sett [lengde v] til [5]
+  gjenta til <berører [kant v]>
+      sett [min id v] til (teller)
+      endre [teller v] med (1)
+      vent (0.1) sekunder
+      lag klon av [meg v]
+      gå (10) steg
+  slutt
+  ```
 
-    Her må `10`-tallet i `gå 10 steg`{.blockmotion}-klossen være likt
-    med størrelsen på din boks.
+  Her må `10`-tallet i `gå 10 steg`{.blockmotion}-klossen være likt
+  med størrelsen på din boks.
 
 + Selve kloneboksene trenger nå bare vente til de skal slette seg
   selv. Det er ganske enkelt.
 
-    ```blocks
-        når jeg starter som klon
-        vent til <((teller) - (lengde)) > (min id)>
-        slett denne klonen
-    ```
+  ```blocks
+  når jeg starter som klon
+  vent til <((teller) - (lengde)) > (min id)>
+  slett denne klonen
+  ```
 
-    Sammenlign disse skriptene med figuren og forklaringen
-    ovenfor. Skjønner du hvordan de fungerer?
+  Sammenlign disse skriptene med figuren og forklaringen
+  ovenfor. Skjønner du hvordan de fungerer?
 
 + Prøv spillet ditt. Det kan være greit å lage et skript på scenen som
   sender ut meldingen `Nytt spill` når det grønne flagget klikkes. Du
@@ -177,13 +177,13 @@ epler og slikt senere bruker vi kloner av eplene også.
   i samme "rutenett" som slangen. For eksempel, om slangeboksene dine
   er `10 x 10` kan du bruke noe som dette:
 
-    ```blocks
-        gå til x: ((10) * (tilfeldig tall fra (-23) til (23))) y: ((10) * (tilfeldig tall fra (-16) til (16)))
-    ```
+  ```blocks
+  gå til x: ((10) * (tilfeldig tall fra (-23) til (23))) y: ((10) * (tilfeldig tall fra (-16) til (16)))
+  ```
 
-    Husk at skjermen har koordinater fra `-240` til `240` i x-retning,
-    og `-180` til `180` i y-retning. Pass på at eplene dine lander
-    godt innenfor skjermen slik at slangen kan spise dem.
+  Husk at skjermen har koordinater fra `-240` til `240` i x-retning,
+  og `-180` til `180` i y-retning. Pass på at eplene dine lander
+  godt innenfor skjermen slik at slangen kan spise dem.
 
 + Nå trenger vi et skript som sender ut slike `Lag eple`-meldinger.
   Lag et skript som starter når det mottar `Nytt spill`. Dette

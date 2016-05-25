@@ -117,9 +117,9 @@ La oss prøve ut 72px for nå. (px betyr piksel)
 
 ```css
 h1 {
-    color:red;
-    background-color:black;
-    font-size:72px;
+  color:red;
+  background-color:black;
+  font-size:72px;
 }
 ```
 
@@ -139,8 +139,8 @@ All vår tekst vises helt borte til venstre. Vi kan endre det gjennom å bruke `
 
 ```css
 body {
-    background-color: #F8FAF4;
-    text-align: center;
+  background-color: #F8FAF4;
+  text-align: center;
 }
 ```
 La du merke til at alt på nettsiden ble sentrert når vi har lagt til ‘text-align:center’ i seksjonen “body”? Det er fordi alt innenfor elementet “body” arver stilen. Dette skjer når et element er innenfor et annet, som dette her:

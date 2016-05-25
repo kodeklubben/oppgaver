@@ -65,41 +65,41 @@ Anbefalt rekkefølge for leksjonene er
 1. [Bli Kjent Med Datamaskinen](bli_kjent_med_datamaskinen/)
 2. [Robotinvasjon](robotinvasjon/)
 3. [Hendelser](hendelser/)
-    + Hvordan bevege seg rundt i filsystemet
-    + Kopiering av filer
-    + Hendelser, enkel bruk av os.pullevent
-    + Et bedre passord-program: auto-startup / kan ikke termineres med ctrl-T
-    + Hvordan skrive kode i tekstbehandlere utenfor Minecraft
+  + Hvordan bevege seg rundt i filsystemet
+  + Kopiering av filer
+  + Hendelser, enkel bruk av os.pullevent
+  + Et bedre passord-program: auto-startup / kan ikke termineres med ctrl-T
+  + Hvordan skrive kode i tekstbehandlere utenfor Minecraft
 4. [Bygg et Hus](bygg_et_hus/)
-    + Bruk en robot til å bygge hus
-    + Hvordan flytte rundt
-    + Bruk av funksjoner for enklere kode
-    + Sikre at vi får nok materiale
-    + Kommandolinjeargumenter for å bygge forskjellge typer / størrelser hus
+  + Bruk en robot til å bygge hus
+  + Hvordan flytte rundt
+  + Bruk av funksjoner for enklere kode
+  + Sikre at vi får nok materiale
+  + Kommandolinjeargumenter for å bygge forskjellge typer / størrelser hus
 5. [Sprettball](sprettball/)
-    + Introduksjon til peripherals
-    + Koble en skjerm til datamaskinen
-    + Skrive tekst til skjermen
-    + En ball faller over skjermen
-    + Hvor stor er skjermen
-    + Sprettball
-    + Kanskje også ticker?
+  + Introduksjon til peripherals
+  + Koble en skjerm til datamaskinen
+  + Skrive tekst til skjermen
+  + En ball faller over skjermen
+  + Hvor stor er skjermen
+  + Sprettball
+  + Kanskje også ticker?
 6. Agricola
-    + Bruk av bonderoboter, som kan så / høste og essensielt ta vare
-      på en åker på egen hånd
-    + Plukke opp og levere materiale
+  + Bruk av bonderoboter, som kan så / høste og essensielt ta vare
+    på en åker på egen hånd
+  + Plukke opp og levere materiale
 7. Kommunikasjon mellom Datamaskiner
-    + Bruk av disketter for å flytte programmer mellom datamaskiner
-      (aside: hva er en diskett? :) )
-    + Bruk av redstone for kommunikasjon
-    + Enda bedre passord program: datamaskinen trenger ikke stå ved
-      siden av døren
-    + Trådløst nett mellom datamaskiner
+  + Bruk av disketter for å flytte programmer mellom datamaskiner
+    (aside: hva er en diskett? :) )
+  + Bruk av redstone for kommunikasjon
+  + Enda bedre passord program: datamaskinen trenger ikke stå ved
+    siden av døren
+  + Trådløst nett mellom datamaskiner
 8. GPS-Roboter
-    + Hvordan fungerer GPS / triangulering
-    + Sette ut baseroboter
-    + Hvordan kan en robot finne ut hvor den er
-    + Bruke lokasjon til å forbedre f.eks. bonderoboten?
+  + Hvordan fungerer GPS / triangulering
+  + Sette ut baseroboter
+  + Hvordan kan en robot finne ut hvor den er
+  + Bruke lokasjon til å forbedre f.eks. bonderoboten?
 
 Leksjonene er fortsatt under utarbeidelse (med store muligheter for endringer).
 

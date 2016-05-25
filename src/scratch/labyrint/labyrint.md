@@ -38,32 +38,32 @@ trykker på `pil opp`-tasten.
 
 + Legg til følgende skript på `Utforsker`-figuren din.
 
-    ```blocks
-        når [pil opp v] trykkes
-        pek i retning (0 v)
-        gå (5) steg
-    ```
+  ```blocks
+  når [pil opp v] trykkes
+  pek i retning (0 v)
+  gå (5) steg
+  ```
 
-    Prøv å trykk på `pil opp`-tasten. Beveger utforskeren din seg
-    oppover skjermen? Nå må vi lage lignende skript for de andre
-    tastene.
+  Prøv å trykk på `pil opp`-tasten. Beveger utforskeren din seg
+  oppover skjermen? Nå må vi lage lignende skript for de andre
+  tastene.
 
 + Legg også til disse skriptene, slik at `Utforsker` har totalt fire
   skript, ett for hver tast.
 
-    ```blocks
-        når [pil ned v] trykkes
-        pek i retning (180 v)
-        gå (5) steg
+  ```blocks
+  når [pil ned v] trykkes
+  pek i retning (180 v)
+  gå (5) steg
 
-        når [pil høyre v] trykkes
-        pek i retning (90 v)
-        gå (5) steg
+  når [pil høyre v] trykkes
+  pek i retning (90 v)
+  gå (5) steg
 
-        når [pil venstre v] trykkes
-        pek i retning (-90 v)
-        gå (5) steg
-    ```
+  når [pil venstre v] trykkes
+  pek i retning (-90 v)
+  gå (5) steg
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -99,31 +99,31 @@ Nå må vi endre i skriptene våre slik at bruker
 + Lag først et nytt skript som setter verdien av `(hastighet)`{.b} til
   `10`.
 
-    ```blocks
-        når grønt flagg klikkes
-        sett [hastighet v] til [10]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett [hastighet v] til [10]
+  ```
 
 + Deretter endrer vi de fire skriptene vi allerede har laget slik at
   de bruker `(hastighet)`{.b}.
 
-    ```blocks
-        når [pil opp v] trykkes
-        pek i retning (0 v)
-        gå (hastighet) steg
+  ```blocks
+  når [pil opp v] trykkes
+  pek i retning (0 v)
+  gå (hastighet) steg
 
-        når [pil ned v] trykkes
-        pek i retning (180 v)
-        gå (hastighet) steg
+  når [pil ned v] trykkes
+  pek i retning (180 v)
+  gå (hastighet) steg
 
-        når [pil høyre v] trykkes
-        pek i retning (90 v)
-        gå (hastighet) steg
+  når [pil høyre v] trykkes
+  pek i retning (90 v)
+  gå (hastighet) steg
 
-        når [pil venstre v] trykkes
-        pek i retning (-90 v)
-        gå (hastighet) steg
-    ```
+  når [pil venstre v] trykkes
+  pek i retning (-90 v)
+  gå (hastighet) steg
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -156,13 +156,13 @@ __Klikk på det grønne flagget.__
   snart). Du kan velge selv hvordan labyrinten skal se ut, den trenger
   ikke en gang å ha rette vegger!
 
-    ![](liten-labyrint.png)
+  ![](liten-labyrint.png)
 
-    Dette er et eksempel på en liten og enkel labyrint. Du kan selv
-    velge hvordan din labyrint skal se ut! Men ikke bruk for lang tid
-    på å tegne labyrinten nå, for vi vil jo fortsette å
-    programmere. Du kan i stedet komme tilbake og tegne en mer
-    avansert labyrint etter at du er ferdig med spillet!
+  Dette er et eksempel på en liten og enkel labyrint. Du kan selv
+  velge hvordan din labyrint skal se ut! Men ikke bruk for lang tid
+  på å tegne labyrinten nå, for vi vil jo fortsette å
+  programmere. Du kan i stedet komme tilbake og tegne en mer
+  avansert labyrint etter at du er ferdig med spillet!
 
 ## Tips {.protip}
 
@@ -198,17 +198,17 @@ farge.
 + Vi legger `<berører fargen [#ffffff]>`{.b}-klossen inn i skriptet vi
   allerede har laget som setter `(hastighet)`{.b}-variabelen.
 
-    ```blocks
-        når grønt flagg klikkes
-        sett [hastighet v] til [10]
-        for alltid
-            hvis <berører fargen [#cc0000]?>
-                vend høyre (180) grader
-                gå (hastighet) steg
-                vend høyre (180) grader
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett [hastighet v] til [10]
+  for alltid
+      hvis <berører fargen [#cc0000]?>
+          vend høyre (180) grader
+          gå (hastighet) steg
+          vend høyre (180) grader
+      slutt
+  slutt
+  ```
 
 + For å få riktig farge i `berører fargen [#cc0000]`{.b}-klossen klikker du
   først på den lille firkanten hvor fargen vises. Deretter flytter du
@@ -230,9 +230,9 @@ En måte vi kan bruke for å begrense hvor en figur kan gå, er å tvinge
 den til å ta et skritt tilbake når den gjør noe feil. I koden
 
 ```blocks
-    vend høyre (180) grader
-    gå (hastighet) steg
-    vend høyre (180) grader
+  vend høyre (180) grader
+  gå (hastighet) steg
+  vend høyre (180) grader
 ```
 
 vil figuren først snu seg helt rundt (180 grader), deretter ta et
@@ -271,14 +271,14 @@ litt enklere å lage skriptet på `Skatt`.
 
 + Pass på at figuren `Skatt` er markert, og skriv følgende kode:
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            hvis <berører [Utforsker v]?>
-                skjul
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      hvis <berører [Utforsker v]?>
+          skjul
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -297,15 +297,15 @@ skatten en gang, forblir skatten borte.
 + Vi må passe på at skatten vises på begynnelsen av spillet. Endre
   skriptet på `Skatt` ved å legge til `vis`{.b} helt i begynnelsen.
 
-    ```blocks
-        når grønt flagg klikkes
-        vis
-        for alltid
-            hvis <berører [Utforsker v]?>
-                skjul
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  vis
+  for alltid
+      hvis <berører [Utforsker v]?>
+          skjul
+      slutt
+  slutt
+  ```
 
 Vi har enda et problem: Når vi starter spillet på nytt står
 utforskeren fortsatt der den fant skatten sist. Det blir ikke veldig
@@ -325,18 +325,18 @@ spennende.
 + Hele skriptet vil nå se slik ut (dine tall for `x` og `y` vil være
   forskjellige):
 
-    ```blocks
-        når grønt flagg klikkes
-        sett [hastighet v] til [10]
-        gå til x: (-200) y: (0)
-        for alltid
-            hvis <berører fargen [#cc0000]?>
-                vend høyre (180) grader
-                gå (hastighet) steg
-                vend høyre (180) grader
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett [hastighet v] til [10]
+  gå til x: (-200) y: (0)
+  for alltid
+      hvis <berører fargen [#cc0000]?>
+          vend høyre (180) grader
+          gå (hastighet) steg
+          vend høyre (180) grader
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -365,15 +365,15 @@ Dette blir veldig likt hvordan `Skatt` merket at den ble funnet.
 
 + Legg til følgende kode:
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            hvis <berører [Utforsker v]?>
-                si [Tok deg!] i (1) sekunder
-                stopp [alle v] :: control
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      hvis <berører [Utforsker v]?>
+          si [Tok deg!] i (1) sekunder
+          stopp [alle v] :: control
+      slutt
+  slutt
+  ```
 
 Linjen `stopp [alle v] :: control`{.b} gjør at skriptet på `Skatt`
 slutter å kjøre. Det betyr at vi klarer ikke å få tak i skatten etter
@@ -395,11 +395,11 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
 + Start et nytt skript på `Froskekonge`-figuren. Igjen kan du bytte ut
   tallene for `x` og `y` med noe som passer for din labyrint.
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (50) y: (100)
-        pek i retning (-90 v)
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (50) y: (100)
+  pek i retning (-90 v)
+  ```
 
 + Før vi lar `Froskekonge` begynne å bevege seg lager vi en
   `(hastighet)`{.b}-variabel også for ham. Klikk på
@@ -411,41 +411,41 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
   tilbake. Vi får ham til å snu når han treffer veggen på nesten samme
   måte som vi hindrer utforskeren i å gå gjennom veggen.
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (50) y: (100)
-        pek i retning (-90 v)
-        sett [hastighet v] til [5]
-        for alltid
-            gå (hastighet) steg
-            hvis <berører fargen [#cc0000]?>
-                vend høyre (180) grader
-                gå (hastighet) steg
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (50) y: (100)
+  pek i retning (-90 v)
+  sett [hastighet v] til [5]
+  for alltid
+      gå (hastighet) steg
+      hvis <berører fargen [#cc0000]?>
+          vend høyre (180) grader
+          gå (hastighet) steg
+      slutt
+  slutt
+  ```
 
 Helt tilslutt kan vi gjøre det enda vanskeligere ved å la froskekongen
 av og til endre retning.
 
 + Legg til kode som lar `Froskekonge` snu seg tilfeldig rundt i labyrinten:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (50) y: (100)
-        pek i retning (-90 v)
-        sett [hastighet v] til [5]
-        for alltid
-            gå (hastighet) steg
-            hvis <berører fargen [#cc0000]?>
-                vend høyre (180) grader
-                gå (hastighet) steg
-            slutt
-            hvis <(tilfeldig tall fra (1) til (25)) = [1]>
-                vend høyre ((tilfeldig tall fra (-1) til (1)) * (90)) grader
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (50) y: (100)
+  pek i retning (-90 v)
+  sett [hastighet v] til [5]
+  for alltid
+      gå (hastighet) steg
+      hvis <berører fargen [#cc0000]?>
+          vend høyre (180) grader
+          gå (hastighet) steg
+      slutt
+      hvis <(tilfeldig tall fra (1) til (25)) = [1]>
+          vend høyre ((tilfeldig tall fra (-1) til (1)) * (90)) grader
+      slutt
+  slutt
+  ```
 
 Disse to siste klossene ser litt kompliserte ut. La oss se litt nøyere på dem.
 

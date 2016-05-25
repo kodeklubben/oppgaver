@@ -59,9 +59,9 @@ en troverdig måte.
   eksempel:
 
   ```blocks
-      når grønt flagg klikkes
-      sett størrelse til (40) %
-      begrens rotasjon [vend sideveis v]
+  når grønt flagg klikkes
+  sett størrelse til (40) %
+  begrens rotasjon [vend sideveis v]
   ```
 
   Vi har også lagt til en kloss som passer på at `Jumpman` bare snur
@@ -82,17 +82,17 @@ en troverdig måte.
   vi kode omtrent som følger:
 
   ```blocks
-      når jeg mottar [nytt spill v]
-      gå til x: (-150) y: (-100)
-      for alltid  // hovedløkken
-          sett [fartX v] til ((0.8) * (fartX))  // farten bremses
-          endre [fartY v] med (-0.5)  // gravitasjon, figuren faller
-          hvis <berører fargen [#0000ff]>  // figuren står på plattformen
-              sett [fartY v] til [0]
-          slutt
-          endre x med (fartX)  // flytt selve figuren
-          endre y med (fartY)
+  når jeg mottar [nytt spill v]
+  gå til x: (-150) y: (-100)
+  for alltid  // hovedløkken
+      sett [fartX v] til ((0.8) * (fartX))  // farten bremses
+      endre [fartY v] med (-0.5)  // gravitasjon, figuren faller
+      hvis <berører fargen [#0000ff]>  // figuren står på plattformen
+          sett [fartY v] til [0]
       slutt
+      endre x med (fartX)  // flytt selve figuren
+      endre y med (fartY)
+  slutt
   ```
 
 + Om du prøver spillet ditt så langt (husk å legge til et skript på
@@ -106,11 +106,11 @@ en troverdig måte.
   (fartX)`{.b}:
 
   ```blocks
-      hvis <tast [pil venstre v] trykket?>
-          pek i retning (-90 v)
-          sett [fartX v] til [-5]
-          neste drakt
-      slutt
+  hvis <tast [pil venstre v] trykket?>
+      pek i retning (-90 v)
+      sett [fartX v] til [-5]
+      neste drakt
+  slutt
   ```
 
   Lag også en tilsvarende blokk for å flytte figuren mot høyre.
@@ -122,12 +122,12 @@ en troverdig måte.
   inne i testen for om figuren står på plattformen:
 
   ```blocks
-      hvis <berører fargen [#0000ff]>  // gammel kode: figuren står på plattformen
-          sett [fartY v] til [0]
-          hvis <tast [pil opp v] trykket?>  // ny kode: figuren hopper
-              sett [fartY v] til [5]
-          slutt
+  hvis <berører fargen [#0000ff]>  // gammel kode: figuren står på plattformen
+      sett [fartY v] til [0]
+      hvis <tast [pil opp v] trykket?>  // ny kode: figuren hopper
+          sett [fartY v] til [5]
       slutt
+  slutt
   ```
 
 Vi har nå et bra utgangspunkt for et plattformspill. Nemlig en figur
@@ -141,9 +141,9 @@ synes virker naturlig.
   skjermen. Den følgende testen fikser dette ganske greit:
 
   ```blocks
-      hvis <berører fargen [#009900]>
-          endre y med (2)
-      slutt
+  hvis <berører fargen [#009900]>
+      endre y med (2)
+  slutt
   ```
 
   Dette var også grunnen til at vi fylte plattformen med en annen
@@ -177,12 +177,12 @@ etter at vi har tegnet dem.
   til denne testen på `Jumpman`:
 
   ```blocks
-      hvis <berører fargen [#ff0000]?>
-          sett [fartY v] til [0]
-          hvis <tast [pil opp v] trykket?>
-              endre y med (3)
-          slutt
+  hvis <berører fargen [#ff0000]?>
+      sett [fartY v] til [0]
+      hvis <tast [pil opp v] trykket?>
+          endre y med (3)
       slutt
+  slutt
   ```
 
   Med denne koden kan vi klatre opp stigen. Hvordan kommer vi oss ned
@@ -233,11 +233,11 @@ etter at vi har tegnet dem.
   eksempel på denne måten:
 
   ```blocks
-      når jeg starter som klon
-      gå til [Donkey Kong v]
-      sett [fartX v] til [3]
-      sett [fartY v] til (tilfeldig tall fra (0) til (5))
-      vis
+  når jeg starter som klon
+  gå til [Donkey Kong v]
+  sett [fartX v] til [3]
+  sett [fartY v] til (tilfeldig tall fra (0) til (5))
+  vis
   ```
 
 + Videre bestemmer vi hvordan kulene oppfører seg ved å lage en

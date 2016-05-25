@@ -23,53 +23,53 @@ på datamaskinen.
 
 + Start Processing og skriv dette:
 
-    ```processing
-    float x;
-    float y;
-    float xFart = 1.5;
-    float yFart = 2;
+  ```processing
+  float x;
+  float y;
+  float xFart = 1.5;
+  float yFart = 2;
 
-    void setup() {
-      size(640, 480);
-      x = width / 2;
-      y = height / 2;
+  void setup() {
+    size(640, 480);
+    x = width / 2;
+    y = height / 2;
+  }
+
+  void draw() {
+    x += xFart;
+    y += yFart;
+
+    if (x < 0) {
+      xFart = -xFart;
     }
 
-    void draw() {
-      x += xFart;
-      y += yFart;
-
-      if (x < 0) {
-        xFart = -xFart;
-      }
-
-      if (x > width - 100) {
-        xFart = -xFart;
-      }
-
-      if (y < 0) {
-        yFart = -yFart;
-      }
-
-      if (y > height - 100) {
-        yFart = -yFart;
-      }
-
-      background(0);
-      rect(x, y, 100, 100);
+    if (x > width - 100) {
+      xFart = -xFart;
     }
-    ```
 
-    Dette programmet er ganske likt det som ble lagd i siste oppgave
-    om den sprettende ballen, men det er noen små forskjeller:
+    if (y < 0) {
+      yFart = -yFart;
+    }
 
-    + Vi har endret tallene brukt i `if`-setningene. Hvorfor tror du
-      dette er gjort? Hva skjer om du også tegner opp en sirkel med
-      samme posisjon og størrelse som firkanten?
+    if (y > height - 100) {
+      yFart = -yFart;
+    }
 
-    + Vi har også tatt i bruk `+=`. `x += 1;` gjør det samme som `x =
-    x + 1;` Dette er bare en forkortelse for det siste. Altså øk `x`
-    med det som står på høyresiden av `+=`.
+    background(0);
+    rect(x, y, 100, 100);
+  }
+  ```
+
+  Dette programmet er ganske likt det som ble lagd i siste oppgave
+  om den sprettende ballen, men det er noen små forskjeller:
+
+  + Vi har endret tallene brukt i `if`-setningene. Hvorfor tror du
+    dette er gjort? Hva skjer om du også tegner opp en sirkel med
+    samme posisjon og størrelse som firkanten?
+
+  + Vi har også tatt i bruk `+=`. `x += 1;` gjør det samme som `x =
+  x + 1;` Dette er bare en forkortelse for det siste. Altså øk `x`
+  med det som står på høyresiden av `+=`.
 
 + Kjør programmet ved å trykke på **Ctrl + R** eller knappen
   ![](../play.png "Play - En knapp i verktøylinjen merket med pil")
@@ -98,37 +98,37 @@ hjørne befinner seg.
 + Vi skal nå bytte ut firkanten med en enkel trekant. Endre `draw` som
   vist under:
 
-    ```processing
-    void draw() {
-      x += xFart;
-      y += yFart;
+  ```processing
+  void draw() {
+    x += xFart;
+    y += yFart;
 
-      if (x < 0) {
-        xFart = -xFart;
-      }
-
-      if (x > width - 100) {
-        xFart = -xFart;
-      }
-
-      if (y < 0) {
-        yFart = -yFart;
-      }
-
-      if (y > height - 100) {
-        yFart = -yFart;
-      }
-
-      background(0);
-      triangle(x, y, x + 100, y, x + 50, y + 100);
+    if (x < 0) {
+      xFart = -xFart;
     }
-    ```
 
-    Her har vi tatt i bruk `triangle` istedenfor `rect`. Denne tar
-    imot seks argumenter, to for hvert hjørne i trekanten. `x, y` er
-    posisjonen til det første hjørnet øverst til venstre, `x + 100, y`
-    er posisjonen til det øverste høyre hjørnet og `x + 50, y + 100`
-    er det siste hjørnet nederst i midten.
+    if (x > width - 100) {
+      xFart = -xFart;
+    }
+
+    if (y < 0) {
+      yFart = -yFart;
+    }
+
+    if (y > height - 100) {
+      yFart = -yFart;
+    }
+
+    background(0);
+    triangle(x, y, x + 100, y, x + 50, y + 100);
+  }
+  ```
+
+  Her har vi tatt i bruk `triangle` istedenfor `rect`. Denne tar
+  imot seks argumenter, to for hvert hjørne i trekanten. `x, y` er
+  posisjonen til det første hjørnet øverst til venstre, `x + 100, y`
+  er posisjonen til det øverste høyre hjørnet og `x + 50, y + 100`
+  er det siste hjørnet nederst i midten.
 
 + Lagre programmet som *Trekant* ved å velge **File -> Save as** eller
   trykke **Shift + Ctrl + S**.
@@ -198,85 +198,85 @@ matrise.
 
 + Vi begynner med å endre variablene til *arrays*:
 
-    ```processing
-    float[] x = new float[3];
-    float[] y = new float[3];
-    float[] xFart = new float[3];
-    float[] yFart = new float[3];
-    ```
+  ```processing
+  float[] x = new float[3];
+  float[] y = new float[3];
+  float[] xFart = new float[3];
+  float[] yFart = new float[3];
+  ```
 
-    Nå har vi endret typen av variablene fra `float` til
-    `float[]`. Når vi putter firkantklammer etter en type, er det en
-    *array* som inneholder verdier av typen foran klammene. Bak
-    likhetstegnet ser vi også noe nytt `new float[3]` betyr at vi skal
-    lage en ny `float`-*array* med tre tall i.
+  Nå har vi endret typen av variablene fra `float` til
+  `float[]`. Når vi putter firkantklammer etter en type, er det en
+  *array* som inneholder verdier av typen foran klammene. Bak
+  likhetstegnet ser vi også noe nytt `new float[3]` betyr at vi skal
+  lage en ny `float`-*array* med tre tall i.
 
 + Nå må vi endre startverdiene til disse tallene, ellers vil de bare
   være `0` alle sammen:
 
-    ```processing
-    void setup() {
-      size(800, 600);
+  ```processing
+  void setup() {
+    size(800, 600);
 
-      x[0] = width / 2;
-      x[1] = width / 2;
-      x[2] = width / 2;
+    x[0] = width / 2;
+    x[1] = width / 2;
+    x[2] = width / 2;
 
-      y[0] = height / 2;
-      y[1] = height / 2;
-      y[2] = height / 2;
+    y[0] = height / 2;
+    y[1] = height / 2;
+    y[2] = height / 2;
 
-      xFart[0] = 1.5;
-      xFart[1] = 2.5;
-      xFart[2] = 3.5;
+    xFart[0] = 1.5;
+    xFart[1] = 2.5;
+    xFart[2] = 3.5;
 
-      yFart[0] = -5;
-      yFart[1] = 2.5;
-      yFart[2] = -1.5;
-    }
-    ```
+    yFart[0] = -5;
+    yFart[1] = 2.5;
+    yFart[2] = -1.5;
+  }
+  ```
 
-    Her ser vi hvordan vi jobber med verdiene i en *array*. Vi bruker
-    firkantklammer med et tall i for å si hvilken verdi vi skal jobbe
-    med. Den første verdien finnes på plass `0`, og den siste verdien
-    er på plass `2` som er én lavere enn størrelsen. Tallet for
-    plasseringen kalles *indeks*. Indeksen er alltid én lavere enn om
-    vi skulle telle vanlig fordi vi begynner på `0`. Derfor er den
-    siste indeksen én lavere enn størrelsen.
+  Her ser vi hvordan vi jobber med verdiene i en *array*. Vi bruker
+  firkantklammer med et tall i for å si hvilken verdi vi skal jobbe
+  med. Den første verdien finnes på plass `0`, og den siste verdien
+  er på plass `2` som er én lavere enn størrelsen. Tallet for
+  plasseringen kalles *indeks*. Indeksen er alltid én lavere enn om
+  vi skulle telle vanlig fordi vi begynner på `0`. Derfor er den
+  siste indeksen én lavere enn størrelsen.
 
 + Og til slutt må vi flytte rundt på hjørnene og tegne opp trekanten
   vår:
 
-    ```processing
-    void draw() {
-      for (int i = 0; i < x.length; i++) {
-        x[i] += xFart[i];
-        y[i] += yFart[i];
+  ```processing
+  void draw() {
+    for (int i = 0; i < x.length; i++) {
+      x[i] += xFart[i];
+      y[i] += yFart[i];
 
-        if (x[i] < 0) {
-          xFart[i] = -xFart[i];
-        }
-
-        if (x[i] > width) {
-          xFart[i] = -xFart[i];
-        }
-
-        if (y[i] < 0) {
-          yFart[i] = -yFart[i];
-        }
-
-        if (y[i] > height) {
-          yFart[i] = -yFart[i];
-        }
+      if (x[i] < 0) {
+        xFart[i] = -xFart[i];
       }
 
-      background(0);
-      triangle(x[0], y[0], x[1], y[1], x[2], y[2]);
-    }
-    ```
+      if (x[i] > width) {
+        xFart[i] = -xFart[i];
+      }
 
-    Her ser du en helt ny konstruksjon som vi skal se nærmere på i
-    forklaringen nedenfor, men først kan du lagre og kjøre programmet.
+      if (y[i] < 0) {
+        yFart[i] = -yFart[i];
+      }
+
+      if (y[i] > height) {
+        yFart[i] = -yFart[i];
+      }
+    }
+
+    background(0);
+    triangle(x[0], y[0], x[1], y[1], x[2], y[2]);
+  }
+  ```
+
+  Her ser du en helt ny konstruksjon som vi skal se nærmere på i
+  forklaringen nedenfor, men først kan du lagre og kjøre programmet.
 
 ![](SprettendeTrekantHjorner.gif "En hvit trekant dannes av hjørner som spretter rundt på en svart bakgrunn.")
 
@@ -329,89 +329,89 @@ firkanter, femkanter, osv.
 + Vi begynner med å endre på størrelsen på *arrayene* i forrige
 oppgave:
 
-    ```processing
-    int KANTER = 5;
-    float[] x = new float[KANTER];
-    float[] y = new float[KANTER];
-    float[] xFart = new float[KANTER];
-    float[] yFart = new float[KANTER];
-    ```
+  ```processing
+  int KANTER = 5;
+  float[] x = new float[KANTER];
+  float[] y = new float[KANTER];
+  float[] xFart = new float[KANTER];
+  float[] yFart = new float[KANTER];
+  ```
 
-    Nå bruker vi en variabel for å sette størrelsen isteden. Dette
-    hjelper leseligheten og gjør det enklere å endre antall kanter
-    fordi vi bare trenger å endre tallet ett sted istedenfor fire
-    steder.
+  Nå bruker vi en variabel for å sette størrelsen isteden. Dette
+  hjelper leseligheten og gjør det enklere å endre antall kanter
+  fordi vi bare trenger å endre tallet ett sted istedenfor fire
+  steder.
 
 + Posisjonene og hastighetene til hjørnene ble satt til faste verdier,
   men hvis vi ikke vet nøyaktig hvor mange kanter det er fungerer ikke
   det så bra. Så vi endrer på `setup` til å bruke en løkke for å sette
   startverdiene:
 
-    ```processing
-    void setup() {
-      size(800, 600);
+  ```processing
+  void setup() {
+    size(800, 600);
 
-      for (int i = 0; i < KANTER; i++) {
-        x[i] = random(width);
-        y[i] = random(height);
-        xFart[i] = random(-5, 5);
-        yFart[i] = random(-5, 5);
-      }
+    for (int i = 0; i < KANTER; i++) {
+      x[i] = random(width);
+      y[i] = random(height);
+      xFart[i] = random(-5, 5);
+      yFart[i] = random(-5, 5);
     }
-    ```
+  }
+  ```
 
-    Denne løkken likner en del på den vi har i `draw` fra før. Vi har
-    derimot introdusert en funksjon som heter `random`. Denne gir oss
-    tilfeldige tall. Hvis vi kaller den uten noen verdier, `random()`,
-    får vi et tall mellom `0` og `1`. Hvis vi kaller den med én verdi,
-    `random(width)`, får vi et tall mellom `0` og verdien. Hvis vi
-    bruker to verdier, `random(-5, 5)`, får vi et tall mellom de to
-    verdiene.
+  Denne løkken likner en del på den vi har i `draw` fra før. Vi har
+  derimot introdusert en funksjon som heter `random`. Denne gir oss
+  tilfeldige tall. Hvis vi kaller den uten noen verdier, `random()`,
+  får vi et tall mellom `0` og `1`. Hvis vi kaller den med én verdi,
+  `random(width)`, får vi et tall mellom `0` og verdien. Hvis vi
+  bruker to verdier, `random(-5, 5)`, får vi et tall mellom de to
+  verdiene.
 
 + Nå skal vi tegne opp mangekanten vår. Vi trenger ikke å endre på den
   første løkken i `draw`, men jeg synes vi skal bytte testen så den
   likner den over. Vi skal bytte ut kallet på `triangle` med en løkke
   som tegner hver kant:
 
-    ```processing
-    void draw() {
-      for (int i = 0; i < KANTER; i++) {
-        x[i] += xFart[i];
-        y[i] += yFart[i];
+  ```processing
+  void draw() {
+    for (int i = 0; i < KANTER; i++) {
+      x[i] += xFart[i];
+      y[i] += yFart[i];
 
-        if (x[i] < 0) {
-          xFart[i] = -xFart[i];
-        }
-
-        if (x[i] > width) {
-          xFart[i] = -xFart[i];
-        }
-
-        if (y[i] < 0) {
-          yFart[i] = -yFart[i];
-        }
-
-        if (y[i] > height) {
-          yFart[i] = -yFart[i];
-        }
+      if (x[i] < 0) {
+        xFart[i] = -xFart[i];
       }
 
-      background(0);
-
-      beginShape();
-      for (int i = 0; i < KANTER; i++) {
-        vertex(x[i], y[i]);
+      if (x[i] > width) {
+        xFart[i] = -xFart[i];
       }
-      endShape(CLOSE);
+
+      if (y[i] < 0) {
+        yFart[i] = -yFart[i];
+      }
+
+      if (y[i] > height) {
+        yFart[i] = -yFart[i];
+      }
     }
-    ```
 
-    Her ser vi tre nye funksjoner: `beginShape`, `vertex` og
-    `endShape`. `beginShape` angir at vi skal tegne en form. `vertex`
-    betyr at vi skal legge til et hjørne i formen, den tar inn to
-    verdier for posisjonen til hjørnet. `endShape` sier at formen er
-    ferdig og klar til å tegnes på skjermen. Hvis vi kaller `endShape`
-    uten `CLOSE`, blir ikke formen lukket og fylt.
+    background(0);
+
+    beginShape();
+    for (int i = 0; i < KANTER; i++) {
+      vertex(x[i], y[i]);
+    }
+    endShape(CLOSE);
+  }
+  ```
+
+  Her ser vi tre nye funksjoner: `beginShape`, `vertex` og
+  `endShape`. `beginShape` angir at vi skal tegne en form. `vertex`
+  betyr at vi skal legge til et hjørne i formen, den tar inn to
+  verdier for posisjonen til hjørnet. `endShape` sier at formen er
+  ferdig og klar til å tegnes på skjermen. Hvis vi kaller `endShape`
+  uten `CLOSE`, blir ikke formen lukket og fylt.
 
 ![](SprettendePolygon.gif "En hvit mangekant spretter rundt på en svart bakgrunn.")
 
@@ -420,8 +420,8 @@ oppgave:
 + Kan du bruke `random` til å få hjørnene til å endre hastighet når de
   treffer kanten av vinduet?
 
-    Pass på, om farten blir lavere enn den var, kan hjørnet bli
-    sittende fast i kanten av vinduet. Det er fordi vi egentlig lar
-    den bevege seg litt utenfor vinduet for så å snu. Sett `x` eller
-    `y` til å være lik posisjonen til vinduskanten inne i
-    `if`-setningene for å unngå det.
+  Pass på, om farten blir lavere enn den var, kan hjørnet bli
+  sittende fast i kanten av vinduet. Det er fordi vi egentlig lar
+  den bevege seg litt utenfor vinduet for så å snu. Sett `x` eller
+  `y` til å være lik posisjonen til vinduskanten inne i
+  `if`-setningene for å unngå det.

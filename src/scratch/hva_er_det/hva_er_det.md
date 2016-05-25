@@ -40,10 +40,10 @@ flere poeng får du.
 + La oss nå få en tilfeldig ting til å dukke opp på tavlen. Bruk dette
   skriptet.
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt drakt til (tilfeldig tall fra (1) til (5))
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt drakt til (tilfeldig tall fra (1) til (5))
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -74,17 +74,17 @@ synke. Poengvariabelen fungerer dermed som en slags tidteller.
 
 + Endre skriptet slik:
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt drakt til (tilfeldig tall fra (1) til (5))
-        sett [poeng v] til [110]
-        gjenta til <(poeng) = [0]>
-            endre [poeng v] med (-10)
-            sett [piksel v] effekt til (poeng)
-            sett [farge v] effekt til (poeng)
-            vent (1) sekunder
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt drakt til (tilfeldig tall fra (1) til (5))
+  sett [poeng v] til [110]
+  gjenta til <(poeng) = [0]>
+      endre [poeng v] med (-10)
+      sett [piksel v] effekt til (poeng)
+      sett [farge v] effekt til (poeng)
+      vent (1) sekunder
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -131,18 +131,18 @@ Først må vi å vite hva det rette svaret er.
   svar.  Etter at vi har bestemt drakten legger du derfor til klossen
   `sett riktig til`{.blockdata}`drakt nr.`{.blocklooks}:
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt drakt til (tilfeldig tall fra (1) til (5))
-        sett [riktig v] til (drakt nr.)
-        sett [poeng v] til [110]
-        gjenta til <(poeng) = [0]>
-            endre [poeng v] med (-10)
-            sett [piksel v] effekt til (poeng)
-            sett [farge v] effekt til (poeng)
-            vent (1) sekunder
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt drakt til (tilfeldig tall fra (1) til (5))
+  sett [riktig v] til (drakt nr.)
+  sett [poeng v] til [110]
+  gjenta til <(poeng) = [0]>
+      endre [poeng v] med (-10)
+      sett [piksel v] effekt til (poeng)
+      sett [farge v] effekt til (poeng)
+      vent (1) sekunder
+  slutt
+  ```
 
 Nå skal vi legge til flere figurer som spilleren kan klikke på.
 
@@ -162,22 +162,22 @@ Nå skal vi legge til flere figurer som spilleren kan klikke på.
 + Gjenta disse punktene tre ganger til, slik at du har også figurene
   `Svar3`, `Svar4` og `Svar5`.
 
-    Du skal nå ha en rad med fem svar-figurer nederst på scenen, hver
-    viser en drakt som hovedfiguren kan ha. Ingen av `Svar`-figurene
-    skal ha skript knyttet til seg.
+  Du skal nå ha en rad med fem svar-figurer nederst på scenen, hver
+  viser en drakt som hovedfiguren kan ha. Ingen av `Svar`-figurene
+  skal ha skript knyttet til seg.
 
 + Nå må vi få alle figurene til å reagere når de blir klikket på. Hva
   som skal skje avhenger av om spilleren har klikket riktig eller
   galt. Legg til dette skriptet til `Svar1`:
 
-    ```blocks
-        når denne figuren klikkes
-        hvis <(riktig) = [1]>
-            send melding [Vant v]
-        ellers
-            skjul
-        slutt
-    ```
+  ```blocks
+  når denne figuren klikkes
+  hvis <(riktig) = [1]>
+      send melding [Vant v]
+  ellers
+      skjul
+  slutt
+  ```
 
 + Dra skriptet over til de andre figurene, slik at alle får hver sin
   kopi. For hver figur, bytt 1 til 2, 3, og så videre.
@@ -185,10 +185,10 @@ Nå skal vi legge til flere figurer som spilleren kan klikke på.
 + Nå skal vi lage skriptet som gir melding til spilleren når han har
   vunnet. Klikk på `Spørsmål` igjen og legg til dette skriptet:
 
-    ```blocks
-        når jeg mottar [Vant v]
-        si (sett sammen [Gratulerer! Din poengsum ble ] (poeng))
-    ```
+  ```blocks
+  når jeg mottar [Vant v]
+  si (sett sammen [Gratulerer! Din poengsum ble ] (poeng))
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -213,10 +213,10 @@ at man har klikket på riktig svar.
 + For å fikse det første problemet kan vi bare legge til følgende
   skript for hver av de fem svarfigurene:
 
-    ```blocks
-        når grønt flagg klikkes
-        vis
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  vis
+  ```
 
 For å fikse det andre problemet må vi få stoppet spørsmålfigurens
 `gjenta til`{.blockcontrol}-løkke når spilleren klikker på riktig
@@ -234,24 +234,24 @@ vinnes. Se skriptene nedenfor.
   spilleren har gjettet riktig. Skriptene på `Spørsmål` skal nå se
   slik ut:
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt drakt til (tilfeldig tall fra (1) til (5))
-        sett [riktig v] til (drakt nr.)
-        sett [poeng v] til [110]
-        sett [vant v] til [0]
-        gjenta til <<(poeng) = [0]> eller <(vant) = [1]>>
-            endre [poeng v] med (-10)
-            sett [piksel v] effekt til (poeng)
-            sett [farge v] effekt til (poeng)
-            vent (1) sekunder
-        slutt
+  ```blocks
+  når grønt flagg klikkes
+  bytt drakt til (tilfeldig tall fra (1) til (5))
+  sett [riktig v] til (drakt nr.)
+  sett [poeng v] til [110]
+  sett [vant v] til [0]
+  gjenta til <<(poeng) = [0]> eller <(vant) = [1]>>
+      endre [poeng v] med (-10)
+      sett [piksel v] effekt til (poeng)
+      sett [farge v] effekt til (poeng)
+      vent (1) sekunder
+  slutt
 
-        når jeg mottar [Vant v]
-        sett [vant v] til [1]
-        ta bort grafiske effekter
-        si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
-    ```
+  når jeg mottar [Vant v]
+  sett [vant v] til [1]
+  ta bort grafiske effekter
+  si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
+  ```
 
 ## Lagre prosjektet {.save}
 

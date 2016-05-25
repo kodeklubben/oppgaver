@@ -50,13 +50,13 @@ i gang.
 + Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi
   ved å lage følgende skript:
 
-    ```blocks
-        når grønt flagg klikkes
-        sett [hastighet v] til [5]
-        for alltid
-            gå (hastighet) steg
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett [hastighet v] til [5]
+  for alltid
+      gå (hastighet) steg
+  slutt
+  ```
 
 ## Test Prosjektet {.flag}
 
@@ -72,14 +72,14 @@ __Klikk på det grønne flagget.__
   når det treffer den. Dette gjøres ved å legge til klossen `sprett
   tilbake ved kanten`{.blockmotion}. Skriptet ser da slik ut:
 
-    ```blocks
-        når grønt flagg klikkes
-        sett [hastighet v] til [5]
-        for alltid
-            gå (hastighet) steg
-            sprett tilbake ved kanten
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett [hastighet v] til [5]
+  for alltid
+      gå (hastighet) steg
+      sprett tilbake ved kanten
+  slutt
+  ```
 
 + For å hindre at spøkelset snur seg opp-ned, klikk på
   ![venstre/høyre](../bilder/rotasjonsmate-hv.png)-knappen i
@@ -115,15 +115,15 @@ __Klikk på det grønne flagget.__
   periode__. Dette skal skje om og om igjen, frem til spillet er
   slutt. Slik lager du skriptet:
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            vis
-            vent (tilfeldig tall fra (3) til (5)) sekunder
-            skjul
-            vent (tilfeldig tall fra (2) til (4)) sekunder
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      vis
+      vent (tilfeldig tall fra (3) til (5)) sekunder
+      skjul
+      vent (tilfeldig tall fra (2) til (4)) sekunder
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -154,11 +154,11 @@ __Klikk på det grønne flagget.__
 + Lag skriptet som får __spøkelset til å forsvinne__ når det blir
   klikket på:
 
-    ```blocks
-        når denne figuren klikkes
-        skjul
-        spill lyden [fairydust v]
-    ```
+  ```blocks
+  når denne figuren klikkes
+  skjul
+  spill lyden [fairydust v]
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -185,12 +185,12 @@ __Klikk på det grønne flagget.__
   `Poeng`{.blockdata}-variabelen økes med 1 poeng for hver gang
   spilleren klikker på spøkelset.
 
-    ```blocks
-        når denne figuren klikkes
-        skjul
-        spill lyden [fairydust v]
-        endre [Poeng v] med (1)
-    ```
+  ```blocks
+  når denne figuren klikkes
+  skjul
+  spill lyden [fairydust v]
+  endre [Poeng v] med (1)
+  ```
 
 + Klikk på `Scene` og lag en ny variabel som heter `Tid`. La variablen
   vises på skjermen.
@@ -204,16 +204,16 @@ __Klikk på det grønne flagget.__
   fram til tiden er ute. Til slutt stopper du hele spillet med en
   `stopp alle`{.blockcontrol}-kloss.
 
-    ```blocks
-        Når grønt flagg klikkes
-        sett [Tid v] til [30]
-        sett [Poeng v] til [0]
-        gjenta til <(tid) = [0]>
-            vent (1) sekunder
-            endre [Tid v] med (-1)
-        slutt
-        stopp [alle v] :: control
-    ```
+  ```blocks
+  Når grønt flagg klikkes
+  sett [Tid v] til [30]
+  sett [Poeng v] til [0]
+  gjenta til <(tid) = [0]>
+      vent (1) sekunder
+      endre [Tid v] med (-1)
+  slutt
+  stopp [alle v] :: control
+  ```
 
 ## Test prosjektet {.flag}
 

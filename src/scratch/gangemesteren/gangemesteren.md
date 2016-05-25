@@ -32,12 +32,12 @@ gangetabellen.
   `Læremester` kan spørre oss om tilfeldige gangestykker. Skriv dette
   skriptet:
 
-    ```blocks
-    når grønt flagg klikkes
-    si (tilfeldig tall fra (2) til (10)) i (2) sekunder
-    si [ganger] i (2) sekunder
-    si (tilfeldig tall fra (2) til (10)) i (2) sekunder
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  si (tilfeldig tall fra (2) til (10)) i (2) sekunder
+  si [ganger] i (2) sekunder
+  si (tilfeldig tall fra (2) til (10)) i (2) sekunder
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -67,7 +67,7 @@ sammen tall.
   på høyresiden. Skriv inn to tall og klikk på klossen. Scratch
   regner da ut svaret på gangestykket.
 
-    ![](gangeoperator.png)
+  ![](gangeoperator.png)
 
 + Vi vil nå kombinere gangeklossen med `tilfeldig
   tall`{.blockoperators}-klossen, men for å få dette til trenger vi en
@@ -79,19 +79,19 @@ sammen tall.
 + Skriv nå et **helt nytt skript** (la det ligge ved siden av det
   skriptet du skrev i forrige steg).
 
-    ```blocks
-    når jeg mottar [Nytt spørsmål v]
-    sett [tall1 v] til (tilfeldig tall fra (2) til (10))
-    sett [tall2 v] til (tilfeldig tall fra (2) til (10))
-    sett [riktig svar v] til ((tall1) * (tall2))
-    ```
+  ```blocks
+  når jeg mottar [Nytt spørsmål v]
+  sett [tall1 v] til (tilfeldig tall fra (2) til (10))
+  sett [tall2 v] til (tilfeldig tall fra (2) til (10))
+  sett [riktig svar v] til ((tall1) * (tall2))
+  ```
 
 + Prøv å klikke på skriptet for å teste det (siden det ikke
   starter med et grønt flagg kan vi ikke teste det på den vanlige
   måten). Om du ser på variablene på scenen skal de endre seg hver
   gang du klikker på skriptet. Er `riktig svar`{.blockdata} rett?
 
-    ![](variabler.png)
+  ![](variabler.png)
 
 # Steg 3: Et skikkelig spørsmål {.activity}
 
@@ -106,38 +106,38 @@ La oss se om vi kan sette sammen disse tallene til et skikkelig spørsmål.
   flere tall og ord. Vi skal nå bruke to `sett
   sammen`{.blockoperators}-klosser på denne måten:
 
-    ```blocks
-    sett sammen (sett sammen [] []) []
-    ```
+  ```blocks
+  sett sammen (sett sammen [] []) []
+  ```
 
-    Dette gir oss plass til tre tall eller ord. Her kan vi putte inn
-    `tall1`{.blockdata}, teksten ` ganger ` og
-    `tall2`{.blockdata}. Pass på at du har
-    mellomrom før og etter `ganger`, det ser best ut da. Om du klikker på den første `sett
-    sammen`{.blockoperators}-klossen vil du se hvordan den ferdige
-    teksten blir.
+  Dette gir oss plass til tre tall eller ord. Her kan vi putte inn
+  `tall1`{.blockdata}, teksten ` ganger ` og
+  `tall2`{.blockdata}. Pass på at du har
+  mellomrom før og etter `ganger`, det ser best ut da. Om du klikker på den første `sett
+  sammen`{.blockoperators}-klossen vil du se hvordan den ferdige
+  teksten blir.
 
-    ![](sett_sammen.png)
+  ![](sett_sammen.png)
 
 + Legg denne klossen til nederst i `Nytt spørsmål`-skriptet:
 
-    ```blocks
-    når jeg mottar [Nytt spørsmål v]
-    sett [tall1 v] til (tilfeldig tall fra (2) til (10))
-    sett [tall2 v] til (tilfeldig tall fra (2) til (10))
-    sett [riktig svar v] til ((tall1) * (tall2))
-    sett [spørsmål v] til (sett sammen (sett sammen (tall1) [ ganger ]) (tall2))
-    ```
+  ```blocks
+  når jeg mottar [Nytt spørsmål v]
+  sett [tall1 v] til (tilfeldig tall fra (2) til (10))
+  sett [tall2 v] til (tilfeldig tall fra (2) til (10))
+  sett [riktig svar v] til ((tall1) * (tall2))
+  sett [spørsmål v] til (sett sammen (sett sammen (tall1) [ ganger ]) (tall2))
+  ```
 
 + Nå skal vi få `Læremester` til å stille oss spørsmålet vi har
   satt sammen. **Bytt ut** det første skriptet (med det grønne
   flagget) du skrev med dette:
 
-    ```blocks
-    når grønt flagg klikkes
-    send melding [Nytt spørsmål v] og vent
-    spør (spørsmål) og vent
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  send melding [Nytt spørsmål v] og vent
+  spør (spørsmål) og vent
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -166,19 +166,19 @@ Nå som vi kan svare på spørsmål vil vi også vite om vi svarer riktig.
   forskjellige ting ettersom du svarer riktig eller feil på
   gangestykkene. **Utvid** det ene skriptet ditt på denne måten:
 
-    ```blocks
-    når grønt flagg klikkes
-    send melding [Nytt spørsmål v] og vent
-    spør (spørsmål) og vent
-    hvis <(svar) = (riktig svar)>
-        si [Ja, så flink du er!] i (2) sekunder
-    ellers
-        si [Nei, det ble visst feil.] i (2) sekunder
-    slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  send melding [Nytt spørsmål v] og vent
+  spør (spørsmål) og vent
+  hvis <(svar) = (riktig svar)>
+      si [Ja, så flink du er!] i (2) sekunder
+  ellers
+      si [Nei, det ble visst feil.] i (2) sekunder
+  slutt
+  ```
 
-    Klossen `svar`{.blocksensing} husker svaret du skriver når
-    `Læremester` spør om gangestykket.
+  Klossen `svar`{.blocksensing} husker svaret du skriver når
+  `Læremester` spør om gangestykket.
 
 ## Test prosjektet {.flag}
 
@@ -201,19 +201,19 @@ I stedet for å måtte trykke det grønne flagget hele tiden, kan vi be
   spørsmål`{.blockevents}-melding hvis svaret er riktig. Hvis svaret
   er feil stiller vi det samme spørsmålet en gang til.
 
-    ```blocks
-    når grønt flagg klikkes
-    send melding [Nytt spørsmål v] og vent
-    gjenta (10) ganger
-        spør (spørsmål) og vent
-        hvis <(svar) = (riktig svar)>
-            si [Ja, så flink du er!] i (2) sekunder
-            send melding [Nytt spørsmål v] og vent
-        ellers
-            si [Nei, det ble visst feil.] i (2) sekunder
-        slutt
-    slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  send melding [Nytt spørsmål v] og vent
+  gjenta (10) ganger
+      spør (spørsmål) og vent
+      hvis <(svar) = (riktig svar)>
+          si [Ja, så flink du er!] i (2) sekunder
+          send melding [Nytt spørsmål v] og vent
+      ellers
+          si [Nei, det ble visst feil.] i (2) sekunder
+      slutt
+  slutt
+  ```
 
 + Vi kan også telle poeng hver gang du svarer riktig. For å gjøre
   dette trenger vi en ny variabel, `Poeng`{.blockdata}. Denne skal
@@ -259,39 +259,39 @@ og finne ut at svaret er **12**.
   avtrykk`{.blockpen} som tegner Hjelperne på skjermen. Skriv dette
   skriptet på `Hjelper`-figuren:
 
-    ```blocks
-    når jeg mottar [Tegn hjelper v]
-    slett
-    sett størrelse til (20)%
-    vis
-    sett y til (140)
-    gjenta (tall1) ganger
-        sett x til (-140)
-        gjenta (tall2) ganger
-            stemple avtrykk
-            endre x med (40)
-        slutt
-        endre y med (-25)
-    slutt
-    skjul
-    ```
+  ```blocks
+  når jeg mottar [Tegn hjelper v]
+  slett
+  sett størrelse til (20)%
+  vis
+  sett y til (140)
+  gjenta (tall1) ganger
+      sett x til (-140)
+      gjenta (tall2) ganger
+          stemple avtrykk
+          endre x med (40)
+      slutt
+      endre y med (-25)
+  slutt
+  skjul
+  ```
 
-    Om du har brukt en annen figur som `Hjelper` kan det hende du må
-    bruke noen andre tall i dette skriptet. Prøv i så fall først å
-    forandre på `sett størrelse til 20%`{.blocklooks}-klossen.
+  Om du har brukt en annen figur som `Hjelper` kan det hende du må
+  bruke noen andre tall i dette skriptet. Prøv i så fall først å
+  forandre på `sett størrelse til 20%`{.blocklooks}-klossen.
 
 + Nå skal vi tegne dette rutenettet hver gang vi lager et nytt
   spørsmål. Klikk på `Læremester`, og legg til en kloss nederst i
   `Nytt spørsmål`-skriptet:
 
-    ```blocks
-    når jeg mottar [Nytt spørsmål v]
-    sett [tall1 v] til (tilfeldig tall fra (2) til (10))
-    sett [tall2 v] til (tilfeldig tall fra (2) til (10))
-    sett [riktig svar v] til ((tall1) * (tall2))
-    sett [spørsmål v] til (sett sammen (sett sammen (tall1) [ ganger ]) (tall2))
-    send melding [Tegn hjelper v]
-    ```
+  ```blocks
+  når jeg mottar [Nytt spørsmål v]
+  sett [tall1 v] til (tilfeldig tall fra (2) til (10))
+  sett [tall2 v] til (tilfeldig tall fra (2) til (10))
+  sett [riktig svar v] til ((tall1) * (tall2))
+  sett [spørsmål v] til (sett sammen (sett sammen (tall1) [ ganger ]) (tall2))
+  send melding [Tegn hjelper v]
+  ```
 
 ## Test prosjektet {.flag}
 

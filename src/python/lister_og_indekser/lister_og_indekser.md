@@ -98,11 +98,11 @@ Dette må du gjøre:
  * Be om input.
  * Så lenge input ikke er lik `ferdig`, legg til det nye elementet i lista.
 
-     **Hint:** Hva slags løkke kan vi bruke her?
+   **Hint:** Hva slags løkke kan vi bruke her?
 
  * Skriv ut hvert hvert element i lista.
 
-    **Hint:** Hva slags løkke kan vi bruke her?
+  **Hint:** Hva slags løkke kan vi bruke her?
 
 # Indekser {.activity}
 
@@ -224,4 +224,4 @@ Dette må du gjøre:
  * Bruk en løkke for å hente ut hver bokstav og dens indeks.
  * Hvis indeksen er et partall, skriv ut bokstaven.
 
-    **Hint:** `tall%2` er *resten* av `tall` delt på `2`, hva gir `tall%2` når `tall` er et partall?
+  **Hint:** `tall%2` er *resten* av `tall` delt på `2`, hva gir `tall%2` når `tall` er et partall?

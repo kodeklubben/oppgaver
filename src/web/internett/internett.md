@@ -75,11 +75,11 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 - `<html>`: Forteller nettleseren at her kommer det HTML-kode.
 - `<head>`: Inne i `<head>` skriver vi ting som er nyttig for nettleseren, men som ikke vil dukke opp som tekst på selve nettsiden. For eksempel kan vi bruke taggen `<title>`:
 
-    ```html
-    <head>
-      <title>Arves hjemmeside</title>
-    </head>
-    ```
+  ```html
+  <head>
+    <title>Arves hjemmeside</title>
+  </head>
+  ```
   `Arves hjemmeside` vil da benyttes som tittel til hjemmesiden og vises i vinduet til nettleseren.
 - `<body>`: Her putter vi det som skal dukke opp på nettsiden.
 
@@ -91,14 +91,14 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 - ID-er brukes for å markere unike elementer på siden din. Finn `div`-taggen som har `id="kattunge"`.
 - Hva skjer hvis du flytter ting rundt? Finn en `<ol>` tagg i koden og velg den og alt som er inni den, slik som dette:
 
-    ```html
-      <ol>
-        <li>Kattunger</li>
-        <li>Universet</li>
-        <li>Å sove lenge</li>
-        <li>Å spille spill</li>
-      </ol>
-    ```
+  ```html
+  <ol>
+    <li>Kattunger</li>
+    <li>Universet</li>
+    <li>Å sove lenge</li>
+    <li>Å spille spill</li>
+  </ol>
+  ```
 
 - Kopier teksten og flytt den til et annet sted.
 - Lagre siden og åpne den i nettleseren.

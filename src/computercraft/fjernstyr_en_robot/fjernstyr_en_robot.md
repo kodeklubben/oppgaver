@@ -364,9 +364,9 @@ Nå skal vi prøve det selv!
 
   Forslag:
 
-    * Angrip
-    * Bygg blokk foran
-    * Kjør `excavate 4` her du er
+  * Angrip
+  * Bygg blokk foran
+  * Kjør `excavate 4` her du er
 
 # Steg 6: Du vil ha mer? {.activity}
 
