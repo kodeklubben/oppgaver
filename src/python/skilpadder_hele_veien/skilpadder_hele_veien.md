@@ -86,7 +86,7 @@ vi må skrive alle stegene vi må ta, er det egentlig bare det første fjellet
 tegnet fire ganger.
 
 ```
-  /\
+            /\
          __/  \__
          \      /
 ____/\___/      \___/\___
@@ -303,18 +303,18 @@ La oss tegne et siste fraktal, og som før har vi et enkelt tilfelle og et spesi
 De første tre versjonene ser ut som dette. Vi tegner et triangel, og så tegner vi det som tre trekanter sammen.
 
 ```
-  /\
- /  \
-/    \
+       /\
+      /  \
+     /    \
     /      \
    /        \
   /          \
  /            \
 ----------------
 
-  /\
- /  \
-/    \
+       /\
+      /  \
+     /    \
     --------
    /\      /\
   /  \    /  \
@@ -322,9 +322,9 @@ De første tre versjonene ser ut som dette. Vi tegner et triangel, og så tegner
 ----------------
 
 
-  /\
- ----
-/\  /\
+       /\
+      ----
+     /\  /\
     --------
    /\      /\
   ----    ----

@@ -74,13 +74,13 @@ Tilhørende verdi er bread
 
 Dette må du gjøre:
 
- * Lag ei tom ordbok.
- * Bruk ei løkke for å hente inn 3 nøkkel/verdi-par.
+* Lag ei tom ordbok.
+* Bruk ei løkke for å hente inn 3 nøkkel/verdi-par.
 
   * Lagre nøkkel/verdi-parene i ordboka.
 
- * Spør om en nøkkel.
- * Skriv ut verdien som hører til nøkkelen.
+* Spør om en nøkkel.
+* Skriv ut verdien som hører til nøkkelen.
 
 
 # Gå igjennom ordbøker {.activity}

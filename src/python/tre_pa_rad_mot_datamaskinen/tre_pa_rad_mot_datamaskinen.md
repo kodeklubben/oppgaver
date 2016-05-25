@@ -183,11 +183,11 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
   Først bruker vi `free_squares` til å lage en liste over de tomme rutene. Deretter velger vi en tilfeldig av disse rutene. Vi vil nå oversette dette rutenummeret til rad- og kolonne-nummer. Dette gjør vi ved å bruke `%` og `//` operatorene. La oss se litt nærmere på hvordan dette virker:
 
   ```
-       0 1 2
-       -----
-   0 | 0 1 2
-   1 | 3 4 5
-   2 | 6 7 8
+      0 1 2
+      -----
+  0 | 0 1 2
+  1 | 3 4 5
+  2 | 6 7 8
   ```
 
   For eksempel er rute nummer 5 i rad 1 og kolonne 2. Hvis vi deler 5 på 3 får vi 1 med 2 i rest.

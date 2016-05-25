@@ -56,27 +56,27 @@ skal vi i stedet lære å bruke tk-biblioteket til tegning.
 På samme måte som vi brukte `turtle`-biblioteket når vi tegnet med skilpadder bruker vi her `tkinter`-biblioteket. Vi lager et 600 ganger 600-piksler lerret som tegnes i et vindu med kommandoen `c = Canvas(main, width=600, height=600)`. For datamaskinen ser dette slik ut:
 
 ```
-  0       200      400      600   ...
- 0+--------+--------+--------+-----> bortover
-  |
-  |
-  |
-  |
+    0       200      400      600   ...
+   0+--------+--------+--------+-----> bortover
+    |
+    |
+    |
+    |
  200|        A        B
-  |
-  |
-  |
-  |
+    |
+    |
+    |
+    |
  400|        C        D
-  |
-  |
-  |
-  |
+    |
+    |
+    |
+    |
  600|
-  |
+    |
  ...|
-  V
-nedover
+    V
+  nedover
 ```
 
 Her er punkt `A` ved 200 bortover, 200 nedover. Punkt `B` er ved 400 bortover, 200 nedover. Punkt `C` er ved 200 bortover, 400 nedover. Til slutt er punkt `D` ved 400 bortover, 400 nedover.
@@ -84,27 +84,27 @@ Her er punkt `A` ved 200 bortover, 200 nedover. Punkt `B` er ved 400 bortover, 2
 Hver av kodelinjene `c.create_line(bortover1, nedover1, bortover2, nedover2)` tegner en linje på skjermen, hvor de fire tallene beskriver hvor linjer starter og slutter. For eksempel, om vi vil tegne en linje fra `A` til `D` kan vi bruke `c.create_line(200, 200, 400, 400)`.
 
 ```
-  0       200      400      600   ...
-0 +--------A--------B--------+-----> bortover
-  |
-  |
-  |
-  |
+     0       200      400      600   ...
+   0 +--------A--------B--------+-----> bortover
+     |
+     |
+     |
+     |
  200 M                          O
-  |
-  |
-  |
-  |
+     |
+     |
+     |
+     |
  400 N                          P
-  |
-  |
-  |
-  |
+     |
+     |
+     |
+     |
  600 |        C        D
-  |
+     |
  ... |
-  V
-nedover
+     V
+   nedover
 ```
 
 Med punktene som i den siste figuren vil vi tegne linjer fra A til C, B til D, M til O og N til P.

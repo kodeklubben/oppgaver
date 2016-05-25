@@ -28,7 +28,7 @@ kjempeenkelt program. Vi vil bare skrive en enkel hilsen på skjermen.
 + Åpne IDLE, editoren som følger med Python. Vi vil bruke denne til å
   både skrive og kjøre programmene vi skriver.
 
-   **Windows**: Åpne IDLE fra startmenyen.
+  **Windows**: Åpne IDLE fra startmenyen.
 
   **Mac**: Åpne terminal.app, skriv `idle` og trykk enter.
 

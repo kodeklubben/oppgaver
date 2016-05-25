@@ -58,15 +58,15 @@ Python-filer skal alltid ha filnavn som slutter med `.py`.
 Lek deg litt med å lage dine egne figurer ved å bruke `forward`, `backward`, `left`, `right`. Husk at `forward` og `backward` bruker pixler, mens `left` og `right` bruker grader. La oss undersøke en skilpadde som bever seg til høyre.
 
 ```
-  Nord
-    0
-    |
+        Nord
+          0
+          |
 Vest      |     Øst
  270 -----+----- 90
-    |
-    |
-   180
-   Syd
+          |
+          |
+         180
+         Syd
 ```
 
 Når skilpadden ser nordover og du ber den snu seg 90 grader til høyre, ser den østover. Snur du den 180 grader fra nord, ser den sydover, og snur du den 270 grader fra nord ser den vestover. Snur du 360 grader stopper den der den begynte. Kanskje er det lettere å tenke på som snowboard-triks?
@@ -74,15 +74,15 @@ Når skilpadden ser nordover og du ber den snu seg 90 grader til høyre, ser den
 Hva med å snu mot venstre?
 
 ```
-  Nord
-    0
-    |
+        Nord
+          0
+          |
 Vest      |      Øst
   90 -----+----- 270
-    |
-    |
-   180
-   Syd
+          |
+          |
+         180
+         Syd
 ```
 
 Når skilpadden ser nordover og du ber den snu seg 90 grader mot venstre, ser den vestover. Når skilpadden ser nordover og du ber den snu seg 180 grader mot venstre ser den sydover, og om den ser nordover og du ber den snu seg 270 grader ser den østover. Snur du 360 grader er du tilbake der du starter, 360 grader er alltid helt rundt.
