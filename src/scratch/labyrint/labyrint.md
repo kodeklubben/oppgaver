@@ -190,12 +190,12 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 For å oppdage når `Utforsker`-figuren vår går gjennom veggen på
-labyrinten vil vi bruke en `(berører fargen [#ffffff])`{.b}-kloss.
+labyrinten vil vi bruke en `<berører fargen [#ffffff]>`{.b}-kloss.
 Denne klossen merker om en figur kommer borti en spesiell farge.  Her
 er det viktig at vi har tegnet alle veggene i labyrinten i samme
 farge.
 
-+ Vi legger `(berører fargen [#ffffff])`{.b}-klossen inn i skriptet vi
++ Vi legger `<berører fargen [#ffffff]>`{.b}-klossen inn i skriptet vi
   allerede har laget som setter `(hastighet)`{.b}-variabelen.
 
     ```blocks

@@ -31,10 +31,9 @@ Nedenfor er en litste over utfordringer vi har opplevd at noen elever
 kommer borti.
 
 + __Utforskeren kan gå rett gjennom veggen__. Typisk vil dette være
-  fordi man ikke har rett farge i `(berører fargen
-  [#cc0000])`{.b}-klossen. Eventuelt at man har brukt flere farger på
-  veggene i labyrinten. Det er viktig at alle veggene er tegnet i
-  samme farge.
+  fordi man ikke har rett farge i `<berører fargen [#cc0000]>`{.b}-klossen.
+  Eventuelt at man har brukt flere farger på veggene i labyrinten. Det er
+  viktig at alle veggene er tegnet i samme farge.
 
   Man kan også oppleve at utforskeren går rett gjennom veggen om
   `(hastighet)`{.b} er for høy. Dette er fordi utforskeren _hopper_

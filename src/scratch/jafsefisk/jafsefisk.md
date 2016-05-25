@@ -178,11 +178,11 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 *Hvordan kan vi sikre at byttet bare forsvinner hvis det berører
- JafseFisks munn? Tja, vi kan bruke `(berører fargen [#FFFFFF]?)`{.b}
+ JafseFisks munn? Tja, vi kan bruke `<berører fargen [#FFFFFF]?>`{.b}
  og se om den berører det hvite på fiskens tenner.*
 
-+ Legg til `(berører fargen [#FFFFFF]?)`{.b} i tillegg til
-  `(berører [JafseFisk v]?)`{.b} i skriptet ditt. For å velge hvit
++ Legg til `<berører fargen [#FFFFFF]?>`{.b} i tillegg til
+  `<berører [JafseFisk v]?>`{.b} i skriptet ditt. For å velge hvit
   klikker du på fargen i klossen og deretter på fiskens tenner.
 
 + Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen
