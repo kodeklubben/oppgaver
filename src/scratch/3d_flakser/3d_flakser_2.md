@@ -182,7 +182,7 @@ ring-figuren.
   må legge til denne klossen et sted i skriptet til ring-klonene.
 
     ```blocks
-        hvis <<berører [Flakse v]> og <(distanse) < (1.2)>>
+        hvis <<berører [Flakse v]> og <(distanse) < [1.2]>>
             si [du tapte!] i (1) sekunder
             stopp [alle v] :: control
         slutt
@@ -201,8 +201,10 @@ ring-figuren.
   ringene gjør før de slettes er å sjekke om Flakse er inni.
 
     ```blocks
-        hvis <<<(x) < ((ringX) + (160))> og <(x) > ((ringX) - (160)))> og <((y) < ((ringY) + (160))> og <(ringY) > ((ringY) - (160)>>>
-            endre [poeng v] med (1)
+        hvis < <(x) < ((ringX) + (160))> og <(x) > ((ringX) - (160))> >
+            hvis < <(y) < ((ringY) + (160))> og <(ringY) > ((ringY) - (160))> >
+                endre [poeng v] med (1)
+            slutt
         slutt
     ```
 
