@@ -44,7 +44,7 @@ while True:
   pygame.time.wait(10)
 ```
 
-Dette er en while-løkke som kjører helt til noen krysser ut vinduet. Det er inne i denne løkken at vi kommer til å legge koden som tegner og roterer kuben vår.  
+Dette er en while-løkke som kjører helt til noen krysser ut vinduet. Det er inne i denne løkken at vi kommer til å legge koden som tegner og roterer kuben vår.
 
 # Steg 2: Tegne en firkant{.activity}
 Til nå har vi bare et tomt vindu som ikke viser noe fornuftig. Nå er det på tide å faktisk tegne en firkant. Det første du må gjøre er å legge til tre linjer rett over while-loopen din.

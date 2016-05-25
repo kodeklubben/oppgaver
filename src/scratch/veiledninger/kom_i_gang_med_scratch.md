@@ -147,10 +147,10 @@ oppgaven sammen med barna.
 
   + __Scenen__ øverst til venstre er der ting vil skje. Snart skal vi
     fortelle katten at den skal flytte på seg!
-  
+
   + __Figurlisten__ under scenen viser figurene i programmet
     vårt. Etterhvert vil vi ha flere figurer enn katten.
-    
+
   + __Kodevinduet__ til høyre, inkludert listen over klosser i midten,
      er der selve programmeringen skjer.
 

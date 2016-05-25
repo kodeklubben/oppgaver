@@ -43,8 +43,8 @@ Hvis du har en video du har laget kan du legge den til på siden din uten å las
 + For å legge til en video på siden din må du legge til en `video` tag. Akkurat som `img` taggen har også video en `src` attributt som peker på filen:
 
 ```
-	<video src="romskip_landing.mp4">
-	</video>
+  <video src="romskip_landing.mp4">
+  </video>
 ```
 
 Det som er kjedelig når man legger til video er at ikke aller nettleserene klarer å spille av alle videoformatene. `.mp4` og `.ogv` fungere i de fleste nettleserene, så det kan lønne seg å lagre videoen din i et av de formatene.
@@ -52,46 +52,46 @@ Det som er kjedelig når man legger til video er at ikke aller nettleserene klar
 For å la nettleseren vite at vi har flere formater tilgjengelig, kan vi skrive følgende kode:
 
 ```
-	<video>
-		<source src="romskip_landing.ogv" type="video/ogg">
-		<source src="romskip_landing.mp4" type="video/mp4">
-	</video>
+  <video>
+    <source src="romskip_landing.ogv" type="video/ogg">
+    <source src="romskip_landing.mp4" type="video/mp4">
+  </video>
 ```
 
 + For å legge til et bilde som vises før videoen spilles av, kan du bruke 'poster' attributtet på videotaggen:
 
 ```
-	<video poster="romskip_landing.jpg">
-		<source src="romskip_landing.ogv" type="video/ogg">
-		<source src="romskip_landing.mp4" type="video/mp4">
-	</video>
+  <video poster="romskip_landing.jpg">
+    <source src="romskip_landing.ogv" type="video/ogg">
+    <source src="romskip_landing.mp4" type="video/mp4">
+  </video>
 ```
 
 + Hvis du vil at videoen automatisk skal start å spilles av kan du legge til `autoplay` attributtet. Det gjøres på denne måten:
 
 ```
-	<video poster="romskip_landing.jpg" autoplay>
-		<source src="romskip_landing.ogv" type="video/ogg">
-		<source src="romskip_landing.mp4" type="video/mp4">
-	</video>
+  <video poster="romskip_landing.jpg" autoplay>
+    <source src="romskip_landing.ogv" type="video/ogg">
+    <source src="romskip_landing.mp4" type="video/mp4">
+  </video>
 ```
 
 + For å vise knapper til å styre videoen med, sånn som spill av, pause, volum og så videre kan du legge til `controls` attributtet:
 
 ```
-	<video poster="romskip_landing.jpg" controls>
-		<source src="romskip_landing.ogv" type="video/ogg">
-		<source src="romskip_landing.mp4" type="video/mp4">
-	</video>
+  <video poster="romskip_landing.jpg" controls>
+    <source src="romskip_landing.ogv" type="video/ogg">
+    <source src="romskip_landing.mp4" type="video/mp4">
+  </video>
 ```
 
 + Du kan også styre størrelsen på videoen med `width`(bredde) og `height`(høyde) attributtene på følgende måte:
 
 ```
-	<video poster="romskip_landing.jpg" width="600" height="400">
-		<source src="romskip_landing.ogv" type="video/ogg">
-		<source src="romskip_landing.mp4" type="video/mp4">
-	</video>
+  <video poster="romskip_landing.jpg" width="600" height="400">
+    <source src="romskip_landing.ogv" type="video/ogg">
+    <source src="romskip_landing.mp4" type="video/mp4">
+  </video>
 ```
 
 # Legg til en lydfil fra datamaskinen din {.activity}
@@ -101,8 +101,8 @@ Måten man legger lydfiler til på nettsiden din er ganske lik måten man legger
 + For å legge til en lydfil kan du skrive dette:
 
 ```
-	<audio src="romskip.mp3">
-	</audio>
+  <audio src="romskip.mp3">
+  </audio>
 ```
 
 Legg merke til `src` attributtet som peker på filen.
@@ -110,26 +110,26 @@ Legg merke til `src` attributtet som peker på filen.
 Akkurat som med video er det ikke alle nettlesere som kan spille alle type lydfiler. For å sørge for at flest mulig kan høre på filen bør du legge den til i flere formater. `.mp3` og `.oga` er formatene som flest nettlesere klarer å spille av.
 
 ```
-	<audio>
- 		<source src="romskip.mp3" type='audio/mp3'>
- 		<source src="romskip.ogg" type='audio/ogg; codecs=vorbis'>
-	</audio>
+  <audio>
+     <source src="romskip.mp3" type='audio/mp3'>
+     <source src="romskip.ogg" type='audio/ogg; codecs=vorbis'>
+  </audio>
 ```
 
 + For å legge til knapper for å styre lydavspillingen må du legge til `controls` attributtet:
 
 ```
-	<audio controls>
- 		<source src="romskip.mp3" type='audio/mp3'>
- 		<source src="romskip.ogg" type='audio/ogg; codecs=vorbis'>
-	</audio>
+  <audio controls>
+     <source src="romskip.mp3" type='audio/mp3'>
+     <source src="romskip.ogg" type='audio/ogg; codecs=vorbis'>
+  </audio>
 ```
 
 + Hvis du ønsker at lyden skal starte å spilles av med en gang man går inn på nettsiden kan du legge til `autoplay` attributten på denn måten:
 
 ```
-	<audio controls autoplay>
- 		<source src="romskip.mp3" type='audio/mp3'>
- 		<source src="romskip.ogg" type='audio/ogg; codecs=vorbis'>
-	</audio>
+  <audio controls autoplay>
+     <source src="romskip.mp3" type='audio/mp3'>
+     <source src="romskip.ogg" type='audio/ogg; codecs=vorbis'>
+  </audio>
 ```

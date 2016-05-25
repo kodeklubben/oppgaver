@@ -17,7 +17,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 
 
 2.  Prøv denne koden
- 
+
     Tøm listen før du starter.
 
     ```scratch

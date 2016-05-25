@@ -28,12 +28,12 @@ Denne figuren er tilnærmet lik en likebeint trekant*
 + Gi den nye figuren navnet `Hattulf` ved å klikke på `i`.
 + Før vi begynner med selve oppgaven, skal vi legge inn en liten hjelpefunksjon om noe uventet skulle skje:
 
-	```blocks
-	når [n v] trykkes
-	vis
-	pek i retning [90 v]
-	gå til x: (0) y: (0)
-	```
+  ```blocks
+  når [n v] trykkes
+  vis
+  pek i retning [90 v]
+  gå til x: (0) y: (0)
+  ```
 + Skulle noe uventet skje nå, trenger du bare å trykke på tasten N på tastaturet, så vil Hattulf gå tilbake til utgangspunktet, slik at du kan prøve på nytt.
 
 ## Test prosjektet {.flag}
@@ -46,12 +46,12 @@ Denne figuren er tilnærmet lik en likebeint trekant*
 + Importer bakgrunnen 'xy-grid'
 + Velg Hattulf. I scriptet
 
-	```blocks
-	når [n v] trykkes
-	vis
-	pek i retning [90 v]
-	gå til x: (0) y: (0)
-	```
+  ```blocks
+  når [n v] trykkes
+  vis
+  pek i retning [90 v]
+  gå til x: (0) y: (0)
+  ```
 endrer vi x-verdien til -100, og y-verdien til 100.
 
 + Legg merke til punktet der x-aksen (vannrett) og y-aksen (loddrett) krysses. Det punktet kalles origo og er det stedet hvor både x = 0 og y = 0.
@@ -68,11 +68,11 @@ Nå skal vi altså rotere Hattulf rundt origo på en ganske enkel måte.
 
 + Lag dette skriptet til Hattulf:
 
-	```blocks
-	når [pil høyre v] trykkes
-	gå (200) steg
-	vend høyre (90) grader
-	```
+  ```blocks
+  når [pil høyre v] trykkes
+  gå (200) steg
+  vend høyre (90) grader
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -87,10 +87,10 @@ Nå skal vi altså rotere Hattulf rundt origo på en ganske enkel måte.
 + Kopier også over "Når pil høyre trykkes"-skriptet fra Hattulf, men halver både antall steg og antall grader i skriptet.
 + For litt mer moro kan du legge til en linje med kode som skrur på `pennen`{.blockpen} for begge figurene. Øverste del av pil høyre-skriptet skal da se slik ut:
 
-	```blocks
-	når [pil høyre v] trykkes
-	penn på
-	```
+  ```blocks
+  når [pil høyre v] trykkes
+  penn på
+  ```
 ## Test prosjektet {.flag}
 
 + Trykk pil høyre. Hva skjer?

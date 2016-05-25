@@ -93,11 +93,11 @@ print(2+tall)
 **Hvordan:**
 ```python
 if dette_er_sant:
-	gjor_dette()
+    gjor_dette()
 elif noe_annet_er_sant:
-	gjor_noe_annet()
+    gjor_noe_annet()
 else:
-	ingen_av_if_setningene_er_sann()
+    ingen_av_if_setningene_er_sann()
 ```
 
 Her er noen eksempler på hva som kan stå bak `if` og `elif`.
@@ -117,13 +117,13 @@ Her er noen eksempler på hva som kan stå bak `if` og `elif`.
 ```python
 tekst = 'Heisann'
 if tekst == 'Hei':
-	print('Teksten er lik Hei')
+    print('Teksten er lik Hei')
 elif tekst == 'Hoho':
-	print('Teksten er lik Hoho')
+    print('Teksten er lik Hoho')
 elif 'Hei' in tekst:
-	print('Hei er inni teksten')
+    print('Hei er inni teksten')
 else:
-	print('Teksten er ikke Hei eller Hoho og Hei er ikke inni teksten')
+    print('Teksten er ikke Hei eller Hoho og Hei er ikke inni teksten')
 ```
 ## Gjøre selv {.check}
 **Fortsett med koden fra del 3.**

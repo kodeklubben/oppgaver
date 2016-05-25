@@ -107,7 +107,7 @@ Hver av kodelinjene `c.create_line(bortover1, nedover1, bortover2, nedover2)` te
    nedover
 ```
 
-Med punktene som i den siste figuren vil vi tegne linjer fra A til C, B til D, M til O og N til P.  
+Med punktene som i den siste figuren vil vi tegne linjer fra A til C, B til D, M til O og N til P.
 
 ```python
 c.create_line(200, 0, 200, 600) # A til C

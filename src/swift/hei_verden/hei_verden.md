@@ -22,7 +22,7 @@ I denne øvelsen er skjermbildene og instruksjonene for Xcode 7 beta, men det sk
 
 ## Sjekkliste {.check}
 
-+ Åpne Xcode ved å holde `cmd + mellomrom` og søk etter **Xcode**. Alternativt kan du søke etter Xcode med forstørrelsesglass-ikonet øverst i høyre hjørne.  
++ Åpne Xcode ved å holde `cmd + mellomrom` og søk etter **Xcode**. Alternativt kan du søke etter Xcode med forstørrelsesglass-ikonet øverst i høyre hjørne.
 
 + Du blir møtt med et vindu som lar deg gjøre en rekke ting. Du kan enten starte et nytt prosjekt, leke deg rundt i **Playground** eller se på og endre et eksisterende prosjekt.
 
@@ -32,11 +32,11 @@ I denne øvelsen er skjermbildene og instruksjonene for Xcode 7 beta, men det sk
 
 + En ny skjerm skal vises som lar deg velge et rammeverk for appen. Vi skal velge **Single View Application**, som gir oss et bra utgangspunkt for vår egen Hei Verden-app siden denne trenger bare ett skjermbilde.
 
-	![](lag_prosjekt.png)
+  ![](lag_prosjekt.png)
 
 + Trykker du på **Next** blir du tatt til en skjerm hvor du må fylle inn litt informasjon. I **Product Name** kan du navngi appen din (vi skal kalle vår *Hei Verden!*). **Organization Name** og **Organization Identifier** er det ikke så viktig med nå, du kan bare la den være som den er :) **Language** skal settes til Swift, mens **Devices** skal settes til iPhone.
 
-	![](app_informasjon.png)
+  ![](app_informasjon.png)
 
 + Lagre applikasjonen ved å trykke **next**, og deretter **create** (hvor du velger hvor prosjektet lagres).
 

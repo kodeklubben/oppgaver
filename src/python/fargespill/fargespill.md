@@ -68,7 +68,7 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
     instructions = tkinter.Label(root,
                                  text="Skriv inn fargen PÅ ordet, ikke selve ordet!",
                                  font=('Helvetica', 15))
-    instructions.pack() 
+    instructions.pack()
 
     points_label = tkinter.Label(root,
                                  text="Trykk enter for å starte.",
@@ -107,7 +107,7 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
             time_label.config(text="Tid igjen: " + str(time_left))
 
             # Denne kjører automatisk countdown() igjen etter 1 sekund
-            time_label.after(1000, countdown)       
+            time_label.after(1000, countdown)
         else:
             time_label.pack_forget()
             label.pack_forget()
@@ -177,7 +177,7 @@ Nå må vi definere fargene som programmet skal bruke.
     colours = ['Rød', 'Blå', 'Grønn', 'Rosa', 'Svart',
                'Gul', 'Oransje', 'Lilla', 'Brun']
     ```
-+ Vi må også lage en variabel for å holde orden på hvor mange poeng spilleren har. Samt en variabel for å holde nummeret på  fargene som skal vises. Disse settes til tilfeldig tall etterpå. Legg til disse over `time_left`-variabelen. 
++ Vi må også lage en variabel for å holde orden på hvor mange poeng spilleren har. Samt en variabel for å holde nummeret på  fargene som skal vises. Disse settes til tilfeldig tall etterpå. Legg til disse over `time_left`-variabelen.
     ```python
     # Brukes til å velge tilfeldig farge
     colour = 0
@@ -227,7 +227,7 @@ Nå må vi definere fargene som programmet skal bruke.
     def next_color():
         global points
         global colour
-        
+
         if time_left > 0:
             box.focus_set()
 

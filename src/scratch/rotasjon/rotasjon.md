@@ -26,12 +26,12 @@ Denne figuren er tilnærmet lik en likebeint trekant*
 + Gi den nye figuren navnet `Hattulf` ved å klikke på `i`.
 + Før vi begynner med selve oppgaven, skal vi legge inn en liten hjelpefunksjon om noe uventet skulle skje:
 
-	```blocks
-	når [n v] trykkes
-	vis
-	pek i retning [90 v]
-	gå til x: (0) y: (0)
-	```
+  ```blocks
+  når [n v] trykkes
+  vis
+  pek i retning [90 v]
+  gå til x: (0) y: (0)
+  ```
 + Skulle noe uventet skje nå, trenger du bare å trykke på tasten N på tastaturet, så vil Hattulf gå tilbake til utgangspunktet, slik at du kan prøve på nytt.
 
 Vi skal nå gi Scratch beskjed om å `rotere`{.blockmotion} hatten 90 grader.
@@ -40,8 +40,8 @@ Vi skal nå gi Scratch beskjed om å `rotere`{.blockmotion} hatten 90 grader.
 
     ```blocks
         når grønt flagg klikkes
-		vend høyre (90) grader
-	```
+    vend høyre (90) grader
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -60,8 +60,8 @@ Rotasjon er jo gøy! Men at ting roterer med 90 grader av gangen er jo litt kjed
 
     ```blocks
         når grønt flagg klikkes
-		vend høyre (45) grader
-	```
+    vend høyre (45) grader
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -80,11 +80,11 @@ Heldigvis kan vi ved hjelp av litt programmeringsmagi få datamaskinen til å gj
 
 + Vi legger til en `styring`{.blockcontrol}-kloss som ber hatten om å rotere et bestemt antall ganger:
 
-	```blocks
+  ```blocks
         når grønt flagg klikkes
-		gjenta (8) ganger
-		vend høyre (45) grader
-	```
+    gjenta (8) ganger
+    vend høyre (45) grader
+  ```
 
 + Tips: For hver gang du halverer vinkelen, må du doble antall repetisjoner for at hatten skal snurre like langt.
 
@@ -93,11 +93,11 @@ Heldigvis kan vi ved hjelp av litt programmeringsmagi få datamaskinen til å gj
 + Du vet kanskje at vi vanligvis omtaler en sirkel som 360 grader. Hvis du fortsetter å halvere antall grader forbi 1,40625, vil du oppdage at gradene blir mindre enn 1, og vi må gjenta roteringen 512 ganger. Selv om dette selvfølgelig er mulig, og absolutt nødvendig i enkelte sammenhenger, er det ikke nøvendig for oss nå.
   Vi tar derfor en snarvei her, og røper at Hattulf skal rotere 1 grad 360 ganger.
 
-	```blocks
-	når grønt flagg klikkes
-	gjenta (360) ganger
-	vend høyre (1) grader
-	```
+  ```blocks
+  når grønt flagg klikkes
+  gjenta (360) ganger
+  vend høyre (1) grader
+  ```
 
 ## Test prosjektet {.flag}
 

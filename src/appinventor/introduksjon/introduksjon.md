@@ -137,7 +137,7 @@ Når "App Inventor Setup Software" er installert gjør du følgende:
   og i noen tilfeller på Windows også. Dersom du har Linux må du skrive inn følgende i kommandolinjen.
 
     ```sh
-    /usr/google/appinventor/commands-for-appinventor/aiStarter &  
+    /usr/google/appinventor/commands-for-appinventor/aiStarter &
     ```
 + Når du er i MIT App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på "Connect".
   Trykk på "Connect", og velg "Emulator". Da vil du se at "aiStarter" begynner å arbeide. Dette kan ta en stund.

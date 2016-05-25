@@ -19,10 +19,10 @@ Nå kan du sette opp dokumentet ditt slik som du lærte i forrige leksjon.
 ```html
 <!doctype html>
 <html>
-	<head>
-	</head>
-	<body>
-	</body>
+  <head>
+  </head>
+  <body>
+  </body>
 </html>
 ```
 
@@ -32,13 +32,13 @@ Rett under `<h1>` kan vi lage en `<h2>` hvor det står "Katten Felix".
 ```html
 <!doctype html>
 <html>
-	<head>
-		<title> Katten Felix er forsvunnet </title>
-	</head>
-	<body>
-		<h1>Forsvunnet</h1>
-		<h2>Katten Felix</h2>
-	</body>
+  <head>
+    <title> Katten Felix er forsvunnet </title>
+  </head>
+  <body>
+    <h1>Forsvunnet</h1>
+    <h2>Katten Felix</h2>
+  </body>
 </html>
 ```
 
@@ -142,7 +142,7 @@ Det er også god praksis å legge til tegnsettet (eller alfabet) dokumentet er s
 Vi kan også legge til en beskrivelse av websiden.
 
 ```html
-	<meta name="description" content="En side laget for å finne katten Felix">
+  <meta name="description" content="En side laget for å finne katten Felix">
 ```
 
 Og noen nøkkelord, separert med komma

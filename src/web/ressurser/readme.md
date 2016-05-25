@@ -16,9 +16,9 @@ Does your primary school have internet? Does it have a decent capacity that woul
 
 ##2) Text editors
 
-Are you allowed to install software on the computers at the venue? If you are then we recommend installing the excellent [Sublime Text 3](http://www.sublimetext.com/3) which can be downloaded free for evaluation  and is available for PC/Mac/Linux. The Sublime team has given us written permission to use Sublime Text in Code Clubs without paying for the license. 
+Are you allowed to install software on the computers at the venue? If you are then we recommend installing the excellent [Sublime Text 3](http://www.sublimetext.com/3) which can be downloaded free for evaluation  and is available for PC/Mac/Linux. The Sublime team has given us written permission to use Sublime Text in Code Clubs without paying for the license.
 
-If you're not allowed to install software than use Notepad for PC or TextEdit for Mac, but these do not have syntax highlighting. 
+If you're not allowed to install software than use Notepad for PC or TextEdit for Mac, but these do not have syntax highlighting.
 
 
 
@@ -26,13 +26,13 @@ If you're not allowed to install software than use Notepad for PC or TextEdit fo
 
 Again this depends on whether you're allowed to install software, but we recommend using one of Firefox, Chrome, or Opera. If you can also install the developer tools for the browser you choose, this would be ace. We want the kids to be able to explore what goes on behind the scenes.
 
-As before there are individual sessions and then one session that can just go on and on depending on your term length. 
+As before there are individual sessions and then one session that can just go on and on depending on your term length.
 
 
 
 ##4) Hosting students work
 
-If we're making websites then need to be online right? Unfortunately at this time we are not able to offer free hosting, so you should look into how to do this individually for your club. 
+If we're making websites then need to be online right? Unfortunately at this time we are not able to offer free hosting, so you should look into how to do this individually for your club.
 
 
 Good luck!

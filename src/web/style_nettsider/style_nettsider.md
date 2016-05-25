@@ -26,7 +26,7 @@ Alle stiler skal legges mellom disse elementene. Generelt ser css-kode slik ut:
 
 ```css
 selector {
-	property: value;
+  property: value;
 }
 ```
 
@@ -41,9 +41,9 @@ La oss endre `h1` til å være rød istedenfor svart.
 
 ```html
 <style>
-	h1 {
-  		color:red;
-  	}
+  h1 {
+      color:red;
+    }
 </style>
 ```
 
@@ -73,7 +73,7 @@ Vi kan da i seksjonen `head` lage en stil for `span`
 
 ```css
 span {
-	color:orange;
+  color:orange;
 }
 ```
 
@@ -85,7 +85,7 @@ Vi kan legge til farge på bakgrunnen også, ikke bare på tekst. For eksempel:
 
 ```css
 body {
-	background-color:#D2FAFC;
+  background-color:#D2FAFC;
 }
 ```
 
@@ -95,7 +95,7 @@ Prøve nå:
 
 ```css
 h1 {
-	background-color:black;
+  background-color:black;
 }
 ```
 
@@ -103,8 +103,8 @@ Siden vi allerede hadde en `h1` deklarert i filen kan vi bare putte inn attribut
 
 ```css
 h1 {
-	color:red;
-	background-color: black;
+  color:red;
+  background-color: black;
 }
 ```
 
