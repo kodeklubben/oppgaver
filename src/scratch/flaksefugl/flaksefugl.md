@@ -275,7 +275,7 @@ __Klikk det grønne flagget.__
 
     ```blocks
         når jeg starter som klon
-        vent til <<x-posisjon> < <[x-posisjon v] av [Flakse v]>>
+        vent til <(x-posisjon) < ([x-posisjon v] av [Flakse v])>
         endre [poeng v] med (1)
         spill lyden [bird v]
     ```
