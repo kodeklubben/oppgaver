@@ -59,7 +59,7 @@ ferdige.
 
   ```blocks
   når grønt flagg klikkes
-  gå nedover (50) lag
+  flytt bakover (50) lag
   ```
 
 + Vi vil nå lage denne figuren så stor som mulig. Dessverre har
