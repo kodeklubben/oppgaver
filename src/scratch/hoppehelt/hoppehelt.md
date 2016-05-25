@@ -29,10 +29,10 @@ vil til og med se eksempler på kloner av kloner!
 + For å enklere legge på en tittel senere lager vi en
   `Nytt spill`-melding på scenen:
 
-    ```blocks
-        når grønt flagg klikkes
-        send melding [Nytt spill v]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  send melding [Nytt spill v]
+  ```
 
 # Steg 2: En hoppende helt {.activity}
 
@@ -43,34 +43,34 @@ vil til og med se eksempler på kloner av kloner!
 + Tegn en enkel liten strekfigur som ser ut som om han løper mot
   venstre. Gi figuren navnet `Helt 1`.
 
-    Du kan senere lage flere drakter slik at spillet ser bedre ut, men
-    vi vil ikke bruke tid på det nå.
+  Du kan senere lage flere drakter slik at spillet ser bedre ut, men
+  vi vil ikke bruke tid på det nå.
 
 + Lag en ny variabel som du kaller `sprett`{.blockdata}. Det er viktig
   at denne gjelder kun for denne figuren.
 
-    Vi vil bruke `sprett`{.blockdata}-variabelen til å beskrive
-    heltens bevegelse når han hopper.
+  Vi vil bruke `sprett`{.blockdata}-variabelen til å beskrive
+  heltens bevegelse når han hopper.
 
 + I heltens hovedløkke lar vi gravitasjonen virke ved at vi stadig
   prøver å gjøre `sprett`{.blockdata} mindre, samtidig som vi sier
   at dersom helten berører bakken skal han ikke falle.
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        gå til x: (210) y: (-120)
-        for alltid
-            endre [sprett v] med (-1)
-            hvis <berører fargen [#00cc00] ?>
-                neste drakt
-                sett [sprett v] til [0]
-            slutt
-            endre y med (sprett)
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  gå til x: (210) y: (-120)
+  for alltid
+      endre [sprett v] med (-1)
+      hvis <berører fargen [#00cc00] ?>
+          neste drakt
+          sett [sprett v] til [0]
+      slutt
+      endre y med (sprett)
+  slutt
+  ```
 
-    Sett fargen i `berører fargen`{.blocksensing}-klossen til samme
-    farge som streken du tegnet på bakgrunnen i Steg 1.
+  Sett fargen i `berører fargen`{.blocksensing}-klossen til samme
+  farge som streken du tegnet på bakgrunnen i Steg 1.
 
 + Prøv å endre startposisjonen til helten, spesielt y-koordinaten. Får
   du helten til å falle mot bakken?
@@ -144,19 +144,19 @@ __Klikk på det grønne flagget.__
   figuren, og deretter sletter denne klonen etter at `Spill slutt`
   mottas.
 
-    Prøv spillet ditt igjen. Hva skjer nå om helten springer inn i en
-    boks?
+  Prøv spillet ditt igjen. Hva skjer nå om helten springer inn i en
+  boks?
 
 + Vi kan spille en liten lyd hver gang vi har hoppet over en boks.
   Legg til en
 
-    ```blocks
-        spill tone (60) i (0.5) takter
-    ```
+  ```blocks
+  spill tone (60) i (0.5) takter
+  ```
 
-    kloss etter løkken som flytter boksen, men før klonen
-    slettes. Bruk gjerne `velg instrument`{.blocksound}-klossen til å
-    velge et passende instrument før spillet starter.
+  kloss etter løkken som flytter boksen, men før klonen
+  slettes. Bruk gjerne `velg instrument`{.blocksound}-klossen til å
+  velge et passende instrument før spillet starter.
 
 + Om du tester dette vil du se at boksene blir hengende litt mens
   lyden spilles. En enkel måte å unngå dette på er å legge til en
@@ -174,13 +174,13 @@ du prøve noe av det følgende. Du kan endre størrelsen på boksen
 tilfeldig, for eksempel med klossen
 
 ```blocks
-    sett størrelse til (tilfeldig tall fra (30) til (100)) %
+sett størrelse til (tilfeldig tall fra (30) til (100)) %
 ```
 
 På samme måte kan du bruke
 
 ```blocks
-    sett [farge v] effekt til (tilfeldig tall fra (-100) til (100))
+sett [farge v] effekt til (tilfeldig tall fra (-100) til (100))
 ```
 
 til å endre fargen på boksene tilfeldig. Finn også på andre effekter,
@@ -194,7 +194,7 @@ Prøv tilslutt å endre på hvor ofte det dukker opp nye bokser. Bruk
 gjerne en
 
 ```blocks
-    tilfeldig tall fra (1.2) til (3.2)
+tilfeldig tall fra (1.2) til (3.2)
 ```
 
 kloss. Eksperimenter med verdiene i klossen.
@@ -212,8 +212,8 @@ kloss. Eksperimenter med verdiene i klossen.
   har du en *flytte-løkke* som flytter boksene mot høyre, med
   eventuelle tilfeldige innstillinger på boksene.
 
-    Riv løs begge disse to løkkene og legg dem til side. Vi skal bruke
-    dem igjen straks, så ikke slett noe.
+  Riv løs begge disse to løkkene og legg dem til side. Vi skal bruke
+  dem igjen straks, så ikke slett noe.
 
 + Lag en ny variabel som du kaller `er generator`{.blockdata}. Denne
   må gjelde kun for denne figuren. Vi vil bruke denne variabelen til å
@@ -223,30 +223,30 @@ kloss. Eksperimenter med verdiene i klossen.
   generator-løkker. Endre skriptet som kjøres for `Nytt spill` til
   dette:
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        gå til x: (-239) y: (-161)
-        sett [er generator v] til [ja]
-        skjul
-        gjenta (3) ganger
-            lag klon av [meg v]
-            endre y med (110)
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  gå til x: (-239) y: (-161)
+  sett [er generator v] til [ja]
+  skjul
+  gjenta (3) ganger
+      lag klon av [meg v]
+      endre y med (110)
+  slutt
+  ```
 
-    Bruk den samme utgangsposisjonen som tidligere. Dette vil lage tre
-    *generator-kloner* med forskjellige y-verdier.
+  Bruk den samme utgangsposisjonen som tidligere. Dette vil lage tre
+  *generator-kloner* med forskjellige y-verdier.
 
 + Vi vil nå bygge opp igjen skriptet som kjører når en boks starter
   som klon. Lag først det følgende
 
-    ```blocks
-        når jeg starter som klon
-        hvis <(er generator) = [ja]>
-            sett [er generator v] til [nei]
-        ellers
-        slutt
-    ```
+  ```blocks
+  når jeg starter som klon
+  hvis <(er generator) = [ja]>
+      sett [er generator v] til [nei]
+  ellers
+  slutt
+  ```
 
 + Flytt nå generator-løkken som du la til side tidligere inn i
   `hvis`{.blockcontrol}-testen rett under
@@ -283,9 +283,9 @@ __Klikk på det grønne flagget.__
 + Klikk på `Helt 2`. Det eneste vi trenger å endre på er y-posisjonen
   og tasten som brukes til å hoppe.
 
-    Endre y-posisjonen i `gå til`{.blockmotion}-klossen med 110.
+  Endre y-posisjonen i `gå til`{.blockmotion}-klossen med 110.
 
-    Endre `m` til `k` i `tast trykket`{.blocksensing}-testen.
+  Endre `m` til `k` i `tast trykket`{.blocksensing}-testen.
 
 Prøv spillet ditt igjen. Har du nå to hoppehelter? Virker de som de skal?
 

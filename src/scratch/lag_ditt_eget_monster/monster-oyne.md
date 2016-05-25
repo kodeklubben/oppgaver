@@ -17,19 +17,19 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
   startet vil vi at øynene peker i retningen av musepekeren og flytter
   seg hvert brøkdelssekund.
 
-    ```blocks
-        når denne figuren klikkes
-        for alltid
-            pek mot [musepeker v]
-            vent (0.2) sekunder
-        slutt
+  ```blocks
+  når denne figuren klikkes
+  for alltid
+      pek mot [musepeker v]
+      vent (0.2) sekunder
+  slutt
 
-        når jeg mottar [flyttet høyre v]
-        endre x med (hastighet)
+  når jeg mottar [flyttet høyre v]
+  endre x med (hastighet)
 
-        når jeg mottar [flyttet venstre v]
-        endre x med ((hastighet) * (-1))
-    ```
+  når jeg mottar [flyttet venstre v]
+  endre x med ((hastighet) * (-1))
+  ```
 
 **Merk at vi ogå lytter til meldinger om at kroppen har flyttet seg,
   slik at øynene beveger seg sammen med kroppen og andre

@@ -43,14 +43,14 @@ pokušati da izbjegneš Felixa. Što duže uspiješ da izbjegneš Felixa to
   ispod:
 
   ```blocks
-      kada je ⚑ kliknut  :: hat events
-      ponavljaj  :: cstart control
-          okreni se k [strelice misa v]  :: motion
-          idi (10) koraka  :: motion
-          sljedeći kostim  :: looks
-          bubnjaj po (3 v) (0.25) puta  :: sound
-      end
-    ```
+  kada je ⚑ kliknut  :: hat events
+  ponavljaj  :: cstart control
+      okreni se k [strelice misa v]  :: motion
+      idi (10) koraka  :: motion
+      sljedeći kostim  :: looks
+      bubnjaj po (3 v) (0.25) puta  :: sound
+  end
+  ```
 
 ## Probaj program {.flag}
 
@@ -91,12 +91,12 @@ nekad spasiš tvoj projekt.
   program ispod:
 
   ```blocks
-      kada je ⚑ kliknut  :: hat events
-      ponavljaj  :: cstart control
-          idi do [strelice misa v]  :: motion
-          okreni se k [Felix v]  :: motion
-      end
-    ```
+  kada je ⚑ kliknut  :: hat events
+  ponavljaj  :: cstart control
+      idi do [strelice misa v]  :: motion
+      okreni se k [Felix v]  :: motion
+  end
+  ```
 
 ## Probaj program {.flag}
 
@@ -113,17 +113,17 @@ __Pritisni zelenu zastavu.__
 + Promjeni `Skripte` od Felixa tako da bude isti kao program ispod:
 
   ```blocks
-      kada je ⚑ kliknut  :: hat events
-      ponavljaj  :: cstart control
-          okreni se k [strelice misa v]  :: motion
-          idi (10) koraka  :: motion
-          sljedeći kostim  :: looks
-          bubnjaj po (3 v) (0.25) puta  :: sound
-          ako (dodiruje [Herbert v]? :: sensing) onda  :: cstart control
-              govori [Uhvatio sam te!] (1) sekundi  :: looks
-          end
+  kada je ⚑ kliknut  :: hat events
+  ponavljaj  :: cstart control
+      okreni se k [strelice misa v]  :: motion
+      idi (10) koraka  :: motion
+      sljedeći kostim  :: looks
+      bubnjaj po (3 v) (0.25) puta  :: sound
+      ako (dodiruje [Herbert v]? :: sensing) onda  :: cstart control
+          govori [Uhvatio sam te!] (1) sekundi  :: looks
       end
-    ```
+  end
+  ```
 
 ## Probaj program {.flag}
 
@@ -138,20 +138,20 @@ __Pritisni zelenu zastavu.__
 + Promjeni `Skripte` od Felixa tako da program pošalje poruku da je
   Herbert uhvačen:
 
-    ```blocks
-      kada je ⚑ kliknut  :: hat events
-      ponavljaj  :: cstart control
-          okreni se k [strelice misa v]  :: motion
-          idi (10) koraka  :: motion
-          sljedeći kostim  :: looks
-          bubnjaj po (3 v) (0.25) puta  :: sound
-          ako (dodiruje [Herbert v]? :: sensing) onda  :: cstart control
-              pošalji [Uhvatio v]  :: events
-              govori [Uhvatio sam te!] (1) sekundi  :: looks
-              čekaj (1) sekundi  :: control
-          end
+  ```blocks
+  kada je ⚑ kliknut  :: hat events
+  ponavljaj  :: cstart control
+      okreni se k [strelice misa v]  :: motion
+      idi (10) koraka  :: motion
+      sljedeći kostim  :: looks
+      bubnjaj po (3 v) (0.25) puta  :: sound
+      ako (dodiruje [Herbert v]? :: sensing) onda  :: cstart control
+          pošalji [Uhvatio v]  :: events
+          govori [Uhvatio sam te!] (1) sekundi  :: looks
+          čekaj (1) sekundi  :: control
       end
-    ```
+  end
+  ```
 
 + Izaberi Herberta i pritisni `Kostimi` pored `Skripte`.
 
@@ -166,10 +166,10 @@ __Pritisni zelenu zastavu.__
 + Pritisni na `Skripte` i dodaj ovaj program. Zadrži stari program.
 
   ```blocks
-      kada primim [Uhvatio v]  :: hat events
-      promijeni kostim u [Duh v]  :: looks
-      čekaj (0.5) sekundi  :: control
-      promijeni kostim u [Živ v]  :: looks
+  kada primim [Uhvatio v]  :: hat events
+  promijeni kostim u [Duh v]  :: looks
+  čekaj (0.5) sekundi  :: control
+  promijeni kostim u [Živ v]  :: looks
   ```
 
 ## Probaj program {.flag}
@@ -203,15 +203,15 @@ __Pritisni zelenu zastavu.__
   ova dva programa:
 
   ```blocks
-      kada je ⚑ kliknut  :: hat events
-      postavi [Bodovi v] na [0]  :: variables
-      ponavljaj  :: cstart control
-          čekaj (1) sekundi  :: control
-          promijeni [Bodovi v] za (1)  :: variables
-      end
+  kada je ⚑ kliknut  :: hat events
+  postavi [Bodovi v] na [0]  :: variables
+  ponavljaj  :: cstart control
+      čekaj (1) sekundi  :: control
+      promijeni [Bodovi v] za (1)  :: variables
+  end
 
-      kada primim [Uhvatio v]  :: hat events
-      promijeni [Bodovi v] za (-10)  :: variables
+  kada primim [Uhvatio v]  :: hat events
+  promijeni [Bodovi v] za (-10)  :: variables
   ```
 
 ## Probaj program {.flag}

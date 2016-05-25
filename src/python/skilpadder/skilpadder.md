@@ -21,12 +21,12 @@ med Python-kommandoer.
 
 + Åpne et nytt kodevindu og skriv dette:
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    forward(100)
+  forward(100)
 
-    ```
+  ```
 + Lagre programmet ditt som myturtle.py og velg `Run -> Run Module`. Ser du hvordan skilpadden beveget seg 100 punkter fremover på skjermen? Skilpadden har en penn festet til seg, så den tegner linjer når den beveger seg rundt.
 
 ### Tips {.protip}
@@ -37,21 +37,21 @@ Python-filer skal alltid ha filnavn som slutter med `.py`.
 
 + La oss få skilpadden til å bevege seg rundt på skjermen! Forsøk å bruke `backward(distance)` i tillegg til å snu den ved å bruke `right(angle)` og `left(angle)`. Instruksjonen `backward(20)` forteller for eksempel skilpadden at den skal bevege seg bakover 20 pixler, og `right(90)` forteller den at den skal snu seg 90 grader til høyre. Du kan gi den mer enn en instruksjon om gangen, de blir utført i rekkefølge.
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    forward(100)
-    right(120)
-    forward(100)
-    left(90)
-    backward(100)
-    left(90)
-    forward(50)
+  forward(100)
+  right(120)
+  forward(100)
+  left(90)
+  backward(100)
+  left(90)
+  forward(50)
 
-    ```
+  ```
 
 ### Vinkler og grader
 
@@ -103,42 +103,42 @@ La oss lage et kvadrat ved å fortelle skilpadden hvordan den skal bevege seg ru
 
 + Åpne en ny fil i IDLE og skriv inn følgende kode:
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    forward(100)
-    right(90)
-    forward(100)
-    right(90)
-    forward(100)
-    right(90)
-    forward(100)
-    right(90)
-    ```
+  forward(100)
+  right(90)
+  forward(100)
+  right(90)
+  forward(100)
+  right(90)
+  forward(100)
+  right(90)
+  ```
 
-    Lagre programmet ditt og velg `Run -> Run Module`. Ser du en firkant? Skilpadden snur seg 90 grader fire ganger, og ender opp med å se den samme retningen som den starten. å snu 90, 90, 90 og så 90 grader igjen snur skilpadden totalt 360 grader.
+  Lagre programmet ditt og velg `Run -> Run Module`. Ser du en firkant? Skilpadden snur seg 90 grader fire ganger, og ender opp med å se den samme retningen som den starten. å snu 90, 90, 90 og så 90 grader igjen snur skilpadden totalt 360 grader.
 
-    Hva med en trekant? En trekant har tre hjørner, så vi må snu tre ganger. Hvis vi vil ende opp i samme retning, må vi snu 360 grader, akkurat som med firkanten. Derfor snur vi 120 grader, deretter 120 grader og så en gang til.
+  Hva med en trekant? En trekant har tre hjørner, så vi må snu tre ganger. Hvis vi vil ende opp i samme retning, må vi snu 360 grader, akkurat som med firkanten. Derfor snur vi 120 grader, deretter 120 grader og så en gang til.
 
 + Endre koden din til å se ut som koden under for å få den til å tegne en
 trekant:
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    forward(100)
-    right(120)
-    forward(100)
-    right(120)
-    forward(100)
-    right(120)
-    ```
+  forward(100)
+  right(120)
+  forward(100)
+  right(120)
+  forward(100)
+  right(120)
+  ```
 
 + Kjør koden. Ser du en trekant?
 
@@ -150,32 +150,32 @@ Hva er yndlingsfargen din? Du kan endre fargen på linjene ved å bruke funksjon
 
 + Endre koden fra eksemplet over til å se ut som det neste eksemplet, ved å legge til disse nye kommandoene:
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    pensize(10)
-    pencolor("red")
-    forward(100)
-    right(120)
-    pencolor("blue")
-    forward(100)
-    right(120)
-    pencolor("green")
-    forward(100)
-    right(120)
-    ```
+  pensize(10)
+  pencolor("red")
+  forward(100)
+  right(120)
+  pencolor("blue")
+  forward(100)
+  right(120)
+  pencolor("green")
+  forward(100)
+  right(120)
+  ```
 
 + Kjør koden din, hva tegner den på skjermen?
-    Denne koden tegner en tykk trekant i tre forskjellige farver.
+  Denne koden tegner en tykk trekant i tre forskjellige farver.
 
 + Forsøk å endre fargene i koden din, kjør den og se hva som skjer.
-    Skilpadden kan mange hundre forskjellige farger, ikke bare blå, rød og
-    grønn. Forsøk med din yndlingsfarge! Du kan også bruke farger i __hex__, som
-    du kanskje har gjort med CSS før. Istedenfor å bruke `pencolor("red")` kan du bruke hex
-    `pencolor("#FF0000")`. Hvilken farge er #FF4F00?
+  Skilpadden kan mange hundre forskjellige farger, ikke bare blå, rød og
+  grønn. Forsøk med din yndlingsfarge! Du kan også bruke farger i __hex__, som
+  du kanskje har gjort med CSS før. Istedenfor å bruke `pencolor("red")` kan du bruke hex
+  `pencolor("#FF0000")`. Hvilken farge er #FF4F00?
 
 # Steg 3: Gjenta deg selv (med en for-løkke) {.activity}
 
@@ -185,56 +185,56 @@ Det siste programmet var de samme kommandoene igjen og igjen. Istedenfor å skri
 
 + Åpne en ny fil og skriv inn følgende:
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    for count in range(4):
-        forward(100)
-        right(90)
+  for count in range(4):
+      forward(100)
+      right(90)
 
-    ```
+  ```
 + Lagre programmet og velg: Run -> Run module.
 
-    Legg merke til at koden er skjøvet inn, *indentert*, eller dyttet til høyre under for-løkken. Python bruker mellomrom for å vite hvilke kommandoer som skal gjentas. Du kan bruke Tab-tasten for å få IDLE til å *indentere*, eller bruke Shift-Tab til å ta dem bort.
+  Legg merke til at koden er skjøvet inn, *indentert*, eller dyttet til høyre under for-løkken. Python bruker mellomrom for å vite hvilke kommandoer som skal gjentas. Du kan bruke Tab-tasten for å få IDLE til å *indentere*, eller bruke Shift-Tab til å ta dem bort.
 
 + La oss se hva som skjer hvis vi bare indenterer (skyver inn) `forward`. Gjør om programmet ditt så det ser ut som dette:
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    for count in range(4):
-        forward(100)
-    right(90)
-    ```
+  for count in range(4):
+      forward(100)
+  right(90)
+  ```
 
 + Legg merke til at `forward` er indendert og `right` ikke er det. Hva
 tror du dette programmet gjør? Forsøk å kjøre det og finn det ut.
 
-    Fikk du en rett linje? Python vil gjenta `forward` fire ganger, og deretter snu til høyre. Python bruker mellomrom for å gruppere kommandoer sammen, akkurat som Scratch bruker blokker. Python klager til deg om du ikke har fått mellomrommene riktig.
+  Fikk du en rett linje? Python vil gjenta `forward` fire ganger, og deretter snu til høyre. Python bruker mellomrom for å gruppere kommandoer sammen, akkurat som Scratch bruker blokker. Python klager til deg om du ikke har fått mellomrommene riktig.
 
 + La oss endre programmet tilbake slik at det lager en firkant igjen, men istedenfor å bruke tall i koden skal vi gi tallene navn. Dette gjør det lettere å se hva programmet gjør, og gjør at vi slipper å gjenta oss selv.
 
-    Endre filen så den ser slik ut:
+  Endre filen så den ser slik ut:
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    sides = 4
-    length = 100
-    angle = 90
-    for count in range(sides):
-        forward(length)
-        right(angle)
-    ```
+  sides = 4
+  length = 100
+  angle = 90
+  for count in range(sides):
+      forward(length)
+      right(angle)
+  ```
 
 + Lagre programmet og velg: `Run -> Run module`.
 
@@ -264,20 +264,20 @@ For en firkant er `360 / 4` lik 90, for trekanten er `360 / 3` lik 120.
 
 + Endre programmet ditt til å regne ut vinkelen.
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    sides = 4
-    length = 20
+  sides = 4
+  length = 20
 
-    angle = 360/sides
-    for count in range(sides):
-        forward(length)
-        right(angle)
-    ```
+  angle = 360/sides
+  for count in range(sides):
+      forward(length)
+      right(angle)
+  ```
 
 + Nå kan du endre antall sider, klarer Python å gjøre jobben riktig? Prøv
 med så mange kanter du vil!
@@ -288,33 +288,33 @@ med så mange kanter du vil!
 
 + Vi kan be skilpadden om å fylle figurene med en farge ved å bruke `begin_fill()` og `end_fill()`. Endre koden din til å bruke disse kommandoene:
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    sides = 4
-    length = 20
+  sides = 4
+  length = 20
 
-    fillcolor('red')
-    pencolor('red')
-    begin_fill()
+  fillcolor('red')
+  pencolor('red')
+  begin_fill()
 
-    angle = 360/sides
-    for count in range(sides):
-        forward(length)
-        right(angle)
-    end_fill()
-    ```
+  angle = 360/sides
+  for count in range(sides):
+      forward(length)
+      right(angle)
+  end_fill()
+  ```
 
-    Akkurat som med `pencolor` velger `fillcolor` fargen skilpadden skal
-    bruke for å fylle inn figurene du tegner. Denne koden tegner en rød firkant
-    med en rød strek rundt.
+  Akkurat som med `pencolor` velger `fillcolor` fargen skilpadden skal
+  bruke for å fylle inn figurene du tegner. Denne koden tegner en rød firkant
+  med en rød strek rundt.
 
-    Du kan bruke `begin_fill()` for å fortelle skilpadden at den skal
-    fargelegge figuren du tegner, og si `end_fill()` for å si at du er
-    ferdig.
+  Du kan bruke `begin_fill()` for å fortelle skilpadden at den skal
+  fargelegge figuren du tegner, og si `end_fill()` for å si at du er
+  ferdig.
 
 + Forsøk å endre fargene, sidene og lengdene og se hvilke figurer du kan tegne!
 
@@ -327,20 +327,20 @@ bruke `penup()` og `pendown()` for å slå av og på at skilpadden skal tegne.
 
 + Forsøk dette i en ny fil:
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
-    speed(11)
-    shape("turtle")
+  speed(11)
+  shape("turtle")
 
-    pencolor('red')
+  pencolor('red')
 
-    for count in range(20):
-        penup()
-        forward(10)
-        pendown()
-        forward(20)
-    ```
+  for count in range(20):
+      penup()
+      forward(10)
+      pendown()
+      forward(20)
+  ```
 
 + Dette burde tegne en stiplet strek over skjermen din. Kjør det og se!
 

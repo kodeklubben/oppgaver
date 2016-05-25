@@ -52,33 +52,33 @@ Her er noen eksempler på hva funksjonene kan brukes til:
 
 * `s.capitalize()` brukes når vi ønsker stor forbokstav kun i begynnelsen av teksten:
 
-    ```python
-    >>> sentence = "dENne sETNinGeN har IKKE riKTige bokSTAVstØrReLSER."
-    >>> sentence.capitalize()
-    'Denne setningen har ikke riktige bokstavstørrelser.'
-    ```
+  ```python
+  >>> sentence = "dENne sETNinGeN har IKKE riKTige bokSTAVstØrReLSER."
+  >>> sentence.capitalize()
+  'Denne setningen har ikke riktige bokstavstørrelser.'
+  ```
 * `s.title()` kan brukes når vi skal skrive filmtitler:
 
-    ```python
-    >>> movie_title = "star wars: a new hope"
-    >>> movie_title.title()
-    'Star Wars: A New Hope'
-    ```
+  ```python
+  >>> movie_title = "star wars: a new hope"
+  >>> movie_title.title()
+  'Star Wars: A New Hope'
+  ```
 
 * `s.upper()` og `s.lower()` kan brukes når vi ønsker å sammenlikne tekst uten
   å ta hensyn størrelsen på bokstavene:
 
-    ```python
-    >>> answer = "JA"
-    >>> answer == "ja"  # JA og ja er ikke lik
-    False
-    ```
+  ```python
+  >>> answer = "JA"
+  >>> answer == "ja"  # JA og ja er ikke lik
+  False
+  ```
 
-    ```python
-    >>> answer = "JA"
-    >>> answer.lower() == "ja"  # konverter JA til ja for testen
-    True
-    ```
+  ```python
+  >>> answer = "JA"
+  >>> answer.lower() == "ja"  # konverter JA til ja for testen
+  True
+  ```
 
 Du må huske på at disse funksjonene **ikke** endrer på variabelen. Derfor må du
 lagre resultatet i en ny variabel om du vil beholde endringen din:
@@ -109,10 +109,10 @@ Alice In Wonderland
 
 Dette må du gjøre:
 
- * Be om at brukeren skriver inn en filmtittel.
- * Lagre filmtittelen i en variabel.
- * Manipuler strengen slik at resultatet blir som beskrevet over.
- * Skriv ut den nye strengen.
+* Be om at brukeren skriver inn en filmtittel.
+* Lagre filmtittelen i en variabel.
+* Manipuler strengen slik at resultatet blir som beskrevet over.
+* Skriv ut den nye strengen.
 
 
 # Telling av tekst {.activity}
@@ -159,12 +159,12 @@ Du skrev inn 3 ord.
 
 Dette må du gjøre:
 
- * Be brukeren om tekst.
- * Lagre teksten til en variabel.
- * Regn ut hvor mange ord som er i teksten.
- * Skriv ut hvor mange ord teksten inneholder.
+* Be brukeren om tekst.
+* Lagre teksten til en variabel.
+* Regn ut hvor mange ord som er i teksten.
+* Skriv ut hvor mange ord teksten inneholder.
 
-    **Hint:** husk å konvertere fra tall til tekst med `str()`-funksjonen.
+  **Hint:** husk å konvertere fra tall til tekst med `str()`-funksjonen.
 
 # Erstatte tekst {.activity}
 
@@ -204,6 +204,6 @@ min_hemmelige_fil.txt
 
 Dette må du gjøre:
 
- * Spør brukeren om et filnavn
- * Endre filnavnet slik som beskrevet ovenfor
- * Skrive ut det nye filnavnet
+* Spør brukeren om et filnavn
+* Endre filnavnet slik som beskrevet ovenfor
+* Skrive ut det nye filnavnet

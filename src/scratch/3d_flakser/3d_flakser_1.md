@@ -31,23 +31,23 @@ to sirkler inni hverandre, fylt med en farge imellom.
 
 + Gi ringfiguren disse skriptene:
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        skjul
-        for alltid
-            lag klon av [meg v]
-            vent (1) sekunder
-        slutt
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  skjul
+  for alltid
+      lag klon av [meg v]
+      vent (1) sekunder
+  slutt
 
-        når jeg starter som klon
-        gå til x: (0) y: (0)
-        vis
-        gjenta (10) ganger
-            endre størrelse med (5)
-            vent (0.1) sekunder
-        slutt
-        slett denne klonen
-    ```
+  når jeg starter som klon
+  gå til x: (0) y: (0)
+  vis
+  gjenta (10) ganger
+      endre størrelse med (5)
+      vent (0.1) sekunder
+  slutt
+  slett denne klonen
+  ```
 
 Du må også lage et skript som sørger for at meldingen `Nytt spill`
 sendes når det grønne flagget klikkes.
@@ -73,18 +73,18 @@ liten så betyr det at ringen er nærme, og den skal vokse fort.
 
 + Endre skriptet over til dette:
 
-    ```blocks
-        når jeg starter som klon
-        gå til x: (0) y: (0)
-        vis
-        sett [distanse v] til [10]
-        gjenta til <(distanse) < [1]>
-            sett størrelse til ((150) / (distanse)) %
-            endre [distanse v] med (-0.5)
-            vent (0.1) sekunder
-        slutt
-        slett denne klonen
-    ```
+  ```blocks
+  når jeg starter som klon
+  gå til x: (0) y: (0)
+  vis
+  sett [distanse v] til [10]
+  gjenta til <(distanse) < [1]>
+      sett størrelse til ((150) / (distanse)) %
+      endre [distanse v] med (-0.5)
+      vent (0.1) sekunder
+  slutt
+  slett denne klonen
+  ```
 
 + Det kan hende du må endre litt på tallene i skriptet over for at det
   skal se bra ut. Prøv deg frem!
@@ -96,7 +96,7 @@ du vil. For at det skal se enda mer ut som at ringene først er langt
 borte og så nærme, så kan du bruke klossen
 
 ```blocks
-    sett [gjennomsiktig v] effekt til ((100)-((150)/(distanse))
+sett [gjennomsiktig v] effekt til ((100)-((150)/(distanse))
 ```
 
 for å gjøre ringene mer gjennomsiktig når de er langt borte. Hvilke
@@ -114,36 +114,36 @@ vanskelig, men å få dem til å vokse på riktig måte er litt vrient.
 
 + Prøv først å endre på blokken som plasserer ring-klonene til
 
-    ```blocks
-        gå til x: (tilfeldig tall fra (-100) til (100)) y: (tilfeldig tall fra (-100) til (100))
-    ```
+  ```blocks
+  gå til x: (tilfeldig tall fra (-100) til (100)) y: (tilfeldig tall fra (-100) til (100))
+  ```
 
-    Det ser ganske bra ut, men ikke helt riktig, eller hva? Det er
-    fordi *midtpunktet* til ringen er på samme sted hele tiden mens
-    ringen er på vei mot deg. For at det skal se ut som at den suser
-    *forbi deg* så må du hele tiden flytte på ringen mens den er på
-    vei mot deg. For å få det til å fungere må ringklonen huske hvor
-    den dukket opp til å begynne med.
+  Det ser ganske bra ut, men ikke helt riktig, eller hva? Det er
+  fordi *midtpunktet* til ringen er på samme sted hele tiden mens
+  ringen er på vei mot deg. For at det skal se ut som at den suser
+  *forbi deg* så må du hele tiden flytte på ringen mens den er på
+  vei mot deg. For å få det til å fungere må ringklonen huske hvor
+  den dukket opp til å begynne med.
 
 + Lag variabler `ringX`{.blockdata} og `ringY`{.blockdata} som *kun
   gjelder for ringfiguren*.
 
 + Erstatt blokken som først plasserer ringen med dette:
 
-    ```blocks
-        sett [ringX v] til (tilfeldig tall fra (-100) til (100)
-        sett [ringY v] til (tilfeldig tall fra (-100) til (100)
-        gå til x: (ringX) y: (ringY)
-    ```
+  ```blocks
+  sett [ringX v] til (tilfeldig tall fra (-100) til (100)
+  sett [ringY v] til (tilfeldig tall fra (-100) til (100)
+  gå til x: (ringX) y: (ringY)
+  ```
 
-    Forhåpentligvis har ikke oppførselen til ringene endret seg
-    ennå. For å få midtpunktet til ringene til å flytte på seg mens
-    ringene kommer mot deg kan du putte følgende blokk et sted inni
-    løkken hvor ringen vokser:
+  Forhåpentligvis har ikke oppførselen til ringene endret seg
+  ennå. For å få midtpunktet til ringene til å flytte på seg mens
+  ringene kommer mot deg kan du putte følgende blokk et sted inni
+  løkken hvor ringen vokser:
 
-    ```blocks
-        gå til x: ((ringX) / (distanse)) y: ((ringY) / (distanse))
-    ```
+  ```blocks
+  gå til x: ((ringX) / (distanse)) y: ((ringY) / (distanse))
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -168,51 +168,51 @@ du har skrevet så langt.
 
 + Gi Flakse følgende skript:
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        for alltid
-            hvis <tast [pil høyre v] trykket>
-                endre [x v] med (10)
-                vent (0.05) sekunder
-            slutt
-            hvis <tast [pil venstre v] trykket>
-                endre [x v] med (-10)
-                vent (0.05) sekunder
-            slutt
-            hvis <tast [pil opp v] trykket>
-                endre [y v] med (10)
-                vent (0.05) sekunder
-            slutt
-            hvis <tast [pil ned v] trykket>
-                endre [y v] med (-10)
-                vent (0.05) sekunder
-            slutt
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  for alltid
+      hvis <tast [pil høyre v] trykket>
+          endre [x v] med (10)
+          vent (0.05) sekunder
+      slutt
+      hvis <tast [pil venstre v] trykket>
+          endre [x v] med (-10)
+          vent (0.05) sekunder
+      slutt
+      hvis <tast [pil opp v] trykket>
+          endre [y v] med (10)
+          vent (0.05) sekunder
+      slutt
+      hvis <tast [pil ned v] trykket>
+          endre [y v] med (-10)
+          vent (0.05) sekunder
+      slutt
+  slutt
+  ```
 
-    Nå endres `x`{.blockdata} og `y`{.blockdata} når du styrer med
-    piltastene. Vi venter litt inni hver `hvis`{.blockcontrol}-test
-    slik at `x`{.blockdata} og `y`{.blockdata} ikke plutselig vokser
-    over alle grenser. Test gjerne hva som skjer dersom vi ikke venter.
+  Nå endres `x`{.blockdata} og `y`{.blockdata} når du styrer med
+  piltastene. Vi venter litt inni hver `hvis`{.blockcontrol}-test
+  slik at `x`{.blockdata} og `y`{.blockdata} ikke plutselig vokser
+  over alle grenser. Test gjerne hva som skjer dersom vi ikke venter.
 
 + Nå vil vi at posisjonen til ringene skal endre seg når vi
   styrer. Det kan vi få til ved å endre klossen
 
-    ```blocks
-        gå til x: ((ringX) / (distanse)) y: ((ringY) / (distanse))
-    ```
+  ```blocks
+  gå til x: ((ringX) / (distanse)) y: ((ringY) / (distanse))
+  ```
 
-    til dette:
+  til dette:
 
-    ```blocks
-        gå til x: (((ringX)-(x)) / (distanse)) y: (((ringY) - (y)) / (distanse))
-    ```
+  ```blocks
+  gå til x: (((ringX)-(x)) / (distanse)) y: (((ringY) - (y)) / (distanse))
+  ```
 
-    Ser det riktig ut nå? Nå er vi igrunn ferdig med det som trengs
-    for å gå videre til del 2. I del 2 skal vi få det til å virke som
-    om Flakse flakser når vi trykker på mellomromstasten, akkurat som
-    i Flappy Bird og Flaksefugl. Prøv deg på disse utfordringene hvis
-    du har mer tid igjen.
+  Ser det riktig ut nå? Nå er vi igrunn ferdig med det som trengs
+  for å gå videre til del 2. I del 2 skal vi få det til å virke som
+  om Flakse flakser når vi trykker på mellomromstasten, akkurat som
+  i Flappy Bird og Flaksefugl. Prøv deg på disse utfordringene hvis
+  du har mer tid igjen.
 
 ## Ting å prøve {.try}
 

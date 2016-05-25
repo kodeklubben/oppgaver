@@ -26,10 +26,10 @@ Her er likevel noen generelle ting som kan være verdt å huske på:
   man lager. For å opprette en ny bruker, klikk `Bli Scratch-bruker`
   og følg instruksene på skjermen.
 + For å skifte språk til norsk:
-    + På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
-      å velge språk helt nederst på skjermen.
-    + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
-      venstre for å endre språket som brukes.
+  + På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
+    å velge språk helt nederst på skjermen.
+  + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
+    venstre for å endre språket som brukes.
 
 # Læringsmål
 

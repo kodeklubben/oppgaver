@@ -58,37 +58,37 @@ spillobjekter med tastaturet, og kollisjon mellom objekter.
 - Lag en ny mappe `Assets/Scripts` og et nytt C#-script som vi kaller
   `PlayerController`. Koden vi skal legge inn der er det best å skrive selv.
 
-    Siden noen av dere jobber hjemmefra legger vi inn hele kodesnutten under. Ikke
-    kopier den, men skriv inn alle linjene!
+  Siden noen av dere jobber hjemmefra legger vi inn hele kodesnutten under. Ikke
+  kopier den, men skriv inn alle linjene!
 
-    __PlayerController.cs__
-    ```csharp
-    using UnityEngine;
-    using System.Collections;
+  __PlayerController.cs__
+  ```csharp
+  using UnityEngine;
+  using System.Collections;
 
-    public class PlayerController : MonoBehaviour {
+  public class PlayerController : MonoBehaviour {
 
-        public float speed = 10.0f;
+      public float speed = 10.0f;
 
-        private Rigidbody rb;
+      private Rigidbody rb;
 
-        void Start ()
-        {
-            rb = GetComponent<Rigidbody>();
-        }
+      void Start ()
+      {
+          rb = GetComponent<Rigidbody>();
+      }
 
-        void FixedUpdate ()
-        {
-            float moveHorizontal = Input.GetAxis ("Horizontal");
-            float moveVertical = Input.GetAxis ("Vertical");
+      void FixedUpdate ()
+      {
+          float moveHorizontal = Input.GetAxis ("Horizontal");
+          float moveVertical = Input.GetAxis ("Vertical");
 
-            Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
+          Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
-            rb.AddForce (movement * speed);
-        }
-    }
+          rb.AddForce (movement * speed);
+      }
+  }
 
-    ```
+  ```
 
 - Siden vi vil at scriptet skal styre ballen må vi dra det inn på `Player`-objektet.
 
@@ -115,29 +115,29 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
   lengre.
 - Lag et nytt C#-script som du kaller `CameraController` og legg til koden:
 
-    __CameraController.cs__
-    ```csharp
-    using UnityEngine;
-    using System.Collections;
+  __CameraController.cs__
+  ```csharp
+  using UnityEngine;
+  using System.Collections;
 
-    public class CameraController : MonoBehaviour {
+  public class CameraController : MonoBehaviour {
 
-        public GameObject player;
+      public GameObject player;
 
-        private Vector3 offset;
+      private Vector3 offset;
 
-        void Start ()
-        {
-            offset = transform.position - player.transform.position;
-        }
+      void Start ()
+      {
+          offset = transform.position - player.transform.position;
+      }
 
-        void LateUpdate ()
-        {
-            transform.position = player.transform.position + offset;
-        }
-    }
+      void LateUpdate ()
+      {
+          transform.position = player.transform.position + offset;
+      }
+  }
 
-    ```
+  ```
 
 - Dra scriptet over til kameraet og med kameraet valgt dra `Player`-objektet til
   Player-referansen på høyresida.
@@ -185,21 +185,21 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - La oss få kuben til å snurre litt for å tiltrekke oppmerksomhet.
 - Lag et nytt C#-script og kall det `Rotator`. Legg til koden:
 
-    __Rotator.cs__
-    ```csharp
+  __Rotator.cs__
+  ```csharp
 
-    using UnityEngine;
-    using System.Collections;
+  using UnityEngine;
+  using System.Collections;
 
-    public class Rotator : MonoBehaviour {
+  public class Rotator : MonoBehaviour {
 
-        void Update ()
-        {
-            transform.Rotate (new Vector3 (15, 30, 45) * Time.deltaTime);
-        }
-    }
+      void Update ()
+      {
+          transform.Rotate (new Vector3 (15, 30, 45) * Time.deltaTime);
+      }
+  }
 
-    ```
+  ```
 
 - Start spillet og se at kuben snurrer rundt. Husk å legge til scriptet i
   `Pick Up`-objektet.
@@ -228,15 +228,15 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - Åpne `PlayerController`-scriptet igjen og legg til funksjonen under i
   PlayerController-klassen:
 
-    ```csharp
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag ("Pick Up"))
-        {
-            other.gameObject.SetActive (false);
-        }
-    }
-    ```
+  ```csharp
+  void OnTriggerEnter(Collider other)
+  {
+      if (other.gameObject.CompareTag ("Pick Up"))
+      {
+          other.gameObject.SetActive (false);
+      }
+  }
+  ```
 
 - Velg `Pick Up`-prefaben og legg til en ny **Tag** vi kaller `Pick Up`. Det er
   veldig viktig at den heter `Pick Up`. __Husk store bokstaver på P og U!__
@@ -257,45 +257,45 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
   samlet inn.
 - Åpne `PlayerController` og endre det til å være som følger:
 
-    __PlayerController.cs__
-    ```csharp
-    using UnityEngine;
-    using System.Collections;
+  __PlayerController.cs__
+  ```csharp
+  using UnityEngine;
+  using System.Collections;
 
-    public class PlayerController : MonoBehaviour {
+  public class PlayerController : MonoBehaviour {
 
-        public float speed;
+      public float speed;
 
-        private Rigidbody rb;
-        public int count;                                   // Ny linje
+      private Rigidbody rb;
+      public int count;                                   // Ny linje
 
-        void Start ()
-        {
-            rb = GetComponent<Rigidbody>();
-            count = 0;                                      // Ny linje
-        }
+      void Start ()
+      {
+          rb = GetComponent<Rigidbody>();
+          count = 0;                                      // Ny linje
+      }
 
-        void FixedUpdate ()
-        {
-            float moveHorizontal = Input.GetAxis ("Horizontal");
-            float moveVertical = Input.GetAxis ("Vertical");
+      void FixedUpdate ()
+      {
+          float moveHorizontal = Input.GetAxis ("Horizontal");
+          float moveVertical = Input.GetAxis ("Vertical");
 
-            Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
+          Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
-            rb.AddForce (movement * speed);
-        }
+          rb.AddForce (movement * speed);
+      }
 
-        void OnTriggerEnter(Collider other)
-        {
-            if (other.gameObject.CompareTag("Pick Up"))
-            {
-                other.gameObject.SetActive (false);
-                count = count + 1;                          // Ny linje
-            }
-        }
+      void OnTriggerEnter(Collider other)
+      {
+          if (other.gameObject.CompareTag("Pick Up"))
+          {
+              other.gameObject.SetActive (false);
+              count = count + 1;                          // Ny linje
+          }
+      }
 
-    }
-    ```
+  }
+  ```
 
 - Sjekk at `count` endres når vi treffer kubene.
 - Vi trenger noe på skjermen som viser poengene våre. Under hierarkiet, lag et
@@ -309,13 +309,13 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - Nå vil vi endre denne teksten med `PlayerController`-scriptet. Åpne det opp og
   endre det til:
 
-    __PlayerController.cs__
-    ```csharp
-    using UnityEngine;
-    using UnityEngine.UI;                                   // Ny linje
-    using System.Collections;
+  __PlayerController.cs__
+  ```csharp
+  using UnityEngine;
+  using UnityEngine.UI;                                   // Ny linje
+  using System.Collections;
 
-    public class PlayerController : MonoBehaviour {
+  public class PlayerController : MonoBehaviour {
 
       public float speed;
       public Text countText;                              // Ny linje
@@ -325,37 +325,37 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 
       void Start ()
       {
-        rb = GetComponent<Rigidbody>();
-        count = 0;
-        SetCountText ();                                // Ny linje
+          rb = GetComponent<Rigidbody>();
+          count = 0;
+          SetCountText ();                                // Ny linje
       }
 
       void FixedUpdate ()
       {
-        float moveHorizontal = Input.GetAxis ("Horizontal");
-        float moveVertical = Input.GetAxis ("Vertical");
+          float moveHorizontal = Input.GetAxis ("Horizontal");
+          float moveVertical = Input.GetAxis ("Vertical");
 
-        Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
+          Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
-        rb.AddForce (movement * speed);
+          rb.AddForce (movement * speed);
       }
 
       void OnTriggerEnter(Collider other)
       {
-        if (other.gameObject.CompareTag("Pick Up"))
-        {
-          other.gameObject.SetActive (false);
-          count = count + 1;
-          SetCountText ();                            // Ny linje
-        }
+          if (other.gameObject.CompareTag("Pick Up"))
+          {
+              other.gameObject.SetActive (false);
+              count = count + 1;
+              SetCountText ();                            // Ny linje
+          }
       }
 
       void SetCountText ()                                // Ny linje
       {                                                   // Ny linje
-        countText.text = "Count: " + count.ToString (); // Ny linje
+          countText.text = "Count: " + count.ToString (); // Ny linje
       }                                                   // Ny linje
-    }
-    ```
+  }
+  ```
 
 - Dra CountText inn i Count Text-referansen til `Player`-objektet.
 - Lagre og test spillet!
@@ -366,59 +366,59 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - Lag en ny variabel `winText`, initialiser den i `Start` og endre den i `SetCountText`.
   Når du har kodet ferdig skal det se slik ut:
 
-    __PlayerController.cs__
-    ```csharp
-    using UnityEngine;
-    using UnityEngine.UI;
-    using System.Collections;
+  __PlayerController.cs__
+  ```csharp
+  using UnityEngine;
+  using UnityEngine.UI;
+  using System.Collections;
 
-    public class PlayerController : MonoBehaviour {
+  public class PlayerController : MonoBehaviour {
 
-        public float speed;
-        public Text countText;
-        public Text winText;                                // Ny linje
+      public float speed;
+      public Text countText;
+      public Text winText;                                // Ny linje
 
-        private Rigidbody rb;
-        private int count;
+      private Rigidbody rb;
+      private int count;
 
-        void Start ()
-        {
-            rb = GetComponent<Rigidbody>();
-            count = 0;
-            SetCountText ();
-            winText.text = "";                              // Ny linje
-        }
+      void Start ()
+      {
+          rb = GetComponent<Rigidbody>();
+          count = 0;
+          SetCountText ();
+          winText.text = "";                              // Ny linje
+      }
 
-        void FixedUpdate ()
-        {
-            float moveHorizontal = Input.GetAxis ("Horizontal");
-            float moveVertical = Input.GetAxis ("Vertical");
+      void FixedUpdate ()
+      {
+          float moveHorizontal = Input.GetAxis ("Horizontal");
+          float moveVertical = Input.GetAxis ("Vertical");
 
-            Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
+          Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
-            rb.AddForce (movement * speed);
-        }
+          rb.AddForce (movement * speed);
+      }
 
-        void OnTriggerEnter(Collider other)
-        {
-            if (other.gameObject.CompareTag("Pick Up"))
-            {
-                other.gameObject.SetActive (false);
-                count = count + 1;
-                SetCountText ();
-            }
-        }
+      void OnTriggerEnter(Collider other)
+      {
+          if (other.gameObject.CompareTag("Pick Up"))
+          {
+              other.gameObject.SetActive (false);
+              count = count + 1;
+              SetCountText ();
+          }
+      }
 
-        void SetCountText ()
-        {
-            countText.text = "Count: " + count.ToString ();
-            if (count >= 12)                                // Ny linje
-            {                                               // Ny linje
-                winText.text = "You Win!";                  // Ny linje
-            }                                               // Ny linje
-        }
-    }
-    ```
+      void SetCountText ()
+      {
+          countText.text = "Count: " + count.ToString ();
+          if (count >= 12)                                // Ny linje
+          {                                               // Ny linje
+              winText.text = "You Win!";                  // Ny linje
+          }                                               // Ny linje
+      }
+  }
+  ```
 
 ## Test spillet {.flag}
 

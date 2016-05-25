@@ -42,13 +42,13 @@ Dette er et spill med tre figurer som endrer utseende. Din oppgave er
 
 + Legg til dette skriptet:
 
-    ```blocks
-        Når grønt flagg klikkes
-        for alltid
-            neste drakt
-            vent (0.5) sekunder
-        slutt
-    ```
+  ```blocks
+  Når grønt flagg klikkes
+  for alltid
+      neste drakt
+      vent (0.5) sekunder
+  slutt
+  ```
 
 + Tilpass tiden i `vent`{.blockcontrol}-klossen til figuren endrer
   drakt i et passende tempo. Hva tror du ville skjedd om vi ikke hadde
@@ -84,22 +84,22 @@ se at er praktisk også senere.
 + På starten av spillet vil ikke figuren ha blitt klikket så da setter
   vi variabelen til `0`.
 
-    ```blocks
-        når grønt flagg klikkes
-        sett [stoppet v] til [0]
-        for alltid
-            neste drakt
-            vent (0.5) sekunder
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett [stoppet v] til [0]
+  for alltid
+      neste drakt
+      vent (0.5) sekunder
+  slutt
+  ```
 
 + Nå vil vi sette variabelen `stoppet`{.blockdata} til `1` når noen
   klikker på figuren.
 
-    ```blocks
-        når denne figuren klikkes
-        sett [stoppet v] til [1]
-    ```
+  ```blocks
+  når denne figuren klikkes
+  sett [stoppet v] til [1]
+  ```
 
 + Til slutt må vi få figuren til å slutte å forandre drakt når
   variabelen `stoppet`{.blockdata} blir `1`. Legg til en
@@ -107,16 +107,16 @@ se at er praktisk også senere.
   operator-kloss for å sjekke om `stoppet`{.blockdata} fremdeles er
   `0`.
 
-    ```blocks
-        når grønt flagg klikkes
-        sett [stoppet v] til [0]
-        for alltid
-            hvis <(stoppet) = [0]>
-                neste drakt
-                vent (0.5) sekunder
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett [stoppet v] til [0]
+  for alltid
+      hvis <(stoppet) = [0]>
+          neste drakt
+          vent (0.5) sekunder
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -177,17 +177,17 @@ endres litt mer uforutsigbart.
   alltid`{.blockcontrol}-løkken slik at figuren skifter til en ulik
   drakt hver gang den forandres.
 
-    ```blocks
-        når grønt flagg klikkes
-        sett [stoppet v] til [0]
-        bytt drakt til (tilfeldig tall fra (1) til (3))
-        for alltid
-            hvis <(stoppet) = [0]>
-                bytt drakt til (tilfeldig tall fra (1) til (3))
-                vent (0.5) sekunder
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett [stoppet v] til [0]
+  bytt drakt til (tilfeldig tall fra (1) til (3))
+  for alltid
+      hvis <(stoppet) = [0]>
+          bytt drakt til (tilfeldig tall fra (1) til (3))
+          vent (0.5) sekunder
+      slutt
+  slutt
+  ```
 
 + Gjør det samme for hver av de andre figurene.
 
@@ -245,12 +245,12 @@ La oss først hente en ny bakgrunn som vi viser når spillet er over.
   Figur3`{.blocksensing}-kloss fra `Sansning`{.blocksensing}, men hvor
   vi bytter ut `x-posisjon` med `stoppet`.
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt bakgrunn til [Spill v]
-        vent til <([stoppet v] av [Figur3 v])  = [1]>
-        bytt bakgrunn til [Slutt v]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt bakgrunn til [Spill v]
+  vent til <([stoppet v] av [Figur3 v])  = [1]>
+  bytt bakgrunn til [Slutt v]
+  ```
 
 ## Test prosjektet{.flag}
 
@@ -275,12 +275,12 @@ rekkefølge figurene stoppes i.
   _`{.blockoperators}-operatorer og tre `stoppet av
   Figur`{.blocksensing}-klosser.
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt bakgrunn til [Spill v]
-        vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
-        bytt bakgrunn til [Slutt v]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt bakgrunn til [Spill v]
+  vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
+  bytt bakgrunn til [Slutt v]
+  ```
 
 ## Test prosjektet{.flag}
 
@@ -319,16 +319,16 @@ spillet er over.
   `drakt nr.` og se om `Figur1` har samme drakt som `Figur2` og om
   `Figur2` har samme drakt som `Figur3`.
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt bakgrunn til [Spill v]
-        vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
-        hvis <<([drakt nr. v]  av [Figur1 v]) = ([drakt nr. v]  av [Figur2 v])> og <([drakt nr. v]  av [Figur2 v]) = ([drakt nr. v] av [Figur3 v])>>
-            bytt bakgrunn til [Vinner v]
-        ellers
-            bytt bakgrunn til [Taper v]
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt bakgrunn til [Spill v]
+  vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
+  hvis <<([drakt nr. v]  av [Figur1 v]) = ([drakt nr. v]  av [Figur2 v])> og <([drakt nr. v]  av [Figur2 v]) = ([drakt nr. v] av [Figur3 v])>>
+      bytt bakgrunn til [Vinner v]
+  ellers
+      bytt bakgrunn til [Taper v]
+  slutt
+  ```
 
 ## Test prosjektet{.flag}
 

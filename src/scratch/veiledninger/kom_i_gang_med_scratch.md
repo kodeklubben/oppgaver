@@ -152,7 +152,7 @@ oppgaven sammen med barna.
     vårt. Etterhvert vil vi ha flere figurer enn katten.
 
   + __Kodevinduet__ til høyre, inkludert listen over klosser i midten,
-     er der selve programmeringen skjer.
+    er der selve programmeringen skjer.
 
 + Pek på den øverste blå klossen, `gå (10) steg`{.b}. Fortell at når
   vi klikker på den forteller vi katten at den skal gå. Klikk på
@@ -172,8 +172,8 @@ oppgaven sammen med barna.
   første klossen slik:
 
   ```blocks
-      gå (10) steg
-      vend høyre (15) grader
+  gå (10) steg
+  vend høyre (15) grader
   ```
 
   Klikk på kodeblokken og vis hvordan katten både flytter seg og
@@ -197,9 +197,9 @@ oppgaven sammen med barna.
   som følger:
 
   ```blocks
-      endre [farge v] effekt med (25)
-      gå (20) steg
-      vend høyre (15) grader
+  endre [farge v] effekt med (25)
+  gå (20) steg
+  vend høyre (15) grader
   ```
 
 + Vis at vi også kan ta klosser ut av skript, ved å dra `vend høyre
@@ -211,9 +211,9 @@ oppgaven sammen med barna.
   nedtrekksmenyen og velg `musepeker`. Skriptet ser nå slik ut:
 
   ```blocks
-      endre [farge v] effekt med (25)
-      gå (20) steg
-      pek mot [musepeker v]
+  endre [farge v] effekt med (25)
+  gå (20) steg
+  pek mot [musepeker v]
   ```
 
   Vis barna hvordan katten nå vil se mot musepekeren når du klikker på
@@ -227,11 +227,11 @@ oppgaven sammen med barna.
   alltid`{.b}-kloss slik at den legger seg rundt skriptet ditt.
 
   ```blocks
-      for alltid
-          endre [farge v] effekt med (25)
-          gå (20) steg
-          pek mot [musepeker v]
-      slutt
+  for alltid
+      endre [farge v] effekt med (25)
+      gå (20) steg
+      pek mot [musepeker v]
+  slutt
   ```
 
   Før du klikker på skriptet, spør barna hva de tror vil skje!

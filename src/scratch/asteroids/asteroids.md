@@ -95,21 +95,21 @@ vi laget i Lunar Lander.
   dem litt innenfor skjermkanten:
 
   ```blocks
-      når jeg mottar [Nytt spill v]
-      for alltid
-          hvis <(x-posisjon) < [-235]>
-              endre x med (470)
-          slutt
-          hvis <(x-posisjon) > [235]>
-              endre x med (-470)
-          slutt
-          hvis <(y-posisjon) < [-175]>
-              endre y med (350)
-          slutt
-          hvis <(y-posisjon) > [175]>
-              endre y med (-350)
-          slutt
+  når jeg mottar [Nytt spill v]
+  for alltid
+      hvis <(x-posisjon) < [-235]>
+          endre x med (470)
       slutt
+      hvis <(x-posisjon) > [235]>
+          endre x med (-470)
+      slutt
+      hvis <(y-posisjon) < [-175]>
+          endre y med (350)
+      slutt
+      hvis <(y-posisjon) > [175]>
+          endre y med (-350)
+      slutt
+  slutt
   ```
 
 # Steg 2: Romskipet kan skyte {.activity}
@@ -144,10 +144,10 @@ vi laget i Lunar Lander.
   omtrent slik ut:
 
   ```blocks
-      hvis <tast [mellomrom v] trykket?>
-          vent til <ikke <tast [mellomrom v] trykket?>>
-          ...
-      slutt
+  hvis <tast [mellomrom v] trykket?>
+      vent til <ikke <tast [mellomrom v] trykket?>>
+      ...
+  slutt
   ```
 
 + Nå skal vi kode oppførselen til skuddet etter at det er avfyrt. Det
@@ -206,7 +206,7 @@ vi laget i Lunar Lander.
   mindre med en kloss som ligner
 
   ```blocks
-      sett størrelse til ((størrelse) / (2)) %
+  sett størrelse til ((størrelse) / (2)) %
   ```
 
   `Hvis`{.blockcontrol} `størrelsen`{.blocklooks} fortsatt er større
@@ -229,10 +229,10 @@ vi laget i Lunar Lander.
   legge inn kode som dette i løkka som flytter skudd-figuren:
 
   ```blocks
-      hvis <berører [Asteroide v] ?>
-          vent (0.01) sekunder
-          slett denne klonen
-      slutt
+  hvis <berører [Asteroide v] ?>
+      vent (0.01) sekunder
+      slett denne klonen
+  slutt
   ```
 
 # Steg 4: Videreutvikling av spillet {.activity}
@@ -249,7 +249,7 @@ vi laget i Lunar Lander.
   utregning omtrent som
 
   ```blocks
-      avrund ((100) / (størrelse))
+  avrund ((100) / (størrelse))
   ```
 
 + Dersom du plasserer asteroidene helt tilfeldig når et nytt spill

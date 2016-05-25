@@ -39,14 +39,14 @@ som holder oversikt over alle stedene vi kan besøke.
 + Klikk på scenen til venstre for figurene, og lag det følgende
   skriptet:
 
-    ```blocks
-        når grønt flagg klikkes
-        send melding [Nytt spill v]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  send melding [Nytt spill v]
+  ```
 
-    Vi skal diskutere hvorfor vi gjør dette i mer detalj senere. Kort
-    sagt gir det oss mer fleksibilitet i forhold til hvordan vi
-    starter og avslutter spillet.
+  Vi skal diskutere hvorfor vi gjør dette i mer detalj senere. Kort
+  sagt gir det oss mer fleksibilitet i forhold til hvordan vi
+  starter og avslutter spillet.
 
 + Klikk på helikopteret igjen. Klikk deretter `Data`{.blockdata} og
   lag en variabel som heter `hastighet`{.blockdata} og som gjelder for
@@ -56,36 +56,36 @@ som holder oversikt over alle stedene vi kan besøke.
   helikopteret som ikke forandrer seg i løpet av spillet, for eksempel
   størrelsen og hastigheten.
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
-        begrens rotasjon [vend sideveis v]
-        sett størrelse til (30) %
-        sett [hastighet v] til [5]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  skjul
+  begrens rotasjon [vend sideveis v]
+  sett størrelse til (30) %
+  sett [hastighet v] til [5]
+  ```
 
-    Eksperimenter gjerne med andre verdier for disse klossene, slik at
-    du finner de verdiene du mener er best for ditt spill!
+  Eksperimenter gjerne med andre verdier for disse klossene, slik at
+  du finner de verdiene du mener er best for ditt spill!
 
 + Nå skal vi lage en av de viktigste delene av spillet, nemlig hvordan
   helikopteret flytter seg rundt. Dette legger vi inn i en løkke som
   alltid kjører.
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        gå til x: (0) y: (0)
-        vis
-        for alltid
-            hvis <tast [pil høyre v] trykket?>
-                pek i retning (90 v)
-                gå (hastighet) steg
-            slutt
-            hvis <tast [pil venstre v] trykket?>
-                pek i retning (-90 v)
-                gå (hastighet) steg
-            slutt
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  gå til x: (0) y: (0)
+  vis
+  for alltid
+      hvis <tast [pil høyre v] trykket?>
+          pek i retning (90 v)
+          gå (hastighet) steg
+      slutt
+      hvis <tast [pil venstre v] trykket?>
+          pek i retning (-90 v)
+          gå (hastighet) steg
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -145,7 +145,7 @@ __Klikk på det grønne flagget.__
   sirkel som er omtrent fire ruter stor. `skift`-knappen hjelper deg
   til å lage en helt rund sirkel.
 
-    ![](sirkel.png)
+  ![](sirkel.png)
 
 + Gi denne nye figuren navnet `Sted`.
 
@@ -159,21 +159,21 @@ __Klikk på det grønne flagget.__
   koordinatene `x: -98` og `y: -120`. Koordinatene forteller hvor på
   kartet vi har lagt reisemålet vårt.
 
-    ![](reisemaal.png)
+  ![](reisemaal.png)
 
 + Vi lager nå litt kode som passer på at reisemålet ligger riktig
   plassert på kartet, og som sier i fra hvis vi finner veien til
   Barcelona.
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        send melding [Nytt sted v]
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  send melding [Nytt sted v]
 
-        når jeg mottar [Nytt sted v]
-        gå til x: (-98) y: (-120)
-        vent til <berører [Helikopter v]?>
-        si [Fant Barcelona!] i (2) sekunder
-    ```
+  når jeg mottar [Nytt sted v]
+  gå til x: (-98) y: (-120)
+  vent til <berører [Helikopter v]?>
+  si [Fant Barcelona!] i (2) sekunder
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -229,12 +229,12 @@ sirkelen usynlig på!
   gjennomsiktig. Bytt ut `skjul`{.blocklooks}-klossen med en `sett
   effekt`{.blocklooks}-kloss:
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        vis
-        sett [gjennomsiktig v] effekt til (100)
-        send melding [Nytt sted v]
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  vis
+  sett [gjennomsiktig v] effekt til (100)
+  send melding [Nytt sted v]
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -258,18 +258,18 @@ __Klikk på det grønne flagget.__
 
 + Animasjonen kan vi for eksempel lage med den følgende koden:
 
-    ```blocks
-        gjenta (5) ganger
-            gjenta (10) ganger
-                endre størrelse med (10)
-            slutt
-            gjenta (10) ganger
-                endre størrelse med (-10)
-            slutt
-        slutt
-    ```
+  ```blocks
+  gjenta (5) ganger
+      gjenta (10) ganger
+          endre størrelse med (10)
+      slutt
+      gjenta (10) ganger
+          endre størrelse med (-10)
+      slutt
+  slutt
+  ```
 
-    Hvor må du legge denne koden for at du skal se animasjonen?
+  Hvor må du legge denne koden for at du skal se animasjonen?
 
 ## Test prosjektet {.flag}
 
@@ -291,20 +291,20 @@ i 2 sekunder.
 
 + Legg til klossen
 
-    ```blocks
-        si [Fant Barcelona!]
-    ```
+  ```blocks
+  si [Fant Barcelona!]
+  ```
 
-    rett før den ytre `gjenta`{.blockcontrol}-løkken.
+  rett før den ytre `gjenta`{.blockcontrol}-løkken.
 
 + For at sirkelen skal slutte å si `Fant Barcelona!` etter at
   animasjonen er slutt må du legge klossen
 
-    ```blocks
-        si [ ]
-    ```
+  ```blocks
+  si [ ]
+  ```
 
-    til slutt i skriptet ditt.
+  til slutt i skriptet ditt.
 
 # Neste gang {.activity}
 

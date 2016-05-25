@@ -26,113 +26,113 @@ oss se på hva vi allerede har før vi begynner å skrive ny kode.
 navn. Eller om du ikke kan finne den filen kan du kopiere inn
 følgende:
 
-    ```python
-    from tkinter import *
+  ```python
+  from tkinter import *
 
-    main = Tk()
+  main = Tk()
 
-    c = Canvas(main, width=600, height=600)
-    c.pack()
+  c = Canvas(main, width=600, height=600)
+  c.pack()
 
-    c.create_line(200, 0, 200, 600)
-    c.create_line(400, 0, 400, 600)
+  c.create_line(200, 0, 200, 600)
+  c.create_line(400, 0, 400, 600)
 
-    c.create_line(0, 200, 600, 200)
-    c.create_line(0, 400, 600, 400)
+  c.create_line(0, 200, 600, 200)
+  c.create_line(0, 400, 600, 400)
 
-    grid = [
-        "0", "1", "2",
-        "3", "4", "5",
-        "6", "7", "8",
-    ]
+  grid = [
+      "0", "1", "2",
+      "3", "4", "5",
+      "6", "7", "8",
+  ]
 
-    def click(event):
-        shape = choose_shape()
-        across = int(c.canvasx(event.x) / 200)
-        down = int(c.canvasy(event.y) / 200)
-        square = across + (down * 3)
+  def click(event):
+      shape = choose_shape()
+      across = int(c.canvasx(event.x) / 200)
+      down = int(c.canvasy(event.y) / 200)
+      square = across + (down * 3)
 
-        if grid[square] == "X" or grid[square] == "O":
-            return
+      if grid[square] == "X" or grid[square] == "O":
+          return
 
-        if winner():
-            return
+      if winner():
+          return
 
-        if shape == "O":
-            c.create_oval(across * 200, down * 200,
-                (across+1) * 200, (down+1) * 200)
-            grid[square] = "O"
-        else:
-            c.create_line(across * 200, down * 200,
-                (across+1) * 200, (down+1) * 200)
-            c.create_line(across * 200, (down+1) * 200,
-                (across+1) * 200, down * 200)
-            grid[square] = "X"
+      if shape == "O":
+          c.create_oval(across * 200, down * 200,
+              (across+1) * 200, (down+1) * 200)
+          grid[square] = "O"
+      else:
+          c.create_line(across * 200, down * 200,
+              (across+1) * 200, (down+1) * 200)
+          c.create_line(across * 200, (down+1) * 200,
+              (across+1) * 200, down * 200)
+          grid[square] = "X"
 
-    def choose_shape():
-        if grid.count("O") > grid.count("X"):
-            return "X"
-        else:
-            return "O"
+  def choose_shape():
+      if grid.count("O") > grid.count("X"):
+          return "X"
+      else:
+          return "O"
 
-    def winner():
-        for across in range(3):
-            row = across * 3
-            line = grid[row] + grid[row+1] + grid[row+2]
-            if line == "XXX" or line == "OOO":
-                return True
+  def winner():
+      for across in range(3):
+          row = across * 3
+          line = grid[row] + grid[row+1] + grid[row+2]
+          if line == "XXX" or line == "OOO":
+              return True
 
-        for down in range(3):
-            line = grid[down] + grid[down+3] + grid[down+6]
-            if line == "XXX" or line == "OOO":
-                return True
+      for down in range(3):
+          line = grid[down] + grid[down+3] + grid[down+6]
+          if line == "XXX" or line == "OOO":
+              return True
 
-        line = grid[0] + grid[4] + grid[8]
-        if line == "XXX" or line == "OOO":
-                return True
+      line = grid[0] + grid[4] + grid[8]
+      if line == "XXX" or line == "OOO":
+              return True
 
-        line = grid[2] + grid[4] + grid[6]
-        if line == "XXX" or line == "OOO":
-                return True
+      line = grid[2] + grid[4] + grid[6]
+      if line == "XXX" or line == "OOO":
+              return True
 
-    c.bind("<Button-1>", click)
+  c.bind("<Button-1>", click)
 
-    mainloop()
-    ```
+  mainloop()
+  ```
 
 + Lagre, og kjør programmet, slik at du er sikker på at det virker!
 
-    Du skal kunne klikke i rutene for å plassere sirkler og kryss inntil noen får tre på rad.
+  Du skal kunne klikke i rutene for å plassere sirkler og kryss inntil noen får tre på rad.
 
 + Før vi begynner med dagens kode vil vi gjøre en liten opprydning i koden for at vi enklere skal kunne lese hva som skjer i prosedyren `click`. Vi flytter koden som tegner sirkler og kryss til en egen prosedyre. Bytt prosedyren `click` ut med disse to prosedyrene:
 
-    ```python
-    def click(event):
-        shape = choose_shape()
-        across = int(c.canvasx(event.x) / 200)
-        down = int(c.canvasy(event.y) / 200)
-        square = across + (down * 3)
+  ```python
+  def click(event):
+      shape = choose_shape()
+      across = int(c.canvasx(event.x) / 200)
+      down = int(c.canvasy(event.y) / 200)
+      square = across + (down * 3)
 
-        if grid[square] == "X" or grid[square] == "O":
-            return
+      if grid[square] == "X" or grid[square] == "O":
+          return
 
-        if winner():
-            return
+      if winner():
+          return
 
-        grid[square] = shape
-        draw_shape(shape, across, down)
+      grid[square] = shape
+      draw_shape(shape, across, down)
 
-    def draw_shape(shape, across, down):
-        if shape == "O":
-            c.create_oval(across * 200, down * 200,
-                (across+1) * 200, (down+1) * 200)
-        else:
-            c.create_line(across * 200, down * 200,
-                (across+1) * 200, (down+1) * 200)
-            c.create_line(across * 200, (down+1) * 200,
-                (across+1) * 200, down * 200)
-    ```
-    Kjør koden og test at den fortsatt fungerer på samme måte som tidligere. Dette er et eksempel på noe som kalles refaktorering. Vi har endret på selve koden, men ikke endret hvordan programmet fungerer.
+  def draw_shape(shape, across, down):
+      if shape == "O":
+          c.create_oval(across * 200, down * 200,
+              (across+1) * 200, (down+1) * 200)
+      else:
+          c.create_line(across * 200, down * 200,
+              (across+1) * 200, (down+1) * 200)
+          c.create_line(across * 200, (down+1) * 200,
+              (across+1) * 200, down * 200)
+  ```
+  Kjør koden og test at den fortsatt fungerer på samme måte som tidligere. Dette er et eksempel på noe som kalles refaktorering. Vi har endret på selve koden, men ikke endret hvordan programmet fungerer.
 
 # Steg 2: Spill tilfeldig {.activity}
 
@@ -144,93 +144,93 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
 
 + Vi vil først lage en ny prosedyre, `free_squares`, som kan finne ledige ruter. Legg til denne koden nedenfor prosedyren `winner`, men over linjen `c.bind(...)`:
 
-    ```python
-    def free_squares():
-        output = []
-        for position, square in enumerate(grid):
-            if square != "X" and square != "O":
-                output.append(position)
-        return output
-    ```
+  ```python
+  def free_squares():
+      output = []
+      for position, square in enumerate(grid):
+          if square != "X" and square != "O":
+              output.append(position)
+      return output
+  ```
 
-    Denne prosedyren lager en tom liste. Deretter går den gjennom hele rutenettet og sjekker hver rute om den er tom.
+  Denne prosedyren lager en tom liste. Deretter går den gjennom hele rutenettet og sjekker hver rute om den er tom.
 
-    Kommandoen `enumerate` kan fortelle oss posisjonen til hvert element i `grid`-listen. For eksempel vil `enumerate` gjøre om en liste `['A','B','C']` til parene `(0, 'A'), (1,'B'), (2, 'C')` slik at vi ikke trenger å telle elementene selv.
+  Kommandoen `enumerate` kan fortelle oss posisjonen til hvert element i `grid`-listen. For eksempel vil `enumerate` gjøre om en liste `['A','B','C']` til parene `(0, 'A'), (1,'B'), (2, 'C')` slik at vi ikke trenger å telle elementene selv.
 
 + På toppen av filen vil vi importere `random`-biblioteket, som vi vil bruke for å tilfeldig velge et trekk
 
-    ```python
-    from tkinter import *
-    import random
-    ```
+  ```python
+  from tkinter import *
+  import random
+  ```
 
-    Du husker kanskje at vi brukte `random.choice` i en tidligere leksjon om Hangman.
+  Du husker kanskje at vi brukte `random.choice` i en tidligere leksjon om Hangman.
 
 + Nå skriver vi en prosedyre `play_move()` som kan spille i en tilfeldig tom rute. Legg til denne prosedyren etter `free_squares` men før linjnen `c.bind(...)`
 
-    ```python
-    def play_move():
-        moves = free_squares()
-        square = random.choice(moves)
+  ```python
+  def play_move():
+      moves = free_squares()
+      square = random.choice(moves)
 
-        across = square % 3
-        down = square // 3
+      across = square % 3
+      down = square // 3
 
-        grid[square] = "X"
-        draw_shape("X", across, down)
-    ```
+      grid[square] = "X"
+      draw_shape("X", across, down)
+  ```
 
-    Først bruker vi `free_squares` til å lage en liste over de tomme rutene. Deretter velger vi en tilfeldig av disse rutene. Vi vil nå oversette dette rutenummeret til rad- og kolonne-nummer. Dette gjør vi ved å bruke `%` og `//` operatorene. La oss se litt nærmere på hvordan dette virker:
+  Først bruker vi `free_squares` til å lage en liste over de tomme rutene. Deretter velger vi en tilfeldig av disse rutene. Vi vil nå oversette dette rutenummeret til rad- og kolonne-nummer. Dette gjør vi ved å bruke `%` og `//` operatorene. La oss se litt nærmere på hvordan dette virker:
 
-    ```
-         0 1 2
-         -----
-     0 | 0 1 2
-     1 | 3 4 5
-     2 | 6 7 8
-    ```
+  ```
+      0 1 2
+      -----
+  0 | 0 1 2
+  1 | 3 4 5
+  2 | 6 7 8
+  ```
 
-    For eksempel er rute nummer 5 i rad 1 og kolonne 2. Hvis vi deler 5 på 3 får vi 1 med 2 i rest.
+  For eksempel er rute nummer 5 i rad 1 og kolonne 2. Hvis vi deler 5 på 3 får vi 1 med 2 i rest.
 
-    `5 // 3` er 1, `6 // 3` er 2, og så videre. Operatoren `//` forteller oss hvor mange ganger et tall deler et annet, men ser bort i fra resten. Siden vi har 3 kolonner forteller `5 // 3` oss i hvilken rad rute 5 er.
+  `5 // 3` er 1, `6 // 3` er 2, og så videre. Operatoren `//` forteller oss hvor mange ganger et tall deler et annet, men ser bort i fra resten. Siden vi har 3 kolonner forteller `5 // 3` oss i hvilken rad rute 5 er.
 
-    `5 % 3` er 2, `6 % 3` er 0. Operatoren `%` forteller oss hva resten er når vi deler et tall med et annet. Dette gir oss kolonnenummeret.
+  `5 % 3` er 2, `6 % 3` er 0. Operatoren `%` forteller oss hva resten er når vi deler et tall med et annet. Dette gir oss kolonnenummeret.
 
-    Legg merke til at de to linjene
-    ```python
-    across = square % 3
-    down = square // 3
-    ```
-    gjør den motsatte utregningen av
-    ```python
-    square = across + (down * 3)
-    ```
-    som vi allerede har brukt i `click`.
+  Legg merke til at de to linjene
+  ```python
+  across = square % 3
+  down = square // 3
+  ```
+  gjør den motsatte utregningen av
+  ```python
+  square = across + (down * 3)
+  ```
+  som vi allerede har brukt i `click`.
 
 + Til slutt endrer vi `click`-prosedyren slik at den kaller `play_move`. På denne måten vil først spilleren gjøre sitt trekk, og deretter gjør datamaskinen sitt trekk.
 
-    ```python
-    def click(event):
-        across = int(c.canvasx(event.x) / 200)
-        down = int(c.canvasy(event.y) / 200)
-        square = across + (down * 3)
+  ```python
+  def click(event):
+      across = int(c.canvasx(event.x) / 200)
+      down = int(c.canvasy(event.y) / 200)
+      square = across + (down * 3)
 
-        if grid[square] == "X" or grid[square] == "O":
-            return
+      if grid[square] == "X" or grid[square] == "O":
+          return
 
-        if winner():
-            return
+      if winner():
+          return
 
-        grid[square] = "O"
-        draw_shape("O", across, down)
+      grid[square] = "O"
+      draw_shape("O", across, down)
 
-        if winner():
-            return
+      if winner():
+          return
 
-        play_move()
-    ```
+      play_move()
+  ```
 
-    Vi sjekker først om spilleren har vunnet, og hvis ikke lar vi datamaskinen gjøre sitt trekk.
+  Vi sjekker først om spilleren har vunnet, og hvis ikke lar vi datamaskinen gjøre sitt trekk.
 
 + Lagre programmet og kjør det. Datamaskinen vil nå trekke etter deg. Den vil ikke spille spesielt bra siden den bare gjør tilfeldige trekk.
 
@@ -242,77 +242,77 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
 
 + Endre prosedyren `winner` slik at den tar et argument `grid`:
 
-    ```python
-    def winner(grid):
-        for across in range(3):
-            row = across * 3
-            line = grid[row] + grid[row+1] + grid[row+2]
-            if line == "XXX" or line == "OOO":
-                return True
+  ```python
+  def winner(grid):
+      for across in range(3):
+          row = across * 3
+          line = grid[row] + grid[row+1] + grid[row+2]
+          if line == "XXX" or line == "OOO":
+              return True
 
-        for down in range(3):
-            line = grid[down] + grid[down+3] + grid[down+6]
-            if line == "XXX" or line == "OOO":
-                return True
+      for down in range(3):
+          line = grid[down] + grid[down+3] + grid[down+6]
+          if line == "XXX" or line == "OOO":
+              return True
 
-        line = grid[0] + grid[4] + grid[8]
-        if line == "XXX" or line == "OOO":
-                return True
+      line = grid[0] + grid[4] + grid[8]
+      if line == "XXX" or line == "OOO":
+              return True
 
-        line = grid[2] + grid[4] + grid[6]
-        if line == "XXX" or line == "OOO":
-                return True
-    ```
-    Du trenger bare å endre den første linjen i prosedyren. Dette betyr at `winner` vil bruke en liste vi sender til den, i stedet for `grid` som husker hvordan dette spillet ser ut. Dermed kan `winner` også undersøke trekk som ikke er blitt spilt enda.
+      line = grid[2] + grid[4] + grid[6]
+      if line == "XXX" or line == "OOO":
+              return True
+  ```
+  Du trenger bare å endre den første linjen i prosedyren. Dette betyr at `winner` vil bruke en liste vi sender til den, i stedet for `grid` som husker hvordan dette spillet ser ut. Dermed kan `winner` også undersøke trekk som ikke er blitt spilt enda.
 
 + Nå må vi forandre `click` så den sender inn riktig liste.
 
-    ```python
-    def click(event):
-         across = int(c.canvasx(event.x) / 200)
-        down = int(c.canvasy(event.y) / 200)
-        square = across + (down * 3)
+  ```python
+  def click(event):
+       across = int(c.canvasx(event.x) / 200)
+      down = int(c.canvasy(event.y) / 200)
+      square = across + (down * 3)
 
-        if grid[square] == "X" or grid[square] == "O":
-            return
+      if grid[square] == "X" or grid[square] == "O":
+          return
 
-        if winner(grid):
-            return
+      if winner(grid):
+          return
 
-        grid[square] = "O"
-        draw_shape("O", across, down)
+      grid[square] = "O"
+      draw_shape("O", across, down)
 
-        if winner(grid):
-            return
+      if winner(grid):
+          return
 
-        play_move()
-    ```
-    Alle steder vi har `winner()` i koden bytter vi det ut med `winner(grid)`.
+      play_move()
+  ```
+  Alle steder vi har `winner()` i koden bytter vi det ut med `winner(grid)`.
 
 + Kjør koden, den skal fortsatt virke akkurat som før for vi har enda ikke endret hvordan datamaskinen spiller.
 
 + La oss hjelpe datamaskinen ved å legge til noen linjer i `play_move` som kan lete etter vinnende trekk!
 
-    ```python
-    def play_move():
-        moves = free_squares()
-        square = random.choice(moves)
+  ```python
+  def play_move():
+      moves = free_squares()
+      square = random.choice(moves)
 
-        # Bruk et vinnende trekk om det eksisterer
-        for possible in moves:
-            new_grid = list(grid)
-            new_grid[possible] = "X"
-            if winner(new_grid):
-                square = possible
-                break
+      # Bruk et vinnende trekk om det eksisterer
+      for possible in moves:
+          new_grid = list(grid)
+          new_grid[possible] = "X"
+          if winner(new_grid):
+              square = possible
+              break
 
-        across = square % 3
-        down = square // 3
+      across = square % 3
+      down = square // 3
 
-        grid[square] = "X"
-        draw_shape("X", across, down)
-    ```
-    For hver ledige rute lager vi en kopi av `grid`-listen med kommandoen `list(grid)`. Deretter plasserer vi en X i denne ledige ruten og bruker `winner` for å undersøke om dette vil være et vinnende trekk!
+      grid[square] = "X"
+      draw_shape("X", across, down)
+  ```
+  For hver ledige rute lager vi en kopi av `grid`-listen med kommandoen `list(grid)`. Deretter plasserer vi en X i denne ledige ruten og bruker `winner` for å undersøke om dette vil være et vinnende trekk!
 
 
 + Kjør programmet ditt og test det flere ganger. Datamaskinen skal ha blitt litt flinkere til å spille nå.
@@ -325,34 +325,34 @@ Den andre strategien vi vil lære datamaskinen er å blokkere trekk som gjør at
 
 + Legg til litt mer kode i `play_move` som blokkerer trekk som gjør at spilleren kan vinne.
 
-    ```python
-    def play_move():
-        moves = free_squares()
-        square = random.choice(moves)
+  ```python
+  def play_move():
+      moves = free_squares()
+      square = random.choice(moves)
 
-        # Bruk et blokkerende trekk om det eksisterer
-        for possible in moves:
-            new_grid = list(grid)
-            new_grid[possible] = "O"
-            if winner(new_grid):
-                square = possible
-                break
+      # Bruk et blokkerende trekk om det eksisterer
+      for possible in moves:
+          new_grid = list(grid)
+          new_grid[possible] = "O"
+          if winner(new_grid):
+              square = possible
+              break
 
-        # Bruk et vinnende trekk om det eksisterer
-        for possible in moves:
-            new_grid = list(grid)
-            new_grid[possible] = "X"
-            if winner(new_grid):
-                square = possible
-                break
+      # Bruk et vinnende trekk om det eksisterer
+      for possible in moves:
+          new_grid = list(grid)
+          new_grid[possible] = "X"
+          if winner(new_grid):
+              square = possible
+              break
 
-        across = square % 3
-        down = square // 3
+      across = square % 3
+      down = square // 3
 
-        grid[square] = "X"
-        draw_shape("X", across, down)
-    ```
-    Legg merke til at datamaskinen først plukker en tilfeldig ledig rute. Deretter sjekker den om den kan blokkere, og hvis den kan det så ombestemmer den seg. Til slutt sjekker den om den kan vinne, og dersom den kan det så ombestemmer den seg en gang til!
+      grid[square] = "X"
+      draw_shape("X", across, down)
+  ```
+  Legg merke til at datamaskinen først plukker en tilfeldig ledig rute. Deretter sjekker den om den kan blokkere, og hvis den kan det så ombestemmer den seg. Til slutt sjekker den om den kan vinne, og dersom den kan det så ombestemmer den seg en gang til!
 
 + Kjør koden og se om du klarer å vinne mot datamaskinen! Det har nå blitt mye vanskeligere.
 

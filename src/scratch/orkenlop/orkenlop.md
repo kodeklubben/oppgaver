@@ -45,18 +45,18 @@ kanten av skjermen vinner.
 + Velg først løvefiguren og få den til å `gå 4 steg`{.blockmotion} når
   du trykker `L` tasten.
 
-    ```blocks
-        når [l v] trykkes
-        gå (4) steg
-    ```
+  ```blocks
+  når [l v] trykkes
+  gå (4) steg
+  ```
 
 + Velg så papegøyefiguren og la den `gå 4 steg`{.blockmotion} når du
   trykker `A` tasten.
 
-    ```blocks
-        når [a v] trykkes
-        gå (4) steg
-    ```
+  ```blocks
+  når [a v] trykkes
+  gå (4) steg
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -82,23 +82,23 @@ __Klikk på det grønne flagget.__
 
 + Legg nå til et skript som viser figuren når spillet starter:
 
-    ```blocks
-        når grønt flagg klikkes
-        vis
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  vis
+  ```
 
 + I tillegg vil vi at knappen først teller ned fra 3, sier `LØP!` og
   deretter blir skjult når den klikkes. Dette ordner du med følgende
   skript:
 
-    ```blocks
-        når denne figuren klikkes
-        si [3] i (1) sekunder
-        si [2] i (1) sekunder
-        si [1] i (1) sekunder
-        si [LØP!] i (1) sekunder
-        skjul
-    ```
+  ```blocks
+  når denne figuren klikkes
+  si [3] i (1) sekunder
+  si [2] i (1) sekunder
+  si [1] i (1) sekunder
+  si [LØP!] i (1) sekunder
+  skjul
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -123,11 +123,11 @@ og vi ønsker å vite når kappløpet er over.
 + Sett `kappløp`{.blockdata} til 0 når spillet startes ved å forandre
   `når grønt flagg klikkes`{.blockevents}-skriptet slik:
 
-    ```blocks
-        når grønt flagg klikkes
-        vis
-        sett [kappløp v] til [0]
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  vis
+  sett [kappløp v] til [0]
+  ```
 
 + Når nedtellingen er ferdig og løpet begynner, forandrer vi
   `kappløp`{.blockdata}-verdien til 1. Dette gjør du ved å legge til
@@ -140,12 +140,12 @@ og vi ønsker å vite når kappløpet er over.
   `kappløp`{.blockdata} har verdien 1. Klikk først på papegøyen. Så
   endrer du:
 
-    ```blocks
-        når [a v] trykkes
-        hvis <(kappløp) = [1]>
-            gå (4) steg
-        slutt
-    ```
+  ```blocks
+  når [a v] trykkes
+  hvis <(kappløp) = [1]>
+      gå (4) steg
+  slutt
+  ```
 + Gjenta det samme for løvinnen.
 
 ## Test prosjektet {.flag}
@@ -165,39 +165,39 @@ __Klikk på det grønne flagget.__
 + Legg til en kloss i papegøyens skript som sier `sett kappløp til
   0`{.blockdata} hvis figuren berører kanten av skjermen:
 
-    ```blocks
-        når [a v] trykkes
-        hvis <(kappløp) = [1]>
-            gå (4) steg
-            hvis <berører [kant v]?>
-                sett [kappløp v] til [0]
-            slutt
-        slutt
-    ```
+  ```blocks
+  når [a v] trykkes
+  hvis <(kappløp) = [1]>
+      gå (4) steg
+      hvis <berører [kant v]?>
+          sett [kappløp v] til [0]
+      slutt
+  slutt
+  ```
 
 + Spill så inn en lyd som skal spilles av hvis papegøyen vinner.
 
-    Trykk på `Lyder`-fanen og deretter mikrofon-ikonet og spill inn en
-    morsom trudelutt! Opptaket starter når du har klikket på rundingen
-    slik at den blir rød. Klikk stopp (firkanten) når du er ferdig, og
-    gi lyden et navn – for eksempel `Polly`. Noen nettlesere kan
-    spørre om tillatelse til å spille inn lyd. Hvis du ikke ønsker
-    dette, bruk lydene som følger med figurene.
+  Trykk på `Lyder`-fanen og deretter mikrofon-ikonet og spill inn en
+  morsom trudelutt! Opptaket starter når du har klikket på rundingen
+  slik at den blir rød. Klikk stopp (firkanten) når du er ferdig, og
+  gi lyden et navn – for eksempel `Polly`. Noen nettlesere kan
+  spørre om tillatelse til å spille inn lyd. Hvis du ikke ønsker
+  dette, bruk lydene som følger med figurene.
 
 + Deretter legger du til klossene som spiller lyden og lar papegøyen
   fortelle at den vant:
 
-    ```blocks
-        når [a v] trykkes
-        hvis <(kappløp) = [1]>
-            gå (4) steg
-            hvis <berører [kant v]?>
-                sett [kappløp v] til [0]
-                spill lyden [Polly v]
-                si [Polly vinner!] i (3) sekunder
-            slutt
-        slutt
-    ```
+  ```blocks
+  når [a v] trykkes
+  hvis <(kappløp) = [1]>
+      gå (4) steg
+      hvis <berører [kant v]?>
+          sett [kappløp v] til [0]
+          spill lyden [Polly v]
+          si [Polly vinner!] i (3) sekunder
+      slutt
+  slutt
+  ```
 
 + Gjør tilsvarende for løvinnen.
 
@@ -220,26 +220,26 @@ __Klikk på det grønne flagget.__
 + Klikk på papegøyefiguren og legg til en kloss som sender melding
   `Avslutt` etter at figuren sier den har vunnet.
 
-    ```blocks
-        når [a v] trykkes
-        hvis <(kappløp) = [1]>
-            gå (4) steg
-            hvis <berører [kant v]?>
-                sett [kappløp v] til [0]
-                spill lyden [Polly v]
-                si [Polly vinner! v] i (3) sekunder
-                send melding [Avslutt v]
-            slutt
-        slutt
-    ```
+  ```blocks
+  når [a v] trykkes
+  hvis <(kappløp) = [1]>
+      gå (4) steg
+      hvis <berører [kant v]?>
+          sett [kappløp v] til [0]
+          spill lyden [Polly v]
+          si [Polly vinner! v] i (3) sekunder
+          send melding [Avslutt v]
+      slutt
+  slutt
+  ```
 
 + Vi trenger nå et nytt skript som lytter etter denne
   avslutningsmeldingen og flytter papegøyen tilbake til start.
 
-    ```blocks
-        når jeg mottar [Avslutt v]
-        sett x til (-170)
-    ```
+  ```blocks
+  når jeg mottar [Avslutt v]
+  sett x til (-170)
+  ```
 
 + Gjør det samme for løvinnen. Test forskjellige `x`-verdier for å
   være sikker på at løvinnen og papegøyen starter fra samme sted.
@@ -248,20 +248,20 @@ __Klikk på det grønne flagget.__
   aller første gangen må vi også legge til følgende klosser på begge
   figurene:
 
-    ```blocks
-        når grønt flagg klikkes
-        sett x til (-170)
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  sett x til (-170)
+  ```
 
 + For at spillerne skal kunne klikke i gang nye runder må vi passe på
   at start-knappen kommer tilbake etter hver avsluttet runde. Klikk på
   startknapp-figuren og legg til et skript som viser knappen når
   avslutningsmeldingen blir mottatt.
 
-    ```blocks
-        når jeg mottar [Avslutt v]
-        vis
-    ```
+  ```blocks
+  når jeg mottar [Avslutt v]
+  vis
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -292,20 +292,20 @@ Nedenfor er et forslag til hvordan et rakett-skript kan se ut. Du må
 legge til noen lyder og variabler på egen hånd.
 
 ```blocks
-    når [q v] trykkes
-    hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
-        bytt drakt til [parrot-rakett v]
-        sett [rakett_brukt v] til [1]
-        gå (30) steg
-        spill lyden [motorcycle passing v]
-        hvis <berører [kant v]?>
-            sett [kappløp v] til [0]
-            spill lyden [Polly v]
-            si [Polly vinner! v] i (3) sekunder
-            send melding [Avslutt v]
-        slutt
-        bytt drakt til [parrot-a v]
+når [q v] trykkes
+hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
+    bytt drakt til [parrot-rakett v]
+    sett [rakett_brukt v] til [1]
+    gå (30) steg
+    spill lyden [motorcycle passing v]
+    hvis <berører [kant v]?>
+        sett [kappløp v] til [0]
+        spill lyden [Polly v]
+        si [Polly vinner! v] i (3) sekunder
+        send melding [Avslutt v]
     slutt
+    bytt drakt til [parrot-a v]
+slutt
 ```
 
 ## Test prosjektet {.flag}
@@ -347,28 +347,28 @@ som at vi lager vår egen Scratch-kodekloss!
   kant?`{.blocksensing}-klossen fra skriptet ditt og erstatt også den
   med en `ferdig`{.blockmoreblocks}-kloss.
 
-    ```blocks
-        definer ferdig
-        hvis <berører [kant v]?>
-            sett [kappløp v] til [0]
-            spill lyden [Polly v]
-            si [Polly vinner! v] i (3) sekunder
-            send melding [Avslutt v]
+  ```blocks
+  definer ferdig
+  hvis <berører [kant v]?>
+      sett [kappløp v] til [0]
+      spill lyden [Polly v]
+      si [Polly vinner! v] i (3) sekunder
+      send melding [Avslutt v]
 
-        når [a v] trykkes
-        hvis <(kappløp) = [1]>
-            gå (4) steg
-            ferdig
+  når [a v] trykkes
+  hvis <(kappløp) = [1]>
+      gå (4) steg
+      ferdig
 
-        når [q v] trykkes
-        hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
-            bytt drakt til [parrot-rakett v]
-            sett [rakett_brukt v] til [1]
-            gå (30) steg
-            spill lyden [motorcycle passing v]
-            ferdig
-            bytt drakt til [parrot-a v]
-    ```
+  når [q v] trykkes
+  hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
+      bytt drakt til [parrot-rakett v]
+      sett [rakett_brukt v] til [1]
+      gå (30) steg
+      spill lyden [motorcycle passing v]
+      ferdig
+      bytt drakt til [parrot-a v]
+  ```
 
 + Gjør dette koden din enklere å lese? Kan du lage en tilsvarende
   egendefinert kloss for løvinnen?

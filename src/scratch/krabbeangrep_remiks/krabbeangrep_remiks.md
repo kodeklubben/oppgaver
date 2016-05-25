@@ -86,29 +86,29 @@ figurområdet.
 
 + Endre på skriptene i scenen slik at du har følgende skript:
 
-    ```blocks
-        når grønt flagg klikkes
-        send melding [hovedmeny v]
+  ```blocks
+  når grønt flagg klikkes
+  send melding [hovedmeny v]
 
-        Når jeg mottar [hovedmeny v]
-        bytt bakgrunn til [Hovedmeny v]
-    ```
+  Når jeg mottar [hovedmeny v]
+  bytt bakgrunn til [Hovedmeny v]
+  ```
 
 + Gi startknappen de følgende skriptene (de to første sørger for at
   knappen oppfører seg riktig i starten av spillet, og det siste
   sørger for at startknappen faktisk er en startknapp):
 
-    ```blocks
-        når grønt flagg klikkes
-        skjul
+  ```blocks
+  når grønt flagg klikkes
+  skjul
 
-        når jeg mottar [hovedmeny v]
-        gå til x: (0) y: (0)
-        vis
+  når jeg mottar [hovedmeny v]
+  gå til x: (0) y: (0)
+  vis
 
-        når denne figuren klikkes
-        send melding [nytt spill v]
-    ```
+  når denne figuren klikkes
+  send melding [nytt spill v]
+  ```
 
 + Nå må vi sørge for at resten av figurene oppfører seg som vi vil
   både når flagget klikkes, når hovedmenyen skal vises og når

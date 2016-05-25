@@ -24,17 +24,17 @@ ikke går i nettet.
 + Pusle sammen de følgende klossene i skriptområdet til høyre på
   skjermen.
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (0) y: (0)
-        for alltid
-            pek mot [musepeker v]
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (0) y: (0)
+  for alltid
+      pek mot [musepeker v]
+  slutt
+  ```
 
-    Dette er et eksempel på et lite program, eller skript som det
-    kalles i Scratch. Dette skriptet sier at kattefiguren skal stå
-    midt på skjermen og alltid peke mot, eller se mot, musepekeren.
+  Dette er et eksempel på et lite program, eller skript som det
+  kalles i Scratch. Dette skriptet sier at kattefiguren skal stå
+  midt på skjermen og alltid peke mot, eller se mot, musepekeren.
 
 ## Test prosjektet {.flag}
 
@@ -72,17 +72,17 @@ slik at det ser ut som om den løper i sirkel i stedet for å rotere.
 + Gjør katten mindre ved å klikke på den i det store bildet, og
   deretter dra i et av hjørnene.
 
-    ![](katt_krymp.png)
+  ![](katt_krymp.png)
 
 + Roter deretter katten ved å dra i den lille rundingen over katten.
 
-    ![](katt_roter.png)
+  ![](katt_roter.png)
 
 + Til slutt kan du ta tak i kattefiguren ved å klikke på den lille
   rundingen midt på katten. Flytt den et stykke til siden. Følg med på
   scenen øverst til venstre at du ikke drar den av skjermen.
 
-    ![](katt_flytt.png)
+  ![](katt_flytt.png)
 
 ## Test prosjektet {.flag}
 
@@ -136,27 +136,27 @@ katten løper rundt dette punktet i stedet for at den bare roterer uten
   på skjermen. Deretter går den inn i en løkke hvor den flytter seg
   litt, og snur om katten kommer borti den.
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (0) y: (0)
-        for alltid
-            gå (3) steg
-            hvis <berører [Katt v] ?>
-                pek i retning ((180) + (retning))
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (0) y: (0)
+  for alltid
+      gå (3) steg
+      hvis <berører [Katt v] ?>
+          pek i retning ((180) + (retning))
+      slutt
+  slutt
+  ```
 
-    Klossen `retning`{.blockmotion} finner du helt nederst i
-    `Bevegelse`{.blockmotion}-kategorien.
+  Klossen `retning`{.blockmotion} finner du helt nederst i
+  `Bevegelse`{.blockmotion}-kategorien.
 
 + Skjønner du hvorfor
 
-    ```blocks
-        pek i retning ((180) + (retning))
-    ```
+  ```blocks
+  pek i retning ((180) + (retning))
+  ```
 
-    gjør at ballen snur? Vi vil se nærmere på dette i Steg 6.
+  gjør at ballen snur? Vi vil se nærmere på dette i Steg 6.
 
 ## Test prosjektet {.flag}
 
@@ -192,25 +192,25 @@ __Klikk på det grønne flagget.__
 + Tegn en liten loddrett strek til høyre på figuren din. Hold gjerne
   inne `Skift`-knappen, da får du en helt loddrett strek.
 
-    ![](tegn_nett.png)
+  ![](tegn_nett.png)
 
 + Klikk på `Skript`{.blocklightgrey}-fanen.
 
 + Vi skal nå tegne et sirkelformet nett ved å stemple denne figuren på
   bakgrunnen. Lag det følgende skriptet:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (0) y: (0)
-        gjenta (36) ganger
-            vend venstre (10) grader
-            stemple avtrykk
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (0) y: (0)
+  gjenta (36) ganger
+      vend venstre (10) grader
+      stemple avtrykk
+  slutt
+  ```
 
-    `stemple avtrykk`{.blockpen} stempler en figur på bakgrunnen
-    slik at den blir der. Du kan fjerne slike avtrykk ved å bruke
-    `slett`{.blockpen}-klossen.
+  `stemple avtrykk`{.blockpen} stempler en figur på bakgrunnen
+  slik at den blir der. Du kan fjerne slike avtrykk ved å bruke
+  `slett`{.blockpen}-klossen.
 
 ## Test prosjektet {.flag}
 
@@ -240,19 +240,19 @@ truffet nettet. Det skal vi gjøre nå.
   oppdage at ballen treffer nettet. Legg til nye klosser i skriptet
   ditt slik at det blir seende slik ut:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (0) y: (0)
-        for alltid
-            gå (3) steg
-            hvis <berører [Katt v] ?>
-                pek i retning ((180) + (retning))
-            slutt
-            hvis <berører fargen [#ff0000] ?>
-                stopp [alle v] :: control
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (0) y: (0)
+  for alltid
+      gå (3) steg
+      hvis <berører [Katt v] ?>
+          pek i retning ((180) + (retning))
+      slutt
+      hvis <berører fargen [#ff0000] ?>
+          stopp [alle v] :: control
+      slutt
+  slutt
+  ```
 
 + For å få riktig farge i `berører fargen`{.blocksensing}-klossen
   klikker du først på den lille firkanten hvor fargen vises. Deretter
@@ -290,7 +290,7 @@ I figuren over og i koden videre betyr `retning`{.blockmotion} retningen
 til ballen, siden koden tilhører ballfiguren.  Så langt har vi brukt
 
 ```blocks
-    pek i retning ((180) + (retning))
+pek i retning ((180) + (retning))
 ```
 
 for at ballen skal snu. I figuren ser vi at dette betyr at ballen
@@ -302,30 +302,30 @@ katt`{.blocksensing}). Skjønner du hvorfor av figuren? Da blir den
 nye retningen
 
 ```blocks
-    (((180) + (retning)) - ((2) * ((retning) - ([retning v] av [Katt v])))
+(((180) + (retning)) - ((2) * ((retning) - ([retning v] av [Katt v])))
 ```
 
 Vi kan forenkle dette til
 
 ```blocks
-    (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+(((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
 ```
 
 + Endre i skriptet til ballen slik at spretten blir bedre,
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (0) y: (0)
-        for alltid
-            gå (3) steg
-            hvis <berører [Katt v] ?>
-                pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
-            slutt
-            hvis <berører fargen [#ff0000] ?>
-                stopp [alle v] :: control
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (0) y: (0)
+  for alltid
+      gå (3) steg
+      hvis <berører [Katt v] ?>
+          pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+      slutt
+      hvis <berører fargen [#ff0000] ?>
+          stopp [alle v] :: control
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -373,21 +373,21 @@ starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
 
 + Legg på to nye klosser i skriptet som styrer ballen:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (0) y: (0)
-        sett [Poeng v] til [0]
-        for alltid
-            gå (3) steg
-            hvis <berører [Katt v] ?>
-                pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
-                endre [Poeng v] med (1)
-            slutt
-            hvis <berører fargen [#ff0000] ?>
-                stopp [alle v] :: control
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (0) y: (0)
+  sett [Poeng v] til [0]
+  for alltid
+      gå (3) steg
+      hvis <berører [Katt v] ?>
+          pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+          endre [Poeng v] med (1)
+      slutt
+      hvis <berører fargen [#ff0000] ?>
+          stopp [alle v] :: control
+      slutt
+  slutt
+  ```
 
 # Ekstra 2: Øk hastigheten {.activity}
 
@@ -399,7 +399,7 @@ starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
 Hastigheten på ballen styres nå av klossen
 
 ```blocks
-    gå (3) steg
+gå (3) steg
 ```
 
 Ved å endre på `3`-tallet endrer vi hastigheten på ballen. Prøv dette
@@ -413,32 +413,32 @@ selv!
   boksen på scenen ved å fjerne avhukingen ved siden av
   `Hastighet`{.blockdata}.
 
-    ![](variabel.png)
+  ![](variabel.png)
 
 + Vi vil nå sette hastigheten til `3` (du kan bruke et annet tall om
   du vil) når spillet starter. Deretter vil vi øke denne littegrann
   hver gang katten berører ballen. Dette gjør vi på samme måte som når
   vi teller poeng.
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (0) y: (0)
-        sett [Poeng v] til [0]
-        sett [Hastighet v] til [3]
-        for alltid
-            gå (hastighet) steg
-            hvis <berører [Katt v] ?>
-                pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
-                endre [Poeng v] med (1)
-                endre [Hastighet v] med (0.1)
-            slutt
-            hvis <berører fargen [#ff0000] ?>
-                stopp [alle v] :: control
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (0) y: (0)
+  sett [Poeng v] til [0]
+  sett [Hastighet v] til [3]
+  for alltid
+      gå (hastighet) steg
+      hvis <berører [Katt v] ?>
+          pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+          endre [Poeng v] med (1)
+          endre [Hastighet v] med (0.1)
+      slutt
+      hvis <berører fargen [#ff0000] ?>
+          stopp [alle v] :: control
+      slutt
+  slutt
+  ```
 
-    Pass på at du også endrer `gå steg`{.blockmotion}-klossen.
+  Pass på at du også endrer `gå steg`{.blockmotion}-klossen.
 
 # Ekstra 3: Unngå at katten fanger ballen {.activity}
 
@@ -464,25 +464,25 @@ sist snudde.
 + Utvid skriptet ditt som under. Legg spesielt merke til at
   `hvis`{.blockcontrol}-testen har blitt utvidet.
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (0) y: (0)
-        sett [Poeng v] til [0]
-        sett [Hastighet v] til [3]
-        for alltid
-            gå (hastighet) steg
-            endre [Flytt v] med (1)
-            hvis <<berører [Katt v] ?> og <(Flytt) > [20]>>
-                pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
-                endre [Poeng v] med (1)
-                endre [Hastighet v] med (0.1)
-                sett [Flytt v] til [0]
-            slutt
-            hvis <berører fargen [#ff0000] ?>
-                stopp [alle v] :: control
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (0) y: (0)
+  sett [Poeng v] til [0]
+  sett [Hastighet v] til [3]
+  for alltid
+      gå (hastighet) steg
+      endre [Flytt v] med (1)
+      hvis <<berører [Katt v] ?> og <(Flytt) > [20]>>
+          pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+          endre [Poeng v] med (1)
+          endre [Hastighet v] med (0.1)
+          sett [Flytt v] til [0]
+      slutt
+      hvis <berører fargen [#ff0000] ?>
+          stopp [alle v] :: control
+      slutt
+  slutt
+  ```
 
 ## Prøv selv {.try}
 

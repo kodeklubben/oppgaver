@@ -95,9 +95,9 @@ Hyggelig å treffe deg, Per!
 
 Dette må du gjøre:
 
- * Spør om brukerens navn.
- * Lagre brukerens navn i en variabel.
- * Skriv ut en hilsen til brukeren som inneholder navnet brukeren skrev inn.
+* Spør om brukerens navn.
+* Lagre brukerens navn i en variabel.
+* Skriv ut en hilsen til brukeren som inneholder navnet brukeren skrev inn.
 
 # if-elif-else {.activity}
 
@@ -204,9 +204,9 @@ Kim
 
 Dette du må gjøre:
 
- * Lag ei liste med navn.
- * Bruk ei løkke for å gå igjennom lista med navn.
- * Skriv ut hvert navn.
+* Lag ei liste med navn.
+* Bruk ei løkke for å gå igjennom lista med navn.
+* Skriv ut hvert navn.
 
 # range() {.protip}
 
@@ -214,11 +214,11 @@ Dette du må gjøre:
 ganger med hjelp av en `for`- eller `while`-løkke. `range()` tar inn tre
 argumenter `start`, `stop`, `step`:
 
- * `start` forteller hva vi skal telle fra.
- * `stop` forteller hva vi skal telle til, merk at vi **ikke** teller
-    med slutt-tallet.
- * `step` forteller hvor store steg vi skal telle med. Vi kan for eksempel
-    telle med steg på `2` eller steg på `100`.
+* `start` forteller hva vi skal telle fra.
+* `stop` forteller hva vi skal telle til, merk at vi **ikke** teller
+  med slutt-tallet.
+* `step` forteller hvor store steg vi skal telle med. Vi kan for eksempel
+  telle med steg på `2` eller steg på `100`.
 
 Ettersom rekken lages etterhvert som man teller over den, må man konvertere
 rekken til en liste dersom vi ønsker å se tallene i rekken. Rekken konverteres
@@ -276,11 +276,11 @@ Skriv et program som summerer alle tallene fra `1` til `100` ved hjelp av ei
 
 Dette må du gjøre:
 
- * Lag en variabel som inneholder summen.
- * Lag en tellevariabel som inneholder tallet du er kommet til.
- * Så lenge tellevariabelen ikke er større enn 100:
-    * Oppdater summen.
-    * Inkrementer tellevariabelen din.
+* Lag en variabel som inneholder summen.
+* Lag en tellevariabel som inneholder tallet du er kommet til.
+* Så lenge tellevariabelen ikke er større enn 100:
+  * Oppdater summen.
+  * Inkrementer tellevariabelen din.
 
 # Funksjoner {.activity}
 
@@ -326,7 +326,7 @@ Fikk inn 3 og 4
 
 Dette må du gjøre:
 
- * Definer en funksjon som tar inn to tall som parametre.
- * Skriv ut tallene du fikk inn.
- * Regn ut summen.
- * Returner summen.
+* Definer en funksjon som tar inn to tall som parametre.
+* Skriv ut tallene du fikk inn.
+* Regn ut summen.
+* Returner summen.

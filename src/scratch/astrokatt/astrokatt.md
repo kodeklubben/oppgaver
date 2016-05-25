@@ -25,18 +25,18 @@ Vi begynner prosjektet vårt med å få katten til å fly!
 + Prøv å klikk på de blå klossene midt på skjermen. For eksempel, om
   du klikker på
 
-    ```blocks
-        gå (10) steg
-    ```
+  ```blocks
+  gå (10) steg
+  ```
 
-    skal du se at katten flytter litt på seg, og om du klikker på
+  skal du se at katten flytter litt på seg, og om du klikker på
 
-    ```blocks
-        vend høyre (15) grader
-    ```
+  ```blocks
+  vend høyre (15) grader
+  ```
 
-    vil den snu seg! Disse klossene er kommandoer vi kan gi til
-    katten!
+  vil den snu seg! Disse klossene er kommandoer vi kan gi til
+  katten!
 
 + Legg merke til at at over de blå klossene er det flere kategorier av
   kommandoer i forskjellige farger, for eksempel
@@ -46,16 +46,16 @@ Vi begynner prosjektet vårt med å få katten til å fly!
 + For å sette sammen flere kommandoer til et skript kan du dra klosser
   til det store tomme området til høyre på skjermen.
 
-    Prøv å pusle sammen disse klossene (bruk fargene for å finne
-    riktig kategori):
+  Prøv å pusle sammen disse klossene (bruk fargene for å finne
+  riktig kategori):
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            gå (10) steg
-            vend høyre (15) grader
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      gå (10) steg
+      vend høyre (15) grader
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -76,22 +76,22 @@ grønt flagg. __Klikk på det!__
   kloss som reagerer når en tast er trykket. Den kan vi bruke til å
   styre katten med piltastene.
 
-    Bytt ut klossene i koden din slik at den blir seende slik ut:
+  Bytt ut klossene i koden din slik at den blir seende slik ut:
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            hvis <tast [pil høyre v] trykket?>
-                vend høyre (5) grader
-            slutt
-            hvis <tast [pil venstre v] trykket?>
-                vend venstre (5) grader
-            slutt
-            hvis <tast [pil opp v] trykket?>
-                gå (5) steg
-            slutt
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      hvis <tast [pil høyre v] trykket?>
+          vend høyre (5) grader
+      slutt
+      hvis <tast [pil venstre v] trykket?>
+          vend venstre (5) grader
+      slutt
+      hvis <tast [pil opp v] trykket?>
+          gå (5) steg
+      slutt
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -120,7 +120,7 @@ Nå skal vi sende den flyvende katten ut i verdensrommet.
 + Velg først en litt lys farge. Klikk deretter på Ellipse-verktøyet
   til høyre på skjermen, og tegn en ellipse rundt hodet på katten.
 
-    ![](katt_oksygentank.png)
+  ![](katt_oksygentank.png)
 
 Til slutt lager vi også en jordklode, som katten kan fly rundt.
 
@@ -145,37 +145,37 @@ realistisk.
   allerede gjort det for katten! Pass på at jordkloden er merket i
   figurlisten, og lag deretter dette skriptet:
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            vend høyre (1) grader
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      vend høyre (1) grader
+  slutt
+  ```
 
 + Videre skal vi gjøre det slik at det ser ut som om katten flyr mot
   jorda. Det gjør vi ved å endre størrelsen slik at katten blir mindre
   jo nærmere den kommer jordkloden.
 
-    Klikk på katten i figurlisten. Legg `sett størrelse
-    til`{.blocklooks} nederst i `for alltid`{.blockcontrol}-løkka,
-    slik at størrelsen på katten er avhengig av avstanden til
-    jordkloden:
+  Klikk på katten i figurlisten. Legg `sett størrelse
+  til`{.blocklooks} nederst i `for alltid`{.blockcontrol}-løkka,
+  slik at størrelsen på katten er avhengig av avstanden til
+  jordkloden:
 
-    ```blocks
-        når grønt flagg klikkes
-        for alltid
-            hvis <tast [pil høyre v] trykket?>
-                vend høyre (5) grader
-            slutt
-            hvis <tast [pil venstre v] trykket?>
-                vend venstre (5) grader
-            slutt
-            hvis <tast [pil opp v] trykket?>
-                gå (5) steg
-            slutt
-            sett størrelse til (avstand til [Earth v])%
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  for alltid
+      hvis <tast [pil høyre v] trykket?>
+          vend høyre (5) grader
+      slutt
+      hvis <tast [pil venstre v] trykket?>
+          vend venstre (5) grader
+      slutt
+      hvis <tast [pil opp v] trykket?>
+          gå (5) steg
+      slutt
+      sett størrelse til (avstand til [Earth v])%
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -191,19 +191,19 @@ __Klikk på det grønne flagget.__
   katten flytter seg med. Når den er langt unna oss flytter den seg
   ikke like mange steg. Bytt ut
 
-    ```blocks
-        gå (5) steg
-    ```
+  ```blocks
+  gå (5) steg
+  ```
 
-    med
+  med
 
-    ```blocks
-        gå ((avstand til [Earth v]) / (50)) steg
-    ```
+  ```blocks
+  gå ((avstand til [Earth v]) / (50)) steg
+  ```
 
-    Denne klossen er litt komplisert fordi den er satt sammen av tre
-    forskjellige klosser. Se på fargene så finner du de riktige
-    klossene.
+  Denne klossen er litt komplisert fordi den er satt sammen av tre
+  forskjellige klosser. Se på fargene så finner du de riktige
+  klossene.
 
 + Av og til vil katten fly bak jordkloden. For å slippe det kan du
   legge klossen `legg øverst`{.blocklooks} først i katten sitt
@@ -229,14 +229,14 @@ med. Vi kan la astrokatten vår bli påvirket av gravitasjonen også.
 + Lag et nytt skript på katten. Du kan bare legge klossene ved siden
   av det skriptet du allerede har laget. Skriptet skal se slik ut:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (-200) y: (150)
-        for alltid
-            pek mot [Earth v]
-            gå (1) steg
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (-200) y: (150)
+  for alltid
+      pek mot [Earth v]
+      gå (1) steg
+  slutt
+  ```
 
 + Når du tester programmet ditt ved å klikke på det grønne flagget,
   vil du se at katten svever mot jordkloden. Gravitasjonen trekker på
@@ -244,32 +244,32 @@ med. Vi kan la astrokatten vår bli påvirket av gravitasjonen også.
 
 + MEN, vi har et problem: Vi kan ikke lengre styre katten! Hva har skjedd?
 
-    I det nye skriptet sier vi at katten `for alltid`{.blockcontrol}
-    skal `peke mot`{.blockmotion} jordkloden. Da hjelper det jo ikke
-    at vi i det andre skriptet sier at katten skal snu seg.
+  I det nye skriptet sier vi at katten `for alltid`{.blockcontrol}
+  skal `peke mot`{.blockmotion} jordkloden. Da hjelper det jo ikke
+  at vi i det andre skriptet sier at katten skal snu seg.
 
 + Det er ingen kommando i Scratch for å flytte en figur mot en
   annen. Derfor må vi peke katten mot jordkloden og deretter flytte
   den. Men vi kan få programmet til å virke igjen, hvis vi bare husker
   hvilken retning katten pekte før vi snudde den.
 
-    For at programmer skal huske ting bruker vi variabler. Lag en
-    variabel ved å klikke på `Data`{.blockdata}-kategorien og deretter
-    på `Lag en variabel`. Kall variabelen `katteretning`.
+  For at programmer skal huske ting bruker vi variabler. Lag en
+  variabel ved å klikke på `Data`{.blockdata}-kategorien og deretter
+  på `Lag en variabel`. Kall variabelen `katteretning`.
 
 + Vi kan nå bruke denne variabelen til å huske hvilken retning katten
   pekte. Endre skriptet ditt ved å legge til to nye klosser:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå til x: (-200) y: (150)
-        for alltid
-            sett [katteretning v] til (retning)
-            pek mot [Earth v]
-            gå (1) steg
-            pek i retning (katteretning)
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå til x: (-200) y: (150)
+  for alltid
+      sett [katteretning v] til (retning)
+      pek mot [Earth v]
+      gå (1) steg
+      pek i retning (katteretning)
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -284,7 +284,7 @@ __Klikk på det grønne flagget.__
   kraftigere jo nærmere jorda man er. Og når katten kommer nært jorda
   har den ikke nok hastighet til å unnslippe jordas gravitasjon.
 
-    Hvordan kan du endre på jordas gravitasjon og kattens hastighet?
+  Hvordan kan du endre på jordas gravitasjon og kattens hastighet?
 
 ## Lagre spillet {.save}
 

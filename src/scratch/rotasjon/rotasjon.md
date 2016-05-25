@@ -38,9 +38,9 @@ Vi skal nå gi Scratch beskjed om å `rotere`{.blockmotion} hatten 90 grader.
 
 + Legg til følgende skript på `Hattulf`-figuren din.
 
-    ```blocks
-        når grønt flagg klikkes
-    vend høyre (90) grader
+  ```blocks
+  når grønt flagg klikkes
+  vend høyre (90) grader
   ```
 
 ## Test prosjektet {.flag}
@@ -58,9 +58,9 @@ Rotasjon er jo gøy! Men at ting roterer med 90 grader av gangen er jo litt kjed
 
 + Halver antall grader hatten skal rotere per gang:
 
-    ```blocks
-        når grønt flagg klikkes
-    vend høyre (45) grader
+  ```blocks
+  når grønt flagg klikkes
+  vend høyre (45) grader
   ```
 
 ## Test prosjektet {.flag}
@@ -81,9 +81,9 @@ Heldigvis kan vi ved hjelp av litt programmeringsmagi få datamaskinen til å gj
 + Vi legger til en `styring`{.blockcontrol}-kloss som ber hatten om å rotere et bestemt antall ganger:
 
   ```blocks
-        når grønt flagg klikkes
-    gjenta (8) ganger
-    vend høyre (45) grader
+  når grønt flagg klikkes
+  gjenta (8) ganger
+  vend høyre (45) grader
   ```
 
 + Tips: For hver gang du halverer vinkelen, må du doble antall repetisjoner for at hatten skal snurre like langt.

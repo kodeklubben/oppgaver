@@ -32,33 +32,33 @@ mange linjer.
 
 * Lagre det følgende programmet som skilpaddetekst.py, og se hva som skjer.
 
-    ```python
-    from turtle import *
+  ```python
+  from turtle import *
 
 
-    TEXT = """
-    ______      _   _
-    | ___ \    | | | |
-    | |_/ /   _| |_| |__   ___  _ __
-    |  __/ | | | __| '_ \ / _ \| '_ \\
-    | |  | |_| | |_| | | | (_) | | | |
-    \_|   \__, |\__|_| |_|\___/|_| |_|
-           __/ |
-          |___/
-    """
+  TEXT = """
+  ______      _   _
+  | ___ \    | | | |
+  | |_/ /   _| |_| |__   ___  _ __
+  |  __/ | | | __| '_ \ / _ \| '_ \\
+  | |  | |_| | |_| | | | (_) | | | |
+  \_|   \__, |\__|_| |_|\___/|_| |_|
+         __/ |
+        |___/
+  """
 
-    print(TEXT)
-    ```
+  print(TEXT)
+  ```
 
-    Du skal nå se teksten printet ut i IDLE, men kan vi ikke få skilpadden til å skrive den for oss?
+  Du skal nå se teksten printet ut i IDLE, men kan vi ikke få skilpadden til å skrive den for oss?
 
 * Når vi skal skrive teksten med skilpadden, er det lettest å gjøre dette linje for linje, og det er derfor lettere om vi deler opp `TEXT` i en liste med enkeltlinjer. Til dette bruker vi `TEXT.split('\n')` som deler opp `TEXT` i flere linjer, og lagre denne i variabelen `LINES`.
 
-    ```python
-    LINES = TEXT.split('\n')
+  ```python
+  LINES = TEXT.split('\n')
 
-    print(LINES)
-    ```
+  print(LINES)
+  ```
 
 # Steg 2: Tegn med skilpadden {.activity}
 
@@ -73,51 +73,51 @@ Tenk deg at boksene er i svart, og vi lager rød skrift. Da vil det se slik ut:
 
 * Vi begynner med å legge til størrelsen på tegnene, slik:
 
-    (Pass på at denne koden ligger i samme fil som `TEXT`-variabelen.)
+  (Pass på at denne koden ligger i samme fil som `TEXT`-variabelen.)
 
-    ```python
-    SIZE  = 15
-    ```
+  ```python
+  SIZE  = 15
+  ```
 
-    `SIZE` er nå en variabel som inneholder størrelsen på boksen vår.
+  `SIZE` er nå en variabel som inneholder størrelsen på boksen vår.
 
 * Vi lager en funksjon `underline` for å lage en understrek:
 
-    ```python
-    def underline():
-        penup()
+  ```python
+  def underline():
+      penup()
 
-        # Beveg skilpadden ned til bunnen av boksen
-        right(90)
-        forward(SIZE)
-        left(90)
+      # Beveg skilpadden ned til bunnen av boksen
+      right(90)
+      forward(SIZE)
+      left(90)
 
-        # tegn understreken
-        pendown()
-        forward(SIZE)
-        penup()
+      # tegn understreken
+      pendown()
+      forward(SIZE)
+      penup()
 
-        # beveg skilpadden opp til hjørnet øverst til høyre
-        left(90)
-        forward(SIZE)
-        right(90)
-    ```
+      # beveg skilpadden opp til hjørnet øverst til høyre
+      left(90)
+      forward(SIZE)
+      right(90)
+  ```
 
 * Kjør koden, og se hva som skjer:
 
-    ```python
-    underline()
-    ```
+  ```python
+  underline()
+  ```
 
 * Hva om vi ønsker å lage 10 understreker?
 
-    ```python
-    for n in range(10):
-        underline()
-    ```
+  ```python
+  for n in range(10):
+      underline()
+  ```
 
-    Det skal se slik ut, hvis du du ikke har feil i koden:
-    ![](turtle_underline.png)
+  Det skal se slik ut, hvis du du ikke har feil i koden:
+  ![](turtle_underline.png)
 
 * Hva skjer hvis du endrer størrelsen på "boksen"? Prøv å endre på `SIZE` variabelen, og se hva som skjer. (Prøv for eksempel 5 og 50)
 
@@ -129,36 +129,36 @@ La oss prøve å lage tegnet `|`. Dette er rett og slett bare en rett strek som 
 
 * Vi lager funksjonen `bar` for å tegne `|`.
 
-    ```python
-    def bar():
-        penup()
+  ```python
+  def bar():
+      penup()
 
-        # flytt til midten av boksen
-        forward(SIZE/2)
-        right(90)
+      # flytt til midten av boksen
+      forward(SIZE/2)
+      right(90)
 
-        # tegn en strek nedover
-        pendown()
-        forward(SIZE)
-        penup()
+      # tegn en strek nedover
+      pendown()
+      forward(SIZE)
+      penup()
 
-        # flytt skilpadden til hjørnet øverst til høyre
-        left(180)
-        forward(SIZE)
-        right(90)
-        forward(SIZE/2)
-    ```
+      # flytt skilpadden til hjørnet øverst til høyre
+      left(180)
+      forward(SIZE)
+      right(90)
+      forward(SIZE/2)
+  ```
 
 * Endre `for`-løkka vi lagde tidligere til å inneholde dette
 
-    ```python
-    for n in range(10):
-        bar()
-    ```
+  ```python
+  for n in range(10):
+      bar()
+  ```
 
 * Tegner skilpadden nå strekene på samme linje, slik som på bildet?
 
-    ![](turtle_bars.png)
+  ![](turtle_bars.png)
 
 # Steg 4: Skilpaddetegn på flere linjer {.activity}
 
@@ -171,34 +171,34 @@ For å kunne lage en ny linje  må funksjonen vite hvor mange tegn den skal gå 
 
 * Skriv inn koden under:
 
-    ```python
-    def newline(lineLength):
-        penup()
+  ```python
+  def newline(lineLength):
+      penup()
 
-        right(90)
-        forward(SIZE)
-        right(90)
+      right(90)
+      forward(SIZE)
+      right(90)
 
-        forward(SIZE*lineLength)
+      forward(SIZE*lineLength)
 
-        right(180)
-    ```
+      right(180)
+  ```
 
-    Denne koden går først ned til linjen under, så går den tilbake begynnelsen av linjen. Legg merke til at vi kaller `forward` med `SIZE*lineLength` som argumenter. `lineLength` er hvor mange tegn som er på linjen vi kom fra, og `SIZE` er hvor stort hvert tegn er - dermed må skilpadden flytte seg `SIZE*lineLength` piksler tilbake.
+  Denne koden går først ned til linjen under, så går den tilbake begynnelsen av linjen. Legg merke til at vi kaller `forward` med `SIZE*lineLength` som argumenter. `lineLength` er hvor mange tegn som er på linjen vi kom fra, og `SIZE` er hvor stort hvert tegn er - dermed må skilpadden flytte seg `SIZE*lineLength` piksler tilbake.
 
 * For å teste koden vår erstatter vi de tidligere `for`-løkkene med denne koden (pass på at dette blir plassert nederst i filen):
 
-    ```python
-    for i in range(10):
-        underline()
-    newline(10)
-    for i in range(15):
-        bar()
-    ```
+  ```python
+  for i in range(10):
+      underline()
+  newline(10)
+  for i in range(15):
+      bar()
+  ```
 
-    Legg merke til at `newline` blir fortalt hvor mange tegn som ble skrevet på linjen over, ikke hvor mange som skal bli skrevet på linjen under!
+  Legg merke til at `newline` blir fortalt hvor mange tegn som ble skrevet på linjen over, ikke hvor mange som skal bli skrevet på linjen under!
 
-    Dette skal se omtrent slik ut: ![](turtle_newline.png)
+  Dette skal se omtrent slik ut: ![](turtle_newline.png)
 
 
 # Steg 5: Skilpadder på skråplanet {.activity}
@@ -213,50 +213,50 @@ Her skal du bare få svaret og slippe å regne det ut selv. Diagonalen i boksene
 
 * Koden for en 'slash' - `/` blir slik:
 
-    ```python
-    def slash():
-        penup()
-        right(90)
-        forward(SIZE)
-        left(135)
+  ```python
+  def slash():
+      penup()
+      right(90)
+      forward(SIZE)
+      left(135)
 
-        pendown()
-        forward((2*SIZE**2)**0.5)
-        penup()
+      pendown()
+      forward((2*SIZE**2)**0.5)
+      penup()
 
-        right(45)
-    ```
+      right(45)
+  ```
 
 * Koden for en 'backslash' - `\` blir slik:
 
-    ```python
-    def backslash(): # \
-        penup()
-        right(45)
+  ```python
+  def backslash(): # \
+      penup()
+      right(45)
 
-        pendown()
-        forward((2*SIZE**2)**0.5)
-        penup()
+      pendown()
+      forward((2*SIZE**2)**0.5)
+      penup()
 
-        left(135)
-        forward(SIZE)
-        right(90)
-    ```
+      left(135)
+      forward(SIZE)
+      right(90)
+  ```
 
 * La oss endre på `for`-løkkene våre, og teste at koden blir korrekt (pass på at denne koden fremdeles ligger nederst).
 
-    ```python
-    length = 10
-    for i in range(length):
-        backslash()
-    newline(length)
-    for i in range(length):
-        slash()
-    ```
+  ```python
+  length = 10
+  for i in range(length):
+      backslash()
+  newline(length)
+  for i in range(length):
+      slash()
+  ```
 
-    Denne gangen skal mønsteret bli slik: ![](turtle_slashes.png)
+  Denne gangen skal mønsteret bli slik: ![](turtle_slashes.png)
 
-    Nå er vi nesten ferdige! Bare litt igjen nå...
+  Nå er vi nesten ferdige! Bare litt igjen nå...
 
 # Steg 6: Skilpaddetekst {.activity}
 
@@ -266,81 +266,81 @@ Vi trenger en funksjon for å skrive blanke tegn, og  vi trenger å oversette fr
 
 * For å skrive blanke tegn, så må vi, enkelt og greit, bare bevege oss til neste boks. Det gjør vi slik:
 
-    ```python
-    def blank():
-        forward(SIZE)
-    ```
+  ```python
+  def blank():
+      forward(SIZE)
+  ```
 
 * For å oversette fra teksttegn til funksjoner kommer vi til å bruke en dictionary. Dictionary betyr ordbok, og det er akkurat slik den fungerer. Vi "slår opp" noe i ordboka, og får noe tilbake. I vårt tilfelle skal vi slå opp på tegn, og få en funksjon tilbake igjen.
 
-    Først lager vi ordboka:
+  Først lager vi ordboka:
 
-    ```python
-    MOVES = {
-        " " : blank,
-        "_" : underline,
-        "/" : slash,
-        "|" : bar,
-        "\\": backslash,
+  ```python
+  MOVES = {
+      " " : blank,
+      "_" : underline,
+      "/" : slash,
+      "|" : bar,
+      "\\": backslash,
 
-        "(" : bar,
-        ")" : bar,
-        "'" : blank,
-        "," : blank
-    }
-    ```
-    Nå kan vi slå opp på tegnet `-` og få funksjonen `underline` tilbake. Det kan vi for eksempel gjøre slik:
+      "(" : bar,
+      ")" : bar,
+      "'" : blank,
+      "," : blank
+  }
+  ```
+  Nå kan vi slå opp på tegnet `-` og få funksjonen `underline` tilbake. Det kan vi for eksempel gjøre slik:
 
-    ```python
-    function = MOVES["_"]
-    ```
+  ```python
+  function = MOVES["_"]
+  ```
 
-    Når vi så kaller `function`, vil den gjøre det samme som `underline`
-    ```python
-    function = MOVES["_"]
-    function()
-    ```
+  Når vi så kaller `function`, vil den gjøre det samme som `underline`
+  ```python
+  function = MOVES["_"]
+  function()
+  ```
 
-    Dersom vi ønsker å sjekke om et tegn er i ordboka, så kan vi sjekke det slik:
-    ```python
-    if "_" in MOVES:
-        function = MOVES["_"]
-    ```
+  Dersom vi ønsker å sjekke om et tegn er i ordboka, så kan vi sjekke det slik:
+  ```python
+  if "_" in MOVES:
+      function = MOVES["_"]
+  ```
 
 * Nå kan vi lage en ny funksjon, `create_text` som lager teksten vår.
 
-    For å passe på at vi får plass til all teksten vår, ønsker vi å begynne øverst til venstre i vinduet vårt. Dette kan vi fikse ved hjelp av `setx` og `sety` som lar oss flytte skilpadden til den posisjonen vi ønsker.
+  For å passe på at vi får plass til all teksten vår, ønsker vi å begynne øverst til venstre i vinduet vårt. Dette kan vi fikse ved hjelp av `setx` og `sety` som lar oss flytte skilpadden til den posisjonen vi ønsker.
 
-    ```python
-    def create_text():
-        penup()
-        setx(-window_width()/2)
-        sety(window_height()/2)
+  ```python
+  def create_text():
+      penup()
+      setx(-window_width()/2)
+      sety(window_height()/2)
 
-        for line in LINES:
-            for char in line:
-                if char in MOVES:
-                    move = MOVES[char]
-                else:
-                    move = blank
-                move()
-            newline(len(line))
-    ```
+      for line in LINES:
+          for char in line:
+              if char in MOVES:
+                  move = MOVES[char]
+              else:
+                  move = blank
+              move()
+          newline(len(line))
+  ```
 
-    Som du kanskje ser, så har vi en `for`-løkke inni en annen `for`-løkke. Den ytterste (første) `for`-løkka går igjennom alle linjene i `LINES`, mens den innerste går igjennom alle tegnene i hver linje. Inni den innerste `for`-løkka sjekker vi om vi har en funksjon for tegnet, og hvis vi ikke har det så hopper vi bare over det ved å skrive et blankt tegn i stedenfor.
+  Som du kanskje ser, så har vi en `for`-løkke inni en annen `for`-løkke. Den ytterste (første) `for`-løkka går igjennom alle linjene i `LINES`, mens den innerste går igjennom alle tegnene i hver linje. Inni den innerste `for`-løkka sjekker vi om vi har en funksjon for tegnet, og hvis vi ikke har det så hopper vi bare over det ved å skrive et blankt tegn i stedenfor.
 
 * For å kjøre funksjonen vår, lager vi en `main`-funksjon som sørger for å sette riktig fart og riktig linjebredde.
 
-    ```python
-    def main():
-        shape("turtle")
+  ```python
+  def main():
+      shape("turtle")
 
-        speed(11)
-        width(5)
-        create_text()
+      speed(11)
+      width(5)
+      create_text()
 
-    main()
-    ```
+  main()
+  ```
 
 * Kjør koden og se resultatet ditt!
 

@@ -39,8 +39,8 @@ Vi begynner med å endre på X-koordinatene
 + Det blir litt slitsomt å holde kontroll på hvor hatten er hele tiden. Derfor legger vi til en tastekommando som får hatten tilbake til utgangspunktet, koordinatet (0,0):
 
   ```blocks
-    når [o] trykkes
-    gå til x: (0) y: (0)
+  når [o] trykkes
+  gå til x: (0) y: (0)
   ```
 
 ## Test prosjektet {.flag}

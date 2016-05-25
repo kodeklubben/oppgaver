@@ -53,8 +53,8 @@ Vår begynnelse kommer til å ligne på det vi gjorde i [den sprettende ballen](
   }
   ```
 
-    Koden er endret litt fra oppgaven om den sprettende ballen.
-    Vi bruker andre navn på variablene våre. Det er også noen helt nye variabler.
+  Koden er endret litt fra oppgaven om den sprettende ballen.
+  Vi bruker andre navn på variablene våre. Det er også noen helt nye variabler.
 
   Hvorfor tror du vi har gjort dette?
 

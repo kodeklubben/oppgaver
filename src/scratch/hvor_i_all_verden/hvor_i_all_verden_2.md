@@ -57,23 +57,23 @@ ferdige.
 + For å være sikre på at denne figuren ligger bakerst som en bakgrunn
   kan vi starte med følgende kode:
 
-    ```blocks
-        når grønt flagg klikkes
-        gå nedover (50) lag
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  gå nedover (50) lag
+  ```
 
 + Vi vil nå lage denne figuren så stor som mulig. Dessverre har
   Scratch en begrensning på hvor store figurer kan være. Du kan se
   dette om du først krysser av for at `størrelse`{.blocklooks} skal
   vises på kart-figuren. Deretter kan du endre størrelsen med
 
-    ```blocks
-        sett størrelse til (9999) %
-    ```
+  ```blocks
+  sett størrelse til (9999) %
+  ```
 
-    Du vil se at størrelsen ikke blir satt til `9999`, men til et
-    mindre tall. Legg på en kloss som setter så stor størrelse som
-    mulig på kartet når det grønne flagget klikkes.
+  Du vil se at størrelsen ikke blir satt til `9999`, men til et
+  mindre tall. Legg på en kloss som setter så stor størrelse som
+  mulig på kartet når det grønne flagget klikkes.
 
 + Til bruk senere, når vi skal lage en intro til spillet, er det greit
   å `skjule`{.blocklooks} kartfiguren når det grønne flagget klikkes.
@@ -118,18 +118,18 @@ og bakgrunnen.
 + Vi skal nå endre hva som skjer når du trykker på piltastene. I
   stedet for at helikopteret skal
 
-    ```blocks
-        gå (hastighet) steg
-    ```
+  ```blocks
+  gå (hastighet) steg
+  ```
 
-    vil vi endre `X`{.blockdata} eller `Y`{.blockdata} med
-    `hastighet`{.blockdata} eller med
+  vil vi endre `X`{.blockdata} eller `Y`{.blockdata} med
+  `hastighet`{.blockdata} eller med
 
-    ```blocks
-        ((0) - (hastighet))
-    ```
+  ```blocks
+  ((0) - (hastighet))
+  ```
 
-    Oppdater alle fire hvis-løkkene på helikopteret.
+  Oppdater alle fire hvis-løkkene på helikopteret.
 
 ## Test prosjektet {.flag}
 
@@ -155,13 +155,13 @@ oppover må vi flytte kartet nedover.
 
 + Legg til denne koden på kartet:
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        vis
-        for alltid
-            gå til x: ((0) - (X)) y: ((0) - (Y))
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  vis
+  for alltid
+      gå til x: ((0) - (X)) y: ((0) - (Y))
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -190,9 +190,9 @@ slik at helikopteret ikke kan fly ut av kartet?
   usynlig. Endre derfor på gjennomsiktigheten til sted-figuren. For
   eksempel kan du sette
 
-    ```blocks
-        sett [gjennomsiktig v] effekt til (50)
-    ```
+  ```blocks
+  sett [gjennomsiktig v] effekt til (50)
+  ```
 
 + For at det skal se ut som om stedet ligger i ro på kartet må faktisk
   sted-figuren flytte seg sammen med kartet. Vi behøver da to
@@ -202,35 +202,35 @@ slik at helikopteret ikke kan fly ut av kartet?
 
 + Bytt ut
 
-    ```blocks
-        gå til x: (-98) y: (-120)
-    ```
+  ```blocks
+  gå til x: (-98) y: (-120)
+  ```
 
-    med kode som setter variablene i stedet:
+  med kode som setter variablene i stedet:
 
-    ```blocks
-        sett [stedX v] til [-98]
-        sett [stedY v] til [-120]
-    ```
+  ```blocks
+  sett [stedX v] til [-98]
+  sett [stedY v] til [-120]
+  ```
 
 + Vi kan nå lage en helt ny blokk som flytter stedet rundt på
   skjermen.
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        for alltid
-            gå til x: ((stedX) - (X)) y: ((stedY) - (Y))
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  for alltid
+      gå til x: ((stedX) - (X)) y: ((stedY) - (Y))
+  slutt
+  ```
 
-    Prøv spillet. Flytter den røde prikken seg rundt på kartet?
+  Prøv spillet. Flytter den røde prikken seg rundt på kartet?
 
 + Du ser kanskje at den røde prikken ikke lenger ligger ved Barcelona?
   Det er fordi vi har laget et større kart. Da stemmer ikke lengre de
   gamle koordinatene.
 
-    Endre verdiene for `X` og `Y` til det ser ut som om reisemålet
-    ligger omtrent på riktig sted igjen.
+  Endre verdiene for `X` og `Y` til det ser ut som om reisemålet
+  ligger omtrent på riktig sted igjen.
 
 # Steg 5: Flere steder {.activity}
 
@@ -252,52 +252,52 @@ eller lage egne klosser som man gjør i Scratch.
 + Klikk på `Flere klosser`{.blockmoreblocks} og lag en kloss som ser
   slik ut:
 
-    ![](nykloss.png)
+  ![](nykloss.png)
 
-    hvor `sted` er tekst, mens `x` og `y` er tallverdier:
+  hvor `sted` er tekst, mens `x` og `y` er tallverdier:
 
 + Etter at du klikker `OK` dukker det opp en ny kloss på skjermen:
 
-    ```blocks
-        definer Reis til (sted) (x) (y)
-    ```
+  ```blocks
+  definer Reis til (sted) (x) (y)
+  ```
 
-    Under denne klossen kan vi definere hva funksjonen vår skal gjøre.
+  Under denne klossen kan vi definere hva funksjonen vår skal gjøre.
 
 + Flytt skriptet ditt fra `Nytt sted`{.blockevents}-blokken til den nye
   funksjonen, og endre litt - spesielt i variablene - slik at
   funksjonen din ser slik ut:
 
-    ```blocks
-        definer Reis til (sted) (x) (y)
-        sett [gjennomsiktig v] effekt til (100)
-        sett [stedX v] til (x)
-        sett [stedY v] til (y)
-        sett [Reis til v] til (sted)
-        vent til <berører [Helikopter v]?>
-        sett [gjennomsiktig v] effekt til (0)
-        si (sett sammen [Fant ] (sted))
-        gjenta (5) ganger
-            gjenta (10) ganger
-                endre størrelse med (10)
-            slutt
-            gjenta (10) ganger
-                endre størrelse med (-10)
-            slutt
-        slutt
-        si []
-    ```
+  ```blocks
+  definer Reis til (sted) (x) (y)
+  sett [gjennomsiktig v] effekt til (100)
+  sett [stedX v] til (x)
+  sett [stedY v] til (y)
+  sett [Reis til v] til (sted)
+  vent til <berører [Helikopter v]?>
+  sett [gjennomsiktig v] effekt til (0)
+  si (sett sammen [Fant ] (sted))
+  gjenta (5) ganger
+      gjenta (10) ganger
+          endre størrelse med (10)
+      slutt
+      gjenta (10) ganger
+          endre størrelse med (-10)
+      slutt
+  slutt
+  si []
+  ```
 
 + Til slutt kan vi endre på `Nytt spill`{.blockevents}-blokken slik at
   vi bruker den nye funksjonen. For eksempel
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        vis
-        Reis til [London] (-135) (-30) :: custom
-        Reis til [Oslo] (-30) (75) :: custom
-        Reis til [Barcelona] (-135) (-175) :: custom
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  vis
+  Reis til [London] (-135) (-30) :: custom
+  Reis til [Oslo] (-30) (75) :: custom
+  Reis til [Barcelona] (-135) (-175) :: custom
+  ```
 
 + Om du prøver spillet nå vil du kanskje oppdage et lite
   problem. Dersom du ikke flytter deg etter å ha funnet det første
@@ -305,13 +305,13 @@ eller lage egne klosser som man gjør i Scratch.
   fordi vi ikke rekker å flytte sirkelen før vi tester om den berører
   helikopteret.
 
-    Den enkleste måten å løse dette på er å legge på klossen
+  Den enkleste måten å løse dette på er å legge på klossen
 
-    ```blocks
-        vent til <ikke <berører [Helikopter v]?>>
-    ```
+  ```blocks
+  vent til <ikke <berører [Helikopter v]?>>
+  ```
 
-    rett før vi venter til helikopteret berøres inne i funksjonen vår.
+  rett før vi venter til helikopteret berøres inne i funksjonen vår.
 
 ## Test prosjektet {.flag}
 

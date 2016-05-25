@@ -94,15 +94,15 @@ brød
 
 Dette må du gjøre:
 
- * Lag ei tom liste.
- * Be om input.
- * Så lenge input ikke er lik `ferdig`, legg til det nye elementet i lista.
+* Lag ei tom liste.
+* Be om input.
+* Så lenge input ikke er lik `ferdig`, legg til det nye elementet i lista.
 
-     **Hint:** Hva slags løkke kan vi bruke her?
+  **Hint:** Hva slags løkke kan vi bruke her?
 
- * Skriv ut hvert hvert element i lista.
+* Skriv ut hvert hvert element i lista.
 
-    **Hint:** Hva slags løkke kan vi bruke her?
+  **Hint:** Hva slags løkke kan vi bruke her?
 
 # Indekser {.activity}
 
@@ -164,9 +164,9 @@ Skriv inn en gjenstand: <font color="green">ferdig</font>
 
 Dette må du gjøre:
 
- * Bruk programmet fra oppgaven over.
- * Bruk `enumerate` til for å få indeksen til hver element.
- * Skriv ut indeksen på samme linje som elementet i lista.
+* Bruk programmet fra oppgaven over.
+* Bruk `enumerate` til for å få indeksen til hver element.
+* Skriv ut indeksen på samme linje som elementet i lista.
 
 ## Indekstrening {.challenge}
 
@@ -186,9 +186,9 @@ Hvor mange gjenstander vil du skrive ut? <font color="green">2</font>
 
 Dette må du gjøre:
 
- * Begynn med programmet du allerede har.
- * Før gjenstandene skrives ut, spør om hvor mye som skal skrives ut.
- * Avbryt utskriften når antallet er lik det brukeren ba om.
+* Begynn med programmet du allerede har.
+* Før gjenstandene skrives ut, spør om hvor mye som skal skrives ut.
+* Avbryt utskriften når antallet er lik det brukeren ba om.
 
 # Strenger og indekser {.activity}
 
@@ -220,8 +220,8 @@ e
 
 Dette må du gjøre:
 
- * Hent input fra brukeren.
- * Bruk en løkke for å hente ut hver bokstav og dens indeks.
- * Hvis indeksen er et partall, skriv ut bokstaven.
+* Hent input fra brukeren.
+* Bruk en løkke for å hente ut hver bokstav og dens indeks.
+* Hvis indeksen er et partall, skriv ut bokstaven.
 
-    **Hint:** `tall%2` er *resten* av `tall` delt på `2`, hva gir `tall%2` når `tall` er et partall?
+  **Hint:** `tall%2` er *resten* av `tall` delt på `2`, hva gir `tall%2` når `tall` er et partall?

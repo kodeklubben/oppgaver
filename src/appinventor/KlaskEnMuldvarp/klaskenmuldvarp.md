@@ -27,9 +27,9 @@ En canvas er bare en komponent som inneholder grafikk, den synes ikke selv, men 
 
 + Gå til **Properties** og sett høyden og bredden for spillbrettet:
 
-    Trykk på **Height** og skriv inn `300` ved siden av pixels og trykk **OK**.
+  Trykk på **Height** og skriv inn `300` ved siden av pixels og trykk **OK**.
 
-    Trykk på **Width** og skriv inn `340` ved siden av pixels og trykk **OK**.
+  Trykk på **Width** og skriv inn `340` ved siden av pixels og trykk **OK**.
 
 * Gå til **BackgroundImage** og trykk på **None...**. Trykk **Upload File**. Trykk på **Velg Fil** og velg bildet `gress.png` du nettopp lastet ned. Trykk **OK**. Sjekk at gresset vises i firkanten øverst på skjermen.
 
@@ -99,7 +99,7 @@ Da trenger du ikke sette sammen de samme klossene flere ganger. I stedet kan du 
 
 + Trykk på den lilla knappen som heter **Procedures**. Vi ser at det er to forskjellige prosedyre-klosser vi kan legge til: **to procedure do** og **to procedure result**. Velg **to procedure do**:
 
-    ![procedure](procedure.png)
+  ![procedure](procedure.png)
 
 + Trykk på `procedure` og gi den navnet `FlyttMuldvarp`.
 
@@ -107,24 +107,24 @@ Klossen `FlyttMuldvarp` har et område i midten som sier `do`. Det er her vi put
 
 + Vi vil nå plassere muldvarpen et tilfeldig sted på spillbrettet. Det gjør vi ved å sette muldvarpens X- og Y-posisjon til to forskjellige tilfeldige tall:
 
-    Muldvarpens X-posisjon skal være et tilfeldig tall mellom 0 og bredden på spillbrettet. Vi passer på å trekke fra muldvarpens bredde slik at hele muldvarpen får plass på gresset.
+  Muldvarpens X-posisjon skal være et tilfeldig tall mellom 0 og bredden på spillbrettet. Vi passer på å trekke fra muldvarpens bredde slik at hele muldvarpen får plass på gresset.
 
-    Muldvarpens Y-posisjon skal på samme måte være et tilfeldig tall mellom 0 og høyden på spillbrettet minus høyden på muldvarpen.
+  Muldvarpens Y-posisjon skal på samme måte være et tilfeldig tall mellom 0 og høyden på spillbrettet minus høyden på muldvarpen.
 
-    Klossen `random fraction` gir et tilfeldig tall mellom 0 og 1. Vi kan derfor gange denne med spillbrettets størrelse minus muldvarpens størrelse for å sette posisjonen slik vi vil.
+  Klossen `random fraction` gir et tilfeldig tall mellom 0 og 1. Vi kan derfor gange denne med spillbrettets størrelse minus muldvarpens størrelse for å sette posisjonen slik vi vil.
 
 + Gå til **Blocks** og se hva du får fram når du trykker på de forskjellige fargene.
 
 + Klossene du trenger vil være under **Math**, og på muldvarpen og spillbrettet.
 + Lag en prosedyre som flytter muldvarpen slik beskrevet.
 
-    ![flyttmuldvarp](flyttmuldvarp.png)
+  ![flyttmuldvarp](flyttmuldvarp.png)
 
 Se hvordan klossene kobler sammen. Den første delen bruker Muldvarp.X til å sette muldvarpens horisontale posisjon. Verdien den får er resultatet av å gange en tilfeldig verdi mellom 0 og 1 med resultatet av spillbrettets bredde minus muldvarpens bredde.
 
 + Lag en variabel som holder styr på hvor mange poeng spilleren har. Denne kan vi kalle `Poeng`.
 
-    ![initpoeng](initPoeng.png)
+  ![initpoeng](initPoeng.png)
 
 + Lag en prosedyre som du kaller `OppdaterPoeng` på samme måte som du lagde `FlyttMuldvarp`. Velg den lilla **Procedures** og velg en **to procedure do**. Denne prosedyren skal oppdatere tekstfeltet med poengene når poengene endres.
 
@@ -138,7 +138,7 @@ Det vi vil at skal skje er PoengTeksten blir oppdatert med en tekst satt sammen 
 
 + Under `Poeng: ` legger du til en kloss fra orange **Variables** som heter `get`, og forandrer den til `get global Poeng`.
 
-    ![initOppdater](initOppdaterPoeng.png)
+  ![initOppdater](initOppdaterPoeng.png)
 
 # Steg 7: Flytt muldvarpen etterhvert som tiden går {.activity}
 Neste steg er å få muldvarpen til å flytte seg. Dette er hvor vi skal bruke Klokken.
@@ -151,7 +151,7 @@ For å få noe til å skje når en hendelse sendes bruker vi en _event handler_.
 ## Sjekkliste {.check}
 + Sett timeren til å kalle `FlyttMuldvarp`:
 
-    ![initOppdater](timerflytt.png)
+  ![initOppdater](timerflytt.png)
 
 # Steg 8: Klask muldvarpen! {.activity}
 Den viktigste biten er å vite når noen trykker på muldvarpen, slik at vi vet når spilleren skal få poeng. Hvis du husker fra tidligere så sa vi at figurer vet når de blir trykket på.
@@ -161,14 +161,14 @@ Alt vi trenger å gjøre er å fortelle hva som skal skje ved å bruke _event ha
 
 + Legg til **when Muldvarpen.Touched do**.
 
-    Videre vil vi at:
+  Videre vil vi at:
 
-    + Poengvariabelen økes med 1 poeng.
-    + Mobilen vibrerer i 1/10 sekund (100 millisekunder).
-    + `OppdaterPoeng` blir kalt slik at poengene opdaterer seg på skjermen.
-    + `FlyttMuldvarp` blir kalt slik at muldvarpen fortsetter spillet.
+  + Poengvariabelen økes med 1 poeng.
+  + Mobilen vibrerer i 1/10 sekund (100 millisekunder).
+  + `OppdaterPoeng` blir kalt slik at poengene opdaterer seg på skjermen.
+  + `FlyttMuldvarp` blir kalt slik at muldvarpen fortsetter spillet.
 
-    ![event](event.png)
+  ![event](event.png)
 
 # Steg 9: Start spillet på nytt {.activity}
 Den siste biten vi trenger å få på plass nå er å kunne starte spillet på nytt når vi trykker på restartknappen.
@@ -178,15 +178,15 @@ Knapper har en hendelse som heter **click** som sendes når knappen trykkes på.
 
 + Legg til _event handleren_ **when RestartKnapp.Click do**, som finnes på restartknappen.
 
-    Videre vil vi at når knappen trykkes skal:
+  Videre vil vi at når knappen trykkes skal:
 
-    + Poengvariabelen gå ned til 0.
-    + Poengteksten bli oppdatert.
-    + `FlyttMuldvarp` bli kalt slik at muldvarpen fortsetter spillet.
+  + Poengvariabelen gå ned til 0.
+  + Poengteksten bli oppdatert.
+  + `FlyttMuldvarp` bli kalt slik at muldvarpen fortsetter spillet.
 
-    Dette kan se slik ut:
+  Dette kan se slik ut:
 
-    ![restart](restart.png)
+  ![restart](restart.png)
 
 ## Test  appen på mobiltelefonen {.flag}
 Installer appen på mobilen din og prøv spillet.

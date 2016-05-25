@@ -40,13 +40,13 @@ tatt, går poengsummen din ned.
   skriptet:
 
   ```blocks
-      når grønt flagg klikkes
-      for alltid
-          pek mot [musepeker v]
-          gå (10) steg
-          neste drakt
-          trommeslag (3 v) som varer (0.25) takter
-      slutt
+  når grønt flagg klikkes
+  for alltid
+      pek mot [musepeker v]
+      gå (10) steg
+      neste drakt
+      trommeslag (3 v) som varer (0.25) takter
+  slutt
   ```
 
 ## Test prosjektet {.flag}
@@ -88,11 +88,11 @@ Det kan likevel være lurt å lagre manuelt innimellom.
 + Gi Herbert dette skriptet:
 
   ```blocks
-      når grønt flagg klikkes
-      for alltid
-          gå til [musepeker v]
-          pek mot [Felix v]
-      slutt
+  når grønt flagg klikkes
+  for alltid
+      gå til [musepeker v]
+      pek mot [Felix v]
+  slutt
   ```
 
 ## Test prosjektet {.flag}
@@ -113,16 +113,16 @@ __Klikk på det grønne flagget.__
 + Endre skriptet til Felix til dette:
 
   ```blocks
-      når grønt flagg klikkes
-      for alltid
-          pek mot [musepeker v]
-          gå (10) steg
-          neste drakt
-          trommeslag (3 v) som varer (0.25) takter
-          hvis <berører [Herbert v]?>
-              si [Tok deg!] i (1) sekunder
-          slutt
+  når grønt flagg klikkes
+  for alltid
+      pek mot [musepeker v]
+      gå (10) steg
+      neste drakt
+      trommeslag (3 v) som varer (0.25) takter
+      hvis <berører [Herbert v]?>
+          si [Tok deg!] i (1) sekunder
       slutt
+  slutt
   ```
 
 ## Test prosjektet {.flag}
@@ -142,19 +142,19 @@ __Klikk på det grønne flagget.__
   lyd når han fanger Herbert:
 
   ```blocks
-      når grønt flagg klikkes
-      for alltid
-          pek mot [musepeker v]
-          gå (10) steg
-          neste drakt
-          trommeslag (3 v) som varer (0.25) takter
-          hvis <berører [Herbert v]?>
-              send melding [Fanget! v]
-              trommeslag (1 v) som varer (0.25) takter
-              si [Tok deg!] i (1) sekunder
-              vent (1) sekunder
-          slutt
+  når grønt flagg klikkes
+  for alltid
+      pek mot [musepeker v]
+      gå (10) steg
+      neste drakt
+      trommeslag (3 v) som varer (0.25) takter
+      hvis <berører [Herbert v]?>
+          send melding [Fanget! v]
+          trommeslag (1 v) som varer (0.25) takter
+          si [Tok deg!] i (1) sekunder
+          vent (1) sekunder
       slutt
+  slutt
   ```
 
 + Velg Herbert og gå til `Drakter`-fanen.
@@ -174,10 +174,10 @@ __Klikk på det grønne flagget.__
   skriptet:
 
   ```blocks
-      når jeg mottar [Fanget! v]
-      bytt drakt til [død v]
-      vent (0.5) sekunder
-      bytt drakt til [levende v]
+  når jeg mottar [Fanget! v]
+  bytt drakt til [død v]
+  vent (0.5) sekunder
+  bytt drakt til [levende v]
   ```
 
 ## Test prosjektet {.flag}
@@ -212,15 +212,15 @@ __Klikk på det grønne flagget.__
   `Figurer`. Lag disse to skriptene på scenen:
 
   ```blocks
-      når grønt flagg klikkes
-      sett [Poeng v] til [0]
-      for alltid
-          vent (1) sekunder
-          endre [Poeng v] med (1)
-      slutt
+  når grønt flagg klikkes
+  sett [Poeng v] til [0]
+  for alltid
+      vent (1) sekunder
+      endre [Poeng v] med (1)
+  slutt
 
-      når jeg mottar [Fanget! v]
-      endre [Poeng v] med (-10)
+  når jeg mottar [Fanget! v]
+  endre [Poeng v] med (-10)
   ```
 
 ## Test prosjektet {.flag}

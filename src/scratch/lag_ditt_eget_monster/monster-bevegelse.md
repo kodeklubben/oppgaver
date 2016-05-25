@@ -17,48 +17,48 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
   tentakkelfigur (eller en hvilken som helst annen figur!) mottar en
   `flyttet høyre`-melding, kan vi flytte den også til høyre.
 
-    ```blocks
-        // på spøkelseskroppen
-        når [pil høyre v] trykkes
-        endre x med (hastighet)
-        send melding [flyttet høyre v]
+  ```blocks
+  // på spøkelseskroppen
+  når [pil høyre v] trykkes
+  endre x med (hastighet)
+  send melding [flyttet høyre v]
 
-        når [pil venstre v] trykkes
-        endre x med ((hastighet) * (-1))
-        send melding [flyttet venstre v]
+  når [pil venstre v] trykkes
+  endre x med ((hastighet) * (-1))
+  send melding [flyttet venstre v]
 
-        // på tentakkelen
-        når jeg mottar [flyttet høyre v]
-        endre x med (hastighet)
+  // på tentakkelen
+  når jeg mottar [flyttet høyre v]
+  endre x med (hastighet)
 
-        når jeg mottar [flyttet venstre v]
-        endre x med ((hastighet) * (-1))
-    ```
+  når jeg mottar [flyttet venstre v]
+  endre x med ((hastighet) * (-1))
+  ```
 
 + Ved å bruke en `send melding`{.blockevents} kan vi også endre
   hvordan bevegelseskommandoen virker, ved å bare endre et
   skript. **Ta en titt på dette eksempelet:**
 
-    ```blocks
-        // på spøkelseskroppen
-        når [pil høyre v] trykkes
-        endre x med (hastighet)
-        pek i retning (90 v)
-        sprett tilbake ved kanten
-        hvis <ikke <berører [kant v]?>>
-            send melding [flyttet høyre v]
-            send melding [flyttet v]
-        slutt
+  ```blocks
+  // på spøkelseskroppen
+  når [pil høyre v] trykkes
+  endre x med (hastighet)
+  pek i retning (90 v)
+  sprett tilbake ved kanten
+  hvis <ikke <berører [kant v]?>>
+      send melding [flyttet høyre v]
+      send melding [flyttet v]
+  slutt
 
-        når [pil venstre v] trykkes
-        endre x med ((hastiget) * (-1))
-        pek i retning (-90 v)
-        sprett tilbake ved kanten
-        hvis <ikke <berører [kant v]?>>
-            send melding [flyttet venstre v]
-            send melding [flyttet v]
-        slutt
-    ```
+  når [pil venstre v] trykkes
+  endre x med ((hastiget) * (-1))
+  pek i retning (-90 v)
+  sprett tilbake ved kanten
+  hvis <ikke <berører [kant v]?>>
+      send melding [flyttet venstre v]
+      send melding [flyttet v]
+  slutt
+  ```
 
 + Her forteller vi at kroppen skal gå i den retningen den beveger seg
   i (husk å sette figur orienteringen til **“venstre-høyre”**) og for
@@ -76,7 +76,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
   drakt`{.blocklooks}, som kan aktiveres hver gang en
   bevegelsesmelding mottas.
 
-    ```blocks
-        når jeg mottar [flyttet høyre v]
-        neste drakt
-    ```
+  ```blocks
+  når jeg mottar [flyttet høyre v]
+  neste drakt
+  ```

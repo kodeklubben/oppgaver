@@ -35,8 +35,8 @@ mange straffespark som mulig.
   til høyre:
 
   ```blocks
-      når denne figuren klikkes
-      gå (10) steg
+  når denne figuren klikkes
+  gå (10) steg
   ```
 
 ## Test prosjektet {.flag}
@@ -58,8 +58,8 @@ __Klikk på det grønne flagget.__
   har laget, som ser slik ut:
 
   ```blocks
-      når grønt flagg klikkes
-      gå til x: (-180) y: (-30)
+  når grønt flagg klikkes
+  gå til x: (-180) y: (-30)
   ```
 
 + Nå vil `Leo` komme tilbake på banen hver gang du klikker det grønne
@@ -99,12 +99,12 @@ innimellom.
   tingene skjer:
 
   ```blocks
-      når grønt flagg klikkes
-      gå til x: (-125) y: (-60)
-      vent til <berører [Leo v]?>
-      for alltid
-          gå (6) steg
-      slutt
+  når grønt flagg klikkes
+  gå til x: (-125) y: (-60)
+  vent til <berører [Leo v]?>
+  for alltid
+      gå (6) steg
+  slutt
   ```
 
 ## Test prosjektet {.flag}
@@ -141,13 +141,13 @@ __Klikk på det grønne flagget.__
 + Lag det følgende programmet for keeperen:
 
   ```blocks
-      når grønt flagg klikkes
-      gå til x: (100) y: (-50)
-      pek i retning (0 v)
-      for alltid
-          gå (15) steg
-          sprett tilbake ved kanten
-      slutt
+  når grønt flagg klikkes
+  gå til x: (100) y: (-50)
+  pek i retning (0 v)
+  for alltid
+      gå (15) steg
+      sprett tilbake ved kanten
+  slutt
   ```
 
   Det er et par nye klosser i dette skriptet. Les programmet nøye. Hva
@@ -200,16 +200,16 @@ eller når ballen går i mål.
   slik:
 
   ```blocks
-      når grønt flagg klikkes
-      gå til x: (-125) y: (-60)
-      vent til <berører [Leo v]?>
-      for alltid
-          gå (6) steg
-          hvis <berører [Keeper v]?>
-              send melding [Redning v]
-          ellers
-          slutt
+  når grønt flagg klikkes
+  gå til x: (-125) y: (-60)
+  vent til <berører [Leo v]?>
+  for alltid
+      gå (6) steg
+      hvis <berører [Keeper v]?>
+          send melding [Redning v]
+      ellers
       slutt
+  slutt
   ```
 
   I klossen `send melding [message1 v]`{.b} må du velge `Ny melding` og
@@ -224,8 +224,8 @@ reagere på ting som skjer.
   `Keeper`:
 
   ```blocks
-      når jeg mottar [Redning v]
-      stopp [andre skript i figuren v] :: control
+  når jeg mottar [Redning v]
+  stopp [andre skript i figuren v] :: control
   ```
 
   Et triks er å først skrive denne koden for `Ball`. Deretter kan du
@@ -256,35 +256,35 @@ og `y`. Disse viser koordinatene til musepekeren.
   skriptet på ballen videre slik at det blir seende slik ut:
 
   ```blocks
-      når grønt flagg klikkes
-      gå til x: (-125) y: (-60)
-      vent til <berører [Leo v]?>
-      for alltid
-          gå (6) steg
-          hvis <berører [Keeper v]?>
-              send melding [Redning v]
-          ellers
-              hvis <(x-posisjon) > [160]>
-                  send melding [Mål v]
-              slutt
+  når grønt flagg klikkes
+  gå til x: (-125) y: (-60)
+  vent til <berører [Leo v]?>
+  for alltid
+      gå (6) steg
+      hvis <berører [Keeper v]?>
+          send melding [Redning v]
+      ellers
+          hvis <(x-posisjon) > [160]>
+              send melding [Mål v]
           slutt
       slutt
+  slutt
   ```
 
 + På samme måte som for redning kan vi avslutte bevegelsen til `Ball`
   og `Keeper` ved å lage dette skriptet på begge figurene:
 
   ```blocks
-      når jeg mottar [Mål v]
-      stopp [andre skript i figuren v] :: control
+  når jeg mottar [Mål v]
+  stopp [andre skript i figuren v] :: control
   ```
 
 + Vi kan også la `Leo` juble litt når han scorer mål. Klikk på
   kattefiguren og gi ham følgende skript:
 
   ```blocks
-      når jeg mottar [Mål v]
-      si [Ja, det ble mål!!] i (2) sekunder
+  når jeg mottar [Mål v]
+  si [Ja, det ble mål!!] i (2) sekunder
   ```
 
 + Lag et tilsvarende skript der `Leo` sier noe om at han er lei seg om
@@ -331,8 +331,8 @@ For å telle hvor mange mål du har scoret, og hvor mange redninger
   Scenen:
 
   ```blocks
-      når jeg mottar [Mål v]
-      endre [Mål v] med (1)
+  når jeg mottar [Mål v]
+  endre [Mål v] med (1)
   ```
 
 + Vi kan gjøre tilsvarende for å telle antall redninger. Lag en ny
@@ -341,8 +341,8 @@ For å telle hvor mange mål du har scoret, og hvor mange redninger
 + Lag deretter et nytt skript for å telle redningene:
 
   ```blocks
-      når jeg mottar [Redning v]
-      endre [Redninger v] med (1)
+  når jeg mottar [Redning v]
+  endre [Redninger v] med (1)
   ```
 
 
@@ -377,11 +377,11 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
   begynnelsen av spillet.
 
   ```blocks
-      når grønt flagg klikkes
-      sett [Mål v] til [0]
-      sett [Redninger v] til [0]
-      bytt bakgrunn til [goal1]
-      send melding [Nytt spark v]
+  når grønt flagg klikkes
+  sett [Mål v] til [0]
+  sett [Redninger v] til [0]
+  bytt bakgrunn til [goal1]
+  send melding [Nytt spark v]
   ```
 
 + Vi vil nå spille uten at vi må klikke på det grønne flagget for hver
@@ -389,21 +389,21 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
   `Nytt spark`. Vi må nå bytte ut
 
   ```blocks
-      når grønt flagg klikkes
+  når grønt flagg klikkes
   ```
 
   med
 
   ```blocks
-      når jeg mottar [Nytt spark v]
+  når jeg mottar [Nytt spark v]
   ```
 
   på både `Leo`, `Ball` og `Keeper`. For eksempel, på `Leo` blir
   skriptet seende slik ut:
 
   ```blocks
-      når jeg mottar [Nytt spark v]
-      gå til x: (-180) y: (-30)
+  når jeg mottar [Nytt spark v]
+  gå til x: (-180) y: (-30)
   ```
 
 + Til slutt legger vi på testen om vi har scoret 10 mål, eller om
@@ -411,29 +411,29 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
   at det blir seende slik ut:
 
   ```blocks
-      når jeg mottar [Mål v]
-      endre [Mål v] med (1)
-      vent (2) sekunder
-      hvis <(Mål) < [10]>
-          send melding [Nytt spark v]
-      ellers
-          bytt bakgrunn til [Seier v]
-          stopp [alle v] :: control
-      slutt
+  når jeg mottar [Mål v]
+  endre [Mål v] med (1)
+  vent (2) sekunder
+  hvis <(Mål) < [10]>
+      send melding [Nytt spark v]
+  ellers
+      bytt bakgrunn til [Seier v]
+      stopp [alle v] :: control
+  slutt
   ```
 
 + På samme måte endrer du `Redning`-skriptet på scenen:
 
   ```blocks
-      når jeg mottar [Redning v]
-      endre [Redninger v] med (1)
-      vent (2) sekunder
-      hvis <(Redninger) < [10]>
-          send melding [Nytt spark v]
-      ellers
-          bytt bakgrunn til [Tap v]
-          stopp [alle v] :: control
-      slutt
+  når jeg mottar [Redning v]
+  endre [Redninger v] med (1)
+  vent (2) sekunder
+  hvis <(Redninger) < [10]>
+      send melding [Nytt spark v]
+  ellers
+      bytt bakgrunn til [Tap v]
+      stopp [alle v] :: control
+  slutt
   ```
 
 ## Test prosjektet {.flag}

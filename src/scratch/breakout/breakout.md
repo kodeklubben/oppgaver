@@ -58,38 +58,38 @@ en boks, og deretter lage mange kopier av denne.
   for alle figurer. I denne koden må du kanskje endre de forskjellige
   tallene litt, slik at de passer størrelsen på din boks.
 
-    ```blocks
-        når jeg mottar [Nytt spill v]
-        skjul
-        sett [Antall bokser v] til [0]
-        sett y til (160)
-        gjenta (5) ganger
-            sett x til (-200)
-            gjenta (11) ganger
-                endre [Antall bokser v] med (1)
-                lag klon av [meg v]
-                endre x med (40)
-            slutt
-            endre y med (-25)
-        slutt
-    ```
+  ```blocks
+  når jeg mottar [Nytt spill v]
+  skjul
+  sett [Antall bokser v] til [0]
+  sett y til (160)
+  gjenta (5) ganger
+      sett x til (-200)
+      gjenta (11) ganger
+          endre [Antall bokser v] med (1)
+          lag klon av [meg v]
+          endre x med (40)
+      slutt
+      endre y med (-25)
+  slutt
+  ```
 
 + Selve oppførselen til hver boks kan vi så kode i et eget skript som
   starter når klonen lages. Siden vi enda ikke har en ball, lager vi
   et enkelt skript hvor hver boks (det vil her si alle boksene) blir
   borte når mellomrom trykkes.
 
-    ```blocks
-        når jeg starter som klon
-        vis
-        vent til <tast [mellomrom v] trykket?>
-        endre [Antall bokser v] med (-1)
-        slett denne klonen
-    ```
+  ```blocks
+  når jeg starter som klon
+  vis
+  vent til <tast [mellomrom v] trykket?>
+  endre [Antall bokser v] med (-1)
+  slett denne klonen
+  ```
 
-    Etter at vi har laget en ball og en racket skal vi oppdatere denne
-    koden slik at boksene i stedet forsvinner når de blir truffet av
-    ballen.
+  Etter at vi har laget en ball og en racket skal vi oppdatere denne
+  koden slik at boksene i stedet forsvinner når de blir truffet av
+  ballen.
 
 # Steg 2: En sprettende ball og en enkel racket {.activity}
 
@@ -136,10 +136,10 @@ en racket som kan ta i mot ballen.
 + Ballen må svare på denne meldingen ved å endre retning, for eksempel
   med kode som ser omtrent ut som følger:
 
-    ```blocks
-        når jeg mottar [Sprett horisontalt v]
-        pek i retning ((180) - (retning))
-    ```
+  ```blocks
+  når jeg mottar [Sprett horisontalt v]
+  pek i retning ((180) - (retning))
+  ```
 
 # Steg 3: Boksene forsvinner {.activity}
 
@@ -216,20 +216,20 @@ Prøv spillet ditt. Grunnmekanismene skal nå fungere.
   brett som ser forskjellige ut. Du kan også la de forskjellige
   boksene gi forskjellige poeng eller bonuser.
 
-    En måte å designe slike brett på kan være ved å først lage de
-    forskjellige boksene som forskjellige drakter. Deretter kan du
-    lage en `brett`{.blockdata}-variabel som lister opp hvilken
-    drakt hver boks skal bruke. For eksempel kan denne se slik ut:
+  En måte å designe slike brett på kan være ved å først lage de
+  forskjellige boksene som forskjellige drakter. Deretter kan du
+  lage en `brett`{.blockdata}-variabel som lister opp hvilken
+  drakt hver boks skal bruke. For eksempel kan denne se slik ut:
 
-    ```blocks
-        sett [brett v] til [1111111111111222222211112233322111122222221111111111111]
-    ```
+  ```blocks
+  sett [brett v] til [1111111111111222222211112233322111122222221111111111111]
+  ```
 
-    Denne kan så brukes når du setter ut boksene omtrent som dette:
+  Denne kan så brukes når du setter ut boksene omtrent som dette:
 
-    ```blocks
-        bytt drakt til (bokstav (antall bokser) i (brett))
-    ```
+  ```blocks
+  bytt drakt til (bokstav (antall bokser) i (brett))
+  ```
 
-    Videre i spillet kan du teste på `drakt nr.`{.blocklooks} for å
-    vite hvilken type boks du har med å gjøre.
+  Videre i spillet kan du teste på `drakt nr.`{.blocklooks} for å
+  vite hvilken type boks du har med å gjøre.

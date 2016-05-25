@@ -74,13 +74,13 @@ Tilhørende verdi er bread
 
 Dette må du gjøre:
 
- * Lag ei tom ordbok.
- * Bruk ei løkke for å hente inn 3 nøkkel/verdi-par.
+* Lag ei tom ordbok.
+* Bruk ei løkke for å hente inn 3 nøkkel/verdi-par.
 
-    * Lagre nøkkel/verdi-parene i ordboka.
+  * Lagre nøkkel/verdi-parene i ordboka.
 
- * Spør om en nøkkel.
- * Skriv ut verdien som hører til nøkkelen.
+* Spør om en nøkkel.
+* Skriv ut verdien som hører til nøkkelen.
 
 
 # Gå igjennom ordbøker {.activity}
@@ -141,9 +141,9 @@ Dette må du gjøre:
 
 * Ta imot input for gjenstand.
 * Så lenge gjenstanden ikke er en tom streng `""`:
-    * Be om antall.
-    * Lagre til en ordliste.
-    * Bruk gjenstanden som nøkkel og antallet som verdi.
+  * Be om antall.
+  * Lagre til en ordliste.
+  * Bruk gjenstanden som nøkkel og antallet som verdi.
 * Skriv ut handlelista.
 
-    **Hint:** Gå gjennom nøklene.
+  **Hint:** Gå gjennom nøklene.

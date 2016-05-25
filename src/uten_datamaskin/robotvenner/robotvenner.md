@@ -132,7 +132,7 @@ kopper ved å kun bruke disse gitte instruksjonene.
 + Resten av gruppen ser etter feil, samarbeider om å rette feilene i
   koden, og ber deretter roboten om å kjøre programmet på nytt.
 
-    ![](robotvenner-smaa-bilder.jpg)
+  ![](robotvenner-smaa-bilder.jpg)
 
 ## Regler
 
