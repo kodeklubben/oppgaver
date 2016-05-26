@@ -202,7 +202,7 @@ ring-figuren.
 
   ```blocks
   hvis < <(x) < ((ringX) + (160))> og <(x) > ((ringX) - (160))> >
-      hvis < <(y) < ((ringY) + (160))> og <(ringY) > ((ringY) - (160))> >
+      hvis < <(y) < ((ringY) + (160))> og <(y) > ((ringY) - (160))> >
           endre [poeng v] med (1)
       slutt
   slutt
