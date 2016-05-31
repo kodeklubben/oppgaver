@@ -20,27 +20,6 @@ Her kommer det litt tekst som forklarer hvordan denne virker.
   </p>
 </div>
 
-<script>
-  var scratch_map = L.map('kart').setView([65, 14], 4);
-  L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=norges_grunnkart&zoom={z}&x={x}&y={y}', {attribution: '<a href="http://www.kartverket.no/">Kartverket</a>'}).addTo(scratch_map);
-
-  document.getElementById("last_ned_som_bilde").addEventListener("click", function() {
-    leafletImage(scratch_map, downloadMapAsImage);});
-
-  function downloadMapAsImage(err, canvas) {
-    var a = document.createElement("a");
-    var img = document.createElement('img');
-    var dimensions = scratch_map.getSize();
-    img.width = dimensions.x;
-    img.height = dimensions.y;
-    img.src = canvas.toDataURL();
-
-    url = img.src.replace('image/png', 'image/octet-stream');
-    a.download = 'kart.png';
-    a.href = url;
-    a.click();
-  }
-</script>
-
 Her kommer det litt mer forklaring på hvordan man bruker kartgeneratoren.
 
+<script src="kart.js"></script>
