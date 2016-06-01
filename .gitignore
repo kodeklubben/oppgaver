@@ -2,6 +2,7 @@
 .idea/*
 build
 dist
+src/metalsmith-changed-ctimes.json
 
 # Emacs temporary and recovery files
 *~
