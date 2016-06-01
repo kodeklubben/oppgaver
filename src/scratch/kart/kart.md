@@ -35,7 +35,7 @@ Scratch._
 + Velg utseende på kartet fra listen som dukker opp når du peker på
   ![kartlag](kartlag.png) i nedre høyre hjørne.
 
-+ Klikk på `Last ned som Scratch-bakgrunn`.
++ Klikk på **Last ned som Scratch-bakgrunn**.
 
 Dette vil laste ned kartet til datamaskinen din som en bildefil. Om du ikke får
 velge filnavn selv vil bildefilen hete `kart.png` og sannsynligvis ligge i en
