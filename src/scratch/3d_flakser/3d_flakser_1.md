@@ -170,6 +170,8 @@ du har skrevet så langt.
 
   ```blocks
   når jeg mottar [Nytt spill v]
+  sett [x v] til [0]
+  sett [y v] til [0]
   for alltid
       hvis <tast [pil høyre v] trykket>
           endre [x v] med (10)
