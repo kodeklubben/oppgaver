@@ -128,8 +128,7 @@ kan du gå til denne siden:
   for å bygge trapper, men den fungerer dessverre ikke på LTM så vi må
   bygge trappen litt mer manuellt. Koden du skal lime inn i Javascript klossen er:
 
-    tr.box(blocks.stairs.quartz + ":" +
-    Drone.PLAYER\_STAIRS\_FACING\[tr.dir\]);
+    `tr.box(blocks.stairs.quartz + ":" + Drone.PLAYER\_STAIRS\_FACING\[tr.dir\]);`
 
   Funksjonen skal se sånn ut:
 
@@ -148,7 +147,7 @@ kan du gå til denne siden:
 
 ## Test prosjektet {.flag}
 
-Nå kan du teste modden din i Minecraft! Trykk på den grønne Mod knappen
+Nå kan du teste modden din i Minecraft! Trykk på den grønne **Mod** knappen
 øverst og gå til Minecraft og kjør modden din!
 
 Hvis den ikke fungerer så må du rette opp litt i modden, det er helt vanlig.
