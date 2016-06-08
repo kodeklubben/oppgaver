@@ -8,7 +8,7 @@ author: Pål G. Solheim
 Det første du må gjøre er å få en lærerkonto hos Learn To Mod (LTM). Det får du ved å sende en epost til `learntomod@thoughtstem.com` og fortelle at du er lærer ved en kodeklubb og gjerne vil ha en lærerkonto hos dem. Du får deretter en epost tilbake hvor de ber deg svare på noen spørsmål. Denne eposten har en lenke til en **helpdesk ticket**, følg denne lenken og svar på spørsmålene i helpdesk-systemet (ikke svar direkte på eposten). Når du har fått en lærerkonto får du også informasjon om hvordan LTM kan brukes i undervisningen.
 
 # Koble lærerkontoen med en Minecraft-konto {.activity}
-- Gå til [learntomod.com](http://www.learntomod).
+- Gå til [learntomod.com](http://www.learntomod.com).
 - Logg deg inn med lærerkontoen.
 - Trykk på det store grønne feltet øverst til venstre for å koble Minecraft-kontoen din til LTM.
 - Åpne Minecraft og legg til LTM-serveren under multiplayer.
@@ -29,7 +29,7 @@ Fordelen med LTMs oppgaver er at ungene kan jobbe i sitt eget tempo og at de bli
 
 # Gjennomføring av kurs {.activity}
 
-Jeg foreslår at du bruker [bruksanvisningen *Kom i gang*](kom_i_gang/kom_i_gang.html) på den første kursdagen eller sender ut en lenke til [Kom i gang](kom_i_gang/kom_i_gang.html) på forhånd. Du må ha tilgjengelig en klassekode på forhånd, den finner du under menyvalget **Learn** > **View Classes** og så velger du en klasse.
+Jeg foreslår at du bruker [bruksanvisningen *Kom i gang*](1_kom_i_gang/kom_i_gang.html) på den første kursdagen eller sender ut en lenke til [Kom i gang](1_kom_i_gang/kom_i_gang.html) på forhånd. Du må ha tilgjengelig en klassekode på forhånd, den finner du under menyvalget **Learn** > **View Classes** og så velger du en klasse.
 
 Når du holder kurs råder jeg deg til å logge inn på LTM med to vinduer i nettleseren. Den ene vinduet bruker du til å holde klassens Minecraft-tilgang åpen:
 
