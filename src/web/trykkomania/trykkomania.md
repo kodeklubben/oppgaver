@@ -167,7 +167,7 @@ Ettersom vi ønsker at ballen skal flytte seg underveis i spillet, skal vi lage 
   ```
 
 ## Tips {.protip}
-Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/pozova/4/edit?js,output).
+Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/hipepuy/edit?js,output).
 
 # Steg 5: Velg en tilfeldig plassering {.activity}
 I JavaScript kan vi bruke `Math.random()` for å få en tilfeldig verdi mellom 0 og 1. La oss bruke denne til å plassere ballen.
@@ -213,7 +213,7 @@ I JavaScript kan vi bruke `Math.random()` for å få en tilfeldig verdi mellom 0
 - Siden `Math.random()` maksimalt er 1 og vi ganger med 80, vil aldri ballen flytte seg lenger ut fra toppen eller venstre side enn 80%.
 
 ## Tips {.protip}
-Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/pozova/5/edit?js,output).
+Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/digiqa/1/edit?js,output).
 
 # Steg 6: Flytte ballen hvert andre sekund {.activity}
 Vi ønsker at ballen hele tiden skal flytte seg. Nå skal vi bruke `setInterval` til å flytte ballen hvert andre sekund.
@@ -233,7 +233,7 @@ Vi ønsker at ballen hele tiden skal flytte seg. Nå skal vi bruke `setInterval`
 - 2000 millisekund er 2 sekunder, altså tegnes ballen på et nytt sted hvert andre sekund.
 
 ## Tips {.protip}
-Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/pozova/6/edit?js,output).
+Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/lecamej/1/edit?js,output).
 
 # Steg 7: Poeng {.activity}
 Nå har du en ball som spretter rundt. La oss legge til poeng. Vi har laget en poeng-komponent som du kan bruke, så kommer du raskere i gang. `Poeng` er bygd opp likt som `Ball`, så du må gjerne lese gjennom og se om du forstår den.
@@ -322,7 +322,7 @@ Nå har du en ball som spretter rundt. La oss legge til poeng. Vi har laget en p
   ![](poeng.gif)
 
 ## Tips {.protip}
-Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/pozova/7/edit?js,output).
+Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/mewole/1/edit?js,output).
 
 ## Teste spillet {.flag}
 Du er nå kommet så langt at det kan være kult å teste spillet. Ettersom spillet handler om å trykke flest mulig ganger på ballen, egner det seg for å prøve på mobiltelefonen.
@@ -437,7 +437,7 @@ Akkurat nå er det ubegrenset tid i spillet. La oss legge til en nedtelling av t
 - Hvor mange poeng klarer du på mobiltelefonen innen tiden?
 
 ## Tips {.protip}
-Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/pozova/8/edit?js,output).
+Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/tukiwu/1/edit?js,output).
 
 # Steg 9: Omstarte spillet {.activity}
 Så langt kan spillet omstartes ved å oppdatere nettleseren. Er det ikke stiligere med en knapp som starter spillet?
