@@ -127,7 +127,7 @@ Det første programmet skal blinke med lysdioden.
   }
   ```
 
-+ Trykk på "upload"-knappen for å laste opp koden. Denne sjekker først om koden
++ Trykk på ![](upload.png) for å laste opp koden. Denne sjekker først om koden
 er riktig, og så vil programmet ditt kjøre på arduinoen.
 + Blinker lysdioden?
 
@@ -191,7 +191,7 @@ digitalWrite(led, HIGH);
 Dette er fint hvis vi senere ønsker å bytte utgang. Da trenger vi bare å endre
 en linje, istedenfor alle linjene vi nå bruker `led`.
 
-Husk at du alltid må bruke __;__ på slutten av hver kodelinje!
+Husk at du alltid må bruke ``;`` på slutten av hver kodelinje!
 
 # Steg 5: Legg til en knapp {.activity}
 
@@ -226,7 +226,7 @@ lampen av og på med en knapp!
   }
   ```
 
-+ Trykk på play-knappen for å laste opp koden.
++ Trykk på ![](upload.png) for å laste opp koden.
 + Lyser lysdioden når du trykker på knappen?
 
 Se der! Nå har du lært å lage enkle kretser med Arduino!
