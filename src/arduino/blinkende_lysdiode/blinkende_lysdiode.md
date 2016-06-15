@@ -61,7 +61,7 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 + Finn en 270 Ohm motstand.
 + Koble slik som vist i figuren:
 
-  ![](led.png)
+  ![](blinker.png)
 
 + Ingenting skjer, vi må skrive kode!
 
@@ -71,12 +71,12 @@ Nå har vi koblet vår første __krets__. Hvis du studerer koblingen, vil du se
 at det er en lukket krets. Det vil si at strømmen går fra pluss til minus
 gjennom kretsen:
 
-- Fra digital 13 (pluss).
-- Gjennom lysdioden.
+- Fra digital 8 (pluss).
 - Gjennom motstanden.
+- Gjennom lysdioden.
 - Til GND (minus).
 
-Port 13 som er tilkoblet den røde ledningen er en digital port. Denne porten
+Port 8 som er tilkoblet den røde ledningen er en digital port. Denne porten
 kan vi programmere slik at lysdioden blinker. Da vil den fungere som en
 __lysknapp__.
 
@@ -106,7 +106,7 @@ Det første programmet skal blinke med lysdioden.
 + Skriv denne koden:
 
   ```cpp
-  int led = 13;
+  int led = 8;
 
   void setup(){
     pinMode(led, OUTPUT);
@@ -128,7 +128,7 @@ er riktig, og så vil programmet ditt kjøre på arduinoen.
 
 + Klarer du å få lysdioden til å blinke raskt, med en lang pause mellom blinkene?
 + Klarer du å lage ditt eget blinkemønster?
-+ Klarer du å endre utgangen til port 11? Hvilken ledning må du flytte?
++ Klarer du å endre utgangen til port 13? Hvilken ledning må du flytte?
 
 ### Hva er `void setup()` og `void loop()`? {.protip}
 
@@ -147,10 +147,10 @@ toppen i `void loop()` rett etter den er ferdig med slutten på `void loop()`.
 Noe av det første som står i koden er:
 
 ```cpp
-int led = 13;
+int led = 8;
 ```
 
-LED står for Light Emitting Diode, eller lysdiode på norsk. Linjen lagrer tallet 13
+LED står for Light Emitting Diode, eller lysdiode på norsk. Linjen lagrer tallet 8
 til *variabelen* `led`, som er heltall (**int**eger på engelsk). Da kan vi senere
 bruke `led` i `pinMode`:
 
@@ -185,7 +185,7 @@ lampen av og på med en knapp!
 + Skriv denne koden:
 
   ```cpp
-  int led = 13;
+  int led = 8;
   int knapp = 7;
 
   void setup(){
