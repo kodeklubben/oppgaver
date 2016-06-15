@@ -49,14 +49,7 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 + Den første digitale porten heter **0**.
 + Den siste digitale porten heter **13**.
 + Det er altså totalt 14 digitale porter.
-+ Portene som har **~** ved siden av seg har funksjonaliteten *PWM* (Pulse Width Modulation).
-+ På den andre siden har vi analoge innganger, merket **ANALOG IN**.
-+ Første analoge inngang heter **A0**.
-+ Den siste analoge inngangen heter **A5**.
-+ Det er altså 6 analoge innganger.
-+ **5V** er 5 Volt.
-+ **GND** er jord, altså 0 Volt eller minus som noen kaller det.
-+ Hva tror du **3.3V** er?
++ **GND** er ground, jord på norsk.
 
 # Steg 3: Lag en krets {.activity}
 
@@ -84,8 +77,8 @@ gjennom kretsen:
 - Til GND (minus).
 
 Port 13 som er tilkoblet den røde ledningen er en digital port. Denne porten
-kan vi programmere slik at lysdioden blinker. Dette er akkurat som en
-__lysbryter__.
+kan vi programmere slik at lysdioden blinker. Da vil den fungere som en
+__lysknapp__.
 
 Den fargerike klumpen er en motstand. Denne begrenser strømmen,
 slik at vi ikke ødelegger lysdioden.
@@ -127,7 +120,8 @@ Det første programmet skal blinke med lysdioden.
   }
   ```
 
-+ Trykk på play-knappen for å laste opp koden.
++ Trykk på "upload"-knappen for å laste opp koden. Denne sjekker først om koden
+er riktig, og så vil programmet ditt kjøre på arduinoen.
 + Blinker lysdioden?
 
 ### Utfordringer {.challenge}
@@ -173,7 +167,7 @@ digitalWrite(led, HIGH);
 Dette er fint hvis vi senere ønsker å bytte utgang. Da trenger vi bare å endre
 en linje, istedenfor alle linjene vi nå bruker `led`.
 
-Husk at du alltid må bruke __;__ på slutten av hver kode linje!
+Husk at du alltid må bruke __;__ på slutten av hver kodelinje!
 
 # Steg 5: Legg til en knapp {.activity}
 
@@ -221,8 +215,8 @@ Her er noen nøtter du kan prøve deg på ved å endre koden.
 
   Hva skjer om `50` endres til ett større tall?
 
-  **Merk:** Lysdioden må være tilkoblet en port som har *PWM* for at
-  `analogWrite` skal fungere.
+  **Merk:** Lysdioden må være tilkoblet en port som har *PWM* (port med følgende
+  tegn: *~*) for at `analogWrite` skal fungere.
 
 + Kan du få lysdioden til å skrus på av et kort trykk på knappen?
   Og deretter skru av lysdioden med et nytt kort trykk?
