@@ -244,3 +244,5 @@ Her er noen nøtter du kan prøve deg på ved å endre koden.
 
 + Kan du få lysdioden til å skrus på av et kort trykk på knappen?
   Og deretter skru av lysdioden med et nytt kort trykk?
+
++ Kan du få til det samme med å bruke bare 3 ledninger?
