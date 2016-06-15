@@ -41,6 +41,7 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 
 <figure><img src="brett.png" style="width: 500px"></figure>
 
+
 ## Sjekkliste {.check}
 
 + På den ene siden har vi digitale inn- og utganger merket med **DIGITAL (PWM ~ )**.
@@ -112,22 +113,16 @@ Det første programmet skal blinke med lysdioden.
 + Skriv denne koden:
 
   ```cpp
-  // Dette er porten vi har koblet lysdioden til
   int led = 13;
 
   void setup(){
-    // Porten til lysdioden (13) skal være utgang
     pinMode(led, OUTPUT);
   }
 
   void loop(){
-    // Skru på lysdioden
     digitalWrite(led, HIGH);
-    // Vent 1000 millisekund
     delay(1000);
-    // Skru av lysdioden
     digitalWrite(led, LOW);
-    // Vent 1000 millisekund
     delay(1000);
   }
   ```
@@ -196,25 +191,18 @@ lampen av og på med en knapp!
 + Skriv denne koden:
 
   ```cpp
-  // Dette er porten vi har koblet lysdioden til
   int led = 13;
-  // Dette er porten vi har koblet knappen til
   int knapp = 7;
 
   void setup(){
-    // Porten til lysdioden (13) skal være utgang
     pinMode(led, OUTPUT);
-    // Porten til knappen (7) skal være inngang
     pinMode(knapp, INPUT_PULLUP);
   }
 
   void loop(){
-    // Her sjekker vi om knappen er trykket inn eller ikke
     if(digitalRead(knapp) == LOW){
-      // Hvis knappen er trykket inn skal lampen lyse
       digitalWrite(led, HIGH);
     } else {
-      // Hvis knappen ikke er trykket inn, vil ikke lampen lyse
       digitalWrite(led, LOW);
     }
   }
