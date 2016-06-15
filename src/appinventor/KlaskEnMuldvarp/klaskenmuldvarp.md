@@ -1,7 +1,7 @@
 ---
 title: Klask-en-Muldvarp
 level: 1
-author: Basert på MITs ["MoleMash for App Inventor 2"-guide](http://explore.appinventor.mit.edu/ai2/molemash)
+author: Basert på MITs ["MoleMash for App Inventor 2"-guide](http://appinventor.mit.edu/explore/ai2/molemash.html)
 translator: Hanne Johnsen
 license: "[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)"
 ---
@@ -75,7 +75,7 @@ Hver figur har en fart (_Speed_), retning (_Heading_) og intervall (_Interval_).
 
 + Gå til **Palette** og **Drawing and Animation**. Der velger du ![imagesprite](bilde.png), og drar den over til skjermen i **Viewer**. Pass på at du drar den oppå spillbrettet (gresset). Under **Components**, trykk på **Rename** og gi den navnet `Muldvarpen`.
 
-+ Last ned muldvarpbildet fra lenken [mole.png](http://explore.appinventor.mit.edu/sites/all/files/ai2tutorials/moleMash/mole.png).
++ Last ned muldvarpbildet fra lenken [mole.png](mole.png).
 
 + Gå til **Properties** og trykk på **None...** under **Picture**. Trykk **Upload File**. Trykk på **Velg Fil** og velg bildet du nettopp lastet ned. Trykk **OK**. Sjekk at muldvarpen har kommet opp på skjermen.
 
