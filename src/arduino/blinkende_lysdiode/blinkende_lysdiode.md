@@ -55,10 +55,17 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 
 *Nå skal vi lage vår første krets på en Arduino.*
 
+## Dette trenger du {.check}
++ 2 ledninger
++ 1 LED
++ 1 Arduino Uno
++ 1 breadboard
++ 1 motstand 220 Ohm (Fargekode: rød-rød-brun-gull)
+  
+  ![](komp.jpg)
+
 ## Sjekkliste {.check}
 
-+ Finn en lysdiode og noen ledninger.
-+ Finn en 270 Ohm motstand.
 + Koble slik som vist i figuren:
 
   ![](blinker.png)
@@ -177,8 +184,8 @@ lampen av og på med en knapp!
 
 ## Sjekkliste {.check}
 
-+ Finn en ledning og en knapp.
-+ Koble til bryteren som på bildet under:
++ Finn tre ledninger til, og en knapp.
++ Koble til knappen som på bildet under:
 
   ![](bryter.png)
 
