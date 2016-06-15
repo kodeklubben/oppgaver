@@ -142,7 +142,7 @@ og/eller __brett__. Da kan du sjekke disse to tingene:
 	+ Windows: __Tools -> Port -> COM1__ (kan være et annet tall)
 	![](port.png)
 	+ Mac: __Tools -> Port ->/dev/tty.usbmodem262471__ (kan være et annet tall)
-+ LEDen er koblet riktig vei
++ Lysdioden er koblet riktig vei
 	+ Den korteste "foten" skal gå til GND
 
 Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
