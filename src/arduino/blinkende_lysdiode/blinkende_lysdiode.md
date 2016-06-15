@@ -131,6 +131,23 @@ Det første programmet skal blinke med lysdioden.
 er riktig, og så vil programmet ditt kjøre på arduinoen.
 + Blinker lysdioden?
 
+### Virker det ikke? {.protip}
+
+Hvis det ikke virker, så kan det hende at Arduino-programmet står på feil __port__
+og/eller __brett__. Da kan du sjekke disse to tingene:
+
++ Brett er satt riktig: __Tools -> Board -> Arduino/Genuino Uno__
+
++ Port er satt riktig:
+	+ Windows: __Tools -> Port -> COM1__ (kan være et annet tall)
+	![](port.png)
+	+ Mac: __Tools -> Port ->/dev/tty.usbmodem262471__ (kan være et annet tall)
++ LEDen er koblet riktig vei
+	+ Den korteste "foten" skal gå til GND
+
+Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
+
+
 ### Utfordringer {.challenge}
 
 + Klarer du å få lysdioden til å blinke raskt, med en lang pause mellom blinkene?
