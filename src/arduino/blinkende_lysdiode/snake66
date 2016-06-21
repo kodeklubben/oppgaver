@@ -178,7 +178,7 @@ digitalWrite(led, HIGH);
 Dette er fint hvis vi senere ønsker å bytte utgang. Da trenger vi bare å endre
 en linje, istedenfor alle linjene vi nå bruker `led`.
 
-Husk at du alltid må bruke __;__ på slutten av hver kode linje!
+Husk at du alltid må bruke __;__ på slutten av hver kodelinje!
 
 # Steg 5: Legg til en knapp {.activity}
 
