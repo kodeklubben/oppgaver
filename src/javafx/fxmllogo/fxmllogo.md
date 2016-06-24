@@ -9,7 +9,7 @@ En viktig del av det å lage app-er er å utforme skjerminnholdet, dvs. alt app-
 
 | Kodeklubben | NTNU |
 |:--------:|:---------:|
-| <img src="../../assets/img/ccno_logo.png" style="margin:20px; height:168px;" /> | <img src="logo2_ntnu_u-slagord.gif" style="margin:20px; height:168px;" /> |
+| <img src="ccno_logo.png" style="margin:20px; height:168px;" /> | <img src="logo2_ntnu_u-slagord.gif" style="margin:20px; height:168px;" /> |
 
 I leksjonen [Hello world](../helloworld/helloworld.html) lærte du om hvordan du kan lage en app som viste et vindu med et tekst-objekt (av type **Text**). Da skrev du Java-kode som _laget_ tekst-objektet, _satte grafiske egenskaper_ for tekst-objektet og _la det til_ app-vinduet. Slik kode kan fort bli lang og uoversiktlig, og det kan være vanskelig å skrive kode som har ønsket effekt og se for seg hvordan skjerminnholdet vil bli seende ut.
 
