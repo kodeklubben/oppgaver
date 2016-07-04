@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Skjul ninjaene</title>
+  <style>
+    
+    body {
+      font-size: 20px;
+    }
+      
+    #gatehjorne {
+      width: 955px;
+      height: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      background: url(gatehjorne.png);
+      position: relative;
+    }
+    #andre_objekter {
+      margin-left: auto;
+      margin-right: auto;
+      top: 0px;
+      left: 0px;
+      position: absolute;
+      z-index: 200;
+    }
+    #kontainer {
+      position: absolute;
+      top: 14%;
+      left: 73%;
+    }
+    #soppelkasse {
+      position: absolute;
+      bottom: 190px;
+      left: 460px;
+    }
+    #sykkel {
+      position: relative;
+      bottom: -520px;
+      right: -20em;
+    }
+    #kafe_skilt {
+      position: fixed;
+      bottom: 40px;
+      left: 220px;
+    }
+    #kumlokk {
+      position: fixed;
+      bottom: 400px;
+      left: 520px;
+    }
+    
+    /* Ninjas */
+    
+    #lucy_the_ninja {
+      position: fixed;
+      top: 270px;
+      left: 89px;
+    }
+    #alex_the_ninja {
+      position: absolute;
+      top: 200px;
+      left: 80px;
+    }
+    #katy_the_ninja {
+      position: relative;
+      top: 200px;
+      left: 60px;
+    }
+    #sam_the_ninja {
+      position: static;
+      top: 100px;
+      left: 80px;
+    }
+    #omar_the_ninja {
+      position: fixed;
+      top: 200px;
+      left: 80px;
+    }
+    .ninja {
+      z-index: 1;
+    }
+    
+    /* Other objects (you can't move these) */
+    
+  </style>
+<style id="jsbin-css"></style></head>
+<body>
+  <div id="gatehjorne">
+    
+    <img id="lucy_the_ninja" class="ninja" src="lucy.png" />
+    <img id="alex_the_ninja" class="ninja" src="alex.png" />
+    <img id="katy_the_ninja" class="ninja" src="katy.png" />
+    <img id="omar_the_ninja" class="ninja" src="omar.png" />
+    <img id="sam_the_ninja" class="ninja" src="sam.png" />
+
+    
+    <img id="kumlokk" class="movable" src="kumlokk.png" />
+    <img id="kontainer" class="movable" src="kontainer.png" />
+    <img id="soppelkasse" class="movable" src="soppelkasse.png" />
+    <img id="sykkel" class="movable" src="sykkel.png" />
+    <img id="kafe_skilt" class="movable" src="kafe_skilt.png" />
+
+    <img id="andre_objekter" src="andre_objekter.png" />
+        
+  </div>
+ 
+<script>
+
+</script>
+</body>
+</html>
