@@ -1,12 +1,12 @@
 ---
-title: Lyd og bilde på nettsider
+title: 1.7 Ekstra! Legg til lyd og video på nettsiden din
 level: 3
 language: nb-NO
 ---
 
 # Introduksjon {.intro}
 
-Det finnes flere måte å legge til lyd og bilde på nettsidene dine. La oss ta en titt på de sammen.
+Det finnes flere måte å legge til lyd, bilder og video på nettsidene dine. La oss ta en titt på de sammen.
 
 # Legg til video fra YouTube {.activity}
 
