@@ -1,0 +1,129 @@
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Endre utseende og stil på tekst | Kodeklubben</title><link href="../../assets/style.min.css" rel="stylesheet"/><script type="text/javascript">// convert url relative to current file
+// ex: python/index.html -> ../python/index.html
+function relative(url) {
+  var urlRoot = '../..';
+  if (urlRoot !== '') {
+    return urlRoot + '/' + url;
+  }
+  return url;
+}</script></head><body><div class="container"><div class="row"><div class="col-xs-12"><div class="top-menu"><a href="../../index.html" class="btn btn-default"><span aria-hidden="true" class="glyphicon glyphicon-home"></span><span class="hidden-xs"> Forside</span></a><form class="search"><input type="text" placeholder="Søk" class="form-control"/></form><a title="Ta en omvisning på siden" data-placement="bottom" href="#" class="intro"></a><div class="links"><a href="http://www.kidsakoder.no" class="btn btn-default hidden-xs"><span>Lær Kidsa Koding</span></a></div></div></div><div class="search"><div class="results"><h1>Søkeresultat</h1></div></div><div class="col-xs-12"><header class="clearfix"><img src="../../assets/img/ccno_logo.png" class="logo hidden-xs"/><h1 class="title">Endre utseende og stil på tekst</h1><div class="lesson-icons"><div class="level"><img title="Level 2" src="../../assets/img/level2.png"/><span>Nybegynner</span></div><div class="course"><img src="../logo-white.png"/><span>Web</span></div><div class="pdf"><a href="/web/tekststil/tekststil.pdf" title="Last ned PDF" class="download"><span class="glyphicon glyphicon-save-file"></span></a><span>PDF</span></div></div></header></div><div class="col-xs-12"><div class="content"><section class="intro" id="introduksjon">
+<h1 class="intro" id="introduksjon">Introduksjon</h1>
+<p>I denne oppgaven skal vi se på og lære hvordan vi kan forandre skrifttyper, farge og størrelse. Vi skal også lære hvordan vi kan legge til en bakgrunnsfarge og ramme. Vi vil fortsette å bruke det samme prosjektet som i <a href="../forsvunnet_katt/forsvunnet_katt.html">forrige oppgave</a>. Så vi må være sikre på at vi har åpnet filen index.html fra mappen Felix.</p>
+</section>
+<section class="activity" id="steg-1-skrifttyper">
+<h1 class="activity" id="steg-1-skrifttyper">Steg 1: Skrifttyper </h1>
+<p>Vi kan forandre utseende på teksten ved å endre <strong>skrifttypen</strong>. De mest vanlige skrifttypene heter:</p>
+<ul>
+<li>Arial</li>
+<li>Courier New, Courier</li>
+<li>Garamond</li>
+<li>Georgia</li>
+<li>Lucida Sans, Lucida Grande, Lucida</li>
+<li>Palatino Linotype</li>
+<li>Tahoma</li>
+<li>Times New Roman, Times</li>
+<li>Trebuchet</li>
+<li>Verdana</li>
+</ul>
+<p>Ikke alle skrifttyper finnes på alle datamaskiner, så vi trenger å angi en <strong>reserve skrifttype</strong> også. Den som blir oftest bruker er ‘sans serif’ eller ‘serif’.</p>
+<p>La oss prøve å endre skrifttyper på overskriften ved å bruke <code>font-family</code> egenskapene:</p>
+<pre><code class="css"><span class="hljs-tag">h1</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">background-color</span>:<span class="hljs-value"> black</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">72px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">text-transform</span>:<span class="hljs-value"> uppercase</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">text-decoration</span>:<span class="hljs-value"> underline</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">text-decoration</span>:<span class="hljs-value"> blink</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">font-family</span>:<span class="hljs-value"> impact, sans-serif</span></span>;
+}</span>
+</code></pre>
+<p>Og nå – endre skrifttypen i en paragraf...</p>
+<pre><code class="css"><span class="hljs-tag">p</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">font-family</span>:<span class="hljs-value"> georgia, <span class="hljs-string">'times new roman'</span>, serif</span></span>;
+}</span>
+</code></pre>
+<section class="save" id="lagre-og-se-det-i-nettleseren">
+<h2 class="save" id="lagre-og-se-det-i-nettleseren"><strong>Lagre</strong> og <strong>se</strong> det i nettleseren.</h2>
+<p>Prøv nå med forskjellige skrifttyper som du liker best. Legg merke til at vi kan skille mellom hver skrifttype ved å bruke komma, og hvis navnet på skrifttypen består av flere ord – må navnet skrives inn i anførselstegn.</p>
+<p>Hvilken av skrifttypene som står listet over synes du er finest? Hvilken skrifttype synes du er enklest å lese?</p>
+<p>Har du en annen skrifttype på din datamaskin som ikke er nevnt over? (Det har du helt sikkert). Prøv å åpne programmet Word eller Pages, alle skrifttypene som er på datamaskinen kan du finne der.</p>
+<p><figure><img src="fonts.png" alt="screenshot"></figure></p>
+<p>Finn en du liker og prøv om du kan legge den ut på websiden!
+Du kan også lage teksten i <strong>fet</strong>, <em>kursiv</em> eller begge deler ved hjelp av skrifttype-stilegenskaper. La oss forandre epostteksten (husk at den finner vi inne i a-taggen)</p>
+<pre><code class="css"><span class="hljs-tag">a</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">font-weight</span>:<span class="hljs-value"> bold</span></span>;
+}</span>
+</code></pre>
+</section>
+<section class="save" id="lagre-og-se-det-i-nettleseren-2">
+<h2 class="save" id="lagre-og-se-det-i-nettleseren-2"><strong>Lagre</strong> og <strong>se</strong> det i nettleseren.</h2>
+<p>Eller vi kan sette teksten til <em>kursiv</em>.</p>
+<pre><code class="css"><span class="hljs-tag">a</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">font-style</span>:<span class="hljs-value"> italic</span></span>;
+}</span>
+</code></pre>
+</section>
+<section class="save" id="lagre-og-se-det-i-nettleseren-3">
+<h2 class="save" id="lagre-og-se-det-i-nettleseren-3"><strong>Lagre</strong> og <strong>se</strong> det i nettleseren.</h2>
+<p>Det er også en skriftstil-verdi som heter ‘oblique’. Hvordan ser den ut?</p>
+<p>Vi kan til og med bestemme hvor fet skriften skal være ved å bruke egenskapen font-weight-. Den bruker verdier som <code>normal</code>, <code>bold</code>, <code>bolder</code>, <code>lighter</code>. Du kan også bruke tall som 100, 200, 300, 400, 500, 600, 700, 800, og 900, hvor 100 er den tynneste skrifttypen og 900 er den tykkeste (feteste skriften). Normal tekst er det samme som verdien 400, fet er det samme som 700. Derimot så har ikke alle skrifttyper alle disse verdiene. Så for å være på den sikre siden, er det lurt å bruke normal- eller fet- skrift. Overskrifter er normalt satt til fet skrift som standard. Men hvis du for eksempel ikke ønsker at <code>h2</code> ikke skal være fet, må vi skrive følgende:</p>
+<pre><code class="css"><span class="hljs-tag">h2</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">font-weight</span>:<span class="hljs-value"> normal</span></span>;
+}</span>
+</code></pre>
+<p>Prøv det!</p>
+</section>
+</section>
+<section class="activity" id="step-2-kantlinjer">
+<h1 class="activity" id="step-2-kantlinjer">Step 2: Kantlinjer!</h1>
+<p>LLa oss legge til en kantlinje rundt et bilde.</p>
+<pre><code class="css"><span class="hljs-tag">img</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">border-color</span>:<span class="hljs-value"> green</span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">border-width</span>:<span class="hljs-value"> <span class="hljs-number">5px</span></span></span>;
+  <span class="hljs-rule"><span class="hljs-attribute">border-style</span>:<span class="hljs-value"> solid</span></span>;
+}</span>
+</code></pre>
+<section class="save" id="lagre-og-se-det-i-nettleseren-4">
+<h2 class="save" id="lagre-og-se-det-i-nettleseren-4"><strong>Lagre</strong> og <strong>se</strong> det i nettleseren.</h2>
+<p>Prøv nå å forandre farge, bredden, og linje-stil til du er fornøyd. Her er noen linje-stiler: <code>dashed</code>, <code>dotted</code>, <code>double</code>, <code>groove</code>, <code>ridge</code>, <code>inset</code>, <code>outset</code>.</p>
+<p>Du kan sette på kantlinjer på alle slags elementer, vi prøver litt mer.</p>
+</section>
+</section>
+<section class="activity" id="step-3-ider-og-klasser">
+<h1 class="activity" id="step-3-ider-og-klasser">Step 3: IDer og klasser</h1>
+<p>Vi ønsker å lage et kontaktavsnitt som er <strong>uthevet</strong>. Vi kan ikke bruke <code>&lt;p&gt;</code> tag fordi det vil endre alle andre paragrafer også. For å gjøre dette må vi legge til en stil for disse egenskapene. For å lage denne stilen må vi lage noe som kalles en ID. Vi trenger da følgende HTML:</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"uthevet"</span>&gt;</span>Har du sett Felix? Vennligst kontakt eieren hans på <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"mailto:eierentilfelix@email.com"</span>&gt;</span>eierentilfelix@email.com<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+<p>Nå kan vi endre stilen til IDen slik:</p>
+<pre><code class="css"><span class="hljs-id">#uthevet</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> red</span></span>;
+}</span>
+</code></pre>
+<section class="save" id="lagre-og-se-det-i-nettleseren-5">
+<h2 class="save" id="lagre-og-se-det-i-nettleseren-5"><strong>Lagre</strong> og <strong>se</strong> det i nettleseren.</h2>
+<p>En ID er unik og kan bare bli brukt en gang per side. Så hva gjør vi hvis du ønsker å lage to paragrafer med større skrift? Dette kan vi løse ved å bruke klasser. Det første vi må gjøre er å gi teksten klassenavnet for den teksten vi ønsker å gjøre større.</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"stor"</span>&gt;</span>Han forvant fra hagen i går.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"stor"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">strong</span>&gt;</span>Takk!<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+<p>Deretter setter vi stilen slik (legg merke til at vi bruker <code>.</code> i stedet for <code>#</code>):</p>
+<pre><code class="css"><span class="hljs-class">.stor</span> <span class="hljs-rules">{
+  <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">24px</span></span></span>;
+}</span>
+</code></pre>
+</section>
+<section class="try" id="ting-du-kan-prove">
+<h2 class="try" id="ting-du-kan-prove">Ting du kan prøve:</h2>
+<ul>
+<li>
+<p>Hvordan vil du endre siden for å få den til å se bedre ut? Hvorfor ikke prøve å bruke din favorittskrifttype, farge, osv?</p>
+</li>
+<li>
+<p>Hvis du er tidlig ferdig. Gå tilbake og legg på en stil i HTML dokumentet fra forrige leksjon.</p>
+</li>
+<li>
+<p>Forresten, visste du at egenskapene for bakgrunn, ikke bare lar deg endre farger, men også legge til et bilde?</p>
+</li>
+</ul>
+</section>
+</section>
+</div></div><div class="col-xs-12"><div id="footer" class="clearfix"><div class="license"><p><strong>Lisens:</strong></p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.no">CC BY-SA 4.0</a></div></div></div></div></div><div class="intro-question modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title">Hei der!</h4></div><div class="modal-body"><p>Ser ut som dette er ditt første besøk, vil du ha en omvisning?</p></div><div class="modal-footer"><button class="btn btn-success">Ja!</button><button data-dismiss="modal" class="btn btn-danger">Nei takk</button></div></div></div></div><script src="../../assets/vendor.min.js"></script><script src="../../assets/script.min.js"></script></body></html>
