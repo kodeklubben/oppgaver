@@ -1,0 +1,161 @@
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>1.3 Forsvunnet katt webside | Kodeklubben</title><link href="../../assets/style.min.css" rel="stylesheet"/><script type="text/javascript">// convert url relative to current file
+// ex: python/index.html -> ../python/index.html
+function relative(url) {
+  var urlRoot = '../..';
+  if (urlRoot !== '') {
+    return urlRoot + '/' + url;
+  }
+  return url;
+}</script></head><body><div class="container"><div class="row"><div class="col-xs-12"><div class="top-menu"><a href="../../index.html" class="btn btn-default"><span aria-hidden="true" class="glyphicon glyphicon-home"></span><span class="hidden-xs"> Forside</span></a><form class="search"><input type="text" placeholder="Søk" class="form-control"/></form><a title="Ta en omvisning på siden" data-placement="bottom" href="#" class="intro"></a><div class="links"><a href="http://www.kidsakoder.no" class="btn btn-default hidden-xs"><span>Lær Kidsa Koding</span></a></div></div></div><div class="search"><div class="results"><h1>Søkeresultat</h1></div></div><div class="col-xs-12"><header class="clearfix"><img src="../../assets/img/ccno_logo.png" class="logo hidden-xs"/><h1 class="title">1.3 Forsvunnet katt webside</h1><div class="lesson-icons"><div class="level"><img title="Level 2" src="../../assets/img/level2.png"/><span>Nybegynner</span></div><div class="course"><img src="../logo-white.png"/><span>Web</span></div><div class="pdf"><a href="/web/forsvunnet_katt/forsvunnet_katt.pdf" title="Last ned PDF" class="download"><span class="glyphicon glyphicon-save-file"></span></a><span>PDF</span></div></div></header></div><div class="col-xs-12"><div class="content"><section class="intro" id="introduksjon">
+<h1 class="intro" id="introduksjon">Introduksjon</h1>
+<p>Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i nabolaget, men du innser at å lage en webside gjør at mange fler kan se den.</p>
+<p><figure><img src="missingcat.png" alt="screenshot"></figure></p>
+</section>
+<section class="activity" id="steg-1">
+<h1 class="activity" id="steg-1">Steg 1</h1>
+<ul>
+<li>
+<p>Lag en ny mappe som du kaller Felix.</p>
+</li>
+<li>
+<p>Lag et nytt dokument med navnet <code>index.html</code> og lagre det i mappen du kalte Felix.</p>
+</li>
+<li>
+<p>Nå kan du sette opp dokumentet ditt slik som du lærte i forrige leksjon.</p>
+</li>
+</ul>
+<pre><code class="html"><span class="hljs-doctype">&lt;!doctype html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+<ul>
+<li>
+<p>Lag en tittel og en overskrift. Husk at tittelen skal plasseres i &quot;head&quot; og overskriften skal plasseres i &quot;body&quot;.</p>
+</li>
+<li>
+<p>Bruk &quot;Katten Felix er forsvunnet&quot; som tittel, og &quot;Forsvunnet&quot; som h1.</p>
+</li>
+<li>
+<p>Rett under <code>&lt;h1&gt;</code> kan vi lage en <code>&lt;h2&gt;</code> hvor det står &quot;Katten Felix&quot;.</p>
+</li>
+</ul>
+<toggle>
+  <strong>Hint</strong>
+  <hide>
+<pre><code class="html"><span class="hljs-doctype">&lt;!doctype html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span> Katten Felix er forsvunnet <span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Forsvunnet<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Katten Felix<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+``\`
+  <span class="hljs-tag">&lt;/<span class="hljs-title">hide</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">toggle</span>&gt;</span>
+
+# Steg 2 {.activity}
+
+Vi trenger også et bilde av Felix, slik at folk vet hva de skal se etter. Vi har tidligere lært hvordan å legge inn et bilde som er lagret et annet sted på Internett, men denne gangen skal vi bruke et bilde på vår egen datamaskin.
+
++ Finn et bilde på nettet av en katt.
++ Lagre bildet i mappen Felix og la bildet hete *felix.jpg* eller *felix.png* avhengig av om bilde du laster ned har *.jpg* eller *.png* bak navnet sitt.
++ Viktig at bildet blir lagt i samme mappe som `index.html`.
+
++ Nå kan du skrive `<span class="hljs-tag">&lt;<span class="hljs-title">img</span>&gt;</span>` taggen som du vanligvis ville gjort, men i scr attributten, istede for å skrive en URL skriver vi bare `felix.jpg` eller `felix.png`. Ikke glem å legge inn en `alt` attributt!
+
+```html
+<span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"felix.jpg"</span> <span class="hljs-attribute">alt</span>=<span class="hljs-value">"bilde av Felix"</span>&gt;</span>
+</code></pre>
+<ul>
+<li>Lagre filen din og vis den i nettleseren.</li>
+</ul>
+<p>Dersom bildet er litt for stort, så kan vi gjøre det mindre ved hjelp av attributtet <code>width</code>. Vi spesifiserer ikke bredden i centimeter eller meter eller tommer eller fot, men i noe som kalles <em>pixler</em>. Jeg velger å gå for 400 pixler for dette bildet, du kan selv velge hvor stort det skal være, så prøv deg frem med forskjellige tall.</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"felix.jpg"</span> <span class="hljs-attribute">alt</span>=<span class="hljs-value">"bilde av Felix"</span> <span class="hljs-attribute">width</span>=<span class="hljs-value">"400"</span>&gt;</span>
+</code></pre>
+</section>
+<section class="activity" id="steg-3">
+<h1 class="activity" id="steg-3">Steg 3</h1>
+<p>Under bildet vil vi skrive en beskrivelse av Felix, og gi noen detaljer om når og hvor han forsvant. For dette kan vi skrive noen paragrafer.</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er oransje. <span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Han forvant fra hagen i går.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+<p>Vi trenger også informasjon om hvordan å kontakte eieren hvis noen har sett eller funnet Felix.</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Har du sett Felix? Vennligst kontakt eieren hans på eierentilfelix@email.com<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+<p>Dette er bare en leke-epostadresse, men la oss gjøre det sånn at når noen klikker på den, så åpnes epostprogrammet deres. Vi gjør dette på nesten samme måten som vi lager en lenke, men istede for en <strong>url</strong> bruker vi <code>mailto</code> sånn som dette:</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Har du sett Felix? Vennligst kontakt eieren hans på <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"mailto:eierentilfelix@email.com"</span>&gt;</span>eierentilfelix@email.com<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+<section class="save" id="lagre-dokumentet-ditt-og-se-om-det-fungerer-i-nettleseren">
+<h2 class="save" id="lagre-dokumentet-ditt-og-se-om-det-fungerer-i-nettleseren">Lagre dokumentet ditt og se om det fungerer i nettleseren!</h2>
+</section>
+</section>
+<section class="activity" id="step-4-legge-til-fet-tekst-og-trykk">
+<h1 class="activity" id="step-4-legge-til-fet-tekst-og-trykk">Step 4: Legge til fet tekst og trykk</h1>
+<p>Vi vil virkelig at folk skal finne Felix, så vi vil legge litt <em>trykk</em> på <code>vennligst</code>. Dette gjør vi ved å bruke em taggen.</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Har du sett Felix? <span class="hljs-tag">&lt;<span class="hljs-title">em</span>&gt;</span>Vennligst<span class="hljs-tag">&lt;/<span class="hljs-title">em</span>&gt;</span> kontakt eieren hans på eierentilfelix@email.com<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+<p>Vi vil også at ´Tusen takk´ skal vises skikkelig, som vi oppnår ved å bruke strong taggen.</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">strong</span>&gt;</span>Tusen takk!<span class="hljs-tag">&lt;/<span class="hljs-title">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+</code></pre>
+<section class="save" id="lagre-dokumentet-ditt-og-vis-det-i-nettleseren">
+<h2 class="save" id="lagre-dokumentet-ditt-og-vis-det-i-nettleseren">Lagre dokumentet ditt og vis det i nettleseren.</h2>
+<ul>
+<li>Ser du nå hvordan vennligst vises i <em>skrå</em> og Tusen takk i <strong>fet</strong>?</li>
+</ul>
+</section>
+</section>
+<section class="activity" id="step-5-kommentarer">
+<h1 class="activity" id="step-5-kommentarer">Step 5: Kommentarer</h1>
+<p>Noen ganger er det lønnsomt å skrive kommentarer i selve html-filen. Med kommentarer mener vi ting som er ment for at mennesker skal lese hvis de åpner og ser filen, og ikke for nettleseren å lese og vise. Vi gjør dette ved å bruke den spesielle koden:</p>
+<pre><code class="html"><span class="hljs-comment">&lt;!-- skriv hva som helst her --&gt;</span>
+</code></pre>
+<p>Alt som skrives mellom pilene er kommentaren.
+La oss legge en kommentar i filen som sier at dette er et Kodeklubb-prosjekt og at Felix ikke er ekte.</p>
+<pre><code class="html"><span class="hljs-comment">&lt;!-- Dette er et Kodeklubb-prosjekt. Felix er ikke ekte og er egentlig ikke forsvunnet. --&gt;</span>
+</code></pre>
+</section>
+<section class="activity" id="steg-6-mer-metadata-det-er-bare-ting-som-legges-i-head">
+<h1 class="activity" id="steg-6-mer-metadata-det-er-bare-ting-som-legges-i-head">Steg 6: Mer metadata (Det er bare ting som legges i head)</h1>
+<p>La oss legge til hvem som har skrevet websiden til websiden, slik at de som ser filen vet at det er deg.</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"author"</span> <span class="hljs-attribute">content</span>=<span class="hljs-value">"#"</span>&gt;</span>
+</code></pre>
+<p>Erstatt # med navnet ditt.</p>
+<p>Det er også vanlig å legge til hvilket språk websiden er på. Vi gjør dette ved å legge til en attributt til <code>&lt;html&gt;</code> taggen.</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">html</span> <span class="hljs-attribute">lang</span>=<span class="hljs-value">"no"</span>&gt;</span>
+</code></pre>
+<p><em>no</em> står for norsk.</p>
+<p>Det er også god praksis å legge til tegnsettet (eller alfabet) dokumentet er skrevet i. Vi bruker vanligvis <strong>UTF-8</strong>.</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">charset</span>=<span class="hljs-value">"UTF-8"</span>&gt;</span>
+</code></pre>
+<p>Vi kan også legge til en beskrivelse av websiden.</p>
+<pre><code class="html">  <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"description"</span> <span class="hljs-attribute">content</span>=<span class="hljs-value">"En side laget for å finne katten Felix"</span>&gt;</span>
+</code></pre>
+<p>Og noen nøkkelord, separert med komma</p>
+<pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">name</span>=<span class="hljs-value">"keywords"</span> <span class="hljs-attribute">content</span>=<span class="hljs-value">"Felix, katt, forsvunnet"</span>&gt;</span>
+</code></pre>
+<p>Siden vår vil nå se ca slik ut:</p>
+<p><figure><img src="screenshot_jsbin.png" alt="screenshot"></figure></p>
+<p>Til venstre har vi HTML-koden og til høyre har vi hvordan nettleseren viser siden vår.</p>
+<section class="try" id="hva-kan-du-gjore-videre">
+<h2 class="try" id="hva-kan-du-gjore-videre">Hva kan du gjøre videre?</h2>
+<ul>
+<li>
+<p>Er det noe annet du kan legge til websiden som vil hjelpe folk å finne Felix? Mer informasjon? Hvordan ville du lagt til et kart over hvor han forsvant?</p>
+</li>
+<li>
+<p>Mer gøy med bilder. Legg til et bilde som beveger seg. Prøv å legge til bildet <code>catswithhats.gif</code> til websiden. Last ned gifen eller bruk lenken her: <a href="../forsvunnet_katt/ressurser/catswithhats.gif">catswithhats.gif</a>. Åpne det i nettleseren og se hva som skjer.</p>
+</li>
+<li>
+<p>Hvis Felix blir funnet. Bruk taggen <code>&lt;del&gt;</code> for å streke over informasjon som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen <code>&lt;ins&gt;</code> for å sette inn ny informasjon istede, som foreksempel <strong>Funnet</strong>!</p>
+</li>
+</ul>
+</section>
+</section>
+</div></div><div class="col-xs-12"><div id="footer" class="clearfix"><div class="license"><p><strong>Lisens:</strong></p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.no">CC BY-SA 4.0</a></div></div></div></div></div><div class="intro-question modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title">Hei der!</h4></div><div class="modal-body"><p>Ser ut som dette er ditt første besøk, vil du ha en omvisning?</p></div><div class="modal-footer"><button class="btn btn-success">Ja!</button><button data-dismiss="modal" class="btn btn-danger">Nei takk</button></div></div></div></div><script src="../../assets/vendor.min.js"></script><script src="../../assets/script.min.js"></script></body></html>

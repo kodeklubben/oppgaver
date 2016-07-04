@@ -1,0 +1,69 @@
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Skjul ninjaene | Kodeklubben</title><link href="../../assets/style.min.css" rel="stylesheet"/><script type="text/javascript">// convert url relative to current file
+// ex: python/index.html -> ../python/index.html
+function relative(url) {
+  var urlRoot = '../..';
+  if (urlRoot !== '') {
+    return urlRoot + '/' + url;
+  }
+  return url;
+}</script></head><body><div class="container"><div class="row"><div class="col-xs-12"><div class="top-menu"><a href="../../index.html" class="btn btn-default"><span aria-hidden="true" class="glyphicon glyphicon-home"></span><span class="hidden-xs"> Forside</span></a><form class="search"><input type="text" placeholder="Søk" class="form-control"/></form><a title="Ta en omvisning på siden" data-placement="bottom" href="#" class="intro"></a><div class="links"><a href="http://www.kidsakoder.no" class="btn btn-default hidden-xs"><span>Lær Kidsa Koding</span></a></div></div></div><div class="search"><div class="results"><h1>Søkeresultat</h1></div></div><div class="col-xs-12"><header class="clearfix"><img src="../../assets/img/ccno_logo.png" class="logo hidden-xs"/><h1 class="title">Skjul ninjaene</h1><div class="lesson-icons"><div class="level"><img title="Level 3" src="../../assets/img/level3.png"/><span>Erfaren</span></div><div class="course"><img src="../logo-white.png"/><span>Web</span></div><div class="pdf"><a href="/web/skjul_ninjaene/skjul_ninjaene.pdf" title="Last ned PDF" class="download"><span class="glyphicon glyphicon-save-file"></span></a><span>PDF</span></div></div></header></div><div class="col-xs-12"><div class="content"><section class="intro" id="introduksjon">
+<h1 class="intro" id="introduksjon">Introduksjon</h1>
+<p>Dette prosjektet vil utvide din kunnskapen din om CSS-kungfu.</p>
+<p>Fem ninjaer kom til byen, og du må skjule dem før noen legger merke til dem. Ved å bruke dine egne ninja-liknende CSS-kunnskaper må du hjelpe dem å finne et sikkert gjemmested. Du kan flytte ninjaene selv, og noen objekter i gaten også. Fort – det er ingen tid å miste!</p>
+<p><figure><img src="ninjas.png" alt="screenshot"></figure></p>
+</section>
+<section class="activity" id="steg-1-mot-ninjaene">
+<h1 class="activity" id="steg-1-mot-ninjaene">Steg 1: Møt ninjaene</h1>
+<ul>
+<li>
+<p>Last ned <a href="ninjaer.zip">ninjaer.zip</a> og pakk ut filene på din datamaskin.</p>
+</li>
+<li>
+<p>Åpne filen kalt ninjaer.html i teksteditoren. Åpne det opp i nettleseren også.</p>
+</li>
+<li>
+<p>Les gjennom koden. Kan du gjette hvilken del av koden som hører til delene i gatene? Legg merke til av vi bruker to språk her: HTML for å legge til elementene på siden, og CSS plassert mellom <code>style</code> taggene.</p>
+</li>
+<li>
+<p>Elementene vi skal leke med er bildene (<code>&lt;img&gt;</code> taggen). Vi kan ta kontroll over deres plassering ved å bruke CSS.</p>
+</li>
+</ul>
+<p>**Kom igjen – La oss flytte en ninja! **</p>
+<ul>
+<li>Alle ninjaene har fått eget navn ved bruk av <code>id</code> attributtet. La oss flytte Alex The Ninja først. Finn Alex sin CSS-stil.</li>
+<li>• Endre verdien på <code>left</code>(venstre) til <code>100px</code> og <code>top</code> til <code>320px</code>.
+Når position egenskapene er satt til <code>absolute</code> menes det at vi vil beskrive posisjonen i relasjon til foreldreelementet til ninjaen – I dette eksempelet <code>&lt;div&gt;</code> med <code>id</code> <code>gatehjoerne</code>.
+<code>px</code> betyr <code>pixel</code>(punkter). <code>left</code> beskriver hvor langt fra venstrekanten ninjaen skal plasseres (antall pixler) og <code>top</code> forteller nettleseren hvor langt ninjaen skal flyttes ned fra toppen.</li>
+<li>Endre <code>left</code> til <code>right</code> og <code>top</code> til <code>bottom</code>. Nå vil koden fortelle nettleseren at den skal plassere ninjaen <code>100px</code> fra den høyre kanten og <code>320px</code> fra bunnen.</li>
+</ul>
+<p>Pixel beskriver det minste fysiske punktet som kan vises på skjermen din. Det brukes ofte til å beskrive størrelsen på skjermen din.</p>
+</section>
+<section class="activity" id="steg-2-las-prove-a-beskrive-dette-litt-annerledes">
+<h1 class="activity" id="steg-2-las-prove-a-beskrive-dette-litt-annerledes">Steg 2: Las prøve å beskrive dette litt annerledes.</h1>
+<p>Nå vet du hvordan vi bruker pixel-posisjonering. Dette er ikke den eneste måten man kan beskrive plasseringer på skjermen, så la oss se på hva slags andre muligheter vi har.</p>
+<ul>
+<li>Finn <code>soppelkasse</code> elementet i CSSen.</li>
+</ul>
+<p>100% beskriver hele bredden som er tilgjengelig på skjermen. Når vi plasserer ninjaer og andre objekter i forhold til <code>gatehjornet</code>, som er 600 pixler bred, så vil 100% være lik <code>600px</code> i vårt eksempel. Hvis vi hadde laget et større gatehjørne, f.eks. 800 pixler bredt, ville 100% bety en bredde på <code>800px</code>. Avhengig av sammenhengen så kan størrelsen beskrevet i prosenter har forskjellige betydninger.</p>
+</section>
+<section class="activity" id="steg-3-en-storrelsetype-til">
+<h1 class="activity" id="steg-3-en-storrelsetype-til">Steg 3:  En størrelsetype til</h1>
+<p>Som om vi ikke har nok størrelse-typer nå, skal vi likevel prøve en til! Du vet nå hvordan man skal bruke pixler (px) og prosent(%). La oss nå prøve <code>em</code>.</p>
+<p><code>Em</code> er en måleenhet som vi låner fra typografi, som er handler om utsende på bokstaver og tekst. Én em er det samme som den gjeldende skriftstørrelsen. Legg merke til at på toppen av CSS, definerte vi font-size i body taggen som 20px, så én em vil være 20 pixler.</p>
+<ul>
+<li>Vi skrev tidligere at størrelsen på én <code>em</code> er basert på fontstørrelsen. For å teste dette, finn <code>body</code> i CSSen. Endre <code>font-size</code> verdien til 30px. Hva skjedde?
+Som dere ser når vi endre <code>em</code> til 30 pixler så endrer bredden og høyden seg til 30 pixels bred og 30 pixels høy på alle elementer som bruker denne verdien. Og som dere ser alle disse elementene har endret posisjon!</li>
+</ul>
+</section>
+<section class="activity" id="steg-4-fort-deg-skjul-ninjaene">
+<h1 class="activity" id="steg-4-fort-deg-skjul-ninjaene">Steg 4: Fort deg, skjul ninjaene! </h1>
+<p>Nå når du vet hvordan du skal flytte på elementene på skjermen, er det på tide å hjelpe ninjaene. Bruk de forskjellige måtene som er beskrevet over. Husk, du kan også flytte noen av objektene. Hvilken måte synes du er den beste å flytte de på? Finn den beste måten å skjule dem på. Lykke til!</p>
+<section class="try" id="ting-du-kan-prove">
+<h2 class="try" id="ting-du-kan-prove">Ting du kan prøve:</h2>
+<ul>
+<li>Kan du finne ut hvordan du kan få ninjaene til å komme foran noen av gateobjektene? Hva skjer om du kopierer <code>&lt;img&gt;</code> taggen for ninjaen etter <code>&lt;img&gt;</code> taggen som viser objektet?</li>
+<li>Klarer du å legge til flere objekter på scenen? Du kan legge til bilder fra datamaskinen din, eller finne noen på internett.</li>
+</ul>
+</section>
+</section>
+</div></div><div class="col-xs-12"><div id="footer" class="clearfix"><div class="license"><p><strong>Lisens:</strong></p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.no">CC BY-SA 4.0</a></div></div></div></div></div><div class="intro-question modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title">Hei der!</h4></div><div class="modal-body"><p>Ser ut som dette er ditt første besøk, vil du ha en omvisning?</p></div><div class="modal-footer"><button class="btn btn-success">Ja!</button><button data-dismiss="modal" class="btn btn-danger">Nei takk</button></div></div></div></div><script src="../../assets/vendor.min.js"></script><script src="../../assets/script.min.js"></script></body></html>
