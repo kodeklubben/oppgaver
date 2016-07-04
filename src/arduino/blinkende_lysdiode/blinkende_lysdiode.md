@@ -41,6 +41,7 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 
 <figure><img src="brett.png" style="width: 500px"></figure>
 
+
 ## Sjekkliste {.check}
 
 + På den ene siden har vi digitale inn- og utganger merket med **DIGITAL (PWM ~ )**.
@@ -48,26 +49,26 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 + Den første digitale porten heter **0**.
 + Den siste digitale porten heter **13**.
 + Det er altså totalt 14 digitale porter.
-+ Portene som har **~** ved siden av seg har funksjonaliteten *PWM* (Pulse Width Modulation).
-+ På den andre siden har vi analoge innganger, merket **ANALOG IN**.
-+ Første analoge inngang heter **A0**.
-+ Den siste analoge inngangen heter **A5**.
-+ Det er altså 6 analoge innganger.
-+ **5V** er 5 Volt.
-+ **GND** er jord, altså 0 Volt eller minus som noen kaller det.
-+ Hva tror du **3.3V** er?
++ **GND** er ground, jord på norsk.
 
 # Steg 3: Lag en krets {.activity}
 
 *Nå skal vi lage vår første krets på en Arduino.*
 
+## Dette trenger du {.check}
++ 2 ledninger
++ 1 LED
++ 1 Arduino Uno
++ 1 breadboard
++ 1 motstand 220 Ohm (Fargekode: rød-rød-brun-gull)
+  
+  ![](komp.jpg)
+
 ## Sjekkliste {.check}
 
-+ Finn en lysdiode og noen ledninger.
-+ Finn en 270 Ohm motstand.
 + Koble slik som vist i figuren:
 
-  ![](led.png)
+  ![](blinker.png)
 
 + Ingenting skjer, vi må skrive kode!
 
@@ -77,14 +78,14 @@ Nå har vi koblet vår første __krets__. Hvis du studerer koblingen, vil du se
 at det er en lukket krets. Det vil si at strømmen går fra pluss til minus
 gjennom kretsen:
 
-- Fra digital 13 (pluss).
-- Gjennom lysdioden.
+- Fra digital 8 (pluss).
 - Gjennom motstanden.
+- Gjennom lysdioden.
 - Til GND (minus).
 
-Port 13 som er tilkoblet den røde ledningen er en digital port. Denne porten
-kan vi programmere slik at lysdioden blinker. Dette er akkurat som en
-__lysbryter__.
+Port 8 som er tilkoblet den røde ledningen er en digital port. Denne porten
+kan vi programmere slik at lysdioden blinker. Da vil den fungere som en
+__lysknapp__.
 
 Den fargerike klumpen er en motstand. Denne begrenser strømmen,
 slik at vi ikke ødelegger lysdioden.
@@ -112,34 +113,46 @@ Det første programmet skal blinke med lysdioden.
 + Skriv denne koden:
 
   ```cpp
-  // Dette er porten vi har koblet lysdioden til
-  int led = 13;
+  int led = 8;
 
   void setup(){
-    // Porten til lysdioden (13) skal være utgang
     pinMode(led, OUTPUT);
   }
 
   void loop(){
-    // Skru på lysdioden
     digitalWrite(led, HIGH);
-    // Vent 1000 millisekund
     delay(1000);
-    // Skru av lysdioden
     digitalWrite(led, LOW);
-    // Vent 1000 millisekund
     delay(1000);
   }
   ```
 
-+ Trykk på play-knappen for å laste opp koden.
++ Trykk på ![](upload.png) for å laste opp koden. Denne sjekker først om koden
+er riktig, og så vil programmet ditt kjøre på arduinoen.
 + Blinker lysdioden?
+
+### Virker det ikke? {.protip}
+
+Hvis det ikke virker, så kan det hende at Arduino-programmet står på feil __port__
+og/eller __brett__. Da kan du sjekke disse to tingene:
+
++ Brett er satt riktig: __Tools -> Board -> Arduino/Genuino Uno__
+
++ Port er satt riktig:
+	+ Windows: __Tools -> Port -> COM1__ (kan være et annet tall)
+	![](port.png)
+	+ Mac: __Tools -> Port ->/dev/tty.usbmodem262471__ (kan være et annet tall)
++ Lysdioden er koblet riktig vei
+	+ Den korteste "foten" skal gå til GND
+
+Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
+
 
 ### Utfordringer {.challenge}
 
 + Klarer du å få lysdioden til å blinke raskt, med en lang pause mellom blinkene?
 + Klarer du å lage ditt eget blinkemønster?
-+ Klarer du å endre utgangen til port 11? Hvilken ledning må du flytte?
++ Klarer du å endre utgangen til port 13? Hvilken ledning må du flytte?
 
 ### Hva er `void setup()` og `void loop()`? {.protip}
 
@@ -158,10 +171,10 @@ toppen i `void loop()` rett etter den er ferdig med slutten på `void loop()`.
 Noe av det første som står i koden er:
 
 ```cpp
-int led = 13;
+int led = 8;
 ```
 
-LED står for Light Emitting Diode, eller lysdiode på norsk. Linjen lagrer tallet 13
+LED står for Light Emitting Diode, eller lysdiode på norsk. Linjen lagrer tallet 8
 til *variabelen* `led`, som er heltall (**int**eger på engelsk). Da kan vi senere
 bruke `led` i `pinMode`:
 
@@ -178,7 +191,7 @@ digitalWrite(led, HIGH);
 Dette er fint hvis vi senere ønsker å bytte utgang. Da trenger vi bare å endre
 en linje, istedenfor alle linjene vi nå bruker `led`.
 
-Husk at du alltid må bruke __;__ på slutten av hver kode linje!
+Husk at du alltid må bruke ``;`` på slutten av hver kodelinje!
 
 # Steg 5: Legg til en knapp {.activity}
 
@@ -188,39 +201,32 @@ lampen av og på med en knapp!
 
 ## Sjekkliste {.check}
 
-+ Finn en ledning og en knapp.
-+ Koble til bryteren som på bildet under:
++ Finn tre ledninger til, og en knapp.
++ Koble til knappen som på bildet under:
 
   ![](bryter.png)
 
 + Skriv denne koden:
 
   ```cpp
-  // Dette er porten vi har koblet lysdioden til
-  int led = 13;
-  // Dette er porten vi har koblet knappen til
+  int led = 8;
   int knapp = 7;
 
   void setup(){
-    // Porten til lysdioden (13) skal være utgang
     pinMode(led, OUTPUT);
-    // Porten til knappen (7) skal være inngang
     pinMode(knapp, INPUT_PULLUP);
   }
 
   void loop(){
-    // Her sjekker vi om knappen er trykket inn eller ikke
     if(digitalRead(knapp) == LOW){
-      // Hvis knappen er trykket inn skal lampen lyse
       digitalWrite(led, HIGH);
     } else {
-      // Hvis knappen ikke er trykket inn, vil ikke lampen lyse
       digitalWrite(led, LOW);
     }
   }
   ```
 
-+ Trykk på play-knappen for å laste opp koden.
++ Trykk på ![](upload.png) for å laste opp koden.
 + Lyser lysdioden når du trykker på knappen?
 
 Se der! Nå har du lært å lage enkle kretser med Arduino!
@@ -233,8 +239,10 @@ Her er noen nøtter du kan prøve deg på ved å endre koden.
 
   Hva skjer om `50` endres til ett større tall?
 
-  **Merk:** Lysdioden må være tilkoblet en port som har *PWM* for at
-  `analogWrite` skal fungere.
+  **Merk:** Lysdioden må være tilkoblet en port som har *PWM* (port med følgende
+  tegn: *~*) for at `analogWrite` skal fungere.
 
 + Kan du få lysdioden til å skrus på av et kort trykk på knappen?
   Og deretter skru av lysdioden med et nytt kort trykk?
+
++ Kan du få til det samme med å bruke bare 3 ledninger?
