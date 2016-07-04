@@ -12,7 +12,7 @@ I oppgaven [Introduksjon til Web](../internett/internett.html) kan du lære om *
 
 ## Aktiviteter {.check}
 
-1. Åpne et __tekstprogram__.
+1. Åpne en **teksteditor**, for eksempel teksteditoren [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller [NotePad++](https://notepad-plus-plus.org/).
 2. Last ned [internett.zip](internett.zip) hvis du ikke har gjort det allerede igjennom [Introduksjon til Web](../internett/internett.html).
 3. Åpne filen som heter `om_meg.html`. Filen inneholder bittelitt HTML kode for å hjelpe deg med å komme igang, men du må skrive resten selv.
 
