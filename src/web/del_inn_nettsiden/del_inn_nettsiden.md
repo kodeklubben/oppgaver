@@ -6,9 +6,15 @@ language: nb-NO
 
 # Introduksjon {.intro}
 
-__Målet med denne oppgaven__ er å lære hvordan man kan organisere en nettside ved å dele den inn med forskjellige tagger. Dersom du ikke er kjent med tagg-strukturen i HTML som vi har sett på de tidligere oppgaven, så anbefaler jeg at du går tilbake og se disse.
+__Målet med denne oppgaven__ er å lære hvordan man kan organisere en nettside ved å dele den inn med forskjellige tagger. Dersom du ikke er kjent med tagg-strukturen i HTML som vi har sett på de tidligere oppgaven, så anbefaler jeg at du går tilbake og se disse. Vi skal også se på hvordan vi kan sette farge på de forskjellige taggene ved hjelp av CSS, men vi kommer ikke til å gå i dybden i denne oppgaven. For mer CSS, se spillelisten som heter `CSS`.
 
-I denne oppgaven vil du gjøre oppgaver der du må programmere uten oppskrift, dersom du står fast kan du trykke på "Se koden så langt" og se én måte å gjøre det på. Det er ingen fasit på oppgavene du gjør her, men vi kommer med et forslag til hvordan de kan løses.
+I denne oppgaven vil du gjøre oppgaver der du må programmere uten oppskrift, dersom du står fast kan du trykke på "Se koden så langt" og se én måte å løse oppgaven på. Det er ingen fasit på oppgavene du gjør her, men vi kommer med et forslag til hvordan de kan løses.
+
+Når vi er ferdig med oppgaven kommer siden din til å se noe sånt ut, kanskje med litt mer tekst eller andre farger:
+
+![screenshot](ressurser/html_del_inn_5.png)
+
+
 
 __Lykke til!__
 
@@ -251,6 +257,25 @@ Under ser du hvordan du kan legge til CSS i `<head>`-taggen med 3 IDer:
 </hide>
 </toggle>
 
+Det finnes flere måter å skive farger i CSS på. Vi har nå brukt kjente ord som `red`, `blue`og `green`. Men vi kan faktisk lage 16 millioner forskjellige farger ved å bruke en annen metode. For å lage dise fargene skal vi bruke tall fra 0-9 og bokstaver fra A-Z. Vi setter disse sammen i en kombinasjon av 6 tall og/eller bokstaver. Siden det tar veldig lang tid å prøve ut alle kombinasjonene, så bruker vi litt hjelp for å finne de fargene vi vil ha:
+
++ Gå inn på [paletton.com](http://paletton.com) eller [colourpicker.com](http://colourpicker.com) og velg og vrak i masse forskjellige farger.
++ Erstatt de fargene du har med noen andre du liker ved å bruke `#` foran de 6 tall/bokstavene. Eksempel: `#338F33` gir en ganske fin grønnfarge.
+
+<toggle>
+<strong>Se koden så langt</strong>
+<hide>
+
+  ```css
+  #nav{
+    background-color: #338F33;
+  }
+  ```
+  </hide>
+</toggle>
+
+Vi skal se enda mer på CSS etter vi har lært litt mer HTML.
+
 ## Utfordring {.try}
 + Gå inn på [w3schools.com/css](http://w3schools.com/css) og se om du finner en flere “properties” du kan endre på.
 
@@ -310,9 +335,25 @@ For å få fargene til å fungere igjen må vi endre CSSen. Siden vi ikke har en
 + Fjern `#` i CSSen
 + Legg til selektorene (taggene) du vil ha CSS på
 
+CSS-en bør se noe sånt ut: (Merk at jeg har sikkert andre farger enn deg)
+```css
+      header{
+          background-color: #D46A6A;
+      }
+
+      nav{
+           background-color: #55AA55;
+      }
+
+      section{
+          background-color: #669999;
+      }
+```
++ Legg til farge på bakgrunnen for hele siden ved å legge til CSS på `<body>`-taggen. Velg farge selv.
+
 Nå vil koden se noe sånt ut:
 
-![screenshot](ressurser/html_del_inn_3.png)
+![screenshot](ressurser/html_del_inn_6.png)
 
 
 
