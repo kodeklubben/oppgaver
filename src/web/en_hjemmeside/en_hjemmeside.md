@@ -6,14 +6,14 @@ language: nb-NO
 
 # Introduksjon {.intro}
 
-I oppgaven [Introduksjon til Web](../internett/internett.html) kan du lære om *HTML*-tagger, og i denne oppgaven skal du bruke HTML-taggene i din første hjemmeside. La oss begynne med en gang!
+I oppgaven [Introduksjon til Web](../introduksjon_til_web/introduksjon_til_web.html) kan du lære om *HTML*-tagger, og i denne oppgaven skal du bruke HTML-taggene i din første hjemmeside. La oss begynne med en gang!
 
 # Steg 1: Åpne siden som heter om meg {.activity}
 
 ## Aktiviteter {.check}
 
 1. Åpne et __tekstprogram__.
-2. Last ned [internett.zip](internett.zip) hvis du ikke har gjort det allerede igjennom [Introduksjon til Web](../internett/internett.html).
+2. Last ned [internett.zip](../introduksjon_til_web/internett.zip) hvis du ikke har gjort det allerede igjennom [Introduksjon til Web](../introduksjon_til_web/introduksjon_til_web.html).
 3. Åpne filen som heter `om_meg.html`. Filen inneholder bittelitt HTML kode for å hjelpe deg med å komme igang, men du må skrive resten selv.
 
 
@@ -49,7 +49,7 @@ Inne i `<img>` taggen har vi `src` og `alt` attributter:
 ```
 `src` er hvor bildet blir hentet fra og hva det heter. I dette tilfellet ligger bildet på samme sted som `om_meg.html`. Hadde bildet ligget i en annen mappe måtte vi ha spesifisert det, for eksempel slik: `bilder/katt.png`.
 
-`alt` er en tekst som kommer tilsyne dersom bildet ikke vises. Dette er nyttig for å kunne se hvilke bilde som ikke vises dersom det har skjedd noe feil.
+`alt` er en tekst som kommer tilsyne dersom bildet ikke vises. Dette gjør at, for eksempel, blinde kan få lest opp hva det er bilde av via en skjermleser. Bildeteksten kan også hjelpe deg med å finne feil dersom et bilde ikke vises på nettsiden din.
 
 + Prøv å endre `src` til noe annet. Lagre dokumentet og oppdater i nettleseren.
 
@@ -65,22 +65,32 @@ Inne i `<img>` taggen har vi `src` og `alt` attributter:
 
 + Lagre og oppdater i nettleseren.
 
-Den neste taggen forsvant. Hvorfor? Nettleseren vil tro at alt etter `alt =" `og før neste sitatmerke (` "`) er ekstra tekst for dette bildet, inkludert slutten av bildekoden og neste åpnings-taggen.
+Den neste taggen forsvant. Hvorfor? Nettleseren vil tro at alt etter `alt ="` og før neste sitatmerke (` "`) er ekstra tekst for dette bildet, inkludert slutten av bildekoden og neste åpnings-taggen.
 
-+ Fiks det igjen ved å legge til et anførselstegn etter `alt` teksten.
++ Rett opp feilen slik at alt fungerer igjen.
 
-Vi har nå gjort noen vanlige feil sammen, og har sett at noen ganger kan en enkelt feil gjøre slik at nettleseren ikke forstår hva vi mener. Men mesteparten av tiden vil den prøve å vise oss noe uansett, så når vi har endret overskrift-koden til noe annet, forsto den ikke at teksten var en overskrift, men viste oss fortsatt teksten. Så den prøver så godt den kan, men noen feil kan gjøre den ganske forvirret.
+<toggle>
+  <strong>Hint</strong>
+  <hide>
+
+alt="Katt"
+
+  </hide>
+</toggle>
+
+
+Vi har nå gjort noen vanlige feil og vi har sett at noen ganger kan en enkelt feil gjøre at nettleseren ikke forstår hva vi vil. Men mesteparten av tiden vil nettleseren prøve å vise oss noe uansett. Vi så at nettleseren viste oss tekst selvom den ikke forstod at det var en overskrift vi prøve å vise. Så den hjelper oss litt underveis og prøver å vise det vi lager så godt den kan. Men vi har sett at enkelte feil gjør det veldig forvirret.
 
 # Steg 3: Lag en ny side og link til den {.activity}
 
 La oss lage en ny side. Åpne `omg_meg_side_2.html`.  Den har litt mindre kode en den andre siden du jobbet med, men jeg er sikker på at du kan legge til mer kode selv nå.
 
 
-__Utfordringer til deg:__
-
-* Legg til en overskrift som vil fungere som tittelen på denne siden.
-* Denne siden kan handle om kjæledyret ditt, din favoritt hobby eller vennene dine og deres hobbyer.
-* Lag en liste over ting kjæledyret liker, hvis siden er om et kjæledyr.
+## Utfordringer til deg: {.challenge}
+- Legg til en overskrift som vil fungere som tittelen på denne siden.
+- Denne siden kan handle om kjæledyret ditt, din favoritt hobby eller vennene dine og deres hobbyer.
+- Lag en liste over ting kjæledyret liker, hvis siden er om et kjæledyr.
+## <!-- Challenge slutt -->
 
 __Er du ferdig? Flott! La oss nå linke de to sidene du har laget sammen.__
 

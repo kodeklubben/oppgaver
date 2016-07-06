@@ -1,5 +1,5 @@
 ---
-title: "HTML: Ekstra! Publiser nettsiden din"
+title: "HTML: Publiser nettsiden din"
 level: 2
 language: nb-NO
 ---

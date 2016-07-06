@@ -1,5 +1,5 @@
 ---
-title: "HTML: Forsvunnet katt webside"
+title: "HTML: Forsvunnet katt"
 level: 2
 language: nb-NO
 ---
@@ -27,9 +27,9 @@ Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i 
 </html>
 ```
 
-+ Lag en tittel og en overskrift. Husk at tittelen skal plasseres i "head" og overskriften skal plasseres i "body".
++ Lag en tittel og en overskrift. Husk at tittelen skal plasseres i `<head>` og overskriften skal plasseres i `<body>`.
 
-+ Bruk "Katten Felix er forsvunnet" som tittel, og "Forsvunnet" som h1.
++ Bruk "Katten Felix er forsvunnet" som tittel, og "Forsvunnet" som `<h1>`.
 
 + Rett under `<h1>` kan vi lage en `<h2>` hvor det står "Katten Felix".
 
@@ -58,7 +58,7 @@ Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i 
 Vi trenger også et bilde av Felix, slik at folk vet hva de skal se etter. Vi har tidligere lært hvordan å legge inn et bilde som er lagret et annet sted på Internett, men denne gangen skal vi bruke et bilde på vår egen datamaskin.
 
 + Finn et bilde på nettet av en katt.
-+ Lagre bildet i mappen Felix og la bildet hete *felix.jpg* eller *felix.png* avhengig av om bilde du laster ned har *.jpg* eller *.png* bak navnet sitt.
++ Lagre bildet i mappen Felix og la bildet hete `felix.jpg` eller `felix.png` avhengig av om bilde du laster ned har `.jpg` eller `.png` bak navnet sitt.
 + Viktig at bildet blir lagt i samme mappe som `index.html`.
 
 + Nå kan du skrive `<img>` taggen som du vanligvis ville gjort, men i scr attributten, istede for å skrive en URL skriver vi bare `felix.jpg` eller `felix.png`. Ikke glem å legge inn en `alt` attributt!
@@ -69,7 +69,7 @@ Vi trenger også et bilde av Felix, slik at folk vet hva de skal se etter. Vi ha
 
 + Lagre filen din og vis den i nettleseren.
 
-Dersom bildet er litt for stort, så kan vi gjøre det mindre ved hjelp av attributtet `width`. Vi spesifiserer ikke bredden i centimeter eller meter eller tommer eller fot, men i noe som kalles *pixler*. Jeg velger å gå for 400 pixler for dette bildet, du kan selv velge hvor stort det skal være, så prøv deg frem med forskjellige tall.
+Dersom bildet er litt for stort, så kan vi gjøre det mindre ved hjelp av attributtet `width`. Vi spesifiserer ikke bredden i centimeter eller meter eller tommer eller fot, men i noe som kalles `pixler`. Jeg velger å gå for 400 pixler for dette bildet, du kan selv velge hvor stort det skal være, så prøv deg frem med forskjellige tall.
 
 ```html
 <img src="felix.jpg" alt="bilde av Felix" width="400">
