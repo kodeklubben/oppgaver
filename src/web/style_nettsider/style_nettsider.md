@@ -16,7 +16,7 @@ Det finnes mange måter å lage stiler på, __inline__, i `<head>`, eller som en
 
 ## Sjekkliste {.check}
 
-+ Åpne index.html fra mappen Felix som vi lagde i oppgaven [Forvunnet katt](forsvunnet_katt/forsvunnet_katt.html) eller last ned filen ved å høyreklikke og trykk `lagre som`: [index.html](../forsvunnet_katt/ressurser/index.html). Lag en mappe som heter `Felix` og legg `index.html` i den.
++ Åpne index.html fra mappen Felix som vi lagde i oppgaven [Forvunnet katt](../forsvunnet_katt/forsvunnet_katt.html) eller last ned filen ved å høyreklikke og trykk `lagre som`: [index.html](../forsvunnet_katt/ressurser/index.html). Lag en mappe som heter `Felix` og legg `index.html` i den.
 + I seksjonen `<head>` trenger vi en __style-tag__.
 ```html
  <style>
