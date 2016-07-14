@@ -7,7 +7,7 @@ level: 2
 La oss gjøre nettsiden bedre med noen stiler.
 I denne og neste leksjon skal vi lære oss hvordan å endre farge, tekst, størrelse og mer!
 
-Vi endrer hvordan en side ser ut gjennom å bruke et språk som heter __CSS__ (som står for __Cascading Style Sheets__). Det er et veldigt enkelt språk å lære. La oss begynne.
+Vi endrer hvordan en side ser ut gjennom å bruke et språk som heter __CSS__ (som står for __Cascading Style Sheets__). Det er et veldig enkelt språk å lære. La oss begynne.
 
 
 # Steg 1: Konfigurasjon før vi legger til stiler {.activity}

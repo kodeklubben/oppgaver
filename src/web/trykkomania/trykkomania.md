@@ -23,7 +23,7 @@ Vi skal bruke JS Bin (http://jsbin.com) for å lage spillet. Hvis du aldri har b
 - Når du starter er begge fanene tomme.
 
 # Steg 2: Lage en ball {.activity}
-Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi skal bruke JavaScript til å lage *HTML*. Du trenger ikke kunne noe spesielt om HTML, men om du ønsker lære om HTML, se [oppgaven Internett](../internett/internett.html).
+Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi skal bruke JavaScript til å lage *HTML*. Du trenger ikke kunne noe spesielt om HTML, men om du ønsker lære om HTML, se [oppgaven Introduksjon til web](../introduksjon_til_web/introduksjon_til_web.html).
 
 ## Sjekkliste {.check}
 - Vi begynner med å lage en funksjon som heter `Ball`:

@@ -1,11 +1,13 @@
 ---
-title: Internett
+title: "HTML: Introduksjon til Web"
 level: 1
 language: nb-NO
 ---
 
 
 # Introduksjon {.intro}
+**Målet med dette oppgavesettet** er å gi deg en enkel introduksjon til internett og hvordan nettsider og HTML fungerer. I denne oppgaven er det viktig at du tar deg god tid og leser oppgavene nøye.
+
 Har du noen gang lurt på hvordan internett virker? Klart du har det! I dag kommer du til å lære hvordan man lager nettsider slik at du også kan hjelpe til med å bygge det. Nettsider blir skrevet ved å bruke **HTML**, som er en forkortelse for **HyperText Markup Language** på engelsk. Du kommer til å finne ut mer om dette ettersom du bygger siden din.
 
 Filene som du bes åpne i denne oppgaven finner du i [internett.zip](internett.zip). Last ned filen og pakk den ut før du starter. Om du ikke får pakket ut filen, kan du laste ned programmet [7zip](http://www.7-zip.org/) som pakker ut zip-filer.
@@ -14,7 +16,7 @@ Filene som du bes åpne i denne oppgaven finner du i [internett.zip](internett.z
 # Steg 1: Hva er nettsider? {.activity}
 
 ## Aktiviteter {.check}
-1. Åpne en **teksteditor**, for eksempel [teksteditoren atom](http://atom.io).
+1. Åpne en **teksteditor**, for eksempel teksteditoren [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller [NotePad++](https://notepad-plus-plus.org/).
 2. Lag et nytt dokument.
 3. Skriv noe! For eksempel: `Hei! Jeg heter ...`
 4. Lagre filen til filnavnet `hei.txt`.
@@ -22,7 +24,7 @@ Filene som du bes åpne i denne oppgaven finner du i [internett.zip](internett.z
 6. Lagre nå filen på nytt til filnavnet `fil.html` med *Lagre som*.
 7. Åpne filen på nytt.
 
-Hvilket program ble filen åpnet i denne gangen? Nettleseren er et spesielt program som vet hvordan man skal tolke tekstfiler som er skrevet ved hjelp av HTML. Vi har ikke laget noe HTML enda, vi la bare inn tekst, men det bryr ikke nettleseren seg noe om! Så lenge du gir den en `.html`-fil, kommer den til å gjøre sitt beste for å vise deg hva som er i filen. Det samme gjelder når en HTML-fil inneholder feil, da vil nettleseren prøve å finne ut av hvordan den skal vises fram uansett.
+Hvilket program ble filen åpnet i denne gangen? Nettleseren er et spesielt program som vet hvordan man skal tolke tekstfiler som er skrevet ved hjelp av HTML. Vi har ikke laget noe HTML enda, bare en HTML-fil. I HTML-filen har vi kun tekst, men det bryr ikke nettleseren seg noe om! Så lenge du gir den en `.html`-fil, kommer den til å gjøre sitt beste for å vise deg hva som er i filen. Det samme gjelder når en HTML-fil inneholder feil, da vil nettleseren prøve å finne ut av hvordan den skal vises fram uansett.
 
 **Hvordan kan vi se disse filene?**
 
@@ -62,13 +64,13 @@ Tagger kan også ha **attributter**, som er informasjon om elementet. La oss se 
 # Steg 3: Flere tagger {.activity}
 Vi har allerede nevnt taggene `<p>` og `<a>`, men det finnes mange flere. Her er noen tagger som ofte brukes:
 
-- `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`: Overskrifter.
+- `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`: Overskrifter med ulik størrelse.
 - `<ol>`: Sortert liste.
 - `<ul>`: Usortert liste.
 - `<li>`: Et punkt i en liste.
 - `<hr>`: Horisontal linje.
 - `<div>`: En boks for å gruppere ting.
-- `<img>`: Et bilde. Bilder er litt spesielle, fordi i motsetning til de fleste andre tagger så har **ikke** `<img>` en avslutning `</img>`.
+- `<img>`: Et bilde. Bilder er litt spesielle, fordi i motsetning til de fleste andre tagger så har **ikke** `<img>` en avslutning `</img>`. For å vise et bilde bruker vi et attributt som heter `src="lenke til bildet"`, men dette skal vi se nærmere på i en senere oppgave.
 
 Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 
