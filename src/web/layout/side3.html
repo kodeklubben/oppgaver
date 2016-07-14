@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Layout</title>
+    
+<style>
+    
+    html{
+        height: 100%;
+        width: 100%;
+        background-color:#3DD14B;
+
+    }
+    
+    body{
+        margin: 0 auto;
+        width: 1080px;
+        background-color: #634335;
+    }
+    
+
+    
+    nav ul{
+        margin: 0 auto;         /* fjerner marger og midtstiller */
+        width: 1072px;          /* setter bredden til 1040px, siden */
+        height: 40px;           /* setter høyden til 40px */
+        border: #000 4px solid; 
+        padding: 0;
+    }
+    
+    nav ul li{
+        float:left;             /* gjør at teksten flyter mot venstre */
+        list-style-type: none;  /* gjerner punktet foran liste-elementet */
+
+    }
+    
+    nav ul li a{
+        display: block;         /* Gjør at kantene går helt opp til hoved rammen */
+        padding-left: 20px;     /* mellomrommet til venstre fra teksten til rammen */
+        padding-right: 20px;    /* mellomrommet til høyre fra teksten til rammen */
+        line-height: 40px;      /* hvor høy linjen skal være */
+        border-right: #000 4px solid; /* legger til ramme med farge, tykkelse og stil */
+        text-decoration: none;  /* tar vekk understreker */
+        font-size: 20px;        /* setter skriftstørrelsen til 20px */
+        color: #3DD14B;
+        
+    }
+    
+    section{
+        margin: 0 auto;
+        display: block;
+        background-color: #634335;
+        height: 400px;
+    }
+    
+    section h1{
+        color: #FFF;
+        padding-left: 30px;
+    }
+    
+    section p{
+        color: #3DD14B;
+        padding-left: 30px;
+    }
+    
+    footer{
+        height: 40px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        background-color: #634335;
+        border-top: #3DD14B 4px solid;
+        color:#3DD14B;
+    }
+    
+</style>
+    
+</head>
+<body>
+    <header>
+        <img src="header.jpg" alt="header">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="side2.html">Side 2</a></li>
+            <li><a href="side3.html">Side 3</a></li>
+        </ul>
+    
+    </nav>
+
+    <section>
+        <h1>Side 3</h1>
+        <p>Bla bla</p>
+    
+    </section>
+
+    <footer>
+        <p>Kodeklubben Trondheim, 2016</p>
+    </footer>
+    
+</body>
+</html>
