@@ -32,7 +32,7 @@ Prøv hintene under og sørg for at sidene ligger i samme mappe.
 
 <br/>
 
-Dersom du bruker [`<nav>`-taggen](http://www.w3schools.com/tags/tag_nav.asp) fra oppgave [“Del inn nettsiden"](../del_inn_nettside/del_inn_nettside.html), så kan du legge lenkene inne i `<nav>`-taggen.
+Dersom du bruker [`<nav>`-taggen](http://www.w3schools.com/tags/tag_nav.asp) fra oppgave [“Del inn nettsiden"](../del_inn_nettsiden/del_inn_nettsiden.html), så kan du legge lenkene inne i `<nav>`-taggen.
 
 
 <toggle>
@@ -56,7 +56,7 @@ __Bra jobba!__ Nå har du 3 sider som er lenkeT til hverandre.
 
 
 # Et eksempel {.activity}
-Her er et eksempel på 3 sider som er knyttet sammen. Koden er hentet fra [“Del inn nettsiden"](../del_inn_nettside/del_inn_nettside.html) hvor vi lære hvordan vi delte inn nettsiden ved hjelp av `<div>`- og `<nav>`-tagger.
+Her er et eksempel på 3 sider som er knyttet sammen. Koden er hentet fra [“Del inn nettsiden"](../del_inn_nettsiden/del_inn_nettsiden.html) hvor vi lære hvordan vi delte inn nettsiden ved hjelp av `<div>`- og `<nav>`-tagger.
 ## Hjem
 
 ![screenshot](ressurser/hjem.png)
