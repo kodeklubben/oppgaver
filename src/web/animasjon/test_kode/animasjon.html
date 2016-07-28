@@ -20,10 +20,10 @@
         bottom: 150px;
         left: -150px;
         
-        -webkit-animation: move_pickaxe 2s; /* Chrome, Safari, Opera */
-        -webkit-animation-delay: 1s;
-        -webkit-animation-timing-function: linear;
-        -webkit-animation-fill-mode: forwards;
+        animation: move_pickaxe 2s; /* Chrome, Safari, Opera */
+        animation-delay: 1s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
 
     }
     
@@ -34,9 +34,10 @@
         height: 154px;
         position: absolute;
         left: -900px;
-        -webkit-animation: move_minecraft 4s; /* Chrome, Safari, Opera */
-        -webkit-animation-delay: 3s;
-        -webkit-animation-fill-mode: forwards;
+        
+        animation: move_minecraft 4s; /* Chrome, Safari, Opera */
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
     }
     
     #block{
@@ -50,18 +51,18 @@
         border: #000 2px solid;
     }
     
-    @-webkit-keyframes move_pickaxe{
+    @keyframes move_pickaxe{
         0%{
             left:-150px;
         }
         100%{
             left: 800px;
-            -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
 
         }
     }
     
-    @-webkit-keyframes move_minecraft{
+    @keyframes move_minecraft{
         0%{
             left: -900px;
         }
