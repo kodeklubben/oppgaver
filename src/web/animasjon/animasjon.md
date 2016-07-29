@@ -5,17 +5,27 @@ language: nb-NO
 ---
 
 # Introduksjon {.intro}
-I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS. Under ser du hvordan resultatet til slutt vil bli: 
+I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS. Under ser du hvordan resultatet vil bli til slutt: 
 
 ![](ressurser/out.gif)
 
-Men før vi starter å lage animasjonen over må vi lære litt om hvordan animasjon fungerer ved hjelp av CSS. 
+Men før vi starter å lage animasjonen over må vi lære om hvordan animasjon fungerer ved hjelp av CSS. Så la oss starte med det grunnleggende! 
+
+__For å lære mest mulig bør du åpne en tom `.html`-fil og skrive koden for hånd når du leser oppgaven, da kommer du til å bli en racer i CSS-animasjon! 
 
 # Steg 1: Animasjons-attributtet {.activity}
 
 Animasjon i CSS er ganske enkelt, i utgangspunktet har animasjonen 2 stadier: `start` og `slutt`. Mellom `start` og `slutt` kan du legge inn forskjellige faser, som vi skal se på litt senere. Animasjonen vil heller ikke gå i `loop` (altså gjenta seg selv) med mindre du forteller at den skal gjøre det. 
 
+
 Før vi skal se på et enkelt eksempel skal vi se på `animation`-attributtet (property). Dette attributtet inneholder følgende:
+
+```css
+#id{
+    animation: name duration timing-fucntion delay iteration-count direction fill-mode;
+}
+```
+
 
 - `name`: navnet på animasjonen
 - `duration`: hvor lang(i sekunder) skal animasjonen være
@@ -96,7 +106,7 @@ Her er et enkelt eksempel på en boks som går fra venstre til høyre:
 
 __La oss se nærmere på koden over:__
 
-Vi har en `<div>` med ID `boks`, den er 50x50px med blå bakgrunnsfarge. Posisjonen er `relative` som vil si at vi kan flytte på den.
+Vi har en `<div>` med ID `boks`, den er 50x50px med blå bakgrunnsfarge. Posisjonen er `relative` som vil si at vi har muligheter for å flytte på den.
 
 `Animation`-attributtet:
 - `name`: frem_og_tilbake
@@ -107,7 +117,7 @@ Vi har en `<div>` med ID `boks`, den er 50x50px med blå bakgrunnsfarge. Posisjo
 - `direction`: alternate (for at den skal gå frem og tilbake)
 - `fill-mode`: both (samme stil på start og slutt)
 
-`@keyframes navn_på_animasjonen` er det vi bruker for å spesifisere hva som skal skje under animasjonen. I dette tilfellet heter heter animasjonen `frem_og_tilbake`. Siden det står `0%` betyr dette når animasjonen starter og `100%` betyr når animasjonen er ferdig. Derfor vil animasjonen vår starte i `left: 0px; top: 0px;` og ende i `left: 100px; top 0px;`. 
+`@keyframes frem_og_tilbake` er det vi bruker for å spesifisere hva som skal skje under animasjonen. I dette tilfellet har vi satt navnet til animasjonen til `frem_og_tilbake`, vi bruker derfor `@keyframes frem_og_tilbake` for å faktisk animere animasjonen. Innen for `@keyframes` kan vi nå spesifisere hva vi vil at animasjonen skal gjøre, over har vi 2 faser, en start og en slutt. Siden det står `0%` betyr dette når animasjonen starter og `100%` betyr når animasjonen er ferdig. Derfor vil animasjonen vår starte i `left: 0px; top: 0px;` og ende i `left: 100px; top 0px;`. 
 
 __NB!__ Verdiene i `animation`-attributtet kan også skrives som et eget attributt på denne måten: 
 ```css
@@ -120,6 +130,7 @@ __NB!__ Verdiene i `animation`-attributtet kan også skrives som et eget attribu
 ```
 
 ## Utfordring {.challenge}
+- Skriv koden inn i din favoritt teksteditor, lagre det som en `.html`-fil og gjør oppgavene under
 - Få animasjonen til å bytte farge fra blå til rød underveis.
 - Klarer du å få boksen til å flytte seg nedover og oppover?
 - Prøv å få boksen til å bevege seg i en firkant
@@ -164,7 +175,7 @@ Her kommer noen eksempler:
     to{top: 100px; left: 100px; }
 }
 ```
-Dette eksempelet får et objekt til å gå diagonalt siden det skal starte på `top: 0px; left: 0px` og ende på `top: 100px; left: 100px;`. 
+Dette eksempelet får et objekt til å gå diagonalt siden det starter på `top: 0px; left: 0px` og ender på `top: 100px; left: 100px;`. 
 
 <style>
     
@@ -198,7 +209,7 @@ Dette eksempelet får et objekt til å gå diagonalt siden det skal starte på `
     100%{top: 100px}
 }
 ```
-Her går vil HTML-objektet går nedover. 
+Her går HTML-objektet nedover ved hjelp av `top`-attributtet. 
 
 
 <style>
@@ -231,7 +242,7 @@ Her går vil HTML-objektet går nedover.
     100%{background-color:red}
 }
 ```
-Merk at i dette eksempelet har vi lagt inn en `50%`. Dette er et eksempel på at du kan dele inn animasjonen faser mellom `0%` og `100%`.
+Merk at i dette eksempelet har vi lagt inn en `50%`. Dette er et eksempel på at du kan dele inn animasjonen faser mellom `0%` og `100%`. Du kan legge til så mange faser du vil ved å bruk `%`, men husk at varigheten på animasjonen blir ikke lengre med mindre du endrer på `duration`-verdien i `animation-attrubuttet`. 
 
 __MERK!__ Dersom du ikke får til animasjonen kan det hende at du har en litt for __gammel nettleser__. Dette kan løses ved å installere den nyeste versjonen av nettleseren eller skrive følgende foran alt som har med animasjonen å gjøre:
 
@@ -245,7 +256,7 @@ __MERK!__ Dersom du ikke får til animasjonen kan det hende at du har en litt fo
 }
 ```
 
-Det kan være lurt å ha begge deler også slik at absolutt alle nettlesere vil kunne kjøre animasjonen:
+Det kan være lurt å ha begge deler slik at absolutt alle nettlesere vil kunne kjøre animasjonen:
 
 ```css
 @-webkit-keyframes{
@@ -260,18 +271,18 @@ Det kan være lurt å ha begge deler også slik at absolutt alle nettlesere vil 
 # Steg 3: Minecraft {.activity}
 Nå skal vi begynne å animere den animasjonen du så på starten av oppgaven.
 
-+ Last ned [minecraft_animasjon.zip](minecraft_animasjon.zip)
-+ Åpne `index.html` i din favoritt teksteditor
-+ Åpne `index.html` i nettleseren
++ Last ned og pakk ut [minecraft_animasjon.zip](minecraft_animasjon.zip) 
++ Åpne `index.html` i din favoritt teksteditor og i en nettleser
 
 Du vil nå ha en nettside som ser noe sånt ut:
 
 ![minecraft](ressurser/minecraft_1.png){width=100%}
 
-I koden til `index.html` har vi 3 div-er med følgende ID: `pickaxe`, `minecraft` og `block`. Alle disse ID-ene er et bilde på siden, bakgrunnsbildet ligger under `body` i CSSen. 
+I koden til `index.html` har vi 3 div-er med følgende ID: `pickaxe`, `minecraft` og `block`. Alle disse ID-ene er et bilde på nettsiden, bakgrunnsbildet ligger under `body` i CSSen. 
 
-La oss nå prøve å få litt animasjon på bildene, men hva vil vi? 
+La oss nå prøve å få litt animasjon på bildene.
 
+__Dette er det vi prøve å programmere:__
 1. Vi vil at `pickaxe`-en skal komme flyvende inn å treffe blokkene
 2. Når den har truffet blokkene vil vi at logoen skal komme inn
 
@@ -279,7 +290,7 @@ La oss nå prøve å få litt animasjon på bildene, men hva vil vi?
 
 Nå skal vi få `pickaxe`-en til å fly.
 
-Legg til følgende under `#pickaxe`:
+Legg til følgende i CSSen til `#pickaxe`:
 + Legg til `move_pickaxe` som animasjonsnavn
 + Legg til `duration` på `2s`
 + Legg til et `delay` på `1s`
@@ -431,3 +442,6 @@ Nå som du har klart å få `pickaxe` til å fly inn med rotasjon er oppgaven di
     
 </hide>
 </toggle>
+
+
+__Gratulerer!__ Du har nå laget din første animasjon! 
