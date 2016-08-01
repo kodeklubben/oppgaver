@@ -1,5 +1,8 @@
 ---
 title: CodeStudio
+tags:
+  operativsystem: [windows, mac, linux, android, ipad]
+  tema: [interaktiv]
 ---
 
 CodeStudio er Code.org sine interaktive oppgaver i nettleser som er

@@ -1,5 +1,7 @@
 ---
 title: Java FX
+tags:
+  operativsystem: [windows, mac, linux]
 ---
 
 Java er et objektorientert programmeringsspråk, og dette kurset krever forkunnskaper og erfaring med

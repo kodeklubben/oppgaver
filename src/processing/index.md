@@ -1,5 +1,8 @@
 ---
 title: Processing
+tags:
+  operativsystem: [windows, mac, linux]
+  tema: [animasjon]
 ---
 
 Processing er et tekstbasert programmeringsspråk basert på Java som

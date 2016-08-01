@@ -1,5 +1,8 @@
 ---
 title: ComputerCraft
+tags:
+  operativsystem: [windows, mac, linux]
+  tema: [minecraft]
 ---
 
 ComputerCraft er en mod til Minecraft som gir deg muligheten til å
