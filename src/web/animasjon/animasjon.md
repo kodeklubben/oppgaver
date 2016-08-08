@@ -45,11 +45,11 @@ Her er et enkelt eksempel på en boks som går fra venstre til høyre:
         background-color: blue;
         position: relative;
         
-        animation: frem_og_tilbake 2s 0s infinite alternate both;
+        animation: frem-og-tilbake 2s 0s infinite alternate both;
     }
     
     
-    @keyframes frem_og_tilbake{
+    @keyframes frem-og-tilbake{
         0%{
             left: 0px;
             top: 0px;
@@ -79,11 +79,11 @@ Her er et enkelt eksempel på en boks som går fra venstre til høyre:
         background-color: blue;
         position: relative;
         
-        animation: frem_og_tilbake 2s 0s infinite alternate both;
+        animation: frem-og-tilbake 2s 0s infinite alternate both;
     }
     
     
-    @keyframes frem_og_tilbake{
+    @keyframes frem-og-tilbake{
         0%{
             left: 0px;
             top: 0px;
@@ -109,7 +109,7 @@ __La oss se nærmere på koden over:__
 Vi har en `<div>` med ID `boks`, den er 50x50px med blå bakgrunnsfarge. Posisjonen er `relative` som vil si at vi har muligheter for å flytte på den.
 
 `Animation`-attributtet:
-- `name`: frem_og_tilbake
+- `name`: frem-og-tilbake
 - `duration`: 2s (sekunder)
 - `timing-function`: blank, siden vi ikke trenger den
 - `delay`: 0s
@@ -117,12 +117,12 @@ Vi har en `<div>` med ID `boks`, den er 50x50px med blå bakgrunnsfarge. Posisjo
 - `direction`: alternate (for at den skal gå frem og tilbake)
 - `fill-mode`: both (samme stil på start og slutt)
 
-`@keyframes frem_og_tilbake` er det vi bruker for å spesifisere hva som skal skje under animasjonen. I dette tilfellet har vi satt navnet til animasjonen til `frem_og_tilbake`, vi bruker derfor `@keyframes frem_og_tilbake` for å faktisk animere animasjonen. Innen for `@keyframes` kan vi nå spesifisere hva vi vil at animasjonen skal gjøre, over har vi 2 faser, en start og en slutt. Siden det står `0%` betyr dette når animasjonen starter og `100%` betyr når animasjonen er ferdig. Derfor vil animasjonen vår starte i `left: 0px; top: 0px;` og ende i `left: 100px; top 0px;`. 
+`@keyframes frem-og-tilbake` er det vi bruker for å spesifisere hva som skal skje under animasjonen. I dette tilfellet har vi satt navnet til animasjonen til `frem-og-tilbake`, vi bruker derfor `@keyframes frem-og-tilbake` for å faktisk animere animasjonen. Innen for `@keyframes` kan vi nå spesifisere hva vi vil at animasjonen skal gjøre, over har vi 2 faser, en start og en slutt. Siden det står `0%` betyr dette når animasjonen starter og `100%` betyr når animasjonen er ferdig. Derfor vil animasjonen vår starte i `left: 0px; top: 0px;` og ende i `left: 100px; top 0px;`. 
 
 __NB!__ Verdiene i `animation`-attributtet kan også skrives som et eget attributt på denne måten: 
 ```css
 #boks{
-    animation-name: frem_og_tilbake;
+    animation-name: frem-og-tilbake;
     animation-duration: 2s;
     animation-delay: 0s;
     ...
@@ -150,7 +150,8 @@ Her kommer noen eksempler:
         width: 50px;
         background-color: green;
         position: relative;
-        
+        margin-bottom: 100px;
+
         animation: diagonalt 2s 0s infinite;
     }
     
@@ -163,11 +164,6 @@ Her kommer noen eksempler:
 </style>
 
 <div id="diagonalt"></div>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ```css
 @keyframes diagonalt{
@@ -184,7 +180,8 @@ Dette eksempelet får et objekt til å gå diagonalt siden det starter på `top:
         width: 50px;
         background-color: red;
         position: relative;
-        
+        margin-bottom: 100px;
+
         animation: ned 2s 0s infinite;
     }
     
@@ -197,11 +194,6 @@ Dette eksempelet får et objekt til å gå diagonalt siden det starter på `top:
 </style>
 
 <div id="ned"></div>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ```css
 @keyframes ned{
@@ -236,7 +228,7 @@ Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
 <br>
 
 ```css
-@keyframes skift_farge{
+@keyframes skift-farge{
     0%{background-color: blue}
     50%{background-color:yellow}
     100%{background-color:red}
@@ -244,30 +236,7 @@ Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
 ```
 Merk at i dette eksempelet har vi lagt inn en `50%`. Dette er et eksempel på at du kan dele inn animasjonen faser mellom `0%` og `100%`. Du kan legge til så mange faser du vil ved å bruk `%`, men husk at varigheten på animasjonen blir ikke lengre med mindre du endrer på `duration`-verdien i `animation-attrubuttet`. 
 
-__MERK!__ Dersom du ikke får til animasjonen kan det hende at du har en litt for __gammel nettleser__. Dette kan løses ved å installere den nyeste versjonen av nettleseren eller skrive følgende foran alt som har med animasjonen å gjøre:
 
-```css
--webkit-animation-name: ...;
--webkit-animation: name 0s ...;
-...
-
-@-webkit-keyframes{
-
-}
-```
-
-Det kan være lurt å ha begge deler slik at absolutt alle nettlesere vil kunne kjøre animasjonen:
-
-```css
-@-webkit-keyframes{
-    from{...}
-    to{...}
-}
-@keyframes{
-    from{...}
-    to{...}
-}
-```
 # Steg 3: Minecraft {.activity}
 Nå skal vi begynne å animere den animasjonen du så på starten av oppgaven.
 
@@ -291,7 +260,7 @@ __Dette er det vi prøve å programmere:__
 Nå skal vi få `pickaxe`-en til å fly.
 
 Legg til følgende i CSSen til `#pickaxe`:
-+ Legg til `move_pickaxe` som animasjonsnavn
++ Legg til `move-pickaxe` som animasjonsnavn
 + Legg til `duration` på `2s`
 + Legg til et `delay` på `1s`
 + Sett `timing-function` til `linear`
@@ -314,14 +283,14 @@ Nå skal vi lage `keyframes`:
         position: relative;
 
         
-        animation: move_pickaxe 2s;
+        animation: move-pickaxe 2s;
         animation-timing-function: linear;
         animation-fill-mode: forwards;
         animation-iteration-count: infinite;
     }
     
     
-     @keyframes move_pickaxe{
+     @keyframes move-pickaxe{
         0%{
             left:0px;
         }
@@ -349,13 +318,13 @@ Nå skal vi lage `keyframes`:
         bottom: 150px;
         left: -150px;
         
-        animation: move_pickaxe 2s;
+        animation: move-pickaxe 2s;
         animation-delay: 1s;
         animation-timing-function: linear;
         animation-fill-mode: forwards;
     }
 
-    @keyframes move_pickaxe{
+    @keyframes move-pickaxe{
         0%{
             left:-150px;
         }
