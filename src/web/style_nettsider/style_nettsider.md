@@ -6,21 +6,15 @@ level: 2
 # Introduksjon {.intro}
 Nå skal vi lære å endre på stilen til nettsider. I denne oppgaven forventer vi at du har gjort HTML-oppgavene eller er litt kjent med HTML fra før av.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Vi endrer hvordan en side ser ut gjennom å bruke et språk som heter __CSS__ (som står for __Cascading Style Sheets__). Det er et veldig enkelt språk å lære. La oss begynne.
-=======
-I denne og neste leksjon skal vi lære oss hvordan å __endre farge, tekst, størrelse og mer__!
->>>>>>> 3baa6cd... Web: Endringer i CSS: Style nettside
-=======
-I denne og neste leksjon skal vi lære oss hvordan å __endre farge, tekst, størrelse og mer__!
->>>>>>> 3baa6cd... Web: Endringer i CSS: Style nettside
 
-Vi endrer hvordan en side ser ut gjennom å bruke et språk som heter __CSS__ (som står for __Cascading Style Sheets__). Det er et veldig enkelt språk å lære, så la oss bare begynne!
+I denne og neste leksjon skal vi lære oss hvordan å __endre farge, tekst, størrelse og mer__! Dette gjør vi ved å lære oss å bruke et språk som heter __CSS__ (som står for __Cascading Style Sheets__). Det er et veldig enkelt språk å lære. La oss begynne.
 
+Resultatet kommer til å se noe sånt ut:
+
+![screenshot2](ressurser/bilde1.png)
+![screenshot3](ressurser/bilde2.png)
 
 # Steg 1: Hvordan fungerer CSS? {.activity}
-<<<<<<< HEAD
 Det finnes mange måter å lage stiler på. En av dem er __inline__ hvor du skriver stilen rett i en tag, om dette:
 ```html
 <p style="color:red">Tekst som er rød</p>
@@ -42,16 +36,12 @@ Men i dag skal vi bruke den siste metoden hvor vi legger stilene i `<head>` slik
 ```
 På denne måten slipper vi å håndere flere filer, vi kan ha alt vi trenger i én fil. 
 
-## Sjekkliste {.check}
+
 
 + Åpne index.html fra mappen Felix som vi lagde i oppgaven [Forvunnet katt](../forsvunnet_katt/forsvunnet_katt.html) eller last ned filen ved å høyreklikke og trykk `lagre som`: [index.html](../forsvunnet_katt/ressurser/index.html). Lag en mappe som heter `Felix` og legg `index.html` i den.
-=======
-Det finnes mange måter å lage stiler på, __inline__, i `<head>`, eller som en et eget .css-dokument som vi linker til fra `<head>`. Men i dag skal vi legge stilene i `<head>` på vår HTML-side så vi ikke trenger å tenke på å håndtere flere filer.
 
-## Sjekkliste {.check}
 
-+ Åpne index.html fra mappen Felix som vi lagde i oppgaven [Forvunnet katt](forsvunnet_katt/forsvunnet_katt.html) eller last ned filen ved å høyreklikke og trykk `lagre som`: [index.html](../forsvunnet_katt/ressurser/index.html). Lag en mappe som heter `Felix` og legg `index.html` i den.
->>>>>>> 3baa6cd... Web: Endringer i CSS: Style nettside
+
 + I seksjonen `<head>` trenger vi en __style-tag__.
 ```html
  <style>
@@ -64,13 +54,13 @@ selector {
   property: value;
 }
 ```
-<<<<<<< HEAD
 Selektorer kan være html-element som `h1`, `p`, `img`, `a`, eller `id-er` og `klasser`, men disse skal vi se på senere. Selektorer brukes for å fortelle CSS-en hvilke HTML-objekter vi skal sette stil på. Hvilken stil selektoren får avheniger av hva man setter på `property` og `value`. 
 
-`Property` eller attributt er gjerne en egenskap man kan tilegne selektoren, sammen med en verdi, `value`. Eksempler på `property` og `value` kan være `color: blue;`, `background-color: red;` og ` font-family: "Times New Roman", Serif;`.
+`Property` eller `attributt` er gjerne en egenskap man kan tilegne selektoren, sammen med en verdi, `value`. Eksempler på `property` og `value` kan være `color: blue;`, `background-color: red;` og ` font-family: "Times New Roman", Serif;`.
 
 + Kan du finne knappene for `{` og `}` på ditt tastatur? 
 + Hva med `:` og `;`? 
+
 
 Finner du dem ikke, så få hjelp av noen til å finne dem for deg, fordi disse er viktige. Dersom du ikke har med `{ }`, `:`eller `;` på de riktige stedene, så vil ikke HTML-en din få stil. Derfor er det viktig å allerede nå å vite hvor man finner `{ }`, `:`eller `;` på tastaturet. 
 
@@ -79,18 +69,6 @@ Finner du dem ikke, så få hjelp av noen til å finne dem for deg, fordi disse 
 Visste du at CSS er faktisk oppfunnet av en norsk gutt? Det er litt kult!
 
 La oss endre `h1` til å være `rød` istedenfor `svart` ved hjelp av property-en `color`:
-=======
-Selektorer kan være html-element som `h1`, `p`, `img`, `a`. Men de kan også være andre ting som vi vil lære om senere. Propoerty og value skal vi se på i neste steg.
-
-
-+ Kan du finne knappene for `{` og `}` på ditt tastatur? Hva med `:` og `;`? Finner du dem ikke, så få hjelp av noen til å finne dem for deg, fordi disse er viktige.
-
-# Steg 2: Legg til farge {.activity}
-
-Viste du at CSS er faktisk oppfunnet av en norsk gutt? Det er litt kult!
-
-La oss legge til farge med hjelp av property-en `color`. La oss endre `h1` til å være rød istedenfor svart.
->>>>>>> 3baa6cd... Web: Endringer i CSS: Style nettside
 
 ```html
 <style>
@@ -102,23 +80,15 @@ La oss legge til farge med hjelp av property-en `color`. La oss endre `h1` til �
 __NB! Husk å sette `;` etter `value`.__
 ## __LAGRE__ filen og __VISE__ den i nettleseren din {.save}
 
-<<<<<<< HEAD
-Overskriften skal nå være rød! Det finnes forskjellige måter å representere en farge på. Det er 16 grunnleggende fargenavn: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, og yellow.
+Overskriften skal nå være `rød`! Det finnes forskjellige måter å representere en farge på. Det er 16 grunnleggende fargenavn: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, og yellow.
 
 + Prøv og endre fargen til noe annet!
+
 De fleste nettlesere støtter i tillegg 130 andre fargenavn, hele listen i alfabetisk rekkefølge kan dere finne på
 [http://www.w3.org/TR/css3-color/#svg-color](http://www.w3.org/TR/css3-color/#svg-color). Er din favorittfargen i listen?
 
 + Men vi kan bruke enda flere farger gjennom å bruke den heksadesimale koden istedenfor navnet. En heksadesimal kode er en `#` fulgt av 6 tegn der tegnene kan være sifferne 0-9 eller bokstavene A, B, C, D, E, F. Gjennom å bruke heksadesimale koder kan vi representere mer enn 16 millioner farger.
-=======
-Overskriften skal nå være rød! Det finnes forskjellige måter å representere en farge på. Det er 16 grunnleggende fargenavn, som er aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, og yellow.
 
-+ Prøv og endre fargen til noe annet!
-De fleste nettlesere støtter i tillegg 130 andre fargenavn, hele listen i alfabetisk rekkefølge kan dere finne på
-[http://www.w3.org/TR/css3-color/#svg-color](http://www.w3.org/TR/css3-color/#svg-color). Er din yndlingsfarge i listen?
-
-+ Men vi kan bruke enda flere farger gjennom å bruke den heksadesimale koden istedenfor navnet. En heksadesimal kode er en `#` fulgt av 6 tegn der tegnen kan være sifferne 0-9 eller bokstavene A, B, C, D, E, F. Gjennom å bruke heksadesimale koder kan vi representere mer enn 16 millioner farger.
->>>>>>> 3baa6cd... Web: Endringer i CSS: Style nettside
 
 + Kodeklubben sin favorittfarge er `#58AB57`. Kan du gjette hvilken farge det er? Prøv å endre noen tekst til den fargen og se hvordan det ser ut i en nettleser.
 
@@ -144,19 +114,13 @@ De fleste nettlesere støtter i tillegg 130 andre fargenavn, hele listen i alfab
 
 # Steg 3: Gi farge til spesifikke elementer {.activity}
 
-<<<<<<< HEAD
-Hva om vi vil gjøre sånn at ordet `oransje` i setningen `Pelsen hans er oransje` får oransje farge? Ikke hele setningen, men akkurat det ordet.
-=======
-Hva om vi vil gjøre sånn at ordet `oransje` i settningen `Pelsen hans er oransje` får oransje farge? Ikke hele seksjonen, men akkurat det ordet.
->>>>>>> 3baa6cd... Web: Endringer i CSS: Style nettside
-
-En måte å gjøre dette på er å putte taggen `<span>` rundt ordet, på denne måten:
+Hva om vi vil gjøre sånn at ordet `oransje` i setningen `Pelsen hans er oransje` får oransje farge? Ikke hele setningen, men akkurat det ordet. Da bruker vi en tag som heter `<span>`. Vi legger taggen rundt ordet vi vil sette farge på slik: 
 
 ```html
 <span>oransje</span>
 ```
 
-I `<head>` kan vi nå gjøre sånn at alle `<span>`-taggene blir oransje:
+I `<head>` kan vi nå gjøre at alle `<span>`-taggene blir oransje slik:
 
 ```css
 span {
@@ -172,7 +136,7 @@ Vi kan legge til farge på bakgrunnen også, ikke bare på tekst. For eksempel:
 
 ```css
 body {
-  background-color:#D2FAFC;
+  background-color: #D2FAFC;
 }
 ```
 
@@ -196,6 +160,7 @@ h1 {
 ```
 ## Nå skal du __LAGRE__ filen og se hvordan det ser ut. {.save}
 
+Legg merke til at kun bakgrunnen til `h1` blir svart og ikke hele siden. For å få hele siden bruker må vi legge til bakgrunnsfarge på `body`, som vist over.
 # Steg 5: Morro med tekst {.activity}
 Kanskje skulle tittelen være __større__ og med store bokstaver. Vi kan spesifisere størrelsen på teksten gjennom å bruke `font-size`. Verdiene kan være forskjellige, men de mest brukte er 12, 14, 16, 32, 48 og 72 piksler.
 
@@ -219,9 +184,10 @@ Er det ikke mye større forskjell nå?
 ### For de som bruker Firefox eller Chrome som nettleser. {.try}
 Det finnes faktisk også en annen verdi for `text-decoration` som er `blink`. Jeg kommer ikke til å fortelle deg hva det gjør. Du må teste det. `text-decoration:blink;` (det blir litt masete etterhvert, men det er lov å gå tilbake til “underline” hvis du vil).
 
+
 # Steg 6: Sentrere tekst (og bilder) horisontalt {.activity}
 
-All vår tekst vises helt borte til venstre. Vi kan endre det gjennom å bruke `text-align:center` (man kan også bruke `right`(høyre), `left`(venstre) er standard).
+All vår tekst vises helt borte til venstre. Vi kan endre det gjennom å bruke `text-align:center` (man kan også bruke `right`(høyre) og  `left`(venstre)).
 1. For denne nettsiden vil vi at all vår tekst skal være sentrert, og da kan vi skrive: (Merk deg at den engelske måten å stave senter på er center.)
 
 ```css
@@ -244,8 +210,10 @@ Men vær forsiktig, det finnes noen stiler som ikke blir videreført.
 # Steg 7: Koden vi har til nå {.activity}
 ## Resultat:
 
+
 ![screenshot2](ressurser/bilde1.png)
 ![screenshot3](ressurser/bilde2.png)
+
 
 ## Koden:
 
