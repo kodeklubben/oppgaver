@@ -35,7 +35,7 @@ Før vi starter må vi ha en helt enkel HTML-side. Siden vi har lært å bruke H
 </toggle>
 
 
-Bildet er 1080 (bredde) × 250 (høyde) pixler så vi velger derfor å bruke bredden til bilde som et mål på hvor bred siden vår skal være. 
+Bildet er 1080 (bredde) × 250 (høyde) piksler (`pixels` eller `px) så vi velger derfor å bruke bredden til bilde som et mål på hvor bred siden vår skal være. 
 
 Som du ser er det et hvitt mellomrom over og på siden av bildet. Dette kan vi bli kvitt ved å bruke følgende CSS innenfor `<style>`:
 
@@ -122,7 +122,7 @@ nav ul{
     margin: 0 auto;         /* fjerner marger og midtstiller */
     width: 1072px;          /* setter bredden til 1040px, siden */
     height: 40px;           /* setter høyden til 40px */
-    border: #000 4px solid; /* Ramme rundt hele lista */
+    border: #000000 4px solid; /* Ramme rundt hele lista */
     padding: 0px;           /* Fjerner standard mellomrom mellom tekst og "vegger" */
 }
 ```
@@ -131,7 +131,7 @@ Grunnen til at vi bruker `1072px` istedet for `1080px` er fordi vi har en ramme 
 
 ![screenshot](ressurser/screenshot_4.png)
 
-Siden vi skal ha en meny, så har vi lagt inn lenker(`<a>`) i liste-elementene. Vi må derfor legge til CSS for at disse skal vises på en skikkelig måte. Nå skal vi dele inn den rammen vi har laget slik at det ser ut som lenkene er knapper. I kodeblokken under ser du hvordan vi kan lage mellomrom mellom lenkene ved å bruke `padding`, legge til en strek på høyre side for at den skal se ut som en knapp, ta vekk understreker, gjøre skriften større og gjøre den grønn. 
+Siden vi skal ha en meny, så har vi lagt inn lenker(`<a>`) i liste-elementene. Vi må derfor legge til CSS for at disse skal vises på en skikkelig måte. Nå skal vi dele inn hovedrammen vi har laget slik at det ser ut som lenkene er knapper. I kodeblokken under ser du hvordan vi kan lage mellomrom mellom lenkene ved å bruke `padding`, legge til en strek på høyre side for at den skal se ut som en knapp, ta vekk understreker, gjøre skriften større og gjøre den grønn. 
 
 + Studer koden under
 + Hva skjer om du fjerner `padding-left`og `padding-right`?
@@ -145,7 +145,7 @@ nav ul li a{
     padding-left: 20px;     /* mellomrommet til venstre fra teksten til rammen */
     padding-right: 20px;    /* mellomrommet til høyre fra teksten til rammen */
     line-height: 40px;      /* hvor høy linjen skal være */
-    border-right: #000 4px solid; /* legger til ramme med farge, tykkelse og stil */
+    border-right: #000000 4px solid; /* legger til ramme med farge, tykkelse og stil */
     text-decoration: none;  /* tar vekk understreker */
     font-size: 20px;        /* setter skriftstørrelsen til 20px */
     color: #3DD14B; 
@@ -275,6 +275,8 @@ __TADA! Du har nå laget en flott nettside som du kan bygge videre på!__
 
 
 # Eksempel på kode for nettsiden {.activity}
+__MERK:__ Legg merke til at under `border` er fargekoden `#000` i stedet for `#000000`. Dette betyr akkurat det samme: `#rgb` eller `#rrggbb`. Ved 6 tall og bokstaver kan du enklere spesifisere en mer nøyaktig farge enn hvis du bare bruker `#rgb`. R = rød, G = grønn, B = blå. Det er tallene og bokstavene som bestemmer hvor mye av rød, grønn og blå det skal være i fargen. 
+
 ```html
 <!DOCTYPE html>
 <html>
