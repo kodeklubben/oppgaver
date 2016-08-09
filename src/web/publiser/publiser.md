@@ -9,12 +9,13 @@ Nå har du laget ditt eget nettsted. Du ønsker vel å vise det frem, gjør du i
 
 Husker du servere fra den første økten? Servere er datamaskiner som alltid er på og koblet til Internett, og de er satt opp slik at folk kan besøke nettsteder som lever på disse datamaskinene.
 
-For å legge nettsiden vår på internett skal vi nå bruke `Github Pages`. Dette er det samme som __Kodeklubben__ bruker: `kodeklubben.github.io`. For at du skal kunne gjøre dette må du ha en epost-adresse. Du kan enten lage din egen, bruk den du har på skolen eller spørre om å låne foreldrene dine sin. Det er viktig her at du husker hvilken epost du har bruk, du må også ha tilgang til eposten sånn at du kan få godkjent brukeren din på `Github`. 
+For å legge nettsiden vår på internett skal vi nå bruke `Github Pages`. Det er det  __Kodeklubben__ bruker: `kodeklubben.github.io`. For at du skal kunne gjøre dette må du ha en epost-adresse. Du kan enten lage din egen ([Gmail](http//:gmail.com)), bruk den du har på skolen eller spørre om å låne foreldrene dine sin. Det er viktig her at du husker hvilken epost du har bruk, du må også ha tilgang til eposten sånn at du kan få godkjent brukeren din på `Github`. 
+
 
 # Github {.activity}
-Github er en samarbeidsplatform for oss som driver med programmering. Her kan vi legge ut prosjekter som andre kan hjelpe til med, eller vi kan finne et prosjekt vi kan hjelpe til med. På denne måten kan vi enkelt hjelpe, samarbeide og dele med alle som driver med programmering i verden. Vi skal nå lage en bruker.
+Github er en samarbeidsplattform for oss som driver med programmering. Her kan vi legge ut prosjekter som andre kan hjelpe til med, eller vi kan finne et prosjekt vi kan hjelpe til med. På denne måten kan vi enkelt hjelpe, samarbeide og dele med alle som driver med programmering i verden. Vi skal nå lage en bruker.
 
-1. Gå inn på [http://github.com](github.com)
+1. Gå inn på [Github.com](http://github.com)
 2. Skriv inn `Username`(brukernavn), `epost` og `password`(passord) før du trykker `Sign up for Github` (se bilde under)
 <img src="ressurser/sign-in-1.png" width="100%">
 3. Følg instruksjonene videre for å godkjenne og lage ferdig brukeren din
@@ -22,7 +23,11 @@ Github er en samarbeidsplatform for oss som driver med programmering. Her kan vi
 # Brukernavn.github.io {.activity}
 Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side. 
 
-1. Trykk på `New repository` (Grønn knapp til venstre eller `+` øverst i høyre hjørne)
+0. Logg inn med brukeren din
+1. Trykk på `New repository` (Grønn knapp til høyre eller `+` øverst i høyre hjørne, se bilde under)
+
+<img src="ressurser/repo.png" alt="repo">
+
 2. Under `Repository name` så skriver du `ditt-brukernavn.github.io`. Under ser du et eksempel med `kodeklubben.github.io`. 
 <img src="ressurser/1.png" width="100%">
 3. Du kan gjerne skrive en beskrivelse av nettsiden under `Description`
@@ -34,16 +39,16 @@ Nå skal vi laste ned `repository`-et eller `repo`-et vårt, altså oppbevarings
 Nå som du er her, kan vi trykke på `Set up in Desktop`:
 <img src="ressurser/2.png" width="100%">
 
-Hvis du er vant til å bruke `kommandolinjen` til `Linux` eller `Mac OS X`, så kan du gjøre det som står under `Set up in Desktop`.
+Hvis du er vant til å bruke `kommandolinjen` til `Linux` eller `Mac OS X`, så kan du gjøre det som står under `...or create a new repository on the command line`.
 
 Du vil få spørsmål om å laste ned Github-programmet, takk ja til det. 
 
-1. Trykk `Tillat` på eventuelle ting som dukker opp når programmet åpner seg:
+1. Trykk `Tillat` på eventuelle ting som dukker opp når `Github`-programmet åpner seg:
 <img src="ressurser/tillat.png">
 
 2. Hvis du får spørsmål om å logge inn så må du logge inn med `brukernavn` og `passordet` du valgte til `Github`
 
-3. Du får nå spørsmål om å legge mappen `ditt-brukernavn.github.io` et sted, legg det et passende sted hvor du finner det igjen. For eksempel på skrivebordet eller i `Mine dokumenter`.
+3. Du får nå spørsmål om å legge mappen `ditt-brukernavn.github.io` et sted lokalt på datamaskinen, legg det et passende sted hvor du finner det igjen. For eksempel på `Skrivebordet` eller i `Mine dokumenter`.
 
 Da er det påtide å lage sin første fil!
 
@@ -66,7 +71,8 @@ Nå skal vi laste opp denne filen til `ditt-brukernavn.github.io`. For å ikke �
 2. Trykk på `ditt-brukernavn.github.io` i kolonnen til venstre
 3. Trykk på `Compare`. Da vil den filen du akkurat la til dukke opp:
 <img src="ressurser/commit.png" width="100%">
-4. Må du `committe` endringene du har gjort før du får lagt opp filen til `Github`-en din. For å gjøre dette skriver du en kort forklaring i `Summary` nederst, og litt mer detaljert beskrivelse av hva som er gjort i `Description`, som vist på bildet over. 
+4. Må du `committe` endringene du har gjort før du får lagt opp filen til `Github`-en din. For å gjøre dette skriver du en kort forklaring i `Summary`, og litt mer detaljert beskrivelse av hva som er gjort i `Description`, som vist på bildet over. 
+4. Trykk på `Commit to master`
 5. Nå kan du trykke på `Publish` øverst til høyre
 <img src="ressurser/pushed.png" width="100%">
 6. Hvis du får spørsmål om å `Tillate` en oprasjon, så gjør det. 
@@ -76,4 +82,7 @@ Nå skal vi laste opp denne filen til `ditt-brukernavn.github.io`. For å ikke �
 
 __Gratulerer med ny hjemmeside!__ Denne kan du dele med hvem du vil ved å sende lenken `ditt-brukernavn.github.io`.
 
-
+# Vil du lære mer om GitHub? {.try}
+GitHub er et stort tema og kan være litt komplisert og vrient i starten, men jeg hvis du vil lære mer sjekk ut tipsene under:
++ Les mer om GitHub her: [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
++ Søk på `GitHub Tutorials` på [YouTube](http://youtube.com)
