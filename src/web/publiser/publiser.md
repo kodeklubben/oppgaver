@@ -13,7 +13,7 @@ For å legge nettsiden vår på internett skal vi nå bruke `Github Pages`. Det 
 
 
 # Github {.activity}
-Github er en samarbeidsplattform for oss som driver med programmering. Her kan vi legge ut prosjekter som andre kan hjelpe til med, eller vi kan finne et prosjekt vi kan hjelpe til med. På denne måten kan vi enkelt hjelpe, samarbeide og dele med alle som driver med programmering i verden. Vi skal nå lage en bruker.
+Github er en samarbeidsplattform for oss som driver med programmering. Her kan vi legge ut prosjekter som andre kan hjelpe til med, eller vi kan finne et prosjekt vi kan bidra på. På denne måten kan vi enkelt hjelpe, samarbeide og dele med alle som driver med programmering i verden. Vi skal nå lage en `GitHub`-bruker.
 
 1. Gå inn på [Github.com](http://github.com)
 2. Skriv inn `Username`(brukernavn), `epost` og `password`(passord) før du trykker `Sign up for Github` (se bilde under)
@@ -23,8 +23,8 @@ Github er en samarbeidsplattform for oss som driver med programmering. Her kan v
 # Brukernavn.github.io {.activity}
 Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side. 
 
-0. Logg inn med brukeren din
-1. Trykk på `New repository` (Grønn knapp til høyre eller `+` øverst i høyre hjørne, se bilde under)
+0. Logg inn på [Github.com](http://github.com) med den nye brukeren din, hvis du ikke allerede er logget inn
+1. Trykk på `New repository` (Grønn knapp til høyre eller `+` øverst i høyre hjørne rett ved siden av probilbildet ditt, se bilde under)
 
 <img src="ressurser/repo.png" alt="repo">
 
@@ -32,27 +32,37 @@ Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 <img src="ressurser/1.png" width="100%">
 3. Du kan gjerne skrive en beskrivelse av nettsiden under `Description`
 4. Velg enten `Public`(alle kan se koden din)  eller `Private`(koden til nettsiden blir privat). Vi har valgt `Public`.
-5. Trykk `Create repository`(oppbevaringssted).
+5. Trykk `Create repository`(Lag oppbevaringssted).
 
 Nå skal vi laste ned `repository`-et eller `repo`-et vårt, altså oppbevaringsstedet for koden til nettsiden vår. Denne koden legges i en mappe lokalt på datamaskinen vår. I denne mappen legger vi inn alle filene som skal brukes til nettsiden og bruker programmet eller kommandolinjen til `Github` for å laste opp kode til `ditt-brukernavn.github.io`-siden vår.
 
-Nå som du er her, kan vi trykke på `Set up in Desktop`:
++ Trykke på `Set up in Desktop`:
 <img src="ressurser/2.png" width="100%">
 
 Hvis du er vant til å bruke `kommandolinjen` til `Linux` eller `Mac OS X`, så kan du gjøre det som står under `...or create a new repository on the command line`.
 
-Du vil få spørsmål om å laste ned Github-programmet, takk ja til det. 
++ Du vil få spørsmål om å laste ned Github-programmet, takk ja til det. 
 
 1. Trykk `Tillat` på eventuelle ting som dukker opp når `Github`-programmet åpner seg:
+
 <img src="ressurser/tillat.png">
 
-2. Hvis du får spørsmål om å logge inn så må du logge inn med `brukernavn` og `passordet` du valgte til `Github`
+2. Hvis du får spørsmål om å logge inn så logger du bare inn med `Github`-brukeren du lagde i sted
 
 3. Du får nå spørsmål om å legge mappen `ditt-brukernavn.github.io` et sted lokalt på datamaskinen, legg det et passende sted hvor du finner det igjen. For eksempel på `Skrivebordet` eller i `Mine dokumenter`.
 
+<img src="ressurser/mappe.png" width="100%">
+
 Da er det påtide å lage sin første fil!
 
+0. Åpne mappen `ditt-brukernavn.github.io`. Min heter `larsfk.github.io` og ligger på `Skrivebordet`.
+
+<img src="ressurser/skrivebord.png" width="100%">
+
 1. I mappen `ditt-brukernavn.github.io`, lag en fil som heter `index.html`. Dette skal være startsiden til nettsiden vår.
+
+<img src="ressurser/innhold.png" width="100%">
+
 2. Skriv hva du vil i denne, du kan gjerne kopiere en av oppgavene du allerede har laget. Hvis du ikke vet hva du skal skrive kan du for eksempel skrive noe sånt:
 
 ```html
@@ -67,6 +77,8 @@ Da er det påtide å lage sin første fil!
 
 Nå skal vi laste opp denne filen til `ditt-brukernavn.github.io`. For å ikke ødelegge det vi har på `kodeklubben.github.io` skal jeg nå vise med brukeren `larsfk.github.io`. 
 
+# Oppdater ditt-brukernavn.github.io {.activity}
+
 1. Åpne `Github`-programmet
 2. Trykk på `ditt-brukernavn.github.io` i kolonnen til venstre
 3. Trykk på `Compare`. Da vil den filen du akkurat la til dukke opp:
@@ -76,7 +88,9 @@ Nå skal vi laste opp denne filen til `ditt-brukernavn.github.io`. For å ikke �
 5. Nå kan du trykke på `Publish` øverst til høyre
 <img src="ressurser/pushed.png" width="100%">
 6. Hvis du får spørsmål om å `Tillate` en oprasjon, så gjør det. 
-7. Nå ser vi (se bildet over) at en `commit` er lagt til og `pushet`(lastet opp) til siden vår. Gå inn på `ditt-brukernavn.github.io` (`larsfk.github.io` for meg) for å se hjemmesiden din! 
+7. Nå ser vi (se bildet over) at en `commit` er lagt til og `pushet`(lastet opp) til siden vår. Gå inn på `ditt-brukernavn.github.io` (`larsfk.github.io` for meg) for å se hjemmesiden din!
+
+NB! Disse stegene må du gjøre hver gang du skal oppdatere nettsiden din! 
 
 <img src="ressurser/hjemmeside.png" width="100%">
 
