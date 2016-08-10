@@ -1,11 +1,11 @@
 ---
-title: Trykkomania
-level: 2
+title: JS: Trykkomania
+level: 4
 author: Arve Seljebu
 ---
 
 # Introduksjon {.intro}
-Denne oppgaven viser deg hvordan du kan lage et spill med JavaScript og dele det med vennene dine. Spillet kalles *Trykkomania* fordi det handler om å trykke på en ball flest mulig ganger før tiden renner ut.
+Denne oppgaven viser deg hvordan du kan lage et spill med JavaScript og dele det med vennene dine. Spillet kalles *Trykkomania* fordi det handler om å trykke på en ball flest mulig ganger før tiden renner ut. Før du starter på denne oppgaven bør du har god kjennskap til de grunnleggende elementene i JavaScript, som variabler, funksjoner og eventListeners. 
 
 ![](trykkomania.gif)
 

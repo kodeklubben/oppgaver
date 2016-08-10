@@ -1,5 +1,5 @@
 ---
-title: Hei JavaScript!
+title: "JS: Hei JavaScript!"
 level: 1
 author: Arve Seljebu
 ---
