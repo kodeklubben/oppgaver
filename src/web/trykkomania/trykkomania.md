@@ -1,16 +1,18 @@
 ---
-title: Trykkomania
-level: 2
+title: "JS: Trykkomania"
+level: 4
 author: Arve Seljebu
 ---
 
 # Introduksjon {.intro}
 Denne oppgaven viser deg hvordan du kan lage et spill med JavaScript og dele det med vennene dine. Spillet kalles *Trykkomania* fordi det handler om å trykke på en ball flest mulig ganger før tiden renner ut.
 
+Før du starter på denne oppgaven bør du har endel erfaring med variabler, funksjoner og eventListeners i JavaScript. Dersom du ikke har det, så anbefaler vi å gjøre noen av de enklere oppgavene først. 
+
 ![](trykkomania.gif)
 
 # Steg 1: Åpne JS Bin {.activity}
-Vi skal bruke JS Bin (http://jsbin.com) for å lage spillet. Hvis du aldri har brukt JS Bin før, ta en titt på oppgaven [Hei JavaScript](../hei_js/hei_js.html).
+Vi skal bruke JS Bin (http://jsbin.com) for å lage spillet. Hvis du aldri har brukt JS Bin før, ta en titt på oppgaven [Hei JavaScript](../hei_js/hei_js.html). Dersom du heller vil lage spillet i en egen fil på PCen din, så er det bare å åpne din favoritt teksteditor og hoppe til steg 2.
 
 ## Sjekkliste {.check}
 - Åpne adressen [jsbin.com](http://jsbin.com) i ett eget vindu.
@@ -69,7 +71,7 @@ Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi s
   }
   ```
 
-- For at ballen skal vises, må vi kjøre koden:
+- For at ballen skal vises, må vi kjøre funksjonen ved hjelp av denne koden:
 
   ```js
   Ball();
@@ -79,8 +81,7 @@ Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi s
 
   ![](firkantet_ball.png)
 
-- Ok, så den var ikke akkurat rund. Vi kan bruke `el.style.borderRadius` for å runde av hjørnene.
-- Siden ballen er `60px` bred og høy, så avrunder vi kantene med `30px`, altså halvparten av 60.
+Ok, så den var ikke akkurat rund. Vi kan bruke `el.style.borderRadius` for å runde av hjørnene. Siden ballen er `60px` bred og høy, så avrunder vi kantene med `30px`, altså halvparten av 60.
 - Legg koden under de andre `el.style`-setningene:
 
   ```js
@@ -115,8 +116,8 @@ Vi bruker `el.style.position = 'fixed'` for å fortelle at vi ønsker plassere b
   el.style.left = '30%';
   ```
 
-- Prøv verdier mellom `0%` og `100%`.
-- Når forsvinner ballen vekk fra vinduet?
+- Prøv andre verdier mellom `0%` og `100%`.
+- Klarer du å finne ut når ballen forsvinner ut av vinduet?
 
 ## Tips {.protip}
 Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/pozova/2/edit?js,output).
@@ -124,8 +125,8 @@ Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/pozova/2/e
 # Steg 4: Flytte ballen med en funksjon {.activity}
 Ettersom vi ønsker at ballen skal flytte seg underveis i spillet, skal vi lage en funksjon som flytter ballen.
 
-## Sjekkliste {.checklist}
-- Inni `Ball`, lag en funksjon som heter `el.posisjon`.
+## Sjekkliste {.check}
+- Inni `Ball`, lag en funksjon som heter `el.posisjon`. Denne funksjonen skal ta inn en x- og en y-verdi, plassere elementet og returnere elementet.
 
   ```js
   function Ball() {
@@ -145,7 +146,7 @@ Ettersom vi ønsker at ballen skal flytte seg underveis i spillet, skal vi lage 
    };
    ```
 
-- Returner `el`, slik at vi kan bruke funksjonene til ballen.
+- Returner `el`, slik at vi kan bruke funksjonene til ballen. Når elementet `el` returneres så vil `el` oppdateres med ny plassering. 
 
   ```js
   function Ball() {
@@ -170,7 +171,7 @@ Ettersom vi ønsker at ballen skal flytte seg underveis i spillet, skal vi lage 
 Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/hipepuy/edit?js,output).
 
 # Steg 5: Velg en tilfeldig plassering {.activity}
-I JavaScript kan vi bruke `Math.random()` for å få en tilfeldig verdi mellom 0 og 1. La oss bruke denne til å plassere ballen.
+I JavaScript kan vi bruke `Math.random()` for å få en tilfeldig verdi mellom 0 og 1. La oss bruke denne slik at ballen blir plassert på et tilfeldig sted.
 
 ## Sjekkliste {.check}
 - Trykk på fanen **Console**.
@@ -196,6 +197,7 @@ I JavaScript kan vi bruke `Math.random()` for å få en tilfeldig verdi mellom 0
   var y = Math.random() * 100 + '%';
   ball.posisjon(x, y);
   ```
+Her har vi ta laget 2 variabler `x` og `y` som begge holder på hvert sitt tilfeldige tall som er helt tilfeldig. Dette tallet sendes inn i funksjonen `posisjon(x,y)` som vi lagde i sted. 
 
 - Hvis du trykker på knappen <button>Run with JS</button>, flytter ballen på seg?
 
@@ -217,7 +219,11 @@ Om du sitter fast, kan du se på [fasiten så langt](http://jsbin.com/digiqa/1/e
 
 # Steg 6: Flytte ballen hvert andre sekund {.activity}
 Vi ønsker at ballen hele tiden skal flytte seg. Nå skal vi bruke `setInterval` til å flytte ballen hvert andre sekund.
-
+```js
+setInterval(function(){
+    //koden som skal kjøres i intervall
+}, antall_millisekunder); // Hvor ofte den skal kjøre
+```
 ## Sjekkliste {.check}
 - Bruk `setInterval` til å flytte ballen hvert andre sekund:
 
@@ -253,17 +259,21 @@ Nå har du en ball som spretter rundt. La oss legge til poeng. Vi har laget en p
    */
   function Poeng() {
     var el = document.createElement('div');
+    
+    // CSS til "el"
     el.style.position = 'fixed';
     el.style.bottom = '5px';
     el.style.left = '8px';
     el.style.padding = '5px';
     el.style.backgroundColor = 'black';
     el.style.color = 'white';
-
+    
+    // Viser poengsum på skjermen, samt lager variabelen "_poeng"
     var _poeng = 0;
     el.innerHTML = _poeng + ' poeng';
     document.body.appendChild(el);
 
+    // To funksjoner som øker eller nullstiller poengene
     el.øk = function () {
       _poeng += 100;
       el.innerHTML = _poeng + ' poeng';
