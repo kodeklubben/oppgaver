@@ -197,7 +197,7 @@ I JavaScript kan vi bruke `Math.random()` for å få en tilfeldig verdi mellom 0
   var y = Math.random() * 100 + '%';
   ball.posisjon(x, y);
   ```
-Her har vi ta laget 2 variabler `x` og `y` som begge holder på hvert sitt tilfeldige tall som er helt tilfeldig. Dette tallet sendes inn i funksjonen `posisjon(x,y)` som vi lagde i sted. 
+Her har vi laget 2 variabler `x` og `y` som begge holder på hvert sitt tilfeldige tall. Dette tallet sendes inn i funksjonen `posisjon(x,y)` som vi lagde i sted. 
 
 - Hvis du trykker på knappen <button>Run with JS</button>, flytter ballen på seg?
 
