@@ -374,6 +374,8 @@ Akkurat nå er det ubegrenset tid i spillet. La oss legge til en nedtelling av t
    */
   function Nedtelling (ferdig) {
     var el = document.createElement('div');
+    
+    // CSSen til elementet "el"
     el.style.position = 'fixed';
     el.style.left = '0';
     el.style.bottom = '0';
@@ -382,12 +384,17 @@ Akkurat nå er det ubegrenset tid i spillet. La oss legge til en nedtelling av t
     el.style.backgroundColor = 'red';
     document.body.appendChild(el);
 
+    // Regner ut prosenten av hvor lang tid det er igjen
     function prosent (slutt, tid) {
       return (slutt - Date.now()) / tid / 10;
     }
+    
+    // Funksjon som teller ned og stopper når den har kommet til null
     el.tellNed = function (tid) {
       var slutt = Date.now() + tid * 1000;
       var intervall = setInterval(tegn, 20);
+      
+      // Tegner streken på venstre side til tiden er ute
       function tegn () {
         var p = prosent(slutt, tid);
         if (p < 0) {
@@ -550,3 +557,5 @@ Her er noen utfordringer:
 - Endre hvor lang tid man har på seg.
 - Endre fargen på ballen.
 - Øk poengsummen med 1000 istedenfor 100.
+- Klarer du å få ballen til å endre til forskjellig størrelse hver gang den kommer til syne?
+- Klarer du å få frem flere enn én ball?
