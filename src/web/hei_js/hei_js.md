@@ -16,7 +16,13 @@ nettside som lar deg programmere JavaScript. Vi kunne også brukt nettleseren
 din direkte, men i JS Bin blir stegene lik for alle, uansett om du bruker
 Internet Explorer, Mozilla Firefox, Chrome, Opera, Safari eller en annen
 nettleser. I tillegg er det med JS Bin mulig å gjøre denne oppgaven på
-nettbrett. Når vi blir flinkere i JavaScript skal vi skrive JavaScript-koden rett inn i en HTML-fil. 
+nettbrett. 
+
+## Tips {.tip}
+Her er flere måter å kjøre JavaScript-kode på:
++ Lagre en `.js`-fil i din favoritt teksteditor og åpne den i en nettleser
++ Skrive kode mellom `<script> </script>` i `<head>` i en HTML-fil og åpne den i en nettleser
++ I `<head>`, skrive `<script src="fil_navn.js"></script>`
 
 ## Sjekkliste {.check}
 
