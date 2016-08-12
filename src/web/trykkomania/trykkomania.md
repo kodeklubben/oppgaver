@@ -1,6 +1,6 @@
 ---
 title: "JS: Trykkomania"
-level: 4
+level: 2
 author: Arve Seljebu
 ---
 
