@@ -274,20 +274,79 @@ Nå som vi har fått litt kontroll på hva en `funksjon` eller `metode` er, skal
 
 
 # Steg 4: Løkker {.activity}
-I denne seksjonen skal vi ha en gjennomgang av to forskjellige løkker: `for`-løkker og `while`-løkker. De ser slik ut:
+Vi som programmerer er ganske late og derfor bruker vi verktøy til å gjenta kode. Løkker gjør akkurat dette. Ved hjelp av løkker kan vi gjenta kode istedet for å skrive mange linjer med kode. Så vi skal i denne seksjonen se på to type løkker: `for`-løkker og `while`-løkker.
+
+
+## For-løkke {.tip}
 ```js
 for(var i = 0; i < 10; i++){
-    //Kode som kjøres ett gitt antall ganger
+    // Kode som kjøres ett gitt antall ganger
 }
 ```
++ `var i = 0;` dette er en variabel som fungerer som en teller, derfor er det et tall og det starter gjerne på `0`.
++ `i < 10;` dette er en betingelse som forteller løkken om den skal fortsette eller av sluttes. Her sier vi at løkken skal kjøre så lenge variabelen `i` er mindre enn 10.
++ `i++;` øker variabelen `i` med `1` for hver runde løkken kjører.
+Eksempel:
 
+```js
+for(var i = 0; i < 10; i++;){
+    console.log(i); 
+}
+```
+Dette skrives ut i konsollen: 
+```js
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+Man kan gjøre det samme hvis man for eksempel skal skrive ut en melding mange ganger eller skrive ut hva du har i handle listen din: 
+
+```js
+var handleliste = ["melk", "egg", "smør", "toalettpapir", "brus", "epler", "bananer"]  //[] betyr liste
+
+for(var i = 0; i < handleliste.length; i++){
+    console.log(handleliste[i]); 
+}
+```
++ `[]` betyr liste, og alle elementene som er i listen blir separert med `,`.
++ `handleliste.length()` er et tall på hvor stor listen er. Skriv `console.log(handleliste.length);` i JSBin og se hva slags tall du får ut. 
++ Når vi skal skrive ut et gitt element fra en liste skriver vi `handleliste[index]`. `index` her er hvilken plass i lista elementet har. Skal du skrive ut det første elementet skriver du `handleliste[0]`. `handleliste[1]` er det andre elementet, osv. 
+##
+
+## Prøv selv! {.check}
++ Åpne ny side i JSBin
++ Prøv å skriv ut tallene fra 1 - 100 ved hjelp av en `for`-løkke
++ Bytt på telleren `i++` og skriv ut alle partall mellom 1 og 100
+
+<toggle>
+    <strong>Hint</strong>
+    <hide>
+        Bytt ut i++ med i+=2
+    </hide>
+</toggle>
+
++ Klarer du å skrive ut alle oddetallene også?
+
+Bra! La oss se på lister. 
+
++ Lag nå en liste over dine favoritt spill
++ Skriv ut alle ved hjelp av en `for`-løkke
++ Skriv ut annen hvert element i lista (hint: bruk samme metode som med partall)
+
+## While-løkke {.tip}
 ```js
 while(betingelse){
     // Kjøre kode til betingelsen er usann
 }
 ```
 
-Vi som programmerer er ganske late og derfor bruker vi verktøy til å gjenta kode. Løkker gjør akkurat dette. Ved hjelp av løkker kan vi gjenta kode istedet for å skrive mange linjer med kode. Vi skal se på et par eksempler:
 
-
-
+##
