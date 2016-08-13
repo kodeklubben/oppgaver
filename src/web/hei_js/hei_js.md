@@ -21,7 +21,7 @@ nettbrett.
 ## Tips {.tip}
 Her er flere måter å kjøre JavaScript-kode på:
 + Lagre en `.js`-fil i din favoritt teksteditor og åpne den i en nettleser
-+ Skrive kode mellom `<script> </script>` i `<head>` i en HTML-fil og åpne den i en nettleser
++ Skrive kode mellom `<script> </script>` i `<body>` eller `<head>` i en HTML-fil,  og åpne den i en nettleser
 + I `<head>`, skrive `<script src="fil_navn.js"></script>`
 
 ## Sjekkliste {.check}
