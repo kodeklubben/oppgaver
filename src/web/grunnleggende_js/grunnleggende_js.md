@@ -7,14 +7,16 @@ Author: Lars Klingenberg
 # Introduksjon {.intro}
 I denne oppgaven skal du lære helt enkle og grunnleggende elementer av `JavaScript`. Du vil lære om `variabler`, `if-setninger`, `funksjoner` og `løkker`.
 
-For å gjøre denne oppgaven trenger du ingen forkunnskaper innenfor HTML eller CSS, men det er veldig lurt å kunne HTML og CSS når man skal programmere JavaScript. Hvis HTML er en bil, så er CSS utseendet og designet på bilen, mens JavaScript står for all funksjonalitet som å skru på motoren, få bilen til å kjøre osv. Hvis du har programmert et tekstlig programmeringsspråk som for eksempel `Python` før, så vil nok mye i denne oppgaven være kjent. 
+For å gjøre denne oppgaven trenger du ingen forkunnskaper innenfor HTML eller CSS, men det er veldig lurt å kunne HTML og CSS når man skal programmere JavaScript. 
+
+Hvis HTML er en bil, så er CSS utseendet og designet på bilen, mens JavaScript står for all funksjonalitet som å skru på motoren, få bilen til å kjøre osv. Hvis du har programmert et tekstlig programmeringsspråk som for eksempel `Python` før, så vil nok mye i denne oppgaven være kjent. 
 
 La oss begynne! 
 
 # Steg 1: Variabler {.activity}
-Dersom du gjorde oppgaven [Hei JavaScript](../hei_js/hei_js.html) så er nok variabler kjent. Samme gjelder hvis du har programmert litt fra før.
+Dersom du gjorde oppgaven [Hei JavaScript](../hei_js/hei_js.html) så er nok variabler kjent. Samme gjelder hvis du har programmert litt fra før. Men litt repetisjon skader ikke! 
 
-En variabel i JavaScript (forkortes til JS) ser slik ut:
+En variabel i JavaScript ser slik ut:
 ```js
 var variabel_navn = "verdi";
 ```
@@ -36,8 +38,10 @@ __La oss prøve oss litt frem!__
 var tall = 9;
 var tekst = "Hei på deg!";
 ```
-__NB!__ Husk at hver linje i JavaScript avsluttes med enten `;`, `(`, `)`, `{` eller `}`.
 
+## Forklaring {.tip}
+Husk at hver linje i JavaScript avsluttes med enten `;` eller `}`, avhengig av om du lager en variabel eller en funksjon. Når vi bruker variabeler avslutter vi med `;`, med funksjoner avslutter vi med `}`.
+##
 For at vi skal kunne skrive ut noe til `Console` bruker vi `console.log()`:
 
 ```js
@@ -75,6 +79,11 @@ var tall_3 = tall_2;
     </hide>
 </toggle>
 
++ Skriv ut `tall_3` og `tall_2` til `console`
++ Prøv å endre på `tall_2`, hva skjer med `tall_3`? 
+
+`Tall_3` er jo satt til å være det samme som `tall_2` og derfor blir den endret når `tall_2` blir endret. 
+
 Vi kan også legge til ekstra verdier til en variabel:
 
 ```js
@@ -101,12 +110,16 @@ Når vi bruker `if/else` sjekker vi en betingelse og basert på om betingelsen e
 var tall = 5;
 
 if(tall == 5){
-    console.log("Tallet er midt mellom 0 og 10");
+    console.log("Tallet er midt mellom 1 og 10");
 }else{
     console.log("Tallet er enten over eller under 5");
 }
 ```
+## Forklaring {.tip}
+Dersom `tall` har verdien `5` vil den første meldingen skrives ut, dersom `tall` har en annen verdi, så vil den andre meldingen skrives ut. Prøv selv!
+
 + Endre variabelen `tall` og se hvilke melding du får ut. 
+##
 
 + La oss lage sjekk på om du kan ta sertifikatet til bil eller moped:
 
@@ -172,7 +185,7 @@ if(mnd == 7 && dato == 10){
     }
 }
 ```
-Legg merke til her at hvis datoen er `10.8` så hopper du inn til en ny `if/else` som sjekker om navnet ditt enten er `Lars` eller `Lasse`.
+Legg merke til her at hvis datoen er `10.8` så hopper du inn til en ny `if/else` som sjekker om navnet ditt enten er `Lars` eller `Lasse`. Hvis det er feil dato skjer det ingenting.
 
 ##
 
@@ -181,7 +194,9 @@ Nå håper jeg du har fått litt mer dreisen på `if/else`, hvis ikke kommer vi 
 Nå skal vi se på `funksjoner`!
 
 # Steg 3: Funksjoner {.activity}
-Til nå har vi bare skrevet linjer med kode i `JSBin`. Når koden kjøres, så blir den lest fra topp til bunn, så koden vil kjøre i den rekkefølgen den står i. Men noen ganger ønsker vi at koden skal kjøre når en hendelse inntreffer eller noe annet skjer. Ved hjelp av `funksjoner` kan vi selv bestemme når koden skal kjøre eller om den ikke skal kjøre i det hele tatt. Oppsettet ser slik ut:
+Til nå har vi bare skrevet linjer med kode i `JSBin`. Når koden kjøres, så blir den lest fra topp til bunn, linje for linje, så koden vil kjøre i den rekkefølgen den står i. Men noen ganger ønsker vi at koden skal kjøre når en hendelse inntreffer eller noe annet skjer. Ved hjelp av `funksjoner` kan vi selv bestemme når koden skal kjøre eller om den ikke skal kjøre i det hele tatt. 
+
+Oppsettet ser slik ut:
 
 ```js
 function funksjons_navn(parameter1, parameter2){
@@ -200,7 +215,7 @@ function navn(){
 
 navn(); //for å kjøre funksjonen
 ```
-En funksjon kalles ofte for en `metode`. Videre kommer vi til å bruke `funksjon` og `metode` litt omhverandre. 
+En funksjon kalles ofte for en `metode`. Videre kommer vi til å bruke `funksjon` og `metode` litt om hverandre. 
 
 + Ta nå koden som har med alder å gjøre, og legg den inn i en funksjon. Kall funksjonen for `sjekk_alder`
 
@@ -254,5 +269,25 @@ var grader = fahrenheit_til_celsius(77);
 ```
 + Koden over kjører funksjonen `fahrenheit_til_celsius` med paramenter `77`. Funksjonen regner da ut hvor mange `celsius` 77 fahrenheit er og lagrer denne verdien i variabelen `grader`. 
  ##
+
+Nå som vi har fått litt kontroll på hva en `funksjon` eller `metode` er, skal vi bevege oss over til `løkker`.
+
+
+# Steg 4: Løkker {.activity}
+I denne seksjonen skal vi ha en gjennomgang av to forskjellige løkker: `for`-løkker og `while`-løkker. De ser slik ut:
+```js
+for(var i = 0; i < 10; i++){
+    //Kode som kjøres ett gitt antall ganger
+}
+```
+
+```js
+while(betingelse){
+    // Kjøre kode til betingelsen er usann
+}
+```
+
+Vi som programmerer er ganske late og derfor bruker vi verktøy til å gjenta kode. Løkker gjør akkurat dette. Ved hjelp av løkker kan vi gjenta kode istedet for å skrive mange linjer med kode. Vi skal se på et par eksempler:
+
 
 
