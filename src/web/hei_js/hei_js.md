@@ -191,6 +191,14 @@ Du kan også lagre JavaScript-koden i en egen `.js`-fil, for eksempel `katt.js`.
 ```
 Husk at `katt.js` må da ligge i samme mappe som HTML-filen. Dette skal vi prøve ut senere.
 
+Men for at dette skal funkere må vi skrive om `console.log()` til: 
+```js
+document.writeln();
+```
+Denne kommandoen skriver rett på HTML-siden og ikke i `konsollen`. På denne måten vil vennene dine kunne se koden uten å åpne `konsollen`. 
+
+`document.writeln()` legger også til et linjeskift etter den har skrevet ut teksten, dersom du ikke ønsker det kan du bruke `document.write()`.
+
 # Steg 6: Lagre prosjektet på datamaskinen din {.activity}
 Det er også mulig å laste ned prosjektet og lagre det på datamaskinen. La oss gjøre det.
 
