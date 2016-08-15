@@ -324,7 +324,7 @@ for(var i = 0; i < handleliste.length; i++){
 ## Prøv selv! {.check}
 + Åpne ny side i JSBin
 + Prøv å skriv ut tallene fra 1 - 100 ved hjelp av en `for`-løkke
-+ Bytt på telleren `i++` og skriv ut alle partall mellom 1 og 100
++ Bytt på telleren `i++` slik at alle partall mellom 1 og 100 skrives ut
 
 <toggle>
     <strong>Hint</strong>
@@ -335,7 +335,7 @@ for(var i = 0; i < handleliste.length; i++){
 
 + Klarer du å skrive ut alle oddetallene også?
 
-Bra! La oss se på lister. 
+__Bra! La oss se på lister.__ 
 
 + Lag nå en liste over dine favoritt spill
 + Skriv ut alle ved hjelp av en `for`-løkke
@@ -347,6 +347,56 @@ while(betingelse){
     // Kjøre kode til betingelsen er usann
 }
 ```
+En `while`-løkke kjører en blokk med kode helt til `betingelsen` blir sann. `While`-løkker er fine å bruke om man for eksempel skal lage spill:
+```js
+while(!game_over){
+    // Kjør spill
+}
+```
+`!` betyr `not`, altså betyr `!game_over` at løkken kjører så lenge spillet `ikke er slutt`. Dersom vi vil at en løkke skal kjøre for alltid kan vi sette betingelsen til `True`. 
 
+Vi kan også gjøre det samme som vi gjorde med `for`-løkken: 
+
+```js
+var i = 0;
+while(i < 10){
+    console.log(i);
+    i++;
+}
+```
+Forskjellen her er at vi må lage en tellende variabel som vi definere (`var i = 0;`) utenfor selve løkken. Selve telleren (`i++`) legger vi etter all koden vi har løkken sånn at den teller opp etter vi har utført det vi skal. 
 
 ##
+
+## Prøv selv {.check}
+
++ Skriv om `while`-løkken til å skrive ut alle tallene fra 1-100
++ Skriv om løkken slik at du skriver ut alle partallene fra 1-100
+
++ Bruk listen din over favorittspill og skriv ut alle elementene ved hjelp av `while`-løkken
+
+__La oss nå lage et enkelt `Kron eller mynt`-spill ved hjelp av `while`.__
+
++ Åpne en ny [JSbin.com](https://jsbin.com/?js,console)
++ Lag en variabel, `krone`, som skal være enten 0 eller 1, dette skal være tilfeldig:
+```js
+var krone = Math.floor(Math.random()*2);
+```
+
+`Math.floor()` runder ned tallet du får fra `Math.random()`. `Math.random()` henter et tall mellom 0 og 1, derfor bruker vi `*2` for at tallet blir mellom 0-2.
+
++ Lag en `while`-løkke som skal kjøre helt til du får `mynt`. Vi sier nå at `kron` er `1` og `mynt` er `0`:
+
+```js
+while(krone === 0){
+    console.log("Kron! Vi flipper igjen...");
+    var krone = Math.floor(Math.random()*2);
+}
+console.log("Mynt! Gratulerer!");
+```
+__Bra jobba!__ Nå har du lært masse om JavaScript! 
+
+## Utfordring {.challenge}
++ Bruk `prompt` til å ta inn et valg fra brukeren sånn at du selv kan bestemme om du vil ha `Kron` eller `Mynt`. 
++ Klarer du å gjøre det samme med terninger? Da må du ha tallene fra 0-6 og ikke bare fra 0-2.
+
