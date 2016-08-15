@@ -195,9 +195,24 @@ Men for at dette skal funkere må vi skrive om `console.log()` til:
 ```js
 document.writeln();
 ```
-Denne kommandoen skriver rett på HTML-siden og ikke i `konsollen`. På denne måten vil vennene dine kunne se koden uten å åpne `konsollen`. 
+Denne kommandoen skriver rett på HTML-siden og ikke i `konsollen`. På denne måten vil vennene dine kunne se koden uten å åpne `konsollen`. Problemet med denne kommandoen er at den fjerne flere mellomrom ved siden av hverandre, derfor må vi også legge til litt CSS-magi:
+```js
+`document.body.style.whiteSpace = "pre"; //gjør at du kan ha flere mellomrom etterhverandre
+```
 
 `document.writeln()` legger også til et linjeskift etter den har skrevet ut teksten, dersom du ikke ønsker det kan du bruke `document.write()`.
+
+Nå ser koden slik ut:
+```js
+function hei(navn) {
+    document.writeln("< Mjau, " + navn + "! >                 ");
+    document.writeln("    \\                           ");
+    document.writeln("      /\\___/\\                   ");
+    document.writeln("     ( o o  )                  ");
+    document.writeln("      \\ =0= /                   ");
+}
+document.body.style.whiteSpace = "pre";
+```
 
 # Steg 6: Lagre prosjektet på datamaskinen din {.activity}
 Det er også mulig å laste ned prosjektet og lagre det på datamaskinen. La oss gjøre det.
