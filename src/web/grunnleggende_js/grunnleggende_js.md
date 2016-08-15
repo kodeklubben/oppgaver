@@ -18,7 +18,7 @@ Dersom du gjorde oppgaven [Hei JavaScript](../hei_js/hei_js.html) så er nok var
 
 En variabel i JavaScript ser slik ut:
 ```js
-var variabel_navn = "verdi";
+var variabelNavn = "verdi";
 ```
 
 `var` forteller JavaScript at det er en variabel. En variabel kan være `et tall`, `tekst`, en annen `variabel` eller en `funksjon`:
@@ -26,7 +26,7 @@ var variabel_navn = "verdi";
 ```js
 var tall = 9;
 var tekst = "Dette er en string (tekst på engelsk)";
-var funksjon = function(){ }; 
+var funksjon = function() { }; 
 var variabel = tall; // "variabel" vil nå ha samme verdi som tall, selv når tall endres
 ```
 
@@ -53,12 +53,12 @@ console.log(tekst);
 + Vises teskten?
 + La oss prøve oss på litt variabel-morro. Lag følgende variabler, du kan godt slette det du allerede har:
 ```js
-var tall_1 = 4;
-var tall_2 = 7; 
+var tall1 = 4;
+var tall2 = 7; 
 ```
 + Nå skal vi ta de to variablene og plusse dem sammen:
 ```js
-console.log(tall_1 + tall_2);
+console.log(tall1 + tall2);
 ```
 + Trykk `Run`. Fikk du 11?
 + Nå som vi vet at vi kan få JavaScript til å regne for oss, ta å bytt ut `+` med de andre regneartene vi har og se om JavaScript klarer å regne ut med dem. 
@@ -67,10 +67,10 @@ La oss nå se på hvordan vi kan la en variabel være en annen:
 
 + Legg til enda en variabel:
 ```js
-var tall_3 = tall_2;
+var tall3 = tall2;
 ```
 
-+ Hva blir skriver `console.log(tall_3 * tall_2)` ut? 
++ Hva blir skriver `console.log(tall3 * tall2)` ut? 
 
 <toggle>
     <strong>Svar</strong>
@@ -79,26 +79,26 @@ var tall_3 = tall_2;
     </hide>
 </toggle>
 
-+ Skriv ut `tall_3` og `tall_2` til `console`
-+ Prøv å endre på `tall_2`, hva skjer med `tall_3`? 
++ Skriv ut `tall3` og `tall2` til `console`
++ Prøv å endre på `tall2`, hva skjer med `tall3`? 
 
-`Tall_3` er jo satt til å være det samme som `tall_2` og derfor blir den endret når `tall_2` blir endret. 
+`tall3` er jo satt til å være det samme som `tall2` og derfor blir den endret når `tall2` blir endret. 
 
 Vi kan også legge til ekstra verdier til en variabel:
 
 ```js
-var tall_4 = tall_3 + tall_1 + 5; 
+var tall4 = tall3 + tall1 + 5; 
 ```
-+ Bruk `console.log` til å skrive ut `tall_4`.
++ Bruk `console.log` til å skrive ut `tall4`.
 
 Nå har vi fått prøvd ut litt forskjellige variabeler, da skal vi bruke dette sammen med `if-setninger` for å sjekke om noe er sant eller ikke.
 
 # Steg 2: If-setninger {.activity}
 En `if/else`-setning ser slik ut i JavaScript:
 ```js
-if(betingelse){
+if(betingelse) {
     // Kjør koden som blir skrevet her
-}else{
+} else {
     // Kjør koden som blir skrevet her istedet
 }
 ```
@@ -109,16 +109,16 @@ Når vi bruker `if/else` sjekker vi en betingelse og basert på om betingelsen e
 ```js
 var tall = 5;
 
-if(tall == 5){
+if(tall === 5) {
     console.log("Tallet er midt mellom 1 og 10");
-}else{
+} else {
     console.log("Tallet er enten over eller under 5");
 }
 ```
 ## Forklaring {.tip}
-Dersom `tall` har verdien `5` vil den første meldingen skrives ut, dersom `tall` har en annen verdi, så vil den andre meldingen skrives ut. Prøv selv!
+Dersom `tall` har verdien `5` vil den første meldingen skrives ut, dersom `tall` har en annen verdi, så vil den andre meldingen skrives ut. For å sjekke om en variabel er lik noe så bruker vi `===`. Da sjekker JavaScript om verdien og datatypen (nummer, tekst osv) er like.
 
-+ Endre variabelen `tall` og se hvilke melding du får ut. 
++ Endre variabelen `tall` til andre verdier og se hvilke melding du får ut. 
 ##
 
 + La oss lage sjekk på om du kan ta sertifikatet til bil eller moped:
@@ -126,11 +126,11 @@ Dersom `tall` har verdien `5` vil den første meldingen skrives ut, dersom `tall
 ```js
 var alder = 0;
 
-if(alder >= 18){
+if(alder >= 18) {
     console.log("Du er gammel nok til å kjøre bil");
-}else if(alder >= 16){
+} else if(alder >= 16) {
     console.log("Du er gammel nok til å kjøre moped");
-}else{
+} else {
     console.log("Du er dessverre ikke gammel nok"); 
 }
 ```
@@ -162,14 +162,14 @@ var tid = dato.getHours(); // Henter timen (klokka) vi er i nå
 
 Før du skal få en oppgave må vi gå igjennom noen verktøy vi kan bruke i `if/else`:
 
-## Forklaring {.tip}
+## Forklaring  {.tip}
 + I en `if(betingelse)` kan vi sjekke flere ting samtidig ved å bruke `&&` eller `||`. `&&` betyr `og`, `||` betyr `eller`. Finner du ikke disse på tastaturet, så spør en voksen om å hjelpe deg. Eksempel:
 ```js
 var date = new Date();
 var mnd = date.getMonth();
 var dato = date.getDate();
 
-if(navn == "Lars" && mnd == 7 && dato == 10){ // mnd = måned, dato = dagen i måneden
+if(navn === "Lars" && mnd === 7 && dato === 10) { // mnd = måned, dato = dagen i måneden
     console.log("Gratulerer med navnedagen, Lars!"); 
 }
 ```
@@ -177,10 +177,10 @@ For at denne koden skal være sann må navnet være `Lars` og datoen må være `
 
 Samme kan du gjøre med `||` hvis du heller vil sjekke `eller`:
 ```js
-if(mnd == 7 && dato == 10){
-    if(navn == "Lars" || navn = "Lasse"){
+if(mnd === 7 && dato === 10) {
+    if(navn === "Lars" || navn === "Lasse") {
         console.log("Gratulerer med navnedagen!");
-    }else{
+    } else {
         console.log("Du har dessverre ikke navnedag i dag.");
     }
 }
@@ -199,17 +199,17 @@ Til nå har vi bare skrevet linjer med kode i `JSBin`. Når koden kjøres, så b
 Oppsettet ser slik ut:
 
 ```js
-function funksjons_navn(parameter1, parameter2){
+function funksjonsNavn(parameter1, parameter2) {
     // Kode som utføres når funksjonen kalles
 }
 
-funksjons_navn(paramenter1, parameter2); // Gjør at funksjonen blir kjørt
+funksjonsNavn(paramenter1, parameter2); // Gjør at funksjonen blir kjørt
 ```
 
 En funksjon tar noen ganger inn noen variabler den ønsker å bruk ved hjelp av `parameter`, men ofte tar man ikke inn noen `parameter` og da ser en funksjon sånn ut:
 
 ```js
-function navn(){
+function navn() {
     // Kode
 }
 
@@ -217,20 +217,20 @@ navn(); //for å kjøre funksjonen
 ```
 En funksjon kalles ofte for en `metode`. Videre kommer vi til å bruke `funksjon` og `metode` litt om hverandre. 
 
-+ Ta nå koden som har med alder å gjøre, og legg den inn i en funksjon. Kall funksjonen for `sjekk_alder`
++ Ta nå koden som har med alder å gjøre, og legg den inn i en funksjon. Kall funksjonen for `sjekkAlder`
 
 <toggle>
     <strong>Hint</strong>
 <hide>
         
-    function sjekk_alder(){
+    function sjekkAlder() {
         var alder = prompt("Hvor gammel er du?");
 
-        if(alder >= 18){
+        if(alder >= 18) {
              console.log("Du er gammel nok til å kjøre bil");
-        }else if(alder >= 16){
+        } else if(alder >= 16) {
             console.log("Du er gammel nok til å kjøre moped");
-        }else{
+        } else {
             console.log("Du er dessverre ikke gammel nok"); 
         }       
     }
@@ -238,12 +238,12 @@ En funksjon kalles ofte for en `metode`. Videre kommer vi til å bruke `funksjon
 </hide>
 </toggle>
 
-+ Legg på kode for at `sjekk_alder` skal kjøre. 
++ Legg på kode for at `sjekkAlder` skal kjøre. 
 
 <toggle>
     <strong> Hint </strong>
     <hide>
-    sjekk_alder();
+    sjekkAlder();
     </hide>
 </toggle>
 
@@ -255,19 +255,19 @@ Vi lager en funksjon som konverterer `fahrenheit`(tempratur mål i USA) til `Cel
 + Slett det du har i JSBin eller åpne et nytt vindu i JSBin (File -> New)
 + Lag følgende funksjon:
 ```js
-function fahrenheit_til_celsius(fahrenheit){
+function fahrenheitTilCelsius(fahrenheit) {
     return (5/9) * (fahrenheit - 32);
 }
 ```
 ## Forklaring {.tip}
-+ `fahrenheit_til_celsius(fahrenheit)` betyr at vi tar inn en variabel som heter `fahrenheit`. Den kan kun brukes innenfor `{ }` i funksjonen vår. 
++ `fahrenheitTilCelsius(fahrenheit)` betyr at vi tar inn en variabel som heter `fahrenheit`. Den kan kun brukes innenfor `{ }` i funksjonen vår. 
 + `return (5/9) * (fahrenheit - 32)` bruker variabelen `fahrenheit` og regner sammen mattestykket som står der. 
 + Men hva betyr `return`?
 + Return betyr at funksjonen returnerer en verdi til brukeren som brukeren kan se, lagre eller bruke videre. La oss se på et eksempel:
 ```js
-var grader = fahrenheit_til_celsius(77); 
+var grader = fahrenheitTilCelsius(77); 
 ```
-+ Koden over kjører funksjonen `fahrenheit_til_celsius` med paramenter `77`. Funksjonen regner da ut hvor mange `celsius` 77 fahrenheit er og lagrer denne verdien i variabelen `grader`. 
++ Koden over kjører funksjonen `fahrenheitTilCelsius` med paramenter `77`. Funksjonen regner da ut hvor mange `celsius` 77 fahrenheit er og lagrer denne verdien i variabelen `grader`. 
  ##
 
 Nå som vi har fått litt kontroll på hva en `funksjon` eller `metode` er, skal vi bevege oss over til `løkker`.
@@ -279,7 +279,7 @@ Vi som programmerer er ganske late og derfor bruker vi verktøy til å gjenta ko
 
 ## For-løkke {.tip}
 ```js
-for(var i = 0; i < 10; i++){
+for(var i = 0; i < 10; i++) {
     // Kode som kjøres ett gitt antall ganger
 }
 ```
@@ -289,7 +289,7 @@ for(var i = 0; i < 10; i++){
 Eksempel:
 
 ```js
-for(var i = 0; i < 10; i++;){
+for(var i = 0; i < 10; i++;) {
     console.log(i); 
 }
 ```
@@ -312,7 +312,7 @@ Man kan gjøre det samme hvis man for eksempel skal skrive ut en melding mange g
 ```js
 var handleliste = ["melk", "egg", "smør", "toalettpapir", "brus", "epler", "bananer"]  //[] betyr liste
 
-for(var i = 0; i < handleliste.length; i++){
+for(var i = 0; i < handleliste.length; i++) {
     console.log(handleliste[i]); 
 }
 ```
@@ -343,23 +343,23 @@ __Bra! La oss se på lister.__
 
 ## While-løkke {.tip}
 ```js
-while(betingelse){
+while(betingelse) {
     // Kjøre kode til betingelsen er usann
 }
 ```
 En `while`-løkke kjører en blokk med kode helt til `betingelsen` blir sann. `While`-løkker er fine å bruke om man for eksempel skal lage spill:
 ```js
-while(!game_over){
+while(!gameOver) {
     // Kjør spill
 }
 ```
-`!` betyr `not`, altså betyr `!game_over` at løkken kjører så lenge spillet `ikke er slutt`. Dersom vi vil at en løkke skal kjøre for alltid kan vi sette betingelsen til `True`. 
+`!` betyr `not`, altså betyr `!gameOver` at løkken kjører så lenge spillet `ikke er slutt`. Dersom vi vil at en løkke skal kjøre for alltid kan vi sette betingelsen til `True`. 
 
 Vi kan også gjøre det samme som vi gjorde med `for`-løkken: 
 
 ```js
 var i = 0;
-while(i < 10){
+while(i < 10) {
     console.log(i);
     i++;
 }
@@ -388,7 +388,7 @@ var krone = Math.floor(Math.random()*2);
 + Lag en `while`-løkke som skal kjøre helt til du får `mynt`. Vi sier nå at `kron` er `1` og `mynt` er `0`:
 
 ```js
-while(krone === 0){
+while(krone === 0) {
     console.log("Kron! Vi flipper igjen...");
     var krone = Math.floor(Math.random()*2);
 }
