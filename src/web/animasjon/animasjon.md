@@ -11,7 +11,7 @@ I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS. Under
 
 Men før vi starter å lage animasjonen over må vi lære om hvordan animasjon fungerer ved hjelp av CSS. Så la oss starte med det grunnleggende! 
 
-__For å lære mest mulig bør du åpne en tom `.html`-fil og skrive koden for hånd når du leser oppgaven, da kommer du til å bli en racer i CSS-animasjon! 
+__For å lære mest mulig bør du åpne en tom `.html`-fil og skrive koden for hånd når du leser oppgaven, da kommer du til å bli en racer i CSS-animasjon!__ 
 
 # Steg 1: Animasjons-attributtet {.activity}
 
