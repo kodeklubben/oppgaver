@@ -41,12 +41,13 @@ Som du ser er det et hvitt mellomrom over og på siden av bildet. Dette kan vi b
 
 ```css
 body{
-    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
     width: 1080px;
 }
 ```
 
-`margin: 0 auto` fjerner alle marger i `<body>` som allerede ligger inne som standard. Denne midtstiller også `<body>`-taggen på siden vår. 
+`margin-top: 0px; margin-bottom: 0px;` fjerner alle marger i `<body>` som allerede ligger inne som standard. Denne midtstiller også `<body>`-taggen på siden vår. 
 
 `width: 1080px;` forteller nettsiden vår at `<body>` skal være `1080px` bred.
 
@@ -119,7 +120,8 @@ Nå ser vi at vi har fått liste-elementene våre til å legge seg mot høyre og
 
 ```css
 nav ul{
-    margin: 0 auto;         /* fjerner marger og midtstiller */
+    margin-top: 0px;        /* fjerner marger og midtstiller */
+    margin-bottom: 0px;
     width: 1072px;          /* setter bredden til 1040px, siden */
     height: 40px;           /* setter høyden til 40px */
     border: #000000 4px solid; /* Ramme rundt hele lista */
@@ -127,7 +129,7 @@ nav ul{
 }
 ```
 
-Grunnen til at vi bruker `1072px` istedet for `1080px` er fordi vi har en ramme som er på `4px`og som er på både høyre og venstre siden, altså `2 * 4px = 8px`. 
+Grunnen til at vi bruker `1072px` istedet for `1080px` er fordi vi har en hovedramme som er på `4px`og som er på både høyre og venstre siden, altså `2 * 4px = 8px`. 
 
 ![screenshot](ressurser/screenshot_4.png)
 
@@ -141,7 +143,7 @@ Siden vi skal ha en meny, så har vi lagt inn lenker(`<a>`) i liste-elementene. 
 
 ```css
 nav ul li a{
-    display: block;         /* Gjør at kantene går helt opp til hoved rammen */
+    display: block;         /* Gjør at kantene går helt opp til hovedrammen */
     padding-left: 20px;     /* mellomrommet til venstre fra teksten til rammen */
     padding-right: 20px;    /* mellomrommet til høyre fra teksten til rammen */
     line-height: 40px;      /* hvor høy linjen skal være */
@@ -293,7 +295,8 @@ __MERK:__ Legg merke til at under `border` er fargekoden `#000` i stedet for `#0
     }
     
     body{
-        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
         width: 1080px;
         background-color: #634335;
     }
@@ -301,7 +304,8 @@ __MERK:__ Legg merke til at under `border` er fargekoden `#000` i stedet for `#0
 
     
     nav ul{
-        margin: 0 auto;         /* fjerner marger og midtstiller */
+        margin-top: 0px;        /* fjerner marger og midtstiller */
+        margin-bottom: 0px;
         width: 1072px;          /* setter bredden til 1040px, siden */
         height: 40px;           /* setter høyden til 40px */
         border: #000 4px solid; /* Ramme rundt hele lista */
