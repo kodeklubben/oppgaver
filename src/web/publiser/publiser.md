@@ -9,7 +9,7 @@ Nå har du laget ditt eget nettsted. Du ønsker vel å vise det frem, gjør du i
 
 Husker du servere fra den første økten? Servere er datamaskiner som alltid er på og koblet til Internett, og de er satt opp slik at folk kan besøke nettsteder som lever på disse datamaskinene.
 
-For å legge nettsiden vår på internett skal vi nå bruke `Github Pages`. Det er det  __Kodeklubben__ bruker: `kodeklubben.github.io`. For at du skal kunne gjøre dette må du ha en epost-adresse. Du kan enten lage din egen ([Gmail](http://gmail.com)), bruk den du har på skolen eller spørre om å låne foreldrene dine sin. Det er viktig her at du husker hvilken epost du har bruk, du må også ha tilgang til eposten sånn at du kan få godkjent brukeren din på `Github`. 
+For å legge nettsiden vår på internett skal vi nå bruke [Github Pages](https://pages.github.com). Det er det  __Kodeklubben__ bruker: `kodeklubben.github.io`. For at du skal kunne gjøre dette må du ha en epost-adresse. Du kan enten lage din egen ([Gmail](http://gmail.com)), bruk den du har på skolen eller spørre om å låne foreldrene dine sin. Det er viktig her at du husker hvilken epost du har brukt, du må også ha tilgang til eposten slik at du får godkjent brukeren på `Github`. 
 
 
 # Github {.activity}
