@@ -1,33 +1,115 @@
 ---
 title: "HTML: Publiser nettsiden din"
-level: 2
+level: 3
 language: nb-NO
 ---
 # Publiser nettsiden din på Internett{ .activity }
 
 Nå har du laget ditt eget nettsted. Du ønsker vel å vise det frem, gjør du ikke?
 
-Hvis du bare kopierer adressen til websiden fra nettleseren din, og deretter sender den til noen, ville de ikke se den. Det er fordi denne adressen beskriver et sted på datamaskinen din, og vennene dine ikke har tilgang til den. Selv om hadde hatt det, hva om de ønsket å se på den når datamaskinen din er skrudd av?
-
 Husker du servere fra den første økten? Servere er datamaskiner som alltid er på og koblet til Internett, og de er satt opp slik at folk kan besøke nettsteder som lever på disse datamaskinene.
 
-For å gjøre dette vil vi bruke dropbox eller google drive. Hvis du ikke har en egen konto kan du spørre om å få bruke mamma eller pappa sin.
+For å legge nettsiden vår på internett skal vi nå bruke [Github Pages](https://pages.github.com). Det er det  __Kodeklubben__ bruker: `kodeklubben.github.io`. For at du skal kunne gjøre dette må du ha en epost-adresse. Du kan enten lage din egen ([Gmail](http://gmail.com)), bruk den du har på skolen eller spørre om å låne foreldrene dine sin. Det er viktig her at du husker hvilken epost du har brukt, du må også ha tilgang til eposten slik at du får godkjent brukeren på `Github`. 
 
-## Dropbox:
 
-1. Åpne dropboxmappen på datamaskinen.
-2. Finn publicmappen, og lag en ny mappe inne i den. Den nye mappen kan få samme navn som hjemmesiden din, for eksempel 'om_meg'
-3. Kopier deretter htmlfilen din over i denne mappen. Dersom du bruker noen bilder eller lignende må disse også kopieres over.
-4. Høyreklikk på htmlfilen og velge `Copy Public Link`
-5. Lim inn urlen i nettleseren din (ctrl + v) og se at nettsiden din kommer opp.
-6. Denne urlen kan du nå gi til vennene dine, så kan de se på siden din.
+# Github {.activity}
+Github er en samarbeidsplattform for oss som driver med programmering. Her kan vi legge ut prosjekter som andre kan hjelpe til med, eller vi kan finne et prosjekt vi kan bidra på. På denne måten kan vi enkelt hjelpe, samarbeide og dele med alle som driver med programmering i verden. Vi skal nå lage en `GitHub`-bruker.
 
-## Google drive:
+1. Gå inn på [Github.com](http://github.com)
+2. Skriv inn `Username`(brukernavn), `epost` og `password`(passord) før du trykker `Sign up for Github` (se bilde under)
+<img src="ressurser/sign-in-1.png" width="100%">
+3. Følg instruksjonene videre for å godkjenne og lage ferdig brukeren din
 
-1. Åpne google drive mappen på datamaskinen.
-2. Lag en ny mappe her. Den nye mappen kan få samme navn som hjemmesiden din, for eksempel 'om_meg'.
-3. Kopier deretter htmlfilen din over i denne mappen. Dersom du bruker noen bilder eller lignende må disse også kopieres over.
-4. Høyreklikk på mappen du opprettet. Under Google Drive velger du ´Del´. Kryss av at mappen skal være offentlig - at alle skal kunne se den.
-5. Høyreklikk på htmlfilen din og under Google Drive velger du 'Se på nettet'.
-6. På siden du får opp kan du velge `Preview`. Nå skal du se nettsiden din.
-7. Urlen du er på nå kan du dele med vennene dine, så kan de også se på siden din.
+# Brukernavn.github.io {.activity}
+Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side. 
+
+0. Logg inn på [Github.com](http://github.com) med den nye brukeren din, hvis du ikke allerede er logget inn
+1. Trykk på `New repository` (Grønn knapp til høyre eller `+` øverst i høyre hjørne rett ved siden av probilbildet ditt, se bilde under)
+
+<img src="ressurser/repo.png" alt="repo">
+
+2. Under `Repository name` så skriver du `ditt-brukernavn.github.io`. Under ser du et eksempel med `kodeklubben.github.io`. 
+<img src="ressurser/1.png" width="100%">
+3. Du kan gjerne skrive en beskrivelse av nettsiden under `Description`
+4. Velg enten `Public`(alle kan se koden din)  eller `Private`(koden til nettsiden blir privat). Vi har valgt `Public`.
+5. Trykk `Create repository`(Lag oppbevaringssted).
+
+Nå skal vi laste ned `repository`-et eller `repo`-et vårt, altså oppbevaringsstedet for koden til nettsiden vår. Denne koden legges i en mappe lokalt på datamaskinen vår. I denne mappen legger vi inn alle filene som skal brukes til nettsiden og bruker programmet eller kommandolinjen til `Github` for å laste opp kode til `ditt-brukernavn.github.io`-siden vår.
+
++ Trykke på `Set up in Desktop`:
+<img src="ressurser/2.png" width="100%">
+
+Hvis du er vant til å bruke `kommandolinjen` til `Linux` eller `Mac OS X`, så kan du gjøre det som står under `...or create a new repository on the command line`.
+
++ Du vil få spørsmål om å laste ned `Github-programmet, takk ja til det. 
+
+1. Trykk `Tillat` på eventuelle ting som dukker opp når `Github`-programmet åpner seg:
+
+<img src="ressurser/tillat.png">
+
+2. Hvis du får spørsmål om å logge inn så logger du bare inn med `Github`-brukeren du lagde i sted
+
+3. Du får nå spørsmål om å legge mappen `ditt-brukernavn.github.io` et sted lokalt på datamaskinen, legg det et passende sted hvor du finner det igjen. For eksempel på `Skrivebordet` eller i `Mine dokumenter`.
+
+
+For å ikke ødelegge det vi har på `kodeklubben.github.io` skal jeg videre vise med brukeren `larsfk.github.io`. 
+
+<img src="ressurser/mappe.png" width="100%">
+
+Da er det på tide å laste opp hjemmesidens første fil!
+
+0. Åpne mappen `ditt-brukernavn.github.io`. Min heter `larsfk.github.io` og ligger på `Skrivebordet`.
+
+<img src="ressurser/skrivebord.png" width="100%">
+
+1. Åpne din favoritt `teksteditor` (Atom, NodePad, Brackets IO, NodePad++)
+
+2. Lag `index.html` og lagre den i mappen `ditt-brukernavn.github.io`. Dette skal være startsiden til nettsiden vår.
+
+<img src="ressurser/innhold.png" width="100%">
+
+3. Skriv noe `HTML` i `index.html`. Du kan gjerne kopiere en av oppgavene du allerede har laget. Hvis du ikke vet hva du skal skrive kan du for eksempel skrive noe sånt:
+
+```html
+<DOCTYPE html>
+<html>
+    <body>
+        <h1>Min første hjemmeside!</h1>
+        <p>Denne hjemmesiden er laget med Git Pages.<p>
+    </body>
+</html>
+```
+
+Nå skal vi laste opp denne filen til `ditt-brukernavn.github.io`. 
+
+
+# Oppdater ditt-brukernavn.github.io {.activity}
+
+1. Åpne `Github`-programmet
+2. Trykk på `ditt-brukernavn.github.io` i kolonnen til venstre
+3. Trykk på `Compare`. 
+
+<img src="ressurser/commit.png" width="100%">
+
+Når du trykker på `Compare` begynner `Github` å sammenligne det som ligger i mappen `ditt-brukernavn.github.io` med det som ligger på nettsiden `ditt-brukernavn.github.io`. Alt som er `grønt` er det som er lagt til og alt som blir `rødt` er det endringer som er fjernet. Under har jeg kun lagt til ny kode, derfor er koden `grønn`.
+
+
+4. Må du `committe` endringene du har gjort før du får lagt opp filen til `Github`-en din. For å gjøre dette skriver du en kort forklaring i `Summary`, og litt mer detaljert beskrivelse av hva som er gjort i `Description`, som vist på bildet over. 
+4. Trykk på `Commit to master` når du har skrevet om endringene som er gjort
+5. Nå kan du trykke på `Publish` øverst til høyre
+
+<img src="ressurser/pushed.png" width="100%">
+
+6. Hvis du får spørsmål om å `Tillate` en operasjon, så gjør det. 
+7. Nå ser vi (se bildet over) at en `commit` er lagt til og `pushet`(lastet opp) til siden vår. Gå inn på `ditt-brukernavn.github.io` (`larsfk.github.io` for meg) for å se hjemmesiden din!
+
+NB! Stegene over må du gjøre hver gang du skal oppdatere nettsiden din! 
+
+<img src="ressurser/hjemmeside.png" width="100%">
+
+__Gratulerer med ny hjemmeside!__ Denne kan du dele med hvem du vil ved å sende lenken `ditt-brukernavn.github.io`.
+
+# Vil du lære mer om GitHub? {.try}
+GitHub er et stort tema og kan være litt komplisert og vrient i starten, men jeg hvis du vil lære mer sjekk ut tipsene under:
++ Les mer om GitHub her: [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
++ Søk på `GitHub Tutorials` på [YouTube](http://youtube.com) F.eks: [GitHub for noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY)
