@@ -181,8 +181,12 @@ Dette eksempelet får et objekt til å gå diagonalt siden det starter på `top:
 
 ```css
 @keyframes ned {
-    0% { top: 0px; }
-    100% { top: 100px; }
+    0% {
+      top: 0px;
+    }
+    100% {
+      top: 100px;
+    }
 }
 ```
 Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
@@ -208,9 +212,15 @@ Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
 
 ```css
 @keyframes skift-farge {
-    0% { background-color: blue; }
-    50% { background-color: yellow; }
-    100% { background-color: red; }
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: yellow;
+    }
+    100% {
+      background-color: red;
+    }
 }
 ```
 Merk at i dette eksempelet har vi lagt inn `50%`. Dette er et eksempel på at du kan dele inn animasjonen faser mellom `0%` og `100%`. Du kan legge til så mange faser du vil ved å bruke `%`.
