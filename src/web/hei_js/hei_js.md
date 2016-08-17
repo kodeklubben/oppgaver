@@ -195,7 +195,7 @@ Men for at dette skal funkere må vi skrive om `console.log()` til:
 ```js
 document.writeln();
 ```
-Denne kommandoen skriver rett på HTML-siden og ikke i `konsollen`. På denne måten vil vennene dine kunne se koden uten å åpne `konsollen`. Problemet med denne kommandoen er at den fjerne flere mellomrom ved siden av hverandre, derfor må vi også legge til litt CSS-magi:
+Denne kommandoen skriver rett på HTML-siden og ikke i `konsollen`. På denne måten vil vennene dine kunne se koden uten å åpne `konsollen`. Problemet med `document.writeln()`er at vi ikke får hver utskrift på en egen linje, derfor må vi også legge til denne CSS-en:
 ```js
 `document.body.style.whiteSpace = "pre"; //gjør at du kan ha flere mellomrom etterhverandre
 ```

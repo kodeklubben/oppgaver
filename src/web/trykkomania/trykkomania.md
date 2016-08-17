@@ -1,11 +1,11 @@
 ---
-title: JS: Trykkomania
-level: 4
+title: Trykkomania
+level: 2
 author: Arve Seljebu
 ---
 
 # Introduksjon {.intro}
-Denne oppgaven viser deg hvordan du kan lage et spill med JavaScript og dele det med vennene dine. Spillet kalles *Trykkomania* fordi det handler om å trykke på en ball flest mulig ganger før tiden renner ut. Før du starter på denne oppgaven bør du har god kjennskap til de grunnleggende elementene i JavaScript, som variabler, funksjoner og eventListeners. 
+Denne oppgaven viser deg hvordan du kan lage et spill med JavaScript og dele det med vennene dine. Spillet kalles *Trykkomania* fordi det handler om å trykke på en ball flest mulig ganger før tiden renner ut.
 
 ![](trykkomania.gif)
 
@@ -23,7 +23,7 @@ Vi skal bruke JS Bin (http://jsbin.com) for å lage spillet. Hvis du aldri har b
 - Når du starter er begge fanene tomme.
 
 # Steg 2: Lage en ball {.activity}
-Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi skal bruke JavaScript til å lage *HTML*. Du trenger ikke kunne noe spesielt om HTML, men om du ønsker lære om HTML, se [oppgaven Introduksjon til web](../introduksjon_til_web/introduksjon_til_web.html).
+Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi skal bruke JavaScript til å lage *HTML*. Du trenger ikke kunne noe spesielt om HTML, men om du ønsker lære om HTML, se [oppgaven Internett](../internett/internett.html).
 
 ## Sjekkliste {.check}
 - Vi begynner med å lage en funksjon som heter `Ball`:
