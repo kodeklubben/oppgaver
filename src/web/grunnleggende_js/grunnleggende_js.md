@@ -21,12 +21,11 @@ En variabel i JavaScript ser slik ut:
 var variabelNavn = "verdi";
 ```
 
-`var` forteller JavaScript at det er en variabel. En variabel kan være `et tall`, `tekst`, en annen `variabel` eller en `funksjon`:
+`var` forteller JavaScript at det er en variabel. En variabel kan være `et tall`, `tekst` eller  en annen `variabel`:
 
 ```js
 var tall = 9;
 var tekst = "Dette er en string (tekst på engelsk)";
-var funksjon = function() { }; 
 var variabel = tall; // "variabel" vil nå ha samme verdi som tall, selv når tall endres
 ```
 
