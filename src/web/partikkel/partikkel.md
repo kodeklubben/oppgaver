@@ -1,6 +1,6 @@
 ---
-title: "JS: Partikkel-fest"
-level: 3
+title: "JS: Partikkel-animasjon"
+level: 2
 ---
 
 # Introduction {.intro}
@@ -41,7 +41,7 @@ I HTML bruker vi `<canvas>` til å tegne figurer ved hjelp av JavaScript. Selve 
 
 ```
 
-## Forklaring {.tip}
+## Forklaring: Canvas{.tip}
 + `<canvass id="canvas" width="500" height="500"></canvas>` er selve `Canvas`-elementet. Den har en gitt høyde og bredde `500px x 500px`. Vi skal bruke JavaScript til å lage andre elementer inne i `canvas`-elementet. 
 + I CSSen er det lagt til en `grå` bakgrunnsfarge til `<body>` og sort bakgrunnsfarge til `<canvas>`. 
 ##
@@ -183,3 +183,118 @@ CTYPE html>
 ```
 
 # Steg 3: Flytt på partikkelet {.activity}
+Nå som vi har fått frem en rød firkant, som er partikkelet vårt, så skal vi nå se hvordan vi kan få den til å flytte på seg. For å få dette til å skje må vi legge til noen nye attributter i objektet vårt, og endre disse underveis i funksjonen vår. For å gjøre dette må vi lære å bruke `setInterval`, men først må vi endre på objektet vårt.
+
++ I objektet `particle`, legg til attributtene `xSpeed` og `ySpeed` 
++ Sett verdiene til `xSpeed` og `ySpeed` til å være `2` foreløpig
+
+I `draw` må vi nå endre `particle` sin `x`-posisjon med `xSpeed`, samme må vi gjøre med `y`-posisjonen. Måten man øker et attributt på er slik:
+```js
+objekt.attributt1 = objekt.attributt1 + objekt.attributt2;
+```
+
++ Legg til det som trengs i `draw` for å få `particle` til å endre `x`- og `y`-posisjonen sin
+
+<toggle>
+    <strong> Hint </strong>
+    <hide>
+        particle.x = particle.x + particle.xSpeed;
+    </hide>
+</toggle>
+
+Nå vil det ikke skje stort når vi kjører funksjonen vår kjører fordi figuren vår blir ikke tegnet på nytt før vi endrer på attributtene. Dessuten kjører `draw` kun når vi åpner eller oppdaterer siden, så vi må få den til å kjøre flere ganger etter hverandre:
+
++ Lag en ny variabel som heter `drawInterval` og ser slik ut:
+```js
+var drawInterval = setInterval(function() { draw(); }, 30); 
+```
+
+## Forklaring: setInterval {.tip}
++ `setInterval` lager en funksjon som skal kjøre hvert X millisekund
++ `setInterval(function() { draw(); }, 30);` kjører funksjonen `draw()` hvert 30 millisekund. NB! 1000 millisekunder er ett sekund
+##
+
++ Erstatt `draw()` med `drawInterval;` i `window.onload`
++ Lagre og kjør siden vi har laget til nå! 
+
+Som du ser så lager den en lang diagonal stripe. Som du kanskje har skjønt må vi finne en måte vi kan fjerne den forrige vi tegnet slik at vi skaper en illusjon om at den flytter på seg og ikke bare lager mange etter hverandre. 
+
++ I starten av `draw` må vi bruke `ctx.clearRect(0,0,500,500);` for å fjerne alt som er innenfor det svarte. Altså fra `x`,`y` posisjonen (0,0) og helt til (500,500). 
+
++ Lagre og kjør på nytt! 
+
+__Gratulere du har laget din første animasjon i JavaScript!__
+
+## Utfordring {.challenge}
++ Prøve å få partikkelet til å gå rett frem
++ Få partikkelet til å gå rett ned
++ Få partikkelet til å gå baklengs
++ Legg til gravitasjon på partikkelet slik at den detter fortere og fortere og ikke går lengre ned enn kanten nederst
++ Får du til at partikkelet bytter til en tilfeldig farge hver gang den bytter posisjon? 
+##
+
+Ekssempel på ferdig kode til oppgaven:
+
+```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body {
+            background-color:#666;
+        }
+
+        #canvas {
+            background-color:#000;
+            margin-left:100px;
+        }
+    </style>
+    <script>
+
+        var canvas, ctx;
+        var drawInterval = setInterval(function() { draw(); }, 30);
+
+
+        var particle = {
+            x: 0,
+            y: 0,
+            xSpeed: 2,
+            ySpeed: 2,
+            size: 10
+
+        };
+
+        window.onload = function() {
+            canvas = document.getElementById("canvas");
+            ctx = canvas.getContext("2d");
+            drawInterval;
+        };
+
+
+        //Tegner og skyter particle opp
+        function draw() {
+
+            ctx.clearRect(0,0,500,500);
+
+            ctx.fillStyle = 'red';
+            ctx.fillRect(particle.x, particle.y,particle.size,particle.size);
+
+            particle.x = particle.x + particle.xSpeed;
+            particle.y = particle.y + particle.ySpeed;
+
+        }
+
+
+
+    </script>
+
+</head>
+<body>
+
+<canvas id="canvas" width="500" height="500"></canvas>
+
+</body>
+</html>
+```
