@@ -4,14 +4,62 @@ level: 2
 ---
 
 # Introduction {.intro}
-I denne oppgaven skal vi bruke JavaScript til å få figurer vi å bevege seg. Vi skal altså lære å animere ved hjelp av JavaScript og noe som heter `Canvas`. 
+I denne oppgaven skal vi bruke JavaScript til å få figurer vi å bevege seg. Vi skal altså lære å animere ved hjelp av JavaScript og noe som heter `Canvas`. Under ser du animasjonen vi kommer til å lage. 
 
-![gif](ressurser/out.gif)
+Denne oppgaven er den første i en liten serie av andre `partikkel`-oppgaver, derfor er det viktig å forstå det som skjer i denne oppgaven.  
+
+
+
+<canvas id="canvas" width="300" height="300"></canvas>
+
+<script>
+
+        var canvas, ctx;
+        var drawInterval = setInterval(function(){draw()}, 30);
+
+
+        var particle = {
+            x: 0,
+            y: 0,
+            xSpeed: 2,
+            ySpeed: 2,
+            size: 10
+
+        };
+
+        window.onload = function() {
+            canvas = document.getElementById("canvas");
+            ctx = canvas.getContext("2d");
+            drawInterval;
+        };
+
+
+        function draw() {
+
+            ctx.clearRect(0,0,300,300);
+
+            ctx.fillStyle = 'red';
+            ctx.fillRect(particle.x, particle.y,particle.size,particle.size);
+
+            particle.x = particle.x + particle.xSpeed;
+            particle.y = particle.y + particle.ySpeed;
+            
+            if(particle.x === 300 && particle.y === 300){
+                particle.x = 0;
+                particle.y = 0;
+                drawInterval;
+            }
+        }
+
+
+
+    </script>
+
 
 I denne oppgaven vil du få bruk for det du har lært i oppgaven [Grunnleggende JavaScript](../grunnleggene_js/grunnleggende_js.html). 
 
 # Steg 1: Canvas-elementet {.activity}
-I HTML bruker vi `<canvas>` til å tegne figurer ved hjelp av JavaScript. Selve `<canvas>`-elementet gjør ikke så stor nytte for seg, så derfor bruker vi JavaScript til å fortelle hva slags grafikk `<canvas>`-elementet skal inneholde. La oss prøve det ut:
+I HTML bruker vi `<canvas>` til å tegne figurer ved hjelp av JavaScript. Selve `<canvas>`-elementet gjør ikke så stor nytte for seg, så derfor bruker vi JavaScript til å fortelle hva slags grafikk `<canvas>`-elementet skal inneholde. La oss skrive det som trengs for å jobbe med `canvas`:
 
 + Åpne favoritt teksteditoren din
 + Lag en ny HTML-fil som heter `partikler.html`
@@ -42,7 +90,7 @@ I HTML bruker vi `<canvas>` til å tegne figurer ved hjelp av JavaScript. Selve 
 ```
 
 ## Forklaring: Canvas{.tip}
-+ `<canvass id="canvas" width="500" height="500"></canvas>` er selve `Canvas`-elementet. Den har en gitt høyde og bredde `500px x 500px`. Vi skal bruke JavaScript til å lage andre elementer inne i `canvas`-elementet. 
++ `<canvas id="canvas" width="500" height="500"></canvas>` er selve `Canvas`-elementet. Den har en gitt høyde og bredde `500px x 500px`. Vi skal bruke JavaScript til å lage andre elementer inne i `canvas`-elementet. 
 + I CSSen er det lagt til en `grå` bakgrunnsfarge til `<body>` og sort bakgrunnsfarge til `<canvas>`. 
 ##
 
@@ -57,7 +105,7 @@ var canvas;
 var ctx;
 ```
 
-Vi skal nå fylle disse variablene når siden vår lastes, da bruker vi noe som heter `window.onload`:
++ Vi skal nå fylle disse variablene når siden vår lastes, da bruker vi noe som heter `window.onload`:
 
 ```js
 window.onload = function() {
@@ -65,14 +113,16 @@ window.onload = function() {
     ctx = canvas.getContext("2d");
 }
 ```
-`Canvas`-variabelen holder nå på HTML-elementet vårt.
+`canvas`-variabelen holder nå på HTML-elementet vårt.
 
 `ctx`-variabelen vil være det grafiske elementet som blir lagt til i `canvas`, dette elementet kan vi manipulere ved hjelp av stil, som vi skal se på snart. 
 
 For å kunne lage grafikk i `canvas` er de to linjene over påkrevd, så nå som vi har det på plass kan vi starte å tegne! 
 
++ Nå skal vi lage objekter, så la oss lære litt om hva et `objekt` er:
+
 ## Forklaring: Objekt {.tip}
-La oss nå lage et `objekt` som skal tegnes. I JavaScript er et objekt en variabel som kan holde på flere verdier eller variabler. La oss se på et raskt eksempel med en bil:
+La oss nå lage et `objekt` som skal tegnes. I JavaScript er et objekt en variabel som kan holde på flere verdier eller variabler, som vi ofte kaller for `attributter`. La oss se på et raskt eksempel med en bil:
 
 ```js
 var bil = {
@@ -83,12 +133,19 @@ var bil = {
 };
 ```
 
-Så nå kan vi enkelt hente ut informasjonen vi vil ha fra objektet ved å skive følgende:
+Vi kan enkelt hente ut informasjonen vi vil ha fra objektet ved å skive følgende:
 
 ```js
 console.log(bil.navn); // Skriver ut navnet på bilen: Volkswagen
 console.log(bil.farge); // Skriver ut fargen på bilen: Blå
 ```
+
+For å endre på ett av attributtene gjør vi bare følgende:
+```js
+bil.farge = "Rød";
+```
+
+Nå vil attributtet `farge` bli endret fra `Blå` til `Rød`. 
 
 På denne måten slipper vi å lage mange variabler, som skal høre til samme element, vi bruker bare `objekter`. 
 
@@ -149,7 +206,8 @@ CTYPE html>
     </style>
     <script>
 
-        var canvas, ctx;
+        var canvas;
+        var ctx;
 
         var particle = {
             x: 0,
@@ -202,7 +260,7 @@ objekt.attributt1 = objekt.attributt1 + objekt.attributt2;
     </hide>
 </toggle>
 
-Nå vil det ikke skje stort når vi kjører funksjonen vår kjører fordi figuren vår blir ikke tegnet på nytt før vi endrer på attributtene. Dessuten kjører `draw` kun når vi åpner eller oppdaterer siden, så vi må få den til å kjøre flere ganger etter hverandre:
+For at vi skal få en animasjon så må vi kjører `draw` flere ganger enn bare 1, derfor må vi bruke `setInterval` for å gjenta `draw`.
 
 + Lag en ny variabel som heter `drawInterval` og ser slik ut:
 ```js
@@ -219,7 +277,7 @@ var drawInterval = setInterval(function() { draw(); }, 30);
 
 Som du ser så lager den en lang diagonal stripe. Som du kanskje har skjønt må vi finne en måte vi kan fjerne den forrige vi tegnet slik at vi skaper en illusjon om at den flytter på seg og ikke bare lager mange etter hverandre. 
 
-+ I starten av `draw` må vi bruke `ctx.clearRect(0,0,500,500);` for å fjerne alt som er innenfor det svarte. Altså fra `x`,`y` posisjonen (0,0) og helt til (500,500). 
++ I starten av `draw` må vi bruke `ctx.clearRect(0,0,500,500);` for å fjerne alt som er innenfor det svarte. Altså fra (`x`,`y`)-posisjonen (0,0) og helt til (500,500). 
 
 + Lagre og kjør på nytt! 
 
@@ -229,7 +287,6 @@ __Gratulere du har laget din første animasjon i JavaScript!__
 + Prøve å få partikkelet til å gå rett frem
 + Få partikkelet til å gå rett ned
 + Få partikkelet til å gå baklengs
-+ Legg til gravitasjon på partikkelet slik at den detter fortere og fortere og ikke går lengre ned enn kanten nederst
 + Får du til at partikkelet bytter til en tilfeldig farge hver gang den bytter posisjon? 
 ##
 
