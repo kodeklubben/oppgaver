@@ -151,7 +151,7 @@ På denne måten slipper vi å lage mange variabler, som skal høre til samme el
 
 ##
 
-+ Lag et objekt som heter `particle` og som inneholder følgende attributter: `x`-posisjon, `y`-posisjon, `størrelse`
++ Lag et objekt som heter `particle` og som inneholder følgende attributter: `x`-posisjon, `y`-posisjon, `størrelse` og `farge`
 
 + Bestem selv en passende verdi for attributtene. Disse kan være lurt å eksperimentere litt med senere i oppgaven. 
 
@@ -166,7 +166,7 @@ På denne måten slipper vi å lage mange variabler, som skal høre til samme el
 
 + I `draw` skal vi nå legge til hvilke farge vi vil at elementet vårt skal ha, du bestemmer selv hvilken farge:
 ```js
-ctx.fillStyle = "red";
+ctx.fillStyle = particle.farge;
 ```
 + Nå skal vi tegne et kvadrat (firkant hvor alle sidene er like lange) i fargen vi valgte over:
 ```js
@@ -212,7 +212,8 @@ CTYPE html>
         var particle = {
             x: 0,
             y: 0,
-            size: 10
+            size: 10,
+            farge: "red"
         };
 
         window.onload = function() {
@@ -224,7 +225,7 @@ CTYPE html>
 
         //Tegner particle
         function draw() {
-            ctx.fillStyle = 'red';
+            ctx.fillStyle = particle.farge;
             ctx.fillRect(particle.x, particle.y,particle.size,particle.size);
         };
       
@@ -272,7 +273,7 @@ var drawInterval = setInterval(function() { draw(); }, 30);
 + `setInterval(function() { draw(); }, 30);` kjører funksjonen `draw()` hvert 30 millisekund. NB! 1000 millisekunder er ett sekund
 ##
 
-+ Erstatt `draw()` med `drawInterval;` i `window.onload`
++ Fjern `draw()`, vi trenger ikke erstatte den med `drawInterval` fordi denne gjøres automatisk når variabelen blir laget
 + Lagre og kjør siden vi har laget til nå! 
 
 Som du ser så lager den en lang diagonal stripe. Som du kanskje har skjønt må vi finne en måte vi kan fjerne den forrige vi tegnet slik at vi skaper en illusjon om at den flytter på seg og ikke bare lager mange etter hverandre. 
@@ -319,14 +320,13 @@ Ekssempel på ferdig kode til oppgaven:
             y: 0,
             xSpeed: 2,
             ySpeed: 2,
-            size: 10
-
+            size: 10,
+            farge: "red"
         };
 
         window.onload = function() {
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
-            drawInterval;
         };
 
 
@@ -335,7 +335,7 @@ Ekssempel på ferdig kode til oppgaven:
 
             ctx.clearRect(0,0,500,500);
 
-            ctx.fillStyle = 'red';
+            ctx.fillStyle = particle.farge;
             ctx.fillRect(particle.x, particle.y,particle.size,particle.size);
 
             particle.x = particle.x + particle.xSpeed;
