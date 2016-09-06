@@ -69,7 +69,10 @@ For hver gang `draw()` kjører, skal følgende skje:
     objekt.gravitasjon += objekt.hastighet eller objekt.gravitasjon = objekt.gravitasjon + objekt.hastighet
     </hide>
 </toggle>
-__Faller partiklet nå?__ Nå som partikkelet faller ser du kanskje også at det faller igjennom skjermen, derfor må vi legge til en sjekk om gjør at den stopper nederst.
+
+
+
+Faller partiklet nå? Nå som partikkelet faller ser du kanskje også at det faller igjennom skjermen, derfor må vi legge til en sjekk om gjør at den stopper nederst.
 
 # Steg 2: Stopp nederst på skjermen {.activity}
 For at partikkelet vårt skal stoppe nederst på skjermen trenger vi enkelt og greit en sjekk hver gang vi kjører `draw()`:
@@ -109,8 +112,8 @@ window.onkeydown = function(inputKey) {
 + Bruk [keycode.info](http://keycode.info) til å finne ut hvilke `knapp-kode` knappen du vil bruke har. 
 
 ## Forklaring {.try}
-+ `window.onkeydown` er en funksjon som sjekker om en knapp trykkes ned, dersom den gjør det, så kjøres funksjonen med `knapp.kode` `inputKey`. 
-+ `var key = inputKey.keyCode ? inputKey.keyCode : inputKey.which;` er enklere måte å skrive dette på:
++ `window.onkeydown` er en funksjon som sjekker om en knapp trykkes ned, dersom den gjør det, så kjøres funksjonen med `knapp-kode` `inputKey`. 
++ `var key = inputKey.keyCode ? inputKey.keyCode : inputKey.which;` er en enklere måte å skrive dette på:
 ```js
 if(inputKey.keyCode) {
     var key = inputKey.keyCode;
