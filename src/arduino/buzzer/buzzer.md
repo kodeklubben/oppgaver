@@ -21,6 +21,8 @@ I denne oppgaven trenger vi i hovedsak en buzzer.
 + 2 ledninger
 + 1 buzzer
 
+<figure><img src="buz.jpg" style="width: 900px"></figure>
+
 # Steg 2: Lag kretsen {.activity}
 
 Før vi kan begynne med programmeringen, så er vi nødt til å lage en krets.
@@ -106,7 +108,8 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 Vi kan bruke "analog input" for å styre lyden også! La oss se 
 hva som skjer hvis vi gjør slik at en fotoresistor (motstanden
 variere ettersom hvor mye lys den får inn) styrer lyden.
-Koble opp slik som på diagrammet under og følg sjekklisten!
+Finn frem alt du trenger og koble opp slik som på diagrammet under og følg sjekklisten!
+<figure><img src="foto.jpg" style="width: 900px"></figure>
 <figure><img src="ldr.png" style="width: 900px"></figure>
 
 
@@ -123,12 +126,10 @@ int sens = A3;
 void setup() {
 	pinMode(sens, INPUT_PULLUP);
 	pinMode(lyd, OUTPUT);
-	Serial.begin(9600);
 }
 
 void loop() {
-	tone(lyd, analogRead(sens)*1.2);
-	Serial.println(analogRead(sens)*2.5);
+	tone(lyd, analogRead(sens)*3.2);
 }
 ```
 
@@ -137,7 +138,6 @@ Se der! Nå har du lært å lage litt lyd med Arduino!
 ### Utfordringer {.challenge}
 Her er noen nøtter du kan prøve deg på ved å endre koden.
 
-+ Kan du lage en annen sang?
 + Klarer du å bruke knapper for å spille forksjellige toner?
 + Kan du få en RGB lysdiode til å lyse forskjellige farger for forskjellige toner?
 
