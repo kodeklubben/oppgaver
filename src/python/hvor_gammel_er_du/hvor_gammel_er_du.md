@@ -43,7 +43,7 @@ variabel = 4
 petter = 'En gutt'
 frida = 'En jente'
 et_tall = 3
-enda_et_tall = variabel + etTall
+enda_et_tall = variabel + et_tall
 
 print(frida)
 print(frida)
