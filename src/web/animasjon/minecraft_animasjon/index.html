@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+    body{
+        margin: 0 auto;
+        background-image: url("bakgrunn.png");
+        width: 1365px;
+        height: 768px;
+
+    }
+
+    #pickaxe {
+        background-image: url("pickaxe.png");
+        z-index: 1;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 150px;
+        left: 0;
+        
+        
+        animation: move_pickaxe 2s;
+        animation-delay: 1s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+    
+    #minecraft{
+        background-image: url("minecraft.png");
+        z-index: 1;
+        width: 616px;
+        height: 154px;
+        position: absolute; 
+        left: 0;
+    }
+    
+    #block{
+        background-image: url("block.png");
+        z-index: 1;
+        width: 128px;
+        height: 384px;
+        position: absolute;
+        left: 900px;
+        bottom: 33px;
+        border: #000 2px solid;
+    }
+
+    
+</style>
+</head>
+<body>
+
+<div id="pickaxe"></div>
+<div id="minecraft"></div>
+<div id="block"></div>
+
+
+</body>
+</html>
+

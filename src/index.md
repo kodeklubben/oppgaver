@@ -11,6 +11,6 @@ Som du ser, finnes det mange forskjellige språk. For nybegynnere anbefaler vi �
 men dersom du går på ungdomsskolen eller videregående så vil det også gå fint å starte med Python.
 
 Scratch er et programeringsspråk hvor en programmerer ved å dra og sette sammen klosser, litt som å
-bygge med LEGO! Scrach gir et godt grunnlag for å lære seg andre programmeringsspråk etterpå, og
+bygge med LEGO! Scratch gir et godt grunnlag for å lære seg andre programmeringsspråk etterpå, og
 derfor kan kan være lurt å se litt på Scratch uansett før en går videre. Dere kan lese mer om de
 forskjellige språkene ved å trykke på ikonene under.
