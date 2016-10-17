@@ -6,8 +6,8 @@ author: Adrian Helle
 
 # Introduksjon {.intro}
 
-Nå som vi har sett litt på hvordan vi kan kontrollere en lysdiode på forskjellige måter, kan
-gå over til å lage litt lyd! 
+Nå som vi har sett litt på hvordan vi kan kontrollere en lysdiode på
+forskjellige måter, kan vi gå over til å lage litt lyd!
 
 # Steg 1: Finn frem utstyr {.activity}
 
@@ -27,15 +27,15 @@ I denne oppgaven trenger vi i hovedsak en buzzer.
 
 Før vi kan begynne med programmeringen, så er vi nødt til å lage en krets.
 Hvis du nå har funnet frem alt du trenger kan du følge instruksjonene og illustrasjonen
-under
+under.
 
 <figure><img src="krets.png" style="width: 900px"></figure>
 
 
 ## Sjekkliste {.check}
 
-+ Ledning fra GND på Arduinoen til den negative lederen på buzzeren
-+ Ledning fra 11~ på Arduinoen til den positive lederen på buzzeren
++ Ledning fra GND på Arduinoen til den negative lederen på buzzeren.
++ Ledning fra 11~ på Arduinoen til den positive lederen på buzzeren.
 
 ## Porter merket med ~ {.protip}
 
@@ -98,12 +98,12 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
 ### Utfordringer {.challenge}
 
-+ Klarer du å finne ut hvilken tone dette er? (Hint: 880 er frekvensen til tonen)
++ Klarer du å finne ut hvilken tone dette er? (Hint: 880 er frekvensen til tonen.)
 + Klarer du å lage en annen tone?
 
 # Steg 4: Bruk en fotoresistor til å styre lyden {.activity}
 
-Vi kan bruke en annen lysor for å styre lyden også. La oss se hvordan vi kan få en
+Vi kan bruke en lyssensor for å styre lyden også. La oss se hvordan vi kan få en
 fotoresistor til å styre lyden. En fotoresistor varierer motstanden etter hvor mye
 lys den får inn. Finn frem alt du trenger og koble opp slik som på diagrammet under
 og følg sjekklisten!
@@ -113,9 +113,9 @@ og følg sjekklisten!
 
 ## Sjekkliste {.check}
 
-+ La alle de andre komponentene være som før
-+ Ledning fra en fot på fotoresistoren til A5 på arduinoen
-+ Ledning fra fot på fotoresistor til GND
++ La alle de andre komponentene være som før.
++ Ledning fra en fot på fotoresistoren til A5 på arduinoen.
++ Ledning fra fot på fotoresistor til GND.
 + Skriv  koden under:
 ```cpp
 int lyd = 11;
@@ -136,6 +136,5 @@ Se der! Nå har du lært å lage litt lyd med Arduino!
 ### Utfordringer {.challenge}
 Her er noen nøtter du kan prøve deg på ved å endre koden.
 
-+ Klarer du å bruke knapper for å spille forksjellige toner?
++ Klarer du å bruke knapper for å spille forskjellige toner?
 + Kan du få en RGB lysdiode til å lyse forskjellige farger for forskjellige toner?
-
