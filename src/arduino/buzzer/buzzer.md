@@ -92,8 +92,6 @@ og/eller __brett__. Da kan du sjekke disse to tingene:
 	+ Windows: __Tools -> Port -> COM1__ (kan være et annet tall)
 	![](port.png)
 	+ Mac: __Tools -> Port ->/dev/tty.usbmodem262471__ (kan være et annet tall)
-+ Lysdioden er koblet riktig vei
-	+ Den korteste "foten" skal gå til GND
 
 Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
@@ -105,10 +103,10 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
 # Steg 4: Bruk en fotoresistor til å styre lyden {.activity}
 
-Vi kan bruke "analog input" for å styre lyden også! La oss se 
-hva som skjer hvis vi gjør slik at en fotoresistor (motstanden
-variere ettersom hvor mye lys den får inn) styrer lyden.
-Finn frem alt du trenger og koble opp slik som på diagrammet under og følg sjekklisten!
+Vi kan bruke en annen lysor for å styre lyden også. La oss se hvordan vi kan få en
+fotoresistor til å styre lyden. En fotoresistor varierer motstanden etter hvor mye
+lys den får inn. Finn frem alt du trenger og koble opp slik som på diagrammet under
+og følg sjekklisten!
 <figure><img src="foto.jpg" style="width: 900px"></figure>
 <figure><img src="ldr.png" style="width: 900px"></figure>
 
@@ -121,15 +119,15 @@ Finn frem alt du trenger og koble opp slik som på diagrammet under og følg sje
 + Skriv  koden under:
 ```cpp
 int lyd = 11;
-int sens = A3;
+int lys = A3;
 
 void setup() {
-	pinMode(sens, INPUT_PULLUP);
+	pinMode(lys, INPUT_PULLUP);
 	pinMode(lyd, OUTPUT);
 }
 
 void loop() {
-	tone(lyd, analogRead(sens)*3.2);
+	tone(lyd, analogRead(lys)*3.2);
 }
 ```
 
