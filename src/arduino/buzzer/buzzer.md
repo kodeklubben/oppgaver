@@ -20,6 +20,7 @@ I denne oppgaven trenger vi i hovedsak en buzzer.
 + 1 breadboard
 + 2 ledninger
 + 1 buzzer
++ 1 motstand 270 Ohm (rød-lilla-brun-gull)
 
 <figure><img src="buz.jpg" style="width: 900px"></figure>
 
@@ -34,8 +35,9 @@ under.
 
 ## Sjekkliste {.check}
 
-+ Ledning fra GND på Arduinoen til den negative lederen på buzzeren.
-+ Ledning fra 11~ på Arduinoen til den positive lederen på buzzeren.
++ Ledning fra GND på Arduinoen til den negative lederen på buzzeren
++ Ledning fra 11~ på Arduinoen til motstand
++ Motstand til den positive lederen på buzzeren
 
 ## Porter merket med ~ {.protip}
 
