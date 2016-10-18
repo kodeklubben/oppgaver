@@ -1,5 +1,8 @@
 ---
 title: Unity
+tags:
+  operativsystem: [windows, mac, linux]
+  tema: [animasjon, spill]
 ---
 
 Disse oppgavene baserer seg på tutorials fra Unity sine sider:

@@ -1,5 +1,8 @@
 ---
 title: Arduino
+tags:
+  operativsystem: [arduino]
+  tema: [elektronikk]
 ---
 
 Arduino er en platform som består av en rekke forskjellige

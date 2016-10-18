@@ -1,5 +1,8 @@
 ---
 title: Kodu
+tags:
+  operativsystem: [windows]
+  tema: [spill]
 ---
 
 I Kodu skal du skape din egen verden, enten alene eller sammen med andre. Poenget er at det

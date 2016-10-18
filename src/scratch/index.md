@@ -1,5 +1,8 @@
 ﻿---
 title: Scratch
+tags:
+  operativsystem: [windows, mac, linux]
+  tema: [spill]
 ---
 
 Scratch er et grafisk programmeringsspråk som er laget for at barn og
