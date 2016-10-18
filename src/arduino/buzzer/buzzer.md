@@ -39,10 +39,9 @@ under.
 
 ## Porter merket med ~ {.protip}
 
-Husker du hva "~" betyde? Det har seg slik at alle porter merket med "~"
+Husker du hva "~" betyr? Det har seg slik at alle porter merket med "~"
 har en spesiel funksjon kalt PWM. Dette står for "Pulse With Modulation"
-og brukes for å lage et analogt signal. I denne oppgaven bruker vi dette
-for å generer toner.
+og kan blant annet brukes for å spille lyder.
 
 # Steg 3: Lag en tone {.activity}
 
@@ -103,7 +102,7 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
 # Steg 4: Bruk en fotoresistor til å styre lyden {.activity}
 
-Vi kan bruke en lyssensor for å styre lyden også. La oss se hvordan vi kan få en
+Vi kan bruke en annen input for å styre lyden også. La oss se hvordan vi kan få en
 fotoresistor til å styre lyden. En fotoresistor varierer motstanden etter hvor mye
 lys den får inn. Finn frem alt du trenger og koble opp slik som på diagrammet under
 og følg sjekklisten!
