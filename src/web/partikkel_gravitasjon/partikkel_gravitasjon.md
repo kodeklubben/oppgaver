@@ -6,13 +6,13 @@ level: 3
 # Introduksjon {.intro}
 I denne oppgaven skal vi ta utgangspunkt i animasjone vi lagde i  oppgaven [Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html). Dersom du ikke har gjort denne oppgaven anbefaler vi deg om å gå tilbake å gjøre den før du fortsetter her.
 
-Oppgaven her går ut på å legge til gravitasjon på `Partikkel`-objektet. Du vil få presentert hva du skal gjøre, så du må selv finne ut hvordan man skriver kode for å få det til. Til slutt kommer det til å se noe slik ut: 
+Oppgaven her går ut på å legge til gravitasjon på `Partikkel`-objektet. Du vil få presentert hva du skal gjøre, så du må selv finne ut hvordan man skriver kode for å få det til. Til slutt kommer det til å se noe slik ut:
 
 <script>
 
 
         var canvas, ctx;
-        
+
         var drawInterval = setInterval(function(){draw()}, 30);
 
 
@@ -36,18 +36,18 @@ Oppgaven her går ut på å legge til gravitasjon på `Partikkel`-objektet. Du v
 
             ctx.fillStyle = 'red';
             ctx.fillRect(particle.x, particle.y,particle.size,particle.size);
-            
+
             particle.gravitySpeed += particle.gravity;
             particle.y += particle.gravitySpeed;
-            
+
             kant = canvas.height - particle.size;
             if(particle.y > kant){
-                particle.y = kant; 
+                particle.y = kant;
                 particle.gravitySpeed = 0;
-            
+
                 setTimeout(function() { particle.y = 0; }, 2000);
             }
-            
+
         }
 
 </script>
@@ -92,11 +92,11 @@ Nå har du et fallende objekt!
 
 ## Utfordringer {.challenge}
 + Når partikkelet treffer kanten, snu gravitasjonen sånn at partikkelet går oppover
-+ Klarer du å få partikkelet til å gå til venster eller høyre også? 
++ Klarer du å få partikkelet til å gå til venster eller høyre også?
 + "Steng" alle kantene i `canvas` ved hjelp av flere `if`-setninger
 
-# Steg 3: Få partikkelet til å fly! {.activity} 
-Nå som vi har fått gravitasjon på partikkelet vårt kan vi legge til styring på partikkelet ved hjelp av knapper. Vi skal nå programmere slik at når du trykker `pil opp` så gir vi partikkelet negativ akselerasjon og når vi slipper så blir den påvirket av gravitasjonen. Får å gjøre dette bruker vi noe som heter `onkeyup`, `onkeydown` og `keyCode`. 
+# Steg 3: Få partikkelet til å fly! {.activity}
+Nå som vi har fått gravitasjon på partikkelet vårt kan vi legge til styring på partikkelet ved hjelp av knapper. Vi skal nå programmere slik at når du trykker `pil opp` så gir vi partikkelet negativ akselerasjon og når vi slipper så blir den påvirket av gravitasjonen. Får å gjøre dette bruker vi noe som heter `onkeyup`, `onkeydown` og `keyCode`.
 
 For å kunne utføre en operasjon når vi trykker på en knapp må vi ha denne koden:
 
@@ -109,28 +109,28 @@ window.onkeydown = function(inputKey) {
     }
 }
 ```
-+ Bruk [keycode.info](http://keycode.info) til å finne ut hvilke `knapp-kode` knappen du vil bruke har. 
++ Bruk [keycode.info](http://keycode.info) til å finne ut hvilke `knapp-kode` knappen du vil bruke har.
 
 ## Forklaring {.try}
-+ `window.onkeydown` er en funksjon som sjekker om en knapp trykkes ned, dersom den gjør det, så kjøres funksjonen med `knapp-kode` `inputKey`. 
++ `window.onkeydown` er en funksjon som sjekker om en knapp trykkes ned, dersom den gjør det, så kjøres funksjonen med `knapp-kode` `inputKey`.
 + `var key = inputKey.keyCode ? inputKey.keyCode : inputKey.which;` er en enklere måte å skrive dette på:
 ```js
 if(inputKey.keyCode) {
     var key = inputKey.keyCode;
 } else {
     var key = inputKey.which;
-} 
-``` 
+}
+```
 
-Grunnen til at du må bruke `keyCode` og `which` er fordi ikke alle nettlesere støtter `keyCode`, men bruker `which` istedet. 
+Grunnen til at du må bruke `keyCode` og `which` er fordi ikke alle nettlesere støtter `keyCode`, men bruker `which` istedet.
 
-+ I `if (key == //knapp-kode)` må du skrive kode for at gravitasjonen skal være negativ, prøv med forskjellige tall. 
++ I `if (key == //knapp-kode)` må du skrive kode for at gravitasjonen skal være negativ, prøv med forskjellige tall.
 
 ##
 
-+ For at du skal få gravitasjonen tilbake når du slipper knappen må du lage en funksjon for `window.onkeyup`. 
++ For at du skal få gravitasjonen tilbake når du slipper knappen må du lage en funksjon for `window.onkeyup`.
 
-+ Les mer om `window.onkeyup` osv her: [w3school](http://www.w3schools.com/jsref/event_onkeydown)
++ Les mer om `window.onkeyup` osv her: [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp)
 
 
 Dersom du står bomfast: [Forlag til kode](https://jsbin.com/sezumakiyo/edit?html,output)
