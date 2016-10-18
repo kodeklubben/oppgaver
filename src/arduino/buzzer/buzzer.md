@@ -128,6 +128,7 @@ void setup() {
 void loop() {
   int frekvens = analogRead(lys) * 3.2;
   tone(lyd, frekvens);
+  delay(100);
 }
 ```
 
@@ -136,6 +137,7 @@ Se der! Nå har du lært å lage litt lyd med Arduino!
 ### Utfordringer {.challenge}
 Her er noen nøtter du kan prøve deg på ved å endre koden.
 
++ Hva skjer hvis du endrer verdien til delay?
 + Kan du få en lysdiode til å lyse med forskjellig intensitet gitt forskjellige toner?
 + Klarer du å bruke knapper for å spille forksjellige toner?
 
