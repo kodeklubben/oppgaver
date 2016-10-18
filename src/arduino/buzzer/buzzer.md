@@ -97,8 +97,7 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
 ### Utfordringer {.challenge}
 
-+ Klarer du å finne ut hvilken tone dette er? (Hint: 880 er frekvensen til tonen.)
-+ Klarer du å lage en annen tone?
++ Hva skjer hvis du endrer tallet 880 til ett annet?
 
 # Steg 4: Bruk en fotoresistor til å styre lyden {.activity}
 
@@ -135,5 +134,5 @@ Se der! Nå har du lært å lage litt lyd med Arduino!
 ### Utfordringer {.challenge}
 Her er noen nøtter du kan prøve deg på ved å endre koden.
 
-+ Klarer du å bruke knapper for å spille forskjellige toner?
-+ Kan du få en RGB lysdiode til å lyse forskjellige farger for forskjellige toner?
++ Kan du få en lysdiode til å lyse med forskjellig intensitet gitt forskjellige toner?
++ Klarer du å bruke knapper for å spille forksjellige toner?
