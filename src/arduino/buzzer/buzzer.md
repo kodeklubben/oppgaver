@@ -101,10 +101,10 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
 + Hva skjer hvis du endrer tallet 880 til ett annet?
 
-# Steg 4: Bruk en fotoresistor til å styre lyden {.activity}
+# Steg 4: Bruk en lysfølsom motstand til å styre lyden {.activity}
 
 Vi kan bruke en annen input for å styre lyden også. La oss se hvordan vi kan få en
-fotoresistor til å styre lyden. En fotoresistor varierer motstanden etter hvor mye
+lysfølsom motstand til å styre lyden. En lysfølsom motstand varierer motstanden etter hvor mye
 lys den får inn. Finn frem alt du trenger og koble opp slik som på diagrammet under
 og følg sjekklisten!
 <figure><img src="foto.jpg" style="width: 900px"></figure>
@@ -113,9 +113,9 @@ og følg sjekklisten!
 
 ## Sjekkliste {.check}
 
-+ La alle de andre komponentene være som før.
-+ Ledning fra en fot på fotoresistoren til A5 på arduinoen.
-+ Ledning fra fot på fotoresistor til GND.
++ La alle de andre komponentene være som før
++ Ledning fra en fot på lysfølsom motstanden til A5 på arduinoen
++ Ledning fra fot på lysfølsom motstand til GND
 + Skriv  koden under:
 
 ```cpp
