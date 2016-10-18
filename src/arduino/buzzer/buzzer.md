@@ -115,9 +115,10 @@ og følg sjekklisten!
 + Ledning fra en fot på fotoresistoren til A5 på arduinoen.
 + Ledning fra fot på fotoresistor til GND.
 + Skriv  koden under:
+
 ```cpp
 int lyd = 11;
-int lys = A3;
+int lys = A5;
 
 void setup() {
 	pinMode(lys, INPUT_PULLUP);
