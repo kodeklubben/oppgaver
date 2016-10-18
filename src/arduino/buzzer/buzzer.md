@@ -121,12 +121,12 @@ int lyd = 11;
 int lys = A5;
 
 void setup() {
-	pinMode(lys, INPUT_PULLUP);
-	pinMode(lyd, OUTPUT);
+  pinMode(lys, INPUT_PULLUP);
+  pinMode(lyd, OUTPUT);
 }
 
 void loop() {
-	tone(lyd, analogRead(lys)*3.2);
+  tone(lyd, analogRead(lys)*3.2);
 }
 ```
 
