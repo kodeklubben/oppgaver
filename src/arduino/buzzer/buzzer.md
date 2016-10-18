@@ -20,6 +20,7 @@ I denne oppgaven trenger vi i hovedsak en buzzer.
 + 1 breadboard
 + 2 ledninger
 + 1 buzzer
++ 1 motstand 270 Ohm (rød-lilla-brun-gull)
 
 <figure><img src="buz.jpg" style="width: 900px"></figure>
 
@@ -34,15 +35,15 @@ under.
 
 ## Sjekkliste {.check}
 
-+ Ledning fra GND på Arduinoen til den negative lederen på buzzeren.
-+ Ledning fra 11~ på Arduinoen til den positive lederen på buzzeren.
++ Ledning fra GND på Arduinoen til den negative lederen på buzzeren
++ Ledning fra 11~ på Arduinoen til motstand
++ Motstand til den positive lederen på buzzeren
 
 ## Porter merket med ~ {.protip}
 
-Husker du hva "~" betyde? Det har seg slik at alle porter merket med "~"
+Husker du hva "~" betyr? Det har seg slik at alle porter merket med "~"
 har en spesiel funksjon kalt PWM. Dette står for "Pulse With Modulation"
-og brukes for å lage et analogt signal. I denne oppgaven bruker vi dette
-for å generer toner.
+og kan blant annet brukes for å spille lyder.
 
 # Steg 3: Lag en tone {.activity}
 
@@ -98,13 +99,12 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
 ### Utfordringer {.challenge}
 
-+ Klarer du å finne ut hvilken tone dette er? (Hint: 880 er frekvensen til tonen.)
-+ Klarer du å lage en annen tone?
++ Hva skjer hvis du endrer tallet 880 til ett annet?
 
-# Steg 4: Bruk en fotoresistor til å styre lyden {.activity}
+# Steg 4: Bruk en lysfølsom motstand til å styre lyden {.activity}
 
-Vi kan bruke en lyssensor for å styre lyden også. La oss se hvordan vi kan få en
-fotoresistor til å styre lyden. En fotoresistor varierer motstanden etter hvor mye
+Vi kan bruke en annen input for å styre lyden også. La oss se hvordan vi kan få en
+lysfølsom motstand til å styre lyden. En lysfølsom motstand varierer motstanden etter hvor mye
 lys den får inn. Finn frem alt du trenger og koble opp slik som på diagrammet under
 og følg sjekklisten!
 <figure><img src="foto.jpg" style="width: 900px"></figure>
@@ -113,21 +113,24 @@ og følg sjekklisten!
 
 ## Sjekkliste {.check}
 
-+ La alle de andre komponentene være som før.
-+ Ledning fra en fot på fotoresistoren til A5 på arduinoen.
-+ Ledning fra fot på fotoresistor til GND.
++ La alle de andre komponentene være som før
++ Ledning fra en fot på lysfølsom motstanden til A5 på arduinoen
++ Ledning fra fot på lysfølsom motstand til GND
 + Skriv  koden under:
+
 ```cpp
 int lyd = 11;
-int lys = A3;
+int lys = A5;
 
 void setup() {
-	pinMode(lys, INPUT_PULLUP);
-	pinMode(lyd, OUTPUT);
+  pinMode(lys, INPUT_PULLUP);
+  pinMode(lyd, OUTPUT);
 }
 
 void loop() {
-	tone(lyd, analogRead(lys)*3.2);
+  int frekvens = analogRead(lys) * 3.2;
+  tone(lyd, frekvens);
+  delay(100);
 }
 ```
 
@@ -136,5 +139,22 @@ Se der! Nå har du lært å lage litt lyd med Arduino!
 ### Utfordringer {.challenge}
 Her er noen nøtter du kan prøve deg på ved å endre koden.
 
-+ Klarer du å bruke knapper for å spille forskjellige toner?
-+ Kan du få en RGB lysdiode til å lyse forskjellige farger for forskjellige toner?
++ Hva skjer hvis du endrer verdien til delay?
++ Kan du få en lysdiode til å lyse med forskjellig intensitet gitt forskjellige toner?
++ Klarer du å bruke knapper for å spille forksjellige toner?
+
+### Map {.protip}
+
+`map` tar en verdi, og endrer den fra ett tall i en gitt range til ett tall i en annen.
+F. eks. vil
+
+```cpp
+int lysstyrke = analogRead(lys);
+int verdi = map(lysstyrke, 15, 512, 100, 1500);
+```
+ gi `verdi` ett tall
+mellom 15 og 512, hvor en lysstyrke på 15 gir 100 og en lysstyrke på 512 gir 1500.
+
+### Utfording (Vanskelig) {.challenge}
+
++ Kan du bytte ut `analogRead(lys)*3.2` til å bruke map?
