@@ -126,7 +126,8 @@ void setup() {
 }
 
 void loop() {
-  tone(lyd, analogRead(lys)*3.2);
+  int frekvens = analogRead(lys) * 3.2;
+  tone(lyd, frekvens);
 }
 ```
 
