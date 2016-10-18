@@ -136,3 +136,19 @@ Her er noen nøtter du kan prøve deg på ved å endre koden.
 
 + Kan du få en lysdiode til å lyse med forskjellig intensitet gitt forskjellige toner?
 + Klarer du å bruke knapper for å spille forksjellige toner?
+
+### Map {.protip}
+
+`map` tar en verdi, og endrer den fra ett tall i en gitt range til ett tall i en annen.
+F. eks. vil
+
+```cpp
+int lysstyrke = analogRead(lys);
+int verdi = map(lysstyrke, 15, 512, 100, 1500);
+```
+ gi `verdi` ett tall
+mellom 15 og 512, hvor en lysstyrke på 15 gir 100 og en lysstyrke på 512 gir 1500.
+
+### Utfording (Vanskelig) {.challenge}
+
++ Kan du bytte ut `analogRead(lys)*3.2` til å bruke map?
