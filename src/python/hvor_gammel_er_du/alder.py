@@ -1,7 +1,7 @@
 print('Hei, jeg er en datamaskin.')
 print('Jeg er derfor kjempeflink i matematikk.')
 print('Skal jeg vise deg?')
-aar=2015
+aar=2016
 faar=int(input('Når er du født: '))
 alder=aar-faar
 print('Jeg regnet ut at alderen din er: ')
