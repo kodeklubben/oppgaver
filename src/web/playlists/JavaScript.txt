@@ -1,0 +1,6 @@
+hei_js/hei_js.md
+grunnleggende_js/grunnleggende_js.md
+trykkomania/trykkomania.md
+partikkel_animasjon/partikkel_animasjon.md
+partikkel_gravitasjon/partikkel_gravitasjon.md
+partikkel_2/partikkel_2.md
