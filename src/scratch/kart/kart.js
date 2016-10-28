@@ -18,7 +18,9 @@ document.getElementById("last_ned_som_bilde").addEventListener("click", function
   leafletImage(scratchMap, downloadMapAsImage);});
 
 function downloadMapAsImage(err, canvas) {
-  var a = document.createElement("a");
+  var a = document.createElement('a');
+  document.body.appendChild(a);
+  a.setAttribute('type', 'hidden');
   var img = document.createElement('img');
   var dimensions = scratchMap.getSize();
   img.width = dimensions.x;
