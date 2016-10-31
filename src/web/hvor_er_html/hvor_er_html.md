@@ -12,12 +12,12 @@ Denne oppgaven er demonstrert med nettleseren Google Chrome. Bruk Google Chrome 
 
 # Steg 1: Se {.activity}
 
-Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bakk nettleseren! La oss ta en titt.
+Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bak nettleseren! La oss ta en titt.
 
 ## Aktiviteter {.check}
 
 - Gå til [kodeklubben.github.io](http://kodeklubben.github.io) i Chrome eller Firefox
-- Høyreklikk på katten og trykk `Inspisér` (norsk) eller `Inspect` (engelsk).
+- Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
 
   ![](inspiser_katten.png)
 
@@ -47,7 +47,7 @@ Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bakk ne
 
 ## Hva har vi lært? {.protip}
 
-**Høyreklikk og inspect** finner HTML-koden til elementet vi ser på.
+**Høyreklikk og inspiser** finner HTML-koden til elementet vi ser på.
 
 **HTML-kode for bilder** ser slik ut:
 ```html
@@ -56,7 +56,9 @@ Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bakk ne
 
 # Steg 2: Fjern {.activity}
 
-Nettleseren lar og tulle med HTML-koden til alle nettsider vi er på. Vi ødelegger ikke nettsidene, altså! Når vi gjør noe med nettsidene, er det bare i vår egen nettleser det skjer noe. Alle andre som ser på nettsiden ser en *helt vanlig* nettside.
+Utviklerverktøyet i nettleseren lar oss tulle med HTML-koden til alle nettsider vi er på. Vi ødelegger ikke nettsidene, altså!
+
+Alle endringer vi gjør på nettsiden blir altså igjen på vår egen datamaskin. Vi ødelegger ikke for andre når vi endrer på nettsider!
 
 ## Alt borte vekk? {.protip}
 
@@ -64,9 +66,9 @@ Tips: Skulle du fjerne alt for mye, last siden på nytt med oppdater-knappen. Da
 
 ## Aktiviteter {.check}
 
-Jeg er glad i Minecraft. Men Minecraft er ikke først! La oss gjøre noe med det. Vi fjerner alt som er foran!
+Jeg er glad i Minecraft. Men Minecraft er ikke først i listen over kurs! La oss gjøre noe med det. Vi fjerner alt som er foran!
 
-- Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern elementet med knappen `delete`!
+- Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern elementet med tasten `delete` på tastaturet!
 
   ![](katten_er_borte.png)
 
@@ -131,11 +133,11 @@ Jeg er glad i Minecraft. Men Minecraft er ikke først! La oss gjøre noe med det
 
 ## Hva har vi lært? {.protip}
 
-**HTML** kan inneholde usynlige koder!
+**HTML** inneholder koder som er usynlige når vi ser på en nettside!
 
-Disse kan være lenker (`<a>`) eller bokser (`<div>`)
+Disse kan være lenker (`<a>`) eller bokser (`<div>`).
 
-Vi kan fremdeles finne alle de usynlige kodene når vi bruker `Inspisér!`
+Vi kan fremdeles finne og se alle de usynlige kodene når vi bruker `Inspiser`!
 
 # Steg 3: Skap {.activity}
 
@@ -159,6 +161,6 @@ på **alle kursene**!
 
 # Steg 4: Masse moro! {.activity}
 
-Gratulerer! Du er har kommet ett skritt på vei til å bli Webutvikler!
+Gratulerer! Du er har kommet ett skritt på vei til å bli webutvikler!
 
 ![](schnauzer_web_developer.jpg)
