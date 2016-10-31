@@ -6,7 +6,7 @@ language: nb-NO
 
 # Introduksjon {.intro}
 
-Målet med denne oppgaven er å _vise_ hvor HTML finnes i virkelige nettsider, uten først å måtte pugge navnet på tags. Vi skal prøve å gi en intuitiv forståelse av HTML som trestruktur, uten alt for mye distraksjoner.
+Målet med oppgaven er å _vise_ hvor HTML finnes i virkelige nettsider, slik som den siden du er på nå. Når du er ferdig med oppgaven skal du ha litt bedre kjennskap til HTML, samt enkelt kunne endre på nettsider du er inne på.
 
 Denne oppgaven er demonstrert med nettleseren Google Chrome. Bruk Google Chrome hvis du har den.
 
