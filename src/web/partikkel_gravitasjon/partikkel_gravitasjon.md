@@ -13,9 +13,6 @@ Oppgaven her går ut på å legge til gravitasjon på `Partikkel`-objektet. Du v
 
         var canvas, ctx;
 
-        var drawInterval = setInterval(function(){draw()}, 30);
-
-
         var particle = {
             x: 125,
             y: 0,
@@ -28,6 +25,7 @@ Oppgaven her går ut på å legge til gravitasjon på `Partikkel`-objektet. Du v
         window.onload = function() {
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
+            setInterval(draw, 30);
         };
 
 
