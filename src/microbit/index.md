@@ -9,7 +9,7 @@ temperaturmåler osv, og deles for tiden ut gratis til alle 12-åringer i Storbr
 
 ## Hvordan komme igang med Micro:bit:
 
-- Gå til [microbit.org](https://www.microbit.org/nor/code).
+- Gå til [microbit.org](https://www.microbit.org/no/code).
 - Velg den editoren du ønsker å programmere i.
 
 ## Ressurser:
