@@ -12,7 +12,7 @@ I denne oppgaven skal vi se på bruken av en ultralydsensor.
 # Litt om ultralydsensorer {.activity}
 
 En ultralydsensor fungerer som mange andre ting som bruker ultralyd, f.eks.
-ekko-lodd og medisinske ultralydmaskiner: De sender en lyd ut, og lytter etter
+ekkolodd og medisinske ultralydmaskiner: De sender en lyd ut, og lytter etter
 hvor lang tid det tar før lyden kommer tilbake.
 
 Dette er et eksempel på hvordan vi kan bruke matematikk og vår kjennskap til
@@ -120,7 +120,7 @@ For å åpne seriellkonsollet går du til __Tools -> Serial Monitor__
 ## Utfordring {.challenge}
 
 + Klarer du å få en lysdiode til å lyse når noe er nærmere enn 20 cm?
-+ klarer du å få en lysdiode til å lyse sterkere jo nærmere noe er (husk PWM pins)?
++ klarer du å få en lysdiode til å lyse sterkere jo nærmere noe er (husk `PWM`-pinner)?
 
 ## Utfordring (Vanskelig) {.challenge}
 
