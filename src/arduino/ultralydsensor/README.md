@@ -1,14 +1,14 @@
 ---
-title: Lærerveiledning - Ultralyd-Sensor
+title: Lærerveiledning - Ultralydsensor
 ---
 
 # Informasjon til veiledere
 
 ## Læringsmål
 
-Oppgaven «Ultralyd-sensor» introduserer flere konsepter:
+Oppgaven «Ultralydsensor» introduserer flere konsepter:
 
-+ Bruk av ultralyd-sensor
++ Bruk av ultralydsensor
 + Seriellkonsoll
 
 

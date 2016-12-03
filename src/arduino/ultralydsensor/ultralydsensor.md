@@ -1,17 +1,17 @@
 ---
-title: Ultralyd-sensor
+title: Ultralydsensor
 level: 2
 author: Martin Ertsås & Morten Minde Neergaard
 ---
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi se på bruken av en ultralyd-sensor.
+I denne oppgaven skal vi se på bruken av en ultralydsensor.
 
 
-# Litt om ultralyd-sensorer {.activity}
+# Litt om ultralydsensorer {.activity}
 
-En ultralyd-sensor fungerer som mange andre ting som bruker ultralyd, f.eks.
+En ultralydsensor fungerer som mange andre ting som bruker ultralyd, f.eks.
 ekko-lodd og medisinske ultralydmaskiner: De sender en lyd ut, og lytter etter
 hvor lang tid det tar før lyden kommer tilbake.
 
@@ -43,7 +43,7 @@ på noe stort og flatt vil du se at den kan være veldig presis!
 
 + 1 Arduino Uno
 + 1 breadboard
-+ 1 ultralyd-sensor
++ 1 ultralydsensor
 + 6 ledninger
 
 ![utstyr](utstyr.jpeg)
@@ -51,7 +51,7 @@ på noe stort og flatt vil du se at den kan være veldig presis!
 
 # Steg 2: Koble opp kretsen {.activity}
 
-Hvis du ser på pinnene på ultralyd-sensoren vil du se at over de står det
+Hvis du ser på pinnene på ultralydsensoren vil du se at over de står det
 `Gnd`, `Echo`, `Trig` og `Vcc`.
 
 `Gnd` er jord, `Vcc` er 5V strøm, `Echo` og `Trig` er digitale pinner.
