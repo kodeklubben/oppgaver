@@ -1,36 +1,35 @@
 ---
 title: Skoleklassen
-level: 4
+level: 2
 author: Vegard Bjerkli Bugge
 ---
 
 # Introduksjon {.intro}
 
-Frøken Fjerding er klasseforstander for en stor skoleklasse. Alle barna har unike fornavn. Frøken Fjerding vil vite hvor mange elever hun underviser av hvert kjønn. Skriv et program som teller opp hvor mange gutter og jenter som går i klassen Frøken Fjerding er kontaktlærer for.
+I denne oppgave skal vi bruke en funksjon kalt `list.count(element)`, det vil si at hvis du i et program definerer en liste til å være variabelen `liste`, så kan vi skrive `liste.count(1)` for å finne ut hvor mange ganger heltallet 1 forekommer i listen `liste`.
 
-I denne oppgaven får du oppgitt en ordliste som inneholder navnene til alle elevene i skoleklassen. Ordlista heter for -klassensElever-, og finnes i fila pyKodeKlubb_Dictionary_Variabler.  I denne ordlista slår man opp på navnet til en elev, som er lagret som en streng, for å finne hvilket kjønn barnet er, som også errepresentert ved en streng i programmet. Samtlige navn i ordlista er unike. Når du lager en ordliste vil Python til enhver tid sørge for at alle nøklene (variabler eller strenger du slår opp på i ordlista) har unike navn, for å unngå forvirring. I ordlista ser hvert enkelt element slik ut:
-
-```python
-#ENTEN
-navn : "gutt"
-#ELLER
-navn : "jente"
-```
-
-*navn* viser til navnet til eleven i klassen. Skriv en eller flere linjer kode kun der det står #SKRIV KODE HER .
+# Eksempel {.activity}
 
 ```python
-klassensElever = { "Oskar" : "Gutt", "Thomas" : "Gutt", "Tora" : "Jente", "Eigil" : "Gutt", "Torild" : "Jente", "Isak" : "Gutt", "Erika" : "Jente", "Mari" : "Jente", "Bente" : "Jente", "Werner" : "Gutt", "Nils" : "Gutt", "Ada" : "Jente", "Igor" : "Gutt", "Pelle" : "Gutt", "Kaja" : "Jente", "Ella" : "Jente", "Petra" : "Jente", "Lina" : "Jente", "Silje" : "Jente", "Cecilie" : "Jente", "Kai" : "Gutt", "Trond" : "Gutt", "Anne" : "Jente", "Berit" : "Jente" }
-
-def main():
-    antall_gutter = 0 # Denne variabelen holder rede på hvor mange gutter i skoleklassen vi har telt opp
-    antall_jenter = 0 # Denne variabelen holder rede på hvor mange jenter i skoleklassen vi har telt opp
-    #SKRIV KODE HER
-    print ( "Det er " + antall_jenter + " jenter og " + antall_gutter + " gutter i skoleklassen." )
-
-main()
+>>> liste = ['a','b','b','a','c','a','b','c','c','c','b','a','a','a','a','b','b','c','a','b','b','a','a','c','a','a','b','a','c','a']
+>>> liste.count('a')
+14
+>>> liste.count('b')
+9
+>>> liste.count('c')
+7
+>>> liste.count('d')
+0
 ```
 
-Nyttige kunnskaper for oppgaven: Iterasjon/telling, variabler, funksjoner, løkker, moduler, ordlister
+I de to oppgavene som følger skal du arbeide i med en Python-fil laget på forhånd. Den inneholder nødvendige variable for å fullføre oppgavene. Fila kan lastes ned [her](./skoleklassen.py).
 
-## Ekstra spørsmål: Hvorfor er argumentet til print skrivet slik som det er skrivet?
+# Oppgave 1 {.activity}
+Frøken Fjerding er klasseforstander for en stor skoleklasse. Enkelte av barna har like fornavn. Frøken Fjerding vil vite hvor mange elever det er som har samme navn. Skriv ferdig funksjonen `antallEleverMedSammeNavn(navn)`. Under `main()`-funksjonen er det skrevet kode som tar inn en tekst fra kommandolinjen. Funksjonen sender denne strengen inn i funksjonen du skriver, og printer deretter ut det tallet funksjonen returnerer.
+
+Kjør programmet. Hvor mange elever i klassen til Frøken Fjerding heter Petra?
+
+# Oppgave 2 {.activity}
+Hvordan kan vi finne ut hvilket navn som flest elever i klassen har? Skriv en funksjon `mestPopulareNavn(liste)` som går igjennom listen `liste` og returnerer elementet i listen som forekommer flest ganger i en egen liste. Hvis det er flere elementer som forekommer like mange ganger, skal alle returneres i samme liste. Skriv funksjonen inn i samme fil som du har har gjort oppgave 1 i. For å unngå å bruke en egen liste til å telle med, kan du bruke `liste.count(element)`. Sørg for at `main()`-funksjonen står sist i programmet.
+
+Kjør programmet. Hvilket navn er mest typisk i Frøken Fjerdings klasse?
