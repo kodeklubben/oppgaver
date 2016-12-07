@@ -19,11 +19,12 @@ innhegning = { "Shaun" : "Lam", "Toralf" : "Kalv", "Oskar" : "Vær", "Stella" : 
 
 def dyretelling(dyr):
     antall_dyr = 0
-    #SKRIV KODE HER
+    # Korteste mulige løsning
+    antall_dyr = sum(x == dyr for x in innhegning.values())
     return antall_dyr
 
 def main():
-    dyreliste = [ "Ku", "Okse", "Kalv", "Søye", "Vær", "Lam" ]
+    dyreliste = ( "Ku", "Okse", "Kalv", "Søye", "Vær", "Lam" )
     dyr = input("Skriv inn hvilket dyr som skal telles opp: ")
     while dyr not in dyreliste:
         print("Ugyldig dyr.")

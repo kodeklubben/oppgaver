@@ -26,7 +26,7 @@ def dyretelling(dyr):
 
 # IKKE ENDRE PÅ DENNE KODEN
 def main():
-    dyreliste = [ "Ku", "Okse", "Kalv", "Søye", "Vær", "Lam" ]
+    dyreliste = ( "Ku", "Okse", "Kalv", "Søye", "Vær", "Lam" )
     dyr = input("Skriv inn hvilket dyr som skal telles opp: ")
     while dyr not in dyreliste:
         print("Ugyldig dyr.")
