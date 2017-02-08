@@ -401,7 +401,7 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
       turtle.up()
   end
 
-  while not turtle.detectDown do
+  while not turtle.detectDown() do
       turtle.down()
       turtle.back()
       turtle.place()
