@@ -41,7 +41,7 @@ HTML er et **markeringsspråk** - det betyr at det brukes til å beskrive hva ti
 <p>Dette er litt tekst.</p>
 ```
 
-`<p>` er en forkortelse for **paragraf**. Den har en åpning, som er `<p>`, og en tilsvarende avslutning med skråstrek, `</p>`. Nettleseren vet da at alt imellom de to taggene er en paragraf med tekst.
+`<p>` er en forkortelse for **paragraf**, som er et annet ord for _avsnitt_. Den har en åpning, som er `<p>`, og en tilsvarende avslutning med skråstrek, `</p>`. Nettleseren vet da at alt imellom de to taggene er en paragraf med tekst.
 
 Tagger kan også ha **attributter**, som er informasjon om elementet. La oss se på link-taggen:
 
