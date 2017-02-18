@@ -161,11 +161,11 @@ argumentet (`5`).
 <function> : number -> number
 ```
 
-* En parameter er *navnet* vi gir verdiene som kommer inn funksjonen. `x` er en parameter.
+* En **parameter** er *navnet* vi gir verdiene som kommer inn funksjonen. `x` er en parameter.
 
 ```elm
 > double 15
 30 : number
 ```
 
-* Et argument er *verdien* som kommer inn i funksjonen. `15` er et argument.
+* Et **argument** er *verdien* som kommer inn i funksjonen. `15` er et argument.
