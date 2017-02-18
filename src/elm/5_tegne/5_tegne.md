@@ -109,11 +109,9 @@ Nå bruker vi pakken **Svg** og importerer funksjoner som `circle` for sirkel og
   `Svg.circle` er en link til dokumentasjonen! Trykk på denne.
 - Stemmer eksempelet for `circle` med koden vår? Hva er forskjellig?
 
-Rect er det ikke (per 2017) noe eksempel for.
+Rect er det ikke (per februar 2017) noe eksempel for.
 
-- Gå
-  til
-  [Mozilla sin dokumentasjon for SVG-elementet `rect`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect).
+- Gå til [Mozilla sin dokumentasjon for SVG-elementet `rect`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect).
   Hva står det under **Specific attributes**? Bruker vi noen av disse?
 
 - Finner du `path` i dokumentasjonen til Elm?
@@ -343,7 +341,7 @@ I strengen `"M20,60 C 40,50 60,50 80,60 "` dukker det opp to mystiske variabler.
 
 Ånei! Det ble et surt fjes!
 
-- Kan du gjøre munnen bli igjen?
+- Kan du gjøre munnen blid igjen?
 - Hva skjer om du bytter ut `C` med `L` eller `Q`?
 
 ## Ellipser {.protip}
@@ -372,7 +370,7 @@ Du finner `ellipse` i **Svg**, og `cx` og `cy` i **Svg.Attributes**.
 ## Øyne som ellipser {.check}
 
 - Lag en ellipse for venstre øye
-- Lag en ellipse for høydre øye. Hva er forskjellen mellom høyre og venstre øye?
+- Lag en ellipse for høyre øye. Hva er forskjellen mellom høyre og venstre øye?
 
 Her er sånn min ble seende ut:
 
