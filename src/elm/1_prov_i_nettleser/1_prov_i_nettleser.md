@@ -12,8 +12,9 @@ før vi laster ned og installerer en masse ting, så det eneste vi trenger er en
 nettleser.
 
 Elm kjører i nettleseren. I nettleseren viser vi fram ting med noe som heter
-HTML. Det er viktig å forstå hva HTML er. Gjør oppgaven **Hvor er HTML? Jeg ser
-den ikke!** i Web-kurset først om du ikke har hørt om HTML før.
+HTML. Det er viktig å forstå hva HTML er.
+[Gjør oppgaven Hvor er HTML? Jeg ser den ikke!](../../web/hvor_er_html/hvor_er_html.html)
+i Web-kurset først om du ikke har hørt om HTML før.
 
 # Hei, verden! {.activity}
 
