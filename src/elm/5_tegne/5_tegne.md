@@ -30,7 +30,7 @@ Vi skal nå bruke SVG for å tegne:
     - "Sirkelen har sentrum i punktet (3,4)"
     - "Sirkelen har bredde (diameter) 100"
 
-Jeg kommer til å vise eksempler med try-elm. Hvis du vil kjøre nettsiden lokalt,
+Jeg kommer til å vise eksempler med **Try Elm**. Hvis du vil kjøre nettsiden lokalt,
 er det helt greit.
 
 # Steg 1: sirkel og rektangel {.activity}
@@ -282,7 +282,7 @@ Min ser nå slik ut:
 Nå skal vi lage et smilefjes!
 
 Det er lurt å begynne på nytt i dette steget. Da kan du åpne en ny fane med
-try-elm eller lage en ny elm-fil.
+**Try Elm** eller lage en ny elm-fil.
 
 Pass på at du får med deg funksjonene du trenger når du gjør oppgavene under!
 
