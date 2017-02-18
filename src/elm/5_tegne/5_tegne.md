@@ -14,7 +14,7 @@ Her er noen vanlige elementer i webprogrammering:
 - **HTML**: Struktur.
     - "Dette er en overskrift"
     - "Dette er et avsnitt"
-    - "Dette er en liste"m
+    - "Dette er en liste"
 - **CSS**: Utseende.
     - "Slik skal en overskrift se ut"
     - "Slik skal et avsnitt se ut"
