@@ -1,8 +1,8 @@
-hvor_i_all_verden/hvor_i_all_verden_1.md
-hvor_i_all_verden/hvor_i_all_verden_2.md
-hvor_i_all_verden/hvor_i_all_verden_3.md
-snoballkrig/snoballkrig.md
-3d_flakser/3d_flakser_1.md
-3d_flakser/3d_flakser_2.md
-hoppehelt/hoppehelt.md
-lag_ditt_eget_spill/lag_ditt_eget_spill.md
+where_on_earth/hvor_i_all_verden_1.md
+where_on_earth/hvor_i_all_verden_2.md
+where_on_earth/hvor_i_all_verden_3.md
+snowball_fight/snoballkrig.md
+3D_flapping/3d_flakser_1.md
+3D_flapping/3d_flakser_2.md
+jumping_hero/hoppehelt.md
+create_your_own_game/lag_ditt_eget_spill.md

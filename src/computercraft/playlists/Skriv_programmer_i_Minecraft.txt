@@ -1,5 +1,5 @@
-installasjon/installasjon.md
-introduksjon_til_computercraft/introduksjon_til_computercraft.md
-hendelser/hendelser.md
-bygg_et_hus/bygg_et_hus.md
-sprettball/sprettball.md
+installation/installasjon.md
+introduction_to_computercraft/introduksjon_til_computercraft.md
+events/hendelser.md
+build_a_house/bygg_et_hus.md
+bouncy_ball/sprettball.md

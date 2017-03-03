@@ -1,4 +1,4 @@
-ekstern_kodegenet/kreativ_elektronikk.md
-ekstern_kodegenet/penbot.md
-ekstern_kodegenet/juleverksted.md
-ekstern_kodegenet/pixel_hunt.md
+external_kodegenet/kreativ_elektronikk.md
+external_kodegenet/penbot.md
+external_kodegenet/juleverksted.md
+external_kodegenet/pixel_hunt.md

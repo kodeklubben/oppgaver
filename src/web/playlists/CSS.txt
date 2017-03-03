@@ -1,5 +1,5 @@
-style_nettsider/style_nettsider.md
-tekststil/tekststil.md
-animasjon/animasjon.md
-skjul_ninjaene/skjul_ninjaene.md
+style_webpages/style_nettsider.md
+text_style/tekststil.md
+animation/animasjon.md
+hide_the_ninjas/skjul_ninjaene.md
 layout/layout.md

@@ -1,8 +1,8 @@
-introduksjon_til_web/introduksjon_til_web.md
-en_hjemmeside/en_hjemmeside.md
-forsvunnet_katt/forsvunnet_katt.md
-publiser/publiser.md
-lyd_og_bilde/lyd_og_bilde.md
+introduction_to_web/introduksjon_til_web.md
+homepage/en_hjemmeside.md
+missing_cat/forsvunnet_katt.md
+publish/publiser.md
+sound_and_image/lyd_og_bilde.md
 din_egen_nettside.md
-lenk_sammen_nettsider/lenk_sammen_nettsider.md
-del_inn_nettsiden/del_inn_nettsiden.md
+link_webpages_together/lenk_sammen_nettsider.md
+split_up_website/del_inn_nettsiden.md
