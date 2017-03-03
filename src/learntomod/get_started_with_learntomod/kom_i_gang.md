@@ -2,6 +2,7 @@
 title: Kom i gang med Learn To Mod
 level: 1
 author: Pål G. Solheim
+language: nb
 ---
 
 # Introduksjon {.intro}

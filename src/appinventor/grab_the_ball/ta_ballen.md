@@ -2,12 +2,13 @@
 title: Ta ballen
 level: 2
 author: Tjerand Silde
+language: nb
 ---
 
 # Introduksjon {.intro}
 Nå skal vi lage en app som heter `Ta ballen`. For å lage denne appen så forutsetter vi at vi vet hvordan
 *MIT App Inventor* fungerer fra
-[tidligere oppgavesett](http://kodeklubben.github.io/appinventor/introduksjon/introduksjon.html), og kan
+[tidligere oppgavesett](http://kodeklubben.github.io/appinventor/introduction/introduksjon.html), og kan
 utføre instruksjoner uten å få alt forklart i detalj. Denne appen går ut på at en ball spretter frem
 og tilbake på skjermen, og du vinner ved å trykke på ballen med fingeren din. Dess kjappere du klarer
 å treffe ballen, dess flere poeng får du. Dette er en ganske enkel app, men det er mulig å utvide

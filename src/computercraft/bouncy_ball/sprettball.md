@@ -2,6 +2,7 @@
 title: Sprettball
 level: 3
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

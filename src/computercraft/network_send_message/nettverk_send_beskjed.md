@@ -2,6 +2,7 @@
 title: Send en beskjed
 level: 2
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}
