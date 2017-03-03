@@ -11,7 +11,7 @@ indexed: False
 bygge og programmere **datamaskiner** og **roboter** inne i
 Minecraft-verdenen.
 
-![](../introduksjon_til_computercraft/introduksjon_til_computercraft.png)
+![](../introduction_to_computercraft/introduksjon_til_computercraft.png)
 
 # Installering av ComputerCraft {.activity}
 

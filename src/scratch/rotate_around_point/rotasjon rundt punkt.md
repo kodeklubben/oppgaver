@@ -13,7 +13,7 @@ author: Carl A. Myrland
 I denne oppgaven skal vi importere en geometrisk figur og deretter `rotere`{.blockmotion} den.
 OBS! Har du allerede løst oppgaven med rotasjon rundt egen akse kan du hoppe over Steg 1 og heller bare laste inn den forrige oppgaven din fra "Mine ting"-mappen.
 
-![](../rotasjon/Geometri.png)
+![](../rotate_around_axis/Geometri.png)
 
 # Steg 1: Forberedelser {.activity}
 
