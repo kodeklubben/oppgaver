@@ -2,6 +2,7 @@
 title: Huskespill
 level: 3
 author: Sindre O. Rasmussen, Kodeklubben Trondheim
+language: nb
 ---
 
 # Huskespill {.intro}

@@ -2,6 +2,7 @@
 title: Hoppehelt
 level: 4
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

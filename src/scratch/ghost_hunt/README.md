@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Spøkelsesjakten
+language: nb
 ---
 
 # Informasjon til veiledere

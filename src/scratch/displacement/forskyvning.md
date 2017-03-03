@@ -3,6 +3,7 @@ title: Forskyving
 level: 1
 author: Carl A. Myrland
 indexed: false
+language: nb
 ---
 
 ## Læringsmål {.tips}

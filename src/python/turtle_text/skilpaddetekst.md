@@ -2,6 +2,7 @@
 title: Skilpaddetekst
 level: 4
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
+language: nb
 ---
 
 # Introduksjon {.intro}

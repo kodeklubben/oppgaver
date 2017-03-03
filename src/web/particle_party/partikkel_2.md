@@ -1,10 +1,11 @@
 ---
 title: "JS: Partikkel-fest"
 level: 3
+language: nb
 ---
 
 # Introduksjon {.intro}
-Denne oppgaven bygger på koden du skrev i oppgaven [Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html). Så dersom du ikke har gjort den, så anbefaler vi å gjøre [Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html) før du fortsetter på denne oppgaven.
+Denne oppgaven bygger på koden du skrev i oppgaven [Partikkel-animasjon](../particle_animation/partikkel_animasjon.html). Så dersom du ikke har gjort den, så anbefaler vi å gjøre [Partikkel-animasjon](../particle_animation/partikkel_animasjon.html) før du fortsetter på denne oppgaven.
 
 Her skal vi videreutvikle `partikkel`-animasjonen vår slik at den ser slik ut:
 

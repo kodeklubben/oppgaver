@@ -2,10 +2,11 @@
 title: Bokstaver
 level: 1
 author: Tjerand Silde
+language: nb
 ---
 
 # Introduksjon
-Her skal vi bruke det vi lærte i oppgaven [Skilpadder](../skilpadder/skilpadder.html)
+Her skal vi bruke det vi lærte i oppgaven [Skilpadder](../turtles/skilpadder.html)
 til å skrive bokstaver og lagefigurer. Forsøk å bruke det du kan om vinkler til
 å tenke deg frem til hvordan problemet må løses. Med litt trening kan du se for
 deg i hodet hvordan resultatet kommer til å bli - før koden kjøres!

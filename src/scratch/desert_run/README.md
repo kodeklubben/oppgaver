@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Ørkenløp
+language: nb
 ---
 
 # Informasjon til veiledere

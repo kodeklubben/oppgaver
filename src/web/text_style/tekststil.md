@@ -1,13 +1,13 @@
 ---
 title: "CSS: Endre utseende og stil på tekst"
 level: 2
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}
 I denne oppgaven skal vi jobbe videre med skrift, størrelser og farger. Vi skal utforske forskjellige skrifttyper, se på bakgrunnsfarger og vi skal sette CSS på bilder.
 
-Denne oppgaven bygger på forrige oppgave, [CSS: Style nettsider](../style_nettsider/style_nettsider.html), så hvis du ikke har gjort den, så anbefaler jeg det siden vi skal fortsette på koden derfra. Evt så kan du kopiere koden som ligger nederst på siden til [CSS: Style nettsider](../style_nettsider/style_nettsider.html).
+Denne oppgaven bygger på forrige oppgave, [CSS: Style nettsider](../style_webpages/style_nettsider.html), så hvis du ikke har gjort den, så anbefaler jeg det siden vi skal fortsette på koden derfra. Evt så kan du kopiere koden som ligger nederst på siden til [CSS: Style nettsider](../style_webpages/style_nettsider.html).
 
 # Steg 1: Fonter og tekst-stiler {.activity}
 
@@ -30,7 +30,7 @@ En font har en stil, de som blir oftest brukt er `sans serif` eller `serif`. Und
 
 ![sans-serif_vs_serif](resursser/serif_sansserif.gif)
 
-La oss prøve å endre fonten på overskriften ved å bruke `font-family` egenskapene. Dersom du ikke har `index.html` fra [CSS: Style nettsider](../style_nettsider/style_nettsider.html), så kan du hente koden ved å kopiere den nederst i *CSS: Style nettsider*-oppgaven.
+La oss prøve å endre fonten på overskriften ved å bruke `font-family` egenskapene. Dersom du ikke har `index.html` fra [CSS: Style nettsider](../style_webpages/style_nettsider.html), så kan du hente koden ved å kopiere den nederst i *CSS: Style nettsider*-oppgaven.
 
 + Legg til `font-family` med en font du ønsker på overskriften på nettsiden din. Under har vi brukt fonten `impact` med `sans-serif`-stil, du kan godt velge en annen.
 
@@ -122,7 +122,7 @@ img {
 ## __Lagre__ og __se__ det i nettleseren. {.save}
 
 
-+ Prøv å forandre farge på rammen (her kan du godt bruke heksadesimaler som vi brukte i [CSS: Style nettsider](../style_nettsider/style_nettsider.html)).
++ Prøv å forandre farge på rammen (her kan du godt bruke heksadesimaler som vi brukte i [CSS: Style nettsider](../style_webpages/style_nettsider.html)).
 + Prøv å forandre bredden på rammen.
 + Prøv å forandre linje-stil til rammen.
 
@@ -169,7 +169,7 @@ Deretter setter vi stilen slik at tekten er større for alle paragrafer med `cla
 + Skift font og skrift-stil på klassen `.stor` og IDen `#uthevet`.
 
 
-Sammen kan du gjøre med `<div>`- og `HTML5`-taggene vi brukte i oppgaven [HTML: Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html).
+Sammen kan du gjøre med `<div>`- og `HTML5`-taggene vi brukte i oppgaven [HTML: Del inn nettsiden](../split_up_website/del_inn_nettsiden.html).
 
 ## Ting du kan prøve: {.try}
 

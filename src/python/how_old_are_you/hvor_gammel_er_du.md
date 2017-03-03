@@ -2,6 +2,7 @@
 title: Hvor gammel er du?
 level: 2
 author: Sindre O. Rasmussen, Kodeklubben Trondheim
+language: nb
 ---
 
 # Hvor gammel er du? {.intro}

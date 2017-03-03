@@ -1,6 +1,7 @@
 ---
 title: Lærerveiledning - Labyrint
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Informasjon til veiledere {.intro}
@@ -19,7 +20,7 @@ passer bra som en introduksjon til Scratch.
 
 Dersom dette prosjektet brukes som en introduksjon til Scratch
 anbefaler vi at du følger veiledningen
-[Kom i gang med Scratch](../veiledninger/kom_i_gang_med_scratch.html).
+[Kom i gang med Scratch](../guides/kom_i_gang_med_scratch.html).
 
 Om elevene allerede er komfortable med Scratch kan du benytte
 anledningen til å snakke om
@@ -42,7 +43,7 @@ kommer borti.
 
 + __Utforskeren hopper gjennom vegger når den snur__. Alle figurer har
   et definert senterpunkt som de roterer rundt (se Steg 2 i prosjektet
-  [Soloball](../soloball/soloball.html) for et bra eksempel på hvordan
+  [Soloball](../solo_ball/soloball.html) for et bra eksempel på hvordan
   dette virker). Dersom dette senterpunktet ikke er midt på
   `Utforsker`-figuren vil det se ut som om den hopper rundt når den
   snur. For å sette senterpunktet riktig kan dere klikke på

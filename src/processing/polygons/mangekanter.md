@@ -2,13 +2,14 @@
 title: Kanter, kanter, mange mangekanter
 level: 2
 author: Sigmund Hansen
+language: nb
 ---
 
 # Introduksjon: {.intro}
 
 Her skal vi se på litt mer avansert opptegning og bevegelse. Vi skal
 ta utgangspunkt i oppgaven om
-[den sprettende ballen](../sprettende_ball/sprettende_ball.html), men
+[den sprettende ballen](../bouncing_ball/sprettende_ball.html), men
 bytte ut ballen med trekanter, firkanter og mangekanter. Det anbefales
 derfor at du har gjort den oppgaven før, eller at du har en forståelse
 av `if`-setninger og koordinatsystemet fra før. Altså skal du lære å

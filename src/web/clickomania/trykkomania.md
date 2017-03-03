@@ -2,6 +2,7 @@
 title: "JS: Trykkomania"
 level: 2
 author: Arve Seljebu
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -12,7 +13,7 @@ Før du starter på denne oppgaven bør du har endel erfaring med variabler, fun
 ![](trykkomania.gif)
 
 # Steg 1: Åpne JS Bin {.activity}
-Vi skal bruke JS Bin (http://jsbin.com) for å lage spillet. Hvis du aldri har brukt JS Bin før, ta en titt på oppgaven [Hei JavaScript](../hei_js/hei_js.html). Dersom du heller vil lage spillet i en egen fil på PCen din, så er det bare å åpne din favoritt teksteditor og hoppe til steg 2.
+Vi skal bruke JS Bin (http://jsbin.com) for å lage spillet. Hvis du aldri har brukt JS Bin før, ta en titt på oppgaven [Hei JavaScript](../hello_js/hei_js.html). Dersom du heller vil lage spillet i en egen fil på PCen din, så er det bare å åpne din favoritt teksteditor og hoppe til steg 2.
 
 ## Sjekkliste {.check}
 - Åpne adressen [jsbin.com](http://jsbin.com) i ett eget vindu.
@@ -25,7 +26,7 @@ Vi skal bruke JS Bin (http://jsbin.com) for å lage spillet. Hvis du aldri har b
 - Når du starter er begge fanene tomme.
 
 # Steg 2: Lage en ball {.activity}
-Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi skal bruke JavaScript til å lage *HTML*. Du trenger ikke kunne noe spesielt om HTML, men om du ønsker lære om HTML, se [oppgaven Introduksjon til web](../introduksjon_til_web/introduksjon_til_web.html).
+Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi skal bruke JavaScript til å lage *HTML*. Du trenger ikke kunne noe spesielt om HTML, men om du ønsker lære om HTML, se [oppgaven Introduksjon til web](../introduction_to_web/introduksjon_til_web.html).
 
 ## Sjekkliste {.check}
 - Vi begynner med å lage en funksjon som heter `Ball`:

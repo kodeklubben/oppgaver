@@ -5,6 +5,7 @@ logo: ../../assets/img/ccuk_logo.png
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Bjørn Einar Bjartnes
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -171,7 +172,7 @@ Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til boksta
 # Steg 4: Bygge funksjoner {.activity}
 
 La oss ta koden som lager og leser Cæsar-koder og gjøre den om til to
-*funksjoner*. Gi den ene funksjonen navnet `encode` og den andre funksjonen navnet `decode`. **Tips:** Dersom du aldri har hørt om funksjoner, kan du lese mer om de i [Skilpaddeskolen](../skilpaddeskolen/skilpaddeskolen.html).
+*funksjoner*. Gi den ene funksjonen navnet `encode` og den andre funksjonen navnet `decode`. **Tips:** Dersom du aldri har hørt om funksjoner, kan du lese mer om de i [Skilpaddeskolen](../turtle_school/skilpaddeskolen.html).
 
 For å få en funksjon til å sende tilbake en verdi bruker vi `return`. Dette gjør at vi kan lagre funksjonens resultat til en variabel og deretter bruke variabelen.
 

@@ -2,6 +2,7 @@
 title: "JS: Grunnleggende JavaScript"
 level: 2
 Author: Lars Klingenberg
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -14,7 +15,7 @@ Hvis HTML er en bil, så er CSS utseendet og designet på bilen, mens JavaScript
 La oss begynne! 
 
 # Steg 1: Variabler {.activity}
-Dersom du gjorde oppgaven [Hei JavaScript](../hei_js/hei_js.html) så er nok variabler kjent. Samme gjelder hvis du har programmert litt fra før. Men litt repetisjon skader ikke! 
+Dersom du gjorde oppgaven [Hei JavaScript](../hello_js/hei_js.html) så er nok variabler kjent. Samme gjelder hvis du har programmert litt fra før. Men litt repetisjon skader ikke! 
 
 En variabel i JavaScript ser slik ut:
 ```js

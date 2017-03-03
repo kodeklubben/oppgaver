@@ -2,6 +2,7 @@
 title: Introduksjon til programmering
 author: Gubrand Tandberg
 indexed: false
+language: nb
 ---
 
 # Programmering

@@ -1,6 +1,7 @@
 ---
 title: Lærerveiledning - Flagg
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Informasjon til veiledere {.intro}
@@ -92,7 +93,7 @@ sirkel før du viser dem eksemplene under.
   verdiene for å se hvordan det påvirker sirkelbevegelsen.
 
 + En annen måte å få en figur til å gå i sirkel på er vist frem i
-  [Soloball-oppgaven](../soloball/soloball.html).
+  [Soloball-oppgaven](../solo_ball/soloball.html).
 
   Stopp det forrige skriptet, og dra figuren tilbake omtrent midt på
   skjermen. Klikk på `Drakter`-fanen, og dra figuren i drakteditoren (vinduet

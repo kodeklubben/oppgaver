@@ -2,6 +2,7 @@
 title: PGZ - Hangman
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 level: 4
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -80,7 +81,7 @@ Her er alle bokstaver i `secret_word` som også er i `remaining_letters`
 erstatte med `_`. Vi har også lagt inn et mellomrom mellom hvert tegn.
 
 For å lage denne funksjonen trenger vi noen av tekstfunksjonene vi lærte i
-[Tekst ABC](../tekst_abc/tekst_abc.html). Dersom du ikke husker disse kan det
+[Tekst ABC](../text_ABC/tekst_abc.html). Dersom du ikke husker disse kan det
 være lurt å gå tilbake og lese igjennom alle de gule boksene i oppgaven.
 
 Du skal nå skrive kode i funksjonen. Dette må du gjøre:
@@ -110,7 +111,7 @@ Du skal nå skrive kode i funksjonen. Dette må du gjøre:
 
 Nå skal vi kode funksjonen `start_game()`. Denne funksjonen lager
 nøkkel/verdi-parene i `state`. Dersom du ikke husker hvordan ordbøker fungerer
-kan det være lurt å repetere [oppgaven om ordbøker](../ordboeker/ordboeker.html).
+kan det være lurt å repetere [oppgaven om ordbøker](../dictionaries/ordboeker.html).
 
 Nøklene i `state` er som følger:
 

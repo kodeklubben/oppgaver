@@ -2,11 +2,12 @@
 title: Trigonometri, regulære mangekanter og stjerner
 level: 2
 author: Sigmund Hansen
+language: nb
 ---
 
 # Introduksjon {intro}
 
-Nå som du kan tegne [mangekanter](../mangekanter/mangekanter.html)
+Nå som du kan tegne [mangekanter](../polygons/mangekanter.html)
 (hvis du ikke har gjort leksjonen om mangekanter, bør du gjøre dem
 først), skal vi se på en litt spesiell type mangekanter: de regulære
 mangekantene. Det vil si de mangekantene hvor lengden av hver kant er
@@ -70,7 +71,7 @@ kanskje på hvordan du skal få til dette. Hjørnene i en regulær
 mangekant fordeler seg jevnt langs omrisset av en sirkel. Derfor kan
 vi bruke formlene for katetene for å regne ut hvor hjørnene skal
 være. Opptegningen ellers er som for vanlige
-[mangekanter](../mangekanter/mangekanter.html).
+[mangekanter](../polygons/mangekanter.html).
 
 + Vi begynner med å tegne opp en regulær pentagon (femkant).
 

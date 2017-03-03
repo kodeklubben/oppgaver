@@ -2,13 +2,14 @@
 title: Lister og indekser
 level: 3
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
+language: nb
 ---
 
 # Introduksjon {.intro}
 
 Denne oppgaven handler om *lister*, altså å samle flere ting i en og samme
 variabel. Ettersom lister og løkker henger tett sammen i Python, bør du se på
-[løkker i repetisjonsoppgaven](../repetisjon/repetisjon.html#løkker) dersom du
+[løkker i repetisjonsoppgaven](../repitition/repetisjon.html#løkker) dersom du
 har glemt hvordan løkker fungerer.
 
 # Hvordan lage lister? {.activity}

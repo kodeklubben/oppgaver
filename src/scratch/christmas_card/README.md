@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Julekort
+language: nb
 ---
 
 # Informasjon til veiledere

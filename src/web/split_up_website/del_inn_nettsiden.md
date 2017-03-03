@@ -1,7 +1,7 @@
 ---
 title: "HTML: Del inn nettsiden"
 level: 3
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -38,7 +38,7 @@ Som du ser er `<div>`-taggen brukt til å organisere elementer eller ting på ne
 __La oss prøve ut `<div>`-taggen selv!__
 
 # Steg 2: Vi deler inn hjemmesiden vår i 3 deler {.activity}
-Som vi kanskje husker fra oppgaven med [Den forsvunnede katten](../forsvunnet_katt/forsvunnet_katt.html), så ser oppbyggningen av en tom nettside slik ut:
+Som vi kanskje husker fra oppgaven med [Den forsvunnede katten](../missing_cat/forsvunnet_katt.html), så ser oppbyggningen av en tom nettside slik ut:
 
 ```html
 <!doctype html>

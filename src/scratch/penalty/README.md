@@ -1,6 +1,7 @@
 ---
 title: Lærerveiledning - Straffespark
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Informasjon til veiledere {.intro}
@@ -19,7 +20,7 @@ introduksjon til Scratch.
 
 Dersom dette prosjektet brukes som en introduksjon til Scratch
 anbefaler vi at du følger veiledningen
-[Kom i gang med Scratch](../veiledninger/kom_i_gang_med_scratch.html).
+[Kom i gang med Scratch](../guides/kom_i_gang_med_scratch.html).
 
 Om elevene allerede er komfortable med Scratch kan du benytte
 anledningen til å snakke om

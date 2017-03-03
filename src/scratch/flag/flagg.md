@@ -2,6 +2,7 @@
 title: Flagg
 level: 3
 author: Sverre Oskar Konestabo og Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -15,7 +16,7 @@ ser ut som om det vaier i vinden.
 # Steg 1: Gå i sirkel {.activity}
 
 Vi har tidligere sett flere måter vi kan få figurer til å gå i sirkel på. For
-eksempel flyttet vi i [Soloball](../soloball/soloball.html) figuren vekk fra
+eksempel flyttet vi i [Soloball](../solo_ball/soloball.html) figuren vekk fra
 sentrum og brukte `pek mot [musepeker v]`{.b} for å flytte figuren i sirkel.
 
 I denne oppgaven skal vi bruke to funksjoner, _sinus_ og _cosinus_, for å ta

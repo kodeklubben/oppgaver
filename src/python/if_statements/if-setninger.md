@@ -2,10 +2,11 @@
 title: If-setninger
 level: 2
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
+language: nb
 ---
 
 # Introduksjon {.intro}
-Vi lærte i [Kuprat](../kuprat/kuprat.html) at vi kan bruke `input()` for å få tekst fra
+Vi lærte i [Kuprat](../cowsays/kuprat.html) at vi kan bruke `input()` for å få tekst fra
 brukeren og `print()` for å skrive ut tekst til brukeren. Det kan for
 eksempel gjøres slik:
 

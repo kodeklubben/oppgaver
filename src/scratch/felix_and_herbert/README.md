@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Felix og Herbert
+language: nb
 ---
 
 # Informasjon til veiledere

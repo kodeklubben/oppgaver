@@ -2,6 +2,7 @@
 title: Kryptonøtt
 level: 4
 author: Arve Seljebu
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -123,4 +124,4 @@ Dersom du klarer denne nøtten, spanderer jeg gjerne en sjokolade på deg dersom
 du deler koden din. Send en epost til arve@seljebu.no :-)
 
 
-[Hemmelige koder]: ../hemmelige_koder/hemmelige_koder.html
+[Hemmelige koder]: ../secret_codes/hemmelige_koder.html

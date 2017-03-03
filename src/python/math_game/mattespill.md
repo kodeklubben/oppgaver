@@ -1,6 +1,7 @@
 ﻿---
 title: Mattespill
 level: 2
+language: nb
 ---
 
 # Introduksjon {.intro}

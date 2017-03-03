@@ -2,6 +2,7 @@
 title: Bursdag i Antarktis
 level: 2
 author: Caroline Tandberg
+language: nb
 ---
 
 # Introduksjon {.intro}

@@ -2,6 +2,7 @@
 title: Hei verden
 level: 1
 author: Andreas Amundsen
+language: nb
 ---
 
 

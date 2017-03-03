@@ -1,19 +1,19 @@
 ---
 title: "HTML: Vi bygger hjemmeside"
 level: 1
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}
 
-I oppgaven [Introduksjon til Web](../introduksjon_til_web/introduksjon_til_web.html) kan du lære om *HTML*-tagger, og i denne oppgaven skal du bruke HTML-taggene i din første hjemmeside. La oss begynne med en gang!
+I oppgaven [Introduksjon til Web](../introduction_to_web/introduksjon_til_web.html) kan du lære om *HTML*-tagger, og i denne oppgaven skal du bruke HTML-taggene i din første hjemmeside. La oss begynne med en gang!
 
 # Steg 1: Åpne siden som heter om meg {.activity}
 
 ## Aktiviteter {.check}
 
 1. Åpne et __tekstprogram__.
-2. Last ned [internett.zip](../introduksjon_til_web/internett.zip) hvis du ikke har gjort det allerede igjennom [Introduksjon til Web](../introduksjon_til_web/introduksjon_til_web.html).
+2. Last ned [internett.zip](../introduction_to_web/internett.zip) hvis du ikke har gjort det allerede igjennom [Introduksjon til Web](../introduction_to_web/introduksjon_til_web.html).
 3. Åpne filen som heter `om_meg.html`. Filen inneholder bittelitt HTML kode for å hjelpe deg med å komme igang, men du må skrive resten selv.
 
 
@@ -129,4 +129,4 @@ __Gratulerer! Du har laget ditt eget nettsted.__
 
 * Hvordan kan du linke til en annen side på nettet? (Hint: prøv å legge til `http://` og deretter adressen til nettstedet du vil koble til)
 * I likhet med forslaget ovenfor, hvordan ville du legge til et bilde fra et sted på nettet i stedet for fra datamaskinen? (Hint: igjen, prøve å legge til `http://` og adressen til bildet)
-* Prøv å publiser nettsiden din på internett: [Publiser nettsiden din!](../publiser/publiser.html)
+* Prøv å publiser nettsiden din på internett: [Publiser nettsiden din!](../publish/publiser.html)

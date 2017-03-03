@@ -1,7 +1,7 @@
 ---
 title: "CSS: Skjul ninjaene"
 level:  3
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

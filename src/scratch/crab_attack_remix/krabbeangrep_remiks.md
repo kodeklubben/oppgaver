@@ -2,6 +2,7 @@
 title: Krabbeangrep! Remiks
 level: 3
 author: Gudbrand Tandberg
+language: nb
 ---
 
 # Introduksjon {.intro}

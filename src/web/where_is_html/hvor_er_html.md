@@ -1,7 +1,7 @@
 ---
 title: "Hvor er HTML? Jeg ser den ikke!"
 level: 1
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

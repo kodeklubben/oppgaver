@@ -2,6 +2,7 @@
 title: Ping pong
 level: 2
 author: Torbjørn Vik Lunde
+language: nb
 ---
 
 # Introdusjon: {.intro}
@@ -10,7 +11,7 @@ Her skal vi lage dataspillet Ping pong. Vi skal også lære om å hvordan du kan
 
 # Steg 1: Sprettende ball {.activity}
 
-Vår begynnelse kommer til å ligne på det vi gjorde i [den sprettende ballen](../sprettende_ball/sprettende_ball.html).
+Vår begynnelse kommer til å ligne på det vi gjorde i [den sprettende ballen](../bouncing_ball/sprettende_ball.html).
 
 ## Sjekkliste {.check}
 

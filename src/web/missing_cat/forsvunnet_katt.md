@@ -1,7 +1,7 @@
 ---
 title: "HTML: Forsvunnet katt"
 level: 2
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -178,6 +178,6 @@ Til venstre har vi HTML-koden og til høyre har vi hvordan nettleseren viser sid
 
 + Er det noe annet du kan legge til websiden som vil hjelpe folk å finne Felix? Mer informasjon? Hvordan ville du lagt til et kart over hvor han forsvant?
 
-+ Mer gøy med bilder. Legg til et bilde som beveger seg. Prøv å legge til bildet `catswithhats.gif` til websiden. Last ned gifen eller bruk lenken her: [catswithhats.gif](../forsvunnet_katt/ressurser/catswithhats.gif). Åpne det i nettleseren og se hva som skjer.
++ Mer gøy med bilder. Legg til et bilde som beveger seg. Prøv å legge til bildet `catswithhats.gif` til websiden. Last ned gifen eller bruk lenken her: [catswithhats.gif](../missing_cat/ressurser/catswithhats.gif). Åpne det i nettleseren og se hva som skjer.
 
 + Hvis Felix blir funnet. Bruk taggen `<del>` for å streke over informasjon som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>` for å sette inn ny informasjon istede, som foreksempel __Funnet__!

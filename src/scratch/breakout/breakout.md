@@ -2,6 +2,7 @@
 title: Breakout
 level: 4
 author: Geir Arne Hjelle og Martin Lie
+language: nb
 ---
 
 # Introduksjon {.intro}

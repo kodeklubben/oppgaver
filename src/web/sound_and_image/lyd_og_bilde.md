@@ -1,7 +1,7 @@
 ---
 title: "HTML: Legg til lyd og video"
 level: 3
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

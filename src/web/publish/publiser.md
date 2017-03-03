@@ -1,7 +1,7 @@
 ---
 title: "HTML: Publiser nettsiden din"
 level: 3
-language: nb-NO
+language: nb
 ---
 # Publiser nettsiden din på Internett{ .activity }
 

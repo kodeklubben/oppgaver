@@ -2,6 +2,7 @@
 title: "JS: Hei JavaScript!"
 level: 1
 author: Arve Seljebu
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -178,7 +179,7 @@ venner? La oss lage en personlig hilsen til hver av de.
   sendte til vennene dine.
 
 ## En annen måte å dele programmet {.tip}
-Husker du oppgaven [HTML: Publiser nettsiden din](../publiser/publiser.html)? Kanskje du kan laste opp JavaScript-koden til din `Github`-side? Et lite tips er å legge JavaScript-koden inn i `<head>`-taggen ved å bruke disse taggene:  
+Husker du oppgaven [HTML: Publiser nettsiden din](../publish/publiser.html)? Kanskje du kan laste opp JavaScript-koden til din `Github`-side? Et lite tips er å legge JavaScript-koden inn i `<head>`-taggen ved å bruke disse taggene:  
 ```html
 <script>
 </script>
