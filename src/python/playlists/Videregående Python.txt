@@ -1,8 +1,8 @@
-repetisjon/repetisjon.md
-tekst_abc/tekst_abc.md
-lopende_strekmann/lopende_strekmann.md
-lister_og_indekser/lister_og_indekser.md
-ordboeker/ordboeker.md
-hangman2/hangman2.md
-enkle_objekter/enkle_objekter.md
-sprettball/sprettball.md
+repetition/repetisjon.md
+text_ABC/tekst_abc.md
+running_stickman/lopende_strekmann.md
+lists_and_indexes/lister_og_indekser.md
+dictionaries/ordboeker.md
+PGZ_hangman/hangman2.md
+simple_objects/enkle_objekter.md
+bouncy_ball/sprettball.md

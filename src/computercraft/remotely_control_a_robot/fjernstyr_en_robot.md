@@ -2,6 +2,7 @@
 title: Fjernstyr en robot
 level: 3
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -16,9 +17,9 @@ datamaskin, og tolke disse som en kommando. For avanserte ComputerCraft-ere!
 
 Denne oppgaven bygger videre på andre oppgaver:
 
-* [Send en beskjed over nettverk](../nettverk_send_beskjed/nettverk_send_beskjed.html) beskriver hvordan vi sender og mottar meldinger over `rednet`.
-* [Hendelser -- Steg 1: Skattejakt](../hendelser/hendelser.html#steg-1-skattejakt) viser hvordan vi kan gjenkjenne hvilken tast brukeren har trykket på.
-* [Bygg et Hus -- Steg 4: Funksjoner](../bygg_et_hus/bygg_et_hus.html#steg-4-funksjoner) forklarer hvordan vi kan skrive egne funksjoner.
+* [Send en beskjed over nettverk](../network_send_message/nettverk_send_beskjed.html) beskriver hvordan vi sender og mottar meldinger over `rednet`.
+* [Hendelser -- Steg 1: Skattejakt](../events/hendelser.html#steg-1-skattejakt) viser hvordan vi kan gjenkjenne hvilken tast brukeren har trykket på.
+* [Bygg et Hus -- Steg 4: Funksjoner](../build_a_house/bygg_et_hus.html#steg-4-funksjoner) forklarer hvordan vi kan skrive egne funksjoner.
 
 Gå tilbake og kikk på disse to oppgavene hvis denne blir vanskelig.
 

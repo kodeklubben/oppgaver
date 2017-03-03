@@ -1,6 +1,7 @@
 ---
 title: Forberedelser for veiledere
 author: Pål G. Solheim
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -29,7 +30,7 @@ Fordelen med LTMs oppgaver er at ungene kan jobbe i sitt eget tempo og at de bli
 
 # Gjennomføring av kurs {.activity}
 
-Jeg foreslår at du bruker [bruksanvisningen *Kom i gang*](1_kom_i_gang/kom_i_gang.html) på den første kursdagen eller sender ut en lenke til [Kom i gang](1_kom_i_gang/kom_i_gang.html) på forhånd. Du må ha tilgjengelig en klassekode på forhånd, den finner du under menyvalget **Learn** > **View Classes** og så velger du en klasse.
+Jeg foreslår at du bruker [bruksanvisningen *Kom i gang*](get_started_with_learntomod/kom_i_gang.html) på den første kursdagen eller sender ut en lenke til [Kom i gang](get_started_with_learntomod/kom_i_gang.html) på forhånd. Du må ha tilgjengelig en klassekode på forhånd, den finner du under menyvalget **Learn** > **View Classes** og så velger du en klasse.
 
 Når du holder kurs råder jeg deg til å logge inn på LTM med to vinduer i nettleseren. Den ene vinduet bruker du til å holde klassens Minecraft-tilgang åpen:
 
@@ -39,7 +40,7 @@ Når du holder kurs råder jeg deg til å logge inn på LTM med to vinduer i net
 
 I det andre vinduet utfører du undervisningen din. Ikke gjør det i en egen fane, siden du da risikerer å stoppe pop-up vinduet fra å holde serveren åpen.
 
-En god introduksjonsoppgave er [Bygge en kube](bygge_en_kube/bygge_en_kube.html), hvor stegene er forklart i detalj. Det er nokså vanlig å bruke 2 kurskvelder på denne oppgaven.
+En god introduksjonsoppgave er [Bygge en kube](build_a_house/bygge_en_kube.html), hvor stegene er forklart i detalj. Det er nokså vanlig å bruke 2 kurskvelder på denne oppgaven.
 
 # Ideer til oppgaver {.activity}
 Hvis du ønsker ideer til andre oppgaver, se etter modder som har vært brukt av andre kodeklubber.

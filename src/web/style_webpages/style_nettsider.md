@@ -34,7 +34,7 @@ Men i dag skal vi bruke den siste metoden hvor vi legger stilene i `<head>` slik
     </style>
 </head>
 ```
-På denne måten slipper vi å håndere flere filer, vi kan ha alt vi trenger i én fil. 
+På denne måten slipper vi å håndere flere filer, vi kan ha alt vi trenger i én fil.
 
 
 
@@ -54,15 +54,15 @@ selector {
   property: value;
 }
 ```
-Selektorer kan være html-element som `h1`, `p`, `img`, `a`, eller `id-er` og `klasser`, men disse skal vi se på senere. Selektorer brukes for å fortelle CSS-en hvilke HTML-objekter vi skal sette stil på. Hvilken stil selektoren får avheniger av hva man setter på `property` og `value`. 
+Selektorer kan være html-element som `h1`, `p`, `img`, `a`, eller `id-er` og `klasser`, men disse skal vi se på senere. Selektorer brukes for å fortelle CSS-en hvilke HTML-objekter vi skal sette stil på. Hvilken stil selektoren får avheniger av hva man setter på `property` og `value`.
 
 `Property` eller `attributt` er gjerne en egenskap man kan tilegne selektoren, sammen med en verdi, `value`. Eksempler på `property` og `value` kan være `color: blue;`, `background-color: red;` og ` font-family: "Times New Roman", Serif;`.
 
-+ Kan du finne knappene for `{` og `}` på ditt tastatur? 
-+ Hva med `:` og `;`? 
++ Kan du finne knappene for `{` og `}` på ditt tastatur?
++ Hva med `:` og `;`?
 
 
-Finner du dem ikke, så få hjelp av noen til å finne dem for deg, fordi disse er viktige. Dersom du ikke har med `{ }`, `:`eller `;` på de riktige stedene, så vil ikke HTML-en din få stil. Derfor er det viktig å allerede nå å vite hvor man finner `{ }`, `:`eller `;` på tastaturet. 
+Finner du dem ikke, så få hjelp av noen til å finne dem for deg, fordi disse er viktige. Dersom du ikke har med `{ }`, `:`eller `;` på de riktige stedene, så vil ikke HTML-en din få stil. Derfor er det viktig å allerede nå å vite hvor man finner `{ }`, `:`eller `;` på tastaturet.
 
 # Steg 2: Legg til farge {.activity}
 
@@ -114,7 +114,7 @@ De fleste nettlesere støtter i tillegg 130 andre fargenavn, hele listen i alfab
 
 # Steg 3: Gi farge til spesifikke elementer {.activity}
 
-Hva om vi vil gjøre sånn at ordet `oransje` i setningen `Pelsen hans er oransje` får oransje farge? Ikke hele setningen, men akkurat det ordet. Da bruker vi en tag som heter `<span>`. Vi legger taggen rundt ordet vi vil sette farge på slik: 
+Hva om vi vil gjøre sånn at ordet `oransje` i setningen `Pelsen hans er oransje` får oransje farge? Ikke hele setningen, men akkurat det ordet. Da bruker vi en tag som heter `<span>`. Vi legger taggen rundt ordet vi vil sette farge på slik:
 
 ```html
 <span>oransje</span>
@@ -255,7 +255,7 @@ Men vær forsiktig, det finnes noen stiler som ikke blir videreført.
 <!-- Dette er et Kodeklubb-prosjekt. Felix er ikke ekte og er egentlig ikke forsvunnet. -->
 	<h1>Forsvunnet</h1>
 	<h2>Katten Felix</h2>
-	<img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png" alt="bilde av Felix" width="400">
+	<img src="http://kodeklubben.github.io/web/missing_cat/missingcat.png" alt="bilde av Felix" width="400">
 	<p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
 	<p>Han forvant fra hagen i går.</p>
 	<p>Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>

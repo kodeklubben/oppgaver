@@ -1,6 +1,7 @@
 ---
 title: Hello world
 level: 1
+language: nb
 ---
 
 # Introduksjon {.intro}

@@ -2,6 +2,7 @@
 title: Bygge et hus
 level: 3
 author: Pål G. Solheim
+language: nb
 ---
 
 # Introduksjon {.intro}

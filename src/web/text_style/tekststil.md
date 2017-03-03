@@ -255,7 +255,7 @@ Sammen kan du gjøre med `<div>`- og `HTML5`-taggene vi brukte i oppgaven [HTML:
 <!-- Dette er et Kodeklubb-prosjekt. Felix er ikke ekte og er egentlig ikke forsvunnet. -->
 	<h1>Forvunnet</h1>
 	<h2>Katten Felix</h2>
-	<img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png" alt="bilde av Felix" width="400">
+	<img src="http://kodeklubben.github.io/web/missing_cat/missingcat.png" alt="bilde av Felix" width="400">
 	<p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
 	<p class="stor">Han forvant fra hagen i går.</p>
 	<p id="uthevet">Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
