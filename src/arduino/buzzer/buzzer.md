@@ -99,7 +99,7 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
 ### Utfordringer {.challenge}
 
-+ Hva skjer hvis du endrer tallet 880 til ett annet?
++ Hva skjer hvis du endrer tallet 880 til et annet?
 
 # Steg 4: Bruk en lysfølsom motstand til å styre lyden {.activity}
 
@@ -145,15 +145,16 @@ Her er noen nøtter du kan prøve deg på ved å endre koden.
 
 ### Map {.protip}
 
-`map` tar en verdi, og endrer den fra ett tall i en gitt range til ett tall i en annen.
+`map` tar en verdi, og endrer den fra et tall i et gitt område til et tall i et annet.
 F. eks. vil
 
 ```cpp
 int lysstyrke = analogRead(lys);
 int verdi = map(lysstyrke, 15, 512, 100, 1500);
 ```
- gi `verdi` ett tall
-mellom 15 og 512, hvor en lysstyrke på 15 gir 100 og en lysstyrke på 512 gir 1500.
+
+sette `verdi` til et tall mellom 100 og 1500, hvor en lysstyrke på 15 gir 100
+og en lysstyrke på 512 gir 1500.
 
 ### Utfording (Vanskelig) {.challenge}
 

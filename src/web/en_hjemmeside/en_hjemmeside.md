@@ -83,7 +83,7 @@ Vi har nå gjort noen vanlige feil og vi har sett at noen ganger kan en enkelt f
 
 # Steg 3: Lag en ny side og link til den {.activity}
 
-La oss lage en ny side. Åpne `omg_meg_side_2.html`.  Den har litt mindre kode en den andre siden du jobbet med, men jeg er sikker på at du kan legge til mer kode selv nå.
+La oss lage en ny side. Åpne `om_meg_side_2.html`.  Den har litt mindre kode en den andre siden du jobbet med, men jeg er sikker på at du kan legge til mer kode selv nå.
 
 
 ## Utfordringer til deg: {.challenge}

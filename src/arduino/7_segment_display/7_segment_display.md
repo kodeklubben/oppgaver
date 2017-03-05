@@ -6,7 +6,7 @@ author: Martin Ertsås & Morten Minde Neergaard
 
 # Introduksjon {.intro}
 
-La oss se på å få ett display til å telle.
+La oss se på å få et display til å telle.
 
 # Steg 1: Finn frem utstyr {.activity}
 

@@ -1,12 +1,13 @@
 #!/bin/bash
-CWD=codeclub_lesson_builder
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+CWD="$DIR"/codeclub_lesson_builder
 MODULES=$CWD/node_modules
 
 
 if [ $# -eq 0 ]; then
-  # no args, run forever
-  ./$MODULES/forever/bin/forever $MODULES/gulp/bin/gulp.js --cwd $CWD
+    # no args, run forever
+    $MODULES/forever/bin/forever $MODULES/gulp/bin/gulp.js --cwd $CWD
 else
-  # arg supplied, do not run forever
-  ./$MODULES/gulp/bin/gulp.js --cwd $CWD "$@"
+    # arg supplied, do not run forever
+    $MODULES/gulp/bin/gulp.js --cwd $CWD "$@"
 fi
