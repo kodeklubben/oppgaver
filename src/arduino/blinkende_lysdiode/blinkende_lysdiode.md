@@ -237,7 +237,7 @@ Her er noen nøtter du kan prøve deg på ved å endre koden.
 + Kan du få lysdioden til å blinke når knappen trykkes inn?
 + Kan du få lysdioden til å lyse svakt med `analogWrite(led, 50);`?
 
-  Hva skjer om `50` endres til ett større tall?
+  Hva skjer om `50` endres til et større tall?
 
   **Merk:** Lysdioden må være tilkoblet en port som har *PWM* (port med følgende
   tegn: *~*) for at `analogWrite` skal fungere.

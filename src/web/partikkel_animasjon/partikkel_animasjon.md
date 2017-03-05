@@ -15,8 +15,6 @@ Denne oppgaven er den første i en liten serie av andre `partikkel`-oppgaver, de
 <script>
 
         var canvas, ctx;
-        var drawInterval = setInterval(function(){draw()}, 30);
-
 
         var particle = {
             x: 0,
@@ -30,7 +28,7 @@ Denne oppgaven er den første i en liten serie av andre `partikkel`-oppgaver, de
         window.onload = function() {
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
-            drawInterval;
+            setInterval(draw, 30);
         };
 
 
@@ -47,7 +45,6 @@ Denne oppgaven er den første i en liten serie av andre `partikkel`-oppgaver, de
             if(particle.x === 300 && particle.y === 300){
                 particle.x = 0;
                 particle.y = 0;
-                drawInterval;
             }
         }
 
@@ -263,17 +260,17 @@ objekt.attributt1 = objekt.attributt1 + objekt.attributt2;
 
 For at vi skal få en animasjon så må vi kjører `draw` flere ganger enn bare 1, derfor må vi bruke `setInterval` for å gjenta `draw`.
 
-+ Lag en ny variabel som heter `drawInterval` og ser slik ut:
++ Kjør funksjonen draw hvert 30 millisekund:
 ```js
-var drawInterval = setInterval(function() { draw(); }, 30);
+setInterval(draw, 30);
 ```
 
 ## Forklaring: setInterval {.tip}
-+ `setInterval` lager en funksjon som skal kjøre hvert X millisekund
-+ `setInterval(function() { draw(); }, 30);` kjører funksjonen `draw()` hvert 30 millisekund. NB! 1000 millisekunder er ett sekund
++ `setInterval` kjører en funksjon hvert X millisekund.
++ Altså betyr `setInterval(draw, 30);` at funksjonen `draw()` kjøres hvert 30 millisekund. NB! 1000 millisekunder er ett sekund.
 ##
 
-+ Fjern `draw()`, vi trenger ikke erstatte den med `drawInterval` fordi denne gjøres automatisk når variabelen blir laget
++ Fjern `draw()`, vi trenger ikke den lenger, ettersom `setInterval` vil kjøre `draw` for oss.
 + Lagre og kjør siden vi har laget til nå!
 
 Som du ser så lager den en lang diagonal stripe. Som du kanskje har skjønt må vi finne en måte vi kan fjerne den forrige vi tegnet slik at vi skaper en illusjon om at den flytter på seg og ikke bare lager mange etter hverandre.
@@ -312,7 +309,6 @@ Ekssempel på ferdig kode til oppgaven:
     <script>
 
         var canvas, ctx;
-        var drawInterval = setInterval(function() { draw(); }, 30);
 
 
         var particle = {
@@ -327,6 +323,7 @@ Ekssempel på ferdig kode til oppgaven:
         window.onload = function() {
             canvas = document.getElementById("canvas");
             ctx = canvas.getContext("2d");
+            setInterval(draw, 30);
         };
 
 
