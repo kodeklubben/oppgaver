@@ -24,7 +24,7 @@ import String
 
 ## Modell, meldinger og oppdatering {.check}
 
-- Vi oppretter programmet vårt med en *modell*, et *view* og en *update*-funksjon. Vi kommer tilbake til hvordan vi oppretter disse, skriv inn følgende i koden:
+- Vi oppretter programmet vårt med en *modell* som inneholder data (`model`), et *brukergrensesnitt* hvor vi viser frem data (`view`) og en funksjon for *oppdatering* av data (`update`). Vi kommer tilbake til hvordan vi oppretter disse, skriv inn følgende i koden:
 
 ```elm
 main =
