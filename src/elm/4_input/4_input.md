@@ -37,7 +37,7 @@ main =
 type Msg = Endre String
 ```
 
-- Etter det må vi skrive hva som skal skje når teksten oppdateres med en *update*-funksjon
+- Etter det må vi skrive hva som skal skje når teksten oppdateres med en *update*-funksjon:
 
 ```elm
 update msg model =
@@ -51,7 +51,7 @@ Nå hentes bare teksten inn, og sendes rett ut igjen. Det er kanskje litt rart, 
 For å endre teksten, kan vi bruke innebygde funksjoner i `String`-modulen.
 
 ## Skriv ut teksten {.check}
-- Til slutt må vi ha et sted som viser teksten, da bruker vi et *view*
+- Til slutt må vi ha et sted som viser teksten, da bruker vi et *view*:
 
 ```elm
 view model =
@@ -123,7 +123,7 @@ main =
 
 ## Oppdater {.check}
 
-Nå skal vi gjøre det mulig å lagre baklengstekstene i en setning med mellomrom mellom hvert ord. Da må vi endre `update` slik at den kan ta inn tekst og legge den til i `setning` i modellen vår.
+Nå skal vi gjøre det mulig å lagre baklengstekstene i en setning med mellomrom mellom hvert ord. Da må vi endre `update` slik at den kan ta inn tekst og legge den til i `setning` i modellen vår:
 
 ```elm
 -- UPDATE
@@ -145,7 +145,7 @@ Vi må også oppdatere `update` med hva som skal skje når den får inn melding 
 
 ## Ny knapp {.check}
 
-Nå mangler vi bare en knapp for å legge til tekst i setningen.
+Nå mangler vi bare en knapp for å legge til tekst i setningen:
 
 ```elm
 -- VIEW
@@ -214,7 +214,7 @@ Det finnes mange forskjellige type input-felter. Til nå har vi sett på tekst-i
 
 Vi skal lagre tre verdier i modellen vår, rød, grønn og blå i feltene `rod`, `gronn` og `blaa`.
 
-- Legg til det første feltet i modellen vår, `rod`
+- Legg til det første feltet i modellen vår, `rod`:
 
 ```elm
 import Html exposing (Html, Attribute, beginnerProgram, text, div, input)
@@ -232,7 +232,7 @@ model =
   }
 ```
 
-- Lagre rødstyrken fra en input, men begrens rekkevidden fra 0 til 255 med `Html.Attributes.min` og `Html.Attributes.max`
+- Lagre rødstyrken fra en input, men begrens rekkevidden fra 0 til 255 med `Html.Attributes.min` og `Html.Attributes.max`:
 
 ```elm
 input [ type_ "number", Html.Attributes.min "0", Html.Attributes.max "255" ] []
