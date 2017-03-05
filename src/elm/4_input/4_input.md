@@ -94,7 +94,9 @@ view model =
     , div [ ] [ text model ]
     ]
 ```
+### Kommentarer {.protip}
 
+I koden over har vi skrevet `-- UPDATE` og `-- VIEW`. Det har vi gjort for å gjøre koden mer strukturert og lesbar. Alle linjer som starter med to bindestreker (--) ignoreres i Elm. Dette er hva vi kaller kommentarer! Kommentarer er ment for menneskene som leser koden, enten deg selv eller de du samarbeider med.
 
 # Lag en setning {.activity}
 
