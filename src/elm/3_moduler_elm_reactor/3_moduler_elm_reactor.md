@@ -28,7 +28,7 @@ main = Html.text "Hei, verden!"
 
 - Lagre filen til filnavnet `hei.elm`.
 
-For å se nettsiden i en nettleser, må vi først gjøre om nettsiden vår til HTML. HTML er språket som forteller en nettleser om hvordan en nettside skal se ut. Se web-kurset for å lære mer om HTML og nettsider.
+For å se nettsiden i en nettleser, må vi først gjøre om nettsiden vår til HTML. HTML er språket som forteller en nettleser om hvordan en nettside skal se ut. Se [web-kurset](../../web/index.html) for å lære mer om HTML og nettsider.
 
 - Om du har gjort [oppgave 2](../2_funksjoner_elm_repl/2_funksjoner_elm_repl.html), kan du nå åpne kommandolinjen og skrive inn ```elm reactor```:
 
