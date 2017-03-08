@@ -5,16 +5,6 @@ BUILDER="$DIR/codeclub_lesson_builder"
 REPLACE="Merge pull request "
 REPLACE_WITH="kodeklubben/oppgaver"
 
-echo "cleaning dist"
-# Set CWD to the location of this file
-cd $DIR/dist && \
-if [ -e README.md ]
-then
-    find * ! -name README.md -delete
-else
-    rm -r *
-fi
-
 echo "pulling changes"
 # do not pull changes while in dir
 cd $DIR/.. && \
