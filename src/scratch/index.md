@@ -1,7 +1,6 @@
-﻿---
+---
 title: Scratch
 tags:
-  operativsystem: [windows, mac, linux]
   tema: [spill]
 ---
 

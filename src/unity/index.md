@@ -1,7 +1,6 @@
 ---
 title: Unity
 tags:
-  operativsystem: [windows, mac, linux]
   tema: [animasjon, spill]
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: LEGO Mindstorms
 tags:
-  operativsystem: [windows, mac, linux]
   tema: [robot]
 ---
 

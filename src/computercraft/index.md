@@ -1,7 +1,6 @@
 ---
 title: ComputerCraft
 tags:
-  operativsystem: [windows, mac, linux]
   tema: [minecraft]
 ---
 
