@@ -5,3 +5,5 @@
 5_tegne/5_tegne.md
 6_lare_andres_spill/6_lare_andres_spill.md
 7_tell_sekunder/7_tell_sekunder.md
+8_mus/8_mus.md
+9_egen_kode/9_egen_kode.md
