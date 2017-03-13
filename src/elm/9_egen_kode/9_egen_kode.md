@@ -79,13 +79,13 @@ Prøv å lage følgende:
   deretter å gange dette med det første tallet
 - Test funksjonene dine med og se om du har gjort noe feil
 
-# Steg 4: if-else-setninger {.activity}
+# Steg 4: if-else-uttrykk {.activity}
 
 Når vi lager funksjoner er vi ofte interessert i å gjøre noe avhengig av hva
-det vi sender inn er. Dette kaller vi if-else-setninger. Dette har du sikkert
+det vi sender inn er. Dette kaller vi if-else-uttrykk. Dette har du sikkert
 vært borti flere ganger før, og nesten alle programmeringsspråk har dette.
 
-I elm skriver man if-else-setninger på følgende måte:
+I elm skriver man if-else-uttrykk på følgende måte:
 
 ```elm
 sjekkTall tall =
