@@ -1,7 +1,7 @@
 ---
 title: "CSS: Layout"
 level: 4
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

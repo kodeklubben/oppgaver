@@ -1,7 +1,7 @@
 ---
 title: Lag din egen nettside
 level: 4
-language: nb-NO
+language: nb
 ---
 
 ## __Introduksjon:__ {.intro}

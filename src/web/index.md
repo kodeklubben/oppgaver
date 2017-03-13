@@ -24,6 +24,6 @@ Slik fungerer stort sett alle nettsider, selv om de ser og oppfører seg svært 
 - spill ([html5games.com](http://html5games.com))
 - nettbutikk ([komplett.no](https://www.komplett.no))
 
-Og enda en ting, alt dette er mulig uten at noe installeres. Du trenger bare åpne en adresse i nettleseren din. Så om du har lyst å lære mer om dette, hopp rett i det med oppgaven [Introduksjon til web](introduksjon_til_web/introduksjon_til_web.html).
+Og enda en ting, alt dette er mulig uten at noe installeres. Du trenger bare åpne en adresse i nettleseren din. Så om du har lyst å lære mer om dette, hopp rett i det med oppgaven [Introduksjon til web](introduction_to_web/introduksjon_til_web.html).
 
 Lykke til!

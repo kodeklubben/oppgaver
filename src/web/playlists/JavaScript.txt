@@ -1,6 +1,6 @@
-hei_js/hei_js.md
-grunnleggende_js/grunnleggende_js.md
-trykkomania/trykkomania.md
-partikkel_animasjon/partikkel_animasjon.md
-partikkel_gravitasjon/partikkel_gravitasjon.md
-partikkel_2/partikkel_2.md
+hello_js/hei_js.md
+basic_js/grunnleggende_js.md
+clickomania/trykkomania.md
+particle_animation/partikkel_animasjon.md
+particle_gravitation/partikkel_gravitasjon.md
+particle_party/partikkel_2.md

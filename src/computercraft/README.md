@@ -9,7 +9,7 @@ Minecraft-verdenen.
 ## Installering av ComputerCraft
 
 Se
-[Installering av ComputerCraft](http://kodeklubben.github.io/computercraft/installasjon/installasjon.html).
+[Installering av ComputerCraft](http://kodeklubben.github.io/computercraft/installation/installasjon.html).
 
 ## Kom i gang
 
@@ -52,7 +52,7 @@ Minecraft.
 
 Leksjonen
 
-+ [Introduksjon til ComputerCraft](introduksjon_til_computercraft/)
++ [Introduksjon til ComputerCraft](introduction_to_computercraft/)
 
 er lagt opp til å brukes i et enkeltstående introduksjonskurs (som
 ikke nødvendigvis går videre med de andre leksjonene), og dekker det
@@ -62,21 +62,21 @@ grundigere innføring i enkelte begreper.
 
 Anbefalt rekkefølge for leksjonene er
 
-1. [Bli Kjent Med Datamaskinen](bli_kjent_med_datamaskinen/)
-2. [Robotinvasjon](robotinvasjon/)
-3. [Hendelser](hendelser/)
+1. [Bli Kjent Med Datamaskinen](get_to_know_the_computer/)
+2. [Robotinvasjon](robot_invasion/)
+3. [Hendelser](events/)
   + Hvordan bevege seg rundt i filsystemet
   + Kopiering av filer
   + Hendelser, enkel bruk av os.pullevent
   + Et bedre passord-program: auto-startup / kan ikke termineres med ctrl-T
   + Hvordan skrive kode i tekstbehandlere utenfor Minecraft
-4. [Bygg et Hus](bygg_et_hus/)
+4. [Bygg et Hus](build_a_house/)
   + Bruk en robot til å bygge hus
   + Hvordan flytte rundt
   + Bruk av funksjoner for enklere kode
   + Sikre at vi får nok materiale
   + Kommandolinjeargumenter for å bygge forskjellge typer / størrelser hus
-5. [Sprettball](sprettball/)
+5. [Sprettball](bouncy_ball/)
   + Introduksjon til peripherals
   + Koble en skjerm til datamaskinen
   + Skrive tekst til skjermen

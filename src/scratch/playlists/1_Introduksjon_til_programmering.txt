@@ -1,7 +1,7 @@
-straffespark/straffespark.md
-labyrint/labyrint.md
-bursdag_i_antarktis/bursdag_i_antarktis.md
-flaksefugl/flaksefugl.md
-norgestur/norgestur.md
-krabbeangrep_remiks/krabbeangrep_remiks.md
-lag_ditt_eget_spill/lag_ditt_eget_spill.md
+penalty/straffespark.md
+labyrinth/labyrint.md
+birthday_in_antarctica/bursdag_i_antarktis.md
+flappy_bird/flaksefugl.md
+trip_around_norway/norgestur.md
+crab_attack_remix/krabbeangrep_remiks.md
+create_your_own_game/lag_ditt_eget_spill.md

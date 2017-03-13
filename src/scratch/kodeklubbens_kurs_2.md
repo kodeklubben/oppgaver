@@ -2,6 +2,7 @@
 title: Scratch for Viderekommende
 author: Geir Arne Hjelle og Gudbrand Tandberg
 indexed: false
+language: nb
 ---
 
 # Scratch for viderekommende
