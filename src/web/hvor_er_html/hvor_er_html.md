@@ -16,7 +16,7 @@ Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bak net
 
 ## Aktiviteter {.check}
 
-- Gå til [kodeklubben.github.io](http://kodeklubben.github.io) i Chrome eller Firefox
+- Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller Firefox
 - Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
 
   ![](inspiser_katten.png)
