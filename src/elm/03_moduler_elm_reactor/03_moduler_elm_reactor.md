@@ -11,7 +11,8 @@ Denne oppgaven innfører moduler, som lar oss bruke kode som andre har skrevet.
 Når vi forstår moduler, er vi klare for `elm reactor`, som viser oss en
 webapplikasjon vi har skrevet i vår egen fil.
 
-Før du starter, må du ha gjennomført innstallasjonen i [oppgave 2](/elm/2_funksjoner_elm_repl/2_funksjoner_elm_repl.html).
+Før du starter, må du ha gjennomført innstallasjonen
+i [oppgave 2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html).
 
 # Lag din egen nettside! {.activity}
 
@@ -30,7 +31,7 @@ main = Html.text "Hei, verden!"
 
 For å se nettsiden i en nettleser, må vi først gjøre om nettsiden vår til HTML. HTML er språket som forteller en nettleser om hvordan en nettside skal se ut. Se [web-kurset](../../web/index.html) for å lære mer om HTML og nettsider.
 
-- Om du har gjort [oppgave 2](../2_funksjoner_elm_repl/2_funksjoner_elm_repl.html), kan du nå åpne kommandolinjen og skrive inn ```elm reactor```:
+- Om du har gjort [oppgave 2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html), kan du nå åpne kommandolinjen og skrive inn ```elm reactor```:
 
 ```
 elm-reactor 0.18.0
