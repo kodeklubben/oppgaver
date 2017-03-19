@@ -1,31 +1,39 @@
 ---
 title: "Hvor er HTML? Jeg ser den ikke!"
 level: 1
+author: Teodor Heggelund
 language: nb-NO
 ---
 
 # Introduksjon {.intro}
 
-Målet med oppgaven er å _vise_ hvor HTML finnes i virkelige nettsider, slik som den siden du er på nå. Når du er ferdig med oppgaven skal du ha litt bedre kjennskap til HTML, samt enkelt kunne endre på nettsider du er inne på.
+Målet med oppgaven er å _vise_ hvor HTML finnes i virkelige nettsider, slik som
+den siden du er på nå. Når du er ferdig med oppgaven skal du ha litt bedre
+kjennskap til HTML, samt enkelt kunne endre på nettsider du er inne på.
 
-Denne oppgaven er demonstrert med nettleseren Google Chrome. Bruk Google Chrome hvis du har den.
+Denne oppgaven er demonstrert med nettleseren Google Chrome. Bruk Google Chrome
+hvis du har den.
 
 # Steg 1: Se {.activity}
 
-Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bak nettleseren! La oss ta en titt.
+Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bak
+nettleseren! La oss ta en titt.
 
 ## Aktiviteter {.check}
 
-- Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller Firefox
+- Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller
+  Firefox
 - Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
 
   ![](inspiser_katten.png)
 
-  Når vi klikker på `Inspiser`, får vi se en meny til hjelp for utviklere. Denne er svært nyttig til webutvikling.
+  Når vi klikker på `Inspiser`, får vi se en meny til hjelp for utviklere. Denne
+  er svært nyttig til webutvikling.
 
   ![](kattens_kildekode.png)
 
-  Ser du den fargede teksten, du også? Det er HTML, slik Chrome leser den! Nettsidens kildekode.
+  Ser du den fargede teksten, du også? Det er HTML, slik Chrome leser den!
+  Nettsidens kildekode.
 
   Kildekoden til katten ser slik ut:
 
@@ -33,7 +41,8 @@ Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bak net
   <img src="scratch/logo-black.png">
   ```
 
-- Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren over filnavnet. Ser du filen dukker opp?
+- Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren over
+  filnavnet. Ser du filen dukker opp?
 
 - Inspiser slangen. Hva er filnavnet til slangen? Ser du det samme som meg?
 
@@ -56,29 +65,36 @@ Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bak net
 
 # Steg 2: Fjern {.activity}
 
-Utviklerverktøyet i nettleseren lar oss tulle med HTML-koden til alle nettsider vi er på. Vi ødelegger ikke nettsidene, altså!
+Utviklerverktøyet i nettleseren lar oss tulle med HTML-koden til alle nettsider
+vi er på. Vi ødelegger ikke nettsidene, altså!
 
-Alle endringer vi gjør på nettsiden blir altså igjen på vår egen datamaskin. Vi ødelegger ikke for andre når vi endrer på nettsider!
+Alle endringer vi gjør på nettsiden blir altså igjen på vår egen datamaskin. Vi
+ødelegger ikke for andre når vi endrer på nettsider!
 
 ## Alt borte vekk? {.protip}
 
-Tips: Skulle du fjerne alt for mye, last siden på nytt med oppdater-knappen. Da blir alt som det var. Prøv!
+Tips: Skulle du fjerne alt for mye, last siden på nytt med oppdater-knappen. Da
+blir alt som det var. Prøv!
 
 ## Aktiviteter {.check}
 
-Jeg er glad i Minecraft. Men Minecraft er ikke først i listen over kurs! La oss gjøre noe med det. Vi fjerner alt som er foran!
+Jeg er glad i Minecraft. Men Minecraft er ikke først i listen over kurs! La oss
+gjøre noe med det. Vi fjerner alt som er foran!
 
-- Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern elementet med tasten `delete` på tastaturet!
+- Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern elementet
+  med tasten `delete` på tastaturet!
 
   ![](katten_er_borte.png)
 
 - Yes! Katten ble borte!
 
-  ... men. Vent litt. Slangen gikk ikke til venstre. Hva skjedde nå, mon tro? Og det står fremdeles `Scratch` under den tomme plassen?
+  ... men. Vent litt. Slangen gikk ikke til venstre. Hva skjedde nå, mon tro? Og
+  det står fremdeles `Scratch` under den tomme plassen?
 
   ![](kattens_usynlige_boks.png)
 
-  Ha! Det er en usynlig boks igjen, den som tidligere hadde katten i seg! Den heter `<a>`, og er en link:
+  Ha! Det er en usynlig boks igjen, den som tidligere hadde katten i seg! Den
+  heter `<a>`, og er en link:
 
   ```html
   <a href="scratch/index.html" id="scratch" data-original-title="" title="" aria-describedby="popover162945">
@@ -90,7 +106,8 @@ Jeg er glad i Minecraft. Men Minecraft er ikke først i listen over kurs! La oss
   </a>
   ```
 
-- Trykk på den lille pilen ved siden av linken  `<a>`. Da gjemmer vi hva som er inni linken!
+- Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som er
+  inni linken!
 
   ![](liten_a.png)
 
