@@ -243,7 +243,7 @@ Vi kan binde flere navn som kan være avhengig av hverandre:
 ```elm
 describeHalfAge yearNow yearBorn =
   let age = yearNow - yearBorn
-      halfAge / 2
+      halfAge = age / 2
   in "Half the age is " ++ (toString halfAge)
 ```
 
@@ -275,7 +275,7 @@ Du skal kunne bruke den slik:
 <function> : Utils.Square -> Utils.Square
 > centerSquare start
 { color = "blue", width = 9, corner = { x = 9, y = 9 } } : Utils.Square
-`
+```
 
 ... hva må x-verdien være om det nye kvadratet skal være i sentrum av det forrige?
 
