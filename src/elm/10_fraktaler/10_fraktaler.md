@@ -243,7 +243,7 @@ Vi kan binde flere navn som kan være avhengig av hverandre:
 ```elm
 describeHalfAge yearNow yearBorn =
   let age = yearNow - yearBorn
-      halfAge / 2
+      halfAge = age / 2
   in "Half the age is " ++ (toString halfAge)
 ```
 
