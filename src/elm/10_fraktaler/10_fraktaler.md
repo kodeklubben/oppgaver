@@ -154,9 +154,11 @@ har gjort noe feil. Det bare at du og guiden lagde punkter på forskjellig måte
 
 Dette får vi bruk for!
 
-# Steg 4: Avanserte datastrukturer {.activity}
+# Steg 4: Datastrukturer i datastrukturer {.activity}
 
 I steg 3 bygget vi opp datastruktren `Point` fra to tall av typen `Float`.
+
+Nå skal vi bruke får egen type, `Point`, til å bygge opp ett kvadrat.
 
 ## Desimaltall {.protip}
 
@@ -171,3 +173,55 @@ som på norsk er _flyttall_. Disse kalles flyttall fordi de har _flytende
 presisjon_. Det betyr at vi kan ha et fast antall _siffer_ med nøyaktighet. Vi
 kan også lage veldig store tall, som 1000 * 1000 * 1000 * 1000 * 10000
 
+## Sjekkliste {.check}
+
+- Hva må vi vite om et kvadrat for at vi skal kunne tegne det?
+- Lag typen kvadrat: `type alias Square = -- ...`
+
+Nå skal vi tegne kvadratet!
+
+```elm
+viewSquare square = -- ...
+```
+
+- Lag funksjonen `viewSquare`. Bruk `rect` fra SVG som du har brukt tidligere.
+
+**Obs!** Når vi tegner kvadrater må vi bruke en farge. En måte å løse det på er
+å ha en `color : String`-attributt på `Square`.
+
+Her er hvordan jeg bruker min `viewSquare`:
+
+```elm
+start =
+  { corner = { x = 0.0
+             , y = 0.0
+             }
+  , width = 27.0
+  , color = "blue"
+  }
+
+center =
+  { corner = { x = 9.0
+             , y = 9.0
+             }
+  , width = 9.0
+  , color = "green"
+  }
+
+
+main =
+    div []
+      [ h1 [] [ text (toString start)
+              , text (toString center)
+              ]
+      , svg
+        [ width "500", height "500", viewBox "0 0 27 27" ]
+        [ viewSquare start
+        , viewSquare center
+        ]
+      ]
+```
+
+Dette blir seende slik ut på min PC:
+
+<div>{ corner = { x = 0, y = 0 }, width = 27, color = "blue" }{ corner = { x = 9, y = 9 }, width = 9, color = "green" }<svg width="500" height="500" viewBox="0 0 27 27"><rect x="0" y="0" width="27" height="27" fill="blue"></rect><rect x="9" y="9" width="9" height="9" fill="green"></rect></svg></div>
