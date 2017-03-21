@@ -275,7 +275,7 @@ Du skal kunne bruke den slik:
 <function> : Utils.Square -> Utils.Square
 > centerSquare start
 { color = "blue", width = 9, corner = { x = 9, y = 9 } } : Utils.Square
-`
+```
 
 ... hva må x-verdien være om det nye kvadratet skal være i sentrum av det forrige?
 
