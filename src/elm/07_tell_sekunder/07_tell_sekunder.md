@@ -1,7 +1,6 @@
 ---
 title: "Tell sekunder"
 level: 3
-language: nb-NO
 author: Teodor Heggelund
 language: nb
 ---
@@ -41,7 +40,7 @@ Det er hva vi skal gå gjennom nå!
 Ideer til "spill":
 - Nedtellingstimer
 - Reaksjonstid. Beskjed på skjermen, mål reaksjonstiden.
-- Simulering av tyngdekraft. 
+- Simulering av tyngdekraft.
 
 -->
 
@@ -72,7 +71,7 @@ vi bare å si noe om:
 2. hvordan dataen skal vises (`view`), og
 3. hvordan brukerens handlinger skal oppdatere tilstanden i programmet vårt
    (`update`).
-   
+
 Vi var altså kun avhengig av hva brukeren gjorde! Hvis brukeren ikke gjorde noe,
 skjedde det ingenting. Dette stemmer ikke lenger!
 
@@ -262,7 +261,7 @@ Her abonnerer vi på sekunder. Verdien `second` kommer fra modulen `Time`.
 Øverst i `Time-modulen` finner vi:
 
 ```elm
-type alias Time = 
+type alias Time =
     Float
 ```
 
@@ -339,7 +338,7 @@ Her prøver jeg i `elm repl`:
 0 : Int
 > rem 7 2
 1 : Int
-> rem 8 2 
+> rem 8 2
 0 : Int
 > rem 9 2
 1 : Int

@@ -1,7 +1,6 @@
 ---
 title: "Skrive egen kode"
 level: 2
-language: nb-NO
 author: Erik Aasmundrud
 language: nb
 ---

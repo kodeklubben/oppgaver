@@ -1,7 +1,6 @@
 ---
 title: "Prøv Elm i nettleseren"
 level: 1
-language: nb-NO
 author: Teodor Heggelund
 language: nb
 ---
@@ -39,7 +38,7 @@ i Web-kurset først om du ikke har hørt om HTML før.
     ```
 
     Hva heter du? Hva vil du programmet skal skrive ut til deg?
-    
+
     Trykk `Compile` for å se!
 
 # Dokumenter i HTML og Elm {.protip}
@@ -51,7 +50,7 @@ være inne i andre elementer. Eksempel:
     * `h1`: Stor overskrift
     * `p`: Første avsnitt.
     * `p`: Andre avsnitt.
-    
+
 `div`-elementet inneholder tre elementer: `h1`, `p` og `p`.
 
 Dette ser slik ut i HTML:

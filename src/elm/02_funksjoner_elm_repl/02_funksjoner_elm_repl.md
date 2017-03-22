@@ -1,7 +1,6 @@
 ---
 title: "Elm repl og funksjoner"
 level: 2
-language: nb-NO
 author: Teodor Heggelund
 language: nb
 ---
