@@ -35,7 +35,7 @@ Men i dag skal vi bruke den siste metoden hvor vi legger stilene i `<head>` slik
     </style>
 </head>
 ```
-På denne måten slipper vi å håndere flere filer, vi kan ha alt vi trenger i én fil. 
+På denne måten slipper vi å håndere flere filer, vi kan ha alt vi trenger i én fil.
 
 
 
@@ -55,15 +55,15 @@ selector {
   property: value;
 }
 ```
-Selektorer kan være html-element som `h1`, `p`, `img`, `a`, eller `id-er` og `klasser`, men disse skal vi se på senere. Selektorer brukes for å fortelle CSS-en hvilke HTML-objekter vi skal sette stil på. Hvilken stil selektoren får avheniger av hva man setter på `property` og `value`. 
+Selektorer kan være html-element som `h1`, `p`, `img`, `a`, eller `id-er` og `klasser`, men disse skal vi se på senere. Selektorer brukes for å fortelle CSS-en hvilke HTML-objekter vi skal sette stil på. Hvilken stil selektoren får avheniger av hva man setter på `property` og `value`.
 
 `Property` eller `attributt` er gjerne en egenskap man kan tilegne selektoren, sammen med en verdi, `value`. Eksempler på `property` og `value` kan være `color: blue;`, `background-color: red;` og ` font-family: "Times New Roman", Serif;`.
 
-+ Kan du finne knappene for `{` og `}` på ditt tastatur? 
-+ Hva med `:` og `;`? 
++ Kan du finne knappene for `{` og `}` på ditt tastatur?
++ Hva med `:` og `;`?
 
 
-Finner du dem ikke, så få hjelp av noen til å finne dem for deg, fordi disse er viktige. Dersom du ikke har med `{ }`, `:`eller `;` på de riktige stedene, så vil ikke HTML-en din få stil. Derfor er det viktig å allerede nå å vite hvor man finner `{ }`, `:`eller `;` på tastaturet. 
+Finner du dem ikke, så få hjelp av noen til å finne dem for deg, fordi disse er viktige. Dersom du ikke har med `{ }`, `:`eller `;` på de riktige stedene, så vil ikke HTML-en din få stil. Derfor er det viktig å allerede nå å vite hvor man finner `{ }`, `:`eller `;` på tastaturet.
 
 # Steg 2: Legg til farge {.activity}
 
@@ -107,15 +107,15 @@ De fleste nettlesere støtter i tillegg 130 andre fargenavn, hele listen i alfab
    </hide>
 </toggle>
 
-+ Bruk [www.colourpicker.com](http://www.colourpicker.com) til å finne en farge du liker. Colourpicker genererer det nummer du trenger, så kan du enkelt klippe og lime det inn i koden din.
++ Bruk [www.colorpicker.com](http://www.colorpicker.com) til å finne en farge du liker. Colorpicker genererer det nummer du trenger, så kan du enkelt klippe og lime det inn i koden din.
 
-+ Finn en farge du liker med `Colourpicker` og endre teksten på siden til den fargen du fant.
++ Finn en farge du liker med `Colorpicker` og endre teksten på siden til den fargen du fant.
 
 ## __LAGRE__ filen og __VISE__ den i nettleseren din {.save}
 
 # Steg 3: Gi farge til spesifikke elementer {.activity}
 
-Hva om vi vil gjøre sånn at ordet `oransje` i setningen `Pelsen hans er oransje` får oransje farge? Ikke hele setningen, men akkurat det ordet. Da bruker vi en tag som heter `<span>`. Vi legger taggen rundt ordet vi vil sette farge på slik: 
+Hva om vi vil gjøre sånn at ordet `oransje` i setningen `Pelsen hans er oransje` får oransje farge? Ikke hele setningen, men akkurat det ordet. Da bruker vi en tag som heter `<span>`. Vi legger taggen rundt ordet vi vil sette farge på slik:
 
 ```html
 <span>oransje</span>
