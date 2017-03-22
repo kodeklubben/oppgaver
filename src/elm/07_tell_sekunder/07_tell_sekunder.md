@@ -3,6 +3,7 @@ title: "Tell sekunder"
 level: 3
 language: nb-NO
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}

@@ -1,7 +1,7 @@
 ---
 title: "CSS: Animasjon"
 level: 2
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

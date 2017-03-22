@@ -1,6 +1,7 @@
 ---
 title: Forberedelser for veiledere
 author: Pål G. Solheim
+language: nb
 ---
 
 # Introduksjon {.intro}

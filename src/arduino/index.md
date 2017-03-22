@@ -3,6 +3,7 @@ title: Arduino
 tags:
   operativsystem: [arduino]
   tema: [elektronikk]
+language: nb
 ---
 
 Arduino er en platform som består av en rekke forskjellige

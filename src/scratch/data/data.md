@@ -1,6 +1,7 @@
 ---
 title: Bruk data i Scratch
 author: Geir Arne Hjelle og Lance Olav Eastgate
+language: nb
 ---
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.0.0/jszip.min.js"></script>

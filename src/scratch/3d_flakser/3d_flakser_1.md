@@ -2,6 +2,7 @@
 title: 3D-Flakser, Del 1
 level: 4
 author: Gudbrand Tandberg og Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

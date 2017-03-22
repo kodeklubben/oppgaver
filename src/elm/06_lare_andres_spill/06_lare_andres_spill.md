@@ -3,6 +3,7 @@ title: "Lær av et annet spill!"
 level: 3
 language: nb-NO
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}

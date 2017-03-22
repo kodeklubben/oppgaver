@@ -3,6 +3,7 @@ title: Unity
 tags:
   operativsystem: [windows, mac, linux]
   tema: [animasjon, spill]
+language: nb
 ---
 
 Disse oppgavene baserer seg på tutorials fra Unity sine sider:

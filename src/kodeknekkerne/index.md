@@ -1,6 +1,7 @@
 ﻿---
 title: Kodeknekkerne
 external: https://kodeknekkerne.kodegenet.no/
+language: nb
 ---
 
 NRK Skole har utviklet denne serien som er en kombinasjon av gameshow og

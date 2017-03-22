@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Lag ditt eget spill
+language: nb
 ---
 
 # Informasjon til veiledere

@@ -1,6 +1,7 @@
 ---
 title: Lærerveiledning - Flagg
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Informasjon til veiledere {.intro}

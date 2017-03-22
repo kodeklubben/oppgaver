@@ -2,6 +2,7 @@
 title: "Video: Introduksjon til JavaScript"
 level: 2
 author: Joachim Haagen Skeie
+language: nb
 ---
 
 # Skjermopptak fra Kodegenet {.intro}

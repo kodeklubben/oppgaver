@@ -4,6 +4,7 @@ level: 1
 author: Basert på MITs ["Getting Started"-guide](http://appinventor.mit.edu/explore/get-started.html)
 translator: Tjerand Silde
 license: "[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)"
+language: nb
 ---
 
 # Introduksjon {.intro}

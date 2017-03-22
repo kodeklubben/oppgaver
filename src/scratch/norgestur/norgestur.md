@@ -2,6 +2,7 @@
 title: Norgestur
 level: 3
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

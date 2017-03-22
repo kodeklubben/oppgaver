@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Enarmet banditt
+language: nb
 ---
 
 # Informasjon til veiledere

@@ -2,6 +2,7 @@
 title: Bokstaver
 level: 1
 author: Tjerand Silde
+language: nb
 ---
 
 # Introduksjon

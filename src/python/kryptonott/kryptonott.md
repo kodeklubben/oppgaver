@@ -2,6 +2,7 @@
 title: Kryptonøtt
 level: 4
 author: Arve Seljebu
+language: nb
 ---
 
 # Introduksjon {.intro}

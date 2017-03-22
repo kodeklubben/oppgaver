@@ -3,6 +3,7 @@ title: "Input fra brukeren"
 level: 3
 language: nb-NO
 author: Alexander Perry
+language: nb
 ---
 
 # Introduksjon {.intro}

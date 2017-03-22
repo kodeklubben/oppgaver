@@ -3,6 +3,7 @@ title: "Prøv Elm i nettleseren"
 level: 1
 language: nb-NO
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}

@@ -3,6 +3,7 @@ title: App Inventor
 tags:
   operativsystem: [android]
   tema: [app]
+language: nb
 ---
 
 Her kan du lære hvordan MIT App Inventor virker. App Inventor er et

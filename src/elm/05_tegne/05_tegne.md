@@ -3,6 +3,7 @@ title: "Tegning med SVG"
 level: 3
 language: nb-NO
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}

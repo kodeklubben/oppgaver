@@ -2,6 +2,7 @@
 title: Ta ballen
 level: 2
 author: Tjerand Silde
+language: nb
 ---
 
 # Introduksjon {.intro}

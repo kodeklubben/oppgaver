@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Buzzer
+language: nb
 ---
 
 

@@ -2,6 +2,7 @@
 title: Kommandolinje
 tags:
   operativsystem: [windows, mac, linux]
+language: nb
 ---
 
 En datamaskin kan gjøre mye spennende som ikke er mulig å gjøre i et grafisk brukergrensesnitt,

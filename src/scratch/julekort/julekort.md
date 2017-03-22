@@ -2,6 +2,7 @@
 title: Julekort
 level: 1
 author: Espen Clausen
+language: nb
 ---
 
 # Introduksjon {.intro}

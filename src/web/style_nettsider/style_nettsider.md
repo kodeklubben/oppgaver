@@ -1,6 +1,7 @@
 ---
 title: "CSS: Style nettsider"
 level: 2
+language: nb
 ---
 
 # Introduksjon {.intro}

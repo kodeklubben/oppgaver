@@ -2,6 +2,7 @@
 title: "Video: Introduksjon til Scratch"
 level: 1
 author: Joachim Haagen Skeie
+language: nb
 ---
 
 # Skjermopptak fra Kodegenet {.intro}

@@ -2,6 +2,7 @@
 title: If-setninger
 level: 2
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
+language: nb
 ---
 
 # Introduksjon {.intro}

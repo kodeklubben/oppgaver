@@ -2,6 +2,7 @@
 title: Installering av ComputerCraft
 author: Geir Arne Hjelle
 indexed: False
+language: nb
 ---
 
 # Introduksjon {.intro}

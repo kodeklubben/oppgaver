@@ -2,6 +2,7 @@
 title: Gangemesteren
 level: 2
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

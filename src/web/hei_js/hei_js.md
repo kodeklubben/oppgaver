@@ -2,6 +2,7 @@
 title: "JS: Hei JavaScript!"
 level: 1
 author: Arve Seljebu
+language: nb
 ---
 
 # Introduksjon {.intro}

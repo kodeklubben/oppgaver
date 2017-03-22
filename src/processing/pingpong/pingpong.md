@@ -2,6 +2,7 @@
 title: Ping pong
 level: 2
 author: Torbjørn Vik Lunde
+language: nb
 ---
 
 # Introdusjon: {.intro}

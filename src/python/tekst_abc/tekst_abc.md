@@ -2,6 +2,7 @@
 title: Tekst ABC
 level: 3
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
+language: nb
 ---
 
 # Introduksjon {.intro}

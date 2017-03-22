@@ -2,6 +2,7 @@
 title: Introduksjon til ComputerCraft
 level: 1
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

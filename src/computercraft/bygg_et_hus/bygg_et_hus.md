@@ -2,6 +2,7 @@
 title: Bygg et Hus
 level: 2
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

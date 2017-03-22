@@ -3,6 +3,7 @@ title: Web
 tags:
   operativsystem: [windows, mac, linux]
   tema: [nettside]
+language: nb
 ---
 
 Akkurat nå leser du denne nettsiden med din nettleser. Teksten er sendt over internett fra en datamaskin til din datamaskin. Men hvordan er alt dette mulig?

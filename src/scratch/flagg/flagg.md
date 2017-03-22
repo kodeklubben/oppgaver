@@ -2,6 +2,7 @@
 title: Flagg
 level: 3
 author: Sverre Oskar Konestabo og Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

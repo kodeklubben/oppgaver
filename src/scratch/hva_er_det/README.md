@@ -1,5 +1,6 @@
 ---
 title: Hva er det?
+language: nb
 ---
 
 # Informasjon til veiledere

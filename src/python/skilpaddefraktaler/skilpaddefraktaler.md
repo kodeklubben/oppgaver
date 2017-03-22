@@ -1,6 +1,7 @@
 ---
 title: Skilpaddefraktaler
 level: 3
+language: nb
 ---
 
 # Introduksjon {.intro}

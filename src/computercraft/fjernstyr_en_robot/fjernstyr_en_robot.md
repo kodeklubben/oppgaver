@@ -2,6 +2,7 @@
 title: Fjernstyr en robot
 level: 3
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}

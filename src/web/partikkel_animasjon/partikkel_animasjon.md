@@ -1,6 +1,7 @@
 ---
 title: "JS: Partikkel-animasjon"
 level: 2
+language: nb
 ---
 
 # Introduction {.intro}

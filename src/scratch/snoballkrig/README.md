@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Snøballkrig
+language: nb
 ---
 
 # Informasjon til veiledere

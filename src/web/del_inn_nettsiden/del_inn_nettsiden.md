@@ -1,7 +1,7 @@
 ---
 title: "HTML: Del inn nettsiden"
 level: 3
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

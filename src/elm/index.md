@@ -3,6 +3,7 @@ title: Elm
 tags:
   operativsystem: [windows, mac, linux]
   tema: [web, programmering, spill, funksjonell-programmering, typer]
+language: nb
 ---
 
 [Elm](http://elm-lang.org/) er et programmeringsspråk for nettleseren. Elm skal

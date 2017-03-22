@@ -2,6 +2,7 @@
 title: Gjettelek
 level: 3
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
+language: nb
 ---
 
 # Gjett et tall!  {.intro}

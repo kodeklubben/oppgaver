@@ -2,6 +2,7 @@
 title: Hvor i All Verden? Del 2
 level: 3
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

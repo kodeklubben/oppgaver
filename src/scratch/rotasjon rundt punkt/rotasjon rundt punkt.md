@@ -2,6 +2,7 @@
 title: Rotasjon rundt et punkt
 level: 1
 author: Carl A. Myrland
+language: nb
 ---
 
 

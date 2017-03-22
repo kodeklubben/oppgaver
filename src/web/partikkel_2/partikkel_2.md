@@ -1,6 +1,7 @@
 ---
 title: "JS: Partikkel-fest"
 level: 3
+language: nb
 ---
 
 # Introduksjon {.intro}

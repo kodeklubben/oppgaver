@@ -1,6 +1,7 @@
 ---
 title: Kursveiledning
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Avansert Scratch - Klassikere {.intro}
