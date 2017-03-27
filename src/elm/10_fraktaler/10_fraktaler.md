@@ -644,6 +644,77 @@ sifreAvLengde n start =
         in List.concatMap fortsett starter
 ```
 
-# Steg 9: Så mange nivåer vi vil! {.activity}
+- Hvor lange tall kan du skrive ut før PC-en din begynner å gå tregt?
+
+- Hvor mange desimaltall finner du da?
+
+Hint: 0.0-0.9 blir 10 tall. 0.00 til 0.99 blir ...? Hva med 0.00000 til 0.99999?
+
+## Har du hørt om `++`? {.protip}
+
+`++` kan slå sammen tekst:
+
+```elm
+> "Hei " ++ "på deg"
+"Hei på deg" : String
+```
+
+`++` kan også slå sammen lister:
+
+```elm
+> [1,2,3] ++ [4,5,6]
+[1,2,3,4,5,6] : List number
+```
+
+# Steg 9: Så mange nivåer vi vil! {.activity} #
 
 Nå skal vi bruke teknikken fra Steg 8 til å komme til bunns i fraktalen vår.
+
+## Sjekkliste {.check}
+
+- Lag `generateCenterSquares`. Denne skal kunne fungere slik:
+
+```text
+---- elm-repl 0.18.0 -----------------------------------------------------------
+ :help for help, :exit to exit, more at <https://github.com/elm-lang/elm-repl>
+--------------------------------------------------------------------------------
+> import Main exposing (..)
+> start
+{ color = "green", width = 729, corner = { x = 0, y = 0 } } : Main.Square
+> generateCenterSquares 0 start
+[] : List Main.Square
+> generateCenterSquares 1 start
+[{ color = "blue", width = 243, corner = { x = 243, y = 243 } }]
+    : List Main.Square
+> generateCenterSquares 2 start
+[ { color = "blue", width = 243, corner = { x = 243, y = 243 } },
+  { color = "blue", width = 81, corner = { x = 81, y = 81 } },
+  { color = "blue", width = 81, corner = { x = 324, y = 81 } },
+  { color = "blue", width = 81, corner = { x = 567, y = 81 } },
+  { color = "blue", width = 81, corner = { x = 81, y = 324 } },
+  { color = "blue", width = 81, corner = { x = 567, y = 324 } },
+  { color = "blue", width = 81, corner = { x = 81, y = 567 } },
+  { color = "blue", width = 81, corner = { x = 324, y = 567 } },
+  { color = "blue", width = 81, corner = { x = 567, y = 567 } }
+]
+    : List Main.Square
+```
+
+Gikk det greit? Her er slik jeg gjorde det, og hvordan jeg bruker
+`generateCenterSquares` i `main`:
+
+```elm
+generateCenterSquares : number -> Square -> List Square
+generateCenterSquares level source =
+    if level == 0 then []
+    else let children = List.concatMap (generateCenterSquares (level - 1)) (borderSquares source)
+         in [centerSquare source] ++ children
+
+
+main =
+    svg
+      [ width "100%", viewBox "0 0 729 729" ]
+      ( [viewSquare start] ++
+            List.map viewSquare (generateCenterSquares 3 start)
+      )
+```
