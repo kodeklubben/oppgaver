@@ -1,6 +1,6 @@
 ---
 title: Fraktaler og datastrukturer
-level: 3
+level: 4
 language: nb-NO
 author: Teodor Heggelund
 ---
@@ -363,31 +363,242 @@ Nå skal vi finne kvadratene langs kanten. Hvor mange blir det? Tell de røde:
     : List Utils.Square
 ```
 
-# Steg XX: Tegn fraktalen {.activity}
+# Stopp! Hva var det vi skulle igjen? {.activity}
 
-**OBS!** Teodor ble ikke ferdig med oppgaven! Her er hva vi vil ende opp med:
-
-
-**Nivå 1**:
+**Nivå 1** har vi klart:
 
 <svg width="100%" viewBox="0 0 729 729"><rect x="0" y="0" width="729" height="729" fill="green"></rect><rect x="243" y="243" width="243" height="243" fill="blue"></rect></svg>
 
-
-**Nivå 2**:
+**Nivå 2** har vi også klart når vi har gjort Steg 7:
 
 <svg width="100%" viewBox="0 0 729 729"><rect x="0" y="0" width="729" height="729" fill="green"></rect><rect x="243" y="243" width="243" height="243" fill="blue"></rect><rect x="81" y="81" width="81" height="81" fill="blue"></rect><rect x="324" y="81" width="81" height="81" fill="blue"></rect><rect x="567" y="81" width="81" height="81" fill="blue"></rect><rect x="81" y="324" width="81" height="81" fill="blue"></rect><rect x="567" y="324" width="81" height="81" fill="blue"></rect><rect x="81" y="567" width="81" height="81" fill="blue"></rect><rect x="324" y="567" width="81" height="81" fill="blue"></rect><rect x="567" y="567" width="81" height="81" fill="blue"></rect></svg>
 
+Men videre blir det vanskeligere. Hvordan skal vi få til steg 3 og steg 4 på en elegant måte?
 
 **Nivå 3**:
 
-<img src="level3.svg">
-
+<p>
+  <img src="level3.svg">
+</p>
 
 **Nivå 4**:
 
-<img src="level4.svg">
+<p>
+  <img src="level4.svg">
+</p>
+
+Først lager vi én firkant. Så vil vi lage de åtte små firkanene som følger denne
+ene. Så vil vi for hver av de åtte nye gjøre det samme! Da får vi 8*8=64 nye små
+firkanter. Så vil vi _igjen_ for hver av de 64 nye firkantene tegne åtte nye
+firkanter.
+
+I nivå 1 lager vi **1** ny firkant.
+
+I nivå 2 lager vi **8** nye firkanter.
+
+I nivå 3 lager vi **8 * 8 = 64** nye firkanter.
+
+Bruk `elm repl` til å regne ut disse:
+
+- Hvor mange nye firkanter lager vi i nivå **4**?
+- Hvor mange nye firkanter lager vi i nivå **5**?
+- Hvor mange nye firkanter lager vi i nivå **6**?
+
+Klarer du å se et mønster?
+
+- Hvor mange nye firkanter lager vi i nivå **x**?
+
+# Steg 8: `concat` og `map` {.activity}
+
+Vi skal trene litt før vi går videre.
+
+## Sjekkliste {.check}
+
+- Lag filen Tall.elm. Legg inn dette i toppen:
+
+  ```elm
+  module Tall exposing (..)
+  
+  hei = "Hei!"
+  ```
+  
+- Start `elm repl` fra kommandovindu i samme mappe
+
+- Importer alle funksjonene fra `Tall.elm` fra `elm repl`:
+
+  ```text
+  ---- elm-repl 0.18.0 -----------------------------------------------------------
+  :help for help, :exit to exit, more at <https://github.com/elm-lang/elm-repl>
+  --------------------------------------------------------------------------------
+  > import Tall exposing (..)
+  > hei
+  "Hei!" : String
+  ```
+
+**Får du til? Bra!**
+
+Nå skal vi prøve oss på et problem fra matematikken:
+
+_Er det mulig å liste opp alle desimaltall mellom 0 og 1?_
+
+... gitt at vi har uendelig god tid. Hmm! La oss prøve, men begrense oss på
+antall desimaler i starten.
+
+Dette kunne vært første steg:
+
+```text
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+```
+
+## Sjekkliste {.check}
+
+- Lag `sifre` for å spare på 0-9:
+
+  ```elm
+  > sifre
+  ["0","1","2","3","4","5","6","7","8","9"] : List String
+  ```
+
+Prøv selv først!
+
+Her er hva jeg gjorde:
+
+```elm
+sifre =
+    let nullTilNi = List.range 0 9
+    in List.map toString nullTilNi
+```
+
+- Lag `ettSifferBak` som tar inn starten på tallet og legger på sifrene 0-9
+  på slutten:
+  
+  ```elm
+  > ettSifferBak
+  <function> : String -> List String
+  > ettSifferBak "0."
+  ["0.0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"] : List String
+  > ettSifferBak "tull"
+  ["tull0","tull1","tull2","tull3","tull4","tull5","tull6","tull7","tull8","tull9"]
+      : List String
+  ```
+
+Slik gjorde jeg det:
+
+```elm
+ettSifferBak start =
+    let begynnMedStart slutt = start ++ slutt
+    in List.map begynnMedStart sifre
+```
+
+Nå kommer trikset for å gå dypere: For hver mulige begynnelse må vi lage alle
+løsninger, og slå sammen disse.
+
+- Lag `sifreAvLengde` som tar inn hvor mange sifre som skal legges på og
+  begynnelsen, og gir tilbake alle mulighetene.
+
+```elm
+> sifreAvLengde 0 ""
+[""] : List String
+> sifreAvLengde 0 "0."
+["0."] : List String
+> sifreAvLengde 1 "0."
+["0.0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"] : List String
+> sifreAvLengde 1 "1."
+["1.0","1.1","1.2","1.3","1.4","1.5","1.6","1.7","1.8","1.9"] : List String
+> sifreAvLengde 2 "0."
+["0.00","0.01","0.02","0.03","0.04","0.05","0.06","0.07","0.08","0.09","0.10","0.11","0.12","0.13","0.14","0.15","0.16","0.17","0.18","0.19","0.20","0.21","0.22","0.23","0.24","0.25","0.26","0.27","0.28","0.29","0.30","0.31","0.32","0.33","0.34","0.35","0.36","0.37","0.38","0.39","0.40","0.41","0.42","0.43","0.44","0.45","0.46","0.47","0.48","0.49","0.50","0.51","0.52","0.53","0.54","0.55","0.56","0.57","0.58","0.59","0.60","0.61","0.62","0.63","0.64","0.65","0.66","0.67","0.68","0.69","0.70","0.71","0.72","0.73","0.74","0.75","0.76","0.77","0.78","0.79","0.80","0.81","0.82","0.83","0.84","0.85","0.86","0.87","0.88","0.89","0.90","0.91","0.92","0.93","0.94","0.95","0.96","0.97","0.98","0.99"]
+    : List String
+```
+
+Slik gjorde jeg det:
+
+```elm
+sifreAvLengde n start =
+    if n == 0
+    -- Hvis vi ikke vil ha flere tall, gir vi tilbake kun hva vi har.
+    then [start]
+    else
+        let
+            -- Liste over alle de nye startene for neste nivå
+            starter = ettSifferBak start
+
+            -- Funksjon som tar inn en start og lager alle sluttene.
+            -- Hvorfor bruker vi n-1? Hva skjer om vi bruker n i stedet?
+            fortsett nyStart = sifreAvLengde (n-1) nyStart
+
+            -- Lager listene med fortsettelser for 0, 1, 2, ..., i hver sin liste
+            fortsettelser = List.map fortsett starter
+
+        -- Slår sammen fortsettelsene i én liste
+        in List.concat fortsettelser
+```
+
+- Bruk `sifreAvLengde` til å lage `desimaler`:
+
+```elm
+> desimaler 0
+["0."] : List String
+> desimaler 1
+["0.0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"] : List String
+> desimaler 2
+["0.00","0.01","0.02","0.03","0.04","0.05","0.06","0.07","0.08","0.09","0.10","0.11","0.12","0.13","0.14","0.15","0.16","0.17","0.18","0.19","0.20","0.21","0.22","0.23","0.24","0.25","0.26","0.27","0.28","0.29","0.30","0.31","0.32","0.33","0.34","0.35","0.36","0.37","0.38","0.39","0.40","0.41","0.42","0.43","0.44","0.45","0.46","0.47","0.48","0.49","0.50","0.51","0.52","0.53","0.54","0.55","0.56","0.57","0.58","0.59","0.60","0.61","0.62","0.63","0.64","0.65","0.66","0.67","0.68","0.69","0.70","0.71","0.72","0.73","0.74","0.75","0.76","0.77","0.78","0.79","0.80","0.81","0.82","0.83","0.84","0.85","0.86","0.87","0.88","0.89","0.90","0.91","0.92","0.93","0.94","0.95","0.96","0.97","0.98","0.99"]
+    : List String
+```
+
+I `sifreAvLengde` lagde vi først alle resultatene i hver sin liste med
+`List.map`, før vi slo listene sammen med `List.concat`. Her har vi skrevet om
+koden litt:
+
+```elm
+sifreAvLengde n start =
+    if n == 0
+    -- Hvis vi ikke vil ha flere tall, gir vi tilbake kun hva vi har.
+    then [start]
+    else
+        let
+            -- Liste over alle de nye startene for neste nivå
+            starter = ettSifferBak start
+
+            -- Funksjon som tar inn en start og lager alle sluttene.
+            -- Hvorfor bruker vi n-1? Hva skjer om vi bruker n i stedet?
+            fortsett nyStart = sifreAvLengde (n-1) nyStart
+
+        -- Slår sammen fortsettelsene i én liste
+        in List.concat (List.map fortsett starter)
+```
+
+`List.concat (List.map funksjon liste)` er noe vi ser ofte. Derfor finnes
+funksjonen `concatMap` som kjører `List.concat` på resultatet av en `List.map`.
+Da kan vi korte ned litt til:
 
 
-... nå tar det så lang tid på min PC at jeg ikke gidder lenger inn!
+```elm
+sifreAvLengde n start =
+    if n == 0
+    -- Hvis vi ikke vil ha flere tall, gir vi tilbake kun hva vi har.
+    then [start]
+    else
+        let
+            -- Liste over alle de nye startene for neste nivå
+            starter = ettSifferBak start
 
-Prøv videre selv, så kommer jeg tilbake til neste uke.
+            -- Funksjon som tar inn en start og lager alle sluttene.
+            -- Hvorfor bruker vi n-1? Hva skjer om vi bruker n i stedet?
+            fortsett nyStart = sifreAvLengde (n-1) nyStart
+
+        -- Slår sammen fortsettelsene i én liste
+        in List.concatMap fortsett starter
+```
+
+# Steg 9: Så mange nivåer vi vil! {.activity}
+
+Nå skal vi bruke teknikken fra Steg 8 til å komme til bunns i fraktalen vår.
