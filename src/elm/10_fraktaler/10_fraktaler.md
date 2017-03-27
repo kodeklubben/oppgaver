@@ -1,6 +1,6 @@
 ---
 title: Fraktaler og datastrukturer
-level: 3
+level: 4
 language: nb-NO
 author: Teodor Heggelund
 ---
@@ -281,6 +281,27 @@ Du skal kunne bruke den slik:
 
 <svg width="500" height="500" viewBox="0 0 27 27"><rect x="0" y="0" width="27" height="27" fill="blue"></rect><rect x="9" y="9" width="9" height="9" fill="green"></rect></svg>
 
+Får du til? Prøv selv først.
+
+Slik ser min ut:
+
+```elm
+mkSquare color width corner =
+    { color = color
+    , width = width
+    , corner = corner
+    }
+
+blueSquare = mkSquare "blue"
+
+centerSquare : Square -> Square
+centerSquare old =
+    let x = old.corner.x + old.width/3
+        y = old.corner.y + old.width/3
+        w = old.width / 3
+    in blueSquare w (mkPoint x y)
+```
+
 # Steg 6: Funksjoner fra `List` og `String` {.activity}
 
 `List.map` kjører en funksjon på hvert element i en liste. Eksempel:
@@ -363,22 +384,337 @@ Nå skal vi finne kvadratene langs kanten. Hvor mange blir det? Tell de røde:
     : List Utils.Square
 ```
 
-# Steg XX: Tegn fraktalen {.activity}
+Får du til? Prøv selv først.
 
-**OBS!** Teodor ble ikke ferdig med oppgaven! Her er hva vi vil ende opp med:
+Slik ser min ut:
 
-**Nivå 1**:
+```elm
+borderSquares : Square -> List Square
+borderSquares old =
+    let additions = [ (0,0) -- First row
+                    , (1,0)
+                    , (2,0)
+                    , (0,1) -- Second row
+                    , (2,1)
+                    , (0,2) -- Third row
+                    , (1,2)
+                    , (2,2)
+                    ]
+        w = old.width / 3
+        mkBorderSquare (fx,fy) =
+            let x = old.corner.x + w*fx
+                y = old.corner.y + w*fy
+            in blueSquare w (mkPoint x y)
+    in List.map mkBorderSquare additions
+```
+
+# Stopp! Hva var det vi skulle igjen? {.activity}
+
+**Nivå 1** har vi klart:
+
 <svg width="100%" viewBox="0 0 729 729"><rect x="0" y="0" width="729" height="729" fill="green"></rect><rect x="243" y="243" width="243" height="243" fill="blue"></rect></svg>
 
-**Nivå 2**:
+**Nivå 2** har vi også klart når vi har gjort Steg 7:
+
 <svg width="100%" viewBox="0 0 729 729"><rect x="0" y="0" width="729" height="729" fill="green"></rect><rect x="243" y="243" width="243" height="243" fill="blue"></rect><rect x="81" y="81" width="81" height="81" fill="blue"></rect><rect x="324" y="81" width="81" height="81" fill="blue"></rect><rect x="567" y="81" width="81" height="81" fill="blue"></rect><rect x="81" y="324" width="81" height="81" fill="blue"></rect><rect x="567" y="324" width="81" height="81" fill="blue"></rect><rect x="81" y="567" width="81" height="81" fill="blue"></rect><rect x="324" y="567" width="81" height="81" fill="blue"></rect><rect x="567" y="567" width="81" height="81" fill="blue"></rect></svg>
 
+Men videre blir det vanskeligere. Hvordan skal vi få til steg 3 og steg 4 på en elegant måte?
+
 **Nivå 3**:
-<svg width="100%" viewBox="0 0 729 729"><rect x="0" y="0" width="729" height="729" fill="green"></rect><rect x="243" y="243" width="243" height="243" fill="blue"></rect><rect x="81" y="81" width="81" height="81" fill="blue"></rect><rect x="27" y="27" width="27" height="27" fill="blue"></rect><rect x="108" y="27" width="27" height="27" fill="blue"></rect><rect x="189" y="27" width="27" height="27" fill="blue"></rect><rect x="27" y="108" width="27" height="27" fill="blue"></rect><rect x="189" y="108" width="27" height="27" fill="blue"></rect><rect x="27" y="189" width="27" height="27" fill="blue"></rect><rect x="108" y="189" width="27" height="27" fill="blue"></rect><rect x="189" y="189" width="27" height="27" fill="blue"></rect><rect x="324" y="81" width="81" height="81" fill="blue"></rect><rect x="270" y="27" width="27" height="27" fill="blue"></rect><rect x="351" y="27" width="27" height="27" fill="blue"></rect><rect x="432" y="27" width="27" height="27" fill="blue"></rect><rect x="270" y="108" width="27" height="27" fill="blue"></rect><rect x="432" y="108" width="27" height="27" fill="blue"></rect><rect x="270" y="189" width="27" height="27" fill="blue"></rect><rect x="351" y="189" width="27" height="27" fill="blue"></rect><rect x="432" y="189" width="27" height="27" fill="blue"></rect><rect x="567" y="81" width="81" height="81" fill="blue"></rect><rect x="513" y="27" width="27" height="27" fill="blue"></rect><rect x="594" y="27" width="27" height="27" fill="blue"></rect><rect x="675" y="27" width="27" height="27" fill="blue"></rect><rect x="513" y="108" width="27" height="27" fill="blue"></rect><rect x="675" y="108" width="27" height="27" fill="blue"></rect><rect x="513" y="189" width="27" height="27" fill="blue"></rect><rect x="594" y="189" width="27" height="27" fill="blue"></rect><rect x="675" y="189" width="27" height="27" fill="blue"></rect><rect x="81" y="324" width="81" height="81" fill="blue"></rect><rect x="27" y="270" width="27" height="27" fill="blue"></rect><rect x="108" y="270" width="27" height="27" fill="blue"></rect><rect x="189" y="270" width="27" height="27" fill="blue"></rect><rect x="27" y="351" width="27" height="27" fill="blue"></rect><rect x="189" y="351" width="27" height="27" fill="blue"></rect><rect x="27" y="432" width="27" height="27" fill="blue"></rect><rect x="108" y="432" width="27" height="27" fill="blue"></rect><rect x="189" y="432" width="27" height="27" fill="blue"></rect><rect x="567" y="324" width="81" height="81" fill="blue"></rect><rect x="513" y="270" width="27" height="27" fill="blue"></rect><rect x="594" y="270" width="27" height="27" fill="blue"></rect><rect x="675" y="270" width="27" height="27" fill="blue"></rect><rect x="513" y="351" width="27" height="27" fill="blue"></rect><rect x="675" y="351" width="27" height="27" fill="blue"></rect><rect x="513" y="432" width="27" height="27" fill="blue"></rect><rect x="594" y="432" width="27" height="27" fill="blue"></rect><rect x="675" y="432" width="27" height="27" fill="blue"></rect><rect x="81" y="567" width="81" height="81" fill="blue"></rect><rect x="27" y="513" width="27" height="27" fill="blue"></rect><rect x="108" y="513" width="27" height="27" fill="blue"></rect><rect x="189" y="513" width="27" height="27" fill="blue"></rect><rect x="27" y="594" width="27" height="27" fill="blue"></rect><rect x="189" y="594" width="27" height="27" fill="blue"></rect><rect x="27" y="675" width="27" height="27" fill="blue"></rect><rect x="108" y="675" width="27" height="27" fill="blue"></rect><rect x="189" y="675" width="27" height="27" fill="blue"></rect><rect x="324" y="567" width="81" height="81" fill="blue"></rect><rect x="270" y="513" width="27" height="27" fill="blue"></rect><rect x="351" y="513" width="27" height="27" fill="blue"></rect><rect x="432" y="513" width="27" height="27" fill="blue"></rect><rect x="270" y="594" width="27" height="27" fill="blue"></rect><rect x="432" y="594" width="27" height="27" fill="blue"></rect><rect x="270" y="675" width="27" height="27" fill="blue"></rect><rect x="351" y="675" width="27" height="27" fill="blue"></rect><rect x="432" y="675" width="27" height="27" fill="blue"></rect><rect x="567" y="567" width="81" height="81" fill="blue"></rect><rect x="513" y="513" width="27" height="27" fill="blue"></rect><rect x="594" y="513" width="27" height="27" fill="blue"></rect><rect x="675" y="513" width="27" height="27" fill="blue"></rect><rect x="513" y="594" width="27" height="27" fill="blue"></rect><rect x="675" y="594" width="27" height="27" fill="blue"></rect><rect x="513" y="675" width="27" height="27" fill="blue"></rect><rect x="594" y="675" width="27" height="27" fill="blue"></rect><rect x="675" y="675" width="27" height="27" fill="blue"></rect></svg>
+
+<p>
+  <img src="level3.svg">
+</p>
 
 **Nivå 4**:
-<svg width="100%" viewBox="0 0 729 729"><rect x="0" y="0" width="729" height="729" fill="green"></rect><rect x="243" y="243" width="243" height="243" fill="blue"></rect><rect x="81" y="81" width="81" height="81" fill="blue"></rect><rect x="27" y="27" width="27" height="27" fill="blue"></rect><rect x="9" y="9" width="9" height="9" fill="blue"></rect><rect x="36" y="9" width="9" height="9" fill="blue"></rect><rect x="63" y="9" width="9" height="9" fill="blue"></rect><rect x="9" y="36" width="9" height="9" fill="blue"></rect><rect x="63" y="36" width="9" height="9" fill="blue"></rect><rect x="9" y="63" width="9" height="9" fill="blue"></rect><rect x="36" y="63" width="9" height="9" fill="blue"></rect><rect x="63" y="63" width="9" height="9" fill="blue"></rect><rect x="108" y="27" width="27" height="27" fill="blue"></rect><rect x="90" y="9" width="9" height="9" fill="blue"></rect><rect x="117" y="9" width="9" height="9" fill="blue"></rect><rect x="144" y="9" width="9" height="9" fill="blue"></rect><rect x="90" y="36" width="9" height="9" fill="blue"></rect><rect x="144" y="36" width="9" height="9" fill="blue"></rect><rect x="90" y="63" width="9" height="9" fill="blue"></rect><rect x="117" y="63" width="9" height="9" fill="blue"></rect><rect x="144" y="63" width="9" height="9" fill="blue"></rect><rect x="189" y="27" width="27" height="27" fill="blue"></rect><rect x="171" y="9" width="9" height="9" fill="blue"></rect><rect x="198" y="9" width="9" height="9" fill="blue"></rect><rect x="225" y="9" width="9" height="9" fill="blue"></rect><rect x="171" y="36" width="9" height="9" fill="blue"></rect><rect x="225" y="36" width="9" height="9" fill="blue"></rect><rect x="171" y="63" width="9" height="9" fill="blue"></rect><rect x="198" y="63" width="9" height="9" fill="blue"></rect><rect x="225" y="63" width="9" height="9" fill="blue"></rect><rect x="27" y="108" width="27" height="27" fill="blue"></rect><rect x="9" y="90" width="9" height="9" fill="blue"></rect><rect x="36" y="90" width="9" height="9" fill="blue"></rect><rect x="63" y="90" width="9" height="9" fill="blue"></rect><rect x="9" y="117" width="9" height="9" fill="blue"></rect><rect x="63" y="117" width="9" height="9" fill="blue"></rect><rect x="9" y="144" width="9" height="9" fill="blue"></rect><rect x="36" y="144" width="9" height="9" fill="blue"></rect><rect x="63" y="144" width="9" height="9" fill="blue"></rect><rect x="189" y="108" width="27" height="27" fill="blue"></rect><rect x="171" y="90" width="9" height="9" fill="blue"></rect><rect x="198" y="90" width="9" height="9" fill="blue"></rect><rect x="225" y="90" width="9" height="9" fill="blue"></rect><rect x="171" y="117" width="9" height="9" fill="blue"></rect><rect x="225" y="117" width="9" height="9" fill="blue"></rect><rect x="171" y="144" width="9" height="9" fill="blue"></rect><rect x="198" y="144" width="9" height="9" fill="blue"></rect><rect x="225" y="144" width="9" height="9" fill="blue"></rect><rect x="27" y="189" width="27" height="27" fill="blue"></rect><rect x="9" y="171" width="9" height="9" fill="blue"></rect><rect x="36" y="171" width="9" height="9" fill="blue"></rect><rect x="63" y="171" width="9" height="9" fill="blue"></rect><rect x="9" y="198" width="9" height="9" fill="blue"></rect><rect x="63" y="198" width="9" height="9" fill="blue"></rect><rect x="9" y="225" width="9" height="9" fill="blue"></rect><rect x="36" y="225" width="9" height="9" fill="blue"></rect><rect x="63" y="225" width="9" height="9" fill="blue"></rect><rect x="108" y="189" width="27" height="27" fill="blue"></rect><rect x="90" y="171" width="9" height="9" fill="blue"></rect><rect x="117" y="171" width="9" height="9" fill="blue"></rect><rect x="144" y="171" width="9" height="9" fill="blue"></rect><rect x="90" y="198" width="9" height="9" fill="blue"></rect><rect x="144" y="198" width="9" height="9" fill="blue"></rect><rect x="90" y="225" width="9" height="9" fill="blue"></rect><rect x="117" y="225" width="9" height="9" fill="blue"></rect><rect x="144" y="225" width="9" height="9" fill="blue"></rect><rect x="189" y="189" width="27" height="27" fill="blue"></rect><rect x="171" y="171" width="9" height="9" fill="blue"></rect><rect x="198" y="171" width="9" height="9" fill="blue"></rect><rect x="225" y="171" width="9" height="9" fill="blue"></rect><rect x="171" y="198" width="9" height="9" fill="blue"></rect><rect x="225" y="198" width="9" height="9" fill="blue"></rect><rect x="171" y="225" width="9" height="9" fill="blue"></rect><rect x="198" y="225" width="9" height="9" fill="blue"></rect><rect x="225" y="225" width="9" height="9" fill="blue"></rect><rect x="324" y="81" width="81" height="81" fill="blue"></rect><rect x="270" y="27" width="27" height="27" fill="blue"></rect><rect x="252" y="9" width="9" height="9" fill="blue"></rect><rect x="279" y="9" width="9" height="9" fill="blue"></rect><rect x="306" y="9" width="9" height="9" fill="blue"></rect><rect x="252" y="36" width="9" height="9" fill="blue"></rect><rect x="306" y="36" width="9" height="9" fill="blue"></rect><rect x="252" y="63" width="9" height="9" fill="blue"></rect><rect x="279" y="63" width="9" height="9" fill="blue"></rect><rect x="306" y="63" width="9" height="9" fill="blue"></rect><rect x="351" y="27" width="27" height="27" fill="blue"></rect><rect x="333" y="9" width="9" height="9" fill="blue"></rect><rect x="360" y="9" width="9" height="9" fill="blue"></rect><rect x="387" y="9" width="9" height="9" fill="blue"></rect><rect x="333" y="36" width="9" height="9" fill="blue"></rect><rect x="387" y="36" width="9" height="9" fill="blue"></rect><rect x="333" y="63" width="9" height="9" fill="blue"></rect><rect x="360" y="63" width="9" height="9" fill="blue"></rect><rect x="387" y="63" width="9" height="9" fill="blue"></rect><rect x="432" y="27" width="27" height="27" fill="blue"></rect><rect x="414" y="9" width="9" height="9" fill="blue"></rect><rect x="441" y="9" width="9" height="9" fill="blue"></rect><rect x="468" y="9" width="9" height="9" fill="blue"></rect><rect x="414" y="36" width="9" height="9" fill="blue"></rect><rect x="468" y="36" width="9" height="9" fill="blue"></rect><rect x="414" y="63" width="9" height="9" fill="blue"></rect><rect x="441" y="63" width="9" height="9" fill="blue"></rect><rect x="468" y="63" width="9" height="9" fill="blue"></rect><rect x="270" y="108" width="27" height="27" fill="blue"></rect><rect x="252" y="90" width="9" height="9" fill="blue"></rect><rect x="279" y="90" width="9" height="9" fill="blue"></rect><rect x="306" y="90" width="9" height="9" fill="blue"></rect><rect x="252" y="117" width="9" height="9" fill="blue"></rect><rect x="306" y="117" width="9" height="9" fill="blue"></rect><rect x="252" y="144" width="9" height="9" fill="blue"></rect><rect x="279" y="144" width="9" height="9" fill="blue"></rect><rect x="306" y="144" width="9" height="9" fill="blue"></rect><rect x="432" y="108" width="27" height="27" fill="blue"></rect><rect x="414" y="90" width="9" height="9" fill="blue"></rect><rect x="441" y="90" width="9" height="9" fill="blue"></rect><rect x="468" y="90" width="9" height="9" fill="blue"></rect><rect x="414" y="117" width="9" height="9" fill="blue"></rect><rect x="468" y="117" width="9" height="9" fill="blue"></rect><rect x="414" y="144" width="9" height="9" fill="blue"></rect><rect x="441" y="144" width="9" height="9" fill="blue"></rect><rect x="468" y="144" width="9" height="9" fill="blue"></rect><rect x="270" y="189" width="27" height="27" fill="blue"></rect><rect x="252" y="171" width="9" height="9" fill="blue"></rect><rect x="279" y="171" width="9" height="9" fill="blue"></rect><rect x="306" y="171" width="9" height="9" fill="blue"></rect><rect x="252" y="198" width="9" height="9" fill="blue"></rect><rect x="306" y="198" width="9" height="9" fill="blue"></rect><rect x="252" y="225" width="9" height="9" fill="blue"></rect><rect x="279" y="225" width="9" height="9" fill="blue"></rect><rect x="306" y="225" width="9" height="9" fill="blue"></rect><rect x="351" y="189" width="27" height="27" fill="blue"></rect><rect x="333" y="171" width="9" height="9" fill="blue"></rect><rect x="360" y="171" width="9" height="9" fill="blue"></rect><rect x="387" y="171" width="9" height="9" fill="blue"></rect><rect x="333" y="198" width="9" height="9" fill="blue"></rect><rect x="387" y="198" width="9" height="9" fill="blue"></rect><rect x="333" y="225" width="9" height="9" fill="blue"></rect><rect x="360" y="225" width="9" height="9" fill="blue"></rect><rect x="387" y="225" width="9" height="9" fill="blue"></rect><rect x="432" y="189" width="27" height="27" fill="blue"></rect><rect x="414" y="171" width="9" height="9" fill="blue"></rect><rect x="441" y="171" width="9" height="9" fill="blue"></rect><rect x="468" y="171" width="9" height="9" fill="blue"></rect><rect x="414" y="198" width="9" height="9" fill="blue"></rect><rect x="468" y="198" width="9" height="9" fill="blue"></rect><rect x="414" y="225" width="9" height="9" fill="blue"></rect><rect x="441" y="225" width="9" height="9" fill="blue"></rect><rect x="468" y="225" width="9" height="9" fill="blue"></rect><rect x="567" y="81" width="81" height="81" fill="blue"></rect><rect x="513" y="27" width="27" height="27" fill="blue"></rect><rect x="495" y="9" width="9" height="9" fill="blue"></rect><rect x="522" y="9" width="9" height="9" fill="blue"></rect><rect x="549" y="9" width="9" height="9" fill="blue"></rect><rect x="495" y="36" width="9" height="9" fill="blue"></rect><rect x="549" y="36" width="9" height="9" fill="blue"></rect><rect x="495" y="63" width="9" height="9" fill="blue"></rect><rect x="522" y="63" width="9" height="9" fill="blue"></rect><rect x="549" y="63" width="9" height="9" fill="blue"></rect><rect x="594" y="27" width="27" height="27" fill="blue"></rect><rect x="576" y="9" width="9" height="9" fill="blue"></rect><rect x="603" y="9" width="9" height="9" fill="blue"></rect><rect x="630" y="9" width="9" height="9" fill="blue"></rect><rect x="576" y="36" width="9" height="9" fill="blue"></rect><rect x="630" y="36" width="9" height="9" fill="blue"></rect><rect x="576" y="63" width="9" height="9" fill="blue"></rect><rect x="603" y="63" width="9" height="9" fill="blue"></rect><rect x="630" y="63" width="9" height="9" fill="blue"></rect><rect x="675" y="27" width="27" height="27" fill="blue"></rect><rect x="657" y="9" width="9" height="9" fill="blue"></rect><rect x="684" y="9" width="9" height="9" fill="blue"></rect><rect x="711" y="9" width="9" height="9" fill="blue"></rect><rect x="657" y="36" width="9" height="9" fill="blue"></rect><rect x="711" y="36" width="9" height="9" fill="blue"></rect><rect x="657" y="63" width="9" height="9" fill="blue"></rect><rect x="684" y="63" width="9" height="9" fill="blue"></rect><rect x="711" y="63" width="9" height="9" fill="blue"></rect><rect x="513" y="108" width="27" height="27" fill="blue"></rect><rect x="495" y="90" width="9" height="9" fill="blue"></rect><rect x="522" y="90" width="9" height="9" fill="blue"></rect><rect x="549" y="90" width="9" height="9" fill="blue"></rect><rect x="495" y="117" width="9" height="9" fill="blue"></rect><rect x="549" y="117" width="9" height="9" fill="blue"></rect><rect x="495" y="144" width="9" height="9" fill="blue"></rect><rect x="522" y="144" width="9" height="9" fill="blue"></rect><rect x="549" y="144" width="9" height="9" fill="blue"></rect><rect x="675" y="108" width="27" height="27" fill="blue"></rect><rect x="657" y="90" width="9" height="9" fill="blue"></rect><rect x="684" y="90" width="9" height="9" fill="blue"></rect><rect x="711" y="90" width="9" height="9" fill="blue"></rect><rect x="657" y="117" width="9" height="9" fill="blue"></rect><rect x="711" y="117" width="9" height="9" fill="blue"></rect><rect x="657" y="144" width="9" height="9" fill="blue"></rect><rect x="684" y="144" width="9" height="9" fill="blue"></rect><rect x="711" y="144" width="9" height="9" fill="blue"></rect><rect x="513" y="189" width="27" height="27" fill="blue"></rect><rect x="495" y="171" width="9" height="9" fill="blue"></rect><rect x="522" y="171" width="9" height="9" fill="blue"></rect><rect x="549" y="171" width="9" height="9" fill="blue"></rect><rect x="495" y="198" width="9" height="9" fill="blue"></rect><rect x="549" y="198" width="9" height="9" fill="blue"></rect><rect x="495" y="225" width="9" height="9" fill="blue"></rect><rect x="522" y="225" width="9" height="9" fill="blue"></rect><rect x="549" y="225" width="9" height="9" fill="blue"></rect><rect x="594" y="189" width="27" height="27" fill="blue"></rect><rect x="576" y="171" width="9" height="9" fill="blue"></rect><rect x="603" y="171" width="9" height="9" fill="blue"></rect><rect x="630" y="171" width="9" height="9" fill="blue"></rect><rect x="576" y="198" width="9" height="9" fill="blue"></rect><rect x="630" y="198" width="9" height="9" fill="blue"></rect><rect x="576" y="225" width="9" height="9" fill="blue"></rect><rect x="603" y="225" width="9" height="9" fill="blue"></rect><rect x="630" y="225" width="9" height="9" fill="blue"></rect><rect x="675" y="189" width="27" height="27" fill="blue"></rect><rect x="657" y="171" width="9" height="9" fill="blue"></rect><rect x="684" y="171" width="9" height="9" fill="blue"></rect><rect x="711" y="171" width="9" height="9" fill="blue"></rect><rect x="657" y="198" width="9" height="9" fill="blue"></rect><rect x="711" y="198" width="9" height="9" fill="blue"></rect><rect x="657" y="225" width="9" height="9" fill="blue"></rect><rect x="684" y="225" width="9" height="9" fill="blue"></rect><rect x="711" y="225" width="9" height="9" fill="blue"></rect><rect x="81" y="324" width="81" height="81" fill="blue"></rect><rect x="27" y="270" width="27" height="27" fill="blue"></rect><rect x="9" y="252" width="9" height="9" fill="blue"></rect><rect x="36" y="252" width="9" height="9" fill="blue"></rect><rect x="63" y="252" width="9" height="9" fill="blue"></rect><rect x="9" y="279" width="9" height="9" fill="blue"></rect><rect x="63" y="279" width="9" height="9" fill="blue"></rect><rect x="9" y="306" width="9" height="9" fill="blue"></rect><rect x="36" y="306" width="9" height="9" fill="blue"></rect><rect x="63" y="306" width="9" height="9" fill="blue"></rect><rect x="108" y="270" width="27" height="27" fill="blue"></rect><rect x="90" y="252" width="9" height="9" fill="blue"></rect><rect x="117" y="252" width="9" height="9" fill="blue"></rect><rect x="144" y="252" width="9" height="9" fill="blue"></rect><rect x="90" y="279" width="9" height="9" fill="blue"></rect><rect x="144" y="279" width="9" height="9" fill="blue"></rect><rect x="90" y="306" width="9" height="9" fill="blue"></rect><rect x="117" y="306" width="9" height="9" fill="blue"></rect><rect x="144" y="306" width="9" height="9" fill="blue"></rect><rect x="189" y="270" width="27" height="27" fill="blue"></rect><rect x="171" y="252" width="9" height="9" fill="blue"></rect><rect x="198" y="252" width="9" height="9" fill="blue"></rect><rect x="225" y="252" width="9" height="9" fill="blue"></rect><rect x="171" y="279" width="9" height="9" fill="blue"></rect><rect x="225" y="279" width="9" height="9" fill="blue"></rect><rect x="171" y="306" width="9" height="9" fill="blue"></rect><rect x="198" y="306" width="9" height="9" fill="blue"></rect><rect x="225" y="306" width="9" height="9" fill="blue"></rect><rect x="27" y="351" width="27" height="27" fill="blue"></rect><rect x="9" y="333" width="9" height="9" fill="blue"></rect><rect x="36" y="333" width="9" height="9" fill="blue"></rect><rect x="63" y="333" width="9" height="9" fill="blue"></rect><rect x="9" y="360" width="9" height="9" fill="blue"></rect><rect x="63" y="360" width="9" height="9" fill="blue"></rect><rect x="9" y="387" width="9" height="9" fill="blue"></rect><rect x="36" y="387" width="9" height="9" fill="blue"></rect><rect x="63" y="387" width="9" height="9" fill="blue"></rect><rect x="189" y="351" width="27" height="27" fill="blue"></rect><rect x="171" y="333" width="9" height="9" fill="blue"></rect><rect x="198" y="333" width="9" height="9" fill="blue"></rect><rect x="225" y="333" width="9" height="9" fill="blue"></rect><rect x="171" y="360" width="9" height="9" fill="blue"></rect><rect x="225" y="360" width="9" height="9" fill="blue"></rect><rect x="171" y="387" width="9" height="9" fill="blue"></rect><rect x="198" y="387" width="9" height="9" fill="blue"></rect><rect x="225" y="387" width="9" height="9" fill="blue"></rect><rect x="27" y="432" width="27" height="27" fill="blue"></rect><rect x="9" y="414" width="9" height="9" fill="blue"></rect><rect x="36" y="414" width="9" height="9" fill="blue"></rect><rect x="63" y="414" width="9" height="9" fill="blue"></rect><rect x="9" y="441" width="9" height="9" fill="blue"></rect><rect x="63" y="441" width="9" height="9" fill="blue"></rect><rect x="9" y="468" width="9" height="9" fill="blue"></rect><rect x="36" y="468" width="9" height="9" fill="blue"></rect><rect x="63" y="468" width="9" height="9" fill="blue"></rect><rect x="108" y="432" width="27" height="27" fill="blue"></rect><rect x="90" y="414" width="9" height="9" fill="blue"></rect><rect x="117" y="414" width="9" height="9" fill="blue"></rect><rect x="144" y="414" width="9" height="9" fill="blue"></rect><rect x="90" y="441" width="9" height="9" fill="blue"></rect><rect x="144" y="441" width="9" height="9" fill="blue"></rect><rect x="90" y="468" width="9" height="9" fill="blue"></rect><rect x="117" y="468" width="9" height="9" fill="blue"></rect><rect x="144" y="468" width="9" height="9" fill="blue"></rect><rect x="189" y="432" width="27" height="27" fill="blue"></rect><rect x="171" y="414" width="9" height="9" fill="blue"></rect><rect x="198" y="414" width="9" height="9" fill="blue"></rect><rect x="225" y="414" width="9" height="9" fill="blue"></rect><rect x="171" y="441" width="9" height="9" fill="blue"></rect><rect x="225" y="441" width="9" height="9" fill="blue"></rect><rect x="171" y="468" width="9" height="9" fill="blue"></rect><rect x="198" y="468" width="9" height="9" fill="blue"></rect><rect x="225" y="468" width="9" height="9" fill="blue"></rect><rect x="567" y="324" width="81" height="81" fill="blue"></rect><rect x="513" y="270" width="27" height="27" fill="blue"></rect><rect x="495" y="252" width="9" height="9" fill="blue"></rect><rect x="522" y="252" width="9" height="9" fill="blue"></rect><rect x="549" y="252" width="9" height="9" fill="blue"></rect><rect x="495" y="279" width="9" height="9" fill="blue"></rect><rect x="549" y="279" width="9" height="9" fill="blue"></rect><rect x="495" y="306" width="9" height="9" fill="blue"></rect><rect x="522" y="306" width="9" height="9" fill="blue"></rect><rect x="549" y="306" width="9" height="9" fill="blue"></rect><rect x="594" y="270" width="27" height="27" fill="blue"></rect><rect x="576" y="252" width="9" height="9" fill="blue"></rect><rect x="603" y="252" width="9" height="9" fill="blue"></rect><rect x="630" y="252" width="9" height="9" fill="blue"></rect><rect x="576" y="279" width="9" height="9" fill="blue"></rect><rect x="630" y="279" width="9" height="9" fill="blue"></rect><rect x="576" y="306" width="9" height="9" fill="blue"></rect><rect x="603" y="306" width="9" height="9" fill="blue"></rect><rect x="630" y="306" width="9" height="9" fill="blue"></rect><rect x="675" y="270" width="27" height="27" fill="blue"></rect><rect x="657" y="252" width="9" height="9" fill="blue"></rect><rect x="684" y="252" width="9" height="9" fill="blue"></rect><rect x="711" y="252" width="9" height="9" fill="blue"></rect><rect x="657" y="279" width="9" height="9" fill="blue"></rect><rect x="711" y="279" width="9" height="9" fill="blue"></rect><rect x="657" y="306" width="9" height="9" fill="blue"></rect><rect x="684" y="306" width="9" height="9" fill="blue"></rect><rect x="711" y="306" width="9" height="9" fill="blue"></rect><rect x="513" y="351" width="27" height="27" fill="blue"></rect><rect x="495" y="333" width="9" height="9" fill="blue"></rect><rect x="522" y="333" width="9" height="9" fill="blue"></rect><rect x="549" y="333" width="9" height="9" fill="blue"></rect><rect x="495" y="360" width="9" height="9" fill="blue"></rect><rect x="549" y="360" width="9" height="9" fill="blue"></rect><rect x="495" y="387" width="9" height="9" fill="blue"></rect><rect x="522" y="387" width="9" height="9" fill="blue"></rect><rect x="549" y="387" width="9" height="9" fill="blue"></rect><rect x="675" y="351" width="27" height="27" fill="blue"></rect><rect x="657" y="333" width="9" height="9" fill="blue"></rect><rect x="684" y="333" width="9" height="9" fill="blue"></rect><rect x="711" y="333" width="9" height="9" fill="blue"></rect><rect x="657" y="360" width="9" height="9" fill="blue"></rect><rect x="711" y="360" width="9" height="9" fill="blue"></rect><rect x="657" y="387" width="9" height="9" fill="blue"></rect><rect x="684" y="387" width="9" height="9" fill="blue"></rect><rect x="711" y="387" width="9" height="9" fill="blue"></rect><rect x="513" y="432" width="27" height="27" fill="blue"></rect><rect x="495" y="414" width="9" height="9" fill="blue"></rect><rect x="522" y="414" width="9" height="9" fill="blue"></rect><rect x="549" y="414" width="9" height="9" fill="blue"></rect><rect x="495" y="441" width="9" height="9" fill="blue"></rect><rect x="549" y="441" width="9" height="9" fill="blue"></rect><rect x="495" y="468" width="9" height="9" fill="blue"></rect><rect x="522" y="468" width="9" height="9" fill="blue"></rect><rect x="549" y="468" width="9" height="9" fill="blue"></rect><rect x="594" y="432" width="27" height="27" fill="blue"></rect><rect x="576" y="414" width="9" height="9" fill="blue"></rect><rect x="603" y="414" width="9" height="9" fill="blue"></rect><rect x="630" y="414" width="9" height="9" fill="blue"></rect><rect x="576" y="441" width="9" height="9" fill="blue"></rect><rect x="630" y="441" width="9" height="9" fill="blue"></rect><rect x="576" y="468" width="9" height="9" fill="blue"></rect><rect x="603" y="468" width="9" height="9" fill="blue"></rect><rect x="630" y="468" width="9" height="9" fill="blue"></rect><rect x="675" y="432" width="27" height="27" fill="blue"></rect><rect x="657" y="414" width="9" height="9" fill="blue"></rect><rect x="684" y="414" width="9" height="9" fill="blue"></rect><rect x="711" y="414" width="9" height="9" fill="blue"></rect><rect x="657" y="441" width="9" height="9" fill="blue"></rect><rect x="711" y="441" width="9" height="9" fill="blue"></rect><rect x="657" y="468" width="9" height="9" fill="blue"></rect><rect x="684" y="468" width="9" height="9" fill="blue"></rect><rect x="711" y="468" width="9" height="9" fill="blue"></rect><rect x="81" y="567" width="81" height="81" fill="blue"></rect><rect x="27" y="513" width="27" height="27" fill="blue"></rect><rect x="9" y="495" width="9" height="9" fill="blue"></rect><rect x="36" y="495" width="9" height="9" fill="blue"></rect><rect x="63" y="495" width="9" height="9" fill="blue"></rect><rect x="9" y="522" width="9" height="9" fill="blue"></rect><rect x="63" y="522" width="9" height="9" fill="blue"></rect><rect x="9" y="549" width="9" height="9" fill="blue"></rect><rect x="36" y="549" width="9" height="9" fill="blue"></rect><rect x="63" y="549" width="9" height="9" fill="blue"></rect><rect x="108" y="513" width="27" height="27" fill="blue"></rect><rect x="90" y="495" width="9" height="9" fill="blue"></rect><rect x="117" y="495" width="9" height="9" fill="blue"></rect><rect x="144" y="495" width="9" height="9" fill="blue"></rect><rect x="90" y="522" width="9" height="9" fill="blue"></rect><rect x="144" y="522" width="9" height="9" fill="blue"></rect><rect x="90" y="549" width="9" height="9" fill="blue"></rect><rect x="117" y="549" width="9" height="9" fill="blue"></rect><rect x="144" y="549" width="9" height="9" fill="blue"></rect><rect x="189" y="513" width="27" height="27" fill="blue"></rect><rect x="171" y="495" width="9" height="9" fill="blue"></rect><rect x="198" y="495" width="9" height="9" fill="blue"></rect><rect x="225" y="495" width="9" height="9" fill="blue"></rect><rect x="171" y="522" width="9" height="9" fill="blue"></rect><rect x="225" y="522" width="9" height="9" fill="blue"></rect><rect x="171" y="549" width="9" height="9" fill="blue"></rect><rect x="198" y="549" width="9" height="9" fill="blue"></rect><rect x="225" y="549" width="9" height="9" fill="blue"></rect><rect x="27" y="594" width="27" height="27" fill="blue"></rect><rect x="9" y="576" width="9" height="9" fill="blue"></rect><rect x="36" y="576" width="9" height="9" fill="blue"></rect><rect x="63" y="576" width="9" height="9" fill="blue"></rect><rect x="9" y="603" width="9" height="9" fill="blue"></rect><rect x="63" y="603" width="9" height="9" fill="blue"></rect><rect x="9" y="630" width="9" height="9" fill="blue"></rect><rect x="36" y="630" width="9" height="9" fill="blue"></rect><rect x="63" y="630" width="9" height="9" fill="blue"></rect><rect x="189" y="594" width="27" height="27" fill="blue"></rect><rect x="171" y="576" width="9" height="9" fill="blue"></rect><rect x="198" y="576" width="9" height="9" fill="blue"></rect><rect x="225" y="576" width="9" height="9" fill="blue"></rect><rect x="171" y="603" width="9" height="9" fill="blue"></rect><rect x="225" y="603" width="9" height="9" fill="blue"></rect><rect x="171" y="630" width="9" height="9" fill="blue"></rect><rect x="198" y="630" width="9" height="9" fill="blue"></rect><rect x="225" y="630" width="9" height="9" fill="blue"></rect><rect x="27" y="675" width="27" height="27" fill="blue"></rect><rect x="9" y="657" width="9" height="9" fill="blue"></rect><rect x="36" y="657" width="9" height="9" fill="blue"></rect><rect x="63" y="657" width="9" height="9" fill="blue"></rect><rect x="9" y="684" width="9" height="9" fill="blue"></rect><rect x="63" y="684" width="9" height="9" fill="blue"></rect><rect x="9" y="711" width="9" height="9" fill="blue"></rect><rect x="36" y="711" width="9" height="9" fill="blue"></rect><rect x="63" y="711" width="9" height="9" fill="blue"></rect><rect x="108" y="675" width="27" height="27" fill="blue"></rect><rect x="90" y="657" width="9" height="9" fill="blue"></rect><rect x="117" y="657" width="9" height="9" fill="blue"></rect><rect x="144" y="657" width="9" height="9" fill="blue"></rect><rect x="90" y="684" width="9" height="9" fill="blue"></rect><rect x="144" y="684" width="9" height="9" fill="blue"></rect><rect x="90" y="711" width="9" height="9" fill="blue"></rect><rect x="117" y="711" width="9" height="9" fill="blue"></rect><rect x="144" y="711" width="9" height="9" fill="blue"></rect><rect x="189" y="675" width="27" height="27" fill="blue"></rect><rect x="171" y="657" width="9" height="9" fill="blue"></rect><rect x="198" y="657" width="9" height="9" fill="blue"></rect><rect x="225" y="657" width="9" height="9" fill="blue"></rect><rect x="171" y="684" width="9" height="9" fill="blue"></rect><rect x="225" y="684" width="9" height="9" fill="blue"></rect><rect x="171" y="711" width="9" height="9" fill="blue"></rect><rect x="198" y="711" width="9" height="9" fill="blue"></rect><rect x="225" y="711" width="9" height="9" fill="blue"></rect><rect x="324" y="567" width="81" height="81" fill="blue"></rect><rect x="270" y="513" width="27" height="27" fill="blue"></rect><rect x="252" y="495" width="9" height="9" fill="blue"></rect><rect x="279" y="495" width="9" height="9" fill="blue"></rect><rect x="306" y="495" width="9" height="9" fill="blue"></rect><rect x="252" y="522" width="9" height="9" fill="blue"></rect><rect x="306" y="522" width="9" height="9" fill="blue"></rect><rect x="252" y="549" width="9" height="9" fill="blue"></rect><rect x="279" y="549" width="9" height="9" fill="blue"></rect><rect x="306" y="549" width="9" height="9" fill="blue"></rect><rect x="351" y="513" width="27" height="27" fill="blue"></rect><rect x="333" y="495" width="9" height="9" fill="blue"></rect><rect x="360" y="495" width="9" height="9" fill="blue"></rect><rect x="387" y="495" width="9" height="9" fill="blue"></rect><rect x="333" y="522" width="9" height="9" fill="blue"></rect><rect x="387" y="522" width="9" height="9" fill="blue"></rect><rect x="333" y="549" width="9" height="9" fill="blue"></rect><rect x="360" y="549" width="9" height="9" fill="blue"></rect><rect x="387" y="549" width="9" height="9" fill="blue"></rect><rect x="432" y="513" width="27" height="27" fill="blue"></rect><rect x="414" y="495" width="9" height="9" fill="blue"></rect><rect x="441" y="495" width="9" height="9" fill="blue"></rect><rect x="468" y="495" width="9" height="9" fill="blue"></rect><rect x="414" y="522" width="9" height="9" fill="blue"></rect><rect x="468" y="522" width="9" height="9" fill="blue"></rect><rect x="414" y="549" width="9" height="9" fill="blue"></rect><rect x="441" y="549" width="9" height="9" fill="blue"></rect><rect x="468" y="549" width="9" height="9" fill="blue"></rect><rect x="270" y="594" width="27" height="27" fill="blue"></rect><rect x="252" y="576" width="9" height="9" fill="blue"></rect><rect x="279" y="576" width="9" height="9" fill="blue"></rect><rect x="306" y="576" width="9" height="9" fill="blue"></rect><rect x="252" y="603" width="9" height="9" fill="blue"></rect><rect x="306" y="603" width="9" height="9" fill="blue"></rect><rect x="252" y="630" width="9" height="9" fill="blue"></rect><rect x="279" y="630" width="9" height="9" fill="blue"></rect><rect x="306" y="630" width="9" height="9" fill="blue"></rect><rect x="432" y="594" width="27" height="27" fill="blue"></rect><rect x="414" y="576" width="9" height="9" fill="blue"></rect><rect x="441" y="576" width="9" height="9" fill="blue"></rect><rect x="468" y="576" width="9" height="9" fill="blue"></rect><rect x="414" y="603" width="9" height="9" fill="blue"></rect><rect x="468" y="603" width="9" height="9" fill="blue"></rect><rect x="414" y="630" width="9" height="9" fill="blue"></rect><rect x="441" y="630" width="9" height="9" fill="blue"></rect><rect x="468" y="630" width="9" height="9" fill="blue"></rect><rect x="270" y="675" width="27" height="27" fill="blue"></rect><rect x="252" y="657" width="9" height="9" fill="blue"></rect><rect x="279" y="657" width="9" height="9" fill="blue"></rect><rect x="306" y="657" width="9" height="9" fill="blue"></rect><rect x="252" y="684" width="9" height="9" fill="blue"></rect><rect x="306" y="684" width="9" height="9" fill="blue"></rect><rect x="252" y="711" width="9" height="9" fill="blue"></rect><rect x="279" y="711" width="9" height="9" fill="blue"></rect><rect x="306" y="711" width="9" height="9" fill="blue"></rect><rect x="351" y="675" width="27" height="27" fill="blue"></rect><rect x="333" y="657" width="9" height="9" fill="blue"></rect><rect x="360" y="657" width="9" height="9" fill="blue"></rect><rect x="387" y="657" width="9" height="9" fill="blue"></rect><rect x="333" y="684" width="9" height="9" fill="blue"></rect><rect x="387" y="684" width="9" height="9" fill="blue"></rect><rect x="333" y="711" width="9" height="9" fill="blue"></rect><rect x="360" y="711" width="9" height="9" fill="blue"></rect><rect x="387" y="711" width="9" height="9" fill="blue"></rect><rect x="432" y="675" width="27" height="27" fill="blue"></rect><rect x="414" y="657" width="9" height="9" fill="blue"></rect><rect x="441" y="657" width="9" height="9" fill="blue"></rect><rect x="468" y="657" width="9" height="9" fill="blue"></rect><rect x="414" y="684" width="9" height="9" fill="blue"></rect><rect x="468" y="684" width="9" height="9" fill="blue"></rect><rect x="414" y="711" width="9" height="9" fill="blue"></rect><rect x="441" y="711" width="9" height="9" fill="blue"></rect><rect x="468" y="711" width="9" height="9" fill="blue"></rect><rect x="567" y="567" width="81" height="81" fill="blue"></rect><rect x="513" y="513" width="27" height="27" fill="blue"></rect><rect x="495" y="495" width="9" height="9" fill="blue"></rect><rect x="522" y="495" width="9" height="9" fill="blue"></rect><rect x="549" y="495" width="9" height="9" fill="blue"></rect><rect x="495" y="522" width="9" height="9" fill="blue"></rect><rect x="549" y="522" width="9" height="9" fill="blue"></rect><rect x="495" y="549" width="9" height="9" fill="blue"></rect><rect x="522" y="549" width="9" height="9" fill="blue"></rect><rect x="549" y="549" width="9" height="9" fill="blue"></rect><rect x="594" y="513" width="27" height="27" fill="blue"></rect><rect x="576" y="495" width="9" height="9" fill="blue"></rect><rect x="603" y="495" width="9" height="9" fill="blue"></rect><rect x="630" y="495" width="9" height="9" fill="blue"></rect><rect x="576" y="522" width="9" height="9" fill="blue"></rect><rect x="630" y="522" width="9" height="9" fill="blue"></rect><rect x="576" y="549" width="9" height="9" fill="blue"></rect><rect x="603" y="549" width="9" height="9" fill="blue"></rect><rect x="630" y="549" width="9" height="9" fill="blue"></rect><rect x="675" y="513" width="27" height="27" fill="blue"></rect><rect x="657" y="495" width="9" height="9" fill="blue"></rect><rect x="684" y="495" width="9" height="9" fill="blue"></rect><rect x="711" y="495" width="9" height="9" fill="blue"></rect><rect x="657" y="522" width="9" height="9" fill="blue"></rect><rect x="711" y="522" width="9" height="9" fill="blue"></rect><rect x="657" y="549" width="9" height="9" fill="blue"></rect><rect x="684" y="549" width="9" height="9" fill="blue"></rect><rect x="711" y="549" width="9" height="9" fill="blue"></rect><rect x="513" y="594" width="27" height="27" fill="blue"></rect><rect x="495" y="576" width="9" height="9" fill="blue"></rect><rect x="522" y="576" width="9" height="9" fill="blue"></rect><rect x="549" y="576" width="9" height="9" fill="blue"></rect><rect x="495" y="603" width="9" height="9" fill="blue"></rect><rect x="549" y="603" width="9" height="9" fill="blue"></rect><rect x="495" y="630" width="9" height="9" fill="blue"></rect><rect x="522" y="630" width="9" height="9" fill="blue"></rect><rect x="549" y="630" width="9" height="9" fill="blue"></rect><rect x="675" y="594" width="27" height="27" fill="blue"></rect><rect x="657" y="576" width="9" height="9" fill="blue"></rect><rect x="684" y="576" width="9" height="9" fill="blue"></rect><rect x="711" y="576" width="9" height="9" fill="blue"></rect><rect x="657" y="603" width="9" height="9" fill="blue"></rect><rect x="711" y="603" width="9" height="9" fill="blue"></rect><rect x="657" y="630" width="9" height="9" fill="blue"></rect><rect x="684" y="630" width="9" height="9" fill="blue"></rect><rect x="711" y="630" width="9" height="9" fill="blue"></rect><rect x="513" y="675" width="27" height="27" fill="blue"></rect><rect x="495" y="657" width="9" height="9" fill="blue"></rect><rect x="522" y="657" width="9" height="9" fill="blue"></rect><rect x="549" y="657" width="9" height="9" fill="blue"></rect><rect x="495" y="684" width="9" height="9" fill="blue"></rect><rect x="549" y="684" width="9" height="9" fill="blue"></rect><rect x="495" y="711" width="9" height="9" fill="blue"></rect><rect x="522" y="711" width="9" height="9" fill="blue"></rect><rect x="549" y="711" width="9" height="9" fill="blue"></rect><rect x="594" y="675" width="27" height="27" fill="blue"></rect><rect x="576" y="657" width="9" height="9" fill="blue"></rect><rect x="603" y="657" width="9" height="9" fill="blue"></rect><rect x="630" y="657" width="9" height="9" fill="blue"></rect><rect x="576" y="684" width="9" height="9" fill="blue"></rect><rect x="630" y="684" width="9" height="9" fill="blue"></rect><rect x="576" y="711" width="9" height="9" fill="blue"></rect><rect x="603" y="711" width="9" height="9" fill="blue"></rect><rect x="630" y="711" width="9" height="9" fill="blue"></rect><rect x="675" y="675" width="27" height="27" fill="blue"></rect><rect x="657" y="657" width="9" height="9" fill="blue"></rect><rect x="684" y="657" width="9" height="9" fill="blue"></rect><rect x="711" y="657" width="9" height="9" fill="blue"></rect><rect x="657" y="684" width="9" height="9" fill="blue"></rect><rect x="711" y="684" width="9" height="9" fill="blue"></rect><rect x="657" y="711" width="9" height="9" fill="blue"></rect><rect x="684" y="711" width="9" height="9" fill="blue"></rect><rect x="711" y="711" width="9" height="9" fill="blue"></rect></svg>
 
-... nå tar det så lang tid på min PC at jeg ikke gidder lenger inn!
+<p>
+  <img src="level4.svg">
+</p>
 
-Prøv videre selv, så kommer jeg tilbake til neste uke.
+Først lager vi én firkant. Så vil vi lage de åtte små firkanene som følger denne
+ene. Så vil vi for hver av de åtte nye gjøre det samme! Da får vi 8*8=64 nye små
+firkanter. Så vil vi _igjen_ for hver av de 64 nye firkantene tegne åtte nye
+firkanter.
+
+I nivå 1 lager vi **1** ny firkant.
+
+I nivå 2 lager vi **8** nye firkanter.
+
+I nivå 3 lager vi **8 * 8 = 64** nye firkanter.
+
+Bruk `elm repl` til å regne ut disse:
+
+- Hvor mange nye firkanter lager vi i nivå **4**?
+- Hvor mange nye firkanter lager vi i nivå **5**?
+- Hvor mange nye firkanter lager vi i nivå **6**?
+
+Klarer du å se et mønster?
+
+- Hvor mange nye firkanter lager vi i nivå **x**?
+
+# Steg 8: `concat` og `map` {.activity}
+
+Vi skal trene litt før vi går videre.
+
+## Sjekkliste {.check}
+
+- Lag filen Tall.elm. Legg inn dette i toppen:
+
+  ```elm
+  module Tall exposing (..)
+  
+  hei = "Hei!"
+  ```
+  
+- Start `elm repl` fra kommandovindu i samme mappe
+
+- Importer alle funksjonene fra `Tall.elm` fra `elm repl`:
+
+  ```text
+  ---- elm-repl 0.18.0 -----------------------------------------------------------
+  :help for help, :exit to exit, more at <https://github.com/elm-lang/elm-repl>
+  --------------------------------------------------------------------------------
+  > import Tall exposing (..)
+  > hei
+  "Hei!" : String
+  ```
+
+**Får du til? Bra!**
+
+Nå skal vi prøve oss på et problem fra matematikken:
+
+_Er det mulig å liste opp alle desimaltall mellom 0 og 1?_
+
+... gitt at vi har uendelig god tid. Hmm! La oss prøve, men begrense oss på
+antall desimaler i starten.
+
+Dette kunne vært første steg:
+
+```text
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+```
+
+## Sjekkliste {.check}
+
+- Lag `sifre` for å spare på 0-9:
+
+  ```elm
+  > sifre
+  ["0","1","2","3","4","5","6","7","8","9"] : List String
+  ```
+
+Prøv selv først!
+
+Her er hva jeg gjorde:
+
+```elm
+sifre =
+    let nullTilNi = List.range 0 9
+    in List.map toString nullTilNi
+```
+
+- Lag `ettSifferBak` som tar inn starten på tallet og legger på sifrene 0-9
+  på slutten:
+  
+  ```elm
+  > ettSifferBak
+  <function> : String -> List String
+  > ettSifferBak "0."
+  ["0.0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"] : List String
+  > ettSifferBak "tull"
+  ["tull0","tull1","tull2","tull3","tull4","tull5","tull6","tull7","tull8","tull9"]
+      : List String
+  ```
+
+Slik gjorde jeg det:
+
+```elm
+ettSifferBak start =
+    let begynnMedStart slutt = start ++ slutt
+    in List.map begynnMedStart sifre
+```
+
+Nå kommer trikset for å gå dypere: For hver mulige begynnelse må vi lage alle
+løsninger, og slå sammen disse.
+
+- Lag `sifreAvLengde` som tar inn hvor mange sifre som skal legges på og
+  begynnelsen, og gir tilbake alle mulighetene.
+
+```elm
+> sifreAvLengde 0 ""
+[""] : List String
+> sifreAvLengde 0 "0."
+["0."] : List String
+> sifreAvLengde 1 "0."
+["0.0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"] : List String
+> sifreAvLengde 1 "1."
+["1.0","1.1","1.2","1.3","1.4","1.5","1.6","1.7","1.8","1.9"] : List String
+> sifreAvLengde 2 "0."
+["0.00","0.01","0.02","0.03","0.04","0.05","0.06","0.07","0.08","0.09","0.10","0.11","0.12","0.13","0.14","0.15","0.16","0.17","0.18","0.19","0.20","0.21","0.22","0.23","0.24","0.25","0.26","0.27","0.28","0.29","0.30","0.31","0.32","0.33","0.34","0.35","0.36","0.37","0.38","0.39","0.40","0.41","0.42","0.43","0.44","0.45","0.46","0.47","0.48","0.49","0.50","0.51","0.52","0.53","0.54","0.55","0.56","0.57","0.58","0.59","0.60","0.61","0.62","0.63","0.64","0.65","0.66","0.67","0.68","0.69","0.70","0.71","0.72","0.73","0.74","0.75","0.76","0.77","0.78","0.79","0.80","0.81","0.82","0.83","0.84","0.85","0.86","0.87","0.88","0.89","0.90","0.91","0.92","0.93","0.94","0.95","0.96","0.97","0.98","0.99"]
+    : List String
+```
+
+Slik gjorde jeg det:
+
+```elm
+sifreAvLengde n start =
+    if n == 0
+    -- Hvis vi ikke vil ha flere tall, gir vi tilbake kun hva vi har.
+    then [start]
+    else
+        let
+            -- Liste over alle de nye startene for neste nivå
+            starter = ettSifferBak start
+
+            -- Funksjon som tar inn en start og lager alle sluttene.
+            -- Hvorfor bruker vi n-1? Hva skjer om vi bruker n i stedet?
+            fortsett nyStart = sifreAvLengde (n-1) nyStart
+
+            -- Lager listene med fortsettelser for 0, 1, 2, ..., i hver sin liste
+            fortsettelser = List.map fortsett starter
+
+        -- Slår sammen fortsettelsene i én liste
+        in List.concat fortsettelser
+```
+
+- Bruk `sifreAvLengde` til å lage `desimaler`:
+
+```elm
+> desimaler 0
+["0."] : List String
+> desimaler 1
+["0.0","0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"] : List String
+> desimaler 2
+["0.00","0.01","0.02","0.03","0.04","0.05","0.06","0.07","0.08","0.09","0.10","0.11","0.12","0.13","0.14","0.15","0.16","0.17","0.18","0.19","0.20","0.21","0.22","0.23","0.24","0.25","0.26","0.27","0.28","0.29","0.30","0.31","0.32","0.33","0.34","0.35","0.36","0.37","0.38","0.39","0.40","0.41","0.42","0.43","0.44","0.45","0.46","0.47","0.48","0.49","0.50","0.51","0.52","0.53","0.54","0.55","0.56","0.57","0.58","0.59","0.60","0.61","0.62","0.63","0.64","0.65","0.66","0.67","0.68","0.69","0.70","0.71","0.72","0.73","0.74","0.75","0.76","0.77","0.78","0.79","0.80","0.81","0.82","0.83","0.84","0.85","0.86","0.87","0.88","0.89","0.90","0.91","0.92","0.93","0.94","0.95","0.96","0.97","0.98","0.99"]
+    : List String
+```
+
+I `sifreAvLengde` lagde vi først alle resultatene i hver sin liste med
+`List.map`, før vi slo listene sammen med `List.concat`. Her har vi skrevet om
+koden litt:
+
+```elm
+sifreAvLengde n start =
+    if n == 0
+    -- Hvis vi ikke vil ha flere tall, gir vi tilbake kun hva vi har.
+    then [start]
+    else
+        let
+            -- Liste over alle de nye startene for neste nivå
+            starter = ettSifferBak start
+
+            -- Funksjon som tar inn en start og lager alle sluttene.
+            -- Hvorfor bruker vi n-1? Hva skjer om vi bruker n i stedet?
+            fortsett nyStart = sifreAvLengde (n-1) nyStart
+
+        -- Slår sammen fortsettelsene i én liste
+        in List.concat (List.map fortsett starter)
+```
+
+`List.concat (List.map funksjon liste)` er noe vi ser ofte. Derfor finnes
+funksjonen `concatMap` som kjører `List.concat` på resultatet av en `List.map`.
+Da kan vi korte ned litt til:
+
+
+```elm
+sifreAvLengde n start =
+    if n == 0
+    -- Hvis vi ikke vil ha flere tall, gir vi tilbake kun hva vi har.
+    then [start]
+    else
+        let
+            -- Liste over alle de nye startene for neste nivå
+            starter = ettSifferBak start
+
+            -- Funksjon som tar inn en start og lager alle sluttene.
+            -- Hvorfor bruker vi n-1? Hva skjer om vi bruker n i stedet?
+            fortsett nyStart = sifreAvLengde (n-1) nyStart
+
+        -- Slår sammen fortsettelsene i én liste
+        in List.concatMap fortsett starter
+```
+
+- Hvor lange tall kan du skrive ut før PC-en din begynner å gå tregt?
+
+- Hvor mange desimaltall finner du da?
+
+Hint: 0.0-0.9 blir 10 tall. 0.00 til 0.99 blir ...? Hva med 0.00000 til 0.99999?
+
+## Har du hørt om `++`? {.protip}
+
+`++` kan slå sammen tekst:
+
+```elm
+> "Hei " ++ "på deg"
+"Hei på deg" : String
+```
+
+`++` kan også slå sammen lister:
+
+```elm
+> [1,2,3] ++ [4,5,6]
+[1,2,3,4,5,6] : List number
+```
+
+# Steg 9: Så mange nivåer vi vil! {.activity} #
+
+Nå skal vi bruke teknikken fra Steg 8 til å komme til bunns i fraktalen vår.
+
+## Sjekkliste {.check}
+
+- Lag `generateCenterSquares`. Denne skal kunne fungere slik:
+
+```text
+---- elm-repl 0.18.0 -----------------------------------------------------------
+ :help for help, :exit to exit, more at <https://github.com/elm-lang/elm-repl>
+--------------------------------------------------------------------------------
+> import Main exposing (..)
+> start
+{ color = "green", width = 729, corner = { x = 0, y = 0 } } : Main.Square
+> generateCenterSquares 0 start
+[] : List Main.Square
+> generateCenterSquares 1 start
+[{ color = "blue", width = 243, corner = { x = 243, y = 243 } }]
+    : List Main.Square
+> generateCenterSquares 2 start
+[ { color = "blue", width = 243, corner = { x = 243, y = 243 } },
+  { color = "blue", width = 81, corner = { x = 81, y = 81 } },
+  { color = "blue", width = 81, corner = { x = 324, y = 81 } },
+  { color = "blue", width = 81, corner = { x = 567, y = 81 } },
+  { color = "blue", width = 81, corner = { x = 81, y = 324 } },
+  { color = "blue", width = 81, corner = { x = 567, y = 324 } },
+  { color = "blue", width = 81, corner = { x = 81, y = 567 } },
+  { color = "blue", width = 81, corner = { x = 324, y = 567 } },
+  { color = "blue", width = 81, corner = { x = 567, y = 567 } }
+]
+    : List Main.Square
+```
+
+Gikk det greit? Her er slik jeg gjorde det, og hvordan jeg bruker
+`generateCenterSquares` i `main`:
+
+```elm
+generateCenterSquares : number -> Square -> List Square
+generateCenterSquares level source =
+    if level == 0 then []
+    else let children = List.concatMap (generateCenterSquares (level - 1)) (borderSquares source)
+         in [centerSquare source] ++ children
+
+
+main =
+    svg
+      [ width "100%", viewBox "0 0 729 729" ]
+      ( [viewSquare start] ++
+            List.map viewSquare (generateCenterSquares 3 start)
+      )
+```
