@@ -281,6 +281,27 @@ Du skal kunne bruke den slik:
 
 <svg width="500" height="500" viewBox="0 0 27 27"><rect x="0" y="0" width="27" height="27" fill="blue"></rect><rect x="9" y="9" width="9" height="9" fill="green"></rect></svg>
 
+Får du til? Prøv selv først.
+
+Slik ser min ut:
+
+```elm
+mkSquare color width corner =
+    { color = color
+    , width = width
+    , corner = corner
+    }
+
+blueSquare = mkSquare "blue"
+
+centerSquare : Square -> Square
+centerSquare old =
+    let x = old.corner.x + old.width/3
+        y = old.corner.y + old.width/3
+        w = old.width / 3
+    in blueSquare w (mkPoint x y)
+```
+
 # Steg 6: Funksjoner fra `List` og `String` {.activity}
 
 `List.map` kjører en funksjon på hvert element i en liste. Eksempel:
@@ -361,6 +382,30 @@ Nå skal vi finne kvadratene langs kanten. Hvor mange blir det? Tell de røde:
 ,{ color = "blue", width = 243, corner = { x = 243, y = 486 } }
 ,{ color = "blue", width = 243, corner = { x = 486, y = 486 } }]
     : List Utils.Square
+```
+
+Får du til? Prøv selv først.
+
+Slik ser min ut:
+
+```elm
+borderSquares : Square -> List Square
+borderSquares old =
+    let additions = [ (0,0) -- First row
+                    , (1,0)
+                    , (2,0)
+                    , (0,1) -- Second row
+                    , (2,1)
+                    , (0,2) -- Third row
+                    , (1,2)
+                    , (2,2)
+                    ]
+        w = old.width / 3
+        mkBorderSquare (fx,fy) =
+            let x = old.corner.x + w*fx
+                y = old.corner.y + w*fy
+            in blueSquare w (mkPoint x y)
+    in List.map mkBorderSquare additions
 ```
 
 # Stopp! Hva var det vi skulle igjen? {.activity}
