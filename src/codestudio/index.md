@@ -1,7 +1,6 @@
 ---
 title: CodeStudio
 tags:
-  operativsystem: [windows, mac, linux, android, ipad]
   tema: [interaktiv]
 language: nb
 ---

@@ -1,7 +1,6 @@
 ---
 title: Java FX
 tags:
-  operativsystem: [windows, mac, linux]
 language: nb
 ---
 

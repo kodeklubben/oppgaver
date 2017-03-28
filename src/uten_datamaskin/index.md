@@ -1,7 +1,6 @@
 ---
 title: Uten datamaskin
 tags:
-  operativsystem: [uten_datamaskin]
 language: nb
 ---
 

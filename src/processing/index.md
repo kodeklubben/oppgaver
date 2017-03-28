@@ -1,7 +1,6 @@
 ---
 title: Processing
 tags:
-  operativsystem: [windows, mac, linux]
   tema: [animasjon]
 language: nb
 ---

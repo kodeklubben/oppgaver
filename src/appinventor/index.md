@@ -1,7 +1,6 @@
 ---
 title: App Inventor
 tags:
-  operativsystem: [android]
   tema: [app]
 language: nb
 ---

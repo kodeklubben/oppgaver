@@ -1,7 +1,6 @@
 ---
 title: Elm
 tags:
-  operativsystem: [windows, mac, linux]
   tema: [web, programmering, spill, funksjonell-programmering, typer]
 language: nb
 ---

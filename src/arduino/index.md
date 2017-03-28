@@ -1,7 +1,6 @@
 ---
 title: Arduino
 tags:
-  operativsystem: [arduino]
   tema: [elektronikk]
 language: nb
 ---

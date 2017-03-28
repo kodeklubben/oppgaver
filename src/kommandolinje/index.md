@@ -1,7 +1,6 @@
 ---
 title: Kommandolinje
 tags:
-  operativsystem: [windows, mac, linux]
 language: nb
 ---
 

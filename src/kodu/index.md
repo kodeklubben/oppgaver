@@ -1,7 +1,6 @@
 ---
 title: Kodu
 tags:
-  operativsystem: [windows]
   tema: [spill]
 language: nb
 ---
