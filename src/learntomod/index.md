@@ -1,7 +1,6 @@
 ---
 title: Learn To Mod
 tags:
-  operativsystem: [windows, mac, linux]
   tema: [minecraft]
 ---
 

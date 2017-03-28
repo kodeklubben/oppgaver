@@ -1,7 +1,6 @@
 ---
 title: Web
 tags:
-  operativsystem: [windows, mac, linux]
   tema: [nettside]
 ---
 

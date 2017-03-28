@@ -1,7 +1,6 @@
 ---
 title: Python
 tags:
-  operativsystem: [windows, mac, linux]
   tema: [animasjon, spill]
 ---
 
