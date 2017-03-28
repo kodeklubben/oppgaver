@@ -1,7 +1,7 @@
 ---
 title: PGZ - Løpende strekmann
 level: 3
-Author: Ole Andreas Ramsdal, Kodeklubben Trondheim
+author: Ole Andreas Ramsdal, Kodeklubben Trondheim
 language: nb
 ---
 

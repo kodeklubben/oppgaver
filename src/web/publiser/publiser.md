@@ -1,5 +1,6 @@
 ---
 title: "HTML: Publiser nettsiden din"
+author: Lars Klingenberg
 level: 3
 language: nb
 ---

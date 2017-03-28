@@ -1,5 +1,6 @@
 ---
 title: Kuprat
+author: Geir Arne Hjelle
 level: 1
 language: nb
 ---

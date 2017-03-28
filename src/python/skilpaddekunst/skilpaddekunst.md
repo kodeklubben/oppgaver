@@ -1,5 +1,6 @@
 ---
 title: Skilpaddekunst
+author: Geir Arne Hjelle
 level: 2
 language: nb
 ---

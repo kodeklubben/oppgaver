@@ -1,5 +1,6 @@
 ---
 title: "HTML: Lenk sammen nettsider"
+author: Lars Klingenberg
 level: 3
 language: nb
 ---
