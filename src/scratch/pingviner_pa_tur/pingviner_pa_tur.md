@@ -2,16 +2,20 @@
 title: Pingviner på tur
 level: 1
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}
 
 Velkommen til Scratch. Vi skal sammen lage et enkelt spill hvor pingvinene har
-rømt fra akvariet, og det er din jobb å hjelpe dem hjem igjen.
+rømt fra akvariet i Bergen, og det er din jobb å hjelpe dem hjem igjen.
 
 ![](pingviner_pa_tur.png)
 
 # Velkommen til Scratch {.activity}
+
+_Om du allerede kjenner Scratch og har en Scratchbruker kan du gå videre til
+[Steg 1](#steg-1-en-pingvin-pa-tur)._
 
 [Scratch](https://scratch.mit.edu/) er et programeringsspråk laget spesielt for
 at det skal være raskt å komme i gang med, og for at man raskt skal kunne lage
@@ -33,7 +37,7 @@ fordi dette gjør det enklere å lagre spillene dine og dele dem med andre.
   venstre for å begynne å programmere.
 
     Videre gir vi deg en oppskrift på hvordan du kan lage et enkelt spill hvor
-    du skal hjelpe pingvinene å finne veien tilbake til akvariet.
+    du skal hjelpe pingvinene å finne veien tilbake til akvariet i Bergen.
 
 # Steg 1: En pingvin på tur {.activity}
 
@@ -83,7 +87,8 @@ __Klikk på det grønne flagget øverst midt på skjermen for å prøve spillet 
 + Du merker kanskje at pingvinen snur seg på hodet når den går mot venstre? Det
   er fordi scratchfigurer i utgangspunktet roterer når de skifter retning. Vi
   kan forbedre dette ved å legge til klossen `begrens rotasjon
-  [vend sideveis v]`{.b} rett over `gå (10) steg`{.b}-klossen i programmet vårt.
+  [vend sideveis v]`{.b} rett under `når grønt flagg klikkes`{.b}-klossen i
+  programmet vårt.
 
 Du kan bruke den røde knappen ved siden av det grønne flagget om du ønsker at
 pingvinen skal slutte å bevege seg. Etterhvert som du lager mer kode bør du
@@ -106,7 +111,7 @@ _La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
 ## Sjekkliste {.check}
 
 + Se nærmere på koden du har laget. Vi har fortalt pingvinen at den _for alltid_
-  skal _gå_ og _sprett tilbake ved kanten_. Ser du hvordan pingvinen gjør
+  skal _gå_ og _sprette tilbake ved kanten_. Ser du hvordan pingvinen gjør
   akkurat som den har blitt fortalt?
 
     Vi kan gjøre forandringer i koden vår. For eksempel sier tallet `10` i `gå
@@ -119,8 +124,8 @@ _La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
   ```blocks
   når grønt flagg klikkes
   sett størrelse til (40) %
+  begrens rotasjon [vend sideveis v]
   for alltid
-      begrens rotasjon [vend sideveis v]
       gå (4) steg
       sprett tilbake ved kanten
   slutt
@@ -132,10 +137,10 @@ _La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
   ```blocks
   når grønt flagg klikkes
   sett størrelse til (40) %
+  begrens rotasjon [vend sideveis v]
   gå til [tilfeldig sted v]
   pek i retning (tilfeldig tall fra (1) til (360))
   for alltid
-      begrens rotasjon [vend sideveis v]
       gå (4) steg
       sprett tilbake ved kanten
   slutt
@@ -157,7 +162,7 @@ __Klikk på det grønne flagget.__
 
 # Steg 3: Bergen {.activity}
 
-_Pingvinen har rømt fra akvariet, så da burde den jo springe rundt i Bergens gater._
+_Pingvinen har rømt fra akvariet i Bergen, så da burde den jo springe rundt i Bergens gater._
 
 ## Sjekkliste {.check}
 
@@ -175,6 +180,8 @@ _Pingvinen har rømt fra akvariet, så da burde den jo springe rundt i Bergens g
   på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
   figuren `Button5`, og plasser denne ytterst på Nordnes for å vise hvor
   Akvariet er.
+
+    ![](nordnes.png)
 
 + Vi vil nå endre navn på akvariefiguren slik at vi enklere husker hva den
   er. Klikk på `i`{.blockmotion} øverst til venstre på akvariefiguren i
@@ -233,10 +240,10 @@ _Vi skal til slutt se hvordan pingvinen kan oppdage at den har kommet hjem!_
   ```blocks
   når grønt flagg klikkes
   sett størrelse til (40) %
+  begrens rotasjon [vend sideveis v]
   gå til [tilfeldig sted v]
   pek i retning (tilfeldig tall fra (1) til (360))
   for alltid
-      begrens rotasjon [vend sideveis v]
       gå (4) steg
       sprett tilbake ved kanten
       hvis <berører [Akvariet v] ?>
