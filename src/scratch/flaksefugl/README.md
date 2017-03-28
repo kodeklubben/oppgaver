@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Flaksefugl
+language: nb
 ---
 
 # Informasjon til veiledere

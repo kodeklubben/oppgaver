@@ -2,6 +2,7 @@
 title: Unity
 tags:
   tema: [animasjon, spill]
+language: nb
 ---
 
 Disse oppgavene baserer seg på tutorials fra Unity sine sider:

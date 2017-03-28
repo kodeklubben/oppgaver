@@ -1,7 +1,7 @@
 ---
 title: "HTML: Introduksjon til Web"
 level: 1
-language: nb-NO
+language: nb
 ---
 
 

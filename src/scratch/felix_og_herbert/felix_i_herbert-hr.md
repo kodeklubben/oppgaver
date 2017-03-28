@@ -6,6 +6,7 @@ logo: ../../assets/img/ccuk_logo.png
 author: Prevedeno s [Code Club UK](//codeclub.org.uk)
 translator: Goran Stene Solomonovic
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+language: hr
 ---
 <!-- This is a croatian translation of Felix and Herbert, originally
 written by Code Club UK. The shape and category directives for the
@@ -233,4 +234,3 @@ __Pritisni zelenu zastavu.__
 
 Podjeli igricu sa svojom porodicom i prijateljima. Pritisni na
 `Dijeli` gore desno na ektranu.
-

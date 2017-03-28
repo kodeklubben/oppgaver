@@ -2,6 +2,7 @@
 title: LEGO Mindstorms
 tags:
   tema: [robot]
+language: nb
 ---
 
 LEGO Mindstorms er et produkt fra leketøysprodusenten Lego som gjør det mulig å lage og programmere

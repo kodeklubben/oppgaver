@@ -1,6 +1,7 @@
 ---
 title: Uten datamaskin
 tags:
+language: nb
 ---
 
 Det er mulig å lære mye om programmering, programmer og algoritmer uten å ha tilgang

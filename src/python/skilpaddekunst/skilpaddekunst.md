@@ -1,6 +1,7 @@
 ---
 title: Skilpaddekunst
 level: 2
+language: nb
 ---
 
 # Introduksjon {.intro}

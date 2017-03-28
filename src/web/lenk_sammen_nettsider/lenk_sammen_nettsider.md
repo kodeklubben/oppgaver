@@ -1,7 +1,7 @@
 ---
 title: "HTML: Lenk sammen nettsider"
 level: 3
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

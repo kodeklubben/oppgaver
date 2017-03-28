@@ -1,8 +1,8 @@
 ---
 title: "Lær av et annet spill!"
 level: 3
-language: nb-NO
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -31,7 +31,7 @@ henger sammen.
 - Finn en partner å prøve spillet sammen med. Det er OK å være tre personer og
   bytte på hvilke to som spiller.
 - Hvor mange serier må man vinne for å vinne et spill?
-  
+
 Har du spilt litt? Ti minutter er passe tid.
 
 ## Hvordan tegnes ballen? {.check}
@@ -50,7 +50,7 @@ trenger!
 ## Hvordan tegnes det andre? {.check}
 
 Først skal vi se på selve spillet.
-  
+
 - Hva slags SVG-element er brukt til å tegne ballene?
 - Hva slags SVG-element er brukt til å tegne plattformen?
 - Hva slags SVG-element er brukt til å tegne stillingen?
@@ -115,7 +115,7 @@ Du kan bruke `git` i stedet hvis du vil.
 
   På **Windows** kan du holde inne Shift (pil opp for å lage store bokstaver),
   **høyreklikke** og velge **Åpne kommandovindu her** eller tilsvarende.
-  
+
   På **Linux** kan ofte du **høyreklikke** og velge **Open in Terminal**.
 
 ## Bygg programmet {.check}
@@ -128,9 +128,9 @@ bruker et *byggscript* til å ta Elm-kode og lage en nettside av den.
   kommandovinduet.
 
   På **Windows** heter byggscriptet `build.bat`.
-  
+
   På **Mac** og **Linux** heter byggscriptet `build.sh`.
-  
+
 ## Åpne spillet i nettleseren {.check}
 
 Nå kan vi kjøre spillet.
@@ -195,7 +195,7 @@ kallet til Svg.circle?
 - Bytt ut fyllfargen til sirkelen med fargerik farge!
 
   "#FF69B4" gir en skarp rosa. Du vil kanskje ha noe annet?
-  
+
 Men! Nå blir begge spillerene våre like rosa (eller en annen farge?). Dette
 fikser vi ved å legge til en ny parameter på funksjonen vår.
 
@@ -211,7 +211,7 @@ Farger representeres som _Tekst_ i Elm, på engelsk **String**.
 - Kjør byggscriptet. Hvorfor kompilerer ikke programmet?
 
   Hvor brukes funksjonen `renderPlayer`? Må vi fikse noe her?
-  
+
   Når jeg søker etter `renderPlayer`, får jeg flere match: _linje 79_, _linje
   80_, _linje 99_, _linje 136_ og _linje 137_.
 

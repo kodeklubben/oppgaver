@@ -1,6 +1,7 @@
 ---
 title: Last ned Scratchkart
 author: Geir Arne Hjelle og Lance Olav Eastgate
+language: nb
 ---
 
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />

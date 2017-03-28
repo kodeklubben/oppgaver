@@ -2,6 +2,7 @@
 title: King Kong
 level: 3
 author: Samuel Erik Abildsø og Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

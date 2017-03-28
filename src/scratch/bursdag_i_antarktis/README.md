@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Bursdag i Antarktis
+language: nb
 ---
 
 # Informasjon til veiledere

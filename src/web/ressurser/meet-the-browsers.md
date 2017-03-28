@@ -2,6 +2,7 @@
 title: Why are there so many browsers?
 level: 1
 indexed: false
+language: en
 ---
 
 # Introduction {.intro}

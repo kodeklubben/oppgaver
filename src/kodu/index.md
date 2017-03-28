@@ -2,6 +2,7 @@
 title: Kodu
 tags:
   tema: [spill]
+language: nb
 ---
 
 I Kodu skal du skape din egen verden, enten alene eller sammen med andre. Poenget er at det

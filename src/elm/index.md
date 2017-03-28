@@ -2,6 +2,7 @@
 title: Elm
 tags:
   tema: [web, programmering, spill, funksjonell-programmering, typer]
+language: nb
 ---
 
 [Elm](http://elm-lang.org/) er et programmeringsspråk for nettleseren. Elm skal

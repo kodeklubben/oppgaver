@@ -1,7 +1,7 @@
 ---
 title: "CSS: Skjul ninjaene"
 level:  3
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -97,7 +97,7 @@ __Eksempel:__
 + Se gjennom koden, finn ut hvilke elementer du kan hjemme ninjaene bak!
 + Bruk det du har lært til å gjemme ninjaene
 
-Her finnes det ingen fasit, så du må legge til og endre kode sånn at du får gjemt ninjaene! Sitter du fast bør du enten lese oppgaven på nytt eller prøve å finne hjelp på [w3schools.com](http://www.w3schools.com/css/default.asp). Det ligger også et eksempel nederst i denne oppgaven. 
+Her finnes det ingen fasit, så du må legge til og endre kode sånn at du får gjemt ninjaene! Sitter du fast bør du enten lese oppgaven på nytt eller prøve å finne hjelp på [w3schools.com](http://www.w3schools.com/css/default.asp). Det ligger også et eksempel nederst i denne oppgaven.
 
 __LYKKE TIL!__
 

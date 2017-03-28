@@ -2,6 +2,7 @@
 title: ComputerCraft
 tags:
   tema: [minecraft]
+language: nb
 ---
 
 ComputerCraft er en mod til Minecraft som gir deg muligheten til å

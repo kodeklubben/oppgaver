@@ -2,7 +2,7 @@
 title: "Hvor er HTML? Jeg ser den ikke!"
 level: 1
 author: Teodor Heggelund
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

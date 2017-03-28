@@ -2,6 +2,7 @@
 title: Buzzer
 level: 1
 author: Adrian Helle
+language: nb
 ---
 
 # Introduksjon {.intro}

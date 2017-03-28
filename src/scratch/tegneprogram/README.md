@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Tegneprogram
+language: nb
 ---
 
 # Informasjon til veiledere

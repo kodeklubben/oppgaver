@@ -2,6 +2,7 @@
 title: Straffespark
 level: 1
 author: Erik Kalstad og Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

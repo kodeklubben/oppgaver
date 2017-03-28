@@ -1,8 +1,8 @@
 ---
 title: "Tegning med SVG"
 level: 3
-language: nb-NO
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -133,7 +133,7 @@ main =
 
 - Sjekk at du får en 500x500 px boks i nettleseren din. Slik ser det ut når jeg
   sjekker:
-  
+
   ![](inspect_svg.png)
 
 `viewBox "0 0 200 200"` definerer koordinatsystemet vårt: x er fra 0 til 200 og
@@ -155,7 +155,7 @@ nettsiden vår. Nå kan vi bruke disse til å tegne:
 
 ```elm
       [ circle [ cx "30", cy "50", r "50", fill "blue" ] [  ]
-      , rect [ x "100", y "100", width "80", height "40", fill "red" ] [ ] 
+      , rect [ x "100", y "100", width "80", height "40", fill "red" ] [ ]
 ```
 
 Vi tar `circle` først:
@@ -212,13 +212,13 @@ Nå ser du ikke sirkelen i det hele tatt.
       [ circle -- ...
       , rect -- ...
       ]
-  
+
   -- til noe sånt:
       [ rect -- ...
       , circle -- ...
       ]
   ```
-  
+
 - Ser du noe nå? Hva kommer øverst?
 
 # Steg 2: kurver {.activity}
@@ -261,9 +261,9 @@ import Html exposing (text, h1, p, ul, li)
 ```
 
 ## Tegne skråstrek {.check}
-  
+
 - Legg til en skrå strek gjennom bildet:
-  
+
   ```elm
   [circle [ -- ...
   , rect [ -- ...

@@ -2,6 +2,7 @@
 title: Trigonometri, regulære mangekanter og stjerner
 level: 2
 author: Sigmund Hansen
+language: nb
 ---
 
 # Introduksjon {intro}

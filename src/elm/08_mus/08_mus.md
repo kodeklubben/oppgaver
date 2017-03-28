@@ -1,8 +1,8 @@
 ---
 title: "Kontroller med musen"
 level: 3
-language: nb-NO
 author: Teodor Heggelund
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -41,7 +41,7 @@ model =
 main =
     view model
 
-view model = 
+view model =
     svg
       [ width "500", height "500", viewBox "0 0 200 200" ]
       [ circle [ cx (toString model.position.x)
@@ -110,7 +110,7 @@ main =
     }
 
 
-view model = 
+view model =
     svg
       [ width "500", height "500", viewBox "0 0 200 200" ]
       [ circle [ cx (toString model.position.x)
@@ -125,14 +125,14 @@ type Msg =
 type alias Model =
   { position : Position
   }
-  
+
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
   (model, Cmd.none)
 
 
-subscriptions model = 
+subscriptions model =
   Sub.batch [ Mouse.moves DragAt, Mouse.ups DragEnd ]
 ```
 
@@ -167,7 +167,7 @@ main =
     }
 
 
-view model = 
+view model =
     svg
       [ width "500", height "500", viewBox "0 0 200 200" ]
       [ circle [ cx (toString model.position.x)
@@ -183,7 +183,7 @@ type Msg =
 type alias Model =
   { position : Position
   }
-  
+
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
@@ -194,7 +194,7 @@ update msg model =
 
 
 subscriptions model =
-  Sub.batch [Mouse.moves MouseAt] 
+  Sub.batch [Mouse.moves MouseAt]
 ```
 
 Her er det noe rart! Ballen er ikke samme sted som pekeren. Hvorfor?

@@ -2,6 +2,7 @@
 title: "JS: Trykkomania"
 level: 2
 author: Arve Seljebu
+language: nb
 ---
 
 # Introduksjon {.intro}

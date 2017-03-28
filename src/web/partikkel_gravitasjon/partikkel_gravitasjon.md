@@ -1,6 +1,7 @@
 ---
 title: "JS: Partikkel-gravitasjon"
 level: 3
+language: nb
 ---
 
 # Introduksjon {.intro}

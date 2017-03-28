@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - RGB-lysdiode
+language: nb
 ---
 
 

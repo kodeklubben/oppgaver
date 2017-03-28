@@ -2,6 +2,7 @@
 title: Halloweenimasjon
 level: 1
 author: Torbjørn Skauli og Geir Arne Hjelle
+language: nb
 ---
 
 # Introduksjon {.intro}

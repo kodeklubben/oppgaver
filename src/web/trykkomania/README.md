@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Trykkomania
+language: nb
 ---
 
 # Introduksjon {.intro}

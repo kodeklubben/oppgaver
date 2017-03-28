@@ -2,6 +2,7 @@
 title: CodeStudio
 tags:
   tema: [interaktiv]
+language: nb
 ---
 
 CodeStudio er Code.org sine interaktive oppgaver i nettleser som er
@@ -14,4 +15,3 @@ som passer for nybegynnere på ungdomsskolen.
 ## Videoer
 
 - Code.org har lagt ut mange spennende videoer på engelsk på sin Youtube-kanal [https://www.youtube.com/user/CodeOrg/playlists](https://www.youtube.com/user/CodeOrg/playlists).
-

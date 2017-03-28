@@ -1,6 +1,7 @@
 ---
 title: Kom i gang med Scratch
 author: Geir Arne Hjelle
+language: nb
 ---
 
 # Kom i gang med Scratch {.intro}

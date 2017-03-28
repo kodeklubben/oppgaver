@@ -1,8 +1,8 @@
 ---
 title: "Elm reactor og moduler"
 level: 2
-language: nb-NO
 author: Alexander Perry
+language: nb
 ---
 
 # Introduksjon {.intro}

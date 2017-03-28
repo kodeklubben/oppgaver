@@ -2,6 +2,7 @@
 title: Sprettende ball
 level: 1
 author: Sigmund Hansen
+language: nb
 ---
 
 # Introduksjon: {.intro}

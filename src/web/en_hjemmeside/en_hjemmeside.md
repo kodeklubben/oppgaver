@@ -1,7 +1,7 @@
 ---
 title: "HTML: Vi bygger hjemmeside"
 level: 1
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

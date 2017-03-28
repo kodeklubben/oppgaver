@@ -1,6 +1,7 @@
 ---
 title: Kuprat
 level: 1
+language: nb
 ---
 
 # Introduksjon {.intro}

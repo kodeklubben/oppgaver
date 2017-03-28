@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Krabbeangrep!
+language: nb
 ---
 
 # Informasjon til veiledere

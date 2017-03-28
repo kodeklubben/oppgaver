@@ -1,6 +1,7 @@
 ---
 title: Logo med FXML
 level: 1
+language: nb
 ---
 
 # Introduksjon {.intro}

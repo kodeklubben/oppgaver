@@ -2,6 +2,7 @@
 title: Scratch
 tags:
   tema: [spill]
+language: nb
 ---
 
 Scratch er et grafisk programmeringsspråk som er laget for at barn og

@@ -3,6 +3,7 @@ title: "Bruk data: Jente- og guttenavn"
 level: 2
 author: Geir Arne Hjelle
 indexed: false
+language: nb
 ---
 
 # Introduksjon {.intro}

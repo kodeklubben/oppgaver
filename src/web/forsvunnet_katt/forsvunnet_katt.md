@@ -1,7 +1,7 @@
 ---
 title: "HTML: Forsvunnet katt"
 level: 2
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}

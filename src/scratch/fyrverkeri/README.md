@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Fyrverkeri
+language: nb
 ---
 
 # Informasjon til veiledere

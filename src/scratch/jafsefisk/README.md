@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - JafseFisk
+language: nb
 ---
 
 # Informasjon til veiledere

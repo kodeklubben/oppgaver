@@ -2,6 +2,7 @@
 title: Blinkende lysdiode
 level: 1
 author: Adrian Helle
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -61,7 +62,7 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 + 1 Arduino Uno
 + 1 breadboard
 + 1 motstand 220 Ohm (Fargekode: rød-rød-brun-gull)
-  
+
   ![](komp.jpg)
 
 ## Sjekkliste {.check}

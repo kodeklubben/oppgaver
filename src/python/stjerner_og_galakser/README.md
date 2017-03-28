@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Stjerner og galakser
+language: en
 ---
 # Introduction:
 This project teaches functions and parameter passing, by creating and using functions to draw customisable shapes and patterns.

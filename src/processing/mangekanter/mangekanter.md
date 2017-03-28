@@ -2,6 +2,7 @@
 title: Kanter, kanter, mange mangekanter
 level: 2
 author: Sigmund Hansen
+language: nb
 ---
 
 # Introduksjon: {.intro}

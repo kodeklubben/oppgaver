@@ -3,6 +3,7 @@ title: Roterende firkant
 author: H. Kaurel
 indexed: false
 level: 4
+language: nb
 ---
 # Introduksjon {.intro}
 I denne oppgaven skal du få en enkel introduksjon til hvordan man kan lage 3D-grafikk ved hjelp av python og OpenGL. Målet med denne oppgaven er å lage en kube som roterer, enkelt og greit.

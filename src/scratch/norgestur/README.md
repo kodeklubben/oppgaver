@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Norgestur
+language: nb
 ---
 
 # Informasjon til veiledere

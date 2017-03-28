@@ -2,6 +2,7 @@
 title: Noen kule modder
 level: 2
 author: Pål G. Solheim
+language: nb
 ---
 
 # Introduksjon {.intro}

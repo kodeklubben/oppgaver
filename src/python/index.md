@@ -2,6 +2,7 @@
 title: Python
 tags:
   tema: [animasjon, spill]
+language: nb
 ---
 
 Python er et tekstbasert programmeringsspråk som ble utviklet tidlig på 90-tallet av

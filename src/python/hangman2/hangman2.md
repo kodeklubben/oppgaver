@@ -2,6 +2,7 @@
 title: PGZ - Hangman
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 level: 4
+language: nb
 ---
 
 # Introduksjon {.intro}

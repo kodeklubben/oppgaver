@@ -2,6 +2,7 @@
 title: Redd verden
 level: 2
 author: Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)
+language: nb
 ---
 
 # Introduksjon {.intro}

@@ -1,7 +1,7 @@
 ---
 title: "HTML: Del inn nettsiden"
 level: 3
-language: nb-NO
+language: nb
 ---
 
 # Introduksjon {.intro}
@@ -259,7 +259,7 @@ Under ser du hvordan du kan legge til CSS i `<head>`-taggen med 3 IDer:
 
 Det finnes flere måter å skive farger i CSS på. Vi har nå brukt kjente ord som `red`, `blue`og `green`. Men vi kan faktisk lage 16 millioner forskjellige farger ved å bruke en annen metode. For å lage dise fargene skal vi bruke tall fra 0-9 og bokstaver fra A-Z. Vi setter disse sammen i en kombinasjon av 6 tall og/eller bokstaver. Siden det tar veldig lang tid å prøve ut alle kombinasjonene, så bruker vi litt hjelp for å finne de fargene vi vil ha:
 
-+ Gå inn på [paletton.com](http://paletton.com) eller [colourpicker.com](http://colourpicker.com) og velg og vrak i masse forskjellige farger.
++ Gå inn på [paletton.com](http://paletton.com) eller [colorpicker.com](http://colorpicker.com) og velg og vrak i masse forskjellige farger.
 + Erstatt de fargene du har med noen andre du liker ved å bruke `#` foran de 6 tall/bokstavene. Eksempel: `#338F33` gir en ganske fin grønnfarge.
 
 <toggle>

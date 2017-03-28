@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Halloweenimasjon
+language: nb
 ---
 
 # Informasjon til veiledere

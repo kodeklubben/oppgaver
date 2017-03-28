@@ -3,6 +3,7 @@ title: Oppgaver
 template: index.jade
 license: false
 footer: "[Bidra?](https://github.com/kodeklubben/oppgaver) [![Sponset av Sparebank1 Midt-Norge](smn.jpg) ![Sponset av ibok](ibok.jpg)](http://www.kidsakoder.no/2015/07/03/kodeklubben-trondheim-utvikler-materiell-i-sommer/) [kidsakoder.no](http://www.kidsakoder.no/) [Last ned alle kurs som zip-fil](https://github.com/kodeklubben/kodeklubben.github.io/archive/master.zip)"
+language: nb
 teacherInfo: {
   teacher: "Hei, så flink lærer du er!",
   assistant: "Assistenter er også flinke!"
