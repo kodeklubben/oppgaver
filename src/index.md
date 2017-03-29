@@ -7,7 +7,6 @@ language: nb
 info: {
   teacher: "Hei, så flink lærer du er!",
   assistant: "Assistenter er også flinke!",
-  elev: "Hei, så flink lærer du er!",
   student: "Studenter er også flinke!"
 }
 ---
