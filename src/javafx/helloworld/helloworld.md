@@ -1,5 +1,6 @@
 ---
 title: Hello world
+author: Hallvard Trætteberg
 level: 1
 language: nb
 ---

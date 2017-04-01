@@ -1,5 +1,6 @@
 ---
 title: "JS: Partikkel-gravitasjon"
+author: Lars Klingenberg
 level: 3
 language: nb
 ---

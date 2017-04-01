@@ -1,5 +1,6 @@
 ---
 title: Skilpaddefraktaler
+author: Geir Arne Hjelle
 level: 3
 language: nb
 ---

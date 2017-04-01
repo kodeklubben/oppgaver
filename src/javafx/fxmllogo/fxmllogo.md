@@ -1,5 +1,6 @@
 ---
 title: Logo med FXML
+author: Hallvard Trætteberg
 level: 1
 language: nb
 ---

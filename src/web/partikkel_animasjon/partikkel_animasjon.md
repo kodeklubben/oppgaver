@@ -1,5 +1,6 @@
 ---
 title: "JS: Partikkel-animasjon"
+author: Lars Klingenberg
 level: 2
 language: nb
 ---

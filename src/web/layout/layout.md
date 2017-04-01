@@ -1,5 +1,6 @@
 ---
 title: "CSS: Layout"
+author: Lars Klingenberg
 level: 4
 language: nb
 ---

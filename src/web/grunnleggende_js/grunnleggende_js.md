@@ -1,7 +1,7 @@
 ---
 title: "JS: Grunnleggende JavaScript"
 level: 2
-Author: Lars Klingenberg
+author: Lars Klingenberg
 language: nb
 ---
 
