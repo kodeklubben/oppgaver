@@ -2,7 +2,6 @@
 title: "Bruk data: Jente- og guttenavn"
 level: 2
 author: Geir Arne Hjelle
-indexed: false
 language: nb
 ---
 
@@ -148,8 +147,7 @@ __Klikk på koden din.__
 ## Prøv selv {.try}
 
 + Dette er et veldig enkelt eksempel på hva man kan gjøre med navnelistene (og
-  det har noen problemer: for eksempel må vi skrive inn navnet med stor
-  forbokstav ellers finner ikke katten det. Den finner heller ikke dobbeltnavn
+  det har noen problemer: for eksempel finner ikke katten dobbeltnavn
   som `Geir Arne`). Har du noen ideer til hvordan du kan bruke navnelistene på
   en enda mer spennende måte?
 
