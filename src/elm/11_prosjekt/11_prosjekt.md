@@ -61,7 +61,7 @@ subscriptions model =
 
 Muligheter:
   
-- Prøv [Ellie](https://ellie-app.com/new)! 
+- Prøv [Ellie](https://ellie-app.com/P7GZ5mV9Lja1/0)! 
 
 - Kjør lokalt:
 
