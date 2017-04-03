@@ -2,7 +2,7 @@
 title: Oppgaver
 template: index.jade
 license: false
-footer: "[Bidra?](https://github.com/kodeklubben/oppgaver) [![Sponset av Sparebank1 Midt-Norge](smn.jpg) ![Sponset av ibok](ibok.jpg)](http://www.kidsakoder.no/2015/07/03/kodeklubben-trondheim-utvikler-materiell-i-sommer/) [kidsakoder.no](http://www.kidsakoder.no/) [Last ned alle kurs som zip-fil](https://github.com/kodeklubben/kodeklubben.github.io/archive/master.zip)"
+footer: "[Bidra?](https://github.com/kodeklubben/oppgaver) &mdash; [kidsakoder.no](http://www.kidsakoder.no/) &mdash; [Last ned alle kurs som zip-fil](https://github.com/kodeklubben/kodeklubben.github.io/archive/master.zip)<br/>Sponsorer: [![Sponset av Sparebank1 Midt-Norge](sponsorer/smn.jpg) ![Sponset av ibok](sponsorer/ibok.jpg)](http://www.kidsakoder.no/2015/07/03/kodeklubben-trondheim-utvikler-materiell-i-sommer/) [![Sponset av Teknograd](sponsorer/teknograd.png)](https://www.teknograd.no/) [![Sponset av NTNU IDI](sponsorer/ntnu_idi.png)](https://www.ntnu.edu/idi/) [![Sponset av ExcITEd](sponsorer/excITEd.png)](http://www.ntnu.edu/web/excited/) [![Sponset av UiO IFI](sponsorer/uio_ifi.png)](http://www.mn.uio.no/ifi/)"
 language: nb
 info:
   teacher: "Sjekk ut våre filtre og oppgaveveiledninger. På venstre side kan du filtrere på ulike skole-fag, for å finne relevante oppgaver til din undervisning. Når du har huket av for fag så vil du kun se kun de oppgavene som våre lærere har vurdert som relevante, og du kan velge hvilket språk du vil undervise i. Hvert oppgavesett har en veiledning, og der finner du bl.a. hvilke konkrete læreplanmål man kan jobbe med i de ulike fagene."
