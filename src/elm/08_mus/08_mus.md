@@ -133,10 +133,10 @@ update msg model =
 
 
 subscriptions model =
-  Sub.batch [ Mouse.moves DragAt, Mouse.ups DragEnd ]
+  Sub.batch [ ]
 ```
 
-# Steg 3: koble på musen {.activity}
+# Steg 3: Koble på musen {.activity}
 
 Vi kobler på mus:
 
