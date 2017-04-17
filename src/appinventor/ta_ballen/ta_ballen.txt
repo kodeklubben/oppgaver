@@ -1,0 +1,15 @@
+---
+title: Ta ballen
+level: 1
+author: Tjerand Silde
+---
+
+# Introduksjon {.intro}
+Dette er en introduksjon til MIT App Inventor, hvor vi skal lære å 
+lage applikasjoner til Android. Å lage apps i MIT App Inventor er en ganske
+enkel måte å lage apps på, men vi anbefaler at en er godt kjent med programmering
+i Scratch før en prøver ut dette, samt kan litt engelsk. Før vi kan lage våre egne 
+apps, må vi sette opp MIT App Inventor og bli litt kjent med hvordan det fungerer.
+
+# Steg 1: Logge inn på MIT App Inventor {.activity}
+hhhhh
