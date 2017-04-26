@@ -66,12 +66,12 @@ I denne kodesnutten ser du at vi bruker `while`. Dette er en løkke, og brukes f
 
 `while` fungerer ved at koden repeteres så lenge uttrykket i parenteser er sant. Du kan tenke på det som en gjentagende `if`-test.
 
-[ ] Som vi ser av koden starter `led` med verdien 9. Siden 9 er mindre en 11 er uttrykket sant, og vi kjører koden inne i
++ Som vi ser av koden starter `led` med verdien 9. Siden 9 er mindre en 11 er uttrykket sant, og vi kjører koden inne i
   løkka. På slutten av løkka skriver vi `++led`, som øker verdien av `led` til 10.
-[ ] Deretter sjekker vi igjen om `led <= 11`. Siden 10 er mindre enn 11 går vi inn i løkka igjen, og kjører koden igjen. På slutten av løkka økes `led`
++ Deretter sjekker vi igjen om `led <= 11`. Siden 10 er mindre enn 11 går vi inn i løkka igjen, og kjører koden igjen. På slutten av løkka økes `led`
   på nytt, denne gangen til 11.
-[ ] Når vi så tester `led <= 11` er `led` lik 11, som gjør at vi kjører koden enda en gang. På slutten av løkka øker vi nå `led` til 12.
-[ ] Når vi til slutt sjekker om `led <= 11` er ikke lenger uttrykket sant, siden 12 er større enn 11. Derfor går vi ikke lenger inn i løkka, men fortsetter videre i funksjonen vi er i.
++ Når vi så tester `led <= 11` er `led` lik 11, som gjør at vi kjører koden enda en gang. På slutten av løkka øker vi nå `led` til 12.
++ Når vi til slutt sjekker om `led <= 11` er ikke lenger uttrykket sant, siden 12 er større enn 11. Derfor går vi ikke lenger inn i løkka, men fortsetter videre i funksjonen vi er i.
 
 
 # `for`-løkker
