@@ -36,9 +36,9 @@ under.
 
 ## Sjekkliste {.check}
 
-+ Ledning fra GND på Arduinoen til den negative lederen på buzzeren
-+ Ledning fra 11~ på Arduinoen til motstand
-+ Motstand til den positive lederen på buzzeren
+[ ] Ledning fra GND på Arduinoen til den negative lederen på buzzeren
+[ ] Ledning fra 11~ på Arduinoen til motstand
+[ ] Motstand til den positive lederen på buzzeren
 
 ## Porter merket med ~ {.protip}
 
@@ -52,8 +52,8 @@ og kan blant annet brukes for å spille lyder.
 
 ## Sjekkliste {.check}
 
-+ Åpne Arduino-programmet om det ikke allerede er åpent.
-+ Arduino-programmet starter med denne koden:
+[ ] Åpne Arduino-programmet om det ikke allerede er åpent.
+[ ] Arduino-programmet starter med denne koden:
 
   ```cpp
   void setup(){
@@ -65,7 +65,7 @@ og kan blant annet brukes for å spille lyder.
   }
   ```
 
-+ Skriv denne koden:
+[ ] Skriv denne koden:
 
   ```cpp
   int lyd = 11;
@@ -79,18 +79,18 @@ og kan blant annet brukes for å spille lyder.
   }
   ```
 
-+ Trykk på ![](upload.png) for å laste opp koden. Denne sjekker først om koden
+[ ] Trykk på ![](upload.png) for å laste opp koden. Denne sjekker først om koden
 er riktig, og så vil programmet ditt kjøre på arduinoen.
-+ Lager den lyd?
+[ ] Lager den lyd?
 
 ### Virker det ikke? {.protip}
 
 Hvis det ikke virker, så kan det hende at Arduino-programmet står på feil __port__
 og/eller __brett__. Da kan du sjekke disse to tingene:
 
-+ Brett er satt riktig: __Tools -> Board -> Arduino/Genuino Uno__
+[ ] Brett er satt riktig: __Tools -> Board -> Arduino/Genuino Uno__
 
-+ Port er satt riktig:
+[ ] Port er satt riktig:
 	+ Windows: __Tools -> Port -> COM1__ (kan være et annet tall)
 	![](port.png)
 	+ Mac: __Tools -> Port ->/dev/tty.usbmodem262471__ (kan være et annet tall)
@@ -100,7 +100,7 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
 ### Utfordringer {.challenge}
 
-+ Hva skjer hvis du endrer tallet 880 til et annet?
+[ ] Hva skjer hvis du endrer tallet 880 til et annet?
 
 # Steg 4: Bruk en lysfølsom motstand til å styre lyden {.activity}
 
@@ -114,10 +114,10 @@ og følg sjekklisten!
 
 ## Sjekkliste {.check}
 
-+ La alle de andre komponentene være som før
-+ Ledning fra en fot på lysfølsom motstanden til A5 på arduinoen
-+ Ledning fra fot på lysfølsom motstand til GND
-+ Skriv  koden under:
+[ ] La alle de andre komponentene være som før
+[ ] Ledning fra en fot på lysfølsom motstanden til A5 på arduinoen
+[ ] Ledning fra fot på lysfølsom motstand til GND
+[ ] Skriv  koden under:
 
 ```cpp
 int lyd = 11;
@@ -140,9 +140,9 @@ Se der! Nå har du lært å lage litt lyd med Arduino!
 ### Utfordringer {.challenge}
 Her er noen nøtter du kan prøve deg på ved å endre koden.
 
-+ Hva skjer hvis du endrer verdien til delay?
-+ Kan du få en lysdiode til å lyse med forskjellig intensitet gitt forskjellige toner?
-+ Klarer du å bruke knapper for å spille forksjellige toner?
+[ ] Hva skjer hvis du endrer verdien til delay?
+[ ] Kan du få en lysdiode til å lyse med forskjellig intensitet gitt forskjellige toner?
+[ ] Klarer du å bruke knapper for å spille forksjellige toner?
 
 ### Map {.protip}
 
@@ -159,4 +159,4 @@ og en lysstyrke på 512 gir 1500.
 
 ### Utfording (Vanskelig) {.challenge}
 
-+ Kan du bytte ut `analogRead(lys)*3.2` til å bruke map?
+[ ] Kan du bytte ut `analogRead(lys)*3.2` til å bruke map?

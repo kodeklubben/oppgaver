@@ -31,10 +31,10 @@ kan bruke `for`-løkker for å gjenta ting.
 
 ## Sjekkliste {.check}
 
-+ Lag en robot, gi den fuel og legg en del byggemateriell i robotens
+[ ] Lag en robot, gi den fuel og legg en del byggemateriell i robotens
   inventory.
 
-+ Lag et nytt program, `edit byggmitthus`, og skriv den følgende koden:
+[ ] Lag et nytt program, `edit byggmitthus`, og skriv den følgende koden:
 
   ```lua
   for i = 1, 5 do
@@ -65,7 +65,7 @@ Et par små tips:
 
 ## Sjekkliste {.check}
 
-+ Når du har laget et enkelt hus så vis det frem til de andre. Hvilke
+[ ] Når du har laget et enkelt hus så vis det frem til de andre. Hvilke
   problemer fikk dere underveis?
 
   Ingen skriver programmer riktig første gangen, og det er veldig
@@ -85,7 +85,7 @@ tenkt. Et eksempel på dette er i den følgende koden, hvor meningen var
 
 ## Sjekkliste {.check}
 
-+ Skriv programmet `grunnmur` med koden
+[ ] Skriv programmet `grunnmur` med koden
 
   ```lua
   for i = 1, 4 do
@@ -99,7 +99,7 @@ tenkt. Et eksempel på dette er i den følgende koden, hvor meningen var
 
   Lagre og kjør programmet? Ser du problemet?
 
-+ På slutten av byggingen av grunnmuren krasjer roboten inn i muren vi
+[ ] På slutten av byggingen av grunnmuren krasjer roboten inn i muren vi
   allerede har bygd, slik at den ikke får bygd den siste klossen. En
   smart måte å unngå dette problemet på er å la roboten fly over
   bakken, mens den plasserer klosser under seg med
@@ -136,7 +136,7 @@ etterhvert som du skriver det inn.
 
 ## Sjekkliste {.check}
 
-+ Lag et nytt program `bygghus`. Vi begynner med en enkel stripe:
+[ ] Lag et nytt program `bygghus`. Vi begynner med en enkel stripe:
 
   ```lua
   turtle.up()
@@ -146,7 +146,7 @@ etterhvert som du skriver det inn.
   end
   ```
 
-+ For å bygge en vegg vil vi bygge flere slike striper på toppen av
+[ ] For å bygge en vegg vil vi bygge flere slike striper på toppen av
   hverandre. En enkel måte å gjøre dette på er å la roboten rygge
   tilbake med `turtle.back()` for å bygge neste stripe.
 
@@ -164,7 +164,7 @@ etterhvert som du skriver det inn.
   end                                           -- ny linje
   ```
 
-+ Før vi fortsetter med programmet vårt vil vi også introdusere et par
+[ ] Før vi fortsetter med programmet vårt vil vi også introdusere et par
   variabler som kan forklare hva tallene `3` og `5` betyr. Dette vil
   også gjøre det enklere for oss å endre størrelsen på veggen senere.
 
@@ -205,7 +205,7 @@ kan bruke på samme måte som de innebygde kommandoene (som for eksempel
 
 ## Sjekkliste {.check}
 
-+ Vi definerer en funksjon ved hjelp av den innebygde kommandoen
+[ ] Vi definerer en funksjon ved hjelp av den innebygde kommandoen
   `function`.
 
   ```lua
@@ -227,7 +227,7 @@ kan bruke på samme måte som de innebygde kommandoene (som for eksempel
   end                                           -- ny linje
   ```
 
-+ Om du kjører programmet slik det er nå vil du se at roboten ikke
+[ ] Om du kjører programmet slik det er nå vil du se at roboten ikke
   gjør noenting. Det er fordi vi bare har *definert* funksjonen, det
   vil si vi har fortalt roboten hvordan den kan bygge en vegg. Vi har
   ikke sagt til roboten at den faktisk skal bygge veggen. Legg til den
@@ -239,7 +239,7 @@ kan bruke på samme måte som de innebygde kommandoene (som for eksempel
 
   Nå sier vi at roboten også skal bygge veggen.
 
-+ En veldig nyttig ting med funksjoner er at vi kan la variablene være
+[ ] En veldig nyttig ting med funksjoner er at vi kan la variablene være
   noe som heter parametre. I praksis betyr det at vi bestemmer verdien
   på variablene utenfor selve funksjonen. Endre programmet ditt slik
   at det ser ut som dette, pass på at du sletter de to linjene som
@@ -275,7 +275,7 @@ bygge et enkelt hus. La oss prøve å sette sammen fire vegger!
 
 ## Sjekkliste {.check}
 
-+ Vi begynner enkelt. La oss prøve å bygge en vegg, snu roboten, bygge
+[ ] Vi begynner enkelt. La oss prøve å bygge en vegg, snu roboten, bygge
   en ny vegg og så videre. Bytt ut den siste linjen `byggVegg(3, 5)` i
   programmet ditt med den følgende løkken:
 
@@ -290,7 +290,7 @@ bygge et enkelt hus. La oss prøve å sette sammen fire vegger!
 
   ![](firevegger.png)
 
-+ Hmm ... det ble jo litt stilig, men et hus er det definitivt
+[ ] Hmm ... det ble jo litt stilig, men et hus er det definitivt
   ikke. Problemet er at vi ikke har tenkt gjennom hvor roboten er
   etter at den er ferdig med å bygge en vegg.
 
@@ -321,7 +321,7 @@ bygge et enkelt hus. La oss prøve å sette sammen fire vegger!
   end
   ```
 
-+ Programmet vårt klarer nesten å bygge et hus av fire vegger. Men
+[ ] Programmet vårt klarer nesten å bygge et hus av fire vegger. Men
   igjen får vi et lite problem med at roboten krasjer inn i ting den
   har bygd tidligere. Vi må rett og slett være litt mer forsiktige med
   at roboten ikke går mer enn den trenger.
@@ -365,7 +365,7 @@ vil den bare bruke en av dem. Ved hjelp av funksjonene
 
 ## Sjekkliste {.check}
 
-+ Vi vil nå lage en ny funksjon som sjekker at det er materiale
+[ ] Vi vil nå lage en ny funksjon som sjekker at det er materiale
   tilgjengelig før den plasserer det ut. Nedenfor har vi byttet ut
   `turtle.placeDown()` med et kall på vår egen funksjon `plasser()`:
 
@@ -425,7 +425,7 @@ vil den bare bruke en av dem. Ved hjelp av funksjonene
   `turtle.select()` til å velge den neste sloten. Hvis vi allerede
   er på den siste sloten velger vi heller den første.
 
-+ Kjør programmet. Hva skjer når roboten går helt tom for
+[ ] Kjør programmet. Hva skjer når roboten går helt tom for
   byggemateriale? Den blir da bare stående å vente på at du skal fylle
   den opp med nytt materiale.
 
@@ -443,7 +443,7 @@ Nå er det på tide å lære roboten hvordan den bygger tak på huset vårt!
 
 ## Sjekkliste {.check}
 
-+ Før vi begynner å bygge taket vil vi flytte koden som bygger huset
+[ ] Før vi begynner å bygge taket vil vi flytte koden som bygger huset
   til en egen funksjon, på samme måte som vi gjorde med `byggVegg()`
   tidligere. Bytt den nederste løkken i koden din (den som faktisk
   bygger veggene dine) med den følgende koden:
@@ -466,14 +466,14 @@ Nå er det på tide å lære roboten hvordan den bygger tak på huset vårt!
   Ser du hvorfor vi bruker `bredde - 1` i stedet for `bredde`? Sjekk
   at huset ditt får riktig størrelse med denne koden!
 
-+ Nå kan vi lage en ny funksjon `byggTak()`. Legg først til denne
+[ ] Nå kan vi lage en ny funksjon `byggTak()`. Legg først til denne
   linjen nederst i `byggHus()`-funksjonen din:
 
   ```lua
   byggTak(bredde, dybde)
   ```
 
-+ Selve funksjonen for å bygge taket kan være ganske lik funksjonen
+[ ] Selve funksjonen for å bygge taket kan være ganske lik funksjonen
   for å bygge en vegg. Forskjellen er at der veggen står oppover, vil
   taket ligge flatt. Legg til funksjonen `byggTak` i koden din:
 
@@ -503,7 +503,7 @@ dette ligner et skikkelig hus er dører og vinduer.
 
 ## Sjekkliste {.check}
 
-+ Vi velger en relativt enkel løsning denne gangen, og lar roboten
+[ ] Vi velger en relativt enkel løsning denne gangen, og lar roboten
   rett og slett lage hull der dørene og vinduene skal være. Siden vi
   ikke vil ha dører på alle veggene, og vil ha litt mulighet til å
   velge hvor vinduene skal være, lager vi to nye parametre til
@@ -540,7 +540,7 @@ dette ligner et skikkelig hus er dører og vinduer.
   Med den nye `if`-testen lager vi en dør ved å ikke bygge de to
   nederste klossene, mens vinduene lages i høyde 2.
 
-+ Vi må til slutt også endre koden i `byggHus()` som kaller
+[ ] Vi må til slutt også endre koden i `byggHus()` som kaller
   `byggVegg()`:
 
   ```lua
@@ -576,7 +576,7 @@ være når vi starter programmet.
 
 ## Sjekkliste {.check}
 
-+ Bytt ut linjen `byggHus(3, 5, 4)` med det følgende:
+[ ] Bytt ut linjen `byggHus(3, 5, 4)` med det følgende:
 
   ```lua
   local tArgs = { ... }
@@ -593,7 +593,7 @@ være når vi starter programmet.
   Dette kan virke litt mystisk, og vi skal ikke forklare alt som
   skjer her nå. Vi vil komme tilbake til dette i senere leksjoner.
 
-+ Om du prøver å kjøre programmet ditt ved å bare skrive `bygghus` nå
+[ ] Om du prøver å kjøre programmet ditt ved å bare skrive `bygghus` nå
   vil du få en melding om at du også må oppgi høyde, bredde og dybde.
   Prøv for eksempel å skrive `bygghus 3 5 4` for å starte
   husbyggeroboten.

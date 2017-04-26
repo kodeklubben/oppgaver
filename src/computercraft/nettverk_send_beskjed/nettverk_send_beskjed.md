@@ -44,7 +44,7 @@ For mer detaljert informasjon, se på wikien til [ComputerCraft](http://computer
 Nå skal vi bruke *Sendulf* og *MaxMottak* til å sende beskjeder. Siden kontrolleren aktivt skal sende beskjeder, blir *Sendulf* klienten vår, mens *MaxMottak* er serveren.
 
 
-+ Sjekk id på *MaxMottak*. Min *MaxMottak* svarte følgende:
+[ ] Sjekk id på *MaxMottak*. Min *MaxMottak* svarte følgende:
 
   ```
   > id
@@ -52,14 +52,14 @@ Nå skal vi bruke *Sendulf* og *MaxMottak* til å sende beskjeder. Siden kontrol
   This computer is labelled "MaxMottak"
   ```
 
-+ Sjekk plassering av modem på *MaxMottak*. Min svarte:
+[ ] Sjekk plassering av modem på *MaxMottak*. Min svarte:
 
   ```
   > peripherals
   left (modem)
   ```
 
-+ Start lua-tolkeren:
+[ ] Start lua-tolkeren:
 
   ```
   > lua
@@ -68,7 +68,7 @@ Nå skal vi bruke *Sendulf* og *MaxMottak* til å sende beskjeder. Siden kontrol
   lua>
   ```
 
-+ Koble til `rednet` og vent på beskjed. Husker du hvor modemet var plassert?
+[ ] Koble til `rednet` og vent på beskjed. Husker du hvor modemet var plassert?
 
   ```lua
   lua> rednet.open("left")
@@ -81,11 +81,11 @@ Hva er tallet som går inn i `receive`-funksjonen? Hva skjer når du putter inn 
 
 ## Steg 3: Send beskjed
 
-+ Sjekk hvor modemet var plassert på *Sendulf*
+[ ] Sjekk hvor modemet var plassert på *Sendulf*
 
-+ Start lua-tolkeren på *Sendulf*. Hvor var modemet? Må du kalle `rednet.open("left")`, `rednet.open("right")` eller `rednet.open("back")`?
+[ ] Start lua-tolkeren på *Sendulf*. Hvor var modemet? Må du kalle `rednet.open("left")`, `rednet.open("right")` eller `rednet.open("back")`?
 
-+ Hva var id-en til din *MaxMottak*? Denne trenger vi når vi skal sende informasjon. Min var 5. Jeg bruker derfor 5 når jeg sender beskjeden min:
+[ ] Hva var id-en til din *MaxMottak*? Denne trenger vi når vi skal sende informasjon. Min var 5. Jeg bruker derfor 5 når jeg sender beskjeden min:
 
   ```lua
   rednet.send(5, "Hello, MaxMottak! Dette er Sendulf! Kan du høre meg?")
@@ -97,6 +97,6 @@ Hva er tallet som går inn i `receive`-funksjonen? Hva skjer når du putter inn 
 
 ## Test selv! {.flag}
 
-+ Ser du beskjeden du har sendt på *MaxMottak*?
-+ Hva må du gjøre for å sende flere beskjeder etter hverandre?
-+ Worker viser et tall i tillegg til beskjeden du sendte. Hva er tallet?
+[ ] Ser du beskjeden du har sendt på *MaxMottak*?
+[ ] Hva må du gjøre for å sende flere beskjeder etter hverandre?
+[ ] Worker viser et tall i tillegg til beskjeden du sendte. Hva er tallet?

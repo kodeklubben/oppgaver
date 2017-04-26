@@ -23,7 +23,7 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
 
 ## Sjekkliste {.check}
 
-+ Start et nytt program ved å skrive `edit skattejakt`, skriv inn
+[ ] Start et nytt program ved å skrive `edit skattejakt`, skriv inn
   det følgende:
 
   ```lua
@@ -38,7 +38,7 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
   Lagre og kjør programmet. Skjønner du hva det gjør? Prøv å
   forandre verdiene av `x` og `y` og kjør igjen.
 
-+ Så langt skriver programmet bare ut en `O` på en gitt posisjon. Nå
+[ ] Så langt skriver programmet bare ut en `O` på en gitt posisjon. Nå
   vil vi bruke hendelser for å kunne flytte denne figuren rundt på
   skjermen.
 
@@ -71,7 +71,7 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
   du at om du trykker samme tast får du samme tall tilbake. For
   eksempel er `A` alltid 30, mens `pil opp` alltid er 200.
 
-+ Vi trenger heldigvis ikke huske disse kodene. Biblioteket `keys`
+[ ] Vi trenger heldigvis ikke huske disse kodene. Biblioteket `keys`
   kjenner alle disse, og gjør at vi kan skrive for eksempel `keys.q`
   for å representere `Q`-tasten. Endre programmet ditt igjen:
 
@@ -91,7 +91,7 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
   end                                           -- ny linje
   ```
 
-+ Vi kan nå lage en løkke hvor vi alltid sjekker hvilken tast som er
+[ ] Vi kan nå lage en løkke hvor vi alltid sjekker hvilken tast som er
   trykket. Dersom tasten `Q` trykkes avslutter vi løkken med `break`.
 
   ```lua
@@ -114,7 +114,7 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
   noe før du trykker `Q`, siden det er den eneste hendelsen vi
   har kode som reagerer på.
 
-+ Vi er nå klare til å sjekke om piltastene trykkes, og flytte figuren
+[ ] Vi er nå klare til å sjekke om piltastene trykkes, og flytte figuren
   rundt på skjermen. For å gjøre dette trenger vi bare å endre
   verdiene av `x` og `y` avhengig av hvilken piltast som trykkes.
 
@@ -149,7 +149,7 @@ da å sammenligne med kodene `keys.left`, `keys.down` og
 
 ## Sjekkliste {.check}
 
-+ Til slutt vil vi legge til en skatt som figuren vår skal lete
+[ ] Til slutt vil vi legge til en skatt som figuren vår skal lete
   etter. Vi bruker tilfeldige tall for å bestemme hvor skatten skal
   ligge. Endre begynnelsen av programmet ditt som følger:
 
@@ -199,10 +199,10 @@ se på noen enkle kommandoer for å kopiere og flytte filer.
 
 ## Sjekkliste {.check}
 
-+ Lag en ny __Computer__, sett den ut og start den ved å høyre-klikke
+[ ] Lag en ny __Computer__, sett den ut og start den ved å høyre-klikke
   på den.
 
-+ Kommandoen `dir` brukes for å se på innholdet i en katalog (dir er
+[ ] Kommandoen `dir` brukes for å se på innholdet i en katalog (dir er
   en forkortelse for *directory* som betyr *katalog*). Prøv den nå!
   Skriv `dir` og trykk enter.
 
@@ -212,26 +212,26 @@ se på noen enkle kommandoer for å kopiere og flytte filer.
   betyr *kun-lese-minne* eller *skrivebeskyttet minne*). Vi skal se
   mer på denne katalogen senere.
 
-+ Når du bruker `dir` er det vanskelig å se forskjell på filer og
+[ ] Når du bruker `dir` er det vanskelig å se forskjell på filer og
   kataloger. Til dette kan du bruke `type`. Prøv for eksempel å skriv
   `type skattejakt`. Datamaskinen vil da fortelle deg at
   **skattejakt** er en fil. Tilsvarende vil `type rom` fortelle deg at
   **rom** er en katalog.
 
-+ Du kan lage egne kataloger om du vil, for å organisere filene dine
+[ ] Du kan lage egne kataloger om du vil, for å organisere filene dine
   bedre. Skriv `mkdir mine_programmer`. Kommandoen `mkdir` lager nye
   kataloger (mkdir er en forkortelse for *make directory* som betyr
   *lag katalog*). Du kan bekrefte at katalogen **mine_programmer** ble
   laget ved å skrive `dir` og `type mine_programmer`.
 
-+ Kommandoen `move` flytter filer. Skriv `move skattejakt
+[ ] Kommandoen `move` flytter filer. Skriv `move skattejakt
   mine_programmer`.  Dette flytter filen **skattejakt** inn i
   katalogen **mine_programmer**. Hvis du nå skriver `dir` vil du se at
   **skattejakt** har blitt borte. For å sjekke at den ble flyttet
   riktig kan du skrive `dir mine_programmer`. Dette viser alle filene
   og katalogene som finnes inne i katalogen **mine_programmer**.
 
-+ Vi kan også flytte oss rundt i filsystemet. Dette vil si at vi
+[ ] Vi kan også flytte oss rundt i filsystemet. Dette vil si at vi
   endrer hvilken katalog som er utgangspunktet vårt (for eksempel når
   vi skriver `dir`). Til dette bruker vi `cd` (cd er en forkortelse
   for *change directory* som betyr *endre katalog*). Skriv
@@ -272,7 +272,7 @@ tryggere.
 
 ## Sjekkliste {.check}
 
-+ Om du ikke allerede har gjort det: Sett opp en datamaskin ved siden
+[ ] Om du ikke allerede har gjort det: Sett opp en datamaskin ved siden
   av en dør og legg inn passord-programmet datamaskinen, det vil si
   skriv `edit passord` og skriv inn følgende:
 
@@ -295,7 +295,7 @@ tryggere.
 
   Kjør programmet, og sjekk at det virker som det skal.
 
-+ Når en datamaskin starter sjekker den først om det finnes et program
+[ ] Når en datamaskin starter sjekker den først om det finnes et program
   som heter `startup` (*startup* betyr *oppstart*). Om den finner
   dette programmet kjøres dette før noe annet skjer. Det betyr at om
   vi kaller passord-programmet vårt for **startup** så vil det kjøre
@@ -306,7 +306,7 @@ tryggere.
   å skrive `reboot`. Datamaskinen vil nå direkte spørre deg om
   passordet.
 
-+ Trykk `Ctrl-T` for å stanse passord-programmet. At vi kan bruke
+[ ] Trykk `Ctrl-T` for å stanse passord-programmet. At vi kan bruke
   `Ctrl-T` til å avslutte programmer er noe `os.pullEvent` gjør for
   oss automatisk uten at vi trenger å gjøre noe. Dersom vi ikke vil at
   dette skal være mulig kan vi bytte ut `os.pullEvent` med noe som
@@ -333,7 +333,7 @@ tryggere.
   end
   ```
 
-+ Du kan nå starte datamaskinen på nytt igjen med `reboot`. Nå har du
+[ ] Du kan nå starte datamaskinen på nytt igjen med `reboot`. Nå har du
   en datamaskin som bare spør om passord hele tiden!
 
   Vær litt forsiktig med dette siden det ikke er noen enkel måte å
@@ -349,18 +349,18 @@ flytte filer mellom forskjellige datamaskiner.
 
 ## Sjekkliste {.check}
 
-+ Lag en **Disk Drive** (diskettstasjon) og plasser den inntil
+[ ] Lag en **Disk Drive** (diskettstasjon) og plasser den inntil
   datamaskinen din. Hent også en **Floppy Disk** (diskett) fra
   inventory'et ditt (du kan velge hvilken farge som helst).
 
-+ Åpne diskettstasjonen ved å høyre-klikke på den. Sett inn disketten
+[ ] Åpne diskettstasjonen ved å høyre-klikke på den. Sett inn disketten
   ved å flytte den opp til den ledige slot'en øverst.
 
-+ Start datamaskinen din ved å høyre-klikke på den. Skriv `dir`. Du
+[ ] Start datamaskinen din ved å høyre-klikke på den. Skriv `dir`. Du
   vil se at det nå finnes en ny katalog som heter **disk**. Dette er
   disketten vi nettopp satte inn.
 
-+ La oss lage et enkelt program. Skriv `edit navn` og skriv inn
+[ ] La oss lage et enkelt program. Skriv `edit navn` og skriv inn
   følgende:
 
   ```lua
@@ -371,10 +371,10 @@ flytte filer mellom forskjellige datamaskiner.
 
   Test at programmet virker ved å skrive `navn`.
 
-+ Vi kan nå kopiere dette programmet over til disketten ved å skrive
+[ ] Vi kan nå kopiere dette programmet over til disketten ved å skrive
   `copy navn disk`.
 
-+ Vi kan nå ta med oss dette programmet til en annen datamaskin:
+[ ] Vi kan nå ta med oss dette programmet til en annen datamaskin:
 
   __1__: Steng datamaskinen.
 
@@ -390,7 +390,7 @@ flytte filer mellom forskjellige datamaskiner.
   at du ser at programmet ditt er flyttet til den nye datamaskinen
   ved hjelp av disketten.
 
-+ Vi kan nå kopiere programmet fra disketten til denne nye
+[ ] Vi kan nå kopiere programmet fra disketten til denne nye
   datamaskinen slik at vi kan ta med disketten videre og likevel bruke
   programmet. For å kopiere filen kan du skrive `copy disk/navn .`.
   Legg merke til at det skal være et `.` på slutten. Dette er et
@@ -452,18 +452,18 @@ inne i seg. Disse representerer diskettene i spillet ditt.
 
 ## Sjekkliste {.check}
 
-+ Gå tilbake til Minecraft-spillet ditt. Åpne en datamaskin hvor du
+[ ] Gå tilbake til Minecraft-spillet ditt. Åpne en datamaskin hvor du
   har lagret et program. Skriv `id` og trykk enter. Dette vil fortelle
   deg hvilket nummer denne datamaskinen er.
 
-+ I filutforskeren kan du nå finne katalogen som representerer denne
+[ ] I filutforskeren kan du nå finne katalogen som representerer denne
   datamaskinen (se over). Åpne et av programmene i et tekstprogram som
   for eksempel Notepad. Gjør en liten endring i programmet ditt.
 
-+ Gå tilbake til Minecraft igjen. Åpne det samme programmet med
+[ ] Gå tilbake til Minecraft igjen. Åpne det samme programmet med
   `edit`-kommandoen. Ser du endringen du nettopp gjorde?
 
-+ I filutforskeren kan du også kopiere filer mellom forskjellige
+[ ] I filutforskeren kan du også kopiere filer mellom forskjellige
   datamaskiner. Prøv å kopiere programmet du nettopp endret til en
   annen datamaskin. Finner du igjen dette programmet inne i Minecraft
   også?
@@ -493,18 +493,18 @@ dem.
 
 ## Sjekkliste {.check}
 
-+ Bruk `cd` kommandoen til å gå først til **rom**, deretter
+[ ] Bruk `cd` kommandoen til å gå først til **rom**, deretter
   **programs** og til slutt til **fun**-katalogen. Bruk gjerne `dir`
   underveis for å se på hvilke andre filer og kataloger som finnes.
 
-+ Denne **fun**-katalogen inneholder flere spill og programmer. La oss
+[ ] Denne **fun**-katalogen inneholder flere spill og programmer. La oss
   se på **hello** som er det enkleste programmet. Dette er en variant
   av **heisann** som vi skrev tidligere.
 
   Prøv først å kjøre programmet ved å skrive `hello`. Teksten
   **Hello World!** skrives til skjermen, ett tegn om gangen.
 
-+ La oss se på koden til **hello**. Skriv `edit hello`. Du vil se det
+[ ] La oss se på koden til **hello**. Skriv `edit hello`. Du vil se det
   følgende:
 
   ```lua
@@ -518,22 +518,22 @@ dem.
   Ser du hvilken kodelinje det er som har ansvaret for å skrive
   teksten til skjermen?
 
-+ Nå vil vi endre teksten **Hello World!** til noe annet. Men om du
+[ ] Nå vil vi endre teksten **Hello World!** til noe annet. Men om du
   prøver å bare endre på teksten vil du oppdage at det ikke går
   an. Videre, om du trykker `Ctrl` vil du se at valget `Save` er
   borte. Dette er fordi vi ser på en fil som ligger i **rom**, det
   skrivebeskyttede minnet.
 
-+ Hvis vi vil lage vår egen versjon av **hello** må vi først kopiere
+[ ] Hvis vi vil lage vår egen versjon av **hello** må vi først kopiere
   filen ut av **rom**. Skriv `copy hello ../../../`. Den litt mystiske
   rekken av `..` og `/` betyr at vi kopierer filen tre nivåer
   opp. Husk at `..` betydde at man går en katalog opp.
 
-+ Nå vil vi flytte oss tilbake til utgangspunktet eller roten av
+[ ] Nå vil vi flytte oss tilbake til utgangspunktet eller roten av
   filsystemet. Skriv `cd ..` tre ganger. Om du nå skriver `dir` skal
   du se filen **hello** i tillegg til **rom**.
 
-+ Nå kan du skrive `edit hello` og endre teksten **Hello World!** til
+[ ] Nå kan du skrive `edit hello` og endre teksten **Hello World!** til
   noe annet, kanskje den kan si **Hei** og deretter navnet ditt? Lagre
   og lukk filen, og skriv deretter `hello` for å se om du fikk det
   til.
@@ -572,11 +572,11 @@ datamaskin, men har noen ekstra muligheter.
 
 ## Sjekkliste {.check}
 
-+ Lag og start en **Advanced Computer**. De viktigste ekstra
+[ ] Lag og start en **Advanced Computer**. De viktigste ekstra
   mulighetene på denne typen datamaskin er at den kan vise farger og
   du kan bruke musen.
 
-+ La oss lage et enkelt tegneprogram. Skriv `edit tegne`, og skriv
+[ ] La oss lage et enkelt tegneprogram. Skriv `edit tegne`, og skriv
 
   ```lua
   term.clear()
@@ -593,7 +593,7 @@ datamaskin, men har noen ekstra muligheter.
   museklikk-hendelser fungerer? Bruk `Ctrl-T` for å avslutte
   programmet.
 
-+ La oss legge til litt kode som tegner på skjermen når du
+[ ] La oss legge til litt kode som tegner på skjermen når du
   venstre-klikker. Vi kan også bruke høyre-klikk til å viske vekk det
   som er tegnet. Endre koden til
 

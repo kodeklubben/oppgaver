@@ -26,13 +26,13 @@ Arduinoen. Vent med å koble til Arduinoen til etter du er ferdig med installasj
 
 ## Sjekkliste {.check}
 
-+ Last ned Arduino-programvaren fra [Arduno.cc](https://www.arduino.cc/en/Main/Software).
-+ Installer programmet. Er du usikker på hvordan man gjør dette, bør du snakke med en veileder.
-+ Åpne programmet. Ikonet ser ut som dette:
+[ ] Last ned Arduino-programvaren fra [Arduno.cc](https://www.arduino.cc/en/Main/Software).
+[ ] Installer programmet. Er du usikker på hvordan man gjør dette, bør du snakke med en veileder.
+[ ] Åpne programmet. Ikonet ser ut som dette:
 
   <img src="arduino.png" style="width: 100px">
 
-+ Koble Arduinoen til datamasinen.
+[ ] Koble Arduinoen til datamasinen.
 
 
 # Steg 2: Studere Arduino-brettet {.activity}
@@ -45,12 +45,12 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 
 ## Sjekkliste {.check}
 
-+ På den ene siden har vi digitale inn- og utganger merket med **DIGITAL (PWM ~ )**.
-+ Fra nå av kaller vi inn/utganger for *port*.
-+ Den første digitale porten heter **0**.
-+ Den siste digitale porten heter **13**.
-+ Det er altså totalt 14 digitale porter.
-+ **GND** er ground, jord på norsk.
+[ ] På den ene siden har vi digitale inn- og utganger merket med **DIGITAL (PWM ~ )**.
+[ ] Fra nå av kaller vi inn/utganger for *port*.
+[ ] Den første digitale porten heter **0**.
+[ ] Den siste digitale porten heter **13**.
+[ ] Det er altså totalt 14 digitale porter.
+[ ] **GND** er ground, jord på norsk.
 
 # Steg 3: Lag en krets {.activity}
 
@@ -67,11 +67,11 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 
 ## Sjekkliste {.check}
 
-+ Koble slik som vist i figuren:
+[ ] Koble slik som vist i figuren:
 
   ![](blinker.png)
 
-+ Ingenting skjer, vi må skrive kode!
+[ ] Ingenting skjer, vi må skrive kode!
 
 ### Om koblingen {.protip}
 
@@ -98,8 +98,8 @@ Det første programmet skal blinke med lysdioden.
 
 ## Sjekkliste {.check}
 
-+ Åpne Arduino-programmet om det ikke allerede er åpent.
-+ Arduino-programmet starter med denne koden:
+[ ] Åpne Arduino-programmet om det ikke allerede er åpent.
+[ ] Arduino-programmet starter med denne koden:
 
   ```cpp
   void setup(){
@@ -111,7 +111,7 @@ Det første programmet skal blinke med lysdioden.
   }
   ```
 
-+ Skriv denne koden:
+[ ] Skriv denne koden:
 
   ```cpp
   int led = 8;
@@ -128,22 +128,22 @@ Det første programmet skal blinke med lysdioden.
   }
   ```
 
-+ Trykk på ![](upload.png) for å laste opp koden. Denne sjekker først om koden
+[ ] Trykk på ![](upload.png) for å laste opp koden. Denne sjekker først om koden
 er riktig, og så vil programmet ditt kjøre på arduinoen.
-+ Blinker lysdioden?
+[ ] Blinker lysdioden?
 
 ### Virker det ikke? {.protip}
 
 Hvis det ikke virker, så kan det hende at Arduino-programmet står på feil __port__
 og/eller __brett__. Da kan du sjekke disse to tingene:
 
-+ Brett er satt riktig: __Tools -> Board -> Arduino/Genuino Uno__
+[ ] Brett er satt riktig: __Tools -> Board -> Arduino/Genuino Uno__
 
-+ Port er satt riktig:
+[ ] Port er satt riktig:
 	+ Windows: __Tools -> Port -> COM1__ (kan være et annet tall)
 	![](port.png)
 	+ Mac: __Tools -> Port ->/dev/tty.usbmodem262471__ (kan være et annet tall)
-+ Lysdioden er koblet riktig vei
+[ ] Lysdioden er koblet riktig vei
 	+ Den korteste "foten" skal gå til GND
 
 Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
@@ -151,9 +151,9 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 
 ### Utfordringer {.challenge}
 
-+ Klarer du å få lysdioden til å blinke raskt, med en lang pause mellom blinkene?
-+ Klarer du å lage ditt eget blinkemønster?
-+ Klarer du å endre utgangen til port 13? Hvilken ledning må du flytte?
+[ ] Klarer du å få lysdioden til å blinke raskt, med en lang pause mellom blinkene?
+[ ] Klarer du å lage ditt eget blinkemønster?
+[ ] Klarer du å endre utgangen til port 13? Hvilken ledning må du flytte?
 
 ### Hva er `void setup()` og `void loop()`? {.protip}
 
@@ -202,12 +202,12 @@ lampen av og på med en knapp!
 
 ## Sjekkliste {.check}
 
-+ Finn tre ledninger til, og en knapp.
-+ Koble til knappen som på bildet under:
+[ ] Finn tre ledninger til, og en knapp.
+[ ] Koble til knappen som på bildet under:
 
   ![](bryter.png)
 
-+ Skriv denne koden:
+[ ] Skriv denne koden:
 
   ```cpp
   int led = 8;
@@ -227,23 +227,23 @@ lampen av og på med en knapp!
   }
   ```
 
-+ Trykk på ![](upload.png) for å laste opp koden.
-+ Lyser lysdioden når du trykker på knappen?
+[ ] Trykk på ![](upload.png) for å laste opp koden.
+[ ] Lyser lysdioden når du trykker på knappen?
 
 Se der! Nå har du lært å lage enkle kretser med Arduino!
 
 ### Utfordringer {.challenge}
 Her er noen nøtter du kan prøve deg på ved å endre koden.
 
-+ Kan du få lysdioden til å blinke når knappen trykkes inn?
-+ Kan du få lysdioden til å lyse svakt med `analogWrite(led, 50);`?
+[ ] Kan du få lysdioden til å blinke når knappen trykkes inn?
+[ ] Kan du få lysdioden til å lyse svakt med `analogWrite(led, 50);`?
 
   Hva skjer om `50` endres til et større tall?
 
   **Merk:** Lysdioden må være tilkoblet en port som har *PWM* (port med følgende
   tegn: *~*) for at `analogWrite` skal fungere.
 
-+ Kan du få lysdioden til å skrus på av et kort trykk på knappen?
+[ ] Kan du få lysdioden til å skrus på av et kort trykk på knappen?
   Og deretter skru av lysdioden med et nytt kort trykk?
 
-+ Kan du få til det samme med å bruke bare 3 ledninger?
+[ ] Kan du få til det samme med å bruke bare 3 ledninger?

@@ -28,15 +28,15 @@ Minecraft:
 
 ## Sjekkliste {.check}
 
-+ Trykk `E` for å åpne inventory'et ditt. Finn frem 7 __Stone__, 1
+[ ] Trykk `E` for å åpne inventory'et ditt. Finn frem 7 __Stone__, 1
 __Redstone__ og 1 __Glass pane__.
-+ Åpne et __Crafting table__, og legg ut materialet slik:
+[ ] Åpne et __Crafting table__, og legg ut materialet slik:
 
   ![](craft_computer.png)
 
-+ Legg den nye datamaskinen i den nederste raden i inventory'et ditt,
+[ ] Legg den nye datamaskinen i den nederste raden i inventory'et ditt,
 slik at du kan ta den på hånden. Lukk inventory'et.
-+ Bruk talltastene til å velge datamaskinen, og høyreklikk for å lage
+[ ] Bruk talltastene til å velge datamaskinen, og høyreklikk for å lage
 en datamaskin.
 
 I *Creative Mode* kan du også få tak i datamaskiner ved å trykke `E`,
@@ -52,7 +52,7 @@ datamaskinen med.
 
 ## Sjekkliste {.check}
 
-+ Prøv å skriv `help` og trykk enter.
+[ ] Prøv å skriv `help` og trykk enter.
 
   Du får nå se noen tips om hvordan du kan finne ut mer om
   datamaskinen. For eksempel kan du skrive `programs` for å se en
@@ -60,7 +60,7 @@ datamaskinen med.
   programming` for å få noen tips til hvordan man programmerer
   datamaskinen.
 
-+ Skriv `programs` og trykk enter.
+[ ] Skriv `programs` og trykk enter.
 
   Mange av disse programmene er enkle programmer som lar deg undersøke
   datamaskinen nærmere. Vi vil se på noen av dem i en senere leksjon.
@@ -76,10 +76,10 @@ heter `heiverden`.
 
 ## Sjekkliste {.check}
 
-+ Start en datamaskin.
-+ Skriv `edit heiverden` for å begynne å skrive på et nytt program som
+[ ] Start en datamaskin.
+[ ] Skriv `edit heiverden` for å begynne å skrive på et nytt program som
 heter `heiverden`.
-+ I det nye vinduet, skriv
+[ ] I det nye vinduet, skriv
 
   ```lua
   print('Hei verden!')
@@ -89,9 +89,9 @@ heter `heiverden`.
   velger `Save`. Deretter trykker du *Ctrl* en gang til og velger
   `Exit`.
 
-+ Vi har nå laget vårt første program. Prøv å skriv `programs` og du
+[ ] Vi har nå laget vårt første program. Prøv å skriv `programs` og du
 vil se at `heiverden` er på listen over programmer.
-+ For å kjøre programmet vi har laget, skriver vi `heiverden` og
+[ ] For å kjøre programmet vi har laget, skriver vi `heiverden` og
 trykker enter.
 
 ### Prøv selv {.try}
@@ -126,18 +126,18 @@ universitetet i Rio de Janeiro brukte de tidligere et språk som het
 Vi skal nå prøve å skrive noen kommandoer direkte i Lua. Dette er en
 fin måte å teste enkle ting på.
 
-+ Skriv `lua` og trykk enter. Dette starter en *Lua-tolker* som vil
+[ ] Skriv `lua` og trykk enter. Dette starter en *Lua-tolker* som vil
 utføre hver enkelt kommando du skriver med en gang.
-+ Vi begynner med kommandoen fra det første programmet vårt. Skriv
+[ ] Vi begynner med kommandoen fra det første programmet vårt. Skriv
 `print('Hei verden!')` og trykk enter. Skjer det samme som tidligere?
-+ Som de aller fleste programmeringsspråk er Lua glad i å regne. Skriv
+[ ] Som de aller fleste programmeringsspråk er Lua glad i å regne. Skriv
 `1 + 1` og trykk enter.
 
   Lua kjenner alle de vanlige matematikk-operasjonene. Prøv for
   eksempel `17 - 8`, `3 * 4` eller `22 / 7`. Kjenner du igjen hva
   hver av disse betyr?
 
-+ Skriv `math.random(1, 10)` og trykk enter.
+[ ] Skriv `math.random(1, 10)` og trykk enter.
 
   Dette skriver ut et tilfeldig tall mellom 1 og 10. Dette er et
   eksempel på å kalle en *funksjon*, noe vi gjør ofte når vi
@@ -154,10 +154,10 @@ Senere vil vi også lære hvordan vi lager egne funksjoner.
 
 ## Sjekkliste {.check}
 
-+ Trykk pil opp-tasten slik at du kan kjøre `math.random(1, 10)` en
+[ ] Trykk pil opp-tasten slik at du kan kjøre `math.random(1, 10)` en
 gang til. Trykk enter. Gjør dette flere ganger. Får du forskjellige
 tall tilbake?
-+ Avslutt Lua-tolkeren ved å skrive `exit()` og trykk enter.
+[ ] Avslutt Lua-tolkeren ved å skrive `exit()` og trykk enter.
 
 # Steg 4: En liten matteprøve {.activity}
 
@@ -166,8 +166,8 @@ tall tilbake?
 
 ## Sjekkliste {.check}
 
-+ Start et nytt program ved å skrive `edit mattetest` og trykk enter.
-+ Skriv inn følgende program
+[ ] Start et nytt program ved å skrive `edit mattetest` og trykk enter.
+[ ] Skriv inn følgende program
 
   ```lua
   local tall1 = math.random(2, 12)
@@ -178,7 +178,7 @@ tall tilbake?
   Pass på at du skriver de to punktumene `..` riktig. Disse betyr at
   vi setter sammen tekst.
 
-+ Lagre og avslutt editoren. Kjør programmet ved å skrive `mattetest`.
+[ ] Lagre og avslutt editoren. Kjør programmet ved å skrive `mattetest`.
 
   Blir du spurt om svaret på et gangestykke? Spør den om et annet
   gangestykke om du kjører programmet en gang til? Hva skjer om du
@@ -196,7 +196,7 @@ huske variabelen i dette programmet (lokalt).
 
 ## Sjekkliste {.check}
 
-+ Vi skal nå jobbe videre med programmet. Skriv `edit mattetest`
+[ ] Vi skal nå jobbe videre med programmet. Skriv `edit mattetest`
 igjen, og legg til en linje nederst i programmet.
 
   ```lua
@@ -211,7 +211,7 @@ igjen, og legg til en linje nederst i programmet.
   nå? Funksjonen `read` brukes for å lese ting du skriver på
   tastaturet.
 
-+ Det neste vi vil er at programmet skal sjekke om vi svarer
+[ ] Det neste vi vil er at programmet skal sjekke om vi svarer
 riktig. For å gjøre dette vil vi bruke noe som heter
 `if`-tester. Disse kan teste om noe er sant, og vi vil bruke dem for å
 sjekke om det er sant at svaret ditt er likt med det faktiske
@@ -235,7 +235,7 @@ dette:
   Kjør programmet igjen. Hva skjer når du svarer riktig? Hva skjer
   når du svarer feil? Skjønner du hvorfor?
 
-+ Det er kjedelig at vi hele tiden må starte programmet på nytt. Vi
+[ ] Det er kjedelig at vi hele tiden må starte programmet på nytt. Vi
 lager derfor en løkke som kan spørre oss flere spørsmål hver gang vi
 spiller. Her bruker vi en `for`-løkke som bare teller fra 1 til 5 for
 å stille oss fem spørsmål.
@@ -261,7 +261,7 @@ spiller. Her bruker vi en `for`-løkke som bare teller fra 1 til 5 for
   gangestykker? Kan du bruke en variabel som sier hvor mange
   gangestykker programmet skal bruke?
 
-+ Til slutt vil vi at programmet skal telle hvor mange riktige svar vi
+[ ] Til slutt vil vi at programmet skal telle hvor mange riktige svar vi
 klarer. For å gjøre dette bruker vi en ny variabel. Men denne gangen
 vil vi endre verdien av variabelen etterhvert som svarer riktig.
 
@@ -309,16 +309,16 @@ velge hvilken type mattestykke det spørres om?
 
 ## Sjekkliste {.check}
 
-+ Gå ut av datamaskinen ved å trykke *Esc*-knappen.
+[ ] Gå ut av datamaskinen ved å trykke *Esc*-knappen.
 
-+ Samle sammen litt __Stone__, en __Iron door__ og en __Computer__, og
+[ ] Samle sammen litt __Stone__, en __Iron door__ og en __Computer__, og
 lag en vegg hvor du setter inn en dør og med datamaskinen rett ved
 siden av døren. Det skal se omtrent slik ut:
 
   ![](passord.png)
 
-+ Start datamaskinen.
-+ Lag et nytt program som heter `passord`:
+[ ] Start datamaskinen.
+[ ] Lag et nytt program som heter `passord`:
 
   ```lua
   local passord = 'kodeklubben'
@@ -343,7 +343,7 @@ siden av døren. Det skal se omtrent slik ut:
   en *evig løkke*. Dette programmet vil fortsette å spørre oss om
   passordet for alltid!
 
-+ Kjør programmet. Oppfører programmet seg slik du hadde trodd? Husker
+[ ] Kjør programmet. Oppfører programmet seg slik du hadde trodd? Husker
 du passordet?
 
 ### Avslutte programmer {.protip}
@@ -354,7 +354,7 @@ skrives på skjermen. Dette fungerer både her og i andre programmer.
 
 ## Sjekkliste {.check}
 
-+ Vi vil at døren skal åpne seg når vi skriver riktig passord. Dette
+[ ] Vi vil at døren skal åpne seg når vi skriver riktig passord. Dette
 kan vi gjøre ved å bruke __redstone__ som brukes for å overføre energi
 i Minecraft. Endre programmet `passord` som følger:
 
@@ -383,7 +383,7 @@ i Minecraft. Endre programmet `passord` som følger:
   sover datamaskinen i 5 sekunder, før energien skrus av igjen og
   døren lukker seg.
 
-+ Før vi er helt fornøyde med dette programmet vil vi gjøre noen små
+[ ] Før vi er helt fornøyde med dette programmet vil vi gjøre noen små
 forbedringer. Først kaller vi to funksjoner fra `term`-biblioteket.
 Den ene vil rense skjermen, mens den andre setter posisjonen hvor vi
 skriver teksten til `(1, 1)` som betyr øverst til venstre. I tillegg
