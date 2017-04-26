@@ -27,7 +27,7 @@ med **Ctrl + R**, og hvis du vil, kan du lagre det med **Ctrl + S**.
 
 ## Sjekkliste {.check}
 
-+ Vi begynner med å fylle bakgrunnen med sort:
+[ ] Vi begynner med å fylle bakgrunnen med sort:
 
   ```processing
   void setup() {
@@ -43,7 +43,7 @@ med **Ctrl + R**, og hvis du vil, kan du lagre det med **Ctrl + S**.
   Dette har du kanskje sett før. Når vi kaller på `background` med
   bare ett tall får vi en gråtone der `0` er sort og `255` er hvitt.
 
-+ La oss endre på `draw` slik at vi får en rød bakgrunn:
+[ ] La oss endre på `draw` slik at vi får en rød bakgrunn:
 
   ```processing
   void draw() {
@@ -54,7 +54,7 @@ med **Ctrl + R**, og hvis du vil, kan du lagre det med **Ctrl + S**.
   Dette likner på det vi hadde i det første steget, men nå bruker vi
   plutselig tre tall istedenfor ett. La oss utforske dem.
 
-+ La oss endre `background` igjen:
+[ ] La oss endre `background` igjen:
 
   ```processing
   void draw() {
@@ -64,7 +64,7 @@ med **Ctrl + R**, og hvis du vil, kan du lagre det med **Ctrl + S**.
 
   Når du kjører programmet, hvilken farge får du på bakgrunnen?
 
-+ La oss endre `background` enda en gang:
+[ ] La oss endre `background` enda en gang:
 
   ```processing
   void draw() {
@@ -128,7 +128,7 @@ fargen på bakgrunnen, så la oss se hva vi kan gjøre med fargene til former.
 
 ## Sjekkliste {.check}
 
-+ Legg til en sirkel i `draw`:
+[ ] Legg til en sirkel i `draw`:
 
   ```processing
   void draw() {
@@ -140,7 +140,7 @@ fargen på bakgrunnen, så la oss se hva vi kan gjøre med fargene til former.
   Hvis du kjører programmet, ser du kanskje noe du ikke har lagt
   merke til før: Hva er det som er rundt sirkelen?
 
-+ Endre fargen som sirkelen fargelegges med, med funksjonen `fill`:
+[ ] Endre fargen som sirkelen fargelegges med, med funksjonen `fill`:
 
   ```processing
   void draw() {
@@ -152,7 +152,7 @@ fargen på bakgrunnen, så la oss se hva vi kan gjøre med fargene til former.
 
   Nå får du en mørkegul sirkel midt i vinduet på en blå bakgrunn.
 
-+ Endre fargen på omrisset med funksjonen `stroke`:
+[ ] Endre fargen på omrisset med funksjonen `stroke`:
 
   ```processing
   void draw() {
@@ -166,7 +166,7 @@ fargen på bakgrunnen, så la oss se hva vi kan gjøre med fargene til former.
   Nå er streken rundt sirkelen en rødlig brun. Det er kanskje ikke
   så lett å se fargen på streken siden den er så tynn.
 
-+ Gjør omrisset fetere med funksjonen `strokeWeight`:
+[ ] Gjør omrisset fetere med funksjonen `strokeWeight`:
 
   ```processing
   void draw() {
@@ -182,15 +182,15 @@ fargen på bakgrunnen, så la oss se hva vi kan gjøre med fargene til former.
 
 ## Eksperimenter {.try}
 
-+ Prøv forskjellige bakgrunnsfarger. Hvordan synes du forskjellige
+[ ] Prøv forskjellige bakgrunnsfarger. Hvordan synes du forskjellige
   bakgrunnsfarger passer sammen med fargene på sirkelen?
-+ Prøv forskjellige fyllfarger. Hvordan passer disse med fargen på
+[ ] Prøv forskjellige fyllfarger. Hvordan passer disse med fargen på
   omrisset?
-+ Prøv forskjellige farger på omrisset. Hvordan passer det med
+[ ] Prøv forskjellige farger på omrisset. Hvordan passer det med
   bakgrunnen og fyllfargen?
-+ Prøv andre tykkelser på omrisset. Hvor synes du at det er passe
+[ ] Prøv andre tykkelser på omrisset. Hvor synes du at det er passe
   tykt?
-+ Kan du tegne to sirkler på skjermen i forskjellige farger?
+[ ] Kan du tegne to sirkler på skjermen i forskjellige farger?
 
 # Steg 3: Fargevelgeren {.activity}
 
@@ -202,7 +202,7 @@ finnes i Processing.
 
 ## Sjekkliste {.check}
 
-+ Åpne fargevelgeren ved å velge **Tools → Color Selector**
+[ ] Åpne fargevelgeren ved å velge **Tools → Color Selector**
 
   ![](Fargevelger.png "Fargevelgeren slik den er når den først åpnes.")
 
@@ -212,13 +212,13 @@ finnes i Processing.
   heter HSB. Det er også to områder som vi kan velge farge fra ved å klikke.
   Øverst til høyre vises fargen som er valgt.
 
-+ Prøv å trykke i det store fargefeltet til venstre. Her kan du velge hvor
+[ ] Prøv å trykke i det store fargefeltet til venstre. Her kan du velge hvor
   sterk og hvor lys fargen skal være.
 
   Hva skjer med verdiene til R, G og B for lyse farger? Hva er verdien til R,
   G og B for mørke farger?
 
-+ Prøv å trykke i det lille fargefeltet rett ved siden av. Her kan du velge
+[ ] Prøv å trykke i det lille fargefeltet rett ved siden av. Her kan du velge
   hvilken farge du vil ha.
 
   ![](Fargevelger.gif "En animasjon som viser at fargen endres i
@@ -226,10 +226,10 @@ finnes i Processing.
 
   Hva skjer med verdiene til RGB nå?
 
-+ Finn en farge du liker til bakgrunnsfarge. Skriv inn verdiene for R,
+[ ] Finn en farge du liker til bakgrunnsfarge. Skriv inn verdiene for R,
   G og B i `background` og i `draw`.
 
-+ Finn en farge du liker til sirkelen. Trykk på knappen **Copy**. Visk
+[ ] Finn en farge du liker til sirkelen. Trykk på knappen **Copy**. Visk
   ut alle verdiene gitt i `fill` og lim inn den kopierte fargekoden:
   enten med **Edit → Paste** eller trykk på **Ctrl + V** eller
   **Cmd + V** hvis du bruker Mac.
@@ -290,19 +290,19 @@ fargen skal være.
 
 ## Sjekkliste {.check}
 
-+ Først tar vi en titt på hvordan fargevelgeren og HSB henger
+[ ] Først tar vi en titt på hvordan fargevelgeren og HSB henger
   sammen. Åpne fargevelgeren igjen med **Tools → Color Selector**.
 
-+ Bruk det store fargefeltet til venstre og se hva som skjer med de
+[ ] Bruk det store fargefeltet til venstre og se hva som skjer med de
   tre verdiene: H, S og B. Hvordan oppfører de seg når du gjør fargen
   lysere, mørkere, sterkere og svakere? Kan du knytte en av de tre
   verdiene til bevegelse opp og ned? Hva med sideveis?
 
-+ Bruk det lille fargefeltet ved siden av og se hva som skjer med
+[ ] Bruk det lille fargefeltet ved siden av og se hva som skjer med
   verdiene nå. Hvilke av verdiene endres når du endrer plasseringen i
   dette feltet?
 
-+ La oss prøve ut HSB nå som du har sett hvordan disse verdiene henger
+[ ] La oss prøve ut HSB nå som du har sett hvordan disse verdiene henger
   sammen i farge velgeren:
 
   ```processing
@@ -331,9 +331,9 @@ fargen skal være.
   prosent. Du kan selvfølgelig velge helt andre maksverdier om du
   ønsker det.
 
-+ Kjør programmet om du ikke har gjort det allerede.
+[ ] Kjør programmet om du ikke har gjort det allerede.
 
-+ Vi har sett at rød ligger på null grader, og grønn på `120`
+[ ] Vi har sett at rød ligger på null grader, og grønn på `120`
   grader. La oss se hvilke farger som befinner seg rundt hjulet ved å
   endre `draw`:
 
@@ -371,9 +371,9 @@ fargen skal være.
   rader. Ved å dele på antall tomrom, får vi bredden på avstanden
   mellom to nabosirkler eller vinduskanten og den nærmeste sirkelen.
 
-+ Kjør programmet om du ikke har gjort det.
+[ ] Kjør programmet om du ikke har gjort det.
 
-+ La oss se på hvordan metningen og lysheten påvirker fargen. Vi
+[ ] La oss se på hvordan metningen og lysheten påvirker fargen. Vi
   legger til en variabel for fargetone som skal endres over tid, sånn
   at vi kan se effekten også på forskjellige fargetoner. Legg derfor
   til følgende øverst i programmet:
@@ -483,7 +483,7 @@ likevel være enklere med tre variabler.
 
 ## Sjekkliste {.check}
 
-+ Vi begynner helt enkelt med en fargevariabel for bakgrunn og en for
+[ ] Vi begynner helt enkelt med en fargevariabel for bakgrunn og en for
   fyllfarge:
 
   ```processing
@@ -507,7 +507,7 @@ likevel være enklere med tre variabler.
   `background(bakgrunn)`, er det som om vi skrev `background(32,
   128, 64)`.
 
-+ La oss se hvordan vi kan lage en farge som ligger et sted mellom to
+[ ] La oss se hvordan vi kan lage en farge som ligger et sted mellom to
   farger med `lerpColor`. Legg til en ekstra farge for svart først i
   programmet:
 
@@ -541,7 +541,7 @@ likevel være enklere med tre variabler.
   Kjør programmet og merk at omrisset nå er en mørkere variant av
   blåfargen istedenfor helt svart.
 
-+ Hvis man vil bruke HSB istedenfor RGB, går det også an, men da må
+[ ] Hvis man vil bruke HSB istedenfor RGB, går det også an, men da må
   man bytte fargesystem før man lager fargene:
 
   ```processing
@@ -570,7 +570,7 @@ likevel være enklere med tre variabler.
 
 ### Prøv selv {.try}
 
-+ Ta utgangspunkt i punktet hvor du blandet farger med
+[ ] Ta utgangspunkt i punktet hvor du blandet farger med
   `lerpColor`. Kan du tegne et ansikt eller en annen figur med
   ellipser der du blander farger med `lerpColor` for omriss- og/eller
   fyllfargene? Hvis du skal bruke blandingsfarger til både omriss og

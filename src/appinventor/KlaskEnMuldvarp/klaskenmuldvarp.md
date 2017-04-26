@@ -32,7 +32,7 @@ En canvas er bare en komponent som inneholder grafikk, den synes ikke selv, men 
 
   Trykk på **Width** og skriv inn `340` ved siden av pixels og trykk **OK**.
 
-* Gå til **BackgroundImage** og trykk på **None...**. Trykk **Upload File**. Trykk på **Velg Fil** og velg bildet `gress.png` du nettopp lastet ned. Trykk **OK**. Sjekk at gresset vises i firkanten øverst på skjermen.
+[ ] Gå til **BackgroundImage** og trykk på **None...**. Trykk **Upload File**. Trykk på **Velg Fil** og velg bildet `gress.png` du nettopp lastet ned. Trykk **OK**. Sjekk at gresset vises i firkanten øverst på skjermen.
 
 # Steg 2: Legge til poengtelleren og restartknappen {.activity}
 For å vite hvor mange poeng spilleren har, må vi legge til en tekst som oppdateres hver gang spilleren treffer muldvarpen. Restartknappen lar spilleren starte spillet på nytt.

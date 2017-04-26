@@ -23,7 +23,7 @@ som du lager med Processing, så det er et fint sted å starte.
 
 ## Sjekkliste {.check}
 
-- Start Processing og skriv dette:
+[ ] Start Processing og skriv dette:
 
   ```processing
   void setup() {
@@ -34,8 +34,8 @@ som du lager med Processing, så det er et fint sted å starte.
     background(0);
   }
   ```
-- Kjør programmet ved å trykke på pilen ![](../play.png "spill av pil").
-- Lagre programmet som Ball ved å velge **File --> Save** i menyen.
+[ ] Kjør programmet ved å trykke på pilen ![](../play.png "spill av pil").
+[ ] Lagre programmet som Ball ved å velge **File --> Save** i menyen.
 
 ### Tips: Hvordan skrive krøllparenteser { } {.protip}
 
@@ -63,12 +63,12 @@ i Processing og andre programmeringsspråk.
 
 Hva skjer hvis du:
 
-- Endrer `640` i `size(640, 480);`?
-- Endrer `480`?
-- Hva om du endrer `0` i `background(0);`?
-- Hva skjer hvis tallet er høyere enn `255`?
-- Hva skjer hvis tallet er negativt?
-- Før du går videre, fjern endringene du gjorde i utforskingen.
+[ ] Endrer `640` i `size(640, 480);`?
+[ ] Endrer `480`?
+[ ] Hva om du endrer `0` i `background(0);`?
+[ ] Hva skjer hvis tallet er høyere enn `255`?
+[ ] Hva skjer hvis tallet er negativt?
+[ ] Før du går videre, fjern endringene du gjorde i utforskingen.
 
 ## Forklaring av koden {.protip}
 
@@ -117,19 +117,19 @@ begynner å tegne. La oss tegne en sirkel midt i vinduet.
 
 ## Sjekkliste {.check}
 
-- Endre `draw` til følgende uten å endre `setup`:
+[ ] Endre `draw` til følgende uten å endre `setup`:
   ```processing
   void draw() {
     background(0);
     ellipse(320, 240, 100, 100);
   }
   ```
-- Lagre med **Ctrl+S** og kjør programmet med **Ctrl+R**. Du skal
+[ ] Lagre med **Ctrl+S** og kjør programmet med **Ctrl+R**. Du skal
   nå se en hvit sirkel midt i vinduet som i bildet under.
 
 ![](sirkel1.png "En hvit sirkel på svart bakgrunn midt i et vindu")
 
-- Legg til en sirkel til og kjør programmet igjen:
+[ ] Legg til en sirkel til og kjør programmet igjen:
   ```processing
   void draw() {
     background(0);
@@ -138,7 +138,7 @@ begynner å tegne. La oss tegne en sirkel midt i vinduet.
   }
   ```
 
-- La oss legge til en siste sirkel og kjøre programmet enda en gang:
+[ ] La oss legge til en siste sirkel og kjøre programmet enda en gang:
   ```processing
   void draw() {
     background(0);
@@ -196,7 +196,7 @@ derfor det heter variabel: *verdien kan variere*.
 
 ## Sjekkliste {.check}
 
-- La oss begynne med å endre størrelsen på vinduet i `setup`:
+[ ] La oss begynne med å endre størrelsen på vinduet i `setup`:
 
   ```processing
   void setup() {
@@ -210,7 +210,7 @@ derfor det heter variabel: *verdien kan variere*.
   ![](variabler1.png "De tre hvite sirklene er nå vist på en svart
    bilderamme som er større enn før.")
 
-- Vi skal nå ta i bruk to variabler som heter `width` og `height`, altså bredde
+[ ] Vi skal nå ta i bruk to variabler som heter `width` og `height`, altså bredde
   og høyde. Disse variablene får verdien til størrelsen på vinduet når `size`
   kalles. Endre `draw` til å bruke `width` og `height`:
 
@@ -231,9 +231,9 @@ derfor det heter variabel: *verdien kan variere*.
   ganget med en halv. Noen ganger er det enklere med deling og andre ganger
   ganging.
 
-- Lagre og kjør programmet, om du ikke har gjort det allerede.
+[ ] Lagre og kjør programmet, om du ikke har gjort det allerede.
 
-- La oss lage våre egne variabler, slik at vi kan få formene til å bevege
+[ ] La oss lage våre egne variabler, slik at vi kan få formene til å bevege
   på seg:
 
   ```processing
@@ -251,7 +251,7 @@ derfor det heter variabel: *verdien kan variere*.
   variablene er `float`, altså desimal eller flyttall. Inne i `setup` gir vi
   variablene verdier, som er de samme regnestykkene som vi brukte tidligere.
 
-- Det er ikke nok å bare ha variabler, vi må bruke dem også. Endre `draw` til å
+[ ] Det er ikke nok å bare ha variabler, vi må bruke dem også. Endre `draw` til å
   bruke `x` og `y`:
 
   ```processing
@@ -269,7 +269,7 @@ derfor det heter variabel: *verdien kan variere*.
   linjen `x = x + 1;` som sier at `x` skal øke med `1` for hver gang `draw`
   kjøres. Hva vil skje med den ene sirkelen når programmes kjøres?
 
-- Lagre og kjør programmet, om du ikke har gjort det allerede.
+[ ] Lagre og kjør programmet, om du ikke har gjort det allerede.
 
 ### Tips: Lagre som {.protip}
 
@@ -282,10 +282,10 @@ annet navn slik at du beholder de forskjellige variantene.
 
 Kan du endre `x` og `y` inni `draw` slik at sirkelen beveger seg:
 
-- Mot venstre istedenfor høyre?
-- Opp istedenfor sidelengs?
-- Ned istedenfor for opp?
-- På skrå?
+[ ] Mot venstre istedenfor høyre?
+[ ] Opp istedenfor sidelengs?
+[ ] Ned istedenfor for opp?
+[ ] På skrå?
 
 # Steg 4: Sprette i veggen {.activity}
 
@@ -295,7 +295,7 @@ tilbake hvis den kastes i en vegg.
 
 ## Sjekkliste {.check}
 
-- Vi trenger et par nye variabler for å styre retningen til
+[ ] Vi trenger et par nye variabler for å styre retningen til
   sirkelen. Legg til variablene `xFart` og `yFart` før `setup`:
 
   ```processing
@@ -314,7 +314,7 @@ tilbake hvis den kastes i en vegg.
   og `height` kan ikke brukes før `size` er kjørt, så vi kunne ikke gi `x`
   og `y` verdier med en gang.
 
-- Legg til koden under i `draw` for å få ballen til å snu. Merk at vi endrer
+[ ] Legg til koden under i `draw` for å få ballen til å snu. Merk at vi endrer
   setningen hvor vi øker `x` og fjerner to av sirklene.
 
   ```processing
@@ -343,7 +343,7 @@ tilbake hvis den kastes i en vegg.
   }
   ```
 
-- Lagre og kjør programmet.
+[ ] Lagre og kjør programmet.
 
 ### Forklaring {.protip}
 
@@ -358,17 +358,17 @@ I `draw` ser vi en del nytt som du ikke har sett før.
 
 ## Utfordringer {.try}
 
-- Kan du kombinere to og to av `if`-setningene ved å bruke `||`?  `||` betyr
+[ ] Kan du kombinere to og to av `if`-setningene ved å bruke `||`?  `||` betyr
   eller. Her er et eksempel: `if (x < 1 || x > 10)`, hvis x er under 1 *eller*
   x er over 10.
-- Kan du få ballen til å sprette sideleng som dette?
+[ ] Kan du få ballen til å sprette sideleng som dette?
 
   ![](sidelengs_ball.gif "ball som spretter sidelengs")
 
-- Kan du få ballen til å endre form samtidig?
+[ ] Kan du få ballen til å endre form samtidig?
 
   ![](rar_ball.gif "ball som endrer form etter posisjon")
 
-- Kan du få ballen til å endre fart avhengig av posisjonen?
+[ ] Kan du få ballen til å endre fart avhengig av posisjonen?
 
   ![](sprettende_ball.gif "ball som har større fart på bunn")
