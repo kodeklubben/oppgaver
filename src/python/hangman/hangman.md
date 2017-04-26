@@ -20,9 +20,9 @@ Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne
 
 ## Sjekkliste {.check}
 
-+ Åpne IDLE, og åpne et nytt vindu
+[ ] Åpne IDLE, og åpne et nytt vindu
 
-+ Skriv inn følgende kode:
+[ ] Skriv inn følgende kode:
 
   ```python
   from random import choice
@@ -32,9 +32,9 @@ Først må vi få datamaskinen til å velge et tilfeldig ord, så la oss begynne
   print(word)
   ```
 
-+ Lagre programmet ditt og kjør det. Hvilket ord skrives ut?
+[ ] Lagre programmet ditt og kjør det. Hvilket ord skrives ut?
 
-+ Kjør programmet en gang til. Skriver det ut et annet ord?
+[ ] Kjør programmet en gang til. Skriver det ut et annet ord?
 
 Hver gang du kjører dette programmet vil det velge et tilfeldig ord fra listen `["kode", "kurs"]` ved hjelp av `choice`-funksjonen.
 
@@ -44,7 +44,7 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
 
 ## Sjekkliste {.check}
 
-+ I den samme filen, endre koden så den ser ut som følger
+[ ] I den samme filen, endre koden så den ser ut som følger
 
   ```python
   from random import choice
@@ -59,13 +59,13 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
   print("Gjett en bokstav i ordet:", out)
   ```
 
-+ Lagre og kjør programmet.
+[ ] Lagre og kjør programmet.
 
-+ Du burde se `Gjett en bokstav i ordet: ____`, i output-vinduet (det andre vinduet, ikke vinduet du har skrevet programmet ditt i).
+[ ] Du burde se `Gjett en bokstav i ordet: ____`, i output-vinduet (det andre vinduet, ikke vinduet du har skrevet programmet ditt i).
 
   Vi bruker en `for`-løkke for å bygge en tekst hvor hver bokstav i ordet er byttet med en understrek `_`. Ordet `kode` vil da for eksempel skrives som `____` til skjermen.
 
-+ La oss gjette på en bokstav! Endre koden så den ser ut som dette
+[ ] La oss gjette på en bokstav! Endre koden så den ser ut som dette
 
   ```python
   from random import choice
@@ -102,7 +102,7 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
 
 ## Sjekkliste {.check}
 
-+ I den samme filen, endre koden så den ser slik ut:
+[ ] I den samme filen, endre koden så den ser slik ut:
 
   ```python
   from random import choice
@@ -138,7 +138,7 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
       print()
   ```
 
-+ Kjør koden og prøv å gjette bokstavene.
+[ ] Kjør koden og prøv å gjette bokstavene.
 
   Vi har laget en `while True`-løkke, tilsvarende `for alltid` i scratch. Denne vil i utgangspunktet fortsette å spørre spilleren om å gjette bokstaver for alltid. For å komme ut av løkken bruker vi kommandoen `break` når ordet har blitt gjettet.
 
@@ -152,7 +152,7 @@ på må vi også huske på når spilleren gjetter feil.
 
 ## Sjekkliste {.check}
 
-+ Endre filen du jobber med slik at den blir seende ut som dette:
+[ ] Endre filen du jobber med slik at den blir seende ut som dette:
 
   ```python
   from random import choice
@@ -198,7 +198,7 @@ mange forsøk man har til å gjette.
 
 ## Sjekkliste {.check}
 
-+ Endre filen for å legge til en ny variabel, `tries`:
+[ ] Endre filen for å legge til en ny variabel, `tries`:
 
   ```python
   from random import choice
@@ -244,7 +244,7 @@ mange forsøk man har til å gjette.
       print("Du klarte ikke å gjette", word)
   ```
 
-+ Kjør programmet, og se hva som skjer når du gjetter feil bokstaver.
+[ ] Kjør programmet, og se hva som skjer når du gjetter feil bokstaver.
 
   Legg merke til at vi endret `while`-løkken ved å legge inn en forutsetning, `while tries > 0`. Dette betyr at løkken bare kjøres så lenge variabelen `tries` er større enn 0. Kikker du litt rundt i koden ser du at `tries` starter med verdien 7, også blir den 1 mindre for hver feil bokstav som gjettes. Altså vil spilleren kunne gjette opp til 7 bokstaver feil før spillet er slutt.
 
@@ -252,13 +252,13 @@ mange forsøk man har til å gjette.
 
 ## Sjekkliste {.check}
 
-+ Finn linjen i programkoden som sier:
+[ ] Finn linjen i programkoden som sier:
 
   ```python
   word = choice(["kode", "kurs"])
   ```
 
-+ Vi kan endre denne linjen for å legge til flere ord i spillet. Prøv for eksempel
+[ ] Vi kan endre denne linjen for å legge til flere ord i spillet. Prøv for eksempel
 
   ```python
   word = choice(["kode", "kurs", "robot", "klubb"])
