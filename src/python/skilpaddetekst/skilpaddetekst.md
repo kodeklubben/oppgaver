@@ -29,9 +29,9 @@ mange linjer.
 
 ## Sjekkliste {.check}
 
-* Skriv inn programmet over, og kjør det. Kommer teksten på flere linjer?
+[ ] Skriv inn programmet over, og kjør det. Kommer teksten på flere linjer?
 
-* Lagre det følgende programmet som skilpaddetekst.py, og se hva som skjer.
+[ ] Lagre det følgende programmet som skilpaddetekst.py, og se hva som skjer.
 
   ```python
   from turtle import *
@@ -53,7 +53,7 @@ mange linjer.
 
   Du skal nå se teksten printet ut i IDLE, men kan vi ikke få skilpadden til å skrive den for oss?
 
-* Når vi skal skrive teksten med skilpadden, er det lettest å gjøre dette linje for linje, og det er derfor lettere om vi deler opp `TEXT` i en liste med enkeltlinjer. Til dette bruker vi `TEXT.split('\n')` som deler opp `TEXT` i flere linjer, og lagre denne i variabelen `LINES`.
+[ ] Når vi skal skrive teksten med skilpadden, er det lettest å gjøre dette linje for linje, og det er derfor lettere om vi deler opp `TEXT` i en liste med enkeltlinjer. Til dette bruker vi `TEXT.split('\n')` som deler opp `TEXT` i flere linjer, og lagre denne i variabelen `LINES`.
 
   ```python
   LINES = TEXT.split('\n')
@@ -72,7 +72,7 @@ Tenk deg at boksene er i svart, og vi lager rød skrift. Da vil det se slik ut:
 
 ## Sjekkliste {.check}
 
-* Vi begynner med å legge til størrelsen på tegnene, slik:
+[ ] Vi begynner med å legge til størrelsen på tegnene, slik:
 
   (Pass på at denne koden ligger i samme fil som `TEXT`-variabelen.)
 
@@ -82,7 +82,7 @@ Tenk deg at boksene er i svart, og vi lager rød skrift. Da vil det se slik ut:
 
   `SIZE` er nå en variabel som inneholder størrelsen på boksen vår.
 
-* Vi lager en funksjon `underline` for å lage en understrek:
+[ ] Vi lager en funksjon `underline` for å lage en understrek:
 
   ```python
   def underline():
@@ -104,13 +104,13 @@ Tenk deg at boksene er i svart, og vi lager rød skrift. Da vil det se slik ut:
       right(90)
   ```
 
-* Kjør koden, og se hva som skjer:
+[ ] Kjør koden, og se hva som skjer:
 
   ```python
   underline()
   ```
 
-* Hva om vi ønsker å lage 10 understreker?
+[ ] Hva om vi ønsker å lage 10 understreker?
 
   ```python
   for n in range(10):
@@ -120,7 +120,7 @@ Tenk deg at boksene er i svart, og vi lager rød skrift. Da vil det se slik ut:
   Det skal se slik ut, hvis du du ikke har feil i koden:
   ![](turtle_underline.png)
 
-* Hva skjer hvis du endrer størrelsen på "boksen"? Prøv å endre på `SIZE` variabelen, og se hva som skjer. (Prøv for eksempel 5 og 50)
+[ ] Hva skjer hvis du endrer størrelsen på "boksen"? Prøv å endre på `SIZE` variabelen, og se hva som skjer. (Prøv for eksempel 5 og 50)
 
 # Steg 3: Enda et tegn {.activity}
 
@@ -128,7 +128,7 @@ La oss prøve å lage tegnet `|`. Dette er rett og slett bare en rett strek som 
 
 ## Sjekkliste {.check}
 
-* Vi lager funksjonen `bar` for å tegne `|`.
+[ ] Vi lager funksjonen `bar` for å tegne `|`.
 
   ```python
   def bar():
@@ -150,14 +150,14 @@ La oss prøve å lage tegnet `|`. Dette er rett og slett bare en rett strek som 
       forward(SIZE/2)
   ```
 
-* Endre `for`-løkka vi lagde tidligere til å inneholde dette
+[ ] Endre `for`-løkka vi lagde tidligere til å inneholde dette
 
   ```python
   for n in range(10):
       bar()
   ```
 
-* Tegner skilpadden nå strekene på samme linje, slik som på bildet?
+[ ] Tegner skilpadden nå strekene på samme linje, slik som på bildet?
 
   ![](turtle_bars.png)
 
@@ -170,7 +170,7 @@ For å kunne lage en ny linje  må funksjonen vite hvor mange tegn den skal gå 
 
 ## Sjekkliste {.check}
 
-* Skriv inn koden under:
+[ ] Skriv inn koden under:
 
   ```python
   def newline(lineLength):
@@ -187,7 +187,7 @@ For å kunne lage en ny linje  må funksjonen vite hvor mange tegn den skal gå 
 
   Denne koden går først ned til linjen under, så går den tilbake begynnelsen av linjen. Legg merke til at vi kaller `forward` med `SIZE*lineLength` som argumenter. `lineLength` er hvor mange tegn som er på linjen vi kom fra, og `SIZE` er hvor stort hvert tegn er - dermed må skilpadden flytte seg `SIZE*lineLength` piksler tilbake.
 
-* For å teste koden vår erstatter vi de tidligere `for`-løkkene med denne koden (pass på at dette blir plassert nederst i filen):
+[ ] For å teste koden vår erstatter vi de tidligere `for`-løkkene med denne koden (pass på at dette blir plassert nederst i filen):
 
   ```python
   for i in range(10):
@@ -212,7 +212,7 @@ Her skal du bare få svaret og slippe å regne det ut selv. Diagonalen i boksene
 
 ## Sjekkliste {.check}
 
-* Koden for en 'slash' - `/` blir slik:
+[ ] Koden for en 'slash' - `/` blir slik:
 
   ```python
   def slash():
@@ -228,7 +228,7 @@ Her skal du bare få svaret og slippe å regne det ut selv. Diagonalen i boksene
       right(45)
   ```
 
-* Koden for en 'backslash' - `\` blir slik:
+[ ] Koden for en 'backslash' - `\` blir slik:
 
   ```python
   def backslash(): # \
@@ -244,7 +244,7 @@ Her skal du bare få svaret og slippe å regne det ut selv. Diagonalen i boksene
       right(90)
   ```
 
-* La oss endre på `for`-løkkene våre, og teste at koden blir korrekt (pass på at denne koden fremdeles ligger nederst).
+[ ] La oss endre på `for`-løkkene våre, og teste at koden blir korrekt (pass på at denne koden fremdeles ligger nederst).
 
   ```python
   length = 10
@@ -265,14 +265,14 @@ Vi trenger en funksjon for å skrive blanke tegn, og  vi trenger å oversette fr
 
 ## Sjekkliste {.check}
 
-* For å skrive blanke tegn, så må vi, enkelt og greit, bare bevege oss til neste boks. Det gjør vi slik:
+[ ] For å skrive blanke tegn, så må vi, enkelt og greit, bare bevege oss til neste boks. Det gjør vi slik:
 
   ```python
   def blank():
       forward(SIZE)
   ```
 
-* For å oversette fra teksttegn til funksjoner kommer vi til å bruke en dictionary. Dictionary betyr ordbok, og det er akkurat slik den fungerer. Vi "slår opp" noe i ordboka, og får noe tilbake. I vårt tilfelle skal vi slå opp på tegn, og få en funksjon tilbake igjen.
+[ ] For å oversette fra teksttegn til funksjoner kommer vi til å bruke en dictionary. Dictionary betyr ordbok, og det er akkurat slik den fungerer. Vi "slår opp" noe i ordboka, og får noe tilbake. I vårt tilfelle skal vi slå opp på tegn, og få en funksjon tilbake igjen.
 
   Først lager vi ordboka:
 
@@ -308,7 +308,7 @@ Vi trenger en funksjon for å skrive blanke tegn, og  vi trenger å oversette fr
       function = MOVES["_"]
   ```
 
-* Nå kan vi lage en ny funksjon, `create_text` som lager teksten vår.
+[ ] Nå kan vi lage en ny funksjon, `create_text` som lager teksten vår.
 
   For å passe på at vi får plass til all teksten vår, ønsker vi å begynne øverst til venstre i vinduet vårt. Dette kan vi fikse ved hjelp av `setx` og `sety` som lar oss flytte skilpadden til den posisjonen vi ønsker.
 
@@ -330,7 +330,7 @@ Vi trenger en funksjon for å skrive blanke tegn, og  vi trenger å oversette fr
 
   Som du kanskje ser, så har vi en `for`-løkke inni en annen `for`-løkke. Den ytterste (første) `for`-løkka går igjennom alle linjene i `LINES`, mens den innerste går igjennom alle tegnene i hver linje. Inni den innerste `for`-løkka sjekker vi om vi har en funksjon for tegnet, og hvis vi ikke har det så hopper vi bare over det ved å skrive et blankt tegn i stedenfor.
 
-* For å kjøre funksjonen vår, lager vi en `main`-funksjon som sørger for å sette riktig fart og riktig linjebredde.
+[ ] For å kjøre funksjonen vår, lager vi en `main`-funksjon som sørger for å sette riktig fart og riktig linjebredde.
 
   ```python
   def main():
@@ -343,7 +343,7 @@ Vi trenger en funksjon for å skrive blanke tegn, og  vi trenger å oversette fr
   main()
   ```
 
-* Kjør koden og se resultatet ditt!
+[ ] Kjør koden og se resultatet ditt!
 
 ## Kjøre koden uendelig mange ganger {.try}
 

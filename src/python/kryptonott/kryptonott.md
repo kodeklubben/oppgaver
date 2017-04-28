@@ -26,11 +26,11 @@ Denne koden fungerer best med python 3. Dersom du har python 2, må du legge en
 `u` foran alle strenger. Altså `'asdf'` må skrives slik som dette: `u'asdf'`.
 
 ## Lag kommentarer med forklaring {.check}
-- Les koden under.
-- Hva er forskjellig fra [Hemmelige koder]?
-- Hva gjør `alphabet.find`?
-- Hva betyr det at `alphabet.find` gir `-1` som svar?
-- Legg til kommentarer med `#` over/bak hver linjene med din forklaring.
+[ ] Les koden under.
+[ ] Hva er forskjellig fra [Hemmelige koder]?
+[ ] Hva gjør `alphabet.find`?
+[ ] Hva betyr det at `alphabet.find` gir `-1` som svar?
+[ ] Legg til kommentarer med `#` over/bak hver linjene med din forklaring.
 
 
 ```python
@@ -84,15 +84,15 @@ hemmelige nøkkelen på forhånd.
 Lag en funksjon som gjør det motsatte av den over (altså dekrypterer). Koden skal
 se nesten helt lik ut som over.
 
-- Funksjonen skal ta inn to parametre: en kodet tekst og en nøkkel.
-- Den skal dekryptere den kodede teksten med nøkkelen.
-- Og returnere den dekrypterte teksten.
-- Test at funksjonen fungerer og prøv med dine egne strenger og krypteringsnøkler.
-- Kanskje du kan dele nøkkelen og sende den krypterte teksten til en venn?
+[ ] Funksjonen skal ta inn to parametre: en kodet tekst og en nøkkel.
+[ ] Den skal dekryptere den kodede teksten med nøkkelen.
+[ ] Og returnere den dekrypterte teksten.
+[ ] Test at funksjonen fungerer og prøv med dine egne strenger og krypteringsnøkler.
+[ ] Kanskje du kan dele nøkkelen og sende den krypterte teksten til en venn?
 
 
 ## Cracking {.check}
-Du skal nå prøve å knekke en kodet streng. Dette er vanskelig, så du må lage en
+[ ] Du skal nå prøve å knekke en kodet streng. Dette er vanskelig, så du må lage en
 plan først. Strengen er:
 
 `q0Ø:;AI"E47FRBQNBG4WNB8B4LQN8ERKC88U8GEN?T6LaNBG4GØ""N6K086HB"Ø8CRHW"+LS79Ø""N29QCLN5WNEBS8GENBG4FØ47a`
@@ -110,11 +110,11 @@ krypteringen med en ordbok. En ordbok finner du på alle Linux/Mac/Unix-maskiner
 under **/usr/share/dict**. Bruker du Windows, kan du laste ned en slik fil fra
 internett. Søk på *large english vocabulary word lists*.
 
-Disse filene inneholder alle ord som finnes i en engelsk ordbok, separert med linjeskift. Finn ut hvordan du kan laste inn ordene fra filen (pass på at du fjerner linjeskiftene) og bruk dem til å dekryptere en ny streng:
+[ ] Disse filene inneholder alle ord som finnes i en engelsk ordbok, separert med linjeskift. Finn ut hvordan du kan laste inn ordene fra filen (pass på at du fjerner linjeskiftene) og bruk dem til å dekryptere en ny streng:
 
 `t-JO:BK0aM,:CQ+ÆAGW?FJGB0KVCGMQ6SQN"GAIDL-PÅ7954E:7Jr,IÆoCF0M"CQdØVlHD53CÅ;IA2DMG5ØHDØVåL:JQØ439LRBBVEMTBÆ6CF0M"CQNAG8G1V6LÅ8FF4Z`
 
-Bruk metodene du laget i oppgaven over for å detektere om vi har funnet riktig
+[ ] Bruk metodene du laget i oppgaven over for å detektere om vi har funnet riktig
 nøkkel. Dersom du kjører scriptet ditt med kommandoen `time python3 vigenere.py`
 kan du se hvor lang tid den bruker.
 

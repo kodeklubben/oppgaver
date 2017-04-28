@@ -20,7 +20,7 @@ med Python-kommandoer.
 
 ## Sjekkliste {.check}
 
-+ Åpne et nytt kodevindu og skriv dette:
+[ ] Åpne et nytt kodevindu og skriv dette:
 
   ```python
   from turtle import *
@@ -28,7 +28,7 @@ med Python-kommandoer.
   forward(100)
 
   ```
-+ Lagre programmet ditt som myturtle.py og velg `Run -> Run Module`. Ser du hvordan skilpadden beveget seg 100 punkter fremover på skjermen? Skilpadden har en penn festet til seg, så den tegner linjer når den beveger seg rundt.
+[ ] Lagre programmet ditt som myturtle.py og velg `Run -> Run Module`. Ser du hvordan skilpadden beveget seg 100 punkter fremover på skjermen? Skilpadden har en penn festet til seg, så den tegner linjer når den beveger seg rundt.
 
 ### Tips {.protip}
 
@@ -36,7 +36,7 @@ Python-filer skal alltid ha filnavn som slutter med `.py`.
 
 ## Sjekkliste {.check}
 
-+ La oss få skilpadden til å bevege seg rundt på skjermen! Forsøk å bruke `backward(distance)` i tillegg til å snu den ved å bruke `right(angle)` og `left(angle)`. Instruksjonen `backward(20)` forteller for eksempel skilpadden at den skal bevege seg bakover 20 pixler, og `right(90)` forteller den at den skal snu seg 90 grader til høyre. Du kan gi den mer enn en instruksjon om gangen, de blir utført i rekkefølge.
+[ ] La oss få skilpadden til å bevege seg rundt på skjermen! Forsøk å bruke `backward(distance)` i tillegg til å snu den ved å bruke `right(angle)` og `left(angle)`. Instruksjonen `backward(20)` forteller for eksempel skilpadden at den skal bevege seg bakover 20 pixler, og `right(90)` forteller den at den skal snu seg 90 grader til høyre. Du kan gi den mer enn en instruksjon om gangen, de blir utført i rekkefølge.
 
   ```python
   from turtle import *
@@ -102,7 +102,7 @@ La oss lage et kvadrat ved å fortelle skilpadden hvordan den skal bevege seg ru
 
 ## Sjekkliste {.check}
 
-+ Åpne en ny fil i IDLE og skriv inn følgende kode:
+[ ] Åpne en ny fil i IDLE og skriv inn følgende kode:
 
   ```python
   from turtle import *
@@ -124,7 +124,7 @@ La oss lage et kvadrat ved å fortelle skilpadden hvordan den skal bevege seg ru
 
   Hva med en trekant? En trekant har tre hjørner, så vi må snu tre ganger. Hvis vi vil ende opp i samme retning, må vi snu 360 grader, akkurat som med firkanten. Derfor snur vi 120 grader, deretter 120 grader og så en gang til.
 
-+ Endre koden din til å se ut som koden under for å få den til å tegne en
+[ ] Endre koden din til å se ut som koden under for å få den til å tegne en
 trekant:
 
   ```python
@@ -141,7 +141,7 @@ trekant:
   right(120)
   ```
 
-+ Kjør koden. Ser du en trekant?
+[ ] Kjør koden. Ser du en trekant?
 
 ### Velg en farge
 
@@ -149,7 +149,7 @@ Hva er yndlingsfargen din? Du kan endre fargen på linjene ved å bruke funksjon
 
 ## Sjekkliste {.check}
 
-+ Endre koden fra eksemplet over til å se ut som det neste eksemplet, ved å legge til disse nye kommandoene:
+[ ] Endre koden fra eksemplet over til å se ut som det neste eksemplet, ved å legge til disse nye kommandoene:
 
   ```python
   from turtle import *
@@ -169,10 +169,10 @@ Hva er yndlingsfargen din? Du kan endre fargen på linjene ved å bruke funksjon
   right(120)
   ```
 
-+ Kjør koden din, hva tegner den på skjermen?
+[ ] Kjør koden din, hva tegner den på skjermen?
   Denne koden tegner en tykk trekant i tre forskjellige farver.
 
-+ Forsøk å endre fargene i koden din, kjør den og se hva som skjer.
+[ ] Forsøk å endre fargene i koden din, kjør den og se hva som skjer.
   Skilpadden kan mange hundre forskjellige farger, ikke bare blå, rød og
   grønn. Forsøk med din yndlingsfarge! Du kan også bruke farger i __hex__, som
   du kanskje har gjort med CSS før. Istedenfor å bruke `pencolor("red")` kan du bruke hex
@@ -184,7 +184,7 @@ Det siste programmet var de samme kommandoene igjen og igjen. Istedenfor å skri
 
 ## Sjekkliste {.check}
 
-+ Åpne en ny fil og skriv inn følgende:
+[ ] Åpne en ny fil og skriv inn følgende:
 
   ```python
   from turtle import *
@@ -197,11 +197,11 @@ Det siste programmet var de samme kommandoene igjen og igjen. Istedenfor å skri
       right(90)
 
   ```
-+ Lagre programmet og velg: Run -> Run module.
+[ ] Lagre programmet og velg: Run -> Run module.
 
   Legg merke til at koden er skjøvet inn, *indentert*, eller dyttet til høyre under for-løkken. Python bruker mellomrom for å vite hvilke kommandoer som skal gjentas. Du kan bruke Tab-tasten for å få IDLE til å *indentere*, eller bruke Shift-Tab til å ta dem bort.
 
-+ La oss se hva som skjer hvis vi bare indenterer (skyver inn) `forward`. Gjør om programmet ditt så det ser ut som dette:
+[ ] La oss se hva som skjer hvis vi bare indenterer (skyver inn) `forward`. Gjør om programmet ditt så det ser ut som dette:
 
   ```python
   from turtle import *
@@ -214,12 +214,12 @@ Det siste programmet var de samme kommandoene igjen og igjen. Istedenfor å skri
   right(90)
   ```
 
-+ Legg merke til at `forward` er indendert og `right` ikke er det. Hva
+[ ] Legg merke til at `forward` er indendert og `right` ikke er det. Hva
 tror du dette programmet gjør? Forsøk å kjøre det og finn det ut.
 
   Fikk du en rett linje? Python vil gjenta `forward` fire ganger, og deretter snu til høyre. Python bruker mellomrom for å gruppere kommandoer sammen, akkurat som Scratch bruker blokker. Python klager til deg om du ikke har fått mellomrommene riktig.
 
-+ La oss endre programmet tilbake slik at det lager en firkant igjen, men istedenfor å bruke tall i koden skal vi gi tallene navn. Dette gjør det lettere å se hva programmet gjør, og gjør at vi slipper å gjenta oss selv.
+[ ] La oss endre programmet tilbake slik at det lager en firkant igjen, men istedenfor å bruke tall i koden skal vi gi tallene navn. Dette gjør det lettere å se hva programmet gjør, og gjør at vi slipper å gjenta oss selv.
 
   Endre filen så den ser slik ut:
 
@@ -237,16 +237,16 @@ tror du dette programmet gjør? Forsøk å kjøre det og finn det ut.
       right(angle)
   ```
 
-+ Lagre programmet og velg: `Run -> Run module`.
+[ ] Lagre programmet og velg: `Run -> Run module`.
 
 ## Oppgave: Tegn de andre formene {.challenge}
 
 Kan du tegne noen av figurene under bare ved å endre verdiene?
 
-* En trekant? (tre sider)
-* Et pentagram? (fem sider)
-* Et hexagram? (seks sider)
-* Et oktagram? (åtte sider)
+[ ] En trekant? (tre sider)
+[ ] Et pentagram? (fem sider)
+[ ] Et hexagram? (seks sider)
+[ ] Et oktagram? (åtte sider)
 
 Husk, en trekant har tre sider og vi må derfor snu 120 grader i hvert av de tre hjørnene for at det skal bli 360 grader tilsammen. For en firkant må vi snu 90
 grader i hvert hjørne, som også blir 360 grader.
@@ -263,7 +263,7 @@ For en firkant er `360 / 4` lik 90, for trekanten er `360 / 3` lik 120.
 
 ## Sjekkliste {.check}
 
-+ Endre programmet ditt til å regne ut vinkelen.
+[ ] Endre programmet ditt til å regne ut vinkelen.
 
   ```python
   from turtle import *
@@ -280,14 +280,14 @@ For en firkant er `360 / 4` lik 90, for trekanten er `360 / 3` lik 120.
       right(angle)
   ```
 
-+ Nå kan du endre antall sider, klarer Python å gjøre jobben riktig? Prøv
+[ ] Nå kan du endre antall sider, klarer Python å gjøre jobben riktig? Prøv
 med så mange kanter du vil!
 
 # Steg 5: Fylte figurer {.activity}
 
 ## Sjekkliste {.check}
 
-+ Vi kan be skilpadden om å fylle figurene med en farge ved å bruke `begin_fill()` og `end_fill()`. Endre koden din til å bruke disse kommandoene:
+[ ] Vi kan be skilpadden om å fylle figurene med en farge ved å bruke `begin_fill()` og `end_fill()`. Endre koden din til å bruke disse kommandoene:
 
   ```python
   from turtle import *
@@ -317,7 +317,7 @@ med så mange kanter du vil!
   fargelegge figuren du tegner, og si `end_fill()` for å si at du er
   ferdig.
 
-+ Forsøk å endre fargene, sidene og lengdene og se hvilke figurer du kan tegne!
+[ ] Forsøk å endre fargene, sidene og lengdene og se hvilke figurer du kan tegne!
 
 # Steg 6: Pennen går opp, pennen går ned {.activity}
 
@@ -326,7 +326,7 @@ bruke `penup()` og `pendown()` for å slå av og på at skilpadden skal tegne.
 
 ## Sjekkliste {.check}
 
-+ Forsøk dette i en ny fil:
+[ ] Forsøk dette i en ny fil:
 
   ```python
   from turtle import *
@@ -343,7 +343,7 @@ bruke `penup()` og `pendown()` for å slå av og på at skilpadden skal tegne.
       forward(20)
   ```
 
-+ Dette burde tegne en stiplet strek over skjermen din. Kjør det og se!
+[ ] Dette burde tegne en stiplet strek over skjermen din. Kjør det og se!
 
 ### Hjem, kjære hjem på skjermen {.protip}
 

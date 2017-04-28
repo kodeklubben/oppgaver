@@ -144,10 +144,10 @@ Du er visst en pensjonist.
 
 Det du trenger å gjøre er:
 
-* Spør om brukerens alder.
-* Lagre alderen til en variabel.
-* Test om alderen er barn, ungdom, voksen eller pensjonist.
-* Skriv ut hvilken aldersgruppe brukeren er i.
+[ ] Spør om brukerens alder.
+[ ] Lagre alderen til en variabel.
+[ ] Test om alderen er barn, ungdom, voksen eller pensjonist.
+[ ] Skriv ut hvilken aldersgruppe brukeren er i.
 
 
 # Løkker {.activity}
@@ -205,9 +205,9 @@ Kim
 
 Dette du må gjøre:
 
-* Lag ei liste med navn.
-* Bruk ei løkke for å gå igjennom lista med navn.
-* Skriv ut hvert navn.
+[ ] Lag ei liste med navn.
+[ ] Bruk ei løkke for å gå igjennom lista med navn.
+[ ] Skriv ut hvert navn.
 
 # range() {.protip}
 
@@ -277,9 +277,9 @@ Skriv et program som summerer alle tallene fra `1` til `100` ved hjelp av ei
 
 Dette må du gjøre:
 
-* Lag en variabel som inneholder summen.
-* Lag en tellevariabel som inneholder tallet du er kommet til.
-* Så lenge tellevariabelen ikke er større enn 100:
+[ ] Lag en variabel som inneholder summen.
+[ ] Lag en tellevariabel som inneholder tallet du er kommet til.
+[ ] Så lenge tellevariabelen ikke er større enn 100:
   * Oppdater summen.
   * Inkrementer tellevariabelen din.
 
@@ -327,7 +327,7 @@ Fikk inn 3 og 4
 
 Dette må du gjøre:
 
-* Definer en funksjon som tar inn to tall som parametre.
-* Skriv ut tallene du fikk inn.
-* Regn ut summen.
-* Returner summen.
+[ ] Definer en funksjon som tar inn to tall som parametre.
+[ ] Skriv ut tallene du fikk inn.
+[ ] Regn ut summen.
+[ ] Returner summen.

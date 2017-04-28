@@ -43,7 +43,7 @@ du en liste med tallene fra 4 til (ikke med) 6, og hvis du skriver
 Bruk en for-løkke til å skrive ut alle tallene mellom 0 og 10.
 
 # Liftoff {.activity}
-Bruk en for-løkke og range-funksjonen for å telle ned fra 10. Når du kommer
+[ ] Bruk en for-løkke og range-funksjonen for å telle ned fra 10. Når du kommer
 til 0, skal programmet skrive **liftoff!**
 
 ![](liftoff.png "program som teller ned til liftoff")
@@ -55,7 +55,7 @@ er veldig lett når man kan programmere! Lag en for-løkke som går fra 0 til
 bli 5050.
 
 # Summere n tall {.activity}
-Lag en funksjon `summer(n)`, som tar inn en parameter og returnerer summen av
+[ ] Lag en funksjon `summer(n)`, som tar inn en parameter og returnerer summen av
 alle tallene fra 0 til `n`. Definer funksjonen slik:
 
 ```python

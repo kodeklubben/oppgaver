@@ -34,10 +34,10 @@ forward(270)
 
 ## Sjekkliste {.check}
 
-+ Skriv inn programmet over. Lagre det med navnet `snoflak.py` og kjør
+[ ] Skriv inn programmet over. Lagre det med navnet `snoflak.py` og kjør
   det. En rett strek skal tegnes på skjermen.
 
-+ Endre litt på tallene og fargene i koden slik at du husker hva de
+[ ] Endre litt på tallene og fargene i koden slik at du husker hva de
   forskjellige kommandoene gjør. Finner du en fargekombinasjon du
   liker?
 
@@ -68,7 +68,7 @@ over.
 
 ## Sjekkliste {.check}
 
-+ Den rette streken har vi jo allerede tegnet. La oss bare endre litt
+[ ] Den rette streken har vi jo allerede tegnet. La oss bare endre litt
   i programmet vårt slik at dette blir en funksjon:
 
   ```python
@@ -88,7 +88,7 @@ over.
 
   Husk at vi må kalle funksjonen for at den skal bli gjort.
 
-+ La oss nå legge til en funksjon `to()` som tegner den andre figuren,
+[ ] La oss nå legge til en funksjon `to()` som tegner den andre figuren,
   det enkle fjellet. Skriv denne funksjonen i den samme filen.
 
   ```python
@@ -106,11 +106,11 @@ over.
 
   Ser du sammenhengen mellom figuren og koden?
 
-+ Kjør programmet ditt. Husk at du kan styre hvilke figurer som tegnes
+[ ] Kjør programmet ditt. Husk at du kan styre hvilke figurer som tegnes
   med hvilke funksjoner du kaller. Selv om både `en` og `to` er
   definert trenger du ikke kalle begge funksjonene.
 
-+ I `to` har vi brukt `forward(90)`, mens i `en` brukte vi
+[ ] I `to` har vi brukt `forward(90)`, mens i `en` brukte vi
   `forward(270)`. Det betyr at vi har tegnet den rette streken tre
   ganger mindre. Men vi har brukt vinkler slik at de fire strekene i
   `to` tilsammen blir like lang som den ene streken i `en`.
@@ -134,9 +134,9 @@ over.
   to(270)
   ```
 
-+ Kjør programmet igjen. Tegnes fortsatt de samme figurene?
+[ ] Kjør programmet igjen. Tegnes fortsatt de samme figurene?
 
-+ Vi vil nå tegne den tredje figuren. En måte å gjøre dette på kan
+[ ] Vi vil nå tegne den tredje figuren. En måte å gjøre dette på kan
   være å kombinere `forward`, `left` og `right` slik vi opprinnelig
   gjorde for `to`. Du trenger ikke skrive inn denne koden, men se på
   den og sammenlign med figuren. Ser du at det stemmer?
@@ -176,7 +176,7 @@ over.
       forward(30)
   ```
 
-+ Dette er en kjedelig måte å programmere på: Vi må skrive kjempemye
+[ ] Dette er en kjedelig måte å programmere på: Vi må skrive kjempemye
   kode, det er veldig lett å gjøre feil og det tar tid å gjøre
   endringer i koden.
 
@@ -195,7 +195,7 @@ over.
   går igjen flere ganger. Sammenlign disse linjene med funksjonen
   `to` fra tidligere. Ser du en måte vi kan forenkle koden vår?
 
-+ Vi har sett at koden til `tre` består av flere kopier av koden til
+[ ] Vi har sett at koden til `tre` består av flere kopier av koden til
   `to`, bare krympet. Da kan vi jo gjøre samme trikset som tidligere,
   vi bare kaller `to`. Skriv inn følgende kode i den samme filen som
   `en` og `to`:
@@ -213,7 +213,7 @@ over.
   tre()
   ```
 
-+ Klarer du å tegne alle tre figurene nå?
+[ ] Klarer du å tegne alle tre figurene nå?
 
 # Steg 4: Her kan vi kombinere {.activity}
 
@@ -225,7 +225,7 @@ Nå kommer det morsomste. Før vi kaster bort tid på å lage flere
 funksjoner `fire`, `fem` og kanskje `seks`, skal vi se at vi kan lage
 en funksjon som kan lage alle disse for oss!
 
-+ Sammenlign funksjonene `to` og `tre`. Ser du at de er nesten helt
+[ ] Sammenlign funksjonene `to` og `tre`. Ser du at de er nesten helt
   like?
 
 Vi skal nå bruke noe som kalles rekursjon for å lage en funksjon som
@@ -237,7 +237,7 @@ Med rekursjon ser man gjerne på det enkle tilfellet og det generelle
 tilfellet. For disse figurene er `en` det enkle tilfellet hvor vi bare
 trenger å tegne en rett strek.
 
-+ Legg til denne funksjonen. Dette er det enkle tilfellet:
+[ ] Legg til denne funksjonen. Dette er det enkle tilfellet:
 
   ```python
   def fjell(lengde, dybde):
@@ -249,7 +249,7 @@ trenger å tegne en rett strek.
   Her bruker vi `return` for å si at vi ikke vil gjøre mer for det
   enkle tilfellet.
 
-+ Det generelle tilfellet er det vi har sett tidligere i `to` og
+[ ] Det generelle tilfellet er det vi har sett tidligere i `to` og
   `tre`. Med den nye variabelen `dybde` kan vi lage både `to` og `tre`
   med samme kode. Utvid funksjonen `fjell` slik at den ser slik ut:
 
@@ -270,7 +270,7 @@ trenger å tegne en rett strek.
 
   Kjenner du igjen koden fra tidligere?
 
-+ Prøv å tegn
+[ ] Prøv å tegn
 
   ```python
   fjell(270, 2)
@@ -284,7 +284,7 @@ trenger å tegne en rett strek.
 
   Gir dette samme resultat som `to(270)` og `tre(270)`?
 
-+ Den nye funksjonen gjør enda mer enn `to` og `tre`. Vi kan bruke
+[ ] Den nye funksjonen gjør enda mer enn `to` og `tre`. Vi kan bruke
   enda større dybde. Prøv for eksempel `fjell(270, 6)`. Denne vil
   bruke litt tid. Bruk `speed(11)` for at skilpadden skal bevege seg
   så raskt som mulig.
@@ -295,7 +295,7 @@ Vi skal nå kombinere flere slike fjell til et fint snøflak.
 
 ## Sjekkliste {.check}
 
-+ Til sist skal vi kombinere flere kall til `fjell`-funksjonen vår for
+[ ] Til sist skal vi kombinere flere kall til `fjell`-funksjonen vår for
   å tegne det fine snøflaket du så helt først i oppgaven. Ser du
   hvordan snøflaket består av tre fjell?
 
@@ -308,7 +308,7 @@ Vi skal nå kombinere flere slike fjell til et fint snøflak.
           right(120)
   ```
 
-+ Prøv å kall denne `snoflak`-funksjonen med forskjellige lengder og
+[ ] Prøv å kall denne `snoflak`-funksjonen med forskjellige lengder og
   dybder.
 
 Dette snøflaket er en av de mest kjente fraktalene. Det har fått
@@ -327,9 +327,9 @@ firkant som i figuren under:
 
 ![](firkantfjell_forstesteg.png)
 
-+ Lag en ny fil som du kaller `firkantfjell.py`.
+[ ] Lag en ny fil som du kaller `firkantfjell.py`.
 
-+ Som tidligere så kan vi prøve å tegne dette nye fjellet med
+[ ] Som tidligere så kan vi prøve å tegne dette nye fjellet med
   funksjoner for hvert steg. For eksempel
 
   ```python
@@ -358,7 +358,7 @@ firkant som i figuren under:
   to(270)
   ```
 
-+ Men vi har jo lært at det er mye bedre å bruke rekursjon. Vi vil
+[ ] Men vi har jo lært at det er mye bedre å bruke rekursjon. Vi vil
   lage en funksjon som kan tegne mange forskjellige firkantfjell ved
   at den kaller seg selv.
 
@@ -374,7 +374,7 @@ firkant som i figuren under:
       # Her må du programmere det generelle tilfellet
   ```
 
-+ Test koden din. Blir det riktig? Nedenfor ser du et eksempel hvor vi
+[ ] Test koden din. Blir det riktig? Nedenfor ser du et eksempel hvor vi
   har laget et firkantfjell med dybde 6.
 
   ![](firkantfjell.png)
@@ -393,10 +393,10 @@ stegene:
 Her ser vi at vi har en trekant som byttes ut med tre mindre
 trekanter.
 
-+ Lag en ny fil `trekant.py` og legg til de vanlige kommandoene på
+[ ] Lag en ny fil `trekant.py` og legg til de vanlige kommandoene på
   toppen av filen.
 
-+ I det enkle tilfellet vil vi nå tegne en trekant. Det kan vi gjøre
+[ ] I det enkle tilfellet vil vi nå tegne en trekant. Det kan vi gjøre
   på denne måten:
 
   ```python
@@ -410,7 +410,7 @@ trekanter.
           return
   ```
 
-+ For det generelle tilfellet må vi stable tre trekanter. Det kan vi
+[ ] For det generelle tilfellet må vi stable tre trekanter. Det kan vi
   gjøre for eksempel med koden under. Sammenlign koden med figuren.
   Ser du sammenhengen?
 
@@ -427,7 +427,7 @@ trekanter.
       left(120)
   ```
 
-+ Tegn noen trekanter med forskjellig dybde og størrelse. Denne
+[ ] Tegn noen trekanter med forskjellig dybde og størrelse. Denne
   fraktalen er også ganske kjent, og går ofte under navnet
   Sierpinski-trekanten.
 
