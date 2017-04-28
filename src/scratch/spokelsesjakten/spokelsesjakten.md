@@ -21,34 +21,34 @@ bort flest mulig i løpet av 30 sekunder.
 
 ## Sjekkliste {.check}
 
-+ Start et nytt Scratch-prosjekt.
+[ ] Start et nytt Scratch-prosjekt.
 
-+ Slett kattefiguren ved å høyreklikke på den og velge `slett`
+[ ] Slett kattefiguren ved å høyreklikke på den og velge `slett`
 
-+ Endre bakgrunnen til `Natur/woods`.
+[ ] Endre bakgrunnen til `Natur/woods`.
 
-+ For å legge til et spøkelse klikker du på
+[ ] For å legge til et spøkelse klikker du på
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen.
   Velg `Fantasi/Ghost1`-figuren.
 
-+ Gi spøkelset navnet `spøkelse1`, ved å klikke på `i`{.blockmotion} på
+[ ] Gi spøkelset navnet `spøkelse1`, ved å klikke på `i`{.blockmotion} på
   figuren.
 
 Du skal nå __lage en variabel__ som styrer hvor fort spøkelset beveger
 seg. Denne kan vi senere bruke til å endre hastigheten når spillet er
 i gang.
 
-+ Under `Skript`{.blocklightgrey}, trykk på `Data`{.blockdata} og så
+[ ] Under `Skript`{.blocklightgrey}, trykk på `Data`{.blockdata} og så
   `Lag en variabel`. Kall variabelen `hastighet`. Huk av der det står
   `For denne figuren`.
 
-+ På scenen skal variabelen hete `spøkelse1: hastighet`. Hvis den bare
+[ ] På scenen skal variabelen hete `spøkelse1: hastighet`. Hvis den bare
   heter `hastighet`, så slett den og legg den til en gang til.
 
-+ Fjern avhukingen ved siden av variabelen, slik at den ikke vises på
+[ ] Fjern avhukingen ved siden av variabelen, slik at den ikke vises på
   scenen: ![](hastighet.png)
 
-+ Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi
+[ ] Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi
   ved å lage følgende skript:
 
   ```blocks
@@ -63,13 +63,13 @@ i gang.
 
 __Klikk på det grønne flagget.__
 
-+ Flyr spøkelset over skjermen?
+[ ] Flyr spøkelset over skjermen?
 
-+ Hvorfor sitter spøkelset fast når det treffer kanten på skjermen?
+[ ] Hvorfor sitter spøkelset fast når det treffer kanten på skjermen?
 
 ## Sjekkliste {.check}
 
-+ For å unngå at spøkelset sitter fast i kanten må vi få det til å snu
+[ ] For å unngå at spøkelset sitter fast i kanten må vi få det til å snu
   når det treffer den. Dette gjøres ved å legge til klossen `sprett
   tilbake ved kanten`{.blockmotion}. Skriptet ser da slik ut:
 
@@ -82,7 +82,7 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
-+ For å hindre at spøkelset snur seg opp-ned, klikk på
+[ ] For å hindre at spøkelset snur seg opp-ned, klikk på
   ![venstre/høyre](../bilder/rotasjonsmate-hv.png)-knappen i
   spøkelsets infoboks, `i`{.blockmotion}.
 
@@ -90,16 +90,16 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Flyr spøkelset fram og tilbake?
+[ ] Flyr spøkelset fram og tilbake?
 
-+ Flyr spøkelset riktig vei?
+[ ] Flyr spøkelset riktig vei?
 
 ## Ting å prøve {.try}
 
-+ __Endre hastighetsvariabelen__, slik at spøkelset går raskere eller
+[ ] __Endre hastighetsvariabelen__, slik at spøkelset går raskere eller
   saktere.
 
-+ Hvordan kan vi få spøkelset til å __fly fortere jo lenger det
+[ ] Hvordan kan vi få spøkelset til å __fly fortere jo lenger det
   flyr?__ (Dette er nokså vanskelig, så ikke vær bekymret hvis du ikke
   skjønner hvordan. Du vil få flere hint underveis.)
 
@@ -110,7 +110,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Vi lager et nytt skript, som skal kjøre samtidig med skriptet som
+[ ] Vi lager et nytt skript, som skal kjøre samtidig med skriptet som
   beveger på spøkelset. Det nye skriptet __viser spøkelset en
   tilfeldig periode__ og __gjemmer det deretter bort i en tilfeldig
   periode__. Dette skal skje om og om igjen, frem til spillet er
@@ -130,13 +130,13 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Flytter spøkelset seg fra side til side?
+[ ] Flytter spøkelset seg fra side til side?
 
-+ Forsvinner det og dukker opp igjen helt tilfeldig?
+[ ] Forsvinner det og dukker opp igjen helt tilfeldig?
 
 ## Ting å prøve {.try}
 
-+ Prøv å __endre tallene i koden__ der det står `tilfeldig tall fra _
+[ ] Prøv å __endre tallene i koden__ der det står `tilfeldig tall fra _
   til _`{.blockoperators}. Hva skjer hvis du velger veldig store
   eller små tall? (Dette gir deg kanskje et nytt hint for hvordan vi
   skal få spøkelset til å gå fortere jo lenger man spiller.)
@@ -149,10 +149,10 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Hent lyden `Elektronisk/fairydust` fra
+[ ] Hent lyden `Elektronisk/fairydust` fra
   `Lyder`{.blocklightgrey}-fanen.
 
-+ Lag skriptet som får __spøkelset til å forsvinne__ når det blir
+[ ] Lag skriptet som får __spøkelset til å forsvinne__ når det blir
   klikket på:
 
   ```blocks
@@ -165,11 +165,11 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Forsvinner spøkelset med en tryllelyd når du klikker på det?
+[ ] Forsvinner spøkelset med en tryllelyd når du klikker på det?
 
 ## Ting å prøve {.try}
 
-+ Spør de voksne om du kan ta opp en egen lyd. Denne kan du bruke i
+[ ] Spør de voksne om du kan ta opp en egen lyd. Denne kan du bruke i
   stedet for tryllelyden.
 
 # Steg 4: Legg til tid og poeng {.activity}
@@ -181,7 +181,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Lag en ny variabel som heter `Poeng`{.blockdata}. Denne skal
+[ ] Lag en ny variabel som heter `Poeng`{.blockdata}. Denne skal
   gjelde `For alle figurer`. Legg til en ny kloss som gjør at
   `Poeng`{.blockdata}-variabelen økes med 1 poeng for hver gang
   spilleren klikker på spøkelset.
@@ -193,14 +193,14 @@ __Klikk på det grønne flagget.__
   endre [Poeng v] med (1)
   ```
 
-+ Klikk på `Scene` og lag en ny variabel som heter `Tid`. La variablen
+[ ] Klikk på `Scene` og lag en ny variabel som heter `Tid`. La variablen
   vises på skjermen.
 
-+ Lag et nytt skript som setter `Tid`{.blockdata}-variabelen til
+[ ] Lag et nytt skript som setter `Tid`{.blockdata}-variabelen til
   __30__ og `Poeng`-variablen til __0__ når det grønne flagget
   klikkes.
 
-+ Bruk så en `gjenta til`{.blockcontrol}-kloss for å vente i __1__
+[ ] Bruk så en `gjenta til`{.blockcontrol}-kloss for å vente i __1__
   sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre
   fram til tiden er ute. Til slutt stopper du hele spillet med en
   `stopp alle`{.blockcontrol}-kloss.
@@ -222,12 +222,12 @@ __Klikk på det grønne flagget.__
 
 ## Ting å prøve {.try}
 
-+ Hvordan kan du få spøkelset til å gå fortere etter at spillet er i
+[ ] Hvordan kan du få spøkelset til å gå fortere etter at spillet er i
   gang?
 
 ## Lagre prosjektet {.save}
 
-+ __Bra jobba!__ Nå er du egentlig ferdig med spillet, men prøv deg
+[ ] __Bra jobba!__ Nå er du egentlig ferdig med spillet, men prøv deg
   gjerne på neste steg også.
 
 ## En ekstra utfordring: Flere spøkelser! {.challenge}
@@ -235,42 +235,42 @@ __Klikk på det grønne flagget.__
 *Hvis ett spøkelse er bra, må vel flere være enda bedre! La oss ha tre
  spøkelser flyvende rundt!*
 
-+ __Lag flere spøkelser__ ved å høyreklikke på det du allerede har, og
+[ ] __Lag flere spøkelser__ ved å høyreklikke på det du allerede har, og
   så kopiere dette.
 
-+ __La spøkelsene få ulik størrelse__. Dette gjør du ved å bruke én av
+[ ] __La spøkelsene få ulik størrelse__. Dette gjør du ved å bruke én av
   knappene under. Den til venstre forstørrer figuren og den til høyre
   forminsker: ![](endre-storrelse.png)
 
-+ Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i
+[ ] Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i
   `hastighet`{.blockdata}-variabelen i det øverste skriptet for hver
   enkelt figur.
 
-+ Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette
+[ ] Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette
   gjør du ved å klikke og dra figurene rundt i selve skjermbildet.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-+ Har du nå tre spøkelser som flyr fra side til side?
+[ ] Har du nå tre spøkelser som flyr fra side til side?
 
-+ Som plutselig forsvinner og dukker opp igjen?
+[ ] Som plutselig forsvinner og dukker opp igjen?
 
-+ Forsvinner de når du klikker på dem?
+[ ] Forsvinner de når du klikker på dem?
 
 Gratulerer! Da har du gjort alt riktig!
 
 ## Ting å prøve {.try}
 
-+ Hvor mange spøkelser synes du spillet fungerer best med? __Legg til
+[ ] Hvor mange spøkelser synes du spillet fungerer best med? __Legg til
   flere__ og prøv!
 
-+ Klarer du å få spøkelsene til __å se forskjellige ut__? Klikk på
+[ ] Klarer du å få spøkelsene til __å se forskjellige ut__? Klikk på
   `Drakter`{.blocklightgrey} og prøv deg frem. Du kan også velge noen
   av klossene under `Utseende`{.blocklooks}.
 
-+ Kan du få spøkelsene til __å bli verdt forskjellige antall poeng?__
+[ ] Kan du få spøkelsene til __å bli verdt forskjellige antall poeng?__
   Hva med å få den minste og raskeste til å gi 10 poeng?
 
 ## Lagre prosjektet {.save}

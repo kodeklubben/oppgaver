@@ -20,20 +20,20 @@ raskest mulig finne steder og byer du blir bedt om å besøke.
 
 ## Sjekkliste {.check}
 
-+ Vi må først laste ned filen som inneholder kartet fra nettet. Hvis
+[ ] Vi må først laste ned filen som inneholder kartet fra nettet. Hvis
   du allerede har fått denne filen på datamaskinen din kan du hoppe
   over det neste punktet.
 
-+ Høyreklikk på lenken [norgeskart.png](norgeskart.png) og velg at den
+[ ] Høyreklikk på lenken [norgeskart.png](norgeskart.png) og velg at den
   skal åpnes i en ny fane.  Klikk på den nye fanen som blir
   åpnet. Dette vil vise et bilde av et norgeskart. Høyreklikk på
   bildet, og velg `Lagre bildet som` eller noe som ligner. Lagre
   bildet et sted du finner det igjen, for eksempel på Skrivebordet.
 
-+ Start et nytt Scratch-prosjekt. Slett kattefiguren, for eksempel ved
+[ ] Start et nytt Scratch-prosjekt. Slett kattefiguren, for eksempel ved
   å høyreklikke på den og velge `slett`.
 
-+ Legg inn norgeskartet som bakgrunn ved å velge
+[ ] Legg inn norgeskartet som bakgrunn ved å velge
   ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) under
   `Ny bakgrunn` helt til venstre på skjermen. Velg filen
   `norgeskart.png` du lastet ned tidligere.
@@ -53,17 +53,17 @@ andre kart.
 
 ## Sjekkliste {.check}
 
-+ Legg til en ny figur ved å klikke
+[ ] Legg til en ny figur ved å klikke
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
   under `Figurer`. Vi har brukt `Transport/Helicopter`, men du kan
   eventuelt bruke en annen figur du vil reise rundt med.
 
-+ Klikk `i`{.blockmotion} og skift navn på figuren til
+[ ] Klikk `i`{.blockmotion} og skift navn på figuren til
   `Helikopter`. Sett også rotasjonsmåten til
   ![vend sideveis](../bilder/rotasjonsmate-hv.png) for å unngå at
   helikopteret flyr opp-ned.
 
-+ Vi begynner med å gjøre helikopteret mindre, samt sikre oss at det
+[ ] Vi begynner med å gjøre helikopteret mindre, samt sikre oss at det
   alltid starter på samme sted. Lag dette skriptet:
 
   ```blocks
@@ -72,7 +72,7 @@ andre kart.
   gå til x: (0) y: (0)
   ```
 
-+ Vi skal nå programmere at helikopteret kontrolleres med
+[ ] Vi skal nå programmere at helikopteret kontrolleres med
   piltastene. Vi gjør dette ved å starte en løkke som vi gjentar for
   alltid. Inne i denne evige løkken tester vi om piltastene er trykket
   og i så fall flytter vi helikopteret. Først lager vi koden som
@@ -94,18 +94,18 @@ andre kart.
 
 __Klikk på det grønne flagget.__
 
-+ Starter en liten utgave av helikopteret omtrent midt på skjermen
+[ ] Starter en liten utgave av helikopteret omtrent midt på skjermen
   (litt nordvest for Trondheim)?
 
-+ Flytter helikopteret seg oppover når du trykker pil opp-tasten?
+[ ] Flytter helikopteret seg oppover når du trykker pil opp-tasten?
 
-+ Skjer det noe når du trykker de andre piltastene?
+[ ] Skjer det noe når du trykker de andre piltastene?
 
 ## Sjekkliste {.check}
 
 Vi skal nå programmere de andre piltastene også.
 
-+ Koden for å flytte helikopteret med de andre piltastene er veldig
+[ ] Koden for å flytte helikopteret med de andre piltastene er veldig
   lik koden som flytter helikopteret oppover. Vi kan derfor kopiere
   denne! Høyreklikk på klossen `hvis `{.blockcontrol}`tast pil opp
   trykket?`{.blocksensing}, og velg `lag en kopi`. Slipp disse
@@ -141,9 +141,9 @@ Vi skal nå programmere de andre piltastene også.
 
 __Klikk på det grønne flagget.__
 
-+ Kan du bruke alle fire piltastene til å flytte helikopteret?
+[ ] Kan du bruke alle fire piltastene til å flytte helikopteret?
 
-+ Hva er det som bestemmer hvor fort helikopteret beveger seg? Prøv å
+[ ] Hva er det som bestemmer hvor fort helikopteret beveger seg? Prøv å
   forandre på skriptet ditt slik at helikopteret flyr raskere eller
   saktere.
 
@@ -166,16 +166,16 @@ steg`{.blockmotion}-klossene med `gå
 
 ## Sjekkliste {.check}
 
-+ Vi skal nå tegne vår egen figur som vi vil bruke til å markere et
+[ ] Vi skal nå tegne vår egen figur som vi vil bruke til å markere et
   sted på kartet. Klikk ![Tegn ny figur](../bilder/tegn-ny.png)
   under `Figurer`.
 
-+ Vi trenger bare en ganske liten sirkel. Velg en passende farge, for
+[ ] Vi trenger bare en ganske liten sirkel. Velg en passende farge, for
   eksempel vil rød synes ganske godt på kartet. Velg deretter
   sirkelverktøyet, og marker den fyllte sirkelen (ellipsen) til
   venstre under tegnevinduet.
 
-+ Før vi begynner å tegne kan du forstørre tegningen din ved å trykke
+[ ] Før vi begynner å tegne kan du forstørre tegningen din ved å trykke
   på forstørrelsesglasset nederst til høyre. For eksempel vil 800%
   forstørrelse passe bra. Hold inne `skift`-knappen mens du drar ut en
   sirkel som er omtrent fire ruter stor. `skift`-knappen hjelper deg
@@ -183,13 +183,13 @@ steg`{.blockmotion}-klossene med `gå
 
   ![](sirkel.png)
 
-+ Klikk på `i`{.blockmotion} og gi denne nye figuren navnet `Sted`.
+[ ] Klikk på `i`{.blockmotion} og gi denne nye figuren navnet `Sted`.
 
-+ Dra denne nye sted-figuren til et sted på kartet du vil at skal være
+[ ] Dra denne nye sted-figuren til et sted på kartet du vil at skal være
   første reisemål. Vi har brukt `Hønefoss` som første reisemål, men du
   kan velge et annet sted om du vil.
 
-+ Vi trenger nå posisjonen til reisemålet vårt. Denne finner vi ved se
+[ ] Vi trenger nå posisjonen til reisemålet vårt. Denne finner vi ved se
   på figurinformasjonen etter tallene som står bak `x` og `y`. Disse
   tallene kalles koordinater. I eksempelet under er koordinatene `x:
   6` og `y: -112`. Disse forteller hvor på kartet vi har lagt
@@ -197,7 +197,7 @@ steg`{.blockmotion}-klossene med `gå
 
   ![](reisemaal.png)
 
-+ Klikk på `Skript`{.blocklightgrey}-fanen. Vi skal nå lage koden som
+[ ] Klikk på `Skript`{.blocklightgrey}-fanen. Vi skal nå lage koden som
   legger `Sted`-figuren på riktig sted, og senere oppdager om
   helikopteret reiser dit.
 
@@ -219,9 +219,9 @@ steg`{.blockmotion}-klossene med `gå
 
 __Klikk på det grønne flagget.__
 
-+ Er `Sted`-figuren der den skal være på kartet?
+[ ] Er `Sted`-figuren der den skal være på kartet?
 
-+ Sier den `Fant Hønefoss!` (eller ditt reisemål) når helikopteret
+[ ] Sier den `Fant Hønefoss!` (eller ditt reisemål) når helikopteret
   flyr til reisemålet?
 
 # Steg 4: Et nytt reisemål {.activity}
@@ -231,11 +231,11 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Flytt `Sted`-figuren til et nytt sted på kartet. Vi bruker
+[ ] Flytt `Sted`-figuren til et nytt sted på kartet. Vi bruker
   `Tromsø`. Finn koordinatene til dette nye stedet på samme måte som
   sist.
 
-+ Legg til en melding nederst i `Hønefoss`-skriptet som kaller et nytt
+[ ] Legg til en melding nederst i `Hønefoss`-skriptet som kaller et nytt
   reisemål. Lag deretter et nytt skript for det nye stedet. Dette nye
   skriptet er veldig likt det første, så du bør høyreklikke på `når
   jeg mottar Sted: Hønefoss`{.blockevents}-klossen og velge `lag en
@@ -261,9 +261,9 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Flytter reisemålet seg etter at du har funnet det første?
+[ ] Flytter reisemålet seg etter at du har funnet det første?
 
-+ Oppdager også det andre reisemålet at du finner det?
+[ ] Oppdager også det andre reisemålet at du finner det?
 
 # Steg 5: Skjul reisemålene {.activity}
 
@@ -276,15 +276,15 @@ __Klikk på det grønne flagget.__
 
 Vi vil først fortelle spilleren hvor han skal fly.
 
-+ Lag en ny variabel, ved å klikke på `Data`{.blockdata} og deretter
+[ ] Lag en ny variabel, ved å klikke på `Data`{.blockdata} og deretter
   `Lag en variabel`. Kall variabelen `Reis til`{.blockdata} og velg at
   den skal gjelde `For alle figurer`.
 
-+ Legg merke til at det dukket opp en boks på kartet, `Reis til
+[ ] Legg merke til at det dukket opp en boks på kartet, `Reis til
   `{.blocklightgrey}` 0 `{.blockdata}. Flytt denne boksen til et
   passende sted slik at den er lett å lese.
 
-+ Nå kan vi oppdatere koden til `Sted` slik at den setter denne `Reis
+[ ] Nå kan vi oppdatere koden til `Sted` slik at den setter denne `Reis
   til`{.blockdata}-variabelen. Endre først `Hønefoss`-skriptet som
   følger:
 
@@ -297,7 +297,7 @@ Vi vil først fortelle spilleren hvor han skal fly.
   send melding [Sted: Tromsø v]
   ```
 
-+ Endre også det andre reisemål-skriptet på samme måte:
+[ ] Endre også det andre reisemål-skriptet på samme måte:
 
   ```blocks
   når jeg mottar [Sted: Tromsø v]
@@ -311,16 +311,16 @@ Vi vil først fortelle spilleren hvor han skal fly.
 
 __Klikk på det grønne flagget.__
 
-+ Fungerer fortsatt spillet som tidligere?
+[ ] Fungerer fortsatt spillet som tidligere?
 
-+ Oppdaterer `Reis til`{.blockdata}-variabelen seg slik du forventet?
+[ ] Oppdaterer `Reis til`{.blockdata}-variabelen seg slik du forventet?
 
 ## Sjekkliste {.check}
 
 Vi er nå klare til å skjule den røde sirkelen. Vi prøver først det
 enkleste og mest opplagte:
 
-+ Legg til en `skjul`{.blocklooks}-kloss i oppstartskriptet på
+[ ] Legg til en `skjul`{.blocklooks}-kloss i oppstartskriptet på
   `Sted`-figuren.
 
   ```blocks
@@ -333,9 +333,9 @@ enkleste og mest opplagte:
 
 __Klikk på det grønne flagget.__
 
-+ Blir den røde sirkelen borte?
+[ ] Blir den røde sirkelen borte?
 
-+ Hva skjer om du reiser til Hønefoss?
+[ ] Hva skjer om du reiser til Hønefoss?
 
 Hmm ... spillet oppdager ikke lengre at vi reiser til Hønefoss.
 Problemet er at siden vi skjuler sirkelen vil den ikke lengre berøre
@@ -344,7 +344,7 @@ usynlig på!
 
 ## Sjekkliste {.check}
 
-+ I stedet for å skjule sirkelen helt vil vi heller gjøre den
+[ ] I stedet for å skjule sirkelen helt vil vi heller gjøre den
   gjennomsiktig! Bytt ut `skjul`{.blocklooks}-klossen med en `sett
   effekt`{.blocklooks}-kloss.
 
@@ -363,9 +363,9 @@ usynlig på!
 
 __Klikk på det grønne flagget.__
 
-+ Er fortsatt den røde sirkelen usynlig?
+[ ] Er fortsatt den røde sirkelen usynlig?
 
-+ Hva skjer nå om du reiser til Hønefoss?
+[ ] Hva skjer nå om du reiser til Hønefoss?
 
 # Steg 6: Vis reisemålet etter at det blir funnet {.activity}
 
@@ -374,7 +374,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ La oss lage en ny melding, `Fant sted`, som vi kan sende hver gang
+[ ] La oss lage en ny melding, `Fant sted`, som vi kan sende hver gang
   spilleren finner et reisemål. Denne meldingen kan vi så bruke til å
   kjøre et skript hver gang vi finner et reisemål. Endre
   `Sted`-skriptene som følger:
@@ -394,7 +394,7 @@ __Klikk på det grønne flagget.__
   send melding [Fant sted v] og vent
   ```
 
-+ Når vi mottar `Fant sted`-meldingen vil vi vise hvor reisemålet
+[ ] Når vi mottar `Fant sted`-meldingen vil vi vise hvor reisemålet
   faktisk ligger. Siden sirkelen snart flyttes videre kan vi ikke bare
   gjøre figuren synlig, vi må også `stemple avtrykk`{.blockpen} av
   figuren på bakgrunnen. Legg til dette skriptet:
@@ -410,14 +410,14 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Dukker den røde sirkelen opp etterhvert som du finner reisemålene?
+[ ] Dukker den røde sirkelen opp etterhvert som du finner reisemålene?
 
-+ Hva skjer om du starter spillet på nytt etter å ha funnet
+[ ] Hva skjer om du starter spillet på nytt etter å ha funnet
   reisemålene?
 
 ## Sjekkliste {.check}
 
-+ For å være sikker på at avtrykkene (de røde sirklene) blir borte når
+[ ] For å være sikker på at avtrykkene (de røde sirklene) blir borte når
   vi starter spillet på nytt kan vi bruke
   `slett`{.blockpen}-klossen. Legg til en kloss på oppstart-skripet:
 
@@ -429,13 +429,13 @@ __Klikk på det grønne flagget.__
   send melding [Sted: Hønefoss v]
   ```
 
-+ La oss også legge på en enkel lydeffekt når spilleren finner et
+[ ] La oss også legge på en enkel lydeffekt når spilleren finner et
   reisemål. Siden vi har meldingen `Fant sted` er dette enkelt. Klikk
   først på `Lyder`{.blocklightgrey}-fanen og velg en ny lyd fra
   biblioteket. Vi bruker `Effekter/rattle`, men du kan gjerne bruke en
   annen lyd.
 
-+ Spill lyden når et sted blir funnet. Klikk
+[ ] Spill lyden når et sted blir funnet. Klikk
   `Skript`{.blocklightgrey}-fanen og legg til en `spill
   lyden`{.blocksound}-kloss.
 
@@ -451,9 +451,9 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Blir de røde sirklene slettet når du starter spillet på nytt?
+[ ] Blir de røde sirklene slettet når du starter spillet på nytt?
 
-+ Spilles det av en liten lyd når du finner et reisemål?
+[ ] Spilles det av en liten lyd når du finner et reisemål?
 
 # Steg 7: Tiden går {.activity}
 
@@ -462,17 +462,17 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Klikk på `Scene` til venstre for figurene. Skript som skal gjelde
+[ ] Klikk på `Scene` til venstre for figurene. Skript som skal gjelde
   for hele spillet, og ikke en spesiell figur kan man legge på
   scenen. I dette tilfellet vil vi ha en variabel som teller ned hvor
   mye tid spilleren har til å reise rundt. Denne er et bra eksempel på
   noe som tilhører hele spillet.
 
-+ Velg `Data`{.blockdata} og `Lag en variabel`{.blocklightgrey}.  Kall
+[ ] Velg `Data`{.blockdata} og `Lag en variabel`{.blocklightgrey}.  Kall
   variabelen `Tid`{.blockdata}. Legg merke til at siden vi lager
   variabelen på scenen må den gjelde for alle figurer.
 
-+ Når spillet starter vil vi gi spilleren litt tid. Dette gjør vi ved
+[ ] Når spillet starter vil vi gi spilleren litt tid. Dette gjør vi ved
   å sette `Tid`{.blockdata} til for eksempel `30`, du kan selvsagt
   eksperimentere med andre tall. Deretter starter vi en løkke som
   teller ned hvert sekund.
@@ -490,7 +490,7 @@ __Klikk på det grønne flagget.__
   Legg merke til at vi også sender ut en ny melding `Avslutt` når
   tiden er ute. Denne bruker vi til å avslutte spillet.
 
-+ Lag et nytt skript på scenen som avslutter spillet.
+[ ] Lag et nytt skript på scenen som avslutter spillet.
 
   ```blocks
   når jeg mottar [Avslutt v]
@@ -501,11 +501,11 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Starter tiden på 30 når spillet begynner?
+[ ] Starter tiden på 30 når spillet begynner?
 
-+ Telles tiden ned etterhvert?
+[ ] Telles tiden ned etterhvert?
 
-+ Avsluttes spillet (helikopteret kan ikke fly rundt lengre) når tiden
+[ ] Avsluttes spillet (helikopteret kan ikke fly rundt lengre) når tiden
   løper ut?
 
 ## Sjekkliste {.check}
@@ -513,7 +513,7 @@ __Klikk på det grønne flagget.__
 Som en bonus kan vi også gi spilleren litt ekstra tid hver gang han
 finner et reisemål.
 
-+ Lag et nytt skript på scenen som reagerer på meldingen `Fant sted`.
+[ ] Lag et nytt skript på scenen som reagerer på meldingen `Fant sted`.
 
   ```blocks
   når jeg mottar [Fant sted v]
@@ -531,23 +531,23 @@ For å legge til nye steder må vi bare gjøre det samme som vi gjorde
 tidligere i oppgaven (under Steg 3 og 4). Det enkleste er å kopiere
 kodeklossene vi allerede har lagd, og deretter endre på dem.
 
-+ Velg figuren `Sted`.
+[ ] Velg figuren `Sted`.
 
-+ Vi har gjort `Sted`-figuren helt gjennomsiktig. For å gjøre den
+[ ] Vi har gjort `Sted`-figuren helt gjennomsiktig. For å gjøre den
   synlig igjen, kan du bare klikke på (du trenger ikke legge den til i
   noe skript) klossen `ta bort grafiske effekter`{.blocklooks} i
   `Utseende`{.blocklooks}-kategorien. Det kan også være nyttig å
   klikke på `slett`{.blockpen}-klossen i
   `Penn`{.blockpen}-kategorien.
 
-+ Flytt den røde sirkelen til et nytt sted. Noter deg koordinatene ved
+[ ] Flytt den røde sirkelen til et nytt sted. Noter deg koordinatene ved
   å se på figurinformasjonen, `i`{.blockmotion}.
 
-+ Høyreklikk på skriptet som begynner `når jeg mottar Sted:
+[ ] Høyreklikk på skriptet som begynner `når jeg mottar Sted:
   Hønefoss`{.blockevents} og velg `lag en kopi`. Oppdater denne kopien
   med navnet og koordinatene du fant ovenfor.
 
-+ Nedenfor har vi lagt til tre nye steder (samt lagt til en melding
+[ ] Nedenfor har vi lagt til tre nye steder (samt lagt til en melding
   for å reise videre fra Tromsø). Dine skript bør ligne på disse, men
   kan gjerne inneholde andre navn og koordinater.
 
@@ -592,9 +592,9 @@ kodeklossene vi allerede har lagd, og deretter endre på dem.
 
 __Klikk på det grønne flagget.__
 
-+ Kan du reise innom alle stedene?
+[ ] Kan du reise innom alle stedene?
 
-+ Virker stedene å være riktig plassert på kartet?
+[ ] Virker stedene å være riktig plassert på kartet?
 
 ## Lagre prosjektet {.save}
 
@@ -640,7 +640,7 @@ vi i stedet kan gjøre er å tilfeldig bestemme om vi skal be spilleren
 reise til et reisemål, eller bare gå videre til neste reisemål uten å
 spørre.
 
-+ Nedenfor er noen hint om hvordan dette kan gjøres. Vær oppmerksom på
+[ ] Nedenfor er noen hint om hvordan dette kan gjøres. Vær oppmerksom på
   at skriptene bruker noen variable du selv må lage.
 
   ```blocks
@@ -666,11 +666,11 @@ spørre.
   vi allerede har besøkt et reisemål. I såfall vil vi jo ha stemplet
   rødfarge på kartet.
 
-+ Siden dette vil hoppe over reisemål, er det viktig at det siste
+[ ] Siden dette vil hoppe over reisemål, er det viktig at det siste
   reisemålet sender melding om at vi skal besøke det første reisemålet
   igjen, i stedet for at spillet avsluttes etter det siste reisemålet.
 
-+ Det blir også vanskeligere å vite når spilleren har funnet alle
+[ ] Det blir også vanskeligere å vite når spilleren har funnet alle
   (eller mange nok) reisemål. En måte å gjøre dette på er å bruke en
   ny variabel, for eksempel `Antall steder funnet`{.blockdata}, som
   teller hvor mange steder som er funnet. Når mange nok steder er
@@ -683,17 +683,17 @@ spørre.
 
 ## Sjekkliste {.check}
 
-+ Åpne nettleseren din og finn en søkemotor som for eksempel Google,
+[ ] Åpne nettleseren din og finn en søkemotor som for eksempel Google,
   Bing eller DuckDuckGo.
 
-+ Søk etter et kart du er interessert i, for eksempel `Europakart`.
+[ ] Søk etter et kart du er interessert i, for eksempel `Europakart`.
   Velg å bare se bilderesultatene.
 
-+ Når du finner et kart du synes ser bra ut, klikk på det slik at du
+[ ] Når du finner et kart du synes ser bra ut, klikk på det slik at du
   kommer til originalbildet. Deretter kan du prøve å høyreklikke på
   kartet, og velge Lagre bilde eller noe som ligner.
 
-+ Før du bruker kartet i et prosjekt du deler med andre, må du
+[ ] Før du bruker kartet i et prosjekt du deler med andre, må du
   undersøke om du har rettigheter til å bruke kartet. Noen ganger vil
   det stå på nettsiden du fant kartet på at du kan bruke det (et
   eksempel på dette kan du se på
@@ -702,7 +702,7 @@ spørre.
   å sende en e-post) for å undersøke om du kan bruke kartet. Se mer
   informasjon om opphavsrett nedenfor.
 
-+ Bakgrunner i Scratch skal helst ha oppløsningen 480 x 360
+[ ] Bakgrunner i Scratch skal helst ha oppløsningen 480 x 360
   bildepunkter. Som regel vil ikke kartene du finner på nettet ha
   denne oppløsningen. Det gjør som regel ingenting, fordi Scratch vil
   gjøre bildene mindre om de er for store. Om bildet er mindre enn 480
@@ -711,12 +711,12 @@ spørre.
   selv i et bildebehandlingsprogram som for eksempel Paint, Gimp eller
   Photoshop (Elements).
 
-+ Les inn det nye kartet i Scratchprosjektet ditt på samme måte som du
+[ ] Les inn det nye kartet i Scratchprosjektet ditt på samme måte som du
   leste inn det opprinnelige norgeskartet i Steg 1, ved å velge
   ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) under
   `Ny bakgrunn` helt til venstre på skjermen.
 
-+ Lag reisemål basert på det nye kartet!
+[ ] Lag reisemål basert på det nye kartet!
 
 ## Opphavsrett {.protip}
 

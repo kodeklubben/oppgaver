@@ -22,12 +22,12 @@ Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
 
 ## Sjekkliste {.check}
 
-+ Last ned zip-filen
+[ ] Last ned zip-filen
   [tegneprogram_bildefiler.zip](tegneprogram_bildefiler.zip) og legg
   den på skrivebordet på datamaskinen din eller en annen plass du
   finner igjen.
 
-+ Pakk ut zip-filen ved å høyreklikke på den og velge `Extract All`,
+[ ] Pakk ut zip-filen ved å høyreklikke på den og velge `Extract All`,
   `Pakk ut filer` eller noe lignende.
 
 # Steg 1: Dra og tegn! {.activity}
@@ -37,26 +37,26 @@ Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
 
 ## Sjekkliste {.check}
 
-+ Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke på
+[ ] Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke på
   den og velge `slett`.
 
-+ Klikk på `Scene` og deretter på `Bakgrunner`-fanen. Klikk
+[ ] Klikk på `Scene` og deretter på `Bakgrunner`-fanen. Klikk
   ![hent fra fil](../bilder/hent-fra-fil.png) for å laste opp
   bakgrunnen som heter `frame.png` i katalogen du hentet under
   forberedelsene.
 
-+ Klikk ![hent fra fil](../bilder/hent-fra-fil.png) ved siden av
+[ ] Klikk ![hent fra fil](../bilder/hent-fra-fil.png) ved siden av
   `Ny figur`-teksten. Velg filen `green-pencil.png` som ligger i den
   nedlastede katalogen. Kall den nye figuren `Blyant`.
 
-+ Bytt til `Drakter`-fanen og velg senterpunkt for figuren ved hjelp
+[ ] Bytt til `Drakter`-fanen og velg senterpunkt for figuren ved hjelp
   av ![Velg senterpunkt](../bilder/velg_senterpunkt.png). Flytt
   korset slik at det markerer blyantspissen. Da vil spissen tegne og
   ikke midten av blyanten.
 
   ![](senterpunkt.png)
 
-+ Få blyanten til å følge musepekeren rundt på scenen ved å bruke `for
+[ ] Få blyanten til å følge musepekeren rundt på scenen ved å bruke `for
   alltid`{.blockcontrol}- og `gå til
   musepeker`{.blockmotion}-klossene.
 
@@ -72,7 +72,7 @@ under `Penn`{.blockpen}-kategorien kan du se mange slags
 tegnefunksjoner. De vi er interessert i nå er `penn på`{.blockpen} og
 `penn av`{.blockpen}.
 
-+ Vi vil bruke museknappen til å kontrollere blyanten - når
+[ ] Vi vil bruke museknappen til å kontrollere blyanten - når
   museknappen er nede tegner blyanten og når museknappen er oppe
   tegner den ikke. Vi kan gjøre dette ved å bruke enn `hvis
   ellers`{.blockcontrol}- og en `museknappen er
@@ -94,14 +94,14 @@ tegnefunksjoner. De vi er interessert i nå er `penn på`{.blockpen} og
 
 __Klikk på det grønne flagget.__
 
-+ Følger blyanten musa rundt?
+[ ] Følger blyanten musa rundt?
 
-+ Hva skjer om du holder museknappen nede og flytter på musa? Ikke bry
+[ ] Hva skjer om du holder museknappen nede og flytter på musa? Ikke bry
   deg om fargen enda.
 
 ## Sjekkliste {.check}
 
-+ Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke
+[ ] Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke
   `slett`{.blockpen}-klossen til å fjerne dette.
 
   ```blocks
@@ -121,7 +121,7 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Forsvinner tegningene dine når du klikker på det grønne flagget?
+[ ] Forsvinner tegningene dine når du klikker på det grønne flagget?
 
 # Steg 2: Rydde opp {.activity}
 
@@ -132,14 +132,14 @@ Vi kan fortsatt bruke `slett`{.blockpen}-klossen.
 
 ## Sjekkliste {.check}
 
-+ Lag en ny figur fra ressurskatalogen du lastet ned i begynnelsen av
+[ ] Lag en ny figur fra ressurskatalogen du lastet ned i begynnelsen av
   prosjektet. Velg `cancel-button.png`.
 
-+ Bytt navn på figuren til `Slett`.
+[ ] Bytt navn på figuren til `Slett`.
 
-+ Flytt figuren til nederste høyre hjørne av scenen.
+[ ] Flytt figuren til nederste høyre hjørne av scenen.
 
-+ Gi slette-figuren dette skriptet:
+[ ] Gi slette-figuren dette skriptet:
 
   ```blocks
   når denne figuren klikkes
@@ -150,7 +150,7 @@ Vi kan fortsatt bruke `slett`{.blockpen}-klossen.
 
 __Klikk på det grønne flagget.__
 
-+ Fjerner sletteknappen alle tegningene dine?
+[ ] Fjerner sletteknappen alle tegningene dine?
 
 # Steg 3: Bytte farge {.activity}
 
@@ -164,12 +164,12 @@ gjøre det slik at blyanten også skifter farge.
 
 ## Sjekkliste {.check}
 
-+ Lag en ny figur ved å laste opp `red-selector.gif`.
+[ ] Lag en ny figur ved å laste opp `red-selector.gif`.
 
-+ Gi figuren navnet `Rød` og flytt den ned i venstre hjørne av
+[ ] Gi figuren navnet `Rød` og flytt den ned i venstre hjørne av
   skjermen.
 
-+ Gi den et skript som sender meldingen `Rød`.
+[ ] Gi den et skript som sender meldingen `Rød`.
 
   ```blocks
   når denne figuren klikkes
@@ -179,12 +179,12 @@ gjøre det slik at blyanten også skifter farge.
   Dette er alt denne figuren gjør. Det vanskelige arbeidet gjøres av
   blyanten.
 
-+ Klikk på blyanten, og deretter på
+[ ] Klikk på blyanten, og deretter på
   `Drakter`{.blocklightgrey}-fanen. Importer drakten
   `red-pencil.png`. Sett midtpunktet til blyantspissen for denne
   drakten også.
 
-+ Legg til et nytt skript. Når blyanten får meldingen `Rød`, skal den
+[ ] Legg til et nytt skript. Når blyanten får meldingen `Rød`, skal den
   forandre drakt til `red-pencil`. Og så skal den selvsagt også
   begynne å tegne rødt. Slik bygger du skriptet:
 
@@ -202,28 +202,28 @@ gjøre det slik at blyanten også skifter farge.
 
 __Klikk på det grønne flagget.__
 
-+ Begynn å tegne en strek.
+[ ] Begynn å tegne en strek.
 
-+ Bytt til rødt, og se om fargen forandres.
+[ ] Bytt til rødt, og se om fargen forandres.
 
-+ Kommer streken fra blyantspissen nå også?
+[ ] Kommer streken fra blyantspissen nå også?
 
 ## Sjekkliste {.check}
 
-+ Gjenta punktene over for å lage blå, gule og grønne knapper og
+[ ] Gjenta punktene over for å lage blå, gule og grønne knapper og
   blyanter.
 
 ## Test prosjektet ditt {.flag}
 
 __Klikk på det grønne flagget.__
 
-+ Fungerer alle knappene?
+[ ] Fungerer alle knappene?
 
-+ Skifter de til en annen farge på blyanten?
+[ ] Skifter de til en annen farge på blyanten?
 
-+ Tegner de med riktig farge?
+[ ] Tegner de med riktig farge?
 
-+ Tegner alle figurene fra tuppen av blyanten?
+[ ] Tegner alle figurene fra tuppen av blyanten?
 
 # Steg 4: Bare tegne på tavla {.activity}
 
@@ -249,7 +249,7 @@ virker ikke blyanten.
 
 ## Sjekkliste {.check}
 
-+ Legg til testene som sier at blyanten bare får følge musepekeren
+[ ] Legg til testene som sier at blyanten bare får følge musepekeren
   hvis `y` er større enn *-120* og mindre enn *170* og `x` er større
   enn *-230* og mindre enn *230*.  For å få plass til alle testene må
   du først legge inn en `_ og _`{.blockoperators}-kloss, og deretter
@@ -270,7 +270,7 @@ virker ikke blyanten.
   slutt
   ```
 
-+ Siden vi ikke kan tegne utenfor tavla, er det like greit at blyanten
+[ ] Siden vi ikke kan tegne utenfor tavla, er det like greit at blyanten
   bare blir borte når musepekeren går utenfor tavla. For å gjøre dette
   må vi erstatte `hvis`{.blockcontrol}-klossen ovenfor med en `hvis -
   ellers`{.blockcontrol}-kloss. Reglene blir nå: __Hvis__ musepekeren
@@ -309,11 +309,11 @@ virker ikke blyanten.
 
 __Klikk på det grønne flagget.__
 
-+ Kan du fremdeles tegne på tavla?
+[ ] Kan du fremdeles tegne på tavla?
 
-+ Kan du tegne utenfor tavla?
+[ ] Kan du tegne utenfor tavla?
 
-+ Hva skjer med blyanten når musepekeren går ut og inn av tavla?
+[ ] Hva skjer med blyanten når musepekeren går ut og inn av tavla?
 
 # Steg 5: Viskelær {.activity}
 
@@ -324,26 +324,26 @@ tavla!  Og så gir vi blyanten en viskelærdrakt!
 
 ## Sjekkliste {.check}
 
-+ Last opp en figur fra fil. Velg filen `eraser.png` fra katalogen du
+[ ] Last opp en figur fra fil. Velg filen `eraser.png` fra katalogen du
   lastet ned i starten. Kall figuren `Viskelær`.
 
-+ Gjør figuren litt mindre med krympeknappen,
+[ ] Gjør figuren litt mindre med krympeknappen,
   ![krymp](../bilder/krymp.png), og deretter drar du den ned i
   høyre hjørne, ved siden av slett-knappen.
 
-+ Gi viskelær-figuren et skript som sender meldingen `Visk`.
+[ ] Gi viskelær-figuren et skript som sender meldingen `Visk`.
 
   ```blocks
   når denne figuren klikkes
   send melding [Visk v]
   ```
 
-+ For å få blyanten til å viske må du legge til viskelæret også som en
+[ ] For å få blyanten til å viske må du legge til viskelæret også som en
   drakt på denne. Klikk blyantfiguren. Gå til `Drakter`-fanen og
   importer `eraser.png` igjen. Husk å sette senterpunktet til
   viskelæret foran.
 
-+ Blyanten svarer på `Visk`-meldingen med å bytte pennfarge til grå
+[ ] Blyanten svarer på `Visk`-meldingen med å bytte pennfarge til grå
   (bruk fargevelgeren for å velge bakgrunnsfargen til tavla).
 
   ```blocks
@@ -356,11 +356,11 @@ tavla!  Og så gir vi blyanten en viskelærdrakt!
 
 __Klikk på det grønne flagget.__
 
-+ Klarer viskelæret å viske?
+[ ] Klarer viskelæret å viske?
 
-+ Fungerer det helt ut til kantene av tavla?
+[ ] Fungerer det helt ut til kantene av tavla?
 
-+ Går det greit å veksle mellom blyant og viskelær?
+[ ] Går det greit å veksle mellom blyant og viskelær?
 
 # Steg 6: Stempel {.activity}
 
@@ -368,7 +368,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ Legg til en ny figur med valgfritt utseende og kall den
+[ ] Legg til en ny figur med valgfritt utseende og kall den
   `Stempel`. Vi valgte Scratch-logoen fra `Ting`-mappen i
   biblioteket. Krymp figuren og plasser den nederst på skjermen ved
   siden av de andre verktøyene.  Når figuren klikkes skal den sende
@@ -379,16 +379,16 @@ __Klikk på det grønne flagget.__
   send melding [Stempel v]
   ```
 
-+ Legg til en ny drakt for blyantfiguren. Det skal være samme drakt
+[ ] Legg til en ny drakt for blyantfiguren. Det skal være samme drakt
   som du nettopp ga stempelet.
 
-+ Velg blyanten og lag en variabel. Kall variabelen
+[ ] Velg blyanten og lag en variabel. Kall variabelen
   `stempelmodus`{.blockdata} og la den gjelde `For denne figuren`.
   Fjern avhukingen foran variabelen slik at den ikke vises på scenen.
   Oppgaven til denne variabelen er å holde styr på om vi skal tegne
   eller stemple.
 
-+ Legg til et skript for blyanten som responderer på
+[ ] Legg til et skript for blyanten som responderer på
   `Stempel`-meldingen.  Skriptet skal skifte drakt til den samme
   drakten du valgte for stempelet.  Deretter skal det sette verdien
   til `stempelmodus`{.blockdata} lik `på`.
@@ -399,7 +399,7 @@ __Klikk på det grønne flagget.__
   sett [stempelmodus v] til [på]
   ```
 
-+ Forandre de andre skriptene som er knyttet til fargevelgerne og
+[ ] Forandre de andre skriptene som er knyttet til fargevelgerne og
   viskelæret slik at de setter `stempelmodus`{.blockdata} lik
   `av`. For eksempel blir viskelærskriptet slik:
 
@@ -410,7 +410,7 @@ __Klikk på det grønne flagget.__
   sett [stempelmodus v] til [av]
   ```
 
-+ Til slutt må vi sjekke variabelen inne i
+[ ] Til slutt må vi sjekke variabelen inne i
   `hvis`{.blockcontrol}`museknappen er nede?`{.blocksensing} for å se
   om vi skal tegne eller stemple. Hvis `stempelmodus`{.blockdata} er
   satt til `på` skal vi stemple, hvis ikke skal vi bruke den
@@ -443,9 +443,9 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Klarer du å stemple avtrykk?
+[ ] Klarer du å stemple avtrykk?
 
-+ Hva skjer når du skifter tilbake til en av blyantene?
+[ ] Hva skjer når du skifter tilbake til en av blyantene?
 
 ## Lagre prosjektet {.save}
 
@@ -460,15 +460,15 @@ farge mens du tegner. Kult, ikke sant?
 
 Først må du legge til regnbue-knappen og regnbue-drakten:
 
-+ Legg til regnbue-knappen som figur. Du finner den i katalogen du
+[ ] Legg til regnbue-knappen som figur. Du finner den i katalogen du
   lastet ned i starten. Den heter `rainbow-selector.gif`. Kall den
   `Regnbue` og sett den ved siden av de andre knappene nederst til
   venstre.  Figuren skal sende meldingen `Regnbue` når den klikkes.
 
-+ Legg til regnbue-blyanten fra filen `rainbow-pencil.png` som en ny
+[ ] Legg til regnbue-blyanten fra filen `rainbow-pencil.png` som en ny
   drakt til blyanten.  Husk å justere senterpunktet.
 
-+ Nå må du lage et skript som får pennfargen til å skifte mange ganger
+[ ] Nå må du lage et skript som får pennfargen til å skifte mange ganger
   i sekundet. Vi fant ut at å endre fargen med 5 hvert 0.05 sekunder
   fungerer fint, men du bør prøve ut egne verdier også.
 
@@ -491,9 +491,9 @@ fargene velges.
 
 __Klikk på det grønne flagget.__
 
-+ Virker regnbueblyanten?
+[ ] Virker regnbueblyanten?
 
-+ Hva skjer når du skifter tilbake til en av de andre blyantene?
+[ ] Hva skjer når du skifter tilbake til en av de andre blyantene?
 
 ## Utfordring 2: Snarveier {.challenge}
 
@@ -516,9 +516,9 @@ Rød blyant - `r`, Grønn blyant - `g`, Blå blyant - `b`, Gul blyant -
 
 __Klikk på det grønne flagget.__
 
-+ Virker alle snarveiene?
+[ ] Virker alle snarveiene?
 
-+ Virker knappene på skjermen fremdeles også?
+[ ] Virker knappene på skjermen fremdeles også?
 
 ## Utfordring 3: Større og mindre {.challenge}
 
@@ -530,13 +530,13 @@ endre størrelsen på blyantstreken og noen ganger trenger vi å forandre
 størrelsen på drakten.  Det er avhengig av om du bruker blyanten eller
 stemplet.
 
-+ Lag to nye figurer ved å importere `bigger-selector.gif` og
+[ ] Lag to nye figurer ved å importere `bigger-selector.gif` og
   `smaller-selctor.gif` fra katalogen med ressurser.  Kall figurene
   `Større` og `Mindre`.
 
-+ La figurene sende ut meldingene `Større` og `Mindre`.
+[ ] La figurene sende ut meldingene `Større` og `Mindre`.
 
-+ Blyanten kan svare på meldingen ved å enten `endre
+[ ] Blyanten kan svare på meldingen ved å enten `endre
   pennebredde`{.blockpen} med 1 eller `endre størrelse`{.blocklooks}
   med 10, avhengig av verdien på `stempelmodus`.
 
@@ -548,14 +548,14 @@ stemplet.
   stempelet som skal endres må du bruke en `hvis -
   ellers`{.blockcontrol}-kloss.
 
-+ Glem ikke å lage snarveier for disse funksjonene også. For eksempel
+[ ] Glem ikke å lage snarveier for disse funksjonene også. For eksempel
   `pil opp` for større og `pil ned` for mindre.
 
-+ Har du lagt merke til at også blyantfiguren blir større når du
+[ ] Har du lagt merke til at også blyantfiguren blir større når du
   forstørrer stempelet?  For å unngå dette kan vi sette størrelsen til
   100% hver gang en ny farge klikkes.
 
-+ For å gjøre det enda mer avansert kan du få stempelet til å huske
+[ ] For å gjøre det enda mer avansert kan du få stempelet til å huske
   størrelsen sin fra gang til gang. Den enkleste måten å gjøre dette
   på er å opprette en ny variabel som du kaller
   `stempelstørrelse`{.blockdata}. Denne må oppdateres hver gang
@@ -566,11 +566,11 @@ stemplet.
 
 __Klikk på det grønne flagget.__
 
-+ Fungerer forstørrelsesknappen?
+[ ] Fungerer forstørrelsesknappen?
 
-+ Fungerer forminskingsknappen?
+[ ] Fungerer forminskingsknappen?
 
-+ Hva skjer om du bytter til stempelet, endrer størrelsen og så
+[ ] Hva skjer om du bytter til stempelet, endrer størrelsen og så
   forandrer tilbake til blyanten?
 
 ## Lagre prosjektet {.save}

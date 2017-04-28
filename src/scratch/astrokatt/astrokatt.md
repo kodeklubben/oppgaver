@@ -20,10 +20,10 @@ Vi begynner prosjektet vårt med å få katten til å fly!
 
 ## Sjekkliste {.check}
 
-+ Start et nytt prosjekt. Du vil se en katt som venter på å bli
+[ ] Start et nytt prosjekt. Du vil se en katt som venter på å bli
   programmert!
 
-+ Prøv å klikk på de blå klossene midt på skjermen. For eksempel, om
+[ ] Prøv å klikk på de blå klossene midt på skjermen. For eksempel, om
   du klikker på
 
   ```blocks
@@ -39,12 +39,12 @@ Vi begynner prosjektet vårt med å få katten til å fly!
   vil den snu seg! Disse klossene er kommandoer vi kan gi til
   katten!
 
-+ Legg merke til at at over de blå klossene er det flere kategorier av
+[ ] Legg merke til at at over de blå klossene er det flere kategorier av
   kommandoer i forskjellige farger, for eksempel
   `Utseende`{.blocklooks} og `Lyd`{.blocksound}. Klikk på disse
   kategoriene og prøv noen av klossene du finner!
 
-+ For å sette sammen flere kommandoer til et skript kan du dra klosser
+[ ] For å sette sammen flere kommandoer til et skript kan du dra klosser
   til det store tomme området til høyre på skjermen.
 
   Prøv å pusle sammen disse klossene (bruk fargene for å finne
@@ -64,15 +64,15 @@ Legg merke til at den første klossen sier at noe skal skje når vi
 klikker et grønt flagg. Over vinduet med katten til venstre er det et
 grønt flagg. __Klikk på det!__
 
-+ Du skal se at katten flytter seg rundt i en sirkel. Les koden du
+[ ] Du skal se at katten flytter seg rundt i en sirkel. Les koden du
   laget en gang til. Skjønner du hvorfor katten går i sirkel?
 
-+ Prøv å endre tallene i koden din. Kan du få katten til å gå saktere?
+[ ] Prøv å endre tallene i koden din. Kan du få katten til å gå saktere?
   I større sirkler?
 
 ## Sjekkliste {.check}
 
-+ Nå skal vi endre litt på koden slik at vi kan kontrollere hvordan
+[ ] Nå skal vi endre litt på koden slik at vi kan kontrollere hvordan
   katten beveger seg. I kategorien `Sansning`{.blocksensing} finnes en
   kloss som reagerer når en tast er trykket. Den kan vi bruke til å
   styre katten med piltastene.
@@ -98,11 +98,11 @@ grønt flagg. __Klikk på det!__
 
 __Klikk på det grønne flagget.__
 
-+ Kan du styre katten rundt ved å bruke piltastene?
+[ ] Kan du styre katten rundt ved å bruke piltastene?
 
-+ Forstår du hvordan katten kontrolleres?
+[ ] Forstår du hvordan katten kontrolleres?
 
-+ Kan du få katten til å fly raskere eller saktere ved å endre i koden?
+[ ] Kan du få katten til å fly raskere eller saktere ved å endre i koden?
 
 # Steg 2: Ut i verdensrommet! {.activity}
 
@@ -110,22 +110,22 @@ Nå skal vi sende den flyvende katten ut i verdensrommet.
 
 ## Sjekkliste {.check}
 
-+ Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nederst
+[ ] Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nederst
   til venstre på skjermen for å hente inn en ny bakgrunn. Velg
   bakgrunnen `stars` som du finner i kategorien `Romfart`.
 
-+ Vi skal også gi katten en liten oksygentank, siden den flyr rundt
+[ ] Vi skal også gi katten en liten oksygentank, siden den flyr rundt
   ute i rommet. Klikk på katten i figurvinduet og deretter på fanen
   `Drakter` øverst på skjermen.
 
-+ Velg først en litt lys farge. Klikk deretter på Ellipse-verktøyet
+[ ] Velg først en litt lys farge. Klikk deretter på Ellipse-verktøyet
   til høyre på skjermen, og tegn en ellipse rundt hodet på katten.
 
   ![](katt_oksygentank.png)
 
 Til slutt lager vi også en jordklode, som katten kan fly rundt.
 
-+ Klikk på fanen `Skript` og deretter på
+[ ] Klikk på fanen `Skript` og deretter på
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
   jordklodefiguren `Romfart/Earth`. Plasser denne litt på siden av skjermen.
 
@@ -133,7 +133,7 @@ Til slutt lager vi også en jordklode, som katten kan fly rundt.
 
 __Klikk på det grønne flagget.__
 
-+ Flyr katten rundt omkring i verdensrommet?
+[ ] Flyr katten rundt omkring i verdensrommet?
 
 # Steg 3: Litt mer ekte ... {.activity}
 
@@ -142,7 +142,7 @@ realistisk.
 
 ## Sjekkliste {.check}
 
-+ Først kan vi få jordkloden til å rotere. Dette er enkelt, vi har jo
+[ ] Først kan vi få jordkloden til å rotere. Dette er enkelt, vi har jo
   allerede gjort det for katten! Pass på at jordkloden er merket i
   figurlisten, og lag deretter dette skriptet:
 
@@ -153,7 +153,7 @@ realistisk.
   slutt
   ```
 
-+ Videre skal vi gjøre det slik at det ser ut som om katten flyr mot
+[ ] Videre skal vi gjøre det slik at det ser ut som om katten flyr mot
   jorda. Det gjør vi ved å endre størrelsen slik at katten blir mindre
   jo nærmere den kommer jordkloden.
 
@@ -182,13 +182,13 @@ realistisk.
 
 __Klikk på det grønne flagget.__
 
-+ Blir katten mindre når den nærmer seg jorda?
+[ ] Blir katten mindre når den nærmer seg jorda?
 
-+ Ser det ut som om den flyr ned mot jorda, og kommer tilbake til oss?
+[ ] Ser det ut som om den flyr ned mot jorda, og kommer tilbake til oss?
 
 ## Sjekkliste {.check}
 
-+ For å gjøre det enda mer realistisk vil vi forandre hvor langt
+[ ] For å gjøre det enda mer realistisk vil vi forandre hvor langt
   katten flytter seg med. Når den er langt unna oss flytter den seg
   ikke like mange steg. Bytt ut
 
@@ -206,7 +206,7 @@ __Klikk på det grønne flagget.__
   forskjellige klosser. Se på fargene så finner du de riktige
   klossene.
 
-+ Av og til vil katten fly bak jordkloden. For å slippe det kan du
+[ ] Av og til vil katten fly bak jordkloden. For å slippe det kan du
   legge klossen `legg øverst`{.blocklooks} først i katten sitt
   skript.
 
@@ -214,10 +214,10 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Flyr katten rundt omkring i verdensrommet? Kan du få den til å lande
+[ ] Flyr katten rundt omkring i verdensrommet? Kan du få den til å lande
   på jorda?
 
-+ Prøv også å flytte jordkloden til andre steder på skjermen. Blir det
+[ ] Prøv også å flytte jordkloden til andre steder på skjermen. Blir det
   annerledes å fly med katten nå?
 
 # Steg 4: Gravitasjon {.activity}
@@ -227,7 +227,7 @@ med. Vi kan la astrokatten vår bli påvirket av gravitasjonen også.
 
 ## Sjekkliste {.check}
 
-+ Lag et nytt skript på katten. Du kan bare legge klossene ved siden
+[ ] Lag et nytt skript på katten. Du kan bare legge klossene ved siden
   av det skriptet du allerede har laget. Skriptet skal se slik ut:
 
   ```blocks
@@ -239,17 +239,17 @@ med. Vi kan la astrokatten vår bli påvirket av gravitasjonen også.
   slutt
   ```
 
-+ Når du tester programmet ditt ved å klikke på det grønne flagget,
+[ ] Når du tester programmet ditt ved å klikke på det grønne flagget,
   vil du se at katten svever mot jordkloden. Gravitasjonen trekker på
   den!
 
-+ MEN, vi har et problem: Vi kan ikke lengre styre katten! Hva har skjedd?
+[ ] MEN, vi har et problem: Vi kan ikke lengre styre katten! Hva har skjedd?
 
   I det nye skriptet sier vi at katten `for alltid`{.blockcontrol}
   skal `peke mot`{.blockmotion} jordkloden. Da hjelper det jo ikke
   at vi i det andre skriptet sier at katten skal snu seg.
 
-+ Det er ingen kommando i Scratch for å flytte en figur mot en
+[ ] Det er ingen kommando i Scratch for å flytte en figur mot en
   annen. Derfor må vi peke katten mot jordkloden og deretter flytte
   den. Men vi kan få programmet til å virke igjen, hvis vi bare husker
   hvilken retning katten pekte før vi snudde den.
@@ -258,7 +258,7 @@ med. Vi kan la astrokatten vår bli påvirket av gravitasjonen også.
   variabel ved å klikke på `Data`{.blockdata}-kategorien og deretter
   på `Lag en variabel`. Kall variabelen `katteretning`.
 
-+ Vi kan nå bruke denne variabelen til å huske hvilken retning katten
+[ ] Vi kan nå bruke denne variabelen til å huske hvilken retning katten
   pekte. Endre skriptet ditt ved å legge til to nye klosser:
 
   ```blocks
@@ -276,11 +276,11 @@ med. Vi kan la astrokatten vår bli påvirket av gravitasjonen også.
 
 __Klikk på det grønne flagget.__
 
-+ Kan du styre katten igjen?
+[ ] Kan du styre katten igjen?
 
-+ Hvis du ikke trykker på noen taster, vil katten da falle ned mot jorden?
+[ ] Hvis du ikke trykker på noen taster, vil katten da falle ned mot jorden?
 
-+ Legg merke til at hvis katten har kommet veldig nært jorden klarer
+[ ] Legg merke til at hvis katten har kommet veldig nært jorden klarer
   den ikke å fly tilbake til oss. Det er fordi gravitasjonen er
   kraftigere jo nærmere jorda man er. Og når katten kommer nært jorda
   har den ikke nok hastighet til å unnslippe jordas gravitasjon.

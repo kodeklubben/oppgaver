@@ -57,23 +57,23 @@ hinder. Vi bruker __rød__ for berøringssensorene.
 
 ## Sjekkliste {.check}
 
-+ __Åpne et nytt prosjekt__. Legg til __frantic-felix/testlevel__
+[ ] __Åpne et nytt prosjekt__. Legg til __frantic-felix/testlevel__
   bakgrunnen og slett den hvite __background1__.
 
-+ __Endre navn på figur Sprite1 til Felix__. Kontroller at drakten bare kan flippe venstre-høyre.
+[ ] __Endre navn på figur Sprite1 til Felix__. Kontroller at drakten bare kan flippe venstre-høyre.
 
-+ Lag fire nye figurer fra bildene (be om hjelp hvis du ikke har
+[ ] Lag fire nye figurer fra bildene (be om hjelp hvis du ikke har
   disse) __frantic-felix/top__, __frantic-felix/bottom__,
   __frantic-felix/left__, og __frantic-felix/right__. Disse figurene
   skal bli berøringssensor. Gi de nye figurene navnene __topp__,
   __bunn__, __venstre__, og __høyre__. Kontroller at draktene deres
   ikke kan flippes eller roteres.
 
-+ Lag fire variabler (for hver av figurene): `blokkert
+[ ] Lag fire variabler (for hver av figurene): `blokkert
   topp`{.blockdata}, `blokkert bunn`{.blockdata}, `blokkert
   høyre`{.blockdata} og `blokkert venstre`{.blockdata}.
 
-+ Lag dette skriptet for hver av sensorene:
+[ ] Lag dette skriptet for hver av sensorene:
 
   ```blocks
   når grønt flagg klikkes // eksempel for høyre sensor
@@ -87,7 +87,7 @@ hinder. Vi bruker __rød__ for berøringssensorene.
   slutt
   ```
 
-+ Endre variablene for hver av sensorene. Den nederste sensoren
+[ ] Endre variablene for hver av sensorene. Den nederste sensoren
   trenger en __eller__ kloss slik at den setter __blokkert bunn__ hvis
   den berører grønn eller svart.
 
@@ -110,14 +110,14 @@ gjennom plattformene og grønne hindre. Det skal vi fikse nå.
 
 ## Sjekkliste {.check}
 
-+ Neste steg er å få Felix til å gå. Vi bruker __venstre__ og __høre
+[ ] Neste steg er å få Felix til å gå. Vi bruker __venstre__ og __høre
   piltast__ for å flytte ham til venstre og høyre. Hvis han ikke står
   på et gulv, faller han ned (vi fikser hopping etterpå). Vi vil at
   når man trykker på venstre piltast, så skal Felix peke til venstre
   og flytter seg litt. Men vi vil ikke at han skal flytte seg hvis det
   er en hindring i veien.
 
-+ Vi kunne brukt `når tast trykkes`{.blockevents} for å flytte Felix,
+[ ] Vi kunne brukt `når tast trykkes`{.blockevents} for å flytte Felix,
   men det gir en hakkete bevegelse. Det blir en mykere bevegelse hvis
   du bruker `hvis `{.blockcontrol}`tast pil venstre
   trykket?`{.blocksensing}-klosser i en `for
@@ -127,12 +127,12 @@ gjennom plattformene og grønne hindre. Det skal vi fikse nå.
   man trykker på en tast og __blokkert venstre__ er 0. Vi må gjøre
   tilsvarende for bevegelse til høyre.
 
-+ Vi kunne animere Felix sine bein i samme kloss, men da beveger de
+[ ] Vi kunne animere Felix sine bein i samme kloss, men da beveger de
   seg for raskt. Gjør animasjonen i en egen `for
   alltid`{.blockcontrol}-løkke under en annen `når grønt flagg
   klikkes`{.blockevents}-hatt.
 
-+ Det siste vi må gjøre er å ordne __falling__. Hvis Felix ikke står
+[ ] Det siste vi må gjøre er å ordne __falling__. Hvis Felix ikke står
   på fast grunn vil vi at han skal falle ned. Det ordner vi med en
   `for alltid`{.blockcontrol}-løkke under en `når grønt flagg
   klikkes`{.blockevents}-hatt.
@@ -174,7 +174,7 @@ skriptet!  Du bør kunne bruke venstre og høyre knapper for å få Felix
 til å gå fra side til side. Hvis han ikke står på gulvet, bør han
 falle sakte nedover.
 
-+ Vi vil også at berøringssensorene ikke skal vises. Det er ikke mulig
+[ ] Vi vil også at berøringssensorene ikke skal vises. Det er ikke mulig
   å bruke en skjult blokk, for da vil ingen berøringer bli
   oppdaget. Istedet, legg til en `sett gjennomsiktig effekt til
   100`{.blocklooks}-kloss rett under den grønn flag hatt'en i hver
@@ -208,20 +208,20 @@ __Det er et par utfordringer med hopping.__
 
 ## Sjekkliste {.check}
 
-+ Det som gjenstår nå, er å få Felix til å hoppe. La oss bruke
+[ ] Det som gjenstår nå, er å få Felix til å hoppe. La oss bruke
   __mellomromstasten__ for å få Felix til å hoppe.
 
-+ For å kontrollere hoppet, bruker vi en ny variabel,
+[ ] For å kontrollere hoppet, bruker vi en ny variabel,
   `hopphøyde`{.blockdata}. Hvis denne er høyere enn 0, er Felix på vei
   opp. Hvis den er 0, faller han (eller har falt), som beskrevet over.
 
-+ Vi vil at Felix skal hoppe opp til __100 pixler__. Legg til en ny
+[ ] Vi vil at Felix skal hoppe opp til __100 pixler__. Legg til en ny
   `hvis`{.blockcontrol}-kloss inni `for alltid`{.blockcontrol}-klossen
   som håndterer tastetrykk. Hvis vi trykker __mellomromstasten__ og
   Felix står på gulvet (variablen `blokkert under`{.blockdata} er satt
   til 1, så setter vi `hopphøyde`{.blockdata} til 100.
 
-+ Vi må endre falle-skriptet. I `for alltid`{.blockcontrol}, trenger
+[ ] Vi må endre falle-skriptet. I `for alltid`{.blockcontrol}, trenger
   vi en `hvis-ellers`{.blockcontrol}-kloss som oppdater hvis Felix
   hopper opp eller ikke. Kravet for denne
   `hvis-ellers`{.blockcontrol}-klossen er at hvis
@@ -229,13 +229,13 @@ __Det er et par utfordringer med hopping.__
   ned `hvis`{.blockcontrol}-klossen går inn i ellers-delen av den nye
   `hvis-ellers`{.blockcontrol}-klossen.
 
-+ Når vi vet at Felix hopper opp, må vi sjekke om hodet hans treffer
+[ ] Når vi vet at Felix hopper opp, må vi sjekke om hodet hans treffer
   noe. Hvis `blokkert topp`{.blockdata} er __1__, sett
   `hopphøyde`{.blockdata} til __0__. (Dette gjør at Felix ikke kan
   hoppe inn i hindringer). __Ellers, flytt Felix opp 10 og reduser
   hopphøyde med 10.__
 
-+ Du ender opp med noe tilsvarende dette:
+[ ] Du ender opp med noe tilsvarende dette:
 
   ```blocks
   når grønt flagg klikkes // håndtere falling
@@ -272,16 +272,16 @@ Vi plasserer tre nøkler rundt i hulen. Felix kan plukke dem opp ved å
 gå til dem. Når han har samlet alle tre, kan han klatre til en
 redningskapsel og redde seg selv ut av hulen.
 
-+ Vi lager en ny variabel, `nøkler igjen`{.blockdata}, som holder
+[ ] Vi lager en ny variabel, `nøkler igjen`{.blockdata}, som holder
   orden på hvor mange nøkler som gjenstår. Et nytt skript på
   __scenen__ skal sette denne til __3__ når det __grønne flagget__
   klikkes.
 
-+ Både nøklene og redningskapselen må være figurer. (Bruk
+[ ] Både nøklene og redningskapselen må være figurer. (Bruk
   __frantic-felix/key__ for nøklene og __frantic-felix/escape-pod__
   for kapselen.)
 
-+ Hver nøkkel trenger __to skript__: det første plasserer nøklen på
+[ ] Hver nøkkel trenger __to skript__: det første plasserer nøklen på
   riktig sted, med størrelse og vinkel, og en `for
   alltid`{.blockcontrol}-løkke for å endre fargen (som gjør det
   enklere å se den på skjermen). Det andre skriptet er en `for
@@ -289,7 +289,7 @@ redningskapsel og redde seg selv ut av hulen.
   nøkkelen. Når dette skjer, skjuler skiptet nøkkelen og reduserer
   antall nøkler.
 
-+ Redningskapselen er et litt vanskeligere skript. Den bruker en `for
+[ ] Redningskapselen er et litt vanskeligere skript. Den bruker en `for
   alltid`{.blockcontrol}-løkke for å vente på at `nøkler
   igjen`{.blockdata} blir __0__. Med en gang dette skjer, begynner
   kapselen å blinke (for å vise spilleren at de kan komme seg ut). Så
@@ -329,12 +329,12 @@ sti.__
 
 ## Sjekkliste {.check}
 
-+ __Lag en ny figur__, bruk hvilken som helst drakt. Den bør være
+[ ] __Lag en ny figur__, bruk hvilken som helst drakt. Den bør være
   samme størrelse som Felix (Vi brukte __things/flower-vase__ drakt,
   og gjorde den fire steg mindre). Slemmingen trenger bare et enkelt
   skript som beveger den og oppdager om den berører Felix.
 
-+ Lag tre `hvis`{.blockcontrol}-klosser inni en `for
+[ ] Lag tre `hvis`{.blockcontrol}-klosser inni en `for
   alltid`{.blockcontrol}-løkke. Den første sjekker om en slemming
   berører Felix; hvis den gjør det, sender den en `tap`-melding. De to
   andre `hvis`{.blockcontrol}-klossene sjekker om slemmingen har nådd
@@ -364,7 +364,7 @@ sti.__
   slutt
   ```
 
-+ Legg skript til både Felix og redningskapselen slik at den svarer på
+[ ] Legg skript til både Felix og redningskapselen slik at den svarer på
   `tap`-meldingen. Felix skal bare skjule seg selv.  Kapselen skal si
   "Du tapte!".
 
@@ -376,7 +376,7 @@ Felix hopper på den, fra oversiden eller undersiden? Forsvinner Felix?
 Sier kapselen ifra når du har tapt? Kan du forstatt vinne spillet?
 
 
-+ __Neste, farlige ting!__ La oss si at alt som er lyseblå er dødlig
+[ ] __Neste, farlige ting!__ La oss si at alt som er lyseblå er dødlig
    for Felix. Last inn bakgrunnen __frantic-felix/level2__, som har en
    blå rose på det øverste nivået. Legg til enda et skript på Felix,
    under et grønt flagg hatt:
