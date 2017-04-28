@@ -32,8 +32,8 @@ var variabel = tall; // "variabel" vil nå ha samme verdi som tall, selv når ta
 
 __La oss prøve oss litt frem!__
 
-+ Gå inn på [JSbin.com](https://jsbin.com/?js,console) og sørg for at fanene `JavaScript` og `Console` er markert. Dette gjør du ved å trykke på dem. 
-+ I `JavaScript`-vindu skriver du følgende:
+[ ] Gå inn på [JSbin.com](https://jsbin.com/?js,console) og sørg for at fanene `JavaScript` og `Console` er markert. Dette gjør du ved å trykke på dem. 
+[ ] I `JavaScript`-vindu skriver du følgende:
 ```js
 var tall = 9;
 var tekst = "Hei på deg!";
@@ -49,28 +49,28 @@ var tekst = "Hei på deg!";
 console.log(tekst);
 ```
 
-+ Trykk på `Run`
-+ Vises teskten?
-+ La oss prøve oss på litt variabel-morro. Lag følgende variabler, du kan godt slette det du allerede har:
+[ ] Trykk på `Run`
+[ ] Vises teskten?
+[ ] La oss prøve oss på litt variabel-morro. Lag følgende variabler, du kan godt slette det du allerede har:
 ```js
 var tall1 = 4;
 var tall2 = 7; 
 ```
-+ Nå skal vi ta de to variablene og plusse dem sammen:
+[ ] Nå skal vi ta de to variablene og plusse dem sammen:
 ```js
 console.log(tall1 + tall2);
 ```
-+ Trykk `Run`. Fikk du 11?
-+ Nå som vi vet at vi kan få JavaScript til å regne for oss, ta å bytt ut `+` med de andre regneartene vi har og se om JavaScript klarer å regne ut med dem. 
+[ ] Trykk `Run`. Fikk du 11?
+[ ] Nå som vi vet at vi kan få JavaScript til å regne for oss, ta å bytt ut `+` med de andre regneartene vi har og se om JavaScript klarer å regne ut med dem. 
 
 La oss nå se på hvordan vi kan la en variabel være en annen:
 
-+ Legg til enda en variabel:
+[ ] Legg til enda en variabel:
 ```js
 var tall3 = tall2;
 ```
 
-+ Hva blir skriver `console.log(tall3 * tall2)` ut? 
+[ ] Hva blir skriver `console.log(tall3 * tall2)` ut? 
 
 <toggle>
     <strong>Svar</strong>
@@ -79,8 +79,8 @@ var tall3 = tall2;
     </hide>
 </toggle>
 
-+ Skriv ut `tall3` og `tall2` til `console`
-+ Prøv å endre på `tall2`, hva skjer med `tall3`? 
+[ ] Skriv ut `tall3` og `tall2` til `console`
+[ ] Prøv å endre på `tall2`, hva skjer med `tall3`? 
 
 `tall3` er jo satt til å være det samme som `tall2` og derfor blir den endret når `tall2` blir endret. 
 
@@ -89,7 +89,7 @@ Vi kan også legge til ekstra verdier til en variabel:
 ```js
 var tall4 = tall3 + tall1 + 5; 
 ```
-+ Bruk `console.log` til å skrive ut `tall4`.
+[ ] Bruk `console.log` til å skrive ut `tall4`.
 
 Nå har vi fått prøvd ut litt forskjellige variabeler, da skal vi bruke dette sammen med `if-setninger` for å sjekke om noe er sant eller ikke.
 
@@ -105,7 +105,7 @@ if(betingelse) {
 
 Når vi bruker `if/else` sjekker vi en betingelse og basert på om betingelsen er sann eller usann, så kjører vi en gitt kode. La oss se på et eksempel med tall.
 
-+ Skriv dette inn i JSBin:
+[ ] Skriv dette inn i JSBin:
 ```js
 var tall = 5;
 
@@ -121,7 +121,7 @@ Dersom `tall` har verdien `5` vil den første meldingen skrives ut, dersom `tall
 + Endre variabelen `tall` til andre verdier og se hvilke melding du får ut. 
 ##
 
-+ La oss lage sjekk på om du kan ta sertifikatet til bil eller moped:
+[ ] La oss lage sjekk på om du kan ta sertifikatet til bil eller moped:
 
 ```js
 var alder = 0;
@@ -141,9 +141,9 @@ if(alder >= 18) {
 
 ##
 
-+ Prøv å endre `alder` slik at du får testet om `if/else`-setningene fungerer.
+[ ] Prøv å endre `alder` slik at du får testet om `if/else`-setningene fungerer.
 
-+ La oss legge til noe som heter `prompt`, dette gjør at du kan ta inn `input` fra brukeren av nettsiden:
+[ ] La oss legge til noe som heter `prompt`, dette gjør at du kan ta inn `input` fra brukeren av nettsiden:
 
 ```js
 var alder = prompt("Hvor gammel er du?");
@@ -151,14 +151,14 @@ var alder = prompt("Hvor gammel er du?");
 
 Nå skal vi ta dette opp ett hakk hvor vi skal sjekke hva klokken er og skrive en melding ut i fra det. Da bruker vi noe som heter `Date` i JavaScript, denne inneholder informasjon om dagen i dag. Dette er en klasse, hva det vil si skal vi ikke fokusere på nå. 
 
-+ Vi lager to variabler, en som er en `Date`-klasse og en annen som henter timen vi er i nå:
+[ ] Vi lager to variabler, en som er en `Date`-klasse og en annen som henter timen vi er i nå:
 
 ```js
 var dato = new Date(); // Henter informasjon om dagen i dag
 var tid = dato.getHours(); // Henter timen (klokka) vi er i nå
 ```
 
-+ Bruk `console.log` til å sjekke hva variabelen `tid` inneholder.
+[ ] Bruk `console.log` til å sjekke hva variabelen `tid` inneholder.
 
 Før du skal få en oppgave må vi gå igjennom noen verktøy vi kan bruke i `if/else`:
 
@@ -217,7 +217,7 @@ navn(); //for å kjøre funksjonen
 ```
 En funksjon kalles ofte for en `metode`. Videre kommer vi til å bruke `funksjon` og `metode` litt om hverandre. 
 
-+ Ta nå koden som har med alder å gjøre, og legg den inn i en funksjon. Kall funksjonen for `sjekkAlder`
+[ ] Ta nå koden som har med alder å gjøre, og legg den inn i en funksjon. Kall funksjonen for `sjekkAlder`
 
 <toggle>
     <strong>Hint</strong>
@@ -238,7 +238,7 @@ En funksjon kalles ofte for en `metode`. Videre kommer vi til å bruke `funksjon
 </hide>
 </toggle>
 
-+ Legg på kode for at `sjekkAlder` skal kjøre. 
+[ ] Legg på kode for at `sjekkAlder` skal kjøre. 
 
 <toggle>
     <strong> Hint </strong>
@@ -252,8 +252,8 @@ La oss nå se på et annet eksempel på bruk av funksjoner. Vi skal nå lage en 
 
 Vi lager en funksjon som konverterer `fahrenheit`(tempratur mål i USA) til `Celsius`. 
 
-+ Slett det du har i JSBin eller åpne et nytt vindu i JSBin (File -> New)
-+ Lag følgende funksjon:
+[ ] Slett det du har i JSBin eller åpne et nytt vindu i JSBin (File -> New)
+[ ] Lag følgende funksjon:
 ```js
 function fahrenheitTilCelsius(fahrenheit) {
     return (5/9) * (fahrenheit - 32);
@@ -322,9 +322,9 @@ for(var i = 0; i < handleliste.length; i++) {
 ##
 
 ## Prøv selv! {.check}
-+ Åpne ny side i JSBin
-+ Prøv å skriv ut tallene fra 1 - 100 ved hjelp av en `for`-løkke
-+ Bytt på telleren `i++` slik at alle partall mellom 1 og 100 skrives ut
+[ ] Åpne ny side i JSBin
+[ ] Prøv å skriv ut tallene fra 1 - 100 ved hjelp av en `for`-løkke
+[ ] Bytt på telleren `i++` slik at alle partall mellom 1 og 100 skrives ut
 
 <toggle>
     <strong>Hint</strong>
@@ -333,13 +333,13 @@ for(var i = 0; i < handleliste.length; i++) {
     </hide>
 </toggle>
 
-+ Klarer du å skrive ut alle oddetallene også?
+[ ] Klarer du å skrive ut alle oddetallene også?
 
 __Bra! La oss se på lister.__ 
 
-+ Lag nå en liste over dine favoritt spill
-+ Skriv ut alle ved hjelp av en `for`-løkke
-+ Skriv ut annen hvert element i lista (hint: bruk samme metode som med partall)
+[ ] Lag nå en liste over dine favoritt spill
+[ ] Skriv ut alle ved hjelp av en `for`-løkke
+[ ] Skriv ut annen hvert element i lista (hint: bruk samme metode som med partall)
 
 ## While-løkke {.tip}
 ```js
@@ -370,22 +370,22 @@ Forskjellen her er at vi må lage en tellende variabel som vi definere (`var i =
 
 ## Prøv selv {.check}
 
-+ Skriv om `while`-løkken til å skrive ut alle tallene fra 1-100
-+ Skriv om løkken slik at du skriver ut alle partallene fra 1-100
+[ ] Skriv om `while`-løkken til å skrive ut alle tallene fra 1-100
+[ ] Skriv om løkken slik at du skriver ut alle partallene fra 1-100
 
-+ Bruk listen din over favorittspill og skriv ut alle elementene ved hjelp av `while`-løkken
+[ ] Bruk listen din over favorittspill og skriv ut alle elementene ved hjelp av `while`-løkken
 
 __La oss nå lage et enkelt `Kron eller mynt`-spill ved hjelp av `while`.__
 
-+ Åpne en ny [JSbin.com](https://jsbin.com/?js,console)
-+ Lag en variabel, `krone`, som skal være enten 0 eller 1, dette skal være tilfeldig:
+[ ] Åpne en ny [JSbin.com](https://jsbin.com/?js,console)
+[ ] Lag en variabel, `krone`, som skal være enten 0 eller 1, dette skal være tilfeldig:
 ```js
 var krone = Math.floor(Math.random()*2);
 ```
 
 `Math.floor()` runder ned tallet du får fra `Math.random()`. `Math.random()` henter et tall mellom 0 og 1, derfor bruker vi `*2` for at tallet blir mellom 0-2.
 
-+ Lag en `while`-løkke som skal kjøre helt til du får `mynt`. Vi sier nå at `kron` er `1` og `mynt` er `0`:
+[ ] Lag en `while`-løkke som skal kjøre helt til du får `mynt`. Vi sier nå at `kron` er `1` og `mynt` er `0`:
 
 ```js
 while(krone === 0) {
@@ -397,6 +397,6 @@ console.log("Mynt! Gratulerer!");
 __Bra jobba!__ Nå har du lært masse om JavaScript! 
 
 ## Utfordring {.challenge}
-+ Bruk `prompt` til å ta inn et valg fra brukeren sånn at du selv kan bestemme om du vil ha `Kron` eller `Mynt`. 
-+ Klarer du å gjøre det samme med terninger? Da må du ha tallene fra 0-6 og ikke bare fra 0-2.
+[ ] Bruk `prompt` til å ta inn et valg fra brukeren sånn at du selv kan bestemme om du vil ha `Kron` eller `Mynt`. 
+[ ] Klarer du å gjøre det samme med terninger? Da må du ha tallene fra 0-6 og ikke bare fra 0-2.
 

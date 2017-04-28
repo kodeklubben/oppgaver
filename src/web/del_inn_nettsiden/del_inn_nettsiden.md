@@ -22,12 +22,12 @@ __Lykke til!__
 # Steg 1: `<div></div>` {.activity}
 `<div>`-taggen er en veldig mye brukt tag. `div` står for `division` eller seksjon. Vi bruker denne taggen for å organisere forskjellige deler av siden og brukes ofte sammen med CSS (utseende), som vi skal se på i en senere del av oppgaven. La oss se på et eksempel:
 
-+ Gå inn på [kidsakoder.no](http://kidsakoder.no)
-+ Trykk på `X-Ray Goggles` eller bruk utviklerverktøy (Chrome: Visning -> Utvikler -> Utviklingsverktøy, Firefox: bruk [X-Ray Goggles](https://goggles.mozilla.org/))
-+ Trykk på symbolet helt øverst til venstre i utviklervindu og holder over forskjellige elementer på siden. Se på koden i utviklervindu, ser du at det er mange `<div>`-tagger?
-+ Trykk på de forskjellige og se hvor på siden du finner dem.
-+ Finner du `<div>`-taggen til LKK-logoen og menyen?
-+ Finner du `<div>`-taggen til der hvor nyhetene er plassert?
+[ ] Gå inn på [kidsakoder.no](http://kidsakoder.no)
+[ ] Trykk på `X-Ray Goggles` eller bruk utviklerverktøy (Chrome: Visning -> Utvikler -> Utviklingsverktøy, Firefox: bruk [X-Ray Goggles](https://goggles.mozilla.org/))
+[ ] Trykk på symbolet helt øverst til venstre i utviklervindu og holder over forskjellige elementer på siden. Se på koden i utviklervindu, ser du at det er mange `<div>`-tagger?
+[ ] Trykk på de forskjellige og se hvor på siden du finner dem.
+[ ] Finner du `<div>`-taggen til LKK-logoen og menyen?
+[ ] Finner du `<div>`-taggen til der hvor nyhetene er plassert?
 
 Under ser du utviklingsverktøyet til Chrome til høyre og kidsakoder.no til venstre. I utviklervindu ser vi flere `<div>`-tagger inne i hverandre. Disse skal vi lære mer om.
 
@@ -53,17 +53,17 @@ Som vi kanskje husker fra oppgaven med [Den forsvunnede katten](../forsvunnet_ka
 
 Husker du også at vi kan legge til metadata i `<head>` for å blant annet få tittel på nettsiden vår?
 
-+ Legg til din egen tittel
+[ ] Legg til din egen tittel
 
 Når vi skal lage en `<div>` på siden vår må vi legge denne inne i `<body>`-taggen vår.
 
-+ Lage en `<div>`. Denne skal holde styr på det som er øverst på siden vår. Denne kalles ofte for en header (det er ikke det samme som `<head>`).
+[ ] Lage en `<div>`. Denne skal holde styr på det som er øverst på siden vår. Denne kalles ofte for en header (det er ikke det samme som `<head>`).
 
-+ Studer kidsakoder.no med utviklingsverktøyet og se om du finner `<header>`-taggen eller en `<div>` med `ID` som inneholder *header*.
+[ ] Studer kidsakoder.no med utviklingsverktøyet og se om du finner `<header>`-taggen eller en `<div>` med `ID` som inneholder *header*.
 
 Fant du det? Det er en sånn vi prøver å lage, bare at vi skal forenkle det litt.
 
-+ Legg til en overskrift i `<div>`-taggen du akkurat lagde.
+[ ] Legg til en overskrift i `<div>`-taggen du akkurat lagde.
 
 
 <toggle>
@@ -87,9 +87,9 @@ Fant du det? Det er en sånn vi prøver å lage, bare at vi skal forenkle det li
 </toggle>
 
 
-+ La oss lage en `<div>` som skal holde styr på navigasjonsmenyen vår. Legg denne under der den andre `<div>`-en ble avsluttet
+[ ] La oss lage en `<div>` som skal holde styr på navigasjonsmenyen vår. Legg denne under der den andre `<div>`-en ble avsluttet
 
-+ La oss nå lage en liste med 3 elementer som skal være menyen vår. Du velger selv hva som skal være med i listen.
+[ ] La oss nå lage en liste med 3 elementer som skal være menyen vår. Du velger selv hva som skal være med i listen.
 
 <toggle>
 <strong>Hint</strong>
@@ -107,7 +107,7 @@ Fant du det? Det er en sånn vi prøver å lage, bare at vi skal forenkle det li
 </toggle>
 
 
-+ Lage en ny `<div>` som skal ha innholdet på siden vår. Inni den kan vi skrive en overskrift og legge til litt tekst. Gjerne også et bilde hvis du vil det.
+[ ] Lage en ny `<div>` som skal ha innholdet på siden vår. Inni den kan vi skrive en overskrift og legge til litt tekst. Gjerne også et bilde hvis du vil det.
 
 
 <toggle>
@@ -151,7 +151,7 @@ La oss nå sette farge på de 3 `<div>`-ene vi har laget. For å gjøre det bruk
 <div style="background-color: red"></div>
 ```
 
-+ Prøv å legge til forskjellig farge på hver av `<div>`-ene og se hva som skjer.
+[ ] Prøv å legge til forskjellig farge på hver av `<div>`-ene og se hva som skjer.
 
 
 <toggle>
@@ -172,7 +172,7 @@ ID lages ved å legge til attributte `id=””` som attributt i `<div>`-taggen.
 <div id="navn_på_id-en"> </div>
 ```
 
-+ Gi en passende `ID` til de 3 `<div>`-ene i steg 2.
+[ ] Gi en passende `ID` til de 3 `<div>`-ene i steg 2.
 
 <toggle>
 <strong>Se et forslag til løsning</strong>
@@ -219,7 +219,7 @@ selector {
 }
 ```
 
-+ Kan du finne knappene for ‘{‘ og ‘}’ på ditt tastatur? Hva med ‘:’ og ‘;’ ? Disse trenger vi får å skrive __CSS__
+[ ] Kan du finne knappene for ‘{‘ og ‘}’ på ditt tastatur? Hva med ‘:’ og ‘;’ ? Disse trenger vi får å skrive __CSS__
 
 `Selektorer` er som regel HTML-tagger som `h1`, `p`, `img`, `a`. Men de kan også være IDer og klasser, som vi vil lære om senere.
 
@@ -246,9 +246,9 @@ Under ser du hvordan du kan legge til CSS i `<head>`-taggen med 3 IDer:
     </style>
 </head>
 ```
-+ Ta vekk `style`-attributtene i `<div>`-ene.
-+ Lagre og last inn siden. Forsvant bakgrunnsfargen?
-+ Legg til bakgrunnsfargen igjen ved å legge det i *CSS*-en i `<head>`
+[ ] Ta vekk `style`-attributtene i `<div>`-ene.
+[ ] Lagre og last inn siden. Forsvant bakgrunnsfargen?
+[ ] Legg til bakgrunnsfargen igjen ved å legge det i *CSS*-en i `<head>`
 
 
 <toggle>
@@ -260,8 +260,8 @@ Under ser du hvordan du kan legge til CSS i `<head>`-taggen med 3 IDer:
 
 Det finnes flere måter å skive farger i CSS på. Vi har nå brukt kjente ord som `red`, `blue`og `green`. Men vi kan faktisk lage 16 millioner forskjellige farger ved å bruke en annen metode. For å lage dise fargene skal vi bruke tall fra 0-9 og bokstaver fra A-Z. Vi setter disse sammen i en kombinasjon av 6 tall og/eller bokstaver. Siden det tar veldig lang tid å prøve ut alle kombinasjonene, så bruker vi litt hjelp for å finne de fargene vi vil ha:
 
-+ Gå inn på [paletton.com](http://paletton.com) eller [colorpicker.com](http://colorpicker.com) og velg og vrak i masse forskjellige farger.
-+ Erstatt de fargene du har med noen andre du liker ved å bruke `#` foran de 6 tall/bokstavene. Eksempel: `#338F33` gir en ganske fin grønnfarge.
+[ ] Gå inn på [paletton.com](http://paletton.com) eller [colorpicker.com](http://colorpicker.com) og velg og vrak i masse forskjellige farger.
+[ ] Erstatt de fargene du har med noen andre du liker ved å bruke `#` foran de 6 tall/bokstavene. Eksempel: `#338F33` gir en ganske fin grønnfarge.
 
 <toggle>
 <strong>Se koden så langt</strong>
@@ -278,7 +278,7 @@ Det finnes flere måter å skive farger i CSS på. Vi har nå brukt kjente ord s
 Vi skal se enda mer på CSS etter vi har lært litt mer HTML.
 
 ## Utfordring {.try}
-+ Gå inn på [w3schools.com/css](http://w3schools.com/css) og se om du finner en flere “properties” du kan endre på.
+[ ] Gå inn på [w3schools.com/css](http://w3schools.com/css) og se om du finner en flere “properties” du kan endre på.
 
 
 
@@ -301,9 +301,9 @@ Du kan lese om flere her: [http://www.w3schools.com/html/html5_new_elements.asp]
 
 Disse taggene gjør det enklere for nettleseren å lese hva innholdet på siden er. Nå skal vi bytte ut `<div>`-taggene på siden vår med noen av taggene over.
 
-+ Kan du tenke deg hvilke taggen vi bør bruke istedet for `<div>`-ene?
-+ La oss starte med `<div id=”header”>`, bytt den ut med `<header>`
-+ Gjør det samme med `<div id=”nav”>` og `<div id=”innhold”>`
+[ ] Kan du tenke deg hvilke taggen vi bør bruke istedet for `<div>`-ene?
+[ ] La oss starte med `<div id=”header”>`, bytt den ut med `<header>`
+[ ] Gjør det samme med `<div id=”nav”>` og `<div id=”innhold”>`
 NB! Husk å fjerne `</div>` og erstatte disse med `</header>, </nav>` og `</section>`
 
 Nå vil `<body>`-en se noe sånt ut:
@@ -328,13 +328,13 @@ Nå vil `<body>`-en se noe sånt ut:
 
 ```
 
-+ Lagre og kjør og se om du får opp akkurat det samme. Forsvant fargene?
+[ ] Lagre og kjør og se om du får opp akkurat det samme. Forsvant fargene?
 For å få fargene til å fungere igjen må vi endre CSSen. Siden vi ikke har en ID på taggene våre har vi 2 valg: enten sette en ID på dem eller så kan vi gjerne `#` i CSSen.
 
 `#nav` i CSS betyr at vi endrer stilen på en tag med ID `nav`. Hvis vi ikke har noe foran `nav` betyr dette: “for alle `<nav>`-tagger”. Så nå som vi bruker HTML5-taggene må vi også endre på CSSen vår.
 
-+ Fjern `#` i CSSen
-+ Legg til selektorene (taggene) du vil ha CSS på
+[ ] Fjern `#` i CSSen
+[ ] Legg til selektorene (taggene) du vil ha CSS på
 
 CSS-en bør se noe sånt ut: (Merk at jeg har sikkert andre farger enn deg)
 ```css
@@ -350,7 +350,7 @@ CSS-en bør se noe sånt ut: (Merk at jeg har sikkert andre farger enn deg)
           background-color: #669999;
       }
 ```
-+ Legg til farge på bakgrunnen for hele siden ved å legge til CSS på `<body>`-taggen. Velg farge selv.
+[ ] Legg til farge på bakgrunnen for hele siden ved å legge til CSS på `<body>`-taggen. Velg farge selv.
 
 Nå vil koden se noe sånt ut:
 
