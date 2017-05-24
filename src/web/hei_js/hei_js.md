@@ -27,19 +27,19 @@ Her er flere måter å kjøre JavaScript-kode på:
 
 ## Sjekkliste {.check}
 
-[ ] Åpne JS Bin (http://jsbin.com/?js,console) i et eget vindu.
-[ ] Legg merke til at du får to faner; **JavaScript** og **Console**.
-[ ] Koden skrives i **JavaScript**.
-[ ] Og i **Console** vises tekstbeskjeder som blir skrevet ut.
-[ ] Skriv inn denne koden i fanen **JavaScript**:
+- [ ] Åpne JS Bin (http://jsbin.com/?js,console) i et eget vindu.
+- [ ] Legg merke til at du får to faner; **JavaScript** og **Console**.
+- [ ] Koden skrives i **JavaScript**.
+- [ ] Og i **Console** vises tekstbeskjeder som blir skrevet ut.
+- [ ] Skriv inn denne koden i fanen **JavaScript**:
 
   ```js
   console.log("hei verden");
   ```
 
-[ ] Trykk **Ctrl** + **Enter** (eller bruk knappen <button>Run</button>) og se hva som skjer
+- [ ] Trykk **Ctrl** + **Enter** (eller bruk knappen <button>Run</button>) og se hva som skjer
   i **Console**.
-[ ] Kan du endre koden til å skrive ditt navn?
+- [ ] Kan du endre koden til å skrive ditt navn?
 
 ## Forklaring {.tip}
 Her er en forklaring til koden over:
@@ -57,8 +57,8 @@ ta i mot et `navn` og skrive navnet til konsollen.
 
 ## Sjekkliste {.check}
 
-[ ] Slett koden din fra steg 1.
-[ ] Skriv inn denne koden:
+- [ ] Slett koden din fra steg 1.
+- [ ] Skriv inn denne koden:
 
   ```js
   function hei(navn) {
@@ -74,7 +74,7 @@ ta i mot et `navn` og skrive navnet til konsollen.
 
 
 ## Sjekkliste {.check}
-[ ] Akkurat nå gjør ikke funksjonen så mye, men la oss teste den ut. Skriv dette
+- [ ] Akkurat nå gjør ikke funksjonen så mye, men la oss teste den ut. Skriv dette
   etter funksjonen:
 
   ```js
@@ -82,9 +82,9 @@ ta i mot et `navn` og skrive navnet til konsollen.
   hei("Jens");
   ```
 
-[ ] `hei("Emma")` betyr at vi skal kjøre funksjonen og sende inn `"Emma"`.
-[ ] Trykk **Ctrl** + **Enter** for å kjøre koden.
-[ ] Ser du både `"Emma"` og `"Jens"` i konsollen?
+- [ ] `hei("Emma")` betyr at vi skal kjøre funksjonen og sende inn `"Emma"`.
+- [ ] Trykk **Ctrl** + **Enter** for å kjøre koden.
+- [ ] Ser du både `"Emma"` og `"Jens"` i konsollen?
 
 
 Koden til nå:
@@ -108,8 +108,8 @@ I steg 2 gjorde vi ikke noe annet enn det som `console.log` gjør. Nå skal du f
 `hei("Emma")` til å skrive ut `"Hei Emma!"`.
 
 ## Sjekkliste {.check}
-[ ] I JavaScript kan vi legge sammen tekst med `+`.
-[ ] La oss endre funksjonen `hei`:
+- [ ] I JavaScript kan vi legge sammen tekst med `+`.
+- [ ] La oss endre funksjonen `hei`:
 
   ```js
   function hei(navn) {
@@ -117,10 +117,10 @@ I steg 2 gjorde vi ikke noe annet enn det som `console.log` gjør. Nå skal du f
   }
   ```
 
-[ ] Her har vi lagt sammen `"Hei "`, navnet som sendes inn og `"!"`.
-[ ] Kjør koden din.
-[ ] Står det `"Hei Emma!"` og `"Hei Jens!"` i **Console**?
-[ ] Kan du endre koden slik at den skriver ut navnet ditt?
+- [ ] Her har vi lagt sammen `"Hei "`, navnet som sendes inn og `"!"`.
+- [ ] Kjør koden din.
+- [ ] Står det `"Hei Emma!"` og `"Hei Jens!"` i **Console**?
+- [ ] Kan du endre koden slik at den skriver ut navnet ditt?
 
 ## Forklaring {.tip}
 I funksjonen `hei` vil `navn` være en variabel. Den holder på en verdi og denne verdien kan endres. Først er `navn` det samme som `Emma`, så blir `navn` til `Jens`. Variabler er svært nyttig innfor programmering og vi kommer til å bruke masse variabler fremover. 
@@ -129,7 +129,7 @@ I funksjonen `hei` vil `navn` være en variabel. Den holder på en verdi og denn
 I dette siste steget skal du lage en katt som sier hei.
 
 ## Sjekkliste {.check}
-[ ] Bytt ut `function hei` ved å kopiere koden under:
+- [ ] Bytt ut `function hei` ved å kopiere koden under:
 
   ```js
   function hei(navn) {
@@ -141,9 +141,9 @@ I dette siste steget skal du lage en katt som sier hei.
   }
   ```
 
-[ ] Kjør `hei` med ditt eget navn.
-[ ] Er det en katt som sier mjau til deg i konsollen?
-[ ] Klarer du lage en hund eller et annet dyr?
+- [ ] Kjør `hei` med ditt eget navn.
+- [ ] Er det en katt som sier mjau til deg i konsollen?
+- [ ] Klarer du lage en hund eller et annet dyr?
 
 ## Bakoverstrek {.tip}
 `\` brukes til spesielle bokstaver. `\n` for eksempel betyr *ny linje*. Derfor
@@ -154,13 +154,13 @@ Kanskje hadde det vært kult å sende en kattehilsen til noen av dine beste
 venner? La oss lage en personlig hilsen til hver av de.
 
 ## Sjekkliste {.check}
-[ ] Sørg for at du kjører `hei` med navnet til din venn:
+- [ ] Sørg for at du kjører `hei` med navnet til din venn:
 
   ```js
   hei("Navnet til din venn");
   ```
-[ ] Hold inne **Ctrl** + **s** for å lagre.
-[ ] Legg merke til at du nå fikk et tall i adressen. Tallet er versjonen til
+- [ ] Hold inne **Ctrl** + **s** for å lagre.
+- [ ] Legg merke til at du nå fikk et tall i adressen. Tallet er versjonen til
   programmet ditt.
 
   **Versjon 9:** <img height="25" src="versjon.png" title="Versjon 9">
@@ -168,14 +168,14 @@ venner? La oss lage en personlig hilsen til hver av de.
   Hver gang du endrer programmet og trykker **Ctrl** + **s**
   får programmet en ny versjon. Slik kan du lagre flere varianter av samme
   program, med forskjellige navn.
-[ ] Trykk på **JavaScript** slik at kodefanen skjules:
+- [ ] Trykk på **JavaScript** slik at kodefanen skjules:
 
   <img height="35" src="faner.png">
 
-[ ] Trykk på <button>Run</button> og sjekk at det ser riktig ut.
-[ ] Kopier nettaddressen og del med vennen din!
-[ ] Gjenta stegene for flere av vennene dine.
-[ ] Hvis du senere ønsker å åpne prosjektet, kan du ta vare på en av lenkene du
+- [ ] Trykk på <button>Run</button> og sjekk at det ser riktig ut.
+- [ ] Kopier nettaddressen og del med vennen din!
+- [ ] Gjenta stegene for flere av vennene dine.
+- [ ] Hvis du senere ønsker å åpne prosjektet, kan du ta vare på en av lenkene du
   sendte til vennene dine.
 
 ## En annen måte å dele programmet {.tip}
@@ -219,19 +219,19 @@ document.body.style.whiteSpace = "pre";
 Det er også mulig å laste ned prosjektet og lagre det på datamaskinen. La oss gjøre det.
 
 ## Sjekkliste {.check}
-[ ] Trykk på **File** > **Download**.
-[ ] En `.html`-fil lastes ned.
-[ ] Når filen er lastet ned, åpne filen.
-[ ] Du får et tomt vindu opp, utskriften av katten blir sendt til konsoll. La oss åpne konsollen i din nettleser.
-[ ] **Chrome og Firefox:** Trykk på knappen **F12**. Velg **Console**.
-[ ] **Internet Explorer og Microsoft Edge:** Trykk på knappen **F12**. Velg **Konsoll**.
-[ ] I konsollen skal du se katten mjaue til deg.
+- [ ] Trykk på **File** > **Download**.
+- [ ] En `.html`-fil lastes ned.
+- [ ] Når filen er lastet ned, åpne filen.
+- [ ] Du får et tomt vindu opp, utskriften av katten blir sendt til konsoll. La oss åpne konsollen i din nettleser.
+- [ ] **Chrome og Firefox:** Trykk på knappen **F12**. Velg **Console**.
+- [ ] **Internet Explorer og Microsoft Edge:** Trykk på knappen **F12**. Velg **Konsoll**.
+- [ ] I konsollen skal du se katten mjaue til deg.
 
   ![](konsoll.png)
 
   Hvis du ikke ser katten, gjør neste steg.
 
-[ ] Skriv inn `hei("Ditt navn");` og trykk **Enter**.
-[ ] Hva skjer?
+- [ ] Skriv inn `hei("Ditt navn");` og trykk **Enter**.
+- [ ] Hva skjer?
 
 __Gratulerer!__ Du har nå skrevet ditt første JavaScript-program! 

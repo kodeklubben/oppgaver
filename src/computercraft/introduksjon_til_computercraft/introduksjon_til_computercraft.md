@@ -34,15 +34,15 @@ Minecraft:
 
 ## Sjekkliste {.check}
 
-[ ] Trykk `E` for å åpne inventory'et ditt. Finn frem 7 __Stone__, 1
+- [ ] Trykk `E` for å åpne inventory'et ditt. Finn frem 7 __Stone__, 1
 __Redstone__ og 1 __Glass pane__.
-[ ] Åpne et __Crafting table__, og legg ut materialet slik:
+- [ ] Åpne et __Crafting table__, og legg ut materialet slik:
 
   ![](../bli_kjent_med_datamaskinen/craft_computer.png)
 
-[ ] Legg den nye datamaskinen i den nederste raden i inventory'et ditt,
+- [ ] Legg den nye datamaskinen i den nederste raden i inventory'et ditt,
 slik at du kan ta den på hånden. Lukk inventory'et.
-[ ] Bruk talltastene til å velge datamaskinen, og høyreklikk for å lage
+- [ ] Bruk talltastene til å velge datamaskinen, og høyreklikk for å lage
 en datamaskin.
 
 I *Creative Mode* kan du også få tak i datamaskiner ved å trykke `E`,
@@ -58,7 +58,7 @@ datamaskinen med.
 
 ## Sjekkliste {.check}
 
-[ ] Prøv å skriv `help` og trykk enter.
+- [ ] Prøv å skriv `help` og trykk enter.
 
   Du får nå se noen tips om hvordan du kan finne ut mer om
   datamaskinen. For eksempel kan du skrive `programs` for å se en
@@ -66,7 +66,7 @@ datamaskinen med.
   programming` for å få noen tips til hvordan man programmerer
   datamaskinen.
 
-[ ] Skriv `programs` og trykk enter.
+- [ ] Skriv `programs` og trykk enter.
 
   Mange av disse programmene er enkle programmer som lar deg
   undersøke datamaskinen nærmere. Etter kurset kan du prøve å
@@ -83,10 +83,10 @@ heter `heiverden`.
 
 ## Sjekkliste {.check}
 
-[ ] Start en datamaskin.
-[ ] Skriv `edit heiverden` for å begynne å skrive på et nytt program som
+- [ ] Start en datamaskin.
+- [ ] Skriv `edit heiverden` for å begynne å skrive på et nytt program som
 heter `heiverden`.
-[ ] I det nye vinduet, skriv
+- [ ] I det nye vinduet, skriv
 
   ```lua
   print('Hei verden!')
@@ -96,9 +96,9 @@ heter `heiverden`.
   velger `Save`. Deretter trykker du *Ctrl* en gang til og velger
   `Exit`.
 
-[ ] Vi har nå laget vårt første program. Prøv å skriv `programs` og du
+- [ ] Vi har nå laget vårt første program. Prøv å skriv `programs` og du
 vil se at `heiverden` er på listen over programmer.
-[ ] For å kjøre programmet vi har laget, skriver vi `heiverden` og
+- [ ] For å kjøre programmet vi har laget, skriver vi `heiverden` og
 trykker enter.
 
 ### Prøv selv {.try}
@@ -134,33 +134,33 @@ Vi vil bruke __Redstone__ for å kontrollere døren. Redstone er et
 materiale som kan overføre energi i Minecraft. La oss først sette opp
 en datamaskin ved siden av en dør.
 
-[ ] Gå ut av datamaskinen ved å trykke `Esc`-knappen.
+- [ ] Gå ut av datamaskinen ved å trykke `Esc`-knappen.
 
-[ ] Samle sammen litt __Stone__, en __Iron door__ og en __Computer__, og
+- [ ] Samle sammen litt __Stone__, en __Iron door__ og en __Computer__, og
 lag en vegg hvor du setter inn en dør og med datamaskinen rett ved
 siden av døren. Det skal se omtrent slik ut:
 
   ![](../bli_kjent_med_datamaskinen/passord.png)
 
-[ ] Start datamaskinen.
+- [ ] Start datamaskinen.
 
 Vi skal nå prøve å skrive noen kommandoer direkte i Lua. Dette er en
 fin måte å teste enkle ting på.
 
-[ ] Skriv `lua` og trykk enter. Dette starter en *Lua-tolker* som vil
+- [ ] Skriv `lua` og trykk enter. Dette starter en *Lua-tolker* som vil
 utføre hver enkelt kommando du skriver med en gang.
 
-[ ] Vi begynner med kommandoen fra det første programmet vårt. Skriv
+- [ ] Vi begynner med kommandoen fra det første programmet vårt. Skriv
 `print('Hei verden!')` og trykk enter. Skjer det samme som tidligere?
 
-[ ] Som de aller fleste programmeringsspråk er Lua glad i å regne. Skriv
+- [ ] Som de aller fleste programmeringsspråk er Lua glad i å regne. Skriv
 `1 + 1` og trykk enter.
 
   Lua kjenner alle de vanlige matematikk-operasjonene. Prøv for
   eksempel `17 - 8`, `3 * 4` eller `22 / 7`. Kjenner du igjen hva
   hver av disse betyr?
 
-[ ] Skriv `redstone.setOutput('left', true)` og trykk enter.
+- [ ] Skriv `redstone.setOutput('left', true)` og trykk enter.
 
   Denne kommandoen skal åpne døren til venstre for datamaskinen.
   Her forteller `left` hvilken side av datamaskinen døren står
@@ -180,12 +180,12 @@ dette.  Det går også an å lage egne funksjoner.
 
 ## Sjekkliste {.check}
 
-[ ] Trykk pil opp-tasten slik at du kan endre
+- [ ] Trykk pil opp-tasten slik at du kan endre
 `redstone.setOutput('left', true)` til `redstone.setOutput('left',
 false)`. Trykk enter. Nå lukker døren seg igjen fordi vi skrur av
 *redstone*-energien.
 
-[ ] Avslutt Lua-tolkeren ved å skrive `exit()` og trykk enter.
+- [ ] Avslutt Lua-tolkeren ved å skrive `exit()` og trykk enter.
 
 # Steg 4: Passordlås på en dør {.activity}
 
@@ -194,8 +194,8 @@ false)`. Trykk enter. Nå lukker døren seg igjen fordi vi skrur av
 
 ## Sjekkliste {.check}
 
-[ ] Start et nytt program ved å skrive `edit passord` og trykk enter.
-[ ] Skriv inn følgende program nøyaktig slik det står
+- [ ] Start et nytt program ved å skrive `edit passord` og trykk enter.
+- [ ] Skriv inn følgende program nøyaktig slik det står
 
   ```lua
   local passord = 'kodeklubben'
@@ -205,7 +205,7 @@ false)`. Trykk enter. Nå lukker døren seg igjen fordi vi skrur av
   Pass på at du skriver de to punktumene `..` riktig. Disse betyr at
   vi setter sammen tekst.
 
-[ ] Lagre og avslutt editoren. Kjør programmet ved å skrive `passord`.
+- [ ] Lagre og avslutt editoren. Kjør programmet ved å skrive `passord`.
 
   Programmet forteller deg hva passordet er. Klarer du å endre
   passordet til noe annet? Kanskje til `ComputerCraft` eller til
@@ -220,7 +220,7 @@ variabelen i dette programmet (lokalt).
 
 ## Sjekkliste {.check}
 
-[ ] Vi skal nå jobbe videre med programmet. Vi vil jo at datamaskinen
+- [ ] Vi skal nå jobbe videre med programmet. Vi vil jo at datamaskinen
 skal spørre oss om passordet, ikke fortelle oss hva det er. Skriv
 `edit passord` igjen, og endre programmet slik at det blir seende ut
 som følger:
@@ -236,7 +236,7 @@ som følger:
   `read` brukes for å lese ting du skriver på tastaturet, men
   programmet gjør foreløbig ingenting med svaret ditt.
 
-[ ] Det neste vi vil er derfor at programmet skal sjekke om du svarer
+- [ ] Det neste vi vil er derfor at programmet skal sjekke om du svarer
 med riktig passord. For å gjøre dette vil vi bruke noe som heter
 `if`-tester. Disse kan teste om noe er sant, og vi vil bruke dem for å
 sjekke om det er sant at svaret ditt er likt med det faktiske
@@ -258,7 +258,7 @@ dette:
   Kjør programmet igjen. Hva skjer når du svarer riktig? Hva skjer
   når du svarer feil? Skjønner du hvorfor?
 
-[ ] Nå kan vi koble sammen passordet med `redstone`-kommandoene vi så
+- [ ] Nå kan vi koble sammen passordet med `redstone`-kommandoene vi så
 tidligere. La oss åpne døren hvis passordet er riktig. Etter 5
 sekunder kan vi lukke døren igjen. Endre programmet slik:
 
@@ -280,7 +280,7 @@ sekunder kan vi lukke døren igjen. Endre programmet slik:
   si gjør ingenting. I dette tilfellet sover datamaskinen i 5
   sekunder, før energien skrus av igjen og døren lukker seg.
 
-[ ] Det er kjedelig at vi hele tiden må starte programmet på nytt. Vi
+- [ ] Det er kjedelig at vi hele tiden må starte programmet på nytt. Vi
 lager derfor en løkke som kan spørre oss om passord igjen og igjen.
 
   ```lua
@@ -305,7 +305,7 @@ lager derfor en løkke som kan spørre oss om passord igjen og igjen.
   løkke*. Dette programmet vil fortsette å spørre oss om passordet
   for alltid!
 
-[ ] Kjør programmet. Oppfører programmet seg slik du hadde trodd? Husker
+- [ ] Kjør programmet. Oppfører programmet seg slik du hadde trodd? Husker
 du passordet?
 
 ### Avslutte programmer {.protip}
@@ -316,7 +316,7 @@ skrives på skjermen. Dette fungerer både her og i andre programmer.
 
 ## Sjekkliste {.check}
 
-[ ] Før vi er helt fornøyde med dette programmet vil vi gjøre noen små
+- [ ] Før vi er helt fornøyde med dette programmet vil vi gjøre noen små
 forbedringer. Først kaller vi to funksjoner fra `term`-biblioteket.
 Den ene vil rense skjermen, mens den andre setter posisjonen hvor vi
 skriver teksten til `(1, 1)` som betyr øverst til venstre. I tillegg
@@ -357,14 +357,14 @@ Vi begynner likevel med en helt enkel robot:
 
 ## Sjekkliste {.check}
 
-[ ] Åpne inventory'et ditt ved å trykke 'E'. Finn frem 7 __Iron Ingot__, 1
+- [ ] Åpne inventory'et ditt ved å trykke 'E'. Finn frem 7 __Iron Ingot__, 1
 __Chest__ og 1 __Computer__.
 
-[ ] Start et __Crafting table__, og lag en robot slik:
+- [ ] Start et __Crafting table__, og lag en robot slik:
 
   ![](../robotinvasjon/craft_turtle.png)
 
-[ ] Legg den nye roboten i hånden din. Lukk inventory'et og lag en
+- [ ] Legg den nye roboten i hånden din. Lukk inventory'et og lag en
 robot.
 
 I *Creative Mode* finner du også robotene ved å trykke `E`, deretter
@@ -390,19 +390,19 @@ dag, inkludert for eksempel *Scratch*, *Python* og *ComputerCraft*.
 På samme måte som med datamaskiner starter du roboter ved å
 høyreklikke på dem. Dette vil starte kommandolinjen til roboten.
 
-[ ] Start en robot. Skriv `programs` og trykk enter.
+- [ ] Start en robot. Skriv `programs` og trykk enter.
 
   Dette viser hvilke programmer denne roboten kjenner til. Hvis du
   sammenligner med programmene en datamaskin kjenner til vil du se
   at det er mange av de samme programmene, men at roboten også kan
   noen ting som datamaskinen ikke kan.
 
-[ ] Kjør programmet `dance`.
+- [ ] Kjør programmet `dance`.
 
   Roboten begynner nå å danse! Trykk *Esc*-knappen for å stenge
   kommandolinjen, slik at du ser roboten. Blir du imponert?
 
-[ ] Hvis du vil at roboten skal slutte å danse kan du høyreklikke på den
+- [ ] Hvis du vil at roboten skal slutte å danse kan du høyreklikke på den
 igjen. I kommandolinjen står det nå en liten tekst som sier at du kan
 få roboten til å slutte å danse ved å trykke en knapp på tastaturet.
 
@@ -420,33 +420,33 @@ for nesten 70 år siden. Dette gjør vi ved å bruke programmet `go` for
 
 ## Sjekkliste {.check}
 
-[ ] Kjør programmet `go forward` i kommandolinjen til en robot.
+- [ ] Kjør programmet `go forward` i kommandolinjen til en robot.
 
-[ ] Roboten sier at den er `Out of fuel`.
+- [ ] Roboten sier at den er `Out of fuel`.
 
   Roboter bruker *fuel* for å bevege seg. De kan bruke stort sett
   samme materiale som en __Furnace__ som fuel, for eksempel er
   __Coal__ eller __Blaze Rod__ fine å bruke.
 
-[ ] Finn litt __Coal__ i inventory'et ditt. Høyreklikk på roboten. Legg
+- [ ] Finn litt __Coal__ i inventory'et ditt. Høyreklikk på roboten. Legg
 merke til at det er et inventory med 16 plasser (4 ganger 4) på høyre
 side. Dette er robotens inventory. Flytt kullet over til roboten.
 
   ![](../robotinvasjon/robot_inventory.png)
 
-[ ] Skriv `refuel` i kommandolinjen og trykk enter.
+- [ ] Skriv `refuel` i kommandolinjen og trykk enter.
 
   Legg merke til at en kull blir borte fra robotens
   inventory. Roboten svarer også ved å fortelle om sin *fuel
   level*. Dette tallet forteller hvor langt roboten kan bevege seg
   før den går tom for fuel igjen.
 
-[ ] Gi roboten litt mer __Coal__ og skriv `refuel all`.
+- [ ] Gi roboten litt mer __Coal__ og skriv `refuel all`.
 
   Roboten vil nå spise opp alt kullet, og deretter rapportere at den
   er klar til å gå ganske så langt!
 
-[ ] Da prøver vi igjen: Kjør programmet `go forward`. Dette skal flytte
+- [ ] Da prøver vi igjen: Kjør programmet `go forward`. Dette skal flytte
 roboten forover ett steg.
 
   Flytter roboten din seg? Det kan være litt vanskelig å se hva som
@@ -454,7 +454,7 @@ roboten forover ett steg.
   lange, smale sprekken som øynene til roboten. Altså at den siden
   med sprekken er foran.
 
-[ ] Vi kan få roboten til å flytte seg bakover ved å skrive `go back`.
+- [ ] Vi kan få roboten til å flytte seg bakover ved å skrive `go back`.
 
 ### Finne hjelp {.protip}
 
@@ -470,7 +470,7 @@ starte er ComputerCraft Wiki'en: <http://computercraft.info/wiki/>.
 
 ## Sjekkliste {.check}
 
-[ ] For å få vite mer om hvordan roboten kan flytte seg kan vi skrive
+- [ ] For å få vite mer om hvordan roboten kan flytte seg kan vi skrive
 `help go`.
 
   Dette viser oss at vi kan bruke `go forward`, `go back`, `go up`,
@@ -478,22 +478,22 @@ starte er ComputerCraft Wiki'en: <http://computercraft.info/wiki/>.
   tillegg ser vi at vi kan bruke tall for at roboten skal flytte seg
   flere steg.
 
-[ ] Prøv `go up 2`, `go forward 10`, `go down` og lignende kommandoer.
+- [ ] Prøv `go up 2`, `go forward 10`, `go down` og lignende kommandoer.
 
   Hvordan kan vi få roboten til å bevege seg sidelengs?
 
-[ ] Det finnes ingen kommando som får roboten til å bevege seg
+- [ ] Det finnes ingen kommando som får roboten til å bevege seg
 sidelengs. Kommandoene `go left` og `go right` bare snur roboten. For
 å få roboten til å gå sidelengs må vi derfor først snu roboten, og
 deretter bruke for eksempel `go forward`. Skriv `go left` og deretter
 `go forward 3`.
 
-[ ] Vi kan også kombinere flere kommandoer i et kall. For eksempel vil
+- [ ] Vi kan også kombinere flere kommandoer i et kall. For eksempel vil
 `go forward 3 left forward 4 up 2` gjøre at roboten først går fremover
 3 steg, så snur den seg mot venstre, deretter går den 4 steg til før
 den løfter seg 2 steg oppover.
 
-[ ] Lek litt mer med `go`-programmet til du skjønner hvordan du flytter
+- [ ] Lek litt mer med `go`-programmet til du skjønner hvordan du flytter
 roboten rundt omkring. Dersom du synes `go left` og `go right` er litt
 forvirrende siden roboten ikke går noe sted, kan du bruke `turn left`
 og `turn right` i stedet.
@@ -510,12 +510,12 @@ Vi skal nå bruke en gruverobot som kan grave for oss.
 
 ## Sjekkliste {.check}
 
-[ ] Finn en gruverobot i inventory'et ditt ved å gå til datamaskinfanen
+- [ ] Finn en gruverobot i inventory'et ditt ved å gå til datamaskinfanen
 og plukke ut en __Mining Turtle__. Lag og start en gruverobot.
 
-[ ] Gi roboten litt __Coal__ og kjør `refuel all`.
+- [ ] Gi roboten litt __Coal__ og kjør `refuel all`.
 
-[ ] Vi skal nå bruke et program som heter `excavate`, dette betyr *grav
+- [ ] Vi skal nå bruke et program som heter `excavate`, dette betyr *grav
 ut*. og vil be roboten om å grave ut et hull i bakken.
 
   Skriv `excavate 3` og trykk enter.
@@ -524,17 +524,17 @@ ut*. og vil be roboten om å grave ut et hull i bakken.
   fortsette å grave til den går tom for fuel eller kommer til
   grunnfjellet, __Bedrock__.
 
-[ ] Hva tror du tallet `3` i kommandoen vi skrev over betyr? Skriv `help
+- [ ] Hva tror du tallet `3` i kommandoen vi skrev over betyr? Skriv `help
 excavate` for å se om du har rett.
 
-[ ] Høyreklikk på roboten slik at du ser inventory'et den har. Legg
+- [ ] Høyreklikk på roboten slik at du ser inventory'et den har. Legg
 merke til at den tar vare på alt den graver ut.
 
   Når roboten er ferdig å grave kommer den tilbake dit den
   startet. Der gir den fra seg alt materialet den har gravd ut slik
   at du kan plukke det opp om du vil.
 
-[ ] Lag flere gruveroboter som kan grave større eller mindre hull.
+- [ ] Lag flere gruveroboter som kan grave større eller mindre hull.
 
 # Steg 8: Robotprogrammer {.activity}
 
@@ -546,10 +546,10 @@ kommandoer fra `turtle`-biblioteket.
 
 ## Sjekkliste {.check}
 
-[ ] Start en ny robot. Pass på at den har fått litt kull og blitt
+- [ ] Start en ny robot. Pass på at den har fått litt kull og blitt
 `refuel`et.
 
-[ ] Vi begynner med å prøve å finne litt mer informasjon om
+- [ ] Vi begynner med å prøve å finne litt mer informasjon om
 `turtle`-biblioteket. Skriv `help turtle`.
 
   Du får nå se en ganske lang liste med kommandoer som vi kan
@@ -559,19 +559,19 @@ kommandoer fra `turtle`-biblioteket.
   For å komme ut av listen kan du for eksempel holde mellomromtasten
   nede en liten stund.
 
-[ ] For å gjøre enkle eksperimenter vil vi begynne med å skrive
+- [ ] For å gjøre enkle eksperimenter vil vi begynne med å skrive
 kommandoene direkte i Lua-tolkeren. Skriv `lua` og trykk enter. Husk
 at du skriver `exit()` for å gå ut av Lua-tolkeren og tilbake til
 kommandolinjen.
 
-[ ] Vi begynner med de enkle flytte-kommandoene. Skriv
+- [ ] Vi begynner med de enkle flytte-kommandoene. Skriv
 `turtle.forward()` og trykk enter. Flytter roboten seg forover?
 
   Husk at du kan trykke *Esc*-knappen for enklere å se hva roboten
   gjør. Høyreklikk på roboten for å komme tilbake til
   Lua-tolkeren.
 
-[ ] Prøv også de følgende kommandoene. Disse tilsvarer `go`-programmet,
+- [ ] Prøv også de følgende kommandoene. Disse tilsvarer `go`-programmet,
 og til sammen gir de oss muligheten til å flytte roboten dit vi vil ha
 den:
 
@@ -596,11 +596,11 @@ grave eller bygge.
 
 ## Sjekkliste {.check}
 
-[ ] Start en ny robot. Gi den fuel (og kjør `refuel`). Legg også noe
+- [ ] Start en ny robot. Gi den fuel (og kjør `refuel`). Legg også noe
 byggemateriale, for eksempel __Grass__, i den øverste venstre boksen i
 robotens inventory.
 
-[ ] Pass på at det ikke er noe foran roboten, og skriv `turtle.place()`
+- [ ] Pass på at det ikke er noe foran roboten, og skriv `turtle.place()`
 inne i Lua-tolkeren.
 
   Bygde roboten en gresskloss foran seg? Da har du gjort alt
@@ -619,13 +619,13 @@ inne i Lua-tolkeren.
   merket, det vil si at den har en litt tykkere ramme rundt seg enn
   de andre boksene.
 
-[ ] Roboten kan også sjekke om den har noe foran seg: Skriv
+- [ ] Roboten kan også sjekke om den har noe foran seg: Skriv
 `turtle.detect()`.
 
   Du skal få svaret `true` som betyr at roboten merker at den har
   noe foran seg.
 
-[ ] Prøv så `turtle.back()` etterfulgt av `turtle.detect()`.
+- [ ] Prøv så `turtle.back()` etterfulgt av `turtle.detect()`.
 
   Siden roboten nå ikke har noe rett foran seg får du svaret
   `false`.
@@ -639,7 +639,7 @@ fungerer ikke med `turtle`-biblioteket. I stedet må vi bruke løkker.
 
 ## Sjekkliste {.check}
 
-[ ] En enkel måte å gjøre noe et bestemt antall ganger er å bruke
+- [ ] En enkel måte å gjøre noe et bestemt antall ganger er å bruke
 `for`-løkker.
 
   Skriv
@@ -673,7 +673,7 @@ for tall = 10, 20 do print(tall); end
 
 ## Sjekkliste {.check}
 
-[ ] Hvis vi vil kombinere flere kommandoer inne i en løkke i
+- [ ] Hvis vi vil kombinere flere kommandoer inne i en løkke i
 Lua-tolkeren bruker vi semikolon, `;`.
 
   Prøv
@@ -682,10 +682,10 @@ Lua-tolkeren bruker vi semikolon, `;`.
   for i = 1, 5 do turtle.back(); turtle.place(); end
   ```
 
-[ ] Pass på at roboten din har mye byggemateriale, for eksempel 64
+- [ ] Pass på at roboten din har mye byggemateriale, for eksempel 64
 __Grass__, i den merkede boksen i inventory'et sitt.
 
-[ ] La oss bygge et høyt tårn!
+- [ ] La oss bygge et høyt tårn!
 
   Skriv
 
@@ -713,15 +713,15 @@ oss øve oss, og teste programmet på et mindre tårn.
 
 ## Sjekkliste {.check}
 
-[ ] Bygg et tårn som er tre klosser høyt. Dette kan du bygge enten med
+- [ ] Bygg et tårn som er tre klosser høyt. Dette kan du bygge enten med
 en robot eller bare på egen hånd.
 
   ![](../robotinvasjon/lite_tarn.png)
 
-[ ] Lag en ny robot inntil det lille tårnet du nettopp bygde. Gi den
+- [ ] Lag en ny robot inntil det lille tårnet du nettopp bygde. Gi den
 fuel og byggematerialer. Pass på at den peker mot tårnet.
 
-[ ] Begynn et nytt program ved å skrive `edit byggTrapp`. Skriv inn
+- [ ] Begynn et nytt program ved å skrive `edit byggTrapp`. Skriv inn
 følgende:
 
   ```lua
@@ -730,14 +730,14 @@ følgende:
 
   Lagre og avslutt ved å bruke *Ctrl*-tasten.
 
-[ ] Kjør programmet ved å skrive `byggTrapp`. Dette programmet bygger
+- [ ] Kjør programmet ved å skrive `byggTrapp`. Dette programmet bygger
 ingen trapp enda, det virker faktisk som om det ikke gjør noe som
 helst. Det eneste som skjer er at roboten merker at den har en kloss
 foran seg. Men vi har ikke fortalt den hva den skal gjøre etterpå.
 
   Vi kan bruke `turtle.detect()` til å finne toppen av tårnet.
 
-[ ] Endre på programmet ditt ved å skrive `edit byggTrapp` igjen. Vi
+- [ ] Endre på programmet ditt ved å skrive `edit byggTrapp` igjen. Vi
 lager nå en løkke hvor roboten klatrer oppover så lenge den merker at
 tårnet er høyere.
 
@@ -750,7 +750,7 @@ tårnet er høyere.
   Lagre og kjør programmet ditt. Klatrer roboten til toppen av det
   lille tårnet?
 
-[ ] Vi har lært av feilen vi gjorde tidligere, så nå vil vi passe på at
+- [ ] Vi har lært av feilen vi gjorde tidligere, så nå vil vi passe på at
 roboten kommer ned igjen. La oss legge til en ny løkke i programmet,
 slik at roboten klatrer ned. Denne gangen bruker vi kommandoen
 `detectDown()`. Denne gjør det samme som `detect()`, bortsett fra at
@@ -771,7 +771,7 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
   Vi sier at så lenge roboten *ikke* har en kloss under seg kan den
   ta et steg ned. Kommer roboten ned igjen når du kjører programmet?
 
-[ ] Nå er vi klar til å la roboten bygge selve trappen. Det gjør vi ved
+- [ ] Nå er vi klar til å la roboten bygge selve trappen. Det gjør vi ved
 å ta et steg tilbake i den andre løkken, og plassere ut en kloss.
 
   ```lua
@@ -788,7 +788,7 @@ den merker om roboten har en kloss under seg i stedet for foran seg.
 
   Virker det? Lager roboten en trapp?
 
-[ ] Nå er vi klare for den store testen. Klarer vi å sende
+- [ ] Nå er vi klare for den store testen. Klarer vi å sende
 trappebyggeroboten vår opp det høye tårnet?
 
   Pass på at roboten fortsatt har nok fuel, og fyll opp med

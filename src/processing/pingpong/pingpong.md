@@ -15,7 +15,7 @@ Vår begynnelse kommer til å ligne på det vi gjorde i [den sprettende ballen](
 
 ## Sjekkliste {.check}
 
-[ ] Start Processing og skriv dette:
+- [ ] Start Processing og skriv dette:
 
   ```processing
   float ballX;
@@ -59,24 +59,24 @@ Vår begynnelse kommer til å ligne på det vi gjorde i [den sprettende ballen](
 
   Hvorfor tror du vi har gjort dette?
 
-[ ] Kjør programmet ved å trykke på **Ctrl + R** eller knappen
+- [ ] Kjør programmet ved å trykke på **Ctrl + R** eller knappen
 ![](../play.png "Play - En knapp i verktøylinjen merket med pil")
 
 ![](sprettendeBall.gif "En sprettende ball på en svart bakgrunn.")
 
-[ ] Lagre programmet som PingPong ved å trykke på **Ctrl+S** eller
+- [ ] Lagre programmet som PingPong ved å trykke på **Ctrl+S** eller
 velg **File --> Save** i menyen.
 
 ## Utfordringer {.try}
 
-[ ] Kan du endre størrelsen på ballen?
-[ ] Kan du endre farten til ballen?
+- [ ] Kan du endre størrelsen på ballen?
+- [ ] Kan du endre farten til ballen?
 
 # Steg 2: Ballen faller bak {.activity}
 
 I Ping pong skal du hindre at ballen faller bak rekkerten. For at det skal være vits å gjøre dette må vi først sørge for at ballen ikke bare spretter tilbake når den treffer venstre vegg. Vi kan begynne med å sørge for at ballen ikke spretter tilbake.
 
-[ ] Fjern koden som gjør at ballen spretter tilbake (denne ligger i den øverste ‘if’-en), slik at du går fra dette:
+- [ ] Fjern koden som gjør at ballen spretter tilbake (denne ligger i den øverste ‘if’-en), slik at du går fra dette:
 
   ```processing
   if (ballX < ballRadius) {
@@ -96,13 +96,13 @@ I Ping pong skal du hindre at ballen faller bak rekkerten. For at det skal være
 
 ## Utfordringer {.try}
 
-[ ] Kan du få ballen til å dukke opp et annet sted etter den har gått igjennom veggen?
+- [ ] Kan du få ballen til å dukke opp et annet sted etter den har gått igjennom veggen?
 
 # Steg 3: Legg til rekkerten {.activity}
 
 Nå som ballen kan falle igjennom den venstre veggen, så må vi få på plass en rekkert, slik at du kan slå ballen tilbake. Det gjør vi ved å ha noen tallvariabler som representerer hvor rekkerten er og hvor stor den er. I tilegg så må vi ha kode som sender ballen tilbake.
 
-[ ] Legge inn disse variablene nedenfor de som er der fra før:
+- [ ] Legge inn disse variablene nedenfor de som er der fra før:
 
   ```processing
   float rekkertHoyde = 66;
@@ -141,8 +141,8 @@ Nå som ballen kan falle igjennom den venstre veggen, så må vi få på plass e
 
 ## Utfordringer {.try}
 
-[ ] Kan du gjøre rekkerten mindre?
-[ ] Kan du endre plasseringen til rekkerten?
+- [ ] Kan du gjøre rekkerten mindre?
+- [ ] Kan du endre plasseringen til rekkerten?
 
 ## Forklaring {.protip}
 
@@ -154,7 +154,7 @@ Her er et bilde som forklarer hva de forskjellige variablene står for:
 
 Vi har en rekkert, men den er ikke til mye hjelp så lenge du ikke kan styre den. Derfor må du skrive kode som gjør at du kan styre den.
 
-[ ] Skriv inn følgende i draw():
+- [ ] Skriv inn følgende i draw():
 
   ```processing
   if (keyPressed) {
@@ -195,7 +195,7 @@ kan du styre opp med **W**. Hva tror du at du må gjøre for å kunne styre ned 
 
 ## Utfordringer {.try}
 
-[ ] Kan du endre farten rekkerten beveger seg i?
-[ ] Kan du legge til en rekkert på den andre siden slik at to spillere kan spille mot hverandre?
-[ ] Kan du gjøre det slik at ballens vertikale retning (opp og ned) bestemmes av hvilken del av rekkerten den treffer?
-[ ] Kan du gjøre noe som gjør at spillet blir vanskeligere etter hvert? For eksempel at ballen går raskere og raskere etter hvert, eller at rakkerten blir mindre.
+- [ ] Kan du endre farten rekkerten beveger seg i?
+- [ ] Kan du legge til en rekkert på den andre siden slik at to spillere kan spille mot hverandre?
+- [ ] Kan du gjøre det slik at ballens vertikale retning (opp og ned) bestemmes av hvilken del av rekkerten den treffer?
+- [ ] Kan du gjøre noe som gjør at spillet blir vanskeligere etter hvert? For eksempel at ballen går raskere og raskere etter hvert, eller at rakkerten blir mindre.

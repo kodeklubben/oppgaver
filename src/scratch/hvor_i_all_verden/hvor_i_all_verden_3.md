@@ -23,12 +23,12 @@ lage en skikkelig intro til spillet.
 
 Sjekk spesielt at
 
-[ ] du har et helikopter som du kan styre over en rullende bakgrunn med
+- [ ] du har et helikopter som du kan styre over en rullende bakgrunn med
   piltastene,
 
-[ ] du har en stedfigur som kan bli funnet av helikopteret,
+- [ ] du har en stedfigur som kan bli funnet av helikopteret,
 
-[ ] du har laget en ny kloss (funksjon) som heter `Reis
+- [ ] du har laget en ny kloss (funksjon) som heter `Reis
   til`{.blockmoreblocks}.
 
 # Steg 1: Lag lister {.activity}
@@ -39,16 +39,16 @@ Sjekk spesielt at
 
 ## Sjekkliste {.check}
 
-[ ] Velg sted-figuren, og klikk på `Data`{.blockdata}-kategorien. Lag
+- [ ] Velg sted-figuren, og klikk på `Data`{.blockdata}-kategorien. Lag
   en liste som du kaller `steder` og lar gjelde bare for denne
   figuren.
 
-[ ] Det dukker nå opp en grå boks på scenen som heter `Sted: steder`. Vi
+- [ ] Det dukker nå opp en grå boks på scenen som heter `Sted: steder`. Vi
   kan la denne ligge på scenen inntil videre. Du vil også se at det
   har kommet noen nye klosser som gjør ting med lister. Skjønner du
   hva noen av disse klossene gjør?
 
-[ ] La oss fylle opp listen! Vi starter med en ny melding, og
+- [ ] La oss fylle opp listen! Vi starter med en ny melding, og
   deretter kan vi legge til ting i listen.
 
   ```blocks
@@ -60,11 +60,11 @@ Sjekk spesielt at
 
   Bruk gjerne de samme reisemålene som du allerede har.
 
-[ ] Klikk på blokken du laget over slik at den kjører. Blir den grå
+- [ ] Klikk på blokken du laget over slik at den kjører. Blir den grå
   boksen på scenen fyllt med steder? Hva skjer om du klikker flere
   ganger?
 
-[ ] Vi kan sikre oss at hvert sted bare ligger en gang i listen ved å
+- [ ] Vi kan sikre oss at hvert sted bare ligger en gang i listen ved å
   tømme listen før vi fyller den opp. Legg til
 
   ```blocks
@@ -78,10 +78,10 @@ verdier. For eksempel stedsnavn i dette tilfellet. Men for reisemålene
 må vi holde styr på tre ting: Stedsnavnet og de to koordinatene som
 sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
 
-[ ] Lag to nye lister, `stederX` og `stederY` som også gjelder kun for
+- [ ] Lag to nye lister, `stederX` og `stederY` som også gjelder kun for
   stedfiguren.
 
-[ ] Vi vil nå utvide `Lag lister`-blokken slik at vi fyller opp alle tre
+- [ ] Vi vil nå utvide `Lag lister`-blokken slik at vi fyller opp alle tre
   listene. Bruk dine egne reisemål og koordinater her om du vil:
 
   ```blocks
@@ -110,7 +110,7 @@ sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
 
 ## Sjekkliste {.check}
 
-[ ] Først vil vi lage listene våre når spillet begynner.  Endre på koden
+- [ ] Først vil vi lage listene våre når spillet begynner.  Endre på koden
   for `Nytt spill`{.blockevents} slik,
 
   ```blocks
@@ -120,12 +120,12 @@ sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
   send melding [Nytt sted v] og vent
   ```
 
-[ ] Lag en ny variabel som heter `sted`{.blockdata} og som gjelder kun
+- [ ] Lag en ny variabel som heter `sted`{.blockdata} og som gjelder kun
   for sted-figuren. Denne variabelen vil være et tall som
   identifiserer hvilken posisjon i listene det gjeldende reisemålet
   har.
 
-[ ] Koden for `Nytt sted`{.blockevents} blir helt ny. Nå skal vi bruke
+- [ ] Koden for `Nytt sted`{.blockevents} blir helt ny. Nå skal vi bruke
   både listene våre og den nye `Reis til`{.blockmoreblocks}-klossen vi
   lagde forrige gang.
 
@@ -135,10 +135,10 @@ sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
   Reis til (element (sted) av [steder v]) (element (sted) av [stederX v]) (element (sted) av [stederY v]) :: custom
   ```
 
-[ ] Prøv å kjør spillet flere ganger. Virker det som om reisemålet blir
+- [ ] Prøv å kjør spillet flere ganger. Virker det som om reisemålet blir
   valgt tilfeldig?
 
-[ ] For å få flere reiseoppgaver i hvert spill kan vi bare legge en
+- [ ] For å få flere reiseoppgaver i hvert spill kan vi bare legge en
   `gjenta _ ganger`{.blockcontrol}-løkke rundt sendingen av meldingen
   `Nytt sted` i `Nytt spill`{.blockevents}-blokken. Hvor mange ganger
   vil du gjenta meldingen?
@@ -151,7 +151,7 @@ sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
 
 ## Sjekkliste {.check}
 
-[ ] For å unngå å bli spurt om å reise til samme sted flere ganger på
+- [ ] For å unngå å bli spurt om å reise til samme sted flere ganger på
   rad vil vi slette reisemål fra listene etterhvert som vi finner dem.
   Legg til slettekommandoer helt nederst i `Nytt
   sted`{.blockevents}-blokken,
@@ -162,7 +162,7 @@ sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
   slett (sted) i [stederY v]
   ```
 
-[ ] Hva skjer om du prøver å gi flere oppgaver enn det er reisemål? Prøv
+- [ ] Hva skjer om du prøver å gi flere oppgaver enn det er reisemål? Prøv
   selv!
 
   Den enkleste måten å unngå dette problemet på er å gi færre
@@ -181,7 +181,7 @@ sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
 
 ## Sjekkliste {.check}
 
-[ ] Lag en ny bakgrunn som kan brukes på startskjermen. Vi har tegnet en
+- [ ] Lag en ny bakgrunn som kan brukes på startskjermen. Vi har tegnet en
   ny bakgrunn selv ved å bruke vektorgrafikk, sette sammen to store
   firkanter og fylle dem med fargeoverganger. Deretter skrev vi litt
   tekst på denne bakgrunnen.
@@ -198,7 +198,7 @@ programflyten omtrent som dette:
 
 ![](programflyt.png)
 
-[ ] For å lage denne programflyten kan vi stort sett bruke skript på
+- [ ] For å lage denne programflyten kan vi stort sett bruke skript på
   scenen. Lag de følgende enkle skriptene:
 
   ```blocks
@@ -223,7 +223,7 @@ programflyten omtrent som dette:
   Sammenlign disse skriptene med programflyten over. Ser du hvordan
   de henger sammen?
 
-[ ] Vi må sende melding når spillet er slutt. Hvordan vet vi at spillet
+- [ ] Vi må sende melding når spillet er slutt. Hvordan vet vi at spillet
   er slutt?
 
   Spillet slutter etter at vi har besøkt reisemålene. Det betyr at
@@ -234,7 +234,7 @@ programflyten omtrent som dette:
   programflyten? Starter spillet når du trykker mellomrom? Kommer du
   tilbake til menyen når spillet er slutt?
 
-[ ] Et problem er at helikopteret, stedet og kartet blir liggende over
+- [ ] Et problem er at helikopteret, stedet og kartet blir liggende over
   menyen når spillet er slutt. Vi må passe på at disse skjules. Legg
   følgende kode på alle de tre figurene:
 
@@ -251,11 +251,11 @@ programflyten omtrent som dette:
 
 __Klikk på det grønne flagget.__
 
-[ ] Fungerer programflyten som den skal? Starter spillet når du trykker
+- [ ] Fungerer programflyten som den skal? Starter spillet når du trykker
   på mellomrom-tasten? Kommer du tilbake til menyen når spillet er
   slutt?
 
-[ ] Skjules og vises alle figurene når de skal?
+- [ ] Skjules og vises alle figurene når de skal?
 
 # Steg 5: Ta tiden {.activity}
 
@@ -264,20 +264,20 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-[ ] Lag en ny variabel, `Tid`{.blockdata}, som gjelder for alle
+- [ ] Lag en ny variabel, `Tid`{.blockdata}, som gjelder for alle
   figurer. Det ser ganske bra ut om du høyreklikker på
   `Tid`{.blockgrey}-boksen på scenen og velger `stor`.
 
-[ ] På scenen, sett `Tid`{.blockdata} til for eksempel 30 (sekunder)
+- [ ] På scenen, sett `Tid`{.blockdata} til for eksempel 30 (sekunder)
   etter `Nytt spill`{.blockevents} mottas. Lag så en løkke som gjentas
   til `Tid`{.blockdata} er 0. Inne i løkken kan du endre
   `Tid`{.blockdata} med -1, og deretter vente 1 sekund. Avslutt med å
   sende ut meldingen `Spill slutt` etter løkken.
 
-[ ] Kanskje du kan gi spilleren litt ekstra tid hver gang han finner et
+- [ ] Kanskje du kan gi spilleren litt ekstra tid hver gang han finner et
   sted?
 
-[ ] Til slutt må du legge på en `stopp`{.blockcontrol}-kloss også på
+- [ ] Til slutt må du legge på en `stopp`{.blockcontrol}-kloss også på
   scenen når spillet er slutt for at tiden skal stoppe når spilleren
   har funnet alle reisemålene.
 
@@ -285,9 +285,9 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-[ ] Fungerer tidtakingen? Telles tiden nedover mot 0?
+- [ ] Fungerer tidtakingen? Telles tiden nedover mot 0?
 
-[ ] Avsluttes spillet når du har funnet alle reisemålene? Avsluttes
+- [ ] Avsluttes spillet når du har funnet alle reisemålene? Avsluttes
   spillet når tiden går ut?
 
 ## Legg ut prosjektet {.save}
@@ -298,7 +298,7 @@ og venner ved å trykke `Legg ut` øverst til høyre på skjermen.
 
 ## Prøv selv {.try}
 
-[ ] Selv om leksjonene er ferdige betyr ikke det at du ikke kan
+- [ ] Selv om leksjonene er ferdige betyr ikke det at du ikke kan
   videreutvikle spillet ditt. En enkel utvidelse er å legge på flere
   reisemål. Her er for eksempel to steder du kan legge til,
 
@@ -315,18 +315,18 @@ og venner ved å trykke `Legg ut` øverst til høyre på skjermen.
   trenger ikke bare være byer, det kan også være fjell, sjøer eller
   kanskje land!
 
-[ ] En måte å gjøre spillet ganske forskjellig på, og samtidig ganske
+- [ ] En måte å gjøre spillet ganske forskjellig på, og samtidig ganske
   likt, er å bytte ut kartet over Europa med et kart over et annet
   område. Det finnes mange kart på nettet. Prøv deg fram!
 
-[ ] Om spillet kjennes litt vanskelig kan man gi spilleren et hint ved å
+- [ ] Om spillet kjennes litt vanskelig kan man gi spilleren et hint ved å
   la den sirkelen sakte komme til syne mens han leter etter
   reisemålet. Om du lager en løkke som starter når `Nytt
   spill`{.blockevents} mottas, og som sakte endrer den gjennomsiktige
   effekten ned mot 0 vil spilleren enklere kunne finne de vanskelige
   reisemålene.
 
-[ ] Du kan også lage flere nivåer, for eksempel lett og vanskelig, ved å
+- [ ] Du kan også lage flere nivåer, for eksempel lett og vanskelig, ved å
   lage forskjellige lister avhengig av hvilket nivå spilleren velger
   (for eksempel ved å trykke `1` eller `2` i stedet for mellomrom når
   spillet starter).

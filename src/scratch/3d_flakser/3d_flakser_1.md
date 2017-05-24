@@ -28,9 +28,9 @@ to sirkler inni hverandre, fylt med en farge imellom.
 
 ## Sjekkliste {.check}
 
-[ ] Tegn figuren __Ring__. Jo enklere jo bedre.
+- [ ] Tegn figuren __Ring__. Jo enklere jo bedre.
 
-[ ] Gi ringfiguren disse skriptene:
+- [ ] Gi ringfiguren disse skriptene:
 
   ```blocks
   når jeg mottar [Nytt spill v]
@@ -55,7 +55,7 @@ sendes når det grønne flagget klikkes.
 
 ## Test prosjektet {.flag}
 
-[ ] Hva gjør de to skriptene over? Ser det ut som om ringene kommer mot
+- [ ] Hva gjør de to skriptene over? Ser det ut som om ringene kommer mot
   deg?
 
 ## Sjekkliste {.check}
@@ -69,10 +69,10 @@ fortere. Dette skal vi få til ved hjelp av en *variabel* som vi kaller
 ringen langt borte, og skal vokse sakte. Når `distanse`{.blockdata} er
 liten så betyr det at ringen er nærme, og den skal vokse fort.
 
-[ ] Lag en variabel som heter `distanse`{.blockdata}. Pass på at den kun
+- [ ] Lag en variabel som heter `distanse`{.blockdata}. Pass på at den kun
   gjelder for denne figuren.
 
-[ ] Endre skriptet over til dette:
+- [ ] Endre skriptet over til dette:
 
   ```blocks
   når jeg starter som klon
@@ -87,7 +87,7 @@ liten så betyr det at ringen er nærme, og den skal vokse fort.
   slett denne klonen
   ```
 
-[ ] Det kan hende du må endre litt på tallene i skriptet over for at det
+- [ ] Det kan hende du må endre litt på tallene i skriptet over for at det
   skal se bra ut. Prøv deg frem!
 
 ## Utfordring: Gjennomsiktig effekt {.challenge}
@@ -113,7 +113,7 @@ vanskelig, men å få dem til å vokse på riktig måte er litt vrient.
 
 ## Sjekkliste {.check}
 
-[ ] Prøv først å endre på blokken som plasserer ring-klonene til
+- [ ] Prøv først å endre på blokken som plasserer ring-klonene til
 
   ```blocks
   gå til x: (tilfeldig tall fra (-100) til (100)) y: (tilfeldig tall fra (-100) til (100))
@@ -126,10 +126,10 @@ vanskelig, men å få dem til å vokse på riktig måte er litt vrient.
   vei mot deg. For å få det til å fungere må ringklonen huske hvor
   den dukket opp til å begynne med.
 
-[ ] Lag variabler `ringX`{.blockdata} og `ringY`{.blockdata} som *kun
+- [ ] Lag variabler `ringX`{.blockdata} og `ringY`{.blockdata} som *kun
   gjelder for ringfiguren*.
 
-[ ] Erstatt blokken som først plasserer ringen med dette:
+- [ ] Erstatt blokken som først plasserer ringen med dette:
 
   ```blocks
   sett [ringX v] til (tilfeldig tall fra (-100) til (100)
@@ -160,14 +160,14 @@ du har skrevet så langt.
 
 ## Sjekkliste {.check}
 
-[ ] Lag en ny figur. Det er best om den er symmetrisk, slik at det kan
+- [ ] Lag en ny figur. Det er best om den er symmetrisk, slik at det kan
   se ut som om den flyr innover i skjermen uten at det ser teit ut,
   bruk for eksempel flaggermus-figuren. Kall den __Flakse__.
 
-[ ] Lag to nye variabler, `x`{.blockdata} og `y`{.blockdata}. La dem
+- [ ] Lag to nye variabler, `x`{.blockdata} og `y`{.blockdata}. La dem
   gjelde *for alle figurer*.
 
-[ ] Gi Flakse følgende skript:
+- [ ] Gi Flakse følgende skript:
 
   ```blocks
   når jeg mottar [Nytt spill v]
@@ -198,7 +198,7 @@ du har skrevet så langt.
   slik at `x`{.blockdata} og `y`{.blockdata} ikke plutselig vokser
   over alle grenser. Test gjerne hva som skjer dersom vi ikke venter.
 
-[ ] Nå vil vi at posisjonen til ringene skal endre seg når vi
+- [ ] Nå vil vi at posisjonen til ringene skal endre seg når vi
   styrer. Det kan vi få til ved å endre klossen
 
   ```blocks
@@ -219,7 +219,7 @@ du har skrevet så langt.
 
 ## Ting å prøve {.try}
 
-[ ] Er det mulig å styre figuren gjennom alle ringene? Husk at spillet
+- [ ] Er det mulig å styre figuren gjennom alle ringene? Husk at spillet
   skal være akkurat passe vanskelig, og ihvertfall ikke umulig. Gå
   gjennom alle skriptene og endre på verdiene slik at spillet er gøy å
   spille, og slik at det ser bra ut. Kanskje du må endre på størrelsen
@@ -227,7 +227,7 @@ du har skrevet så langt.
   seg når pilene trykkes, hvor lenge vi venter eller noen av de andre
   verdiene.
 
-[ ] Tegn din egen figur! Flaggermusfiguren er kanskje ikke helt
+- [ ] Tegn din egen figur! Flaggermusfiguren er kanskje ikke helt
   perfekt. Prøv å se om du kan finne noen bilder på nettet du kan
   bruke, eller tegn din helt egen figur (den burde være et
   fugleliknende dyr). Husk at det ser mye bedre ut om figuren er

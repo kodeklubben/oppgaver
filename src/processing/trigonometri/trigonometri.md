@@ -73,7 +73,7 @@ vi bruke formlene for katetene for å regne ut hvor hjørnene skal
 være. Opptegningen ellers er som for vanlige
 [mangekanter](../mangekanter/mangekanter.html).
 
-[ ] Vi begynner med å tegne opp en regulær pentagon (femkant).
+- [ ] Vi begynner med å tegne opp en regulær pentagon (femkant).
 
   ```processing
   int KANTER = 5;
@@ -110,24 +110,24 @@ være. Opptegningen ellers er som for vanlige
 
 ![](Femkant.png "Vinkelen mellom to nabohjørner og sentrum i en femkant er 360° / 5 = 72°.")
 
-[ ] Hva er tallet `200` her? Hva skjer om du endrer det til noe annet?
+- [ ] Hva er tallet `200` her? Hva skjer om du endrer det til noe annet?
 
-[ ] Hva med tallet `300`?
+- [ ] Hva med tallet `300`?
 
-[ ] Kan du få snudd på femkanten sånn at hjørnet som nå peker rett til
+- [ ] Kan du få snudd på femkanten sånn at hjørnet som nå peker rett til
   høyre, peker opp?
 
 ![](FemkantRotering.png "Femkanten før og etter rotering.")
 
-[ ] Hvis du har fått femkanten til å peke opp, kan du legge til en
+- [ ] Hvis du har fått femkanten til å peke opp, kan du legge til en
   variabel som du bruker til denne justeringen? Kan du bruke denne
   variabelen til å få femkanten til å snurre?
 
 ![](FemkantSnurrer.gif "Femkanten snurrer rundt.")
 
-[ ] Kan du styre hvilken vei femkanten peker med musa eller tastaturet?
+- [ ] Kan du styre hvilken vei femkanten peker med musa eller tastaturet?
 
-[ ] Hva skjer hvis du endrer `KANTER` til en annen verdi enn `5`?
+- [ ] Hva skjer hvis du endrer `KANTER` til en annen verdi enn `5`?
 
 # Regulære stjerner 1 {.activity}
 
@@ -139,7 +139,7 @@ hopper over et hjørne når du tegner streken mellom to spisser.
 
 ![](Pentagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en femkantet stjerne er 2 · 360° / 5 = 144°.")
 
-[ ] Siden vi skal hoppe over et hjørne hver gang vi tegner opp neste
+- [ ] Siden vi skal hoppe over et hjørne hver gang vi tegner opp neste
   spiss, trenger vi å gange vinkelen med `2`. Endre derfor kallet på
   `vertex` til:
 
@@ -151,9 +151,9 @@ hopper over et hjørne når du tegner streken mellom to spisser.
   Kunne du ganget med `2` et annet sted i koden og fått den samme
   effekten?
 
-[ ] Kan du tegne en syvkantet stjerne? Eller en nikantet stjerne?
+- [ ] Kan du tegne en syvkantet stjerne? Eller en nikantet stjerne?
 
-[ ] Hvis du har en stjerne med flere kanter enn fem, kan du gange med
+- [ ] Hvis du har en stjerne med flere kanter enn fem, kan du gange med
   andre tall enn to og få andre varianter av mangekantede
   stjerner. Prøv forskjellige tall for syv-, ni- og ellevekantede
   stjerner. Hva skjer når du hopper over flere kanter enn halvparten
@@ -165,38 +165,38 @@ Stjerner med et likt antall spisser, kan tegnes som to regulære
 mangekanter med halvparten så mange hjørner som stjernen har
 spisser.
 
-[ ] Fjern ganging med to om du nå tegner opp stjerner med odde antall
+- [ ] Fjern ganging med to om du nå tegner opp stjerner med odde antall
   spisser.
 
-[ ] Lag en kopi av løkken som tegner opp mangekanten, med `beginShape();`
+- [ ] Lag en kopi av løkken som tegner opp mangekanten, med `beginShape();`
   og `endShape(CLOSE);`.
 
-[ ] I den nye løkken, endrer du `int hjorne = 0` til `int hjorne = 1`,
+- [ ] I den nye løkken, endrer du `int hjorne = 0` til `int hjorne = 1`,
   slik at denne løkken tegner kantene mellom de odde hjørnene.
 
-[ ] Endre `hjorne++` til `hjorne += 2` sånn at vi bare tegner kanter
+- [ ] Endre `hjorne++` til `hjorne += 2` sånn at vi bare tegner kanter
   mellom annenhvert hjørne.
 
-[ ] Pass på at `KANTER` settes til et partall som er minst `6`.
+- [ ] Pass på at `KANTER` settes til et partall som er minst `6`.
 
 ![](Oktagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en åttekantet stjerne er 2 · 360° / 8 = 90°.")
 
 ## Utfordring {.try}
 
-[ ] Nå ser det nok ut som om det mangler noen streker i stjernen
+- [ ] Nå ser det nok ut som om det mangler noen streker i stjernen
   din. Kan du få tegnet opp de siste kantene ved å tegne opp den første
   av de to mangekantene på nytt og bruke
   [`noFill()`](https://processing.org/reference/noFill_.html),
   [`noStroke()`](https://processing.org/reference/noStroke_.html) og
   [`stroke()`](https://processing.org/reference/stroke_.html).
 
-[ ] Kan du tegne opp flere mangekanter eller stjerner på skjermen
+- [ ] Kan du tegne opp flere mangekanter eller stjerner på skjermen
   samtidig? For eksempel en femkantet, en syvkantet og en nikantet
   stjerne som vist under?
 
 ![](FlereStjerner.png "Flere stjerner samtidig.")
 
-[ ] Hvis stjernene dine ikke snurrer allerede, kan du få dem til å gjøre
+- [ ] Hvis stjernene dine ikke snurrer allerede, kan du få dem til å gjøre
   det?
 
 ![](FlereStjernerSnurrer.gif "Tre stjerner som snurrer.")

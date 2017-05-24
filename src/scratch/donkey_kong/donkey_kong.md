@@ -42,9 +42,9 @@ en troverdig måte.
 
 ## Sjekkliste {.check}
 
-[ ] Start et nytt prosjekt.
+- [ ] Start et nytt prosjekt.
 
-[ ] For å kunne teste at heltefiguren oppfører seg som vi vil trenger vi
+- [ ] For å kunne teste at heltefiguren oppfører seg som vi vil trenger vi
   en enkel plattform (vi skal tegne flere plattformer senere). Tegn en
   ny bakgrunn. Velg å tegne med `Vektorgrafikk`. Tegn en smal, lang
   boks nederst på skjermen. Fyll den med en farge forskjellig fra
@@ -52,7 +52,7 @@ en troverdig måte.
 
   ![](plattform.png)
 
-[ ] Velg eller lag deg en figur du ønsker å bruke som den hoppende
+- [ ] Velg eller lag deg en figur du ønsker å bruke som den hoppende
   helten du skal styre. Om du ikke bruker Scratch-katten så slett
   denne. Kall figuren `Jumpman`. Sannsynligvis vil vi gjøre figuren
   mindre slik at vi får plass til flere plattformer på skjermen. Dette
@@ -68,11 +68,11 @@ en troverdig måte.
   Vi har også lagt til en kloss som passer på at `Jumpman` bare snur
   seg mot høyre eller venstre.
 
-[ ] Vi trenger to variabler som vi skal bruke til å kontrollere
+- [ ] Vi trenger to variabler som vi skal bruke til å kontrollere
   bevegelsen til `Jumpman`. Lag to variabler, `(fartX)`{.b} og
   `(fartY)`{.b}. Pass på at begge gjelder kun _for denne figuren_.
 
-[ ] I hovedløkken som styrer `Jumpman` vil vi først endre litt på disse
+- [ ] I hovedløkken som styrer `Jumpman` vil vi først endre litt på disse
   `fart`{.blockdata}-variablene, og til slutt flytte selve figuren
   basert på dem.
 
@@ -96,12 +96,12 @@ en troverdig måte.
   slutt
   ```
 
-[ ] Om du prøver spillet ditt så langt (husk å legge til et skript på
+- [ ] Om du prøver spillet ditt så langt (husk å legge til et skript på
   bakgrunnen som sender en `nytt spill`-melding når det grønne flagget
   klikkes), vil du se at figuren din faller ned til plattformen. Men
   du kan ikke kontrollere den.
 
-[ ] For å styre `Jumpman` legger vi flere `hvis`{.blockcontrol}-tester
+- [ ] For å styre `Jumpman` legger vi flere `hvis`{.blockcontrol}-tester
   inn i hovedløkken. For eksempel kan du få figuren til å bevege seg
   mot venstre ved å legge til dette rett før `endre x med
   (fartX)`{.b}:
@@ -116,7 +116,7 @@ en troverdig måte.
 
   Lag også en tilsvarende blokk for å flytte figuren mot høyre.
 
-[ ] Vi vil også at `Jumpman` hopper når vi trykker på `pil opp`-tasten.
+- [ ] Vi vil også at `Jumpman` hopper når vi trykker på `pil opp`-tasten.
   Her må vi være litt forsiktig, siden vi bare vil at figuren kan
   hoppe hvis den står på en plattform (ikke når den allerede
   hopper). En enkel måte å få til dette på er å legge `pil opp`-testen
@@ -137,7 +137,7 @@ som vi kan styre rundt, og som kan hoppe når vi vil det. Lek litt med
 `sett [fartY v] til []`{.b}-klossene slik at du får en bevegelse du
 synes virker naturlig.
 
-[ ] Du har kanskje oppdaget at av og til faller `Jumpman` delvis
+- [ ] Du har kanskje oppdaget at av og til faller `Jumpman` delvis
   _gjennom_ plattformen? Hvis ikke, prøv å slipp ham fra toppen av
   skjermen. Den følgende testen fikser dette ganske greit:
 
@@ -161,7 +161,7 @@ etter at vi har tegnet dem.
 
 ## Sjekkliste {.activity}
 
-[ ] Før vi tegner flere plattformer skal vi lage stiger, som vil gjøre
+- [ ] Før vi tegner flere plattformer skal vi lage stiger, som vil gjøre
   det enklere for helten vår å klatre opp eller ned. Som for
   plattformer skal vi kjenne igjen stiger ved hjelp av fargen. For å
   gjøre litt enkel testing, tegn først en strek rett opp fra
@@ -172,7 +172,7 @@ etter at vi har tegnet dem.
   Bruke __linje__-verktøyet og hold inne `shift`-knappen mens du
   tegner for å få en helt rett linje.
 
-[ ] Hvordan skal helten vår klatre i en stige? Først og fremst vil han
+- [ ] Hvordan skal helten vår klatre i en stige? Først og fremst vil han
   ikke falle nedover (på samme måte som når han står på en
   plattform). I tillegg vil vi kunne klatre opp og ned i stigen. Legg
   til denne testen på `Jumpman`:
@@ -190,12 +190,12 @@ etter at vi har tegnet dem.
   igjen? Kan du legge til en `hvis <tast [pil ned v]
   trykket?>`{.b}-test til slik at vi også kan klatre ned stigen?
 
-[ ] Tegn flere plattformer og stiger. Test underveis at det er mulig for
+- [ ] Tegn flere plattformer og stiger. Test underveis at det er mulig for
   `Jumpman` å klatre eller hoppe mellom plattformene, men samtidig at
   han ikke klarer å hoppe mellom to plattformer når det ikke er
   meningen at det skal gå an.
 
-[ ] Når du er fornøyd med hvordan brettet ser ut kan du også tegne
+- [ ] Når du er fornøyd med hvordan brettet ser ut kan du også tegne
   stigene litt finere. Om du vil kan du også vente med dette til etter
   at du har programmert Donkey Kong i neste steg.
 
@@ -208,28 +208,28 @@ etter at vi har tegnet dem.
 
 ## Sjekkliste {.check}
 
-[ ] Lag en `Donkey Kong`-figur, og plasser den på en passende
+- [ ] Lag en `Donkey Kong`-figur, og plasser den på en passende
   plattform. Denne vil ikke bevege seg i dette spillet, slik at den
   eneste koden vi egentlig trenger er for å kaste ildkuler. Vi skal
   lage denne koden snart.
 
-[ ] Lag også en ny `Ildkule`-figur. Dette kan være en sirkel du farger
+- [ ] Lag også en ny `Ildkule`-figur. Dette kan være en sirkel du farger
   oransje, eller du kan prøve å tegne noe mer avansert. La figuren
   `skjules`{.blocklooks} når det grønne flagget klikkes.
 
-[ ] Nå skal vi skrive koden på Donkey Kong. Den blir ganske enkel. Etter
+- [ ] Nå skal vi skrive koden på Donkey Kong. Den blir ganske enkel. Etter
   at `Donkey Kong` mottar `nytt spill` kan du la han gå inn i en `for
   alltid`{.blockcontrol}-løkke hvor han `lager klon av
   Ildkule`{.blockcontrol} og deretter `venter 3
   sekunder`{.blockcontrol}.
 
-[ ] Men nå må vi programmere hvordan ildkulene skal oppføre seg. Vi vil
+- [ ] Men nå må vi programmere hvordan ildkulene skal oppføre seg. Vi vil
   holde styr på hvordan de beveger seg ved hjelp av `(fartX)`{.b} og
   `(fartY)`{.b} på samme måte som for `Jumpman`. Lag derfor disse to
   variablene også på `Ildkule`. Husk at de skal gjelde kun _for denne
   figuren_.
 
-[ ] Først bestemmer vi hvilken fart kula har når `Donkey Kong` kaster
+- [ ] Først bestemmer vi hvilken fart kula har når `Donkey Kong` kaster
   den. Dette gjør vi ved å sette `fart`{.blockdata}-variablene, for
   eksempel på denne måten:
 
@@ -241,7 +241,7 @@ etter at vi har tegnet dem.
   vis
   ```
 
-[ ] Videre bestemmer vi hvordan kulene oppfører seg ved å lage en
+- [ ] Videre bestemmer vi hvordan kulene oppfører seg ved å lage en
   hovedløkke på omtrent samme måte som for `Jumpman`.
 
   Legg en `gjenta til <(y-posisjon) < [-170]>`{.b}-kloss nederst i
@@ -249,15 +249,15 @@ etter at vi har tegnet dem.
   lar kulen falle, merker at ildkulen ligger på plattformen, og
   flytter selve figuren.
 
-[ ] Legg også til kode som gjør at ildkulene snur, `sett [fartX v] til
+- [ ] Legg også til kode som gjør at ildkulene snur, `sett [fartX v] til
   ((-1) * (fartX))`{.b}, når de `berører kant`{.blocksensing}, og kode
   som sender en melding, `fanget Jumpman`, når de `berører
   Jumpman`{.blocksensing}.
 
-[ ] Lag kode på `Jumpman` som mottar `fanget Jumpman`, og som kanskje
+- [ ] Lag kode på `Jumpman` som mottar `fanget Jumpman`, og som kanskje
   `spiller en lyd`{.blocksound}.
 
-[ ] Til slutt, lag en skatt som Jumpman skal redde. Dette blir en ny
+- [ ] Til slutt, lag en skatt som Jumpman skal redde. Dette blir en ny
   figur som kan stå i ro til den `berører Jumpman` og deretter sende
   en melding `fant skatten`. Skriv kode som svarer på denne meldingen
   på passende måte.
@@ -271,24 +271,24 @@ etter at vi har tegnet dem.
 
 ## Ideer til videreutvikling {.check}
 
-[ ] Legg gjerne til flere animasjoner og lyder. For eksempel kan Donkey
+- [ ] Legg gjerne til flere animasjoner og lyder. For eksempel kan Donkey
   Kong gjøre en kastebevegelse når han kaster ildkuler.
 
-[ ] Lag en forside og meny. Om du lager en forside som forteller litt om
+- [ ] Lag en forside og meny. Om du lager en forside som forteller litt om
   hvordan man spiller spillet ditt blir det enklere for andre å spille
   det også!
 
-[ ] Vi har laget ett brett, men du kan enkelt tegne flere bakgrunner med
+- [ ] Vi har laget ett brett, men du kan enkelt tegne flere bakgrunner med
   andre plattformer og hindringer. Prøv å lag flere brett hvor man
   kommer videre til neste nivå etter at man har funnet skatten.
 
-[ ] For å gi spillerene litt mer motivasjon kan det være lurt å telle
+- [ ] For å gi spillerene litt mer motivasjon kan det være lurt å telle
   poeng og liv. Til dette trenger du to nye variabler, `(poeng)`{.b}
   og `(liv)`{.b}. For å telle liv kan du bruke `fanget
   Jumpman`-meldingen. Før du teller poeng må du tenke på hva du vil at
   spillerene skal få poeng for?
 
-[ ] Du kan legge til en tidsbegrensning om du vil gjøre spillet mer
+- [ ] Du kan legge til en tidsbegrensning om du vil gjøre spillet mer
   utfordrende. Til dette bruker du en variabel `(tid)`{.b} som du
   `endrer`{.blockdata} og deretter `venter 1 sekund`{.blockcontrol}.
 

@@ -19,10 +19,10 @@ ikke går i nettet.
 
 ## Sjekkliste {.check}
 
-[ ] Start et nytt Scratch-prosjekt. Du vil se en kattefigur midt på
+- [ ] Start et nytt Scratch-prosjekt. Du vil se en kattefigur midt på
   scenen.
 
-[ ] Pusle sammen de følgende klossene i skriptområdet til høyre på
+- [ ] Pusle sammen de følgende klossene i skriptområdet til høyre på
   skjermen.
 
   ```blocks
@@ -41,13 +41,13 @@ ikke går i nettet.
 
 __Klikk på det grønne flagget.__
 
-[ ] For å starte programmet du nettopp puslet sammen kan du klikke på
+- [ ] For å starte programmet du nettopp puslet sammen kan du klikke på
   det grønne flagget over scenen.
 
-[ ] Begynner katten å rotere rundt slik at den alltid ser mot
+- [ ] Begynner katten å rotere rundt slik at den alltid ser mot
   musepekeren?
 
-[ ] For å stoppe programmet ditt kan du klikke på den røde åttekanten
+- [ ] For å stoppe programmet ditt kan du klikke på den røde åttekanten
   ved siden av det grønne flagget.
 
 # Steg 2: Katten løper rundt {.activity}
@@ -60,26 +60,26 @@ __Klikk på det grønne flagget.__
 Vi skal nå gjøre et lite triks hvor vi flytter katten vekk fra sentrum
 slik at det ser ut som om den løper i sirkel i stedet for å rotere.
 
-[ ] Gi først kattefiguren din navnet `Katt`. Dette gjør du ved å først
+- [ ] Gi først kattefiguren din navnet `Katt`. Dette gjør du ved å først
   klikke på den lille `i`{.blockmotion}en på kattefiguren under
   scenen. Deretter kan du skrive `Katt` i tekstfeltet. Når du går
   tilbake, `<`{.blockmotion}, ser du at figuren har fått det riktige
   navnet.
 
-[ ] Klikk på `Drakter`{.blocklightgrey}-fanen øverst på skjermen. Du vil
+- [ ] Klikk på `Drakter`{.blocklightgrey}-fanen øverst på skjermen. Du vil
   nå se to kattefigurer. Slett en av dem ved å klikke på den lille
   x-en i hjørnet av figuren.
 
-[ ] Gjør katten mindre ved å klikke på den i det store bildet, og
+- [ ] Gjør katten mindre ved å klikke på den i det store bildet, og
   deretter dra i et av hjørnene.
 
   ![](katt_krymp.png)
 
-[ ] Roter deretter katten ved å dra i den lille rundingen over katten.
+- [ ] Roter deretter katten ved å dra i den lille rundingen over katten.
 
   ![](katt_roter.png)
 
-[ ] Til slutt kan du ta tak i kattefiguren ved å klikke på den lille
+- [ ] Til slutt kan du ta tak i kattefiguren ved å klikke på den lille
   rundingen midt på katten. Flytt den et stykke til siden. Følg med på
   scenen øverst til venstre at du ikke drar den av skjermen.
 
@@ -89,10 +89,10 @@ slik at det ser ut som om den løper i sirkel i stedet for å rotere.
 
 __Klikk på det grønne flagget.__
 
-[ ] Start programmet ditt igjen. Flytter katten seg i sirkel når du
+- [ ] Start programmet ditt igjen. Flytter katten seg i sirkel når du
   beveger musepekeren?
 
-[ ] Fungerer bevegelsen bra? Ser katten passe stor ut? Husk at du kan gå
+- [ ] Fungerer bevegelsen bra? Ser katten passe stor ut? Husk at du kan gå
   tilbake og endre på kattefiguren senere hvis du oppdager noe som
   kunne vært bedre.
 
@@ -118,22 +118,22 @@ katten løper rundt dette punktet i stedet for at den bare roterer uten
 
 ## Sjekkliste {.check}
 
-[ ] Klikk på `Skript`{.blocklightgrey}-fanen slik at du ser skriptet du
+- [ ] Klikk på `Skript`{.blocklightgrey}-fanen slik at du ser skriptet du
   skrev tidligere.
 
-[ ] Klikk på
+- [ ] Klikk på
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
   ved siden av `Ny figur` under scenen for å hente en ny figur.
 
-[ ] Hvis du klikker kategorien `Ting` til venstre på skjermen vil du se
+- [ ] Hvis du klikker kategorien `Ting` til venstre på skjermen vil du se
   flere baller. Velg en av dem.
 
-[ ] Vi skal nå se en annen måte å gjøre figurer mindre på. Klikk
+- [ ] Vi skal nå se en annen måte å gjøre figurer mindre på. Klikk
   ![Krymp](../bilder/krymp.png) øverst på skjermen. Klikk deretter
   på ballfiguren noen ganger slik at den er passe stor i forhold til
   katten.
 
-[ ] Nå lager vi et program for ballen. Vi vil at ballen skal starte midt
+- [ ] Nå lager vi et program for ballen. Vi vil at ballen skal starte midt
   på skjermen. Deretter går den inn i en løkke hvor den flytter seg
   litt, og snur om katten kommer borti den.
 
@@ -151,7 +151,7 @@ katten løper rundt dette punktet i stedet for at den bare roterer uten
   Klossen `retning`{.blockmotion} finner du helt nederst i
   `Bevegelse`{.blockmotion}-kategorien.
 
-[ ] Skjønner du hvorfor
+- [ ] Skjønner du hvorfor
 
   ```blocks
   pek i retning ((180) + (retning))
@@ -163,14 +163,14 @@ katten løper rundt dette punktet i stedet for at den bare roterer uten
 
 __Klikk på det grønne flagget.__
 
-[ ] Beveger ballen seg? Snur ballen når katten berører den?
+- [ ] Beveger ballen seg? Snur ballen når katten berører den?
 
-[ ] Hva skjer om ballen flyr forbi katten?
+- [ ] Hva skjer om ballen flyr forbi katten?
 
-[ ] Starter ballen midt på skjermen igjen hvis du trykker på det grønne
+- [ ] Starter ballen midt på skjermen igjen hvis du trykker på det grønne
   flagget en gang til?
 
-[ ] Hvis du synes ballen blir for lett "fanget" av katten kan du prøve å
+- [ ] Hvis du synes ballen blir for lett "fanget" av katten kan du prøve å
   gjøre katten litt mindre. Vi vil finne en bedre løsning på dette
   problemet i Ekstra 3-delen.
 
@@ -181,23 +181,23 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-[ ] Vi skal nå lage en figur som vi tegner selv. For å gjøre dette
+- [ ] Vi skal nå lage en figur som vi tegner selv. For å gjøre dette
   klikker du ![Tegn ny figur](../bilder/tegn-ny.png) ved siden av
   `Ny figur` under scenen.
 
-[ ] Klikk på `Bytt til vektorgrafikk` nederst til høyre på skjermen.
+- [ ] Klikk på `Bytt til vektorgrafikk` nederst til høyre på skjermen.
 
-[ ] Velg en godt synlig farge, for eksempel rød, og klikk på
+- [ ] Velg en godt synlig farge, for eksempel rød, og klikk på
   linje-verktøyet på høyre side av skjermen.
 
-[ ] Tegn en liten loddrett strek til høyre på figuren din. Hold gjerne
+- [ ] Tegn en liten loddrett strek til høyre på figuren din. Hold gjerne
   inne `Skift`-knappen, da får du en helt loddrett strek.
 
   ![](tegn_nett.png)
 
-[ ] Klikk på `Skript`{.blocklightgrey}-fanen.
+- [ ] Klikk på `Skript`{.blocklightgrey}-fanen.
 
-[ ] Vi skal nå tegne et sirkelformet nett ved å stemple denne figuren på
+- [ ] Vi skal nå tegne et sirkelformet nett ved å stemple denne figuren på
   bakgrunnen. Lag det følgende skriptet:
 
   ```blocks
@@ -217,13 +217,13 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-[ ] Tegnes det en sirkel på bakgrunnen når spillet starter?
+- [ ] Tegnes det en sirkel på bakgrunnen når spillet starter?
 
-[ ] Det kan hende du må flytte litt på katt- og nett-figuren for at de
+- [ ] Det kan hende du må flytte litt på katt- og nett-figuren for at de
   skal passe sammen. Vi vil at det skal se ut omtrent som på bildet i
   begynnelsen av denne oppgaven.
 
-[ ] Skjer det noe når ballen treffer nettet?
+- [ ] Skjer det noe når ballen treffer nettet?
 
 # Steg 5: Nettet fanger ballen {.activity}
 
@@ -234,10 +234,10 @@ __Klikk på det grønne flagget.__
 Foreløpig har vi ikke laget noe kode som forteller ballen at den har
 truffet nettet. Det skal vi gjøre nå.
 
-[ ] Klikk på ball-figuren, slik at du ser skriptet vi tidligere lagde
+- [ ] Klikk på ball-figuren, slik at du ser skriptet vi tidligere lagde
   for denne.
 
-[ ] Vi skal nå bruke `berører fargen`{.blocksensing}-klossen for å
+- [ ] Vi skal nå bruke `berører fargen`{.blocksensing}-klossen for å
   oppdage at ballen treffer nettet. Legg til nye klosser i skriptet
   ditt slik at det blir seende slik ut:
 
@@ -255,7 +255,7 @@ truffet nettet. Det skal vi gjøre nå.
   slutt
   ```
 
-[ ] For å få riktig farge i `berører fargen`{.blocksensing}-klossen
+- [ ] For å få riktig farge i `berører fargen`{.blocksensing}-klossen
   klikker du først på den lille firkanten hvor fargen vises. Deretter
   flytter du musepekeren slik at den peker på nettet. Da forandres
   fargen i den lille firkanten. Klikk igjen for å velge denne fargen.
@@ -264,9 +264,9 @@ truffet nettet. Det skal vi gjøre nå.
 
 __Klikk på det grønne flagget.__
 
-[ ] Stopper ballen når den kommer til nettet?
+- [ ] Stopper ballen når den kommer til nettet?
 
-[ ] Med `stopp alle`{.blockcontrol}-klossen stoppes hele spillet når
+- [ ] Med `stopp alle`{.blockcontrol}-klossen stoppes hele spillet når
   ballen treffer nettet. For å spille videre må du klikke det grønne
   flagget igjen.
 
@@ -312,7 +312,7 @@ Vi kan forenkle dette til
 (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
 ```
 
-[ ] Endre i skriptet til ballen slik at spretten blir bedre,
+- [ ] Endre i skriptet til ballen slik at spretten blir bedre,
 
   ```blocks
   når grønt flagg klikkes
@@ -332,9 +332,9 @@ Vi kan forenkle dette til
 
 __Klikk på det grønne flagget.__
 
-[ ] Ser du at ballen spretter litt mer naturlig nå?
+- [ ] Ser du at ballen spretter litt mer naturlig nå?
 
-[ ] Har du noen ideer til hvordan spillet kan bli enda bedre? Prøv dem
+- [ ] Har du noen ideer til hvordan spillet kan bli enda bedre? Prøv dem
   ut!
 
 ## Lagre og legg ut prosjektet {.save}
@@ -361,10 +361,10 @@ med venner og familie.
 For å telle poeng skal vi bruke noe som kalles en variabel. En
 variabel er et navn på en verdi som kan variere.
 
-[ ] Klikk på `Data`-kategorien og deretter på
+- [ ] Klikk på `Data`-kategorien og deretter på
   `Lag en Variabel`{.blocklightgrey}.
 
-[ ] Gi variabelen navnet `Poeng`{.blockdata}, og la den gjelde for
+- [ ] Gi variabelen navnet `Poeng`{.blockdata}, og la den gjelde for
   alle figurer. Legg merke til at når du klikker `OK` dukker det opp
   en boks som heter `Poeng`{.blockdata} på scenen, og flere nye
   klosser under `Lag en Variabel`{.blocklightgrey}.
@@ -372,7 +372,7 @@ variabel er et navn på en verdi som kan variere.
 Vi vil nå at `Poeng`{.blockdata} skal settes til `0` når spillet
 starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
 
-[ ] Legg på to nye klosser i skriptet som styrer ballen:
+- [ ] Legg på to nye klosser i skriptet som styrer ballen:
 
   ```blocks
   når grønt flagg klikkes
@@ -406,17 +406,17 @@ gå (3) steg
 Ved å endre på `3`-tallet endrer vi hastigheten på ballen. Prøv dette
 selv!
 
-[ ] For å endre hastigheten underveis i spillet trenger vi en variabel.
+- [ ] For å endre hastigheten underveis i spillet trenger vi en variabel.
   Lag en ny variabel som du kaller `Hastighet`{.blockdata}. Du kan
   la denne gjelde kun for denne figuren.
 
-[ ] Hastigheten er ikke så interessant å vise på scenen. Du kan skjule
+- [ ] Hastigheten er ikke så interessant å vise på scenen. Du kan skjule
   boksen på scenen ved å fjerne avhukingen ved siden av
   `Hastighet`{.blockdata}.
 
   ![](variabel.png)
 
-[ ] Vi vil nå sette hastigheten til `3` (du kan bruke et annet tall om
+- [ ] Vi vil nå sette hastigheten til `3` (du kan bruke et annet tall om
   du vil) når spillet starter. Deretter vil vi øke denne littegrann
   hver gang katten berører ballen. Dette gjør vi på samme måte som når
   vi teller poeng.
@@ -453,7 +453,7 @@ ballen ikke flytter seg langt nok etter at den har snudd. Den
 fortsetter å berøre katten og blir derfor snudd igjen ... og igjen
 ... og igjen.
 
-[ ] Vi skal nå lage nok en variabel. Denne skal hete
+- [ ] Vi skal nå lage nok en variabel. Denne skal hete
   `Flytt`{.blockdata}, kun gjelde for denne figuren, og heller ikke
   vises på scenen.
 
@@ -462,7 +462,7 @@ flytt ballen har gjort siden den sist berørte katten. Deretter kan vi
 si at ballen skal snu kun hvis den har flyttet mange ganger siden den
 sist snudde.
 
-[ ] Utvid skriptet ditt som under. Legg spesielt merke til at
+- [ ] Utvid skriptet ditt som under. Legg spesielt merke til at
   `hvis`{.blockcontrol}-testen har blitt utvidet.
 
   ```blocks
@@ -490,12 +490,12 @@ sist snudde.
 I disse ekstrastegene har vi sett på noen måter vi kan gjøre spillet
 bedre og mer spennende på. Her er enda flere ideer:
 
-[ ] Du kan bytte kattefiguren med en annen figur. Dette gjør du enklest
+- [ ] Du kan bytte kattefiguren med en annen figur. Dette gjør du enklest
   ved å gå til `Drakter`-fanen fordi da beholder du skriptet du
   allerede har laget på figuren. Her kan du velge en av de ferdige
   figurene eller tegne en ny figur selv.
 
-[ ] Prøv å legg på lyder, for eksempel når katten berører ballen eller
+- [ ] Prøv å legg på lyder, for eksempel når katten berører ballen eller
   når ballen treffer nettet. Se på de forskjellige klossene i
   `Lyder`{.blocksound}-kategorien, og lydene som finnes under
   `Lyder`-fanen.

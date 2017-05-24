@@ -54,11 +54,11 @@ lang den vannrette streken er i forhold til den skrå streken.
 
 ## Sjekkliste {.check}
 
-[ ] Start et nytt prosjekt. Slett kattefiguren.
+- [ ] Start et nytt prosjekt. Slett kattefiguren.
 
-[ ] Legg til en romskip-figur. Du kan gjerne bruke `Romfart/Spaceship`.
+- [ ] Legg til en romskip-figur. Du kan gjerne bruke `Romfart/Spaceship`.
 
-[ ] Lag romskipet ganske lite. Du kan for eksempel bruke
+- [ ] Lag romskipet ganske lite. Du kan for eksempel bruke
 
   ```blocks
   sett størrelse til (20) %
@@ -66,10 +66,10 @@ lang den vannrette streken er i forhold til den skrå streken.
 
   rett etter at det grønne flagget er klikket.
 
-[ ] Lag to nye variable, `fartX`{.blockdata} og `fartY`{.blockdata}
+- [ ] Lag to nye variable, `fartX`{.blockdata} og `fartY`{.blockdata}
   som gjelder kun for denne romskip-figuren.
 
-[ ] Vi lager først hovedløkken som lar romskipet falle, kun påvirket av
+- [ ] Vi lager først hovedløkken som lar romskipet falle, kun påvirket av
   tyngdekraften. Skriv denne koden:
 
   ```blocks
@@ -96,7 +96,7 @@ lang den vannrette streken er i forhold til den skrå streken.
   her vil romskipet falle raskere eller tregere, eller det kan til
   og med falle oppover om du lar tyngdekraften være positiv.
 
-[ ] Vi vil nå programmere kontrollen av romskipet. Først og fremst vil
+- [ ] Vi vil nå programmere kontrollen av romskipet. Først og fremst vil
   vi at romskipet vender seg når vi trykker på piltastene mot høyre og
   venstre.
 
@@ -105,7 +105,7 @@ lang den vannrette streken er i forhold til den skrå streken.
   romskipet for eksempel `5` grader mot høyre eller venstre avhengig
   av hvilken piltast som trykkes.
 
-[ ] Når pil opp-tasten trykkes vil vi at romskipet skal få litt ekstra
+- [ ] Når pil opp-tasten trykkes vil vi at romskipet skal få litt ekstra
   fart i den retningen romskipet peker. Som vi snakket om tidligere
   kan vi bruke de matematiske funksjonene sinus og cosinus for å få
   til dette. Legg også til denne blokken inne i
@@ -129,7 +129,7 @@ lang den vannrette streken er i forhold til den skrå streken.
   Scratch måles motsatt vei av hvordan man måler vinkler i
   matematikk.
 
-[ ] Prøv spillet ditt. Kan du styre romskipet rundt på skjermen? Dersom
+- [ ] Prøv spillet ditt. Kan du styre romskipet rundt på skjermen? Dersom
   du synes romskipet flyr for raskt eller sakte kan du justere
   `endre fart`{.blockdata}-klossene, for eksempel slik,
 
@@ -146,23 +146,23 @@ lang den vannrette streken er i forhold til den skrå streken.
 
 ## Sjekkliste {.check}
 
-[ ] Lag en ny bakgrunn, hvor du tegner et passende månelandskap. Gjør
+- [ ] Lag en ny bakgrunn, hvor du tegner et passende månelandskap. Gjør
   det så lett eller vanskelig som du selv vil. Tegn også inn en eller
   flere landingsplasser hvor romskipet skal lande. Vi vil bruke
   `berører fargen`{.blocksensing}-klosser for å sjekke landingen
   senere, så det enkleste er å bruke en farge for landskapet og en
   annen for landingsplassen.
 
-[ ] For at romskipet skal slutte å fly når det treffer bakken kan du
+- [ ] For at romskipet skal slutte å fly når det treffer bakken kan du
   bytte ut `for alltid`{.blockcontrol}-løkken med en
   `gjenta til`{.blockcontrol}-løkke hvor du tester på om romskipet
   `berører fargen`{.blocksensing} du har brukt på landskapet eller
   på landingsplassen.
 
-[ ] Legg også til en `send melding [Sjekk landing v]`{.b} rett etter
+- [ ] Legg også til en `send melding [Sjekk landing v]`{.b} rett etter
   `gjenta til`{.blockcontrol}-løkken.
 
-[ ] Prøv spillet ditt igjen. Du skal nå kunne fly rundt helt til
+- [ ] Prøv spillet ditt igjen. Du skal nå kunne fly rundt helt til
   romskipet kommer nær bakken.
 
 # Steg 3: Klar for landing {.activity}
@@ -171,7 +171,7 @@ lang den vannrette streken er i forhold til den skrå streken.
 
 ## Sjekkliste {.check}
 
-[ ] Når vi sjekker landingen til romskipet vil vi skille mellom tre
+- [ ] Når vi sjekker landingen til romskipet vil vi skille mellom tre
   forskjellige tilfeller:
 
   __1__: Romskipet landet utenfor landingsplassen (kræsjet).
@@ -189,7 +189,7 @@ lang den vannrette streken er i forhold til den skrå streken.
   `fartY`{.blockdata} er større enn `-1.5` og
   `retning`{.blockmotion} er mellom `80` og `100`.
 
-[ ] Finn en måte å fortelle spilleren hvordan romskipet landet. Det
+- [ ] Finn en måte å fortelle spilleren hvordan romskipet landet. Det
   enkleste er kanskje å bare bruke en `si`{.blocklooks}-kloss. Men du
   kan også bruke lydeffekter, forskjellige drakter eller kanskje en
   tekstplakat som dukker opp.
@@ -203,19 +203,19 @@ lang den vannrette streken er i forhold til den skrå streken.
 
 ## Ideer til videreutvikling {.check}
 
-[ ] Lag flere landingsplasser. Kanskje noen kan være vanskeligere enn
+- [ ] Lag flere landingsplasser. Kanskje noen kan være vanskeligere enn
   andre å lande på (enten på grunn av terrenget eller fordi selve
   landingsplassen er mindre).
 
-[ ] Lag flere bakgrunner eller brett. Du kan enten la spilleren velge
+- [ ] Lag flere bakgrunner eller brett. Du kan enten la spilleren velge
   seg en bakgrunn å spille på i begynnelsen av spillet, eller gå
   videre fra brett til brett etterhvert som spilleren klarer å lande.
 
-[ ] Du kan også bruke flere bakgrunner som et brett. Dersom romskipet
+- [ ] Du kan også bruke flere bakgrunner som et brett. Dersom romskipet
   flyr ut av skjermen på høyre side kan du la det dukke opp igjen på
   venstre side av en annen bakgrunn, og motsatt.
 
-[ ] Prøv å animere bruken av motoren. For eksempel, kan du lage en kopi
+- [ ] Prøv å animere bruken av motoren. For eksempel, kan du lage en kopi
   av den flyvende romskip-drakten, og endre den som følger. Klikk
   først på romskipet, og deretter på den nye knappen som dukker opp
   nederst i knapperekka (markert med rødt i figuren til
@@ -226,7 +226,7 @@ lang den vannrette streken er i forhold til den skrå streken.
 
   ![](animer_romskip.png)
 
-[ ] En av utfordringene i det originale Lunar Lander-spillet var at
+- [ ] En av utfordringene i det originale Lunar Lander-spillet var at
   spilleren bare hadde begrenset drivstoff tilgjengelig. Du kan legge
   til dette i ditt spill ved å lage en
   `Drivstoff`{.blockdata}-variabel som du lar bli stadig mindre
@@ -234,13 +234,13 @@ lang den vannrette streken er i forhold til den skrå streken.
   tomt for drivstoff kan du ignorere tastetrykkene fra spilleren og
   bare la romskipet sveve til det til slutt kræsjer.
 
-[ ] Du kan lage forskjellige bonusting som spilleren kan plukke opp. For
+- [ ] Du kan lage forskjellige bonusting som spilleren kan plukke opp. For
   å gjøre det litt utfordrende kan du la disse ligge på måneoverflaten
   slik at spilleren må manøvrere forsiktig for å få tak i
   dem. Eksempler på slike bonusting kan være ekstra drivstoff,
   bonuspoeng, større landingsplass og så videre.
 
-[ ] En større endring i spillet kan være at landingsplassen er skjult
+- [ ] En større endring i spillet kan være at landingsplassen er skjult
   under bakken når spillet begynner, og spilleren må grave denne frem
   ved å slippe bomber fra romskipet. Du kan implementere dette for
   eksempel ved bruk av noen av klossene under

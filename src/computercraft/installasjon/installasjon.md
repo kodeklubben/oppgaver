@@ -27,7 +27,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
 
 ## Sjekkliste {.check}
 
-[ ] Gå til
+- [ ] Gå til
   [computercraft.info/download](http://www.computercraft.info/download/).
   Bla nedover på siden til du finner et avsnitt som heter **Download
   and installing**. Last ned ComputerCraft til datamaskinen din, og
@@ -37,7 +37,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
 
   [![](last_ned_computercraft.png)](http://www.computercraft.info/download/)
 
-[ ] Start **Minecraft Launcher**. Sjekk om du har den riktige versjonen
+- [ ] Start **Minecraft Launcher**. Sjekk om du har den riktige versjonen
   av Minecraft tilgjengelig. Hvis ikke kan du velge `New Profile` og i
   nedtrekksmenyen `Use Version` velger du riktig versjon. Gi profilen
   et navn (for eksempel versjonsnummeret) og klikk `Save
@@ -46,7 +46,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
 
   ![](minecraft_versjon.png) <!-- Venstrejuster bildet -->
 
-[ ] Før vi kan legge inn ComputerCraft må vi installere **Minecraft
+- [ ] Før vi kan legge inn ComputerCraft må vi installere **Minecraft
   Forge**, som gir oss tilgang til å legge inn Mods. Gå til
   [files.minecraftforge.net](http://files.minecraftforge.net/) og velg
   den riktige Minecraft-versjonen i menyen som heter **Minecraft
@@ -62,13 +62,13 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
 
   [![](minecraft_forge_b.png)](http://files.minecraftforge.net/)
 
-[ ] Kjør filen som ble lastet ned ved å dobbelklikke på den (om du blir
+- [ ] Kjør filen som ble lastet ned ved å dobbelklikke på den (om du blir
   spurt hvordan den skal kjøres kan du velge Java eller JDK). Velg
   `Install client` og klikk `OK`.
 
   ![](installer_forge.png) <!-- Venstrejuster bildet -->
 
-[ ] Start **Minecraft Launcher**. Det har nå dukket opp en ny profil som
+- [ ] Start **Minecraft Launcher**. Det har nå dukket opp en ny profil som
   heter `Forge`. Velg denne og start spillet. Dette vil lage en
   `mods`-katalog i `Minecraft`-katalogen din. Du vil også se at det
   har dukket opp et nytt valg i hovedmenyen: `Mods`. Avslutt spillet
@@ -76,7 +76,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
 
   ![](start_forge.png) <!-- Venstrejuster bildet -->
 
-[ ] Finn `Minecraft`-katalogen din ved å starte **Minecraft
+- [ ] Finn `Minecraft`-katalogen din ved å starte **Minecraft
   Launcher**. Velg deretter `Edit Profile` og klikk knappen `Open Game
   Dir`. Dette åpner en filutforsker. Velg katalogen `mods`, og kopier
   **ComputerCraft**-filen vi lastet ned helt først inn i
@@ -84,7 +84,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
 
   ![](minecraft_katalog.png) <!-- Venstrejuster bildet -->
 
-[ ] Nå er vi ferdige. I **Minecraft Launcher** kan du nå velge
+- [ ] Nå er vi ferdige. I **Minecraft Launcher** kan du nå velge
   profilen `Forge` og klikke `Play`. Når du klikker `Mods` fra
   hovedmenyen skal du se at **ComputerCraft** er en av de tilgjengelige
   mods'ene.
@@ -114,17 +114,17 @@ et rolig og enkelt spill:
 
 ## Sjekkliste {.check}
 
-[ ] Velg `Singleplayer`, og klikk `Create New World`.
+- [ ] Velg `Singleplayer`, og klikk `Create New World`.
 
-[ ] Gi verdenen din et navn, og sett `Game Mode` til `Creative`. Klikk
+- [ ] Gi verdenen din et navn, og sett `Game Mode` til `Creative`. Klikk
   `Create New World`.
 
-[ ] Du kan nå lage din første datamaskin.  Trykk `E` for å gå til
+- [ ] Du kan nå lage din første datamaskin.  Trykk `E` for å gå til
   Inventory-listen. Øverst kan du nå velge å klikke `>` for å gå til
   neste side. Trykk deretter på datamaskin-symbolet (en grå
   kloss/skjerm), og gi deg selv en **Advanced Computer**.
 
-[ ] Sett ut en **Advanced Computer** ved å høyre-klikke. Høyre-klikk så
+- [ ] Sett ut en **Advanced Computer** ved å høyre-klikke. Høyre-klikk så
   en gang til på datamaskinen du nettopp satte ut. En svart skjerm
   skal dukke opp, med teksten `CraftOS` og et versjonsnummer i øverste
   linje. Skriv `help` og trykk **enter** for å komme igang.

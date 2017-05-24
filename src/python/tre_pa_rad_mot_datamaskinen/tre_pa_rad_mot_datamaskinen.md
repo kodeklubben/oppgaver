@@ -23,7 +23,7 @@ oss se på hva vi allerede har før vi begynner å skrive ny kode.
 
 ## Sjekkliste {.check}
 
-[ ] Åpne IDLE. Åpne filen fra forrige leksjon og lagre den med et nytt
+- [ ] Åpne IDLE. Åpne filen fra forrige leksjon og lagre den med et nytt
 navn. Eller om du ikke kan finne den filen kan du kopiere inn
 følgende:
 
@@ -101,11 +101,11 @@ følgende:
   mainloop()
   ```
 
-[ ] Lagre, og kjør programmet, slik at du er sikker på at det virker!
+- [ ] Lagre, og kjør programmet, slik at du er sikker på at det virker!
 
   Du skal kunne klikke i rutene for å plassere sirkler og kryss inntil noen får tre på rad.
 
-[ ] Før vi begynner med dagens kode vil vi gjøre en liten opprydning i koden for at vi enklere skal kunne lese hva som skjer i prosedyren `click`. Vi flytter koden som tegner sirkler og kryss til en egen prosedyre. Bytt prosedyren `click` ut med disse to prosedyrene:
+- [ ] Før vi begynner med dagens kode vil vi gjøre en liten opprydning i koden for at vi enklere skal kunne lese hva som skjer i prosedyren `click`. Vi flytter koden som tegner sirkler og kryss til en egen prosedyre. Bytt prosedyren `click` ut med disse to prosedyrene:
 
   ```python
   def click(event):
@@ -143,7 +143,7 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
 
 ## Sjekkliste {.check}
 
-[ ] Vi vil først lage en ny prosedyre, `free_squares`, som kan finne ledige ruter. Legg til denne koden nedenfor prosedyren `winner`, men over linjen `c.bind(...)`:
+- [ ] Vi vil først lage en ny prosedyre, `free_squares`, som kan finne ledige ruter. Legg til denne koden nedenfor prosedyren `winner`, men over linjen `c.bind(...)`:
 
   ```python
   def free_squares():
@@ -158,7 +158,7 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
 
   Kommandoen `enumerate` kan fortelle oss posisjonen til hvert element i `grid`-listen. For eksempel vil `enumerate` gjøre om en liste `['A','B','C']` til parene `(0, 'A'), (1,'B'), (2, 'C')` slik at vi ikke trenger å telle elementene selv.
 
-[ ] På toppen av filen vil vi importere `random`-biblioteket, som vi vil bruke for å tilfeldig velge et trekk
+- [ ] På toppen av filen vil vi importere `random`-biblioteket, som vi vil bruke for å tilfeldig velge et trekk
 
   ```python
   from tkinter import *
@@ -167,7 +167,7 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
 
   Du husker kanskje at vi brukte `random.choice` i en tidligere leksjon om Hangman.
 
-[ ] Nå skriver vi en prosedyre `play_move()` som kan spille i en tilfeldig tom rute. Legg til denne prosedyren etter `free_squares` men før linjnen `c.bind(...)`
+- [ ] Nå skriver vi en prosedyre `play_move()` som kan spille i en tilfeldig tom rute. Legg til denne prosedyren etter `free_squares` men før linjnen `c.bind(...)`
 
   ```python
   def play_move():
@@ -208,7 +208,7 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
   ```
   som vi allerede har brukt i `click`.
 
-[ ] Til slutt endrer vi `click`-prosedyren slik at den kaller `play_move`. På denne måten vil først spilleren gjøre sitt trekk, og deretter gjør datamaskinen sitt trekk.
+- [ ] Til slutt endrer vi `click`-prosedyren slik at den kaller `play_move`. På denne måten vil først spilleren gjøre sitt trekk, og deretter gjør datamaskinen sitt trekk.
 
   ```python
   def click(event):
@@ -233,7 +233,7 @@ Husk at vi har en variabel som heter `grid` som kan fortelle oss hvordan brettet
 
   Vi sjekker først om spilleren har vunnet, og hvis ikke lar vi datamaskinen gjøre sitt trekk.
 
-[ ] Lagre programmet og kjør det. Datamaskinen vil nå trekke etter deg. Den vil ikke spille spesielt bra siden den bare gjør tilfeldige trekk.
+- [ ] Lagre programmet og kjør det. Datamaskinen vil nå trekke etter deg. Den vil ikke spille spesielt bra siden den bare gjør tilfeldige trekk.
 
 # Steg 3: Velg et trekk som vinner {.activity}
 
@@ -241,7 +241,7 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
 
 ## Sjekkliste {.check}
 
-[ ] Endre prosedyren `winner` slik at den tar et argument `grid`:
+- [ ] Endre prosedyren `winner` slik at den tar et argument `grid`:
 
   ```python
   def winner(grid):
@@ -266,7 +266,7 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
   ```
   Du trenger bare å endre den første linjen i prosedyren. Dette betyr at `winner` vil bruke en liste vi sender til den, i stedet for `grid` som husker hvordan dette spillet ser ut. Dermed kan `winner` også undersøke trekk som ikke er blitt spilt enda.
 
-[ ] Nå må vi forandre `click` så den sender inn riktig liste.
+- [ ] Nå må vi forandre `click` så den sender inn riktig liste.
 
   ```python
   def click(event):
@@ -290,9 +290,9 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
   ```
   Alle steder vi har `winner()` i koden bytter vi det ut med `winner(grid)`.
 
-[ ] Kjør koden, den skal fortsatt virke akkurat som før for vi har enda ikke endret hvordan datamaskinen spiller.
+- [ ] Kjør koden, den skal fortsatt virke akkurat som før for vi har enda ikke endret hvordan datamaskinen spiller.
 
-[ ] La oss hjelpe datamaskinen ved å legge til noen linjer i `play_move` som kan lete etter vinnende trekk!
+- [ ] La oss hjelpe datamaskinen ved å legge til noen linjer i `play_move` som kan lete etter vinnende trekk!
 
   ```python
   def play_move():
@@ -316,7 +316,7 @@ Datamaskinen spiller nå tre på rad, men den er ikke spesielt flink. La oss hje
   For hver ledige rute lager vi en kopi av `grid`-listen med kommandoen `list(grid)`. Deretter plasserer vi en X i denne ledige ruten og bruker `winner` for å undersøke om dette vil være et vinnende trekk!
 
 
-[ ] Kjør programmet ditt og test det flere ganger. Datamaskinen skal ha blitt litt flinkere til å spille nå.
+- [ ] Kjør programmet ditt og test det flere ganger. Datamaskinen skal ha blitt litt flinkere til å spille nå.
 
 # Steg 4: Velg et trekk som blokkerer {.activity}
 
@@ -324,7 +324,7 @@ Den andre strategien vi vil lære datamaskinen er å blokkere trekk som gjør at
 
 ## Sjekkliste {.check}
 
-[ ] Legg til litt mer kode i `play_move` som blokkerer trekk som gjør at spilleren kan vinne.
+- [ ] Legg til litt mer kode i `play_move` som blokkerer trekk som gjør at spilleren kan vinne.
 
   ```python
   def play_move():
@@ -355,7 +355,7 @@ Den andre strategien vi vil lære datamaskinen er å blokkere trekk som gjør at
   ```
   Legg merke til at datamaskinen først plukker en tilfeldig ledig rute. Deretter sjekker den om den kan blokkere, og hvis den kan det så ombestemmer den seg. Til slutt sjekker den om den kan vinne, og dersom den kan det så ombestemmer den seg en gang til!
 
-[ ] Kjør koden og se om du klarer å vinne mot datamaskinen! Det har nå blitt mye vanskeligere.
+- [ ] Kjør koden og se om du klarer å vinne mot datamaskinen! Det har nå blitt mye vanskeligere.
 
 # Hele programmet {.activity}
 

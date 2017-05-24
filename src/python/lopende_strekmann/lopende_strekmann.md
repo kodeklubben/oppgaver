@@ -18,16 +18,16 @@ Begynn med å lage en fil som kan kjøres med Pygame Zero.
 
 ## Sjekkliste {.check}
 
-[ ] Lag en ny fil `run_stickman.py`.
+- [ ] Lag en ny fil `run_stickman.py`.
 
-[ ] Du starter med å bestemme hvor stort vindu vi skal bruke:
+- [ ] Du starter med å bestemme hvor stort vindu vi skal bruke:
 
   ```python
   WIDTH = 550
   HEIGHT = 250
   ```
 
-[ ] Lagre og kjør programmet med `pgzrun run_stickman.py`. Se til at du får opp et vindu.
+- [ ] Lagre og kjør programmet med `pgzrun run_stickman.py`. Se til at du får opp et vindu.
 
 
 # Steg 2: Hindringer {.activity}
@@ -37,7 +37,7 @@ Du skal nå lage boksene som strekmannen løper mot. Dette skal gjøres ved hjel
 
 ## Sjekkliste {.check}
 
-[ ] Klassen skal hete Box og skal ha egenskapene: `height`, `width`, `color`,
+- [ ] Klassen skal hete Box og skal ha egenskapene: `height`, `width`, `color`,
   `x`, `y` og en funkson som heter `draw()`:
 
   ```python
@@ -62,15 +62,15 @@ Du skal nå lage boksene som strekmannen løper mot. Dette skal gjøres ved hjel
   screen.draw.filled_rect( Rect(WIDTH-50, HEIGHT-50, 50, 50) , (0, 0, 255) )
   ```
 
-[ ] Opprett en boks ved å legge til denne linjen i koden:
+- [ ] Opprett en boks ved å legge til denne linjen i koden:
 
   ```python
   box = Box()
   ```
 
-[ ] Lagre og kjør programmet for å sjekke at du ikke får noen feilmeldinger.
+- [ ] Lagre og kjør programmet for å sjekke at du ikke får noen feilmeldinger.
 
-[ ] Hvis du vil se boksen i vinduet må du tegne den med:
+- [ ] Hvis du vil se boksen i vinduet må du tegne den med:
 
   ```python
   def draw():
@@ -84,14 +84,14 @@ Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 
 ## Sjekkliste {.check}
 
-[ ] Lag en strekmann (`stick_man`) fra klassen [`Actor`] som bruker bildet
+- [ ] Lag en strekmann (`stick_man`) fra klassen [`Actor`] som bruker bildet
   `running_man`.
 
   ```python
   stick_man = Actor('running_man')
   ```
 
-[ ] Sett posisjonen til strekmannens venstre bunn til å være `50, HEIGHT`.
+- [ ] Sett posisjonen til strekmannens venstre bunn til å være `50, HEIGHT`.
 
   ```python
   stick_man.bottomleft = 50, HEIGHT
@@ -101,7 +101,7 @@ Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 
   ![](running_man.png "Strekmann")
 
-[ ] Mappen din skal nå se ut som dette:
+- [ ] Mappen din skal nå se ut som dette:
 
   ![](mappestruktur.png "Mappestruktur")
 
@@ -122,7 +122,7 @@ gjør endringer i spillet før de tegnes med `draw()`.
 
 ## Sjekkliste {.check}
 
-[ ] Lag `draw()` med koden i blokken under. Forstår du hva koden gjør?
+- [ ] Lag `draw()` med koden i blokken under. Forstår du hva koden gjør?
 
   ```python
   def draw():
@@ -132,7 +132,7 @@ gjør endringer i spillet før de tegnes med `draw()`.
           box.draw()
   ```
 
-[ ] Du må nå lage `update()`. Du trenger følgende:
+- [ ] Du må nå lage `update()`. Du trenger følgende:
   - Få boksen til å flytte seg mot venstre.
   - Hvis boksen er ute av bildet på venstre side, flytt den til høyre side av
     vinduet.
@@ -189,7 +189,7 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
 
 ## Sjekkliste {.check}
 
-[ ] Lag funksjonen `on_key_down(key)`.
+- [ ] Lag funksjonen `on_key_down(key)`.
 
   ```python
   def on_key_down(key):
@@ -199,13 +199,13 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
   [`on_key_down()`] kjøres hver gang spilleren trykker på en tast. Hvilken
   tast som trykkes sendes til funksjonen som `key`.
 
-[ ] Lag en `if`-setning som sjekker at det er tasten "space" (`keys.SPACE`) som
+- [ ] Lag en `if`-setning som sjekker at det er tasten "space" (`keys.SPACE`) som
   trykkes.
 
-[ ] Sjekk i samme `if`-setning om strekmannen er på bakken, det skal kun være lov
+- [ ] Sjekk i samme `if`-setning om strekmannen er på bakken, det skal kun være lov
   å hoppe da.
 
-[ ] For å få strekmannen til å hoppe, bruk [`animate()`]:
+- [ ] For å få strekmannen til å hoppe, bruk [`animate()`]:
 
   ```python
   jump_up = animate(stick_man, 'decelerate', duration=0.4, bottom=(HEIGHT - box.height*1.5))
@@ -221,9 +221,9 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
     1,5 gang av høyden til boksen.
   - Animasjonen gis navnet `jump_up`.
 
-[ ] Prøv programmet. Hopper strekmannen?
+- [ ] Prøv programmet. Hopper strekmannen?
 
-[ ] Vi trenger nå en animasjon som gjør at strekmannen kommer ned til bakken
+- [ ] Vi trenger nå en animasjon som gjør at strekmannen kommer ned til bakken
   igjen. Lag funksjonen `back_down()`:
 
   ```python
@@ -233,7 +233,7 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
 
   Forstår du hva koden skal animere?
 
-[ ] Sett verdien `jump_up.on_finished` til `back_down`. `back_down()` vil da kjøres
+- [ ] Sett verdien `jump_up.on_finished` til `back_down`. `back_down()` vil da kjøres
   når opp-animasjonen er ferdig:
 
   ```python
@@ -268,11 +268,11 @@ truffet av boksen.
 
 ## Sjekkliste {.check}
 
-[ ] Lag en variabel som heter `SCORE` og gi den verdien `0`.
+- [ ] Lag en variabel som heter `SCORE` og gi den verdien `0`.
 
-[ ] Lag variabelen `stick_man.hit` og gi den verdien `False`.
+- [ ] Lag variabelen `stick_man.hit` og gi den verdien `False`.
 
-[ ] Inne i `update()`, bestem at av du skal bruke den globale variablen `SCORE`:
+- [ ] Inne i `update()`, bestem at av du skal bruke den globale variablen `SCORE`:
 
   ```python
   def update():
@@ -280,14 +280,14 @@ truffet av boksen.
       # resten av din kode
   ```
 
-[ ] Hvis strekmannen blir truffet, sett `SCORE = 0` og `stick_man.hit = True`.
+- [ ] Hvis strekmannen blir truffet, sett `SCORE = 0` og `stick_man.hit = True`.
 
-[ ] Øk poengsummen med 10 poeng hvis boksen er ute av bildet og strekmannen ikke
+- [ ] Øk poengsummen med 10 poeng hvis boksen er ute av bildet og strekmannen ikke
   er truffet.
 
-[ ] Før boksen flyttes til høyre side, nullstill `stick_man.hit` til `False`.
+- [ ] Før boksen flyttes til høyre side, nullstill `stick_man.hit` til `False`.
 
-[ ] Tegn poengsummen på skjermen inni `draw()`:
+- [ ] Tegn poengsummen på skjermen inni `draw()`:
 
   ```python
   screen.draw.text("Poeng: " + str(SCORE), (400, 30), color = (0, 0, 0))
@@ -299,25 +299,25 @@ truffet av boksen.
 
 ## Utfordringer: {.challenge}
 
-[ ] Endre hastigheten på boksen.
+- [ ] Endre hastigheten på boksen.
 
-[ ] Endre høyden på hoppet.
+- [ ] Endre høyden på hoppet.
 
-[ ] Endre hvor lang tid et hopp tar.
+- [ ] Endre hvor lang tid et hopp tar.
 
-[ ] Finn en kombinasjon av boksens hastighet og strekmannens hopp slik at spillet
+- [ ] Finn en kombinasjon av boksens hastighet og strekmannens hopp slik at spillet
   er akkurat passe vanskelig.
 
-[ ] Øk hastigheten på boksen når man har fått 100 poeng.
+- [ ] Øk hastigheten på boksen når man har fått 100 poeng.
 
-[ ] Øk poengsummen med 20 når man har fått 100 poeng.
+- [ ] Øk poengsummen med 20 når man har fått 100 poeng.
 
-[ ] Gi boksen forskjellig høyde for hver gang.
+- [ ] Gi boksen forskjellig høyde for hver gang.
 
-[ ] Gi boksen forskjellig bredde for hver gang.
+- [ ] Gi boksen forskjellig bredde for hver gang.
 
-[ ] Send flere bokser inn på skjermen samtidig.
+- [ ] Send flere bokser inn på skjermen samtidig.
 
-[ ] Send flere bokser med ulik hastighet inn på skjermen samtidig.
+- [ ] Send flere bokser med ulik hastighet inn på skjermen samtidig.
 
-[ ] Dine egne ideer?
+- [ ] Dine egne ideer?

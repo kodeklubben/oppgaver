@@ -17,7 +17,7 @@ Et prosjekt er enkelt sagt en mappe med innhold/oppsett tilpasset typen app en s
 
 ## Sjekkliste {.check}
 
-[ ] Lag et nytt Java-prosjekt ved å velge `File > New > Java Project` (altså `New > Java Project` fra `File`-menyen). Du vil da få opp et skjema hvor du bl.a. kan fylle inn navnet på prosjektet. Skriv `kodeklubben` eller et annet passende navn. Merk at du bør holde deg til de engelske bokstavene a-z og A-Z, ellers får du lett problemer siden. De andre innstillingene lar du være.
+- [ ] Lag et nytt Java-prosjekt ved å velge `File > New > Java Project` (altså `New > Java Project` fra `File`-menyen). Du vil da få opp et skjema hvor du bl.a. kan fylle inn navnet på prosjektet. Skriv `kodeklubben` eller et annet passende navn. Merk at du bør holde deg til de engelske bokstavene a-z og A-Z, ellers får du lett problemer siden. De andre innstillingene lar du være.
 
   ![](new-java-project.png "Skjema for New Java Project")
 
@@ -25,7 +25,7 @@ Et prosjekt er enkelt sagt en mappe med innhold/oppsett tilpasset typen app en s
 
   ![](etter-new-java-project.png "Etter New Java Project")
 
-[ ] Lag en ny Java-_mappe_ for app-en i denne leksjonen. Java kaller slike mapper for _pakker_, men du kan tenke på dem som mapper. Pass først på at du har valgt (klikket på) riktig Java-prosjekt i `Package Exporer`-panelet. Velg så  `File > New > Package` eller ikonet som ser ut som en pakke med et pluss-tegn i hjørnet. Alternativt kan du høyre-klikke på src-mappa og velge `New > Package`.
+- [ ] Lag en ny Java-_mappe_ for app-en i denne leksjonen. Java kaller slike mapper for _pakker_, men du kan tenke på dem som mapper. Pass først på at du har valgt (klikket på) riktig Java-prosjekt i `Package Exporer`-panelet. Velg så  `File > New > Package` eller ikonet som ser ut som en pakke med et pluss-tegn i hjørnet. Alternativt kan du høyre-klikke på src-mappa og velge `New > Package`.
 
   Du vil da få opp et skjema hvor du kan skrive inn hvilken kode-mappe (`Source Folder`) som pakken skal puttes i og pakke-navnet. Kode-mappen skal være `kodeklubben/src` (eller prosjektnavnet du skrev inn tidligere etterfulgt av `/src`. Pakkenavn inneholder som regel bare små bokstaver, altså bokstaven a-z. Derfor kan du kalle mappa `helloworld`.
 
@@ -35,7 +35,7 @@ Et prosjekt er enkelt sagt en mappe med innhold/oppsett tilpasset typen app en s
 
   ![](etter-new-java-package.png "Etter New Java Package")
 
-[ ] Lag en ny Java-klasse (Java-filer kalles _klasser_) ved å høyre-klikke på `helloworld`-pakka du nettopp lagde og velge `New > Class`.
+- [ ] Lag en ny Java-klasse (Java-filer kalles _klasser_) ved å høyre-klikke på `helloworld`-pakka du nettopp lagde og velge `New > Class`.
 
   ![](new-java-class-menuitem.png "Meny for New Java Class")
 
@@ -55,13 +55,13 @@ En Hello World-app er ment å være den enkleste app-en en kan tenke seg som vis
 
 En slik app må inneholde følgende elementer:
 
-[ ] Den må bygge på `Application`-klassen (i pakken `javafx.application`) ved at du skriver `extends Application` i klassedefinisjonen. Uten det, er klassen rett og slett ikke en app-klasse.
+- [ ] Den må bygge på `Application`-klassen (i pakken `javafx.application`) ved at du skriver `extends Application` i klassedefinisjonen. Uten det, er klassen rett og slett ikke en app-klasse.
 
-[ ] Den **må** inneholde en metode (Java-funksjoner kalles _metoder_) kalt `start` som lager og putter skjermbilde-elementene inn i app-vinduet (som den får som argument).
+- [ ] Den **må** inneholde en metode (Java-funksjoner kalles _metoder_) kalt `start` som lager og putter skjermbilde-elementene inn i app-vinduet (som den får som argument).
 
-[ ] Den _kan_ inneholde en `init`-metode som typisk brukes for å initialisere variabler i app-en. Koden under har ikke en slik metode.
+- [ ] Den _kan_ inneholde en `init`-metode som typisk brukes for å initialisere variabler i app-en. Koden under har ikke en slik metode.
 
-[ ] Oppstartsfunksjonen `main`, som kjøres når klassen din startes som et program, må kalle `launch`-metoden med klassen din som argument. Når du kjører koden vil følgende skje:
+- [ ] Oppstartsfunksjonen `main`, som kjøres når klassen din startes som et program, må kalle `launch`-metoden med klassen din som argument. Når du kjører koden vil følgende skje:
 
   * App-en din vil bli laget. App-en vil være et **HelloWorldApp**-`objekt`, også kalt en _instans_ av **HelloWorldApp**-klassen.
   * `init`-metoden vil bli kalt (hvis du har en, og det har ikke koden vår)
@@ -124,13 +124,13 @@ public class HelloWorldApp extends Application {
 
 ## Sjekkliste {.check}
 
-[ ] Skriv inn koden over, ved å kopiere og lime inn linjene i din egen **HelloWorldApp.java**-fil. Legg merke til at ulike ord får ulik farge. Innebygde Java-nøkkelord som `package`, `class`, `extends` og `new` blir lilla, variabler er brune, tekst-verdier er blå osv. Dette hjelper oss å skjønne hvordan Eclipse har forstått koden. Hvis mye av koden plutselig blir blå, så har vi kanskje glemt en " som avslutter en tekst-verdi.
+- [ ] Skriv inn koden over, ved å kopiere og lime inn linjene i din egen **HelloWorldApp.java**-fil. Legg merke til at ulike ord får ulik farge. Innebygde Java-nøkkelord som `package`, `class`, `extends` og `new` blir lilla, variabler er brune, tekst-verdier er blå osv. Dette hjelper oss å skjønne hvordan Eclipse har forstått koden. Hvis mye av koden plutselig blir blå, så har vi kanskje glemt en " som avslutter en tekst-verdi.
 
-[ ] Kjør koden ved å høyreklikke på fila eller i editoren og velge `Run as > Java Application`. Du skal da få opp følgende vindu:
+- [ ] Kjør koden ved å høyreklikke på fila eller i editoren og velge `Run as > Java Application`. Du skal da få opp følgende vindu:
 
   ![](hello-world-app.png "Hello World-appen")
 
-[ ] Lek litt med koden over. Prøv f.eks. å endre verdiene som styrer teksten (`new Text(...)`), plassering (`setLayoutX(...)` og `setLayoutY(...)`), skriftstypen (`Font.font(...)`), og vindusstørrelsen (`setPrefWidth(...)` og `setPrefHeight(...)`):
+- [ ] Lek litt med koden over. Prøv f.eks. å endre verdiene som styrer teksten (`new Text(...)`), plassering (`setLayoutX(...)` og `setLayoutY(...)`), skriftstypen (`Font.font(...)`), og vindusstørrelsen (`setPrefWidth(...)` og `setPrefHeight(...)`):
 
   * Skriv inn en annen tekst, f.eks. navnet ditt.
   * Endre posisjonen slik at teksten kommer lenger ned og til høyre ved å øke `layoutX`- og `layoutY`-verdiene.
@@ -138,7 +138,7 @@ public class HelloWorldApp extends Application {
   * Velg en kjempestor font og skriv en laaaaang tekst. Øk vindusstørrelsen så hele teksten fortsatt vises.
   * Deklarer en variabel **windowHeight** med `int windowHeight = ...;` (bytt ut ... med et tall) og prøv å lage en formel som beregner y-posisjonen du setter med `setLayoutX(...)`, slik at teksten havner pent i bunnen av vinduet.
 
-[ ] Legg merke til at det er ulike måter å sette ulike verdier på:
+- [ ] Legg merke til at det er ulike måter å sette ulike verdier på:
 
   * Teksten settes direkte når en lager **Text**-objektet med `new Text(...)`
   * De fleste verdier settes med egen metoder som begynner med `set`
@@ -148,13 +148,13 @@ public class HelloWorldApp extends Application {
 
 Eclipse inneholder mange nyttige funksjoner for å gjøre koding mer effektivt. Eclipse kjenner til alt Java har av muligheter, og kan både _foreslå_ kode du kan skrive og _rette_ enkle feil i koden.
 
-[ ] Eclipse holder rede på hvilke navn (på variabler, klasser og pakker) som gjelder hvor og kan foreslå alternativer basert på hva du har skrevet inn. Lag en ny linje under der skriftstypen settes med `setFont(...)`. Skriv inn begynnelsen på variablen for Text-objektet f.eks. `hello`. Så holder du nede ctrl-tasten og trykker mellomrom. Eclipse vil da vise en liste over alle navn som begynner med **hello**:
+- [ ] Eclipse holder rede på hvilke navn (på variabler, klasser og pakker) som gjelder hvor og kan foreslå alternativer basert på hva du har skrevet inn. Lag en ny linje under der skriftstypen settes med `setFont(...)`. Skriv inn begynnelsen på variablen for Text-objektet f.eks. `hello`. Så holder du nede ctrl-tasten og trykker mellomrom. Eclipse vil da vise en liste over alle navn som begynner med **hello**:
 
   ![](code-completion1.png "Komplettering av navn")
 
 Her ser du at Eclipse foreslår et variabelnavn (**helloWorldText**), et pakkenavn (**helloworld**) og et klassenavn (**HelloWorldApp**). Hvis du velger **helloWorldText**, så legges denne teksten inn. Denne funksjonen kalles _kode-komplettering_ (eng: _code completion_) og gjør det bl.a. greit å bruke lange navn på variabler, klasser og pakker.
 
-[ ] Eclipse vet hvilke verdier du kan sette for ulike typer grafiske objekter og kan hjelpe deg å skrive (og lære) dem. Skriv et punktum (`.`) etter **helloWorldText**-navnet. Eclipse vil automatisk aktivere kode-kompletteringsfunksjonen og vise en liste over alle metodene til **Text**-objektet. Hvis du skriver inn `setF` så vil Eclipse begrense lista til metodene som begynner med nettopp **setF**:
+- [ ] Eclipse vet hvilke verdier du kan sette for ulike typer grafiske objekter og kan hjelpe deg å skrive (og lære) dem. Skriv et punktum (`.`) etter **helloWorldText**-navnet. Eclipse vil automatisk aktivere kode-kompletteringsfunksjonen og vise en liste over alle metodene til **Text**-objektet. Hvis du skriver inn `setF` så vil Eclipse begrense lista til metodene som begynner med nettopp **setF**:
 
   ![](code-completion2.png "Komplettering av metodenavn")
 
@@ -162,7 +162,7 @@ Der finner du bl.a. **setFill** og **setFont**. **fill** og **font** kalles _ege
 
 Argument-typen viser hva slags verdi du må gi inn. F.eks. tar **setFill** et argument av typen **Paint** (egentlig **javafx.scene.paint.Paint**). Velg setFill fra lista og skriv inn `Color.BLUE`. Igjen ser du at Eclipse foreslår navn tilsvarende det du har skrevet.
 
-[ ] Kjør app-en din igjen, så ser du effekten av kallet til setFill-metoden.
+- [ ] Kjør app-en din igjen, så ser du effekten av kallet til setFill-metoden.
 
 # Hva har du lært?
 

@@ -41,17 +41,17 @@ hvordan de skal bevege seg, hvor mange det er plass til, etc.
 
 Tenk for eksempel på
 
-[ ] Hvordan man vinner spillet?
+- [ ] Hvordan man vinner spillet?
 
-[ ] Hvordan man får poeng?
+- [ ] Hvordan man får poeng?
 
-[ ] Hvor mange spillere kan spille?
+- [ ] Hvor mange spillere kan spille?
 
-[ ] Skal det være nedtelling?
+- [ ] Skal det være nedtelling?
 
-[ ] Hvordan styres spillet? Med tastene eller med museknappen?
+- [ ] Hvordan styres spillet? Med tastene eller med museknappen?
 
-[ ] Skal det være lydeffekter? Hvilke?
+- [ ] Skal det være lydeffekter? Hvilke?
 
 Skriv ned tankene dine!
 
@@ -62,8 +62,8 @@ skriptene dine.
 
 ## Ting å huske: {.check}
 
-[ ] Du kan alltid se tilbake til de spillene du allerede har laget.
+- [ ] Du kan alltid se tilbake til de spillene du allerede har laget.
 
-[ ] Husk å teste og lagre fortløpende.
+- [ ] Husk å teste og lagre fortløpende.
 
-[ ] Vær kreativ!
+- [ ] Vær kreativ!

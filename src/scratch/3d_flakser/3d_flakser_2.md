@@ -25,7 +25,7 @@ vi kaller `bakken`.
 
 ## Sjekkliste {.check}
 
-[ ] Lag en ny figur som heter `bakken`. Tegn en drakt til den. Det
+- [ ] Lag en ny figur som heter `bakken`. Tegn en drakt til den. Det
   enkleste er å bare fylle den nederste tredjeparten av tegneområdet
   med grønt. Vi starter med å gi den følgende skript
 
@@ -38,7 +38,7 @@ vi kaller `bakken`.
   Nå bør bakken ligge nederst i scenen når spillet begynner. Hvis
   den ikke gjør det kan du endre litt på tallene.
 
-[ ] Nå vil vi at bakken skal følge med Flakse, det vil si: når Flakse er
+- [ ] Nå vil vi at bakken skal følge med Flakse, det vil si: når Flakse er
   høyt oppe (`y`{.blockdata} er stor) så skal bakken gå nedover, og
   når Flakse er langt nede så er bakken tilsvarende høyt oppe. Hvis
   Flakse berører bakken skal spilleren tape. Vi legger til følgende
@@ -54,7 +54,7 @@ vi kaller `bakken`.
   slutt
   ```
 
-[ ] Til slutt så vil vi helst at bakken skal forsvinne når Flakse flyr
+- [ ] Til slutt så vil vi helst at bakken skal forsvinne når Flakse flyr
   veldig høyt. Det kan vi gjøre med `skjul`{.blocklooks} og
   `vis`{.blocklooks} kommandoene, slik
 
@@ -77,11 +77,11 @@ den flakser med vingene når vi trykker mellomromtasten.
 
 ## Sjekkliste {.check}
 
-[ ] For å holde styr på hvor mange ganger spilleren har trykket på
+- [ ] For å holde styr på hvor mange ganger spilleren har trykket på
   mellomrom så lager vi en variabel `flaks`{.blockdata} som gjelder
   kun for flakse-figuren.
 
-[ ] Vi må slette testene som sjekker om `pil opp`eller `pil ned` tastene
+- [ ] Vi må slette testene som sjekker om `pil opp`eller `pil ned` tastene
   trykkes og erstatte dem med
 
   ```blocks
@@ -95,14 +95,14 @@ den flakser med vingene når vi trykker mellomromtasten.
   mellomrom trykkes. Vi lager et nytt skript hos Flakse som tar seg
   av flaksingen.
 
-[ ] Lag en ny variabel. Kall den `løft`{.blockdata}, og la den gjelde
+- [ ] Lag en ny variabel. Kall den `løft`{.blockdata}, og la den gjelde
   kun for denne figuren. Denne variabelen skal fortelle oss hvor fort
   flakse skal flyttes opp eller ned.
 
-[ ] Legg inn en `sett løft til 0`{.blockdata}-kloss et sted før spillet
+- [ ] Legg inn en `sett løft til 0`{.blockdata}-kloss et sted før spillet
   starter.
 
-[ ] Sett inn disse klossene først i hovedløkken til Flakse:
+- [ ] Sett inn disse klossene først i hovedløkken til Flakse:
 
   ```blocks
   endre [y v] med (løft)
@@ -111,7 +111,7 @@ den flakser med vingene når vi trykker mellomromtasten.
   slutt
   ```
 
-[ ] Til slutt lager vi et nytt skript hos Flakse slik:
+- [ ] Til slutt lager vi et nytt skript hos Flakse slik:
 
   ```blocks
   når jeg mottar [Nytt spill v]
@@ -145,12 +145,12 @@ Dette får vi til ved å endre litt på hovedskriptet til flakse.
 
 ## Sjekkliste {.check}
 
-[ ] Legg til klossene `pek i retning 135`{.blockmotion} og `pek i
+- [ ] Legg til klossene `pek i retning 135`{.blockmotion} og `pek i
   retning 45`{.blockmotion} i testene som sjekker om henholdsvis høyre
   og venstre piltast trykkes. Prøv spillet. Peker figuren i riktig
   retning?
 
-[ ] Nå vil vi at figuren skal rotere tilbake til vannrett når piltastene
+- [ ] Nå vil vi at figuren skal rotere tilbake til vannrett når piltastene
   ikke trykkes lenger. Det kan vi enkelt få til ved å legge til disse
   klossene under testene som sjekker om piltastene trykkes.
 
@@ -176,7 +176,7 @@ ring-figuren.
 
 ## Sjekkliste {.check}
 
-[ ] Vi begynner med å sjekke om Flakse berører den ringen som ligger
+- [ ] Vi begynner med å sjekke om Flakse berører den ringen som ligger
   nærmest. Husk at det er `distanse`{.blockdata} variablen til
   ringen som forteller oss hvor nærme ringen er. Så vi må hele tiden
   sjekke om Flakse berører ringen, *og* om ringen faktisk er nærme. Du
@@ -193,7 +193,7 @@ ring-figuren.
   vil kan du kode noe annen oppførsel når man treffer en ring
   (kanskje man bare mister et liv, eller det spilles en lyd?)
 
-[ ] Så ønsker vi å få poeng når vi fly gjennom ringene. Lag først en
+- [ ] Så ønsker vi å få poeng når vi fly gjennom ringene. Lag først en
   variabel `poeng`{.blockdata} som gjelder for alle figurene. Nå må vi
   sjekke at variablene `x`{.blockdata} og `y`{.blockdata}, som sier
   hvor flakse-figuren er, ikke er altfor langt unna
@@ -217,10 +217,10 @@ fremdeles masse spennende igjen du kan prøve:
 
 # Ting å prøve {.try}
 
-[ ] Lag en meny.
+- [ ] Lag en meny.
 
-[ ] Få ringene til å komme fortere mot deg etterhvert som du får flere
+- [ ] Få ringene til å komme fortere mot deg etterhvert som du får flere
   poeng.
 
-[ ] Gi Flakse flere drakter å det ser ut som han flyr når han skifter
+- [ ] Gi Flakse flere drakter å det ser ut som han flyr når han skifter
   drakt.

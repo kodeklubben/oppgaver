@@ -14,14 +14,14 @@ tilbake](../enkle_objekter/enkle_objekter.html) og raskt repetere.
 
 # Steg 1: Høyde og bredde {.activity}
 
-[ ] Lag et nytt python-program med følgende kode:
+- [ ] Lag et nytt python-program med følgende kode:
 
 ```python
 HEIGHT = 400
 WIDTH = 600
 ```
 
-[ ] Kjør programmet, og se hva som skjer. Du skal nå se et svart vindu som er 400
+- [ ] Kjør programmet, og se hva som skjer. Du skal nå se et svart vindu som er 400
 piksler høyt, og 600 piksler bredt.
 
 En **piksel** er et lyspunkt på skjermen og nøyaktig hvor stort dette
@@ -30,7 +30,7 @@ vinduet får ulik størrelse på andre datamaskiner enn din egen.
 
 # Steg 2: Lag en ball! {.activity}
 
-[ ] Vi skal nå lage en ball som vi kan vise på skjermen. Vi begynner med å lage en
+- [ ] Vi skal nå lage en ball som vi kan vise på skjermen. Vi begynner med å lage en
 `Ball`-klasse, som har variablene `radius` og `color`, samt en posisjon
 bestående av `x` og `y`.
 
@@ -54,7 +54,7 @@ Vi har her valgt å ha en rød ball, men du kan velge en annen farge fra
 `COLORS`-ordboka om du vil det. Husk at `//` betyr 'heltallsdivisjon', dvs at
 svaret rundes av nedover, slik at vi får et helt tall som svar.
 
-[ ] Vi må i tillegg ha en funksjon som kan tegne ballen vår. Denne skal vi kalle
+- [ ] Vi må i tillegg ha en funksjon som kan tegne ballen vår. Denne skal vi kalle
 for `draw()`. Husk på at funksjonene som skal være en del av klassen må ha et
 innrykk. Vi må dermed endre på klassen, slik at den ser slik ut:
 
@@ -91,10 +91,10 @@ vinduet.
 
 # Steg 3: Bevegelse {.activity}
 
-[ ] Vi vil at ballen vår skal bevege seg. Hvordan skal vi få til dette? Vi lager
+- [ ] Vi vil at ballen vår skal bevege seg. Hvordan skal vi få til dette? Vi lager
 funksjonen `update()`.
 
-[ ] Først må vi legge til et par variabler som bestemmer farten på ballen. Vi skal
+- [ ] Først må vi legge til et par variabler som bestemmer farten på ballen. Vi skal
 her ha en variabel for farten i y-retning, og en variabel for farten i
 x-retning.
 
@@ -108,7 +108,7 @@ class Ball:
     speed_y = 3
 ```
 
-[ ] Så må vi lage en en funksjon `update()` som er en del av `Ball`. Denne sørger
+- [ ] Så må vi lage en en funksjon `update()` som er en del av `Ball`. Denne sørger
 for at ballen beveger seg `speed_x` piksler i x-retningen, og `speed_y` i
 y-retningen.
 
@@ -122,7 +122,7 @@ class Ball:
         self.y += self.speed_y
 ```
 
-[ ] I tillegg må vi ha en global funksjon `update()` som kaller `ball1.update()`:
+- [ ] I tillegg må vi ha en global funksjon `update()` som kaller `ball1.update()`:
 
 ```python
 def update():
@@ -147,7 +147,7 @@ til når vi skal oppdage om ballen treffer veggen. Når ballen treffer den
 det samme gjelder for farten i x-retning når vi treffer høyre eller venstre
 vegg.
 
-[ ] Vi må endre `update()`-funksjonen i `Ball`-klassen:
+- [ ] Vi må endre `update()`-funksjonen i `Ball`-klassen:
 
 ```python
 class Ball:
@@ -179,7 +179,7 @@ nedover), det motsatte skal skje om brukeren trykker 'Pil ned'. Det samme skal
 skje om brukeren trykker på 'Pil høyre' eller 'Pil venstre', men da skal
 fartsendringa skje i x-retning.
 
-[ ] For å få til dette skal vi lage en `on_key_down()`-funksjon i `Ball`-klassen:
+- [ ] For å få til dette skal vi lage en `on_key_down()`-funksjon i `Ball`-klassen:
 
 ```python
 class Ball:
@@ -199,7 +199,7 @@ class Ball:
 Legg merke til at funksjonen har et parameter, `key`, som brukes til å avgjøre
 hvilken tast brukeren trykket på.
 
-[ ] Vi trenger også en global `on_key_down()`-funksjon. Denne har også en
+- [ ] Vi trenger også en global `on_key_down()`-funksjon. Denne har også en
 `key`-parameter, som sendes videre til `ball1.on_key_down()`.
 
 ```python

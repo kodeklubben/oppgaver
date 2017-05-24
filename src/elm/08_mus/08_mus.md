@@ -51,8 +51,8 @@ view model =
 ```
 
 Endre tallene `10` og `20` som inngår i verdien `p`.
-[ ] Hva gjør det første tallet?
-[ ] Hva gjør det andre tallet?
+- [ ] Hva gjør det første tallet?
+- [ ] Hva gjør det andre tallet?
 
 # Steg 2: Bruke `Html.program` {.activity}
 
@@ -133,7 +133,7 @@ update msg model =
 
 
 subscriptions model =
-  Sub.batch [ ]
+  Sub.batch - [ ]
 ```
 
 # Steg 3: Koble på musen {.activity}
@@ -199,10 +199,10 @@ subscriptions model =
 
 Her er det noe rart! Ballen er ikke samme sted som pekeren. Hvorfor?
 
-[ ] Prøv å endre viewboxen i SVG:
+- [ ] Prøv å endre viewboxen i SVG:
 
   ```elm
   [ width "500", height "500", viewBox "0 0 200 200" ]
   ```
 
-[ ] Hvordan henger dette sammen?
+- [ ] Hvordan henger dette sammen?

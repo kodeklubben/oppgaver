@@ -22,14 +22,14 @@ gangetabellen.
 
 ## Sjekkliste {.check}
 
-[ ] Start et nytt prosjekt og slett kattefiguren.
+- [ ] Start et nytt prosjekt og slett kattefiguren.
 
-[ ] Legg til en ny figur ved å klikke på
+- [ ] Legg til en ny figur ved å klikke på
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
   en av _Wizard_-figurene nesten nederst i `Mennesker`-kategorien.
   Kall figuren `Læremester`.
 
-[ ] Vi skal nå bruke `tilfeldig tall`{.blockoperators}-klosser slik at
+- [ ] Vi skal nå bruke `tilfeldig tall`{.blockoperators}-klosser slik at
   `Læremester` kan spørre oss om tilfeldige gangestykker. Skriv dette
   skriptet:
 
@@ -44,12 +44,12 @@ gangetabellen.
 
 __Klikk på det grønne flagget.__
 
-[ ] Stiller `Læremester` deg et gangestykke?
+- [ ] Stiller `Læremester` deg et gangestykke?
 
-[ ] Vi skal etterhvert se hvordan vi kan få `Læremester` til å si hele
+- [ ] Vi skal etterhvert se hvordan vi kan få `Læremester` til å si hele
   teksten, i stedet for bare et ord om gangen.
 
-[ ] Foreløpig kan du ikke svare `Læremester` (ihvertfall ikke med
+- [ ] Foreløpig kan du ikke svare `Læremester` (ihvertfall ikke med
   datamaskinen, prøv gjerne å regne ut svaret og si det til dem som
   sitter ved siden av deg).
 
@@ -62,7 +62,7 @@ sammen tall.
 
 ## Sjekkliste {.check}
 
-[ ] For å få Scratch til å regne bruker vi
+- [ ] For å få Scratch til å regne bruker vi
   `Operatorer`{.blockoperators}-klosser. Prøv for eksempel å dra
   gangeklossen - med `*`{.blockoperators}-tegnet - til skriptområdet
   på høyresiden. Skriv inn to tall og klikk på klossen. Scratch
@@ -70,14 +70,14 @@ sammen tall.
 
   ![](gangeoperator.png)
 
-[ ] Vi vil nå kombinere gangeklossen med `tilfeldig
+- [ ] Vi vil nå kombinere gangeklossen med `tilfeldig
   tall`{.blockoperators}-klossen, men for å få dette til trenger vi en
   måte å huske de tilfeldige tallene: **Variabler**.  Gå til
   `Data`{.blockdata}-kategorien og lag tre nye variabler:
   `tall1`{.blockdata}, `tall2`{.blockdata}, og `riktig
   svar`{.blockdata}. La de gjelde for alle figurer.
 
-[ ] Skriv nå et **helt nytt skript** (la det ligge ved siden av det
+- [ ] Skriv nå et **helt nytt skript** (la det ligge ved siden av det
   skriptet du skrev i forrige steg).
 
   ```blocks
@@ -87,7 +87,7 @@ sammen tall.
   sett [riktig svar v] til ((tall1) * (tall2))
   ```
 
-[ ] Prøv å klikke på skriptet for å teste det (siden det ikke
+- [ ] Prøv å klikke på skriptet for å teste det (siden det ikke
   starter med et grønt flagg kan vi ikke teste det på den vanlige
   måten). Om du ser på variablene på scenen skal de endre seg hver
   gang du klikker på skriptet. Er `riktig svar`{.blockdata} rett?
@@ -100,10 +100,10 @@ La oss se om vi kan sette sammen disse tallene til et skikkelig spørsmål.
 
 ## Sjekkliste {.check}
 
-[ ] Lag en ny variabel, `spørsmål`{.blockdata}. Også denne skal gjelde
+- [ ] Lag en ny variabel, `spørsmål`{.blockdata}. Også denne skal gjelde
   for alle figurer.
 
-[ ] Klossen `sett sammen`{.blockoperators} kan brukes for å sette sammen
+- [ ] Klossen `sett sammen`{.blockoperators} kan brukes for å sette sammen
   flere tall og ord. Vi skal nå bruke to `sett
   sammen`{.blockoperators}-klosser på denne måten:
 
@@ -120,7 +120,7 @@ La oss se om vi kan sette sammen disse tallene til et skikkelig spørsmål.
 
   ![](sett_sammen.png)
 
-[ ] Legg denne klossen til nederst i `Nytt spørsmål`-skriptet:
+- [ ] Legg denne klossen til nederst i `Nytt spørsmål`-skriptet:
 
   ```blocks
   når jeg mottar [Nytt spørsmål v]
@@ -130,7 +130,7 @@ La oss se om vi kan sette sammen disse tallene til et skikkelig spørsmål.
   sett [spørsmål v] til (sett sammen (sett sammen (tall1) [ ganger ]) (tall2))
   ```
 
-[ ] Nå skal vi få `Læremester` til å stille oss spørsmålet vi har
+- [ ] Nå skal vi få `Læremester` til å stille oss spørsmålet vi har
   satt sammen. **Bytt ut** det første skriptet (med det grønne
   flagget) du skrev med dette:
 
@@ -144,12 +144,12 @@ La oss se om vi kan sette sammen disse tallene til et skikkelig spørsmål.
 
 __Klikk på det grønne flagget.__
 
-[ ] Stiller `Læremester` deg et skikkelig spørsmål, for eksempel `9
+- [ ] Stiller `Læremester` deg et skikkelig spørsmål, for eksempel `9
   ganger 6`?
 
-[ ] Er spørsmålene forskjellige hver gang?
+- [ ] Er spørsmålene forskjellige hver gang?
 
-[ ] Om du vil ha en liten utfordring kan du prøve å bruke flere `sett
+- [ ] Om du vil ha en liten utfordring kan du prøve å bruke flere `sett
   sammen`{.blockoperators}-klosser slik at spørsmålet blir for
   eksempel `Hva er 9 ganger 6?`.
 
@@ -159,11 +159,11 @@ Nå som vi kan svare på spørsmål vil vi også vite om vi svarer riktig.
 
 ## Sjekkliste {.check}
 
-[ ] Du ser kanskje at `riktig svar`{.blockdata} vises på scenen? Da blir
+- [ ] Du ser kanskje at `riktig svar`{.blockdata} vises på scenen? Da blir
   det jo ikke særlig vanskelig! Ta bort alle variablene fra scenen ved
   å gå til `Data`-kategorien og fjern haken foran hver variabel.
 
-[ ] Nå skal vi bruke en `hvis ellers`{.blockcontrol}-kloss for å gjøre
+- [ ] Nå skal vi bruke en `hvis ellers`{.blockcontrol}-kloss for å gjøre
   forskjellige ting ettersom du svarer riktig eller feil på
   gangestykkene. **Utvid** det ene skriptet ditt på denne måten:
 
@@ -185,9 +185,9 @@ Nå som vi kan svare på spørsmål vil vi også vite om vi svarer riktig.
 
 __Klikk på det grønne flagget.__
 
-[ ] Hva skjer om du svarer riktig?
+- [ ] Hva skjer om du svarer riktig?
 
-[ ] Klikk det grønne flagget igjen for å få en ny oppgave. Hva skjer om
+- [ ] Klikk det grønne flagget igjen for å få en ny oppgave. Hva skjer om
   du ikke svarer riktig?
 
 # Steg 5: Flere gangestykker {.activity}
@@ -197,7 +197,7 @@ I stedet for å måtte trykke det grønne flagget hele tiden, kan vi be
 
 ## Sjekkliste {.check}
 
-[ ] Vi bruker først en `gjenta`{.blockcontrol}-kloss slik at vi kan få
+- [ ] Vi bruker først en `gjenta`{.blockcontrol}-kloss slik at vi kan få
   flere oppgaver. Legg merke til at vi også sender en `Nytt
   spørsmål`{.blockevents}-melding hvis svaret er riktig. Hvis svaret
   er feil stiller vi det samme spørsmålet en gang til.
@@ -216,26 +216,26 @@ I stedet for å måtte trykke det grønne flagget hele tiden, kan vi be
   slutt
   ```
 
-[ ] Vi kan også telle poeng hver gang du svarer riktig. For å gjøre
+- [ ] Vi kan også telle poeng hver gang du svarer riktig. For å gjøre
   dette trenger vi en ny variabel, `Poeng`{.blockdata}. Denne skal
   gjelde for alle figurer, og denne lar vi være på scenen slik at vi
   ser den.
 
-[ ] Legg til en kloss i skriptet som setter `Poeng`{.blockdata} til `0`
+- [ ] Legg til en kloss i skriptet som setter `Poeng`{.blockdata} til `0`
   rett etter at det grønne flagget klikkes.
 
-[ ] Legg også til en kloss som endrer `Poeng`{.blockdata} med `1` hvis
+- [ ] Legg også til en kloss som endrer `Poeng`{.blockdata} med `1` hvis
   `svar`{.blocksensing} er riktig.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-[ ] Får du flere oppgaver uten at du må trykke på det grønne flagget?
+- [ ] Får du flere oppgaver uten at du må trykke på det grønne flagget?
 
-[ ] Får du et poeng hver gang du svarer riktig?
+- [ ] Får du et poeng hver gang du svarer riktig?
 
-[ ] Klarer du 10 poeng?
+- [ ] Klarer du 10 poeng?
 
 # Steg 6: Litt hjelp kanskje ... {.activity}
 
@@ -251,11 +251,11 @@ og finne ut at svaret er **12**.
 
 ## Sjekkliste {.check}
 
-[ ] Legg til en ny figur som vi kan få litt hjelp fra. Du kan velge
+- [ ] Legg til en ny figur som vi kan få litt hjelp fra. Du kan velge
   hvilken figur du vil, men vi har brukt `Dyr/Elephant`. Gi figuren
   navnet `Hjelper`.
 
-[ ] For å tegne et rutenett med Hjelpere bruker vi to
+- [ ] For å tegne et rutenett med Hjelpere bruker vi to
   `gjenta`{.blockcontrol}-klosser i tillegg til `stemple
   avtrykk`{.blockpen} som tegner Hjelperne på skjermen. Skriv dette
   skriptet på `Hjelper`-figuren:
@@ -281,7 +281,7 @@ og finne ut at svaret er **12**.
   bruke noen andre tall i dette skriptet. Prøv i så fall først å
   forandre på `sett størrelse til 20%`{.blocklooks}-klossen.
 
-[ ] Nå skal vi tegne dette rutenettet hver gang vi lager et nytt
+- [ ] Nå skal vi tegne dette rutenettet hver gang vi lager et nytt
   spørsmål. Klikk på `Læremester`, og legg til en kloss nederst i
   `Nytt spørsmål`-skriptet:
 
@@ -298,21 +298,21 @@ og finne ut at svaret er **12**.
 
 __Klikk på det grønne flagget.__
 
-[ ] Tegnes det et rutenett av hjelpere til hver oppgave?
+- [ ] Tegnes det et rutenett av hjelpere til hver oppgave?
 
 ## Flere utfordringer {.challenge}
 
-[ ] Du kan forandre hvor vanskelige gangestykkene er ved å forandre
+- [ ] Du kan forandre hvor vanskelige gangestykkene er ved å forandre
   tallene i `tilfeldig tall`{.blockoperators}-klossene.
 
-[ ] Om du gir `Hjelper` flere drakter kan du bruke en `neste
+- [ ] Om du gir `Hjelper` flere drakter kan du bruke en `neste
   drakt`{.blocklooks}-kloss i `Tegn hjelper`-skriptet for å få litt
   variasjon i hjelperfigurene. Om du gjør dette er det enklest om
   draktene er omtrent like store.
 
-[ ] Kanskje `Læremester` kan gi litt mer hjelp når man svarer feil?
+- [ ] Kanskje `Læremester` kan gi litt mer hjelp når man svarer feil?
   Klarer du få henne til å si `Nei, det riktige svaret er større`
   eller `Nei, det riktige svaret er mindre`?
 
-[ ] `Læremester` kan mye rart! Kanskje hun kan lære bort andre ting enn
+- [ ] `Læremester` kan mye rart! Kanskje hun kan lære bort andre ting enn
   gangestykker?

@@ -18,11 +18,11 @@ i Web-kurset først om du ikke har hørt om HTML før.
 
 # Hei, verden! {.activity}
 
-[ ] Åpne nettsiden [Try Elm](http://elm-lang.org/try). Denne ser slik ut:
+- [ ] Åpne nettsiden [Try Elm](http://elm-lang.org/try). Denne ser slik ut:
 
     ![](tom_try_elm.png)
 
-[ ] Trykk på **Hello, World!** til høyre, så får vi se et enkelt Elm-program:
+- [ ] Trykk på **Hello, World!** til høyre, så får vi se et enkelt Elm-program:
 
     ![](hello.png)
 
@@ -106,10 +106,10 @@ Nå som du har tenkt litt på hva du vil lage, la oss se på hva andre har laget
 
 Oppdater siden for å få tilbake koden som den var før du begynte å redigere den.
 
-[ ] Åpne **Buttons**.
+- [ ] Åpne **Buttons**.
     - Kan du endre teksten på knappene til "Mer!" og "Mindre!"?
     - Kan du få pluss-knappen til å legge til 5 hver gang du trykker?
-[ ] Åpne **Clock**.
+- [ ] Åpne **Clock**.
     - Kan du gjøre viseren kortere?
     - Kan du gjøre viseren rosa?
 
@@ -120,7 +120,7 @@ Oppdater siden for å få tilbake koden som den var før du begynte å redigere 
 
 Har du fått flere gode ideer til hva du vil gjøre?
 
-[ ] Oppdater Elm-dokumentet du lagde i stad med nye ideer!
+- [ ] Oppdater Elm-dokumentet du lagde i stad med nye ideer!
 
 # Jeg lurer på flere ting!
 

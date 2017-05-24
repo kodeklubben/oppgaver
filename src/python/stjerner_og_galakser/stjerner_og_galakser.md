@@ -17,7 +17,7 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
 ## Sjekkliste {.check}
 
 
-[ ] Vi begynner med å bruke det du allerede kan om tegning med skilpadden. Kjør dette programmet:
+- [ ] Vi begynner med å bruke det du allerede kan om tegning med skilpadden. Kjør dette programmet:
 
   ```python
   from turtle import *
@@ -44,10 +44,10 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
   ![](sky-star.png "Sky med en stjerne og skilpadde")
 
 
-[ ] Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen.
+- [ ] Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen.
 Sørg for å forstå alle før du går videre.
 
-[ ] Nå skal vi tegne tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å tegne tre stjerner.
+- [ ] Nå skal vi tegne tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å tegne tre stjerner.
 
   ```python
   from turtle import *
@@ -96,7 +96,7 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
 
 ## Sjekkliste {.check}
 
-[ ] Her er et program med en "stjernetegne-funksjon" som kan tegne stjerner i forskjellige størrelser ut i fra hvilket tall du sender inn i funksjonen.
+- [ ] Her er et program med en "stjernetegne-funksjon" som kan tegne stjerner i forskjellige størrelser ut i fra hvilket tall du sender inn i funksjonen.
 
   ```python
   from turtle import *
@@ -129,11 +129,11 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
 
   ![](sky-function.png "Sky med tre stjerner")
 
-[ ] Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner en linje som er 50 piksler lang.
+- [ ] Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner en linje som er 50 piksler lang.
 
   ![](sky-parameter-passing.png)
 
-[ ] Det er mulig å sende inn flere verdier inn i funksjonen. For eksempel kan vi sende inn hvilken farge vi vil at stjernen skal ha.
+- [ ] Det er mulig å sende inn flere verdier inn i funksjonen. For eksempel kan vi sende inn hvilken farge vi vil at stjernen skal ha.
 
   ```python
   from turtle import *
@@ -178,7 +178,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
 
 ## Sjekkliste {.check}
 
-[ ] Kjør dette programmet. Skilpadden flyttes til en ny posisjon og tegner en hvit stjerne der.
+- [ ] Kjør dette programmet. Skilpadden flyttes til en ny posisjon og tegner en hvit stjerne der.
 
   ```python
   from turtle import *
@@ -208,11 +208,11 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
   done()
 
   ```
-[ ] Vi bruker funksjonen `setpos(x, y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til posisjonen (200, 200). Prøv å endre på tallene i denne funksjonen!
+- [ ] Vi bruker funksjonen `setpos(x, y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til posisjonen (200, 200). Prøv å endre på tallene i denne funksjonen!
 
   ![](sky-xy.png)
 
-[ ] Vi skal nå flytte til en tilfeldig posisjon. Vi lager en ny funksjon som heter `moveToRandomLocation()`, denne flytter altså skilpadden til en tilfeldig posisjon.
+- [ ] Vi skal nå flytte til en tilfeldig posisjon. Vi lager en ny funksjon som heter `moveToRandomLocation()`, denne flytter altså skilpadden til en tilfeldig posisjon.
 
   ```python
   from turtle import *
@@ -259,7 +259,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
 Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere å ha oversikt når man lager store programmer.
 
 ## Sjekkliste {.check}
-[ ] Det ville vært kult hvis vi kunne lage en galakse med små flerfargede stjerner i tegningen vår. Vi lager defor en funksjon som heter `drawGalaxy()` som bruker funksjonen `drawStar()` som vi laget tidligere.
+- [ ] Det ville vært kult hvis vi kunne lage en galakse med små flerfargede stjerner i tegningen vår. Vi lager defor en funksjon som heter `drawGalaxy()` som bruker funksjonen `drawStar()` som vi laget tidligere.
 
   ```python
   from turtle import *
@@ -317,7 +317,7 @@ Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere �
 
   Ved å kjøre `drawGalaxy(40)` 3 ganger for vi 3 nye galakser som hver inneholder 40 stjerner. For hver galakse kjøres `drawStar()` 40 ganger, mellom hver gang flyttes posisjonen til den neste stjernen litt. Ser du hvor i koden dette skjer?
 
-[ ] Du kan også tegne stjernebilder satt sammen av stjerner. Dette er ikke så vanskelig siden vi allerede har mange av funksjonene vi trenger.
+- [ ] Du kan også tegne stjernebilder satt sammen av stjerner. Dette er ikke så vanskelig siden vi allerede har mange av funksjonene vi trenger.
 
   ```python
   from turtle import *

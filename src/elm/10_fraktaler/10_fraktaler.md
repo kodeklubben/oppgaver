@@ -31,9 +31,9 @@ Fraktaler følger tre regler:
 Gå til [Wikipedia-artikkelen](https://en.wikipedia.org/wiki/Sierpinski_carpet)
 til Sierpinski-teppet. Se på animasjonen.
 
-[ ] Hvordan er teppet før det begynner å bli fargelagt? Dette er **startregelen**.
-[ ] Hva tegner vi i hver firkant? Dette er **tegneregelen**.
-[ ] Hvordan gjentas regelen? Dette er **rekursjonsregelen**.
+- [ ] Hvordan er teppet før det begynner å bli fargelagt? Dette er **startregelen**.
+- [ ] Hva tegner vi i hver firkant? Dette er **tegneregelen**.
+- [ ] Hvordan gjentas regelen? Dette er **rekursjonsregelen**.
 
 Se på figurene under avsnittet **Process**. Ser du at noe gjentar seg?
 
@@ -53,8 +53,8 @@ import Svg.Attributes exposing (width, height, viewBox, fill, x, y, width, heigh
 main =
     svg
       [ width "500", height "500", viewBox "0 0 27 27" ]
-      [ rect [ x "0", y "0", width "27", height "27", fill "blue" ] [ ]
-      , rect [ x "9", y "9", width "9", height "9", fill "green" ] [ ]
+      [ rect [ x "0", y "0", width "27", height "27", fill "blue" ] - [ ]
+      , rect [ x "9", y "9", width "9", height "9", fill "green" ] - [ ]
       ]
 ```
 
@@ -62,11 +62,11 @@ main =
 
 ## Sjekkliste {.check}
 
-[ ] Hvordan kan vi da tegne mange kvadrater?
-[ ] Hva bestemmer posisjonen til tallene?
-[ ] Hvor mange store grønne kvadrater har du tegnet?
-[ ] Hvor mange små grønne kvadrater har du tegnet?
-[ ] **Utvid koden til å tegne mange kvadrater**.
+- [ ] Hvordan kan vi da tegne mange kvadrater?
+- [ ] Hva bestemmer posisjonen til tallene?
+- [ ] Hvor mange store grønne kvadrater har du tegnet?
+- [ ] Hvor mange små grønne kvadrater har du tegnet?
+- [ ] **Utvid koden til å tegne mange kvadrater**.
 
 # Steg 3: Datastrukturer {.activity}
 
@@ -81,7 +81,7 @@ egne typer_. Vi kommer til å lage en type for punkter og en type for kvadrater.
 
 Nå skal du få prøve å lese Elm sine egne læreressurser.
 
-[ ] Gå til [Elm-dokumentasjonen for records](http://elm-lang.org/docs/records).
+- [ ] Gå til [Elm-dokumentasjonen for records](http://elm-lang.org/docs/records).
   Finner du eksempelet for et punkt?
 
 Vi legger til en liten snutt i programmet vårt:
@@ -102,8 +102,8 @@ main =
       [ h1 [] [ text (toString myPoint) ]
       , svg
         [ width "500", height "500", viewBox "0 0 27 27" ]
-        [ rect [ x "0", y "0", width "27", height "27", fill "blue" ] [ ]
-        , rect [ x "3", y "3", width "3", height "3", fill "green" ] [ ]
+        [ rect [ x "0", y "0", width "27", height "27", fill "blue" ] - [ ]
+        , rect [ x "3", y "3", width "3", height "3", fill "green" ] - [ ]
         ]
       ]
 ```
@@ -112,9 +112,9 @@ Nå kan du endre `toString myPoint` for å skrive ut noe annet.
 
 ## Sjekkliste {.check}
 
-[ ] Skriv ut kun `x`-attributten til `myPoint`
-[ ] Lag et annet punkt, `yourPoint`. Velg koordinater og skriv ut dette i stedet.
-[ ] Lag et tredje punkt, `theirPoint`. Dette skal du lage _ut ifra `myPoint`_, men
+- [ ] Skriv ut kun `x`-attributten til `myPoint`
+- [ ] Lag et annet punkt, `yourPoint`. Velg koordinater og skriv ut dette i stedet.
+- [ ] Lag et tredje punkt, `theirPoint`. Dette skal du lage _ut ifra `myPoint`_, men
   du skal bytte ut x-verdien med `0`. Se avsnittet **Updating Records** i guiden.
 
 Nå skal vi ta steget videre og lage våre egne punkter.
@@ -122,13 +122,13 @@ Nå skal vi ta steget videre og lage våre egne punkter.
 **Husk!** Du kan bruke linjen `[ h1 [] [ text (toString yz) ]` til å teste
 verdier.
 
-[ ] Les de to første eksemplene i avsnittet **Record types**.
+- [ ] Les de to første eksemplene i avsnittet **Record types**.
 
 Her finnes det allerede en `Point`-type vi kan bruke. Har du definert `myPoint`
 og `yourPoint` på samme måte som det gjøres i guiden?
 
-[ ] Skriv inn `Point`-typen i programmet ditt
-[ ] Spesifiser at punktene dine skal være av typen `Point`:
+- [ ] Skriv inn `Point`-typen i programmet ditt
+- [ ] Spesifiser at punktene dine skal være av typen `Point`:
 
   ```elm
   -- myPoint : Point betyr at myPoint skal være av type Point
@@ -143,9 +143,9 @@ og `yourPoint` på samme måte som det gjøres i guiden?
 Klager kompilatoren? Hvorfor/hvorfor ikke? Om den klager betyr det ikke at du
 har gjort noe feil. Det bare at du og guiden lagde punkter på forskjellig måte.
 
-[ ] Utvid punktene dine med en z-verdi. Hva skjer når du kopilerer? Klarer du tyde
+- [ ] Utvid punktene dine med en z-verdi. Hva skjer når du kopilerer? Klarer du tyde
   feilmeldingen?
-[ ] Lag en ny type: `Point3D` som også har Z-verdi, og spesifiser at punktene dine
+- [ ] Lag en ny type: `Point3D` som også har Z-verdi, og spesifiser at punktene dine
   skal være av denne typen:
   ```elm
   myPoint : Point3D
@@ -175,8 +175,8 @@ kan også lage veldig store tall, som 1000 * 1000 * 1000 * 1000 * 10000
 
 ## Sjekkliste {.check}
 
-[ ] Hva må vi vite om et kvadrat for at vi skal kunne tegne det?
-[ ] Lag typen kvadrat: `type alias Square = -- ...`
+- [ ] Hva må vi vite om et kvadrat for at vi skal kunne tegne det?
+- [ ] Lag typen kvadrat: `type alias Square = -- ...`
 
 Nå skal vi tegne kvadratet!
 
@@ -184,7 +184,7 @@ Nå skal vi tegne kvadratet!
 viewSquare square = -- ...
 ```
 
-[ ] Lag funksjonen `viewSquare`. Bruk `rect` fra SVG som du har brukt tidligere.
+- [ ] Lag funksjonen `viewSquare`. Bruk `rect` fra SVG som du har brukt tidligere.
 
 **Obs!** Når vi tegner kvadrater må vi bruke en farge. En måte å løse det på er
 å ha en `color : String`-attributt på `Square`.
@@ -249,15 +249,15 @@ describeHalfAge yearNow yearBorn =
 
 ## Sjekkliste {.check}
 
-[ ] Lag funksjonen `describeDoubleAge`. Hva skal denne gjøre?
-[ ] Les overskriften **Let expressions**
+- [ ] Lag funksjonen `describeDoubleAge`. Hva skal denne gjøre?
+- [ ] Les overskriften **Let expressions**
   i [syntaxguiden](http://elm-lang.org/docs/syntax). Her er det noen eksempler.
   Prøv selv!
 
 Nå skal vi tilbake til fraktalene våre, vi skal lage den grønne firkanten i
 sentrum. Denne gangen med kode!
 
-[ ] Lag funksjonen `centerSquare`. Denne skal ta inn et kvadrat og returnere
+- [ ] Lag funksjonen `centerSquare`. Denne skal ta inn et kvadrat og returnere
   kvadratet i sentrum av det forrige. Hvilken farge skal det ha?
 
 Her er en start:
@@ -319,8 +319,8 @@ centerSquare old =
 
 ## Sjekkliste {.check}
 
-[ ] Les avnsitet om `List.map` i [dokumentasjonen til List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#map).
-[ ] Bruk `List.map` til å lage listen `["1","2","3","4"]`
+- [ ] Les avnsitet om `List.map` i [dokumentasjonen til List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#map).
+- [ ] Bruk `List.map` til å lage listen `["1","2","3","4"]`
 
 `List.range` kan lage en liste med tall. Eksempel:
 
@@ -333,8 +333,8 @@ centerSquare old =
 [0,1,2,3] : List Int
 ```
 
-[ ] Les avsnittet om `List.range` i [dokumentasjonen til List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#range)
-[ ] Bruk `List.map` og `List.range` til å lage denne store listen:
+- [ ] Les avsnittet om `List.range` i [dokumentasjonen til List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#range)
+- [ ] Bruk `List.map` og `List.range` til å lage denne store listen:
 
 ```elm
 ["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14"
@@ -345,8 +345,8 @@ centerSquare old =
 Vi innfører enda en nyttig funksjon: `String.join`. Denne bygger opp tekst fra
 en liste.
 
-[ ] Les dokumentasjonen til `String.join` i [dokumentasjonen til String](http://package.elm-lang.org/packages/elm-lang/core/latest/String#join)
-[ ] Lag funksjonen `sayTo`. Den skal kunne brukes slik:
+- [ ] Les dokumentasjonen til `String.join` i [dokumentasjonen til String](http://package.elm-lang.org/packages/elm-lang/core/latest/String#join)
+- [ ] Lag funksjonen `sayTo`. Den skal kunne brukes slik:
 
 ```
 > sayTo 10
@@ -367,7 +367,7 @@ Nå skal vi finne kvadratene langs kanten. Hvor mange blir det? Tell de røde:
 
 ## Sjekkliste {.check}
 
-[ ] Lag funksjonen `borderSquares`. Denne skal vi kunne bruke slik:
+- [ ] Lag funksjonen `borderSquares`. Denne skal vi kunne bruke slik:
 
 ```
 > start
@@ -445,13 +445,13 @@ I nivå 3 lager vi **8 * 8 = 64** nye firkanter.
 
 Bruk `elm repl` til å regne ut disse:
 
-[ ] Hvor mange nye firkanter lager vi i nivå **4**?
-[ ] Hvor mange nye firkanter lager vi i nivå **5**?
-[ ] Hvor mange nye firkanter lager vi i nivå **6**?
+- [ ] Hvor mange nye firkanter lager vi i nivå **4**?
+- [ ] Hvor mange nye firkanter lager vi i nivå **5**?
+- [ ] Hvor mange nye firkanter lager vi i nivå **6**?
 
 Klarer du å se et mønster?
 
-[ ] Hvor mange nye firkanter lager vi i nivå **x**?
+- [ ] Hvor mange nye firkanter lager vi i nivå **x**?
 
 # Steg 8: `concat` og `map` {.activity}
 
@@ -459,7 +459,7 @@ Vi skal trene litt før vi går videre.
 
 ## Sjekkliste {.check}
 
-[ ] Lag filen Tall.elm. Legg inn dette i toppen:
+- [ ] Lag filen Tall.elm. Legg inn dette i toppen:
 
   ```elm
   module Tall exposing (..)
@@ -467,9 +467,9 @@ Vi skal trene litt før vi går videre.
   hei = "Hei!"
   ```
   
-[ ] Start `elm repl` fra kommandovindu i samme mappe
+- [ ] Start `elm repl` fra kommandovindu i samme mappe
 
-[ ] Importer alle funksjonene fra `Tall.elm` fra `elm repl`:
+- [ ] Importer alle funksjonene fra `Tall.elm` fra `elm repl`:
 
   ```text
   ---- elm-repl 0.18.0 -----------------------------------------------------------
@@ -506,7 +506,7 @@ Dette kunne vært første steg:
 
 ## Sjekkliste {.check}
 
-[ ] Lag `sifre` for å spare på 0-9:
+- [ ] Lag `sifre` for å spare på 0-9:
 
   ```elm
   > sifre
@@ -523,7 +523,7 @@ sifre =
     in List.map toString nullTilNi
 ```
 
-[ ] Lag `ettSifferBak` som tar inn starten på tallet og legger på sifrene 0-9
+- [ ] Lag `ettSifferBak` som tar inn starten på tallet og legger på sifrene 0-9
   på slutten:
   
   ```elm
@@ -547,7 +547,7 @@ ettSifferBak start =
 Nå kommer trikset for å gå dypere: For hver mulige begynnelse må vi lage alle
 løsninger, og slå sammen disse.
 
-[ ] Lag `sifreAvLengde` som tar inn hvor mange sifre som skal legges på og
+- [ ] Lag `sifreAvLengde` som tar inn hvor mange sifre som skal legges på og
   begynnelsen, og gir tilbake alle mulighetene.
 
 ```elm
@@ -587,7 +587,7 @@ sifreAvLengde n start =
         in List.concat fortsettelser
 ```
 
-[ ] Bruk `sifreAvLengde` til å lage `desimaler`:
+- [ ] Bruk `sifreAvLengde` til å lage `desimaler`:
 
 ```elm
 > desimaler 0
@@ -644,9 +644,9 @@ sifreAvLengde n start =
         in List.concatMap fortsett starter
 ```
 
-[ ] Hvor lange tall kan du skrive ut før PC-en din begynner å gå tregt?
+- [ ] Hvor lange tall kan du skrive ut før PC-en din begynner å gå tregt?
 
-[ ] Hvor mange desimaltall finner du da?
+- [ ] Hvor mange desimaltall finner du da?
 
 Hint: 0.0-0.9 blir 10 tall. 0.00 til 0.99 blir ...? Hva med 0.00000 til 0.99999?
 
@@ -672,7 +672,7 @@ Nå skal vi bruke teknikken fra Steg 8 til å komme til bunns i fraktalen vår.
 
 ## Sjekkliste {.check}
 
-[ ] Lag `generateCenterSquares`. Denne skal kunne fungere slik:
+- [ ] Lag `generateCenterSquares`. Denne skal kunne fungere slik:
 
 ```text
 ---- elm-repl 0.18.0 -----------------------------------------------------------

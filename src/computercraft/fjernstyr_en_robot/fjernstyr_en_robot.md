@@ -42,15 +42,15 @@ Windows finner du den altså på `AppData\Roaming\.minecraft\saves\Kodeklubben 2
 
 ## Finn filene på Mac
 For å åpne filene på Mac kan du bruke Finder:
-[ ] Åpne Finder fra menyen
+- [ ] Åpne Finder fra menyen
 
 ![Finn Finder i menyen](finder.png)
 
-[ ] Trykk på `Gå` og så `Gå til mappe`
+- [ ] Trykk på `Gå` og så `Gå til mappe`
 
 ![Gå til mappe](gaatilmappe.png)
 
-[ ] Skriv inn filplasseringen (`~/Library/Application Support/.minecraft/saves/navn-på-din-save/computer/id`)
+- [ ] Skriv inn filplasseringen (`~/Library/Application Support/.minecraft/saves/navn-på-din-save/computer/id`)
 
 ![Skriv inn filplasseringen](gaatilmappedialog.png)
 
@@ -93,7 +93,7 @@ oversette disse til kommandoer og sende til roboten.
 
 ## Sjekkliste {.check}
 
-[ ] Vi bygger først kontroller. Craft en **Advanced Wireless Pocket Computer**.
+- [ ] Vi bygger først kontroller. Craft en **Advanced Wireless Pocket Computer**.
   Denne kan vi bruke mens vi går rundt, og er ikke bundet til én plass.
 
 ## Filtyper {.tip}
@@ -110,13 +110,13 @@ Filer har ofte etternavn som sier filtypen.
 
 ## Sjekkliste {.check}
 
-[ ] Vi kaller kontroller-programmet vårt `remote.lua`
+- [ ] Vi kaller kontroller-programmet vårt `remote.lua`
 
   ```
   edit remote.lua
   ```
 
-[ ] La oss starte med å lese inn hva brukeren trykker på:
+- [ ] La oss starte med å lese inn hva brukeren trykker på:
 
   ```lua
   function remoteMove()
@@ -142,12 +142,12 @@ Filer har ofte etternavn som sier filtypen.
   main()
   ```
 
-[ ] Prøv! Hva skjer når du trykker på `w`? Hva skjer når du trykker på noe annet?
+- [ ] Prøv! Hva skjer når du trykker på `w`? Hva skjer når du trykker på noe annet?
 
-[ ] Roboten vår skal gjerne kunne svinge og gå bakover i tillegg. Legg til
+- [ ] Roboten vår skal gjerne kunne svinge og gå bakover i tillegg. Legg til
 if-setninger dersom brukeren trykker på `a`, `s` eller `d`!
 
-[ ] Roboten kan i tillegg fly opp og ned. I Minecraft brukes `space` for å fly
+- [ ] Roboten kan i tillegg fly opp og ned. I Minecraft brukes `space` for å fly
 opp, og `shift` for å fly ned. Sjekk [ComputerCraft Wiki](http://www.computercraft.info/wiki/Keys_%28API%29) for hvordan du bruker
 disse!
 
@@ -163,9 +163,9 @@ La oss først leke oss litt med en robot.
 
 ## Sjekkliste {.check}
 
-[ ] Pass på at roboten har nok kull!
+- [ ] Pass på at roboten har nok kull!
 
-[ ] Åpne lua-tolkeren, og lag en tabell:
+- [ ] Åpne lua-tolkeren, og lag en tabell:
 
   ```
   > lua
@@ -192,7 +192,7 @@ La oss først leke oss litt med en robot.
 
 Nå skal vi se på to måter å styre en robot på.
 
-[ ] Start `CraftOS` på en robot, og kjør først kommandoen på "vanlig" vis:
+- [ ] Start `CraftOS` på en robot, og kjør først kommandoen på "vanlig" vis:
 
   ```
   > go forward 5
@@ -202,7 +202,7 @@ Nå skal vi se på to måter å styre en robot på.
 ... men vi vil da ikke løpe etter roboten og skrive inn nye kommandoer dagen
 lang! La oss programmere dette.
 
-[ ] Åpne lua-tolkeren og lag tabeller for kommandoene over:
+- [ ] Åpne lua-tolkeren og lag tabeller for kommandoene over:
 
   ```lua
   > lua
@@ -212,7 +212,7 @@ lang! La oss programmere dette.
   lua> shell.run(unpack(command2))
   ```
 
-[ ] Hva gjør unpack? Hvordan kan vi bruke `shell.run()` til å gå frem *uten*
+- [ ] Hva gjør unpack? Hvordan kan vi bruke `shell.run()` til å gå frem *uten*
   `unpack()`?
 
 ## Nøtt {.try}
@@ -249,9 +249,9 @@ Nå skal vi endre på koden på fjernkontrollen vår så den faktisk sender
 kommandoer til roboten. Hva er forskjellig fra koden over? Forklar til en annen
 programmerer eller voksen! Hva gjør programmet nå forskjellig?
 
-[ ] Åpne igjen filen `remote.lua` på kontrolleren
+- [ ] Åpne igjen filen `remote.lua` på kontrolleren
 
-[ ] Endre koden til:
+- [ ] Endre koden til:
 
   ```lua
   workerId = 5  -- Hvilket nummer er din robot? Hvordan finner du nummeret?
@@ -304,7 +304,7 @@ Jepp, jeg er helt enig. La oss gjøre det!
 
 ## Sjekkliste {.check}
 
-[ ] Åpne `react.lua` på roboten
+- [ ] Åpne `react.lua` på roboten
 
 ## Egne filer {.tip}
 
@@ -316,7 +316,7 @@ Jepp, jeg er helt enig. La oss gjøre det!
 
 ## Sjekkliste {.check}
 
-[ ] Fyll så på med koden!
+- [ ] Fyll så på med koden!
 
   ```lua
   function main()
@@ -342,9 +342,9 @@ Java og Haskell.
 
 ## Sjekkliste {.check}
 
-[ ] Hva brukes 99999 til?
+- [ ] Hva brukes 99999 til?
 
-[ ] Hvorfor bruker vi en `while`-løkke? Hva skjer om vi ikke har en while-løkke?
+- [ ] Hvorfor bruker vi en `while`-løkke? Hva skjer om vi ikke har en while-løkke?
 
 # Steg 5: Kjør robot! {.activity}
 
@@ -355,13 +355,13 @@ Nå skal vi prøve det selv!
 
 ## Sjekkliste {.check}
 
-[ ] Start `react.lua` på din robot
+- [ ] Start `react.lua` på din robot
 
-[ ] Start `remote.lua` på din Portable Computer
+- [ ] Start `remote.lua` på din Portable Computer
 
-[ ] Trykk `w` for å gå fremover!
+- [ ] Trykk `w` for å gå fremover!
 
-[ ] Legg til andre kommandoer du savner!
+- [ ] Legg til andre kommandoer du savner!
 
   Forslag:
 
@@ -378,9 +378,9 @@ Programmet vi har skrevet for å motta og kjøre kommandoer, `react.lua` kan
 kjøre andre kommandoer enn de vi har definert for å bevege seg rundt, for
 eksempel `excavate` og `dance`.
 
-[ ] Åpne kontrolleren
+- [ ] Åpne kontrolleren
 
-[ ] Endre følgende i `ssh.lua`:
+- [ ] Endre følgende i `ssh.lua`:
 
   ```lua
   -- Starter jeg programmet sånn:
@@ -414,9 +414,9 @@ eksempel `excavate` og `dance`.
   main()
   ```
 
-[ ] Start `react.lua` på roboten
+- [ ] Start `react.lua` på roboten
 
-[ ] Start `ssh.lua` på kontrolleren
+- [ ] Start `ssh.lua` på kontrolleren
 
 Fjernstyrt graverobot er nyttig! En graverobot kan craftes fra en annen turtle
 med pickaxe på ledig side. Dette er hva min gjorde:
