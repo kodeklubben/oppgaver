@@ -3,41 +3,98 @@ title: Lærerveiledning - Felix og Herbert
 language: nb
 ---
 
-# Informasjon til veiledere
+# Om oppgaven {.activity}
 
-Vi skal lage et spill hvor katten __Felix__ skal fange musa
-__Herbert__. Spilleren styrer Herbert med musepekeren og skal prøve å
-unngå å bli tatt av Felix. Jo lenger Herbert unngår katten jo flere
-poeng får spilleren. Men blir Herbert tatt, går poengsummen ned.
+I denne oppgaven skal elevene lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Spilleren styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix.
 
-Dette er et enkelt spill som gir en god introduksjon til Scratch.
+
+## Oppgaven passer til: {.check}
+ __Fag__: Norsk, Engelsk, Programmering
+
+__Trinn__: 2.-10. trinn
+
+__Tema__: Historiefortelling, Variabler
+
+__Nivå__: Nybegynner
+
+__Tidsbruk__: Dobbelttime eller mer
+
+##
 
 ![](felix_og_herbert.png)
 
-# Forberedelser
+## Kompetansemål {.challenge}
 
-Felix og Herbert bruker bare ressurser som er inkludert i
-Scratch-platformen og krever som sådann ingen spesielle forberedelser.
++ __Engelsk, 2. årstrinn__: bruke digitale ressurser i opplevelse av språket
 
-Her er likevel noen generelle ting som kan være verdt å huske på:
++ __Engelsk, 4. årstrinn__: bruke digitale ressurser og andre hjelpemidler i utforsking av språket
 
-+ Scratch er tilgjengelig på nettsiden <http://scratch.mit.edu/>. Velg
-  `Programmering` eller `Prøv Det` for å begynne å programmere.
-+ Alle elevene bør ha sin egen bruker i Scratch-nettverket. Uten en
-  slik bruker er det mye vanskeligere å lagre spillene og programmene
-  man lager. For å opprette en ny bruker, klikk `Bli Scratch-bruker`
-  og følg instruksene på skjermen.
-+ For å skifte språk til norsk:
++ __Engelsk, 7. årstrinn__: uttrykke seg på en kreativ måte inspirert av ulike typer engelskspråklige litterære tekster fra forskjellige kilder
+
++ __Norsk, 4. årstrinn__: lage tekster som kombinerer ord, lyd og bilde, med og uten digitale verktøy
+
++ __Valgfag, Programmering__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+
+##
+
+
+## Forslag til læringsmål {.challenge}
+
++ Elevene kan bruke språket (Norsk/Engelsk) til å beskrive karakterene og omgivelsene i spillet.
++ Elevene kan bruke språket (Norsk/Engelsk)til å generere en bakgrunnsfortelling til Felix og Herbert.
++ Elevene kan forklare hvordan variabler, løkker og tester fungerer.
++ Elevene kan forklare hvordan figurene styres med musa.
++ Elevene kan bruke meldinger til å få figurene til å kommunisere med hverandre.
+
+##
+
+## Forslag til vurderingskriterier {.challenge}
+
++ Eleven bruker et variert ordforråd i beskrivelsen og fortellingen.
+  + Lav måloppnåelse er at eleven skildrer omgivelsene godt.
+  + Middels måloppnåelse er at eleven skildrer omgivelsene godt, og lager en kreativ historie om karakterene.
+  + Høy måloppnåelse er at eleven bruker meldinger til å illustrere kommunikasjon i fortellingen.
++ Eleven kan forklare muntlig hvordan variabler, løkker og tester fungerer.
+##
+
+
+## Forutsetninger og utstyr {.challenge}
+
++ __Utstyr__: Datamaskiner med tilgang internett. Elevene kan fint jobbe to og to.
+
++ __Forutsetninger__: Dersom oppgaven skal brukes i engelskundervising er det lurt å bruke Scratch på engelsk. Slik skifter man språk:
   + På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
     å velge språk helt nederst på skjermen.
   + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
     venstre for å endre språket som brukes.
 
-# Læringsmål
++ __Forberedelser__: Felix og Herbert bruker bare ressurser som er inkludert i Scratch-platformen og krever som sådann ingen spesielle forberedelser.
 
-Felix og Herbert introduserer flere konsepter, inkludert
+##
 
-1. hvordan __styre figurer__ med __musen__,
-2. bruk av __drakter__ for å endre figurers utseende,
-3. bruk av __variable__ for å telle poeng,
-4. bruk av __meldinger__ for at figurer kan kommunisere med hverandre.
+## Fremgangsmåte {.teacher}
+Her kommer fremgangsmåten til den faktiske oppgaven, med noen tips og vanlige utfordringer ved hvert steg.
+
+# Steg 1:... {.activity}
+
+## Tips til læreren {.protip}
++ Her er det et vanlig problem at ...
+
+##
+
+# Steg 2: ... {.activity}
+
+
+## Tips til læreren {.protip}
++ Elevene må ...
+
+
+## Variasjoner {.challenge}
++ Denne oppgaven kan brukes som et ledd i undervisning om skildringer og fortellinger. Enten kan elevene lage en fortelling først, og bruke denne til å legge et personlig preg på spillet (bakgrunn, farger, figurer etc.), eller elevene kan lage spillet og samtidig skrive en historie. Dette kan man bruke en dobbelttime på, eller kanskje helst jobbe med det over flere økter.
++ Kan brukes i flere språk. 
+##
+
+
+## Kommentarer eller erfaringer? {.challenge}
+Bruk gjerne forumet til å dele erfaring, komme med tilbakemeldinger og diskutere oppgavene: [https://forum.kidsakoder.no/c/oppgaver](https://forum.kidsakoder.no/c/oppgaver)
+##
