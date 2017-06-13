@@ -3,39 +3,68 @@ title: Lærerveiledning - Julekort
 language: nb
 ---
 
-# Informasjon til veiledere
+# Om oppgaven {.activity}
+I denne oppgaven skal elevene lære forskjellige måter de kan animere figurer på. Temaet er holdt rundt jul og vinter, slik at oppgaven passer bra i tiden før jul.
 
-I dette prosjektet ser vi på forskjellige måter vi kan animere figurer
-på. Temaet er holdt rundt jul og vinter, slik at oppgaven passer bra i
-tiden før jul. Kodingen er ganske enkel, slik at dette er en fin
-oppgave å introdusere Scratch med, eventuelt for barn som ikke har så
-mye erfaring med Scratch.
+
+## Oppgaven passer til: {.check}
+ __Fag__: Engelsk, Kunst og håndtverk, Musikk
+
+__Trinn__: 2.-10. trinn
+
+__Tema__: Juletradisjoner, Julemusikk
+
+__Nivå__: Nybegynner
+
+__Tidsbruk__: Dobbelttime
+
+##
 
 ![](julekort.png)
 
-# Forberedelser
+## Kompetansemål {.challenge}
 
-Julekort bruker bare ressurser som er inkludert i Scratch-platformen
-og krever som sådann ingen spesielle forberedelser.
++ __Engelsk, 2. årstrinn__: ta del i og oppleve barnekultur fra engelskspråklige land gjennom å bruke ord, bilder, musikk og bevegelse
 
-Her er likevel noen generelle ting som kan være verdt å huske på:
++ __Kunst og håndtverk, 4. årstrinn__: bruke enkle funksjoner i digitale bildebehandlingsprogram
 
-+ Scratch er tilgjengelig på nettsiden <http://scratch.mit.edu/>. Velg
-  `Programmering` eller `Prøv Det` for å begynne å programmere.
-+ Alle elevene bør ha sin egen bruker i Scratch-nettverket. Uten en
-  slik bruker er det mye vanskeligere å lagre spillene og programmene
-  man lager. For å opprette en ny bruker, klikk `Bli Scratch-bruker`
-  og følg instruksene på skjermen.
-+ For å skifte språk til norsk:
-  + På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
-    å velge språk helt nederst på skjermen.
-  + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
-    venstre for å endre språket som brukes.
++ __Musikk, 7. årstrinn__: komponere og gjøre lydopptak ved hjelp av digitale verktøy
 
-# Læringsmål
+##
 
-De viktigste læringsmålene i Julekort er
 
-1. forskjellige teknikker for å __animere figurer__,
-2. hvordan man kan __la figurer komme til liv når de klikkes på__, og
-3. enkel bruk av __løkker__ for å gjøre ting flere ganger.
+## Forslag til læringsmål {.challenge}
+
++ Elevene kan samtale om ulike juletradisjoner fra engelskspråklige land.
++ Elevene kan lage figurer og bruke de i en animasjon.
++ Elevene kan spille inn lyd og legge til i animasjonen.
+##
+
+## Forslag til vurderingskriterier {.challenge}
+
++ Eleven kan lage figurer og animasjoner slik oppgaven viser.
+  + Eleven middels høy måloppnåelse ved å lage egne figurer og animasjoner.
+  + Eleven viser høy måloppnåelse ved å legge til lyd og meldingskomponenter.
+##
+
+
+## Forutsetninger og utstyr {.challenge}
+
++ __Utstyr__: Datamaskiner med tilgang internett. Oppgaven kan fint gjøres to-og-to.
+
++ __Forutsetninger__: Ingen.
+
+##
+
+
+## Fremgangsmåte {.teacher}
+
+
+## Variasjoner {.challenge}
++ Elevene kan få i oppgave å lage julekort fra forskjellige land, med de ulike tradisjonene illustrert.
+##
+
+
+## Kommentarer eller erfaringer? {.challenge}
+Bruk gjerne forumet til å dele erfaring, komme med tilbakemeldinger og diskutere oppgavene: [https://forum.kidsakoder.no/c/oppgaver](https://forum.kidsakoder.no/c/oppgaver)
+##
