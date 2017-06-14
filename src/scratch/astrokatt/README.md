@@ -20,25 +20,21 @@ __Tidsbruk__: Dobbelttime
 
 
 ## Kompetansemål {.challenge}
-
 + __Naturfag, 2. trinn__: beskrive og illustrere hvordan jorda, månen og sola beveger seg i forhold til hverandre, og fortelle om årstider, døgn og månefaser
 + __Naturfag, 7. trinn__: bruke animasjoner og andre modeller til å beskrive planetenes og månens bevegelser, og forklare hvordan årstider og månefaser oppstår
 + __Kunst og håndtverk, 7. trinn__: bruke fargekontraster, forminsking og sentralperspektiv for å gi illusjon av rom i bilder både med og uten digitale verktøy
 
 
 ## Forslag til læringsmål {.challenge}
-
 + Elevene kan forklare hvorfor Astrokatt reiser rundt jorden, og hvorfor den stanser hvis den kommer for nærme.
 + Elevene kan forklare hvorfor Astrokatt blir mindre og mindre jo nærmere jorden den kommer, og større og større jo lengre unna.
 
 
 ## Forslag til vurderingskriterier {.challenge}
-
 + Eleven klarer å fullføre oppgaven og styre Astrokatt.
 + Eleven oppnår høy måloppnåelse ved å forklare hvorfor katten oppfører seg som den gjør.
 
 ## Forutsetninger og utstyr {.challenge}
-
 + __Utstyr__: Datamaskiner med tilgang internett
 
 + __Forutsetninger__: Ingen, fin introduksjon til Scratch.
