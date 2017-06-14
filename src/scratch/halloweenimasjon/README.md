@@ -65,7 +65,7 @@ __Tidsbruk__: Dobbelttime
 + __Forutsetninger__: Ingen
 
 ## Fremgangsmåte {.teacher}
-Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/scratch/halooweenimasjon/halloweenimasjon.html" target="_blank_">Klikk her for å se oppgaveteksten.</a>
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/scratch/halloweenimasjon/halloweenimasjon.html" target="_blank_">Klikk her for å se oppgaveteksten.</a>
 
 + _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
 
