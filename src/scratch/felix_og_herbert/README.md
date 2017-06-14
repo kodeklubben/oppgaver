@@ -72,8 +72,9 @@ __Tidsbruk__: Dobbelttime eller mer
 ##
 
 ## Fremgangsmåte {.teacher}
-Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/web/hei_js/hei_js.html" target="_blank">Klikk her for å se oppgaveteksten.</a>
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/scratch/felix_og_herbert/felix_og_herbert.html" target="_blank_">Klikk her for å se oppgaveteksten.</a>
 
++ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
 
 ## Variasjoner {.challenge}
 + Denne oppgaven kan brukes som et ledd i undervisning om skildringer og fortellinger. Enten kan elevene lage en fortelling først, og bruke denne til å legge et personlig preg på spillet (bakgrunn, farger, figurer etc.), eller elevene kan lage spillet og samtidig skrive en historie. Dette kan man bruke en dobbelttime på, eller kanskje helst jobbe med det over flere økter.
