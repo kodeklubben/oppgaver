@@ -41,6 +41,7 @@ __Tidsbruk__: Dobbelttime
 ## Forslag til vurderingskriterier {.challenge}
 
 + Eleven klarer å fullføre oppgaven og styre Astrokatt.
++ Eleven oppnår høy måloppnåelse ved å forklare hvorfor katten oppfører seg som den gjør.
 ##
 
 
@@ -52,26 +53,16 @@ __Tidsbruk__: Dobbelttime
 
 ##
 
-
 ## Fremgangsmåte {.teacher}
-Her kommer fremgangsmåten til den faktiske oppgaven, med noen tips og vanlige utfordringer ved hvert steg.
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/scratch/astrokatt/astrokatt.html" target="_blank_">Klikk her for å se oppgaveteksten.</a>
 
-# Steg 1:... {.activity}
-
-## Tips til læreren {.protip}
-+ Her er det et vanlig problem at ...
-
-##
-
-# Steg 2: ... {.activity}
-
-
-## Tips til læreren {.protip}
-+ Elevene må ...
+# Steg 1: En flyvende katt {.activity}
++ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
 
 
 ## Variasjoner {.challenge}
-+ Elevene...
++ _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+
 ##
 
 
