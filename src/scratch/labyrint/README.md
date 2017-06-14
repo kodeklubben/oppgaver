@@ -4,13 +4,36 @@ author: Geir Arne Hjelle
 language: nb
 ---
 
-# Informasjon til veiledere {.intro}
+# Om oppgaven {.activity}
+I denne oppgaven skal elevene lage et enkelt spill hvor man kontrollerer en liten utforsker som leter etter skatten gjemt inne i en labyrint.
 
-Labyrint er et enkelt spill hvor man kontrollerer en liten utforsker
-som leter etter skatten gjemt inne i en labyrint. Dette prosjektet
-passer bra som en introduksjon til Scratch.
+## Oppgaven passer til: {.check}
+ __Fag__:
+
+__Trinn__:
+
+__Tema__:
+
+__Nivå__:
+
+__Tidsbruk__:
 
 ![](labyrint.png)
+
+## Kompetansemål {.challenge}
+
++ __Fag, årstrinn__:
+
+
+## Forslag til læringsmål {.challenge}
+
++ Elevene kan...
+
+
+## Forslag til vurderingskriterier {.challenge}
+
++ Eleven klarer ...
+
 
 # Forberedelser {.activity}
 
