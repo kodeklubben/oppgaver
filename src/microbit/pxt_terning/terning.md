@@ -1,5 +1,5 @@
 ---
-title: PXT: Terning
+title: "PXT: Terning"
 level: 1
 author: Geir Arne Hjelle
 language: nb
@@ -18,7 +18,7 @@ Kan micro:biten vår brukes som en terning? Ja, det er faktisk ganske enkelt!
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [pxt.microbit.org](https://pxt.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
 
 - [ ] Vi vil at noe skal skje når vi rister på micro:biten. Til dette kan vi
   bruke `når ristes`-klossen som finnes i kategorien `Inndata`.
@@ -46,7 +46,7 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
   micro:biten din til datamaskinen med en USB-kabel. Klikk deretter på knappen
   `Last ned` nede til venstre på skjermen.
 
-    Det lastes nå ned en fil som heter `microbit-Untitled.hex` til datamaskinen
+    Det lastes nå ned en fil som heter `microbit-Uten-navn.hex` til datamaskinen
     din. Samtidig dukker det opp et vindu som sier at du må flytte denne filen
     til MICROBIT-disken. Dersom du trenger hjelp til dette så spør en av
     veilederne.
