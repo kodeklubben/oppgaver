@@ -20,13 +20,11 @@ __Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime
 
-##
 
 ![](halloweenimasjon.jpg)
 
 
 ## Kompetansemål {.challenge}
-
 + __Engelsk, 2. årstrinn__: ta del i og oppleve barnekultur fra engelskspråklige land gjennom å bruke ord, bilder, musikk og bevegelse
 
 + __Engelsk fordypning, 10. årstrinn__: produsere skriftlig og presentere muntlig selvvalgte fordypningsarbeider
@@ -39,8 +37,6 @@ __Tidsbruk__: Dobbelttime
 
 + __Programmering, valgfag__:  overføre løsninger til nye problemer ved å generalisere og tilpasse eksisterende programkode og algoritmer.
 
-##
-
 
 ## Forslag til læringsmål {.challenge}
 
@@ -48,14 +44,11 @@ __Tidsbruk__: Dobbelttime
 + Elevene kan bruke forskjellige teknikker for å animere figurer.
 + Elevene kan bruke fargekontraster, forminskning og sentralperspektiv i animasjonene sine.
 
-##
-
 
 ## Forslag til vurderingskriterier {.challenge}
 
 + Eleven klarer å lage animasjonene i oppgaven.
 + Elevene oppnår høy måloppnåelse ved å lage egne figurer og animasjoner.
-##
 
 
 ## Forutsetninger og utstyr {.challenge}
@@ -76,9 +69,6 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
     å velge språk helt nederst på skjermen.
   + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
     venstre for å endre språket som brukes.
-##
-
 
 ## Kommentarer eller erfaringer? {.challenge}
 Bruk gjerne forumet til å dele erfaring, komme med tilbakemeldinger og diskutere oppgavene: [https://forum.kidsakoder.no/c/oppgaver](https://forum.kidsakoder.no/c/oppgaver)
-##
