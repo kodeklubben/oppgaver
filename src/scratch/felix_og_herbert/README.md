@@ -4,7 +4,6 @@ language: nb
 ---
 
 # Om oppgaven {.activity}
-
 I denne oppgaven skal elevene lage et spill hvor katten __Felix__ skal fange musa __Herbert__. Spilleren styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix.
 
 
@@ -18,8 +17,6 @@ __Tema__: Historiefortelling, Variabler
 __Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime eller mer
-
-##
 
 ![](felix_og_herbert.png)
 
@@ -35,9 +32,6 @@ __Tidsbruk__: Dobbelttime eller mer
 
 + __Valgfag, Programmering__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
-##
-
-
 ## Forslag til læringsmål {.challenge}
 
 + Elevene kan bruke språket (Norsk/Engelsk) til å beskrive karakterene og omgivelsene i spillet.
@@ -46,16 +40,12 @@ __Tidsbruk__: Dobbelttime eller mer
 + Elevene kan forklare hvordan figurene styres med musa.
 + Elevene kan bruke meldinger til å få figurene til å kommunisere med hverandre.
 
-##
-
 ## Forslag til vurderingskriterier {.challenge}
 
 + Eleven bruker et variert ordforråd i beskrivelsen og fortellingen.
   + Måloppnåelse er at eleven skildrer omgivelsene godt, og lager en kreativ historie om karakterene.
   + Høy måloppnåelse er at eleven bruker meldinger til å illustrere kommunikasjon i fortellingen.
 + Eleven kan forklare muntlig hvordan variabler, løkker og tester fungerer.
-##
-
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -69,7 +59,6 @@ __Tidsbruk__: Dobbelttime eller mer
 
 + __Forberedelser__: Felix og Herbert bruker bare ressurser som er inkludert i Scratch-platformen og krever som sådann ingen spesielle forberedelser.
 
-##
 
 ## Fremgangsmåte {.teacher}
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/scratch/felix_og_herbert/felix_og_herbert.html" target="_blank_">Klikk her for å se oppgaveteksten.</a>
@@ -79,9 +68,3 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 ## Variasjoner {.challenge}
 + Denne oppgaven kan brukes som et ledd i undervisning om skildringer og fortellinger. Enten kan elevene lage en fortelling først, og bruke denne til å legge et personlig preg på spillet (bakgrunn, farger, figurer etc.), eller elevene kan lage spillet og samtidig skrive en historie. Dette kan man bruke en dobbelttime på, eller kanskje helst jobbe med det over flere økter.
 + Kan brukes i flere språk.
-##
-
-
-## Kommentarer eller erfaringer? {.challenge}
-Bruk gjerne forumet til å dele erfaring, komme med tilbakemeldinger og diskutere oppgavene: [https://forum.kidsakoder.no/c/oppgaver](https://forum.kidsakoder.no/c/oppgaver)
-##
