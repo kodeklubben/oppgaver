@@ -53,7 +53,3 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 
 ## Variasjoner {.challenge}
 + Elevene kan få i oppgave å lage julekort fra forskjellige land, med de ulike tradisjonene illustrert.
-
-
-## Kommentarer eller erfaringer? {.challenge}
-Bruk gjerne forumet til å dele erfaring, komme med tilbakemeldinger og diskutere oppgavene: [https://forum.kidsakoder.no/c/oppgaver](https://forum.kidsakoder.no/c/oppgaver)
