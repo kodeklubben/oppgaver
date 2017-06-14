@@ -49,7 +49,3 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 
 ## Variasjoner {.challenge}
 + _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
-
-
-## Kommentarer eller erfaringer? {.challenge}
-Bruk gjerne forumet til å dele erfaring, komme med tilbakemeldinger og diskutere oppgavene: [forum.kidsakoder.no/c/oppgaver](https://forum.kidsakoder.no/c/oppgaver)
