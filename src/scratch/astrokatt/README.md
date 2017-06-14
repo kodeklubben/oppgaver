@@ -18,8 +18,6 @@ __Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime
 
-##
-
 
 ## Kompetansemål {.challenge}
 
@@ -27,23 +25,17 @@ __Tidsbruk__: Dobbelttime
 + __Naturfag, 7. trinn__: bruke animasjoner og andre modeller til å beskrive planetenes og månens bevegelser, og forklare hvordan årstider og månefaser oppstår
 + __Kunst og håndtverk, 7. trinn__: bruke fargekontraster, forminsking og sentralperspektiv for å gi illusjon av rom i bilder både med og uten digitale verktøy
 
-##
-
 
 ## Forslag til læringsmål {.challenge}
 
 + Elevene kan forklare hvorfor Astrokatt reiser rundt jorden, og hvorfor den stanser hvis den kommer for nærme.
 + Elevene kan forklare hvorfor Astrokatt blir mindre og mindre jo nærmere jorden den kommer, og større og større jo lengre unna.
 
-##
-
 
 ## Forslag til vurderingskriterier {.challenge}
 
 + Eleven klarer å fullføre oppgaven og styre Astrokatt.
 + Eleven oppnår høy måloppnåelse ved å forklare hvorfor katten oppfører seg som den gjør.
-##
-
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -51,7 +43,6 @@ __Tidsbruk__: Dobbelttime
 
 + __Forutsetninger__: Ingen, fin introduksjon til Scratch.
 
-##
 
 ## Fremgangsmåte {.teacher}
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/scratch/astrokatt/astrokatt.html" target="_blank_">Klikk her for å se oppgaveteksten.</a>
@@ -63,9 +54,6 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 ## Variasjoner {.challenge}
 + _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
 
-##
-
 
 ## Kommentarer eller erfaringer? {.challenge}
 Bruk gjerne forumet til å dele erfaring, komme med tilbakemeldinger og diskutere oppgavene: [forum.kidsakoder.no/c/oppgaver](https://forum.kidsakoder.no/c/oppgaver)
-##
