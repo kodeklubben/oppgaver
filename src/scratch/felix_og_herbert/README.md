@@ -51,8 +51,7 @@ __Tidsbruk__: Dobbelttime eller mer
 ## Forslag til vurderingskriterier {.challenge}
 
 + Eleven bruker et variert ordforråd i beskrivelsen og fortellingen.
-  + Lav måloppnåelse er at eleven skildrer omgivelsene godt.
-  + Middels måloppnåelse er at eleven skildrer omgivelsene godt, og lager en kreativ historie om karakterene.
+  + Måloppnåelse er at eleven skildrer omgivelsene godt, og lager en kreativ historie om karakterene.
   + Høy måloppnåelse er at eleven bruker meldinger til å illustrere kommunikasjon i fortellingen.
 + Eleven kan forklare muntlig hvordan variabler, løkker og tester fungerer.
 ##
@@ -73,25 +72,12 @@ __Tidsbruk__: Dobbelttime eller mer
 ##
 
 ## Fremgangsmåte {.teacher}
-Her kommer fremgangsmåten til den faktiske oppgaven, med noen tips og vanlige utfordringer ved hvert steg.
-
-# Steg 1:... {.activity}
-
-## Tips til læreren {.protip}
-+ Her er det et vanlig problem at ...
-
-##
-
-# Steg 2: ... {.activity}
-
-
-## Tips til læreren {.protip}
-+ Elevene må ...
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/web/hei_js/hei_js.html" target="_blank">Klikk her for å se oppgaveteksten.</a>
 
 
 ## Variasjoner {.challenge}
 + Denne oppgaven kan brukes som et ledd i undervisning om skildringer og fortellinger. Enten kan elevene lage en fortelling først, og bruke denne til å legge et personlig preg på spillet (bakgrunn, farger, figurer etc.), eller elevene kan lage spillet og samtidig skrive en historie. Dette kan man bruke en dobbelttime på, eller kanskje helst jobbe med det over flere økter.
-+ Kan brukes i flere språk. 
++ Kan brukes i flere språk.
 ##
 
 
