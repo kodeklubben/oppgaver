@@ -69,6 +69,3 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
     å velge språk helt nederst på skjermen.
   + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
     venstre for å endre språket som brukes.
-
-## Kommentarer eller erfaringer? {.challenge}
-Bruk gjerne forumet til å dele erfaring, komme med tilbakemeldinger og diskutere oppgavene: [https://forum.kidsakoder.no/c/oppgaver](https://forum.kidsakoder.no/c/oppgaver)
