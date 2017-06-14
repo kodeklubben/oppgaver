@@ -58,7 +58,9 @@ __Tidsbruk__: Dobbelttime
 
 
 ## Fremgangsmåte {.teacher}
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/scratch/julekort/julekort.html" target="_blank">Klikk her for å se oppgaveteksten.</a>
 
++ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
 
 ## Variasjoner {.challenge}
 + Elevene kan få i oppgave å lage julekort fra forskjellige land, med de ulike tradisjonene illustrert.
