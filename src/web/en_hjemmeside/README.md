@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - HTML: Vi bygger hjemmeside
+title: "Lærerveiledning - HTML: Vi bygger hjemmeside"
 language: nb
 ---
 
@@ -42,15 +42,15 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Utstyr__: Datamaskiner med tilgang internett og teksteditor (Atom, Visual Studio Code eller Brackets IO kan anbefales). <a href="http://jsbin.com" target="_blank">JSBin.com</a> kan evt. brukes. Elevene kan fint jobbe to og to.
+- [ ] __Utstyr__: Datamaskiner med tilgang internett og teksteditor (Atom, Visual Studio Code eller Brackets IO kan anbefales). [JSBin.com](http://jsbin.com){target=_blank} kan evt. brukes. Elevene kan fint jobbe to og to.
 
 - [ ] __Forutsetninger__: Elevene burde kunne grunneleggende HTML-tags.
 
-## Fremgangsmåte {.teacher}
-Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/web/en_hjemmeside/en_hjemmeside.html" target="_blank">Klikk her for å se oppgaveteksten.</a>
+# Fremgangsmåte 
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](en_hjemmeside.html){target=_blank}
 
 # Steg 1: Åpne siden som heter om meg {.activity}
-- [ ] Tekstprogram kan for eksempel være Atom, Visual Studio Code, Brackets IO eller NodePad++. Eventuelt bruke <a href="http://jsbin.com" target="_blank">JSBin.com</a>.
+- [ ] Tekstprogram kan for eksempel være Atom, Visual Studio Code, Brackets IO eller NodePad++. Eventuelt bruke [JSBin.com](http://jsbin.com){target=_blank}.
 - [ ] Noen elever vil kanskje ha problemer med å unzipe Internett.zip. Husk å be elevene huske hvor den er lastet ned slik at de finner den igjen. 
 
 # Steg 2: Lag en hjemmeside om deg selv {.activity}
@@ -63,7 +63,3 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 ## Variasjoner {.challenge}
 - [ ] Elevene kan lage nye sider som kan lenkes sammen med _Om meg-siden_.
 - [ ] Elevene kan prøve å finne nye HTML-tags til kan bruke på hjemmesiden sin. 
-
-## Kommentarer {.challenge}
-[Bruk gjerne forumet vårt til å diskutere oppgavene.](https://forum.kidsakoder.no/c/oppgaver)
-
