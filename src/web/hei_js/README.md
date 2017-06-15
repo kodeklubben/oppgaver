@@ -46,26 +46,26 @@ __Tidsbruk__: Enkelttime
 
 - [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse av HTML.
 
-## Fremgangsmåte {.teacher}
-Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/web/hei_js/hei_js.html" target="_blank">Klikk her for å se oppgaveteksten.</a>
+# Fremgangsmåte
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](hei_js.html)
 
-# Steg 1: Bruke JS Bin{.activity}
+# Steg 1: Bruke JS Bin {.activity}
 - [ ] Her kan det være at elevene ikke skriver inn riktig URL/Link.
 - [ ] Elevene kan fort skrive feil eller glemme et tegn når de skal skrive til konsoll.
 
 # Steg 2: Lage en funksjon {.activity}
-- [ ] Elevene kan ha vanskelig heter med å funne tegn som __[ ]__, __{ }__ og __;__.
+- [ ] Det kan være vanskelig å finne tegn som __[ ]__, __{ }__ og __;__.
 
-# Steg 3: Hei navn!
+# Steg 3: Hei navn! {.activity}
 - [ ] Legg merke til at det er et mellomrom mellom _Hei_ og _navn_. Dette kan elevene enkelt overse.
 
-# Steg 4: Katten sier hei
+# Steg 4: Katten sier hei {.activity}
 - [ ] Viktig at elevene kopiere hele skriptet slik det står. Hvis ikke kan det mangle et tegn som gjør at funksjonen _hei_ ikke klarer å kjøre.
 
-# Steg 5: Dele prosjektet
+# Steg 5: Dele prosjektet {.activity}
 - [ ] Når elevene deler prosjektet er det viktig at elevene som skal åpne prosjektet må sende riktig nettadresse. Nettadressen har gjerne tall, små og store bokstaver.
 
-# Steg 5: Lagre prosjektet på datamaskinen din
+# Steg 5: Lagre prosjektet på datamaskinen din {.activity}
 - [ ] Elevene må huske hvor de har lagret filen, slik at de klarer å finne den igjen. 
 
 ## Variasjoner {.challenge}
