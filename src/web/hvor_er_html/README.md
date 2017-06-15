@@ -45,12 +45,12 @@ __Tidsbruk__: Dobbeltime.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Utstyr__: Datamaskiner med tilgang internett og nettleseren <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Google Chrome</a> (anbefalt). Elevene kan fint jobbe to og to.
+- [ ] __Utstyr__: Datamaskiner med tilgang internett og nettleseren [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html){target=_blank} (anbefalt). Elevene kan fint jobbe to og to.
 
 - [ ] __Forutsetninger__: Ingen.    
 
-## Fremgangsmåte {.teacher}
-Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. <a href="http://oppgaver.kidsakoder.no/web/hvor_er_html/hvor_er_html.html" target="_blank">Klikk her for å se oppgaveteksten.</a>
+# Fremgangsmåte
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](hvor_er_html.html){target=_blank}
 
 # Steg 1: Se {.activity}
 - [ ] Kan være litt vrient å finne HTML-en som er ment å finne, derfor er det viktig at elevene inspiserer ved å høyreklikke på det stedet på nettsiden de ønsker å inspisere. 
@@ -63,8 +63,4 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 - [ ] Her kan det være lurt å snakke om hvilke bilder man kan ta fra nettet og hvilke som har Copy Right.
 
 ## Variasjoner {.challenge}
-- [ ] Elevene kan gjøre det samme med andre nettsteder. Hva med å få dem til å endre dagens nyheter eller legge til egne lover i <a href="https://lovdata.no/" target="_blank"> Lovdata</a>?
-
-## Kommentarer {.challenge}
-[Bruk gjerne forumet vårt til å diskutere oppgavene.](https://forum.kidsakoder.no/c/oppgaver)
-
+- [ ] Elevene kan gjøre det samme med andre nettsteder. Hva med å få dem til å endre dagens nyheter eller legge til egne lover i [lovdata.no](http://lovdata.no){target=_blank}?
