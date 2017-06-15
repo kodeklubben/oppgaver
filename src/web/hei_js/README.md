@@ -47,7 +47,7 @@ __Tidsbruk__: Enkelttime
 - [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse av HTML.
 
 # Fremgangsmåte
-Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](hei_js.html)
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](hei_js.html){target=_blank}
 
 # Steg 1: Bruke JS Bin {.activity}
 - [ ] Her kan det være at elevene ikke skriver inn riktig URL/Link.
