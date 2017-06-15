@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - JS: Hei JavaScript!
+title: "Lærerveiledning - JS: Hei JavaScript!"
 language: nb
 ---
 
@@ -71,7 +71,3 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 ## Variasjoner {.challenge}
 - [ ] Elevene kan lage egne funksjoner som skriver til konsollen.
 - [ ] Elevene kan lage andre dyr enn katt.
-
-## Kommentarer {.challenge}
-[Bruk gjerne forumet vårt til å diskutere oppgavene.](https://forum.kidsakoder.no/c/oppgaver)
-
