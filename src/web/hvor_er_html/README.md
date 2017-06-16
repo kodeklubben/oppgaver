@@ -62,7 +62,7 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 - [ ] Ingen kjente utfordringer... Legg gjerne til dersom det dukker opp noen når oppgaven blir brukt.
 
 # Steg 3: Legge til {.activity}
-- [ ] Her kan det være lurt å snakke om hvilke bilder man kan ta fra nettet og hvilke som har Copy Right.
+- [ ] Her kan det være lurt å snakke om hvilke bilder man kan ta fra nettet og hvilke som har Copyright.
 
 ## Variasjoner {.challenge}
 - [ ] Elevene kan gjøre det samme med andre nettsteder. Hva med å få dem til å endre dagens nyheter eller legge til egne lover i [lovdata.no](http://lovdata.no){target=_blank}?
