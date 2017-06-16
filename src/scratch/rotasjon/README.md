@@ -1,0 +1,53 @@
+---
+title: Lærerveiledning - Rotasjon rundt egen akse
+language: nb
+---
+
+# Om oppgaven {.activity}
+I denne oppgaven skal elevene lære å rotere en figur rundt egen akse.
+
+
+## Oppgaven passer til: {.check}
+ __Fag__: Matematikk
+
+__Trinn__: 7. trinn
+
+__Tema__: Rotasjon
+
+__Nivå__: Nybegynner
+
+__Tidsbruk__: Enkelttime
+
+
+## Kompetansemål {.challenge}
+
+- [ ]  __Matematikk, 7. årstrinn__: beskrive og gjennomføre speiling, rotasjon og parallellforskyvning
+
+- [ ]  __Matematikk, 7. årstrinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+
+
+## Forslag til læringsmål {.challenge}
+
+- [ ]  Elevene kan bruke matematiske begreper til å forklare hvordan rotasjon rundt et punkt fungerer.
+- [ ]  Elevene kan bruke matematiske begreper til å beskrive figurenes posisjon og bevegelse i koordinatsystemet.
+
+
+## Forslag til vurderingskriterier {.challenge}
+
+- [ ]  Eleven oppnår måloppnåelse ved å fullføre oppgaven og presentere skriftlig eller muntlig figurens rotasjon og bevegelse.
+
+
+## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: Ingen
+
+- [ ]  __Utstyr__: Datamaskin med internett
+
+
+# Fremgangsmåte
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../rotasjon/rotasjon.html){target=_blank}
+
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+
+
+## Variasjoner {.challenge}
+- [ ]  Denne oppgaven kan kombineres med oppgaven som handler om [rotasjon rundt et punkt](../rotasjon%20rundt%20punkt/rotasjon%20rundt%20punkt.html), og elevene kan for eksempel få i oppgave å beskrive og forklare forskjeller og likheter.
