@@ -1,6 +1,7 @@
 ---
 title: "Lærerveiledning - JS: Hei JavaScript!"
 language: nb
+Level: 2
 ---
 
 # Om oppgaven {.activity}
@@ -9,11 +10,9 @@ I denne oppgaven blir du introdusert for programmeringsspråket JavaScript. Du s
 ## Oppgaven passer til: {.check}
  __Fag__: Programmering
 
-__Trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8.-10. trinn
 
 __Tema__: JavaScript, web, html, funksjoner, variabler
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Enkelttime
 
@@ -34,17 +33,17 @@ __Tidsbruk__: Enkelttime
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Måloppnåelse: Eleven klarer å fullføre oppgaven
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Høy måloppnåelse: Eleven klarer å bruke det eleven har gjort i oppgaven til å videreutvikle koden sin. 
   - [ ] Eleven klarer å lage en egen funksjon som skriver ut noe til konsoll
 
 
 ## Forutsetninger og utstyr {.challenge}
+- [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse av HTML.
 
 - [ ] __Utstyr__: Datamaskiner med tilgang internett. Elevene kan fint jobbe to og to.
 
-- [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse av HTML.
 
 # Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](hei_js.html){target=_blank}
