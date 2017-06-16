@@ -1,6 +1,7 @@
 ---
 title: "Lærerveiledning - CSS: Endre utseende og stil på tekst"
 language: nb
+level: 2
 ---
 
 # Om oppgaven {.activity}
@@ -9,13 +10,11 @@ Denne oppgaven skal elevene jobbe videre med skrift, størrelser og farger. Elev
 Denne oppgaven bygger på forrige oppgave, [CSS: Style nettsider](../style_nettsider/style_nettsider.html), så hvis elevene ikke har gjort den, så anbefales det å gjøre den først. Evt så kan elevene kopiere koden som ligger nederst på siden til [CSS: Style nettsider](../style_nettsider/style_nettsider.html).
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering
+ __Fag__: Programmering, Teknologi i praksis
 
-__Trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8.-10. trinn
 
 __Tema__: HTML, CSS, web, fonter, klasser, id
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Enkelttime
 
@@ -24,6 +23,7 @@ __Tidsbruk__: Enkelttime
 
 - [ ]  __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett er tekstbasert
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon 
+- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 
 
 ## Forslag til læringsmål {.challenge}
@@ -41,10 +41,10 @@ __Tidsbruk__: Enkelttime
 
 
 ## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: God kjennskap til HTML og gjort [CSS: Style nettsider](../style_nettsider/style_nettsider.html){target=_blank}.
 
 - [ ]  __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy
 
-- [ ]  __Forutsetninger__: God kjennskap til HTML og gjort [CSS: Style nettsider](../style_nettsider/style_nettsider.html){target=_blank}.
 
 
 # Fremgangsmåte
@@ -56,10 +56,7 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 # Steg 3: ID og klasser {.activity}
 - [ ] Det kan være litt vanskelig å huske på forskjellen mellom ID og klasser, derfor kan det være lurt å repetere dette flere ganger i løpet av timen.
 
-_Har du noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven? [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
-
 
 ## Variasjoner {.challenge}
 - [ ] La elevene gå tilbake til tidligere arbeid og legge til _id_ og _klasser_. 
  
-_Har du noen forslag til variasjoner tilknyttet denne oppgaven? [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
