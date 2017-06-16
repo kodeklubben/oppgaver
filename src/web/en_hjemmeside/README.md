@@ -1,19 +1,18 @@
 ---
 title: "Lærerveiledning - HTML: Vi bygger hjemmeside"
 language: nb
+level: 1
 ---
 
 # Om oppgaven {.activity}
 I denne oppgaven skal elevene bruke HTML-tags til å lage sin første hjemmeside.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering
+ __Fag__: Programmering, teknologi i praksis
 
-__Trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8.-10. trinn
 
-__Tema__: HTML, web, html
-
-__Nivå__: Nybegynner
+__Tema__: HTML, web,
 
 __Tidsbruk__: Dobbeltime eller mer.
 
@@ -21,6 +20,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
+- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 
 
 ## Forslag til læringsmål {.challenge}
@@ -29,10 +29,11 @@ __Tidsbruk__: Dobbeltime eller mer.
 - [ ] Elevene klarer å inspisere en hjemmeside for å se hvordan den er oppbygd
 - [ ] Klarer å tolke en feil dersom elevene har skrevet feil HTML-tag
 - [ ] Elevene klarer å lenke to sider sammen
+- [ ] Elevene klarer å se at en nettside er bygget opp av HTML
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Måloppnåelse: Eleven klarer å fullføre oppgaven
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Høy måloppnåelse: Eleven klarer å bruke det eleven har gjort i oppgaven til å videreutvikle koden sin. 
   - [ ] Eleven klarer å lage flere sider som kan lenkes sammen til den allerede lagde _Om meg-siden_.
