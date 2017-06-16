@@ -30,7 +30,7 @@ __Tidsbruk__: Enkelttime
 ## Forslag til læringsmål {.challenge}
 
 - [ ]  Elevene kan bruke matematiske begreper til å forklare hvordan rotasjon rundt et punkt fungerer.
-- [ ]  Elevene kan bruke matematiske begreper til å beskrive figurenes posisjon og bevekelse i koordinatsystemet.
+- [ ]  Elevene kan bruke matematiske begreper til å beskrive figurenes posisjon og bevegelse i koordinatsystemet.
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -52,4 +52,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 
 
 ## Variasjoner {.challenge}
-- [ ]  Denne oppgaven kan kombineres med oppgaven som handler om [rotasjon rundt egen akse](../rotasjon/rotasjon.html), og elevene kan for eksempel få i oppgave å beskrive og forklare forskjeller og likheter. 
+- [ ]  Denne oppgaven kan kombineres med oppgaven som handler om [rotasjon rundt egen akse](../rotasjon/rotasjon.html), og elevene kan for eksempel få i oppgave å beskrive og forklare forskjeller og likheter.
