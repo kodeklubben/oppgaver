@@ -1,19 +1,18 @@
 ---
 title: "Lærerveiledning - HTML: Forsvunnet katt"
 language: nb
+level: 2
 ---
 
 # Om oppgaven {.activity}
 Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i nabolaget, men du innser at å lage en webside gjør at mange fler kan se den. Eleven skal derfor lage en hjemmeside for den forsvunnede katten.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Norsk, programmering
+ __Fag__: Norsk, Programmering, Teknologi i praksis
 
-__Trinn__: 4.-10. trinn
+__Anbefalte trinn__: 7.-10. trinn
 
 __Tema__: HTML, css, web
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime
 
@@ -23,6 +22,7 @@ __Tidsbruk__: Dobbelttime
 - [ ]  __Norsk, 4. trinn__: lage tekster som kombinerer ord, lyd og bilde, med og uten digitale verktøy
 - [ ] __Prorammering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 - [ ] __Programmering, valgfag__: dokumentere og forklare programkode gjennom å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 
 
 ## Forslag til læringsmål {.challenge}
@@ -32,20 +32,21 @@ __Tidsbruk__: Dobbelttime
 - [ ] Elevene kan legge til paragrafer av tekst som er relevant til et bilde
 - [ ] Elevene vet hva meta-data er og klarer å legge dette til på nettsiden
 - [ ] Elevene klarer å legge til kommentarer i HTML-filen sin
+- [ ] Elevene klarer se hvordan HTML og CSS brukes sammen for å lage nettsider
 
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ]  Eleven oppnår måloppnåelse ved å fullføre oppgaven.
-- [ ]  Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
 
 
 
 ## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: Bør ha gjort oppgaven [Vi bygger hjemmeside](../en_hjemmeside/en_hjemmeside.html){target=_blank}.
 
 - [ ]  __Utstyr__: Datamaskiner med internett og tekstbehandlingsprogram.
 
-- [ ]  __Forutsetninger__: Bør ha gjort oppgaven [Vi bygger hjemmeside](../en_hjemmeside/en_hjemmeside.html){target=_blank}.
 
 
 # Fremgangsmåte
