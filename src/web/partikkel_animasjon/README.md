@@ -1,6 +1,7 @@
 ---
 title: "Lærerveiledning - JS: Partikkel-animasjon"
 language: nb
+level: 2
 ---
 
 # Om oppgaven {.activity}
@@ -14,8 +15,6 @@ Denne oppgaven er den første i en liten serie av andre `partikkel`-oppgaver, de
 __Trinn__: 4.-10. trinn
 
 __Tema__: JavaScript, HTML, CSS, web, objektorientering, variabler, canvas, funksjoner
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbeltime eller mer.
 
@@ -44,8 +43,8 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ]  Eleven oppnår måloppnåelse ved å fullføre oppgaven.
-- [ ]  Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
     - [ ] Eleven klarer å få partikkelet til å bevege seg på andre måter enn bare diagonalt.
     - [ ] Eleven klarer å legge til flere partikler.
     - [ ] Eleven klarer å videreutvikle partikkelet ut i fra egen kreativitet.
@@ -53,10 +52,10 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 
 ## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: Bør ha gjort [JS: Grunnleggende JavaScript](../grunnleggende_js/grunnleggende_js.html){target=_blank} og ha kjennskap til grunnleggende HTML og CSS.
 
 - [ ]  __Utstyr__: Datamaskiner med internett og tekstbehandlingsverktøy.
 
-- [ ]  __Forutsetninger__: Bør ha gjort [JS: Grunnleggende JavaScript](../grunnleggende_js/grunnleggende_js.html){target=_blank} og ha kjennskap til grunnleggende HTML og CSS.
 
 
 # Fremgangsmåte
@@ -65,9 +64,6 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 # Generelt  {.activity}
 - [ ]  Bruk forklaringene under hvert steg i oppgaven. Disse forklarer de sentrale temaene og begrepene som blir brukt i oppgaven.
 - [ ] Pass på at syntaxen i JavaScript blir riktig underveis i oppgaven. 
-
-
-_Har du noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven? [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
 
 
 ## Variasjoner {.challenge}
