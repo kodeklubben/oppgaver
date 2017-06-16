@@ -1,6 +1,7 @@
 ---
 title: "Lærerveiledning - JS: Grunnleggende JavaScript"
 language: nb
+level: 2
 ---
 
 # Om oppgaven {.activity}
@@ -9,11 +10,9 @@ I denne oppgaven skal du lære helt enkle og grunnleggende elementer av `JavaScr
 ## Oppgaven passer til: {.check}
  __Fag__: Matematikk, programmering
 
-__Trinn__: 4.-10. trinn
+__Anbefalte trinn__: 7.-10. trinn
 
 __Tema__: JavaScript, løkker, if-setninger, funksjoner, variabeler
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime
 
@@ -47,10 +46,10 @@ __Tidsbruk__: Dobbelttime
 
 
 ## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: Ingen forutsetninger, men kan være greit å kunne litt HTML og CSS selvom dette ikke brukes i oppgaven. 
 
 - [ ]  __Utstyr__: Datamaskin med internett og tekstbehandlingverktøy ([JSbin.com](https://jsbin.com/?js,console) er anbefalt)
 
-- [ ]  __Forutsetninger__: Ingen forutsetninger, men kan være greit å kunne litt HTML og CSS selvom dette ikke brukes i oppgaven. 
 
 
 # Fremgangsmåte
@@ -60,8 +59,6 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 - [ ] Viktig å skrive riktig syntax, elevene må være obs på dette under hele oppgaven.
 - [ ] Mye tekst i oppgaven, men dette skyldes at alt blir forklart nøye.
 
-
-_Har du noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven? [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
 
 
 ## Variasjoner {.challenge}
