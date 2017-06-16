@@ -1,6 +1,7 @@
 ---
 title: "Lærerveiledning - HTML: Introduksjon til Web"
 language: nb
+level: 1
 ---
 
 # Om oppgaven {.activity}
@@ -8,13 +9,11 @@ Målet med dette oppgavesettet er å gi eleven en enkel introduksjon til interne
 
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering
+ __Fag__: Programmering, Teknologi i praksis
 
-__Trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8.-10. trinn
 
-__Tema__: HTML, web, html, internett
-
-__Nivå__: Nybegynner
+__Tema__: HTML, web, internett
 
 __Tidsbruk__: Dobbeltime.
 
@@ -22,6 +21,8 @@ __Tidsbruk__: Dobbeltime.
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
+
+- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 
 
 ## Forslag til læringsmål {.challenge}
@@ -31,17 +32,17 @@ __Tidsbruk__: Dobbeltime.
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Måloppnåelse: Eleven klarer å fullføre oppgaven
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Høy måloppnåelse: Eleven klarer å bruke det eleven har gjort i oppgaven til å videreutvikle koden sin.
   - [ ] Eleven klarer å legge til innhold på egen side ved hjelp av HTML-tags.
 
 
 ## Forutsetninger og utstyr {.challenge}
+- [ ] __Forutsetninger__: Ingen.    
 
 - [ ] __Utstyr__: Datamaskiner med tilgang internett og nettleser [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html){target=_blank} (anbefalt). Elevene kan fint jobbe to og to.
 
-- [ ] __Forutsetninger__: Ingen.    
 
 # Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten](introduksjon_til_web.html){target=_blank}.
