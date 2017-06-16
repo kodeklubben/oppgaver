@@ -1,6 +1,7 @@
 ---
 title: "Lærerveiledning - CSS: Animasjon"
 language: nb
+level: 1
 ---
 
 # Om oppgaven {.activity}
@@ -12,8 +13,6 @@ I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS.
 __Trinn__: 4.-10. trinn
 
 __Tema__: Animasjon, web, html, css
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime eller mer. 
 
@@ -44,16 +43,16 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Måloppnåelse: Eleven klarer å fullføre oppgaven.
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 - [ ] Høy måloppnåelse: Eleven klarer å videreutvikle egen kode basert på oppgaven.
     - [ ] Eleven klarer å lage en ny animasjon med andre bilder, tekst og bakgrunn.
 
 
 ## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: Kjennskap til HTML og CSS.
 
 - [ ]  __Utstyr__: Datamaskin med tilgang på internett og tekstbehandlingsprogram.
 
-- [ ]  __Forutsetninger__: Kjennskap til HTML og CSS.
 
 
 # Fremgangsmåte
