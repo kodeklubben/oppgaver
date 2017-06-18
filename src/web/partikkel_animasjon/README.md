@@ -12,7 +12,7 @@ Denne oppgaven er den første i en liten serie av andre `partikkel`-oppgaver, de
 ## Oppgaven passer til: {.check}
  __Fag__: Matematikk, programmering
 
-__Trinn__: 4.-10. trinn
+__Anbefalte trinn__: 7.-10. trinn
 
 __Tema__: JavaScript, HTML, CSS, web, objektorientering, variabler, canvas, funksjoner
 
@@ -34,7 +34,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ]  Eleven kan tegne et kvadrat ved hjelp av canvas
+- [ ] Eleven kan tegne et kvadrat ved hjelp av canvas
 - [ ] Eleven kan bruke HTML, CSS og JavaScript sammen til å vise kvadratet
 - [ ] Eleven kan bruke JavaScript til å lage et objekt
 - [ ] Eleven kan bruke JavaScript til å bevege et objekt horisontalt, vertikalt og diagonalt ved hjelp av canvas
