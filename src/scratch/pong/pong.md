@@ -24,13 +24,13 @@ andre spilleren poeng.
 
 ## Plan {.check}
 
-+ Hvordan lage en sprettende ball-figur
+- [ ] Hvordan lage en sprettende ball-figur
 
-+ Litt mer kontroll på hvordan ballen spretter
+- [ ] Litt mer kontroll på hvordan ballen spretter
 
-+ Racketer som spillerne kan styre
+- [ ] Racketer som spillerne kan styre
 
-+ Poeng, lyder og slikt
+- [ ] Poeng, lyder og slikt
 
 # Steg 1: En sprettende ball {.activity}
 

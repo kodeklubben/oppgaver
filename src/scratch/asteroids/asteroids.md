@@ -26,13 +26,13 @@ asteroider ved å skyte dem i småbiter.
 
 ## Plan {.check}
 
-+ Enda et flyvende romskip
+- [ ] Enda et flyvende romskip
 
-+ Romskipet kan skyte!
+- [ ] Romskipet kan skyte!
 
-+ Pass deg for asteroidene
+- [ ] Pass deg for asteroidene
 
-+ .. og andre utfordringer
+- [ ] .. og andre utfordringer
 
 # Steg 1: Enda et flyvende romskip {.activity}
 
