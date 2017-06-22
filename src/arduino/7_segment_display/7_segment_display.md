@@ -13,11 +13,11 @@ La oss se på å få et display til å telle.
 
 ## Til denne oppgaven trenger du {.check}
 
-+ 1 Arduino Uno
-+ 1 breadboard
-+ 2 motstander 1k Ohm (Fargekode: brun-svart-rød-gull)
-+ 11 ledninger
-+ 1 7-segment display
+- [ ] 1 Arduino Uno
+- [ ] 1 breadboard
+- [ ] 2 motstander 1k Ohm (Fargekode: brun-svart-rød-gull)
+- [ ] 11 ledninger
+- [ ] 1 7-segment display
 
 ![utstyr](utstyr.jpg)
 

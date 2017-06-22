@@ -31,13 +31,13 @@ spise eplene og om å stenge hverandre inne.
 
 ## Plan {.check}
 
-+ Slangen flytter på seg ... eller?
+- [ ] Slangen flytter på seg ... eller?
 
-+ Styr slangen til den krasjer!
+- [ ] Styr slangen til den krasjer!
 
-+ Epler og annet snadder.
+- [ ] Epler og annet snadder.
 
-+ Vegger, bonusepler, flere slanger og andre utfordringer.
+- [ ] Vegger, bonusepler, flere slanger og andre utfordringer.
 
 # Steg 1: Slangen flytter på seg ... eller? {.activity}
 

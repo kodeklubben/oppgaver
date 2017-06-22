@@ -17,11 +17,11 @@ I denne oppgaven trenger vi i hovedsak en buzzer.
 
 ## Dette trenger du {.check}
 
-+ 1 Arduino Uno
-+ 1 breadboard
-+ 2 ledninger
-+ 1 buzzer
-+ 1 motstand 270 Ohm (rød-lilla-brun-gull)
+- [ ] 1 Arduino Uno
+- [ ] 1 breadboard
+- [ ] 2 ledninger
+- [ ] 1 buzzer
+- [ ] 1 motstand 270 Ohm (rød-lilla-brun-gull)
 
 <figure><img src="buz.jpg" style="width: 900px"></figure>
 

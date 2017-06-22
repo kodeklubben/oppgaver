@@ -10,14 +10,14 @@ language: nb
 
 ## Sjekkliste {.check}
 
-+ Lag en ny figur og se om du klarer å få den til å se ut som den
+- [ ] Lag en ny figur og se om du klarer å få den til å se ut som den
   lyden du vil lage.
 
-+ I fanen `Lyder`, lag et nytt opptak eller importer en lydfil.
+- [ ] I fanen `Lyder`, lag et nytt opptak eller importer en lydfil.
 
   ![Lyder](sound-sample.png)
 
-+ Trykk på figuren og lag et skript som sender en melding til figuren
+- [ ] Trykk på figuren og lag et skript som sender en melding til figuren
   når man trykker på den:
 
   ```blocks
@@ -25,14 +25,14 @@ language: nb
   send melding [katt v]
   ```
 
-+ Nå må vi spille lyden når den får den rette meldingen.
+- [ ] Nå må vi spille lyden når den får den rette meldingen.
 
   ```blocks
   når jeg mottar [katt v]
   spill lyden [meow v]
   ```
 
-+ Til slutt endrer vi utseende når lyden spilles.
+- [ ] Til slutt endrer vi utseende når lyden spilles.
 
   ```blocks
   når jeg mottar [katt v]

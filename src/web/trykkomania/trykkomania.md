@@ -57,9 +57,9 @@ Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi s
   }
   ```
 
-- `el.style.backgroundColor = 'black'` gjør ballen svart.
-- `el.style.width = '60px'` gjør ballen 60 [piksler](https://no.wikipedia.org/wiki/Piksel) bred.
-- `el.style.height = '60px'` gjør ballen 60 piksler høy.
+- [ ] `el.style.backgroundColor = 'black'` gjør ballen svart.
+- [ ] `el.style.width = '60px'` gjør ballen 60 [piksler](https://no.wikipedia.org/wiki/Piksel) bred.
+- [ ] `el.style.height = '60px'` gjør ballen 60 piksler høy.
 - [ ] La oss legge ballen til siden:
 
   ```js
@@ -83,7 +83,7 @@ Vi skal bruke JavaScript til å lage innholdet på websiden. Dette betyr at vi s
   ![](firkantet_ball.png)
 
 Ok, så den var ikke akkurat rund. Vi kan bruke `el.style.borderRadius` for å runde av hjørnene. Siden ballen er `60px` bred og høy, så avrunder vi kantene med `30px`, altså halvparten av 60.
-- Legg koden under de andre `el.style`-setningene:
+- [ ] Legg koden under de andre `el.style`-setningene:
 
   ```js
   el.style.borderRadius = '30px';
@@ -236,7 +236,7 @@ setInterval(function(){
   }, 2000);
   ```
 
-- `setInterval(function ..., 2000)` betyr kjør `function` hvert `2000` millisekund.
+- [ ] `setInterval(function ..., 2000)` betyr kjør `function` hvert `2000` millisekund.
 - [ ] 2000 millisekund er 2 sekunder, altså tegnes ballen på et nytt sted hvert andre sekund.
 
 ## Tips {.protip}
@@ -327,7 +327,7 @@ Nå har du en ball som spretter rundt. La oss legge til poeng. Vi har laget en p
   ```
   **Obs:** Det skal **ikke** være `()` på slutten av `poeng.øk`. Dette er fordi funksjonen ikke kjøres her, men hver gang noen klikker på ballen.
 
-- `ball.onclick = poeng.øk;` betyr at funksjonen `poeng.øk()` kjøres når noen klikker på ballen.
+- [ ] `ball.onclick = poeng.øk;` betyr at funksjonen `poeng.øk()` kjøres når noen klikker på ballen.
 - [ ] Sjekk at du får poeng når du treffer ballen med et klikk.
 
   ![](poeng.gif)
@@ -479,7 +479,7 @@ Så langt kan spillet omstartes ved å oppdatere nettleseren. Er det ikke stilig
   }
   ```
 
-- `start` skal kjøres hver gang en knapp klikkes, så vi trenger en knapp.
+- [ ] `start` skal kjøres hver gang en knapp klikkes, så vi trenger en knapp.
 - [ ] Legg til koden for knappen i bunnen av programmet.
 
   ```js
@@ -526,7 +526,7 @@ Så langt kan spillet omstartes ved å oppdatere nettleseren. Er det ikke stilig
   knapp.onclick = start;
   ```
 
-- `knapp.onclick` bestemmer hva som skal skje når knappen klikkes.
+- [ ] `knapp.onclick` bestemmer hva som skal skje når knappen klikkes.
 - [ ] Knappen vises ikke, så vi må bestemme at den skal vises når spillet er slutt.
 
   ```js

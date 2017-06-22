@@ -13,11 +13,11 @@ I denne oppgaven skal vi se på å få en RGB-lysdiode til å lyse.
 
 ## Til denne oppgaven trenger du {.check}
 
-+ 1 Arduino Uno
-+ 1 breadboard
-+ 1 motstand 1k Ohm (Fargekode: brun-svart-rød-gull)
-+ 4 ledninger
-+ 1 RGB-lysdiode
+- [ ] 1 Arduino Uno
+- [ ] 1 breadboard
+- [ ] 1 motstand 1k Ohm (Fargekode: brun-svart-rød-gull)
+- [ ] 4 ledninger
+- [ ] 1 RGB-lysdiode
 
 ![utstyr](utstyr.jpeg)
 

@@ -205,6 +205,6 @@ min_hemmelige_fil.txt
 
 Dette må du gjøre:
 
-* Spør brukeren om et filnavn
-* Endre filnavnet slik som beskrevet ovenfor
-* Skrive ut det nye filnavnet
+- [ ] Spør brukeren om et filnavn
+- [ ] Endre filnavnet slik som beskrevet ovenfor
+- [ ] Skrive ut det nye filnavnet
