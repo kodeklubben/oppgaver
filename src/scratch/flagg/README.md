@@ -73,14 +73,14 @@ nedenfor er ment å illustrere dette visuelt.
 
 ## Presentasjon {.check}
 
-+ Start et nytt Scratchprosjekt ved å klikke `Programmering` fra
+- [ ] Start et nytt Scratchprosjekt ved å klikke `Programmering` fra
   hovedsiden, eller `Ny` i `Fil`-menyen.
 
 Vi vil først se på enkle sirkelbevegelser som barna sannsynligvis allerede er
 kjent med. Spør gjerne barna hvordan de vil kode en figur som beveger seg i
 sirkel før du viser dem eksemplene under.
 
-+ Det enkleste er nok å gi en figur denne koden:
+- [ ] Det enkleste er nok å gi en figur denne koden:
 
   ```blocks
   for alltid
@@ -92,7 +92,7 @@ sirkel før du viser dem eksemplene under.
   Her er det ikke veldig farlig akkurat hva tallene er. Eksperimenter gjerne med
   verdiene for å se hvordan det påvirker sirkelbevegelsen.
 
-+ En annen måte å få en figur til å gå i sirkel på er vist frem i
+- [ ] En annen måte å få en figur til å gå i sirkel på er vist frem i
   [Soloball-oppgaven](../soloball/soloball.html).
 
   Stopp det forrige skriptet, og dra figuren tilbake omtrent midt på
@@ -114,12 +114,12 @@ Spesielt spør hvordan man kan få figuren til å se i spesielle retninger mens 
 beveger seg i sirkel? _Siden vi bruker retningen til figuren i sirkelbevegelsen
 kan vi ikke samtidig få den til å se i en gitt annen retning._
 
-+ Lag en ny figur (fordi den forrige figuren er flyttet vekk fra sentrum).
+- [ ] Lag en ny figur (fordi den forrige figuren er flyttet vekk fra sentrum).
 
-+ Lag en variabel, `(vinkel)`{.b}. I denne presentasjonen er det ikke viktig om
+- [ ] Lag en variabel, `(vinkel)`{.b}. I denne presentasjonen er det ikke viktig om
   den gjelder for alle eller kun denne figuren.
 
-+ Skriv denne koden:
+- [ ] Skriv denne koden:
 
   ```blocks
   sett [vinkel v] til [45]
@@ -133,25 +133,25 @@ kan vi ikke samtidig få den til å se i en gitt annen retning._
 
   Dette vil tegne en rettvinklet trekant hvor den ene vinkelen er 45 grader.
 
-+ Legg gjerne inn `vent (3) sekunder`{.b}-klosser etter de to `sett x til
+- [ ] Legg gjerne inn `vent (3) sekunder`{.b}-klosser etter de to `sett x til
   ()`{.b}- og `sett y til ()`{.b}-klossene for å vise hva henholdsvis `[cos v]
   av (vinkel)`{.b} og `[sin v] av (vinkel)`{.b} tilsvarer.
 
-+ Tegn trekanter med forskjellige vinkler (ved å endre på tallet i `sett
+- [ ] Tegn trekanter med forskjellige vinkler (ved å endre på tallet i `sett
   [vinkel v] til []`{.b}-klossen). Vis gjerne hva som skjer om `(vinkel)`{.b} er
   0, 90, større enn 90, eller til og med negativ.
 
 Om du trenger å slette noen av trekantene som har blitt tegnet kan du bruke
 `slett`{.b}-klossen.
 
-+ Når du har tegnet en del trekanter kan du spørre om noen av barna ser at du
+- [ ] Når du har tegnet en del trekanter kan du spørre om noen av barna ser at du
   har begynt å tegne en sirkel? _De ytterste hjørnene i trekantene vil
   etterhvert danne en sirkel fordi den skrå streken, hypotenusen, er like lang i
   alle trekantene._
 
   ![](sirkel_trekant.png)
 
-+ For å vise frem at trekantene virkelig danner en sirkel kan du bruke en
+- [ ] For å vise frem at trekantene virkelig danner en sirkel kan du bruke en
   `gjenta`{.blockcontrol}-løkke på denne måten:
 
   ```blocks

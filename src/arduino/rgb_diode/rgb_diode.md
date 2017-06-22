@@ -13,11 +13,11 @@ I denne oppgaven skal vi se på å få en RGB-lysdiode til å lyse.
 
 ## Til denne oppgaven trenger du {.check}
 
-+ 1 Arduino Uno
-+ 1 breadboard
-+ 1 motstand 1k Ohm (Fargekode: brun-svart-rød-gull)
-+ 4 ledninger
-+ 1 RGB-lysdiode
+- [ ] 1 Arduino Uno
+- [ ] 1 breadboard
+- [ ] 1 motstand 1k Ohm (Fargekode: brun-svart-rød-gull)
+- [ ] 4 ledninger
+- [ ] 1 RGB-lysdiode
 
 ![utstyr](utstyr.jpeg)
 
@@ -98,7 +98,7 @@ for (auto led = 9; led <= 11; ++led) {
 
 ### Utfordring {.challenge}
 
-+ Klarer du å skrive om det første programmet i denne oppgaven til å bruke `for`-løkker istedenfor `while`-løkker?
+- [ ] Klarer du å skrive om det første programmet i denne oppgaven til å bruke `for`-løkker istedenfor `while`-løkker?
 
 
 # Nøstede løkker {.activity}
@@ -130,7 +130,7 @@ Skriv inn koden og se selv hva den gjør.
 
 ### Utfordringer {.challenge}
 
-+ Kan du få lysdioden til å først øke så senke fargeintensiteten før den bytter farge? (`++i` øker i med 1, `--i` minker i
+- [ ] Kan du få lysdioden til å først øke så senke fargeintensiteten før den bytter farge? (`++i` øker i med 1, `--i` minker i
   med 1)
-+ Kan du få lysdioden til å sykle gjennom alle fargekombinasjonene?
+- [ ] Kan du få lysdioden til å sykle gjennom alle fargekombinasjonene?
  (blå, grønn, blå + grønn, rød, rød + blå, rød + grønn, rød + blå + grønn)

@@ -42,10 +42,10 @@ på noe stort og flatt vil du se at den kan være veldig presis!
 
 ## Til denne oppgaven trenger du {.check}
 
-+ 1 Arduino Uno
-+ 1 breadboard
-+ 1 ultralydsensor
-+ 6 ledninger
+- [ ] 1 Arduino Uno
+- [ ] 1 breadboard
+- [ ] 1 ultralydsensor
+- [ ] 6 ledninger
 
 ![utstyr](utstyr.jpeg)
 
@@ -120,10 +120,10 @@ For å åpne seriellkonsollet går du til __Tools -> Serial Monitor__
 
 ## Utfordring {.challenge}
 
-+ Klarer du å få en lysdiode til å lyse når noe er nærmere enn 20 cm?
-+ klarer du å få en lysdiode til å lyse sterkere jo nærmere noe er (husk `PWM`-pinner)?
+- [ ] Klarer du å få en lysdiode til å lyse når noe er nærmere enn 20 cm?
+- [ ] klarer du å få en lysdiode til å lyse sterkere jo nærmere noe er (husk `PWM`-pinner)?
 
 ## Utfordring (Vanskelig) {.challenge}
 
-+ Klarer du å få et 7-Segment Display til å si hvor nærme du er på en skala fra
+- [ ] Klarer du å få et 7-Segment Display til å si hvor nærme du er på en skala fra
   0-9 (husk `map`-funksjonen og oppgaven [7-Segment Display](../7_segment_display/7_segment_display.html))?

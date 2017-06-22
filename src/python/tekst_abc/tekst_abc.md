@@ -110,10 +110,10 @@ Alice In Wonderland
 
 Dette må du gjøre:
 
-* Be om at brukeren skriver inn en filmtittel.
-* Lagre filmtittelen i en variabel.
-* Manipuler strengen slik at resultatet blir som beskrevet over.
-* Skriv ut den nye strengen.
+- [ ] Be om at brukeren skriver inn en filmtittel.
+- [ ] Lagre filmtittelen i en variabel.
+- [ ] Manipuler strengen slik at resultatet blir som beskrevet over.
+- [ ] Skriv ut den nye strengen.
 
 
 # Telling av tekst {.activity}
@@ -160,10 +160,10 @@ Du skrev inn 3 ord.
 
 Dette må du gjøre:
 
-* Be brukeren om tekst.
-* Lagre teksten til en variabel.
-* Regn ut hvor mange ord som er i teksten.
-* Skriv ut hvor mange ord teksten inneholder.
+- [ ] Be brukeren om tekst.
+- [ ] Lagre teksten til en variabel.
+- [ ] Regn ut hvor mange ord som er i teksten.
+- [ ] Skriv ut hvor mange ord teksten inneholder.
 
   **Hint:** husk å konvertere fra tall til tekst med `str()`-funksjonen.
 
@@ -205,6 +205,6 @@ min_hemmelige_fil.txt
 
 Dette må du gjøre:
 
-* Spør brukeren om et filnavn
-* Endre filnavnet slik som beskrevet ovenfor
-* Skrive ut det nye filnavnet
+- [ ] Spør brukeren om et filnavn
+- [ ] Endre filnavnet slik som beskrevet ovenfor
+- [ ] Skrive ut det nye filnavnet

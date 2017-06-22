@@ -86,7 +86,7 @@ være lurt å gå tilbake og lese igjennom alle de gule boksene i oppgaven.
 
 Du skal nå skrive kode i funksjonen. Dette må du gjøre:
 
-* For å konvertere `secret_word` til ei liste må du bruke funksjonen `list()`.
+- [ ] For å konvertere `secret_word` til ei liste må du bruke funksjonen `list()`.
   Du kan gi en streng som argument til `list()`, også returneres en liste av
   bokstaver.
 
@@ -95,17 +95,17 @@ Du skal nå skrive kode i funksjonen. Dette må du gjøre:
   ['o', 'r', 'd']
   ```
 
-* Slå sammen bokstavene til en streng igjen, med ett mellomrom mellom hver
+- [ ] Slå sammen bokstavene til en streng igjen, med ett mellomrom mellom hver
   bokstav.
 
   **Hint:** `s.join(lst)`
 
-* Bytt ut hver bokstav som er i det nye ordet vårt og i `remaining_letters`
+- [ ] Bytt ut hver bokstav som er i det nye ordet vårt og i `remaining_letters`
   med `_`, slik som i eksempelet over.
 
   **Hint:** `s.replace()`
 
-* Husk å returnere det hemmelige ordet.
+- [ ] Husk å returnere det hemmelige ordet.
 
 # Steg 2: Å starte spillet {.activity}
 
@@ -129,29 +129,29 @@ Nøklene i `state` er som følger:
 
 Dette må du gjøre:
 
-* Lag følgende nøkkel/verdi-par:
+- [ ] Lag følgende nøkkel/verdi-par:
 
   * Nøkkel: `"running"` Verdi: `True`
   * Nøkkel: `"used_tries"` Verdi: `0`
   * Nøkkel: `"pressed_button"` Verdi: `""` (En tom streng)
   * Nøkkel: `"help_text"` Verdi: `"Guess a letter!"`
 
-* For å velge et tilfeldig ord skal vi bruke `random.choice()`. Ved å gi denne
+- [ ] For å velge et tilfeldig ord skal vi bruke `random.choice()`. Ved å gi denne
   funksjonen en liste som argument returneres et tilfeldig element i lista.
 
-  * Gi `WORDS` som argument og bruk det returnerte ordet som verdien som
+  - [ ] Gi `WORDS` som argument og bruk det returnerte ordet som verdien som
     tilhører nøkkelen `"secret_word"`.
 
-* Vi skal nå lage lista over bokstaver som brukeren ikke har gjettet. For å
+- [ ] Vi skal nå lage lista over bokstaver som brukeren ikke har gjettet. For å
   gjøre dette bruker vi de 26 første bokstavene i `string.ascii_letters`, og
   legger disse til lista.
 
-  * La den tilhørende verdien til `"remaining_letters"` være en tom liste.
-  * Bruk `enumerate()` og gå igjennom de 26 første bokstavene i
+  - [ ] La den tilhørende verdien til `"remaining_letters"` være en tom liste.
+  - [ ] Bruk `enumerate()` og gå igjennom de 26 første bokstavene i
     `string.ascii_letters`, og legg disse til `state["remaining_letters"]`.
 
     **Hint:** Bruk `lst.append(elm)`
-* For å lage verdien som hører til `"display_string"` må vi bruke funksjonen
+- [ ] For å lage verdien som hører til `"display_string"` må vi bruke funksjonen
   vi lagde i [steg 1](#steg-1-lage-det-hemmelige-ordet). Hvilke to argumenter
   skal vi gi til funksjonen?
 
@@ -174,9 +174,9 @@ hjelpefunksjoner får beskjed om at spillet er over.
 
 Dette må du gjøre:
 
-* Endre `state["running"]` til `False`.
+- [ ] Endre `state["running"]` til `False`.
 
-* Endre verdien til `state["display_string"]` slik at brukeren kan se løsningen, selv
+- [ ] Endre verdien til `state["display_string"]` slik at brukeren kan se løsningen, selv
   om brukeren ikke har vunnet.  Dette kan du gjøre ved hjelp av funksjonen fra
   [steg 1](#steg-1-lage-det-hemmelige-ordet).
 
@@ -193,11 +193,11 @@ brukeren har brukt opp alle forsøkene sine eller om han har gjettet riktig ord.
 
 Dette må du gjøre:
 
-* Du finner bokstaven brukeren trykket på i `state["pressed_button"]`. Det kan
+- [ ] Du finner bokstaven brukeren trykket på i `state["pressed_button"]`. Det kan
   være lurt å lagre denne i en egen variabel, så du slipper å skrive
   `state["pressed_button"]` mange ganger.
 
-* Dersom bokstaven finnes i `state["remaining_letters"]`, må programmet gjøre
+- [ ] Dersom bokstaven finnes i `state["remaining_letters"]`, må programmet gjøre
   det følgende:
 
   * Fjern bokstaven fra lista
@@ -205,13 +205,13 @@ Dette må du gjøre:
     `state["display_string"]`, hvis ikke har brukeren brukt opp ett forsøk,
     og du må legge til en til `state["used_tries"]`.
 
-* Sjekk om brukeren har brukt opp alle forsøkene sine. Dersom det er tilfelle
+- [ ] Sjekk om brukeren har brukt opp alle forsøkene sine. Dersom det er tilfelle
   må du endre på `state["help_text"]` til `"You lost!"`. Til slutt må du kalle
   funksjonen `game_over()`.
 
   **Hint:** Sjekk om `state["used_tries"]` er større eller lik `TRIES`.
 
-* Vi må også sjekke om brukeren har gjettet ordet. En måte dette kan gjøres på
+- [ ] Vi må også sjekke om brukeren har gjettet ordet. En måte dette kan gjøres på
   er å sjekke hvor mange `"_"` det er i `state["display_string"]`. Bruk
   `s.count("_")` for å telle antall understreker. Dersom det ikke er flere
   understreker har brukeren vunnet spillet, og du må da endre
@@ -227,15 +227,15 @@ pgzrun hangman.py
 
 Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
 
-* Slik kan det se ut når spilleren vinner.
+- [ ] Slik kan det se ut når spilleren vinner.
 
   ![](./hangman_won_game.png)
 
-* Når spilleren taper kan det se ut omtrent som i bildet under. Pass på det
+- [ ] Når spilleren taper kan det se ut omtrent som i bildet under. Pass på det
   følgende:
-  * Det skal ikke være mulig å taste inn flere bokstaver. Dersom du har
+  - [ ] Det skal ikke være mulig å taste inn flere bokstaver. Dersom du har
     mulighet til dette har du glemt å sette `state["running"] = False` i
     `game_over()`.
-  * Pass på at du viser løsningsordet nederst.
+  - [ ] Pass på at du viser løsningsordet nederst.
 
   ![](./hangman_lost_game.png)

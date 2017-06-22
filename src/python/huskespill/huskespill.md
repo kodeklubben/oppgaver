@@ -1,4 +1,4 @@
-﻿---
+---
 title: Huskespill
 level: 3
 author: Sindre O. Rasmussen, Kodeklubben Trondheim
@@ -16,10 +16,10 @@ Vi vil bygge programmet gradvis steg for steg. I hvert steg vil det gis viktige 
 
 
 # Steg 1: Utvid en liste med tilfeldige element {.activity}
-- Lag en funksjon som tar inn en liste som parameter.
-- Funksjonen skal legge til et tilfeldig ord på slutten av lista.
-- Funksjonen skal returnere den utvidede lista.
-- **Før du går videre til steg 2, sjekk at funksjonen din fungerer som den skal.**
+- [ ] Lag en funksjon som tar inn en liste som parameter.
+- [ ] Funksjonen skal legge til et tilfeldig ord på slutten av lista.
+- [ ] Funksjonen skal returnere den utvidede lista.
+- [ ] **Før du går videre til steg 2, sjekk at funksjonen din fungerer som den skal.**
 
 ## Tips: Lister {.protip}
 **Hva:** En liste er en variabel som kan lagre flere verdier på en gang.
@@ -68,10 +68,10 @@ Prøv å kjør denne koden mange ganger!
 
 
 # Steg 2: Hent inn tekst og lag liste av den {.activity}
-- Lag en funksjon som tar inn tekst og lager en liste av den.
-- Teksten som tas inn skal splittes ved `-`.
-- Funksjonen skal returnere listen.
-- **Før du går videre til steg 3, sjekk at funksjonen din fungerer som den skal.**
+- [ ]Lag en funksjon som tar inn tekst og lager en liste av den.
+- [ ] Teksten som tas inn skal splittes ved `-`.
+- [ ] Funksjonen skal returnere listen.
+- [ ] **Før du går videre til steg 3, sjekk at funksjonen din fungerer som den skal.**
 
 ## Tips: Hente innputt {.protip}
 For å hente innputt og lagre det til en variabel kan vi bruke [`input()`].
@@ -101,13 +101,13 @@ Merk `'-'` som står i parentesen `split('-')`. Denne forteller hvilket tegn som
 
 
 # Steg 3: Lag spillet {.activity}
-- Bruk funksjonene fra steg 1 og 2 til å lage programmet.
-- Programmet skal benytte to lister. En som utvides for hver runde, og en som lages ved hjelp av ordene som brukeren skriver inn.
-- Så lenge listene er like skal programmet kjøre.
-- Når programmet er ferdig, skriv ut hvor mange ord spilleren klarte å huske.
+- [ ] Bruk funksjonene fra steg 1 og 2 til å lage programmet.
+- [ ] Programmet skal benytte to lister. En som utvides for hver runde, og en som lages ved hjelp av ordene som brukeren skriver inn.
+- [ ] Så lenge listene er like skal programmet kjøre.
+- [ ] Når programmet er ferdig, skriv ut hvor mange ord spilleren klarte å huske.
 
 
 ## Sjekkliste for oppgaven {.check}
-* Avsluttes spillet når det huskes feil?
-* Får spilleren vite hvor mange han eller hun husket riktig?
-* Blir lista som skal huskes usynlig for spilleren? (Tips: Skriv ut tomrom mange ganger.)
+- [ ] Avsluttes spillet når det huskes feil?
+- [ ] Får spilleren vite hvor mange han eller hun husket riktig?
+- [ ] Blir lista som skal huskes usynlig for spilleren? (Tips: Skriv ut tomrom mange ganger.)

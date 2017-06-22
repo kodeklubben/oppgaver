@@ -34,7 +34,7 @@ ____/\___/      \___/\___
 
 ## Sjekkliste {.check}
 
-+ Å tegne den første er lett. Som alltid er den første linjen `from turtle
+- [ ] Å tegne den første er lett. Som alltid er den første linjen `from turtle
 import *` så Python vet at vi vil tegne. Dette programmet tegner linjen,
 sjekk at du får det til
 
@@ -51,7 +51,7 @@ sjekk at du får det til
   kommer til å lage prosedyrer for alle formene, så la oss legge dem til i
   filen vi lager.
 
-+ Legg til litt kode så koden din blir slik som denne:
+- [ ] Legg til litt kode så koden din blir slik som denne:
 
   ```python
   from turtle import *
@@ -71,7 +71,7 @@ sjekk at du får det til
   second()
   ```
 
-+ Kjør koden din og se hva den gjør, tegner den riktig figur? Det skal se slik ut
+- [ ] Kjør koden din og se hva den gjør, tegner den riktig figur? Det skal se slik ut
 
   ```
               /\
@@ -98,7 +98,7 @@ Du kan se at vi tegner den andre figuren (det enkle fjellet), deretter snur vi, 
 
 ## Sjekkliste {.check}
 
-+ Istedenfor å skrive alle bevegelsene, la oss tegne den tredje figuren ved å kalle `second`
+- [ ] Istedenfor å skrive alle bevegelsene, la oss tegne den tredje figuren ved å kalle `second`
 
   ```
   from turtle import *
@@ -134,7 +134,7 @@ Vi får til dette ved å dele problemet i to: Det enkle problemet og spesialtilf
 
 ## Sjekkliste {.check}
 
-+ Lag en ny fil med koden under:
+- [ ] Lag en ny fil med koden under:
 
   ```
   from turtle import *
@@ -157,13 +157,13 @@ Vi får til dette ved å dele problemet i to: Det enkle problemet og spesialtilf
 
   Du kan se at vi har brukt kode som er veldig likt `first`, `second` og `third`. Vi bruker en `if`-setning for å finne ut om vi skal tegne det enkle tilfellet eller spesialtilfellet. I det spesielle tilfellet ber vi om å tegne et fjell, akkurat slik som `third` kalte `second`, men vi ber den om å tegne en enklere hver gang, med en ny verdi for `depth`, en mindre enn det vi startet med.
 
-+ Kjør det og se hva som skjer. Hva skjer om du prøver `mountain(1)`, `mountain(2)`, eller `mountain(4)`?
+- [ ] Kjør det og se hva som skjer. Hva skjer om du prøver `mountain(1)`, `mountain(2)`, eller `mountain(4)`?
 
 # Steg 4: Tegn et snøflak av fjell {.activity}
 
 ## Sjekkliste {.check}
 
-+ La oss bare legge til en siste ting til filen fra i sted, så den ser ut som under. Vi legger til en ny prosedyre `snowflake`:
+- [ ] La oss bare legge til en siste ting til filen fra i sted, så den ser ut som under. Vi legger til en ny prosedyre `snowflake`:
 
   ```python
 
@@ -197,7 +197,7 @@ Vi får til dette ved å dele problemet i to: Det enkle problemet og spesialtilf
 
   Dette heter et fraktal, fordi de små bildene er laget av små versjoner av seg selv.
 
-+ Prøv å kjøre `snowflake(1, 50)`, `snowflake(2, 25)`, `snowflake(3, 20)`. Jo større dybde, jo lenger tar det å tegne, så husk å putte inn `speed(11)` så skilpadden går så fort den kan!
+- [ ] Prøv å kjøre `snowflake(1, 50)`, `snowflake(2, 25)`, `snowflake(3, 20)`. Jo større dybde, jo lenger tar det å tegne, så husk å putte inn `speed(11)` så skilpadden går så fort den kan!
 
 # Steg 5: Bokser, flere bokser, og enda flere bokser {.activity}
 
@@ -231,7 +231,7 @@ Akkurat som med fjellet er det et enkelt tilfelle: en rett linje, og et spesialt
 
 # Sjekkliste {.check}
 
-+ La oss åpne en ny fil og forsøke å tegne det andre bildet, som er det vi skal gjenta:
+- [ ] La oss åpne en ny fil og forsøke å tegne det andre bildet, som er det vi skal gjenta:
 
   ```python
   from turtle import *
@@ -247,7 +247,7 @@ Akkurat som med fjellet er det et enkelt tilfelle: en rett linje, og et spesialt
   forward(30)
   ```
 
-+ Kjør det og sjekk at du får denne figuren:
+- [ ] Kjør det og sjekk at du får denne figuren:
 
   ```
 
@@ -265,7 +265,7 @@ Vi har det enkle tilellet `forward(100)`, og vi vet hvordan vi skal tegne linjen
 
 ## Sjekkliste {.check}
 
-+ Åpne en ny fil i IDLE og skriv inn følgende:
+- [ ] Åpne en ny fil i IDLE og skriv inn følgende:
 
   ```python
   from turtle import *
@@ -295,7 +295,7 @@ Vi har det enkle tilellet `forward(100)`, og vi vet hvordan vi skal tegne linjen
   xcurve(4,5)
   ```
 
-+ Vi har ikke skrevet inn spesialtilfellet, det har vi tenkt å la deg gjøre. Det er ganske likt som å programmere linjen vi hadde før, det burde holde å kalle `box(newdepth, length)` for å få det til. Koden burde se veldig lik ut som fjellet og snøflaket.
+- [ ] Vi har ikke skrevet inn spesialtilfellet, det har vi tenkt å la deg gjøre. Det er ganske likt som å programmere linjen vi hadde før, det burde holde å kalle `box(newdepth, length)` for å få det til. Koden burde se veldig lik ut som fjellet og snøflaket.
 
 # Steg 7: Trekanter igjen {.activity}
 
@@ -335,7 +335,7 @@ De første tre versjonene ser ut som dette. Vi tegner et triangel, og så tegner
 
 ## Sjekkliste {.check}
 
-+ Lag en ny fil og prøv det!
+- [ ] Lag en ny fil og prøv det!
 
   ```python
   from turtle import *
@@ -377,15 +377,15 @@ De første tre versjonene ser ut som dette. Vi tegner et triangel, og så tegner
 
   Du har kanskje lagt merke til at vi bruker en ny kommando `setpos` for å flytte skilpadden til hjørnet av skjermen.
 
-+ Kjør det og se hva som skjer. Vi kan se at det enkle tilfellet er bare å tegne en trekant, og at spesialtilfellet er å tegne tre små trekanter.
+- [ ] Kjør det og se hva som skjer. Vi kan se at det enkle tilfellet er bare å tegne en trekant, og at spesialtilfellet er å tegne tre små trekanter.
 
-+ Prøv å endre verdiene vi sender til `triforce()`, endre den siste linjen til `triforce(5, 300)`, hva gjør den?
+- [ ] Prøv å endre verdiene vi sender til `triforce()`, endre den siste linjen til `triforce(5, 300)`, hva gjør den?
 
 # Steg 8: Bobler {.activity}
 
 ## Sjekkliste {.check}
 
-+ Hvis du vil kan du tegne med sirkler istedenfor trekanter! Åpne en ny fil og skriv inn følgende kode:
+- [ ] Hvis du vil kan du tegne med sirkler istedenfor trekanter! Åpne en ny fil og skriv inn følgende kode:
 
   ```python
   from turtle import *
@@ -416,6 +416,6 @@ De første tre versjonene ser ut som dette. Vi tegner et triangel, og så tegner
   bubble(6, 512)
   ```
 
-+ Hva skjer? Hva ser det ut som? Vi har brukt `circle` kommandoen for å tegne en sirkel på skjermen, som tar en radius.
+- [ ] Hva skjer? Hva ser det ut som? Vi har brukt `circle` kommandoen for å tegne en sirkel på skjermen, som tar en radius.
 
-+ Forsøk å endre sirkelens radius, bytt ut `circle(length/2)` med `circle(length)`, dette tegner en større sirkel istedenfor.
+- [ ] Forsøk å endre sirkelens radius, bytt ut `circle(length/2)` med `circle(length)`, dette tegner en større sirkel istedenfor.
