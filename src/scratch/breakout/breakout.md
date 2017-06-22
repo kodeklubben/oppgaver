@@ -27,13 +27,13 @@ ulik vanskelighetsgrad og så videre.
 
 ## Plan {.check}
 
-- [ ] Bokser ... Mange bokser!
++ Bokser ... Mange bokser!
 
-- [ ] En sprettende ball og en enkel racket
++ En sprettende ball og en enkel racket
 
-- [ ] Boksene forsvinner ...
++ Boksene forsvinner ...
 
-- [ ] Fallende bokser, bonuser, flere brett og andre utfordringer
++ Fallende bokser, bonuser, flere brett og andre utfordringer
 
 # Steg 1: Bokser ... Mange bokser! {.activity}
 

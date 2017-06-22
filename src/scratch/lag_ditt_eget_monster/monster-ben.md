@@ -10,7 +10,7 @@ language: nb
 
 ## Sjekkliste {.check}
 
-- [ ] Ved å bruke to figurer til bein kan vi få monsteret vårt til å
++ Ved å bruke to figurer til bein kan vi få monsteret vårt til å
   gå. For å gjøre dette lager vi en **variabel** som bytter mellom de
   to tilstandene, én for når beinet peker forover og en annen når
   beinet går bakover (vi bytter om på tilstandene for det andre
@@ -38,7 +38,7 @@ language: nb
   slutt
   ```
 
-- [ ] Nå kan vi sette beina i bevegelse ved å sjekke vår
++ Nå kan vi sette beina i bevegelse ved å sjekke vår
   `steg`{.blockdata}-variabel. **Når variabelen blir satt til null**
   kan vi bytte retning på beinet (her har vi brukt en fast
   `retning`{.blockmotion} for å hindre at beinet går amok hvis

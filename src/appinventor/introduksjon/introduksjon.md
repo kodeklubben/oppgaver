@@ -15,19 +15,19 @@ Dette er en introduksjon til *MIT App Inventor*, hvor du skal lære å lage appl
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til [ai2.appinventor.mit.edu](http://ai2.appinventor.mit.edu/).
-- [ ] Logg inn med en Google-konto, for eksempel en gmail-adresse. Dersom du lurer på om epost-adressen din er en Google-konto, [kan du sjekke det her](https://support.google.com/accounts/answer/40560?hl=no).
-- [ ] Når du har logget inn vil App Inventor be om tillatelse til å åpne kontoen din.
-- [ ] Trykk **Tillat** for å gi App Inventor tilgang.
++ Gå til [ai2.appinventor.mit.edu](http://ai2.appinventor.mit.edu/).
++ Logg inn med en Google-konto, for eksempel en gmail-adresse. Dersom du lurer på om epost-adressen din er en Google-konto, [kan du sjekke det her](https://support.google.com/accounts/answer/40560?hl=no).
++ Når du har logget inn vil App Inventor be om tillatelse til å åpne kontoen din.
++ Trykk **Tillat** for å gi App Inventor tilgang.
 
 # Steg 2: Starte et nytt prosjekt {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] Etter innlogging blir du videresendt til prosjekt-siden.
-- [ ] Trykk på **Start new project** for å komme igang.
-- [ ] Navngi prosjektet slik du ønsker selv, for eksempel `HelloWorld`.
-- [ ] Du blir nå videresendt til programmeringen.
++ Etter innlogging blir du videresendt til prosjekt-siden.
++ Trykk på **Start new project** for å komme igang.
++ Navngi prosjektet slik du ønsker selv, for eksempel `HelloWorld`.
++ Du blir nå videresendt til programmeringen.
 
 # Steg 3: Bli kjent med menyene {.activity}
 
@@ -51,12 +51,12 @@ For de som allerede er kjent med programmering i Scratch, vil en del allerede v�
 
 ## Sjekkliste {.check}
 
-- [ ] Trykk på knappen i høyre hjørne med navnet **Blocks**.
-- [ ] En programmeringsskjerm vises.
-- [ ] Trykk på kategorien **Logic**.
-- [ ] Her ser du hvilke funksjoner du kan bruke fra **Logic** kategorien.
-- [ ] Velg en funksjon og dra den over til kode-feltet.
-- [ ] Klikk på funksjonen din og dra den over til søppelbøtta nede til høyre for å fjerne den igjen.
++ Trykk på knappen i høyre hjørne med navnet **Blocks**.
++ En programmeringsskjerm vises.
++ Trykk på kategorien **Logic**.
++ Her ser du hvilke funksjoner du kan bruke fra **Logic** kategorien.
++ Velg en funksjon og dra den over til kode-feltet.
++ Klikk på funksjonen din og dra den over til søppelbøtta nede til høyre for å fjerne den igjen.
 
 Samme framgangsmåte brukes for å legge til og fjerne komponenter i appen. Trykk [her](http://appinventor.mit.edu/explore/designer-blocks.html) for å se hvordan det ser ut.
 
@@ -66,15 +66,15 @@ For å se litt på hvordan dette fungerer, skal du lage en test-app. Du har alle
 
 ## Sjekkliste {.check}
 
-- [ ] Det første du gjør er å legge inn en knapp på skjermen. Det gjør du ved å gå til **Palette** og **User Interface**.
++ Det første du gjør er å legge inn en knapp på skjermen. Det gjør du ved å gå til **Palette** og **User Interface**.
   Der velger du **Button**, og drar den over til skjermem i **Viewer**. Legg merke til at knappen vises på skjermen.
-- [ ] Neste steg er å legge inn lyd. Dette gjør du ved å gå til **Palette** og **Media**. Der velger du **TextToSpeech**,
++ Neste steg er å legge inn lyd. Dette gjør du ved å gå til **Palette** og **Media**. Der velger du **TextToSpeech**,
   og drar den over til skjermer vår i **Viewer**. Legg merke til at den ikke vises på skjermen, men legger seg
   under **Non-visible components**.
-- [ ] Så vil du endre litt på designet. Det første du gjør da er å trykke på **Screen1** på **Components**,
++ Så vil du endre litt på designet. Det første du gjør da er å trykke på **Screen1** på **Components**,
   hvor du går til **AlignHorizontal** og velger **Center**. Du kan også gå til **AlignVertical** og velge **Center**.
   Til slutt kan du gå til **Title** og skrive inn `Hello world`.
-- [ ] Vi vil også endre litt på knappen. Dette gjør vi ved å trykke på **Button1** under **Components**. Der endrer vi **FrontSize** til `60`,
++ Vi vil også endre litt på knappen. Dette gjør vi ved å trykke på **Button1** under **Components**. Der endrer vi **FrontSize** til `60`,
   **Height** til `100 pixels`, **Width** til `Fill parent` og **Text** til `Hello world`.
 
 I neste steg får du se hvordan appen ser ut, selv om den ikke er ferdig.
@@ -98,19 +98,19 @@ For å kunne teste appen din på en telefon mens du programmerer så trenger du 
 
 ## Sjekkliste {.check}
 
-- [ ] En datamaskin til å bygge appen.
-- [ ] En Android-telefon.
-- [ ] Tilgang til WIFI.
++ En datamaskin til å bygge appen.
++ En Android-telefon.
++ Tilgang til WIFI.
 
 For å kunne teste appen må du gjøre følgende:
 
 ## Sjekkliste {.check}
 
-- [ ] Last ned *MIT AI2 Companion App* til telefonen din. Den finner du på Google Play.
-- [ ] Koble telefonen din og datamaskinen din til det samme WIFI-nettverket.
-- [ ] Når du er i App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på **Connect**.
++ Last ned *MIT AI2 Companion App* til telefonen din. Den finner du på Google Play.
++ Koble telefonen din og datamaskinen din til det samme WIFI-nettverket.
++ Når du er i App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på **Connect**.
   Trykk på **Connect**, og velg **AI Companion**.
-- [ ] I ruten som dukker opp på skjermen så står det to ting; en QR-kode og en bokstav-kode. Åpne MIT AI2 Companion App
++ I ruten som dukker opp på skjermen så står det to ting; en QR-kode og en bokstav-kode. Åpne MIT AI2 Companion App
   på telefonen din. Der kan du velge om du vil scanne QR-koden eller skrive inn bokstav-koden manuelt. Begge deler fungerer
   helt fint, så du kan velge hva du ønsker å gjøre.
 
@@ -126,23 +126,23 @@ For å kunne teste appen din på en emulator mens du programmerer så trenger du
 
 ## Sjekkliste {.check}
 
-- [ ] [Windows](http://appinventor.mit.edu/explore/ai2/windows.html).
-- [ ] [Mac OS X](http://appinventor.mit.edu/explore/ai2/mac.html).
-- [ ] [GNU/Linux](http://appinventor.mit.edu/explore/ai2/linux.html).
++ [Windows](http://appinventor.mit.edu/explore/ai2/windows.html).
++ [Mac OS X](http://appinventor.mit.edu/explore/ai2/mac.html).
++ [GNU/Linux](http://appinventor.mit.edu/explore/ai2/linux.html).
 
 Når "App Inventor Setup Software" er installert gjør du følgende:
 
 ## Sjekkliste {.check}
 
-- [ ] Åpne "aiStarter", det er viktig at dette kjører i bakgrunnen. Dette vil skje automatisk på Mac ved installasjon,
++ Åpne "aiStarter", det er viktig at dette kjører i bakgrunnen. Dette vil skje automatisk på Mac ved installasjon,
   og i noen tilfeller på Windows også. Dersom du har Linux må du skrive inn følgende i kommandolinjen.
 
   ```sh
   /usr/google/appinventor/commands-for-appinventor/aiStarter &
   ```
-- [ ] Når du er i MIT App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på "Connect".
++ Når du er i MIT App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på "Connect".
   Trykk på "Connect", og velg "Emulator". Da vil du se at "aiStarter" begynner å arbeide. Dette kan ta en stund.
-- [ ] Etterhvert vil emulatoren bli klar, ved å først vise en svart skjerm. Så vil en mobil-bakgrunn dukke opp, før du
++ Etterhvert vil emulatoren bli klar, ved å først vise en svart skjerm. Så vil en mobil-bakgrunn dukke opp, før du
   til slutt får opp appen du har laget.
 
 Nå kan du teste appen på emulatoren din.
@@ -167,11 +167,11 @@ Nå er du klar for å programmere komponentene i appen vår. Det kan du gjøre p
 
 ## Sjekkliste {.check}
 
-- [ ] Trykk på "Blocks" i høyre hjørne. Da kommer du til programmeringsskjermen.
-- [ ] Trykk på "Button1" under "Blocks" i menyen til venstre. Da kommer en ny meny opp. Velg øverste blokk som heter "when Button1.Click - do",
++ Trykk på "Blocks" i høyre hjørne. Da kommer du til programmeringsskjermen.
++ Trykk på "Button1" under "Blocks" i menyen til venstre. Da kommer en ny meny opp. Velg øverste blokk som heter "when Button1.Click - do",
   og dra den over i "Viewer".
-- [ ] Trykk så på "TextToSpeech1" under "Blocks", og velg "call TextToSpeech1.Speak - message". Dra denne inn i blokken som allerede er der.
-- [ ] Til slutt kan du trykke på "Text" under "Blocks". Velg den øverste blokken, som er en tom streng, og koble den til "message" i kodeblokken din.
++ Trykk så på "TextToSpeech1" under "Blocks", og velg "call TextToSpeech1.Speak - message". Dra denne inn i blokken som allerede er der.
++ Til slutt kan du trykke på "Text" under "Blocks". Velg den øverste blokken, som er en tom streng, og koble den til "message" i kodeblokken din.
   Klikk inni den tomme strengen og skriv "Hello world!".
 
 Nå er appen din kodet ferdig, men det er lurt å sjekke at den fungerer som den skal.
@@ -186,9 +186,9 @@ Når appen din er ferdig, så kan du bygge den. Det vil si at koden din blir pak
 
 ## Sjekkliste {.check}
 
-- [ ] For å laste appen inn på en Android-telefon så må du trykke på "Build" i hovedmenyen øverst, også trykke på "App (provide QR code for .apk)".
++ For å laste appen inn på en Android-telefon så må du trykke på "Build" i hovedmenyen øverst, også trykke på "App (provide QR code for .apk)".
   Da vil den bygge appen, også vise deg en QR-kode på skjermen som du kan scanne med telefonene din, for eksempel via "MIT AI2 Companion App".
-- [ ] For å laste appen ned til datamaskinen din trykker du på "Build", også på "App (save .apk to my computer)". Da vil du laste ned appen,
++ For å laste appen ned til datamaskinen din trykker du på "Build", også på "App (save .apk to my computer)". Da vil du laste ned appen,
   slik at du kan åpne den i en Android-emulator eller sende filen til noen andre.
 
 ## Problemer {.tip}
@@ -201,10 +201,10 @@ For å lære mer om App Inventor så kan det være lurt å sjekke ut følgende l
 
 ## Sjekkliste {.check}
 
-- [ ] [App Inventor på Youtube](https://www.youtube.com/results?search_query=app+inventor).
++ [App Inventor på Youtube](https://www.youtube.com/results?search_query=app+inventor).
 
-- [ ] [Veiledninger for å lage apps](http://appinventor.mit.edu/explore/ai2/tutorials.html).
++ [Veiledninger for å lage apps](http://appinventor.mit.edu/explore/ai2/tutorials.html).
 
-- [ ] [Sjekke ut hvordan alle blokkene fungerer](http://appinventor.mit.edu/explore/ai2/support/blocks.html).
++ [Sjekke ut hvordan alle blokkene fungerer](http://appinventor.mit.edu/explore/ai2/support/blocks.html).
 
-- [ ] [Sjekke ut App Inventor sitt bibliotek](http://appinventor.mit.edu/explore/library.html).
++ [Sjekke ut App Inventor sitt bibliotek](http://appinventor.mit.edu/explore/library.html).

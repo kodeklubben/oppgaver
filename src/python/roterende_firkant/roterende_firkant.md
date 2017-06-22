@@ -9,8 +9,8 @@ language: nb
 I denne oppgaven skal du få en enkel introduksjon til hvordan man kan lage 3D-grafikk ved hjelp av python og OpenGL. Målet med denne oppgaven er å lage en kube som roterer, enkelt og greit.
 
 ## Ting du trenger for å komme i gang{.check}
-- [ ] pygame
-- [ ] OpenGL
++ pygame
++ OpenGL
 
 # Steg 1: Lage et tomt pygame-program {.activity}
 - [ ] Det første vi må gjøre er å importere en del fra diverse kodebiblioteker. Pygame er et bibliotek for å lage spill i python, og OpenGL kan brukes til å tegne grafikk både i 2D og 3D.

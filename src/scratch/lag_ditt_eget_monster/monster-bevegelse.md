@@ -10,7 +10,7 @@ language: nb
 
 ## Sjekkliste {.check}
 
-- [ ] Etterhvert vil monsteret ditt bestå av en mengde figurer og det vil
++ Etterhvert vil monsteret ditt bestå av en mengde figurer og det vil
   bli nødvendig å sørge for at alle figurene flyttes sammen. I stedet
   for å legge til flyttkommandoer på alle figurer, kan du rett og
   slett legge til kontroller på kroppsfiguren og bruke en `send
@@ -36,7 +36,7 @@ language: nb
   endre x med ((hastighet) * (-1))
   ```
 
-- [ ] Ved å bruke en `send melding`{.blockevents} kan vi også endre
++ Ved å bruke en `send melding`{.blockevents} kan vi også endre
   hvordan bevegelseskommandoen virker, ved å bare endre et
   skript. **Ta en titt på dette eksempelet:**
 
@@ -61,7 +61,7 @@ language: nb
   slutt
   ```
 
-- [ ] Her forteller vi at kroppen skal gå i den retningen den beveger seg
++ Her forteller vi at kroppen skal gå i den retningen den beveger seg
   i (husk å sette figur orienteringen til **“venstre-høyre”**) og for
   å stoppe og at den snur hvis den kolliderer med
   skjermkanten. Kanskje har du også lagt merke til at vi har lagt
@@ -73,7 +73,7 @@ language: nb
   andre venstrebevegelser ta et sekund også (bruk en
   `vent`{.blockcontrol}-kloss for å sørge at de er i samme steg).**
 
-- [ ] Du kan også animere kroppsfiguren ved å bruke `neste
++ Du kan også animere kroppsfiguren ved å bruke `neste
   drakt`{.blocklooks}, som kan aktiveres hver gang en
   bevegelsesmelding mottas.
 

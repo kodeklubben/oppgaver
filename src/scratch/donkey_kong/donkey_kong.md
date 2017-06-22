@@ -23,13 +23,13 @@ plattformer.
 
 ## Plan {.check}
 
-- [ ] Hvordan styre en plattform-helt som kan hoppe?
++ Hvordan styre en plattform-helt som kan hoppe?
 
-- [ ] Plattformer og stiger
++ Plattformer og stiger
 
-- [ ] Donkey Kong og rullende ildkuler
++ Donkey Kong og rullende ildkuler
 
-- [ ] .. og andre utfordringer
++ .. og andre utfordringer
 
 # Steg 1: En hoppende helt {.activity}
 

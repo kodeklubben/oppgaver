@@ -10,7 +10,7 @@ language: nb
 
 ## Sjekkliste {.check}
 
-- [ ] For å få et hjul til å bevege seg, kan vi **rotere** det litt av
++ For å få et hjul til å bevege seg, kan vi **rotere** det litt av
   gangen og flytte det når vi mottar en **flyttet melding**.
 
   ```blocks
@@ -23,7 +23,7 @@ language: nb
   vend venstre (15) grader
   ```
 
-- [ ] Hvis du vil, kan du erstatte verdiene med variabler som
++ Hvis du vil, kan du erstatte verdiene med variabler som
   `hastighet`{.blockdata}, slik at du kan kontrollere hastigheten i
   alle retninger fra ett sted.
 

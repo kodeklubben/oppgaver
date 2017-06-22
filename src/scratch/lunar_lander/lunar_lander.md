@@ -22,13 +22,13 @@ etter.
 
 ## Plan {.check}
 
-- [ ]  Et flyvende romskip
++  Et flyvende romskip
 
-- [ ] Vi ankommer månen
++ Vi ankommer månen
 
-- [ ] Klar for landing
++ Klar for landing
 
-- [ ] Begrenset drivstoff, flere landingsplasser og andre utfordringer
++ Begrenset drivstoff, flere landingsplasser og andre utfordringer
 
 # Steg 1: Et flyvende romskip {.activity}
 

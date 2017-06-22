@@ -57,11 +57,11 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 *Nå skal vi lage vår første krets på en Arduino.*
 
 ## Dette trenger du {.check}
-- [ ] 2 ledninger
-- [ ] 1 LED
-- [ ] 1 Arduino Uno
-- [ ] 1 breadboard
-- [ ] 1 motstand 220 Ohm (Fargekode: rød-rød-brun-gull)
++ 2 ledninger
++ 1 LED
++ 1 Arduino Uno
++ 1 breadboard
++ 1 motstand 220 Ohm (Fargekode: rød-rød-brun-gull)
 
   ![](komp.jpg)
 

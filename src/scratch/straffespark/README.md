@@ -124,14 +124,14 @@ sjelden problemer.
 
 ## Presentasjon {.check}
 
-- [ ] Start et nytt Scratchprosjekt ved å klikke `Programmering` fra
++ Start et nytt Scratchprosjekt ved å klikke `Programmering` fra
   hovedsiden, eller `Ny` i `Fil`-menyen.
 
-- [ ] Legg til en ekstra figur - for eksempel `Bat1` - slik at det er to
++ Legg til en ekstra figur - for eksempel `Bat1` - slik at det er to
   figurer i prosjektet. Dra dem rundt på scenen slik figurene er i
   hvert sitt hjørne.
 
-- [ ] Spør elevene hvordan de vil kode at katten beveger seg mot
++ Spør elevene hvordan de vil kode at katten beveger seg mot
   flaggermusa (den andre figuren)? Spesielt, pass på at de er bevisst
   hvilken figur som må programmeres (_Katten_). Spør om det det samme
   kan programmeres ved å legge et skript på den andre figuren (_Nei,
@@ -144,7 +144,7 @@ sjelden problemer.
   slutt
   ```
 
-- [ ] Hvordan kan vi programmere at flaggermusa rømmer fra katten når
++ Hvordan kan vi programmere at flaggermusa rømmer fra katten når
   katten tar (berører) den? Igjen, hvilken figur må programmeres?
   Kanskje begge? _Vi må programmere flaggermusa siden den rømmer
   (oppførsel)._ Her trenger vi ikke noe nytt program for katten så
@@ -161,7 +161,7 @@ sjelden problemer.
   slutt
   ```
 
-- [ ] Spør elevene om de kan tenke seg noen annen måte (enn
++ Spør elevene om de kan tenke seg noen annen måte (enn
   objektorientert) å programmere på?  Hvor man ikke knytter skriptene
   til figurene?
 

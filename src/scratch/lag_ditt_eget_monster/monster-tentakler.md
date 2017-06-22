@@ -10,7 +10,7 @@ language: nb
 
 ## Sjekkliste {.check}
 
-- [ ] For å få en tentakel til å bevege seg, kan vi **rotere** den og
++ For å få en tentakel til å bevege seg, kan vi **rotere** den og
   **endre størrelse** ved å bruke `tilfeldig tall`{.blockgreen} med en
   lav verdi i en variabel, for så å vente et øyeblikk før vi
   gjenoppretter den originale størrelsen.

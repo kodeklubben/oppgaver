@@ -10,7 +10,7 @@ language: nb
 
 ## Sjekkliste {.check}
 
-- [ ] Du kan gi monsteret øyne som følger musepekeren rundt på
++ Du kan gi monsteret øyne som følger musepekeren rundt på
   skjermen. Det kan ha så mange øyne som du vil, kankje har det åtte
   øyne, som en edderkopp! Siden vi alltid vil at monsterøynene skal
   følge musepekeren må vi sette `for alltid`{.blockcontrol}

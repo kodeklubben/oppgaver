@@ -42,10 +42,10 @@ på noe stort og flatt vil du se at den kan være veldig presis!
 
 ## Til denne oppgaven trenger du {.check}
 
-- [ ] 1 Arduino Uno
-- [ ] 1 breadboard
-- [ ] 1 ultralydsensor
-- [ ] 6 ledninger
++ 1 Arduino Uno
++ 1 breadboard
++ 1 ultralydsensor
++ 6 ledninger
 
 ![utstyr](utstyr.jpeg)
 

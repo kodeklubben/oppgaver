@@ -96,9 +96,9 @@ Hyggelig å treffe deg, Per!
 
 Dette må du gjøre:
 
-- [ ] Spør om brukerens navn.
-- [ ] Lagre brukerens navn i en variabel.
-- [ ] Skriv ut en hilsen til brukeren som inneholder navnet brukeren skrev inn.
+* Spør om brukerens navn.
+* Lagre brukerens navn i en variabel.
+* Skriv ut en hilsen til brukeren som inneholder navnet brukeren skrev inn.
 
 # if-elif-else {.activity}
 

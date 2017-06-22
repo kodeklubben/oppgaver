@@ -10,12 +10,12 @@ language: nb
 
 ## Sjekkliste {.check}
 
-- [ ] Lag to nye lister (for alle figurer). Kall en av dem
++ Lag to nye lister (for alle figurer). Kall en av dem
   `instrument`{.blocklist} og den andre `timing`{.blocklist}.
 
-- [ ] Lag en ny variabel (for alle figurer) som heter `opptak`{.blockdata}
++ Lag en ny variabel (for alle figurer) som heter `opptak`{.blockdata}
 
-- [ ] For hvert av instrumentene (tromme, piano, lyder etc.), må du legge
++ For hvert av instrumentene (tromme, piano, lyder etc.), må du legge
   til følgende i `når jeg mottar`{.blockevents} klossen.
 
   ```blocks
@@ -41,12 +41,12 @@ language: nb
   sett størrelse til (100) %
   ```
 
-- [ ] Tegn en ny figur og gi den en rød sirkeldrakt. Gi denne figuren
++ Tegn en ny figur og gi den en rød sirkeldrakt. Gi denne figuren
   navnet `Opptak`.
 
   ![](record-costume.png)
 
-- [ ] Lag et skript som setter `opptak`{.blockdata} til 1 og sletter alle
++ Lag et skript som setter `opptak`{.blockdata} til 1 og sletter alle
   `instrument`{.blocklist} og `timing`{.blocklist} når man trykker på
   det.
 
@@ -56,14 +56,14 @@ Trykk på opptaksknappen. Hva skjer når du spiller på instrumentene?
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en ny figur og lag en drakt som ser ut som en grønn pil.  Kall
++ Lag en ny figur og lag en drakt som ser ut som en grønn pil.  Kall
   denne `Spill av`.
 
   ![](play-costume.png)
 
-- [ ] Lag en ny variabel som du kaller `index`{.blockdata}.
++ Lag en ny variabel som du kaller `index`{.blockdata}.
 
-- [ ] Nå må vi få avspillingen til å gjøre noe. Legg dette skriptet til
++ Nå må vi få avspillingen til å gjøre noe. Legg dette skriptet til
   `Spill av`.
 
   ```blocks

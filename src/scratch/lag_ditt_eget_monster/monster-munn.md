@@ -10,7 +10,7 @@ language: nb
 
 ## Sjekkliste {.check}
 
-- [ ] For å få monsteret til å snakke, kan du bruke en
++ For å få monsteret til å snakke, kan du bruke en
   `si`{.blocklooks}-kloss.
 
   ```blocks
@@ -18,7 +18,7 @@ language: nb
   si [Hallo!] i (2) sekunder
   ```
 
-- [ ] For å gjøre det litt mer imponerende, kan du få monsteret til å
++ For å gjøre det litt mer imponerende, kan du få monsteret til å
   **åpne** og **lukke munnen** mens det prater. For å gjøre dette,
   rediger figuren som inneholder munnen - opprett en ny `drakt` som
   har lukket munn. Ved å bytte mellom de to, kan du animere at munnen
@@ -33,7 +33,7 @@ language: nb
   slutt
   ```
 
-- [ ] For å koble de to skriptene sammen, kan du få
++ For å koble de to skriptene sammen, kan du få
   `si`{.blocklooks}-klossen til å sende en melding, som den andre
   blokken kan reagere på.
 
@@ -51,7 +51,7 @@ language: nb
   slutt
   ```
 
-- [ ] For å gjøre det litt mer fleksibelt, bruk en variabel for å
++ For å gjøre det litt mer fleksibelt, bruk en variabel for å
   kontrollere `snakketid`{.blockdata}, hvor lenge monsteret sier noe,
   og for å kontrollere hvor mange ganger animasjonsløkken er gjentatt.
 
@@ -78,7 +78,7 @@ language: nb
 **(Merk at vi multipliserer snakketid med 4 for å være sikre på at
   løkken gjentas nok ganger)**
 
-- [ ] Du kan også få monsteret ditt til å si lyder ved å bruke en av
++ Du kan også få monsteret ditt til å si lyder ved å bruke en av
   lydklossene. Husk å importere lydene under `Lyd`-fanen.
 
   ```blocks
