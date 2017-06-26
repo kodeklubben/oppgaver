@@ -1,7 +1,7 @@
 ---
 title: "Lærerveiledning - CSS: Animasjon"
 language: nb
-level: 1
+level: 2
 ---
 
 # Om oppgaven {.activity}
@@ -10,7 +10,7 @@ I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS.
 ## Oppgaven passer til: {.check}
  __Fag__: Kunst og håndverk, matematikk, programmering
 
-__Trinn__: 4.-10. trinn
+__Anbefalte trinn__: 7.-10. trinn
 
 __Tema__: Animasjon, web, html, css
 
