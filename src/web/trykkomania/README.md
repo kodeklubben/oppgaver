@@ -1,6 +1,7 @@
 ---
 title: "Lærerveiledning - JS: Trykkomania"
 language: nb
+level: 2
 ---
 
 # Om oppgaven {.activity}
@@ -38,7 +39,12 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ]  Elevene kan...
+- [ ]  Eleven kan bruke enkle matematiske uttryksmåter for å øke eller minke variabler i JavaScript.
+- [ ] Eleven kan bruke JavaScript til å tegne en sirkel. 
+- [ ] Eleven kan plassere et element i på en nettside ved hjelp av koordinater på x- og y-aksen.
+- [ ] Eleven kan skrive kommentarer til sin egen kode i JavaScript.
+- [ ] Eleven kan bruke variabler, løkker og funksjoner til å manipulere elementer i JavaScript.
+- [ ] Eleven kan videreutvikle sitt ferdige produkt ved hjelp av egenprodusert JavaScript-kode.
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -47,21 +53,19 @@ __Tidsbruk__: Dobbeltime eller mer.
 - [ ]  Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
 
 ## Forutsetninger og utstyr {.challenge}
-
-- [ ]  __Utstyr__: 
-
 - [ ]  __Forutsetninger__: Oppgaven er *kun* javascript, men det lønner seg å ha kjennskap til HTML og CSS.
+- [ ]  __Utstyr__: Datamaskin med internett.
 
-## Konsepter i bruk i oppgaven {.challenge}
+## Konsepter brukt i oppgaven {.challenge}
 
-- [Variabler]
-- [Objekter]
-- [Funksjoner]
-- [Closures], funksjoner som husker konteksten de ble laget i.
-- [HTML-elementer] via javascript
-- [CSS-stil] via javascript
-- [`onclick`]
-- [`setInterval`]
+- [ ] [Variabler]
+- [ ] [Objekter]
+- [ ] [Funksjoner]
+- [ ] [Closures], funksjoner som husker konteksten de ble laget i.
+- [ ] [HTML-elementer] via javascript
+- [ ] [CSS-stil] via javascript
+- [ ] [`onclick`]
+- [ ] [`setInterval`]
 
 [Variabler]: https://developer.mozilla.org/en-US/docs/Glossary/Variable
 [Objekter]: https://developer.mozilla.org/en-US/docs/Glossary/Object
@@ -72,37 +76,47 @@ __Tidsbruk__: Dobbeltime eller mer.
 [`onclick`]: https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
 [`setInterval`]: https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval
 
+# Løsning {.challenge}
+[Her er en full løsning av oppgaven.](løsning.js)
 
 
 # Fremgangsmåte
-Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../OPPGAVENAVN/OPPGAVENAVN.html){target=_blank}
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../trykkomania/trykkomania.html){target=_blank}
+  
+# Generelt i oppgaven {.activity}
+- [ ] Elevene bør ha god og oversiktelig kode sånn at det er enkelt å finne feil. Dette oppnås ved å kommentere koden, samt bruke inntrykk og mellomrom mellom funksjoner og annen kode.
+- [ ] Elevene må passe på at variabelnavn og tegnsetting er riktig.
 
-# Steg 1:... {.activity}
-- [ ]  Her er det et vanlig problem at ...
+# Steg 2: Lage en ball {.activity}
+- [ ]  Elevene kjenner kanskje igjen CSS-elementer når de skal lage funksjonen _Ball()_. Her vises det at HTML og CSS kan programmeres gjennom JavaScript.
 
-# Steg 2: ... {.activity}
-- [ ]  Elevene må ...
+# Steg 3: Flytte ballen {.activity}
+- [ ] Elevene kan lure på hvor de skal legge til koden i dette steget, den skal legges til i funksjonen _Ball()_ fordi _el_ er en lokal varibel til funksjonen _Ball()_.
 
-ELLER
+# Steg 4: Flytte ballen med en funksjon {.activity}
+- [ ] Elevene kan være forvirret hva _x_ og _y_ er i denne oppgaven så her er det viktig å poengtere at dette er verdier som blir sendt inn senere i programmet, som vi ser rett før _Steg 5_. 
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+# Steg 5: Velg en tilfeldig plassering {.activity}
+- [ ] Her ser vi at vi kan legge til _strenger_ bak tall som er blitt regnet ut: _Math.random() * 100 + '%';_. Dette kan være svært nyttig for elevene å vite i senere oppgaver. 
+- [ ] Elever kan lure på hva _Math.random()_ er. Og ved å si _Math.random()_ så kaller vi på et bibliotek (_Math_), altså en innebygget JavaScript-fil, som inneholder funksjonen _random()_.
+
+# Steg 7: Poeng {.activity}
+- [ ] Elevene må kopiere koden akkurat som den står oppført, hvis ikke blir det fort feil.
+
+# Steg 8: Begrense tiden {.activity}
+- [ ] Elevene må kopiere koden akkurat som den står oppført, hvis ikke blir det fort feil.
+
+# Steg 9: Omstarte spillet {.activity}
+- [ ] Elevene må kopiere koden akkurat som den står oppført, hvis ikke blir det fort feil.
 
 
 ## Variasjoner {.challenge}
-- [ ]  Elevene skal finne andre datasett. Her kan det være en ide å ha noe klart på forhånd.
-- [ ]  Bruke datasett for å finne gjennomsnitt og median.
-
-ELLER
 - [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.[Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
 
 
 
 
 
-
-
-# Løsning {.activity}
-[Her er en full løsning av oppgaven.](løsning.js)
 
 
 
