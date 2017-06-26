@@ -49,8 +49,8 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ]  Eleven oppnår måloppnåelse ved å fullføre oppgaven.
-- [ ]  Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Oppgaven er *kun* javascript, men det lønner seg å ha kjennskap til HTML og CSS.
@@ -81,24 +81,24 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 
 # Fremgangsmåte
-Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../trykkomania/trykkomania.html){target=_blank}
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](trykkomania.html){target=_blank}
   
 # Generelt i oppgaven {.activity}
 - [ ] Elevene bør ha god og oversiktelig kode sånn at det er enkelt å finne feil. Dette oppnås ved å kommentere koden, samt bruke inntrykk og mellomrom mellom funksjoner og annen kode.
 - [ ] Elevene må passe på at variabelnavn og tegnsetting er riktig.
 
 # Steg 2: Lage en ball {.activity}
-- [ ]  Elevene kjenner kanskje igjen CSS-elementer når de skal lage funksjonen _Ball()_. Her vises det at HTML og CSS kan programmeres gjennom JavaScript.
+- [ ]  Elevene kjenner kanskje igjen CSS-elementer når de skal lage funksjonen `Ball()`. Her vises det at HTML og CSS kan programmeres gjennom JavaScript.
 
 # Steg 3: Flytte ballen {.activity}
-- [ ] Elevene kan lure på hvor de skal legge til koden i dette steget, den skal legges til i funksjonen _Ball()_ fordi _el_ er en lokal varibel til funksjonen _Ball()_.
+- [ ] Elevene kan lure på hvor de skal legge til koden i dette steget, den skal legges til i funksjonen `Ball()` fordi `el` er en lokal varibel til funksjonen `Ball()`.
 
 # Steg 4: Flytte ballen med en funksjon {.activity}
-- [ ] Elevene kan være forvirret hva _x_ og _y_ er i denne oppgaven så her er det viktig å poengtere at dette er verdier som blir sendt inn senere i programmet, som vi ser rett før _Steg 5_. 
+- [ ] Elevene kan være forvirret hva `x` og `y` er i denne oppgaven så her er det viktig å poengtere at dette er verdier som blir sendt inn senere i programmet, som vi ser rett før _Steg 5_. 
 
 # Steg 5: Velg en tilfeldig plassering {.activity}
-- [ ] Her ser vi at vi kan legge til _strenger_ bak tall som er blitt regnet ut: _Math.random() * 100 + '%';_. Dette kan være svært nyttig for elevene å vite i senere oppgaver. 
-- [ ] Elever kan lure på hva _Math.random()_ er. Og ved å si _Math.random()_ så kaller vi på et bibliotek (_Math_), altså en innebygget JavaScript-fil, som inneholder funksjonen _random()_.
+- [ ] Her ser vi at vi kan legge til _strenger_ bak tall som er blitt regnet ut: `Math.random() * 100 + '%';`. Dette kan være svært nyttig for elevene å vite i senere oppgaver. 
+- [ ] Elever kan lure på hva `Math.random()` er. Og ved å si `Math.random()` så kaller vi på et bibliotek (_Math_), altså en innebygget JavaScript-fil, som inneholder funksjonen `random()`.
 
 # Steg 7: Poeng {.activity}
 - [ ] Elevene må kopiere koden akkurat som den står oppført, hvis ikke blir det fort feil.
@@ -111,7 +111,7 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 
 
 ## Variasjoner {.challenge}
-- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.[Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
 
 
 
