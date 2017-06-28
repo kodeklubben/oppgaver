@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Felix og Herbert
+level: 1
 language: nb
 ---
 
@@ -13,8 +14,6 @@ I denne oppgaven skal elevene lage et spill hvor katten __Felix__ skal fange mus
 __Trinn__: 2.-10. trinn
 
 __Tema__: Historiefortelling, Variabler
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime eller mer
 
@@ -49,21 +48,21 @@ __Tidsbruk__: Dobbelttime eller mer
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Utstyr__: Datamaskiner med tilgang internett. Elevene kan fint jobbe to og to.
-
 - [ ] __Forutsetninger__: Dersom oppgaven skal brukes i engelskundervising er det lurt å bruke Scratch på engelsk. Slik skifter man språk:
   - [ ] På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
     å velge språk helt nederst på skjermen.
   - [ ] Inne i Scratch-editoren kan man trykke på jordkloden øverst til
     venstre for å endre språket som brukes.
 
+- [ ] __Utstyr__: Datamaskiner med tilgang internett. Elevene kan fint jobbe to og to.
+
 - [ ] __Forberedelser__: Felix og Herbert bruker bare ressurser som er inkludert i Scratch-platformen og krever som sådann ingen spesielle forberedelser.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../felix_og_herbert/felix_og_herbert.html){target=_blank}
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
 ## Variasjoner {.challenge}
 - [ ] Denne oppgaven kan brukes som et ledd i undervisning om skildringer og fortellinger. Enten kan elevene lage en fortelling først, og bruke denne til å legge et personlig preg på spillet (bakgrunn, farger, figurer etc.), eller elevene kan lage spillet og samtidig skrive en historie. Dette kan man bruke en dobbelttime på, eller kanskje helst jobbe med det over flere økter.
