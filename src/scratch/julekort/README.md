@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Julekort
+level: 1
 language: nb
 ---
 
@@ -13,8 +14,6 @@ I denne oppgaven skal elevene lære forskjellige måter de kan animere figurer p
 __Trinn__: 2.-10. trinn
 
 __Tema__: Juletradisjoner, Julemusikk
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime
 
@@ -42,14 +41,16 @@ __Tidsbruk__: Dobbelttime
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Utstyr__: Datamaskiner med tilgang internett. Oppgaven kan fint gjøres to-og-to.
-
 - [ ] __Forutsetninger__: Ingen.
 
-# Fremgangsmåte
+- [ ] __Utstyr__: Datamaskiner med tilgang internett. Oppgaven kan fint gjøres to-og-to.
+
+
+
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../julekort/julekort.html){target=_blank}
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
 ## Variasjoner {.challenge}
 - [ ] Elevene kan få i oppgave å lage julekort fra forskjellige land, med de ulike tradisjonene illustrert.
