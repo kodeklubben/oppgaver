@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Rotasjon rundt egen akse
+level: 1
 language: nb
 ---
 
@@ -13,8 +14,6 @@ I denne oppgaven skal elevene lære å rotere en figur rundt egen akse.
 __Trinn__: 7. trinn
 
 __Tema__: Rotasjon
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Enkelttime
 
@@ -34,7 +33,8 @@ __Tidsbruk__: Enkelttime
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ]  Eleven oppnår måloppnåelse ved å fullføre oppgaven og presentere skriftlig eller muntlig figurens rotasjon og bevegelse.
+- [ ]  Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven oppnår høy måloppnåelse ved å kunne presentere skriftlig eller muntlig figurens rotasjon og bevegelse ved bruk av matematiske begreper.
 
 
 ## Forutsetninger og utstyr {.challenge}
@@ -43,10 +43,10 @@ __Tidsbruk__: Enkelttime
 - [ ]  __Utstyr__: Datamaskin med internett
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../rotasjon/rotasjon.html){target=_blank}
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
 
 ## Variasjoner {.challenge}
