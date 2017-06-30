@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Soloball
+level: 1
 language: nb
 ---
 
@@ -12,8 +13,6 @@ I denne oppgaven skal elevene lage et ballspill hvor elevene kan spille vollybal
 __Trinn__: 4.-10. trinn
 
 __Tema__: Rotasjon, sirkel, løkker, tester, variabler, tilfeldighet
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime
 
@@ -39,21 +38,19 @@ __Tidsbruk__: Dobbelttime
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ]  Eleven oppnår måloppnåelse ved å fullføre oppgaven.
-- [ ]  Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven (se variasjoner).
-
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: Ingen
 
 - [ ]  __Utstyr__: Datamaskin med tilgang på internett
 
-- [ ]  __Forutsetninger__: Ingen
 
-
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven.[Klikk her for å se oppgaveteksten.](../soloball/soloball.html){target=_blank}
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
 
 ## Variasjoner {.challenge}
