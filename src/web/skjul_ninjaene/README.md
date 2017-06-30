@@ -57,7 +57,8 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
 
 ## Variasjoner {.challenge}
-- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
+- [ ] Klarer eleven å legge til flere elementer?
+- [ ] Klarer eleven å gjemme andre elementer enn ninjaene?
 
 ## Eksterne ressurser {.challenge}
 - [ ] Foreløpig ingen eksterne ressurser ...
