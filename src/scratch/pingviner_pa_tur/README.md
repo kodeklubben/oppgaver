@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Pingviner på tur
+level: 1
 language: nb
 ---
 
@@ -13,8 +14,6 @@ __Fag__: Programmering
 __Trinn__: 8.-10. trinn
 
 __Tema__: Løkker, tester, variabler, tilfeldighet
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime
 
@@ -32,23 +31,22 @@ __Tidsbruk__: Dobbelttime
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] [ ] Eleven oppnår måloppnåelse ved å fullføre oppgaven slik det er beskrevet.
+- [ ] Eleven oppnår måloppnåelse ved å fullføre oppgaven slik det er beskrevet.
 - [ ] Eleven oppnår høy måloppnåelse ved å legge til flere momenter, og utvikle en mer utfordrende labyrint.
  - [ ] Dette er en oppgave hvor elevene fint kan prøve hverandres spill og vurdere hverandre.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ]  __Utstyr__: Datamaskiner med tilgang internett
-
 - [ ]  __Forutsetninger__: Ingen
 
+- [ ]  __Utstyr__: Datamaskiner med tilgang internett
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven.[Klikk her for å se oppgaveteksten.](../pingviner_pa_tur/pingviner_pa_tur.html){target=_blank}
 
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
 
 ## Variasjoner {.challenge}
-_Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.[Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+_Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
