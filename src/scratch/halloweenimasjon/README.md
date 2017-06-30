@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Halloweenimasjon
+level: 1
 language: nb
 ---
 
@@ -15,8 +16,6 @@ lang, sammenhengende animasjon.
 __Trinn__: 2.-10. trinn
 
 __Tema__: Halloween, Animasjon
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime
 
@@ -53,16 +52,16 @@ __Tidsbruk__: Dobbelttime
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Utstyr__: Datamaskiner med tilgang internett
-
 - [ ] __Forutsetninger__: Ingen
 
-# Fremgangsmåte
-Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../Halloweenimasjon/halloweenimasjon.html){target=_blank}
+- [ ] __Utstyr__: Datamaskiner med tilgang internett
 
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. [Bidra gjerne i forumet hvis du har noe!](https://forum.kidsakoder.no/c/oppgaver)_
+## Fremgangsmåte
+Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../halloweenimasjon/halloweenimasjon.html){target=_blank}
 
+
+Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda. 
 
 ## Variasjoner {.challenge}
 - [ ] Hele oppgaven kan gjøres på engelsk ved å skrifte språk:
