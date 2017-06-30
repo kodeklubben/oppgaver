@@ -1,6 +1,7 @@
 ---
 title: Lærerveiledning - Straffespark
 author: Geir Arne Hjelle
+level: 1
 language: nb
 ---
 
@@ -14,8 +15,6 @@ så mange straffespark som mulig.
 __Trinn__: 7.-10. trinn
 
 __Tema__: Koordinater, objektorientert programmering, løkker, variabler, tester
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime
 
@@ -36,17 +35,16 @@ __Tidsbruk__: Dobbelttime
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ]  Eleven oppnår måloppnåelse ved å fullføre oppgaven.
-- [ ]  Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven (se variasjoner).
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 - [ ] Dette er en oppgave hvor elevene fint kan prøve hverandres spill og vurdere hverandre.
 
 ## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: Ingen
 
 - [ ]  __Utstyr__: Datamaskin med tilgang til internett
 
-- [ ]  __Forutsetninger__: Ingen
-
-# Fremgangsmåte
+## Fremgangsmåte
 
 # Forklaring av tema: Skript tilhører figuren {.activity}
 
@@ -62,68 +60,6 @@ forskjellen er ikke relevant her). Dette virker så naturlig at
 elevene sjelden bevisst tenker på dette, og samtidig skaper det
 sjelden problemer.
 
-## Presentasjon {.check}
-
-- [ ] Start et nytt Scratchprosjekt ved å klikke `Programmering` fra
-  hovedsiden, eller `Ny` i `Fil`-menyen.
-
-- [ ] Legg til en ekstra figur - for eksempel `Bat1` - slik at det er to
-  figurer i prosjektet. Dra dem rundt på scenen slik figurene er i
-  hvert sitt hjørne.
-
-- [ ] Spør elevene hvordan de vil kode at katten beveger seg mot
-  flaggermusa (den andre figuren)? Spesielt, pass på at de er bevisst
-  hvilken figur som må programmeres (_Katten_). Spør om det det samme
-  kan programmeres ved å legge et skript på den andre figuren (_Nei,
-  siden Katten beveger seg er det Kattens oppførsel vi må beskrive_).
-
-  ```blocks
-  for alltid
-      pek mot [Bat1 v]
-      gå (10) steg
-  slutt
-  ```
-
-- [ ] Hvordan kan vi programmere at flaggermusa rømmer fra katten når
-  katten tar (berører) den? Igjen, hvilken figur må programmeres?
-  Kanskje begge? _Vi må programmere flaggermusa siden den rømmer
-  (oppførsel)._ Her trenger vi ikke noe nytt program for katten så
-  lenge den ikke reagerer på at den berører flaggermusa (_ingen ny
-  oppførsel å beskrive_).
-
-  Det er mange måter å skrive kode for at flaggermusa rømmer. Det
-  følgende er et eksempel (husk at koden hører til flaggermusa):
-
-  ```blocks
-  for alltid
-      vent til <berører [Sprite1 v]>
-      gli (0.2) sekunder til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180))
-  slutt
-  ```
-
-- [ ] Spør elevene om de kan tenke seg noen annen måte (enn
-  objektorientert) å programmere på?  Hvor man ikke knytter skriptene
-  til figurene?
-
-  Et eksempel på en annen type programmering er __imperativ
-  programmering__ hvor programmer skrives som en serie kommandoer uten
-  at det skilles mellom hvilken figur som kommanderes. I et slikt
-  språk ville de to skriptene over skrives som _ett_ skript omtrent
-  som dette (ikke alle disse klossene eksisterer i Scratch):
-
-  ```blocks
-  for alltid
-      flytt [katten v] mot [flaggermusa v] :: motion
-      hvis <[katten v] berører [flaggermusa v] :: sensing>
-          flytt [flaggermusa v] til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180)) :: motion
-      slutt
-  slutt
-  ```
-
-  Vis gjerne denne koden til elevene. I tillegg til at det bare er ett
-  skript, hvilke andre forskjeller ser de? _Den andre store
-  forskjellen er at man alltid må fortelle hvilken figur som skal
-  utføre kommandoene. Dette er underforstått i Scratch_.
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../straffespark/straffespark.html){target=_blank}
 
@@ -207,3 +143,65 @@ rom for en del kreativitet. Elevene kan gjerne oppfordres til å
   av steg 5, men om elevene har litt erfaring med Scratch fra
   tidligere kan de gjerne gjøre dette underveis i programmeringen
   også.
+
+- [ ] eksperimentere med objektorientert programmering: 
+    - [ ] Start et nytt Scratchprosjekt ved å klikke `Programmering` fra
+      hovedsiden, eller `Ny` i `Fil`-menyen.
+
+    - [ ] Legg til en ekstra figur - for eksempel `Bat1` - slik at det er to
+      figurer i prosjektet. Dra dem rundt på scenen slik figurene er i
+      hvert sitt hjørne.
+
+    - [ ] Spør elevene hvordan de vil kode at katten beveger seg mot
+      flaggermusa (den andre figuren)? Spesielt, pass på at de er bevisst
+      hvilken figur som må programmeres (_Katten_). Spør om det det samme
+      kan programmeres ved å legge et skript på den andre figuren (_Nei,
+      siden Katten beveger seg er det Kattens oppførsel vi må beskrive_).
+
+      ```blocks
+      for alltid
+          pek mot [Bat1 v]
+          gå (10) steg
+      slutt
+      ```
+
+    - [ ] Hvordan kan vi programmere at flaggermusa rømmer fra katten når
+      katten tar (berører) den? Igjen, hvilken figur må programmeres?
+      Kanskje begge? _Vi må programmere flaggermusa siden den rømmer
+      (oppførsel)._ Her trenger vi ikke noe nytt program for katten så
+      lenge den ikke reagerer på at den berører flaggermusa (_ingen ny
+      oppførsel å beskrive_).
+
+      Det er mange måter å skrive kode for at flaggermusa rømmer. Det
+      følgende er et eksempel (husk at koden hører til flaggermusa):
+
+      ```blocks
+      for alltid
+          vent til <berører [Sprite1 v]>
+          gli (0.2) sekunder til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180))
+      slutt
+      ```
+
+    - [ ] Spør elevene om de kan tenke seg noen annen måte (enn
+      objektorientert) å programmere på?  Hvor man ikke knytter skriptene
+      til figurene?
+
+      Et eksempel på en annen type programmering er __imperativ
+      programmering__ hvor programmer skrives som en serie kommandoer uten
+      at det skilles mellom hvilken figur som kommanderes. I et slikt
+      språk ville de to skriptene over skrives som _ett_ skript omtrent
+      som dette (ikke alle disse klossene eksisterer i Scratch):
+
+      ```blocks
+      for alltid
+          flytt [katten v] mot [flaggermusa v] :: motion
+          hvis <[katten v] berører [flaggermusa v] :: sensing>
+              flytt [flaggermusa v] til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180)) :: motion
+          slutt
+      slutt
+      ```
+
+      Vis gjerne denne koden til elevene. I tillegg til at det bare er ett
+      skript, hvilke andre forskjeller ser de? _Den andre store
+      forskjellen er at man alltid må fortelle hvilken figur som skal
+      utføre kommandoene. Dette er underforstått i Scratch_.
