@@ -1,6 +1,7 @@
 ---
 title: Lærerveiledning - Labyrint
 author: Geir Arne Hjelle
+level: 1
 language: nb
 ---
 
@@ -13,8 +14,6 @@ I denne oppgaven skal elevene lage et enkelt spill hvor man kontrollerer en lite
 __Trinn__: 8.-10. trinn
 
 __Tema__: Løkker, tester, variabler, tilfeldighet
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime eller mer
 
@@ -41,12 +40,11 @@ __Tidsbruk__: Dobbelttime eller mer
 
 ## Forutsetninger og utstyr {.challenge}
 
-+ [ ] __Utstyr__: Datamaskiner med tilgang internett
-
 + [ ] __Forutsetninger__: Ingen
 
++ [ ] __Utstyr__: Datamaskiner med tilgang internett
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../labyrint/labyrint.html){target=_blank}
 
 # Steg 3: Utforskeren kan ikke gå gjennom veggen {.activity}
