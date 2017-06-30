@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Bruk data: Jente- og guttenavn
+level: 2
 language: nb
 ---
 
@@ -12,8 +13,6 @@ I denne oppgaven skal elevene hente data fra SSB og lage en enkel spørrefunksjo
 __Trinn__: 2.-7. trinn
 
 __Tema__: Statistikk, Databehandling
-
-__Nivå__: Nybegynner
 
 __Tidsbruk__: Dobbelttime eller mer.
 
@@ -49,24 +48,19 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 
 ## Forutsetninger og utstyr {.challenge}
-
+- [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse for statistikk og litt erfaring med Scratch.
 - [ ] __Utstyr__: Datamaskiner med tilgang internett og excel installert (ikke nettbrett). Elevene kan fint jobbe to og to.
 
-- [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse for statistikk og litt erfaring med Scratch.
+## Fremgangsmåte
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../data_navn/data_navn.html){target=_blank}
 
-
-# Fremgangsmåte
-Her kommer fremgangsmåten til den faktiske oppgaven, med noen tips og vanlige utfordringer ved hvert steg.
 
 # _Steg 1: Statistisk Sentralbyrås navnelister_ {.activity}
 - [ ] Her er det et vanlig problem at elevene glemmer å legge inn tittel på Jentenavn og Guttenavn-kolonnene. Da vil ikke programmet fungere.
 
-
-
 # Steg 2: Hent navnelistene inn i Scratch {.activity}
 - [ ] Elevene må huske hvor de laster ned filene slik at de finner tilbake til dem.
 - [ ] Her er det et vanlig problem at elevene glemmer å legge inn tittel på Jentenavn og Guttenavn-kolonnene. Da vil ikke programmet fungere.
-
 
 ## Variasjoner {.challenge}
 - [ ] Elevene skal finne andre datasett. Her kan det være en ide å ha noe klart på forhånd.
