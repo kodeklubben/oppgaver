@@ -37,7 +37,7 @@ er det helt greit.
 
 Vi prøver først litt med [Try Elm](http://elm-lang.org/try).
 
-- Lim inn dette i kodefeltet:
+- [ ] Lim inn dette i kodefeltet:
 
 ```elm
 import Svg exposing (svg, circle, rect)
@@ -48,7 +48,7 @@ main =
     svg
       [ width "500", height "500", viewBox "0 0 200 200" ]
       [ circle [ cx "30", cy "50", r "50", fill "blue" ] [  ]
-      , rect [ x "100", y "100", width "80", height "40", fill "red" ] [ ]
+      , rect [ x "100", y "100", width "80", height "40", fill "red" ] - [ ]
       ]
 ```
 
@@ -81,14 +81,14 @@ Potential problems could be:
 
 Da må vi installere pakken `svg`.
 
-- Åpne et kommandovindu i **samme mappe som du har lagret Elm-programmet ditt**
+- [ ] Åpne et kommandovindu i **samme mappe som du har lagret Elm-programmet ditt**
 
   Hvis jeg har en mappe på skrivebordet mitt som heter Elm, skal jeg se
   følgende: `C:\Users\teodor\Desktop\Elm> `
 
-- Kjør `elm package install elm-lang/svg`
+- [ ] Kjør `elm package install elm-lang/svg`
 
-- Start `elm reactor` på nytt.
+- [ ] Start `elm reactor` på nytt.
 
 Fungerer det nå?
 
@@ -105,16 +105,16 @@ import Svg.Attributes exposing (width, height, viewBox, cx, cy, r, fill, x, y, w
 Nå bruker vi pakken **Svg** og importerer funksjoner som `circle` for sirkel og
 `rect` for rektangler.
 
-- Trykk på `circle`. Ser du teksten `Docs: Svg.circle` som dukket opp over?
+- [ ] Trykk på `circle`. Ser du teksten `Docs: Svg.circle` som dukket opp over?
   `Svg.circle` er en link til dokumentasjonen! Trykk på denne.
-- Stemmer eksempelet for `circle` med koden vår? Hva er forskjellig?
+- [ ] Stemmer eksempelet for `circle` med koden vår? Hva er forskjellig?
 
 Rect er det ikke (per februar 2017) noe eksempel for.
 
-- Gå til [Mozilla sin dokumentasjon for SVG-elementet `rect`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect).
+- [ ] Gå til [Mozilla sin dokumentasjon for SVG-elementet `rect`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect).
   Hva står det under **Specific attributes**? Bruker vi noen av disse?
 
-- Finner du `path` i dokumentasjonen til Elm?
+- [ ] Finner du `path` i dokumentasjonen til Elm?
 
 ## SVG-boksen {.check}
 
@@ -131,7 +131,7 @@ main =
 
 `height "500"` sier at vi skal bruke 500 pixler i høyden.
 
-- Sjekk at du får en 500x500 px boks i nettleseren din. Slik ser det ut når jeg
+- [ ] Sjekk at du får en 500x500 px boks i nettleseren din. Slik ser det ut når jeg
   sjekker:
 
   ![](inspect_svg.png)
@@ -139,8 +139,8 @@ main =
 `viewBox "0 0 200 200"` definerer koordinatsystemet vårt: x er fra 0 til 200 og
 y er fra 0 til 200.
 
-- Inspiser sirkelen. Hvor mange pixler tar sirkelen?
-- Inspiser rektangelet. Hvor stort er dette?
+- [ ] Inspiser sirkelen. Hvor mange pixler tar sirkelen?
+- [ ] Inspiser rektangelet. Hvor stort er dette?
 
 Jeg har satt et koordinatsystem med "bredde" 200 til å passe til 500 pixler på
 skjermen. En 20x20 firkant blir 50px x 50 px stor på skjermen.
@@ -155,7 +155,7 @@ nettsiden vår. Nå kan vi bruke disse til å tegne:
 
 ```elm
       [ circle [ cx "30", cy "50", r "50", fill "blue" ] [  ]
-      , rect [ x "100", y "100", width "80", height "40", fill "red" ] [ ]
+      , rect [ x "100", y "100", width "80", height "40", fill "red" ] - [ ]
 ```
 
 Vi tar `circle` først:
@@ -183,10 +183,10 @@ vi starter å lese i `(0,0)`:
 
 Din tur!
 
-- Gjør sirkelen grønn
-- Sett sentrum for sirkelen til "helt i midten". Hvis koordinatsystemet er fra 0
+- [ ] Gjør sirkelen grønn
+- [ ] Sett sentrum for sirkelen til "helt i midten". Hvis koordinatsystemet er fra 0
   til 200, hva er i midten?
-- Hva skjer om du tegner sirkelen utenfor koordinatsystemet?
+- [ ] Hva skjer om du tegner sirkelen utenfor koordinatsystemet?
 
 Så er det `rect` sin tur:
 
@@ -200,12 +200,12 @@ Så er det `rect` sin tur:
 
 Din tur!
 
-- Lag en firkant som fyller hele koordinatsystemet!
-- Gjør den svart.
+- [ ] Lag en firkant som fyller hele koordinatsystemet!
+- [ ] Gjør den svart.
 
 Nå ser du ikke sirkelen i det hele tatt.
 
-- Bytt rekkefølgen på sirkelen og rektangelet:
+- [ ] Bytt rekkefølgen på sirkelen og rektangelet:
 
   ```elm
   -- fra noe sånt:
@@ -219,7 +219,7 @@ Nå ser du ikke sirkelen i det hele tatt.
       ]
   ```
 
-- Ser du noe nå? Hva kommer øverst?
+- [ ] Ser du noe nå? Hva kommer øverst?
 
 # Steg 2: kurver {.activity}
 
@@ -230,7 +230,7 @@ En linje går mellom *to* punkter. Vi skal ha noe som går mellom *mange* punkte
 
 ## Importere funksjoner for å tegne kurve {.check}
 
-- Importer `path` fra **Svg**, og `stroke` og `d` fra **Svg.Attributes**. Husker
+- [ ] Importer `path` fra **Svg**, og `stroke` og `d` fra **Svg.Attributes**. Husker
   du hvordan du importerer moduler?
 
 ## Hvordan å importere funksjoner fra moduler {.protip}
@@ -262,7 +262,7 @@ import Html exposing (text, h1, p, ul, li)
 
 ## Tegne skråstrek {.check}
 
-- Legg til en skrå strek gjennom bildet:
+- [ ] Legg til en skrå strek gjennom bildet:
 
   ```elm
   [circle [ -- ...
@@ -302,14 +302,14 @@ Så fyller vi dette med en stor, gul sirkel.
 main =
     svg
       [ width "500", height "500", viewBox "0 0 100 100" ]
-      [ circle [ cx "5", cy "5", r "5", fill "yellow" ] [ ]
+      [ circle [ cx "5", cy "5", r "5", fill "yellow" ] - [ ]
       ]
 ```
 
 Ånei! Den var ikke stor!
 
-- Endre sentrum (`cx` og `cy`) så sirkelen er i midten.
-- Endre radius (`r`) på sirkelen så sirkelen blir stor! Hvor stor kan du gjøre
+- [ ] Endre sentrum (`cx` og `cy`) så sirkelen er i midten.
+- [ ] Endre radius (`r`) på sirkelen så sirkelen blir stor! Hvor stor kan du gjøre
   den uten at den kuttes av i kantene?
 
 ## Bezierkurver {.protip}
@@ -327,8 +327,8 @@ forskjellige typer bezierkurver:
 
 ## En munn som bezierkurve {.check}
 
-- Gå til https://www.jasondavies.com/animated-bezier/
-- Du kan dra i punktene. Klarer du å lage en munn?
+- [ ] Gå til https://www.jasondavies.com/animated-bezier/
+- [ ] Du kan dra i punktene. Klarer du å lage en munn?
 
 Her er en `path` med bezierkurve i Elm:
 
@@ -341,8 +341,8 @@ I strengen `"M20,60 C 40,50 60,50 80,60 "` dukker det opp to mystiske variabler.
 
 Ånei! Det ble et surt fjes!
 
-- Kan du gjøre munnen blid igjen?
-- Hva skjer om du bytter ut `C` med `L` eller `Q`?
+- [ ] Kan du gjøre munnen blid igjen?
+- [ ] Hva skjer om du bytter ut `C` med `L` eller `Q`?
 
 ## Ellipser {.protip}
 
@@ -356,33 +356,33 @@ ha forskjellig radius i x- og y-retning.
 Her er Elm-koden som lager den røde ellipsen:
 
 ```elm
-ellipse [ cx "30", cy "40", rx "5", ry "10", fill "red" ] [ ]
+ellipse [ cx "30", cy "40", rx "5", ry "10", fill "red" ] - [ ]
 ```
 
 Og denne lager den lilla ellipsen:
 
 ```elm
-ellipse [ cx "70", cy "40", rx "10", ry "5", fill "purple" ] [ ]
+ellipse [ cx "70", cy "40", rx "10", ry "5", fill "purple" ] - [ ]
 ```
 
 Du finner `ellipse` i **Svg**, og `cx` og `cy` i **Svg.Attributes**.
 
 ## Øyne som ellipser {.check}
 
-- Lag en ellipse for venstre øye
-- Lag en ellipse for høyre øye. Hva er forskjellen mellom høyre og venstre øye?
+- [ ] Lag en ellipse for venstre øye
+- [ ] Lag en ellipse for høyre øye. Hva er forskjellen mellom høyre og venstre øye?
 
 Her er sånn min ble seende ut:
 
 ![](smiley.png)
 
-- Hva skjer om du fyller en bezierkurve med en farge?
+- [ ] Hva skjer om du fyller en bezierkurve med en farge?
 
   `path [ fill "red", stroke "black", d "M20,60 C 40,80 60,80 80,60 " ] []`
 
-- Hva skjer om du legger på `stroke` på den gule sirkelen?
+- [ ] Hva skjer om du legger på `stroke` på den gule sirkelen?
 
-  `circle [ cx "50", cy "50", r "50", stroke "black", fill "yellow" ] [ ]`
+  `circle [ cx "50", cy "50", r "50", stroke "black", fill "yellow" ] - [ ]`
 
 # Svg inne i et Html-dokument {.activity}
 
@@ -400,7 +400,7 @@ main =
     , svg
         [ width "500", height "500", viewBox "0 0 200 200" ]
         [ circle [ cx "30", cy "50", r "50", fill "blue" ] [  ]
-        , rect [ x "100", y "100", width "80", height "40", fill "red" ] [ ]
+        , rect [ x "100", y "100", width "80", height "40", fill "red" ] - [ ]
         ]
      , p [] [text "Her har jeg tegnet en firkant og en sirkel!"]
      ]
@@ -409,5 +409,5 @@ main =
 
 ## Tegne på din egen nettside {.check}
 
-- Gå tilbake til en av de tidligere oppgavene du har gjort. Vil du legge til en
+- [ ] Gå tilbake til en av de tidligere oppgavene du har gjort. Vil du legge til en
   tegning noe sted?

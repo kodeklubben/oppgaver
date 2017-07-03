@@ -19,9 +19,9 @@ For å gjøre arbeidet med skjerminnhold enklere, så finnes det en egen kode-ty
 
 # Steg 1: Opprette app-pakke, app-klasse og FXML-fil {.activity}
 
-+ Lag først en ny app-pakke og app-klasse som forklart i [Hello world-leksjonen](../helloworld/helloworld.html). Bruk **fxmllogo** som navn på pakken og **FxmlLogoApp** som navn på app-klassen.
+- [ ] Lag først en ny app-pakke og app-klasse som forklart i [Hello world-leksjonen](../helloworld/helloworld.html). Bruk **fxmllogo** som navn på pakken og **FxmlLogoApp** som navn på app-klassen.
 
-+ Høyreklikk på **fxmllogo**-pakken og velg `New > Other...` så du får opp en liste med såkalte _veivisere_ (eng: _wizards_). Vi skal bruke den som heter **New FXML Document**. Det enkleste er å skrive inn 'fx' i søkefeltet, for å snevre inn utvalget:
+- [ ] Høyreklikk på **fxmllogo**-pakken og velg `New > Other...` så du får opp en liste med såkalte _veivisere_ (eng: _wizards_). Vi skal bruke den som heter **New FXML Document**. Det enkleste er å skrive inn 'fx' i søkefeltet, for å snevre inn utvalget:
 
   ![](new-fxml-document.png "New FXML document")
 
@@ -33,7 +33,7 @@ For å gjøre arbeidet med skjerminnhold enklere, så finnes det en egen kode-ty
 
   ![](initial-FxmlLogoApp.fxml.png "Initial FxmlLogoApp.fxml")
 
-+ Denne FXML-en gir bare et tomt panel (av typen **AnchorPane**), så for å få noe å jobbe med, så trenger vi  Rediger teksten slik at den blir som følger:
+- [ ] Denne FXML-en gir bare et tomt panel (av typen **AnchorPane**), så for å få noe å jobbe med, så trenger vi  Rediger teksten slik at den blir som følger:
 
   ```xml
 <AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefWidth="500" prefHeight="400">
@@ -60,7 +60,7 @@ For å gjøre arbeidet med skjerminnhold enklere, så finnes det en egen kode-ty
 
   (Hvis du ikke bruker kode-kompletteringsfunksjonen, så må du skrive inn import-setningen selv.) Tilsvarende kan du bruke kode-komplettering på attributt-navnene **layoutX**, **layoutY**, **width**, **height**, **fill** osv.
 
-+ Mens du redigerer FXML-koden, så kan det være kjekt å se hvordan innholdet vil bli seende ut, når det lastes inn og vises frem. Eclipse har et eget panel kalt **JavaFX preview** som hele tiden laster inn FXML-koden du redigerer og viser frem innholdet. Dette åpnes ved å velge `Window > Show View...` og så finne panelet i lista. Bruk søkefeltet for å filtrere lista (skriv 'pre', så panelet blir enklere å finne.
+- [ ] Mens du redigerer FXML-koden, så kan det være kjekt å se hvordan innholdet vil bli seende ut, når det lastes inn og vises frem. Eclipse har et eget panel kalt **JavaFX preview** som hele tiden laster inn FXML-koden du redigerer og viser frem innholdet. Dette åpnes ved å velge `Window > Show View...` og så finne panelet i lista. Bruk søkefeltet for å filtrere lista (skriv 'pre', så panelet blir enklere å finne.
 
   ![](fxml-editor-with-preview-pane.png "FXML-editor med preview-panel")
 
@@ -101,7 +101,7 @@ pane.getChildren().add(circle);
 
 Det går greit å bruke FXML-editoren for enkel redigering (eller mer kompliserte ting, når en får erfaring), men det finnes et enklere alternativ, nemlig en grafisk editor kalt **SceneBuilder**. En kan faktisk åpne og redigere FXML-fila direkte i JavaFX Scene Builder (ofte bare kalt SceneBuilder), siden den bruker FXML som lagringsformat.
 
-+ Høyreklikk på FXML-fila og velg `Open with SceneBuilder`
+- [ ] Høyreklikk på FXML-fila og velg `Open with SceneBuilder`
 
   ![](open-with-scenebuilder.png "Åpne med SceneBuilder")
 
@@ -142,10 +142,10 @@ Det går greit å bruke FXML-editoren for enkel redigering (eller mer komplisert
 
 Det siste trinnet i denne leksjonen er å få app-en til å vise frem det grafiske innholdet i app-vinduet. For å få dette til må du redigere koden i app-klassen din, som du laget i trinn én og heter **FxmlLogoApp**.
 
-+ Husk å lagre FXML-fila i SceneBuilder før du går tilbake til Eclipse.
-+ Klikk i FXML-editoren. Den skal da vise frem det nye innholdet, som er resultatet av all redigeringen du gjorde i SceneBuilder.
-+ Det er greit å gjøre endringer rett i FXML-koden i editor. Når du går tilbake til SceneBuilder, så sjekk om du ser de samme endringene der. Hvis ikke så må du kanskje lukke den og åpne den igjen med `Open with SceneBuilder`.
-+ Velg editoren med **FxmlLogoApp**-klassen i (eller åpne den ved å dobbel-klikke på **FxmlLogoApp.java**) og rediger slik at du får følgende kode:
+- [ ] Husk å lagre FXML-fila i SceneBuilder før du går tilbake til Eclipse.
+- [ ] Klikk i FXML-editoren. Den skal da vise frem det nye innholdet, som er resultatet av all redigeringen du gjorde i SceneBuilder.
+- [ ] Det er greit å gjøre endringer rett i FXML-koden i editor. Når du går tilbake til SceneBuilder, så sjekk om du ser de samme endringene der. Hvis ikke så må du kanskje lukke den og åpne den igjen med `Open with SceneBuilder`.
+- [ ] Velg editoren med **FxmlLogoApp**-klassen i (eller åpne den ved å dobbel-klikke på **FxmlLogoApp.java**) og rediger slik at du får følgende kode:
   ```java
   package fxmllogoapp;
 
@@ -173,7 +173,7 @@ Det siste trinnet i denne leksjonen er å få app-en til å vise frem det grafis
 ```
 
   Trikset her er å lage et **FXMLLoader**-objekt (første linje i start-metoden, og be denne laste inn FXML-fila med load-metoden (andre linje).
-+ Kjør app-en ved å høyre-klikke på fila eller i editoren og velge `Run as > Java Application`. Da skal det (etter litt venting) dukke opp et vindu som dette:
+- [ ] Kjør app-en ved å høyre-klikke på fila eller i editoren og velge `Run as > Java Application`. Da skal det (etter litt venting) dukke opp et vindu som dette:
 
   ![](run-FxmlLogoApp-as-java-application.png)
 

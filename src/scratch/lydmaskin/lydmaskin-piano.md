@@ -10,11 +10,11 @@ language: nb
 
 ## Sjekkliste {.check}
 
-+ Tegn et piano ved å lage svarte og hvite rektangler.
+- [ ] Tegn et piano ved å lage svarte og hvite rektangler.
 
   ![costume1](piano-costume-1.png)
 
-+ Lag et skript som spiller en note når `A` trykkes.
+- [ ] Lag et skript som spiller en note når `A` trykkes.
 
   ```blocks
   når [a v] trykkes
@@ -24,7 +24,7 @@ language: nb
   spill tone (60 v) i (0.5) takter
   ```
 
-+ Lag to noter til for når man trykker `S` eller `D` på tastaturet.
+- [ ] Lag to noter til for når man trykker `S` eller `D` på tastaturet.
 
   ```blocks
   når [a v] trykkes
@@ -46,11 +46,11 @@ language: nb
   spill tone (67 v) i (0.5) takter
   ```
 
-+ Kopier drakten 3 ganger og fyll ulike tangenter.
+- [ ] Kopier drakten 3 ganger og fyll ulike tangenter.
 
   ![](piano-costume-3.png)
 
-+ Sørg for at hver note bytter til en annen drakt og tilbake til
+- [ ] Sørg for at hver note bytter til en annen drakt og tilbake til
   `drakt1` slik at det ser ut som tangenten blir trykket på.
 
   ```blocks

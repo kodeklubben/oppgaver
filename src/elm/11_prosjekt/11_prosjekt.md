@@ -71,13 +71,13 @@ Muligheter:
 
 ## Sjekkliste {.check}
 
-- Hvilke tall (tastekoder) har vi for pil opp? Venstre? Høyre? Ned?
+- [ ] Hvilke tall (tastekoder) har vi for pil opp? Venstre? Høyre? Ned?
 
-- Hvilke tall har vi for WASD?
+- [ ] Hvilke tall har vi for WASD?
 
-- Hvilket tall er A?
+- [ ] Hvilket tall er A?
 
-- Hvilket tall er B?
+- [ ] Hvilket tall er B?
 
 Hmm, men nå skjer det ikke så mye. Skal vi ha noe i sanntid, trenger vi en
 klokke.
@@ -87,9 +87,9 @@ klokke.
 Ta en titt tilbake
 til [Tell sekunder](../07_tell_sekunder/07_tell_sekunder.html).
 
-- Hvordan fikk vi tiden til å gå her?
+- [ ] Hvordan fikk vi tiden til å gå her?
 
-- Klarer du å kombinere oppgavene? Få tiden til å gå _mens_ du sjekker hva
+- [ ] Klarer du å kombinere oppgavene? Få tiden til å gå _mens_ du sjekker hva
   brukeren trykker på?
   
 Her er det mange muligheter videre! Vi kan for eksempel lage oss koordinater for

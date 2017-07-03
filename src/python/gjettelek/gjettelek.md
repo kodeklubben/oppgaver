@@ -107,12 +107,12 @@ Eksempel på kontrollstrukturer er `for`-løkker, `while`-løkker og `if-elif-el
 
 # Test programmet ditt {.activity}
 
-Fungerer det slik som i beskrivelsen i begynnelsen av oppgaven? Hvis ikke må du rette feilene dine.
+- [ ] Fungerer det slik som i beskrivelsen i begynnelsen av oppgaven? Hvis ikke må du rette feilene dine.
 
 ## 7 forsøk {.challenge}
 
-Ettersom vi bare har tall mellom 1 og 100 kan vi alltid gjette tallet på 7 forsøk eller bedre. Klarer du dette selv?
+- [ ] Ettersom vi bare har tall mellom 1 og 100 kan vi alltid gjette tallet på 7 forsøk eller bedre. Klarer du dette selv?
 
 ## Begrense brukerens forsøk {.challenge}
 
-Til nå har brukeren hatt uendelig mange forsøk. Klarer du å skrive om koden din slik at brukeren bare får 12 forsøk?
+- [ ] Til nå har brukeren hatt uendelig mange forsøk. Klarer du å skrive om koden din slik at brukeren bare får 12 forsøk?

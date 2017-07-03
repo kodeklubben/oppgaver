@@ -10,9 +10,9 @@ language: nb
 
 ## Sjekkliste {.check}
 
-+ Importer en ny figur ved å velge `Ting/Drum1`. Gi den navnet `Tromme`.
+- [ ] Importer en ny figur ved å velge `Ting/Drum1`. Gi den navnet `Tromme`.
 
-+ Vi vil at trommen skal lage lyd når vi klikker på den eller trykker
+- [ ] Vi vil at trommen skal lage lyd når vi klikker på den eller trykker
   på `mellomromstasten`.
 
   ```blocks
@@ -23,7 +23,7 @@ language: nb
   send melding [tromme v]
   ```
 
-+ Nå må vi lage lyd når den mottar `tromme`. Ved å endre tallet, kan
+- [ ] Nå må vi lage lyd når den mottar `tromme`. Ved å endre tallet, kan
   du endre lyden trommen lager.
 
   ```blocks
@@ -31,7 +31,7 @@ language: nb
   trommeslag (48 v) som varer (0.2) takter
   ```
 
-+ Prøv å endre utseende slik at man ser hvilket instrument som
+- [ ] Prøv å endre utseende slik at man ser hvilket instrument som
   spiller.
 
   ```blocks

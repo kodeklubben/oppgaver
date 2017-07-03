@@ -60,9 +60,9 @@ I denne oppgaven vil du få bruk for det du har lært i oppgaven [Grunnleggende 
 # Steg 1: Canvas-elementet {.activity}
 I HTML bruker vi `<canvas>` til å tegne figurer ved hjelp av JavaScript. Selve `<canvas>`-elementet gjør ikke så stor nytte for seg, så derfor bruker vi JavaScript til å fortelle hva slags grafikk `<canvas>`-elementet skal inneholde. La oss skrive det som trengs for å jobbe med `canvas`:
 
-+ Åpne favoritt teksteditoren din
-+ Lag en ny HTML-fil som heter `partikler.html`
-+ Kopier koden under inn i `partikler.html`:
+- [ ] Åpne favoritt teksteditoren din
+- [ ] Lag en ny HTML-fil som heter `partikler.html`
+- [ ] Kopier koden under inn i `partikler.html`:
 
 ```html
 <html>
@@ -96,15 +96,15 @@ I HTML bruker vi `<canvas>` til å tegne figurer ved hjelp av JavaScript. Selve 
 # Steg 2: Tegn et objekt {.activity}
 Nå som vi vet hvordan `canvas` ser ut er det på tide å prøve det ut:
 
-+ Sett inn `<script> </script>` i koden din
+- [ ] Sett inn `<script> </script>` i koden din
 
-+ Lag to tomme variabeler:
+- [ ] Lag to tomme variabeler:
 ```js
 var canvas;
 var ctx;
 ```
 
-+ Vi skal nå fylle disse variablene når siden vår lastes, da bruker vi noe som heter `window.onload`:
+- [ ] Vi skal nå fylle disse variablene når siden vår lastes, da bruker vi noe som heter `window.onload`:
 
 ```js
 window.onload = function() {
@@ -118,7 +118,7 @@ window.onload = function() {
 
 For å kunne lage grafikk i `canvas` er de to linjene over påkrevd, så nå som vi har det på plass kan vi starte å tegne!
 
-+ Nå skal vi lage objekter, så la oss lære litt om hva et `objekt` er:
+- [ ] Nå skal vi lage objekter, så la oss lære litt om hva et `objekt` er:
 
 ## Forklaring: Objekt {.tip}
 La oss nå lage et `objekt` som skal tegnes. I JavaScript er et objekt en variabel som kan holde på flere verdier eller variabler, som vi ofte kaller for `attributter`. La oss se på et raskt eksempel med en bil:
@@ -150,9 +150,9 @@ På denne måten slipper vi å lage mange variabler, som skal høre til samme el
 
 ##
 
-+ Lag et objekt som heter `particle` og som inneholder følgende attributter: `x`-posisjon, `y`-posisjon, `størrelse` og `farge`
+- [ ] Lag et objekt som heter `particle` og som inneholder følgende attributter: `x`-posisjon, `y`-posisjon, `størrelse` og `farge`
 
-+ Bestem selv en passende verdi for attributtene. Disse kan være lurt å eksperimentere litt med senere i oppgaven.
+- [ ] Bestem selv en passende verdi for attributtene. Disse kan være lurt å eksperimentere litt med senere i oppgaven.
 
 <toggle>
     <strong> Hint </strong>
@@ -161,13 +161,13 @@ På denne måten slipper vi å lage mange variabler, som skal høre til samme el
     </hide>
 </toggle>
 
-+ Lag en funksjon som heter `draw`. Denne skal tegne elementet for oss.
+- [ ] Lag en funksjon som heter `draw`. Denne skal tegne elementet for oss.
 
-+ I `draw` skal vi nå legge til hvilke farge vi vil at elementet vårt skal ha, du bestemmer selv hvilken farge:
+- [ ] I `draw` skal vi nå legge til hvilke farge vi vil at elementet vårt skal ha, du bestemmer selv hvilken farge:
 ```js
 ctx.fillStyle = particle.farge;
 ```
-+ Nå skal vi tegne et kvadrat (firkant hvor alle sidene er like lange) i fargen vi valgte over:
+- [ ] Nå skal vi tegne et kvadrat (firkant hvor alle sidene er like lange) i fargen vi valgte over:
 ```js
 ctx.fillRect(particle.x,particle.y,particle.size,particle.size);
 ```
@@ -182,7 +182,7 @@ Over brukte vi de attributtene vi lagde i objektet `particle`.
 I vårt objekt `particle` har vi satt en `x`- og `y`-posisjon, samt en størrelse som vi setter på både `bredde` og `høyde` for å få et kvadrat.
 ##
 
-+ Lagre og kjør funksjonen `draw()` når siden lastes.
+- [ ] Lagre og kjør funksjonen `draw()` når siden lastes.
 
 
 Forslag til koden så langt:
@@ -243,15 +243,15 @@ CTYPE html>
 # Steg 3: Flytt på partikkelet {.activity}
 Nå som vi har fått frem en rød firkant, som er partikkelet vårt, så skal vi nå se hvordan vi kan få den til å flytte på seg. For å få dette til å skje må vi legge til noen nye attributter i objektet vårt, og endre disse underveis i funksjonen vår. For å gjøre dette må vi lære å bruke `setInterval`, men først må vi endre på objektet vårt.
 
-+ I objektet `particle`, legg til attributtene `xSpeed` og `ySpeed`
-+ Sett verdiene til `xSpeed` og `ySpeed` til å være `2` foreløpig
+- [ ] I objektet `particle`, legg til attributtene `xSpeed` og `ySpeed`
+- [ ] Sett verdiene til `xSpeed` og `ySpeed` til å være `2` foreløpig
 
 I `draw` må vi nå endre `particle` sin `x`-posisjon med `xSpeed`, samme må vi gjøre med `y`-posisjonen. Måten man øker et attributt på er slik:
 ```js
 objekt.attributt1 = objekt.attributt1 + objekt.attributt2;
 ```
 
-+ Legg til det som trengs i `draw` for å få `particle` til å endre `x`- og `y`-posisjonen sin
+- [ ] Legg til det som trengs i `draw` for å få `particle` til å endre `x`- og `y`-posisjonen sin
 
 <toggle>
     <strong> Hint </strong>
@@ -262,7 +262,7 @@ objekt.attributt1 = objekt.attributt1 + objekt.attributt2;
 
 For at vi skal få en animasjon så må vi kjører `draw` flere ganger enn bare 1, derfor må vi bruke `setInterval` for å gjenta `draw`.
 
-+ Kjør funksjonen draw hvert 30 millisekund:
+- [ ] Kjør funksjonen draw hvert 30 millisekund:
 ```js
 setInterval(draw, 30);
 ```
@@ -272,22 +272,22 @@ setInterval(draw, 30);
 + Altså betyr `setInterval(draw, 30);` at funksjonen `draw()` kjøres hvert 30 millisekund. NB! 1000 millisekunder er ett sekund.
 ##
 
-+ Fjern `draw()`, vi trenger ikke den lenger, ettersom `setInterval` vil kjøre `draw` for oss.
-+ Lagre og kjør siden vi har laget til nå!
+- [ ] Fjern `draw()`, vi trenger ikke den lenger, ettersom `setInterval` vil kjøre `draw` for oss.
+- [ ] Lagre og kjør siden vi har laget til nå!
 
 Som du ser så lager den en lang diagonal stripe. Som du kanskje har skjønt må vi finne en måte vi kan fjerne den forrige vi tegnet slik at vi skaper en illusjon om at den flytter på seg og ikke bare lager mange etter hverandre.
 
-+ I starten av `draw` må vi bruke `ctx.clearRect(0,0,500,500);` for å fjerne alt som er innenfor det svarte. Altså fra (`x`,`y`)-posisjonen (0,0) og helt til (500,500).
+- [ ] I starten av `draw` må vi bruke `ctx.clearRect(0,0,500,500);` for å fjerne alt som er innenfor det svarte. Altså fra (`x`,`y`)-posisjonen (0,0) og helt til (500,500).
 
-+ Lagre og kjør på nytt!
+- [ ] Lagre og kjør på nytt!
 
 __Gratulere du har laget din første animasjon i JavaScript!__
 
 ## Utfordring {.challenge}
-+ Prøve å få partikkelet til å gå rett frem
-+ Få partikkelet til å gå rett ned
-+ Få partikkelet til å gå baklengs
-+ Får du til at partikkelet bytter til en tilfeldig farge hver gang den bytter posisjon?
+- [ ] Prøve å få partikkelet til å gå rett frem
+- [ ] Få partikkelet til å gå rett ned
+- [ ] Få partikkelet til å gå baklengs
+v Får du til at partikkelet bytter til en tilfeldig farge hver gang den bytter posisjon?
 ##
 
 Ekssempel på ferdig kode til oppgaven:

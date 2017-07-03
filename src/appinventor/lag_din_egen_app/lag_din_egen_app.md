@@ -20,13 +20,13 @@ komme opp med en god idé, så her er noen forslag:
 
 ##  Idémyldring {.check}
 
-+ Har du laget en app tidligere som du kan gjøre enda kulere eller bedre?
+- [ ] Har du laget en app tidligere som du kan gjøre enda kulere eller bedre?
 
-+ Har du et spill du spiller til vanlig som du kan prøve å lage en app av?
+- [ ] Har du et spill du spiller til vanlig som du kan prøve å lage en app av?
 
-+ Har du en hobby utenom som du kan lage en app av?
+- [ ] Har du en hobby utenom som du kan lage en app av?
 
-+ Var det noen spill i Scratch som du likte godt?
+- [ ] Var det noen spill i Scratch som du likte godt?
 
 # Steg 2: Planlegge appen {.activity}
 
@@ -37,19 +37,19 @@ litt med en venn underveis. Her er noen tips til hva du bør tenke på:
 
 ## Planlegging {.check}
 
-+ Skal du ha en meny?
+- [ ] Skal du ha en meny?
 
-+ Skal du ha flere skjermer?
+- [ ] Skal du ha flere skjermer?
 
-+ Hvilke knapper og tekstfelt skal du ha?
+- [ ] Hvilke knapper og tekstfelt skal du ha?
 
-+ Skal du ha noen figurer? Hvor mange figurer skal du ha?
+- [ ] Skal du ha noen figurer? Hvor mange figurer skal du ha?
 
-+ Skal du telle poeng?
+- [ ] Skal du telle poeng?
 
-+ Skal du bruke noen sensorer?
+- [ ] Skal du bruke noen sensorer?
 
-+ Hvordan vil du at appen skal se ut?
+- [ ] Hvordan vil du at appen skal se ut?
 
 # Steg 3: Hvordan virker spillet ditt? {.activity}
 
@@ -57,17 +57,17 @@ Tenk for eksempel på:
 
 ## Funksjonalitet {.check}
 
-+ Hvordan man vinner spillet?
+- [ ] Hvordan man vinner spillet?
 
-+ Hvordan man får poeng?
+- [ ] Hvordan man får poeng?
 
-+ Hvor mange spillere kan spille?
+- [ ] Hvor mange spillere kan spille?
 
-+ Skal det være nedtelling?
+- [ ] Skal det være nedtelling?
 
-+ Hvordan styres spillet?
+- [ ] Hvordan styres spillet?
 
-+ Skal det være lydeffekter? Hvilke?
+- [ ] Skal det være lydeffekter? Hvilke?
 
 Skriv ned tankene dine!
 
@@ -78,8 +78,8 @@ skriptene dine.
 
 ## Ting å huske: {.check}
 
-+ Du kan alltid se tilbake til de appene du allerede har laget.
+- [ ] Du kan alltid se tilbake til de appene du allerede har laget.
 
-+ Husk å teste og lagre fortløpende.
+- [ ] Husk å teste og lagre fortløpende.
 
-+ Vær kreativ!
+- [ ] Vær kreativ!
