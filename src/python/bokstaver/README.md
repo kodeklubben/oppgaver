@@ -8,28 +8,37 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven...
+I denne oppgaven skal vi programmere skilpadder til å konstruere bokstaver og andre geometriske figurer.
 
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: 
+ __Fag__: Matematikk, Kunst og håndtverk
 
- __Anbefalte trinn__:
+ __Anbefalte trinn__: 7.-10. trinn
 
- __Tema__: 
+ __Tema__: Geometri
 
- __Tidsbruk__: 
+ __Tidsbruk__: Enkelttime
 
 
  ## Kompetansemål {.challenge}
 
- 
+ - [ ] __kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+
+ - [ ] __kunst og håndtverk, 2. trinn__: eksperimentere med enkle geometriske former i konstruksjon og som dekorative formelementer
+
+ - [ ] __Matematikk, 2. trinn__: gjennkjenne og beskrive trekk ved enkle to- og tredimensjonale figurer i forbindelse med hjørner, kanter og flater, og sortere og sette navn på figurene etter disse trekkene
+
+ - [ ] __Matematikk, 10. trinn__: bruke koordinater til å avbilde figurer og utforske egenskaper ved geometriske former, med og uten digitale verktøy
+
 
 
  ## Forslag til læringsmål {.challenge}
 
- - [ ]  Elevene kan...
+ - [ ] Elevene kan bruke matematiske begreper til å beskrive 2 og 3-dimensjonale figuer.
+
+ - [ ] Elevene kan bruke koordinater til å konstruere 2 og 3-dimensjonale figurer.
 
 
  ## Forslag til vurderingskriterier {.challenge}
@@ -41,14 +50,19 @@ I denne oppgaven...
  
  ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: 
+ - [ ]  __Forutsetninger__: Ingen
 
- - [ ]  __Utstyr__: 
+ - [ ]  __Utstyr__: Datamaskin med internett
+
+
+
+
+
 
 
  # Fremgangsmåte
 
- Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../OPPGAVENAVN/OPPGAVENAVN.html){target=_blank}
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../bokstaver/bokstaver.html){target=_blank}
 
  _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
 
