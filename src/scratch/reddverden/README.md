@@ -12,7 +12,7 @@ Kildesortering er viktig for å begrense hvor mye avfallet vårt påvirker milj�
 ## Oppgaven passer til: {.check}
 __Fag__: Matematikk, naturfag, norsk, programmering, teknologi i praksis.
 
-__Anbefalte trinn__: 2.-10. trinn.
+__Anbefalte trinn__: 3.-10. trinn.
 
 __Tema__: Kildesortering, koordinatsystem, sammensatt tekst, brukerinteraksjon.
 
@@ -36,12 +36,12 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene bør være komfortable med Scratch.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert. Elevene bør ha tilgang på kilder for bilder og informasjon om materialer i gjenstandene de ønsker å bruke i spillet.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene bør ha tilgang på kilder for bilder og informasjon om materialer i gjenstandene de ønsker å bruke i spillet.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../reddverden/reddverden.html){target=_blank}
@@ -53,4 +53,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 - [ ] Spillet kan avsluttes, eller gi spilleren minuspoeng, dersom feil bøtte brukes.
 
 ## Eksterne ressurser {.challenge}
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Se NRK Skole sin serie _Kodeknekkerne_, [episode 4 - løkker](https://www.nrk.no/skole/xl/kodeknekkerne-1.13033753#Episode 4).
