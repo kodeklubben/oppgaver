@@ -18,7 +18,7 @@ asteroider ved å skyte dem i småbiter.
 
 ## Oppgaven passer til: {.check}
  __Fag__: Kunst og håndtverk, matematikk, programmering.
-__Anbefalte trinn__: 3.-10. trinn.
+__Anbefalte trinn__: 5.-10. trinn.
 __Tema__: Koordinatsystem, bildebehandlingsprogram, videreutvikling av programkode.
 __Tidsbruk__: Dobbelttime eller mer.
 
@@ -40,11 +40,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Forslag til vurderingskriterier {.challenge}
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven. Prosjektet er basert på at elevene allerede har gjort [Lunar Lander](../lunar_lander/lunar_lander.html).
-- [ ] __Utstyr__: Datamaskiner med Scratch installert.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../OPPGAVE/OPPGAVE.html){target=_blank}
@@ -58,4 +58,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 - [ ] Elevene kan lage en UFO som i tillegg til å måtte unngås kan skyte tilbake.
 
 ## Eksterne ressurser {.challenge}
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Se video av det originale Asteroids-spillet på [YouTube](https://www.youtube.com/watch?v=cZfsnA7dAHI).
