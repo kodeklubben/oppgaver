@@ -12,7 +12,7 @@ I flere kodeklubbtimer merker vi ofte at barna _nesten_ blir ferdige med et spil
 
 ## Oppgaven passer til: {.check}
  __Fag__: Kunst og håndtverk, programmering.
-__Anbefalte trinn__: 8.-10. trinn
+__Anbefalte trinn__: 3.-10. trinn
 __Tema__: Videreutvikling av kode.
 __Tidsbruk__: Dobbelttime eller mer.
 
@@ -29,11 +29,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Forslag til vurderingskriterier {.challenge}
 - [ ] Eleven viser middels måloppnåelse ved å fullføre hoveddelen av oppgaven.
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på utfordringene.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på introduksjons- og nybegynnernivå før de starter med denne oppgaven.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../krabbeangrep_remiks/krabbeangrep_remiks.html){target=_blank}
