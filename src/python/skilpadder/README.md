@@ -1,4 +1,3 @@
-
 ---
 title: Lærerveiledning - Skilpadder
 level: 1
@@ -8,28 +7,34 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven...
+I denne oppgaven utforskes grader og mangekanter ved hjelp av Python's skilpadder. 
 
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: 
+ __Fag__: Matematikk
 
- __Anbefalte trinn__:
+ __Anbefalte trinn__: 7.-10. trinn
 
- __Tema__: 
+ __Tema__: Geometri 
 
- __Tidsbruk__: 
+ __Tidsbruk__: Enkelttime
 
 
  ## Kompetansemål {.challenge}
 
- 
+ - [ ] __kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+
+ - [ ] __kunst og håndtverk, 2. trinn__: eksperimentere med enkle geometriske former i konstruksjon og som dekorative formelementer
+
+ - [ ] __Matematikk, 2. trinn__: gjennkjenne og beskrive trekk ved enkle to- og tredimensjonale figurer i forbindelse med hjørner, kanter og flater, og sortere og sette navn på figurene etter disse trekkene
+
+ - [ ] __Matematikk, 10. trinn__: bruke koordinater til å avbilde figurer og utforske egenskaper ved geometriske former, med og uten digitale verktøy
 
 
  ## Forslag til læringsmål {.challenge}
 
- - [ ]  Elevene kan...
+ - [ ]  Elevene kan navngi og konstruere n-kanter digitalt.  
 
 
  ## Forslag til vurderingskriterier {.challenge}
@@ -41,22 +46,21 @@ I denne oppgaven...
  
  ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: 
+ - [ ]  __Forutsetninger__: Ingen.
 
- - [ ]  __Utstyr__: 
+ - [ ]  __Utstyr__: Datamaskin med Python.
 
 
  # Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../skilpadder/skilpadder.html){target=_blank}
 
- _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
+ - [ ] Igjen så påpeker vi viktigheten av å gode programmnavn. En vanlig feil er å kalle programmet  sitt  for "turtle.py". Når en da prøver å laste inn pakken turtle, vil den da prøve å kjøre filen "turtle.py" i stedet. Dette gjør at programmet ikke kjøres, men løses ved å gi programmet et nytt navn. Det holder med andre ord ikke å lage å lage et nytt programm, en må endre eller slette det gamle programmet.   
 
 
  ## Variasjoner {.challenge}
 
-
- - [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
+ - [ ] Ulike variasjoner finnes i bunnen av oppgaveteksten. Klarer elevene å tegne hus, skilpadder, en dinosaur eller en robot?
 
 
  ## Eksterne ressurser {.challenge}
