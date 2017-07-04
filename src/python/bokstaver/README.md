@@ -33,7 +33,6 @@ I denne oppgaven skal vi programmere skilpadder til å konstruere bokstaver og a
  - [ ] __Matematikk, 10. trinn__: bruke koordinater til å avbilde figurer og utforske egenskaper ved geometriske former, med og uten digitale verktøy
 
 
-
  ## Forslag til læringsmål {.challenge}
 
  - [ ] Elevene kan bruke matematiske begreper til å beskrive 2 og 3-dimensjonale figuer.
@@ -52,26 +51,26 @@ I denne oppgaven skal vi programmere skilpadder til å konstruere bokstaver og a
 
  - [ ]  __Forutsetninger__: Ingen
 
- - [ ]  __Utstyr__: Datamaskin med internett
-
-
-
-
-
+ - [ ]  __Utstyr__: Datamaskin  
 
 
  # Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../bokstaver/bokstaver.html){target=_blank}
 
- _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
+I Skilpadder finner man kommandoene for velge farge og fylle lukkede figurer med farge, men de er ikke nevnt i denne oppgaven. Dersom elevene trenger hjelp så kan det nevnes at kommandoene er de følgende:
+
+ - [ ]  fillcolor('red')
+ - [ ]  pencolor('red')
+ - [ ]  begin_fill()
+ - [ ]  end_fill()
 
 
  ## Variasjoner {.challenge}
 
- - [ ]  Elevene kan lage ...
-
- - [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
+ - [ ] Skrive fornavn og etternavn under hverandre
+ - [ ] Lage funksjoner som skriver hver bokstav, slik at man slipper repetisjon av kode ved gjentagelser av bokstaver
+ - [ ] Fylle bokstavene med ulike farger
 
 
  ## Eksterne ressurser {.challenge}
