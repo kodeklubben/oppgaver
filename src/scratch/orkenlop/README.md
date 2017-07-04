@@ -15,7 +15,7 @@ kanten av skjermen vinner.
 ## Oppgaven passer til: {.check}
  __Fag__: Matematikk, programmering
 
-__Anbefalte trinn__: 5.-10. trinn
+__Anbefalte trinn__: 3.-10. trinn
 
 __Tema__: Koordinatsystem, brukerinteraksjon, parallellforskyving.
 
@@ -36,15 +36,14 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Forslag til vurderingskriterier {.challenge}
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
-
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene bør være komfortable med Scratch.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert. Det er en fordel om elevene jobber to og to, slik at de kan teste spillet sammen underveis.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Det er en fordel om elevene jobber to og to, slik at de kan teste spillet sammen underveis.
 
 # Fremgangsmåte
-[Klikk her for å se oppgaveteksten.](../OPPGAVE/OPPGAVE.html){target=_blank}
+[Klikk her for å se oppgaveteksten.](../orkenlop/orkenlop.html){target=_blank}
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
 ## Variasjoner {.challenge}
