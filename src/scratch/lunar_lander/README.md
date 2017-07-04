@@ -14,7 +14,7 @@ etter.
 
 ## Oppgaven passer til: {.check}
  __Fag__: Kunst og håndtverk, matematikk, programmering.
-__Anbefalte trinn__: 2.-10. trinn.
+__Anbefalte trinn__: 5.-10. trinn.
 __Tema__: Bildebehandling, koordinatsystem, brukerinteraksjon.
 __Tidsbruk__: Dobbelttime eller mer.
 
@@ -35,11 +35,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Forslag til vurderingskriterier {.challenge}
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../lunar_lander/lunar_lander.html){target=_blank}
