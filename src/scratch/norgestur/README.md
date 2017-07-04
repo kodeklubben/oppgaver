@@ -32,11 +32,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Forslag til vurderingskriterier {.challenge}
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på introduksjons- og nybegynnernivå før de starter med denne oppgaven.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert. Merk at et norgeskart brukes som bakgrunn i oppgaven, og må lastes ned av eleven selv. En beskrivelse for dette er gitt i steg 1 av oppgaven, ellers kan du gjøre følgende bildefil tilgjengelig for elevene:
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Merk at et norgeskart brukes som bakgrunn i oppgaven, og må lastes ned av eleven selv. En beskrivelse for dette er gitt i steg 1 av oppgaven, ellers kan du gjøre følgende bildefil tilgjengelig for elevene:
 ![](norgeskart.png)
 
 # Fremgangsmåte
