@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven introduseres elevene for første gang for programmeringssprket Python. Hensikten med oppgaven er å lære seg å lage program som skriver ut tekst på skjermen. 
+I denne oppgaven introduseres elevene for første gang for programmeringssprket Python. Hensikten med oppgaven er å lære seg å lage et program som skriver ut tekst på skjermen. 
 
 
 ## Oppgaven passer til: {.check}
