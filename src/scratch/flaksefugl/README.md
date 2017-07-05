@@ -41,12 +41,12 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, eller ved å løse utfordringene beskrevet i oppgaveteksten.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Elevene bør være komfortable med Scratch.
 
-- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Elevene kan gjerne jobbe to og to sammen.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../flaksefugl/flaksefugl.html){target=_blank}
@@ -58,4 +58,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 - [ ] Legg til rekorder, slik at elevene kan spille mot hverandre og sammenligne resultater.
 
 ## Eksterne ressurser {.challenge}
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Her er en [Youtube-video](https://www.youtube.com/watch?v%3DfQoJZuBwrkU){target=_blank} av Flappy Bird, som spillet er basert på.
