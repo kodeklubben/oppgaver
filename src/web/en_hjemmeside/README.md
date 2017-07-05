@@ -34,12 +34,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-
-- [ ] Høy måloppnåelse: Eleven klarer å bruke det eleven har gjort i oppgaven til å videreutvikle koden sin. 
-  - [ ] Eleven klarer å lage flere sider som kan lenkes sammen til den allerede lagde _Om meg-siden_.
-  - [ ] Eleven klarer å legge til mer innhold ved hjelp av HTML-tags. 
-  - [ ] Elevene klarer å finne nye HTML-tags og bruke dem til å lage nytt innhold til hjemmesiden. 
-
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -63,4 +58,5 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 
 ## Variasjoner {.challenge}
 - [ ] Elevene kan lage nye sider som kan lenkes sammen med _Om meg-siden_.
+- [ ] Eleven klarer å legge til mer innhold ved hjelp av HTML-tags. 
 - [ ] Elevene kan prøve å finne nye HTML-tags til kan bruke på hjemmesiden sin. 
