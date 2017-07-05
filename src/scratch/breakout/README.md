@@ -18,7 +18,7 @@ ulik vanskelighetsgrad og så videre.
 
 ## Oppgaven passer til: {.check}
  __Fag__: Kunst og håndtverk, matematikk, programmering.
-__Anbefalte trinn__: 1.-10. trinn.
+__Anbefalte trinn__: 5.-10. trinn.
 __Tema__: Geometriske grunnformer, koordinatsystem, løkker, brukerinteraksjon.
 __Tidsbruk__: Dobbelttime eller mer.
 
@@ -39,11 +39,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Forslag til vurderingskriterier {.challenge}
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
-- [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert.
+- [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven. Det er en fordel å ha gjort [Pong](../pong/pong.html){target=_blank} først.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../breakout/breakout.html){target=_blank}
@@ -58,4 +58,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 - [ ] Elevene kan lage ulike farger på boksene og lage ulike brett.
 
 ## Eksterne ressurser {.challenge}
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Her er en [Youtube-video av Breakout](https://www.youtube.com/watch?v%3D-uJSEmIea9U){target=_blank}.
