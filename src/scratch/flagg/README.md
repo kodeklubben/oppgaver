@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Flagg
-author: Geir Arne Hjelle
+author: Geir Arne Hjelle og Stein Olav Romslo
 level: 3
 language: nb
 ---
@@ -17,7 +17,7 @@ Blindern våren 2016.
 ## Oppgaven passer til: {.check}
  __Fag__: Kunst og håndtverk, matematikk, programmering
 
-__Anbefalte trinn__: 2.-10. trinn.
+__Anbefalte trinn__: 3.-10. trinn.
 
 __Tema__: Løkker, sirkler, forminskning, koordinatsystem.
 
@@ -43,11 +43,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på introduksjons- og nybegynnernivå før de starter med denne oppgaven. I prosjektet brukes _sinus_ og _cosinus_, som vanligvis ikke introduseres for elevene før mot slutten av videregående. Det kan være lurt å prate litt om disse funksjonene med elevene.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../flagg/flagg.html){target=_blank}
@@ -74,7 +74,6 @@ funksjonene er at figurene våre kan gå i sirkel.
 ## Variasjoner {.challenge}
 - [ ] Elevene kan prøve å endre på tallene underveis, og se hvordan dette påvirker animasjonen. Spesielt tallene i de forskjellige `vend høyre () grader`{.b}-klossene kan ha en stor effekt.
 - [ ] Elevene kan tegne sine egne flagg. Slik sirklene legges ut starter man nederst i venstre hjørne og går oppover og etterhvert mot høyre når man bruker den lange teksten (`rrrrrhbbhrrrrrrrrrrhbbhrrrrr...`) for å beskrive fargene i flagget.
-
 
 ## Eksterne ressurser {.challenge}
 - [ ] Foreløpig ingen eksterne ressurser...
