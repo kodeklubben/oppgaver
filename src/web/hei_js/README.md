@@ -32,12 +32,8 @@ __Tidsbruk__: Enkelttime
 - [ ] Eleven kan bruke HTML sammen med JavaScript
 
 ## Forslag til vurderingskriterier {.challenge}
-
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-
-- [ ] Høy måloppnåelse: Eleven klarer å bruke det eleven har gjort i oppgaven til å videreutvikle koden sin. 
-  - [ ] Eleven klarer å lage en egen funksjon som skriver ut noe til konsoll
-
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse av HTML.
