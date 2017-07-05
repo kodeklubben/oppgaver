@@ -13,7 +13,7 @@ JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 ## Oppgaven passer til: {.check}
  __Fag__: Matematikk, programmering.
 
-__Anbefalte trinn__: 5.-10. trinn
+__Anbefalte trinn__: 3.-10. trinn
 
 __Tema__: Koordinatsystem, løkker.
 
@@ -32,11 +32,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene bør være komfortable med Scratch.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../jafsefisk/jafsefisk.html){target=_blank}
