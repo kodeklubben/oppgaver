@@ -21,7 +21,7 @@ tags:
     - english
     - arts_and_crafts
     - social_science
-  level: #Logical OR
+  grade: #Logical OR
     - preschool #Projects aimed at preschool students
     - primary #Projects aimed at students in grade 1.-4.
     - secondary #Projects aimed at students in grade 5.-7.
