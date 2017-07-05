@@ -11,7 +11,7 @@ I dette prosjektet skal vi lage en versjon av [Flaksefugl](../Flaksefugl/flaksef
 
 ## Oppgaven passer til: {.check}
 __Fag__: Kunst og håndtverk, matematikk, naturfag, programmering.
-__Anbefalte trinn__: 3.-10. trinn.
+__Anbefalte trinn__: 5.-10. trinn.
 __Tema__: Spill, gravitasjon, variabler
 __Tidsbruk__: Hver av de to delene passer til en dobbelttime, eller som del av et lengre undervisningsopplegg.
 
@@ -36,11 +36,11 @@ __Tidsbruk__: Hver av de to delene passer til en dobbelttime, eller som del av e
 
 ## Forslag til vurderingskriterier {.challenge}
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven. Det kan være en fordel å ha gjort prosjektet [Flaksefugl](../Flaksefugl/flaksefugl.html){target=_blank} først.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten for del 1.](../3d_flakser/3d_flakser_1.html){target=_blank}
@@ -53,4 +53,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 - [ ] Elevene kan gi Flakse flere drakter, slik at flygingen ser enda mer realistisk ut.
 
 ## Eksterne ressurser {.challenge}
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Her er en [Youtube-video](https://www.youtube.com/watch?v%3DfQoJZuBwrkU){target=_blank} av Flappy Bird, som spillet er basert på.
