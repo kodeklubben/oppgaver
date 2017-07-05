@@ -13,7 +13,7 @@ banditt-maskin).
 
 ## Oppgaven passer til: {.check}
  __Fag__: Programmering, matematikk
-__Anbefalte trinn__: 5.-10. trinn
+__Anbefalte trinn__: 3.-10. trinn
 __Tema__: Løkker, spill.
 __Tidsbruk__: Dobbelttime eller mer.
 
@@ -34,12 +34,12 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Elevene bør være komfortable med Scratch.
 
-- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Elevene kan gjerne jobbe to og to sammen.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../enarmet_banditt/enarmet_banditt.html){target=_blank}
