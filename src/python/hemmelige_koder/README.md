@@ -1,4 +1,3 @@
-
 ---
 title: Lærerveiledning - Hemmelige koder
 level: 2
@@ -8,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi reise tilbake til Romertiden og utforske en av de aller første måtene åsende hemmelige signaler på. 
+I denne oppgaven skal vi reise tilbake til Romertiden og utforske en av de aller første måtene å sende hemmelige signaler på. 
 
 
 ## Oppgaven passer til: {.check}
@@ -17,7 +16,7 @@ I denne oppgaven skal vi reise tilbake til Romertiden og utforske en av de aller
           
  __Anbefalte trinn__: 7.-10. trinn         
 
- __Tema__: Kryptografi, Cæsar, Dekoding, Roma
+ __Tema__: Kryptografi, Cæsar-chiffer 
 
  __Tidsbruk__: Enkelttime
 
@@ -62,10 +61,10 @@ I denne oppgaven skal vi reise tilbake til Romertiden og utforske en av de aller
  ## Variasjoner {.challenge}
 
 
- - [ ] Prøv og lag et programm som krypterer meldingen med et tilfeldig hemmelig tall. Her kan det være lurt å bruke et innebygget bibliotek ved å skrive `import random` øverst i filen. For å finne ut hvordan biblioteket fungerer anbefales det å lese [dokumentasjonen](https://docs.python.org/3/library/random.html).
+ - [ ] Prøv og lage et programm som krypterer meldingen med et tilfeldig hemmelig tall. Her kan det være lurt å bruke et innebygget bibliotek ved å skrive `import random` øverst i filen. For å finne ut hvordan biblioteket fungerer anbefales det å lese [dokumentasjonen](https://docs.python.org/3/library/random.html).
 
 
  ## Eksterne ressurser {.challenge}
 
- - [ ] Foreløpig ingen eksterne ressurser ...
+ - [ ] Ønsker du å lære mer om kryptografi og hvordan mennesker har beskyttet sine hemmelige meldinger gjennom historien? Da anbefales det å ser videoeserien [En reise inn i kryptografi](https://nb.khanacademy.org/computing/computer-science/cryptography) fra Khan Academy. 
 
