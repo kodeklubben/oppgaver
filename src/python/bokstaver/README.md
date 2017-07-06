@@ -49,9 +49,9 @@ I denne oppgaven skal vi programmere skilpadder til å konstruere bokstaver og a
  
  ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: Ingen
+ - [ ]  __Forutsetninger__: Ingen.
 
- - [ ]  __Utstyr__: Datamaskin  
+ - [ ]  __Utstyr__: Datamaskin med Python installert. 
 
 
  # Fremgangsmåte
@@ -60,11 +60,12 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 
 I Skilpadder finner man kommandoene for velge farge og fylle lukkede figurer med farge, men de er ikke nevnt i denne oppgaven. Dersom elevene trenger hjelp så kan det nevnes at kommandoene er de følgende:
 
- - [ ]  fillcolor('red')
- - [ ]  pencolor('red')
- - [ ]  begin_fill()
- - [ ]  end_fill()
+ - [ ]  `fillcolor('red')`
+ - [ ]  `pencolor('red')`
+ - [ ]  `begin_fill()`
+ - [ ]  `end_fill()`
 
+__NB:__ merk at 'red' bare er et eksempel på en farge som kan brukes. Dersom en ønsker å bruke andre farger kan en enten prøve ulike engelske navn på farger, eller lese [dokumentasjonen](https://docs.python.org/2/library/turtle.html#color-control).
 
  ## Variasjoner {.challenge}
 
