@@ -1,36 +1,49 @@
 ---
 title: Lærerveiledning - Snøballkrig
+level: 4
 language: nb
 ---
 
-# Informasjon til veiledere
-
+# Om oppgaven {.activity}
 I dette spillet vil vi kontrollere snøballkaster som prøver å jage
 bort slemme gutter ved å kaste snøball etter dem.
 
 ![](snoballkrig.png)
 
-# Forberedelser
+## Oppgaven passer til: {.check}
+ __Fag__: Kunst og håndtverk, matematikk, programmering.
+__Anbefalte trinn__: 5.-10. trinn.
+__Tema__: Digitalt bildebehandlingsprogram, koordinatsystem, variabler.
+__Tidsbruk__: Dobbelttime eller mer.
 
-Snøballkrig bruker bare ressurser som er inkludert i
-Scratch-platformen og krever som sådann ingen spesielle forberedelser.
+## Kompetansemål {.challenge}
+- [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale bildebehandlingsprogram
+- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
+- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
-Oppgaven er dog ganske utfordrende, og ikke all kode er gitt i detalj
-i oppgaveteksten. Dermed er dette en oppgave for dem som har
-programmert litt Scratch tidligere.
+## Forslag til læringsmål {.challenge}
+- [ ] Elevene kan lage bakgrunn og elementer i digitalt bildebehandlingsprogram, og bruke dem i et spill.
+- [ ] Elevene kan plassere elementer på bestemte posisjoner i et koordinatsystem.
+- [ ] Elevene kan få elementer til å bevege seg i en bestemt retning i et koordinatsystem.
+- [ ] Elevene kan lage hensiktsmessige kommentarer for å dokumentere koden sin.
+- [ ] Elevene kan bruke variabler til å telle poeng.
+- [ ] Elevene kan bruke kode til å lage et spill med brukerinteraksjon.
 
-# Læringsmål
+## Forslag til vurderingskriterier {.challenge}
+- [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
-De viktigste læringsmålene i Snøballkrig er
+## Forutsetninger og utstyr {.challenge}
+- [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
-1. hvordan __bruke kloner__ for lage mange kopier av en figur,
-2. hvordan man kan gi forskjellige kloner forskjellige egenskaper, og
-3. hvordan man setter opp en __bra struktur__ for et større program.
+# Fremgangsmåte
+[Klikk her for å se oppgaveteksten.](../OPPGAVE/OPPGAVE.html){target=_blank}
+_Det kan være en utfordring for mange elever å lage koden. Under følger et eksempel på hvordan koden kan se ut under de forskjellige elementene._
 
-Mot slutten av oppgaven ser vi også på måter man kan gjøre spillet mer
-utfordrende etterhvert som man spiller.
-
-# Kodelisting: Scene
+# Scene {.activity}
 
 ```blocks
   når grønt flagg klikkes
@@ -51,7 +64,7 @@ utfordrende etterhvert som man spiller.
   bytt bakgrunn til [Slutt v]
 ```
 
-# Kodelisting: Helten
+# Helten {.activity}
 
 ```blocks
   når grønt flagg klikkes
@@ -85,7 +98,7 @@ utfordrende etterhvert som man spiller.
   stopp [andre skript i figuren v]
 ```
 
-# Kodelisting: Snøball
+# Snøball {.activity}
 
 ```blocks
   når grønt flagg klikkes
@@ -113,7 +126,7 @@ utfordrende etterhvert som man spiller.
   slett denne klonen
 ```
 
-# Kodelisting: Skumling
+# Skumling {.activity}
 
 ```blocks
   når grønt flagg klikkes
@@ -165,3 +178,9 @@ utfordrende etterhvert som man spiller.
   når jeg mottar [slutt v]
   slett denne klonen
 ```
+
+## Variasjoner {.challenge}
+- [ ] _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
+
+## Eksterne ressurser {.challenge}
+- [ ] Foreløpig ingen eksterne ressurser...
