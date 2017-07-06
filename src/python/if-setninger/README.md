@@ -1,33 +1,36 @@
-
 ---
-
+title: Lærerveiledning - If-setninger
+level: 2
+language: nb
 ---
 
 
 # Om oppgaven {.activity}
 
-I denne oppgaven...
-
+I denne oppgaven skal vi fortsette å studere for-løkkene. Spesielt så skal vi kombinere disse løkkene noe vi har studert tidligere, nemlig innputt fra brukeren.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: 
+ __Fag__: Programmering
 
- __Anbefalte trinn__:
+ __Anbefalte trinn__: 7.-10. trinn
 
- __Tema__: 
+ __Tema__: Innputt, Løkker
 
- __Tidsbruk__: 
+ __Tidsbruk__: Enkelttime
 
 
  ## Kompetansemål {.challenge}
 
  
+ - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+
+ - [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse
 
 
  ## Forslag til læringsmål {.challenge}
 
- - [ ]  Elevene kan...
+ - [ ]  Elevene forstår hvordan en hvis-løkke fungerer og kan skrive enkle løkker selv.
 
 
  ## Forslag til vurderingskriterier {.challenge}
@@ -39,14 +42,14 @@ I denne oppgaven...
  
  ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: 
+ - [ ]  __Forutsetninger__: Kjennskap til Python.
 
- - [ ]  __Utstyr__: Datamaskin med Python installert
+ - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
  # Fremgangsmåte
 
- Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../OPPGAVENAVN/OPPGAVENAVN.html){target=_blank}
+ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../if-setninger/if-setninger.html){target=_blank}
 
  _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
 
@@ -59,5 +62,5 @@ I denne oppgaven...
 
  ## Eksterne ressurser {.challenge}
 
- - [ ] Foreløpig ingen eksterne ressurser ...
+ - [ ] Denne oppgaven passer ypperlig å kombinere med [Hvor gammel er du?](http://oppgaver.kidsakoder.no/python/hvor_gammel_er_du/hvor_gammel_er_du.html) første episode av [Kodeknekkerene](https://www.nrk.no/skole/xl/kodeknekkerne-1.13033753#Episode%201:%20Hvis/ellers). Den anbefalte fremmgangsmåten finnes i margen til venstre.
 
