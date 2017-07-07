@@ -44,8 +44,7 @@ _Oppgaven kan avgrenses til å dekke mange kompetansemål, men vil i mange tilfe
 - [ ] Elevene kan lage en realistisk kravspesifikasjon for spillet sitt, og finne ut hvilke elementer som må være med for at det skal fungere som ønsket.
 
 ## Forslag til vurderingskriterier {.challenge}
-- [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+_Siden det er mange kompetansemål som kan dekkes, bør læreren selv lage gode vurderingskriterier som passer til de valgte kompetansemålene._
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven. Elevene skal designe sine egne ressurser til spillet, inkludert figurer, bakgrunner og lyder. Til dette trenger de papir og noe å skrive med. Ha gjerne klart ekstra papir slik at de kan prøve ut mange forskjellige ideer. Husk at design og planlegging kan ta både én og to dobbelttimer - sørg for at elevene disponerer tiden godt!
@@ -53,10 +52,11 @@ _Oppgaven kan avgrenses til å dekke mange kompetansemål, men vil i mange tilfe
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../lag_ditt_eget_spill/lag_ditt_eget_spill.html){target=_blank}
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
+_Fremgangsmåten er beskrevet i oppgaveteksten, og utfordringer vil variere etter hva elevene ønsker å gjøre._
 
 ## Variasjoner {.challenge}
 - [ ] Oppgaven har så mange variasjoner elevene ønsker. Se andre prosjekter for inspirasjon.
 
 ## Eksterne ressurser {.challenge}
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Se [foredrag av Braden Kowitz](http://2016.webdagene.no/foredrag/google-design-sprint){target=_blank} på Webdagene 2016 (engelsk).
+- [ ] Se [Google Design Sprint](http://www.gv.com/sprint/){target=_blank} sine nettsider (engelsk).
