@@ -1,7 +1,7 @@
 ---
 title: Eget prosjekt
 level: 4
-language: nb-NO
+language: nb
 author: Teodor Heggelund
 ---
 
