@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 I denne oppgaven skal elevene lage et enkelt fotballspill, hvor de skal prøve å score på
-så mange straffespark som mulig.
+så mange straffespark som mulig. Denne oppgaven egner seg godt som en første introduksjon til Scratch. 
 
 ## Oppgaven passer til: {.check}
  __Fag__: Matematikk, Programmering
@@ -36,30 +36,15 @@ __Tidsbruk__: Dobbelttime
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 - [ ] Dette er en oppgave hvor elevene fint kan prøve hverandres spill og vurdere hverandre.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Ingen
 
-- [ ]  __Utstyr__: Datamaskin med tilgang til internett
+- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/. 
 
 ## Fremgangsmåte
-
-# Forklaring av tema: Skript tilhører figuren {.activity}
-
-Dersom elevene allerede er komfortable med Scratch er dette prosjektet
-en bra anledning for å snakke om hvordan man gir forskjellige figurer
-en unik oppførsel ved å legge ulike skript på dem.
-
-Et viktig konsept i Scratch er at man koder ved å beskrive egenskapene
-(utseende, posisjon, retning, osv.) og oppførselen (skript) til
-figurer. På fagspråket kalles dette __objektorientert programmering__
-(mer presist er Scratch _prototypeorientert programmering_, men
-forskjellen er ikke relevant her). Dette virker så naturlig at
-elevene sjelden bevisst tenker på dette, og samtidig skaper det
-sjelden problemer.
-
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../straffespark/straffespark.html){target=_blank}
 
@@ -121,6 +106,17 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
   (eller ved å legge denne klossen øverst i `Ball` sitt hovedskript).
 
 ## Variasjoner {.challenge}
+Dersom elevene allerede er komfortable med Scratch er dette prosjektet
+en bra anledning for å snakke om hvordan man gir forskjellige figurer
+en unik oppførsel ved å legge ulike skript på dem.
+
+Et viktig konsept i Scratch er at man koder ved å beskrive egenskapene
+(utseende, posisjon, retning, osv.) og oppførselen (skript) til
+figurer. På fagspråket kalles dette __objektorientert programmering__
+(mer presist er Scratch _prototypeorientert programmering_, men
+forskjellen er ikke relevant her). Dette virker så naturlig at
+elevene sjelden bevisst tenker på dette, og samtidig skaper det
+sjelden problemer.
 
 Dette er et introduksjonsprosjekt, og elevene ledes derfor ganske
 detaljert gjennom hvordan spillet skal programmeres. Det er likevel
