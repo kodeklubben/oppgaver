@@ -38,14 +38,13 @@ __Tidsbruk__: Dobbelttime
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven og forklare muntlig hvordan sirkelen blir tegnet, katten roterer og ballen spretter. 
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Ingen
 
-- [ ]  __Utstyr__: Datamaskin med tilgang på internett
-
+- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/. Elevene kan gjerne jobbe to og to sammen.
 
 ## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven.[Klikk her for å se oppgaveteksten.](../soloball/soloball.html){target=_blank}
