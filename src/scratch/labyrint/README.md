@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Labyrint
-author: Geir Arne Hjelle
+author: Geir Arne Hjelle og Madeleine Lorås
 level: 1
 language: nb
 ---
@@ -11,7 +11,7 @@ I denne oppgaven skal elevene lage et enkelt spill hvor man kontrollerer en lite
 ## Oppgaven passer til: {.check}
  __Fag__: Programmering
 
-__Trinn__: 8.-10. trinn
+__Trinn__: 3.-10. trinn
 
 __Tema__: Løkker, tester, variabler, tilfeldighet
 
@@ -42,7 +42,7 @@ __Tidsbruk__: Dobbelttime eller mer
 
 + [ ] __Forutsetninger__: Ingen
 
-+ [ ] __Utstyr__: Datamaskiner med tilgang internett
++ [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/. 
 
 ## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../labyrint/labyrint.html){target=_blank}
