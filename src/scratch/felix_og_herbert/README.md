@@ -48,17 +48,13 @@ __Tidsbruk__: Dobbelttime eller mer
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/.
-- [ ] Dersom oppgaven skal brukes i engelskundervising er det lurt å bruke Scratch på engelsk. Slik skifter man språk:
+- [ ] __Forutsetninger__: Dersom oppgaven skal brukes i engelskundervising er det lurt å bruke Scratch på engelsk. Slik skifter man språk:
   - [ ] På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
     å velge språk helt nederst på skjermen.
   - [ ] Inne i Scratch-editoren kan man trykke på jordkloden øverst til
     venstre for å endre språket som brukes.
 
-- [ ] __Utstyr__: Datamaskiner med tilgang til internett. Elevene kan fint jobbe to og to.
-
-- [ ] __Forberedelser__: Felix og Herbert bruker bare ressurser som er inkludert i Scratch-platformen og krever som sådann ingen spesielle forberedelser.
-
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/. Elevene kan fint jobbe to og to.
 
 ## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../felix_og_herbert/felix_og_herbert.html){target=_blank}
