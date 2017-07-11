@@ -11,7 +11,7 @@ I denne oppgaven skal elevene lære å rotere en figur rundt egen akse.
 ## Oppgaven passer til: {.check}
  __Fag__: Matematikk
 
-__Trinn__: 7. trinn
+__Trinn__: 3-7. trinn
 
 __Tema__: Rotasjon
 
@@ -40,7 +40,7 @@ __Tidsbruk__: Enkelttime
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Ingen
 
-- [ ]  __Utstyr__: Datamaskin med internett
+- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/.
 
 
 ## Fremgangsmåte
