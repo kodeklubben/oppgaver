@@ -25,13 +25,13 @@ __Tidsbruk__: Dobbelttime
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ]  Elevene kan forklare hvordan løkker, tester og variabler fungerer, og hvorfor de er hensiktsmessige å bruke i denne oppgaven.
+- [ ] Elevene kan forklare hvordan løkker, tester og variabler fungerer, og hvorfor de er hensiktsmessige å bruke i denne oppgaven.
 - [ ] Eleven kan forklare hvordan brukeren kan styre figuren med piltastene, og hvordan figuren interagerer med labyrinten.
 - [ ] Eleven kan forklare hvordan tilfeldighetsgeneratoren fungerer.
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Eleven oppnår måloppnåelse ved å fullføre oppgaven slik det er beskrevet.
+- [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 - [ ] Eleven oppnår høy måloppnåelse ved å legge til flere momenter, og utvikle en mer utfordrende labyrint.
  - [ ] Dette er en oppgave hvor elevene fint kan prøve hverandres spill og vurdere hverandre.
 
@@ -39,7 +39,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ]  __Forutsetninger__: Ingen
 
-- [ ]  __Utstyr__: Datamaskiner med tilgang internett
+- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/. Elevene kan gjerne jobbe to og to sammen.
+
 
 ## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven.[Klikk her for å se oppgaveteksten.](../pingviner_pa_tur/pingviner_pa_tur.html){target=_blank}
