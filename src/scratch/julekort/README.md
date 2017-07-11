@@ -43,8 +43,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Forutsetninger__: Ingen.
 
-- [ ] __Utstyr__: Datamaskiner med tilgang internett. Oppgaven kan fint gjøres to-og-to.
-
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/. Elevene kan gjerne jobbe to og to sammen.
 
 
 ## Fremgangsmåte
