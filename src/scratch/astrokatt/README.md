@@ -36,7 +36,7 @@ __Tidsbruk__: Dobbelttime
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Ingen, fin introduksjon til Scratch.
 
-- [ ]  __Utstyr__: Datamaskiner med tilgang internett
+- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/. Elevene kan gjerne jobbe to og to sammen.
 
 ## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../astrokatt/astrokatt.html){target=_blank}
