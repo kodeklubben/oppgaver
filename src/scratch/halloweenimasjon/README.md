@@ -46,15 +46,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Eleven klarer å lage animasjonene i oppgaven.
+- [ ] Eleven oppnår middels måloppnåelse ved å lage animasjonene i oppgaven.
 - [ ] Elevene oppnår høy måloppnåelse ved å lage egne figurer og animasjoner.
 
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: Ingen
+- [ ] __Forutsetninger__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/.
 
-- [ ] __Utstyr__: Datamaskiner med tilgang internett
+- [ ] __Utstyr__: Datamaskiner med tilgang til internett.
 
 
 ## Fremgangsmåte
