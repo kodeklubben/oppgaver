@@ -34,7 +34,7 @@ __Tidsbruk__: Dobbeltime
 
 - [ ]  Eleven kan bruke HTML til å lenke sammen 3 nettsider. 
 - [ ] Eleven kan bruke HTML og CSS sammen for å designe egen nettside.
-- [ ] Eleven kan bruke lenke sammen nye nettsider med arbeid de har gjort tidligere. 
+- [ ] Eleven kan lenke sammen nye nettsider med arbeid de har gjort tidligere. 
 
 
 ## Forslag til vurderingskriterier {.challenge}
