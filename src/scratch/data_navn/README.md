@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - Bruk data: Jente- og guttenavn
+title: "Lærerveiledning - Bruk data: Jente- og guttenavn"
 level: 2
 language: nb
 ---
@@ -48,7 +48,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 
 ## Forutsetninger og utstyr {.challenge}
-- [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse for statistikk og litt erfaring med Scratch. 
+- [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse for statistikk og litt erfaring med Scratch.
 
 - [ ] __Utstyr__: Datamaskiner med tilgang internett og excel installert (ikke nettbrett). Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan fint jobbe to og to.
 
@@ -64,4 +64,3 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 ## Variasjoner {.challenge}
 - [ ] Elevene skal finne andre datasett. Her kan det være en ide å ha noe klart på forhånd.
 - [ ] Bruke datasett for å finne gjennomsnitt og median.
-
