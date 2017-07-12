@@ -1,7 +1,5 @@
 ---
 title: Python
-tags:
-  tema: [animasjon, spill]
 language: nb
 ---
 
@@ -36,4 +34,3 @@ mange prosjekter som du kan jobbe med.
 - Sjekk ut NTNU sine videoer på norsk for hvordan du kan komme igang og
   programmere i Python på
   [youtube](https://www.youtube.com/channel/UCNwXyHlGGOWZLzTy0-hM63w/videos?flow=grid&sort=da&view=0).
-
