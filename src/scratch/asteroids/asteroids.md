@@ -3,6 +3,10 @@ title: Asteroids
 level: 4
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -26,13 +30,13 @@ asteroider ved å skyte dem i småbiter.
 
 ## Plan {.check}
 
-+ Enda et flyvende romskip
+- [ ] Enda et flyvende romskip
 
-+ Romskipet kan skyte!
+- [ ] Romskipet kan skyte!
 
-+ Pass deg for asteroidene
+- [ ] Pass deg for asteroidene
 
-+ .. og andre utfordringer
+- [ ] .. og andre utfordringer
 
 # Steg 1: Enda et flyvende romskip {.activity}
 
@@ -51,19 +55,19 @@ vi laget i Lunar Lander.
 
 ## Sjekkliste {.check}
 
-+ Åpne [Lunar Lander](../lunar_lander/lunar_lander.html)-prosjektet
+- [ ] Åpne [Lunar Lander](../lunar_lander/lunar_lander.html)-prosjektet
   ditt.
 
-+ Legg merke til at det står `Ryggsekk` helt nederst på skjermen.
+- [ ] Legg merke til at det står `Ryggsekk` helt nederst på skjermen.
   Klikk på `Ryggsekk` og et litt større felt skal åpne seg opp.
 
-+ Dra hele romskip-figuren din til den åpne ryggsekken. En kopi av
+- [ ] Dra hele romskip-figuren din til den åpne ryggsekken. En kopi av
   romskip-figuren blir værende i ryggsekken.
 
-+ Start et nytt prosjekt ved å velge `Ny` i `Fil`-menyen. Slett
+- [ ] Start et nytt prosjekt ved å velge `Ny` i `Fil`-menyen. Slett
   kattefiguren og legg på en stjernebakgrunn.
 
-+ Du kan nå dra romskip-kopien ut fra ryggsekken, og til figurvinduet
+- [ ] Du kan nå dra romskip-kopien ut fra ryggsekken, og til figurvinduet
   i det nye prosjektet.
 
   ![](ryggsekk.png)
@@ -74,17 +78,17 @@ vi laget i Lunar Lander.
   om du har et `Sjekk landing`-skript trenger vi ikke det i dette
   spillet.
 
-+ Legg et skript på scenen som sender en melding til romskipet om
+- [ ] Legg et skript på scenen som sender en melding til romskipet om
   at det skal begynne å fly når det grønne flagget klikkes. Prøv
   spillet ditt. Kan du fly romskipet rundt omkring?
 
-+ Vi skal gjøre en liten forandring i hvordan romskipet oppfører
+- [ ] Vi skal gjøre en liten forandring i hvordan romskipet oppfører
   seg. Asteroids foregår langt ute i rommet hvor det ikke er noen
   merkbar tyngdekraft. Slett derfor klossen som modellerer
   tyngdekraften i `for alltid`{.blockcontrol}-løkken din, `endre
   [fartY v] med (-0.01)`{.b}.
 
-+ Vi skal også gjøre en litt større endring i spillet. Vi vil at
+- [ ] Vi skal også gjøre en litt større endring i spillet. Vi vil at
   verdensrommet skal føles litt stort og uoversiktlig ved at når
   romskipet går ut av skjermen på den ene siden skal det dukke opp på
   andre siden av skjermen.
@@ -120,13 +124,13 @@ vi laget i Lunar Lander.
 
 ## Sjekkliste {.check}
 
-+ Lag en ny figur som du kaller `Skudd`. Denne tegner du greit selv.
+- [ ] Lag en ny figur som du kaller `Skudd`. Denne tegner du greit selv.
   Eventuelt finnes det for eksempel noen ball-figurer som kan brukes
   som kuler. Bruk en `sett størrelse`{.blocklooks}-kloss for at
   figuren skal bli passe stor. Legg også på en kloss for å
   `skjule`{.blocklooks} figuren.
 
-+ Vi vil bruke kloner slik at vi kan skyte flere skudd. Først trenger
+- [ ] Vi vil bruke kloner slik at vi kan skyte flere skudd. Først trenger
   vi koden som lager en ny skuddklone når mellomromtasten trykkes:
 
   Lag et skript på skudd-figuren som starter på `Nytt
@@ -139,7 +143,7 @@ vi laget i Lunar Lander.
   `vend`{.blockmotion}-klosser. Til slutt kan du `lage en
   klon`{.blockcontrol} av figuren.
 
-+ For å passe på at bare en melding sendes ut hver gang
+- [ ] For å passe på at bare en melding sendes ut hver gang
   mellomromtasten trykkes kan vi starte `hvis`{.blockcontrol}-testen
   med å vente til mellomromtasten er sluppet igjen. Dette trikset ser
   omtrent slik ut:
@@ -151,14 +155,14 @@ vi laget i Lunar Lander.
   slutt
   ```
 
-+ Nå skal vi kode oppførselen til skuddet etter at det er avfyrt. Det
+- [ ] Nå skal vi kode oppførselen til skuddet etter at det er avfyrt. Det
   kan være ganske enkelt. Når skuddfiguren `starter som
   klon`{.blockcontrol} må den `vises`{.blocklooks}, og deretter kan
   den flyttes i en løkke før den til slutt slettes. Eksperimenter med
   hastigheten og rekkevidden på skuddet ved å endre på hvor mange
   ganger løkka gjentas og hvor mange steg figuren går inne i løkka.
 
-+ Til slutt vil vi at også skuddene skal kunne forsvinne ut på den ene
+- [ ] Til slutt vil vi at også skuddene skal kunne forsvinne ut på den ene
   siden av skjermen og dukke opp igjen på den andre. Til dette vil vi
   bruke omtrent samme kode for romskipet.
 
@@ -169,12 +173,12 @@ vi laget i Lunar Lander.
   Kopier koden for å *warp'e* rundt skjermen fra romskipet til
   skudd-figuren.
 
-+ Vi kan nesten bruke denne koden som den er. Den eneste endringen vi
+- [ ] Vi kan nesten bruke denne koden som den er. Den eneste endringen vi
   trenger å gjøre er at den skal starte på `når jeg starter som
   klon`{.b} i stedet for på `når jeg mottar [Nytt spill v]`{.b}, siden
   denne oppførselen skal gjelde for alle skuddklonene.
 
-+ Prøv spillet ditt. Nå skal du kunne fly rundt i verdensrommet mens
+- [ ] Prøv spillet ditt. Nå skal du kunne fly rundt i verdensrommet mens
   du skyter.
 
 # Steg 3: Pass deg for asteroidene {.activity}
@@ -186,18 +190,18 @@ vi laget i Lunar Lander.
 
 ## Sjekkliste {.check}
 
-+ Lag en asteroidefigur. En måte å gjøre dette på er å tegne en ny
+- [ ] Lag en asteroidefigur. En måte å gjøre dette på er å tegne en ny
   figur med vektorgrafikk. Start med en enkel firkant, og bruk
   deretter `Bøy`-verktøyet for å legge til flere hjørnepunkter og
   flytte dem rundt som i figuren under.
 
   ![](flyttpunkt.png)
 
-+ Også for asteroidene vil vi bruke kloner. Lag et skript som
+- [ ] Også for asteroidene vil vi bruke kloner. Lag et skript som
   `skjuler`{.blocklooks} figuren og lager et par asteroide-kloner
   tilfeldige steder på skjermen når det mottar `Nytt spill`-meldingen.
 
-+ Når figuren `starter som klon`{.blockcontrol} vil vi først at den
+- [ ] Når figuren `starter som klon`{.blockcontrol} vil vi først at den
   `peker`{.blockmotion} i en tilfeldig retning og deretter
   `vises`{.blocklooks}. Videre kan den gå inn i en løkke som `gjentas
   til`{.blockcontrol} figuren `berører romskipet`{.blocksensing}. Inne
@@ -215,15 +219,15 @@ vi laget i Lunar Lander.
   asteroiden. Til slutt kan du `slette denne klonen`{.blockcontrol}
   uansett hva størrelsen er.
 
-+ Legg på en melding eller en `stopp`{.blockcontrol}-kloss slik at
+- [ ] Legg på en melding eller en `stopp`{.blockcontrol}-kloss slik at
   spillet kan avsluttes etter at `gjenta til`{.blockcontrol}-løkken
   avsluttes, siden romskipet da har krasjet i en asteroide.
 
-+ Også asteroidene skal kunne fly ut av skjermen på en side og dukke
+- [ ] Også asteroidene skal kunne fly ut av skjermen på en side og dukke
   opp på en annen. Kopier derfor skriptet som fikser dette fra
   skudd-figuren på samme måte som tidligere.
 
-+ Til slutt vil vi også slette skudd-klonene når de treffer
+- [ ] Til slutt vil vi også slette skudd-klonene når de treffer
   asteroidene. Her må vi være litt forsiktig så vi ikke sletter
   skudd-klonene før asteroidene merker at de er truffet. Dette kan vi
   fikse ved å legge inn en ørliten forsinkelse. Du kan for eksempel
@@ -245,7 +249,7 @@ vi laget i Lunar Lander.
 
 ## Ideer til videreutvikling {.check}
 
-+ Gi poeng når spilleren treffer en asteroide. Man burde kanskje få
+- [ ] Gi poeng når spilleren treffer en asteroide. Man burde kanskje få
   flere poeng for å treffe de små asteroidene? Det kan du fikse med en
   utregning omtrent som
 
@@ -253,7 +257,7 @@ vi laget i Lunar Lander.
   avrund ((100) / (størrelse))
   ```
 
-+ Dersom du plasserer asteroidene helt tilfeldig når et nytt spill
+- [ ] Dersom du plasserer asteroidene helt tilfeldig når et nytt spill
   starter er det ganske sannsynlig at romskipet krasjer i en asteroide
   allerede før spillet har begynt. Det er ikke noe moro. En måte å
   fikse det på vil være å først la asteroideklonen
@@ -261,10 +265,10 @@ vi laget i Lunar Lander.
   retning og `gå 100 til 200 steg`{.blockmotion} før det til slutt
   `vises`{.blocklooks}.
 
-+ Spillet ser litt kulere ut om du tegner flere asteroidedrakter, og
+- [ ] Spillet ser litt kulere ut om du tegner flere asteroidedrakter, og
   velger en av dem tilfeldig når en klon lages.
 
-+ Dersom man klarer å skyte ned alle asteroidene burde man komme
+- [ ] Dersom man klarer å skyte ned alle asteroidene burde man komme
   videre til et vanskeligere nivå. Kanskje med flere asteroider? Eller
   med asteroider som beveger seg raskere? Eller deler seg i flere
   deler når de blir skutt?
@@ -278,7 +282,7 @@ vi laget i Lunar Lander.
   Videre bruker du en `Nivå`{.blockdata}-variabel som holder styr på
   hvilket nivå spilleren har kommet til.
 
-+ I det originale Asteroids-spillet dukket det også opp en flyvende
+- [ ] I det originale Asteroids-spillet dukket det også opp en flyvende
   tallerken (UFO) innimellom. Denne måtte man også passe seg for, men
   i motsetning til asteroidene kunne UFOen skyte tilbake. Prøv å legg
   til en slik UFO i spillet ditt!

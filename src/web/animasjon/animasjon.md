@@ -121,10 +121,10 @@ __NB!__ Verdiene i `animation`-attributtene kan også skrives som en egen linje,
 ```
 
 ## Utfordring {.challenge}
-- Skriv koden inn i din favoritt teksteditor, lagre det som en `.html`-fil og gjør oppgavene under.
-- Få animasjonen til å bytte farge fra blå til rød underveis.
-- Klarer du å få boksen til å flytte seg nedover og oppover?
-- Prøv å få boksen til å bevege seg i en firkant.
+- [ ] Skriv koden inn i din favoritt teksteditor, lagre det som en `.html`-fil og gjør oppgavene under.
+- [ ] Få animasjonen til å bytte farge fra blå til rød underveis.
+- [ ] Klarer du å få boksen til å flytte seg nedover og oppover?
+- [ ] Prøv å få boksen til å bevege seg i en firkant.
 
 
 # Steg 2: @keyframes {.activity}
@@ -252,22 +252,22 @@ __Dette skal vi programmere:__
 Nå skal vi få `pickaxe`-en til å fly. Vi begynner med å beskrive animasjonen med `keyframes`.
 
 ## Sjekkliste {.check}
-+ Lag en `@keyframes` med animasjonsnavnet `move-pickaxe`.
-+ La figuren starte utenfor skjermen. **Hint:** bruk en negativ verdi av `left`.
-+ La `pickaxe`-bildet bevege seg bort til blokkene. Klarer du å finne ut hvor langt det er? **Hint:** positiv verdi av `left`.
-+ Legg til rotasjon med `transform: rotate(antall grader)`.
-+ Kan du tenke deg hvor `transform: rotate()` bør være? I `0%` eller `100%`?
-+ Prøv deg frem med hvor mange grader du trenger for at den skal bli riktig. **Hint:** 360 grader er én gang og 720 grader er to ganger rundt seg selv.
+- [ ] Lag en `@keyframes` med animasjonsnavnet `move-pickaxe`.
+- [ ] La figuren starte utenfor skjermen. **Hint:** bruk en negativ verdi av `left`.
+- [ ] La `pickaxe`-bildet bevege seg bort til blokkene. Klarer du å finne ut hvor langt det er? **Hint:** positiv verdi av `left`.
+- [ ] Legg til rotasjon med `transform: rotate(antall grader)`.
+- [ ] Kan du tenke deg hvor `transform: rotate()` bør være? I `0%` eller `100%`?
+- [ ] Prøv deg frem med hvor mange grader du trenger for at den skal bli riktig. **Hint:** 360 grader er én gang og 720 grader er to ganger rundt seg selv.
 
 Så legger vi animasjonen til øksen.
 
 ## Sjekkliste {.check}
-+ Finn `#pickaxe` i CSS-en.
-+ Legg til animasjonsnavnet fra `keyframes` med `animation-name`.
-+ Legg til `animation-duration` på `2s`.
-+ Legg til et `animation-delay` på `1s`.
-+ Sett `animation-timing-function` til `linear`.
-+ Sett `animation-fill-mode` til `forwards`.
+- [ ] Finn `#pickaxe` i CSS-en.
+- [ ] Legg til animasjonsnavnet fra `keyframes` med `animation-name`.
+- [ ] Legg til `animation-duration` på `2s`.
+- [ ]Legg til et `animation-delay` på `1s`.
+- [ ] Sett `animation-timing-function` til `linear`.
+- [ ] Sett `animation-fill-mode` til `forwards`.
 
 <style>
     #pickaxe {

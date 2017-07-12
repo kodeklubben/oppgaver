@@ -45,7 +45,7 @@ dag, inkludert for eksempel *Scratch*, *Lua* og *Python*.
 
 ## Sjekkliste {.check}
 
-+ Det er på tide å lage vår første skilpadde. Start IDLE og åpne et
+- [ ] Det er på tide å lage vår første skilpadde. Start IDLE og åpne et
   nytt programmeringsvindu. I dette nye vinduet kan du skrive inn
   følgende kode:
 
@@ -63,23 +63,23 @@ dag, inkludert for eksempel *Scratch*, *Lua* og *Python*.
   dette ikke skjer kan du se i det opprinnelige `Python
   Shell`-vinduet om du har fått en feilmelding.
 
-+ La oss se litt nøyere på hva programmet gjør så langt. Det er en god
+- [ ] La oss se litt nøyere på hva programmet gjør så langt. Det er en god
   ide å prøve å endre på ting i programmet for å se effekten av
   endringene og bedre forstå hvordan ting virker.
 
-+ Linjen `shape('turtle')` sier at vi vil bruke en skilpaddefigur. I
+- [ ] Linjen `shape('turtle')` sier at vi vil bruke en skilpaddefigur. I
   stedet for `turtle` kan du også prøve `arrow`, `circle`, `square`,
   `triangle` eller `classic`.
 
-+ Med `shapesize(2)` forteller vi programmet hvor stor vi vil at
+- [ ] Med `shapesize(2)` forteller vi programmet hvor stor vi vil at
   skilpaddefiguren skal være. Prøv med andre tall!
 
-+ Kommandoene `bgcolor` og `color` bestemmer fargene på henholdsvis
+- [ ] Kommandoene `bgcolor` og `color` bestemmer fargene på henholdsvis
   bakgrunnen og på skilpaddefiguren. Python kjenner til veldig mange
   farger (men bare på engelsk), så prøv om du kan endre fargene til
   noe du liker.
 
-+ I de senere programmene vil vi bruke disse linjene på toppen. Du kan
+- [ ] I de senere programmene vil vi bruke disse linjene på toppen. Du kan
   gjerne bruke en variant av farger og figur som du liker bedre i
   stedet.
 
@@ -91,7 +91,7 @@ om til en kunstner.
 
 ## Sjekkliste {.check}
 
-+ Legg til en linje nederst i programmet ditt, slik at det ser slik
+- [ ] Legg til en linje nederst i programmet ditt, slik at det ser slik
   ut:
 
   ```python
@@ -105,11 +105,11 @@ om til en kunstner.
   forward(200)
   ```
 
-+ Når du kjører programmet vil du se at skilpadden har beveget seg
+- [ ] Når du kjører programmet vil du se at skilpadden har beveget seg
   forover et lite stykke, og at den har tegnet en strek der den
   beveget seg.
 
-+ I tillegg til `forward` kan vi også bruke kommandoene `backward` for
+- [ ] I tillegg til `forward` kan vi også bruke kommandoene `backward` for
   å gå bakover, `left` for å svinge mot venstre og `right` for å
   svinge mot høyre. Prøv for eksempel å endre programmet ditt til det
   følgende:
@@ -132,7 +132,7 @@ om til en kunstner.
 
   Ser du at skilpadden utfører alle kommandoene du gir den?
 
-+ Hvis vi setter sammen kommandoene litt systematisk kan vi tegne noen
+- [ ] Hvis vi setter sammen kommandoene litt systematisk kan vi tegne noen
   grunnleggende geometriske figurer. For eksempel, om vi vil tegne en
   firkant kan vi først gå fremover, deretter svinge 90 grader (mot
   høyre eller venstre), deretter fremover igjen, så svinge, så
@@ -159,7 +159,7 @@ om til en kunstner.
 
   Tegner skilpadden en firkant når du kjører dette programmet?
 
-+ Hva med en trekant? Hvordan må du forandre koden din for at
+- [ ] Hva med en trekant? Hvordan må du forandre koden din for at
   skilpadden skal tegne en trekant i stedet for en firkant? Prøv selv
   å endre koden og kjør den, ble resultatet som du trodde?
 
@@ -172,8 +172,8 @@ bruker vi __for-løkker__.
 
 ## Sjekkliste {.check}
 
-+ Det følgende programmet tegner også en firkant, akkurat som det
-tidligere programmet vi lagde:
+- [ ] Det følgende programmet tegner også en firkant, akkurat som det
+tidligereprogrammet vi lagde:
 
   ```python
   from turtle import *
@@ -190,13 +190,13 @@ tidligere programmet vi lagde:
 
   Endre koden din som over, og kjør programmet.
 
-+ Legg merke til at linjene som kommer etter `for` er skjøvet inn til
+- [ ] Legg merke til at linjene som kommer etter `for` er skjøvet inn til
   høyre. Dette er veldig viktig i Python, fordi det forteller hvor mye
   kode som skal gjentas i løkken. For å skyve koden inn på denne måten
   kan du bruke `Tab`-tasten i IDLE. For å trekke koden tilbake til
   venstre kan du trykke `Shift` og `Tab`.
 
-+ Prøv å trekk linjen `right(90)` til venstre, slik at for-løkken ser
+- [ ] Prøv å trekk linjen `right(90)` til venstre, slik at for-løkken ser
   slik ut:
 
   ```python
@@ -212,7 +212,7 @@ tidligere programmet vi lagde:
   høyre en gang til slutt. Det betyr at den vil tegne en rett linje
   i stedet for en firkant.
 
-+ Nå som vi bruker en for-løkke har det også blitt mye enklere å endre
+- [ ] Nå som vi bruker en for-løkke har det også blitt mye enklere å endre
   koden til å for eksempel tegne en trekant. Vi må endre 4 til 3 i
   for-løkken. I tillegg må vi endre vinkelen skilpadden snur ved hvert
   hjørne. For at skilpadden skal gå en runde rundt trekanten må den
@@ -233,7 +233,7 @@ tidligere programmet vi lagde:
       right(120)
   ```
 
-+ Prøv å endre programmet slik at det tegner andre mangekanter.
+- [ ] Prøv å endre programmet slik at det tegner andre mangekanter.
   Hvordan kan du tegne for eksempel en femkant, åttekant eller kanskje
   en femtenkant.
 
@@ -244,7 +244,7 @@ ting navn. Dette vil også gjøre det enklere å forstå hva koden gjør.
 
 ## Sjekkliste {.check}
 
-+ Vi innfører først variabler som sier hvor mange sider vi vil tegne,
+- [ ] Vi innfører først variabler som sier hvor mange sider vi vil tegne,
   hvor lang hver side skal være og hvor mange grader vi skal snu ved
   hvert hjørne. Endre programmet ditt slik at det ser slik ut:
 
@@ -267,10 +267,10 @@ ting navn. Dette vil også gjøre det enklere å forstå hva koden gjør.
 
   Tegner programmet fortsatt en firkant?
 
-+ Nå kan du få programmet til å tegne en trekant bare ved å endre
+- [ ] Nå kan du få programmet til å tegne en trekant bare ved å endre
   verdiene på variablene dine. Prøv om du får det til?
 
-+ Vi kan gjøre programmet enda smartere. I stedet for at du selv må
+- [ ] Vi kan gjøre programmet enda smartere. I stedet for at du selv må
   regne vinkelen kan programmet gjøre det. Bytt ut linjen `angle = 90`
   med
 
@@ -288,7 +288,7 @@ funksjoner.  Dette er en annen måte vi kan unngå å gjenta oss selv på.
 
 ## Sjekkliste {.check}
 
-+ Vi skal nå lage en funksjon som tegner en mangekant. Dette gjør vi
+- [ ] Vi skal nå lage en funksjon som tegner en mangekant. Dette gjør vi
   ved å bruke kommandoen `def` (def er en forkortelse for *define* som
   betyr definer). Endre programmet ditt slik at det ser ut som under:
 
@@ -312,7 +312,7 @@ funksjoner.  Dette er en annen måte vi kan unngå å gjenta oss selv på.
 
   Kjør programmet. Kjenner du igjen firkanten?
 
-+ Nå som vi har laget `polygon`-funksjonen er det kjempelett å tegne
+- [ ] Nå som vi har laget `polygon`-funksjonen er det kjempelett å tegne
   forskjellige mangekanter. Legg for eksempel til de følgende linjene
   nederst i programmet ditt:
 
@@ -334,7 +334,7 @@ bare tegner kjedelige mangekanter.
 
 ## Sjekkliste {.check}
 
-+ Vi lager nå en ny funksjon `polylines` som ligner veldig mye på
+- [ ] Vi lager nå en ny funksjon `polylines` som ligner veldig mye på
   `polygon`, men hvor vi også kan endre på vinklene slik at de ikke
   alltid summerer seg til 360. Dette gjør underverker for kunsten vår!
   Endre programmet ditt slik at det ser slik ut:
@@ -357,7 +357,7 @@ bare tegner kjedelige mangekanter.
 
   Kjør programmet. Hva tegner skilpadden nå?
 
-+ En annen variant kan være hvor vi tegner en litt skjev mangekant.
+- [ ] En annen variant kan være hvor vi tegner en litt skjev mangekant.
   For eksempel den følgende kommandoen vil tegne firkanter hvor
   vinklene er 91 grader i stedet for 90 grader. Dette blir
   overraskende stilig. Bytt ut `polylines`-kommandoen med
@@ -366,7 +366,7 @@ bare tegner kjedelige mangekanter.
   polylines(91, 200, 91)
   ```
 
-+ Vi kan også endre lengden av strekene etterhvert som vi tegner.
+- [ ] Vi kan også endre lengden av strekene etterhvert som vi tegner.
   Dette skaper en fin spiraleffekt. Legg merke til hvor mye funksjonen
   `spiral` ligner på `polylines`:
 
@@ -392,7 +392,7 @@ bare tegner kjedelige mangekanter.
   spiral(100, 5, 125)
   ```
 
-+ Prøv forskjellige verdier i stedet for 100, 5 og 125 når du kaller
+- [ ] Prøv forskjellige verdier i stedet for 100, 5 og 125 når du kaller
   `spiral`. Finner du noen verdier som gir spesielt fine bilder synes
   du?
 

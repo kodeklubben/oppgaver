@@ -13,11 +13,11 @@ La oss se på å få et display til å telle.
 
 ## Til denne oppgaven trenger du {.check}
 
-+ 1 Arduino Uno
-+ 1 breadboard
-+ 2 motstander 1k Ohm (Fargekode: brun-svart-rød-gull)
-+ 11 ledninger
-+ 1 7-segment display
+- [ ] 1 Arduino Uno
+- [ ] 1 breadboard
+- [ ] 2 motstander 1k Ohm (Fargekode: brun-svart-rød-gull)
+- [ ] 11 ledninger
+- [ ] 1 7-segment display
 
 ![utstyr](utstyr.jpg)
 
@@ -28,9 +28,9 @@ se hvilke pinner som lyser opp hvilken del av displayet.
 
 ## Sjekkliste {.check}
 
-+ Motstand fra de to midterste pinnene på displayet.
-+ Ledning fra andre enden av motstandene til ground.
-+ Ledning fra pin 13 på Arduino til pinnen nederst til høyre på displayet.
+- [ ] Motstand fra de to midterste pinnene på displayet.
+- [ ] Ledning fra andre enden av motstandene til ground.
+- [ ] Ledning fra pin 13 på Arduino til pinnen nederst til høyre på displayet.
 
 ![utforskning](utforskning.jpg)
 
@@ -63,9 +63,9 @@ lage den fulle kretsen.
 
 ## Sjekkliste {.check}
 
-+ Motstand fra de to midterste pinnene på displayet.
-+ Ledning fra andre enden av motstandene til ground.
-+ Koble resten av ledningene som vist på bildet over.
+- [ ] Motstand fra de to midterste pinnene på displayet.
+- [ ] Ledning fra andre enden av motstandene til ground.
+- [ ] Koble resten av ledningene som vist på bildet over.
 
 ## Skriv kode {.activity}
 
@@ -143,9 +143,9 @@ nytt og på nytt.
 
 ### Utfordringer {.challenge}
 
-+ Klarer du å få displayet til å telle fra 0 til 9?
-+ Klarer du å få punktumet til å blinke mens vi teller?
-+ Klarer du å få punktumet til å blinke dobbelt så fort som vi teller?
+- [ ] Klarer du å få displayet til å telle fra 0 til 9?
+- [ ] Klarer du å få punktumet til å blinke mens vi teller?
+- [ ] Klarer du å få punktumet til å blinke dobbelt så fort som vi teller?
 
 # Steg 4: Bruk en knapp for å telle oppover {.activity}
 
@@ -234,9 +234,9 @@ tegne 0. Dette er grunnen til at vi begynner på igjen på 0 etter vi har telt t
 
 ### Utfordringer {.challenge}
 
-+ Klarer du å utvide til å telle til '9'?
-+ Klarer du å hindre at vi "går rundt" i tellingen, slik at å trykke på knappen
+- [ ] Klarer du å utvide til å telle til '9'?
+- [ ] Klarer du å hindre at vi "går rundt" i tellingen, slik at å trykke på knappen
   når du allerede er på '9' ikke gjør noe?
-+ Klarer du å få punktumet til å lyse når du trykker inn knappen?
-+ Klarer du å legge til en ekstra knapp som teller nedover, så én knapp teller
+- [ ] Klarer du å få punktumet til å lyse når du trykker inn knappen?
+- [ ] Klarer du å legge til en ekstra knapp som teller nedover, så én knapp teller
   oppover, og den andre nedover?

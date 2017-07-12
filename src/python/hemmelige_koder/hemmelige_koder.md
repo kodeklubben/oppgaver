@@ -63,7 +63,7 @@ foran tekst som er inni `""`. For eksempel blir alfabetet under
 
 ## Sjekkliste {.check}
 
-+ Først må vi lære python alfabetet. Åpne IDLE og lag en ny fil med koden
+- [ ] Først må vi lære python alfabetet. Åpne IDLE og lag en ny fil med koden
 under:
 
   ```python
@@ -72,7 +72,7 @@ under:
   print(len(alphabet))
   ```
 
-+ Når du kjører dette programmet skal det skrive ut 29. Pass på at du har med alle bokstavene, ellers kommer ikke den hemmelige koden din til å virke.
+- [ ] Når du kjører dette programmet skal det skrive ut 29. Pass på at du har med alle bokstavene, ellers kommer ikke den hemmelige koden din til å virke.
 
   Hvis du er fornøyd med alfabetet ditt kan vi begynne å kode en bokstav.
 
@@ -80,7 +80,7 @@ under:
 
 ## Sjekkliste {.check}
 
-+ Akkurat som vi gjorde med hjulet ovenfor kan vi finne posisjonen til en bokstav ved å telle forover, og så bruke bokstaven vi ender opp med.
+- [ ] Akkurat som vi gjorde med hjulet ovenfor kan vi finne posisjonen til en bokstav ved å telle forover, og så bruke bokstaven vi ender opp med.
 
   Skriv inn koden under og kjør den:
 
@@ -104,9 +104,9 @@ under:
 
   Vi slår opp hvor "a" er i alfabetet og legger til det hemmelige tallet vårt for å telle fremover. Vi sjekker om vi har gått rundt, hvis vi har det må vi gå en hel runde tilbake igjen ved å trekke fra 29 (dette er litt som med gradene, å trekke fra 360 gjør at vi er akkurat der vi var). Så slår vi opp i alfabetet igjen for å se hvilken hemmelige bokstav vi fikk.
 
-+ Kjør koden og se hva som skjer.
+- [ ] Kjør koden og se hva som skjer.
 
-+ La oss ta en titt på koden igjen, men vi tar det sakte.
+- [ ] La oss ta en titt på koden igjen, men vi tar det sakte.
 
   Du trenger ikke å skrive dette! Alt som står bak firkant-tegnet bryr python seg vanligvis ikke om, det er bare kommentarer til mennesker som skal lese koden.
 
@@ -149,7 +149,7 @@ Akkurat som i koden fra den forrige oppgaven skal vi finne posisjonen til boksta
 
 ## Sjekkliste {.check}
 
-+ Forsøk å skriv inn denne koden og kjør den:
+- [ ] Forsøk å skriv inn denne koden og kjør den:
 
   ```python
   alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
@@ -178,7 +178,7 @@ For å få en funksjon til å sende tilbake en verdi bruker vi `return`. Dette g
 
 ## Sjekkliste {.check}
 
-+ Lag en fil som ser slik ut:
+- [ ] Lag en fil som ser slik ut:
 
   ```python
   alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
@@ -210,7 +210,7 @@ For å få en funksjon til å sende tilbake en verdi bruker vi `return`. Dette g
 
   Husk at du kan bruke 'Tab' i IDLE for å få innrykk. Du kan også merke deler av koden og rykke alt inn på en gang.
 
-+ Prøv å kode og dekode noen bokstaver!
+- [ ] Prøv å kode og dekode noen bokstaver!
 
 
 # Steg 5: Send et hemmelig ord eller to, og finn dem tilbake igjen {.activity}
@@ -219,7 +219,7 @@ Nå har vi noen funksjoner, la oss bruke dem til å kode ord. Vi kommer til å g
 
 ## Sjekkliste {.check}
 
-+ Under de nye funksjonene fra forrige oppgave kan du skrive inn koden under (med andre ord: behold det du gjorde i oppgave 4, og legg til koden under).
+- [ ] Under de nye funksjonene fra forrige oppgave kan du skrive inn koden under (med andre ord: behold det du gjorde i oppgave 4, og legg til koden under).
 
   ```python
   secret = 17
@@ -249,7 +249,7 @@ Nå har vi noen funksjoner, la oss bruke dem til å kode ord. Vi kommer til å g
   print(output)
   ```
 
-+ Kjør programmet og se hva som skjer.
+- [ ] Kjør programmet og se hva som skjer.
 
   Den første delen av koden burde skrive ut "yvååc kcfåu", som er den hemmelige versjonen av "hello world". Den andre delen dekoder det igjen og skriver ut "hello world"
 

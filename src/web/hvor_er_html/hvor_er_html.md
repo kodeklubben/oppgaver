@@ -21,9 +21,9 @@ nettleseren! La oss ta en titt.
 
 ## Aktiviteter {.check}
 
-- Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller
+- [ ] Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller
   Firefox
-- Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
+- [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
 
   ![](inspiser_katten.png)
 
@@ -41,10 +41,10 @@ nettleseren! La oss ta en titt.
   <img src="scratch/logo-black.png">
   ```
 
-- Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren over
+- [ ] Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren over
   filnavnet. Ser du filen dukker opp?
 
-- Inspiser slangen. Hva er filnavnet til slangen? Ser du det samme som meg?
+- [ ] Inspiser slangen. Hva er filnavnet til slangen? Ser du det samme som meg?
 
   ![](slangens_kildekode.png)
 
@@ -81,12 +81,12 @@ blir alt som det var. Prøv!
 Jeg er glad i Minecraft. Men Minecraft er ikke først i listen over kurs! La oss
 gjøre noe med det. Vi fjerner alt som er foran!
 
-- Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern elementet
+- [ ] Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern elementet
   med tasten `delete` på tastaturet!
 
   ![](katten_er_borte.png)
 
-- Yes! Katten ble borte!
+- [ ] Yes! Katten ble borte!
 
   ... men. Vent litt. Slangen gikk ikke til venstre. Hva skjedde nå, mon tro? Og
   det står fremdeles `Scratch` under den tomme plassen?
@@ -106,12 +106,12 @@ gjøre noe med det. Vi fjerner alt som er foran!
   </a>
   ```
 
-- Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som er
+- [ ] Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som er
   inni linken!
 
   ![](liten_a.png)
 
-- Fjern teksten `Scratch`. Merk den som under, og trykk `delete`:
+- [ ] Fjern teksten `Scratch`. Merk den som under, og trykk `delete`:
 
   ![](teksten_scratch.png)
 
@@ -121,7 +121,7 @@ gjøre noe med det. Vi fjerner alt som er foran!
 
   La oss fjerne litt mer.
 
-- Fjern elementet som inneholder alle kursene:
+- [ ] Fjern elementet som inneholder alle kursene:
   ```html
   <div class="courses">
   ```
@@ -138,11 +138,11 @@ gjøre noe med det. Vi fjerner alt som er foran!
 
   Nå må du hjelpe meg å få Minecraft først i køen.
 
-- Finn elementet som er den usynlige boksen rundt katten. Fjern det!
+- [ ] Finn elementet som er den usynlige boksen rundt katten. Fjern det!
 
-- Finn elementet som er den usynlige boksen rundt slangen. Fjern det!
+- [ ] Finn elementet som er den usynlige boksen rundt slangen. Fjern det!
 
-- Gjør det samme for `Lego Mindstorms`, `Web`, `App Inventor` og `CodeStudio`.
+- [ ] Gjør det samme for `Lego Mindstorms`, `Web`, `App Inventor` og `CodeStudio`.
 
   ![](minecraft_yay.png)
 
@@ -168,11 +168,11 @@ på **alle kursene**!
 
 ## Aktiviteter {.check}
 
-- Finn et bilde du liker på internett. Hent bildeadressen ved høyreklikke på bildet:
+- [ ] Finn et bilde du liker på internett. Hent bildeadressen ved høyreklikke på bildet:
 
   ![](bildeadresse.png)
 
-- Endre alle bildene ved å redigere `src`-attributten til `<img>`-taggen:
+- [ ] Endre alle bildene ved å redigere `src`-attributten til `<img>`-taggen:
 
   ![](ny_og_bedre_src.png)
 

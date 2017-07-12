@@ -1,7 +1,5 @@
 ---
 title: Processing
-tags:
-  tema: [animasjon]
 language: nb
 ---
 

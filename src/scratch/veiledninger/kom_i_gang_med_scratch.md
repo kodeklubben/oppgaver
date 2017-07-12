@@ -23,7 +23,7 @@ likevel er nyttig å gå gjennom før kodekurset.
 
 ## Sjekkliste {.check}
 
-+ Velg en oppgave blant [Scratchoppgavene](../) på
+- [ ] Velg en oppgave blant [Scratchoppgavene](../) på
   [kodeklubben.github.io](../../). Alle oppgavene i listen
 
   <span class="level-1"><strong>Introduksjon</strong></span>
@@ -31,7 +31,7 @@ likevel er nyttig å gå gjennom før kodekurset.
   passer til en førstegangsintroduksjon til Scratch. Du kan plukke en
   litt etter interesser til barna eller basert på temaet i oppgaven.
 
-+ Jobb gjennom oppgaven selv. [Lag deg en bruker](#opprett-brukere) på
+- [ ] Jobb gjennom oppgaven selv. [Lag deg en bruker](#opprett-brukere) på
   [Scratch-hjemmesiden](http://scratch.mit.edu/) (se
   [nedenfor](#opprett-brukere)) om du ikke allerede har det. Følg
   deretter oppgaven og programmer denne selv. Dette gir deg nyttig
@@ -92,20 +92,20 @@ blir tilgjengelig på alle datamaskiner osv.
 
 ## Sjekkliste {.check}
 
-+ La alle barna koble seg opp på nett. Om noen bruker
+- [ ] La alle barna koble seg opp på nett. Om noen bruker
   [Scratch offline](https://scratch.mit.edu/scratch2download/) trenger
   de ikke opprette scratchbruker.
 
-+ Be barna gå til hjemmesiden til Scratch på
+- [ ] Be barna gå til hjemmesiden til Scratch på
   [scratch.mit.edu](https://scratch.mit.edu/).
 
-+ Om siden er på engelsk kan dere endre til norsk språk i
+- [ ] Om siden er på engelsk kan dere endre til norsk språk i
   nedtrekksmenyen nederst på siden.
 
-+ Be barna klikke `Bli Scratch-bruker` øverst til høyre på siden, og
+- [ ] Be barna klikke `Bli Scratch-bruker` øverst til høyre på siden, og
   fylle ut skjemaet.
 
-+ Underveis blir barna bedt om å oppgi en e-postadresse. Denne vil
+- [ ] Underveis blir barna bedt om å oppgi en e-postadresse. Denne vil
   brukes for å bekrefte kontoen som gir tilgang til en del ekstra
   funksjonalitet. Det er _ikke_ nødvendig at denne bekreftes med en
   gang.
@@ -130,12 +130,12 @@ oppgaven sammen med barna.
 
 ## Presentasjon {.check}
 
-+ Det kan være nyttig å be barna senke skjermene før du begynner, slik
+- [ ] Det kan være nyttig å be barna senke skjermene før du begynner, slik
   at de i størst mulig grad følger med på det dere gjør sammen. Start
   gjerne med å spørre: __Hva er programmering?__ Gjør et poeng av at
   _programmering er en måte vi beskriver hvordan noe skal gjøres_.
 
-+ Klikk `Programmering` øverst til venstre på
+- [ ] Klikk `Programmering` øverst til venstre på
   [Scratch-hjemmesiden](https://scratch.mit.edu/). Dette åpner
   scratchmiljøet hvor all programmeringen skjer.
 
@@ -144,7 +144,7 @@ oppgaven sammen med barna.
 
   ![](velg_sprak.png)
 
-+ Pek raskt på de tre delene av scratchmiljøet:
+- [ ] Pek raskt på de tre delene av scratchmiljøet:
 
   + __Scenen__ øverst til venstre er der ting vil skje. Snart skal vi
     fortelle katten at den skal flytte på seg!
@@ -155,17 +155,17 @@ oppgaven sammen med barna.
   + __Kodevinduet__ til høyre, inkludert listen over klosser i midten,
     er der selve programmeringen skjer.
 
-+ Pek på den øverste blå klossen, `gå (10) steg`{.b}. Fortell at når
+- [ ] Pek på den øverste blå klossen, `gå (10) steg`{.b}. Fortell at når
   vi klikker på den forteller vi katten at den skal gå. Klikk på
   klossen flere ganger mens du påpeker at katten begynner å flytte seg
   over skjermen. _Vi programmerer katten!_
 
-+ Fortell at det er mange forskjellige kommandoer vi kan gi til
+- [ ] Fortell at det er mange forskjellige kommandoer vi kan gi til
   katten. Klikk på den neste klossen, `vend høyre (15) grader`{.b}, og
   vis hvordan katten nå begynner å snu seg. Be barna legge merke til
   at katten snur seg uten å flytte seg over skjermen.
 
-+ Nå skal vi se at vi kan kombinere kommandoer. Dra `gå (10)
+- [ ] Nå skal vi se at vi kan kombinere kommandoer. Dra `gå (10)
   steg`{.b}-klossen over til kodevinduet på høyre side. Trykk gjerne
   noen ganger på forstørrelsesglasset nederst til høyre slik at det
   blir enklere for barna å lese klossene. Dra deretter også `vend
@@ -184,11 +184,11 @@ oppgaven sammen med barna.
   for et _skript_. Alle skriptene i et prosjekt utgjør tilsammen et
   _program_.
 
-+ Endre tallet `10` i `gå (10) steg`{.b}-klossen til `20`. Katten tar
+- [ ] Endre tallet `10` i `gå (10) steg`{.b}-klossen til `20`. Katten tar
   nå lengre steg, og det blir enklere å se at den både _går_ og
   _vender_.
 
-+ Klikk på noen av de andre kategoriene, `Utseende`{.blocklooks},
+- [ ] Klikk på noen av de andre kategoriene, `Utseende`{.blocklooks},
   `Lyd`{.blocksound}, osv. Vis hvordan hver kategori inneholder flere
   kommandoer.
 
@@ -203,12 +203,12 @@ oppgaven sammen med barna.
   vend høyre (15) grader
   ```
 
-+ Vis at vi også kan ta klosser ut av skript, ved å dra `vend høyre
+- [ ] Vis at vi også kan ta klosser ut av skript, ved å dra `vend høyre
   (15) grader`{.b} tilbake til venstre og slippe den over
   klosselisten. Klossen er nå slettet. Vis at katten nå beveger seg
   rett frem mens den skifter farge.
 
-+ Legg til klossen `pek mot [ v]`{.b} nederst i skriptet. Trykk på
+- [ ] Legg til klossen `pek mot [ v]`{.b} nederst i skriptet. Trykk på
   nedtrekksmenyen og velg `musepeker`. Skriptet ser nå slik ut:
 
   ```blocks
@@ -220,7 +220,7 @@ oppgaven sammen med barna.
   Vis barna hvordan katten nå vil se mot musepekeren når du klikker på
   skriptet.
 
-+ Nå kommer det morsomste! Fortell barna hvordan datamaskiner er
+- [ ] Nå kommer det morsomste! Fortell barna hvordan datamaskiner er
   veldig flinke til å gjøre ting mange ganger. Dette programmerer vi
   ved hjelp av noe som heter løkker.
 
@@ -237,11 +237,11 @@ oppgaven sammen med barna.
 
   Før du klikker på skriptet, spør barna hva de tror vil skje!
 
-+ Klikk på skriptet. Katten begynner å jage musepekeren rundt omkring!
+- [ ] Klikk på skriptet. Katten begynner å jage musepekeren rundt omkring!
   Flytt musepekeren til scenen, og la katten jage den rundt en liten
   stund. _Vi har laget et lite spill!_
 
-+ Klikk på det røde stoppsymbolet over scenen for å avslutte spillet.
+- [ ] Klikk på det røde stoppsymbolet over scenen for å avslutte spillet.
 
 Ofte er dette et passende sted å avslutte presentasjonen. Barna er som
 regel veldig engasjerte og klare til å prøve på egenhånd.

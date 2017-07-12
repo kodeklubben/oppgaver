@@ -30,41 +30,41 @@ forberedelsestid: 10 minutter.
 
 ## Elevene skal {.check}
 
-+ Lære å omgjøre virkelige handlinger til instruksjoner.
-+ Få praktisk erfaring i å kode med symboler.
-+ Oppnå en forståelse for nødvendigheten av presisjon innen koding.
-+ Erfare hvordan feilsøking gjøres for å finne feil i koden.
-+ Forstå hvor nyttige funksjoner og parametere er (trinn 7+).
+- [ ] Lære å omgjøre virkelige handlinger til instruksjoner.
+- [ ] Få praktisk erfaring i å kode med symboler.
+- [ ] Oppnå en forståelse for nødvendigheten av presisjon innen koding.
+- [ ] Erfare hvordan feilsøking gjøres for å finne feil i koden.
+- [ ] Forstå hvor nyttige funksjoner og parametere er (trinn 7+).
 
 # Materiell og forberedelser {.activity}
 
 ## Materiell {.check}
 
-+ Symbolark (1 per gruppe),
+- [ ] Symbolark (1 per gruppe),
   [last ned her](robotvenner_symbolark.pdf).
-+ Pakke med koppestablefigurer (1 per gruppe),
+- [ ] Pakke med koppestablefigurer (1 per gruppe),
   [last ned her](robotvenner_figurer.pdf).
-+ Engangskopper eller [papirtrapeser](robotvenner_trapeser.pdf) (6
+- [ ] Engangskopper eller [papirtrapeser](robotvenner_trapeser.pdf) (6
   eller flere per gruppe).
-+ Blanke ark eller notatkort (1 per person).
-+ Noe å skrive med (1 per person).
+- [ ] Blanke ark eller notatkort (1 per person).
+- [ ] Noe å skrive med (1 per person).
 
 ## Forberedelser {.check}
 
-+ Skriv ut ett [symbolark](robotvenner_symbolark.pdf) til hver gruppe.
-+ Skriv ut arket med [trapesfigurer](robotvenner_trapeser.pdf), om
+- [ ] Skriv ut ett [symbolark](robotvenner_symbolark.pdf) til hver gruppe.
+- [ ] Skriv ut arket med [trapesfigurer](robotvenner_trapeser.pdf), om
   kopper ikke brukes.
-+ Plassér koppene eller papirtrapesene på et eget bord litt unna der
+- [ ] Plassér koppene eller papirtrapesene på et eget bord litt unna der
   gruppene skal være (dette er _robotbiblioteket_).
 
 ## Ordforråd {.check}
 
-+ _Algoritme_ – en serie av instruksjoner som beskriver hvordan en kan
+- [ ] _Algoritme_ – en serie av instruksjoner som beskriver hvordan en kan
   oppnå et mål.
-+ _Koding_ – Omgjøre handlinger til et symbolspråk.
-+ _Feilsøking_ – Finne og rette feil og problemer i koden.
-+ _Funksjon_ – Kode som kan brukes om og om igjen.
-+ _Parameter_ - Ekstra informasjon som kan legges til en funksjon, for
+- [ ] _Koding_ – Omgjøre handlinger til et symbolspråk.
+- [ ] _Feilsøking_ – Finne og rette feil og problemer i koden.
+- [ ] _Funksjon_ – Kode som kan brukes om og om igjen.
+- [ ] _Parameter_ - Ekstra informasjon som kan legges til en funksjon, for
   å tilpasse den.
 
 # Gjennomføring {.activity}

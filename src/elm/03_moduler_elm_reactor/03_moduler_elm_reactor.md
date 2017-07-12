@@ -17,9 +17,9 @@ i [oppgave 2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html).
 # Lag din egen nettside! {.activity}
 
 ## Aktiviteter {.check}
-- Åpne en **teksteditor**, for eksempel teksteditoren [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller [NotePad++](https://notepad-plus-plus.org/).
-- Lag en ny fil.
-- Fyll inn dette i filen:
+- [ ] Åpne en **teksteditor**, for eksempel teksteditoren [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller [NotePad++](https://notepad-plus-plus.org/).
+- [ ] Lag en ny fil.
+- [ ] Fyll inn dette i filen:
 
 ```elm
 import Html
@@ -27,11 +27,11 @@ import Html
 main = Html.text "Hei, verden!"
 ```
 
-- Lagre filen til filnavnet `hei.elm`.
+- [ ] Lagre filen til filnavnet `hei.elm`.
 
 For å se nettsiden i en nettleser, må vi først gjøre om nettsiden vår til HTML. HTML er språket som forteller en nettleser om hvordan en nettside skal se ut. Se [web-kurset](../../web/index.html) for å lære mer om HTML og nettsider.
 
-- Om du har gjort [oppgave 2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html), kan du nå åpne kommandolinjen og skrive inn ```elm reactor```:
+- [ ] Om du har gjort [oppgave 2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html), kan du nå åpne kommandolinjen og skrive inn ```elm reactor```:
 
 ```
 elm-reactor 0.18.0
@@ -48,16 +48,16 @@ Første gang du åpner filen, vil du få opp dette vinduet:
 
 Nå leser Elm gjennom filen din og gjør den om til vanlig HTML!
 
-- Hvordan ser nettsiden din ut?
-- La oss gjøre en endring.
+- [ ] Hvordan ser nettsiden din ut?
+- [ ] La oss gjøre en endring.
   - Endre `"Hei, verden!"` til `"Hei, alle sammen!"`
   - Lagre filen
   - Last nettleseren på nytt.
   - Skjedde det noe?
 
 ## Ting du kan prøve {.try}
-- For å åpne forskjellige programmer direkte fra nettsiden din, kan du skrive nettadressen slik: ```localhost:8000/hei.elm```. Bare bytt ut filnavnet!
-- Hva skjer når du åpner ```hei.elm``` direkte i nettleseren?
+- [ ] For å åpne forskjellige programmer direkte fra nettsiden din, kan du skrive nettadressen slik: ```localhost:8000/hei.elm```. Bare bytt ut filnavnet!
+- [ ] Hva skjer når du åpner ```hei.elm``` direkte i nettleseren?
 
 # Når noe går galt {.activity}
 
@@ -89,22 +89,22 @@ Dette betyr:
 
 # Del nettsiden opp i moduler {.activity}
 
-- Lag en ny fil og kall den `Knapper.elm`
+- [ ] Lag en ny fil og kall den `Knapper.elm`
 
 Denne filen er akkurat lik nettsiden vår i forrige oppgave. Men denne gangen vil vi at andre skal kunne bruke den på deres nettsider. Da må vi starte med å fortelle at denne filen skal være en *modul*.
 
-- Skriv inn dette i starten av filen:
+- [ ] Skriv inn dette i starten av filen:
 ```elm
   module Knapper exposing (..)
 ```
 
 Filen `Knapper.elm` inneholder nå en modul kalt `Knapper`!
 
-- Prøv å åpne `localhost:8000/Knapper.elm`
+- [ ] Prøv å åpne `localhost:8000/Knapper.elm`
 
 Dette gir oss en feilmelding. Modulen vår inneholder ingenting ennå!
 
-- Legg til en knapp i modulen:
+- [ ] Legg til en knapp i modulen:
 
 ```elm
   module Knapper exposing (..)
@@ -115,7 +115,7 @@ Dette gir oss en feilmelding. Modulen vår inneholder ingenting ennå!
 
 `import Html exposing (button, text)` importerer *Html-modulen*, som gjør at vi kan bruke Html-elementer i modulen vår. Siden vi skal bruke elementene `button` for å lage en knapp og `text` for å legge tekst på knappen, må vi legge til `(button, text)` når vi importerer Html-modulen.
 
-- Legg til den nye knappen i filen fra forrige oppgave
+- [ ] Legg til den nye knappen i filen fra forrige oppgave
 
 ```elm
 import Knapper
@@ -125,7 +125,7 @@ main = Knapper.okKnapp
 
 På samme måte som vi importerer Html-elementer med `import Html`, kan vi importere våre egne elementer med `import Knapper`. `okKnapp` er en del av modulen `Knapper`, på samme måte som at `text` er en del av Html-modulen. Så vi kan skrive `Knapper.okKnapp` for å lage en okKnapp.
 
-- Legg til en ekstra stilig knapp
+- [ ] Legg til en ekstra stilig knapp
 
 ```elm
   module Knapper exposing (..)
@@ -146,5 +146,5 @@ På samme måte som vi importerer Html-elementer med `import Html`, kan vi impor
       ]
 ```
 
-- Bytt ut `okKnapp` med `stiligKnapp` og se hva som skjer
-- Legg til flere egne knapper i modulen
+- [ ] Bytt ut `okKnapp` med `stiligKnapp` og se hva som skjer
+- [ ] Legg til flere egne knapper i modulen

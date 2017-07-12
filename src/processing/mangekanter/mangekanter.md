@@ -22,7 +22,7 @@ på datamaskinen.
 
 ## Sjekkliste {.check}
 
-+ Start Processing og skriv dette:
+- [ ] Start Processing og skriv dette:
 
   ```processing
   float x;
@@ -68,21 +68,21 @@ på datamaskinen.
     dette er gjort? Hva skjer om du også tegner opp en sirkel med
     samme posisjon og størrelse som firkanten?
 
-  + Vi har også tatt i bruk `+=`. `x += 1;` gjør det samme som `x =
+  - [ ] Vi har også tatt i bruk `+=`. `x += 1;` gjør det samme som `x =
   x + 1;` Dette er bare en forkortelse for det siste. Altså øk `x`
   med det som står på høyresiden av `+=`.
 
-+ Kjør programmet ved å trykke på **Ctrl + R** eller knappen
+- [ ] Kjør programmet ved å trykke på **Ctrl + R** eller knappen
   ![](../play.png "Play - En knapp i verktøylinjen merket med pil")
 
 ![](SprettendeFirkant.gif "En hvit firkant spretter rundt på en svart bakgrunn.")
 
-+ Lagre programmet som Firkant ved å trykke på **Ctrl+S** eller
+- [ ] Lagre programmet som Firkant ved å trykke på **Ctrl+S** eller
   velg **File --> Save** i menyen.
 
 ## Utfordringer {.try}
 
-+ Kan du lage et rektangel som ikke er kvadratisk, altså hvor bredden
+- [ ] Kan du lage et rektangel som ikke er kvadratisk, altså hvor bredden
   og høyden er forskjellig? Husk at vi vil at den skal sprette idet
   den treffer kanten av vinduet.
 
@@ -96,7 +96,7 @@ hjørne befinner seg.
 
 ## Sjekkliste {.check}
 
-+ Vi skal nå bytte ut firkanten med en enkel trekant. Endre `draw` som
+- [ ] Vi skal nå bytte ut firkanten med en enkel trekant. Endre `draw` som
   vist under:
 
   ```processing
@@ -131,10 +131,10 @@ hjørne befinner seg.
   er posisjonen til det øverste høyre hjørnet og `x + 50, y + 100`
   er det siste hjørnet nederst i midten.
 
-+ Lagre programmet som *Trekant* ved å velge **File -> Save as** eller
+- [ ] Lagre programmet som *Trekant* ved å velge **File -> Save as** eller
   trykke **Shift + Ctrl + S**.
 
-+ Kjør programmet.
+- [ ] Kjør programmet.
 
 ![](SprettendeTrekant1.gif "En hvit trekant som peker nedover, spretter rundt på en svart bakgrunn.")
 
@@ -160,17 +160,17 @@ mellomrom den mener er overflødig.
 
 ## Utfordringer {.try}
 
-+ Kan du tegne trekanten motsatt vei, sånn at den ser ut som en
+- [ ] Kan du tegne trekanten motsatt vei, sånn at den ser ut som en
   pil som peker oppover istedenfor nedover?
 
 ![](SprettendeTrekant2.gif "En hvit trekant som peker oppover, spretter rundt på en svart bakgrunn.")
 
-+ Kan du tegne to trekanter istedenfor en og lage en sekskantet
+- [ ] Kan du tegne to trekanter istedenfor en og lage en sekskantet
   stjerne?
 
 ![](SprettendeSekskantetStjerne.gif "En hvit sekskantet stjerne spretter rundt på en svart bakgrunn.")
 
-+ **Vanskelig**: Trekanten i programmet er nesten likesidet, men den
+- [ ] **Vanskelig**: Trekanten i programmet er nesten likesidet, men den
   er litt for høy, så to av sidene er rundt 12 piksler for lange. Kan
   du endre regnestykket `y + 100` sånn at trekanten blir likesidet? Du
   kan bruke Pytagoras' læresetning, eller sinus-funksjonen,
@@ -197,7 +197,7 @@ matrise.
 
 ## Sjekkliste {.check}
 
-+ Vi begynner med å endre variablene til *arrays*:
+- [ ] Vi begynner med å endre variablene til *arrays*:
 
   ```processing
   float[] x = new float[3];
@@ -212,7 +212,7 @@ matrise.
   likhetstegnet ser vi også noe nytt `new float[3]` betyr at vi skal
   lage en ny `float`-*array* med tre tall i.
 
-+ Nå må vi endre startverdiene til disse tallene, ellers vil de bare
+- [ ] Nå må vi endre startverdiene til disse tallene, ellers vil de bare
   være `0` alle sammen:
 
   ```processing
@@ -245,7 +245,7 @@ matrise.
   vi skulle telle vanlig fordi vi begynner på `0`. Derfor er den
   siste indeksen én lavere enn størrelsen.
 
-+ Og til slutt må vi flytte rundt på hjørnene og tegne opp trekanten
+- [ ] Og til slutt må vi flytte rundt på hjørnene og tegne opp trekanten
   vår:
 
   ```processing
@@ -313,7 +313,7 @@ veldig glad for at man slipper å skrive den samme koden mange ganger.
 
 ## Utfordringer {.try}
 
-+ Det går også an å lage firkanter hvor man plasserer hvert hjørne for
+- [ ] Det går også an å lage firkanter hvor man plasserer hvert hjørne for
   seg. Da bruker man funksjonen `quad` istedenfor `rect`. Prøv å endre
   programmet til å lage en firkant med hjørner som spretter rundt på
   skjermen. Hvor mange flere variabler trenger du enn for trekanten?
@@ -327,7 +327,7 @@ firkanter, femkanter, osv.
 
 ## Sjekkliste {.check}
 
-+ Vi begynner med å endre på størrelsen på *arrayene* i forrige
+- [ ] Vi begynner med å endre på størrelsen på *arrayene* i forrige
 oppgave:
 
   ```processing
@@ -343,7 +343,7 @@ oppgave:
   fordi vi bare trenger å endre tallet ett sted istedenfor fire
   steder.
 
-+ Posisjonene og hastighetene til hjørnene ble satt til faste verdier,
+- [ ] Posisjonene og hastighetene til hjørnene ble satt til faste verdier,
   men hvis vi ikke vet nøyaktig hvor mange kanter det er fungerer ikke
   det så bra. Så vi endrer på `setup` til å bruke en løkke for å sette
   startverdiene:
@@ -369,7 +369,7 @@ oppgave:
   bruker to verdier, `random(-5, 5)`, får vi et tall mellom de to
   verdiene.
 
-+ Nå skal vi tegne opp mangekanten vår. Vi trenger ikke å endre på den
+- [ ] Nå skal vi tegne opp mangekanten vår. Vi trenger ikke å endre på den
   første løkken i `draw`, men jeg synes vi skal bytte testen så den
   likner den over. Vi skal bytte ut kallet på `triangle` med en løkke
   som tegner hver kant:
@@ -418,7 +418,7 @@ oppgave:
 
 ## Utfordringer {.try}
 
-+ Kan du bruke `random` til å få hjørnene til å endre hastighet når de
+- [ ] Kan du bruke `random` til å få hjørnene til å endre hastighet når de
   treffer kanten av vinduet?
 
   Pass på, om farten blir lavere enn den var, kan hjørnet bli

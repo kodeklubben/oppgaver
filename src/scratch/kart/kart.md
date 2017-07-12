@@ -30,13 +30,13 @@ Scratch._
 
 ## Sjekkliste {.check}
 
-+ Velg kartutsnitt ved å klikke og dra i kartet. Du kan forstørre og forminske
-  kartet med ![+](knapp_pluss.png) og ![-](knapp_minus.png)-knappene.
+- [ ] Velg kartutsnitt ved å klikke og dra i kartet. Du kan forstørre og forminske
+  kartet med ![](knapp_pluss.png) og ![-](knapp_minus.png)-knappene.
 
-+ Velg utseende på kartet fra listen som dukker opp når du peker på
+- [ ] Velg utseende på kartet fra listen som dukker opp når du peker på
   ![kartlag](kartlag.png) i nedre høyre hjørne.
 
-+ Klikk på **Last ned som Scratch-bakgrunn**.
+- [ ] Klikk på **Last ned som Scratch-bakgrunn**.
 
 Dette vil laste ned kartet til datamaskinen din som en bildefil. Om du ikke får
 velge filnavn selv vil bildefilen hete `kart.png` og sannsynligvis ligge i en
@@ -44,12 +44,12 @@ katalog som heter `Nedlastinger`.
 
 Nå skal vi se hvordan vi legger inn kartet som en bakgrunn i Scratch.
 
-+ Åpne et Scratchprosjekt hvor du vil bruke kartet.
+- [ ] Åpne et Scratchprosjekt hvor du vil bruke kartet.
 
-+ Klikk på ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) nederst til
+- [ ] Klikk på ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) nederst til
   venstre for å laste opp en ny bakgrunn fra fil.
 
-+ Velg filen `kart.png` som du nettopp lastet ned.
+- [ ] Velg filen `kart.png` som du nettopp lastet ned.
 
 Kartet skal nå dukke opp som en bakgrunn i prosjektet ditt. Om du ønsker kan du
 alternativt bruke kartet som en figur.
