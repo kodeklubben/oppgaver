@@ -2,6 +2,10 @@
 title: Lærerveiledning - 3D-flakser
 level: 4
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [arts_and_crafts, mathematics, science]
+    grade: [secondary, junior]
 ---
 
 # Om oppgaven {.activity}
