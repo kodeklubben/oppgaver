@@ -2,6 +2,10 @@
 title: Lærerveiledning - Astrokatt
 level: 1
 language: nb
+tags:
+    topic: [step_based, block_based, game]
+    subject: [arts_and_crafts, science]
+    grade: [primary, secondary]
 ---
 
 # Om oppgaven {.activity}
