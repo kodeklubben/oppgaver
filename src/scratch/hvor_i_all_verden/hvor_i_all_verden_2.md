@@ -3,6 +3,10 @@ title: Hvor i All Verden? Del 2
 level: 3
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, game]
+    subject: [mathematics, programming, social_science]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

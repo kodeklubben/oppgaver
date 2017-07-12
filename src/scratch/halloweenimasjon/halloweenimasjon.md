@@ -3,6 +3,10 @@ title: Halloweenimasjon
 level: 1
 author: Torbjørn Skauli og Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, animation]
+    subject: [english, arts_and_crafts, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

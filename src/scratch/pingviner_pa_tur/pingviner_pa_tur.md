@@ -3,6 +3,10 @@ title: Pingviner på tur
 level: 1
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, game]
+    subject: [programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -279,4 +283,3 @@ er noen ideer:
 - [ ] Kanskje vi kan telle poeng hver gang en pingvin finner veien til Akvariet? Til
   dette trenger du noe som heter variabler. Disse finner du under
   `Data`{.blockdata}. Prøv selv om du får til noe!
-
