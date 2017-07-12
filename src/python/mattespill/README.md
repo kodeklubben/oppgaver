@@ -7,28 +7,36 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven...
+I denne oppgaven skal vi se nærmere på hvordan Python arbeider med tall og lage et lite mattespill. I tillegg introduseres begrepet *rekursjon*, og en studerer hvordan en kan illustrere tilfeldige terningkast. 
 
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: 
+ __Fag__: Matematikk, Programmering 
 
  __Anbefalte trinn__:
 
- __Tema__: 
+ __Tema__: Aritmetikk, Sannsynlighet, Løkker, Rekusjon
 
- __Tidsbruk__: 
+ __Tidsbruk__: Dobbelttime
 
 
  ## Kompetansemål {.challenge}
 
- 
+ - [ ] __Matematikk, 7. trinn__: vurdere og samtale om sjanser i dagligdagse sammenhenger, spill og eksperimenter og beregne sannsynlighet i enkle situasjoner
+
+ - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+
+ - [ ] __Programmering, 10. trinn__: utvikle og feilsøke programmer som løser definerte problemer, inkludert realfaglige problemstillinger og kontrollering eller simulering av fysiske objekter
 
 
  ## Forslag til læringsmål {.challenge}
 
- - [ ]  Elevene kan...
+ - [ ]  Elevene kan bruke digitale verktøy til å illustrere sannsynnlighet i enkle situasjoner.
+
+ - [ ] Elevene forstår rekursjon på et grunnleggende nivå. 
+
+ - [ ] Elevene klarer å lage et grunnleggende program som tolker og behandler innputt fra brukeren. 
 
 
  ## Forslag til vurderingskriterier {.challenge}
@@ -40,7 +48,7 @@ I denne oppgaven...
  
  ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: 
+ - [ ]  __Forutsetninger__: Kjennskap til Python
 
  - [ ]  __Utstyr__: Datamaskin med Python installert
 
@@ -54,8 +62,8 @@ I denne oppgaven...
 
  ## Variasjoner {.challenge}
 
-
- - [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
+ - [ ] Koden ovenfor gir oss mattestykker fra den lille gangetabellen. Skriv om koden slik at den spør brukeren om hvile gangetabellen hun ønsker å trene på. 
+ - [ ] Et problem med koden ovenfor er at en kan få samme gangestykket flere ganger på rad. Klarer du å skrive en kode som forhindrer dette problemet? En mulighet er å lese hva `sample` funksjonen fra `random` biblioteket gjør. 
 
 
  ## Eksterne ressurser {.challenge}
