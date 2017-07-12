@@ -19,8 +19,10 @@ __Tidsbruk__: Dobbeltime
 
 
 ## Kompetansemål {.challenge}
-
+- [ ] __Programmering, valgfag__: gjøre rede for hvordan datamaskiner og programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og deres bruksområder
 - [ ]  __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
+- [ ] __ Teknologi i praksis, valgfag__: demonstrere riktig bruk av utvalde verktøy
+- [ ] __ Teknologi i praksis, valgfag__: framstille produktet med eigna materiale, komponentar, og funksjonelle teknologiske løysingar
 
 
 ## Forslag til læringsmål {.challenge}
@@ -37,16 +39,16 @@ __Tidsbruk__: Dobbeltime
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Kjennskap til HTML, CSS og JavaScript. Har en gyldig epost-adresse.
 
-- [ ]  __Utstyr__: Datamaskin med internett.
+- [ ]  __Utstyr__: Datamaskin med internett og teksteditor. 
 
 
 # Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../publiser/publiser.html){target=_blank}
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
+Det kan være lurt å gå gjennom mye av dette i fellesskap hvor lærer fremgangsmåten viser på storskjerm
 
 ## Variasjoner {.challenge}
-- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 
 ## Eksterne ressurser {.challenge}
 - [ ] Lær å bruke terminalen til `Github` på 15 minutter: [Learn Git in 15 minutes](https://try.github.io/levels/1/challenges/1) (OBS! PÅ ENGELSK)
