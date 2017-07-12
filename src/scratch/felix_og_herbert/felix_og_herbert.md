@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Gudbrand Tandberg
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [block_based, game]
+    subject: [english, norwegian, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

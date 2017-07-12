@@ -3,6 +3,10 @@ title: Krabbeangrep! Remiks
 level: 3
 author: Gudbrand Tandberg
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
