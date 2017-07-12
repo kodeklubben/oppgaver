@@ -2,6 +2,10 @@
 title: Lærerveiledning - Asteroids
 level: 4
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [secondary, junior]
 ---
 
 # Om oppgaven {.activity}
