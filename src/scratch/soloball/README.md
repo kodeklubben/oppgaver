@@ -44,7 +44,7 @@ __Tidsbruk__: Dobbelttime
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Ingen
 
-- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på scratch.mit.edu/. Elevene kan gjerne jobbe to og to sammen.
+- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
 
 ## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven.[Klikk her for å se oppgaveteksten.](../soloball/soloball.html){target=_blank}
