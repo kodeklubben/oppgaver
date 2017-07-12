@@ -44,12 +44,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
-    - [ ] Eleven klarer å få partikkelet til å bevege seg på andre måter enn bare diagonalt.
-    - [ ] Eleven klarer å legge til flere partikler.
-    - [ ] Eleven klarer å videreutvikle partikkelet ut i fra egen kreativitet.
-
-
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Bør ha gjort [JS: Grunnleggende JavaScript](../grunnleggende_js/grunnleggende_js.html){target=_blank} og ha kjennskap til grunnleggende HTML og CSS.
@@ -67,8 +62,11 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 
 
 ## Variasjoner {.challenge}
-- [ ] Prøve å få partikkelet til å gå rett frem
-- [ ] Få partikkelet til å gå rett ned
-- [ ] Få partikkelet til å gå baklengs
+- [ ] Få partikkelet til å bevege seg på andre måter enn bare diagonalt.
+  - [ ] Prøve å få partikkelet til å gå rett frem
+  - [ ] Få partikkelet til å gå rett ned
+  - [ ] Få partikkelet til å gå baklengs
 - [ ] Får du til at partikkelet bytter til en tilfeldig farge hver gang den bytter posisjon? 
+- [ ] Legg til flere partikler.
 - [ ] Bruk egen kreativitet til å lage en ny partikkel-animasjon
+
