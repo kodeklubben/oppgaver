@@ -1,7 +1,5 @@
 ---
 title: ComputerCraft
-tags:
-  tema: [minecraft]
 language: nb
 ---
 

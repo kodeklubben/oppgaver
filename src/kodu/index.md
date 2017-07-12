@@ -1,7 +1,5 @@
 ---
 title: Kodu
-tags:
-  tema: [spill]
 language: nb
 ---
 

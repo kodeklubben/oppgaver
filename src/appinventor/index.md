@@ -1,7 +1,5 @@
 ---
 title: App Inventor
-tags:
-  tema: [app]
 language: nb
 ---
 

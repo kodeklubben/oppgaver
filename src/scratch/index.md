@@ -1,7 +1,5 @@
 ---
 title: Scratch
-tags:
-  tema: [spill]
 language: nb
 ---
 
@@ -36,4 +34,3 @@ igang med å lage dine egne spill.
 ## Videoer
 
 - Sjekk ut våre videoer på norsk for hvordan en kan komme igang og programmere i Scratch på [vimeo.com/channels/623455](https://vimeo.com/channels/623455).
-
