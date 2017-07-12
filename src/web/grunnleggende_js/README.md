@@ -22,6 +22,7 @@ __Tidsbruk__: Dobbelttime
 - [ ]  __Matematikk, 4.trinn__: bruke matematiske symboler og uttrykksmåter for å uttrykke matematiske sammenhenger i oppgaveløsning
 - [ ] __Programmering, valgfag__: dokumentere og forklare programkode gjennom å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 
 
 ## Forslag til læringsmål {.challenge}
@@ -38,7 +39,7 @@ __Tidsbruk__: Dobbelttime
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ]  Eleven oppnår måloppnåelse ved å fullføre oppgaven.
+- [ ]  Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 - [ ]  Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
     - [ ] Eleven klarer å lage et stein-saks-papir-spill ved hjelp av løkker, if-setninger og variabeler. 
     - [ ] Eleven klarer å bruke en dobbel for-løkke til å skrive ut den lille gangetabellen
