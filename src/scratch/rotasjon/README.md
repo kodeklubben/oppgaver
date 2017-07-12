@@ -5,7 +5,7 @@ language: nb
 ---
 
 # Om oppgaven {.activity}
-I denne oppgaven skal elevene lære å rotere en figur rundt egen akse.
+I denne oppgaven skal elevene lære å rotere en figur rundt egen akse. Anbefaler å gjøre oppgaven [rotasjon rundt et punkt](../rotasjon%20rundt%20punkt/rotasjon%20rundt%20punkt.html) først. 
 
 
 ## Oppgaven passer til: {.check}
