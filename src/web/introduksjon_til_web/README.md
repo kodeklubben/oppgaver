@@ -34,8 +34,7 @@ __Tidsbruk__: Dobbeltime.
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
-- [ ] Høy måloppnåelse: Eleven klarer å bruke det eleven har gjort i oppgaven til å videreutvikle koden sin.
-  - [ ] Eleven klarer å legge til innhold på egen side ved hjelp av HTML-tags.
+- [ ] Høy måloppnåelse: Eleven klarer å bruke det eleven har gjort i oppgaven til å videreutvikle koden sin, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 
 ## Forutsetninger og utstyr {.challenge}
@@ -51,4 +50,5 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 - [ ] Her er det viktig at elevene husker å lykke HTML-tagene.
 
 ## Variasjoner {.challenge}
-- [ ] Prøv å ordne nettsiden slik at den ser ryddig ut. Legg gjerne til lister over favoritt mat, spill, idrett ol.
+- [ ] Prøv å ordne nettsiden slik at den ser ryddig ut. Legg gjerne til lister over favoritt mat, spill, idrett og lignende. 
+- [ ] Prøv å legg til innhold på egen side ved hjelp av HTML-tags.
