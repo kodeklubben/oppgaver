@@ -3,6 +3,10 @@ title: "Hvor er HTML? Jeg ser den ikke!"
 level: 1
 author: Teodor Heggelund
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior]
 ---
 
 # Introduksjon {.intro}

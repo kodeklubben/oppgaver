@@ -2,6 +2,10 @@
 title: "CSS: Style nettsider"
 level: 2
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior]
 ---
 
 # Introduksjon {.intro}

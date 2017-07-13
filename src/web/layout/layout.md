@@ -3,6 +3,10 @@ title: "CSS: Layout"
 author: Lars Klingenberg
 level: 4
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior]
 ---
 
 # Introduksjon {.intro}
