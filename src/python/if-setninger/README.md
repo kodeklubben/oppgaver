@@ -62,5 +62,5 @@ I denne oppgaven skal vi fortsette å studere for-løkkene. Spesielt så skal vi
 
  ## Eksterne ressurser {.challenge}
 
- - [ ] Denne oppgaven passer ypperlig å kombinere med [Hvor gammel er du?](http://oppgaver.kidsakoder.no/python/hvor_gammel_er_du/hvor_gammel_er_du.html) første episode av [Kodeknekkerene](https://www.nrk.no/skole/xl/kodeknekkerne-1.13033753#Episode%201:%20Hvis/ellers). Den anbefalte fremmgangsmåten finnes i margen til venstre.
+ - [ ] Denne oppgaven passer ypperlig å kombinere med [Hvor gammel er du?](http://oppgaver.kidsakoder.no/python/hvor_gammel_er_du/hvor_gammel_er_du.html) og første episode av [Kodeknekkerene](https://www.nrk.no/skole/xl/kodeknekkerne-1.13033753#Episode%201:%20Hvis/ellers). Et forslag til hvordan episoden kan brukes i undervisningssammenheng  finnes i margen til venstre.
 
