@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi lære mer om hvis-løkker og lage et programm som spør hvilket år du er født og regner ut alderen din.
+I denne oppgaven skal vi lære mer om if-setninger og lage et programm som spør hvilket år du er født og regner ut alderen din.
 
 
 ## Oppgaven passer til: {.check}
@@ -16,7 +16,7 @@ I denne oppgaven skal vi lære mer om hvis-løkker og lage et programm som spør
 
  __Anbefalte trinn__: 7.-10. trinn
 
- __Tema__: Løkker
+ __Tema__: if-setninger
 
  __Tidsbruk__: Enkelttime
 
@@ -24,14 +24,14 @@ I denne oppgaven skal vi lære mer om hvis-løkker og lage et programm som spør
  ## Kompetansemål {.challenge}
 
  
- - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+ - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som tester, tester, variabler, funksjoner og enkel brukerinteraksjon
 
  - [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse
 
 
  ## Forslag til læringsmål {.challenge}
 
- - [ ]  Elevene forstår hvordan en hvis-løkke fungerer og kan skrive enkle løkker selv.
+ - [ ]  Elevene forstår hvordan en if-setning fungerer og kan skrive enkle tester selv.
 
 
  ## Forslag til vurderingskriterier {.challenge}
