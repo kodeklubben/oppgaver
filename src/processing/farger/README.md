@@ -2,10 +2,6 @@
 title: Lærerveiledning - Farger
 level: 1
 language: nb
-tags:
-    topic: [text_based]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Om oppgaven {.activity}

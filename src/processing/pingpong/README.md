@@ -2,10 +2,6 @@
 title: Lærerveiledning - Ping pong
 level: 2
 language: nb
-tags:
-    topic: [text_based, animation]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Om oppgaven {.activity}
