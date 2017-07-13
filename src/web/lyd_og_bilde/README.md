@@ -20,11 +20,11 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
 
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
+- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
 
-- [ ]  __Norsk, 7. trinn__: velge ut og vurdere informasjon fra bibliotek og digitale informasjonskanaler 
+- [ ] __Norsk, 7. trinn__: velge ut og vurdere informasjon fra bibliotek og digitale informasjonskanaler .
 
 
 ## Forslag til læringsmål {.challenge}
