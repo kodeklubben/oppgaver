@@ -3,6 +3,10 @@ title: "JS: Partikkel-gravitasjon"
 author: Lars Klingenberg
 level: 3
 language: nb
+tags:
+    topic: [text_based, web, animation]
+    subject: [mathematics, programming]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -134,4 +138,3 @@ Grunnen til at du må bruke `keyCode` og `which` er fordi ikke alle nettlesere s
 
 
 Dersom du står bomfast: [Forlag til kode](https://jsbin.com/sezumakiyo/edit?html,output)
-

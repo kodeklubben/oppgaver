@@ -2,6 +2,10 @@
 title: "HTML: Forsvunnet katt"
 level: 2
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology, norwegian]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
