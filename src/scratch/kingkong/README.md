@@ -40,7 +40,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på introduksjons- og nybegynnernivå før de starter med denne oppgaven.
-- [ ] __Utstyr__: Datamaskiner med Scratch installert. Tilgang på Internett og enkelt bildebehandlingsprogram, for å hente inn /lage figurer som ikke finnes i Scratch-biblioteket.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Tilgang på Internett og enkelt bildebehandlingsprogram, for å hente inn /lage figurer som ikke finnes i Scratch-biblioteket.
 
 # Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../kingkong/kingkong.html){target=_blank}
@@ -53,6 +53,5 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 - [ ] Elevene kan lage flere bevegelser for Kong, og flere variasjoner for hvordan flyene flyr.
 - [ ] Elevene kan øke vanskelighetsgraden ved å la flyene komme raskere etterhvert som spillet varer lengre.
 
-
 ## Eksterne ressurser {.challenge}
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Se klipp av den ikoniske scenen på fra [King Kong (2005) på YouTube](https://www.youtube.com/watch?v=NoD85qZhkWY){target=_blank}.
