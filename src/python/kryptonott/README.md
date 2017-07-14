@@ -45,7 +45,7 @@ __Tidsbruk__: Dobbelttime eller mer
 - [ ] Dersom elevene klarer denne nøtten, spanderer Arve gjerne en sjokolade dersom de deler koden din. Send en epost til arve@seljebu.no!
 
 ## Forutsetninger og utstyr {.challenge}
-- [ ]  __Forutsetninger__: Kjennskap til Python. Elevene burde ha gjort [Hemmelige koder](../hemmelige_koder/hemmelige_koder) først.
+- [ ]  __Forutsetninger__: Kjennskap til Python. Elevene burde ha gjort [Hemmelige koder](../hemmelige_koder/hemmelige_koder.html) først.
 - [ ]  __Utstyr__:  Datamaskiner med Python installert. Elevene kan gjerne jobbe to og to sammen.
 
 
