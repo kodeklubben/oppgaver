@@ -5,7 +5,7 @@ language: nb
 ---
 
 # Om oppgaven {.activity}
-I denne oppgaven skal elevene lage et tre på rad spill og spille mot datamaskinen
+I denne oppgaven skal elevene lage et tre på rad spill og spille mot datamaskinen. Dette spillet er en videreutvikling av [Tre på rad](../tre_på_rad/tre_pa_rad.html).
 
 
 ## Oppgaven passer til: {.check}
@@ -39,7 +39,7 @@ __Tidsbruk__: Dobbelttime eller mer
 
 
 ## Forutsetninger og utstyr {.challenge}
-- [ ]  __Forutsetninger__: Kjennskap til Python
+- [ ]  __Forutsetninger__: Kjennskap til Python. Elevene burde ha gjort [Tre på rad](../tre_på_rad/tre_pa_rad.html) først. 
 
 - [ ]  __Utstyr__:  Datamaskiner med Python installert.
 
