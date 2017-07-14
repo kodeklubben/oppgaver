@@ -14,7 +14,7 @@ I denne oppgaven skal vi se nærmere på hvordan Python arbeider med tall og lag
 
  __Fag__: Matematikk, Programmering 
 
- __Anbefalte trinn__:
+ __Anbefalte trinn__: 8.-10 trinn
 
  __Tema__: Aritmetikk, Sannsynlighet, Løkker, Rekusjon
 
