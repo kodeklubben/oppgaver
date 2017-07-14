@@ -7,28 +7,36 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven...
+I denne oppgaven introduseres begrepet funksjoner, og vi ser hvordan vi kan bruke disse til å forenkle oppgavene vi har sett på tidligere. Konkret så ser vi på hvordan geometriske figurer enklere kan konstrues. 
 
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: 
+ __Fag__:Programmering 
 
- __Anbefalte trinn__:
+ __Anbefalte trinn__: 8.-10. trinn
 
- __Tema__: 
+ __Tema__: Løkker, Skilpadder
 
- __Tidsbruk__: 
+ __Tidsbruk__: Dobbelttime
 
 
  ## Kompetansemål {.challenge}
 
- 
+ - [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+
+ - [ ] __Kunst og håndtverk, 2. trinn__: eksperimentere med enkle geometriske former i konstruksjon og som dekorative formelementer
+
+ - [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse
+
+ - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
 
  ## Forslag til læringsmål {.challenge}
 
- - [ ]  Elevene kan...
+ - [ ] Elevene forstår hva en funksjon er, og klarer å bruke den til å løse enkle problemer.
+
+ - [ ] Elevene klarer å skrive egne funksjoner for å løse enkle problemer. 
 
 
  ## Forslag til vurderingskriterier {.challenge}
@@ -40,7 +48,7 @@ I denne oppgaven...
  
  ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: 
+ - [ ]  __Forutsetninger__: Kjent med hvordan skilpaddene i Python fungerer. Ingen forutsetninger utover dette er påkrevd. 
 
  - [ ]  __Utstyr__: Datamaskin med Python installert
 
