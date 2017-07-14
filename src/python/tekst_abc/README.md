@@ -13,7 +13,7 @@ I denne oppgaven skal elevene lære å gjøre enkle operasjoner på tekst, som �
 
 __Anbefalte trinn__: 8.-10. trinn
 
-__Tema__: Tekststrenger, input/output brukerointeraksjon
+__Tema__: Tekststrenger, input/output brukerinteraksjon
 
 __Tidsbruk__: Dobbelttime
 
