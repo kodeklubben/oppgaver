@@ -5,7 +5,7 @@ language: nb
 ---
 
 # Om oppgaven {.activity}
-I denne oppgaven skal elevene lære å bygge fraktaler ved bruk av skilpaddekunst fra tidligere oppgaver.
+I denne oppgaven skal elevene lære å bygge fraktaler ved bruk av skilpaddekunst fra tidligere oppgaver. Denne oppgaven burde sees i sammenheng med [Skilpadder hele veien](../skilpadder_hele_veien/skilpadder_hele_veien.html). 
 
 
 ## Oppgaven passer til: {.check}
