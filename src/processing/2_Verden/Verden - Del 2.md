@@ -1,12 +1,12 @@
 ---
-title: Verden
+title: Verden - Del 2
 level: 2
 author: Kine Gjerstad Eide
 language: nb
 ---
 
 # Intro {.intro}
-Denne oppgava bygger på oppgava med samme navn som ligger på introduksjonsnivå her i Processingoppgavene. 
+Denne oppgava bygger på oppgava med samme navn som ligger på introduksjonsnivå her i Processingoppgavene. [Klikk her for å gå til introduksjonsoppgava av verden](../1_Verden/verden.html){target=_blank}.
 
 I denne oppgava skal vi fortsette med verdenspillet! Nå skal vi komme så langt på spillet at det skal dukke opp navnet på en verdensdel i vinduet, og så er det om å gjøre å trykke på verdensdelen. 
 
@@ -22,9 +22,9 @@ Her er koden vi gjorde i introduksjonsoppgava:
 
 Hittil har vi fått det til å dukke opp "EUROPA" på skjermen når datamusa holdes over verdensdelen Europa på kartet. 
 
-Dette ble gjort ved å først si at Europa er firkanta. Deretter ble koordinatene til datamusa vist som tekst i vinduet og så holdt vi datamusa nøyaktig på grensene som var tegna opp, slik at vi kunne se hva koordinatene var og bruke disse for å lage if setninger til å sjekke med. 
+Dette ble gjort ved å først si at Europa er firkanta. Deretter ble koordinatene til datamusa vist som tekst i vinduet og så holdt vi datamusa nøyaktig på grensene som var tegna opp, slik at vi kunne se hva koordinatene var og bruke disse for å lage if-setninger til å sjekke med. 
 
-Vi lagde en if setning for hver side i firkanten som utgjorde grensa til Europa. Disse fant vi ut at måtte skrives inni hverandre slik at man sjekket om man var innenfor alle fire grensene samtidig. 
+Vi lagde en if-setning for hver side i firkanten som utgjorde grensa til Europa. Disse fant vi ut at måtte skrives inni hverandre slik at man sjekket om man var innenfor alle fire grensene samtidig. 
 
 Under har vi laga ei sjekkliste, dersom du får til alle punktene i lista, så er det ikke noe problem for deg å gjøre resten av denne oppgava. Dersom du synes sjekklista er vanskelig, så anbefaler vi at du forsøker deg på introduksjonsdelen av oppgava før du går videre. 
 
@@ -43,11 +43,11 @@ Du lærte i introduksjonsdelen hvordan du la til Europa, så nå skal du få leg
 - [ ] Last ned dette bilde og få det til å vise i vinduet i stedet for det du har nå:
 ![](mapAsia.png)
 - [ ] Finn ut hvor grensene til Asia er og lagre dem som kommentarer i koden din. Kommentarer lages ved å sette to skråstreker først, slik som dette: `//`.
-- [ ] Skriv if setningen for den føstre grensa og sjekk at det fungerer.
-- [ ] Gjør et metodekall på `text();` inni if setningen hvor det første parameteret er "ASIA". De to neste parameterne kan være det samme som de to siste i metodekallet som får "EUROPA" til å vises på skjermen.
-- [ ] Skriv if setningen for den andre grensa og sjekk at det fungerer. Husk at alle if setningene må stå inni hverandre.
-- [ ] Skriv if setningen for den tredje grensa og sjekk at det fungerer.
-- [ ] Skriv if setningen for den fjerde grensa og sjekk at det fungerer.
+- [ ] Skriv if-setningen for den føstre grensa og sjekk at det fungerer.
+- [ ] Gjør et metodekall på `text();` inni if-setningen hvor det første parameteret er "ASIA". De to neste parameterne kan være det samme som de to siste i metodekallet som får "EUROPA" til å vises på skjermen.
+- [ ] Skriv if-setningen for den andre grensa og sjekk at det fungerer. Husk at alle if-setningene må stå inni hverandre.
+- [ ] Skriv if-setningen for den tredje grensa og sjekk at det fungerer.
+- [ ] Skriv if-setningen for den fjerde grensa og sjekk at det fungerer.
 - [ ] Bytt tilbake til bilde av verdenskartet uten firkanta grenser på.
 - [ ] Test at alt fungerer, nå skal "ASIA" vises i vinduet når du holder datamusa over Asia, mens "EUROPA" skal vises i vinduet når du holder datamusa over Europa.
 
@@ -55,8 +55,8 @@ Her er koden så langt.
 
 ![](steg1.png) 
 
-# Steg 2: Slå sammen if setninger {.activity}
-Nå som du har vært gjennom hvordan du setter opp if setninger inne hverandre, så er det på tide å vise hvordan du kan slå if setninger sammen. Når du if setninger settes inni hver andre så kan det leses muntlig som dette: 
+# Steg 2: Slå sammen if-setninger {.activity}
+Nå som du har vært gjennom hvordan du setter opp if-setninger inne hverandre, så er det på tide å vise hvordan du kan slå if-setninger sammen. Når du if-setninger settes inni hver andre så kan det leses muntlig som dette: 
 
 ```processing 
 Dersom datamusa er innenfor venstre grense 
@@ -89,20 +89,20 @@ if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33)]{
 }
 ```
 
-Dette blir en ganske lang if setning som kanskje er litt vanskelig å lese, men det sparer mye plass i koden. 
+Dette blir en ganske lang if-setning som kanskje er litt vanskelig å lese, men det sparer mye plass i koden. 
 
 ## Gjør dette: {.check}
-- [ ] Dersom du ikke har gjort det allerede, så må du nå slå sammen de fire if setningene som sjekker grensene til Europa til å være bare en if setning.
+- [ ] Dersom du ikke har gjort det allerede, så må du nå slå sammen de fire if-setningene som sjekker grensene til Europa til å være bare en if-setning.
 - [ ] Sjekk at koden fungerer.
-- [ ] Skriv om if setningene for Asia, slik at du sjekker alle grensene i en if setning. 
+- [ ] Skriv om if-setningene for Asia, slik at du sjekker alle grensene i en if-setning. 
 - [ ] Sjekk at koden fungerer.
 
 Her er bilde av koden så langt.  
 
 ![](steg2.png)
 
-# Steg 3: Sjekk Afrika med to if setninger {.activity}
-Nå skal vi legge til Afrika, dette skal gjøres i en if setning. Nå kan du velge om du vil følge sjekklista under bilde for å sette opp koden som trengs, eller om du vil forsøke å skrive den alene. Her er bilde av grensa til Afrika:
+# Steg 3: Sjekk Afrika med to if-setninger {.activity}
+Nå skal vi legge til Afrika, dette skal gjøres i en if-setning. Nå kan du velge om du vil følge sjekklista under bilde for å sette opp koden som trengs, eller om du vil forsøke å skrive den alene. Her er bilde av grensa til Afrika:
 
 ![](mapAfrika1.png)
 
@@ -111,35 +111,35 @@ Nå skal vi legge til Afrika, dette skal gjøres i en if setning. Nå kan du vel
 - [ ] Finn koordinatene på de fire grensene til Afrika og skriv dem inn som kommentarer i koden din.
 - [ ] Kall på `text();` og bruk "AFRIKA" som første parameter.
 - [ ] Skriv koden til den første grensa. 
-- [ ] Sjekk at koden fungerer og at if setningen gjør det den skal.
-- [ ] Skriv `&&` og legg til testen for den andre grensa til Afrika i samme if setning, muntlig blir dette:
+- [ ] Sjekk at koden fungerer og at if-setningen gjør det den skal.
+- [ ] Skriv `&&` og legg til testen for den andre grensa til Afrika i samme if-setning, muntlig blir dette:
 ```processing
 if(er datamusa innenfor den første grensa && er datamusa innenfor den andre grensa){
     vis teksten "AFRIKA" i vinduet.
 } 
 ```
 - [ ] Test at koden fungerer som den skal.
-- [ ] Skriv `&&` og legg til testen for den tredje grensa til Afrika i samme if setning.
+- [ ] Skriv `&&` og legg til testen for den tredje grensa til Afrika i samme if-setning.
 - [ ] Test at dette fungerer som det skal.
-- [ ] Skriv `&&` og legg til testen for den fjerde grensa til Afrika i samme if setning.
+- [ ] Skriv `&&` og legg til testen for den fjerde grensa til Afrika i samme if-setning.
 - [ ] Test at koden fungerer og at "AFRIKA" vises i vinduet når du holder datamusa over Afrika.
 
 Nå som Afrika også fungerer, så skal vi legge til en liten rute til, fordi som du ser på kartet, så er ikke Madagaskar, Somalia, halve Ethiopia og Djibouti tatt med i firkanten, så når vi holder datamusa over disse landene, så kommer ikke "AFRIKA" opp på skjermen. Det må vi fikse. 
 
-Vi har laga en ny firkant som bare inkluderer disse landene. Nå har du skrevet så mange if setninger at denne tror vi du greier uten en sjekkliste. Dersom det er vanskelig, så er det bare å bruke sjekklista over, det er akkurat det samme som skal gjøres, bare med nye koordinater på grensene. 
+Vi har laga en ny firkant som bare inkluderer disse landene. Nå har du skrevet så mange if-setninger at denne tror vi du greier uten en sjekkliste. Dersom det er vanskelig, så er det bare å bruke sjekklista over, det er akkurat det samme som skal gjøres, bare med nye koordinater på grensene. 
 
 ## Gjør dette: {.check}
-- [ ] Lag en ny if setning som sjekker grensene til den nye firkanten. Her er bildet:
+- [ ] Lag en ny if-setning som sjekker grensene til den nye firkanten. Her er bildet:
 ![](mapAfrika.png)
 
-Her er koden vår så langt. Nå begynner det å bli en del if setninger!
+Her er koden vår så langt. Nå begynner det å bli en del if-setninger!
 
 ![](steg3.png) 
 
-# Steg 4: Lag en metode i steden for alle if setningene {.activity}
-Nå skal vi gjøre koden vår enda mindre. Det er fordi vi skal legge til mange flere if setninger og da vil vi skrive kode som er så enkel som mulig. 
+# Steg 4: Lag en metode i steden for alle if-setningene {.activity}
+Nå skal vi gjøre koden vår enda mindre. Det er fordi vi skal legge til mange flere if-setninger og da vil vi skrive kode som er så enkel som mulig. 
 
-Når du ser etter på if setningene, så er de nesten helt like. Det er bare selve grenseverdien som er forskjellig. Når vi oppdager at vi kommer til å måtte skrive mye kode som ligner veldig, så kan man ofte putte det som er likt over i en metode og så foreta metodekall i stede for å skrive samme kode på nytt og på nytt. 
+Når du ser etter på if-setningene, så er de nesten helt like. Det er bare selve grenseverdien som er forskjellig. Når vi oppdager at vi kommer til å måtte skrive mye kode som ligner veldig, så kan man ofte putte det som er likt over i en metode og så foreta metodekall i stede for å skrive samme kode på nytt og på nytt. 
 
 `setup` og `draw` er metoder vi har skrevet, mens `text();` er en metode vi har kalt på. Når du trykker på play, så gjøres det automatisk et kall på `setup`, det skjer bare en gang. Deretter kalles `draw` på nytt og på nytt helt til programmet slås av. 
 
@@ -152,9 +152,9 @@ void sjekkVerdensdel(){
 }
 ```
 
-Inni krøllparentesene skal vi skrive den koden vår som blir gjentatt, altså de lange if setningene.
+Inni krøllparentesene skal vi skrive den koden vår som blir gjentatt, altså de lange if-setningene.
 
-La oss starte med å putte inn en av if setningene. Vi har valgt å kopiere inn if setningen som sjekker om datamusa er innenfor Europa sin grense, så nå ser metoden slik ut: 
+La oss starte med å putte inn en av if-setningene. Vi har valgt å kopiere inn if-setningen som sjekker om datamusa er innenfor Europa sin grense, så nå ser metoden slik ut: 
 
 ```processing
 void sjekkVerdensdel(){
@@ -164,7 +164,7 @@ void sjekkVerdensdel(){
 }
 ```
 
-Vi har ikke lyst å skriv inn en if setning for hver verdensdel i den nye metoden. For å bare ha en if sentning, så bytter vi ut alle de tallene som er forskjellig fra verdensdel til verdensdel med variabler. Vi gir variabelnavn som er logiske, da er det lettere å lese koden senere. En variabel kan endres mens programmet kjører, men tall som er skrevet direkte inn kan ikke endres mens programmet kjører. I den første testen sjekker vi om datamusa er innenfor den første grensa, altså den grensa som er til høyre. Vi har ikke lov å bruke `æ`, `ø` eller `å`, så da skriver vi `høyre` med `o`, altså `hoyreGrense`. Vi putter dette inn i stede for tallet `365` og får:
+Vi har ikke lyst å skriv inn en if-setning for hver verdensdel i den nye metoden. For å bare ha en if-sentning, så bytter vi ut alle de tallene som er forskjellig fra verdensdel til verdensdel med variabler. Vi gir variabelnavn som er logiske, da er det lettere å lese koden senere. En variabel kan endres mens programmet kjører, men tall som er skrevet direkte inn kan ikke endres mens programmet kjører. I den første testen sjekker vi om datamusa er innenfor den første grensa, altså den grensa som er til høyre. Vi har ikke lov å bruke `æ`, `ø` eller `å`, så da skriver vi `høyre` med `o`, altså `hoyreGrense`. Vi putter dette inn i stede for tallet `365` og får:
 
 ```processing
 void sjekkVerdensdel(){
@@ -177,7 +177,7 @@ void sjekkVerdensdel(){
 Vi gjør det samme med de andre tre grensene også.
 
 ## Gjør dette: {.check}
-- [ ] Finn passende navn til de andre grensene også og bytt ut tallene i if setningen med de navna du har funnet.  
+- [ ] Finn passende navn til de andre grensene også og bytt ut tallene i if-setningen med de navna du har funnet.  
 - [ ] Kjør programmet, hva skjer?
 
 Nå fikk vi en feilmelding som ser slik ut: 
@@ -209,7 +209,7 @@ I stede for punktum så skal det være de navna du har valgt for de forskjellige
 Nå er det en ting som mangler. Det er navnet på verdensdelen. Alle verdensdelene skal ikke hete "EUROPA". Da må vi gjøre denne om til en `String`, det betyr en tekst. 
 
 ## Gjør dette: {.check}
-- [ ] Bytt ut det første parameteret inni metodekallet på `text();` inni if setningen som er inni den nye metoden og skriv heller `verdensdel` (du kan velge et annet navn enn `verdensdel`).
+- [ ] Bytt ut det første parameteret inni metodekallet på `text();` inni if-setningen som er inni den nye metoden og skriv heller `verdensdel` (du kan velge et annet navn enn `verdensdel`).
 - [ ] Kjør programmet, hva skjer?
 - [ ] Deklarer `verdensdel` til å være en `String` inni parentesene til den nye metoden.
 - [ ] Kjør programmet, hva skjer?
@@ -243,10 +243,10 @@ Da må vi putte inn parameter i metodekallet.
 - [ ] Sett inn igjen parameterne i metodekallet på `text();`
 - [ ] Start med Europa. Det første parameteret skal da være `"EUROPA"`, husk fnuttene, ellers vet ikke programmet at det er en tekst. Skill hver av parameterne med komma. Det neste parameteret er den første grensa, altså 365. Så kommer den andre grensa, altså den på venstre side av firkanten vi har brukt, som er 694. Nå er det den nedre grensa sin tur, den fant vi ut var 455 og til slutt må vi ha den øvre grensa til Europa, som vi fant ut at var 33.  
 - [ ] Kjør programmet, hva skjer? 
-- [ ] Nå vil "EUROPA" vises på skjermen dobbelt opp, fordi nå sjekker vi om datamusa er over Europa først i if setningen inni `draw` metoden og deretter i det nye metodekallet vårt. Ta derfor bort if setningen som er skrevet inni `draw` og som sjekker Europa. 
+- [ ] Nå vil "EUROPA" vises på skjermen dobbelt opp, fordi nå sjekker vi om datamusa er over Europa først i if-setningen inni `draw` metoden og deretter i det nye metodekallet vårt. Ta derfor bort if-setningen som er skrevet inni `draw` og som sjekker Europa. 
 - [ ] Kjør programmet på nytt, fungerer det fremdeles som det skal?
 
-Her er bilde av koden, vi har bare tatt med metodene `draw` og `sjekkVerdensdel`, ettersom det bare er der det er gjort endringer. Det er viktig at du har fjernet riktig if setning og at du har brukt riktige parametre inni metodekallet på `sjekkVerdensdel();`.
+Her er bilde av koden, vi har bare tatt med metodene `draw` og `sjekkVerdensdel`, ettersom det bare er der det er gjort endringer. Det er viktig at du har fjernet riktig if-setning og at du har brukt riktige parametre inni metodekallet på `sjekkVerdensdel();`.
 
 ![](drawOgSjekk.png)
 
@@ -255,10 +255,10 @@ Nå skal du få bruke metoden `sjekkVerdensdel();` til å sjekke Asia og Afrika.
 
 ## Gjør dette: {.check}
 - [ ] Gjør et metodekall på `sjekkVerdensdel();` hvor de forskjellige parameterne er de du har funnet for Asia. 
-- [ ] Fjern if setningen som sjekker om datamusa holder over Asia. 
+- [ ] Fjern if-setningen som sjekker om datamusa holder over Asia. 
 - [ ] Kjør koden og sjekk at "ASIA" kommer opp når du holder datamusa innen for grensene til Asia. 
 - [ ] Gjør to metodekall på `sjekkVerdensdel();` og få den til å sjekke om datamusa er innenfor Afrika. 
-- [ ] Fjern de to if setningene som sjekker om datamusa er innenfor Afrika.
+- [ ] Fjern de to if-setningene som sjekker om datamusa er innenfor Afrika.
 - [ ] Sjekk at koden fungerer. 
 
 Her er koden vår så langt.
@@ -339,7 +339,7 @@ Før vi går videre er det på tide å fjerne litt kode unødvendig kode.
 
 ## Gjør dette: {.check}
 - [ ] Fjern de to metodekallene på `text();` som viser oss hva datamusas X og Y koordinat er. 
-- [ ] Fjern metodekallet på `text();` som vi har skrevet inni if setningen inni `sjekkVerdensdeler` metoden. I neste steg putter vi inn en helt annen kode her.
+- [ ] Fjern metodekallet på `text();` som vi har skrevet inni if-setningen inni `sjekkVerdensdeler` metoden. I neste steg putter vi inn en helt annen kode her.
 - [ ] Fjern metodekallet på `text()` som viser hvilket tall `tilfeldigTall` er.
 
 Her er koden så langt. 
@@ -349,7 +349,7 @@ Her er koden så langt.
 # Steg 8: Sjekk om man trykker på riktig verdensdel {.activity}
 Nå skal vi sjekke om den som spiller trykker på riktig verdensdel. Da starter vi med å sjekke om spilleren trykker på knappen på datamusa. 
 
-På samme måte som at vi kan bruke `mouseX` og `mousY`, så kan vi også bruke `mousePressed`. Forskjellen er at mens `mouseX` og `mousY` hele tiden oppdateres med tall som forteller oss hvor i vinduet datamusa er, så er mousePressed en bolsk variabel, det betyr at den enten er `true` eller `false`, derfor kan vi bruke den direkte i en if setning. 
+På samme måte som at vi kan bruke `mouseX` og `mousY`, så kan vi også bruke `mousePressed`. Forskjellen er at mens `mouseX` og `mousY` hele tiden oppdateres med tall som forteller oss hvor i vinduet datamusa er, så er mousePressed en bolsk variabel, det betyr at den enten er `true` eller `false`, derfor kan vi bruke den direkte i en if-setning. 
 
 Muntlig skal vi gjøre dette:
 
@@ -358,21 +358,21 @@ Muntlig skal vi gjøre dette:
     så skal vi sjekke om datamusa er over en og en verdensdel
 ```
 
-Det å sjekke om datamusa er over en og en av verdensdelene har vi allerede gjort inni `draw` metoden ved å kalle på `sjekkVerdensdel();` mange ganger. Da gjenstår bare å putte alle disse inni en if setning.
+Det å sjekke om datamusa er over en og en av verdensdelene har vi allerede gjort inni `draw` metoden ved å kalle på `sjekkVerdensdel();` mange ganger. Da gjenstår bare å putte alle disse inni en if-setning.
 
 ## Gjør dette: {.check}
-- [ ] Skriv en if setning hvor du sjekker om datamusa er trykka på. Nå skal bare `mousePressed` stå inni parentesen til if setningen.
-- [ ] Putt alle metodekallene `sjekkVerdensdel();` i nni if setningen. 
+- [ ] Skriv en if-setning hvor du sjekker om datamusa er trykka på. Nå skal bare `mousePressed` stå inni parentesen til if-setningen.
+- [ ] Putt alle metodekallene `sjekkVerdensdel();` inn i if-setningen. 
 - [ ] Sjekk at koden kjører. Ingenting nytt skal skje.
 
-Neste steg nå er å sjekke om spilleren har trykke på riktig verdensdel. Dette gjør vi inni if setningen som er inni metoden `sjekkVerdensdel`. Nå skal vi sjekke om verdensdelen fra Stringen som blir sendt inn til metoden er lik som den verdensdelen som er trekt tilfeldig. Muntlig blir dette:
+Neste steg nå er å sjekke om spilleren har trykke på riktig verdensdel. Dette gjør vi inni if-setningen som er inni metoden `sjekkVerdensdel`. Nå skal vi sjekke om verdensdelen fra Stringen som blir sendt inn til metoden er lik som den verdensdelen som er trekt tilfeldig. Muntlig blir dette:
 
 ```processing
 Dersom verdensdelen som er trekt tilfeldig er lik verdelsdelen fra Stringen, 
     så viser vi teksten "RIKTIG" i vinduet.
 ``` 
 
-Vi putter inn de tingene vi har, da blir if setningen slik:
+Vi putter inn de tingene vi har, da blir if-setningen slik:
 
 ```processing
 if(alleVerdensdelene[tilfeldigTall] er lik verdensdel){
@@ -388,7 +388,7 @@ if(alleVerdensdelene[tilfeldigTall].equals(verdensdel)){
 ```
 
 ## Gjør dette: {.check}
-- [ ] Skriv inn if setningen som nettopp ble forklart.
+- [ ] Skriv inn if-setningen som nettopp ble forklart.
 - [ ] Sjekk at koden fungerer. Nå skal teksten "RIKTIG" vises på skjermen når du trykker på riktig verdensdel.
 
 Her er koden så langt.
@@ -396,12 +396,12 @@ Her er koden så langt.
 ![](steg8.png)
 
 # Steg 9: Få ny verdensdel å trykke på {.activity}
-Det er kjipt å starte programmet på nytt hver gang spilleren har trykka på riktig verdensdel. Derfor må vi velge ett nytt tilfeldig tall inni if setningen som sjekker om riktig verdensdel er trykka på. 
+Det er kjipt å starte programmet på nytt hver gang spilleren har trykka på riktig verdensdel. Derfor må vi velge ett nytt tilfeldig tall inni if-setningen som sjekker om riktig verdensdel er trykka på. 
 
 Da gjør vi akkurat det samme som vi gjorde i `setup` metoden da vi satt `tilfeldigTall`  til å være ett tilfeldig tall.
 
 ## Gjør dette: {.check}
-- [ ] Sett `tilfeldigTall` til å bli et nytt tilfeldig tall inni if setningen som sjekker om spilleren har trykka på riktig verdensdel. 
+- [ ] Sett `tilfeldigTall` til å bli et nytt tilfeldig tall inni if-setningen som sjekker om spilleren har trykka på riktig verdensdel. 
 - [ ] Kjør koden og se at det fungerer. Nå skal du få opp en ny verdensdel hver gang du trykker på riktig verdensdel. 
 
 Her er koden så langt. Siden vi bare har lagt til en kodelinje inni metoden `sjekkVerdensdel` så viser vi bare den metoden: 
@@ -438,14 +438,14 @@ ellers
     så skal vi få minus ett poeng
 ``` 
 
-Vi har allerede de if setningen som utfører sjekken, og vi har alt som skjer dersom vi trykker på riktig verdensdel. Det eneste som mangler er hva som skjer fra `ellers` og nedover. 
+Vi har allerede de if-setningen som utfører sjekken, og vi har alt som skjer dersom vi trykker på riktig verdensdel. Det eneste som mangler er hva som skjer fra `ellers` og nedover. 
 
-Når vi skriver en if setning, så kan vi alltid legge til en `ellers`, på engelsk `else`. Dersom vi legger til en `else` etter en if setning, så vil koden inni `else` skje dersom testen i if setningen er usann. Så dersom man trykker på riktig verdensdel, så får man poeng, ellers får man minuspoeng. 
+Når vi skriver en if-setning, så kan vi alltid legge til en `ellers`, på engelsk `else`. Dersom vi legger til en `else` etter en if-setning, så vil koden inni `else` skje dersom testen i if-setningen er usann. Så dersom man trykker på riktig verdensdel, så får man poeng, ellers får man minuspoeng. 
 
-En `else` åpnes og stenges på samme måte som en if setning, altså med krøllparenteser `{` og `}`. 
+En `else` åpnes og stenges på samme måte som en if-setning, altså med krøllparenteser `{` og `}`. 
 
 ## Gjør dette: {.check}
-- [ ] Legg til en `else` rett etter at if setningen som sjekker om verdensdelene er like er avslutta.
+- [ ] Legg til en `else` rett etter at if-setningen som sjekker om verdensdelene er like er avslutta.
 - [ ] Kodelinja som du brukte for å legge til ett poeng, skal du nå bruke for å trekke fra ett poeng. Alt du trenger å gjøre er å skrive `-` i steden for `+`. Skriv denne kodelinja inni `else`.
 - [ ] Sjekk at koden kjører. Hva skjer? Får du ett minuspoeng hver gang du trykker på feil verdensdel? Hva skjer når du trykker på riktig verdensdel, får du riktig poeng?
 
