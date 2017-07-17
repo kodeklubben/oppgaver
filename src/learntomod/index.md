@@ -1,7 +1,5 @@
 ---
 title: Learn To Mod
-tags:
-  tema: [minecraft]
 language: nb
 ---
 

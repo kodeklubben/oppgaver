@@ -1,7 +1,5 @@
 ---
 title: Unity
-tags:
-  tema: [animasjon, spill]
 language: nb
 ---
 

@@ -11,7 +11,7 @@ tags:
     - game #Interactive programs with game elements
     - robot #Physical objects that moves
     - animation #Machine-made cartoons
-  subject: #Logical OR
+subject: #Logical OR
     - mathematics
     - science
     - programming
@@ -21,7 +21,7 @@ tags:
     - english
     - arts_and_crafts
     - social_science
-  grade: #Logical OR
+grade: #Logical OR
     - preschool #Projects aimed at preschool students
     - primary #Projects aimed at students in grade 1.-4.
     - secondary #Projects aimed at students in grade 5.-7.

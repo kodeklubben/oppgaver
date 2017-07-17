@@ -1,7 +1,7 @@
 ---
 title: Eget prosjekt
 level: 4
-language: nb-NO
+language: nb
 author: Teodor Heggelund
 ---
 
@@ -60,13 +60,13 @@ subscriptions model =
 `Keyboard` fungerer ikke i **Try Elm**.
 
 Muligheter:
-  
-- Prøv [Ellie](https://ellie-app.com/P7GZ5mV9Lja1/0)! 
+
+- Prøv [Ellie](https://ellie-app.com/P7GZ5mV9Lja1/0)!
 
 - Kjør lokalt:
 
   Installer `Keyboard` med `elm package install elm-lang/keyboard`
-  
+
   Se siden med `elm reactor`.
 
 ## Sjekkliste {.check}
@@ -91,7 +91,6 @@ til [Tell sekunder](../07_tell_sekunder/07_tell_sekunder.html).
 
 - [ ] Klarer du å kombinere oppgavene? Få tiden til å gå _mens_ du sjekker hva
   brukeren trykker på?
-  
+
 Her er det mange muligheter videre! Vi kan for eksempel lage oss koordinater for
 noe vi vil tegne, og flytte det rundt med piltastene.
-
