@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi utforske if-setninger og tegne ulike geometriske figurer ved hjelp av `turtle`-bibliotketet. 
+I denne oppgaven skal vi utforske if-setninger og tegne ulike geometriske figurer ved hjelp av `turtle`-biblioteket. 
 
 
 ## Oppgaven passer til: {.check}
