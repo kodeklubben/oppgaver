@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi utforske if-setninger og tegne ulike geometriske figurer ved hjelp av `turtle` bibliotketet. 
+I denne oppgaven skal vi utforske if-setninger og tegne ulike geometriske figurer ved hjelp av `turtle`-bibliotketet. 
 
 
 ## Oppgaven passer til: {.check}
@@ -59,7 +59,7 @@ I denne oppgaven skal vi utforske if-setninger og tegne ulike geometriske figure
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../skilpadder/skilpadder.html){target=_blank}
 
- - [ ] Igjen så påpeker vi viktigheten av å gode programmnavn. En vanlig feil er å kalle programmet  sitt  for "turtle.py". Når en da prøver å laste inn pakken turtle, vil den da prøve å kjøre filen "turtle.py" i stedet. Dette gjør at programmet ikke kjøres, men løses ved å gi programmet et nytt navn. Det holder med andre ord ikke å lage å lage et nytt programm, en må endre eller slette det gamle programmet.   
+ - [ ] Igjen så påpeker vi viktigheten av å ha gode navn på programmene våre. En vanlig feil er å kalle programmet  sitt  for "turtle.py". Når en da prøver å laste inn pakken turtle, vil den da prøve å kjøre filen "turtle.py" i stedet. Dette gjør at programmet ikke kjøres, men løses ved å gi programmet et nytt navn. Det holder med andre ord ikke å lage å lage et nytt programm, en må endre eller slette det gamle programmet.   
 
 
  ## Variasjoner {.challenge}
