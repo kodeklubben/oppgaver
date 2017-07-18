@@ -30,7 +30,7 @@ __Tidsbruk__: Dobbelttime
 - [ ]  __Programmering, valgfag__: overføre løsninger til nye problemer ved å generalisere og tilpasse eksisterende programkode og algoritmer.
 
 ## Forslag til læringsmål {.challenge}
-- [ ]  Elevene kan bruke funskjoner og løkker til å behandle og printe tekststrenger.
+- [ ]  Elevene kan bruke funksjoner og løkker til å behandle og printe tekststrenger.
 - [ ]  Elevene kan forklare og bruke andres kode i eget prosjekter.
 - [ ]  Elevene kan utvikle og feilsøke programmer.
 
