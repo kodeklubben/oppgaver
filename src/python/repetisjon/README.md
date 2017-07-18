@@ -29,7 +29,7 @@ __Tidsbruk__: Dobbelttime
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ]  Elevene kan Python syntaks for tester, løkker og funksjoner.
+- [ ]  Elevene kan syntaks i Python for tester, løkker og funksjoner.
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -48,7 +48,10 @@ __Tidsbruk__: Dobbelttime
 ## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../repetisjon/repetisjon.html){target=_blank}
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
+Selv om ikke elevene har brukt Python før, kan dette fungere som en god oppgave å vise frem Python som språk. 
 
 ## Variasjoner {.challenge}
-- [ ] Selv om ikke elevene har brukt Python før, kan dette fungere som en god oppgave å vise frem Python som språk. 
+- [ ] _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
+
+## Eksterne ressurser {.challenge}
+- [ ] Foreløpig ingen eksterne ressurser...
