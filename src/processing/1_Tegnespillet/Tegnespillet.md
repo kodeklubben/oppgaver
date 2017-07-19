@@ -9,11 +9,11 @@ language: nb
 
 Denne oppgava går ut på å lage et tegnespill, målet er å skrive kode, slik at du greier å tegne tre forskjellige tegninger som ligner på disse:
 
-![](Gulsol.png "Gul sol, strekperson som soler seg")
+![](Gulsol.png)
 
-![](gronttre.PNG)
+![](gronttre.png)
 
-![](tofjes.PNG)
+![](tofjes.png)
 
 Oppgava er lagt opp slik at du leser og gjør det som står i oppgaveteksen, så på slutten av hvert steg, kan du dobbelsjekke koden din med en eksempelkode vi har lagt ved.
 
@@ -32,8 +32,8 @@ void setup(){
 	background(0, 0, 0);
 }
 ```
-- [ ] Nå kan du starte programmet med å trykke ´ctrl-R´, eller trykke `play` pilen øverst.
-- [ ] Lagre programmet med å trykke ´ctrl+S´, eller med å trykke File --> Save i menyen øverst.
+- [ ] Nå kan du starte programmet med å trykke `CTRL` + `R`, eller trykke `play` pilen øverst.
+- [ ] Lagre programmet med å trykke `CTRL` + `S`, eller med å trykke `File`, så `Save` i menyen øverst.
 
 ### Tips: Hvordan skrive krøllparenteser { } {.protip}
 
@@ -68,15 +68,15 @@ i Processing og andre programmeringsspråk.
 
 Lurer du på hvordan koden du har skrevet fungerer?
 
--	`void setup() {` er en metode som heter `setup`, du kan bare ha en metode med hvert navn! `setup` er en spesiell metode fordi den blir kjøres bare en gang helt først når du starter programmet ditt. Noen metoder gir tilbake informasjon, her bruker vi `void` forran `setup`, som betyr at den ikke skal gi tilbake noe informasjon.
+-	`void setup() {` er en metode som heter `setup`, du kan bare ha en metode med hvert navn! `setup` er en spesiell metode fordi den blir kjøres bare en gang helt først når du starter programmet ditt. Noen metoder gir tilbake informasjon, det gjør ikke `setup`, det viser vi ved å skrive `void` forran `setup`.
 -	`size(640, 420);` er det som bestemmer hvor stort vinduet ditt er, den er inni `void setup(){` metoden fordi vi må bestemme størrelsen på vinduet bare en gang når vi starter. 
--	Vi har også `background(0, 0, 0)` som bestemmer bakgrunsfargen fargen i vinduet, `0` betyr at det ikke er farge, da blir det svart. Dersom vi skriver 255 setter vi på full farge styrke på den lille pæra som sitter i pc-skjermen. Det betyr at dersom vi skriver `background(255, 255, 255)` så blir det hvitt, 255 er det høyeste tallet vi kan velge. De forskjellige tallen står for `background(RØD, GRØNN, BLÅ)` og når vi endrer veridene her, så blander vi fargene.
--	På linje 1 og 4 har vi `{` og `}` disse krøssparentesene åpner og lukker metoden. Metoden inneholder all kode vi skriver mellom disse. 
+-	Vi har også `background(0, 0, 0)` som bestemmer bakgrunsfargen fargen i vinduet, `0` betyr at det ikke er farge, da blir det svart. Dersom vi skriver 255 setter vi på full farge styrke på den lille pæra som sitter i pc-skjermen. Det betyr at dersom vi skriver `background(255, 255, 255)` så blir det hvitt, 255 er det høyeste tallet vi kan velge. De forskjellige tallene står for `background(RØD, GRØNN, BLÅ)` og når vi endrer verdiene her, så blander vi fargene.
+-	På linje 1 og 4 har vi `{` og `}` disse krøllparentesene åpner og lukker metoden. Metoden inneholder all kode vi skriver mellom disse. 
 
 #
 Slik skal koden din se ut så langt, husk at tallene inni parentesene ikke nødvendigvis er like de du har, det betyr bare at du har annen størrelse på vinduet ditt, eller en annen bakgrunsfarge. 
 
-![](steg1.PNG)
+![](steg1.png)
 
 # Steg 2: Tegne med sirkel! {.activity}}
 
@@ -107,11 +107,11 @@ void draw(){
 
 Når du har prøvd litt forskjellig, så har vi laga til ei oppgave, forsøk å bytte bakgrunnsfarge, størrelse på vinduet, og fargen du tegner med slik at du også kan lage tegninger som ligner på de vi har laget under. Det kan være vanskelig å finne nøyaktig samme farge og størrelse, men en som ligner er godt nok!
 
-![](Gulsol.png "Gul sol, strekperson som soler seg")
+![](Gulsol.png)
 
-![](gronttre.PNG)
+![](gronttre.png)
 
-![](tofjes.PNG)
+![](tofjes.png)
 
 
 ## Forklaring av koden {.protip}
@@ -130,14 +130,6 @@ Lurer du på hvordan koden du har skrevet fungerer?
 	har prøvd før.
 
 #
-Til sist har vi lagt til et bilde av hele koden vår, så kan du se om din kode ligner på den vi har. Husk at tallene inni parentesene sikker er litt forskjellige fra de du har i din kode.
+Til sist har vi lagt til et bilde av hele koden vår, så kan du se om din kode ligner på den vi har. Husk at tallene inni parentesene sikkert er litt forskjellige fra de du har i din kode.
 
-![](helekoden.PNG)
-
-
-
-
-
-
-
-
+![](helekoden.png)
