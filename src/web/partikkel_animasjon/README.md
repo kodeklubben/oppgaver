@@ -10,7 +10,7 @@ I denne oppgaven skal vi bruke JavaScript til å få figurer vi å bevege seg. V
 Denne oppgaven er den første i en liten serie av andre `partikkel`-oppgaver, derfor er det viktig å forstå det som skjer i denne oppgaven.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Matematikk, programmering
+ __Fag__: Matematikk, programmering, informasjonsteknologi 2
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -30,6 +30,10 @@ __Tidsbruk__: Dobbeltime eller mer.
 - [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett er tekstbasert
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+
+- [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres funksjoner eller metoder med parametere
+- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av typene tekst, bilde, lyd, video og animasjoner
+- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i multimedieapplikasjoner
 
 
 ## Forslag til læringsmål {.challenge}
@@ -58,7 +62,7 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 
 # Generelt  {.activity}
 - [ ]  Bruk forklaringene under hvert steg i oppgaven. Disse forklarer de sentrale temaene og begrepene som blir brukt i oppgaven.
-- [ ] Pass på at syntaxen i JavaScript blir riktig underveis i oppgaven. 
+- [ ] Pass på at syntaxen i JavaScript blir riktig underveis i oppgaven.
 
 
 ## Variasjoner {.challenge}
@@ -66,7 +70,6 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
   - [ ] Prøve å få partikkelet til å gå rett frem
   - [ ] Få partikkelet til å gå rett ned
   - [ ] Få partikkelet til å gå baklengs
-- [ ] Får du til at partikkelet bytter til en tilfeldig farge hver gang den bytter posisjon? 
+- [ ] Får du til at partikkelet bytter til en tilfeldig farge hver gang den bytter posisjon?
 - [ ] Legg til flere partikler.
 - [ ] Bruk egen kreativitet til å lage en ny partikkel-animasjon
-
