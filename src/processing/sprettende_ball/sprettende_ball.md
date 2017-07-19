@@ -3,6 +3,10 @@ title: Sprettende ball
 level: 1
 author: Sigmund Hansen
 language: nb
+tags:
+    topic: [text_based, animation]
+    subject: [arts_and_crafts, mathematics, science, programming]
+    grade: [primary, secondary, junior, senior]
 ---
 
 # Introduksjon: {.intro}

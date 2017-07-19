@@ -3,6 +3,10 @@ title: Farger
 level: 1
 author: Sigmund Hansen
 language: nb
+tags:
+    topic: [text_based]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
