@@ -7,7 +7,7 @@ language: nb
 
 # Introduksjon: {.intro}
 
-Nå skal vi lage ett to player spill, hvor det det om å gjøre å dytte en figur ut av vinduet på motstanderen sin side. Soillet ser ganske enkelt ut, men du kan etterhvert pimpe det opp som du vil. Når du har kommet deg gjennom hele denne oppgava skal spillet ligne på det under. Du får bestemme farger og litt annet selv, så det kommer jo ann på hva du liker. 
+Nå skal vi lage ett spill hvor to personer skal spille mot hverandre. Vi har kalt det ToPlayer, men du kan kalle det hva du vil. Målet er å dytte en figur, eller en spillbrikke ut av vinduet på motstanderen sin side. Spillet ser ganske enkelt ut, men du kan etterhvert pimpe det opp som du vil. Når du har kommet deg gjennom hele denne oppgava skal spillet ligne på bilde under. Du får bestemme farger og litt annet selv, så det kommer jo ann på hva du liker. 
 
 ![](preview.png)
 
@@ -27,8 +27,6 @@ void setup(){
 - [ ] Sjekk at metodene fungerer ved å kjøre programmet. Klikk på pilen oppe til venstre for å gjøre det. 
 
 ![](play.png)
-
-
 
 Dersom programmet kjører og alt er i orden så vil det dukke opp et nytt bitte lite vindu på skjermen din. Dersom du fikk opp vinduet, så er det bare å gå videre til steg 2, dersom ikke, så har vi tatt ett bilde av koden så langt, sjekk at du har husket alle detaljene. 
 
@@ -147,7 +145,7 @@ if(keyPressed && key == 'a'){
 Denne koden skal gjøre slik at dersom man har trykka på en knapp og den knappen er `a`, så skal `x`, altså plasseringen til ellipsa vår, flytte seg 10 piksel lenger til høyre.
 
 ## Forklaring av if {.protip}
-En `if` setning sjekker om noe er sant. Dersom det er sant, så skjer det som står inni if setningen. En if setning er bygd opp av en test og så noe som blir utført:
+En `if` setning sjekker om noe er sant. Dersom det er sant, så skjer det som står inni if-setningen. En if-setning er bygd opp av en test og så noe som blir utført:
 
 ```processing
 if(test){
@@ -155,7 +153,7 @@ if(test){
 }
 ```
 
-If tester er lette å sette opp som muntlige setninger og så gjøre dem om til kode etter på, vi skriver det på samme måte som en ordentlig if setning, slik at det er lett å gjøre om til kode. Inni if setningen har vi kommet men noen eksempler.  
+If tester er lette å sette opp som muntlige setninger og så gjøre dem om til kode etter på, vi skriver det på samme måte som en ordentlig if-setning, slik at det er lett å gjøre om til kode. Inni if-setningen har vi kommet men noen eksempler.  
 
 ```processing
 Dersom ( et eller annet er sant) så skal dette skje{
@@ -164,10 +162,10 @@ Dersom ( et eller annet er sant) så skal dette skje{
 	noe flytter på seg, 
 }
 ```
-Noe som er vanlig å sjekke i en if setning er om man har trykka på en spesiell knapp, eller om datamuda er innenfor et bestemt område. Eller man kan sjekke hvor mange liv man har igjen, dersom det er 0, så kan man skrive "GAME OVER". 
+Noe som er vanlig å sjekke i en if-setning er om man har trykka på en spesiell knapp, eller om datamuda er innenfor et bestemt område. Eller man kan sjekke hvor mange liv man har igjen, dersom det er 0, så kan man skrive "GAME OVER". 
 
 #
-Når vi skriver if setningen vår med ord blir det slik:
+Når vi skriver if-setningen vår med ord blir det slik:
 
 ```processing
 Dersom (man trykker en knapp og knappen er 'a') så skal dette skje{
@@ -192,15 +190,15 @@ if(keyPressed && key == 'a'){
 ``` 
 
 ## Prøv dette {.check}
-- [ ] Skriv inn if setningen i `draw` metoden.
+- [ ] Skriv inn if-setningen i `draw` metoden.
 - [ ] Kjør programmet, trykk på `a`, hva skjer? 
 - [ ] Flytt kodelinja som setter bakgrunsfargen fra `setup` metoden til `draw` metoden. Putt den øverst inni draw.
 - [ ] Kjør programmet på nytt og se hva som skjer.
 - [ ] Bytt ut 10 tallet med ett annet tall.
 - [ ] Bytt ut `a` med en annen bokstav.
 - [ ] Flytt kodelinja som setter bakgrunnsfargen frem og tilbake mellom `setup` og `draw` noen ganger og se om du forstår hva som skjer. 
-- [ ] Forsøk nå å skrive en if setning til. Denne skal stå under den forrige, og nå kan du velge en annen bokstav. I stede for at `x` blir større, så må du skrive koden slik at `x` blir mindre. Dersom det  er litt vanskelig, så kan du forsøke å sette opp if setningen som en vanlig setning slik vi har vist i forklaringen over. 
-- [ ] Bytt ut tallet inni den nye if setningen, slik at du får ellipsa til å gå dobbelt så raskt til venstre.
+- [ ] Forsøk nå å skrive en if-setning til. Denne skal stå under den forrige, og nå kan du velge en annen bokstav. I stede for at `x` blir større, så må du skrive koden slik at `x` blir mindre. Dersom det  er litt vanskelig, så kan du forsøke å sette opp if-setningen som en vanlig setning slik vi har vist i forklaringen over. 
+- [ ] Bytt ut tallet inni den nye if-setningen, slik at du får ellipsa til å gå dobbelt så raskt til venstre.
 
 Dersom ikke koden din fungerer helt som den skal, så kan du sjekke her hva som er feil.
 
@@ -208,9 +206,9 @@ Dersom ikke koden din fungerer helt som den skal, så kan du sjekke her hva som 
 
 ## Steg 5: Vi trenger en vinner! {.activity}
 
-Vi trenger flere `if` setninger, disse skal skrive en beskjed på skjermen hvis en spiller vinner. Man vinner med å dytte ellipsen ut av skjermen.
+Vi trenger flere if-setninger, disse skal skrive en beskjed på skjermen hvis en spiller vinner. Man vinner med å dytte ellipsen ut av skjermen.
 
-Her er if setningen som trengs for å sjekke om venstre spiller har vunnet. Denne skal skrives under de to forrige if setningene:
+Her er if-setningen som trengs for å sjekke om venstre spiller har vunnet. Denne skal skrives under de to forrige if-setningene:
 
 ```processing
 	if(x > 800){
@@ -219,36 +217,17 @@ Her er if setningen som trengs for å sjekke om venstre spiller har vunnet. Denn
 ```
 
 ## Prøv dette {.check}
-- [ ] Skriv inn den nye if setningen.
+- [ ] Skriv inn den nye if-setningen.
 - [ ] Sjekk at programmet fungerer ved å få ellipsa ut av skjermen på høyre side. Da skal teksten vises.
 - [ ] Hva tror du skjer hvis du forandrer `800` tallet som står inni `(x > 800)` til ett annet tall?
 - [ ] Bytt ut `800` med noe mye mindre og vær sikker på at du forstår dette.
 - [ ] Hva skjer hvis du forandrer teksten "Høyre spiller har vunnet"
 - [ ] Finn ut hva tallene som står inni parentesene til `text` gjør ved å bytte dem ut.
-- [ ] Gjør størrelsen på vinduet ditt større og se hvordan det påvirker if setningen.
+- [ ] Gjør størrelsen på vinduet ditt større og se hvordan det påvirker if-setningen.
 - [ ] Still tilbake alle tallene, slik at teksten dukker opp på skjermen bare når spillbrikka er utav skjermen.
-- [ ] Lag en ny if setning som gjør nesten akkurat det samme, men som heller sjekker om ellipsa går ut av skjermen på venstre side. 
+- [ ] Lag en ny if-setning som gjør nesten akkurat det samme, men som heller sjekker om ellipsa går ut av skjermen på venstre side. 
 - [ ] Test at koden din fungerer. 
 
 Her er hele koden, sjekk om din er lik.
 
 ![](steg5.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
