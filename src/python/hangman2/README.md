@@ -12,7 +12,7 @@ I denne oppgaven  skal elevene bruk av enkle strengfunksjoner, lister, løkker o
 
 __Anbefalte trinn__: 8.-10. trinn
 
-__Tema__: Lister, løkker, dictionaries
+__Tema__: Lister, løkker, ordbøker
 
 __Tidsbruk__: Dobbelttime eller mer
 
@@ -30,7 +30,7 @@ __Tidsbruk__: Dobbelttime eller mer
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ]  Elevene kan forklare og bruke løkker, lister og dictioneries.
+- [ ]  Elevene kan forklare og bruke løkker, lister og ordbøker.
 - [ ]  Elevene kan forklare og bruke andres kode i egne prosjekter.
 - [ ]  Elevene kan utvikle og feilsøke programmer.
 
@@ -43,7 +43,11 @@ __Tidsbruk__: Dobbelttime eller mer
 
 
 ## Forutsetninger og utstyr {.challenge}
-- [ ]  __Forutsetninger__: Kjennskap til Python og enkelte strengfunksjoner (forklart under fremgangsmåter).
+- [ ]  __Forutsetninger__: Kjennskap til Python. I tillegg burde elevene ha gjort følgende oppgaver (eller være kjent med de ulike temaene og elementene): 
+  - [ ] [Hangman](../hangman/hangman.html){target=_blank}
+  - [ ] [PGZ løpende strekmann](../lopende_strekmann/lopende_strekmann.html){target=_blank}
+  - [ ] [Ordbøker](../ordboeker/ordboeker.html){target=_blank}
+  - [ ] [Tekst ABC](../tekst_abc/tekst_abc.html){target=_blank}
 
 - [ ]  __Utstyr__:  Datamaskiner med Python installert. Elevene kan gjerne jobbe to og to sammen.
 
@@ -51,34 +55,8 @@ __Tidsbruk__: Dobbelttime eller mer
 ## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../hangman2/hangman2.html){target=_blank}
 
-Elevene burde ha kjenneskap til følgende funksjoner og begreper:
-
-Strengfunksjoner:
-
-* `.join()`
-* `.replace()`
-* `.lower()`
-* `.count()`
-
-Løkker:
-
-* `for i in range(start, stop, step)`
-* `for element in lst`
-
-Lister:
-
-*  `list(text)`
-* `.remove()`
-* `.append()`
-* `lst[index]`
-
-Dictionaries:
-
-* `dct[key] = value`
-* `value = dct[key]`
-
 ## Variasjoner {.challenge}
 - [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 
 ## Eksterne ressurser {.challenge}
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Vi henviser til mange funksjoner i denne oppgaven, og dersom du ønsker å vite mer om hvordan de fungerer så anbefaler vi at du sjekker ut [Python sin dokumentasjon på nett](https://docs.python.org/3.6/)
