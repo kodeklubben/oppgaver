@@ -32,7 +32,8 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle multimedieapplikasjoner ved å kombinere egne og andres
 
 - [ ] __Informasjonsteknologi 2, VG3__: multimedieelementer av typene tekst, bilde, lyd, video og animasjoner
-bruke programmeringsspråk i multimedieapplikasjoner
+
+- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i multimedieapplikasjoner
 
 
 ## Forslag til læringsmål {.challenge}
