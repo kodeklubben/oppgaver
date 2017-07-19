@@ -8,7 +8,7 @@ level: 2
 I denne oppgaven skal du lære helt enkle og grunnleggende elementer av `JavaScript`. Du vil lære om `variabler`, `if-setninger`, `funksjoner` og `løkker`.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Matematikk, programmering
+ __Fag__: Matematikk, programmering, teknologi i praksis, informasjonsteknologi 2
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -23,7 +23,10 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Programmering, valgfag__: dokumentere og forklare programkode gjennom å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 - [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
-
+- [ ] __Informasjonsteknologi 2, VG2__: programmere med valg og gjentakelser
+- [ ] __Informasjonsteknologi 2, VG2__: definere variabler og velge hensiktsmessige datatyper
+- [ ] __Informasjonsteknologi 2, VG2__: tilordne uttrykk til variabler
+- [ ] __Informasjonsteknologi 2, VG2__: lage egne og bruke egne og andres funksjoner eller metoder med parametere
 
 ## Forslag til læringsmål {.challenge}
 
