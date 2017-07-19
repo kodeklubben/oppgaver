@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - PGZ Hangman
-level: 1 (samme som kategorisering på nettsiden)
+level: 4
 language: nb
 ---
 
@@ -43,7 +43,7 @@ __Tidsbruk__: Dobbelttime eller mer
 
 
 ## Forutsetninger og utstyr {.challenge}
-- [ ]  __Forutsetninger__: Kjennskap til Python og enkelte strengfunksjoner (forklar under fremgangsmåter).
+- [ ]  __Forutsetninger__: Kjennskap til Python og enkelte strengfunksjoner (forklart under fremgangsmåter).
 
 - [ ]  __Utstyr__:  Datamaskiner med Python installert. Elevene kan gjerne jobbe to og to sammen.
 
