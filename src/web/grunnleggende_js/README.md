@@ -10,7 +10,7 @@ I denne oppgaven skal du lære helt enkle og grunnleggende elementer av `JavaScr
 ## Oppgaven passer til: {.check}
  __Fag__: Matematikk, programmering, teknologi i praksis, informasjonsteknologi 2
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7. trinn - VG2
 
 __Tema__: JavaScript, løkker, if-setninger, funksjoner, variabeler
 
@@ -44,9 +44,6 @@ __Tidsbruk__: Dobbelttime
 
 - [ ]  Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 - [ ]  Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
-    - [ ] Eleven klarer å lage et stein-saks-papir-spill ved hjelp av løkker, if-setninger og variabeler. 
-    - [ ] Eleven klarer å bruke en dobbel for-løkke til å skrive ut den lille gangetabellen
-
 
 
 ## Forutsetninger og utstyr {.challenge}
