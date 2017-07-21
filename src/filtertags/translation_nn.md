@@ -4,34 +4,34 @@ topic:
   TAGS:
     app:
       NAME: App
-      TOOLTIP: Lag app'er til mobil og nettbrett.
+      TOOLTIP: Lag app-ar til mobil og nettbrett.
     electronics:
       NAME: Elektronikk
-      TOOLTIP: Programmering av dingser som Microbit, Arduino, Raspberry pi, Lego mindstorm m.m.
+      TOOLTIP: Programmering av dingsar som Microbit, Arduino, Raspberry Pi, Lego Mindstorms m.m.
     step_based:
       NAME: Stegbasert
-      TOOLTIP: Interaktive nett-baserte kurs som introduserer deg til nye konsepter steg for steg.
+      TOOLTIP: Interaktive nettbaserte kurs som introduserer deg til nye konsept steg for steg.
     block_based:
       NAME: Blokkbasert
-      TOOLTIP: Programmering med Blockly.
+      TOOLTIP: Programmering i eit blokkbasert programmeringsspråk.
     text_based:
       NAME: Tekstbasert
       TOOLTIP: Programmering med tekst.
     minecraft:
       NAME: Minecraft
-      TOOLTIP: Programmering av Minecraft.
+      TOOLTIP: Programmering i Minecraft.
     web:
       NAME: Nettside
       TOOLTIP: Lage nettsider.
     game:
-      NAME: Spill
-      TOOLTIP: Lage spill.
+      NAME: Spel
+      TOOLTIP: Lage spel.
     robot:
       NAME: Robot
-      TOOLTIP: Fysiske objekter som beveger seg.
+      TOOLTIP: Programmere fysiske objekt som rører på seg.
     animation:
       NAME: Animasjon
-      TOOLTIP: Lage grafikk som beveger seg, for eksempel tegnefilmer.
+      TOOLTIP: Lage grafikk som rører seg, til dømes teiknefilmar.
 subject:
   NAME: Fag
   TAGS:
@@ -47,10 +47,10 @@ subject:
       NAME: Musikk
     norwegian:
       NAME: Norsk
-    english
+    english:
       NAME: Engelsk
-    arts_and_crafts
-      NAME: Kunst og håndverk
+    arts_and_crafts:
+      NAME: Kunst og handverk
     social_science:
       NAME: Samfunnsfag
 grade:
@@ -58,17 +58,17 @@ grade:
   TAGS:
     preschool:
       NAME: Barnehage
-      TOOLTIP: Barn 3-5 år
+      TOOLTIP: Born 3-5 år
     primary:
       NAME: 1.-4. klasse
-      TOOLTIP: Barn 6-9 år
+      TOOLTIP: Born 6-9 år
     secondary:
       NAME: 5.-7. klasse
-      TOOLTIP: Barn 10-12 år
+      TOOLTIP: Born 10-12 år
     junior:
       NAME: 8.-10. klasse
       TOOLTIP: Ungdom 13-15 år
     senior:
-      NAME: Videregående skole
+      NAME: Vidaregåande skule
       NAME: Ungdom 16-18 år
 ---

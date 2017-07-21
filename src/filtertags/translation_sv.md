@@ -3,72 +3,72 @@ topic:
   NAME: Tema
   TAGS:
     app:
-      NAME: App
-      TOOLTIP: Lag app'er til mobil og nettbrett.
+      NAME: Appar
+      TOOLTIP: Laga appar til mobil och surfplatta.
     electronics:
-      NAME: Elektronikk
-      TOOLTIP: Programmering av dingser som Microbit, Arduino, Raspberry pi, Lego mindstorm m.m.
+      NAME: Elektronik
+      TOOLTIP: Programmering av apparater såsom Microbit, Arduino, Raspberry Pi, Lego Mindstorms m.m.
     step_based:
-      NAME: Stegbasert
-      TOOLTIP: Interaktive nett-baserte kurs som introduserer deg til nye konsepter steg for steg.
+      NAME: Stegbaserat
+      TOOLTIP: Interaktiv nät-baserad kurs som introducerar dig till nya koncept steg för steg.
     block_based:
-      NAME: Blokkbasert
-      TOOLTIP: Programmering med Blockly.
+      NAME: Blockbaserat
+      TOOLTIP: Programmering med blockbaserat programmeringsspräk.
     text_based:
-      NAME: Tekstbasert
-      TOOLTIP: Programmering med tekst.
+      NAME: Textbaserat
+      TOOLTIP: Programmering med text.
     minecraft:
       NAME: Minecraft
-      TOOLTIP: Programmering av Minecraft.
+      TOOLTIP: Programmering i Minecraft.
     web:
-      NAME: Nettside
-      TOOLTIP: Lage nettsider.
+      NAME: Nätsida
+      TOOLTIP: Lage nätsidor.
     game:
-      NAME: Spill
-      TOOLTIP: Lage spill.
+      NAME: Spel
+      TOOLTIP: Laga spel.
     robot:
       NAME: Robot
-      TOOLTIP: Fysiske objekter som beveger seg.
+      TOOLTIP: Programmera fysiska objekt som rör på sig.
     animation:
-      NAME: Animasjon
-      TOOLTIP: Lage grafikk som beveger seg, for eksempel tegnefilmer.
+      NAME: Animation
+      TOOLTIP: Laga grafik som rör på seg, for eksempel tecknad film.
 subject:
-  NAME: Fag
+  NAME: Ämne
   TAGS:
     mathematics:
-      NAME: Matematikk
+      NAME: Matematik
     science:
-      NAME: Naturfag
+      NAME: Naturkunskap
     programming:
       NAME: Programmering
     technology:
       NAME: Teknologi
     music:
-      NAME: Musikk
+      NAME: Musik
     norwegian:
-      NAME: Norsk
-    english
-      NAME: Engelsk
-    arts_and_crafts
-      NAME: Kunst og håndverk
+      NAME: Norska
+    english:
+      NAME: Engelska
+    arts_and_crafts:
+      NAME: Slöjd
     social_science:
-      NAME: Samfunnsfag
+      NAME: Samhällskunskap
 grade:
-  NAME: Klassetrinn
+  NAME: Årskurs
   TAGS:
     preschool:
-      NAME: Barnehage
-      TOOLTIP: Barn 3-5 år
+      NAME: Dagis
+      TOOLTIP: Barn 3-6 år
     primary:
-      NAME: 1.-4. klasse
-      TOOLTIP: Barn 6-9 år
+      NAME: 1.-3. klass
+      TOOLTIP: Barn 7-9 år
     secondary:
-      NAME: 5.-7. klasse
+      NAME: 4.-6. klass
       TOOLTIP: Barn 10-12 år
     junior:
-      NAME: 8.-10. klasse
+      NAME: 7.-9. klass
       TOOLTIP: Ungdom 13-15 år
     senior:
-      NAME: Videregående skole
-      NAME: Ungdom 16-18 år
+      NAME: gymnasie skola
+      TOOLTIP: Ungdom 16-18 år
 ---

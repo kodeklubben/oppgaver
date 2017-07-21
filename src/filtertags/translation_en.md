@@ -7,7 +7,7 @@ topic:
       TOOLTIP: Create apps for mobiles and tablets.
     electronics:
       NAME: Electronics
-      TOOLTIP: Program devices such as Microbit, Arduino, Raspberry pi, and Lego mindstorm.
+      TOOLTIP: Program devices such as Microbit, Arduino, Raspberry Pi, and Lego Mindstorms.
     step_based:
       NAME: Step based
       TOOLTIP: Interactive web-based courses that introduces you to new concepts one step at a time.
@@ -47,9 +47,9 @@ subject:
       NAME: Music
     norwegian:
       NAME: Norwegian
-    english
+    english:
       NAME: English
-    arts_and_crafts
+    arts_and_crafts:
       NAME: Arts and crafts
     social_science:
       NAME: Social science

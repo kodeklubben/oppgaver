@@ -1,8 +1,8 @@
 ---
 topic: #Logical AND
-  - app         #Tasks for making apps to mobiles and tablets such as appinventor and swift
-  - electronics #Includes external devices such as Microbit, Arduino, Raspberry pi, Lego mindstorm.
-  - step_based  #Interactive web-based courses that guides you through small concepts/tasks one step at the time. Such as code.org sessions by Khan Academy and Codecademy.
+  - app         #Tasks for making apps to mobiles and tablets such as App Inventor and Swift
+  - electronics #Includes external devices such as Microbit, Arduino, Raspberry Pi, Lego Mindstorms.
+  - step_based  #Interactive web-based courses that guides you through small concepts/tasks one step at the time. Such as code.org sessions or similar by Khan Academy and Codecademy.
   - block_based #Programming-language based on Blockly
   - text_based  #Programming-language based on text
   - minecraft   #Minecraft-related tasks

@@ -7,19 +7,19 @@ topic:
       TOOLTIP: Lag app'er til mobil og nettbrett.
     electronics:
       NAME: Elektronikk
-      TOOLTIP: Programmering av dingser som Microbit, Arduino, Raspberry pi, Lego mindstorm m.m.
+      TOOLTIP: Programmering av dingser som Microbit, Arduino, Raspberry Pi, Lego Mindstorms m.m.
     step_based:
       NAME: Stegbasert
       TOOLTIP: Interaktive nett-baserte kurs som introduserer deg til nye konsepter steg for steg.
     block_based:
       NAME: Blokkbasert
-      TOOLTIP: Programmering med Blockly.
+      TOOLTIP: Programmering i et blokkbasert programmeringsspråk.
     text_based:
       NAME: Tekstbasert
       TOOLTIP: Programmering med tekst.
     minecraft:
       NAME: Minecraft
-      TOOLTIP: Programmering av Minecraft.
+      TOOLTIP: Programmering i Minecraft.
     web:
       NAME: Nettside
       TOOLTIP: Lage nettsider.
@@ -28,7 +28,7 @@ topic:
       TOOLTIP: Lage spill.
     robot:
       NAME: Robot
-      TOOLTIP: Fysiske objekter som beveger seg.
+      TOOLTIP: Programmere fysiske objekter som beveger seg.
     animation:
       NAME: Animasjon
       TOOLTIP: Lage grafikk som beveger seg, for eksempel tegnefilmer.
@@ -47,9 +47,9 @@ subject:
       NAME: Musikk
     norwegian:
       NAME: Norsk
-    english
+    english:
       NAME: Engelsk
-    arts_and_crafts
+    arts_and_crafts:
       NAME: Kunst og håndverk
     social_science:
       NAME: Samfunnsfag
