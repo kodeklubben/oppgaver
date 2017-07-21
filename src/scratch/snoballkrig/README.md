@@ -40,7 +40,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
 # Fremgangsmåte
-[Klikk her for å se oppgaveteksten.](../OPPGAVE/OPPGAVE.html){target=_blank}
+[Klikk her for å se oppgaveteksten.](../snoballkrig/snoballkrig.html){target=_blank}
 _Det kan være en utfordring for mange elever å lage koden. Under følger et eksempel på hvordan koden kan se ut under de forskjellige elementene._
 
 # Scene {.activity}
