@@ -12,18 +12,18 @@ I denne oppgaven skal vi lage et enkelt spill som kalles gjetteleken. Målet er 
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: IT2, Programmering
+ __Fag__: Programmering, informasjonsteknologi 2
 
- __Anbefalte trinn__: 8.-10. trinn 
+ __Anbefalte trinn__: 7. trinn - VG2
 
- __Tema__: Brukerinteraksjon, Spill, Tilfeldig, while-setninger, funksjoner
+ __Tema__: Brukerinteraksjon, løkker,  Spill, Tilfeldig, while-setninger, funksjoner
 
  __Tidsbruk__: Enkelttime
 
 
 ## Kompetansemål {.challenge}
 
- - [ ] __IT2, VG3. trinn__: teste og finne feil i programmer ved å bruke vanlige teknikker
+ - [ ] __IT2, VG3__ : teste og finne feil i programmer ved å bruke vanlige teknikker
 
  - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert
  
