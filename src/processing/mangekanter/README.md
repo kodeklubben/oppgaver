@@ -5,7 +5,7 @@ language: nb
 ---
 
 # Om oppgaven {.activity}
-I denne oppgaven skal elevene bruke ulike teknikker i Processing. Først skal de tegne en ball (en sirkel), så få den til å bevege seg slik at det ser ut som den spretter på skjermen.
+I denne oppgaven skal elevene bruke ulike teknikker i Processing. Først skal de ta utgangspunkt i en [sprettende ball](../sprettende_ball/sprettende_ball.html){target=_blank}, og bytte ut ballen med andre geometriske figurer (mangekanter). Elevene skal eksperimentere med ulike egenskaper for mangekantene.
 
 ## Oppgaven passer til: {.check}
  __Fag__: Kunst og håndtverk, matematikk, programmering.
