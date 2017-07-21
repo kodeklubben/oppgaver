@@ -47,12 +47,12 @@ __Tidsbruk__: Dobbelttime eller mer
 
 
 ## Fremgangsmåte
-Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../tre_på_rad/tre_pa_rad.html){target=_blank}
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../tre_pa_rad/tre_pa_rad.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
 ## Variasjoner {.challenge}
-- [ ]  Elevene kan videreutvikle spillet til å [spille mot datamaskinen](../tre_pa_rad_mot_datamaskinen/tre_pa_rad_mot_datamaskinen.html). 
+- [ ]  Elevene kan videreutvikle spillet til å [spille mot datamaskinen](../tre_pa_rad_mot_datamaskinen/tre_pa_rad_mot_datamaskinen.html).
 
 ## Eksterne ressurser {.challenge}
 - [ ] Foreløpig ingen eksterne ressurser...
