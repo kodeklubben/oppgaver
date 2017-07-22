@@ -1,4 +1,4 @@
-----
+---
 title: Lærerveiledning - Stjerner og galakser
 level: 2
 language: nb
@@ -7,14 +7,14 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi se nærmere på hvordan funkjoner kan gjøre programmene vi skriver enklere og mer oversiktlige. Spesielt så skal vi se hvordan if-setninger kan brukes til å tegne stjerner og galakser. 
+I denne oppgaven skal vi se nærmere på hvordan funkjoner kan gjøre programmene vi skriver enklere og mer oversiktlige. Spesielt så skal vi se hvordan if-setninger kan brukes til å tegne stjerner og galakser.
 
 
 ## Oppgaven passer til: {.check}
 
  __Fag__: Programmering
 
- __Anbefalte trinn__: 8.-10. trinn 
+ __Anbefalte trinn__: 8.-10. trinn
 
  __Tema__: Funksjoner, if-setninger, Skilpadder
 
@@ -38,7 +38,7 @@ I denne oppgaven skal vi se nærmere på hvordan funkjoner kan gjøre programmen
 
 - [ ] Elevene kan forklare hvordan en `if-setning` fungerer og er i stand til å sette sammen flere slike
 
-- [ ] Elevene kan forklare hva en funksjon er og skrive enkle funksjoner selv. 
+- [ ] Elevene kan forklare hva en funksjon er og skrive enkle funksjoner selv.
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -46,7 +46,7 @@ I denne oppgaven skal vi se nærmere på hvordan funkjoner kan gjøre programmen
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
- 
+
 
 ## Forutsetninger og utstyr {.challenge}
 
