@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Helge Astad
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [block_based, game]
+    subject: [arts_and_crafts, mathematics, science, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

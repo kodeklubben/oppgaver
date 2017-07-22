@@ -1,7 +1,5 @@
 ---
 title: CodeStudio
-tags:
-  tema: [interaktiv]
 language: nb
 ---
 

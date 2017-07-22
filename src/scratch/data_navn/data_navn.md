@@ -3,6 +3,10 @@ title: "Bruk data: Jente- og guttenavn"
 level: 2
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based]
+    subject: [mathematics, norwegian]
+    grade: [primary, secondary]
 ---
 
 # Introduksjon {.intro}

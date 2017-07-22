@@ -1,6 +1,5 @@
 ---
 title: Kommandolinje
-tags:
 language: nb
 ---
 
