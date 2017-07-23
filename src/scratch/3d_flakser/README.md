@@ -5,7 +5,7 @@ language: nb
 ---
 
 # Om oppgaven {.activity}
-I dette prosjektet skal vi lage en versjon av [Flaksefugl](../Flaksefugl/flaksefugl.html){target=_blank} (som er en kopi av Flappy Bird) i __tre dimensjoner__! Spillet går ut på at du styrer en flyvende figur gjennom ringer som kommer mot deg. Du må styre figuren opp og ned og side til side. Hovedutfordringen i dette spillet er å få det til å virke som om ringene faktisk kommer mot flakseren, og så forsvinner forbi. Prosjektet er delt inn i to deler, siden det er et omfattende prosjekt. Første del går ut på å få ringene til å fungere som de skal. Andre del handler om å få Flakse til å flakse som en fugl, snu seg i luften etter piltastene og gi poeng når Flakse flyr gjennom en ring.
+I dette prosjektet skal vi lage en versjon av [Flaksefugl](../flaksefugl/flaksefugl.html){target=_blank} (som er en kopi av Flappy Bird) i __tre dimensjoner__! Spillet går ut på at du styrer en flyvende figur gjennom ringer som kommer mot deg. Du må styre figuren opp og ned og side til side. Hovedutfordringen i dette spillet er å få det til å virke som om ringene faktisk kommer mot flakseren, og så forsvinner forbi. Prosjektet er delt inn i to deler, siden det er et omfattende prosjekt. Første del går ut på å få ringene til å fungere som de skal. Andre del handler om å få Flakse til å flakse som en fugl, snu seg i luften etter piltastene og gi poeng når Flakse flyr gjennom en ring.
 
 ![](3d_flakser.png)
 
@@ -39,7 +39,7 @@ __Tidsbruk__: Hver av de to delene passer til en dobbelttime, eller som del av e
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
-- [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven. Det kan være en fordel å ha gjort prosjektet [Flaksefugl](../Flaksefugl/flaksefugl.html){target=_blank} først.
+- [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven. Det kan være en fordel å ha gjort prosjektet [Flaksefugl](../flaksefugl/flaksefugl.html){target=_blank} først.
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
 
 # Fremgangsmåte
