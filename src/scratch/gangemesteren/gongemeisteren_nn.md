@@ -24,7 +24,7 @@ Me skal etterkvart laga eit spel der me får tilfeldige spørsmål frå gongetab
 
 - [ ] Start eit nytt prosjekt og slett kattefiguren.
 
-- [ ] Legg til ein ny figur ved å klikke på ![Velg figur frå biblioteket](../bilder/hent-frå-bibliotek.png). Velg ein av _Wizard_-figurane mest heilt nederst i `Menneske`-kategorien. Kall figuren `Læreimester`.
+- [ ] Legg til ein ny figur ved å klikke på ![Velg figur frå biblioteket](../bilder/hent-fra-bibliotek.png). Velg ein av _Wizard_-figurane mest heilt nederst i `Menneske`-kategorien. Kall figuren `Læreimester`.
 
 - [ ] Me skal nå bruka `tilfeldig tal`{.blockoperators}-klossar slik at `Læremeister` kan spørje oss om tilfeldige gongestykker. Skriv dette skriptet:
 
