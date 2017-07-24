@@ -8,9 +8,9 @@ language: nb
  I denne oppgaven skal elevene ta utgangspunkt i animasjonen de lagde i  oppgaven [Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html). Dersom elevene ikke har gjort denne oppgaven anbefaler vi å gå tilbake å gjøre denne før elevene fortsetter her. Oppgaven her går ut på å legge til gravitasjon på `Partikkel`-objektet.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering, Matematikk
+ __Fag__: Programmering, Matematikk, Informasjonsteknologi 2
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7. trinn - VG3
 
 __Tema__: Web, JavaScript, animasjon, gravitasjon, variabler, løkker, if-setninger, koordinatsystemet
 
@@ -19,9 +19,13 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
-- [ ]  __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse.
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem.
+- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+- [ ]  __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse
+- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres funksjoner eller metoder med parametere
+- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av typene tekst, bilde, lyd, video og animasjoner
+- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i multimedieapplikasjoner
+- [ ] __Informasjonsteknologi 2, VG3__: programmere med valg og gjentakelser
 
 ## Forslag til læringsmål {.challenge}
 

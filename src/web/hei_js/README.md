@@ -8,9 +8,9 @@ Level: 2
 I denne oppgaven blir du introdusert for programmeringsspråket JavaScript. Du skal gjøre den klassiske oppgaven _Hei verden_, med en katt.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering, informasjonsteknologi 2
+ __Fag__: Programmering, Informasjonsteknologi 2
 
-__Anbefalte trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8. trinn - VG3
 
 __Tema__: JavaScript, web, html, funksjoner, variabler
 

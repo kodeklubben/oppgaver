@@ -8,9 +8,9 @@ language: nb
 Målet med denne oppgaven er å lære hvordan man kan organisere en nettside ved å dele den inn med forskjellige tagger. Dersom elevene ikke er kjent med tagg-strukturen i HTML som vi har sett på de tidligere oppgaven, så anbefaler jeg at elevene går tilbake og ser på disse. Vi skal også se på hvordan vi kan sette farge på de forskjellige taggene ved hjelp av CSS, men vi kommer ikke til å gå i dybden av CSS i denne oppgaven.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering, Teknologi i praksis
+ __Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1
 
-__Anbefalte trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8. trinn - VG2
 
 __Tema__: Web, HTML, CSS
 
@@ -23,6 +23,14 @@ __Tidsbruk__: Dobbeltime
 - [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
 - [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
+
+- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
+
+- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for nettsteder
+
+- [ ] __Informasjonsteknologi 1, VG2__: planlegge nettsteder som inneholder multimediekomponenter
+
+- [ ] __Informasjonsteknologi 1, VG2__: utvikle nettsteder i henhold til planer og vurdere om krav til brukergrensesnitt er oppfylt
 
 ## Forslag til læringsmål {.challenge}
 

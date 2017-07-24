@@ -12,7 +12,7 @@ Denne oppgaven bygger på forrige oppgave, [CSS: Style nettsider](../style_netts
 ## Oppgaven passer til: {.check}
  __Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1
 
-__Anbefalte trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8. trinn - VG2
 
 __Tema__: HTML, CSS, web, fonter, klasser, id
 

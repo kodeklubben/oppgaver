@@ -10,7 +10,7 @@ I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS.
 ## Oppgaven passer til: {.check}
  __Fag__: Kunst og håndverk, matematikk, programmering, informasjonsteknologi 2
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7.trinn - VG3
 
 __Tema__: Animasjon, web, html, css
 

@@ -10,9 +10,9 @@ I denne oppgaven skal vi bruke JavaScript til å få figurer vi å bevege seg. V
 Denne oppgaven er den første i en liten serie av andre `partikkel`-oppgaver, derfor er det viktig å forstå det som skjer i denne oppgaven.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Matematikk, programmering, informasjonsteknologi 2
+ __Fag__: Matematikk, Programmering, Informasjonsteknologi 2
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7. trinn - VG3
 
 __Tema__: JavaScript, HTML, CSS, web, objektorientering, variabler, canvas, funksjoner
 
@@ -32,8 +32,12 @@ __Tidsbruk__: Dobbeltime eller mer.
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
 - [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres funksjoner eller metoder med parametere
+
 - [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av typene tekst, bilde, lyd, video og animasjoner
+
 - [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i multimedieapplikasjoner
+
+- [ ] __Informasjonsteknologi 2, VG3__: programmere med valg og gjentakelser
 
 
 ## Forslag til læringsmål {.challenge}

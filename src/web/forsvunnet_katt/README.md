@@ -10,7 +10,7 @@ Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i 
 ## Oppgaven passer til: {.check}
  __Fag__: Norsk, Programmering, Teknologi i praksis, Informasjonsteknologi 1
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7. trinn - VG2
 
 __Tema__: HTML, css, web, dokumentasjon
 

@@ -8,9 +8,9 @@ language: nb
 I denne oppgaven skal elevene lære hvordan de kan flytte rundt på elementer og gjemme elementene bak andre elementer ved hjelp av CSS.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering, Teknologi i praksis, Matematikk, Kunst og håndverk
+ __Fag__: Programmering, Teknologi i praksis, Matematikk, Kunst og håndverk, Informasjonsteknologi 1
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7. trinn - VG2
 
 __Tema__: Web, CSS, HTML, koordinater
 
@@ -31,6 +31,9 @@ __Tidsbruk__: Dobbeltime
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke fargekontraster, forminsking og sentralperspektiv for å gi illusjon av rom i bilder både med og uten digitale verktøy.
 
+- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
+
+- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for nettsteder
 
 ## Forslag til læringsmål {.challenge}
 

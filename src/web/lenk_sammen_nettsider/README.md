@@ -10,9 +10,9 @@ I denne oppgaven må elevene bruke det de har lært til nå for å lage 3 nettsi
 Denne siden linker til 2 nye sider som linker tilbake igjen til ulv.no igjen. I denne oppgaven skal elevene gjøre det samme bare at alle sidene skal lenke til hverandre.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering, Teknologi i praksis
+ __Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1
 
-__Anbefalte trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8. trinn - VG2
 
 __Tema__: Web, HTML, CSS
 
@@ -27,8 +27,13 @@ __Tidsbruk__: Dobbeltime
 
 - [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å generalisere og tilpasse eksisterende programkode og algoritmer.
 
-- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design 
+- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 
+- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
+
+- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for nettsteder
+
+- [ ] __Informasjonsteknologi 1, VG2__: planlegge nettsteder som inneholder multimediekomponenter
 
 ## Forslag til læringsmål {.challenge}
 

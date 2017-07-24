@@ -11,9 +11,9 @@ Oppgaven henter ideer fra utvikling av web-applikasjoner med bibliotek som [Reac
 
 
 ## Oppgaven passer til: {.check}
- __Fag__: Matematikk, programmering
+ __Fag__: Matematikk, Programmering, Informasjonsteknologi 2
 
-__Trinn__: 4.-10. trinn
+__Trinn__: 4. trinn - VG3
 
 __Tema__: JavaScript, web, variabler, closures, objektsorientering, objekter, funksjoner, HTML, CSS
 
@@ -36,6 +36,19 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å generalisere og tilpasse eksisterende programkode og algoritmer.
 
+- [ ] __Informasjonsteknologi 2, VG3__: utvikle og sette sammen delprogrammer
+
+- [ ] __Informasjonsteknologi 2, VG3__: definere variabler og velge hensiktsmessige datatyper
+
+- [ ] __Informasjonsteknologi 2, VG3__: tilordne uttrykk til variabler
+
+- [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres funksjoner eller metoder med parametere
+
+- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av typene tekst, bilde, lyd, video og animasjoner
+
+- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i multimedieapplikasjoner
+
+- [ ] __Informasjonsteknologi 2, VG3__: programmere med valg og gjentakelser
 
 ## Forslag til læringsmål {.challenge}
 

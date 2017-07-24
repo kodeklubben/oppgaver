@@ -10,7 +10,7 @@ I denne oppgaven skal elevene bruke HTML-tags til å lage sin første hjemmeside
 ## Oppgaven passer til: {.check}
  __Fag__: Programmering, teknologi i praksis, informasjonsteknologi 1
 
-__Anbefalte trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8. trinn - VG3
 
 __Tema__: HTML, web,
 
