@@ -10,7 +10,7 @@ I denne oppgaven skal elevene bruke HTML-tags til å lage sin første hjemmeside
 ## Oppgaven passer til: {.check}
  __Fag__: Programmering, teknologi i praksis, informasjonsteknologi 1
 
-__Anbefalte trinn__: 8. trinn - VG3
+__Anbefalte trinn__: 8. trinn - VG2
 
 __Tema__: HTML, web,
 
@@ -21,8 +21,8 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
 - [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
-- [ ] __Informasjonsteknologi 2, VG2__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
-- [ ] __Informasjonsteknologi 2, VG2__: organisere og begrunne filstrukturen for nettsteder
+- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
+- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for nettsteder
 
 ## Forslag til læringsmål {.challenge}
 
