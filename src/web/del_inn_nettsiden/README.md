@@ -20,37 +20,37 @@ __Tidsbruk__: Dobbeltime
 ## Kompetansemål {.challenge}
 
 
-- [ ]  __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
+- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Eleven kan bruke grunnleggende HTML-tags til å dele inn en nettside.
-- [ ] Eleven kan bruke grunnleggende CSS til å sette forskjellig stil på forskjellige deler av nettsiden. 
+- [ ] Eleven kan bruke grunnleggende CSS til å sette forskjellig stil på forskjellige deler av nettsiden.
 
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Grunnleggende HTML og CSS.
 
-- [ ]  __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy. 
+- [ ]  __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy.
 
 
 # Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../del_inn_nettsiden/del_inn_nettsiden.html){target=_blank}
 
 # Generelt {.activity}
-- [ ] Denne oppgaven er lagt opp slik at elevene må tenke litt selv og finne ut av ting på egen hånd. Dette gjør at elevene ikke bare kan kopiere kode, men må skrive den selv. Elevene vil få hint underveis, sammen med et forslag til koden så langt. De flinkeste elevene vil kanskje bare se på resultatet og programmere på seg frem til resultatet uten å bruke oppskriften. 
+- [ ] Denne oppgaven er lagt opp slik at elevene må tenke litt selv og finne ut av ting på egen hånd. Dette gjør at elevene ikke bare kan kopiere kode, men må skrive den selv. Elevene vil få hint underveis, sammen med et forslag til koden så langt. De flinkeste elevene vil kanskje bare se på resultatet og programmere på seg frem til resultatet uten å bruke oppskriften.
 
 ## Variasjoner {.challenge}
 - [ ] Eleven kan lage eget nettsted med eget design.
-- [ ] Eleven kan gå tilbake til tidligere arbeid for gjøre om stilen og HTML-strukturen for å gjøre arbeidet mer strukturert. 
+- [ ] Eleven kan gå tilbake til tidligere arbeid for gjøre om stilen og HTML-strukturen for å gjøre arbeidet mer strukturert.
 
 ## Eksterne ressurser {.challenge}
 - [ ] Foreløpig ingen eksterne ressurser ...

@@ -5,7 +5,7 @@ language: nb
 ---
 
 # Om oppgaven {.activity}
-I denne oppgaven skal elevene lage sin egen nettside ved hjelp av alt de har lært hittil. 
+I denne oppgaven skal elevene lage sin egen nettside ved hjelp av alt de har lært hittil.
 
 ## Oppgaven passer til: {.check}
  __Fag__: Programmering, Teknologi i praksis
@@ -14,29 +14,29 @@ __Anbefalte trinn__: 8.-10. trinn
 
 __Tema__: Web, HTML, CSS, JavaScript
 
-__Tidsbruk__: Dobbeltime eller mer. 
+__Tidsbruk__: Dobbeltime eller mer.
 
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett er tekstbasert.
+- [ ]  __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert.
 
-- [ ]  __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
+- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
 
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
+- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
 
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Eleven kan bruke HTML til å bygge en god struktur for en nettside.
 - [ ] Eleven kan bruke CSS til å utforme nettsiden.
-- [ ] Eleven kan bruke JavaScript til å gjøre nettsiden dynamisk. 
+- [ ] Eleven kan bruke JavaScript til å gjøre nettsiden dynamisk.
 
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 
 ## Forutsetninger og utstyr {.challenge}

@@ -19,11 +19,11 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett er tekstbasert.
+- [ ]  __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert.
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
 
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
+- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem.
 
@@ -34,15 +34,15 @@ __Tidsbruk__: Dobbeltime
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Eleven kan bruke CSS til å plassere bilder i x-,y- og z-retning. 
+- [ ] Eleven kan bruke CSS til å plassere bilder i x-,y- og z-retning.
     - [ ] Eleven kan bruke CSS for å plassere elementer bak andre elementer (z-retning)
-- [ ] Eleven kan bruke `id` i HTML-tags for å manipulere forskjellige elementer ved hjelp av CSS. 
+- [ ] Eleven kan bruke `id` i HTML-tags for å manipulere forskjellige elementer ved hjelp av CSS.
 
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 
 ## Forutsetninger og utstyr {.challenge}

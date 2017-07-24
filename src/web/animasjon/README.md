@@ -25,9 +25,9 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
 
-- [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett er tekstbasert
+- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
 - [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle multimedieapplikasjoner ved å kombinere egne og andres
 

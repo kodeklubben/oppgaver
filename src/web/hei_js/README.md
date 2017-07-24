@@ -19,9 +19,9 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
 
-- [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett er tekstbasert
+- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert
 
 - [ ] __Informasjonsteknologi 2, VG3__: definere variabler og velge hensiktsmessige datatyper
 
@@ -34,7 +34,7 @@ __Tidsbruk__: Enkelttime
 
 - [ ] Eleven kan lage enkle funksjoner i JavaScript.
 - [ ] Eleven kan skrive ut til konsoll i en nettleser.
-- [ ] Eleven kan beskrive å bruke variabler og parametre. 
+- [ ] Eleven kan beskrive å bruke variabler og parametre.
 - [ ] Eleven kan bruke HTML sammen med JavaScript.
 
 ## Forslag til vurderingskriterier {.challenge}

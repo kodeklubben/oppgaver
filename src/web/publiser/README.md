@@ -19,10 +19,10 @@ __Tidsbruk__: Dobbeltime
 
 
 ## Kompetansemål {.challenge}
-- [ ] __Programmering, valgfag__: gjøre rede for hvordan datamaskiner og programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og deres bruksområder
-- [ ]  __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
-- [ ] __ Teknologi i praksis, valgfag__: demonstrere riktig bruk av utvalde verktøy
-- [ ] __ Teknologi i praksis, valgfag__: framstille produktet med eigna materiale, komponentar, og funksjonelle teknologiske løysingar
+- [ ] __Programmering, 10. trinn__: gjøre rede for hvordan datamaskiner og programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og deres bruksområder
+- [ ]  __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
+- [ ] __Teknologi i praksis, 10. trinn__: demonstrere riktig bruk av utvalde verktøy
+- [ ] __Teknologi i praksis, 10. trinn__: framstille produktet med eigna materiale, komponentar, og funksjonelle teknologiske løysingar
 
 
 ## Forslag til læringsmål {.challenge}
@@ -33,13 +33,13 @@ __Tidsbruk__: Dobbeltime
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Kjennskap til HTML, CSS og JavaScript. Har en gyldig epost-adresse.
 
-- [ ]  __Utstyr__: Datamaskin med internett og teksteditor. 
+- [ ]  __Utstyr__: Datamaskin med internett og teksteditor.
 
 
 # Fremgangsmåte

@@ -19,8 +19,8 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
+- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 - [ ] __Informasjonsteknologi 2, VG2__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
 - [ ] __Informasjonsteknologi 2, VG2__: organisere og begrunne filstrukturen for nettsteder
 
@@ -31,7 +31,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 - [ ] Elevene klarer å tolke en feil dersom elevene har skrevet feil HTML-tag.
 - [ ] Elevene klarer å lenke to sider sammen.
 - [ ] Elevene klarer å se at en nettside er bygget opp av HTML.
-- [ ] Elevene kan organisere enkel filstruktur til et nettsted. 
+- [ ] Elevene kan organisere enkel filstruktur til et nettsted.
 
 
 ## Forslag til vurderingskriterier {.challenge}

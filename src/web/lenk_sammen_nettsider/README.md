@@ -21,30 +21,30 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
-- [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett er tekstbasert
+- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert
 
-- [ ] __Programmering, valgfag__: overføre løsninger til nye problemer ved å generalisere og tilpasse eksisterende programkode og algoritmer.
+- [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å generalisere og tilpasse eksisterende programkode og algoritmer.
 
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design 
+- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design 
 
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ]  Eleven kan bruke HTML til å lenke sammen 3 nettsider. 
+- [ ]  Eleven kan bruke HTML til å lenke sammen 3 nettsider.
 - [ ] Eleven kan bruke HTML og CSS sammen for å designe egen nettside.
-- [ ] Eleven kan lenke sammen nye nettsider med arbeid de har gjort tidligere. 
+- [ ] Eleven kan lenke sammen nye nettsider med arbeid de har gjort tidligere.
 
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 
 ## Forutsetninger og utstyr {.challenge}
-- [ ]  __Forutsetninger__: Kjennskap til HTML og CSS. Anbefalt å gjøre oppgaven [Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html) først. 
+- [ ]  __Forutsetninger__: Kjennskap til HTML og CSS. Anbefalt å gjøre oppgaven [Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html) først.
 
 - [ ]  __Utstyr__: Datamaskin med internett og tesktbehandlingsprogram.
 
@@ -53,8 +53,8 @@ __Tidsbruk__: Dobbeltime
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../lenk_sammen_nettsider/lenk_sammen_nettsider.html){target=_blank}
 
 # Generelt {.activity}
-- [ ]  Oppgaven er åpent, men med muligheter for å se hint og eksempler på kode. Elevene må derfor tenke selv og prøve seg frem for å komme til en løsning. 
-- [ ] Ofte lenker elever bare fra én side til to sider og glemmer å lenke alle til alle. Dette oppdages ofte fort, og det er enkelt å teste ved å klikke på alle linkene og se om du kan navigere deg til alle nettsidene. 
+- [ ]  Oppgaven er åpent, men med muligheter for å se hint og eksempler på kode. Elevene må derfor tenke selv og prøve seg frem for å komme til en løsning.
+- [ ] Ofte lenker elever bare fra én side til to sider og glemmer å lenke alle til alle. Dette oppdages ofte fort, og det er enkelt å teste ved å klikke på alle linkene og se om du kan navigere deg til alle nettsidene.
 
 
 ## Variasjoner {.challenge}

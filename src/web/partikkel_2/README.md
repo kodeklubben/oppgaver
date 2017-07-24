@@ -20,9 +20,9 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
+- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
 
-- [ ]  __Programmering, valgfag__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse.
+- [ ]  __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse.
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem.
 
@@ -40,7 +40,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 
 ## Forutsetninger og utstyr {.challenge}
@@ -53,10 +53,10 @@ __Tidsbruk__: Dobbeltime eller mer.
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../partikkel_2/partikkel_2.html){target=_blank}
 
 # Generelt {.activity}
-- [ ] Denne oppgaven krever at elevene leser oppgaven og forklaringen nøye og prøver litt selv før de evt får løsningen. Her kan det være lurt å jobbe to-og-to slik at de har noen å diskutere med. 
+- [ ] Denne oppgaven krever at elevene leser oppgaven og forklaringen nøye og prøver litt selv før de evt får løsningen. Her kan det være lurt å jobbe to-og-to slik at de har noen å diskutere med.
 
 ## Variasjoner {.challenge}
-- [ ]  Elevene kan lage objekter i forskjellige farger slik at det blir en _regnbue-fest_. 
+- [ ]  Elevene kan lage objekter i forskjellige farger slik at det blir en _regnbue-fest_.
 
 ## Eksterne ressurser {.challenge}
 - [ ] Foreløpig ingen eksterne ressurser ...
