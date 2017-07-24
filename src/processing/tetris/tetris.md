@@ -15,9 +15,8 @@ Slik vil det se ut når du er ferdig med oppgava:
 
 ![](preview.png)
 
-For hvert steg kommer det en forklaring og litt eksempler, på slutten av hvert steg kommer et bilde av hele koden som er forklart, bruk bilde dersom du trenger det, men forsøk å skriv koden på egenhånd først.
-
 # Steg 1: Lag dine første to metoder {.activity}
+For hvert steg kommer det forklaring, eksempler og på slutten et bilde av hele koden. Bruk bildet av koden dersom du trenger det, men forsøk å skriv koden på egenhånd ved hjelp av forklaringen først.
 
 La oss starte med å sette opp et vanlig vindu, dersom du ikke har åpna Processing, så må du gjøre det nå.
 
