@@ -61,7 +61,7 @@ sette opp krav til og vurdere nettsteder
 # Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../din_egen_nettside/din_egen_nettside.html){target=_blank}
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
+Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
 
 ## Variasjoner {.challenge}
 - [ ] Denne oppgaven kan knyttes opp til skriftlige fag som norsk, engelsk eller fremmedspråk ved å for eksempel programmere en blogg.
