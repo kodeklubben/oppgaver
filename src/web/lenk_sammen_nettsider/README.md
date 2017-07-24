@@ -63,7 +63,7 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 
 
 ## Variasjoner {.challenge}
-- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 
 ## Eksterne ressurser {.challenge}
 - [ ] Foreløpig ingen eksterne ressurser ...
