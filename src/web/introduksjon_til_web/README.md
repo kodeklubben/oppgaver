@@ -24,11 +24,11 @@ __Tidsbruk__: Dobbeltime.
 
 - [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 
-- [ ] __Informasjonsteknologi, VG2__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
+- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
 
-- [ ] __Informasjonsteknologi, VG2__: organisere og begrunne filstrukturen for nettsteder
+- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for nettsteder
 
-- [ ] __Informasjonsteknologi, VG2__: gjøre rede for hvilke standarder og prinsipper som muliggjør Internett
+- [ ] __Informasjonsteknologi 1, VG2__: gjøre rede for hvilke standarder og prinsipper som muliggjør Internett
 
 
 ## Forslag til læringsmål {.challenge}
