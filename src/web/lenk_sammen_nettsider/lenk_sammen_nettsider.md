@@ -3,6 +3,10 @@ title: "HTML: Lenk sammen nettsider"
 author: Lars Klingenberg
 level: 3
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior]
 ---
 
 # Introduksjon {.intro}
@@ -12,9 +16,9 @@ Denne siden linker til 2 nye sider som linker tilbake igjen til ulv.no. I denne 
 
 
 # Lenk sammen nettsider {.activity}
-1. Lag 3 nye HTML-sider eller bruk 3 sider fra de tidligere oppgavene
-2. Lenk den først siden til de 2 andre sidene (Husk: sidene bør ligge i sammen mappe)
-3. Lagre og prøv ut kommer deg fra den første siden til de 2 andre sidene.
+- [ ] Lag 3 nye HTML-sider eller bruk 3 sider fra de tidligere oppgavene
+- [ ] Lenk den først siden til de 2 andre sidene (Husk: sidene bør ligge i sammen mappe)
+- [ ] Lagre og prøv ut kommer deg fra den første siden til de 2 andre sidene.
 
 __Fungerer det ikke?__
 
@@ -51,7 +55,7 @@ Dersom du bruker [`<nav>`-taggen](http://www.w3schools.com/tags/tag_nav.asp) fra
  </hide>
 </toggle>
 
-4. Nå skal du lenke sammen de 2 andre sidene med hverandre og med den første siden sånn at alle sidene linker til hverandre.
+- [ ] Nå skal du lenke sammen de 2 andre sidene med hverandre og med den første siden sånn at alle sidene linker til hverandre.
 
 __Bra jobba!__ Nå har du 3 sider som er lenkeT til hverandre.
 

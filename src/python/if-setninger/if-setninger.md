@@ -72,7 +72,7 @@ if 4 != 2+1:
 
 ## Utfordring {.challenge}
 
-Her har en av CodeMasterne gjort en feil. Kan du hjelpe oss å finne feilen?
+- [ ] Her har en av CodeMasterne gjort en feil. Kan du hjelpe oss å finne feilen?
 
 ```python
 if 7 == 2*4:
@@ -96,7 +96,7 @@ if 7 == 2*4:
   Her har vi to linjer med innrykk! Begge disse kjøres om testen er sann, og
   kjører ikke om testen er usann.
 
-* Men hva skjer om den ene linjen ikke har et innrykk, slik som i koden under?
+- [ ] Men hva skjer om den ene linjen ikke har et innrykk, slik som i koden under?
 
   ```python
   navn = input("Hva heter du? ")
@@ -105,6 +105,6 @@ if 7 == 2*4:
   print("Hyggelig å hilse på deg," + navn + "!")
   ```
 
-  Hva blir skrevet ut nå?
+- [ ] Hva blir skrevet ut nå?
 
-* Prøv deg frem med ulike navn!
+- [ ] Prøv deg frem med ulike navn!

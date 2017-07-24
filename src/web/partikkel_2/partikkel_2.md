@@ -3,6 +3,10 @@ title: "JS: Partikkel-fest"
 author: Lars Klingenberg
 level: 3
 language: nb
+tags:
+    topic: [text_based, web, animation]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -104,4 +108,3 @@ For at du skal kunne bygge opp koden slik at partiklene oppfører seg som den gj
 + Når man bør legge elementer i `partikkel`-lista bør du eksperimentere litt med.
 + Du bør også eksperimentere litt med når du bruker `clearRect()`, klarer du å se hva som er forskjellen på om du legger den i eller utenfor `for`-løkken?
 ##
-

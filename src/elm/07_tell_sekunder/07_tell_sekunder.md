@@ -203,9 +203,9 @@ verden. Det bruker vi ikke ennå! Derfor er `Cmd` litt i veien for oss, men når
 vi er over på `Html.program`, må vi ha den med. Hvis du ser rundt i koden finner
 du `Cmd.none`, som betyr "gjør ingenting".
 
-- Endre `count` i funksjonen `start`. Hva gjør programmet nå?
-- Hva skjer om `count` blir veldig stor?
-- Kan `count` være mindre enn null?
+- [ ] Endre `count` i funksjonen `start`. Hva gjør programmet nå?
+- [ ] Hva skjer om `count` blir veldig stor?
+- [ ] Kan `count` være mindre enn null?
 
 # Oppdatere telleren {.activity}
 
@@ -232,11 +232,11 @@ Beskjeden vår (`Msg`) kan nå bare være én ting: **det har gått tid siden si
 Hvert sekund, kjører vi modellen vår gjennom funksjonen `bump`. Den "dytter"
 ("bump" på engelsk) modellen vår ett sekund fram i tid.
 
-- Kan du få timeren vår til å telle baklengs?
-- Kan du få timeren vår til å telle ned fra 10 til 0? Obs! Her må du også endre
+- [ ] Kan du få timeren vår til å telle baklengs?
+- [ ] Kan du få timeren vår til å telle ned fra 10 til 0? Obs! Her må du også endre
   `start`!
-- Kan du få timeren vår til å telle fortere?
-- Utfordring: Timeren får ikke telle til høyere enn 10. Når den kommer til 10,
+- [ ] Kan du få timeren vår til å telle fortere?
+- [ ] Utfordring: Timeren får ikke telle til høyere enn 10. Når den kommer til 10,
   skal den begynne fra start igjen! Tips: bruk
   et [if-uttrykk](http://elm-lang.org/examples/if).
 
@@ -252,11 +252,11 @@ subscriptions model =
 
 Her abonnerer vi på sekunder. Verdien `second` kommer fra modulen `Time`.
 
-- Finn `second`
+- [ ] Finn `second`
   i
   [modulen `Time`](http://package.elm-lang.org/packages/elm-lang/core/latest/Time).
-- Hva skjer om du abonnerer på timer i stedet for sekunder?
-- Hva skjer om du abonnerer på millisekunder?
+- [ ] Hva skjer om du abonnerer på timer i stedet for sekunder?
+- [ ] Hva skjer om du abonnerer på millisekunder?
 
 Øverst i `Time-modulen` finner vi:
 
@@ -267,9 +267,9 @@ type alias Time =
 
 Dette betyr at tid bare er et tall. Disse kan vi plusse og dele!
 
-- Klarer du å abonnere på annenhvert sekund? Hva må du da sende inn i stedet for
+- [ ] Klarer du å abonnere på annenhvert sekund? Hva må du da sende inn i stedet for
   `second`?
-- Klarer du å abonnere på tidels sekunder?
+- [ ] Klarer du å abonnere på tidels sekunder?
 
 Hint: hva er `second * 2`?
 
@@ -303,7 +303,7 @@ view model =
 
 Husk å importere de nye funksjonene!
 
-- I hvilke moduler finner vi `div` og `style`?
+- [ ] I hvilke moduler finner vi `div` og `style`?
 
 Men nå ble det jo alltid rødt! Dårlig blinking. En måte å få til blinking er å
 sette oddetall til rød og partall til grønn.
@@ -344,9 +344,9 @@ Her prøver jeg i `elm repl`:
 1 : Int
 ```
 
-- Ser du mønsteret? Hva skjer når vi deler oddetall på 2? Hva skjer når vi deler
+- [ ] Ser du mønsteret? Hva skjer når vi deler oddetall på 2? Hva skjer når vi deler
   partall på 2?
-- Skriv funksjonen isEven. Denne skal fungere slik:
+- [ ] Skriv funksjonen isEven. Denne skal fungere slik:
 
 ```elm
 > isEven 0
@@ -371,7 +371,7 @@ True : Bool
 False : Bool
 ```
 
-- Bruk funksjonen `isEven` til å bestemme om du skal ha `("backgroundColor",
+- [ ] Bruk funksjonen `isEven` til å bestemme om du skal ha `("backgroundColor",
   "red")` eller `("backgroundColor", "green")`!
 
 ... Stopp her for å prøve selv!
@@ -413,4 +413,4 @@ view model =
     ]
 ```
 
-- Kan du få det til å blinke *og* gå fort? Obs! Mange farger!
+- [ ] Kan du få det til å blinke *og* gå fort? Obs! Mange farger!

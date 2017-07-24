@@ -75,11 +75,11 @@ Du la kanskje merke til at vi skiller mellom *parametre* og *argumenter*. Et par
 
 # Test programmet {.activity}
 
-Fungerer programmet som det skal? Hvis ikke må du rette på det.
+- [ ] Fungerer programmet som det skal? Hvis ikke må du rette på det.
 
 ## Delt på null {.challenge}
 
-Hva skjer når du deler på null? Prøv for eksempel `4 / 0`.
+- [ ] Hva skjer når du deler på null? Prøv for eksempel `4 / 0`.
 
 Hvis programmet ditt feiler nå, så har du trolig fått en delt-på-null-feil. Man kan nemlig ikke dele på null. Fiks programmet ditt slik at programmet skriver ut `"Division by zero is not allowed!"` hvis brukeren forsøker å dele på null. Slik:
 
@@ -87,12 +87,12 @@ Hvis programmet ditt feiler nå, så har du trolig fått en delt-på-null-feil. 
 
 ## Flere utregninger {.challenge}
 
-Endre programmet ditt slik at brukeren kan skrive inn hvor mange utregninger kalkulatoren skal utføre. Programmet vil da fungere slik:
+- [ ] Endre programmet ditt slik at brukeren kan skrive inn hvor mange utregninger kalkulatoren skal utføre. Programmet vil da fungere slik:
 
 ![](python_calculator_multiple_calculations.png)
 
 ## Flere operasjoner {.challenge}
 
-Prøv å legge til flere operatorer. Du kan for eksempel legge til `**`-operatoren. `**`-operatoren opphøyer et tall i et annet. F.eks. er `2**3` lik `8` fordi `2*2*2` er lik `8`.
+- [ ] Prøv å legge til flere operatorer. Du kan for eksempel legge til `**`-operatoren. `**`-operatoren opphøyer et tall i et annet. F.eks. er `2**3` lik `8` fordi `2*2*2` er lik `8`.
 
-Kommer du på andre operatorer som kan legges til i kalkulatoren din?
+- [ ] Kommer du på andre operatorer som kan legges til i kalkulatoren din?

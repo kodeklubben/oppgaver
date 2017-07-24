@@ -3,6 +3,6 @@ en_hjemmeside/en_hjemmeside.md
 forsvunnet_katt/forsvunnet_katt.md
 publiser/publiser.md
 lyd_og_bilde/lyd_og_bilde.md
-din_egen_nettside.md
+din_egen_nettside/din_egen_nettside.md
 lenk_sammen_nettsider/lenk_sammen_nettsider.md
 del_inn_nettsiden/del_inn_nettsiden.md

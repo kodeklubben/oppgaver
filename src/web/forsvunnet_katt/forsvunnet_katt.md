@@ -2,6 +2,10 @@
 title: "HTML: Forsvunnet katt"
 level: 2
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology, norwegian]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -12,10 +16,10 @@ Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i 
 
 # Steg 1: Felix har forsvunnet! {.activity}
 
-+ Lag en ny mappe som du kaller Felix.
+- [ ] Lag en ny mappe som du kaller Felix.
 
-+ Lag et nytt dokument med navnet `index.html` og lagre det i mappen du kalte Felix.
-+ Nå kan du sette opp dokumentet ditt slik som du lærte i forrige leksjon.
+- [ ] Lag et nytt dokument med navnet `index.html` og lagre det i mappen du kalte Felix.
+- [ ] Nå kan du sette opp dokumentet ditt slik som du lærte i forrige leksjon.
 
 ```html
 <!doctype html>
@@ -27,11 +31,11 @@ Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i 
 </html>
 ```
 
-+ Lag en tittel og en overskrift. Husk at tittelen skal plasseres i `<head>` og overskriften skal plasseres i `<body>`.
+- [ ] Lag en tittel og en overskrift. Husk at tittelen skal plasseres i `<head>` og overskriften skal plasseres i `<body>`.
 
-+ Bruk "Katten Felix er forsvunnet" som tittel, og "Forsvunnet" som `<h1>`.
+- [ ] Bruk "Katten Felix er forsvunnet" som tittel, og "Forsvunnet" som `<h1>`.
 
-+ Rett under `<h1>` kan vi lage en `<h2>` hvor det står "Katten Felix".
+- [ ] Rett under `<h1>` kan vi lage en `<h2>` hvor det står "Katten Felix".
 
 
 <toggle>
@@ -57,17 +61,17 @@ Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i 
 
 Vi trenger også et bilde av Felix, slik at folk vet hva de skal se etter. Vi har tidligere lært hvordan å legge inn et bilde som er lagret et annet sted på Internett, men denne gangen skal vi bruke et bilde på vår egen datamaskin.
 
-+ Finn et bilde på nettet av en katt.
-+ Lagre bildet i mappen Felix og la bildet hete `felix.jpg` eller `felix.png` avhengig av om bilde du laster ned har `.jpg` eller `.png` bak navnet sitt.
-+ Viktig at bildet blir lagt i samme mappe som `index.html`.
+- [ ] Finn et bilde på nettet av en katt.
+- [ ] Lagre bildet i mappen Felix og la bildet hete `felix.jpg` eller `felix.png` avhengig av om bilde du laster ned har `.jpg` eller `.png` bak navnet sitt.
+- [ ] Viktig at bildet blir lagt i samme mappe som `index.html`.
 
-+ Nå kan du skrive `<img>` taggen som du vanligvis ville gjort, men i scr attributten, istede for å skrive en URL skriver vi bare `felix.jpg` eller `felix.png`. Ikke glem å legge inn en `alt` attributt!
+- [ ] Nå kan du skrive `<img>` taggen som du vanligvis ville gjort, men i scr attributten, istede for å skrive en URL skriver vi bare `felix.jpg` eller `felix.png`. Ikke glem å legge inn en `alt` attributt!
 
 ```html
 <img src="felix.jpg" alt="bilde av Felix">
 ```
 
-+ Lagre filen din og vis den i nettleseren.
+- [ ] Lagre filen din og vis den i nettleseren.
 
 Dersom bildet er litt for stort, så kan vi gjøre det mindre ved hjelp av attributtet `width`. Vi spesifiserer ikke bredden i centimeter eller meter eller tommer eller fot, men i noe som kalles `pixler`. Jeg velger å gå for 400 pixler for dette bildet, du kan selv velge hvor stort det skal være, så prøv deg frem med forskjellige tall.
 
@@ -113,7 +117,7 @@ Vi vil også at ´Tusen takk´ skal vises skikkelig, som vi oppnår ved å bruke
 
 ## Lagre dokumentet ditt og vis det i nettleseren. {.save}
 
-+ Ser du nå hvordan vennligst vises i *skrå* og Tusen takk i **fet**?
+- [ ] Ser du nå hvordan vennligst vises i *skrå* og Tusen takk i **fet**?
 
 # Step 5: Legge til kommentarer i koden {.activity}
 
@@ -176,8 +180,8 @@ Til venstre har vi HTML-koden og til høyre har vi hvordan nettleseren viser sid
 
 ## Hva kan du gjøre videre? {.try}
 
-+ Er det noe annet du kan legge til websiden som vil hjelpe folk å finne Felix? Mer informasjon? Hvordan ville du lagt til et kart over hvor han forsvant?
+- [ ] Er det noe annet du kan legge til websiden som vil hjelpe folk å finne Felix? Mer informasjon? Hvordan ville du lagt til et kart over hvor han forsvant?
 
-+ Mer gøy med bilder. Legg til et bilde som beveger seg. Prøv å legge til bildet `catswithhats.gif` til websiden. Last ned gifen eller bruk lenken her: [catswithhats.gif](../forsvunnet_katt/ressurser/catswithhats.gif). Åpne det i nettleseren og se hva som skjer.
+- [ ] Mer gøy med bilder. Legg til et bilde som beveger seg. Prøv å legge til bildet `catswithhats.gif` til websiden. Last ned gifen eller bruk lenken her: [catswithhats.gif](../forsvunnet_katt/ressurser/catswithhats.gif). Åpne det i nettleseren og se hva som skjer.
 
-+ Hvis Felix blir funnet. Bruk taggen `<del>` for å streke over informasjon som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>` for å sette inn ny informasjon istede, som foreksempel __Funnet__!
+- [ ] Hvis Felix blir funnet. Bruk taggen `<del>` for å streke over informasjon som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>` for å sette inn ny informasjon istede, som foreksempel __Funnet__!

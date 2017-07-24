@@ -1,7 +1,5 @@
 ---
 title: Elm
-tags:
-  tema: [web, programmering, spill, funksjonell-programmering, typer]
 language: nb
 ---
 

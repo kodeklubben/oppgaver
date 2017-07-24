@@ -3,6 +3,10 @@ title: "JS: Partikkel-gravitasjon"
 author: Lars Klingenberg
 level: 3
 language: nb
+tags:
+    topic: [text_based, web, animation]
+    subject: [mathematics, programming]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -56,8 +60,8 @@ Oppgaven her går ut på å legge til gravitasjon på `Partikkel`-objektet. Du v
 
 # Steg 1: Få partikkelet til å falle {.activity}
 Det første vi skal gjøre er å få partikkelet til å falle, for å få det til å skje må du programmere følgende:
-+ Legg til to attributter i `particle` som skal holde styr på `gravitasjonen` og `hastigheten` den faller med. `Gravitasjons`-attributtet bør være et lite tall, som for eksempel `0.01`. `Hastigheten` bør være `0` fra starten av.
-+ Sett et passende startsted for `particle`, helst høyt oppe
+- [ ] Legg til to attributter i `particle` som skal holde styr på `gravitasjonen` og `hastigheten` den faller med. `Gravitasjons`-attributtet bør være et lite tall, som for eksempel `0.01`. `Hastigheten` bør være `0` fra starten av.
+- [ ] Sett et passende startsted for `particle`, helst høyt oppe
 
 For hver gang `draw()` kjører, skal følgende skje:
 + `gravitasjons`-attributtet skal endres med `hastighets`-attributtet
@@ -76,7 +80,7 @@ Faller partiklet nå? Nå som partikkelet faller ser du kanskje også at det fal
 
 # Steg 2: Stopp nederst på skjermen {.activity}
 For at partikkelet vårt skal stoppe nederst på skjermen trenger vi enkelt og greit en sjekk hver gang vi kjører `draw()`:
-+ Lag en sjekk som sjekker om `particle` sin `y`-verdi er større enn høyden på `canvas`-objektet.
+- [ ] Lag en sjekk som sjekker om `particle` sin `y`-verdi er større enn høyden på `canvas`-objektet.
 OBS! Du vil sikkert merke at den "rister" helt nederst, derfor må du også ta hensyn til størrelsen på partikkel-objektet når du sjekker hvor langt ned den er.
 
 <toggle>
@@ -86,14 +90,14 @@ OBS! Du vil sikkert merke at den "rister" helt nederst, derfor må du også ta h
     </hide>
 </toggle>
 
-+ I sjekken må du stoppe partikkelet ved å sette `y`-verdien. Kan du tenke deg til hva `y`-verdien bør være?
+- [ ] I sjekken må du stoppe partikkelet ved å sette `y`-verdien. Kan du tenke deg til hva `y`-verdien bør være?
 
 Nå har du et fallende objekt!
 
 ## Utfordringer {.challenge}
-+ Når partikkelet treffer kanten, snu gravitasjonen sånn at partikkelet går oppover
-+ Klarer du å få partikkelet til å gå til venster eller høyre også?
-+ "Steng" alle kantene i `canvas` ved hjelp av flere `if`-setninger
+- [ ] Når partikkelet treffer kanten, snu gravitasjonen sånn at partikkelet går oppover
+- [ ] Klarer du å få partikkelet til å gå til venster eller høyre også?
+- [ ] "Steng" alle kantene i `canvas` ved hjelp av flere `if`-setninger
 
 # Steg 3: Få partikkelet til å fly! {.activity}
 Nå som vi har fått gravitasjon på partikkelet vårt kan vi legge til styring på partikkelet ved hjelp av knapper. Vi skal nå programmere slik at når du trykker `pil opp` så gir vi partikkelet negativ akselerasjon og når vi slipper så blir den påvirket av gravitasjonen. Får å gjøre dette bruker vi noe som heter `onkeyup`, `onkeydown` og `keyCode`.
@@ -109,7 +113,7 @@ window.onkeydown = function(inputKey) {
     }
 }
 ```
-+ Bruk [keycode.info](http://keycode.info) til å finne ut hvilke `knapp-kode` knappen du vil bruke har.
+- [ ] Bruk [keycode.info](http://keycode.info) til å finne ut hvilke `knapp-kode` knappen du vil bruke har.
 
 ## Forklaring {.try}
 + `window.onkeydown` er en funksjon som sjekker om en knapp trykkes ned, dersom den gjør det, så kjøres funksjonen med `knapp-kode` `inputKey`.
@@ -128,10 +132,9 @@ Grunnen til at du må bruke `keyCode` og `which` er fordi ikke alle nettlesere s
 
 ##
 
-+ For at du skal få gravitasjonen tilbake når du slipper knappen må du lage en funksjon for `window.onkeyup`.
+- [ ] For at du skal få gravitasjonen tilbake når du slipper knappen må du lage en funksjon for `window.onkeyup`.
 
-+ Les mer om `window.onkeyup` osv her: [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp)
+- [ ] Les mer om `window.onkeyup` osv her: [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp)
 
 
 Dersom du står bomfast: [Forlag til kode](https://jsbin.com/sezumakiyo/edit?html,output)
-

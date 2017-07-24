@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Anne-Marit Gravem
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [mathematics, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -21,27 +25,27 @@ JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 
 ## Sjekkliste {.check}
 
-+ Start et nytt Scratch prosjekt.
+- [ ] Start et nytt Scratch prosjekt.
 
-+ __Riktig bakgrunn__ får du ved å velge `Scene` og så
+- [ ] __Riktig bakgrunn__ får du ved å velge `Scene` og så
   `Bakgrunner`-fanen. Importer bakgrunnen `Natur/underwater3` ved å
   velge
   ![Velg en ferdig bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Slett
   så den opprinnelige bakgrunnen `backdrop1`.
 
-+ Endre Sprite1's navn til `JafseFisk` ved å klikke på katten og
+- [ ] Endre Sprite1's navn til `JafseFisk` ved å klikke på katten og
   deretter på det blå `i`{.blockmotion}-symbolet.
 
-+ Gi figuren en haidrakt ved å gå til `Drakter`-fanen og velge
+- [ ] Gi figuren en haidrakt ved å gå til `Drakter`-fanen og velge
   ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
   drakten `Dyr/shark-b`. Kall drakten `Åpen munn`. Slett så figurens
   kattedrakter.
 
-+ Klikk på det blå `i`{.blockmotion}-symbolet igjen, og pass på at
+- [ ] Klikk på det blå `i`{.blockmotion}-symbolet igjen, og pass på at
   figuren bare kan bevege seg fra side til side ved å velge
   rotasjonsmåte ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
-+ Få fisken til å følge musepekeren rundt i sjøen ved å lage dette
+- [ ] Få fisken til å følge musepekeren rundt i sjøen ved å lage dette
   skriptet:
 
   ```blocks
@@ -56,15 +60,15 @@ JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 
 __Klikk på det grønne flagget.__
 
-+ Flytt musepekeren rundt i sjøen. Følger fisken etter?
+- [ ] Flytt musepekeren rundt i sjøen. Følger fisken etter?
 
-+ Hva skjer hvis du ikke flytter musepekeren og fisken når den igjen?
+- [ ] Hva skjer hvis du ikke flytter musepekeren og fisken når den igjen?
 
-+ Hvordan ser den ut? Hvorfor gjør den dette?
+- [ ] Hvordan ser den ut? Hvorfor gjør den dette?
 
 ## Sjekkliste {.check}
 
-+ Du kan stoppe JafseFisks maniske flipping hvis du sørger for at den
+- [ ] Du kan stoppe JafseFisks maniske flipping hvis du sørger for at den
   bare flytter seg når den ikke er for nær musepekeren (`avstand
   til [musepeker v]`{.b} ligger i
   `Sansning`{.blocksensing}-kategorien).
@@ -84,10 +88,10 @@ __Klikk på det grønne flagget.__
 Hvis du vil kan du forandre tallene i skriptet, og se hvordan det
 forandrer bevegelsene.
 
-+ Sett avstandsgrensen til et stort tall (f.eks. 100), eller et lite
+- [ ] Sett avstandsgrensen til et stort tall (f.eks. 100), eller et lite
   tall (f.eks. 1).
 
-+ Sett antall steg fisken flytter seg til et stort tall (f.eks. 20)
+- [ ] Sett antall steg fisken flytter seg til et stort tall (f.eks. 20)
   eller et lite tall (f.eks. 1, eller til og med 0, hva skjer?).
 
 # Steg 2: Legg til byttedyr {.activity}
@@ -96,14 +100,14 @@ forandrer bevegelsene.
 
 ## Sjekkliste {.check}
 
-+ Legg til en ny figur fra biblioteket ved å bruke `Dyr/Fish2`. Gi
+- [ ] Legg til en ny figur fra biblioteket ved å bruke `Dyr/Fish2`. Gi
   figuren navnet `Byttedyr`.
 
-+ Gjør figuren mindre ved å bruke krympeknappen
+- [ ] Gjør figuren mindre ved å bruke krympeknappen
   ![krymp](../bilder/krymp.png) som ligger over den røde
   stopp-knappen.
 
-+ Få byttedyret til å bevege seg i tilfeldige retninger. Først skal vi
+- [ ] Få byttedyret til å bevege seg i tilfeldige retninger. Først skal vi
   la det bevege seg litt framover, og så snu en tilfeldig valgt vinkel
   med eller mot klokka, og deretter gjenta.
 
@@ -120,20 +124,20 @@ forandrer bevegelsene.
 
 __Klikk på det grønne flagget.__
 
-+ Svømmer byttedyret rundt slik du forventet?
+- [ ] Svømmer byttedyret rundt slik du forventet?
 
-+ Ser bevegelsene naturlige ut?
+- [ ] Ser bevegelsene naturlige ut?
 
 *For øyeblikket samspiller ikke JafseFisk og byttedyret med
  hverandre. Det skal vi gjøre noe med i neste steg.*
 
 ## Ting å prøve {.try}
 
-+ Prøv å forandre tallene for `gå (2) steg`{.b} og `tilfeldig
+- [ ] Prøv å forandre tallene for `gå (2) steg`{.b} og `tilfeldig
   tall fra (-20) til (20)`{.b}. Hvordan forandrer det byttedyrets
   bevegelser?
 
-+ Hva gjør `sprett tilbake ved kanten`{.b}? Fjern
+- [ ] Hva gjør `sprett tilbake ved kanten`{.b}? Fjern
   klossen og se hva som skjer.
 
 # Steg 3: JafseFisk spiser byttet {.activity}
@@ -146,7 +150,7 @@ så å dukke opp igjen en liten stund senere.
 
 ## Sjekkliste {.check}
 
-+ Vi starter med å la byttet forsvinne hvis det berører JafseFisk, og
+- [ ] Vi starter med å la byttet forsvinne hvis det berører JafseFisk, og
   så komme tilbake etter 3 sekunder. Bruk
   `berører [JafseFisk v]?`{.b} for å sjekke om byttet kommer borti
   JafseFisk. Utvid skriptet på byttedyret slik som dette:
@@ -169,10 +173,10 @@ så å dukke opp igjen en liten stund senere.
 
 __Klikk på det grønne flagget.__
 
-+ Legg merke til at byttet forsvinner uansett hvor det berører
+- [ ] Legg merke til at byttet forsvinner uansett hvor det berører
   JafseFisk.
 
-+ Dessuten kan JafseFisk bare vente 3 sekunder og så spise byttet i
+- [ ] Dessuten kan JafseFisk bare vente 3 sekunder og så spise byttet i
   samme øyeblikk som det dukker opp igjen, det er ikke særlig
   rettferdig!
 
@@ -182,11 +186,11 @@ __Klikk på det grønne flagget.__
  JafseFisks munn? Tja, vi kan bruke `<berører fargen [#FFFFFF]?>`{.b}
  og se om den berører det hvite på fiskens tenner.*
 
-+ Legg til `<berører fargen [#FFFFFF]?>`{.b} i tillegg til
+- [ ] Legg til `<berører fargen [#FFFFFF]?>`{.b} i tillegg til
   `<berører [JafseFisk v]?>`{.b} i skriptet ditt. For å velge hvit
   klikker du på fargen i klossen og deretter på fiskens tenner.
 
-+ Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen
+- [ ] Nå kan vi la byttet flytte seg til et tilfeldig punkt på skjermen
   før det dukker opp igjen ved å bruke `gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))`{.b}
   som vi gir tilfeldige verdier for `x` og `y`.
 
@@ -209,9 +213,9 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-+ Forsvinner byttet bare når det berører fiskens tenner?
+- [ ] Forsvinner byttet bare når det berører fiskens tenner?
 
-+ Kommer det tilbake et tilfeldig sted på skjermen – altså ikke samme
+- [ ] Kommer det tilbake et tilfeldig sted på skjermen – altså ikke samme
   sted som det ble spist?
 
 # Steg 4: JafseFisk reagerer {.activity}
@@ -221,7 +225,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-+ For at JafseFisk skal vite hva som skjer kan vi la byttet
+- [ ] For at JafseFisk skal vite hva som skjer kan vi la byttet
   `send melding [Du tok meg! v]`{.b} om at det er spist, før det
   forsvinner.
 
@@ -244,10 +248,10 @@ __Klikk på det grønne flagget.__
 Nå vil vi at JafseFisk reagerer på denne meldingen ved å lage en
 gomlelyd og klikke med kjevene.
 
-+ Legg til drakten `Dyr/shark-a` og lyden `Effekter/bubbles` på
+- [ ] Legg til drakten `Dyr/shark-a` og lyden `Effekter/bubbles` på
   JafseFisk. Kall drakten `Lukket munn`.
 
-+ Legg så til et nytt skript til JafseFisk slik at han kan svare på
+- [ ] Legg så til et nytt skript til JafseFisk slik at han kan svare på
   meldingen `Du tok meg!` fra byttedyret. Dette skriptet gjør at
   fisken spiller av boblelyden og `bytt drakt til [Åpen munn v]`{.b}
   drakten, venter litt og så bytter tilbake.
@@ -265,16 +269,16 @@ gomlelyd og klikke med kjevene.
 
 Nå er JafseFisk klar til å spise, så la oss fylle havet med byttedyr.
 
-+ Høyreklikk på byttedyret og velg `lag kopi` til du føler at du har
+- [ ] Høyreklikk på byttedyret og velg `lag kopi` til du føler at du har
   fått nok fisk.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-+ Spiser JafseFisk byttet?
+- [ ] Spiser JafseFisk byttet?
 
-+ Spiser den alle byttedyrene?
+- [ ] Spiser den alle byttedyrene?
 
 ## Noe å tenke på {.protip}
 
@@ -307,21 +311,21 @@ __Hint:__ Se på klossen `gå (2) steg`{.b}.
 
 __Klikk på det grønne flagget.__
 
-+ Beveger byttet seg saktere? Gjør dette spillet bedre?
+- [ ] Beveger byttet seg saktere? Gjør dette spillet bedre?
 
-+ Hvis du klarte dette, prøv å gjøre et av byttedyrene __raskere enn
+- [ ] Hvis du klarte dette, prøv å gjøre et av byttedyrene __raskere enn
   de andre.__
 
-+ Beveger byttedyrene seg på en fornuftig måte?  Gjør disse
+- [ ] Beveger byttedyrene seg på en fornuftig måte?  Gjør disse
   forandringene spillet bedre?
 
   __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene
   i `vend venstre (tilfeldig tall fra (-20) til (20)) grader`{.b}.
 
-+ Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
+- [ ] Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
   forskjellige kombinasjoner av disse bevegelsene?
 
-+ Gjør noen av disse forandringene spillet bedre? Gjør de spillet med
+- [ ] Gjør noen av disse forandringene spillet bedre? Gjør de spillet med
   interessant, morsommere, vanskeligere eller lettere? Er noe av dette
   bedre synes du?
 
@@ -347,7 +351,7 @@ __Hint:__ Se tilbake på hvordan vi brukte `(avstand til [musepeker v])`{.b} tid
 
 __Klikke på det grønne flagget.__
 
-+ Gjør dette at fisken blir vanskeligere å ta? Gjør det spillet bedre?
+- [ ] Gjør dette at fisken blir vanskeligere å ta? Gjør det spillet bedre?
 
 ## Utfordring 3: Legg til poeng {.challenge}
 
@@ -362,9 +366,9 @@ endringene?
 
 __Klikk på det grønne flagget.__
 
-+ Går poengsummen opp hver gang JafseFisk spiser byttedyr?
+- [ ] Går poengsummen opp hver gang JafseFisk spiser byttedyr?
 
-+ Går den tilbake til null når spillet starter?
+- [ ] Går den tilbake til null når spillet starter?
 
 ## Utfordring 4: Legg til en nedtelling {.challenge}
 
@@ -381,13 +385,13 @@ spillet.
 
 __Klikk på det grønne flagget.__
 
-+ Begynner tidtakeren på 30?
+- [ ] Begynner tidtakeren på 30?
 
-+ Teller den ned med rett hastighet?
+- [ ] Teller den ned med rett hastighet?
 
-+ Kan du fange fisk mens tiden telles ned?
+- [ ] Kan du fange fisk mens tiden telles ned?
 
-+ Stopper spillet når telleren når null?
+- [ ] Stopper spillet når telleren når null?
 
 ## Utfordring 5: Legg til bonuspoeng {.challenge}
 
@@ -401,7 +405,7 @@ __telle__ hvor mange byttedyr som svømmer i havet.
 
 __Klikk på det grønne flagget.__
 
-+ Får du bonuspoeng for å spise opp alle fiskene?
+- [ ] Får du bonuspoeng for å spise opp alle fiskene?
 
 ## Utfordring 6: Forandre spillet: Hold byttedyrene i live! {.challenge}
 

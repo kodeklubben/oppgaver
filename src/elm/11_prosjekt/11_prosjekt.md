@@ -1,7 +1,7 @@
 ---
 title: Eget prosjekt
 level: 4
-language: nb-NO
+language: nb
 author: Teodor Heggelund
 ---
 
@@ -60,24 +60,24 @@ subscriptions model =
 `Keyboard` fungerer ikke i **Try Elm**.
 
 Muligheter:
-  
-- Prøv [Ellie](https://ellie-app.com/P7GZ5mV9Lja1/0)! 
+
+- Prøv [Ellie](https://ellie-app.com/P7GZ5mV9Lja1/0)!
 
 - Kjør lokalt:
 
   Installer `Keyboard` med `elm package install elm-lang/keyboard`
-  
+
   Se siden med `elm reactor`.
 
 ## Sjekkliste {.check}
 
-- Hvilke tall (tastekoder) har vi for pil opp? Venstre? Høyre? Ned?
+- [ ] Hvilke tall (tastekoder) har vi for pil opp? Venstre? Høyre? Ned?
 
-- Hvilke tall har vi for WASD?
+- [ ] Hvilke tall har vi for WASD?
 
-- Hvilket tall er A?
+- [ ] Hvilket tall er A?
 
-- Hvilket tall er B?
+- [ ] Hvilket tall er B?
 
 Hmm, men nå skjer det ikke så mye. Skal vi ha noe i sanntid, trenger vi en
 klokke.
@@ -87,11 +87,10 @@ klokke.
 Ta en titt tilbake
 til [Tell sekunder](../07_tell_sekunder/07_tell_sekunder.html).
 
-- Hvordan fikk vi tiden til å gå her?
+- [ ] Hvordan fikk vi tiden til å gå her?
 
-- Klarer du å kombinere oppgavene? Få tiden til å gå _mens_ du sjekker hva
+- [ ] Klarer du å kombinere oppgavene? Få tiden til å gå _mens_ du sjekker hva
   brukeren trykker på?
-  
+
 Her er det mange muligheter videre! Vi kan for eksempel lage oss koordinater for
 noe vi vil tegne, og flytte det rundt med piltastene.
-

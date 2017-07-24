@@ -37,10 +37,10 @@ main =
   text (toString [fire, ganger2 5])
 ```
 
-- Gå til http://elm-lang.org/try
-- Kopier inn koden som står ovenfor. Ikke trykk `Compile`
-- Hva forventer du at skal stå dersom du trykker `Compile`?
-- Trykk `Compile` og se om du hadde rett
+- [ ] Gå til http://elm-lang.org/try
+- [ ] Kopier inn koden som står ovenfor. Ikke trykk `Compile`
+- [ ] Hva forventer du at skal stå dersom du trykker `Compile`?
+- [ ] Trykk `Compile` og se om du hadde rett
 
 # Steg 2: Enkle funksjoner {.activity}
 
@@ -49,14 +49,14 @@ funksjoner.
 
 Prøv å lag følgende:
 
-- En funksjon som tar inn to tall og plusser de sammen
-- En funksjon som tar inn et tall og ganger det med 3
-- En funksjon som tar inn et tall og ganger det med 10
-- En funksjon som tar inn to tall og deler de på hverandre
-- En funksjon som tar inn to tall og ganger tallene med hverandre
-- En funksjon som tar inn tre tall og ganger tallene med hverandre
-- En funksjon som tar inn åtte tall og ganger tallene med hverandre
-- Test funksjonene dine med og se om du har gjort noe feil
+- [ ] En funksjon som tar inn to tall og plusser de sammen
+- [ ] En funksjon som tar inn et tall og ganger det med 3
+- [ ] En funksjon som tar inn et tall og ganger det med 10
+- [ ] En funksjon som tar inn to tall og deler de på hverandre
+- [ ] En funksjon som tar inn to tall og ganger tallene med hverandre
+- [ ] En funksjon som tar inn tre tall og ganger tallene med hverandre
+- [ ] En funksjon som tar inn åtte tall og ganger tallene med hverandre
+- [ ] Test funksjonene dine med og se om du har gjort noe feil
 
 Var det vanskelig? Overraskende mye programmering er å skrive funksjoner som
 gjør ting som dette.
@@ -70,14 +70,14 @@ prøve oss på for eksempel kvadratrot. I elm tar man kvadratroten av et tall ve
 
 Prøv å lage følgende:
 
-- En funksjon som tar inn et tall og tar kvadratrot av tallet
-- En funksjon som tar inn to tall og tar kvadratoten av det første tallet 4
+- [ ] En funksjon som tar inn et tall og tar kvadratrot av tallet
+- [ ] En funksjon som tar inn to tall og tar kvadratoten av det første tallet 4
   ganger det andre tallet
-- En funksjon som tar inn to tall og tar kvadratroten av det første tallet for
+- [ ] En funksjon som tar inn to tall og tar kvadratroten av det første tallet for
   deretter å gange dette med det andre tallet
-- En funksjon som tar inn to tall og tar kvadratroten av det andre tallet for
+- [ ] En funksjon som tar inn to tall og tar kvadratroten av det andre tallet for
   deretter å gange dette med det første tallet
-- Test funksjonene dine med og se om du har gjort noe feil
+- [ ] Test funksjonene dine med og se om du har gjort noe feil
 
 # Steg 4: if-else-uttrykk {.activity}
 
@@ -103,22 +103,22 @@ noe av dette stemmer.
 
 Spørsmål til funksjonen ovenfor:
 
-- Hva slags type returnerer funksjonen?
+- [ ] Hva slags type returnerer funksjonen?
 
 Vi kan nå lage noen litt mer avanserte funksjoner. Prøv å lag følgende:
 
-- En funksjon som tar inn et tall. Dersom tallet er større enn 9000, skal
+- [ ] En funksjon som tar inn et tall. Dersom tallet er større enn 9000, skal
   funksjonen returnere "Dette er over 9000!". Hvis det ikke er over 9000 skal
   funksjonen returnere "Prøv et høyere tall"
-- Test funksjonen din og se om du har gjort noe feil
-- En funksjon som tar inn to tall. Dersom tallene er like skal vi returnere
+- [ ] Test funksjonen din og se om du har gjort noe feil
+- [ ] En funksjon som tar inn to tall. Dersom tallene er like skal vi returnere
   "Tallene er like". Hvis tallene ikke er like skal vi returnere "Tallene er
   ikke like".
 
 ## Utfordring {.challenge}
 
-- Lag dine helt egne funksjoner
-- Klarer du å gjøre ukens mattelekse i elm?
+- [ ] Lag dine helt egne funksjoner
+- [ ] Klarer du å gjøre ukens mattelekse i elm?
 
 ## Absoluttverdi {.protip}
 
@@ -139,10 +139,10 @@ Absoluttverdien til et tall er tallet uten fortegn. Her er noen eksempler:
 
 ## Utfordring {.challenge}
 
-- Lag funksjonen `absoluttverdi`.
+- [ ] Lag funksjonen `absoluttverdi`.
 
 Hvordan lagde du funksjonen? Absoluttverdien til et tall kan vi regne ut på
 flere forskjellige måter. Jeg tipper at du ikke brukte ganger og kvadratrot!
 Prøv dette nå:
 
-- Lag funksjonen `absoluttverdi` på nytt ved å bare bruke `*` og `sqrt`.
+- [ ] Lag funksjonen `absoluttverdi` på nytt ved å bare bruke `*` og `sqrt`.

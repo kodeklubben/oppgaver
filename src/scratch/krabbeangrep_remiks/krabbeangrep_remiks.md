@@ -3,6 +3,10 @@ title: Krabbeangrep! Remiks
 level: 3
 author: Gudbrand Tandberg
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -24,14 +28,14 @@ krabbene og får poeng når den treffer.
  spillet som det er.*
 
 ## Sjekkliste {.check}
-+ Gå inn på <http://scratch.mit.edu/users/gubbisduff/> og klikk på
+- [ ] Gå inn på <http://scratch.mit.edu/users/gubbisduff/> og klikk på
   prosjektet `Krabbeangrep!` Velg `Se inni`{.blocksensing}.
 
-+ Trykk på knappen der det står `Remiks` øverst i høyre hjørne. Nå har
+- [ ] Trykk på knappen der det står `Remiks` øverst i høyre hjørne. Nå har
   du en kopi av spillet på din egen bruker som du kan gjøre hva du vil
   med uten at du endrer originalen.
 
-+ Bruk noen minutter på å se igjennom alle skriptene i prosjektet. Les
+- [ ] Bruk noen minutter på å se igjennom alle skriptene i prosjektet. Les
   igjennom alle kommentarene og vær helt sikker på at du har forstått
   hvordan spillet fungerer før du går videre; spør gjerne om hjelp!
 
@@ -39,7 +43,7 @@ krabbene og får poeng når den treffer.
 
 __Klikk på det grønne flagget.__
 
-+ Prøv spillet en gang eller to for å bli bedre kjent med hvordan det
+- [ ] Prøv spillet en gang eller to for å bli bedre kjent med hvordan det
   fungerer.
 
 # Steg 2: Vi lager en meny, del I {.activity}
@@ -58,12 +62,12 @@ spillet er tapt skal det sendes en melding.
 
 ## Sjekkliste {.check}
 
-+ Først må du lage en figur som skal fungere som startknapp. Denne kan
+- [ ] Først må du lage en figur som skal fungere som startknapp. Denne kan
   du tegne selv ved å klikke på ![Tegn ny](../bilder/tegn-ny.png) i
   figurområdet. Et enkelt rektangel med teksten `Start` inni burde
   gjøre susen. Gi den navnet `Startknapp`.
 
-+ Vi må også lage en bakgrunn som kan fungere som hovedmeny. Trykk på
+- [ ] Vi må også lage en bakgrunn som kan fungere som hovedmeny. Trykk på
   scenen og velg `Bakgrunner`. Lag en kopi av bakgrunnen `Rommet` ved
   å høyreklikke og trykke på `lag en kopi`. Pynt litt på den med tekst
   og hva annet du måtte ønske så man ser at det er en hovedmeny. Gi
@@ -85,7 +89,7 @@ figurområdet.
 
 ## Sjekkliste {.check}
 
-+ Endre på skriptene i scenen slik at du har følgende skript:
+- [ ] Endre på skriptene i scenen slik at du har følgende skript:
 
   ```blocks
   når grønt flagg klikkes
@@ -95,7 +99,7 @@ figurområdet.
   bytt bakgrunn til [Hovedmeny v]
   ```
 
-+ Gi startknappen de følgende skriptene (de to første sørger for at
+- [ ] Gi startknappen de følgende skriptene (de to første sørger for at
   knappen oppfører seg riktig i starten av spillet, og det siste
   sørger for at startknappen faktisk er en startknapp):
 
@@ -111,7 +115,7 @@ figurområdet.
   send melding [nytt spill v]
   ```
 
-+ Nå må vi sørge for at resten av figurene oppfører seg som vi vil
+- [ ] Nå må vi sørge for at resten av figurene oppfører seg som vi vil
   både når flagget klikkes, når hovedmenyen skal vises og når
   startknappen klikkes! Det betyr at vi må ha mange små skript som
   lytter etter disse meldingene (skript som starter med klossene under
@@ -119,22 +123,22 @@ figurområdet.
   disse skriptene skal se ut, det skal du klare selv, men her er det
   som må med:
 
-+ Både romskipet, romvesenet og godbiten må gjøre følgende: figuren
+- [ ] Både romskipet, romvesenet og godbiten må gjøre følgende: figuren
   skjules når flagget klikkes og figuren går inn i *hovedløkken* sin
   når `nytt spill` mottas. Hva som er *hovedløkken* til en figur står
   tydelig skrevet i kommentarene.
 
-+ Startknappen må skjules når `nytt spill` mottas.
+- [ ] Startknappen må skjules når `nytt spill` mottas.
 
-+ Scenen må skifte bakgrunn til `Rommet` når `nytt spill` mottas.
+- [ ] Scenen må skifte bakgrunn til `Rommet` når `nytt spill` mottas.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-+ Skjules alle figurene utenom startknappen når hovedmenyen vises?
+- [ ] Skjules alle figurene utenom startknappen når hovedmenyen vises?
 
-+ Starter spillet som det skal når startknappen klikkes?
+- [ ] Starter spillet som det skal når startknappen klikkes?
 
 ## Lagre prosjektet {.save}
 

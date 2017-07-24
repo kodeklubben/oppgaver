@@ -13,9 +13,9 @@ Denne oppgaven innfører funksjoner, og viser hvordan vi kan skrive og test funk
 
 Nå skal vi installere Elm på vår egen PC:
 
-* Gå til [elm-lang.org/install](http://www.elm-lang.org/install) og last ned
+- [ ] Gå til [elm-lang.org/install](http://www.elm-lang.org/install) og last ned
   installasjonsfil til ditt operativsystem
-* Klikk deg gjennom installasjonen
+- [ ] Klikk deg gjennom installasjonen
 
 # Kommandolinjen {.protip}
 
@@ -32,8 +32,8 @@ Slik ser terminalen ut på Linux med vindusbehandleren Gnome:
 
 # Kjør elm repl {.activity}
 
-* Start kommandolinjen
-* Kjør `elm repl` fra kommandolinjen
+- [ ] Start kommandolinjen
+- [ ] Kjør `elm repl` fra kommandolinjen
 
 Prøv å gange sammen tall!
 
@@ -67,8 +67,8 @@ Artimetikk med Elm:
 Skriver vi inn `1 + 2`, gir Elm tilbake `3 : number`. Svaret er `3`, som er et
 tall (`number`).
 
-* Regn ut 12345 * 6789 med Elm!
-* Hva sier Elm når du prøver å dele på 0?
+- [ ] Regn ut 12345 * 6789 med Elm!
+- [ ] Hva sier Elm når du prøver å dele på 0?
 
 Vi bruker `=` til å binde verdier:
 
@@ -83,9 +83,9 @@ Vi bruker `=` til å binde verdier:
 67280421310721 : number
 ```
 
-* Sett `birthYear` til året du er født
-* Sett `currentYear` til året vi er i nå
-* Hva blir `currentYear - birthYear`? Er det det samme som alderen din?
+- [ ] Sett `birthYear` til året du er født
+- [ ] Sett `currentYear` til året vi er i nå
+- [ ] Hva blir `currentYear - birthYear`? Er det det samme som alderen din?
   Hvorfor/hvorfor ikke?
 
 # Funksjoner {.protip}
@@ -139,8 +139,8 @@ tilbake.
 Vi bruker funksjonen ved å skrive funksjonsnavnet (`double`) etterfulgt av
 argumentet (`5`).
 
-* Hva er `double 123`?
-* Hva er `double 7`?
+- [ ] Hva er `double 123`?
+- [ ] Hva er `double 7`?
 
 `triple` er funksjonen som ganger med tre:
 
@@ -151,8 +151,8 @@ argumentet (`5`).
 300 : number
 ```
 
-* Lag `triple`!
-* Gir din `triple` det samme som min?
+- [ ] Lag `triple`!
+- [ ] Gir din `triple` det samme som min?
 
 # Parametere og argumenter {.protip}
 

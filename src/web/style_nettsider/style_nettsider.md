@@ -2,6 +2,10 @@
 title: "CSS: Style nettsider"
 level: 2
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior]
 ---
 
 # Introduksjon {.intro}
@@ -39,11 +43,11 @@ På denne måten slipper vi å håndere flere filer, vi kan ha alt vi trenger i 
 
 
 
-+ Åpne index.html fra mappen Felix som vi lagde i oppgaven [Forvunnet katt](../forsvunnet_katt/forsvunnet_katt.html) eller last ned filen ved å høyreklikke og trykk `lagre som`: [index.html](../forsvunnet_katt/ressurser/index.html). Lag en mappe som heter `Felix` og legg `index.html` i den.
+- [ ] Åpne index.html fra mappen Felix som vi lagde i oppgaven [Forvunnet katt](../forsvunnet_katt/forsvunnet_katt.html) eller last ned filen ved å høyreklikke og trykk `lagre som`: [index.html](../forsvunnet_katt/ressurser/index.html). Lag en mappe som heter `Felix` og legg `index.html` i den.
 
 
 
-+ I seksjonen `<head>` trenger vi en __style-tag__.
+- [ ] I seksjonen `<head>` trenger vi en __style-tag__.
 ```html
  <style>
  </style>
@@ -59,8 +63,8 @@ Selektorer kan være html-element som `h1`, `p`, `img`, `a`, eller `id-er` og `k
 
 `Property` eller `attributt` er gjerne en egenskap man kan tilegne selektoren, sammen med en verdi, `value`. Eksempler på `property` og `value` kan være `color: blue;`, `background-color: red;` og ` font-family: "Times New Roman", Serif;`.
 
-+ Kan du finne knappene for `{` og `}` på ditt tastatur?
-+ Hva med `:` og `;`?
+- [ ] Kan du finne knappene for `{` og `}` på ditt tastatur?
+- [ ] Hva med `:` og `;`?
 
 
 Finner du dem ikke, så få hjelp av noen til å finne dem for deg, fordi disse er viktige. Dersom du ikke har med `{ }`, `:`eller `;` på de riktige stedene, så vil ikke HTML-en din få stil. Derfor er det viktig å allerede nå å vite hvor man finner `{ }`, `:`eller `;` på tastaturet.
@@ -83,17 +87,17 @@ __NB! Husk å sette `;` etter `value`.__
 
 Overskriften skal nå være `rød`! Det finnes forskjellige måter å representere en farge på. Det er 16 grunnleggende fargenavn: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, og yellow.
 
-+ Prøv og endre fargen til noe annet!
+- [ ] Prøv og endre fargen til noe annet!
 
 De fleste nettlesere støtter i tillegg 130 andre fargenavn, hele listen i alfabetisk rekkefølge kan dere finne på
 [http://www.w3.org/TR/css3-color/#svg-color](http://www.w3.org/TR/css3-color/#svg-color). Er din favorittfargen i listen?
 
-+ Men vi kan bruke enda flere farger gjennom å bruke den heksadesimale koden istedenfor navnet. En heksadesimal kode er en `#` fulgt av 6 tegn der tegnene kan være sifferne 0-9 eller bokstavene A, B, C, D, E, F. Gjennom å bruke heksadesimale koder kan vi representere mer enn 16 millioner farger.
+- [ ] Men vi kan bruke enda flere farger gjennom å bruke den heksadesimale koden istedenfor navnet. En heksadesimal kode er en `#` fulgt av 6 tegn der tegnene kan være sifferne 0-9 eller bokstavene A, B, C, D, E, F. Gjennom å bruke heksadesimale koder kan vi representere mer enn 16 millioner farger.
 
 
-+ Kodeklubben sin favorittfarge er `#58AB57`. Kan du gjette hvilken farge det er? Prøv å endre noen tekst til den fargen og se hvordan det ser ut i en nettleser.
+- [ ] Kodeklubben sin favorittfarge er `#58AB57`. Kan du gjette hvilken farge det er? Prøv å endre noen tekst til den fargen og se hvordan det ser ut i en nettleser.
 
-+ Prøve å endre teksten, `<p>`, på siden til denne fargen: `#58AB57`.
+- [ ] Prøve å endre teksten, `<p>`, på siden til denne fargen: `#58AB57`.
 
 <toggle>
  <strong>Hint</strong>
@@ -107,9 +111,9 @@ De fleste nettlesere støtter i tillegg 130 andre fargenavn, hele listen i alfab
    </hide>
 </toggle>
 
-+ Bruk [www.colorpicker.com](http://www.colorpicker.com) til å finne en farge du liker. Colorpicker genererer det nummer du trenger, så kan du enkelt klippe og lime det inn i koden din.
+- [ ] Bruk [www.colorpicker.com](http://www.colorpicker.com) til å finne en farge du liker. Colorpicker genererer det nummer du trenger, så kan du enkelt klippe og lime det inn i koden din.
 
-+ Finn en farge du liker med `Colorpicker` og endre teksten på siden til den fargen du fant.
+- [ ] Finn en farge du liker med `Colorpicker` og endre teksten på siden til den fargen du fant.
 
 ## __LAGRE__ filen og __VISE__ den i nettleseren din {.save}
 
@@ -165,7 +169,7 @@ Legg merke til at kun bakgrunnen til `h1` blir svart og ikke hele siden. For å 
 # Steg 5: Morro med tekst {.activity}
 Kanskje skulle tittelen være __større__ og med store bokstaver. Vi kan spesifisere størrelsen på teksten gjennom å bruke `font-size`. Verdiene kan være forskjellige, men de mest brukte er 12, 14, 16, 32, 48 og 72 piksler.
 
-+ La oss prøve ut `72px` for nå. (px betyr piksel)
+- [ ] La oss prøve ut `72px` for nå. (px betyr piksel)
 
 ```css
 h1 {
@@ -175,7 +179,7 @@ h1 {
 }
 ```
 
-+ Nå skal du forsøke å endre tittelen til å være kun i store bokstaver bare gjennom å bruke `text-transform:uppercase;` Vi kan også gjøre den understreket gjennom å bruke `text-decoration:underline;`
+- [ ] Nå skal du forsøke å endre tittelen til å være kun i store bokstaver bare gjennom å bruke `text-transform:uppercase;` Vi kan også gjøre den understreket gjennom å bruke `text-decoration:underline;`
 
 ## Nå skal du __LAGRE__ filen og se hvordan den ser ut. {.save}
 
@@ -268,5 +272,5 @@ Men vær forsiktig, det finnes noen stiler som ikke blir videreført.
 
 ## Videre studier {.try}
 
-+ Hvordan ville du endret på siden for å få den til å se bedre ut? Hvorfor ikke prøve å bruke alle dine favorittfarger? Finnes din farge som et navn eller må du bruke en heksadesimal kode?
-+ Hvis du blir fort ferdig kan du gå tilbake å legge på stiler for tidigere leksjoner.
+- [ ] Hvordan ville du endret på siden for å få den til å se bedre ut? Hvorfor ikke prøve å bruke alle dine favorittfarger? Finnes din farge som et navn eller må du bruke en heksadesimal kode?
+- [ ] Hvis du blir fort ferdig kan du gå tilbake å legge på stiler for tidigere leksjoner.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hvor gammel er du?
 level: 2
 author: Sindre O. Rasmussen, Kodeklubben Trondheim
@@ -20,9 +20,9 @@ print(2)
 print(2+2)
 print('2+2')
 ```
-Kan du forklare det som skjer?
+- [ ] Kan du forklare det som skjer?
 
-Husk å ta bort eksemplene når du forsetter med oppgaven
+- [ ] Husk å ta bort eksemplene når du forsetter med oppgaven
 
 ## Gjøre selv{.check}
 **Skriv ut teksten under. Den skal dekke 3 linjer.**
@@ -57,14 +57,14 @@ Husk å ta bort eksemplene når du forsetter med oppgaven
 ## Gjøre selv {.check}
 **Fortsett med koden du har fra del 1.**
 
-- Lag to variabler som du selv gir navnet på. Den ene variabelen skal være dette året, altså <span id="aar">2016</span>. Den andre variabelen skal være året du ble født i.
+- [ ] Lag to variabler som du selv gir navnet på. Den ene variabelen skal være dette året, altså <span id="aar">2016</span>. Den andre variabelen skal være året du ble født i.
   <script>document.getElementById('aar').innerHTML = new Date().getFullYear()</script>
 
-- Lag så en tredje variabel som skal inneholde alderen din. Hvordan kan du regne ut alderen ved hjelp av variablene i steget over?
+- [ ] Lag så en tredje variabel som skal inneholde alderen din. Hvordan kan du regne ut alderen ved hjelp av variablene i steget over?
 
-- Skriv ut teksten: `Jeg regnet ut at alderen din er:`
+- [ ] Skriv ut teksten: `Jeg regnet ut at alderen din er:`
 
-- Skriv ut variabelen som inneholder alderen din.
+- [ ] Skriv ut variabelen som inneholder alderen din.
 
 # Del 3: Innputt {.activity}
 **Hva:** Innputt er en måte vi kan hente tekst som skrives på tastaturet.
@@ -85,8 +85,8 @@ print(2+tall)
 ## Gjøre selv {.check}
 **Du skal nå endre på koden som du skrev i del 2**.
 
-- Bruk `input()` slik at variabelen for året du er født lagres ved hjelp av innputt når programmet kjøres.
-- Test at det fungerer. Husk at året du skriver må være et tall, ikke tekst.
+- [ ] Bruk `input()` slik at variabelen for året du er født lagres ved hjelp av innputt når programmet kjøres.
+- [ ] Test at det fungerer. Husk at året du skriver må være et tall, ikke tekst.
 
 # Del 4: If-setningen{.activity}
 
@@ -130,10 +130,10 @@ else:
 ## Gjøre selv {.check}
 **Fortsett med koden fra del 3.**
 
-- Lag en ny variabel som tar inn tekst som innputt. Teksten som kommer opp når programmet spør om innputt skal være `Stemmer det at du er så gammel?`
+- [ ] Lag en ny variabel som tar inn tekst som innputt. Teksten som kommer opp når programmet spør om innputt skal være `Stemmer det at du er så gammel?`
 
-- Skriv en *if-setning* som sjekker om teksten i variabelen er `ja`.
+- [ ] Skriv en *if-setning* som sjekker om teksten i variabelen er `ja`.
 
-- Hvis teksten er `ja`, skriv ut teksten: `Der ser du, jeg er kjempeflink i matematikk!`
+- [ ] Hvis teksten er `ja`, skriv ut teksten: `Der ser du, jeg er kjempeflink i matematikk!`
 
-- Hvis teksten ikke er `ja`, mink aldervariabelen med 1 og skriv ut den riktige alderen i lag med en forklarende tekst.
+- [ ] Hvis teksten ikke er `ja`, mink aldervariabelen med 1 og skriv ut den riktige alderen i lag med en forklarende tekst.

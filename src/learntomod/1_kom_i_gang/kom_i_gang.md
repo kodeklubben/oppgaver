@@ -11,37 +11,37 @@ I denne veiledningen skal du lage en konto på Learn To Mod (LTM) og koble den t
 # Lage en LTM-konto {.activity}
 
 ## Sjekkliste {.check}
-- Åpne nettleseren din (Chrome, Internett Explorer, Firefox eller Safari).
-- Gå til adressen *[learntomod.com]*.
-- Du skal komme til en side som ser sånn ut:
+- [ ] Åpne nettleseren din (Chrome, Internett Explorer, Firefox eller Safari).
+- [ ] Gå til adressen *[learntomod.com]*.
+- [ ] Du skal komme til en side som ser sånn ut:
 
   ![](1_learntomod.png)
 
-- Trykk på knappen øverst til høyre som heter **Login**, ikke klikk på **Sign Up** enda.
+- [ ] Trykk på knappen øverst til høyre som heter **Login**, ikke klikk på **Sign Up** enda.
 
   ![](2_login.png)
 
-- Trykk på **Create an account!** for å registrere en konto.
-- Fyll inn epost og passord.
-- Klikk på **Submit**.
-- Det er smart å velge et passord som du husker. Lagre gjerne passordet om du får beskjed om det.
+- [ ] Trykk på **Create an account!** for å registrere en konto.
+- [ ] Fyll inn epost og passord.
+- [ ] Klikk på **Submit**.
+- [ ] Det er smart å velge et passord som du husker. Lagre gjerne passordet om du får beskjed om det.
 
 [learntomod.com]: http://www.learntomod.com
 
 # Logge inn på LTM {.activity}
 
 ## Sjekkliste {.check}
-- Logg deg inn ved å fylle ut epost og passord:
+- [ ] Logg deg inn ved å fylle ut epost og passord:
 
   ![](3_konto.png)
 
-- Første gang du er med på kurs må du angi en klassekode.
-- Klassekoden får du av den som holder kurset.
-- Fyll klassekoden i det feltet som heter **Class Key**.
-- Du får spørsmål om hva som skal være ditt **Nickname**.
-- Du kan bruke det navnet du vil, for eksempel det samme som du kaller deg i minecraft, men ikke start navnet med tall.
-- Fyll ut navnet og trykk på knappen.
-- Du skal nå få opp hjemmesiden:
+- [ ] Første gang du er med på kurs må du angi en klassekode.
+- [ ] Klassekoden får du av den som holder kurset.
+- [ ] Fyll klassekoden i det feltet som heter **Class Key**.
+- [ ] Du får spørsmål om hva som skal være ditt **Nickname**.
+- [ ] Du kan bruke det navnet du vil, for eksempel det samme som du kaller deg i minecraft, men ikke start navnet med tall.
+- [ ] Fyll ut navnet og trykk på knappen.
+- [ ] Du skal nå få opp hjemmesiden:
 
   ![](image4.jpeg)
 
@@ -49,22 +49,22 @@ I denne veiledningen skal du lage en konto på Learn To Mod (LTM) og koble den t
 Hvis det er første gang du er med på kurset vil du se et grønt felt som sier **Server status: Offline**. Altså må du koble til Minecraft kontoen din.
 
 ## Sjekkliste {.check}
-- Klikk på det grønne feltet hvor det står **Server status: Offline**.
-- Du kommer til en side som dette:
+- [ ] Klikk på det grønne feltet hvor det står **Server status: Offline**.
+- [ ] Du kommer til en side som dette:
 
   ![](image5.jpeg)
 
-- Gå nedover på siden til du kommer til **Step 3**:
+- [ ] Gå nedover på siden til du kommer til **Step 3**:
 
   ![](image6.jpeg)
 
-- Skriv brukernavnet ditt i Minecraft inn i feltet.
-- Trykk på knappen **Connect**.
-- Det vil komme opp et vindu som sier at du har fått en badge.
-- Knappen som heter **Back to badges** fungerer ikke enda, så du må må lukke vinduet.
-- Trykk på bakoverknappen i nettleseren for å komme til hjemmesiden.
-- Oppfrisk siden eller trykk på **Home** øverst til venstre for å friske opp siden.
-- Hjemmesiden skal nå vise **Server status: Online** i det grønne feltet til venstre:
+- [ ] Skriv brukernavnet ditt i Minecraft inn i feltet.
+- [ ] Trykk på knappen **Connect**.
+- [ ] Det vil komme opp et vindu som sier at du har fått en badge.
+- [ ] Knappen som heter **Back to badges** fungerer ikke enda, så du må må lukke vinduet.
+- [ ] Trykk på bakoverknappen i nettleseren for å komme til hjemmesiden.
+- [ ] Oppfrisk siden eller trykk på **Home** øverst til venstre for å friske opp siden.
+- [ ] Hjemmesiden skal nå vise **Server status: Online** i det grønne feltet til venstre:
 
   ![](image7.jpeg)
 
@@ -73,18 +73,18 @@ Til slutt må du logge på Learn To Mod sin Minecraft-server, slik at du
 kan kjøre moddene dine i Minecraft.
 
 ## Sjekkliste {.check}
-- Åpne Minecraft.
-- Trykk på knappen **Play**.
-- Velg **Multiplayer**.
-- Velg **Add Server**.
-- Fyll inn navnet `Learntomod` og adresse `play.learntomod.com`:
+- [ ] Åpne Minecraft.
+- [ ] Trykk på knappen **Play**.
+- [ ] Velg **Multiplayer**.
+- [ ] Velg **Add Server**.
+- [ ] Fyll inn navnet `Learntomod` og adresse `play.learntomod.com`:
 
   ![](image8.jpeg)
 
-- Trykk på knappen **Done**.
-- Serveren blir nå lagt til i serverlisten din.
-- Koble deg til ved å dobbeltklikke på serveren i listen.
-- Når du er tilkoblet skal du komme til din egen verden. Det vil stå **Loading your private server** i noen sekunder før verdenen din starter i **creative mode**.
+- [ ] Trykk på knappen **Done**.
+- [ ] Serveren blir nå lagt til i serverlisten din.
+- [ ] Koble deg til ved å dobbeltklikke på serveren i listen.
+- [ ] Når du er tilkoblet skal du komme til din egen verden. Det vil stå **Loading your private server** i noen sekunder før verdenen din starter i **creative mode**.
 
 # Ved neste kurs {.activity}
 Når du kommer på kurset neste gang trenger du ikke gjøre alt på nytt. Da holder det å logge inn på siden [learntomod.com] og logge på serveren til Learn To Mod i Minecraft.
