@@ -51,8 +51,6 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 - [ ] Høy måloppnåelse: Eleven klarer å videreutvikle egen kode basert på oppgaven.
-    - [ ] Eleven klarer å lage en ny animasjon med andre bilder, tekst og bakgrunn.
-
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Kjennskap til HTML og CSS.
