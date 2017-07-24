@@ -1,6 +1,5 @@
 ---
 title: Java FX
-tags:
 language: nb
 ---
 

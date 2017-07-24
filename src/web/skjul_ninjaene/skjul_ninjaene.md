@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Trude Martinsen
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [arts_and_crafts, mathematics, programming, technology]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

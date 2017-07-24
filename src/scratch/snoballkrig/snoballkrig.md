@@ -3,6 +3,10 @@ title: Snøballkrig
 level: 4
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
