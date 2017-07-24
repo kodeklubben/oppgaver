@@ -8,9 +8,9 @@ Level: 2
 I denne oppgaven blir du introdusert for programmeringsspråket JavaScript. Du skal gjøre den klassiske oppgaven _Hei verden_, med en katt.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering
+ __Fag__: Programmering, Informasjonsteknologi 2
 
-__Anbefalte trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8. trinn - VG3
 
 __Tema__: JavaScript, web, html, funksjoner, variabler
 
@@ -19,21 +19,27 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
 
-- [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett er tekstbasert
+- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert
+
+- [ ] __Informasjonsteknologi 2, VG3__: definere variabler og velge hensiktsmessige datatyper
+
+- [ ] __Informasjonsteknologi 2, VG3__: tilordne uttrykk til variabler
+
+- [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres funksjoner eller metoder med parametere
 
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Eleven kan lage enkle funksjoner i JavaScript
-- [ ] Eleven kan skrive ut til konsoll i en nettleser
-- [ ] Eleven forstår hva en variabel er
-- [ ] Eleven kan bruke HTML sammen med JavaScript
+- [ ] Eleven kan lage enkle funksjoner i JavaScript.
+- [ ] Eleven kan skrive ut til konsoll i en nettleser.
+- [ ] Eleven kan beskrive å bruke variabler og parametre.
+- [ ] Eleven kan bruke HTML sammen med JavaScript.
 
 ## Forslag til vurderingskriterier {.challenge}
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse av HTML.
@@ -61,7 +67,7 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske op
 - [ ] Når elevene deler prosjektet er det viktig at elevene som skal åpne prosjektet må sende riktig nettadresse. Nettadressen har gjerne tall, små og store bokstaver.
 
 # Steg 5: Lagre prosjektet på datamaskinen din {.activity}
-- [ ] Elevene må huske hvor de har lagret filen, slik at de klarer å finne den igjen. 
+- [ ] Elevene må huske hvor de har lagret filen, slik at de klarer å finne den igjen.
 
 ## Variasjoner {.challenge}
 - [ ] Elevene kan lage egne funksjoner som skriver til konsollen.
