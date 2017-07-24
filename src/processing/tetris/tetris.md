@@ -7,9 +7,9 @@ language: nb
 
 # Introduksjon {.intro}
 
-Lag starten på ditt eget tetris spill! 
+Lag starten på ditt eget tetris spill!
 
-Det du skal gjøre i denne oppgava er først å sette opp bakgrunnen til spillet og så rett og slett å få firkanter til å falle over skjermen. 
+Det du skal gjøre i denne oppgava er først å sette opp bakgrunnen til spillet og så rett og slett å få firkanter til å falle over skjermen.
 
 Slik vil det se ut når du er ferdig med oppgava:
 
@@ -19,9 +19,9 @@ For hvert steg kommer det en forklaring og litt eksempler, på slutten av hvert 
 
 # Steg 1: Lag dine første to metoder {.activity}
 
-La oss starte med å sette opp et vanlig vindu, dersom du ikke har åpna Processing, så må du gjøre det nå. 
+La oss starte med å sette opp et vanlig vindu, dersom du ikke har åpna Processing, så må du gjøre det nå.
 
-Lagre programmet ditt, dette gjør du ved å velge `File` og deretter `Save As`, det anbefales at du gir koden din et navn som har noe med spillet å gjøre, slik at det er lett å finne igjen. Det er også lurt å lagre koden på et sted som er lett å huske. 
+Lagre programmet ditt, dette gjør du ved å velge `File` og deretter `Save As`, det anbefales at du gir koden din et navn som har noe med spillet å gjøre, slik at det er lett å finne igjen. Det er også lurt å lagre koden på et sted som er lett å huske.
 
 Processing er en kode editor, det betyr at du kan skrive kode i den. Den første koden du skal skrive er en kodesnutt som setter opp to metoder. Alt som skrives i den første metoden skjer en gang, mens det som står i den andre metoden skjer på nytt og på nytt helt til programmet avsluttes. Navnet på de to metodene er `setup` og `draw`, nå viser vi hvordan vi skriver setup metoden og så kan du forsøke å skive draw metoden selv. De to metodene skal være helt like bortsett fra navnet:
 
@@ -46,20 +46,20 @@ Nå skal du bestemme størrelsen på vinduet, det gjør du ved å bruke en metod
 
 ### Forklaring av parametre {.protip}
 
-Inni parentesene må man ofte sette inn informasjon, dette kalles parametere eller argumenter. Parameterne som må oppgis når man setter størrelsen på et vindu er rett og slett hvor stor man vil ha vinduet. 
+Inni parentesene må man ofte sette inn informasjon, dette kalles parametere eller argumenter. Parameterne som må oppgis når man setter størrelsen på et vindu er rett og slett hvor stor man vil ha vinduet.
 
-Når man kaller på en metode er det ikke alltid man vet nøyatktig hvilke parametre som skal legges ved. Da kan man enten søke etter svaret på internett, eller man kan gjøre et metodekall uten parametre. Gjør du sistnevnte, vil du få opp en feilmelding neders på skjermen. Feilmeldingen forteller hvor mange og hvilken type parametre som skal skrives i parentesene. Hvert parameter skilles av kommategn.  
+Når man kaller på en metode er det ikke alltid man vet nøyatktig hvilke parametre som skal legges ved. Da kan man enten søke etter svaret på internett, eller man kan gjøre et metodekall uten parametre. Gjør du sistnevnte, vil du få opp en feilmelding neders på skjermen. Feilmeldingen forteller hvor mange og hvilken type parametre som skal skrives i parentesene. Hvert parameter skilles av kommategn.
 #
 
-Parametrene til metodekallet som bestemmer størrelsen på vinduet er oppgitt i piksler, så det kommer litt ann på skjermen din hvor mange piksler du ønsker at vinduet skal være. Prøv for eksempel med 600 og 900, og så kan du endre ett og ett tall helt til du får et vindu som du synes har riktig størrelse. 
+Parametrene til metodekallet som bestemmer størrelsen på vinduet er oppgitt i piksler, så det kommer litt ann på skjermen din hvor mange piksler du ønsker at vinduet skal være. Prøv for eksempel med 600 og 900, og så kan du endre ett og ett tall helt til du får et vindu som du synes har riktig størrelse.
 
 Slik kaller du på metoden som bestemmer størrelsen på vinduet:
 
 ```processing
     size(600, 900);
-``` 
+```
 
-Denne kodelinja må skrives inni setup metoden din, det betyr mellom de to krøllparentesene som står etter parentesene til setup. Krøllparentesene er `{` og `}`. 
+Denne kodelinja må skrives inni setup metoden din, det betyr mellom de to krøllparentesene som står etter parentesene til setup. Krøllparentesene er `{` og `}`.
 
 
 
@@ -71,11 +71,11 @@ Denne kodelinja må skrives inni setup metoden din, det betyr mellom de to krøl
 
 ### Forklaring av `background` {.protip}
 
-På samme måte som `size` så er det også en ferdigskrevet metode som gjør at man kan bestemme hvilken bakgrunnsfarge man ønsker. Denne heter `background` og trenger enten ett eller tre parametre for å fungere. Alle parameterne må være heltall, eller `int` som det heter når man programerer. I tillegg må de være mellom 0 og 255. 
+På samme måte som `size` så er det også en ferdigskrevet metode som gjør at man kan bestemme hvilken bakgrunnsfarge man ønsker. Denne heter `background` og trenger enten ett eller tre parametre for å fungere. Alle parameterne må være heltall, eller `int` som det heter når man programerer. I tillegg må de være mellom 0 og 255.
 
-Dersom man bare har ett parameter, så får man hvit farge ved å skrive 255, svart ved å skrive 0 og grå i forskjellige nyanser ved å variere mellom 0 og 255. Tallene bestemmer hvor sterk lyspærene inni pc-skjermen skal lyse. 
+Dersom man bare har ett parameter, så får man hvit farge ved å skrive 255, svart ved å skrive 0 og grå i forskjellige nyanser ved å variere mellom 0 og 255. Tallene bestemmer hvor sterk lyspærene inni pc-skjermen skal lyse.
 
-Det brukes RGB farger, altså rød, grønn, blå. Det betyr at det første tallet bestemmer styrken på det røde lyset, det andre på det grønne det siste på det blå, så kan man blande farger og variere lysstyrken slik at man får akkurat den fargen man ønsker. 
+Det brukes RGB farger, altså rød, grønn, blå. Det betyr at det første tallet bestemmer styrken på det røde lyset, det andre på det grønne det siste på det blå, så kan man blande farger og variere lysstyrken slik at man får akkurat den fargen man ønsker.
 #
 
 Her er de to måtene å kalle på metoden som setter bakgrunnsfargen:
@@ -88,11 +88,11 @@ og
     background(70);`
 ```
 
-Husk å avslutt metodekallet med semikolon. Dette metodekallet skal også inn i setup metoden din. 
+Husk å avslutt metodekallet med semikolon. Dette metodekallet skal også inn i setup metoden din.
 
 ## Prøv selv {.check}
 - [ ] Test med å først bare ha ett tall inni parentesen og endre på tallet, hva får du? Endre tallet minst 4 ganger og sjekk hvilken farge du får.
-- [ ] Få bakgrunnsfargen til å bli svart. 
+- [ ] Få bakgrunnsfargen til å bli svart.
 - [ ] Få bakgrunnsfargen til å bli helt lysegrå.
 - [ ] Få bakgrunnsfargen til å bli hvit.
 - [ ] Prøv å sett inn tre forskjellige tall, og så endrer du på ett og ett av disse, hva skjer?
@@ -104,15 +104,15 @@ Husk å avslutt metodekallet med semikolon. Dette metodekallet skal også inn i 
 
 Her er et bilde av hvordan koden din skal se ut nå, (husk at du sikkert har funnet litt andre tall enn vi har som parameter i metodekallene inni setup).
 
-![](steg2.png) 
+![](steg2.png)
 
 # Steg 3: Lag en firkant {.activity}
 
-Nå skal du lage firkanten som senere skal falle over skjermen. For å lage en firkant bruker vi metodekallet `rect`. Dette trenger fire parameter, som bestemmer hvor firkanten skal plasseres og hvor stor den skal være. Metodekallet på `rect` skal du skrive inni draw metoden. 
+Nå skal du lage firkanten som senere skal falle over skjermen. For å lage en firkant bruker vi metodekallet `rect`. Dette trenger fire parameter, som bestemmer hvor firkanten skal plasseres og hvor stor den skal være. Metodekallet på `rect` skal du skrive inni draw metoden.
 
 Start for eksempel med disse tallene:
 
-```processing 
+```processing
     rect(275, 10, 50, 50);
 ```
 
@@ -139,13 +139,13 @@ For å få firkanten til å falle må vi gjøre to ting. Vi må opprette en vari
 
 ### Forklaring av variabel {.protip}
 
-En variabel er noe som kan endre seg. Vi vil jo gjerne at firkanten skal bevege seg nedover skjermen, altså at firkanten skal endre posisjonen. Dette gjør vi ved å putte inn en variabel i stede for tallet som bestemmer posisjonen til firkanten. 
+En variabel er noe som kan endre seg. Vi vil jo gjerne at firkanten skal bevege seg nedover skjermen, altså at firkanten skal endre posisjonen. Dette gjør vi ved å putte inn en variabel i stede for tallet som bestemmer posisjonen til firkanten.
 
-I den virkelige verden finnes det også variabler som man må endre og så har vi andre tall som alltid er de samme. For eksempel i en håndballkamp har man mange tall. Alle spillerne har sitt eget nummer på drakta. Ingen av spillerne skal bytte nummer under kampen, så derfor er nummeret trykka rett på skjorta. Det er også tall som viser hva stillingen i kampen er. Dette er ofte vist på ei svær tavle. Her endres tallene. Det hadde ikke funka å trykka stillingen på ei skjorte før kampen. Derfor har de laga tavler, slik at stillingen kan oppdateres etterhvert som lagene får poeng. På samme måte, så lager vi variabler i programmering, slik at vi kan oppdatere de etterhvert som noe skjer i programmet. Alle variabler har sitt eget navn, slik som "poeng", "liv", "fart" eller lignende. Når de skal oppdateres, skriver vi for eksempel: `liv = 2`. 
+I den virkelige verden finnes det også variabler som man må endre og så har vi andre tall som alltid er de samme. For eksempel i en håndballkamp har man mange tall. Alle spillerne har sitt eget nummer på drakta. Ingen av spillerne skal bytte nummer under kampen, så derfor er nummeret trykka rett på skjorta. Det er også tall som viser hva stillingen i kampen er. Dette er ofte vist på ei svær tavle. Her endres tallene. Det hadde ikke funka å trykka stillingen på ei skjorte før kampen. Derfor har de laga tavler, slik at stillingen kan oppdateres etterhvert som lagene får poeng. På samme måte, så lager vi variabler i programmering, slik at vi kan oppdatere de etterhvert som noe skjer i programmet. Alle variabler har sitt eget navn, slik som "poeng", "liv", "fart" eller lignende. Når de skal oppdateres, skriver vi for eksempel: `liv = 2`.
 
-For å lage en variabel, så må vi først sette av plass i minnet til pcen, slik at den tar vare på et tall. Da trenger ikke pcen å vite hva tallet er, men den har satt av plassen slik at det er ledig når vi begynner å bruke det. 
+For å lage en variabel, så må vi først sette av plass i minnet til pcen, slik at den tar vare på et tall. Da trenger ikke pcen å vite hva tallet er, men den har satt av plassen slik at det er ledig når vi begynner å bruke det.
 
-Når vi skal lage en variabel i Processing, så må vi si hvilken datatype variabelen skal inneholde. Eksempler på datatyper kan være `int` for heltall, `float` for desimaltall, eller `String` for tekst. 
+Når vi skal lage en variabel i Processing, så må vi si hvilken datatype variabelen skal inneholde. Eksempler på datatyper kan være `int` for heltall, `float` for desimaltall, eller `String` for tekst.
 #
 
 Vi starter med å sette av plass i minnet, det heter å deklarere, eller opprette variabelen. Typen skal være `int`. Vi må gi et navn til variabelen, vi har valgt `posisjonY`, men du kan velge hvilket navn du ønsker. Hele kodelinja ser slik ut og skal stå over `setup` metoden:
@@ -179,7 +179,7 @@ Her er koden så langt.
 
 # Steg 5: Beveg firkanten {.activity}
 
-Nå må vi få firkanten til å bevege seg. Som vi skrev helt til å begynne med, så fungerer `draw` metoden slik at den repeteres, all koden inni `draw` bli lest gjennom fra toppen og til bunn og når programmet er kommet til bunn av `draw`, da bare hopper det opp til starten og leser gjennom koden en gang til. Dette skjer helt til vi avslutter programmet. 
+Nå må vi få firkanten til å bevege seg. Som vi skrev helt til å begynne med, så fungerer `draw` metoden slik at den repeteres, all koden inni `draw` bli lest gjennom fra toppen og til bunn og når programmet er kommet til bunn av `draw`, da bare hopper det opp til starten og leser gjennom koden en gang til. Dette skjer helt til vi avslutter programmet.
 
 For å få firkanten til å endre seg, så må vi oppdatere `posisjonY`, det gjør vi ved å skrive dette inni `draw metoden`:
 
