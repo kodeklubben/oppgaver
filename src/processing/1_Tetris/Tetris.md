@@ -13,7 +13,7 @@ Det du skal gjøre i denne oppgava er først å sette opp bakgrunnen til spillet
 
 Slik vil det se ut når du er ferdig med oppgava:
 
-![](preview.PNG)
+![](preview.png)
 
 For hvert steg kommer det en forklaring og litt eksempler, på slutten av hvert steg kommer et bilde av hele koden som er forklart, bruk bilde dersom du trenger det, men forsøk å skriv koden på egenhånd først.
 
@@ -33,7 +33,7 @@ void setup(){
 
 Nå må du kjøre koden for å sjekke at metodene fungerer. For å kjøre koden trykker du på `play` knappen opp til venstre i Proccesing programmet. Dersom all koden din er riktig skal du få opp et lite vindu som ser slik ut:
 
-![](steg0vin.PNG)
+![](steg0vin.png)
 
 Her er hele koden slik den skal se ut nå, dobbelsjekk at du har skrevet alt riktig før du går videre:
 
@@ -131,7 +131,7 @@ Sett en farge på firkanten ved å gjøre et metodekall på `fill`, denne tar tr
 
 Her er vår kode så langt, husk at du sikkert har valgt andre parametre.
 
-![](Steg3.png)
+![](steg3.png)
 
 # Steg 4: Lag en variabel {.activity}
 
