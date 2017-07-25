@@ -39,12 +39,12 @@ På bildet ser du at spillederen er i midten og har poengsummen til spiller 1 og
 
 # Steg 2: Programmere spillederen {.activity}
 
-*Når spillet skal starte så må vi sørge for at alle micro:bitene kan kommunisere med hverandre, og da må vi bestemme et gruppe-nummer som alle deltagere bruker når man sender informasjon over Bluetooth. I tilleg må vi lagre at vi har sendt ut en melding til deltagere, slik at vi ikke sender ut flere meldinger før vi har fått svar på den forrige.*
+*Når spillet skal starte så må vi sørge for at alle micro:bitene kan kommunisere med hverandre, og da må vi bestemme et gruppe-nummer som alle deltagere bruker når man sender informasjon over Bluetooth. I tillegg må vi lagre at vi har sendt ut en melding til deltagere, slik at vi ikke sender ut flere meldinger før vi har fått svar på den forrige.*
 
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}.
 
 - [ ] Finn blokken `ved start` under *Basis* og dra den inn i kodefeltet.
 
@@ -134,7 +134,9 @@ I oppgaven antar vi at vi har fem spillere. Dersom dere er færre spillere enn d
 
 - [ ] Under `endre Player1 med 1` legger du til `radio send tekst` med tallet `1`. Da sender vi beskjed til alle om hvem som vant. Legg også til `vis tall` med tallet `1`. Da viser vi det også på spillederen sin micro:bit.
 
-- [ ] Så legger vi til en pause på `1` sekund før vi går videre til neste runde. Dette gjør du ved å legge til blokken `pause (ms)` og setter den til `1000`. Tusen millisekund er det samme som ett sekund.
+- [ ] Så legger vi til en pause på `1` sekund mellom de to `hvis-blokkene` før vi går videre til neste runde. Dette gjør du ved å legge til blokken `pause (ms)` og setter den til `1000`. Tusen millisekund er det samme som ett sekund.
+
+- [ ] Til slutt endrer vi `MessageSent` til `usann`.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
@@ -244,6 +246,8 @@ Husk å endre hvilket nummer hver spiller er mellom hver nye microbit du kobler 
 
 - [ ] Legge til flere elementer som spillerne skal reagere på. For eksempel dersom micro:biten ristes.
 
-- [ ] Endre koden til spilleder slik at Micro:biten automatisk velger helt tilfeldig hva spillerne skal herme etter.
+- [ ] Endre koden til spilleder slik at micro:biten automatisk velger helt tilfeldig hva spillerne skal herme etter.
 
-- [ ] Endre koden slik at det er mulig å jukse i spillet.
+- [ ] Endre koden slik at det er mulig å jukse i spillet for spillerne. Kan du gjøre slik at de alltid svarer rett? Kan du gjøre slik at en spiller alltid svarer raskest?
+
+- [ ] Endre koden til spillederen slik at han sjekker at spillerne faktisk har svart rett, for å passe på at de ikke har jukset. Vær obs på at du da også må endre på spillerne sin kode.
