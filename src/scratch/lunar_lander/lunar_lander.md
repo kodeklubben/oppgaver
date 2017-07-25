@@ -3,6 +3,10 @@ title: Lunar Lander
 level: 4
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, game]
+    subject: [arts_and_crafts, mathematics, science, programming]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

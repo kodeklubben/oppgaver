@@ -3,6 +3,10 @@ title: "JS: Hei JavaScript!"
 level: 1
 author: Arve Seljebu
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming]
+    grade: [junior]
 ---
 
 # Introduksjon {.intro}
@@ -17,7 +21,7 @@ nettside som lar deg programmere JavaScript. Vi kunne også brukt nettleseren
 din direkte, men i JS Bin blir stegene lik for alle, uansett om du bruker
 Internet Explorer, Mozilla Firefox, Chrome, Opera, Safari eller en annen
 nettleser. I tillegg er det med JS Bin mulig å gjøre denne oppgaven på
-nettbrett. 
+nettbrett.
 
 ## Tips {.tip}
 Her er flere måter å kjøre JavaScript-kode på:
@@ -43,7 +47,7 @@ Her er flere måter å kjøre JavaScript-kode på:
 
 ## Forklaring {.tip}
 Her er en forklaring til koden over:
-- `console.log()` betyr at vi ønsker å kjøre kommandoen med navnet `console.log`. Den skriver ut det som er mellom parantesene til `log()` i konsollen. 
+- `console.log()` betyr at vi ønsker å kjøre kommandoen med navnet `console.log`. Den skriver ut det som er mellom parantesene til `log()` i konsollen.
 - `.log` er en av flere utskriftsmetoder. Prøv `console.error`, ser du hva
   forskjellen til `console.log` er?
 - Tekst som skrives ut til konsollen ligger  mellom `"`, slik som `"hei verden"`.
@@ -67,7 +71,7 @@ ta i mot et `navn` og skrive navnet til konsollen.
   ```
 ## Forklaring {.tip}
 - `function hei` betyr at funksjonen skal hete `hei`.
-- `(navn)` betyr at vi kan sende inn data til funksjonen. `navn` blir her en variabel, den holder på en verdi som kan endres. Vi skal se nærmere på dette senere. 
+- `(navn)` betyr at vi kan sende inn data til funksjonen. `navn` blir her en variabel, den holder på en verdi som kan endres. Vi skal se nærmere på dette senere.
 - `{` markerer starten til funksjonen.
 - `}` markerer slutten til funksjonen.
 - Mellom `{` og `}` er det som funksjonen skal gjøre.
@@ -123,7 +127,7 @@ I steg 2 gjorde vi ikke noe annet enn det som `console.log` gjør. Nå skal du f
 - [ ] Kan du endre koden slik at den skriver ut navnet ditt?
 
 ## Forklaring {.tip}
-I funksjonen `hei` vil `navn` være en variabel. Den holder på en verdi og denne verdien kan endres. Først er `navn` det samme som `Emma`, så blir `navn` til `Jens`. Variabler er svært nyttig innfor programmering og vi kommer til å bruke masse variabler fremover. 
+I funksjonen `hei` vil `navn` være en variabel. Den holder på en verdi og denne verdien kan endres. Først er `navn` det samme som `Emma`, så blir `navn` til `Jens`. Variabler er svært nyttig innfor programmering og vi kommer til å bruke masse variabler fremover.
 
 # Steg 4: Katten sier hei {.activity}
 I dette siste steget skal du lage en katt som sier hei.
@@ -192,7 +196,7 @@ Du kan også lagre JavaScript-koden i en egen `.js`-fil, for eksempel `katt.js`.
 ```
 Husk at `katt.js` må da ligge i samme mappe som HTML-filen. Dette skal vi prøve ut senere.
 
-Men for at dette skal funkere må vi skrive om `console.log()` til: 
+Men for at dette skal funkere må vi skrive om `console.log()` til:
 ```js
 document.writeln();
 ```
@@ -234,4 +238,4 @@ Det er også mulig å laste ned prosjektet og lagre det på datamaskinen. La oss
 - [ ] Skriv inn `hei("Ditt navn");` og trykk **Enter**.
 - [ ] Hva skjer?
 
-__Gratulerer!__ Du har nå skrevet ditt første JavaScript-program! 
+__Gratulerer!__ Du har nå skrevet ditt første JavaScript-program!

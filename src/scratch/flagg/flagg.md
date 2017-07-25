@@ -3,6 +3,10 @@ title: Flagg
 level: 3
 author: Sverre Oskar Konestabo og Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, animation]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

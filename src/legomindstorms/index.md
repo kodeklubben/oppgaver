@@ -1,7 +1,5 @@
 ---
 title: LEGO Mindstorms
-tags:
-  tema: [robot]
 language: nb
 ---
 

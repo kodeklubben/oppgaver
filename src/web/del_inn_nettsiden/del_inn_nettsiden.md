@@ -3,6 +3,10 @@ title: "HTML: Del inn nettsiden"
 author: Lars Klingenberg
 level: 3
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior]
 ---
 
 # Introduksjon {.intro}

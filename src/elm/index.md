@@ -1,7 +1,5 @@
 ---
 title: Elm
-tags:
-  tema: [nettside, spill]
 language: nb
 ---
 

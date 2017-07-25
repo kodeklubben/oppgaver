@@ -1,7 +1,5 @@
 ---
 title: Web
-tags:
-  tema: [nettside]
 language: nb
 ---
 

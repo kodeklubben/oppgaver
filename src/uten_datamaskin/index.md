@@ -1,6 +1,5 @@
 ---
 title: Uten datamaskin
-tags:
 language: nb
 ---
 
