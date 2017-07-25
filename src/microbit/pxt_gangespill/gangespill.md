@@ -68,9 +68,11 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 # Steg 3: Kontrollere svar {.activity}
 
+*Nå skal vi sjekke at svaret vi har gitt er korrekt. Dersom man for eksempel får beskjed om å multiplisere tallene 4 og 7, så blir svaret 28. Da må vi trykke to ganger på `Knapp A` for å få 20, og åtte ganger på `Knapp B` for å få 8. Til sammen blir det 28.*
+
 ## Sjekkliste {.check}
 
-- [ ] Når `A+B – knappene` trykkes samtidig, skal den kontrollere om en har regnet korrekt. Da er det viktig å huske at en tier har 10 ganger høyere verdi enn enere når vi setter sammen svaret.
+- [ ] Når `A+B – knappene` trykkes samtidig, skal den kontrollere om en har regnet korrekt. Da legger vi sammen antall `tiere` og antall `enere` som vi har trykket, og lagrer summen av de tallene i varibelen `svar`.
 
   ![](knapp_a_b.png)
 
@@ -82,5 +84,12 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 ## Sjekkliste {.check}
 
-- [ ] En kan lage andre varianter av drilloppgaver til addisjon og subtraksjon.
-	  De som er lysten på en utfordring kan prøve seg på et divisjonsspill.
+- [ ] Klarer du lage et addisjon-spill?
+
+- [ ] Klarer du lage et subtraksjon-spill?
+
+- [ ] Klarer du lage et divisjon-spill?
+
+- [ ] Klarer du lage et potens-spill?
+
+- [ ] Klarer du lage et spill som bruker et annet tallsystem enn titallsystemet?
