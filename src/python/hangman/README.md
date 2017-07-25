@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi lage det klassiske spillet Hangman. Der brukeren prøver å gjette seg frem til et hemmelig ord. 
+I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal gjette seg frem til et hemmelig ord. 
 
 
 ## Oppgaven passer til: {.check}
@@ -60,7 +60,7 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 
 ## Variasjoner {.challenge}
 
-- [ ]  Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
+- [ ] En variasjon er å la ordene en skal gjette seg frem til være faglige. For eksempel verb eller substantiv i fremmedspråkene.
 
 
 ## Eksterne ressurser {.challenge}
