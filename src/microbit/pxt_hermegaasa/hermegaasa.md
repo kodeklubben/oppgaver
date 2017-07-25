@@ -17,7 +17,7 @@ På bildet ser du at spillederen er i midten og har poengsummen til spiller 1 og
 
   *Det er viktig at du har alt utstyr og tilbehør for å kunne gjøre denne oppgaven.*
 
-  ## Sjekkliste {.check}
+## Sjekkliste {.check}
 
   - [ ] 1 micro:bit med en micro-usb-kabel som spilleder.
 
