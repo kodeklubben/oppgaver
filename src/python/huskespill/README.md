@@ -12,13 +12,13 @@ I denne oppgaven skal du lage et huskespill hvor spilleren skal huske flest muli
 
 ## Oppgaven passer til: {.check}
 
- __Fag__:
+ __Fag__: Programmering, Engelsk
 
- __Anbefalte trinn__:
+ __Anbefalte trinn__: 7.-10. trinn
 
- __Tema__: Lister
+ __Tema__: Lister, brukerinteraksjon, if-setninger, spill, while-løkker
 
- __Tidsbruk__:
+ __Tidsbruk__: Dobbelttime
 
 
 ## Kompetansemål {.challenge}
@@ -87,4 +87,3 @@ Dette er nok den "beste" metoden å tømme skjermen på, men bør nok bare nevne
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser 
-
