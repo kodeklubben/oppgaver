@@ -1,6 +1,6 @@
 ---
 title: Tetris
-level: 2
+level: 1
 author: Kine Gjerstad Eide
 language: nb
 ---
@@ -16,7 +16,7 @@ Slik vil det se ut når du er ferdig med oppgava:
 ![](preview.png)
 
 # Steg 1: Lag dine første to metoder {.activity}
-For hvert steg kommer det forklaring, eksempel og på slutten steget et bilde av hele koden. Bruk bildet av koden dersom du trenger det, men forsøk å skriv koden på egenhånd ved hjelp av forklaringen først.
+For hvert steg kommer det forklaring med eksempel og på slutten av steget kommer et bilde av hele koden. Bruk bildet av koden dersom du trenger det, men forsøk å skriv koden på egenhånd ved hjelp av forklaringen først.
 
 ## Første gjøremål {.check}
 
@@ -34,7 +34,7 @@ void setup(){
 }
 ```
 
-Alt som skrives inni metoden med navn `setup` skjer en gang når programmet starter, mens det som står inni `draw` skjer på nytt og på nytt helt til programmet avsluttes.
+Denne metoden heter `setup`. Alt som skrives inni metoden med navn `setup` skjer én gang når programmet starter, mens det som står inni `draw` skjer på nytt og på nytt helt til programmet avsluttes. 
 
 ## Prøv selv {.check}
 
@@ -53,7 +53,6 @@ Her er hele koden slik den skal se ut nå:
 - [ ] Dobbelsjekk at du har skrevet alt riktig før du går videre.
 
 # Steg 2: Vindustørrelse {.activity}
-
 Nå skal du bestemme størrelsen på vinduet, det gjør du ved å bruke en metode som noen allerede har skrevet ferdig. Når vi bruker en metode, så skriver vi navnet på metoden, deretter må vi ha parenteser, og til sist legger vi til semikolon. Når man bruker en metode som allerede er ferdigskrevet, så sier man at man *kaller på en metode*.
 
 Her er et eksempel som kaller på metoden med navn `size`:
@@ -109,7 +108,7 @@ Når du bruker tre tall, kaller vi det RGB-farger. RGB står for rød, grønn og
 background(20, 255, 170);
 ```
 
-Det betyr at det første tallet `20` bestemmer styrken på det røde lyset, det andre `255` på det grønne og det siste `170` på det blå. Ved å endre RGB-tallene kan man blande akkurat den den fargen man ønsker.
+Det betyr at det første tallet `20` bestemmer styrken på det røde lyset, det andre `255` på det grønne og det siste `170` på det blå. Ved å endre RGB-tallene kan man blande akkurat den fargen man ønsker.
 
 Husk å avslutt linjen med semikolon. `background` skal slik som `size` også inni `setup`-metoden.
 
