@@ -1,4 +1,5 @@
 ---
 title: Raspberry Pi
-external: https://kodegenet.no/track/raspberrypi
+language: en
+external: https://www.raspberrypi.org/
 ---
