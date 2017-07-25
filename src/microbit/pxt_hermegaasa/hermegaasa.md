@@ -222,7 +222,7 @@ I oppgaven antar vi at vi har fem spillere. Dersom dere er færre spillere enn d
 
   ![](player_press_all.png)
 
-# Steg 5: Overføre programmet til spillerne {.activity}
+# Steg 9: Overføre programmet til spillerne {.activity}
 
 *Overfør programmet til hver av spillerne sine micro:biter. Husk å endre programmet med spillernummer mellom hver gang og last ned på nytt.*
 
