@@ -9,9 +9,9 @@ I denne oppgaven skal elevene lære hvordan de kan publisere sin egen nettside v
 
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering, Teknologi i praksis
+ __Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 2
 
-__Anbefalte trinn__: 8.-10. trinn
+__Anbefalte trinn__: 8. trinn - Informasjonsteknologi 2
 
 __Tema__: Web
 
@@ -19,11 +19,13 @@ __Tidsbruk__: Dobbeltime
 
 
 ## Kompetansemål {.challenge}
-- [ ] __Programmering, valgfag__: gjøre rede for hvordan datamaskiner og programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og deres bruksområder
-- [ ]  __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
-- [ ] __ Teknologi i praksis, valgfag__: demonstrere riktig bruk av utvalde verktøy
-- [ ] __ Teknologi i praksis, valgfag__: framstille produktet med eigna materiale, komponentar, og funksjonelle teknologiske løysingar
-
+- [ ] __Programmering, 10. trinn__: gjøre rede for hvordan datamaskiner og programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og deres bruksområder
+- [ ]  __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design.
+- [ ] __Teknologi i praksis, 10. trinn__: demonstrere riktig bruk av utvalde verktøy
+- [ ] __Teknologi i praksis, 10. trinn__: framstille produktet med eigna materiale, komponentar, og funksjonelle teknologiske løysingar
+- [ ] __Informasjonsteknologi 2, VG3__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
+- [ ] __Informasjonsteknologi 2, VG3__: organisere og begrunne filstrukturen for nettsteder
+- [ ] __Informasjonsteknologi 2, VG3__: gjøre rede for hvilke standarder og prinsipper som muliggjør Internett
 
 ## Forslag til læringsmål {.challenge}
 
@@ -33,13 +35,13 @@ __Tidsbruk__: Dobbeltime
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Kjennskap til HTML, CSS og JavaScript. Har en gyldig epost-adresse.
 
-- [ ]  __Utstyr__: Datamaskin med internett og teksteditor. 
+- [ ]  __Utstyr__: Datamaskin med internett og teksteditor.
 
 
 # Fremgangsmåte
