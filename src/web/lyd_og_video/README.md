@@ -50,7 +50,7 @@ __Tidsbruk__: Dobbeltime
 
 
 # Fremgangsmåte
-Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../lyd_og_bilde/lyd_og_video.html){target=_blank}
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../lyd_og_video/lyd_og_video.html){target=_blank}
 
 Husk å minne elevene på at de må henvise til kilder når de har funnet videoer og bilder på nett. 
 
@@ -61,4 +61,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 - [ ] Elevene kan legge til lenker slik at en går til en nettside dersom en trykker på et bilde. 
 
 ## Eksterne ressurser {.challenge}
-- [ ] På [datatilsynets nettsider](https://www.datatilsynet.no/rettigheter-og-plikter/internett-og-apper/bilder-pa-nett/) finnes det mer informasjon om rettigheter og plikter knyttet til bilder på nett. 
+- [ ] På [datatilsynets nettsider](https://www.datatilsynet.no/rettigheter-og-plikter/internett-og-apper/bilder-pa-nett/) finnes det mer informasjon om rettigheter og plikter knyttet til bilder og videoer på nett. 
