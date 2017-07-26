@@ -48,7 +48,7 @@ I denne oppgaven skal du lage et huskespill hvor spilleren skal huske flest muli
  
 ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: Grunnleggende kjennskap til while-løkker, if setninger og å ha skrevet egne koder før. 
+ - [ ]  __Forutsetninger__: Grunnleggende kjennskap til while-løkker, if-setninger, variabler og å ha skrevet en del Python-kode tidligere.
 
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
@@ -66,7 +66,7 @@ for _ in range(1,100):
 text = input('Skriv inn ordene du husker fra listen: ')
 ```
 
-Alternativt kan dette og gjøres uten en for-løkke `print(100*'\n')`. Denne koden vil og skrive ut hundre tomme linjer til skjermen, hvor `\n` betyr linjeskift.  Problemet med metoden ovenfor er at det er vanskelig å vite hvor mange linjer som er nødvendig, er hundre for mye eller for lite?  Hvis en har en stor skjerm trengs det nødvendigvis flere tomme linjer. Som du kanskje vet går det ann å tømme skjermen manuelt ved å bruke `CTRL+L`, går det ann å bruke i koden vår? Det gjør det faktisk om en bruker `system os` biblioteket som koden under illustrerer
+Alternativt kan dette og gjøres uten en for-løkke, ved å heller skrive `print(100*'\n')`. Denne koden vil og skrive ut hundre tomme linjer til skjermen, hvor `\n` betyr linjeskift.  Problemet med metoden ovenfor er at det er vanskelig å vite hvor mange linjer som er nødvendig, er hundre for mye eller for lite?  Hvis en har en stor skjerm trengs det nødvendigvis flere tomme linjer. Som du kanskje vet går det ann å tømme skjermen manuelt ved å bruke `CTRL+L`, går det ann å bruke i koden vår? Det gjør det faktisk om en bruker `system os` biblioteket som koden under illustrerer
 
 ```python
 import os
@@ -76,7 +76,7 @@ os.system('cls')
 text = input('Skriv inn ordene du husker fra listen: ')
 ```
 
-Dette er nok den "beste" metoden å tømme skjermen på, men bør nok bare nevnes for de mest ivrige elevene. Som en siste kommetar dersom en bruker Linux må `cls` erstattes med `clear`.
+Dette er nok den "beste" metoden å tømme skjermen på, men bør nok bare nevnes for de mest ivrige elevene.Det er verdt å merke seg at dersom noen av elevene bruker Linux, så må `cls` erstattes med `clear`.
 
 
 ## Variasjoner {.challenge}
