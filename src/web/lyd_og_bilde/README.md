@@ -26,7 +26,7 @@ __Tidsbruk__: Dobbeltime
 
 - [ ] __Norsk, 7. trinn__: velge ut og vurdere informasjon fra bibliotek og digitale informasjonskanaler.
 
-- [ ] __ Musikk, 10. trinn__: gjøre rede for regler for opphavsrett knyttet til bruk av musikk.
+- [ ] __Musikk, 10. trinn__: gjøre rede for regler for opphavsrett knyttet til bruk av musikk.
 
 
 ## Forslag til læringsmål {.challenge}
