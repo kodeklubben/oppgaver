@@ -50,7 +50,7 @@ __Tidsbruk__: Dobbeltime
 
 
 # Fremgangsmåte
-Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../lyd_og_bilde/lyd_og_bilde.html){target=_blank}
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../lyd_og_bilde/lyd_og_video.html){target=_blank}
 
 Husk å minne elevene på at de må henvise til kilder når de har funnet videoer og bilder på nett. 
 
