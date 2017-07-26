@@ -80,7 +80,7 @@ på datamaskinen.
 - [ ] Lagre programmet som Firkant ved å trykke på **Ctrl+S** eller
   velg **File --> Save** i menyen.
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Kan du lage et rektangel som ikke er kvadratisk, altså hvor bredden
   og høyden er forskjellig? Husk at vi vil at den skal sprette idet
@@ -158,7 +158,7 @@ legge til noen ekstra mellomrom for å få ting på linje. Merk at om man
 bruker automatisk formatering av koden i Processing, vil den fjerne
 mellomrom den mener er overflødig.
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Kan du tegne trekanten motsatt vei, sånn at den ser ut som en
   pil som peker oppover istedenfor nedover?
@@ -311,7 +311,7 @@ arrayer. Du kommer til å se mange slike i fremtidige oppgaver. Løkker
 kan kreve litt øving før man blir god på det, men etter hvert blir man
 veldig glad for at man slipper å skrive den samme koden mange ganger.
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Det går også an å lage firkanter hvor man plasserer hvert hjørne for
   seg. Da bruker man funksjonen `quad` istedenfor `rect`. Prøv å endre
@@ -416,7 +416,7 @@ oppgave:
 
 ![](SprettendePolygon.gif "En hvit mangekant spretter rundt på en svart bakgrunn.")
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Kan du bruke `random` til å få hjørnene til å endre hastighet når de
   treffer kanten av vinduet?

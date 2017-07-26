@@ -98,7 +98,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Flyr spøkelset riktig vei?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] __Endre hastighetsvariabelen__, slik at spøkelset går raskere eller
   saktere.
@@ -138,7 +138,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Forsvinner det og dukker opp igjen helt tilfeldig?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Prøv å __endre tallene i koden__ der det står `tilfeldig tall fra _
   til _`{.blockoperators}. Hva skjer hvis du velger veldig store
@@ -171,7 +171,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Forsvinner spøkelset med en tryllelyd når du klikker på det?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Spør de voksne om du kan ta opp en egen lyd. Denne kan du bruke i
   stedet for tryllelyden.
@@ -224,7 +224,7 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Hvordan kan du få spøkelset til å gå fortere etter at spillet er i
   gang?
@@ -265,7 +265,7 @@ __Klikk på det grønne flagget.__
 
 Gratulerer! Da har du gjort alt riktig!
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Hvor mange spøkelser synes du spillet fungerer best med? __Legg til
   flere__ og prøv!
