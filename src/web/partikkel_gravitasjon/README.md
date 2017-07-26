@@ -47,7 +47,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 - [ ]  __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../partikkel_gravitasjon/partikkel_gravitasjon.html){target=_blank}
 
 # Generelt {.activity}

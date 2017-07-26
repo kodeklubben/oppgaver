@@ -49,7 +49,7 @@ __Tidsbruk__: Dobbeltime
 - [ ]  __Utstyr__: Datamaskin med internett og tekstbehandlingverktøy.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../lyd_og_bilde/lyd_og_bilde.html){target=_blank}
 
 Husk å minne elevene på at de må henvise til kilder når de har funnet videoer og bilder på nett. 
