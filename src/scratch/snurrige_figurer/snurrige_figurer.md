@@ -65,7 +65,7 @@ innimellom.
 
 + I menyen `Fil` kan du velge `Lagre nå` for å lagre prosjektet.
 
-## Endre en eksisterende figur {.try}
+## Endre en eksisterende figur {.challenge}
 
 Selv om det ikke finnes en trekant i figurbiblioteket, kan vi gjøre om en av de
 andre figurene til en trekant. Om du allerede har laget en trekant trenger du
@@ -281,7 +281,7 @@ __Trykk på C-tasten.__
   send melding [flytt og snurr v]
   ```
 
-### Flere ideer {.try}
+### Flere ideer {.challenge}
 
 Tenk på andre ting du kan gjøre for å lage interessante snurrige figurer. Her er
 noen ideer:

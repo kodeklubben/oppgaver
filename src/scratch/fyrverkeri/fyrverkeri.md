@@ -139,7 +139,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Kommer det raketter flyvende?
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Prøv å få noen raketter til å bevege seg litt saktere eller fortere
   enn andre.
@@ -299,7 +299,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Vokser eksplosjonen gradvis?
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 Prøv å gjøre hver eksplosjon enda mer unik: endre størrelsen og
 veksthastigheten for eksplosjonen.

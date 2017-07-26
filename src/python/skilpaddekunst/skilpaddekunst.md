@@ -396,7 +396,7 @@ bare tegner kjedelige mangekanter.
   `spiral`. Finner du noen verdier som gir spesielt fine bilder synes
   du?
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 Kombiner de forskjellige funksjonene vi har laget, `polygon`,
 `polylines` og `spiral` med de andre skilpadde-kommandoene du har lært
