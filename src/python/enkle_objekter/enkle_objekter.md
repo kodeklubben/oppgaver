@@ -3,6 +3,10 @@ title: Enkle objekter
 level: 4
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
+tags:
+  topic: [text_based ]
+  subject: [programming, programming]
+  grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
