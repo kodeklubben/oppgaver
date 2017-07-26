@@ -251,3 +251,37 @@ Husk å endre hvilket nummer hver spiller er mellom hver nye microbit du kobler 
 - [ ] Endre koden slik at det er mulig å jukse i spillet for spillerne. Kan du gjøre slik at de alltid svarer rett? Kan du gjøre slik at en spiller alltid svarer raskest?
 
 - [ ] Endre koden til spillederen slik at han sjekker at spillerne faktisk har svart rett, for å passe på at de ikke har jukset. Vær obs på at du da også må endre på spillerne sin kode.
+
+## Sikkerhet med server og klient {.protip}
+
+Vi har nå laget en applikasjon med server (spilllederen) og klienter
+(spillerene). Mange brukere kommuniserer gjennom hver sin klient, men
+koordinerer (teller hvem som vinner) med en server.
+
+### Sikkerhet i spillet vårt
+
+Hver klient kan i prinsippet bestemme hvilken kode som skal kjøre på sin egen
+enhet. Dette gjør det mulig å jukse! For å unngå at det er mulig å jukse må vi
+være lure med hvordan vi lager serveren vår og hvordan vi lager klienten vår.
+
+- **Å la klienten sende tilbake "jeg fikk 100" poeng er usikkert.** Da kan jeg
+  lage min egen klient som alltid gir meg alle poengene.
+
+- **Å la klienten sende tilbake "jeg mener svaret er B" er bedre.** Da må jeg
+  faktisk vite svaret for å kunne få poeng. _Hva tror du skjer dersom du gjetter
+  alle svarene hele tiden? Klarer du tenke på en måte å unngå at dette er mulig?
+
+### Sikkerhet på Facebook
+
+Facebook er en annen applikasjon som er delt inn i klient og server.
+
+- **Klienten viser bildene dine og vennene dine**. Du ser klienten når du går
+  til `facebook.com` i en nettleser. Når du bruker Facebook-appen på en
+  mobiltelefon, får du bruke en annen klient.
+
+- **Serveren holder styr på all informasjonen**. Serveren kan si om du prøver å
+  logge inn med rett passord. Serveren vet hvem som er vennene dine. Serveren
+  vet hvem som kan administrere hvilke grupper.
+
+Hva hadde skjedd dersom gruppeadministrasjon ble håndtert i klienten? Hvordan
+kunne du da laget din egen klient? Hva kunne du gjort med denne?
