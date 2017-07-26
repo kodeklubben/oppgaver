@@ -269,7 +269,7 @@ være lure med hvordan vi lager serveren vår og hvordan vi lager klienten vår.
 
 - **Å la klienten sende tilbake "jeg mener svaret er B" er bedre.** Da må jeg
   faktisk vite svaret for å kunne få poeng. _Hva tror du skjer dersom du gjetter
-  alle svarene hele tiden? Klarer du tenke på en måte å unngå at dette er mulig?
+  alle svarene hele tiden? Klarer du tenke på en måte å unngå at dette er mulig?_
 
 ### Sikkerhet på Facebook
 
