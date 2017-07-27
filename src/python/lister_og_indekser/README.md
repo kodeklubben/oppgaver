@@ -34,9 +34,9 @@ I denne oppgaven skal vi utforske begrepet *lister*, altså å samle flere ting 
 
  - [ ] Elevene forstår hva en liste er.
 
- - [ ] Elevene klarer å utføre grunnleggende operasjoner på en liste, som å legge til å trekke fra elementer. 
+ - [ ] Elevene klarer å utføre grunnleggende operasjoner på en liste, som å legge til og trekke fra elementer. 
  
- - [ ] Elevene klarer å skrive egne koder som inneholder, funksjoner og enkel brukerinteraksjon. 
+ - [ ] Elevene klarer å skrive egne koder som inneholder funksjoner og enkel brukerinteraksjon. 
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -53,7 +53,7 @@ I denne oppgaven skal vi utforske begrepet *lister*, altså å samle flere ting 
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../lister_og_indekser/lister_og_indekser.html){target=_blank}
 
