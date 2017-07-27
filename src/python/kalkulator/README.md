@@ -56,16 +56,55 @@ at kalkulatoren skal kunne legge sammen, trekke fra, gange og dele to tall på h
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../kalkulator/kalkulator.html){target=_blank}
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
+# Sammenlikning av tekst
+    En naturlig måte å løse oppgaven for elevene på er å sammenlikne en tekststreng med en operator. Et hint en kan gi elevene er å spørre hva følgende kode gir ut:
+
+```python
+a = '*'
+print(a == '*')
+```
+
+Der det logiske uttrykket som står i parentesene kan kombineres med en `if-setning` for å finne ut hvilken operator brukeren prøver å bruke. En som er mer erfaren med Python vil kanskje bemerke seg at `==` ikke er veldig "Pythonisk". Filosofien til python er at en skal i størst mulig grad strebe etter å uttrykke seg i klartekst med ord. Det er derfor vi for eksempel skriver `for element in list`. Med dette i tankene kan koden ovenfor skrives som
+
+
+```python
+a = '*'
+print(a is '*')
+```
+
+Men merk at det er noen fallgruver med denne metoden. Hva skjer om du kjører følgende kode?
+
+```python
+a = 19998989890
+b = 19998989889 +1
+print(a is b)
+```
+
+Grunnen til at koden ovenfor gir ut `False` handler om at `is` sammenligner to *objekter* i minnet, mens `==` sammenligner *verdien* til objektene. Kort oppsumert bruker vi gjerne `is`for å sammenlikne teststrenger eller objekter  mens `==` forbeholdes størrelser. 
+
+# Robusthet med tekst som input
+
+Noen elever ergrer seg kanskje over at om en skriver inn `* ` så godtar ikke programmet dette som gyldig innputt. Dette er fordi Python sammenlikner om strengene er *nøyaktig* lik, så mellomrom godtas ikke. En måte å løse dette problemet på er å bruker `strip()` kommandoen som fjerner tomromm foran og bak tekstrengen. En annen mulighet er å bruke `replace()`
+
+Forskjellen kan du sjekke ved å kjøre kodesnutten under
+
+```python
+text = '  The quick brown fox jumps over the lazy dog  '
+print(text)
+print(text.strip())
+print(text.replace(' ','')
+```
+
+Spiller det noen rolle i denne oppgaven om en bruker `replace()` eller `strip()`?
 
 
 ## Variasjoner {.challenge}
 
-- [ ] Noen variasjoner er allerede oppgitt i oppgaveteksten. Legg til flere matematiske operatorer som potenser.
+- [ ] Noen variasjoner er allerede oppgitt i oppgaveteksten. Eksempelvis å legge til flere matematiske operatorer som potenser eller fakultet. 
 
 - [ ] Hva gir kalkulatoren ut om en prøver å beregne `0^0`? Gir dette mening? Hva burde svaret være?
 
