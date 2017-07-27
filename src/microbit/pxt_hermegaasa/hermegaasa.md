@@ -254,34 +254,22 @@ Husk å endre hvilket nummer hver spiller er mellom hver nye microbit du kobler 
 
 ## Sikkerhet med server og klient {.protip}
 
-Vi har nå laget en applikasjon med server (spilllederen) og klienter
-(spillerene). Mange brukere kommuniserer gjennom hver sin klient, men
-koordinerer (teller hvem som vinner) med en server.
+Vi har nå laget en applikasjon med server (spilllederen) og klienter (spillerene). Spillerne kommuniserer gjennom hver sin klient, men koordinerer (teller hvem som vinner) på en server.
 
 ### Sikkerhet i spillet vårt
 
-Hver klient kan i prinsippet bestemme hvilken kode som skal kjøre på sin egen
-enhet. Dette gjør det mulig å jukse! For å unngå at det er mulig å jukse må vi
-være lure med hvordan vi lager serveren vår og hvordan vi lager klienten vår.
+Hver klient kan i prinsippet bestemme hvilken kode som skal kjøre på sin egen enhet. Dette gjør det mulig å jukse! For å unngå at det er mulig å jukse må vi tenke oss om for hvordan vi koder serveren vår og hvordan vi koder klienten vår.
 
-- **Å la klienten sende tilbake "jeg fikk 100" poeng er usikkert.** Da kan jeg
-  lage min egen klient som alltid gir meg alle poengene.
+**Å la klienten sende tilbake "jeg hadde rett" er ikke sikkert.** Da kan jeg lage min egen klient som alltid gir meg alle poengene, uansett om jeg har svart rett eller galt.
 
-- **Å la klienten sende tilbake "jeg mener svaret er B" er bedre.** Da må jeg
-  faktisk vite svaret for å kunne få poeng. _Hva tror du skjer dersom du gjetter
-  alle svarene hele tiden? Klarer du tenke på en måte å unngå at dette er mulig?_
+**Å la klienten sende tilbake "jeg svarte B" er bedre.** Da må jeg faktisk vite svaret for å kunne få poeng. _Hva tror du skjer dersom du gjetter alle svarene hele tiden? Klarer du tenke på en måte å unngå at dette er mulig?_
 
 ### Sikkerhet på Facebook
 
 Facebook er en annen applikasjon som er delt inn i klient og server.
 
-- **Klienten viser bildene dine og vennene dine**. Du ser klienten når du går
-  til `facebook.com` i en nettleser. Når du bruker Facebook-appen på en
-  mobiltelefon, får du bruke en annen klient.
+**Klienten viser bildene dine og vennene dine**. Du ser klienten når du går til `facebook.com` i en nettleser. Når du bruker Facebook-appen på en mobiltelefon, bruker du en annen klient.
 
-- **Serveren holder styr på all informasjonen**. Serveren kan si om du prøver å
-  logge inn med rett passord. Serveren vet hvem som er vennene dine. Serveren
-  vet hvem som kan administrere hvilke grupper.
+**Serveren holder styr på all informasjonen**. Serveren kan si om du prøver å logge inn med rett brukernavn og passord. Serveren vet hvem som er vennene dine, og den vet hvem som kan administrere hvilke sider og grupper.
 
-Hva hadde skjedd dersom gruppeadministrasjon ble håndtert i klienten? Hvordan
-kunne du da laget din egen klient? Hva kunne du gjort med denne?
+Hva hadde skjedd dersom gruppeadministrasjon ble håndtert i klienten? Hvordan kunne du da laget din egen klient? Hva kunne du gjort med denne?
