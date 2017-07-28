@@ -54,7 +54,7 @@ __Tidsbruk__: Dobbeltime
 - [ ]  __Utstyr__: Datamaskin med internett og tesktbehandlingsprogram.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../lenk_sammen_nettsider/lenk_sammen_nettsider.html){target=_blank}
 
 # Generelt {.activity}

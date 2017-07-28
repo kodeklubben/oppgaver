@@ -53,7 +53,7 @@ I denne oppgaven skal vi lage et enkelt spill som kalles for gjetteleken. Målet
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../gjettelek/gjettelek.html){target=_blank}
 

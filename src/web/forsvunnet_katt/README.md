@@ -52,7 +52,7 @@ __Tidsbruk__: Dobbelttime
 
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../forsvunnet_katt/forsvunnet_katt.html){target=_blank}
 
 # Steg 2: Legg til bilde {.activity}

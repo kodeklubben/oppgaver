@@ -40,7 +40,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ]  __Forutsetninger__: Elevene bør være komfortable med Scratch.
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Merk forberedelsesdelen i oppgaven, der elevene må laste ned zip-filen `Fyrverkeri_ressurser.zip`. Denne finnes i katalogen `ressurser` på [prosjektsiden](https://github.com/kodeklubben/oppgaver/tree/master/src/scratch/){target=_blank} på GitHub. Dette kan være en fordel å ha gjort på forhånd, slik at du slipper å bruke tid av timen.
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../fyrverkeri/fyrverkeri.html){target=_blank}
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 

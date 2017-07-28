@@ -61,7 +61,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../partikkel_animasjon/partikkel_animasjon.html){target=_blank}
 
 # Generelt  {.activity}
