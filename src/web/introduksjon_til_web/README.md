@@ -49,7 +49,7 @@ __Tidsbruk__: Dobbeltime.
 - [ ] __Utstyr__: Datamaskiner med tilgang internett og nettleser [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html){target=_blank} (anbefalt). Elevene kan fint jobbe to og to.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten](introduksjon_til_web.html){target=_blank}.
 
 # Steg 3: Flere tagger {.activity}

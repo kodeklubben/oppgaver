@@ -7,18 +7,18 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal gjette seg frem til et hemmelig ord. 
+I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal gjette seg frem til et hemmelig ord.
 
 
 ## Oppgaven passer til: {.check}
 
  __Fag__: Programmering
 
- __Anbefalte trinn__: 7.-10. trinn 
+ __Anbefalte trinn__: 7.-10. trinn
 
  __Tema__: While-løkker, innputt, brukerinteraksjon, spill
 
- __Tidsbruk__: Enkelttime 
+ __Tidsbruk__: Enkelttime
 
 
 ## Kompetansemål {.challenge}
@@ -32,7 +32,7 @@ I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal 
 
  - [ ] Eleven forstår hva en streng er, og kan manipulere strengen på et grunnleggende nivå
 
- - [ ] Eleven forstår hvordan en while-løkke fungerer. 
+ - [ ] Eleven forstår hvordan en while-løkke fungerer.
 
  - [ ] Eleven klarer å skrive et enkelt program som tolker inputt fra brukeren.
 
@@ -43,7 +43,7 @@ I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal 
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
- 
+
 ## Forutsetninger og utstyr {.challenge}
 
  - [ ]  __Forutsetninger__: Grunnleggende forståelse for while-løkker og if-setninger.
@@ -51,7 +51,7 @@ I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal 
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../hangman/hangman.html){target=_blank}
 
@@ -65,5 +65,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Foreløpig ingen eksterne ressurser 
-
+- [ ] Foreløpig ingen eksterne ressurser

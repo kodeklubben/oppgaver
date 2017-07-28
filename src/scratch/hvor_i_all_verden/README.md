@@ -40,7 +40,7 @@ __Tidsbruk__: Hver del passer til en dobbelttime, men kan også fungere i et und
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen. Merk at et norgeskart brukes som bakgrunn i oppgaven, og må lastes ned av eleven selv. En beskrivelse for dette er gitt i steg 1 av oppgaven, ellers kan du gjøre følgende bildefil tilgjengelig for elevene:
 ![](europakart.png)
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten til del 1.](../hvor_i_all_verden/hvor_i_all_verden_1.html){target=_blank}
 [Klikk her for å se oppgaveteksten til del 2.](../hvor_i_all_verden/hvor_i_all_verden_2.html){target=_blank}
 [Klikk her for å se oppgaveteksten til del 3.](../hvor_i_all_verden/hvor_i_all_verden_3.html){target=_blank}
