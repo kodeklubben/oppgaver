@@ -1,4 +1,3 @@
-
 ---
 title: Lærerveiledning - Hoppehelt
 level: 4
