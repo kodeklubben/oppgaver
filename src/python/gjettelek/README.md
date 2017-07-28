@@ -1,4 +1,3 @@
-
 ---
 title: Lærerveiledning - Gjettelek
 level: 3
@@ -24,7 +23,7 @@ I denne oppgaven skal vi lage et enkelt spill som kalles for gjetteleken. Målet
 
 ## Kompetansemål {.challenge}
 
- - [ ] __IT2, VG3__ : teste og finne feil i programmer ved å bruke vanlige teknikker
+ - [ ] __IT2, VG3__: teste og finne feil i programmer ved å bruke vanlige teknikker
 
  - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert
 
