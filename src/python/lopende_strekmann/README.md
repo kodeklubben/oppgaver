@@ -12,22 +12,35 @@ I denne oppgaven skal elevene lage et spill der de styrer en strekmann som hoppe
 
 ## Oppgaven passer til: {.check}
 
- __Fag__:
+ __Fag__: Programmering
 
- __Anbefalte trinn__:
+ __Anbefalte trinn__: 7.- VGS
 
- __Tema__:
+ __Tema__: PGZ, if-setninger, løkker, if-setninger
 
- __Tidsbruk__:
+ __Tidsbruk__: Dobbeltime eller mer
 
 
 ## Kompetansemål {.challenge}
 
+ - [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse
 
+ - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert
+
+ - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+
+ - [ ] __Programmering, 10. trinn__: utvikle og feilsøke programmer som løser definerte problemer, inkludert realfaglige problemstillinger og kontrollering eller simulering av fysiske objekter
+
+ - [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
 
 
 ## Forslag til læringsmål {.challenge}
 
+ - [ ] Elevene kan forklare og bruke løkker, lister
+
+ - [ ]Elevene kan forklare og bruke andres kode i egne prosjekter.
+
+ - [ ] Elevene kan utvikle og feilsøke enkle programmer.
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -39,12 +52,12 @@ I denne oppgaven skal elevene lage et spill der de styrer en strekmann som hoppe
  
 ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__:
+ - [ ]  __Forutsetninger__: 
 
- - [ ]  __Utstyr__: Datamaskin med Python installert.
+ - [ ]  __Utstyr__: Datamaskin med Python installert. Elevene kan gjerne jobbe to og to sammen.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../lopende_strekmann/lopende_strekmann.html){target=_blank}
 
