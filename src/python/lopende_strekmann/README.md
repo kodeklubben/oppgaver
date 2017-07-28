@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven 
+I denne oppgaven skal elevene lage et spill der de styrer en strekmann som hopper over hindringer.
 
 
 ## Oppgaven passer til: {.check}
@@ -22,6 +22,7 @@ I denne oppgaven
 
 
 ## Kompetansemål {.challenge}
+
 
 
 
