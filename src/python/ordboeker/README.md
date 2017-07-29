@@ -1,27 +1,27 @@
 ---
-title: Lærerveiledning - Hangman
+title: Lærerveiledning - Ordbøker
 level: 3
 language: nb
 ---
 
-
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal gjette seg frem til et hemmelig ord.
-
+I denne oppgaven introduseres begrepet ordbøker (*dictionary* på engelsk) som brukes for å lagre nøkkel/verdi-par. Som eksempel vises hvordan en kan bruke ordbøker til å lage en enkel handleliste.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering
+ __Fag__: Engelsk, Programmering
 
  __Anbefalte trinn__: 7.-10. trinn
 
- __Tema__: While-løkker, innputt, brukerinteraksjon, spill
+ __Tema__: Ordbøker, funksjoner, løkker
 
  __Tidsbruk__: Enkelttime
 
 
 ## Kompetansemål {.challenge}
+
+ - [ ] __Engelsk, 7. trinn__: bruke digitale ressurser og andre hjelpemidler i egen språklæring
 
  - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert
 
@@ -30,12 +30,9 @@ I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal 
 
 ## Forslag til læringsmål {.challenge}
 
- - [ ] Eleven forstår hva en streng er, og kan manipulere strengen på et grunnleggende nivå
+- [ ] Elevene forstår hvordan en ordbok fungerer, og utføre elementære operasjoner som å legge til nøkkel-par og skrive ut innholdet i en ordbok.
 
- - [ ] Eleven forstår hvordan en while-løkke fungerer.
-
- - [ ] Eleven klarer å skrive et enkelt program som tolker inputt fra brukeren.
-
+- [ ] Elevene klarer å selv lage sin egen ordbok med engelske ord
 
 ## Forslag til vurderingskriterier {.challenge}
 
@@ -46,22 +43,19 @@ I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal 
 
 ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: Grunnleggende forståelse for while-løkker og if-setninger.
+ - [ ]  __Forutsetninger__:
 
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
-
 ## Fremgangsmåte
 
- Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../hangman/hangman.html){target=_blank}
+ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../ordboeker/ordboeker.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
-
 ## Variasjoner {.challenge}
 
-- [ ] En variasjon er å la ordene en skal gjette seg frem til være faglige. For eksempel verb eller substantiv i fremmedspråkene.
-
+- [ ]  Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
 
 ## Eksterne ressurser {.challenge}
 

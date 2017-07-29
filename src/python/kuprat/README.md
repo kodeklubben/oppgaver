@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven introduseres elevene for første gang for programmeringssprket Python. Hensikten med oppgaven er å lære seg å lage et program som skriver ut tekst på skjermen. 
+I denne oppgaven introduseres elevene for første gang for programmeringssprket Python. Hensikten med oppgaven er å lære seg å lage et program som skriver ut tekst på skjermen.
 
 
 ## Oppgaven passer til: {.check}
@@ -16,7 +16,7 @@ I denne oppgaven introduseres elevene for første gang for programmeringssprket 
 
  __Anbefalte trinn__: 7.-10. trinn
 
- __Tema__: 
+ __Tema__:
 
  __Tidsbruk__: Enkelttime
 
@@ -39,7 +39,7 @@ I denne oppgaven introduseres elevene for første gang for programmeringssprket 
 
  - [ ] Eleven oppnår høy måloppnåelse ved å lage flere dyr som kan "prate" med hverandre.
 
- 
+
  ## Forutsetninger og utstyr {.challenge}
 
  - [ ]  __Forutsetninger__: Ingen.
@@ -47,16 +47,15 @@ I denne oppgaven introduseres elevene for første gang for programmeringssprket 
  - [ ]  __Utstyr__: Datamaskin med Python.
 
 
- # Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../kuprat/kuprat.html){target=_blank}
 
  - [ ] Filnavn er noe som ofte kan skape problemer. Får elevene merkelige feilmeldinger kan det være lurt å sjekke at filnavnet ikke heter "python.py", eller inneholder æøå.
 
- - [ ] Noen elever finner kanskje ut at det går ann å bruke print uten parenteser, mens for andre gir dette en feilmelding. Dette har med hvilken versjon av Python en har installert. I nyeste utgave av Python - som det anbefales å bruke - får en feilmelding om en ikke bruker parenteser med print funksjonen. 
+ - [ ] Noen elever finner kanskje ut at det går ann å bruke print uten parenteser, mens for andre gir dette en feilmelding. Dette har med hvilken versjon av Python en har installert. I nyeste utgave av Python - som det anbefales å bruke - får en feilmelding om en ikke bruker parenteser med print funksjonen.
 
 
  ## Eksterne ressurser {.challenge}
 
  - [ ] Foreløpig ingen eksterne ressurser ...
-
