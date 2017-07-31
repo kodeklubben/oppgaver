@@ -7,9 +7,9 @@ language: nb
 
 # Introduksjon {.intro}
 
-Vi skal lage et lite program hvor vi får micro:biten til å spille 
-musikk dersom vi kobler til hodetelefoner eller en høytaler. I 
-denne veiledningen viser vi hvordan du kan spille melodien "Twinkle twinkle 
+Vi skal lage et lite program hvor vi får micro:biten til å spille
+musikk dersom vi kobler til hodetelefoner eller en høytaler. I
+denne veiledningen viser vi hvordan du kan spille melodien "Twinkle twinkle
 little star", og med dette som utgangspunkt kan du spille av hvilken
 som helst sang du vil.
 
@@ -28,7 +28,7 @@ som helst sang du vil.
 - [ ] En datamaskin med Internett eller en [installert micro-python editor](https://codewith.mu/).
 
 *Her ser du et bilde av utstyr du kan bruke:*
-  
+
 ![](utstyr.png){ width=75% }
 
 
@@ -40,14 +40,14 @@ som helst sang du vil.
 
 - [ ] Koble usb-kabelen til micro:biten og en usb-port på datamaskinen.
 
-- [ ] Koble den ene krokodilleklemmen til porten hvor det står GND på micro:biten. 
+- [ ] Koble den ene krokodilleklemmen til porten hvor det står GND på micro:biten.
 	  Den andre enden kobler du til innerst på stikket til hodetelefonene/høytaleren.
 
 - [ ] Koble den andre krokodilleklemmen til porten hvor det står 0 på micro:biten.
 	  Den andre enden kobler du til ytterst på stikket til hodetelefonene/høytaleren.
 
 *Her ser du to bilder av hvordan utstyret bør kobles:*
-	  
+
 ![](kobling_microbit.png){ width=45% } ![](kobling_hoytaler.png){ width=45% }
 
 # Steg 3: Start å kode {.activity}
@@ -68,19 +68,19 @@ som helst sang du vil.
 	```python
 	from music import *
 	```
-	
-- [ ] For å teste at alt funker som det skal så prøver vi å spille av en 
+
+- [ ] For å teste at alt funker som det skal så prøver vi å spille av en
 	  innebygget meldodi, som har navn *NYAN*. Denne melodien kan vi spille
 	  av ved å bruke en funkson som heter _play()_. Legg til kodesnutten:
-	  
+
 	```python
 	play(NYAN)
 	```
 
 - [ ] Til slutt må vi overføre programmet vårt over til micro:biten. Trykk på
-	  **Download** i menyen, da lastes programmet ned til datamaskinen din. 
+	  **Download** i menyen, da lastes programmet ned til datamaskinen din.
 	  Så overfører du filen *microbit.hex* til micro:biten du koblet til.
-	  Dersom du bruker en lokal editor så kan du trykke på **Flash** for å 
+	  Dersom du bruker en lokal editor så kan du trykke på **Flash** for å
 	  overføre filen til micro:biten.
 
 ## Test prosjektet {.flag}
@@ -95,22 +95,22 @@ som helst sang du vil.
 
 ## Sjekkliste {.check}
 
-- [ ] Først så fjerner vi linjen hvor vi spiller av musikk, 
+- [ ] Først så fjerner vi linjen hvor vi spiller av musikk,
 	  men beholder linjen hvor vi importerte musikk-biblioteket.
-	  
+
 - [ ] Så lager vi en ny variabel som heter *tone* og setter den lik en tom liste.
 	  Skriv inn følgende kodelinje:
 
 	```python
 	tone = []
 	```
-	  
+
 - [ ] Når vi oppretter toner så har de en viss form. Tonene er en tekststreng, og består av tre ulike deler.
-	  Først har vi en note, så en oktav og så lengden til tonen. Noter beskrives med bokstaver, 
-	  for eksempel en **C** eller en **D**, eller **R** for pause. Oktaver er et tall mellom **0** og **8** 
-	  (som er det høyeste et menneske kan høre), mens lengden er antall *ticks* tonen skal spilles. 
+	  Først har vi en note, så en oktav og så lengden til tonen. Noter beskrives med bokstaver,
+	  for eksempel en **C** eller en **D**, eller **R** for pause. Oktaver er et tall mellom **0** og **8**
+	  (som er det høyeste et menneske kan høre), mens lengden er antall *ticks* tonen skal spilles.
 	  Uten å gå for mye inn i detaljer, så er 4 ticks det samme som 125 millisekunder.
-	  
+
 - [ ] Endre kodesnutten din til å inkludere en tone, for eksempel slik:
 
 	```python
@@ -121,7 +121,7 @@ som helst sang du vil.
 	```python
 	play(tone)
 	```
-	
+
 ## Test prosjektet {.flag}
 
 - [ ] Spilles tonen på micro:biten når du har overført programmet ditt?
@@ -136,20 +136,20 @@ som helst sang du vil.
 
 	```python
 	from music import *
-	
+
 	melodi = ["C4:4", "C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D", "C:8",
-	"G:4", "G", "F", "F", "E", "E", "D:8", "G:4", "G", "F", "F", "E", "E", "D:8", "C4:4", 
+	"G:4", "G", "F", "F", "E", "E", "D:8", "G:4", "G", "F", "F", "E", "E", "D:8", "C4:4",
 	"C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D","C:8"]
-	
+
 	play(melodi)
 	```
 
 ## Test prosjektet {.flag}
 
 - [ ] Spiller micro:biten "Twinkle twinkle little star"?
-	
+
 # Steg 5: Legg til knapp for å styre musikken {.activity}
-*Nå spilles bare melodinen akkurat når vi overførere den eller trykker restart. 
+*Nå spilles bare melodinen akkurat når vi overførere den eller trykker restart.
 Vi legger til en knapp for å styre musikken.*
 
 ## Sjekkliste {.check}
@@ -157,20 +157,20 @@ Vi legger til en knapp for å styre musikken.*
 - [ ] Først må vi importere enda et bibliotek. Legg til følgende linje helt øverst:
 
 	``` python
-	from microbit import * 
+	from microbit import *
 	```
-	
-- [ ] Så legger vi til en løkke som kjøres for alltid, også sjekker vi om knapp 
+
+- [ ] Så legger vi til en løkke som kjøres for alltid, også sjekker vi om knapp
 	  **A** er trykket. Da ser programmet ditt slik ut:
 
 	``` python
 	from microbit import *
 	from music import*
-	
+
 	melodi = ["C4:4", "C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D", "C:8",
-	"G:4", "G", "F", "F", "E", "E", "D:8", "G:4", "G", "F", "F", "E", "E", "D:8", "C4:4", 
+	"G:4", "G", "F", "F", "E", "E", "D:8", "G:4", "G", "F", "F", "E", "E", "D:8", "C4:4",
 	"C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D","C:8"]
-	
+
 	while True:
 		if button_a.is_pressed():
 			play(melodi)  
@@ -182,26 +182,16 @@ Vi legger til en knapp for å styre musikken.*
 
 ## Utfordring : Legge til egne melodier {.challenge}
 
-+ Klarer du å komponere din egen melodi?
+- [ ] Klarer du å komponere din egen melodi?
 
-+ Klarer du å finne en melodi på Internett og lage en liste med toner som du kan spille av?
+- [ ] Klarer du å finne en melodi på Internett og lage en liste med toner som du kan spille av?
 
 ## Forklaring av koden {.protip}
 
-+ Vi pleier alltid importere biblioteket som heter *microbit* når vi
-  programmer en micro:bit, for at vi skal kunne bruke de forskjellige
-  sensorene som er innebygget i micro:biten. I dette tilfellet bruker 
-  vi bibliteket til å sjekke om vi har trykket på knapp **A**.
+Vi pleier alltid importere biblioteket som heter *microbit* når vi programmer en micro:bit, for at vi skal kunne bruke de forskjellige sensorene som er innebygget i micro:biten. I dette tilfellet bruker vi bibliteket til å sjekke om vi har trykket på knapp **A**.
 
-+ Vi må importere biblioteket som heter *musikk* for at vi skal kunne
-  bruke funksjonen som heter *play()*, som spiller av musikken vi lager.
+Vi må importere biblioteket som heter *musikk* for at vi skal kunne bruke funksjonen som heter *play()*, som spiller av musikken vi lager.
 
-+ Når vi oppretter en tone så har den flere forskjellige deler. Det første
-  man kan se er at vi har to klammeparanteser `[` og `]`. De bruker vi til å
-  opprette en liste som vi kan ha tonene våre i. Hver tone består av tre deler,
-  først hvilken note vi skal spille og hvilken oktav noten skal være i, og så 
-  hvor lenge tonen skal spilles. `"C4:4"` betyr at vi skal spille en **C** i oktav 
-  **fire** i **fire** ticks, som i dette tilfellet er 125 millisekunder.
-  
-+ Sjekk ut [dokumentasjonen](https://microbit-micropython.readthedocs.io/en/latest/music.html)
-  for å se hvilke muligheter som finnes med musikk-programmering på micro:biten.
+Når vi oppretter en tone så har den flere forskjellige deler. Det første man kan se er at vi har to klammeparanteser `[` og `]`. De bruker vi til å opprette en liste som vi kan ha tonene våre i. Hver tone består av tre deler, først hvilken note vi skal spille og hvilken oktav noten skal være i, og så hvor lenge tonen skal spilles. `"C4:4"` betyr at vi skal spille en **C** i oktav **fire** i **fire** ticks, som i dette tilfellet er 125 millisekunder.
+
+Sjekk ut [dokumentasjonen](https://microbit-micropython.readthedocs.io/en/latest/music.html) for å se hvilke muligheter som finnes med musikk-programmering på micro:biten.
