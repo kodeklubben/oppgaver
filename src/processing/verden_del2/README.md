@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Verden del 2
-level: 1
+level: 2
 language: nb
 ---
 
