@@ -465,7 +465,7 @@ reklamebannere.
   end
   ```
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Det er flere måter å gjøre `reklame`-programmet enda bedre på. Her er
 to forslag:
