@@ -10,8 +10,8 @@ Verden er et program som viser navnet på en verdensdel når musepekeren holdes 
 ![](world-map.png)
 
 ## Oppgaven passer til: {.check}
- __Fag__: Matematikk, samfunnsfag, programmering.
-__Anbefalte trinn__: 3.-10. trinn.
+ __Fag__: Matematikk, programmering, samfunnsfag.
+__Anbefalte trinn__: 8. trinn til VG3.
 __Tema__: Geografi, lese kart, variabler, brukerinteraksjon.
 __Tidsbruk__: Hver del passer til en dobbelttime, men kan også fungere i et undervisningsopplegg over lengre tid.
 
