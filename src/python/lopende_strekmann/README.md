@@ -7,7 +7,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal elevene lage et spill der de styrer en strekmann som hopper over hindringer.
+I denne oppgaven skal elevene bruke [Pygame Zero](https://pygame-zero.readthedocs.io/en/stable/) til å lage et spill der de styrer en strekmann som hopper over hindringer.
 
 
 ## Oppgaven passer til: {.check}
@@ -16,7 +16,7 @@ I denne oppgaven skal elevene lage et spill der de styrer en strekmann som hoppe
 
  __Anbefalte trinn__: 7.- VGS
 
- __Tema__: PGZ, if-setninger, løkker, if-setninger
+ __Tema__: [Pygame Zero](https://pygame-zero.readthedocs.io/en/stable/), if-setninger, løkker
 
  __Tidsbruk__: Dobbeltime eller mer
 
@@ -38,23 +38,23 @@ I denne oppgaven skal elevene lage et spill der de styrer en strekmann som hoppe
 
  - [ ] Elevene kan forklare og bruke løkker, lister
 
- - [ ]Elevene kan forklare og bruke andres kode i egne prosjekter.
+ - [ ] Elevene kan forklare og bruke andres kode i egne prosjekter.
 
  - [ ] Elevene kan utvikle og feilsøke enkle programmer.
 
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
+ - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
+ - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
  
 ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: 
+ - [ ]  __Forutsetninger__: God kjennskap til løkker, if-setninger og funksjoner.  
 
- - [ ]  __Utstyr__: Datamaskin med Python installert. Elevene kan gjerne jobbe to og to sammen.
+ - [ ]  __Utstyr__: Datamaskin med Python installert, det er og nødvendig at eleven har installert Pygame Zero. Elevene kan gjerne jobbe to og to sammen.
 
 
 ## Fremgangsmåte
@@ -72,4 +72,3 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser 
-
