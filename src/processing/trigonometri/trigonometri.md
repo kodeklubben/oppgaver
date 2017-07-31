@@ -181,7 +181,7 @@ spisser.
 
 ![](Oktagram.png "Vinkelen mellom en spiss, sentrum og spissen etter nabospissen i en åttekantet stjerne er 2 · 360° / 8 = 90°.")
 
-## Utfordring {.try}
+## Utfordring {.challenge}
 
 - [ ] Nå ser det nok ut som om det mangler noen streker i stjernen
   din. Kan du få tegnet opp de siste kantene ved å tegne opp den første

@@ -336,7 +336,7 @@ spillet ferdig ved å lage lister som gjør det enklere å lage en
 tilfeldig reiserute. Vi skal også se hvordan vi kan lage en intro til
 spillet, samt legge på en tidsbegrensning og poengsum.
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 - [ ] Kan du legge til flere reisemål på egen hånd? Husk at det er lurt å
   gjøre reisemålet synlig mens du tester. Da blir det enklere å finne

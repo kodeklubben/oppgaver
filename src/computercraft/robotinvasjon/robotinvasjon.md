@@ -235,7 +235,7 @@ til å flytte roboten dit vi vil ha den:
   `turtle.forward()`, `turtle.back()`, `turtle.turnLeft()`,
   `turtle.turnRight()`, `turtle.up()`, `turtle.down()`.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Lag en liten kloss litt unna roboten din, omtrent som på bildet
 under. Klarer du å bruke `turtle`-kommandoene over til å plassere

@@ -37,7 +37,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Merk at Tegneprogram bruker ressurser som ikke er tilgjengelig i Scratch-biblioteket, men lastes ned utenom. Dette er beskrevet i oppgaven. Eventuelt finner du ressursene i katalogen `ressurser` på GitHub: <https://github.com/kodeklubben/oppgaver/tree/master/src/scratch/>,
 eller i en zip-fil kalt `Materials` eller `Tegneprogram_ressurser.zip`, tilgjengelig sammen med disse instruksene. Elevene kan med fordel ha lastet ned zip-filen på forhånd, ellers bør du beregne tid til dette i starten av timen.
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../tegneprogram/tegneprogram.html){target=_blank}
 # Steg 1: Dra og tegn! {.activity}
 Noen brukere har rapportert at de har hatt problemer med å få blyanten

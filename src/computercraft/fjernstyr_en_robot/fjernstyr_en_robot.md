@@ -215,7 +215,7 @@ lang! La oss programmere dette.
 - [ ] Hva gjør unpack? Hvordan kan vi bruke `shell.run()` til å gå frem *uten*
   `unpack()`?
 
-## Nøtt {.try}
+## Nøtt {.challenge}
 
 * Åpne et nytt program: `edit many.lua` (Du kan bruke en annen editor hvis du
   vil)

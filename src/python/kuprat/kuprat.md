@@ -255,7 +255,7 @@ omtrent hva som helst.
 
   Lagre og kjør programmet. Blir snakkeboblen riktig størrelse?
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Kan du tegne andre dyr eller figurer som også kan snakke? Prøv
 eventuelt å gjøre små endringer på utseendet til kua, for eksempel kan

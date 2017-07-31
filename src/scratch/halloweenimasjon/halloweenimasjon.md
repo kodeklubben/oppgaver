@@ -375,7 +375,7 @@ __Klikk på det grønne flagget.__
 
 # Steg 6: Enda flere animasjoner? {.activity}
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Vi har nå sett noen eksempler på hvordan vi kan lage skumle
 halloween-animasjoner. Prøv å bruk lignende teknikker for å lage dine
