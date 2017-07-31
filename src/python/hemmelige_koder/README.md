@@ -51,7 +51,7 @@ I denne oppgaven skal vi reise tilbake til Romertiden og utforske en av de aller
  - [ ]  __Utstyr__: Datamaskin med Python installert
 
 
- # Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../hemmelige_koder/hemmelige_koder.html){target=_blank}
 
