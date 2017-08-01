@@ -11,8 +11,7 @@ tags:
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi gjøre enkle operasjoner på tekst, som å endre
-størrelsen på bokstavene og telle ord.
+I denne oppgaven skal vi gjøre enkle operasjoner på tekst, som å endre størrelsen på bokstavene og telle ord.
 
 I Python lagrer vi tekst til en **variabel** slik som dette:
 
