@@ -1,4 +1,4 @@
-﻿---
+---
 title: ToPlayer
 level: 1
 author: Ruben Gjerstad Eide og Kine Gjerstad Eide
