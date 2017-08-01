@@ -178,7 +178,7 @@ Siden vår vil nå se ca slik ut:
 
 Til venstre har vi HTML-koden og til høyre har vi hvordan nettleseren viser siden vår.
 
-## Hva kan du gjøre videre? {.try}
+## Hva kan du gjøre videre? {.challenge}
 
 - [ ] Er det noe annet du kan legge til websiden som vil hjelpe folk å finne Felix? Mer informasjon? Hvordan ville du lagt til et kart over hvor han forsvant?
 
