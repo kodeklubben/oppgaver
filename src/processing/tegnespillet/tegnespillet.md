@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tegnespillet
 level: 1
 author: Kine Gjerstad Eide og Ruben Gjerstad Eide
