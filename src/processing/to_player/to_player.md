@@ -3,39 +3,43 @@ title: ToPlayer
 level: 1
 author: Ruben Gjerstad Eide og Kine Gjerstad Eide
 language: nb
+tags:
+    topic: [text_based]
+    subject: [mathematics, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon: {.intro}
 
-Nå skal vi lage ett spill hvor to personer skal spille mot hverandre. Vi har kalt det ToPlayer, men du kan kalle det hva du vil. Målet er å dytte en figur, eller en spillbrikke ut av vinduet på motstanderen sin side. Spillet ser ganske enkelt ut, men du kan etterhvert pimpe det opp som du vil. Når du har kommet deg gjennom hele denne oppgava skal spillet ligne på bilde under. Du får bestemme farger og litt annet selv, så det kommer jo ann på hva du liker. 
+Nå skal vi lage ett spill hvor to personer skal spille mot hverandre. Vi har kalt det ToPlayer, men du kan kalle det hva du vil. Målet er å dytte en figur, eller en spillbrikke ut av vinduet på motstanderen sin side. Spillet ser ganske enkelt ut, men du kan etterhvert pimpe det opp som du vil. Når du har kommet deg gjennom hele denne oppgava skal spillet ligne på bilde under. Du får bestemme farger og litt annet selv, så det kommer jo ann på hva du liker.
 
 ![](preview.png)
 
 # Steg 1: Kom i gang med metodene `setup` og `draw` {.activity}
 
-Start med å åpne Processing. Når det er gjort, så må du skrive to metoder. Alle metoder har sitt eget navn,og to metoder kan ikke hete det samme. De to metodene du skal skrive er `setup` og `draw`. Bortsett fra metodenavnet, så skrives de på akkurat samme måte. Derfor viser vi deg hvordan du skal skrive `setup` metoden, og så må du selv forsøke å skrive `draw` metoden. 
+Start med å åpne Processing. Når det er gjort, så må du skrive to metoder. Alle metoder har sitt eget navn,og to metoder kan ikke hete det samme. De to metodene du skal skrive er `setup` og `draw`. Bortsett fra metodenavnet, så skrives de på akkurat samme måte. Derfor viser vi deg hvordan du skal skrive `setup` metoden, og så må du selv forsøke å skrive `draw` metoden.
 
-Slik ser `setup` metoden ut: 
+Slik ser `setup` metoden ut:
 
 ```processing
 void setup(){
 
 }
-``` 
+```
 ## Gjør dette: {.check}
-- [ ] Skriv `draw` metoden under `setup` metoden. 
-- [ ] Sjekk at metodene fungerer ved å kjøre programmet. Klikk på pilen oppe til venstre for å gjøre det. 
+- [ ] Skriv `draw` metoden under `setup` metoden.
+- [ ] Sjekk at metodene fungerer ved å kjøre programmet. Klikk på pilen oppe til venstre for å gjøre det.
 
 ![](play.png)
 
-Dersom programmet kjører og alt er i orden så vil det dukke opp et nytt bitte lite vindu på skjermen din. Dersom du fikk opp vinduet, så er det bare å gå videre til steg 2, dersom ikke, så har vi tatt ett bilde av koden så langt, sjekk at du har husket alle detaljene. 
+Dersom programmet kjører og alt er i orden så vil det dukke opp et nytt bitte lite vindu på skjermen din. Dersom du fikk opp vinduet, så er det bare å gå videre til steg 2, dersom ikke, så har vi tatt ett bilde av koden så langt, sjekk at du har husket alle detaljene.
 
 ![](steg1.png)
 
-Lagre koden din før du går videre. 
+Lagre koden din før du går videre.
 
 ## Forklaring av setup og draw {.protip}
-Alt innholdet i `setup` skjer en gang når programmet starter, deretter går programmet videre til `draw`. Alt innholdet i `draw` skjer på nytt og på nytt helt til programmet stopper. 
+Alt innholdet i `setup` skjer en gang når programmet starter, deretter går programmet videre til `draw`. Alt innholdet i `draw` skjer på nytt og på nytt helt til programmet stopper.
 #
 
 # Steg 2: Bestem størrelse og bakgrunnsfarge på vinduet
@@ -43,36 +47,36 @@ Alt innholdet i `setup` skjer en gang når programmet starter, deretter går pro
 Nå er det størrelsen på vinduet og bakgrunnsfargen som skal kodes. For å gjøre det, trengs bare to kodelinjer. Begge skal skrives inn i `setup` metoden. Å skrive kode inni en metoden vil si at vi skriver mellom krøllparentesene, altså disse to tegna: `{` og `}`.
 
 Størrelsen bestemmes ved å skrive denne kodelinja:
- 
+
 ```processing
 	size(200, 600);
-``` 
+```
 
-Tallene inni parentesene bestemmer størrelsen på vinduet. 
+Tallene inni parentesene bestemmer størrelsen på vinduet.
 
 Koden som bestemmer bakgrunsfargen ser slik ut:
 
 ```processing
 	background(40, 150, 255);
-``` 
+```
 
 Talla inni parentesene bestemmer fargen.
 
-Her er en sjekkliste med ting du må gjøre, for hvert punkt må du starte programmet og se hva som endrer seg i koden. Det er viktig at du har forståelse for koden din når du er ferdig med sjekklista. 
+Her er en sjekkliste med ting du må gjøre, for hvert punkt må du starte programmet og se hva som endrer seg i koden. Det er viktig at du har forståelse for koden din når du er ferdig med sjekklista.
 
-## Sjekkliste {.check} 
+## Sjekkliste {.check}
 
-- [ ] Gjør det første tallet i parentesene til `size` dobbel så stor. 
+- [ ] Gjør det første tallet i parentesene til `size` dobbel så stor.
 - [ ] Forsøk å få vinduet til å dekke hele skjermen din.
 - [ ] Sett tallene inni parentesene til background til å være dette: (255, 0, 0)
 - [ ] Sett tallene inni parentesene til background til å være dette: (0, 255, 0)
 - [ ] Sett tallene inni parentesene til background til å være dette: (0, 0, 255)
 - [ ] Sett tallene inni parentesene til background til å være dette: (0, 255, 255)
 - [ ] Sett alle tallene inni parentesene til background til å være 0.
-- [ ] Forsøk å få bakgrunnen til å bli hvit. 
+- [ ] Forsøk å få bakgrunnen til å bli hvit.
 - [ ] Forsøk å få bakgrunnen til å bli lilla.
 - [ ] Finn en størrelse du liker på vinduet ditt.
-- [ ] Finn en bakgrunnsfarge på vinduet ditt som du liker. 
+- [ ] Finn en bakgrunnsfarge på vinduet ditt som du liker.
 
 Kjør programmet ditt og sjekk at du får vinduet til å vises før du går videre. Her er koden vi har laga så langt, husk at dine tall kanskje er litt forskjellig fra våre tall.
 
@@ -91,17 +95,17 @@ Her er koden som skal brukes:
 
 ## Gjør dette: {.check}
 - [ ] Skriv inn de to kodelinjene i `draw` metoden og test at programmet kjører.
-- [ ] Bytt ut ett og ett av tallene inni parentesen til `ellipse();` og finn ut hva de gjør. 
+- [ ] Bytt ut ett og ett av tallene inni parentesen til `ellipse();` og finn ut hva de gjør.
 - [ ] Bytt ut ett og ett av tallene inni parentesen til `fill();` og finn ut hva de gjør.
-- [ ] Forsøk å få spillbrikka til å bli rosa. 
+- [ ] Forsøk å få spillbrikka til å bli rosa.
 - [ ] Forsøk å få spillbrikka til å bli så svær at den dekker hele vinduet.
 - [ ] Still tilbake størrelsen på spillbrikka og velg en farge du liker.
- 
-Nå skal vi gjøre slik at ellipsa er klar til å bevege seg sidelengs. Som du sikkert har funnet ut, så bestemmer det første tallet i parentesen hvor ellipsa står plassert sidelengs. Vi ønsker å gjøre dette tallet til en variabel, altså til et tall som kan variere. 
+
+Nå skal vi gjøre slik at ellipsa er klar til å bevege seg sidelengs. Som du sikkert har funnet ut, så bestemmer det første tallet i parentesen hvor ellipsa står plassert sidelengs. Vi ønsker å gjøre dette tallet til en variabel, altså til et tall som kan variere.
 
 For å får det til, så deklarerer vi variabelen helt i toppen av programmet vårt (utenfor `setup` og `draw` metodene). Dette gjør vi ved å skrive denne kodelinja:
 
-```processing 
+```processing
 	int x;
 ```
 
@@ -113,15 +117,15 @@ Vi må gi `x` en verdi som den har til å begynne med, det gjør vi inni `setup`
 	x = 90;
 ```
 
-Så må vi bytte ut det første tallet i parentesen til `ellipse` med `x`. Da ser koden for ellipse slik ut: 
+Så må vi bytte ut det første tallet i parentesen til `ellipse` med `x`. Da ser koden for ellipse slik ut:
 
 ```processing
 	ellipse(x, 250, 50, 50);
 ```
 
 ## Gjør dette: {.check}
-- [ ] Skriv inn de tre kodelinjene som ble forklart over, pass på at du plasserer dem på riktig plass i koden.. 
-- [ ] Test at programmet ditt kjører, ingenting nytt skal skje, bortsett fra at spillbrikka kanskje har flytta litt på seg. 
+- [ ] Skriv inn de tre kodelinjene som ble forklart over, pass på at du plasserer dem på riktig plass i koden..
+- [ ] Test at programmet ditt kjører, ingenting nytt skal skje, bortsett fra at spillbrikka kanskje har flytta litt på seg.
 - [ ] Bytt ut verdien til `x` med for eksempel `180` og se at ellipsa flytter seg.
 - [ ] Se om du får til å plassere ellipsa så lagt ut til den høyre sida av vinduet at du bare kan se halve ellipsa.
 - [ ] Plasser ellipse midt på skjermen sideveis.
@@ -158,11 +162,11 @@ If tester er lette å sette opp som muntlige setninger og så gjøre dem om til 
 ```processing
 Dersom ( et eller annet er sant) så skal dette skje{
 	vi får mer liv
-	vi hopper, 
-	noe flytter på seg, 
+	vi hopper,
+	noe flytter på seg,
 }
 ```
-Noe som er vanlig å sjekke i en if-setning er om man har trykka på en spesiell knapp, eller om datamuda er innenfor et bestemt område. Eller man kan sjekke hvor mange liv man har igjen, dersom det er 0, så kan man skrive "GAME OVER". 
+Noe som er vanlig å sjekke i en if-setning er om man har trykka på en spesiell knapp, eller om datamuda er innenfor et bestemt område. Eller man kan sjekke hvor mange liv man har igjen, dersom det er 0, så kan man skrive "GAME OVER".
 
 #
 Når vi skriver if-setningen vår med ord blir det slik:
@@ -173,7 +177,7 @@ Dersom (man trykker en knapp og knappen er 'a') så skal dette skje{
 }
 ```
 
-Vi forsøker å gjøre setningen mer lik kode: 
+Vi forsøker å gjøre setningen mer lik kode:
 
 ```processing
 dersom ( enKnappErPressaNed og knappen er lik 'a'){
@@ -187,17 +191,17 @@ Så gjør vi det til kode:
 if(keyPressed && key == 'a'){
 	x+=10;
 }
-``` 
+```
 
 ## Prøv dette {.check}
 - [ ] Skriv inn if-setningen i `draw` metoden.
-- [ ] Kjør programmet, trykk på `a`, hva skjer? 
+- [ ] Kjør programmet, trykk på `a`, hva skjer?
 - [ ] Flytt kodelinja som setter bakgrunsfargen fra `setup` metoden til `draw` metoden. Putt den øverst inni draw.
 - [ ] Kjør programmet på nytt og se hva som skjer.
 - [ ] Bytt ut 10 tallet med ett annet tall.
 - [ ] Bytt ut `a` med en annen bokstav.
-- [ ] Flytt kodelinja som setter bakgrunnsfargen frem og tilbake mellom `setup` og `draw` noen ganger og se om du forstår hva som skjer. 
-- [ ] Forsøk nå å skrive en if-setning til. Denne skal stå under den forrige, og nå kan du velge en annen bokstav. I stede for at `x` blir større, så må du skrive koden slik at `x` blir mindre. Dersom det  er litt vanskelig, så kan du forsøke å sette opp if-setningen som en vanlig setning slik vi har vist i forklaringen over. 
+- [ ] Flytt kodelinja som setter bakgrunnsfargen frem og tilbake mellom `setup` og `draw` noen ganger og se om du forstår hva som skjer.
+- [ ] Forsøk nå å skrive en if-setning til. Denne skal stå under den forrige, og nå kan du velge en annen bokstav. I stede for at `x` blir større, så må du skrive koden slik at `x` blir mindre. Dersom det  er litt vanskelig, så kan du forsøke å sette opp if-setningen som en vanlig setning slik vi har vist i forklaringen over.
 - [ ] Bytt ut tallet inni den nye if-setningen, slik at du får ellipsa til å gå dobbelt så raskt til venstre.
 
 Dersom ikke koden din fungerer helt som den skal, så kan du sjekke her hva som er feil.
@@ -225,8 +229,8 @@ Her er if-setningen som trengs for å sjekke om venstre spiller har vunnet. Denn
 - [ ] Finn ut hva tallene som står inni parentesene til `text` gjør ved å bytte dem ut.
 - [ ] Gjør størrelsen på vinduet ditt større og se hvordan det påvirker if-setningen.
 - [ ] Still tilbake alle tallene, slik at teksten dukker opp på skjermen bare når spillbrikka er utav skjermen.
-- [ ] Lag en ny if-setning som gjør nesten akkurat det samme, men som heller sjekker om ellipsa går ut av skjermen på venstre side. 
-- [ ] Test at koden din fungerer. 
+- [ ] Lag en ny if-setning som gjør nesten akkurat det samme, men som heller sjekker om ellipsa går ut av skjermen på venstre side.
+- [ ] Test at koden din fungerer.
 
 Her er hele koden, sjekk om din er lik.
 

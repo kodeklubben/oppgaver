@@ -3,6 +3,10 @@ title: Verden - Del 2
 level: 2
 author: Kine Gjerstad Eide
 language: nb
+tags:
+    topic: [text_based]
+    subject: [mathematics, programming, social_science]
+    grade: [junior, senior]
 ---
 
 # Intro {.intro}

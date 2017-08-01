@@ -3,6 +3,10 @@ title: Tegnespillet
 level: 1
 author: Kine Gjerstad Eide og Ruben Gjerstad Eide
 language: nb
+tags:
+    topic: [text_based]
+    subject: [mathematics, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon: {.intro}
@@ -69,37 +73,37 @@ i Processing og andre programmeringsspråk.
 Lurer du på hvordan koden du har skrevet fungerer?
 
 -	`void setup() {` er en metode som heter `setup`, du kan bare ha en metode med hvert navn! `setup` er en spesiell metode fordi den blir kjøres bare en gang helt først når du starter programmet ditt. Noen metoder gir tilbake informasjon, det gjør ikke `setup`, det viser vi ved å skrive `void` forran `setup`.
--	`size(640, 420);` er det som bestemmer hvor stort vinduet ditt er, den er inni `void setup(){` metoden fordi vi må bestemme størrelsen på vinduet bare en gang når vi starter. 
+-	`size(640, 420);` er det som bestemmer hvor stort vinduet ditt er, den er inni `void setup(){` metoden fordi vi må bestemme størrelsen på vinduet bare en gang når vi starter.
 -	Vi har også `background(0, 0, 0)` som bestemmer bakgrunsfargen fargen i vinduet, `0` betyr at det ikke er farge, da blir det svart. Dersom vi skriver 255 setter vi på full farge styrke på den lille pæra som sitter i pc-skjermen. Det betyr at dersom vi skriver `background(255, 255, 255)` så blir det hvitt, 255 er det høyeste tallet vi kan velge. De forskjellige tallene står for `background(RØD, GRØNN, BLÅ)` og når vi endrer verdiene her, så blander vi fargene.
--	På linje 1 og 4 har vi `{` og `}` disse krøllparentesene åpner og lukker metoden. Metoden inneholder all kode vi skriver mellom disse. 
+-	På linje 1 og 4 har vi `{` og `}` disse krøllparentesene åpner og lukker metoden. Metoden inneholder all kode vi skriver mellom disse.
 
 #
-Slik skal koden din se ut så langt, husk at tallene inni parentesene ikke nødvendigvis er like de du har, det betyr bare at du har annen størrelse på vinduet ditt, eller en annen bakgrunsfarge. 
+Slik skal koden din se ut så langt, husk at tallene inni parentesene ikke nødvendigvis er like de du har, det betyr bare at du har annen størrelse på vinduet ditt, eller en annen bakgrunsfarge.
 
 ![](steg1.png)
 
 # Steg 2: Tegne med sirkel! {.activity}}
 
-Vi lager en ny metode som vi kaller `draw`, denne skal også være `void`. 
+Vi lager en ny metode som vi kaller `draw`, denne skal også være `void`.
 
 ## Gjør dette: {.check}
-- [ ] Skriv denne koden: 
+- [ ] Skriv denne koden:
 ```processing
 void draw(){
-  
+
 }
 ```
-- [ ] Start programmet og set at det kjører. Det skal ikke skje noe nytt, men dersom programmet ikke kjører, så har du skrivefeil i den nye koden. 
+- [ ] Start programmet og set at det kjører. Det skal ikke skje noe nytt, men dersom programmet ikke kjører, så har du skrivefeil i den nye koden.
 - [ ] Skriv denne koden inn i `draw` metoden for å få noe å tegne med!
 ```processing
 	fill(100, 100, 255);
 	ellipse(mouseX, mouseY, 50, 50);
 ```
-- [ ] Start programmet og tegn litt. 
+- [ ] Start programmet og tegn litt.
 
 ## Prøv dette: {.check}
 - [ ] Bytt fargen du tegner med, det gjør du ved å endre tallene inni `fill(100, 100, 255);`.
-- [ ] Se om du får til å tegne grønt. 
+- [ ] Se om du får til å tegne grønt.
 - [ ] Se om du får til å tegne blått.
 - [ ] Bytt ut det første `50` tallet med `200` som står i paretesen bak `ellipse` og se hva som skjer.
 - [ ] Kan du få `ellipse` til å bli like høy som vinduet ditt?
@@ -120,11 +124,11 @@ Lurer du på hvordan koden du har skrevet fungerer?
 
 -	`void draw(){` er en ny metode, slik som `void setup(){` men med nytt
 	navn og nytt innhold.
-	
+
 -	ellipse betyr at du lager en sirkel, og `mouseX, mouseY` bestemmer at den skal følge
 	etter musepekeren når du flytter på datamusa. Tallene `50, 50` bestemmer størrelsen
 	til sirkelen.
-	
+
 -	`fill(100, 100, 255);` bestemmer hvilke farge sirkelen skal ha, her er det
 	likt som før, der de står for `(RØD, GRØNN, BLÅ)` og kan blandes slik som du
 	har prøvd før.
