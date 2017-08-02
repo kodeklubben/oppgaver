@@ -54,14 +54,14 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
-- [ ]  Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ]  __Forutsetninger__: Det er en fordel om elevene har erfaring med blokkbasert programmering i Code Studio eller Scratch, med det går fint å starte rett på.
 
-- [ ]  __Utstyr__:  Datamaskin med tilgang til Internett, micro:bit, micro-usb-kabel.
+- [ ]  __Utstyr__:  Datamaskin med tilgang til Internett, micro:bit og micro-usb-kabel.
 
 
 ## Fremgangsmåte
