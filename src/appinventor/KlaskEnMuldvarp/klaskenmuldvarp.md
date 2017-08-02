@@ -199,6 +199,6 @@ Hvordan kan du lage spillet enda bedre?
 
 Kan du gjøre spillet vanskeligere?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 Prøv å sette timeren til en lavere verdi. Hva skjer?

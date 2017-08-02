@@ -3,6 +3,10 @@ title: Farger
 level: 1
 author: Sigmund Hansen
 language: nb
+tags:
+    topic: [text_based]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -180,7 +184,7 @@ fargen på bakgrunnen, så la oss se hva vi kan gjøre med fargene til former.
 
   Nå er omrisset tre piksler bredt.
 
-## Eksperimenter {.try}
+## Eksperimenter {.challenge}
 
 - [ ] Prøv forskjellige bakgrunnsfarger. Hvordan synes du forskjellige
   bakgrunnsfarger passer sammen med fargene på sirkelen?
@@ -568,7 +572,7 @@ likevel være enklere med tre variabler.
   om du bytter til RGB, `colorMode(RGB, 255);`, etter at du har lagd
   fargene ovenfor?
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 - [ ] Ta utgangspunkt i punktet hvor du blandet farger med
   `lerpColor`. Kan du tegne et ansikt eller en annen figur med

@@ -3,6 +3,10 @@ title: Kryptonøtt
 level: 4
 author: Arve Seljebu
 language: nb
+tags:
+  topic: [text_based]
+  subject: [programming]
+  grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

@@ -53,7 +53,7 @@ I denne oppgaven skal vi se nærmere på hvordan Python arbeider med tall og lag
  - [ ]  __Utstyr__: Datamaskin med Python installert
 
 
- # Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../mattespill/mattespill.html){target=_blank}
 
