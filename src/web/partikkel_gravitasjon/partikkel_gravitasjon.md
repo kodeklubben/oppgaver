@@ -115,7 +115,7 @@ window.onkeydown = function(inputKey) {
 ```
 - [ ] Bruk [keycode.info](http://keycode.info) til å finne ut hvilke `knapp-kode` knappen du vil bruke har.
 
-## Forklaring {.try}
+## Forklaring {.challenge}
 + `window.onkeydown` er en funksjon som sjekker om en knapp trykkes ned, dersom den gjør det, så kjøres funksjonen med `knapp-kode` `inputKey`.
 + `var key = inputKey.keyCode ? inputKey.keyCode : inputKey.which;` er en enklere måte å skrive dette på:
 ```js

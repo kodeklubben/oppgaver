@@ -56,7 +56,7 @@ sette opp krav til og vurdere nettsteder
 - [ ]  __Utstyr__: Datamaskin med tilgang til internett og tekstbehandlingsprogram.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../layout/layout.html){target=_blank}
 
 

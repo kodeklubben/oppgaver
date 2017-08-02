@@ -55,7 +55,7 @@ I denne oppgaven skal vi utforske if-setninger og tegne ulike geometriske figure
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
- # Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../skilpadder/skilpadder.html){target=_blank}
 
