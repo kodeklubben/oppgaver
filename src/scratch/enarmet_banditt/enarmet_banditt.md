@@ -65,7 +65,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Endrer figuren drakt i et fornuftig tempo?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 Tilpass tiden i `vent`{.blockcontrol}-klossen. Hvilke tall gjør spillet
 for vanskelig eller for lett?
@@ -204,7 +204,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Hvordan må vi forandre skriptet dersom vi legger til en annen drakt?
 
-## Ting å prøve{.try}
+## Ting å prøve{.challenge}
 
  __Gjør spillet vanskeligere!__
 

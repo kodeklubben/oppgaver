@@ -101,7 +101,7 @@ Det er viktig å slippe strekene eksakt som det står i de to stegene over! Diss
 
   ![](change_label.png)
 
-## Utfordring - Variabler {.try}
+## Utfordring - Variabler {.challenge}
 Prøv å definer en variabel nedenfor `@IBOutlet weak var etikett: UILabel!`, og sett den til å være ditt navn. Klarer du å få `Label` til å vise verdien av variabelen ved å endre `etikett.text`?
 
 # Steg 4: Få input fra tekstfelt {.activity}
@@ -120,7 +120,7 @@ Nå skal vi legge inn et tekstfelt i appen, så vi kan ta det brukeren skriver i
 
   ![](textfield_input.png)
 
-## Utfordring - Kan du lage din egen versjon? {.try}
+## Utfordring - Kan du lage din egen versjon? {.challenge}
 Nå som du har lært det grunnleggende, hvorfor ikke lage en app som har flere knapper og tekstfelt? Kanskje du kan få den til å fortelle en morsom historie basert på ord brukeren skriver inn? Vis gjerne appen til bekjente og be om tilbakemeldinger!
 
 ## Noen spørsmål? {.protip}

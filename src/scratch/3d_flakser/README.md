@@ -42,7 +42,7 @@ __Tidsbruk__: Hver av de to delene passer til en dobbelttime, eller som del av e
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven. Det kan være en fordel å ha gjort prosjektet [Flaksefugl](../flaksefugl/flaksefugl.html){target=_blank} først.
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten for del 1.](../3d_flakser/3d_flakser_1.html){target=_blank}
 [Klikk her for å se oppgaveteksten for del 2.](../3d_flakser/3d_flakser_2.html){target=_blank}
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
