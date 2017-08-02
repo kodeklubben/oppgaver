@@ -49,7 +49,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på introduksjons- og nybegynnernivå før de starter med denne oppgaven. I prosjektet brukes _sinus_ og _cosinus_, som vanligvis ikke introduseres for elevene før mot slutten av videregående. Det kan være lurt å prate litt om disse funksjonene med elevene.
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../flagg/flagg.html){target=_blank}
 # Steg 1: Gå i sirkel {.activity}
 - [ ] Det er mange måter å lage sirkelbevegelser i Scratch, men flere av disse har begrensninger. Derfor bruker vi _sinus_ og _cosinus_. Som nevnt over blir ikke disse introdusert for elevene på nivået du sannsynligvis underviser, derfor introduseres funksjonene på en enkel måte: som forholdet mellom

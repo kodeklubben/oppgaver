@@ -168,7 +168,7 @@ __Klikk på det grønne flagget.__
   `skjul`{.blocklooks}-kloss rett før
   `spill tone`{.blocksound}-klossen.
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 Før vi går videre skal vi se på et par måter vi kan gjøre hver enkelt
 boks litt spesiell og forskjellig fra de andre på. Prøv å
@@ -306,7 +306,7 @@ __Klikk på det grønne flagget.__
   kommer! Dette har plutselig blitt et ganske vanskelig spill som
   krever konsentrasjon og koordinasjon!
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 Oppgaven slutter her, men det er jo fortsatt mange spennende ting du
 kan gjøre med spillet ditt for å gjøre det enda bedre.

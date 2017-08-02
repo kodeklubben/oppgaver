@@ -1,4 +1,3 @@
-
 ---
 title: Lærerveiledning - Bokstaver
 level: 1
@@ -44,17 +43,17 @@ I denne oppgaven skal vi programmere skilpadder til å konstruere bokstaver og a
 
  - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
- - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+ - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
- 
+
  ## Forutsetninger og utstyr {.challenge}
 
  - [ ]  __Forutsetninger__: Ingen.
 
- - [ ]  __Utstyr__: Datamaskin med Python installert. 
+ - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
- # Fremgangsmåte
+## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../bokstaver/bokstaver.html){target=_blank}
 
@@ -77,4 +76,3 @@ __NB:__ merk at 'red' bare er et eksempel på en farge som kan brukes. Dersom en
  ## Eksterne ressurser {.challenge}
 
  - [ ] Foreløpig ingen eksterne ressurser ...
-
