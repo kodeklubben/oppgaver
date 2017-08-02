@@ -10,9 +10,13 @@ I dette prosjektet lager vi et tegneprogram slik at man etterpå kan lage sin eg
 ![](gronttre.png)
 
 ## Oppgaven passer til: {.check}
+
  __Fag__: Kunst og håndtverk, matematikk, programmering.
+
 __Anbefalte trinn__: 8. trinn til VG3.
+
 __Tema__: Tegning, koordinatsystem, brukerinteraksjon.
+
 __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
@@ -34,7 +38,7 @@ Det er mange ulike måter en kan vurdere et programmeringsprosjekt, og her må e
 
 - [ ]  __Utstyr__: Datamaskiner med [Processing](https://www.processing.org/download/){target=_blank} installert. Elevene kan gjerne jobbe to og to sammen.
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../tegnespillet/tegnespillet.html){target=_blank}
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
