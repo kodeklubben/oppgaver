@@ -4,8 +4,8 @@ level: 4
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 tags:
-  topic: [text_based ]
-  subject: [programming, programming]
+  topic: [text_based]
+  subject: [programming]
   grade: [secondary, junior, senior]
 ---
 
