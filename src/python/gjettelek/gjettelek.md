@@ -5,7 +5,7 @@ author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 tags:
   topic: [text_based, game]
-  subject: [programming, programming]
+  subject: [programming]
   grade: [secondary, junior, senior]
 ---
 
