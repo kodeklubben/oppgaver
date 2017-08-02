@@ -5,8 +5,7 @@ language: nb
 ---
 
 # Om oppgaven {.activity}
-I denne oppgaven skal elevene
-
+I denne oppgaven skal elevene lage funksjoner som flytter og roterer ulike figurer på skjermen. Vi starter med å lage sirkler av trekanter, og fortsetter med andre former og figurer.
 
 ## Oppgaven passer til: {.check}
  __Fag__: Matematikk
