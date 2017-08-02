@@ -73,7 +73,7 @@ denne veiledningen viser vi hvordan du kan spille melodien "Twinkle twinkle litt
 
 - [ ] Spilles melodien på micro:biten når du har overført programmet ditt?
 
-- [ ] Test ut noen andre innebygde melodier også.  [Du finner en hel liste av de her](https://microbit-micropython.readthedocs.io/en/latest/music.html#built-in-melodies){target=_blank}.
+- [ ] Test ut noen [andre innebygde melodier](https://microbit-micropython.readthedocs.io/en/latest/music.html#built-in-melodies){target=_blank} også.
 
 # Steg 4: Lag en tone selv {.activity}
 
