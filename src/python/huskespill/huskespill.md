@@ -3,6 +3,10 @@ title: Huskespill
 level: 3
 author: Sindre O. Rasmussen, Kodeklubben Trondheim
 language: nb
+tags:
+  topic: [text_based, game]
+  subject: [programming, english]
+  grade: [secondary, junior]
 ---
 
 # Huskespill {.intro}
@@ -68,10 +72,11 @@ Prøv å kjør denne koden mange ganger!
 
 
 # Steg 2: Hent inn tekst og lag liste av den {.activity}
-- [ ]Lag en funksjon som tar inn tekst og lager en liste av den.
+
+- [ ] Lag en funksjon som tar inn tekst og lager en liste av den.
 - [ ] Teksten som tas inn skal splittes ved `-`.
 - [ ] Funksjonen skal returnere listen.
-- [ ] **Før du går videre til steg 3, sjekk at funksjonen din fungerer som den skal.**
+- [ ] Før du går videre til steg 3, sjekk at funksjonen din fungerer som den skal.
 
 ## Tips: Hente innputt {.protip}
 For å hente innputt og lagre det til en variabel kan vi bruke [`input()`].
