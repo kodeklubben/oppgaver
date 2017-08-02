@@ -5,7 +5,7 @@ author: Arve Seljebu
 language: nb
 tags:
   topic: [text_based]
-  subject: [programming, programming]
+  subject: [programming]
   grade: [junior, senior]
 ---
 
