@@ -300,7 +300,7 @@ Nå er vi ferdige med spillet! Veldig bra! Vi håper du har lært mye
 spennende gjennom disse leksjonene.  Du kan dele spillet med familie
 og venner ved å trykke `Legg ut` øverst til høyre på skjermen.
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 - [ ] Selv om leksjonene er ferdige betyr ikke det at du ikke kan
   videreutvikle spillet ditt. En enkel utvidelse er å legge på flere

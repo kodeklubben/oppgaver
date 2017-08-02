@@ -53,7 +53,7 @@ I denne oppgaven utforskes grader og mangekanter ved hjelp av Python's skilpadde
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
- # Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../skilpadder/skilpadder.html){target=_blank}
 

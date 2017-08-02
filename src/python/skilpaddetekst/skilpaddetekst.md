@@ -3,6 +3,10 @@ title: Skilpaddetekst
 level: 4
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
+tags:
+  topic: [text_based ]
+  subject: [programming]
+  grade: [junior]
 ---
 
 # Introduksjon {.intro}
@@ -345,7 +349,7 @@ Vi trenger en funksjon for å skrive blanke tegn, og  vi trenger å oversette fr
 
 - [ ] Kjør koden og se resultatet ditt!
 
-## Kjøre koden uendelig mange ganger {.try}
+## Kjøre koden uendelig mange ganger {.challenge}
 
 Dersom du ønsker å kjøre koden uendelig mange ganger, kan du endre `main`-funksjonen til:
 

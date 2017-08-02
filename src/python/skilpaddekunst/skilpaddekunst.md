@@ -3,6 +3,10 @@ title: Skilpaddekunst
 author: Geir Arne Hjelle
 level: 2
 language: nb
+tags:
+  topic: [text_based ]
+  subject: [mathematics, programming, arts_and_crafts]
+  grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -396,7 +400,7 @@ bare tegner kjedelige mangekanter.
   `spiral`. Finner du noen verdier som gir spesielt fine bilder synes
   du?
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 Kombiner de forskjellige funksjonene vi har laget, `polygon`,
 `polylines` og `spiral` med de andre skilpadde-kommandoene du har lært
