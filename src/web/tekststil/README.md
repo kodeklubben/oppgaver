@@ -46,7 +46,7 @@ __Tidsbruk__: Enkelttime
 
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../tekststil/tekststil.html){target=_blank}
 
 # Steg 2: Kantlinjer! {.activity}

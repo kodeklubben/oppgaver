@@ -274,7 +274,7 @@ __Eksempel:__
 
 __TADA! Du har nå laget en flott nettside som du kan bygge videre på!__
 
-## Ting å jobbe videre med {.try}
+## Ting å jobbe videre med {.challenge}
 - [ ] Bruk [w3schools.com/css/css_link.asp](http://www.w3schools.com/css/css_link.asp) til å legge til forandring på linkene når du holder over dem
 - [ ] Legg til enda en side for eksempel "Mitt favorittspill". Skriv om det, legg til bilder og videoer som er relatert til spillet.
 - [ ] Legg teksten på siden i en `div`-er og sett forskjellig stil på dem
