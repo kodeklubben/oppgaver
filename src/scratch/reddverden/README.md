@@ -43,7 +43,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Forutsetninger__: Elevene bør være komfortable med Scratch.
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene bør ha tilgang på kilder for bilder og informasjon om materialer i gjenstandene de ønsker å bruke i spillet.
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../reddverden/reddverden.html){target=_blank}
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 

@@ -101,7 +101,7 @@ vil se at `heiverden` er på listen over programmer.
 - [ ] For å kjøre programmet vi har laget, skriver vi `heiverden` og
 trykker enter.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Klarer du å endre på programmet slik at det for eksempel sier hei til
 deg, eller kanskje til de som sitter ved siden av deg?
@@ -578,7 +578,7 @@ den:
   `turtle.forward()`, `turtle.back()`, `turtle.turnLeft()`,
   `turtle.turnRight()`, `turtle.up()`, `turtle.down()`.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Lag en liten kloss litt unna roboten din, omtrent som på bildet
 under. Klarer du å bruke `turtle`-kommandoene over til å plassere
@@ -800,7 +800,7 @@ Gratulerer! Du har nå programmert en robot! Legg merke til at siden
 `byggTrapp`-programmet vårt bruker `detect`-kommandoer kan det bygge
 trapper opp alle slags tårn og bratte fjellsider!
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Vi har nå laget et program som kan bygge trapper oppover. Kan du lage
 et program som kan grave trapper ned under bakken?

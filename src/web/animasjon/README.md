@@ -59,7 +59,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven.[Klikk her for å se oppgaveteksten.](../animasjon/animasjon.html){target=_blank}
 
 # Steg 1: Animasjons-attributtet {.activity}

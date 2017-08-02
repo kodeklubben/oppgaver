@@ -3,6 +3,10 @@ title: Skilpaddefraktaler
 author: Geir Arne Hjelle
 level: 3
 language: nb
+tags:
+  topic: [text_based]
+  subject: [mathematics, programming, arts_and_crafts]
+  grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -431,7 +435,7 @@ trekanter.
   fraktalen er også ganske kjent, og går ofte under navnet
   Sierpinski-trekanten.
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 Det finnes mange fraktaler, og du kan lage dine helt egne også!
 

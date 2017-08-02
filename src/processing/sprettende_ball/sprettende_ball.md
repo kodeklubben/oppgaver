@@ -3,6 +3,10 @@ title: Sprettende ball
 level: 1
 author: Sigmund Hansen
 language: nb
+tags:
+    topic: [text_based, animation]
+    subject: [arts_and_crafts, mathematics, science, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon: {.intro}
@@ -59,7 +63,7 @@ i Processing og andre programmeringsspråk.
 | }    | Alt Gr + 0             | Shift + Alt + 9             |
 
 
-## Utforsking {.try}
+## Utforsking {.challenge}
 
 Hva skjer hvis du:
 
@@ -278,7 +282,7 @@ Hvis du ikke vil miste de forskjellige stegene i denne oppgaven kan du bruke
 **File -> Save as** ved å trykke **Ctrl + Shift + S**. Lagre programmet med et
 annet navn slik at du beholder de forskjellige variantene.
 
-## Utforsking {.try}
+## Utforsking {.challenge}
 
 Kan du endre `x` og `y` inni `draw` slik at sirkelen beveger seg:
 
@@ -356,7 +360,7 @@ I `draw` ser vi en del nytt som du ikke har sett før.
   vil den endres til å bli negativ (+ - = -). Dersom farten er negativ får vi to
   minus, som er positiv (- - = +).
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Kan du kombinere to og to av `if`-setningene ved å bruke `||`?  `||` betyr
   eller. Her er et eksempel: `if (x < 1 || x > 10)`, hvis x er under 1 *eller*
