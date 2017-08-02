@@ -42,7 +42,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Forutsetninger__: Elevene bør være komfortable med Scratch.
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Det er en fordel om elevene jobber to og to, slik at de kan teste spillet sammen underveis.
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../orkenlop/orkenlop.html){target=_blank}
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 

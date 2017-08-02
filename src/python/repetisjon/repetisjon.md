@@ -3,6 +3,10 @@ title: Repetisjon
 level: 3
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
+tags:
+  topic: [text_based]
+  subject: [programming]
+  grade: [junior]
 ---
 
 # Introduksjon {.intro}

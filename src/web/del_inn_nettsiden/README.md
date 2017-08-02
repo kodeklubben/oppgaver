@@ -50,7 +50,7 @@ __Tidsbruk__: Dobbeltime
 - [ ]  __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../del_inn_nettsiden/del_inn_nettsiden.html){target=_blank}
 
 # Generelt {.activity}
