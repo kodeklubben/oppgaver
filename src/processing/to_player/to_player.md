@@ -1,8 +1,12 @@
-﻿---
+---
 title: ToPlayer
 level: 1
 author: Ruben Gjerstad Eide og Kine Gjerstad Eide
 language: nb
+tags:
+    topic: [text_based]
+    subject: [mathematics, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon: {.intro}
@@ -23,7 +27,9 @@ void setup(){
 }
 ```
 ## Gjør dette: {.check}
+
 - [ ] Skriv `draw`-metoden under `setup`-metoden.
+
 - [ ] Sjekk at metodene fungerer ved å kjøre programmet. Klikk på pilen oppe til venstre for å gjøre det.
 
 ![](play.png)
@@ -35,6 +41,7 @@ Dersom programmet kjører og alt er i orden så vil det dukke opp et nytt bitte 
 Lagre koden din før du går videre.
 
 ## Forklaring av setup og draw {.protip}
+
 Alt innholdet i `setup` skjer én gang når programmet starter, deretter går programmet videre til `draw`. Alt innholdet i `draw` skjer på nytt og på nytt helt til programmet stopper.
 
 # Steg 2: Bestem størrelse og bakgrunnsfarge på vinduet
@@ -89,6 +96,7 @@ Her er koden som skal brukes:
 ```
 
 ## Gjør dette: {.check}
+
 - [ ] Skriv inn de to kodelinjene i `draw`-metoden og test at programmet kjører.
 - [ ] Bytt ut ett og ett av tallene inni parentesen til `ellipse` og finn ut hva de gjør.
 - [ ] Bytt ut ett og ett av tallene inni parentesen til `fill` og finn ut hva de gjør.
@@ -189,6 +197,7 @@ if(keyPressed && key == 'a'){
 ```
 
 ## Prøv dette {.check}
+
 - [ ] Skriv inn if-setningen i `draw`-metoden.
 - [ ] Kjør programmet, trykk på `a`, hva skjer?
 - [ ] Flytt kodelinja som setter bakgrunsfargen fra `setup`-metoden til `draw`metoden. Putt den øverst inni `draw`.

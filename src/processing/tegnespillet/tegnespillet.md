@@ -1,8 +1,12 @@
-﻿---
+---
 title: Tegnespillet
 level: 1
 author: Kine Gjerstad Eide og Ruben Gjerstad Eide
 language: nb
+tags:
+    topic: [text_based]
+    subject: [mathematics, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon: {.intro}
@@ -91,6 +95,7 @@ void draw(){
 ```
 - [ ] Start programmet og se at det kjører. Det skal ikke skje noe nytt, men dersom programmet ikke kjører, så har du skrivefeil i den nye koden.
 - [ ] Skriv denne koden inn i `draw`-metoden for å få noe å tegne med!
+
 ```processing
 	fill(100, 100, 255);
 	ellipse(mouseX, mouseY, 50, 50);
