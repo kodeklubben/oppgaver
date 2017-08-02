@@ -58,7 +58,7 @@ sette opp krav til og vurdere nettsteder
 - [ ]  __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../din_egen_nettside/din_egen_nettside.html){target=_blank}
 
 Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.

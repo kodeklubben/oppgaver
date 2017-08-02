@@ -94,7 +94,7 @@ vil se at `heiverden` er på listen over programmer.
 - [ ] For å kjøre programmet vi har laget, skriver vi `heiverden` og
 trykker enter.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Klarer du å endre på programmet slik at det for eksempel sier hei til
 deg, eller kanskje til de som sitter ved siden av deg?
@@ -287,7 +287,7 @@ vil vi endre verdien av variabelen etterhvert som svarer riktig.
   print('Du klarte ' .. ant_riktig .. ' av ' .. ant_stykker)
   ```
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Kan du endre programmet slik at det spør om andre typer mattestykker?
 For eksempel plusstykker, minusstykker eller delestykker?
@@ -412,7 +412,7 @@ Gratulerer, du har nå lært ganske mye om hvordan man programmerer
 datamaskiner med ComputerCraft i Minecraft! Prøv gjerne å forandre
 noen av programmene vi har laget. Kan du lage dem enda bedre?
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Datamaskinene kan sende ut *redstone*-energi i alle retninger. Prøv å
 koble en __Trap door__ til høyre side av datamaskinen ved hjelp av

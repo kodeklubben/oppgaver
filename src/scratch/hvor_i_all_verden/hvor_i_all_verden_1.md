@@ -318,7 +318,7 @@ gang skal vi se på hvordan vi kan lage et større kart ved å få
 bakgrunnen til å flytte på seg. Vi skal også gjøre spillet
 vanskeligere ved å legge til flere reisemål.
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 - [ ] Tenk over hvordan du kan legge til flere reisemål! Prøv å lage kode
   som gjør dette!

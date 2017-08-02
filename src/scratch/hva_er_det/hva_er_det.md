@@ -106,7 +106,7 @@ __Klikk på det grønne flagget.__
 - [ ] Får du fremdeles nye ting på tavlen når du klikker på det grønne
   flagget?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Prøv å __endre poengsummen__ fra start, samt hvor mye den skal
   __forandre seg__ for hver gang den går gjennom løkken. Hvordan

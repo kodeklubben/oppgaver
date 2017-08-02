@@ -67,7 +67,7 @@ Vår begynnelse kommer til å ligne på det vi gjorde i [den sprettende ballen](
 - [ ] Lagre programmet som PingPong ved å trykke på **Ctrl+S** eller
 velg **File --> Save** i menyen.
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Kan du endre størrelsen på ballen?
 - [ ] Kan du endre farten til ballen?
@@ -94,7 +94,7 @@ I Ping pong skal du hindre at ballen faller bak rekkerten. For at det skal være
 
   ![](gjennommaal.gif "En ball går igjennom venstre vegg")
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Kan du få ballen til å dukke opp et annet sted etter den har gått igjennom veggen?
 
@@ -139,7 +139,7 @@ Nå som ballen kan falle igjennom den venstre veggen, så må vi få på plass e
 
 ![](spretterPaRekkert.gif "Ballen spretter på rekkerten")
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Kan du gjøre rekkerten mindre?
 - [ ] Kan du endre plasseringen til rekkerten?
@@ -193,7 +193,7 @@ Til:
 
 kan du styre opp med **W**. Hva tror du at du må gjøre for å kunne styre ned med **S**?
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Kan du endre farten rekkerten beveger seg i?
 - [ ] Kan du legge til en rekkert på den andre siden slik at to spillere kan spille mot hverandre?
