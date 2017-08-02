@@ -148,7 +148,7 @@ __Klikk på koden din.__
 - [ ] Legg også en `når grønt flagg klikkes`{.b}-kloss på toppen av koden din, slik
   at du kan starte programmet ved å klikke på det grønne flagget.
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 - [ ] Dette er et veldig enkelt eksempel på hva man kan gjøre med navnelistene (og
   det har noen problemer: for eksempel finner ikke katten dobbeltnavn

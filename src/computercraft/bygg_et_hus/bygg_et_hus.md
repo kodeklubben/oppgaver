@@ -45,7 +45,7 @@ kan bruke `for`-løkker for å gjenta ting.
 
   Kjør programmet. Bygger roboten en liten vegg av klosser?
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Jobb videre med `bygghus`-programmet, og se om du klarer å utvide det
 slik at roboten bygger et enkelt hus med fire vegger og tak. Bruk litt
@@ -190,7 +190,7 @@ etterhvert som du skriver det inn.
   ikke variabler ha navn som inneholder de norske bokstavene æ, ø og
   å.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Prøv å endre verdiene av variablene `hoyde` og `lengde`. Gjør roboten
 som du ber den om?
@@ -263,7 +263,7 @@ kan bruke på samme måte som de innebygde kommandoene (som for eksempel
   byggVegg(3, 5)                                -- endret linje
   ```
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Endre tallene `3` og `5` i den siste linjen. Bygger roboten vegger av
 forskjellig størrelse?
@@ -431,7 +431,7 @@ vil den bare bruke en av dem. Ved hjelp av funksjonene
 
   ![](flerefarger.png)
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Nå som roboten bruker flere slotter kan du eksperimentere med å legge
 forskjellig materiale i de forskjellige slottene. På den måten kan du

@@ -8,13 +8,13 @@ level: 2
 I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Kunst og håndverk, matematikk, programmering
+ __Fag__: Kunst og håndverk, matematikk, programmering, informasjonsteknologi 2
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7.trinn - VG3
 
 __Tema__: Animasjon, web, html, css
 
-__Tidsbruk__: Dobbelttime eller mer. 
+__Tidsbruk__: Dobbelttime eller mer.
 
 
 ## Kompetansemål {.challenge}
@@ -25,14 +25,20 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
 
-- [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett er tekstbasert 
+- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst ett er tekstbasert
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon 
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+
+- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle multimedieapplikasjoner ved å kombinere egne og andres
+
+- [ ] __Informasjonsteknologi 2, VG3__: multimedieelementer av typene tekst, bilde, lyd, video og animasjoner
+
+- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i multimedieapplikasjoner
 
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Eleven kan legge HTML-elementer oppå hverandre for å skape en romfølelse. 
+- [ ] Eleven kan legge HTML-elementer oppå hverandre for å skape en romfølelse.
 - [ ] Eleven kan programmere bokser med forskjellige farger
 - [ ] Eleven kan gjøre enkle animasjoner som å flytte en boks horisontalt, vertikalt og diagonalt
 - [ ] Eleven kan lage en animasjon som går uendelig lenge eller for et gitt tidsintervall.
@@ -45,8 +51,6 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 - [ ] Høy måloppnåelse: Eleven klarer å videreutvikle egen kode basert på oppgaven.
-    - [ ] Eleven klarer å lage en ny animasjon med andre bilder, tekst og bakgrunn.
-
 
 ## Forutsetninger og utstyr {.challenge}
 - [ ]  __Forutsetninger__: Kjennskap til HTML og CSS.
@@ -55,11 +59,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven.[Klikk her for å se oppgaveteksten.](../animasjon/animasjon.html){target=_blank}
 
 # Steg 1: Animasjons-attributtet {.activity}
-- [ ]  Her kan det være lurt å terpe på hvordan programmeringskoden bør se ut. Koden ser mye bedre ut med inntrykk, mellomrom og linjeskift. 
+- [ ]  Her kan det være lurt å terpe på hvordan programmeringskoden bør se ut. Koden ser mye bedre ut med inntrykk, mellomrom og linjeskift.
 
 # Steg 2: @keyframes {.activity}
 - [ ]  Dersom det er skrivefeil eller at man ikke bruker samme _animation-name_ som ligger i _@keyframes_ vil koden ikke kjøre.
