@@ -50,7 +50,7 @@ _Siden det er mange kompetansemål som kan dekkes, bør læreren selv lage gode 
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på erfaren-nivået før de begynner med denne oppgaven. Elevene skal designe sine egne ressurser til spillet, inkludert figurer, bakgrunner og lyder. Til dette trenger de papir og noe å skrive med. Ha gjerne klart ekstra papir slik at de kan prøve ut mange forskjellige ideer. Husk at design og planlegging kan ta både én og to dobbelttimer - sørg for at elevene disponerer tiden godt!
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../lag_ditt_eget_spill/lag_ditt_eget_spill.html){target=_blank}
 _Fremgangsmåten er beskrevet i oppgaveteksten, og utfordringer vil variere etter hva elevene ønsker å gjøre._
 

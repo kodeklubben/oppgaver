@@ -53,7 +53,7 @@ __Tidsbruk__: Dobbelttime
 
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../grunnleggende_js/grunnleggende_js.html){target=_blank}
 
 # Generelt {.activity}

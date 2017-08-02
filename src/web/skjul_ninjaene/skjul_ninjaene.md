@@ -109,7 +109,7 @@ Her finnes det ingen fasit, så du må legge til og endre kode sånn at du får 
 
 __LYKKE TIL!__
 
-## Ting du kan prøve: {.try}
+## Ting du kan prøve: {.challenge}
 - [ ] Legg gjerne til `z-index` eller endre `position` i CSS-en på de elementene du føler trenger det
 - [ ] Kan du finne ut hvordan du kan få ninjaene til å komme foran noen av gateobjektene? Hva skjer om du kopierer `<img>`-taggen for ninjaen etter `<img>`-taggen som viser objektet?
 - [ ] Klarer du å legge til flere objekter på scenen? Du kan legge til bilder fra datamaskinen din, eller finne noen på internett.

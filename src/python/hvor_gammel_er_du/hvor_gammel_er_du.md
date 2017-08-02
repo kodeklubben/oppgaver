@@ -3,6 +3,10 @@ title: Hvor gammel er du?
 level: 2
 author: Sindre O. Rasmussen, Kodeklubben Trondheim
 language: nb
+tags:
+  topic: [text_based]
+  subject: [programming]
+  grade: [secondary, junior]
 ---
 
 # Hvor gammel er du? {.intro}
