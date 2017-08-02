@@ -25,12 +25,11 @@ som helst sang du vil.
 
 - [ ] Hodetelefoner eller en høytaler.
 
-- [ ] En datamaskin med Internett eller en [installert micro-python editor](https://codewith.mu/).
+- [ ] En datamaskin med Internett eller en [installert micro-python editor](https://codewith.mu/){target=_blank}.
 
 *Her ser du et bilde av utstyr du kan bruke:*
 
 ![](utstyr.png){ width=75% }
-
 
 # Steg 2: Klargjøre utstyret {.activity}
 
@@ -43,8 +42,7 @@ som helst sang du vil.
 - [ ] Koble den ene krokodilleklemmen til porten hvor det står GND på micro:biten.
 	  Den andre enden kobler du til innerst på stikket til hodetelefonene/høytaleren.
 
-- [ ] Koble den andre krokodilleklemmen til porten hvor det står 0 på micro:biten.
-	  Den andre enden kobler du til ytterst på stikket til hodetelefonene/høytaleren.
+- [ ] Koble den andre krokodilleklemmen til porten hvor det står 0 på micro:biten. Den andre enden kobler du til ytterst på stikket til hodetelefonene/høytaleren.
 
 *Her ser du to bilder av hvordan utstyret bør kobles:*
 
@@ -56,14 +54,11 @@ som helst sang du vil.
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til [python.microbit.org](http://python.microbit.org){target=_blank}
-	  eller din micro-python-editor for å åpne en editor som vi kan skrive kode i.
+- [ ] Gå til [python.microbit.org](http://python.microbit.org){target="_blank"} eller din micro-python-editor for å åpne en editor som vi kan skrive kode i.
 
 - [ ] Fjern all kode som står der i fra tidligere.
 
-- [ ] Vi starter med å importere et musikk-bibliotek. Dette gjør at vi
-	  kan bruke kode som er laget av noen andre for å spille av musikk.
-	  Skriv inn følgende kode i editoren:
+- [ ] Vi starter med å importere et musikk-bibliotek. Dette gjør at vi kan bruke kode som er laget av noen andre for å spille av musikk. Skriv inn følgende kode i editoren:
 
 	```python
 	from music import *
@@ -87,7 +82,7 @@ som helst sang du vil.
 
 - [ ] Spilles melodien på micro:biten når du har overført programmet ditt?
 
-- [ ] Test ut noen andre innebygde melodier også. Du finner en hel liste av de [her](https://microbit-micropython.readthedocs.io/en/latest/music.html#built-in-melodies).
+- [ ] Test ut noen [andre innebygde melodier](https://microbit-micropython.readthedocs.io/en/latest/music.html#built-in-melodies){target=_blank} også.
 
 # Steg 4: Lag en tone selv {.activity}
 
@@ -172,8 +167,8 @@ Vi legger til en knapp for å styre musikken.*
 	"C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D","C:8"]
 
 	while True:
-		if button_a.is_pressed():
-			play(melodi)  
+	  if button_a.is_pressed():
+		  play(melodi)  
 	```
 
 ## Test prosjektet {.flag}
@@ -194,4 +189,4 @@ Vi må importere biblioteket som heter *musikk* for at vi skal kunne bruke funks
 
 Når vi oppretter en tone så har den flere forskjellige deler. Det første man kan se er at vi har to klammeparanteser `[` og `]`. De bruker vi til å opprette en liste som vi kan ha tonene våre i. Hver tone består av tre deler, først hvilken note vi skal spille og hvilken oktav noten skal være i, og så hvor lenge tonen skal spilles. `"C4:4"` betyr at vi skal spille en **C** i oktav **fire** i **fire** ticks, som i dette tilfellet er 125 millisekunder.
 
-Sjekk ut [dokumentasjonen](https://microbit-micropython.readthedocs.io/en/latest/music.html) for å se hvilke muligheter som finnes med musikk-programmering på micro:biten.
+Sjekk ut [dokumentasjonen](https://microbit-micropython.readthedocs.io/en/latest/music.html){target="_blank"} for å se hvilke muligheter som finnes med musikk-programmering på micro:biten.
