@@ -3,6 +3,10 @@ title: "PXT: Gangespill"
 level: 1
 author: Espen Clausen og Tjerand Silde
 language: nb
+tags:
+    topic: [block_based, electronics, game]
+    subject: [programming, mathematics]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
