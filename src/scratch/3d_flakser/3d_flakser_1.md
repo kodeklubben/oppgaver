@@ -221,7 +221,7 @@ du har skrevet så langt.
   i Flappy Bird og Flaksefugl. Prøv deg på disse utfordringene hvis
   du har mer tid igjen.
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Er det mulig å styre figuren gjennom alle ringene? Husk at spillet
   skal være akkurat passe vanskelig, og ihvertfall ikke umulig. Gå

@@ -266,7 +266,7 @@ __Klikk på det grønne flagget.__
 - [ ] Etter at pingvinen har vært hjemme i 7 sekunder tar den seg en ny tur. Dukker
   den opp på et nytt tilfeldig sted?
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 Vi har nå laget et lite spill sammen, men prøv gjerne å utvikle det videre. Her
 er noen ideer:
