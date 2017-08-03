@@ -8,7 +8,7 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
 language: nb
 tags:
   topic: [text_based, game]
-  subject: [programmering]
+  subject: [programming]
   grade: [junior]
 ---
 
