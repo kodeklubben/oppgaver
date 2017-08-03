@@ -8,7 +8,7 @@ language: nb
 Hvor i All Verden? er et reise- og geografispill hvor man raskest
 mulig skal fly innom reisemål spredt rundt i Europa. Spillet er delt i tre leksjoner, som utvider spillet for hver leksjon. Første leksjon handler om å styre figurer rundt omkring på skjermen, og hvordan forskjellige figurer kan reagere på hverandre. Andre leksjon utvider kartet ved å lage en bakgrunn som flytter seg. Tredje leksjon handler om å lage en liste som holder oversikt over alle stedene vi kan besøke.
 
-![](hvor_i_all_verden_1.png)
+![](hvor_i_all_verden_3.png)
 
 ## Oppgaven passer til: {.check}
  __Fag__: Matematikk, samfunnsfag, programmering.
