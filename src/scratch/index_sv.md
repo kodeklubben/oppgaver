@@ -1,6 +1,6 @@
 ---
 title: Scratch
-language: en
+language: sv
 ---
 
 Scratch er et grafisk programmeringsspråk som er laget for at barn og
