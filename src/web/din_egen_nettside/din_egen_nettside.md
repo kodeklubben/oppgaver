@@ -5,7 +5,7 @@ language: nb
 tags:
     topic: [text_based, web]
     subject: [programming, technology]
-    grade: [junior]
+    grade: [junior, senior]
 ---
 
 ## __Introduksjon:__ {.intro}

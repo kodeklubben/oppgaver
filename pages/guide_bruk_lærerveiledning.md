@@ -32,7 +32,16 @@ Det er mange måter å vurdere et programmeringsprosjekt på. På generell basis
 
 Det vil ofte være hensiktsmessig å benytte seg av par-programmering (at elever jobber sammen to og to med en oppgave) i vurderingen også. For eksempel kan elevene vurdere hverandres arbeid. Slike aktiviteter krever at man snakker om hvordan man ordlegger tilbakemeldinger (både positive og konstruktive kommentarer) og at det er satt opp tydelige krav til oppgaven. I mange programmeringsfag vil dette passe rett inn i kompetansemålene!
 
-Både oppgavene og programmeringsfeltet forøvrig baserer seg ofte på en iterativ arbeidsprosess. Det vil si at man arbeider i steg, og vurderer og justerer underveis. Denne prosessen egner seg godt til vurdering for læring underveis. Les mer på UDIRs nettsider: https://www.udir.no/laring-og-trivsel/vurdering/.
+Både oppgavene og programmeringsfeltet forøvrig baserer seg ofte på en iterativ arbeidsprosess. Det vil si at man arbeider i steg, og vurderer og justerer underveis. Denne prosessen egner seg godt til vurdering for læring underveis.[Les mer om vurdering for læring på UDIRs nettsider](https://www.udir.no/laring-og-trivsel/vurdering/)
+
+I tillegg egner følgende metoder seg godt til vurdering i programmeringsporsjekter:
+- Elevene må kommentere koden og forklare hva den gjør
+- Elevene holder en presentasjon om hva de har laget
+- Elevene skriver et dokument med forklaring av prosjektet
+- Elevene får krav om å gjøre ting utover oppgavebeskrivelsen
+- Elevene bruker ulike grafiske elementer enn gitt i oppgavebeskrivelsen
+
+Dersom du ønsker flere tips til vurdering i programmeringsporsjekter kan [veiledningen til programmering valgfag være et godt utgangspunkt.](https://www.udir.no/laring-og-trivsel/lareplanverket/veiledning-lp/valgfag-programmering/vurdering/) 
 
 ## Forutsetninger og utstyr
 
