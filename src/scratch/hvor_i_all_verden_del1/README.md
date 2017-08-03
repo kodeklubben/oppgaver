@@ -41,9 +41,9 @@ __Tidsbruk__: Hver del passer til en dobbelttime, men kan også fungere i et und
 ![](europakart.png)
 
 ## Fremgangsmåte
-[Klikk her for å se oppgaveteksten til del 1.](../hvor_i_all_verden/hvor_i_all_verden_1.html){target=_blank}
-[Klikk her for å se oppgaveteksten til del 2.](../hvor_i_all_verden/hvor_i_all_verden_2.html){target=_blank}
-[Klikk her for å se oppgaveteksten til del 3.](../hvor_i_all_verden/hvor_i_all_verden_3.html){target=_blank}
+[Klikk her for å se oppgaveteksten til del 1.](../hvor_i_all_verden_del1/hvor_i_all_verden_1.html){target=_blank}
+[Klikk her for å se oppgaveteksten til del 2.](../hvor_i_all_verden_del2/hvor_i_all_verden_2.html){target=_blank}
+[Klikk her for å se oppgaveteksten til del 3.](../hvor_i_all_verden_del3/hvor_i_all_verden_3.html){target=_blank}
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet disse oppgavene enda._
 
 ## Variasjoner {.challenge}
