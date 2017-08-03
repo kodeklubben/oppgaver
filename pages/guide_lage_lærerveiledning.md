@@ -29,11 +29,11 @@ I denne delen listes det opp alle aktuelle kompetansemål.
 
 ## Læringsmål\*
 
-I denne delen brytes kompetansemålene ned til læringsmål. Start alltid med “eleven kan forklare/bruke/lage/…”
+I denne delen brytes kompetansemålene ned til læringsmål. Start alltid med “Eleven kan forklare/bruke/lage/…”
 
 ## Vurderingskriterier
 
-Dersom du har konkrete forslag til vurderingskriterier kan du skrive inn disse her. Ellers kan du bruke den generelle teksten i kodemalen om at læreren selv bør lage kriterier basert på sine egne læringsmål.
+Dersom du har konkrete forslag til vurderingskriterier kan du skrive inn disse her. Ellers kan du bruke den generelle teksten i kodemalen om at læreren selv bør lage kriterier basert på sine egne læringsmål. [I guiden til lærere som skal bruke lærerveiledningen](../pages/guide_bruk_lærerveiledning.md) står det mer om vurderingskriterier.
 
 ## Forutsetninger og utstyr\*
 
@@ -44,8 +44,9 @@ Her er det lurt å tenke på:
 - Hvilket utstyr er nødvendig?
 - Er det noen spesielle forutsetninger å ta hensyn til?
 - Er det noe læreren må sette seg spesielt godt inn i?
-- Hva læreren må ha tenkt på i forkant
 - Er det noe forarbeid læreren eller elevene må gjøre?
+  - Er det for eksempel noen begreper eller konsepter som trengs nærmere forklaring?
+  - Er det oppgaver elevene burde gjøre på forhånd?
 
 ## Fremgangsmåte
 

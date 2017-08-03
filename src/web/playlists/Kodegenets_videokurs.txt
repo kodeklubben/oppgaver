@@ -1,2 +1,0 @@
-video_kodegenet/intro_til_html.md
-video_kodegenet/intro_til_js.md
