@@ -11,7 +11,7 @@ I denne oppgaven skal elevene lære hvordan de kan publisere sin egen nettside v
 ## Oppgaven passer til: {.check}
  __Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 2
 
-__Anbefalte trinn__: 8. trinn - Informasjonsteknologi 2
+__Anbefalte trinn__: 8. trinn - VG2
 
 __Tema__: Web
 
@@ -44,7 +44,7 @@ __Tidsbruk__: Dobbeltime
 - [ ]  __Utstyr__: Datamaskin med internett og teksteditor.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../publiser/publiser.html){target=_blank}
 
 Det kan være lurt å gå gjennom mye av dette i fellesskap hvor lærer fremgangsmåten viser på storskjerm

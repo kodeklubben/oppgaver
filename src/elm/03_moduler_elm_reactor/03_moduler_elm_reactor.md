@@ -3,6 +3,10 @@ title: "Elm reactor og moduler"
 level: 2
 author: Alexander Perry
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [technology, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

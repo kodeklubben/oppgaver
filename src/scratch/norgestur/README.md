@@ -43,7 +43,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Merk at et norgeskart brukes som bakgrunn i oppgaven, og må lastes ned av eleven selv. En beskrivelse for dette er gitt i steg 1 av oppgaven, ellers kan du gjøre følgende bildefil tilgjengelig for elevene:
 ![](norgeskart.png)
 
-# Fremgangsmåte
+## Fremgangsmåte
 [Klikk her for å se oppgaveteksten.](../norgestur/norgestur.html){target=_blank}
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
@@ -54,4 +54,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 - [ ] Elevene kan lage tilsvarende spill på egne kart (hjemfylke, en verdensdel, solsystemet...)
 
 ## Eksterne ressurser {.challenge}
-- [ ] Se også [Hvor i all verden?](../hvor_i_all_verden/hvor_i_all_verden_1.html){target=_blank}
+- [ ] Se også [Hvor i all verden?](../hvor_i_all_verden_del1/hvor_i_all_verden_1.html){target=_blank}

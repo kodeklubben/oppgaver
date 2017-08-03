@@ -4,6 +4,10 @@ level: 3
 author: Steffen Granberg
 footer: "**Kilde:** Oppgaven er basert på kode fra [usingpython.com](http://usingpython.com/pygame/). Sjekk der for flere kule ideer!"
 language: nb
+tags:
+  topic: [text_based, game]
+  subject: [programming]
+  grade: [junior]
 ---
 
 # Introduksjon

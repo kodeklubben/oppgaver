@@ -47,7 +47,7 @@ I denne oppgaven skal vi fortsette å studere if-setningene. Spesielt så skal v
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
- # Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../if-setninger/if-setninger.html){target=_blank}
 

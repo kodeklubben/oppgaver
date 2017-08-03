@@ -45,7 +45,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Forutsetninger__: Elevene burde kunne grunneleggende HTML-tags.
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](en_hjemmeside.html){target=_blank}
 
 # Steg 1: Åpne siden som heter om meg {.activity}

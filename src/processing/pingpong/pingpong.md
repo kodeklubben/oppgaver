@@ -3,6 +3,10 @@ title: Ping pong
 level: 2
 author: Torbjørn Vik Lunde
 language: nb
+tags:
+    topic: [text_based, animation]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [junior, senior]
 ---
 
 # Introdusjon: {.intro}
