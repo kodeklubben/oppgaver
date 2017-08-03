@@ -9,7 +9,7 @@ language: nb
 tags:
     topic: [text_based, web]
     subject: [arts_and_crafts, mathematics, programming, technology]
-    grade: [secondary, junior]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
