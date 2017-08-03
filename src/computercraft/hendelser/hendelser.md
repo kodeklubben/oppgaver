@@ -4,9 +4,9 @@ level: 2
 author: Geir Arne Hjelle
 language: nb
 tags:
-    topic: [text_based, minecraft]
+    topic: [text_based, minecraft, game]
     subject: [technology, programming]
-    grade: [secondary, junior]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
