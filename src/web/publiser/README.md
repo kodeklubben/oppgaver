@@ -11,7 +11,7 @@ I denne oppgaven skal elevene lære hvordan de kan publisere sin egen nettside v
 ## Oppgaven passer til: {.check}
  __Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 2
 
-__Anbefalte trinn__: 8. trinn - Informasjonsteknologi 2
+__Anbefalte trinn__: 8. trinn - VG2
 
 __Tema__: Web
 
