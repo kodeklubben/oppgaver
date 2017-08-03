@@ -1,5 +1,5 @@
 ---
-title: Codecademy
+title: Codeacademy
 language: en
 external: https://www.codecademy.com/learn/all/
 tags:
