@@ -219,7 +219,7 @@ ring-figuren.
 Nå er vi igrunn ferdig med det viktigste i spillet. Men det er
 fremdeles masse spennende igjen du kan prøve:
 
-# Ting å prøve {.challenge}
+## Ting å prøve {.challenge}
 
 - [ ] Lag en meny.
 
