@@ -54,4 +54,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 - [ ] Elevene kan lage tilsvarende spill på egne kart (hjemfylke, en verdensdel, solsystemet...)
 
 ## Eksterne ressurser {.challenge}
-- [ ] Se også [Hvor i all verden?](../hvor_i_all_verden/hvor_i_all_verden_1.html){target=_blank}
+- [ ] Se også [Hvor i all verden?](../hvor_i_all_verden_del1/hvor_i_all_verden_1.html){target=_blank}
