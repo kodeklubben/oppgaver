@@ -3,6 +3,10 @@ title: Installering av ComputerCraft
 author: Geir Arne Hjelle
 indexed: False
 language: nb
+tags:
+    topic: [text_based, minecraft]
+    subject: [technology, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -133,4 +137,3 @@ Gratulerer! Du har startet en datamaskin inne i Minecraft-verdenen. På
 [kodeklubben.github.io](http://kodeklubben.github.io/computercraft/)
 finner du oppgaver som viser deg hvordan du kan programmere den og
 andre datamaskiner og roboter i ComputerCraft. Lykke til!
-
