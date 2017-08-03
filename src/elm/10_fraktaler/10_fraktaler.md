@@ -3,6 +3,10 @@ title: Fraktaler og datastrukturer
 level: 4
 language: nb
 author: Teodor Heggelund
+tags:
+    topic: [text_based, web]
+    subject: [technology, programming, mathematics]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -134,7 +138,7 @@ og `yourPoint` på samme måte som det gjøres i guiden?
   -- myPoint : Point betyr at myPoint skal være av type Point
   myPoint : Point
   myPoint = -- din tidligere løsning
-  
+
   -- yourPoint : Point betyr at yourPoint skal være av type Point
   yourPoint : Point
   yourPoint = -- din tidligere løsning
@@ -265,7 +269,7 @@ Her er en start:
 ```elm
 centerSquare : Square -> Square
 centerSquare old =
-    let x = 
+    let x =
 ```
 
 Du skal kunne bruke den slik:
@@ -463,10 +467,10 @@ Vi skal trene litt før vi går videre.
 
   ```elm
   module Tall exposing (..)
-  
+
   hei = "Hei!"
   ```
-  
+
 - [ ] Start `elm repl` fra kommandovindu i samme mappe
 
 - [ ] Importer alle funksjonene fra `Tall.elm` fra `elm repl`:
@@ -525,7 +529,7 @@ sifre =
 
 - [ ] Lag `ettSifferBak` som tar inn starten på tallet og legger på sifrene 0-9
   på slutten:
-  
+
   ```elm
   > ettSifferBak
   <function> : String -> List String
