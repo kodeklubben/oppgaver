@@ -3,6 +3,10 @@ title: 7-Segment Display
 level: 2
 author: Martin Ertsås & Morten Minde Neergaard
 language: nb
+tags:
+    topic: [text_based, electronics]
+    subject: [technology, programming]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
