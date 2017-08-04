@@ -5,6 +5,11 @@ author: Basert på MITs ["Getting Started"-guide](http://appinventor.mit.edu/exp
 translator: Tjerand Silde
 license: "[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)"
 language: nb
+tags:
+    topic: [block_based, app]
+    subject: [technology, programming]
+    grade: [secondary, junior]
+
 ---
 
 # Introduksjon {.intro}
