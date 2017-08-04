@@ -3,6 +3,10 @@ title: Ta ballen
 level: 2
 author: Tjerand Silde
 language: nb
+tags:
+    topic: [block_based, app, game]
+    subject: [technology, programming]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
