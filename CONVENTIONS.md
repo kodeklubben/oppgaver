@@ -112,14 +112,14 @@ tilbake til tidligere commits uten at alt er ødelagt, og se rekkefølgen ting e
 blitt gjort i.
 
 Commits bør ha sammendrag etter _hva som er gjort_. Sammendraget står på første
-linje.
+linje. Commit-beskjeden ser da slik ut:
 
 ```text
 Skrevet ny Elm-oppgave om HTML
 ```
 
 Det er også mulig å utdype sammendraget. Videre tekst skal skrives under én tom
-linje.
+linje. En commit-beskjed med sammendrag og utdypende tekst ser slik ut:
 
 ```text
 Skrevet ny Elm-oppgave om HTML
