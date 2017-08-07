@@ -21,7 +21,7 @@ I denne oppgaven introduseres begrepet funksjoner, og vi ser hvordan vi kan bruk
  __Tidsbruk__: Dobbelttime
 
 
- ## Kompetansemål {.challenge}
+## Kompetansemål {.challenge}
 
  - [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
 
@@ -32,41 +32,41 @@ I denne oppgaven introduseres begrepet funksjoner, og vi ser hvordan vi kan bruk
  - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
 
- ## Forslag til læringsmål {.challenge}
+## Forslag til læringsmål {.challenge}
 
  - [ ] Elevene forstår hva en funksjon er, og klarer å bruke den til å løse enkle problemer.
 
  - [ ] Elevene klarer å skrive egne funksjoner for å løse enkle problemer. 
 
 
- ## Forslag til vurderingskriterier {.challenge}
+## Forslag til vurderingskriterier {.challenge}
 
  - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
  - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
 
  
- ## Forutsetninger og utstyr {.challenge}
+## Forutsetninger og utstyr {.challenge}
 
  - [ ]  __Forutsetninger__: Kjent med hvordan skilpaddene i Python fungerer. Ingen forutsetninger utover dette er påkrevd. 
 
  - [ ]  __Utstyr__: Datamaskin med Python installert
 
 
- # Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../skilpaddeskolen/skilpaddeskolen.html){target=_blank}
 
  _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
 
 
- ## Variasjoner {.challenge}
+## Variasjoner {.challenge}
 
 
  - [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
 
 
- ## Eksterne ressurser {.challenge}
+## Eksterne ressurser {.challenge}
 
  - [ ] Foreløpig ingen eksterne ressurser ...
 
