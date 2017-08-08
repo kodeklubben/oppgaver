@@ -5,7 +5,7 @@ language: nb
 tags:
     topic: [text_based, web]
     subject: [programming, technology, norwegian]
-    grade: [secondary, junior]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
