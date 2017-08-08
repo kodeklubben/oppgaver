@@ -6,7 +6,7 @@ language: nb
 tags:
     topic: [text_based, minecraft]
     subject: [technology, programming]
-    grade: [primary, secondary, junior]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
