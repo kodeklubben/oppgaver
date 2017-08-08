@@ -3,6 +3,10 @@ title: "Elm reactor og moduler"
 level: 2
 author: Alexander Perry
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [technology, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -55,7 +59,7 @@ Nå leser Elm gjennom filen din og gjør den om til vanlig HTML!
   - Last nettleseren på nytt.
   - Skjedde det noe?
 
-## Ting du kan prøve {.try}
+## Ting du kan prøve {.challenge}
 - [ ] For å åpne forskjellige programmer direkte fra nettsiden din, kan du skrive nettadressen slik: ```localhost:8000/hei.elm```. Bare bytt ut filnavnet!
 - [ ] Hva skjer når du åpner ```hei.elm``` direkte i nettleseren?
 

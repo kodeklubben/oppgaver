@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Bjørn Einar Bjartnes
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+  topic: [text_based ]
+  subject: [programming, arts_and_crafts]
+  grade: [junior]
 ---
 
 # Steg 1: Flere firkanter {.activity}
@@ -249,6 +253,6 @@ Hva om vi gjør litt tilfeldige sprell rett før vi er ferdige?  Vi kan be datam
 
   Ved å bruke `choice()` og `randrange()` kan vi be datamaskinen om å velge farge, størrelse og form for oss, og det kommer til å bli forskjellig resultat nesten hver eneste gang du kjører programmet.
 
-## Flere ting å prøve {.try}
+## Flere ting å prøve {.challenge}
 
 Hva med å prøve flere farger, eller å endre tallene? Hva skjer?

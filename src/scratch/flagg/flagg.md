@@ -3,6 +3,10 @@ title: Flagg
 level: 3
 author: Sverre Oskar Konestabo og Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, animation]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -100,7 +104,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Flytter sirkelen seg til det nye sentrumet?
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 - [ ] Legg til en ny variabel, `(radius)`{.b}, som også gjelder kun _for denne
   figuren_. Kan du bruke denne til å styre hvor stor sirkelen er? Det vil si,
@@ -261,7 +265,7 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
   `(flagg)`{.b} til `rhb` for å se dette).
 
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 - [ ] Tegn egne flagg. Om du trenger flere farger er det bare å lage flere
   drakter. Pass på at hver drakt har en bokstav eller tall som navn.

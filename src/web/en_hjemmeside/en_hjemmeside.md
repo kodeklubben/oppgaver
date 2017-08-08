@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Marius Krakeli
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -129,7 +133,7 @@ For å linke tilbake fra `om_meg.html` til `om_meg_side_2.html` må du skrive de
 
 __Gratulerer! Du har laget ditt eget nettsted.__
 
-## Ting du kan prøve {.try}
+## Ting du kan prøve {.challenge}
 
 - [ ] Hvordan kan du linke til en annen side på nettet? (Hint: prøv å legge til `http://` og deretter adressen til nettstedet du vil koble til)
 - [ ] I likhet med forslaget ovenfor, hvordan ville du legge til et bilde fra et sted på nettet i stedet for fra datamaskinen? (Hint: igjen, prøve å legge til `http://` og adressen til bildet)

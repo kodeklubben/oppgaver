@@ -8,11 +8,11 @@ level: 2
 Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i nabolaget, men du innser at å lage en webside gjør at mange fler kan se den. Eleven skal derfor lage en hjemmeside for den forsvunnede katten.
 
 ## Oppgaven passer til: {.check}
- __Fag__: Norsk, Programmering, Teknologi i praksis
+ __Fag__: Norsk, Programmering, Teknologi i praksis, Informasjonsteknologi 1
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7. trinn - VG2
 
-__Tema__: HTML, css, web
+__Tema__: HTML, css, web, dokumentasjon
 
 __Tidsbruk__: Dobbelttime
 
@@ -20,10 +20,13 @@ __Tidsbruk__: Dobbelttime
 ## Kompetansemål {.challenge}
 
 - [ ]  __Norsk, 4. trinn__: lage tekster som kombinerer ord, lyd og bilde, med og uten digitale verktøy
-- [ ] __Prorammering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
-- [ ] __Programmering, valgfag__: dokumentere og forklare programkode gjennom å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
+- [ ] __Prorammering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og design
 
+- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av standardiserte oppmerkingsspråk
+- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for nettsteder
+- [ ] __Informasjonsteknologi 1, VG2__: planlegge nettsteder som inneholder multimediekomponenter
 
 ## Forslag til læringsmål {.challenge}
 
@@ -38,7 +41,7 @@ __Tidsbruk__: Dobbelttime
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 
 
@@ -49,7 +52,7 @@ __Tidsbruk__: Dobbelttime
 
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../forsvunnet_katt/forsvunnet_katt.html){target=_blank}
 
 # Steg 2: Legg til bilde {.activity}

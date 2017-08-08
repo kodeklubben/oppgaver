@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Anne-Marit Gravem
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [mathematics, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -79,7 +83,7 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 Hvis du vil kan du forandre tallene i skriptet, og se hvordan det
 forandrer bevegelsene.
@@ -127,7 +131,7 @@ __Klikk på det grønne flagget.__
 *For øyeblikket samspiller ikke JafseFisk og byttedyret med
  hverandre. Det skal vi gjøre noe med i neste steg.*
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Prøv å forandre tallene for `gå (2) steg`{.b} og `tilfeldig
   tall fra (-20) til (20)`{.b}. Hvordan forandrer det byttedyrets

@@ -1,7 +1,5 @@
 ---
 title: Arduino
-tags:
-  tema: [elektronikk]
 language: nb
 ---
 

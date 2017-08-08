@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Gudbrand Tandberg og Anne-Marit Gravem
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [mathematics, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -61,7 +65,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Endrer figuren drakt i et fornuftig tempo?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 Tilpass tiden i `vent`{.blockcontrol}-klossen. Hvilke tall gjør spillet
 for vanskelig eller for lett?
@@ -200,7 +204,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Hvordan må vi forandre skriptet dersom vi legger til en annen drakt?
 
-## Ting å prøve{.try}
+## Ting å prøve{.challenge}
 
  __Gjør spillet vanskeligere!__
 

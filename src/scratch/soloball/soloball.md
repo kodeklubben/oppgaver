@@ -3,6 +3,10 @@ title: Soloball
 level: 1
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, game]
+    subject: [mathematics, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -96,7 +100,7 @@ __Klikk på det grønne flagget.__
   tilbake og endre på kattefiguren senere hvis du oppdager noe som
   kunne vært bedre.
 
-## Hva skjedde? {.try}
+## Hva skjedde? {.challenge}
 
 Selv om ikke endret programmet vårt oppfører katten seg veldig
 annerledes. Skjønner du hvorfor?
@@ -485,7 +489,7 @@ sist snudde.
   slutt
   ```
 
-## Prøv selv {.try}
+## Prøv selv {.challenge}
 
 I disse ekstrastegene har vi sett på noen måter vi kan gjøre spillet
 bedre og mer spennende på. Her er enda flere ideer:

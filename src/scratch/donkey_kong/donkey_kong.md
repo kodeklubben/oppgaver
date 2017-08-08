@@ -3,6 +3,10 @@ title: Donkey Kong
 level: 4
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [english, arts_and_crafts, science, programming]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -291,4 +295,3 @@ etter at vi har tegnet dem.
 - [ ] Du kan legge til en tidsbegrensning om du vil gjøre spillet mer
   utfordrende. Til dette bruker du en variabel `(tid)`{.b} som du
   `endrer`{.blockdata} og deretter `venter 1 sekund`{.blockcontrol}.
-

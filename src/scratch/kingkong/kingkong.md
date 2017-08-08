@@ -3,6 +3,10 @@ title: King Kong
 level: 3
 author: Samuel Erik Abildsø og Geir Arne Hjelle
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [english, arts_and_crafts, mathematics, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -291,7 +295,7 @@ Vi har nå laget et ganske enkelt spill. Men det er flere ting du kan
 prøve på egen hånd! Nedenfor er noen forslag, men du har kanskje egne
 ideer til hvordan spillet kan videreutvikles?
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 - [ ] Legg til lydeffekter! Kanskje litt motorlyd fra flyene, og så klart
   trenger vi en lyd når King Kong blir truffet av flyene.

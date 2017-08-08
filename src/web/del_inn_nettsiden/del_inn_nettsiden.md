@@ -3,6 +3,10 @@ title: "HTML: Del inn nettsiden"
 author: Lars Klingenberg
 level: 3
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -277,7 +281,7 @@ Det finnes flere måter å skive farger i CSS på. Vi har nå brukt kjente ord s
 
 Vi skal se enda mer på CSS etter vi har lært litt mer HTML.
 
-## Utfordring {.try}
+## Utfordring {.challenge}
 - [ ] Gå inn på [w3schools.com/css](http://w3schools.com/css) og se om du finner en flere “properties” du kan endre på.
 
 

@@ -2,6 +2,10 @@
 title: "CSS: Style nettsider"
 level: 2
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -182,7 +186,7 @@ h1 {
 Er det ikke mye større forskjell nå?
 
 
-### For de som bruker Firefox eller Chrome som nettleser. {.try}
+### For de som bruker Firefox eller Chrome som nettleser. {.challenge}
 Det finnes faktisk også en annen verdi for `text-decoration` som er `blink`. Jeg kommer ikke til å fortelle deg hva det gjør. Du må teste det. `text-decoration:blink;` (det blir litt masete etterhvert, men det er lov å gå tilbake til “underline” hvis du vil).
 
 
@@ -266,7 +270,7 @@ Men vær forsiktig, det finnes noen stiler som ikke blir videreført.
 ```
 
 
-## Videre studier {.try}
+## Videre studier {.challenge}
 
 - [ ] Hvordan ville du endret på siden for å få den til å se bedre ut? Hvorfor ikke prøve å bruke alle dine favorittfarger? Finnes din farge som et navn eller må du bruke en heksadesimal kode?
 - [ ] Hvis du blir fort ferdig kan du gå tilbake å legge på stiler for tidigere leksjoner.

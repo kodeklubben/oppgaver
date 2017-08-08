@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Kaisa Korsak
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [block_based, game, animation]
+    subject: [arts_and_crafts, mathematics]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -135,7 +139,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Kommer det raketter flyvende?
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 - [ ] Prøv å få noen raketter til å bevege seg litt saktere eller fortere
   enn andre.
@@ -295,7 +299,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Vokser eksplosjonen gradvis?
 
-## Utfordringer {.try}
+## Utfordringer {.challenge}
 
 Prøv å gjøre hver eksplosjon enda mer unik: endre størrelsen og
 veksthastigheten for eksplosjonen.

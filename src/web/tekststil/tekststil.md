@@ -2,6 +2,10 @@
 title: "CSS: Endre utseende og stil på tekst"
 level: 2
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -128,7 +132,7 @@ img {
 
 __Fant du en stil du liker?__
 
-## Ting å prøve ut {.try}
+## Ting å prøve ut {.challenge}
 
 - [ ] Du kan sette på kantlinjer på alle slags elementer. Prøv å sett kantlinjer på de andre elementene på siden din.
 
@@ -171,7 +175,7 @@ Deretter setter vi stilen slik at tekten er større for alle paragrafer med `cla
 
 Sammen kan du gjøre med `<div>`- og `HTML5`-taggene vi brukte i oppgaven [HTML: Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html).
 
-## Ting du kan prøve: {.try}
+## Ting du kan prøve: {.challenge}
 
 - [ ] Hvordan vil du endre siden for å få den til å se bedre ut? Hvorfor ikke prøve å bruke din favorittskrifttype, farge, osv? Bruk gjerne [w3schools.com/css](http://www.w3schools.com/css/) for å utforske CSS-ens verden.
 

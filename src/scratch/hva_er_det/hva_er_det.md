@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Anne-Marit Gravem
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [block_based, game]
+    subject: [arts_and_crafts, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -102,7 +106,7 @@ __Klikk på det grønne flagget.__
 - [ ] Får du fremdeles nye ting på tavlen når du klikker på det grønne
   flagget?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Prøv å __endre poengsummen__ fra start, samt hvor mye den skal
   __forandre seg__ for hver gang den går gjennom løkken. Hvordan

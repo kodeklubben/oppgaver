@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Arve Seljebu
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [programming, technology]
+    grade: [junior, senior]
 ---
 
 
@@ -110,7 +114,7 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 - [ ] Lagre siden og åpne den i nettleseren.
 - [ ] Hvordan påvirker rekkefølgen av koden rekkefølgen på det som vises i nettleseren?
 
-## Ting du kan prøve {.try}
+## Ting du kan prøve {.challenge}
 
 - [ ] Lag din egen paragraf med tekst.
 - [ ] Lag en link som peker til en annen del av siden. **Hint:** Det har noe med ID å gjøre, se etter en link som peker til katten.

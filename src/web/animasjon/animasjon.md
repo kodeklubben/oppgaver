@@ -3,6 +3,10 @@ title: "CSS: Animasjon"
 author: Lars Klingenberg
 level: 2
 language: nb
+tags:
+    topic: [text_based, web, animation]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

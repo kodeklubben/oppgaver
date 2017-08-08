@@ -3,12 +3,16 @@ title: "JS: Trykkomania"
 level: 2
 author: Arve Seljebu
 language: nb
+tags:
+    topic: [text_based, web, game]
+    subject: [programming, mathematics]
+    grade: [primary, secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
 Denne oppgaven viser deg hvordan du kan lage et spill med JavaScript og dele det med vennene dine. Spillet kalles *Trykkomania* fordi det handler om å trykke på en ball flest mulig ganger før tiden renner ut.
 
-Før du starter på denne oppgaven bør du har endel erfaring med variabler, funksjoner og eventListeners i JavaScript. Dersom du ikke har det, så anbefaler vi å gjøre noen av de enklere oppgavene først. 
+Før du starter på denne oppgaven bør du har endel erfaring med variabler, funksjoner og eventListeners i JavaScript. Dersom du ikke har det, så anbefaler vi å gjøre noen av de enklere oppgavene først.
 
 ![](trykkomania.gif)
 
@@ -147,7 +151,7 @@ Ettersom vi ønsker at ballen skal flytte seg underveis i spillet, skal vi lage 
    };
    ```
 
-- [ ] Returner `el`, slik at vi kan bruke funksjonene til ballen. Når elementet `el` returneres så vil `el` oppdateres med ny plassering. 
+- [ ] Returner `el`, slik at vi kan bruke funksjonene til ballen. Når elementet `el` returneres så vil `el` oppdateres med ny plassering.
 
   ```js
   function Ball() {
@@ -198,7 +202,7 @@ I JavaScript kan vi bruke `Math.random()` for å få en tilfeldig verdi mellom 0
   var y = Math.random() * 100 + '%';
   ball.posisjon(x, y);
   ```
-Her har vi laget 2 variabler `x` og `y` som begge holder på hvert sitt tilfeldige tall. Dette tallet sendes inn i funksjonen `posisjon(x,y)` som vi lagde i sted. 
+Her har vi laget 2 variabler `x` og `y` som begge holder på hvert sitt tilfeldige tall. Dette tallet sendes inn i funksjonen `posisjon(x,y)` som vi lagde i sted.
 
 - [ ] Hvis du trykker på knappen <button>Run with JS</button>, flytter ballen på seg?
 
@@ -260,7 +264,7 @@ Nå har du en ball som spretter rundt. La oss legge til poeng. Vi har laget en p
    */
   function Poeng() {
     var el = document.createElement('div');
-    
+
     // CSS til "el"
     el.style.position = 'fixed';
     el.style.bottom = '5px';
@@ -268,7 +272,7 @@ Nå har du en ball som spretter rundt. La oss legge til poeng. Vi har laget en p
     el.style.padding = '5px';
     el.style.backgroundColor = 'black';
     el.style.color = 'white';
-    
+
     // Viser poengsum på skjermen, samt lager variabelen "_poeng"
     var _poeng = 0;
     el.innerHTML = _poeng + ' poeng';
@@ -375,7 +379,7 @@ Akkurat nå er det ubegrenset tid i spillet. La oss legge til en nedtelling av t
    */
   function Nedtelling (ferdig) {
     var el = document.createElement('div');
-    
+
     // CSSen til elementet "el"
     el.style.position = 'fixed';
     el.style.left = '0';
@@ -389,12 +393,12 @@ Akkurat nå er det ubegrenset tid i spillet. La oss legge til en nedtelling av t
     function prosent (slutt, tid) {
       return (slutt - Date.now()) / tid / 10;
     }
-    
+
     // Funksjon som teller ned og stopper når den har kommet til null
     el.tellNed = function (tid) {
       var slutt = Date.now() + tid * 1000;
       var intervall = setInterval(tegn, 20);
-      
+
       // Tegner streken på venstre side til tiden er ute
       function tegn () {
         var p = prosent(slutt, tid);

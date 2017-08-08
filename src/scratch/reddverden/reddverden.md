@@ -3,6 +3,10 @@ title: Redd verden
 level: 2
 author: Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)
 language: nb
+tags:
+    topic: [block_based, game]
+    subject: [mathematics, science, norwegian, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

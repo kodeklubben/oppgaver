@@ -3,6 +3,10 @@ title: "Tegning med SVG"
 level: 3
 author: Teodor Heggelund
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [technology, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -327,7 +331,7 @@ forskjellige typer bezierkurver:
 
 ## En munn som bezierkurve {.check}
 
-- [ ] Gå til https://www.jasondavies.com/animated-bezier/
+- [ ] Gå til http://bl.ocks.org/joyrexus/5715642
 - [ ] Du kan dra i punktene. Klarer du å lage en munn?
 
 Her er en `path` med bezierkurve i Elm:
