@@ -7,16 +7,16 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven introduseres begrepet funksjoner, og vi ser hvordan vi kan bruke disse til å forenkle oppgavene vi har sett på tidligere. Konkret så ser vi på hvordan geometriske figurer enklere kan konstrues. 
+I denne oppgaven introduseres begrepet *funksjoner*, og vi ser hvordan vi kan bruke disse til å forenkle oppgavene vi har sett på tidligere. Konkret så ser vi på hvordan geometriske figurer enklere kan konstrues. 
 
 
 ## Oppgaven passer til: {.check}
 
- __Fag__:Programmering 
+ __Fag__: Programmering 
 
  __Anbefalte trinn__: 8.-10. trinn
 
- __Tema__: Løkker, Skilpadder
+ __Tema__: Løkker, funksjoner, skilpadder
 
  __Tidsbruk__: Dobbelttime
 
@@ -34,7 +34,9 @@ I denne oppgaven introduseres begrepet funksjoner, og vi ser hvordan vi kan bruk
 
 ## Forslag til læringsmål {.challenge}
 
- - [ ] Elevene forstår hva en funksjon er, og klarer å bruke den til å løse enkle problemer.
+ - [ ] Elevene forstår hva en funksjon er, og hvordan de kan brukes.
+
+ - [ ] Elevene klarer å bruke programmering til å eksperimentere med geometriske former.
 
  - [ ] Elevene klarer å skrive egne funksjoner for å løse enkle problemer. 
 
@@ -57,13 +59,13 @@ I denne oppgaven introduseres begrepet funksjoner, og vi ser hvordan vi kan bruk
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../skilpaddeskolen/skilpaddeskolen.html){target=_blank}
 
- _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda.
+ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
 
 ## Variasjoner {.challenge}
 
 
- - [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
+ - [ ]  Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
 
 
 ## Eksterne ressurser {.challenge}
