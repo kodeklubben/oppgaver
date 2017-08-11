@@ -3,6 +3,10 @@ title: Bygg et Hus
 level: 2
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [text_based, minecraft]
+    subject: [technology, programming]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

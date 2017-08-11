@@ -3,6 +3,10 @@ title: Bli Kjent med Datamaskinen
 level: 1
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [text_based, minecraft]
+    subject: [technology, programming]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
