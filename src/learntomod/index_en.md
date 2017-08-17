@@ -3,6 +3,8 @@ title: Learn To Mod
 language: en
 ---
 
-Minecraft er gøy! Med Learn To Mod kan du lære å programmere med klosser i Minecraft. Det er nesten like lett som Scratch, men det er på engelsk. Programmene du lager kjøres inne i Minecraft og programmene kan bygge fysiske ting eller forandre hvordan Minecraft oppfører seg. Vi kaller programmene modder fordi det handler om modifikasjon av originale Minecraft.
-
-Skal du holde kurs med Learn To Mod? Les [introduksjonen for veiledere](README.html).
+Minecraft is fun! With Learn To Mod you can learn to program with blocks in
+Minecraft. It's almost as easy as Scratch. The programs you create runs inside
+Minecraft, and the programs can build physical things or change how Minecraft
+behaves. We call the programs for mods because it is about modification of
+original Minecraft.
