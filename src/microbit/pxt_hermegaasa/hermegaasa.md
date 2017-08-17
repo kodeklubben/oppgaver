@@ -38,13 +38,13 @@ sammen vei som pilen vinner.
 
   *Her er en oversikt over reglene i spillet:*
 
-   Skjerm viser          | Spiller utfører             |
-  ---------------------- | --------------------------- |
-       A                 | Trykk på A                  |
-       B                 | Trykk på B                  |
-       C                 | Trykk på A + B              |
-       <                 | Vipp til venstre            |
-       \>                | Vipp til høyre              |
+|   Skjerm viser          | Spiller utfører             |
+|  ---------------------- | --------------------------- |
+|       A                 | Trykk på A                  |
+|       B                 | Trykk på B                  |
+|       C                 | Trykk på A + B              |
+|       <                 | Vipp til venstre            |
+|       \>                | Vipp til høyre              |
 
 # Steg 2: Programmere spillederen {.activity}
 
@@ -118,8 +118,9 @@ Sett begge tekstene til _P1 Won!_. Da ser koden slik ut:
 
 ![](forever_part2.png)
 
-- [ ] Utvid `hvis-blokken` til `hvis - ellers hvis - ellers hvis - ellers hvis
-- ellers hvis`, slik at du kan sjekke poengene til alle spillere, og gjør det
+- [ ] Utvid `hvis-blokken` til
+`hvis - ellers hvis - ellers hvis - ellers hvis - ellers hvis`, slik at du kan
+sjekke poengene til alle spillere, og gjør det
 samme for `Player2`, `Player3`, `Player4` og `Player5` dersom de har vunnet
 istedenfor.
 
@@ -190,10 +191,11 @@ vi går videre til neste runde. Dette gjør du ved å legge til blokken `pause
 
 	![](check_answer_part1.png)
 
-- [ ] Utvid `hvis-blokken` til `hvis - ellers hvis - ellers hvis - ellers hvis
-- ellers hvis`, slik at du kan sjekke om det var noen av de andre spillerne som
-vant denne runden, og gjør det samme for `Player2`, `Player3`, `Player4` og
-`Player5` dersom de har vunnet istedenfor.
+- [ ] Utvid `hvis-blokken` til
+`hvis - ellers hvis - ellers hvis - ellers hvis - ellers hvis`, slik at du kan
+sjekke om det var noen av de andre spillerne som vant denne runden, og gjør det
+samme for `Player2`, `Player3`, `Player4` og `Player5` dersom de har vunnet
+istedenfor.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
