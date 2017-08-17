@@ -3,14 +3,15 @@ title: Kodu
 language: en
 ---
 
-I Kodu skal du skape din egen verden, enten alene eller sammen med andre. Poenget er at det
-er du – spilleren – som lager digitalt liv og skaper dine egne regler, lover og rammer for
-hvordan spillet er. Tenk på alle gangene du har vært frustrert over mangler i dataspill du
-har spilt før… Nå har du endelig sjansen til å rette opp alle andres feil og skape ditt
-eget drømmespill. Kun fantasien setter grenser.
+In Kodu, you must create your own world, either alone or with others. The point
+is that you are the player - who creates digital life and creates your own
+rules, laws and limits for how the game is. Think of all the times you've been
+frustrated by missing games in computer games you've played before ... Now you
+finally have the chance to correct everyone else's mistakes and create your own
+dream game. Only the imagination sets limits.
 
-Kodu er både et dataspill og et læringsverktøy for spillprogrammering i 3D. Ved bruk av
-bildeikoner programmerer spilleren karakterer, objekter, regler, bestemte handlingsmønstre,
-hvordan vinne og tape, poengsystemer og digitale naturlover.
+Kodu is both a computer game and a learning tool for game programming in 3D. By
+sse of image icons program the player characters, objects, rules, specific
+patterns of action, how to win and lose, score systems and digital nature lover.
 
-Kodu fungerer kun på Microsoft-produkter. Les mer om Kodu på [koducup.no](http://www.koducup.no).
+Kodu only works on Microsoft products.
