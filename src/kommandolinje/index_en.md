@@ -3,8 +3,9 @@ title: Kommandolinje
 language: en
 ---
 
-En datamaskin kan gjøre mye spennende som ikke er mulig å gjøre i et grafisk brukergrensesnitt,
-men er mulig dersom vi koder litt i kommandolinjen. Her finner du oppgaver, veiledninger og
-videoer der du får innblikk i hva som er mulig å få til. Dette er litt mer avansert enn de
-fleste andre kursene på denne siden, og det er anbefalt å ha kjennskap til for eksempel Python,
-Processing, Arduino eller Java før du setter igang med dette.
+A computer can do a lot of things that is not possible to do in a graphical
+user interface, but is possible if we code a bit in the command line. Here
+you'll find projects, tutorials and videos where you get an insight into what's
+possible to to. This is a little more advanced than most other courses on
+this page, and it is recommended to have knowledge of, for example, Python,
+Processing, Arduino or Java before trying this.
