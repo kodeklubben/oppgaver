@@ -3,12 +3,13 @@ title: Python
 language: nn
 ---
 
-Python er et tekstbasert programmeringsspråk som ble utviklet tidlig på 90-tallet av
-Nedelenderen Guido van Rossum. Python er ofte anbefalt til nybegynnere på grunn av språkets
-enkle syntaks, sammenlignet med en del andre programmeringsspråk. Python passer perfekt for
-de som ønsker å lære seg programmering og kan blant annet brukes til 2D-spill, automatisering,
-vitenskapelig analyse, GUI-applikasjoner og servere. For å komme kjapt igang så har vi laget
-mange prosjekter som du kan jobbe med.
+Python er et tekstbasert programmeringsspråk som ble utviklet tidlig på
+90-tallet av nederlenderen Guido van Rossum. Python er ofte anbefalt til
+nybegynnere på grunn av språkets enkle syntaks, sammenlignet med en del andre
+programmeringsspråk. Python passer perfekt for de som ønsker å lære seg
+programmering og kan blant annet brukes til 2D-spill, automatisering,
+vitenskapelig analyse, GUI-applikasjoner og servere. For å komme kjapt igang så
+har vi laget mange prosjekter som du kan jobbe med.
 
 
 ## Hvordan installere Python
