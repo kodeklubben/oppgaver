@@ -41,13 +41,34 @@ I tillegg egner følgende metoder seg godt til vurdering i programmeringsporsjek
 - Elevene får krav om å gjøre ting utover oppgavebeskrivelsen
 - Elevene bruker ulike grafiske elementer enn gitt i oppgavebeskrivelsen
 
-Dersom du ønsker flere tips til vurdering i programmeringsporsjekter kan [veiledningen til programmering valgfag være et godt utgangspunkt.](https://www.udir.no/laring-og-trivsel/lareplanverket/veiledning-lp/valgfag-programmering/vurdering/) 
+Dersom du ønsker flere tips til vurdering i programmeringsporsjekter kan [veiledningen til programmering valgfag være et godt utgangspunkt.](https://www.udir.no/laring-og-trivsel/lareplanverket/veiledning-lp/valgfag-programmering/vurdering/)
 
 ## Forutsetninger og utstyr
 
 I denne delen beskrives hvilke forutsetninger, utstyr og forberedelser som kreves til å gjennomføre oppgaven.
 - __Forutsetninger__: Dersom det er noen anbefalte forkunnskaper eller oppgaver som må gjøres i en viss rekkefølge informeres det om her.
 - __Utstyr__: Dersom det trengs noe spesielt utstyr informeres det om her.
+
+## Tips {.protip}
+
+Her er en oversikt over hvordan man skriver tegn på tastaturet som ofte brukes
+i Python, Processing og andre programmeringsspråk.
+
+| Tegn | Windows/Linux          | Mac                         |
+|:----:| ---------------------- | --------------------------- |
+| ;    | Shift + ,              | Shift + ,                   |
+| "    | Shift + 2              | Shift + 2                   |
+| \'   | \' (til høyre for Æ)   | \' (til venstre for 1)      |
+| \|   | \| (til venstre for 1) | Alt + 7                     |
+| \&   | Shift + 6              | Shift + 6                   |
+| +    | + (til høyre for 0)    | + (til høyre for 0)         |
+| -    | - (til høyre for .)    | - (til høyre for .)         |
+| *    | Shift + '              | Shift + @ (til høyre for Æ) |
+| /    | Shift + 7              | Shift + 7                   |
+| \[   | Alt Gr + 8             | Alt + 8                     |
+| \]   | Alt Gr + 9             | Alt + 9                     |
+| {    | Alt Gr + 7             | Shift + Alt + 8             |
+| }    | Alt Gr + 0             | Shift + Alt + 9             |
 
 ## Fremgangsmåte
 
