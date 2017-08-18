@@ -3,11 +3,10 @@ title: Processing
 language: nn
 ---
 
-Processing er et tekstbasert programmeringsspråk basert på Java som
-ble utviklet på MIT av Ben Fry og Casey Reas. Det ble laget for å være
-enkelt for designere og andre som ikke har programmert før, å lage
-grafiske programmer. Dette gjør Processing perfekt for de som har lyst
-til å lære å lage seg spill og multimediaprogrammer.
+Processing er et tekstbasert programmeringsspråk som ble utviklet for å gjøre
+det enkelt for designere og andre som ikke har programmert før, å lage grafiske
+programmer. Dette gjør Processing perfekt for de som har lyst til  å lære å lage
+seg spill og multimediaprogrammer.
 
 ## Hvordan installere Processing
 
