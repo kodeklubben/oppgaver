@@ -3,8 +3,9 @@ title: Arduino
 language: nn
 ---
 
-Arduino er en platform som består av en rekke forskjellige
-mikrokontrollere, samt et programmeringsverktøy som heter Arduino IDE.
+Arduino er en platform som består av en rekke forskjellige mikrokontrollere,
+samt et programmeringsverktøy som heter Arduino IDE. Dette kan vi bruke til å
+programmere elektronikk, som lamper, sensorer og mye annet.
 
 ## Hvordan komme igang med Arduino
 
