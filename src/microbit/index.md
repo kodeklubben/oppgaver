@@ -3,12 +3,10 @@ title: "Micro:bit"
 language: nb
 ---
 
-Micro:bit er en mikrokontroller som ble laget i 2016 for å lære barn
-programmering. Den er noe enklere enn Arduino, og kan programmeres både med
-blokker som i Scratch eller med tekstbaserte språk som Python og JavaScript.
-Micro:bit har innebygd LED-matrise, knapper, gyroskop, Bluetooth,
-temperaturmåler osv, og deles for tiden ut gratis til alle 12-åringer i
-Storbritannia.
+Micro:bit er en liten datamaskin som er laget for å lære barn å programmere. Den
+kan programmeres både med blokker som i Scratch, eller med tekstbaserte språk
+som Python og JavaScript. Micro:bit har blant annet innebygd LED-matrise,
+knapper, Bluetooth og temperaturmåler som vi kan kontrollere.
 
 ## Hvordan komme igang med Micro:bit:
 

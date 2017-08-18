@@ -3,15 +3,14 @@ title: "Micro:bit"
 language: en
 ---
 
-Micro:bit is a microcontroller that was created in 2016 to teach children
-programming. It is easier to use than Arduino, and can be programmed with blocks
-like Scratch or text-based languages like Python and JavaScript. Micro:bit has
-built-in a LED-matrix, buttons, gyroscope, Bluetooth, etc., and
-is currently shared free of charge to all 12-year-olds in the UK.
+Micro:bit is a microcontroller that was created to teach children
+programming. It can be programmed with blocks like Scratch, or text-based
+languages like Python and JavaScript. Micro:bit has built-in a LED-matrix,
+buttons, gyroscope, Bluetooth, etc. that we can code.
 
-## Hvordan komme igang med Micro:bit:
+## How to start programming Micro:bit:
 
-- Go to [microbit.org/code](https://makecode.microbit.org){target=_blank}.
+- Go to [microbit.org/code](http://microbit.org/code).
 
 ## Resources:
 
