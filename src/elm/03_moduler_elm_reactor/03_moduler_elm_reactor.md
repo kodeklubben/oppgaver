@@ -21,7 +21,7 @@ i [oppgave 2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html).
 # Lag din egen nettside! {.activity}
 
 ## Aktiviteter {.check}
-- [ ] Åpne en **teksteditor**, for eksempel teksteditoren [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller [NotePad++](https://notepad-plus-plus.org/).
+- [ ] Åpne en **teksteditor**, for eksempel teksteditoren [Atom](http://atom.io), [Brackets](http://brackets.io/) eller [Notepad++](https://notepad-plus-plus.org/).
 - [ ] Lag en ny fil.
 - [ ] Fyll inn dette i filen:
 
