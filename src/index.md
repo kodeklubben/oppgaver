@@ -7,11 +7,25 @@ language: nb
 ---
 
 # Kodeklubbens oppgaver
-Hei! På denne siden finner du mange oppgaver som du kan gjøre for å lære deg programmering.
-Som du ser, finnes det mange forskjellige språk. For nybegynnere anbefaler vi å starte med Scratch,
-men dersom du går på ungdomsskolen eller videregående så vil det også gå fint å starte med Python.
 
-Scratch er et programeringsspråk hvor en programmerer ved å dra og sette sammen klosser, litt som å
-bygge med LEGO! Scratch gir et godt grunnlag for å lære seg andre programmeringsspråk etterpå, og
-derfor kan kan være lurt å se litt på Scratch uansett før en går videre. Dere kan lese mer om de
-forskjellige språkene ved å trykke på ikonene under.
+Hei! På denne siden finner du mange oppgaver som du kan gjøre for å lære deg
+programmering. Som du ser, finnes det mange forskjellige språk. For nybegynnere
+anbefaler vi å starte med Scratch, men dersom du går på ungdomsskolen eller
+videregående så vil det også gå fint å starte med Python eller Processing.
+
+---
+
+Vi holder for tiden på å lage nye oppgave-sider for Lær Kidsa Koding, som
+vil bli lansert om kort tid. For å teste så kan du gå til
+[oppgaver.kidsakoder.no/beta](http://oppgaver.kidsakoder.no/beta).
+
+På de nye sidene finner du blant annet:
+
+- filter med språk, tema, fag og klassetrinn
+- fremdriftslinje i oppgavene du jobber med
+- elev- og lærermodus
+
+Har du tilbakemeldinger til de nye sidene? [Ta
+kontakt!](https://forum.kidsakoder.no/t/tilbakemeldinger-til-lkks-nye-oppgavesider/200){target=_blank}
+
+---
