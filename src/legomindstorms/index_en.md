@@ -3,10 +3,7 @@ title: LEGO Mindstorms
 language: en
 ---
 
-LEGO Mindstorms er et produkt fra leketøysprodusenten Lego som gjør det mulig å lage og programmere
-sin egen robot. Roboten kan kobles til flere forskjellige sensorer, og i tillegg løper det ut porter
-hvor det kan kobles til motorer, lamper etc. Programmene overføres vanligvis til roboten via en USB-kabel.
-
-Oppgavene på denne siden er lagt inn kronologisk, og er hentet fra Espen Clausen sin hjemmeside [espenec.wordpress.com/ev3](https://espenec.wordpress.com/ev3)
-
-Du kan finne mer informasjon om LEGO Mindstorms på [lego.com/nb-no/mindstorms](http://www.lego.com/nb-no/mindstorms).
+LEGO Mindstorms is a product from the toy manufacturer Lego, that makes it
+possible to create and program your own robot. The robot can be connected to
+several different sensors, and in addition there are ports where it can be
+connected to motors, lamps etc.

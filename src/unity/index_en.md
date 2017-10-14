@@ -3,8 +3,5 @@ title: Unity
 language: en
 ---
 
-Disse oppgavene baserer seg på tutorials fra Unity sine sider:
-[http://unity3d.com/learn/tutorials]().
-
-Vi jobber med å få oversatt flere av disse. Kodeklubben i Tromsø har noen
-ressurser tilgjengelig her: [http://kodeklubben-tromso.github.io/unity/]().
+These projects are based on toturials from
+[unity3d.com/learn/tutorials](http://unity3d.com/learn/tutorials).
