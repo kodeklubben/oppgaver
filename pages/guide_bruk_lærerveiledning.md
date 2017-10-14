@@ -123,3 +123,4 @@ kan være en utvidelse av hele undervisningsopplegget. For eksempel dersom det e
 
 Der vi har tips om eksterne ressurser som kan brukes, så er disse lenket til
 her. Det kan for eksempel være Youtube-filmer eller andre nettsider.
+
