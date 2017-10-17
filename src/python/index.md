@@ -12,8 +12,8 @@ analyse, GUI-applikasjoner og servere.
 ## Hvordan installere Python
 
 - Gå til [python.org/downloads](https://python.org/downloads).
-- Last ned Python til din datamaskin. Velg nyeste versjon (3.5.0 per september
-  2015).
+- Last ned Python til din datamaskin. Velg nyeste versjon (3.6 per
+  2017).
 - Installer Python ved å følge installasjonsguiden.
 - Når Python er installert kan du åpne programmet som heter IDLE.
 
