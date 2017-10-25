@@ -1,9 +1,9 @@
 ---
-title: Kodekonvensjoner
+title: Konvensjoner for kode og tekst
 author: Teodor Heggelund
 ---
 
-# Hvorfor kodekonvensjoner?
+# Hvorfor konvensjoner?
 
 Det er lettere å jobbe med kode (og tekst) som ser lik ut over hele prosjektet.
 Dette er noe de fleste er enige om. Med en stilguide skriver vi dette ned, så vi
