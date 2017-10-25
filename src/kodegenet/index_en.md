@@ -7,6 +7,6 @@ tags:
     grade: [secondary, junior, senior]
 ---
 
-Kodegenet tilbyr gratis ressurser på norsk for å lære seg programmering! Her
-finner du oppgaver i Scratch, Raspberry Pi, Arduino og andre ting, ofte
-tilknyttet elektronikk.
+Kodegenet offers free resources for learning to program! Here you will find
+courses in Scratch, Raspberry Pi, Arduino and more, often related to
+electronics.
