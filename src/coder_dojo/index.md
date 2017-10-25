@@ -7,5 +7,5 @@ tags:
     grade: [secondary, junior, senior]
 ---
 
-Coder Dojo has a lot of resources for how to learn programming, just as Lær
-Kidsa Koding! has at this page. Check it out, and explore even more coding!
+Coder Dojo tilbyr ressurser for å lære teknologi som Scratch, Python og HTML --
+i likhet med Lær Kidsa Koding!
