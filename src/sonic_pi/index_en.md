@@ -7,7 +7,7 @@ tags:
     grade: [primary, secondary, junior]
 ---
 
-Sonic Pi er et programmeringsspråk for å lage lyder og musikk. Med enkle
-kommandoer kan du spille toner, samples og akkorder, og sette dem sammen til
-sanger. Ved hjelp av live-løkker kan du også oppdatere koden din mens musikken
-spiller for å improvisere hele konserter!
+Sonic Pi is a programming language for making sounds and music. With simple
+commands, you can play tones, samples and chords. By putting these building
+blocks together, you create songs. Interactive live loops allow you to update
+your code while the music is playing -- you can improvise your own concert!
