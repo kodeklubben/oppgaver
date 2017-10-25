@@ -3,19 +3,17 @@ title: Python
 language: nb
 ---
 
-Python er et tekstbasert programmeringsspråk som ble utviklet tidlig på 90-tallet av
-Nedelenderen Guido van Rossum. Python er ofte anbefalt til nybegynnere på grunn av språkets
-enkle syntaks, sammenlignet med en del andre programmeringsspråk. Python passer perfekt for
-de som ønsker å lære seg programmering og kan blant annet brukes til 2D-spill, automatisering,
-vitenskapelig analyse, GUI-applikasjoner og servere. For å komme kjapt igang så har vi laget
-mange prosjekter som du kan jobbe med.
+Python er et tekstbasert programmeringsspråk som ofte er anbefalt til
+nybegynnere på grunn av språkets enkle syntaks, men er også mye brukt i
+industrien. Python passer perfekt for 2D-spill, automatisering, vitenskapelig
+analyse, GUI-applikasjoner og servere.
 
 
 ## Hvordan installere Python
 
 - Gå til [python.org/downloads](https://python.org/downloads).
-- Last ned Python til din datamaskin. Velg nyeste versjon (3.5.0 per september
-  2015).
+- Last ned Python til din datamaskin. Velg nyeste versjon (3.6 per
+  2017).
 - Installer Python ved å følge installasjonsguiden.
 - Når Python er installert kan du åpne programmet som heter IDLE.
 

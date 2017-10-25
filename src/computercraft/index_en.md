@@ -3,15 +3,10 @@ title: ComputerCraft
 language: en
 ---
 
-ComputerCraft er en mod til Minecraft som gir deg muligheten til å
-bygge og programmere datamaskiner og roboter inne i
-Minecraft-verdenen. Inne i Minecraft programmerer vi i et språk som
-heter Lua, som ligner mye på Python. Disse oppgavesettene krever
-hverken forkunnskaper i programmering eller Minecraft, men en eller
-begge deler vil nok gjøre dette enda mer spennende!
+ComputerCraft is a mod of Minecraft that gives you the opportunity to build
+and program computers and robots inside the Minecraft world. Inside Minecraft we
+program in a language that is called Lua, which is similar to Python. Check it
+out!
 
-
-[Her har vi beskrevet hvordan du installererer
-ComputerCraft](installasjon/installasjon.html). Legg spesielt merke
-til hvilke versjoner av Minecraft, ComputerCraft og Minecraft Forge du
-trenger!
+These tasks require neither knowledge of programming nor Minecraft, but one or
+both will probably make this even more exciting!

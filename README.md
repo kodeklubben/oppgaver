@@ -108,11 +108,10 @@ For å lære mer om markdown, kan du gå gjennom
 
 #### Bygging
 Ved *bygging* blir alle markdown-filer (.md) omgjort til HTML og bilder eller
-andre filer blir kopiert. Dersom en oppgave skal inkludere filer eller bilder,
-skal oppgaven ligge i en egen mappe med filene. I motsatt tilfelle, dersom en
-oppgave ikke inkluderer bilder eller filer, så kan den strengt tatt ligge i
-roten av sitt kurs/programmeringsspråk (feks ligger scratch-oppgavene
-[her](src/scratch)).
+andre filer blir kopiert. Hver oppgave skal ligge i sin egen mappe.
+`src/python/desimaltall/desimaltall.md` er altså god plassering for en
+Python-oppgave om desimaltall. Bilder og andre relaterte filer lagres i samme
+mappe.
 
 Byggeren lager en forside som viser alle oppgavene. Forsiden er sortert
 etter nivå (`level` i YAML) og deretter filnavnet til oppgavene. Så dersom en
@@ -142,7 +141,7 @@ komme i gang er ved å gå gjennom [den offisielle guiden] eller ved å bruke en
   konsepter som *løkker*, *array*, osv.
 - **Fet skrift** skrives `**Fet skrift**`, fet skrift brukes for knapper i
   brukergrensesnittet og viktige høydepunkt i teksten.
-- `Kode()` og inputt skrives `` `Kode()` ``.
+- `Kode()` og input skrives `` `Kode()` ``.
 - Eller i kodeblokker, legg merge til at programmeringsspråket *python* er spesifisert bak
 <code>```</code>:
 
@@ -154,7 +153,7 @@ komme i gang er ved å gå gjennom [den offisielle guiden] eller ved å bruke en
   </pre>
 
 - For kodeblokker i scratch, [les her](src/scratch).
-- Bilder skrives slik som dette `![bildetekst](filnavm.png)`. Dersom du
+- Bilder skrives slik som dette `![bildetekst](filnavn.png)`. Dersom du
   ønsker bildet for seg selv, legg en tom linje før og etter bildet:
 
   ```
