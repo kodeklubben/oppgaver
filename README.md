@@ -79,11 +79,14 @@ representerer et programmeringsspråk eller kurs. Filer som heter `README.md`
 blir ekskludert, men vises på github (slik som denne teksten du leser nå).
 Derfor egner `README.md` seg for merknader til lærere og lignende.
 
-Oppgavene skrives i markdown og har en YAML-header i toppen. Formatet er
-beskrevet i [FORMAT.md](//github.com/arve0/codeclub_lesson_builder/blob/master/FORMAT.md),
-men vi tar det viktigste her.
+Oppgavene skrives i Markdown og har en YAML-header i toppen.
 
-Først et eksempel:
+- En introduksjon til Markdown-dialekten vi bruker til kodeklubben-sidene får du
+  i [FORMAT.md](//github.com/arve0/codeclub_lesson_builder/blob/master/FORMAT.md)
+- Konvensjoner for kode og tekst finner du i [CONVENTIONS.md](conventions.md).
+
+Det viktigste tar vi i tillegg her. Vi starter med et eksempel:
+
 ```
 ---
 title: Superhus
