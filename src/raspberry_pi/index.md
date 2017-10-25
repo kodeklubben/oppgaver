@@ -7,5 +7,5 @@ tags:
     grade: [secondary, junior, senior]
 ---
 
-Raspberry Pi has a lot of resources for how to learn programming, just as Lær
-Kidsa Koding! has at this page. Check it out, and explore even more coding!
+Raspberry Pi er en bitteliten datamaskin som det er lett å programmere. Med
+denne kan du lage mye rart! Gå til siden for å se hvordan du programmerer denne.
