@@ -7,6 +7,6 @@ tags:
     grade: [junior, senior]
 ---
 
-Codecademy is a website with a lot of different interactive, step based courses.
-Here you can learn Python, HTML, CSS, JavaScript and other programming languages
-by following the web-based tutorials online.
+Codecademy er en nettside med interaktive kurs for å lære teknologi. Du kan lære
+Python, HTML, CSS, JavaScript og andre programmeringsspråk ved å følge
+instruksjonene i nettleseren.
