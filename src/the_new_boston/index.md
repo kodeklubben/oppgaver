@@ -7,4 +7,5 @@ tags:
     grade: [junior, senior]
 ---
 
-The new Boston offers a lot of free instruction videos online, teaching Java, C++, PHP, JavaScript etc. Check it out!
+The New Boston tilbyr gratis instruksjonsvideoer på nett. Du kan lære Java,
+C++, PHP, JavaScript, med mer. Kanskje finner du noe du liker!
