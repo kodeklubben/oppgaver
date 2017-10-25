@@ -7,6 +7,7 @@ tags:
     grade: [primary, secondary, junior]
 ---
 
-NRK Skole har utviklet denne serien som er en kombinasjon av gameshow og
-undervisning med oppgaver. Bli med Max, Mia og Anniken til Kodeknekker’n. Her
-har Prebz og de andre flere problemer som du kan hjelpe med å løse!
+NRK Skole (Norwegian Boradcasting School) has developed this series as a
+gameshow infused with education and tasks. Join Max, Mia and Anniken to
+Kodeknekker’n (The Code Breaker). Prebz and the others have plenty of problems
+they need _your_ help to solve!
