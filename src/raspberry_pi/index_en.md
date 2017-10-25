@@ -7,5 +7,5 @@ tags:
     grade: [secondary, junior, senior]
 ---
 
-Raspberry Pi have a lot of resources for how to learn programming, just as Lær
-Kidsa Koding! have at this page. Check it out, and explore even more coding!
+Raspberry Pi has a lot of resources for how to learn programming, just as Lær
+Kidsa Koding! has at this page. Check it out, and explore even more coding!
