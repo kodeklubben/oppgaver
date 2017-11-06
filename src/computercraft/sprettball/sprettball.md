@@ -273,8 +273,8 @@ ballen flytter på seg.
           skjerm.write("O")
           sleep(1)
 
-          X = X - [ ] fartX                         -- ny linje
-          Y = Y - [ ] fartY                         -- ny linje
+          X = X + fartX                         -- ny linje
+          Y = Y + fartY                         -- ny linje
       end
   end
   ```
