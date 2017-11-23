@@ -32,6 +32,9 @@ topic:
     animation:
       NAME: Animasjon
       TOOLTIP: Lage grafikk som beveger seg, for eksempel tegnefilmer.
+    sound:
+      NAME: Lyd
+      TOOLTIP: Programmere lyd og musikk.
 subject:
   NAME: Fag
   TAGS:

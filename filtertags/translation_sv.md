@@ -31,7 +31,10 @@ topic:
       TOOLTIP: Programmera fysiska objekt som rör på sig.
     animation:
       NAME: Animation
-      TOOLTIP: Laga grafik som rör på seg, for eksempel tecknad film.
+      TOOLTIP: Laga grafik som rör på seg, till exempel tecknad film.
+    sound:
+      NAME: Ljud
+      TOOLTIP: Programmera ljud och musik.
 subject:
   NAME: Ämne
   TAGS:

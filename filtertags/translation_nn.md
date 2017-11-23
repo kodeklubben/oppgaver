@@ -32,6 +32,9 @@ topic:
     animation:
       NAME: Animasjon
       TOOLTIP: Lage grafikk som rører seg, til dømes teiknefilmar.
+    sound:
+      NAME: Ljod
+      TOOLTIP: Programmere ljod og musikk.
 subject:
   NAME: Fag
   TAGS:
