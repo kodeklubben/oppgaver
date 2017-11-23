@@ -4,13 +4,13 @@ language:
   TAGS:
     nb:
       NAME: Norsk bokmål
-    nn
+    nn:
       NAME: Norsk nynorsk
-    sv
+    sv:
       NAME: Svenska
-    da
+    da:
       NAME: Dansk
-    en
+    en:
       NAME: English
 topic:
   NAME: Tema

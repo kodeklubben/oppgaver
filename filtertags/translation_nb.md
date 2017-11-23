@@ -4,13 +4,13 @@ language:
   TAGS:
     nb:
       NAME: Norsk bokmål
-    nn
+    nn:
       NAME: Norsk nynorsk
-    sv
+    sv:
       NAME: Svenska
-    da
+    da:
       NAME: Dansk
-    en
+    en:
       NAME: English
 topic:
   NAME: Tema
@@ -86,5 +86,5 @@ grade:
       TOOLTIP: Ungdom 13-15 år
     senior:
       NAME: Videregående skole
-      NAME: Ungdom 16-18 år
+      TOOLTIP: Ungdom 16-18 år
 ---
