@@ -10,6 +10,7 @@ topic: #Logical AND
   - game        #Interactive programs with game elements
   - robot       #Physical objects that moves
   - animation   #Machine-made cartoons
+  - sound       #Projects involving sounds or music
 subject: #Logical OR
   - mathematics
   - science

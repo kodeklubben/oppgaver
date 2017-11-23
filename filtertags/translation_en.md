@@ -32,6 +32,9 @@ topic:
     animation:
       NAME: Animation
       TOOLTIP: Graphics that move, like cartoons.
+    sound:
+      NAME: Sound
+      TOOLTIP: Program sound and music.
 subject:
   NAME: Fag
   TAGS:
