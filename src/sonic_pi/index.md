@@ -3,7 +3,8 @@ title: Sonic Pi
 language: nb
 external: http://sonic-pi.mehackit.org/index_no.html
 tags:
-    topic: [text_based, music]
+    topic: [text_based, sound]
+    subject: [music, programming]
     grade: [primary, secondary, junior]
 ---
 
