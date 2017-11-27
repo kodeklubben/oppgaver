@@ -1,4 +1,17 @@
 ---
+language:
+  NAME: Language
+  TAGS:
+    nb:
+      NAME: Norsk bokmål
+    nn:
+      NAME: Norsk nynorsk
+    sv:
+      NAME: Svenska
+    da:
+      NAME: Dansk
+    en:
+      NAME: English
 topic:
   NAME: Topic
   TAGS:
@@ -36,7 +49,7 @@ topic:
       NAME: Sound
       TOOLTIP: Program sound and music.
 subject:
-  NAME: Fag
+  NAME: Subject
   TAGS:
     mathematics:
       NAME: Mathematics

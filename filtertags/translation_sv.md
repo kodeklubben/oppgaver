@@ -1,4 +1,17 @@
 ---
+language:
+  NAME: Språk
+  TAGS:
+    nb:
+      NAME: Norsk bokmål
+    nn:
+      NAME: Norsk nynorsk
+    sv:
+      NAME: Svenska
+    da:
+      NAME: Dansk
+    en:
+      NAME: English
 topic:
   NAME: Tema
   TAGS:
