@@ -2,9 +2,10 @@
 language: #Logical OR
   - nb  # Norwegian bokmål
   - nn  # Norwegian nynorsk
-  - sv  # Swedish
-  - da  # Danish
   - en  # English
+  #  - sv  # Swedish
+  #  - da  # Danish
+  #  - hr  # Croatian
 topic: #Logical AND
   - app         #Tasks for making apps to mobiles and tablets such as App Inventor and Swift
   - electronics #Includes external devices such as Microbit, Arduino, Raspberry Pi, Lego Mindstorms.
