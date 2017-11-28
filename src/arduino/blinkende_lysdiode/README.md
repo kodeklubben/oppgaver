@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Blinkende lysdiode
+language: nb
 ---
 
 
