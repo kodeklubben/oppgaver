@@ -1,0 +1,1 @@
+bgb.exe game.gb
