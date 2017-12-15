@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Lag din egen app
+language: nb
 ---
 
 # Informasjon til veiledere
