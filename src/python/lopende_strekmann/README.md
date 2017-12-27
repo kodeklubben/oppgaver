@@ -36,11 +36,11 @@ I denne oppgaven skal elevene bruke [Pygame Zero](https://pygame-zero.readthedoc
 
 ## Forslag til læringsmål {.challenge}
 
- - [ ] Elevene kan forklare og bruke løkker, lister
+ - [ ] Elevene kan forklare og bruke løkker, lister
 
  - [ ] Elevene kan forklare og bruke andres kode i egne prosjekter.
 
- - [ ] Elevene kan utvikle og feilsøke enkle programmer.
+ - [ ] Elevene kan utvikle og feilsøke enkle programmer.
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -49,10 +49,10 @@ I denne oppgaven skal elevene bruke [Pygame Zero](https://pygame-zero.readthedoc
 
  - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
- 
+
 ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: God kjennskap til løkker, if-setninger og funksjoner.  
+ - [ ]  __Forutsetninger__: God kjennskap til løkker, if-setninger og funksjoner.
 
  - [ ]  __Utstyr__: Datamaskin med Python installert, det er og nødvendig at eleven har installert Pygame Zero. Elevene kan gjerne jobbe to og to sammen.
 
@@ -71,4 +71,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Foreløpig ingen eksterne ressurser 
+- [ ] Foreløpig ingen eksterne ressurser

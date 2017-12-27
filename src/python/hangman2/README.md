@@ -43,7 +43,7 @@ __Tidsbruk__: Dobbelttime eller mer
 
 
 ## Forutsetninger og utstyr {.challenge}
-- [ ]  __Forutsetninger__: Kjennskap til Python. I tillegg burde elevene ha gjort følgende oppgaver (eller være kjent med de ulike temaene og elementene): 
+- [ ]  __Forutsetninger__: Kjennskap til Python. I tillegg burde elevene ha gjort følgende oppgaver (eller være kjent med de ulike temaene og elementene):
   - [ ] [Hangman](../hangman/hangman.html){target=_blank}
   - [ ] [PGZ løpende strekmann](../lopende_strekmann/lopende_strekmann.html){target=_blank}
   - [ ] [Ordbøker](../ordboeker/ordboeker.html){target=_blank}
@@ -59,4 +59,4 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske op
 - [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 
 ## Eksterne ressurser {.challenge}
-- [ ] Vi henviser til mange funksjoner i denne oppgaven, og dersom du ønsker å vite mer om hvordan de fungerer så anbefaler vi at du sjekker ut [Python sin dokumentasjon på nett](https://docs.python.org/3.6/)
+- [ ] Vi henviser til mange funksjoner i denne oppgaven, og dersom du ønsker å vite mer om hvordan de fungerer så anbefaler vi at du sjekker ut [Python sin dokumentasjon på nett](https://docs.python.org/3.6/)
