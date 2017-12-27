@@ -7,16 +7,16 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi reise tilbake til Romertiden og utforske en av de aller første måtene å sende hemmelige signaler på. 
+I denne oppgaven skal vi reise tilbake til Romertiden og utforske en av de aller første måtene å sende hemmelige signaler på.
 
 
 ## Oppgaven passer til: {.check}
 
  __Fag__: Programmering, Samfunnsfag
-          
- __Anbefalte trinn__: 7.-10. trinn         
 
- __Tema__: Kryptografi, Cæsar-chiffer 
+ __Anbefalte trinn__: 7.-10. trinn
+
+ __Tema__: Kryptografi, Cæsar-chiffer
 
  __Tidsbruk__: Enkelttime
 
@@ -32,18 +32,18 @@ I denne oppgaven skal vi reise tilbake til Romertiden og utforske en av de aller
 
  ## Forslag til læringsmål {.challenge}
 
- - [ ] Elevene kan lage egne hemmelige beskjeder 
+ - [ ] Elevene kan lage egne hemmelige beskjeder
 
- - [ ] Elevene kan forklare med egne ord det historiske perspektivet til Cæsar-chifferet
+ - [ ] Elevene kan forklare med egne ord det historiske perspektivet til Cæsar-chifferet
 
 
  ## Forslag til vurderingskriterier {.challenge}
 
  - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
- - [ ] Eleven oppnår høy måloppnåelse ved å kunne skrive et programm som  dekoder en hemmelig beskjed uten å få oppgitt det hemmelige tallet. 
+ - [ ] Eleven oppnår høy måloppnåelse ved å kunne skrive et programm som  dekoder en hemmelig beskjed uten å få oppgitt det hemmelige tallet.
 
- 
+
  ## Forutsetninger og utstyr {.challenge}
 
  - [ ]  __Forutsetninger__: Kjennskap til Python
@@ -66,5 +66,5 @@ I denne oppgaven skal vi reise tilbake til Romertiden og utforske en av de aller
 
  ## Eksterne ressurser {.challenge}
 
- - [ ] Ønsker du å lære mer om kryptografi og hvordan mennesker har beskyttet sine hemmelige meldinger gjennom historien? Da anbefales det å ser videoeserien [En reise inn i kryptografi](https://nb.khanacademy.org/computing/computer-science/cryptography) fra Khan Academy. 
+ - [ ] Ønsker du å lære mer om kryptografi og hvordan mennesker har beskyttet sine hemmelige meldinger gjennom historien? Da anbefales det å ser videoeserien [En reise inn i kryptografi](https://nb.khanacademy.org/computing/computer-science/cryptography) fra Khan Academy.
 

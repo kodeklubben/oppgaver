@@ -49,7 +49,7 @@ Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
 
 ## Sjekkliste {.check}
 
-- [ ] På den ene siden har vi digitale inn- og utganger merket med **DIGITAL (PWM ~ )**.
+- [ ] På den ene siden har vi digitale inn- og utganger merket med **DIGITAL (PWM ~ )**.
 - [ ] Fra nå av kaller vi inn/utganger for *port*.
 - [ ] Den første digitale porten heter **0**.
 - [ ] Den siste digitale porten heter **13**.

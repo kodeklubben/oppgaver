@@ -154,7 +154,7 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
 For at Hangman skal holde oversikt over alle bokstavene som er gjettet
 på må vi også huske på når spilleren gjetter feil.
 
-## Sjekkliste {.check}
+## Sjekkliste {.check}
 
 - [ ] Endre filen du jobber med slik at den blir seende ut som dette:
 

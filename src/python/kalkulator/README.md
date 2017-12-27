@@ -13,7 +13,7 @@ at kalkulatoren skal kunne legge sammen, trekke fra, gange og dele to tall på h
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, Programmering 
+ __Fag__: Matematikk, Programmering
 
  __Anbefalte trinn__:7.-10. trinn
 
@@ -35,11 +35,11 @@ at kalkulatoren skal kunne legge sammen, trekke fra, gange og dele to tall på h
 
 ## Forslag til læringsmål {.challenge}
 
- - [ ] Elevene klarer å dele opp programmet sitt i logiske funksjoner
+ - [ ] Elevene klarer å dele opp programmet sitt i logiske funksjoner
 
  - [ ] Elevene klarer å skrive selvstendig kode, basert på små hint
 
- - [ ] Elevene er i stand til å bruke matematiske symboler til å kode en enkel kalkulator
+ - [ ] Elevene er i stand til å bruke matematiske symboler til å kode en enkel kalkulator
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -48,10 +48,10 @@ at kalkulatoren skal kunne legge sammen, trekke fra, gange og dele to tall på h
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
- 
+
 ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: Kjennskap til while-løkker, if-setninger, funksjoner. 
+ - [ ]  __Forutsetninger__: Kjennskap til while-løkker, if-setninger, funksjoner.
 
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
@@ -84,7 +84,7 @@ b = 19998989889 +1
 print(a is b)
 ```
 
-Grunnen til at koden ovenfor gir ut `False` handler om at `is` sammenligner to *objekter* i minnet, mens `==` sammenligner *verdien* til objektene. Kort oppsumert bruker vi gjerne `is`for å sammenlikne teststrenger eller objekter  mens `==` forbeholdes størrelser. 
+Grunnen til at koden ovenfor gir ut `False` handler om at `is` sammenligner to *objekter* i minnet, mens `==` sammenligner *verdien* til objektene. Kort oppsumert bruker vi gjerne `is`for å sammenlikne teststrenger eller objekter  mens `==` forbeholdes størrelser.
 
 # Robusthet med tekst som input
 
@@ -104,14 +104,14 @@ Spiller det noen rolle i denne oppgaven om en bruker `replace()` eller `strip()`
 
 ## Variasjoner {.challenge}
 
-- [ ] Noen variasjoner er allerede oppgitt i oppgaveteksten. Eksempelvis å legge til flere matematiske operatorer som potenser eller fakultet. 
+- [ ] Noen variasjoner er allerede oppgitt i oppgaveteksten. Eksempelvis å legge til flere matematiske operatorer som potenser eller fakultet.
 
-- [ ] Hva gir kalkulatoren ut om en prøver å beregne `0^0`? Gir dette mening? Hva burde svaret være?
+- [ ] Hva gir kalkulatoren ut om en prøver å beregne `0^0`? Gir dette mening? Hva burde svaret være?
 
-- [ ] Dersom elevene er kjent med begrepet rekursjon er det og mulig å få kalkulatoren til å kunne beregne [Tetration](https://en.wikipedia.org/wiki/Tetration). Med andre ord å få kalkulatoren til å beregne potenstårn.
+- [ ] Dersom elevene er kjent med begrepet rekursjon er det og mulig å få kalkulatoren til å kunne beregne [Tetration](https://en.wikipedia.org/wiki/Tetration). Med andre ord å få kalkulatoren til å beregne potenstårn.
 
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Foreløpig ingen eksterne ressurser 
+- [ ] Foreløpig ingen eksterne ressurser
 
