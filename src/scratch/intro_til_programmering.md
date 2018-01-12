@@ -2,6 +2,7 @@
 title: Introduksjon til programmering
 author: Gubrand Tandberg
 indexed: false
+language: nb
 ---
 
 # Programmering
@@ -18,7 +19,7 @@ La oss se litt på noen av de grunnleggende byggeklossene i et dataprogram.
 
 ## Variable
 
-I de aller fleste programmer så har man bruk for å lagre informasjon, for så å ha den lett tilgjengelig for senere bruk. Da bruker man en __variabel__ for å holde på den informasjonen. Hvis jeg for eksempel vil skrive et biblioteksprogram, så kan det være en god idé å lage en variabel for hver bok i biblioteket. Man kan gi variabler et __navn__ og et __innhold__. I bibliotekseksempelet kunne vi da ha gitt en variabel navnet “Ringenes Herre” og innholdet ville da vært all teksten i Ringenes Herre bøkene. Sånn sett kan man også se på variabler som skuffer for å oppbevare data du bruker i programmet ditt. I Scratch så finner du alt som har med variabler å gjøre under `Data`{.blockorange}. For å lage en ny variabel klikker du på `Lag en Variabel`{.blocklightgrey}. Du kan endre verdien til variablen med blokken `sett [variabel v] til (0)`{.blockorange}. I spill kan variable være nyttige for å holde styr på poeng, tid, tur, hastighet, vinner og mye mer.
+I de aller fleste programmer så har man bruk for å lagre informasjon, for så å ha den lett tilgjengelig for senere bruk. Da bruker man en __variabel__ for å holde på den informasjonen. Hvis jeg for eksempel vil skrive et biblioteksprogram, så kan det være en god idé å lage en variabel for hver bok i biblioteket. Man kan gi variabler et __navn__ og et __innhold__. I bibliotekseksempelet kunne vi da ha gitt en variabel navnet “Ringenes Herre” og innholdet ville da vært all teksten i Ringenes Herre bøkene. Sånn sett kan man også se på variabler som skuffer for å oppbevare data du bruker i programmet ditt. I Scratch så finner du alt som har med variabler å gjøre under `Data`{.blockorange}. For å lage en ny variabel klikker du på `Lag en Variabel`{.blocklightgrey}. Du kan endre verdien til variablen med blokken `sett [variabel v] til [0]`{.blockorange}. I spill kan variable være nyttige for å holde styr på poeng, tid, tur, hastighet, vinner og mye mer.
 
 ## Løkker
 
@@ -26,7 +27,7 @@ Veldig ofte i programmer har vi bruk for å gjøre noen instrukser flere ganger.
 
 ## Tester
 
-Noen ganger så vil vi bare at datamaskinen skal utføre en instruks *hvis* en eller annen betingelse er sann. Vi vil for eksempel bare at datamaskinen skal blande et egg i røren *hvis det ikke er rottent*. Det er derfor vi bruker __tester__ i et dataprogram. Betingelsen vi tester etter må være noe som kan være sant eller usant. Enten er et egg rottent, eller så er det ikke det! Eksempler på andre tester vi kunne tenke oss å gjøre er å sjekke om to tall er like, eller om en figur i et spill har blitt spist eller om tiden har gått ut. I Scratch finner vi alt som har med tester å gjøre under `Styring`{.blockyellow}-kategorien. Den mest vanlige testen vi bruker heter `hvis ()`{.blockyellow}. Legg merke til at det er et tomrom i denne blokken. Her skal du dra inn betingelsen du ønsker å sjekke om er oppfyllt (husk: noe som kan være sant eller usant!). Du får ofte bruk for blokkene med spisse kanter i `Operatorer`-kategorien i disse tomrommene. Dette er blokker som `( )=( )`{.blocklightgreen} og `( ) < ( )`{.blocklightgreen} som brukes for å sjekke om noe er likt eller mindre enn noe annet.
+Noen ganger så vil vi bare at datamaskinen skal utføre en instruks *hvis* en eller annen betingelse er sann. Vi vil for eksempel bare at datamaskinen skal blande et egg i røren *hvis det ikke er rottent*. Det er derfor vi bruker __tester__ i et dataprogram. Betingelsen vi tester etter må være noe som kan være sant eller usant. Enten er et egg rottent, eller så er det ikke det! Eksempler på andre tester vi kunne tenke oss å gjøre er å sjekke om to tall er like, eller om en figur i et spill har blitt spist eller om tiden har gått ut. I Scratch finner vi alt som har med tester å gjøre under `Styring`{.blockyellow}-kategorien. Den mest vanlige testen vi bruker heter `hvis <>`{.blockyellow}. Legg merke til at det er et tomrom i denne blokken. Her skal du dra inn betingelsen du ønsker å sjekke om er oppfyllt (husk: noe som kan være sant eller usant!). Du får ofte bruk for blokkene med spisse kanter i `Operatorer`-kategorien i disse tomrommene. Dette er blokker som `( )=( )`{.blocklightgreen} og `( ) < ( >`{.blocklightgreen} som brukes for å sjekke om noe er likt eller mindre enn noe annet.
 
 ## Lister
 
@@ -36,17 +37,17 @@ Når man jobber med større mengder data, så kan det være lurt å bruke lister
 
 Til slutt så viser vi et eksempel på et tenkt program en datamaskin kunne brukt for å lage (data)pannekaker. Legg merke til at programmet hverken er skrevet helt på godt norsk eller i et programmeringsspråk. Dette er for å gjøre det litt mer forståelig.
 
-	hent 3 egg
-	hent 2 dl melk
-	hent 2 dl mel
-	hent 1 bakebolle
+  hent 3 egg
+  hent 2 dl melk
+  hent 2 dl mel
+  hent 1 bakebolle
 
-	bland mel i bakebolle
-	bland melk i bakebolle
+  bland mel i bakebolle
+  bland melk i bakebolle
 
-	gjenta 3 ganger:
-		hvis egg ikke er rottent
-			bland 1 egg i bakebollen
+  gjenta 3 ganger:
+    hvis egg ikke er rottent
+      bland 1 egg i bakebollen
 
-	gjenta til bakebollen er tom:
-		stek en pannekake*
+  gjenta til bakebollen er tom:
+    stek en pannekake*

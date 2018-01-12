@@ -1,12 +1,10 @@
 ---
-title: Ørkenløp
-level: 1.6
-language: nb-NO
-embeds: "orkenlop.png"
+title: Lærerveiledning - Ørkenløp
+level: 2
+language: nb
 ---
 
-# Informasjon til Veiledere
-
+# Om oppgaven {.activity}
 Dette er et spill for to, der en papegøye og en løvinne kjemper om å
 komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og
 ofte som mulig for å flytte figuren sin, og den som kommer først til
@@ -14,17 +12,46 @@ kanten av skjermen vinner.
 
 ![](orkenlop.png)
 
-# Forberedelser
+## Oppgaven passer til: {.check}
+ __Fag__: Matematikk, programmering
 
-Ørkenløp bruker bare ressurser som er inkludert i Scratch-platformen
-og krever som sådann ingen spesielle forberedelser.
+__Anbefalte trinn__: 3.-10. trinn
 
-# Læringsmål
+__Tema__: Koordinatsystem, brukerinteraksjon, parallellforskyving.
 
-Ørkenløp lærer bort ferdigheter som
+__Tidsbruk__: Dobbelttime eller mer.
 
-1. å styre figurer __med tastene__,
-2. å bruke en __startknapp__ for å starte spillet,
-3. å __nullstille spillet__ slik at det kan spilles igjen,
-4. bruk av __egendefinerte__ klosser.
+## Kompetansemål {.challenge}
+- [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre speiling, rotasjon og parallellforskyvning
+- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å generalisere og tilpasse eksisterende programkode og algoritmer.
 
+## Forslag til læringsmål {.challenge}
+- [ ] Elevene kan bruke kode og brukerinteraksjon til å gjennomføre parallellforskyvning av en figur i et rutenett.
+- [ ] Elevene kan plassere en figur i et rutenett, og beskrive flytting av denne.
+- [ ] Elevene kan bruke kode til å kontrollere hvilken figur som kommer i mål først, og sende en passende melding som tekst til spillerne.
+- [ ] Elevene kan bruke kode til å nullstille spillet mellom hver runde.
+- [ ] Elevene kan lage egendefinerte klosser i Scratch for å forenkle koden.
+
+## Forslag til vurderingskriterier {.challenge}
+- [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en av variasjonene nedenfor.
+
+## Forutsetninger og utstyr {.challenge}
+- [ ] __Forutsetninger__: Elevene bør være komfortable med Scratch.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Det er en fordel om elevene jobber to og to, slik at de kan teste spillet sammen underveis.
+
+## Fremgangsmåte
+[Klikk her for å se oppgaveteksten.](../orkenlop/orkenlop.html){target=_blank}
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
+
+## Variasjoner {.challenge}
+- [ ] Elevene kan bruke andre bakgrunnstema, og endre figurer og lyder i henhold til dette.
+- [ ] Elevene kan la spillerne velge figurer selv på forhånd.
+- [ ] Elevene kan gi figurene ulike hastigheter og hjelpemidler.
+- [ ] Elevene kan lage en klokke som tar tiden og lagrer resultatet for sammenligning.
+- [ ] Elevene kan lage en teller som holder oversikt over hvilken spiller som har vunnet flest ganger.
+
+## Eksterne ressurser {.challenge}
+- [ ] Foreløpig ingen eksterne ressurser...

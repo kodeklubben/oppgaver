@@ -1,30 +1,72 @@
-#Introduction:
-This project teaches functions and parameter passing, by creating and using functions to draw customisable shapes and patterns.
+---
+title: Lærerveiledning - Stjerner og galakser
+level: 2
+language: nb
+---
 
-#Resources
-For this project, Python will need to be installed. It is recommended that version 3.2 of Python is installed.
 
-Children can also make use of the materials which accompany these challenges. Files included in the 'Project Resources' folder (found under the 'Download Project Materials' link):
+# Om oppgaven {.activity}
 
-+ Sky.py
+I denne oppgaven skal vi se nærmere på hvordan funkjoner kan gjøre programmene vi skriver enklere og mer oversiktlige. Spesielt så skal vi se hvordan if-setninger kan brukes til å tegne stjerner og galakser.
 
-Make sure that each child has read and write access to their own copy of these resources.
 
-You can find a completed version of this project's challenges by clicking the 'Download Project Materials' link for this project, which contains:
+## Oppgaven passer til: {.check}
 
-+ ConstellationFinished.py
-+ Clouds.py
+ __Fag__: Programmering
 
-#Learning Objectives
-+ Functions and the `def` keyword;
-+ Passing parameters to functions;
-+ Additional turtle functions.
+ __Anbefalte trinn__: 8.-10. trinn
 
-#Challenges
-+ More functions - defining and calling functions;
-+ Drawing planets - defining and calling parameterised functions;
-+ Functions everywhere! - using functions to draw images.
+ __Tema__: Funksjoner, if-setninger, Skilpadder
 
-#Frequently Asked Questions
-+ Depending on where the file is saved, naming a program 'turtle.py' can cuase problems, as it clashes with the turtle module, which is also called 'turtle.py'.
-+ There can sometimes be problems when trying to close the turtle drawing canvas. The line `done()` at the end of each program should help, but if the window freezes you can close the shell window, which should terminate the program.
+ __Tidsbruk__: Dobbelttime
+
+
+## Kompetansemål {.challenge}
+
+ - [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse
+
+ - [ ] __Programmering, 10. trinn__: utvikle og feilsøke programmer som løser definerte problemer, inkludert realfaglige problemstillinger og kontrollering eller simulering av fysiske objekter
+
+ - [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske former i konstruksjon og som dekorative formelementer
+
+
+## Forslag til læringsmål {.challenge}
+
+- [ ] Elevene kan bruke et tekstbasert programmeringsspråk.
+
+- [ ] Elevene forstår hvordan en kan tegne geometriske figurer tilfeldig på skjermen.
+
+- [ ] Elevene kan forklare hvordan en `if-setning` fungerer og er i stand til å sette sammen flere slike
+
+- [ ] Elevene kan forklare hva en funksjon er og skrive enkle funksjoner selv.
+
+
+## Forslag til vurderingskriterier {.challenge}
+
+- [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
+
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
+
+
+## Forutsetninger og utstyr {.challenge}
+
+ - [ ]  __Forutsetninger__: Kjennskap til skilpadder og if-setninger.
+
+ - [ ]  __Utstyr__: Datamaskin med Python installert.
+
+
+## Fremgangsmåte
+
+ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../stjerner_og_galakser/stjerner_og_galakser.html){target=_blank}
+
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
+
+
+## Variasjoner {.challenge}
+
+- [ ]  Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.
+
+
+## Eksterne ressurser {.challenge}
+
+- [ ] Foreløpig ingen eksterne ressurser

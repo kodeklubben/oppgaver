@@ -1,42 +1,49 @@
 ---
-title: Krabbeangrep!
-level: 1.3
-language: nb-NO
-embeds: “Krabbeangrep_bakgrunn.png"
+
+title: Lærerveiledning - Krabbeangrep!
+level: 3
+language: nb
 ---
 
-# Informasjon til Veiledere
+# Om oppgaven {.activity}
+I flere kodeklubbtimer merker vi ofte at barna _nesten_ blir ferdige med et spill før timen er over. Derfor er ideen bak Krabbeangrep! at skjelettet til spillet står ferdig, og at barna remikser det for å legge til ekstra funksjonalitet.
 
-I våre kodeklubbmøter i Deichmanske på Majorstuen merker vi at barna ofte bare blir nesten ferdige med et spill før timen er over. Derfor er ideen bak Krabbeangrep! at skjelettet til spillet står ferdig før barna selv remikser det for å legge til ekstra funksjonalitet. 
+![](krabbeangrep_remiks.png)
 
-![](Krabbeangrep_bakgrunn.png)
+## Oppgaven passer til: {.check}
+ __Fag__: Kunst og håndtverk, programmering.
+__Anbefalte trinn__: 3.-10. trinn
+__Tema__: Videreutvikling av kode.
+__Tidsbruk__: Dobbelttime eller mer.
 
-# Forberedelser
+## Kompetansemål {.challenge}
+- [ ] __Kunst og håndtverk, 10. trinn__: vurdere ulike budskap, etiske problemstillinger og visuell kvalitet i reklame, film, nettsteder og dataspill
+- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
-Krabbeangrep! bruker bare ressurser som er inkludert i
-Scratch-platformen, samt prosjektet Krabbeangrep! som barna blir
-guidet til å laste inn og starte en remiks av i Steg 1. Prosjektet
-krever som sådann ingen spesielle forberedelser.
+## Forslag til læringsmål {.challenge}
+- [ ] Elevene kan vurdere og forbedre den visuelle kvaliteten i et dataspill.
+- [ ] Elevene kan synkronisere og styre figurer i et spill.
+- [ ] Elevene kan videreutvikle andres programkode ved å lese kode og tilhørende kommentarer.
+- [ ] Elevene kan bruke grunnleggende prinsipper i programmering for å lage ulike funksjoner i et spill.
 
-Her er likevel noen generelle ting som kan være verdt å huske på:
+## Forslag til vurderingskriterier {.challenge}
+- [ ] Eleven viser middels måloppnåelse ved å fullføre hoveddelen av oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
-+ Scratch er tilgjengelig på nettsiden <http://scratch.mit.edu/>. Velg
-  `Programmering` eller `Prøv Det` for å begynne å programmere.
-+ Alle elevene bør ha sin egen bruker i Scratch-nettverket. Uten en
-  slik bruker er det mye vanskeligere å lagre spillene og programmene
-  man lager. For å opprette en ny bruker, klikk `Bli Scratch-bruker`
-  og følg instruksene på skjermen.
-+ For å skifte språk til norsk:
-    + På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
-      å velge språk helt nederst på skjermen.
-    + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
-      venstre for å endre språket som brukes.
+## Forutsetninger og utstyr {.challenge}
+- [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort flere prosjekter på introduksjons- og nybegynnernivå før de starter med denne oppgaven.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
-# Læringsmål
+## Fremgangsmåte
+[Klikk her for å se oppgaveteksten.](../krabbeangrep_remiks/krabbeangrep_remiks.html){target=_blank}
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
-I Krabbeangrep fokuserer vi på:
+## Variasjoner {.challenge}
+- [ ] Elevene kan lage en variabel som teller poeng, og vise poengsummen når spillet er ferdig.
+- [ ] Elevene kan lage flere typer romvesener som angriper, og som gir ulikt antall poeng.
+- [ ] Elevene kan lage en mer omfattende menyside, for eksempel med en hjelpeside.
+- [ ] Elevene kan legge inn økende vanskelighetsgrad, for eksempel at spillet går raskere jo lengre det varer.
 
-+ Lære hvordan alle figurene i et spill kan synkroniseres og styres med meldinger.
-+ Lære å sette pris på hvor lurt det er å ha et hovedobjekt (scenen) som tar for seg viktige avgjørelser i spillflyten. Et aller første møte med en slags MVC-idé. 
-+ Lære hvordan et ‘spill’ kan gjøres til et skikkelig spill der man kan spille flere ganger og ikke være avhengige av å klikke det grønne flagget hele tiden. 
-+ Leke med forskjellige ting som vanskelighetsgrad, lyder og annet pynt.
+## Eksterne ressurser {.challenge}
+- [ ] Foreløpig ingen eksterne ressurser...

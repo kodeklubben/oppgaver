@@ -1,0 +1,8 @@
+repetisjon/repetisjon.md
+tekst_abc/tekst_abc.md
+lopende_strekmann/lopende_strekmann.md
+lister_og_indekser/lister_og_indekser.md
+ordboeker/ordboeker.md
+hangman2/hangman2.md
+enkle_objekter/enkle_objekter.md
+sprettball/sprettball.md

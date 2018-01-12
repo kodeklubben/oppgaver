@@ -5,11 +5,12 @@ logo: ../../assets/img/ccuk_logo.png
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Lars-Erik Wollan
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+language: nb
 ---
 
-## Sjekkliste { .check}
+## Sjekkliste {.check}
 
-+ Du kan gi monsteret øyne som følger musepekeren rundt på
+- [ ] Du kan gi monsteret øyne som følger musepekeren rundt på
   skjermen. Det kan ha så mange øyne som du vil, kankje har det åtte
   øyne, som en edderkopp! Siden vi alltid vil at monsterøynene skal
   følge musepekeren må vi sette `for alltid`{.blockcontrol}
@@ -17,19 +18,19 @@ license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub
   startet vil vi at øynene peker i retningen av musepekeren og flytter
   seg hvert brøkdelssekund.
 
-    ```blocks
-        når denne figuren klikkes
-        for alltid
-            pek mot [musepeker v]
-            vent (0.2) sekunder
-        slutt
+  ```blocks
+  når denne figuren klikkes
+  for alltid
+      pek mot [musepeker v]
+      vent (0.2) sekunder
+  slutt
 
-        når jeg mottar [flyttet høyre v]
-        endre x med (hastighet)
+  når jeg mottar [flyttet høyre v]
+  endre x med (hastighet)
 
-        når jeg mottar [flyttet venstre v]
-        endre x med ((hastighet) * (-1))
-    ```
+  når jeg mottar [flyttet venstre v]
+  endre x med ((hastighet) * (-1))
+  ```
 
 **Merk at vi ogå lytter til meldinger om at kroppen har flyttet seg,
   slik at øynene beveger seg sammen med kroppen og andre

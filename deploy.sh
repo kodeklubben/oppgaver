@@ -1,16 +1,26 @@
-#!/bin/sh
-#Set CWD to the location of this file
-cd ${0%/*}
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+BUILDER="$DIR/codeclub_lesson_builder"
+# add reference to repo in commit message
+REPLACE="Merge pull request "
+REPLACE_WITH="kodeklubben/oppgaver"
+
+echo "pulling changes"
+# do not pull changes while in dir
+cd $DIR/.. && \
+git -C $DIR pull && \
+git -C $BUILDER fetch origin master && \
+git -C $BUILDER merge --no-edit FETCH_HEAD && \
+MESSAGE="$(git -C $DIR log -1 --pretty=%B)" && \
+COMMIT_MSG="${MESSAGE/$REPLACE/$REPLACE_WITH}" && \
+cd $BUILDER && \
+npm install
+
+echo "build and push"
+cd $DIR && \
 ./gulp dist && \
-./gulp links && \
-cd kodeklubben.github.io && \
-if [ -e README.md ]
-then
-    find * ! -name README.md -delete
-else
-    rm -r *
-fi
-cp -r ../build/* . && \
+cp -r build/* dist && \
+cd dist && \
 git add --all . && \
-git commit -m "build $(date)" && \
+git commit -m "$COMMIT_MSG" && \
 git push

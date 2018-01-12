@@ -1,11 +1,11 @@
 language: node_js
 node_js:
-  - "0.10"
-install: ./setup
+  - "7"
+install: ./travis-install.sh
 script: ./gulp dist && ./gulp links
 notifications:
   recipients:
     - geirarne@gmail.com
-addons:
-  apt_packages:
-    - pandoc
+    - arve.seljebu@gmail.com
+env:
+  - BUILD_PDF=false

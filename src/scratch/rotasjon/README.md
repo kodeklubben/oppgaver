@@ -1,43 +1,53 @@
 ---
-title: Labyrint
-level: 1.2
-language: nb-NO
-embeds: "labyrint.png"
+title: Lærerveiledning - Rotasjon rundt egen akse
+level: 1
+language: nb
 ---
 
-# Informasjon til Veiledere
+# Om oppgaven {.activity}
+I denne oppgaven skal elevene lære å rotere en figur rundt egen akse. Anbefaler å gjøre oppgaven [rotasjon rundt et punkt](../rotasjon%20rundt%20punkt/rotasjon%20rundt%20punkt.html) først. 
 
-I dette spillet vil vi kontrollere en liten __utforsker__ mens hun
-leter etter __skatten__ gjemt inne i labyrinten. Dessverre er skatten
-beskyttet av den skumle __froskekongen__.
 
-![](labyrint.png)
+## Oppgaven passer til: {.check}
+ __Fag__: Matematikk
 
-# Forberedelser
+__Trinn__: 3-7. trinn
 
-Labyrint bruker bare ressurser som er inkludert i Scratch-platformen og krever som sådann ingen spesielle forberedelser.
+__Tema__: Rotasjon
 
-Her er likevel noen generelle ting som kan være verdt å huske på:
+__Tidsbruk__: Enkelttime
 
-+ Scratch er tilgjengelig på nettsiden <http://scratch.mit.edu/>. Velg
-  `Programmering` eller `Prøv Det` for å begynne å programmere.
-+ Alle elevene bør ha sin egen bruker i Scratch-nettverket. Uten en
-  slik bruker er det mye vanskeligere å lagre spillene og programmene
-  man lager. For å opprette en ny bruker, klikk `Bli Scratch-bruker`
-  og følg instruksene på skjermen.
-+ For å skifte språk til norsk:
-    + På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
-      å velge språk helt nederst på skjermen.
-    + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
-      venstre for å endre språket som brukes.
 
-# Læringsmål
+## Kompetansemål {.challenge}
 
-De to viktigste læringsmålene i Labyrint er
+- [ ]  __Matematikk, 7. årstrinn__: beskrive og gjennomføre speiling, rotasjon og parallellforskyvning
 
-1. hvordan __styre figurer__ ved hjelp av __tastaturet__, og
-2. hvordan man kan __tegne egne bakgrunner og figurer__.
+- [ ]  __Matematikk, 7. årstrinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
 
-I tillegg gis det litt motivasjon for bruk av variable til å holde
-styr på informasjon, samt at vi ser et eksempel på hvordan man kan
-bruke tilfeldigheter for å skape variasjon i spillet.
+
+## Forslag til læringsmål {.challenge}
+
+- [ ]  Elevene kan bruke matematiske begreper til å forklare hvordan rotasjon rundt et punkt fungerer.
+- [ ]  Elevene kan bruke matematiske begreper til å beskrive figurenes posisjon og bevegelse i koordinatsystemet.
+
+
+## Forslag til vurderingskriterier {.challenge}
+
+- [ ]  Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven oppnår høy måloppnåelse ved å kunne presentere skriftlig eller muntlig figurens rotasjon og bevegelse ved bruk av matematiske begreper.
+
+
+## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: Ingen
+
+- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
+
+
+## Fremgangsmåte
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../rotasjon/rotasjon.html){target=_blank}
+
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
+
+
+## Variasjoner {.challenge}
+- [ ]  Denne oppgaven kan kombineres med oppgaven som handler om [rotasjon rundt et punkt](../rotasjon%20rundt%20punkt/rotasjon%20rundt%20punkt.html), og elevene kan for eksempel få i oppgave å beskrive og forklare forskjeller og likheter.

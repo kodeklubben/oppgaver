@@ -1,29 +1,31 @@
 ---
 title: Oppgaver
 template: index.jade
+license: false
+footer: "[Bidra?](https://github.com/kodeklubben/oppgaver) &mdash; [kidsakoder.no](http://www.kidsakoder.no/) &mdash; [Last ned alle kurs som zip-fil](https://github.com/kodeklubben/kodeklubben.github.io/archive/master.zip)<br/>Sponsorer: [![Sponset av Sparebank1 Midt-Norge](sponsorer/smn.jpg) ![Sponset av ibok](sponsorer/ibok.jpg)](http://www.kidsakoder.no/2015/07/03/kodeklubben-trondheim-utvikler-materiell-i-sommer/) [![Sponset av Teknograd](sponsorer/teknograd.png)](https://www.teknograd.no/) [![Sponset av NTNU IDI](sponsorer/ntnu_idi.png)](https://www.ntnu.edu/idi/) [![Sponset av ExcITEd](sponsorer/excITEd.png)](http://www.ntnu.edu/web/excited/) [![Sponset av UiO IFI](sponsorer/uio_ifi.png)](http://www.mn.uio.no/ifi/)"
+language: nb
 ---
 
 # Kodeklubbens oppgaver
 
-<!-- bruk html for bedre fleksibilitet -->
-<div class="row">
+Hei! På denne siden finner du mange oppgaver som du kan gjøre for å lære deg
+programmering. Som du ser, finnes det mange forskjellige språk. For nybegynnere
+anbefaler vi å starte med Scratch, men dersom du går på ungdomsskolen eller
+videregående så vil det også gå fint å starte med Python eller Processing.
 
-<div style="padding-top:10px;padding-bottom:10px" class="col-sm-6 col-md-4">
-  <p>Oppgavene er sortert etter vanskelighetsgrad.</p>
-  <li class="level-1">Introduksjon</li>
-  <li class="level-2">Nybegynner</li>
-  <li class="level-3">Erfaren</li>
-  <li class="level-4">Ekspert</li>
-</div>
+---
 
+Vi holder for tiden på å lage nye oppgave-sider for Lær Kidsa Koding, som
+vil bli lansert om kort tid. For å teste så kan du gå til
+[oppgaver.kidsakoder.no/beta](http://oppgaver.kidsakoder.no/beta).
 
-<div style="padding-top:10px;padding-bottom:10px" class="col-sm-6 col-md-4">
-  <p>Spillelister er samlinger av oppgaver.</p>
-  <li id="spillelister" class="playlist">
-    <span class="icon"></span>
-    <div class="name">Spillelister</div>
-  </li>
-  <li class="playlist lesson level-1 spillelister">Oppgave</li>
-</div>
+På de nye sidene finner du blant annet:
 
-</div><!-- row end -->
+- filter med språk, tema, fag og klassetrinn
+- fremdriftslinje i oppgavene du jobber med
+- elev- og lærermodus
+
+Har du tilbakemeldinger til de nye sidene? [Ta
+kontakt!](https://forum.kidsakoder.no/t/tilbakemeldinger-til-lkks-nye-oppgavesider/200){target=_blank}
+
+---

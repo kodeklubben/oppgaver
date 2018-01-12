@@ -14,6 +14,5 @@ for i in range(10):
 
 Endel av disse oppgavene er oversatt fra Code Club UK, men det gjenstår enda
 arbeid for å få oversatt alle oppgavene til Code Club UK. Hvis du ønsker å
-oversette noen oppgaver finnes [orginalene på engelsk her](cc-python-eng).
-
-[cc-python-eng]: https://github.com/CodeClub/python-curriculum/tree/master/en-GB/lessons
+oversette noen oppgaver finnes
+[orginalene på engelsk her](https://github.com/CodeClub/python-curriculum/tree/master/en-GB/lessons).

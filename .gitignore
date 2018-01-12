@@ -1,4 +1,10 @@
 .DS_Store
 .idea/*
 build
-kodeklubben.github.io
+dist
+src/metalsmith-changed-ctimes.json
+
+# Emacs temporary and recovery files
+*~
+.#*
+\#*#

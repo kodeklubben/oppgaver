@@ -1,4 +1,7 @@
+veiledninger/kurs_avansert_scratch_klassikere.md
 pong/pong.md
 breakout/breakout.md
 snake/snake.md
-lag_ditt_eget_spill/lag_ditt_eget_spill.md
+lunar_lander/lunar_lander.md
+asteroids/asteroids.md
+donkey_kong/donkey_kong.md

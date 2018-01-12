@@ -1,13 +1,11 @@
 ---
-title: Spøkelsesjakten
-level: 1.2
-language: nb-NO
-embeds: "skjermbilde.png"
+title: Lærerveiledning - Spøkelsesjakten
+level: 1
+language: nb
 ---
 
-# Informasjon til Veiledere
-
-Spillet vi skal lage nå er inspirert av tivolispillet
+# Om oppgaven {.activity}
+I denne oppgaven skal elevene lage et spill inspirert av tivolispillet
 __Whack-a-mole__, hvor man slår muldvarper ned igjen i hullene sine. I
 vårt spill får man poeng for å trykke på spøkelser som dukker opp på
 skjermen. Målet er å få så mange poeng som mulig på 30 sekunder.
@@ -16,31 +14,47 @@ Dette er et enkelt spill som gir en god introduksjon til Scratch.
 
 ![](spokelsesjakten.png)
 
-# Forberedelser
 
-Spøkelsesjakten bruker bakgrunn og drakter fra
-Scratchbibliotektet. Ingen spesielle forberedelser er derfor
-nødvendige.
+## Oppgaven passer til: {.check}
+ __Fag__: Matematikk, musikk, programmering.
 
-Her er likevel noen generelle ting som kan være verdt å huske på:
+__Anbefalte trinn__: 3.-10. trinn.
 
-+ Scratch er tilgjengelig på nettsiden <http://scratch.mit.edu/>. Velg
-  `Programmering` eller `Prøv Det` for å begynne å programmere.
-+ Alle elevene bør ha sin egen bruker i Scratch-nettverket. Uten en
-  slik bruker er det mye vanskeligere å lagre spillene og programmene
-  man lager. For å opprette en ny bruker, klikk `Bli Scratch-bruker`
-  og følg instruksene på skjermen.
-+ For å skifte språk til norsk:
-    + På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
-      å velge språk helt nederst på skjermen.
-    + Inne i Scratch-editoren kan man trykke på jordkloden øverst til
-      venstre for å endre språket som brukes.
+__Tema__: Koordinatsystem, spill, musikk.
 
-# Læringsmål
+__Tidsbruk__: Dobbelttime.
 
-Spøkelsesjakten viser eksempler på
+## Kompetansemål {.challenge}
+- [ ]  __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
+- [ ]  __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ]  __Musikk, 7. trinn__: komponere og gjøre lydopptak ved hjelp av digitale verktøy
+- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon
 
-1. hvordan man __skjuler__ og __viser__ figurer,
-2. bruk av __løkker__ for å få noe til å skje flere ganger (eller for alltid),
-3. bruk av __variable__ for å telle poeng,
-4. hvordan man kan __telle ned tiden som går__.
+## Forslag til læringsmål {.challenge}
+
+- [ ]  Elevene kan plassere figurer på bestemte posisjoner i et koordinatsystem.
+- [ ]  Elevene kan få figurer til å bevege seg i et koordinatsystem.
+- [ ]  Elevene kan lage eller velge lydklipp som passer til situasjonen.
+- [ ]  Elevene kan bruke løkker for å få noe til å skje flere ganger.
+- [ ]  Elevene kan bruke variabler for å telle poeng (eller tid)
+
+## Forslag til vurderingskriterier {.challenge}
+- [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
+
+## Forutsetninger og utstyr {.challenge}
+- [ ]  __Forutsetninger__: Ingen, fin introduksjon til Scratch.
+
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne jobbe to og to sammen.
+
+## Fremgangsmåte
+[Klikk her for å se oppgaveteksten.](../spokelsesjakten/spokelsesjakten.html){target=_blank}
+
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
+
+## Variasjoner {.challenge}
+- [ ]  Elevene kan lage flere spøkelser som er synlige samtidig.
+- [ ]  Elevene kan lage spøkelser i ulike størrelser og med ulike hastigheter.
+
+## Eksterne ressurser {.challenge}
+- [ ] Foreløpig ingen eksterne ressurser ...

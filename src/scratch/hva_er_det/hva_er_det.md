@@ -5,6 +5,11 @@ logo: ../../assets/img/ccuk_logo.png
 author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Anne-Marit Gravem
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+language: nb
+tags:
+    topic: [block_based, game]
+    subject: [arts_and_crafts, programming]
+    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -22,36 +27,36 @@ flere poeng får du.
 
 ## Sjekkliste {.check}
 
-+ Start et nytt Scratch-prosjekt og slett kattefiguren.
+- [ ] Start et nytt Scratch-prosjekt og slett kattefiguren.
 
-+ Klikk på scenen og deretter `Bakgrunner`-fanen.  Åpne biblioteket
+- [ ] Klikk på scenen og deretter `Bakgrunner`-fanen.  Åpne biblioteket
   med bakgrunner ved å trykke på
   ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) og velg
   så `Innendørs/chalkboard`.
 
-+ Importer en valgfri figur. Velg gjerne en figur fra `Ting`-mappen.
+- [ ] Importer en valgfri figur. Velg gjerne en figur fra `Ting`-mappen.
 
-+ Plasser figuren på midten av tavlen, og endre størrelsen hvis den
+- [ ] Plasser figuren på midten av tavlen, og endre størrelsen hvis den
   ikke passer.
 
-+ Legg til fire nye drakter fra `Ting`-mappen. Du kan velge de
+- [ ] Legg til fire nye drakter fra `Ting`-mappen. Du kan velge de
   figurene du vil!
 
-+ La oss nå få en tilfeldig ting til å dukke opp på tavlen. Bruk dette
+- [ ] La oss nå få en tilfeldig ting til å dukke opp på tavlen. Bruk dette
   skriptet.
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt drakt til (tilfeldig tall fra (1) til (5))
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt drakt til (tilfeldig tall fra (1) til (5))
+  ```
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-+ Endrer figuren seg?
+- [ ] Endrer figuren seg?
 
-+ Klikk flere ganger. Får figuren stadig nye drakter? Flott.
+- [ ] Klikk flere ganger. Får figuren stadig nye drakter? Flott.
 
 Det gjør ingenting om samme drakt kommer opp flere ganger på rad. Det
 er helt normalt når det velges en tilfeldig drakt hver gang.
@@ -69,46 +74,46 @@ synke. Poengvariabelen fungerer dermed som en slags tidteller.
 
 ## Sjekkliste {.check}
 
-+ Velg `Data`{.blockdata}-kategorien og lag en variabel kalt
+- [ ] Velg `Data`{.blockdata}-kategorien og lag en variabel kalt
   `poeng`{.blockdata}. La den gjelde `for alle figurer`.
 
-+ Endre skriptet slik:
+- [ ] Endre skriptet slik:
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt drakt til (tilfeldig tall fra (1) til (5))
-        sett [poeng v] til (110)
-        gjenta til ((poeng) = (0))
-            endre [poeng v] med [-10]
-            sett [piksel v] effekt til (poeng)
-            sett [farge v] effekt til (poeng)
-            vent (1) sekunder
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt drakt til (tilfeldig tall fra (1) til (5))
+  sett [poeng v] til [110]
+  gjenta til <(poeng) = [0]>
+      endre [poeng v] med (-10)
+      sett [piksel v] effekt til (poeng)
+      sett [farge v] effekt til (poeng)
+      vent (1) sekunder
+  slutt
+  ```
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-+ Kommer det opp et tilfeldig og forvrengt bilde?
+- [ ] Kommer det opp et tilfeldig og forvrengt bilde?
 
-+ Blir bildet gradvis tydeligere?
+- [ ] Blir bildet gradvis tydeligere?
 
-+ Går poengsummen ned i takt med at bildet blir tydeligere?
+- [ ] Går poengsummen ned i takt med at bildet blir tydeligere?
 
-+ Blir bildet fullstendig tydelig når poengsummen er 0?
+- [ ] Blir bildet fullstendig tydelig når poengsummen er 0?
 
-+ Får du fremdeles nye ting på tavlen når du klikker på det grønne
+- [ ] Får du fremdeles nye ting på tavlen når du klikker på det grønne
   flagget?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
-+ Prøv å __endre poengsummen__ fra start, samt hvor mye den skal
+- [ ] Prøv å __endre poengsummen__ fra start, samt hvor mye den skal
   __forandre seg__ for hver gang den går gjennom løkken. Hvordan
   endrer det utseendet til bildet? Blir det vanskeligere eller enklere
   å se hva bildet forestiller?
 
-+ Forsøk noen __ulike grafiske effekter__ fra nedtrekkslisten. Hvordan
+- [ ] Forsøk noen __ulike grafiske effekter__ fra nedtrekkslisten. Hvordan
   påvirker dette vanskelighetgsraden?
 
 # Steg 3: La spilleren prøve å gjette bildet {.activity}
@@ -123,72 +128,72 @@ Først må vi å vite hva det rette svaret er.
 
 ## Sjekkliste {.check}
 
-+ Lag en ny variabel og kall den `riktig`{.blockdata}. Pass på at den
+- [ ] Lag en ny variabel og kall den `riktig`{.blockdata}. Pass på at den
   er tilgjengelig `for alle figurer`. Fjern avhukingen slik at
   variabelen ikke vises i spillet.
 
-+ Endre skriptet slik at det klarer å holde styr på hva som er rett
+- [ ] Endre skriptet slik at det klarer å holde styr på hva som er rett
   svar.  Etter at vi har bestemt drakten legger du derfor til klossen
   `sett riktig til`{.blockdata}`drakt nr.`{.blocklooks}:
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt drakt til (tilfeldig tall fra (1) til (5))
-        sett [riktig v] til (drakt nr.)
-        sett [poeng v] til (110)
-        gjenta til ((poeng) = (0))
-            endre [poeng v] med [-10]
-            sett [piksel v] effekt til (poeng)
-            sett [farge v] effekt til (poeng)
-            vent (1) sekunder
-        slutt
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  bytt drakt til (tilfeldig tall fra (1) til (5))
+  sett [riktig v] til (drakt nr.)
+  sett [poeng v] til [110]
+  gjenta til <(poeng) = [0]>
+      endre [poeng v] med (-10)
+      sett [piksel v] effekt til (poeng)
+      sett [farge v] effekt til (poeng)
+      vent (1) sekunder
+  slutt
+  ```
 
 Nå skal vi legge til flere figurer som spilleren kan klikke på.
 
-+ Gi først figuren din navnet `Spørsmål`.
+- [ ] Gi først figuren din navnet `Spørsmål`.
 
-+ Lag så en kopi av figuren ved å høyreklikke på den. På scenen drar
+- [ ] Lag så en kopi av figuren ved å høyreklikke på den. På scenen drar
   du deretter den nye figuren ned i venstre hjørne.
 
-+ Endre denne nye figurens navn til `Svar1`.
+- [ ] Endre denne nye figurens navn til `Svar1`.
 
-+ Slett skriptet til `Svar1` og alle draktene bortsett fra den første.
+- [ ] Slett skriptet til `Svar1` og alle draktene bortsett fra den første.
 
-+ Gjenta de tre siste stegene igjen (kall neste kopi `Svar2`), plasser
+- [ ] Gjenta de tre siste stegene igjen (kall neste kopi `Svar2`), plasser
   `Svar2` ved siden av `Svar1` og slett alle bortsett fra den andre
   drakten.
 
-+ Gjenta disse punktene tre ganger til, slik at du har også figurene
+- [ ] Gjenta disse punktene tre ganger til, slik at du har også figurene
   `Svar3`, `Svar4` og `Svar5`.
 
-    Du skal nå ha en rad med fem svar-figurer nederst på scenen, hver
-    viser en drakt som hovedfiguren kan ha. Ingen av `Svar`-figurene
-    skal ha skript knyttet til seg.
+  Du skal nå ha en rad med fem svar-figurer nederst på scenen, hver
+  viser en drakt som hovedfiguren kan ha. Ingen av `Svar`-figurene
+  skal ha skript knyttet til seg.
 
-+ Nå må vi få alle figurene til å reagere når de blir klikket på. Hva
+- [ ] Nå må vi få alle figurene til å reagere når de blir klikket på. Hva
   som skal skje avhenger av om spilleren har klikket riktig eller
   galt. Legg til dette skriptet til `Svar1`:
 
-    ```blocks
-        når denne figuren klikkes
-        hvis <(riktig) = (1)>
-            send melding [Vant v]
-        ellers
-            skjul
-        slutt
-    ```
+  ```blocks
+  når denne figuren klikkes
+  hvis <(riktig) = [1]>
+      send melding [Vant v]
+  ellers
+      skjul
+  slutt
+  ```
 
-+ Dra skriptet over til de andre figurene, slik at alle får hver sin
+- [ ] Dra skriptet over til de andre figurene, slik at alle får hver sin
   kopi. For hver figur, bytt 1 til 2, 3, og så videre.
 
-+ Nå skal vi lage skriptet som gir melding til spilleren når han har
+- [ ] Nå skal vi lage skriptet som gir melding til spilleren når han har
   vunnet. Klikk på `Spørsmål` igjen og legg til dette skriptet:
 
-    ```blocks
-        når jeg mottar [Vant v]
-        si (sett sammen [Gratulerer! Din poengsum ble ] (poeng))
-    ```
+  ```blocks
+  når jeg mottar [Vant v]
+  si (sett sammen [Gratulerer! Din poengsum ble ] (poeng))
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -197,11 +202,11 @@ __Klikk på det grønne flagget.__
 Når du tester spillet kan du se på spørsmålsfiguren under scenen for å
 se hva riktig svar er. Det fungerer bra for testing.
 
-+ Hva skjer når du klikker på riktig svar?
+- [ ] Hva skjer når du klikker på riktig svar?
 
-+ Hva skjer når du klikker på galt svar?
+- [ ] Hva skjer når du klikker på galt svar?
 
-+ Hva skjer med det gale svaret når du starter et nytt spill?
+- [ ] Hva skjer med det gale svaret når du starter et nytt spill?
 
 ## Sjekkliste {.check}
 
@@ -210,13 +215,13 @@ klikket på ved galt svar kommer ikke tilbake når et nytt spill
 starter.  For det andre, poengsummen fortsetter å gå ned, også etter
 at man har klikket på riktig svar.
 
-+ For å fikse det første problemet kan vi bare legge til følgende
+- [ ] For å fikse det første problemet kan vi bare legge til følgende
   skript for hver av de fem svarfigurene:
 
-    ```blocks
-        når grønt flagg klikkes
-        vis
-    ```
+  ```blocks
+  når grønt flagg klikkes
+  vis
+  ```
 
 For å fikse det andre problemet må vi få stoppet spørsmålfigurens
 `gjenta til`{.blockcontrol}-løkke når spilleren klikker på riktig
@@ -226,32 +231,32 @@ variabelen `vant`{.blockdata} og legger inn en
 og en tilsvarende kloss som setter verdien til `1` når spillet
 vinnes. Se skriptene nedenfor.
 
-+ Vi må videre stoppe `gjenta til`{.blockcontrol}-løkken når
+- [ ] Vi må videre stoppe `gjenta til`{.blockcontrol}-løkken når
   poengsummen har blitt `0` eller `vant`{.blockdata} er `1`.
 
-+ Til slutt legger vi også inn en `ta bort grafiske
+- [ ] Til slutt legger vi også inn en `ta bort grafiske
   effekter`{.blocklooks}-kloss som avslører spørsmålsfiguren når
   spilleren har gjettet riktig. Skriptene på `Spørsmål` skal nå se
   slik ut:
 
-    ```blocks
-        når grønt flagg klikkes
-        bytt drakt til (tilfeldig tall fra (1) til (5))
-        sett [riktig v] til (drakt nr.)
-        sett [poeng v] til (110)
-        sett [vant v] til (0)
-        gjenta til (<(poeng) = (0)> eller <(vant) = (1)>)
-            endre [poeng v] med [-10]
-            sett [piksel v] effekt til (poeng)
-            sett [farge v] effekt til (poeng)
-            vent (1) sekunder
-        slutt
+  ```blocks
+  når grønt flagg klikkes
+  bytt drakt til (tilfeldig tall fra (1) til (5))
+  sett [riktig v] til (drakt nr.)
+  sett [poeng v] til [110]
+  sett [vant v] til [0]
+  gjenta til <<(poeng) = [0]> eller <(vant) = [1]>>
+      endre [poeng v] med (-10)
+      sett [piksel v] effekt til (poeng)
+      sett [farge v] effekt til (poeng)
+      vent (1) sekunder
+  slutt
 
-        når jeg mottar [Vant v]
-        sett [vant v] til (1)
-        ta bort grafiske effekter
-        si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
-    ```
+  når jeg mottar [Vant v]
+  sett [vant v] til [1]
+  ta bort grafiske effekter
+  si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
+  ```
 
 ## Lagre prosjektet {.save}
 
