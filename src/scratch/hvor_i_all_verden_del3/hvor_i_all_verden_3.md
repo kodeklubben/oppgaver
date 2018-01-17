@@ -153,7 +153,7 @@ sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
  flere ganger etter hverandre. Dette kan vi enkelt unngå ved å fjerne
  reisemål fra listene etterhvert som vi finner dem.*
 
-## Sjekkliste {.check}
+## Sjekkliste {.check}
 
 - [ ] For å unngå å bli spurt om å reise til samme sted flere ganger på
   rad vil vi slette reisemål fra listene etterhvert som vi finner dem.

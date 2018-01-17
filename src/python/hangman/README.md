@@ -32,9 +32,9 @@ I denne oppgaven skal vi lage det klassiske spillet Hangman, hvor brukeren skal 
 
  - [ ] Eleven forstår hva en streng er, og kan manipulere strengen på et grunnleggende nivå
 
- - [ ] Eleven forstår hvordan en while-løkke fungerer.
+ - [ ] Eleven forstår hvordan en while-løkke fungerer.
 
- - [ ] Eleven klarer å skrive et enkelt program som tolker inputt fra brukeren.
+ - [ ] Eleven klarer å skrive et enkelt program som tolker inputt fra brukeren.
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -60,7 +60,7 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 
 ## Variasjoner {.challenge}
 
-- [ ] En variasjon er å la ordene en skal gjette seg frem til være faglige. For eksempel verb eller substantiv i fremmedspråkene.
+- [ ] En variasjon er å la ordene en skal gjette seg frem til være faglige. For eksempel verb eller substantiv i fremmedspråkene.
 
 
 ## Eksterne ressurser {.challenge}
