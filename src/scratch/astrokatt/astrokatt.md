@@ -211,7 +211,7 @@ __Klikk på det grønne flagget.__
   klossene.
 
 - [ ] Av og til vil katten fly bak jordkloden. For å slippe det kan du
-  legge klossen `legg øverst`{.blocklooks} først i katten sitt
+  legge klossen `legg foran`{.blocklooks} først i katten sitt
   skript.
 
 ## Test prosjektet {.flag}
