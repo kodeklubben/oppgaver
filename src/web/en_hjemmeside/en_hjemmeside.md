@@ -33,11 +33,11 @@ Feil skjer ofte. Det er veldig lett å gjøre dem i HTML fordi du må huske å l
 
 ## Aktiviteter {.check}
 
-- [ ] La oss ta listen av ting vi liker som et eksempel. En av feilene som ofte skjer, er å glemme __avslutnings-taggen__, så la oss fjerne `<\ul>` for å se hvordan det påvirker siden. Lagre filen og oppdater den i nettleseren.
+- [ ] La oss ta listen av ting vi liker som et eksempel. En av feilene som ofte skjer, er å glemme __avslutnings-taggen__, så la oss fjerne `</ul>` for å se hvordan det påvirker siden. Lagre filen og oppdater den i nettleseren.
 
 - [ ] Inspiser med [X-Ray Goggles](https://goggles.mozilla.org/). Skjønner du hva som kan ha skjedd? Etter at vi fjernet avslutnings-taggen vet nettleseren rett og slett ikke at listen er avsluttet og derfor skjer det som skjedde nå.
 
-- [ ] Legg til avslutnings-taggen `<\ul>` igjen og lagre siden. Oppdater siden og alt skal være tilbake til normalt.
+- [ ] Legg til avslutnings-taggen `</ul>` igjen og lagre siden. Oppdater siden og alt skal være tilbake til normalt.
 
 - [ ] Tagger må være stavet riktig for at nettleseren skal forstå dem. Hva skjer hvis vi gjør en skrivefeil?
 
