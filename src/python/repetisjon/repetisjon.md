@@ -263,7 +263,7 @@ while word != "exit":
     word = input("Please write a word: ")
 ```
 
-Den samme løkken kan også skrive slik:
+Den samme løkken kan også skrives slik:
 
 ```python
 while True:
