@@ -1,4 +1,11 @@
 ---
+language: #Logical OR
+  - nb  # Norwegian bokmål
+  - nn  # Norwegian nynorsk
+  - en  # English
+  #  - sv  # Swedish
+  #  - da  # Danish
+  #  - hr  # Croatian
 topic: #Logical AND
   - app         #Tasks for making apps to mobiles and tablets such as App Inventor and Swift
   - electronics #Includes external devices such as Microbit, Arduino, Raspberry Pi, Lego Mindstorms.
@@ -10,7 +17,8 @@ topic: #Logical AND
   - game        #Interactive programs with game elements
   - robot       #Physical objects that moves
   - animation   #Machine-made cartoons
-subject: #Logical OR
+  - sound       #Projects involving sounds or music
+subject: #Logical AND
   - mathematics
   - science
   - programming
@@ -20,7 +28,7 @@ subject: #Logical OR
   - english
   - arts_and_crafts
   - social_science
-grade: #Logical OR
+grade: #Logical AND
   - preschool   #Projects aimed at preschool students
   - primary     #Projects aimed at students in grade 1.-4.
   - secondary   #Projects aimed at students in grade 5.-7.

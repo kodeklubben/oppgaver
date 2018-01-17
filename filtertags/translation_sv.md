@@ -1,4 +1,17 @@
 ---
+language:
+  NAME: Språk
+  TAGS:
+    nb:
+      NAME: Norsk bokmål
+    nn:
+      NAME: Norsk nynorsk
+    sv:
+      NAME: Svenska
+    da:
+      NAME: Dansk
+    en:
+      NAME: English
 topic:
   NAME: Tema
   TAGS:
@@ -31,7 +44,10 @@ topic:
       TOOLTIP: Programmera fysiska objekt som rör på sig.
     animation:
       NAME: Animation
-      TOOLTIP: Laga grafik som rör på seg, for eksempel tecknad film.
+      TOOLTIP: Laga grafik som rör på seg, till exempel tecknad film.
+    sound:
+      NAME: Ljud
+      TOOLTIP: Programmera ljud och musik.
 subject:
   NAME: Ämne
   TAGS:

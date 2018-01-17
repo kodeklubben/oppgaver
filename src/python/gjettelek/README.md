@@ -34,9 +34,9 @@ I denne oppgaven skal vi lage et enkelt spill som kalles for gjetteleken. Målet
 
  - [ ] Eleven klarer å tolke feilmeldinger og endre koden sin basert på disse
 
- - [ ] Eleven klarer å generere tilfeldige tall mellom 1 og 100
+ - [ ] Eleven klarer å generere tilfeldige tall mellom 1 og 100
 
- - [ ] Eleven er i stand til å dele opp koden sin i logiske funksjoner
+ - [ ] Eleven er i stand til å dele opp koden sin i logiske funksjoner
 
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -66,7 +66,7 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 
 - [ ] Siden vi bare har tall mellom 1 og 100 kan vi alltid gjette tallet på 7 forsøk eller færre. Klarer du dette selv?
 
-- [ ] Klarer du å forstå hvorfor 7 forsøk alltid er nok? Prøv med tallene mellom 1 og 10 først, ser du noe mønster?
+- [ ] Klarer du å forstå hvorfor 7 forsøk alltid er nok? Prøv med tallene mellom 1 og 10 først, ser du noe mønster?
 
 
 ## Eksterne ressurser {.challenge}

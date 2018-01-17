@@ -36,9 +36,9 @@ __Tema__: Grafisk brukergrensesnitt, Spill, Tilfeldig
 
  - [ ] Elevene kan lage et enkelt grafisk brukergrensesnitt
 
- - [ ] Elevene forstår hvordan en kan sette sammen flere funksjoner til en helhet
+ - [ ] Elevene forstår hvordan en kan sette sammen flere funksjoner til en helhet
 
- - [ ] Elevene klarer å tolke enkle feilmeldinger og fikse koden basert på disse
+ - [ ] Elevene klarer å tolke enkle feilmeldinger og fikse koden basert på disse
 
 
 

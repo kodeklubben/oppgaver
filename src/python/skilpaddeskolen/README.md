@@ -7,12 +7,12 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven introduseres begrepet *funksjoner*, og vi ser hvordan vi kan bruke disse til å forenkle oppgavene vi har sett på tidligere. Konkret så ser vi på hvordan geometriske figurer enklere kan konstrues. 
+I denne oppgaven introduseres begrepet *funksjoner*, og vi ser hvordan vi kan bruke disse til å forenkle oppgavene vi har sett på tidligere. Konkret så ser vi på hvordan geometriske figurer enklere kan konstrues.
 
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering 
+ __Fag__: Programmering
 
  __Anbefalte trinn__: 8.-10. trinn
 
@@ -36,21 +36,21 @@ I denne oppgaven introduseres begrepet *funksjoner*, og vi ser hvordan vi kan br
 
  - [ ] Elevene forstår hva en funksjon er, og hvordan de kan brukes.
 
- - [ ] Elevene klarer å bruke programmering til å eksperimentere med geometriske former.
+ - [ ] Elevene klarer å bruke programmering til å eksperimentere med geometriske former.
 
- - [ ] Elevene klarer å skrive egne funksjoner for å løse enkle problemer. 
+ - [ ] Elevene klarer å skrive egne funksjoner for å løse enkle problemer.
 
 
 ## Forslag til vurderingskriterier {.challenge}
 
  - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
- - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+ - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
- 
+
 ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: Kjent med hvordan skilpaddene i Python fungerer. Ingen forutsetninger utover dette er påkrevd. 
+ - [ ]  __Forutsetninger__: Kjent med hvordan skilpaddene i Python fungerer. Ingen forutsetninger utover dette er påkrevd.
 
  - [ ]  __Utstyr__: Datamaskin med Python installert
 
