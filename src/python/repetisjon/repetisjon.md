@@ -129,7 +129,7 @@ elif name == "Ada":
 elif name == "Kim":
     print("Kim kan være både guttenavn og jentenavn.")
 else:
-    print("Jeg vet ikke om " + navn + " er en gutt eller ei jente.")
+    print("Jeg vet ikke om " + name + " er en gutt eller ei jente.")
 ```
 
 <!--A little workaround to avoid checklist being a part of protip-->
