@@ -13,4 +13,4 @@ bruk av bildeikoner programmerer spilleren karakterer, objekter, regler,
 bestemte handlingsmønstre, hvordan vinne og tape, poengsystemer og digitale
 naturlover.
 
-Kodu fungerer kun på Microsoft-produkter. Les mer om Kodu på [koducup.no](http://www.koducup.no).
+Kodu fungerer kun på Microsoft-produkter.
