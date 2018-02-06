@@ -18,7 +18,7 @@ lage den.
 
 Det er også viktig, at du vet, at all koding og testing skal skje i
 bin mappen!
-# Lag "main.c" filen {.check}
+## Lag "main.c" filen {.check}
 
 - [ ] Høyreklikk i mappen bin, dette bringer opp handlingsmenyen din
 
@@ -82,7 +82,7 @@ Gir deg: Skriv dette!
 
 For å skrive kode åpner du "main.c" i notepad eller lignende!
 
-# Sjekkliste {.check}
+## Sjekkliste {.check}
 
 - [ ] Legg til biblioteket "stdio.h" med:
 ```c
