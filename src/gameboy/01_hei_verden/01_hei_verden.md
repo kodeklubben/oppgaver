@@ -18,7 +18,8 @@ lage den.
 
 Det er også viktig, at du vet, at all koding og testing skal skje i
 `bin`-mappen!
-## Lag "main.c" filen {.check}
+
+## Lag filen `main.c` {.check}
 
 - [ ] Høyreklikk i mappen `bin`, dette bringer opp handlingsmenyen din
 
