@@ -8,10 +8,10 @@ import sys
 
 def printdog():
     doglist = []
-    doglist.append(r"    /^ ^\ \n   / 0 0 \ \n   V\ Y /V\n    / - \ \n    |    \ \n    || (__V\n")
-    doglist.append(r"   __\no-''|\_____/)\n \_/|_)     )\n    \  __  /\n    (_/ (_/    hjw\n")
-    doglist.append(r"    _____^_\n   |    |    \\\n    \   /  ^ |\n   / \_/   0  \\\n  /            \\\n /    ____      0\n/      /  \___ _/\n")
-    doglist.append(r"     |\_/|\n     | @ @   Woof!\n     |   <>              _\n     |  _/\------____ ((| |))\n     |               `--\' |\n  ___|_        __|   |___.\'\n /_/_____/____/_______|	\n")
+    doglist.append("    /^ ^\ \n   / 0 0 \ \n   V\ Y /V\n    / - \ \n    |    \ \n    || (__V\n")
+    doglist.append("   __\no-''|\_____/)\n \_/|_)     )\n    \  __  /\n    (_/ (_/    hjw\n")
+    doglist.append("    _____^_\n   |    |    \\\n    \   /  ^ |\n   / \_/   0  \\\n  /            \\\n /    ____      0\n/      /  \___ _/\n")
+    doglist.append("     |\_/|\n     | @ @   Woof!\n     |   <>              _\n     |  _/\------____ ((| |))\n     |               `--\' |\n  ___|_        __|   |___.\'\n /_/_____/____/_______|	\n")
     doglist.append("         .--.             .---.\n        /:.  \'.         .\' ..  \'._.---. \n       /:::-.  \.-\"\"\"-;` .-:::.     .::\\ \n      /::\'|  `\/  _ _  \'    `\:\'   ::::| \n  __.\'    |   /  (o|o)  \     `\'.   \':/ \n /    .:. /   |   ___   |        \'---\' \n|    ::::\'   /:  (._.) .:\\ \n\    .=\'    |:\'        :::| \n `\"\"`       \     .-.   \':/ \n       jgs   \'---`|I|`---\' \n                  \'-\' \n")
     print(doglist[randint(0,len(doglist)-1)])
     print("Starter netdog-client\n\n")
@@ -43,5 +43,5 @@ def connect():
 
 
 if __name__ == '__main__':
-    #printdog()
+    printdog()
     connect()
