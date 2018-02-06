@@ -19,12 +19,12 @@ def printdog():
 
 def connect():
     try:
-        #navn = raw_input("Hva heter du?\n")
-        navn = "Andre"
-        #remote_ip = raw_input("Hvilken ip adresse vil du koble deg til?\n")
-        remote_ip = "127.0.0.1"
-        #remote_port = int(raw_input("Hvilken port vil du koble deg til?\n"))
-        remote_port = 10000
+        navn = input("Hva heter du?\n")
+        #navn = "Andre"
+        remote_ip = input("Hvilken ip adresse vil du koble deg til?\n")
+        #remote_ip = "127.0.0.1"
+        remote_port = int(input("Hvilken port vil du koble deg til?\n"))
+        #remote_port = 10000
         client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         client.connect((remote_ip, remote_port))
         print("Skriv melding\n")
@@ -43,5 +43,5 @@ def connect():
 
 
 if __name__ == '__main__':
-    printdog()
+    #printdog()
     connect()
