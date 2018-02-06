@@ -9,33 +9,33 @@ language: nb
 Gameboy-en kodet man tidligere i "Asembly", men med moderne teknologi kan man
 bruke kodespråket "C".
 
-# Steg 1: Lag en "main.c" fil {.activity}
+# Steg 1: Lag filen `main.c` {.activity}
 
 Dette steget trenger bare å gjøres en gang!
 
-All kode vi skriver står i filen "main.c", men denne filen finnes ikke. så vi må
+All kode vi skriver står i filen `main.c`, men denne filen finnes ikke. Så vi må
 lage den.
 
 Det er også viktig, at du vet, at all koding og testing skal skje i
-bin mappen!
+`bin`-mappen!
 ## Lag "main.c" filen {.check}
 
-- [ ] Høyreklikk i mappen bin, dette bringer opp handlingsmenyen din
+- [ ] Høyreklikk i mappen `bin`, dette bringer opp handlingsmenyen din
 
 - [ ] Velg "ny"
 
 - [ ] Velg "Tekstdokument"
 
-- [ ] Gi filen navnet "main.c" (Det er viktig at den ikke heter "main.c.txt"!)
+- [ ] Gi filen navnet `main.c` (Det er viktig at den ikke heter `main.c.txt`!)
 
-Du har nå laget filen "main.c"
+Du har nå laget filen `main.c`
 
 # Steg 2: Litt grunnleggende "C" {.activity}
 
-C starter i en funksjon som her heter "main()", alt som står inne i denne vil
+C starter i en funksjon som her heter `main()`, alt som står inne i denne vil
 kjøres.
 
-For å lage funksjonen "main()", skriver vi:
+For å lage funksjonen `main()`, skriver vi:
 
 ```c
 void main()
@@ -68,23 +68,21 @@ Tredje Linje; Fjerde Linje;
 
 # Steg 3: Koding {.activity}
 
-Først, for å skrive kode til skjermen bruker vi en funksjon som heter "printf();":
+Først, for å skrive kode til skjermen bruker vi en funksjon som heter `printf()`:
 
 ```c
 printf("Skriv dette!");
-
-Gir deg: Skriv dette!
+// Gir deg: Skriv dette!
 ```
 
-"printf" er ikke som standard en del av "C", men funksjonen ligger i biblioteket
-"stdio.h".
+`printf` er ikke som standard en del av "C", men funksjonen ligger i biblioteket
+`stdio.h`.
 
-
-For å skrive kode åpner du "main.c" i notepad eller lignende!
+For å skrive kode åpner du `main.c` i notepad eller lignende!
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til biblioteket "stdio.h" med:
+- [ ] Legg til biblioteket `stdio.h` med:
 ```c
 #include <stdio.h>
 ```
@@ -97,7 +95,7 @@ void main()
 }
 ```
 
-- [ ] Legg til Funksonen "printf();" i main funksjonen, og skriv "Hei Verden!" i parantesene:
+- [ ] Legg til Funksonen `printf()` i main funksjonen, og skriv "Hei Verden!" i parantesene:
 
 ```c
 void main()
@@ -121,21 +119,21 @@ void int main()
 # Steg 4: Kompilere og teste {.activity}
 
 Du har nå skrevet kode, men denne koden er ubrukelig for en Gameboy, men det kan
-vi gjøre noe med. Ved å dobbelklikke på "ByggKode.bat", bygger den kode som
+vi gjøre noe med. Ved å dobbelklikke på `ByggKode.bat`, bygger den kode som
 Gameboy-en kan lese.
 Hvis du får en feil, er det noe galt med koden din!
 
-Etter det kan du dobbelklikke på "KjorKode.bat", for å teste den.
+Etter det kan du dobbelklikke på `KjorKode.bat`, for å teste den.
 
 Ser du dette:
 
 ![](HeiVerden.png)
 
-Har du gordt det helt riktig, Gratulerer!
+har du gjort det helt riktig. Gratulerer!
 
 # Prøv selv! {.try}
 
-Prøv å endre det som står inne i "printf();". Hva skjer om flere "printf();" blir
+Prøv å endre det som står inne i `printf()`. Hva skjer om flere `printf()` blir
 satt etter hverandre? Her er det bare å eksperimentere!
 
 Husk å gjenta steg 4, for å teste!
