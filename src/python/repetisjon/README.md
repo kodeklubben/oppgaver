@@ -48,10 +48,10 @@ __Tidsbruk__: Dobbelttime
 ## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../repetisjon/repetisjon.html){target=_blank}
 
-Selv om ikke elevene har brukt Python før, kan dette fungere som en god oppgave å vise frem Python som språk. 
+Selv om ikke elevene har brukt Python før, kan dette fungere som en god oppgave å vise frem Python som språk.
 
 ## Variasjoner {.challenge}
-- [ ] _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
+- [ ] _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 
 ## Eksterne ressurser {.challenge}
 - [ ] Foreløpig ingen eksterne ressurser...

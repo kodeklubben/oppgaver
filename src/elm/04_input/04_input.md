@@ -276,7 +276,7 @@ update msg model =
 view model =
   div [ style [("height", "100%"), ("background", "rgb(255, 255, 255)")] ]
     [ input [ type_ "number", Html.Attributes.min "0", Html.Attributes.max "255" ] []
-    , div [] [ text model.rod ]
+    , div [] [ text model.rod ]
     ]
 ```
 
