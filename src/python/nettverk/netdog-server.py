@@ -89,9 +89,17 @@ def passordhash_thread(client_socket,faktisk_digest):
             client_socket.close()
             return
         elif melding == "oppgave":
-            svar = "I denne oppgaven maa du sende in riktig passord.\nHint: Passordet er et tall mellom 0 og 1 000 000.\nEtter aa ha kjort passordet funksjonen SHA1 er passordet "+ faktisk_digest +"\nFor aa kjore et passord gjennom SHA1 i python bruker du folgende kode:\nimport hashlib\nhashobject = hashlib.sha1(str(passord))\ndigest = hashobject.hexdigest()"
+            # svar = "I denne oppgaven maa du sende in riktig passord.\nHint: Passordet er et tall mellom 0 og 1 000 000.\nEtter aa ha kjort passordet funksjonen SHA1 er passordet "+ faktisk_digest +"\nFor aa kjore et passord gjennom SHA1 i python bruker du folgende kode:\nimport hashlib\nhashobject = hashlib.sha1(str(passord))\ndigest = hashobject.hexdigest()"
+            svar = """I denne oppgaven maa du sende in riktig passord.
+Hint: Passordet er et tall mellom 0 og 1 000 000.
+Etter aa ha kjort passordet funksjonen SHA1 er passordet "+ {} +"
+For aa kjore et passord gjennom SHA1 i python bruker du folgende kode:
+import hashlib
+hashobject = hashlib.sha1(str(passord).encode())
+digest = hashobject.hexdigest()
+""".format(faktisk_digest)
         else:
-            hashobject = hashlib.sha1(melding)
+            hashobject = hashlib.sha1(melding.encode("utf-8"))
             bruker_digest = hashobject.hexdigest()
             if faktisk_digest == bruker_digest:
                 svar = 'Suksess! Du fant passordet'
@@ -109,7 +117,7 @@ def passordhash_main(bind_port):
     server.bind((bind_ip,bind_port))
     server.listen(10)
     passord = randint(0,1000000)
-    print("passordet er ", passord)
+    #print("passordet er ", passord)
     hashobject = hashlib.sha1(str(passord).encode())
     digest = hashobject.hexdigest()
 
