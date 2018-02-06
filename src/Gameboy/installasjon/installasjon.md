@@ -15,7 +15,7 @@ Her kan du se hvordan du setter opp utviklerområdet på en Windows pc.
 GBDK er en oversetter, som oversetter kode som mennesker kan lese, til kode som
 Gameboy-en kan lese.
 
-# Sjekkliste {.check}
+## Sjekkliste {.check}
 
 - [ ] Gå til [GBDK lastest release side på sourceforge-nettsiden](https://sourceforge.net/projects/gbdk/files/gbdk-win32/2.95-3/)
 
@@ -25,9 +25,9 @@ Gameboy-en kan lese.
 
 - [ ] Pakk ut til en plass på datamarskinen (Husk hvor du legger den!)
 
-- [ ] Last ned [denne filen](ByggKode.bat)
+- [ ] Last ned [ByggKode.bat](ByggKode.bat)
 
-- [ ] Legg ByggKode.bat -filen inn i bin -mappen, i GBDK -mappen.
+- [ ] Legg filen `ByggKode.bat` inn i bin-mappen, i GBDK-mappen.
 
 Du har nå installert GBDK!
 
@@ -40,7 +40,7 @@ en emulator.
 Dette programmet, later som om den er en ekte Gameboy, slik at du får
 testet ut koden din.
 
-# Sjekkliste {.check}
+## Sjekkliste {.check}
 
 - [ ] Gå til [Bgb -hovednettsiden](http://bgb.bircd.org/)
 
@@ -56,7 +56,7 @@ testet ut koden din.
 
 - [ ] Kopier bgb.exe til bin -mappen, i gbdk -mappen din.
 
-- [ ] Last ned [denne filen](KjorKode.bat)
+- [ ] Last ned [KjorKode.bat](KjorKode.bat)
 
 - [ ] Flytt filen til bin -mappen også
 
@@ -69,7 +69,7 @@ Dette er et steg du kan hoppe over hvis du har gjordt dette tidligere.
 For å endre filtypene til de forskjellige filene, er det lettest å endre dem med
 å gi dem et nytt navn.
 
-# Sjekkliste {.check}
+## Sjekkliste {.check}
 
 - [ ] Åpne et filutforsker-vindu
 
