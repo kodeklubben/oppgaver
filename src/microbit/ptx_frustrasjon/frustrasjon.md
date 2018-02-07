@@ -15,15 +15,12 @@ Dette er et enkelt kordinasjonspill som går ut på å lede en stav med en løkk
 
 Til dette prosjektet trengs det et par ekstra ting:
 
-- [ ] Ståltråd
-- [ ] Krokkodilleklyper
-- [ ] Treklosser med hull til å stikke ståltråden i.
-- [ ] Buzzer
+- Ståltråd
+- Krokkodilleklyper
+- Treklosser med hull til å stikke ståltråden i.
+- Buzzer
 
 Basert på: https://codeclubprojects.org/en-GB/microbit/frustration/
-http://www.instructables.com/id/Wire-Loop-Game/
-https://makecode.microbit.org/?lang=no
-http://oppgaver.kidsakoder.no/microbit/pxt_gangespill/gangespill.html
 
 # Steg 1: Lagre poeng {.activity}
 
@@ -53,7 +50,7 @@ http://oppgaver.kidsakoder.no/microbit/pxt_gangespill/gangespill.html
 
    - [ ] Legg til at antall `beroeringer` vises etter at `knapp a` er trykket.
 
-    ![](vis_tall_beroeringer.png)  
+  ![](vis_tall_beroeringer.png)  
 
 # Steg 2: Oppdatere berøringene {.activity}
 
@@ -85,10 +82,10 @@ http://oppgaver.kidsakoder.no/microbit/pxt_gangespill/gangespill.html
 
 ## Sjekkliste {.check}
 
-- [ ] ta en bit ståltråd og lag en løkke i den ene enden.
+- [ ] Ta en bit ståltråd og lag en løkke i den ene enden.
 
-- [ ] tre løkken i en annen bit ståltråd som du setter i to treklosser med hull i.
+- [ ] Tre løkken i en annen bit ståltråd som du setter i to treklosser med hull i.
 
-- [ ] fest en kabel med ktrokkodilleklyper i `P0` til det ene beinet på `buzzeren` og en annen kabel fra `GND` til det andre beinet på `buzzeren`.
+- [ ] Fest en kabel med ktrokkodilleklyper i `P0` til det ene beinet på `buzzeren` og en annen kabel fra `GND` til det andre beinet på `buzzeren`.
 
-- [ ] fest en kabel med krokkodilleklyper til `P1` og til ståltråden med løkke. Fest en kabel til ståltråden som er festet til treklossene og til `GND`.
+- [ ] Fest en kabel med krokkodilleklyper til `P1` og til ståltråden med løkke. Fest en kabel til ståltråden som er festet til treklossene og til `GND`.
