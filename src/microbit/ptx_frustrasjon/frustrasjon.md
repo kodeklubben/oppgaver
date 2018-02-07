@@ -1,6 +1,6 @@
 ---
 title: "PXT: Frustrasjon"
-level: 1
+level: 2
 author: dagfs
 language: nb
 tags:
