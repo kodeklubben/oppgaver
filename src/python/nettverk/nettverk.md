@@ -1,5 +1,5 @@
 ---
-title: Nettverk i Python: finn din IP
+title: "Nettverk: finn din IP"
 level: 3
 author: André Mruz
 language: nb
@@ -20,7 +20,8 @@ om du skriver inn rett svar på oppgaven. Den andre datamaskinen kaller vi
 _serveren_.
 
 Er du på kodeklubb, er serveren allerede satt opp. Du skriver kun kode som skal
-på klienten.
+på klienten. Hvis du vil gjøre oppgaven selv utenfor kodeklubb, kan du sette opp
+serveren selv. Sjekk da [lærerveiledningen](./README.html)!
 
 # Steg 0: Koble til IP
 
