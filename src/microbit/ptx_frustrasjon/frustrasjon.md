@@ -86,6 +86,17 @@ Basert på: https://codeclubprojects.org/en-GB/microbit/frustration/
 
 - [ ] Tre løkken i en annen bit ståltråd som du setter i to treklosser med hull i.
 
-- [ ] Fest en kabel med ktrokkodilleklyper i `P0` til det ene beinet på `buzzeren` og en annen kabel fra `GND` til det andre beinet på `buzzeren`.
+- [ ] Fest en kabel med ktrokkodilleklyper i `P0` på Microbiten til det ene beinet på `buzzeren` og en annen kabel fra `GND` på Microbiten til det andre beinet på `buzzeren`. *Det har ikke noe å si hvilket bein på buzzeren som kobles til hvilken kabel på buzzeren*
 
-- [ ] Fest en kabel med krokkodilleklyper til `P1` og til ståltråden med løkke. Fest en kabel til ståltråden som er festet til treklossene og til `GND`.
+![](buzzer.png)
+
+- [ ] Fest en kabel med krokkodilleklyper til `P1` på Microbiten og til ståltråden med løkke. Fest en kabel til ståltråden som er festet til treklossene og til `GND` på Microbiten.
+
+![](buzzwire.png)
+
+![](microbit.png)
+
+## Utfordring : Legge til egne melodier {.challenge}
+
+- [ ] Klarer du å endre spillet slik at en starter med 3 liv og for hver gang en kommer borte i ståltråden reduseres liv med 1?
+Tips: Det er mulig å bruke blokken `game over` i kategorien `Spill` for å vise en Game over annimasjon når spilleren mister det siste livet.
