@@ -42,7 +42,7 @@ endre seg), og pass på at du installerer riktig versjon av Forge.
   [![](last_ned_computercraft.png)](http://www.computercraft.info/download/)
 
 - [ ] Start **Minecraft Launcher**. Sjekk om du har den riktige versjonen
-  av Minecraft tilgjengelig. Hvis ikke kan du klikke på `Launch options`. Vellg `Add new`, skriv inn et passende navn og velg `release 1.8.9` i nedtrekksmenyen ved siden av `Version`. Når det er gjort kan du trylle på `SAVE`-knappen. Klikk på `News` oppe i hovedmenyen for å komme til hovedsiden på `Minecraft Launcher` igjen. Til høyre på den grønne `Play`-knappen er det en pil du kan trykke på for å velge den profilen du nettopp lagde for versjon 1.8.9. Velg den og trykk `Play`. Når `Minecraft` starter opp vil den laste ned alle filene som trengs for versjon 1.8.9. Avslutt spillet.
+  av Minecraft tilgjengelig. Hvis ikke kan du klikke på `Launch options`. Velg `Add new`, skriv inn et passende navn og velg `release 1.8.9` i nedtrekksmenyen ved siden av `Version`. Når det er gjort kan du trykke på `SAVE`-knappen. Klikk på `News` oppe i hovedmenyen for å komme til hovedsiden på `Minecraft Launcher` igjen. Til høyre på den grønne `Play`-knappen er det en pil du kan trykke på for å velge den profilen du nettopp lagde for versjon 1.8.9. Velg den og trykk `Play`. Når `Minecraft` starter opp vil den laste ned alle filene som trengs for versjon 1.8.9. Avslutt spillet.
 
 - [ ] Før vi kan legge inn ComputerCraft må vi installere **Minecraft
   Forge**, som gir oss tilgang til å legge inn Mods. Gå til
