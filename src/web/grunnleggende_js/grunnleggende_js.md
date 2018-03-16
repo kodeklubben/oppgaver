@@ -26,12 +26,11 @@ En variabel i JavaScript ser slik ut:
 var variabelNavn = "verdi";
 ```
 
-`var` forteller JavaScript at det er en variabel. En variabel kan være `et tall`, `tekst` eller  en annen `variabel`:
+`var` forteller JavaScript at det er en variabel. En variabel inneholder en verdi, som for eksempel `et tall` eller `tekst`:
 
 ```js
 var tall = 9;
 var tekst = "Dette er en string (tekst på engelsk)";
-var variabel = tall; // "variabel" vil nå ha samme verdi som tall, selv når tall endres
 ```
 
 __La oss prøve oss litt frem!__
@@ -74,7 +73,7 @@ La oss nå se på hvordan vi kan la en variabel være en annen:
 var tall3 = tall2;
 ```
 
-- [ ] Hva blir skriver `console.log(tall3 * tall2)` ut?
+- [ ] Hva blir `console.log(tall3 * tall2)`?
 
 <toggle>
     <strong>Svar</strong>
@@ -86,7 +85,8 @@ var tall3 = tall2;
 - [ ] Skriv ut `tall3` og `tall2` til `console`
 - [ ] Prøv å endre på `tall2`, hva skjer med `tall3`?
 
-`tall3` er jo satt til å være det samme som `tall2` og derfor blir den endret når `tall2` blir endret.
+Vi satt jo `tall3` til å være lik `tall2`?
+`tall3` blir ikke endret selvom vi endrer på `tall2`. Dette er fordi tall-variabler i JavaScript inneholder kun verdier, ikke referanser.
 
 Vi kan også legge til ekstra verdier til en variabel:
 
@@ -114,9 +114,9 @@ Når vi bruker `if/else` sjekker vi en betingelse og basert på om betingelsen e
 var tall = 5;
 
 if(tall === 5) {
-    console.log("Tallet er midt mellom 1 og 10");
+    console.log("Tallet er 5");
 } else {
-    console.log("Tallet er enten over eller under 5");
+    console.log("Tallet er ikke 5");
 }
 ```
 ## Forklaring {.tip}
@@ -254,7 +254,7 @@ En funksjon kalles ofte for en `metode`. Videre kommer vi til å bruke `funksjon
 
 La oss nå se på et annet eksempel på bruk av funksjoner. Vi skal nå lage en funksjon som skal ta inn et `paramenter` og `returnere` en verdi.
 
-Vi lager en funksjon som konverterer `fahrenheit`(tempratur mål i USA) til `Celsius`.
+Vi lager en funksjon som konverterer `fahrenheit`(temperatur mål i USA) til `Celsius`.
 
 - [ ] Slett det du har i JSBin eller åpne et nytt vindu i JSBin (File -> New)
 - [ ] Lag følgende funksjon:
