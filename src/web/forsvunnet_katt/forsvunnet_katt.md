@@ -85,7 +85,7 @@ Under bildet vil vi skrive en beskrivelse av Felix, og gi noen detaljer om når 
 
 ```html
 <p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er oransje. </p>
-<p>Han forvant fra hagen i går.</p>
+<p>Han forsvant fra hagen i går.</p>
 ```
 
 Vi trenger også informasjon om hvordan å kontakte eieren hvis noen har sett eller funnet Felix.
