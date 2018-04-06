@@ -380,7 +380,7 @@ fargen skal være.
 - [ ] La oss se på hvordan metningen og lysheten påvirker fargen. Vi
   legger til en variabel for fargetone som skal endres over tid, sånn
   at vi kan se effekten også på forskjellige fargetoner. Legg derfor
-  til følgende øverst i programmet:
+  til følgende øverst i programmet, ovenfor både _setup()_ og _draw()_:
 
   ```processing
   float tone;
@@ -483,7 +483,8 @@ brukes til farger: `color`.
 Vi skal også se på noen funksjoner for å jobbe med farger. Dette gjør
 at vi kan få mer nytte av fargevariabler uten å bruke en variabel for
 hver fargekanal. Hvis farger skal endre seg veldig mye, kan det
-likevel være enklere med tre variabler.
+likevel være enklere med tre variabler. Variablene defineres, som 
+tidligere, utenfor _setup()_ og _draw()_.
 
 ## Sjekkliste {.check}
 
