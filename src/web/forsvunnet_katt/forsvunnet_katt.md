@@ -19,7 +19,7 @@ Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i 
 - [ ] Lag en ny mappe som du kaller Felix.
 
 - [ ] Lag et nytt dokument med navnet `index.html` og lagre det i mappen du kalte Felix.
-- [ ] Nå kan du sette opp dokumentet ditt slik som du lærte i forrige leksjon.
+- [ ] Nå kan du sette opp dokumentet ditt slik som du lærte i [Introduksjon til web](../introduksjon_til_web/introduksjon_til_web.html).
 
 ```html
 <!doctype html>
