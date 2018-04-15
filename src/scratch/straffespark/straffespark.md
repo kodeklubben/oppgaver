@@ -122,7 +122,10 @@ __Klikk på det grønne flagget.__
   flagget igjen?
 
 - [ ] Hvis `Leo` sparker ballen før du klikker på ham (med en gang du
-  trykker det grønne flagget), skyldes det at ballen flyttes før `Leo`
+  trykker det grønne flagget), så må du endre litt på tallene i `gå til
+  x: () y: ()`{.b}-klossen slik at ballen ligger i ro foran `Leo`.
+
+- [ ] Noen ganger flytter ballen seg tilbake *før* `Leo`
   er tilbake på plassen sin, og dermed berører ballen `Leo` igjen og
   begynner å bevege seg. Da hjelper det å legge til en
   `vent (1) sekunder`{.b}-kloss før `vent til <berører [Leo v]?>`{.b}-klossen.
