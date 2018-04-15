@@ -12,7 +12,7 @@ tags:
 
 # Introduksjon {.intro}
 
-Katten vår har så lyst å vera ein astronaut, la oss sjå om me kan hjelpa han? Undervegs vil me lera korleis me flyttar figurar rundt på skjermen, og korleis kattar blir påvirka av gravitasjonskreftene frå jorda.
+Katten vår har så lyst å vera ein astronaut, la oss sjå om me kan hjelpa han? Undervegs vil me læra korleis me flyttar figurar rundt på skjermen, og korleis kattar blir påvirka av gravitasjonskreftene frå jorda.
 
 ![](astrokatt.png)
 
