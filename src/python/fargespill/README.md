@@ -7,8 +7,8 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi lage et fargespill. Konkret så lager vi et grafisk brukersnitt 
-og gir brukeren ulike ord med farger. Målet er da å skrive inn fargen på ordet, og ikke selve ordet. Det som gjør det vanskelig er at ordene er navn på farger. 
+I denne oppgaven skal vi lage et fargespill. Konkret så lager vi et grafisk brukersnitt
+og gir brukeren ulike ord med farger. Målet er da å skrive inn fargen på ordet, og ikke selve ordet. Det som gjør det vanskelig er at ordene er navn på farger.
 
 
 ## Oppgaven passer til: {.check}
@@ -36,9 +36,9 @@ __Tema__: Grafisk brukergrensesnitt, Spill, Tilfeldig
 
  - [ ] Elevene kan lage et enkelt grafisk brukergrensesnitt
 
- - [ ] Elevene forstår hvordan en kan sette sammen flere funksjoner til en helhet
+ - [ ] Elevene forstår hvordan en kan sette sammen flere funksjoner til en helhet
 
- - [ ] Elevene klarer å tolke enkle feilmeldinger og fikse koden basert på disse
+ - [ ] Elevene klarer å tolke enkle feilmeldinger og fikse koden basert på disse
 
 
 
@@ -48,15 +48,15 @@ __Tema__: Grafisk brukergrensesnitt, Spill, Tilfeldig
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
- 
+
 ## Forutsetninger og utstyr {.challenge}
 
- - [ ]  __Forutsetninger__: Kjennskap til if-setninger, og funksjoner. 
+ - [ ]  __Forutsetninger__: Kjennskap til if-setninger, og funksjoner.
 
  - [ ]  __Utstyr__: Datamaskin med Python installert.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 
  Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../fargespill/fargespill.html){target=_blank}
 
@@ -70,5 +70,4 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Foreløpig ingen eksterne ressurser 
-
+- [ ] Foreløpig ingen eksterne ressurser

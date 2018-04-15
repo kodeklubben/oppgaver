@@ -6,7 +6,7 @@ language: nb
 tags:
     topic: [text_based, web]
     subject: [programming, technology]
-    grade: [junior]
+    grade: [junior, senior]
 ---
 # Publiser nettsiden din på Internett{ .activity }
 
@@ -114,7 +114,7 @@ NB! Stegene over må du gjøre hver gang du skal oppdatere nettsiden din!
 
 __Gratulerer med ny hjemmeside!__ Denne kan du dele med hvem du vil ved å sende lenken `ditt-brukernavn.github.io`.
 
-# Vil du lære mer om GitHub? {.try}
+# Vil du lære mer om GitHub? {.challenge}
 GitHub er et stort tema og kan være litt komplisert og vrient i starten, men jeg hvis du vil lære mer sjekk ut tipsene under:
 + Les mer om GitHub her: [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
 + Søk på `GitHub Tutorials` på [YouTube](http://youtube.com) F.eks: [GitHub for noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY)

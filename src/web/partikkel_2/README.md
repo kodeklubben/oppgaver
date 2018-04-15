@@ -9,9 +9,9 @@ Denne oppgaven bygger på koden elevene skrev i oppgaven [Partikkel-animasjon](.
 
 
 ## Oppgaven passer til: {.check}
- __Fag__: Programmering, Matematikk, Kunst og håndverk
+ __Fag__: Programmering, Matematikk, Kunst og håndverk, Informasjonsteknologi 2
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7. trinn - VG3
 
 __Tema__: Web, JavaScript, variabler, løkker, koordinater, animasjon
 
@@ -20,13 +20,21 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
+- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i programmering, slik som løkker, tester, variabler, funksjoner og enkel brukerinteraksjon.
 
-- [ ]  __Programmering, valgfag__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse.
+- [ ]  __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse.
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke koordinater til å beregne avstander parallelt med aksene i et koordinatsystem.
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke fargekontraster, forminsking og sentralperspektiv for å gi illusjon av rom i bilder både med og uten digitale verktøy.
+
+- [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres funksjoner eller metoder med parametere
+
+- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av typene tekst, bilde, lyd, video og animasjoner
+
+- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i multimedieapplikasjoner
+
+- [ ] __Informasjonsteknologi 2, VG3__: programmere med valg og gjentakelser
 
 
 ## Forslag til læringsmål {.challenge}
@@ -40,7 +48,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
 
 ## Forutsetninger og utstyr {.challenge}
@@ -49,14 +57,14 @@ __Tidsbruk__: Dobbeltime eller mer.
 - [ ]  __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy.
 
 
-# Fremgangsmåte
+## Fremgangsmåte
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske oppgaven. [Klikk her for å se oppgaveteksten.](../partikkel_2/partikkel_2.html){target=_blank}
 
 # Generelt {.activity}
-- [ ] Denne oppgaven krever at elevene leser oppgaven og forklaringen nøye og prøver litt selv før de evt får løsningen. Her kan det være lurt å jobbe to-og-to slik at de har noen å diskutere med. 
+- [ ] Denne oppgaven krever at elevene leser oppgaven og forklaringen nøye og prøver litt selv før de evt får løsningen. Her kan det være lurt å jobbe to-og-to slik at de har noen å diskutere med.
 
 ## Variasjoner {.challenge}
-- [ ]  Elevene kan lage objekter i forskjellige farger slik at det blir en _regnbue-fest_. 
+- [ ]  Elevene kan lage objekter i forskjellige farger slik at det blir en _regnbue-fest_.
 
 ## Eksterne ressurser {.challenge}
 - [ ] Foreløpig ingen eksterne ressurser ...

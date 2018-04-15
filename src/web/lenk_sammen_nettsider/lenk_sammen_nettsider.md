@@ -6,7 +6,7 @@ language: nb
 tags:
     topic: [text_based, web]
     subject: [programming, technology]
-    grade: [junior]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -75,5 +75,5 @@ Her er et eksempel på 3 sider som er knyttet sammen. Koden er hentet fra [“De
 ![screenshot](ressurser/om_meg.png)
 
 
-# TIPS {.try}
+# TIPS {.challenge}
 Bruk gjerne [w3schools](http://www.w3schools.com/) for å få enda mer hjelp eller lese mer om HTML-tagger. Dersom det er vanskelig språk så spør du en voksen, lærere eller veileder.

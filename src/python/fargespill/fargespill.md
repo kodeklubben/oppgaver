@@ -4,6 +4,10 @@ level: 3
 author: Steffen Granberg
 footer: "**Kilde:** Oppgaven er basert på kode fra [usingpython.com](http://usingpython.com/pygame/). Sjekk der for flere kule ideer!"
 language: nb
+tags:
+  topic: [text_based, game]
+  subject: [programming]
+  grade: [junior]
 ---
 
 # Introduksjon
@@ -23,7 +27,7 @@ I dette spillet skal vi lage et grafisk brukergrensesnitt (et GUI). Til dette br
   import tkinter
   from random import randint
   ```
-- [ ] Vi vil etterhvert bruke boxtaver som *æøå*. For å gjøre dette må vi legge til noe øverst i koden vår. Gjør om koden din slik at den ser slik ut:
+- [ ] Vi vil etterhvert bruke bokstaver som *æøå*. For å gjøre dette må vi legge til noe øverst i koden vår. Gjør om koden din slik at den ser slik ut:
 
   ```python
   #!/usr/bin/python

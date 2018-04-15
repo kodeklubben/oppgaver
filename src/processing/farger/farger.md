@@ -3,6 +3,10 @@ title: Farger
 level: 1
 author: Sigmund Hansen
 language: nb
+tags:
+    topic: [text_based]
+    subject: [arts_and_crafts, mathematics, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -180,7 +184,7 @@ fargen på bakgrunnen, så la oss se hva vi kan gjøre med fargene til former.
 
   Nå er omrisset tre piksler bredt.
 
-## Eksperimenter {.try}
+## Eksperimenter {.challenge}
 
 - [ ] Prøv forskjellige bakgrunnsfarger. Hvordan synes du forskjellige
   bakgrunnsfarger passer sammen med fargene på sirkelen?
@@ -376,7 +380,7 @@ fargen skal være.
 - [ ] La oss se på hvordan metningen og lysheten påvirker fargen. Vi
   legger til en variabel for fargetone som skal endres over tid, sånn
   at vi kan se effekten også på forskjellige fargetoner. Legg derfor
-  til følgende øverst i programmet:
+  til følgende øverst i programmet, ovenfor både _setup()_ og _draw()_:
 
   ```processing
   float tone;
@@ -479,7 +483,8 @@ brukes til farger: `color`.
 Vi skal også se på noen funksjoner for å jobbe med farger. Dette gjør
 at vi kan få mer nytte av fargevariabler uten å bruke en variabel for
 hver fargekanal. Hvis farger skal endre seg veldig mye, kan det
-likevel være enklere med tre variabler.
+likevel være enklere med tre variabler. Variablene defineres, som 
+tidligere, utenfor _setup()_ og _draw()_.
 
 ## Sjekkliste {.check}
 
@@ -568,7 +573,7 @@ likevel være enklere med tre variabler.
   om du bytter til RGB, `colorMode(RGB, 255);`, etter at du har lagd
   fargene ovenfor?
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 - [ ] Ta utgangspunkt i punktet hvor du blandet farger med
   `lerpColor`. Kan du tegne et ansikt eller en annen figur med

@@ -5,6 +5,10 @@ author: Basert på MITs ["MoleMash for App Inventor 2"-guide](http://appinventor
 translator: Hanne Johnsen
 license: "[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)"
 language: nb
+tags:
+    topic: [block_based, app]
+    subject: [technology, programming]
+    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -199,6 +203,6 @@ Hvordan kan du lage spillet enda bedre?
 
 Kan du gjøre spillet vanskeligere?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 Prøv å sette timeren til en lavere verdi. Hva skjer?

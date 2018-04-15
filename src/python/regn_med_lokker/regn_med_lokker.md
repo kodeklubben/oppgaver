@@ -3,6 +3,10 @@ title: Regn med løkker
 level: 3
 author: Tjerand Silde
 language: nb
+tags:
+  topic: [text_based]
+  subject: [mathematics, programming]
+  grade: [junior, senior]
 ---
 
 

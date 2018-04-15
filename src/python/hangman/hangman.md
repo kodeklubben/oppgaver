@@ -6,6 +6,10 @@ author: Oversatt fra [Code Club UK](//codeclub.org.uk)
 translator: Geir Arne Hjelle
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
+tags:
+  topic: [text_based, game]
+  subject: [programming]
+  grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -150,7 +154,7 @@ Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.
 For at Hangman skal holde oversikt over alle bokstavene som er gjettet
 på må vi også huske på når spilleren gjetter feil.
 
-## Sjekkliste {.check}
+## Sjekkliste {.check}
 
 - [ ] Endre filen du jobber med slik at den blir seende ut som dette:
 

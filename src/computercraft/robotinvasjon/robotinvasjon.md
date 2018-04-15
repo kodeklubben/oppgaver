@@ -3,6 +3,10 @@ title: Robotinvasjon
 level: 1
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [text_based, minecraft]
+    subject: [technology, programming]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -235,7 +239,7 @@ til å flytte roboten dit vi vil ha den:
   `turtle.forward()`, `turtle.back()`, `turtle.turnLeft()`,
   `turtle.turnRight()`, `turtle.up()`, `turtle.down()`.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Lag en liten kloss litt unna roboten din, omtrent som på bildet
 under. Klarer du å bruke `turtle`-kommandoene over til å plassere

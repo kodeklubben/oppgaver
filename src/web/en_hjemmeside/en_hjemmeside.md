@@ -9,7 +9,7 @@ language: nb
 tags:
     topic: [text_based, web]
     subject: [programming, technology]
-    grade: [junior]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -33,11 +33,11 @@ Feil skjer ofte. Det er veldig lett å gjøre dem i HTML fordi du må huske å l
 
 ## Aktiviteter {.check}
 
-- [ ] La oss ta listen av ting vi liker som et eksempel. En av feilene som ofte skjer, er å glemme __avslutnings-taggen__, så la oss fjerne `<\ul>` for å se hvordan det påvirker siden. Lagre filen og oppdater den i nettleseren.
+- [ ] La oss ta listen av ting vi liker som et eksempel. En av feilene som ofte skjer, er å glemme __avslutnings-taggen__, så la oss fjerne `</ul>` for å se hvordan det påvirker siden. Lagre filen og oppdater den i nettleseren.
 
 - [ ] Inspiser med [X-Ray Goggles](https://goggles.mozilla.org/). Skjønner du hva som kan ha skjedd? Etter at vi fjernet avslutnings-taggen vet nettleseren rett og slett ikke at listen er avsluttet og derfor skjer det som skjedde nå.
 
-- [ ] Legg til avslutnings-taggen `<\ul>` igjen og lagre siden. Oppdater siden og alt skal være tilbake til normalt.
+- [ ] Legg til avslutnings-taggen `</ul>` igjen og lagre siden. Oppdater siden og alt skal være tilbake til normalt.
 
 - [ ] Tagger må være stavet riktig for at nettleseren skal forstå dem. Hva skjer hvis vi gjør en skrivefeil?
 
@@ -133,7 +133,7 @@ For å linke tilbake fra `om_meg.html` til `om_meg_side_2.html` må du skrive de
 
 __Gratulerer! Du har laget ditt eget nettsted.__
 
-## Ting du kan prøve {.try}
+## Ting du kan prøve {.challenge}
 
 - [ ] Hvordan kan du linke til en annen side på nettet? (Hint: prøv å legge til `http://` og deretter adressen til nettstedet du vil koble til)
 - [ ] I likhet med forslaget ovenfor, hvordan ville du legge til et bilde fra et sted på nettet i stedet for fra datamaskinen? (Hint: igjen, prøve å legge til `http://` og adressen til bildet)

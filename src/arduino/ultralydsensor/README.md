@@ -67,7 +67,7 @@ oppdage gjenstander rundt pulten. Ultralydsensoren skal kunne «se» opp til 4
 meter fremfor seg, men da må de være store og flate (f.eks. en vegg).
 
 For formelen brukt i `map`, se referansen for hos
-[arduino.cc](https://www.arduino.cc/Reference/Map). Dette kan være relevant om
+[arduino.cc](https://www.arduino.cc/reference/en/language/functions/math/map/). Dette kan være relevant om
 man vil vinkle denne oppgaven inn mot matematikk.
 
 `constrain` vil her gjøre at alle verdier høyere enn 9 vil bli satt til 9.

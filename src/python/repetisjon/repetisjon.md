@@ -3,6 +3,10 @@ title: Repetisjon
 level: 3
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
+tags:
+  topic: [text_based]
+  subject: [programming]
+  grade: [junior]
 ---
 
 # Introduksjon {.intro}
@@ -125,7 +129,7 @@ elif name == "Ada":
 elif name == "Kim":
     print("Kim kan være både guttenavn og jentenavn.")
 else:
-    print("Jeg vet ikke om " + navn + " er en gutt eller ei jente.")
+    print("Jeg vet ikke om " + name + " er en gutt eller ei jente.")
 ```
 
 <!--A little workaround to avoid checklist being a part of protip-->
@@ -259,7 +263,7 @@ while word != "exit":
     word = input("Please write a word: ")
 ```
 
-Den samme løkken kan også skrive slik:
+Den samme løkken kan også skrives slik:
 
 ```python
 while True:

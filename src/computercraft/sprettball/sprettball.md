@@ -3,6 +3,10 @@ title: Sprettball
 level: 3
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [text_based, minecraft]
+    subject: [technology, programming]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -269,8 +273,8 @@ ballen flytter på seg.
           skjerm.write("O")
           sleep(1)
 
-          X = X - [ ] fartX                         -- ny linje
-          Y = Y - [ ] fartY                         -- ny linje
+          X = X + fartX                         -- ny linje
+          Y = Y + fartY                         -- ny linje
       end
   end
   ```
@@ -465,7 +469,7 @@ reklamebannere.
   end
   ```
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Det er flere måter å gjøre `reklame`-programmet enda bedre på. Her er
 to forslag:

@@ -1,4 +1,17 @@
 ---
+language:
+  NAME: Språk
+  TAGS:
+    nb:
+      NAME: Norsk bokmål
+    nn:
+      NAME: Norsk nynorsk
+    sv:
+      NAME: Svenska
+    da:
+      NAME: Dansk
+    en:
+      NAME: English
 topic:
   NAME: Tema
   TAGS:
@@ -32,6 +45,9 @@ topic:
     animation:
       NAME: Animasjon
       TOOLTIP: Lage grafikk som beveger seg, for eksempel tegnefilmer.
+    sound:
+      NAME: Lyd
+      TOOLTIP: Programmere lyd og musikk.
 subject:
   NAME: Fag
   TAGS:
@@ -70,5 +86,5 @@ grade:
       TOOLTIP: Ungdom 13-15 år
     senior:
       NAME: Videregående skole
-      NAME: Ungdom 16-18 år
+      TOOLTIP: Ungdom 16-18 år
 ---

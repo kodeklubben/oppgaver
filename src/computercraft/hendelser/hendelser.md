@@ -3,6 +3,10 @@ title: Hendelser
 level: 2
 author: Geir Arne Hjelle
 language: nb
+tags:
+    topic: [text_based, minecraft, game]
+    subject: [technology, programming]
+    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -141,7 +145,7 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
   Når du kjører dette programmet vil du se at du kan bruke `pil
   høyre` til å bevege figuren mot høyre.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 De andre piltastene kan du programmere selv på samme måte. Du trenger
 da å sammenligne med kodene `keys.left`, `keys.down` og
@@ -179,7 +183,7 @@ da å sammenligne med kodene `keys.left`, `keys.down` og
   Prøv spillet! Fungerer det som du hadde trodd? Klarer du å kanskje
   legge til flere skatter?
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Ved hjelp av `local maxX, maxY = term.getSize()` kan du finne
 størrelsen på skjermen. Kan du bruke dette til å begrense figuren din
@@ -242,7 +246,7 @@ se på noen enkle kommandoer for å kopiere og flytte filer.
   For å gå tilbake en katalog bruker du det spesielle navnet
   **..**. Skriv `cd ..`. Du vil nå komme tilbake til utgangspunktet.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Du har nå sett ganske mange kommandoer: `dir`, `edit`, `type`,
 `mkdir`, `move` og `cd`. I tillegg finnes også `delete` som kan brukes
@@ -552,7 +556,7 @@ siste linjen setter tekstfargen tilbake til hvit.
 Om du vil se hvordan dette virker kan du prøve å lage en **Advanced
 Computer**, og kjøre programmet `hello` på den.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Prøv å se på noen av de andre programmene du kjenner til, som for
 eksempel `cd`, `go` eller `refuel`. Du må kanskje lete litt i
@@ -614,7 +618,7 @@ datamaskin, men har noen ekstra muligheter.
   end
   ```
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Kan du legge til farger i tegneprogrammet? Se tilbake på
 `hello`-programmet hvordan du kan bruke `term.setTextColour()` til å

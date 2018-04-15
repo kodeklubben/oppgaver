@@ -3,6 +3,10 @@ title: "Input fra brukeren"
 level: 3
 author: Alexander Perry
 language: nb
+tags:
+    topic: [text_based, web]
+    subject: [technology, programming]
+    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -205,7 +209,7 @@ view model =
     ]
 ```
 
-## Ting du kan prøve {.try}
+## Ting du kan prøve {.challenge}
 - [ ] Utvid nettsiden med en knapp som snur alle ordene i setningen tilbake til rett vei
 - [ ] Tekst kan manipuleres med mange forskjellige innebygde funksjoner som `String.repeat` (gjenta en tekst), `String.toUpper` (gjør alle BOKSTAVENE TIL STORE BOKSTAVER)
 - [ ] Se full liste av hva man kan gjøre med tekst [i dokumentasjonen (på engelsk)](http://package.elm-lang.org/packages/elm-lang/core/5.1.1/String)
@@ -272,7 +276,7 @@ update msg model =
 view model =
   div [ style [("height", "100%"), ("background", "rgb(255, 255, 255)")] ]
     [ input [ type_ "number", Html.Attributes.min "0", Html.Attributes.max "255" ] []
-    , div [] [ text model.rod ]
+    , div [] [ text model.rod ]
     ]
 ```
 
