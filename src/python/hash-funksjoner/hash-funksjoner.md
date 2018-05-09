@@ -78,7 +78,7 @@ Hash-funksjonen vi skal bruke nå er god nok til å brukes i så godt som alle s
 ## Sjekkliste {.check}
 
 - [ ] Lag en ny fil i IDLE, og lim inn den følgende koden
-  ```python
+ ```python
  from hashlib import sha256
 
   def hash(data):
