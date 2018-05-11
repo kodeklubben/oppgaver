@@ -27,13 +27,13 @@ Selv om dagens sluttresultat vil være ganske sikkert, bør du likevel ikke bruk
 
 # Steg 1: Sette opp systemet {.activity}
 
-Til denne leksjonen finnes det en ferdig kodefil (TODO: URL). Last den ned og åpne den i IDLE (eller kopier innholdet inn i en ny fil i IDLE). Du må gjerne prøve å forstå den om du vil, men den inneholder enkelte kortfattede og til dels avanserte teknikker som vi ikke bruker skal bruke tid på i dag på å forstå.
+Til denne leksjonen finnes det en [påbegynt kodefil](./password_cracker.py). Last den ned og åpne den i IDLE (eller kopier innholdet inn i en ny fil i IDLE). Du må gjerne prøve å forstå den om du vil, men den inneholder enkelte kortfattede og til dels avanserte teknikker som vi ikke bruker skal bruke tid på i dag på å forstå.
 
 Vi bruker koden vi laget da vi så på hash-funksjoner, og laster i tillegg inn en ordliste med omtrent 500 000 ord. Vi skal bruke den til å lete etter mulige passord.
 
 ## Sjekkliste {.check}
 
-- [ ] Last ned kodefilen (TODO: URL) og ordboken (TODO: URL). Det kan hende du må høyreklikke og velge "Lagre linken som ..." eller lignende. Legg begge filene i samme katalog, og åpne `password_cracker.py` i IDLE. Prøv å forstå de punktene som følger.
+- [ ] Last ned [kodefilen](./password_cracker.py) og [ordboken](./ordliste_aspell.txt). Det kan hende du må høyreklikke og velge "Lagre linken som ..." eller lignende. Legg begge filene i samme katalog, og åpne `password_cracker.py` i IDLE. Prøv å forstå de punktene som følger.
 - [ ] Linje 18: Her endrer vi litt på ordboka vår. Funksjonen `strip()` fjerner alle mellomrom og linjeskiftstegn, og `lower()` sørger for at alle ord bare består av små bokstaver.
 - [ ] Linje 20: Her setter vi opp en *dictionary*, en datastruktur i Python som gjør at dersom vi vet hash-verdien av et ord, så kan vi slå opp det tilhørende ordet veldig lett.
 - [ ] Linje 23: Dette er alle brukerne vi har satt opp, og med tilhørende passord. Brukeren "karin" har et veldig langt passord, mens "tjesi" sitt er ganske kort, men ikke akkurat slik ordet står i ordboka.
