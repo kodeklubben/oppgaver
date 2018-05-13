@@ -169,7 +169,7 @@ Når du er ferdig med å implementere rutinen din, kan du sette den inn i kodefi
 ```python
 from math import sqrt, ceil
 
-def eratosthenes(max):
+def eratosthenes(upper_limit):
     // din kode her
 
 def is_prime(n, small_primes=[2, 3, 5]):
