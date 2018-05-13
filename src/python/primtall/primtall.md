@@ -130,6 +130,8 @@ Men, hvorfor skal vi stanse her? Vi kan jo også dele på 3 og 5 til å begynne 
   
   def is_prime(n):
       small_primes = [2, 3, 5, 7, 11, 13, 17, 19]
+      if n in small_primes:
+          return True
       for prime in small_primes:
           if n % prime == 0:
               return False
@@ -173,6 +175,8 @@ def eratosthenes(max):
     // din kode her
 
 def is_prime(n, small_primes=[2, 3, 5]):
+    if n in small_primes:
+      return True
     for prime in small_primes:
         if n % prime == 0:
             return False
