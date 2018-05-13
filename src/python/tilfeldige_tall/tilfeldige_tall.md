@@ -36,7 +36,9 @@ Python gjør det enkelt å trekke tilfeldige tall, det er et helt bibliotek som 
 - [ ] Modifiser koden slik at den i stedet skriver ut tilfeldige verdier mellom 100 og 800. Sjekk dokumentasjonen for å se om også tallene 100 og 800 er mulige output fra koden din.
 - [ ] Modifiser koden slik at den nå bare skriver ut *partall* mellom 100 og 800. (*Hint:* Se på den andre varianten av `random.randrange` i dokumentasjonen.)
 
-Hvis man legger verdiene inn i et histogram, vil man se at søylene blir omtrent like høye. Det er det første viktige kravet vi må stille til våre tilfeldige tall: Alle må være like sannsynlige.
+# Legge dataene inn i et histogram {.tip}
+
+I matematikktimene har du sett hvordan man kan bruke et *histogram* for å se hvordan verdier er fordelt. Det kan du gjøre her også for å se at dataene blir jevnt fordelt, og at det ikke blir for kraftig samling på visse steder. Kopier alle de tilfeldige tallene fra koden i punkt 2 over (du må antageligvis rulle oppover for å få med deg alle), og gå inn på [https://www.wessa.net/rwasp_histogram.wasp](https://www.wessa.net/rwasp_histogram.wasp). Lim inn tallene der det står "Data". Sett "Sample Range" til henholdsvis 0 og 1000 (eller andre grenser dersom du har gjort endringene i koden over). Sett "Number of bins" til 4 eller 5. Trykk til slutt "Compute", og du vil få opp en graf som viser hvordan tallene er fordelt. Vi har bare 100 tall, så variasjonen er antageligvis ganske høy, men om du øker antallet tilfeldige tall, vil du se at det nærmerer seg like store søyler. Det er det første viktige kravet vi må stille til våre tilfeldige tall: Alle må være like sannsynlige.
 
 # Steg 2: Trekke det samme tilfeldige tallet flere ganger {.activity}
 
