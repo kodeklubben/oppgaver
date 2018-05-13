@@ -1,13 +1,11 @@
 ---
 title: Trygg lagring av passord
 level: 4
-logo: ../../assets/img/ccuk_logo.png
 author: Martin Strand
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
 tags:
   topic: [text_based]
-  subject: [programming, social_science]
+  subject: [mathematics, programming, cryptography]
   grade: []
 ---
 
