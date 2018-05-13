@@ -17,7 +17,9 @@ Tidligere har vi sett hvordan vi kan sikre at ingen kan lese meldingene vi sende
 
 Vi starter med et eksempel som alle bruker hver gang vi er i butikken, nemlig strekkoden EAN-13. Finn en bok i nærheten og se på baksiden. Der er det som oftest en strekkode med med 13 sifre under. Det siste sifferet sin jobb er å sjekke om det har skjedd en feil med de 12 andre. Det gjør at den som sitter i kassa blir nødt til å scanne varen på nytt, i stedet for at det blir slått inn en pakke fløte når det egentlig skulle vært melk. Vi skal nå bygge et program som gjør det samme som kassasystemet på nærbutikken din.
 
-Regelen er enkel nok: Start med 12 sifre, og del dem opp slik at du jobber med ett og ett. Legg sammen siffer nummer 2, 4, 6, osv, og multipliser summen med 3. Så legger du sammen sifrene på plass 1, 3, 5, osv, og legger til det du har fra før. Se på tallet du nå har fått, og finn ut hvor mye du må legge til for å komme opp til nærmeste tier. Det er sjekksifferet ditt.
+Regelen er enkel nok: Start med 12 sifre, og del dem opp slik at du jobber med ett og ett. Legg sammen det andre, fjerde, osv. sifferet og multipliser summen med 3. Så legger du sammen første, tredje, femte, osv. siffer og legger til det du har fra før. Se på tallet du nå har fått, og finn ut hvor mye du må legge til for å komme opp til nærmeste tier. Det er sjekksifferet ditt.
+
+Husk at når vi jobber med en liste i Python, så er *den første* på plass 0, så når det under står `digits[0]`, så er det det første tallet, og `digits[1]` er det andre tallet -- også videre.
 
 ## Eksempel {.tip}
 
@@ -64,10 +66,11 @@ Først regner vi ut 3 · (7 + 0 + 6 + 7 + 1 + 2) = 69 og 9 + 8 + 0 + 2 + 3 + 0 =
     return digits
   ```
   Lagre filen. Du kan nå teste den ved å skrive `verify_barcode(interpret_barcode("9780062731029"))`
+- [ ] Sjekk disse strekkodene: 9788205260429 og 978098146739. Hvis noen av sjekksifrene var gale, er du i stand til å finne riktig sjekksiffer?
   
 # Steg 2: Sterkere koder {.activity}
 
-Sjekksifferet i EAN-13 er godt nok så lenge det handler om å fange opp de feilene som gjøres ved et uhell, men det er ikke spesielt vanskelig å finne to strekkoder som har samme sjekksiffer. For en god hash-funksjon må det (blant annet) være vanskelig å finne to input som gir samme output.
+Sjekksifferet i EAN-13 er godt nok så lenge det handler om å fange opp de feilene som gjøres ved et uhell, men det er ikke spesielt vanskelig å finne to strekkoder som har samme sjekksiffer -- for eksempel holder det at første og tredje siffer bytter plass. For en god hash-funksjon må det (blant annet) være vanskelig å finne to input som gir samme output.
 
 Vi skal ikke prøve å programmere våre egne hash-funksjoner, for de er heldigvis innebygd i Python. Alt vi skal gjøre er å lage et lite skall rundt de innebygde funksjonene, slik at de blir enklere å bruke for oss.
 
@@ -75,7 +78,7 @@ Hash-funksjonen vi skal bruke nå er god nok til å brukes i så godt som alle s
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en ny fil i IDLE, og lim inn den følgende koden
+- [ ] Lim inn den følgende koden i IDLE
  ```python
  from hashlib import sha256
 
