@@ -1,13 +1,11 @@
 ---
 title: Hash-funksjoner
 level: 3
-logo: ../../assets/img/ccuk_logo.png
 author: Martin Strand
-license: "[Code Club World Limited Terms of Service Fikser denne etterpå ;-) ](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
 tags:
   topic: [text_based]
-  subject: [programming, social_science]
+  subject: [mathematics, programming, cryptography]
   grade: []
 ---
 
