@@ -1,13 +1,11 @@
 ---
 title: Diffie-Hellman nøkkelutveksling
 level: 3
-logo: ../../assets/img/ccuk_logo.png
 author: Martin Strand
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
 language: nb
 tags:
   topic: [text_based]
-  subject: [programming, social_science]
+  subject: [mathematics, programming, cryptography]
   grade: []
 ---
 
@@ -17,7 +15,7 @@ Du har tidligere jobbet med Cæsar-chifferet, en oppgave der du skulle lage enke
 
 En løsning på dette problemet er Diffie-Hellman nøkkelutveksling. Ideen kom fra Whitfield Diffie og Martin Hellman i 1976, og er fortsatt i bruk i dag. I denne leksjonen skal vi programmere ideen deres. Til slutt vil du kunne rope til en som sitter på motsatt ende av rommet, og dere blir enige om en felles hemmelighet uten at noen andre i rommet forstår hva det er.
 
-De to viktigste byggeklossene å ha tilgang til primtall (TODO: URL), og å trekke tilfeldige tall på en god måte (TODO: URL). Dersom du ikke husker det vi gjorde i de leksjonene, kan det være lurt å gå tilbake og se over dem på nytt. Spesielt bør du sjekke at du husker hva hva `%`-operatoren gjør.
+De to viktigste byggeklossene er å ha tilgang til [primtall](../primtall/primtall.html), og å [trekke tilfeldige tall på en god måte](../tilfeldige_tall/tilfeldige_tall.html). Dersom du ikke husker det vi gjorde i de leksjonene, kan det være lurt å gå tilbake og se over dem på nytt. Spesielt bør du sjekke at du husker hva hva `%`-operatoren gjør.
 
 # Steg 1: Regneoperasjoner på en klokke {.activity}
 
@@ -50,7 +48,7 @@ I denne aktiviteten er det ment at du skal samarbeide med noen andre, så vi ska
   def generate_secret(other_share, a, p):
       return other_share**a % p
   ```
-- [ ] Kjør modulen ved å trykke F5. Du får da opp et Python-skall der du kan skrive kommandoer selv. Finn på et tilfeldig tall mellom 1 og 23, og skriv `generate_share(<ditt tall>, g, p)`. Da får du ut et nytt tall. Dette er det offentlige tallet du skal si høyt til vennen til på motsatt side av rommet. Han eller hun skal gjøre det samme.
+- [ ] Lagre filen og kjør modulen ved å trykke F5. Du får da opp et Python-skall der du kan skrive kommandoer selv. Finn på et tilfeldig tall mellom 1 og 23, og skriv `generate_share(<ditt tall>, g, p)`. Da får du ut et nytt tall. Dette er det offentlige tallet du skal si høyt til vennen til på motsatt side av rommet. Han eller hun skal gjøre det samme.
 - [ ] Skriv `generate_secret(<tallet vennen din ropte>, <ditt tall>, p)`, og trykk Enter. Det tallet du får ut nå er den hemmelige nøkkelen som du og vennen din deler, men som ingen andre kan vite om.
 - [ ] Finn fram Cæsar-chifferet, og bruk den hemmelige nøkkelen som `secret`. Send en melding til vennen din, og se om han eller hun får til å dekryptere korrekt.
 
@@ -127,14 +125,14 @@ I koden over har vi hardkoded `p = 23`, og vi hadde ikke noe problem med å knek
   ```
 - [ ] Vi trenger en funksjon som lar oss finne et primtall som er større enn en grense vi bestemmer. Den enkle måten å gjøre det på er å starte fra minimum, telle opp én og én, og se om det nye tallet er et primtall. Legg til det følgende i koden din:
   ```python
-  def find_prime(min):
-      n = min
+  def find_prime(start):
+      n = start
       while not is_prime(n):
           n = n + 1
       return n
   ```
-  Legg merke til at `min` ikke trenger å være et primtall, det er ganske enkelt omtrent så stort som du vil at primtallet ditt skal være.
-- [ ] Slett linjen `p = 23`. Kjør programmet, og skriv inn `p = find_prime(<velg et tall her>)`. Primtallet `p` er ikke hemmelig, så du kan be partneren din om å bruke samme tall som deg.
+  Legg merke til at `start` ikke trenger å være et primtall, det er ganske enkelt omtrent så stort som du vil at primtallet ditt skal være.
+- [ ] Slett linjen `p = 23`. Kjør programmet, og skriv inn `p = find_prime(<velg et tall her>)`. Primtallet `p` er ikke hemmelig, og du og partneren din må bruke samme `p` for at koden skal virke.
 - [ ] **Utfordring:** Tallet `g = 5` er fortsatt hardkodet. Egentlig må `g` velges etter primtallet, og det må være en såkalt *primitiv rot modulo p* (eng: *primtive root modulo p*). Bruk Google og Wikipedia for å finne en algoritme for å beregne slike. Pass på at du forstår hva koden din gjør.
 
 # Litt fra den virkelige verdenen {.tip}
