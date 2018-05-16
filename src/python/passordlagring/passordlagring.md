@@ -152,10 +152,14 @@ Det finnes også varianter av denne ideen som handler om å bruke så mye minne 
       diff_time = time_end-time_start
       print(diff_time.total_seconds(),"sekunder")
   ```
-- [ ] Lagre koden og kjør modulen ved å trykke F5. Test angrepet vårt ved å skrive `crack_strong_list(strong_hashed_list, wordlist)`. Hva skjer? (Når du blir lei av å vente kan du trykke `Ctrl+C`. Forfatteren av denne leksjonen testet tålmodigheten sin og lot koden kjøre til den var ferdig. Den fant de samme angrepene som før, men denne gangen tok det TODO timer (!), og det var for bare fire-fem passord.
+- [ ] Lagre koden og kjør modulen ved å trykke F5. Test angrepet vårt ved å skrive `crack_strong_list(strong_hashed_list, wordlist)`. Hva skjer? (Når du blir lei av å vente kan du trykke `Ctrl+C`. Forfatteren av denne leksjonen testet tålmodigheten sin og lot koden kjøre til den var ferdig. Den fant de samme angrepene som før, men denne gangen tok det 28 timer (!), og det var for bare fire-fem passord.
 
 # Bonus: Passordtips {.activity}
 
 Nå har vi jobbet med forskjellige måter å sikre passordene på. Dersom du vet at passordet blir lagret like bra eller bedre som det vi gjorde til slutt, så trenger man kanskje ikke et veldig godt passord, så lenge det ikke er blant de vanligste. Om nettsiden du bruker derimot ikke beskytter passordene sine godt, så forstår du kanskje hvor viktig det er å ha et passord som ingen har tenkt på før. Derfor sier mange at man bør ha store og små bokstaver, tall og rare tegn i passordene. Det senker sannsynligheten for at noen har tenkt på passordet og lagt det i lista over passord de skal sjekke.
 
 Et vanlig tips nå er å bruke flere vanlige ord som ikke har noe med hverandre å gjøre, og så sette dem sammen til ett passord, som for eksempel ["korrekt hest batteri stift"](https://xkcd.com/936/). 
+
+# Avansert: Hvorfor dette ikke er godt nok {.tip}
+
+Når det tok over et døgn å knekke disse få og ganske dårlige passordene, så skulle man tro at dette var godt nok. Grunnen til at dette likevel ikke er godt nok til løsninger som krever høy sikkerhet, er at skjermkort er veldig gode til å gjøre denne typen beregninger. Forfatteren av denne leksjonen brukte tilpasset programvare til å angripe de sikrede passordene ved hjelp av skjermkortet i stedet for den vanlige prosessoren. Da gikk kjøretida ned fra 28 timer, til 18 minutter og 13 sekunder. Verre ble det da det samme ble gjort på en av NTNU sine kraftigste datamaskiner. Da ble plutselig fire av passordene funnet på bare TODO minutter.
