@@ -1,12 +1,8 @@
 ---
-title: Rotasjon rundt egen akse
+title: 'Rotasjon rundt egen akse'
 level: 1
-author: Carl A. Myrland
+author: 'Carl A. Myrland'
 language: nb
-tags:
-    topic: [block_based]
-    subject: [mathematics]
-    grade: [primary, secondary, junior]
 ---
 
 # Læringsmål {.tips}

@@ -2,14 +2,10 @@
 title: Fyrverkeri
 level: 2
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Kaisa Korsak
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Kaisa Korsak'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [arts_and_crafts, mathematics]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

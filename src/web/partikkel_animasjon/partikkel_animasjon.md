@@ -1,12 +1,8 @@
 ---
-title: "JS: Partikkel-animasjon"
-author: Lars Klingenberg
+title: 'JS: Partikkel-animasjon'
+author: 'Lars Klingenberg'
 level: 2
 language: nb
-tags:
-    topic: [text_based, web, animation]
-    subject: [programming, mathematics]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduction {.intro}

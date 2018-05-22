@@ -1,12 +1,8 @@
 ---
-title: Regn med løkker
+title: 'Regn med løkker'
 level: 3
-author: Tjerand Silde
+author: 'Tjerand Silde'
 language: nb
-tags:
-  topic: [text_based]
-  subject: [mathematics, programming]
-  grade: [junior, senior]
 ---
 
 

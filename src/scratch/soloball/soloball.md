@@ -1,12 +1,8 @@
 ---
 title: Soloball
 level: 1
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

@@ -1,15 +1,11 @@
 ---
-title: Felix og Herbert
+title: 'Felix og Herbert'
 level: 1
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Gro Anette Vestre
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Gro Anette Vestre'
 language: nn
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
-tags:
-    topic: [block_based, game]
-    subject: [english, norwegian, programming]
-    grade: [primary, secondary, junior]
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 ---
 
 # Introduksjon {.intro}

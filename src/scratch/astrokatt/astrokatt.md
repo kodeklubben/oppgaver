@@ -1,12 +1,8 @@
 ---
 title: Astrokatt
 level: 1
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, science]
-    grade: [primary, secondary]
 ---
 
 # Introduksjon {.intro}

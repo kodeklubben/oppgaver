@@ -2,14 +2,10 @@
 title: Tegneprogram
 level: 3
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Helge Astad og Anne-Marit Gravem
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Helge Astad og Anne-Marit Gravem'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [block_based]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

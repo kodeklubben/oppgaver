@@ -1,12 +1,8 @@
 ---
 title: Bokstaver
 level: 1
-author: Tjerand Silde
+author: 'Tjerand Silde'
 language: nb
-tags:
-  topic: [text_based]
-  subject: [mathematics, arts_and_crafts]
-  grade: [primary, secondary]
 ---
 
 # Introduksjon

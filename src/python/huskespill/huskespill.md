@@ -1,12 +1,8 @@
 ---
 title: Huskespill
 level: 3
-author: Sindre O. Rasmussen, Kodeklubben Trondheim
+author: 'Sindre O. Rasmussen, Kodeklubben Trondheim'
 language: nb
-tags:
-  topic: [text_based, game]
-  subject: [programming, english]
-  grade: [secondary, junior]
 ---
 
 # Huskespill {.intro}

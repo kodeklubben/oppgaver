@@ -1,12 +1,8 @@
 ---
-title: 3D-Flakser, Del 2
+title: '3D-Flakser, Del 2'
 level: 4
-author: Gudbrand Tandberg og Geir Arne Hjelle
+author: 'Gudbrand Tandberg og Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [arts_and_crafts, mathematics, science]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

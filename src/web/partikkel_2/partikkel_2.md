@@ -1,12 +1,8 @@
 ---
-title: "JS: Partikkel-fest"
-author: Lars Klingenberg
+title: 'JS: Partikkel-fest'
+author: 'Lars Klingenberg'
 level: 3
 language: nb
-tags:
-    topic: [text_based, web, animation]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

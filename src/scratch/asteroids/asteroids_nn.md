@@ -1,13 +1,9 @@
 ---
 title: Asteroids
 level: 4
-author: Geir Arne Hjelle
-translator: Gro Anette Vestre
+author: 'Geir Arne Hjelle'
+translator: 'Gro Anette Vestre'
 language: nn
-tags:
-    topic: [block_based, game, animation]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

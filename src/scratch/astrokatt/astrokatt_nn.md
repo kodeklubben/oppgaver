@@ -1,13 +1,9 @@
 ---
 title: Astrokatt
 level: 1
-author: Geir Arne Hjelle
-translator: Gro Anette Vestre
+author: 'Geir Arne Hjelle'
+translator: 'Gro Anette Vestre'
 language: nn
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, science]
-    grade: [primary, secondary]
 ---
 
 # Introduksjon {.intro}

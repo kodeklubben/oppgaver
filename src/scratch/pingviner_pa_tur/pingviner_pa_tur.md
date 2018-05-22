@@ -1,12 +1,8 @@
 ---
-title: Pingviner på tur
+title: 'Pingviner på tur'
 level: 1
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

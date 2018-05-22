@@ -1,12 +1,8 @@
 ---
-title: Donkey Kong
+title: 'Donkey Kong'
 level: 4
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [english, arts_and_crafts, science, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

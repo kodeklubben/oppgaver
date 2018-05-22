@@ -1,12 +1,8 @@
 ---
-title: "HTML: Publiser nettsiden din"
-author: Lars Klingenberg
+title: 'HTML: Publiser nettsiden din'
+author: 'Lars Klingenberg'
 level: 3
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming, technology]
-    grade: [junior, senior]
 ---
 # Publiser nettsiden din på Internett{ .activity }
 

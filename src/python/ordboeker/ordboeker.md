@@ -1,12 +1,8 @@
 ---
 level: 3
 title: Ordbøker
-author: Ole Kristian Pedersen, Kodeklubben Trondheim
+author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
 language: nb
-tags:
-  topic: [text_based ]
-  subject: [programming, english]
-  grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

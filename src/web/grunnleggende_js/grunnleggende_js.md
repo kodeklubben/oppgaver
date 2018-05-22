@@ -1,12 +1,8 @@
 ---
-title: "JS: Grunnleggende JavaScript"
+title: 'JS: Grunnleggende JavaScript'
 level: 2
-author: Lars Klingenberg
+author: 'Lars Klingenberg'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming, technology, mathematics]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

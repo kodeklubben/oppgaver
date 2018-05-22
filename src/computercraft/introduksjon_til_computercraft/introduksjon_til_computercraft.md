@@ -1,12 +1,8 @@
 ---
-title: Introduksjon til ComputerCraft
+title: 'Introduksjon til ComputerCraft'
 level: 1
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [text_based, minecraft]
-    subject: [technology, programming]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
