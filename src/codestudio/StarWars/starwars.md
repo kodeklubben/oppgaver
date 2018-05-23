@@ -1,9 +1,6 @@
 ---
-title: Star Wars
+title: 'Star Wars'
 level: 2
-external: https://studio.code.org/s/starwarsblocks/stage/1/puzzle/1
+external: 'https://studio.code.org/s/starwarsblocks/stage/1/puzzle/1'
 language: nb
-tags:
-    topic: [block_based, step_based]
-    grade: [primary, secondary, junior]
 ---

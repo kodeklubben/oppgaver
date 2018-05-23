@@ -1,12 +1,8 @@
 ---
 title: Snake
 level: 4
-author: Geir Arne Hjelle og Martin Lie
+author: 'Geir Arne Hjelle og Martin Lie'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

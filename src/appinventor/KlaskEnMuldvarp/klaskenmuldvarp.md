@@ -1,14 +1,10 @@
 ---
 title: Klask-en-Muldvarp
 level: 1
-author: Basert på MITs ["MoleMash for App Inventor 2"-guide](http://appinventor.mit.edu/explore/ai2/molemash.html)
-translator: Hanne Johnsen
-license: "[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)"
+author: 'Basert på MITs ["MoleMash for App Inventor 2"-guide](http://appinventor.mit.edu/explore/ai2/molemash.html)'
+translator: 'Hanne Johnsen'
+license: '[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)'
 language: nb
-tags:
-    topic: [block_based, app]
-    subject: [technology, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

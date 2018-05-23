@@ -1,12 +1,8 @@
 ---
-title: "PXT: Frustrasjon"
+title: 'PXT: Frustrasjon'
 level: 2
 author: dagfs
 language: nb
-tags:
-    topic: [block_based, electronics, game]
-    subject: [programming, mathematics]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

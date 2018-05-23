@@ -1,12 +1,8 @@
 ---
 title: ToPlayer
 level: 1
-author: Ruben Gjerstad Eide og Kine Gjerstad Eide
+author: 'Ruben Gjerstad Eide og Kine Gjerstad Eide'
 language: nb
-tags:
-    topic: [text_based]
-    subject: [mathematics, programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon: {.intro}

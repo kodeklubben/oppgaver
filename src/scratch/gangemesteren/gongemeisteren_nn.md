@@ -1,13 +1,9 @@
 ---
 title: Gongemeisteren
 level: 2
-author: Geir Arne Hjelle
-translator: Gro Anette Vestre
+author: 'Geir Arne Hjelle'
+translator: 'Gro Anette Vestre'
 language: nn
-tags:
-    topic: [block_based, game]
-    subject: [mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

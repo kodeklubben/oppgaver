@@ -1,12 +1,8 @@
 ---
 title: Julekort
 level: 1
-author: Espen Clausen
+author: 'Espen Clausen'
 language: nb
-tags:
-    topic: [block_based, animation]
-    subject: [english, arts_and_crafts, music]
-    grade: [primary, secondary]
 ---
 
 # Introduksjon {.intro}

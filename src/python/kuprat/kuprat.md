@@ -1,12 +1,8 @@
 ---
 title: Kuprat
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 level: 1
 language: nb
-tags:
-  topic: [text_based]
-  subject: [norwegian]
-  grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

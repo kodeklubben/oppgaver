@@ -1,10 +1,7 @@
 ---
 title: Codecademy
 language: en
-external: https://www.codecademy.com/learn/all/
-tags:
-    topic: [text_based, step_based, web]
-    grade: [junior, senior]
+external: 'https://www.codecademy.com/learn/all/'
 ---
 
 Codecademy is a website with a lot of different interactive, step based courses.

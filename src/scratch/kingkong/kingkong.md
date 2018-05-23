@@ -1,12 +1,8 @@
 ---
-title: King Kong
+title: 'King Kong'
 level: 3
-author: Samuel Erik Abildsø og Geir Arne Hjelle
+author: 'Samuel Erik Abildsø og Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [english, arts_and_crafts, mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

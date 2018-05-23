@@ -1,12 +1,8 @@
 ---
 title: RGB-lysdiode
 level: 1
-author: Morten Minde Neergaard & Martin Ertsås
+author: 'Morten Minde Neergaard & Martin Ertsås'
 language: nb
-tags:
-    topic: [text_based, electronics]
-    subject: [technology, programming]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

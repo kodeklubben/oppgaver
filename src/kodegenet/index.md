@@ -1,10 +1,7 @@
 ---
 title: Kodegenet
 language: nb
-external: https://kodegenet.no/tracks/
-tags:
-    topic: [electronics, block_based, text_based, web, game, robot]
-    grade: [secondary, junior, senior]
+external: 'https://kodegenet.no/tracks/'
 ---
 
 Kodegenet tilbyr gratis ressurser på norsk for å lære seg programmering! Her

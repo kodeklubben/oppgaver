@@ -1,12 +1,8 @@
 ---
-title: Rotasjon rundt et punkt
+title: 'Rotasjon rundt et punkt'
 level: 1
-author: Carl A. Myrland
+author: 'Carl A. Myrland'
 language: nb
-tags:
-    topic: [block_based]
-    subject: [mathematics]
-    grade: [primary, secondary, junior]
 ---
 
 

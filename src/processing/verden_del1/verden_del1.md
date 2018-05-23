@@ -1,12 +1,8 @@
 ---
 title: Verden
 level: 1
-author: Kine Gjerstad Eide og Ruben Gjerstad Eide
+author: 'Kine Gjerstad Eide og Ruben Gjerstad Eide'
 language: nb
-tags:
-    topic: [text_based]
-    subject: [mathematics, programming, social_science]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

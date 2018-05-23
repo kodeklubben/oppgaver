@@ -1,11 +1,7 @@
 ---
-title: Sonic Pi
+title: 'Sonic Pi'
 language: nb
-external: http://sonic-pi.mehackit.org/index_no.html
-tags:
-    topic: [text_based, sound]
-    subject: [music, programming]
-    grade: [primary, secondary, junior]
+external: 'http://sonic-pi.mehackit.org/index_no.html'
 ---
 
 Sonic Pi er et programmeringsspråk for å lage lyder og musikk. Med enkle

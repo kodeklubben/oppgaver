@@ -1,12 +1,8 @@
 ---
 title: Hoppehelt
 level: 4
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
