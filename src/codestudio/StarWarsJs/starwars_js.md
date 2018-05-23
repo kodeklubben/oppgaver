@@ -1,9 +1,6 @@
 ---
-title: Star Wars JavaScript
+title: 'Star Wars JavaScript'
 level: 3
-external: https://studio.code.org/s/starwars/stage/1/puzzle/1
+external: 'https://studio.code.org/s/starwars/stage/1/puzzle/1'
 language: nb
-tags:
-    topic: [text_based, block_based, step_based]
-    grade: [secondary, junior]
 ---

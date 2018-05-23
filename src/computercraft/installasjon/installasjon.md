@@ -1,12 +1,8 @@
 ---
-title: Installering av ComputerCraft
-author: Geir Arne Hjelle
-indexed: False
+title: 'Installering av ComputerCraft'
+author: 'Geir Arne Hjelle'
+indexed: false
 language: nb
-tags:
-    topic: [text_based, minecraft]
-    subject: [technology, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

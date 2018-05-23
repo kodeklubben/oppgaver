@@ -1,12 +1,8 @@
 ---
 title: Gjettelek
 level: 3
-author: Ole Kristian Pedersen, Kodeklubben Trondheim
+author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
 language: nb
-tags:
-  topic: [text_based, game]
-  subject: [programming]
-  grade: [secondary, junior, senior]
 ---
 
 # Gjett et tall!  {.intro}

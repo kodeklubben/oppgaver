@@ -1,13 +1,9 @@
 ---
-title: 3D-Flaksar, Del 1
+title: '3D-Flaksar, Del 1'
 level: 4
-author: Gudbrand Tandberg og Geir Arne Hjelle
-translator: Gro Anette Vestre
+author: 'Gudbrand Tandberg og Geir Arne Hjelle'
+translator: 'Gro Anette Vestre'
 language: nn
-tags:
-    topic: [block_based, game, animation]
-    subject: [arts_and_crafts, mathematics, science]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

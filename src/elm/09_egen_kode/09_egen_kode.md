@@ -1,12 +1,8 @@
 ---
-title: "Skrive egen kode"
+title: 'Skrive egen kode'
 level: 2
-author: Erik Aasmundrud
+author: 'Erik Aasmundrud'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming, mathematics]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

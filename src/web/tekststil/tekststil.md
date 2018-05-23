@@ -1,11 +1,7 @@
 ---
-title: "CSS: Endre utseende og stil på tekst"
+title: 'CSS: Endre utseende og stil på tekst'
 level: 2
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming, technology]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

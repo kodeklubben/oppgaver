@@ -1,12 +1,8 @@
 ---
-title: "Input fra brukeren"
+title: 'Input fra brukeren'
 level: 3
-author: Alexander Perry
+author: 'Alexander Perry'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

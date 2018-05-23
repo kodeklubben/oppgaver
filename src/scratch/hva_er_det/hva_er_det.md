@@ -1,15 +1,11 @@
 ---
-title: Hva er det?
+title: 'Hva er det?'
 level: 3
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Anne-Marit Gravem
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Anne-Marit Gravem'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

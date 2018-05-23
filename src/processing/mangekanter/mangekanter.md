@@ -1,12 +1,8 @@
 ---
-title: Kanter, kanter, mange mangekanter
+title: 'Kanter, kanter, mange mangekanter'
 level: 2
-author: Sigmund Hansen
+author: 'Sigmund Hansen'
 language: nb
-tags:
-    topic: [text_based, animation]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon: {.intro}

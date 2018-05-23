@@ -1,12 +1,8 @@
 ---
 title: Ultralydsensor
 level: 2
-author: Martin Ertsås & Morten Minde Neergaard
+author: 'Martin Ertsås & Morten Minde Neergaard'
 language: nb
-tags:
-    topic: [text_based, electronics]
-    subject: [technology, programming, science]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

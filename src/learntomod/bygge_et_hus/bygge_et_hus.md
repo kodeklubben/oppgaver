@@ -1,12 +1,8 @@
 ---
-title: Bygge et hus
+title: 'Bygge et hus'
 level: 3
-author: Pål G. Solheim
+author: 'Pål G. Solheim'
 language: nb
-tags:
-    topic: [block_based, minecraft]
-    subject: [technology, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

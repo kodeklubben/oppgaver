@@ -1,12 +1,8 @@
 ---
-title: Hvor i All Verden? Del 3
+title: 'Hvor i All Verden? Del 3'
 level: 3
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [mathematics, programming, social_science]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

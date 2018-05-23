@@ -1,12 +1,8 @@
 ---
 title: Skilpaddefraktaler
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 level: 3
 language: nb
-tags:
-  topic: [text_based]
-  subject: [mathematics, programming, arts_and_crafts]
-  grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

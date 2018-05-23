@@ -1,12 +1,8 @@
 ---
-title: Noen kule modder
+title: 'Noen kule modder'
 level: 2
-author: Pål G. Solheim
+author: 'Pål G. Solheim'
 language: nb
-tags:
-    topic: [block_based, minecraft]
-    subject: [technology, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}

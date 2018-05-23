@@ -1,12 +1,8 @@
 ---
-title: Send en beskjed
+title: 'Send en beskjed'
 level: 2
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, minecraft]
-    subject: [technology, programming]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

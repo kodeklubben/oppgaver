@@ -1,12 +1,8 @@
 ---
-title: "Elm repl og funksjoner"
+title: 'Elm repl og funksjoner'
 level: 2
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
