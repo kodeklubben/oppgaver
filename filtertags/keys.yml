@@ -1,4 +1,3 @@
----
 language: #Logical OR
   - nb  # Norwegian bokmål
   - nn  # Norwegian nynorsk
@@ -34,4 +33,3 @@ grade: #Logical AND
   - secondary   #Projects aimed at students in grade 5.-7.
   - junior      #Projects aimed at students in grade 8.-10.
   - senior      #Projects aimed at students in high school.
----

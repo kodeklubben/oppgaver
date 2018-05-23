@@ -1,4 +1,3 @@
----
 language:
   NAME: Language
   TAGS:
@@ -87,4 +86,3 @@ grade:
     senior:
       NAME: Senior
       TOOLTIP: Highschool, grades 11-13, ages 16-18
----
