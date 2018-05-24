@@ -1,4 +1,3 @@
----
 language:
   NAME: Språk
   TAGS:
@@ -87,4 +86,3 @@ grade:
     senior:
       NAME: gymnasie skola
       TOOLTIP: Ungdom 16-18 år
----
