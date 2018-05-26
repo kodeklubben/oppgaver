@@ -1,0 +1,10 @@
+sortindex: 1
+title:
+    nb: 'Kodeklubbens oppgaver'
+    nn: 'Kodeklubbens oppgaver'
+    en: 'Kodeklubben''s lessons'
+lessons:
+    - introduksjon
+    - KlaskEnMuldvarp
+    - ta_ballen
+    - lag_din_egen_app

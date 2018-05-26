@@ -1,0 +1,10 @@
+sortindex: 2
+title:
+  nb: 'Trykksensor'
+  nn: 'Trykksensor'
+  en: 'Pressure sensor'
+lessons:
+  - trykk_1trykksensor
+  - trykk_2fjernkontroll
+  - trykk_3robot
+  - trykk_4bil
