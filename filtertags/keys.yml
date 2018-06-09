@@ -17,6 +17,7 @@ topic: #Logical AND
   - robot       #Physical objects that moves
   - animation   #Machine-made cartoons
   - sound       #Projects involving sounds or music
+  - cryptography#Projects about cryptography and information security
 subject: #Logical AND
   - mathematics
   - science

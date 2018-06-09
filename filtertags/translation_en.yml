@@ -47,6 +47,9 @@ topic:
     sound:
       NAME: Sound
       TOOLTIP: Program sound and music.
+    cryptography:
+      NAME: Cryptography
+      TOOLTIP: Learn about computer security.
 subject:
   NAME: Subject
   TAGS:
