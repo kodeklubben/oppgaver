@@ -47,6 +47,9 @@ topic:
     sound:
       NAME: Ljod
       TOOLTIP: Programmere ljod og musikk.
+    cryptography:
+      NAME: Kryptografi
+      TOOLTIP: Lær om datasikkerheit.
 subject:
   NAME: Fag
   TAGS:
