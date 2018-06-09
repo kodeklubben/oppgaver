@@ -47,6 +47,9 @@ topic:
     sound:
       NAME: Lyd
       TOOLTIP: Programmere lyd og musikk.
+    cryptography:
+      NAME: Kryptografi
+      TOOLTIP: Lær om datasikkerhet.
 subject:
   NAME: Fag
   TAGS:
