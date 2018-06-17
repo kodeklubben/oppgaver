@@ -1,8 +1,8 @@
 sortindex: 1
 title:
   nb: 'Intro til web'
-  nb: 'Intro til web'
-  nb: 'Intro to web'
+  nn: 'Intro til web'
+  en: 'Intro to web'
 lessons:
   - introduksjon_til_web
   - en_hjemmeside
