@@ -11,7 +11,7 @@ Vi skal her se hvordan vi kan bruke navnelister fra
 [Statistisk Sentralbyrå](http://www.ssb.no/navn) i Scratch. Kanskje katten
 klarer å finne forskjellen på jente- og guttenavn?
 
-![Illustrer katten Felix som skiller mellom jente og guttenavn.](data_navn.png)
+![Illustrer katten Felix som skiller mellom jente og guttenavn](data_navn.png)
 
 # Steg 1: Statistisk Sentralbyrås navnelister {.activity}
 
