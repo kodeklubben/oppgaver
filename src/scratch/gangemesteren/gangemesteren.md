@@ -68,7 +68,7 @@ sammen tall.
   på høyresiden. Skriv inn to tall og klikk på klossen. Scratch
   regner da ut svaret på gangestykket.
 
-  ![Bilde av Scratch som regner ut 3*4](gangeoperator.png)
+  ![Bilde av Scratch som regner ut 3 ganger 4](gangeoperator.png)
 
 - [ ] Vi vil nå kombinere gangeklossen med `tilfeldig
   tall`{.blockoperators}-klossen, men for å få dette til trenger vi en
@@ -92,7 +92,7 @@ sammen tall.
   måten). Om du ser på variablene på scenen skal de endre seg hver
   gang du klikker på skriptet. Er `riktig svar`{.blockdata} rett?
 
-  ![Bilde to tall, og deres produkt i Scratch](variabler.png)
+  ![Bilde av to tall, og deres produkt i Scratch](variabler.png)
 
 # Steg 3: Et skikkelig spørsmål {.activity}
 
