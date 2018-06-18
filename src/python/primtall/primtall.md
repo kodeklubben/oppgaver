@@ -11,7 +11,7 @@ tags:
 
 # Introduksjon {.intro}
 
-I matematikktimene har du lært om primtall, tall som er slik at de bare kan deles av seg selv og 1. Nå skal vi se hvordan vi kan undersøke om et vilkårlig heltall er et primtall eller ikke.
+I matematikktimene har du lært om primtall, altså tall som er slik at de bare kan deles av seg selv og 1. Nå skal vi se hvordan vi kan undersøke om et vilkårlig heltall er et primtall eller ikke.
 
 Når vi skal kryptere data er vi ofte avhengige av å jobbe med store primtall, og vi vil få bruk for det i senere oppgaver. For å jobbe med primtall, må vi først ha en måte å finne dem på.
 
@@ -51,7 +51,9 @@ Over fikk vi 0 når vi regnet ut `15 % 3`. Det betyr at 3 går opp i 15, og alts
 
 # Steg 3: Forbedret prøvedivisjon {.activity}
 
-Vi har laget et program som gir riktig svar, men som bruker veldig lang tid på å gjøre det. Da må vi se om vi kan øke hastigheten på koden vår, og her kan vi få hjelp av et enkelt matematisk argument. Si at et tall *n* er et produkt av to andre, slik at *n = pq*. Da må enten *p* eller *q* være mindre enn kvadratroten av *n*. (Hvis du er interessert, her er en forklaring på hvorfor: Hvis begge er større, så får vi følgende utregning: *n* = *pq* > $\sqrt(n) \sqrt(n)$ = *n*. Da har vi *n* > *n*, og det er umulig. Derfor må minst en av *p* og *q* være mindre.) TODO: Denne burde være i en spoiler-boks.
+Vi har laget et program som gir riktig svar, men som bruker veldig lang tid på å gjøre det. Da må vi se om vi kan øke hastigheten på koden vår, og her kan vi få hjelp av et enkelt matematisk argument. Si at et tall *n* er et produkt av to andre, slik at *n = pq*. Da må enten *p* eller *q* være mindre enn kvadratroten av *n*. 
+
+(Hvis du er interessert, her er en forklaring på hvorfor: Hvis begge er større, så får vi følgende utregning: $n = pq > \sqrt(n) \sqrt(n) = n$. Da har vi *n* > *n*, og det er umulig. Derfor må minst en av *p* og *q* være mindre.)
 
 I Python kan vi regne ut kvadratrøtter ved å bruke funksjonen `sqrt` som finnes i `math`-biblioteket. Siden `sqrt` kan returnere et flyttall, bruker vi også funksjonen `ceil` fra samme bibliotek for å runde opp til nærmeste heltall. 
 
@@ -87,6 +89,8 @@ Vi kan ennå gjøre koden vår raskere ved å sjekke for 2, og deretter hoppe ov
   from math import sqrt, ceil
   
   def is_prime(n):
+      if n == 2:
+          return True
       if n % 2 == 0:
           return False
       for i in range(3, ceil(sqrt(n)) + 1, 2):
@@ -107,6 +111,8 @@ Men, hvorfor skal vi stanse her? Vi kan jo også dele på 3 og 5 til å begynne 
   from math import sqrt, ceil
   
   def is_prime(n):
+      if n == 2:
+          return True
       if n % 2 == 0:
           return False
       for i in range(3, ceil(sqrt(n)) + 1, 2):
@@ -121,7 +127,7 @@ Men, hvorfor skal vi stanse her? Vi kan jo også dele på 3 og 5 til å begynne 
   
 - [ ] Test den nye koden på 2147483647. Da merker du kanskje at det nå tar litt *lenger* tid enn det gjorde før. Det er fordi vi nå har endt opp med å gjøre mange flere primtallstester enn vi gjorde før. Denne siste endringen var derfor en blindvei, men slik er det ofte i programmering: Ikke alle ideer er like gode.
 
-- [ ] Til slutt prøver vi et kompromiss. Vi kan begynne med å lage en liste over små primtall som vi allerede vet om, og teste med dem først. Deretter kjører vi testen slik vi har gjort først. Endre koden til slik at den ser slik ut:
+- [ ] Vi prøver et kompromiss. Vi kan begynne med å lage en liste over små primtall som vi allerede vet om, og teste med dem først. Deretter kjører vi testen slik vi har gjort først. Endre koden til slik at den ser slik ut:
 
   ```python
   from math import sqrt, ceil
@@ -142,8 +148,18 @@ Men, hvorfor skal vi stanse her? Vi kan jo også dele på 3 og 5 til å begynne 
   print(is_prime(15))
   print(is_prime(29))
   ```
-  
-Denne siste koden er den raskeste vi har hatt hittil, og hvis man skal sjekke veldig mange tall på kort tid, gjør den siste forbedringen vår at det vil gå ganske raskt.
+  Denne siste koden er den raskeste vi har hatt hittil, og hvis man skal sjekke veldig mange tall på kort tid, gjør den siste forbedringen vår at det vil gå ganske raskt.
+
+- [ ] Helt til sist skal vi legge til to veldig viktige linjer. Vi har til nå *antatt* at brukeren alltid vil sende et tall til funksjonen vår. Men, det kan vi aldri vite helt sikkert. Når vi jobber med programmering (og spesielt når det er kode som handler om sikkerhet!) må vi passe på at koden bare kan brukes til det den skal. Vi starter derfor funksjonen vår med å sjekke at vi faktisk har fått inn et positivt heltall. Endre koden din slik:
+  ```python
+  (...)
+  def is_prime(n):
+      if not (isinstance(n, (int, long)) and n > 1): 
+          return False
+      small_primes = [2, 3, 5, 7, 11, 13, 17, 19]
+  (...)
+  ```
+
 
 # Bonus {.activity}
 
@@ -173,8 +189,10 @@ def eratosthenes(upper_limit):
     // din kode her
 
 def is_prime(n, small_primes=[2, 3, 5]):
+    if not (isinstance(n, (int, long)) and n > 1): 
+        return False
     if n in small_primes:
-      return True
+        return True
     for prime in small_primes:
         if n % prime == 0:
             return False
