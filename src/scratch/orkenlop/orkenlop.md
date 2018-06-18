@@ -15,7 +15,7 @@ komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og
 ofte som mulig for å flytte figuren sin, og den som kommer først til
 kanten av skjermen vinner.
 
-![](orkenlop.png)
+![Illustrasjon av et ferdig ørkenløp spill](orkenlop.png)
 
 # Steg 1: Lag en scene og legg til figurer {.activity}
 

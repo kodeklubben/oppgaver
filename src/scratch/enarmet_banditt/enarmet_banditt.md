@@ -13,7 +13,7 @@ language: nb
 Dette er et spill med tre figurer som endrer utseende. Din oppgave er
 å stoppe figurene én etter én, slik at alle tre blir like.
 
-![](enarmet_banditt.png)
+![Bilde av to dinosaurer og en banan](enarmet_banditt.png)
 
 # Steg 1: Lag en figur som bytter drakt {.activity}
 

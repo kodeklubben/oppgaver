@@ -12,7 +12,7 @@ language: nb
 # Introduksjon {.intro}
 I denne oppgaven skal vi importere en geometrisk figur og deretter `rotere`{.blockmotion} den.
 
-![](Geometri.png)
+![Bilde av en trollmann hatt](Geometri.png)
 
 # Steg 1: Vi roterer en likebeint trekant {.activity}
 

@@ -10,7 +10,7 @@ language: nb
 Det er ganske enkelt å lage interessante animasjoner i Scratch. Her skal vi se
 hvordan vi kan flytte og snurre på figurer for å skape spennende mønstre.
 
-![](snurrige_figurer.png)
+![Bilde av et spennende mønster rundt en sirkel](snurrige_figurer.png)
 
 # Steg 1: En snurrig figur {.activity}
 
@@ -32,7 +32,7 @@ hvordan vi kan flytte og snurre på figurer for å skape spennende mønstre.
     figur. Trykk deretter `Bytt til vektorgrafikk` nede til høyre, og bruk
     linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å tegne en trekant.
 
-    ![](tegn_trekant.png)
+    ![Bilde av en trekant i Scratch](tegn_trekant.png)
 
 - [ ] Nå skal vi få trekanten til å flytte seg! Skriv denne koden:
 
@@ -82,7 +82,7 @@ på.
   dukker da opp en ny knapp som kalles `Del opp gruppe` (se skjermbildet
   under). Klikk på denne knappen.
 
-    ![](del_opp_stjernegruppe.png)
+  ![Viser "del opp gruppe" knappen i Scratch](del_opp_stjernegruppe.png)
 
 - [ ] Stjernen har nå blitt delt i to trekant-figurer. Du kan nå klikke på en av
   trekantene, og deretter på `delete`-tasten på tastaturet for å slette den.
@@ -250,7 +250,7 @@ __Trykk på C-tasten.__
 
 *Vi kan også lage mønstre av andre figurer enn trekanter.*
 
-![](dansende_sirkler.png)
+![Bilde av to mønstre som er laget ved å bruke sirkler](dansende_sirkler.png)
 
 ## Sjekkliste {.check}
 

@@ -15,7 +15,7 @@ forvrengt, slik at du må gjette hva det er ved å klikke på et av
 alternativene som vises under. Desto raskere du gjetter riktig, desto
 flere poeng får du.
 
-![](hva_er_det.png)
+![Illustrasjon av et ferdig hva-er-det spill](hva_er_det.png)
 
 # Steg 1: Få flere ting til å vise seg på tavlen {.activity}
 

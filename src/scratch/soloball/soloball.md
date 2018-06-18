@@ -11,7 +11,7 @@ Vi skal nå lære hvordan vi kan lage et enkelt ballspill med Scratch. I
 soloball skal du styre katten som kontrollerer ballen, slik at ballen
 ikke går i nettet.
 
-![](soloball.png)
+![Bilde av katten Felix som spiller soloball](soloball.png)
 
 # Steg 1: En roterende katt {.activity}
 
@@ -73,17 +73,17 @@ slik at det ser ut som om den løper i sirkel i stedet for å rotere.
 - [ ] Gjør katten mindre ved å klikke på den i det store bildet, og
   deretter dra i et av hjørnene.
 
-  ![](katt_krymp.png)
+  ![Bilde av hvordan krympe katten Felix](katt_krymp.png)
 
 - [ ] Roter deretter katten ved å dra i den lille rundingen over katten.
 
-  ![](katt_roter.png)
+  ![Bilde av hvordan rotere katten Felix](katt_roter.png)
 
 - [ ] Til slutt kan du ta tak i kattefiguren ved å klikke på den lille
   rundingen midt på katten. Flytt den et stykke til siden. Følg med på
   scenen øverst til venstre at du ikke drar den av skjermen.
 
-  ![](katt_flytt.png)
+  ![Bilde av hvordan flytte den roterte katten Felix](katt_flytt.png)
 
 ## Test prosjektet {.flag}
 
@@ -193,7 +193,7 @@ __Klikk på det grønne flagget.__
 - [ ] Tegn en liten loddrett strek til høyre på figuren din. Hold gjerne
   inne `Skift`-knappen, da får du en helt loddrett strek.
 
-  ![](tegn_nett.png)
+  ![Bilde av en helt loddrett strek](tegn_nett.png)
 
 - [ ] Klikk på `Skript`{.blocklightgrey}-fanen.
 
@@ -280,12 +280,12 @@ __Klikk på det grønne flagget.__
 En bra modell for hvordan en ball spretter er at vinkelen ut er den
 samme som vinkelen inn.
 
-![](sprett_vinkel1.png)
+![Bilde av hvordan en ball sprett](sprett_vinkel1.png)
 
 I spillet er det to retninger vi må tenke på, retningen til ballen og
 retningen kattefiguren står i.
 
-![](sprett_vinkel2.png)
+![Bilde av retning av katt og ball](sprett_vinkel2.png)
 
 I figuren over og i koden videre betyr `retning`{.blockmotion} retningen
 til ballen, siden koden tilhører ballfiguren.  Så langt har vi brukt
@@ -414,7 +414,7 @@ selv!
   boksen på scenen ved å fjerne avhukingen ved siden av
   `Hastighet`{.blockdata}.
 
-  ![](variabel.png)
+  ![Bilde av hvordan skjule variabelen "Hastighet"](variabel.png)
 
 - [ ] Vi vil nå sette hastigheten til `3` (du kan bruke et annet tall om
   du vil) når spillet starter. Deretter vil vi øke denne littegrann

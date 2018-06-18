@@ -15,7 +15,7 @@ styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av
 Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du
 tatt, går poengsummen din ned.
 
-![](felix_og_herbert.png)
+![Bilde av katten Felix og musa Herbert](felix_og_herbert.png)
 
 # Steg 1: Felix følger musepekeren {.activity}
 
@@ -204,7 +204,7 @@ __Klikk på det grønne flagget.__
   variabel. Kall variabelen for `Poeng`, og la den gjelde for alle
   figurer.
 
-  ![](ny-variabel-poeng.png)
+  ![Bilde av den nye poeng variabelen](ny-variabel-poeng.png)
 
   Legg merke til at `Poeng `{}` 0 `{.blockdata}` ` dukket opp øverst til
   venstre i spillet ditt.

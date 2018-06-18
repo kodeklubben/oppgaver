@@ -12,7 +12,7 @@ Halloween-tema. Disse kan vi enten dele med vennene våre gjennom
 Scratch, eller kanskje enda morsommere: Vi kan projisere dem på en
 gardin, et laken eller en vegg under Halloween.
 
-![](halloweenimasjon.jpg)
+![Bilde av et skummelt halloween ansikt](halloweenimasjon.jpg)
 
 # Steg 1: En første animasjon {.activity}
 
@@ -32,7 +32,7 @@ gardin, et laken eller en vegg under Halloween.
 - [ ] Trykk på `i`{.blockmotion} øverst til venstre på den nye
   spøkelsesfiguren din. Gi den navnet `Spøkelse`.
 
-  ![](spokelse.png)
+  ![Bilde av et skummelt spøkelse](spokelse.png)
 
 - [ ] Nå skal vi lage et enkelt skript som får spøkelset til å fly over
   skjermen. Bygg sammen en `gjenta`{.blockcontrol}- og en
@@ -87,7 +87,7 @@ gardin, et laken eller en vegg under Halloween.
 
 *For vår andre animasjon vil en demon komme flyvende mot oss.*
 
-![](demon.png)
+![Bilde av en skummel demon](demon.png)
 
 ## Sjekkliste {.check}
 
@@ -311,12 +311,12 @@ __Klikk på det grønne flagget.__
   figur`. Du kan tegne hva du vil. Her har vi tegnet et
   Jack-O'-Lantern-gresskar.
 
-  ![](gresskar.png)
+  ![Bilde av gresskar med utskjært ansikt](gresskar.png)
 
 - [ ] Lag en kopi av drakten du nettopp tegnet ved å høyreklikke på
   miniatyren under `Ny drakt`-overskriften og velg `lag en kopi`.
 
-  ![](kopier_gresskar.png)
+  ![Bilde av hvordan lage en kopi av gresskaret i scratch](kopier_gresskar.png)
 
 - [ ] Endre litt på den kopierte drakten, slik at du får to drakter som er
   ganske, men ikke helt, like. Vi vil nå animere figuren ved å bytte

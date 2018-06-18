@@ -12,7 +12,7 @@ etter skatten gjemt inne i labyrinten. Dessverre er skatten beskyttet
 av den skumle froskekongen. Vi vil lære hvordan vi kontrollerer
 figurer, og hvordan vi kan programmere figurer til å bevege seg selv.
 
-![](labyrint.png)
+![Bilde av labyrinten, froskekongen, utforskeren og skatten](labyrint.png)
 
 # Steg 1: Hvordan styre figurer med piltastene {.activity}
 
@@ -157,7 +157,7 @@ __Klikk på det grønne flagget.__
   snart). Du kan velge selv hvordan labyrinten skal se ut, den trenger
   ikke en gang å ha rette vegger!
 
-  ![](liten-labyrint.png)
+  ![Bilde av en enkel liten labyring](liten-labyrint.png)
 
   Dette er et eksempel på en liten og enkel labyrint. Du kan selv
   velge hvordan din labyrint skal se ut! Men ikke bruk for lang tid

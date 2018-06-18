@@ -10,7 +10,7 @@ language: nb
 Vi skal lage et enkelt fotballspill, hvor du skal prøve å score på så
 mange straffespark som mulig.
 
-![](straffespark.png)
+![Illustrasjon av et ferdig straffespark spill](straffespark.png)
 
 # Steg 1: Katten og fotballbanen {.activity}
 
@@ -140,7 +140,7 @@ __Klikk på det grønne flagget.__
   `Drakter`-fanen, og deretter på snu-knappen som er merket med rødt i
   figuren under.
 
-  ![](snu_figur.png)
+  ![Bilde av hvordan snu figuren i Scratch](snu_figur.png)
 
 - [ ] Gi figuren navnet `Keeper`.
 
@@ -254,7 +254,7 @@ skjermen, mens `(y-posisjon)`{.b} sier hvor langt opp eller ned på
 skjermen en figur er. Rett under scenen kan du se to tall merket `x`
 og `y`. Disse viser koordinatene til musepekeren.
 
-![](koordinater.png)
+![Bilde av hvor x- og y-koordinatene vises i Scratch](koordinater.png)
 
 - [ ] Vi sier at det har blitt mål om ballen går langt nok til høyre uten
   at den blir reddet. Om du prøver å peke på målstangen med

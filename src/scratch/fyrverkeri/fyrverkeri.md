@@ -12,7 +12,7 @@ language: nb
 
 I dette prosjektet skal vi skyte opp fyrverkeri over en by.
 
-![](fyrverkeri.png)
+![Bilde av en rakett over en by](fyrverkeri.png)
 
 # Forberedelser: Last ned bildefiler {.activity}
 

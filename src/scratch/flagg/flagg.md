@@ -11,7 +11,7 @@ I denne oppgaven vil vi se litt nærmere på hvordan vi kan lage spennende møns
 og animasjoner ved hjelp av litt matematikk. Spesielt skal vi tegne et flagg som
 ser ut som om det vaier i vinden.
 
-![](flagg.png)
+![Bilde av Norges flagg som vaier i vind](flagg.png)
 
 # Steg 1: Gå i sirkel {.activity}
 
@@ -26,7 +26,7 @@ rettvinklet trekant er i forhold til hverandre. I figuren nedenfor forteller for
 eksempel _cosinus_, `cos(vinkel)` oss hvor lang den vannrette streken er i
 forhold til den skrå streken.
 
-![](../lunar_lander/sinus_cosinus.png)
+![Bilde av sammenhengen mellom vinkel, sinus og cosinus](../lunar_lander/sinus_cosinus.png)
 
 La oss se hvordan vi kan bruke dette til å tegne sirkler!
 
@@ -119,7 +119,7 @@ Nå skal vi prøve å få mange figurer til å gå i sirkel samtidig.
 - [ ] Tegn en ny drakt på figuren din. Bruk vektorgrafikk til å tegne en rød fyllt
   sirkel (disk). Denne kan være ganske liten, for eksempel `20 x 20` piksler.
 
-  ![](rod_disk.png)
+  ![Bilde av en liten rød fyllt disk i Scratch](rod_disk.png)
 
 - [ ] Vi kan lage mange røde disker ved å klone denne ene disken. Del koden din i to
   deler, og endre den på denne måten:
@@ -211,7 +211,7 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
   dine navnene `r`, `h` og `b` slik at navnet er første bokstaven i fargen på
   disken: `r`ød, `h`vit og `b`lå.
 
-  ![](tre_disker.png)
+  ![Bilde av en rød, hvit og blå disk i Scratch](tre_disker.png)
 
 - [ ] Vi skal nå bruke en ny variabel `(flagg)`{.b} som beskriver fargene i
   flagget. Lag variabelen _for alle figurer_ og legg deretter til koden:
