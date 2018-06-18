@@ -10,7 +10,7 @@ language: nb
 Velkommen til Scratch. Vi skal sammen lage et enkelt spill hvor pingvinene har
 rømt fra akvariet i Bergen, og det er din jobb å hjelpe dem hjem igjen.
 
-![](pingviner_pa_tur.png)
+![Bilde av pingviner på rømmen](pingviner_pa_tur.png)
 
 # Velkommen til Scratch {.activity}
 
@@ -181,7 +181,7 @@ _Pingvinen har rømt fra akvariet i Bergen, så da burde den jo springe rundt i 
   figuren `Button5`, og plasser denne ytterst på Nordnes for å vise hvor
   Akvariet er.
 
-    ![](nordnes.png)
+    ![Bilde av Nordnes i Bergen med kryss på akvariet](nordnes.png)
 
 - [ ] Vi vil nå endre navn på akvariefiguren slik at vi enklere husker hva den
   er. Klikk på `i`{.blockmotion} øverst til venstre på akvariefiguren i

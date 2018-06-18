@@ -17,7 +17,7 @@ I senere leksjoner vil vi utvide kartet vi flyr over ved å lage en
 bakgrunn som flytter seg. Vi vil også se på hvordan vi kan lage lister
 som holder oversikt over alle stedene vi kan besøke.
 
-![](hvor_i_all_verden_1.png)
+![Illustrasjon av et enkelt Hvor-i-All-Verden spill](hvor_i_all_verden_1.png)
 
 # Steg 1: Styr et helikopter {.activity}
 
@@ -146,7 +146,7 @@ __Klikk på det grønne flagget.__
   sirkel som er omtrent fire ruter stor. `skift`-knappen hjelper deg
   til å lage en helt rund sirkel.
 
-  ![](sirkel.png)
+  ![Bilde av helt rund rød sirkel](sirkel.png)
 
 - [ ] Gi denne nye figuren navnet `Sted`.
 
@@ -160,7 +160,7 @@ __Klikk på det grønne flagget.__
   koordinatene `x: -98` og `y: -120`. Koordinatene forteller hvor på
   kartet vi har lagt reisemålet vårt.
 
-  ![](reisemaal.png)
+  ![Bilde av x- og y koordinatene i Scratch](reisemaal.png)
 
 - [ ] Vi lager nå litt kode som passer på at reisemålet ligger riktig
   plassert på kartet, og som sier i fra hvis vi finner veien til

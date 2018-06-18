@@ -12,7 +12,7 @@ med spillet er å lande et romskip på månen. Selve kontrollen av
 romskipet ble videreført i spillet Asteroids som ble utgitt året
 etter.
 
-![](lunar_lander.png)
+![Illustrasjon av et ferdig Lunar Lander spill](lunar_lander.png)
 
 # Oversikt over prosjektet {.activity}
 
@@ -50,7 +50,7 @@ dette de matematiske funksjonene `sinus` og `cosinus` gjør. I
 funksjonen nedenfor forteller for eksempel `cosinus(vinkel)` oss hvor
 lang den vannrette streken er i forhold til den skrå streken.
 
-![](sinus_cosinus.png)
+![Viser sammenhengen mellom vinkel, cosinus og sinus](sinus_cosinus.png)
 
 ## Sjekkliste {.check}
 
@@ -224,7 +224,7 @@ lang den vannrette streken er i forhold til den skrå streken.
   finnene på romskipet slik at det ser ut som flammer som kommer fra
   motoren.
 
-  ![](animer_romskip.png)
+  ![Bilde av kopi av romskipet med flammer på!](animer_romskip.png)
 
 - [ ] En av utfordringene i det originale Lunar Lander-spillet var at
   spilleren bare hadde begrenset drivstoff tilgjengelig. Du kan legge

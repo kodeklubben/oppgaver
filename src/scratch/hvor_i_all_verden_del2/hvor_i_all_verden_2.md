@@ -17,7 +17,7 @@ er.
 I den siste leksjonen vil lage lister som gjør det enklere å legge til
 mange reisemål. Vi vil også lage en skikkelig intro til spillet.
 
-![](hvor_i_all_verden_2.png)
+![Illustrasjon av et forbedret Hvor-i-All-Verden spill](hvor_i_all_verden_2.png)
 
 # Steg 0: Forrige gang {.activity}
 
@@ -86,7 +86,7 @@ helikopteret og reisemålet er på skjermen (og på kartet). Om du
 trykker `i`{.blockmotion} på en figur vil du alltid se koordinatene til
 figuren, som to tall `x` og `y`.
 
-![](reisemaal.png)
+![Bilde av x- og y koordinatene i Scratch](reisemaal.png)
 
 Midt på skjermen har koordinatene `x: 0` og `y: 0`. Ellers beskriver
 `x` hvor et punkt er sideveis. Dersom `x` er mindre enn null er
@@ -95,7 +95,7 @@ høyre for midten. På samme måte sier `y` hvor høyt på skjermen et
 punkt er. `y` større enn null betyr at punktet er over midten, mens et
 punkt med negativ `y` vil være nedenfor midten av skjermen.
 
-![](koordinatsystem.png)
+![Bilde av et koordinatsystem](koordinatsystem.png)
 
 Vanligvis passer Scratch på disse koordinatene for oss, slik at vi
 ikke trenger å tenke så mye på dem.
@@ -253,7 +253,7 @@ eller lage egne klosser som man gjør i Scratch.
 - [ ] Klikk på `Flere klosser`{.blockmoreblocks} og lag en kloss som ser
   slik ut:
 
-  ![](nykloss.png)
+  ![Bilde av en ny kloss i Scratch](nykloss.png)
 
   hvor `sted` er tekst, mens `x` og `y` er tallverdier:
 

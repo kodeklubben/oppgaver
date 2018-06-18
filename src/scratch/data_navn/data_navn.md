@@ -11,7 +11,7 @@ Vi skal her se hvordan vi kan bruke navnelister fra
 [Statistisk Sentralbyrå](http://www.ssb.no/navn) i Scratch. Kanskje katten
 klarer å finne forskjellen på jente- og guttenavn?
 
-![](data_navn.png)
+![Illustrer katten Felix som skiller mellom jente og guttenavn.](data_navn.png)
 
 # Steg 1: Statistisk Sentralbyrås navnelister {.activity}
 
@@ -44,7 +44,7 @@ mange i Norge som får hvilke navn, både i dag og tidligere.*
 - [ ] Legg begge listene inn i det samme regnearket, og gi dem beskrivende
   overskrifter. Dette vil se ut omtrent som dette:
 
-    ![](navnelister_regneark.png)
+    ![Bilde av regneark med kolonne for jente- og guttenavn](navnelister_regneark.png)
 
 - [ ] Dette er viktig! Lagre regnearket som CSV. Du gjør dette ved å velge **Lagre
   som** eller **Eksporter** fra menyen og deretter velge formatet **CSV**. Gi
@@ -69,7 +69,7 @@ mange i Norge som får hvilke navn, både i dag og tidligere.*
 
 - [ ] Klikk **OK**. Navnelistene vil nå lastes inn. Det skal se omtrent slik ut:
 
-    ![](navnelister_scratch.png)
+    ![Bilde av navnelistene i Scratch](navnelister_scratch.png)
 
 - [ ] Navnelistene er eksempler på noe som rett og slett kalles **lister** i
   Scratch. De programmeres ved hjelp av klosser som ligger i

@@ -16,7 +16,7 @@ videreutviklet Breakout på flere måter. For eksempel ved at noen
 bokser gir spesielle bonuser, ved at det finnes forskjellige brett av
 ulik vanskelighetsgrad og så videre.
 
-![](breakout.png)
+![Illustrasjon av et ferdig Breakout spill](breakout.png)
 
 # Oversikt over prosjektet {.activity}
 

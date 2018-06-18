@@ -13,7 +13,7 @@ siste av tre leksjoner. I denne delen skal vi se på lister og hvordan
 vi kan bruke dem til å velge reisemål tilfeldig. Vi vil avslutte med å
 lage en skikkelig intro til spillet.
 
-![](hvor_i_all_verden_3.png)
+![Illustrasjon av introen til et Hvor-i-All-Verden spill](hvor_i_all_verden_3.png)
 
 # Steg 0: Forrige gang {.activity}
 
@@ -186,7 +186,7 @@ sier hvor stedet ligger. En måte å gjøre dette på er å bruke tre lister.
   firkanter og fylle dem med fargeoverganger. Deretter skrev vi litt
   tekst på denne bakgrunnen.
 
-  ![](meny.png)
+  ![Bilde av bakgrunnen til start-menyen](meny.png)
 
   Kall denne bakgrunnen for `meny`.
 
@@ -196,7 +196,7 @@ vi at et nytt spill starter når vi trykker mellomrom-tasten. Når
 spillet er slutt vil vi at menyen skal vises igjen. Vi kan tegne
 programflyten omtrent som dette:
 
-![](programflyt.png)
+![Bildet av programflytet til Hvor-i-All-Verden spillet](programflyt.png)
 
 - [ ] For å lage denne programflyten kan vi stort sett bruke skript på
   scenen. Lag de følgende enkle skriptene:

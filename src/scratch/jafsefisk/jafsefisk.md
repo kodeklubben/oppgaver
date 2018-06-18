@@ -13,7 +13,7 @@ language: nb
 Vi skal nå lage et JafseFisk-spill! Målet i spillet er å hjelpe
 JafseFisk med å spise alle byttedyrene som svømmer rundt i havet.
 
-![](jafsefisk.png)
+![Illustrasjon av et ferdig JafseFisk spill](jafsefisk.png)
 
 # Steg 1: JafseFisk følger musepekeren {.activity}
 

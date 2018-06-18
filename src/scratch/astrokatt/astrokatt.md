@@ -12,7 +12,7 @@ ham? Underveis vil vi lære hvordan vi flytter figurer rundt på
 skjermen, og hvordan katter blir påvirket av gravitasjonskreftene fra
 jorden.
 
-![](astrokatt.png)
+![Bilde av en katt i verdensrommet](astrokatt.png)
 
 # Steg 1: En flyvende katt {.activity}
 
@@ -121,7 +121,7 @@ Nå skal vi sende den flyvende katten ut i verdensrommet.
 - [ ] Velg først en litt lys farge. Klikk deretter på Ellipse-verktøyet
   til høyre på skjermen, og tegn en ellipse rundt hodet på katten.
 
-  ![](katt_oksygentank.png)
+  ![Bilde av katt med oksygentank](katt_oksygentank.png)
 
 Til slutt lager vi også en jordklode, som katten kan fly rundt.
 

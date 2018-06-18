@@ -14,7 +14,7 @@ poeng når man flyr igjennom en ring og taper hvis man treffer en
 ring. Etter det er det opp til deg; lag en meny, lag flere
 vanskelighetsgrader eller lag noe helt annet!
 
-![](3d_flakser.png)
+![Illustrasjon av et ferdig 3D-Flakser spill](3d_flakser.png)
 
 # Steg 1: Lag bakken og få den til følge med {.activity}
 

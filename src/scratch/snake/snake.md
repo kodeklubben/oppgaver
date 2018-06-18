@@ -21,7 +21,7 @@ steder på skjermen. Snake kan videreutvikles på mange måter, enten ved
 bonusepler, eller for eksempel ved at to slanger konkurrerer om å
 spise eplene og om å stenge hverandre inne.
 
-![](snake.png)
+![Illustrasjon av et ferdig Snake spill](snake.png)
 
 # Oversikt over prosjektet {.activity}
 
@@ -57,7 +57,7 @@ I figuren er den blå boksen hodet til slangen, de grønne boksene er
 kroppen til slangen, mens de hvite boksene indikerer hvor slangen har
 vært (men er egentlig slettede klonede bokser).
 
-![](teller.png)
+![Bilde av slangen, og hvor den har vært](teller.png)
 
 For å vite når vi skal slette kloner bruker vi tre variabler:
 `lengde`{.blockdata} er lengden på slangen, `teller`{.blockdata} er en
@@ -80,7 +80,7 @@ id`{.blockdata} er mindre enn `teller`{.blockdata} -
   boksen blir like bred som høy. Et sted mellom `10 x 10` og `20 x 20`
   er en fin størrelse.
 
-  ![](boks.png)
+  ![Bilde av en eksempelboks i Scratch](boks.png)
 
 - [ ] Lag så de tre variablene: `lengde`{.blockdata} og
   `teller`{.blockdata} skal gjelde for alle figurer, mens `min
