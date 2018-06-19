@@ -1,12 +1,8 @@
 ---
 title: Mattespill
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 level: 2
 language: nb
-tags:
-  topic: [text_based, game]
-  subject: [mathematics, programming]
-  grade: [secondary]
 ---
 
 # Introduksjon {.intro}

@@ -1,12 +1,8 @@
 ---
-title: "Tell sekunder"
+title: 'Tell sekunder'
 level: 3
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, web, game]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

@@ -1,12 +1,8 @@
 ---
-title: "Tegning med SVG"
+title: 'Tegning med SVG'
 level: 3
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

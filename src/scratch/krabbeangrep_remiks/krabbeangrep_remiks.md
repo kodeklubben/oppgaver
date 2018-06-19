@@ -1,12 +1,8 @@
 ---
-title: Krabbeangrep! Remiks
+title: 'Krabbeangrep! Remiks'
 level: 3
-author: Gudbrand Tandberg
+author: 'Gudbrand Tandberg'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -20,7 +16,7 @@ at spilleren styrer en kanon som skal forsvare jorden mot et
 intergalaktisk krabbeangrep! Kanonen skyter kuler som tar knekken på
 krabbene og får poeng når den treffer.
 
-![](krabbeangrep_remiks.png)
+![Illustrerer en remix av et krabbespill](krabbeangrep_remiks.png)
 
 # Steg 1: Bli kjent med spillet {.activity}
 
@@ -58,7 +54,7 @@ som sendes mellom figurene. Hver gang noe nytt skal skje, som for
 eksempel et nytt spill skal startes, eller at menyen skal vises etter
 spillet er tapt skal det sendes en melding.
 
-![](spillflyt.png)
+![Bilde av flyten i spillet](spillflyt.png)
 
 ## Sjekkliste {.check}
 

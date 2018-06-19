@@ -1,0 +1,7 @@
+genprog_1rettfram/1rettfram.md
+genprog_2svinge/2svinge.md
+genprog_3turretur/3turretur.md
+genprog_4robotrace/4robotrace.md
+genprog_5klatring/5klatring.md
+genprog_6svingebane/6svingebane.md
+genprog_7rektangelkvadrat/7rektangelkvadrat.md

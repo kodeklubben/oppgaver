@@ -1,12 +1,8 @@
 ---
-title: Blinkende lysdiode
+title: 'Blinkende lysdiode'
 level: 1
-author: Adrian Helle
+author: 'Adrian Helle'
 language: nb
-tags:
-    topic: [text_based, electronics]
-    subject: [technology, programming]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

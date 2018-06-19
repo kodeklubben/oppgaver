@@ -1,12 +1,8 @@
 ---
 title: Gangemesteren
 level: 2
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -14,7 +10,7 @@ tags:
 I dag skal vi lage et nyttig spill, nemlig et spill som hjelper oss å
 lære andre ting. Vi skal få hjelp til å lære gangetabellen!
 
-![](gangemesteren.png)
+![Illustrasjon av et ferdig gangemester spill](gangemesteren.png)
 
 # Steg 1: Læremesteren {.activity}
 
@@ -72,7 +68,7 @@ sammen tall.
   på høyresiden. Skriv inn to tall og klikk på klossen. Scratch
   regner da ut svaret på gangestykket.
 
-  ![](gangeoperator.png)
+  ![Bilde av Scratch som regner ut 3 ganger 4](gangeoperator.png)
 
 - [ ] Vi vil nå kombinere gangeklossen med `tilfeldig
   tall`{.blockoperators}-klossen, men for å få dette til trenger vi en
@@ -96,7 +92,7 @@ sammen tall.
   måten). Om du ser på variablene på scenen skal de endre seg hver
   gang du klikker på skriptet. Er `riktig svar`{.blockdata} rett?
 
-  ![](variabler.png)
+  ![Bilde av to tall, og deres produkt i Scratch](variabler.png)
 
 # Steg 3: Et skikkelig spørsmål {.activity}
 
@@ -122,7 +118,7 @@ La oss se om vi kan sette sammen disse tallene til et skikkelig spørsmål.
   sammen`{.blockoperators}-klossen vil du se hvordan den ferdige
   teksten blir.
 
-  ![](sett_sammen.png)
+  ![Bilde av sett sammen blokkene i Scratch](sett_sammen.png)
 
 - [ ] Legg denne klossen til nederst i `Nytt spørsmål`-skriptet:
 
@@ -248,7 +244,7 @@ gangestykkene. En måte å tenke på gangestykker er at vi har mange ting
 som vi plasserer i et rutenett. For eksempel kan vi tenke på **3
 ganger 4** som **3** rader med **4** elefanter i hver som dette:
 
-![](elefanter.png)
+![Bilde av 3*4=12 smilende elefanter](elefanter.png)
 
 Hvis vi ikke husker hvor mye 3 ganger 4 er, kan vi da telle elefanter
 og finne ut at svaret er **12**.

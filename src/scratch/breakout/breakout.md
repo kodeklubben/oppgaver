@@ -1,12 +1,8 @@
 ---
 title: Breakout
 level: 4
-author: Geir Arne Hjelle og Martin Lie
+author: 'Geir Arne Hjelle og Martin Lie'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -20,7 +16,7 @@ videreutviklet Breakout på flere måter. For eksempel ved at noen
 bokser gir spesielle bonuser, ved at det finnes forskjellige brett av
 ulik vanskelighetsgrad og så videre.
 
-![](breakout.png)
+![Illustrasjon av et ferdig Breakout spill](breakout.png)
 
 # Oversikt over prosjektet {.activity}
 

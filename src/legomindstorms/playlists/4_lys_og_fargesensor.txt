@@ -1,0 +1,7 @@
+lys_1lysintensitet/1lysintensitet.md
+lys_2fargekoder/2fargekoder.md
+lys_3svartstrek/3svartstrek.md
+lys_4fargegjenkjenner/4fargegjenkjenner.md
+lys_5fargegjenkjenner2/5fargegjenkjenner2.md
+lys_6kalibrerelyssensor/6kalibrerelyssensor.md
+lys_7folgelinje/7folgelinje.md

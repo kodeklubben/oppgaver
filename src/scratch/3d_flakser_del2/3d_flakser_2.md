@@ -1,12 +1,8 @@
 ---
-title: 3D-Flakser, Del 2
+title: '3D-Flakser, Del 2'
 level: 4
-author: Gudbrand Tandberg og Geir Arne Hjelle
+author: 'Gudbrand Tandberg og Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [arts_and_crafts, mathematics, science]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -18,7 +14,7 @@ poeng når man flyr igjennom en ring og taper hvis man treffer en
 ring. Etter det er det opp til deg; lag en meny, lag flere
 vanskelighetsgrader eller lag noe helt annet!
 
-![](3d_flakser.png)
+![Illustrasjon av et ferdig 3D-Flakser spill](3d_flakser.png)
 
 # Steg 1: Lag bakken og få den til følge med {.activity}
 

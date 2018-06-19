@@ -12,7 +12,7 @@ historien om en liten katt som har gått seg bort på bursdagen
 sin. Heldigvis treffer han noen hyggelige pingviner han kan feire
 sammen med.
 
-![](bursdag_i_antarktis.png)
+![Bilde av Felix, ett pepperkake hus og to pingviner](bursdag_i_antarktis.png)
 
 # Steg 1: En katt på villspor {.activity}
 
@@ -518,7 +518,7 @@ etter ordet `blir`!
   forhold til hverandre ved å klikke på draktene i tegnevinduet og
   rotere rundt med musen (du må kanskje bytte til vektorgrafikk).
 
-  ![](roter_pingu.png)
+  ![Viser hvordan rotere pingvinen i Scratch](roter_pingu.png)
 
 - [ ] Legg til en lyd du liker under `Lyder`{.blocklightgrey}, og lag
   følgende skript på Pingu (vi har brukt lyden `human beatbox1`):

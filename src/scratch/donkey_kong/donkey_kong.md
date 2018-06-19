@@ -1,12 +1,8 @@
 ---
-title: Donkey Kong
+title: 'Donkey Kong'
 level: 4
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [english, arts_and_crafts, science, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -18,7 +14,7 @@ vi Super Mario mens han prøver å redde kjæresten sin fra Donkey Kong,
 og må passe seg for tønner og ildkuler mens han hopper mellom
 plattformer.
 
-![](donkey_kong.png)
+![Illustrasjon av et ferdig Donkey Kong spill](donkey_kong.png)
 
 # Oversikt over prosjektet {.activity}
 
@@ -54,7 +50,7 @@ en troverdig måte.
   boks nederst på skjermen. Fyll den med en farge forskjellig fra
   linjefargen.
 
-  ![](plattform.png)
+  ![Bilde av en plattform i Scratch](plattform.png)
 
 - [ ] Velg eller lag deg en figur du ønsker å bruke som den hoppende
   helten du skal styre. Om du ikke bruker Scratch-katten så slett
@@ -171,7 +167,7 @@ etter at vi har tegnet dem.
   gjøre litt enkel testing, tegn først en strek rett opp fra
   plattformen (vi skal tegne en finere stige senere) i en ny farge:
 
-  ![](stige.png)
+  ![Bilde av en rett strek som illustrerer en stige](stige.png)
 
   Bruke __linje__-verktøyet og hold inne `shift`-knappen mens du
   tegner for å få en helt rett linje.
@@ -203,7 +199,7 @@ etter at vi har tegnet dem.
   stigene litt finere. Om du vil kan du også vente med dette til etter
   at du har programmert Donkey Kong i neste steg.
 
-  ![](stige_med_plattform.png)
+  ![Bilde av en mer realistisk stige](stige_med_plattform.png)
 
 # Steg 3: Donkey Kong og rullende ildkuler {.activity}
 

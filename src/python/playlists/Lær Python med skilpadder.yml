@@ -1,0 +1,13 @@
+sortindex: 1
+title:
+  nb: 'Lær Python med skilpadder'
+  nn: 'Lær Python med skilpadder'
+  en: 'Learn Python with turtles'
+lessons:
+  - skilpadder
+  - skilpaddeskolen
+  - hemmelige_koder
+  - skilpadder_hele_veien
+  - hangman
+  - tre_pa_rad
+  - tre_pa_rad_mot_datamaskinen

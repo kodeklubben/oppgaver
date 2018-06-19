@@ -11,7 +11,7 @@ Bli med på en rundreise i Norge! Vi skal lage et spill hvor du styrer
 et helikopter rundt omkring et kart over Norge, mens du prøver å
 raskest mulig finne steder og byer du blir bedt om å besøke.
 
-![](norgestur.png)
+![Illustrasjon av et Norgestur spill](norgestur.png)
 
 # Steg 1: Et norgeskart {.activity}
 
@@ -181,7 +181,7 @@ steg`{.blockmotion}-klossene med `gå
   sirkel som er omtrent fire ruter stor. `skift`-knappen hjelper deg
   til å lage en helt rund sirkel.
 
-  ![](sirkel.png)
+  ![Bilde av en helt rund rød sirkel](sirkel.png)
 
 - [ ] Klikk på `i`{.blockmotion} og gi denne nye figuren navnet `Sted`.
 
@@ -195,7 +195,7 @@ steg`{.blockmotion}-klossene med `gå
   6` og `y: -112`. Disse forteller hvor på kartet vi har lagt
   reisemålet.
 
-  ![](reisemaal.png)
+  ![Bilde av x- og y koordinatene i Scratch](reisemaal.png)
 
 - [ ] Klikk på `Skript`{.blocklightgrey}-fanen. Vi skal nå lage koden som
   legger `Sted`-figuren på riktig sted, og senere oppdager om
