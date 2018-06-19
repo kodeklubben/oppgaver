@@ -1,12 +1,8 @@
 ---
-title: PGZ - Løpende strekmann
+title: 'PGZ - Løpende strekmann'
 level: 3
-author: Ole Andreas Ramsdal, Kodeklubben Trondheim
+author: 'Ole Andreas Ramsdal, Kodeklubben Trondheim'
 language: nb
-tags:
-  topic: [text_based, game, animation]
-  subject: [programming]
-  grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

@@ -1,15 +1,11 @@
 ---
-title: "HTML: Legg til lyd og video"
+title: 'HTML: Legg til lyd og video'
 level: 3
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Trude Martinsen
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Trude Martinsen'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming, technology, norwegian]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

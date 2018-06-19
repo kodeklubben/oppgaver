@@ -1,12 +1,8 @@
 ---
-title: PGZ - Hangman
-author: Ole Kristian Pedersen, Kodeklubben Trondheim
+title: 'PGZ - Hangman'
+author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
 level: 4
 language: nb
-tags:
-  topic: [text_based, game]
-  subject: [programming]
-  grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

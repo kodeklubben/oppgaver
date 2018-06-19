@@ -1,12 +1,8 @@
 ---
 title: Snøballkrig
 level: 4
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -16,7 +12,7 @@ bort de slemme guttene ved å kaste snøball på dem. Underveis vil vi
 lære hvordan vi kan gjøre et spill mer utfordrende etterhvert ved at
 figurene vi spiller mot blir raskere og vanskeligere å jage bort.
 
-![](snoballkrig.png)
+![Illustrasjon av et ferdig snøballkrig spill](snoballkrig.png)
 
 # Steg 1: En snøballkaster {.activity}
 
@@ -41,7 +37,7 @@ figurene vi spiller mot blir raskere og vanskeligere å jage bort.
   Velg nå hvit som forgrunnsfarge, og lag en litt mindre boks som
   dekker nedre del av bakgrunnen. Fyll også denne med passende farger.
 
-  ![](bakgrunn.png)
+  ![Bilde av en mulig snøballkrig bakgrunn](bakgrunn.png)
 
   Kall bakgrunnen for `Spill`.
 

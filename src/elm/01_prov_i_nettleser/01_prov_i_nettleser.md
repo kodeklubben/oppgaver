@@ -1,12 +1,8 @@
 ---
-title: "Prøv Elm i nettleseren"
+title: 'Prøv Elm i nettleseren'
 level: 1
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

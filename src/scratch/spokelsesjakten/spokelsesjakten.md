@@ -2,14 +2,10 @@
 title: Spøkelsesjakten
 level: 1
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Gudbrand Tandberg
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Gudbrand Tandberg'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [mathematics, music, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -19,7 +15,7 @@ man slår muldvarper ned igjen i hullene sine. I vårt spill er det
 spøkelsene som blir borte når vi klikker på dem. Målet er å klikke
 bort flest mulig i løpet av 30 sekunder.
 
-![](spokelsesjakten.png)
+![Illustrasjon av et ferdig spøkelsejakt spill](spokelsesjakten.png)
 
 # Steg 1: Lag et flyvende spøkelse {.activity}
 
@@ -50,7 +46,7 @@ i gang.
   heter `hastighet`, så slett den og legg den til en gang til.
 
 - [ ] Fjern avhukingen ved siden av variabelen, slik at den ikke vises på
-  scenen: ![](hastighet.png)
+  scenen: ![Bilde av hvordan ikke vise hastighet variabelen](hastighet.png)
 
 - [ ] Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi
   ved å lage følgende skript:
@@ -244,7 +240,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] __La spøkelsene få ulik størrelse__. Dette gjør du ved å bruke én av
   knappene under. Den til venstre forstørrer figuren og den til høyre
-  forminsker: ![](endre-storrelse.png)
+  forminsker: ![Bilde av ikonene for å forminske å forstørre](endre-storrelse.png)
 
 - [ ] Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i
   `hastighet`{.blockdata}-variabelen i det øverste skriptet for hver

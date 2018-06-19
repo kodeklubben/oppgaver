@@ -1,0 +1,14 @@
+sortindex: 2
+title:
+  nb: 'Videregående Python'
+  nn: 'Vidaregåande Python'
+  en: 'Advanced Python'
+lessons:
+  - repetisjon
+  - tekst_abc
+  - lopende_strekmann
+  - lister_og_indekser
+  - ordboeker
+  - hangman2
+  - enkle_objekter
+  - sprettball

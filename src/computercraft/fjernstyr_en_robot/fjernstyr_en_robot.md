@@ -1,12 +1,8 @@
 ---
-title: Fjernstyr en robot
+title: 'Fjernstyr en robot'
 level: 3
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, minecraft]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

@@ -2,14 +2,10 @@
 title: Flaksefugl
 logo: ../../assets/img/ccuk_logo.png
 level: 2
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Helge Astad
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Helge Astad'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, mathematics, science, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -18,7 +14,7 @@ Nå skal vi lage vår egen versjon av spillet __Flappy Bird__. Du styrer
 fuglen __Flakse__ ved å trykke på mellomromtasten for å flakse med
 vingene. Du må holde Flakse flyvende og prøve å styre mellom rørene!
 
-![](flaksefugl.png)
+![Illustrasjon av et ferdig Flaksefugl spill](flaksefugl.png)
 
 # Steg 1: Få Flakse til å falle {.activity}
 
@@ -164,7 +160,7 @@ __Klikk det grønne flagget.__
 - [ ] Klikk og dra to bokser, en fra toppen og en fra bunnen i midten av
   tegneflaten. Det skal se omtrent sånn ut:
 
-  ![](pipe_design.png)
+  ![Bilde av et hinder for Flakse](pipe_design.png)
 
 - [ ] Du kan skyggelegge rørene ved å klikke på `Fyll farge` og klikke på
   en av skyggemetodene i firkantene nede til venstre. Velg to

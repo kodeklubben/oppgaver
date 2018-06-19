@@ -1,0 +1,12 @@
+sortindex: 4
+title:
+  nb: 'JavaScript'
+  nn: 'JavaScript'
+  en: 'JavaScript'
+lessons:
+  - hei_js
+  - grunnleggende_js
+  - trykkomania
+  - partikkel_animasjon
+  - partikkel_gravitasjon
+  - partikkel_2

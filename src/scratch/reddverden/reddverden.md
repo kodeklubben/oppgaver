@@ -1,12 +1,8 @@
 ---
-title: Redd verden
+title: 'Redd verden'
 level: 2
-author: Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)
+author: 'Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [mathematics, science, norwegian, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -15,7 +11,7 @@ Kildesortering er viktig for å begrense hvor mye avfallet vårt
 påvirker miljøet. I dette spillet skal vi kildesortere og samtidig
 lære en hel del om meldinger i programmering.
 
-![](reddverden.png)
+![Illustrasjon av et ferdig kildesorterings spill](reddverden.png)
 
 # Steg 1: Legg til Ronny og søppelet {.activity}
 
@@ -28,7 +24,7 @@ og søppelet som vi skal kaste.
   slik vi har gjort, eller tegn din helt egen hjelper! Vi valgte figuren
   `nano`, da han har flere drakter som vi tenker å bruke i utfordrings-delene.
 
-  ![](ronny.png)
+  ![Viser figuren nano](ronny.png)
 
 - [ ] Målet med spillet er å få all søppelet i bøttene de hører til. Hver gang
   vi fjerner en søppel-figur så får vi et poeng. Målet vårt er å få så mange
@@ -68,7 +64,7 @@ og søppelet som vi skal kaste.
   kjøkken fra biblioteket, men tegn gjerne noe eget eller finn et annet bilde du
   heller har lyst til å bruke.
 
-  ![](kitchen.png)
+  ![Bildet av et kjøkken fra Scratch biblioteket](kitchen.png)
 
 - [ ] Vi kommer til å flytte rundt på søppel-figurene, så det er viktig at vi
   plasserer dem på nytt hver gang vi starter spillet.
@@ -138,7 +134,7 @@ __Klikk på det grønne flagget.__
 - Ronny har flere drakter som viser han blid og sur. Klarer du å bytte drakt på Ronny når han snakker,
   og tilbake når han er ferdig med å snakke?
 
-  ![](ronny_prater.png) <!-- ikke figur -->
+  ![Bilde av Ronny som prater](ronny_prater.png) <!-- ikke figur -->
 
 - Istedenfor snakkebobler, klarer du spille inn din egen stemme?
   **Hint:** Bruk blokken under.
@@ -156,9 +152,9 @@ Nå som vi vet antall poeng vi skal nå, kan vi sette opp bøttene våre.
 - [ ] Tegn en ny figur for hver av bøttene `Mat`, `Plast` og `Papir`.
 
   <figure class="inline">
-    <img src="mat.png" />
-    <img src="plast.png" />
-    <img src="papir.png" />
+    <img src="mat.png" alt="Bilde av søpelbøtte for mat"/>
+    <img src="plast.png" alt="Bilde av søpelbøtte for plast"/>
+    <img src="papir.png" alt="Bilde av søpelbøtte for papir"/>
   </figure>
 
 - [ ] Vi ønsker ikke å vise bøttene før spillet er i gang. For å få til dette kan vi
@@ -237,7 +233,7 @@ __Klikk på det grønne flagget.__
 - Klarer du å avslutte flyttinga hvis du flytter søppelet til feil bøtte? Kanskje til og
   med få Ronny sur hvis feil bøtte brukes?
 
-  ![](ronny_sur.png) <!-- ikke figur -->
+  ![Bilde av Ronny som er kjempesur!](ronny_sur.png) <!-- ikke figur -->
 
 # Steg 5: Avslutt spillet {.activity}
 
@@ -277,7 +273,7 @@ Når vi har fått alt søppelet på plass, må vi avslutte spillet.
   Vi valgte `water and rocks` fra biblioteket, men det er bare å velge noe du syns er finere,
   evt lage noe selv.
 
-  ![](finale.png)
+  ![Bilde av en elv](finale.png)
 
 - [ ] Til slutt trenger vi å fortelle når bakgrunnen skal skiftes. Du kan gjøre det ved å legge
   til følgende på skriptet til `Scene`.
@@ -300,7 +296,7 @@ __Klikk på det grønne flagget.__
 - Klarer du å forandre draken til Ronny for å vise hvor glad han blir når
   du har reddet verden?
 
-  ![](ronny_blid.png) <!-- ikke figur -->
+  ![Bilde av Ronny som er kjempeglad!](ronny_blid.png) <!-- ikke figur -->
 
 # Hva har vi lært? {.activity}
 

@@ -1,12 +1,8 @@
 ---
 title: Straffespark
 level: 1
-author: Erik Kalstad og Geir Arne Hjelle
+author: 'Erik Kalstad og Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -14,7 +10,7 @@ tags:
 Vi skal lage et enkelt fotballspill, hvor du skal prøve å score på så
 mange straffespark som mulig.
 
-![](straffespark.png)
+![Illustrasjon av et ferdig straffespark spill](straffespark.png)
 
 # Steg 1: Katten og fotballbanen {.activity}
 
@@ -125,6 +121,11 @@ __Klikk på det grønne flagget.__
   trykker det grønne flagget), så må du endre litt på tallene i `gå til
   x: () y: ()`{.b}-klossen slik at ballen ligger i ro foran `Leo`.
 
+- [ ] Noen ganger flytter ballen seg tilbake *før* `Leo`
+  er tilbake på plassen sin, og dermed berører ballen `Leo` igjen og
+  begynner å bevege seg. Da hjelper det å legge til en
+  `vent (1) sekunder`{.b}-kloss før `vent til <berører [Leo v]?>`{.b}-klossen.
+
 # Steg 3: Vi trenger en keeper! {.activity}
 
 *Vi skal nå gjøre spillet litt vanskeligere ved å programmere en keeper.*
@@ -139,7 +140,7 @@ __Klikk på det grønne flagget.__
   `Drakter`-fanen, og deretter på snu-knappen som er merket med rødt i
   figuren under.
 
-  ![](snu_figur.png)
+  ![Bilde av hvordan snu figuren i Scratch](snu_figur.png)
 
 - [ ] Gi figuren navnet `Keeper`.
 
@@ -253,7 +254,7 @@ skjermen, mens `(y-posisjon)`{.b} sier hvor langt opp eller ned på
 skjermen en figur er. Rett under scenen kan du se to tall merket `x`
 og `y`. Disse viser koordinatene til musepekeren.
 
-![](koordinater.png)
+![Bilde av hvor x- og y-koordinatene vises i Scratch](koordinater.png)
 
 - [ ] Vi sier at det har blitt mål om ballen går langt nok til høyre uten
   at den blir reddet. Om du prøver å peke på målstangen med

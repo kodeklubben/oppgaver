@@ -1,12 +1,8 @@
 ---
 title: Hoppehelt
 level: 4
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -17,7 +13,7 @@ bokser som lager lyd.  Gjennom spillet Hoppehelt vil vi se litt
 nærmere på hvordan kloner brukes når man programmerer i Scratch. Vi
 vil til og med se eksempler på kloner av kloner!
 
-![](hoppehelt.png)
+![Illustrasjon av et ferdig hoppehelt spill](hoppehelt.png)
 
 # Steg 1: Streken {.activity}
 

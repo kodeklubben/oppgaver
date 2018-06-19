@@ -28,7 +28,3 @@ med å lage dine egne spill.
 - Last ned kart som passer som bakgrunner i Scratch: [Last ned Scratchkart](kart/kart.html).
 - Gjør om regneark og datafiler til Scratchprosjekter: [Bruk data i Scratch](data/data.html).
 - Du finner diplomer og annet grafisk materiell på [kidsakoder.no/ressurser](http://www.kidsakoder.no/ressurser).
-
-## Videoer
-
-- Sjekk ut våre videoer på norsk for hvordan en kan komme igang og programmere i Scratch på [vimeo.com/channels/623455](https://vimeo.com/channels/623455).

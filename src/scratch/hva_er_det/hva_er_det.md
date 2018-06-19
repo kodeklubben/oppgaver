@@ -1,15 +1,11 @@
 ---
-title: Hva er det?
+title: 'Hva er det?'
 level: 3
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Anne-Marit Gravem
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Anne-Marit Gravem'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -19,7 +15,7 @@ forvrengt, slik at du må gjette hva det er ved å klikke på et av
 alternativene som vises under. Desto raskere du gjetter riktig, desto
 flere poeng får du.
 
-![](hva_er_det.png)
+![Illustrasjon av et ferdig hva-er-det spill](hva_er_det.png)
 
 # Steg 1: Få flere ting til å vise seg på tavlen {.activity}
 

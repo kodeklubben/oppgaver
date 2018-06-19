@@ -1,0 +1,13 @@
+sortindex: 1
+title:
+  nb: 'Introduksjon til programmering'
+  nn: 'Introduksjon til programmering'
+  en: 'Introduction to programming'
+lessons:
+  - straffespark
+  - labyrint
+  - bursdag_i_antarktis
+  - flaksefugl
+  - norgestur
+  - krabbeangrep_remiks
+  - lag_ditt_eget_spill

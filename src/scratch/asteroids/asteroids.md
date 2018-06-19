@@ -1,12 +1,8 @@
 ---
 title: Asteroids
 level: 4
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -20,7 +16,7 @@ Vi skal gjøre det samme! Du må derfor ha laget
 dette prosjektet. I Asteroids er målet å beskytte romskipet mot
 asteroider ved å skyte dem i småbiter.
 
-![](asteroids.png)
+![Illustrasjon av et ferdig astroide spill](asteroids.png)
 
 # Oversikt over prosjektet {.activity}
 
@@ -70,7 +66,7 @@ vi laget i Lunar Lander.
 - [ ] Du kan nå dra romskip-kopien ut fra ryggsekken, og til figurvinduet
   i det nye prosjektet.
 
-  ![](ryggsekk.png)
+  ![Bilde av hvordan dra romskip-kopien fra ryggsekken i Scratch](ryggsekk.png)
 
   Du vil nå se at alle draktene, alle variablene og alle skriptene til
   romskipet er kopiert over. Du kan rydde opp litt ved å slette skript
@@ -195,7 +191,7 @@ vi laget i Lunar Lander.
   deretter `Bøy`-verktøyet for å legge til flere hjørnepunkter og
   flytte dem rundt som i figuren under.
 
-  ![](flyttpunkt.png)
+  ![Bilde av en astroidefigur i Scratch](flyttpunkt.png)
 
 - [ ] Også for asteroidene vil vi bruke kloner. Lag et skript som
   `skjuler`{.blocklooks} figuren og lager et par asteroide-kloner

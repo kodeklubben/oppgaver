@@ -1,12 +1,8 @@
 ---
-title: King Kong
+title: 'King Kong'
 level: 3
-author: Samuel Erik Abildsø og Geir Arne Hjelle
+author: 'Samuel Erik Abildsø og Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [english, arts_and_crafts, mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -16,7 +12,7 @@ lett det er å bruke grafikk som ikke allerede ligger i
 Scratch-biblioteket. I spillet styrer vi King Kong som må passe seg
 for flyene som angriper ham.
 
-![](kingkong.png)
+![Bilde av King Kong som passer seg for fly](kingkong.png)
 
 # Steg 1: Hente grafikk fra nettet {.activity}
 
@@ -53,7 +49,7 @@ skyskraper, et fly og en gorilla.
 
   Her er noen eksempler, men bruk gjerne bilder du finner selv:
 
-  ![](eksempel.png)
+  ![Bilde av en skyskraper, et fly og King Kong](eksempel.png)
 
   Skyskraper fra
   [www.iconka.com](http://www.iconarchive.com/show/home-sweet-home-icons-by-iconka/Home-Skyscraper-icon.html),
@@ -101,7 +97,7 @@ Like morsomt som å finne bilder på nettet er det å tegne litt selv.
   fra blå øverst til noe lysere nederst. Klikk på bakgrunnen slik at
   den blir fargelagt.
 
-  ![](tegn_bakgrunn.png)
+  ![Bilde av malingsbøtte-verktøyet](tegn_bakgrunn.png)
 
 - [ ] For en litt enkel gresseffekt skal vi nå velge
   _Rektangel_-verktøyet, og en helt svart farge. Tegn et svart
@@ -111,7 +107,7 @@ Like morsomt som å finne bilder på nettet er det å tegne litt selv.
   dekker det meste av det svarte rektangelet, slik at det blir en
   svart strek mellom gresset og himmelen.
 
-  ![](gronn_bakgrunn.png)
+  ![Viser en grønn bakgrunn, et svart skille og blå himmel](gronn_bakgrunn.png)
 
 - [ ] Velg deretter en litt mørkere grønn farge, og tegn et nytt grønt
   rektangel som dekker den nedre delen av det forrige
@@ -131,7 +127,7 @@ høyre side.
 - [ ] Klikk på `kong`-figuren og velg `Drakter`-fanen. Høyreklikk på
   `kong`-drakten og velg `Lag en kopi`.
 
-- [ ] Klikk på kopien og bruk knappen ![](../bilder/speilvend.png "Speilvend
+- [ ] Klikk på kopien og bruk knappen ![speilvend](../bilder/speilvend.png "Speilvend
   høyre-venstre") i øverste høyre hjørne til å speilvende denne nye drakten.
 
 - [ ] Gi de to draktene navnene `Høyre` og `Venstre`.
@@ -245,7 +241,7 @@ skyskraperen.
 - [ ] Om du vil kan du klikke på `drakter` og rotere flyet litt slik at det
   flyr i riktig retning.
 
-  ![](roter_fly.png)
+  ![Bilde av fly som er rotert i Scratch](roter_fly.png)
 
 - [ ] Vi kan også få flyene til å komme fra begge retninger! Ved å bruke
   et tilfeldig tall kan vi bestemme om flyet kommer fra høyre eller

@@ -1,11 +1,7 @@
 ---
-title: Lærerveiledning - Norgestur
+title: 'Lærerveiledning - Norgestur'
 level: 3
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [mathematics, programming, social_science]
-    grade: [primary, secondary, junior]
 ---
 
 # Om oppgaven {.activity}

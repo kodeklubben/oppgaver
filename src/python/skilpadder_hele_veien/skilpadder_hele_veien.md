@@ -1,15 +1,11 @@
 ---
-title: Skilpadder hele veien ned
+title: 'Skilpadder hele veien ned'
 level: 3
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Bjørn Einar Bjartnes
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Bjørn Einar Bjartnes'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-  topic: [text_based]
-  subject: [mathematics, programming, arts_and_crafts]
-  grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}

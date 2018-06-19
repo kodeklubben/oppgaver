@@ -1,12 +1,8 @@
 ---
-title: "JS: Hei JavaScript!"
+title: 'JS: Hei JavaScript!'
 level: 1
-author: Arve Seljebu
+author: 'Arve Seljebu'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

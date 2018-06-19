@@ -2,14 +2,10 @@
 title: Ørkenløp
 level: 2
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Anne-Marit Gravem
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Anne-Marit Gravem'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -19,7 +15,7 @@ komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og
 ofte som mulig for å flytte figuren sin, og den som kommer først til
 kanten av skjermen vinner.
 
-![](orkenlop.png)
+![Illustrasjon av et ferdig ørkenløp spill](orkenlop.png)
 
 # Steg 1: Lag en scene og legg til figurer {.activity}
 

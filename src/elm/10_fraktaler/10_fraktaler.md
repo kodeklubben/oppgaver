@@ -1,12 +1,8 @@
 ---
-title: Fraktaler og datastrukturer
+title: 'Fraktaler og datastrukturer'
 level: 4
 language: nb
-author: Teodor Heggelund
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming, mathematics]
-    grade: [junior, senior]
+author: 'Teodor Heggelund'
 ---
 
 # Introduksjon {.intro}

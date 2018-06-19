@@ -2,14 +2,10 @@
 title: Tegneprogram
 level: 3
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Helge Astad og Anne-Marit Gravem
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Helge Astad og Anne-Marit Gravem'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [block_based]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -18,7 +14,7 @@ I dette prosjektet lager vi et tegneprogram slik at du etterpå kan
 lage din egen kunst. Du kan tegne med forskjellige farger, bruke
 viskelær, lage stempler og mye mer!
 
-![](tegneprogram.png)
+![Bilde av et tegneprogram](tegneprogram.png)
 
 # Forberedelser: Last ned bildefiler {.activity}
 
@@ -58,7 +54,7 @@ Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
   korset slik at det markerer blyantspissen. Da vil spissen tegne og
   ikke midten av blyanten.
 
-  ![](senterpunkt.png)
+  ![Bilde av en blyant med flyttet senterpunkt](senterpunkt.png)
 
 - [ ] Få blyanten til å følge musepekeren rundt på scenen ved å bruke `for
   alltid`{.blockcontrol}- og `gå til

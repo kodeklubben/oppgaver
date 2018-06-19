@@ -1,12 +1,8 @@
 ---
-title: "HTML: Lenk sammen nettsider"
-author: Lars Klingenberg
+title: 'HTML: Lenk sammen nettsider'
+author: 'Lars Klingenberg'
 level: 3
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming, technology]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}

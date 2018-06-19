@@ -1,12 +1,8 @@
 ---
-title: 3D-Flakser, Del 1
+title: '3D-Flakser, Del 1'
 level: 4
-author: Gudbrand Tandberg og Geir Arne Hjelle
+author: 'Gudbrand Tandberg og Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [arts_and_crafts, mathematics, science]
-    grade: [secondary, junior]
 ---
 
 # Introduksjon {.intro}
@@ -20,7 +16,7 @@ flakseren, og så forsvinner forbi. Prosjektet er delt inn i to deler
 siden det er ganske mye vi skal igjennom. I denne første delen skal vi
 få ringene til å fungere som de skal. La oss sette i gang!
 
-![](3d_flakser.png)
+![Illustrasjon av 3d-flakser med fungerende ringer](3d_flakser.png)
 
 # Steg 1: Lag ringer, og få dem til å komme mot deg {.activity}
 
