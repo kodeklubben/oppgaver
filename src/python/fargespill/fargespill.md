@@ -10,7 +10,7 @@ language: nb
 
 Hjernen vår lar seg lett lure, og det kan av og til være vanskelig for den å tolke forskjellig inntrykk samtidig. I det spillet vi nå skal lage  vil du både få testet hjernen og skrivehastigheten. Vi skal lage et fargespill!
 
-![](fargespill.png)
+![Illustrasjon av et ferdig fargespill](fargespill.png)
 
 # Steg 1: Klargjør og importerer bilioteker{.activity}
 I dette spillet skal vi lage et grafisk brukergrensesnitt (et GUI). Til dette bruker vi et bibliotek som heter `tkinter`. Vi trenger også hjelp for å generere tilfeldige tall.

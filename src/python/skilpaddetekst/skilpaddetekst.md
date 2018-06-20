@@ -9,7 +9,7 @@ language: nb
 
 I denne oppgaven skal vi skrive kode, slik at vi kan skrive stor tekst ved hjelp av `turtle` slik som på bildet under.
 
-![](turtle_python.png)
+![Bilde av orde "python" skrevet med stor tekst](turtle_python.png)
 
 # Steg 1: Tekst på flere linjer {.activity}
 
@@ -68,7 +68,7 @@ Vi ser at teksten over består av tegnene `\ | / _`. Det å lage disse hver for 
 Hvis vi tenker oss at vi tegner hvert tegn i en tenkt, kvadratisk boks, med flere bokser ved siden av hverandre på hver linje, så bør det være mulig å tegne teksten tegn for tegn. For å holde kontroll på skilpadden bestemmer vi at hver gang skilpadden går inn i en ny boks, så må den peke mot høyre (øst), og være i hjørnet øverst til venstre. Når den er ferdig å tegne går den opp til hjørnet øverst til høyre, og peker til høyre. Den vil da stå klar til å tegne neste boks.
 
 Tenk deg at boksene er i svart, og vi lager rød skrift. Da vil det se slik ut:
-![](turtle_box_gif.gif)
+![Animasjon av skilpadden som skriver \ | / _](turtle_box_gif.gif)
 
 ## Sjekkliste {.check}
 
@@ -118,7 +118,7 @@ Tenk deg at boksene er i svart, og vi lager rød skrift. Da vil det se slik ut:
   ```
 
   Det skal se slik ut, hvis du du ikke har feil i koden:
-  ![](turtle_underline.png)
+  ![Bilde av skilpadden som lager 10 understreker](turtle_underline.png)
 
 - [ ] Hva skjer hvis du endrer størrelsen på "boksen"? Prøv å endre på `SIZE` variabelen, og se hva som skjer. (Prøv for eksempel 5 og 50)
 
@@ -159,7 +159,7 @@ La oss prøve å lage tegnet `|`. Dette er rett og slett bare en rett strek som 
 
 - [ ] Tegner skilpadden nå strekene på samme linje, slik som på bildet?
 
-  ![](turtle_bars.png)
+  ![Bildet av skilpadden som tegner 10 vertikale streker](turtle_bars.png)
 
 # Steg 4: Skilpaddetegn på flere linjer {.activity}
 
@@ -199,7 +199,7 @@ For å kunne lage en ny linje  må funksjonen vite hvor mange tegn den skal gå 
 
   Legg merke til at `newline` blir fortalt hvor mange tegn som ble skrevet på linjen over, ikke hvor mange som skal bli skrevet på linjen under!
 
-  Dette skal se omtrent slik ut: ![](turtle_newline.png)
+  Dette skal se omtrent slik ut: ![Bilde av skilpadden som kombinerer _ og | streker](turtle_newline.png)
 
 
 # Steg 5: Skilpadder på skråplanet {.activity}
@@ -255,7 +255,7 @@ Her skal du bare få svaret og slippe å regne det ut selv. Diagonalen i boksene
       slash()
   ```
 
-  Denne gangen skal mønsteret bli slik: ![](turtle_slashes.png)
+  Denne gangen skal mønsteret bli slik: ![Bilde av skilpadden som kombinerer \ og /](turtle_slashes.png)
 
   Nå er vi nesten ferdige! Bare litt igjen nå...
 

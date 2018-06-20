@@ -45,7 +45,7 @@ pgzrun hangman.py
 
 skal du få opp et vindu som ser slik ut:
 
-![](./hangman_blank_screen.png)
+![Bilde av en svart blank skjerm](./hangman_blank_screen.png)
 
 # {.tip}
 
@@ -165,7 +165,7 @@ pgzrun hangman.py
 
 Du skal nå få opp et vindu som ser slik ut:
 
-![](./hangman_initial_screen.png)
+![Bilde av hangman i Python](./hangman_initial_screen.png)
 
 # Steg 3: Å avslutte spillet {.activity}
 
@@ -229,7 +229,7 @@ Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
 
 - [ ] Slik kan det se ut når spilleren vinner.
 
-  ![](./hangman_won_game.png)
+  ![Bilde av hvordan det kan se ut når spilleren vinner](./hangman_won_game.png)
 
 - [ ] Når spilleren taper kan det se ut omtrent som i bildet under. Pass på det
   følgende:
@@ -238,4 +238,4 @@ Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
     `game_over()`.
   - [ ] Pass på at du viser løsningsordet nederst.
 
-  ![](./hangman_lost_game.png)
+  ![Bilde av hvordan det ser ut når spilleren taperen](./hangman_lost_game.png)
