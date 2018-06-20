@@ -1,9 +1,12 @@
 ---
 title: "Python: knapper"
 level: 2
-author: Øistein Søvik
+author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/buttons.html)"
+license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
+translator: "Øistein Søvik"
 language: nb
 ---
+
 
 # Introduksjon {.intro}
 
@@ -46,7 +49,7 @@ huske).
 
 Den tredje linjen er litt som en løk. Dersom du tenker på parentesene som lagene
 på løken vil du legge merke til at `display.scrolll` inneholder `str` som igjen
-inneholder `button_a.get_presses`. Python begynner å skrelle løken innenfra å
+inneholder `button_a.get_presses`. Python begynner å skrelle løken innenfra og
 ut, i klartekst begynner den altså med de innerste parentesene og går utover.
 Dette kalles gjerne for *nesting* av funksjoner.
 
@@ -72,17 +75,17 @@ Endelig så vet Python hva som skal scrolles over displayet:
 display.scroll("10")
 ```
 
+
 # Handlingsløkker {.activity}
 
 Ofte trenger du at programmet ditt venter på at noe skal skje. For å gjøre dette
 kan du få en liten bit kode til å kjøre igjen og igjen som forteller hvordan
 programmet skal reagere på ulike input som for eksempel at du trykker på `A`.
 
-Slike kodesnuttes kalles for `while`-*løkker*. I Python kan disse lages ved å
+Slike kodesnutter kalles for `while`-*løkker*. I Python kan disse lages ved å
 bruke `while` som sjekker om noe er `True` og dersom det er kjøres en
 *kodeblokk* som er innmaten i løkken. Dersom det ikke er det, så bryter den ut
 av løkka og resten av programmet fortsetter.
-
 
 Python gjør det enkelt å definere kodeblokker. Si jeg har en huskeliste skrevet
 på et papir. Den ser omtrent ut som det her:
@@ -92,7 +95,6 @@ Handle
 Rengjøre takrennen
 Klippe plenen
 ```
-
 
 Dersom jeg ønsker å gjøre huskelisten min mer detaljert, ville jeg kanskje ha
 utvidet den slik:
