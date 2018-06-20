@@ -238,4 +238,4 @@ Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
     `game_over()`.
   - [ ] Pass på at du viser løsningsordet nederst.
 
-  ![Bilde av hvordan det ser ut når spilleren taperen](./hangman_lost_game.png)
+  ![Bilde av hvordan det ser ut når spilleren taper](./hangman_lost_game.png)
