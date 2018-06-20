@@ -9,7 +9,7 @@ language: nb
 
 I denne oppgaven skal vi skrive kode, slik at vi kan skrive stor tekst ved hjelp av `turtle` slik som på bildet under.
 
-![Bilde av orde "python" skrevet med stor tekst](turtle_python.png)
+![Bilde av ordet "python" skrevet med stor tekst](turtle_python.png)
 
 # Steg 1: Tekst på flere linjer {.activity}
 
