@@ -11,7 +11,7 @@ I denne leksjonen vil vi se litt nærmere på hvordan Python jobber med
 tall, og vi vil lage et enkelt mattespill. Vi vil også se hvordan vi
 kan gjøre ting tilfeldige.
 
-![](mattespill.png)
+![Illustrasjon av et ferdig mattespill](mattespill.png)
 
 # Steg 1: En kalkulator! {.activity}
 
