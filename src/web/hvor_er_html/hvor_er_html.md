@@ -25,12 +25,12 @@ nettleseren! La oss ta en titt.
   Firefox
 - [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
 
-  ![](inspiser_katten.png)
+  ![Bilde av kodeklubbens nettsider med katten høyreklikkt](inspiser_katten.png)
 
   Når vi klikker på `Inspiser`, får vi se en meny til hjelp for utviklere. Denne
   er svært nyttig til webutvikling.
 
-  ![](kattens_kildekode.png)
+  ![Bilde av kildekoden til katten på kodeklubbens nettsider](kattens_kildekode.png)
 
   Ser du den fargede teksten, du også? Det er HTML, slik Chrome leser den!
   Nettsidens kildekode.
@@ -46,7 +46,7 @@ nettleseren! La oss ta en titt.
 
 - [ ] Inspiser slangen. Hva er filnavnet til slangen? Ser du det samme som meg?
 
-  ![](slangens_kildekode.png)
+  ![Bilde av kildekoden til slangen på kodeklubbens nettsider](slangens_kildekode.png)
 
   Kildekoden til slangen ser slik ut:
 
@@ -84,14 +84,14 @@ gjøre noe med det. Vi fjerner alt som er foran!
 - [ ] Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern elementet
   med tasten `delete` på tastaturet!
 
-  ![](katten_er_borte.png)
+  ![Bilde av kodeklubbens nettsiden uten katten!](katten_er_borte.png)
 
 - [ ] Yes! Katten ble borte!
 
   ... men. Vent litt. Slangen gikk ikke til venstre. Hva skjedde nå, mon tro? Og
   det står fremdeles `Scratch` under den tomme plassen?
 
-  ![](kattens_usynlige_boks.png)
+  ![Bilde av en usynlig boks på kodeklubbens nettsider](kattens_usynlige_boks.png)
 
   Ha! Det er en usynlig boks igjen, den som tidligere hadde katten i seg! Den
   heter `<a>`, og er en link:
@@ -109,15 +109,15 @@ gjøre noe med det. Vi fjerner alt som er foran!
 - [ ] Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som er
   inni linken!
 
-  ![](liten_a.png)
+  ![Viser hva som er inneholdt i <a> taggen](liten_a.png)
 
 - [ ] Fjern teksten `Scratch`. Merk den som under, og trykk `delete`:
 
-  ![](teksten_scratch.png)
+  ![Bildet av Scratch navnet markert i kildekoden til kodeklubbens nettsider](teksten_scratch.png)
 
   Simsalabim!
 
-  ![](simsalabim.png)
+  ![Bildet av at teksten under kattebildet og er fjernet](simsalabim.png)
 
   La oss fjerne litt mer.
 
@@ -126,11 +126,11 @@ gjøre noe med det. Vi fjerner alt som er foran!
   <div class="courses">
   ```
 
-  ![](class_courses.png)
+  ![Bildet av at elementet som inneholder alle kursene er markert](class_courses.png)
 
   Poff!
 
-  ![](alt_borte.png)
+  ![Bilde av at alle elementet som inneholdt alle kursene er fjernet](alt_borte.png)
 
   Å nei! Nå ble alt borte!
 
@@ -144,7 +144,7 @@ gjøre noe med det. Vi fjerner alt som er foran!
 
 - [ ] Gjør det samme for `Lego Mindstorms`, `Web`, `App Inventor` og `CodeStudio`.
 
-  ![](minecraft_yay.png)
+  ![Bilde av at bare fire elementer gjenstår på kodeklubbens nettsider](minecraft_yay.png)
 
   Sånn skal det se ut!
 
@@ -160,24 +160,24 @@ Vi kan fremdeles finne og se alle de usynlige kodene når vi bruker `Inspiser`!
 
 Nå skal vi leke! La oss putte denne rakkeren
 
-![](schnauzer.jpg)
+![Bilde av hunderasen schnauzer](schnauzer.jpg)
 
 på **alle kursene**!
 
-![](schnauzere.png)
+![Bilde av at alle ikonene til kodeklubbens kurs er erstattet av hunderasen schnauzer](schnauzere.png)
 
 ## Aktiviteter {.check}
 
 - [ ] Finn et bilde du liker på internett. Hent bildeadressen ved høyreklikke på bildet:
 
-  ![](bildeadresse.png)
+  ![Bilde av hvordan finne bildeadressen til et bilde på internett](bildeadresse.png)
 
 - [ ] Endre alle bildene ved å redigere `src`-attributten til `<img>`-taggen:
 
-  ![](ny_og_bedre_src.png)
+  ![Bilde av hvordan endre src-attributten til img-taggen på kodeklubbens nettsider](ny_og_bedre_src.png)
 
 # Steg 4: Masse moro! {.activity}
 
 Gratulerer! Du er har kommet ett skritt på vei til å bli webutvikler!
 
-![](schnauzer_web_developer.jpg)
+![Bilde av en schnauzer med briller som leser en bok](schnauzer_web_developer.jpg)
