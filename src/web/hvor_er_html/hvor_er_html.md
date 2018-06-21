@@ -25,7 +25,7 @@ nettleseren! La oss ta en titt.
   Firefox
 - [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
 
-  ![Bilde av kodeklubbens nettsider med katten høyreklikkt](inspiser_katten.png)
+  ![Bilde av kodeklubbens nettsider med katten høyreklikket](inspiser_katten.png)
 
   Når vi klikker på `Inspiser`, får vi se en meny til hjelp for utviklere. Denne
   er svært nyttig til webutvikling.
