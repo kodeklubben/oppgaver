@@ -11,7 +11,7 @@ I denne leksjonen vil vi se litt på hvordan vi kan få en robot til å
 bygge et hus for oss. Underveis vil vi lære hvordan vi kan bruke
 løkker og funksjoner for å gjenta ting som gjøres flere ganger.
 
-![](bygg_et_hus.png)
+![Bilde av en robot som bygger et hus](bygg_et_hus.png)
 
 # Steg 1: Prøv selv først {.activity}
 
@@ -288,7 +288,7 @@ bygge et enkelt hus. La oss prøve å sette sammen fire vegger!
 
   Hva skjer når du kjører programmet ditt?
 
-  ![](firevegger.png)
+  ![Robot som bygger vegger](firevegger.png)
 
 - [ ] Hmm ... det ble jo litt stilig, men et hus er det definitivt
   ikke. Problemet er at vi ikke har tenkt gjennom hvor roboten er
@@ -429,7 +429,7 @@ vil den bare bruke en av dem. Ved hjelp av funksjonene
   byggemateriale? Den blir da bare stående å vente på at du skal fylle
   den opp med nytt materiale.
 
-  ![](flerefarger.png)
+  ![Bilde av et hus med mange ulike farger](flerefarger.png)
 
 ### Prøv selv {.challenge}
 
