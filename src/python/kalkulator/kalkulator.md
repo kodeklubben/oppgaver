@@ -15,7 +15,7 @@ Brukeren skal selv skrive inn hva slags regneoperasjon som skal utføres.
 
 Eksempel på bruk av programmet:
 
-![](python_calculator.png)
+![Illustrasjon av en ferdig kalkulator](python_calculator.png)
 
 # Klar, ferdig, programmer! {.activity}
 
@@ -83,13 +83,13 @@ Du la kanskje merke til at vi skiller mellom *parametre* og *argumenter*. Et par
 
 Hvis programmet ditt feiler nå, så har du trolig fått en delt-på-null-feil. Man kan nemlig ikke dele på null. Fiks programmet ditt slik at programmet skriver ut `"Division by zero is not allowed!"` hvis brukeren forsøker å dele på null. Slik:
 
-![](python_calculator_zero_division.png)
+![Bildet av å prøve å dele på null i programmet](python_calculator_zero_division.png)
 
 ## Flere utregninger {.challenge}
 
 - [ ] Endre programmet ditt slik at brukeren kan skrive inn hvor mange utregninger kalkulatoren skal utføre. Programmet vil da fungere slik:
 
-![](python_calculator_multiple_calculations.png)
+![Bilde av hvordan programmet virker når brukeren kan velge antall utregninger](python_calculator_multiple_calculations.png)
 
 ## Flere operasjoner {.challenge}
 

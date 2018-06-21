@@ -13,7 +13,7 @@ fraktaler. Fraktaler er figurer som bygges opp av små kopier av seg
 selv. I løpet av leksjonen vil vi også jobbe mer med funksjoner og
 rekursjon.
 
-![](skilpaddefraktaler.png)
+![Bilde av Koch snøflaket laget med skilpadder](skilpaddefraktaler.png)
 
 # Steg 1: Husker du skilpadden? {.activity}
 
@@ -46,12 +46,12 @@ forward(270)
 En fraktal er en figur som er bygd opp av mindre kopier av seg
 selv. Vi skal nå se på hvordan vi kan tegne denne figuren:
 
-![](fjell.png)
+![Bilde av en fraktal](fjell.png)
 
 Dette er en fraktal, klarer du å se at den består av mange små kopier
 av seg selv? Det er kanskje lettere å se i de neste figurene?
 
-![](fjell_forstesteg.png)
+![Bilde av første steget i å danne en fraktal](fjell_forstesteg.png)
 
 Den øverste figuren er bare en rett strek. Den neste figuren består av
 fire rette streker som danner et enkelt fjell. Hvis du nå ser nærmere
@@ -325,7 +325,7 @@ Vi vil nå lage en fraktal på samme måte som Koch-figuren men med en
 litt form. I stedet for en trekant som danner fjellet vil vi bruke en
 firkant som i figuren under:
 
-![](firkantfjell_forstesteg.png)
+![Første steget i å lage et firkantfjell](firkantfjell_forstesteg.png)
 
 - [ ] Lag en ny fil som du kaller `firkantfjell.py`.
 
@@ -377,7 +377,7 @@ firkant som i figuren under:
 - [ ] Test koden din. Blir det riktig? Nedenfor ser du et eksempel hvor vi
   har laget et firkantfjell med dybde 6.
 
-  ![](firkantfjell.png)
+  ![Bilde av et firkantfjell med dybde 6](firkantfjell.png)
 
 # Steg 7: Trekanter {.activity}
 
@@ -388,7 +388,7 @@ Vi trenger ikke bare bruke rette streker for det enkle tilfellet.
 Vi skal nå lage en fraktal basert på trekanter. La oss se på de første
 stegene:
 
-![](trekant_forstesteg.png)
+![Bilde av de første stegene i en trekant fraktal](trekant_forstesteg.png)
 
 Her ser vi at vi har en trekant som byttes ut med tre mindre
 trekanter.
@@ -444,4 +444,4 @@ Eller kanskje du kan lage en helt annen figur? Prøv og tegn dine egne
 Her er et forslag til en figur du kan prøve, men prøv også å lage dine
 egne!
 
-![](drage_forstesteg.png)
+![Bilde av første steget i en drage fraktal](drage_forstesteg.png)

@@ -41,7 +41,7 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
   done()
   ```
 
-  ![](sky-star.png "Sky med en stjerne og skilpadde")
+  ![Bilde av en sky med en stjerne og skilpadde](sky-star.png)
 
 
 - [ ] Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen.
@@ -79,7 +79,7 @@ Sørg for å forstå alle før du går videre.
   done()
   ```
 
-  ![](sky-function.png "Sky med tre stjerner")
+  ![Bilde av sky med tre stjerner](sky-function.png)
 
   `hideturtle()` gjemmer skilpadden.
 
@@ -127,11 +127,11 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
   done()
   ```
 
-  ![](sky-function.png "Sky med tre stjerner")
+  ![Bilde av sky med tre stjerner](sky-function.png)
 
 - [ ] Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner en linje som er 50 piksler lang.
 
-  ![](sky-parameter-passing.png)
+  ![Bilde av hvordan Python behandler parametere](sky-parameter-passing.png)
 
 - [ ] Det er mulig å sende inn flere verdier inn i funksjonen. For eksempel kan vi sende inn hvilken farge vi vil at stjernen skal ha.
 
@@ -166,7 +166,7 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
 
   Ser du hvilke endringer som er gjort i koden?
 
-  ![](sky-colours.png "Tre stjerner med forskjellige farger")
+  ![Bilde av tre stjerner med forskjellige farger](sky-colours.png)
 
 ## Utfordring {.challenge}
 Lag en funksjon for å tegne planeter og kall den `drawPlanet()` Send verdier inn i funksjonen slik at du kan bestemme hvor stor og hvilken farge den skal ha.
@@ -210,7 +210,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
   ```
 - [ ] Vi bruker funksjonen `setpos(x, y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til posisjonen (200, 200). Prøv å endre på tallene i denne funksjonen!
 
-  ![](sky-xy.png)
+  ![Bilde av en stjerne i et koordinatsystem](sky-xy.png)
 
 - [ ] Vi skal nå flytte til en tilfeldig posisjon. Vi lager en ny funksjon som heter `moveToRandomLocation()`, denne flytter altså skilpadden til en tilfeldig posisjon.
 
@@ -247,7 +247,7 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
   done()
   ```
 
-  ![](sky-random.png "Stjernehimmel")
+  ![Bilde av en stjernehimmel](sky-random.png)
 
   Kjør koden flere ganger. Ser du at den tegner stjernene forskjellige plasser hver gang?
   Prøv å tegne flere stjerner i flere forskjellige størrelser og farger.
@@ -313,7 +313,7 @@ Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere �
   done()
   ```
 
-  ![](sky-galaxies.png "Stjernehimmel med galakser")
+  ![Bilde av en stjernehimmel med galakser](sky-galaxies.png)
 
   Ved å kjøre `drawGalaxy(40)` 3 ganger for vi 3 nye galakser som hver inneholder 40 stjerner. For hver galakse kjøres `drawStar()` 40 ganger, mellom hver gang flyttes posisjonen til den neste stjernen litt. Ser du hvor i koden dette skjer?
 
@@ -388,13 +388,13 @@ Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere �
   done()
   ```
 
-  ![](sky-constellations.png "Stjernehimmel med stjernekonstellasjoner")
+  ![Bilde av stjernehimmel med stjernekonstellasjoner](sky-constellations.png)
 
 ## Utfordring {.challenge}
 Programmér skilpadden til å tegne ditt eget bilde. Bruk funksjoner der du kan, spesielt til ting du skal gjøre flere ganger. Prøv også å bruke funksjoner som du kan sende inn verdier i.
 
 # Eksempler {.activity}
 
-![](sky-flowers.png "Blomstereng")
+![Bilde av en blomstereng](sky-flowers.png)
 
-![](sky-birds.png "Himmel med fugler og skyer")
+![Bilde av himmel med fugler og skyer](sky-birds.png)
