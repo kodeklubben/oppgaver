@@ -7,7 +7,8 @@ translator: "Øistein Søvik"
 language: nb
 ---
 
-Den tradisjonelle måten å starte å programmere på i et nytt språk er å få datamaskinen til å si, "Hello, World" (Altså hei verden).
+Den tradisjonelle måten å starte å programmere på i et nytt språk er å få
+datamaskinen til å si, "Hello, World!" (Altså Hei, verden!).
 
 ![](scroll-hello1.gif)
 
@@ -28,7 +29,7 @@ forteller MicroPython å hente alle tingene den trenger for å sammarbeide med B
 mico:bit. Alt disse tingene er i en modul med navn `microbit` (en modul er et
 bibliotek eller sammling av eksisterende kode). Når du skriver `import` så
 forteller du MicroPython at du vil bruke det, og `*` er Python's måte i si *alt*
-på. Så, `from microbit import *` betyr på god Norsk, "Jeg ønsker å kunne bruke
+på. Så, `from microbit import *` betyr på godt norsk, "Jeg ønsker å kunne bruke
 alt fra microbit kode biblioteket".
 
 Den andre linjen:
