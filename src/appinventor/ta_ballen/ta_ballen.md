@@ -5,7 +5,9 @@ author: 'Tjerand Silde'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
+
 Nå skal vi lage en app som heter `Ta ballen`. For å lage denne appen så
 forutsetter vi at vi vet hvordan *MIT App Inventor* fungerer fra [tidligere
 oppgavesett](http://kodeklubben.github.io/appinventor/introduksjon/introduksjon.html),
