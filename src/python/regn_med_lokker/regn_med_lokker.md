@@ -46,7 +46,7 @@ Bruk en for-løkke til å skrive ut alle tallene mellom 0 og 10.
 - [ ] Bruk en for-løkke og range-funksjonen for å telle ned fra 10. Når du kommer
 til 0, skal programmet skrive **liftoff!**
 
-![](liftoff.png "program som teller ned til liftoff")
+![Bilde av program som teller ned til liftoff](liftoff.png)
 
 # Summere 100 tall {.activity}
 Et vanlig problem i matematikk er å summere sammen en rekke med tall. Dette
@@ -67,4 +67,4 @@ def summer(n):
 
 Når koden din er rett, skal den fungere slik som dette:
 
-![](summer.png "summering av tallrekker med python")
+![Bilde av summering av tallrekker med python](summer.png)

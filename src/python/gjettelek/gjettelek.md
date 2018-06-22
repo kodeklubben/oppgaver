@@ -22,7 +22,7 @@ Spillet er som følger:
 
 Slik ser det ut når programmet kjører:
 
-![](python_guessing_game.png)
+![Illustrasjon av et ferdig gjettelek spill](python_guessing_game.png)
 
 # Klar, ferdig, programmer! {.activity}
 
