@@ -14,7 +14,7 @@ og tilbake på skjermen, og du vinner ved å trykke på ballen med fingeren din.
 å treffe ballen, dess flere poeng får du. Dette er en ganske enkel app, men det er mulig å utvide
 appen etter egne ønsker etterpå.
 
-  ![](introduksjon.png)
+  ![Bilde av "Ta ballen" spillet i app inventor](introduksjon.png)
 
 # Steg 1: Opprette spillskjerm {.activity}
 
@@ -37,7 +37,7 @@ Det første vi skal gjøre er å opprette en spillskjerm, og legge til en klokke
 - [ ] Til slutt kan du velge en passende farge og radius til ballen, samt farge til bakgrunnen.
   Et eksempel på hvordan det kan se ut er:
 
-  ![](spill.png)
+  ![Bilde av en en rød ball](spill.png)
 
 # Steg 2: Programmere spillet {.activity}
 
@@ -60,7 +60,7 @@ på seg i spillet.
   og at vi får ekstra masse poeng dersom vi klarer å ta ballen før tiden er ute. OBS! Timeren tar imot
   millisekunder, så `10` sekunder er det samme som `10000` millisekunder i koden. Koden for dette kan se slik ut:
 
-  ![](init.png)
+  ![Bilde av instillingene som trengs til spillet](init.png)
 
 - [ ] For å sjekke om tiden er ute så trykker vi på **Clock1** og henter `when Clock1.Timer - do` og legger inn
   `close screen with value  result` og tallet `0`.
@@ -73,7 +73,7 @@ på seg i spillet.
   vist i bildet ovenfor. Vi skal da få `10000` poeng dersom vi klarer å ta ballen med en gang, også blir vi
   trukket `1` poeng for hvert millisekund som går. Det vil da se slik ut:
 
-  ![](victory.png)
+  ![Bilde av betingelsene for seier](victory.png)
 
 - [ ] For å kunne gå tilbake til forsiden så legger vi inn en blokk som sier `when Spill.BackPressed - do`
   fra **Screen1**. Inne i denne blokken plasserer vi `open another screen  screenName` som er koblet
@@ -102,12 +102,12 @@ og ha muligheten til å starte spillet på nytt.
   Inne i denne legger du til to nye labels. La den ene ha teksten `Rekord` og være plassert til venstre.
   La den andre være uten tekst, fylle bredden og plasser teksten til høyre. **Components** ser nå slik ut:
 
-  ![](components.png)
+  ![Bilde av komponentene](components.png)
 
 - [ ] Til slutt fikser du på hvordan **Screen1** skal se ut. Legg gjerne til et bilde, endre bakgrunnsfarge,
   skriftstørrelse eller andre ting slik at den ser ut som du ønsker. Et eksempel på hvordan det kan se ut er:
 
-  ![](screen.png)
+  ![Bilde av start-skjermen til spillet](screen.png)
 
 # Steg 4: Programmere menyen {.activity}
 
@@ -133,7 +133,7 @@ Nå som menyen er designet ferdig, er vi nødt til å programmere den slik at no
 - [ ] Til slutt skal vi lage en mer avansert blokk som sjekker om din nye poengsum er bedre enn tidligere poengsummer
   etter endt spill. Den blokken vil da se slik ut:
 
-  ![](result.png)
+  ![Bilde av kodeblokk som sjekker om du har fått ny highscore](result.png)
 
 # Steg 5: Opprette krediteringskjerm {.activity}
 

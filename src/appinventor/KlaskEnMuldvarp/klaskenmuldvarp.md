@@ -12,7 +12,7 @@ I denne oppgaven skal vi lage et veldig enkelt spill med litt animasjon. Det som
 
 Vi skal nå lære litt om animasjon, hendelser og prosedyrer.
 
-![spillbrettet](spillbrettet.png)
+![Bilde av spillbrettet og muldvarpen](spillbrettet.png)
 
 # Steg 1: Gjøre klart spillbrettet {.activity}
 Det første vi trenger er en _Canvas_-komponent som tegner selve spillbrettet. Dette vil være området hvor muldvarpen hopper rundt på skjermen.
@@ -82,7 +82,7 @@ Hver figur har en fart (_Speed_), retning (_Heading_) og intervall (_Interval_).
 
 Skjermbildet ditt burde nå se slik ut:
 
-![komponenteneinne](komponenteneinne.png)
+![Bilde av spillbrettet og muldvarpen i app inventor](komponenteneinne.png)
 
 # Steg 6: Få ting til å skje! {.activity}
 Vi har nå lagt til alle delene i appen vår. Du kan teste den på mobilen din, men du vil se at ingenting skjer. For å få noe til å skje på skjermen må vi legge til logikk, altså kode.
