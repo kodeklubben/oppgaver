@@ -17,8 +17,9 @@ Slike handlinger kalles gjerne for *input*.
 Forskjellen er enkel å huske: output er hva micro:bit'en viser til verden, mens
 input er hva som blir prosessert av micro:bit'en.
 
-Den mest åpenbare måten å gi input til micro:bit'en på er de to knappene `A` og `B`.
-På en eller annen måte må vi få MicroPython til å reagere på at knappene trykkes.
+Den mest åpenbare måten å gi input til micro:bit'en på er de to knappene `A` og
+`B`. Første oppgave er å finne ut hvordan vi få MicroPython til å registrere at
+knappene trykkes.
 
 Dette er overraskende enkelt:
 
@@ -29,14 +30,14 @@ sleep(10000)
 display.scroll(str(button_a.get_presses()))
 ```
 
-Det eneste dette skriptet gjør er å sove i ti tusen millisekunder (i.e 10
+Det eneste dette skriptet gjør er å sove i ti tusen millisekunder (med andre ord 10
 sekunder) og deretter scroller antallet ganger du trykket knappen `A` over
 skjermen. Det er det!
 
-På tross av at dette er et ganske meningsløst script så introduserer det et par
+På tross av at dette er et veldig enkelt script så introduserer det et par
 interessante nye idéer.
 
-1. `sleep` *funksjonen* får micro:bit'ten til å vente ett gitt antall
+1. `sleep` *funksjonen* får micro:bit'ten til å vente et gitt antall
    milliseukunder. *Dersom du ønsker å pause programmet ditt, er dette hvordan
    det gjøres*.
 2. Det er et objekt `button_a` som tillater deg å hente ut antall ganger den har
@@ -101,7 +102,7 @@ utvidet den slik:
 
 
 ```python
-Handle:
+Handling:
    Egg
    Baccon
    Tomater
@@ -114,9 +115,9 @@ Klippe plenen:
    Sjekke drivstoffnivå til gressklipper
 ```
 
-Det er åpenbart at hovedoppgavene er brutt ned til mindre oppgaver med *innhogg*
+Det er åpenbart at hovedoppgavene er brutt ned til mindre oppgaver med *innrykk*
 (indented) under hovedoppgavene. Slik at `Egg`, `Baccon` og `Tomater` åpenbart
-er relatert til `Shopping`. Ved å bruke innhogg blir det enklere å få oversikt,
+er relatert til `Handling`. Ved å bruke innrykk blir det enklere å få oversikt,
 og vi kan enklere se sammenhengen mellom ulike oppgaver.
 
 Dette kalles for *nesting*. vi kan bruke nesting til å definere en kodeblokk som
@@ -194,7 +195,7 @@ else:
     # gjør enda en ny ting.
 ```
 
-Dette er overraskende likt Engelsk!
+Dette er overraskende likt engelsk!
 
 Metoden `is_pressed` produserer bare to resultat: `True` eller `False`. Mens du
 holder inne knappen returnerer den `True`, ellers returnerer den `False`. Koden
@@ -210,14 +211,9 @@ Kan du tenke på måter å gjøre spillet mindre tragisk på? Hvordan kan du sje
 om *begge* knappene er trykket ned samtidig?
 
 
-Hint: Python har `and` `or` og `not` logiske operatorer for å sjekke flere
+Hint: Python har `and`, `or` og `not` logiske operatorer for å sjekke flere
 logiske påstander samtidig (ting som enten er `True` eller `False`).
 
 <!--A little workaround to avoid checklist being a part of protip-->
 # {.check}
-
-
-
-
-
 
