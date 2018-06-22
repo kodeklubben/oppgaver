@@ -61,7 +61,7 @@ dette klart ved å bruke tomme parenteser som dette: `()`.
 - [ ] Endre meldingen slik at den sier hallo til deg. For eksempel, så ville jeg
       kanskje få den til å si "Hallo, Øistein!". 
       
-Her er et hint, du trenger å endre scroll metoden sitt argument
+Her er et hint, du trenger å endre `scroll` metoden sitt argument.
 
 ## Advarsel {.tip} 
 
