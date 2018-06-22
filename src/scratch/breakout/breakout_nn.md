@@ -3,6 +3,7 @@ title: Breakout
 level: 4
 author: 'Geir Arne Hjelle og Martin Lie'
 language: nn
+translator: 'Stein Olav Romslo'
 ---
 
 # Introduksjon {.intro}
@@ -54,19 +55,19 @@ lage mange kopiar av den fyrste.
 - [ ] No vil me klone denne eine boksen mange gonger. For å lage fleire
   rekker med boksar brukar me to løkker. Me treng òg å vite kor mange boksar
   me har, slik at me seinare kan sjekke om me har skote ned alle. Derfor må
-  du lage ein variabel `Antal boksar`{.blockdata} som gjeld for alle figurar.
+  du lage ein variabel `Antall bokser`{.blockdata} som gjeld for alle figurar.
   I denne koden må du kanskje endre dei ulike tala litt, slik at dei passar
   til akkurat din boks.
 
   ```blocks
-  når eg mottek [Nytt spel v]
+  når jeg mottar [Nytt spill v]
   skjul
-  set [Antal boksar v] til [0]
-  set y til (160)
-  gjenta (5) gonger
-      set x til (-200)
-      gjenta (11) gonger
-          endre [Antal boksar v] med (1)
+  sett [Antall bokser v] til [0]
+  sett y til (160)
+  gjenta (5) ganger
+      sett x til (-200)
+      gjenta (11) ganger
+          endre [Antall bokser v] med (1)
           lag klon av [meg v]
           endre x med (40)
       slutt
@@ -80,10 +81,10 @@ lage mange kopiar av den fyrste.
   mellomrom.
 
   ```blocks
-  når eg startar som klon
+  når jeg starter som klon
   vis
-  vent til <tast [mellomrom v] trykka?>
-  endre [Antal boksar v] med (-1)
+  vent til <tast [mellomrom v] trykket?>
+  endre [Antall bokser v] med (-1)
   slett denne klonen
   ```
 
@@ -114,7 +115,7 @@ som kan ta imot ballen.
   teikne ein sjølv.
 
 - [ ] Me vil ha moglegheita til å endre hastigheita til ballen enkelt seinare.
-  Lag ein ny variabel `hastigheit`{.blockdata} som gjeld for ball-figuren.
+  Lag ein ny variabel `hastighet`{.blockdata} som gjeld for ball-figuren.
 
 - [ ] Lag eit skript som startar på `Nytt spel`-meldinga. Fyrst i skriptet
   vil du plassere ballen slik at den kvilar på racketen, og gi den ein
@@ -122,19 +123,19 @@ som kan ta imot ballen.
   gå inn i ei løkke som blir gjenteke heilt til `y`-posisjonen til ballen blir
   mindre enn eit passande tal (`-160` er eit bra utgangspunkt, men det vil
   variere avhengig av kor du plasserer racketen og kor stor ballen er). Inne i
-  denne løkka vil du flytte ballen `hastigheit`{.blockdata} steg, og la den
+  denne løkka vil du flytte ballen `hastighet`{.blockdata} steg, og la den
   `sprette tilbake ved kanten`{.blockmotion}.
 
 - [ ] No vil me få til at ballen sprett på racketen. I løkka til racketen kan
-  du legge til ein `viss`{.blockcontrol}-test der du sender ein `Sprett
+  du legge til ein `hvis`{.blockcontrol}-test der du sender ein `Sprett
   horisontalt`-melding når ballen kjem borti racketen.
 
 - [ ] Ballen må svare på denne meldinga ved å endre retning. Til dømes med
   kode som ser omtrent slik ut:
 
   ```blocks
-  når eg mottek [Sprett horisontalt v]
-  peik i retning ((180) - (retning))
+  når jeg mottar [Sprett horisontalt v]
+  pek i retning ((180) - (retning))
   ```
 
 # Steg 3: Boksane forsvinn {.activity}
@@ -163,7 +164,7 @@ Prøv spelet ditt. Grunnmekanismane skal fungere no.
 - [ ] La noko skje når du tapar spelet. Det vil seie når
   `gjenta til`{.blockcontrol}-løkka på ballen er ferdig.
 
-- [ ] Ved hjelp av `Antal boksar`{.blockdata}-variabelen kan du sjekke om
+- [ ] Ved hjelp av `Antall bokser`{.blockdata}-variabelen kan du sjekke om
   spelaren har klart å fjerne alle boksane og vinne spelet. Gi spelaren beskjed
   om at ho har vunne!
 
@@ -210,13 +211,13 @@ Prøv spelet ditt. Grunnmekanismane skal fungere no.
   opp kva drakt kvar boks skal bruke. Til dømes kan denne sjå slik ut:
 
   ```blocks
-  set [brett v] til [1111111111111222222211112233322111122222221111111111111]
+  sett [brett v] til [1111111111111222222211112233322111122222221111111111111]
   ```
 
   Du kan bruke dette på denne måten når du set ut boksane:
 
   ```blocks
-  byt drakt til (bokstav (antal boksar) i (brett))
+  bytt drakt til (bokstav (antall bokser) i (brett))
   ```
 
   Vidare i spelet kan du teste på `drakt nr.`{.blocklooks} for å vite kva type
