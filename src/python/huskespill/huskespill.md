@@ -12,7 +12,7 @@ Vi vil bygge programmet gradvis steg for steg. I hvert steg vil det gis viktige 
 
 **Eksempel på hvordan programmet skal fungere: **
 
-![](memo.gif)
+![Illustrasjon av et ferdig huskespill](memo.gif)
 
 
 # Steg 1: Utvid en liste med tilfeldige element {.activity}

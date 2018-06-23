@@ -22,7 +22,7 @@ deg i hodet hvordan resultatet kommer til å bli - før koden kjøres!
 fyllt bokstav. Her kan det være lurt å dele bokstaven opp i enkle figurer som
 firkanter, trekanter og halvsirkler, og tegne én og én del.
 
-![](stor_k.png "en stor rød K tegnet med skilpadde")
+![Bilde av en stor rød K tegnet med skilpadde](stor_k.png "en stor rød K tegnet med skilpadde")
 
 # Oppgave 3: Figurer {.activity}
 - [ ] Lek deg med ulike farger, og tegn et hus, en bil eller noe annet du har lyst
