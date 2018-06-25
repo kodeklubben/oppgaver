@@ -9,7 +9,7 @@ language: nb
 I denne oppgaven blir du introdusert for programmeringsspråket JavaScript. Du
 skal gjøre den klassiske oppgaven *Hei verden*, med en katt.
 
-![Bilde av en ASCII katt som sier "Mjau, Arve!" i consolen](jsbin.png)
+![Bilde av en ASCII katt som sier "Mjau, Arve!" i konsollen](jsbin.png)
 
 # Steg 1: Bruke JS Bin {.activity}
 Du skal bruke en nettside som heter *JS Bin* for denne oppgaven. JS Bin er en
