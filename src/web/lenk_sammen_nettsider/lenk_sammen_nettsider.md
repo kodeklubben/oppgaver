@@ -60,15 +60,15 @@ __Bra jobba!__ Nå har du 3 sider som er lenkeT til hverandre.
 Her er et eksempel på 3 sider som er knyttet sammen. Koden er hentet fra [“Del inn nettsiden"](../del_inn_nettsiden/del_inn_nettsiden.html) hvor vi lære hvordan vi delte inn nettsiden ved hjelp av `<div>`- og `<nav>`-tagger.
 ## Hjem
 
-![screenshot](ressurser/hjem.png)
+![Bilde av koden og output for siden "hjem"](ressurser/hjem.png)
 
 ## Mine hobbyer
 
-![screenshot](ressurser/mine_hobbyer.png)
+![Bilde av koden og output for siden "mine hobbyer"](ressurser/mine_hobbyer.png)
 
 ## Om meg
 
-![screenshot](ressurser/om_meg.png)
+![Bilde av koden og output for siden "om meg"](ressurser/om_meg.png)
 
 
 # TIPS {.challenge}
