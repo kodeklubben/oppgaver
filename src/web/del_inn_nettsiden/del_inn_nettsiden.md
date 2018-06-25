@@ -13,7 +13,7 @@ I denne oppgaven vil du gjøre oppgaver der du må programmere uten oppskrift, d
 
 Når vi er ferdig med oppgaven kommer siden din til å se noe sånt ut, kanskje med litt mer tekst eller andre farger:
 
-![screenshot](ressurser/html_del_inn_5.png)
+![Illustrasjon av hvordan den ferdige nettsiden ser ut](ressurser/html_del_inn_5.png)
 
 
 
@@ -31,7 +31,7 @@ __Lykke til!__
 
 Under ser du utviklingsverktøyet til Chrome til høyre og kidsakoder.no til venstre. I utviklervindu ser vi flere `<div>`-tagger inne i hverandre. Disse skal vi lære mer om.
 
-![screenshot](ressurser/html_del_inn_4.png)
+![Bilde av kodeklubbens nettsider med utviklingsverktøyet til Chrome til høyre](ressurser/html_del_inn_4.png)
 
 
 Som du ser er `<div>`-taggen brukt til å organisere elementer eller ting på nettsiden. Legg også merke til at alle `<div>`-taggene har en `ID`. Dette er for at det skal være enklere å holde styr på hva som ligger i disse seksjonene og for at det skal være enklere å sette design (CSS) på dem.
@@ -354,7 +354,7 @@ CSS-en bør se noe sånt ut: (Merk at jeg har sikkert andre farger enn deg)
 
 Nå vil koden se noe sånt ut:
 
-![screenshot](ressurser/html_del_inn_6.png)
+![Bilde av koden og nettisden side ved side](ressurser/html_del_inn_6.png)
 
 
 

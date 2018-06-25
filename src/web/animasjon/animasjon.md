@@ -8,7 +8,7 @@ language: nb
 # Introduksjon {.intro}
 I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS. Under ser du hvordan resultatet vil bli til slutt:
 
-![](ressurser/out.gif)
+![Viser en animasjon av teksten "minecraft" som dukker opp og en hakke som treffer en klosse](ressurser/out.gif)
 
 Men før vi starter å lage animasjonen over må vi lære om hvordan animasjon fungerer ved hjelp av CSS. Så la oss starte med det grunnleggende!
 
@@ -232,7 +232,7 @@ Merk at i dette eksempelet har vi lagt inn `50%`. Dette er et eksempel på at du
 # Steg 3: Pakke ut filene {.activity}
 Nå skal vi animere øksen og Minecraft-logoen:
 
-![](ressurser/out.gif)
+![Viser en animasjon av teksten "minecraft" som dukker opp og en hakke som treffer en klosse](ressurser/out.gif)
 
 + Last ned og pakk ut [minecraft_animasjon.zip](minecraft_animasjon.zip).
 + Åpne `index.html` i din favoritt teksteditor og i en nettleser.
