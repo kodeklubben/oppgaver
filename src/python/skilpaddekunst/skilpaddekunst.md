@@ -12,7 +12,7 @@ bruk innen programmering i lang tid. Vi vil bruke
 skilpadde-biblioteket i Python til å utforske flere
 programmeringskonsepter samtidig som vi tegner kule bilder.
 
-![](skilpaddekunst.png)
+![Bilde av kunst laget ved hjelp av skilpadder](skilpaddekunst.png)
 
 # Steg 1: Møt skilpadden {.activity}
 

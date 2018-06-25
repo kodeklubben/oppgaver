@@ -9,7 +9,7 @@ language: nb
 
 I denne oppgaven skal du lage et spill der du styrer en strekmann som hopper over hindringer.
 
-![](animasjon_spill.gif "Slik ser spillet ut")
+![Illustrasjon av det ferdige strekmann spillet](animasjon_spill.gif "Slik ser spillet ut")
 
 
 # Steg 1: Ny fil {.activity}
@@ -99,11 +99,11 @@ Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 
  + For at koden skal kjøre må du lagre bildet av strekmannen under som `running_man.png` i mappen `images` der du har lagret `run_stickman.py`.
 
-  ![](running_man.png "Strekmann")
+  ![Bilde av en strekmann](running_man.png "Strekmann")
 
 - [ ] Mappen din skal nå se ut som dette:
 
-  ![](mappestruktur.png "Mappestruktur")
+  ![Bilde av mappestrukturen](mappestruktur.png "Mappestruktur")
 
 
 [`Actor`]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
@@ -163,7 +163,7 @@ Legg merke til at y-aksen til spillvinduet er positiv nedover, motsatt av det
 som er vanlig i matematikk. Boksens x- og y-posisjon er hvor boksens øverste
 venstre hjørne er plassert, som er merket i bildet som **(x, y)**.
 
-![](koord_data2.png "Koordinatsystem med figurer")
+![Bilde av koordinatsystem med figurer](koord_data2.png "Koordinatsystem med figurer")
 
 Den røde firkanten illustrerer hvor stort bildet til strekmannen er. I
 tilfellet merket **1** ser du at boksens øverste venstre hjørne er
