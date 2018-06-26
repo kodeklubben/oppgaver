@@ -10,9 +10,13 @@ language: nb
 
 # Introduksjon {.intro}
 
-Er du lei av at enheten din gjør det samme hver gang, ønsker du kanskje å gjøre utfallet mer spennende? I denne oppgaven skal vi lære hvordan vi kan få enheten til å oppføre seg tilsynelatende tilfeldig.
+Er du lei av at enheten din gjør det samme hver gang, ønsker du kanskje å gjøre
+utfallet mer spennende? I denne oppgaven skal vi lære hvordan vi kan få enheten
+til å oppføre seg tilsynelatende tilfeldig.
 
-MicroPython har en `random` modul som gjør det enkelt å inkludere tilfeldigheter og litt kaos inn i koden din. For eksempel, her er hvordan en kan scrolle et tilfeldig navn over displayet:
+MicroPython har en `random` modul som gjør det enkelt å inkludere tilfeldigheter
+og litt kaos inn i koden din. For eksempel, her er hvordan en kan scrolle et
+tilfeldig navn over displayet:
 
 ```python
 from microbit import *
@@ -32,16 +36,19 @@ tilfeldig element. Dette elementer er argumentet til `display.scroll`.
 
 - [ ] Endre på listen og inkluder dine egne navn. 
 
-- [ ] Hva kan bruksområdet til en slik liste være? Tenk ut 2 tilfeller hva du kan bruke en slik liste til. ()
+- [ ] Hva kan bruksområdet til en slik liste være? Tenk ut 2 tilfeller hva du
+      kan bruke en slik liste til. ()
 
 - [ ] Inkluder samme navnet flere ganger i listen. Hva skjer?
 
 
 # Tilfeldige tall {.activity}
 
-Tifleldige tall er veldig nyttige og er vanlige i spill. Vet du om andre plasser vi bruker terninger?
+Tifleldige tall er veldig nyttige og er vanlige i spill. Vet du om andre plasser
+vi bruker terninger?
 
-MicroPython kommer utrustet med en rekke nyttige metoder for å lage tilfeldige tall. Her er hvordan en kan lage en enkel terning:
+MicroPython kommer utrustet med en rekke nyttige metoder for å lage tilfeldige
+tall. Her er hvordan en kan lage en enkel terning:
 
 ```python
 from microbit import *
@@ -50,11 +57,24 @@ import random
 display.show(str(random.randint(1, 6)))
 ```
 
-Hver gang enheten er startet på nytt så viser displayet et tall mellom 1 og 6. Du begynner å bli kjent med grepet _nøsting_, så det er viktig å huske på at `random.randint` returnerer et heltall mellom to argumenter, inkludert endepunktene (argumentet heter `ranint` som er en forkortelse for *random integer*, siden *integer* betyr heltall). Merk at siden `display.show` forventer tekst så må vi bruke `str` funksjonen til å gjøre om tallverdien til en tekst (vi gjør om for eksempel `6` til `"6"`).
+Hver gang enheten er startet på nytt så viser displayet et tall mellom 1 og 6.
+Du begynner å bli kjent med grepet _nøsting_, så det er viktig å huske på at
+`random.randint` returnerer et heltall mellom to argumenter, inkludert
+endepunktene (argumentet heter `ranint` som er en forkortelse for *random
+integer*, siden *integer* betyr heltall). Merk at siden `display.show` forventer
+tekst så må vi bruke `str` funksjonen til å gjøre om tallverdien til en tekst
+(vi gjør om for eksempel `6` til `"6"`).
 
-Dersom du vet at du alltid ønsker et tall mellom `0` og `N` så kan vi bruke `random.randrange` metoden. Den tar inn ett tall og returner et tilfeldig tall opp til, men ikke inkludert verdien til argumentet `N`. (dette er forskjellig fra `random.randint`)
+Dersom du vet at du alltid ønsker et tall mellom `0` og `N` så kan vi bruke
+`random.randrange` metoden. Den tar inn ett tall og returner et tilfeldig tall
+opp til, men ikke inkludert verdien til argumentet `N`. (dette er forskjellig
+fra `random.randint`)
 
-Noen ganger trenger du desimaltall. Programmerere kaller gjerne disse for *flyttall* og det er mulig å generere slike tall ved å bruke `random.random` metoden. Dette returnerer en verdi mellom `0.0` og `1.0` inklusive endepunktene. Dersom du trenger større tilfeldige desimaltall kan du legge sammen resultatene fra `random.randrange` og `random.random` slik som dette
+Noen ganger trenger du desimaltall. Programmerere kaller gjerne disse for
+*flyttall* og det er mulig å generere slike tall ved å bruke `random.random`
+metoden. Dette returnerer en verdi mellom `0.0` og `1.0` inklusive endepunktene.
+Dersom du trenger større tilfeldige desimaltall kan du legge sammen resultatene
+fra `random.randrange` og `random.random` slik som dette
 
 ```python
 from microbit import *
@@ -86,7 +106,8 @@ import random
 display.show(str(A+random.randrange(B)))
 ```
 
-Her må du selv finne ut hvilke tall vi må bytte ut `A` og `B` med slik at koden ovenfor fungerer som en terning.
+Her må du selv finne ut hvilke tall vi må bytte ut `A` og `B` med slik at koden
+ovenfor fungerer som en terning.
 
 </hide>
 </toggle>
@@ -94,11 +115,21 @@ Her må du selv finne ut hvilke tall vi må bytte ut `A` og `B` med slik at kode
 
 # Kaostilstander {.activity}
 
-Når datamaskinen din lager tilfeldige tall er de ikke helt tilfeldig. De gir bare ut tilsynelatende tilfeldige resultater gitt en _starttilstand_ (Kalles gjerne for _seed_ på engelsk). Tilstanden er ofte laget fra omtrentlig tilfeldige tall, slik som temperaturen i datamaskinen din, musebevegelsene de siste minuttene eller klokkeslettet. Allle disse metodene kan kombineres. 
+Når datamaskinen din lager tilfeldige tall er de ikke helt tilfeldig. De gir
+bare ut tilsynelatende tilfeldige resultater gitt en _starttilstand_ (Kalles
+gjerne for _seed_ på engelsk). Tilstanden er ofte laget fra omtrentlig
+tilfeldige tall, slik som temperaturen i datamaskinen din, musebevegelsene de
+siste minuttene eller klokkeslettet. Allle disse metodene kan kombineres.
 
-Noen ganger ønsker du å ha tilfeldig oppførsel som gjentar seg, en kilde av tilfeldighet som er reproduserbar. Det er som å si at du trenger de samme fem tilfeldige verdiene hver gang du kaster en terning.
+Noen ganger ønsker du å ha tilfeldig oppførsel som gjentar seg, en kilde av
+tilfeldighet som er reproduserbar. Det er som å si at du trenger de samme fem
+tilfeldige verdiene hver gang du kaster en terning.
 
-Dette er heldigvis enkelt siden vi kan sette starttilstanden direkte i MicroPython. Gitt en fast starttilstand så vil den generere de samme tilfeldige tallene hver gang. Starttilstanden er satt med `random.seed` og ett positivt heltall. Denne versjonen av terning programmet produserer alltid de samme resultatene 
+Dette er heldigvis enkelt siden vi kan sette starttilstanden direkte i
+MicroPython. Gitt en fast starttilstand så vil den generere de samme tilfeldige
+tallene hver gang. Starttilstanden er satt med `random.seed` og ett positivt
+heltall. Denne versjonen av terning programmet produserer alltid de samme
+resultatene
 
 ```python
 from microbit import *
