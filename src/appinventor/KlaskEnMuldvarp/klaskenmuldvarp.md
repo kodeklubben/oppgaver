@@ -7,6 +7,7 @@ license: '[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi lage et veldig enkelt spill med litt animasjon. Det som
@@ -17,7 +18,8 @@ på nytt.
 
 Vi skal nå lære litt om animasjon, hendelser og prosedyrer.
 
-![spillbrettet](spillbrettet.png)
+![Bilde av spillbrettet og muldvarpen](spillbrettet.png)
+
 
 
 # Steg 1: Gjøre klart spillbrettet {.activity}
@@ -46,7 +48,6 @@ til streker, sirkler, tekst, firkanter og bilder på canvasen.
 
 
 # Steg 2: Legge til poengtelleren og restartknappen {.activity}
-
 For å vite hvor mange poeng spilleren har, må vi legge til en tekst som
 oppdateres hver gang spilleren treffer muldvarpen. Restartknappen lar spilleren
 starte spillet på nytt.
@@ -63,7 +64,6 @@ starte spillet på nytt.
       ![button](knapp.png), og drar den over til skjermen i **Viewer**. Under
       **Components**, trykk på **Rename** og gi den navnet 'RestartKnapp'. Pass
       på at knappen vises under spillbrettet.
-
 - [ ] Gå til **Properties** og forandre verdien under **Text** til `Start på nytt`.
 
 
@@ -79,7 +79,6 @@ For å få mobilen til å vibrere når spilleren får poeng, må vi legge til en
 
 
 # Steg 4: Ta tiden {.activity}
-
 For at muldvarpen skal kunne hoppe rundt på brettet over tid, trenger vi å legge
 til en klokke. Klokken hjelper oss å jobbe med tid, for eksempel vite hvilken
 dato det er eller hva klokken er. Her skal vi bruke den til å fortelle spillet
@@ -119,7 +118,7 @@ vil ikke bevege seg selv. Istedet setter vi posisjonen ved hjelp av klokken.
 
 Skjermbildet ditt burde nå se slik ut:
 
-![komponenteneinne](komponenteneinne.png)
+![Bilde av spillbrettet og muldvarpen i app inventor](komponenteneinne.png)
 
 
 # Steg 6: Få ting til å skje! {.activity}
@@ -224,6 +223,7 @@ Denne sier hvilke klosser som skal kjøre når en hendelse sendes. Klokken vår 
 en kloss som er _event handleren_ for timeren: **when Klokken.Timer do**.
 
 ## Sjekkliste {.check}
+
 - [ ] Sett timeren til å kalle `FlyttMuldvarp`:
 
   ![initOppdater](timerflytt.png)
@@ -272,11 +272,13 @@ som sendes når knappen trykkes på.
   ![restart](restart.png)
 
 ## Test  appen på mobiltelefonen {.flag}
+
 Installer appen på mobilen din og prøv spillet.
 
 Virker spillet slik du ville?
 
 ## Utfordring: Dine egne tilpasninger {.challenge}
+
 Hvordan kan du lage spillet enda bedre?
 
 Kan du gjøre spillet vanskeligere?
