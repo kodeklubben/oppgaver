@@ -7,16 +7,18 @@ license: '[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
-Nå skal vi lage vår helt egen app! Men før vi går igang med kodingen,
-så må vi planlegge hvordan appen skal se ut og hva den skal gjøre.
-Først må vi komme opp med en kul idé. Hvilken type app har du lyst å lage?
+Nå skal vi lage vår helt egen app! Men før vi går igang med kodingen, så må vi
+planlegge hvordan appen skal se ut og hva den skal gjøre. Først må vi komme opp
+med en kul idé. Hvilken type app har du lyst å lage?
+
 
 # Steg 1: Komme opp med en idé {.activity}
 
-Hvilken type app har du lyst å lage? Det kan av og til være vanskelig å
-komme opp med en god idé, så her er noen forslag:
+Hvilken type app har du lyst å lage? Det kan av og til være vanskelig å komme
+opp med en god idé, så her er noen forslag:
 
 ##  Idémyldring {.check}
 
@@ -28,12 +30,13 @@ komme opp med en god idé, så her er noen forslag:
 
 - [ ] Var det noen spill i Scratch som du likte godt?
 
+
 # Steg 2: Planlegge appen {.activity}
 
-Hva er formålet med appen? Tenk for eksempel på Scratch-spillet Felix og Herbert.
-Der var målet å ikke bli tatt av katten. Det kan være smart å tenke ut
-flere spillidéer, og så velge den beste etterpå. Du kan gjerne drodle
-litt med en venn underveis. Her er noen tips til hva du bør tenke på:
+Hva er formålet med appen? Tenk for eksempel på Scratch-spillet Felix og
+Herbert. Der var målet å ikke bli tatt av katten. Det kan være smart å tenke ut
+flere spillidéer, og så velge den beste etterpå. Du kan gjerne drodle litt med
+en venn underveis. Her er noen tips til hva du bør tenke på:
 
 ## Planlegging {.check}
 
@@ -50,6 +53,7 @@ litt med en venn underveis. Her er noen tips til hva du bør tenke på:
 - [ ] Skal du bruke noen sensorer?
 
 - [ ] Hvordan vil du at appen skal se ut?
+
 
 # Steg 3: Hvordan virker spillet ditt? {.activity}
 
@@ -71,10 +75,11 @@ Tenk for eksempel på:
 
 Skriv ned tankene dine!
 
+
 # Steg 6: Sett i gang! {.activity}
 
-Nå som du har en plan, kan du begynne med utviklingen av figurene og
-skriptene dine.
+Nå som du har en plan, kan du begynne med utviklingen av figurene og skriptene
+dine.
 
 ## Ting å huske: {.check}
 
