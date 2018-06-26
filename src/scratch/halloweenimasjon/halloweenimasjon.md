@@ -14,6 +14,7 @@ gardin, et laken eller en vegg under Halloween.
 
 ![Bilde av et skummelt halloween ansikt](halloweenimasjon.jpg)
 
+
 # Steg 1: En første animasjon {.activity}
 
 *Vi begynner med å la et skummelt spøkelse fly fram og tilbake over
@@ -83,6 +84,7 @@ gardin, et laken eller en vegg under Halloween.
 
 - [ ] Gi bakgrunnen navnet `Svart`.
 
+
 # Steg 2: Enda en animasjon {.activity}
 
 *For vår andre animasjon vil en demon komme flyvende mot oss.*
@@ -143,6 +145,7 @@ gardin, et laken eller en vegg under Halloween.
   ![Velg en ferdig bakgrunn](../bilder/bakgrunn-fra-bibliotek.png)
   helt til venstre på skjermen, og velg bakgrunnen
   `Utendørs/forest`. Gi bakgrunnen navnet `Skog`.
+
 
 # Steg 3: Bytte bakgrunner {.activity}
 
@@ -226,6 +229,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   animasjonene når du klikker på meldingene? Byttes bakgrunnene
   riktig?
 
+
 # Steg 4: Koble sammen animasjonene {.activity}
 
 *Nå skal vi se hvordan vi kan koble sammen animasjonene slik at de
@@ -300,6 +304,7 @@ __Klikk på det grønne flagget.__
   ut. Kanskje du vil ha litt andre figurer? Hvordan kan du få figurene
   til å bevege seg raskere? Kanskje litt mer tilfeldig? Prøv deg frem!
 
+
 # Steg 5: Tegn egne figurer {.activity}
 
 *Vi vil nå lage en tredje animasjon hvor vi tegner en figur på egen hånd*
@@ -369,6 +374,7 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
+
 # Steg 6: Enda flere animasjoner? {.activity}
 
 ### Prøv selv {.challenge}
@@ -381,6 +387,7 @@ egne animasjoner!
 
 Når du er fornøyd med animasjonene dine kan du dele det med familie og
 venner, ved å trykke `Legg ut`.
+
 
 # Projiser animasjonene {.activity}
 

@@ -8,6 +8,7 @@ license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Dette prosjektet er inspirert av tivolispillet __Whack-a-mole__, hvor
@@ -16,6 +17,7 @@ spøkelsene som blir borte når vi klikker på dem. Målet er å klikke
 bort flest mulig i løpet av 30 sekunder.
 
 ![Illustrasjon av et ferdig spøkelsejakt spill](spokelsesjakten.png)
+
 
 # Steg 1: Lag et flyvende spøkelse {.activity}
 
@@ -103,6 +105,7 @@ __Klikk på det grønne flagget.__
   flyr?__ (Dette er nokså vanskelig, så ikke vær bekymret hvis du ikke
   skjønner hvordan. Du vil få flere hint underveis.)
 
+
 # Steg 2: Få spøkelset til å dukke opp og forsvinne {.activity}
 
 *For å gjøre spillet morsommere vil vi få spøkelset til å dukke opp og
@@ -140,6 +143,7 @@ __Klikk på det grønne flagget.__
   til _`{.blockoperators}. Hva skjer hvis du velger veldig store
   eller små tall? (Dette gir deg kanskje et nytt hint for hvordan vi
   skal få spøkelset til å gå fortere jo lenger man spiller.)
+
 
 # Steg 3: Tryll bort spøkelset med et klikk! {.activity}
 
@@ -235,19 +239,20 @@ __Klikk på det grønne flagget.__
 *Hvis ett spøkelse er bra, må vel flere være enda bedre! La oss ha tre
  spøkelser flyvende rundt!*
 
-- [ ] __Lag flere spøkelser__ ved å høyreklikke på det du allerede har, og
-  så kopiere dette.
+- [ ] __Lag flere spøkelser__ ved å høyreklikke på det du allerede har, og så
+  kopiere dette.
 
 - [ ] __La spøkelsene få ulik størrelse__. Dette gjør du ved å bruke én av
   knappene under. Den til venstre forstørrer figuren og den til høyre
-  forminsker: ![Bilde av ikonene for å forminske å forstørre](endre-storrelse.png)
+  forminsker: ![Bilde av ikonene for å forminske å
+  forstørre](endre-storrelse.png)
 
 - [ ] Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i
-  `hastighet`{.blockdata}-variabelen i det øverste skriptet for hver
-  enkelt figur.
+  `hastighet`{.blockdata}-variabelen i det øverste skriptet for hver enkelt
+  figur.
 
-- [ ] Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette
-  gjør du ved å klikke og dra figurene rundt i selve skjermbildet.
+- [ ] Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette gjør
+  du ved å klikke og dra figurene rundt i selve skjermbildet.
 
 ## Test prosjektet {.flag}
 
@@ -267,14 +272,14 @@ Gratulerer! Da har du gjort alt riktig!
   flere__ og prøv!
 
 - [ ] Klarer du å få spøkelsene til __å se forskjellige ut__? Klikk på
-  `Drakter`{.blocklightgrey} og prøv deg frem. Du kan også velge noen
-  av klossene under `Utseende`{.blocklooks}.
+  `Drakter`{.blocklightgrey} og prøv deg frem. Du kan også velge noen av
+  klossene under `Utseende`{.blocklooks}.
 
-- [ ] Kan du få spøkelsene til __å bli verdt forskjellige antall poeng?__
-  Hva med å få den minste og raskeste til å gi 10 poeng?
+- [ ] Kan du få spøkelsene til __å bli verdt forskjellige antall poeng?__ Hva
+  med å få den minste og raskeste til å gi 10 poeng?
 
 ## Lagre prosjektet {.save}
 
-Bra jobba! Nå er du ferdig, og det er på tide med litt seriøs
-spilling.  Husk også at du kan dele spillet med vennene dine. Det gjør
-du ved å klikke på `Legg ut` i toppmenyen.
+Bra jobba! Nå er du ferdig, og det er på tide med litt seriøs spilling. Husk
+også at du kan dele spillet med vennene dine. Det gjør du ved å klikke på `Legg
+ut` i toppmenyen.
