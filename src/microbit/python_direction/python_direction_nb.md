@@ -12,12 +12,12 @@ language: nb
 
 Visste du at micro:bit'en inneholder et kompass? Dersom du noen gang skal lage
 en værstasjon kan du bestemme vindretningen, eller navigere deg igjennom
-Amazonas jungelen.
+Amazonas.
 
 
 # Kompass {.activity}
 
-Kompasset kan og fortelle deg hvilken retning som er Nord:
+Et bruksområde for kompasset er å fortelle deg hvilken retning som er Nord:
 
 ```python
 from microbit import *
@@ -63,7 +63,7 @@ while True:
     display.scroll(str(compass.calibrate()))
 ```
 - [ ] Hvilken verdi viser koden ovenfor når du står i de fire himmelretningene?
-      Bruk denne informasjonen til å bestemme hva `compass.calibrate()` gjør?
+      Bruk denne informasjonen til å bestemme hva `compass.calibrate()` gjør.
 
 <toggle>
   <strong>Hint</strong>
