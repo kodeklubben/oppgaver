@@ -11,7 +11,7 @@ Vi begynner med å bygge en enkel datamaskin. Etter å ha brukt litt tid
 på å bli kjent med hvordan datamaskinen virker, bruker vi den til å
 låse opp en dør ved hjelp av passord.
 
-![](bli_kjent_med_datamaskinen.png)
+![Bilde av en datamaskin i minecraft](bli_kjent_med_datamaskinen.png)
 
 # Steg 1: Vår første datamaskin {.activity}
 
@@ -32,7 +32,7 @@ Minecraft:
 __Redstone__ og 1 __Glass pane__.
 - [ ] Åpne et __Crafting table__, og legg ut materialet slik:
 
-  ![](craft_computer.png)
+  ![Bilde av hvordan crafte en datamaskin i minecraft](craft_computer.png)
 
 - [ ] Legg den nye datamaskinen i den nederste raden i inventory'et ditt,
 slik at du kan ta den på hånden. Lukk inventory'et.
@@ -315,7 +315,7 @@ velge hvilken type mattestykke det spørres om?
 lag en vegg hvor du setter inn en dør og med datamaskinen rett ved
 siden av døren. Det skal se omtrent slik ut:
 
-  ![](passord.png)
+  ![Bilde av en vegg med en dør og en datamaskin](passord.png)
 
 - [ ] Start datamaskinen.
 - [ ] Lag et nytt program som heter `passord`:

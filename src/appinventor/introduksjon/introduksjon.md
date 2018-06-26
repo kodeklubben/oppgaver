@@ -26,7 +26,7 @@ med hvordan det fungerer.
 - [ ] Logg inn med en Google-konto, for eksempel en gmail-adresse. Dersom du
       lurer på om epost-adressen din er en Google-konto, [kan du sjekke det
       her](https://support.google.com/accounts/answer/40560?hl=no).
-
+      
 - [ ] Når du har logget inn vil App Inventor be om tillatelse til å åpne kontoen din.
 
 - [ ] Trykk **Tillat** for å gi App Inventor tilgang.
@@ -49,9 +49,8 @@ med hvordan det fungerer.
 
 #### Palette
 Til venstre har du en meny som heter **Palette**. Her finner du alle de ulike
-  komponentene du kan bruke til å lage en app. Du vil se at det er 9
-  forskjellige kategorier som du kan trykke på for å få tilgang til
-  komponentene.
+komponentene du kan bruke til å lage en app. Du vil se at det er 9 forskjellige
+kategorier som du kan trykke på for å få tilgang til komponentene.
 
 #### Viewer
 I midten har du en mobil-skjerm med navn **Viewer** som viser deg hvordan appen
@@ -172,9 +171,10 @@ For å kunne teste appen må du gjøre følgende:
 
 - [ ] Koble telefonen din og datamaskinen din til det samme WIFI-nettverket.
 
-- [ ] Når du er i App Inventor er det en meny helt øverst, hvor det blant annet er mulig å trykke på **Connect**.
-  Trykk på **Connect**, og velg **AI Companion**.
-  
+- [ ] Når du er i App Inventor er det en meny helt øverst, hvor det blant annet
+  er mulig å trykke på **Connect**. Trykk på **Connect**, og velg **AI
+  Companion**.
+
 - [ ] I ruten som dukker opp på skjermen så står det to ting; en QR-kode og en
   bokstav-kode. Åpne MIT AI2 Companion App på telefonen din. Der kan du velge om
   du vil scanne QR-koden eller skrive inn bokstav-koden manuelt. Begge deler
@@ -212,11 +212,11 @@ Når "App Inventor Setup Software" er installert gjør du følgende:
   ```sh
   /usr/google/appinventor/commands-for-appinventor/aiStarter &
   ```
-  
+
 - [ ] Når du er i MIT App Inventor er det en meny helt øverst, hvor det blant
   annet er mulig å trykke på "Connect". Trykk på "Connect", og velg "Emulator".
   Da vil du se at "aiStarter" begynner å arbeide. Dette kan ta en stund.
-  
+
 - [ ] Etterhvert vil emulatoren bli klar, ved å først vise en svart skjerm. Så
   vil en mobil-bakgrunn dukke opp, før du til slutt får opp appen du har laget.
 
@@ -258,7 +258,7 @@ følgende måte:
 - [ ] Trykk så på "TextToSpeech1" under "Blocks", og velg "call
       TextToSpeech1.Speak - message". Dra denne inn i blokken som allerede er
       der.
-      
+
 - [ ] Til slutt kan du trykke på "Text" under "Blocks". Velg den øverste
   blokken, som er en tom streng, og koble den til "message" i kodeblokken din.
   Klikk inni den tomme strengen og skriv "Hello world!".
@@ -268,11 +268,8 @@ skal.
 
 ## Test prosjektet {.flag}
 
-+ Dersom du sjekker appen på telefonen eller emulatoren din, sier den "Hello
+- [ ] Dersom du sjekker appen på telefonen eller emulatoren din, sier den "Hello
   world!" når du trykker på knappen?
-
-
-# Steg 8: Bygge en app {.activity}
 
 Når appen din er ferdig, så kan du bygge den. Det vil si at koden din blir
 pakket sammen til en .apk-fil som du kan installere på en Android-telefon. Du
@@ -302,10 +299,11 @@ For å lære mer om App Inventor så kan det være lurt å sjekke ut følgende l
 
 ## Sjekkliste {.check}
 
-- [ ] [App Inventor på Youtube](https://www.youtube.com/results?search_query=app+inventor).
-
-- [ ] [Veiledninger for å lage apps](http://appinventor.mit.edu/explore/ai2/tutorials.html).
-
-- [ ] [Sjekke ut hvordan alle blokkene fungerer](http://appinventor.mit.edu/explore/ai2/support/blocks.html).
-
-- [ ] [Sjekke ut App Inventor sitt bibliotek](http://appinventor.mit.edu/explore/library.html).
+- [ ] [App Inventor på
+      Youtube](https://www.youtube.com/results?search_query=app+inventor).
+- [ ] [Veiledninger for å lage
+      apps](http://appinventor.mit.edu/explore/ai2/tutorials.html).
+- [ ] [Sjekke ut hvordan alle blokkene
+      fungerer](http://appinventor.mit.edu/explore/ai2/support/blocks.html).
+- [ ] [Sjekke ut App Inventor sitt
+      bibliotek](http://appinventor.mit.edu/explore/library.html).

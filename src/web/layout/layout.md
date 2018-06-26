@@ -12,7 +12,7 @@ Målet med oppgaven er å lære hvordan man lager en nettside med en meny og et 
 I denne oppgaven forventer vi at du har vært gjennom HTML- og CSS-oppgavene så langt og/eller er kjent med `<div>`- og HTML5-taggene.
 
 
-![resultat](ressurser/screenshot_resultat.png)
+![Bilde av en nettside med meny og innholdsfelt](ressurser/screenshot_resultat.png)
 
 
 # Steg 1: Vi starter fra toppen {.activity}
@@ -96,7 +96,7 @@ Det første vi må gjøre er å legge til lenker i menyen vår. Menyen vår skal
 
 Nå ser siden vår slik ut:
 
-![screenshot](ressurser/screenshot_1.png)
+![Bilde av nettsiden med en uordnet liste](ressurser/screenshot_1.png)
 
 Nå skal vi få vekk prikkene bak liste-elementene og gjøre sånn at de vises etter hverandre mot venstre:
 
@@ -111,7 +111,7 @@ nav ul li{
 
 Grunnen til at vi skriver `nav ul li` på denne er for å spesifisere at vi skal sette stil på `li` (List items) i den uordnede listen `ul` som ligger innenfor `nav`-taggen. På denne måten vil ikke andre lister bli påvirket av den stilen vi setter, kun den lista som ligger mellom `<nav>`-taggen. Nå ser nettsiden vår slik ut:
 
-![screenshot](ressurser/screenshot_2.png)
+![Bilde av at elementene i lista står ved siden av hverandre på nettsiden](ressurser/screenshot_2.png)
 
 Nå ser vi at vi har fått liste-elementene våre til å legge seg mot høyre og har ikke lengre punkter bak seg. Nå skal vi sette stil på hele lista og ikke bare liste-elementene. For å gjøre dette må vi bruke `nav ul`. I koden under er det nokså kjente ting. Vi midtstiller alt, setter en høyde og bredde på listen og vi setter en kant rundt listen for å markere hvor menyen vår skal gå. Det siste, `padding: 0px`, er for å fjerne et standard inntrykk som du får når du bruker lister.
 
@@ -132,7 +132,7 @@ nav ul{
 
 Grunnen til at vi bruker `1072px` istedet for `1080px` er fordi vi har en hovedramme som er på `4px`og som er på både høyre og venstre siden, altså `2 * 4px = 8px`.
 
-![screenshot](ressurser/screenshot_4.png)
+![Bilde av at elementene i lista står øverst på nettsiden med en svart boks rundt](ressurser/screenshot_4.png)
 
 Siden vi skal ha en meny, så har vi lagt inn lenker(`<a>`) i liste-elementene. Vi må derfor legge til CSS for at disse skal vises på en skikkelig måte. Nå skal vi dele inn hovedrammen vi har laget slik at det ser ut som lenkene er knapper. I kodeblokken under ser du hvordan vi kan lage mellomrom mellom lenkene ved å bruke `padding`, legge til en strek på høyre side for at den skal se ut som en knapp, ta vekk understreker, gjøre skriften større og gjøre den grønn.
 
@@ -157,7 +157,7 @@ nav ul li a{
 
 ### Nettsiden sålangt:
 
-![screenshot](ressurser/screenshot_3.png)
+![Bilde av en enkel meny på nettsiden med tre elementer](ressurser/screenshot_3.png)
 
 # Steg 4: Legge til innhold på siden {.activity}
 Nå skal vi legge til en overskrift og litt tekst på siden vår. Dette gjør vi innenfor `<section>`-taggen.
@@ -210,7 +210,7 @@ Nå skal vi legge til en overskrift og litt tekst på siden vår. Dette gjør vi
 
 
 ### Nettsiden sålangt:
-![screenshot](ressurser/screenshot_5.png)
+![Bilde av en enkel nettside](ressurser/screenshot_5.png)
 
 
 # Steg 5: Legge til footer {.activity}
@@ -227,7 +227,7 @@ Vi vil gjerne vise at `footeren` faktisk er en footer sånn at den ikke blandes 
 - [ ] Legg til en `border-top` for å få en ramme øverst på `footeren`.
 
 ### Nå ser siden slik ut:
-![screenshot](ressurser/screenshot_6.png)
+![Bilde av en enkel nettside med en footer](ressurser/screenshot_6.png)
 
 <toggle>
   <strong>Forslag til footer-CSS</strong>
