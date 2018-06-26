@@ -5,10 +5,12 @@ author: 'Teodor Heggelund'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Denne oppgaven viser hvordan vi kan bruke musen til å kontrollere
 elm-programmene våre.
+
 
 # Steg 1: Vise en posisjon {.activity}
 
@@ -51,8 +53,11 @@ view model =
 ```
 
 Endre tallene `10` og `20` som inngår i verdien `p`.
+
 - [ ] Hva gjør det første tallet?
+
 - [ ] Hva gjør det andre tallet?
+
 
 # Steg 2: Bruke `Html.program` {.activity}
 

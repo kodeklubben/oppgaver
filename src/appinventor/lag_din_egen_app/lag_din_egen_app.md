@@ -7,17 +7,19 @@ license: '[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
-Nå skal vi lage vår helt egen app! Men før vi går igang med kodingen,
-så må vi planlegge hvordan appen skal se ut og hva den skal gjøre.
-Først må vi komme opp med en kul idé. Hvilken type app har du lyst å lage?
+Nå skal vi lage vår helt egen app! Men før vi går igang med kodingen, så må vi
+planlegge hvordan appen skal se ut og hva den skal gjøre. Først må vi komme opp
+med en kul idé. Hvilken type app har du lyst å lage?
+
 
 
 # Steg 1: Komme opp med en idé {.activity}
 
-Hvilken type app har du lyst å lage? Det kan av og til være vanskelig å
-komme opp med en god idé, så her er noen forslag:
+Hvilken type app har du lyst å lage? Det kan av og til være vanskelig å komme
+opp med en god idé, så her er noen forslag:
 
 ##  Idémyldring {.check}
 
@@ -59,6 +61,7 @@ Tenk for eksempel på:
 - [ ] Skal det være lydeffekter? Hvilke?
 
 Skriv ned tankene dine!
+
 
 # Steg 6: Sett i gang! {.activity}
 
