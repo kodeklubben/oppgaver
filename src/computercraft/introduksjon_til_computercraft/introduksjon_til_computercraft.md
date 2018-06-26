@@ -17,7 +17,7 @@ låse opp en dør ved hjelp av passord. Etter at vi har klart dette
 begynner vi å se på datamaskiner som kan bevege seg, altså roboter!
 Disse kan vi bruke til både å grave og bygge ting for oss.
 
-![](introduksjon_til_computercraft.png)
+![Bilde av en datamaskin og en robot](introduksjon_til_computercraft.png)
 
 # Steg 1: Vår første datamaskin {.activity}
 
@@ -38,7 +38,7 @@ Minecraft:
 __Redstone__ og 1 __Glass pane__.
 - [ ] Åpne et __Crafting table__, og legg ut materialet slik:
 
-  ![](../bli_kjent_med_datamaskinen/craft_computer.png)
+  ![Bilde av hvordan crafte en datamaskin i minecraft](../bli_kjent_med_datamaskinen/craft_computer.png)
 
 - [ ] Legg den nye datamaskinen i den nederste raden i inventory'et ditt,
 slik at du kan ta den på hånden. Lukk inventory'et.
@@ -140,7 +140,7 @@ en datamaskin ved siden av en dør.
 lag en vegg hvor du setter inn en dør og med datamaskinen rett ved
 siden av døren. Det skal se omtrent slik ut:
 
-  ![](../bli_kjent_med_datamaskinen/passord.png)
+  ![Bilde av en vegg med en dør og en datamaskin](../bli_kjent_med_datamaskinen/passord.png)
 
 - [ ] Start datamaskinen.
 
@@ -362,7 +362,7 @@ __Chest__ og 1 __Computer__.
 
 - [ ] Start et __Crafting table__, og lag en robot slik:
 
-  ![](../robotinvasjon/craft_turtle.png)
+  ![Bilde av hvordan crafte en robot i minecraft](../robotinvasjon/craft_turtle.png)
 
 - [ ] Legg den nye roboten i hånden din. Lukk inventory'et og lag en
 robot.
@@ -432,7 +432,7 @@ for nesten 70 år siden. Dette gjør vi ved å bruke programmet `go` for
 merke til at det er et inventory med 16 plasser (4 ganger 4) på høyre
 side. Dette er robotens inventory. Flytt kullet over til roboten.
 
-  ![](../robotinvasjon/robot_inventory.png)
+  ![Bilde av inventory'et til roboten](../robotinvasjon/robot_inventory.png)
 
 - [ ] Skriv `refuel` i kommandolinjen og trykk enter.
 
@@ -584,7 +584,7 @@ Lag en liten kloss litt unna roboten din, omtrent som på bildet
 under. Klarer du å bruke `turtle`-kommandoene over til å plassere
 roboten på toppen av klossen?
 
-![](../robotinvasjon/flytt_robot_oppgave.png)
+![Bilde av en robot ved siden av en klosse](../robotinvasjon/flytt_robot_oppgave.png)
 
 # Steg 9: Up, up, up, and away ... {.activity}
 
@@ -693,7 +693,7 @@ __Grass__, i den merkede boksen i inventory'et sitt.
   for i = 1, 60 do turtle.up(); turtle.place(); end
   ```
 
-  ![](../robotinvasjon/hoyt_tarn.png)
+  ![Bilde av en robot som bygger et høy tårn](../robotinvasjon/hoyt_tarn.png)
 
 Oops! Vi glemte å fortelle roboten at den skulle komme ned når den
 blir ferdig med å bygge. Hvordan skal vi få tak i den igjen?
@@ -716,7 +716,7 @@ oss øve oss, og teste programmet på et mindre tårn.
 - [ ] Bygg et tårn som er tre klosser høyt. Dette kan du bygge enten med
 en robot eller bare på egen hånd.
 
-  ![](../robotinvasjon/lite_tarn.png)
+  ![Bilde av et tårn som er tre klosser høyt](../robotinvasjon/lite_tarn.png)
 
 - [ ] Lag en ny robot inntil det lille tårnet du nettopp bygde. Gi den
 fuel og byggematerialer. Pass på at den peker mot tårnet.
@@ -794,7 +794,7 @@ trappebyggeroboten vår opp det høye tårnet?
   Pass på at roboten fortsatt har nok fuel, og fyll opp med
   byggemateriale. Kjør den bort til det høye tårnet, og la den `byggTrapp`!
 
-  ![](../robotinvasjon/byggtrapp.png)
+  ![Bilde av en robot som har bygget en høy trapp](../robotinvasjon/byggtrapp.png)
 
 Gratulerer! Du har nå programmert en robot! Legg merke til at siden
 `byggTrapp`-programmet vårt bruker `detect`-kommandoer kan det bygge

@@ -11,7 +11,7 @@ I denne oppgaven skal vi fjernstyre en robot fra en annen datamaskin. Til dette
 får vi bruk for både å hente tastetrykk fra brukeren, sende disse til en annen
 datamaskin, og tolke disse som en kommando. For avanserte ComputerCraft-ere!
 
-![](fjernstyring.png)
+![Bilde av en datamaskin som sender meldinger over rednet](fjernstyring.png)
 
 # Steg 1: Forberedelser {.activity}
 
@@ -421,11 +421,11 @@ eksempel `excavate` og `dance`.
 Fjernstyrt graverobot er nyttig! En graverobot kan craftes fra en annen turtle
 med pickaxe på ledig side. Dette er hva min gjorde:
 
-![](ssh_1.png)
+![Bilde av en graverobot klar til å grave](ssh_1.png)
 Graveroboten er klar til høyre i bildet.
 
-![](ssh_2.png)
+![Bilde av en graverobot flyttet dit den skal grave](ssh_2.png)
 Flytter den til der den skal begynne å grave ...
 
-![](ssh_3.png)
+![Bilde av en graverobot som har gravd ett hull](ssh_3.png)
 ... Og der har den kommet et stykke på vei!
