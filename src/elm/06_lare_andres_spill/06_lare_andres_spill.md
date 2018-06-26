@@ -5,6 +5,7 @@ author: 'Teodor Heggelund'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Så langt har dere lært å _skrive egen kode_. Å lære å skrive kode krever mye
@@ -19,6 +20,7 @@ Det er også viktig å kunne _lese_ kode. Da lurer vi på ting som
 
 Til dette bruker vi spillet Elm Joust, skrevet av Stefan Kreitmayer fra
 Tyskland.
+
 
 # Steg 1: Hvordan fungerer spillet? {.activity}
 
@@ -39,6 +41,7 @@ Har du spilt litt? Ti minutter er passe tid.
 Nå skal vi se på hvordan spillet er bygget opp.
 
 - [ ] Start spillet
+
 - [ ] Inspiser den ene ballen
 
 ## Hvordan inspisere? {.protip}
@@ -52,7 +55,9 @@ trenger!
 Først skal vi se på selve spillet.
 
 - [ ] Hva slags SVG-element er brukt til å tegne ballene?
+
 - [ ] Hva slags SVG-element er brukt til å tegne plattformen?
+
 - [ ] Hva slags SVG-element er brukt til å tegne stillingen?
 
 Finn `svg`-taggen.
@@ -111,6 +116,7 @@ Du kan bruke `git` i stedet hvis du vil.
 ## Åpne kommandovindu i mappen der kildekoden ligger {.check}
 
 - [ ] Gå til mappen der du pakket ut filene.
+
 - [ ] Åpne et kommandovindu her.
 
   På **Windows** kan du holde inne Shift (pil opp for å lage store bokstaver),
@@ -156,7 +162,7 @@ vanskelig.
 
 # Steg 3: Endre reglene {.activity}
 
-![](neo.jpg)
+![Bilde av Neo fra The Matrix](neo.jpg)
 
 _Neo liker også å endre reglene_
 
@@ -166,6 +172,7 @@ Et søk i kildekoden viser at funksjonen `gravity` er definert i `src/Update.elm
 på linje 202.
 
 - [ ] Senk tyngdekraften. Hva gjør det med spillet? Liker du det?
+
 - [ ] Øk tyngdekraften. Bedre? Mer kjedelig?
 
 ## Fysikk {.protip}
@@ -273,4 +280,5 @@ den andre kun var en liten tennisball.
 Nå har du laget din helt egne versjon av Elm Joust.
 
 - [ ] Finn en partner som du kan spille spillet ditt med.
+
 - [ ] Klarer partneren din å gjette hvilke regler du har endret?

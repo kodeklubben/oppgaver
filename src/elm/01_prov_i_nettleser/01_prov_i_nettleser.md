@@ -5,6 +5,7 @@ author: 'Teodor Heggelund'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Denne oppgaven er en lett omvisning til Elm. Vi skal se på hva Elm egentlig er
@@ -16,15 +17,16 @@ HTML. Det er viktig å forstå hva HTML er.
 [Gjør oppgaven Hvor er HTML? Jeg ser den ikke!](../../web/hvor_er_html/hvor_er_html.html)
 i Web-kurset først om du ikke har hørt om HTML før.
 
+
 # Hei, verden! {.activity}
 
 - [ ] Åpne nettsiden [Try Elm](http://elm-lang.org/try). Denne ser slik ut:
 
-    ![](tom_try_elm.png)
+    ![Bilde av online editoren til elm](tom_try_elm.png)
 
 - [ ] Trykk på **Hello, World!** til høyre, så får vi se et enkelt Elm-program:
 
-    ![](hello.png)
+    ![Bilde av hvordan få elm til å si "Hello, World!"](hello.png)
 
     Hmm! Det gjorde ikke så mye. Skrev kun ut "Hello, World!" La oss gjøre det
     litt mer spennende, og lære Elm norsk. Jeg heter Teodor, så jeg endrer
@@ -40,6 +42,7 @@ i Web-kurset først om du ikke har hørt om HTML før.
     Hva heter du? Hva vil du programmet skal skrive ut til deg?
 
     Trykk `Compile` for å se!
+
 
 # Dokumenter i HTML og Elm {.protip}
 
@@ -75,6 +78,7 @@ div []
 
 Vi kommer tilbake til hva `[]` betyr.
 
+
 # Hva vil du lage? {.activity}
 
 Tenk på hva du vil lage, og skriv svaret med Elm!
@@ -88,7 +92,7 @@ Tenk på hva du vil lage, og skriv svaret med Elm!
 Obs! Elm sier ifra når du skriver noe Elm ikke skjønner. Hvis jeg skriver `div`
 feil, får jeg en feilmelding:
 
-![](div_feil.png)
+![Bilde av feilmeldingen i online editoren til elm](div_feil.png)
 
 Når noe ikke fungerer, les feilmeldingen og se om den kan hjelpe deg å rette
 feilen!
@@ -97,6 +101,7 @@ feilen!
   inneholder noen funksjon som heter `divv`.
 * `Maybe you want one of the following? div` foreslår å bruke `div` i stedet.
   Kanskje det var hva du mente?
+
 
 # Hva har andre laget? {.activity}
 
@@ -109,6 +114,7 @@ Oppdater siden for å få tilbake koden som den var før du begynte å redigere 
 - [ ] Åpne **Buttons**.
     - Kan du endre teksten på knappene til "Mer!" og "Mindre!"?
     - Kan du få pluss-knappen til å legge til 5 hver gang du trykker?
+    
 - [ ] Åpne **Clock**.
     - Kan du gjøre viseren kortere?
     - Kan du gjøre viseren rosa?
