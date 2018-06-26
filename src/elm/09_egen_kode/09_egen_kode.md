@@ -5,6 +5,7 @@ author: 'Erik Aasmundrud'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Denne oppgaven har som hensikt i å lære å skrive sin egen kode, istedenfor å
@@ -14,6 +15,7 @@ Når man skal bli god til å programmere er det helt nødvendig å klare å skri
 egen kode. Det er fristende å prøve å google problemet man har, eller se på noe
 som noen andre har gjort. Dette fører til at man ikke lærer like mye, så i
 denne oppgaven skal vi prøve å skrive vår helt egne kode.
+
 
 # Steg 1: Få noe på skjermen {.activity}
 
@@ -38,8 +40,11 @@ main =
 ```
 
 - [ ] Gå til http://elm-lang.org/try
+
 - [ ] Kopier inn koden som står ovenfor. Ikke trykk `Compile`
+
 - [ ] Hva forventer du at skal stå dersom du trykker `Compile`?
+
 - [ ] Trykk `Compile` og se om du hadde rett
 
 # Steg 2: Enkle funksjoner {.activity}
@@ -50,16 +55,24 @@ funksjoner.
 Prøv å lag følgende:
 
 - [ ] En funksjon som tar inn to tall og plusser de sammen
+
 - [ ] En funksjon som tar inn et tall og ganger det med 3
+
 - [ ] En funksjon som tar inn et tall og ganger det med 10
+
 - [ ] En funksjon som tar inn to tall og deler de på hverandre
+
 - [ ] En funksjon som tar inn to tall og ganger tallene med hverandre
+
 - [ ] En funksjon som tar inn tre tall og ganger tallene med hverandre
+
 - [ ] En funksjon som tar inn åtte tall og ganger tallene med hverandre
+
 - [ ] Test funksjonene dine med og se om du har gjort noe feil
 
 Var det vanskelig? Overraskende mye programmering er å skrive funksjoner som
 gjør ting som dette.
+
 
 # Steg 3: Vanskeligere funksjoner {.activity}
 
@@ -71,13 +84,18 @@ prøve oss på for eksempel kvadratrot. I elm tar man kvadratroten av et tall ve
 Prøv å lage følgende:
 
 - [ ] En funksjon som tar inn et tall og tar kvadratrot av tallet
+
 - [ ] En funksjon som tar inn to tall og tar kvadratoten av det første tallet 4
   ganger det andre tallet
-- [ ] En funksjon som tar inn to tall og tar kvadratroten av det første tallet for
-  deretter å gange dette med det andre tallet
-- [ ] En funksjon som tar inn to tall og tar kvadratroten av det andre tallet for
-  deretter å gange dette med det første tallet
+
+- [ ] En funksjon som tar inn to tall og tar kvadratroten av det første tallet
+  for deretter å gange dette med det andre tallet
+  
+- [ ] En funksjon som tar inn to tall og tar kvadratroten av det andre tallet
+  for deretter å gange dette med det første tallet
+
 - [ ] Test funksjonene dine med og se om du har gjort noe feil
+
 
 # Steg 4: if-else-uttrykk {.activity}
 
@@ -110,7 +128,9 @@ Vi kan nå lage noen litt mer avanserte funksjoner. Prøv å lag følgende:
 - [ ] En funksjon som tar inn et tall. Dersom tallet er større enn 9000, skal
   funksjonen returnere "Dette er over 9000!". Hvis det ikke er over 9000 skal
   funksjonen returnere "Prøv et høyere tall"
+
 - [ ] Test funksjonen din og se om du har gjort noe feil
+
 - [ ] En funksjon som tar inn to tall. Dersom tallene er like skal vi returnere
   "Tallene er like". Hvis tallene ikke er like skal vi returnere "Tallene er
   ikke like".
@@ -118,6 +138,7 @@ Vi kan nå lage noen litt mer avanserte funksjoner. Prøv å lag følgende:
 ## Utfordring {.challenge}
 
 - [ ] Lag dine helt egne funksjoner
+
 - [ ] Klarer du å gjøre ukens mattelekse i elm?
 
 ## Absoluttverdi {.protip}
