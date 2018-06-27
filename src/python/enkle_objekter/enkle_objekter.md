@@ -5,9 +5,11 @@ author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi gi en enkel innføring til klasser og objekter (ordene forklares senere i teksten).
+I denne oppgaven skal vi gi en enkel innføring til klasser og objekter (ordene
+forklares senere i teksten).
 
 # Ordbøker {.activity}
 
@@ -76,8 +78,8 @@ circle = Circle()
 
 Vi lager først `Circle`-klassen, før vi så lager et `Circle`-objekt som vi
 kaller for `circle`. `class`-nøkkelordet forteller datamaskinen at nå lager vi
-en klasse, du kan sammenlikne det med f.eks. `def` som forteller datamaskinen
-at nå kommer en funksjon.
+en klasse, du kan sammenlikne det med f.eks. `def` som forteller datamaskinen at
+nå kommer en funksjon.
 
 
 Vi kan hente ut og endre variablene til objektet:
@@ -113,10 +115,10 @@ Så kaller vi funksjonen:
 print(circle.area())
 ```
 
-Du lurer kanskje på hvorfor vi brukte `self.radius` i funksjonen `area()`?
-Dette er fordi vi sier at vi vil bruke `radius`-variabelen som er en del av
-klassen. Du må alltid bruke `self` når du skal bruke funksjoner eller
-variabler du har lagd i klassen.
+Du lurer kanskje på hvorfor vi brukte `self.radius` i funksjonen `area()`? Dette
+er fordi vi sier at vi vil bruke `radius`-variabelen som er en del av klassen.
+Du må alltid bruke `self` når du skal bruke funksjoner eller variabler du har
+lagd i klassen.
 
 Som vi ser så er det ikke så stor forskjell mellom bruk av funksjoner og klasser:
 
@@ -175,7 +177,6 @@ enkelt som ordbøker, og man kan gjøre mer avanaserte ting med klasser.
 Nå kommer det et program som er skrevet ved bruk av ordbøker. Du skal prøve å
 "oversette" dette til et program som bruker klasser.
 
-
 ```python
 rectangle = {
     "width": 3,
@@ -192,6 +193,7 @@ print(rectangle["color"])
 print(rectangle_area(rectangle))
 ```
 
+
 # Test programmet ditt {.flag}
 
 Programmet over skriver ut det følgende:
@@ -202,3 +204,4 @@ blue
 ```
 
 Pass på at din "oversettelse" gjør det samme.
+
