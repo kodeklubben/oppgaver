@@ -65,7 +65,7 @@ et "musikalsk" instrument. Hvorfor jeg satte hermetegn omkring musikalsk finner
 du nok fort ut ;-)
 
 Sett inn en høytaler slik som du gjorde i oppgaven ["Lage musikk med
-micro:bit"](../python_musikk/python_musikk). Bruk krokodilleklemmer til å feste
+micro:bit"](../python_musikk/python_musikk.html). Bruk krokodilleklemmer til å feste
 pin 0 og GND (jord) til den positive og negative inngangen på høytaleren - det
 spiller ingen rolle hvilken vei de er koblet. 
 
