@@ -8,16 +8,20 @@ translator: 'Ole Andreas Ramsdal'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver enklere og mer oversiktlige.
+I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver
+enklere og mer oversiktlige.
+
 
 # Steg 1: Tegne stjerner {.activity}
 
 ## Sjekkliste {.check}
 
 
-- [ ] Vi begynner med å bruke det du allerede kan om tegning med skilpadden. Kjør dette programmet:
+- [ ] Vi begynner med å bruke det du allerede kan om tegning med skilpadden.
+      Kjør dette programmet:
 
   ```python
   from turtle import *
@@ -44,10 +48,12 @@ I denne oppgaven skal vi bruke funksjoner for å gjøre programmene vi skriver e
   ![Bilde av en sky med en stjerne og skilpadde](sky-star.png)
 
 
-- [ ] Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen.
-Sørg for å forstå alle før du går videre.
+- [ ] Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen. Sørg
+      for å forstå alle før du går videre.
 
-- [ ] Nå skal vi tegne tre stjerner på forskjellige posisjoner på skjermen. Vi lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å tegne tre stjerner.
+- [ ] Nå skal vi tegne tre stjerner på forskjellige posisjoner på skjermen. Vi
+      lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å
+      tegne tre stjerner.
 
   ```python
   from turtle import *
@@ -83,20 +89,29 @@ Sørg for å forstå alle før du går videre.
 
   `hideturtle()` gjemmer skilpadden.
 
-  Du har sett og brukt funksjoner før. For eksempel, `penup()`og `pendown()` er funksjoner. Din nye `drawStar()`funksjon virker på samme måte. Nå som du har en funksjon for å tegne en stjerne trenger du ikke tenke på hvilke komandoer du må skrive for å tegne dem, du kan bare kalle funksjonen og den vil tegne stjernen for deg!
-
+  Du har sett og brukt funksjoner før. For eksempel, `penup()`og `pendown()` er
+  funksjoner. Din nye `drawStar()`funksjon virker på samme måte. Nå som du har
+  en funksjon for å tegne en stjerne trenger du ikke tenke på hvilke komandoer
+  du må skrive for å tegne dem, du kan bare kalle funksjonen og den vil tegne
+  stjernen for deg!
 
 
 # Steg 2: Sende verdier inn i funksjoner {.activity}
 
-Funksjonen du lagde i forrige steg tegner en like stor stjerne hver gang. Hva om du vil tegne stjerner med forskjellige størrelser? En måte du kan gjøre det på er å lage forskjellige funksjoner som `drawBigStar()` , `drawMediumStar()` eller `drawSmallStar()`
+Funksjonen du lagde i forrige steg tegner en like stor stjerne hver gang. Hva om
+du vil tegne stjerner med forskjellige størrelser? En måte du kan gjøre det på
+er å lage forskjellige funksjoner som `drawBigStar()` , `drawMediumStar()` eller
+`drawSmallStar()`
 
-En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawStar()` for å fortelle hvilken størrelse du vil ha. Du har allerede brukt flere funksjoner som mottar verdier på denne måten. For eksempel: `forward(100)` Her sender du 100 inn funksjonen og det gjør at skilpadden går 100 piksler frem.
-
+En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawStar()`
+for å fortelle hvilken størrelse du vil ha. Du har allerede brukt flere
+funksjoner som mottar verdier på denne måten. For eksempel: `forward(100)` Her
+sender du 100 inn funksjonen og det gjør at skilpadden går 100 piksler frem.
 
 ## Sjekkliste {.check}
 
-- [ ] Her er et program med en "stjernetegne-funksjon" som kan tegne stjerner i forskjellige størrelser ut i fra hvilket tall du sender inn i funksjonen.
+- [ ] Her er et program med en "stjernetegne-funksjon" som kan tegne stjerner i
+      forskjellige størrelser ut i fra hvilket tall du sender inn i funksjonen.
 
   ```python
   from turtle import *
@@ -129,11 +144,14 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
 
   ![Bilde av sky med tre stjerner](sky-function.png)
 
-- [ ] Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner en linje som er 50 piksler lang.
+- [ ] Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize
+      lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner
+      en linje som er 50 piksler lang.
 
   ![Bilde av hvordan Python behandler parametere](sky-parameter-passing.png)
 
-- [ ] Det er mulig å sende inn flere verdier inn i funksjonen. For eksempel kan vi sende inn hvilken farge vi vil at stjernen skal ha.
+- [ ] Det er mulig å sende inn flere verdier inn i funksjonen. For eksempel kan
+      vi sende inn hvilken farge vi vil at stjernen skal ha.
 
   ```python
   from turtle import *
@@ -169,16 +187,20 @@ En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawSta
   ![Bilde av tre stjerner med forskjellige farger](sky-colours.png)
 
 ## Utfordring {.challenge}
-Lag en funksjon for å tegne planeter og kall den `drawPlanet()` Send verdier inn i funksjonen slik at du kan bestemme hvor stor og hvilken farge den skal ha.
 
+Lag en funksjon for å tegne planeter og kall den `drawPlanet()` Send verdier inn
+i funksjonen slik at du kan bestemme hvor stor og hvilken farge den skal ha.
 
 
 # Steg 3: Tilfeldige stjerner {.activity}
-Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt på skjermen.
+
+Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt på
+skjermen.
 
 ## Sjekkliste {.check}
 
-- [ ] Kjør dette programmet. Skilpadden flyttes til en ny posisjon og tegner en hvit stjerne der.
+- [ ] Kjør dette programmet. Skilpadden flyttes til en ny posisjon og tegner en
+      hvit stjerne der.
 
   ```python
   from turtle import *
@@ -208,11 +230,15 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
   done()
 
   ```
-- [ ] Vi bruker funksjonen `setpos(x, y)` til å flytte skilpadden til posisjonen (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til posisjonen (200, 200). Prøv å endre på tallene i denne funksjonen!
+- [ ] Vi bruker funksjonen `setpos(x, y)` til å flytte skilpadden til posisjonen
+      (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til
+      posisjonen (200, 200). Prøv å endre på tallene i denne funksjonen!
 
   ![Bilde av en stjerne i et koordinatsystem](sky-xy.png)
 
-- [ ] Vi skal nå flytte til en tilfeldig posisjon. Vi lager en ny funksjon som heter `moveToRandomLocation()`, denne flytter altså skilpadden til en tilfeldig posisjon.
+- [ ] Vi skal nå flytte til en tilfeldig posisjon. Vi lager en ny funksjon som
+      heter `moveToRandomLocation()`, denne flytter altså skilpadden til en
+      tilfeldig posisjon.
 
   ```python
   from turtle import *
@@ -249,17 +275,25 @@ Vi skal nå bruke `drawStar()` til å tegne stjerner på tilfeldige steder rundt
 
   ![Bilde av en stjernehimmel](sky-random.png)
 
-  Kjør koden flere ganger. Ser du at den tegner stjernene forskjellige plasser hver gang?
-  Prøv å tegne flere stjerner i flere forskjellige størrelser og farger.
+  Kjør koden flere ganger. Ser du at den tegner stjernene forskjellige plasser
+  hver gang? Prøv å tegne flere stjerner i flere forskjellige størrelser og
+  farger.
 
-  `from random import *` gjør at vi får tilgang på funksjonen `randint(a,b)` . Hvis vi skriver `randint(5, 25)` gir denne funksjonen oss et tilfeldig tall som er større eller lik 5 og mindre enn eller lik 25.
+  `from random import *` gjør at vi får tilgang på funksjonen `randint(a,b)` .
+  Hvis vi skriver `randint(5, 25)` gir denne funksjonen oss et tilfeldig tall
+  som er større eller lik 5 og mindre enn eller lik 25.
 
 
 # Steg 4: Funksjoner inne i funksjoner {.activity}
-Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere å ha oversikt når man lager store programmer.
+
+Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere å
+ha oversikt når man lager store programmer.
 
 ## Sjekkliste {.check}
-- [ ] Det ville vært kult hvis vi kunne lage en galakse med små flerfargede stjerner i tegningen vår. Vi lager defor en funksjon som heter `drawGalaxy()` som bruker funksjonen `drawStar()` som vi laget tidligere.
+
+- [ ] Det ville vært kult hvis vi kunne lage en galakse med små flerfargede
+      stjerner i tegningen vår. Vi lager defor en funksjon som heter
+      `drawGalaxy()` som bruker funksjonen `drawStar()` som vi laget tidligere.
 
   ```python
   from turtle import *
@@ -315,9 +349,13 @@ Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere �
 
   ![Bilde av en stjernehimmel med galakser](sky-galaxies.png)
 
-  Ved å kjøre `drawGalaxy(40)` 3 ganger for vi 3 nye galakser som hver inneholder 40 stjerner. For hver galakse kjøres `drawStar()` 40 ganger, mellom hver gang flyttes posisjonen til den neste stjernen litt. Ser du hvor i koden dette skjer?
+  Ved å kjøre `drawGalaxy(40)` 3 ganger for vi 3 nye galakser som hver
+  inneholder 40 stjerner. For hver galakse kjøres `drawStar()` 40 ganger, mellom
+  hver gang flyttes posisjonen til den neste stjernen litt. Ser du hvor i koden
+  dette skjer?
 
-- [ ] Du kan også tegne stjernebilder satt sammen av stjerner. Dette er ikke så vanskelig siden vi allerede har mange av funksjonene vi trenger.
+- [ ] Du kan også tegne stjernebilder satt sammen av stjerner. Dette er ikke så
+      vanskelig siden vi allerede har mange av funksjonene vi trenger.
 
   ```python
   from turtle import *
@@ -391,10 +429,15 @@ Du kan skrive funksjoner som kjører andre funksjoner. Dette gjør det lettere �
   ![Bilde av stjernehimmel med stjernekonstellasjoner](sky-constellations.png)
 
 ## Utfordring {.challenge}
-Programmér skilpadden til å tegne ditt eget bilde. Bruk funksjoner der du kan, spesielt til ting du skal gjøre flere ganger. Prøv også å bruke funksjoner som du kan sende inn verdier i.
+
+Programmér skilpadden til å tegne ditt eget bilde. Bruk funksjoner der du kan,
+spesielt til ting du skal gjøre flere ganger. Prøv også å bruke funksjoner som
+du kan sende inn verdier i.
+
 
 # Eksempler {.activity}
 
 ![Bilde av en blomstereng](sky-flowers.png)
 
 ![Bilde av himmel med fugler og skyer](sky-birds.png)
+
