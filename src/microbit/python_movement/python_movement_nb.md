@@ -19,7 +19,7 @@ Din micro:bit er utstyrt med et akselerometer som måler bevegelse langs tre aks
 * Z - bevegelse opp og ned.
 
 Det er en funksjon for hver akse som returnerer et positivt eller negativt tall
-som indikerer antall milli-g krefter. Når den viser 0 når du står i vater langs
+som indikerer antall milli-g krefter. Den viser 0 når du står i vater langs
 den aksen.
 
 For eksempel, her er et enkelt program som viser deg hvor mye i vater enheten
@@ -60,7 +60,7 @@ kan hjelpe deg å navigere.
 # Musikalsk galskap
 
 En av de beste egenskapene til MicroPython er hvor sømløst du kan sette sammen
-ulike funksjoner til micro: bit'en. For eksempel, la oss forvandre enheten til
+ulike funksjoner til micro: bit'en. For eksempel, la oss forvandle enheten til
 et "musikalsk" instrument. Hvorfor jeg satte hermetegn omkring musikalsk finner
 du nok fort ut ;-)
 
@@ -88,7 +88,7 @@ metoden. Vi lar denne freksenen bare spille i 10 millisekunder fordi vi ønsker 
 forandre tone raskt når enheten tippes til en side. Siden jeg bruker en
 `while`-løkke som går for alltid så leser den hele tiden endringene til Y aksen.
 
-Det er det!
+Det er alt!
 
 Tipp enheten fremmover og bakover. Dersom lesingen langs Y aksen er positive så
 vil den endre tonehøyden avspilt av micro:bit'en. 
@@ -156,7 +156,7 @@ Merk hvordan jeg gjorde koden litt mer lesbar ved å definere variablene `Y` og 
 
 Vi mennesker har problemer med å høre frekvenser over 18 000Hz og under 40Hz.
 Mens de frekvensene som er behagelige å høre på gjerne ligger mellom 80 - 400Hz.
-For å fikse micro:biten`slik at den bare spiller toner i dette intervalet kan vi
+For å fikse micro:bit'en slik at den bare spiller toner i dette intervalet kan vi
 gjøre noe som ligner på dette
 
 ```python
