@@ -4,7 +4,7 @@ language:
     nb:
       NAME: Norsk bokmål
     nn:
-      NAME: Norsk nynorsk
+      NAME: Nynorsk
     sv:
       NAME: Svenska
     da:
