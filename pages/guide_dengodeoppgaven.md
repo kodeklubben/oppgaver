@@ -1,3 +1,8 @@
+---
+title: Den gode oppgaven
+author: Stein Olav Romslo
+---
+
 # Den gode oppgaven
 
 Når du skriver en oppgave som skal legges ut på oppgavesidene må du følge denne
