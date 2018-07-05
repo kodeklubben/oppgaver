@@ -5,9 +5,12 @@ author: 'Teodor Heggelund'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
-Denne oppgaven innfører funksjoner, og viser hvordan vi kan skrive og test funksjoner i `elm repl`.
+Denne oppgaven innfører funksjoner, og viser hvordan vi kan skrive og test
+funksjoner i `elm repl`.
+
 
 # Last ned Elm-plattformen {.activity}
 
@@ -15,7 +18,9 @@ Nå skal vi installere Elm på vår egen PC:
 
 - [ ] Gå til [elm-lang.org/install](http://www.elm-lang.org/install) og last ned
   installasjonsfil til ditt operativsystem
+  
 - [ ] Klikk deg gjennom installasjonen
+
 
 # Kommandolinjen {.protip}
 
@@ -28,7 +33,8 @@ kommandolinjen heter er forskjellig fra operativsystem til operativsystem:
 
 Slik ser terminalen ut på Linux med vindusbehandleren Gnome:
 
-![](terminal_linux.png)
+![Bilde av terminal i linux](terminal_linux.png)
+
 
 # Kjør elm repl {.activity}
 
@@ -36,6 +42,7 @@ Slik ser terminalen ut på Linux med vindusbehandleren Gnome:
 - [ ] Kjør `elm repl` fra kommandolinjen
 
 Prøv å gange sammen tall!
+
 
 # Les-tolk-skriv-løkke {.protip}
 
@@ -48,7 +55,7 @@ REPL står for Read Eval Print Loop:
 
 Eksempel på bruk:
 
-![](repl_usage.gif)
+![Animasjon av bruk av REPL i terminalen](repl_usage.gif)
 
 
 # Utrykk i elm repl {.activity}
@@ -68,6 +75,7 @@ Skriver vi inn `1 + 2`, gir Elm tilbake `3 : number`. Svaret er `3`, som er et
 tall (`number`).
 
 - [ ] Regn ut 12345 * 6789 med Elm!
+
 - [ ] Hva sier Elm når du prøver å dele på 0?
 
 Vi bruker `=` til å binde verdier:
@@ -84,7 +92,9 @@ Vi bruker `=` til å binde verdier:
 ```
 
 - [ ] Sett `birthYear` til året du er født
+
 - [ ] Sett `currentYear` til året vi er i nå
+
 - [ ] Hva blir `currentYear - birthYear`? Er det det samme som alderen din?
   Hvorfor/hvorfor ikke?
 
@@ -108,8 +118,10 @@ double x = x * 2
 ```
 
 * `double` er funksjonsnavnet.
-* `x` er navnet på verdien som kommer inn i funksjonen. Dette er funksjonens *parameter*.
+* `x` er navnet på verdien som kommer inn i funksjonen. Dette er funksjonens
+  *parameter*.
 * `x * 2` er resultatet til funksjonen.
+
 
 # Funksjoner i elm repl {.activity}
 
@@ -140,6 +152,7 @@ Vi bruker funksjonen ved å skrive funksjonsnavnet (`double`) etterfulgt av
 argumentet (`5`).
 
 - [ ] Hva er `double 123`?
+
 - [ ] Hva er `double 7`?
 
 `triple` er funksjonen som ganger med tre:
@@ -152,6 +165,7 @@ argumentet (`5`).
 ```
 
 - [ ] Lag `triple`!
+
 - [ ] Gir din `triple` det samme som min?
 
 # Parametere og argumenter {.protip}
@@ -161,7 +175,8 @@ argumentet (`5`).
 <function> : number -> number
 ```
 
-* En **parameter** er *navnet* vi gir verdiene som kommer inn funksjonen. `x` er en parameter.
+* En **parameter** er *navnet* vi gir verdiene som kommer inn funksjonen. `x` er
+  en parameter.
 
 ```elm
 > double 15

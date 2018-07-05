@@ -5,6 +5,7 @@ author: 'Geir Arne Hjelle'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Vi skal nå lære hvordan vi kan lage et enkelt ballspill med Scratch. I
@@ -12,6 +13,7 @@ soloball skal du styre katten som kontrollerer ballen, slik at ballen
 ikke går i nettet.
 
 ![Bilde av katten Felix som spiller soloball](soloball.png)
+
 
 # Steg 1: En roterende katt {.activity}
 
@@ -49,6 +51,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] For å stoppe programmet ditt kan du klikke på den røde åttekanten
   ved siden av det grønne flagget.
+
 
 # Steg 2: Katten løper rundt {.activity}
 
@@ -110,6 +113,7 @@ høyre på skjermen.
 Når vi flytter senterpunktet utenfor katten vil det se ut som om
 katten løper rundt dette punktet i stedet for at den bare roterer uten
 å flytte seg.
+
 
 # Steg 3: En ball! {.activity}
 
@@ -174,6 +178,7 @@ __Klikk på det grønne flagget.__
   gjøre katten litt mindre. Vi vil finne en bedre løsning på dette
   problemet i Ekstra 3-delen.
 
+
 # Steg 4: Et nett! {.activity}
 
 *Vi skal nå lage et nett som kan fange ballen hvis den flyr forbi
@@ -225,6 +230,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Skjer det noe når ballen treffer nettet?
 
+
 # Steg 5: Nettet fanger ballen {.activity}
 
 *Vi vil at ballen skal stoppe når den treffer nettet.*
@@ -269,6 +275,7 @@ __Klikk på det grønne flagget.__
 - [ ] Med `stopp alle`{.blockcontrol}-klossen stoppes hele spillet når
   ballen treffer nettet. For å spille videre må du klikke det grønne
   flagget igjen.
+
 
 # Steg 6: Mer naturlig sprett {.activity}
 
@@ -352,6 +359,7 @@ slik at andre kan spille det. For å gjøre dette klikker du `Legg ut`
 øverst til høyre. Du kan deretter dele nettadressen til spillet ditt
 med venner og familie.
 
+
 # Ekstra 1: Tell poeng {.activity}
 
 *Alle spill blir morsommere hvis man får poeng!*
@@ -389,6 +397,7 @@ starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
       slutt
   slutt
   ```
+
 
 # Ekstra 2: Øk hastigheten {.activity}
 
@@ -440,6 +449,7 @@ selv!
   ```
 
   Pass på at du også endrer `gå steg`{.blockmotion}-klossen.
+
 
 # Ekstra 3: Unngå at katten fanger ballen {.activity}
 

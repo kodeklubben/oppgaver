@@ -5,9 +5,11 @@ author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Dette er en kort oppgave som viser hvordan man bruker *ordbøker*.
+
 
 # Nøkler og verdier {.activity}
 
@@ -16,7 +18,8 @@ Dette er en kort oppgave som viser hvordan man bruker *ordbøker*.
 En ordbok (*dictionary* på engelsk) brukes for å lagre *nøkkel/verdi*-par. Tenk
 deg at du skal ha en norsk-engelsk ordbok. Da vil *nøkkelen* være ordet du slår
 opp på, for eksempel det norske ordet. *Verdien* vil være det engelske ordet.
-F.eks. nøkkelen `"ost"` og verdien `"cheese"`. I Python skrives ordbøker med `{}` slik som dette:
+F.eks. nøkkelen `"ost"` og verdien `"cheese"`. I Python skrives ordbøker med
+`{}` slik som dette:
 
 ```python
 >>> d = {'ost':'cheese', 'brød':'bread'}
@@ -76,11 +79,13 @@ Tilhørende verdi er bread
 Dette må du gjøre:
 
 - [ ] Lag ei tom ordbok.
+
 - [ ] Bruk ei løkke for å hente inn 3 nøkkel/verdi-par.
 
   * Lagre nøkkel/verdi-parene i ordboka.
 
 - [ ] Spør om en nøkkel.
+
 - [ ] Skriv ut verdien som hører til nøkkelen.
 
 
@@ -141,10 +146,14 @@ Her er handlelista:
 Dette må du gjøre:
 
 - [ ] Ta imot input for gjenstand.
+
 - [ ] Så lenge gjenstanden ikke er en tom streng `""`:
+
   * Be om antall.
   * Lagre til en ordliste.
   * Bruk gjenstanden som nøkkel og antallet som verdi.
+
 - [ ] Skriv ut handlelista.
 
   **Hint:** Gå gjennom nøklene.
+

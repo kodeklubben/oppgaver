@@ -5,6 +5,7 @@ author: 'Geir Arne Hjelle'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Katten vår har så lyst å være en astronaut, la oss se om vi kan hjelpe
@@ -13,6 +14,7 @@ skjermen, og hvordan katter blir påvirket av gravitasjonskreftene fra
 jorden.
 
 ![Bilde av en katt i verdensrommet](astrokatt.png)
+
 
 # Steg 1: En flyvende katt {.activity}
 
@@ -104,6 +106,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Kan du få katten til å fly raskere eller saktere ved å endre i koden?
 
+
 # Steg 2: Ut i verdensrommet! {.activity}
 
 Nå skal vi sende den flyvende katten ut i verdensrommet.
@@ -134,6 +137,7 @@ Til slutt lager vi også en jordklode, som katten kan fly rundt.
 __Klikk på det grønne flagget.__
 
 - [ ] Flyr katten rundt omkring i verdensrommet?
+
 
 # Steg 3: Litt mer ekte ... {.activity}
 
@@ -219,6 +223,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Prøv også å flytte jordkloden til andre steder på skjermen. Blir det
   annerledes å fly med katten nå?
+
 
 # Steg 4: Gravitasjon {.activity}
 

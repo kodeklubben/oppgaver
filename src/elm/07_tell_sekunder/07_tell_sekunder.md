@@ -5,6 +5,7 @@ author: 'Teodor Heggelund'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi lage vårt eget spill!
@@ -43,6 +44,7 @@ Ideer til "spill":
 - Simulering av tyngdekraft.
 
 -->
+
 
 # Steg 0: Hva er forskjellig fra før? {.activity}
 
@@ -95,6 +97,7 @@ Her er det tre forskjeller:
    når vi starter opp
 3. Vi definerer abonnementer, `subscriptions`!
 
+
 # Hva kan vi abonnere på? {.protip}
 
 Vi kan abonnere på mange forskjellige ting:
@@ -102,6 +105,7 @@ Vi kan abonnere på mange forskjellige ting:
 1. Når det har gått X sekunder (`Time`)
 2. Når brukeren trykker på **Pil opp** (`Keyboard`)
 3. Når noen andre sender oss en beskjed (`WebSocket`)
+
 
 # Steg 1: En sekundteller {.activity}
 
@@ -172,6 +176,7 @@ view model =
 
 Ser noe du ikke har sett før? Nå skal vi gå gjennom bit for bit.
 
+
 # Hvor langt har vi talt? {.activity}
 
 Hva skjedde med modellen?
@@ -204,8 +209,11 @@ vi er over på `Html.program`, må vi ha den med. Hvis du ser rundt i koden finn
 du `Cmd.none`, som betyr "gjør ingenting".
 
 - [ ] Endre `count` i funksjonen `start`. Hva gjør programmet nå?
+
 - [ ] Hva skjer om `count` blir veldig stor?
+
 - [ ] Kan `count` være mindre enn null?
+
 
 # Oppdatere telleren {.activity}
 
@@ -233,9 +241,12 @@ Hvert sekund, kjører vi modellen vår gjennom funksjonen `bump`. Den "dytter"
 ("bump" på engelsk) modellen vår ett sekund fram i tid.
 
 - [ ] Kan du få timeren vår til å telle baklengs?
-- [ ] Kan du få timeren vår til å telle ned fra 10 til 0? Obs! Her må du også endre
-  `start`!
+
+- [ ] Kan du få timeren vår til å telle ned fra 10 til 0? Obs! Her må du også
+  endre `start`!
+
 - [ ] Kan du få timeren vår til å telle fortere?
+
 - [ ] Utfordring: Timeren får ikke telle til høyere enn 10. Når den kommer til 10,
   skal den begynne fra start igjen! Tips: bruk
   et [if-uttrykk](http://elm-lang.org/examples/if).
@@ -252,10 +263,11 @@ subscriptions model =
 
 Her abonnerer vi på sekunder. Verdien `second` kommer fra modulen `Time`.
 
-- [ ] Finn `second`
-  i
-  [modulen `Time`](http://package.elm-lang.org/packages/elm-lang/core/latest/Time).
+- [ ] Finn `second` i [modulen
+  `Time`](http://package.elm-lang.org/packages/elm-lang/core/latest/Time).
+
 - [ ] Hva skjer om du abonnerer på timer i stedet for sekunder?
+
 - [ ] Hva skjer om du abonnerer på millisekunder?
 
 Øverst i `Time-modulen` finner vi:
@@ -267,11 +279,13 @@ type alias Time =
 
 Dette betyr at tid bare er et tall. Disse kan vi plusse og dele!
 
-- [ ] Klarer du å abonnere på annenhvert sekund? Hva må du da sende inn i stedet for
-  `second`?
+- [ ] Klarer du å abonnere på annenhvert sekund? Hva må du da sende inn i stedet
+  for `second`?
+
 - [ ] Klarer du å abonnere på tidels sekunder?
 
 Hint: hva er `second * 2`?
+
 
 # La det blinke! {.activity}
 
@@ -344,8 +358,9 @@ Her prøver jeg i `elm repl`:
 1 : Int
 ```
 
-- [ ] Ser du mønsteret? Hva skjer når vi deler oddetall på 2? Hva skjer når vi deler
-  partall på 2?
+- [ ] Ser du mønsteret? Hva skjer når vi deler oddetall på 2? Hva skjer når vi
+  deler partall på 2?
+
 - [ ] Skriv funksjonen isEven. Denne skal fungere slik:
 
 ```elm
