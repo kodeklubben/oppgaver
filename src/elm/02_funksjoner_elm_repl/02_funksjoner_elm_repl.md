@@ -11,12 +11,12 @@ tags:
 
 # Introduksjon {.intro}
 
-Denne oppgaven innfører funksjoner, og viser hvordan vi kan skrive og teste funksjoner i `Ellie`.
+Denne oppgaven innfører funksjoner, og viser hvordan vi kan skrive og teste funksjoner i Ellie.
 
 # Gjør deg kjent med Ellie {.activity}
 
-Ellie er et online utviklermilø for Elm. Her kan du programmere Elm, uten å laste ned noe til pc'en din.
-Slik ser Ellie ut i browseren:
+Ellie er et online utviklermilø for Elm. Her kan du programmere Elm, uten at du trenger å laste ned noe til pc'en din.
+Slik ser Ellie ut når du åpner den i en web browser:
 
 ![](ellie.png)
 
@@ -24,30 +24,38 @@ Nå skal vi gjøre oss kjent med Ellie.
 
 - [ ] Gå til [https://ellie-app.com](https://ellie-app.com)
   Dette vil starte Ellie i nettleseren, med et enkelt Elm kodeeksempel.
-- [ ] Klikk på `Compile`, for å kjøre koden som viser i den midterse delen av
+- [ ] Klikk på *Compile*, for å kjøre koden som viser i den midterse delen av
   vinduet. Resultatet vil vise på høyre side.
 
 # Lagre {.protip}
 
-Du kan lagre prosjektene du jobber med i Ellie ved å klikke `Save` (eller `Update` om du allerede har lagret).
+Du kan lagre prosjektene du jobber med i Ellie ved å klikke `Save`, eller `Fork` om det er et Ellie prosjekt noen har delt med deg.
 Dette gir deg en unik link til den nåværende versjonen av prosjektet. Du må selv ta vare på linken for å kunne
 gå tilbake til prosjektet senere.
 
-# Utrykk i elm repl {.activity}
+# Elm som en kalkulator {.activity}
 
-Nå skal vi prøve å evaluere noen enkle utrykk i Elm. Siden Elm programmer kjører i en web side, må koden vår returnere Html
-for at resultatet skal vise. Elm kompilatoren er veldig streng på at utrykk og funksjoner returnerer verdier av riktig type.
-Vi må derfor legge til litt ekstra kode rundt utrykkene så de evaluerer til korrekt Html.
+Elm kan brukes som en kalkulator. Vi kan regne ut et tall og vise tallet som en nettside. For å vise et enkelt tatt på en nettside:
 
 ```elm
 module Main exposing (main)
 import Html exposing (Html, text)
 
-main = text <| toString <|
-    1 + 2
+main = text (toString (9001))
 ```
 
-- [ ] Gå til [https://ellie-app.com/5tdmSwDbca1/0](https://ellie-app.com/5tdmSwDbca1/0) for et eksempel utrykk.
+Elm kan også regne!
+
+```
+module Main exposing (main)
+import Html exposing (Html, text)
+
+main = text (toString (100 + 9 * 9))
+```
+
+Siden Elm programmer kjører i en web side, må koden vår returnere noe som kan vises av web browseren. Vi bruker her funksjonene `toString` og `text` til å konvertere resultatet av utregningen vår til noe som kan vises i browseren.
+
+- [ ] Gå til [https://ellie-app.com/HFJ7WyCctja1](https://ellie-app.com/HFJ7WyCctja1) for et eksempel utrykk.
 - [ ] Kjør eksempelkoden.
 - [ ] Bytt ut utrykket i koden med forskjellige utrykk hvor med `+`, `-`, `*`, og `/`.
 
@@ -56,7 +64,7 @@ Skriver vi inn `1 + 2`, viser resultatet `3` på høyre side. I praksis er det e
 - [ ] Regn ut 12345 * 6789 med Elm!
 - [ ] Hva sier Elm når du prøver å dele på 0?
 
-Vi bruker `=` til å binde symbol til verdier. Det kan vi gjøre i et `let` utrykk. Det består av to deler,
+Vi bruker `=` til å binde en verdi til et symbol. Det kan vi gjøre i et `let` utrykk. Det består av to deler,
 en `let` del hvor vi binder en eller flere verdier til symbolske navn, og en `in` del, hvor vi bruker
 verdiene i et utrykk. Resultatet av dette utrykket blir returnert som verdien av hele `let` utrykket.
 
@@ -64,15 +72,17 @@ verdiene i et utrykk. Resultatet av dette utrykket blir returnert som verdien av
 module Main exposing (main)
 import Html exposing (Html, text)
 
-main = text <| toString <|
-    let 
+main = text (toString math)
+
+math =
+    let
         x = 3
         y = 4
     in
         x + y
 ```
 
-- [ ] Gå til [https://ellie-app.com/5tdmSwDbca1/1](https://ellie-app.com/5tdmSwDbca1/1) og kjør eksempelet.
+- [ ] Gå til [https://ellie-app.com/HFMtv2Gw2ma1](https://ellie-app.com/HFMtv2Gw2ma1) og kjør eksempelet.
 - [ ] Prøv med forskjellige utrykk og bindinger.
 - [ ] Sett `birthYear` til året du er født
 - [ ] Sett `currentYear` til året vi er i nå
@@ -110,17 +120,18 @@ La oss lage funksjonen `double`:
 module Main exposing (main)
 import Html exposing (Html, text)
 
-double x = x * 2
+main = text (toString math)
 
-main = text <| toString <|
-    double 4
+math = double 2
+
+double x = x * 2
 ```
 
 Vi må fortsatt ha litt ekstra kode for å kunne vise resultatet av å kalle funksjonen vår. Vi definerer `main` som en funksjon
 også, og det er denne som blir kjørt når siden vår lastes.
 
 I elm kan vi også fortelle kompilatoren vår hvilke typer *input* og *output* til en funksjon har. Som regel vil
-Elm kompilatoren selv finne ut av det, men om vi legger til type informasjon kan kompilatoren sammenligne typene vi har sagt funksjonen omhandler med hva den selv finner ut, og gi oss gode feilmeldinger når det ikke stemmer overens.
+Elm-kompilatoren selv finne ut av det, men om vi legger til type informasjon kan kompilatoren sammenligne typene vi har sagt funksjonen omhandler med hva den selv finner ut, og gi oss gode feilmeldinger når det ikke stemmer overens.
 
 Denne `double` funksjonen for eksempel, tar inn en `x` som er et tall, og returnerer `x * 2` som er 
 et nytt tall. Typen for tall i Elm heter `number` og typen til funksjonen blir dermed 
