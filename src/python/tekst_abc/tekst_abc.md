@@ -1,17 +1,15 @@
 ---
-title: Tekst ABC
+title: 'Tekst ABC'
 level: 3
-author: Ole Kristian Pedersen, Kodeklubben Trondheim
+author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
 language: nb
-tags:
-  topic: [text_based]
-  subject: [programming]
-  grade: [junior]
 ---
+
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi gjøre enkle operasjoner på tekst, som å endre størrelsen på bokstavene og telle ord.
+I denne oppgaven skal vi gjøre enkle operasjoner på tekst, som å endre
+størrelsen på bokstavene og telle ord.
 
 I Python lagrer vi tekst til en **variabel** slik som dette:
 
@@ -22,6 +20,7 @@ streng = "teksten er her"
 Variabelen kalles da **tekststreng** eller bare **streng**, som er typen til
 variabelen.
 
+
 # Store og små bokstaver {.activity}
 
 ## {.protip}
@@ -31,8 +30,8 @@ flere slike funksjoner. Gitt at vi har tekst i en variabel kalt `s`, så kan vi
 bruke disse funksjonene: `s.lower()`, `s.upper()`, `s.title()`, `s.swapcase()`
 og `s.capitalize()`.
 
-Legg merke til at funksjonen kalles **på** strengen - `s.lower()` - istedenfor
-å **gi** strengen til funksjonen - `lower(s)`.
+Legg merke til at funksjonen kalles **på** strengen - `s.lower()` - istedenfor å
+**gi** strengen til funksjonen - `lower(s)`.
 
 
 Her er noen eksempler på hvordan funksjonene brukes (legg merke til hvilke
@@ -54,7 +53,8 @@ bokstaver som er store og små i utskriften):
 
 Her er noen eksempler på hva funksjonene kan brukes til:
 
-* `s.capitalize()` brukes når vi ønsker stor forbokstav kun i begynnelsen av teksten:
+* `s.capitalize()` brukes når vi ønsker stor forbokstav kun i begynnelsen av
+  teksten:
 
   ```python
   >>> sentence = "dENne sETNinGeN har IKKE riKTige bokSTAVstØrReLSER."
@@ -69,8 +69,8 @@ Her er noen eksempler på hva funksjonene kan brukes til:
   'Star Wars: A New Hope'
   ```
 
-* `s.upper()` og `s.lower()` kan brukes når vi ønsker å sammenlikne tekst uten
-  å ta hensyn størrelsen på bokstavene:
+* `s.upper()` og `s.lower()` kan brukes når vi ønsker å sammenlikne tekst uten å
+  ta hensyn størrelsen på bokstavene:
 
   ```python
   >>> answer = "JA"
@@ -99,6 +99,7 @@ lagre resultatet i en ny variabel om du vil beholde endringen din:
 ```
 
 <!--Workaround-->
+
 # {.check}
 
 Lag et program som skriver ut filmtitler med store bokstaver først i hvert ord.
@@ -114,9 +115,13 @@ Alice In Wonderland
 Dette må du gjøre:
 
 - [ ] Be om at brukeren skriver inn en filmtittel.
+
 - [ ] Lagre filmtittelen i en variabel.
+
 - [ ] Manipuler strengen slik at resultatet blir som beskrevet over.
+
 - [ ] Skriv ut den nye strengen.
+
 
 
 # Telling av tekst {.activity}
@@ -127,9 +132,9 @@ Ved hjelp av `s.count()` kan vi finne ut om en streng inneholder en bestemt
 tekst og hvor mange ganger den finnes i strengen. For eksempel så inneholder
 strengen `"Hei verden!"` teksten `"verden"` en gang.
 
-Tenk deg at du ønsker å finne ut hvor mange kommaer som er i `"A, B, C, D, E,
-F, G, H, I, J, K, L"`. Det er enkelt å telle for hånd, men ikke like gøy som å
-la datamaskinen gjøre det:
+Tenk deg at du ønsker å finne ut hvor mange kommaer som er i `"A, B, C, D, E, F,
+G, H, I, J, K, L"`. Det er enkelt å telle for hånd, men ikke like gøy som å la
+datamaskinen gjøre det:
 
 ```python
 >>> s = "A, B, C, D, E, F, G, H, I, J, K, L"
@@ -145,8 +150,8 @@ Vi kan også telle tekst som er lengre, for eksempel `"Per"`:
 3
 ```
 
-
 <!--Workaround-->
+
 # {.check}
 
 Lag et program som teller hvor mange ord det er i det brukeren skriver inn.
@@ -164,13 +169,18 @@ Du skrev inn 3 ord.
 Dette må du gjøre:
 
 - [ ] Be brukeren om tekst.
+
 - [ ] Lagre teksten til en variabel.
+
 - [ ] Regn ut hvor mange ord som er i teksten.
+
 - [ ] Skriv ut hvor mange ord teksten inneholder.
 
   **Hint:** husk å konvertere fra tall til tekst med `str()`-funksjonen.
 
+
 # Erstatte tekst {.activity}
+
 
 # {.protip}
 
@@ -183,22 +193,24 @@ Hva om vi vil bytte ut alle kommaer med semikolon?
 'A; B; C; D; E; F; G; H; I; J; K; L'
 ```
 
-Her får `s.replace()` to argumenter - først teksten vi skal erstatte i strengen `s`, og så
-teksten vi skal erstatte med. Vi kan også bruke `s.replace()` for å fjerne
-tekst. Vi kan for eksempel fjerne alle mellomrom:
+Her får `s.replace()` to argumenter - først teksten vi skal erstatte i strengen
+`s`, og så teksten vi skal erstatte med. Vi kan også bruke `s.replace()` for å
+fjerne tekst. Vi kan for eksempel fjerne alle mellomrom:
 
 ```python
 >>> s = "1 2 3 4 5"
 >>> s.replace(" ", "")
 '12345'
 ```
+
 <!--Workaround-->
+
 # {.check}
 
 Noen operativsystemer og programmer oppfører seg rart dersom man lager filnavn
-med mellomrom i. Du vil derfor lage et program som bytter ut alle mellomrom
-med en understrek. I tillegg skal du sørge for at det bare blir brukt små
-bokstaver i filnavnet. Det skal fungere som i programmet under:
+med mellomrom i. Du vil derfor lage et program som bytter ut alle mellomrom med
+en understrek. I tillegg skal du sørge for at det bare blir brukt små bokstaver
+i filnavnet. Det skal fungere som i programmet under:
 
 <pre>
 >>>
@@ -209,5 +221,8 @@ min_hemmelige_fil.txt
 Dette må du gjøre:
 
 - [ ] Spør brukeren om et filnavn
+
 - [ ] Endre filnavnet slik som beskrevet ovenfor
+
 - [ ] Skrive ut det nye filnavnet
+

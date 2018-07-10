@@ -1,18 +1,16 @@
 ---
-title: "Kontroller med musen"
+title: 'Kontroller med musen'
 level: 3
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
+
 
 # Introduksjon {.intro}
 
 Denne oppgaven viser hvordan vi kan bruke musen til å kontrollere
 elm-programmene våre.
+
 
 # Steg 1: Vise en posisjon {.activity}
 
@@ -55,8 +53,11 @@ view model =
 ```
 
 Endre tallene `10` og `20` som inngår i verdien `p`.
+
 - [ ] Hva gjør det første tallet?
+
 - [ ] Hva gjør det andre tallet?
+
 
 # Steg 2: Bruke `Html.program` {.activity}
 

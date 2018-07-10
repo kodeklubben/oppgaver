@@ -1,0 +1,4 @@
+trykk_1trykksensor/1trykksensor.md
+trykk_2fjernkontroll/2fjernkontroll.md
+trykk_3robot/3robot.md
+trykk_4bil/4bil.md

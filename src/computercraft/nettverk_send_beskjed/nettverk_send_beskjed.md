@@ -1,12 +1,8 @@
 ---
-title: Send en beskjed
+title: 'Send en beskjed'
 level: 2
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, minecraft]
-    subject: [technology, programming]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -21,9 +17,9 @@ Siden trådløse datamaskiner er dyre, er det kjekt å bruke en *Creative-verden
 
 + Vi bygger en **Advanced Wireless Pocket Computer** og en **Advanced Ender Turtle**
 
-  ![](build_advanced_wireless_pocket_computer.png)
+  ![Bilde av en Advanced Wireless Pocket Computer](build_advanced_wireless_pocket_computer.png)
 
-  ![](build_advanced_ender_turtle.png)
+  ![Bilde av en Advanced Ender Turtle](build_advanced_ender_turtle.png)
 
 + Vi kaller tableten for *Sendulf* med `label set Sendulf` og roboten for *MaxMottak* med `label set MaxMottak`.
 
@@ -95,9 +91,9 @@ Hva er tallet som går inn i `receive`-funksjonen? Hva skjer når du putter inn 
   rednet.send(5, "Hello, MaxMottak! Dette er Sendulf! Kan du høre meg?")
   ```
 
-  ![](melding_sendulf.png)
+  ![Bilde av Sendulf som sender en melding over rednet](melding_sendulf.png)
 
-  ![](melding_maxmottak.png)
+  ![Bilde av MaxMottak som motar en melding over rednet](melding_maxmottak.png)
 
 ## Test selv! {.flag}
 

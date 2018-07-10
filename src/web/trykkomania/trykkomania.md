@@ -1,12 +1,8 @@
 ---
-title: "JS: Trykkomania"
+title: 'JS: Trykkomania'
 level: 2
-author: Arve Seljebu
+author: 'Arve Seljebu'
 language: nb
-tags:
-    topic: [text_based, web, game]
-    subject: [programming, mathematics]
-    grade: [primary, secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}

@@ -1,11 +1,7 @@
 ---
-title: Lag din egen nettside
+title: 'Lag din egen nettside'
 level: 4
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming, technology]
-    grade: [junior, senior]
 ---
 
 ## __Introduksjon:__ {.intro}

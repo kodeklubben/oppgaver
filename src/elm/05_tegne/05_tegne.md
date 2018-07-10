@@ -1,12 +1,8 @@
 ---
-title: "Tegning med SVG"
+title: 'Tegning med SVG'
 level: 3
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -37,6 +33,7 @@ Vi skal nå bruke SVG for å tegne:
 Jeg kommer til å vise eksempler med **Try Elm**. Hvis du vil kjøre nettsiden lokalt,
 er det helt greit.
 
+
 # Steg 1: sirkel og rektangel {.activity}
 
 Vi prøver først litt med [Try Elm](http://elm-lang.org/try).
@@ -58,7 +55,7 @@ main =
 
 Da skal du se noe slikt:
 
-![](try_rect_circle.png)
+![Bilde av en 500x500 px boks laget i elms online editor](try_rect_circle.png)
 
 La oss plukke koden fra hverandre.
 
@@ -85,7 +82,9 @@ Potential problems could be:
 
 Da må vi installere pakken `svg`.
 
-- [ ] Åpne et kommandovindu i **samme mappe som du har lagret Elm-programmet ditt**
+
+- [ ] Åpne et kommandovindu i **samme mappe som du har lagret Elm-programmet
+      ditt**
 
   Hvis jeg har en mappe på skrivebordet mitt som heter Elm, skal jeg se
   følgende: `C:\Users\teodor\Desktop\Elm> `
@@ -111,12 +110,14 @@ Nå bruker vi pakken **Svg** og importerer funksjoner som `circle` for sirkel og
 
 - [ ] Trykk på `circle`. Ser du teksten `Docs: Svg.circle` som dukket opp over?
   `Svg.circle` er en link til dokumentasjonen! Trykk på denne.
+
 - [ ] Stemmer eksempelet for `circle` med koden vår? Hva er forskjellig?
 
 Rect er det ikke (per februar 2017) noe eksempel for.
 
-- [ ] Gå til [Mozilla sin dokumentasjon for SVG-elementet `rect`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect).
-  Hva står det under **Specific attributes**? Bruker vi noen av disse?
+- [ ] Gå til [Mozilla sin dokumentasjon for SVG-elementet
+  `rect`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect). Hva
+  står det under **Specific attributes**? Bruker vi noen av disse?
 
 - [ ] Finner du `path` i dokumentasjonen til Elm?
 
@@ -135,8 +136,8 @@ main =
 
 `height "500"` sier at vi skal bruke 500 pixler i høyden.
 
-- [ ] Sjekk at du får en 500x500 px boks i nettleseren din. Slik ser det ut når jeg
-  sjekker:
+- [ ] Sjekk at du får en 500x500 px boks i nettleseren din. Slik ser det ut når
+  jeg sjekker:
 
   ![](inspect_svg.png)
 
@@ -188,8 +189,10 @@ vi starter å lese i `(0,0)`:
 Din tur!
 
 - [ ] Gjør sirkelen grønn
-- [ ] Sett sentrum for sirkelen til "helt i midten". Hvis koordinatsystemet er fra 0
-  til 200, hva er i midten?
+
+- [ ] Sett sentrum for sirkelen til "helt i midten". Hvis koordinatsystemet er
+  fra 0 til 200, hva er i midten?
+
 - [ ] Hva skjer om du tegner sirkelen utenfor koordinatsystemet?
 
 Så er det `rect` sin tur:
@@ -205,6 +208,7 @@ Så er det `rect` sin tur:
 Din tur!
 
 - [ ] Lag en firkant som fyller hele koordinatsystemet!
+
 - [ ] Gjør den svart.
 
 Nå ser du ikke sirkelen i det hele tatt.
@@ -234,8 +238,8 @@ En linje går mellom *to* punkter. Vi skal ha noe som går mellom *mange* punkte
 
 ## Importere funksjoner for å tegne kurve {.check}
 
-- [ ] Importer `path` fra **Svg**, og `stroke` og `d` fra **Svg.Attributes**. Husker
-  du hvordan du importerer moduler?
+- [ ] Importer `path` fra **Svg**, og `stroke` og `d` fra **Svg.Attributes**.
+  Husker du hvordan du importerer moduler?
 
 ## Hvordan å importere funksjoner fra moduler {.protip}
 
@@ -276,7 +280,7 @@ import Html exposing (text, h1, p, ul, li)
 
 Min ser nå slik ut:
 
-![](svg_path.png)
+![Bilde av en sirkel og et rektangel med en skrå strek igjennom](svg_path.png)
 
 
 # Steg 3: tegne smiley {.activity}
@@ -313,6 +317,7 @@ main =
 Ånei! Den var ikke stor!
 
 - [ ] Endre sentrum (`cx` og `cy`) så sirkelen er i midten.
+
 - [ ] Endre radius (`r`) på sirkelen så sirkelen blir stor! Hvor stor kan du gjøre
   den uten at den kuttes av i kantene?
 
@@ -332,6 +337,7 @@ forskjellige typer bezierkurver:
 ## En munn som bezierkurve {.check}
 
 - [ ] Gå til http://bl.ocks.org/joyrexus/5715642
+
 - [ ] Du kan dra i punktene. Klarer du å lage en munn?
 
 Her er en `path` med bezierkurve i Elm:
@@ -346,13 +352,14 @@ I strengen `"M20,60 C 40,50 60,50 80,60 "` dukker det opp to mystiske variabler.
 Ånei! Det ble et surt fjes!
 
 - [ ] Kan du gjøre munnen blid igjen?
+
 - [ ] Hva skjer om du bytter ut `C` med `L` eller `Q`?
 
 ## Ellipser {.protip}
 
 Her er to ellipser:
 
-![](ellipses.png)
+![Bilde av to ellipser](ellipses.png)
 
 En sirkel har lik høyde og bredde. En ellipse kan være flat eller tynn; den kan
 ha forskjellig radius i x- og y-retning.
@@ -374,11 +381,13 @@ Du finner `ellipse` i **Svg**, og `cx` og `cy` i **Svg.Attributes**.
 ## Øyne som ellipser {.check}
 
 - [ ] Lag en ellipse for venstre øye
-- [ ] Lag en ellipse for høyre øye. Hva er forskjellen mellom høyre og venstre øye?
+
+- [ ] Lag en ellipse for høyre øye. Hva er forskjellen mellom høyre og venstre
+      øye?
 
 Her er sånn min ble seende ut:
 
-![](smiley.png)
+![Bilde av en smiley!](smiley.png)
 
 - [ ] Hva skjer om du fyller en bezierkurve med en farge?
 
@@ -387,6 +396,7 @@ Her er sånn min ble seende ut:
 - [ ] Hva skjer om du legger på `stroke` på den gule sirkelen?
 
   `circle [ cx "50", cy "50", r "50", stroke "black", fill "yellow" ] - [ ]`
+
 
 # Svg inne i et Html-dokument {.activity}
 
@@ -413,5 +423,5 @@ main =
 
 ## Tegne på din egen nettside {.check}
 
-- [ ] Gå tilbake til en av de tidligere oppgavene du har gjort. Vil du legge til en
-  tegning noe sted?
+- [ ] Gå tilbake til en av de tidligere oppgavene du har gjort. Vil du legge til
+  en tegning noe sted?

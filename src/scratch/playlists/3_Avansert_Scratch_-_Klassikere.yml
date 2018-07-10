@@ -1,0 +1,13 @@
+sortindex: 3
+title:
+  nb: 'Avansert Scratch - Klassikere'
+  nn: 'Avansert Scratch - Klassikere'
+  en: 'Advanced Scratch - Classics'
+lessons:
+  - veiledninger
+  - pong
+  - breakout
+  - snake
+  - lunar_lander
+  - asteroids
+  - donkey_kong

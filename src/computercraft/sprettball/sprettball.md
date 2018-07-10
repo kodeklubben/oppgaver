@@ -1,12 +1,8 @@
 ---
 title: Sprettball
 level: 3
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [text_based, minecraft]
-    subject: [technology, programming]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -16,7 +12,7 @@ en ekstra skjerm kan vi bruke datamaskinen til å kommunisere med
 verden rundt oss. Kanskje Minecraft-verden blir fyllt med store
 reklamebannere?
 
-![](sprettball.png)
+![Bilde av en datamaskin og et display med en sprettball på](sprettball.png)
 
 # Steg 1: Koble en skjerm til datamaskinen {.activity}
 
@@ -31,7 +27,7 @@ datamaskin og se om vi får til å skrive noe på skjermen.
 - [ ] Bygg så en **Monitor** inntil datamaskinen du nettopp bygget,
   omtrent som på bildet.
 
-  ![](enkelskjerm.png)
+  ![Bilde av en datamaskin og en enkel monitor](enkelskjerm.png)
 
 - [ ] Start datamaskinen. Den enkleste måten å skrive noe til skjermen er
   ved hjelp av programmet `monitor`. Om du skriver `help monitor` vil
@@ -58,7 +54,7 @@ datamaskin og se om vi får til å skrive noe på skjermen.
   Du kan nå trykke `Esc` for å gå ut av datamaskinen og se på
   skjermen. Står det *Hello World!*?
 
-  ![](helloworld_liten.png)
+  ![Bilde av monitor sin viser skriften "Hello World!"](helloworld_liten.png)
 
 - [ ] Kult! Da er vi igang med skjermene! Men - det ble jo veldig dårlig
   plass på den skjermen! Det er det heldigvis lett å gjøre noe med. Om
@@ -67,7 +63,7 @@ datamaskin og se om vi får til å skrive noe på skjermen.
   lage en stor skjerm! Prøv å kjør `hello`-programmet på den store
   skjermen.
 
-  ![](helloworld_stor.png)
+  ![Bilde av en stor monitor med skriften "Hello World!"](helloworld_stor.png)
 
 - [ ] Trikset med `monitor` fungerer selvsagt også med programmer vi
   skriver selv. La oss lage et enkelt program som vi kaller `ku`:
@@ -86,7 +82,7 @@ datamaskin og se om vi får til å skrive noe på skjermen.
 
 - [ ] Nå kan vi kjøre programmet: `monitor right ku`.
 
-  ![](ku.png)
+  ![Bilde av en monitor som viser en ASCII ku](ku.png)
 
 ## Cowsay {.protip}
 
@@ -390,7 +386,7 @@ reklamebannere.
   rett før linjen `skjerm.clear()`, og kjør programmet ditt på nytt.
   Ble teksten større?
 
-  ![](reklame.png)
+  ![Bilde av en monitor med ordet "ComputerScraft" skrevet stort](reklame.png)
 
   Tallet `3` i `setTextScale(3)` indikererer størrelsen på
   teksten. Her kan vi bruke tall mellom 0.5 og 5, hvor 5 gir oss den

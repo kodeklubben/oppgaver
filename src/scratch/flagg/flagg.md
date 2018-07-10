@@ -1,13 +1,10 @@
 ---
 title: Flagg
 level: 3
-author: Sverre Oskar Konestabo og Geir Arne Hjelle
+author: 'Sverre Oskar Konestabo og Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, animation]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -15,7 +12,8 @@ I denne oppgaven vil vi se litt nærmere på hvordan vi kan lage spennende møns
 og animasjoner ved hjelp av litt matematikk. Spesielt skal vi tegne et flagg som
 ser ut som om det vaier i vinden.
 
-![](flagg.png)
+![Bilde av Norges flagg som vaier i vind](flagg.png)
+
 
 # Steg 1: Gå i sirkel {.activity}
 
@@ -30,7 +28,7 @@ rettvinklet trekant er i forhold til hverandre. I figuren nedenfor forteller for
 eksempel _cosinus_, `cos(vinkel)` oss hvor lang den vannrette streken er i
 forhold til den skrå streken.
 
-![](../lunar_lander/sinus_cosinus.png)
+![Bilde av sammenhengen mellom vinkel, sinus og cosinus](../lunar_lander/sinus_cosinus.png)
 
 La oss se hvordan vi kan bruke dette til å tegne sirkler!
 
@@ -62,8 +60,8 @@ __Klikk på det grønne flagget.__
 
 - [ ] Hva skjer om du bruker forskjellige tall de to stedene i stedet for `100`?
 
-- [ ] Hvordan forandrer bevegelsen til katten seg om du forandrer tallet `5` i `vend
-  venstre (5) grader`{.b}? Prøv gjerne med negative tall også!
+- [ ] Hvordan forandrer bevegelsen til katten seg om du forandrer tallet `5` i
+  `vend venstre (5) grader`{.b}? Prøv gjerne med negative tall også!
 
 ## Retning på sirkelbevegelsen {.tip}
 
@@ -72,15 +70,17 @@ pilen i `vend venstre (5) grader`{.b} klossen peker? Dette er fordi Scratch
 måler vinkler i motsatt retning av hva som er vanlig i matematikken (og som vi
 har tegnet over).
 
+
 # Steg 2: Flytt sirkelen {.activity}
 
-Så langt har vi bare tegnet en sirkel midt på skjermen. La oss se om vi kan flytte den!
+Så langt har vi bare tegnet en sirkel midt på skjermen. La oss se om vi kan
+flytte den!
 
 ## Sjekkliste {.check}
 
-- [ ] Siden vi allerede flytter figuren langs en sirkel kan vi ikke bruke `gå til x:
-  () y: ()`{.b}-klosser for å flytte hele sirkelen. I stedet vil vi bruke
-  variabler.  Lag to variabler som heter `(sentrumX)`{.b} og `(sentrumY)`{.b} og
+- [ ] Siden vi allerede flytter figuren langs en sirkel kan vi ikke bruke `gå
+  til x: () y: ()`{.b}-klosser for å flytte hele sirkelen. I stedet vil vi bruke
+  variabler. Lag to variabler som heter `(sentrumX)`{.b} og `(sentrumY)`{.b} og
   som gjelder kun _for denne figuren_.
 
 - [ ] Vi kan nå flytte sirkelen over ved å sette `(sentrumX)`{.b}- og
@@ -114,19 +114,21 @@ __Klikk på det grønne flagget.__
   Du trenger en `sett [radius v] til []`{.b}-kloss i tillegg til å bruke
   `(radius)`{.b} to steder i koden din.
 
+
 # Steg 3: Dansende disker {.activity}
 
 Nå skal vi prøve å få mange figurer til å gå i sirkel samtidig.
 
 ## Sjekkliste {.check}
 
-- [ ] Tegn en ny drakt på figuren din. Bruk vektorgrafikk til å tegne en rød fyllt
-  sirkel (disk). Denne kan være ganske liten, for eksempel `20 x 20` piksler.
+- [ ] Tegn en ny drakt på figuren din. Bruk vektorgrafikk til å tegne en rød
+  fyllt sirkel (disk). Denne kan være ganske liten, for eksempel `20 x 20`
+  piksler.
 
-  ![](rod_disk.png)
+  ![Bilde av en liten rød fyllt disk i Scratch](rod_disk.png)
 
-- [ ] Vi kan lage mange røde disker ved å klone denne ene disken. Del koden din i to
-  deler, og endre den på denne måten:
+- [ ] Vi kan lage mange røde disker ved å klone denne ene disken. Del koden din
+  i to deler, og endre den på denne måten:
 
   ```blocks
   når grønt flagg klikkes
@@ -158,6 +160,7 @@ Nå skal vi prøve å få mange figurer til å gå i sirkel samtidig.
   Om du kjører programmet ditt igjen vil du se at alle diskene danser i takt.
   Hva liker du best?
 
+
 # Steg 4: Flagrende flagg {.activity}
 
 Vi skal nå se hvordan vi kan gjøre om denne kaotiske dansen til noe som ligner
@@ -165,8 +168,8 @@ på et flagrende flagg.
 
 ## Sjekkliste {.check}
 
-- [ ] I forrige steg klonet vi disker til tilfeldige steder. Nå skal vi legge dem ut
-  litt mer organisert. Skriv om skriptet som legger ut diskene dine slik:
+- [ ] I forrige steg klonet vi disker til tilfeldige steder. Nå skal vi legge
+  dem ut litt mer organisert. Skriv om skriptet som legger ut diskene dine slik:
 
   ```blocks
   når grønt flagg klikkes
@@ -196,12 +199,12 @@ på et flagrende flagg.
   slutt
   ```
 
-- [ ] Kjør programmet ditt. Du vil nå se et flagg bestående av mange røde disker som
-  beveger seg i sirkel. Men nå kommer det morsomme: Vi kan la de røde diskene
-  bevege seg litt i utakt!
+- [ ] Kjør programmet ditt. Du vil nå se et flagg bestående av mange røde disker
+  som beveger seg i sirkel. Men nå kommer det morsomme: Vi kan la de røde
+  diskene bevege seg litt i utakt!
 
-  Legg til klossen `vend høyre (1) grader`{.b} etter `lag klon av
-  [meg v]`{.b}-klossen, og prøv programmet ditt igjen. Hva har skjedd?
+  Legg til klossen `vend høyre (1) grader`{.b} etter `lag klon av [meg
+  v]`{.b}-klossen, og prøv programmet ditt igjen. Hva har skjedd?
 
 
 # Steg 5: Det norske flagget {.activity}
@@ -210,12 +213,12 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
 
 ## Sjekkliste {.check}
 
-- [ ] Tegn først to nye drakter, begge kopier av den røde disken. Den første skal
-  være en hvit disk mens den andre skal være en blå disk. Gi de tre diskfigurene
-  dine navnene `r`, `h` og `b` slik at navnet er første bokstaven i fargen på
-  disken: `r`ød, `h`vit og `b`lå.
+- [ ] Tegn først to nye drakter, begge kopier av den røde disken. Den første
+  skal være en hvit disk mens den andre skal være en blå disk. Gi de tre
+  diskfigurene dine navnene `r`, `h` og `b` slik at navnet er første bokstaven i
+  fargen på disken: `r`ød, `h`vit og `b`lå.
 
-  ![](tre_disker.png)
+  ![Bilde av en rød, hvit og blå disk i Scratch](tre_disker.png)
 
 - [ ] Vi skal nå bruke en ny variabel `(flagg)`{.b} som beskriver fargene i
   flagget. Lag variabelen _for alle figurer_ og legg deretter til koden:
@@ -255,15 +258,14 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
   rrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrr
   ```
 
-- [ ] En enklere måte å tegne flagg på er å si at vi vil at mønsteret skal gjenta
-  seg selv. Da trenger vi ikke skrive en bokstav for hver disk. Til dette kan vi
-  bruke `() mod ()`{.b}-klossen.
+- [ ] En enklere måte å tegne flagg på er å si at vi vil at mønsteret skal
+  gjenta seg selv. Da trenger vi ikke skrive en bokstav for hver disk. Til dette
+  kan vi bruke `() mod ()`{.b}-klossen.
 
   Bytt `(bokstav (nummer) i (flagg))`{.b} med `(bokstav ((nummer) mod (lengden
   av (flagg))) i (flagg))`{.b} i `bytt drakt til [ v]`{.b}-klossen. Om du prøver
   programmet igjen vil du se at flaggmønsteret gjentas (sett for eksempel
   `(flagg)`{.b} til `rhb` for å se dette).
-
 
 ## Prøv selv {.challenge}
 
@@ -274,6 +276,6 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
   animasjon. Prøv for eksempel med `vend høyre (25) grader`{.b} i klossen etter
   `lag klon av [meg v]`{.b}.
 
-- [ ] Du kan endre utseendet på flagget underveis. For eksempel om du bruker en `når
-  [ v] trykkes`{.b}-kloss kan du endre verdien av `(flagg)`{.b} basert på hvilke
-  taster som trykkes. Fargene i flagget vil da også oppdatere seg.
+- [ ] Du kan endre utseendet på flagget underveis. For eksempel om du bruker en
+  `når [ v] trykkes`{.b}-kloss kan du endre verdien av `(flagg)`{.b} basert på
+  hvilke taster som trykkes. Fargene i flagget vil da også oppdatere seg.

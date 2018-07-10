@@ -1,26 +1,43 @@
 ---
+<<<<<<< HEAD
 title: "Ellie og funksjoner"
+=======
+title: 'Elm repl og funksjoner'
+>>>>>>> master
 level: 2
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
+
 
 # Introduksjon {.intro}
 
+<<<<<<< HEAD
 Denne oppgaven innfører funksjoner, og viser hvordan vi kan skrive og teste funksjoner i Ellie.
+=======
+Denne oppgaven innfører funksjoner, og viser hvordan vi kan skrive og test
+funksjoner i `elm repl`.
+
+>>>>>>> master
 
 # Gjør deg kjent med Ellie {.activity}
 
 Ellie er et online utviklermilø for Elm. Her kan du programmere Elm, uten at du trenger å laste ned noe til pc'en din.
 Slik ser Ellie ut når du åpner den i en web browser:
 
+<<<<<<< HEAD
 ![](ellie.png)
 
 Nå skal vi gjøre oss kjent med Ellie.
+=======
+- [ ] Gå til [elm-lang.org/install](http://www.elm-lang.org/install) og last ned
+  installasjonsfil til ditt operativsystem
+  
+- [ ] Klikk deg gjennom installasjonen
+
+
+# Kommandolinjen {.protip}
+>>>>>>> master
 
 - [ ] Gå til [https://ellie-app.com](https://ellie-app.com)
   Dette vil starte Ellie i nettleseren, med et enkelt Elm kodeeksempel.
@@ -33,18 +50,44 @@ Du kan lagre prosjektene du jobber med i Ellie ved å klikke `Save`, eller `Fork
 Dette gir deg en unik link til den nåværende versjonen av prosjektet. Du må selv ta vare på linken for å kunne
 gå tilbake til prosjektet senere.
 
+<<<<<<< HEAD
 # Elm som en kalkulator {.activity}
+=======
+![Bilde av terminal i linux](terminal_linux.png)
+
+>>>>>>> master
 
 Elm kan brukes som en kalkulator. Vi kan regne ut et tall og vise tallet som en nettside. For å vise et enkelt tatt på en nettside:
 
+<<<<<<< HEAD
 ```elm
 module Main exposing (main)
 import Html exposing (Html, text)
+=======
+- [ ] Start kommandolinjen
+- [ ] Kjør `elm repl` fra kommandolinjen
+
+Prøv å gange sammen tall!
+
+
+# Les-tolk-skriv-løkke {.protip}
+
+REPL står for Read Eval Print Loop:
+
+1. Les (Read) hva som kommer inn
+2. Tolk (Eval) hva det betyr
+3. Skriv (Print) ut svaret
+4. ... og gjør klar for å kunne gjøre det på nytt (Loop)!
+>>>>>>> master
 
 main = text (toString (9001))
 ```
 
+<<<<<<< HEAD
 Elm kan også regne!
+=======
+![Animasjon av bruk av REPL i terminalen](repl_usage.gif)
+>>>>>>> master
 
 ```
 module Main exposing (main)
@@ -62,6 +105,7 @@ Siden Elm programmer kjører i en web side, må koden vår returnere noe som kan
 Skriver vi inn `1 + 2`, viser resultatet `3` på høyre side. I praksis er det en Html struktur vi har generert, med en text node som har verdien "3".
 
 - [ ] Regn ut 12345 * 6789 med Elm!
+
 - [ ] Hva sier Elm når du prøver å dele på 0?
 
 Vi bruker `=` til å binde en verdi til et symbol. Det kan vi gjøre i et `let` utrykk. Det består av to deler,
@@ -85,7 +129,9 @@ math =
 - [ ] Gå til [https://ellie-app.com/HFMtv2Gw2ma1](https://ellie-app.com/HFMtv2Gw2ma1) og kjør eksempelet.
 - [ ] Prøv med forskjellige utrykk og bindinger.
 - [ ] Sett `birthYear` til året du er født
+
 - [ ] Sett `currentYear` til året vi er i nå
+
 - [ ] Hva blir `currentYear - birthYear`? Er det det samme som alderen din?
   Hvorfor/hvorfor ikke?
 
@@ -109,10 +155,16 @@ double x = x * 2
 ```
 
 * `double` er funksjonsnavnet.
-* `x` er navnet på verdien som kommer inn i funksjonen. Dette er funksjonens *parameter*.
+* `x` er navnet på verdien som kommer inn i funksjonen. Dette er funksjonens
+  *parameter*.
 * `x * 2` er resultatet til funksjonen.
 
+<<<<<<< HEAD
 # Funksjoner i Ellie {.activity}
+=======
+
+# Funksjoner i elm repl {.activity}
+>>>>>>> master
 
 La oss lage funksjonen `double`:
 
@@ -159,6 +211,7 @@ Vi bruker funksjonen ved å skrive funksjonsnavnet (`double`) etterfulgt av
 argumentet. F.eks(`double 4`) for å kalle funksjonen med argumentet 4.
 
 - [ ] Hva er `double 123`?
+
 - [ ] Hva er `double 7`?
 
 `triple` er funksjonen som ganger med tre:
@@ -167,6 +220,7 @@ argumentet. F.eks(`double 4`) for å kalle funksjonen med argumentet 4.
 * `triple 100` → `300`
 
 - [ ] Lag `triple`!
+
 - [ ] Gir din `triple` det samme som min?
 
 # Parametere og argumenter {.protip}
@@ -176,7 +230,8 @@ double : number -> number
 double x = x * 2
 ```
 
-* En **parameter** er *navnet* vi gir verdiene som kommer inn funksjonen. `x` er en parameter.
+* En **parameter** er *navnet* vi gir verdiene som kommer inn funksjonen. `x` er
+  en parameter.
 
 ```elm
 double 15

@@ -1,20 +1,18 @@
 ---
-title: Pingviner på tur
+title: 'Pingviner på tur'
 level: 1
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [programming]
-    grade: [primary, secondary, junior]
 ---
+
 
 # Introduksjon {.intro}
 
 Velkommen til Scratch. Vi skal sammen lage et enkelt spill hvor pingvinene har
 rømt fra akvariet i Bergen, og det er din jobb å hjelpe dem hjem igjen.
 
-![](pingviner_pa_tur.png)
+![Bilde av pingviner på rømmen](pingviner_pa_tur.png)
+
 
 # Velkommen til Scratch {.activity}
 
@@ -42,6 +40,7 @@ fordi dette gjør det enklere å lagre spillene dine og dele dem med andre.
 
     Videre gir vi deg en oppskrift på hvordan du kan lage et enkelt spill hvor
     du skal hjelpe pingvinene å finne veien tilbake til akvariet i Bergen.
+
 
 # Steg 1: En pingvin på tur {.activity}
 
@@ -108,6 +107,7 @@ mellomrom. Det kan likevel være lurt å lagre selv også innimellom.
 
 - [ ] I menyen __Fil__ kan du velge __Lagre nå__ for å lagre prosjektet.
 
+
 # Steg 2: På kryss og tvers {.activity}
 
 _La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
@@ -161,12 +161,14 @@ __Klikk på det grønne flagget.__
 
 - [ ] Går pingvinen mer på kryss og tvers?
 
-- [ ] Starter pingvinen forskjellige steder på skjermen om du klikker på det grønne
-  flagget flere ganger?
+- [ ] Starter pingvinen forskjellige steder på skjermen om du klikker på det
+  grønne flagget flere ganger?
+
 
 # Steg 3: Bergen {.activity}
 
-_Pingvinen har rømt fra akvariet i Bergen, så da burde den jo springe rundt i Bergens gater._
+_Pingvinen har rømt fra akvariet i Bergen, så da burde den jo springe rundt i
+Bergens gater._
 
 ## Sjekkliste {.check}
 
@@ -176,20 +178,21 @@ _Pingvinen har rømt fra akvariet i Bergen, så da burde den jo springe rundt i 
     Alternativt kan du [lage ditt eget kart](../kart/kart.html) ved å gå til
     [denne siden](../kart/kart.html).
 
-- [ ] For å legge til en ny bakgrunn klikker du på
-  ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) under __Ny bakgrunn__
-  helt til venstre på siden. Velg deretter filen du nettopp lastet ned.
+- [ ] For å legge til en ny bakgrunn klikker du på ![Last opp bakgrunn fra
+  fil](../bilder/hent-fra-fil.png) under __Ny bakgrunn__ helt til venstre på
+  siden. Velg deretter filen du nettopp lastet ned.
 
-- [ ] La oss nå markere Akvariet i Bergen på kartet. Hent en ny figur ved å klikke
-  på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
-  figuren `Button5`, og plasser denne ytterst på Nordnes for å vise hvor
+- [ ] La oss nå markere Akvariet i Bergen på kartet. Hent en ny figur ved å
+  klikke på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png).
+  Velg figuren `Button5`, og plasser denne ytterst på Nordnes for å vise hvor
   Akvariet er.
 
-    ![](nordnes.png)
+    ![Bilde av Nordnes i Bergen med kryss på akvariet](nordnes.png)
 
 - [ ] Vi vil nå endre navn på akvariefiguren slik at vi enklere husker hva den
   er. Klikk på `i`{.blockmotion} øverst til venstre på akvariefiguren i
   figurlisten. Endre navnet fra `Button5` til `Akvariet`.
+
 
 # Steg 4: Hjelp pingvinen hjem {.activity}
 
@@ -230,6 +233,7 @@ skal da snu seg vekk fra der vi holder musepekeren før den går videre.
 __Klikk på det grønne flagget.__
 
 - [ ] Snur pingvinen seg vekk fra musepekeren om du klikker på kartet?
+
 
 # Steg 5: Pingvinen kommer hjem! {.activity}
 

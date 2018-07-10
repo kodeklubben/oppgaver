@@ -1,19 +1,15 @@
 ---
-title: "JS: Hei JavaScript!"
+title: 'JS: Hei JavaScript!'
 level: 1
-author: Arve Seljebu
+author: 'Arve Seljebu'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming]
-    grade: [junior, senior]
 ---
 
 # Introduksjon {.intro}
 I denne oppgaven blir du introdusert for programmeringsspråket JavaScript. Du
 skal gjøre den klassiske oppgaven *Hei verden*, med en katt.
 
-![](jsbin.png)
+![Bilde av en ASCII katt som sier "Mjau, Arve!" i konsollen](jsbin.png)
 
 # Steg 1: Bruke JS Bin {.activity}
 Du skal bruke en nettside som heter *JS Bin* for denne oppgaven. JS Bin er en
@@ -231,7 +227,7 @@ Det er også mulig å laste ned prosjektet og lagre det på datamaskinen. La oss
 - [ ] **Internet Explorer og Microsoft Edge:** Trykk på knappen **F12**. Velg **Konsoll**.
 - [ ] I konsollen skal du se katten mjaue til deg.
 
-  ![](konsoll.png)
+  ![Bilde av ASCII katten som mjauer til deg](konsoll.png)
 
   Hvis du ikke ser katten, gjør neste steg.
 

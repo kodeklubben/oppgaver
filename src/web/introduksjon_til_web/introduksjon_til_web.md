@@ -1,15 +1,11 @@
 ---
-title: "HTML: Introduksjon til Web"
+title: 'HTML: Introduksjon til Web'
 level: 1
 logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Arve Seljebu
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Arve Seljebu'
+license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)'
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming, technology]
-    grade: [junior, senior]
 ---
 
 
@@ -39,7 +35,7 @@ Hvilket program ble filen åpnet i denne gangen? Nettleseren er et spesielt prog
 Når du skriver en adresse inn i nettleseren din, blir forespørselen din sendt avgårde til en datamaskin som alltid står på og er innstilt for å la deg se nettsidene som lever inni den. Denne datamaskinen kalles en *server*. Når den mottar en forespørsel fra din datamaskin, ser den etter alle de nødvendige filene, som for eksempel `.html`-filen, og sender deg den sammen med alt det andre nettsiden trenger, for eksempel bilder og videoer.
 
 ### Kan jeg få denne siden takk?
-![](webdialog.png "Din datamaskin: 'Hei! Kan jeg få se http://kodeklubben.no, vær så snill?', En datamaskin som vet hvor forskjelligere nettsteder bor: 'Denne maskinen har filene', Datamaskin som filene til nettstedet er lagret på: 'Her er filene du trenger'")
+![Din datamaskin: 'Hei! Kan jeg få se http://kodeklubben.no, vær så snill?', En datamaskin som vet hvor forskjelligere nettsteder bor: 'Denne maskinen har filene', Datamaskin som filene til nettstedet er lagret på: 'Her er filene du trenger'](webdialog.png)
 
 
 # Steg 2: Hva er HTML? {.activity}

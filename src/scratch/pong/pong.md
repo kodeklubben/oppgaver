@@ -1,23 +1,19 @@
 ---
 title: Pong
 level: 4
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior]
 ---
+
 
 # Introduksjon {.intro}
 
-Pong er et av de aller første dataspillene som ble laget, og det
-første dataspillet som ble en kommersiell suksess. Selve spillet er en
-forenklet variant av tennis hvor to spillere slår en ball frem og
-tilbake. Hvis en av spillerne ikke klarer å returnere ballen får den
-andre spilleren poeng.
+Pong er et av de aller første dataspillene som ble laget, og det første
+dataspillet som ble en kommersiell suksess. Selve spillet er en forenklet
+variant av tennis hvor to spillere slår en ball frem og tilbake. Hvis en av
+spillerne ikke klarer å returnere ballen får den andre spilleren poeng.
 
-![](pong.png)
+!bakgrunnen[Illustrasjon av et ferdig poing spill](pong.png)
 
 # Oversikt over prosjektet {.activity}
 
@@ -118,7 +114,7 @@ eller når den berører spesielle farger.
   vil at ballen skal sprette (vi har brukt lyseblått) og der du vil gi
   poeng (vi har brukt mørkeblått).
 
-  ![](bakgrunn.png)
+  ![Bilde av bakgrunnen til Pong spillet](bakgrunn.png)
 
 - [ ] Om ballen treffer mål (mørkeblå) vil vi at den stopper, og
   etterhvert skal vi telle poeng. Dette kan vi gjøre ved å bytte ut

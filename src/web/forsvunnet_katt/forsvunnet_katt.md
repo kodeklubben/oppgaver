@@ -1,18 +1,14 @@
 ---
-title: "HTML: Forsvunnet katt"
+title: 'HTML: Forsvunnet katt'
 level: 2
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming, technology, norwegian]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
 
 Katten Felix har forsvunnet. Eieren hans har laget en plakat for å henge opp i nabolaget, men du innser at å lage en webside gjør at mange fler kan se den.
 
-![screenshot](missingcat.png)
+![Savnet plakat til katten Felix](missingcat.png)
 
 # Steg 1: Felix har forsvunnet! {.activity}
 
@@ -174,7 +170,7 @@ Og noen nøkkelord, separert med komma
 
 Siden vår vil nå se ca slik ut:
 
-![screenshot](screenshot_jsbin.png)
+![Bilde av hvordan siden ser ut i nettelseren så langt](screenshot_jsbin.png)
 
 Til venstre har vi HTML-koden og til høyre har vi hvordan nettleseren viser siden vår.
 

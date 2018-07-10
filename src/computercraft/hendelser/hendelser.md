@@ -1,12 +1,8 @@
 ---
 title: Hendelser
 level: 2
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [text_based, minecraft, game]
-    subject: [technology, programming]
-    grade: [secondary, junior, senior]
 ---
 
 # Introduksjon {.intro}
@@ -17,7 +13,7 @@ så videre. Etterhvert vil vi bli enda bedre kjent med datamaskinene,
 og lære hvordan vi flytter filer og programmer rundt omkring på en
 datamaskin eller mellom forskjellige datamaskiner.
 
-![](hendelser.png)
+![Illustrasjon av et ferdig skattejakt spill](hendelser.png)
 
 # Steg 1: Skattejakt {.activity}
 
@@ -272,7 +268,7 @@ har et par svakheter.
 Vi skal her se på et par triks for å gjøre passord-programmet litt
 tryggere.
 
-![](passord.png)
+![Bilde av en vegg med en dør og en datamaskin](passord.png)
 
 ## Sjekkliste {.check}
 
@@ -349,7 +345,7 @@ tryggere.
 Vi skal nå se hvordan vi kan bruke disketter og diskettstasjoner til å
 flytte filer mellom forskjellige datamaskiner.
 
-![](diskettstasjon.png)
+![Bilde av en datamaskin og en diskettstasjon](diskettstasjon.png)
 
 ## Sjekkliste {.check}
 
@@ -452,7 +448,7 @@ representerer de forskjellige datamaskinene i spillet ditt. Du vil
 også se en katalog som heter disk, som også har nummererte kataloger
 inne i seg. Disse representerer diskettene i spillet ditt.
 
-![](tekstprogram.png)
+![Bilde av hvordan skrive kode utenfor minecraft](tekstprogram.png)
 
 ## Sjekkliste {.check}
 
