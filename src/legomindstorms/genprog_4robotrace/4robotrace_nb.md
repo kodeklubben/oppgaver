@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 1.4 - Robotrace {.intro}
+#  Robotrace {.intro}
 
 I denne oppgaven skal en konstruere og programmere en robot som raskest mulig kjører fra start til
 mål. Banen er fem meter lang, og en starter felles. Små endringer på roboten kan være det som gjør

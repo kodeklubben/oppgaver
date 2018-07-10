@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 4.3 – Svart strek {.intro}
+# Svart strek {.intro}
 
 
 I denne oppgaven skal vi konstruere og programmere roboten til å kjøre fram og

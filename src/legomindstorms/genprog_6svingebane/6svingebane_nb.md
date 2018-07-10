@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 1.6 – Svingete bane {.intro}
+# Svingete bane {.intro}
 
 I denne oppgaven skal vi programmere roboten til å kjøre en gitt bane som
 inneholder ulike svinger. De voksne har bygget en bane på gulvet/bordet enten

@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 3.6 – Slå en ball {.intro}
+# Slå en ball {.intro}
 
 I denne oppgaven skal vi få roboten til å slå en ball. I første del av oppgaven
 skal roboten stå stille, og ballen trilles mot roboten. Når den er nærme nok,

@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 4.2 – fargekoder {.intro}
+# fargekoder {.intro}
 
 I denne oppgaven skal vi finne ut hvordan lys og fargesensoren registrerer de
 ulike fargene. Fargesensoren kan registrere sju ulike farger. Den har ulike

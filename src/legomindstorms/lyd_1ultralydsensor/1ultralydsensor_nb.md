@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 3.1 – Ultralydsensor {.intro}
+# Ultralydsensor {.intro}
 
 I disse oppgavene skal vi ta i bruk ultralydsensoren, og lære å bruke
 ultralydsensoren til å måle avstander til objekter. Deretter kan vi få roboten

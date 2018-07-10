@@ -24,7 +24,7 @@ linjene på bordet.
 I disse oppgavene skal vi konstruere og programmere roboten for å finne de ulike
 fargene den kan lese, og se hvordan den skiller mellom hvit og svart.
 
-# Oppgave 4.1 - Lysintensitet {.activity}
+#  Lysintensitet {.activity}
 
 ## Fremgangsmåte {.check}
 

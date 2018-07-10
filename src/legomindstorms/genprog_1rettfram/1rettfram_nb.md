@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 1.1 – Kjøre rett fram {.intro}
+# Kjøre rett fram {.intro}
 
 I denne oppgaven skal vi gjøre noe så enkelt, men viktig som å kjøre rett fram
 ved å bruke begge motorene. Vi skal teste ut ulike egenskaper til objektet «Kjør

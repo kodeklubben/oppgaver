@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 1.2 – Sving ved hjelp av en motor {.intro}
+# Sving ved hjelp av en motor {.intro}
 
 I denne oppgaven skal vi programmere roboten til først å kjøre ved å bruke
 vekselsvis venstre og høyre motor. Roboten vi da svinge, og det kreves mye

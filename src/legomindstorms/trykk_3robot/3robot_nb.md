@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 2.3 – Gal robot {.intro}
+# Gal robot {.intro}
 
 I denne oppgaven skal vi lage en gal robot, en robot som gjør litt akkurat som den vil. Vi skal koble til
 en trykksensor som endrer retning og fart hver gang vi aktiverer trykksensoren.

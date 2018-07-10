@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 2.2 – Enkel fjernkontroll {.intro}
+# Enkel fjernkontroll {.intro}
 
 I denne oppgaven, skal vi lage en enkel fjernkontroll til roboten. Når
 trykksensoren aktiveres skal den utføre ulike oppgaver, alt etter hvor langt i

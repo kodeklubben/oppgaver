@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 3.3 - Hinderløype {.intro}
+#  Hinderløype {.intro}
 
 I denne oppgaven, skal vi konstruere og programmere roboten slik at den ved
 hjelp av ultralydsensor klarer å bevege seg gjennom en bane med vegger. Her

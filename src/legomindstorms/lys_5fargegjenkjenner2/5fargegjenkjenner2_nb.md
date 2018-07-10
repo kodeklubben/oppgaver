@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 4.5 – Fargegjenkjenner 2 {.intro}
+# Fargegjenkjenner 2 {.intro}
 
 I denne oppgaven skal vi konstruere og programmere roboten til å velge en
 tilfeldig farge. Deretter kjøre fram til en løkke, finne ut hvilken farge den

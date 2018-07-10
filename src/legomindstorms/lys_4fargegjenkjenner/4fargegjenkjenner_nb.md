@@ -6,7 +6,7 @@ translator: 'Øistein Søvik'
 language: nb
 ---
 
-# Oppgave 4.4 - Fargegjenkjenner {.intro}
+#  Fargegjenkjenner {.intro}
 
 I denne oppgaven skal vi konstruere og programmere roboten til å fortelle
 hvilken farge klossene du holder fram har. Den skal både skrive fargen i

@@ -8,7 +8,7 @@ language: nb
 
 
 
-# Oppgave 3.5 - Innbruddsalarm {.intro}
+#  Innbruddsalarm {.intro}
 
 Veldig mange hus i Norge har de siste årene fått innbruddsalarmer. De finnes i
 flere varianter, og brukes på ulike steder. Det finnes for eksempel

@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 1.3 – Tur - retur {.intro}
+# Tur - retur {.intro}
 
 I denne oppgaven skal vi bruke standard robotoppsett, og kjøre en liten tur –
 retur. Det må brukes flere objekter i rekkefølge for at det skal fungere, og vi

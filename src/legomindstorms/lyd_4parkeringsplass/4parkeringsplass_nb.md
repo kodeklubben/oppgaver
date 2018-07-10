@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 3.4 – Parkeringsplass {.intro}
+# Parkeringsplass {.intro}
 
 De aller fleste moderne bilder, har en fantastisk nyvinning som kalles
 ryggesensor. Ryggesensoren er en ultralydsensor plassert flere steder bak på

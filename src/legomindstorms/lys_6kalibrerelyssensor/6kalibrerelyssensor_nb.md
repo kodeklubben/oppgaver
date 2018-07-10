@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 4.6 - Kalibrere lyssensor {.intro}
+#  Kalibrere lyssensor {.intro}
 
 Vi skal lage et kalibreringsprogram for lyssensoren siden vi kan anta at lyset
 på konkurransebordet er forskjellig fra det lyset som finnes på øvingsbordene

@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 2.4 – Radiostyrt bil {.intro}
+# Radiostyrt bil {.intro}
 
 I denne oppgaven skal vi konstruere og programmere roboten slik at den oppfører seg som en
 radiostyrt bil. Vi skal koble til to trykksensorer, som hver styrer sin egen motor. Dermed kan vi kjøre

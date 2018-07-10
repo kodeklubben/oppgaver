@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 1.7 – Kvadrat og rektangel {.intro}
+# Kvadrat og rektangel {.intro}
 
 I denne oppgaven skal vi programmere roboten til å kjøre et kvadrat og et
 rektangel ved hjelp av løkker. Løkker er veldig lurt å bruke, når vi skal gjenta

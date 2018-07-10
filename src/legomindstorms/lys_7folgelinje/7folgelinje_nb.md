@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 4.7 – Følge en svart linje – versjon 1 {.intro}
+# Følge en svart linje – versjon 1 {.intro}
 
 På et bord i en FLL konkurranse er det mange svarte linjer. Disse svarte linjene
 er laget for å blant annet å hjelpe robotene til å finne fram på bordet. En kan

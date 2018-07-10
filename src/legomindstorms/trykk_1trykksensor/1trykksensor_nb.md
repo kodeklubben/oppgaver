@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 2.1 - Trykksensor {.intro}
+#  Trykksensor {.intro}
 
 I denne oppgaven skal vi ta i bruk en sensor. Den første vi skal ta i bruk er
 trykksensoren. Trykkesensoren registrerer eventuelle trykk mot den røde

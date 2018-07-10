@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 1.5 – Klatring {.intro}
+# Klatring {.intro}
 
 Hvor sterke er motorene i Lego Mindstorms robotene? I denne oppgaven skal vi se
 hvor bratt bakke EV3 roboten klarer å kjøre med og uten last. Til dette trenger

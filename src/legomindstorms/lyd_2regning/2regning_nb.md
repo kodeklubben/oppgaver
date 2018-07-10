@@ -7,7 +7,7 @@ language: nb
 ---
 
 
-# Oppgave 3.2 – Ultralydsensor og litt regning {.intro}
+# Ultralydsensor og litt regning {.intro}
 
 I denne oppgaven skal vi programmere roboten slik at den gjennom å bruke
 ultralydsensor stopper en gitt avstand fra et objekt, rygger tilbake en ny
