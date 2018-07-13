@@ -11,7 +11,7 @@ I dette prosjektet skal elevene lage en animasjon av en firkant som faller
 nedover på skjermen. Dette er starten på en enkel versjon av det klassiske
 spillet tetris.
 
-![](preview.png)
+![Bilde av starten på ditt eget tetris spill](preview.png)
 
 ## Oppgaven passer til: {.check}
 
@@ -81,3 +81,4 @@ _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 - [ ] Se denne
       [YouTube-videoen](https://www.youtube.com/watch?v=yTCTxdBKoSQ){target=_blank}
       av et tetrisspill på Facebook.
+

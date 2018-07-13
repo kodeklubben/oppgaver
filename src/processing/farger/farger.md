@@ -208,7 +208,8 @@ være lurt å bruke fargevelgeren som finnes i Processing.
 
 - [ ] Åpne fargevelgeren ved å velge **Tools → Color Selector**
 
-  ![](Fargevelger.png "Fargevelgeren slik den er når den først åpnes.")
+  ![Fargevelgeren slik den er når den først åpnes.](Fargevelger.png
+  "Fargevelgeren slik den er når den først åpnes.")
 
   Du får da opp et vindu som lar deg velge farger. Her kan du fylle inn
   tallverdiene som vi har sett tidligere, R, G og B. Det er også noen andre

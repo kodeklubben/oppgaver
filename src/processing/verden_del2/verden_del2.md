@@ -191,6 +191,7 @@ if(er musepekeren innenfor den første grensa && er musepekeren innenfor den and
     vis teksten "AFRIKA" i vinduet.
 }
 ```
+
 - [ ] Test at koden fungerer som den skal.
 
 - [ ] Skriv `&&` og legg til testen for den tredje grensa til Afrika i samme
@@ -217,7 +218,9 @@ samme som skal gjøres, bare med nye koordinater på grensene.
 ## Gjør dette: {.check}
 
 - [ ] Lag en ny `if`-setning som sjekker grensene til den nye firkanten. Her er
-bildet: ![](mapAfrika.png)
+      bildet:
+
+![Bilde av verdenskartet og Afrika](mapAfrika.png)
 
 Her er koden vår så langt. Nå begynner det å bli en del `if`-setninger!
 
