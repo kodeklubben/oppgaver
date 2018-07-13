@@ -33,6 +33,7 @@ void setup(){
 
 }
 ```
+
 ## Gjør dette: {.check}
 
 - [ ] Skriv `draw`-metoden under `setup`-metoden.
@@ -245,7 +246,7 @@ Noe som er vanlig å sjekke i en `if`-setning er om man har trykka på en spesie
 knapp, eller om datamusa er innenfor et bestemt område. Eller man kan sjekke
 hvor mange liv man har igjen, og dersom det er 0 så kan man skrive "GAME OVER".
 
-#
+
 Når vi skriver if-setningen vår med ord blir det slik:
 
 ```processing
