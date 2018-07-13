@@ -3,6 +3,7 @@ title: Lærerveiledning - 7-Segment Display
 language: nb
 ---
 
+
 # Informasjon til veiledere
 
 ## Læringsmål
@@ -193,3 +194,4 @@ void loop() {
   }
 }
 ```
+

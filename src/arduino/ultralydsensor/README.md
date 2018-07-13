@@ -3,6 +3,7 @@ title: Lærerveiledning - Ultralydsensor
 language: nb
 ---
 
+
 # Informasjon til veiledere
 
 ## Læringsmål
