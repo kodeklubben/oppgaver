@@ -23,6 +23,7 @@ nettleseren! La oss ta en titt.
 
 - [ ] Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller
   Firefox
+  
 - [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
 
   ![Bilde av kodeklubbens nettsider med katten høyreklikket](inspiser_katten.png)
@@ -41,8 +42,8 @@ nettleseren! La oss ta en titt.
   <img src="scratch/logo-black.png">
   ```
 
-- [ ] Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren over
-  filnavnet. Ser du filen dukker opp?
+- [ ] Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren
+  over filnavnet. Ser du filen dukker opp?
 
 - [ ] Inspiser slangen. Hva er filnavnet til slangen? Ser du det samme som meg?
 
@@ -106,8 +107,8 @@ gjøre noe med det. Vi fjerner alt som er foran!
   </a>
   ```
 
-- [ ] Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som er
-  inni linken!
+- [ ] Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som
+  er inni linken!
 
   ![Viser hva som er inneholdt i <a> taggen](liten_a.png)
 
@@ -181,3 +182,4 @@ på **alle kursene**!
 Gratulerer! Du er har kommet ett skritt på vei til å bli webutvikler!
 
 ![Bilde av en schnauzer med briller som leser en bok](schnauzer_web_developer.jpg)
+
