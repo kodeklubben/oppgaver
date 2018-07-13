@@ -270,6 +270,7 @@ satt av plassen slik at det er ledig når vi begynner å bruke det.
 Når vi skal lage en variabel i Processing, så må vi si hvilken datatype
 variabelen skal inneholde. Eksempler på datatyper kan være `int` for heltall,
 `float` for desimaltall, eller `String` for tekst.
+
 ###
 
 Vi starter med å sette av plass i minnet, det heter å deklarere, eller opprette
