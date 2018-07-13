@@ -15,7 +15,7 @@ hverandre. Andre leksjon utvider kartet ved å lage en bakgrunn som flytter seg.
 Tredje leksjon handler om å lage en liste som holder oversikt over alle stedene
 vi kan besøke.
 
-![](hvor_i_all_verden_1.png)
+![Illustrasjon av et enkelt Hvor-i-All-Verden spill](hvor_i_all_verden_1.png)
 
 ## Oppgaven passer til: {.check}
 
@@ -90,7 +90,7 @@ undervisningsopplegg over lengre tid.
       dette er gitt i steg 1 av oppgaven, ellers kan du gjøre følgende bildefil
       tilgjengelig for elevene:
 
-![](europakart.png)
+![Bilde av et kart over Europa](europakart.png)
 
 ## Fremgangsmåte
 

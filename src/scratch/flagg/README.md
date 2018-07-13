@@ -15,7 +15,7 @@ Flagg ble opprinnelig skrevet av Sverre Oskar Konestabo som et bidrag til
 programmeringskonkurransen som ble avholdt for barn som deltok på Kodeklubben
 Blindern våren 2016.
 
-![](flagg.png)
+![Bilde av Norges flagg som vaier i vind](flagg.png)
 
 ## Oppgaven passer til: {.check}
 

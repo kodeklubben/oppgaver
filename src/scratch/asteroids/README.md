@@ -15,7 +15,7 @@ gjenbruke mye av teknologien. Vi skal gjøre det samme! Du må derfor ha laget
 prosjektet. I Asteroids er målet å beskytte romskipet mot asteroider ved å skyte
 dem i småbiter.
 
-![](asteroids.png)
+![Illustrasjon av et ferdig astroide spill](asteroids.png)
 
 ## Oppgaven passer til: {.check}
 
@@ -111,3 +111,4 @@ oppgaven enda._
 
 - [ ] Se video av det originale Asteroids-spillet på
       [YouTube](https://www.youtube.com/watch?v=cZfsnA7dAHI).
+
