@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 title: "Ellie og funksjoner"
-=======
-title: 'Elm repl og funksjoner'
->>>>>>> master
 level: 2
 author: 'Teodor Heggelund'
 language: nb
@@ -12,32 +8,16 @@ language: nb
 
 # Introduksjon {.intro}
 
-<<<<<<< HEAD
 Denne oppgaven innfører funksjoner, og viser hvordan vi kan skrive og teste funksjoner i Ellie.
-=======
-Denne oppgaven innfører funksjoner, og viser hvordan vi kan skrive og test
-funksjoner i `elm repl`.
-
->>>>>>> master
 
 # Gjør deg kjent med Ellie {.activity}
 
 Ellie er et online utviklermilø for Elm. Her kan du programmere Elm, uten at du trenger å laste ned noe til pc'en din.
 Slik ser Ellie ut når du åpner den i en web browser:
 
-<<<<<<< HEAD
 ![](ellie.png)
 
 Nå skal vi gjøre oss kjent med Ellie.
-=======
-- [ ] Gå til [elm-lang.org/install](http://www.elm-lang.org/install) og last ned
-  installasjonsfil til ditt operativsystem
-  
-- [ ] Klikk deg gjennom installasjonen
-
-
-# Kommandolinjen {.protip}
->>>>>>> master
 
 - [ ] Gå til [https://ellie-app.com](https://ellie-app.com)
   Dette vil starte Ellie i nettleseren, med et enkelt Elm kodeeksempel.
@@ -50,44 +30,18 @@ Du kan lagre prosjektene du jobber med i Ellie ved å klikke `Save`, eller `Fork
 Dette gir deg en unik link til den nåværende versjonen av prosjektet. Du må selv ta vare på linken for å kunne
 gå tilbake til prosjektet senere.
 
-<<<<<<< HEAD
 # Elm som en kalkulator {.activity}
-=======
-![Bilde av terminal i linux](terminal_linux.png)
-
->>>>>>> master
 
 Elm kan brukes som en kalkulator. Vi kan regne ut et tall og vise tallet som en nettside. For å vise et enkelt tatt på en nettside:
 
-<<<<<<< HEAD
 ```elm
 module Main exposing (main)
 import Html exposing (Html, text)
-=======
-- [ ] Start kommandolinjen
-- [ ] Kjør `elm repl` fra kommandolinjen
-
-Prøv å gange sammen tall!
-
-
-# Les-tolk-skriv-løkke {.protip}
-
-REPL står for Read Eval Print Loop:
-
-1. Les (Read) hva som kommer inn
-2. Tolk (Eval) hva det betyr
-3. Skriv (Print) ut svaret
-4. ... og gjør klar for å kunne gjøre det på nytt (Loop)!
->>>>>>> master
 
 main = text (toString (9001))
 ```
 
-<<<<<<< HEAD
 Elm kan også regne!
-=======
-![Animasjon av bruk av REPL i terminalen](repl_usage.gif)
->>>>>>> master
 
 ```
 module Main exposing (main)
@@ -159,12 +113,7 @@ double x = x * 2
   *parameter*.
 * `x * 2` er resultatet til funksjonen.
 
-<<<<<<< HEAD
 # Funksjoner i Ellie {.activity}
-=======
-
-# Funksjoner i elm repl {.activity}
->>>>>>> master
 
 La oss lage funksjonen `double`:
 
