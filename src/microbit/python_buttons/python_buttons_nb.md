@@ -40,6 +40,7 @@ interessante nye idéer.
 1. `sleep` *funksjonen* får micro:bit'ten til å vente et gitt antall
    milliseukunder. *Dersom du ønsker å pause programmet ditt, er dette hvordan
    det gjøres*.
+
 2. Det er et objekt `button_a` som tillater deg å hente ut antall ganger den har
    blitt aktivert via `get_presses` metoden.
    
@@ -145,7 +146,6 @@ vil være usann (`running_time` er ikke lengre `< 10000`). I det tilfellet er
 løkka ferdig, og programmet vil fortsette under `while`-løkka sin kodeblokk.
 
 
-
 # Håndtering av løkker {.activity}
 
 Dersom vi ønsker MicroPython til å reagere på et knappetrykk bør vi plassere den
@@ -204,7 +204,6 @@ smilende ansikt, dersom B trykkes vis en hodeskalle i 1 sekund og bryt deretter
 løkka, ellers vis en trist ansikt". Vi bryter ut av løkka (stopp programmet fra
 å kjøre for alltid og alltid) ved å bruke `break`.
 
-
 ## Lag spillet mindre tragisk {.challenge}
 
 Kan du tenke på måter å gjøre spillet mindre tragisk på? Hvordan kan du sjekke
@@ -215,5 +214,7 @@ Hint: Python har `and`, `or` og `not` logiske operatorer for å sjekke flere
 logiske påstander samtidig (ting som enten er `True` eller `False`).
 
 <!--A little workaround to avoid checklist being a part of protip-->
+
+
 # {.check}
 

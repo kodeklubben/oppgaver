@@ -44,8 +44,8 @@ oppgaven.*
 - [ ] Koble usb-kabelen til micro:biten og en usb-port på datamaskinen.
 
 - [ ] Koble den ene krokodilleklemmen til porten hvor det står GND på
-	  micro:biten. Den andre enden kobler du til innerst på stikket til
-	  hodetelefonene/høytaleren.
+    micro:biten. Den andre enden kobler du til innerst på stikket til
+    hodetelefonene/høytaleren.
 
 - [ ] Koble den andre krokodilleklemmen til porten hvor det står 0 på
       micro:biten. Den andre enden kobler du til ytterst på stikket til
@@ -72,17 +72,17 @@ hvordan feste klemmene på høytaleren](kobling_hoytaler.png){ width=45% }
   kode som er laget av noen andre for å spille av musikk. Skriv inn følgende
   kode i editoren:
 
-	```python
-	from music import *
-	```
+  ```python
+  from music import *
+  ```
 
 - [ ] For å teste at alt funker som det skal så prøver vi å spille av en
   innebygget meldodi, som har navn *NYAN*. Denne melodien kan vi spille av ved å
   bruke en funkson som heter _play()_. Legg til kodesnutten:
 
-	```python
-	play(NYAN)
-	```
+  ```python
+  play(NYAN)
+  ```
 
 - [ ] Til slutt må vi overføre programmet vårt over til micro:biten. Trykk på
   **Download** i menyen, da lastes programmet ned til datamaskinen din. Så
@@ -112,9 +112,9 @@ skal vi gjøre nå.*
 - [ ] Så lager vi en ny variabel som heter *tone* og setter den lik en tom
   liste. Skriv inn følgende kodelinje:
 
-	```python
-	tone = []
-	```
+  ```python
+  tone = []
+  ```
 
 - [ ] Når vi oppretter toner så har de en viss form. Tonene er en tekststreng,
   og består av tre ulike deler. Først har vi en note, så en oktav og så lengden
@@ -126,15 +126,16 @@ skal vi gjøre nå.*
 
 - [ ] Endre kodesnutten din til å inkludere en tone, for eksempel slik:
 
-	```python
-	tone = ["C4:4"]
-	```
+  ```python
+  tone = ["C4:4"]
+  ```
+
 - [ ] For å spille av tonen vår så må vi igjen bruke _play_. Legg til denne
       kodelinjen nederst:
 
-	```python
-	play(tone)
-	```
+  ```python
+  play(tone)
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -150,15 +151,15 @@ skal vi gjøre nå.*
 - [ ] Erstatt variabelen *tone* med *melodi*, og spill av. Da ser koden din slik
       ut:
 
-	```python
-	from music import *
+  ```python
+  from music import *
 
-	melodi = ["C4:4", "C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D", "C:8",
-	"G:4", "G", "F", "F", "E", "E", "D:8", "G:4", "G", "F", "F", "E", "E", "D:8", "C4:4",
-	"C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D","C:8"]
+  melodi = ["C4:4", "C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D", "C:8",
+  "G:4", "G", "F", "F", "E", "E", "D:8", "G:4", "G", "F", "F", "E", "E", "D:8", "C4:4",
+  "C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D","C:8"]
 
-	play(melodi)
-	```
+  play(melodi)
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -175,25 +176,25 @@ Vi legger til en knapp for å styre musikken.*
 - [ ] Først må vi importere enda et bibliotek. Legg til følgende linje helt
   øverst:
 
-	``` python
-	from microbit import *
-	```
+  ``` python
+  from microbit import *
+  ```
 
 - [ ] Så legger vi til en løkke som kjøres for alltid, også sjekker vi om knapp
   **A** er trykket. Da ser programmet ditt slik ut:
 
-	``` python
-	from microbit import *
-	from music import*
+  ``` python
+  from microbit import *
+  from music import*
 
-	melodi = ["C4:4", "C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D", "C:8",
-	"G:4", "G", "F", "F", "E", "E", "D:8", "G:4", "G", "F", "F", "E", "E", "D:8", "C4:4",
-	"C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D","C:8"]
+  melodi = ["C4:4", "C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D", "C:8",
+  "G:4", "G", "F", "F", "E", "E", "D:8", "G:4", "G", "F", "F", "E", "E", "D:8", "C4:4",
+  "C", "G", "G", "A", "A", "G:8", "F:4", "F", "E", "E", "D", "D","C:8"]
 
-	while True:
-	  if button_a.is_pressed():
-		  play(melodi)  
-	```
+  while True:
+    if button_a.is_pressed():
+      play(melodi)  
+  ```
 
 ## Test prosjektet {.flag}
 

@@ -80,8 +80,7 @@ __Tidsbruk__: Dobbelttime
        starte rett på.
 
 - [ ] __Utstyr__: Datamaskin med tilgang til Internett, micro:bit og
-       micro-usb-kabel.
-
+      micro-usb-kabel.
 
 ## Fremgangsmåte
 

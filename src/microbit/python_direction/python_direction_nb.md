@@ -62,6 +62,7 @@ compass.calibrate()
 while True:
     display.scroll(str(compass.calibrate()))
 ```
+
 - [ ] Hvilken verdi viser koden ovenfor når du står i de fire himmelretningene?
       Bruk denne informasjonen til å bestemme hva `compass.calibrate()` gjør.
 
