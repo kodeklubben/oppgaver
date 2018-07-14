@@ -35,19 +35,19 @@ nc='\033[0m' # No color
 # fi
 
 # Check that you use SPACE instead of TAB
-# if pcregrep -nHorM --include='.*\.md' '\t' ./src; then
-#     printf "\nPlease use SPACE instead of TAB: ${red_bold}\$\$${nc}.\n\n"
-#     found=true
-# fi
-
-# Check that every file ends with a blank line
-if pcregrep -nHorML --include='.*\.md' '\n\Z' ./src; then
-    printf "\nThe file must end with a blank line: ${red_bold}\$\$${nc}.\n\n"
+if pcregrep -nHorM --include='.*\.md' '\t' ./src/appinventor; then
+    printf "\nPlease use SPACE instead of TAB: ${red_bold}\$\$${nc}.\n\n"
     found=true
 fi
 
+# Check that every file ends with a blank line
+# if pcregrep -nHorML --include='.*\.md' '\n\Z' ./src/appinventor; then
+#     printf "\nThe file must end with a blank line: ${red_bold}\$\$${nc}.\n\n"
+#     found=true
+# fi
+
 # Finds every line longer than 100 characters
-# if grep -rn --color=auto --include=\*.md '.\{158,\}' ./src |cut -f1,2 -d:; then
+# if grep -rn --color=auto --include=\*.md '.\{158,\}' ./src/appinventor |cut -f1,2 -d:; then
 #     printf "\nThe recommended line length is 79 characters: ${red_bold}\$\$${nc}.\n\n"
 # fi
 
