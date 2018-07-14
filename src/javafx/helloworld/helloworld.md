@@ -193,7 +193,7 @@ public class HelloWorldApp extends Application {
       og `setPrefHeight(...)`):
 
   * Skriv inn en annen tekst, f.eks. navnet ditt.
-  
+
   * Endre posisjonen slik at teksten kommer lenger ned og til høyre ved å øke
     `layoutX`- og `layoutY`-verdiene.
 
@@ -211,9 +211,9 @@ public class HelloWorldApp extends Application {
 - [ ] Legg merke til at det er ulike måter å sette ulike verdier på:
 
   * Teksten settes direkte når en lager **Text**-objektet med `new Text(...)`
-  
+
   * De fleste verdier settes med egen metoder som begynner med `set`
-  
+
   * Skriftstypen settes også når den lages, men den lages med funksjonen
     (`Font.font(...)`) og ikke med `new Font(...)`.
 

@@ -197,7 +197,7 @@ FXML som lagringsformat.
   laget og redigert grafikken:
 
   * Du kan raskt lage en kopi (duplisere) et element med `Edit > Duplicate`
-  
+
   * Du kan runde av hjørnene på et rektangel ved å endre **Arc Height** og **Arc
     Width**
 
