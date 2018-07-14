@@ -79,11 +79,11 @@ Du kan tenke på det som en gjentagende `if`-test.
 + Som vi ser av koden starter `led` med verdien 9. Siden 9 er mindre en 11 er
   uttrykket sant, og vi kjører koden inne i løkka. På slutten av løkka skriver
   vi `++led`, som øker verdien av `led` til 10.
-  
+
 + Deretter sjekker vi igjen om `led <= 11`. Siden 10 er mindre enn 11 går vi inn
   i løkka igjen, og kjører koden igjen. På slutten av løkka økes `led` på nytt,
   denne gangen til 11.
-  
+
 + Når vi så tester `led <= 11` er `led` lik 11, som gjør at vi kjører koden enda
   en gang. På slutten av løkka øker vi nå `led` til 12.
 
@@ -158,6 +158,6 @@ Skriv inn koden og se selv hva den gjør.
 
 - [ ] Kan du få lysdioden til å først øke så senke fargeintensiteten før den
   bytter farge? (`++i` øker i med 1, `--i` minker i med 1)
-  
+
 - [ ] Kan du få lysdioden til å sykle gjennom alle fargekombinasjonene? (blå,
  grønn, blå + grønn, rød, rød + blå, rød + grønn, rød + blå + grønn)

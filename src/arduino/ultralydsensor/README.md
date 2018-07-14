@@ -11,6 +11,7 @@ language: nb
 Oppgaven «Ultralydsensor» introduserer flere konsepter:
 
 + Bruk av ultralydsensor
+
 + Seriellkonsoll
 
 

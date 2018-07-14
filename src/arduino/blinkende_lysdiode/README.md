@@ -6,24 +6,34 @@ language: nb
 
 # Informasjon til veiledere
 
-
 ## Læringsmål
 
 Oppgaven «Blinkende lysdiode» introduserer flere konsepter:
 
 + Hvordan laste opp programmer til Arduino.
+
 + Enkel programmering mot Arduino.
+
   + Grunnleggende kodeelementer på Arduino; ``setup()``, ``loop()`` og
   ``delay()``.
+
   + Grunnleggende programmeringskonsepter; Variabler, funksjonskall,
     kontrollflyt.
+
   + Sette verdi på digitale pinner.
+
   + Lese verdi fra digitale pinner.
+
 + Hvordan koble enkle kretser.
+
   + Bruk av jord og sluttede kretser, herunder felles jording.
+
   + Enkle elektroniske komponenter.
+
     + Diode
+
     + Knapp
+
     + Motstand
 
 
@@ -128,5 +138,7 @@ void loop() {
 # Installasjonsinstruksjoner
 
 + [Windows](https://arduino.cc/en/Guide/Windows)
+
 + [Mac OS X](https://arduino.cc/en/Guide/MacOSX)
+
 + [Linux](https://arduino.cc/en/Guide/Linux)

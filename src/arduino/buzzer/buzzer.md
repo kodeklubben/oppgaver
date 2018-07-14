@@ -107,7 +107,7 @@ __port__ og/eller __brett__. Da kan du sjekke disse to tingene:
   + Windows: __Tools -> Port -> COM1__ (kan være et annet tall)
 
   ![Bilde av hvordan velge riktig port](port.png)
-    
+
   + Mac: __Tools -> Port ->/dev/tty.usbmodem262471__ (kan være et annet tall)
 
 Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
