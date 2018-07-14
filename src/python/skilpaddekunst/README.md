@@ -9,6 +9,7 @@ language: nb
 
 I denne oppgaven skal vi utforske if-setninger og tegne ulike geometriske
 figurer ved hjelp av `turtle`-biblioteket.
+
 ## Oppgaven passer til: {.check}
 
  __Fag__: Matematikk, Kunst og håndtverk

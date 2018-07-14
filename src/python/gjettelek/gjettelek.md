@@ -18,13 +18,14 @@ Spillet er som følger:
 2. Brukeren gjetter et tall mellom 1 og 100.
 
 3. Programmet skriver ut:
+
   * `Higher!` hvis tallet var for lavt.
 
   * `Lower!` hvis tallet var for høyt.
 
   * Hvis brukeren gjetter riktig tall skal programmet skrive ut `Correct!` og
     avslutte.
-  
+
 4. Så lenge brukeren ikke har gjettet tallet, så må programmet spørre om et nytt
    tall (brukeren har uendelig mange forsøk).
 
@@ -44,12 +45,16 @@ før du begynner å programmere! Her er noen hint for å hjelpe deg på vei:
 For å generere tilfelige tall kan det være lurt å bruke funksjonen `randint()`.
 For å bruke `randint()`, må vi importere funksjonen:
 
-```python from random import randint ```
+```python 
+from random import randint
+```
 
 Hva gjør disse funksjonskallene?
 
 * `randint(1, 100)`
+
 * `randint(1000, 1000000)`
+
 * `randint(101, 102)`
 
 ## int() {.protip}
@@ -61,7 +66,9 @@ av `int()`.
 Hva er forskjellen på disse kodesnuttene? (Kjør koden og test selv!) ```python
 tall = input("Skriv et tall: ") svar = 3 + tall print(svar) ```
 
-```python tall = int(input("Skriv et tall: ")) svar = 3 + tall print(svar) ```
+```python 
+tall = int(input("Skriv et tall: ")) svar = 3 + tall print(svar) 
+```
 
 ## Kontrollstrukturer {.protip}
 
@@ -109,4 +116,3 @@ Eksempel på kontrollstrukturer er `for`-løkker, `while`-løkker og
 
 - [ ] Til nå har brukeren hatt uendelig mange forsøk. Klarer du å skrive om
       koden din slik at brukeren bare får 12 forsøk?
-

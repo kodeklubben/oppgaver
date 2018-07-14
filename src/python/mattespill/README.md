@@ -21,7 +21,6 @@ hvordan en kan illustrere tilfeldige terningkast.
 
  __Tidsbruk__: Dobbelttime
 
-
 ## Kompetansemål {.challenge}
 
 - [ ] __Matematikk, 7. trinn__: vurdere og samtale om sjanser i dagligdagse

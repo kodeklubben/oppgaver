@@ -303,8 +303,9 @@ Dette må du gjøre:
 
 - [ ] Så lenge tellevariabelen ikke er større enn 100:
 
-  * Oppdater summen.
-  * Inkrementer tellevariabelen din.
+* Oppdater summen.
+
+* Inkrementer tellevariabelen din.
 
 
 # Funksjoner {.activity}

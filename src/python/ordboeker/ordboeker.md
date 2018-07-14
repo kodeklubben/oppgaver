@@ -150,7 +150,9 @@ Dette må du gjøre:
 - [ ] Så lenge gjenstanden ikke er en tom streng `""`:
 
   * Be om antall.
+
   * Lagre til en ordliste.
+
   * Bruk gjenstanden som nøkkel og antallet som verdi.
 
 - [ ] Skriv ut handlelista.

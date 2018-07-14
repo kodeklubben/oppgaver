@@ -69,7 +69,7 @@ oppgaven enda._
 
 - [ ] Elevene kan finne og printe andre tallmønster. For eksempel: partall,
       oddetall, kvadrattall, Fibonacci-tall.
-      
+
 - [ ] Hvorfor går det ikke an å bruke løkker til å printe primtall?
 
 ## Eksterne ressurser {.challenge}

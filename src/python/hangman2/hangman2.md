@@ -16,10 +16,13 @@ Det kan se ut som mye kode, men det bare den øverste delen du skal endre på. E
 lite stykke ned vil det være en overskrift som ser slik ut:
 
 ```python
+
 ###############################################################################
 
 # Library code
+
 ###############################################################################
+
 ```
 
 All koden under denne overskriften kan du bare overse. Dette er koden som
@@ -146,8 +149,11 @@ Dette må du gjøre:
 - [ ] Lag følgende nøkkel/verdi-par:
 
   * Nøkkel: `"running"` Verdi: `True`
+
   * Nøkkel: `"used_tries"` Verdi: `0`
+
   * Nøkkel: `"pressed_button"` Verdi: `""` (En tom streng)
+
   * Nøkkel: `"help_text"` Verdi: `"Guess a letter!"`
 
 - [ ] For å velge et tilfeldig ord skal vi bruke `random.choice()`. Ved å gi denne
@@ -253,7 +259,7 @@ Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
 
 - [ ] Når spilleren taper kan det se ut omtrent som i bildet under. Pass på det
       følgende:
-  
+
   - [ ] Det skal ikke være mulig å taste inn flere bokstaver. Dersom du har
         mulighet til dette har du glemt å sette `state["running"] = False` i
         `game_over()`.

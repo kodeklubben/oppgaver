@@ -22,7 +22,7 @@ brukeren.
  __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
- 
+
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
       programmering, slik som if-setninger, tester, variabler, funksjoner og
       enkel brukerinteraksjon

@@ -61,6 +61,7 @@ Her er noen eksempler på hva funksjonene kan brukes til:
   >>> sentence.capitalize()
   'Denne setningen har ikke riktige bokstavstørrelser.'
   ```
+
 * `s.title()` kan brukes når vi skal skrive filmtitler:
 
   ```python
