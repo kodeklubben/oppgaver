@@ -186,12 +186,12 @@ så la oss se hva vi kan gjøre med fargene til former.
 
 - [ ] Prøv forskjellige bakgrunnsfarger. Hvordan synes du forskjellige
   bakgrunnsfarger passer sammen med fargene på sirkelen?
-  
+
 - [ ] Prøv forskjellige fyllfarger. Hvordan passer disse med fargen på omrisset?
-  
+
 - [ ] Prøv forskjellige farger på omrisset. Hvordan passer det med
   bakgrunnen og fyllfargen?
-  
+
 - [ ] Prøv andre tykkelser på omrisset. Hvor synes du at det er passe tykt?
 
 - [ ] Kan du tegne to sirkler på skjermen i forskjellige farger?

@@ -187,7 +187,7 @@ ut navnet til variabelen.
 
 - [ ] Flytt kodelinjen med mouseX, slik at den står ca. på midten nederst på
       skjermen.
-      
+
 - [ ] Finn ut hvor i vinduet X er minst.
 
 - [ ] Finn ut hvor i vinduet Y er høyest.
@@ -367,7 +367,7 @@ sanne.
 
 - [ ] Skriv om koden din, slik at `if`-setningene står inni hverandre, slik som
       koden over viser.
-      
+
 - [ ] Test koden og se om det fungerer.
 
 Nå skal vi skrive de to siste `if`-setningene som skal sjekke om musepekeren er
@@ -413,7 +413,7 @@ Nå må du forsøke deg på koden til den siste `if`-setningen helt selv!
 
 - [ ] Skriv inn koden for den siste `if`-setningen inni de andre
       `if`-setningene.
-      
+
 - [ ] Kjør programmet og se at det fungerer. Når alt er i orden skal `EUROPA`
       vises bare når du er innenfor den firkanta grensa til Europa som vi har
       laga.

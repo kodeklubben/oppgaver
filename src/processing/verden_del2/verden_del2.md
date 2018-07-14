@@ -586,16 +586,16 @@ parameter.
 - [ ] Gjør et metodekall på `text();` der første parameter er: `"Variabelen
   tilfeldigTall er: " + tilfeldigTall`. De to neste parameterne bestemmer du
   selv. Nå skal vi bare sjekke hvilke tall `tilfeldigTall` er blitt til.
-      
+
 - [ ] Kjør programmet noen ganger og sjekk at det variabelen `tilfeldigTall`
   blir forskjellige tall.
-      
+
 - [ ] Gjør et nytt metodekall på `text();` der det første parameteret er:
   `"Trykk på: " + alleVerdensdelene[tilfeldigTall]`. De to neste parameterne
   bestemmer du selv. `alleVerdensdelene` er lista med verdensdeler, så det vi
   gjør her er å si at vi skal vise verdensdelen som er på plassen til det tallet
   som variabelen `tilfeldigTall` inneholder.
-      
+
 - [ ] Sjekk at koden kjører. Start programmet flere ganger og sjekka at
       forskjellige verdensdeler blir valgt.
 
@@ -613,7 +613,6 @@ Før vi går videre er det på tide å fjerne litt unødvendig kode.
 
 - [ ] Fjern de to metodekallene på `text();` som viser oss hva musepekerens X og
   Y koordinat er.
-
 
 - [ ] Fjern metodekallet på `text();` som vi har skrevet inni `if`-setningen
   inni `sjekkVerdensdeler`-metoden. I neste steg putter vi inn en helt annen
@@ -756,6 +755,7 @@ Variabelen skal være av typen `int` og kan for eksempel hete `poeng`.
 ```processing
     poeng = poeng + 1;
 ```
+
 - [ ] Test om koden fungerer, dersom du har skrevet kodelinja på riktig plass,
   så skal du nå få poeng hver gang du trykker på riktig verdensdel.
 
@@ -857,7 +857,6 @@ Dette er ekstraoppgaver som du kan gjøre dersom du vil.
       Grønland, men fremdeles inkluderer alt av Nord-Amerika.
 
 - [ ] Fiks koden slik at hele Grønland hører til Europa.
-
 
 ## Fylker i Norge: {.check}
 

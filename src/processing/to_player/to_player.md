@@ -69,7 +69,7 @@ mellom disse to: `{` og `}`.
 Størrelsen bestemmes ved å skrive denne kodelinja:
 
 ```processing
-	size(200, 600);
+  size(200, 600);
 ```
 
 Tallene mellom parentesene bestemmer størrelsen på vinduet.
@@ -77,7 +77,7 @@ Tallene mellom parentesene bestemmer størrelsen på vinduet.
 Koden som bestemmer bakgrunnsfargen ser slik ut:
 
 ```processing
-	background(40, 150, 255);
+  background(40, 150, 255);
 ```
 
 Tallene inni parentesene bestemmer fargen.
@@ -128,8 +128,8 @@ Vi skal lage spillbrikka, deretter skal vi gjøre slik at den kan bevege seg.
 Her er koden som skal brukes:
 
 ```processing
-	fill(30, 230, 100);
-	ellipse(400, 250, 50, 50);
+  fill(30, 230, 100);
+  ellipse(400, 250, 50, 50);
 ```
 
 ## Gjør dette: {.check}
@@ -159,7 +159,7 @@ For å får det til, så deklarerer vi variabelen helt i toppen av programmet v�
 kodelinja:
 
 ```processing
-	int x;
+  int x;
 ```
 
 Denne lille koden er ganske enkel, `int` forteller PC-en at vi skal ha et
@@ -170,14 +170,14 @@ Vi må gi `x` en verdi som den har til å begynne med, det gjør vi inni `setup`
 metoden. Alt vi trenger å skrive er dette:
 
 ```processing
-	x = 90;
+  x = 90;
 ```
 
 Så må vi bytte ut det første tallet i parentesen til `ellipse` med `x`. Da ser
 koden for ellipse slik ut:
 
 ```processing
-	ellipse(x, 250, 50, 50);
+  ellipse(x, 250, 50, 50);
 ```
 
 ## Gjør dette: {.check}
@@ -209,7 +209,7 @@ Skriv denne koden inni `draw`-metoden etter ellipsa:
 
 ```processing
 if(keyPressed && key == 'a'){
-	x+=10;
+  x+=10;
 }
 ```
 
@@ -225,7 +225,7 @@ blir utført:
 
 ```processing
 if(test){
-	her utføres noe bare dersom testen er sann.
+  her utføres noe bare dersom testen er sann.
 }
 ```
 
@@ -236,9 +236,9 @@ eksempler.
 
 ```processing
 Dersom ( et eller annet er sant) så skal dette skje{
-	vi får mer liv
-	vi hopper,
-	noe flytter på seg,
+  vi får mer liv
+  vi hopper,
+  noe flytter på seg,
 }
 ```
 
@@ -251,7 +251,7 @@ Når vi skriver if-setningen vår med ord blir det slik:
 
 ```processing
 Dersom (man trykker en knapp og knappen er 'a') så skal dette skje{
-	ellipsen skal bevege seg til høyre;
+  ellipsen skal bevege seg til høyre;
 }
 ```
 
@@ -259,7 +259,7 @@ Vi forsøker å gjøre setningen mer lik kode:
 
 ```processing
 dersom ( enKnappErPressaNed og knappen er lik 'a'){
-	så skal x bli 10 større;
+  så skal x bli 10 større;
 }
 ```
 
@@ -267,7 +267,7 @@ Så gjør vi det til kode:
 
 ```processing
 if(keyPressed && key == 'a'){
-	x+=10;
+  x+=10;
 }
 ```
 
@@ -311,9 +311,9 @@ Her er `if`-setningen som trengs for å sjekke om venstre spiller har vunnet.
 Denne skal skrives under de to forrige `if`-setningene:
 
 ```processing
-	if(x > 800){
-		text("Venstre spiller vant!", 350, 200);
-	}
+  if(x > 800){
+    text("Venstre spiller vant!", 350, 200);
+  }
 ```
 
 ## Prøv dette {.check}
@@ -333,13 +333,11 @@ Denne skal skrives under de to forrige `if`-setningene:
 - [ ] Finn ut hva tallene som står inni parentesene til `text` gjør ved å bytte
       dem ut.
 
-
 - [ ] Gjør størrelsen på vinduet ditt større og se hvordan det påvirker
       `if`-setningen.
 
 - [ ] Still tilbake alle tallene, slik at teksten dukker opp på skjermen bare
       når spillbrikka er ute av skjermen.
-
 
 - [ ] Lag en ny `if`-setning som gjør nesten akkurat det samme, men som heller
       sjekker om ellipsen går ut av skjermen på venstre side.

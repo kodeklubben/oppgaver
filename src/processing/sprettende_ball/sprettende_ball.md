@@ -36,6 +36,7 @@ med Processing, så det er et fint sted å starte.
     background(0);
   }
   ```
+
 - [ ] Kjør programmet ved å trykke på pilen ![spill av pil](../play.png "spill av pil").
 
 - [ ] Lagre programmet som Ball ved å velge **File --> Save** i menyen.
@@ -60,7 +61,6 @@ andre programmeringsspråk.
 | \]   | Alt Gr + 9             | Alt + 9                     |
 | {    | Alt Gr + 7             | Shift + Alt + 8             |
 | }    | Alt Gr + 0             | Shift + Alt + 9             |
-
 
 ## Utforsking {.challenge}
 
@@ -104,7 +104,6 @@ på hva resten av koden gjør? Her er en forklaring:
   flere setninger på samme linje (`size(1,2); background(3);`) eller fordele en
   lang setning utover flere linjer.
 
-
 - `}` på linje tre betyr at funksjonen `setup` er ferdig.
 
 - `void draw() {` på linje 5 betyr at vi lager en funksjon som heter `draw`.
@@ -133,6 +132,7 @@ begynner å tegne. La oss tegne en sirkel midt i vinduet.
     ellipse(320, 240, 100, 100);
   }
   ```
+
 - [ ] Lagre med **Ctrl+S** og kjør programmet med **Ctrl+R**. Du skal nå se en
   hvit sirkel midt i vinduet som i bildet under.
 
@@ -383,7 +383,7 @@ I `draw` ser vi en del nytt som du ikke har sett før.
 - [ ] Kan du kombinere to og to av `if`-setningene ved å bruke `||`? `||` betyr
   eller. Her er et eksempel: `if (x < 1 || x > 10)`, hvis x er under 1 *eller* x
   er over 10.
-  
+
 - [ ] Kan du få ballen til å sprette sideleng som dette?
 
   ![ball som spretter sidelengs](sidelengs_ball.gif "ball som spretter sidelengs")

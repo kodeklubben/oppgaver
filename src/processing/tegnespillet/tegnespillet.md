@@ -33,8 +33,8 @@ nesten alle programmer vi lager i Processing.
 
 ```processing
 void setup(){
-	size(640, 420);
-	background(0, 0, 0);
+    size(640, 420);
+    background(0, 0, 0);
 }
 ```
 
@@ -99,7 +99,7 @@ Lurer du på hvordan koden du har skrevet fungerer?
   255)` så blir det hvitt. De forskjellige tallene står for `background(RØD,
   GRØNN, BLÅ)` og når vi endrer verdiene her, så blander vi fargene.
 
--	På linje 1 og 4 har vi `{` og `}` disse krøllparentesene åpner og lukker
+-    På linje 1 og 4 har vi `{` og `}` disse krøllparentesene åpner og lukker
      metoden. Metoden inneholder all kode vi skriver mellom disse.
 
 Slik skal koden din se ut så langt, husk at tallene inni parentesene ikke
@@ -129,9 +129,10 @@ void draw(){
 - [ ] Skriv denne koden inn i `draw`-metoden for å få noe å tegne med!
 
 ```processing
-	fill(100, 100, 255);
-	ellipse(mouseX, mouseY, 50, 50);
+    fill(100, 100, 255);
+    ellipse(mouseX, mouseY, 50, 50);
 ```
+
 - [ ] Start programmet og tegn litt.
 
 ## Prøv dette: {.check}
@@ -161,21 +162,20 @@ finne nøyaktig samme farge og størrelse, men en som ligner er godt nok!
 
 ![Bilde av to fjes](tofjes.png)
 
-
 ## Forklaring av koden {.protip}
 
 Lurer du på hvordan koden du har skrevet fungerer?
 
--	`void draw(){` er en ny metode, slik som `void setup(){`, men med nytt
-	navn og nytt innhold.
+- `void draw(){` er en ny metode, slik som `void setup(){`, men med nytt navn og
+   nytt innhold.
 
--	ellipse betyr at du lager en sirkel, og `mouseX, mouseY` bestemmer at den
-	skal følge etter musepekeren når du flytter på datamusa. Tallene `50, 50`
-	bestemmer størrelsen til sirkelen.
+- ellipse betyr at du lager en sirkel, og `mouseX, mouseY` bestemmer at den skal
+  følge etter musepekeren når du flytter på datamusa. Tallene `50, 50` bestemmer
+  størrelsen til sirkelen.
 
--	`fill(100, 100, 255);` bestemmer hvilke farge sirkelen skal ha, her er det
-	likt som før, der de står for `(RØD, GRØNN, BLÅ)` og kan blandes slik som du
-	har prøvd før.
+-    `fill(100, 100, 255);` bestemmer hvilke farge sirkelen skal ha, her er det
+    likt som før, der de står for `(RØD, GRØNN, BLÅ)` og kan blandes slik som du
+    har prøvd før.
 
 Til sist har vi lagt til et bilde av hele koden vår, så kan du se om din kode
 ligner på den vi har. Husk at tallene inni parentesene sikkert er litt
