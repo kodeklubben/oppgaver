@@ -28,10 +28,17 @@ nc='\033[0m' # No color
 # fi
 
 # Finds every title with an incorrect title, it should be # WORD {.WORD}.
-if (grep -r --include=\*.md '^##* ' ./src | grep -v '{.*}$'); then
-    printf "\nIncorrect title, should be # WORD {.TYPE}: ${red_bold}\$\$${nc}.\n\n"
+# if (grep -r --include=\*.md '^##* ' ./src | grep -v '{.*}$'); then
+#     printf "\nIncorrect title, should be # WORD {.TYPE}: ${red_bold}\$\$${nc}.\n\n"
+#     found=true
+# fi
+
+# Main titles # need to have exactly ONE empty line beneath and TWO above
+if pcregrep -rLiM --include='.*\*.md' '(\S(\n{1,2}|\n{4,})^# .*)|(^# .*(\n|\n{3,})\S)' ./src; then
+    printf "\nTitles needs exactly two blank lines below and one above: ${red_bold}\$\$${nc}.\n\n"
     found=true
 fi
+
 
 
 # Exit with error status (1) if there was a match
