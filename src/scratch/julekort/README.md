@@ -47,7 +47,7 @@ __Tidsbruk__: Dobbelttime
 - [ ] Eleven kan lage figurer og animasjoner slik oppgaven viser.
 
   - [ ] Eleven middels høy måloppnåelse ved å lage egne figurer og animasjoner.
-  
+
   - [ ] Eleven viser høy måloppnåelse ved å legge til lyd og
     meldingskomponenter.
 

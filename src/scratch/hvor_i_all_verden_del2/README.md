@@ -98,7 +98,6 @@ oppgaven, ellers kan du gjøre følgende bildefil tilgjengelig for elevene:
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet disse
 oppgavene enda._
 
-
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan utvide oppgaven med flere reisemål

@@ -54,12 +54,12 @@ søppelet som vi skal kaste.
   }
   </style>
   <figure class="inline">
-    <img src="bananer.png" />
-    <img src="eple.png" />
-    <img src="ballong.png" />
-    <img src="hellikopter.png" />
-    <img src="melk.png" />
-    <img src="avis.png" />
+    <img src="bananer.png" alt="Bilde av bananer"/>
+    <img src="eple.png" alt="Bilde av et eple"/>
+    <img src="ballong.png" alt="Bilde av en ballong"/>
+    <img src="hellikopter.png" alt="Bilde av et hellikopter"/>
+    <img src="melk.png" alt="Bilde av en melk"/>
+    <img src="avis.png" alt="Bilde av en avis"/>
   </figure>
 
 - [ ] Velg så en bakgrunn som vi kan plassere figurene våre rundt i. Vi valgte

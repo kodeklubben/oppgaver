@@ -20,7 +20,7 @@ vi kan besøke.
 ## Oppgaven passer til: {.check}
 
  __Fag__: Matematikk, samfunnsfag, programmering.
- 
+
 __Anbefalte trinn__: 3.-10. trinn.
 
 __Tema__: Geografi, lese kart, variabler, brukerinteraksjon.
@@ -44,7 +44,6 @@ undervisningsopplegg over lengre tid.
 
 - [ ] __Samfunnsfag, 10. trinn__: lese, tolke og bruke papirbaserte og digitale
       kart, målestokk og kartteikn
-
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
       programmering, slik som løkker, tester, variabler, funksjoner og enkel
@@ -124,4 +123,3 @@ oppgavene enda._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Se også [Norgestur](../norgestur/norgestur.html){target=_blank}.
-

@@ -77,7 +77,6 @@ oppgaveteksten.](../soloball/soloball.html){target=_blank}
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
 
-
 ## Variasjoner {.challenge}
 
 - [ ]  Eleven kan legge til flere baller.

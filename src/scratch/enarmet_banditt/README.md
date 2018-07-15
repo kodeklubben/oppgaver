@@ -67,6 +67,7 @@ __Tidsbruk__: Dobbelttime eller mer.
       Elevene kan gjerne jobbe to og to sammen.
 
 ## Fremgangsmåte
+
 [Klikk her for å se
 oppgaveteksten.](../enarmet_banditt/enarmet_banditt.html){target=_blank}
 
