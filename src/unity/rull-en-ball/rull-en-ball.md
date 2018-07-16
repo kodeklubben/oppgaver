@@ -25,7 +25,6 @@ aktuelt. Du finner også lenker til alle videoene på
 
 ## [Introduksjon](http://unity3d.com/learn/tutorials/projects/roll-a-ball/introduction?playlist=17141)
 
-
 Bildet nedenfor viser hvordan spillet ser ut når man er ferdig! I denne oppgaven
 lærer vi litt enkel fysikk, hvordan vi kan flytte spillobjekter med tastaturet,
 og kollisjon mellom objekter.
@@ -38,10 +37,10 @@ og kollisjon mellom objekter.
 
 - [ ] Lagre Scenen, __File > Save Scene__, legg den i en ny mappe
   `Assets/_Scenes` og kall den `Minigame`.
-  
+
 - [ ] Lag brettet vi skal spille på. Dette er et 3D-plan. Du finner den i
   hierarkiet under __Create > 3D Objekt > Plane__. Kall dette objektet `Ground`.
-      
+
 - [ ] Flytt brettet til origo, `(0, 0, 0)`, ved å trykke på tannhjulet i
   Transform-komponenten og velge __Reset__.
 
@@ -55,17 +54,17 @@ og kollisjon mellom objekter.
 - [ ] Lag en spiller! Fra hierarkiet __Create > 3D Object > Sphere__ og gi den
   navnet `Player`. Tilbakestill posisjonen på samme måte som vi gjorde med
   planet.
-  
+
 - [ ] Flytt ballen opp `0.5` enhet slik at vi får den til å ligge på planet.
   Husk at ballen er 1 høy og 1 bred. Husk at det er y-posisjonen vi endrer med
   `0.5`.
-  
+
 - [ ] La oss bytte farge på brettet. Vi lager en ny mappe i Assets-mappa vår og
   gir den navnet `Materials`. Velg denne mappa og lag et nytt material og kall
   den `Background`. Endre farge ved å trykke på den hvite boksen til høyre for
   `Albedo`-feltet og velg en fin blåfarge. Du kan bruke RGB-verdien `(0, 32,
   64)`.
-  
+
 - [ ] Lag brettet blått ved å dra `Background`-materialet til brettet i Scenen.
 
 - [ ] For å få bedre lys i spillet kan vi endre rotasjonen på lyset i hierarkiet
@@ -77,7 +76,7 @@ og kollisjon mellom objekter.
   treffe forskjellige objekter for å samle poeng trenger vi litt fysikk. Dette
   får vi ved å legge til en Rigidbody-komponent på `Player`-objektet. Trykk på
   __Add Component__ når du har valgt spilleren og velg __Physics > Rigidbody__.
-  
+
 - [ ] Lag en ny mappe `Assets/Scripts` og et nytt C#-script som vi kaller
   `PlayerController`. Koden vi skal legge inn der er det best å skrive selv.
 
@@ -121,6 +120,7 @@ og kollisjon mellom objekter.
 __Klikk på Play-knappen øverst i Unity-editoren.__
 
 - Trykk på piltastene, flytter ballen seg?
+
 - Hva skjer hvis du prøver å styre med tastene WASD?
 
 
@@ -130,20 +130,20 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 
 - [ ] Flytt først kameraet opp 10 enheter (på y-aksen) og vipp det ned med 45
   grader (x-aksen).
-  
+
 - [ ] Flytt kameraet til et *barn* av `Player`-objektet, dette vil gjøre at
   kameraet følger etter spilleren. Et *barn* er et programmeringsbegrep som
   betyr at noe er *under* noe annet, f.eks. en undermappe. Du gjør kameraet til
   et *barn* av `Player`-objektet ved å dra det og slippe det på
   `Player`-objektet i hierarkiet. Se at kameraet (nesten) flytter seg med
   spilleren.
-  
+
 - [ ] Test spillet og se hva som skjer.
 
 - [ ] Siden ikke alt gikk etter planen må vi lage et script for å flytte
   kameraet. Flytt kameraet tilbake ut av `Player`-objektet slik at det ikke
   snurrer rundt lengre.
-  
+
 - [ ] Lag et nytt C#-script som du kaller `CameraController` og legg til koden:
 
   __CameraController.cs__
@@ -184,22 +184,22 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - [ ] La oss lage noen vegger! Lag et nytt tomt objekt som du kaller `Walls`.
   __Create > Create Empty__. Dette blir en mappe for alle veggene. Tilbakestill
   posisjonen til Walls til `(0, 0, 0)`.
-  
+
 - [ ] Lag første vegg. __Create > 3D Object > Cube__ og tilbakestill posisjonen
   til denne. Sjekk at ballen havner oppi denne kuben. Legg denne som et barn av
   Walls og kall den `West Wall`.
-  
+
 - [ ] Lag veggen lang og tynn. Under Scale setter vi `0.5`, `2` og `20.5`.
 
 - [ ] Flytt veggen til siden ved å sette `x` til `-10`.
 
 - [ ] Dupliser veggen vi har og kall den `East Wall`. Endre x-posisjon til `10`
   og se at den kommer på plass.
-  
+
 - [ ] Dupliser `East Wall` og kall den `North Wall`. Tilbakestill posisjonen og
   sett scale til `20.5`, `2`, `0.5`. Sett posisjon på z-aksen til `10` for å se
   at den kommer på riktig plass.
-  
+
 - [ ] Dipliser `North Wall` og kall den `South Wall`. Sett posisjon på z-aksen
   til `-10`.
 
@@ -216,12 +216,12 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 
 - [ ] Lag en kube vi kan samle inn. __Create > 3D Object > Cube__ og kall den
   `Pick Up`.  Tilbakestill posisjonen og se at ballen havner inni denne kuben.
-  
+
 - [ ] Deaktiver `Player`-objektet.
 
 - [ ] Flytt opp kuben med 0.5 enheter og sett scale til 0.5 i alle aksene. La
   oss tippe den litt over. Endre rotasjon til 45 på alle aksene.
-  
+
 - [ ] La oss få kuben til å snurre litt for å tiltrekke oppmerksomhet.
 
 - [ ] Lag et nytt C#-script og kall det `Rotator`. Legg til koden:
@@ -244,20 +244,20 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 
 - [ ] Start spillet og se at kuben snurrer rundt. Husk å legge til scriptet i
   `Pick Up`-objektet.
-  
+
 - [ ] Siden vi trenger mange kuber må vi gjøre `Pick Up`-objektet om til en
   *Prefab*. En Prefab er en slags skisse for hvordan et spillobjekt skal se ut
   og oppføre seg.
-  
+
 - [ ] Lag en ny mappe og kall den `Prefabs`. Dra `Pick Up`-objektet inn i denne
       mappa.
-      
+
 - [ ] Lag en nytt tomt objekt for å organisere objektene våre. Kall dette `Pick
   Ups` og legg `Pick Up` til her.
-  
+
 - [ ] Endre synsvinkel til rett over spillebrettet og lag 10 nye kuber ved å
   duplisere `Pick Up`-objektet vi har. Legg kubene rundt omkring på brettet.
-  
+
 - [ ] Start spillet og se at alle kubene snurrer.
 
 - [ ] La oss endre fargen på kubene! Dupliser `Background`-materialet og kall
@@ -276,7 +276,7 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 
 - [ ] Legg merke til at `Player`-objektet har en Sphere Collider-komponent.
   Denne skal vi bruke til å sjekke kollisjon mot `Pick Up`-objektene.
-  
+
 - [ ] Åpne `PlayerController`-scriptet igjen og legg til funksjonen under i
   PlayerController-klassen:
 
@@ -292,14 +292,14 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 
 - [ ] Velg `Pick Up`-prefaben og legg til en ny **Tag** vi kaller `Pick Up`. Det
   er veldig viktig at den heter `Pick Up`. __Husk store bokstaver på P og U!__
-  
+
 - [ ] Prøv spillet og se hva som skjer.
 
 - [ ] For å hindre at Unity lager en kollisjon mellom ballen og kubene må vi
   krysse for __Is trigger?__ på `Box Collider`-komponenten til `Pick
   Up`-prefaben. Dette gjør at Unity registrerer at de to objektene har
   kollidert, men den flytter ikke på noen av objektene.
-  
+
 - [ ] Test spillet og se at alt er som det skal!
 
 - [ ] (BONUS) For å gjøre en liten optimisering kan vi legge til en
@@ -312,7 +312,7 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 
 - [ ] Vi trenger noen variabler for å holde styr på hvor mange objekter vi har
   samlet inn.
-  
+
 - [ ] Åpne `PlayerController` og endre det til å være som følger:
 
   __PlayerController.cs__
@@ -360,14 +360,14 @@ __Klikk på Play-knappen øverst i Unity-editoren.__
 - [ ] Vi trenger noe på skjermen som viser poengene våre. Under hierarkiet, lag
   et nytt `Text`-objekt (__Create > UI > Text__). Gi objektet navnet
   `CountText`.
-  
+
 - [ ] Endre farge på teksten til hvit og endre posisjon til `(0, 0, 0)`.
   Størrelsen til CountText skal være 160 bred og 30 høy. Endre teksten som står
   der til `Count Text`.
-  
+
 - [ ] Flytt teksten øverst til venstre. Trykk på firkanten inne i Rect Transform og
   velg __top left__ mens du holder inne __shift__ og __alt__.
-  
+
 - [ ] Endre Pos X og Pos Y til `10` og `-10`.
 
 - [ ] Nå vil vi endre denne teksten med `PlayerController`-scriptet. Åpne det
