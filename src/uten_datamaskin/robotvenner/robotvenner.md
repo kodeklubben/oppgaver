@@ -48,13 +48,13 @@ forberedelsestid: 10 minutter.
 ## Materiell {.check}
 
 - [ ] Symbolark (1 per gruppe), [last ned her](robotvenner_symbolark.pdf).
-  
+
 - [ ] Pakke med koppestablefigurer (1 per gruppe),
   [last ned her](robotvenner_figurer.pdf).
-  
+
 - [ ] Engangskopper eller [papirtrapeser](robotvenner_trapeser.pdf) (6 eller
   flere per gruppe).
-  
+
 - [ ] Blanke ark eller notatkort (1 per person).
 
 - [ ] Noe å skrive med (1 per person).
@@ -73,7 +73,7 @@ forberedelsestid: 10 minutter.
 
 - [ ] _Algoritme_ – en serie av instruksjoner som beskriver hvordan en kan
   oppnå et mål.
-  
+
 - [ ] _Koding_ – Omgjøre handlinger til et symbolspråk.
 
 - [ ] _Feilsøking_ – Finne og rette feil og problemer i koden.
@@ -108,14 +108,17 @@ instruksjonene.
 
 ## Tilpasninger {.protip}
 
-### Barnehagen og småskolen
+##
+
+
+# Barnehagen og småskolen
 
 + Gjør oppgaven med alle barna/elevene samlet. La barna/elevene gi instruksjoner
   som læreren skal skrive ned.
-  
+
 + La en (voksen) assistent være roboten. Assistenten forlater rommet mens
   barna/elevene programmerer, for så å komme tilbake og prøve å utføre koden.
-  
+
 + Om det er nok tid bytter assistenten og læreren plass. Assistenten
   programmerer sammen med barna/elevene, mens læreren utfører koden i etterkant.
 
@@ -129,7 +132,7 @@ instruksjonene.
 ### Ungdomsskolen og videregående
 
 + Del inn i grupper på maksimalt fire elever, tre i hver gruppe er ideelt.
-  
+
 + Elevene får da nok tid til at alle får prøvd seg som robot, og kan også prøve
   seg på ekstraoppgavene om funksjoner som står beskrevet lenger ned.
 
@@ -139,21 +142,21 @@ instruksjonene.
 
 + Send roboten til _robotbiblioteket_, mens resten av gruppen er programmererne
   som koder.
-  
+
 + Velg en figur fra [koppestablefigurene](robotvenner_figurer.pdf) for
   hver gruppe.
-  
+
 + Gruppene skal lage en algoritme for hvordan roboten skal bygge den
   utvalgte stabelen.
-  
+
 + De som koder skal oversette algoritmen sin til piler, som beskrevet
   på [symbolarket](robotvenner_symbolark.pdf).
-  
+
 + Når programmererne er ferdig med koden henter de roboten sin.
 
 + Roboten leser pilene på arket og prøver å gjennomføre koden med
   bevegelser.
-  
+
 + Resten av gruppen ser etter feil, samarbeider om å rette feilene i
   koden, og ber deretter roboten om å kjøre programmet på nytt.
 
@@ -163,10 +166,10 @@ instruksjonene.
 
 + Programmererne skal _kun_ benytte de seks pilene på
   [symbolarket](robotvenner_symbolark.pdf).
-  
+
 + Koppene skal være hos roboten og ikke tilgjengelig for programmererne under
   kodingen.
-  
+
 + Når roboten kommer tilbake til gruppen skal de ikke snakke sammen.
   Instruksjonene er skrevet på papiret!
 
@@ -220,7 +223,9 @@ eleven flytter på koppene. For eksempel vil programmet ovenfor uttales:
 
 # Hovedøvelse {.activity}
 
-#### Del i grupper
+##
+
+## Del i grupper
 
 Del gruppen som tidligere nevnt under [Tilpasninger](#tilpasninger). Målet er å
 ha nok programmerere i gruppen til at gruppen hele tiden kommer videre.
