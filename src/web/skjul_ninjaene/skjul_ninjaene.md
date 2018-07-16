@@ -175,7 +175,6 @@ __LYKKE TIL!__
 - [ ] Klarer du å legge til flere objekter på scenen? Du kan legge til bilder
       fra datamaskinen din, eller finne noen på internett.
 
-
 ## __Eksempel:__
 
 ![resultat](resultat.png)
@@ -278,20 +277,20 @@ __LYKKE TIL!__
 <body>
  <div id="gatehjorne">
 
-   <img id="lucy_the_ninja" class="ninja" src="lucy.png" />
-   <img id="alex_the_ninja" class="ninja" src="alex.png" />
-   <img id="katy_the_ninja" class="ninja" src="katy.png" />
-   <img id="omar_the_ninja" class="ninja" src="omar.png" />
-   <img id="sam_the_ninja" class="ninja" src="sam.png" />
+   <img id="lucy_the_ninja" alt="lucy_the_ninja" class="ninja" src="lucy.png" />
+   <img id="alex_the_ninja" alt="alex_the_ninja" class="ninja" src="alex.png" />
+   <img id="katy_the_ninja" alt="katy_the_ninja" class="ninja" src="katy.png" />
+   <img id="omar_the_ninja" alt="omar_the_ninja" class="ninja" src="omar.png" />
+   <img id="sam_the_ninja" alt="sam_the_ninja" class="ninja" src="sam.png" />
 
 
-   <img id="kumlokk" class="movable" src="kumlokk.png" />
-   <img id="kontainer" class="movable" src="kontainer.png" />
-   <img id="soppelkasse" class="movable" src="soppelkasse.png" />
-   <img id="sykkel" class="movable" src="sykkel.png" />
-   <img id="kafe_skilt" class="movable" src="kafe_skilt.png" />
+   <img id="kumlokk" alt="kumlokk" class="movable" src="kumlokk.png" />
+   <img id="kontainer" alt="kontainer" class="movable" src="kontainer.png" />
+   <img id="soppelkasse" alt="soppelkasse" class="movable" src="soppelkasse.png" />
+   <img id="sykkel" alt="sykkel" class="movable" src="sykkel.png" />
+   <img id="kafe_skilt" alt="kafe_skilt" class="movable" src="kafe_skilt.png" />
 
-   <img id="andre_objekter" src="andre_objekter.png" />
+   <img id="andre_objekter" alt="andre_objekter" src="andre_objekter.png" />
 
  </div>
 

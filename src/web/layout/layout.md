@@ -235,17 +235,16 @@ innenfor `<section>`-taggen.
   </hide>
 </toggle>
 
-
 - [ ] Legg til en passende bakgrunnsfarge på `section`
 
 - [ ] Legg til en høyde på `section` slik at siden blir seendes større og mer
       komplett ut
-      
+
 - [ ] Legg til en passende farge på overskriften din
 
 - [ ] Bruk `padding` til å få flytte overskriften litt vekk fra kanten på
       venstre side
-      
+
 - [ ] Gjør det samme du gjorde med overskriften, med paragrafen du har laget
 
 - [ ] Dersom du la inn et bilde, prøv å få det sentrert på siden
@@ -271,7 +270,6 @@ innenfor `<section>`-taggen.
    ```
   </hide>
 </toggle>
-
 
 ### Nettsiden sålangt:
 
@@ -337,10 +335,10 @@ hva du vil.
 
 - [ ] Kopier all kode fra `index.html` til 2 nye sider `side2.html` og
       `side3.html`
-      
+
 - [ ] Nå skal du endre overskriften og teksten i `side2.html` og `side3.html`
       slik at du får 3 ulike sider
-      
+
 - [ ] Sørg for at de 2 sidene ligger i `nav` på alle sidene
 
 __Eksempel:__

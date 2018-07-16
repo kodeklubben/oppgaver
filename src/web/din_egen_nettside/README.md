@@ -74,8 +74,8 @@ vurdere nettsteder
 
 - [ ] __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy
 
-
 ## Fremgangsmåte
+
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
 oppgaveteksten.](../din_egen_nettside/din_egen_nettside.html){target=_blank}

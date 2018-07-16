@@ -67,7 +67,10 @@ andre nettsiden trenger, for eksempel bilder og videoer.
 
 ### Kan jeg få denne siden takk?
 
-![Din datamaskin: 'Hei! Kan jeg få se http://kodeklubben.no, vær så snill?', En datamaskin som vet hvor forskjelligere nettsteder bor: 'Denne maskinen har filene', Datamaskin som filene til nettstedet er lagret på: 'Her er filene du trenger'](webdialog.png)
+![Din datamaskin: 'Hei! Kan jeg få se http://kodeklubben.no, vær så snill?', En
+datamaskin som vet hvor forskjelligere nettsteder bor: 'Denne maskinen har
+filene', Datamaskin som filene til nettstedet er lagret på: 'Her er filene du
+trenger'](webdialog.png)
 
 
 # Steg 2: Hva er HTML? {.activity}
@@ -128,7 +131,7 @@ noen tagger som ofte brukes:
 
 - `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`: Overskrifter med ulik
   størrelse.
-  
+
 - `<ol>`: Sortert liste.
 
 - `<ul>`: Usortert liste.
@@ -160,7 +163,7 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 
   `Arves hjemmeside` vil da benyttes som tittel til hjemmesiden og vises i
   vinduet til nettleseren.
-  
+
 - `<body>`: Her putter vi det som skal dukke opp på nettsiden.
 
 ## Aktiviteter {.check}
@@ -219,4 +222,3 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
       Oppdater siden. Hva skjedde? Når du redigerer kode på denne måten blir det
       ikke lagret, så du kan teste hva som skjer uten å ødelegge filen. Sånn kan
       du eksperimentere masse, men alltid ha muligheten til å gå tilbake.
-

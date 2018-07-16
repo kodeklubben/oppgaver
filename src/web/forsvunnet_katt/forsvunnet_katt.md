@@ -95,7 +95,9 @@ med forskjellige tall.
 ```
 
 
+
 # Steg 3: Legg til beskrivelse av Felix {.activity}
+
 
 Under bildet vil vi skrive en beskrivelse av Felix, og gi noen detaljer om når
 og hvor han forsvant. For dette kan vi skrive noen paragrafer.
@@ -224,4 +226,3 @@ Til venstre har vi HTML-koden og til høyre har vi hvordan nettleseren viser sid
 - [ ] Hvis Felix blir funnet. Bruk taggen `<del>` for å streke over informasjon
       som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>`
       for å sette inn ny informasjon istede, som foreksempel __Funnet__!
-

@@ -23,7 +23,7 @@ nettleseren! La oss ta en titt.
 
 - [ ] Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller
   Firefox
-  
+
 - [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
 
   ![Bilde av kodeklubbens nettsider med katten høyreklikket](inspiser_katten.png)
@@ -60,9 +60,11 @@ nettleseren! La oss ta en titt.
 **Høyreklikk og inspiser** finner HTML-koden til elementet vi ser på.
 
 **HTML-kode for bilder** ser slik ut:
+
 ```html
 <img src="fil.png">
 ```
+
 
 # Steg 2: Fjern {.activity}
 
@@ -182,4 +184,3 @@ på **alle kursene**!
 Gratulerer! Du er har kommet ett skritt på vei til å bli webutvikler!
 
 ![Bilde av en schnauzer med briller som leser en bok](schnauzer_web_developer.jpg)
-

@@ -77,7 +77,7 @@ console.log(tekst);
 
 - [ ] La oss prøve oss på litt variabel-morro. Lag følgende variabler, du kan
       godt slette det du allerede har:
-      
+
 ```js
 var tall1 = 4;
 var tall2 = 7;
@@ -108,6 +108,7 @@ var tall3 = tall2;
 <toggle>
     <strong>Svar</strong>
     <hide>
+
         49. Fordi 7 * 7 = 49.
     </hide>
 </toggle>
@@ -188,11 +189,11 @@ if(alder >= 18) {
 
 + `if(alder >= 18)` betyr: hvis alder er større eller lik 18. Altså er du 18 år
   eller eldre vil denne setningen være sann og du er gammel nok til å kjøre bil.
-  
+
 + `else if(alder >= 16)` betyr: dersom `if`-testen var usann, så sjekker den om
   alder er større eller lik 16, og hvis denne betingelsen er sann så sier den at
   du er gammel nok til å kjøre moped.
-  
+
 + `else` betyr `ellers` og vil si at koden til denne kjører dersom de andre
   testene blir usanne. Altså hvis du er under 16 år så får du beskjed om at du
   ikke er gammel nok.
@@ -231,7 +232,7 @@ Før du skal få en oppgave må vi gå igjennom noen verktøy vi kan bruke i
 + I en `if(betingelse)` kan vi sjekke flere ting samtidig ved å bruke `&&` eller
   `||`. `&&` betyr `og`, `||` betyr `eller`. Finner du ikke disse på tastaturet,
   så spør en voksen om å hjelpe deg. Eksempel:
-  
+
 ```js
 var date = new Date();
 var mnd = date.getMonth();
@@ -321,7 +322,7 @@ og `metode` litt om hverandre.
             console.log("Du er gammel nok til å kjøre moped");
         } else {
             console.log("Du er dessverre ikke gammel nok");
-        }       
+        }
     }
 
 </hide>

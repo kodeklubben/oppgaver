@@ -54,7 +54,6 @@ __Tidsbruk__: Dobbeltime eller mer.
       programmering, slik som løkker, tester, variabler, funksjoner og enkel
       brukerinteraksjon
 
-
 - [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
       generalisere og tilpasse eksisterende programkode og algoritmer.
 
@@ -140,7 +139,6 @@ __Tidsbruk__: Dobbeltime eller mer.
 # Løsning {.challenge}
 
 [Her er en full løsning av oppgaven.](løsning.js)
-
 
 ## Fremgangsmåte
 

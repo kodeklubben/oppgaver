@@ -100,7 +100,6 @@ Fant du det? Det er en sånn vi prøver å lage, bare at vi skal forenkle det li
 
 - [ ] Legg til en overskrift i `<div>`-taggen du akkurat lagde.
 
-
 <toggle>
 <strong>Se koden så langt</strong>
 <hide>
@@ -120,7 +119,6 @@ Fant du det? Det er en sånn vi prøver å lage, bare at vi skal forenkle det li
   ```
   </hide>
 </toggle>
-
 
 - [ ] La oss lage en `<div>` som skal holde styr på navigasjonsmenyen vår. Legg
       denne under der den andre `<div>`-en ble avsluttet
@@ -198,7 +196,7 @@ vi attributtet `style=””`. I `style` kan vi legge til variabler som for ekse
 <toggle>
 <strong>Se et eksempel</strong>
 <hide>
-<img src="ressurser/html_del_inn_1.png" width="100%">
+<img src="ressurser/html_del_inn_1.png" alt="Bilde av 3 div tager med ulike farger" width="100%">
 </hide>
 </toggle>
 
@@ -309,7 +307,7 @@ Under ser du hvordan du kan legge til CSS i `<head>`-taggen med 3 IDer:
 <toggle>
   <strong>Se et eksempel</strong>
   <hide>
-    <img src="ressurser/html_del_inn_2.png" width="100%">
+    <img src="ressurser/html_del_inn_2.png" alt="Bilde av CSS i style headeren" width="100%">
   </hide>
 </toggle>
 

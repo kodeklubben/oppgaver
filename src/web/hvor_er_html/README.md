@@ -50,8 +50,10 @@ __Tidsbruk__: Dobbeltime.
 
 - [ ] Høy måloppnåelse: Eleven klarer å bruke det eleven har gjort i oppgaven
       til å videreutvikle koden sin.
+
   - [ ] Eleven klarer å legge til mer innhold ved hjelp av HTML-tags og
   inspeksjonsverktøyet.
+
   - [ ] Eleven klarer å finne og endre på CSS.
 
 ## Forutsetninger og utstyr {.challenge}
@@ -62,8 +64,8 @@ __Tidsbruk__: Dobbeltime.
       Chrome](https://www.google.com/chrome/browser/desktop/index.html){target=_blank}
       (anbefalt). Elevene kan fint jobbe to og to.
 
-
 ## Fremgangsmåte
+
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske
 oppgaven. [Klikk her for å se oppgaveteksten.](hvor_er_html.html){target=_blank}
 

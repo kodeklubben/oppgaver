@@ -61,8 +61,8 @@ __Tidsbruk__: Enkelttime
 - [ ] __Utstyr__: Datamaskiner med tilgang internett. Elevene kan fint jobbe to
       og to.
 
-
 ## Fremgangsmåte
+
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske
 oppgaven. [Klikk her for å se oppgaveteksten.](hei_js.html){target=_blank}
 

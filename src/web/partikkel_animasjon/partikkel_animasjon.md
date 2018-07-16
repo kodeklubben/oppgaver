@@ -103,10 +103,9 @@ La oss skrive det som trengs for å jobbe med `canvas`:
 - `<canvas id="canvas" width="500" height="500"></canvas>` er selve
   `Canvas`-elementet. Den har en gitt høyde og bredde `500px x 500px`. Vi skal
   bruke JavaScript til å lage andre elementer inne i `canvas`-elementet.
-  
+
 - I CSSen er det lagt til en `grå` bakgrunnsfarge til `<body>` og sort
   bakgrunnsfarge til `<canvas>`.
-
 
 
 # Steg 2: Tegn et objekt {.activity}
@@ -186,7 +185,7 @@ element, vi bruker bare `objekter`.
 <toggle>
     <strong> Hint </strong>
     <hide>
-        Setter du x og y til 0, så vil den starte oppe i venstre hjørne. 
+        Setter du x og y til 0, så vil den starte oppe i venstre hjørne.
         Høyden og bredden er piksel-verdier (px).
     </hide>
 </toggle>
@@ -422,4 +421,3 @@ Ekssempel på ferdig kode til oppgaven:
 </body>
 </html>
 ```
-

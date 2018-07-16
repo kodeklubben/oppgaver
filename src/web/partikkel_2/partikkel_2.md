@@ -121,7 +121,6 @@ få partiklene til å bevege seg overalt på skjermen.
   kalt, legge et nytt partikkel i en `liste` og bruke en `for`-løkke til å endre
   hvert partikkel sine attributter og gjenta dette for alle elementene i listen.
 
-
 #### Prøv selv først! Dersom du ikke får det til kan du benytte deg av hintene under.
 
 

@@ -51,7 +51,7 @@ skal bruke disse:
 
 - `delay`: Hvor mye forsinkelse det skal være før animasjonen starter. Standard
   er 0 sekund.
-  
+
 - `iteration-count`: Hvor mange ganger skal animasjonen gjentas.
 
 - `direction`: Bestemmer om animasjonen skal gå baklengs eller ikke.
@@ -158,7 +158,7 @@ men det er da litt vanskeligere å finne ut hva som er hva:
 
 - [ ] Skriv koden inn i din favoritt teksteditor, lagre det som en `.html`-fil
       og gjør oppgavene under.
-      
+
 - [ ] Få animasjonen til å bytte farge fra blå til rød underveis.
 
 - [ ] Klarer du å få boksen til å flytte seg nedover og oppover?
@@ -283,6 +283,7 @@ Nå skal vi animere øksen og Minecraft-logoen:
 treffer en klosse](ressurser/out.gif)
 
 + Last ned og pakk ut [minecraft_animasjon.zip](minecraft_animasjon.zip).
+
 + Åpne `index.html` i din favoritt teksteditor og i en nettleser.
 
 Du vil nå ha en nettside som ser noe sånt ut:
@@ -311,17 +312,17 @@ Nå skal vi få `pickaxe`-en til å fly. Vi begynner med å beskrive animasjonen
 
 - [ ] La figuren starte utenfor skjermen. **Hint:** bruk en negativ verdi av
       `left`.
-      
+
 - [ ] La `pickaxe`-bildet bevege seg bort til blokkene. Klarer du å finne ut
       hvor langt det er? **Hint:** positiv verdi av `left`.
-      
+
 - [ ] Legg til rotasjon med `transform: rotate(antall grader)`.
 
 - [ ] Kan du tenke deg hvor `transform: rotate()` bør være? I `0%` eller `100%`?
 
 - [ ] Prøv deg frem med hvor mange grader du trenger for at den skal bli riktig.
       **Hint:** 360 grader er én gang og 720 grader er to ganger rundt seg selv.
-      
+
 
 Så legger vi animasjonen til øksen.
 
@@ -461,4 +462,3 @@ Nå som du har klart å få `pickaxe` til å fly inn med rotasjon er oppgaven di
 </toggle>
 
 __Gratulerer!__ Du har nå laget din første animasjon!
-

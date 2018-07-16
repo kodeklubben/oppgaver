@@ -93,9 +93,8 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Utstyr__: Datamaskiner med internett og tekstbehandlingsverktøy.
 
-
-
 ## Fremgangsmåte
+
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
 oppgaveteksten.](../partikkel_animasjon/partikkel_animasjon.html){target=_blank}
@@ -113,9 +112,9 @@ oppgaveteksten.](../partikkel_animasjon/partikkel_animasjon.html){target=_blank}
 - [ ] Få partikkelet til å bevege seg på andre måter enn bare diagonalt.
 
   - [ ] Prøve å få partikkelet til å gå rett frem
-  
+
   - [ ] Få partikkelet til å gå rett ned
-  
+
   - [ ] Få partikkelet til å gå bakleng
 
 - [ ] Får du til at partikkelet bytter til en tilfeldig farge hver gang den
@@ -124,4 +123,3 @@ oppgaveteksten.](../partikkel_animasjon/partikkel_animasjon.html){target=_blank}
 - [ ] Legg til flere partikler
 
 - [ ] Bruk egen kreativitet til å lage en ny partikkel-animasjon
-

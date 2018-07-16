@@ -31,7 +31,7 @@ Her er flere måter å kjøre JavaScript-kode på:
 
 + Skrive kode mellom `<script> </script>` i `<body>` eller `<head>` i en
   HTML-fil,  og åpne den i en nettleser
-  
+
 + I `<head>`, skrive `<script src="fil_navn.js"></script>`
 
 ## Sjekkliste {.check}
@@ -97,7 +97,7 @@ hete `hei`, ta i mot et `navn` og skrive navnet til konsollen.
 - `(navn)` betyr at vi kan sende inn data til funksjonen. `navn` blir her en
   variabel, den holder på en verdi som kan endres. Vi skal se nærmere på dette
   senere.
-  
+
 - `{` markerer starten til funksjonen.
 
 - `}` markerer slutten til funksjonen.
@@ -219,7 +219,7 @@ venner? La oss lage en personlig hilsen til hver av de.
 - [ ] Legg merke til at du nå fikk et tall i adressen. Tallet er versjonen til
   programmet ditt.
 
-  **Versjon 9:** <img height="25" src="versjon.png" title="Versjon 9">
+  **Versjon 9:** <img height="25" src="versjon.png" alt="Bilde av versjonsnummeret" title="Versjon 9">
 
   Hver gang du endrer programmet og trykker **Ctrl** + **s** får programmet en
   ny versjon. Slik kan du lagre flere varianter av samme program, med
@@ -227,7 +227,7 @@ venner? La oss lage en personlig hilsen til hver av de.
 
 - [ ] Trykk på **JavaScript** slik at kodefanen skjules:
 
-  <img height="35" src="faner.png">
+  <img height="35" src="faner.png" alt="Bilde av fanene">
 
 - [ ] Trykk på <button>Run</button> og sjekk at det ser riktig ut
 
@@ -325,4 +325,3 @@ gjøre det.
 - [ ] Hva skjer?
 
 __Gratulerer!__ Du har nå skrevet ditt første JavaScript-program!
-

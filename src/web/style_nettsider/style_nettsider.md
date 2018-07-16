@@ -291,11 +291,11 @@ forsiktig, det finnes noen stiler som ikke blir videreført.
 <!doctype html>
 <html lang="no">
 <head>
-	<meta name="author" content="#">
-	<meta charset="UTF-8">
-	<meta name="description" content="En side laget for å finne katten Felix">
-	<meta name="keywords" content="Felix, katt, forsvunnet">
-	<title>Katten Felix er forsvunnet</title>
+    <meta name="author" content="#">
+    <meta charset="UTF-8">
+    <meta name="description" content="En side laget for å finne katten Felix">
+    <meta name="keywords" content="Felix, katt, forsvunnet">
+    <title>Katten Felix er forsvunnet</title>
 
   <!---CSS-stilen til siden --->
   <style>
@@ -323,13 +323,13 @@ forsiktig, det finnes noen stiler som ikke blir videreført.
 
 <body>
 <!-- Dette er et Kodeklubb-prosjekt. Felix er ikke ekte og er egentlig ikke forsvunnet. -->
-	<h1>Forsvunnet</h1>
-	<h2>Katten Felix</h2>
-	<img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png" alt="bilde av Felix" width="400">
-	<p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
-	<p>Han forvant fra hagen i går.</p>
-	<p>Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
-	<p><strong>Takk!</strong><p>
+    <h1>Forsvunnet</h1>
+    <h2>Katten Felix</h2>
+    <img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png" alt="bilde av Felix" width="400">
+    <p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
+    <p>Han forvant fra hagen i går.</p>
+    <p>Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
+    <p><strong>Takk!</strong><p>
 </body>
 </html>
 ```
@@ -342,4 +342,3 @@ forsiktig, det finnes noen stiler som ikke blir videreført.
 
 - [ ] Hvis du blir fort ferdig kan du gå tilbake å legge på stiler for tidigere
       leksjoner.
-

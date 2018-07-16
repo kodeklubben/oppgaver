@@ -24,14 +24,23 @@ Vi kan forandre utseende på teksten ved å endre __skrifttypen__ eller __fonten
 som det også heter. De mest vanlige fontene heter:
 
 * Arial
+
 * Courier New, Courier
+
 * Garamond
+
 * Georgia
+
 * Lucida Sans, Lucida Grande, Lucida
+
 * Palatino Linotype
+
 * Tahoma
+
 * Times New Roman, Times
+
 * Trebuchet
+
 * Verdana
 
 Ikke alle fonter finnes på alle datamaskiner, så vi trenger å angi en __reserve
@@ -262,11 +271,11 @@ Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html).
 <!doctype html>
 <html lang="no">
 <head>
-	<meta name="author" content="#">
-	<meta charset="UTF-8">
-	<meta name="description" content="En side laget for å finne katten Felix">
-	<meta name="keywords" content="Felix, katt, forsvunnet">
-	<title>Katten Felix er forsvunnet</title>
+    <meta name="author" content="#">
+    <meta charset="UTF-8">
+    <meta name="description" content="En side laget for å finne katten Felix">
+    <meta name="keywords" content="Felix, katt, forsvunnet">
+    <title>Katten Felix er forsvunnet</title>
 
   <!--- CSSen for siden -->
   <style>
@@ -322,14 +331,13 @@ Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html).
 </head>
 <body>
 <!-- Dette er et Kodeklubb-prosjekt. Felix er ikke ekte og er egentlig ikke forsvunnet. -->
-	<h1>Forvunnet</h1>
-	<h2>Katten Felix</h2>
-	<img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png" alt="bilde av Felix" width="400">
-	<p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
-	<p class="stor">Han forvant fra hagen i går.</p>
-	<p id="uthevet">Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
-	<p class="stor">Takk!<p>
+    <h1>Forvunnet</h1>
+    <h2>Katten Felix</h2>
+    <img src="http://kodeklubben.github.io/web/forsvunnet_katt/missingcat.png" alt="bilde av Felix" width="400">
+    <p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
+    <p class="stor">Han forvant fra hagen i går.</p>
+    <p id="uthevet">Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
+    <p class="stor">Takk!<p>
 </body>
 </html>
 ```
-

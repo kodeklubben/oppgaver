@@ -56,6 +56,7 @@ __Tidsbruk__: Dobbeltime
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Eleven kan bruke CSS til å plassere bilder i x-,y- og z-retning.
+
     - [ ] Eleven kan bruke CSS for å plassere elementer bak andre elementer
     (z-retning
 
