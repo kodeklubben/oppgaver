@@ -7,6 +7,7 @@ translator: "Øistein Søvik"
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 En virkelig interessant bieffekt av å ha ett akselerometer er at den kan merke
@@ -44,6 +45,7 @@ bruker `==` for å teste likhet, ett enkelt likhetstegn `=` brukes for å
 deklarere variabler -- akkurat som vi deklarerte at bevegelsen skulle leses inn
 i `gesture` variabelen). Dersom bevegelsen er likt `face up` så skal displayet
 vise et smilefjes. Ellers så er enheten sur på oss!
+
 
 # Magic-8 {.activity}
 
@@ -99,20 +101,21 @@ deretter å vise et tilfeldig valgt svar.
 
 Er ikke dette det beste programmet noensinne skrevet?
 
-
 ## Utfordring: Litt juks {.challenge}
 
 Som en sann spåmann eller spåkvinne er det viktig at du kan påvirke resultatet
 til og alltid være positivt eller negativt.
 
-
 ## Sjekkliste {.check}
 
-- [ ] Skriv om koden slik at ved å trykke på `A` mens den ristes vises ett *positivt* resultat. 
+- [ ] Skriv om koden slik at ved å trykke på `A` mens den ristes vises ett
+      *positivt* resultat.
 
-- [ ] Skriv om koden slik at ved å trykke på `B` mens den ristes vises ett *negativ* resultat. 
+- [ ] Skriv om koden slik at ved å trykke på `B` mens den ristes vises ett
+      *negativ* resultat.
 
-- [ ] Skriv om koden slik at ved å trykke både på `A` **og** `B` vises ett nøytralt resultat.
+- [ ] Skriv om koden slik at ved å trykke både på `A` **og** `B` vises ett
+      nøytralt resultat.
 
 Merk at koden skal fortsatt virke som før om ingen knapper trykkes, med andre
 ord dersom enheten bare ristes skal den vise et tilfeldig resultat.
