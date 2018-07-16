@@ -6,13 +6,14 @@ language: nb
 
 # Informasjon til veiledere
 
-
 ## Læringsmål
 
 Oppgaven «Buzzer» introduserer følgende konsepter:
 
 + Bruke en buzzer for å spille lyd.
+
 + Lysfølsom motstand.
+
 + ``tone``, ``analogRead`` og ``map``.
 
 # Forklaringer
@@ -27,7 +28,6 @@ i kretsen, jo høyere vil tallet vi leser ut være.
  Dvs. at jo mer lys det er i rommet, jo lavere tall leser vi ut.
 
 ## PWM
-
 
 PWM står for "Pulse With Modulation". PWM gjør at vi kan sende et "analogt"
 signal på en digital pin. På en ikke-PWM pin vil en sende enten HIGH eller LOW
