@@ -18,7 +18,7 @@ ringene til å fungere som de skal. Andre del handler om å få Flakse til å fl
 som en fugl, snu seg i luften etter piltastene og gi poeng når Flakse flyr
 gjennom en ring.
 
-![](3d_flakser.png)
+![Illustrasjon av 3d-flakser med fungerende ringer](3d_flakser.png)
 
 ## Oppgaven passer til: {.check}
 
@@ -34,7 +34,6 @@ et lengre undervisningsopplegg.
 ## Kompetansemål {.challenge}
 
 - [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
-
 
 - [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske
       former i konstruksjon og som dekorative formelementer
@@ -76,7 +75,6 @@ et lengre undervisningsopplegg.
 - [ ] Elevene kan kontrollere avstanden mellom elementer i et koordinatsystem
       ved å bruke variabler.
 
-
 - [ ] Elevene kan forklare hvordan tyngdekraften fungerer, og at alle objekter
       påvirkes av denne.
 
@@ -107,6 +105,7 @@ et lengre undervisningsopplegg.
 ## Fremgangsmåte
 
 [Klikk her for å se oppgaveteksten for del 1.](../3d_flakser_del1/3d_flakser_1.html){target=_blank}
+
 [Klikk her for å se oppgaveteksten for del 2.](../3d_flakser_del2/3d_flakser_2.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
@@ -127,4 +126,3 @@ oppgaven enda._
 - [ ] Her er en
       [Youtube-video](https://www.youtube.com/watch?v%3DfQoJZuBwrkU){target=_blank}
       av Flappy Bird, som spillet er basert på.
-
