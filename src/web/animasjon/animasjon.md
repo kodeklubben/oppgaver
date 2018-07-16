@@ -5,6 +5,7 @@ level: 2
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS. Under
@@ -277,6 +278,7 @@ må da heller endre på `animation-duration`.
 
 
 # Steg 3: Pakke ut filene {.activity}
+
 Nå skal vi animere øksen og Minecraft-logoen:
 
 ![Viser en animasjon av teksten "minecraft" som dukker opp og en hakke som
@@ -397,6 +399,7 @@ Så legger vi animasjonen til øksen.
 
 </hide>
 </toggle>
+
 
 # Steg 5: Flyvende logo {.activity}
 

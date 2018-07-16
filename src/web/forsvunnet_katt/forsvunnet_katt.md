@@ -95,9 +95,7 @@ med forskjellige tall.
 ```
 
 
-
 # Steg 3: Legg til beskrivelse av Felix {.activity}
-
 
 Under bildet vil vi skrive en beskrivelse av Felix, og gi noen detaljer om når
 og hvor han forsvant. For dette kan vi skrive noen paragrafer.

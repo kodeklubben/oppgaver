@@ -5,6 +5,7 @@ author: 'Teodor Heggelund'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Målet med oppgaven er å _vise_ hvor HTML finnes i virkelige nettsider, slik som
@@ -13,6 +14,7 @@ kjennskap til HTML, samt enkelt kunne endre på nettsider du er inne på.
 
 Denne oppgaven er demonstrert med nettleseren Google Chrome. Bruk Google Chrome
 hvis du har den.
+
 
 # Steg 1: Se {.activity}
 
@@ -159,6 +161,7 @@ Disse kan være lenker (`<a>`) eller bokser (`<div>`).
 
 Vi kan fremdeles finne og se alle de usynlige kodene når vi bruker `Inspiser`!
 
+
 # Steg 3: Skap {.activity}
 
 Nå skal vi leke! La oss putte denne rakkeren
@@ -178,6 +181,7 @@ på **alle kursene**!
 - [ ] Endre alle bildene ved å redigere `src`-attributten til `<img>`-taggen:
 
   ![Bilde av hvordan endre src-attributten til img-taggen på kodeklubbens nettsider](ny_og_bedre_src.png)
+
 
 # Steg 4: Masse moro! {.activity}
 
