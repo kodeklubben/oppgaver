@@ -5,6 +5,7 @@ author: 'Geir Arne Hjelle'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 I denne leksjonen vil vi se litt på hvordan vi kan få en robot til å
@@ -12,6 +13,7 @@ bygge et hus for oss. Underveis vil vi lære hvordan vi kan bruke
 løkker og funksjoner for å gjenta ting som gjøres flere ganger.
 
 ![Bilde av en robot som bygger et hus](bygg_et_hus.png)
+
 
 # Steg 1: Prøv selv først {.activity}
 
@@ -76,6 +78,7 @@ I de neste stegene vil vi utvikle et mer avansert program for
 husbyggeroboten vår. Underveis vil vi lære om noen nye kommandoer og
 konsepter som gjør at programmet blir både kraftigere og enklere.
 
+
 # Steg 2: Flyvende robot {.activity}
 
 Et problem du kanskje allerede har oppdaget er at roboten innimellom
@@ -122,6 +125,7 @@ tenkt. Et eksempel på dette er i den følgende koden, hvor meningen var
   Når du kjører programmet nå klarer roboten å bygge hele firkanten
   uten å krasje! Vi vil bruke `turtle.placeDown()` i resten av denne
   leksjonen.
+
 
 # Steg 3: Bygg en vegg {.activity}
 
@@ -195,6 +199,7 @@ etterhvert som du skriver det inn.
 Prøv å endre verdiene av variablene `hoyde` og `lengde`. Gjør roboten
 som du ber den om?
 
+
 # Steg 4: Funksjoner {.activity}
 
 Vi har nå lært roboten hvordan den lager en vegg. For at vi enkelt
@@ -267,6 +272,7 @@ kan bruke på samme måte som de innebygde kommandoene (som for eksempel
 
 Endre tallene `3` og `5` i den siste linjen. Bygger roboten vegger av
 forskjellig størrelse?
+
 
 # Steg 5: Bygg et hus {.activity}
 
@@ -355,6 +361,7 @@ Nå har huset vårt fått fire vegger. Vi skal snart se på hvordan vi kan
 bygge taket, men først skal vi se på hvordan vi kan passe på at
 roboten har materiale å bygge med.
 
+
 # Steg 6: Mer byggemateriale {.activity}
 
 Et problem du helt sikkert har oppdaget nå, er at roboten stadig går
@@ -437,6 +444,7 @@ Nå som roboten bruker flere slotter kan du eksperimentere med å legge
 forskjellig materiale i de forskjellige slottene. På den måten kan du
 for eksempel få roboten til å bygge et fargerikt hus!
 
+
 # Steg 7: Vi trenger et tak! {.activity}
 
 Nå er det på tide å lære roboten hvordan den bygger tak på huset vårt!
@@ -495,6 +503,7 @@ Nå er det på tide å lære roboten hvordan den bygger tak på huset vårt!
       end
   end
   ```
+
 
 # Steg 8: Dører og vinduer {.activity}
 
@@ -561,6 +570,7 @@ dette ligner et skikkelig hus er dører og vinduer.
   Legg merke til at vi bruker det spesielle ordet `nil` hvis vi ikke
   skal lage en dør eller et vindu på en gitt vegg. Skjønner du hvor
   vinduene på de forskjellige veggene plasseres?
+
 
 # Steg 9: Forskjellige hus {.activity}
 
