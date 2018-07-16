@@ -15,5 +15,7 @@ buttons, gyroscope, Bluetooth, etc. that we can code.
 ## Resources:
 
 - [Block Editor](https://makecode.microbit.org)
+
 - [Python Online Editor](http://python.microbit.org)
+
 - [Python Mu Editor](http://codewith.mu/).
