@@ -16,10 +16,14 @@ Det kan se ut som mye kode, men det bare den øverste delen du skal endre på. E
 lite stykke ned vil det være en overskrift som ser slik ut:
 
 ```python
+
 ###############################################################################
 
+
 # Library code
+
 ###############################################################################
+
 ```
 
 All koden under denne overskriften kan du bare overse. Dette er koden som
@@ -72,7 +76,11 @@ Her er et eksempel på hvordan funksjonen kan fungere:
 ```python
 >>> remaining_letters =['b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
                         'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w',
-                        'x', 'y', 'z'] # alle bokstaver fra b til z
+                        'x', 'y', 'z'] 
+
+
+# alle bokstaver fra b til z
+
 >>> secret_word = 'banan'
 >>> create_display_string(secret_word, remaining_letters)
 '_ a _ a _'
@@ -146,8 +154,11 @@ Dette må du gjøre:
 - [ ] Lag følgende nøkkel/verdi-par:
 
   * Nøkkel: `"running"` Verdi: `True`
+
   * Nøkkel: `"used_tries"` Verdi: `0`
+
   * Nøkkel: `"pressed_button"` Verdi: `""` (En tom streng)
+
   * Nøkkel: `"help_text"` Verdi: `"Guess a letter!"`
 
 - [ ] For å velge et tilfeldig ord skal vi bruke `random.choice()`. Ved å gi denne
@@ -164,7 +175,7 @@ Dette må du gjøre:
 
   - [ ] Bruk `enumerate()` og gå igjennom de 26 første bokstavene i
         `string.ascii_letters`, og legg disse til `state["remaining_letters"]`.
-      
+
 
     **Hint:** Bruk `lst.append(elm)`
 
@@ -253,7 +264,7 @@ Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
 
 - [ ] Når spilleren taper kan det se ut omtrent som i bildet under. Pass på det
       følgende:
-  
+
   - [ ] Det skal ikke være mulig å taste inn flere bokstaver. Dersom du har
         mulighet til dette har du glemt å sette `state["running"] = False` i
         `game_over()`.
