@@ -5,6 +5,7 @@ author: 'Teodor Heggelund'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 I denne oppagaven skal vi lære hvordan vi kan tegne med Elm.
@@ -15,10 +16,12 @@ Her er noen vanlige elementer i webprogrammering:
     - "Dette er en overskrift"
     - "Dette er et avsnitt"
     - "Dette er en liste"
+
 - **CSS**: Utseende.
     - "Slik skal en overskrift se ut"
     - "Slik skal et avsnitt se ut"
     - "Slik skal en liste se ut"
+
 - **Elm** eller **Javascript**: Logikk
     - "Dette skjer når jeg trykker på denne knappen"
     - "Når jeg skriver i dette feltet, ser jeg at det andre forandrer seg"
@@ -30,8 +33,8 @@ Vi skal nå bruke SVG for å tegne:
     - "Sirkelen har sentrum i punktet (3,4)"
     - "Sirkelen har bredde (diameter) 100"
 
-Jeg kommer til å vise eksempler med **Try Elm**. Hvis du vil kjøre nettsiden lokalt,
-er det helt greit.
+Jeg kommer til å vise eksempler med **Try Elm**. Hvis du vil kjøre nettsiden
+lokalt, er det helt greit.
 
 
 # Steg 1: sirkel og rektangel {.activity}
@@ -81,7 +84,6 @@ Potential problems could be:
 ```
 
 Da må vi installere pakken `svg`.
-
 
 - [ ] Åpne et kommandovindu i **samme mappe som du har lagret Elm-programmet
       ditt**
@@ -145,6 +147,7 @@ main =
 y er fra 0 til 200.
 
 - [ ] Inspiser sirkelen. Hvor mange pixler tar sirkelen?
+
 - [ ] Inspiser rektangelet. Hvor stort er dette?
 
 Jeg har satt et koordinatsystem med "bredde" 200 til å passe til 500 pixler på
@@ -177,9 +180,9 @@ vi starter å lese i `(0,0)`:
 
 ```
 (0,0) ---- (100, 0) ---- (200, 0) ---→ x
-  |                                
+  |
 (0, 100)   (100, 100)    (200, 100)
-  |                                
+  |
 (0, 200)   (100, 200)    (200, 200)
   |
   ↓
@@ -228,6 +231,7 @@ Nå ser du ikke sirkelen i det hele tatt.
   ```
 
 - [ ] Ser du noe nå? Hva kommer øverst?
+
 
 # Steg 2: kurver {.activity}
 
@@ -318,8 +322,8 @@ main =
 
 - [ ] Endre sentrum (`cx` og `cy`) så sirkelen er i midten.
 
-- [ ] Endre radius (`r`) på sirkelen så sirkelen blir stor! Hvor stor kan du gjøre
-  den uten at den kuttes av i kantene?
+- [ ] Endre radius (`r`) på sirkelen så sirkelen blir stor! Hvor stor kan du
+  gjøre den uten at den kuttes av i kantene?
 
 ## Bezierkurver {.protip}
 

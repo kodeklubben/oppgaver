@@ -13,34 +13,48 @@ I denne oppgaven skal vi lage vårt eget spill!
 Vi lært mye allerede! Her er en oppsummering:
 
 **Verktøy til Elm-utvikling**:
+
 - Bruke Try Elm til å lage programmer
+
 - Bruke Elm Repl til å lage funksjoner
+
 - Bruke Elm Repl til å teste funksjoner
+
 - Bruke Elm Reactor til å lage programmer
 
 **Programmeringsspråket Elm**:
+
 - Vite hva en funksjon er
+
 - Vite hva en modul er
 
 **Teknologi for å vise innhold til en nettleser**:
+
 - HTML
+
 - SVG
 
 **Snakke med omverdenen**:
+
 - Se hva brukeren skriver i input-felter
 
 Det er slettes ikke verst! Det er lov å være stolt!
 
 For å kunne lage skikkelige spill, mangler vi to byggesteiner:
+
 - Hvordan simulerer vi *tid*?
+
 - Hvordan ser jeg hva brukeren trykker på av taster mens tiden går?
 
 Det er hva vi skal gå gjennom nå!
 
 <!--
 Ideer til "spill":
+
 - Nedtellingstimer
+
 - Reaksjonstid. Beskjed på skjermen, mål reaksjonstiden.
+
 - Simulering av tyngdekraft.
 
 -->
@@ -69,8 +83,11 @@ main =
 
 Tidligere har nettsiden kun endret seg hvis brukeren har gjort noe. Da trenger
 vi bare å si noe om:
+
 1. hvilken data vi skal lagre (`model`),
+
 2. hvordan dataen skal vises (`view`), og
+
 3. hvordan brukerens handlinger skal oppdatere tilstanden i programmet vårt
    (`update`).
 
@@ -93,8 +110,10 @@ Her er det tre forskjeller:
 
 1. Vi bruker `Html.program` i stedet for `Html.beginnerProgram`, som lar oss
    lage mer komplekse programmer
+
 2. Vi bruker `init` i stedet for `model` til å beskrive hvordan ting skal være
    når vi starter opp
+
 3. Vi definerer abonnementer, `subscriptions`!
 
 
@@ -103,7 +122,9 @@ Her er det tre forskjeller:
 Vi kan abonnere på mange forskjellige ting:
 
 1. Når det har gått X sekunder (`Time`)
+
 2. Når brukeren trykker på **Pil opp** (`Keyboard`)
+
 3. Når noen andre sender oss en beskjed (`WebSocket`)
 
 
@@ -114,7 +135,6 @@ Her er en enkel sekundteller:
 ```elm
 import Html exposing (Html, text)
 import Time exposing (Time, second)
-
 
 
 main =
@@ -250,6 +270,7 @@ Hvert sekund, kjører vi modellen vår gjennom funksjonen `bump`. Den "dytter"
 - [ ] Utfordring: Timeren får ikke telle til høyere enn 10. Når den kommer til 10,
   skal den begynne fra start igjen! Tips: bruk
   et [if-uttrykk](http://elm-lang.org/examples/if).
+
 
 # Gå fort, gå sakte {.activity}
 
