@@ -16,7 +16,7 @@ faktisk kjem mot flaksaren, og så forsvinn forbi. Prosjektet er delt inn i to
 delar sidan det er ganske mykje me skal gjennom. I denne første delen skal me få
 ringane til å fungera som dei skal. La oss sette i gong!
 
-![](3d_flakser.png)
+![Illustrasjon av 3D-flaksar med fungerande ringar](3d_flakser.png)
 
 # Steg 1: Lag ringar, og få dei til å kome mot deg {.activity}
 

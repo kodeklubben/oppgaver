@@ -16,7 +16,7 @@ gjenbruke mykje av teknologien. Me skal gjera det same! Du må derfor ha laga
 prosjektet. I Asteroids er målet å beskytta romskipet mot asteroidar ved å skyta
 dei i småbitar.
 
-![](asteroids.png)
+![Illustrasjon av eit ferdig Asteroids-spel](asteroids.png)
 
 # Oversikt over prosjektet {.activity}
 
@@ -64,7 +64,7 @@ kattefiguren og legg på ein stjernebakgrunn.
 - [ ] No kan du dra romskip-kopien ut frå ryggsekken, og til figurvindauget i
 det nye prosjektet.
 
-  ![](ryggsekk.png)
+  ![Bilete som syner korleis du dreg Romskip-kopien frå ryggsekken i Scratch](ryggsekk.png)
 
   Du vil no sjå at alle draktane, alle variablane og alle skripta til romskipet
   er kopiert over. Du kan rydda opp litt ved å slette skript som ikkje har noko
@@ -180,7 +180,7 @@ figur med vektorgrafikk. Start med ein enkel firkant, og bruk deretter
 `Bøy`-verktøyet for å leggje til fleire hjørnepunkt og flytta dei rundt som i
 figuren under.
 
-  ![](flyttpunkt.png)
+  ![Bilete av ein asteroidefigur i Scratch](flyttpunkt.png)
 
 - [ ] Også for asteroidane vil me bruka kloner. Lag eit skript som
 `skjuler`{.blocklooks} figuren og lager eit par asteroide-kloner tilfeldige
