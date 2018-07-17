@@ -10,7 +10,7 @@ language: nn
 
 I dag skal me laga eit nyttig spel, nemleg eit spel som vil hjelpa oss å læra andre ting. Me skal få hjelp til å læra gongetabellen!
 
-![](gangemesteren.png)
+![Illustrasjon av eit ferdig gongemeister-spel](gangemesteren.png)
 
 # Steg 1: Læremeisteren {.activity}
 
@@ -50,7 +50,7 @@ _reknemaskin_. Me skal nå sjå på korleis me får Scratch til å gonge saman t
 
 - [ ] For å få Scratch til å rekne brukar me `Operatorer`{.blockoperators}-klossar. Prøv for eksempel å dra gongeklossen - med `*`{.blockoperators}-teiknet - til skriptområdet på høyresida. Skriv inn to tal og klikk på klossen. Scratch reknar då ut svaret på gongestykket.
 
-    ![](gangeoperator.png)
+    ![Bilete av Scratch som reiknar ut 3 gonger 4](gangeoperator.png)
 
 - [ ] Me vil nå kombinera gongeklossen med `tilfeldig tal`{.blockoperators}-klossen, men for å få dette til treng me ein  måte å hugse dei tilfeldige tala: **Variabler**.  Gå til `Data`{.blockdata}-kategorien og lag tre nye variabler: `tal1`{.blockdata}, `tal2`{.blockdata}, og `riktig svar`{.blockdata}. La dei gjelde for alle figurar.
 
@@ -65,7 +65,7 @@ _reknemaskin_. Me skal nå sjå på korleis me får Scratch til å gonge saman t
 
 - [ ] Prøv å klikka på skriptet for å testa det (sidan det ikkje startar med eit grønt flag kan me ikkje testa det på den vanlige måten). Om du ser på variablane på scenen skal dei endre seg kvar gong du klikkar på skriptet. Er `rett svar`{.blockdata} rett?
 
-    ![](variabler.png)
+    ![Bilete av to tal og produktet deira](variabler.png)
 
 # Steg 3: Eit skikkeleg spørsmål {.activity}
 
@@ -83,7 +83,7 @@ La oss sjå om me kan setje saman desse tala til eit skikkeleg spørsmål.
 
     Dette gir oss plass til tre tal eller ord. Her kan me putta inn `tal1`{.blockdata}, teksten ` gonger ` og `tal2`{.blockdata}. Pass på at du har mellomrom før og etter `gonger`, det ser best ut da. Om du klikkar på den første `sett sammen`{.blockoperators}-klossen vil du sjå korleis den ferdige teksten blir.
 
-    ![](sett_sammen.png)
+    ![Bilete av sett sammen-blokkane i Scratch](sett_sammen.png)
 
 - [ ] Legg denne klossen til nedst i `Nytt spørsmål`-skriptet:
 
@@ -185,7 +185,7 @@ __Klikk på det grøne flaget.__
 
 Til slutt skal me sjå på korleis`Læremeister` kan gje oss litt hjelp med gongestykka. Ein måte å tenkje på gongestykker er at me har mange ting som me plasserar i eit rutenett. For eksempel kan me tenkje på **3 gonger 4** som **3** rader med **4** elefanter i kvar som dette:
 
-![](elefanter.png)
+![Bilete av 3*4=12 smilande elefantar](elefanter.png)
 
 Dersom me ikkje hugsar kor mykje 3 ganger 4 er, kan me telje elefantar og finne ut at svaret er **12**.
 

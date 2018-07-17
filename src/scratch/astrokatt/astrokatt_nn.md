@@ -10,7 +10,7 @@ language: nn
 
 Katten vår har så lyst å vera ein astronaut, la oss sjå om me kan hjelpa han? Undervegs vil me læra korleis me flyttar figurar rundt på skjermen, og korleis kattar blir påvirka av gravitasjonskreftene frå jorda.
 
-![](astrokatt.png)
+![Bilete av ein katt i verdsrommet](astrokatt.png)
 
 # Steg 1: Ein flygande katt {.activity}
 
@@ -99,7 +99,7 @@ Nå skal me senda den flygande katten ut i verdsrommet.
 
 - [ ] Vel først ein litt lys farge. Klikk deretter på Ellipse-verktøyet til høgre på skjermen, og teikn ein ellipse rundt hovudet på katten.
 
-    ![](katt_oksygentank.png)
+    ![Bilete av ein katt med ein glashjelm på hovudet](katt_oksygentank.png)
 
 Til slutt lagar me og ein jordklode, som katten kan fly rundt.
 
