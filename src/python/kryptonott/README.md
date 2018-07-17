@@ -48,7 +48,7 @@ __Tidsbruk__: Dobbelttime eller mer
 
 - [ ] __Informasjonsteknologi 2, VG3__: teste og finne feil i programmer ved å
        bruke vanlige teknikker.
-       
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare og bruke andres kode i eget prosjekter.

@@ -40,9 +40,10 @@ __Tidsbruk__: Dobbelttime
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke matematiske begreper til å beskrive geometriske mønster
-       og fraktaler.
+      og fraktaler.
+
 - [ ] Elevene kan bruke løkker, tester og rekursjon til å generere geometriske
-       mønster og fraktaler.
+      mønster og fraktaler.
 
 ## Forslag til vurderingskriterier {.challenge}
 

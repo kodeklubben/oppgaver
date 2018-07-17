@@ -53,10 +53,10 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-       oppgaven, for eksempel ved å gjøre en eller flere av variasjonene
-       nedenfor.
+  oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
+
 - [ ] __Forutsetninger__: Kjennskap til Python. Elevene burde ha gjort [Enkle
        objekter](../enkle_objekter/enkle_objekter.html) først.
 

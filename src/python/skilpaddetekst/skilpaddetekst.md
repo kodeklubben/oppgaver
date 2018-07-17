@@ -234,7 +234,6 @@ vi kan gi til funksjonen når vi skal kjøre den.
   streker](turtle_newline.png)
 
 
-
 # Steg 5: Skilpadder på skråplanet {.activity}
 
 Nå har vi bare to tegn igjen å lage! Nemlig `/` og `\`. Disse tegnene må tegnes
@@ -432,8 +431,6 @@ from time import sleep
 
 Skilpadden vil nå lage teksten, vente i fem sekunder (`sleep(5)`), og nullstille
 vinduet ved hjelp av `reset()` før den starter på nytt.
-
-
 
 ## Utfordringer {.challenge}
 
