@@ -14,7 +14,6 @@ over hindringer.
 ![Illustrasjon av det ferdige strekmann spillet](animasjon_spill.gif "Slik ser spillet ut")
 
 
-
 # Steg 1: Ny fil {.activity}
 
 Begynn med å lage en fil som kan kjøres med Pygame Zero.
@@ -32,7 +31,6 @@ Begynn med å lage en fil som kan kjøres med Pygame Zero.
 
 - [ ] Lagre og kjør programmet med `pgzrun run_stickman.py`. Se til at du får
       opp et vindu.
-
 
 
 # Steg 2: Hindringer {.activity}
@@ -88,7 +86,6 @@ av en klasse.
 
 Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 
-
 ## Sjekkliste {.check}
 
 - [ ] Lag en strekmann (`stick_man`) fra klassen [`Actor`] som bruker bildet
@@ -117,7 +114,6 @@ Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 [`Actor`]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
 
 
-
 # Steg 4: Funksjonene draw() og update() {.activity}
 
 De fleste spill i [Pygame Zero] har funksjonene [`draw()`] og [`update()`].
@@ -127,7 +123,6 @@ endringer i spillet før de tegnes med `draw()`.
 [Pygame Zero]: https://pygame-zero.readthedocs.org/
 [`draw()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
 [`update()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
-
 
 ## Sjekkliste {.check}
 
@@ -142,9 +137,12 @@ endringer i spillet før de tegnes med `draw()`.
   ```
 
 - [ ] Du må nå lage `update()`. Du trenger følgende:
+
   - Få boksen til å flytte seg mot venstre.
+
   - Hvis boksen er ute av bildet på venstre side, flytt den til høyre side av
     vinduet.
+
   - Hvis strekmannen er truffet, skriv "Du ble truffet!" til terminalen.
 
   ```python
@@ -157,7 +155,6 @@ endringer i spillet før de tegnes med `draw()`.
       if "strekmannen er truffet":
           print("Du ble truffet!")
   ```
-
 
 ## Tips {.protip}
 
@@ -218,11 +215,15 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
   Koden forteller at:
 
   - Vi skal lage en animasjon med `stick_man`.
-  - Bevegelsen skal være av type `decelerate`, som er høy hastighet i begynnelsen,
-    deretter saktere og saktere.
+
+  - Bevegelsen skal være av type `decelerate`, som er høy hastighet i
+    begynnelsen, deretter saktere og saktere.
+
   - Animasjonen skal vare i 0.4 sekunder.
+
   - `bottom` av `stick_man` skal flyttes til `HEIGHT - box.height*1.5`, altså
     1,5 gang av høyden til boksen.
+
   - Animasjonen gis navnet `jump_up`.
 
 - [ ] Prøv programmet. Hopper strekmannen?
@@ -247,7 +248,6 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
 [`on_key_down()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
 [`animate()`]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
 
-
 ## Tips {.protip}
 
 Dette er en skisse på hvordan koden din skal se ut:
@@ -262,6 +262,7 @@ def on_key_up(key):
 def back_down():
     # Animasjon ned
 ```
+
 
 # Steg 6: Poeng {.activity}
 

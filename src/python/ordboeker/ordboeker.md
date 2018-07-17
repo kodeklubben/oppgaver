@@ -40,10 +40,18 @@ Vi kan bruke den samme skrivemåten for å lage nye nøkkel/verdi-par eller endr
 verdien knyttet til en nøkkel:
 
 ```python
->>> d['farge'] = 'colour'    # legger til en ny verdi
+>>> d['farge'] = 'colour'    
+
+
+# legger til en ny verdi
+
 >>> d
 {'ost': 'cheese', 'brød': 'bread', 'farge': 'colour'}
->>> d['farge'] = 'color'     # endrer verdien
+>>> d['farge'] = 'color'     
+
+
+# endrer verdien
+
 >>> d
 {'ost': 'cheese', 'brød': 'bread', 'farge': 'color'}
 ```
@@ -58,6 +66,7 @@ En tom ordbok opprettes slik:
 
 **Merk:** Bare tekst og tall kan brukes som nøkler, men verdiene kan være hva
 som helst: strenger, tall, lister, ordbøker, funksjoner, osv.
+
 
 # {.check}
 
@@ -127,6 +136,7 @@ ost 1
 brød 3
 ```
 
+
 # {.check}
 
 Vi skal nå lage et handleliste-program som lar brukeren velge hva og hvor mye
@@ -150,7 +160,9 @@ Dette må du gjøre:
 - [ ] Så lenge gjenstanden ikke er en tom streng `""`:
 
   * Be om antall.
+
   * Lagre til en ordliste.
+
   * Bruk gjenstanden som nøkkel og antallet som verdi.
 
 - [ ] Skriv ut handlelista.

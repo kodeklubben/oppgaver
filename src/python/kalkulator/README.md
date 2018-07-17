@@ -103,6 +103,7 @@ Grunnen til at koden ovenfor gir ut `False` handler om at `is` sammenligner to
 oppsumert bruker vi gjerne `is`for å sammenlikne teststrenger eller objekter
 mens `==` forbeholdes størrelser.
 
+
 # Robusthet med tekst som input
 
 Noen elever ergrer seg kanskje over at om en skriver inn `* ` så godtar ikke

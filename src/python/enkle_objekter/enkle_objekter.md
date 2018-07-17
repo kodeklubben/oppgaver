@@ -11,7 +11,9 @@ language: nb
 I denne oppgaven skal vi gi en enkel innføring til klasser og objekter (ordene
 forklares senere i teksten).
 
+
 # Ordbøker {.activity}
+
 
 # {.protip}
 
@@ -28,10 +30,15 @@ circle = {
 Vi kan også hente ut og endre variablene:
 
 ```python
+
+
 # endrer radiusen til 5
+
 circle["radius"] = 5
 
+
 # skriver ut fargen på sirkelen
+
 print(circle["color"])
 ```
 
@@ -43,7 +50,11 @@ import math
 
 def circle_area(circle):
     radius = circle["radius"]
-    # formula: A = pi * r * r
+    
+
+
+# formula: A = pi * r * r
+
     area = math.pi * radius * radius
     return area
 ```
@@ -54,7 +65,9 @@ Så kaller vi funksjonen:
 print(circle_area(circle))
 ```
 
+
 # Klasser og objekter {.activity}
+
 
 # {.protip}
 
@@ -67,12 +80,17 @@ objektet kan ha. Vi kan lage en `Circle`-klasse, også lage et objekt av typen
 Dette er enklere å forstå med ett eksempel:
 
 ```python
+
+
 # Vi lager Circle-klassen:
+
 class Circle:
     radius = 3
     color = "red"
 
+
 # Så lager vi circle-objektet
+
 circle = Circle()
 ```
 
@@ -85,10 +103,15 @@ nå kommer en funksjon.
 Vi kan hente ut og endre variablene til objektet:
 
 ```python
+
+
 # Endrer på radiusen
+
 circle.radius = 5
 
+
 # Skriver ut fargen
+
 print(circle.color)
 ```
 
@@ -138,8 +161,6 @@ def circle_area(circle):
     return area
 
 
-
-
 circle["radius"] = 5
 print(circle["color"])
 print(circle_area(circle))
@@ -171,6 +192,7 @@ print(circle.area())
 
 Vi kommer dermed til å bruke klasser i de neste oppgavene - det er minst like
 enkelt som ordbøker, og man kan gjøre mer avanaserte ting med klasser.
+
 
 # {.check}
 

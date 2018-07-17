@@ -19,7 +19,6 @@ enklere og mer oversiktlige.
 
 ## Sjekkliste {.check}
 
-
 - [ ] Vi begynner med å bruke det du allerede kan om tegning med skilpadden.
       Kjør dette programmet:
 
@@ -46,7 +45,6 @@ enklere og mer oversiktlige.
   ```
 
   ![Bilde av en sky med en stjerne og skilpadde](sky-star.png)
-
 
 - [ ] Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen. Sørg
       for å forstå alle før du går videre.
@@ -230,9 +228,10 @@ skjermen.
   done()
 
   ```
+
 - [ ] Vi bruker funksjonen `setpos(x, y)` til å flytte skilpadden til posisjonen
-      (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til
-      posisjonen (200, 200). Prøv å endre på tallene i denne funksjonen!
+  (x,y) på skjermen. `setpos(200, 200)` flytter altså skilpadden til posisjonen
+  (200, 200). Prøv å endre på tallene i denne funksjonen!
 
   ![Bilde av en stjerne i et koordinatsystem](sky-xy.png)
 
