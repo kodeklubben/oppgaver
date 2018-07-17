@@ -29,7 +29,6 @@ __Tidsbruk__: Dobbelttime eller mer
       programmering, slik som løkker, tester, variabler, funksjoner og enkel
       brukerinteraksjon
 
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare hvordan løkker, tester og variabler fungerer, og
@@ -37,9 +36,8 @@ __Tidsbruk__: Dobbelttime eller mer
 
 - [ ] Eleven kan forklare hvordan brukeren kan styre figuren med piltastene, og
       hvordan figuren interagerer med labyrinten.
-      
-- [ ] Eleven kan forklare hvordan tilfeldighetsgeneratoren fungerer.
 
+- [ ] Eleven kan forklare hvordan tilfeldighetsgeneratoren fungerer.
 
 ## Forslag til vurderingskriterier {.challenge}
 
@@ -50,7 +48,6 @@ __Tidsbruk__: Dobbelttime eller mer
 
 - [ ] Dette er en oppgave hvor elevene fint kan prøve hverandres labyrinter og
       vurdere hverandre.
-
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -65,6 +62,7 @@ __Tidsbruk__: Dobbelttime eller mer
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
 oppgaveteksten.](../labyrint/labyrint.html){target=_blank}
+
 
 # Steg 3: Utforskeren kan ikke gå gjennom veggen {.activity}
 
@@ -104,7 +102,6 @@ oppgaveteksten.](../labyrint/labyrint.html){target=_blank}
       problemet er presentert i tipsboksen nederst i [steg 5 i
       oppgaven](labyrint.html#tips-3).
 
-
 ## Variasjoner {.challenge}
 
 - [ ] Dette er et introduksjonsprosjekt, og elevene ledes derfor ganske
@@ -134,4 +131,4 @@ til å snakke om hvordan tegneverktøyet i Scratch fungerer og gi dem noen tips
 til hvordan man bruker det effektivt.
 
 - [ ] For de mer avanserte elevene kan du også vise frem følgende kode som gjør
-en bedre sjekk av kollisjon med veggen. TODO
+en bedre sjekk av kollisjon med veggen.

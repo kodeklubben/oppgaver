@@ -18,7 +18,7 @@ ringene til å fungere som de skal. Andre del handler om å få Flakse til å fl
 som en fugl, snu seg i luften etter piltastene og gi poeng når Flakse flyr
 gjennom en ring.
 
-![](3d_flakser.png)
+![Illustrasjon av et ferdig 3D-Flakser spill](3d_flakser.png)
 
 ## Oppgaven passer til: {.check}
 

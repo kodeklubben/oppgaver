@@ -13,7 +13,7 @@ spill før timen er over. Derfor er ideen bak Krabbeangrep! at skjelettet til
 spillet står ferdig, og at barna remikser det for å legge til ekstra
 funksjonalitet.
 
-![](krabbeangrep_remiks.png)
+![Illustrerer en remix av et krabbespill](krabbeangrep_remiks.png)
 
 ## Oppgaven passer til: {.check}
 
@@ -87,7 +87,8 @@ oppgaven enda._
 - [ ] Elevene kan lage en mer omfattende menyside, for eksempel med en
       hjelpeside.
 
-- [ ] Elevene kan legge inn økende vanskelighetsgrad, for eksempel at spillet går raskere jo lengre det varer.
+- [ ] Elevene kan legge inn økende vanskelighetsgrad, for eksempel at spillet
+      går raskere jo lengre det varer.
 
 ## Eksterne ressurser {.challenge}
 

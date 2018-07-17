@@ -72,10 +72,10 @@ oppgaven enda._
 
 - [ ] Elevene kan lage mer avanserte bevegelser for byttedyrene, for eksempel at
       de beveger seg bort fra JafseFisk.
-      
+
 - [ ] Elevene kan bruke variabler for å lage en poengteller eller en klokke som
       begrenser spillets varighet.
-      
+
 - [ ] Elevene kan endre spillet til å skulle kontrollere et av byttedyrene i
       stedet for JafseFisk.
 

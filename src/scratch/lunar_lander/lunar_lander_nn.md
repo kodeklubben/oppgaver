@@ -10,7 +10,7 @@ language: nn
 
 Lunar Lander vart opprinneleg utvikla på slutten av 1970-tallet. Målet med spelet er å landa eit romskip på månen. Sjølve kontrollen av romskipet vart vidareført i spelet Asteroids som vart utgitt året etter.
 
-![](lunar_lander.png)
+![Illustrasjon av eit ferdig Lunar Lander-spel](lunar_lander.png)
 
 # Oversikt over prosjektet {.activity}
 
@@ -34,7 +34,7 @@ Utfordringa i programmeringa av spelet er at romskipet kan rotera uavhengig av k
 
 Dette virkar umiddelbart kanskje litt vanskelig, men det er akkurat dette dei matematiske funksjonene `sinus` og `cosinus` gjer. I funksjonen nedanfor fortel for eksempel `cosinus(vinkel)` oss kor lang den vannrette streken er i forhold til den skrå streken.
 
-![](sinus_cosinus.png)
+![Bilete som syner samanhengen mellom vinkel, sinus og cosinus](sinus_cosinus.png)
 
 ## Sjekkliste {.check}
 
@@ -152,7 +152,7 @@ vidare frå brett til brett etterkvart som spelaren klarar å landa.
 
 - [ ] Prøv å animera bruken av motoren. For eksempel, kan du laga ein kopi av den flyvande romskip-drakten, og endre den som følger. Klikk først på romskipet, og deretter på den nye knappen som dukker opp nederst i knapperekka (markert med rødt i figuren til venstre). Denne vil dela opp romskip-figuren i mindre deler. Vel ein passande flammefarge, og bruk malingsspannet til å fargeleggje dei tre finnane på romskipet slik at det ser ut som flammer som kjem frå motoren.
 
-  ![](animer_romskip.png)
+  ![Bilete av ein kopi av romskipet med flammer på](animer_romskip.png)
 
 - [ ] Ein av utfordringane i det originale Lunar Lander-spelet var at spelaren berre hadde begrensa drivstoff tilgjengeleg. Du kan leggje til dette i ditt spel ved å laga ein `Drivstoff`{.blockdata}-variabel som du lar bli stadig mindre etterkvart som spelaren trykker på piltastane. Dersom romskipet går tomt for drivstoff kan du ignorere tastetrykka frå spelaren og berre la romskipet sveva til det til slutt kræsjer.
 

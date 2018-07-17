@@ -263,7 +263,7 @@ utfordringene nedenfor!
 Endre vanskelighetsgrad for spillet.
 
 * Forsøk å endre hvor lenge bildet vises frem og hvor raskt poengsummen minker.
-  
+
 * Forsøk å endre forvrengingen av bildet.
 
 * Forsøk å gjøre figurene likere hverandre eller mer forskjellig. Husk også å

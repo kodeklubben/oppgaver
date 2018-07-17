@@ -4,6 +4,7 @@ level: 2
 language: nb
 ---
 
+
 # Om oppgaven {.activity}
 
 I denne oppgaven skal elevene lage funksjoner som flytter og roterer ulike
@@ -19,7 +20,6 @@ __Trinn__: 3-7. trinn
 __Tema__: Rotasjon
 
 __Tidsbruk__: Enkelttime
-
 
 ## Kompetansemål {.challenge}
 
