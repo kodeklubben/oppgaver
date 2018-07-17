@@ -11,7 +11,7 @@ Bli med på en rundreise i Norge! Vi skal lage et spill hvor du styrer et
 helikopter rundt omkring et kart over Norge, mens du prøver å raskest mulig
 finne steder og byer du blir bedt om å besøke.
 
-![](norgestur.png)
+![Illustrasjon av et Norgestur spill](norgestur.png)
 
 ## Oppgaven passer til: {.check}
 
@@ -82,7 +82,8 @@ __Tidsbruk__: Dobbelttime eller mer.
       at et norgeskart brukes som bakgrunn i oppgaven, og må lastes ned av
       eleven selv. En beskrivelse for dette er gitt i steg 1 av oppgaven, ellers
       kan du gjøre følgende bildefil tilgjengelig for elevene:
-      ![](norgeskart.png)
+      
+      ![Bilde av norgeskartet](norgeskart.png)
 
 ## Fremgangsmåte
 

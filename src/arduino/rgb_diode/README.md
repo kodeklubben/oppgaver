@@ -9,6 +9,7 @@ language: nb
 ## Læringsmål
 
 + `for`- og `while`-løkker
+
 + Styre en RGB-lysdiode
 
 # Løsningsforslag for fargekombinasjonssykling {.activity}

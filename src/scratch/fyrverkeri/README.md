@@ -23,7 +23,6 @@ __Tema__: Koordinatsystem, bevegelser.
 
 __Tidsbruk__: Dobbelttime eller mer.
 
-
 ## Kompetansemål {.challenge}
 
 - [ ]  __Kunst og håndtverk, 2. trinn__: bruke dekorative elementer fra kunst og

@@ -147,6 +147,7 @@ og vi ønsker å vite når kappløpet er over.
       gå (4) steg
   slutt
   ```
+
 - [ ] Gjenta det samme for løvinnen.
 
 ## Test prosjektet {.flag}
