@@ -4,6 +4,7 @@ level: 4
 language: nb
 ---
 
+
 # Om oppgaven {.activity}
 
 Hoppehelt er litt inspirert av musikkspillet Guitar Hero. I Hoppehelt skal man
@@ -17,7 +18,7 @@ kloner!
 ## Oppgaven passer til: {.check}
 
  __Fag__: Kunst og håndtverk, matematikk, programmering.
- 
+
 __Anbefalte trinn__: 5.-10. trinn.
 
 __Tema__: Geometriske grunnformer, koordinatsystem, brukerinteraksjon.

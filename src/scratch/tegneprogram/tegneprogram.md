@@ -17,6 +17,7 @@ mye mer!
 
 ![Bilde av et tegneprogram](tegneprogram.png)
 
+
 # Forberedelser: Last ned bildefiler {.activity}
 
 Denne første delen kan du godt få hjelp fra en voksen til å gjøre!

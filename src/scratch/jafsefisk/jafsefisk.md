@@ -133,6 +133,7 @@ __Klikk på det grønne flagget.__
 - [ ] Hva gjør `sprett tilbake ved kanten`{.b}? Fjern klossen og se hva som
   skjer.
 
+
 # Steg 3: JafseFisk spiser byttet {.activity}
 
 *Nå skal vi la JafseFisk spise byttet!*

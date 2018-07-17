@@ -4,6 +4,7 @@ level: 3
 language: nb
 ---
 
+
 # Om oppgaven {.activity}
 
 Et bilde av en tilfeldig ting vises på tavlen. Men bildet er forvrengt, slik at

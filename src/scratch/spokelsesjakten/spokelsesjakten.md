@@ -176,6 +176,7 @@ __Klikk på det grønne flagget.__
 - [ ] Spør de voksne om du kan ta opp en egen lyd. Denne kan du bruke i
   stedet for tryllelyden.
 
+
 # Steg 4: Legg til tid og poeng {.activity}
 
 *Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre

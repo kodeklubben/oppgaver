@@ -16,6 +16,7 @@ Dette er et spill med tre figurer som endrer utseende. Din oppgave er
 
 ![Bilde av to dinosaurer og en banan](enarmet_banditt.png)
 
+
 # Steg 1: Lag en figur som bytter drakt {.activity}
 
 *La oss importere de bildene vi trenger for spillet.*
@@ -66,6 +67,7 @@ __Klikk på det grønne flagget.__
 
 Tilpass tiden i `vent`{.blockcontrol}-klossen. Hvilke tall gjør spillet for
 vanskelig eller for lett?
+
 
 # Steg 3: Frys ruletten! {.activity}
 
