@@ -15,7 +15,6 @@ planlegge hvordan appen skal se ut og hva den skal gjøre. Først må vi komme o
 med en kul idé. Hvilken type app har du lyst å lage?
 
 
-
 # Steg 1: Komme opp med en idé {.activity}
 
 Hvilken type app har du lyst å lage? Det kan av og til være vanskelig å komme
