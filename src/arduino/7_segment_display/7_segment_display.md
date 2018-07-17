@@ -14,9 +14,13 @@ La oss se på å få et display til å telle.
 ## Til denne oppgaven trenger du {.check}
 
 - [ ] 1 Arduino Uno
+
 - [ ] 1 breadboard
+
 - [ ] 2 motstander 1k Ohm (Fargekode: brun-svart-rød-gull)
+
 - [ ] 11 ledninger
+
 - [ ] 1 7-segment display
 
 ![utstyr](utstyr.jpg)
@@ -29,7 +33,9 @@ se hvilke pinner som lyser opp hvilken del av displayet.
 ## Sjekkliste {.check}
 
 - [ ] Motstand fra de to midterste pinnene på displayet.
+
 - [ ] Ledning fra andre enden av motstandene til ground.
+
 - [ ] Ledning fra pin 13 på Arduino til pinnen nederst til høyre på displayet.
 
 ![utforskning](utforskning.jpg)
@@ -64,7 +70,9 @@ lage den fulle kretsen.
 ## Sjekkliste {.check}
 
 - [ ] Motstand fra de to midterste pinnene på displayet.
+
 - [ ] Ledning fra andre enden av motstandene til ground.
+
 - [ ] Koble resten av ledningene som vist på bildet over.
 
 ## Skriv kode {.activity}
@@ -144,7 +152,9 @@ nytt og på nytt.
 ### Utfordringer {.challenge}
 
 - [ ] Klarer du å få displayet til å telle fra 0 til 9?
+
 - [ ] Klarer du å få punktumet til å blinke mens vi teller?
+
 - [ ] Klarer du å få punktumet til å blinke dobbelt så fort som vi teller?
 
 # Steg 4: Bruk en knapp for å telle oppover {.activity}
@@ -152,6 +162,7 @@ nytt og på nytt.
 ## Til denne delen trenger du i tillegg {.sjekkliste}
 
 + 2 ledninger.
+
 + 1 trykkknapp.
 
 ![enknapp](enknappkrets.jpg)
@@ -221,22 +232,29 @@ switch (tall) {
     ...
 ```
 
-+ Dersom `tall == 0` vil koden i både `case 0` og `case 1` kjøres, altså faller den
-  gjennom fra `case 0` til `case 1`.
++ Dersom `tall == 0` vil koden i både `case 0` og `case 1` kjøres, altså faller
+  den gjennom fra `case 0` til `case 1`.
+
 + Dersom `tall == 1` kjøres kun koden i `case 1`.
+
 + Dersom `tall != 0 && tall != 1` kjøres koden i default.
 
 Hvis verdien av `tall` ikke matcher noen `case` linjene vil vi eksekvere koden
 i `default`.
 
 Så i vår kode, når `tall` er 4 vil vi treffe `default`, sette tall til 0 og så
-tegne 0. Dette er grunnen til at vi begynner på igjen på 0 etter vi har telt til 3.
+tegne 0. Dette er grunnen til at vi begynner på igjen på 0 etter vi har telt til
+3.
 
 ### Utfordringer {.challenge}
 
 - [ ] Klarer du å utvide til å telle til '9'?
-- [ ] Klarer du å hindre at vi "går rundt" i tellingen, slik at å trykke på knappen
-  når du allerede er på '9' ikke gjør noe?
+
+- [ ] Klarer du å hindre at vi "går rundt" i tellingen, slik at å trykke på
+  knappen når du allerede er på '9' ikke gjør noe?
+
 - [ ] Klarer du å få punktumet til å lyse når du trykker inn knappen?
-- [ ] Klarer du å legge til en ekstra knapp som teller nedover, så én knapp teller
-  oppover, og den andre nedover?
+
+- [ ] Klarer du å legge til en ekstra knapp som teller nedover, så én knapp
+  teller oppover, og den andre nedover?
+

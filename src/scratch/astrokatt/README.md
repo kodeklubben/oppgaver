@@ -10,7 +10,6 @@ language: nb
 I denne oppgaven skal elevene lage en liten animasjon av en katt i
 verdensrommet, som kan styres med piltastene.
 
-
 ## Oppgaven passer til: {.check}
 
  __Fag__: Naturfag, Kunst og håndtverk
@@ -20,7 +19,6 @@ __Trinn__: 2.-7. trinn
 __Tema__: Rommet, jorden, gravitasjon, perspektiv
 
 __Tidsbruk__: Dobbelttime
-
 
 ## Kompetansemål {.challenge}
 
@@ -43,7 +41,6 @@ __Tidsbruk__: Dobbelttime
 
 - [ ]  Elevene kan forklare hvorfor Astrokatt blir mindre og mindre jo nærmere
        jorden den kommer, og større og større jo lengre unna.
-
 
 ## Forslag til vurderingskriterier {.challenge}
 
@@ -68,7 +65,6 @@ oppgaven. [Klikk her for å se
 oppgaveteksten.](../astrokatt/astrokatt.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
-
 
 ## Variasjoner {.challenge}
 

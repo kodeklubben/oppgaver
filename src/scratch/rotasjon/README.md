@@ -54,7 +54,6 @@ __Tidsbruk__: Enkelttime
        bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
        seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
-
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
@@ -63,7 +62,6 @@ oppgaveteksten.](../rotasjon/rotasjon.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
-
 
 ## Variasjoner {.challenge}
 

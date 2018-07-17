@@ -139,7 +139,7 @@ main =
 - [ ] Sjekk at du får en 500x500 px boks i nettleseren din. Slik ser det ut når
   jeg sjekker:
 
-  ![](inspect_svg.png)
+  ![Bilde av en 500x500 px i boks i nettleseren din](inspect_svg.png)
 
 `viewBox "0 0 200 200"` definerer koordinatsystemet vårt: x er fra 0 til 200 og
 y er fra 0 til 200.

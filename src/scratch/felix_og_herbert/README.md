@@ -98,5 +98,5 @@ _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
       eller elevene kan lage spillet og samtidig skrive en historie. Dette kan
       man bruke en dobbelttime på, eller kanskje helst jobbe med det over flere
       økter.
-      
+
 - [ ] Kan brukes i flere språk.

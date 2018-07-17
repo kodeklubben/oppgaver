@@ -4,6 +4,7 @@ level: 1
 language: nb
 ---
 
+
 # Om oppgaven {.activity}
 
 I denne oppgaven skal elevene lage et enkelt spill hvor spilleren skal få
@@ -11,7 +12,6 @@ pingviner som beveger seg tilfeldig rundt omkring til å gå tilbake til akvarie
 i Bergen.
 
 ![Bilde av pingviner på rømmen](pingviner_pa_tur.png)
-
 
 ## Oppgaven passer til: {.check}
 

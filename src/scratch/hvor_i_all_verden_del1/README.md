@@ -15,12 +15,12 @@ hverandre. Andre leksjon utvider kartet ved å lage en bakgrunn som flytter seg.
 Tredje leksjon handler om å lage en liste som holder oversikt over alle stedene
 vi kan besøke.
 
-![](hvor_i_all_verden_1.png)
+![Illustrasjon av et enkelt Hvor-i-All-Verden spill](hvor_i_all_verden_1.png)
 
 ## Oppgaven passer til: {.check}
 
  __Fag__: Matematikk, samfunnsfag, programmering.
- 
+
 __Anbefalte trinn__: 3.-10. trinn.
 
 __Tema__: Geografi, lese kart, variabler, brukerinteraksjon.
@@ -44,7 +44,6 @@ undervisningsopplegg over lengre tid.
 
 - [ ] __Samfunnsfag, 10. trinn__: lese, tolke og bruke papirbaserte og digitale
       kart, målestokk og kartteikn
-
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
       programmering, slik som løkker, tester, variabler, funksjoner og enkel
@@ -90,7 +89,7 @@ undervisningsopplegg over lengre tid.
       dette er gitt i steg 1 av oppgaven, ellers kan du gjøre følgende bildefil
       tilgjengelig for elevene:
 
-![](europakart.png)
+![Bilde av et kart over Europa](europakart.png)
 
 ## Fremgangsmåte
 
@@ -124,4 +123,3 @@ oppgavene enda._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Se også [Norgestur](../norgestur/norgestur.html){target=_blank}.
-

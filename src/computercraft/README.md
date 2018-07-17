@@ -34,13 +34,10 @@ et rolig og enkelt spill:
 
 Gratulerer! Du har startet en datamaskin inne i Minecraft-verdenen.
 
+
 # Oppgaver
 
 Se [Kodeklubbens oppgaver](http://kodeklubben.github.io/computercraft/).
-
-
-
-
 
 ## Leksjoner
 
@@ -63,19 +60,23 @@ grundigere innføring i enkelte begreper.
 Anbefalt rekkefølge for leksjonene er
 
 1. [Bli Kjent Med Datamaskinen](bli_kjent_med_datamaskinen/)
+
 2. [Robotinvasjon](robotinvasjon/)
+
 3. [Hendelser](hendelser/)
   + Hvordan bevege seg rundt i filsystemet
   + Kopiering av filer
   + Hendelser, enkel bruk av os.pullevent
   + Et bedre passord-program: auto-startup / kan ikke termineres med ctrl-T
   + Hvordan skrive kode i tekstbehandlere utenfor Minecraft
+
 4. [Bygg et Hus](bygg_et_hus/)
   + Bruk en robot til å bygge hus
   + Hvordan flytte rundt
   + Bruk av funksjoner for enklere kode
   + Sikre at vi får nok materiale
   + Kommandolinjeargumenter for å bygge forskjellge typer / størrelser hus
+
 5. [Sprettball](sprettball/)
   + Introduksjon til peripherals
   + Koble en skjerm til datamaskinen
@@ -84,10 +85,12 @@ Anbefalt rekkefølge for leksjonene er
   + Hvor stor er skjermen
   + Sprettball
   + Kanskje også ticker?
+
 6. Agricola
   + Bruk av bonderoboter, som kan så / høste og essensielt ta vare
     på en åker på egen hånd
   + Plukke opp og levere materiale
+
 7. Kommunikasjon mellom Datamaskiner
   + Bruk av disketter for å flytte programmer mellom datamaskiner
     (aside: hva er en diskett? :) )
@@ -95,6 +98,7 @@ Anbefalt rekkefølge for leksjonene er
   + Enda bedre passord program: datamaskinen trenger ikke stå ved
     siden av døren
   + Trådløst nett mellom datamaskiner
+
 8. GPS-Roboter
   + Hvordan fungerer GPS / triangulering
   + Sette ut baseroboter
