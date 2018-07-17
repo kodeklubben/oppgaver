@@ -12,7 +12,7 @@ license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub
 
 Me skal laga eit spel der katten __Felix__ skal fanga musa __Herbert__. Du styrer Herbert med musepeikaren og skal prøva å unngå å bli tatt av Felix. Jo lenger du unngår han jo fleire poeng får du, men blir du tatt, går poengsummen din ned.
 
-![](felix_og_herbert.png)
+![Bilete av katten Felix og musa Herbert](felix_og_herbert.png)
 
 # Steg 1: Felix føl musepeikaren {.activity}
 
@@ -175,7 +175,7 @@ __Klikk på det grøne flaget.__
 
 - [ ] På `Skript`{.blocklightgrey}-fana under kategorien `Data`{.blockdata}, lag ein ny variabel. Kall variabelen for `Poeng`{.blockdata}, og la den gjelde for alle figurar.
 
-    ![](ny-variabel-poeng.png)
+    ![Bilete av den nye poeng-variabelen](ny-variabel-poeng.png)
 
     Legg merke til at variabelen `Poeng `{.blockdata} dukka opp øvst til venstre i spelet ditt.
 
