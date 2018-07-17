@@ -19,6 +19,7 @@ lite stykke ned vil det være en overskrift som ser slik ut:
 
 ###############################################################################
 
+
 # Library code
 
 ###############################################################################
@@ -75,7 +76,11 @@ Her er et eksempel på hvordan funksjonen kan fungere:
 ```python
 >>> remaining_letters =['b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
                         'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w',
-                        'x', 'y', 'z'] # alle bokstaver fra b til z
+                        'x', 'y', 'z'] 
+
+
+# alle bokstaver fra b til z
+
 >>> secret_word = 'banan'
 >>> create_display_string(secret_word, remaining_letters)
 '_ a _ a _'
@@ -170,7 +175,7 @@ Dette må du gjøre:
 
   - [ ] Bruk `enumerate()` og gå igjennom de 26 første bokstavene i
         `string.ascii_letters`, og legg disse til `state["remaining_letters"]`.
-      
+
 
     **Hint:** Bruk `lst.append(elm)`
 

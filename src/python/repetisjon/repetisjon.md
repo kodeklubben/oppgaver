@@ -86,6 +86,7 @@ Du skrev inn: 15
 ```
 <!--A little workaround to avoid checklist being a part of protip-->
 
+
 # {.check}
 
 Skriv et program som spør om brukerens navn, og så skriver ut en hilsen til
@@ -137,6 +138,7 @@ else:
 
 <!--A little workaround to avoid checklist being a part of protip-->
 
+
 # {.check}
 
 Du skal nå lage et program som finner ut hvilken aldersgruppe brukeren er i;
@@ -169,7 +171,9 @@ Det du trenger å gjøre er:
 
 ```python
 
+
 # print Hello three times
+
 for i in range(3):
     print("Hello")
 ```
@@ -187,7 +191,9 @@ Vi kan også bruke `for`-løkker når vi ønsker å gå igjennom ei liste:
 
 ```python
 
+
 # print all elements in the list food_list
+
 food_list = ["eggs", "ham", "spiced ham", "jam"]
 for food in food_list:
     print(food)
@@ -204,6 +210,7 @@ jam
 ```
 
 <!--A little workaround to avoid checklist being a part of protip-->
+
 
 # {.check}
 
@@ -290,6 +297,7 @@ while True:
 
 <!--A little workaround to avoid checklist being a part of protip-->
 
+
 # {.check}
 
 Skriv et program som summerer alle tallene fra `1` til `100` ved hjelp av ei
@@ -309,6 +317,7 @@ Dette må du gjøre:
 
 
 # Funksjoner {.activity}
+
 
 # {.protip}
 
@@ -337,6 +346,7 @@ def multiply(x, y):
 ```
 
 <!--A little workaround to avoid checklist being a part of protip-->
+
 
 # {.check}
 

@@ -41,7 +41,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] Elevene kan bruke for-løkker til å finne summen av de n første leddene i
        en aritmetisk rekke.
-       
+
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
