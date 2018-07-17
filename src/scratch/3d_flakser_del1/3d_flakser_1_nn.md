@@ -6,6 +6,7 @@ translator: 'Gro Anette Vestre'
 language: nn
 ---
 
+
 # Introduksjon {.intro}
 
 I dette prosjektet skal me laga ein versjon av Flaksefugl (som er ein kopi av
@@ -17,6 +18,7 @@ delar sidan det er ganske mykje me skal gjennom. I denne første delen skal me f
 ringane til å fungera som dei skal. La oss sette i gong!
 
 ![Illustrasjon av 3D-flaksar med fungerande ringar](3d_flakser.png)
+
 
 # Steg 1: Lag ringar, og få dei til å kome mot deg {.activity}
 
@@ -101,6 +103,7 @@ så kan du bruke klossen
 for å gjera ringane meir gjennomsiktige når dei er langt borte. Kva tal må du
 putta i denne klossen for at det skal sjå bra ut?
 
+
 # Steg 2: Få ringane til å dukka opp tilfeldige stader {.activity}
 
 *For at spelet skal bli mest mogleg utfordrande så burde ringane dukka opp på
@@ -146,6 +149,7 @@ for ringfiguren*.
 
 Trykk på det grøne flaget. Nå burde det sjå ut som om ringane verkeleg kjem mot
 deg! No kan du ta ein pust i bakken og sjå over det du har skrive så langt.
+
 
 # Steg 3: Styr ein flaksefigur med piltastane {.activity}
 

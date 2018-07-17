@@ -6,6 +6,7 @@ translator: 'Gro Anette Vestre'
 language: nn
 ---
 
+
 # Introduksjon {.intro}
 
 På slutten av 1970-talet ga Atari ut to spel der ein skulle kontrollera eit
@@ -17,6 +18,7 @@ prosjektet. I Asteroids er målet å beskytta romskipet mot asteroidar ved å sk
 dei i småbitar.
 
 ![Illustrasjon av eit ferdig Asteroids-spel](asteroids.png)
+
 
 # Oversikt over prosjektet {.activity}
 
@@ -33,6 +35,7 @@ gjenbruke kode i Scratch.*
 - [ ] Pass deg for asteroidane
 
 - [ ] .. og andre utfordringer
+
 
 # Steg 1: Enda eit flygande romskip {.activity}
 
@@ -107,6 +110,7 @@ skjermen på den eine sida skal det dukka opp på andre sida av skjermen.
       slutt
   ```
 
+
 # Steg 2: Romskipet kan skyte {.activity}
 
 *Romskipet vårt vil snart fly inn i ein asteroidesverm, så me må montera
@@ -127,7 +131,7 @@ koden som lagar ein ny skotklone når du trykkjer mellomromtasten:
   mellomromtasten er trykka. Dersom eit skot skal avfyrast kan du først la
   skotet `gå til`{.blockmotion} romskipet og deretter peike i same retning som
   romskipet. Dette siste kan du gjera med ein kombinasjon av `pek i
-  retning`{.blockmotion}, `retning av`{.blocksensing} og  
+  retning`{.blockmotion}, `retning av`{.blocksensing} og
   `vend`{.blockmotion}-klosser. Til slutt kan du `lage en klon`{.blockcontrol}
   av figuren.
 
@@ -165,6 +169,7 @@ kode som for romskipet.
 alle skotklonene.
 
 - [ ] Prøv spelet ditt. No skal du kunne fly rundt i verdsrommet medan du skyt.
+
 
 # Steg 3: Pass deg for asteroidane {.activity}
 
@@ -221,6 +226,7 @@ kan til dømes leggje inn kode som dette i løkkja som flyttar skot-figuren:
           slett denne klonen
       slutt
   ```
+
 
 # Steg 4: Vidareutvikling av spelet {.activity}
 
