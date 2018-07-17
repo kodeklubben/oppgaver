@@ -51,7 +51,6 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] Elevene kan lage et spill inspirert av Donkey Kong.
 
-
 - [ ] Elevene kan bruke enkle geometriske grunnformer som elementer i et spill.
 
 - [ ] Elevene kan forklare hvordan tyngdekraften fungerer.

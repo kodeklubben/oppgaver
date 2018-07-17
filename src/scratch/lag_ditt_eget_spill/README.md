@@ -33,13 +33,11 @@ tilfeller kunne dekke følgende:_
 - [ ] __Arbeidslivsfag, 10. trinn__: kommunisere og samarbeide med andre i en
       arbeidssituasjon
 
-
 - [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
       bildebehandlingsprogram
 
 - [ ] __Kunst og håndtverk, 7. trinn__: bruke ulike grafiske teknikker i eget
       arbeid
-
 
 - [ ] __Musikk, 7. trinn__: komponere og gjøre lydopptak ved hjelp av digitale
       verktøy
@@ -62,7 +60,6 @@ tilfeller kunne dekke følgende:_
 - [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
       generalisere og tilpasse eksisterende programkode og algoritmer.
 
-
 - [ ] __Teknologi i praksis, 10. trinn__: vurdere teknologiske produkt ut frå
       brukartilpassing, HMS-krav og miljøtilpassing
 
@@ -71,7 +68,6 @@ tilfeller kunne dekke følgende:_
       produktet skal dekkje
 
 ## Forslag til læringsmål {.challenge}
-
 
 - [ ] Elevene kan samarbeide med andre om ideer og design i arbeidsprosessen.
 
@@ -94,7 +90,6 @@ tilfeller kunne dekke følgende:_
 
 - [ ] Elevene kan lese og videreutvikle tidligere utformet kode til å passe i
       sitt eget spill.
-
 
 - [ ] Elevene kan vurdere spillets brukervennlighet, og iverksette nødvendige
       endringer.

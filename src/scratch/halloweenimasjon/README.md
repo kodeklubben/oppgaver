@@ -54,29 +54,25 @@ __Tidsbruk__: Dobbelttime
 - [ ] Elevene kan bruke fargekontraster, forminskning og sentralperspektiv i
       animasjonene sine.
 
-
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å lage animasjonene i oppgaven.
 
 - [ ] Elevene oppnår høy måloppnåelse ved å lage egne figurer og animasjoner.
 
-
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: Ingen. 
+- [ ] __Forutsetninger__: Ingen.
 
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
       bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
       seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
-
 
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske
 oppgaven. [Klikk her for å se
 oppgaveteksten.](../halloweenimasjon/halloweenimasjon.html){target=_blank}
-
 
 Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda.
@@ -87,6 +83,6 @@ oppgaven enda.
 
   - [ ] På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
     å velge språk helt nederst på skjermen.
-    
+
   - [ ] Inne i Scratch-editoren kan man trykke på jordkloden øverst til
     venstre for å endre språket som brukes.

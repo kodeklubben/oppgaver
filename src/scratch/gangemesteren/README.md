@@ -4,8 +4,8 @@ level: 2
 language: nb
 ---
 
-# Om oppgaven {.activity}
 
+# Om oppgaven {.activity}
 
 ## Oppgaven passer til: {.check}
 
@@ -16,7 +16,6 @@ __Anbefalte trinn__: 3.-10. trinn
 __Tema__: Multiplikasjon, geometrisk mønster.
 
 __Tidsbruk__: Dobbelttime eller mer.
-
 
 ## Kompetansemål {.challenge}
 
@@ -56,7 +55,6 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] Elevene kan bruke eksisterende kode til å løse lignende problemer.
 
-
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
@@ -85,6 +83,5 @@ oppgaven enda._
 - [ ] Elevene kan lage andre oppgaver enn multiplikasjon. Hva med divisjon?
 
 ## Eksterne ressurser {.challenge}
-
 
 - [ ] Foreløpig ingen eksterne ressurser...

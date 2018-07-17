@@ -3,6 +3,7 @@ title: Lærerveiledning - Ultralydsensor
 language: nb
 ---
 
+
 # Informasjon til veiledere
 
 ## Læringsmål
@@ -10,6 +11,7 @@ language: nb
 Oppgaven «Ultralydsensor» introduserer flere konsepter:
 
 + Bruk av ultralydsensor
+
 + Seriellkonsoll
 
 

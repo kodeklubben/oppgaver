@@ -11,7 +11,7 @@ I dette spillet inspirert av historien om King Kong, skal vi se hvor lett det er
 å bruke grafikk som ikke allerede ligger i Scratch-biblioteket. I spillet styrer
 vi King Kong som må passe seg for flyene som angriper ham.
 
-![](kingkong.png)
+![Bilde av King Kong som passer seg for fly](kingkong.png)
 
 ## Oppgaven passer til: {.check}
 
@@ -108,3 +108,4 @@ oppgaven enda._
 
 - [ ] Se klipp av den ikoniske scenen på fra [King Kong (2005) på
       YouTube](https://www.youtube.com/watch?v=NoD85qZhkWY){target=_blank}.
+
