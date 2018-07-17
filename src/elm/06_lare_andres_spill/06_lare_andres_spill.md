@@ -14,8 +14,11 @@ trening for å bli god.
 Det er også viktig å kunne _lese_ kode. Da lurer vi på ting som
 
 - Hvor finner jeg andres kode?
+
 - Hvordan kjører jeg andres kode?
+
 - Hvor begynner jeg når jeg skal finne ut hvordan ting henger sammen?
+
 - Hva skjer om jeg endrer på _dette_?
 
 Til dette bruker vi spillet Elm Joust, skrevet av Stefan Kreitmayer fra
@@ -30,8 +33,10 @@ henger sammen.
 ## Spill! {.check}
 
 - [ ] Gå til [spillsiden til Elm Joust](http://kreitmayer.com/elm-joust/)
-- [ ] Finn en partner å prøve spillet sammen med. Det er OK å være tre personer og
-  bytte på hvilke to som spiller.
+
+- [ ] Finn en partner å prøve spillet sammen med. Det er OK å være tre personer
+  og bytte på hvilke to som spiller.
+
 - [ ] Hvor mange serier må man vinne for å vinne et spill?
 
 Har du spilt litt? Ti minutter er passe tid.
@@ -95,6 +100,7 @@ Slik ser det ut i **Nettleseren**:
 </circle>
 ```
 
+
 # Steg 2: Last ned og kjør spillet lokalt {.activity}
 
 Elm Joust er et større Elm-program enn programmene vi har skrevet til nå. Når vi
@@ -104,14 +110,15 @@ på egen PC.
 
 ## Last ned kildekoden {.check}
 
-- [ ] Gå til https://github.com/teodorlu/elm-joust, og trykk på den grønne knappen
-  **Clone or download**.
+- [ ] Gå til https://github.com/teodorlu/elm-joust, og trykk på den grønne
+  knappen **Clone or download**.
 
 Du kan bruke `git` i stedet hvis du vil.
 
 ## Pakk ut kildekoden {.check}
 
-- [ ] Høyreklikk på zip-filen du lastet ned og velg **Pakk ut...** eller liknende.
+- [ ] Høyreklikk på zip-filen du lastet ned og velg **Pakk ut...** eller
+      liknende.
 
 ## Åpne kommandovindu i mappen der kildekoden ligger {.check}
 
@@ -183,7 +190,9 @@ tyngdekraften i spillet, endrer du på _fysikken_ i spillet.
 Andre fysikkregler:
 
 - Når ballene treffer hverandre, spretter de tilbake i hver sin retning
+
 - Du faller nedover
+
 - Du kan kun hoppe når du står på bakken
 
 Noen ting blir mer morsomme når vi ikke følger fysikken! I dette spillet kan vi
@@ -251,8 +260,8 @@ Hvor kaller vi `steerAndGravity`? Jeg fant disse to linjene:
 
   Hint: juster `delta`.
 
-- [ ] Sett forskjellig fart på de to spillerene. Er det fordel å ha rask tid eller
-  sakte tid?
+- [ ] Sett forskjellig fart på de to spillerene. Er det fordel å ha rask tid
+  eller sakte tid?
 
 ## Søke i kildekode {.protip}
 
@@ -274,6 +283,7 @@ Hmm, spillet ville vært litt urettferdig om en ball var tung som en elefant, og
 den andre kun var en liten tennisball.
 
 - [ ] Kan du gjøre så spiller én er tung, og spiller to lett?
+
 
 # Steg 4: gjett hvilken regel! {.activity}
 

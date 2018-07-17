@@ -103,7 +103,9 @@ Cannot find variable `Html.taxt`.
 Dette betyr:
 
 - Jeg vet ikke hva `Html.taxt` betyr
+
 - Du prøvde å bruke `Html.taxt` på linje 3
+
 - Kanskje du mente å skrive `Html.text`?
 
 
