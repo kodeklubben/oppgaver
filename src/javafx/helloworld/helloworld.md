@@ -182,7 +182,7 @@ public class HelloWorldApp extends Application {
   skjønne hvordan Eclipse har forstått koden. Hvis mye av koden plutselig blir
   blå, så har vi kanskje glemt en " som avslutter en tekst-verdi.
 
-- [ ] Kjør koden ved å høyreklikke på fila eller i editoren og velge 
+- [ ] Kjør koden ved å høyreklikke på fila eller i editoren og velge
   `Run as > Java Application`. Du skal da få opp følgende vindu:
 
   ![Bilde av appen som sier "Hello world"](hello-world-app.png "Hello World-appen")
@@ -258,6 +258,7 @@ setFill fra lista og skriv inn `Color.BLUE`. Igjen ser du at Eclipse foreslår
 navn tilsvarende det du har skrevet.
 
 - [ ] Kjør app-en din igjen, så ser du effekten av kallet til setFill-metoden.
+
 
 # Hva har du lært?
 

@@ -278,6 +278,7 @@ og be denne laste inn FXML-fila med load-metoden (andre linje).
 
   ![Bilde av appen som kjører](run-FxmlLogoApp-as-java-application.png)
 
+
 # Hva har du lært?
 
 + lage en FXML-fil med Eclipse sin veiviser

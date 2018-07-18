@@ -5,6 +5,7 @@ author: 'Martin Ertsås & Morten Minde Neergaard'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi se på bruken av en ultralydsensor.

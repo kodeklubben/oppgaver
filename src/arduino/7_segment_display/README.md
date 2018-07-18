@@ -25,6 +25,7 @@ sluttresultatet vil se noe kaotisk ut.
 
 ![kaotisk](kaotisk.jpg)
 
+
 # Løsningsforslag
 
 ## Display som teller opp og ned med to knapper.
