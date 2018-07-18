@@ -18,6 +18,7 @@ skal vi få ringene til å fungere som de skal. La oss sette i gang!
 
 ![Illustrasjon av 3d-flakser med fungerende ringer](3d_flakser.png)
 
+
 # Steg 1: Lag ringer, og få dem til å komme mot deg {.activity}
 
 Spillet skal bestå av tre figurer: __Ring__, __Flakser__ og __Bakken__.

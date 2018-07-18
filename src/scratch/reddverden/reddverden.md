@@ -84,6 +84,7 @@ søppelet som vi skal kaste.
 - [ ] Om du flytter rundt på søppel-bitene, blir de satt tilbake når du trykker
   på det grønne flagget?
 
+
 # Steg 2: Sett opp spillet {.activity}
 
 Ronny trenger å vite hvor mange søppel-figurer som er på brettet. For å finne ut
@@ -143,6 +144,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   spill lyden [opptak 1 v] til den er ferdig
   ```
+
 
 # Steg 3: Start spillet {.activity}
 

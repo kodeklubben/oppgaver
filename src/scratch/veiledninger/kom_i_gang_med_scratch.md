@@ -4,6 +4,7 @@ author: Geir Arne Hjelle
 language: nb
 ---
 
+
 # Kom i gang med Scratch {.intro}
 
 Scratch er et grafisk programmeringsspråk utviklet spesielt for at barn og unge
@@ -11,6 +12,7 @@ enkelt skal lære seg programmering. Denne veiledningen viser hvordan du kan
 holde et kodekurs eller en skoletime hvor elevene møter Scratch for første gang.
 
 ![Bilde av programmet Scratch](kom_i_gang_med_scratch.png)
+
 
 # Før kurset {.activity}
 
@@ -75,6 +77,7 @@ kodekurset.
   Du bør forberede en minnepenn hvor du på forhånd har lastet ned Adobe Air og
   Scratch offline for de forskjellige operativsystemene.
 
+
 # Opprett brukere {.activity}
 
 Det første du bør gjøre på selve kodekurset er å la alle barna opprette brukere.
@@ -106,6 +109,7 @@ prosjektet sitt, prosjektet blir tilgjengelig på alle datamaskiner osv.
   bruke din e-postadresse (aller helst oppretter du en egen adresse til dette
   formålet). Klikk i såfall gjennom e-postene du får i etterkant av kurset, og
   bekreft kontoene.
+
 
 # Introduser Scratchmiljøet {.activity}
 
@@ -234,6 +238,7 @@ La barna åpne datamaskinene sine. Minn dem på at de skal klikke `Programmering
 for å prøve selv. Ofte vil de teste ut noe av det du viste dem i presentasjonen.
 La dem gjerne gjøre dette et par minutter før du minner dem på oppgaven, og ber
 dem begynne å jobbe med den.
+
 
 # Etter kurset {.activity}
 
