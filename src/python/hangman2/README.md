@@ -10,8 +10,8 @@ language: nb
 I denne oppgaven skal elevene bruk av enkle strengfunksjoner, lister, løkker og
 ordbøker til å sette sammen et Hangman-spill.
 
-
 ## Oppgaven passer til: {.check}
+
  __Fag__: Programmering
 
 __Anbefalte trinn__: 8.-10. trinn

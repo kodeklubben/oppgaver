@@ -29,6 +29,7 @@ firkanter, trekanter og halvsirkler, og tegne én og én del.
 
 ![Bilde av en stor rød K tegnet med skilpadde](stor_k.png)
 
+
 # Oppgave 3: Figurer {.activity}
 
 - [ ] Lek deg med ulike farger, og tegn et hus, en bil eller noe annet du har

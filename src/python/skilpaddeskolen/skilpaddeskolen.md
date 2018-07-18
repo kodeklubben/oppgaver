@@ -216,6 +216,7 @@ istedenfor hele streker.
   pencolor('blue')
   dashpoly(3, 150)
   ```
+
 - [ ] Kjør koden og se hva den gjør.
 
   Vi har to for-løkker inni hverandre, en ytre og en indre. Den ytre løkken `for

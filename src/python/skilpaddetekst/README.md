@@ -11,6 +11,7 @@ I denne oppgaven skal elevene lære å skrive kode som skriver stor tekst ved
 hjelp av turtle.
 
 ## Oppgaven passer til: {.check}
+
  __Fag__: Programmering
 
 __Anbefalte trinn__: 8.-10. trinn
@@ -39,7 +40,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, valgfag__: overføre løsninger til nye problemer ved å
        generalisere og tilpasse eksisterende programkode og algoritmer.
-       
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke funksjoner og løkker til å behandle og printe

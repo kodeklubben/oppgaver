@@ -31,6 +31,7 @@ print(2)
 print(2+2)
 print('2+2')
 ```
+
 - [ ] Kan du forklare det som skjer?
 
 - [ ] Husk å ta bort eksemplene når du forsetter med oppgaven

@@ -22,7 +22,7 @@ brukeren.
  __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
- 
+
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
       programmering, slik som if-setninger, tester, variabler, funksjoner og
       enkel brukerinteraksjon
@@ -40,9 +40,8 @@ brukeren.
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
-- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven. 
+- [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
 
- 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ]  __Forutsetninger__: Kjennskap til Python.

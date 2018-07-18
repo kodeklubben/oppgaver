@@ -28,7 +28,7 @@ mulig ord i riktig rekkefølge.
 
 - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
       ett er tekstbasert
- 
+
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
       programmering, slik som løkker, tester, variabler, funksjoner og enkel
       brukerinteraksjon
@@ -62,9 +62,8 @@ mulig ord i riktig rekkefølge.
 
 # Fremgangsmåte
 
- Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
- oppgaven. [Klikk her for å se
- oppgaveteksten.](../huskespill/huskespill.html){target=_blank}
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
+oppgaven. [Klikk her for å se oppgaveteksten.](../huskespill/huskespill.html){target=_blank}
 
 - [ ] Når en skal huske ord fra listen, er det en fordel at en har tømt skjermen
       for innhold, ellers blir jo oppgaven triviell! En løsning er å legge på

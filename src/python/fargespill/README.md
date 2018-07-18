@@ -35,7 +35,6 @@ __Tema__: Grafisk brukergrensesnitt, Spill, Tilfeldig
       programmering, slik som løkker, tester, variabler, funksjoner og enkel
       brukerinteraksjon
 
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan lage et enkelt grafisk brukergrensesnitt
@@ -43,7 +42,6 @@ __Tema__: Grafisk brukergrensesnitt, Spill, Tilfeldig
 - [ ] Elevene forstår hvordan en kan sette sammen flere funksjoner til en helhet
 
 - [ ] Elevene klarer å tolke enkle feilmeldinger og fikse koden basert på disse
-
 
 ## Forslag til vurderingskriterier {.challenge}
 
