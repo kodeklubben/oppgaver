@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Pingviner på tur
+author: Madeleine Lorås
 level: 1
 language: nb
 ---

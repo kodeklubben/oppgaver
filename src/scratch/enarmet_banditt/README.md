@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Enarmet banditt
+author: Stein Olav Romslo
 level: 2
 language: nb
 ---

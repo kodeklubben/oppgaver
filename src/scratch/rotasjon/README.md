@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Rotasjon rundt egen akse
+author: Madeleine Lorås
 level: 1
 language: nb
 ---
