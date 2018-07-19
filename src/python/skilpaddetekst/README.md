@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Skilpaddetekst
+author: Madeleine Lorås og Øistein Søvik
 level: 4
 language: nb
 ---

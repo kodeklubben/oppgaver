@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Buzzer
+author: 'Adrian Helle'
 language: nb
 ---
 

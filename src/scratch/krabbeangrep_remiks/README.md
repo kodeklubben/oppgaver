@@ -1,6 +1,6 @@
 ---
-
 title: Lærerveiledning - Krabbeangrep!
+author: Stein Olav Romslo
 level: 3
 language: nb
 ---
@@ -17,7 +17,7 @@ funksjonalitet.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Kunst og håndtverk, programmering.
+__Fag__: Kunst og håndtverk, programmering.
  
 __Anbefalte trinn__: 3.-10. trinn.
 

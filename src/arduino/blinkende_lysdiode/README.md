@@ -1,5 +1,7 @@
 ---
 title: Lærerveiledning - Blinkende lysdiode
+author: 'Adrian Helle'
+level: 1
 language: nb
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: 'CSS: Style nettsider'
+author: 'Arve Seljebu'
 level: 2
 language: nb
 ---

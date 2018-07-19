@@ -1,5 +1,7 @@
 ---
 title: Lærerveiledning - Lag din egen app
+author: Tjerand Silde
+level: 4
 language: nb
 ---
 
