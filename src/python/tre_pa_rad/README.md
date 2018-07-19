@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Tre på rad
+author: Madeleine Lorås
 level: 3
 language: nb
 ---

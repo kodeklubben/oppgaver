@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Skilpadder hele veien
+author: Madeleine Lorås
 level: 3
 language: nb
 ---

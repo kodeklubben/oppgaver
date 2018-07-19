@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Kuprat
+author: Øistein Søvik
 level: 1
 language: nb
 ---
