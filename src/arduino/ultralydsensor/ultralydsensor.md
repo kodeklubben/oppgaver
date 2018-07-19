@@ -1,7 +1,7 @@
 ---
 title: Ultralydsensor
-level: 2
 author: 'Martin Ertsås & Morten Minde Neergaard'
+level: 2
 language: nb
 ---
 

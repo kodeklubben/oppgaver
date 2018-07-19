@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Hvor i all verden?
+author: Stein Olav Romslo
 level: 3
 language: nb
 ---
@@ -19,14 +20,14 @@ vi kan besøke.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, samfunnsfag, programmering.
+__Fag__: Matematikk, samfunnsfag, programmering.
 
 __Anbefalte trinn__: 3.-10. trinn.
 
 __Tema__: Geografi, lese kart, variabler, brukerinteraksjon.
 
 __Tidsbruk__: Hver del passer til en dobbelttime, men kan også fungere i et
-undervisningsopplegg over lengre tid.
+  undervisningsopplegg over lengre tid.
 
 ## Kompetansemål {.challenge}
 

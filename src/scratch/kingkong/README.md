@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - King Kong
+author: Stein Olav Romslo
 level: 3
 language: nb
 ---

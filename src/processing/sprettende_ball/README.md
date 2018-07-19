@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Sprettende ball
+author: Stein Olav Romslo
 level: 1
 language: nb
 ---

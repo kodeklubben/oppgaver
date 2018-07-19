@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Bursdag i Antarktis
+author: Stein Olav Romslo
 level: 2
 language: nb
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - CSS: Style nettsider"
+author: Lars Klingenberg
 language: nb
 level: 2
 ---
