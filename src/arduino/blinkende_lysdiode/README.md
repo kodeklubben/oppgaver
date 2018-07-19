@@ -135,6 +135,7 @@ void loop() {
 
 ![tre ledninger](tre_ledninger.png)
 
+
 # Installasjonsinstruksjoner
 
 + [Windows](https://arduino.cc/en/Guide/Windows)

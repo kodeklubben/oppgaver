@@ -16,6 +16,7 @@ Oppgaven «Buzzer» introduserer følgende konsepter:
 
 + ``tone``, ``analogRead`` og ``map``.
 
+
 # Forklaringer
 
 ## Lysfølsom motstand
