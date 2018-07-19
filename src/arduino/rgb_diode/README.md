@@ -1,5 +1,7 @@
 ---
 title: Lærerveiledning - RGB-lysdiode
+author: 'Morten Minde Neergaard & Martin Ertsås'
+level: 1
 language: nb
 ---
 
