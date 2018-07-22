@@ -17,6 +17,7 @@ tags_ = dict(
     grade=GRADE,
 )
 
+PATH_2_SRC = '../src'
 
 # If a file starts with "indexed: false" skip it
 def is_indexed(filename):
@@ -97,7 +98,7 @@ def print_incorrect_titles_and_tags(filename):
             print(incorrect_tag)
 
 
-def yml_linter(path='../oppgaver/src'):
+def yml_linter(path=PATH_2_SRC):
     files = glob.glob(path + '/**/lesson.yml', recursive=True)
 
     for f in files:

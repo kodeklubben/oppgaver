@@ -18,6 +18,7 @@ REGEX_ALT_OUTSIDE_CODE = r"```.*?```|`.*?`|(<img(?!.*?alt=(['\"]).*?\2)[^>]*)(>)
 REGEX_LONG_LINES_OUTSIDE_CODE = r"```(.|\n)*?```|`.*?`|(.{100,})"
 REGEX_FIND_YML = re.compile(r"^---[\s\S]+?---", re.DOTALL)
 
+PATH_2_SRC = '../src'
 
 def error_msg(string):
     return '{}'.format(colored(string, 'red'))
@@ -173,7 +174,7 @@ def print_lines_with_errors(filepath):
                 (line[2][:80] + '...') if len(line[2]) > 80 else line[2]))
 
 
-def md_linter(path="../oppgaver/src"):
+def md_linter(path=PATH_2_SRC):
     files = glob.glob(path + '/**/*.md', recursive=True)
     for f in files:
         print_lines_with_errors(f)

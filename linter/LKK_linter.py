@@ -2,8 +2,8 @@ import re
 import os
 import filecmp
 
-PATH_2_FILTERTAGS = '../oppgaver/filtertags/keys.yml'
-PATH_2_SRC = '../oppgaver/src'
+PATH_2_FILTERTAGS = '../filtertags/keys.yml'
+PATH_2_SRC = '../src'
 
 
 def generate_keys_and_tags(path_2_yml_keys=PATH_2_FILTERTAGS):
