@@ -36,7 +36,7 @@ FILE1=$1
 FILE2="${FILE1%.md}_temp.md"
 cp "$FILE1" "$FILE2"
 
-# Replace TAB with TWO SPACES 
+# Replace TAB with TWO SPACES
 perl -i -0pe 's/\t/  /' $FILE2
 
 # Make sure the file ends with a blank line
