@@ -61,7 +61,7 @@ __Tidsbruk__: Enkelttime
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
-oppgaveteksten.](../rotasjon%20rundt%20punkt/rotasjon%20rundt%20punkt.html){target=_blank}
+oppgaveteksten.](./rotasjon_rundt_punkt.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._

@@ -10,7 +10,7 @@ language: nb
 
 I denne oppgaven skal elevene lære å rotere en figur rundt egen akse. Anbefaler
 å gjøre oppgaven [rotasjon rundt et
-punkt](../rotasjon%20rundt%20punkt/rotasjon%20rundt%20punkt.html) først.
+punkt](../rotasjon_rundt_punkt/rotasjon_rundt_punkt.html) først.
 
 ## Oppgaven passer til: {.check}
 
@@ -67,6 +67,6 @@ oppgaven enda._
 ## Variasjoner {.challenge}
 
 - [ ]  Denne oppgaven kan kombineres med oppgaven som handler om [rotasjon rundt
-       et punkt](../rotasjon%20rundt%20punkt/rotasjon%20rundt%20punkt.html), og
+       et punkt](../rotasjon_rundt_punkt/rotasjon_rundt_punkt.html), og
        elevene kan for eksempel få i oppgave å beskrive og forklare forskjeller
        og likheter.
