@@ -1,7 +1,6 @@
 ---
 title: 'HTML: Legg til lyd og video'
 level: 3
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Trude Martinsen'
 license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)'
@@ -172,4 +171,3 @@ spille av.
      <source src="romskip.ogg" type='audio/ogg; codecs=vorbis'>
   </audio>
 ```
-

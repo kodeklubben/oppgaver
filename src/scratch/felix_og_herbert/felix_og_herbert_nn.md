@@ -1,7 +1,6 @@
 ---
 title: 'Felix og Herbert'
 level: 1
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Gro Anette Vestre'
 language: nn
