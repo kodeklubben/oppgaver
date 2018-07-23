@@ -1,7 +1,7 @@
 ---
 title: Fargespill
 level: 3
-author: 'Oversatt fra [usingpython.com](https://usingpython.com)
+author: 'Oversatt fra [usingpython.com](http://usingpython.com)'
 translator: 'Steffen Granberg'
 language: nb
 ---
@@ -441,4 +441,3 @@ selve spilldelen. Det skal vi gjøre nå!
 - [ ] Får du +1 points når du skriver riktig farge på ordet?
 
 - [ ] Slutter programmet etter 30 sek?
-
