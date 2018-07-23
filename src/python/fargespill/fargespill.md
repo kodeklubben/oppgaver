@@ -1,7 +1,7 @@
 ---
 title: Fargespill
 level: 3
-author: 'Oversatt fra [usingpython.com](https://usingpython.com)'
+author: 'Oversatt fra [usingpython.com](http://usingpython.com)'
 translator: 'Steffen Granberg'
 language: nb
 ---
