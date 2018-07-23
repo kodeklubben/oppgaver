@@ -1,6 +1,5 @@
 ---
 title: Flaksefugl
-logo: ../../assets/img/ccuk_logo.png
 level: 2
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Helge Astad'
