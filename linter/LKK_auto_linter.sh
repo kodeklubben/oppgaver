@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 # LKK_auto_linter
@@ -13,7 +12,7 @@
 #
 
 # Explanation of options given to perl:
-# 
+#
 # -i                                    Modifies your input file in-place (making a backup of
 #                                       the original). Handy to modify files without the {copy,
 #                                       delete-original, rename} process.
@@ -53,11 +52,14 @@ perl -i -0pe 's/^\n*\h*---?-?((.|\n)*?)\h*---?-?\n*(.*)/---\1---\n\n\3/g' $FILE2
 # Titles should be formated: # Title {.word}
 perl -i -pe 's/^ ?(#+ .*[^\{])((\.\w*)|(([^\{]|\{\{+)(\.\w*)\}*)|(\{*(\.\w*)([^\}]|\}\}+)))$/\1\{\8\6\3\}/g' $FILE2
 
+# Autoformats main lists (- [ ]). Inserts space above
+perl -i -0pe 's/(.)\n+(- ?\[ ?\] ?)(.)/\1\n\n- \[ \] \3/g' $FILE2
+
 # Converts every line starting with `` or ```` to ```
 perl -i -pe 's/^(\h*)(````|``)(\w*)$/\1```\3/g' $FILE2
 
 # Insert blank space above and below code blocks
-perl -i -0pe 's/(.)\n*(\h*```\w*\n[\s\S]*?```)\n*(.)/\1\n\n\2\n\n\3/g' $FILE2
+perl -i -0pe 's/\n*( *```\w*\n[\s\S]*?```)\n*/\n\n\1\n\n/g' $FILE2
 
 # searches the line with "#" sign (all cases matches - Titles, SubTitles, etc),
 # takes all its upper empty lines
@@ -66,16 +68,16 @@ perl -i -0pe 's/\n+(#[^\n]+)/\n\n\1/g' $FILE2
 
 # again, searches the line with "#" sign, take all its bottom empty lines
 # and converts them to the one empty line
-perl -i -0pe 's/(#[^\n]+)\n+/\1\n\n/g' $FILE2
+perl -i -0pe 's/^(#[^\n]+)\n+/\1\n\n/g' $FILE2
+
+# finds two blank lines or more replaces it with a single newline
+perl -i -0pe 's/(?<!.)\n{2,}/\n/g' $FILE2
 
 # searches the single "#" sign (Titles only),
 # takes all its upper newlines (at this moment only two of them are there,
 # because of previous substitutions)
 # and converts them to three newlines
 perl -i -0pe 's/\n+(#[^\n#]+)/\n\n\n\1/g' $FILE2
-
-# Autoformats main lists (- [ ]). Inserts space above
-perl -i -0pe 's/(.)\n+(- ?\[ ?\] ?)(.)/\1\n\n- \[ \] \3/g' $FILE2
 
 # Removes every instance of three consecutive newlines
 # perl -i -ane '$n=(@F==0) ? $n+1 : 0; print if $n<=2' $FILE2
