@@ -62,7 +62,8 @@ For å åpne filene på Mac kan du bruke Finder:
 
   ![Gå til mappe](gaatilmappe.png)
 
-- [ ] Skriv inn filplasseringen (`~/Library/Application Support/.minecraft/saves/navn-på-din-save/computer/id`)
+- [ ] Skriv inn filplasseringen (`~/Library/Application
+      Support/.minecraft/saves/navn-på-din-save/computer/id`)
 
   ![Skriv inn filplasseringen](gaatilmappedialog.png)
 
