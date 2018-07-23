@@ -55,8 +55,8 @@ perl -i -pe 's/^ ?(#+ .*[^\{])((\.\w*)|(([^\{]|\{\{+)(\.\w*)\}*)|(\{*(\.\w*)([^\
 # Autoformats main lists (- [ ]). Inserts space above
 perl -i -0pe 's/(.)\n+(- ?\[ ?\] ?)(.)/\1\n\n- \[ \] \3/g' $FILE2
 
-# Converts every line starting with `` or ```` to ```
-perl -i -pe 's/^(\h*)(````|``)(\w*)$/\1```\3/g' $FILE2
+# Converts every line starting with `` or ```` to ``` (Some codeblocks use ````)
+# perl -i -pe 's/^(\h*)(````|``)(\w*)$/\1```\3/g' $FILE2
 
 # Insert blank space above and below code blocks
 perl -i -0pe 's/\n*( *```\w*\n[\s\S]*?```)\n*/\n\n\1\n\n/g' $FILE2
@@ -78,9 +78,6 @@ perl -i -0pe 's/(?<!.)\n{2,}/\n/g' $FILE2
 # because of previous substitutions)
 # and converts them to three newlines
 perl -i -0pe 's/\n+(#[^\n#]+)/\n\n\n\1/g' $FILE2
-
-# Removes every instance of three consecutive newlines
-# perl -i -ane '$n=(@F==0) ? $n+1 : 0; print if $n<=2' $FILE2
 
 # This would overwrite the new file with the old if changes has been made
 if cmp -s "$FILE1" "$FILE2"
