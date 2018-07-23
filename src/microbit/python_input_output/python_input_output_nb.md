@@ -1,5 +1,5 @@
 ---
-title: "Python: Inputt og outputt"
+title: "Python: Input og output"
 level: 3
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/io.html)"
 license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
@@ -8,13 +8,11 @@ language: nb
 ---
 
 
-# Introduksjon {.intro}
-
 Det eksisterer metal langs kanten på bunnen av din micro:bit som gjør at det ser
-ut som enheten din har tenner. Dette er inputt/outputt komponentene (eller I/O
+ut som enheten din har tenner. Dette er input/outputkomponentene (eller I/O
 klemmene).
 
-![Bilde av en blå micro:bit med inputt/outputt klemmer](./blue-microbit.png)
+![Bilde av en blå micro:bit med input/output klemmer](./blue-microbit.png)
 
 Noen av disse komponentene er større enn andre slik at slik at det er mulig å
 feste krokodilleklemmer til dem. Disse er merket som 0, 1, 2, 3V og GND (siden
@@ -31,9 +29,10 @@ bruker vi objektet med navn `pin0`.
 Enkelt!
 
 Disse objektene har ulike *metoder* knyttet til dem avhengig av hva de ulike
-pin'ene er i stand til. 
+pin'ene er i stand til.
 
-# Kilen Python 
+
+# Kilen Python
 
 Det enkleste eksempelet på input via pin'ene er å sjekke om de blir rørt. Så, du
 kan kile enheten din for å få den til å le slik:
@@ -48,16 +47,18 @@ while True:
         display.show(Image.SAD)
 ```
 
-Med en hånd, hold enheten din på GND pin'en. Så, med den andre hånden berør
-(eller kil) 0 (null) pin'en. Du skal nå se at displayet endres fra sur til glad!
+Med en hånd, hold enheten din på GND pin'en (her står GND for "ground" eller
+jord på norsk). Så, med den andre hånden berør (eller kil) 0 (null) pin'en. Du
+skal nå se at displayet endres fra sur til glad!
 
-Dette er en form for veldig enkel måling av inputt. Morroa begynner når du
-setter sammen elektriske komponenter og andre enheter via pin'ene. 
+Dette er en form for veldig enkel måling av input. Morroa begynner når du
+setter sammen elektriske komponenter og andre enheter via pin'ene.
+
 
 # Beep Boop
 
 En av de enkleste tingene vi kan kobble til enheten er en Piezo buzzer. Vi skal
-bruke den som outputt.
+bruke den som output.
 
 ![Bilde av en piezo_buzzer](./piezo_buzzer.jpg)
 
@@ -69,7 +70,7 @@ klemmer til pin 0 og GND, som vist på bilde under
 
 Ledningen fra pin 0 skal være kobblet til det positive kobblingspunktet (dette
 pleier å være det lengste beinet), mens ledningen fra GND skal til det negative
-kobblingspunktet. 
+kobblingspunktet.
 
 Det følgende programmet vil gjøre at buzzeren lager en lyd:
 
@@ -79,7 +80,7 @@ from microbit import *
 pin0.write_digital(1)
 ```
 
-Dette er gøy i akkuratt 5 sekunder, også ønsker du at den forferdelige lyden
+Dette er gøy i akkurat 5 sekunder, og så ønsker du at den forferdelige lyden
 skal stoppe. La oss forbedre eksempelet vårt og i stedet få enheten til å pipe:
 
 ```python
@@ -97,9 +98,9 @@ av i den digitale verdenen.
 
 Enheten er satt til å kjøre en `while`-løkke for alltid (siden `True` alltid er
 sant) og med en gang skru pin 0 på. Dette gjør at buzzeren piper. Mens buzzeren
-piper, så venter programmet for tyve millisekunder også skrur den pin 0 av. 
+piper, så venter programmet for tyve millisekunder også skrur den pin 0 av.
 Dette gir effekten av ett kort pip. Endelig, så venter enheten i 480
-millisekunder før den går tilbake til start og begynner på nytt igjen. 
+millisekunder før den går tilbake til start og begynner på nytt igjen.
 
 ## Prøv det ut selv {.check}
 
