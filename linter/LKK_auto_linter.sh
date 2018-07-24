@@ -48,6 +48,9 @@ sed -i -e 's/[[:space:]]*$//' $FILE2
 # Fixes YAML header (turns -- or ---- into ---) removes spacing before, adds blank line under
 perl -i -0pe 's/^\n*\h*---?-?((.|\n)*?)\h*---?-?\n*(.*)/---\1---\n\n\3/g' $FILE2
 
+# Corrects all titles with punctuation
+perl -i -pe 's/^(#+ .*)(\.|\:|\;)\h*$/' $FILE2
+
 # Corrects all titles with incorrect brackets {}
 # Titles should be formated: # Title {.word}
 perl -i -pe 's/^ ?(#+ .*[^\{])((\.\w*)|(([^\{]|\{\{+)(\.\w*)\}*)|(\{*(\.\w*)([^\}]|\}\}+)))$/\1\{\8\6\3\}/g' $FILE2
