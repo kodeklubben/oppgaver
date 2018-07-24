@@ -33,7 +33,7 @@ def update_file_with_keys_and_tags(filename, keys_w_tags):
 
     # Write file into a temp file, replace the part between
     # "# KEYS START HERE..." and "# KEYS END HERE"
-    # from the "keys_w_tags" list. 
+    # from the "keys_w_tags" list.
     with open(filename_temp, "w") as g:
         lines_past_tags = False
         lines_in_tags = False
