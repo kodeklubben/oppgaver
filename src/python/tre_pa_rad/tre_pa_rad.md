@@ -1,7 +1,6 @@
 ---
 title: 'Tre på rad'
 level: 3
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Geir Arne Hjelle'
 license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
@@ -63,7 +62,7 @@ For datamaskinen ser dette slik ut:
 
 ```
     0       200      400      600   ...
-   0+--------+--------+--------+-----> bortover
+   0+--------|--------|--------|-----> bortover
     |
     |
     |
@@ -96,7 +95,7 @@ og slutter. For eksempel, om vi vil tegne en linje fra `A` til `D` kan vi bruke
 
 ```
      0       200      400      600   ...
-   0 +--------A--------B--------+-----> bortover
+   0 +--------A--------B--------|-----> bortover
      |
      |
      |
@@ -437,6 +436,7 @@ får tre på rad!
 
   mainloop()
   ```
+
 - [ ] Prøv å spill spillet slik at du får tre på rad. Kan du klikke i noen flere
       ruter?
 
@@ -456,4 +456,3 @@ får tre på rad!
 
 Du er ferdig med en enkel versjon av tre på rad! Prøv å endre koden, for
 eksempel slik at den tegner andre symboler.
-

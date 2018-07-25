@@ -85,7 +85,6 @@ answer = random.randrange(100) + random.random()
 display.scroll(str(answer))
 ```
 
-
 ## Prøv det ut selv {.check}
 
 - [ ] Skriv ned det største tallet programmet ovenfor kan lage. 
@@ -141,7 +140,6 @@ while True:
     if button_a.was_pressed():
         display.show(str(random.randint(1, 6)))
 ```
-
 
 ## Litt juks {.check}
 

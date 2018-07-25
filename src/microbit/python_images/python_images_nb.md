@@ -36,52 +36,96 @@ kan fortelle `show` å bruke bildet ved å legge det mellom parenthesene `(` og
 ## Liste av tilgjengelige bilder {.tip}
 
 - `Image.HEART`
+
 - `Image.HEART_SMALL`
+
 - `Image.HAPPY`
+
 - `Image.SMILE`
+
 - `Image.SAD`
+
 - `Image.CONFUSED`
+
 - `Image.ANGRY`
+
 - `Image.ASLEEP`
+
 - `Image.SURPRISED`
+
 - `Image.SILLY`
+
 - `Image.FABULOUS`
+
 - `Image.MEH`
+
 - `Image.YES`
+
 - `Image.NO`
+
 - `Image.CLOCK12`, `Image.CLOCK11`, `Image.CLOCK10`, `Image.CLOCK9`, `Image.CLOCK8`,
   `Image.CLOCK7`, `Image.CLOCK6`, `Image.CLOCK5`, `Image.CLOCK4`, `Image.CLOCK3`,
   `Image.CLOCK2`, `Image.CLOCK1`
+
 - `Image.ARROW_N`, `Image.ARROW_NE`, `Image.ARROW_E`, `Image.ARROW_SE`, `Image.ARROW_S`,
   `Image.ARROW_SW`, `Image.ARROW_W`, `Image.ARROW_NW`
+
 - `Image.TRIANGLE`
+
 - `Image.TRIANGLE_LEFT`
+
 - `Image.CHESSBOARD`
+
 - `Image.DIAMOND`
+
 - `Image.DIAMOND_SMALL`
+
 - `Image.SQUARE`
+
 - `Image.SQUARE_SMALL`
+
 - `Image.RABBIT`
+
 - `Image.COW`
+
 - `Image.MUSIC_CROTCHET`
+
 - `Image.MUSIC_QUAVER`
+
 - `Image.MUSIC_QUAVERS`
+
 - `Image.PITCHFORK`
+
 - `Image.XMAS`
+
 - `Image.PACMAN`
+
 - `Image.TARGET`
+
 - `Image.TSHIRT`
+
 - `Image.ROLLERSKATE`
+
 - `Image.DUCK`
+
 - `Image.HOUSE`
+
 - `Image.TORTOISE`
+
 - `Image.BUTTERFLY`
+
 - `Image.STICKFIGURE`
+
 - `Image.GHOST`
+
 - `Image.SWORD`
+
 - `Image.GIRAFFE`
+
 - `Image.SKULL`
+
 - `Image.UMBRELLA`
+
 - `Image.SNAKE`
 
 ## Ting å prøve ut {.check}
@@ -213,7 +257,6 @@ MicroPython å fortsette å loope over listen av bilder (slik at animasjonen
 fortsetter for alltid) ved å skrive `loop=True`. Videre kan vi si at vi ønsker
 at pausen mellom hvert bilde bare skal være 100 millisekund (En tiendedel av et
 sekund) med argumentet `delay=100`.
-
 
 ## Ting å prøve ut {.check}
 

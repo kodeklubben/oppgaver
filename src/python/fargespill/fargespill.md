@@ -1,15 +1,17 @@
 ---
 title: Fargespill
 level: 3
-author: 'Steffen Granberg'
-footer: '**Kilde:** Oppgaven er basert på kode fra usingpython.com. Sjekk der for flere kule ideer!'
+author: 'Oversatt fra [usingpython.com](http://usingpython.com)'
+translator: 'Steffen Granberg'
 language: nb
 ---
 
 
 # Introduksjon
 
-Hjernen vår lar seg lett lure, og det kan av og til være vanskelig for den å tolke forskjellig inntrykk samtidig. I det spillet vi nå skal lage  vil du både få testet hjernen og skrivehastigheten. Vi skal lage et fargespill!
+Hjernen vår lar seg lett lure, og det kan av og til være vanskelig for den å
+tolke forskjellig inntrykk samtidig. I det spillet vi nå skal lage vil du både
+få testet hjernen og skrivehastigheten. Vi skal lage et fargespill!
 
 ![Illustrasjon av et ferdig fargespill](fargespill.png)
 
@@ -70,6 +72,7 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
 
   root.mainloop()
   ```
+
 - [ ] Nå har vi laget hovedvinduet. La oss legge til noen felter med tekst. Vi
       kommer tilbake til hva disse skal fylles med etterhvert, nå skal vi bare
       definere områdene. Gjør om koden din slik at den ser ut som dette:
@@ -209,7 +212,7 @@ Nå må vi definere fargene som programmet skal bruke.
   colours_eng = ['Red', 'Blue', 'Green', 'Pink', 'Black',
                  'Yellow', 'Orange', 'Purple', 'Brown']
   ```
-  
+
 - [ ] Siden vi vil at programmet vårt skal skrive ut de norske ordene, lager vi
       en liste til, med de norske navnene. Legg til dette rett under den andre
       listen.
@@ -218,7 +221,7 @@ Nå må vi definere fargene som programmet skal bruke.
   colours = ['Rød', 'Blå', 'Grønn', 'Rosa', 'Svart',
              'Gul', 'Oransje', 'Lilla', 'Brun']
   ```
-  
+
 - [ ] Vi må også lage en variabel for å holde orden på hvor mange poeng
       spilleren har. Samt en variabel for å holde nummeret på fargene som skal
       vises. Disse settes til tilfeldig tall etterpå. Legg til disse over
@@ -269,6 +272,7 @@ Nå må vi definere fargene som programmet skal bruke.
   ```python
   box.delete(0, tkinter.END)
   ```
+
 - [ ] Nå skal vi få tkinter til å displaye farge og tekst. Til dette bruker vi
       `randint()` funksjonen. Den lager et tilfeldig tall mellom to
       ytterpunkter. Lag denne under `box.delete(0, tkinter.END)`
@@ -328,6 +332,7 @@ selve spilldelen. Det skal vi gjøre nå!
           countdown()
       next_color()
   ```
+
 - [ ] Siste steg er å kjøre denne funksjonen når spilleren trykker *enter*. Legg
       til dette rett over `root.mainloop`:
 
@@ -337,6 +342,7 @@ selve spilldelen. Det skal vi gjøre nå!
   box.pack()
   box.focus_set()
   ```
+
 - [ ] Programmet ditt skal nå se slik ut:
 
   ```python #!/usr/bin/python # -*- coding: UTF-8 -*-
@@ -435,4 +441,3 @@ selve spilldelen. Det skal vi gjøre nå!
 - [ ] Får du +1 points når du skriver riktig farge på ordet?
 
 - [ ] Slutter programmet etter 30 sek?
-

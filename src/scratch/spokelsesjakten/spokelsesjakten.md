@@ -1,7 +1,6 @@
 ---
 title: Spøkelsesjakten
 level: 1
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Gudbrand Tandberg'
 license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
@@ -175,6 +174,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Spør de voksne om du kan ta opp en egen lyd. Denne kan du bruke i
   stedet for tryllelyden.
+
 
 # Steg 4: Legg til tid og poeng {.activity}
 
