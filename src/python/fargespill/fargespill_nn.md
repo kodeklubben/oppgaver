@@ -1,7 +1,7 @@
 ---
 title: Fargespel
 level: 3
-author: 'Omsett frå [usingpython.com](http://usingpython.com)'
+author: 'Omsett frå usingpython.com'
 translator: 'Stein Olav Romslo'
 language: nn
 ---
