@@ -1,7 +1,6 @@
 ---
 title: 'Skilpadder hele veien ned'
 level: 3
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Bjørn Einar Bjartnes'
 license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
@@ -468,4 +467,3 @@ vi det som tre trekanter sammen.
 
 - [ ] Forsøk å endre sirkelens radius, bytt ut `circle(length/2)` med
       `circle(length)`, dette tegner en større sirkel istedenfor.
-

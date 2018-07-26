@@ -1,9 +1,10 @@
 import re
 import glob
 from termcolor import colored
+from pathlib import Path
 
 # KEYS START HERE (DO NOT REMOVE THESE LINES)
-LANGUAGE = "nb|nn|en|da"
+LANGUAGE = "nb|nn|en"
 TOPIC = "app|electronics|step_based|block_based|text_based|minecraft|web|game|robot|animation|sound|cryptography"
 SUBJECT = "mathematics|science|programming|technology|music|norwegian|english|arts_and_crafts|social_science"
 GRADE = "preschool|primary|secondary|junior|senior"
@@ -19,6 +20,7 @@ REGEX_LONG_LINES_OUTSIDE_CODE = r"```(.|\n)*?```|`.*?`|(.{100,})"
 REGEX_FIND_YML = re.compile(r"^---[\s\S]+?---", re.DOTALL)
 
 PATH_2_SRC = '../src'
+
 
 def error_msg(string):
     return '{}'.format(colored(string, 'red'))
@@ -107,7 +109,7 @@ def find_incorrect_yaml(data, is_oppgaver=True):
     return empty_yaml_titles
 
 
-# Colors the words from bad_words red in a line
+# Colors the words from bad_words red in the line
 def color_incorrect(bad_words, line):
     line = re.sub(r'\b(' + '|'.join(bad_words) + r')\b', '{}', line)
     return line.format(*[colored(w, 'red') for w in bad_words])
@@ -120,16 +122,19 @@ def find_incorrect_class_in_headers(data):
         if m.group(1) not in CLASSES_LIST:
             line_w_fixed_brackets = m.group(0).replace('{', '{{').replace(
                 '}', '}}').strip()
-            incorrect_classes.append((m.start(0), error_msg('class'),
+            incorrect_classes.append((m.start(0),
+                                      error_msg('class'),
                                       color_incorrect([m.group(1)],
                                                       line_w_fixed_brackets)))
     return incorrect_classes
 
 
 def find_correct_line_numbers(lines_with_errors, data):
+    # Files are read as one long line, this converts
+    # the character where the error was found to a line number
     char_list = [i[0] for i in lines_with_errors]
     line_numbers = []
-    prev = 1
+    prev = 0
     line = 1
     for char in char_list:
         line += data[prev:char].count('\n')
@@ -139,39 +144,38 @@ def find_correct_line_numbers(lines_with_errors, data):
 
 
 def find_lines_with_errors(data, is_oppgave):
-
-    lines_with_errors = []
-    lines_with_errors.extend(find_missing_alts(data))
-    lines_with_errors.extend(find_long_lines(data))
-    lines_with_errors.extend(find_incorrect_class_in_headers(data))
-    lines_with_errors.extend(find_incorrect_yaml(data, is_oppgave))
-    lines_with_errors.sort()
-    return lines_with_errors
+    # Returns a sorted list of errors, where each element is a tuple:
+    #   (char, error_msg, line)
+    # char is the first character of the error, line is the first
+    # 80 characters in the line with the error.
+    return sorted(
+        find_missing_alts(data) + find_long_lines(data) +
+        find_incorrect_class_in_headers(data) +
+        find_incorrect_yaml(data, is_oppgave))
 
 
 def is_oppgaver_path(filepath):
-    match = re.search(r"src\/\w+\/\w+\/", filepath)
-    if match:
-        playlist_match = re.search(r"playlists", filepath)
-        return not playlist_match
-    else:
-        return False
+    # Every oppgave has a lesson.yml in the same folder
+    yml_path = Path(re.sub(r'\w+\.md', 'lesson.yml', filepath))
+    return yml_path.is_file()
 
 
 def print_lines_with_errors(filepath):
+    # Read file into one long string called data
     with open(filepath, "r") as f:
         data = f.read()
 
     is_oppgaver = is_oppgaver_path(filepath)
+    # If oppgaver then the file needs an author / external.
     lines_with_errors = find_lines_with_errors(data, is_oppgaver)
-    if lines_with_errors:
-        print('\n{}'.format(colored(filepath, 'yellow')))
-        line_numbers = find_correct_line_numbers(lines_with_errors, data)
-
-        for i, line in enumerate(lines_with_errors):
-            print('{:>15}:{:<18} {}'.format(
-                colored(str(line_numbers[i]), 'yellow'), line[1],
-                (line[2][:80] + '...') if len(line[2]) > 80 else line[2]))
+    if not lines_with_errors:
+        return
+    line_numbers = find_correct_line_numbers(lines_with_errors, data)
+    print('\n{}'.format(colored(filepath, 'yellow')))
+    for i, line in enumerate(lines_with_errors):
+        print('{:>15}:{:<18} {}'.format(
+            colored(str(line_numbers[i]), 'yellow'), line[1],
+            (line[2][:80] + '...') if len(line[2]) > 80 else line[2]))
 
 
 def md_linter(path=PATH_2_SRC):
@@ -182,5 +186,5 @@ def md_linter(path=PATH_2_SRC):
 
 if __name__ == "__main__":
 
-    print("Please run LKK_linter instead")
-    # md_linter()
+    # print("Please run LKK_linter instead")
+    md_linter()

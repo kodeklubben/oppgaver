@@ -1,5 +1,5 @@
-indexed: false
+level: 
 tags:
-    topic: [text_based, minecraft]
-    subject: [technology, programming]
-    grade: [primary, secondary, junior]
+  topic: [text_based, minecraft]
+  subject: [technology, programming]
+  grade: [primary, secondary, junior]
