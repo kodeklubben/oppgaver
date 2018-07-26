@@ -19,9 +19,9 @@ språk å lære. La oss starte.
 
 Resultatet kjem til å sjå ut som dette:
 
-![Skjermbilete 2](ressurser/bilde1.png)
+![Bilete av nettsida om Felix](ressurser/bilde1.png)
 
-![Skjermbilete 3](ressurser/bilde2.png)
+![Tekst om den sakna katten](ressurser/bilde2.png)
 
 
 # Steg 1: Korleis fungerer CSS? {.activity}
@@ -293,9 +293,9 @@ ut.__
 
 ## Resultat:
 
-![Skjermbilete 2](ressurser/bilde1.png)
+![Bilete av nettsida om Felix](ressurser/bilde1.png)
 
-![Skjermbilete 3](ressurser/bilde2.png)
+![Tekst om den sakna katten](ressurser/bilde2.png)
 
 ## Koden:
 
