@@ -134,7 +134,7 @@ foran tekst som er inni `""`. For eksempel blir alfabetet under
 
   ```python
   # alphabet er navnet på teksten fra a til å
-  alphabet = "abcdefghijklmnopqrstuvwxyz"
+  alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
 
   # Den hemmelige bokstaven (letter) og det hemmelige tallet
   # (secret) vi bruker for å kode det

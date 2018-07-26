@@ -52,7 +52,7 @@ av en klasse.
   ```
 
   **Tips:**
-  
+
   Bruk kommandoen `screen.draw.filled_rect()` for å tegne rektangler. En rød
   boks som er 50 piksler bred og høy tegnes i venstre topp med:
 
@@ -88,8 +88,8 @@ Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en strekmann (`stick_man`) fra klassen [`Actor`] som bruker bildet
-  `running_man`.
+- [ ] Lag en strekmann (`stick_man`) fra klassen [`Actor` (les mer)] som bruker
+  bildet `running_man`.
 
   ```python
   stick_man = Actor('running_man')
@@ -111,18 +111,18 @@ Du skal nå lage en strekmann som vi skal kalle `stick_man`.
   ![Bilde av mappestrukturen](mappestruktur.png "Mappestruktur")
 
 
-[`Actor`]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
+[`Actor` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
 
 
 # Steg 4: Funksjonene draw() og update() {.activity}
 
-De fleste spill i [Pygame Zero] har funksjonene [`draw()`] og [`update()`].
-Draw-funksjonen sørger for at spillvinduet blir tegnet og update-funksjonen gjør
-endringer i spillet før de tegnes med `draw()`.
+De fleste spill i [Pygame Zero] har funksjonene [`draw()` (les mer)] og
+[`update()` (les mer)]. Draw-funksjonen sørger for at spillvinduet blir tegnet
+og update-funksjonen gjør endringer i spillet før de tegnes med `draw()`.
 
 [Pygame Zero]: https://pygame-zero.readthedocs.org/
-[`draw()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
-[`update()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
+[`draw()` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
+[`update()` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
 
 ## Sjekkliste {.check}
 
@@ -197,8 +197,8 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
       #(Din kode)
   ```
 
-  [`on_key_down()`] kjøres hver gang spilleren trykker på en tast. Hvilken tast
-  som trykkes sendes til funksjonen som `key`.
+  [`on_key_down()` (les mer)] kjøres hver gang spilleren trykker på en tast.
+  Hvilken tast som trykkes sendes til funksjonen som `key`.
 
 - [ ] Lag en `if`-setning som sjekker at det er tasten "space" (`keys.SPACE`)
   som trykkes.
@@ -206,7 +206,7 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
 - [ ] Sjekk i samme `if`-setning om strekmannen er på bakken, det skal kun være
   lov å hoppe da.
 
-- [ ] For å få strekmannen til å hoppe, bruk [`animate()`]:
+- [ ] For å få strekmannen til å hoppe, bruk [`animate()` (les mer)]:
 
   ```python
   jump_up = animate(stick_man, 'decelerate', duration=0.4, bottom=(HEIGHT - box.height*1.5))
@@ -245,8 +245,8 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
   jump_up.on_finished = back_down
   ```
 
-[`on_key_down()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
-[`animate()`]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
+[`on_key_down()` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
+[`animate()` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
 
 ## Tips {.protip}
 
@@ -324,4 +324,3 @@ truffet av boksen.
 - [ ] Send flere bokser med ulik hastighet inn på skjermen samtidig.
 
 - [ ] Dine egne ideer?
-
