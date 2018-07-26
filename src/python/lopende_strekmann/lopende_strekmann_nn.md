@@ -41,8 +41,8 @@ hjelp av ei klasse.
 
 ## Sjekkliste {.check}
 
-- [ ] Klassa skal heite `Box` og skal ha eigenskapane `height`, `width`, `color`,
-  `x`, `y` og ein funksjon som heiter `draw()`:
+- [ ] Klassa skal heite `Box` og skal ha eigenskapane `height`, `width`,
+  `color`, `x`, `y` og ein funksjon som heiter `draw()`:
 
   ```python
   class Box:
@@ -87,8 +87,8 @@ Du skal du lage ein strekmann me kallar `stick_man`.
 
 ## Sjekkliste {.check}
 
-- [ ] Lag ein strekmann (`stick_man`) frå klassa [`Actor`] som brukar biletet
-  `running_man`.
+- [ ] Lag ein strekmann (`stick_man`) frå klassa [`Actor` (les meir)] som brukar
+  biletet `running_man`.
 
   ```python
   stick_man = Actor('running_man')
@@ -109,18 +109,18 @@ Du skal du lage ein strekmann me kallar `stick_man`.
 
   ![Bilete av mappestrukturen](mappestruktur.png)
 
-[`Actor`]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
+[`Actor` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
 
 
 # Steg 4: Funksjonane draw() og update() {.activity}
 
-Dei fleste spela i [Pygame Zero] har funksjonane [`draw()`] og [`update()`].
-Draw-funksjonen syt for at spelvindauget blir teikna, og update-funksjonen gjer
-endringar i spelet før dei blir teikna med `draw()`.
+Dei fleste spela i [Pygame Zero] har funksjonane [`draw()` (les meir)] og
+[`update()` (les meir)]. Draw-funksjonen syt for at spelvindauget blir teikna,
+og update-funksjonen gjer endringar i spelet før dei blir teikna med `draw()`.
 
 [Pygame Zero]: https://pygame-zero.readthedocs.org/
-[`draw()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
-[`update()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
+[`draw()` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
+[`update()` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
 
 ## Sjekkliste {.check}
 
@@ -141,7 +141,8 @@ endringar i spelet før dei blir teikna med `draw()`.
   - Viss boksen er ute av biletet på venstre side, flytt den til høgre side av
     vindauget.
 
-  - Viss strekmannen blir treft av boksen, skriv "Du traff boksen!!" til terminalen.
+  - Viss strekmannen blir treft av boksen, skriv "Du traff boksen!!" til
+    terminalen.
 
   ```python
   def update():
@@ -195,8 +196,8 @@ No skal du gjere det mogleg for strekmannen å hoppe med mellomromtasten.
       #(Koden din)
   ```
 
-  [`on_key_down()`] blir køyrt kvar gong spelaren trykkar på ein tast. Kva tast
-  som blir trykka blir sendt til funksjonen som `key`.
+  [`on_key_down()` (les meir)] blir køyrt kvar gong spelaren trykkar på ein
+  tast. Kva tast som blir trykka blir sendt til funksjonen som `key`.
 
 - [ ] Lag ei `if`-setning som sjekkar at det er mellomromtasten (`keys.SPACE`)
   som blir trykka.
@@ -204,7 +205,7 @@ No skal du gjere det mogleg for strekmannen å hoppe med mellomromtasten.
 - [ ] Sjekk i same `if`-setning om strekmannen er på bakken, det er berre lov å
   hoppe om han er det.
 
-- [ ] For å få strekmannen til å hoppe, bruk [`animate()`]:
+- [ ] For å få strekmannen til å hoppe, bruk [`animate()` (les meir)]:
 
   ```python
   jump_up = animate(stick_man, 'decelerate', duration=0.4, bottom=(HEIGHT - box.height*1.5))
@@ -243,8 +244,8 @@ No skal du gjere det mogleg for strekmannen å hoppe med mellomromtasten.
   jump_up.on_finished = back_down
   ```
 
-[`on_key_down()`]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
-[`animate()`]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
+[`on_key_down()` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
+[`animate()` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
 
 ## Tips {.protip}
 
