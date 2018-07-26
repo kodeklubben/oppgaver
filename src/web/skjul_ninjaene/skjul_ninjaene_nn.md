@@ -20,7 +20,7 @@ Fem ninjaar kom til byen, og du må skjule dei før nokon legg merke til dei. Ve
 sikker gøymestad. Du kan flytte ninjaane sjølv, i tillegg til nokre objekt på
 gata. Fort - det er inga tid å miste!
 
-![Fem ninjaar](ninjas.png)
+![Bilete av dei fem ninjaane](ninjas.png)
 
 
 # Steg 1: Møt ninjaane {.activity}
