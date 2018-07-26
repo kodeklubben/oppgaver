@@ -133,7 +133,7 @@ er av typen *Unicode* som støttar alle norske bokstavar.
 
   ```python
   # alphabet er namnet på teksten frå a til å
-  alphabet = "abcdefghijklmnopqrstuvwxyz"
+  alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
 
   # Den hemmelege bokstaven (letter) og det hemmelege talet
   # (secret) me brukar for å kode det
