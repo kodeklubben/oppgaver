@@ -20,7 +20,7 @@ Fem ninjaer kom til byen, og du må skjule dem før noen legger merke til dem. V
 sikkert gjemmested. Du kan flytte ninjaene selv, og noen objekter i gaten også.
 Fort – det er ingen tid å miste!
 
-![screenshot](ninjas.png)
+![Bilde av de fem ninjaene](ninjas.png)
 
 
 # Steg 1: Møt ninjaene {.activity}
