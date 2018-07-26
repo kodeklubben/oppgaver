@@ -87,7 +87,7 @@ Dette må du gjere:
 
 - [ ] Bruk ei løkke for å hente inn 3 nøkkel/verdi-par.
 
-  - Lagre nøkkel/verdi-para i ordboka.
+- [ ] Lagre nøkkel/verdi-para i ordboka.
 
 - [ ] Spør om ein nøkkel.
 
