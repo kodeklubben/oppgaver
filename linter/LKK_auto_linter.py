@@ -7,7 +7,7 @@ from collections import defaultdict
 
 PATH_2_LAST_LINTED_TIMES = "./last_auto_linted_times.pkl"
 PATH_2_SRC = '../src'
-PATH_2_LINTER = './LKK_auto_linter.sh'
+PATH_2_LINTER = '../../temp/LKK_auto_linter.sh'
 
 
 def load_last_modified_times():
