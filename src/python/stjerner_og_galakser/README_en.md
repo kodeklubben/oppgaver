@@ -2,7 +2,6 @@
 title: Lærerveiledning - Stjerner og galakser
 level: 2
 author: '[Code Club UK](//codeclub.org.uk)'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 translator: 'Ole Andreas Ramsdal'
 language: en
 ---

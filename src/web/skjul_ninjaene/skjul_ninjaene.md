@@ -3,7 +3,6 @@ title: 'CSS: Skjul ninjaene'
 level: 3
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Trude Martinsen'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
