@@ -3,7 +3,6 @@ title: 'HTML: Introduksjon til Web'
 level: 1
 author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
 translator: 'Stein Olav Romslo'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)'
 language: nn
 ---
 

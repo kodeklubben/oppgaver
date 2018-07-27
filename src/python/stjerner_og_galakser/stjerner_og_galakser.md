@@ -1,8 +1,7 @@
 ---
 title: 'Stjerner og galakser'
 level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)''
 translator: 'Ole Andreas Ramsdal'
 language: nb
 ---
