@@ -266,9 +266,9 @@ Del inn nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html).
 
 ## Døme på korleis sida kan sjå ut
 
-![Skjermbilete 1](resursser/bilete1.png){width="100%"}
+![Skjermbilete 1](resursser/bilde1.png){width="100%"}
 
-![Skjermbilete 2](resursser/bilete2.png){width="100%"}
+![Skjermbilete 2](resursser/bilde2.png){width="100%"}
 
 ## Koden for dømet over:
 
