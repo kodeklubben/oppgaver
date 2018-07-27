@@ -2,7 +2,6 @@
 title: "Python: knapper"
 level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/buttons.html)"
-license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
 translator: "Øistein Søvik"
 language: nb
 ---
@@ -43,7 +42,7 @@ interessante nye idéer.
 
 2. Det er et objekt `button_a` som tillater deg å hente ut antall ganger den har
    blitt aktivert via `get_presses` metoden.
-   
+
 Siden `get_presses` gir en numerisk verdi og `display.scroll` bare viser tekst,
 trenger vi å konvertere den numeriske verdien til en tekststreng. Vi gjør dette
 med `str` funksjonen (Navnet er kort for *string* som kanskje gjør det enklere å
@@ -93,7 +92,7 @@ Python gjør det enkelt å definere kodeblokker. Si jeg har en huskeliste skreve
 på et papir. Den ser omtrent ut som det her:
 
 ```python
-Handle 
+Handle
 Rengjøre takrennen
 Klippe plenen
 ```
@@ -133,7 +132,7 @@ while running_time() < 10000:
 display.show(Image.SURPRISED)
 ```
 
-Funksjonen `running_time` returnerer antall millisekunder siden micro:bit'en ble startet. 
+Funksjonen `running_time` returnerer antall millisekunder siden micro:bit'en ble startet.
 
 Linjen `while running_time() < 10000:` sjekker dersom tiden er mindre enn 10000
 millisekunder (i.e. 10 sekunder). Dersom den er, det så vises `Image.ASLEEP`.
@@ -217,4 +216,3 @@ logiske påstander samtidig (ting som enten er `True` eller `False`).
 
 
 # {.check}
-
