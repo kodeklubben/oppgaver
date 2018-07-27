@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Hangman
+author: Øistein Søvik
 level: 3
 language: nb
 ---

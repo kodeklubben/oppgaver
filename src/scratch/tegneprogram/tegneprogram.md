@@ -1,10 +1,8 @@
 ---
 title: Tegneprogram
 level: 3
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Helge Astad og Anne-Marit Gravem'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
@@ -16,6 +14,7 @@ kunst. Du kan tegne med forskjellige farger, bruke viskelær, lage stempler og
 mye mer!
 
 ![Bilde av et tegneprogram](tegneprogram.png)
+
 
 # Forberedelser: Last ned bildefiler {.activity}
 
@@ -560,4 +559,3 @@ __Veldig, veldig bra! Nå kan du tegne akkurat det du vil!__
 
 Ikke glem å del spillet ditt med venner og familie ved å trykke på `Legg ut` i
 menyen!
-

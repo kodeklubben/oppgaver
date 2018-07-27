@@ -2,7 +2,6 @@
 title: "Python: Bevegelse"
 level: 3
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/movement.html)"
-license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
 translator: "Øistein Søvik"
 language: nb
 ---
@@ -10,7 +9,8 @@ language: nb
 
 # Introduksjon {.intro}
 
-Din micro:bit er utstyrt med et akselerometer som måler bevegelse langs tre akser:
+Din micro:bit er utstyrt med et akselerometer som måler bevegelse langs tre
+akser:
 
 * X - tilte fra venstre til høyre.
 
@@ -57,6 +57,7 @@ eller vertikalt så er det fordi den bruker et akselerometer på akkuratt samme
 måte som programmet ovenfor. Spillkontrollere inneholder også akselerometer som
 kan hjelpe deg å navigere.
 
+
 # Musikalsk galskap
 
 En av de beste egenskapene til MicroPython er hvor sømløst du kan sette sammen
@@ -65,9 +66,9 @@ et "musikalsk" instrument. Hvorfor jeg satte hermetegn omkring musikalsk finner
 du nok fort ut ;-)
 
 Sett inn en høytaler slik som du gjorde i oppgaven ["Lage musikk med
-micro:bit"](../python_musikk/python_musikk.html). Bruk krokodilleklemmer til å feste
-pin 0 og GND (jord) til den positive og negative inngangen på høytaleren - det
-spiller ingen rolle hvilken vei de er koblet. 
+micro:bit"](../python_musikk/python_musikk.html). Bruk krokodilleklemmer til å
+feste pin 0 og GND (jord) til den positive og negative inngangen på høytaleren -
+det spiller ingen rolle hvilken vei de er koblet.
 
 ![Bilde av en micro'bit med krokodilleklemmer til pin 0 og GND](pin0-gnd.png)
 
@@ -91,16 +92,18 @@ forandre tone raskt når enheten tippes til en side. Siden jeg bruker en
 Det er alt!
 
 Tipp enheten fremmover og bakover. Dersom lesingen langs Y aksen er positive så
-vil den endre tonehøyden avspilt av micro:bit'en. 
+vil den endre tonehøyden avspilt av micro:bit'en.
 
 Klarer du å spille en melodi på dette enkle instrumentet? I siste del skal vi se
 på noen enkle forbedringer du kan gjøre.
 
 ## Prøv det ut selv {.check}
 
-- [ ] Endre instrumentet ditt slik at du kan tippe det både bakover og fremmover for å endre tonehøyden.
+- [ ] Endre instrumentet ditt slik at du kan tippe det både bakover og fremmover
+      for å endre tonehøyden.
 
-Dette kan for eksempel gjøres ved enten å legge inn en `if`setning, eller med å bruke `abs` funksjonen
+Dette kan for eksempel gjøres ved enten å legge inn en `if`setning, eller med å
+bruke `abs` funksjonen
 
 <toggle>
   <strong>Hint</strong>
@@ -114,7 +117,7 @@ while True:
     music.pitch(abs(accelerometer.get_y()), 10)
 ```
 
-Alternativt 
+Alternativt
 
 ```python
 from microbit import *
@@ -133,7 +136,8 @@ Hvilket alternativ tror du jeg liker best?
 </hide>
 </toggle>
 
-- [ ] Endre koden slik at du kan styre hvor lenge tonene varierer ved å variere høyden i z-retningen.
+- [ ] Endre koden slik at du kan styre hvor lenge tonene varierer ved å variere
+      høyden i z-retningen.
 
 <toggle>
   <strong>Hint</strong>
@@ -149,15 +153,16 @@ while True:
     music.pitch(Y, Z)
 ```
 
-Merk hvordan jeg gjorde koden litt mer lesbar ved å definere variablene `Y` og `Z`.
+Merk hvordan jeg gjorde koden litt mer lesbar ved å definere variablene `Y` og
+`Z`.
 
 </hide>
 </toggle>
 
 Vi mennesker har problemer med å høre frekvenser over 18 000Hz og under 40Hz.
 Mens de frekvensene som er behagelige å høre på gjerne ligger mellom 80 - 400Hz.
-For å fikse micro:bit'en slik at den bare spiller toner i dette intervalet kan vi
-gjøre noe som ligner på dette
+For å fikse micro:bit'en slik at den bare spiller toner i dette intervalet kan
+vi gjøre noe som ligner på dette
 
 ```python
 from microbit import *
@@ -195,4 +200,5 @@ lesbarheten.
 </hide>
 </toggle>
 
-- [ ] Finn gode tallverdier for `A` i koden over. Forstår du hvordan koden fungerer?
+- [ ] Finn gode tallverdier for `A` i koden over. Forstår du hvordan koden
+      fungerer?

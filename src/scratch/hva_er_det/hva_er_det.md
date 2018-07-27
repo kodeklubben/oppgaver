@@ -1,10 +1,8 @@
 ---
 title: 'Hva er det?'
 level: 3
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Anne-Marit Gravem'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
@@ -263,7 +261,7 @@ utfordringene nedenfor!
 Endre vanskelighetsgrad for spillet.
 
 * Forsøk å endre hvor lenge bildet vises frem og hvor raskt poengsummen minker.
-  
+
 * Forsøk å endre forvrengingen av bildet.
 
 * Forsøk å gjøre figurene likere hverandre eller mer forskjellig. Husk også å

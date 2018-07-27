@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Donkey Kong
+author: Stein Olav Romslo
 level: 4
 language: nb
 ---
@@ -50,7 +51,6 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan lage et spill inspirert av Donkey Kong.
-
 
 - [ ] Elevene kan bruke enkle geometriske grunnformer som elementer i et spill.
 

@@ -2,7 +2,6 @@
 title: "Python: Bilder"
 level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html)"
-license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
 translator: "Øistein Søvik"
 language: nb
 ---
@@ -36,52 +35,96 @@ kan fortelle `show` å bruke bildet ved å legge det mellom parenthesene `(` og
 ## Liste av tilgjengelige bilder {.tip}
 
 - `Image.HEART`
+
 - `Image.HEART_SMALL`
+
 - `Image.HAPPY`
+
 - `Image.SMILE`
+
 - `Image.SAD`
+
 - `Image.CONFUSED`
+
 - `Image.ANGRY`
+
 - `Image.ASLEEP`
+
 - `Image.SURPRISED`
+
 - `Image.SILLY`
+
 - `Image.FABULOUS`
+
 - `Image.MEH`
+
 - `Image.YES`
+
 - `Image.NO`
+
 - `Image.CLOCK12`, `Image.CLOCK11`, `Image.CLOCK10`, `Image.CLOCK9`, `Image.CLOCK8`,
   `Image.CLOCK7`, `Image.CLOCK6`, `Image.CLOCK5`, `Image.CLOCK4`, `Image.CLOCK3`,
   `Image.CLOCK2`, `Image.CLOCK1`
+
 - `Image.ARROW_N`, `Image.ARROW_NE`, `Image.ARROW_E`, `Image.ARROW_SE`, `Image.ARROW_S`,
   `Image.ARROW_SW`, `Image.ARROW_W`, `Image.ARROW_NW`
+
 - `Image.TRIANGLE`
+
 - `Image.TRIANGLE_LEFT`
+
 - `Image.CHESSBOARD`
+
 - `Image.DIAMOND`
+
 - `Image.DIAMOND_SMALL`
+
 - `Image.SQUARE`
+
 - `Image.SQUARE_SMALL`
+
 - `Image.RABBIT`
+
 - `Image.COW`
+
 - `Image.MUSIC_CROTCHET`
+
 - `Image.MUSIC_QUAVER`
+
 - `Image.MUSIC_QUAVERS`
+
 - `Image.PITCHFORK`
+
 - `Image.XMAS`
+
 - `Image.PACMAN`
+
 - `Image.TARGET`
+
 - `Image.TSHIRT`
+
 - `Image.ROLLERSKATE`
+
 - `Image.DUCK`
+
 - `Image.HOUSE`
+
 - `Image.TORTOISE`
+
 - `Image.BUTTERFLY`
+
 - `Image.STICKFIGURE`
+
 - `Image.GHOST`
+
 - `Image.SWORD`
+
 - `Image.GIRAFFE`
+
 - `Image.SKULL`
+
 - `Image.UMBRELLA`
+
 - `Image.SNAKE`
 
 ## Ting å prøve ut {.check}
@@ -145,7 +188,7 @@ boat = Image("05050:05050:05050:99999:09990")
 - [ ] Lag et smilefjes der det ene øyet lyser svakere
 
 - [ ] Lag et hjertet som lyser så svakt som mulig. Hint: du kan bruke
-      `IMAGES.HEART` for å se ett eksempel på ett hjerte. 
+      `IMAGES.HEART` for å se ett eksempel på ett hjerte.
 
 
 # Animasjon {.activity}
@@ -181,7 +224,7 @@ En liste kan inneholde nesten alt i Python. Her er en liste med tall:
 primes = [2, 3, 5, 7, 11, 13, 17, 19]
 ```
 
-## Merk {.tip} 
+## Merk {.tip}
 
 Tall trenger ikke å være sitert siden de representerer en verdi (heller enn en
 tekststreng). Det er en forskjell mellom `2` (Tallverdien 2) og (`"2"`)
@@ -214,15 +257,14 @@ fortsetter for alltid) ved å skrive `loop=True`. Videre kan vi si at vi ønsker
 at pausen mellom hvert bilde bare skal være 100 millisekund (En tiendedel av et
 sekund) med argumentet `delay=100`.
 
-
 ## Ting å prøve ut {.check}
 
-- [ ] Animer over alle bildene av piler fra `Image.ALL_ARROWS` listen. 
+- [ ] Animer over alle bildene av piler fra `Image.ALL_ARROWS` listen.
 
 - [ ] Gjør slik at animasjonen bare kjører en gang (hint: det motsatte av `True`
       er `False`).
 
-- [ ] Forandre hastigheten på animasjonen slik at den går dobbelt så raskt 
+- [ ] Forandre hastigheten på animasjonen slik at den går dobbelt så raskt
 
 
 # Skipshavari {.activity}
@@ -273,9 +315,9 @@ all_boats = [boat1, boat2, boat3, boat4, boat5, boat6]
 display.show(all_boats, delay=200)
 ```
 
-Her er hvordan koden virker 
+Her er hvordan koden virker
 
-- Jeg lager seks `boat` bilder akkurat som jeg forklarte ovenfor. 
+- Jeg lager seks `boat` bilder akkurat som jeg forklarte ovenfor.
 
 - Så putter jeg alle seks bildene i listen `all_boats`
 

@@ -6,6 +6,7 @@ translator: 'Gro Anette Vestre'
 language: nn
 ---
 
+
 # Introduksjon {.intro}
 
 På slutten av 1970-talet ga Atari ut to spel der ein skulle kontrollera eit
@@ -16,7 +17,8 @@ gjenbruke mykje av teknologien. Me skal gjera det same! Du må derfor ha laga
 prosjektet. I Asteroids er målet å beskytta romskipet mot asteroidar ved å skyta
 dei i småbitar.
 
-![](asteroids.png)
+![Illustrasjon av eit ferdig Asteroids-spel](asteroids.png)
+
 
 # Oversikt over prosjektet {.activity}
 
@@ -33,6 +35,7 @@ gjenbruke kode i Scratch.*
 - [ ] Pass deg for asteroidane
 
 - [ ] .. og andre utfordringer
+
 
 # Steg 1: Enda eit flygande romskip {.activity}
 
@@ -64,7 +67,7 @@ kattefiguren og legg på ein stjernebakgrunn.
 - [ ] No kan du dra romskip-kopien ut frå ryggsekken, og til figurvindauget i
 det nye prosjektet.
 
-  ![](ryggsekk.png)
+  ![Bilete som syner korleis du dreg Romskip-kopien frå ryggsekken i Scratch](ryggsekk.png)
 
   Du vil no sjå at alle draktane, alle variablane og alle skripta til romskipet
   er kopiert over. Du kan rydda opp litt ved å slette skript som ikkje har noko
@@ -107,6 +110,7 @@ skjermen på den eine sida skal det dukka opp på andre sida av skjermen.
       slutt
   ```
 
+
 # Steg 2: Romskipet kan skyte {.activity}
 
 *Romskipet vårt vil snart fly inn i ein asteroidesverm, så me må montera
@@ -127,7 +131,7 @@ koden som lagar ein ny skotklone når du trykkjer mellomromtasten:
   mellomromtasten er trykka. Dersom eit skot skal avfyrast kan du først la
   skotet `gå til`{.blockmotion} romskipet og deretter peike i same retning som
   romskipet. Dette siste kan du gjera med ein kombinasjon av `pek i
-  retning`{.blockmotion}, `retning av`{.blocksensing} og  
+  retning`{.blockmotion}, `retning av`{.blocksensing} og
   `vend`{.blockmotion}-klosser. Til slutt kan du `lage en klon`{.blockcontrol}
   av figuren.
 
@@ -166,6 +170,7 @@ alle skotklonene.
 
 - [ ] Prøv spelet ditt. No skal du kunne fly rundt i verdsrommet medan du skyt.
 
+
 # Steg 3: Pass deg for asteroidane {.activity}
 
 *Då er det på tide å laga ein asteroidesverm. Noko av det som er kult med
@@ -180,7 +185,7 @@ figur med vektorgrafikk. Start med ein enkel firkant, og bruk deretter
 `Bøy`-verktøyet for å leggje til fleire hjørnepunkt og flytta dei rundt som i
 figuren under.
 
-  ![](flyttpunkt.png)
+  ![Bilete av ein asteroidefigur i Scratch](flyttpunkt.png)
 
 - [ ] Også for asteroidane vil me bruka kloner. Lag eit skript som
 `skjuler`{.blocklooks} figuren og lager eit par asteroide-kloner tilfeldige
@@ -221,6 +226,7 @@ kan til dømes leggje inn kode som dette i løkkja som flyttar skot-figuren:
           slett denne klonen
       slutt
   ```
+
 
 # Steg 4: Vidareutvikling av spelet {.activity}
 
