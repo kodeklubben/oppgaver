@@ -15,7 +15,7 @@ Flagg ble opprinnelig skrevet av Sverre Oskar Konestabo som et bidrag til
 programmeringskonkurransen som ble avholdt for barn som deltok på Kodeklubben
 Blindern våren 2016.
 
-![](flagg.png)
+![Bilde av Norges flagg som vaier i vind](flagg.png)
 
 ## Oppgaven passer til: {.check}
 
@@ -26,7 +26,6 @@ __Anbefalte trinn__: 3.-10. trinn.
 __Tema__: Løkker, sirkler, forminskning, koordinatsystem.
 
 __Tidsbruk__: Dobbelttime eller mer.
-
 
 ## Kompetansemål {.challenge}
 
@@ -74,15 +73,15 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort
-      flere prosjekter på introduksjons- og nybegynnernivå før de starter med
-      denne oppgaven. I prosjektet brukes _sinus_ og _cosinus_, som vanligvis
-      ikke introduseres for elevene før mot slutten av videregående. Det kan
-      være lurt å prate litt om disse funksjonene med elevene.
-      
+  flere prosjekter på introduksjons- og nybegynnernivå før de starter med denne
+  oppgaven. I prosjektet brukes _sinus_ og _cosinus_, som vanligvis ikke
+  introduseres for elevene før mot slutten av videregående. Det kan være lurt å
+  prate litt om disse funksjonene med elevene.
+
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-      bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-      seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
-      Elevene kan gjerne jobbe to og to sammen.
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne
+  jobbe to og to sammen.
 
 ## Fremgangsmåte
 
@@ -111,7 +110,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] Det norske flagget har en bestemt rød- og blåfarge. I RGB-systemet er det
       nærmeste vi kommer `#ED2939` og `#002664`.
-      
+
 - [ ] Dimensjonene på flagget er litt feil. I følge
   [flaggloven](https://lovdata.no/dokument/NL/lov/1898-12-10-1) skal forholdet
   mellom flaggets bredde og lengde være 16 til 22, mens i oppgaven tegnes
@@ -124,7 +123,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] Elevene kan prøve å endre på tallene underveis, og se hvordan dette
       påvirker animasjonen. Spesielt tallene i de forskjellige `vend høyre ()
       grader`{.b}-klossene kan ha en stor effekt.
-      
+
 - [ ] Elevene kan tegne sine egne flagg. Slik sirklene legges ut starter man
       nederst i venstre hjørne og går oppover og etterhvert mot høyre når man
       bruker den lange teksten (`rrrrrhbbhrrrrrrrrrrhbbhrrrrr...`) for å

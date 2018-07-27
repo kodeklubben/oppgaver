@@ -54,12 +54,12 @@ søppelet som vi skal kaste.
   }
   </style>
   <figure class="inline">
-    <img src="bananer.png" />
-    <img src="eple.png" />
-    <img src="ballong.png" />
-    <img src="hellikopter.png" />
-    <img src="melk.png" />
-    <img src="avis.png" />
+    <img src="bananer.png" alt="Bilde av bananer"/>
+    <img src="eple.png" alt="Bilde av et eple"/>
+    <img src="ballong.png" alt="Bilde av en ballong"/>
+    <img src="hellikopter.png" alt="Bilde av et hellikopter"/>
+    <img src="melk.png" alt="Bilde av en melk"/>
+    <img src="avis.png" alt="Bilde av en avis"/>
   </figure>
 
 - [ ] Velg så en bakgrunn som vi kan plassere figurene våre rundt i. Vi valgte
@@ -83,6 +83,7 @@ søppelet som vi skal kaste.
 
 - [ ] Om du flytter rundt på søppel-bitene, blir de satt tilbake når du trykker
   på det grønne flagget?
+
 
 # Steg 2: Sett opp spillet {.activity}
 
@@ -143,6 +144,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   spill lyden [opptak 1 v] til den er ferdig
   ```
+
 
 # Steg 3: Start spillet {.activity}
 

@@ -5,6 +5,7 @@ author: 'Teodor Heggelund'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Målet med oppgaven er å _vise_ hvor HTML finnes i virkelige nettsider, slik som
@@ -13,6 +14,7 @@ kjennskap til HTML, samt enkelt kunne endre på nettsider du er inne på.
 
 Denne oppgaven er demonstrert med nettleseren Google Chrome. Bruk Google Chrome
 hvis du har den.
+
 
 # Steg 1: Se {.activity}
 
@@ -23,6 +25,7 @@ nettleseren! La oss ta en titt.
 
 - [ ] Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller
   Firefox
+
 - [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
 
   ![Bilde av kodeklubbens nettsider med katten høyreklikket](inspiser_katten.png)
@@ -41,8 +44,8 @@ nettleseren! La oss ta en titt.
   <img src="scratch/logo-black.png">
   ```
 
-- [ ] Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren over
-  filnavnet. Ser du filen dukker opp?
+- [ ] Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren
+  over filnavnet. Ser du filen dukker opp?
 
 - [ ] Inspiser slangen. Hva er filnavnet til slangen? Ser du det samme som meg?
 
@@ -59,9 +62,11 @@ nettleseren! La oss ta en titt.
 **Høyreklikk og inspiser** finner HTML-koden til elementet vi ser på.
 
 **HTML-kode for bilder** ser slik ut:
+
 ```html
 <img src="fil.png">
 ```
+
 
 # Steg 2: Fjern {.activity}
 
@@ -106,8 +111,8 @@ gjøre noe med det. Vi fjerner alt som er foran!
   </a>
   ```
 
-- [ ] Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som er
-  inni linken!
+- [ ] Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som
+  er inni linken!
 
   ![Viser hva som er inneholdt i <a> taggen](liten_a.png)
 
@@ -156,6 +161,7 @@ Disse kan være lenker (`<a>`) eller bokser (`<div>`).
 
 Vi kan fremdeles finne og se alle de usynlige kodene når vi bruker `Inspiser`!
 
+
 # Steg 3: Skap {.activity}
 
 Nå skal vi leke! La oss putte denne rakkeren
@@ -175,6 +181,7 @@ på **alle kursene**!
 - [ ] Endre alle bildene ved å redigere `src`-attributten til `<img>`-taggen:
 
   ![Bilde av hvordan endre src-attributten til img-taggen på kodeklubbens nettsider](ny_og_bedre_src.png)
+
 
 # Steg 4: Masse moro! {.activity}
 

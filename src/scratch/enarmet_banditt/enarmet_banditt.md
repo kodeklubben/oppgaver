@@ -1,10 +1,8 @@
 ---
 title: 'Enarmet banditt'
 level: 2
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Gudbrand Tandberg og Anne-Marit Gravem'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
@@ -15,6 +13,7 @@ Dette er et spill med tre figurer som endrer utseende. Din oppgave er
 å stoppe figurene én etter én, slik at alle tre blir like.
 
 ![Bilde av to dinosaurer og en banan](enarmet_banditt.png)
+
 
 # Steg 1: Lag en figur som bytter drakt {.activity}
 
@@ -66,6 +65,7 @@ __Klikk på det grønne flagget.__
 
 Tilpass tiden i `vent`{.blockcontrol}-klossen. Hvilke tall gjør spillet for
 vanskelig eller for lett?
+
 
 # Steg 3: Frys ruletten! {.activity}
 

@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Stjerner og galakser
+author: Øistein Søvik
 level: 2
 language: nb
 ---

@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Fyrverkeri
+author: Stein Olav Romslo
 level: 2
 language: nb
 ---
@@ -22,7 +23,6 @@ __Anbefalte trinn__: 3.-10. trinn
 __Tema__: Koordinatsystem, bevegelser.
 
 __Tidsbruk__: Dobbelttime eller mer.
-
 
 ## Kompetansemål {.challenge}
 

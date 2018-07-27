@@ -102,6 +102,7 @@ __Klikk på det grønne flagget.__
 
 Du oppdager kanskje at det begynner å bli veldig mange klikk etterhvert?
 
+
 # Steg 2: A little more action, please! {.activity}
 
 Heldigvis kan vi ved hjelp av litt programmeringsmagi få datamaskinen til å
@@ -120,6 +121,7 @@ gjøre jobben for oss!
 
 - [ ] Tips: For hver gang du halverer vinkelen, må du doble antall repetisjoner
       for at hatten skal snurre like langt.
+
 
 # Steg 3: The final countdown {.activity}
 
