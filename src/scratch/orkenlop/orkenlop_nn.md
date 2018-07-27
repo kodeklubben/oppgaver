@@ -4,7 +4,6 @@ level: 2
 logo: ../../assets/img/ccuk_logo.png
 author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
 translator: 'Stein Olav Romslo'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nn
 ---
 
