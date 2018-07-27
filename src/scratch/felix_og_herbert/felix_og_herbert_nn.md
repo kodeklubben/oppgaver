@@ -4,7 +4,6 @@ level: 1
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Gro Anette Vestre'
 language: nn
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 ---
 
 
