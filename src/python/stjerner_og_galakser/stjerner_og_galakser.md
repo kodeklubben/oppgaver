@@ -1,7 +1,7 @@
 ---
 title: 'Stjerner og galakser'
 level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)''
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Ole Andreas Ramsdal'
 language: nb
 ---
