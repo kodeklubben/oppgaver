@@ -3,7 +3,6 @@ title: Tegneprogram
 level: 3
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Helge Astad og Anne-Marit Gravem'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
