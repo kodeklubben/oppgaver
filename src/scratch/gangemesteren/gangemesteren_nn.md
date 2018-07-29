@@ -26,7 +26,7 @@ vil også få litt hjelp frå teikningar på skjermen. Men først introduserer m
 
 - [ ] Start eit nytt prosjekt og slett kattefiguren.
 
-- [ ] Legg til ein ny figur ved å klikke på ![Velg figur frå
+- [ ] Legg til ein ny figur ved å klikke på ![Vel figur frå
       biblioteket](../bilder/hent-fra-bibliotek.png). Velg ein av
       _Wizard_-figurane mest heilt nederst i `Menneske`-kategorien. Kall figuren
       `Læreimester`.
@@ -36,23 +36,23 @@ vil også få litt hjelp frå teikningar på skjermen. Men først introduserer m
       skriptet:
 
     ```blocks
-    når grønt flagg klikkes
-    si (tilfeldig tall fra (2) til (10)) i (2) sekunder
-    si [gonger] i (2) sekunder
-    si (tilfeldig tall fra (2) til (10)) i (2) sekunder
+    når @greenFlag vert trykt på
+    sei (tilfeldig tal frå (2) til (10)) i (2) sekund
+    sei [gonger] i (2) sekund
+    sei (tilfeldig tal frå (2) til (10)) i (2) sekund
     ```
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grøne flaget.__
 
-- [ ] Spør `Læreimester` deg om eit gongestykke?
+- [ ] Spør `Læremeister` deg om eit gongestykke?
 
-- [ ] Me skal etterkvart sjå korleis me kan få `Læreimesteren` til å sei heile
+- [ ] Me skal etterkvart sjå korleis me kan få `Læremeisteren` til å sei heile
       teksten, i staden for berre eit ord om gongen.
 
 - [ ] Foreløpig kan du ikkje svara `Læremeister` (iallfall ikkje med
-      datamaskinen, prøv gjerne å rekna ut svaret og sei det til dei som set ved
+      datamaskinen, prøv gjerne å rekna ut svaret og sei det til dei som sit ved
       sida av deg).
 
 
@@ -65,7 +65,7 @@ skal nå sjå på korleis me får Scratch til å gonge saman tal.
 ## Sjekkliste {.check}
 
 - [ ] For å få Scratch til å rekne brukar me
-      `Operatorer`{.blockoperators}-klossar. Prøv for eksempel å dra
+      `Operatorar`{.blockoperators}-klossar. Prøv for eksempel å dra
       gongeklossen - med `*`{.blockoperators}-teiknet - til skriptområdet på
       høyresida. Skriv inn to tal og klikk på klossen. Scratch reknar då ut
       svaret på gongestykket.
@@ -83,10 +83,10 @@ skal nå sjå på korleis me får Scratch til å gonge saman tal.
       du skreiv i forrige steg).
 
     ```blocks
-    når jeg mottar [Nytt spørsmål v]
-    sett [tal1 v] til (tilfeldig tall fra (2) til (10))
-    sett [tal2 v] til (tilfeldig tall fra (2) til (10))
-    sett [rett svar v] til ((tal1) * (tal2))
+    når eg får meldinga [Nytt spørsmål v]
+    set [tal1 v] til (tilfeldig tal frå (2) til (10))
+    set [tal2 v] til (tilfeldig tal frå (2) til (10))
+    set [rett svar v] til ((tal1) * (tal2))
     ```
 
 - [ ] Prøv å klikka på skriptet for å testa det (sidan det ikkje startar med eit
@@ -106,30 +106,30 @@ La oss sjå om me kan setje saman desse tala til eit skikkeleg spørsmål.
 - [ ] Lag ein ny variabel, `spørsmål`{.blockdata}. Også denne skal gjelde for
       alle figurar.
 
-- [ ] Klossen `sett sammen`{.blockoperators} kan brukast for å setje saman
-      fleire tal og ord. Me skal nå bruka to `sett
-      sammen`{.blockoperators}-klossar på denne måten:
+- [ ] Klossen `set saman`{.blockoperators} kan brukast for å setje saman
+      fleire tal og ord. Me skal nå bruka to `set
+      saman`{.blockoperators}-klossar på denne måten:
 
     ```blocks
-    sett sammen (sett sammen [] []) []
+    set saman (set saman [] []) []
     ```
 
     Dette gir oss plass til tre tal eller ord. Her kan me putta inn
     `tal1`{.blockdata}, teksten ` gonger ` og `tal2`{.blockdata}. Pass på at du
     har mellomrom før og etter `gonger`, det ser best ut da. Om du klikkar på
-    den første `sett sammen`{.blockoperators}-klossen vil du sjå korleis den
+    den første `set saman`{.blockoperators}-klossen vil du sjå korleis den
     ferdige teksten blir.
 
-    ![Bilete av sett sammen-blokkane i Scratch](sett_sammen.png)
+    ![Bilete av set saman-blokkane i Scratch](sett_sammen.png)
 
 - [ ] Legg denne klossen til nedst i `Nytt spørsmål`-skriptet:
 
     ```blocks
-    når jeg mottar [Nytt spørsmål v]
-    sett [tal1 v] til (tilfeldig tall fra (2) til (10))
-    sett [tal2 v] til (tilfeldig tall fra (2) til (10)
-    sett [rett svar v] til ((tal1) * (tal2))
-    sett [spørsmål v] til (sett sammen (sett sammen (tal1) [ gonger ]) (tal2))
+    når eg får meldinga [Nytt spørsmål v]
+    set [tal1 v] til (tilfeldig tal frå (2) til (10))
+    set [tal2 v] til (tilfeldig tal frå (2) til (10)
+    set [rett svar v] til ((tal1) * (tal2))
+    set [spørsmål v] til (set saman (set saman (tal1) [ gonger ]) (tal2))
     ```
 
 - [ ] Nå skal me få `Læremeisteren` til å stilla oss spørsmålet me har sett
@@ -137,8 +137,8 @@ La oss sjå om me kan setje saman desse tala til eit skikkeleg spørsmål.
       med dette:
 
     ```blocks
-    når grønt flagg klikkes
-    send melding [Nytt spørsmål v] og vent
+    når @greenFlag vert trykt på
+    send meldinga [Nytt spørsmål v] og vent
     spør (spørsmål) og vent
     ```
 
@@ -151,9 +151,9 @@ __Klikk på det grøne flaget.__
 
 - [ ] Er spørsmåla forskjellige kvar gong?
 
-- [ ] Om du vil ha ein liten utfordring kan du prøva å bruka fleire `sett
-      sammen`{.blockoperators}-klossar slik at spørsmålet blir for eksempel `Kva
-      er 9 gonger 6?`.
+- [ ] Om du vil ha ein liten utfordring kan du prøva å bruka fleire `set
+  saman`{.blockoperators}-klossar slik at spørsmålet blir for eksempel `Kva er 9
+  gonger 6?`.
 
 
 # Steg 4: Er svaret rett då? {.activity}
@@ -166,22 +166,22 @@ Nå som me kan svara på spørsmål vil me og vite om me svarar rett.
       ikkje særleg vanskeleg! Ta bort alle variablane frå scenen ved å gå til
       `Data`-kategorien og fjern haka framfor kvar variabel.
 
-- [ ] Nå skal me bruka ein `hvis ellers`{.blockcontrol}-kloss for å gjera
+- [ ] Nå skal me bruka ein `viss elles`{.blockcontrol}-kloss for å gjera
       forskjellige ting ettersom du svarar rett eller feil på gongestykka.
       **Utvid** det eine skriptet ditt på denne måten:
 
     ```blocks
-    når grønt flagg klikkes
-    send melding [Nytt spørsmål v] og vent
+    når @greenFlag vert trykt på
+    send meldinga [Nytt spørsmål v] og vent
     spør (spørsmål) og vent
-    hvis ((svar) = (riktig svar))
-        si [Ja, så flink du er!] i (2) sekunder
-    ellers
-        si [Nei, det ble visst feil.] i (2) sekunder
+    viss <(svar) = (riktig svar)>
+        sei [Ja, så flink du er!] i (2) sekund
+    elles
+        sei [Nei, det vart visst feil.] i (2) sekund
     slutt
     ```
 
-    Klossen `svar`{.blocksensing} huskar svaret du skriv når `Læremeister` spør
+    Klossen `svar`{.blocksensing} hugsar svaret du skriv når `Læremeister` spør
     om gongestykket.
 
 ## Test prosjektet {.flag}
@@ -207,15 +207,15 @@ om å stille oss fleire spørsmål!
       feil spør me det same spørsmålet ein gang til.
 
     ```blocks
-    når grønt flagg klikkes
-    send melding [Nytt spørsmål v] og vent
-    gjenta (10) ganger
+    når @greenFlag vert trykt på
+    send meldinga [Nytt spørsmål v] og vent
+    gjenta (10) gongar
         spør (spørsmål) og vent
-        hvis ((svar) = (riktig svar))
-            si [Ja, så flink du er!] i (2) sekunder
-            send melding [Nytt spørsmål v] og vent
-        ellers
-            si [Nei, det ble visst feil.] i (2) sekunder
+        viss <(svar) = (riktig svar)>
+            sei [Ja, så flink du er!] i (2) sekund
+            send meldinga [Nytt spørsmål v] og vent
+        elles
+            sei [Nei, det vart visst feil.] i (2) sekund
         slutt
     slutt
     ```
@@ -243,14 +243,14 @@ __Klikk på det grøne flaget.__
 
 # Steg 6: Litt hjelp kanskje ... {.activity}
 
-Til slutt skal me sjå på korleis`Læremeister` kan gje oss litt hjelp med
+Til slutt skal me sjå på korleis `Læremeister` kan gje oss litt hjelp med
 gongestykka. Ein måte å tenkje på gongestykker er at me har mange ting som me
 plasserar i eit rutenett. For eksempel kan me tenkje på **3 gonger 4** som **3**
 rader med **4** elefanter i kvar som dette:
 
 ![Bilete av 3*4=12 smilande elefantar](elefanter.png)
 
-Dersom me ikkje hugsar kor mykje 3 ganger 4 er, kan me telje elefantar og finne
+Dersom me ikkje hugsar kor mykje 3 gongar 4 er, kan me telje elefantar og finne
 ut at svaret er **12**.
 
 ## Sjekkliste {.check}
@@ -259,42 +259,42 @@ ut at svaret er **12**.
       du vil, men me har brukt `Dyr/Elephant`. Gi figuren navnet `Hjelpar`.
 
 - [ ] For å teikne eit rutenett med Hjelpere bruker me to
-      `gjenta`{.blockcontrol}-klossar i tillegg til `stemple avtrykk`{.blockpen}
+      `gjenta`{.blockcontrol}-klossar i tillegg til `lag avtrykk`{.blockpen}
       som teiknar Hjelparane på skjermen. Skriv dette skriptet på
       `Hjelper`-figuren:
 
     ```blocks
-    når jeg mottar [Tegn hjelper v]
+    når eg får meldinga [Tegn hjelper v]
     slett
-    sett størrelse til (20)%
+    set storleik til (20)%
     vis
-    sett y til (140)
-    gjenta (tal1) ganger
-        sett x til (-140)
-        gjenta (tal2) ganger
-            stemple avtrykk
-            endre x med (40)
+    set y til (140)
+    gjenta (tal1) gongar
+        set x til (-140)
+        gjenta (tal2) gongar
+            lag avtrykk
+            endra x med (40)
         slutt
-        endre y med (-25)
+        endra y med (-25)
     slutt
     skjul
     ```
 
     Om du har brukt ein annan figur som `Hjelpar` kan det henda du må bruka
-    nokre andre tal i dette skriptet. Prøv i så fall først å forandra på `sett
-    størrelse til 20%`{.blocklooks}-klossen.
+    nokre andre tal i dette skriptet. Prøv i så fall først å forandra på `set
+    storleik til 20%`{.blocklooks}-klossen.
 
 - [ ] Nå skal me teikna dette rutenettet kvar gong me lagar eit nytt spørsmål.
       Klikk på `Læremeister`, og legg til ein kloss nedst i `Nytt
       spørsmål`-skriptet:
 
     ```blocks
-    når jeg mottar [Nytt spørsmål v]
-    sett [tal1 v] til (tilfeldig tall fra (2) til (10))
-    sett [tal2 v] til (tilfeldig tall fra (2) til (10))
-    sett [rett svar v] til ((tall1) * (tall2))
-    sett [spørsmål v] til (sett sammen (sett sammen (tal1) [ gonger ]) (tal2))
-    send melding [Tegn hjelper v]
+    når eg får meldinga [Nytt spørsmål v]
+    set [tal1 v] til (tilfeldig tal frå (2) til (10))
+    set [tal2 v] til (tilfeldig tal frå (2) til (10))
+    set [rett svar v] til ((tall1) * (tall2))
+    set [spørsmål v] til (set saman (set saman (tal1) [ gonger ]) (tal2))
+    send meldinga [Tegn hjelper v]
     ```
 
 ## Test prosjektet {.flag}
