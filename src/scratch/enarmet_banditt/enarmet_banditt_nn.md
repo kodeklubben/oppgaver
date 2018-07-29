@@ -1,7 +1,7 @@
 ---
-title: 'Enarmet banditt'
+title: 'Einarma banditt'
 level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
 translator: 'Stein Olav Romslo'
 language: nn
 ---
@@ -239,7 +239,7 @@ Fyrst hentar me inn ein ny bakgrunn som skal visast når spelet er over.
   `stoppa`{.blockdata}-variablane for å sjekke om figurane var blitt klikka på.
   La oss sjekke `stoppa`{.blockdata}-variabelen for `Figur3` for å sjå om den
   har blitt klikka på. For å gjere det brukar me ein `x-posisjon av
-  Figur3`{.blocksensing}-kloss frå `Sansning`{.blocksensing}, men me byttar ut
+  Figur3`{.blocksensing}-kloss frå `Sansing`{.blocksensing}, men me byttar ut
   `x-posisjon` med `stoppa`.
 
   ```blocks
@@ -317,7 +317,7 @@ No treng me kode for å velje kva bakgrunn me skal vise når spelet er slutt.
   vent til < < <([stoppa v] av [Figur1 v]) = [1]> og <([stoppa v] av [Figur2 v]) = [1]> > og <([stoppa v] av [Figur3 v]) = [1]> >
   viss <<([drakt nr. v]  av [Figur1 v]) = ([drakt nr. v]  av [Figur2 v])> og <([drakt nr. v]  av [Figur2 v]) = ([drakt nr. v] av [Figur3 v])>>
       byt bakgrunn til [Vinnar v]
-  ellers
+  elles
       byt bakgrunn til [Tapar v]
   slutt
   ```
@@ -339,13 +339,13 @@ Det er ikkje alle som er like flinke til å spele. Korleis kan du la vanskegrade
 __avhenge av spelaren__?
 
 Ein måte å gjere det på er å __endre hastigheita draktane blir endra med__. Du
-kan bruke ein variabel du kallar `forsinkelse`{.blockdata} for å gi ei ventetid
+kan bruke ein variabel du kallar `forseinking`{.blockdata} for å gi ei ventetid
 til kvar figur. Viss spelaren vinn kan forseinkinga bli redusert litt (slik at
 spelet går raskare og blir vanskelegare), og viss spelaren tapar runden kan
 forseinkinga auke for å gjere spelet lettare.
 
 Du må vurdere om du kan lage ein annan måte å starte spelet på enn med `når
-grønt flagg klikkes`{.blockgrey}. Så kan du lagre verdiane i variablar som blir
+@greenFlag blir trykt på`{.blockgrey}. Så kan du lagre verdiane i variablar som blir
 hugsa mellom rundene.
 
 ## Lagre prosjektet {.save}
