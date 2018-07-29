@@ -1,8 +1,7 @@
 ---
 title: 'Kva er det?'
 level: 3
-logo: ../../assets/img/ccuk_logo.png
-author: 'Oversatt frå [Code Club UK](//codeclub.org.uk)'
+author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
 translator: 'Stein Olav Romslo'
 language: nn
 ---
@@ -25,8 +24,9 @@ spelaren gjettar riktig, jo fleire poeng får han.
 
 - [ ] Start eit nytt Scratch-prosjekt og slett kattefiguren.
 
-- [ ] Klikk på scena og så `Bakgrunner`-fana. Åpne biblioteket med bakgrunnar ved å trykke på![Vel ein ferdig
-  bakgrunn](../bilder/velg-bakgrunn.png) og vel `Innendørs/chalkboard`.
+- [ ] Klikk på scena og så `Bakgrunner`-fana. Åpne biblioteket med bakgrunnar
+  ved å trykke på ![Vel ein ferdig bakgrunn](../bilder/velg-bakgrunn.png) og vel
+  `Innendørs/chalkboard`.
 
 - [ ] Importer ein valfri figur. Du kan gjerne velje noko frå `Ting`-mappa.
 
@@ -40,8 +40,8 @@ spelaren gjettar riktig, jo fleire poeng får han.
   skriptet:
 
   ```blocks
-  når grønt flagg klikkes
-  bytt drakt til (tilfeldig tall frå (1) til (5))
+  når @greenFlag vert trykt på
+  byt drakt til (tilfeldig tal frå (1) til (5))
   ```
 
 ## Test prosjektet {.flag}
@@ -70,19 +70,19 @@ slags tidteljar.
 ## Sjekkliste {.check}
 
 - [ ] Vel `Data`{.blockdata}-kategorien og lag ein variabel du kallar
-  `poeng`{.blockdata}. La den gjelde `for alle figurer`.
+  `poeng`{.blockdata}. La den gjelde `for alle figurar`.
 
 - [ ] Endre skriptet slik:
 
   ```blocks
-  når grønt flagg klikkes
-  bytt drakt til (tilfeldig tall frå (1) til (5))
-  sett [poeng v] til [110]
+  når @greenFlag vert trykt på
+  byt drakt til (tilfeldig tal frå (1) til (5))
+  set [poeng v] til [110]
   gjenta til <(poeng) = [0]>
-      endre [poeng v] med (-10)
-      sett [piksel v] effekt til (poeng)
-      sett [farge v] effekt til (poeng)
-      vent (1) sekunder
+      endra [poeng v] med (-10)
+      set [piksel v]-effekt til (poeng)
+      set [farge v]-effekt til (poeng)
+      vent (1) sekund
   slutt
   ```
 
@@ -123,23 +123,23 @@ Fyrst må me vite kva det rette svaret er.
 ## Sjekkliste {.check}
 
 - [ ] Lag ein ny variabel og kall den `riktig`{.blockdata}. Pass på at den er
-  tilgjengeleg `for alle figurer`. Fjern avhukinga slik at variabelen ikkje er
+  tilgjengeleg `for alle figurar`. Fjern avhukinga slik at variabelen ikkje er
   synleg i spelet.
 
 - [ ] Endre skriptet slik at det klarar å halde styr på kva som er rett svar.
-  Etter at me har bestemt drakta må du difor leggje til klossen `sett riktig
+  Etter at me har bestemt drakta må du difor leggje til klossen `set riktig
   til`{.blockdata}`drakt nr.`{.blocklooks}:
 
   ```blocks
-  når grønt flagg klikkes
-  bytt drakt til (tilfeldig tall frå (1) til (5))
-  sett [riktig v] til (drakt nr.)
-  sett [poeng v] til [110]
+  når @greenFlag vert trykt på
+  byt drakt til (tilfeldig tal frå (1) til (5))
+  set [riktig v] til (drakt nr.)
+  set [poeng v] til [110]
   gjenta til <(poeng) = [0]>
-      endre [poeng v] med (-10)
-      sett [piksel v] effekt til (poeng)
-      sett [farge v] effekt til (poeng)
-      vent (1) sekunder
+      endra [poeng v] med (-10)
+      set [piksel v]-effekt til (poeng)
+      set [farge v]-effekt til (poeng)
+      vent (1) sekund
   slutt
   ```
 
@@ -169,11 +169,11 @@ No skal me leggje til fleire figurar som spelaren kan klikke på.
   Legg til dette skriptet til `Svar1`:
 
   ```blocks
-  når denne figuren klikkes
-  hvis <(riktig) = [1]>
-      send melding [Vant v]
+  når denne figuren vert trykt på
+  viss <(riktig) = [1]>
+      send meldinga [Vann v]
   ellers
-      skjul
+      gøym
   slutt
   ```
 
@@ -184,8 +184,8 @@ No skal me leggje til fleire figurar som spelaren kan klikke på.
   Klikk `Spørsmål` att og legg til dette skriptet:
 
   ```blocks
-  når jeg mottar [Vant v]
-  si (sett sammen [Gratulerer! Din poengsum ble ] (poeng))
+  når eg får meldinga [Vann v]
+  sei (set saman [Gratulerer! Poengsummen din vart ] (poeng))
   ```
 
 ## Test prosjektet {.flag}
@@ -211,7 +211,7 @@ fortset poengsummen å gå ned, også etter at du har klikka på riktig svar.
   for kvar av dei fem svarfigurane.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   vis
   ```
 
@@ -229,22 +229,22 @@ tilsvarande kloss som set verdien til `1` når spelaren vinn. Sjå skripta under
   skripta på `Spørsmål` sjå slik ut:
 
   ```blocks
-  når grønt flagg klikkes
-  bytt drakt til (tilfeldig tall frå (1) til (5))
-  sett [riktig v] til (drakt nr.)
-  sett [poeng v] til [110]
-  sett [vant v] til [0]
+  når @greenFlag vert trykt på
+  byt drakt til (tilfeldig tal frå (1) til (5))
+  set [riktig v] til (drakt nr.)
+  set [poeng v] til [110]
+  set [vant v] til [0]
   gjenta til <<(poeng) = [0]> eller <(vant) = [1]>>
-      endre [poeng v] med (-10)
-      sett [piksel v] effekt til (poeng)
-      sett [farge v] effekt til (poeng)
-      vent (1) sekunder
+      endra [poeng v] med (-10)
+      set [piksel v]-effekt til (poeng)
+      set [farge v]-effekt til (poeng)
+      vent (1) sekund
   slutt
 
-  når jeg mottar [Vant v]
-  sett [vant v] til [1]
-  ta bort grafiske effekter
-  si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
+  når eg får meldinga [Vann v]
+  set [vant v] til [1]
+  ta vekk grafiske effektar
+  sei (set saman [Gratulerer! Poengsummen din vart ] (poeng))
   ```
 
 ## Lagre prosjektet {.save}
@@ -275,7 +275,7 @@ Endre spelet slik at kvart spel brukar ulike forvrengingar i `gjenta
 til`{.blockcontrol}-løkka.
 
 __Hint:__ Lag ein ny variabel som du kallar `forvrenging`. Set denne til ein
-tilfeldig verdi i starten av spelet. Så brukar du `hvis`{.blockcontrol}-klossar
+tilfeldig verdi i starten av spelet. Så brukar du `viss`{.blockcontrol}-klossar
 i `gjenta til`{.blockcontrol}-løkka for å velje ei forvrengingsalgoritme til
 kvart spel.
 
