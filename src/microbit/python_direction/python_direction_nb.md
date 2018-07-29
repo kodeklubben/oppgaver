@@ -2,7 +2,6 @@
 title: "Python: Retninger"
 level: 3
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/direction.html)"
-license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
 translator: "Øistein Søvik"
 language: nb
 ---
@@ -44,9 +43,9 @@ tegnet på kanten av displayet.
 I resten av oppgaven skal vi prøve å bryte ned hva koden ovenfor gjør, da det
 kan være vanskelig å forstå detaljene med en gang.
 
-## Activity checklist {.check} 
+## Activity checklist {.check}
 
-- [ ] Kjør koden ovenfor og bestem retningen til Nord, Øst, Sør og Vest. 
+- [ ] Kjør koden ovenfor og bestem retningen til Nord, Øst, Sør og Vest.
 
 ![Viser de fire himmelretningene](Brosen_windrose_no.svg)
 
@@ -62,6 +61,7 @@ compass.calibrate()
 while True:
     display.scroll(str(compass.calibrate()))
 ```
+
 - [ ] Hvilken verdi viser koden ovenfor når du står i de fire himmelretningene?
       Bruk denne informasjonen til å bestemme hva `compass.calibrate()` gjør.
 

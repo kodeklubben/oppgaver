@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Hvor gammel er du?
+author: Øistein Søvik
 level: 2
 language: nb
 ---

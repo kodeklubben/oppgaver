@@ -46,6 +46,7 @@ oppgaven er laget av Kartverket og delt slik at alle kan bruke det til
 hva de ønsker. Bakerst i denne oppgaven beskrives hvordan du kan bruke
 andre kart.
 
+
 # Steg 2: Styr helikopteret {.activity}
 
 *Vi skal nå lage et helikopter som vi kan styre rundt over kartet. Vi
@@ -504,6 +505,7 @@ reisemål.
   når jeg mottar [Fant sted v]
   endre [Tid v] med (10)
   ```
+
 
 # Steg 8: Flere steder å besøke {.activity}
 

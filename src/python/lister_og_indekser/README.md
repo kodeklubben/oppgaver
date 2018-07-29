@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Lister og indekser
+author: Øistein Søvik
 level: 3
 language: nb
 ---
