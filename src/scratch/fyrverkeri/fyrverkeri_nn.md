@@ -150,7 +150,7 @@ __Klikk på det grøne flagget.__
   når @greenFlag vert trykt på
   gøym
   for alltid
-      viss <museknappen er nede?>
+      viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
           spel lyden [bang v]
           vis
@@ -168,7 +168,7 @@ __Klikk på det grøne flagget.__
   når @greenFlag vert trykt på
   gøym
   for alltid
-      viss <museknappen er nede?>
+      viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
           spel lyden [bang v]
           vis
@@ -310,7 +310,7 @@ innsekt vart fanga inne i datamaskina og øydela programmet.
   når @greenFlag vert trykt på
   gøym
   for alltid
-      viss <museknappen er nede?>
+      viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
           spel lyden [bang v]
           vis
