@@ -81,7 +81,7 @@ fly romskipet rundt omkring?
 - [ ] Me skal gjera ein liten forandring i korleis romskipet oppfører seg.
 Asteroids foregår langt ute i rommet der det ikkje er noko merkbar tyngdekraft.
 Slett derfor klossen som modellerar tyngdekrafta i `for
-alltid`{.blockcontrol}-løkka di, `endre [fartY v] med (-0.01)`{.b}.
+alltid`{.blockcontrol}-løkka di, `endra [fartY v] med (-0.01)`{.b}.
 
 - [ ] Me skal og gjera ein litt større endring i spelet. Me vil at verdsrommet
 skal kjennast litt stort og uoversiktleg ved at når romskipet går ut av
@@ -96,16 +96,16 @@ skjermen på den eine sida skal det dukka opp på andre sida av skjermen.
       når eg får meldinga [Nytt spel v]
       for alltid
           viss <(x-posisjon) < (-235)>
-              endre x med (470)
+              endra x med (470)
           slutt
           viss <(x-posisjon) > (235)>
-              endre x med (-470)
+              endra x med (-470)
           slutt
           viss <(y-posisjon) < (-175)>
-              endre y med (350)
+              endra y med (350)
           slutt
           viss <(y-posisjon) > (175)>
-              endre y med (-350)
+              endra y med (-350)
           slutt
       slutt
   ```
