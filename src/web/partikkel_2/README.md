@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - JS: Partikkel-fest"
+author: Lars Klingenberg
 level: 3
 language: nb
 ---

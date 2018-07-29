@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Kalkulator
+author: Øistein Søvik
 level: 3
 language: nb
 ---
@@ -102,6 +103,7 @@ Grunnen til at koden ovenfor gir ut `False` handler om at `is` sammenligner to
 *objekter* i minnet, mens `==` sammenligner *verdien* til objektene. Kort
 oppsumert bruker vi gjerne `is`for å sammenlikne teststrenger eller objekter
 mens `==` forbeholdes størrelser.
+
 
 # Robusthet med tekst som input
 

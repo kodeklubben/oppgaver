@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Felix og Herbert
+author: Madeleine Lorås
 level: 1
 language: nb
 ---

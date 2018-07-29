@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Gjettelek
+author: Øistein Søvik
 level: 3
 language: nb
 ---

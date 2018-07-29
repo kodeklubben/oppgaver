@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - JS: Trykkomania"
+author: Lars Klingenberg
 language: nb
 level: 2
 ---

@@ -74,6 +74,7 @@ oppgaveteksten.](../straffespark/straffespark.html){target=_blank}
   scenen, og passe på at hvert skript kodes på riktig sted. Vær nøye med at
   skriptene ligger på riktig figur som beskrevet i oppgaven.
 
+
 # Steg 2: Vi sparker ballenn {.activity}
 
 - [ ] Katten skyter ballen før man klikker på den, eller den må gå flere steg
@@ -86,12 +87,14 @@ oppgaveteksten.](../straffespark/straffespark.html){target=_blank}
   klikke og dra, og deretter se på koordinatene øverst til høyre i
   skriptvinduet.
 
+
 # Steg 4: Keeperen redder! {.activity}
 
 - [ ] I dette steget jobber vi videre med skriptet som ble skrevet på `Ball` i
   steg 2. Pass på at elevene ikke lager to forskjellige skript. Om de lager to
   forskjellige skript vil effekten stort sett være at ballen beveger seg fortere
   enn normalt fordi begge skriptene flytter ballen.
+
 
 # Steg 5: Førstemann til 10! {.activity}
 

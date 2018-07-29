@@ -41,10 +41,10 @@ Lurt, ikke sant?
 # Range() {.protip}
 
 Range-funksjonen er svært nytting når vi skal jobbe med løkker i Python. Når du
-skriver `range(10)` får du en liste med tallene 0, 1, 2, 3, 4, 5, 6, 7, 8,
-9. Range kan også ta inn flere parametre. Skriver du `range(4, 6)`, får
-du en liste med tallene fra 4 til (ikke med) 6, og hvis du skriver
-`range(6, 4, -1)` får du de samme tallene i motsatt rekkefølge.
+skriver `range(10)` får du en liste med tallene 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+Range kan også ta inn flere parametre. Skriver du `range(4, 6)`, får du en liste
+med tallene fra 4 til (ikke med) 6, og hvis du skriver `range(6, 4, -1)` får du
+de samme tallene i motsatt rekkefølge.
 
 
 # Telle til 10 {.activity}

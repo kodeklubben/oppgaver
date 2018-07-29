@@ -2,7 +2,6 @@
 title: "Python: Bilder"
 level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html)"
-license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
 translator: "Øistein Søvik"
 language: nb
 ---
@@ -189,7 +188,7 @@ boat = Image("05050:05050:05050:99999:09990")
 - [ ] Lag et smilefjes der det ene øyet lyser svakere
 
 - [ ] Lag et hjertet som lyser så svakt som mulig. Hint: du kan bruke
-      `IMAGES.HEART` for å se ett eksempel på ett hjerte. 
+      `IMAGES.HEART` for å se ett eksempel på ett hjerte.
 
 
 # Animasjon {.activity}
@@ -225,7 +224,7 @@ En liste kan inneholde nesten alt i Python. Her er en liste med tall:
 primes = [2, 3, 5, 7, 11, 13, 17, 19]
 ```
 
-## Merk {.tip} 
+## Merk {.tip}
 
 Tall trenger ikke å være sitert siden de representerer en verdi (heller enn en
 tekststreng). Det er en forskjell mellom `2` (Tallverdien 2) og (`"2"`)
@@ -260,12 +259,12 @@ sekund) med argumentet `delay=100`.
 
 ## Ting å prøve ut {.check}
 
-- [ ] Animer over alle bildene av piler fra `Image.ALL_ARROWS` listen. 
+- [ ] Animer over alle bildene av piler fra `Image.ALL_ARROWS` listen.
 
 - [ ] Gjør slik at animasjonen bare kjører en gang (hint: det motsatte av `True`
       er `False`).
 
-- [ ] Forandre hastigheten på animasjonen slik at den går dobbelt så raskt 
+- [ ] Forandre hastigheten på animasjonen slik at den går dobbelt så raskt
 
 
 # Skipshavari {.activity}
@@ -316,9 +315,9 @@ all_boats = [boat1, boat2, boat3, boat4, boat5, boat6]
 display.show(all_boats, delay=200)
 ```
 
-Her er hvordan koden virker 
+Her er hvordan koden virker
 
-- Jeg lager seks `boat` bilder akkurat som jeg forklarte ovenfor. 
+- Jeg lager seks `boat` bilder akkurat som jeg forklarte ovenfor.
 
 - Så putter jeg alle seks bildene i listen `all_boats`
 

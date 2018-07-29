@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - JS: Grunnleggende JavaScript"
+author: Lars Klingenberg
 language: nb
 level: 2
 ---
