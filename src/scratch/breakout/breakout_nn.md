@@ -64,9 +64,9 @@ lage mange kopiar av den fyrste.
   skjul
   set [Antal boksar v] til [0]
   set y til (160)
-  gjenta (5) gonger
+  gjenta (5) gongar
       set x til (-200)
-      gjenta (11) gonger
+      gjenta (11) gongar
           endre [Antal boksar v] med (1)
           lag klon av [meg v]
           endre x med (40)
