@@ -31,8 +31,8 @@ med piltastane.*
 - [ ] Start eit nytt Scratch-prosjekt. Slett kattefiguren, til dømes ved å
   høgreklikke på den og velje `slett`.
 
-- [ ] Legg til ein ny figur ved å klikke ![Vel figur fra
-  biblioteket](../bilder/hent-fra-bibliotek.png) under `Figurer`. Me har brukt
+- [ ] Legg til ein ny figur ved å klikke ![Vel figur frå
+  biblioteket](../bilder/hent-fra-bibliotek.png) under `Figurar`. Me har brukt
   `Transport/Helicopter`, men du kan gjerne bruke ein annan figur å reise rundt
   med.
 
@@ -41,25 +41,25 @@ med piltastane.*
 - [ ] Klikk på scena til venstre for figurane og lag det følgande skriptet:
 
   ```blocks
-  når grønt flagg klikkes
-  send melding [Nytt spel v]
+  når @greenFlag vert trykt på
+  send meldinga [Nytt spel v]
   ```
 
   Me skal diskutere kvifor me gjer det i meir detalj seinare. Kort sagt handlar
   det om å gi oss meir fleksibilitet for å starte og slutte spelet seinare.
 
 - [ ] Klikk på helikopteret att. Så klikkar du `Data`{.blockdata} og lagar ein
-  variabel som heiter `hastighet`{.blockdata} og som gjeld for denne figuren.
+  variabel som heiter `hastigheit`{.blockdata} og som gjeld for denne figuren.
 
 - [ ] Så bygger me nokre klossar for å bestemme faste eigenskapar for
   helikopteret, til dømes storleiken og hastigheita.
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
-  begrens rotasjon [vend sideveis v]
-  sett størrelse til (30) %
-  sett [hastighet v] til [5]
+  når @greenFlag vert trykt på
+  gøym
+  bruk rotasjonsmåte [vend sidevegs v]
+  set storleik til (30) %
+  set [hastigheit v] til [5]
   ```
 
   Du kan gjerne eksperimentere med andre verdiar for desse klossane slik at du
@@ -70,17 +70,17 @@ med piltastane.*
   køyrer.
 
   ```blocks
-  når jeg mottar [Nytt spel v]
+  når eg får meldinga [Nytt spel v]
   gå til x: (0) y: (0)
   vis
   for alltid
-      hvis <tast [pil høgre v] trykket?>
-          pek i retning (90 v)
-          gå (hastighet) steg
+      viss <tasten [pil høgre v] er trykt?>
+          peik i retning (90 v)
+          gå (hastigheit) steg
       slutt
-      hvis <tast [pil venstre v] trykket?>
-          pek i retning (-90 v)
-          gå (hastighet) steg
+      viss <tasten [pil venstre v] er trykt?>
+          peik i retning (-90 v)
+          gå (hastigheit) steg
       slutt
   slutt
   ```
@@ -94,7 +94,7 @@ __Klikk på det grøne flagget.__
   Prøv sjølv om du kan legge inn koden for kva som skal skje når du trykkar `pil
   opp` og `pil ned`.
 
-- [ ] Kva gjer klossen `begrens rotasjon vend sideveis`{.blockmotion}? Prøv å
+- [ ] Kva gjer klossen `bruk rotasjonsmåte vend sidevegs`{.blockmotion}? Prøv å
   endre verdiane i nedtrekksmenyen for å sjå kva som skjer.
 
 # Steg 2: Eit enkelt kart {.activity}
@@ -106,10 +106,10 @@ det. Seinare skal me lære korleis me får det til å bevege seg.*
 
 - [ ] Fyrst lastar me ned kartet frå nettet. Åpne lenka
   [europakart.png](europakart.png) i ei ny fane i nettlesaren din. Dette åpnar
-  eit bilete av eit europakart. Høgreklikk på biletet og vel `Lagre bildet som`
+  eit bilete av eit europakart. Høgreklikk på biletet og vel `Lagre biletet som`
   eller noko som liknar. Lagre biletet ein stad du finn det att.
 
-- [ ] Vel ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) under `Ny
+- [ ] Vel ![Last opp bakgrunn frå fil](../bilder/hent-fra-fil.png) under `Ny
   bakgrunn` heilt til venstre på skjermen. Vel fila `europakart.png` du nettopp
   lasta ned.
 
@@ -129,13 +129,16 @@ __Klikk på det grøne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] Me startar med å teikne ein liten figur som kan markere reisemålet i
-  kartet. Vel ![Tegn ny figur](../bilder/tegn-ny.png) under `Figurer`.
+  kartet. Vel ![Tegn ny figur](../bilder/tegn-ny.png) under `Figurar`.
 
 - [ ] Vel ei passande farge. Til dømes er raud ei farge som synast godt på
   kartet. Vel sirkelverktøyet og marker den fylte sirkelen (disken) til venstre
   under teiknevindauget.
 
-- [ ] Før du startar å teikne kan du forstørre teikninga ved å trykke på forstørrelsesglaset nedst til høgre. Noko som `800 %` storleik kan passe bra. Hald inne `skift`-knappen medan du dreg ut ein sirkel som er om lag fire ruter stor. Sirkelen blir heilt rund når du heldt inne `skift`-knappen.
+- [ ] Før du startar å teikne kan du forstørre teikninga ved å trykke på
+  forstorleiksglaset nedst til høgre. Noko som `800 %` storleik kan passe bra.
+  Hald inne `skift`-knappen medan du dreg ut ein sirkel som er om lag fire ruter
+  stor. Sirkelen blir heilt rund når du heldt inne `skift`-knappen.
 
   ![Bilete av ein heilt rund raud sirkel](sirkel.png)
 
@@ -156,13 +159,13 @@ __Klikk på det grøne flagget.__
   kartet, og som seier frå viss me finn vegen til Barcelona.
 
   ```blocks
-  når jeg mottar [Nytt spel v]
-  send melding [Ny stad v]
+  når eg får meldinga [Nytt spel v]
+  send meldinga [Ny stad v]
 
-  når jeg mottar [Ny stad v]
+  når eg får meldinga [Ny stad v]
   gå til x: (-98) y: (-120)
-  vent til <berører [Helikopter v]?>
-  si [Fant Barcelona!] i (2) sekunder
+  vent til <rører [Helikopter v]?>
+  sei [Fann Barcelona!] i (2) sekund
   ```
 
 ## Test prosjektet {.flag}
@@ -183,7 +186,7 @@ seie kva by spelaren skal flyge til.*
 
 - [ ] Ein måte å gi beskjed til spelaren på er ved å bruke variablar. Lag ein ny
   variabel som du kallar `Reis til`{.blockdata}. La denne variabelen gjelde *for
-  alle figurer*.
+  alle figurar*.
 
 - [ ] Legg merke til at det dukka opp ein boks på kartet, `Reis
   til`{.blocklightgrey}` 0 `{.blockdata}. Flytt denne boksen til ein passande
@@ -195,7 +198,7 @@ seie kva by spelaren skal flyge til.*
 No vil me skjule den raude sirkelen. La oss fyrst prøve med det enklaste og mest
 opplagte:
 
-- [ ] Legg til ein `skjul`{.blocklooks}-kloss etter `når jeg mottar Nytt
+- [ ] Legg til ein `gøym`{.blocklooks}-kloss etter `når eg får meldinga Nytt
   spel`{.blockevents}.
 
 ## Test prosjektet {.flag}
@@ -213,13 +216,13 @@ ein annan måte å gjere sirkelen usynleg på.
 ## Sjekkliste {.check}
 
 - [ ] I staden for å skjule sirkelen heilt vil me gjere den gjennomsiktig. Bytt
-  ut `skjul`{.blocklooks}-klossen med ein `sett effekt`{.blocklooks}-kloss:
+  ut `gøym`{.blocklooks}-klossen med ein `set effekt`{.blocklooks}-kloss:
 
   ```blocks
-  når jeg mottar [Nytt spel v]
+  når eg får meldinga [Nytt spel v]
   vis
-  sett [gjennomsiktig v] effekt til (100)
-  send melding [Ny stad v]
+  set [gjennomsiktig v]-effekt til (100)
+  send meldinga [Ny stad v]
   ```
 
 ## Test prosjektet {.flag}
@@ -245,12 +248,12 @@ funne det.*
 - [ ] Me kan lage animasjonen med den følgande koden:
 
   ```blocks
-  gjenta (5) ganger
-      gjenta (10) ganger
-          endre størrelse med (10)
+  gjenta (5) gongar
+      gjenta (10) gongar
+          endra storleik med (10)
       slutt
-      gjenta (10) ganger
-          endre størrelse med (-10)
+      gjenta (10) gongar
+          endra storleik med (-10)
       slutt
   slutt
   ```
@@ -261,23 +264,23 @@ funne det.*
 
 __Klikk på det grøne flagget.__
 
-- [ ] Vises den røde sirkelen etter at du har flydd til Barcelona?
+- [ ] Visast den raude sirkelen etter at du har flydd til Barcelona?
 
-- [ ] Animeres sirkelen etter at den er funnet?
+- [ ] Animerast sirkelen etter at den er funne?
 
-- [ ] Hva skjer med snakkeboblen `Fant Barcelona!`?
+- [ ] Kva skjer med snakkebobla `Fann Barcelona!`?
 
 ## Sjekkliste {.check}
 
 Kanskje det er betre om sirkelen kan seie `Fann Barcelona!` samstundes som me
-animerer? For å få det til må me bruke `si`{.blocklooks}-klossen i staden for
-`si i 2 sekunder`{.blocklooks}, fordi den siste får heile skriptet til å vente i
+animerer? For å få det til må me bruke `sei`{.blocklooks}-klossen i staden for
+`sei i 2 sekund`{.blocklooks}, fordi den siste får heile skriptet til å vente i
 to sekund.
 
 - [ ] Legg til klossen
 
   ```blocks
-  si [Fann Barcelona!]
+  sei [Fann Barcelona!]
   ```
 
   rett før den ytre `gjenta`{.blockcontrol}-løkka.
@@ -286,7 +289,7 @@ to sekund.
   animasjonen er slutt må du leggje klossen
 
   ```blocks
-  si - [ ]
+  sei - [ ]
   ```
 
   til slutt i skriptet ditt.
