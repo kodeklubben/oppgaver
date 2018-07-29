@@ -120,9 +120,9 @@ La oss sjå om me kan setje saman desse tala til eit skikkeleg spørsmål.
     den første `set saman`{.blockoperators}-klossen vil du sjå korleis den
     ferdige teksten blir.
 
-    ![Bilete av set saman-blokkane i Scratch](sett_sammen.png)
+    ![Bilete av set saman-blokkane i Scratch](set_saman.png)
 
-- [ ] Legg denne klossen til nedst i `Nytt spørsmål`-skriptet:
+- [ ] Legg til denne klossen nedst i `Nytt spørsmål`-skriptet:
 
     ```blocks
     når eg får meldinga [Nytt spørsmål v]
@@ -277,7 +277,7 @@ ut at svaret er **12**.
         slutt
         endra y med (-25)
     slutt
-    skjul
+    gøym
     ```
 
     Om du har brukt ein annan figur som `Hjelpar` kan det henda du må bruka
