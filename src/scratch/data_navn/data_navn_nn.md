@@ -32,7 +32,7 @@ i Noreg som får kva namn, både i dag og tidlegare.*
 
 - [ ] Me vil hente ut lister med alle jente- og gutenamna. Desse finn me ved
   å klikke på fana **Tabeller**. På denne sida finn du mellom anna to tabellar
-  som heiter **Jentenavn, alfabetisk** og **Guttenavn, alfabetisk** (med
+  som heiter **Jentenamn, alfabetisk** og **Guttenavn, alfabetisk** (med
   årstal). Last ned desse to tabellane anten i **Excel**- eller **CSV**-format.
 
 - [ ] Åpne filane du akkurat lasta ned i Excel eller eit tilsvarande
@@ -50,7 +50,7 @@ i Noreg som får kva namn, både i dag og tidlegare.*
   **Lagre som** eller **Eksporter** frå menyen, og så vel du formatet **CSV**.
   Gi fila di eit namn du vil kjenne att, til dømes `namnelister.csv`.
 
-- [ ] Gå til verktøyet for å [lese data inn i Scratch](../data/data.html).
+- [ ] Gå til verktøyet for å [lese data inn i Scratch](../data/data_nn.html).
   Trykk på knappen **Last opp datafil**, og vel CSV-filen du akkurat laga.
   No blir det lasta ned eit Scratch-prosjekt på datamaskina di, sannsynlegvis
   ei fil som heiter `data.sb2` i `Nedlastingar`-mappa di.
@@ -74,13 +74,13 @@ i Noreg som får kva namn, både i dag og tidlegare.*
   Dei blir programmert ved hjelp av klossar som ligg i `Data`{.blockdata}-
   kategorien. På same måte som for variablar kan du ta bort listene frå
   scena ved å fjerne avhukinga, høgreklikke på den eller bruke klossen
-  `skjul liste [ v]`{.b}.
+  `gøym liste [ v]`{.b}.
 
 ## Data i Scratch {.tip}
 
 Vanlegvis må ein skrive inn alle slike data i lister sjølv for å bruke dei i
-Scratch. Ved hjelp av [dataverktøyet](../data/data.html) kan du lese inn mykje
-data som du eller nokon andre allereie har laga.
+Scratch. Ved hjelp av [dataverktøyet](../data/data_nn.html) kan du lese inn
+mykje data som du eller nokon andre allereie har laga.
 
 Har du idear til andre data du vil lese inn på same måte?
 
@@ -92,31 +92,31 @@ katten vår til å sjå skilnaden på jente- og gutenamn.*
 ## Sjekkliste {.check}
 
 - [ ] Me startar med å la katten spørje om eit namn. Til dette kan me bruke
-  `spør [Skriv et navn] og vent`{.b}-klossen.
+  `spør [Skriv eit namn] og vent`{.b}-klossen.
 
 - [ ] For at katten skal kunne hugse namnet me gir den vil me bruke ein
-  variabel. Klikk på `Data`{.blockdata} og så `Lag en variabel`. Kall
-  variabelen `(Navn)`{.b}.
+  variabel. Klikk på `Data`{.blockdata} og så `Lag ein variabel`. Kall
+  variabelen `(Namn)`{.b}.
 
-- [ ] No kan me ta vare på svaret i `(Navn)`{.b}-variabelen.
+- [ ] No kan me ta vare på svaret i `(Namn)`{.b}-variabelen.
 
   ```blocks
-  spør [skriv et navn] og vent
-  sett [Navn v] til (svar)
+  spør [Skriv eit namn] og vent
+  set [Namn v] til (svar)
   ```
 
 - [ ] Om du ser på klossane som finst i `Data`{.blockdata}-kategorien er det
-  ein som seier `<[Guttenavn v] inneholder [thing]?>`{.b}. Denne klossen kan
+  ein som seier `<[Gutenamn v] inneheld [thing]?>`{.b}. Denne klossen kan
   me bruke for å finne ut om eit namn finst i jentenamnlista eller gutenamnlista
   (eller begge eller ingen av dei).
 
-- [ ] Lag ein sjekk for om `(Navn)`{.b} er eit jentenamn:
+- [ ] Lag ein sjekk for om `(Namn)`{.b} er eit jentenamn:
 
   ```blocks
-  spør [skriv et navn] og vent
-  sett [Navn v] til (svar)
-  hvis <[Jentenavn v] inneholder (Navn)?>
-      si (sett sammen (Navn) [ er et jentenavn]) i (2) sekunder
+  spør [Skriv eit namn] og vent
+  set [Namn v] til (svar)
+  viss <[Jentenamn v] inneheld (Namn)?>
+      sei (set saman (Namn) [ er eit jentenamn]) i (2) sekund
   slutt
   ```
 
@@ -126,23 +126,23 @@ __Klikk på koden din.__
 
 - [ ] Spør katten deg om å skrive inn eit namn?
 
-- [ ] Skriv inn eit jentenamn, til dømes `Emma`. Seier katten at `Emma er et
-  jentenavn`?
+- [ ] Skriv inn eit jentenamn, til dømes `Emma`. Seier katten at `Emma er eit
+  jentenamn`?
 
 - [ ] Kva skjer om du skriv inn eit gutenamn? Eller eit ord som ikkje er
   eit namn?
 
 ## Sjekkliste {.check}
 
-- [ ] Lag ein sjekk for om `(Navn)`{.b} er eit gutenamn. Prøv å lage denne
+- [ ] Lag ein sjekk for om `(Namn)`{.b} er eit gutenamn. Prøv å lage denne
   sjølv. Du kan gjere det på akkurat same måte som for jentenamn. Legg den nye
   viss-testen under den du allereie har.
 
 - [ ] Legg til ei `for alltid`{.b}-løkke rundt heile koden din. Det gjer at
   katten stadig vil spørje deg om nye namn.
 
-- [ ] Legg ein `når grønt flagg klikkes`{.b}-kloss på toppen av koden din, slik
-  at du kan starte programmet ved å klikke på det grøne flagget.
+- [ ] Legg ein `når @greenFlag vert trykt på`{.b}-kloss på toppen av koden din,
+  slik at du kan starte programmet ved å klikke på det grøne flagget.
 
 ## Prøv sjølv {.challenge}
 
@@ -151,4 +151,4 @@ __Klikk på koden din.__
   korleis du kan bruke namnelistene på ein endå meir spanande måte?
 
 - [ ] Kjenner du til andre datasett som du har lyst til å jobbe med i Scratch?
-  Bruk [dataverktøyet](../data/data.html) for å lese inn dataane.
+  Bruk [dataverktøyet](../data/data_nn.html) for å lese inn dataane.
