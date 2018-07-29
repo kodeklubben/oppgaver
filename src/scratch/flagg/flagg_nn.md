@@ -150,7 +150,7 @@ No skal me prøve å få mange figurar til å gå i sirkel samstundes.
   orden på det ved å få dei til å starte samstundes:
 
   Bytt `når eg startar som klon`{.b} med `når eg får meldinga [dans v]`{.b}, og
-  legg til ein `send meldingaa [dans v]`{.b}-kloss etter `gjenta (99)
+  legg til ein `send meldinga [dans v]`{.b}-kloss etter `gjenta (99)
   gongar`{.b}-løkka.
 
   Om du køyrer programmet ditt att ser du at alle diskane "dansar" i takt. Kva
@@ -259,7 +259,7 @@ No skal me teikne flagget med ulike fargar.
   gjenta seg sjølv. Då treng me ikkje å skrive ein bokstav for kvar disk. Til
   det kan me bruke `() mod ()`{.b}-klossen.
 
-  Bytt `(bokstav (nummer) i (flagg))`{.b} med `(bokstav ((nummer) mod (lengden
+  Bytt `(bokstav (nummer) i (flagg))`{.b} med `(bokstav ((nummer) mod (lengda
   til (flagg))) i (flagg))`{.b} i `byt drakt til [ v]`{.b}-klossen. Om du prøver
   programmet att ser du at flaggmønsteret blir gjenteke. Prøv å sette
   `(flagg)`{.b} til `rkb` for å sjå det.
