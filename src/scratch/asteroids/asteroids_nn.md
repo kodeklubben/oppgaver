@@ -95,16 +95,16 @@ skjermen på den eine sida skal det dukka opp på andre sida av skjermen.
   ```blocks
       når eg får meldinga [Nytt spel v]
       for alltid
-          viss ((x-posisjon) < (-235))
+          viss <(x-posisjon) < (-235)>
               endre x med (470)
           slutt
-          viss ((x-posisjon) > (235))
+          viss <(x-posisjon) > (235)>
               endre x med (-470)
           slutt
-          viss ((y-posisjon) < (-175))
+          viss <(y-posisjon) < (-175)>
               endre y med (350)
           slutt
-          viss ((y-posisjon) > (175))
+          viss <(y-posisjon) > (175)>
               endre y med (-350)
           slutt
       slutt
@@ -140,8 +140,8 @@ mellomromtasten kan me starta `viss`{.blockcontrol}-testen med å venta til
 mellomromtasten er slept opp att. Dette trikset ser omtrent slik ut:
 
   ```blocks
-      viss (tasten [mellomrom v] er trykt?)
-          vent til (ikke (tasten [mellomrom v] er trykt?))
+      viss <tasten [mellomrom v] er trykt?>
+          vent til <ikke <tasten [mellomrom v] er trykt?>>
           ...
       slutt
   ```
@@ -221,7 +221,7 @@ at dei er truffe. Dette kan me fiksa ved å leggje inn ei ørlita forseinking. D
 kan til dømes leggje inn kode som dette i løkkja som flyttar skot-figuren:
 
   ```blocks
-      viss (rører [Asteroide v] ?)
+      viss <rører [Asteroide v] ?>
           vent (0.01) sekund
           slett denne klonen
       slutt
