@@ -34,10 +34,10 @@ Flakse flygande og prøve å styre mellom røra.
 - [ ] Gi Flakse det følgjande skriptet:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (-50) y: (0)
   for alltid
-      endre y med (-3)
+      endra y med (-3)
   slutt
   ```
 
@@ -53,20 +53,20 @@ __Klikk det grøne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på `Drakter` og gi dei to draktene namna `Vinger opp` og
-  `Vinger ned`.
+- [ ] Klikk på `Drakter` og gi dei to draktene namna `Venger opp` og
+  `Venger ned`.
 
 - [ ] Gå tilbake til `Skript` og legg til dette skriptet:
 
   ```blocks
-  Når [mellomrom v] trykkes
-  bytt drakt til [Vinger ned v]
-  gjenta (10) ganger
-      endre y med (6)
+  Når [mellomrom v] vert trykt
+  byt drakt til [Venger ned v]
+  gjenta (10) gongar
+      endra y med (6)
   slutt
-  bytt drakt til [Vinger opp v]
-  gjenta (10) ganger
-      endre y med (6)
+  byt drakt til [Venger opp v]
+  gjenta (10) gongar
+      endra y med (6)
   slutt
   ```
 
@@ -95,7 +95,7 @@ gjere.*
   avhukinga framfor variabelen.
 
 - [ ] Me skal gjere om på skriptet som startar med `når mellomrom
-  trykkes`{.blockevents}. Dra i `bytt drakt til Vinger
+  vert trykt`{.blockevents}. Dra i `byt drakt til Venger
   ned`{.blocklooks}-klossen slik at den og klossane under losnar. Legg desse
   klossane til sides. Me skal bruke dei att veldig snart.
 
@@ -103,30 +103,30 @@ gjere.*
   brukt inne i `gjenta til flaks = 0`{.blockcontrol}-løkka:
 
   ```blocks
-  når grønt flagg klikkes
-  sett [flaks v] til [0]
-  bytt drakt til [Vinger opp v]
+  når @greenFlag vert trykt på
+  set [flaks v] til [0]
+  byt drakt til [Venger opp v]
   for alltid
       gjenta til <(flaks) = [0]>
-          endre [flaks v] med (-1)
-          bytt drakt til [Vinger ned v]
-          gjenta (10) ganger
-              endre y med (6)
+          endra [flaks v] med (-1)
+          byt drakt til [Venger ned v]
+          gjenta (10) gongar
+              endra y med (6)
           slutt
-          bytt drakt til [Vinger opp v]
-          gjenta (10) ganger
-              endre y med (6)
+          byt drakt til [Venger opp v]
+          gjenta (10) gongar
+              endra y med (6)
           slutt
       slutt
   slutt
   ```
 
 - [ ] Til slutt må du leggje det følgande skriptet på `når mellomrom
-  trykkes`{.blockevents}-klossen som vart til overs tidlegare:
+  vert trykt`{.blockevents}-klossen som vart til overs tidlegare:
 
   ```blocks
-  når [mellomrom v] trykkes
-  endre [flaks v] med (1)
+  når [mellomrom v] vert trykt
+  endra [flaks v] med (1)
   ```
 
 - [ ] No skal det vere tre ulike skript på Flakse.
@@ -146,7 +146,7 @@ __Klikk det grøne flagget.__
 - [ ] Legg til ein ny figur ved å klikke på *Teikne ny figur*-knappen,
   ![Teikne ny figur](../bilder/tegn-ny.png).
 
-- [ ] Viss det står `Punktgrafikk` nede til høgre, må du klikke på `Bytt til
+- [ ] Viss det står `Punktgrafikk` nede til høgre, må du klikke på `Byt til
   vektorgrafikk`-knappen.
 
 - [ ] Klikk på `Zoom -` slik at du kan sjå heile teikneområdet.
@@ -178,19 +178,19 @@ ei hinderløype for Flakse.*
 - [ ] Legg til desse to skripta:
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
-  sett størrelse til (200)%
+  når @greenFlag vert trykt på
+  gøym
+  set storleik til (200)%
   for alltid
       lag klon av [meg v]
-      vent (2) sekunder
+      vent (2) sekund
   slutt
 
-  når jeg starter som klon
-  gå til x: (240) y: (tilfeldig tall fra (-80) til (80))
+  når eg startar som klon
+  gå til x: (240) y: (tilfeldig tal frå (-80) til (80))
   vis
-  gjenta (120) ganger
-      endre x med (-4)
+  gjenta (120) gongar
+      endra x med (-4)
   slutt
   slett denne klonen
   ```
@@ -216,9 +216,9 @@ leggje til nokre klossar som merkar om Flakse krasjar.*
 ## Sjekkliste {.check}
 
 - [ ] Me legg til ein lyd som me kan spele av når Flakse krasjar. Klikk på
-  `Flakse`-figuren og så på `Lyder`.
+  `Flakse`-figuren og så på `Lydar`.
 
-- [ ] Klikk på `Velg lyd fra biblioteket`.
+- [ ] Klikk på `Vel lyd frå biblioteket`.
 
 - [ ] Vel ein krasjelyd for `Flakse`. `Screech` er ein kul lyd.
 
@@ -227,18 +227,18 @@ leggje til nokre klossar som merkar om Flakse krasjar.*
 - [ ] Legg til dette skriptet på Flakse:
 
   ```blocks
-  når grønt flagg klikkes
-  vent til <<berører [kant v]?> eller <berører [Rør v]?>>
-  spill lyden [screech v]
-  si [Du tapte!]
-  send melding [Tap v]
+  når @greenFlag vert trykt på
+  vent til <<rører [kant v]?> eller <rører [Røyr v]?>>
+  spel lyden [screech v]
+  sei [Du tapte!]
+  send meldinga [Tap v]
   stopp [andre skript i figuren v] :: control
   ```
 
-- [ ] Så må du klikke på `Rør`-figuren og leggje til dette skriptet:
+- [ ] Så må du klikke på `Røyr`-figuren og leggje til dette skriptet:
 
   ```blocks
-  når jeg mottar [Tap v]
+  når eg får meldinga [Tap v]
   stopp [andre skript i figuren v] :: control
   ```
 
@@ -255,7 +255,7 @@ __Klikk det grøne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] Me legg til ein lyd som kan spelast kvar gong Flakse får poeng. Klikk
-  på `Rør`-figuren og legg til ein lyd. `Bird` er eit lurt val.
+  på `Røyr`-figuren og legg til ein lyd. `Bird` er eit lurt val.
 
 - [ ] Gå tilbake til `Skript`-fana.
 
@@ -265,13 +265,13 @@ __Klikk det grøne flagget.__
 - [ ] Legg til eit skript som set poenga til 0 når det grøne flagget
   blir klikka. Dette klarar du sjølv!
 
-- [ ] Legg til dette skriptet på `Rør`:
+- [ ] Legg til dette skriptet på `Røyr`:
 
   ```blocks
-  når jeg starter som klon
+  når eg startar som klon
   vent til <(x-posisjon) < ([x-posisjon v] av [Flakse v])>
-  endre [poeng v] med (1)
-  spill lyden [bird v]
+  endra [poeng v] med (1)
+  spel lyden [bird v]
   ```
 
 ## Test prosjektet {.flag}
@@ -299,29 +299,29 @@ Me skal prøve å etterlikne denne måten å dette på.
 - [ ] Endre skriptet som styrer korleis Flakse dett:
 
   ```blocks
-  når grønt flagg klikkes
-  sett [løft v] til [0]
+  når @greenFlag vert trykt på
+  set [løft v] til [0]
   gå til x: (-50) y: (0)
   for alltid
-      endre y med (løft)
-      endre [løft v] med (-0.2)
+      endra y med (løft)
+      endra [løft v] med (-0.2)
   slutt
   ```
 
 - [ ] Det neste steget er å endre flakseskriptet:
 
   ```blocks
-  når grønt flagg klikkes
-  sett [flaks v] til [0]
-  bytt drakt til [Vinger opp v]
+  når @greenFlag vert trykt på
+  set [flaks v] til [0]
+  byt drakt til [Venger opp v]
   for alltid
       gjenta til <(flaks) = [0]>
-          endre [flaks v] med (-1)
-          bytt drakt til [Vinger ned v]
-          endre [løft v] med (4)
-          vent (0.1) sekunder
-          bytt drakt til [Vinger opp v]
-          vent (0.1) sekunder
+          endra [flaks v] med (-1)
+          byt drakt til [Venger ned v]
+          endra [løft v] med (4)
+          vent (0.1) sekund
+          byt drakt til [Venger opp v]
+          vent (0.1) sekund
       slutt
   slutt
   ```
@@ -330,32 +330,32 @@ Me skal prøve å etterlikne denne måten å dette på.
 
 __Klikk det grøne flagget.__
 
-- [ ] Dett Flakse fortare jo lengre han dett?
+- [ ] Fell Flakse fortare jo lengre han dett?
 
-## Utfordring 2: Dett ut av skjermen {.challenge}
+## Utfordring 2: Fall ut av skjermen {.challenge}
 
 Når spelaren tapar vil me at Flakse skal dette ned og ut av skjermen.
 
-- [ ] Bytt ut `send meldingen Tap`{.blockevents}-klossen med `send
-  meldingen Fall`{.blockevents} i skriptet som merkar når Flakse
+- [ ] Bytt ut `send meldinga Tap`{.blockevents}-klossen med `send
+  meldinga Fall`{.blockevents} i skriptet som merkar når Flakse
   krasjar i kanten eller i eit røyr. Slett `stopp`{.blockcontrol}-klossen på
   slutten av skriptet.
 
 - [ ] Legg til desse nye skripta på `Flakse`-figuren:
 
   ```blocks
-  når jeg mottar [Fall v]
+  når eg får meldinga [Fall v]
   for alltid
-      vend høyre (5) grader
+      snu @turnRight (5) gradar
   slutt
 
-  når jeg mottar [Fall v]
+  når eg får meldinga [Fall v]
   gjenta til <(y-posisjon) < [-180]>
-      endre y med (løft)
-      endre [løft v] med (-0.2)
+      endra y med (løft)
+      endra [løft v] med (-0.2)
   slutt
-  skjul
-  send melding [Tap v]
+  gøym
+  send meldinga [Tap v]
   stopp [andre skript i figuren v] :: control
   ```
 
@@ -366,22 +366,22 @@ Når spelaren tapar vil me at Flakse skal dette ned og ut av skjermen.
 
 __Klikk det grøne flagget.__
 
-- [ ] Dett Flakse ut av skjermen når han treff eit røyr?
+- [ ] Fell Flakse ut av skjermen når han treff eit røyr?
 
 - [ ] Flyg Flakse riktig veg når spelet startar att?
 
 ## Utfordring 3: Legg til rekordar {.challenge}
 
-- [ ] Lag ein ny variabel og merk av `Nett-variabel (lagret på
+- [ ] Lag ein ny variabel og merk av `Nett-variabel (lagra på
   nett)`-boksen. Kall variabelen `Rekord`{.blockdata}.
 
 - [ ] Når spelet er ferdig må me sjekke om det er ein ny rekord. Det gjer
   me ved å endre `Tap`-skriptet på `røyr` slik:
 
   ```blocks
-  når jeg mottar [Tap v]
-  hvis <(poeng) > (Rekord)>
-      sett [Rekord v] til (poeng)
+  når eg får meldinga [Tap v]
+  viss <(poeng) > (Rekord)>
+      set [Rekord v] til (poeng)
   slutt
   stopp [andre skript i figuren v] :: control
   ```
