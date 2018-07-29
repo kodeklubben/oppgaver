@@ -52,5 +52,3 @@ kjøre bort til parkeringsplassen, snu, og deretter rygge inn på plass.
 
 - [ ] Roboten skal rygge inn på parkeringsplassen. Ryggesensoren skal
       kontrollere ryggingen, og stoppe roboten 2 cm fra veggen bak i garasjen.
-
-![Bilde av et ferdig program](lego_mindstorms_parkeringsplass_1.png)
