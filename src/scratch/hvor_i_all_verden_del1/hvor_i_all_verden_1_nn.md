@@ -57,7 +57,7 @@ med piltastane.*
   ```blocks
   når @greenFlag vert trykt på
   gøym
-  bruk rotasjonsmåte [vend sidevegs v]
+  bruk roteringstypen [vend sidevegs v]
   set storleik til (30) %
   set [hastigheit v] til [5]
   ```
@@ -94,7 +94,7 @@ __Klikk på det grøne flagget.__
   Prøv sjølv om du kan legge inn koden for kva som skal skje når du trykkar `pil
   opp` og `pil ned`.
 
-- [ ] Kva gjer klossen `bruk rotasjonsmåte vend sidevegs`{.blockmotion}? Prøv å
+- [ ] Kva gjer klossen `bruk roteringstypen vend sidevegs`{.blockmotion}? Prøv å
   endre verdiane i nedtrekksmenyen for å sjå kva som skjer.
 
 # Steg 2: Eit enkelt kart {.activity}
@@ -289,7 +289,7 @@ to sekund.
   animasjonen er slutt må du leggje klossen
 
   ```blocks
-  sei - [ ]
+  sei [ ]
   ```
 
   til slutt i skriptet ditt.
