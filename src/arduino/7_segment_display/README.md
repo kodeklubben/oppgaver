@@ -1,7 +1,10 @@
 ---
 title: Lærerveiledning - 7-Segment Display
+author: 'Martin Ertsås & Morten Minde Neergaard'
+level: 2
 language: nb
 ---
+
 
 # Informasjon til veiledere
 
@@ -10,8 +13,11 @@ language: nb
 Oppgaven «7-Segment Display» introduserer flere konsepter:
 
 + En teknikk for å utforske ukjente komponenter
+
 + 7-Segment Display
+
 + Funksjoner og funksjonskall
+
 + Switch statements
 
 ## Merk
@@ -20,6 +26,7 @@ Denne oppgaven krever at elevene holder styr på en god del ledninger, og
 sluttresultatet vil se noe kaotisk ut.
 
 ![kaotisk](kaotisk.jpg)
+
 
 # Løsningsforslag
 
@@ -193,3 +200,4 @@ void loop() {
   }
 }
 ```
+

@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Skilpaddekunst
+author: Øistein Søvik
 level: 2
 language: nb
 ---
@@ -9,6 +10,7 @@ language: nb
 
 I denne oppgaven skal vi utforske if-setninger og tegne ulike geometriske
 figurer ved hjelp av `turtle`-biblioteket.
+
 ## Oppgaven passer til: {.check}
 
  __Fag__: Matematikk, Kunst og håndtverk
@@ -37,7 +39,7 @@ figurer ved hjelp av `turtle`-biblioteket.
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Elevene kan navngi og konstruere n-kanter digitalt.  
+- [ ] Elevene kan navngi og konstruere n-kanter digitalt.
 
 - [ ] Elevene kan programmere enkle for-løkker.
 
@@ -51,7 +53,6 @@ figurer ved hjelp av `turtle`-biblioteket.
 - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på
       oppgaven.
 
- 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Ingen.

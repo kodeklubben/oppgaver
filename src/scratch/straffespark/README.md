@@ -34,15 +34,13 @@ __Tidsbruk__: Dobbelttime
       programmering, slik som løkker, tester, variabler, funksjoner og enkel
       brukerinteraksjon
 
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ]  Elevene kan bruke matematiske begreper til å forklare figurene og ballens
        posisjon i koordinatsystemet (bakgrunnen).
-       
+
 - [ ]  Elevene kan forklare hvordan løkker, tester og variabler fungerer, og
        hvorfor de er hensiktsmessige å bruke i denne oppgaven.
-
 
 ## Forslag til vurderingskriterier {.challenge}
 
@@ -56,6 +54,7 @@ __Tidsbruk__: Dobbelttime
       vurdere hverandre.
 
 ## Forutsetninger og utstyr {.challenge}
+
 - [ ]  __Forutsetninger__: Ingen
 
 - [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
@@ -75,6 +74,7 @@ oppgaveteksten.](../straffespark/straffespark.html){target=_blank}
   scenen, og passe på at hvert skript kodes på riktig sted. Vær nøye med at
   skriptene ligger på riktig figur som beskrevet i oppgaven.
 
+
 # Steg 2: Vi sparker ballenn {.activity}
 
 - [ ] Katten skyter ballen før man klikker på den, eller den må gå flere steg
@@ -87,12 +87,14 @@ oppgaveteksten.](../straffespark/straffespark.html){target=_blank}
   klikke og dra, og deretter se på koordinatene øverst til høyre i
   skriptvinduet.
 
+
 # Steg 4: Keeperen redder! {.activity}
 
 - [ ] I dette steget jobber vi videre med skriptet som ble skrevet på `Ball` i
   steg 2. Pass på at elevene ikke lager to forskjellige skript. Om de lager to
   forskjellige skript vil effekten stort sett være at ballen beveger seg fortere
   enn normalt fordi begge skriptene flytter ballen.
+
 
 # Steg 5: Førstemann til 10! {.activity}
 
@@ -159,7 +161,7 @@ kreativitet. Elevene kan gjerne oppfordres til å
   5, men om elevene har litt erfaring med Scratch fra tidligere kan de gjerne
   gjøre dette underveis i programmeringen også.
 
-- [ ] eksperimentere med objektorientert programmering: 
+- [ ] eksperimentere med objektorientert programmering:
 
     - [ ] Start et nytt Scratchprosjekt ved å klikke `Programmering` fra
       hovedsiden, eller `Ny` i `Fil`-menyen.

@@ -17,7 +17,6 @@ Denne oppgaven er en nøtt. Det vil si at du skal finne ut av det meste selv.
 Sitter du helt fast må du gjerne spørre en CodeMaster.
 
 
-
 # Kryptering med vigenere-metoden {.activity}
 
 Vigenere er litt smartere enn krypteringen i [Hemmelige koder], men den er ikke
@@ -79,6 +78,7 @@ manualen. Prøv disse:
 - `help('len')`
 
 - `help('vigenere_encode')`
+
 
 # Dekryptering {.activity}
 

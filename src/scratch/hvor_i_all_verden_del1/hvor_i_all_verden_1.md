@@ -97,6 +97,7 @@ __Klikk på det grønne flagget.__
 - [ ] Hva gjør klossen `begrens rotasjon vend sideveis`{.blockmotion}? Prøv å
   endre verdiene i nedtrekksmenyen for å se hva som skjer.
 
+
 # Steg 2: Et enkelt kart {.activity}
 
 *Vi legger nå inn et kart som en bakgrunn. Dette vil vi i denne leksjonen bruke
@@ -176,6 +177,7 @@ __Klikk på det grønne flagget.__
 - [ ] Ligger den røde sirkelen der den skal være?
 
 - [ ] Hva skjer om du styrer helikopteret til den røde sirkelen?
+
 
 # Steg 4: Skjul reisemålet {.activity}
 
