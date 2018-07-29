@@ -40,7 +40,7 @@ skjermen.*
   `gå`{.blockmotion}-kloss på denne måten:
 
   ```blocks
-  gjenta (200) ganger
+  gjenta (200) gongar
       gå (5) steg
   slutt
   ```
@@ -49,33 +49,33 @@ skjermen.*
   ditt på seg? Ser du eit problem?
 
 - [ ] Spøkelset ser ut som om det set seg fast når det kjem til kanten! Det kan
-  me fikse med ein `sprett tilbake`{.blockmotion}-kloss:
+  me fikse med ein `viss ved kant, sprett`{.blockmotion}-kloss:
 
   ```blocks
-  gjenta (200) ganger
+  gjenta (200) gongar
       gå (5) steg
-      sprett tilbake ved kanten
+      viss ved kant, sprett
   slutt
   ```
 
 - [ ] Klikk på skriptet ditt att. Virkar det betre no?
 
 - [ ] Hmm... Spøkelset flyg opp ned. Det ser litt rart ut. Me kan seie at
-  spøkelset berre skal snu seg sidelengs med ein `begrens
-  rotasjon`{.blockmotion}-kloss. Denne legg me heilt fyrst i skriptet på denne
-  måten:
+  spøkelset berre skal snu seg sidelengs med ein `bruk
+  roteringstypen`{.blockmotion}-kloss. Denne legg me heilt fyrst i skriptet på
+  denne måten:
 
   ```blocks
-  begrens rotasjon [vend sideveis v]
-  gjenta (200) ganger
+  bruk roteringstypen [vend sidevegs v]
+  gjenta (200) gongar
       gå (5) steg
-      sprett tilbake ved kanten
+      viss ved kant, sprett
   slutt
   ```
 
 - [ ] Det kjem til å sjå skumlare ut dersom bakgrunnen er svart! Klikk på
   `Scene` heilt til venstre på skjermen, og så på
-  `Bakgrunner`{.blocklightgrey}-fana nesten øvst på skjermen.
+  `Bakgrunnar`{.blocklightgrey}-fana nesten øvst på skjermen.
 
 - [ ] Klikk på målingsspannet, ![Fyll med farge](../bilder/fyll-med-farge.png),
   og så på den kvite bakgrunnen for å måle den svart.
@@ -99,9 +99,9 @@ skjermen.*
   skal starte veldig liten og bli større. Lag dette skriptet:
 
   ```blocks
-  sett størrelse til (0) %
-  gjenta (100) ganger
-      endre størrelse med (4)
+  set storleik til (0) %
+  gjenta (100) gongar
+      endra storleik med (4)
   slutt
   ```
 
@@ -109,16 +109,16 @@ skjermen.*
 
 - [ ] Eit lite problem er at spøkelset framleis er på skjermen. Me vil skjule
   spøkelset når det ikkje er i rørsle. Klikk på spøkelset og legg til ein
-  `vis`{.blocklooks}- og en `skjul`{.blocklooks}-kloss i skriptet:
+  `vis`{.blocklooks}- og en `gøym`{.blocklooks}-kloss i skriptet:
 
   ```blocks
-  begrens rotasjon [vend sideveis v]
+  bruk roteringstypen [vend sidevegs v]
   vis
-  gjenta (200) ganger
+  gjenta (200) gongar
       gå (5) steg
-      sprett tilbake ved kanten
+      viss ved kant, sprett
   slutt
-  skjul
+  gøym
   ```
 
 - [ ] Klikk på skriptet for spøkelset. Bli spøkelset skjult når det er ferdig
@@ -128,12 +128,12 @@ skjermen.*
   endre skriptet til
 
   ```blocks
-  sett størrelse til (0) %
+  set storleik til (0) %
   vis
-  gjenta (100) ganger
-      endre størrelse med (4)
+  gjenta (100) gongar
+      endra storleik med (4)
   slutt
-  skjul
+  gøym
   ```
 
 - [ ] For å få litt variasjon vil me at demonen skal animerast over ein skummel
@@ -160,28 +160,28 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 - [ ] Klikk på `Scene` og lag dette skriptet:
 
   ```blocks
-  når jeg mottar [Animer spøkelse v]
-  bytt bakgrunn til [Svart v]
+  når eg får meldinga [Animer spøkelse v]
+  byt bakgrunn til [Svart v]
   ```
 
 - [ ] Klikk på spøkelsesfiguren og endre skriptet ved å leggje til ein kloss
   på toppen:
 
   ```blocks
-  når jeg mottar [Animer spøkelse v]
-  begrens rotasjon [vend sideveis v]
+  når eg får meldinga [Animer spøkelse v]
+  bruk roteringstypen [vend sidevegs v]
   vis
-  gjenta (200) ganger
+  gjenta (200) gongar
       gå (5) steg
-      sprett tilbake ved kanten
+      viss ved kant, sprett
   slutt
-  skjul
+  gøym
   ```
 
 - [ ] No ventar skripta på meldinga. For å teste kan me dra klossen
 
   ```blocks
-  send melding [Animer spøkelse v]
+  send meldinga [Animer spøkelse v]
   ```
 
   ut ved sidan av det store skriptet til spøkelset.
@@ -192,26 +192,26 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 - [ ] No skal me gjere det same for demonen. Legg til eit nytt skript på scena:
 
   ```blocks
-  når jeg mottar [Animer demon v]
-  bytt bakgrunn til [Skog v]
+  når eg får meldinga [Animer demon v]
+  byt bakgrunn til [Skog v]
   ```
 
 - [ ] Klikk på demonfiguren og endre skriptet slik
 
   ```blocks
-  når jeg mottar [Animer demon v]
-  sett størrelse til (0) %
+  når eg får meldinga [Animer demon v]
+  set storleik til (0) %
   vis
-  gjenta (100) ganger
-      endre størrelse med (4)
+  gjenta (100) gongar
+      endra storleik med (4)
   slutt
-  skjul
+  gøym
   ```
 
 - [ ] Legg til klossen
 
   ```blocks
-  send melding [Animer demon v]
+  send meldinga [Animer demon v]
   ```
 
   for å teste at animasjonen fungerer.
@@ -232,8 +232,8 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 
   ```blocks
   for alltid
-      send melding [Animer spøkelse v] og vent
-      send melding [Animer demon v] og vent
+      send meldinga [Animer spøkelse v] og vent
+      send meldinga [Animer demon v] og vent
   slutt
   ```
 
@@ -245,10 +245,10 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 
   ```blocks
   for alltid
-      send melding [Animer spøkelse v] og vent
-      vent (1) sekunder
-      send melding [Animer demon v] og vent
-      vent (1) sekunder
+      send meldinga [Animer spøkelse v] og vent
+      vent (1) sekund
+      send meldinga [Animer demon v] og vent
+      vent (1) sekund
   slutt
   ```
 
@@ -256,12 +256,12 @@ bakgrunnen og å starte spøkelsesanimasjonen.
   gjer at animasjonen startar når me klikkar det grøne flagget øvst på skjermen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
-      send melding [Animer spøkelse v] og vent
-      vent (1) sekunder
-      send melding [Animer demon v] og vent
-      vent (1) sekunder
+      send meldinga [Animer spøkelse v] og vent
+      vent (1) sekund
+      send meldinga [Animer demon v] og vent
+      vent (1) sekund
   slutt
   ```
 
@@ -269,16 +269,16 @@ bakgrunnen og å starte spøkelsesanimasjonen.
   startar animasjonen på rett måte. Legg til dette skriptet på spøkelset:
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   gå til x: (0) y:(0)
   ```
 
 - [ ] Legg til eit tilsvarande skript på demonen:
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   gå til x: (0) y:(0)
   ```
 
@@ -300,7 +300,7 @@ __Klikk på det grøne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Lag ein ny figur ved å trykke på ![Tegn ny figur](../bilder/tegn-ny.png)
+- [ ] Lag ein ny figur ved å trykke på ![Teikn ny figur](../bilder/tegn-ny.png)
   ved sidan av `Ny figur`. Du kan teikne akkurat kva du vil. Her har me teikna
   eit graskar med utsjånad du kanskje kjenner att frå teiknefilmar eller
   teikneserier.
@@ -308,7 +308,7 @@ __Klikk på det grøne flagget.__
   ![Bilete av graskar med utskore ansikt](gresskar.png)
 
 - [ ] Lag ei kopi av drakta du akkurat teikna ved å høgreklikke på miniatyren
-  under `Ny drakt`-overskrifta og vel `lag en kopi`.
+  under `Ny drakt`-overskrifta og vel `lag ein kopi`.
 
   ![Bilete av korleis du lagar ein kopi av graskaret i Scratch](kopier_gresskar.png)
 
@@ -319,13 +319,13 @@ __Klikk på det grøne flagget.__
 - [ ] Klikk på `Skript`{.blocklightgrey}-fana og legg på dette skriptet:
 
   ```blocks
-  når jeg mottar [Animer graskar v]
+  når eg får meldinga [Animer graskar v]
   vis
-  gjenta (50) ganger
+  gjenta (50) gongar
       neste drakt
-      vent (tilfeldig tall fra (0.1) til (0.3)) sekunder
+      vent (tilfeldig tal frå (0.1) til (0.3)) sekund
   slutt
-  skjul
+  gøym
   ```
 
   Du kan godt bytte ut meldinga `Animer graskar` med noko som passar for
@@ -335,8 +335,8 @@ __Klikk på det grøne flagget.__
 - [ ] Du kan sette startposisjonen for den nye figuren:
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   gå til x: (0) y: (0)
   ```
 
@@ -344,22 +344,22 @@ __Klikk på det grøne flagget.__
   for den siste animasjonen. Her har me brukt den svarte bakgrunnen att.
 
   ```blocks
-  når jeg mottar [Animer graskar v]
-  bytt bakgrunn til [Svart v]
+  når eg får meldinga [Animer graskar v]
+  byt bakgrunn til [Svart v]
   ```
 
 - [ ] Til slutt legg me til den siste animasjonen i hovudløkka som viser
   animasjonane:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
-      send melding [Animer spøkelse v] og vent
-      vent (1) sekunder
-      send melding [Animer demon v] og vent
-      vent (1) sekunder
-      send melding [Animer graskar v] og vent
-      vent (1) sekunder
+      send meldinga [Animer spøkelse v] og vent
+      vent (1) sekund
+      send meldinga [Animer demon v] og vent
+      vent (1) sekund
+      send meldinga [Animer graskar v] og vent
+      vent (1) sekund
   slutt
   ```
 
@@ -379,7 +379,8 @@ Når du er fornøgd med animasjonane dine kan du dele det med familie og vener v
 
 # Projiser animasjonene {.activity}
 
-*Heilt til slutt kan du bruke dette steget for å lære korleis du kan skremme nabolaget med dei skumle animasjonane dine.*
+*Heilt til slutt kan du bruke dette steget for å lære korleis du kan skremme
+ nabolaget med dei skumle animasjonane dine.*
 
 Det enklaste er å sette skjermen i vindauget. Klikk firkanten for
 fullskjermvisning øvst til venstre under Scratch-logoen. Viss du får låne ein
