@@ -215,9 +215,9 @@ sekund. Hvis Felix fangar Herbert, minker me poengsummen med ti.*
         sett [Poeng v] til (0)
         for alltid
             vent (1) sekund
-            endre [Poeng v] med (1)
+            endra [Poeng v] med (1)
         når eg får meldinga [Fanga! v]
-        endre [Poeng v] med (-10)
+        endra [Poeng v] med (-10)
     ```
 
 ## Test prosjektet {.flag}
