@@ -212,7 +212,7 @@ venner? La oss lage en personlig hilsen til hver av de.
 
   ```js
   hei("Navnet til din venn");
-  ``
+  ```
 
 - [ ] Hold inne **Ctrl** + **s** for å lagre
 

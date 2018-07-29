@@ -35,13 +35,13 @@ Me begynner prosjektet vårt med å få katten til å fly!
     skal du sjå at katten flyttar litt på seg, og om du klikkar på
 
     ```blocks
-        vend høyre (15) grader
+        snu @turnRight (15) gradar
     ```
 
     vil den snu seg! Desse klossane er kommandoer me kan gi til katten!
 
 - [ ] Legg merke til at over dei blå klossane er det fleire kategoriar av
-      kommandoar i forskjellige fargar, for eksempel `Utseende`{.blocklooks} og
+      kommandoar i forskjellige fargar, for eksempel `Utsjåande`{.blocklooks} og
       `Lyd`{.blocksound}. Klikk på desse kategoriane og prøv nokre av klossane
       du finn!
 
@@ -51,10 +51,10 @@ Me begynner prosjektet vårt med å få katten til å fly!
     Prøv å pusla saman desse klossane (bruk fargane for å finne rett kategori):
 
     ```blocks
-        når grønt flagg klikkes
+        når @greenFlag vert trykt på
         for alltid
             gå (10) steg
-            vend høyre (15) grader
+            snu @turnRight (15) gradar
         slutt
     ```
 
@@ -73,22 +73,22 @@ __Klikk på det!__
 ## Sjekkliste {.check}
 
 - [ ] Nå skal me endra litt på koden slik at me kan kontrollera korleis katten
-      bevegar seg. I kategorien `Sansning`{.blocksensing} fins ein kloss som
+      bevegar seg. I kategorien `Sansing`{.blocksensing} fins ein kloss som
       reagerar når ein tast er trykka på. Den kan me bruka til å styra katten
       med piltastene.
 
     Bytt ut klossene i koden din slik at den blir sjåande slik ut:
 
     ```blocks
-        når grønt flagg klikkes
+        når @greenFlag vert trykt på
         for alltid
-            hvis (tast [pil høyre v] trykket?)
-                vend høyre (5) grader
+            viss <tasten [pil høgre v] er trykt?>
+                snu @turnRight (5) gradar
             slutt
-            hvis (tast [pil venstre v] trykket?)
-                vend venstre (5) grader
+            viss <tasten [pil venstre v] er trykt?>
+                snu @turnLeft (5) gradar
             slutt
-            hvis (tast [pil opp v] trykket?)
+            viss <tasten [pil opp v] er trykt?>
                 gå (5) steg
             slutt
         slutt
@@ -149,9 +149,9 @@ realistisk.
       figurlista, og lag deretter dette skriptet:
 
     ```blocks
-        når grønt flagg klikkes
+        når @greenFlag vert trykt på
         for alltid
-            vend høyre (1) grader
+            snu @turnRight (1) gradar
         slutt
     ```
 
@@ -159,23 +159,23 @@ realistisk.
       Det gjør me ved å endra størrelsen slik at katten blir mindre jo nærmere
       den kjem jordkloden.
 
-  Klikk på katten i figurlista. Legg `sett størrelse til`{.blocklooks} nederst i
+  Klikk på katten i figurlista. Legg `set storleik til`{.blocklooks} nederst i
   `for alltid`{.blockcontrol}-løkka, slik at størrelsen på katten er avhengig av
   avstanden til jordkloden:
 
     ```blocks
-        når grønt flagg klikkes
+        når @greenFlag vert trykt på
         for alltid
-            hvis (tast [pil høyre v] trykket?)
-                vend høyre (5) grader
+            viss <tasten [pil høgre v] er trykt?>
+                snu @turnRight (5) gradar
             slutt
-            hvis (tast [pil venstre v] trykket?)
-                vend venstre (5) grader
+            viss <tasten [pil venstre v] er trykt?>
+                snu @turnLeft (5) gradar
             slutt
-            hvis (tast [pil opp v] trykket?)
+            viss <tasten [pil opp v] er trykt?>
                 gå (5) steg
             slutt
-            sett størrelse til (avstand til [Earth v])%
+            set storleik til (avstand til [Earth v])%
         slutt
     ```
 
@@ -231,10 +231,10 @@ la astrokatten vår bli påverka av gravitasjonen og.
       skriptet du allereie har laga. Skriptet skal sjå slik ut:
 
     ```blocks
-        når grønt flagg klikkes
+        når @greenFlag vert trykt på
         gå til x: (-200) y: (150)
         for alltid
-            pek mot [Earth v]
+            peik mot [Earth v]
             gå (1) steg
         slutt
     ```
@@ -244,9 +244,9 @@ la astrokatten vår bli påverka av gravitasjonen og.
 
 - [ ] MEN, me har eit problem: Me kan ikkje lengre styra katten! Kva har skjedd?
 
-    I det nye skriptet seier me at katten `for alltid`{.blockcontrol} skal `peke
-    mot`{.blockmotion} jordkloden. Då hjelper det jo ikkje at me i det andre
-    skriptet seier at katten skal snu seg.
+    I det nye skriptet seier me at katten `for alltid`{.blockcontrol} skal
+    `peike mot`{.blockmotion} jordkloden. Då hjelper det jo ikkje at me i det
+    andre skriptet seier at katten skal snu seg.
 
 - [ ] Det er ingen kommando i Scratch for å flytta ein figur mot ein annan.
       Derfor må me peika katten mot jordkloden og deretter flytta den. Men me
@@ -254,20 +254,20 @@ la astrokatten vår bli påverka av gravitasjonen og.
       peikte før me snudde den.
 
   For at programmer skal hugsa ting bruker me variablar. Lag ein variabel ved å
- klikke på `Data`{.blockdata}-kategorien og deretter på `Lag en variabel`. Kall
+ klikke på `Data`{.blockdata}-kategorien og deretter på `Lag ein variabel`. Kall
  variabelen `katteretning`.
 
 - [ ] Me kan nå bruke denne variabelen til å hugsa kva retning katten peikte.
       Endra skriptet ditt ved å legge til to nye klossar:
 
     ```blocks
-        når grønt flagg klikkes
+        når @greenFlag vert trykt på
         gå til x: (-200) y: (150)
         for alltid
-            sett [katteretning v] til (retning)
-            pek mot [Earth v]
+            set [katteretning v] til (retning)
+            peik mot [Earth v]
             gå (1) steg
-            pek i retning (katteretning)
+            peik i retning (katteretning)
         slutt
     ```
 
