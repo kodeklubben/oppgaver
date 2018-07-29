@@ -18,7 +18,7 @@ vinden.
 
 Tidlegare har me sett fleire måtar me kan få figurar til å gå i sirkel på. Til
 dømes i [Soloball](../soloball/soloball.html) der me flytta figuren vekk frå
-sentrum og brukte `pek mot [musepeker v]`{.b} for å flytte figuren i sirkel.
+sentrum og brukte `peik mot [musepeikar v]`{.b} for å flytte figuren i sirkel.
 
 Her skal me bruke to matematiske funksjonar, _sinus_ og _cosinus_ for å ha meir
 kontroll over korleis sirkelrørsla skjer. Du kjenner kanskje ikkje desse endå,
@@ -38,12 +38,12 @@ No skal me bruke dette til å teikne sirklar!
 - [ ] Skriv dette skriptet på kattefiguren:
 
   ```blocks
-  når grønt flagg klikkes
-  begrens rotasjon [ikke roter v]
+  når @greenFlag vert trykt på
+  bruk roteringstypen [ikkje roter v]
   for alltid
-      sett x til ((100) * ([cos v] av (retning)))
-      sett y til ((100) * ([sin v] av (retning)))
-      vend venstre (5) grader
+      set x til ((100) * ([cos v] av (retning)))
+      set y til ((100) * ([sin v] av (retning)))
+      snu @turnLeft (5) gradar
   slutt
   ```
 
@@ -60,13 +60,13 @@ __Klikk på det grøne flagget.__
 - [ ] Kva skjer dersom du brukar ulike tal dei to stadene det står `100`?
 
 - [ ] Korleis forandrar rørsla til katten seg dersom du forandrar talet `5` i
-  `vend venstre (5) grader`{.b}? Prøv òg kva som skjer om du brukar eit negativt
-  tal!
+  `snu @turnLeft (5) gradar`{.b}? Prøv òg kva som skjer om du brukar eit
+  negativt tal!
 
 ## Retning på sirkelrørsla {.tip}
 
 Har du lagt merke til at katten flyttar seg i motsatt retning av korleis pila i
-`vend venstre (5) grader`{.b}-klossen peikar? Det er fordi Scratch måler vinklar
+`snu @turnLeft (5) gradar`{.b}-klossen peikar? Det er fordi Scratch måler vinklar
 i motsatt retning av det som er vanleg i matematikken.
 
 # Steg 2: Flytt sirkelen {.activity}
@@ -75,21 +75,23 @@ Til no har me berre teikna ein sirkel midt på skjermen. No skal me flytte den!
 
 ## Sjekkliste {.check}
 
-- [ ] Sidan me allereie flyttar figuren langs ein sirkel kan me ikkje bruke `gå til x:
-  () y: ()`{.b}-klossar for å flytte heile sirkelen. I staden brukar me variablar. Lag to variablar som heiter `(sentrumX)`{.b} og `(sentrumY)`{.b} som berre gjeld _for denne figuren_.
+- [ ] Sidan me allereie flyttar figuren langs ein sirkel kan me ikkje bruke `gå
+  til x: () y: ()`{.b}-klossar for å flytte heile sirkelen. I staden brukar me
+  variablar. Lag to variablar som heiter `(sentrumX)`{.b} og `(sentrumY)`{.b}
+  som berre gjeld _for denne figuren_.
 
 - [ ] No kan me flytte sirkelen over ved å endre `(sentrumX)`{.b}- og
   `(sentrumY)`{.b}-variablane:
 
   ```blocks
-  når grønt flagg klikkes
-  begrens rotasjon [ikke roter v]
-  sett [sentrumX v] til [-100]
-  sett [sentrumY v] til [50]
+  når @greenFlag vert trykt på
+  bruk roteringstypen [ikkje roter v]
+  set [sentrumX v] til [-100]
+  set [sentrumY v] til [50]
   for alltid
-      sett x til ((sentrumX) + ((100) * ([cos v] av (retning)))
-      sett y til ((sentrumY) + ((100) * ([sin v] av (retning)))
-      vend venstre (5) grader
+      set x til ((sentrumX) + ((100) * ([cos v] av (retning)))
+      set y til ((sentrumY) + ((100) * ([sin v] av (retning)))
+      snu @turnLeft (5) gradar
   slutt
   ```
 
@@ -106,7 +108,7 @@ __Klikk på det grøne flagget.__
   `radius`{.b} skal seie kor lang den skrå streken i figuren i starten av
   oppgåva skal vere.
 
-  Du treng ein `sett [radius v] til []`{.b}-kloss i tillegg til å bruke
+  Du treng ein `set [radius v] til []`{.b}-kloss i tillegg til å bruke
   `(radius)`{.b} to stader i koden din.
 
 # Steg 3: Dansande diskar {.activity}
@@ -115,7 +117,9 @@ No skal me prøve å få mange figurar til å gå i sirkel samstundes.
 
 ## Sjekkliste {.check}
 
-- [ ] Teikne ei ny drakt på figuren din. Bruk vektorgrafikk og lag ein raud fylt sirkel (ein fylt sirkel kallast ein disk). Den kan vere ganske liten, til dømes `20 x 20` pikslar.
+- [ ] Teikne ei ny drakt på figuren din. Bruk vektorgrafikk og lag ein raud fylt
+  sirkel (ein fylt sirkel kallast ein disk). Den kan vere ganske liten, til
+  dømes `20 x 20` pikslar.
 
   ![Bilde av ein liten raud disk i Scratch](rod_disk.png)
 
@@ -123,19 +127,19 @@ No skal me prøve å få mange figurar til å gå i sirkel samstundes.
   koden din i to delar, og endre den slik:
 
   ```blocks
-  når grønt flagg klikkes
-  gjenta (99) ganger
-      sett [sentrumX v] til (tilfeldig tall fra (-150) til (150))
-      sett [sentrumY v] til (tilfeldig tall fra (-100) til (100))
-      sett [radius v] til [50]
+  når @greenFlag vert trykt på
+  gjenta (99) gongar
+      set [sentrumX v] til (tilfeldig tal frå (-150) til (150))
+      set [sentrumY v] til (tilfeldig tal frå (-100) til (100))
+      set [radius v] til [50]
       lag klon av [meg v]
   slutt
 
-  når jeg starter som klon
+  når eg startar som klon
   for alltid
-      sett x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
-      sett y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
-      vend venstre (5) grader
+      set x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
+      set y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
+      snu @turnLeft (5) gradar
   slutt
   ```
 
@@ -145,9 +149,9 @@ No skal me prøve å få mange figurar til å gå i sirkel samstundes.
   Kaoset kjem av at Scratch brukar litt tid på å starte kvar klon. Me kan få
   orden på det ved å få dei til å starte samstundes:
 
-  Bytt `når jeg starter som klon`{.b} med `når jeg mottar [dans v]`{.b}, og legg
-  til ein `send melding [dans v]`{.b}-kloss etter `gjenta (99)
-  ganger`{.b}-løkka.
+  Bytt `når eg startar som klon`{.b} med `når eg får meldinga [dans v]`{.b}, og
+  legg til ein `send meldingaa [dans v]`{.b}-kloss etter `gjenta (99)
+  gongar`{.b}-løkka.
 
   Om du køyrer programmet ditt att ser du at alle diskane "dansar" i takt. Kva
   likar du best?
@@ -164,31 +168,31 @@ flagg.
   ut diskane slik:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   vis
-  sett [radius v] til [25]
-  sett [sentrumX v] til [-160]
-  gjenta (19) ganger
-      sett [sentrumY v] til [-100]
-      gjenta (14) ganger
+  set [radius v] til [25]
+  set [sentrumX v] til [-160]
+  gjenta (19) gongar
+      set [sentrumY v] til [-100]
+      gjenta (14) gongar
           lag klon av [meg v]
-          endre [sentrumY v] med (16)
+          endra [sentrumY v] med (16)
       slutt
-      endre [sentrumX v] med (16)
+      endra [sentrumX v] med (16)
   slutt
-  send melding [flagre v]
-  skjul
+  send meldinga [flagre v]
+  gøym
   ```
 
 - [ ] No kan `flagre`-skriptet vere det same du brukte til å lage "dansen"
   tidlegare.
 
   ```blocks
-  når jeg mottar [flagre v]
+  når eg får meldinga [flagre v]
   for alltid
-      sett x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
-      sett y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
-      vend venstre (5) grader
+      set x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
+      set y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
+      snu @turnLeft (5) gradar
   slutt
   ```
 
@@ -196,7 +200,7 @@ flagg.
   diskar som består av mange raude diskar som beveger seg i sirkel. Men no kan
   me la dei raude diskane bevege seg litt i utakt!
 
-  Legg til klossen `vend høyre (1) grader`{.b} etter `lag klon av
+  Legg til klossen `snu @turnRight (1) gradar`{.b} etter `lag klon av
   [meg v]`{.b}-klossen, og prøv programmet ditt att. Kva har skjedd?
 
 
@@ -206,7 +210,10 @@ No skal me teikne flagget med ulike fargar.
 
 ## Sjekkliste {.check}
 
-- [ ] Teikne to nye drakter, begge som kopiar av den raude disken. Den fyrste skal vere kvit og den andre skal vere blå. Gi figurane namna `r`, `k` og `b` slik at namnet er den fyrste bokstaven i farga på disken: `r`aud, `k`vit og `b`lå.
+- [ ] Teikne to nye drakter, begge som kopiar av den raude disken. Den fyrste
+  skal vere kvit og den andre skal vere blå. Gi figurane namna `r`, `k` og `b`
+  slik at namnet er den fyrste bokstaven i farga på disken: `r`aud, `k`vit og
+  `b`lå.
 
   ![Bilete av ein raud, ein kvit og ein blå disk i Scratch](tre_disker.png)
 
@@ -214,8 +221,8 @@ No skal me teikne flagget med ulike fargar.
   flagget. Lag variabelen _for alle figurar_ og legg til koden
 
   ```blocks
-  når grønt flagg klikkes
-  sett [flagg v] til [rrrrrkbbkrrrrr]
+  når @greenFlag vert trykt på
+  set [flagg v] til [rrrrrkbbkrrrrr]
   ```
 
   Bokstavane `rrrrrkbbkrrrrr` beskriv at me vil ha fem raude diskar, ein kvit,
@@ -225,13 +232,13 @@ No skal me teikne flagget med ulike fargar.
   nummer den har. Lag ein ny variabel `(nummer)`{.b} som berre gjeld _for denne
   figuren_.
 
-- [ ] Legg til `sett [nummer v] til [1]`{.b} rett under `vis`{.b} og `endre
+- [ ] Legg til `set [nummer v] til [1]`{.b} rett under `vis`{.b} og `endra
   [nummer v] med (1)`{.b} rett under `lag klon av [meg v]`{.b}-klossen.
 
 - [ ] Til slutt skal me endre drakt på diskane. Legg til
 
   ```blocks
-  bytt drakt til (bokstav (nummer) i (flagg))
+  byt drakt til (bokstav (nummer) i (flagg))
   ```
 
   øvst i `for alltid`{.blockcontrol}-løkka i `flagre`-skriptet.
@@ -253,7 +260,7 @@ No skal me teikne flagget med ulike fargar.
   det kan me bruke `() mod ()`{.b}-klossen.
 
   Bytt `(bokstav (nummer) i (flagg))`{.b} med `(bokstav ((nummer) mod (lengden
-  av (flagg))) i (flagg))`{.b} i `bytt drakt til [ v]`{.b}-klossen. Om du prøver
+  til (flagg))) i (flagg))`{.b} i `byt drakt til [ v]`{.b}-klossen. Om du prøver
   programmet att ser du at flaggmønsteret blir gjenteke. Prøv å sette
   `(flagg)`{.b} til `rkb` for å sjå det.
 
@@ -262,9 +269,9 @@ No skal me teikne flagget med ulike fargar.
 - [ ] Teikne dine eigne flagg. Om du treng fleire fargar kan du berre lage
   fleire drakter. Pass på at kvar drakt har ein bokstav eller eit tal som namn.
 
-- [ ] Du kan leike litt med tala for å endre på animasjonen. Prøv med `vend
-- høyre (25) grader`{.b} i klossen etter `lag klon av [meg v]`{.b}.
+- [ ] Du kan leike litt med tala for å endre på animasjonen. Prøv med `snu
+  @turnRight (25) gradar`{.b} i klossen etter `lag klon av [meg v]`{.b}.
 
 - [ ] Du kan endre korleis flagget ser ut undervegs. Til dømes kan du bruke ein
-  `når [ v] trykkes`{.b}-kloss for å endre verdien av `(flagg)`{.b} basert på
+  `når [ v] vert trykt`{.b}-kloss for å endre verdien av `(flagg)`{.b} basert på
   kva tastar som blir trykka. Då vil fargene i flagget oppdatere seg.
