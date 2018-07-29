@@ -45,7 +45,7 @@ inni kvarandre, fylt med ein farge i mellom.
         gå til x: (0) y: (0)
         vis
         gjenta (10) gongar
-            endre storleik med (5)
+            endra storleik med (5)
             vent (0.1) sekund
         slutt
         slett denne klonen
@@ -81,7 +81,7 @@ gjeld for denne figuren.
         set [distanse v] til (10)
         gjenta til ((distanse) < (1))
             set storleik til ((150) / (distanse)) %
-            endre [distanse v] med (-0.5)
+            endra [distanse v] med (-0.5)
             vent (0.1) sekund
         slutt
         slett denne klonen
@@ -97,7 +97,7 @@ For at det skal sjå endå meir ut som at ringane først er langt borte og så n
 så kan du bruke klossen
 
 ```blocks
-    set [gjennomsiktig v] effekt til ((100)-((150)/(distanse))
+    set [gjennomsiktig v]-effekt til ((100)-((150)/(distanse))
 ```
 
 for å gjera ringane meir gjennomsiktige når dei er langt borte. Kva tal må du
@@ -174,19 +174,19 @@ flaggermus-figuren. Kall den __Flakse__.
         set [y v] til [0]
         for alltid
             viss (tasten [pil høyre v] er trykt)
-                endre [x v] med (10)
+                endra [x v] med (10)
                 vent (0.05) sekund
             slutt
             viss (tasten [pil venstre v] er trykt)
-                endre [x v] med (-10)
+                endra [x v] med (-10)
                 vent (0.05) sekund
             slutt
             viss (tasten [pil opp v] er trykt)
-                endre [y v] med (10)
+                endra [y v] med (10)
                 vent (0.05) sekund
             slutt
             viss (tasten [pil ned v] er trykt)
-                endre [y v] med (-10)
+                endra [y v] med (-10)
                 vent (0.05) sekund
             slutt
         slutt
