@@ -83,7 +83,7 @@ figuren, slik at den flaksar med vengjene når me trykkar mellomromtasten.
 
   ```blocks
   viss <tasten [mellomrom v] er trykt?>
-      endre [flaks v] med (1)
+      endra [flaks v] med (1)
       vent (0.01) sekund
   slutt
   ```
@@ -102,9 +102,9 @@ figuren, slik at den flaksar med vengjene når me trykkar mellomromtasten.
 - [ ] Set inn desse klossane fyrst i hovudløkka til Flakse:
 
   ```blocks
-  endre [y v] med (løft)
+  endra [y v] med (løft)
   viss <(løft) > [-5]>
-      endre [løft v] med (-0.5)
+      endra [løft v] med (-0.5)
   slutt
   ```
 
@@ -114,9 +114,9 @@ figuren, slik at den flaksar med vengjene når me trykkar mellomromtasten.
   når eg får meldinga [Nytt spel v]
   for alltid
       gjenta til <(flaks) = [0]>
-          endre [flaks v] med (-1)
+          endra [flaks v] med (-1)
           viss <(løft) < [5]>
-              endre [løft v] med (2)
+              endra [løft v] med (2)
           slutt
           viss <(løft) < [0]>
               sett [løft v] til [0]
@@ -193,7 +193,7 @@ klon`{.blockcontrol}-skriptet til ring-figuren.
   ```blocks
   viss < <(x) < ((ringX) + (160))> og <(x) > ((ringX) - (160))> >
       viss < <(y) < ((ringY) + (160))> og <(y) > ((ringY) - (160))> >
-          endre [poeng v] med (1)
+          endra [poeng v] med (1)
       slutt
   slutt
   ```
