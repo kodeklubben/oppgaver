@@ -61,7 +61,7 @@ lage mange kopiar av den fyrste.
 
   ```blocks
   når eg får meldinga [Nytt spel v]
-  skjul
+  gøym
   set [Antal boksar v] til [0]
   set y til (160)
   gjenta (5) gongar
