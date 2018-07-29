@@ -3,7 +3,7 @@ title: '3D-flaksar, del 2'
 level: 4
 author: 'Gudbrand Tandberg og Geir Arne Hjelle'
 translator: 'Stein Olav Romslo'
-language: nb
+language: nn
 ---
 
 # Introduksjon {.intro}
