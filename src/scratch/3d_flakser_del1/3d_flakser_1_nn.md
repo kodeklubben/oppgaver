@@ -35,7 +35,7 @@ inni kvarandre, fylt med ein farge i mellom.
 
     ```blocks
         når eg får meldinga [Nytt spel v]
-        skjul
+        gøym
         for alltid
             lag klon av [meg v]
             vent (1) sekund
@@ -79,7 +79,7 @@ gjeld for denne figuren.
         gå til x: (0) y: (0)
         vis
         set [distanse v] til (10)
-        gjenta til ((distanse) < (1))
+        gjenta til <(distanse) < (1)>
             set storleik til ((150) / (distanse)) %
             endra [distanse v] med (-0.5)
             vent (0.1) sekund
@@ -173,19 +173,19 @@ flaggermus-figuren. Kall den __Flakse__.
         set [x v] til [0]
         set [y v] til [0]
         for alltid
-            viss (tasten [pil høyre v] er trykt)
+            viss <tasten [pil høyre v] er trykt>
                 endra [x v] med (10)
                 vent (0.05) sekund
             slutt
-            viss (tasten [pil venstre v] er trykt)
+            viss <tasten [pil venstre v] er trykt>
                 endra [x v] med (-10)
                 vent (0.05) sekund
             slutt
-            viss (tasten [pil opp v] er trykt)
+            viss <tasten [pil opp v] er trykt>
                 endra [y v] med (10)
                 vent (0.05) sekund
             slutt
-            viss (tasten [pil ned v] er trykt)
+            viss <tasten [pil ned v] er trykt>
                 endra [y v] med (-10)
                 vent (0.05) sekund
             slutt
