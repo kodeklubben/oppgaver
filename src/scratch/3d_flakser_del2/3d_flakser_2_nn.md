@@ -149,10 +149,10 @@ Me må endre litt på hovudskriptet til Flakse.
 
   ```blocks
   viss <(retning) < [90]>
-      snu @turnRight (1) grader
+      snu @turnRight (1) gradar
   slutt
   viss <(retning) > [90]>
-      snu @turnLeft (1) grader
+      snu @turnLeft (1) gradar
   slutt
   ```
 
