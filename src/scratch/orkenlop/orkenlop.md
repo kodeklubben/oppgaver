@@ -1,12 +1,11 @@
 ---
 title: Ørkenløp
 level: 2
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Anne-Marit Gravem'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
+
 
 # Introduksjon {.intro}
 
@@ -16,6 +15,7 @@ ofte som mulig for å flytte figuren sin, og den som kommer først til
 kanten av skjermen vinner.
 
 ![Illustrasjon av et ferdig ørkenløp spill](orkenlop.png)
+
 
 # Steg 1: Lag en scene og legg til figurer {.activity}
 
@@ -36,6 +36,7 @@ kanten av skjermen vinner.
 - [ ] Legg så til enda en ny figur: velg `Dyr/Parrot`. Krymp figuren slik
   at den er omtrent like stor som løvinnen ved å bruke
   ![krymp](../bilder/krymp.png).
+
 
 # Steg 2: La løvinnen og papegøyen bevege seg {.activity}
 
@@ -65,6 +66,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Beveger løvinnen og papegøyen seg over skjermen når du trykker på
   `A` og `L` tastene?
+
 
 # Steg 3: Start kappløpet {.activity}
 
@@ -147,6 +149,7 @@ og vi ønsker å vite når kappløpet er over.
       gå (4) steg
   slutt
   ```
+
 - [ ] Gjenta det samme for løvinnen.
 
 ## Test prosjektet {.flag}
@@ -155,6 +158,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Kan løvinnen og papegøyen bare flytte seg når nedtellingen er
   ferdig?
+
 
 # Steg 4: Avslutte kappløpet {.activity}
 
@@ -210,6 +214,7 @@ __Klikk på det grønne flagget.__
   `A` og `L`?
 
 - [ ] Kommer riktig vinnerlyd og melding opp på skjermen?
+
 
 # Steg 5: Nullstill spillet {.activity}
 

@@ -5,6 +5,7 @@ author: 'Geir Arne Hjelle'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 I dette spillet vil vi kontrollere en liten utforsker mens hun leter
@@ -13,6 +14,7 @@ av den skumle froskekongen. Vi vil lære hvordan vi kontrollerer
 figurer, og hvordan vi kan programmere figurer til å bevege seg selv.
 
 ![Bilde av labyrinten, froskekongen, utforskeren og skatten](labyrint.png)
+
 
 # Steg 1: Hvordan styre figurer med piltastene {.activity}
 

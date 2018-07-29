@@ -182,7 +182,6 @@ __Trykk på B-tasten.__
 *Vi skal nå se hvordan vi kan lage mer variasjon blant de snurrende figurene,
  ved å endre på hvordan de starter.*
 
-
 ## Sjekkliste {.check}
 
 - [ ] Lag en ny variabel, `retning :: variables`{.b}. Det er viktig at du merker

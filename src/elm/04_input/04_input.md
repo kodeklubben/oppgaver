@@ -112,6 +112,7 @@ view model =
     , div - [ ] [ text model ]
     ]
 ```
+
 ### Kommentarer {.protip}
 
 I koden over har vi skrevet `-- UPDATE` og `-- VIEW`. Det har vi gjort for å
@@ -174,7 +175,7 @@ har vi også `LeggTil`-funksjonen som gjør det mulig å legge til teksten i en
 setning.
 
 Vi må også oppdatere `update` med hva som skal skje når den får inn melding av
-typen `LeggTil`. Om vi ikke gjør det, vil Elm gi beskjed: 
+typen `LeggTil`. Om vi ikke gjør det, vil Elm gi beskjed:
 
 ![Bilde av en feilmelding i Elm](feil_case.png)
 

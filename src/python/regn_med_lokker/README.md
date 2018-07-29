@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Regn med løkker
+author: Øistein Søvik
 level: 3
 language: nb
 ---
@@ -41,7 +42,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] Elevene kan bruke for-løkker til å finne summen av de n første leddene i
        en aritmetisk rekke.
-       
+
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
@@ -69,7 +70,7 @@ oppgaven enda._
 
 - [ ] Elevene kan finne og printe andre tallmønster. For eksempel: partall,
       oddetall, kvadrattall, Fibonacci-tall.
-      
+
 - [ ] Hvorfor går det ikke an å bruke løkker til å printe primtall?
 
 ## Eksterne ressurser {.challenge}

@@ -1,8 +1,10 @@
 ---
 title: Lærerveiledning - Pingviner på tur
+author: Madeleine Lorås
 level: 1
 language: nb
 ---
+
 
 # Om oppgaven {.activity}
 
@@ -11,7 +13,6 @@ pingviner som beveger seg tilfeldig rundt omkring til å gå tilbake til akvarie
 i Bergen.
 
 ![Bilde av pingviner på rømmen](pingviner_pa_tur.png)
-
 
 ## Oppgaven passer til: {.check}
 
@@ -75,7 +76,8 @@ oppgaven enda._
 
 - [ ]  Elevene kan finne andre tema for spillet - løver i Afrika, for eksempel.
 
-- [ ]  Elevene kan lage en variabel som teller poeng for hver pingvin som kommer tilbake til akvariet.
+- [ ]  Elevene kan lage en variabel som teller poeng for hver pingvin som kommer
+       tilbake til akvariet.
 
 ## Eksterne ressurser {.challenge}
 

@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Redd verden
+author: Stein Olav Romslo
 level: 2
 language: nb
 ---
@@ -13,7 +14,6 @@ programmering.
 
 ![Illustrasjon av et ferdig kildesorterings spill](reddverden.png)
 
-
 ## Oppgaven passer til: {.check}
 
 __Fag__: Matematikk, naturfag, norsk, programmering, teknologi i praksis.
@@ -24,13 +24,12 @@ __Tema__: Kildesortering, koordinatsystem, sammensatt tekst, brukerinteraksjon.
 
 __Tidsbruk__: Dobbelttime eller mer.
 
-
 ## Kompetansemål {.challenge}
 
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
       rutenett, på kart og i koordinatsystemer, både med og uten digitale
       verktøy
-      
+
 - [ ] __Naturfag, 4. trinn__: praktisere kildesortering og diskutere hvorfor
       kildesortering er viktig
 
@@ -41,7 +40,8 @@ __Tidsbruk__: Dobbelttime eller mer.
       programmering, slik som løkker, tester, variabler, funksjoner og enkel
       brukerinteraksjon
 
-- [ ] __Teknologi i praksis, 10. trinn__: bruke kunnskap om andre produkt i arbeidet med eige produkt
+- [ ] __Teknologi i praksis, 10. trinn__: bruke kunnskap om andre produkt i
+      arbeidet med eige produkt
 
 ## Forslag til læringsmål {.challenge}
 

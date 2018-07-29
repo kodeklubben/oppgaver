@@ -2,7 +2,6 @@
 title: "Python: Tilfeldig"
 level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/random.html)"
-license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
 translator: "Øistein Søvik"
 language: nb
 ---
@@ -35,7 +34,7 @@ returnerer et tilfeldig element. Dette elementer er argumentet til
 
 ## Prøv det ut selv {.check}
 
-- [ ] Endre på listen og inkluder dine egne navn. 
+- [ ] Endre på listen og inkluder dine egne navn.
 
 - [ ] Hva kan bruksområdet til en slik liste være? Tenk ut to tilfeller hva du
       kan bruke en slik liste til.
@@ -85,12 +84,11 @@ answer = random.randrange(100) + random.random()
 display.scroll(str(answer))
 ```
 
-
 ## Prøv det ut selv {.check}
 
-- [ ] Skriv ned det største tallet programmet ovenfor kan lage. 
+- [ ] Skriv ned det største tallet programmet ovenfor kan lage.
 
-- [ ] Skriv ned det minste tallet programmet ovenfor kan lage. 
+- [ ] Skriv ned det minste tallet programmet ovenfor kan lage.
 
 - [ ] Skriv om koden for terningen ovenfor slik at den bruker `randrange` i
       stedet for `randint`. Merk at du må gjøre noen endringer slik at den gir
@@ -142,7 +140,6 @@ while True:
         display.show(str(random.randint(1, 6)))
 ```
 
-
 ## Litt juks {.check}
 
 - [ ] Skriv om koden ovenfor slik at den alltid gir ut seks (6) dersom en holder
@@ -175,5 +172,3 @@ Her må du selv velge hvilken bevegelse du ønsker å bytte ut `A` med.
 
 </hide>
 </toggle>
-
-

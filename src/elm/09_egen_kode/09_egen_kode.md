@@ -47,6 +47,7 @@ main =
 
 - [ ] Trykk `Compile` og se om du hadde rett
 
+
 # Steg 2: Enkle funksjoner {.activity}
 
 La oss begynne i det små. Vi skal nå prøve å lage noen enkle mattematiske
@@ -90,7 +91,7 @@ Prøv å lage følgende:
 
 - [ ] En funksjon som tar inn to tall og tar kvadratroten av det første tallet
   for deretter å gange dette med det andre tallet
-  
+
 - [ ] En funksjon som tar inn to tall og tar kvadratroten av det andre tallet
   for deretter å gange dette med det første tallet
 

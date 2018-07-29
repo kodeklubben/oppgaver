@@ -52,6 +52,7 @@ __Klikk på det grønne flagget.__
   datamaskinen, prøv gjerne å regne ut svaret og si det til dem som sitter ved
   siden av deg).
 
+
 # Steg 2: Datamaskinen er en kalkulator {.activity}
 
 Du har kanskje ikke tenkt på det, men datamaskinen er en veldig flink

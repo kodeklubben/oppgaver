@@ -1,7 +1,10 @@
 ---
 title: Lærerveiledning - Ultralydsensor
+author: 'Martin Ertsås & Morten Minde Neergaard'
+level: 2
 language: nb
 ---
+
 
 # Informasjon til veiledere
 
@@ -10,6 +13,7 @@ language: nb
 Oppgaven «Ultralydsensor» introduserer flere konsepter:
 
 + Bruk av ultralydsensor
+
 + Seriellkonsoll
 
 
