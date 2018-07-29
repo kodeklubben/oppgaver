@@ -42,20 +42,20 @@ Du kan godt få hjelp frå ein vaksen til å gjere den fyrste delen.
 - [ ] Me vil at raketten skal skjulast når du klikkar på det grøne flagget.
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   ```
 
 No vil me gjerne at raketten skal bevege seg mot musepeikaren når du trykkar
 på mellomromtasten.
 
-- [ ] Legg til ein kloss `når mellomrom trykkes`{.blockevents}. Så lagar me
+- [ ] Legg til ein kloss `når mellomrom vert trykt`{.blockevents}. Så lagar me
   to klossar som gjer raketten synleg og let den bevege seg mot musepeikaren.
 
   ```blocks
-  når [mellomrom v] trykkes
+  når [mellomrom v] vert trykt
   vis
-  gli (1) sekunder til x: (mus x) y: (mus y)
+  gli (1) sekund til x: (mus x) y: (mus y)
   ```
 
 ## Test prosjektet {.flag}
@@ -78,13 +78,13 @@ raketten alltid flyg mot musepeikaren frå botnen av skjermen.
   stad horisontalt.
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
 
-  når [mellomrom v] trykkes
+  når [mellomrom v] vert trykt
   gå til x: (mus x) y: (-200)
   vis
-  gli (1) sekunder til x: (mus x) y: (mus y)
+  gli (1) sekund til x: (mus x) y: (mus y)
   ```
 
 ## Test prosjektet {.flag}
@@ -101,20 +101,20 @@ __Klikk på det grøne flagget.__
 
 - [ ] Prøv å få til det det same ved å bruke museknappen i staden for
   mellomromtasten. For å gjere det kan me pakke skriptet vårt inn i
-  `for alltid`{.blockcontrol}- og `hvis museknappen er nede`{.blockcontrol}-
+  `for alltid`{.blockcontrol}- og `viss museknappen er trykt`{.blockcontrol}-
   klossar.
 
-- [ ] Flytt skriptet frå `når mellomrom trykkes`{.blockevents} til `når
-  grønt flagg klikkes`{.blockevents}, slik at det ser slik ut:
+- [ ] Flytt skriptet frå `når mellomrom vert trykt`{.blockevents} til `når
+  @greenFlag vert trykt på`{.blockevents}, så det ser slik ut:
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   for alltid
-      hvis <museknappen er nede?>
+      viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
           vis
-          gli (1) sekunder til x: (mus x) y: (mus y)
+          gli (1) sekund til x: (mus x) y: (mus y)
       slutt
   slutt
   ```
@@ -143,19 +143,19 @@ __Klikk på det grøne flagget.__
 
 - [ ] Fyrste steg for å få raketten til å eksplodere er å spele av eit smell
   før den startar å bevege seg, og så å gøyme seg når den når musepeikaren.
-  For å importere ein lyd kan du gå til fana `Lyder`{.blocklightgrey} og klikke
+  For å importere ein lyd kan du gå til fana `Lydar`{.blocklightgrey} og klikke
   *Last opp lyd fra fil*. Last opp lyden `fyrverkeri_lydogbilder/bang.wav`.
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   for alltid
-      hvis <museknappen er nede?>
+      viss <museknappen er nede?>
           gå til x: (mus x) y: (-200)
-          spill lyden [bang v]
+          spel lyden [bang v]
           vis
-          gli (1) sekunder til x: (mus x) y: (mus y)
-          skjul
+          gli (1) sekund til x: (mus x) y: (mus y)
+          gøym
       slutt
   slutt
   ```
@@ -165,16 +165,16 @@ __Klikk på det grøne flagget.__
   som heiter `Eksploder`.
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   for alltid
-      hvis <museknappen er nede?>
+      viss <museknappen er nede?>
           gå til x: (mus x) y: (-200)
-          spill lyden [bang v]
+          spel lyden [bang v]
           vis
-          gli (1) sekunder til x: (mus x) y: (mus y)
-          skjul
-          send melding [Eksploder v]
+          gli (1) sekund til x: (mus x) y: (mus y)
+          gøym
+          send meldinga [Eksploder v]
       slutt
   slutt
   ```
@@ -198,12 +198,12 @@ __Klikk på det grøne flagget.__
   skjuler den att eitt sekund seinare.
 
   ```blocks
-  når jeg mottar [Eksploder v]
-  skjul
+  når eg får meldinga [Eksploder v]
+  gøym
   gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
   vis
-  vent (1) sekunder
-  skjul
+  vent (1) sekund
+  gøym
   ```
 
 ## Test prosjektet {.flag}
@@ -226,13 +226,13 @@ __Klikk på det grøne flagget.__
   vist.
 
   ```blocks
-  når jeg mottar [Eksploder v]
-  skjul
-  sett [farge v] effekt til (tilfeldig tall fra (1) til (200))
+  når eg får meldinga [Eksploder v]
+  gøym
+  set [farge v]-effekt til (tilfeldig tal frå (1) til (200))
   gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
   vis
-  vent (1) sekunder
-  skjul
+  vent (1) sekund
+  gøym
   ```
 
 - [ ] Legg til fleire bilete av eksplosjonar som drakter ved å velje
@@ -260,18 +260,18 @@ __Klikk på det grøne flagget.__
   bruke klossen `gjenta`{.blockcontrol}.
 
   ```blocks
-  når jeg mottar [Eksploder v]
-  skjul
+  når eg får meldinga [Eksploder v]
+  gøym
   neste drakt
-  sett [farge v] effekt til (tilfeldig tall fra (1) til (200))
+  set [farge v]-effekt til (tilfeldig tal frå (1) til (200))
   gå til x: ([x-posisjon v] av [rocket v]) y: ([y-posisjon v] av [rocket v])
-  sett størrelse til (5) %
+  set storleik til (5) %
   vis
-  gjenta (20) ganger
-      endre størrelse med (5)
+  gjenta (20) gongar
+      endra storleik med (5)
   slutt
-  vent (1) sekunder
-  skjul
+  vent (1) sekund
+  gøym
   ```
 
 ## Test prosjektet {.flag}
@@ -292,7 +292,7 @@ kor raskt eksplosjonen veks.
 Hugsar du at me har eit problem dersom me heldt museknappen nede?
 
 Problemet skjer fordi raketten sender meldinga si om eksplosjonen og gjentek
-`hvis`{.blockcontrol}-løkka med ein gong. Dermed blir eksplosjonsmeldinga sendt
+`viss`{.blockcontrol}-løkka med ein gong. Dermed blir eksplosjonsmeldinga sendt
 før den førre er ferdig med animasjonen sin.
 
 I programmeringsverda kallar me denne typen problem for *bugs* fordi i gamle
@@ -302,21 +302,21 @@ innsekt vart fanga inne i datamaskina og øydela programmet.
 ## Sjekkliste {.check}
 
 - [ ] For å fikse problemet kan du erstatte klossen `send melding`{.blockevents}
-  med `send melding og vent`{.blockevents}. Då vil ikkje løkka gjenta seg før
+  med `send meldinga og vent`{.blockevents}. Då vil ikkje løkka gjenta seg før
   den førre eksplosjonen er ferdig. Gå tilbake til `rocket` og
   endre skriptet:
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   for alltid
-      hvis <museknappen er nede?>
+      viss <museknappen er nede?>
           gå til x: (mus x) y: (-200)
-          spill lyden [bang v]
+          spel lyden [bang v]
           vis
-          gli (1.5) sekunder til x: (mus x) y: (mus y)
-          skjul
-          send melding [Eksploder v] og vent
+          gli (1.5) sekund til x: (mus x) y: (mus y)
+          gøym
+          send meldinga [Eksploder v] og vent
       slutt
   slutt
   ```
