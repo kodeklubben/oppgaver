@@ -298,7 +298,7 @@ går oppover mot husa vil me la han bli mindre og mindre medan han går.
   gjenta (6) gongar
       gå (9) steg
       neste drakt
-      endre storleik med (-2)
+      endra storleik med (-2)
       vent (0.1) sekund
   slutt
   ```
@@ -323,7 +323,7 @@ går oppover mot husa vil me la han bli mindre og mindre medan han går.
       gjenta (6) gongar
           gå (9) steg
           neste drakt
-          endre storleik med (-2)
+          endra storleik med (-2)
           vent (0.1) sekund
       slutt
       peik i retning ((retning) * (-1))
@@ -359,7 +359,7 @@ retninga blir justert.
       gjenta (6) gongar
           gå (9) steg
           neste drakt
-          endre storleik med (-2)
+          endra storleik med (-2)
           vent (0.1) sekund
       slutt
       peik i retning ((retning) * (-1.5))
