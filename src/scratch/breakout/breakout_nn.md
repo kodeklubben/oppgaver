@@ -83,7 +83,7 @@ lage mange kopiar av den fyrste.
   ```blocks
   når eg startar som klon
   vis
-  vent til <tast [mellomrom v] trykt?>
+  vent til <tasten [mellomrom v] er trykt?>
   endre [Antal boksar v] med (-1)
   slett denne klonen
   ```
