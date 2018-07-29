@@ -82,13 +82,13 @@ __Klikk på det!__
     ```blocks
         når @greenFlag vert trykt på
         for alltid
-            viss (tasten [pil høgre v] er trykt?)
+            viss <tasten [pil høgre v] er trykt?>
                 snu @turnRight (5) gradar
             slutt
-            viss (tasten [pil venstre v] er trykt?)
+            viss <tasten [pil venstre v] er trykt?>
                 snu @turnLeft (5) gradar
             slutt
-            viss (tasten [pil opp v] er trykt?)
+            viss <tasten [pil opp v] er trykt?>
                 gå (5) steg
             slutt
         slutt
@@ -166,13 +166,13 @@ realistisk.
     ```blocks
         når @greenFlag vert trykt på
         for alltid
-            viss (tasten [pil høgre v] er trykt?)
+            viss <tasten [pil høgre v] er trykt?>
                 snu @turnRight (5) gradar
             slutt
-            viss (tasten [pil venstre v] er trykt?)
+            viss <tasten [pil venstre v] er trykt?>
                 snu @turnLeft (5) gradar
             slutt
-            viss (tasten [pil opp v] er trykt?)
+            viss <tasten [pil opp v] er trykt?>
                 gå (5) steg
             slutt
             set storleik til (avstand til [Earth v])%
