@@ -1,7 +1,7 @@
 ---
 title: 'Felix og Herbert'
 level: 1
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
 translator: 'Gro Anette Vestre'
 language: nn
 ---
@@ -17,7 +17,7 @@ din ned.
 ![Bilete av katten Felix og musa Herbert](felix_og_herbert.png)
 
 
-# Steg 1: Felix føl musepeikaren {.activity}
+# Steg 1: Felix følgjer musepeikaren {.activity}
 
 *Me ynskjer at katten Felix skal følge etter musepeikaren.*
 
@@ -25,8 +25,8 @@ din ned.
 
 - [ ] Start eit nytt prosjekt.
 
-- [ ] Trykk på `i`{.blockmotion} i hjørna av ![Sprite1](sprite1.png) og byt navn
-      på figuren til `Felix`.
+- [ ] Trykk på `i`{.blockmotion} i hjørnet av ![Sprite1](sprite1.png) og byt
+  namn på figuren til `Felix`.
 
 - [ ] Sørg for at Felix kun ser til høgre og venstre ved å setje rotasjonsmåte
   til ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
@@ -39,9 +39,9 @@ din ned.
 - [ ] Klikk på Felix, vel `Skript`{.blocklightgrey}-fana og lag dette skriptet:
 
     ```blocks
-        Når grønt flagg klikkes
+        Når @greenFlag vert trykt på
         for alltid
-            pek mot [musepeker v]
+            peik mot [musepeikar v]
             gå (10) steg
             neste drakt
             trommeslag (3 v) som varer (0.25) takter
@@ -52,7 +52,7 @@ din ned.
 
 __Klikk på det grøne flaget.__
 
-- [ ] Føl Felix musepeikaren?
+- [ ] Følgjer Felix musepeikaren?
 
 - [ ] Ser det ut som han går når han bevegar seg?
 
@@ -66,7 +66,7 @@ __Klikk på det grøne flaget.__
 Scratch lagrar alle prosjekta dine automatisk med jevne mellomrom. Det kan
 allikevel vera lurt å lagra manuelt innimellom.
 
-- [ ] I filmenyen, vel `Lagre nå`.
+- [ ] I filmenyen, vel `Lagre no`.
 
 
 # Steg 2: Felix jagar Herbert {.activity}
@@ -88,10 +88,10 @@ allikevel vera lurt å lagra manuelt innimellom.
 - [ ] Gje Herbert dette skriptet:
 
     ```blocks
-        Når grønt flagg klikkes
+        Når @greenFlag vert trykt på
         for alltid
-            gå til [musepeker v]
-            pek mot [Felix v]
+            gå til [musepeikar v]
+            peik mot [Felix v]
         slutt
     ```
 
@@ -113,14 +113,14 @@ __Klikk på det grøne flaget.__
 - [ ] Endre skriptet til Felix til dette:
 
     ```blocks
-        Når grønt flagg klikkes
+        Når @greenFlag vert trykt på
         for alltid
-            pek mot [musepeker v]
+            peik mot [musepeikar v]
             gå (10) steg
             neste drakt
             trommeslag (3 v) som varer (0.25) takter
-            hvis (berører [Herbert v]?)
-                si [Tok deg!] i (1) sekunder
+            viss <rører [Herbert v]?>
+                sei [Tok deg!] i (1) sekund
             slutt
         slutt
     ```
@@ -143,17 +143,17 @@ spøkelse når han vert fanga.*
       når han fangar Herbert:
 
     ```blocks
-        Når grønt flagg klikkes
+        Når @greenFlag vert trykt på
         for alltid
-            pek mot [musepeker v]
+            peik mot [musepeikar v]
             gå (10) steg
             neste drakt
             trommeslag (3 v) som varer (0.25) takter
-            hvis (berører [Herbert v]?)
-                send melding [Fanget!]
+            viss <rører [Herbert v]?>
+                send meldinga [Fanga!]
                 trommeslag (1 v) som varer (0.25) takter
-                si [Tok deg!] i (1) sekunder
-                vent (1) sekunder
+                sei [Tok deg!] i (1) sekund
+                vent (1) sekund
             slutt
         slutt
     ```
@@ -166,17 +166,17 @@ spøkelse når han vert fanga.*
 - [ ] Gjer drakta mindre ved å velgje ![Krymp](../bilder/krymp.png) og trykke
       seks gonger på spøkelsesdrakta.
 
-- [ ] Endra namna på Herberts draktar slik at musedrakten heiter `levande` og
-      spøkelsesdrakten heiter `død`.
+- [ ] Endra namna på Herberts draktar slik at musedrakta heiter `levande` og
+      spøkelsesdrakta heiter `daud`.
 
 - [ ] Gå til `Skript`{.blocklightgrey}-fana, og lag eit nytt skript for Herbert
       for å gjera han om til eit spøkelse. Ikkje slett det gamle skriptet:
 
     ```blocks
-        når jeg mottar [Fanget! v]
-        bytt drakt til [død v]
-        vent (0.5) sekunder
-        bytt drakt til [levende v]
+        når eg får meldinga [Fanga! v]
+        byt drakt til [daud v]
+        vent (0.5) sekund
+        byt drakt til [levande v]
     ```
 
 ## Test prosjektet {.flag}
@@ -204,20 +204,19 @@ sekund. Hvis Felix fangar Herbert, minker me poengsummen med ti.*
 
     ![Bilete av den nye poeng-variabelen](ny-variabel-poeng.png)
 
-    Legg merke til at variabelen `Poeng `{.blockdata} dukka opp øvst til venstre
+    Legg merke til at variabelen `Poeng`{.blockdata} dukka opp øvst til venstre
     i spelet ditt.
 
-- [ ] Klikk på `Scene` til venstre på skjermen, ved sida av `Figurer`. Lag disse
+- [ ] Klikk på `Scene` til venstre på skjermen, ved sida av `Figurar`. Lag disse
       to skripta på scenen:
 
     ```blocks
-        Når grønt flagg klikkes
+        Når @greenFlag vert trykt på
         sett [Poeng v] til (0)
         for alltid
-            vent (1) sekunder
+            vent (1) sekund
             endre [Poeng v] med (1)
-
-        når jeg mottar [Fanget! v]
+        når eg får meldinga [Fanga! v]
         endre [Poeng v] med (-10)
     ```
 
