@@ -33,8 +33,8 @@ blir brukt til programmering i Scratch. Me skal også sjå på klonar av klonar!
   melding med `Nytt spel` på scena:
 
   ```blocks
-  når grønt flagg klikkes
-  send melding [Nytt spel v]
+  når @greenFlag vert trykt på
+  send meldinga [Nytt spel v]
   ```
 
 
@@ -61,26 +61,26 @@ blir brukt til programmering i Scratch. Me skal også sjå på klonar av klonar!
   rører bakken skal han ikkje dette lengre ned.
 
   ```blocks
-  når jeg mottar [Nytt spel v]
+  når eg får meldinga [Nytt spel v]
   gå til x: (210) y: (-120)
   for alltid
-      endre [sprett v] med (-1)
-      hvis <berører fargen [#00cc00] ?>
+      endra [sprett v] med (-1)
+      viss <rører fargen [#00cc00] ?>
           neste drakt
-          sett [sprett v] til [0]
+          set [sprett v] til [0]
       slutt
-      endre y med (sprett)
+      endra y med (sprett)
   slutt
   ```
 
-  Sett farga i `berører fargen`{.blocksensing}-klossen til same farge som
+  Set farga i `rører fargen`{.blocksensing}-klossen til same farge som
   streken du teikna på bakgrunnen i Steg 1.
 
 - [ ] Prøv å endre startposisjonen til helten, særleg y-koordinaten. Får du
   helten til å falle mot bakken?
 
-- [ ] Legg til ein ny `hvis`{.blockcontrol}-test inne i
-  `hvis`{.blockcontrol}-testen du allereie har. Viss tasten `m` blir trykka set
+- [ ] Legg til ein ny `viss`{.blockcontrol}-test inne i
+  `viss`{.blockcontrol}-testen du allereie har. Viss tasten `m` blir trykka set
   du `sprett`{.blockdata} til eit positivt tal. Prøv deg fram slik at du finn
   ein verdi som gjer at helten hoppar passe høgt.
 
@@ -151,15 +151,15 @@ __Klikk på det grøne flagget.__
   følgande kloss etter løkka som flyttar boksen, men før klonen blir sletta:
 
   ```blocks
-  spill tone (60) i (0.5) takter
+  spel tonen (60) i (0.5) takter
   ```
 
-  Du kan gjerne bruke `velg instrument`{.blocksound}-klossen til å velje eit
+  Du kan gjerne bruke `bruk instrument`{.blocksound}-klossen til å velje eit
   passande instrument før spelet startar.
 
 - [ ] Viss du testar dette ser du at boksane heng litt medan lyden blir spelt
   av. Ein enkel måte å unngå dette på er å leggje til ein
-  `skjul`{.blocklooks}-kloss rett før `spill tone`{.blocksound}-klossen.
+  `skjul`{.blocklooks}-kloss rett før `spel tonen`{.blocksound}-klossen.
 
 ## Prøv sjølv {.challenge}
 
@@ -172,13 +172,13 @@ prøve å legge til ulike effektar. Til dømes kan du endre storleiken tilfeldig
 med klossen
 
 ```blocks
-sett størrelse til (tilfeldig tall fra (30) til (100)) %
+set storleik til (tilfeldig tal frå (30) til (100)) %
 ```
 
 På same måte kan du bruke
 
 ```blocks
-sett [farge v] effekt til (tilfeldig tall fra (-100) til (100))
+set [farge v]-effekt til (tilfeldig tal frå (-100) til (100))
 ```
 
 for å endre farga på boksane tilfeldig. Finn på andre effektar, kanskje med å
@@ -191,7 +191,7 @@ Til slutt kan du prøve å endre på kor ofte det kjem nye boksar. Bruk gjerne d
 følgande klossen:
 
 ```blocks
-tilfeldig tall fra (1.2) til (3.2)
+tilfeldig tal frå (1.2) til (3.2)
 ```
 
 Du kan godt eksperimentere med verdiane i klossen.
@@ -218,13 +218,13 @@ Du kan godt eksperimentere med verdiane i klossen.
   skriptet som køyrast for `Nytt spel` til dette:
 
   ```blocks
-  når jeg mottar [Nytt spel v]
+  når eg får meldinga [Nytt spel v]
   gå til x: (-239) y: (-161)
-  sett [er generator v] til [ja]
+  set [er generator v] til [ja]
   skjul
-  gjenta (3) ganger
+  gjenta (3) gongar
       lag klon av [meg v]
-      endre y med (110)
+      endra y med (110)
   slutt
   ```
 
@@ -236,23 +236,23 @@ Du kan godt eksperimentere med verdiane i klossen.
 
   ```blocks
   når jeg starter som klon
-  hvis <(er generator) = [ja]>
-      sett [er generator v] til [nei]
-  ellers
+  viss <(er generator) = [ja]>
+      set [er generator v] til [nei]
+  elles
   slutt
   ```
 
-- [ ] Flytt generator-løkka du la til sides inn i `hvis`{.blockcontrol}-testen
-  rett under `sett er generator`{.blockdata}-klossen.
+- [ ] Flytt generator-løkka du la til sides inn i `viss`{.blockcontrol}-testen
+  rett under `set er generator`{.blockdata}-klossen.
 
 - [ ] Tilsvarande legg du flytt-løkka frå tidlegare inn i
-  `ellers`{.blockcontrol}-testen.
+  `elles`{.blockcontrol}-testen.
 
 Prøv spelet ditt. No skal du ha tre rader med boksar som blir flytta over
 skjermen.
 
 - [ ] Klikk på `Scene` heilt til venstre på skjermen. Gå til
-  `Bakgrunner`{.blocklightgrey}. Teikne to nye strekar i same farge som den
+  `Bakgrunnar`{.blocklightgrey}. Teikne to nye strekar i same farge som den
   fyrste. Test spelet og flytt strekane slik at boksane flyttar seg naturleg
   oppå dei.
 
@@ -279,7 +279,7 @@ __Klikk på det grøne flagget.__
 
   Endre y-posisjonen i `gå til`{.blockmotion}-klossen med 110.
 
-  Endre `m` til `k` i `tast trykket`{.blocksensing}-testen.
+  Endre `m` til `k` i `tast trykt`{.blocksensing}-testen.
 
 Prøv spelet ditt att. Har du to hoppeheltar? Virkar dei som dei skal?
 
