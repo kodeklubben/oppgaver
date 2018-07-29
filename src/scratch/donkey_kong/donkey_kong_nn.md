@@ -57,9 +57,9 @@ og særskilt korleis me får den til å hoppe og falle på ein truverdig måte.
   køyrer i det du startar spelet, til dømes:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (40) %
-  begrens rotasjon [vend sideveis v]
+  når @greenFlag vert trykt på
+  set storleik til (40) %
+  bruk roteringstypen [vend sidevegs v]
   ```
 
   Me har lagt til ein kloss som passar på at Jumpman berre snur seg mot
@@ -72,38 +72,38 @@ og særskilt korleis me får den til å hoppe og falle på ein truverdig måte.
 - [ ] I hovudløkka som styrer Jumpman vil me fyrst endre på
   `fart`{.blockdata}-variablane, og så flytte sjølve figuren basert på dei.
 
-  Viss ingenting påverkar figuren vår vill me at `(fartX)`{.b} skal
+  Viss ingenting påverkar figuren vår vil me at `(fartX)`{.b} skal
   gå mot 0 (bremsar farta), medan me vil at `(fartY)`{.b} skal bli eit
   stadig større negativt tal (figuren fell). Men om figuren står på plattforma
   skal `(fartY)`{.b} vere 0 (figuren står i ro). Dette kan me kode slik:
 
   ```blocks
-  når jeg mottar [nytt spill v]
+  når eg får meldinga [Nytt spel v]
   gå til x: (-150) y: (-100)
-  for alltid  // hovedløkken
-      sett [fartX v] til ((0.8) * (fartX))  // farten bremses
-      endre [fartY v] med (-0.5)  // gravitasjon, figuren faller
-      hvis <berører fargen [#0000ff]>  // figuren står på plattformen
-          sett [fartY v] til [0]
+  for alltid  // hovudløkka
+      set [fartX v] til ((0.8) * (fartX))  // farta bremsast
+      endra [fartY v] med (-0.5)  // gravitasjon, figuren fell
+      viss <rører fargen [#0000ff]>  // figuren står på plattforma
+          set [fartY v] til [0]
       slutt
-      endre x med (fartX)  // flytt selve figuren
-      endre y med (fartY)
+      endra x med (fartX)  // flytt sjølve figuren
+      endra y med (fartY)
   slutt
   ```
 
 - [ ] Om du prøver spelet ditt så langt (hugs å leggje til eit skript på
-  bakgrunnen som sender ei `nytt spill`-melding når du klikkar på det grøne
+  bakgrunnen som sender ei `Nytt spel`-melding når du klikkar på det grøne
   flagget), vil du sjå at figuren din fell ned til plattforma. Men du kan
   ikkje kontrollere den.
 
-- [ ] For å styre Jumpman legger me fleire `hvis`{.blockcontrol}-testar
+- [ ] For å styre Jumpman legger me fleire `viss`{.blockcontrol}-testar
   inn i hovudløkka. Til dømes kan du få figuren til å gå mot venstre ved å
-  leggje til dette rett før `endre x med (fartX)`{.b}:
+  leggje til dette rett før `endra x med (fartX)`{.b}:
 
   ```blocks
-  hvis <tast [pil venstre v] trykket?>
-      pek i retning (-90 v)
-      sett [fartX v] til [-5]
+  viss <tasten [pil venstre v] er trykt?>
+      peik i retning (-90 v)
+      set [fartX v] til [-5]
       neste drakt
   slutt
   ```
@@ -117,26 +117,26 @@ og særskilt korleis me får den til å hoppe og falle på ein truverdig måte.
   plattforma:
 
   ```blocks
-  hvis <berører fargen [#0000ff]>  // gammel kode: figuren står på plattformen
-      sett [fartY v] til [0]
-      hvis <tast [pil opp v] trykket?>  // ny kode: figuren hopper
-          sett [fartY v] til [5]
+  viss <rører fargen [#0000ff]>  // gamal kode: figuren står på plattforma
+      set [fartY v] til [0]
+      viss <tasten [pil opp v] er trykt?>  // ny kode: figuren hoppar
+          set [fartY v] til [5]
       slutt
   slutt
   ```
 
 No har me eit godt utgangspunkt for eit plattformspel. Me har ein figur som
 me kan styre rundt og som kan hoppe når me vil det. Leik litt med Jumpman
-og tala me har brukt i `sett [fartX v] til []`{.b}- og
-`sett [fartY v] til []`{.b}-klossane slik at du får ei rørsle du synest
+og tala me har brukt i `set [fartX v] til []`{.b}- og
+`set [fartY v] til []`{.b}-klossane slik at du får ei rørsle du synest
 verkar naturleg.
 
 - [ ] Har du oppdaga at av og til fell Jumpman _gjennom_ plattforma? Viss ikkje
   kan du prøve å sleppe han frå toppen av skjermen. Denne testen fiksar det:
 
   ```blocks
-  hvis <berører fargen [#009900]>
-      endre y med (2)
+  viss <rører fargen [#009900]>
+      endra y med (2)
   slutt
   ```
 
@@ -169,16 +169,16 @@ fordi det gjer det lett å flytte plattformane rundt etterpå.
   i testen på Jumpman:
 
   ```blocks
-  hvis <berører fargen [#ff0000]?>
-      sett [fartY v] til [0]
-      hvis <tast [pil opp v] trykket?>
-          endre y med (3)
+  viss <rører fargen [#ff0000]?>
+      set [fartY v] til [0]
+      viss <tasten [pil opp v] er trykt?>
+          endra y med (3)
       slutt
   slutt
   ```
 
   Med denne koden kan me klatre opp stigen. Korleis kjem me oss ned att? Kan
-  du leggje til en `hvis <tast [pil ned v] trykket?>`{.b}-test til slik at me
+  du leggje til en `viss <tasten [pil ned v] er trykt?>`{.b}-test til slik at me
   kan klatre ned stigen att?
 
 - [ ] Teikn fleire plattformer og stigar. Test undervegs at det er mogleg for
@@ -205,13 +205,13 @@ rullande ildkuler mot oss.*
   lage denne koden snart.
 
 - [ ] Lag ein ny `Ildkule`-figur. Det kan vere ein sirkel du fargar oransje,
-  eller du kan teikne noko meir avansert. La figuren `skjules`{.blocklooks}
+  eller du kan teikne noko meir avansert. La figuren `gøymast`{.blocklooks}
   når du klikkar på det grøne flagget.
 
 - [ ] No skal me skrive koden på Donkey Kong. Den blir ganske enkel. Etter
-  at `Donkey Kong` mottek `nytt spill` kan du la han gå inn i ei `for
-  alltid`{.blockcontrol}-løkke der han `lager klon av
-  Ildkule`{.blockcontrol} og så `venter 3 sekunder`{.blockcontrol}.
+  at `Donkey Kong` mottek `Nytt spel` kan du la han gå inn i ei `for
+  alltid`{.blockcontrol}-løkke der han `lagar klon av
+  Ildkule`{.blockcontrol} og så `ventar 3 sekund`{.blockcontrol}.
 
 - [ ] No må me programmere korleis ildkulene skal oppføre seg. Me vil halde
   styr på korleis dei beveger seg ved hjelp av `(fartX)`{.b} og `(fartY)`{.b}
@@ -222,10 +222,10 @@ rullande ildkuler mot oss.*
   den. Dette gjer me ved å setje `fart`{.blockdata}-variablane, til dømes slik:
 
   ```blocks
-  når jeg starter som klon
+  når eg startar som klon
   gå til [Donkey Kong v]
-  sett [fartX v] til [3]
-  sett [fartY v] til (tilfeldig tall fra (0) til (5))
+  set [fartX v] til [3]
+  set [fartY v] til (tilfeldig tal frå (0) til (5))
   vis
   ```
 
@@ -233,20 +233,20 @@ rullande ildkuler mot oss.*
   på omlag same måte som for Jumpman.
 
   Legg ein `gjenta til <(y-posisjon) < [-170]>`{.b}-kloss nedst i
-  `når jeg starter som klon`{.b}-skriptet, og fyll den med kode som let
+  `når eg startar som klon`{.b}-skriptet, og fyll den med kode som let
   kula falle, merkar at ildkula ligger på plattforma, og flyttar sjølve figuren.
 
-- [ ] Legg til kode som gjer at ildkulene snur, `sett [fartX v] til
-  ((-1) * (fartX))`{.b}, når dei `berører kant`{.blocksensing}, og kode
-  som sender ei melding, `fanget Jumpman`, når dei `berører
+- [ ] Legg til kode som gjer at ildkulene snur, `set [fartX v] til
+  ((-1) * (fartX))`{.b}, når dei `rører kant`{.blocksensing}, og kode
+  som sender ei melding, `fanga Jumpman`, når dei `rører
   Jumpman`{.blocksensing}.
 
-- [ ] Lag kode på Jumpman som mottek `fanget Jumpman`, og som kanskje
-  `spiller en lyd`{.blocksound}.
+- [ ] Lag kode på Jumpman som mottek `fanga Jumpman`, og som kanskje
+  `speler ein lyd`{.blocksound}.
 
 - [ ] Til slutt kan du lage ein skatt Jumpman skal redde. Det blir ein ny figur
-  som skal stå i ro til den `berører Jumpman` og så sender ei melding
-  `fant skatten`. Skriv kode som svarar på denne meldinga på ein passande måte.
+  som skal stå i ro til den `rører Jumpman` og så sender ei melding
+  `fann skatten`. Skriv kode som svarar på denne meldinga på ein passande måte.
 
 # Steg 4: Vidareutvikling av spelet {.activity}
 
@@ -268,10 +268,9 @@ vidare, men nedanfor er nokre idear som kanskje er til inspirasjon.*
 
 - [ ] For å gi spelarane litt meir motivasjon kan du telle poeng og liv. Då
   treng du to nye variablar, `(poeng)`{.b} og `(liv)`{.b}. For å telle liv kan
-  du bruke `fanget Jumpman`-meldinga. Før du teller poeng må du tenke på kva
+  du bruke `fanga Jumpman`-meldinga. Før du teller poeng må du tenke på kva
   du vil at spelarane skal få poeng for.
 
 - [ ] Du kan leggje til ei tidsavgrensing om du vil gjere spelet meir
   utfordrande. Til det brukar du ein variabel `(tid)`{.b} som du
-  `endrer`{.blockdata} og så `venter 1 sekund`{.blockcontrol}.
-  
+  `endrar`{.blockdata} og så `ventar 1 sekund`{.blockcontrol}.
