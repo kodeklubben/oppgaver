@@ -3,7 +3,6 @@ title: 'Komme igang med App Inventor'
 level: 1
 author: 'Basert på MITs ["Getting Started"-guide](http://appinventor.mit.edu/explore/get-started.html)'
 translator: 'Tjerand Silde'
-license: '[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)'
 language: nb
 ---
 
@@ -26,8 +25,9 @@ med hvordan det fungerer.
 - [ ] Logg inn med en Google-konto, for eksempel en gmail-adresse. Dersom du
       lurer på om epost-adressen din er en Google-konto, [kan du sjekke det
       her](https://support.google.com/accounts/answer/40560?hl=no).
-      
-- [ ] Når du har logget inn vil App Inventor be om tillatelse til å åpne kontoen din.
+
+ - [ ] Når du har logget inn vil App Inventor be om tillatelse til å åpne kontoen
+      din.
 
 - [ ] Trykk **Tillat** for å gi App Inventor tilgang.
 
@@ -48,19 +48,23 @@ med hvordan det fungerer.
 # Steg 3: Bli kjent med menyene {.activity}
 
 #### Palette
+
 Til venstre har du en meny som heter **Palette**. Her finner du alle de ulike
 komponentene du kan bruke til å lage en app. Du vil se at det er 9 forskjellige
 kategorier som du kan trykke på for å få tilgang til komponentene.
 
 #### Viewer
+
 I midten har du en mobil-skjerm med navn **Viewer** som viser deg hvordan appen
 din ser ut til en hver tid.
 
 #### Components
+
 Den tredje menyen heter **Components**. I denne menyen kan du velge hvilken
 komponent du vil endre.
 
 #### Properties
+
 Til høyre har du en meny ved navn **Properties**. I denne menyen kan du gjøre
 endringer på komponentene, for eksempel kan du endre navnet dens og posisjonen
 dens på skjermen.
@@ -167,7 +171,8 @@ For å kunne teste appen må du gjøre følgende:
 
 ## Sjekkliste {.check}
 
-- [ ] Last ned *MIT AI2 Companion App* til telefonen din. Den finner du på Google Play.
+- [ ] Last ned *MIT AI2 Companion App* til telefonen din. Den finner du på
+      Google Play.
 
 - [ ] Koble telefonen din og datamaskinen din til det samme WIFI-nettverket.
 
@@ -240,8 +245,11 @@ skjer når du legger til ting samtidig som du er koblet til appen.
 + Dersom du trykker på "Screen1" under "Components", da kan du skifte
   "BackgroundColor" under "Properties". Hva skjer med appen din på telefonen
   eller i emulatoren din da?
+
 + Hva skjer om du skifter "Title"?
+
 + Hva skjer om du endrer på "AlignHorizontal"?
+
 + Hva skjer om du endrer "AlignVertical"?
 
 Nå er du klar for å programmere komponentene i appen vår. Det kan du gjøre på
@@ -254,7 +262,7 @@ følgende måte:
 - [ ] Trykk på "Button1" under "Blocks" i menyen til venstre. Da kommer en ny
   meny opp. Velg øverste blokk som heter "when Button1.Click - do", og dra den
   over i "Viewer".
-  
+
 - [ ] Trykk så på "TextToSpeech1" under "Blocks", og velg "call
       TextToSpeech1.Speak - message". Dra denne inn i blokken som allerede er
       der.
@@ -301,9 +309,12 @@ For å lære mer om App Inventor så kan det være lurt å sjekke ut følgende l
 
 - [ ] [App Inventor på
       Youtube](https://www.youtube.com/results?search_query=app+inventor).
+
 - [ ] [Veiledninger for å lage
       apps](http://appinventor.mit.edu/explore/ai2/tutorials.html).
+
 - [ ] [Sjekke ut hvordan alle blokkene
       fungerer](http://appinventor.mit.edu/explore/ai2/support/blocks.html).
+
 - [ ] [Sjekke ut App Inventor sitt
       bibliotek](http://appinventor.mit.edu/explore/library.html).

@@ -6,16 +6,23 @@ footer: "[Last ned alle kurs som zip-fil](https://github.com/kodeklubben/kodeklu
 language: nb
 ---
 
-# Kodeklubbens oppgaver
----
-Vi har nå lansert nye oppgavesider! Sjekk ut [oppgaver.kidsakoder.no/beta](http://oppgaver.kidsakoder.no/beta).
 
-I løpet av sommerferien 2018 vil dagens sider bli erstattet fullt og helt av de nye. På de nye sidene finner du blant annet:
+# Kodeklubbens oppgaver
+
+---
+Vi har nå lansert nye oppgavesider! Sjekk ut
+[oppgaver.kidsakoder.no/beta](http://oppgaver.kidsakoder.no/beta).
+
+I løpet av sommerferien 2018 vil dagens sider bli erstattet fullt og helt av de
+nye. På de nye sidene finner du blant annet:
 
 - filter med språk, tema, fag og klassetrinn
+
 - fremdriftslinje i oppgavene du jobber med
+
 - elev- og lærermodus
 
-Har du tilbakemeldinger til de nye sidene? [Gi oss en beskjed via vårt forum.](https://forum.kidsakoder.no/t/tilbakemeldinger-til-lkks-nye-oppgavesider/200){target=_blank}
+Har du tilbakemeldinger til de nye sidene? [Gi oss en beskjed via vårt
+forum.](https://forum.kidsakoder.no/t/tilbakemeldinger-til-lkks-nye-oppgavesider/200){target=_blank}
 
 ---

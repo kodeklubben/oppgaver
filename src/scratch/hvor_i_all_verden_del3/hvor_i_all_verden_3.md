@@ -102,6 +102,7 @@ tre ting: Stedsnavnet og de to koordinatene som sier hvor stedet ligger. En måt
   Pass på at de tre listene er samkjørte slik at det er verdier for samme
   reisemål som står for eksempel øverst i hver liste.
 
+
 # Steg 2: Velg et reisemål tilfeldig {.activity}
 
 *La oss begynne å bruke listene våre til å velge steder å reise til tilfeldig.*

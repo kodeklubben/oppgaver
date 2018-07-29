@@ -1,8 +1,10 @@
 ---
 title: Lærerveiledning - Snurrige figurer
+author: Stein Olav Romslo
 level: 2
 language: nb
 ---
+
 
 # Om oppgaven {.activity}
 
@@ -19,7 +21,6 @@ __Trinn__: 3-7. trinn
 __Tema__: Rotasjon
 
 __Tidsbruk__: Enkelttime
-
 
 ## Kompetansemål {.challenge}
 

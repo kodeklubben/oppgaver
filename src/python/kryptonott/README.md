@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Kryptonøtt
+author: Madeleine Lorås & Øistein Søvik
 level: 4
 language: nb
 ---
@@ -48,7 +49,7 @@ __Tidsbruk__: Dobbelttime eller mer
 
 - [ ] __Informasjonsteknologi 2, VG3__: teste og finne feil i programmer ved å
        bruke vanlige teknikker.
-       
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare og bruke andres kode i eget prosjekter.

@@ -1,10 +1,8 @@
 ---
 title: Skilpadder
 level: 1
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Bjørn Einar Bjartnes'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
@@ -36,8 +34,8 @@ Python-kommandoer.
   from turtle import *
 
   forward(100)
-
   ```
+
 - [ ] Lagre programmet ditt som myturtle.py og velg `Run -> Run Module`. Ser du
       hvordan skilpadden beveget seg 100 punkter fremover på skjermen?
       Skilpadden har en penn festet til seg, så den tegner linjer når den
@@ -69,7 +67,6 @@ Python-filer skal alltid ha filnavn som slutter med `.py`.
   backward(100)
   left(90)
   forward(50)
-
   ```
 
 ### Vinkler og grader
@@ -80,14 +77,14 @@ Lek deg litt med å lage dine egne figurer ved å bruke `forward`, `backward`,
 
 ```
         Nord
-          0
-          |
-Vest      |     Øst
- 270 -----|----- 90
-          |
-          |
-         180
-         Syd
+         0
+         |
+Vest     |     Øst
+270 -----|----- 90
+         |
+         |
+        180
+        Syd
 ```
 
 Når skilpadden ser nordover og du ber den snu seg 90 grader til høyre, ser den
@@ -120,10 +117,10 @@ alltid helt rundt.
 * `from turtle import *` forteller Python at vi vil bruke skilpadde-biblioteket
   (turtle), en samling av kode vi kan bruke for å tegne på skjermen. Å bruke et
   ferdig bibliotek gjør at vi kan spare tid og gjenbruke andres arbeid.
-  
+
 * `speed()` bestemmer farten til skilpadden. Vi må gi inn en verdi mellom 1 og
   11, der 11 er det raskeste og 1 er det treigeste.
-  
+
 * `shape()` Vi bruker formen(shape) "turtle" (skilpadde), men vi kan også si at
   vi vil at figuren skal se ut som "arrow" (pil), "circle" (sirkel), "square"
   (kvadrat), "triangle" (trekant) eller "classic" (klassisk).
@@ -135,7 +132,8 @@ formene, som pil, og få den til å gå så fort eller sakte som du vil.
 
 # Steg 2: Tegne figurer! {.activity}
 
-La oss lage et kvadrat ved å fortelle skilpadden hvordan den skal bevege seg rundt.
+La oss lage et kvadrat ved å fortelle skilpadden hvordan den skal bevege seg
+rundt.
 
 ## Sjekkliste {.check}
 
@@ -248,6 +246,7 @@ firkant har 4 sider.
       right(90)
 
   ```
+
 - [ ] Lagre programmet og velg: Run -> Run module.
 
   Legg merke til at koden er skjøvet inn, *indentert*, eller dyttet til høyre
@@ -318,6 +317,7 @@ grader i hvert hjørne, som også blir 360 grader.
 Hvis du snur seks ganger, hvor mange ganger må du snu for at det skal bli 360
 grader? Prøv med forskjellige tall og se hva som skjer.
 
+
 # Steg 4: Snu, snu, snu {.activity}
 
 Istedenfor å regne ut vinklene, kan vi ikke heller få datamaskinen til å gjøre
@@ -348,6 +348,7 @@ multiplikasjon bruker Python `*`, og for divisjon skriver vi `/`. Hvis vi må sn
 
 - [ ] Nå kan du endre antall sider, klarer Python å gjøre jobben riktig? Prøv
 med så mange kanter du vil!
+
 
 # Steg 5: Fylte figurer {.activity}
 
@@ -427,4 +428,3 @@ Du kan `forward()`, `backward()`, `left()`, `right()`, du kan gjenta ting med
 
 Kan du tegne et hus, en fugl? En slange? En katt? En hund? En løve? Du kan
 kombinere figurer og se hva du kan lage. Kan du tegne en robot?
-
