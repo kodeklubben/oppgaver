@@ -139,7 +139,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 # Løsning {.challenge}
 
-[Her er en full løsning av oppgaven.](løsning.js)
+[Her er en full løsning av oppgaven.](losning.js)
 
 ## Fremgangsmåte
 
