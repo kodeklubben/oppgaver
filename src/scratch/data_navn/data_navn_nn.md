@@ -74,7 +74,7 @@ i Noreg som får kva namn, både i dag og tidlegare.*
   Dei blir programmert ved hjelp av klossar som ligg i `Data`{.blockdata}-
   kategorien. På same måte som for variablar kan du ta bort listene frå
   scena ved å fjerne avhukinga, høgreklikke på den eller bruke klossen
-  `gøym liste [ v]`{.b}.
+  `gøym lista [ v]`{.b}.
 
 ## Data i Scratch {.tip}
 
