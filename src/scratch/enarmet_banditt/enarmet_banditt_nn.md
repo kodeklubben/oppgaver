@@ -44,10 +44,10 @@ figurane stoppar ein etter ein, og målet er at alle skal vere like.
 - [ ] Legg til dette skriptet:
 
   ```blocks
-  Når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
       neste drakt
-      vent (0.5) sekunder
+      vent (0.5) sekund
   slutt
   ```
 
@@ -77,42 +77,42 @@ vere ei praktisk løysing.
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på `Data`{.blockdata} og `Lag en variabel`. Kall variabelen
-  `stoppet`{.blockdata} og vel at den skal gjelde for `For denne figuren`. Fjern
+- [ ] Klikk på `Data`{.blockdata} og `Lag ein variabel`. Kall variabelen
+  `stoppa`{.blockdata} og vel at den skal gjelde for `For denne figuren`. Fjern
   avhukinga framfor variabelen slik at den ikkje er synleg på scena.
 
 - [ ] På starten av spelet er ikkje figuren klikka på, så då set me variabelen
   til `0`.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [stoppet v] til [0]
+  når @greenFlag vert trykt på
+  set [stoppa v] til [0]
   for alltid
       neste drakt
-      vent (0.5) sekunder
+      vent (0.5) sekund
   slutt
   ```
 
-- [ ] No vil me at verdien til variabelen `stoppet`{.blockdata} blir endra til
+- [ ] No vil me at verdien til variabelen `stoppa`{.blockdata} blir endra til
   `1` når nokon klikkar på figuren.
 
   ```blocks
-  når denne figuren klikkes
-  sett [stoppet v] til [1]
+  når denne figuren vert trykt på
+  set [stoppa v] til [1]
   ```
 
 - [ ] Til slutt må me få figuren til å slutte å forandre drakt når variabelen
-  `stoppet`{.blockdata} blir `1`. Legg til ei `hvis`{.blockcontrol}-løkke og
+  `stoppa`{.blockdata} blir `1`. Legg til ei `viss`{.blockcontrol}-løkke og
   bruk ein `_ = _`{.blockoperators}-operator-kloss for å sjekke om
-  `stoppet`{.blockdata} framleis er `0`.
+  `stoppa`{.blockdata} framleis er `0`.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [stoppet v] til [0]
+  når @greenFlag vert trykt på
+  set [stoppa v] til [0]
   for alltid
-      hvis <(stoppet) = [0]>
+      viss <(stoppa) = [0]>
           neste drakt
-          vent (0.5) sekunder
+          vent (0.5) sekund
       slutt
   slutt
   ```
@@ -169,20 +169,20 @@ blir meir morosamt (og vanskelegare) viss dei endrar drakt meir tilfeldig.
   namnet eller nummeret til drakta.
 
 - [ ] For å få figuren til å starte med ei tilfeldig drakt legg me til ein
-  `bytt drakt til`{.blocklooks}-kloss med `tilfeldig tall fra 1 til
+  `byt drakt til`{.blocklooks}-kloss med `tilfeldig tal frå 1 til
   3`{.blockoperators}. Den vel eit tilfeldig draktnummer.
 
 - [ ] Me kan bruke den same klossen i `for alltid`{.blockcontrol}-løkka slik at
   figuren byttar til ei tilfeldig drakt kvar gong.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [stoppet v] til [0]
-  bytt drakt til (tilfeldig tall fra (1) til (3))
+  når @greenFlag vert trykt på
+  set [stoppa v] til [0]
+  byt drakt til (tilfeldig tal frå (1) til (3))
   for alltid
-      hvis <(stoppet) = [0]>
-          bytt drakt til (tilfeldig tall fra (1) til (3))
-          vent (0.5) sekunder
+      viss <(stoppa) = [0]>
+          byt drakt til (tilfeldig tal frå (1) til (3))
+          vent (0.5) sekund
       slutt
   slutt
   ```
@@ -201,7 +201,9 @@ __Klikk på det grøne flagget.__
 
  __Gjer spelet vanskelegare!__
 
-Prøv å endre vanskegraden på eitt eller anna vis. Det er enkelt å få draktene til å rullere raskare, så prøv om du kan vere meir kreativ. Nokre moglegheiter er:
+Prøv å endre vanskegraden på eitt eller anna vis. Det er enkelt å få draktene
+til å rullere raskare, så prøv om du kan vere meir kreativ. Nokre moglegheiter
+er:
 
 - [ ] Endre kor mange drakter kvar figur har.
 
@@ -235,17 +237,17 @@ Fyrst hentar me inn ein ny bakgrunn som skal visast når spelet er over.
   `Spel`-bakgrunnen når spelet startar.
 
 - [ ] Korleis sjekkar me om alle figurane har stoppa? Hugs at me brukte
-  `stoppet`{.blockdata}-variablane for å sjekke om figurane var blitt klikka på.
-  La oss sjekke `stoppet`{.blockdata}-variabelen for `Figur3` for å sjå om den
+  `stoppa`{.blockdata}-variablane for å sjekke om figurane var blitt klikka på.
+  La oss sjekke `stoppa`{.blockdata}-variabelen for `Figur3` for å sjå om den
   har blitt klikka på. For å gjere det brukar me ein `x-posisjon av
   Figur3`{.blocksensing}-kloss frå `Sansning`{.blocksensing}, men me byttar ut
-  `x-posisjon` med `stoppet`.
+  `x-posisjon` med `stoppa`.
 
   ```blocks
-  når grønt flagg klikkes
-  bytt bakgrunn til [Spel v]
-  vent til <([stoppet v] av [Figur3 v])  = [1]>
-  bytt bakgrunn til [Slutt v]
+  når @greenFlag vert trykt på
+  byt bakgrunn til [Spel v]
+  vent til <([stoppa v] av [Figur3 v])  = [1]>
+  byt bakgrunn til [Slutt v]
   ```
 
 ## Test prosjektet {.flag}
@@ -262,18 +264,18 @@ stoppar figurane i.
 
 ## Sjekkliste {.check}
 
-- [ ] For å sjekke om __alle tre__ figurane sine `stoppet`{.blockdata}-variablar
+- [ ] For å sjekke om __alle tre__ figurane sine `stoppa`{.blockdata}-variablar
   er `1` kan me bruke `og`{.blockoperators}-operatoren. Dette er ein kloss som
   kan vere litt trøblete å lage, så gjer eitt og eitt steg. Legg merke til at me
   set saman to `og`{.blockoperators}-klossar, tre
   `_ =_`{.blockoperators}-operatorar og tre
-  `stoppet av Figur`{.blocksensing}-klossar.
+  `stoppa av Figur`{.blocksensing}-klossar.
 
   ```blocks
-  når grønt flagg klikkes
-  bytt bakgrunn til [Spel v]
-  vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
-  bytt bakgrunn til [Slutt v]
+  når @greenFlag vert trykt på
+  byt bakgrunn til [Spel v]
+  vent til < < <([stoppa v] av [Figur1 v]) = [1]> og <([stoppa v] av [Figur2 v]) = [1]> > og <([stoppa v] av [Figur3 v]) = [1]> >
+  byt bakgrunn til [Slutt v]
   ```
 
 ## Test prosjektet {.flag}
@@ -304,20 +306,20 @@ spelaren vann.
 
 No treng me kode for å velje kva bakgrunn me skal vise når spelet er slutt.
 
-- [ ] Me kan bruke ein `hvis ellers`{.blockcontrol}-kloss for å sjekke om
+- [ ] Me kan bruke ein `viss ellers`{.blockcontrol}-kloss for å sjekke om
   brukaren har vunne eller tapt ved å samanlikne `drakt nr.` (drakt nummer). Me
   brukar ein kloss som liknar på `x-posisjon av Figur`{.blocksensing}-klossen me
   brukte tidlegare. Denne gongen skal me sjekke `drakt nr.` og sjå om `Figur1`
   har same drakt som `Figur2` og om `Figur2` har same drakt som `Figur3`.
 
   ```blocks
-  når grønt flagg klikkes
-  bytt bakgrunn til [Spill v]
-  vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
-  hvis <<([drakt nr. v]  av [Figur1 v]) = ([drakt nr. v]  av [Figur2 v])> og <([drakt nr. v]  av [Figur2 v]) = ([drakt nr. v] av [Figur3 v])>>
-      bytt bakgrunn til [Vinnar v]
+  når @greenFlag vert trykt på
+  byt bakgrunn til [Spel v]
+  vent til < < <([stoppa v] av [Figur1 v]) = [1]> og <([stoppa v] av [Figur2 v]) = [1]> > og <([stoppa v] av [Figur3 v]) = [1]> >
+  viss <<([drakt nr. v]  av [Figur1 v]) = ([drakt nr. v]  av [Figur2 v])> og <([drakt nr. v]  av [Figur2 v]) = ([drakt nr. v] av [Figur3 v])>>
+      byt bakgrunn til [Vinnar v]
   ellers
-      bytt bakgrunn til [Tapar v]
+      byt bakgrunn til [Tapar v]
   slutt
   ```
 
@@ -337,7 +339,11 @@ gjere. Prøv deg på desse utfordringane.
 Det er ikkje alle som er like flinke til å spele. Korleis kan du la vanskegraden
 __avhenge av spelaren__?
 
-Ein måte å gjere det på er å __endre hastigheita draktane blir endra med__. Du kan bruke ein variabel du kallar `forsinkelse`{.blockdata} for å gi ei ventetid til kvar figur. Viss spelaren vinn kan forseinkinga bli redusert litt (slik at spelet går raskare og blir vanskelegare), og viss spelaren tapar runden kan forseinkinga auke for å gjere spelet lettare.
+Ein måte å gjere det på er å __endre hastigheita draktane blir endra med__. Du
+kan bruke ein variabel du kallar `forsinkelse`{.blockdata} for å gi ei ventetid
+til kvar figur. Viss spelaren vinn kan forseinkinga bli redusert litt (slik at
+spelet går raskare og blir vanskelegare), og viss spelaren tapar runden kan
+forseinkinga auke for å gjere spelet lettare.
 
 Du må vurdere om du kan lage ein annan måte å starte spelet på enn med `når
 grønt flagg klikkes`{.blockgrey}. Så kan du lagre verdiane i variablar som blir
