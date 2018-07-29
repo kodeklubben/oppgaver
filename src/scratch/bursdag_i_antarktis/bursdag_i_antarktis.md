@@ -182,6 +182,7 @@ __Klikk på det grønne flagget.__
   som sier at bakgrunnen skal endre seg og katten skal flytte til midten av
   skjermen. Skjer dette?
 
+
 # Steg 3: Felix introduserer seg selv {.activity}
 
 *Før Felix vandrer i vei synes vi at han burde introdusere seg selv!*
@@ -269,6 +270,7 @@ __Klikk på det grønne flagget.__
 __Klikk på det grønne flagget.__
 
 - [ ] Venter Felix med å gå til du har svart på spørsmålet hans?
+
 
 # Steg 4: Gå opp mot husene {.activity}
 
@@ -467,6 +469,7 @@ __Klikk på det grønne flagget.__
 - [ ] Kommer pingvinene ut av huset som forventet?
 
 - [ ] Hva tror du skjer med navnet du skrev inn?
+
 
 # Steg 6: Pingvinene danser {.activity}
 

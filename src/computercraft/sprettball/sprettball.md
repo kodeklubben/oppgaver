@@ -5,6 +5,7 @@ author: 'Geir Arne Hjelle'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Nå skal vi lære hvordan vi kan koble en skjerm til datamaskinen. Med
@@ -13,6 +14,7 @@ verden rundt oss. Kanskje Minecraft-verden blir fyllt med store
 reklamebannere?
 
 ![Bilde av en datamaskin og et display med en sprettball på](sprettball.png)
+
 
 # Steg 1: Koble en skjerm til datamaskinen {.activity}
 
@@ -91,6 +93,7 @@ og som ble laget av Tony Monroe på slutten av 1990-tallet. En
 web-variant av programmet finnes nå på
 [http://cowsay.morecode.org/](http://cowsay.morecode.org/).
 
+
 # Steg 2: En annen metode {.activity}
 
 I stedet for at vi bruker `monitor`-programmet for å skrive til
@@ -140,6 +143,7 @@ et tillegg til datamaskinen).
   `monitor right clear` innimellom for å tømme skjermen. Prøv også å
   koble fra (ødelegge) skjermen. Får du melding om at ingen skjerm
   er koblet til når du prøver å kjøre programmet ditt?
+
 
 # Steg 3: En ball faller over skjermen {.activity}
 
@@ -212,6 +216,7 @@ Vi skal nå begynne på en enkel animasjon som vi kan kjøre på skjermen.
   end
   ```
 
+
 # Steg 4: Hvor stor er skjermen {.activity}
 
 En liten utfordring med skjermer er at de kan ha forskjellig
@@ -243,6 +248,7 @@ kan vi løse ved å bruke funksjonen `getSize`.
 
 - [ ] Klarer du å sentrere ballen, slik at den faller nedover midt på
   skjermen uansett hvor stor skjermen er? Prøv selv!
+
 
 # Steg 5: Sprettball {.activity}
 
@@ -346,6 +352,7 @@ ballen flytter på seg.
   Vi endret også litt i sjekken om `Y` er slik at ballen skal
   sprette, siden gravitasjonen gjør at vi ikke trenger å sprette i
   taket lengre.
+
 
 # Steg 6: Reklamebanner {.activity}
 
@@ -478,6 +485,7 @@ få teksten til å bli skrevet i ny og riktig størrelse når skjermen
 blir endret. Du kan bruke `os.pullEvent` til å lytte på hendelser som
 heter `monitor_resize` og skrive teksten på nytt når disse skjer.
 
+
 # Steg 7: En skikkelig ticker! {.activity}
 
 Dessverre er det en begrensning på hvor stor en skjerm kan være. Du
@@ -487,6 +495,7 @@ stor og godt synlig tekst.
 
 Et alternativ for lengre tekster er å bruke en ticker, hvor vi
 animerer teksten slik at den ruller over skjermen.
+
 
 # Sjekkliste {.check}
 
