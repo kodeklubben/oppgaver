@@ -29,9 +29,9 @@ før eller seinare. Dette gjer me med ein ny figur som me kallar `bakken`.
   Me startar med å gi den det følgande skriptet:
 
   ```blocks
-  når jeg mottar [Nytt spill v]
+  når eg får meldinga [Nytt spel v]
   gå til x: (0) y: (-300)
-  sett størrelse til (200) %
+  set storleik til (200) %
   ```
 
   No bør bakken liggje nedst i scena når spelet startar. Viss ikkje bør du
@@ -45,23 +45,23 @@ før eller seinare. Dette gjer me med ein ny figur som me kallar `bakken`.
 
   ```blocks
   for alltid
-      sett y til ((20) - (y))
-      hvis <berører [Flakse v]>
-          si [du tapte!] i (2) sekunder
+      set y til ((20) - (y))
+      viss <rører [Flakse v]>
+          sei [du tapte!] i (2) sekund
           stopp [alle v] :: control
       slutt
   slutt
   ```
 
 - [ ] Til slutt vil me helst at bakken skal forsvinne heilt når Flakse flyg
-  veldig høgt. Det kan me gjere med `skjul`{.blocklooks}- og
+  veldig høgt. Det kan me gjere med `gøym`{.blocklooks}- og
   `vis`{.blocklooks}-kommandoane:
 
   ```blocks
-  hvis <(y) < [150]>
+  viss <(y) < [150]>
       vis
-  ellers
-      skjul
+  elles
+      gøym
   slutt
   ```
 
@@ -82,9 +82,9 @@ figuren, slik at den flaksar med vengjene når me trykkar mellomromtasten.
   blir trykka, og erstatte dei med
 
   ```blocks
-  hvis <tast [mellomrom v] trykket?>
+  viss <tasten [mellomrom v] er trykt?>
       endre [flaks v] med (1)
-      vent (0.01) sekunder
+      vent (0.01) sekund
   slutt
   ```
 
@@ -96,14 +96,14 @@ figuren, slik at den flaksar med vengjene når me trykkar mellomromtasten.
   for denne figuren. Variabelen skal fortelje oss kor fort Flakse skal flyttast
   opp eller ned.
 
-- [ ] Legg inn ein `sett løft til 0`{.blockdata}-kloss ein stad før spelet
+- [ ] Legg inn ein `set løft til 0`{.blockdata}-kloss ein stad før spelet
   startar.
 
 - [ ] Set inn desse klossane fyrst i hovudløkka til Flakse:
 
   ```blocks
   endre [y v] med (løft)
-  hvis <(løft) > [-5]>
+  viss <(løft) > [-5]>
       endre [løft v] med (-0.5)
   slutt
   ```
@@ -111,14 +111,14 @@ figuren, slik at den flaksar med vengjene når me trykkar mellomromtasten.
 - [ ] Til slutt lagar me eit nytt skript hjå Flakse:
 
   ```blocks
-  når jeg mottar [Nytt spill v]
+  når eg får meldinga [Nytt spel v]
   for alltid
       gjenta til <(flaks) = [0]>
           endre [flaks v] med (-1)
-          hvis <(løft) < [5]>
+          viss <(løft) < [5]>
               endre [løft v] med (2)
           slutt
-          hvis <(løft) < [0]>
+          viss <(løft) < [0]>
               sett [løft v] til [0]
           slutt
       slutt
@@ -139,7 +139,7 @@ Me må endre litt på hovudskriptet til Flakse.
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til klossane `pek i retning 135`{.blockmotion} og `pek i
+- [ ] Legg til klossane `peik i retning 135`{.blockmotion} og `peik i
   retning 45`{.blockmotion} i testane som sjekkar om høvesvis høgre og venstre
   piltast blir trykka. Prøv spelet og sjekk om figuren peiker i riktig retning.
 
@@ -148,11 +148,11 @@ Me må endre litt på hovudskriptet til Flakse.
   leggje til nokre klossar under testane som sjekkar om piltastane blir trykka.
 
   ```blocks
-  hvis <(retning) < [90]>
-      vend høyre (1) grader
+  viss <(retning) < [90]>
+      snu @turnRight (1) grader
   slutt
-  hvis <(retning) > [90]>
-      vend venstre (1) grader
+  viss <(retning) > [90]>
+      snu @turnLeft (1) grader
   slutt
   ```
 
@@ -162,7 +162,7 @@ Me må endre litt på hovudskriptet til Flakse.
 # Steg 4: Sjekk om Flakse treff ringane {.activity}
 
 No vil me gi Flakse poeng kvar gong han flyg gjennom ein ring, og tape om han
-treff ein ring. Denne oppførselen må me kode i `når jeg starter som
+treff ein ring. Denne oppførselen må me kode i `når eg startar som
 klon`{.blockcontrol}-skriptet til ring-figuren.
 
 ## Sjekkliste {.check}
@@ -173,8 +173,8 @@ klon`{.blockcontrol}-skriptet til ring-figuren.
   faktisk er nære. Du må leggje til denne klossen i skriptet til ring-klonane.
 
   ```blocks
-  hvis <<berører [Flakse v]> og <(distanse) < [1.2]>>
-      si [du tapte!] i (1) sekunder
+  viss <<rører [Flakse v]> og <(distanse) < [1.2]>>
+      sei [du tapte!] i (1) sekund
       stopp [alle v] :: control
   slutt
   ```
@@ -191,15 +191,15 @@ klon`{.blockcontrol}-skriptet til ring-figuren.
   gjer før dei blir sletta er å sjekke om Flakse er inni.
 
   ```blocks
-  hvis < <(x) < ((ringX) + (160))> og <(x) > ((ringX) - (160))> >
-      hvis < <(y) < ((ringY) + (160))> og <(y) > ((ringY) - (160))> >
+  viss < <(x) < ((ringX) + (160))> og <(x) > ((ringX) - (160))> >
+      viss < <(y) < ((ringY) + (160))> og <(y) > ((ringY) - (160))> >
           endre [poeng v] med (1)
       slutt
   slutt
   ```
 
   Fungerer skriptet som det skal? Kva er det eigentleg me sjekkar i den siste
-  `hvis`{.blockcontrol}-testen?
+  `viss`{.blockcontrol}-testen?
 
 No er me ferdige med det viktigaste i spelet. Men det er framleis mykje
 spanande du kan prøve!
