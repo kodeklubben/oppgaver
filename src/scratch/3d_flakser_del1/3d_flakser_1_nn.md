@@ -1,5 +1,5 @@
 ---
-title: '3D-Flaksar, Del 1'
+title: '3D-flaksar, del 1'
 level: 4
 author: 'Gudbrand Tandberg og Geir Arne Hjelle'
 translator: 'Gro Anette Vestre'
