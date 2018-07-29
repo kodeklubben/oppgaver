@@ -57,17 +57,17 @@ ikkje flytte på. Difor må me "jukse litt" og la bakgrunnen vere ein figur.*
   med følgande kode:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   flytt bakover (50) lag
   ```
 
 - [ ] Me vil gjere figuren så stor som mogleg. Diverre har Scratch ei øvre
   grense for kor store figurar kan vere. Du kan sjå det om du fyrst kryssar av
-  for at `størrelse`{.blocklooks} skal visast på kart-figuren. Så kan du endre
+  for at `storleik`{.blocklooks} skal visast på kart-figuren. Så kan du endre
   storleiken med
 
   ```blocks
-  sett størrelse til (9999) %
+  set storleik til (9999) %
   ```
 
   No kan du sjå at storleiken ikkje blir sett til `9999`, men til eit mindre
@@ -119,14 +119,14 @@ helikopteret, staden og bakgrunnen.
   at helikopteret skal
 
   ```blocks
-  gå (hastighet) steg
+  gå (hastigheit) steg
   ```
 
   vil me at `X`{.blockdata} eller `Y`{.blockdata} skal endrast med
-  `hastighet`{.blockdata} eller med
+  `hastigheit`{.blockdata} eller med
 
   ```blocks
-  ((0) - (hastighet))
+  ((0) - (hastigheit))
   ```
 
   Oppdater alle fire viss-løkkene på helikopteret.
@@ -155,7 +155,7 @@ kartet flytte seg nedover viss me vil at helikopteret skal fly oppover.
 - [ ] Legg til denne koden på kartet:
 
   ```blocks
-  når jeg mottar [Nytt spel v]
+  når eg får meldinga [Nytt spel v]
   vis
   for alltid
       gå til x: ((0) - (X)) y: ((0) - (Y))
@@ -177,7 +177,7 @@ __Klikk på det grøne flagget.__
 ## Utfordring {.challenge}
 
 Korleis kan du avgrense kor helikopteret flyr? Kan du leggje på kode slik at
-helikopteret ikke kan flyge ut av kartet?
+helikopteret ikkje kan flyge ut av kartet?
 
 
 # Steg 4: La staden følgje med {.activity}
@@ -190,7 +190,7 @@ helikopteret ikke kan flyge ut av kartet?
   endrar me usynlegheita til stad-figuren. Til dømes kan du setje
 
   ```blocks
-  sett [gjennomsiktig v] effekt til (50)
+  set [gjennomsiktig v]-effekt til (50)
   ```
 
 - [ ] For at det skal sjå ut som om staden ligg i ro på kartet må stad-figuren
@@ -198,7 +198,7 @@ helikopteret ikke kan flyge ut av kartet?
   staden skal liggje i forhold til kartet. Lag to variablar som heiter `stadX`
   og `stadY`. Begge desse skal berre gjelde for stad-figuren.
 
-- [ ] Bytt ut
+- [ ] Byt ut
 
   ```blocks
   gå til x: (-98) y: (-120)
@@ -207,14 +207,14 @@ helikopteret ikke kan flyge ut av kartet?
   med kode som set variablane i staden:
 
   ```blocks
-  sett [stadX v] til [-98]
-  sett [stadY v] til [-120]
+  set [stadX v] til [-98]
+  set [stadY v] til [-120]
   ```
 
 - [ ] Me kan lage ei heilt ny blokk som flyttar staden rundt på skjermen.
 
   ```blocks
-  når jeg mottar [Nytt spel v]
+  når eg får meldinga [Nytt spel v]
   for alltid
       gå til x: ((stadX) - (X)) y: ((stadY) - (Y))
   slutt
@@ -265,29 +265,29 @@ tilsvarar det å lage eigne klossar.
 
   ```blocks
   definer Reis til (stad) (x) (y)
-  sett [gjennomsiktig v] effekt til (100)
-  sett [stadX v] til (x)
-  sett [stadY v] til (y)
-  sett [Reis til v] til (stad)
-  vent til <berører [Helikopter v]?>
-  sett [gjennomsiktig v] effekt til (0)
-  si (sett sammen [Fant ] (stad))
-  gjenta (5) ganger
-      gjenta (10) ganger
-          endre størrelse med (10)
+  set [gjennomsiktig v]-effekt til (100)
+  set [stadX v] til (x)
+  set [stadY v] til (y)
+  set [Reis til v] til (stad)
+  vent til <rører [Helikopter v]?>
+  set [gjennomsiktig v]-effekt til (0)
+  sei (set saman [Fant ] (stad))
+  gjenta (5) gongar
+      gjenta (10) gongar
+          endra storleik med (10)
       slutt
-      gjenta (10) ganger
-          endre størrelse med (-10)
+      gjenta (10) gongar
+          endra storleik med (-10)
       slutt
   slutt
-  si []
+  sei []
   ```
 
 - [ ] Til slutt kan me endre `Nytt spel`{.blockevents}-blokka slik at me brukar
   den nye funksjonen. Til dømes
 
   ```blocks
-  når jeg mottar [Nytt spel v]
+  når eg får meldinga [Nytt spel v]
   vis
   Reis til [London] (-135) (-30) :: custom
   Reis til [Oslo] (-30) (75) :: custom
@@ -302,7 +302,7 @@ tilsvarar det å lage eigne klossar.
   Den enklaste måten å løyse dette på er å leggje på klossen
 
   ```blocks
-  vent til <ikke <berører [Helikopter v]?>>
+  vent til <ikkje <rører [Helikopter v]?>>
   ```
 
   rett før me testar om helikopteret er borti sirkelen inne i funksjonen vår.
