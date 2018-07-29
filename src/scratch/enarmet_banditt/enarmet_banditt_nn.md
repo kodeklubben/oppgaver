@@ -3,7 +3,6 @@ title: 'Enarmet banditt'
 level: 2
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Stein Olav Romslo'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nn
 ---
 
