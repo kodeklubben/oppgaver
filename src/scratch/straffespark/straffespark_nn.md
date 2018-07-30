@@ -38,7 +38,7 @@ straffespark som mogleg.
   klossane i skriptvindauget til høgre:
 
   ```blocks
-  når denne figuren klikkes
+  når denne figuren vert trykt på
   gå (10) steg
   ```
 
@@ -61,7 +61,7 @@ __Klikk på det grøne flagget.__
   ser slik ut:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (-180) y: (-30)
   ```
 
@@ -96,14 +96,14 @@ innimellom.
 - øvst mot midten av vindauget. Så kan du trykke på ballen seks gonger.
 
 - [ ] No skal me skrive eit litt lengre program. I dette programmet legg me
-  fyrst fotballen på plass framfor katten. Etter at ballen berører `Leo` (det
+  fyrst fotballen på plass framfor katten. Etter at ballen rører `Leo` (det
   vil seie at `Leo` sparkar ballen) startar ballen å bevege seg. Sjå om du ser
   kor i programmet dei ulike tinga skjer:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (-125) y: (-60)
-  vent til <berører [Leo v]?>
+  vent til <rører [Leo v]?>
   for alltid
       gå (6) steg
   slutt
@@ -124,7 +124,7 @@ __Klikk på det grøne flagget.__
 
 - [ ] Nokre gonger flyttar ballen seg attende *før* `Leo` er på plass, og difor
   kjem ballen borti `Leo` att og startar å bevege seg. Då hjelper det om me legg
-  til ein `vent (1) sekunder`{.b}-kloss før `vent til <berører [Leo
+  til ein `vent (1) sekund`{.b}-kloss før `vent til <rører [Leo
   v]?>`{.b}-klossen.
 
 
@@ -148,12 +148,12 @@ __Klikk på det grøne flagget.__
 - [ ] Lag det følgjande programmet for målmannen:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (100) y: (-50)
-  pek i retning (0 v)
+  peik i retning (0 v)
   for alltid
       gå (15) steg
-      sprett tilbake ved kanten
+      viss ved kant, sprett
   slutt
   ```
 
@@ -171,7 +171,7 @@ __Klikk på det grøne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] Ein ting som ser litt rart ut er at `Målmann` ikkje ser på ballen. Me
-  fiksar dette ved å leggje til ein `begrens rotasjon [vend sideveis
+  fiksar dette ved å leggje til ein `bruk roteringstypen [vend sidevegs
   v]`{.b}-kloss heilt i starten av skriptet vårt.
 
 - [ ] Du synest kanskje at målmannen er litt stor? Tidlegare brukte me
@@ -179,7 +179,7 @@ __Klikk på det grøne flagget.__
   endre storleiken på er ved å bruke klossar frå
   `Utseende`{.blocklooks}-kategorien.
 
-  Legg inn klossen `sett størrelse til (100)%`{.b} i `for
+  Legg inn klossen `set storleik til (100)%`{.b} i `for
   alltid`{.blockcontrol}-løkka. No kan du eksperimentere med å endre `100%` til
   eit anna tal til du får ein passe stor målmann. Viss du har brukt blekkspruten
   som `Målmann` passar `50%` ganske bra. Prøv deg fram!
@@ -203,22 +203,22 @@ når ballen går i mål.
 ## Sjekkliste {.check}
 
 - [ ] Me startar med å finne ut når målmannen reddar ballen. Klikk på `Ball`.
-  Legg til ein `hvis ellers`{.blockcontrol}-kloss i skriptet slik:
+  Legg til ein `viss elles`{.blockcontrol}-kloss i skriptet slik:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (-125) y: (-60)
-  vent til <berører [Leo v]?>
+  vent til <rører [Leo v]?>
   for alltid
       gå (6) steg
-      hvis <berører [Målmann v]?>
-          send melding [Redning v]
-      ellers
+      viss <rører [Målmann v]?>
+          send meldinga [Redning v]
+      elles
       slutt
   slutt
   ```
 
-  I klossen `send melding [message1 v]`{.b} må du velje `Ny melding` og så
+  I klossen `send meldinga [message1 v]`{.b} må du velje `Ny melding` og så
   skrive inn `Redning` som meldingsnamn.
 
 Meldingar er beskjedar som figurane i spelet sender til kvarandre utan at du kan
@@ -228,7 +228,7 @@ sjå det. Desse gjer det lett for fleire figurar å reagere på ting som skjer.
 - blir redda. Legg til dette som eit nytt skript på både `Ball` og `Målmann`:
 
   ```blocks
-  når jeg mottar [Redning v]
+  når eg får meldinga [Redning v]
   stopp [andre skript i figuren v] :: control
   ```
 
@@ -259,16 +259,16 @@ Desse viser koordinatane til musepeikaren.
   det ser slik ut:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (-125) y: (-60)
-  vent til <berører [Leo v]?>
+  vent til <rører [Leo v]?>
   for alltid
       gå (6) steg
-      hvis <berører [Målmann v]?>
-          send melding [Redning v]
-      ellers
-          hvis <(x-posisjon) > [160]>
-              send melding [Mål v]
+      viss <rører [Målmann v]?>
+          send meldinga [Redning v]
+      elles
+          viss <(x-posisjon) > [160]>
+              send meldinga [Mål v]
           slutt
       slutt
   slutt
@@ -278,7 +278,7 @@ Desse viser koordinatane til musepeikaren.
   `Målmann` ved å lage dette skriptet på begge figurane:
 
   ```blocks
-  når jeg mottar [Mål v]
+  når eg får meldinga [Mål v]
   stopp [andre skript i figuren v] :: control
   ```
 
@@ -286,8 +286,8 @@ Desse viser koordinatane til musepeikaren.
   han det følgjande skriptet:
 
   ```blocks
-  når jeg mottar [Mål v]
-  si [Ja, det vart mål!!] i (2) sekunder
+  når eg får meldinga [Mål v]
+  sei [Ja, det vart mål!!] i (2) sekund
   ```
 
 - [ ] Lag eit tilsvarande skript der `Leo` seier noko om at han er lei seg viss
@@ -330,8 +330,8 @@ gjort, skal me bruke *variablar*.
   meldinga `Mål` blir sendt. Det gjer du ved å lage dette skriptet på scena:
 
   ```blocks
-  når jeg mottar [Mål v]
-  endre [Mål v] med (1)
+  når eg får meldinga [Mål v]
+  endra [Mål v] med (1)
   ```
 
 - [ ] Me kan gjere tilsvarande for å telje kor mange redningar som har blitt
@@ -340,8 +340,8 @@ gjort, skal me bruke *variablar*.
 - [ ] Så lagar du eit nytt skript for å telje redningane:
 
   ```blocks
-  når jeg mottar [Redning v]
-  endre [Redningar v] med (1)
+  når eg får meldinga [Redning v]
+  endra [Redningar v] med (1)
   ```
 
 ## Test prosjektet {.flag}
@@ -373,11 +373,11 @@ Til slutt vil me leggje inn ein test på om `Leo` klarar å score 10 mål eller
   spelet.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [Mål v] til [0]
-  sett [Redningar v] til [0]
-  bytt bakgrunn til [goal1]
-  send melding [Nytt spark v]
+  når @greenFlag vert trykt på
+  set [Mål v] til [0]
+  set [Redningar v] til [0]
+  byt bakgrunn til [goal1]
+  send meldinga [Nytt spark v]
   ```
 
 - [ ] No vil me spele utan å måtte klikke på det grøne flagget kvar gong me skal
@@ -385,20 +385,20 @@ Til slutt vil me leggje inn ein test på om `Leo` klarar å score 10 mål eller
   ut
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   ```
 
   med
 
   ```blocks
-  når jeg mottar [Nytt spark v]
+  når eg får meldinga [Nytt spark v]
   ```
 
   på både `Leo`, `Ball` og `Målmann`. Til dømes blir skriptet på `Leo` sjåande
   slik ut:
 
   ```blocks
-  når jeg mottar [Nytt spark v]
+  når eg får meldinga [Nytt spark v]
   gå til x: (-180) y: (-30)
   ```
 
@@ -406,13 +406,13 @@ Til slutt vil me leggje inn ein test på om `Leo` klarar å score 10 mål eller
   redda 10 gonger. Endre `Mål`-skriptet på scena slik at det ser slik ut:
 
   ```blocks
-  når jeg mottar [Mål v]
-  endre [Mål v] med (1)
-  vent (2) sekunder
-  hvis <(Mål) < [10]>
-      send melding [Nytt spark v]
-  ellers
-      bytt bakgrunn til [Siger v]
+  når eg får meldinga [Mål v]
+  endra [Mål v] med (1)
+  vent (2) sekund
+  viss <(Mål) < [10]>
+      send meldinga [Nytt spark v]
+  elles
+      byt bakgrunn til [Siger v]
       stopp [alle v] :: control
   slutt
   ```
@@ -420,13 +420,13 @@ Til slutt vil me leggje inn ein test på om `Leo` klarar å score 10 mål eller
 - [ ] På samme måte endrar du `Redning`-skriptet på scena:
 
   ```blocks
-  når jeg mottar [Redning v]
-  endre [Redningar v] med (1)
-  vent (2) sekunder
-  hvis <(Redningar) < [10]>
-      send melding [Nytt spark v]
-  ellers
-      bytt bakgrunn til [Tap v]
+  når eg får meldinga [Redning v]
+  endra [Redningar v] med (1)
+  vent (2) sekund
+  viss <(Redningar) < [10]>
+      send meldinga [Nytt spark v]
+  elles
+      byt bakgrunn til [Tap v]
       stopp [alle v] :: control
   slutt
   ```
