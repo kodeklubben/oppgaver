@@ -1,10 +1,8 @@
 ---
 title: 'CSS: Skjul ninjaene'
 level: 3
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Trude Martinsen'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/webdev-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
@@ -21,7 +19,7 @@ Fem ninjaer kom til byen, og du må skjule dem før noen legger merke til dem. V
 sikkert gjemmested. Du kan flytte ninjaene selv, og noen objekter i gaten også.
 Fort – det er ingen tid å miste!
 
-![screenshot](ninjas.png)
+![Bilde av de fem ninjaene](ninjas.png)
 
 
 # Steg 1: Møt ninjaene {.activity}
@@ -304,4 +302,3 @@ __LYKKE TIL!__
 
   </hide>
 </toggle>
-
