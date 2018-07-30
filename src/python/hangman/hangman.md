@@ -1,10 +1,8 @@
 ---
 title: Hangman
 level: 3
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Geir Arne Hjelle'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
@@ -289,4 +287,3 @@ man har til å gjette.
 
   Husk at ordene må stå i anførselstegn og at det må være komma mellom ordene
   for å lage en liste. Legg til flere ord som du finner på selv.
-
