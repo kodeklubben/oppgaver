@@ -72,16 +72,16 @@ seg._
 - [ ] Pusle saman denne koden for pingvinen din:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
       gå (10) steg
-      sprett tilbake ved kanten
+      viss ved kant, sprett
   slutt
   ```
 
     Legg merke til at farga på klossane samsvarar med kategoriane øvst på sida.
-    Til dømes finn du `når grønt flagg klikkes`{.b} i
-    `Hendelser`{.blockevents}-kategorien.
+    Til dømes finn du `når @greenFlag vert trykt på`{.b} i
+    `Hendingar`{.blockevents}-kategorien.
 
 ## Test prosjektet {.flag}
 
@@ -91,9 +91,9 @@ __Klikk på det grøne flagget øvst midt på skjermen for å prøve spelet ditt
 
 - [ ] Legg du merke til at pingvinen snur seg på hovudet når den går mot
   venstre? Det er fordi scratchfigurar i utgangspunktet roterer når dei skiftar
-  retning. Dette kan du justere ved å leggje til klossen `begrens rotasjon [vend
-  sideveis v]`{.b} rett under `når grønt flagg klikkes`{.b}-klossen i programmet
-  vårt.
+  retning. Dette kan du justere ved å leggje til klossen `bruk roteringstypen
+  [vend sidevegs v]`{.b} rett under `når @greenFlag vert trykt på`{.b}-klossen i
+  programmet vårt.
 
 Du kan bruke den raude knappen ved sidan av det grøne flagget for å stoppe
 pingvinen att. Etter kvart som du lagar meir kode bør du trykkje på det grøne
@@ -108,7 +108,7 @@ innimellom.
 - [ ] Over scena er det eit tekstfelt der du kan gi namn til prosjektet ditt.
   Du kan til dømes kalle det `Pingvinar på tur`.
 
-- [ ] I menyen __Fil__ kan du velje __Lagre nå__ for å lagre prosjektet.
+- [ ] I menyen __Fil__ kan du velje __Lagre no__ for å lagre prosjektet.
 
 
 # Steg 2: På kryss og tvers {.activity}
@@ -129,12 +129,12 @@ _No vil me få pingvinen til å bevege seg på kryss og tvers._
   ut:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (40) %
-  begrens rotasjon [vend sideveis v]
+  når @greenFlag vert trykt på
+  set storleik til (40) %
+  bruk roteringstypen [vend sidevegs v]
   for alltid
       gå (4) steg
-      sprett tilbake ved kanten
+      viss ved kant, sprett
   slutt
   ```
 
@@ -142,20 +142,20 @@ _No vil me få pingvinen til å bevege seg på kryss og tvers._
   skjermen. Legg til fleire klossar slik at koden ser slik ut:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (40) %
-  begrens rotasjon [vend sideveis v]
-  gå til [tilfeldig sted v]
-  pek i retning (tilfeldig tall fra (1) til (360))
+  når @greenFlag vert trykt på
+  set storleik til (40) %
+  bruk roteringstypen [vend sidevegs v]
+  gå til [tilfeldig stad v]
+  peik i retning (tilfeldig tal frå (1) til (360))
   for alltid
       gå (4) steg
-      sprett tilbake ved kanten
+      viss ved kant, sprett
   slutt
   ```
 
-    For å lage `pek i retning (tilfeldig tall fra (1) til (360))`{.b} må du
-    fyrst leggje til `pek i retning (90 v)`{.b}-klossen og så pusle `tilfeldig
-    tall fra (1) til (10)`{.b}-klossen inn i den og forandre `10` til `360`.
+    For å lage `peik i retning (tilfeldig tal frå (1) til (360))`{.b} må du
+    fyrst leggje til `peik i retning (90 v)`{.b}-klossen og så pusle `tilfeldig
+    tal frå (1) til (10)`{.b}-klossen inn i den og forandre `10` til `360`.
 
 ## Test prosjektet {.flag}
 
@@ -174,7 +174,8 @@ gatene i Bergen._
 
 ## Sjekkliste {.check}
 
-- [ ] No skal me leggje til ein bakgrunn på spelet vårt som viser eit kart over Bergen. Last ned fila [bergen.png](bergen.png) til datamaskina di.
+- [ ] No skal me leggje til ein bakgrunn på spelet vårt som viser eit kart over
+  Bergen. Last ned fila [bergen.png](bergen.png) til datamaskina di.
 
     Alternativt kan du lage ditt eige kart ved å gå til
     [denne sida](../kart/kart.html).
@@ -210,8 +211,8 @@ snu seg vekk frå der me heldt musepeikaren før den går vidare.
 - [ ] Lag den følgjande nye koden på scena:
 
   ```blocks
-  når scenen klikkes :: hat events
-  send melding [snu retning v]
+  når scena vert trykt på :: hat events
+  send meldinga[snu retning v]
   trommeslag (1 v) som varer (0.25) takter
   ```
 
@@ -224,9 +225,9 @@ snu seg vekk frå der me heldt musepeikaren før den går vidare.
   sidan av koden du skreiv tidlegare:
 
   ```blocks
-  når jeg mottar [snu retning v]
-  pek mot [musepeker v]
-  vend venstre (180) grader
+  når eg får meldinga [snu retning v]
+  peik mot [musepeikar v]
+  snu @turnLeft (180) gradar
   ```
 
 ## Test prosjektet {.flag}
@@ -242,22 +243,22 @@ _Til slutt skal me få pingvinen til å oppdage at den har kome heim!_
 
 ## Sjekkliste {.check}
 
-- [ ] Me kan bruke klossen `berører [ v]`{.b} for å oppdage om to figurar er
-  borti kvarandre. Legg til ein `hvis`{.blockcontrol}-test i koden som flyttar
+- [ ] Me kan bruke klossen `rører [ v]`{.b} for å oppdage om to figurar er
+  borti kvarandre. Legg til ein `viss`{.blockcontrol}-test i koden som flyttar
   pingvinen:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (40) %
-  begrens rotasjon [vend sideveis v]
-  gå til [tilfeldig sted v]
-  pek i retning (tilfeldig tall fra (1) til (360))
+  når @greenFlag vert trykt på
+  set storleik til (40) %
+  bruk roteringstypen [vend sidevegs v]
+  gå til [tilfeldig stad v]
+  peik i retning (tilfeldig tal frå (1) til (360))
   for alltid
       gå (4) steg
-      sprett tilbake ved kanten
-      hvis <berører [Akvariet v] ?>
-          si [Hurra!] i (7) sekunder
-          gå til [tilfeldig sted v]
+      viss ved kant, sprett
+      viss <rører [Akvariet v] ?>
+          sei [Hurra!] i (7) sekund
+          gå til [tilfeldig stad v]
       slutt
   slutt
   ```
@@ -282,8 +283,8 @@ nokre idear:
 
 - [ ] Kan du lage ein test for om _alle_ pingvinane har kome heim? Den er
   enklast å lage på akvariefiguren. Du bør bruke ei `for
-  alltid`{.blockcontrol}-løkke, ein `hvis`{.blockcontrol}-test samt `< > og <
-  >`{.b}- og `berører [ v]`{.b}-klossar.
+  alltid`{.blockcontrol}-løkke, ein `viss`{.blockcontrol}-test samt `< > og <
+  >`{.b}- og `rører [ v]`{.b}-klossar.
 
 - [ ] Kanskje me kan telje poeng kvar gong ein pingvin finn vegen til akvariet?
   Til det treng du noko som heiter variablar. Desse finn du under
