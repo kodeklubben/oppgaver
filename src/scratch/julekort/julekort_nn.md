@@ -48,11 +48,11 @@ No skal me få figurane til å gjere ting når dei blir klikka på.
   kvart sekund, 10 gonger.
 
   ```blocks
-  når denne figuren klikkes
-  si [God jul!] i (2) sekunder
-  gjenta (10) ganger
+  når denne figuren vert trykt på
+  sei [God jul!] i (2) sekund
+  gjenta (10) gongar
       neste drakt
-      vent (1) sekunder
+      vent (1) sekund
   slutt
   ```
 
@@ -71,11 +71,11 @@ __Klikk på isbjørnen og sjå om koden din virkar.__
   farge.
 
   ```blocks
-  når denne figuren klikkes
-  spør [Hva er navnet ditt?] og vent
-  si (sett sammen [God jul ] (svar)) i (2) sekunder
+  når denne figuren vert trykt på
+  spør [Kva heiter du ?] og vent
+  sei (set saman  [God jul ] (svar)) i (2) sekund
   for alltid
-      endre [farge v] effekt med (25)
+      endra  [farge v]-effekt med (25)
   slutt
   ```
 
@@ -95,10 +95,10 @@ __Klikk på snømannen og sjå om koden din virkar.__
 koden. No skal juletreet skifte farge og utsjånad.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
-      vent (0.3) sekunder
-      endre [farge v] effekt med (25)
+      vent (0.3) sekund
+      endra [farge v]-effekt med (25)
       neste drakt
   slutt
   ```
@@ -120,17 +120,17 @@ Då har du jobba godt! Om du framleis har tid kan du prøve noko av det følgjan
 - [ ] Legg til din eigen velkomsthelsing, til dømes "God jul" eller ein julesang
   du syng sjølv.
 
-  Klikk på `Scene`, og vel fana `Lyder`{.blocklightgrey}.
+  Klikk på `Scene`, og vel fana `Lydar`{.blocklightgrey}.
 
-  ![Bilete av fana "Lyder" i Scratch](lyder.png)
+  ![Bilete av fana "Lydar" i Scratch](lyder.png)
 
   Ta opp din eigen lyd og gi den eit namn, til dømes
   `julehelsing`. Så går du inn på `Skript`{.blocklightgrey}, og
   legg inn følgjande kode:
 
   ```blocks
-  når grønt flagg klikkes
-  spill lyden [julehelsing v] til den er ferdig
+  når @greenFlag vert trykt på
+  spel lyden [julehelsing v] til han er ferdig
   ```
 
 - [ ] Kanskje finn du på nokre andre morosame animasjonar? Snømannen kan til
@@ -139,7 +139,7 @@ Då har du jobba godt! Om du framleis har tid kan du prøve noko av det følgjan
 
 # Steg 4: Lagre og publisere {.activity}
 
-Gi julekortet ditt eit namn. Vel `Lagre nå` frå `Fil`menyen.
+Gi julekortet ditt eit namn. Vel `Lagre no` frå `Fil`menyen.
 
 ![Bilete av menyen i Scratch](lagre.png)
 
