@@ -18,7 +18,7 @@ programmere figurar til å bevege seg sjølv.
 # Steg 1: Korleis styre figurar med piltastane {.activity}
 
 *Me startar med å sjå korleis me kan styre figurar med piltastane. For å få til
- dette vil me bruke `Hendelser`{.blockevents}-klossar som merkar når ein trykkar
+ dette vil me bruke `Hendingar`{.blockevents}-klossar som merkar når ein trykkar
  på tastaturet.*
 
 ## Sjekkliste {.check}
@@ -40,8 +40,8 @@ opp`-tasten.
 - [ ] Legg til følgjande skript på `Utforskar`-figuren din.
 
   ```blocks
-  når [pil opp v] trykkes
-  pek i retning (0 v)
+  når [pil opp v] vert trykt
+  peik i retning (0 v)
   gå (5) steg
   ```
 
@@ -52,16 +52,16 @@ opp`-tasten.
   eitt for kvar tast.
 
   ```blocks
-  når [pil ned v] trykkes
-  pek i retning (180 v)
+  når [pil ned v] vert trykt
+  peik i retning (180 v)
   gå (5) steg
 
-  når [pil høgre v] trykkes
-  pek i retning (90 v)
+  når [pil høgre v] vert trykt
+  peik i retning (90 v)
   gå (5) steg
 
-  når [pil venstre v] trykkes
-  pek i retning (-90 v)
+  når [pil venstre v] vert trykt
+  peik i retning (-90 v)
   gå (5) steg
   ```
 
@@ -97,28 +97,28 @@ No må me endre i skripta våre slik at dei brukar `(hastigheit)`{.b}-variabelen
 - [ ] Lag fyrst eit nytt skript som set verdien av `(hastigheit)`{.b} til `10`.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [hastigheit v] til [10]
+  når @greenFlag vert trykt på
+  set [hastigheit v] til [10]
   ```
 
 - [ ] Deretter endrar me dei fire skripta me allereie har laga slik at dei
   brukar `(hastigheit)`{.b}.
 
   ```blocks
-  når [pil opp v] trykkes
-  pek i retning (0 v)
+  når [pil opp v] vert trykt
+  peik i retning (0 v)
   gå (hastigheit) steg
 
-  når [pil ned v] trykkes
-  pek i retning (180 v)
+  når [pil ned v] vert trykt
+  peik i retning (180 v)
   gå (hastigheit) steg
 
-  når [pil høgre v] trykkes
-  pek i retning (90 v)
+  når [pil høgre v] vert trykt
+  peik i retning (90 v)
   gå (hastigheit) steg
 
-  når [pil venstre v] trykkes
-  pek i retning (-90 v)
+  når [pil venstre v] vert trykt
+  peik i retning (-90 v)
   gå (hastigheit) steg
   ```
 
@@ -185,26 +185,26 @@ __Klikk på det grøne flagget.__
 ## Sjekkliste {.check}
 
 For å oppdage når `Utforskar`-figuren vår går gjennom veggen på labyrinten vil
-me bruke ein `<berører fargen [#ffffff]>`{.b}-kloss. Denne klossen merkar om ein
+me bruke ein `<rører fargen [#ffffff]>`{.b}-kloss. Denne klossen merkar om ein
 figur kjem borti ei særskilt farge. Her er det viktig at me har teikna alle
 veggane i labyrinten i same farge.
 
-- [ ] Me legg `<berører fargen [#ffffff]>`{.b}-klossen inn i skriptet me
+- [ ] Me legg `<rører fargen [#ffffff]>`{.b}-klossen inn i skriptet me
   allereie har laga som set `(hastigheit)`{.b}-variabelen.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [hastigheit v] til [10]
+  når @greenFlag vert trykt på
+  set [hastigheit v] til [10]
   for alltid
-      hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+      viss <rører fargen [#cc0000]?>
+          snu @turnRight (180) gradar
           gå (hastigheit) steg
-          vend høyre (180) grader
+          snu @turnRight (180) gradar
       slutt
   slutt
   ```
 
-- [ ] For å få rett farge i `berører fargen [#cc0000]`{.b}-klossen klikkar du
+- [ ] For å få rett farge i `rører fargen [#cc0000]`{.b}-klossen klikkar du
   fyrst på den vesle firkanten der farga visast. Så flyttar du  musepeikaren
   slik at den peikar på ein vegg i labyrinten din. Då blir farga i den vesle
   firkanten forandra. Klikk igjen for å velje denne farga.
@@ -224,12 +224,12 @@ Ein måte me kan bruke for å avgrense kor ein figur kan gå, er å tvinge
 den til å ta eit skritt tilbake når den gjer noko feil. I koden
 
 ```blocks
-  vend høyre (180) grader
+  snu @turnRight (180) gradar
   gå (hastigheit) steg
-  vend høyre (180) grader
+  snu @turnRight (180) gradar
 ```
 
-vil figuren fyrst snu seg heilt rundt (180 grader), så ta eit skritt, og til
+vil figuren fyrst snu seg heilt rundt (180 gradar), så ta eit skritt, og til
 slutt snu seg rundt att slik at den peikar i same retning som då den starta.
 
 
@@ -254,9 +254,9 @@ slutt snu seg rundt att slik at den peikar i same retning som då den starta.
   vanskeleg å kome til.
 
 No skal me lage litt kode som oppdagar når utforskaren finn skatten. Her har me
-eit val: me kan lage eit skript på  `Utforskar` som sjekkar om han berører
+eit val: me kan lage eit skript på  `Utforskar` som sjekkar om han rører
 `Skatt`, eller me kan gjere det omvendt og lage eit skript på `Skatt` som
-sjekkar om den berører `Utforskar`.
+sjekkar om den rører `Utforskar`.
 
 I dette tilfellet speler det lita rolle kva me vel, men om me tenker oss at me
 kanskje vil lage fleire skattar seinare kan det vere litt enklere om me lagar
@@ -265,10 +265,10 @@ skriptet på `Skatt`.
 - [ ] Pass på at figuren `Skatt` er markert, og skriv følgjande kode:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
-      hvis <berører [Utforskar v]?>
-          skjul
+      viss <rører [Utforskar v]?>
+          gøym
       slutt
   slutt
   ```
@@ -291,11 +291,11 @@ gong, forblir skatten borte.
   `Skatt` ved å leggje til `vis`{.b} heilt i starten.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   vis
   for alltid
-      hvis <berører [Utforskar v]?>
-          skjul
+      viss <rører [Utforskar v]?>
+          gøym
       slutt
   slutt
   ```
@@ -318,14 +318,14 @@ der den fann skatten sist. Det blir ikkje veldig spanande.
   noko anna):
 
   ```blocks
-  når grønt flagg klikkes
-  sett [hastigheit v] til [10]
+  når @greenFlag vert trykt på
+  set [hastigheit v] til [10]
   gå til x: (-200) y: (0)
   for alltid
-      hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+      viss <rører fargen [#cc0000]?>
+          snu @turnRight (180) gradar
           gå (hastigheit) steg
-          vend høyre (180) grader
+          snu @turnRight (180) gradar
       slutt
   slutt
   ```
@@ -359,10 +359,10 @@ veldig likt korleis `Skatt` merka at den vart funne.
 - [ ] Legg til følgjande kode:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
-      hvis <berører [Utforskar v]?>
-          si [Tok deg!] i (1) sekunder
+      viss <rører [Utforskar v]?>
+          si [Tok deg!] i (1) sekund
           stopp [alle v] :: control
       slutt
   slutt
@@ -388,9 +388,9 @@ Til slutt skal me få froskekongen til å bevege seg rundt i labyrinten.
   for `x` og `y` med noko som passar for labyrinten din.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (50) y: (100)
-  pek i retning (-90 v)
+  peik i retning (-90 v)
   ```
 
 - [ ] Før me lar `Froskekonge` begynne å bevege seg lagar me ein
@@ -403,14 +403,14 @@ Til slutt skal me få froskekongen til å bevege seg rundt i labyrinten.
   utforskaren i å gå gjennom veggen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (50) y: (100)
-  pek i retning (-90 v)
-  sett [hastigheit v] til [5]
+  peik i retning (-90 v)
+  set [hastigheit v] til [5]
   for alltid
       gå (hastigheit) steg
-      hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+      viss <rører fargen [#cc0000]?>
+          snu @turnRight (180) gradar
           gå (hastigheit) steg
       slutt
   slutt
@@ -422,31 +422,31 @@ retning av og til.
 - [ ] Legg til kode som let `Froskekonge` snu seg tilfeldig rundt i labyrinten:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (50) y: (100)
-  pek i retning (-90 v)
-  sett [hastigheit v] til [5]
+  peik i retning (-90 v)
+  set [hastigheit v] til [5]
   for alltid
       gå (hastigheit) steg
-      hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+      viss <rører fargen [#cc0000]?>
+          snu @turnRight (180) gradar
           gå (hastigheit) steg
       slutt
-      hvis <(tilfeldig tall fra (1) til (25)) = [1]>
-          vend høyre ((tilfeldig tall fra (-1) til (1)) * (90)) grader
+      viss <(tilfeldig tal frå (1) til (25)) = [1]>
+          snu @turnRight ((tilfeldig tal frå (-1) til (1)) * (90)) gradar
       slutt
   slutt
   ```
 
 Dei to siste klossane ser litt kompliserte ut. La oss sjå nærare på dei.
 
-- [ ] Klossen `hvis <(tilfeldig tall fra (1) til (25)) = [1]>`{.b} seier at me
+- [ ] Klossen `viss <(tilfeldig tal frå (1) til (25)) = [1]>`{.b} seier at me
   skal gjere *noko* om lag ein av 25 gonger.
 
-- [ ] Dette *noko* er `vend høyre ((tilfeldig tall fra (-1) til (1)) * (90))
-  grader`{.b}. Teiknet `*` tyder gange, slik at om me vel tilfeldig mellom tala
+- [ ] Dette *noko* er `snu @turnRight ((tilfeldig tal frå (-1) til (1)) * (90))
+  gradar`{.b}. Teiknet `*` tyder gange, slik at om me vel tilfeldig mellom tala
   `-1`, `0` og `1`, tyder det at froskekongen vil vende `-90`, `0` eller `90`
-  grader. Det vil seie at han svingar mot venstre, fortset rett fram eller
+  gradar. Det vil seie at han svingar mot venstre, fortset rett fram eller
   svingar mot høgre.
 
 ## Tips {.protip}
@@ -454,7 +454,7 @@ Dei to siste klossane ser litt kompliserte ut. La oss sjå nærare på dei.
 Du kan av og til oppleve at `Froskekonge` set seg fast i veggen. Det er fordi
 `Froskekonge` framleis rører labyrintveggen etter at han har snudd seg. Eit par
 ting du kan prøve for å forbetre dette er å gjere `Froskekonge`-figuren mindre,
-leggje ein `begrens rotasjon [ikke roter v]`{.b}-kloss øvst i
+leggje ein `bruk roteringstypen [ikkj roter v]`{.b}-kloss øvst i
 `Froskekonge`-skriptet, eller velje ein figur som er _rundare_ (prøv òg å viske
 bort tunga til `Froskekonge` viss du brukar `Dyr/Frog`-figuren).
 
@@ -471,7 +471,7 @@ __Klikk på det grøne flagget.__
   sjeldnare.
 
 - [ ] Du kan prøve å lage fleire skattar. Prøv å høgreklikke på
-  `Skatt`-figuren og vel `Lag en kopi`.
+  `Skatt`-figuren og vel `Lag ein kopi`.
 
 ## Lagre prosjektet {.save}
 
