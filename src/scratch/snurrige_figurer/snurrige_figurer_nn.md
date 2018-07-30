@@ -12,7 +12,7 @@ language: nn
 Det er ganske enkelt å lage interessante animasjonar i Scratch. Her skal me sjå
 korleis me kan flytte og snurre på figurar for å skape spanande mønster.
 
-![Bilete av eit spanande mønster om ein sirkel](snurrige_figurer.png)
+![Bilete av eit spanande mønster om ein sirkel](snurrige_figurar.png)
 
 
 # Steg 1: Ein snurrig figur {.activity}
@@ -42,11 +42,11 @@ korleis me kan flytte og snurre på figurar for å skape spanande mønster.
 - [ ] No skal me få trekanten til å flytte seg! Skriv denne koden:
 
   ```blocks
-  når [a v] trykkes
+  når [a v] vert trykt
   gå til x: (0) y: (120)
-  pek i retning (90 v)
-  gjenta (90) ganger
-      vend høyre (4) grader
+  peik i retning (90 v)
+  gjenta (90) gongar
+      snu @turnRight (4) gradar
       gå (8) steg
   slutt
   ```
@@ -66,9 +66,9 @@ mellomrom. Likevel er det lurt å leggje til seg vanen med å lagre sjølv
 innimellom.
 
 - [ ] Over scena er det eit tekstfelt der du kan gi eit namn til prosjektet
-  ditt. Til dømes kan du kalle det `Snurrige figurer`.
+  ditt. Til dømes kan du kalle det `Snurrige figurar`.
 
-- [ ] I menyen `Fil` kan du velje `Lagre nå` for å lagre prosjektet.
+- [ ] I menyen `Fil` kan du velje `Lagre no` for å lagre prosjektet.
 
 ## Endre ein eksisterande figur {.challenge}
 
@@ -105,17 +105,17 @@ på.
 - [ ] No skal me lage mange trekantar. Det gjer me ved hjelp av __kloning__. I
   Scratch er ein __klone__ ein kopi av ein figur.
 
-    Kopier koden du skreiv før ved å høgreklikke på den og velje `lag en kopi`.
+    Kopier koden du skreiv før ved å høgreklikke på den og velje `lag ein kopip`.
     Endre tasten som startar skriptet til `b` og legg klossen `lag klon av [meg
     v]`{.b} nedst i `gjenta`{.blockcontrol}-løkka. Det nye skriptet skal sjå
     slik ut:
 
     ```blocks
-    når [b v] trykkes
+    når [b v] vert trykt
     gå til x: (0) y: (120)
-    pek i retning (90 v)
-    gjenta (90) ganger
-        vend høyre (4) grader
+    peik i retning (90 v)
+    gjenta (90) gongar
+        snu @turnRight (4) gradar
         gå (8) steg
         lag klon av [meg v]
     slutt
@@ -136,13 +136,13 @@ __Trykk på B-tasten.__
 - [ ] Me kan få trekantane til å røre på seg. Start med denne enkle koden:
 
   ```blocks
-  når jeg mottar [snurr v]
+  når eg får meldinga [snurr v]
   for alltid
-      vend høyre (4) grader
+      snu @turnRight (4) gradar
   slutt
   ```
 
-- [ ] Legg til klossen `send melding [snurr v]`{.b} nedst i _B_-skriptet
+- [ ] Legg til klossen `send meldinga [snurr v]`{.b} nedst i _B_-skriptet
   (etter `gjenta`{.blockcontrol}-løkka).
 
 ## Test prosjektet {.flag}
@@ -160,14 +160,14 @@ __Trykk på B-tasten.__
 - [ ] Me kan få trekantane til å flytte på seg. Skriv eit nytt skript:
 
   ```blocks
-  når jeg mottar [flytt og snurr v]
+  når eg får meldinga [flytt og snurr v]
   for alltid
       gå (3) steg
-      vend høyre (4) grader
+      snu @turnRight (4) gradar
   slutt
   ```
 
-- [ ] Endre `send melding [ v]`{.b}-klossen nedst i _B_-skriptet slik at den
+- [ ] Endre `send meldinga [ v]`{.b}-klossen nedst i _B_-skriptet slik at den
   startar dette nye _flytt og snurr_-skriptet.
 
 ## Test prosjektet {.flag}
@@ -194,25 +194,25 @@ __Trykk på B-tasten.__
   og legg til dei to `retning :: stack variables`{.b}-klossane.
 
   ```blocks
-  når [c v] trykkes
-  sett [retning v] til (0)
+  når [c v] vert trykt
+  set [retning v] til (0)
   gå til x: (0) y: (120)
-  pek i retning (90 v)
-  gjenta (90) ganger
-      vend høyre (4) grader
+  peik i retning (90 v)
+  gjenta (90) gongar
+      snu @turnRight (4) gradar
       gå (8) steg
-      endre [retning v] med (-4)
+      endra [retning v] med (-4)
       lag klon av [meg v]
   slutt
-  send melding [flytt og snurr v]
+  send meldinga [flytt og snurr v]
   ```
 
 - [ ] No skal me setje retninga på kvar klone når den blir laga. Lag dette
   skriptet:
 
   ```blocks
-  når jeg starter som klon
-  pek i retning (retning :: variables)
+  når eg startar som klon
+  peik i retning (retning :: variables)
   ```
 
 ## Test prosjektet {.flag}
@@ -231,17 +231,17 @@ __Trykk på C-tasten.__
   Alle dei andre trekantane er kloner. Me har ikkje sett denne trekanten før
   fordi den peika i same retning som klonene. Men no snur me jo på dei!
 
-    La oss skjule figuren så den ikkje øydelegg mønsteret. Legg til ein
-    `skjul`{.b}-kloss øvst i _C_-skriptet.
+    La oss gøyme figuren så den ikkje øydelegg mønsteret. Legg til ein
+    `gøym`{.b}-kloss øvst i _C_-skriptet.
 
-- [ ] Sidan klonene er kopiar av figuren vår vil dei også bli skjult. Det vil me
+- [ ] Sidan klonene er kopiar av figuren vår vil dei også bli gøymt. Det vil me
   jo ikkje. Så me må passe på at klonene visast ved å leggje til ein
   `vis`{.b}-kloss som dette:
 
   ```blocks
-  når jeg starter som klon
+  når eg startar som klon
   vis
-  pek i retning (retning :: variables)
+  peik i retning (retning :: variables)
   ```
 
 ## Test prosjektet {.flag}
@@ -250,12 +250,12 @@ __Trykk på C-tasten.__
 
 - [ ] Er den flytande trekanten som ikkje passa inn i mønsteret borte?
 
-- [ ] Leik med talet `-4` i `endre [retning v] :: variables`{.b}-klossen. Kva
+- [ ] Leik med talet `-4` i `endra [retning v] :: variables`{.b}-klossen. Kva
   effekt har det å endre dette talet?
 
     Du oppdagar kanskje at det fungerer best viss talet er deleleg med 4? Kvifor
     heng ikkje figuren saman viss talet ikkje er deleleg med 4? (Prøv til dømes
-    med `endre [retning v] med (1)`{.b}.)
+    med `endra [retning v] med (1)`{.b}.)
 
 
 # Steg 4: Andre figurar {.activity}
@@ -278,20 +278,20 @@ __Trykk på C-tasten.__
   dette:
 
   ```blocks
-  når [c v] trykkes
-  skjul
-  sett [gjennomsiktig v] effekt til (70)
-  sett [retning v] til (0)
+  når [c v] vert trykt
+  gøym
+  set [gjennomsiktig v]-effekt til (70)
+  set [retning v] til (0)
   gå til x: (0) y: (120)
-  pek i retning (90 v)
-  gjenta (90) ganger
-      vend høyre (4) grader
+  peik i retning (90 v)
+  gjenta (90) gongar
+      snu @turnRight (4) gradar
       gå (8) steg
-      endre [retning v] med (-4)
-      endre [farge v] effekt med (20)
+      endra [retning v] med (-4)
+      endra [farge v]-effekt med (20)
       lag klon av [meg v]
   slutt
-  send melding [flytt og snurr v]
+  send meldinga [flytt og snurr v]
   ```
 
 ### Fleire idear {.challenge}
@@ -308,5 +308,5 @@ nokre idear:
   senterpunkt](../bilder/velg_senterpunkt.png) øvst til høgre.
 
 - [ ] Bruk penn-verktøyet for å teikne mønster på bakgrunnen samstundes. Du kan
-  til dømes leggje til klossen `penn på`{.b} under `når jeg starter som
+  til dømes leggje til klossen `penn på`{.b} under `når eg startar som
   klon`{.b}.
