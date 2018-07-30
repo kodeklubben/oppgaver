@@ -1,10 +1,8 @@
 ---
 title: Jafsefisk
 level: 2
-logo: ../../assets/img/ccuk_logo.png
-author: 'Oversatt frå [Code Club UK](//codeclub.org.uk)'
+author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
 translator: 'Stein Olav Romslo'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nn
 ---
 
@@ -45,9 +43,9 @@ Jafsefisk med å ete alle byttedyra som svømmer rundt i havet.
   skriptet:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
-      pek mot [musepeker v]
+      peik mot [musepeikar v]
       gå (3) steg
   slutt
   ```
@@ -66,13 +64,13 @@ __Klikk på det grøne flagget.__
 
 - [ ] Du kan stoppe den maniske flippinga til Jafsefisk viss du syt for at den
   berre flyttar seg når den ikkje er for nær musepeikaren (`avstand til
-  [musepeker v]`{.b} ligg i `Sansning`{.blocksensing}-kategorien).
+  [musepeikar v]`{.b} ligg i `Sansing`{.blocksensing}-kategorien).
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
-      hvis <(avstand til [musepeker v]) > [10]>
-          pek mot [musepeker v]
+      viss <(avstand til [musepeikar v]) > [10]>
+          peik mot [musepeikar v]
           gå (3) steg
       slutt
   slutt
@@ -107,11 +105,11 @@ rørslene.
   mot klokka, og så gjenta.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
-      sprett tilbake ved kanten
+      snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
+      viss ved kant, sprett
   slutt
   ```
 
@@ -128,10 +126,10 @@ me gjere i neste steg.*
 
 ## Ting å prøve {.challenge}
 
-- [ ] Prøv å forandre tala for `gå (2) steg`{.b} og `tilfeldig tall fra (-20)
+- [ ] Prøv å forandre tala for `gå (2) steg`{.b} og `tilfeldig tal frå (-20)
   til (20)`{.b}. Korleis forandrar det måten byttedyret beveger seg på?
 
-- [ ] Kva gjer `sprett tilbake ved kanten`{.b}? Fjern klossen og sjå kva som
+- [ ] Kva gjer `viss ved kant, sprett`{.b}? Fjern klossen og sjå kva som
   skjer.
 
 # Steg 3: Jafsefisk et byttet {.activity}
@@ -145,18 +143,18 @@ lita stund seinare.
 ## Sjekkliste {.check}
 
 - [ ] Me startar med å la byttet forsvinne viss det kjem borti Jafsefisk, og så
-  kome tilbake etter `3` sekund. Bruk `berører [Jafsefisk v]?`{.b} for å sjekke
+  kome tilbake etter `3` sekund. Bruk `rører [Jafsefisk v]?`{.b} for å sjekke
   om byttet kjem borti Jafsefisk. Utvid skriptet på byttedyret slik:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
-      sprett tilbake ved kanten
-      hvis <berører [Jafsefisk v]?>
-          skjul
-          vent (3) sekunder
+      snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
+      viss ved kant, sprett
+      viss <rører [Jafsefisk v]?>
+          gøym
+          vent (3) sekund
           vis
       slutt
   slutt
@@ -174,28 +172,28 @@ __Klikk på det grøne flagget.__
 ## Sjekkliste {.check}
 
 *Korleis kan me sikre at byttet berre forsvinn viss det kjem borti munnen til
-Jafsefisk. Me kan prøve `<berører fargen [#FFFFFF]?>`{.b} for å sjekke om
+Jafsefisk. Me kan prøve `<rører fargen [#FFFFFF]?>`{.b} for å sjekke om
 byttedyret er borti det kvite på tennene til Jafsefisk.*
 
-- [ ] Legg til `<berører fargen [#FFFFFF]?>`{.b} i tillegg til `<berører
+- [ ] Legg til `<rører fargen [#FFFFFF]?>`{.b} i tillegg til `<rører
   [Jafsefisk v]?>`{.b} i skriptet ditt. For å velje kvit klikkar du på farga i
   klossen, og så på tennene til Jafsefisk.
 
 - [ ] No kan me la byttet flytte seg til ein tilfeldig stad på skjermen før det
-  dukkar opp att. Bruk `gå til x: (tilfeldig tall fra (-220) til (220)) y:
-  (tilfeldig tall fra (-170) til (170))`{.b} for å gi tilfeldige koordinatar for
+  dukkar opp att. Bruk `gå til x: (tilfeldig tal frå (-220) til (220)) y:
+  (tilfeldig tal frå (-170) til (170))`{.b} for å gi tilfeldige koordinatar for
   `x` og `y`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
-      sprett tilbake ved kanten
-      hvis <<berører [Jafsefisk v]?> og <berører fargen [#FFFFFF]?>>
-          skjul
-          vent (3) sekunder
-          gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
+      snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
+      viss ved kant, sprett
+      viss <<rører [Jafsefisk v]?> og <rører fargen [#FFFFFF]?>>
+          gøym
+          vent (3) sekund
+          gå til x: (tilfeldig tal frå (-220) til (220)) y: (tilfeldig tal frå (-170) til (170))
           vis
       slutt
   slutt
@@ -218,20 +216,20 @@ __Klikk på det grøne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] For at Jafsefisk skal vite kva som skjer kan me la byttet `send melding
+- [ ] For at Jafsefisk skal vite kva som skjer kan me la byttet `send meldinga
   [Du tok meg! v]`{.b}, om at det har blitt ete, før det forsvinn.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
-      sprett tilbake ved kanten
-      hvis <<berører [Jafsefisk v]?> og <berører fargen [#FFFFFF]?>>
-          send melding [Du tok meg! v]
-          skjul
-          vent (3) sekunder
-          gå til x: (tilfeldig tall fra (-220) til (220)) y: (tilfeldig tall fra (-170) til (170))
+      snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
+      viss ved kant, sprett
+      viss <<rører [Jafsefisk v]?> og <rører fargen [#FFFFFF]?>>
+          send meldinga [Du tok meg! v]
+          gøym
+          vent (3) sekund
+          gå til x: (tilfeldig tal frå (-220) til (220)) y: (tilfeldig tal frå (-170) til (170))
           vis
       slutt
   slutt
@@ -245,17 +243,17 @@ klikke med kjevane.
 
 - [ ] Legg så til eit nytt skript til Jafsefisk slik at han kan svare på
   meldinga `Du tok meg!` frå byttedyret. Dette skriptet gjer at fisken spelar
-  av boblelyden og `bytt drakt til [Ope munn v]`{.b}-drakta, ventar litt og så
+  av boblelyden og `byt drakt til [Ope munn v]`{.b}-drakta, ventar litt og så
   byttar tilbake.
 
   ```blocks
-  når jeg mottar [Du tok meg! v]
+  når eg får meldinga [Du tok meg! v]
   spel lyden [bubbles v]
-  gjenta (2) ganger
-      bytt drakt til [Lukka munn v]
-      vent (0.5) sekunder
-      bytt drakt til [Ope munn v]
-      vent (0.5) sekunder
+  gjenta (2) gongar
+      byt drakt til [Lukka munn v]
+      vent (0.5) sekund
+      byt drakt til [Ope munn v]
+      vent (0.5) sekund
   slutt
   ```
 
@@ -292,7 +290,7 @@ __Hint:__ Ikke bruk for lang tid på denne oppgåva utan å sjå på dei andre
 utfordringane.
 
 __Vel eit byttedyr å eksperimentere med.__ Viss dei har same drakt, bytt farge
-med `sett [farge v] effekt til (0)`{.b}. Slik kan du ser skilnad på dette frå
+med `set [farge v]-effekt til (0)`{.b}. Slik kan du ser skilnad på dette frå
 dei andre byttedyra. Prøv å få dette byttedyret til å bevege seg saktare enn dei
 andre.
 
@@ -310,8 +308,7 @@ __Klikk på det grøne flagget.__
 - [ ] Beveger byttedyra seg på ein fornuftig måte? Gjer desse forandringane
   spelet betre?
 
-  __Hint:__ Viss byttet ditt svømmer rundt i sirklar, sjekk verdiane i `vend
-  venstre (tilfeldig tall fra (-20) til (20)) grader`{.b}.
+  __Hint:__ Viss byttet ditt svømmer rundt i sirklar, sjekk verdiane i `snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar`{.b}.
 
 - [ ] Kva viss du let alle byttedyra bevege seg ulikt ved å bruke ulike
   kombinasjonar av desse rørslene?
@@ -329,17 +326,17 @@ byttedyra svømme vekk frå Jafsefisk.__
 Det finst ingen kloss i Scratch som kan gi oss retningen vekk frå ein annan
 figur. Men du kan få en figur til å snu seg i retninga mot ein annen, og så la
 den snu seg i motsett retning. Klossane du treng er i
-`Bevegelse`{.blockmotion}-kategorien.
+`Rørsle `{.blockmotion}-kategorien.
 
 Prøv å hjelpe eitt av byttedyra med å __snu seg vekk frå Jafsefisk__. La den
 også virre litt mens den svømmer bort! Du vil kanskje oppdage at byttet set seg
 fast i eit hjørne? Kanskje vil du berre at byttet skal flykte viss Jafsefisk
 kjem for nære? __Hint:__ Sjå tilbake på korleis me brukte `(avstand til
-[musepeker v])`{.b} tidlegare i spelet.
+[musepeikar v])`{.b} tidlegare i spelet.
 
 ## Test prosjektet {.flag}
 
-__Klike på det grøne flagget.__
+__Klikk på det grøne flagget.__
 
 - [ ] Gjør dette at fisken blir vanskelegare å ta? Gjer det spelet betre?
 
@@ -365,7 +362,7 @@ Gi deg sjølv __ein tidsfrist__. Kor mange fisk kan du ete på `30` sekund?
 
 Legg til ein ny variabel, `(tid)`{.b}. Lag eit nytt skript som set variabelen
 til til dømes `30`, for så å endre denne med `-1`, vente eitt sekund, og endre
-att, heilt til den når null. Til slutt kan du bruke ein `stop [alle
+att, heilt til den når null. Til slutt kan du bruke ein `stopp [alle
 v]`{.b}-kloss for å avslutte spelet.
 
 ## Test prosjektet {.flag}
