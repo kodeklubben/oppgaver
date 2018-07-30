@@ -90,13 +90,13 @@ oss prøve det i praksis.
   variablane, så brukar me ei løkke til å lage stadig nye slangeboksar.
 
   ```blocks
-  når jeg mottar [Nytt spel v]
-  sett [teljar v] til [0]
-  sett [lengde v] til [5]
-  gjenta til <berører [kant v]>
-      sett [min id v] til (teljar)
-      endre [teljar v] med (1)
-      vent (0.1) sekunder
+  når eg får meldinga [Nytt spel v]
+  set [teljar v] til [0]
+  set [lengde v] til [5]
+  gjenta til <rører [kant v]>
+      set [min id v] til (teljar)
+      endra [teljar v] med (1)
+      vent (0.1) sekund
       lag klon av [meg v]
       gå (10) steg
   slutt
@@ -109,7 +109,7 @@ oss prøve det i praksis.
   er ganske enkelt.
 
   ```blocks
-  når jeg starter som klon
+  når eg startar som klon
   vent til <((teljar) - (lengde)) > (min id)>
   slett denne klonen
   ```
@@ -135,7 +135,7 @@ sjølv må me berre endre retninga når piltastane blir trykka på.
   alltid`{.blockcontrol}-løkke der du testar om kvar piltast er trykka, og
   endrar kva retning figuren peikar tilsvarande.
 
-- [ ] Legg til ein `gå til x: y:`{.blockmotion}- og ein `pek i
+- [ ] Legg til ein `gå til x: y:`{.blockmotion}- og ein `peik i
   retning`{.blockmotion}-kloss fyrst i skriptet ditt slik at slangen startar ein
   fornuftig stad i starten av spelet.
 
@@ -147,7 +147,7 @@ sjølv må me berre endre retninga når piltastane blir trykka på.
 
 - [ ] Legg inn ein sjekk på om slangen krasjar i seg sjølv. Det kan du til dømes
   gjere ved å utvide testen i `gjenta til`{.blockcontrol}-klossen med
-  `eller`{.blockoperators} og `berører fargen`{.blocksensing}.
+  `elles`{.blockoperators} og `rører fargen`{.blocksensing}.
 
 - [ ] Prøv spelet ditt. No skal du kunne styre slangen din rundt på skjermen
   heilt til du krasjar i kanten eller i deg sjølv.
@@ -173,7 +173,7 @@ brukar me kloner av epla òg.
   viss slangeboksane dine er `10 x 10` kan du bruke noko som dette:
 
   ```blocks
-  gå til x: ((10) * (tilfeldig tall fra (-23) til (23))) y: ((10) * (tilfeldig tall fra (-16) til (16)))
+  gå til x: ((10) * (tilfeldig tal frå (-23) til (23))) y: ((10) * (tilfeldig tal frå (-16) til (16)))
   ```
 
   Hugs at skjermen har koordinatar frå `-240` til `240` i `x`-retning, og `-180`
@@ -185,8 +185,8 @@ brukar me kloner av epla òg.
   `skjule`{.blocklooks} eplet og så sende ei `Lag eple`-melding.
 
 - [ ] Til slutt lagar me oppførselen for eit kloneeple. Lag eit nytt skript som
-  startar med `når jeg starter som klon`{.blockcontrol}. Dette skriptet må
-  `vise`{.blocklooks} eplet, `vente til`{.blockcontrol} det `berører
+  startar med `når eg startar som klon`{.blockcontrol}. Dette skriptet må
+  `vise`{.blocklooks} eplet, `vente til`{.blockcontrol} det `rører
   slangen`{.blocksensing}, auke `lengde`{.blockdata} på slangen, så
   `sende`{.blockevents} ei `Lag eple`-melding og til slutt `slette denne
   klonen`{.blockcontrol}.
@@ -223,11 +223,11 @@ brukar me kloner av epla òg.
 
 - [ ] La epla flytte seg viss det går ei viss tid utan at dei blir etne. For å
   halde styr på tida kan du bruke `tid`{.blocksensing}-klossen i
-  `Sansning`{.blocksensing}-kategorien.
+  `Sansing`{.blocksensing}-kategorien.
 
 - [ ] I staden for at slangen berre kan krasje i seg sjølve eller i kanten, så
   kan du lage hindringar på sjølve brettet. Desse kan du til dømes teikne på
-  bakgrunnen i ei spesiell farge, og så undersøke om slangen `berører
+  bakgrunnen i ei spesiell farge, og så undersøke om slangen `rører
   fargen`{.blocksensing}. Du kan til og med ha fleire brett med dører mellom.
 
 - [ ] Kva med å lage ein versjon for to spelarar? Spelarane styrer kvar sin
