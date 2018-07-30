@@ -54,7 +54,7 @@ oppgåva finn du beskrivingar for å bruke andre kart.
 ## Sjekkliste {.check}
 
 - [ ] Legg til ein ny figur ved å klikke ![Vel figur frå
-  biblioteket](../bilder/hent-fra-bibliotek.png) under `Figurer`. Me har brukt
+  biblioteket](../bilder/hent-fra-bibliotek.png) under `Figurar`. Me har brukt
   `Transport/Helicopter`, men du kan eventuelt bruke ein annan figur du vil
   reise rundt med.
 
@@ -66,8 +66,8 @@ oppgåva finn du beskrivingar for å bruke andre kart.
 - startar på same stad. Lag dette skriptet:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (25) %
+  når @greenFlag vert trykt på
+  set storleik til (25) %
   gå til x: (0) y: (0)
   ```
 
@@ -77,12 +77,12 @@ oppgåva finn du beskrivingar for å bruke andre kart.
   Fyrst lagar me koden som flyttar helikopteret oppover:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (25) %
+  når @greenFlag vert trykt på
+  set storleik til (25) %
   gå til x: (0) y: (0)
   for alltid
-      hvis <tast [pil opp v] trykket?>
-          pek i retning (0 v)
+      viss <tasten [pil opp v] er trykt?>
+          peik i retning (0 v)
           gå (2) steg
       slutt
   slutt
@@ -105,31 +105,31 @@ Me skal programmere dei andre piltastane òg.
 
 - [ ] Koden for å flytte helikopteret med dei andre  piltastane er veldig lik
   koden som flyttar helikopteret oppover. Difor kan me kopiere den me allereie
-  har skrive! Høgreklikk på klossen `hvis `{.blockcontrol}`tast pil opp
-  trykket?`{.blocksensing}, og vel `lag en kopi`. Slepp desse klossane inn i
+  har skrive! Høgreklikk på klossen `viss `{.blockcontrol}`tasten pil opp
+  er trykt?`{.blocksensing}, og vel `lag ein kopi`. Slepp desse klossane inn i
   `for alltid`{.blockcontrol}-løkka. Gjenta til du har fire
-  `hvis`{.blockcontrol}-klossar. Endre på skriptet ditt slik at det ser ut som
+  `viss`{.blockcontrol}-klossar. Endre på skriptet ditt slik at det ser ut som
   følgjer:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (25) %
+  når @greenFlag vert trykt på
+  set storleik til (25) %
   gå til x: (0) y: (0)
   for alltid
-      hvis <tast [pil opp v] trykket?>
-          pek i retning (0 v)
+      viss <tasten [pil opp v] er trykt?>
+          peik i retning (0 v)
           gå (2) steg
       slutt
-      hvis <tast [pil høyre v] trykket?>
-          pek i retning (90 v)
+      viss <tasten [pil høyre v] er trykt?>
+          peik i retning (90 v)
           gå (2) steg
       slutt
-      hvis <tast [pil ned v] trykket?>
-          pek i retning (180 v)
+      viss <tasten [pil ned v] er trykt?>
+          peik i retning (180 v)
           gå (2) steg
       slutt
-      hvis <tast [pil venstre v] trykket?>
-          pek i retning (-90 v)
+      viss <tasten [pil venstre v] er trykt?>
+          peik i retning (-90 v)
           gå (2) steg
       slutt
   slutt
@@ -164,7 +164,7 @@ steg`{.blockmotion}-klossane med
 ## Sjekkliste {.check}
 
 - [ ] No skal me teikne vår eigen figur som me brukar til å markere ein stad på
-  kartet. Klikk ![Teikn ny figur](../bilder/tegn-ny.png) under `Figurer`.
+  kartet. Klikk ![Teikn ny figur](../bilder/tegn-ny.png) under `Figurar`.
 
 - [ ] Me treng berre ein liten disk. Vel ei passande farge, til dømes synest
   raud ganske godt på kartet. Vel sirkelverktøyet og marker den fylte sirkelen
@@ -194,13 +194,13 @@ steg`{.blockmotion}-klossane med
   `Stad`-figuren på riktig stad, og seinare oppdagar om helikopteret reiser dit.
 
   ```blocks
-  når grønt flagg klikkes
-  send melding [Stad: Hønefoss v]
+  når @greenFlag vert trykt på
+  send meldinga [Stad: Hønefoss v]
 
-  når jeg mottar [Stad: Hønefoss v]
+  når eg får meldinga [Stad: Hønefoss v]
   gå til x: (6) y: (-112)
-  vent til <berører [Helikopter v]?>
-  si [Fann Hønefoss!] i (2) sekunder
+  vent til <rører [Helikopter v]?>
+  sei [Fann Hønefoss!] i (2) sekund
   ```
 
   Legg merke til at i `gå til`{.blockmotion}-klossen brukar me same koordinatar
@@ -229,20 +229,20 @@ __Klikk på det grøne flagget.__
 
 - [ ] Legg til ei melding nedst i `Hønefoss`-skriptet som kallar eit nytt
   reisemål. Så lagar du eit nytt skript for den nye staden. Det nye skriptet er
-  veldig likt det fyrste, så du bør høgreklikke på `når jeg mottar Stad:
-  Hønefoss`{.blockevents}-klossen og velje `lag en kopi`.
+  veldig likt det fyrste, så du bør høgreklikke på `når eg får meldinga Stad:
+  Hønefoss`{.blockevents}-klossen og velje `lag ein kopi`.
 
   ```blocks
-  når jeg mottar [Stad: Hønefoss v]
+  når eg får meldinga [Stad: Hønefoss v]
   gå til x: (6) y: (-112)
-  vent til <berører [Helikopter v]?>
-  si [Fann Hønefoss!] i (2) sekunder
-  send melding [Stad: Tromsø v]
+  vent til <rører [Helikopter v]?>
+  sei [Fann Hønefoss!] i (2) sekund
+  send meldinga [Stad: Tromsø v]
 
-  når jeg mottar [Stad: Tromsø v]
+  når eg får meldinga [Stad: Tromsø v]
   gå til x: (103) y: (121)
-  vent til <berører [Helikopter v]?>
-  si [Fann Tromsø!] i (2) sekunder
+  vent til <rører [Helikopter v]?>
+  sei [Fann Tromsø!] i (2) sekund
   ```
 
   Bruk dine eigne koordinater (og namn) for det andre reisemålet òg.
@@ -259,16 +259,16 @@ __Klikk på det grøne flagget.__
 # Steg 5: Skjul reisemåla {.activity}
 
 *Førebels er ikkje spelet så vanskeleg: du må berre styre helikopteret til den
- raude disken. For å lage eit skikkeleg spel vil me skjule den raude disken, og
+ raude disken. For å lage eit skikkeleg spel vil me gøyme den raude disken, og
  heller berre fortelje spelaren til kva stad ho skal flyge!*
 
 ## Sjekkliste {.check}
 
 Fyrst vil me fortelje spelaren kor ho skal flyge.
 
-- [ ] Lag ein ny variabel ved å klikke på `Data`{.blockdata} og så `Lag en
+- [ ] Lag ein ny variabel ved å klikke på `Data`{.blockdata} og så `Lag ein
   variabel`. Kall variabelen `Reis til`{.blockdata} og vel at den skal gjelde
-  `For alle figurer`.
+  `For alle figurar`.
 
 - [ ] Legg merke til at det dukka opp ein boks på kartet,
   `Reis til`{.blocklightgrey}` 0 `{.blockdata}. Flytt denne boksen til ein
@@ -278,22 +278,22 @@ Fyrst vil me fortelje spelaren kor ho skal flyge.
   til`{.blockdata}-variabelen. Fyrst må du endre`Hønefoss`-skriptet som følgjer:
 
   ```blocks
-  når jeg mottar [Stad: Hønefoss v]
+  når eg får meldinga [Stad: Hønefoss v]
   gå til x: (6) y: (-112)
-  sett [Reis til v] til [Hønefoss]
-  vent til <berører [Helikopter v]?>
-  si [Fann Hønefoss!] i (2) sekunder
-  send melding [Stad: Tromsø v]
+  set [Reis til v] til [Hønefoss]
+  vent til <rører [Helikopter v]?>
+  sei [Fann Hønefoss!] i (2) sekund
+  send meldinga [Stad: Tromsø v]
   ```
 
 - [ ] Endre det andre reisemål-skriptet på samme måte:
 
   ```blocks
-  når jeg mottar [Stad: Tromsø v]
+  når eg får meldinga [Stad: Tromsø v]
   gå til x: (103) y: (121)
-  sett [Reis til v] til [Tromsø]
-  vent til <berører [Helikopter v]?>
-  si [Fann Tromsø!] i (2) sekunder
+  set [Reis til v] til [Tromsø]
+  vent til <rører [Helikopter v]?>
+  sei [Fann Tromsø!] i (2) sekund
   ```
 
 ## Test prosjektet {.flag}
@@ -306,16 +306,16 @@ __Klikk på det grøne flagget.__
 
 ## Sjekkliste {.check}
 
-No er me klare til å skjule den raude disken. Me prøvar fyrst det enklaste og
+No er me klare til å gøyme den raude disken. Me prøvar fyrst det enklaste og
 mest opplagte:
 
-- [ ] Legg til ein `skjul`{.blocklooks}-kloss i oppstartskriptet på
+- [ ] Legg til ein `gøym`{.blocklooks}-kloss i oppstartskriptet på
   `Stad`-figuren.
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
-  send melding [Stad: Hønefoss v]
+  når @greenFlag vert trykt på
+  gøym
+  send meldinga [Stad: Hønefoss v]
   ```
 
 ## Test prosjektet {.flag}
@@ -327,23 +327,23 @@ __Klikk på det grøne flagget.__
 - [ ] Kva skjer viss du reiser til Hønefoss?
 
 Hmm... Spelet oppdatar ikkje at me reiser til Barcelona lengre. Problemet er at
-sidan me skjuler disken vil den ikkje lengre berøre `Helikopter`. Me må finne
+sidan me gøymer disken vil den ikkje lengre berøre `Helikopter`. Me må finne
 ein annan måte å gjere disken usynleg på.
 
 ## Sjekkliste {.check}
 
-- [ ] I staden for å skjule disken heilt vil me gjere den gjennomsiktig. Bytt
-  ut `skjul`{.blocklooks}-klossen med ein `sett effekt`{.blocklooks}-kloss:
+- [ ] I staden for å gøyme disken heilt vil me gjere den gjennomsiktig. Bytt
+  ut `gøym`{.blocklooks}-klossen med ein `set effekt`{.blocklooks}-kloss:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   vis
-  sett [gjennomsiktig v] effekt til (100)
-  send melding [Stad: Hønefoss v]
+  set [gjennomsiktig v]-effekt til (100)
+  send meldinga [Stad: Hønefoss v]
   ```
 
   Me har lagt til ein `vis`{.blocklooks}-kloss for å vere på den sikre siden
-  (me har jo oppdaget at spelet ikkje virkar om `Stad`-figuren er skjult).
+  (me har jo oppdaget at spelet ikkje virkar om `Stad`-figuren er gøymt).
 
 ## Test prosjektet {.flag}
 
@@ -366,18 +366,18 @@ funne det.*
   skript kvar gong me finn eit reisemål. Endre `Stad`-skripta som følgjer:
 
   ```blocks
-  når jeg mottar [Stad: Hønefoss v]
+  når eg får meldinga [Stad: Hønefoss v]
   gå til x: (6) y: (-112)
-  sett [Reis til v] til [Hønefoss]
-  vent til <berører [Helikopter v]?>
-  send melding [Fann stad v] og vent
-  send melding [Stad: Tromsø v]
+  set [Reis til v] til [Hønefoss]
+  vent til <rører [Helikopter v]?>
+  send meldinga [Fann stad v] og vent
+  send meldinga [Stad: Tromsø v]
 
-  når jeg mottar [Stad: Tromsø v]
+  når eg får meldinga [Stad: Tromsø v]
   gå til x: (103) y: (121)
-  sett [Reis til v] til [Tromsø]
-  vent til <berører [Helikopter v]?>
-  send melding [Fann stad v] og vent
+  set [Reis til v] til [Tromsø]
+  vent til <rører [Helikopter v]?>
+  send meldinga [Fann stad v] og vent
   ```
 
 - [ ] Når me mottek `Fann stad`-meldinga vil me vise kor reisemålet faktisk
@@ -386,10 +386,10 @@ funne det.*
   til dette skriptet:
 
   ```blocks
-  når jeg mottar [Fann stad v]
-  sett [gjennomsiktig v] effekt til (0)
+  når eg får meldinga [Fann stad v]
+  set [gjennomsiktig v]-effekt til (0)
   stemple avtrykk
-  sett [gjennomsiktig v] effekt til (100)
+  set [gjennomsiktig v]-effekt til (100)
   ```
 
 ## Test prosjektet {.flag}
@@ -407,11 +407,11 @@ __Klikk på det grøne flagget.__
   kloss på oppstart-skriptet:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   slett
   vis
-  sett [gjennomsiktig v] effekt til (100)
-  send melding [Stad: Hønefoss v]
+  set [gjennomsiktig v]-effekt til (100)
+  send meldinga [Stad: Hønefoss v]
   ```
 
 - [ ] La oss leggje på ein enkel lydeffekt når spelaren finn eit reisemål.
@@ -423,11 +423,11 @@ __Klikk på det grøne flagget.__
   og legg til ein `spill lyden`{.blocksound}-kloss.
 
   ```blocks
-  når jeg mottar [Fann stad v]
+  når eg får meldinga [Fann stad v]
   spill lyden [rattle v]
-  sett [gjennomsiktig v] effekt til (0)
+  set [gjennomsiktig v]-effekt til (0)
   stemple avtrykk
-  sett [gjennomsiktig v] effekt til (100)
+  set [gjennomsiktig v]-effekt til (100)
   ```
 
 ## Test prosjektet {.flag}
@@ -460,13 +460,13 @@ __Klikk på det grøne flagget.__
   andre tal. Så startar me ei løkke som tel ned kvart sekund.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [Tid v] til [30]
+  når @greenFlag vert trykt på
+  set [Tid v] til [30]
   gjenta til <(Tid) = [0]>
-      vent (1) sekunder
-      endre [Tid v] med (-1)
+      vent (1) sekund
+      endra [Tid v] med (-1)
   slutt
-  send melding [Avslutt v]
+  send meldinga [Avslutt v]
   ```
 
   Legg merke til at me òg sender ut ei ny melding `Avslutt` når tida er ute.
@@ -475,7 +475,7 @@ __Klikk på det grøne flagget.__
 - [ ] Lag eit nytt skript på scena som avsluttar spelet.
 
   ```blocks
-  når jeg mottar [Avslutt v]
+  når eg får meldinga [Avslutt v]
   stopp [alle v] :: control
   ```
 
@@ -497,8 +497,8 @@ Som ein bonus kan me gi spelaren litt ekstra tid kvar gong ho finn eit reisemål
 - [ ] Lag eit nytt skript på scena som reagerer på meldinga `Fann stad`.
 
   ```blocks
-  når jeg mottar [Fann stad v]
-  endre [Tid v] med (10)
+  når eg får meldinga [Fann stad v]
+  endra [Tid v] med (10)
   ```
 
 # Steg 8: Fleire stader å besøke {.activity}
@@ -515,16 +515,16 @@ har laga, og så endre på dei.
 - [ ] Vel figuren `Stad`.
 
 - [ ] Me har gjort `Stad`-figuren heilt gjennomsiktig. For å gjere den synleg
-  att kan du klikke på klossen `ta bort grafiske effekter`{.blocklooks} i
-  `Utseende`{.blocklooks}-kategorien. Du treng ikkje leggje den til i noko
-  skript. Det kan vere nyttig å klikke på  `slett`{.blockpen}-klossen i
+  att kan du klikke på klossen `ta vekk grafiske effektar`{.blocklooks} i
+  `Utsjånad`{.blocklooks}-kategorien. Du treng ikkje leggje den til i noko
+  skript. Det kan vere nyttig å klikke på `slett`{.blockpen}-klossen i
   `Penn`{.blockpen}-kategorien òg.
 
 - [ ] Flytt den raude disken til ein ny stad. Merk deg koordinatane ved å sjå
   på figurinformasjonen, `i`{.blockmotion}.
 
-- [ ] Høgreklikk på skriptet som startar `når jeg mottar Stad:
-  Hønefoss`{.blockevents} og vel `lag en kopi`. Oppdater kopien med namnet og
+- [ ] Høgreklikk på skriptet som startar `når eg får meldinga Stad:
+  Hønefoss`{.blockevents} og vel `lag ein kopi`. Oppdater kopien med namnet og
   koordinatane du fann over.
 
 - [ ] Under har me lagt til tre nye stader (og ei melding for å leggje vidare
@@ -532,40 +532,40 @@ har laga, og så endre på dei.
   namn og koordinatar.
 
   ```blocks
-  når jeg mottar [Stad: Hønefoss v]
+  når eg får meldinga [Stad: Hønefoss v]
   gå til x: (6) y: (-112)
-  sett [Reis til v] til [Hønefoss]
-  vent til <berører [Helikopter v]?>
-  send melding [Fann stad v] og vent
-  send melding [Stad: Tromsø v]
+  set [Reis til v] til [Hønefoss]
+  vent til <rører [Helikopter v]?>
+  send meldinga [Fann stad v] og vent
+  send meldinga [Stad: Tromsø v]
 
-  når jeg mottar [Stad: Tromsø v]
+  når eg får meldinga [Stad: Tromsø v]
   gå til x: (103) y: (121)
-  sett [Reis til v] til [Tromsø]
-  vent til <berører [Helikopter v]?>
-  send melding [Fann stad v] og vent
-  send melding [Stad: Lillehammer v]
+  set [Reis til v] til [Tromsø]
+  vent til <rører [Helikopter v]?>
+  send meldinga [Fann stad v] og vent
+  send meldinga [Stad: Lillehammer v]
 
-  når jeg mottar [Stad: Lillehammer v]
+  når eg får meldinga [Stad: Lillehammer v]
   gå til x: (14) y: (-94)
-  sett [Reis til v] til [Lillehammer]
-  vent til <berører [Helikopter v]?>
-  send melding [Fann stad v] og vent
-  send melding [Stad: Bergen v]
+  set [Reis til v] til [Lillehammer]
+  vent til <rører [Helikopter v]?>
+  send meldinga [Fann stad v] og vent
+  send meldinga [Stad: Bergen v]
 
-  når jeg mottar [Stad: Bergen v]
+  når eg får meldinga [Stad: Bergen v]
   gå til x: (-52) y: (-107)
-  sett [Reis til v] til [Bergen]
-  vent til <berører [Helikopter v]?>
-  send melding [Fann stad v] og vent
-  send melding [Stad: Narvik v]
+  set [Reis til v] til [Bergen]
+  vent til <rører [Helikopter v]?>
+  send meldinga [Fann stad v] og vent
+  send meldinga [Stad: Narvik v]
 
-  når jeg mottar [Stad: Narvik v]
+  når eg får meldinga [Stad: Narvik v]
   gå til x: (91) y: (90)
-  sett [Reis til v] til [Narvik]
-  vent til <berører [Helikopter v]?>
-  send melding [Fann stad v] og vent
-  send melding [Avslutt v]
+  set [Reis til v] til [Narvik]
+  vent til <rører [Helikopter v]?>
+  send meldinga [Fann stad v] og vent
+  send meldinga [Avslutt v]
   ```
 
 ## Test prosjektet {.flag}
@@ -621,25 +621,25 @@ vidare til neste reisemål på lista.
   nokre av skripta brukar variablar du må lage sjølv.
 
   ```blocks
-  definer sjekk sted
-  hvis <<(tilfeldig tall fra (1) til (Antal stader totalt)) > [1]> eller <berører fargen [#ff0000]?>>
-      sett [bruk sted v] til [nei]
-  ellers
-      sett [bruk sted v] til [ja]
+  definer sjekk stad
+  viss <<(tilfeldig tal frå (1) til (Antal stader totalt)) > [1]> eller <rører fargen [#ff0000]?>>
+      set [bruk stad v] til [nei]
+  elles
+      set [bruk stad v] til [ja]
   slutt
 
-  når jeg mottar [Stad: Hønefoss v]
+  når eg får meldinga [Stad: Hønefoss v]
   gå til x: (6) y: (-112)
-  sjekk sted
-  hvis <(bruk sted) = [ja]>
-      sett [Reis til v] til [Hønefoss]
-      vent til <berører [Helikopter v]?>
-      send melding [Fann stad v] og vent
+  sjekk stad
+  viss <(bruk stad) = [ja]>
+      set [Reis til v] til [Hønefoss]
+      vent til <rører [Helikopter v]?>
+      send meldinga [Fann stad v] og vent
   slutt
-  send melding [Stad: Tromsø v]
+  send meldinga [Stad: Tromsø v]
   ```
 
-  Klossen `berører fargen`{.blocksensing} brukast for å sjekke om me allereie
+  Klossen `rører fargen`{.blocksensing} brukast for å sjekke om me allereie
   har besøkt eit reisemål. I så fall vil me jo ha stemplet raudfarge på kartet.
 
 - [ ] Siden dette vil hoppe over reisemål, er det viktig at det siste reisemålet
