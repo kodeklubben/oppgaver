@@ -3,7 +3,6 @@ title: Spøkelsesjakta
 level: 1
 author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
 translator: 'Stein Olav Romslo'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nn
 ---
 
@@ -38,7 +37,7 @@ No skal du __lage ein variabel__ som styrer kor fort spøkelset beveger seg.
 Denne kan me bruke til å endre hastigheita undervegs i spelet seinare.
 
 - [ ] Under `Skript`{.blocklightgrey}, trykk på `Data`{.blockdata} og så
-  `Lag en variabel`. Kall variabelen `hastigheit`. Huk av der det står
+  `Lag ein variabel`. Kall variabelen `hastigheit`. Huk av der det står
   `For denne figuren`.
 
 - [ ] På scena skal variabelen heite `spøkelse1: hastigheit`. Viss den berre
@@ -51,8 +50,8 @@ Denne kan me bruke til å endre hastigheita undervegs i spelet seinare.
   lage følgjande skript:
 
   ```blocks
-  når grønt flagg klikkes
-  sett [hastigheit v] til [5]
+  når @greenFlag vert trykt på
+  set [hastigheit v] til [5]
   for alltid
       gå (hastigheit) steg
   slutt
@@ -69,15 +68,15 @@ __Klikk på det grøne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] For å unngå at spøkelset sit fast i kanten må me får det til å snu når det
-  treff den. Dette gjer me ved å leggje til klossen `sprett tilbake ved
-  kanten`{.blockmotion}. Då ser skriptet slik ut:
+  treff den. Dette gjer me ved å leggje til klossen `viss ved kant,
+  sprett`{.blockmotion}. Då ser skriptet slik ut:
 
   ```blocks
-  når grønt flagg klikkes
-  sett [hastigheit v] til [5]
+  når @greenFlag vert trykt på
+  set [hastigheit v] til [5]
   for alltid
       gå (hastigheit) steg
-      sprett tilbake ved kanten
+      viss ved kant, sprett
   slutt
   ```
 
@@ -116,12 +115,12 @@ __Klikk på det grøne flagget.__
   fram til spelet er over. Slik lagar du skriptet:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
       vis
-      vent (tilfeldig tall fra (3) til (5)) sekunder
-      skjul
-      vent (tilfeldig tall fra (2) til (4)) sekunder
+      vent (tilfeldig tal frå (3) til (5)) sekund
+      gøym
+      vent (tilfeldig tal frå (2) til (4)) sekund
   slutt
   ```
 
@@ -135,7 +134,7 @@ __Klikk på det grøne flagget.__
 
 ## Ting å prøve {.challenge}
 
-- [ ] Prøv å __endre tala i koden__ der det står `tilfeldig tall fra _ til
+- [ ] Prøv å __endre tala i koden__ der det står `tilfeldig tal frå _ til
   _`{.blockoperators}. Kva skjer viss du vel store eller små tal? (Dette er
   kanskje eit nytt hint for korleis me får spøkelset til å gå fortare di lengre
   ein spelar.)
@@ -155,9 +154,9 @@ __Klikk på det grøne flagget.__
   klikka på:
 
   ```blocks
-  når denne figuren klikkes
-  skjul
-  spill lyden [fairydust v]
+  når denne figuren vert trykt på
+  gøym
+  spel lyden [fairydust v]
   ```
 
 ## Test prosjektet {.flag}
@@ -186,10 +185,10 @@ __Klikk på det grøne flagget.__
   klikkar på spøkelset.
 
   ```blocks
-  når denne figuren klikkes
-  skjul
-  spill lyden [fairydust v]
-  endre [Poeng v] med (1)
+  når denne figuren vert trykt på
+  gøym
+  spel lyden [fairydust v]
+  endra [Poeng v] med (1)
   ```
 
 - [ ] Klikk på `Scene` og lag ein ny variabel som heiter `Tid`. La variablen
@@ -203,12 +202,12 @@ __Klikk på det grøne flagget.__
   slutt stoppar du heile spelet med ein  `stopp alle`{.blockcontrol}-kloss.
 
   ```blocks
-  Når grønt flagg klikkes
-  sett [Tid v] til [30]
-  sett [Poeng v] til [0]
+  når @greenFlag vert trykt på
+  set [Tid v] til [30]
+  set [Poeng v] til [0]
   gjenta til <(Tid) = [0]>
-      vent (1) sekunder
-      endre [Tid v] med (-1)
+      vent (1) sekund
+      endra [Tid v] med (-1)
   slutt
   stopp [alle v] :: control
   ```
@@ -271,7 +270,7 @@ Gratulerer! Då har du gjort alt riktig!
 
 - [ ] Klarar du å få spøkelsa til __å sjå ulike ut__? Klikk på
   `Drakter`{.blocklightgrey} og prøv deg frem. Du kan òg prøv med nokon av
-  klossane under `Utseende`{.blocklooks}.
+  klossane under `Utsjånad`{.blocklooks}.
 
 - [ ] Kan du få spøkelsa til __å bli verdt ulike antal poeng__? Kva med å få den
   minste og raskaste til å gi `10` poeng?
