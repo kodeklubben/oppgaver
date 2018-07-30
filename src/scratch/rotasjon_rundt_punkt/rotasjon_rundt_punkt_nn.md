@@ -38,9 +38,9 @@ og heller laste inn den førre oppgåva di frå "Mine ting"-mappa.
   tilfelle noko uventa skjer:
 
   ```blocks
-  når [n v] trykkes
+  når [n v] vert trykt
   vis
-  pek i retning [90 v]
+  peik i retning [90 v]
   gå til x: (0) y: (0)
   ```
 
@@ -63,9 +63,9 @@ og heller laste inn den førre oppgåva di frå "Mine ting"-mappa.
 - [ ] Vel Hattulf. I skriptet
 
   ```blocks
-  når [n v] trykkes
+  når [n v] vert trykt
   vis
-  pek i retning [90 v]
+  peik i retning [90 v]
   gå til x: (0) y: (0)
   ```
 
@@ -93,9 +93,9 @@ No skal me rotere Hattulf om origo på ein ganske enkel måte.
 - [ ] Lag dette skriptet til Hattulf:
 
   ```blocks
-  når [pil høyre v] trykkes
+  når [pil høgre v] vert trykt
   gå (200) steg
-  vend høyre (90) grader
+  snu @turnRight (90) gradar
   ```
 
 ## Test prosjektet {.flag}
@@ -116,18 +116,18 @@ No skal me rotere Hattulf om origo på ein ganske enkel måte.
   blir veldig stor i forhold til alt det andre kan du krympe den til passe
   storleik. Kall den nye figuren `Ven`.
 
-- [ ] Lag ein kopi av "Når `N` trykkes"-skriptet frå Hattulf til `Ven`, men
+- [ ] Lag ein kopi av "Når `N` vert trykt"-skriptet frå Hattulf til `Ven`, men
   endre `y`-verdien til `50`.
 
 - [ ] Kopier rotasjonsskriptet frå Hattulf, men halver både talet på steg og
-  talet på grader i skriptet.
+  talet på gradar i skriptet.
 
 - [ ] For litt meir moro kan du leggje til ei linje med kode som skrur på
   `pennen`{.blockpen} for begge figurane. Øvste del av pil høgre-skriptet skal
   sjå slik ut:
 
   ```blocks
-  når [pil høyre v] trykkes
+  når [pil høgre v] vert trykt
   penn på
   ```
 
