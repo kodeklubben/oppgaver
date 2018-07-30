@@ -36,12 +36,12 @@ som me skal kaste.
 
   I fyrste omgang veit ikkje Ronny om noko av søppelet, så me let Ronny setje
   både poeng og mål til null. For å leggje til variablar trykkar me på
-  `Data`{.blockdata}-kategorien og på `Lag en variabel`.
+  `Data`{.blockdata}-kategorien og på `Lag ein variabel`.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [Mål v] til [0]
-  sett [Poeng v] til [0]
+  når @greenFlag vert trykt på
+  set [Mål v] til [0]
+  set [Poeng v] til [0]
   ```
 
 - [ ] Legg til seks figurar som representerer søppel. Her kan du velje
@@ -74,11 +74,11 @@ som me skal kaste.
   plasserer dei på nytt kvar gong me startar spelet.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (78) y: (5)
   ```
 
-  Søppelfigurene må ha kvar sin plass, så du må finne `x`- og `y`-koordinatar
+  Søppelfigurane må ha kvar sin plass, så du må finne `x`- og `y`-koordinatar
   for kvar av dei.
 
 ## Test prosjektet {.flag}
@@ -98,17 +98,17 @@ ber me om hjelp frå søppelfigurane sjølv.
   sende meldinga `Førebu spel`.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [Mål v] til [0]
-  sett [Poeng v] til [0]
-  send melding [Førebu spel v]
+  når @greenFlag vert trykt på
+  set [Mål v] til [0]
+  set [Poeng v] til [0]
+  send meldinga [Førebu spel v]
   ```
 
 - [ ] Kvar av søppelbitane må svare på meldinga ved å auke `Mål` med `1`.
 
   ```blocks
-  når jeg mottar [Førebu spel v]
-  endre [Mål v] med (1)
+  når eg får meldinga [Førebu spel v]
+  endra [Mål v] med (1)
   ```
 
 - [ ] Før spelet kan starte må me gi Ronny litt tid til å kommunisere og la
@@ -116,13 +116,13 @@ ber me om hjelp frå søppelfigurane sjølv.
   litt. Når Ronny er ferdig med å prate kan me starte spelet.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [Mål v] til [0]
-  sett [Poeng v] til [0]
-  send melding [Førebu spel v]
-  si [Hei, eg heiter Ronny. Kan du hjelpe meg å redde verda?] i (3) sekunder
-  send melding [Start spel v]
-  si [Me må sortere avfallet til rett kjelde. Kan du hjelpe meg?] i (3) sekunder
+  når @greenFlag vert trykt på
+  set [Mål v] til [0]
+  set [Poeng v] til [0]
+  send meldinga [Førebu spel v]
+  sei [Hei, eg heiter Ronny. Kan du hjelpe meg å redde verda?] i (3) sekund
+  send meldinga [Start spel v]
+  sei [Me må sortere avfallet til rett kjelde. Kan du hjelpe meg?] i (3) sekund
   ```
 
 ## Test prosjektet {.flag}
@@ -139,13 +139,13 @@ __Klikk på det grøne flagget.__
 - Ronny har fleire drakter som viser han blid og sur. Klarar du å bytte drakt på
   Ronny når han pratar, og tilbake når han er ferdig med å prate?
 
-  ![Bilete av Ronny som pratar](ronny_prater.png) <!-- ikke figur -->
+  ![Bilete av Ronny som pratar](ronny_prater.png)
 
 - I staden for snakkeboblar, kan du spele inn di eiga stemme? **Hint:** Bruk
   blokka under.
 
   ```blocks
-  spill lyden [opptak 1 v] til den er ferdig
+  spel lyden [opptak 1 v] til den er ferdig
   ```
 
 
@@ -167,26 +167,26 @@ No som me veit kor mange poeng me skal nå kan me setje opp bøttene våre.
   bruke `Start spel`-meldinga.
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   ```
 
   ```blocks
-  når jeg mottar [Start spel v]
+  når eg får meldinga [Start spel v]
   vis
   ```
 
-- [ ] Dette trikset kan vi også gjøre for søppelet, som også er greit å skjule
+- [ ] Dette trikset kan vi også gjøre for søppelet, som også er greit å gøyme
   før spillet er i gang.
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   gå til x: (78) y: (5)
   ```
 
   ```blocks
-  når jeg mottar [Start spel v]
+  når eg får meldinga [Start spel v]
   vis
   ```
 
@@ -209,22 +209,22 @@ No må me telje poeng når me flyttar søppelbitane oppi bøttene.
   musepeikaren til dei er flytta til den bøtta som passar til kvar av dei.
 
   ```blocks
-  når denne figuren klikkes
-  gjenta til <berører [Mat v] ?>
-    gå til [musepeker v]
+  når denne figuren vert trykt på
+  gjenta til <rører [Mat v] ?>
+    gå til [musepeikar v]
   slutt
   ```
 
-- [ ] Når søppelet er lagt i riktig bøtte må me leggje til eitt poeng og skjule
+- [ ] Når søppelet er lagt i riktig bøtte må me leggje til eitt poeng og gøyme
   søppelet.
 
   ```blocks
-  når denne figuren klikkes
-  gjenta til <berører [Mat v] ?>
-    gå til [musepeker v]
+  når denne figuren vert trykt på
+  gjenta til <rører [Mat v] ?>
+    gå til [musepeikar v]
   slutt
-  endre [Poeng v] med (1)
-  skjul
+  endra [Poeng v] med (1)
+  gøym
   ```
 
 ## Test prosjektet {.flag}
@@ -253,27 +253,27 @@ Når me har fått alt søppelet på plass må me avslutte spelet.
   `vent til`-blokk i skriptet hans.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [Mål v] til [0]
-  sett [Poeng v] til [0]
-  send melding [Førebu spel v]
-  si [Hei, eg heiter Ronny. Kan du hjelpe meg å redde verda?] i (3) sekunder
-  send melding [Start spel v]
+  når @greenFlag vert trykt på
+  set [Mål v] til [0]
+  set [Poeng v] til [0]
+  send meldinga [Førebu spel v]
+  sei [Hei, eg heiter Ronny. Kan du hjelpe meg å redde verda?] i (3) sekund
+  send meldinga [Start spel v]
   vent til <(Poeng) = (Mål)>
-  send melding [Spel ferdig v]
-  si [Takk for at du hjelper meg å redde verda!]
+  send meldinga [Spel ferdig v]
+  sei [Takk for at du hjelper meg å redde verda!]
   ```
 
 - [ ] I tillegg til at Ronny takkar oss for å at me kjeldesorterte avfallet, så
   ber me han sende meldinga `Spel ferdig`. Dette gjer at me kan fortelje dei
   andre figurane at spelet er over.
 
-  Me kan til dømes fortelje bøttene at dei skal skjule seg sjølv når spelet er
+  Me kan til dømes fortelje bøttene at dei skal gøyme seg sjølv når spelet er
   over.
 
   ```blocks
-  når jeg mottar [Spel ferdig v]
-  skjul
+  når eg får meldinga [Spel ferdig v]
+  gøym
   ```
 
 - [ ] Til slutt kan me forandre bakgrunnen når spelet avsluttast, slik at
@@ -288,8 +288,8 @@ Når me har fått alt søppelet på plass må me avslutte spelet.
   ved å leggje til følgjande på skriptet til `Scene`.
 
   ```blocks
-  når jeg mottar [Spel ferdig v]
-  bytt bakgrunn til [water and rocks v]
+  når eg får meldinga [Spel ferdig v]
+  byt bakgrunn til [water and rocks v]
   ```
 
 ## Test prosjektet {.flag}
