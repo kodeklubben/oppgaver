@@ -26,7 +26,7 @@ poeng når den treff.
 ## Sjekkliste {.check}
 
 - [ ] Gå inn på <http://scratch.mit.edu/users/gubbisduff/> og klikk på
-  prosjektet `Krabbeangrep!`. Vel `Se inni`{.blocksensing}.
+  prosjektet `Krabbeangrep!`. Vel `Sjå inni`{.blocksensing}.
 
 - [ ] Trykk på knappen der det står `Remiks` øvst i høgre hjørne. No har du ein
   kopi av spelet på din eigen brukar som du kan gjere kva du vil med utan at du
@@ -67,10 +67,10 @@ melding.
   Gi den namnet `Startknapp`.
 
 - [ ] Me må lage ein bakgrunn som kan fungere som hovudmeny. Trykk på scena og
-  vel `Bakgrunner`. Lag ein kopi av bakgrunnen `Rommet` ved å høgreklikke og
-  trykkje på `lag en kopi`. Pynt litt på den med tekst og eventuelle andre ting
+  vel `Bakgrunnar`. Lag ein kopi av bakgrunnen `Rommet` ved å høgreklikke og
+  trykkje på `lag ein kopi`. Pynt litt på den med tekst og eventuelle andre ting
   du måtte ynskje slik at ein ser at det er ein hovudmeny. Gi den namnet
-  `Hovedmeny`.
+  `Hovudmeny`.
 
 
 # Steg 3: Me lagar ein meny, del II {.activity}
@@ -82,7 +82,7 @@ melding.
 ### Sjå mottakarar {.protip}
 
 Du kan sjekke kven som mottek ei bestemt melding ved å høgreklikke på ein
-meldingskloss og klikke på `vis sendere` og `vis mottakere`. Då vil dei som
+meldingskloss og klikke på `vis sendarar` og `vis mottakarar`. Då vil dei som
 sender/mottek akkurat den meldinga få ei ramme rundt seg i figurområdet.
 
 ## Sjekkliste {.check}
@@ -90,11 +90,11 @@ sender/mottek akkurat den meldinga få ei ramme rundt seg i figurområdet.
 - [ ] Endre på skripta i scena slik at du har følgjande skript:
 
   ```blocks
-  når grønt flagg klikkes
-  send melding [hovudmeny v]
+  når @greenFlag vert trykt på
+  send meldinga [hovudmeny v]
 
-  Når jeg mottar [hovudmeny v]
-  bytt bakgrunn til [Hovedmeny v]
+  når eg får meldinga [hovudmeny v]
+  bytt bakgrunn til [Hovudmeny v]
   ```
 
 - [ ] Gi startknappen dei følgjande skripta (de to første syt for at knappen
@@ -102,30 +102,30 @@ sender/mottek akkurat den meldinga få ei ramme rundt seg i figurområdet.
   faktisk er ein startknapp):
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
 
-  når jeg mottar [hovudmeny v]
+  når eg får meldinga [hovudmeny v]
   gå til x: (0) y: (0)
   vis
 
-  når denne figuren klikkes
-  send melding [nytt spel v]
+  når denne figuren vert trykt på
+  send meldinga [nytt spel v]
   ```
 
 - [ ] No må me syte for at reisten av figurane oppfører seg som me vil både når
   flagget klikkast, når hovudmenyen skal visast og når startknappen blir klikka!
   Det tyder at me må ha mange små skript som lyttar etter desse meldingane
-  (skript som startar med klossane under `Hendelser`{.blockevents}). Me skal
+  (skript som startar med klossane under `Hendingar`{.blockevents}). Me skal
   ikkje skrive nøyaktig korleis desse skripta skal sjå ut, det skal du klare
   sjølv, men her er det som må med:
 
 - [ ] Både romskipet, romvesenet og godbiten må gjere følgjande: figuren blir
-  skjult når ein trykkar flagget, og figuren går inn i *hovudløkka* si når `nytt
+  gøymt når ein trykkar flagget, og figuren går inn i *hovudløkka* si når `nytt
   spel` blir motteke. Kva som er *hovudløkka* til ein figur står tydeleg skrive
   i kommentarane.
 
-- [ ] Startknappen må skjulast når `nytt spel` blir motteke.
+- [ ] Startknappen må gøymast når `nytt spel` blir motteke.
 
 - [ ] Scena må skifte bakgrunn til `Rommet` når `nytt spel` blir motteke.
 
@@ -133,7 +133,7 @@ sender/mottek akkurat den meldinga få ei ramme rundt seg i figurområdet.
 
 __Klikk på det grøne flagget.__
 
-- [ ] Skjulast alle figurane utanom startknappen når hovudmenyen blir vist?
+- [ ] Gøymast alle figurane utanom startknappen når hovudmenyen blir vist?
 
 - [ ] Startar spelet som det skal når startknappen blir trykka på?
 
@@ -146,7 +146,7 @@ bruke på ein eller fleire av utfordringane under.
 
 No som spelet har ein god start kan du prøve å gi det ein god slutt òg. I denne
 utfordringa er målet å gjere det siste steget i spelflyt-teikninga over. Du legg
-kanskje merke til at scena har eit skript som startar med `Når jeg mottar
+kanskje merke til at scena har eit skript som startar med `Når eg får meldinga
 treff`{.blockevents}, og at her blir meldinga `tapte` sendt viss spelaren ikkje
 har fleire liv att? Det er ingen som mottek denne meldinga! Gi dei andre
 figurane skript som reagerer på denne meldinga. Ein av figurane kan til dømes
