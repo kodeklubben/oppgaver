@@ -44,8 +44,8 @@ raskare og vanskelegare å jage bort.
 - [ ] Legg det følgjande skriptet på scena:
 
   ```blocks
-  når grønt flagg klikkes
-  send melding [start v]
+  når @greenFlag vert trykt på
+  send meldinga [start v]
   ```
 
   Dette trikset har du kanskje sett før. Det gjer det enklare for oss å kome
@@ -59,10 +59,10 @@ raskare og vanskelegare å jage bort.
   figuren, og lag dette skriptet:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (75) %
-  begrens rotasjon [vend sideveis v]
-  sett [hastigheit v] til [5]
+  når @greenFlag vert trykt på
+  set storleik til (75) %
+  bruk roteringstypen [vend sidevegs v]
+  set [hastigheit v] til [5]
   ```
 
   På det grøne flagget legg me innstillingar som skal gjelde for `Helten`
@@ -73,17 +73,17 @@ raskare og vanskelegare å jage bort.
 - meldinga `start`:
 
   ```blocks
-  når jeg mottar [start v]
+  når eg får meldinga [start v]
   gå til x: (0) y: (-75)
   for alltid
   slutt
   ```
 
-- [ ] Inne i løkka treng me to `hvis`{.blockcontrol}-klossar som flyttar
+- [ ] Inne i løkka treng me to `viss`{.blockcontrol}-klossar som flyttar
   `Helten` `hastigheit`{.blockdata} steg mot høgre eller venstre når piltastane
   høgre eller venstre blir trykka på. Desse lagar du sjølv.
 
-- [ ] Til slutt lagar du ein `hvis`{.blockcontrol}-kloss som sender meldinga
+- [ ] Til slutt lagar du ein `viss`{.blockcontrol}-kloss som sender meldinga
   `kast` når mellomrom-tasten blir trykka på.
 
 ## Test prosjektet {.flag}
@@ -118,30 +118,30 @@ __Klikk på det grøne flagget.__
   figuren.
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
-  sett størrelse til (40) %
-  sett [hastigheit v] til [10]
+  når @greenFlag vert trykt på
+  gøym
+  set storleik til (40) %
+  set [hastigheit v] til [10]
   ```
 
-- [ ] Me brukar `skjul`{.blocklooks} fordi me vil lage kloner (kopiar) av
+- [ ] Me brukar `gøym`{.blocklooks} fordi me vil lage kloner (kopiar) av
   snøballen som me kastar av garde. Dette er eit veldig nyttig triks i Scratch.
   Sjølve koden som reagerer på `kast`-meldinga er veldig enkel.
 
   ```blocks
-  når jeg mottar [kast v]
+  når eg får meldinga [kast v]
   lag klon av [meg v]
   ```
 
 - [ ] Sjølve oppførselen til kvar enkelt snøball programmerer me på ein `når
-  jeg starter som klon`{.blockcontrol}-kloss.
+  eg startar som klon`{.blockcontrol}-kloss.
 
   ```blocks
-  når jeg starter som klon
+  når eg startar som klon
   gå til [Helten v]
-  pek i retning ([retning v] av [Helten v])
+  peik i retning ([retning v] av [Helten v])
   vis
-  gjenta til <berører [kant v]>
+  gjenta til <rører [kant v]>
       gå (hastigheit) steg
   slutt
   slett denne klonen
@@ -167,7 +167,7 @@ __Klikk på det grøne flagget.__
   kastar snøballen. Legg til
 
   ```blocks
-  vent til <ikke <tast [mellomrom v] trykket?>>
+  vent til <ikkje <tasten [mellomrom v] er trykt?>>
   ```
 
   på `Helten`-figuren før `kast`-meldinga blir sendt.
@@ -190,51 +190,51 @@ __Klikk på det grøne flagget.__
   skriptet
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
+  når @greenFlag vert trykt på
+  gøym
   gå til x: (0) y: (-70)
-  begrens rotasjon [vend sideveis v]
-  sett størrelse til (30) %
-  sett [hastigheit v] til [3]
+  bruk roteringstypen [vend sidevegs v]
+  set storleik til (30) %
+  set [hastigheit v] til [3]
   ```
 
 - [ ] Me vil at klonene skal dukke opp med litt tilfeldig mellomrom, og frå
   begge sider av skjermen.
 
   ```blocks
-  når jeg mottar [start v]
+  når eg får meldinga [start v]
   for alltid
-      hvis <(tilfeldig tall fra (0) til (1)) = [0]>
-          pek i retning (90 v)
-          sett x til (-250)
+      viss <(tilfeldig tal frå (0) til (1)) = [0]>
+          peik i retning (90 v)
+          set x til (-250)
       ellers
-          pek i retning (-90 v)
-          sett x til (250)
+          peik i retning (-90 v)
+          set x til (250)
       slutt
       lag klon av [meg v]
-      vent (tilfeldig tall fra (2) til (4)) sekunder
+      vent (tilfeldig tal frå (2) til (4)) sekund
   slutt
   ```
 
 - [ ] På same måte som for snøballane må me bestemme oppførselen for kvar enkelt
   `Skumling`.
 
-  Lag ein `når jeg starter som klon`{.blockcontrol}-kloss der du fyrst viser
+  Lag ein `når eg startar som klon`{.blockcontrol}-kloss der du fyrst viser
   figuren, og så lagar ei `for alltid`{.blockcontrol}-løkke der figuren beveger
   seg `hastigheit`{.blockdata} steg og så ventar ein augneblink, til dømes 0,1
   sekund.
 
-- [ ] Så lagar me ein *ny* `når jeg starter som klon`{.blockcontrol}-kloss
+- [ ] Så lagar me ein *ny* `når eg startar som klon`{.blockcontrol}-kloss
   der me undersøker om me treffer anten ein `Snøball` eller `Helten`.
 
   ```blocks
-  når jeg starter som klon
+  når eg startar som klon
   for alltid
-      hvis <berører [Helten v]?>
-          send melding [slutt v]
+      viss <rører [Helten v]?>
+          send meldinga [slutt v]
           slett denne klonen
       slutt
-      hvis <berører [Snøball v]?>
+      viss <rører [Snøball v]?>
           slett denne klonen
       slutt
   slutt
@@ -242,7 +242,7 @@ __Klikk på det grøne flagget.__
 
   Grunnen til at desse må liggje i eit eige skript er at det fyrste skriptet
   ventar litt mellom kvar gong figuren tek eit steg. Hadde me lagt desse
-  `hvis`{.blockcontrol}-klossane i det same skriptet ville me berre sjekka om
+  `viss`{.blockcontrol}-klossane i det same skriptet ville me berre sjekka om
   `Skumling` vart treft av ein snøball mellom ventinga. Ved å lage eit eige
   skript sjekkar me det heile tida.
 
@@ -280,28 +280,28 @@ Tidlegare laga me meldinga `slutt` som blir sendt ut når `Helten` blir teken av
 ein `Skumling`. No skal me bruke denne til å avslutte spelet. Fyrst lagar me ein
 meny og ein bakgrunn som fortel att me tapte.
 
-- [ ] Klikk på `Scene` til venstre for `Figurer`, og vel `Bakgrunner`-fana.
+- [ ] Klikk på `Scene` til venstre for `Figurer`, og vel `Bakgrunnar`-fana.
   Lag to kopiar av bakgrunnen din og kall dei henhaldsvis `Meny` og `Slutt`.
 
   På `Meny`-bakgrunnen kan du lage ein fin tittel. Skriv `Trykk 'S' for å
   starte`.
 
   På `Slutt`-bakgrunnen kan du skrive ei passande melding for når spelet er
-  slutt. Skriv `Trykk 'S' for å spille igjen`.
+  slutt. Skriv `Trykk 'S' for å spele igjen`.
 
 - [ ] Endre litt på skripta på scena. Fyrst vil me berre vise menyen når det
 - grøne flagget blir klikka på:
 
   ```blocks
-  når grønt flagg klikkes
-  bytt bakgrunn til [Meny v]
+  når @greenFlag vert trykt på
+  byt bakgrunn til [Meny v]
   ```
 
   Så vil me starte spelet når `S` blir trykka på:
 
   ```blocks
-  når [s v] trykkes
-  send melding [start v]
+  når [s v] vert trykt
+  send meldinga [start v]
   ```
 
   Pass på at du byttar til bakgrunnen `Spel` når meldingen `start` blir motteke,
@@ -309,7 +309,7 @@ meny og ein bakgrunn som fortel att me tapte.
 
 - [ ] Til slutt må me passe på at spelet faktisk blir avslutta når
   `slutt`-meldingen blir sendt. Legg på skript for å `slette denne
-  klonen`{.blockcontrol} på `Snøball` og `Skumling`, og skript for å skjule
+  klonen`{.blockcontrol} på `Snøball` og `Skumling`, og skript for å gøyme
   `Helten` når `slutt` blir motteke.
 
 ## Test prosjektet {.flag}
@@ -335,7 +335,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   for alltid
-      sett [Nivå v] til ((1) + ([gulv v] av ((Poeng) / (5))))
+      set [Nivå v] til ((1) + ([golv v] av ((Poeng) / (5))))
   slutt
   ```
 
@@ -353,16 +353,16 @@ __Klikk på det grøne flagget.__
   leggje til desse klossane i hovudskriptet til `Skumling`:
 
   ```blocks
-  når jeg starter som klon
-  sett [Slem v] til (tilfeldig tall fra (1) til (Nivå))
-  sett [Liv v] til (Slem)
-  endre [hastigheit v] med (Slem)
-  endre [farge v] effekt med ((10) * (Slem))
-  endre størrelse med ((5) * (Slem))
+  når eg startar som klon
+  set [Slem v] til (tilfeldig tal frå (1) til (Nivå))
+  set [Liv v] til (Slem)
+  endra [hastigheit v] med (Slem)
+  endra [farge v]-effekt med ((10) * (Slem))
+  endra storleik med ((5) * (Slem))
   vis
   for alltid
       gå (hastigheit) steg
-      vent (0.1) sekunder
+      vent (0.1) sekund
   slutt
   ```
 
@@ -381,7 +381,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   for alltid
-      sett [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
+      set [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
   slutt
   ```
 
