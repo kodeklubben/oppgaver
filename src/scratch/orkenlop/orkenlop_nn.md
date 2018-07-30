@@ -1,10 +1,8 @@
 ---
 title: Ørkenløp
 level: 2
-logo: ../../assets/img/ccuk_logo.png
 author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
 translator: 'Stein Olav Romslo'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nn
 ---
 
@@ -49,7 +47,7 @@ for å flytte figuren sin, og den som kjem fyrst til kanten av skjermen vinn.
   `L`-tasten.
 
   ```blocks
-  når [l v] trykkes
+  når [l v] vert trykt
   gå (4) steg
   ```
 
@@ -57,7 +55,7 @@ for å flytte figuren sin, og den som kjem fyrst til kanten av skjermen vinn.
   `A`-tasten.
 
   ```blocks
-  når [a v] trykkes
+  når [a v] vert trykt
   gå (4) steg
   ```
 
@@ -87,20 +85,20 @@ __Klikk på det grøne flagget.__
 - [ ] Legg til eit skript som viser figuren når spelet startar:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   vis
   ```
 
 - [ ] I tillegg vil me at når du klikkar på knappen skal den fyrst telje ned frå
-  3, seie `SPRING!` og så bli skjult. Dette ordnar du med følgjande skript:
+  3, seie `SPRING!` og så bli gøymt. Dette ordnar du med følgjande skript:
 
   ```blocks
-  når denne figuren klikkes
-  si [3] i (1) sekunder
-  si [2] i (1) sekunder
-  si [1] i (1) sekunder
-  si [SPRING!] i (1) sekunder
-  skjul
+  når denne figuren vert trykt på
+  sei [3] i (1) sekund
+  sei [2] i (1) sekund
+  sei [1] i (1) sekund
+  sei [SPRING!] i (1) sekund
+  gøym
   ```
 
 ## Test prosjektet {.flag}
@@ -120,30 +118,30 @@ vil vite når kappløpet er over.
 
 - [ ] For å vite når kappløpet har starta og slutta lagar me ein variabel
   med namnet `kappløp`{.blockdata}. Variabelen skal vere tilgjengeleg
-  `for alle figurer`. Fjern avhukinga framfor variabelen slik at den
+  `for alle figurar`. Fjern avhukinga framfor variabelen slik at den
   ikke visast på scena.
 
 - [ ] Set `kappløp`{.blockdata} til `0` når spelet startar ved å forandre `når
-  grønt flagg klikkes`{.blockevents}-skriptet slik:
+  grønt flagg vert trykt på`{.blockevents}-skriptet slik:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   vis
-  sett [kappløp v] til [0]
+  set [kappløp v] til [0]
   ```
 
 - [ ] Når nedteljinga er ferdig og løpet startar forandrar me
   `kappløp`{.blockdata}-verdien til 1. Dette gjer du ved å leggje til klossen
-  `Sett kappløp til 1`{.blockdata} under `si 1 i 1 sekunder`{.blocklooks} i
-  skriptet som startar med `når denne figuren klikkes`{.blockevents}.
+  `Set kappløp til 1`{.blockdata} under `sei 1 i 1 sekund`{.blocklooks} i
+  skriptet som startar med `når denne figuren vert trykt på`{.blockevents}.
 
 - [ ] No må me lage ein regel som seier at figurane berre får lov til å bevege
   seg etter at løpet har starta – det vil seie når `kappløp`{.blockdata} har
   verdien 1. Klikk på papegøya og endre:
 
   ```blocks
-  når [a v] trykkes
-  hvis <(kappløp) = [1]>
+  når [a v] vert trykt
+  viss <(kappløp) = [1]>
       gå (4) steg
   slutt
   ```
@@ -164,15 +162,15 @@ __Klikk på det grøne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til ein kloss i papegøya sitt skript som seier `sett kappløp til
+- [ ] Legg til ein kloss i papegøya sitt skript som seier `set kappløp til
   0`{.blockdata} viss figuren er borti kanten av skjermen:
 
   ```blocks
-  når [a v] trykkes
-  hvis <(kappløp) = [1]>
+  når [a v] vert trykt
+  viss <(kappløp) = [1]>
       gå (4) steg
-      hvis <berører [kant v]?>
-          sett [kappløp v] til [0]
+      viss <rører [kant v]?>
+          set [kappløp v] til [0]
       slutt
   slutt
   ```
@@ -189,13 +187,13 @@ __Klikk på det grøne flagget.__
   fortelje at den vann:
 
   ```blocks
-  når [a v] trykkes
-  hvis <(kappløp) = [1]>
+  når [a v] vert trykt
+  viss <(kappløp) = [1]>
       gå (4) steg
-      hvis <berører [kant v]?>
-          sett [kappløp v] til [0]
-          spill lyden [Polly v]
-          si [Polly vann!] i (3) sekunder
+      viss <rører [kant v]?>
+          set [kappløp v] til [0]
+          spel lyden [Polly v]
+          sei [Polly vann!] i (3) sekund
       slutt
   slutt
   ```
@@ -222,13 +220,13 @@ __Klikk på det grøne flagget.__
   `Avslutt` etter at figuren seier den har vunne.
 
   ```blocks
-  når [a v] trykkes
-  hvis <(kappløp) = [1]>
+  når [a v] vert trykt
+  viss <(kappløp) = [1]>
       gå (4) steg
-      hvis <berører [kant v]?>
-          sett [kappløp v] til [0]
-          spill lyden [Polly v]
-          si [Polly vann! v] i (3) sekunder
+      viss <rører [kant v]?>
+          set [kappløp v] til [0]
+          spel lyden [Polly v]
+          sei [Polly vann! v] i (3) sekund
           send melding [Avslutt v]
       slutt
   slutt
@@ -249,7 +247,7 @@ __Klikk på det grøne flagget.__
   fyrste gongen må me leggje til følgjande klossar på begge figurane:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   sett x til (-170)
   ```
 
@@ -292,16 +290,16 @@ Under er eit framlegg til korleis eit rakett-skript kan sjå ut. Du må leggje t
 nokre lydar og variablar på eiga hand.
 
 ```blocks
-når [q v] trykkes
-hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
+når [q v] vert trykt
+viss <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
     bytt drakt til [parrot-rakett v]
-    sett [rakett_brukt v] til [1]
+    set [rakett_brukt v] til [1]
     gå (30) steg
-    spill lyden [motorcycle passing v]
-    hvis <berører [kant v]?>
-        sett [kappløp v] til [0]
-        spill lyden [Polly v]
-        si [Polly vann! v] i (3) sekunder
+    spel lyden [motorcycle passing v]
+    viss <rører [kant v]?>
+        set [kappløp v] til [0]
+        spel lyden [Polly v]
+        sei [Polly vann! v] i (3) sekund
         send melding [Avslutt v]
     slutt
     bytt drakt til [parrot-a v]
@@ -336,36 +334,36 @@ Scratch-kodekloss!
 - [ ] No får du ein `definer ferdig`{.blockmoreblocks}-kloss i
   skriptvindauget ditt. Flytt den litt for seg sjølv.
 
-- [ ] Riv laus heile `hvis`{.blockcontrol}`berører
+- [ ] Riv laus heile `viss`{.blockcontrol}`rører
   kant?`{.blocksensing}-klossen og dra den til `definer
   ferdig`{.blockmoreblocks}-klossen.
 
 - [ ] Kan du dra `ferdig`{.blockmoreblocks}-klossen frå paletten og bruke
   den på same måte som andre kodeklossar?
 
-- [ ] Slett den andre `hvis`{.blockcontrol}`berører
+- [ ] Slett den andre `viss`{.blockcontrol}`rører
   kant?`{.blocksensing}-klossen frå skriptet ditt og erstatt den med ein
   `ferdig`{.blockmoreblocks}-kloss.
 
   ```blocks
   definer ferdig
-  hvis <berører [kant v]?>
-      sett [kappløp v] til [0]
-      spill lyden [Polly v]
-      si [Polly vann! v] i (3) sekunder
+  viss <rører [kant v]?>
+      set [kappløp v] til [0]
+      spel lyden [Polly v]
+      sei [Polly vann! v] i (3) sekund
       send melding [Avslutt v]
 
-  når [a v] trykkes
-  hvis <(kappløp) = [1]>
+  når [a v] vert trykt
+  viss <(kappløp) = [1]>
       gå (4) steg
       ferdig
 
-  når [q v] trykkes
-  hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
+  når [q v] vert trykt
+  viss <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
       bytt drakt til [parrot-rakett v]
-      sett [rakett_brukt v] til [1]
+      set [rakett_brukt v] til [1]
       gå (30) steg
-      spill lyden [motorcycle passing v]
+      spel lyden [motorcycle passing v]
       ferdig
       bytt drakt til [parrot-a v]
   ```
