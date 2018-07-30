@@ -4,7 +4,7 @@ from collections import defaultdict
 import re
 
 # KEYS START HERE (DO NOT REMOVE THESE LINES)
-LANGUAGE = "nb|nn|en|da"
+LANGUAGE = "nb|nn|en"
 TOPIC = "app|electronics|step_based|block_based|text_based|minecraft|web|game|robot|animation|sound|cryptography"
 SUBJECT = "mathematics|science|programming|technology|music|norwegian|english|arts_and_crafts|social_science"
 GRADE = "preschool|primary|secondary|junior|senior"
