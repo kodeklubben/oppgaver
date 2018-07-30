@@ -60,13 +60,13 @@ Ingen spelarar, ingen poeng, ingenting anna enn ein sprettande ball!
   snur når den treff kanten av skjermen.
 
   ```blocks
-  når jeg mottar [Ny ball v]
-  sett [hastighet v] til [7]
+  når eg får meldinga [Ny ball v]
+  set [hastigheit v] til [7]
   gå til x: (0) y: (0)
-  pek i retning (tilfeldig tall fra (1) til (360))
+  peik i retning (tilfeldig tal frå (1) til (360))
   for alltid
-      gå (hastighet) steg
-      sprett tilbake ved kanten
+      gå (hastigheit) steg
+      viss ved kant, sprett
   slutt
   ```
 
@@ -86,21 +86,21 @@ klikka på, for at det skal vere enklare å starte spelet.
 - Legg til denne enkle kodesnutten på scena:
 
   ```blocks
-  når grønt flagg klikkes
-  send melding [Ny ball v]
+  når @greenFlag vert trykt på
+  send meldinga [Ny ball v]
   ```
 
 
 # Steg 2: Litt meir kontroll over ballen {.activity}
 
-*Klossen `sprett tilbake ved kanten`{.blockmotion} er veldig enkel å bruke, men
+*Klossen `viss ved kant, sprett`{.blockmotion} er veldig enkel å bruke, men
  diverre har me ikkje så mykje kontroll med den. Til dømes kan me ikkje bruke
  den viss ballen skal sprette andre stader enn ved kanten (til dømes i ein
  racket). Den er vanskeleg å bruke viss me vil at andre ting skal skje når
  ballen sprett, kanskje me vil spele ein lyd, endre hastigheita eller endre på
  retninga.*
 
-Me vil bruke `sansning`{.blocksensing}-klossar for å kunne kontrollere korleis
+Me vil bruke `sansing`{.blocksensing}-klossar for å kunne kontrollere korleis
 ballen sprett. Då kan me oppdage når ballen er borti andre figurar (til dømes
 racketane til spelarane) eller når den er borti spesielle farger.
 
@@ -123,9 +123,9 @@ racketane til spelarane) eller når den er borti spesielle farger.
   med
 
   ```blocks
-  gjenta til <berører fargen [#0000FF]>
+  gjenta til <rører fargen [#0000FF]>
   slutt
-  send melding [Poeng v]
+  send meldinga [Poeng v]
   ```
 
 - [ ] For at ballen skal sprette når den treff veggen (lyseblå) vil me endre
@@ -133,14 +133,14 @@ racketane til spelarane) eller når den er borti spesielle farger.
   farge ved å bytte ut
 
   ```blocks
-  sprett tilbake ved kanten
+  viss ved kant, sprett
   ```
 
   med til dømes
 
   ```blocks
-  hvis <berører fargen [#9999FF]>
-      pek i retning ((180) - (retning))
+  viss <rører fargen [#9999FF]>
+      peik i retning ((180) - (retning))
       trommeslag (15 v) som varer (0.01) takter
   slutt
   ```
@@ -163,14 +163,14 @@ racketane til spelarane) eller når den er borti spesielle farger.
 - [ ] Skriv kode som startar på meldinga `Ny ball`. På same måte som for ballen
   skal denne bestå av to delar: Fyrst må koden passe på at racketen startar på
   riktig stad. Så går koden inn i ei løkke for å flytte racketen opp og ned
-  (`endre y`{.blockmotion}) når til dømes tastane `W` og `S` blir trykka.
+  (`endra y`{.blockmotion}) når til dømes tastane `W` og `S` blir trykka.
 
 - [ ] Test at du kan flytte racketen. Kanskje vil du leggje inn ei avgrensing
   slik at racketen ikkje kan forsvinne ut av skjermen? Det kan du gjere med ein
   test som ser omlag slik ut:
 
   ```blocks
-  hvis <<tast [w v] trykket> og <(y-posisjon) < [150]>>
+  viss <<tasten [w v] er trykt?> og <(y-posisjon) < [150]>>
   slutt
   ```
 
@@ -184,11 +184,11 @@ racketane til spelarane) eller når den er borti spesielle farger.
 
 - [ ] Til slutt må me leggje til kode på ball-figuren slik at ballen sprett når
   den kjem borti ein racket. Det kan me gjere veldig likt slik me fekk ballen
-  til å sprette på veggen. Du må berre bruke `berører farge`{.blocksensing} i
-  staden for `berører`{.blocksensing}.
+  til å sprette på veggen. Du må berre bruke `rører farge`{.blocksensing} i
+  staden for `rører`{.blocksensing}.
 
 - [ ] Sidan ballen treff ein vertikal racket i staden for ein horisontal vegg må
-  me bytte ut talet 180 i `pek i retning`{.blockmotion}-klossen. Kva tal kan du
+  me bytte ut talet 180 i `peik i retning`{.blockmotion}-klossen. Kva tal kan du
   bruke? Prøv deg fram eller tenk gjennom korleis ein ball sprett når den treff
   ein vegg.
 
