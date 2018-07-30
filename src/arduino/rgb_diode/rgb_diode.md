@@ -1,7 +1,7 @@
 ---
 title: RGB-lysdiode
-level: 1
 author: 'Morten Minde Neergaard & Martin Ertsås'
+level: 1
 language: nb
 ---
 

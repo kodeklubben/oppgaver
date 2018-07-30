@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - PGZ Hangman
+author: Madeleine Lorås
 level: 4
 language: nb
 ---

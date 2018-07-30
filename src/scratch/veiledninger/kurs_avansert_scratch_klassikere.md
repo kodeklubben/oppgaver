@@ -4,6 +4,7 @@ author: Geir Arne Hjelle
 language: nb
 ---
 
+
 # Avansert Scratch - Klassikere {.intro}
 
 Kurset __Avansert Scratch - Klassikere__ er ment for de som allerede har en del
@@ -12,6 +13,7 @@ konsepter, og er friere med mindre gitt kode enn de fleste andre
 Scratch-oppgavene.
 
 ![Bilde av en rekke klassiske spill](kurs_avansert_scratch_klassikere.png)
+
 
 # Bakgrunn {.activity}
 
@@ -27,6 +29,7 @@ betyr at disse spillene stort sett er enkle å reimplementere i Scratch og det e
 store muligheter for å lage sine egne variasjoner rundt spillideen. Et viktig
 tema i kurset er å lære barna kreativitet gjennom å gi dem et enkelt rammeverk
 og deretter gi dem ideer og frihet til videreutvikling av dette rammeverket.
+
 
 # Oppgavene {.activity}
 

@@ -83,7 +83,8 @@ For hver gang `draw()` kjører, skal følgende skje:
 <toggle>
     <strong> Hint </strong>
     <hide>
-    objekt.gravitasjon += objekt.hastighet eller objekt.gravitasjon = objekt.gravitasjon + objekt.hastighet
+    objekt.gravitasjon += objekt.hastighet eller 
+    objekt.gravitasjon = objekt.gravitasjon + objekt.hastighet
     </hide>
 </toggle>
 

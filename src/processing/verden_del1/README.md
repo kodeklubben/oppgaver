@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Verden del 1
+author: Stein Olav Romslo
 level: 1
 language: nb
 ---

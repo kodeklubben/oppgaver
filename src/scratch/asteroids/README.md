@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Asteroids
+author: Stein Olav Romslo
 level: 4
 language: nb
 ---

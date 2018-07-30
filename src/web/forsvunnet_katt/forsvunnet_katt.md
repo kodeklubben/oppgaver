@@ -1,5 +1,6 @@
 ---
 title: 'HTML: Forsvunnet katt'
+author: 'Arve Seljebu'
 level: 2
 language: nb
 ---
