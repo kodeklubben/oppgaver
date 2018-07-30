@@ -53,7 +53,7 @@ til fleire reisemål og å velje reisemål tilfeldig.*
   til ting i lista.
 
   ```blocks
-  når jeg mottar [Lag lister v]
+  når eg får meldinga [Lag lister v]
   legg [London] til [stader v]
   legg [Oslo] til [stader v]
   legg [Barcelona] til [stader v]
@@ -85,7 +85,7 @@ lister.
   listene. Bruk dine eigne reisemål og koordinatar her om du vil:
 
   ```blocks
-  når jeg mottar [Lag lister v]
+  når eg får meldinga [Lag lister v]
   slett (alle v) i [stader v]
   slett (alle v) i [staderX v]
   slett (alle v) i [staderY v]
@@ -114,10 +114,10 @@ tilfeldig.*
   `Nytt spel`{.blockevents} slik,
 
   ```blocks
-  når jeg mottar [Nytt spel v]
-  send melding [Lag lister v]
+  når eg får meldinga [Nytt spel v]
+  send meldinga [Lag lister v]
   vis
-  send melding [Ny stad v] og vent
+  send meldinga [Ny stad v] og vent
   ```
 
 - [ ] Lag ein ny variabel som heiter `stad`{.blockdata} og som berre gjeld for
@@ -129,16 +129,16 @@ tilfeldig.*
   gong.
 
   ```blocks
-  når jeg mottar [Ny stad v]
-  sett [stad v] til (tilfeldig tall fra (1) til (lengden av [stader v]))
-  Reis til (element (stad) av [stader v]) (element (stad) av [staderX v]) (element (stad) av [staderY v]) :: custom
+  når eg får meldinga [Ny stad v]
+  sett [stad v] til (tilfeldig tal frå (1) til (lengda til [stader v]))
+  Reis til (element (stad) i [stader v]) (element (stad) i [staderX v]) (element (stad) i [staderY v]) :: custom
   ```
 
 - [ ] Prøv å køyre spelet fleire gonger. Virkar det som om reisemålet blir valt
   tilfeldig?
 
 - [ ] For å få fleire reiseoppgåver i kvart spel kan me leggje ei `gjenta _
-  ganger`{.blockcontrol}-løkke rundt sendinga av meldinga `Ny stad` i `Nytt
+  gongar`{.blockcontrol}-løkke rundt sendinga av meldinga `Ny stad` i `Nytt
   spel`{.blockevents}-blokka. Kor mange gonger vil du gjenta meldinga?
 
 
@@ -166,8 +166,8 @@ kvart som me har funne det.*
   Den enklaste måten å unngå problemet på er å gi færre oppgåver eller leggje
   inn fleire reisemål i listene!
 
-  Alternativt kan du leggje inn ein `hvis`{.blockcontrol}-test som sjekker om
-  lengden av `stader` er 0 øvst i `Ny stad`-blokka. Viss den er det kan du sende
+  Alternativt kan du leggje inn ein `viss`{.blockcontrol}-test som sjekker om
+  lengda til `stader` er 0 øvst i `Ny stad`-blokka. Viss den er det kan du sende
   en ny `Lag lister`-melding for å byggje lista på nytt.
 
 
@@ -198,22 +198,22 @@ me at menyen skal visast att. Me kan teikne programflyten om lag slik:
   enkle skripta:
 
   ```blocks
-  når grønt flagg klikkes
-  send melding [Vis meny v]
+  når @greenFlag vert trykt på
+  send meldinga [Vis meny v]
 
-  når jeg mottar [Vis meny v]
-  bytt bakgrunn til [meny v]
+  når eg får meldinga [Vis meny v]
+  byt bakgrunn til [meny v]
 
-  når [mellomrom v] trykkes
-  hvis <(bakgrunnsnavn) = [meny]>
-      send melding [Nytt spel v]
+  når [mellomrom v] vert trykt
+  viss <(bakgrunnsnavn) = [meny]>
+      send meldinga [Nytt spel v]
   slutt
 
-  når jeg mottar [Nytt spel v]
-  bytt bakgrunn til [spel v]
+  når eg får meldinga [Nytt spel v]
+  byt bakgrunn til [spel v]
 
-  når jeg mottar [spel slutt v]
-  send melding [Vis meny v]
+  når eg får meldinga [spel slutt v]
+  send meldinga [Vis meny v]
   ```
 
   Samanlikne desse skripta med programflyten over. Ser du korleis dei heng
@@ -230,12 +230,12 @@ me at menyen skal visast att. Me kan teikne programflyten om lag slik:
   slutt?
 
 - [ ] Eit problem er at helikopteret, staden og kartet blir liggjande over
-  menyen når spelet er slutt. Me må passe på at desse skjulast. Legg til
+  menyen når spelet er slutt. Me må passe på at desse gøymast. Legg til
   følgjande kode til alle dei tre figurane:
 
   ```blocks
-  når jeg mottar [spel slutt v]
-  skjul
+  når eg får meldinga [spel slutt v]
+  gøym
   stopp [andre skript i figuren v] :: control
   ```
 
@@ -249,7 +249,7 @@ __Klikk på det grøne flagget.__
 - [ ] Fungerer programflyten som den skal? Startar spelet når du trykkar på
   mellomrom-tasten? Kjem du tilbake til menyen når spelet er slutt?
 
-- [ ] Blir alle figurane vist og skjult når dei skal?
+- [ ] Blir alle figurane vist og gøymt når dei skal?
 
 
 # Steg 5: Ta tida {.activity}
