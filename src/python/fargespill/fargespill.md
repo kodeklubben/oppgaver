@@ -1,8 +1,8 @@
 ---
 title: Fargespill
 level: 3
-author: 'Steffen Granberg'
-footer: '**Kilde:** Oppgaven er basert på kode fra usingpython.com. Sjekk der for flere kule ideer!'
+author: 'Oversatt fra [usingpython.com](https://usingpython.com)
+translator: 'Steffen Granberg'
 language: nb
 ---
 
