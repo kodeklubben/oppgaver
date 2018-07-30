@@ -120,7 +120,7 @@ Til spelet vårt treng me to drakter til **King Kong**. Ei drakt der han står p
 venstre side av skyskraparen og ei der han står på høgre side.
 
 - [ ] Klikk på `kong`-figuren og vel `Drakter`-fana. Høgreklikk på
-  `kong`-drakta og vel `Lag en kopi`.
+  `kong`-drakta og vel `Lag ein kopi`.
 
 - [ ] Klikk på kopien og bruk knappen ![Spegelvending](../bilder/speilvend.png)
   i øvre høgre hjørne til å spegelvende den nye drakta.
@@ -150,9 +150,9 @@ No har me tatt inn grafikken me treng. Det er på tide å begynne å programmere
   med eit skript som liknar dette:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (200) %
-  legg øverst
+  når @greenFlag vert trykt på
+  set storleik til (200) %
+  legg øvst
   gå til x: (0) y: (-50)
   ```
 
@@ -165,17 +165,17 @@ No har me tatt inn grafikken me treng. Det er på tide å begynne å programmere
   lite skript som ser om lag slik ut gjer jobben:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   gå til x: (-45) y: (30)
-  bytt drakt til [venstre v]
+  byt drakt til [venstre v]
   for alltid
-      hvis <tast [pil venstre v] trykket?>
-          gli (0.2) sekunder til x: (-45) y: (30)
-          bytt drakt til [venstre v]
+      viss <tasten [pil venstre v] er trykt?>
+          gli (0.2) sekund til x: (-45) y: (30)
+          byt drakt til [venstre v]
       slutt
-      hvis <tast [pil høyre v] trykket?>
-          gli (0.2) sekunder til x: (45) y: (30)
-          bytt drakt til [høgre v]
+      viss <tasten [pil høyre v] er trykt?>
+          gli (0.2) sekund til x: (45) y: (30)
+          byt drakt til [høgre v]
       slutt
   slutt
   ```
@@ -203,11 +203,11 @@ skyskraparen.
   fly:
 
   ```blocks
-  når grønt flagg klikkes
-  skjul
-  begrens rotasjon [vend sideveis v]
+  når @greenFlag vert trykt på
+  gøym
+  bruk roteringstypen [vend sidevegs v]
   for alltid
-      vent (tilfeldig tall fra (0.5) til (4)) sekunder
+      vent (tilfeldig tal frå (0.5) til (4)) sekund
       lag klon av [meg v]
   slutt
   ```
@@ -217,8 +217,8 @@ skyskraparen.
   flyge skrått over skjermen:
 
   ```blocks
-  når jeg starter som klon
-  pek i retning (45 v)
+  når eg startar som klon
+  peik i retning (45 v)
   gå til x: (-280) y: (-140)
   vis
   gjenta til <(y-posisjon) > [190]>
@@ -242,12 +242,12 @@ skyskraparen.
   slik at den blir som følgjer:
 
   ```blocks
-  når jeg starter som klon
-  hvis <(tilfeldig tall fra (1) til (2)) = [1]>
-      pek i retning (45 v)
+  når eg startar som klon
+  viss <(tilfeldig tal frå (1) til (2)) = [1]>
+      peik i retning (45 v)
       gå til x: (-280) y: (-140)
-  ellers
-      pek i retning (-45 v)
+  elles
+      peik i retning (-45 v)
       gå til x: (280) y: (-140)
   slutt
   vis
@@ -268,12 +268,12 @@ Oppgåva til **King Kong** er å passe seg slik at han ikkje blir treft av flya.
   skript på han. Eit enkelt utgangspunkt kan vere:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag vert trykt på
   for alltid
-      vent til <berører [fly v] ?>
-      endre [farge v] effekt med (25)
-      vent (0.5) sekunder
-      ta bort grafiske effekter
+      vent til <rører [fly v] ?>
+      endra [farge v]-effekt med (25)
+      vent (0.5) sekund
+      ta vekk grafiske effektar
   slutt
   ```
 
