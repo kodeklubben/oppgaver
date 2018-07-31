@@ -13,7 +13,7 @@ Skjelpadder (turtles på engelsk) er ein form for robotar som har vore i bruk i
 programmering i lang tid. Me vil bruke skjelpadde-biblioteket i Python til å
 utforske fleire programmeringskonsept, samstundes som me teiknar kule bilete.
 
-![Bilete av kunst laga ved hjelp av skjelpadder](skjelpaddekunst.png)
+![Bilete av kunst laga ved hjelp av skjelpadder](skilpaddekunst.png)
 
 
 # Steg 1: Møt skjelpadda {.activity}
