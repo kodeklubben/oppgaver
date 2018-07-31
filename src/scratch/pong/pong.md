@@ -5,15 +5,16 @@ author: 'Geir Arne Hjelle'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
-Pong er et av de aller første dataspillene som ble laget, og det
-første dataspillet som ble en kommersiell suksess. Selve spillet er en
-forenklet variant av tennis hvor to spillere slår en ball frem og
-tilbake. Hvis en av spillerne ikke klarer å returnere ballen får den
-andre spilleren poeng.
+Pong er et av de aller første dataspillene som ble laget, og det første
+dataspillet som ble en kommersiell suksess. Selve spillet er en forenklet
+variant av tennis hvor to spillere slår en ball frem og tilbake. Hvis en av
+spillerne ikke klarer å returnere ballen får den andre spilleren poeng.
 
-!bakgrunnen[Illustrasjon av et ferdig poing spill](pong.png)
+![Illustrasjon av et ferdig poing spill](pong.png)
+
 
 # Oversikt over prosjektet {.activity}
 
@@ -31,6 +32,7 @@ andre spilleren poeng.
 - [ ] Racketer som spillerne kan styre
 
 - [ ] Poeng, lyder og slikt
+
 
 # Steg 1: En sprettende ball {.activity}
 
@@ -93,6 +95,7 @@ enklere starte spillet.
   send melding [Ny ball v]
   ```
 
+
 # Steg 2: Litt mer kontroll på ballen {.activity}
 
 *Klossen `sprett tilbake ved kanten`{.blockmotion} er veldig enkel å
@@ -152,6 +155,7 @@ eller når den berører spesielle farger.
   Skjønner du hva tallet `180` gjør? Prøv å tenk på hvordan en ball
   spretter i en vegg, og hvordan retningen på ballen endrer seg.
 
+
 # Steg 3: Racketer til spillerene {.activity}
 
 *Nå som ballen spretter fint kan vi lage racketene som spillerene skal
@@ -208,6 +212,7 @@ eller når den berører spesielle farger.
   blir sendt startes en ny løkke som flytter racketene. For å fikse
   dette kan du `stoppe andre skript i figuren`{.blockcontrol} for de to
   racketene når meldingen `Poeng` mottas.
+
 
 # Steg 4: Videreutvikling av spillet {.activity}
 

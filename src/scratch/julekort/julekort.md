@@ -5,12 +5,14 @@ author: 'Espen Clausen'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Vi skal lage et julekort i Scratch. Det skal ha noen enkle funksjoner
 og animasjoner. Når det er ferdig vil det se omtrent slik ut.
 
 ![Eksempel på bilde av et julekort](julekort.png)
+
 
 # Steg 1: Endre bakgrunn og finne figurer {.activity}
 
@@ -34,6 +36,7 @@ på siden <http://scratch.mit.edu/>. Da kommer vi inn i Scratch.
   juletreet.
 
   ![Bilde av hvor nye figurer ikonet i scratch ligger](velg_figurer.png)
+
 
 # Steg 2: Legge til kode {.activity}
 
@@ -109,6 +112,7 @@ __Trykk på det grønne flagget og se om alt virker.__
 
 - [ ] Danser treet fra side til side?
 
+
 # Steg 3: Har du ledig tid, sier du? {.activity}
 
 Da har du jobbet godt! Om du fortsatt har ledig tid kan du:
@@ -134,6 +138,7 @@ kan synge din egen julesang.
 - [ ] Kanskje finne på noen andre morsomme animasjoner? Snømannen kan
 danse eller turne litt? Kan vi ha snakkende eller hoppende gale
 julepresanger? Du bestemmer!
+
 
 # Steg 4: Lagre og publisere {.activity}
 

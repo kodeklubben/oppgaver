@@ -5,6 +5,7 @@ language: nb
 author: 'Teodor Heggelund'
 ---
 
+
 # Introduksjon {.intro}
 
 En fraktal er en geometri med et mønster som gjentar seg selv inne i seg selv.
@@ -12,7 +13,8 @@ Høres ikke det rart ut? I denne oppgaven skal vi lage våre egne.
 
 Her er Sierpinski-teppet, som er en fraktal:
 
-![](sierpinski.png)
+![Bilde av Sierpinski-teppet](sierpinski.png)
+
 
 # Steg 1: Hvordan fungerer Sierpinski? {.activity}
 
@@ -20,8 +22,10 @@ Fraktaler følger tre regler:
 
 - **Startregelen** gir hvor vi skal starte. Med en firkant? En trekant? En
   strek?
+
 - **Tegneregelen** gir hvordan vi skal tegne på nivået vi er. Fargelegge en bit
   av firkanten? Splitte en strek i to?
+
 - **Rekursjonsregelen** deler opp figuren vår i mindre biter, som vi kjører på
   nytt i. Lager firkanten vi tegnet nye firkanter? Lager streken vi tegnet nye
   streker? Gjenta for hver strek.
@@ -31,11 +35,15 @@ Fraktaler følger tre regler:
 Gå til [Wikipedia-artikkelen](https://en.wikipedia.org/wiki/Sierpinski_carpet)
 til Sierpinski-teppet. Se på animasjonen.
 
-- [ ] Hvordan er teppet før det begynner å bli fargelagt? Dette er **startregelen**.
+- [ ] Hvordan er teppet før det begynner å bli fargelagt? Dette er
+      **startregelen**.
+
 - [ ] Hva tegner vi i hver firkant? Dette er **tegneregelen**.
+
 - [ ] Hvordan gjentas regelen? Dette er **rekursjonsregelen**.
 
 Se på figurene under avsnittet **Process**. Ser du at noe gjentar seg?
+
 
 # Steg 2: Tegne kvadrater med SVG {.activity}
 
@@ -63,10 +71,15 @@ main =
 ## Sjekkliste {.check}
 
 - [ ] Hvordan kan vi da tegne mange kvadrater?
+
 - [ ] Hva bestemmer posisjonen til tallene?
+
 - [ ] Hvor mange store grønne kvadrater har du tegnet?
+
 - [ ] Hvor mange små grønne kvadrater har du tegnet?
+
 - [ ] **Utvid koden til å tegne mange kvadrater**.
+
 
 # Steg 3: Datastrukturer {.activity}
 
@@ -113,7 +126,9 @@ Nå kan du endre `toString myPoint` for å skrive ut noe annet.
 ## Sjekkliste {.check}
 
 - [ ] Skriv ut kun `x`-attributten til `myPoint`
+
 - [ ] Lag et annet punkt, `yourPoint`. Velg koordinater og skriv ut dette i stedet.
+
 - [ ] Lag et tredje punkt, `theirPoint`. Dette skal du lage _ut ifra `myPoint`_, men
   du skal bytte ut x-verdien med `0`. Se avsnittet **Updating Records** i guiden.
 
@@ -128,6 +143,7 @@ Her finnes det allerede en `Point`-type vi kan bruke. Har du definert `myPoint`
 og `yourPoint` på samme måte som det gjøres i guiden?
 
 - [ ] Skriv inn `Point`-typen i programmet ditt
+
 - [ ] Spesifiser at punktene dine skal være av typen `Point`:
 
   ```elm
@@ -143,16 +159,19 @@ og `yourPoint` på samme måte som det gjøres i guiden?
 Klager kompilatoren? Hvorfor/hvorfor ikke? Om den klager betyr det ikke at du
 har gjort noe feil. Det bare at du og guiden lagde punkter på forskjellig måte.
 
-- [ ] Utvid punktene dine med en z-verdi. Hva skjer når du kopilerer? Klarer du tyde
-  feilmeldingen?
-- [ ] Lag en ny type: `Point3D` som også har Z-verdi, og spesifiser at punktene dine
-  skal være av denne typen:
+- [ ] Utvid punktene dine med en z-verdi. Hva skjer når du kopilerer? Klarer du
+  tyde feilmeldingen?
+
+- [ ] Lag en ny type: `Point3D` som også har Z-verdi, og spesifiser at punktene
+  dine skal være av denne typen:
+
   ```elm
   myPoint : Point3D
   -- ...
   ```
 
 Dette får vi bruk for!
+
 
 # Steg 4: Datastrukturer i datastrukturer {.activity}
 
@@ -176,6 +195,7 @@ kan også lage veldig store tall, som 1000 * 1000 * 1000 * 1000 * 10000
 ## Sjekkliste {.check}
 
 - [ ] Hva må vi vite om et kvadrat for at vi skal kunne tegne det?
+
 - [ ] Lag typen kvadrat: `type alias Square = -- ...`
 
 Nå skal vi tegne kvadratet!
@@ -228,6 +248,7 @@ Dette blir seende slik ut på min PC:
 
 Nå har vi **startregelen** i boks! Den er kvadratet `start`!
 
+
 # Steg 5: Senterkvadrat og `let` {.activity}
 
 Vi kan sette binde navn med `let`. Her binder vi `age` til alderen vi regner ut:
@@ -250,6 +271,7 @@ describeHalfAge yearNow yearBorn =
 ## Sjekkliste {.check}
 
 - [ ] Lag funksjonen `describeDoubleAge`. Hva skal denne gjøre?
+
 - [ ] Les overskriften **Let expressions**
   i [syntaxguiden](http://elm-lang.org/docs/syntax). Her er det noen eksempler.
   Prøv selv!
@@ -302,6 +324,7 @@ centerSquare old =
     in blueSquare w (mkPoint x y)
 ```
 
+
 # Steg 6: Funksjoner fra `List` og `String` {.activity}
 
 `List.map` kjører en funksjon på hvert element i en liste. Eksempel:
@@ -319,7 +342,9 @@ centerSquare old =
 
 ## Sjekkliste {.check}
 
-- [ ] Les avnsitet om `List.map` i [dokumentasjonen til List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#map).
+- [ ] Les avnsitet om `List.map` i [dokumentasjonen til
+      List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#map).
+
 - [ ] Bruk `List.map` til å lage listen `["1","2","3","4"]`
 
 `List.range` kan lage en liste med tall. Eksempel:
@@ -334,6 +359,7 @@ centerSquare old =
 ```
 
 - [ ] Les avsnittet om `List.range` i [dokumentasjonen til List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#range)
+
 - [ ] Bruk `List.map` og `List.range` til å lage denne store listen:
 
 ```elm
@@ -345,7 +371,9 @@ centerSquare old =
 Vi innfører enda en nyttig funksjon: `String.join`. Denne bygger opp tekst fra
 en liste.
 
-- [ ] Les dokumentasjonen til `String.join` i [dokumentasjonen til String](http://package.elm-lang.org/packages/elm-lang/core/latest/String#join)
+- [ ] Les dokumentasjonen til `String.join` i [dokumentasjonen til
+      String](http://package.elm-lang.org/packages/elm-lang/core/latest/String#join)
+
 - [ ] Lag funksjonen `sayTo`. Den skal kunne brukes slik:
 
 ```
@@ -356,6 +384,7 @@ en liste.
 ```
 
 Bra! Gi deg selv en klapp på skulderen.
+
 
 # Steg 7: Kvadrater langs kanten {.activity}
 
@@ -408,6 +437,7 @@ borderSquares old =
     in List.map mkBorderSquare additions
 ```
 
+
 # Stopp! Hva var det vi skulle igjen? {.activity}
 
 **Nivå 1** har vi klart:
@@ -423,13 +453,13 @@ Men videre blir det vanskeligere. Hvordan skal vi få til steg 3 og steg 4 på e
 **Nivå 3**:
 
 <p>
-  <img src="level3.svg">
+  <img src="level3.svg" alt="Bilde av nivå 3 av rekursjonen">
 </p>
 
 **Nivå 4**:
 
 <p>
-  <img src="level4.svg">
+  <img src="level4.svg" alt="Bilde av nivå 4 av rekursjonen">
 </p>
 
 Først lager vi én firkant. Så vil vi lage de åtte små firkanene som følger denne
@@ -446,12 +476,15 @@ I nivå 3 lager vi **8 * 8 = 64** nye firkanter.
 Bruk `elm repl` til å regne ut disse:
 
 - [ ] Hvor mange nye firkanter lager vi i nivå **4**?
+
 - [ ] Hvor mange nye firkanter lager vi i nivå **5**?
+
 - [ ] Hvor mange nye firkanter lager vi i nivå **6**?
 
 Klarer du å se et mønster?
 
 - [ ] Hvor mange nye firkanter lager vi i nivå **x**?
+
 
 # Steg 8: `concat` og `map` {.activity}
 
@@ -665,6 +698,7 @@ Hint: 0.0-0.9 blir 10 tall. 0.00 til 0.99 blir ...? Hva med 0.00000 til 0.99999?
 > [1,2,3] ++ [4,5,6]
 [1,2,3,4,5,6] : List number
 ```
+
 
 # Steg 9: Så mange nivåer vi vil! {.activity} #
 

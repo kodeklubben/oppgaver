@@ -5,6 +5,7 @@ author: 'Geir Arne Hjelle'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Nå skal vi lære hvordan vi kan koble en skjerm til datamaskinen. Med
@@ -12,7 +13,8 @@ en ekstra skjerm kan vi bruke datamaskinen til å kommunisere med
 verden rundt oss. Kanskje Minecraft-verden blir fyllt med store
 reklamebannere?
 
-![](sprettball.png)
+![Bilde av en datamaskin og et display med en sprettball på](sprettball.png)
+
 
 # Steg 1: Koble en skjerm til datamaskinen {.activity}
 
@@ -27,7 +29,7 @@ datamaskin og se om vi får til å skrive noe på skjermen.
 - [ ] Bygg så en **Monitor** inntil datamaskinen du nettopp bygget,
   omtrent som på bildet.
 
-  ![](enkelskjerm.png)
+  ![Bilde av en datamaskin og en enkel monitor](enkelskjerm.png)
 
 - [ ] Start datamaskinen. Den enkleste måten å skrive noe til skjermen er
   ved hjelp av programmet `monitor`. Om du skriver `help monitor` vil
@@ -54,7 +56,7 @@ datamaskin og se om vi får til å skrive noe på skjermen.
   Du kan nå trykke `Esc` for å gå ut av datamaskinen og se på
   skjermen. Står det *Hello World!*?
 
-  ![](helloworld_liten.png)
+  ![Bilde av monitor sin viser skriften "Hello World!"](helloworld_liten.png)
 
 - [ ] Kult! Da er vi igang med skjermene! Men - det ble jo veldig dårlig
   plass på den skjermen! Det er det heldigvis lett å gjøre noe med. Om
@@ -63,7 +65,7 @@ datamaskin og se om vi får til å skrive noe på skjermen.
   lage en stor skjerm! Prøv å kjør `hello`-programmet på den store
   skjermen.
 
-  ![](helloworld_stor.png)
+  ![Bilde av en stor monitor med skriften "Hello World!"](helloworld_stor.png)
 
 - [ ] Trikset med `monitor` fungerer selvsagt også med programmer vi
   skriver selv. La oss lage et enkelt program som vi kaller `ku`:
@@ -82,7 +84,7 @@ datamaskin og se om vi får til å skrive noe på skjermen.
 
 - [ ] Nå kan vi kjøre programmet: `monitor right ku`.
 
-  ![](ku.png)
+  ![Bilde av en monitor som viser en ASCII ku](ku.png)
 
 ## Cowsay {.protip}
 
@@ -90,6 +92,7 @@ Denne kuen er basert på et morsomt lite program som heter **Cowsay**,
 og som ble laget av Tony Monroe på slutten av 1990-tallet. En
 web-variant av programmet finnes nå på
 [http://cowsay.morecode.org/](http://cowsay.morecode.org/).
+
 
 # Steg 2: En annen metode {.activity}
 
@@ -140,6 +143,7 @@ et tillegg til datamaskinen).
   `monitor right clear` innimellom for å tømme skjermen. Prøv også å
   koble fra (ødelegge) skjermen. Får du melding om at ingen skjerm
   er koblet til når du prøver å kjøre programmet ditt?
+
 
 # Steg 3: En ball faller over skjermen {.activity}
 
@@ -212,6 +216,7 @@ Vi skal nå begynne på en enkel animasjon som vi kan kjøre på skjermen.
   end
   ```
 
+
 # Steg 4: Hvor stor er skjermen {.activity}
 
 En liten utfordring med skjermer er at de kan ha forskjellig
@@ -243,6 +248,7 @@ kan vi løse ved å bruke funksjonen `getSize`.
 
 - [ ] Klarer du å sentrere ballen, slik at den faller nedover midt på
   skjermen uansett hvor stor skjermen er? Prøv selv!
+
 
 # Steg 5: Sprettball {.activity}
 
@@ -347,6 +353,7 @@ ballen flytter på seg.
   sprette, siden gravitasjonen gjør at vi ikke trenger å sprette i
   taket lengre.
 
+
 # Steg 6: Reklamebanner {.activity}
 
 Vi tar nå en liten pause fra sprettballen vår for å se på hvordan vi
@@ -386,7 +393,7 @@ reklamebannere.
   rett før linjen `skjerm.clear()`, og kjør programmet ditt på nytt.
   Ble teksten større?
 
-  ![](reklame.png)
+  ![Bilde av en monitor med ordet "ComputerScraft" skrevet stort](reklame.png)
 
   Tallet `3` i `setTextScale(3)` indikererer størrelsen på
   teksten. Her kan vi bruke tall mellom 0.5 og 5, hvor 5 gir oss den
@@ -478,6 +485,7 @@ få teksten til å bli skrevet i ny og riktig størrelse når skjermen
 blir endret. Du kan bruke `os.pullEvent` til å lytte på hendelser som
 heter `monitor_resize` og skrive teksten på nytt når disse skjer.
 
+
 # Steg 7: En skikkelig ticker! {.activity}
 
 Dessverre er det en begrensning på hvor stor en skjerm kan være. Du
@@ -487,6 +495,7 @@ stor og godt synlig tekst.
 
 Et alternativ for lengre tekster er å bruke en ticker, hvor vi
 animerer teksten slik at den ruller over skjermen.
+
 
 # Sjekkliste {.check}
 

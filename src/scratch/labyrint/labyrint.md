@@ -5,6 +5,7 @@ author: 'Geir Arne Hjelle'
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 I dette spillet vil vi kontrollere en liten utforsker mens hun leter
@@ -13,6 +14,7 @@ av den skumle froskekongen. Vi vil lære hvordan vi kontrollerer
 figurer, og hvordan vi kan programmere figurer til å bevege seg selv.
 
 ![Bilde av labyrinten, froskekongen, utforskeren og skatten](labyrint.png)
+
 
 # Steg 1: Hvordan styre figurer med piltastene {.activity}
 
@@ -138,6 +140,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Velg en hastighet du synes passer.
 
+
 # Steg 2: Vi tegner vår egen labyrint {.activity}
 
 *Nå som vi kan bevege utforskeren vår rundt omkring på skjermen, skal
@@ -181,6 +184,7 @@ __Klikk på det grønne flagget.__
   på ![krymp](../bilder/krymp.png)-knappen på toppen av skjermen.
 
 - [ ] Hva skjer dersom figuren din går på veggen i labyrinten?
+
 
 # Steg 3: Utforskeren kan ikke gå gjennom veggen {.activity}
 
@@ -239,6 +243,7 @@ den til å ta et skritt tilbake når den gjør noe feil. I koden
 vil figuren først snu seg helt rundt (180 grader), deretter ta et
 skritt, og til slutt snu seg rundt igjen slik at den peker i samme
 retning som da den startet.
+
 
 # Steg 4: På leting etter skatten {.activity}
 
@@ -347,6 +352,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Virker spillet slik det skal når du starter det på nytt etter å ha
   funnet skatten?
+
 
 # Steg 5: Froskekongen vokter i gangene {.activity}
 
