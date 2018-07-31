@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Julekort
+author: Madeleine Lorås
 level: 1
 language: nb
 ---

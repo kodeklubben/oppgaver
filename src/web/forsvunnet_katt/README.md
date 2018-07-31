@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Forsvunnet katt"
+author: Lars Klingenberg
 language: nb
 level: 2
 ---

@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Hvor er HTML? Jeg ser den ikke!
+author: Lars Klingenberg
 language: nb
 level: 1
 ---

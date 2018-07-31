@@ -1,9 +1,7 @@
 ---
 title: 'Stjerner og galakser'
 level: 2
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 translator: 'Ole Andreas Ramsdal'
 language: nb
 ---
@@ -439,4 +437,3 @@ du kan sende inn verdier i.
 ![Bilde av en blomstereng](sky-flowers.png)
 
 ![Bilde av himmel med fugler og skyer](sky-birds.png)
-

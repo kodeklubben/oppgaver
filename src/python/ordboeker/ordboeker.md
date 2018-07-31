@@ -91,7 +91,7 @@ Dette må du gjøre:
 
 - [ ] Bruk ei løkke for å hente inn 3 nøkkel/verdi-par.
 
-  * Lagre nøkkel/verdi-parene i ordboka.
+- [ ] Lagre nøkkel/verdi-parene i ordboka.
 
 - [ ] Spør om en nøkkel.
 
@@ -168,4 +168,3 @@ Dette må du gjøre:
 - [ ] Skriv ut handlelista.
 
   **Hint:** Gå gjennom nøklene.
-

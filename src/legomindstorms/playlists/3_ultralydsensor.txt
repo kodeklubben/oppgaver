@@ -1,6 +1,6 @@
-lyd_1ultralydsensor/1ultralydsensor.md
-lyd_2regning/2regning.md
-lyd_3hinderloype/3hinderloype.md
-lyd_4parkeringsplass/4parkeringsplass.md
-lyd_5innbrudd/5innbrudd.md
-lyd_6ball/6ball.md
+lyd_1ultralydsensor/1ultralydsensor_nb.md
+lyd_2regning/2regning_nb.md
+lyd_3hinderloype/3hinderloype_nb.md
+lyd_4parkeringsplass/4parkeringsplass_nb.md
+lyd_5innbrudd/5innbrudd_nb.md
+lyd_6ball/6ball_nb.md

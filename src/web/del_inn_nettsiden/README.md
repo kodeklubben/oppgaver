@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Del inn nettsiden"
+author: Lars Klingenberg
 level: 3
 language: nb
 ---

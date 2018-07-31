@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - Lag din egen nettside"
+author: Lars Klingenberg
 level: 4
 language: nb
 ---

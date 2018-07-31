@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Buzzer
+author: 'Adrian Helle'
 language: nb
 ---
 
@@ -15,6 +16,7 @@ Oppgaven «Buzzer» introduserer følgende konsepter:
 + Lysfølsom motstand.
 
 + ``tone``, ``analogRead`` og ``map``.
+
 
 # Forklaringer
 

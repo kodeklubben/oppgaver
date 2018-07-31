@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Fyrverkeri
+author: Stein Olav Romslo
 level: 2
 language: nb
 ---

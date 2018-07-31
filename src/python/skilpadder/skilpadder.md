@@ -1,10 +1,8 @@
 ---
 title: Skilpadder
 level: 1
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Bjørn Einar Bjartnes'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
@@ -430,4 +428,3 @@ Du kan `forward()`, `backward()`, `left()`, `right()`, du kan gjenta ting med
 
 Kan du tegne et hus, en fugl? En slange? En katt? En hund? En løve? Du kan
 kombinere figurer og se hva du kan lage. Kan du tegne en robot?
-

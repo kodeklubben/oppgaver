@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - PGZ - Sprettball
+author: Madeleine Lorås
 level: 4
 language: nb
 ---

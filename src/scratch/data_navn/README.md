@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - Bruk data: Jente- og guttenavn"
+author: Madeleine Lorås og Lars Klingenberg
 level: 2
 language: nb
 ---

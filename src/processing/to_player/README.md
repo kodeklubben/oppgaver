@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - ToPlayer
+author: Stein Olav Romslo
 level: 1
 language: nb
 ---
