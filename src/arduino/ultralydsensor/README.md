@@ -1,5 +1,7 @@
 ---
 title: Lærerveiledning - Ultralydsensor
+author: 'Martin Ertsås & Morten Minde Neergaard'
+level: 2
 language: nb
 ---
 

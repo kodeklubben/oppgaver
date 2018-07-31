@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Lag ditt eget spill
+author: Stein Olav Romslo
 level: 4
 language: nb
 ---

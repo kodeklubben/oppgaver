@@ -34,7 +34,7 @@ dele med alle som driver med programmering i verden. Vi skal nå lage en
 - [ ] Gå inn på [Github.com](http://github.com)
 
 - [ ] Skriv inn `Username`(brukernavn), `epost` og `password`(passord) før du
-  trykker `Sign up for Github` (se bilde under) 
+  trykker `Sign up for Github` (se bilde under)
 
   <img src="ressurser/sign-in-1.png" alt="Bilde av github nettsiden" width="100%">
 
@@ -51,10 +51,10 @@ Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 - [ ] Trykk på `New repository` (Grønn knapp til høyre eller `+` øverst i høyre
       hjørne rett ved siden av probilbildet ditt, se bilde under)
 
-  <img src="ressurser/repo.png" alt="bilde av hvordan opprette repository" alt="repo">
+  <img src="ressurser/nytt_repo.png" alt="bilde av hvordan opprette repository" alt="repo">
 
 - [ ] Under `Repository name` så skriver du `ditt-brukernavn.github.io`. Under
-  ser du et eksempel med `kodeklubben.github.io`. 
+  ser du et eksempel med `kodeklubben.github.io`.
 
   <img src="ressurser/1.png" alt="bilde av hvordan velge navn på repository'et" width="100%">
 
@@ -110,7 +110,7 @@ Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 - [ ] Lag `index.html` og lagre den i mappen `ditt-brukernavn.github.io`. Dette
       skal være startsiden til nettsiden vår.
 
-  <img src="ressurser/innhold.png" alt="Bilde av filen index.htm i GitHub mappen" width="100%"> 
+  <img src="ressurser/innhold.png" alt="Bilde av filen index.htm i GitHub mappen" width="100%">
 
 - [ ] Skriv noe `HTML` i `index.html`. Du kan gjerne kopiere en av oppgavene du
       allerede har laget. Hvis du ikke vet hva du skal skrive kan du for
@@ -180,4 +180,3 @@ hvis du vil lære mer sjekk ut tipsene under:
 
  - Søk på `GitHub Tutorials` på [YouTube](http://youtube.com) F.eks: [GitHub for
   noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY)
-

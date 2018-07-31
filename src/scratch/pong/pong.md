@@ -13,7 +13,7 @@ dataspillet som ble en kommersiell suksess. Selve spillet er en forenklet
 variant av tennis hvor to spillere slår en ball frem og tilbake. Hvis en av
 spillerne ikke klarer å returnere ballen får den andre spilleren poeng.
 
-!bakgrunnen[Illustrasjon av et ferdig poing spill](pong.png)
+![Illustrasjon av et ferdig poing spill](pong.png)
 
 
 # Oversikt over prosjektet {.activity}

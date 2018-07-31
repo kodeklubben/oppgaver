@@ -15,9 +15,10 @@ blanding av malingsfarger med blanding av farger på en dataskjerm, fungerer
 blandingen litt annerledes. Hvordan blandingen fungerer på en dataskjerm skal du
 lære mer om i denne leksjonen med Processing.
 
-![Tre overlappende sirkler i rødt, grønt og blått. Der de overlapper
- blandes fargene til gul, cyan, magenta og hvitt.](RGB.png "Tre overlappende sirkler i rødt, grønt og blått. Der de overlapper
- blandes fargene til gul, cyan, magenta og hvitt.")
+![Tre overlappende sirkler i rødt, grønt og blått. Der de overlapper blandes
+ fargene til gul, cyan, magenta og hvitt.](RGB.png "Tre overlappende sirkler i
+ rødt, grønt og blått. Der de overlapper blandes fargene til gul, cyan, magenta
+ og hvitt.")
 
 
 # Steg 1: Mer enn grått {.activity}
@@ -111,15 +112,17 @@ grønt og blått, får vi en slags turkis, kalt cyan. Hvis vi blander rødt og
 blått, får vi en slags rosa, kalt magenta. Når alle tre fargene er like sterke,
 får vi en gråtone. Med alle tre på fullt, `255`, får vi hvitt.
 
-![Tre overlappende sirkler i rødt, grønt og blått. Der de
- overlapper blandes fargene til gul, cyan, magenta og hvitt.](RGB.png "Tre overlappende sirkler i rødt, grønt og blått. Der de
- overlapper blandes fargene til gul, cyan, magenta og hvitt.")
+![Tre overlappende sirkler i rødt, grønt og blått. Der de overlapper blandes
+ fargene til gul, cyan, magenta og hvitt.](RGB.png "Tre overlappende sirkler i
+ rødt, grønt og blått. Der de overlapper blandes fargene til gul, cyan, magenta
+ og hvitt.")
 
 Du har kankje også sett et fargehjul før, der primærfargne plasseres rundt
 hjulet. Sekundærfargene, fargene man får når man blander to primærfarger
 plasseres da mellom disse. Vi kan også lage et slikt for RGB.
 
-![RGB-fargehjulet med primær- og sekundærfarger.](FargehjulRGB.png "RGB-fargehjulet med primær- og sekundærfarger.")
+![RGB-fargehjulet med primær- og sekundærfarger.](FargehjulRGB.png
+"RGB-fargehjulet med primær- og sekundærfarger.")
 
 
 # Steg 2: Fyllfarger og omriss {.activity}

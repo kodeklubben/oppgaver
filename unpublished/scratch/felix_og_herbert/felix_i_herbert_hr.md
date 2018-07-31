@@ -2,7 +2,6 @@
 title: Felix i Herbert
 level: 1
 indexed: false
-logo: ../../assets/img/ccuk_logo.png
 author: Prevedeno s [Code Club UK](//codeclub.org.uk)
 translator: Goran Stene Solomonovic
 license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
