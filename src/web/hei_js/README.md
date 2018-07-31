@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - JS: Hei JavaScript!"
+author: Lars Klingenberg
 language: nb
 Level: 2
 ---

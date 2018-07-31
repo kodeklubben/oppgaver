@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Repetisjon
+author: Øistein Søvik
 level: 3
 language: nb
 ---

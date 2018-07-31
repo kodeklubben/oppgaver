@@ -875,4 +875,7 @@ Dette er ekstraoppgaver som du kan gjøre dersom du vil.
       engelsk, eller et helt annet språk. Lag grenser rundt dyrene og la
       spilleren gjette hva de forskjellige dyrene heter på forskjellige språk.
 
-- [ ] Finn et bilde av en menneskekropp som er laga for undervisning, slik at man kan se hva som er inni, slik som hjertet, lungene, nyrene, ribbein, og lignende. Lag grenser rundt de forskjellige tingene og la spilleren gjette hvor de er.
+- [ ] Finn et bilde av en menneskekropp som er laga for undervisning, slik at
+      man kan se hva som er inni, slik som hjertet, lungene, nyrene, ribbein, og
+      lignende. Lag grenser rundt de forskjellige tingene og la spilleren gjette
+      hvor de er.

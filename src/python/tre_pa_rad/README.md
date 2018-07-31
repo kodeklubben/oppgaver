@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Tre på rad
+author: Madeleine Lorås
 level: 3
 language: nb
 ---
@@ -63,7 +64,7 @@ oppgaven enda._
 
 - [ ] Elevene kan videreutvikle spillet til å [spille mot
        datamaskinen](../tre_pa_rad_mot_datamaskinen/tre_pa_rad_mot_datamaskinen.html).
-       
+
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...

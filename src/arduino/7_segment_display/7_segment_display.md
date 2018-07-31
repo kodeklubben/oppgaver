@@ -1,13 +1,15 @@
 ---
 title: '7-Segment Display'
-level: 2
 author: 'Martin Ertsås & Morten Minde Neergaard'
+level: 2
 language: nb
 ---
+
 
 # Introduksjon {.intro}
 
 La oss se på å få et display til å telle.
+
 
 # Steg 1: Finn frem utstyr {.activity}
 
@@ -24,6 +26,7 @@ La oss se på å få et display til å telle.
 - [ ] 1 7-segment display
 
 ![utstyr](utstyr.jpg)
+
 
 # Steg 2: Utforskning {.activity}
 
@@ -59,6 +62,7 @@ void loop() {
 
 Flytt så rundt på ledningen som står i breadboardet for å se hvilke pinner på
 displayet som får hvilken del av segmentet til å blinke.
+
 
 # Steg 3: Få displayet til å telle oppover {.activity}
 
@@ -156,6 +160,7 @@ nytt og på nytt.
 - [ ] Klarer du å få punktumet til å blinke mens vi teller?
 
 - [ ] Klarer du å få punktumet til å blinke dobbelt så fort som vi teller?
+
 
 # Steg 4: Bruk en knapp for å telle oppover {.activity}
 

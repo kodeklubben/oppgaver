@@ -4,6 +4,7 @@ author: Geir Arne Hjelle
 language: nb
 ---
 
+
 # Avansert Scratch - Plattform {.intro}
 
 Kurset __Avansert Scratch - Plattform__ er ment for de som allerede har en del
@@ -12,6 +13,7 @@ konsepter, og er friere med mindre gitt kode enn de fleste andre
 Scratch-oppgavene.
 
 ![Bilde av et plattform spill](kurs_avansert_scratch_plattform.png)
+
 
 # Bakgrunn {.activity}
 
@@ -31,6 +33,7 @@ som er veldig inspirert av Super Mario-spillene, men hvor det er store
 muligheter for å implementere sine egne variasjoner underveis. Et viktig tema i
 kurset er å lære barna kreativitet gjennom å gi dem et enkelt rammeverk og
 deretter gi dem ideer og frihet til videreutvikling av dette rammeverket.
+
 
 # Oppgavene {.activity}
 
