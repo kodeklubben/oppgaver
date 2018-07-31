@@ -247,9 +247,9 @@ tilsvarar det å lage eigne klossar.
 - [ ] Klikk på `Flere klosser`{.blockmoreblocks} og lag ein kloss som ser slik
   ut:
 
-  ![Bilete av ein ny kloss i Scratch](nykloss.png)
+  ![Bilete av ein ny kloss i Scratch](nykloss_nn.png)
 
-  hvor `stad` er tekst, og `x` og `y` er tallverdier:
+  der `stad` er tekst, og `x` og `y` er talverdiar:
 
 - [ ] Etter at du klikkar `OK` dukkar det opp ein ny kloss på skjermen:
 
