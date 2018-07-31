@@ -6,15 +6,6 @@ language: nb
 ---
 
 
-# Læringsmål {.tips}
-
-+ beskrive og gjennomføre spegling, rotasjon og parallellforskyving
-
-+ beskrive plassering og flytting i rutenett, på kart og i koordinatsystem, med
-  og utan digitale hjelpemiddel, og bruke koordinatar til å berekne avstandar
-  parallelt med aksane i eit koordinatsystem
-
-
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi importere en geometrisk figur og deretter
