@@ -35,7 +35,7 @@ __Lykke til!__
 sida, og den blir ofte brukt saman med CSS (som handlar om utsjånaden), som me
 skal sjå på seinare i oppgåva. La oss starte med eit døme:
 
-- [ ] Gå inn på [kidsakoder.no](http://kidsakoder.no).
+- [ ] Gå inn på [kidsakoder.no](https://kidsakoder.no).
 
 - [ ] Trykk på `X-Ray Goggles` eller bruk utviklarverktøyet (Chrome: `Visning ->
   Utviklar -> Utviklarverktøy` eller `ctrl + shift + I`, Firefox: bruk [X-Ray
@@ -52,7 +52,7 @@ skal sjå på seinare i oppgåva. La oss starte med eit døme:
 - [ ] Finn du `<div>`-taggen til der nyheitene er plassert?
 
 Under ser du utviklarverktøyet til Chrome til høgre og
-[kidsakoder.no](http://kidsakoder.no) til venstre. I utviklarvindauget ser me
+[kidsakoder.no](https://kidsakoder.no) til venstre. I utviklarvindauget ser me
 fleire `<div>`-taggar inne i kvarandre. Desse skal me lære meir om.
 
 ![Bilete av LKK sine nettsider med utvikliarverktøyet til Chrome til høgre](ressurser/html_del_inn_4.png)
@@ -92,7 +92,7 @@ på nettsida vår?
 - [ ] Lag ein `<div>`. Denne skal halde styr på det som er øst på sida vår. Den
   blir ofte kalla for ein header (det er _ikkje_ det same som `<head>`).
 
-- [ ] Studer [kidsakoder.no](http://kidsakoder.no) med utviklarverktøyet og sjå
+- [ ] Studer [kidsakoder.no](https://kidsakoder.no) med utviklarverktøyet og sjå
   om du finn `<header>`-taggen eller ein `<div>` med `ID` som inneheldt
   *header*.
 
@@ -272,7 +272,7 @@ selector {
 vere ID-ar og klasser, som me lærer om seinare.
 
 `Property` kan vere, til dømes, `background-color` som me allereie har brukt.
-Fleire `properties` finn du på [w3schools.com/css](http://w3schools.com/css).
+Fleire `properties` finn du på [w3schools.com/css](https://w3schools.com/css).
 
 `Value` er det som kjem etter ein `property` og er verdien du sender til
 `property`. Det kan til dømes vere farga `red`.
@@ -340,7 +340,7 @@ Me skal sjå meir på CSS etter me har lært litt meir HTML.
 
 ## Utfordring {.challenge
 
-- [ ] Gå inn på [w3schools.com/css](http://w3schools.com/css) og sjå om du finn
+- [ ] Gå inn på [w3schools.com/css](https://w3schools.com/css) og sjå om du finn
   fleire "properties" du kan endre på.
 
 
@@ -367,7 +367,7 @@ botnen på denne sida og sjå kva som står der.
 taggen.
 
 Du kan lese om fleire her:
-[http://www.w3schools.com/html/html5_new_elements.asp](http://www.w3schools.com/html/html5_new_elements.asp)
+[https://www.w3schools.com/html/html5_new_elements.asp](https://www.w3schools.com/html/html5_new_elements.asp)
 
 Desse taggane gjer det enklare for nettlesaren å sjå kva innhaldet på sida er.
 No skal me byte ut `<div>`-taggane på sida vår med nokre av taggane over.
