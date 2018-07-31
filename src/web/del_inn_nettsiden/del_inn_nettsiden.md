@@ -319,7 +319,7 @@ og/eller bokstaver. Siden det tar veldig lang tid å prøve ut alle
 kombinasjonene, så bruker vi litt hjelp for å finne de fargene vi vil ha:
 
 - [ ] Gå inn på [paletton.com](http://paletton.com) eller
-      [colorpicker.com](https://colorpicker.com) og velg og vrak i masse
+      [colorpicker.com](http://colorpicker.com) og velg og vrak i masse
       forskjellige farger
 
 - [ ] Erstatt de fargene du har med noen andre du liker ved å bruke `#` foran de
