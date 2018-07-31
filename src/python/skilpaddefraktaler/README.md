@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Skilpaddefraktaler
+author: Madeleine Lorås
 level: 3
 language: nb
 ---

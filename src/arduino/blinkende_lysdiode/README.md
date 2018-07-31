@@ -1,5 +1,7 @@
 ---
 title: Lærerveiledning - Blinkende lysdiode
+author: 'Adrian Helle'
+level: 1
 language: nb
 ---
 
@@ -134,6 +136,7 @@ void loop() {
 ## Kan du få til det samme med å bruke kun 3 ledninger?
 
 ![tre ledninger](tre_ledninger.png)
+
 
 # Installasjonsinstruksjoner
 

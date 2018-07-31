@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - If-setninger
+author: Øistein Søvik
 level: 2
 language: nb
 ---

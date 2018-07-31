@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Enkle objekter
+author: Madeleine Lorås
 level: 4
 language: nb
 ---

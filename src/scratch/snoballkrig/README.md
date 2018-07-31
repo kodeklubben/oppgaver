@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Snøballkrig
+author: Stein Olav Romslo
 level: 4
 language: nb
 ---
@@ -14,7 +15,7 @@ gutter ved å kaste snøball etter dem.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Kunst og håndtverk, matematikk, programmering.
+__Fag__: Kunst og håndtverk, matematikk, programmering.
  
 __Anbefalte trinn__: 5.-10. trinn.
 

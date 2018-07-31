@@ -1,5 +1,5 @@
 ---
-title: '3D-Flaksar, Del 1'
+title: '3D-flaksar, del 1'
 level: 4
 author: 'Gudbrand Tandberg og Geir Arne Hjelle'
 translator: 'Gro Anette Vestre'
@@ -34,24 +34,24 @@ inni kvarandre, fylt med ein farge i mellom.
 - [ ] Gi ringfiguren desse skripta:
 
     ```blocks
-        når jeg mottar [Nytt spill v]
-        skjul
+        når eg får meldinga [Nytt spel v]
+        gøym
         for alltid
             lag klon av [meg v]
-            vent (1) sekunder
+            vent (1) sekund
         slutt
 
-        når jeg starter som klon
+        når eg startar som klon
         gå til x: (0) y: (0)
         vis
-        gjenta (10) ganger
-            endre størrelse med (5)
-            vent (0.1) sekunder
+        gjenta (10) gongar
+            endra storleik med (5)
+            vent (0.1) sekund
         slutt
         slett denne klonen
     ```
 
-Du må og laga eit skript som syt for at meldinga `Nytt spill` blir sendt når du
+Du må og laga eit skript som syt for at meldinga `Nytt spel` blir sendt når du
 klikkar på det grøne flaget.
 
 ## Test prosjektet {.flag}
@@ -62,7 +62,7 @@ klikkar på det grøne flaget.
 
 Dei to skripta me har til no er ein OK start, men dei er ikkje gode nok til å
 verkeleg kallast 3D! Tenk litt på korleis det virkar som om noko veks i
-størrelse når det kjem mot deg. Når det er langt unna så veks det ganske sakte,
+storleik når det kjem mot deg. Når det er langt unna så veks det ganske sakte,
 medan når det er nærare så veks det mykje fortare. Dette skal me få til ved
 hjelp av ein *variabel* som me kallar `distanse`{.blockdata}. Når
 `distanse`{.blockdata} er stor, så er ringen langt borte, og skal vekse sakte.
@@ -75,14 +75,14 @@ gjeld for denne figuren.
 - [ ] Endre skriptet til dette:
 
     ```blocks
-        når jeg starter som klon
+        når eg startar som klon
         gå til x: (0) y: (0)
         vis
-        sett [distanse v] til (10)
-        gjenta til ((distanse) < (1))
-            sett størrelse til ((150) / (distanse)) %
-            endre [distanse v] med (-0.5)
-            vent (0.1) sekunder
+        set [distanse v] til (10)
+        gjenta til <(distanse) < (1)>
+            set storleik til ((150) / (distanse)) %
+            endra [distanse v] med (-0.5)
+            vent (0.1) sekund
         slutt
         slett denne klonen
     ```
@@ -97,7 +97,7 @@ For at det skal sjå endå meir ut som at ringane først er langt borte og så n
 så kan du bruke klossen
 
 ```blocks
-    sett [gjennomsiktig v] effekt til ((100)-((150)/(distanse))
+    set [gjennomsiktig v]-effekt til ((100)-((150)/(distanse))
 ```
 
 for å gjera ringane meir gjennomsiktige når dei er langt borte. Kva tal må du
@@ -117,7 +117,7 @@ forskjellige stader kvar gong.*
 - [ ] Prøv først å endra på blokka som plasserar ring-klonane til
 
     ```blocks
-        gå til x: (tilfeldig tall fra (-100) til (100)) y: (tilfeldig tall fra (-100) til (100))
+        gå til x: (tilfeldig tal frå (-100) til (100)) y: (tilfeldig tal frå (-100) til (100))
     ```
 
     Det ser ganske bra ut, men ikkje helt rett, eller kva? Det er fordi
@@ -132,8 +132,8 @@ for ringfiguren*.
 - [ ] Erstatt blokka som først plasserar ringen med dette:
 
     ```blocks
-        sett [ringX v] til (tilfeldig tall fra (-100) til (100)
-        sett [ringY v] til (tilfeldig tall fra (-100) til (100)
+        set [ringX v] til (tilfeldig tal frå (-100) til (100)
+        set [ringY v] til (tilfeldig tal frå (-100) til (100)
         gå til x: (ringX) y: (ringY)
     ```
 
@@ -169,31 +169,31 @@ flaggermus-figuren. Kall den __Flakse__.
 - [ ] Gi Flakse følgjande skript:
 
     ```blocks
-        når jeg mottar [Nytt spill v]
-        sett [x v] til [0]
-        sett [y v] til [0]
+        når eg får meldinga [Nytt spel v]
+        set [x v] til [0]
+        set [y v] til [0]
         for alltid
-            hvis (tast [pil høyre v] trykket)
-                endre [x v] med (10)
-                vent (0.05) sekunder
+            viss <tasten [pil høyre v] er trykt>
+                endra [x v] med (10)
+                vent (0.05) sekund
             slutt
-            hvis (tast [pil venstre v] trykket)
-                endre [x v] med (-10)
-                vent (0.05) sekunder
+            viss <tasten [pil venstre v] er trykt>
+                endra [x v] med (-10)
+                vent (0.05) sekund
             slutt
-            hvis (tast [pil opp v] trykket)
-                endre [y v] med (10)
-                vent (0.05) sekunder
+            viss <tasten [pil opp v] er trykt>
+                endra [y v] med (10)
+                vent (0.05) sekund
             slutt
-            hvis (tast [pil ned v] trykket)
-                endre [y v] med (-10)
-                vent (0.05) sekunder
+            viss <tasten [pil ned v] er trykt>
+                endra [y v] med (-10)
+                vent (0.05) sekund
             slutt
         slutt
     ```
 
     No blir `x`{.blockdata} og `y`{.blockdata} endra når du styrar med
-    piltastane. Me venter litt inni kvar `hvis`{.blockcontrol}-test slik at
+    piltastane. Me venter litt inni kvar `viss`{.blockcontrol}-test slik at
     `x`{.blockdata} og `y`{.blockdata} ikkje plutseleg veks over alle grenser.
     Test gjerne kva som skjer dersom me ikkje ventar.
 
