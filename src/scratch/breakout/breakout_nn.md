@@ -61,17 +61,17 @@ lage mange kopiar av den fyrste.
 
   ```blocks
   når eg får meldinga [Nytt spel v]
-  skjul
+  gøym
   set [Antal boksar v] til [0]
   set y til (160)
   gjenta (5) gongar
       set x til (-200)
       gjenta (11) gongar
-          endre [Antal boksar v] med (1)
+          endra [Antal boksar v] med (1)
           lag klon av [meg v]
-          endre x med (40)
+          endra x med (40)
       slutt
-      endre y med (-25)
+      endra y med (-25)
   slutt
   ```
 
@@ -84,7 +84,7 @@ lage mange kopiar av den fyrste.
   når eg startar som klon
   vis
   vent til <tasten [mellomrom v] er trykt?>
-  endre [Antal boksar v] med (-1)
+  endra [Antal boksar v] med (-1)
   slett denne klonen
   ```
 
