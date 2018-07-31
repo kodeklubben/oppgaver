@@ -354,7 +354,7 @@ __Klikk på det grøne flagget.__
 - [ ] Kva skjer no viss du reiser til Hønefoss?
 
 
-# Steg 6: Vis reisemålet etter at det blir funnet {.activity}
+# Steg 6: Vis reisemålet etter at det blir funne {.activity}
 
 *Det er kult om du kan vise kor reisemålet faktisk er etter at spelaren har
 funne det.*
@@ -382,13 +382,13 @@ funne det.*
 
 - [ ] Når me mottek `Fann stad`-meldinga vil me vise kor reisemålet faktisk
   ligg. Sida disken snart flyttast vidare kan me ikkje berre gjere figuren
-  synleg, me må òg `stemple avtrykk`{.blockpen} av figuren på bakgrunnen. Legg
+  synleg, me må òg `lag avtrykk`{.blockpen} av figuren på bakgrunnen. Legg
   til dette skriptet:
 
   ```blocks
   når eg får meldinga [Fann stad v]
   set [gjennomsiktig v]-effekt til (0)
-  stemple avtrykk
+  lag avtrykk
   set [gjennomsiktig v]-effekt til (100)
   ```
 
@@ -420,13 +420,13 @@ __Klikk på det grøne flagget.__
   `Effekter/rattle`, men du kan gjerne bruke ein annan lyd.
 
 - [ ] Spel lyden når ein stad blir funne. Klikk `Skript`{.blocklightgrey}-fana
-  og legg til ein `spill lyden`{.blocksound}-kloss.
+  og legg til ein `spel lyden`{.blocksound}-kloss.
 
   ```blocks
   når eg får meldinga [Fann stad v]
-  spill lyden [rattle v]
+  spel lyden [rattle v]
   set [gjennomsiktig v]-effekt til (0)
-  stemple avtrykk
+  lag avtrykk
   set [gjennomsiktig v]-effekt til (100)
   ```
 
@@ -640,7 +640,7 @@ vidare til neste reisemål på lista.
   ```
 
   Klossen `rører fargen`{.blocksensing} brukast for å sjekke om me allereie
-  har besøkt eit reisemål. I så fall vil me jo ha stemplet raudfarge på kartet.
+  har besøkt eit reisemål. I så fall vil me jo ha stempla raudfarge på kartet.
 
 - [ ] Siden dette vil hoppe over reisemål, er det viktig at det siste reisemålet
   sender melding om at me skal besøke det fyrste reisemålet att, i staden for at
