@@ -56,7 +56,9 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
+      oppgaven, for eksempel ved å gjøre en eller flere av variasjonene
+      nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 
