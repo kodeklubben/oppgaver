@@ -145,7 +145,7 @@ __Klikk på det grøne flagget.__
   blokka under.
 
   ```blocks
-  spel lyden [opptak 1 v] til den er ferdig
+  spel lyden [opptak 1 v] til han er ferdig
   ```
 
 
