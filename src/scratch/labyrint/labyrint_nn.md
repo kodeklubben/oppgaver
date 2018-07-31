@@ -362,7 +362,7 @@ veldig likt korleis `Skatt` merka at den vart funne.
   når @greenFlag vert trykt på
   for alltid
       viss <rører [Utforskar v]?>
-          si [Tok deg!] i (1) sekund
+          sei [Tok deg!] i (1) sekund
           stopp [alle v] :: control
       slutt
   slutt
