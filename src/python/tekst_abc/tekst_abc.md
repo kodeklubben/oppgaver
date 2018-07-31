@@ -39,15 +39,35 @@ bokstaver som er store og små i utskriften):
 
 ```python
 >>> s = "Per og Ada"
->>> s.upper()        # store bokstaver
+>>> s.upper()        
+
+
+# store bokstaver
+
 'PER OG ADA'
->>> s.lower()        # små bokstaver
+>>> s.lower()        
+
+
+# små bokstaver
+
 'per og ada'
->>> s.capitalize()   # første bokstav er stor
+>>> s.capitalize()   
+
+
+# første bokstav er stor
+
 'Per og ada'
->>> s.title()        # første bokstav i hvert ord er stor
+>>> s.title()        
+
+
+# første bokstav i hvert ord er stor
+
 'Per Og Ada'
->>> s.swapcase()     # bytter stor og små
+>>> s.swapcase()     
+
+
+# bytter stor og små
+
 'pER oG aDA'
 ```
 
@@ -61,6 +81,7 @@ Her er noen eksempler på hva funksjonene kan brukes til:
   >>> sentence.capitalize()
   'Denne setningen har ikke riktige bokstavstørrelser.'
   ```
+
 * `s.title()` kan brukes når vi skal skrive filmtitler:
 
   ```python
@@ -74,13 +95,21 @@ Her er noen eksempler på hva funksjonene kan brukes til:
 
   ```python
   >>> answer = "JA"
-  >>> answer == "ja"  # JA og ja er ikke lik
+  >>> answer == "ja"  
+
+
+# JA og ja er ikke lik
+
   False
   ```
 
   ```python
   >>> answer = "JA"
-  >>> answer.lower() == "ja"  # konverter JA til ja for testen
+  >>> answer.lower() == "ja"  
+
+
+# konverter JA til ja for testen
+
   True
   ```
 
@@ -89,16 +118,33 @@ lagre resultatet i en ny variabel om du vil beholde endringen din:
 
 ```python
 >>> s = "tekst"
->>> s.upper()  # Vi endrer ikke på variabelen!!
+>>> s.upper()  
+
+
+# Vi endrer ikke på variabelen!!
+
 'TEKST'
->>> s  # Fremdeles små bokstaver
+>>> s  
+
+
+# Fremdeles små bokstaver
+
 'tekst'
->>> s = s.upper()  # Nå endrer vi på variabelen
->>> s  # Denne gangen er det store bokstaver
+>>> s = s.upper()  
+
+
+# Nå endrer vi på variabelen
+
+>>> s  
+
+
+# Denne gangen er det store bokstaver
+
 'TEKST'
 ```
 
 <!--Workaround-->
+
 
 # {.check}
 
@@ -123,8 +169,8 @@ Dette må du gjøre:
 - [ ] Skriv ut den nye strengen.
 
 
-
 # Telling av tekst {.activity}
+
 
 # {.protip}
 
@@ -151,6 +197,7 @@ Vi kan også telle tekst som er lengre, for eksempel `"Per"`:
 ```
 
 <!--Workaround-->
+
 
 # {.check}
 
@@ -204,6 +251,7 @@ fjerne tekst. Vi kan for eksempel fjerne alle mellomrom:
 ```
 
 <!--Workaround-->
+
 
 # {.check}
 

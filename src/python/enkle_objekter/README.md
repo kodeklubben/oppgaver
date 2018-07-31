@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Enkle objekter
+author: Madeleine Lorås
 level: 4
 language: nb
 ---
@@ -30,7 +31,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Informasjonsteknologi 2, VG3__: gjøre rede for hensikten med
        objektorientert utvikling og begrepene klasse, objekt og arv.
-       
+
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare bruken av og hensikten med klasser og objekter.
@@ -62,7 +63,7 @@ oppgaven enda._
 - [ ] Elevene kan finne andre situasjoner hvor det egner seg godt å bruke
       klasser og objekter. For eksempel kan elevene bruke erfaringer fra spill
       og filmer til å sette opp klasser og objekter.
-        
+
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...

@@ -13,6 +13,7 @@ papir med den eller mot den.
 
 
 # Steg 1: Velge tilfeldig tall {.activity}
+
 Du skal få micro:biten til å velge et tilfeldig tall når du rister på den. For
 at du senere skal kunne bruke tallet som ble valgt, må tallet lagres i en
 variabel.*
@@ -156,7 +157,7 @@ gjorde tidligere.*
 - [ ] Inne i `hvis`-blokken plasserer du blokken `vis bilde` fra
   `Basis`-katekorien og klikker på alle lysene i blokken.
 
-- [ ] Det ferdige programmet skal nå se slik ut: 
+- [ ] Det ferdige programmet skal nå se slik ut:
 
   ![Bilde av det ferdige stein-saks-papir programmet](ssp_ferdig.png)
 

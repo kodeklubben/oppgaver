@@ -1,5 +1,5 @@
 ---
-title: '3D-Flakser, Del 1'
+title: '3D-flakser, del 1'
 level: 4
 author: 'Gudbrand Tandberg og Geir Arne Hjelle'
 language: nb
@@ -17,6 +17,7 @@ inn i to deler siden det er ganske mye vi skal igjennom. I denne første delen
 skal vi få ringene til å fungere som de skal. La oss sette i gang!
 
 ![Illustrasjon av 3d-flakser med fungerende ringer](3d_flakser.png)
+
 
 # Steg 1: Lag ringer, og få dem til å komme mot deg {.activity}
 
@@ -227,4 +228,3 @@ mot deg! Nå kan du ta et pust i bakken og se over det du har skrevet så langt.
   egen figur (den burde være et fugleliknende dyr). Husk at det ser mye bedre ut
   om figuren er symmetrisk. Det er lurt å gi figuren to drakter; en med vingene
   ned og en med vingene opp. Da kan vi senere få Flakse til å flakse!
-

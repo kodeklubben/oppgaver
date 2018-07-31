@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Skilpaddefraktaler
+author: Madeleine Lorås
 level: 3
 language: nb
 ---
@@ -41,6 +42,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] Elevene kan bruke matematiske begreper til å beskrive geometriske mønster
        og fraktaler.
+
 - [ ] Elevene kan bruke løkker, tester og rekursjon til å generere geometriske
        mønster og fraktaler.
 

@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Mattespill
+author: Øistein Søvik
 level: 2
 language: nb
 ---
@@ -20,7 +21,6 @@ hvordan en kan illustrere tilfeldige terningkast.
  __Tema__: Aritmetikk, Sannsynlighet, Løkker, Rekusjon
 
  __Tidsbruk__: Dobbelttime
-
 
 ## Kompetansemål {.challenge}
 

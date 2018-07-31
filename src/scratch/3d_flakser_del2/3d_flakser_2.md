@@ -1,5 +1,5 @@
 ---
-title: '3D-Flakser, Del 2'
+title: '3D-flakser, del 2'
 level: 4
 author: 'Gudbrand Tandberg og Geir Arne Hjelle'
 language: nb
@@ -219,4 +219,3 @@ spennende igjen du kan prøve:
 - [ ] Få ringene til å komme fortere mot deg etterhvert som du får flere poeng.
 
 - [ ] Gi Flakse flere drakter å det ser ut som han flyr når han skifter drakt.
-

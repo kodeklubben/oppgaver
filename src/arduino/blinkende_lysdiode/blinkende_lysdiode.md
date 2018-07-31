@@ -1,7 +1,7 @@
 ---
 title: 'Blinkende lysdiode'
-level: 1
 author: 'Adrian Helle'
+level: 1
 language: nb
 ---
 

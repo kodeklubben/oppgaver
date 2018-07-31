@@ -1,5 +1,7 @@
 ---
 title: Lærerveiledning - 7-Segment Display
+author: 'Martin Ertsås & Morten Minde Neergaard'
+level: 2
 language: nb
 ---
 
@@ -24,6 +26,7 @@ Denne oppgaven krever at elevene holder styr på en god del ledninger, og
 sluttresultatet vil se noe kaotisk ut.
 
 ![kaotisk](kaotisk.jpg)
+
 
 # Løsningsforslag
 

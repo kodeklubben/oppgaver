@@ -1,5 +1,6 @@
 ---
 title: 'CSS: Endre utseende og stil på tekst'
+author: 'Arve Seljebu'
 level: 2
 language: nb
 ---
