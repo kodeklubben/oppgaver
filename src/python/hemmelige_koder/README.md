@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Hemmelige koder
+author: Øistein Søvik
 level: 2
 language: nb
 ---

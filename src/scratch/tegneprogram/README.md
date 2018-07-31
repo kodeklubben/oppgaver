@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Tegneprogram
+author: Stein Olav Romslo
 level: 3
 language: nb
 ---
@@ -11,7 +12,7 @@ I dette prosjektet lager vi et tegneprogram slik at man etterpå kan lage sin
 egen kunst. Man kan tegne med forskjellige farger, bruke viskelær, lage stempler
 og mye mer!
 
-![](tegneprogram.png)
+![Bilde av et tegneprogram](tegneprogram.png)
 
 ## Oppgaven passer til: {.check}
 

@@ -1,16 +1,18 @@
 ---
-title: "Python: Hello, World"
+title: "Python: Hello, World!"
 level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/buttons.html)"
-license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
 translator: "Øistein Søvik"
 language: nb
 ---
 
+
+# Introduksjon {.intro}
+
 Den tradisjonelle måten å starte å programmere på i et nytt språk er å få
 datamaskinen til å si, "Hello, World!" (Altså Hei, verden!).
 
-![](scroll-hello1.gif)
+![Bilde av en microbit som scroller texten "Hello, World!"](scroll-hello1.gif)
 
 Dette kan gjøres som følger med MicroPython
 
@@ -59,11 +61,11 @@ dette klart ved å bruke tomme parenteser som dette: `()`.
 - [ ] Kopier "Hello, World!" koden inn i editoren din og flash den til enheten.
 
 - [ ] Endre meldingen slik at den sier hallo til deg. For eksempel, så ville jeg
-      kanskje få den til å si "Hallo, Øistein!". 
-      
+      kanskje få den til å si "Hallo, Øistein!".
+
 Her er et hint, du trenger å endre `scroll` metoden sitt argument.
 
-## Advarsel {.tip} 
+## Advarsel {.tip}
 
 Dette virker kanskje ikke. :-)
 

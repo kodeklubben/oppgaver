@@ -22,8 +22,10 @@ Fraktaler følger tre regler:
 
 - **Startregelen** gir hvor vi skal starte. Med en firkant? En trekant? En
   strek?
+
 - **Tegneregelen** gir hvordan vi skal tegne på nivået vi er. Fargelegge en bit
   av firkanten? Splitte en strek i to?
+
 - **Rekursjonsregelen** deler opp figuren vår i mindre biter, som vi kjører på
   nytt i. Lager firkanten vi tegnet nye firkanter? Lager streken vi tegnet nye
   streker? Gjenta for hver strek.
@@ -78,6 +80,7 @@ main =
 
 - [ ] **Utvid koden til å tegne mange kvadrater**.
 
+
 # Steg 3: Datastrukturer {.activity}
 
 Kan du telle hvor mange kvadrater det finnes i Sierpinski-teppet? Ikke jeg
@@ -123,7 +126,9 @@ Nå kan du endre `toString myPoint` for å skrive ut noe annet.
 ## Sjekkliste {.check}
 
 - [ ] Skriv ut kun `x`-attributten til `myPoint`
+
 - [ ] Lag et annet punkt, `yourPoint`. Velg koordinater og skriv ut dette i stedet.
+
 - [ ] Lag et tredje punkt, `theirPoint`. Dette skal du lage _ut ifra `myPoint`_, men
   du skal bytte ut x-verdien med `0`. Se avsnittet **Updating Records** i guiden.
 
@@ -159,7 +164,7 @@ har gjort noe feil. Det bare at du og guiden lagde punkter på forskjellig måte
 
 - [ ] Lag en ny type: `Point3D` som også har Z-verdi, og spesifiser at punktene
   dine skal være av denne typen:
-  
+
   ```elm
   myPoint : Point3D
   -- ...
@@ -354,6 +359,7 @@ centerSquare old =
 ```
 
 - [ ] Les avsnittet om `List.range` i [dokumentasjonen til List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#range)
+
 - [ ] Bruk `List.map` og `List.range` til å lage denne store listen:
 
 ```elm
@@ -447,13 +453,13 @@ Men videre blir det vanskeligere. Hvordan skal vi få til steg 3 og steg 4 på e
 **Nivå 3**:
 
 <p>
-  <img src="level3.svg">
+  <img src="level3.svg" alt="Bilde av nivå 3 av rekursjonen">
 </p>
 
 **Nivå 4**:
 
 <p>
-  <img src="level4.svg">
+  <img src="level4.svg" alt="Bilde av nivå 4 av rekursjonen">
 </p>
 
 Først lager vi én firkant. Så vil vi lage de åtte små firkanene som følger denne
@@ -470,7 +476,9 @@ I nivå 3 lager vi **8 * 8 = 64** nye firkanter.
 Bruk `elm repl` til å regne ut disse:
 
 - [ ] Hvor mange nye firkanter lager vi i nivå **4**?
+
 - [ ] Hvor mange nye firkanter lager vi i nivå **5**?
+
 - [ ] Hvor mange nye firkanter lager vi i nivå **6**?
 
 Klarer du å se et mønster?

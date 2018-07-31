@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Soloball
+author: Madeleine Lorås
 level: 1
 language: nb
 ---
@@ -76,7 +77,6 @@ oppgaveteksten.](../soloball/soloball.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
-
 
 ## Variasjoner {.challenge}
 
