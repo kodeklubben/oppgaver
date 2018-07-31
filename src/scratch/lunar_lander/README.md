@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Lunar Lander
+author: Stein Olav Romslo
 level: 4
 language: nb
 ---

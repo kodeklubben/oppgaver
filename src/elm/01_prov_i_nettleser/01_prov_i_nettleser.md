@@ -84,7 +84,9 @@ Vi kommer tilbake til hva `[]` betyr.
 Tenk på hva du vil lage, og skriv svaret med Elm!
 
 * Vil du lage webapplikasjon?
+
 * Vil du lage spill?
+
 * Hvem skal bruke appen/spillet ditt?
 
 ## Når noe går feil {.protip}
@@ -99,6 +101,7 @@ feilen!
 
 * ``Module `Html` does not expose `divv` `` betyr at Html-modulen ikke
   inneholder noen funksjon som heter `divv`.
+
 * `Maybe you want one of the following? div` foreslår å bruke `div` i stedet.
   Kanskje det var hva du mente?
 
@@ -114,7 +117,7 @@ Oppdater siden for å få tilbake koden som den var før du begynte å redigere 
 - [ ] Åpne **Buttons**.
     - Kan du endre teksten på knappene til "Mer!" og "Mindre!"?
     - Kan du få pluss-knappen til å legge til 5 hver gang du trykker?
-    
+
 - [ ] Åpne **Clock**.
     - Kan du gjøre viseren kortere?
     - Kan du gjøre viseren rosa?
@@ -128,10 +131,12 @@ Har du fått flere gode ideer til hva du vil gjøre?
 
 - [ ] Oppdater Elm-dokumentet du lagde i stad med nye ideer!
 
+
 # Jeg lurer på flere ting!
 
 Elm har meget god dokumentasjon:
 
 * Les i [guiden](https://guide.elm-lang.org/) når du vil lære noe nytt
+
 * Søk i [referansen](http://package.elm-lang.org/) når du lurer på hva en
   funksjon gjør.

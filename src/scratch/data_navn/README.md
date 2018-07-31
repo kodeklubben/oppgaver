@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - Bruk data: Jente- og guttenavn"
+author: Madeleine Lorås og Lars Klingenberg
 level: 2
 language: nb
 ---
@@ -55,7 +56,6 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] Eleven viser høy måloppnåelse ved å finne og bruke annen statistikk.
 
-
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Elevene burde ha en grunnleggende forståelse for
@@ -88,5 +88,5 @@ oppgaveteksten.](../data_navn/data_navn.html){target=_blank}
 
 - [ ] Elevene skal finne andre datasett. Her kan det være en ide å ha noe klart
       på forhånd.
-      
+
 - [ ] Bruke datasett for å finne gjennomsnitt og median.

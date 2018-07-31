@@ -1,10 +1,8 @@
 ---
 title: JafseFisk
 level: 2
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Anne-Marit Gravem'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
@@ -132,6 +130,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Hva gjør `sprett tilbake ved kanten`{.b}? Fjern klossen og se hva som
   skjer.
+
 
 # Steg 3: JafseFisk spiser byttet {.activity}
 

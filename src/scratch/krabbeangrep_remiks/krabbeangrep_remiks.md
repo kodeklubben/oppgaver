@@ -18,6 +18,7 @@ på krabbene og får poeng når den treffer.
 
 ![Illustrerer en remix av et krabbespill](krabbeangrep_remiks.png)
 
+
 # Steg 1: Bli kjent med spillet {.activity}
 
 *Før vi begynner å kode noe som helst skal vi bli litt kjent med spillet som det
