@@ -227,7 +227,7 @@ __Klikk på det grøne flagget.__
           set [kappløp v] til [0]
           spel lyden [Polly v]
           sei [Polly vann! v] i (3) sekund
-          send melding [Avslutt v]
+          send meldinga [Avslutt v]
       slutt
   slutt
   ```
@@ -237,7 +237,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   når jeg mottar [Avslutt v]
-  sett x til (-170)
+  set x til (-170)
   ```
 
 - [ ] Gjer det same for løvinna. Test ulike `x`-verdiar for å vere sikker på at
@@ -248,7 +248,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   når @greenFlag vert trykt på
-  sett x til (-170)
+  set x til (-170)
   ```
 
 - [ ] For at spelarane skal kunne klikke i gang nye runder må me passe på at
@@ -300,7 +300,7 @@ viss <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
         set [kappløp v] til [0]
         spel lyden [Polly v]
         sei [Polly vann! v] i (3) sekund
-        send melding [Avslutt v]
+        send meldinga [Avslutt v]
     slutt
     bytt drakt til [parrot-a v]
 slutt
@@ -351,7 +351,7 @@ Scratch-kodekloss!
       set [kappløp v] til [0]
       spel lyden [Polly v]
       sei [Polly vann! v] i (3) sekund
-      send melding [Avslutt v]
+      send meldinga [Avslutt v]
 
   når [a v] vert trykt
   viss <(kappløp) = [1]>
