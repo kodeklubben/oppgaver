@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Snake
+author: Stein Olav Romslo
 level: 4
 language: nb
 ---

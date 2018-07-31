@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - CSS: Endre utseende og stil på tekst"
+author: Lars Klingenberg
 language: nb
 level: 2
 ---

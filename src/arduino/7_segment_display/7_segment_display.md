@@ -1,7 +1,7 @@
 ---
 title: '7-Segment Display'
-level: 2
 author: 'Martin Ertsås & Morten Minde Neergaard'
+level: 2
 language: nb
 ---
 
