@@ -12,7 +12,7 @@ language: nn
 Det er ganske enkelt å lage interessante animasjonar i Scratch. Her skal me sjå
 korleis me kan flytte og snurre på figurar for å skape spanande mønster.
 
-![Bilete av eit spanande mønster om ein sirkel](snurrige_figurar.png)
+![Bilete av eit spanande mønster om ein sirkel](snurrige_figurer.png)
 
 
 # Steg 1: Ein snurrig figur {.activity}
