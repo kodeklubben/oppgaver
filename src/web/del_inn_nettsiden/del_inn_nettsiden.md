@@ -35,7 +35,7 @@ seksjon. Vi bruker denne taggen for å organisere forskjellige deler av siden og
 brukes ofte sammen med CSS (utseende), som vi skal se på i en senere del av
 oppgaven. La oss se på et eksempel:
 
-- [ ] Gå inn på [kidsakoder.no](http://kidsakoder.no).
+- [ ] Gå inn på [kidsakoder.no](https://kidsakoder.no).
 
 - [ ] Trykk på `X-Ray Goggles` eller bruk utviklerverktøy (Chrome: Visning ->
       Utvikler -> Utviklingsverktøy, Firefox: bruk [X-Ray
@@ -273,7 +273,7 @@ selector {
 være IDer og klasser, som vi vil lære om senere.
 
 `Property` kan være for eksempel `background-color` som vi har brukt. Flere
-`properties` finner du på [w3schools.com/css](http://w3schools.com/css)
+`properties` finner du på [w3schools.com/css](https://w3schools.com/css)
 
 `Value` er det som kommer etter en `property` og er verdien du sender til
 `property`. Denne kan være `red`, for eksempel.
@@ -319,7 +319,7 @@ og/eller bokstaver. Siden det tar veldig lang tid å prøve ut alle
 kombinasjonene, så bruker vi litt hjelp for å finne de fargene vi vil ha:
 
 - [ ] Gå inn på [paletton.com](http://paletton.com) eller
-      [colorpicker.com](http://colorpicker.com) og velg og vrak i masse
+      [colorpicker.com](https://colorpicker.com) og velg og vrak i masse
       forskjellige farger
 
 - [ ] Erstatt de fargene du har med noen andre du liker ved å bruke `#` foran de
@@ -341,7 +341,7 @@ Vi skal se enda mer på CSS etter vi har lært litt mer HTML.
 
 ## Utfordring {.challenge
 
-- [ ] Gå inn på [w3schools.com/css](http://w3schools.com/css) og se om du finner
+- [ ] Gå inn på [w3schools.com/css](https://w3schools.com/css) og se om du finner
       en flere “properties” du kan endre på.
 
 
@@ -369,7 +369,7 @@ siden og se hva det står nederst.
 denne taggen
 
 Du kan lese om flere her:
-[http://www.w3schools.com/html/html5_new_elements.asp](http://www.w3schools.com/html/html5_new_elements.asp)
+[https://www.w3schools.com/html/html5_new_elements.asp](https://www.w3schools.com/html/html5_new_elements.asp)
 
 Disse taggene gjør det enklere for nettleseren å lese hva innholdet på siden er.
 Nå skal vi bytte ut `<div>`-taggene på siden vår med noen av taggene over.
