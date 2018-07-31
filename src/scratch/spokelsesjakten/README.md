@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Spøkelsesjakten
+author: Stein Olav Romslo
 level: 1
 language: nb
 ---

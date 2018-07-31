@@ -1,8 +1,10 @@
 ---
 title: Lærerveiledning - Hoppehelt
+author: Stein Olav Romslo
 level: 4
 language: nb
 ---
+
 
 # Om oppgaven {.activity}
 
@@ -12,12 +14,12 @@ lyd. Gjennom spillet Hoppehelt vil vi se litt nærmere på hvordan kloner brukes
 når man programmerer i Scratch. Vi vil til og med se eksempler på kloner av
 kloner!
 
-![](hoppehelt.png)
+![Illustrasjon av et ferdig hoppehelt spill](hoppehelt.png)
 
 ## Oppgaven passer til: {.check}
 
  __Fag__: Kunst og håndtverk, matematikk, programmering.
- 
+
 __Anbefalte trinn__: 5.-10. trinn.
 
 __Tema__: Geometriske grunnformer, koordinatsystem, brukerinteraksjon.
@@ -95,3 +97,4 @@ oppgaven enda._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
+

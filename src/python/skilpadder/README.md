@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Skilpadder
+author: Øistein Søvik
 level: 1
 language: nb
 ---

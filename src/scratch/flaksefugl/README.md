@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Flaksefugl
+author: Stein Olav Romslo
 level: 2
 language: nb
 ---
@@ -29,7 +30,6 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske
       former i konstruksjon og som dekorative formelementer
-
 
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
       rutenett, på kart og i koordinatsystemer, både med og uten digitale

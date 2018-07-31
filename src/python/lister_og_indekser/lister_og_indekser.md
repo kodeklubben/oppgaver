@@ -16,6 +16,7 @@ har glemt hvordan løkker fungerer.
 
 # Hvordan lage lister? {.activity}
 
+
 # {.protip}
 
 Hver ting i en liste kalles et *element*. En liste lages ved å skrive elementer
@@ -46,6 +47,7 @@ Ei liste kan inneholde alt mulig - tall, strenger og også andre lister:
 
 
 # Legge til og fjerne elementer {.activity}
+
 
 # {.protip}
 
@@ -156,6 +158,7 @@ I eksempelet over får `i` verdien av indeksen, og `value` får verdien av
 elementet. Det er nesten som ei vanlig `for`-løkke, men vi får indeksen i
 tillegg.
 
+
 # {.check}
 
 Modifiser nå programmet fra forrige oppgave til å skrive ut indekser ved siden
@@ -207,6 +210,7 @@ Dette må du gjøre:
 
 # Strenger og indekser {.activity}
 
+
 # {.protip}
 
 Vi kan også bruke indekser på strenger. For eksempel:
@@ -216,6 +220,7 @@ Vi kan også bruke indekser på strenger. For eksempel:
 >>> s[0]
 'A'
 ```
+
 
 # {.check}
 

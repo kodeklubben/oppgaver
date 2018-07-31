@@ -153,7 +153,7 @@ Nå har vi tatt inn grafikken vi trenger. Det er på tide å begynne å programm
   ```blocks
   når grønt flagg klikkes
   sett størrelse til (200) %
-  legg øverst
+  legg foran
   gå til x: (0) y: (-50)
   ```
 
@@ -305,4 +305,3 @@ spillet kan videreutvikles?
 
 - [ ] Kan du gjøre spillet vanskeligere etterhvert? For eksempel kan flyene
   komme raskere etterhvert som du får flere poeng?
-

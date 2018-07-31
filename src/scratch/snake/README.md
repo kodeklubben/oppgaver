@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Snake
+author: Stein Olav Romslo
 level: 4
 language: nb
 ---
@@ -24,7 +25,7 @@ konkurrerer om å spise eplene og om å stenge hverandre inne.
 ## Oppgaven passer til: {.check}
 
  __Fag__: Kunst og håndtverk, matematikk, programmering.
- 
+
 __Anbefalte trinn__: 5.-10. trinn.
 
 __Tema__: Grunnleggende geometriske former, koordinatsystem, variabler.
@@ -38,11 +39,11 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske
       former i konstruksjon og som dekorative formelementer.
-      
+
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
       rutenett, på kart og i koordinatsystemer, både med og uten digitale
       verktøy.
-      
+
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
       kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
       koordinater til å beregne avstander parallelt med aksene i et
@@ -60,10 +61,9 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] Elevene kan plassere elementer i bestemte posisjoner ved hjelp av et
       koordinatsystem.
 
-
 - [ ] Elevene kan få en figur til å bevege seg i et koordinatsystem ved hjelp av
       retning og hastighet, og at tilhørende figurer følger etter.
-      
+
 - [ ] Elevene kan lage et spill med kontinuerlig brukerinteraksjon.
 
 ## Forslag til vurderingskriterier {.challenge}
@@ -78,7 +78,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort
       flere prosjekter på erfaren-nivået før de begynner med denne oppgaven.
-      
+
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
       bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
       seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
@@ -113,4 +113,3 @@ oppgaven enda._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-
