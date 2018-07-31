@@ -283,8 +283,8 @@ nokre idear:
 
 - [ ] Kan du lage ein test for om _alle_ pingvinane har kome heim? Den er
   enklast å lage på akvariefiguren. Du bør bruke ei `for
-  alltid`{.blockcontrol}-løkke, ein `viss`{.blockcontrol}-test samt `< > og <
-  >`{.b}- og `rører [ v]`{.b}-klossar.
+  alltid`{.blockcontrol}-løkke, ein `viss`{.blockcontrol}-test samt
+  `< > og < >`{.b}- og `rører [ v]`{.b}-klossar.
 
 - [ ] Kanskje me kan telje poeng kvar gong ein pingvin finn vegen til akvariet?
   Til det treng du noko som heiter variablar. Desse finn du under
