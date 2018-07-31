@@ -44,7 +44,7 @@ Denne kan me bruke til å endre hastigheita undervegs i spelet seinare.
   heiter `hastigheit`, prøv å slette den og leggje den til på nytt.
 
 - [ ] Fjern avhukinga ved sidan av variabelen, slik at den ikkje synast på
-  scena: ![Bilete av korleis ikkje vise hastigheit-variabelen](hastigheit.png)
+  scena: ![Bilete av korleis ikkje vise hastigheit-variabelen](hastighet.png)
 
 - [ ] Me vil at spøkelset skal bevege seg når spelet startar. Det gjer me ved å
   lage følgjande skript:
