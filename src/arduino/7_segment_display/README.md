@@ -1,5 +1,7 @@
 ---
 title: Lærerveiledning - 7-Segment Display
+author: 'Martin Ertsås & Morten Minde Neergaard'
+level: 2
 language: nb
 ---
 

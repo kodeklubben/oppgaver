@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Regn med løkker
+author: Øistein Søvik
 level: 3
 language: nb
 ---

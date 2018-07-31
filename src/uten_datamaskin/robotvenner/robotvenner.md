@@ -3,7 +3,6 @@ title: Mine Robotvenner
 level: 1
 author: Oversatt fra [Thinkersmith](http://thinkersmith.org/)
 translator: Lær Kidsa Koding
-license: "[CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/deed.no)"
 language: nb
 ---
 

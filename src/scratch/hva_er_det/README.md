@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Hva er det?
+author: Stein Olav Romslo
 level: 3
 language: nb
 ---
