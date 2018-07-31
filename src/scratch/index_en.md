@@ -11,4 +11,5 @@ work collaboratively.
 ## How to start with Scratch
 
 - Go to [scratch.mit.edu](https://scratch.mit.edu){target=_blank}.
+
 - Press `Create` to start coding.

@@ -18,6 +18,7 @@ Vi starter ut med å vise en sirkel på en gitt posisjon. Her må vi kombinere t
 ting som har vært i tidligere oppgaver:
 
 1. Vise en sirkel med musen (Tegning med SVG)
+
 2. Bruke `Html.program` i stedet for `Html.beginnerProgram` (Tell sekunder)
 
 Vi trenger `Html.program` fordi vi skal lytte på musebevegelser på samme måte
@@ -140,6 +141,7 @@ update msg model =
 subscriptions model =
   Sub.batch - [ ]
 ```
+
 
 # Steg 3: Koble på musen {.activity}
 
