@@ -59,7 +59,7 @@ I figuren er den blå boksen hovudet til slangen, dei grøne boksane er kroppen
 til slangen, og dei kvite viser kor slangen har vore (dei kvite er eigentleg
 sletta kloner av boksane).
 
-![Bilete av slangen og kor den har vore](teljar.png)
+![Bilete av slangen og kor den har vore](teller.png)
 
 For å vite når me skal slette kloner treng me tre variablar:
 `lengde`{.blockdata} er lengda på slangen, `teljar`{.blockdata} er ein enkel
