@@ -12,8 +12,8 @@ seg spill og multimediaprogrammer.
 
 - Gå til [processing.org/download](https://processing.org/download).
 
-- Last ned Processing til din datamaskin. Velg nyeste versjon (3.0b5
-  per september 2015).
+- Last ned Processing til din datamaskin. Velg nyeste versjon (3.4 per juli
+  2018).
 
 - Installer Processing ved å pakke ut innholdet i arkivet til en
   passende plassering.
@@ -26,15 +26,15 @@ seg spill og multimediaprogrammer.
 - Når du har startet Processing, så kan du lage en ny fil for å skrive et
   program.
 
-- Trykk på **Ctrl+N** eller **File --> New** for å lage et nytt program.
+- Trykk på `ctrl + N` eller `File --> New` for å lage et nytt program.
 
 - Skriv: `text("Hello world", 10, 40);`
 
-- Trykk på **Ctrl+S** eller **File --> Save** for å lagre programmet ditt.
+- Trykk på `ctrl + S` eller `File --> Save` for å lagre programmet ditt.
 
-- Gi programmet ditt navnet HelloWorld og lagre det i den mappen du ønsker.
+- Gi programmet ditt navnet `HelloWorld` og lagre det i den mappen du ønsker.
 
-- Trykk på **Ctrl+R**, knappen merket med en pil eller **Sketch --> Run**
+- Trykk på `ctrl + R`, knappen merket med en pil eller `Sketch --> Run`
   for å kjøre programmet ditt.
 
-- Du har nå skrevet ditt første program!
+- Du har nå skrevet ditt første Processing-program!
