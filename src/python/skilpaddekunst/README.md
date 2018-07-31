@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Skilpaddekunst
+author: Øistein Søvik
 level: 2
 language: nb
 ---

@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Pingviner på tur
+author: Madeleine Lorås
 level: 1
 language: nb
 ---
@@ -75,7 +76,8 @@ oppgaven enda._
 
 - [ ]  Elevene kan finne andre tema for spillet - løver i Afrika, for eksempel.
 
-- [ ]  Elevene kan lage en variabel som teller poeng for hver pingvin som kommer tilbake til akvariet.
+- [ ]  Elevene kan lage en variabel som teller poeng for hver pingvin som kommer
+       tilbake til akvariet.
 
 ## Eksterne ressurser {.challenge}
 

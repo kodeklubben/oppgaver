@@ -5,6 +5,7 @@ indexed: false
 language: nb
 ---
 
+
 # Programmering
 
 Scratch er et programmeringsspråk som gjør det enkelt å lage dine egne

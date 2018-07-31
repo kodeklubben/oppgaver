@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - CSS: Skjul ninjaene"
+author: Lars Klingenberg
 level: 3
 language: nb
 ---

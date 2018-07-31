@@ -1,7 +1,9 @@
 ---
 title: Lærerveiledning - Stjerner og galakser
+level: 2
+author: '[Code Club UK](//codeclub.org.uk)'
+translator: 'Ole Andreas Ramsdal'
 language: en
-
 ---
 
 

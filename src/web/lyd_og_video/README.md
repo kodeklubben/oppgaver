@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Legg til lyd og video"
+author: Lars Klingenberg
 level: 3
 language: nb
 ---

@@ -101,6 +101,7 @@ __Klikk på det grønne flagget.__
   drakt`{.blocklooks}-klosser for å animere figuren din slik at den beveger seg
   mer naturlig.
 
+
 # Steg 2: Mange snøballer {.activity}
 
 *Det blir ingen snøballkrig uten snøballer. La oss lage kjempemange av dem! Med
