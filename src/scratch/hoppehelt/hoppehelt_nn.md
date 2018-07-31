@@ -110,7 +110,7 @@ __Klikk på det grøne flagget.__
   lag dette skriptet sjølv. Pass på at boksen ikke er borti kanten av skjermen.
 
 - [ ] Etter at du har funne ein bra plassering for boksen kan du utvide skriptet
-  ved å `skjule`{.blocklooks} figuren og lage ei løkke som gjer at boksen lagar
+  ved å `gøyme`{.blocklooks} figuren og lage ei løkke som gjer at boksen lagar
   ein klone av seg sjølv annakvart sekund.
 
 - [ ] Gå til scena og lag ein variabel du kallar `hastigheit`{.blockdata}. Lag
@@ -159,7 +159,7 @@ __Klikk på det grøne flagget.__
 
 - [ ] Viss du testar dette ser du at boksane heng litt medan lyden blir spelt
   av. Ein enkel måte å unngå dette på er å leggje til ein
-  `skjul`{.blocklooks}-kloss rett før `spel tonen`{.blocksound}-klossen.
+  `gøym`{.blocklooks}-kloss rett før `spel tonen`{.blocksound}-klossen.
 
 ## Prøv sjølv {.challenge}
 
@@ -221,7 +221,7 @@ Du kan godt eksperimentere med verdiane i klossen.
   når eg får meldinga [Nytt spel v]
   gå til x: (-239) y: (-161)
   set [er generator v] til [ja]
-  skjul
+  gøym
   gjenta (3) gongar
       lag klon av [meg v]
       endra y med (110)
@@ -235,7 +235,7 @@ Du kan godt eksperimentere med verdiane i klossen.
   Lag fyrst det følgande:
 
   ```blocks
-  når jeg starter som klon
+  når eg startar som klon
   viss <(er generator) = [ja]>
       set [er generator v] til [nei]
   elles
