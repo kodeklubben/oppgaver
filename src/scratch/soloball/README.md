@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Soloball
+author: Madeleine Lorås
 level: 1
 language: nb
 ---

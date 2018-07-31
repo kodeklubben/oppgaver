@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Redd verden
+author: Stein Olav Romslo
 level: 2
 language: nb
 ---

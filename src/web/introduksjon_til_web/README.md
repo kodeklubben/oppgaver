@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Introduksjon til Web"
+author: Lars Klingenberg
 language: nb
 level: 1
 ---

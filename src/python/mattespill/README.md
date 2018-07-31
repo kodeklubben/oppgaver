@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Mattespill
+author: Øistein Søvik
 level: 2
 language: nb
 ---

@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Ordbøker
+author: Øistein Søvik
 level: 3
 language: nb
 ---

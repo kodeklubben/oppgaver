@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Astrokatt
+author: Madeleine Lorås
 level: 1
 language: nb
 ---
