@@ -45,7 +45,7 @@ søppelet som vi skal kaste.
 - [ ] Legg til seks figurer som representerer søppel. Her kan du igjen velge
   eksisterende figurer fra biblioteket, tegne dine egne, eller finne noen bilder
   på nettet du syns passer. Selv valgte vi noen bananer, et eple, en ballong, et
-  hellikopter, en melkekartong, og en avis.
+  helikopter, en melkekartong, og en avis.
 
   <style>
   figure.inline > img {
@@ -57,7 +57,7 @@ søppelet som vi skal kaste.
     <img src="bananer.png" alt="Bilde av bananer"/>
     <img src="eple.png" alt="Bilde av et eple"/>
     <img src="ballong.png" alt="Bilde av en ballong"/>
-    <img src="hellikopter.png" alt="Bilde av et hellikopter"/>
+    <img src="helikopter.png" alt="Bilde av et helikopter"/>
     <img src="melk.png" alt="Bilde av en melk"/>
     <img src="avis.png" alt="Bilde av en avis"/>
   </figure>
