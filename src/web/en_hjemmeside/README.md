@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Vi bygger hjemmeside"
+author: Lars Klingenberg
 language: nb
 level: 1
 ---

@@ -1,10 +1,8 @@
 ---
 title: Skilpaddeskolen
 level: 2
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Bjørn Einar Bjartnes'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
 
@@ -16,7 +14,8 @@ language: nb
 - [ ] Åpne IDLE-editoren, og åpne en ny fil ved å trykke `File > New File`, og
       la oss begynne.
 
-  Husk at du skal ha to vinduer åpne. Det ene er 'Python Shell' og det andre er for å skrive kode i.
+  Husk at du skal ha to vinduer åpne. Det ene er 'Python Shell' og det andre er
+  for å skrive kode i.
 
   Som sist vil den første linjen alltid være `from turtle import *` for å
   fortelle Python at vi vil tegne ved hjelp av skilpadde-biblioteket!
@@ -29,7 +28,8 @@ language: nb
       right(90)
   ```
 
-- [ ] Lagre det som en ny fil, og kjør programmet fra menyen ved å trykke `Run > Run Module`.
+- [ ] Lagre det som en ny fil, og kjør programmet fra menyen ved å trykke `Run >
+      Run Module`.
 
   Husk at `for n in range(4)` gjentar koden, og at koden må grupperes med
   mellomrom (innrykk) for å være en del av for-løkken. Bruk *tab* (knappen rett

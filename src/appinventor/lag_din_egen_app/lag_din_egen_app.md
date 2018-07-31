@@ -3,7 +3,6 @@ title: 'Lag din egen app'
 level: 4
 author: 'Basert på ["Lag ditt eget spill" i Scratch](http://kodeklubben.github.io/scratch/lag_ditt_eget_spill/lag_ditt_eget_spill.html)'
 translator: 'Tjerand Silde'
-license: '[cc-by-sa 3.0](http://creativecommons.org/licenses/by-sa/3.0/)'
 language: nb
 ---
 

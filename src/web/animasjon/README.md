@@ -1,5 +1,6 @@
 ---
 title: "Lærerveiledning - CSS: Animasjon"
+author: Lars Klingenberg
 language: nb
 level: 2
 ---

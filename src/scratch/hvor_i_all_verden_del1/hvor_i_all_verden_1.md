@@ -291,7 +291,7 @@ sekunder.
   animasjonen er slutt må du legge klossen
 
   ```blocks
-  si - [ ]
+  si [ ]
   ```
 
   til slutt i skriptet ditt.
@@ -313,4 +313,3 @@ seg. Vi skal også gjøre spillet vanskeligere ved å legge til flere reisemål.
   gjør dette! Et hint er at du kan lage en ny variabel, f.eks.
   `Tid`{.blockdata}, og et skript som går i løkke og endrer `Tid`{.blockdata}
   med 1 for deretter å vente 1 sekund.
-

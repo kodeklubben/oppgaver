@@ -1,5 +1,6 @@
 ---
 title: Lærerveiledning - Kryptonøtt
+author: Madeleine Lorås & Øistein Søvik
 level: 4
 language: nb
 ---

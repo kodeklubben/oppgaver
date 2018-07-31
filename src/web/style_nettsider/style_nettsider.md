@@ -1,5 +1,6 @@
 ---
 title: 'CSS: Style nettsider'
+author: 'Arve Seljebu'
 level: 2
 language: nb
 ---
@@ -17,9 +18,9 @@ __CSS__ (som står for __Cascading Style Sheets__). Det er et veldig enkelt spr�
 
 Resultatet kommer til å se noe sånt ut:
 
-![screenshot2](ressurser/bilde1.png)
+![Bilde av nettsiden om Felix](ressurser/bilde1.png)
 
-![screenshot3](ressurser/bilde2.png)
+![Tekst om den savnede katten](ressurser/bilde2.png)
 
 
 # Steg 1: Hvordan fungerer CSS? {.activity}
@@ -281,9 +282,9 @@ forsiktig, det finnes noen stiler som ikke blir videreført.
 
 ## Resultat:
 
-![screenshot2](ressurser/bilde1.png)
+![Bilde av nettsiden om Felix](ressurser/bilde1.png)
 
-![screenshot3](ressurser/bilde2.png)
+![Tekst om den savnede katten](ressurser/bilde2.png)
 
 ## Koden:
 
