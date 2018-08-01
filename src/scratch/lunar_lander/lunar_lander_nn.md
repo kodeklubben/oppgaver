@@ -63,7 +63,7 @@ til den skrå streken.
 - [ ] Lag romskipet ganske lite. Du kan for eksempel bruke
 
   ```blocks
-      sett størrelse til (20) %
+      set storleik til (20) %
   ```
 
   rett etter at det grønne flagget er klikket.
@@ -75,15 +75,15 @@ til den skrå streken.
       tyngdekrafta. Skriv denne koden:
 
   ```blocks
-      når jeg mottar [Nytt spill v]
+      når eg får meldinga [Nytt spel v]
       gå til x: (0) y: (175)
-      pek i retning (90 v)
-      sett [fartX v] til (0)
-      sett [fartY v] til (0)
+      peik i retning (90 v)
+      set [fartX v] til (0)
+      set [fartY v] til (0)
       for alltid
-          endre [fartY v] med (-0.01)
-          endre x med (fartX)
-          endre y med (fartY)
+          endra [fartY v] med (-0.01)
+          endra x med (fartX)
+          endra y med (fartY)
       slutt
   ```
 
@@ -91,7 +91,7 @@ til den skrå streken.
   skjermen. Prøv å endre litt i klossen
 
   ```blocks
-      endre [fartY v] med (-0.01)
+      endra [fartY v] med (-0.01)
   ```
 
   Det er denne som modellerer tyngdekraften. Om du forandrar verdien her vil
@@ -101,7 +101,7 @@ til den skrå streken.
 - [ ] Me vil nå programmera kontrollen av romskipet. Først og fremst vil me at
       romskipet vender seg når me trykker på piltastene mot høgre og venstre.
 
-  Legg til to `hvis`{.blockcontrol}-blokker inne i `for
+  Legg til to `viss`{.blockcontrol}-blokker inne i `for
   alltid`{.blockcontrol}-løkken hvor du `vender`{.blockmotion} romskipet for
   eksempel `5` grader mot høgre eller venstre avhengig av kva piltast du trykker
   på.
@@ -112,9 +112,9 @@ til den skrå streken.
       til denne blokken inne i `for alltid`{.blockcontrol}-løkken din.
 
   ```blocks
-      hvis (tast [pil opp v] trykket?)
-          endre [fartX v] med ((0) - ([cos v] av (retning)))
-          endre [fartY v] med ([sin v] av (retning))
+      viss <tasten [pil opp v] er trykt?>
+          endra [fartX v] med ((0) - ([cos v] av (retning)))
+          endra [fartY v] med ([sin v] av (retning))
       slutt
   ```
 
@@ -129,12 +129,12 @@ til den skrå streken.
   korleis ein målar vinklar i matematikk.
 
 - [ ] Prøv spelet ditt. Kan du styra romskipet rundt på skjermen? Dersom du
-      synes romskipet flyr for raskt eller sakte kan du justera `endre
+      synes romskipet flyr for raskt eller sakte kan du justera `endra
       fart`{.blockdata}-klossene, for eksempel slik,
 
   ```blocks
-      endre [fartX v] med ((0.3) * ((0) - ([cos v] av (retning))))
-      endre [fartY v] med ((0.3) * ([sin v] av (retning)))
+      endra [fartX v] med ((0.3) * ((0) - ([cos v] av (retning))))
+      endra [fartY v] med ((0.3) * ([sin v] av (retning)))
   ```
 
   Pass på at du justerar begge klossane med det same tallet.
@@ -148,17 +148,17 @@ til den skrå streken.
 
 - [ ] Lag ein ny bakgrunn, der du teiknar eit passande månelandskap. Gjer det så
       lett eller vanskelig som du sjølv vil. Teikn og inn ein eller fleire
-      landingsplasser der romskipet skal landa. Me vil bruka `berører
+      landingsplasser der romskipet skal landa. Me vil bruka `rører
       fargen`{.blocksensing}-klosser for å sjekka landinga seinare, så det
       enklaste er å bruka ein farge for landskapet og ein annan for
       landingsplassen.
 
 - [ ] For at romskipet skal slutta å fly når det treff bakken kan du byte ut
       `for alltid`{.blockcontrol}-løkk med ein `gjenta til`{.blockcontrol}-løkke
-      der du testar på om romskipet `berører fargen`{.blocksensing} du har brukt
+      der du testar på om romskipet `rører fargen`{.blocksensing} du har brukt
       på landskapet eller på landingsplassen.
 
-- [ ] Legg og til ein `send melding [Sjekk landing v]`{.b} rett etter `gjenta
+- [ ] Legg og til ein `send meldinga [Sjekk landing v]`{.b} rett etter `gjenta
       til`{.blockcontrol}-løkken.
 
 - [ ] Prøv spelet ditt igjen. Du skal nå kunne fly rundt heilt til romskipet
@@ -182,14 +182,14 @@ til den skrå streken.
   __3__: Romskipet landa perfekt på landingsplassen.
 
   Lag eit nytt skript på romskipet som starter når det mottar meldingen `Sjekk
-  landing`. Under denne klossen må du bruke `hvis`{.blockcontrol}- og `hvis
-  ellers`{.blockcontrol}-klosser som tester for dei tre tilfella. Du kan for
+  landing`. Under denne klossen må du bruke `viss`{.blockcontrol}- og `viss
+  elles`{.blockcontrol}-klosser som tester for dei tre tilfella. Du kan for
   eksempel sei at landinga er perfekt dersom romskipet lander på
   landingsplassen, `fartY`{.blockdata} er større enn `-1.5` og
   `retning`{.blockmotion} er mellom `80` og `100`.
 
 - [ ] Finn ein måte å fortelje spelaren korleis romskipet landa. Det enklaste er
-      kanskje å berre bruka ein `si`{.blocklooks}-kloss. Men du kan og bruka
+      kanskje å berre bruka ein `sei`{.blocklooks}-kloss. Men du kan og bruka
       lydeffekter, forskjellige draktar eller kanskje ein tekstplakat som dukkar
       opp.
 
