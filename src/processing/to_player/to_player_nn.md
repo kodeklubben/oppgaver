@@ -280,7 +280,7 @@ Viss (ein trykkar ein knapp og knappen er 'a') så skal dette skje{
 Me prøver å gjere setninga meir lik kode
 
 ```processing
-viss ( einKnappErTryka og knappen er lik 'a'){
+viss ( einKnappErTrykka og knappen er lik 'a'){
   så skal x bli 10 større;
 }
 ```
