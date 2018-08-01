@@ -65,11 +65,11 @@ raskere og vanskeligere å jage bort.
   sett [hastighet v] til [5]
   ```
 
-  På det grønne flagget legger vi innstillinger som skal gjelde for __Helten__
+  På det grønne flagget legger vi innstillinger som skal gjelde for `Helten`
   gjennom hele spillet. Endre gjerne på størrelsen og hastigheten etterhvert som
   du tester spillet, slik at du finner innstillinger du liker.
 
-- [ ] Nå kan vi lage selve hovedløkken til __Helten__. Lag først en løkke som
+- [ ] Nå kan vi lage selve hovedløkken til `Helten`. Lag først en løkke som
   starter på meldingen `start`:
 
   ```blocks
@@ -80,7 +80,7 @@ raskere og vanskeligere å jage bort.
   ```
 
 - [ ] Inne i løkken trenger vi to `hvis`{.blockcontrol}-klosser som flytter
-  __Helten__ `hastighet`{.blockdata} steg mot høyre eller venstre når piltastene
+  `Helten` `hastighet`{.blockdata} steg mot høyre eller venstre når piltastene
   høyre og venstre er trykket. Lag disse selv.
 
 - [ ] Til slutt lager du en `hvis`{.blockcontrol}-kloss hvor du sender ut
@@ -114,7 +114,7 @@ __Klikk på det grønne flagget.__
   senterpunkt](../bilder/velg_senterpunkt.png) og pass på at senterpunktet er
   satt midt på snøballen. Kall figuren `Snøball`.
 
-- [ ] På samme måte som for __Helten__ setter vi først opp noen
+- [ ] På samme måte som for `Helten` setter vi først opp noen
   standardinnstillinger for snøballen. Lag en variabel `hastighet`{.blockdata}
   som kun gjelder for denne figuren:
 
@@ -155,14 +155,14 @@ __Klikk på det grønne flagget.__
 - [ ] Hva skjer når du trykker mellomrom-tasten? Kastes det snøballer i riktig
   retning?
 
-- [ ] Det ser kanskje ikke ut som om __Helten__ kaster snøballene med hendene?
+- [ ] Det ser kanskje ikke ut som om `Helten` kaster snøballene med hendene?
   Du kan legge på noen `Bevegelse`{.blockmotion}-klosser rett før du
   `vis`{.blocklooks}er snøballen for at det skal se bedre ut.
 
 - [ ] Som en liten utfordring kan du også prøve å legge på litt effekt av
   tyngdekraften på snøballen ved å endre litt på `y` mens snøballen flyr.
 
-- [ ] Et lite problem er at __Helten__ vår er *for* flink til å kaste snøball!
+- [ ] Et lite problem er at `Helten` vår er *for* flink til å kaste snøball!
   Hver gang vi trykker mellomrom blir det kastet mange snøballer. Dette kan vi
   løse ganske enkelt ved å vente til mellomrom-tasten er sluppet før vi kaster
   snøballen. Legg til
@@ -171,7 +171,7 @@ __Klikk på det grønne flagget.__
   vent til <ikke <tast [mellomrom v] trykket?>>
   ```
 
-  på __Helten__-figuren før `kast`-meldingen sendes.
+  på `Helten`-figuren før `kast`-meldingen sendes.
 
 
 # Steg 3: Slemme gutter {.activity}
@@ -185,7 +185,7 @@ __Klikk på det grønne flagget.__
   den figuren du liker. Kanskje det er morsommere å ha snøballkrig mot et
   monster? Kall figuren `Skumling`.
 
-- [ ] På samme måte som for snøballene vil vi lage kloner av __Skumling__. Men
+- [ ] På samme måte som for snøballene vil vi lage kloner av `Skumling`. Men
   først bestemmer vi hvordan han skal se ut. Lag igjen en variabel
   `hastighet`{.blockdata} som gjelder kun for denne figuren. Deretter,
 
@@ -217,7 +217,7 @@ __Klikk på det grønne flagget.__
   ```
 
 - [ ] På samme måte som for snøballene må vi også bestemme oppførselen til hver
-  enkelt __Skumling__.
+  enkelt `Skumling`.
 
   Lag først en `når jeg starter som klon`{.blockcontrol}-kloss hvor du først
   viser figuren, og deretter lager en `for alltid`{.blockcontrol}-løkke hvor
@@ -225,7 +225,7 @@ __Klikk på det grønne flagget.__
   øyeblikk, for eksempel 0.1 sekunder.
 
 - [ ] Deretter lager vi en *ny* `når jeg starter som klon`{.blockcontrol}-kloss
-  hvor vi undersøker om vi treffer enten en __snøball__ eller __Helten__.
+  hvor vi undersøker om vi treffer enten en __snøball__ eller `Helten`.
 
   ```blocks
   når jeg starter som klon
@@ -252,12 +252,12 @@ __Klikk på det grønne flagget.__
 
 - [ ] Dukker det opp skumlinger? Kommer de fra begge sider? Går de mot midten?
 
-- [ ] Hva skjer når en __Skumling__ blir truffet av en __Snøball__? Du kan
+- [ ] Hva skjer når en `Skumling` blir truffet av en __Snøball__? Du kan
   kanskje legge på en passende lydeffekt og animasjon før klonen slettes? Vi ser
-  også at snøballen flyr videre etter at den har truffet en __Skumling__. Prøv å
+  også at snøballen flyr videre etter at den har truffet en `Skumling`. Prøv å
   endre i skriptet for __Snøball__ slik at snøballen også blir borte.
 
-- [ ] Hva skjer når en __Skumling__ tar __Helten__?
+- [ ] Hva skjer når en `Skumling` tar `Helten`?
 
 
 # Steg 4: Telle poeng og avslutte spillet {.activity}
@@ -273,11 +273,11 @@ __Klikk på det grønne flagget.__
 - [ ] Pass på at `Poeng`{.blockdata} blir satt til 0 når meldingen `start`
   sendes, for eksempel med et skript på scenen.
 
-- [ ] Endre `Poeng`{.blockdata} med 1 når en __Skumling__ blir truffet av en
+- [ ] Endre `Poeng`{.blockdata} med 1 når en `Skumling` blir truffet av en
   snøball.
 
-Vi har tidligere laget meldingen `slutt` som sendes ut når __Helten__ blir tatt
-av en __Skumling__. Nå vil vi bruke denne til å avslutte spillet. Men først, la
+Vi har tidligere laget meldingen `slutt` som sendes ut når `Helten` blir tatt
+av en `Skumling`. Nå vil vi bruke denne til å avslutte spillet. Men først, la
 oss lage en meny og en bakgrunn som forteller oss at vi tapte.
 
 - [ ] Klikk på `Scene` til venstre for `Figurer`, og velg `Bakgrunner`-fanen.
@@ -309,15 +309,15 @@ oss lage en meny og en bakgrunn som forteller oss at vi tapte.
 
 - [ ] Til slutt må vi passe på at spillet faktisk avsluttes etter at
   `slutt`-meldingen er sendt. Legg på skript for å `slette denne
-  klonen`{.blockcontrol} på __Snøball__ og __Skumling__, og skript for å skjule
-  __Helten__ når `slutt` mottas.
+  klonen`{.blockcontrol} på __Snøball__ og `Skumling`, og skript for å skjule
+  `Helten` når `slutt` mottas.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
 - [ ] Fungerer programflyten? Starter spillet når du trykker `S`? Avsluttes
-  spillet når __Helten__ blir fanget? Vises de riktige bakgrunnene når de skal?
+  spillet når `Helten` blir fanget? Vises de riktige bakgrunnene når de skal?
 
 - [ ] Legg gjerne på litt lydeffekter og enkle animasjoner der det passer.
 
@@ -340,7 +340,7 @@ __Klikk på det grønne flagget.__
   ```
 
   Funksjonen `gulv`{.blockoperators} runder nedover. Dermed sier vi at
-  `Nivå`{.blockdata} skal øke for hver femte __Skumling__ vi jager vekk.
+  `Nivå`{.blockdata} skal øke for hver femte `Skumling` vi jager vekk.
 
 - [ ] Nå kan vi bruke `Nivå`{.blockdata} til å lage __Skumlingene__ slemmere.
   For eksempel kan de bli større, gå raskere og kanskje trenge flere snøballer
@@ -350,7 +350,7 @@ __Klikk på det grønne flagget.__
   `Liv`{.blockdata}. `Slem`{.blockdata} vil si noe om hvor stor og slem den
   enkelte __Skumlingen__ er. Ved å la dette være et tall mellom 1 og
   `Nivå`{.blockdata} blir spillet vanskeligere etterhvert som `Nivå`{.blockdata}
-  øker. For eksempel kan du legge til disse klossene på __Skumling__ sitt
+  øker. For eksempel kan du legge til disse klossene på `Skumling` sitt
   hovedskript:
 
   ```blocks
@@ -367,16 +367,16 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
-- [ ] For at en __Skumling__ skal tåle flere snøballer må vi også endre litt på
+- [ ] For at en `Skumling` skal tåle flere snøballer må vi også endre litt på
   hva som skjer når han blir truffet. I stedet for å bare slette klonen vil vi
   endre `Liv`{.blockdata} med -1, og deretter gi poeng og slette klonen bare om
   `Liv`{.blockdata} er 0.
 
 - [ ] Vi bør kanskje gi flere poeng for å jage bort de slemme __Skumlingene__?
   Dette gjør du ved å endre `Poeng`{.blockdata} med `Slem`{.blockdata} når en
-  __Skumling__ jages bort.
+  `Skumling` jages bort.
 
-- [ ] Om vi får mer enn ett poeng for hver __Skumling__ bør vi også endre på
+- [ ] Om vi får mer enn ett poeng for hver `Skumling` bør vi også endre på
   hvordan vi regner ut `Nivå`{.blockdata}. Hvis ikke vil spillet bli veldig fort
   vanskeligere etterhvert. Du kan for eksempel bruke denne utregningen:
 
@@ -386,7 +386,7 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
-  Da vil vi fortsatt øke nivået for omtrent hver femte __Skumling__ som jages
+  Da vil vi fortsatt øke nivået for omtrent hver femte `Skumling` som jages
   bort.
 
 ## Test prosjektet {.flag}
@@ -398,4 +398,3 @@ __Klikk på det grønne flagget.__
 
 - [ ] Har du flere ideer til hvordan spillet kan gjøres enda morsommere? Prøv
   dem ut!
-
