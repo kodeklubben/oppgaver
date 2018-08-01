@@ -2,9 +2,6 @@ from linter_defaults import *
 
 # REGEX_FIND_YML = re.compile(r"(?<=^---\s)[\s\S]+?(?=\r?\n---)", re.DOTALL)
 REGEX_FIND_YML = re.compile(r"^---[\s\S]*?---", re.DOTALL)
-REGEX_FIND_REM = re.compile(
-    r"\n(?!(title|author|translator|language|external|level)) *([^\n\r:]*:) *(.*)"
-)
 REGEX_FIND_TITLES = re.compile(r" *(\w+) *: *(.*)")
 
 
@@ -88,7 +85,8 @@ def update_md(md, filepath):
 
     new_yml_header = sort_yml_in_md(md_string, filepath)
     # Replaces the old YML header with the one defined in sort_yml_md
-    md_string = re.sub(REGEX_FIND_YML, new_yml_header, md_string)
+    if new_yml_header:
+        md_string = re.sub(REGEX_FIND_YML, new_yml_header, md_string)
 
     return md_string
 
@@ -106,9 +104,12 @@ def sort_yml_in_md(md_data, filepath):
 
     Details:
     * Remvoves ' and " unless the line contains special characters
-    * Fixes simple spelling mistakes, for more severe spelling mistakes a menu shows up
-    * Sorts the keys in order see linter_defaults.py for the specific sorting order
-    * Saves the titles in MOVE_TITLES in a temp file called FILE_INFO (this is put into the lesson.yml file)
+    * Fixes simple spelling mistakes, for more severe spelling mistakes a menu
+      shows up
+    * Sorts the keys in order see linter_defaults.py for the specific sorting
+      order
+    * Saves the titles in MOVE_TITLES in a temp file called FILE_INFO (this is
+      put into the lesson.yml file)
     '''
 
     match = re.findall(REGEX_FIND_YML, md_data)
@@ -124,7 +125,7 @@ def sort_yml_in_md(md_data, filepath):
         content = generate_content(match.group(2), title)
         title_and_content = '{}: {}'.format(title, content)
         if title in MOVE_TITLES:
-            save_titles_to_be_moved_2_lesson_yml(titles, title_and_content, yml_lesson_path)
+            save_titles_to_be_moved_2_lesson_yml(title, title_and_content, filepath)
             continue
 
         if title in YAML_TITLES:
@@ -147,13 +148,17 @@ def generate_content(temp_content, title):
     elif title == 'language' and (content not in TAGS_['language']):
         error_line = '{}: {}'.format(title, content)
         content = levenshtein_lst(content, TAGS_['language'], error_line)
+    # Changes all internal quotations to ' and ' while outer quotation is " and "
+    content = re.sub(r'\"(.*)\"', r"'\1'", content)
     if re.search(r"[^\w\sæøåÆØÅ]", content):
         content = '"{}"'.format(content)
     return content
 
 
-def save_titles_to_be_moved_2_lesson_yml(titles, title_and_content, yml_lesson_path):
-    yml_lesson_path = re.sub(r'\w+\.md', LESSON_YML, filepath)
+def save_titles_to_be_moved_2_lesson_yml(title, title_and_content, md_filepath):
+    yml_lesson_path = re.sub(r'\w+\.md', LESSON_YML, md_filepath)
+    if not Path(yml_lesson_path).is_file():
+        return
     file_info = load_FILE_INFO()
     try:
         file_info['move'][yml_lesson_path]
@@ -167,8 +172,11 @@ def auto_lint_md(filename):
     temp_file = create_temp_path(filename)
 
     with open(filename, "r") as md:
+        data_md_new = update_md(md, filename)
+        # By creating the data_md_new first, it avoids creating the
+        # temp file if errors is found in the function 'update_md'.
         with open(temp_file, "w") as md_new:
-            for line in update_md(md, filename):
+            for line in data_md_new:
                 md_new.write(line)
 
     if filecmp.cmp(filename, temp_file):
@@ -180,7 +188,30 @@ def auto_lint_md(filename):
 
 
 def main(files_md):
-    # print(FILE_INFO)
+    '''This file autoformats md files, which can be broken into four parts:
+
+    1. Sort and fix yaml titles.
+    See sort_yml_in_md() for a detailed explenation. This fixes the order of
+    the titles in the YAML header, removes titles that should be moved, as well
+    as adding quotation marks " " only where deemed neccecary.
+
+    2. Save titles to be moved.
+    See save_titles_to_be_moved_2_lesson_yml(). The purpose is to save the
+    lines to be moved in a temp file. This temp file is then accessed by
+    auto_lint_md.py, which puts the lines into lesson.yml file and then deletes
+    the file.
+
+    3. Fixing spelling mistakes.
+    This is done several places in the code. In short it corrects very minor
+    mistakes automatically, while more severe mistakes triggers a menu and user
+    interaction. For a detailed explanation of how mistakes are fixed see the
+    'levenshtein_distance()' functions in the 'linter_defaults.py' module.
+
+    4. Style the files accoding to the style guide.
+    This fixes everything from trailing whitespace, to incorrect spacing in
+    headers see 'update_md()' for the full list of changes.
+    '''
+
     for file_md in files_md:
         auto_lint_md(file_md)
 

@@ -158,11 +158,11 @@ def get_md_and_yml(filename, markdown, oppgaver, yml, recursively, path):
             if markdown and not oppgaver:
                 files_md = [filename]
                 if yml and yml_exists:
-                    files_yml = [yml_filepath]
+                    files_yml = [str(yml_filepath)]
             elif oppgaver and yml_exists:
                 # If 'oppgaver = True' Only add filename if yml exists
                 files_md = [filename]
-                files_yml = [yml_filepath]
+                files_yml = [str(yml_filepath)]
         elif file_ending == FILE_ENDINGS[1] and yml: # lesson.yml
             files_yml = [filename]
     return (files_md, files_yml)
@@ -237,7 +237,7 @@ def main():
         linter_auto_md.main(files_md)
 
     if MARKDOWN and LINTING and files_md:
-        linter_md.main(files_md, OPPGAVER)
+        linter_md.main(files_md)
 
     if YML and AUTO and files_yml:
         linter_auto_yml.main(files_yml)

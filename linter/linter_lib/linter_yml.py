@@ -1,7 +1,3 @@
-import re
-from collections import defaultdict
-from termcolor import colored
-
 from linter_defaults import *
 
 
@@ -73,18 +69,21 @@ def find_incorrect_tags(filename):
     # We find if any title, topic, subject does not appear exactly once
     return (incorrect_tags, title_count)
 
+
 def slicer(my_str, sub='../'):
-      index = my_str.find(sub)
-      if index !=-1 :
-          return my_str[index:]
-      return my_str
+    index = my_str.find(sub)
+    if index != -1:
+        return my_str[index:]
+    return my_str
+
 
 def print_incorrect_titles_and_tags(filename):
     incorrect_tags, title_count = find_incorrect_tags(filename)
     incorrect_titles = find_incorrect_titles(title_count, tags_.keys())
     # If any errors are found we print them
     if incorrect_titles or incorrect_tags:
-        print('  {}: {}'.format(colored(slicer(str(filename)), 'yellow'), incorrect_titles))
+        print('  {}: {}'.format(
+            colored(slicer(str(filename)), 'yellow'), incorrect_titles))
         for incorrect_tag in incorrect_tags:
             print('  {}'.format(incorrect_tag))
 
@@ -99,8 +98,6 @@ def main(files, ):
         print_incorrect_titles_and_tags(f)
 
 
-
 if __name__ == "__main__":
 
-    print("Please run LKK_linter instead")
-    # yml_linter()
+    print("Please run LKK_linter.py in the directory above instead")
