@@ -1,29 +1,13 @@
-import re
-import glob
-from termcolor import colored
-from pathlib import Path
-
-# KEYS START HERE (DO NOT REMOVE THESE LINES)
-LANGUAGE = "nb|nn|en"
-TOPIC = "app|electronics|step_based|block_based|text_based|minecraft|web|game|robot|animation|sound|cryptography"
-SUBJECT = "mathematics|science|programming|technology|music|norwegian|english|arts_and_crafts|social_science"
-GRADE = "preschool|primary|secondary|junior|senior"
-# KEYS END HERE (DO NOT REMOVE THESE LINES)
-
-CLASSES = "intro|activity|check|flag|challenge|tip|save|protip|try|sjekkliste"
-
-CLASSES_LIST = CLASSES.split("|")
-LANGUAGE_LIST = LANGUAGE.split("|")
+from linter_defaults import *
 
 REGEX_ALT_OUTSIDE_CODE = r"```.*?```|`.*?`|(<img(?!.*?alt=(['\"]).*?\2)[^>]*)(>)|(!\[\]\()"
-REGEX_LONG_LINES_OUTSIDE_CODE = r"```(.|\n)*?```|`.*?`|(.{100,})"
+REGEX_LONG_LINES_OUTSIDE_CODE = r"```(.|\r?\n)*?```|`.*?`|(.{100,})"
 REGEX_FIND_YML = re.compile(r"^---[\s\S]+?---", re.DOTALL)
 
-PATH_2_SRC = '../src'
-
+REGEX_BANNED_WORDS = re.compile(r'!\[|http|img|png|jpg|svg|script|\[.*\]\(')
 
 def error_msg(string):
-    return '{}'.format(colored(string, 'red'))
+    return '{}'.format(color_word(string, ERROR_CLR))
 
 
 def find_missing_alts(data):
@@ -42,7 +26,7 @@ def find_long_lines(data):
     for match in matches:
         if match.group(2):
             banned_words = re.search(
-                r'!\[|http|img|png|jpg|svg|script|\[.*\]\(', match.group(2))
+                REGEX_BANNED_WORDS, match.group(2))
             if not banned_words:
                 long_lines.append((match.start(2), error_msg('80>'),
                                    match.group(2)))
@@ -154,37 +138,36 @@ def find_lines_with_errors(data, is_oppgave):
         find_incorrect_yaml(data, is_oppgave))
 
 
-def is_oppgaver_path(filepath):
-    # Every oppgave has a lesson.yml in the same folder
-    yml_path = Path(re.sub(r'\w+\.md', 'lesson.yml', filepath))
-    return yml_path.is_file()
+def slicer(my_str, sub='../'):
+      index = my_str.find(sub)
+      if index !=-1 :
+          return my_str[index:]
+      return my_str
 
 
-def print_lines_with_errors(filepath):
+def print_lines_with_errors(filepath, is_oppgave):
     # Read file into one long string called data
     with open(filepath, "r") as f:
         data = f.read()
 
-    is_oppgaver = is_oppgaver_path(filepath)
     # If oppgaver then the file needs an author / external.
-    lines_with_errors = find_lines_with_errors(data, is_oppgaver)
+    lines_with_errors = find_lines_with_errors(data, is_oppgave)
     if not lines_with_errors:
         return
     line_numbers = find_correct_line_numbers(lines_with_errors, data)
-    print('\n{}'.format(colored(filepath, 'yellow')))
+    print('\n  {}'.format(colored(slicer(filepath), 'yellow')))
     for i, line in enumerate(lines_with_errors):
-        print('{:>15}:{:<18} {}'.format(
+        print('  {:>15}:{:<18} {}'.format(
             colored(str(line_numbers[i]), 'yellow'), line[1],
             (line[2][:80] + '...') if len(line[2]) > 80 else line[2]))
 
 
-def md_linter(path=PATH_2_SRC):
-    files = glob.glob(path + '/**/*.md', recursive=True)
+def main(files, OPPGAVER):
+
     for f in files:
-        print_lines_with_errors(f)
+        print_lines_with_errors(f, OPPGAVER)
 
 
 if __name__ == "__main__":
 
-    # print("Please run LKK_linter instead")
-    md_linter()
+    print("Please run LKK_linter.py instead")

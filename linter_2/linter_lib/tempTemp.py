@@ -1,1 +1,0 @@
-SKINKERYTTER = 3
