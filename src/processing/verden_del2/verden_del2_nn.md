@@ -9,7 +9,10 @@ language: nn
 
 # introduksjon {.intro}
 
-Denne oppgåva byggjer på oppgåva [Verda](../verden_del1/verden_del1_nn.html). I denne oppgåva skal me fortsetje med verdsspelet! No skal me kome så langt på spelet at namnet på ein verdsdel skal dukke opp i vindauget, og så er målet å trykkje på den riktige verdsdelen.
+Denne oppgåva byggjer på oppgåva [Verda](../verden_del1/verden_del1_nn.html). I
+denne oppgåva skal me fortsetje med verdsspelet! No skal me kome så langt på
+spelet at namnet på ein verdsdel skal dukke opp i vindauget, og så er målet å
+trykkje på den riktige verdsdelen.
 
 Når me er ferdige skal oppgåva sjå slik ut:
 
@@ -165,7 +168,9 @@ Viss musepeikaren er innanfor venstre grense
 Gjer me det om til litt meir vanleg tekst, så ville me sagt:
 
 ```processing
-Viss musepeikaren er innanfor venstre grense og musepeikaren er innanfor høgre grense og musepeikaren er innanfor nedre grense og musepeikaren er innanfor øvre grense,
+Viss musepeikaren er innanfor venstre grense og musepeikaren er innanfor høgre
+  grense og musepeikaren er innanfor nedre grense og musepeikaren er innanfor
+  øvre grense,
     så skal me skrive "EUROPA" på skjermen.
 ```
 
@@ -253,7 +258,8 @@ er eit bilete med grensa til Afrika:
   `if`-setning. Munnleg blir det
 
 ```processing
-if(er musepeikaren innanfor den fyrste grensa && er musepeikaren innanfor den andre grensa){
+if(er musepeikaren innanfor den fyrste grensa && er musepeikaren innanfor den
+  andre grensa){
     vis teksten "AFRIKA" i vindauget.
 }
 ```
@@ -483,8 +489,10 @@ void draw(){
   }
 }
 
-void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense, int nedreGrense, int ovreGrense){
-    if(mouseX > hogreGrense && mouseX < venstreGrense && mouseY < nedreGrense && mouseY > ovreGrense)]{
+void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hogreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
         text(verdsdel, 950, 50);
     }
 }
@@ -579,8 +587,10 @@ void draw(){
   sjekkVerdsdel("EUROPA", 365, 694, 455, 33);
 }
 
-void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense, int nedreGrense, int ovreGrense){
-    if(mouseX > hogreGrense && mouseX < venstreGrense && mouseY < nedreGrense && mouseY > ovreGrense)]{
+void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hogreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
         text(verdsdel, 950, 50);
     }
 }
@@ -632,8 +642,10 @@ void draw(){
   sjekkVerdsdel("AFRIKA", 694, 740, 698, 537);
 }
 
-void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense, int nedreGrense, int ovreGrense){
-    if(mouseX > hogreGrense && mouseX < venstreGrense && mouseY < nedreGrense && mouseY > ovreGrense)]{
+void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hogreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
         text(verdsdel, 950, 50);
     }
 }
@@ -705,8 +717,10 @@ void draw(){
   sjekkVerdsdel("SØR-AMERIKA", 238, 449, 810, 528);
 }
 
-void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense, int nedreGrense, int ovreGrense){
-    if(mouseX > hogreGrense && mouseX < venstreGrense && mouseY < nedreGrense && mouseY > ovreGrense)]{
+void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hogreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
         text(verdsdel, 950, 50);
     }
 }
@@ -736,7 +750,8 @@ kan gi lista det namnet me vil. Her har me valt `alleVerdsdelane`, så kodelinja
 ser slik ut:
 
 ```processing
- String[] alleVerdsdelane = {"ASIA", "EUROPA", "NORD-AMERIKA", "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
+ String[] alleVerdsdelane = {"ASIA", "EUROPA", "NORD-AMERIKA",
+  "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
 ```
 
 Der er alt me treng for å lage lista. Denne typen liste heiter `String array`.
@@ -833,7 +848,8 @@ Her er koden så langt:
 
 ```processing
 PImage verdskartet;
-String[] alleVerdsdelane = {"ASIA", "EUROPA", "NORD-AMERIKA", "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
+String[] alleVerdsdelane = {"ASIA", "EUROPA", "NORD-AMERIKA",
+  "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
 int tilfeldigTal;
 
 void setup(){
@@ -854,8 +870,10 @@ void draw(){
   sjekkVerdsdel("SØR-AMERIKA", 238, 449, 810, 528);
 }
 
-void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense, int nedreGrense, int ovreGrense){
-    if(mouseX > hogreGrense && mouseX < venstreGrense && mouseY < nedreGrense && mouseY > ovreGrense)]{
+void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hogreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
     }
 }
 ```
@@ -932,7 +950,8 @@ Her er koden så langt.
 
 ```processing
 PImage verdskartet;
-String[] alleVerdsdelane = {"ASIA", "EUROPA", "NORD-AMERIKA", "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
+String[] alleVerdsdelane = {"ASIA", "EUROPA", "NORD-AMERIKA",
+  "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
 int tilfeldigTal;
 
 void setup(){
@@ -953,11 +972,13 @@ void draw(){
   sjekkVerdsdel("SØR-AMERIKA", 238, 449, 810, 528);
 }
 
-void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense, int nedreGrense, int ovreGrense){
-    if(mouseX > hogreGrense && mouseX < venstreGrense && mouseY < nedreGrense && mouseY > ovreGrense)]{
-      if(alleVerdsdelane[tilfeldigTal].equals(verdsdel)){
-        text("RIKTIG", 950, 100);
-      }
+void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hogreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+        if(alleVerdsdelane[tilfeldigTal].equals(verdsdel)){
+          text("RIKTIG", 950, 100);
+        }
     }
 }
 ```
@@ -983,12 +1004,14 @@ Her er koden så langt. Sidan me berre har lagt til ei kodelinje inni metoden
 `sjekkVerdsdel` viser me berre den metoden:
 
 ```processing
-void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense, int nedreGrense, int ovreGrense){
-    if(mouseX > hogreGrense && mouseX < venstreGrense && mouseY < nedreGrense && mouseY > ovreGrense)]{
-      if(alleVerdsdelane[tilfeldigTal].equals(verdsdel)){
-        text("RIKTIG", 950, 100);
-        tilfeldigTal = (int)random(6);
-      }
+void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hogreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+        if(alleVerdsdelane[tilfeldigTal].equals(verdsdel)){
+          text("RIKTIG", 950, 100);
+          tilfeldigTal = (int)random(6);
+        }
     }
 }
 ```
@@ -1108,7 +1131,8 @@ fungerer!
 
 ```processing
 PImage verdskartet;
-String[] alleVerdsdelane = {"ASIA", "EUROPA", "NORD-AMERIKA", "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
+String[] alleVerdsdelane = {"ASIA", "EUROPA", "NORD-AMERIKA",
+  "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
 int tilfeldigTal;
 int poeng;
 
@@ -1132,16 +1156,18 @@ void draw(){
   sjekkVerdsdel("SØR-AMERIKA", 238, 449, 810, 528);
 }
 
-void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense, int nedreGrense, int ovreGrense){
-    if(mouseX > hogreGrense && mouseX < venstreGrense && mouseY < nedreGrense && mouseY > ovreGrense)]{
-      if(alleVerdsdelane[tilfeldigTal].equals(verdsdel)){
-        text("RIKTIG", 950, 100);
-        tilfeldigTal = (int)random(6);
-        poeng ++;
-      } else {
-        poeng --;
-      }
-      delay(80);
+void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hogreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+        if(alleVerdsdelane[tilfeldigTal].equals(verdsdel)){
+          text("RIKTIG", 950, 100);
+          tilfeldigTal = (int)random(6);
+          poeng ++;
+        } else {
+          poeng --;
+        }
+        delay(80);
     }
 }
 ```
