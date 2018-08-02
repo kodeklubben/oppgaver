@@ -1,8 +1,14 @@
 from linter_defaults import *
+import textwrap
 
 # REGEX_FIND_YML = re.compile(r"(?<=^---\s)[\s\S]+?(?=\r?\n---)", re.DOTALL)
 REGEX_FIND_YML = re.compile(r"^---[\s\S]*?---", re.DOTALL)
 REGEX_FIND_TITLES = re.compile(r" *(\w+) *: *(.*)")
+
+REGEX_PARAGRAPHS = re.compile(r'```.*?```|`.*?`|(((?<=\n\n)|(?<=(\r\n){2}))( *)([a-z A-Z æøåÆØÅ][\s\S]*?)(?=(\r?\n){2}))', re.DOTALL)
+REGEX_LISTS = re.compile(
+    r'((?<=\n\n)|(?<=(\r\n){2}))( *)((- \[ \]|[1-2]?[1-9]\.|\-|\+|\*) \w[\s\S]*?)(?=\n\n|(\r\n){2}|$)'
+)
 
 
 def fix_wrong_class_names(md_string):
@@ -32,6 +38,68 @@ def fix_wrong_class_names(md_string):
                                              new_class_name)
             md_string = re.sub(re.compile(header), new_header, md_string)
     return md_string
+
+
+def format_paragraph(paragraph, initial_indent, subsequent_indent):
+    '''Formats paragraphs into lines of max CODE_WIDTH (usually 80) length.
+    The first line remove all tabs, spaces, newlines etc from the paragraph.
+    Then the textwrap commands fills in the lines according to the rules set.
+    '''
+
+    return textwrap.fill(
+        " ".join(paragraph.split()),
+        width = CODE_WIDTH,
+        initial_indent=initial_indent,
+        subsequent_indent=subsequent_indent,
+        break_long_words=False,
+        break_on_hyphens=False)
+
+
+def round_down_2_multiple_of_div(indent, div=TAB_INDENT):
+    ''' This makes sure indent is a multiple of div or
+    more commonly TAB_INDENT. Example:
+
+            before:         after
+            ''              ''
+            ' '             ''
+            '  '            '  '
+            '   '           '  '
+            '    '          '    '
+            '     '         '    '
+    '''
+    num = len(indent)
+    return ' '*(1+(num - (num%div)))
+
+
+def format_paragraphs(data, REGEX, name):
+    ''' Formats paragraphs starting with words, or paragraphs starting with
+    -, +, 1. or - [ ] into the correct number of indents.
+    '''
+    matches = re.finditer(REGEX, data)
+    if name == 'lists':
+        for m in matches:
+            paragraph, indent = m.group(0), m.group(3)
+            # If the intent is not a multiple of 2 round it down
+            if len(indent) % TAB_INDENT != 0:
+                indent = ' '*(len(indent) - (len(indent)%TAB_INDENT))
+            formated_paragraph = format_paragraph(paragraph, indent, indent + TAB_INDENT_STR)
+            data = data.replace(paragraph, str(formated_paragraph))
+    elif name == 'paragraphs':
+        for m in matches:
+            # The m.group(0) is the thrashcan, we only want group 1.
+            if not m.group(1):
+                continue
+            paragraph, indent = m.group(1), m.group(4)
+
+            # In markdown paragraphs with indent 4, 8 etc are treated as
+            # codeblocks and as such should not be indented.
+            if indent and len(indent) % 4 == 0:
+                continue
+            if len(indent) % TAB_INDENT != 0:
+                indent = ' '*(len(indent) - (len(indent)%TAB_INDENT))
+            formated_paragraph = format_paragraph(paragraph, indent, indent)
+            data = data.replace(paragraph, str(formated_paragraph))
+    return data
 
 
 def update_md(md, filepath):
@@ -87,6 +155,11 @@ def update_md(md, filepath):
     # Replaces the old YML header with the one defined in sort_yml_md
     if new_yml_header:
         md_string = re.sub(REGEX_FIND_YML, new_yml_header, md_string)
+
+    md_string = format_paragraphs(md_string, REGEX_LISTS, 'lists')
+
+    md_string = format_paragraphs(md_string, REGEX_PARAGRAPHS, 'paragraphs')
+
 
     return md_string
 
