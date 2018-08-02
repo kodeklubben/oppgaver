@@ -3,7 +3,7 @@ title: "PXT: Terning"
 level: 1
 author: Geir Arne Hjelle
 translator: 'Stein Olav Romslo'
-language: nb
+language: nn
 ---
 
 
