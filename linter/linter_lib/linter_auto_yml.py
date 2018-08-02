@@ -43,6 +43,7 @@ def new_lesson_yml(new_yml_path):
 
         save_FILE_INFO(settings_from_md_)
         f.write('\n'.join(filter(None, new_str)))
+        f.write('\n')
 
 
 def sort_tags_lesson_yml(key, tags):
@@ -139,6 +140,8 @@ def lesson_yml(lesson_yml_path):
         with open(lesson_yml_path_temp, "w") as g:
             for line in new_yml_data:
                 g.write(line)
+            if not line.endswith('\n'):
+                g.write('\n')
 
         if filecmp.cmp(lesson_yml_path, lesson_yml_path_temp):
             # File has not changed, removing temp
