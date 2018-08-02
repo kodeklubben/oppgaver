@@ -1,23 +1,5 @@
-import glob
-from termcolor import colored
-from collections import defaultdict
-import re
+from linter_defaults import *
 
-# KEYS START HERE (DO NOT REMOVE THESE LINES)
-LANGUAGE = "nb|nn|en"
-TOPIC = "app|electronics|step_based|block_based|text_based|minecraft|web|game|robot|animation|sound|cryptography"
-SUBJECT = "mathematics|science|programming|technology|music|norwegian|english|arts_and_crafts|social_science"
-GRADE = "preschool|primary|secondary|junior|senior"
-# KEYS END HERE (DO NOT REMOVE THESE LINES)
-
-tags_ = dict(
-    level="[1-4]",
-    topic=TOPIC,
-    subject=SUBJECT,
-    grade=GRADE,
-)
-
-PATH_2_SRC = '../src'
 
 # If a file starts with "indexed: false" skip it
 def is_indexed(filename):
@@ -88,25 +70,34 @@ def find_incorrect_tags(filename):
     return (incorrect_tags, title_count)
 
 
+def slicer(my_str, sub='../'):
+    index = my_str.find(sub)
+    if index != -1:
+        return my_str[index:]
+    return my_str
+
+
 def print_incorrect_titles_and_tags(filename):
     incorrect_tags, title_count = find_incorrect_tags(filename)
     incorrect_titles = find_incorrect_titles(title_count, tags_.keys())
     # If any errors are found we print them
     if incorrect_titles or incorrect_tags:
-        print(colored(filename, 'yellow') + ": " + incorrect_titles)
+        print('  {}: {}'.format(
+            colored(slicer(str(filename)), 'yellow'), incorrect_titles))
         for incorrect_tag in incorrect_tags:
-            print(incorrect_tag)
+            print('  {}'.format(incorrect_tag))
 
 
-def yml_linter(path=PATH_2_SRC):
-    files = glob.glob(path + '/**/lesson.yml', recursive=True)
+def main(files, ):
+    global tags_
+    tags_ = TAGS_STR_
+    tags_.pop('language', None)
+    tags_['level'] = LEVEL_STR
 
     for f in files:
-        if is_indexed(f):
-            print_incorrect_titles_and_tags(f)
+        print_incorrect_titles_and_tags(f)
 
 
 if __name__ == "__main__":
 
-    print("Please run LKK_linter instead")
-    # yml_linter()
+    print("Please run LKK_linter.py in the directory above instead")

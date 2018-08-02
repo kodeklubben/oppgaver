@@ -1,6 +1,6 @@
 ---
-title: 'Oppgaver 10+ år'
+title: 'Lessons 10+ years'
 level: 1
 external: 'https://studio.code.org/s/course4'
-language: nb
+language: en
 ---
