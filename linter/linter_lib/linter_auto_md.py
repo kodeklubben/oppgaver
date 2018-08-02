@@ -5,10 +5,10 @@ import textwrap
 REGEX_FIND_YML = re.compile(r"^---[\s\S]*?---", re.DOTALL)
 REGEX_FIND_TITLES = re.compile(r" *(\w+) *: *(.*)")
 
-REGEX_PARAGRAPHS = re.compile(r'```.*?```|`.*?`|(((?<=\n\n)|(?<=(\r\n){2}))( *)([a-z A-Z æøåÆØÅ][\s\S]*?)(?=(\r?\n){2}))', re.DOTALL)
+REGEX_PARAGRAPHS = re.compile(r' *```[\s\S]*?```|`[\s\S]*?`|(((?<=\n\n)|(?<=(\r\n){2}))( *)([a-z A-Z æøåÆØÅ][\s\S]*?)(?=(\r?\n){2}))', re.DOTALL)
 REGEX_LISTS = re.compile(
-    r'((?<=\n\n)|(?<=(\r\n){2}))( *)((- \[ \]|[1-2]?[1-9]\.|\-|\+|\*) \w[\s\S]*?)(?=\n\n|(\r\n){2}|$)'
-)
+    r' *```[\s\S]*?```|`[\s\S]*?`|(((?<=\n\n)|(?<=(\r\n){2}))( *)((- \[ \]|[1-2]?[1-9]\.|\-|\+|\*) \w[\s\S]*?)(?=\n\n|(\r\n){2}|$))'
+    , re.DOTALL)
 
 
 def fix_wrong_class_names(md_string):
@@ -78,7 +78,14 @@ def format_paragraphs(data, REGEX, name):
     matches = re.finditer(REGEX, data)
     if name == 'lists':
         for m in matches:
-            paragraph, indent = m.group(0), m.group(3)
+            if not m.group(1):
+                continue
+
+            paragraph, indent = m.group(1), m.group(4)
+            # The following should NOT be neccecary, but is added as an failsafe
+            if '```' in paragraph:
+                continue
+
             # If the intent is not a multiple of 2 round it down
             if len(indent) % TAB_INDENT != 0:
                 indent = ' '*(len(indent) - (len(indent)%TAB_INDENT))
@@ -89,7 +96,11 @@ def format_paragraphs(data, REGEX, name):
             # The m.group(0) is the thrashcan, we only want group 1.
             if not m.group(1):
                 continue
+
             paragraph, indent = m.group(1), m.group(4)
+            # The following should NOT be neccecary, but is added as an failsafe
+            if '```' in paragraph:
+                continue
 
             # In markdown paragraphs with indent 4, 8 etc are treated as
             # codeblocks and as such should not be indented.
@@ -251,6 +262,8 @@ def auto_lint_md(filename):
         with open(temp_file, "w") as md_new:
             for line in data_md_new:
                 md_new.write(line)
+            if line.endswith('\n'):
+                md_new.write('\n')
 
     if filecmp.cmp(filename, temp_file):
         # File has not changed, removing temp

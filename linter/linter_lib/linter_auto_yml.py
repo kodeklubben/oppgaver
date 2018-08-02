@@ -1,6 +1,6 @@
 from linter_defaults import *
 
-REGEX_FIND_KEYS = re.compile(r"(^|\n)( *(\w+):\[([^\]]*)\]| *(\w+):(.*))")
+REGEX_FIND_KEYS = re.compile(r"(^|\n)( *(\w+) *: *\[([^\]]*)\]| *(\w+) *: *(.*))")
 
 
 def new_level(yml_path):
@@ -55,11 +55,19 @@ def sort_tags_lesson_yml(key, tags):
             tag_lst[TAGS_REVERSE_[key][tag]] = tag
     return ', '.join(filter(None, tag_lst))
 
+def fix_parenthesis(temp_content):
+    # Removes the outer layer of quotations
+    content = re.sub(r'^(\"|\')(.*)(\"|\')$', r'\2', temp_content)
+    # Changes all internal quotations to ' and '
+    content = re.sub(r'\"(.*)\"', r"'\1'", content)
+    # Add back the quotations if need be
+    if re.search(r"[^\w\sæøåÆØÅ]", content):
+        content = '"{}"'.format(content)
+    return content
 
 def update_lesson_yml(yml_data, yml_path):
 
-    yml_data = re.sub('[\t ]', r'', yml_data)  # Remove all tabs/spaces
-    yml_data = re.sub(r',(?! )', r', ', yml_data)  #Adds space after comma
+    yml_data = re.sub('\t', r'{}'.format(YML_INDENT_STR), yml_data) # replaces all tabs
 
     titles = [''] * len(KEYS_YML)
     titles_extra = []
@@ -82,6 +90,8 @@ def update_lesson_yml(yml_data, yml_path):
             if title == 'tags': tag[0] = 'tags:'
             elif title in remaining_titles:
                 remaining_titles.remove(title)
+                if title == 'license':
+                    content = fix_parenthesis(content)
                 titles[KEYS_YML_REVERSE_[title]] = '{}: {}'.format(
                     title, content)
             else:
