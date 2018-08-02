@@ -5,6 +5,8 @@ import textwrap
 REGEX_FIND_YML = re.compile(r"^---[\s\S]*?---", re.DOTALL)
 REGEX_FIND_TITLES = re.compile(r" *(\w+) *: *(.*)")
 
+REGEX_4_CODEBLOCKS = '```[\s\S]*?```|`[\s\S]*?`'
+
 REGEX_PARAGRAPHS = re.compile(r' *```[\s\S]*?```|`[\s\S]*?`|(((?<=\n\n)|(?<=(\r\n){2}))( *)([a-z A-Z æøåÆØÅ][\s\S]*?)(?=(\r?\n){2}))', re.DOTALL)
 REGEX_LISTS = re.compile(
     r' *```[\s\S]*?```|`[\s\S]*?`|(((?<=\n\n)|(?<=(\r\n){2}))( *)((- \[ \]|[1-2]?[1-9]\.|\-|\+|\*) \w[\s\S]*?)(?=\n\n|(\r\n){2}|$))'
@@ -113,6 +115,18 @@ def format_paragraphs(data, REGEX, name):
     return data
 
 
+def regex_exclude_codeblock_add_newlines(regex, before, after, md_string):
+    regex_outside_codeblocks = '{}|({})'.format(REGEX_4_CODEBLOCKS, regex)
+    matches = re.finditer(r'{}'.format(regex_outside_codeblocks), md_string)
+    for m in matches:
+        if m.group(1):
+            match = m.group(1)
+            return_match = '\n'*before + match.strip() + '\n'*after
+            print(return_match)
+            md_string = re.sub(match, r'{}'.format(return_match), md_string)
+    return md_string
+
+
 def update_md(md, filepath):
     # Remove trailing whitespace if it exists
     md = [line.rstrip() for line in md]
@@ -125,7 +139,7 @@ def update_md(md, filepath):
                        r'---\2---\n\n\5', md_string)
 
     # Removes all punctuation from titles
-    md_string = re.sub(r'\r?\n(#+ .*)(\.|\:|\;) *\r?\n', r'\n\1\n', md_string)
+    md_string = re.sub(r'\r?\n(#+ .*)(\.|\,|\;) *\r?\n', r'\n\1\n', md_string)
 
     # Corrects all titles with incorrect brackets {}
     # Titles should be formated: # Title {.word}
@@ -145,13 +159,11 @@ def update_md(md, filepath):
 
     # searches the line with "#" sign (all cases matches - Titles, SubTitles, etc),
     # takes all its upper empty lines and converts them to the one empty line
-    md_string = re.sub(
-        re.compile(r'(\r?\n)*(^#+ .*)', re.MULTILINE), r'\n\n\2', md_string)
+    md_string = regex_exclude_codeblock_add_newlines('(\r?\n)*(#+ .*)', 2, 0, md_string)
 
     # again, searches the line with "#" sign, take all its bottom empty lines
     # and converts them to the one empty line
-    md_string = re.sub(
-        re.compile(r'(^#+ .*)\n*', re.MULTILINE), r'\1\n\n', md_string)
+    md_string = regex_exclude_codeblock_add_newlines('(#+ .*)(\r?\n)*', 0, 2, md_string)
 
     # finds two blank lines or more replaces it with a single newline
     md_string = re.sub(r'(?<!.)(\r?\n){2,}', r'\n', md_string)
@@ -160,7 +172,7 @@ def update_md(md, filepath):
     # takes all its upper newlines (at this moment only two of them are there,
     # because of previous substitutions)
     # and converts them to three newlines
-    md_string = re.sub(r'\n+(#[^\n#]+)', r'\n\n\n\1', md_string)
+    md_string = regex_exclude_codeblock_add_newlines('\n+# [^#\n]*', 3, 0, md_string)
 
     new_yml_header = sort_yml_in_md(md_string, filepath)
     # Replaces the old YML header with the one defined in sort_yml_md
@@ -171,8 +183,8 @@ def update_md(md, filepath):
 
     md_string = format_paragraphs(md_string, REGEX_PARAGRAPHS, 'paragraphs')
 
-
     return md_string
+
 
 
 def sort_yml_in_md(md_data, filepath):
@@ -262,7 +274,7 @@ def auto_lint_md(filename):
         with open(temp_file, "w") as md_new:
             for line in data_md_new:
                 md_new.write(line)
-            if line.endswith('\n'):
+            if not line.endswith('\n'):
                 md_new.write('\n')
 
     if filecmp.cmp(filename, temp_file):
