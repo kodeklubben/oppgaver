@@ -99,7 +99,7 @@ Det er to ulike måtar du kan reste micro:bit-program på:
 - [ ] Klikk på dei midterste lampene på biletet. Det er dei som skal tennast når
   du skal vise bilete av ein stein. Nå bør programmet sjå slik ut:
 
-  ![Bilete av koden for å teikne ein stein](teikne_stein.png)
+  ![Bilete av koden for å teikne ein stein](tegne_stein.png)
 
 ## Test prosjektet {.flag}
 
@@ -127,7 +127,7 @@ No skal du teste programmet ditt ved å trykkje på den kvite `SHAKE`-knappen.
 - [ ] Du skal vise ei saks når variabelen `trekk` inneheldt talet `1`, så
   erstatt det høgre `0`-talet med eit `1`-tal. No ser programmet slik ut:
 
-  ![Bilete av ein ny variabel kalla saks](teikne_saks-1.png)
+  ![Bilete av ein ny variabel kalla saks](tegne_saks-1.png)
 
 - [ ] Det finst eit ferdig bilete av ei saks som du kan bruke. Gå til kategorien
   `Basis` og dra klossen `vis ikon` inn i `hvis`-klossen du jobbar med no.
