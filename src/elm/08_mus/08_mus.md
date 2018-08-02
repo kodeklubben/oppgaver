@@ -1,14 +1,16 @@
 ---
-title: "Kontroller med musen"
+title: 'Kontroller med musen'
 level: 3
-author: Teodor Heggelund
+author: 'Teodor Heggelund'
 language: nb
 ---
+
 
 # Introduksjon {.intro}
 
 Denne oppgaven viser hvordan vi kan bruke musen til å kontrollere
 elm-programmene våre.
+
 
 # Steg 1: Vise en posisjon {.activity}
 
@@ -16,6 +18,7 @@ Vi starter ut med å vise en sirkel på en gitt posisjon. Her må vi kombinere t
 ting som har vært i tidligere oppgaver:
 
 1. Vise en sirkel med musen (Tegning med SVG)
+
 2. Bruke `Html.program` i stedet for `Html.beginnerProgram` (Tell sekunder)
 
 Vi trenger `Html.program` fordi vi skal lytte på musebevegelser på samme måte
@@ -51,8 +54,11 @@ view model =
 ```
 
 Endre tallene `10` og `20` som inngår i verdien `p`.
+
 - [ ] Hva gjør det første tallet?
+
 - [ ] Hva gjør det andre tallet?
+
 
 # Steg 2: Bruke `Html.program` {.activity}
 
@@ -135,6 +141,7 @@ update msg model =
 subscriptions model =
   Sub.batch - [ ]
 ```
+
 
 # Steg 3: Koble på musen {.activity}
 

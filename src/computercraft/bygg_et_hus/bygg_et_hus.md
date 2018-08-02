@@ -1,9 +1,10 @@
 ---
-title: Bygg et Hus
+title: 'Bygg et Hus'
 level: 2
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
 ---
+
 
 # Introduksjon {.intro}
 
@@ -11,7 +12,8 @@ I denne leksjonen vil vi se litt på hvordan vi kan få en robot til å
 bygge et hus for oss. Underveis vil vi lære hvordan vi kan bruke
 løkker og funksjoner for å gjenta ting som gjøres flere ganger.
 
-![](bygg_et_hus.png)
+![Bilde av en robot som bygger et hus](bygg_et_hus.png)
+
 
 # Steg 1: Prøv selv først {.activity}
 
@@ -45,7 +47,7 @@ kan bruke `for`-løkker for å gjenta ting.
 
   Kjør programmet. Bygger roboten en liten vegg av klosser?
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Jobb videre med `bygghus`-programmet, og se om du klarer å utvide det
 slik at roboten bygger et enkelt hus med fire vegger og tak. Bruk litt
@@ -75,6 +77,7 @@ Et par små tips:
 I de neste stegene vil vi utvikle et mer avansert program for
 husbyggeroboten vår. Underveis vil vi lære om noen nye kommandoer og
 konsepter som gjør at programmet blir både kraftigere og enklere.
+
 
 # Steg 2: Flyvende robot {.activity}
 
@@ -122,6 +125,7 @@ tenkt. Et eksempel på dette er i den følgende koden, hvor meningen var
   Når du kjører programmet nå klarer roboten å bygge hele firkanten
   uten å krasje! Vi vil bruke `turtle.placeDown()` i resten av denne
   leksjonen.
+
 
 # Steg 3: Bygg en vegg {.activity}
 
@@ -190,10 +194,11 @@ etterhvert som du skriver det inn.
   ikke variabler ha navn som inneholder de norske bokstavene æ, ø og
   å.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Prøv å endre verdiene av variablene `hoyde` og `lengde`. Gjør roboten
 som du ber den om?
+
 
 # Steg 4: Funksjoner {.activity}
 
@@ -263,10 +268,11 @@ kan bruke på samme måte som de innebygde kommandoene (som for eksempel
   byggVegg(3, 5)                                -- endret linje
   ```
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Endre tallene `3` og `5` i den siste linjen. Bygger roboten vegger av
 forskjellig størrelse?
+
 
 # Steg 5: Bygg et hus {.activity}
 
@@ -288,7 +294,7 @@ bygge et enkelt hus. La oss prøve å sette sammen fire vegger!
 
   Hva skjer når du kjører programmet ditt?
 
-  ![](firevegger.png)
+  ![Robot som bygger vegger](firevegger.png)
 
 - [ ] Hmm ... det ble jo litt stilig, men et hus er det definitivt
   ikke. Problemet er at vi ikke har tenkt gjennom hvor roboten er
@@ -354,6 +360,7 @@ bygge et enkelt hus. La oss prøve å sette sammen fire vegger!
 Nå har huset vårt fått fire vegger. Vi skal snart se på hvordan vi kan
 bygge taket, men først skal vi se på hvordan vi kan passe på at
 roboten har materiale å bygge med.
+
 
 # Steg 6: Mer byggemateriale {.activity}
 
@@ -429,13 +436,14 @@ vil den bare bruke en av dem. Ved hjelp av funksjonene
   byggemateriale? Den blir da bare stående å vente på at du skal fylle
   den opp med nytt materiale.
 
-  ![](flerefarger.png)
+  ![Bilde av et hus med mange ulike farger](flerefarger.png)
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Nå som roboten bruker flere slotter kan du eksperimentere med å legge
 forskjellig materiale i de forskjellige slottene. På den måten kan du
 for eksempel få roboten til å bygge et fargerikt hus!
+
 
 # Steg 7: Vi trenger et tak! {.activity}
 
@@ -495,6 +503,7 @@ Nå er det på tide å lære roboten hvordan den bygger tak på huset vårt!
       end
   end
   ```
+
 
 # Steg 8: Dører og vinduer {.activity}
 
@@ -561,6 +570,7 @@ dette ligner et skikkelig hus er dører og vinduer.
   Legg merke til at vi bruker det spesielle ordet `nil` hvis vi ikke
   skal lage en dør eller et vindu på en gitt vegg. Skjønner du hvor
   vinduene på de forskjellige veggene plasseres?
+
 
 # Steg 9: Forskjellige hus {.activity}
 

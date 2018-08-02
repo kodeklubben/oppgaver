@@ -1,9 +1,0 @@
-kodeklubben_trysil_videokurs/intro_del_1.md
-kodeklubben_trysil_videokurs/intro_del_2.md
-kodeklubben_trysil_videokurs/intro_del_3.md
-kodeklubben_trysil_videokurs/crazy_eyes.md
-kodeklubben_trysil_videokurs/skytespill.md
-kodeklubben_trysil_videokurs/kanon.md
-kodeklubben_trysil_videokurs/fotballtennis.md
-kodeklubben_trysil_videokurs/lavaball.md
-kodeklubben_trysil_videokurs/flappy_bird.md

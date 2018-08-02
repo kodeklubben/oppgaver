@@ -1,5 +1,6 @@
 ---
-title: Flappy Bird
+title: 'Flappy Bird'
 level: 3
-external: https://studio.code.org/flappy/1
+external: 'https://studio.code.org/flappy/1'
+language: nb
 ---

@@ -1,16 +1,11 @@
 ---
 title: Spøkelsesjakten
 level: 1
-logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Gudbrand Tandberg
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Gudbrand Tandberg'
 language: nb
-tags:
-    topic: [block_based, game, animation]
-    subject: [mathematics, music, programming]
-    grade: [primary, secondary, junior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -19,7 +14,8 @@ man slår muldvarper ned igjen i hullene sine. I vårt spill er det
 spøkelsene som blir borte når vi klikker på dem. Målet er å klikke
 bort flest mulig i løpet av 30 sekunder.
 
-![](spokelsesjakten.png)
+![Illustrasjon av et ferdig spøkelsejakt spill](spokelsesjakten.png)
+
 
 # Steg 1: Lag et flyvende spøkelse {.activity}
 
@@ -50,7 +46,7 @@ i gang.
   heter `hastighet`, så slett den og legg den til en gang til.
 
 - [ ] Fjern avhukingen ved siden av variabelen, slik at den ikke vises på
-  scenen: ![](hastighet.png)
+  scenen: ![Bilde av hvordan ikke vise hastighet variabelen](hastighet.png)
 
 - [ ] Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi
   ved å lage følgende skript:
@@ -98,7 +94,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Flyr spøkelset riktig vei?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] __Endre hastighetsvariabelen__, slik at spøkelset går raskere eller
   saktere.
@@ -106,6 +102,7 @@ __Klikk på det grønne flagget.__
 - [ ] Hvordan kan vi få spøkelset til å __fly fortere jo lenger det
   flyr?__ (Dette er nokså vanskelig, så ikke vær bekymret hvis du ikke
   skjønner hvordan. Du vil få flere hint underveis.)
+
 
 # Steg 2: Få spøkelset til å dukke opp og forsvinne {.activity}
 
@@ -138,12 +135,13 @@ __Klikk på det grønne flagget.__
 
 - [ ] Forsvinner det og dukker opp igjen helt tilfeldig?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Prøv å __endre tallene i koden__ der det står `tilfeldig tall fra _
   til _`{.blockoperators}. Hva skjer hvis du velger veldig store
   eller små tall? (Dette gir deg kanskje et nytt hint for hvordan vi
   skal få spøkelset til å gå fortere jo lenger man spiller.)
+
 
 # Steg 3: Tryll bort spøkelset med et klikk! {.activity}
 
@@ -171,10 +169,11 @@ __Klikk på det grønne flagget.__
 
 - [ ] Forsvinner spøkelset med en tryllelyd når du klikker på det?
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Spør de voksne om du kan ta opp en egen lyd. Denne kan du bruke i
   stedet for tryllelyden.
+
 
 # Steg 4: Legg til tid og poeng {.activity}
 
@@ -224,7 +223,7 @@ __Klikk på det grønne flagget.__
 
 __Klikk på det grønne flagget.__
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Hvordan kan du få spøkelset til å gå fortere etter at spillet er i
   gang?
@@ -239,19 +238,20 @@ __Klikk på det grønne flagget.__
 *Hvis ett spøkelse er bra, må vel flere være enda bedre! La oss ha tre
  spøkelser flyvende rundt!*
 
-- [ ] __Lag flere spøkelser__ ved å høyreklikke på det du allerede har, og
-  så kopiere dette.
+- [ ] __Lag flere spøkelser__ ved å høyreklikke på det du allerede har, og så
+  kopiere dette.
 
 - [ ] __La spøkelsene få ulik størrelse__. Dette gjør du ved å bruke én av
   knappene under. Den til venstre forstørrer figuren og den til høyre
-  forminsker: ![](endre-storrelse.png)
+  forminsker: ![Bilde av ikonene for å forminske å
+  forstørre](endre-storrelse.png)
 
 - [ ] Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i
-  `hastighet`{.blockdata}-variabelen i det øverste skriptet for hver
-  enkelt figur.
+  `hastighet`{.blockdata}-variabelen i det øverste skriptet for hver enkelt
+  figur.
 
-- [ ] Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette
-  gjør du ved å klikke og dra figurene rundt i selve skjermbildet.
+- [ ] Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette gjør
+  du ved å klikke og dra figurene rundt i selve skjermbildet.
 
 ## Test prosjektet {.flag}
 
@@ -265,20 +265,20 @@ __Klikk på det grønne flagget.__
 
 Gratulerer! Da har du gjort alt riktig!
 
-## Ting å prøve {.try}
+## Ting å prøve {.challenge}
 
 - [ ] Hvor mange spøkelser synes du spillet fungerer best med? __Legg til
   flere__ og prøv!
 
 - [ ] Klarer du å få spøkelsene til __å se forskjellige ut__? Klikk på
-  `Drakter`{.blocklightgrey} og prøv deg frem. Du kan også velge noen
-  av klossene under `Utseende`{.blocklooks}.
+  `Drakter`{.blocklightgrey} og prøv deg frem. Du kan også velge noen av
+  klossene under `Utseende`{.blocklooks}.
 
-- [ ] Kan du få spøkelsene til __å bli verdt forskjellige antall poeng?__
-  Hva med å få den minste og raskeste til å gi 10 poeng?
+- [ ] Kan du få spøkelsene til __å bli verdt forskjellige antall poeng?__ Hva
+  med å få den minste og raskeste til å gi 10 poeng?
 
 ## Lagre prosjektet {.save}
 
-Bra jobba! Nå er du ferdig, og det er på tide med litt seriøs
-spilling.  Husk også at du kan dele spillet med vennene dine. Det gjør
-du ved å klikke på `Legg ut` i toppmenyen.
+Bra jobba! Nå er du ferdig, og det er på tide med litt seriøs spilling. Husk
+også at du kan dele spillet med vennene dine. Det gjør du ved å klikke på `Legg
+ut` i toppmenyen.
