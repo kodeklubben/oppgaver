@@ -21,7 +21,7 @@ MIN_LEVEL = 1
 LEVEL_STR = '[{}-{}]'.format(MIN_LEVEL, MAX_LEVEL)
 
 LESSON_YML = 'lesson.yml'
-CODE_WIDTH = 79  # The golden standard for codewith
+CODE_WIDTH = 80  # The golden standard for codewith
 CODE_WIDTH_LEEWAY = 1.25  # How much over CODE_WIDTH you can go before getting an error
 
 LINTER_LIB_FOLDER = 'linter_lib'
