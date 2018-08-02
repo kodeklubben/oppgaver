@@ -35,7 +35,7 @@ seksjon. Vi bruker denne taggen for å organisere forskjellige deler av siden og
 brukes ofte sammen med CSS (utseende), som vi skal se på i en senere del av
 oppgaven. La oss se på et eksempel:
 
-- [ ] Gå inn på [kidsakoder.no](http://kidsakoder.no
+- [ ] Gå inn på [kidsakoder.no](https://kidsakoder.no).
 
 - [ ] Trykk på `X-Ray Goggles` eller bruk utviklerverktøy (Chrome: Visning ->
       Utvikler -> Utviklingsverktøy, Firefox: bruk [X-Ray
@@ -273,7 +273,7 @@ selector {
 være IDer og klasser, som vi vil lære om senere.
 
 `Property` kan være for eksempel `background-color` som vi har brukt. Flere
-`properties` finner du på [w3schools.com/css](http://w3schools.com/css)
+`properties` finner du på [w3schools.com/css](https://w3schools.com/css)
 
 `Value` er det som kommer etter en `property` og er verdien du sender til
 `property`. Denne kan være `red`, for eksempel.
@@ -341,7 +341,7 @@ Vi skal se enda mer på CSS etter vi har lært litt mer HTML.
 
 ## Utfordring {.challenge
 
-- [ ] Gå inn på [w3schools.com/css](http://w3schools.com/css) og se om du finner
+- [ ] Gå inn på [w3schools.com/css](https://w3schools.com/css) og se om du finner
       en flere “properties” du kan endre på.
 
 
@@ -369,7 +369,7 @@ siden og se hva det står nederst.
 denne taggen
 
 Du kan lese om flere her:
-[http://www.w3schools.com/html/html5_new_elements.asp](http://www.w3schools.com/html/html5_new_elements.asp)
+[https://www.w3schools.com/html/html5_new_elements.asp](https://www.w3schools.com/html/html5_new_elements.asp)
 
 Disse taggene gjør det enklere for nettleseren å lese hva innholdet på siden er.
 Nå skal vi bytte ut `<div>`-taggene på siden vår med noen av taggene over.
@@ -430,15 +430,14 @@ CSS-en bør se noe sånt ut: (Merk at jeg har sikkert andre farger enn deg)
       section{
           background-color: #669999;
       }
-``
+```
 
 - [ ] Legg til farge på bakgrunnen for hele siden ved å legge til CSS på
       `<body>`-taggen. Velg farge selv.
 
 Nå vil koden se noe sånt ut:
 
-![Bilde av koden og nettisden side ved side](ressurser/html_del_inn_6.png)
+![Bilde av koden og nettsiden side ved side](ressurser/html_del_inn_6.png)
 
 Nå har du lært hvordan man kan dele inn en nettside ved hjelp av `<div>`-taggen
 og HTML5-tagger. La oss nå se hvordan vi kan lenke sammen nettsider.
-
