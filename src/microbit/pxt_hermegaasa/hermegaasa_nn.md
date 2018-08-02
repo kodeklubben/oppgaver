@@ -14,7 +14,7 @@ spelleiaren skal utføre instruksjonar på micro:biten sin som dei andre spelara
 skal gjenta (herme etter) på micro:biten sin. Det er eit spel for fleire
 spelarar, og det er om å gjere å vere den raskaste spelaren til å herme etter
 spelleiaren. Spelleiaren har oversikt over poenga til dei ulike spelarane på
-skjermen din, og spelet blir avslutta når ein spelar har vunne 5 gonger.
+skjermen sin, og spelet blir avslutta når ein spelar har vunne 5 gonger.
 
 ![Bilete av tre micro:bitar som speler Hermegåsa](hermegaasa.png)
 
