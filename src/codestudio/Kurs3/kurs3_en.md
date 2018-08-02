@@ -1,5 +1,5 @@
 ---
-title: 'Kurs 8+ år'
+title: 'Courses 8+ years'
 level: 1
 external: 'https://studio.code.org/s/course3'
 language: en
