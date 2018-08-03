@@ -150,8 +150,9 @@ def lesson_yml(lesson_yml_path):
         with open(lesson_yml_path_temp, "w") as g:
             for line in new_yml_data:
                 g.write(line)
-            if not line.endswith('\n'):
-                g.write('\n')
+            if new_yml_data:
+                if not line.endswith('\n'):
+                    g.write('\n')
 
         if filecmp.cmp(lesson_yml_path, lesson_yml_path_temp):
             # File has not changed, removing temp
@@ -164,7 +165,7 @@ def lesson_yml(lesson_yml_path):
 
 
 def main(yml_files):
-    '''This file autoformats lesson.yml filess, which can be broken into four
+    '''This file auto formats lesson.yml files, which can be broken into four
     parts:
 
     1. Create new yaml files if needed:

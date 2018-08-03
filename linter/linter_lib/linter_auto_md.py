@@ -7,7 +7,7 @@ REGEX_FIND_TITLES = re.compile(r" *(\w+) *: *(.*)")
 
 REGEX_4_CODEBLOCKS = '```[\s\S]*?```|`[\s\S]*?`'
 
-REGEX_PARAGRAPHS = re.compile(r' *```[\s\S]*?```|`[\s\S]*?`|(((?<=\n\n)|(?<=(\r\n){2}))( *)([a-z A-Z æøåÆØÅ][\s\S]*?)(?=(\r?\n){2}))', re.DOTALL)
+REGEX_PARAGRAPHS = re.compile(r' *```[\s\S]*?```|`[\s\S]*?`|(((?<=\n\n)|(?<=(\r\n){2}))( *)([a-zA-ZæøåÆØÅ][\s\S]*?)(?=(\r?\n){2}))', re.DOTALL)
 REGEX_LISTS = re.compile(
     r' *```[\s\S]*?```|`[\s\S]*?`|(((?<=\n\n)|(?<=(\r\n){2}))( *)((- \[ \]|[1-2]?[1-9]\.|\-|\+|\*) \w[\s\S]*?)(?=\n\n|(\r\n){2}|$))'
     , re.DOTALL)
@@ -123,7 +123,7 @@ def regex_exclude_codeblock_add_newlines(regex, before, after, md_string):
             continue
         match = m.group(1)
         return_match = '\n'*before + match.strip() + '\n'*after
-        md_string = re.sub(match, r'{}'.format(return_match), md_string)
+        md_string = md_string.replace(match, return_match)
     return md_string
 
 
@@ -277,8 +277,9 @@ def auto_lint_md(filename):
         with open(temp_file, "w") as md_new:
             for line in data_md_new:
                 md_new.write(line)
-            if not line.endswith('\n'):
-                md_new.write('\n')
+            if data_md_new:
+                if not line.endswith('\n'):
+                    md_new.write('\n')
 
     if filecmp.cmp(filename, temp_file):
         # File has not changed, removing temp
