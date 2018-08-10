@@ -36,10 +36,10 @@ void draw(){
 
 Nå kan vi lagre programmet vårt slik at vi kan finne det igjen senere. Trykk
 `ctrl + S` på tastaturet og gi det et navn som du husker, for eksempel
-`rulling`.
+`rulling`. Processing lagrer filer i `.pde` format.
 
 Nå kan du også høyreklikke på dette bildet av en bakke, og lagre det i samme
-mappe som spillet ditt ble lagret i. Processing lagrer filer i `.pde` format.
+mappe som spillet ditt ble lagret i.
 
 ![Bilde av bakken vi bruker i spillet](bakke.png)
 
@@ -108,7 +108,7 @@ metoden `image();`.
 
 ##
 
-![](bakke5.png)
+![Bilde av bakken med litt av bakgrunnen](bakke5.png)
 
 ## Prøv dette {.check}
 
@@ -126,9 +126,9 @@ Først så gjør vi alt vi nettopp gjorde i steg 2, men vi kaller variabelen vå
 for `bilde2`. Vi plasserer bildet til høyre for det første slik at de ligger
 helt inntil hverandre.
 
-![](bilde3.png)
+![Bilde av koden med bildefilene lastet inn](bilde3.png)
 
-![](bakke4.png)
+![Bilde av en lang bakke bortover](bakke4.png)
 
 For å få bildene til å bevege på seg må vi få tallet i `x` plassen i
 `image`-metoden til å endre seg, for å få til dette må vi bruke to variabler,
@@ -142,13 +142,13 @@ pixler bredt)
 
 Nå bytter vi ut variablene med `x` plassen i `image`-metoden.
 
-![](bakke6.png)
+![Bilde av koden med variabler for å plassere bakken](bakke6.png)
 
 Fortsatt beveger de seg ikke når vi kjører koden, hva tror du det kan skyldes?
 For å gjøre det kan vi ta `x1 -= 2;` som betyr "ta verdien av x1, trekk ifra 2
 og putt den nye verdien inn i x1". Putt denne koden nederst i `draw`-metoden.
 
-![](minus.png)
+![Bilde av koden som får bakken til å flytte seg](minus.png)
 
 ## Prøv selv {.check}
 - [ ] Hva skjer dersom du bytter ut minus tegnet med pluss tegn?
@@ -186,7 +186,7 @@ if(x1 + 240 < 0) {
 Dette må vi gjøre for begge x variablene. Legg merke til at vi kan skrive alt på
 en linje om vi vil, men det er lettere å lese om vi bruker flere linjer.
 
-![](test.png)
+![Bilde som flytter bakken helt til høyre hvis den er for langt til venstre](test.png)
 
 ## Testing {.protip}
 
@@ -200,4 +200,4 @@ bakken er uendelig lang og bare kommer og kommer.
 Hele koden ser nå slik ut, og dette er starten på et Runner spill som du finner
 i Nybegynner-delen.
 
-![](heleKoden.png)
+![Bilde av hele koden vi har skrevet](heleKoden.png)
