@@ -223,7 +223,7 @@ def levenshtein_lst(word, word_lst, line=''):
 
     Example:             word
                       /       \
-    ## Noen lure råd {.checkliste}                    | this is the argument 'line'
+    ## Noen lure huskeregler {.checkliste}                    | this is the argument 'line'
 
         (0): sjekkliste  (1): check  (2): challenge   | created by print_levenshtein_wordlist()
 
@@ -292,13 +292,13 @@ def print_levenshtein_wordlist(wordlist):
 
     print('')
     for i, word in enumerate(wordlist):
-        char_count += max(len(str(i)), 4) + spacing + max(len(word), 12)
+        char_count += max(len(str(i)), 4) + spacing + max(len(word), 22)
         if char_count > char_count_limit:
             char_count = 0
             print('')
         # The keyword end='' continues to print on the same line
         print(
-            '  {:>4}: {:12}'.format('({})'.format(color_word(i, MAIN_2_CLR)),
+            '{}: {:20}'.format(color_word('{:>5}'.format(i),MAIN_1_CLR),
                                     color_word(word, CORRECT_CLR)),
             end='')
     print('')
