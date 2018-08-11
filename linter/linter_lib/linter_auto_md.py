@@ -13,14 +13,14 @@ REGEX_LISTS = re.compile(
     , re.DOTALL)
 
 PROGRAMMING_LANGUAGES = [
-    'apache', 'c', 'clojure', 'cpp', 'crystal',
+    'apache', 'blocks', 'c', 'clojure', 'cpp', 'crystal',
     'csharp', 'css', 'csv', 'diff', 'elixir',
     'erb', 'elm', 'go', 'html', 'http', 'java',
-    'javascript', 'json', 'julia', 'kotlin', 'less',
+    'javascript', 'js', 'json', 'julia', 'kotlin', 'less',
     'lua', 'markdown', 'matlab', 'pascal', 'processing',
     'PHP', 'Perl', 'python', 'rust', 'salt',
     'scala', 'scratch', 'shell', 'sh' , 'zsh' ,
-    'bash', 'scss', 'sql', 'svg', 'swift', 'rb',
+    'text', 'bash', 'scss', 'sql', 'svg', 'swift', 'rb',
     'jruby', 'ruby', 'xml', 'yaml'
 ]
 
@@ -160,7 +160,7 @@ def count_columns_in_table(line):
 def format_table(table, columns=0):
 
     # Formats the table into a matrix of size rows, columns
-    matrix = [list(filter(None, row.strip().split('|'))) for row in table.split('\n')]
+    matrix = [row.split('|') for row in table.split('\n')]
     rows, columns = len(matrix), len(matrix[0])
 
     indent = len(table) - len(table.lstrip())
@@ -170,8 +170,18 @@ def format_table(table, columns=0):
     for row in range(rows):
         for column in range(columns):
             element = matrix[row][column].strip()
-            lengths[column] = max(len(element), lengths[column])
+            if not row == 1:
+                # Row 1 only contains ---- and should not contribute to longest line
+                lengths[column] = max(len(element), lengths[column])
             matrix[row][column] = element
+
+    # Removes empty columns
+    empty_columns = [i for i, length in enumerate(lengths) if length == 0]
+    if empty_columns:
+        for i, row in enumerate(matrix):
+            matrix[i] = [column for j, column in enumerate(row) if j not in empty_columns]
+        lengths = [length for k, length in enumerate(lengths) if k not in empty_columns]
+        columns -= len(empty_columns)
 
     # This creates the formating string for the new table
     formating = [''] * columns
@@ -192,6 +202,7 @@ def format_table(table, columns=0):
             formating[i] = '{:' + length + '}'
             matrix[1][i] = '{}'.format('-' * (int(length)))
 
+    # Result: | {:8} | {:6} | {:31} |
     line_format = '{}| {} |'.format(' '*indent, ' | '.join(formating))
     new_table_lines = [line_format.format(*row) for row in matrix]
     return '\n'.join(new_table_lines)
@@ -231,6 +242,7 @@ def split_md(md_data_lst):
         last='')
 
     html_key = ''
+    backticks_start = ''
     yaml_count = 0
     table_columns = 0
 
@@ -241,7 +253,10 @@ def split_md(md_data_lst):
 
         # This codeblocks extracts the first yaml header
         if yaml_count == 0:
-            if line.strip().startswith('--'):
+            if len(md_data_['textblocks']) > 1 or md_data_['codeblocks'] or md_data_['html'] or md_data_['tables']:
+                # If anything is found before the YAML, ignore the yaml
+                yaml_count == 2
+            elif line.strip().startswith('--'):
                 yaml_count = 1
                 # md_data_ = append_if_new(md_data_, '---', 'yaml')
                 continue
@@ -259,24 +274,35 @@ def split_md(md_data_lst):
             # If the number of columns in this line, is the same
             # as in the current table, append to table. Otherwise
             # add to paragraph.
-            is_table = count_columns_in_table(line) == table_columns
-            md_data_ = append_if_new(md_data_,
-                                     line,
-                                     'tables' if is_table else 'textblocks')
+            columns_in_current_line = count_columns_in_table(line)
+            if columns_in_current_line >= 2:
+                is_table = abs(table_columns - columns_in_current_line) < 3
+                if is_table:
+                    md_data_ = append_if_new(md_data_, line, 'tables')
+                    continue
+            md_data_ = append_if_new(md_data_, line, 'textblocks')
             continue
 
         # If we are not in a html block, check if we are in a codeblock
         if not (md_data_['last'] == 'html'):
 
             is_codeblock = md_data_['last'] == 'codeblocks'
-            codeblock_start_end = re.search('^ *((`{2,}([^`\n]+)`{2,})|((`{2,})(.*)))', line)
+            if is_codeblock:
+                codeblock_start_end = re.search('^ *((`{3,}([^`\n]+)`{3,})|(([^`\n\r]*)(`{3,})(.*)))', line)
+            else:
+                codeblock_start_end = re.search('^ *((`{3,}([^`\n]+)`{3,})|(( *)(`{3,})(.*)))', line)
             # The regex above checks both for starting and ending backticks
             if codeblock_start_end or is_codeblock:
                 md_data_ = append_if_new(md_data_, line, 'codeblocks')
                 if codeblock_start_end:
+                    current_backticks = codeblock_start_end.group(6)
                     is_oneliner = True if codeblock_start_end.group(2) else False
-                    if is_codeblock or is_oneliner:
+                    if is_oneliner or (is_codeblock and current_backticks == backticks_start):
+                        # print(line)
+                        backticks_start = ''
                         md_data_ = append_if_new(md_data_, '', 'textblocks')
+                    elif not backticks_start:
+                        backticks_start = current_backticks
                 continue
 
 
@@ -317,17 +343,37 @@ def split_md(md_data_lst):
     return md_data_
 
 
+def create_codeblock(indent, paragraph):
+
+    language = input("Write in a valid programming language, or leave blank for none: ")
+    if language and language not in PROGRAMMING_LANGUAGES:
+        language = levenshtein_lst(language,
+                                   PROGRAMMING_LANGUAGES,
+                                   '```'+language)
+
+    start = '{}```{}'.format(' '*indent, language if language else '')
+    ending = ' '*indent + '```'
+    return '{}\n{}\n{}'.format(start, paragraph, ending)
+
+
 def format_paragraph(paragraph, paragraph_type):
     '''Formats paragraphs into lines of max CODE_WIDTH (usually 80) length.
     The first line remove all tabs, spaces, newlines etc from the paragraph.
     Then the textwrap commands fills in the lines according to the rules set.
     '''
 
-    line = paragraph[0]
+    line = paragraph.split('\n')[0]
     initial_indent = subsequent_indent = len(line) - len(line.lstrip())
+
+    # Multiples of four are reserved for code and should not be formated
     if initial_indent and initial_indent % 4 == 0:
-        # Multiples of four are reserved for code and should not be formated
-        return paragraph
+        print('''{}\n\n The preceeding paragraph has {} indents, which is reserved for codeblocks.
+        '''.format(color_word(paragraph, MAIN_2_CLR), color_word(initial_indent, MAIN_2_CLR)))
+        ask = input("Is the paragraph above a codeblock? [y/n] ")
+        if ask.lower() in ['y', 'yes', 'ja', 'j', 'ok']:
+            return create_codeblock(initial_indent, paragraph)
+        initial_indent -= 2
+        subsequent_indent -=2
 
     if paragraph_type == 'list':
         subsequent_indent += TAB_INDENT
@@ -342,7 +388,7 @@ def format_paragraph(paragraph, paragraph_type):
 
 
 def get_header_class(header):
-    match = re.search(r'((\n|^)#+ .*){\.(\w+)}', header)
+    match = re.search(r'((\r?\n|^)#+ .*){\.(\w+)}', header)
     if not match:
         return (None, None)
     return (match.group(1), match.group(3).strip())
@@ -365,20 +411,27 @@ def fix_class_name_in_header(header):
     if class_name and class_name not in CLASSES_LIST:
         new_class_name = levenshtein_lst(class_name, CLASSES_LIST,
                                          header.strip())
-        header = '{} {{.{}}}'.format(first_part_of_header,
+        header = '{} {{.{}}}'.format(first_part_of_header.rstrip(),
                                          new_class_name)
     return header
 
 
 def fix_headers(header):
+    header_2 = re.search(r'^([^=\r\n]*)=+$', header)
+    if header_2:
+        return fix_headers('# ' + header_2.group(1).strip())
+    header_3 = re.search(r'^([^=\r\n]*)-+$', header)
+    if header_3:
+        return fix_headers('## ' + header_3.group(1).strip())
+
     # Makes sure every title has exactly one space after the last #
     header = re.sub(r'^ *(#+) *(.)', r'\1 \2', header)
 
     # Removes all punctuation from titles
-    header = re.sub(r'^(#+ .*)(\.|\,|\;) *$', r'\1', header)
+    header = re.sub(r'(#+ .*)(\.|\,|\;) *$', r'\1', header)
 
     # This fixes mistakes in the class, eg {{.intro} or .intro
-    header = re.sub(r'^(#.*[^ {]) *(?:{*)(\.\w+)(?:}*)(.*)$', r'\1\3 {\2}',
+    header = re.sub(r'^(#.*[^ {]) *(?:{*)(\.\w+)(?:}*)$', r'\1 {\2}',
                     header)
 
     # Makes sure the class name is spelled correctly. Example: {.intro}
@@ -407,8 +460,8 @@ def fix_list(line):
 
 def is_header_or_list(line, symbol, text, can_be_quickfixed=True):
     print('''
-HEADER ERROR: The following line starts with a \'{}\'\n\n  {}
-'''.format(symbol, line))
+    {} ERROR: The following line starts with a \'{}\'\n\n  {}
+'''.format(text.upper(), symbol, line))
     ask = input(
         'Every {typ} needs to start with \'{sym} \' ({sym} then space) is the line above a {typ}? [y/n]: '.
         format(typ=text, sym=symbol))
@@ -426,24 +479,45 @@ def is_header(line):
     asks the user to confirm whether the line is an header.
     '''
 
-    header = re.search(r'^(#+)( *).', line)
+    header = re.search(r'^(#+)( *)(.)', line)
     if not header:
+        header_2 = re.search(r'^([^=\r\n]+)={3,}$', line)
+        header_3 = re.search(r'^([^=\r\n]+)-{3,}$', line)
+        if header_2 or header_3:
+            return True
         return False
     if header.group(2):
         return True
+    if re.search(r'^(#+)$', line):
+        return True
+    if header.group(3).isdigit():
+        return  False
     return is_header_or_list(line, '#', 'header')
 
 
-def is_list_symbol(line):
+def is_list_symbol(line, i, lines, number_of_lines):
     lst = re.search(r'^(\*|\-|\+)( *).', line)
     if not lst:
         return False
     symbol = lst.group(1)
     spacing = lst.group(2)
     if symbol == '*' and re.search(r'^\*.*\*', line):
-        return False
+            return False
+    elif symbol == '-':
+        if line[1].isdigit():
+            return False
+        if re.search(r'^ *---', line) or re.search(r'^ *-->', line):
+            return False
     if spacing:
         return True
+    else:
+        if symbol == '*':
+            for i in range(i, min(number_of_lines, i+10)):
+                next_line = lines[i].strip()
+                if next_line.startswith('* '):
+                    break
+                elif next_line.endswith('*'):
+                    return False
     return is_header_or_list(line, symbol, 'element')
 
 
@@ -456,7 +530,21 @@ def is_list_number(line):
     spacing = number_lst.group(2)
     if spacing:
         return True
+    if any(line.startswith(enumeration + symbol) for symbol in [')',']','}']):
+        return False
+    if line.endswith(enumeration):
+        return False
     return is_header_or_list(line, enumeration, 'element', False)
+
+
+def update_text(text_, next_category):
+    if text_['paragraph']:
+        line = '\n'.join(text_['paragraph'])
+        formated_paragraph = format_paragraph(line, text_['category'])
+        text_['text_new'].append(formated_paragraph)
+        text_['paragraph'] = []
+        text_['category'] = next_category
+    return text_
 
 
 def fix_md_text(text):
@@ -467,21 +555,15 @@ def fix_md_text(text):
     is found, the current paragraph is then formated to 80 characters width.
     '''
 
-    def update_text(text_, next_category):
-        if text_['paragraph']:
-            line = ' '.join(text_['paragraph'])
-            formated_paragraph = format_paragraph(line, text_['category'])
-            text_['text_new'].append(formated_paragraph)
-            text_['paragraph'] = []
-            text_['category'] = next_category
-        return text_
-
     text_ = dict(
         text_new = [],
         category = '',
         paragraph = [],
         )
-    for line in text.split('\n'):
+
+    lines =  text.split('\n')
+    number_of_lines = len(lines)
+    for i, line in enumerate(lines):
         if not line.strip():
             text_ = update_text(text_, '')
             continue
@@ -491,7 +573,7 @@ def fix_md_text(text):
             text_ = update_text(text_, 'header')
             text_['text_new'].append(fix_headers(line))
             text_ = update_text(text_, '')
-        elif is_list_symbol(lline) or is_list_number(lline):
+        elif is_list_symbol(lline, i, lines, number_of_lines) or is_list_number(lline):
             text_ = update_text(text_, 'list')
             text_['paragraph'].append(fix_list(line))
             text_['category'] = 'list'
@@ -500,11 +582,14 @@ def fix_md_text(text):
                 text_['category'] = 'text'
             text_['paragraph'].append(line)
 
+    text_ = update_text(text_, '')
     return '\n\n'.join(text_['text_new'])
 
 
-def fix_codeblocks(codeblock):
+def fix_codeblocks(codeblock, has_looped = False):
     codelines = codeblock.split('\n')
+    is_oneliner = len(codelines) == 1
+
     first_line, last_line = codelines[0], codelines[-1]
 
     # This makes sure that the codeblocks has 3 backticks or more
@@ -515,27 +600,43 @@ def fix_codeblocks(codeblock):
     # This block might be removed if many new languages emerges
     # The supported languages can be changed in the PROGRAMMING_LANGUAGE
     # variable. Located in 'linter_defaults'
-    has_language = re.search('( *`{3,})(.+) *', first_line)
-    if has_language:
-        backticks = has_language.group(1)
-        language = has_language.group(2)
+    has_language = re.search('( *)(`{3,}) *(\w*)(.*)', first_line)
+    indent = has_language.group(1)
+    backticks = has_language.group(2)
+    if has_language.group(3).strip():
+        language = has_language.group(3)
+        remaining = has_language.group(4)
         if language not in PROGRAMMING_LANGUAGES:
-            new_language = levenshtein_lst(language,
-                                           PROGRAMMING_LANGUAGES,
-                                           first_line)
-            first_line = '{}{}'.format(backticks, new_language)
+            language = levenshtein_lst(language,
+                                       PROGRAMMING_LANGUAGES,
+                                       first_line)
+        first_line = '{}{}{}'.format(indent, backticks, language.strip())
+        if remaining:
+            first_line += '\n' + remaining.strip()
 
-    # This moves any trailing text to the next line
-    has_trailing_text = re.search('( *`{3,})(.+)', last_line)
+    ''' The following if sentence does the following transformation:
+
+    Before:        |     After:
+                   |
+    code } ```text |     code }
+                   |     ```
+                   |
+                   |     text
+    '''
+    has_trailing_text = re.search('([^`\r\n]*)(`{3,})(.*)', last_line)
     if has_trailing_text:
-        trailing_text = has_trailing_text.group(2).strip()
-        if trailing_text:
-            last_line = '{}\n\n{}'.format(has_trailing_text.group(1), trailing_text)
+        code_text = has_trailing_text.group(1)
+        trailing = has_trailing_text.group(3).strip()
+        last_line = code_text + '\n' + indent + backticks if code_text.strip() else indent + backticks
+        last_line += '\n\n' + trailing if trailing else ''
+
     codelines[0] = first_line
     codelines[-1] = last_line
 
     codeblock = '\n'.join(codelines)
 
+    if is_oneliner and not has_looped:
+        return fix_codeblocks(codeblock, True)
     return codeblock
 
 
@@ -569,6 +670,8 @@ def update_md(md_data, filepath):
 
     for i in md_data_['codeblocks']:
         codeblock = md_data_['lst'][i]
+        # print(codeblock)
+        # print()
         md_data_['lst'][i] = fix_codeblocks(codeblock)
 
     for i in md_data_['textblocks']:
@@ -577,6 +680,8 @@ def update_md(md_data, filepath):
             md_data_['lst'][i] = ''
         else:
             md_data_['lst'][i] = fix_md_text(text)
+
+    # print(md_data_['lst'])
 
     if md_data_['yaml']:
         number = md_data_['yaml'][0]
@@ -635,6 +740,7 @@ def main(files_md):
     '''
 
     for file_md in files_md:
+        print(file_md)
         auto_lint_md(file_md)
 
 
