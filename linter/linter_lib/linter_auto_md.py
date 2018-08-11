@@ -204,7 +204,6 @@ def format_table(table, columns=0):
 
     # Result: | {:8} | {:6} | {:31} |
     line_format = '{}| {} |'.format(' '*indent, ' | '.join(formating))
-    print(line_format)
     new_table_lines = [line_format.format(*row) for row in matrix]
     return '\n'.join(new_table_lines)
 
