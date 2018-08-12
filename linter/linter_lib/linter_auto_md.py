@@ -1,5 +1,6 @@
 from linter_defaults import *
 import textwrap
+import collections
 
 # REGEX_FIND_YML = re.compile(r"(?<=^---\s)[\s\S]+?(?=\r?\n---)", re.DOTALL)
 REGEX_FIND_YML = re.compile(r"^---[\s\S]*?---", re.DOTALL)
@@ -248,6 +249,7 @@ def split_md(md_data_lst):
 
     for i, line in enumerate(md_data_lst):
 
+        orig_line = line
         if line:
             line = fix_leading_trailing_whitespace(line)
 
@@ -287,22 +289,30 @@ def split_md(md_data_lst):
         if not (md_data_['last'] == 'html'):
 
             is_codeblock = md_data_['last'] == 'codeblocks'
-            if is_codeblock:
-                codeblock_start_end = re.search('^ *((`{3,}([^`\n]+)`{3,})|(([^`\n\r]*)(`{3,})(.*)))', line)
+            if not is_codeblock:
+                # This regex checks for the START of a codeblock or a oneliner
+                codeblock_start = re.search('^( *`{1,}[^\r\n`]+`{1,} *$)|([^\r\n`]+(`{2,}([^\r\n`]+)`{2,}))|( *(`{3,}).*)', line)
+                if codeblock_start:
+                    oneliner = codeblock_start.group(1)
+                    inline_oneliner = codeblock_start.group(3)
+                    start_multiline_codeblock = codeblock_start.group(5)
+                    if oneliner:
+                        md_data_ = append_if_new(md_data_, line, 'codeblocks', 'textblocks')
+                    elif inline_oneliner:
+                        remove_mutliple_backticks = re.sub(r'`{2,}(.*?)`{2,}', r'`\1`', line)
+                        md_data_ = append_if_new(md_data_, remove_mutliple_backticks, 'textblocks')
+                    elif start_multiline_codeblock:
+                        backticks_start = codeblock_start.group(6)
+                        md_data_ = append_if_new(md_data_, line, 'codeblocks')
+                    continue
             else:
-                codeblock_start_end = re.search('^ *((`{3,}([^`\n]+)`{3,})|(( *)(`{3,})(.*)))', line)
-            # The regex above checks both for starting and ending backticks
-            if codeblock_start_end or is_codeblock:
-                md_data_ = append_if_new(md_data_, line, 'codeblocks')
-                if codeblock_start_end:
-                    current_backticks = codeblock_start_end.group(6)
-                    is_oneliner = True if codeblock_start_end.group(2) else False
-                    if is_oneliner or (is_codeblock and current_backticks == backticks_start):
-                        # print(line)
-                        backticks_start = ''
+                md_data_ = append_if_new(md_data_, orig_line, 'codeblocks')
+                # This regex checks for the END of a codeblock or a oneliner
+                codeblock_end = re.search('[^`\n\r]*(`{3,}).*', line)
+                if codeblock_end:
+                    current_backticks = codeblock_end.group(1)
+                    if current_backticks == backticks_start:
                         md_data_ = append_if_new(md_data_, '', 'textblocks')
-                    elif not backticks_start:
-                        backticks_start = current_backticks
                 continue
 
 
@@ -310,7 +320,7 @@ def split_md(md_data_lst):
         if md_data_['last'] == 'html':
             # Searches for expressions of the form: </hide>
             match = re.search(r'( *< */ *({}).*?> *$)'.format(html_key), line)
-            md_data_ = append_if_new(md_data_, line, 'html', 'textblocks' if match else '')
+            md_data_ = append_if_new(md_data_, orig_line, 'html', 'textblocks' if match else '')
             continue
 
         # This regex searches for html
@@ -501,7 +511,7 @@ def is_list_symbol(line, i, lines, number_of_lines):
         return False
     symbol = lst.group(1)
     spacing = lst.group(2)
-    if symbol == '*' and re.search(r'^\*.*\*', line):
+    if symbol == '*' and len(re.findall(r'\*', line)) % 2 == 0:
             return False
     elif symbol == '-':
         if line[1].isdigit():
@@ -586,11 +596,23 @@ def fix_md_text(text):
     return '\n\n'.join(text_['text_new'])
 
 
-def fix_codeblocks(codeblock, has_looped = False):
+def fix_codeblocks(codeblock):
     codelines = codeblock.split('\n')
     is_oneliner = len(codelines) == 1
-
+    # print(codeblock)
+    if is_oneliner:
+        line = re.search(r'^( *)(`{1,})(((\w* )(.*?))|(.*?))`{1,}', codeblock)
+        indent = line.group(1)
+        backticks = '`'*max(len(line.group(2)), 3)
+        language = line.group(5)
+        content = line.group(6 if language else 7).strip()
+        return fix_codeblocks('{}{}{}\n{}{}\n{}{}'.format(indent,
+                                                          backticks,
+                                                          language.strip() if language else '',
+                                                          indent,
+                                                          content, indent, backticks))
     first_line, last_line = codelines[0], codelines[-1]
+    rem_lines = fix_leading_trailing_newlines('\n'.join(codelines[1:-1]))
 
     # This makes sure that the codeblocks has 3 backticks or more
     first_line = re.sub(r'^( *)`` *(\w+|$)', r'\1```\2', first_line)
@@ -600,7 +622,7 @@ def fix_codeblocks(codeblock, has_looped = False):
     # This block might be removed if many new languages emerges
     # The supported languages can be changed in the PROGRAMMING_LANGUAGE
     # variable. Located in 'linter_defaults'
-    has_language = re.search('( *)(`{3,}) *(\w*)(.*)', first_line)
+    has_language = re.search('( *)(`{3,}) *(\w*)([^`\r\n]*)', first_line)
     indent = has_language.group(1)
     backticks = has_language.group(2)
     if has_language.group(3).strip():
@@ -612,7 +634,7 @@ def fix_codeblocks(codeblock, has_looped = False):
                                        first_line)
         first_line = '{}{}{}'.format(indent, backticks, language.strip())
         if remaining:
-            first_line += '\n' + remaining.strip()
+            first_line += '\n' + indent + remaining.strip()
 
     ''' The following if sentence does the following transformation:
 
@@ -628,15 +650,10 @@ def fix_codeblocks(codeblock, has_looped = False):
         code_text = has_trailing_text.group(1)
         trailing = has_trailing_text.group(3).strip()
         last_line = code_text + '\n' + indent + backticks if code_text.strip() else indent + backticks
-        last_line += '\n\n' + trailing if trailing else ''
+        last_line += '\n\n' + indent + trailing if trailing else ''
 
-    codelines[0] = first_line
-    codelines[-1] = last_line
+    codeblock = '{}\n{}\n{}'.format(first_line, rem_lines, last_line)
 
-    codeblock = '\n'.join(codelines)
-
-    if is_oneliner and not has_looped:
-        return fix_codeblocks(codeblock, True)
     return codeblock
 
 
@@ -655,11 +672,30 @@ def add_newline_end_of_file(md_data):
     return md_data
 
 
+def is_codeblocks_closed(md_string):
+    ''' The first line searches through the entire file for all lines starting with 3 ` or more
+    The second line count the number of occurences of each number of backticks
+    The third line returns True only if it finds an odd number of backticks (meaning it is not closed)
+    '''
+
+    # backticks = ['````', '```', ..., '```', '```']
+    backticks = [match.strip() for match in re.findall(r'`{3,}', md_string)]
+    # count_of_all_backticks = Counter({'```': 29, '````': 1})
+    count_of_all_backticks = collections.Counter(backticks)
+    return not any(backtick_count % 2 != 0 for backtick_count in count_of_all_backticks.values())
+
+
 def update_md(md_data, filepath):
     # Remove trailing whitespace if it exists
-    md_data = [line.rstrip() for line in md_data]
+    md_data_lst = [line.rstrip() for line in md_data]
 
-    md_data_ = split_md(md_data)
+    md_string = '\n'.join(md_data_lst)
+    if not is_codeblocks_closed(md_string):
+        print("ERROR: Unbalanced codeblocks in:\n {} \n Please fix this before formating".format(color_word(filepath, MAIN_2_CLR)))
+        input("")
+        return md_string
+
+    md_data_ = split_md(md_data_lst)
 
     for i in md_data_['html']:
         html = md_data_['lst'][i]
@@ -670,9 +706,9 @@ def update_md(md_data, filepath):
 
     for i in md_data_['codeblocks']:
         codeblock = md_data_['lst'][i]
-        # print(codeblock)
-        # print()
         md_data_['lst'][i] = fix_codeblocks(codeblock)
+        # print(md_data_['lst'][i])
+        # print('===================================')
 
     for i in md_data_['textblocks']:
         text = md_data_['lst'][i]
