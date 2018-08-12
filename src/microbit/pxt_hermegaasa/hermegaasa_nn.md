@@ -1,8 +1,7 @@
 ---
 title: "PXT: Hermegåsa"
-level: 2
 author: Felix Bjerke og Tjerand Silde
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -27,7 +26,7 @@ veg som pila vinn.
 # Steg 1: Sjekk at du har riktig utstyr {.activity}
 
 *Det er viktig at du har alt utstyret og tilbehøret for å kunne gjere denne
- oppgåva.*
+oppgåva.*
 
 ## Sjekkliste {.check}
 
@@ -41,27 +40,27 @@ veg som pila vinn.
 
 *Her er eit oversyn over reglane i spelet:*
 
-|   Skjerm viser          | Spelar utfører             |
-|  ---------------------- | -------------------------- |
-|       A                 | Trykk på A                 |
-|       B                 | Trykk på B                 |
-|       C                 | Trykk på A + B             |
-|       <                 | Vipp til venstre           |
-|       \>                | Vipp til høgre             |
+| Skjerm viser | Spelar utfører   |
+| ------------ | ---------------- |
+| A            | Trykk på A       |
+| B            | Trykk på B       |
+| C            | Trykk på A + B   |
+| <            | Vipp til venstre |
+| \>           | Vipp til høgre   |
 
 
 # Steg 2: Programmere spelleiaren {.activity}
 
 *Når spelet skal starte må me syte for at alle micro:bitane kan kommunisere med
- kvarandre. For å få til det må me bestemme eit gruppe-nummer som alle
- deltakarane brukar for å sende informasjon over bluetooth. I tillegg må me
- lagre at me har sendt ut ei melding til deltakarane, slik at me ikkje sender ut
- fleire meldingar før me har fått svar på den førre.*
+kvarandre. For å få til det må me bestemme eit gruppe-nummer som alle
+deltakarane brukar for å sende informasjon over bluetooth. I tillegg må me lagre
+at me har sendt ut ei melding til deltakarane, slik at me ikkje sender ut fleire
+meldingar før me har fått svar på den førre.*
 
 ## Sjekkliste {.check}
 
 - [ ] Start eit nytt PXT-prosjekt, til dømes ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).  .
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
 
 - [ ] Finn klossen `ved start` under `Basis` og dra den inn i kodefeltet.
 
@@ -93,8 +92,8 @@ spelarar enn det, så treng du ikkje leggje til så mange.
 # Steg 2: Vise poeng på skjermen {.activity}
 
 *For å halde oversyn over kor mange poeng dei ulike spelarane har, så viser me
- det på skjermen til spelleiaren. Viss nokon av spelarane får 5 poeng, så gir me
- beskjed om at den spelaren vann.*
+det på skjermen til spelleiaren. Viss nokon av spelarane får 5 poeng, så gir me
+beskjed om at den spelaren vann.*
 
 ## Sjekkliste {.check}
 
@@ -134,8 +133,8 @@ spelarar enn det, så treng du ikkje leggje til så mange.
 # Steg 3: Sende ut meldingar til deltakarane {.activity}
 
 *Så må me sende ut meldingar til deltakarane om kva dei skal herme etter. Me
- lagar ein kloss for kvar av dei ulike meldingane, ut frå reglane som er
- beskrive lengre opp.*
+lagar ein kloss for kvar av dei ulike meldingane, ut frå reglane som er beskrive
+lengre opp.*
 
 ## Sjekkliste {.check}
 
@@ -166,7 +165,7 @@ spelarar enn det, så treng du ikkje leggje til så mange.
 # Steg 4: Sjekke svaret til deltakarane {.activity}
 
 *Etter kvar runde må spelleiaren sjekke kva deltakar som var raskast til å
- herme.*
+herme.*
 
 ## Sjekkliste {.check}
 
@@ -174,9 +173,9 @@ spelarar enn det, så treng du ikkje leggje til så mange.
 
 - [ ] Sjekk om `MessageSent` er lik `sann`.
 
-- [ ] Viss `MessageSent` er lik `sann` skal du sjekke om `receivedNumber`
-  er lik `1`, for då vann `Player1` denne runden. Me får altså ein
-  `hvis`-kloss inni ein annan `hvis`-kloss.
+- [ ] Viss `MessageSent` er lik `sann` skal du sjekke om `receivedNumber` er lik
+  `1`, for då vann `Player1` denne runden. Me får altså ein `hvis`-kloss inni
+  ein annan `hvis`-kloss.
 
 - [ ] Viss `receivedNumber` er lik `1` så set me klossen `endre Player1 med 1`
   frå `Variabler` inni den innerste `hvis`-klossen.
@@ -222,7 +221,7 @@ spelarar enn det, så treng du ikkje leggje til så mange.
 # Steg 6: Programmere spelarane {.activity}
 
 *Fyrst må me syte for at spelarane koplar seg til spelleiaren og gir dei eit
- spelarnummer, slik at me kan sjekke kven som vinn.*
+spelarnummer, slik at me kan sjekke kven som vinn.*
 
 ## Sjekkliste {.check}
 
@@ -248,7 +247,7 @@ spelarar enn det, så treng du ikkje leggje til så mange.
 # Steg 7: Når spelar mottek ei melding {.activity}
 
 *Neste steg er å ta imot meldinga om kva me skal herme etter, og lagre den. Då
- kan me sjekke at me har gjort rett seinare.*
+kan me sjekke at me har gjort rett seinare.*
 
 ## Sjekkliste {.check}
 
@@ -304,7 +303,7 @@ spelarar enn det, så treng du ikkje leggje til så mange.
 # Steg 9: Overføre programmet til spelarane {.activity}
 
 *Overfør programmet til kvar av spelarane sine micro:bitar. Hugs å endre
- programmet med spelarnummer mellom kvar gong, og last det ned på nytt.*
+programmet med spelarnummer mellom kvar gong, og last det ned på nytt.*
 
 ## Sjekkliste {.check}
 
@@ -356,23 +355,23 @@ Det gjer det mogleg å jukse! for å unngå at det er mogleg å jukse må me ten
 oss om for å finne ut korleis me skal kode serveren og klienten vår.
 
 **Å la klienten sende tilbake "eg hadde rett" er ikkje sikkert.** Då kan eg lage
- min eigen klient som alltid gir meg alle poenga, uansett kva eg har svart.
+min eigen klient som alltid gir meg alle poenga, uansett kva eg har svart.
 
 **Å la klienten sende tilbake "eg svarte B" er betre.** Då må eg faktisk vite
- svaret for å kunne få poeng. _Kva trur du skjer viss du gjettar alle svara
- heile tida? Klarar du å tenke på ein måte som gjer det umogleg?_
+svaret for å kunne få poeng. _Kva trur du skjer viss du gjettar alle svara heile
+tida? Klarar du å tenke på ein måte som gjer det umogleg?_
 
 ### Sikkerheit på Facebook
 
 Facebook er ein annan applikasjon som er delt inn i klient og server.
 
 **Klienten viser bileta dine og venene dine.** Du ser klienten når du går til
- `facebook.com` i ein nettlesar. Når du brukar Facebook-appen på ein
- mobiltelefon, brukar du ein annan klient.
+`facebook.com` i ein nettlesar. Når du brukar Facebook-appen på ein
+mobiltelefon, brukar du ein annan klient.
 
 **Serveren heldt styr på all informasjonen.** Serveren kan seie om du prøver å
- logge inn med riktig brukarnamn og passord. Serveren veit kven som er venene
- dine, og den veit kven som kan administrere kva sider og grupper.
+logge inn med riktig brukarnamn og passord. Serveren veit kven som er venene
+dine, og den veit kven som kan administrere kva sider og grupper.
 
 Kva hadde skjedd viss gruppeadministrasjon vart handtert i klienten? Korleis
 kunne du då ha laga din eigen klient? Kva kunne du gjort med den?

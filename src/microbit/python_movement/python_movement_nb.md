@@ -1,8 +1,7 @@
 ---
 title: "Python: Bevegelse"
-level: 3
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/movement.html)"
-translator: "Øistein Søvik"
+translator: Øistein Søvik
 language: nb
 ---
 
@@ -19,8 +18,8 @@ akser:
 * Z - bevegelse opp og ned.
 
 Det er en funksjon for hver akse som returnerer et positivt eller negativt tall
-som indikerer antall milli-g krefter. Den viser 0 når du står i vater langs
-den aksen.
+som indikerer antall milli-g krefter. Den viser 0 når du står i vater langs den
+aksen.
 
 For eksempel, her er et enkelt program som viser deg hvor mye i vater enheten
 din er langs X aksen:
@@ -100,7 +99,7 @@ på noen enkle forbedringer du kan gjøre.
 ## Prøv det ut selv {.check}
 
 - [ ] Endre instrumentet ditt slik at du kan tippe det både bakover og fremmover
-      for å endre tonehøyden.
+  for å endre tonehøyden.
 
 Dette kan for eksempel gjøres ved enten å legge inn en `if`setning, eller med å
 bruke `abs` funksjonen
@@ -137,7 +136,7 @@ Hvilket alternativ tror du jeg liker best?
 </toggle>
 
 - [ ] Endre koden slik at du kan styre hvor lenge tonene varierer ved å variere
-      høyden i z-retningen.
+  høyden i z-retningen.
 
 <toggle>
   <strong>Hint</strong>
@@ -201,4 +200,4 @@ lesbarheten.
 </toggle>
 
 - [ ] Finn gode tallverdier for `A` i koden over. Forstår du hvordan koden
-      fungerer?
+  fungerer?

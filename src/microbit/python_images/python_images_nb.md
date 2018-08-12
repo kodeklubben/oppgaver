@@ -1,8 +1,7 @@
 ---
 title: "Python: Bilder"
-level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html)"
-translator: "Øistein Søvik"
+translator: Øistein Søvik
 language: nb
 ---
 
@@ -62,12 +61,12 @@ kan fortelle `show` å bruke bildet ved å legge det mellom parenthesene `(` og
 
 - `Image.NO`
 
-- `Image.CLOCK12`, `Image.CLOCK11`, `Image.CLOCK10`, `Image.CLOCK9`, `Image.CLOCK8`,
-  `Image.CLOCK7`, `Image.CLOCK6`, `Image.CLOCK5`, `Image.CLOCK4`, `Image.CLOCK3`,
-  `Image.CLOCK2`, `Image.CLOCK1`
+- `Image.CLOCK12`, `Image.CLOCK11`, `Image.CLOCK10`, `Image.CLOCK9`,
+  `Image.CLOCK8`, `Image.CLOCK7`, `Image.CLOCK6`, `Image.CLOCK5`,
+  `Image.CLOCK4`, `Image.CLOCK3`, `Image.CLOCK2`, `Image.CLOCK1`
 
-- `Image.ARROW_N`, `Image.ARROW_NE`, `Image.ARROW_E`, `Image.ARROW_SE`, `Image.ARROW_S`,
-  `Image.ARROW_SW`, `Image.ARROW_W`, `Image.ARROW_NW`
+- `Image.ARROW_N`, `Image.ARROW_NE`, `Image.ARROW_E`, `Image.ARROW_SE`,
+  `Image.ARROW_S`, `Image.ARROW_SW`, `Image.ARROW_W`, `Image.ARROW_NW`
 
 - `Image.TRIANGLE`
 
@@ -145,7 +144,6 @@ Selvsagt ønsker du og å vise dine egne bilder på micro:bit'en, ikke sant?
 
 Det er enkelt.
 
-
 Hver LED pixel på det fysiske displayet kan settes til en av ti verdier. Dersom
 en pixel er satt til `0` (null) så er den av. Det er bokstavlig talt en lysstyke
 på null. Imidlertid dersom verdien er satt til `9` så er den satt til maks.
@@ -188,7 +186,7 @@ boat = Image("05050:05050:05050:99999:09990")
 - [ ] Lag et smilefjes der det ene øyet lyser svakere
 
 - [ ] Lag et hjertet som lyser så svakt som mulig. Hint: du kan bruke
-      `IMAGES.HEART` for å se ett eksempel på ett hjerte.
+  `IMAGES.HEART` for å se ett eksempel på ett hjerte.
 
 
 # Animasjon {.activity}
@@ -262,7 +260,7 @@ sekund) med argumentet `delay=100`.
 - [ ] Animer over alle bildene av piler fra `Image.ALL_ARROWS` listen.
 
 - [ ] Gjør slik at animasjonen bare kjører en gang (hint: det motsatte av `True`
-      er `False`).
+  er `False`).
 
 - [ ] Forandre hastigheten på animasjonen slik at den går dobbelt så raskt
 
@@ -332,7 +330,7 @@ Her er hvordan koden virker
 - [ ] Bruk smilefjeset du laget tidligere og animer det til å blunke med ett øye
 
 - [ ] Animer hjertet du laget tidligere til å banke (hint: Du kan la lysstyrken
-      gå fra `0` opp til `9` også tilbake igjen).
+  gå fra `0` opp til `9` også tilbake igjen).
 
 - [ ] Velg ditt eget bilde og animer det. Trenger du inspirasjon kan du se på
-      listen over innebygde bilder ovenfor.
+  listen over innebygde bilder ovenfor.

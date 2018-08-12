@@ -1,8 +1,7 @@
 ---
 title: "PXT: Stein, saks, papir"
-level: 2
 author: Bjørn Hamre
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -16,8 +15,8 @@ papir med den eller mot den.
 # Steg 1: Velje tilfeldig tal {.activity}
 
 *Du skal få micro:biten til å velje eit tilfeldig tal når du ristar på den. For
- at du skal kunne bruke dette talet seinare, så må du lagre talet i ein
- variabel.*
+at du skal kunne bruke dette talet seinare, så må du lagre talet i ein
+variabel.*
 
 ## Sjekkliste {.check}
 
@@ -80,8 +79,8 @@ Det er to ulike måtar du kan reste micro:bit-program på:
   klossen som vel eit tilfeldig tal startar å telje på null, så endrar me til at
   den skal velje eit tal mellom `0` og `2`.
 
-- [ ] Variabelen `trekk` skal no ha ein av verdiane `0`, `1` eller `2`. La
-  `0` vere stein, `1` vere saks og `2` vere papir.
+- [ ] Variabelen `trekk` skal no ha ein av verdiane `0`, `1` eller `2`. La `0`
+  vere stein, `1` vere saks og `2` vere papir.
 
 - [ ] Du skal teikne ulike bilete på skjermen, avhengig av kva tal som vart
   valt. Start med ein `hvis`-kloss frå kategorien `Logikk`. Plasser den nedst
@@ -147,7 +146,7 @@ opp talet `2` viss det er det som er valt.
 # Steg 4: Vise papir {.activity}
 
 *Å teikne papir når variabelen `trekk` har verdien `2` blir veldig likt det du
- gjorde for steinen tidlegare.*
+gjorde for steinen tidlegare.*
 
 ## Sjekkliste {.check}
 
@@ -175,9 +174,9 @@ avhengig av kva tal som blir valt når du trykkar på `SHAKE`-knappen.
 # Steg 5: Tøm skjermen mellom kvar spel {.activity}
 
 *Når micro:biten skal velje eit tilfeldig tall, så kan det hende at det same
- talet blir valt to gonger på rad. Viss du ristar på micro:biten og den viser
- det same biletet som før, så er det vanskeleg å vite om du ikkje rista hardt
- nok eller om det same talet vart valt to gonger på rad.*
+talet blir valt to gonger på rad. Viss du ristar på micro:biten og den viser det
+same biletet som før, så er det vanskeleg å vite om du ikkje rista hardt nok
+eller om det same talet vart valt to gonger på rad.*
 
 ## Sjekkliste {.check}
 

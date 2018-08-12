@@ -1,7 +1,6 @@
 ---
-title: 'PXT: Frustrasjon'
-level: 2
-author: 'Oversatt fra [Code Club UK](https://codeclubprojects.org/en-GB/microbit/frustration/)'
+title: "PXT: Frustrasjon"
+author: "Oversatt fra [Code Club UK](https://codeclubprojects.org/en-GB/microbit/frustration/)"
 translator: dagfs
 language: nb
 ---
@@ -33,7 +32,7 @@ Til dette prosjektet trengs det et par ekstra ting:
 
 - [ ] Slett de eksisterende blokkende.
 
- ![Bilde av start og for alltid blokker som kastes](slett_standard_blokker.png)
+![Bilde av start og for alltid blokker som kastes](slett_standard_blokker.png)
 
 - [ ] Vi ønsker å starte et nytt spill når spilleren trykker på knapp A. Til
   dette kan vi bruke `når knapp A trykkes`-klossen som finnes i kategorien
@@ -46,15 +45,15 @@ Til dette prosjektet trengs det et par ekstra ting:
     `beroering` til dette. Husk det er lurt å unngå `æøå` fordi det fungerer
     ikke i alle tilfeller.
 
-     ![Bilde av hvordan lage en ny variabel](lag_variabel_beroeringer.png)
+    ![Bilde av hvordan lage en ny variabel](lag_variabel_beroeringer.png)
 
-     ![Bilde av hvordan sette variabelnavn](lag_variabel_beroeringer2.png)
+    ![Bilde av hvordan sette variabelnavn](lag_variabel_beroeringer2.png)
 
-     ![Bilde av den ferdige variablen](variabel_beroeringer.png)
+    ![Bilde av den ferdige variablen](variabel_beroeringer.png)
 
-   - [ ] Legg til at antall `beroeringer` vises etter at `knapp a` er trykket.
+  - [ ] Legg til at antall `beroeringer` vises etter at `knapp a` er trykket.
 
-    ![Bilde av koden for å vise antall berøringer](vis_tall_beroeringer.png)  
+    ![Bilde av koden for å vise antall berøringer](vis_tall_beroeringer.png)
 
 
 # Steg 2: Oppdatere berøringene {.activity}
@@ -62,7 +61,7 @@ Til dette prosjektet trengs det et par ekstra ting:
 ## Sjekkliste {.check}
 
 - [ ] Du skal legge til 1 til variabelen `beroeringer` hver gang kontakt `P0`
-      trykkes.
+  trykkes.
 
   ![Bilde av når kontakt P0 trykkes](kontakt_p0_trykkes.png)
 
@@ -90,7 +89,7 @@ Til dette prosjektet trengs det et par ekstra ting:
 - [ ] Ta en bit ståltråd og lag en løkke i den ene enden.
 
 - [ ] Tre løkken i en annen bit ståltråd som du setter i to treklosser med hull
-      i.
+  i.
 
 - [ ] Fest en kabel med ktrokkodilleklyper i `P0` på Microbiten til det ene
   beinet på `buzzeren` og en annen kabel fra `GND` på Microbiten til det andre
