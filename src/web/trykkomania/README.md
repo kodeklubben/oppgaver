@@ -124,16 +124,14 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] [`setInterval`]
 
-[Variabler]: https://developer.mozilla.org/en-US/docs/Glossary/Variable
-[Objekter]: https://developer.mozilla.org/en-US/docs/Glossary/Object
-[Funksjoner]: https://developer.mozilla.org/en-US/docs/Glossary/Function
-[Closures]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
-[HTML-elementer]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
-[CSS-stil]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
-[`onclick`]:
-https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
-[`setInterval`]:
-https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval
+[Variabler]:https://developer.mozilla.org/en-US/docs/Glossary/Variable
+[Objekter]:https://developer.mozilla.org/en-US/docs/Glossary/Object
+[Funksjoner]:https://developer.mozilla.org/en-US/docs/Glossary/Function
+[Closures]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+[HTML-elementer]:https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+[CSS-stil]:https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
+[`onclick`]:https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
+[`setInterval`]:https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval
 
 
 # Løsning {.challenge}
