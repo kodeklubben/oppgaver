@@ -1,7 +1,6 @@
 ---
-title: 'Redd verden'
-level: 2
-author: 'Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)'
+title: Redd verden
+author: "Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)"
 language: nb
 ---
 
@@ -53,6 +52,7 @@ søppelet som vi skal kaste.
     display: inline;
   }
   </style>
+
   <figure class="inline">
     <img src="bananer.png" alt="Bilde av bananer"/>
     <img src="eple.png" alt="Bilde av et eple"/>
@@ -127,7 +127,8 @@ av det, så ber vi om hjelp fra søppel-figurene selv.
 
 __Klikk på det grønne flagget.__
 
-- [ ] Blir mål satt til riktig antall søppel-biter? I vårt tilfelle skal det bli seks.
+- [ ] Blir mål satt til riktig antall søppel-biter? I vårt tilfelle skal det bli
+  seks.
 
 - [ ] Snakker Ronny?
 
@@ -138,8 +139,8 @@ __Klikk på det grønne flagget.__
 
   ![Bilde av Ronny som prater](ronny_prater.png) <!-- ikke figur -->
 
-- Istedenfor snakkebobler, klarer du spille inn din egen stemme?
-  **Hint:** Bruk blokken under.
+- Istedenfor snakkebobler, klarer du spille inn din egen stemme? **Hint:** Bruk
+  blokken under.
 
   ```blocks
   spill lyden [opptak 1 v] til den er ferdig
@@ -294,7 +295,7 @@ Når vi har fått alt søppelet på plass, må vi avslutte spillet.
 __Klikk på det grønne flagget.__
 
 - [ ] Når alt søppelet er sortert, blir bakgrunnen byttet og Ronny takker for
-      hjelpen?
+  hjelpen?
 
 ## Utfordring {.challenge}
 

@@ -1,8 +1,7 @@
 ---
 title: Spøkelsesjakta
-level: 1
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -26,9 +25,9 @@ når me klikkar på dei. Målet er å klikke bort flest mogleg i løpet av 30 se
 
 - [ ] Endre bakgrunnen til `Natur/woods`.
 
-- [ ] For å leggje til eit spøkelse klikkar du på
-  ![Vel figur frå biblioteket](../bilder/hent-fra-bibliotek.png)-knappen.
-  Vel `Fantasi/Ghost1`-figuren.
+- [ ] For å leggje til eit spøkelse klikkar du på ![Vel figur frå
+  biblioteket](../bilder/hent-fra-bibliotek.png)-knappen. Vel
+  `Fantasi/Ghost1`-figuren.
 
 - [ ] Gi spøkelset namnet `spøkelse1`, ved å klikke på `i`{.blockmotion} på
   figuren.
@@ -36,9 +35,9 @@ når me klikkar på dei. Målet er å klikke bort flest mogleg i løpet av 30 se
 No skal du __lage ein variabel__ som styrer kor fort spøkelset beveger seg.
 Denne kan me bruke til å endre hastigheita undervegs i spelet seinare.
 
-- [ ] Under `Skript`{.blocklightgrey}, trykk på `Data`{.blockdata} og så
-  `Lag ein variabel`. Kall variabelen `hastigheit`. Huk av der det står
-  `For denne figuren`.
+- [ ] Under `Skript`{.blocklightgrey}, trykk på `Data`{.blockdata} og så `Lag
+  ein variabel`. Kall variabelen `hastigheit`. Huk av der det står `For denne
+  figuren`.
 
 - [ ] På scena skal variabelen heite `spøkelse1: hastigheit`. Viss den berre
   heiter `hastigheit`, prøv å slette den og leggje den til på nytt.
@@ -105,7 +104,7 @@ __Klikk på det grøne flagget.__
 # Steg 2: Få spøkelset til å dukke opp og forsvinne {.activity}
 
 *For å gjere spelet meir morosamt vil me få spøkelset til å dukke opp og
- forsvinne.*
+forsvinne.*
 
 ## Sjekkliste {.check}
 
@@ -143,15 +142,14 @@ __Klikk på det grøne flagget.__
 # Steg 3: Tryll bort spøkelset med eit klikk! {.activity}
 
 *For å gjere dette til eit ordentleg spel må me gi spelaren noko å gjere - til
- dømes å klikke bort spøkelset. Når det skjer vil me òg at det skal kome ein
- stilig tryllelyd!*
+dømes å klikke bort spøkelset. Når det skjer vil me òg at det skal kome ein
+stilig tryllelyd!*
 
 ## Sjekkliste {.check}
 
 - [ ] Hent lyden `Elektronisk/fairydust` frå `Lyder`{.blocklightgrey}-fana.
 
-- [ ] Lag skriptet som får __spøkelset til å forsvinne__ når det blir
-  klikka på:
+- [ ] Lag skriptet som får __spøkelset til å forsvinne__ når det blir klikka på:
 
   ```blocks
   når denne figuren vert trykt på
@@ -174,8 +172,8 @@ __Klikk på det grøne flagget.__
 # Steg 4: Legg til tid og poeng {.activity}
 
 *Me har eit spøkelse å trylle bort, så no vil me ha poeng for å gjere det! Me
- vil dessutan ha ein tidsfrist, slik at det er om å gjere å få flest mogleg
- poeng på denne tida. Me løyser begge delar ved å bruke variablar.*
+vil dessutan ha ein tidsfrist, slik at det er om å gjere å få flest mogleg poeng
+på denne tida. Me løyser begge delar ved å bruke variablar.*
 
 ## Sjekkliste {.check}
 
@@ -199,7 +197,7 @@ __Klikk på det grøne flagget.__
 
 - [ ] Bruk ein `gjenta til`{.blockcontrol}-kloss for å vente i `1` sekund, og så
   redusere `Tid`{.blockdata} med `1`. Denne skal køyre fram til tida er ute. Til
-  slutt stoppar du heile spelet med ein  `stopp alle`{.blockcontrol}-kloss.
+  slutt stoppar du heile spelet med ein `stopp alle`{.blockcontrol}-kloss.
 
   ```blocks
   når @greenFlag vert trykt på
@@ -234,7 +232,7 @@ __Klikk på det grøne flagget.__
 ## Ei ekstra utfordring: Fleire spøkelse! {.challenge}
 
 *Viss eitt spøkelse er bra, så må vel fleire vere endå betre! La oss ha tre
- spøkelse som flyr rundt!*
+spøkelse som flyr rundt!*
 
 - [ ] __Lag fleire spøkelse__ ved å høgreklikke på det du allereie har og
   kopiere det.
@@ -265,8 +263,8 @@ Gratulerer! Då har du gjort alt riktig!
 
 ## Ting å prøve {.challenge}
 
-- [ ] Kor mange spøkelse synest du spelet fungerer best med? __Legg til
-  fleire__ og prøv!
+- [ ] Kor mange spøkelse synest du spelet fungerer best med? __Legg til fleire__
+  og prøv!
 
 - [ ] Klarar du å få spøkelsa til __å sjå ulike ut__? Klikk på
   `Drakter`{.blocklightgrey} og prøv deg frem. Du kan òg prøv med nokon av

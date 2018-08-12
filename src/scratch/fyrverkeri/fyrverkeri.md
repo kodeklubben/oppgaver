@@ -1,8 +1,7 @@
 ---
 title: Fyrverkeri
-level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Kaisa Korsak'
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Kaisa Korsak
 language: nb
 ---
 
@@ -24,14 +23,13 @@ Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
   [fyrverkeri_lydogbilder.zip](fyrverkeri_lydogbilder.zip) og legg den på
   skrivebordet på datamaskinen din eller en annen plass du finner igjen.
 
-- [ ] Pakk ut zip-filen ved å høyreklikke på den og velge `Extract All`,
-  `Pakk ut filer` eller noe lignende.
+- [ ] Pakk ut zip-filen ved å høyreklikke på den og velge `Extract All`, `Pakk
+  ut filer` eller noe lignende.
 
 
 # Steg 1: Lag en rakett som flyr mot musepekeren {.activity}
 
-*Vi starter med å importere forskjellige bilder vi skal bruke i
- spillet*
+*Vi starter med å importere forskjellige bilder vi skal bruke i spillet*
 
 ## Sjekkliste {.check}
 
@@ -134,11 +132,11 @@ __Klikk på det grønne flagget.__
 
 ## Utfordringer {.challenge}
 
-- [ ] Prøv å få noen raketter til å bevege seg litt saktere eller fortere
-  enn andre.
+- [ ] Prøv å få noen raketter til å bevege seg litt saktere eller fortere enn
+  andre.
 
-- [ ] Prøv å endre måten raketten flyr mot musepekeren på: få den for
-  eksempel til å bue seg litt.
+- [ ] Prøv å endre måten raketten flyr mot musepekeren på: få den for eksempel
+  til å bue seg litt.
 
 
 # Steg 2: Få raketten til å eksplodere {.activity}
@@ -219,14 +217,14 @@ __Klikk på det grønne flagget.__
 
 - [ ] Blir raketten erstattet av et eksplosjonsbilde når den eksploderer?
 
-- [ ] Hva skjer hvis du holder musknappen nede mens du beveger på musa?
-  (Ikke bekymre deg, vi skal fikse det senere.)
+- [ ] Hva skjer hvis du holder musknappen nede mens du beveger på musa? (Ikke
+  bekymre deg, vi skal fikse det senere.)
 
 
 # Steg 3: Gjør hver eksplosjon unik {.activity}
 
 *Nå skal vi lage litt variasjon slik at ikke alle eksplosjonene ser helt like
- ut.*
+ut.*
 
 ## Sjekkliste {.check}
 
@@ -293,8 +291,8 @@ __Klikk på det grønne flagget.__
 
 ## Utfordringer {.challenge}
 
-Prøv å gjøre hver eksplosjon enda mer unik: endre størrelsen og
-veksthastigheten for eksplosjonen.
+Prøv å gjøre hver eksplosjon enda mer unik: endre størrelsen og veksthastigheten
+for eksplosjonen.
 
 
 # Steg 4: Fiks "send melding"-feilen {.activity}
@@ -311,10 +309,9 @@ ble fanget inne i datamaskinene og ødela programmer.
 
 ## Sjekkliste {.check}
 
-- [ ] For å fikse dette kan du erstatte klossen `send melding`{.blockevents}
-  med `send melding og vent`{.blockevents}. Da vil ikke løkken gjentas
-  før den forrige eksplosjonen er ferdig. Gå tilbake til `rocket` og
-  endre skriptet:
+- [ ] For å fikse dette kan du erstatte klossen `send melding`{.blockevents} med
+  `send melding og vent`{.blockevents}. Da vil ikke løkken gjentas før den
+  forrige eksplosjonen er ferdig. Gå tilbake til `rocket` og endre skriptet:
 
   ```blocks
   når grønt flagg klikkes

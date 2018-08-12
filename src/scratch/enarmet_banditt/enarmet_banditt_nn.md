@@ -1,8 +1,7 @@
 ---
-title: 'Einarma banditt'
-level: 2
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: Einarma banditt
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -14,6 +13,7 @@ figurane stoppar ein etter ein, og målet er at alle skal vere like.
 
 ![Bilete av to dinosaurar og ein banan](enarmet_banditt.png)
 
+
 # Steg 1: Lag ein figur som byttar drakt {.activity}
 
 *Fyrst må me importere dei bileta me treng i spelet.*
@@ -23,9 +23,8 @@ figurane stoppar ein etter ein, og målet er at alle skal vere like.
 - [ ] Start eit nytt Scratch-prosjekt. __Slett katten__ ved å høgreklikke og
   velje `slett`.
 
-- [ ] Importer __ein ny figur__,
-  ![Vel figur frå biblioteket](../bilder/hent-fra-bibliotek.png). Vel den
-  figuren du vil.
+- [ ] Importer __ein ny figur__, ![Vel figur frå
+  biblioteket](../bilder/hent-fra-bibliotek.png). Vel den figuren du vil.
 
 - [ ] Gå til `Drakter`{.blocklightgrey}, og importer to ekstra drakter frå
   biblioteket, slik at figuren har tre drakter til saman. Det er bra om draktene
@@ -65,6 +64,7 @@ __Klikk på det grøne flagget.__
 Tilpass tida i `vent`{.blockcontrol}-klossen. Kva tal gjer spelet for vanskeleg
 eller for lett?
 
+
 # Steg 3: Frys rulletten! {.activity}
 
 *Me vil at draktene skal stoppe å rullere når me klikkar på figuren.*
@@ -101,8 +101,8 @@ vere ei praktisk løysing.
   ```
 
 - [ ] Til slutt må me få figuren til å slutte å forandre drakt når variabelen
-  `stoppa`{.blockdata} blir `1`. Legg til ei `viss`{.blockcontrol}-løkke og
-  bruk ein `_ = _`{.blockoperators}-operator-kloss for å sjekke om
+  `stoppa`{.blockdata} blir `1`. Legg til ei `viss`{.blockcontrol}-løkke og bruk
+  ein `_ = _`{.blockoperators}-operator-kloss for å sjekke om
   `stoppa`{.blockdata} framleis er `0`.
 
   ```blocks
@@ -146,7 +146,7 @@ __Start skriptet ein gong til ved å klikke på det grøne flagget att.__
 - [ ] Flytt figurane slik at dei er på lijnje. Du kan gjere dei mindre med
   krympeknappen ![Krympeknappen](../bilder/krymp.png) viss du treng det.
 
-## Test prosjektet{.flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grøne flagget.__
 
@@ -167,8 +167,8 @@ blir meir morosamt (og vanskelegare) viss dei endrar drakt meir tilfeldig.
   har eit nummer. Du kan spesifisere kva drakt figuren skal ha ved å bruke
   namnet eller nummeret til drakta.
 
-- [ ] For å få figuren til å starte med ei tilfeldig drakt legg me til ein
-  `byt drakt til`{.blocklooks}-kloss med `tilfeldig tal frå 1 til
+- [ ] For å få figuren til å starte med ei tilfeldig drakt legg me til ein `byt
+  drakt til`{.blocklooks}-kloss med `tilfeldig tal frå 1 til
   3`{.blockoperators}. Den vel eit tilfeldig draktnummer.
 
 - [ ] Me kan bruke den same klossen i `for alltid`{.blockcontrol}-løkka slik at
@@ -188,7 +188,7 @@ blir meir morosamt (og vanskelegare) viss dei endrar drakt meir tilfeldig.
 
 - [ ] Gjer det same for kvar av dei andre figurane.
 
-## Test prosjektet{.flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grøne flagget.__
 
@@ -198,7 +198,7 @@ __Klikk på det grøne flagget.__
 
 ## Ting å prøve {.challenge}
 
- __Gjer spelet vanskelegare!__
+__Gjer spelet vanskelegare!__
 
 Prøv å endre vanskegraden på eitt eller anna vis. Det er enkelt å få draktene
 til å rullere raskare, så prøv om du kan vere meir kreativ. Nokre moglegheiter
@@ -266,9 +266,9 @@ stoppar figurane i.
 - [ ] For å sjekke om __alle tre__ figurane sine `stoppa`{.blockdata}-variablar
   er `1` kan me bruke `og`{.blockoperators}-operatoren. Dette er ein kloss som
   kan vere litt trøblete å lage, så gjer eitt og eitt steg. Legg merke til at me
-  set saman to `og`{.blockoperators}-klossar, tre
-  `_ =_`{.blockoperators}-operatorar og tre
-  `stoppa av Figur`{.blocksensing}-klossar.
+  set saman to `og`{.blockoperators}-klossar, tre `_
+  =_`{.blockoperators}-operatorar og tre `stoppa av
+  Figur`{.blocksensing}-klossar.
 
   ```blocks
   når @greenFlag vert trykt på
@@ -288,8 +288,8 @@ __Klikk på det grøne flagget.__
 # Steg 7. Fortel spelaren om ho vann eller tapte. {.activity}
 
 *Målet med spelet er å klikke på figurane slik at dei stoppar når dei viser same
-drakt. Det er fint om du kan vise ei melding som viser spelaren om ho vann
-eller tapte.*
+drakt. Det er fint om du kan vise ei melding som viser spelaren om ho vann eller
+tapte.*
 
 ## Sjekkliste {.check}
 
@@ -322,7 +322,7 @@ No treng me kode for å velje kva bakgrunn me skal vise når spelet er slutt.
   slutt
   ```
 
-## Test prosjektet{.flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grøne flagget.__
 
@@ -345,8 +345,8 @@ spelet går raskare og blir vanskelegare), og viss spelaren tapar runden kan
 forseinkinga auke for å gjere spelet lettare.
 
 Du må vurdere om du kan lage ein annan måte å starte spelet på enn med `når
-@greenFlag blir trykt på`{.blockgrey}. Så kan du lagre verdiane i variablar som blir
-hugsa mellom rundene.
+@greenFlag blir trykt på`{.blockgrey}. Så kan du lagre verdiane i variablar som
+blir hugsa mellom rundene.
 
 ## Lagre prosjektet {.save}
 

@@ -1,15 +1,14 @@
 ---
 title: Straffespark
-level: 1
-author: 'Erik Kalstad og Geir Arne Hjelle'
+author: Erik Kalstad og Geir Arne Hjelle
 language: nb
 ---
 
 
 # Introduksjon {.intro}
 
-Vi skal lage et enkelt fotballspill, hvor du skal prøve å score på så
-mange straffespark som mulig.
+Vi skal lage et enkelt fotballspill, hvor du skal prøve å score på så mange
+straffespark som mulig.
 
 ![Illustrasjon av et ferdig straffespark spill](straffespark.png)
 
@@ -21,21 +20,20 @@ mange straffespark som mulig.
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt prosjekt, for eksempel ved å klikke `Programmering` i
-  menyen. Hvis du allerede har startet et prosjekt kan du begynne på
-  et nytt ved å velge `Fil` og deretter `Ny`.
+  menyen. Hvis du allerede har startet et prosjekt kan du begynne på et nytt ved
+  å velge `Fil` og deretter `Ny`.
 
-- [ ] Klikk på `i`{.blockmotion} i hjørnet av kattefiguren, og gi katten
-  navnet `Leo`.
+- [ ] Klikk på `i`{.blockmotion} i hjørnet av kattefiguren, og gi katten navnet
+  `Leo`.
 
-- [ ] Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nederst
-  til venstre på skjermen for å hente inn en ny bakgrunn. Velg
-  bakgrunnen `Utendørs/goal1` eller `Utendørs/goal2`.
+- [ ] Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nederst til
+  venstre på skjermen for å hente inn en ny bakgrunn. Velg bakgrunnen
+  `Utendørs/goal1` eller `Utendørs/goal2`.
 
-- [ ] Vi skal nå skrive et lite program som flytter katten `Leo` når vi
-  klikker på ham. Merk `Leo` i figurvinduet nederst på skjermen, og
-  klikk `Skript`-fanen slik at du ser de forskjellige kommandoklossene
-  igjen. Pusle deretter sammen de følgende klossene i skriptvinduet
-  til høyre:
+- [ ] Vi skal nå skrive et lite program som flytter katten `Leo` når vi klikker
+  på ham. Merk `Leo` i figurvinduet nederst på skjermen, og klikk `Skript`-fanen
+  slik at du ser de forskjellige kommandoklossene igjen. Pusle deretter sammen
+  de følgende klossene i skriptvinduet til høyre:
 
   ```blocks
   når denne figuren klikkes
@@ -48,17 +46,17 @@ __Klikk på det grønne flagget.__
 
 - [ ] Flytter `Leo` på seg når du klikker på ham?
 
-- [ ] Hva skjer om du klikker mange ganger på `Leo` slik at han når bort
-  til kanten av scenen?
+- [ ] Hva skjer om du klikker mange ganger på `Leo` slik at han når bort til
+  kanten av scenen?
 
 ## Sjekkliste {.check}
 
-- [ ] Du kan flytte `Leo` tilbake på skjermen ved å trykke på ham og dra
-  ham dit du vil.
+- [ ] Du kan flytte `Leo` tilbake på skjermen ved å trykke på ham og dra ham dit
+  du vil.
 
-- [ ] Vi vil likevel programmere en enklere måte å få `Leo` tilbake på
-  banen på. Lag et **nytt** skript, **ved siden av** det du allerede
-  har laget, som ser slik ut:
+- [ ] Vi vil likevel programmere en enklere måte å få `Leo` tilbake på banen på.
+  Lag et **nytt** skript, **ved siden av** det du allerede har laget, som ser
+  slik ut:
 
   ```blocks
   når grønt flagg klikkes
@@ -70,12 +68,11 @@ __Klikk på det grønne flagget.__
 
 ## Lagre prosjektet {.save}
 
-Du har nå skrevet et lite program! Scratch lagrer alt du gjør med
-jevne mellomrom. Det er likevel en god vane å lagre selv også
-innimellom.
+Du har nå skrevet et lite program! Scratch lagrer alt du gjør med jevne
+mellomrom. Det er likevel en god vane å lagre selv også innimellom.
 
-- [ ] Over scenen er det et tekstfelt hvor du kan gi et navn til spillet
-  ditt. Kall det for eksempel `Straffespark`.
+- [ ] Over scenen er det et tekstfelt hvor du kan gi et navn til spillet ditt.
+  Kall det for eksempel `Straffespark`.
 
 - [ ] I menyen `Fil` kan du velge `Lagre nå` for å lagre prosjektet.
 
@@ -87,20 +84,20 @@ innimellom.
 ## Sjekkliste {.check}
 
 - [ ] Vi skal nå legge til en ball-figur i spillet vårt. Klikk på
+
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
+
   og velg fotballen `Ting/Soccer Ball`.
 
 - [ ] Gi fotballen navnet `Ball`.
 
-- [ ] Lag ballen mindre ved først å trykke på
-  ![krymp](../bilder/krymp.png) øverst mot midten av vinduet.
-  Deretter kan du trykke på ballen seks ganger.
+- [ ] Lag ballen mindre ved først å trykke på ![krymp](../bilder/krymp.png)
+  øverst mot midten av vinduet. Deretter kan du trykke på ballen seks ganger.
 
-- [ ] Vi skal nå skrive et litt lengre program. I dette programmet legger
-  vi først fotballen på plass foran katten. Etter at ballen berører
-  `Leo` (det vil si `Leo` sparker ballen) begynner ballen å bevege
-  seg. Se om du kjenner igjen hvor i programmet de forskjellige
-  tingene skjer:
+- [ ] Vi skal nå skrive et litt lengre program. I dette programmet legger vi
+  først fotballen på plass foran katten. Etter at ballen berører `Leo` (det vil
+  si `Leo` sparker ballen) begynner ballen å bevege seg. Se om du kjenner igjen
+  hvor i programmet de forskjellige tingene skjer:
 
   ```blocks
   når grønt flagg klikkes
@@ -117,17 +114,17 @@ __Klikk på det grønne flagget.__
 
 - [ ] Sparker `Leo` ballen når du klikker på ham?
 
-- [ ] Kan `Leo` sparke ballen en gang til dersom du trykker det grønne
-  flagget igjen?
+- [ ] Kan `Leo` sparke ballen en gang til dersom du trykker det grønne flagget
+  igjen?
 
-- [ ] Hvis `Leo` sparker ballen før du klikker på ham (med en gang du
-  trykker det grønne flagget), så må du endre litt på tallene i `gå til
-  x: () y: ()`{.b}-klossen slik at ballen ligger i ro foran `Leo`.
+- [ ] Hvis `Leo` sparker ballen før du klikker på ham (med en gang du trykker
+  det grønne flagget), så må du endre litt på tallene i `gå til x: () y:
+  ()`{.b}-klossen slik at ballen ligger i ro foran `Leo`.
 
-- [ ] Noen ganger flytter ballen seg tilbake *før* `Leo`
-  er tilbake på plassen sin, og dermed berører ballen `Leo` igjen og
-  begynner å bevege seg. Da hjelper det å legge til en
-  `vent (1) sekunder`{.b}-kloss før `vent til <berører [Leo v]?>`{.b}-klossen.
+- [ ] Noen ganger flytter ballen seg tilbake *før* `Leo` er tilbake på plassen
+  sin, og dermed berører ballen `Leo` igjen og begynner å bevege seg. Da hjelper
+  det å legge til en `vent (1) sekunder`{.b}-kloss før `vent til <berører [Leo
+  v]?>`{.b}-klossen.
 
 
 # Steg 3: Vi trenger en keeper! {.activity}
@@ -136,13 +133,12 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til en figur til som kan være keeper. Vi har brukt
-  `Dyr/Octopus`, men du kan også bruke en annen figur om du vil.
+- [ ] Legg til en figur til som kan være keeper. Vi har brukt `Dyr/Octopus`, men
+  du kan også bruke en annen figur om du vil.
 
-- [ ] Flytt figuren inn i målet. Om det ser ut som figuren står med ryggen
-  til ballen kan du snu den på følgende måte: Klikk på
-  `Drakter`-fanen, og deretter på snu-knappen som er merket med rødt i
-  figuren under.
+- [ ] Flytt figuren inn i målet. Om det ser ut som figuren står med ryggen til
+  ballen kan du snu den på følgende måte: Klikk på `Drakter`-fanen, og deretter
+  på snu-knappen som er merket med rødt i figuren under.
 
   ![Bilde av hvordan snu figuren i Scratch](snu_figur.png)
 
@@ -160,8 +156,8 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
-  Det er et par nye klosser i dette skriptet. Les programmet nøye. Hva
-  tror du de nye klossene gjør?
+  Det er et par nye klosser i dette skriptet. Les programmet nøye. Hva tror du
+  de nye klossene gjør?
 
 ## Test prosjektet {.flag}
 
@@ -173,20 +169,19 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] En ting som ser litt rart ut er at `Keeper` ikke ser på ballen. Vi
-  fikser dette ved å legge til en `begrens rotasjon [vend
-  sideveis v]`{.b}-kloss helt i begynnelsen av skriptet vårt.
+- [ ] En ting som ser litt rart ut er at `Keeper` ikke ser på ballen. Vi fikser
+  dette ved å legge til en `begrens rotasjon [vend sideveis v]`{.b}-kloss helt i
+  begynnelsen av skriptet vårt.
 
-- [ ] Du synes kanskje at keeperen er litt stor? Vi har tidligere sett
-  hvordan vi kan bruke ![krymp](../bilder/krymp.png) for å gjøre
-  figurer mindre. En annen måte å endre størrelsen på er ved å bruke
-  klosser fra `Utseendet`{.blocklooks}-kategorien.
+- [ ] Du synes kanskje at keeperen er litt stor? Vi har tidligere sett hvordan
+  vi kan bruke ![krymp](../bilder/krymp.png) for å gjøre figurer mindre. En
+  annen måte å endre størrelsen på er ved å bruke klosser fra
+  `Utseendet`{.blocklooks}-kategorien.
 
   Legg klossen `sett størrelse til (100)%`{.b} inn i `for
-  alltid`{.blockcontrol}-løkka. Du kan nå eksperimentere med å endre
-  `100%` til et annet tall til du finner en passende størrelse på
-  keeperen. Om du har brukt blekkspruten som `Keeper` passer `50%`
-  ganske bra. Prøv deg frem!
+  alltid`{.blockcontrol}-løkka. Du kan nå eksperimentere med å endre `100%` til
+  et annet tall til du finner en passende størrelse på keeperen. Om du har brukt
+  blekkspruten som `Keeper` passer `50%` ganske bra. Prøv deg frem!
 
 ## Test prosjektet {.flag}
 
@@ -201,14 +196,13 @@ __Klikk på det grønne flagget.__
 
 *Nå er det på tide at keeperen redder ballen!*
 
-Vi skal nå lage noen tester som sier i fra når keeperen redder ballen,
-eller når ballen går i mål.
+Vi skal nå lage noen tester som sier i fra når keeperen redder ballen, eller når
+ballen går i mål.
 
 ## Sjekkliste {.check}
 
-- [ ] Vi begynner med å finne ut når keeperen redder ballen. Klikk på
-  `Ball`. Legg til en `hvis ellers`{.blockcontrol}-kloss i skriptet
-  slik:
+- [ ] Vi begynner med å finne ut når keeperen redder ballen. Klikk på `Ball`.
+  Legg til en `hvis ellers`{.blockcontrol}-kloss i skriptet slik:
 
   ```blocks
   når grønt flagg klikkes
@@ -329,22 +323,20 @@ gjort, skal vi bruke *variabler*.
 
 - [ ] Klikk på scenen til venstre for figurlisten.
 
-- [ ] Klikk på `Data`{.blockdata}-kategorien og lag en ny variabel. Gi
-  den nye variabelen navnet `Mål`. Legg merke til at det
-  dukket opp en ny boks på scenen som er merket `Mål`, og som viser
-  tallet `0`{.blockdata}.
+- [ ] Klikk på `Data`{.blockdata}-kategorien og lag en ny variabel. Gi den nye
+  variabelen navnet `Mål`. Legg merke til at det dukket opp en ny boks på scenen
+  som er merket `Mål`, og som viser tallet `0`{.blockdata}.
 
-- [ ] Vi vil nå telle målene. Lag et nytt skript som endrer `(Mål)`{.b}
-  hver gang meldingen `Mål` sendes, ved å lage dette skriptet på
-  Scenen:
+- [ ] Vi vil nå telle målene. Lag et nytt skript som endrer `(Mål)`{.b} hver
+  gang meldingen `Mål` sendes, ved å lage dette skriptet på Scenen:
 
   ```blocks
   når jeg mottar [Mål v]
   endre [Mål v] med (1)
   ```
 
-- [ ] Vi kan gjøre tilsvarende for å telle antall redninger. Lag en ny
-  variabel som heter `(Redninger)`{.b}.
+- [ ] Vi kan gjøre tilsvarende for å telle antall redninger. Lag en ny variabel
+  som heter `(Redninger)`{.b}.
 
 - [ ] Lag deretter et nytt skript for å telle redningene:
 
@@ -363,22 +355,21 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-Avslutningsvis vil vi legge inn en test på om `Leo` klarer å score 10
-mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
+Avslutningsvis vil vi legge inn en test på om `Leo` klarer å score 10 mål eller
+`Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
 
-- [ ] Først vil vi lage to nye bakgrunner, en vi kan bruke om spilleren
-  vinner (katten scorer 10 ganger) og en vi bruker om spilleren taper
-  (keeperen redder 10 ganger). Klikk på `Bakgrunner`-fanen. Høyreklikk
-  på den lille versjonen av bakgrunnen din midt på skjermen og velg
-  `Lag en kopi`.
+- [ ] Først vil vi lage to nye bakgrunner, en vi kan bruke om spilleren vinner
+  (katten scorer 10 ganger) og en vi bruker om spilleren taper (keeperen redder
+  10 ganger). Klikk på `Bakgrunner`-fanen. Høyreklikk på den lille versjonen av
+  bakgrunnen din midt på skjermen og velg `Lag en kopi`.
 
 - [ ] Velg en passende farge, og klikk deretter på tekstverktøyet. Velg
-  Skrifttype: `Marker` nederst på skjermen. Skriv en tekst som ligner
-  på `Gratulerer, du vant!` litt høyt på kopien av bakgrunnen. Gi
-  denne bakgrunnen navnet `Seier`.
+  Skrifttype: `Marker` nederst på skjermen. Skriv en tekst som ligner på
+  `Gratulerer, du vant!` litt høyt på kopien av bakgrunnen. Gi denne bakgrunnen
+  navnet `Seier`.
 
-- [ ] Lag deretter en ny kopi av den originale bakgrunnen. Kall denne
-  bakgrunnen `Tap` og skriv også her en passende tekst.
+- [ ] Lag deretter en ny kopi av den originale bakgrunnen. Kall denne bakgrunnen
+  `Tap` og skriv også her en passende tekst.
 
 - [ ] Lag et skript på bakgrunnen som setter variabelene dine til 0 ved
   begynnelsen av spillet.
@@ -391,9 +382,9 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
   send melding [Nytt spark v]
   ```
 
-- [ ] Vi vil nå spille uten at vi må klikke på det grønne flagget for hver
-  gang vi skal skyte et straffespark. Til dette bruker vi meldingen
-  `Nytt spark`. Vi må nå bytte ut
+- [ ] Vi vil nå spille uten at vi må klikke på det grønne flagget for hver gang
+  vi skal skyte et straffespark. Til dette bruker vi meldingen `Nytt spark`. Vi
+  må nå bytte ut
 
   ```blocks
   når grønt flagg klikkes
@@ -405,17 +396,17 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
   når jeg mottar [Nytt spark v]
   ```
 
-  på både `Leo`, `Ball` og `Keeper`. For eksempel, på `Leo` blir
-  skriptet seende slik ut:
+  på både `Leo`, `Ball` og `Keeper`. For eksempel, på `Leo` blir skriptet seende
+  slik ut:
 
   ```blocks
   når jeg mottar [Nytt spark v]
   gå til x: (-180) y: (-30)
   ```
 
-- [ ] Til slutt legger vi på testen om vi har scoret 10 mål, eller om
-  keeperen har reddet 10 ganger. Endre `Mål`-skriptet på scenen slik
-  at det blir seende slik ut:
+- [ ] Til slutt legger vi på testen om vi har scoret 10 mål, eller om keeperen
+  har reddet 10 ganger. Endre `Mål`-skriptet på scenen slik at det blir seende
+  slik ut:
 
   ```blocks
   når jeg mottar [Mål v]
@@ -447,8 +438,8 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
 
 __Klikk på det grønne flagget.__
 
-- [ ] Får du skyte flere straffespark uten å måtte trykke på det grønne
-  flagget mellom hver gang?
+- [ ] Får du skyte flere straffespark uten å måtte trykke på det grønne flagget
+  mellom hver gang?
 
 - [ ] Bytter spillet til riktig bakgrunn om du scorer 10 mål?
 

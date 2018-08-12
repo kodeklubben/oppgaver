@@ -1,8 +1,7 @@
 ---
 title: Pong
-level: 4
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -20,8 +19,8 @@ spelarane ikkje klarar å returnere ballen får den andre spelaren poeng.
 # Oversikt over prosjektet {.activity}
 
 *Mesteparten av kodinga av Pong skal du gjere på eiga hand. Me gir nokre tips
- undervegs. Spesielt skal me sjå på korleis me kontrollerer ein ballfigur medan
- den sprett rundt på skjermen. I reisten av oppgåva finn du følgjande:*
+undervegs. Spesielt skal me sjå på korleis me kontrollerer ein ballfigur medan
+den sprett rundt på skjermen. I reisten av oppgåva finn du følgjande:*
 
 ## Plan {.check}
 
@@ -37,8 +36,8 @@ spelarane ikkje klarar å returnere ballen får den andre spelaren poeng.
 # Steg 1: Ein sprettande ball {.activity}
 
 *Når ein lagar nye program og spel er det alltid lurt å starte med ein enkel
- versjon som gjer litt av det det ferdige programmet skal gjere. Då kan du teste
- at programmet virkar som det skal nesten med ein gong.*
+versjon som gjer litt av det det ferdige programmet skal gjere. Då kan du teste
+at programmet virkar som det skal nesten med ein gong.*
 
 I den enkle versjonen vår skal me berre få ein ball til å sprette over skjermen.
 Ingen spelarar, ingen poeng, ingenting anna enn ein sprettande ball!
@@ -94,11 +93,10 @@ klikka på, for at det skal vere enklare å starte spelet.
 # Steg 2: Litt meir kontroll over ballen {.activity}
 
 *Klossen `viss ved kant, sprett`{.blockmotion} er veldig enkel å bruke, men
- diverre har me ikkje så mykje kontroll med den. Til dømes kan me ikkje bruke
- den viss ballen skal sprette andre stader enn ved kanten (til dømes i ein
- racket). Den er vanskeleg å bruke viss me vil at andre ting skal skje når
- ballen sprett, kanskje me vil spele ein lyd, endre hastigheita eller endre på
- retninga.*
+diverre har me ikkje så mykje kontroll med den. Til dømes kan me ikkje bruke den
+viss ballen skal sprette andre stader enn ved kanten (til dømes i ein racket).
+Den er vanskeleg å bruke viss me vil at andre ting skal skje når ballen sprett,
+kanskje me vil spele ein lyd, endre hastigheita eller endre på retninga.*
 
 Me vil bruke `sansing`{.blocksensing}-klossar for å kunne kontrollere korleis
 ballen sprett. Då kan me oppdage når ballen er borti andre figurar (til dømes
@@ -152,8 +150,8 @@ racketane til spelarane) eller når den er borti spesielle farger.
 # Steg 3: Racketar til spelarane {.activity}
 
 *No som ballen sprett fint kan me lage racketane som spelarane skal styre. Desse
- vil vere veldig like kvarandre, slik at me fyrst kan lage den eine racketen og
- så kopiere den.*
+vil vere veldig like kvarandre, slik at me fyrst kan lage den eine racketen og
+så kopiere den.*
 
 ## Sjekkliste {.check}
 
@@ -207,7 +205,7 @@ racketane til spelarane) eller når den er borti spesielle farger.
 # Steg 4: Vidareutvikling av spelet {.activity}
 
 *No har me laga ein enkel versjon av eitt av dei fyrste dataspela i historia.
- Men det er mange moglegheiter for vidareutvikling av spelet.*
+Men det er mange moglegheiter for vidareutvikling av spelet.*
 
 Du står heilt fritt til å bestemme korleis du vil jobbe vidare med spelet ditt.
 Her er nokre idear som kan gjere spelet endå meir morosamt å spele:

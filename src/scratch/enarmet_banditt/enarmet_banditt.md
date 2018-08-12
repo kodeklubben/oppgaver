@@ -1,16 +1,15 @@
 ---
-title: 'Enarmet banditt'
-level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Gudbrand Tandberg og Anne-Marit Gravem'
+title: Enarmet banditt
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Gudbrand Tandberg og Anne-Marit Gravem
 language: nb
 ---
 
 
 # Introduksjon {.intro}
 
-Dette er et spill med tre figurer som endrer utseende. Din oppgave er
-å stoppe figurene én etter én, slik at alle tre blir like.
+Dette er et spill med tre figurer som endrer utseende. Din oppgave er å stoppe
+figurene én etter én, slik at alle tre blir like.
 
 ![Bilde av to dinosaurer og en banan](enarmet_banditt.png)
 
@@ -24,9 +23,8 @@ Dette er et spill med tre figurer som endrer utseende. Din oppgave er
 - [ ] Start et nytt Scratch-prosjekt. __Slett katten__ ved å høyreklikke og
   velge `slett`.
 
-- [ ] Importer __en ny figur__,
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
-  den figuren du vil.
+- [ ] Importer __en ny figur__, ![Velg figur fra
+  biblioteket](../bilder/hent-fra-bibliotek.png). Velg den figuren du vil.
 
 - [ ] Gå til `Drakter`{.blocklightgrey}, og importer to ekstra drakter fra
   biblioteket, slik at figuren har tre drakter til sammen. Det er bra om
@@ -70,7 +68,7 @@ vanskelig eller for lett?
 # Steg 3: Frys ruletten! {.activity}
 
 *Nå skal vi se hvordan vi kan få draktene til å stoppe når vi klikker på
- figuren.*
+figuren.*
 
 ## Sjekkliste {.check}
 
@@ -78,12 +76,12 @@ Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan får vi de ti
 stoppe når vi klikker på de? En måte å gjøre dette på er ved å bruke en variabel
 som setter statusen til figuren. Dette vil vi se at er praktisk også senere.
 
-- [ ] Klikk på `Data`{.blockdata} og `Lag en variabel`.  Kall variabelen
-  `stoppet`{.blockdata} og huk av for `For denne figuren`. Fjern
-  avhukingen foran variabelen slik at den ikke vises på scenen.
+- [ ] Klikk på `Data`{.blockdata} og `Lag en variabel`. Kall variabelen
+  `stoppet`{.blockdata} og huk av for `For denne figuren`. Fjern avhukingen
+  foran variabelen slik at den ikke vises på scenen.
 
-- [ ] På starten av spillet vil ikke figuren ha blitt klikket så da setter
-  vi variabelen til `0`.
+- [ ] På starten av spillet vil ikke figuren ha blitt klikket så da setter vi
+  variabelen til `0`.
 
   ```blocks
   når grønt flagg klikkes
@@ -102,11 +100,10 @@ som setter statusen til figuren. Dette vil vi se at er praktisk også senere.
   sett [stoppet v] til [1]
   ```
 
-- [ ] Til slutt må vi få figuren til å slutte å forandre drakt når
-  variabelen `stoppet`{.blockdata} blir `1`. Legg til en
-  `hvis`{.blockcontrol}-løkke og bruk en `_ = _`{.blockoperators}
-  operator-kloss for å sjekke om `stoppet`{.blockdata} fremdeles er
-  `0`.
+- [ ] Til slutt må vi få figuren til å slutte å forandre drakt når variabelen
+  `stoppet`{.blockdata} blir `1`. Legg til en `hvis`{.blockcontrol}-løkke og
+  bruk en `_ = _`{.blockoperators} operator-kloss for å sjekke om
+  `stoppet`{.blockdata} fremdeles er `0`.
 
   ```blocks
   når grønt flagg klikkes
@@ -146,10 +143,10 @@ __Start skriptet en gang til ved å klikke på det grønne flagget igjen.__
 - [ ] Lag en kopi til slik at du har tre figurer på skjermen. Vi har kalt våre
   figurer `Figur1`, `Figur2` og `Figur3`.
 
-- [ ] Flytt figurene slik at de er en linje. Gjør dem mindre med
-  krympeknappen, ![krymp](../bilder/krymp.png), hvis det trengs.
+- [ ] Flytt figurene slik at de er en linje. Gjør dem mindre med krympeknappen,
+  ![krymp](../bilder/krymp.png), hvis det trengs.
 
-## Test prosjektet{.flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
@@ -159,7 +156,7 @@ __Klikk på det grønne flagget.__
 # Steg 5: Start hver figur med en tilfeldig drakt {.activity}
 
 *La oss få figurene til å skifte til en tilfeldig drakt når det grønne flagget
- klikkes.*
+klikkes.*
 
 Når du starter spillet vil du se at alle figurene skifter drakt samtidig.
 Spillet vil bli morsommere (og vanskeligere) dersom de endres litt mer
@@ -192,7 +189,7 @@ uforutsigbart.
 
 - [ ] Gjør det samme for hver av de andre figurene.
 
-## Test prosjektet{.flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
@@ -200,9 +197,9 @@ __Klikk på det grønne flagget.__
 
 - [ ] Hvordan må vi forandre skriptet dersom vi legger til en annen drakt?
 
-## Ting å prøve{.challenge}
+## Ting å prøve {.challenge}
 
- __Gjør spillet vanskeligere!__
+__Gjør spillet vanskeligere!__
 
 Se om du klarer å endre vanskelighetsgraden på et eller annet vis. Å få draktene
 til å rullere raskere er enkelt. Prøv å gjøre noe litt mer oppfinnsomt. Noen
@@ -216,9 +213,9 @@ muligheter du kan tenke på er:
 
 __Lek og kom opp meg egne idéer!__
 
-Hver gang du endrer noe, tenk på om det vil gjøre spillet lettere
-eller vanskeligere. Er spillet for lett eller for vanskelig? Hvordan
-kan du justere det slik at det blir akkurat passe?
+Hver gang du endrer noe, tenk på om det vil gjøre spillet lettere eller
+vanskeligere. Er spillet for lett eller for vanskelig? Hvordan kan du justere
+det slik at det blir akkurat passe?
 
 
 # Steg 6: Vis en melding når spillet er over {.activity}
@@ -253,7 +250,7 @@ La oss først hente en ny bakgrunn som vi viser når spillet er over.
   bytt bakgrunn til [Slutt v]
   ```
 
-## Test prosjektet{.flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
@@ -262,8 +259,8 @@ __Klikk på det grønne flagget.__
 - [ ] Hva skjer dersom du stopper `Figur3` før du har klikket begge de andre
   figurene?
 
-La oss forandre skriptet slik at det vil funke uansett hvilken
-rekkefølge figurene stoppes i.
+La oss forandre skriptet slik at det vil funke uansett hvilken rekkefølge
+figurene stoppes i.
 
 ## Sjekkliste {.check}
 
@@ -281,7 +278,7 @@ rekkefølge figurene stoppes i.
   bytt bakgrunn til [Slutt v]
   ```
 
-## Test prosjektet{.flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
@@ -292,8 +289,8 @@ __Klikk på det grønne flagget.__
 # Steg 7. Fortell spilleren om de vant eller tapte. {.activity}
 
 *Målet med spillet er å klikke på figurene slik at de stopper når de viser samme
- drakten. Det ville være praktisk å vise en melding som forteller deg om du vant
- eller tapte.*
+drakten. Det ville være praktisk å vise en melding som forteller deg om du vant
+eller tapte.*
 
 ## Sjekkliste {.check}
 
@@ -307,8 +304,8 @@ Vi har tidligere skrevet kode som sjekker om spillet er over, så alt vi trenger
 
 - [ ] I `Taper`-bakgrunnen kan du skrive teksten `Du tapte!`.
 
-Nå trenger vi kode for å velge hvilken bakgrunn vi skal vise når
-spillet er over.
+Nå trenger vi kode for å velge hvilken bakgrunn vi skal vise når spillet er
+over.
 
 - [ ] Vi kan bruke en `hvis ellers`{.blockcontrol} kloss for å se om brukeren
   har vunnet eller tapt ved å sammenligne `drakt nr.` (drakt nummer). Vi bruker
@@ -328,7 +325,7 @@ spillet er over.
   slutt
   ```
 
-## Test prosjektet{.flag}
+## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 

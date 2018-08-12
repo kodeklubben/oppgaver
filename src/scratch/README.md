@@ -1,16 +1,14 @@
-
-
 # Scratch
 
-Scratch er et programmeringsspråk utviklet ved MIT, med spesiell fokus
-på å lære barn og unge å være kreative, tenke systematisk og
-samarbeide med andre. Scratch er tilgjengelig på <http://scratch.mit.edu/>.
+Scratch er et programmeringsspråk utviklet ved MIT, med spesiell fokus på å lære
+barn og unge å være kreative, tenke systematisk og samarbeide med andre. Scratch
+er tilgjengelig på <http://scratch.mit.edu/>.
 
 ## Guide til oppgaveskrivere og oversettere
 
-Scratchoppgavene ligger i denne katalogen. Se
-[hoved README.md](/README.md#filstruktur-og-formatering) for mer info om den
-generelle katalogstrukturen.
+Scratchoppgavene ligger i denne katalogen. Se [hoved
+README.md](/README.md#filstruktur-og-formatering) for mer info om den generelle
+katalogstrukturen.
 
 ## Kodeblokker
 
@@ -29,7 +27,8 @@ Nyttige ressurser:
 
 [Scratchblocks]: https://github.com/tjvr/scratchblocks
 
-[dokumentasjon over syntaksen]: http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax
+[dokumentasjon over syntaksen]:
+http://wiki.scratch.mit.edu/wiki/Block_Plugin/Syntax
 
 [scratchblocks generator]: http://scratchblocks.github.io/generator/
 

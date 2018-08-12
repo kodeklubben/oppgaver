@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - King Kong
 author: Stein Olav Romslo
-level: 3
 language: nb
 ---
 
@@ -16,8 +15,8 @@ vi King Kong som må passe seg for flyene som angriper ham.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Engelsk, kunst og håndtverk, matematikk, programmering.
- 
+__Fag__: Engelsk, kunst og håndtverk, matematikk, programmering.
+
 __Anbefalte trinn__: 3.-10. trinn.
 
 __Tema__: Lage et spill basert på engelskspråklig kultur, bildebehandling,
@@ -28,39 +27,37 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Engelsk, 7. trinn__: uttrykke seg på en kreativ måte inspirert av ulike
-      typer engelskspråklige litterære tekster fra forskjellige kilder
+  typer engelskspråklige litterære tekster fra forskjellige kilder
 
 - [ ] __Engelsk, 7. trinn__: lage, formidle og samtale om egne tekster inspirert
-      av engelskspråklig litteratur, film og kulturelle uttrykksformer
+  av engelskspråklig litteratur, film og kulturelle uttrykksformer
 
 - [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+  bildebehandlingsprogram
 
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsystem
+  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
+  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan lage et spill basert på en fiktiv historie.
 
 - [ ] Elevene kan bruke enkle funksjoner i digitalt bildebehandlingsprogram for
-      å lage nødvendige figurer.
+  å lage nødvendige figurer.
 
 - [ ] Elevene kan plassere ulike elementer på bestemte plasser i et
-      koordinatsystem.
+  koordinatsystem.
 
 - [ ] Elevene kan få figurer til å bevege seg mellom bestemte posisjoner i et
-      koordinatsystem.
+  koordinatsystem.
 
 - [ ] Elevene kan få figurer til å bevege seg i henhold til brukerens beskjeder.
 
@@ -70,19 +67,20 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
-- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på oppgaven.
+- [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort
-      flere prosjekter på introduksjons- og nybegynnernivå før de starter med
-      denne oppgaven.
+  flere prosjekter på introduksjons- og nybegynnernivå før de starter med denne
+  oppgaven.
 
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-      bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-      seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
-      Tilgang på Internett og enkelt bildebehandlingsprogram, for å hente inn
-      /lage figurer som ikke finnes i Scratch-biblioteket.
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Tilgang på
+  Internett og enkelt bildebehandlingsprogram, for å hente inn /lage figurer som
+  ikke finnes i Scratch-biblioteket.
 
 ## Fremgangsmåte
 
@@ -97,16 +95,15 @@ oppgaven enda._
 - [ ] Elevene kan lage en variabel som teller poeng.
 
 - [ ] Elevene kan lage en variabel som teller liv, og som avslutter spillet når
-      spilleren er tom for liv.
+  spilleren er tom for liv.
 
 - [ ] Elevene kan lage flere bevegelser for Kong, og flere variasjoner for
-      hvordan flyene flyr.
+  hvordan flyene flyr.
 
 - [ ] Elevene kan øke vanskelighetsgraden ved å la flyene komme raskere
-      etterhvert som spillet varer lengre.
+  etterhvert som spillet varer lengre.
 
 ## Eksterne ressurser {.challenge}
 
 - [ ] Se klipp av den ikoniske scenen på fra [King Kong (2005) på
-      YouTube](https://www.youtube.com/watch?v=NoD85qZhkWY){target=_blank}.
-
+  YouTube](https://www.youtube.com/watch?v=NoD85qZhkWY){target=_blank}.

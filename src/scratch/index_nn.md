@@ -3,7 +3,7 @@ title: Scratch
 language: nn
 ---
 
-Scratch er eit grafisk programmeringsspråk som er  laga for at born og unge
+Scratch er eit grafisk programmeringsspråk som er laga for at born og unge
 enkelt skal lære seg programmering. Programmering i Scratch er litt som å byggje
 med Lego, og me har laga mange prosjekt slik at du enkelt kan kome i gang med å
 lage dine eigne spel.

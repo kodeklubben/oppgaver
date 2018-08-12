@@ -1,8 +1,7 @@
 ---
 title: Straffespark
-level: 1
-author: 'Erik Kalstad og Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+author: Erik Kalstad og Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -25,8 +24,8 @@ straffespark som mogleg.
   Viss du allereie har starta eit prosjekt kan du starte eit nytt ved å velje
   `Fil` og så `Ny`.
 
-- [ ] Klikk på `i`{.blockmotion} i hjørnet av kattefiguren, og gi katten
-  namnet `Leo`.
+- [ ] Klikk på `i`{.blockmotion} i hjørnet av kattefiguren, og gi katten namnet
+  `Leo`.
 
 - [ ] Klikk på ![Vel ny bakgrunn](../bilder/velg-bakgrunn.png) nedst til venstre
   på skjermen for å hente inn ein ny bakgrunn. Vel bakgrunnen `Utendørs/goal1`
@@ -93,12 +92,13 @@ innimellom.
 - [ ] Gi fotballen namnet `Ball`.
 
 - [ ] Lag ballen mindre ved fyrst å trykkje på ![krymp](../bilder/krymp.png)
+
 - øvst mot midten av vindauget. Så kan du trykke på ballen seks gonger.
 
 - [ ] No skal me skrive eit litt lengre program. I dette programmet legg me
-  fyrst fotballen på plass framfor katten. Etter at ballen rører `Leo` (det
-  vil seie at `Leo` sparkar ballen) startar ballen å bevege seg. Sjå om du ser
-  kor i programmet dei ulike tinga skjer:
+  fyrst fotballen på plass framfor katten. Etter at ballen rører `Leo` (det vil
+  seie at `Leo` sparkar ballen) startar ballen å bevege seg. Sjå om du ser kor i
+  programmet dei ulike tinga skjer:
 
   ```blocks
   når @greenFlag vert trykt på
@@ -225,6 +225,7 @@ Meldingar er beskjedar som figurane i spelet sender til kvarandre utan at du kan
 sjå det. Desse gjer det lett for fleire figurar å reagere på ting som skjer.
 
 - [ ] Me vil at både ballen og målmannen skal slutte å bevege seg viss ballen
+
 - blir redda. Legg til dette som eit nytt skript på både `Ball` og `Målmann`:
 
   ```blocks

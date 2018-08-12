@@ -1,8 +1,7 @@
 ---
-title: 'Krabbeangrep! Remiks'
-level: 3
-author: 'Gudbrand Tandberg'
-translator: 'Stein Olav Romslo'
+title: "Krabbeangrep! Remiks"
+author: Gudbrand Tandberg
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -18,6 +17,7 @@ krabbeangrep. Kanonen skyt kuler som tek knekken på krabbene og spelaren får
 poeng når den treff.
 
 ![Illustrasjon av ein remix av eit krabbespel](krabbeangrep_remiks.png)
+
 
 # Steg 1: Bli kjent med spelet {.activity}
 
@@ -75,9 +75,9 @@ melding.
 
 # Steg 3: Me lagar ein meny, del II {.activity}
 
-*Som spelet er no så startar det når ein trykkar på det grøne flagget. No vil
- me at hovudmenyen skal dukke opp når me trykkar på det grøne flagget, og at
- spelet skal starte når ein trykkar på Startknapp-figuren.*
+*Som spelet er no så startar det når ein trykkar på det grøne flagget. No vil me
+at hovudmenyen skal dukke opp når me trykkar på det grøne flagget, og at spelet
+skal starte når ein trykkar på Startknapp-figuren.*
 
 ### Sjå mottakarar {.protip}
 

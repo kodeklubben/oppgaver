@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Snøballkrig
 author: Stein Olav Romslo
-level: 4
 language: nb
 ---
 
@@ -16,7 +15,7 @@ gutter ved å kaste snøball etter dem.
 ## Oppgaven passer til: {.check}
 
 __Fag__: Kunst og håndtverk, matematikk, programmering.
- 
+
 __Anbefalte trinn__: 5.-10. trinn.
 
 __Tema__: Digitalt bildebehandlingsprogram, koordinatsystem, variabler.
@@ -26,35 +25,32 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+  bildebehandlingsprogram
 
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsystem
+  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
+  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
 
 - [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-      å skrive hensiktsmessige kommentarer og ved å presentere egen og andres
-      kode
+  å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan lage bakgrunn og elementer i digitalt bildebehandlingsprogram,
-      og bruke dem i et spill.
+  og bruke dem i et spill.
 
 - [ ] Elevene kan plassere elementer på bestemte posisjoner i et
-      koordinatsystem.
+  koordinatsystem.
 
 - [ ] Elevene kan få elementer til å bevege seg i en bestemt retning i et
-      koordinatsystem.
+  koordinatsystem.
 
 - [ ] Elevene kan lage hensiktsmessige kommentarer for å dokumentere koden sin.
 
@@ -67,20 +63,21 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort
-      flere prosjekter på erfaren-nivået før de begynner med denne oppgaven.
+  flere prosjekter på erfaren-nivået før de begynner med denne oppgaven.
 
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-      bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-      seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
 ## Fremgangsmåte
 
-[Klikk her for å se oppgaveteksten.](../snoballkrig/snoballkrig.html){target=_blank}
+[Klikk her for å se
+oppgaveteksten.](../snoballkrig/snoballkrig.html){target=_blank}
 
 _Det kan være en utfordring for mange elever å lage koden. Under følger et
 eksempel på hvordan koden kan se ut under de forskjellige elementene._
@@ -232,4 +229,3 @@ eksempel på hvordan koden kan se ut under de forskjellige elementene._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-

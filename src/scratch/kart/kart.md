@@ -5,7 +5,9 @@ language: nb
 ---
 
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+
 <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
 <script src="leaflet-image.js"></script>
 
 
@@ -23,6 +25,7 @@ Scratch-prosjektene dine.
     Last ned som Scratch-bakgrunn
     </a>
   </p>
+
 </div>
 
 
@@ -35,8 +38,8 @@ Scratch._
 ## Sjekkliste {.check}
 
 - [ ] Velg kartutsnitt ved å klikke og dra i kartet. Du kan forstørre og
-  forminske kartet med ![Bilde pluss](knapp_pluss.png) og 
-  ![Bilde minus](knapp_minus.png)-knappene.
+  forminske kartet med ![Bilde pluss](knapp_pluss.png) og ![Bilde
+  minus](knapp_minus.png)-knappene.
 
 - [ ] Velg utseende på kartet fra listen som dukker opp når du peker på
   ![kartlag](kartlag.png) i nedre høyre hjørne.

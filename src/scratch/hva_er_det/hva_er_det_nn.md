@@ -1,8 +1,7 @@
 ---
-title: 'Kva er det?'
-level: 3
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: Kva er det?
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -59,8 +58,7 @@ heilt normalt når me vel ei tilfeldig drakt kvar gong.
 # Steg 2: Forvreng biletet {.activity}
 
 *No skal me forvrenge figuren når den dukkar opp på tavla, slik at det blir
-vanskelegare å gjette kva det er . Så skal me gradvis gjere den tydelegare
-att.*
+vanskelegare å gjette kva det er . Så skal me gradvis gjere den tydelegare att.*
 
 Me skal bruke ein `poeng`{.blockdata}-variabel til å kontrollere graden av
 forvrenging. Viss poengscoren er høg er biletet veldig forvrengt. Når poenga går

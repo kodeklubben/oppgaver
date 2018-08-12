@@ -1,10 +1,10 @@
 ---
 title: Flaksefugl
-level: 2
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
+
 
 # Introduksjon {.intro}
 
@@ -14,20 +14,20 @@ Flakse flygande og prøve å styre mellom røra.
 
 ![Illustrasjon av eit ferdig Flaksefugl-spel](flaksefugl.png)
 
+
 # Steg 1: Få Flakse til å dette {.activity}
 
 *Me startar enkelt, med å introdusere Flakse og få han til å dette.*
 
 ## Sjekkliste {.check}
 
-- [ ] Start eit nytt Scratch-prosjekt. Slett katten ved å høgreklikke på den
-  og vel `Slett`. Alternativt kan du klikke på saksa i topplinja, og så på
-  katten.
+- [ ] Start eit nytt Scratch-prosjekt. Slett katten ved å høgreklikke på den og
+  vel `Slett`. Alternativt kan du klikke på saksa i topplinja, og så på katten.
 
 - [ ] Byt ut bakgrunnen med eit landskap. `Desert` er eit bra val.
 
-- [ ] Legg til Flakse-figuren. Du treng ein figur med drakter for vengjer opp
-  og vengjer ned. Til dømes kan du bruke `Parrot`.
+- [ ] Legg til Flakse-figuren. Du treng ein figur med drakter for vengjer opp og
+  vengjer ned. Til dømes kan du bruke `Parrot`.
 
 - [ ] Byt namn på figuren til `Flakse`.
 
@@ -47,14 +47,15 @@ __Klikk det grøne flagget.__
 
 - [ ] Startar Flakse midt på skjermen og beveger seg nedover?
 
+
 # Steg 2: Få Flakse til å flyge {.activity}
 
 *No vil me at Flakse skal flyge oppover når du trykkar mellomrom.*
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på `Drakter` og gi dei to draktene namna `Venger opp` og
-  `Venger ned`.
+- [ ] Klikk på `Drakter` og gi dei to draktene namna `Venger opp` og `Venger
+  ned`.
 
 - [ ] Gå tilbake til `Skript` og legg til dette skriptet:
 
@@ -77,8 +78,9 @@ __Klikk det grøne flagget.__
 - [ ] Klarar du å kontrollere Flakse med mellomromtasten?
 
 - [ ] La du merke til at om du trykkar mellomrom fleire gonger raskt etter
-  kvarandre, så flaksar Flakse nokre gonger berre ein gong? Det er det neste
-  me skal fikse.
+  kvarandre, så flaksar Flakse nokre gonger berre ein gong? Det er det neste me
+  skal fikse.
+
 
 # Steg 3: Gjer kontrollen betre {.activity}
 
@@ -90,14 +92,14 @@ gjere.*
 
 ## Sjekkliste {.check}
 
-- [ ] Lag ein ny variabel og kall den `flaks`{.blockdata}. Vel at den berre
-  skal gjelde `For denne figuren`. Klikk `OK`. Skjul variabelen ved å ta bort
+- [ ] Lag ein ny variabel og kall den `flaks`{.blockdata}. Vel at den berre skal
+  gjelde `For denne figuren`. Klikk `OK`. Skjul variabelen ved å ta bort
   avhukinga framfor variabelen.
 
-- [ ] Me skal gjere om på skriptet som startar med `når mellomrom
-  vert trykt`{.blockevents}. Dra i `byt drakt til Venger
-  ned`{.blocklooks}-klossen slik at den og klossane under losnar. Legg desse
-  klossane til sides. Me skal bruke dei att veldig snart.
+- [ ] Me skal gjere om på skriptet som startar med `når mellomrom vert
+  trykt`{.blockevents}. Dra i `byt drakt til Venger ned`{.blocklooks}-klossen
+  slik at den og klossane under losnar. Legg desse klossane til sides. Me skal
+  bruke dei att veldig snart.
 
 - [ ] Lag eit nytt skript. Legg merke til at klossane du la til sides kan bli
   brukt inne i `gjenta til flaks = 0`{.blockcontrol}-løkka:
@@ -121,8 +123,8 @@ gjere.*
   slutt
   ```
 
-- [ ] Til slutt må du leggje det følgande skriptet på `når mellomrom
-  vert trykt`{.blockevents}-klossen som vart til overs tidlegare:
+- [ ] Til slutt må du leggje det følgande skriptet på `når mellomrom vert
+  trykt`{.blockevents}-klossen som vart til overs tidlegare:
 
   ```blocks
   når [mellomrom v] vert trykt
@@ -137,14 +139,15 @@ __Klikk det grøne flagget.__
 
 - [ ] Flaksar Flakse ein gong for kvar gong du har trykka mellomromtasten?
 
+
 # Steg 4: Legg til røyra {.activity}
 
 *Me vil leggje til hindringar Flakse kan flyge forbi.*
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til ein ny figur ved å klikke på *Teikne ny figur*-knappen,
-  ![Teikne ny figur](../bilder/tegn-ny.png).
+- [ ] Legg til ein ny figur ved å klikke på *Teikne ny figur*-knappen, ![Teikne
+  ny figur](../bilder/tegn-ny.png).
 
 - [ ] Viss det står `Punktgrafikk` nede til høgre, må du klikke på `Byt til
   vektorgrafikk`-knappen.
@@ -165,6 +168,7 @@ __Klikk det grøne flagget.__
   fylleverktøyet får du ein fin effekt.
 
 - [ ] Gi den nye figuren namnet `Røyr`.
+
 
 # Steg 5: Få røyra til å bevege seg {.activity}
 
@@ -207,6 +211,7 @@ __Klikk det grøne flagget.__
   til dømes endre på opninga mellom røyra med teikneverktyet. Ein annan
   moglegheit er å lage Flakse mindre.
 
+
 # Steg 6: Finn ut om Flakse krasjar med røyra {.activity}
 
 *For at spelet skal bli vanskeleg må spelaren styre Flakse gjennom åpningane
@@ -248,22 +253,23 @@ __Klikk det grøne flagget.__
 
 - [ ] Stoppar spelet viss Flakse kjem borti eit røyr eller kanten av brettet?
 
+
 # Steg 7: Legg til poeng {.activity}
 
 *Spelaren skal få eitt poeng kvar gong Flakse flyg gjennom ei røyropning.*
 
 ## Sjekkliste {.check}
 
-- [ ] Me legg til ein lyd som kan spelast kvar gong Flakse får poeng. Klikk
-  på `Røyr`-figuren og legg til ein lyd. `Bird` er eit lurt val.
+- [ ] Me legg til ein lyd som kan spelast kvar gong Flakse får poeng. Klikk på
+  `Røyr`-figuren og legg til ein lyd. `Bird` er eit lurt val.
 
 - [ ] Gå tilbake til `Skript`-fana.
 
 - [ ] Lag ein ny variabel som skal gjelde `For alle figurer`. Kall den
   `poeng`{.blockdata}.
 
-- [ ] Legg til eit skript som set poenga til 0 når det grøne flagget
-  blir klikka. Dette klarar du sjølv!
+- [ ] Legg til eit skript som set poenga til 0 når det grøne flagget blir
+  klikka. Dette klarar du sjølv!
 
 - [ ] Legg til dette skriptet på `Røyr`:
 
@@ -290,8 +296,8 @@ Her er nokre fleire ting du kan prøve:
 
 ## Utfordring 1: Legg til tyngdekraft {.challenge}
 
-Når noko dett på grunn av tyngdekrafta aukar farta jo lengre fallet varar.
-Me skal prøve å etterlikne denne måten å dette på.
+Når noko dett på grunn av tyngdekrafta aukar farta jo lengre fallet varar. Me
+skal prøve å etterlikne denne måten å dette på.
 
 - [ ] Legg til ein ny variabel for `Flakse` som heiter `løft`{.blockdata}.
   Variabelen skal gjelde for `For denne figuren`.
@@ -336,10 +342,9 @@ __Klikk det grøne flagget.__
 
 Når spelaren tapar vil me at Flakse skal dette ned og ut av skjermen.
 
-- [ ] Bytt ut `send meldinga Tap`{.blockevents}-klossen med `send
-  meldinga Fall`{.blockevents} i skriptet som merkar når Flakse
-  krasjar i kanten eller i eit røyr. Slett `stopp`{.blockcontrol}-klossen på
-  slutten av skriptet.
+- [ ] Bytt ut `send meldinga Tap`{.blockevents}-klossen med `send meldinga
+  Fall`{.blockevents} i skriptet som merkar når Flakse krasjar i kanten eller i
+  eit røyr. Slett `stopp`{.blockcontrol}-klossen på slutten av skriptet.
 
 - [ ] Legg til desse nye skripta på `Flakse`-figuren:
 
@@ -359,8 +364,8 @@ Når spelaren tapar vil me at Flakse skal dette ned og ut av skjermen.
   stopp [andre skript i figuren v] :: control
   ```
 
-- [ ] Du må leggje til ein `vis`{.blocklooks}-kloss og setje retninga for
-  Flakse når spelet startar på nytt.
+- [ ] Du må leggje til ein `vis`{.blocklooks}-kloss og setje retninga for Flakse
+  når spelet startar på nytt.
 
 ## Test prosjektet {.flag}
 
@@ -372,11 +377,11 @@ __Klikk det grøne flagget.__
 
 ## Utfordring 3: Legg til rekordar {.challenge}
 
-- [ ] Lag ein ny variabel og merk av `Nett-variabel (lagra på
-  nett)`-boksen. Kall variabelen `Rekord`{.blockdata}.
+- [ ] Lag ein ny variabel og merk av `Nett-variabel (lagra på nett)`-boksen.
+  Kall variabelen `Rekord`{.blockdata}.
 
-- [ ] Når spelet er ferdig må me sjekke om det er ein ny rekord. Det gjer
-  me ved å endre `Tap`-skriptet på `røyr` slik:
+- [ ] Når spelet er ferdig må me sjekke om det er ein ny rekord. Det gjer me ved
+  å endre `Tap`-skriptet på `røyr` slik:
 
   ```blocks
   når eg får meldinga [Tap v]
@@ -390,8 +395,8 @@ __Klikk det grøne flagget.__
 
 Nettvariablar gir deg moglegheita til å hugse ting mellom ulike brukarar og
 ulike køyringar av spelet ditt (i motsetnad til vanlege variablar der verdiane
-blir nullstilt mellom kvar gong du trykkjer det grøne flagget). Dette er
-akkurat det me treng for å hugse kva rekorden i spelet er.
+blir nullstilt mellom kvar gong du trykkjer det grøne flagget). Dette er akkurat
+det me treng for å hugse kva rekorden i spelet er.
 
 Nettvariablar er framleis eksperimentelle, og for tida får ikkje nye Scratch-
 bruarar lov til å lage slike variablar. Viss du ikkje får lov til det må du
@@ -407,5 +412,5 @@ __Klikk det grøne flagget.__
 
 __Gratulerer, du er ferdig med spelet! Kva er rekorden din?__
 
-Ikkje gløym å dele spelet med venene dine. Trykk på `Legg ut` for at andre
-skal få prøve!
+Ikkje gløym å dele spelet med venene dine. Trykk på `Legg ut` for at andre skal
+få prøve!

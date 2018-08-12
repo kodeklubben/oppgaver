@@ -1,8 +1,7 @@
 ---
 title: Noreg rundt
-level: 3
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -19,7 +18,7 @@ stader og byar du blir beden om å besøke.
 # Steg 1: Eit kart over Noreg {.activity}
 
 *Fyrst legg me inn eit kart over Noreg som bakgrunn. Seinare skal me bruke
- helikopteret til å besøke stader på dette.*
+helikopteret til å besøke stader på dette.*
 
 ## Sjekkliste {.check}
 
@@ -45,11 +44,12 @@ Det finst mengdar av kart på Internett. Det kartet me brukar i denne oppgåva e
 laga av Kartverket og delt slik at alle kan bruke det slik dei vil. Sist i denne
 oppgåva finn du beskrivingar for å bruke andre kart.
 
+
 # Steg 2: Styr helikopteret {.activity}
 
 *No skal me lage eit helikopter som me kan styre rundt over kartet. Me startar
- med å programmere eit skript som let oss kontrollere helikopteret med
- piltastane.*
+med å programmere eit skript som let oss kontrollere helikopteret med
+piltastane.*
 
 ## Sjekkliste {.check}
 
@@ -63,6 +63,7 @@ oppgåva finn du beskrivingar for å bruke andre kart.
   unngå at helikopteret flyr opp ned.
 
 - [ ] Vi startar med å gjere helikopteret mindre, samt sikre oss at det alltid
+
 - startar på same stad. Lag dette skriptet:
 
   ```blocks
@@ -103,11 +104,11 @@ __Klikk på det grøne flagget.__
 
 Me skal programmere dei andre piltastane òg.
 
-- [ ] Koden for å flytte helikopteret med dei andre  piltastane er veldig lik
+- [ ] Koden for å flytte helikopteret med dei andre piltastane er veldig lik
   koden som flyttar helikopteret oppover. Difor kan me kopiere den me allereie
-  har skrive! Høgreklikk på klossen `viss `{.blockcontrol}`tasten pil opp
-  er trykt?`{.blocksensing}, og vel `lag ein kopi`. Slepp desse klossane inn i
-  `for alltid`{.blockcontrol}-løkka. Gjenta til du har fire
+  har skrive! Høgreklikk på klossen `viss `{.blockcontrol}`tasten pil opp er
+  trykt?`{.blocksensing}, og vel `lag ein kopi`. Slepp desse klossane inn i `for
+  alltid`{.blockcontrol}-løkka. Gjenta til du har fire
   `viss`{.blockcontrol}-klossar. Endre på skriptet ditt slik at det ser ut som
   følgjer:
 
@@ -159,7 +160,7 @@ steg`{.blockmotion}-klossane med
 # Steg 3: Legg til eit reisemål {.activity}
 
 *No som helikopteret kan flyge rundt omkring i Noreg kan me gi spelaren eit mål
- med reisa.*
+med reisa.*
 
 ## Sjekkliste {.check}
 
@@ -220,7 +221,7 @@ __Klikk på det grøne flagget.__
 # Steg 4: Eit nytt reisemål {.activity}
 
 *La oss leggje til eit nytt reisemål me kan reise til etter å ha besøkt det
- fyrste!*
+fyrste!*
 
 ## Sjekkliste {.check}
 
@@ -259,8 +260,8 @@ __Klikk på det grøne flagget.__
 # Steg 5: Skjul reisemåla {.activity}
 
 *Førebels er ikkje spelet så vanskeleg: du må berre styre helikopteret til den
- raude disken. For å lage eit skikkeleg spel vil me gøyme den raude disken, og
- heller berre fortelje spelaren til kva stad ho skal flyge!*
+raude disken. For å lage eit skikkeleg spel vil me gøyme den raude disken, og
+heller berre fortelje spelaren til kva stad ho skal flyge!*
 
 ## Sjekkliste {.check}
 
@@ -270,9 +271,9 @@ Fyrst vil me fortelje spelaren kor ho skal flyge.
   variabel`. Kall variabelen `Reis til`{.blockdata} og vel at den skal gjelde
   `For alle figurar`.
 
-- [ ] Legg merke til at det dukka opp ein boks på kartet,
-  `Reis til`{.blocklightgrey}` 0 `{.blockdata}. Flytt denne boksen til ein
-  passande stad slik at den er lett å lese.
+- [ ] Legg merke til at det dukka opp ein boks på kartet, `Reis
+  til`{.blocklightgrey}` 0 `{.blockdata}. Flytt denne boksen til ein passande
+  stad slik at den er lett å lese.
 
 - [ ] No kan me oppdatere koden til `Stad` slik at den set `Reis
   til`{.blockdata}-variabelen. Fyrst må du endre`Hønefoss`-skriptet som følgjer:
@@ -327,13 +328,13 @@ __Klikk på det grøne flagget.__
 - [ ] Kva skjer viss du reiser til Hønefoss?
 
 Hmm... Spelet oppdatar ikkje at me reiser til Barcelona lengre. Problemet er at
-sidan me gøymer disken vil den ikkje lengre berøre `Helikopter`. Me må finne
-ein annan måte å gjere disken usynleg på.
+sidan me gøymer disken vil den ikkje lengre berøre `Helikopter`. Me må finne ein
+annan måte å gjere disken usynleg på.
 
 ## Sjekkliste {.check}
 
-- [ ] I staden for å gøyme disken heilt vil me gjere den gjennomsiktig. Bytt
-  ut `gøym`{.blocklooks}-klossen med ein `set effekt`{.blocklooks}-kloss:
+- [ ] I staden for å gøyme disken heilt vil me gjere den gjennomsiktig. Bytt ut
+  `gøym`{.blocklooks}-klossen med ein `set effekt`{.blocklooks}-kloss:
 
   ```blocks
   når @greenFlag vert trykt på
@@ -342,8 +343,8 @@ ein annan måte å gjere disken usynleg på.
   send meldinga [Stad: Hønefoss v]
   ```
 
-  Me har lagt til ein `vis`{.blocklooks}-kloss for å vere på den sikre siden
-  (me har jo oppdaget at spelet ikkje virkar om `Stad`-figuren er gøymt).
+  Me har lagt til ein `vis`{.blocklooks}-kloss for å vere på den sikre siden (me
+  har jo oppdaget at spelet ikkje virkar om `Stad`-figuren er gøymt).
 
 ## Test prosjektet {.flag}
 
@@ -382,8 +383,8 @@ funne det.*
 
 - [ ] Når me mottek `Fann stad`-meldinga vil me vise kor reisemålet faktisk
   ligg. Sida disken snart flyttast vidare kan me ikkje berre gjere figuren
-  synleg, me må òg `lag avtrykk`{.blockpen} av figuren på bakgrunnen. Legg
-  til dette skriptet:
+  synleg, me må òg `lag avtrykk`{.blockpen} av figuren på bakgrunnen. Legg til
+  dette skriptet:
 
   ```blocks
   når eg får meldinga [Fann stad v]
@@ -414,8 +415,8 @@ __Klikk på det grøne flagget.__
   send meldinga [Stad: Hønefoss v]
   ```
 
-- [ ] La oss leggje på ein enkel lydeffekt når spelaren finn eit reisemål.
-  Sidan me har meldinga `Fann stad` er dette enkelt. Klikk fyrst på
+- [ ] La oss leggje på ein enkel lydeffekt når spelaren finn eit reisemål. Sidan
+  me har meldinga `Fann stad` er dette enkelt. Klikk fyrst på
   `Lyder`{.blocklightgrey}-fana og vel ein ny lyd frå biblioteket. Me brukar
   `Effekter/rattle`, men du kan gjerne bruke ein annan lyd.
 
@@ -442,7 +443,7 @@ __Klikk på det grøne flagget.__
 # Steg 7: Tida går {.activity}
 
 *No skal me gjere spelet endå meir utfordrande ved å leggje på ei
- tidsavgrensing.*
+tidsavgrensing.*
 
 ## Sjekkliste {.check}
 
@@ -501,10 +502,11 @@ Som ein bonus kan me gi spelaren litt ekstra tid kvar gong ho finn eit reisemål
   endra [Tid v] med (10)
   ```
 
+
 # Steg 8: Fleire stader å besøke {.activity}
 
 *Til slutt vil me leggje til fleire stader å besøke for å gjere spelet meir
- spanande!*
+spanande!*
 
 ## Sjekkliste {.check}
 
@@ -520,8 +522,8 @@ har laga, og så endre på dei.
   skript. Det kan vere nyttig å klikke på `slett`{.blockpen}-klossen i
   `Penn`{.blockpen}-kategorien òg.
 
-- [ ] Flytt den raude disken til ein ny stad. Merk deg koordinatane ved å sjå
-  på figurinformasjonen, `i`{.blockmotion}.
+- [ ] Flytt den raude disken til ein ny stad. Merk deg koordinatane ved å sjå på
+  figurinformasjonen, `i`{.blockmotion}.
 
 - [ ] Høgreklikk på skriptet som startar `når eg får meldinga Stad:
   Hønefoss`{.blockevents} og vel `lag ein kopi`. Oppdater kopien med namnet og
@@ -588,7 +590,7 @@ skjermen.
 # Fleire utfordringar {.activity}
 
 *Det er alltid mogleg å utvide spelet. Under finn du nokre idear du kan prøve
- deg på!*
+deg på!*
 
 ## Utfordring: Endå fleire reisemål {.challenge}
 
@@ -639,8 +641,8 @@ vidare til neste reisemål på lista.
   send meldinga [Stad: Tromsø v]
   ```
 
-  Klossen `rører fargen`{.blocksensing} brukast for å sjekke om me allereie
-  har besøkt eit reisemål. I så fall vil me jo ha stempla raudfarge på kartet.
+  Klossen `rører fargen`{.blocksensing} brukast for å sjekke om me allereie har
+  besøkt eit reisemål. I så fall vil me jo ha stempla raudfarge på kartet.
 
 - [ ] Siden dette vil hoppe over reisemål, er det viktig at det siste reisemålet
   sender melding om at me skal besøke det fyrste reisemålet att, i staden for at
@@ -656,7 +658,7 @@ vidare til neste reisemål på lista.
 # Korleis lage eigne kart {.activity}
 
 *Heilt til slutt ser me på korleis du kan reise rundt i eigne kart eller andre
- kart som du finn på Internett.*
+kart som du finn på Internett.*
 
 ## Sjekkliste {.check}
 

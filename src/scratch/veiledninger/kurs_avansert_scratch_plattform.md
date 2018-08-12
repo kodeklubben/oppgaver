@@ -17,12 +17,11 @@ Scratch-oppgavene.
 
 # Bakgrunn {.activity}
 
-Dette kurset ble opprinnelig utviklet til en kodeklubb på Blindern i Oslo,
-våren 2016. Flere barn hadde i tidligere kodeklubber spurt om hvordan man kan
-lage plattformspill i Scratch. Tanken var å gi barna og ungdommene som allerede
-hadde sett en del Scratch en ekstra utfordring, samtidig som vi fikk muligheten
-til å snakke om noen av de mer avanserte programmeringskonseptene som Scratch
-tilbyr.
+Dette kurset ble opprinnelig utviklet til en kodeklubb på Blindern i Oslo, våren
+2016. Flere barn hadde i tidligere kodeklubber spurt om hvordan man kan lage
+plattformspill i Scratch. Tanken var å gi barna og ungdommene som allerede hadde
+sett en del Scratch en ekstra utfordring, samtidig som vi fikk muligheten til å
+snakke om noen av de mer avanserte programmeringskonseptene som Scratch tilbyr.
 
 Plattformspill har utviklet seg mye siden Donkey Kong og Super Mario (den gang
 Jumpman) ble introdusert i 1981. Likevel er dette figurer også barn blir kjent

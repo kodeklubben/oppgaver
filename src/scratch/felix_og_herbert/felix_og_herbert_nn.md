@@ -1,8 +1,7 @@
 ---
-title: 'Felix og Herbert'
-level: 1
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Gro Anette Vestre'
+title: Felix og Herbert
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Gro Anette Vestre
 language: nn
 ---
 
@@ -32,9 +31,9 @@ din ned.
   til ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
 - [ ] Klikk på scenen ved sida av Felix i vinduet for figurar. Vel fana
-      `Bakgrunnar`{.blocklightgrey} og trykk på ![Vel ein ferdig
-      bakgrunn](../bilder/velg-bakgrunn.png) for å importera ein ferdig
-      bakgrunn. Vel den bakgrunnen du vil.
+  `Bakgrunnar`{.blocklightgrey} og trykk på ![Vel ein ferdig
+  bakgrunn](../bilder/velg-bakgrunn.png) for å importera ein ferdig bakgrunn.
+  Vel den bakgrunnen du vil.
 
 - [ ] Klikk på Felix, vel `Skript`{.blocklightgrey}-fana og lag dette skriptet:
 
@@ -59,7 +58,7 @@ __Klikk på det grøne flaget.__
 - [ ] Bevegar han seg med rett hastighet?
 
 - [ ] Klikk det raude stopp-symbolet for at Felix skal slutta å følgje etter
-      musepeikaren.
+  musepeikaren.
 
 ## Lagre prosjektet {.save}
 
@@ -76,14 +75,12 @@ allikevel vera lurt å lagra manuelt innimellom.
 ## Sjekkliste {.check}
 
 - [ ] Lag ein ny figur ved å trykke på ![Vel figur frå
-      biblioteket](../bilder/hent-fra-bibliotek.png) og vel figuren
-      `Dyr/Mouse1`.
+  biblioteket](../bilder/hent-fra-bibliotek.png) og vel figuren `Dyr/Mouse1`.
 
 - [ ] Byt namn på figuren til `Herbert`.
 
 - [ ] Gjer Herbert mindre enn Felix ved å trykke på
-      ![krymp](../bilder/krymp.png) (øvst mot midten av vindauga). Prøv seks
-      klikk.
+  ![krymp](../bilder/krymp.png) (øvst mot midten av vindauga). Prøv seks klikk.
 
 - [ ] Gje Herbert dette skriptet:
 
@@ -140,7 +137,7 @@ spøkelse når han vert fanga.*
 ## Sjekkliste {.check}
 
 - [ ] Endra skriptet til Felix slik at det sender ein melding og lagar ein lyd
-      når han fangar Herbert:
+  når han fangar Herbert:
 
     ```blocks
         Når @greenFlag vert trykt på
@@ -161,16 +158,16 @@ spøkelse når han vert fanga.*
 - [ ] Vel Herbert og gå til `Drakter`{.blocklightgrey}-fana.
 
 - [ ] Hent ein ny drakt ved å trykke på ![Vel drakt frå
-      biblioteket](../bilder/hent-fra-bibliotek.png) og vel `Fantasi/ghost2-a`
+  biblioteket](../bilder/hent-fra-bibliotek.png) og vel `Fantasi/ghost2-a`
 
 - [ ] Gjer drakta mindre ved å velgje ![Krymp](../bilder/krymp.png) og trykke
-      seks gonger på spøkelsesdrakta.
+  seks gonger på spøkelsesdrakta.
 
 - [ ] Endra namna på Herberts draktar slik at musedrakta heiter `levande` og
-      spøkelsesdrakta heiter `daud`.
+  spøkelsesdrakta heiter `daud`.
 
 - [ ] Gå til `Skript`{.blocklightgrey}-fana, og lag eit nytt skript for Herbert
-      for å gjera han om til eit spøkelse. Ikkje slett det gamle skriptet:
+  for å gjera han om til eit spøkelse. Ikkje slett det gamle skriptet:
 
     ```blocks
         når eg får meldinga [Fanga! v]
@@ -199,16 +196,16 @@ sekund. Hvis Felix fangar Herbert, minker me poengsummen med ti.*
 ## Sjekkliste {.check}
 
 - [ ] På `Skript`{.blocklightgrey}-fana under kategorien `Data`{.blockdata}, lag
-      ein ny variabel. Kall variabelen for `Poeng`{.blockdata}, og la den gjelde
-      for alle figurar.
+  ein ny variabel. Kall variabelen for `Poeng`{.blockdata}, og la den gjelde for
+  alle figurar.
 
     ![Bilete av den nye poeng-variabelen](ny-variabel-poeng.png)
 
-    Legg merke til at variabelen `Poeng`{.blockdata} dukka opp øvst til venstre
-    i spelet ditt.
+  Legg merke til at variabelen `Poeng`{.blockdata} dukka opp øvst til venstre i
+  spelet ditt.
 
 - [ ] Klikk på `Scene` til venstre på skjermen, ved sida av `Figurar`. Lag disse
-      to skripta på scenen:
+  to skripta på scenen:
 
     ```blocks
         Når @greenFlag vert trykt på

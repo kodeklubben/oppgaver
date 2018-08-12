@@ -1,8 +1,7 @@
 ---
-title: 'Rotasjon rundt eigen akse'
-level: 1
-author: 'Carl A. Myrland'
-translator: 'Stein Olav Romslo'
+title: Rotasjon rundt eigen akse
+author: Carl A. Myrland
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -18,7 +17,7 @@ I denne oppgaven skal vi importere en geometrisk figur og deretter
 # Steg 1: Vi roterer en likebeint trekant {.activity}
 
 *For å gjere det enkelt å kome i gang skal me hente inn ein figur frå
- Scratch-biblioteket. Denne figuren er tilnærma lik ein likebeint trekant.*
+Scratch-biblioteket. Denne figuren er tilnærma lik ein likebeint trekant.*
 
 ## Sjekkliste {.check}
 

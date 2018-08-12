@@ -1,8 +1,7 @@
 ---
-title: 'Redd verda'
-level: 2
-author: 'Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)'
-translator: 'Stein Olav Romslo'
+title: Redd verda
+author: "Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -55,6 +54,7 @@ som me skal kaste.
     display: inline;
   }
   </style>
+
   <figure class="inline">
     <img src="bananer.png" alt="Bilete av bananar"/>
     <img src="eple.png" alt="Bilete av eit eple"/>

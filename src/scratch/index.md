@@ -5,8 +5,8 @@ language: nb
 
 Scratch er et grafisk programmeringsspråk som er laget for at barn og unge
 enkelt skal lære seg programmering. Programmering i Scratch er litt som å bygge
-med Lego, og vi har laget mange prosjekter slik at du enkelt kan komme igang
-med å lage dine egne spill.
+med Lego, og vi har laget mange prosjekter slik at du enkelt kan komme igang med
+å lage dine egne spill.
 
 ## Hvordan komme igang med Scratch
 

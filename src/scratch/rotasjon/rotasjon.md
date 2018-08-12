@@ -1,7 +1,6 @@
 ---
-title: 'Rotasjon rundt egen akse'
-level: 1
-author: 'Carl A. Myrland'
+title: Rotasjon rundt egen akse
+author: Carl A. Myrland
 language: nb
 ---
 
@@ -26,13 +25,13 @@ biblioteket til Scratch. Denne figuren er tilnærmet lik en likebeint trekant*
 - [ ] Slett kattefiguren ved å høyreklikke på den og velge `slett`.
 
 - [ ] Legg til en ny figur. Klikk på ![Velg figur fra
-      biblioteket](../bilder/hent-fra-bibliotek.png)-knappen og velg
-      trollmannshatten. Vi har brukt `Ting/Wizard Hat`-figuren.
+  biblioteket](../bilder/hent-fra-bibliotek.png)-knappen og velg
+  trollmannshatten. Vi har brukt `Ting/Wizard Hat`-figuren.
 
 - [ ] Gi den nye figuren navnet `Hattulf` ved å klikke på `i`.
 
 - [ ] Før vi begynner med selve oppgaven, skal vi legge inn en liten
-      hjelpefunksjon om noe uventet skulle skje:
+  hjelpefunksjon om noe uventet skulle skje:
 
   ```blocks
   når [n v] trykkes
@@ -42,8 +41,8 @@ biblioteket til Scratch. Denne figuren er tilnærmet lik en likebeint trekant*
   ```
 
 - [ ] Skulle noe uventet skje nå, trenger du bare å trykke på tasten N på
-      tastaturet, så vil Hattulf gå tilbake til utgangspunktet, slik at du kan
-      prøve på nytt.
+  tastaturet, så vil Hattulf gå tilbake til utgangspunktet, slik at du kan prøve
+  på nytt.
 
 Vi skal nå gi Scratch beskjed om å `rotere`{.blockmotion} hatten 90 grader.
 
@@ -63,10 +62,10 @@ __Klikk på det grønne flagget.__
 - [ ] Roterer hatten som forventet?
 
 - [ ] Hva tror du skjer om du trykker på det grønne flagget en gang til? I
-      hvilken retning vil toppen av hatten peke?
+  hvilken retning vil toppen av hatten peke?
 
 - [ ] Hvor mange ganger må du be hatten om å rotere før den er tilbake til
-      utgangspunktet?
+  utgangspunktet?
 
 ## Sjekkliste {.check}
 
@@ -85,11 +84,11 @@ kjedelig, og litt unaturlig.
 __Klikk på det grønne flagget.__
 
 - [ ] Hvor mange ganger må du trykke på hatten for at den skal rotere hele veien
-      rundt nå?
+  rundt nå?
 
 - [ ] Fortsett å halvere antall grader hatten skal rotere. Prøv å finne en
-      sammenheng mellom hvor mange grader den roteres, og hvor mange ganger du
-      må trykke på det grønne flagget for at den skal roteres helt rundt.
+  sammenheng mellom hvor mange grader den roteres, og hvor mange ganger du må
+  trykke på det grønne flagget for at den skal roteres helt rundt.
 
 Du oppdager kanskje at det begynner å bli veldig mange klikk etterhvert?
 
@@ -102,7 +101,7 @@ gjøre jobben for oss!
 ## Sjekkliste {.check}
 
 - [ ] Vi legger til en `styring`{.blockcontrol}-kloss som ber hatten om å rotere
-      et bestemt antall ganger:
+  et bestemt antall ganger:
 
   ```blocks
   når grønt flagg klikkes
@@ -111,7 +110,7 @@ gjøre jobben for oss!
   ```
 
 - [ ] Tips: For hver gang du halverer vinkelen, må du doble antall repetisjoner
-      for at hatten skal snurre like langt.
+  for at hatten skal snurre like langt.
 
 
 # Steg 3: The final countdown {.activity}
@@ -136,8 +135,8 @@ __Klikk på det grønnet flagget.__
 - [ ] Roterer hatten hele veien rundt seg selv når du trykker på grønt flagg?
 
 - [ ] Ved å sette antall grader du roterer pr gang til 1, hvor mange ganger må
-      du rotere `Hattulf` for at han skal gjøre to fulle roteringer? Hva med tre
-      og en halv rotasjon? Ser disse tallene kjent ut?
+  du rotere `Hattulf` for at han skal gjøre to fulle roteringer? Hva med tre og
+  en halv rotasjon? Ser disse tallene kjent ut?
 
 ## Avslutning
 

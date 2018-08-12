@@ -1,8 +1,7 @@
 ---
 title: Astrokatt
-level: 1
-author: 'Geir Arne Hjelle'
-translator: 'Gro Anette Vestre'
+author: Geir Arne Hjelle
+translator: Gro Anette Vestre
 language: nn
 ---
 
@@ -23,32 +22,32 @@ Me begynner prosjektet vårt med å få katten til å fly!
 ## Sjekkliste {.check}
 
 - [ ] Start eit nytt prosjekt. Du vil sjå ein katt som ventar på å bli
-      programmert!
+  programmert!
 
 - [ ] Prøv å klikk på dei blå klossane midt på skjermen. For eksempel, om du
-      klikkar på
+  klikkar på
 
     ```blocks
         gå (10) steg
     ```
 
-    skal du sjå at katten flyttar litt på seg, og om du klikkar på
+  skal du sjå at katten flyttar litt på seg, og om du klikkar på
 
     ```blocks
         snu @turnRight (15) gradar
     ```
 
-    vil den snu seg! Desse klossane er kommandoer me kan gi til katten!
+  vil den snu seg! Desse klossane er kommandoer me kan gi til katten!
 
 - [ ] Legg merke til at over dei blå klossane er det fleire kategoriar av
-      kommandoar i forskjellige fargar, for eksempel `Utsjåande`{.blocklooks} og
-      `Lyd`{.blocksound}. Klikk på desse kategoriane og prøv nokre av klossane
-      du finn!
+  kommandoar i forskjellige fargar, for eksempel `Utsjåande`{.blocklooks} og
+  `Lyd`{.blocksound}. Klikk på desse kategoriane og prøv nokre av klossane du
+  finn!
 
 - [ ] For å setje saman fleire kommandoar til eit skript kan du dra klossar til
-      det store tomme området til høgre på skjermen.
+  det store tomme området til høgre på skjermen.
 
-    Prøv å pusla saman desse klossane (bruk fargane for å finne rett kategori):
+  Prøv å pusla saman desse klossane (bruk fargane for å finne rett kategori):
 
     ```blocks
         når @greenFlag vert trykt på
@@ -65,19 +64,18 @@ eit grønt flag. Over vindauga med katten til venstre er det eit grønt flag.
 __Klikk på det!__
 
 - [ ] Du skal sjå at katten flyttar seg rundt i ein sirkel. Les koden du laga
-      ein gong til. Forstår du kvifor katten går i sirkel?
+  ein gong til. Forstår du kvifor katten går i sirkel?
 
 - [ ] Prøv å endra tala i koden din. Kan du få katten til å gå saktere? I større
-      sirkler?
+  sirkler?
 
 ## Sjekkliste {.check}
 
 - [ ] Nå skal me endra litt på koden slik at me kan kontrollera korleis katten
-      bevegar seg. I kategorien `Sansing`{.blocksensing} fins ein kloss som
-      reagerar når ein tast er trykka på. Den kan me bruka til å styra katten
-      med piltastene.
+  bevegar seg. I kategorien `Sansing`{.blocksensing} fins ein kloss som reagerar
+  når ein tast er trykka på. Den kan me bruka til å styra katten med piltastene.
 
-    Bytt ut klossene i koden din slik at den blir sjåande slik ut:
+  Bytt ut klossene i koden din slik at den blir sjåande slik ut:
 
     ```blocks
         når @greenFlag vert trykt på
@@ -112,15 +110,15 @@ Nå skal me senda den flygande katten ut i verdsrommet.
 ## Sjekkliste {.check}
 
 - [ ] Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nedst til
-      venstre på skjermen for å henta inn ein ny bakgrunn. Vel bakgrunnen
-      `stars` som du finn i kategorien `Romfart`.
+  venstre på skjermen for å henta inn ein ny bakgrunn. Vel bakgrunnen `stars`
+  som du finn i kategorien `Romfart`.
 
 - [ ] Me skal og gi katten ein liten oksygentank, sidan den flyr rundt ute i
-      rommet. Klikk på katten i figurvinduet og deretter på fana `Drakter` øvst
-      på skjermen.
+  rommet. Klikk på katten i figurvinduet og deretter på fana `Drakter` øvst på
+  skjermen.
 
 - [ ] Vel først ein litt lys farge. Klikk deretter på Ellipse-verktøyet til
-      høgre på skjermen, og teikn ein ellipse rundt hovudet på katten.
+  høgre på skjermen, og teikn ein ellipse rundt hovudet på katten.
 
     ![Bilete av ein katt med ein glashjelm på hovudet](katt_oksygentank.png)
 
@@ -145,8 +143,8 @@ realistisk.
 ## Sjekkliste {.check}
 
 - [ ] Først kan me få jordkloden til å rotera. Dette er enkelt, me har jo
-      allereie gjort det for katten! Pass på at jordkloden er merka i
-      figurlista, og lag deretter dette skriptet:
+  allereie gjort det for katten! Pass på at jordkloden er merka i figurlista, og
+  lag deretter dette skriptet:
 
     ```blocks
         når @greenFlag vert trykt på
@@ -156,8 +154,8 @@ realistisk.
     ```
 
 - [ ] Vidare skal me gjera det slik at det ser ut som om katten flyr mot jorda.
-      Det gjør me ved å endra størrelsen slik at katten blir mindre jo nærmere
-      den kjem jordkloden.
+  Det gjør me ved å endra størrelsen slik at katten blir mindre jo nærmere den
+  kjem jordkloden.
 
   Klikk på katten i figurlista. Legg `set storleik til`{.blocklooks} nederst i
   `for alltid`{.blockcontrol}-løkka, slik at størrelsen på katten er avhengig av
@@ -190,34 +188,34 @@ __Klikk på det grøne flaget.__
 ## Sjekkliste {.check}
 
 - [ ] For å gjera det enda meir realistisk vil me forandra kor langt katten
-      flyttar seg med. Når den er langt unna oss flyttar den seg ikkje like
-      mange steg. Byt ut
+  flyttar seg med. Når den er langt unna oss flyttar den seg ikkje like mange
+  steg. Byt ut
 
     ```blocks
         gå (5) steg
     ```
 
-    med
+  med
 
     ```blocks
         gå ((avstand til [Earth v]) / (50)) steg
     ```
 
-    Denne klossen er litt komplisert fordi den er satt saman av tre forskjellige
-    klossar. Sjå på fargane så finn du dei rette klossane.
+  Denne klossen er litt komplisert fordi den er satt saman av tre forskjellige
+  klossar. Sjå på fargane så finn du dei rette klossane.
 
 - [ ] Av og til vil katten fly bak jordkloden. For å sleppe det kan du legge
-      klossen `legg øverst`{.blocklooks} først i katten sitt skript.
+  klossen `legg øverst`{.blocklooks} først i katten sitt skript.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grøne flaget.__
 
 - [ ] Flyr katten rundt omkring i verdsrommet? Kan du få den til å lande på
-      jorda?
+  jorda?
 
 - [ ] Prøv også å flytte jordkloden til andre stader på skjermen. Blir det
-      annleis å fly med katten nå?
+  annleis å fly med katten nå?
 
 
 # Steg 4: Gravitasjon {.activity}
@@ -228,7 +226,7 @@ la astrokatten vår bli påverka av gravitasjonen og.
 ## Sjekkliste {.check}
 
 - [ ] Lag eit nytt skript på katten. Du kan berre legge klossane ved sida av det
-      skriptet du allereie har laga. Skriptet skal sjå slik ut:
+  skriptet du allereie har laga. Skriptet skal sjå slik ut:
 
     ```blocks
         når @greenFlag vert trykt på
@@ -240,25 +238,25 @@ la astrokatten vår bli påverka av gravitasjonen og.
     ```
 
 - [ ] Når du testar programmet ditt ved å klikke på det grøne flaget, vil du sjå
-      at katten svevar mot jordkloden. Gravitasjonen trekker på den!
+  at katten svevar mot jordkloden. Gravitasjonen trekker på den!
 
 - [ ] MEN, me har eit problem: Me kan ikkje lengre styra katten! Kva har skjedd?
 
-    I det nye skriptet seier me at katten `for alltid`{.blockcontrol} skal
-    `peike mot`{.blockmotion} jordkloden. Då hjelper det jo ikkje at me i det
-    andre skriptet seier at katten skal snu seg.
+  I det nye skriptet seier me at katten `for alltid`{.blockcontrol} skal `peike
+  mot`{.blockmotion} jordkloden. Då hjelper det jo ikkje at me i det andre
+  skriptet seier at katten skal snu seg.
 
 - [ ] Det er ingen kommando i Scratch for å flytta ein figur mot ein annan.
-      Derfor må me peika katten mot jordkloden og deretter flytta den. Men me
-      kan få programmet til å virka igjen, om me berre hugsar kva retning katten
-      peikte før me snudde den.
+  Derfor må me peika katten mot jordkloden og deretter flytta den. Men me kan få
+  programmet til å virka igjen, om me berre hugsar kva retning katten peikte før
+  me snudde den.
 
   For at programmer skal hugsa ting bruker me variablar. Lag ein variabel ved å
- klikke på `Data`{.blockdata}-kategorien og deretter på `Lag ein variabel`. Kall
- variabelen `katteretning`.
+  klikke på `Data`{.blockdata}-kategorien og deretter på `Lag ein variabel`.
+  Kall variabelen `katteretning`.
 
 - [ ] Me kan nå bruke denne variabelen til å hugsa kva retning katten peikte.
-      Endra skriptet ditt ved å legge til to nye klossar:
+  Endra skriptet ditt ved å legge til to nye klossar:
 
     ```blocks
         når @greenFlag vert trykt på
@@ -278,14 +276,14 @@ __Klikk på det grøne flaget.__
 - [ ] Kan du styra katten igjen?
 
 - [ ] Dersom du ikkje trykker på nokon tastar, vil katten då falle ned mot
-      jorda?
+  jorda?
 
 - [ ] Legg merke til at dersom katten har kome veldig nær jorda klarar den ikkje
-      å fly tilbake til oss. Det er fordi gravitasjonen er kraftigare jo nærare
-      jorda ein er. Og når katten kjem nær jorda har den ikkje nok hastighet til
-      å unnsleppe jordas gravitasjon.
+  å fly tilbake til oss. Det er fordi gravitasjonen er kraftigare jo nærare
+  jorda ein er. Og når katten kjem nær jorda har den ikkje nok hastighet til å
+  unnsleppe jordas gravitasjon.
 
-    Korleis kan du endra på jordas gravitasjon og kattens hastighet?
+  Korleis kan du endra på jordas gravitasjon og kattens hastighet?
 
 ## Lagre spillet {.save}
 

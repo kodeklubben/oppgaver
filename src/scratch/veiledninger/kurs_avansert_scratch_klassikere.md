@@ -100,4 +100,3 @@ Nedenfor beskrives hvordan hver oppgave kan introduseres i felleskap:
   i smak, kan barna lære mye mer om plattformspill i det kurset. Den felles
   gjennomgangen bør her vektlegge hvordan man simulerer enkel gravitasjon ved
   hjelp av et par enkle variabler.
-

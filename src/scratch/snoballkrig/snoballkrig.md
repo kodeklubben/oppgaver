@@ -1,7 +1,6 @@
 ---
 title: Snøballkrig
-level: 4
-author: 'Geir Arne Hjelle'
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -19,7 +18,7 @@ raskere og vanskeligere å jage bort.
 # Steg 1: En snøballkaster {.activity}
 
 *Vi begynner med å lage oss en passelig bakgrunn, samt snøballkasteren som vi
- skal styre.*
+skal styre.*
 
 ## Sjekkliste {.check}
 
@@ -105,7 +104,7 @@ __Klikk på det grønne flagget.__
 # Steg 2: Mange snøballer {.activity}
 
 *Det blir ingen snøballkrig uten snøballer. La oss lage kjempemange av dem! Med
- kram snø!*
+kram snø!*
 
 ## Sjekkliste {.check}
 
@@ -155,8 +154,8 @@ __Klikk på det grønne flagget.__
 - [ ] Hva skjer når du trykker mellomrom-tasten? Kastes det snøballer i riktig
   retning?
 
-- [ ] Det ser kanskje ikke ut som om `Helten` kaster snøballene med hendene?
-  Du kan legge på noen `Bevegelse`{.blockmotion}-klosser rett før du
+- [ ] Det ser kanskje ikke ut som om `Helten` kaster snøballene med hendene? Du
+  kan legge på noen `Bevegelse`{.blockmotion}-klosser rett før du
   `vis`{.blocklooks}er snøballen for at det skal se bedre ut.
 
 - [ ] Som en liten utfordring kan du også prøve å legge på litt effekt av
@@ -177,7 +176,7 @@ __Klikk på det grønne flagget.__
 # Steg 3: Slemme gutter {.activity}
 
 *Nå skal vi se hvordan vi kan lage slemme gutter som prøver å ta oss. La oss
- jage dem bort med snøballer.*
+jage dem bort med snøballer.*
 
 ## Sjekkliste {.check}
 
@@ -252,10 +251,10 @@ __Klikk på det grønne flagget.__
 
 - [ ] Dukker det opp skumlinger? Kommer de fra begge sider? Går de mot midten?
 
-- [ ] Hva skjer når en `Skumling` blir truffet av en __Snøball__? Du kan
-  kanskje legge på en passende lydeffekt og animasjon før klonen slettes? Vi ser
-  også at snøballen flyr videre etter at den har truffet en `Skumling`. Prøv å
-  endre i skriptet for __Snøball__ slik at snøballen også blir borte.
+- [ ] Hva skjer når en `Skumling` blir truffet av en __Snøball__? Du kan kanskje
+  legge på en passende lydeffekt og animasjon før klonen slettes? Vi ser også at
+  snøballen flyr videre etter at den har truffet en `Skumling`. Prøv å endre i
+  skriptet for __Snøball__ slik at snøballen også blir borte.
 
 - [ ] Hva skjer når en `Skumling` tar `Helten`?
 
@@ -276,9 +275,9 @@ __Klikk på det grønne flagget.__
 - [ ] Endre `Poeng`{.blockdata} med 1 når en `Skumling` blir truffet av en
   snøball.
 
-Vi har tidligere laget meldingen `slutt` som sendes ut når `Helten` blir tatt
-av en `Skumling`. Nå vil vi bruke denne til å avslutte spillet. Men først, la
-oss lage en meny og en bakgrunn som forteller oss at vi tapte.
+Vi har tidligere laget meldingen `slutt` som sendes ut når `Helten` blir tatt av
+en `Skumling`. Nå vil vi bruke denne til å avslutte spillet. Men først, la oss
+lage en meny og en bakgrunn som forteller oss at vi tapte.
 
 - [ ] Klikk på `Scene` til venstre for `Figurer`, og velg `Bakgrunner`-fanen.
   Lag to kopier av bakgrunnen din og kall dem henholdsvis `Meny` og `Slutt`.

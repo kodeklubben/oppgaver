@@ -1,8 +1,7 @@
 ---
 title: Tegneprogram
-level: 3
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Helge Astad og Anne-Marit Gravem'
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Helge Astad og Anne-Marit Gravem
 language: nb
 ---
 
@@ -121,7 +120,7 @@ __Klikk på det grønne flagget.__
 # Steg 2: Rydde opp {.activity}
 
 *I stedet for å måtte starte og stoppe prosjektet for å slette tavla kan vi lage
- en knapp som sletter alt i stedet.*
+en knapp som sletter alt i stedet.*
 
 Vi kan fortsatt bruke `slett`{.blockpen}-klossen.
 
@@ -220,8 +219,8 @@ __Klikk på det grønne flagget.__
 # Steg 4: Bare tegne på tavla {.activity}
 
 *Du har sikkert lagt merke til at man kan tegne over hele scenen, og det blir jo
- litt rotete. Skal vi begrense skriblingen til bare den lysegrå tavla må vi
- sette grenser for hvor blyanten kan gå.*
+litt rotete. Skal vi begrense skriblingen til bare den lysegrå tavla må vi sette
+grenser for hvor blyanten kan gå.*
 
 Du husker kanskje at Scratch definerer punkter på scenen ved hjelp av `x`- og
 `y`-koordinater. Når du flytter musepekeren rundt omkring vil du se disse

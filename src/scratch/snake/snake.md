@@ -1,7 +1,6 @@
 ---
 title: Snake
-level: 4
-author: 'Geir Arne Hjelle og Martin Lie'
+author: Geir Arne Hjelle og Martin Lie
 language: nb
 ---
 
@@ -26,8 +25,8 @@ konkurrerer om å spise eplene og om å stenge hverandre inne.
 # Oversikt over prosjektet {.activity}
 
 *Mesteparten av kodingen av Snake skal du gjøre selv. I Snake bruker vi kloner
- på en litt spesiell og ganske smart måte. Vi vil derfor fokusere på kloning i
- begynnelsen av denne leksjonen.*
+på en litt spesiell og ganske smart måte. Vi vil derfor fokusere på kloning i
+begynnelsen av denne leksjonen.*
 
 ## Plan {.check}
 
@@ -43,9 +42,9 @@ konkurrerer om å spise eplene og om å stenge hverandre inne.
 # Steg 1: Slangen flytter på seg ... eller? {.activity}
 
 *Snake er i prinsippet et enkelt spill å lage. Men en utfordring er hvordan
- selve slangen skal flyttes rundt. Først virker det kanskje som om man trenger
- en eller annen liste som husker hvor hver del av slangen er slik at man kan
- flytte den.*
+selve slangen skal flyttes rundt. Først virker det kanskje som om man trenger en
+eller annen liste som husker hvor hver del av slangen er slik at man kan flytte
+den.*
 
 I stedet for å bruke lister skal vi bruke kloning på en litt spesiell måte. Husk
 at når vi kloner kopierer vi både utseendet og oppførselen til en figur. Vi vil
@@ -156,7 +155,7 @@ selv trenger vi bare å endre retningen når piltastene trykkes.
 # Steg 3: Epler og annet snadder {.activity}
 
 *Nå skal vi gi slangen litt mål og mening. Ved å spise epler kan slangen vokse
- seg stor og sterk!*
+seg stor og sterk!*
 
 Eplene er ganske enkle å lage da vi bare trenger en figur som blir borte når
 slangen spiser dem. For å enklere kunne utvide med flere epler og slikt senere
@@ -198,7 +197,7 @@ bruker vi kloner av eplene også.
 # Steg 4: Videreutvikling av spillet {.activity}
 
 *Du står helt fritt i hvordan du vil jobbe videre med spillet ditt, men her er
- noen ideer som kan gjøre spillet enda morsommere å spille:*
+noen ideer som kan gjøre spillet enda morsommere å spille:*
 
 ## Ideer til videreutvikling {.check}
 
@@ -237,4 +236,3 @@ bruker vi kloner av eplene også.
 - [ ] Spillet ditt fortjener også en forside og en meny som kan starte spillet.
   Her kan du også la spillerene velge vanskelighetsgrad ved å endre på ting som
   lengde, hastighet, hinder i banen og så videre.
-

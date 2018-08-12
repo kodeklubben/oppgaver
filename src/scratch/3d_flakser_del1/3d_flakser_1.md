@@ -1,7 +1,6 @@
 ---
-title: '3D-flakser, del 1'
-level: 4
-author: 'Gudbrand Tandberg og Geir Arne Hjelle'
+title: 3D-flakser, del 1
+author: Gudbrand Tandberg og Geir Arne Hjelle
 language: nb
 ---
 
@@ -106,7 +105,7 @@ putte i denne klossen for at det skal se bra ut?
 # Steg 2: Få ringene til å dukke opp tilfeldige steder {.activity}
 
 *For at spillet skal bli mest mulig utfordrende så burde ringene dukke opp på
- forskjellige steder hver gang.*
+forskjellige steder hver gang.*
 
 Å først få dem til å dukke opp på forskjellige steder er ikke så vanskelig, men
 å få dem til å vokse på riktig måte er litt vrient.
@@ -153,8 +152,7 @@ mot deg! Nå kan du ta et pust i bakken og se over det du har skrevet så langt.
 # Steg 3: Styr en flaksefigur med piltastene {.activity}
 
 *I neste del av dette kurset skal vi få en figur til å fly gjennom ringene. I
- dette steget skal vi lage den figuren, men ikke kode all flyveoppførselen
- dens.*
+dette steget skal vi lage den figuren, men ikke kode all flyveoppførselen dens.*
 
 ## Sjekkliste {.check}
 

@@ -1,8 +1,7 @@
 ---
-title: '3D-flaksar, del 1'
-level: 4
-author: 'Gudbrand Tandberg og Geir Arne Hjelle'
-translator: 'Gro Anette Vestre'
+title: 3D-flaksar, del 1
+author: Gudbrand Tandberg og Geir Arne Hjelle
+translator: Gro Anette Vestre
 language: nn
 ---
 
@@ -61,16 +60,15 @@ klikkar på det grøne flaget.
 ## Sjekkliste {.check}
 
 Dei to skripta me har til no er ein OK start, men dei er ikkje gode nok til å
-verkeleg kallast 3D! Tenk litt på korleis det virkar som om noko veks i
-storleik når det kjem mot deg. Når det er langt unna så veks det ganske sakte,
-medan når det er nærare så veks det mykje fortare. Dette skal me få til ved
-hjelp av ein *variabel* som me kallar `distanse`{.blockdata}. Når
-`distanse`{.blockdata} er stor, så er ringen langt borte, og skal vekse sakte.
-Når `distanse`{.blockdata} er lita så betyr det at ringen er nære, og den skal
-vekse fort.
+verkeleg kallast 3D! Tenk litt på korleis det virkar som om noko veks i storleik
+når det kjem mot deg. Når det er langt unna så veks det ganske sakte, medan når
+det er nærare så veks det mykje fortare. Dette skal me få til ved hjelp av ein
+*variabel* som me kallar `distanse`{.blockdata}. Når `distanse`{.blockdata} er
+stor, så er ringen langt borte, og skal vekse sakte. Når `distanse`{.blockdata}
+er lita så betyr det at ringen er nære, og den skal vekse fort.
 
 - [ ] Lag ein variabel som heiter `distanse`{.blockdata}. Pass på at den berre
-gjeld for denne figuren.
+  gjeld for denne figuren.
 
 - [ ] Endre skriptet til dette:
 
@@ -88,7 +86,7 @@ gjeld for denne figuren.
     ```
 
 - [ ] Det kan hende du må endra litt på tala i skriptet over for at det skal sjå
-bra ut. Prøv deg fram!
+  bra ut. Prøv deg fram!
 
 ## Utfordring: Gjennomsiktig effekt {.challenge}
 
@@ -120,14 +118,14 @@ forskjellige stader kvar gong.*
         gå til x: (tilfeldig tal frå (-100) til (100)) y: (tilfeldig tal frå (-100) til (100))
     ```
 
-    Det ser ganske bra ut, men ikkje helt rett, eller kva? Det er fordi
-    *midtpunktet* til ringen er på same stad heile tida medan ringen er på veg
-    mot deg. For at det skal sjå ut som at den susar *forbi deg* så må du heile
-    tida flytta på ringen medan den er på veg mot deg. For å få det til å
-    fungera må ringklonen hugsa kor den dukka opp til å begynne med.
+  Det ser ganske bra ut, men ikkje helt rett, eller kva? Det er fordi
+  *midtpunktet* til ringen er på same stad heile tida medan ringen er på veg mot
+  deg. For at det skal sjå ut som at den susar *forbi deg* så må du heile tida
+  flytta på ringen medan den er på veg mot deg. For å få det til å fungera må
+  ringklonen hugsa kor den dukka opp til å begynne med.
 
 - [ ] Lag variabler `ringX`{.blockdata} og `ringY`{.blockdata} som *berre gjeld
-for ringfiguren*.
+  for ringfiguren*.
 
 - [ ] Erstatt blokka som først plasserar ringen med dette:
 
@@ -137,9 +135,9 @@ for ringfiguren*.
         gå til x: (ringX) y: (ringY)
     ```
 
-    Forhåpentligvis har ikkje oppførselen til ringane endra seg endå. For å få
-    midtpunktet til ringane til å flytta på seg medan ringane kjem mot deg kan
-    du putte følgjande blokk ein stad inni løkka kor ringen veks:
+  Forhåpentligvis har ikkje oppførselen til ringane endra seg endå. For å få
+  midtpunktet til ringane til å flytta på seg medan ringane kjem mot deg kan du
+  putte følgjande blokk ein stad inni løkka kor ringen veks:
 
     ```blocks
         gå til x: ((ringX) / (distanse)) y: ((ringY) / (distanse))
@@ -159,12 +157,12 @@ seg.*
 
 ## Sjekkliste {.check}
 
-- [ ] Lag ein ny figur. Det er best om den er symmetrisk, slik at det kan sjå
-ut som om den flyg innover i skjermen utan at det ser teit ut, bruk til dømes
-flaggermus-figuren. Kall den __Flakse__.
+- [ ] Lag ein ny figur. Det er best om den er symmetrisk, slik at det kan sjå ut
+  som om den flyg innover i skjermen utan at det ser teit ut, bruk til dømes
+  flaggermus-figuren. Kall den __Flakse__.
 
 - [ ] Lag to nye variablar, `x`{.blockdata} og `y`{.blockdata}. La dei gjelde
-*for alle figurer*.
+  *for alle figurer*.
 
 - [ ] Gi Flakse følgjande skript:
 
@@ -192,41 +190,41 @@ flaggermus-figuren. Kall den __Flakse__.
         slutt
     ```
 
-    No blir `x`{.blockdata} og `y`{.blockdata} endra når du styrar med
-    piltastane. Me venter litt inni kvar `viss`{.blockcontrol}-test slik at
-    `x`{.blockdata} og `y`{.blockdata} ikkje plutseleg veks over alle grenser.
-    Test gjerne kva som skjer dersom me ikkje ventar.
+  No blir `x`{.blockdata} og `y`{.blockdata} endra når du styrar med piltastane.
+  Me venter litt inni kvar `viss`{.blockcontrol}-test slik at `x`{.blockdata} og
+  `y`{.blockdata} ikkje plutseleg veks over alle grenser. Test gjerne kva som
+  skjer dersom me ikkje ventar.
 
 - [ ] No vil me at posisjonen til ringane skal endra seg når me styrer. Det kan
-me få til ved å endra klossen
+  me få til ved å endra klossen
 
     ```blocks
         gå til x: ((ringX) / (distanse)) y: ((ringY) / (distanse))
     ```
 
-    til dette:
+  til dette:
 
     ```blocks
         gå til x: (((ringX)-(x)) / (distanse)) y: (((ringY) - (y)) / (distanse))
     ```
 
-    Ser det rett ut no? No er me i grunnen ferdig med det som trengst for å gå
-    vidare til del 2. I del 2 skal me få det til å virke som om Flakse flaksar
-    når me trykkjer på mellomromstasten, akkurat som i Flappy Bird og
-    Flaksefugl. Prøv deg på desse utfordringane viss du har att meir tid.
+  Ser det rett ut no? No er me i grunnen ferdig med det som trengst for å gå
+  vidare til del 2. I del 2 skal me få det til å virke som om Flakse flaksar når
+  me trykkjer på mellomromstasten, akkurat som i Flappy Bird og Flaksefugl. Prøv
+  deg på desse utfordringane viss du har att meir tid.
 
 ## Ting å prøve {.try}
 
 - [ ] Er det mogleg å styra figuren gjennom alle ringane? Husk at spelet skal
-vera akkurat passe vanskeleg, og i alle fall ikkje umogleg. Gå gjennom alle
-skripta og endra på verdiane slik at spelet er kjekt å spela, og slik at det
-ser bra ut. Kanskje du må endra på storleiken til ringen, kor mykje ringane
-skal veksa, kor mykje `x` og `y` endrar seg når du trykkjer på pilane, kor
-lenge me ventar eller nokon av dei andre verdiane.
+  vera akkurat passe vanskeleg, og i alle fall ikkje umogleg. Gå gjennom alle
+  skripta og endra på verdiane slik at spelet er kjekt å spela, og slik at det
+  ser bra ut. Kanskje du må endra på storleiken til ringen, kor mykje ringane
+  skal veksa, kor mykje `x` og `y` endrar seg når du trykkjer på pilane, kor
+  lenge me ventar eller nokon av dei andre verdiane.
 
 - [ ] Teikne din eigen figur! Flaggermusfiguren er kanskje ikkje heilt perfekt.
-Prøv å sjå om du kan finna nokre bilete på nettet du kan bruka, eller teikne
-din heilt eigen figur (den burde vera eit fugleliknande dyr). Hugs at det ser
-mykje betre ut om figuren er symmetrisk. Det er lurt å gi figuren to draktar;
-ein med vingene ned og ein med vingene opp. Då kan me seinere få Flakse til å
-flaksa!
+  Prøv å sjå om du kan finna nokre bilete på nettet du kan bruka, eller teikne
+  din heilt eigen figur (den burde vera eit fugleliknande dyr). Hugs at det ser
+  mykje betre ut om figuren er symmetrisk. Det er lurt å gi figuren to draktar;
+  ein med vingene ned og ein med vingene opp. Då kan me seinere få Flakse til å
+  flaksa!

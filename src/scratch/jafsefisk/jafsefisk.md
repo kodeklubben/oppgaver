@@ -1,8 +1,7 @@
 ---
 title: JafseFisk
-level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Anne-Marit Gravem'
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Anne-Marit Gravem
 language: nb
 ---
 
@@ -121,7 +120,7 @@ __Klikk på det grønne flagget.__
 - [ ] Ser bevegelsene naturlige ut?
 
 *For øyeblikket samspiller ikke JafseFisk og byttedyret med hverandre. Det skal
- vi gjøre noe med i neste steg.*
+vi gjøre noe med i neste steg.*
 
 ## Ting å prøve {.challenge}
 
@@ -172,8 +171,8 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 *Hvordan kan vi sikre at byttet bare forsvinner hvis det berører JafseFisks
- munn? Tja, vi kan bruke `<berører fargen [#FFFFFF]?>`{.b} og se om den berører
- det hvite på fiskens tenner.*
+munn? Tja, vi kan bruke `<berører fargen [#FFFFFF]?>`{.b} og se om den berører
+det hvite på fiskens tenner.*
 
 - [ ] Legg til `<berører fargen [#FFFFFF]?>`{.b} i tillegg til `<berører
   [JafseFisk v]?>`{.b} i skriptet ditt. For å velge hvit klikker du på fargen i
@@ -205,14 +204,14 @@ __Klikk på det grønne flagget.__
 
 - [ ] Forsvinner byttet bare når det berører fiskens tenner?
 
-- [ ] Kommer det tilbake et tilfeldig sted på skjermen – altså ikke samme
-  sted som det ble spist?
+- [ ] Kommer det tilbake et tilfeldig sted på skjermen – altså ikke samme sted
+  som det ble spist?
 
 
 # Steg 4: JafseFisk reagerer {.activity}
 
 *JafseFisk må vite når den har spist noe slik at den kan gi fra seg en lyd og
- bytte drakt.*
+bytte drakt.*
 
 ## Sjekkliste {.check}
 
@@ -383,8 +382,8 @@ __Klikk på det grønne flagget.__
 Legg til en belønning med mange bonuspoeng om du klarer å spise alle fiskene
 samtidig. Hvordan kan du vite hvor mange som er spist?
 
-__Hint:__ En måte å gjøre dette på er å bruke en variabel for å
-__telle__ hvor mange byttedyr som svømmer i havet.
+__Hint:__ En måte å gjøre dette på er å bruke en variabel for å __telle__ hvor
+mange byttedyr som svømmer i havet.
 
 ## Test prosjektet {.flag}
 

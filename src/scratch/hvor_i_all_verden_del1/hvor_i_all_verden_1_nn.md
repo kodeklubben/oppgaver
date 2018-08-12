@@ -1,8 +1,7 @@
 ---
-title: 'Kor i all verda? Del 1'
-level: 3
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+title: Kor i all verda? Del 1
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -97,6 +96,7 @@ __Klikk på det grøne flagget.__
 - [ ] Kva gjer klossen `bruk roteringstypen vend sidevegs`{.blockmotion}? Prøv å
   endre verdiane i nedtrekksmenyen for å sjå kva som skjer.
 
+
 # Steg 2: Eit enkelt kart {.activity}
 
 *No skal me leggje inn eit kart som bakgrunn. I denne delen skal me flyge over
@@ -175,6 +175,7 @@ __Klikk på det grøne flagget.__
 - [ ] Ligg den raude sirkelen der den skal vere?
 
 - [ ] Kva skjer om du styrer helikopteret til den raude sirkelen?
+
 
 # Steg 4: Skjul reisemålet {.activity}
 
@@ -285,8 +286,8 @@ to sekund.
 
   rett før den ytre `gjenta`{.blockcontrol}-løkka.
 
-- [ ] For at sirkelen skal slutte å seie `Fann Barcelona!` etter at
-  animasjonen er slutt må du leggje klossen
+- [ ] For at sirkelen skal slutte å seie `Fann Barcelona!` etter at animasjonen
+  er slutt må du leggje klossen
 
   ```blocks
   sei [ ]

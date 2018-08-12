@@ -1,7 +1,6 @@
 ---
-title: '3D-flakser, del 2'
-level: 4
-author: 'Gudbrand Tandberg og Geir Arne Hjelle'
+title: 3D-flakser, del 2
+author: Gudbrand Tandberg og Geir Arne Hjelle
 language: nb
 ---
 

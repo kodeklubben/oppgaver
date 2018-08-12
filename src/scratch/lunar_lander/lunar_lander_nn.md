@@ -1,8 +1,7 @@
 ---
-title: 'Lunar Lander'
-level: 4
-author: 'Geir Arne Hjelle'
-translator: 'Gro Anette Vestre'
+title: Lunar Lander
+author: Geir Arne Hjelle
+translator: Gro Anette Vestre
 language: nn
 ---
 
@@ -69,10 +68,10 @@ til den skrå streken.
   rett etter at det grønne flagget er klikket.
 
 - [ ] Lag to nye variable, `fartX`{.blockdata} og `fartY`{.blockdata} som gjeld
-      kun for denne romskip-figuren.
+  kun for denne romskip-figuren.
 
 - [ ] Me lagar først hovedløkka som lar romskipet falle, kun påvirka av
-      tyngdekrafta. Skriv denne koden:
+  tyngdekrafta. Skriv denne koden:
 
   ```blocks
       når eg får meldinga [Nytt spel v]
@@ -99,7 +98,7 @@ til den skrå streken.
   om du lar tyngdekraften vera positiv.
 
 - [ ] Me vil nå programmera kontrollen av romskipet. Først og fremst vil me at
-      romskipet vender seg når me trykker på piltastene mot høgre og venstre.
+  romskipet vender seg når me trykker på piltastene mot høgre og venstre.
 
   Legg til to `viss`{.blockcontrol}-blokker inne i `for
   alltid`{.blockcontrol}-løkken hvor du `vender`{.blockmotion} romskipet for
@@ -107,9 +106,9 @@ til den skrå streken.
   på.
 
 - [ ] Når du trykker pil opp-tasten vil me at romskipet skal få litt ekstra fart
-      i den retninga romskipet peikar. Som me snakka om tidlegare kan me bruke
-      dei matematiske funksjonane sinus og cosinus for å få til dette. Legg og
-      til denne blokken inne i `for alltid`{.blockcontrol}-løkken din.
+  i den retninga romskipet peikar. Som me snakka om tidlegare kan me bruke dei
+  matematiske funksjonane sinus og cosinus for å få til dette. Legg og til denne
+  blokken inne i `for alltid`{.blockcontrol}-løkken din.
 
   ```blocks
       viss <tasten [pil opp v] er trykt?>
@@ -129,8 +128,8 @@ til den skrå streken.
   korleis ein målar vinklar i matematikk.
 
 - [ ] Prøv spelet ditt. Kan du styra romskipet rundt på skjermen? Dersom du
-      synes romskipet flyr for raskt eller sakte kan du justera `endra
-      fart`{.blockdata}-klossene, for eksempel slik,
+  synes romskipet flyr for raskt eller sakte kan du justera `endra
+  fart`{.blockdata}-klossene, for eksempel slik,
 
   ```blocks
       endra [fartX v] med ((0.3) * ((0) - ([cos v] av (retning))))
@@ -147,22 +146,21 @@ til den skrå streken.
 ## Sjekkliste {.check}
 
 - [ ] Lag ein ny bakgrunn, der du teiknar eit passande månelandskap. Gjer det så
-      lett eller vanskelig som du sjølv vil. Teikn og inn ein eller fleire
-      landingsplasser der romskipet skal landa. Me vil bruka `rører
-      fargen`{.blocksensing}-klosser for å sjekka landinga seinare, så det
-      enklaste er å bruka ein farge for landskapet og ein annan for
-      landingsplassen.
+  lett eller vanskelig som du sjølv vil. Teikn og inn ein eller fleire
+  landingsplasser der romskipet skal landa. Me vil bruka `rører
+  fargen`{.blocksensing}-klosser for å sjekka landinga seinare, så det enklaste
+  er å bruka ein farge for landskapet og ein annan for landingsplassen.
 
 - [ ] For at romskipet skal slutta å fly når det treff bakken kan du byte ut
-      `for alltid`{.blockcontrol}-løkk med ein `gjenta til`{.blockcontrol}-løkke
-      der du testar på om romskipet `rører fargen`{.blocksensing} du har brukt
-      på landskapet eller på landingsplassen.
+  `for alltid`{.blockcontrol}-løkk med ein `gjenta til`{.blockcontrol}-løkke der
+  du testar på om romskipet `rører fargen`{.blocksensing} du har brukt på
+  landskapet eller på landingsplassen.
 
 - [ ] Legg og til ein `send meldinga [Sjekk landing v]`{.b} rett etter `gjenta
-      til`{.blockcontrol}-løkken.
+  til`{.blockcontrol}-løkken.
 
 - [ ] Prøv spelet ditt igjen. Du skal nå kunne fly rundt heilt til romskipet
-      kjem nær bakken.
+  kjem nær bakken.
 
 
 # Steg 3: Klar for landing {.activity}
@@ -172,7 +170,7 @@ til den skrå streken.
 ## Sjekkliste {.check}
 
 - [ ] Når me sjekkar landinga til romskipet vil me skilje mellom tre
-      forskjellige tilfeller:
+  forskjellige tilfeller:
 
   __1__: Romskipet landa utanfor landingsplassen (kræsjet).
 
@@ -189,9 +187,9 @@ til den skrå streken.
   `retning`{.blockmotion} er mellom `80` og `100`.
 
 - [ ] Finn ein måte å fortelje spelaren korleis romskipet landa. Det enklaste er
-      kanskje å berre bruka ein `sei`{.blocklooks}-kloss. Men du kan og bruka
-      lydeffekter, forskjellige draktar eller kanskje ein tekstplakat som dukkar
-      opp.
+  kanskje å berre bruka ein `sei`{.blocklooks}-kloss. Men du kan og bruka
+  lydeffekter, forskjellige draktar eller kanskje ein tekstplakat som dukkar
+  opp.
 
 
 # Steg 4: Vidareutvikling av spelet {.activity}
@@ -203,41 +201,41 @@ men nedanfor er nokre idear som kanskje kan vera til inspirasjon?*
 ## Idear til vidareutvikling {.check}
 
 - [ ] Lag fleire landingsplasser. Kanskje nokon kan vera vanskeligare enn andre
-      å lande på (enten på grunn av terrenget eller fordi sjølve landingsplassen
-      er mindre).
+  å lande på (enten på grunn av terrenget eller fordi sjølve landingsplassen er
+  mindre).
 
 - [ ] Lag fleire bakgrunnar eller brett. Du kan enten la spelaren velje seg ein
-bakgrunn å spela på i starten av spelet, eller gå vidare frå brett til brett
-etterkvart som spelaren klarar å landa.
+  bakgrunn å spela på i starten av spelet, eller gå vidare frå brett til brett
+  etterkvart som spelaren klarar å landa.
 
 - [ ] Du kan og bruka fleire bakgrunnar som eit brett. Dersom romskipet flyr ut
-      av skjermen på høgre sida kan du la det dukke opp igjen på venstre sida av
-      ein annan bakgrunn, og motsatt.
+  av skjermen på høgre sida kan du la det dukke opp igjen på venstre sida av ein
+  annan bakgrunn, og motsatt.
 
 - [ ] Prøv å animera bruken av motoren. For eksempel, kan du laga ein kopi av
-      den flyvande romskip-drakten, og endre den som følger. Klikk først på
-      romskipet, og deretter på den nye knappen som dukker opp nederst i
-      knapperekka (markert med rødt i figuren til venstre). Denne vil dela opp
-      romskip-figuren i mindre deler. Vel ein passande flammefarge, og bruk
-      malingsspannet til å fargeleggje dei tre finnane på romskipet slik at det
-      ser ut som flammer som kjem frå motoren.
+  den flyvande romskip-drakten, og endre den som følger. Klikk først på
+  romskipet, og deretter på den nye knappen som dukker opp nederst i knapperekka
+  (markert med rødt i figuren til venstre). Denne vil dela opp romskip-figuren i
+  mindre deler. Vel ein passande flammefarge, og bruk malingsspannet til å
+  fargeleggje dei tre finnane på romskipet slik at det ser ut som flammer som
+  kjem frå motoren.
 
   ![Bilete av ein kopi av romskipet med flammer på](animer_romskip.png)
 
 - [ ] Ein av utfordringane i det originale Lunar Lander-spelet var at spelaren
-      berre hadde begrensa drivstoff tilgjengeleg. Du kan leggje til dette i
-      ditt spel ved å laga ein `Drivstoff`{.blockdata}-variabel som du lar bli
-      stadig mindre etterkvart som spelaren trykker på piltastane. Dersom
-      romskipet går tomt for drivstoff kan du ignorere tastetrykka frå spelaren
-      og berre la romskipet sveva til det til slutt kræsjer.
+  berre hadde begrensa drivstoff tilgjengeleg. Du kan leggje til dette i ditt
+  spel ved å laga ein `Drivstoff`{.blockdata}-variabel som du lar bli stadig
+  mindre etterkvart som spelaren trykker på piltastane. Dersom romskipet går
+  tomt for drivstoff kan du ignorere tastetrykka frå spelaren og berre la
+  romskipet sveva til det til slutt kræsjer.
 
 - [ ] Du kan laga forskjellige bonusting som spelaren kan plukka opp. For å
-      gjøre det litt utfordrande kan du la desse liggje på måneoverflaten slik
-      at spelaren må manøvrera forsiktig for å få tak i dei. Eksempler på slike
-      bonusting kan vera ekstra drivstoff, bonuspoeng, større landingsplass og
-      så vidare.
+  gjøre det litt utfordrande kan du la desse liggje på måneoverflaten slik at
+  spelaren må manøvrera forsiktig for å få tak i dei. Eksempler på slike
+  bonusting kan vera ekstra drivstoff, bonuspoeng, større landingsplass og så
+  vidare.
 
 - [ ] Ein større endring i spelet kan vera at landingsplassen er skjult under
-      bakken når spelet startar og spelaren må grave denne fram ved å sleppe
-      bomber frå romskipet. Du kan implementera dette for eksempel ved bruk av
-      nokre av klossane under `Penn`{.blockpen}-kategorien.
+  bakken når spelet startar og spelaren må grave denne fram ved å sleppe bomber
+  frå romskipet. Du kan implementera dette for eksempel ved bruk av nokre av
+  klossane under `Penn`{.blockpen}-kategorien.

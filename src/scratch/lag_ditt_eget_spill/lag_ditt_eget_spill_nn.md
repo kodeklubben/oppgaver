@@ -1,8 +1,7 @@
 ---
-title: 'Lag ditt eige spel'
-level: 4
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: Lag ditt eige spel
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 

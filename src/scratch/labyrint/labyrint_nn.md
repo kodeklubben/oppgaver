@@ -1,25 +1,26 @@
 ---
 title: Labyrint
-level: 1
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
+
 
 # Introduksjon {.intro}
 
 I dette spelet skal me kontrollere ein liten utforskar medan han leitar etter
-skatten gøymt inne i  labyrinten. Diverre er skatten beskytta av den skumle
+skatten gøymt inne i labyrinten. Diverre er skatten beskytta av den skumle
 froskekongen. Me vil lære korleis me kontrollerer figurar og korleis me kan
 programmere figurar til å bevege seg sjølv.
 
 ![Bilete av labyrinten, froskekongen, utforskaren og skatten](labyrint.png)
 
+
 # Steg 1: Korleis styre figurar med piltastane {.activity}
 
 *Me startar med å sjå korleis me kan styre figurar med piltastane. For å få til
- dette vil me bruke `Hendingar`{.blockevents}-klossar som merkar når ein trykkar
- på tastaturet.*
+dette vil me bruke `Hendingar`{.blockevents}-klossar som merkar når ein trykkar
+på tastaturet.*
 
 ## Sjekkliste {.check}
 
@@ -27,10 +28,9 @@ programmere figurar til å bevege seg sjølv.
 
 - [ ] Slett kattefiguren ved å høgreklikke på den og velje `slett`.
 
-- [ ] Legg til ein ny figur. Klikk på
-  ![Vel figur frå biblioteket](../bilder/hent-fra-bibliotek.png)-knappen
-  og vel ein figur du har lyst til å styre rundt. Me har brukt
-  `Dyr/Beetle`-figuren.
+- [ ] Legg til ein ny figur. Klikk på ![Vel figur frå
+  biblioteket](../bilder/hent-fra-bibliotek.png)-knappen og vel ein figur du har
+  lyst til å styre rundt. Me har brukt `Dyr/Beetle`-figuren.
 
 - [ ] Gi den nye figuren namnet `Utforskar` ved å klikke på `i`{.blockmotion}.
 
@@ -83,13 +83,14 @@ blir for mykje jobb!
 Me vil i staden bruke ein __variabel__ som kan styre farta til
 `Utforskar`-figuren.
 
-- [ ] Lag ein ny variabel ved å gå til `Data`{.blockdata}-kategorien og
-  klikk `Lag en variabel`.
+- [ ] Lag ein ny variabel ved å gå til `Data`{.blockdata}-kategorien og klikk
+  `Lag en variabel`.
 
-- [ ] Kall variabelen `hastigheit`, og vel at den berre skal gjelde `For
-  denne figuren`.
+- [ ] Kall variabelen `hastigheit`, og vel at den berre skal gjelde `For denne
+  figuren`.
 
 - [ ] Til slutt må du fjerne avhukinga ved sidan av den nye
+
 - `(hastigheit)`{.b}-klossen for at variabelen ikkje skal visast på scena.
 
 No må me endre i skripta våre slik at dei brukar `(hastigheit)`{.b}-variabelen.
@@ -137,7 +138,7 @@ __Klikk på det grøne flagget.__
 # Steg 2: Me teiknar vår eigen labyrint {.activity}
 
 *No som me kan bevege utforskaren vår rundt omkring på skjermen skal me gi han
- ei utfordring! Me vil teikne ein labyrint som han kan bevege seg rundt inni.*
+ei utfordring! Me vil teikne ein labyrint som han kan bevege seg rundt inni.*
 
 ## Sjekkliste {.check}
 
@@ -171,8 +172,8 @@ __Klikk på det grøne flagget.__
 
 - [ ] Kan du bevege utforskarfiguren din rundt inne i labyrinten?
 
-- [ ] Dersom figuren din er for stor kan du gjere den mindre ved å trykkje
-  på ![krymp](../bilder/krymp.png)-knappen på toppen av skjermen.
+- [ ] Dersom figuren din er for stor kan du gjere den mindre ved å trykkje på
+  ![krymp](../bilder/krymp.png)-knappen på toppen av skjermen.
 
 - [ ] Kva skjer viss figuren din går på veggen i labyrinten?
 
@@ -180,7 +181,7 @@ __Klikk på det grøne flagget.__
 # Steg 3: Utforskaren kan ikkje gå gjennom veggen {.activity}
 
 *Sjølv om me har teikna ein flott labyrint bryr ikkje utforskaren seg noko om
- den. Han kan berre gå gjennom veggane. Det skal me gjere noko med no*
+den. Han kan berre gå gjennom veggane. Det skal me gjere noko med no*
 
 ## Sjekkliste {.check}
 
@@ -189,8 +190,8 @@ me bruke ein `<rører fargen [#ffffff]>`{.b}-kloss. Denne klossen merkar om ein
 figur kjem borti ei særskilt farge. Her er det viktig at me har teikna alle
 veggane i labyrinten i same farge.
 
-- [ ] Me legg `<rører fargen [#ffffff]>`{.b}-klossen inn i skriptet me
-  allereie har laga som set `(hastigheit)`{.b}-variabelen.
+- [ ] Me legg `<rører fargen [#ffffff]>`{.b}-klossen inn i skriptet me allereie
+  har laga som set `(hastigheit)`{.b}-variabelen.
 
   ```blocks
   når @greenFlag vert trykt på
@@ -205,8 +206,8 @@ veggane i labyrinten i same farge.
   ```
 
 - [ ] For å få rett farge i `rører fargen [#cc0000]`{.b}-klossen klikkar du
-  fyrst på den vesle firkanten der farga visast. Så flyttar du  musepeikaren
-  slik at den peikar på ein vegg i labyrinten din. Då blir farga i den vesle
+  fyrst på den vesle firkanten der farga visast. Så flyttar du musepeikaren slik
+  at den peikar på ein vegg i labyrinten din. Då blir farga i den vesle
   firkanten forandra. Klikk igjen for å velje denne farga.
 
 ## Test prosjektet {.flag}
@@ -220,8 +221,8 @@ __Klikk på det grøne flagget.__
 
 ## Tips {.protip}
 
-Ein måte me kan bruke for å avgrense kor ein figur kan gå, er å tvinge
-den til å ta eit skritt tilbake når den gjer noko feil. I koden
+Ein måte me kan bruke for å avgrense kor ein figur kan gå, er å tvinge den til å
+ta eit skritt tilbake når den gjer noko feil. I koden
 
 ```blocks
   snu @turnRight (180) gradar
@@ -236,17 +237,18 @@ slutt snu seg rundt att slik at den peikar i same retning som då den starta.
 # Steg 4: På leiting etter skatten {.activity}
 
 *No kan me bevege oss rundt i labyrinten. Men det blir jo fort keisamt om me
- ikkje har noko å gjere inne i labyrinten. La oss sjå om me kanskje finn ein
- skatt!*
+ikkje har noko å gjere inne i labyrinten. La oss sjå om me kanskje finn ein
+skatt!*
 
 ## Sjekkliste {.check}
 
 - [ ] Legg til ein ny figur. Du kan velje ein figur frå biblioteket ved å
   trykkje
+
   ![Vel figur frå biblioteket](../bilder/hent-fra-bibliotek.png)
-  eller teikne ein figur sjølv ved å trykkje
-  ![Teikn ny figur](../bilder/tegn-ny.png). Me brukte figuren
-  `Ting/Star1`.
+
+  eller teikne ein figur sjølv ved å trykkje ![Teikn ny
+  figur](../bilder/tegn-ny.png). Me brukte figuren `Ting/Star1`.
 
 - [ ] Gi den nye figuren namnet `Skatt`.
 
@@ -254,9 +256,9 @@ slutt snu seg rundt att slik at den peikar i same retning som då den starta.
   vanskeleg å kome til.
 
 No skal me lage litt kode som oppdagar når utforskaren finn skatten. Her har me
-eit val: me kan lage eit skript på  `Utforskar` som sjekkar om han rører
-`Skatt`, eller me kan gjere det omvendt og lage eit skript på `Skatt` som
-sjekkar om den rører `Utforskar`.
+eit val: me kan lage eit skript på `Utforskar` som sjekkar om han rører `Skatt`,
+eller me kan gjere det omvendt og lage eit skript på `Skatt` som sjekkar om den
+rører `Utforskar`.
 
 I dette tilfellet speler det lita rolle kva me vel, men om me tenker oss at me
 kanskje vil lage fleire skattar seinare kan det vere litt enklere om me lagar
@@ -305,8 +307,8 @@ der den fann skatten sist. Det blir ikkje veldig spanande.
 
 - [ ] Klikk på `Utforskar`-figuren.
 
-- [ ] Legg til ein `gå til x: () y: ()`{.b}-kloss rett etter `sett
-  [hastigheit v] til (10)`{.b}-klossen.
+- [ ] Legg til ein `gå til x: () y: ()`{.b}-kloss rett etter `sett [hastigheit
+  v] til (10)`{.b}-klossen.
 
 - [ ] For å finne ut kva tal me vil bruke for `x` og `y` kan me gjere følgjande.
   Dra utforskaren til ein stad det er fint å starte frå. Sjå øvst i høgre
@@ -314,8 +316,8 @@ der den fann skatten sist. Det blir ikkje veldig spanande.
   posisjonen til figuren akkurat no. Skriv desse to tallene inn i `gå til x: ()
   y: ()`{.b}-klossen.
 
-- [ ] Heile skriptet vil no sjå slik ut (dine tall for `x` og `y` vil vere
-  noko anna):
+- [ ] Heile skriptet vil no sjå slik ut (dine tall for `x` og `y` vil vere noko
+  anna):
 
   ```blocks
   når @greenFlag vert trykt på
@@ -342,13 +344,12 @@ __Klikk på det grøne flagget.__
 
 # Steg 5: Froskekongen voktar i gangene {.activity}
 
-*No skal me gjere spelet vanskelegare. Froskekongen vandrar rundt i
- labyrinten og passar på skatten.*
+*No skal me gjere spelet vanskelegare. Froskekongen vandrar rundt i labyrinten
+og passar på skatten.*
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til ein ny figur. Me brukte `Dyr/Frog`. Gi den namnet
-  `Froskekonge`.
+- [ ] Legg til ein ny figur. Me brukte `Dyr/Frog`. Gi den namnet `Froskekonge`.
 
 - [ ] Plasser den nye figuren ein stad i labyrinten. Gjer den mindre eller
   større om nødvendig.
@@ -470,8 +471,8 @@ __Klikk på det grøne flagget.__
   siste skriptet me laga for `Froskekonge` vil han endre retning oftare eller
   sjeldnare.
 
-- [ ] Du kan prøve å lage fleire skattar. Prøv å høgreklikke på
-  `Skatt`-figuren og vel `Lag ein kopi`.
+- [ ] Du kan prøve å lage fleire skattar. Prøv å høgreklikke på `Skatt`-figuren
+  og vel `Lag ein kopi`.
 
 ## Lagre prosjektet {.save}
 

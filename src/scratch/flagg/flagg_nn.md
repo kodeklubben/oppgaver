@@ -1,10 +1,10 @@
 ---
 title: Flagg
-level: 3
-author: 'Sverre Oskar Konestabo og Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+author: Sverre Oskar Konestabo og Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
+
 
 # Introduksjon {.intro}
 
@@ -13,6 +13,7 @@ hjelp av litt matematikk. Det me skal gjere er å teikne eit flagg som vaiar i
 vinden.
 
 ![Bilete av det norske flagget som vaiar i vinden](flagg.png)
+
 
 # Steg 1: Gå i sirkel {.activity}
 
@@ -66,8 +67,9 @@ __Klikk på det grøne flagget.__
 ## Retning på sirkelrørsla {.tip}
 
 Har du lagt merke til at katten flyttar seg i motsatt retning av korleis pila i
-`snu @turnLeft (5) gradar`{.b}-klossen peikar? Det er fordi Scratch måler vinklar
-i motsatt retning av det som er vanleg i matematikken.
+`snu @turnLeft (5) gradar`{.b}-klossen peikar? Det er fordi Scratch måler
+vinklar i motsatt retning av det som er vanleg i matematikken.
+
 
 # Steg 2: Flytt sirkelen {.activity}
 
@@ -111,6 +113,7 @@ __Klikk på det grøne flagget.__
   Du treng ein `set [radius v] til []`{.b}-kloss i tillegg til å bruke
   `(radius)`{.b} to stader i koden din.
 
+
 # Steg 3: Dansande diskar {.activity}
 
 No skal me prøve å få mange figurar til å gå i sirkel samstundes.
@@ -144,7 +147,7 @@ No skal me prøve å få mange figurar til å gå i sirkel samstundes.
   ```
 
 - [ ] Om du køyrer programmet dinn no skal du sjå 99 diskar som "dansar" og ein
-  som står i ro på skjermen. Det ser  kanskje litt kaotisk ut!
+  som står i ro på skjermen. Det ser kanskje litt kaotisk ut!
 
   Kaoset kjem av at Scratch brukar litt tid på å starte kvar klon. Me kan få
   orden på det ved å få dei til å starte samstundes:
@@ -155,6 +158,7 @@ No skal me prøve å få mange figurar til å gå i sirkel samstundes.
 
   Om du køyrer programmet ditt att ser du at alle diskane "dansar" i takt. Kva
   likar du best?
+
 
 # Steg 4: Flagrande flagg {.activity}
 
@@ -200,8 +204,8 @@ flagg.
   diskar som består av mange raude diskar som beveger seg i sirkel. Men no kan
   me la dei raude diskane bevege seg litt i utakt!
 
-  Legg til klossen `snu @turnRight (1) gradar`{.b} etter `lag klon av
-  [meg v]`{.b}-klossen, og prøv programmet ditt att. Kva har skjedd?
+  Legg til klossen `snu @turnRight (1) gradar`{.b} etter `lag klon av [meg
+  v]`{.b}-klossen, og prøv programmet ditt att. Kva har skjedd?
 
 
 # Steg 5: Det norske flagget {.activity}

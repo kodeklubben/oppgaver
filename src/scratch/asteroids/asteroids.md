@@ -1,7 +1,6 @@
 ---
 title: Asteroids
-level: 4
-author: 'Geir Arne Hjelle'
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -22,8 +21,8 @@ dem i småbiter.
 # Oversikt over prosjektet {.activity}
 
 *Mesteparten av kodingen av Asteroids skal du gjøre selv (og noe har du allerede
- gjort). I Asteroids vil vi spesielt se på noen av måtene man kan gjenbruke kode
- i Scratch.*
+gjort). I Asteroids vil vi spesielt se på noen av måtene man kan gjenbruke kode
+i Scratch.*
 
 ## Plan {.check}
 
@@ -39,7 +38,7 @@ dem i småbiter.
 # Steg 1: Enda et flyvende romskip {.activity}
 
 *I [Lunar Lander](../lunar_lander/lunar_lander.html) laget vi et flott romskip.
- Nå skal vi se hvordan vi kan bruke det samme romskipet i dette prosjektet.*
+Nå skal vi se hvordan vi kan bruke det samme romskipet i dette prosjektet.*
 
 Du vet sikkert at du kan *Remikse* andres Scratch-prosjekter. Du får da
 muligheten til å lage din egen versjon av noe andre har gjort, og spesielt kan
@@ -112,7 +111,7 @@ prosjekter. Vi vil derfor først kopiere romskipet vi laget i Lunar Lander.
 # Steg 2: Romskipet kan skyte {.activity}
 
 *Romskipet vårt vil snart fly inn i en asteroidesverm, så vi må montere raketter
- som kan sprenge unna asteroidene.*
+som kan sprenge unna asteroidene.*
 
 ## Sjekkliste {.check}
 
@@ -173,9 +172,9 @@ prosjekter. Vi vil derfor først kopiere romskipet vi laget i Lunar Lander.
 # Steg 3: Pass deg for asteroidene {.activity}
 
 *Da er det på tide å lage en asteroidesverm. Noe av det som er kult med
- Asteroids er at asteroidene blir skutt i småbiter når de treffes, og man må
- fortsatt passe seg for og skyte disse mindre asteroidene. Vi vil kode dette ved
- å bruke kloner i forskjellige størrelser.*
+Asteroids er at asteroidene blir skutt i småbiter når de treffes, og man må
+fortsatt passe seg for og skyte disse mindre asteroidene. Vi vil kode dette ved
+å bruke kloner i forskjellige størrelser.*
 
 ## Sjekkliste {.check}
 
@@ -230,8 +229,8 @@ prosjekter. Vi vil derfor først kopiere romskipet vi laget i Lunar Lander.
 # Steg 4: Videreutvikling av spillet {.activity}
 
 *Du har nå laget en enkel variant av Asteroids. Men prøv å gjøre spillet
- morsommere ved å videreutvikle det. Du bestemmer selv hvordan du vil jobbe
- videre, men nedenfor er noen ideer som kanskje kan være til inspirasjon?*
+morsommere ved å videreutvikle det. Du bestemmer selv hvordan du vil jobbe
+videre, men nedenfor er noen ideer som kanskje kan være til inspirasjon?*
 
 ## Ideer til videreutvikling {.check}
 
@@ -269,4 +268,3 @@ prosjekter. Vi vil derfor først kopiere romskipet vi laget i Lunar Lander.
   tallerken (UFO) innimellom. Denne måtte man også passe seg for, men i
   motsetning til asteroidene kunne UFOen skyte tilbake. Prøv å legg til en slik
   UFO i spillet ditt!
-

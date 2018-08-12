@@ -1,8 +1,7 @@
 ---
 title: Ørkenløp
-level: 2
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -22,19 +21,16 @@ for å flytte figuren sin, og den som kjem fyrst til kanten av skjermen vinn.
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på Scene og vel ein ferdig bakgrunn,
-  ![vel ein ferdig bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Vel
-  `Natur/desert`.
+- [ ] Klikk på Scene og vel ein ferdig bakgrunn, ![vel ein ferdig
+  bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Vel `Natur/desert`.
 
 - [ ] Fjern katten ved å høgreklikke på figuren og vel `slett`.
 
-- [ ] Legg til ein ny figur ved å trykke på
-  ![vel figur frå biblioteket](../bilder/hent-fra-bibliotek.png). Vel
-  `Dyr/Lionness`.
+- [ ] Legg til ein ny figur ved å trykke på ![vel figur frå
+  biblioteket](../bilder/hent-fra-bibliotek.png). Vel `Dyr/Lionness`.
 
-- [ ] Legg til endå ein ny figur: vel `Dyr/Parrot`. Krymp figuren slik
-  at den er omlag like stor som løvinna ved å bruke
-  ![krymp](../bilder/krymp.png).
+- [ ] Legg til endå ein ny figur: vel `Dyr/Parrot`. Krymp figuren slik at den er
+  omlag like stor som løvinna ved å bruke ![krymp](../bilder/krymp.png).
 
 
 # Steg 2: La løvinna og papegøya bevege seg {.activity}
@@ -63,19 +59,18 @@ for å flytte figuren sin, og den som kjem fyrst til kanten av skjermen vinn.
 
 __Klikk på det grøne flagget.__
 
-- [ ] Beveger løvinna og papegøya seg over skjermen når du trykkar på
-  `A`- og `L`-tastane?
+- [ ] Beveger løvinna og papegøya seg over skjermen når du trykkar på `A`- og
+  `L`-tastane?
 
 
 # Steg 3: Start kappløpet {.activity}
 
 *No må me starte kappløpet og kåre ein vinnar! Me startar med å lage ein
- startknapp.*
+startknapp.*
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til ein ny figur. Vel `Ting/Button3`. Flytt den til midten av
-  scena.
+- [ ] Legg til ein ny figur. Vel `Ting/Button3`. Flytt den til midten av scena.
 
 - [ ] Klikk på `Drakter`-fana og verktøyet `T` for å leggje til tekst. Trykk på
   venstre kant av knappen for å leggje til eit tekstfelt og skriv inn teksten
@@ -116,10 +111,9 @@ vil vite når kappløpet er over.
 
 ## Sjekkliste {.check}
 
-- [ ] For å vite når kappløpet har starta og slutta lagar me ein variabel
-  med namnet `kappløp`{.blockdata}. Variabelen skal vere tilgjengeleg
-  `for alle figurar`. Fjern avhukinga framfor variabelen slik at den
-  ikke visast på scena.
+- [ ] For å vite når kappløpet har starta og slutta lagar me ein variabel med
+  namnet `kappløp`{.blockdata}. Variabelen skal vere tilgjengeleg `for alle
+  figurar`. Fjern avhukinga framfor variabelen slik at den ikke visast på scena.
 
 - [ ] Set `kappløp`{.blockdata} til `0` når spelet startar ved å forandre `når
   grønt flagg vert trykt på`{.blockevents}-skriptet slik:
@@ -158,7 +152,7 @@ __Klikk på det grøne flagget.__
 # Steg 4: Avslutte kappløpet {.activity}
 
 *No vil me finne ut kven som vinn kappløpet, og i tillegg gjere klart for ein ny
- runde.*
+runde.*
 
 ## Sjekkliste {.check}
 
@@ -183,8 +177,8 @@ __Klikk på det grøne flagget.__
   Nokre nettlesarar kan be deg om lov til å spele inn lyd. Viss du ikkje vil
   godta det kan du bruke lydane som følgjer med figurane.
 
-- [ ] Så legg du til klossane som speler av lyden og let papegøya
-  fortelje at den vann:
+- [ ] Så legg du til klossane som speler av lyden og let papegøya fortelje at
+  den vann:
 
   ```blocks
   når [a v] vert trykt
@@ -212,7 +206,7 @@ __Klikk på det grøne flagget.__
 # Steg 5: Nullstill spelet {.activity}
 
 *Når kappløpet er over må me fortelje dei andre figurane at spelet er over og
- nullstille spelet, slik at det er klart for ein ny runde.*
+nullstille spelet, slik at det er klart for ein ny runde.*
 
 ## Sjekkliste {.check}
 
@@ -326,24 +320,22 @@ Scratch-kodekloss!
 
 - [ ] Vel papegøya sitt skript.
 
-- [ ] Vel `Flere klosser`{.blockmoreblocks}-paletten og klikk på `Lag
-  en kloss`-knappen.
+- [ ] Vel `Flere klosser`{.blockmoreblocks}-paletten og klikk på `Lag en
+  kloss`-knappen.
 
 - [ ] Kall klossen din `ferdig` og trykk OK.
 
-- [ ] No får du ein `definer ferdig`{.blockmoreblocks}-kloss i
-  skriptvindauget ditt. Flytt den litt for seg sjølv.
+- [ ] No får du ein `definer ferdig`{.blockmoreblocks}-kloss i skriptvindauget
+  ditt. Flytt den litt for seg sjølv.
 
-- [ ] Riv laus heile `viss`{.blockcontrol}`rører
-  kant?`{.blocksensing}-klossen og dra den til `definer
-  ferdig`{.blockmoreblocks}-klossen.
+- [ ] Riv laus heile `viss`{.blockcontrol}`rører kant?`{.blocksensing}-klossen
+  og dra den til `definer ferdig`{.blockmoreblocks}-klossen.
 
-- [ ] Kan du dra `ferdig`{.blockmoreblocks}-klossen frå paletten og bruke
-  den på same måte som andre kodeklossar?
+- [ ] Kan du dra `ferdig`{.blockmoreblocks}-klossen frå paletten og bruke den på
+  same måte som andre kodeklossar?
 
-- [ ] Slett den andre `viss`{.blockcontrol}`rører
-  kant?`{.blocksensing}-klossen frå skriptet ditt og erstatt den med ein
-  `ferdig`{.blockmoreblocks}-kloss.
+- [ ] Slett den andre `viss`{.blockcontrol}`rører kant?`{.blocksensing}-klossen
+  frå skriptet ditt og erstatt den med ein `ferdig`{.blockmoreblocks}-kloss.
 
   ```blocks
   definer ferdig

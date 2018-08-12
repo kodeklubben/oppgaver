@@ -1,8 +1,7 @@
 ---
 title: Snøballkrig
-level: 4
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -70,6 +69,7 @@ raskare og vanskelegare å jage bort.
   kvart som du testar spelet, slik at du finn innstillingar du likar.
 
 - [ ] No kan me lage hovudløkka til `Helten`. Lag ei løkke som startar på
+
 - meldinga `start`:
 
   ```blocks
@@ -133,8 +133,8 @@ __Klikk på det grøne flagget.__
   lag klon av [meg v]
   ```
 
-- [ ] Sjølve oppførselen til kvar enkelt snøball programmerer me på ein `når
-  eg startar som klon`{.blockcontrol}-kloss.
+- [ ] Sjølve oppførselen til kvar enkelt snøball programmerer me på ein `når eg
+  startar som klon`{.blockcontrol}-kloss.
 
   ```blocks
   når eg startar som klon
@@ -176,7 +176,7 @@ __Klikk på det grøne flagget.__
 # Steg 3: Slemme gutar {.activity}
 
 *No skal me lage slemme gutar som prøver å ta oss. Me skal jage dei bort med
- snøballar.*
+snøballar.*
 
 ## Sjekkliste {.check}
 
@@ -224,8 +224,8 @@ __Klikk på det grøne flagget.__
   seg `hastigheit`{.blockdata} steg og så ventar ein augneblink, til dømes 0,1
   sekund.
 
-- [ ] Så lagar me ein *ny* `når eg startar som klon`{.blockcontrol}-kloss
-  der me undersøker om me treffer anten ein `Snøball` eller `Helten`.
+- [ ] Så lagar me ein *ny* `når eg startar som klon`{.blockcontrol}-kloss der me
+  undersøker om me treffer anten ein `Snøball` eller `Helten`.
 
   ```blocks
   når eg startar som klon
@@ -270,8 +270,8 @@ __Klikk på det grøne flagget.__
   `Poeng`{.blockdata} og la den gjelde for alle figurar. La variabelen vere
   synleg på scena, slik at me ser kor mange poeng me har fått.
 
-- [ ] Pass på at `Poeng`{.blockdata} blir sett til 0 når meldinga `start`
-  blir sendt, til dømes med eit skript på scena.
+- [ ] Pass på at `Poeng`{.blockdata} blir sett til 0 når meldinga `start` blir
+  sendt, til dømes med eit skript på scena.
 
 - [ ] Endre `Poeng`{.blockdata} med 1 når ein `Skumling` blir treft av ein
   snøball.
@@ -280,8 +280,8 @@ Tidlegare laga me meldinga `slutt` som blir sendt ut når `Helten` blir teken av
 ein `Skumling`. No skal me bruke denne til å avslutte spelet. Fyrst lagar me ein
 meny og ein bakgrunn som fortel att me tapte.
 
-- [ ] Klikk på `Scene` til venstre for `Figurer`, og vel `Bakgrunnar`-fana.
-  Lag to kopiar av bakgrunnen din og kall dei henhaldsvis `Meny` og `Slutt`.
+- [ ] Klikk på `Scene` til venstre for `Figurer`, og vel `Bakgrunnar`-fana. Lag
+  to kopiar av bakgrunnen din og kall dei henhaldsvis `Meny` og `Slutt`.
 
   På `Meny`-bakgrunnen kan du lage ein fin tittel. Skriv `Trykk 'S' for å
   starte`.
@@ -290,6 +290,7 @@ meny og ein bakgrunn som fortel att me tapte.
   slutt. Skriv `Trykk 'S' for å spele igjen`.
 
 - [ ] Endre litt på skripta på scena. Fyrst vil me berre vise menyen når det
+
 - grøne flagget blir klikka på:
 
   ```blocks

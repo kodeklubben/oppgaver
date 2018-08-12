@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Ørkenløp
 author: Stein Olav Romslo
-level: 2
 language: nb
 ---
 
@@ -16,7 +15,7 @@ flytte figuren sin, og den som kommer først til kanten av skjermen vinner.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, programmering
+__Fag__: Matematikk, programmering
 
 __Anbefalte trinn__: 3.-10. trinn
 
@@ -27,50 +26,49 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre speiling, rotasjon og
-      parallellforskyvnin
+  parallellforskyvning
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsyste
+  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
+  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjo
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 - [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
-      generalisere og tilpasse eksisterende programkode og algoritmer.
+  generalisere og tilpasse eksisterende programkode og algoritmer.
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke kode og brukerinteraksjon til å gjennomføre
-      parallellforskyvning av en figur i et rutenett
+  parallellforskyvning av en figur i et rutenett.
 
-- [ ] Elevene kan plassere en figur i et rutenett, og beskrive flytting av denne
+- [ ] Elevene kan plassere en figur i et rutenett, og beskrive flytting av
+  denne.
 
 - [ ] Elevene kan bruke kode til å kontrollere hvilken figur som kommer i mål
-      først, og sende en passende melding som tekst til spillerne
+  først, og sende en passende melding som tekst til spillerne.
 
-- [ ] Elevene kan bruke kode til å nullstille spillet mellom hver runde
+- [ ] Elevene kan bruke kode til å nullstille spillet mellom hver runde.
 
 - [ ] Elevene kan lage egendefinerte klosser i Scratch for å forenkle koden.
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven
+- [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven, for eksempel ved å gjøre en av variasjonene nedenfor.
+  oppgaven, for eksempel ved å gjøre en av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: Elevene bør være komfortable med Scratch
+- [ ] __Forutsetninger__: Elevene bør være komfortable med Scratch.
 
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-      bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-      seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Det er
-      en fordel om elevene jobber to og to, slik at de kan teste spillet sammen
-      underveis.
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Det er en fordel
+  om elevene jobber to og to, slik at de kan teste spillet sammen underveis.
 
 ## Fremgangsmåte
 
@@ -81,19 +79,18 @@ oppgaven enda._
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan bruke andre bakgrunnstema, og endre figurer og lyder i henhold
-      til dette
+  til dette.
 
-- [ ] Elevene kan la spillerne velge figurer selv på forhånd
+- [ ] Elevene kan la spillerne velge figurer selv på forhånd.
 
-- [ ] Elevene kan gi figurene ulike hastigheter og hjelpemidler
+- [ ] Elevene kan gi figurene ulike hastigheter og hjelpemidler.
 
 - [ ] Elevene kan lage en klokke som tar tiden og lagrer resultatet for
-      sammenligning
+  sammenligning.
 
 - [ ] Elevene kan lage en teller som holder oversikt over hvilken spiller som
-      har vunnet flest ganger.
+  har vunnet flest ganger.
 
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-

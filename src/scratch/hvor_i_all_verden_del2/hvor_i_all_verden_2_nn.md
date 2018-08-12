@@ -1,8 +1,7 @@
 ---
-title: 'Kor i all verda? Del 2'
-level: 3
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+title: Kor i all verda? Del 2
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -225,8 +224,8 @@ helikopteret ikkje kan flyge ut av kartet?
 - [ ] Du ser kanskje at den raude prikken ikkje ligg ved Barcelona lengre? Sidan
   kartet er større stemmer ikkje dei gamle koordinatane.
 
-  Endre verdiane for `X` og `Y` til det ser ut som om reisemålet ligg omtrent
-  på riktig stad att.
+  Endre verdiane for `X` og `Y` til det ser ut som om reisemålet ligg omtrent på
+  riktig stad att.
 
 
 # Steg 5: Fleire stader {.activity}

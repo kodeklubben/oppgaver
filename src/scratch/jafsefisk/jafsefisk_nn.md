@@ -1,8 +1,7 @@
 ---
 title: Jafsefisk
-level: 2
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -25,8 +24,8 @@ Jafsefisk med å ete alle byttedyra som svømmer rundt i havet.
 
 - [ ] Du får __riktig bakgrunn__ ved å velje `Scene` og så `Bakgrunner`-fana.
   Importer bakgrunnen `Natur/underwater3` ved å velje ![Vel ein ferdig
-  bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Så slettar du den
-  opphavlege bakgrunnen `backdrop1`.
+  bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Så slettar du den opphavlege
+  bakgrunnen `backdrop1`.
 
 - [ ] Endre namnet på katten til `Jafsefisk` ved å klikke på den og så på det
   blå `i`{.blockmotion}-symbolet.
@@ -126,11 +125,11 @@ me gjere i neste steg.*
 
 ## Ting å prøve {.challenge}
 
-- [ ] Prøv å forandre tala for `gå (2) steg`{.b} og `tilfeldig tal frå (-20)
-  til (20)`{.b}. Korleis forandrar det måten byttedyret beveger seg på?
+- [ ] Prøv å forandre tala for `gå (2) steg`{.b} og `tilfeldig tal frå (-20) til
+  (20)`{.b}. Korleis forandrar det måten byttedyret beveger seg på?
 
-- [ ] Kva gjer `viss ved kant, sprett`{.b}? Fjern klossen og sjå kva som
-  skjer.
+- [ ] Kva gjer `viss ved kant, sprett`{.b}? Fjern klossen og sjå kva som skjer.
+
 
 # Steg 3: Jafsefisk et byttet {.activity}
 
@@ -143,8 +142,8 @@ lita stund seinare.
 ## Sjekkliste {.check}
 
 - [ ] Me startar med å la byttet forsvinne viss det kjem borti Jafsefisk, og så
-  kome tilbake etter `3` sekund. Bruk `rører [Jafsefisk v]?`{.b} for å sjekke
-  om byttet kjem borti Jafsefisk. Utvid skriptet på byttedyret slik:
+  kome tilbake etter `3` sekund. Bruk `rører [Jafsefisk v]?`{.b} for å sjekke om
+  byttet kjem borti Jafsefisk. Utvid skriptet på byttedyret slik:
 
   ```blocks
   når @greenFlag vert trykt på
@@ -175,9 +174,9 @@ __Klikk på det grøne flagget.__
 Jafsefisk. Me kan prøve `<rører fargen [#FFFFFF]?>`{.b} for å sjekke om
 byttedyret er borti det kvite på tennene til Jafsefisk.*
 
-- [ ] Legg til `<rører fargen [#FFFFFF]?>`{.b} i tillegg til `<rører
-  [Jafsefisk v]?>`{.b} i skriptet ditt. For å velje kvit klikkar du på farga i
-  klossen, og så på tennene til Jafsefisk.
+- [ ] Legg til `<rører fargen [#FFFFFF]?>`{.b} i tillegg til `<rører [Jafsefisk
+  v]?>`{.b} i skriptet ditt. For å velje kvit klikkar du på farga i klossen, og
+  så på tennene til Jafsefisk.
 
 - [ ] No kan me la byttet flytte seg til ein tilfeldig stad på skjermen før det
   dukkar opp att. Bruk `gå til x: (tilfeldig tal frå (-220) til (220)) y:
@@ -212,7 +211,7 @@ __Klikk på det grøne flagget.__
 # Steg 4: Jafsefisk reagerer {.activity}
 
 *Jafsefisk må vite når den har ete noe slik at den kan gi frå seg ein lyd og
- bytte drakt.*
+bytte drakt.*
 
 ## Sjekkliste {.check}
 
@@ -242,8 +241,8 @@ klikke med kjevane.
   Kall drakta `Lukka munn`.
 
 - [ ] Legg så til eit nytt skript til Jafsefisk slik at han kan svare på
-  meldinga `Du tok meg!` frå byttedyret. Dette skriptet gjer at fisken spelar
-  av boblelyden og `byt drakt til [Ope munn v]`{.b}-drakta, ventar litt og så
+  meldinga `Du tok meg!` frå byttedyret. Dette skriptet gjer at fisken spelar av
+  boblelyden og `byt drakt til [Ope munn v]`{.b}-drakta, ventar litt og så
   byttar tilbake.
 
   ```blocks
@@ -259,8 +258,8 @@ klikke med kjevane.
 
 No er Jafsefisk klar til å ete, så la oss fylle havet med byttedyr.
 
-- [ ] Høgreklikk på byttedyret og vel `lag kopi` til du føler at du har fått
-  nok fisk.
+- [ ] Høgreklikk på byttedyret og vel `lag kopi` til du føler at du har fått nok
+  fisk.
 
 ## Test prosjektet {.flag}
 
@@ -283,15 +282,15 @@ moglegheiter for å utvide spelet. Er du klar for ei utfordring?
 
 ## Utfordring 1: Forandre rørslene til byttedyra {.challenge}
 
-No beveger alle byttedyra seg likt. __Kan du få eitt av dei til å
-bevege seg annleis?__
+No beveger alle byttedyra seg likt. __Kan du få eitt av dei til å bevege seg
+annleis?__
 
 __Hint:__ Ikke bruk for lang tid på denne oppgåva utan å sjå på dei andre
 utfordringane.
 
 __Vel eit byttedyr å eksperimentere med.__ Viss dei har same drakt, bytt farge
-med `set [farge v]-effekt til (0)`{.b}. Slik kan du ser skilnad på dette frå
-dei andre byttedyra. Prøv å få dette byttedyret til å bevege seg saktare enn dei
+med `set [farge v]-effekt til (0)`{.b}. Slik kan du ser skilnad på dette frå dei
+andre byttedyra. Prøv å få dette byttedyret til å bevege seg saktare enn dei
 andre.
 
 __Hint:__ Sjå på klossen `gå (2) steg`{.b}.
@@ -308,7 +307,8 @@ __Klikk på det grøne flagget.__
 - [ ] Beveger byttedyra seg på ein fornuftig måte? Gjer desse forandringane
   spelet betre?
 
-  __Hint:__ Viss byttet ditt svømmer rundt i sirklar, sjekk verdiane i `snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar`{.b}.
+  __Hint:__ Viss byttet ditt svømmer rundt i sirklar, sjekk verdiane i `snu
+  @turnLeft (tilfeldig tal frå (-20) til (20)) gradar`{.b}.
 
 - [ ] Kva viss du let alle byttedyra bevege seg ulikt ved å bruke ulike
   kombinasjonar av desse rørslene?
@@ -325,8 +325,8 @@ byttedyra svømme vekk frå Jafsefisk.__
 
 Det finst ingen kloss i Scratch som kan gi oss retningen vekk frå ein annan
 figur. Men du kan få en figur til å snu seg i retninga mot ein annen, og så la
-den snu seg i motsett retning. Klossane du treng er i
-`Rørsle `{.blockmotion}-kategorien.
+den snu seg i motsett retning. Klossane du treng er i `Rørsle
+`{.blockmotion}-kategorien.
 
 Prøv å hjelpe eitt av byttedyra med å __snu seg vekk frå Jafsefisk__. La den
 også virre litt mens den svømmer bort! Du vil kanskje oppdage at byttet set seg

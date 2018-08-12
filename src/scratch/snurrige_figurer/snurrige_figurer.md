@@ -1,6 +1,5 @@
 ---
 title: Snurrige figurer
-level: 2
 author: Geir Arne Hjelle og Carl Andreas Myrland
 language: nb
 ---
@@ -31,9 +30,9 @@ figur.*
   forskjellige måter. Først tegner vi denne selv, men nedenfor vil vi også vise
   deg hvordan du kan lage en trekant fra en av de eksisterende figurene.
 
-    Klikk på ![Tegn ny figur](../bilder/tegn-ny.png) for å tegne din egen figur.
-    Trykk deretter `Bytt til vektorgrafikk` nede til høyre, og bruk
-    linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å tegne en trekant.
+  Klikk på ![Tegn ny figur](../bilder/tegn-ny.png) for å tegne din egen figur.
+  Trykk deretter `Bytt til vektorgrafikk` nede til høyre, og bruk
+  linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å tegne en trekant.
 
     ![Bilde av en trekant i Scratch](tegn_trekant.png)
 
@@ -102,10 +101,10 @@ på.
 - [ ] Vi skal nå lage mange trekanter. Dette gjør vi ved hjelp av noe som heter
   __kloning__. I Scratch er en __klon__ en kopi av en figur.
 
-    Kopier koden du skrev tidligere ved å høyreklikke på den og velg `lag en
-    kopi`. Endre tasten som starter skriptet til `b` og legg klossen `lag klon
-    av [meg v]`{.b} nederst i `gjenta`{.blockcontrol}-løkken. Det nye skriptet
-    skal da se slik ut:
+  Kopier koden du skrev tidligere ved å høyreklikke på den og velg `lag en
+  kopi`. Endre tasten som starter skriptet til `b` og legg klossen `lag klon av
+  [meg v]`{.b} nederst i `gjenta`{.blockcontrol}-løkken. Det nye skriptet skal
+  da se slik ut:
 
     ```blocks
     når [b v] trykkes
@@ -131,7 +130,7 @@ __Trykk på B-tasten.__
 ## Sjekkliste {.check}
 
 - [ ] Vi kan også få trekantene til å røre på seg. Skriv først denne enkle
-      koden:
+  koden:
 
   ```blocks
   når jeg mottar [snurr v]
@@ -148,7 +147,7 @@ __Trykk på B-tasten.__
 __Trykk på B-tasten.__
 
 - [ ] Begynner trekantene å røre på seg etter at de er tegnet opp? Blir
-      mønsteret levende?
+  mønsteret levende?
 
 - [ ] Prøv å endre på `4`-tallet i _snurr_-skriptet. Hva skjer? Alt dette skjer
   bare fordi mange trekanter snurrer sammen!
@@ -180,7 +179,7 @@ __Trykk på B-tasten.__
 # Steg 3: Mer variasjon {.activity}
 
 *Vi skal nå se hvordan vi kan lage mer variasjon blant de snurrende figurene,
- ved å endre på hvordan de starter.*
+ved å endre på hvordan de starter.*
 
 ## Sjekkliste {.check}
 
@@ -205,7 +204,8 @@ __Trykk på B-tasten.__
   send melding [flytt og snurr v]
   ```
 
-- [ ] Nå skal vi sette retningen på hver klon i det den lages. Lag dette nye skriptet:
+- [ ] Nå skal vi sette retningen på hver klon i det den lages. Lag dette nye
+  skriptet:
 
   ```blocks
   når jeg starter som klon
@@ -216,10 +216,11 @@ __Trykk på B-tasten.__
 
 __Trykk på C-tasten.__
 
-- [ ] Ser du at trekantene peker i andre retninger. Dette forandrer mønsteret helt!
+- [ ] Ser du at trekantene peker i andre retninger. Dette forandrer mønsteret
+  helt!
 
-- [ ] Det ser ut som om en enkelt trekant svever rundt litt utenfor mønsteret! Hva
-  skjer med denne trekanten?
+- [ ] Det ser ut som om en enkelt trekant svever rundt litt utenfor mønsteret!
+  Hva skjer med denne trekanten?
 
 ## Sjekkliste {.check}
 
@@ -227,8 +228,8 @@ __Trykk på C-tasten.__
   Alle de andre trekantene er kloner. Vi har ikke sett denne trekanten tidligere
   fordi den pekte i samme retning som klonene. Men nå snur vi jo på klonene!
 
-    La oss skjule figuren så den ikke ødelegger mønsteret. Legg til en
-    `skjul`{.b}-kloss øverst i _C_-skriptet.
+  La oss skjule figuren så den ikke ødelegger mønsteret. Legg til en
+  `skjul`{.b}-kloss øverst i _C_-skriptet.
 
 - [ ] Siden klonene er kopier av figuren vil de også skjules. Det vil vi jo
   ikke. Vi må derfor passe på at klonene vises. Legg til en `vis`{.b}-kloss som
@@ -249,9 +250,9 @@ __Trykk på C-tasten.__
 - [ ] Lek med tallet `-4` i `endre [retning v] :: variables`{.b}-klossen.
   Hvilken effekt har det å endre dette tallet?
 
-    Du oppdager kanskje at det fungerer best om tallet går opp i 4? Hvorfor
-    henger ikke figuren sammen hvis tallet ikke går opp i 4? (Prøv for eksempel
-    med `endre [retning v] med (1)`{.b}.)
+  Du oppdager kanskje at det fungerer best om tallet går opp i 4? Hvorfor henger
+  ikke figuren sammen hvis tallet ikke går opp i 4? (Prøv for eksempel med
+  `endre [retning v] med (1)`{.b}.)
 
 
 # Steg 4: Andre figurer {.activity}
@@ -304,4 +305,3 @@ noen ideer:
 
 - [ ] Bruk penn-verktøyet for å tegne mønster på bakgrunnen samtidig. Legg for
   eksempel til klossen `penn på`{.b} under `når jeg starter som klon`{.b}.
-

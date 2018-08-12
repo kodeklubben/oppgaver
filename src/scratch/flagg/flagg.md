@@ -1,7 +1,6 @@
 ---
 title: Flagg
-level: 3
-author: 'Sverre Oskar Konestabo og Geir Arne Hjelle'
+author: Sverre Oskar Konestabo og Geir Arne Hjelle
 language: nb
 ---
 
@@ -147,8 +146,8 @@ Nå skal vi prøve å få mange figurer til å gå i sirkel samtidig.
   slutt
   ```
 
-- [ ] Om du kjører programmet ditt nå vil du se 99 disker som danser (og 1 som står
-  i ro) rundt på skjermen i et herlig kaos!
+- [ ] Om du kjører programmet ditt nå vil du se 99 disker som danser (og 1 som
+  står i ro) rundt på skjermen i et herlig kaos!
 
   Kaoset kommer faktisk av at Scratch bruker litt tid på å starte hver klon. Vi
   kan lage en mindre kaotisk dans på denne måten:
@@ -188,7 +187,8 @@ på et flagrende flagg.
   skjul
   ```
 
-- [ ] La så `flagre`-skriptet være det samme som du brukte til å danse tidligere:
+- [ ] La så `flagre`-skriptet være det samme som du brukte til å danse
+  tidligere:
 
   ```blocks
   når jeg mottar [flagre v]

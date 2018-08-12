@@ -1,10 +1,10 @@
 ---
 title: Julekort
-level: 1
-author: 'Espen Clausen'
-translator: 'Stein Olav Romslo'
+author: Espen Clausen
+translator: Stein Olav Romslo
 language: nn
 ---
+
 
 # Introduksjon {.intro}
 
@@ -12,6 +12,7 @@ Me skal lage eit julekort i Scratch. Det skal ha nokre enkle funksjonar og
 animasjonar. Når det er ferdig vil det sjå ut om lag som på biletet under.
 
 ![Døme på eit julekort i Scratch](julekort.png)
+
 
 # Steg 1: Endre bakgrunn og finn figurar {.activity}
 
@@ -36,6 +37,7 @@ Når du er klar til å starte vel du `Programmering` i menyen øvst på sida
   juletreet.
 
   ![Bilete som syner kor nye figurar-ikonet i Scratch ligg](velg_figurer.png)
+
 
 # Steg 2: Leggje til kode {.activity}
 
@@ -91,8 +93,8 @@ __Klikk på snømannen og sjå om koden din virkar.__
 
 ## Sjekkliste {.check}
 
-- [ ] Vel juletreet og fana `Skript`{.blocklightgrey} og lag denne
-koden. No skal juletreet skifte farge og utsjånad.
+- [ ] Vel juletreet og fana `Skript`{.blocklightgrey} og lag denne koden. No
+  skal juletreet skifte farge og utsjånad.
 
   ```blocks
   når @greenFlag vert trykt på
@@ -111,6 +113,7 @@ __Trykk på det grøne flagget og sjå om alt virkar.__
 
 - [ ] Dansar treet frå side til side?
 
+
 # Steg 3: Har du meir tid, seier du? {.activity}
 
 Då har du jobba godt! Om du framleis har tid kan du prøve noko av det følgjande:
@@ -124,9 +127,8 @@ Då har du jobba godt! Om du framleis har tid kan du prøve noko av det følgjan
 
   ![Bilete av fana "Lydar" i Scratch](lyder.png)
 
-  Ta opp din eigen lyd og gi den eit namn, til dømes
-  `julehelsing`. Så går du inn på `Skript`{.blocklightgrey}, og
-  legg inn følgjande kode:
+  Ta opp din eigen lyd og gi den eit namn, til dømes `julehelsing`. Så går du
+  inn på `Skript`{.blocklightgrey}, og legg inn følgjande kode:
 
   ```blocks
   når @greenFlag vert trykt på
@@ -136,6 +138,7 @@ Då har du jobba godt! Om du framleis har tid kan du prøve noko av det følgjan
 - [ ] Kanskje finn du på nokre andre morosame animasjonar? Snømannen kan til
   dømes danse eller turne litt? Kan me ha snakkande eller hoppande galne
   julepresangar? Du bestemmer!
+
 
 # Steg 4: Lagre og publisere {.activity}
 

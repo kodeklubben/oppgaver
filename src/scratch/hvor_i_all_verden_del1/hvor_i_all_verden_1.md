@@ -1,7 +1,6 @@
 ---
-title: 'Hvor i All Verden? Del 1'
-level: 3
-author: 'Geir Arne Hjelle'
+title: Hvor i All Verden? Del 1
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -23,7 +22,7 @@ over alle stedene vi kan besøke.
 # Steg 1: Styr et helikopter {.activity}
 
 *Vi begynner med å lage et lite program som gjør at vi kan styre et helikopter
- med piltastene.*
+med piltastene.*
 
 ## Sjekkliste {.check}
 
@@ -62,8 +61,8 @@ over alle stedene vi kan besøke.
   sett [hastighet v] til [5]
   ```
 
-  Eksperimenter gjerne med andre verdier for disse klossene, slik at
-  du finner de verdiene du mener er best for ditt spill!
+  Eksperimenter gjerne med andre verdier for disse klossene, slik at du finner
+  de verdiene du mener er best for ditt spill!
 
 - [ ] Nå skal vi lage en av de viktigste delene av spillet, nemlig hvordan
   helikopteret flytter seg rundt. Dette legger vi inn i en løkke som alltid
@@ -101,8 +100,8 @@ __Klikk på det grønne flagget.__
 # Steg 2: Et enkelt kart {.activity}
 
 *Vi legger nå inn et kart som en bakgrunn. Dette vil vi i denne leksjonen bruke
- til å fly over. I senere leksjoner vil vi også lære hvordan vi kan få dette
- bakgrunnskartet til å bevege seg.*
+til å fly over. I senere leksjoner vil vi også lære hvordan vi kan få dette
+bakgrunnskartet til å bevege seg.*
 
 ## Sjekkliste {.check}
 
@@ -182,8 +181,8 @@ __Klikk på det grønne flagget.__
 # Steg 4: Skjul reisemålet {.activity}
 
 *Dette er så langt et veldig enkelt spill, siden spilleren bare trenger å fly
- til den røde sirkelen. For å gjøre det litt vanskeligere vil vi nå skjule
- sirkelen, og heller bare fortelle spilleren hvilken by hun skal fly til!*
+til den røde sirkelen. For å gjøre det litt vanskeligere vil vi nå skjule
+sirkelen, og heller bare fortelle spilleren hvilken by hun skal fly til!*
 
 ## Sjekkliste {.check}
 
@@ -287,8 +286,8 @@ sekunder.
 
   rett før den ytre `gjenta`{.blockcontrol}-løkken.
 
-- [ ] For at sirkelen skal slutte å si `Fant Barcelona!` etter at
-  animasjonen er slutt må du legge klossen
+- [ ] For at sirkelen skal slutte å si `Fant Barcelona!` etter at animasjonen er
+  slutt må du legge klossen
 
   ```blocks
   si [ ]

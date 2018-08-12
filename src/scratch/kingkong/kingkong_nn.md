@@ -1,8 +1,7 @@
 ---
-title: 'King Kong'
-level: 3
-author: 'Samuel Erik Abildsø og Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+title: King Kong
+author: Samuel Erik Abildsø og Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -55,7 +54,9 @@ gorilla.
   Skyskrapar frå
   [www.iconka.com](http://www.iconarchive.com/show/home-sweet-home-icons-by-iconka/Home-Skyscraper-icon.html),
   fly frå
+
   [hellraz3r.deviantart.com](http://hellraz3r.deviantart.com/art/Plane-Pixel-Art-193480982)
+
   og King Kong frå
   [www.freepik.com](http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726).
 
@@ -92,13 +93,13 @@ Det er minst like ålreit å teikne sjølv som å finne bilete på nettet.
   bakgrunn](../bilder/tegn-ny.png) ved **Ny bakgrunn** nedst til venstre.
 
 - [ ] Vel Malingsbøtte-verktøyet (_Fyll med farge_) for å fargeleggje
-  bakgrunnen. Finn eit par fine himmelfargar, til dømes en overgang frå blå
-  øvst til noko lysare nedst. Klikk på bakgrunnen slik at den blir farga.
+  bakgrunnen. Finn eit par fine himmelfargar, til dømes en overgang frå blå øvst
+  til noko lysare nedst. Klikk på bakgrunnen slik at den blir farga.
 
   ![Bilete av malingsbøtte-verktøyet](tegn_bakgrunn.png)
 
-- [ ] For ein litt enkel graseffekt skal me velje _Rektangel_-verktøyet, og
-  ei heilt svart farge. Teikne eit svart rektangel på den nedste delen av
+- [ ] For ein litt enkel graseffekt skal me velje _Rektangel_-verktøyet, og ei
+  heilt svart farge. Teikne eit svart rektangel på den nedste delen av
   bakgrunnen.
 
 - [ ] Så vel du ei ganske lys grønnfarge og teiknar eit grønt rektangel som
@@ -119,8 +120,8 @@ Det er minst like ålreit å teikne sjølv som å finne bilete på nettet.
 Til spelet vårt treng me to drakter til **King Kong**. Ei drakt der han står på
 venstre side av skyskraparen og ei der han står på høgre side.
 
-- [ ] Klikk på `kong`-figuren og vel `Drakter`-fana. Høgreklikk på
-  `kong`-drakta og vel `Lag ein kopi`.
+- [ ] Klikk på `kong`-figuren og vel `Drakter`-fana. Høgreklikk på `kong`-drakta
+  og vel `Lag ein kopi`.
 
 - [ ] Klikk på kopien og bruk knappen ![Spegelvending](../bilder/speilvend.png)
   i øvre høgre hjørne til å spegelvende den nye drakta.

@@ -1,7 +1,7 @@
 ---
 title: Introduksjon til programmering
 author: Gubrand Tandberg
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 indexed: false
 language: nn
 ---
@@ -112,17 +112,19 @@ lage (data)pannekakter. Legg merke til at programmet verken er skrive heilt på
 god norsk eller i eit programmeringsspråk. Det er for å gjere det meir
 forståeleg.
 
-  hent 3 egg
-  hent 2 dl mjølk
-  hent 2 dl mjøl
-  hent 1 bakebolle
+```text
+hent 3 egg
+hent 2 dl mjølk
+hent 2 dl mjøl
+hent 1 bakebolle
 
-  bland mjøl i bakebolle
-  bland mjølk i bakebolle
+bland mjøl i bakebolle
+bland mjølk i bakebolle
 
-  gjenta 3 gonger:
-    viss egg ikkje er råttent
-      bland 1 egg i bakebollen
+gjenta 3 gonger:
+   viss egg ikkje er råttent
+     bland 1 egg i bakebollen
 
-  gjenta til bakebollen er tom:
-    steik 1 pannekake
+gjenta til bakebollen er tom:
+   steik 1 pannekake
+```

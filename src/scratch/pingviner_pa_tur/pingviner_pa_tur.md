@@ -1,7 +1,6 @@
 ---
-title: 'Pingviner på tur'
-level: 1
-author: 'Geir Arne Hjelle'
+title: Pingviner på tur
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -27,7 +26,8 @@ fordi dette gjør det enklere å lagre spillene dine og dele dem med andre.
 
 ## Lag en Scratchbruker {.check}
 
-- [ ] Gå til nettsiden [scratch.mit.edu](https://scratch.mit.edu/) i en nettleser.
+- [ ] Gå til nettsiden [scratch.mit.edu](https://scratch.mit.edu/) i en
+  nettleser.
 
 - [ ] Om siden er på engelsk kan du endre språk til norsk (bokmål eller nynorsk)
   i nedtrekksmenyen nederst på siden.
@@ -38,8 +38,8 @@ fordi dette gjør det enklere å lagre spillene dine og dele dem med andre.
 - [ ] Etter at du har blitt Scratchbruker kan du klikke __Programmering__ øverst
   til venstre for å begynne å programmere.
 
-    Videre gir vi deg en oppskrift på hvordan du kan lage et enkelt spill hvor
-    du skal hjelpe pingvinene å finne veien tilbake til akvariet i Bergen.
+  Videre gir vi deg en oppskrift på hvordan du kan lage et enkelt spill hvor du
+  skal hjelpe pingvinene å finne veien tilbake til akvariet i Bergen.
 
 
 # Steg 1: En pingvin på tur {.activity}
@@ -53,8 +53,8 @@ seg._
   spillet skal vi ikke bruke denne. Vi begynner derfor med å slette
   kattefiguren:
 
-    Klikk på ![Slett](../bilder/slett.png) øverst i menyen, og klikk deretter på
-    kattefiguren for å slette denne.
+  Klikk på ![Slett](../bilder/slett.png) øverst i menyen, og klikk deretter på
+  kattefiguren for å slette denne.
 
 - [ ] Vi skal nå legge til en pingvinfigur. Klikk på ![Velg figur fra
   biblioteket](../bilder/hent-fra-bibliotek.png) ved siden av __Ny figur:__
@@ -64,10 +64,10 @@ seg._
 
 - [ ] Du har nå fått en pingvin inn i spillet ditt. La oss programmere den!
 
-    Midt på skjermen ser du mange fargede klosser, for eksempel `gå (10)
-    steg`{.b}. Disse er kommandoer vi kan gi til figurene våre. For å skrive et
-    program pusler vi sammen flere klosser ved å dra dem over til høyre delen av
-    skjermen.
+  Midt på skjermen ser du mange fargede klosser, for eksempel `gå (10)
+  steg`{.b}. Disse er kommandoer vi kan gi til figurene våre. For å skrive et
+  program pusler vi sammen flere klosser ved å dra dem over til høyre delen av
+  skjermen.
 
 - [ ] Pusle sammen denne koden for pingvinen din:
 
@@ -79,9 +79,9 @@ seg._
   slutt
   ```
 
-    Legg merke til at fargene på klossene samsvarer med kategoriene øverst på
-    siden. For eksempel finner du `når grønt flagg klikkes`{.b} i
-    `Hendelser`{.blockevents}-kategorien.
+  Legg merke til at fargene på klossene samsvarer med kategoriene øverst på
+  siden. For eksempel finner du `når grønt flagg klikkes`{.b} i
+  `Hendelser`{.blockevents}-kategorien.
 
 ## Test prosjektet {.flag}
 
@@ -120,9 +120,9 @@ _La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
   alltid_ skal _gå_ og _sprette tilbake ved kanten_. Ser du hvordan pingvinen
   gjør akkurat som den har blitt fortalt?
 
-    Vi kan gjøre forandringer i koden vår. For eksempel sier tallet `10` i `gå
-    (10) steg`{.b}-klossen noe om hvor fort pingvinen skal bevege seg. Prøv å
-    forandre dette tallet!
+  Vi kan gjøre forandringer i koden vår. For eksempel sier tallet `10` i `gå
+  (10) steg`{.b}-klossen noe om hvor fort pingvinen skal bevege seg. Prøv å
+  forandre dette tallet!
 
 - [ ] Vi kan også endre størrelsen på pingvinen. Endre koden din slik at den nå
   ser slik ut:
@@ -152,10 +152,9 @@ _La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
   slutt
   ```
 
-    For å lage `pek i retning (tilfeldig tall fra (1) til (360))`{.b} må du
-    først legge til `pek i retning (90 v)`{.b}-klossen og deretter pusle
-    `tilfeldig tall fra (1) til (10)`{.b}-klossen inn i denne og forandre `10`
-    til `360`.
+  For å lage `pek i retning (tilfeldig tall fra (1) til (360))`{.b} må du først
+  legge til `pek i retning (90 v)`{.b}-klossen og deretter pusle `tilfeldig tall
+  fra (1) til (10)`{.b}-klossen inn i denne og forandre `10` til `360`.
 
 ## Test prosjektet {.flag}
 
@@ -177,8 +176,8 @@ Bergens gater._
 - [ ] Vi skal nå legge til en bakgrunn på spillet vårt som viser et kart over
   Bergen. Last ned filen [bergen.png](bergen.png) til datamaskinen din.
 
-    Alternativt kan du [lage ditt eget kart](../kart/kart.html) ved å gå til
-    [denne siden](../kart/kart.html).
+  Alternativt kan du [lage ditt eget kart](../kart/kart.html) ved å gå til
+  [denne siden](../kart/kart.html).
 
 - [ ] For å legge til en ny bakgrunn klikker du på ![Last opp bakgrunn fra
   fil](../bilder/hent-fra-fil.png) under __Ny bakgrunn__ helt til venstre på
@@ -217,9 +216,9 @@ skal da snu seg vekk fra der vi holder musepekeren før den går videre.
   trommeslag (1 v) som varer (0.25) takter
   ```
 
-    En slik _melding_ er en beskjed programmet ditt sender til alle figurene. Du
-    vil ikke se disse meldingene, men figurene dine kan reagere på dem. Her vil
-    vi fortelle pingvinen at den skal snu når vi klikker på kartet (scenen).
+  En slik _melding_ er en beskjed programmet ditt sender til alle figurene. Du
+  vil ikke se disse meldingene, men figurene dine kan reagere på dem. Her vil vi
+  fortelle pingvinen at den skal snu når vi klikker på kartet (scenen).
 
 - [ ] Klikk på pingvinen. Vi skal nå skrive et nytt skript. Lag denne koden ved
   siden av koden du skrev tidligere:
@@ -277,14 +276,14 @@ __Klikk på det grønne flagget.__
 Vi har nå laget et lite spill sammen, men prøv gjerne å utvikle det videre. Her
 er noen ideer:
 
-- [ ] Legg til flere pingviner! Dette er ganske enkelt. Klikk
-  ![Lag en kopi](../bilder/lag-en-kopi.png) og deretter på pingvinfiguren for å
-  lage en kopi av den.
+- [ ] Legg til flere pingviner! Dette er ganske enkelt. Klikk ![Lag en
+  kopi](../bilder/lag-en-kopi.png) og deretter på pingvinfiguren for å lage en
+  kopi av den.
 
 - [ ] Kan du lage en test for om alle pingvinene har kommet hjem? Denne lager du
   enklest på akvariefiguren. Du bør bruke en `for alltid`{.blockcontrol}-løkke,
-  en `hvis`{.blockcontrol}-test samt `< > og < >`{.b}- og `berører
-  [ v]`{.b}-klosser.
+  en `hvis`{.blockcontrol}-test samt `< > og < >`{.b}- og `berører [
+  v]`{.b}-klosser.
 
 - [ ] Kanskje vi kan telle poeng hver gang en pingvin finner veien til Akvariet?
   Til dette trenger du noe som heter variabler. Disse finner du under

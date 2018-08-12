@@ -1,7 +1,6 @@
 ---
-title: 'Lunar Lander'
-level: 4
-author: 'Geir Arne Hjelle'
+title: Lunar Lander
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -18,12 +17,12 @@ videreført i spillet Asteroids som ble utgitt året etter.
 # Oversikt over prosjektet {.activity}
 
 *Mesteparten av kodingen av Lunar Lander skal du gjøre selv. I Lunar Lander vil
- vi spesielt bruke litt tid på gjøre den fysiske modelleringen av romskipet
- ganske realistisk.*
+vi spesielt bruke litt tid på gjøre den fysiske modelleringen av romskipet
+ganske realistisk.*
 
 ## Plan {.check}
 
-- [ ]  Et flyvende romskip
+- [ ] Et flyvende romskip
 
 - [ ] Vi ankommer månen
 
@@ -174,8 +173,8 @@ i forhold til den skrå streken.
 
   __1__: Romskipet landet utenfor landingsplassen (kræsjet).
 
-  __2__: Romskipet landet på landingsplassen, men landet enten på
-  skrå (eller opp-ned) eller for raskt.
+  __2__: Romskipet landet på landingsplassen, men landet enten på skrå (eller
+  opp-ned) eller for raskt.
 
   __3__: Romskipet landet perfekt på landingsplassen.
 
@@ -194,8 +193,8 @@ i forhold til den skrå streken.
 # Steg 4: Videreutvikling av spillet {.activity}
 
 *Du har nå laget en enkel variant av Lunar Lander. Men prøv å gjøre spillet
- morsommere ved å videreutvikle det. Du bestemmer selv hvordan du vil jobbe
- videre, men nedenfor er noen ideer som kanskje kan være til inspirasjon?*
+morsommere ved å videreutvikle det. Du bestemmer selv hvordan du vil jobbe
+videre, men nedenfor er noen ideer som kanskje kan være til inspirasjon?*
 
 ## Ideer til videreutvikling {.check}
 
@@ -238,4 +237,3 @@ i forhold til den skrå streken.
   bakken når spillet begynner, og spilleren må grave denne frem ved å slippe
   bomber fra romskipet. Du kan implementere dette for eksempel ved bruk av noen
   av klossene under `Penn`{.blockpen}-kategorien.
-

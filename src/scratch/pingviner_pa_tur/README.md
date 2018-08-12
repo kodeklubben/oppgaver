@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Pingviner på tur
 author: Madeleine Lorås
-level: 1
 language: nb
 ---
 
@@ -16,7 +15,7 @@ i Bergen.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, programmering.
+__Fag__: Matematikk, programmering.
 
 __Anbefalte trinn__: 3.-10. trinn.
 
@@ -26,20 +25,19 @@ __Tidsbruk__: Dobbelttime.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-       kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-       koordinater til å beregne avstander parallelt med aksene i et
-       koordinatsystem
+- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
+  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
+  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
 
-- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ]  Elevene kan bruke kode for å få en figur til å rotere.
+- [ ] Elevene kan bruke kode for å få en figur til å rotere.
 
-- [ ]  Elevene kan bruke løkker for å få noe til å skje flere ganger.
+- [ ] Elevene kan bruke løkker for å få noe til å skje flere ganger.
 
 ## Forslag til vurderingskriterier {.challenge}
 
@@ -53,12 +51,12 @@ programmering.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ]  __Forutsetninger__: Ingen, fin introduksjon til Scratch.
+- [ ] __Forutsetninger__: Ingen, fin introduksjon til Scratch.
 
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-      bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-      seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
-      Elevene kan gjerne jobbe to og to sammen.
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne
+  jobbe to og to sammen.
 
 ## Fremgangsmåte
 
@@ -70,14 +68,14 @@ oppgaven enda._
 
 ## Variasjoner {.challenge}
 
-- [ ]  Elevene kan lage flere pingviner som er synlige samtidig.
+- [ ] Elevene kan lage flere pingviner som er synlige samtidig.
 
-- [ ]  Elevene kan lage pingviner som beveger seg med ulike hastigheter.
+- [ ] Elevene kan lage pingviner som beveger seg med ulike hastigheter.
 
-- [ ]  Elevene kan finne andre tema for spillet - løver i Afrika, for eksempel.
+- [ ] Elevene kan finne andre tema for spillet - løver i Afrika, for eksempel.
 
-- [ ]  Elevene kan lage en variabel som teller poeng for hver pingvin som kommer
-       tilbake til akvariet.
+- [ ] Elevene kan lage en variabel som teller poeng for hver pingvin som kommer
+  tilbake til akvariet.
 
 ## Eksterne ressurser {.challenge}
 

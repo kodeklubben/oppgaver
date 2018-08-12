@@ -1,7 +1,6 @@
 ---
-title: 'Donkey Kong'
-level: 4
-author: 'Geir Arne Hjelle'
+title: Donkey Kong
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -20,7 +19,7 @@ ildkuler mens han hopper mellom plattformer.
 # Oversikt over prosjektet {.activity}
 
 *Mesteparten av kodingen av Donkey Kong skal du gjøre selv. Underveis vil du
- lære hvordan du lager et enkelt plattform-spill i Scratch.*
+lære hvordan du lager et enkelt plattform-spill i Scratch.*
 
 ## Plan {.check}
 
@@ -36,7 +35,7 @@ ildkuler mens han hopper mellom plattformer.
 # Steg 1: En hoppende helt {.activity}
 
 *Den viktigste delen av et godt plattform-spill er å ha en helt man kan styre
- rundt og hoppe fra plattform til plattform med.*
+rundt og hoppe fra plattform til plattform med.*
 
 I denne delen skal vi konsentrere oss om hvordan vi kan styre heltefiguren, og
 spesielt hvordan vi får den til å hoppe og falle på en troverdig måte.
@@ -151,7 +150,7 @@ vi har brukt i `sett [fartX v] til []`{.b}- og `sett [fartY v] til
 # Steg 2: Plattformer og stiger {.activity}
 
 *Nå har vi en figur som kan springe og hoppe rundt på skjermen. La oss lage
- flere plattformer den kan leke seg på.*
+flere plattformer den kan leke seg på.*
 
 Mens vi tegner flere plattformer er det viktig at vi bruker `Vektorgrafikk`
 fordi dette gjør det lett å flytte plattformene rundt etter at vi har tegnet
@@ -167,8 +166,8 @@ dem.
 
   ![Bilde av en rett strek som illustrerer en stige](stige.png)
 
-  Bruke __linje__-verktøyet og hold inne `shift`-knappen mens du
-  tegner for å få en helt rett linje.
+  Bruke __linje__-verktøyet og hold inne `shift`-knappen mens du tegner for å få
+  en helt rett linje.
 
 - [ ] Hvordan skal helten vår klatre i en stige? Først og fremst vil han ikke
   falle nedover (på samme måte som når han står på en plattform). I tillegg vil
@@ -202,7 +201,7 @@ dem.
 # Steg 3: Donkey Kong og rullende ildkuler {.activity}
 
 *På tide med litt utfordringer! Nå skal vi programmere Donkey Kong til å kaste
- rullende ildkuler mot oss.*
+rullende ildkuler mot oss.*
 
 ## Sjekkliste {.check}
 
@@ -258,8 +257,8 @@ dem.
 # Steg 4: Videreutvikling av spillet {.activity}
 
 *Du har nå laget en enkel variant av Donkey Kong. Men prøv å gjøre spillet
- morsommere ved å videreutvikle det. Du bestemmer selv hvordan du vil jobbe
- videre, men nedenfor er noen ideer som kanskje kan være til inspirasjon?*
+morsommere ved å videreutvikle det. Du bestemmer selv hvordan du vil jobbe
+videre, men nedenfor er noen ideer som kanskje kan være til inspirasjon?*
 
 ## Ideer til videreutvikling {.check}
 
@@ -281,4 +280,3 @@ dem.
 - [ ] Du kan legge til en tidsbegrensning om du vil gjøre spillet mer
   utfordrende. Til dette bruker du en variabel `(tid)`{.b} som du
   `endrer`{.blockdata} og deretter `venter 1 sekund`{.blockcontrol}.
-

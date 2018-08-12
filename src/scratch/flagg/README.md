@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Flagg
 author: Geir Arne Hjelle og Stein Olav Romslo
-level: 3
 language: nb
 ---
 
@@ -19,7 +18,7 @@ Blindern våren 2016.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Kunst og håndtverk, matematikk, programmering
+__Fag__: Kunst og håndtverk, matematikk, programmering
 
 __Anbefalte trinn__: 3.-10. trinn.
 
@@ -32,43 +31,42 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
 
 - [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+  bildebehandlingsprogram
 
 - [ ] __Kunst og håndtverk, 7. trinn__: eksperimentere med enkle geometriske
-      former i konstruksjon og som dekorative formelementer
+  former i konstruksjon og som dekorative formelementer
 
 - [ ] __Kunst og håndtverk, 7. trinn__: bruke fargekontraster, forminsking og
-      sentralperspektiv for å gi illusjon av rom i bilder både med og uten
-      digitale verktøy
+  sentralperspektiv for å gi illusjon av rom i bilder både med og uten digitale
+  verktøy
 
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan tegne sirkler med bestemte farger i bildebehandlingsprogram.
 
 - [ ] Elevene kan bruke forminsking og forstørring av sirkler for å gi illusjon
-      av bevegelse.
+  av bevegelse.
 
 - [ ] Elevene kan sette sammen flere sirkler til å utgjøre et helt bilde.
 
 - [ ] Elevene kan plassere figurer i bestemte posisjoner i et koordinatsystem.
 
-- [ ] Elevene kan bruke kode til å klone figurer, og til å få dem til å endres i fellesskap.
+- [ ] Elevene kan bruke kode til å klone figurer, og til å få dem til å endres i
+  fellesskap.
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven, for eksempel ved å gjøre en eller flere av variasjonene
-      nedenfor.
+  oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -109,7 +107,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 # Steg 5: Det norske flagget {.activity}
 
 - [ ] Det norske flagget har en bestemt rød- og blåfarge. I RGB-systemet er det
-      nærmeste vi kommer `#ED2939` og `#002664`.
+  nærmeste vi kommer `#ED2939` og `#002664`.
 
 - [ ] Dimensjonene på flagget er litt feil. I følge
   [flaggloven](https://lovdata.no/dokument/NL/lov/1898-12-10-1) skal forholdet
@@ -121,13 +119,13 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan prøve å endre på tallene underveis, og se hvordan dette
-      påvirker animasjonen. Spesielt tallene i de forskjellige `vend høyre ()
-      grader`{.b}-klossene kan ha en stor effekt.
+  påvirker animasjonen. Spesielt tallene i de forskjellige `vend høyre ()
+  grader`{.b}-klossene kan ha en stor effekt.
 
 - [ ] Elevene kan tegne sine egne flagg. Slik sirklene legges ut starter man
-      nederst i venstre hjørne og går oppover og etterhvert mot høyre når man
-      bruker den lange teksten (`rrrrrhbbhrrrrrrrrrrhbbhrrrrr...`) for å
-      beskrive fargene i flagget.
+  nederst i venstre hjørne og går oppover og etterhvert mot høyre når man bruker
+  den lange teksten (`rrrrrhbbhrrrrrrrrrrhbbhrrrrr...`) for å beskrive fargene i
+  flagget.
 
 ## Eksterne ressurser {.challenge}
 

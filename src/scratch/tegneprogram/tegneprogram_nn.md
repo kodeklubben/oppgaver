@@ -1,8 +1,7 @@
 ---
 title: Teikneprogram
-level: 3
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -26,8 +25,8 @@ Den fyrste delen kan du gjerne få hjelp av ein voksen til å gjere!
   [tegneprogram_bildefiler.zip](tegneprogram_bildefiler.zip) og legg den på
   skrivebordet på datamaskina di eller ein annan plass du finn att.
 
-- [ ] Pakk ut zip-fila ved å høgreklikke på den og velje `Extract All`, `Pakk
-  ut filer` eller noko liknande.
+- [ ] Pakk ut zip-fila ved å høgreklikke på den og velje `Extract All`, `Pakk ut
+  filer` eller noko liknande.
 
 
 # Steg 1: Dra og teikn! {.activity}
@@ -47,8 +46,8 @@ Den fyrste delen kan du gjerne få hjelp av ein voksen til å gjere!
   figur`-teksten. Vel fila `green-pencil.png` som ligger i den nedlasta
   katalogen. Kall den nye figuren `Blyant`.
 
-- [ ] Bytt til `Drakter`-fana og vel senterpunkt for figuren ved hjelp av
-  ![Vel senterpunkt](../bilder/velg_senterpunkt.png). Flytt korset slik at det
+- [ ] Bytt til `Drakter`-fana og vel senterpunkt for figuren ved hjelp av ![Vel
+  senterpunkt](../bilder/velg_senterpunkt.png). Flytt korset slik at det
   markerer blyantspissen. Då vil spissen teikne og ikkje midten av blyanten.
 
   ![Bilete av ein blyant med flytta senterpunkt](senterpunkt.png)
@@ -69,8 +68,8 @@ interesserte i no er `penn ned`{.blockpen} og `penn opp`{.blockpen}.
 
 - [ ] Me vil bruke museknappen til å kontrollere blyanten - når museknappen er
   nede skal blyanten teikne, og når museknappen er oppe teiknar den ikkje. Me
-  kan gjere det ved å bruke ein `viss elles`{.blockcontrol}- og ein
-  `museknappen er trykt?`{.blocksensing}-kloss. Utvid skriptet som dette:
+  kan gjere det ved å bruke ein `viss elles`{.blockcontrol}- og ein `museknappen
+  er trykt?`{.blocksensing}-kloss. Utvid skriptet som dette:
 
   ```blocks
   når @greenFlag vert trykt på
@@ -121,7 +120,7 @@ __Klikk på det grøne flagget.__
 # Steg 2: Rydde opp {.activity}
 
 *I staden for å måtte starte og stoppe prosjektet for å tømme tavla kan me lage
- ein knapp som slettar alt i staden.*
+ein knapp som slettar alt i staden.*
 
 Me kan framleis bruke `slett`{.blockpen}-klossen.
 
@@ -187,8 +186,8 @@ farge med strekfarga.
   bruk pennefargen [#FF0000]
   ```
 
-  For å velje farga i `bruk pennefargen`{.blockpen}-klossen kan du fyrst klikke i
-  fargeruta på klossen, og så på den raude knappen du laga på scena tidlegare.
+  For å velje farga i `bruk pennefargen`{.blockpen}-klossen kan du fyrst klikke
+  i fargeruta på klossen, og så på den raude knappen du laga på scena tidlegare.
 
 ## Test prosjektet ditt {.flag}
 
@@ -220,8 +219,8 @@ __Klikk på det grøne flagget.__
 # Steg 4: Berre teikne på tavla {.activity}
 
 *Du har kanskje lagt merke til at du kan teikne over heile scena, og det blir jo
- litt rotete. Viss me skal avgrense skriblinga til berre den lysegrå tavla, så
- må me setje grenser for kor blyanten kan gå.*
+litt rotete. Viss me skal avgrense skriblinga til berre den lysegrå tavla, så må
+me setje grenser for kor blyanten kan gå.*
 
 Du hugsar kanskje at Scratch definerer punkt på scena ved hjelp av `x`- og
 `y`-koordinatar. Når du flyttar musepeikaren rundt omkring ser du desse verdiane

@@ -1,8 +1,7 @@
 ---
 title: Hoppehelt
-level: 4
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -73,8 +72,8 @@ blir brukt til programmering i Scratch. Me skal også sjå på klonar av klonar!
   slutt
   ```
 
-  Set farga i `rører fargen`{.blocksensing}-klossen til same farge som
-  streken du teikna på bakgrunnen i Steg 1.
+  Set farga i `rører fargen`{.blocksensing}-klossen til same farge som streken
+  du teikna på bakgrunnen i Steg 1.
 
 - [ ] Prøv å endre startposisjonen til helten, særleg y-koordinaten. Får du
   helten til å falle mot bakken?

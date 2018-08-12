@@ -1,7 +1,6 @@
 ---
-title: 'Krabbeangrep! Remiks'
-level: 3
-author: 'Gudbrand Tandberg'
+title: "Krabbeangrep! Remiks"
+author: Gudbrand Tandberg
 language: nb
 ---
 
@@ -22,7 +21,7 @@ på krabbene og får poeng når den treffer.
 # Steg 1: Bli kjent med spillet {.activity}
 
 *Før vi begynner å kode noe som helst skal vi bli litt kjent med spillet som det
- er.*
+er.*
 
 ## Sjekkliste {.check}
 
@@ -48,8 +47,8 @@ __Klikk på det grønne flagget.__
 # Steg 2: Vi lager en meny, del I {.activity}
 
 *Nå skal vi lage en meny som dukker opp når spillet starter og når spillet er
- slutt. Menyen skal i første omgang være veldig enkel, alt som skal være der er
- en startknapp.*
+slutt. Menyen skal i første omgang være veldig enkel, alt som skal være der er
+en startknapp.*
 
 Se nøye på skissen under før du går videre. Her ser du hvordan flyten i spillet
 skal være. Flyten i spillet skal styres gjennom meldinger som sendes mellom
@@ -75,8 +74,8 @@ melding.
 # Steg 3: Vi lager en meny, del II {.activity}
 
 *Som spillet er nå så startes det når man trykker på det grønne flagget. Nå vil
- vi at hovedmenyen skal dukke opp når vi trykker på det grønne flagget, og at
- spillet skal starte når man trykker på Startknapp figuren.*
+vi at hovedmenyen skal dukke opp når vi trykker på det grønne flagget, og at
+spillet skal starte når man trykker på Startknapp figuren.*
 
 ### Se mottakere {.protip}
 
@@ -175,4 +174,3 @@ raskere og raskere når når man skyter flere av dem. Her kan det være lurt å 
 en variabel som heter `hastighet`{.blockdata} og bruke denne i hovedløkken til
 Romvesen-figuren. Så kan du for eksempel bruke en `endre hastighet med
 1`{.blockdata}-kloss når et romvesen treffes.
-

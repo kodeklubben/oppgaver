@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Hva er det?
 author: Stein Olav Romslo
-level: 3
 language: nb
 ---
 
@@ -16,7 +15,7 @@ Desto raskere du gjetter riktig, desto flere poeng får du.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Kunst og håndtverk, programmering.
+__Fag__: Kunst og håndtverk, programmering.
 
 __Anbefalte trinn__: 3.-10. trinn.
 
@@ -27,37 +26,37 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+  bildebehandlingsprogram
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke kode til å forvrenge et bilde, og gradvis gjøre det
-      klarere igjen.
+  klarere igjen.
 
-- [ ] Elevene kan la brukeren gjette på ulike alternativer, og gi poeng for riktig svar.
+- [ ] Elevene kan la brukeren gjette på ulike alternativer, og gi poeng for
+  riktig svar.
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven, for eksempel ved å gjøre en eller flere av variasjonene
-      nedenfor.
+  oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Elevene må ha god kunnskap i Scratch. De bør ha gjort
-      flere prosjekter på introduksjons- og nybegynnernivå før de starter med
-      denne oppgaven.
+  flere prosjekter på introduksjons- og nybegynnernivå før de starter med denne
+  oppgaven.
 
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-      bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-      seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
-      Elevene kan gjerne jobbe to og to sammen.
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne
+  jobbe to og to sammen.
 
 ## Fremgangsmåte
 
@@ -68,12 +67,12 @@ ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan endre tiden bildet bruker på å bli klart, grad av forvrengig
-      og velge likere figurer.
+  og velge likere figurer.
 
 - [ ] Elevene kan lage ulike forvrengingsalgoritmer.
 
 - [ ] Elevene kan lagre poengsummen for hver gang, og la spillet vare i flere
-      runder.
+  runder.
 
 - [ ] Elevene kan gjøre spillet vanskeligere jo lengre spilleren har kommet.
 
@@ -82,7 +81,7 @@ ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 - [ ] Elevene kan tilpasse hver runde etter resultatet i forrige runde.
 
 - [ ] Elevene kan lagre den høyeste poengsummen som er oppnådd, og opplyse
-      hvilken spiller som har rekorden.
+  hvilken spiller som har rekorden.
 
 - [ ] Elevene kan gi minuspoeng for galt svar.
 

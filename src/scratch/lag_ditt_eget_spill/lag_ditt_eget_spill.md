@@ -1,8 +1,7 @@
 ---
-title: 'Lag ditt eget spill'
-level: 4
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Anne-Marit Gravem'
+title: Lag ditt eget spill
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Anne-Marit Gravem
 language: nb
 ---
 

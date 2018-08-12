@@ -1,8 +1,7 @@
 ---
-title: 'Rotasjon om eit punkt'
-level: 1
-author: 'Carl A. Myrland'
-translator: 'Stein Olav Romslo'
+title: Rotasjon om eit punkt
+author: Carl A. Myrland
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -11,8 +10,8 @@ language: nn
 
 I denne oppgåva skal me importere ein geometrisk figur og så
 `rotere`{.blockmotion} den. Merk at viss du allereie har gjort oppgåva om
-[rotasjon kring eigen akse](../rotasjon/rotasjon_nn.html) kan du hoppe over steg 1
-og heller laste inn den førre oppgåva di frå "Mine ting"-mappa.
+[rotasjon kring eigen akse](../rotasjon/rotasjon_nn.html) kan du hoppe over steg
+1 og heller laste inn den førre oppgåva di frå "Mine ting"-mappa.
 
 ![Bilete av ein trollmannshatt](../rotasjon/Geometri.png)
 
@@ -20,7 +19,7 @@ og heller laste inn den førre oppgåva di frå "Mine ting"-mappa.
 # Steg 1: Førebuingar {.activity}
 
 *For å gjere det enkelt å kome i gang skal me hente inn ein figur frå
- Scratch-biblioteket. Denne figuren er tilnærma lik ein likebeint trekant.*
+Scratch-biblioteket. Denne figuren er tilnærma lik ein likebeint trekant.*
 
 ## Sjekkliste {.check}
 

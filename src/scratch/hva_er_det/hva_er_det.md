@@ -1,8 +1,7 @@
 ---
-title: 'Hva er det?'
-level: 3
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Anne-Marit Gravem'
+title: Hva er det?
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Anne-Marit Gravem
 language: nb
 ---
 
@@ -59,8 +58,8 @@ normalt når det velges en tilfeldig drakt hver gang.
 # Steg 2: Forvreng bildet {.activity}
 
 *La oss nå forvrenge figuren når den dukker opp på tavlen, så det blir
- vanskeligere å gjette hva det er. Deretter skal vi gradvis gjøre vi den
- tydeligere igjen.*
+vanskeligere å gjette hva det er. Deretter skal vi gradvis gjøre vi den
+tydeligere igjen.*
 
 Vi skal bruke en `poeng`{.blockdata}-variabel til å kontrollere graden av
 forvrenging. Dersom poengscoren er høy vil bildet bli veldig forvrengt. Når
@@ -98,8 +97,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Blir bildet fullstendig tydelig når poengsummen er 0?
 
-- [ ] Får du fremdeles nye ting på tavlen når du klikker på det grønne
-  flagget?
+- [ ] Får du fremdeles nye ting på tavlen når du klikker på det grønne flagget?
 
 ## Ting å prøve {.challenge}
 
@@ -329,7 +327,7 @@ gang spilleren klikker på feil figur.
 
 Gjør dette spillet bedre?
 
-## Lagre prosjektet{.save}
+## Lagre prosjektet {.save}
 
 __Veldig bra! Nå er du ferdig og kan spille det nye spillet du har laget!__
 

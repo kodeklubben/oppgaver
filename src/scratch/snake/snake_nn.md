@@ -1,8 +1,7 @@
 ---
 title: Snake
-level: 4
-author: 'Geir Arne Hjelle og Martin Lie'
-translator: 'Stein Olav Romslo'
+author: Geir Arne Hjelle og Martin Lie
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -27,8 +26,8 @@ epla og om å stenge kvarandre inne.
 # Oversikt over prosjektet {.activity}
 
 *Du skal gjere mesteparten av kodinga av Snake sjølv. I Snake brukar me kloner
- på ein litt spesiell og ganske smart måte. Difor starar me med å jobbe med
- kloning.*
+på ein litt spesiell og ganske smart måte. Difor starar me med å jobbe med
+kloning.*
 
 ## Plan {.check}
 
@@ -44,9 +43,9 @@ epla og om å stenge kvarandre inne.
 # Steg 1: Slangen flyttar på seg... eller? {.activity}
 
 *I prinsippet er Snake eit enkelt spel å lage. Ei av dei største utfordringane
- er korleis slangen skal flyttast rundt. Fyrst virkar det kanskje som ein treng
- ei eller anna slags liste som hugsar kor kvar del av slangen er slik at ein kan
- flytte den.*
+er korleis slangen skal flyttast rundt. Fyrst virkar det kanskje som ein treng
+ei eller anna slags liste som hugsar kor kvar del av slangen er slik at ein kan
+flytte den.*
 
 I staden for å bruke lister skal me bruke kloning på ein spesiell måte. Hugs at
 når me kloner kopierer me både utsjånaden og oppførselen til ein figur. Me vil
@@ -82,9 +81,9 @@ oss prøve det i praksis.
 
   ![Bilete av ein boks i Scratch](boks.png)
 
-- [ ] Lag dei tre variablane: `lengde`{.blockdata} og `teljar`{.blockdata}
-  skal gjelde for alle figurar, medan `min id`{.blockdata} må gjelde kun for
-  denne figuren, sidan den skal være unik for kvar klone.
+- [ ] Lag dei tre variablane: `lengde`{.blockdata} og `teljar`{.blockdata} skal
+  gjelde for alle figurar, medan `min id`{.blockdata} må gjelde kun for denne
+  figuren, sidan den skal være unik for kvar klone.
 
 - [ ] No skal me lage hovudløkka i spelet. Fyrst set me dei nødvendige
   variablane, så brukar me ei løkke til å lage stadig nye slangeboksar.
@@ -156,7 +155,7 @@ sjølv må me berre endre retninga når piltastane blir trykka på.
 # Steg 3: Eple og anna snadder {.activity}
 
 *No skal me gi slangen mål og meining. Ved å ete eple kan slangen vekse seg stor
- og sterk!*
+og sterk!*
 
 Epla er ganske enkle å lage, sidan me berre treng ein figur som blir borte når
 slangen et dei. For å enklare kunne utvide med fleire eple og slikt seinare
@@ -198,7 +197,7 @@ brukar me kloner av epla òg.
 # Steg 4: Vidareutvikling av spelet {.activity}
 
 *Du står heilt fritt til korleis du vil jobbe vidare med spelet ditt. Her er
- nokre idear som kan gjere spelet endå meir morosamt.*
+nokre idear som kan gjere spelet endå meir morosamt.*
 
 ## Idear til vidareutvikling {.check}
 

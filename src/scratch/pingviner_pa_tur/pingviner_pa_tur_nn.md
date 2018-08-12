@@ -1,8 +1,7 @@
 ---
-title: 'Pingviner på tur'
-level: 1
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+title: Pingviner på tur
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -40,9 +39,8 @@ startar å programmere er det lurt å lage ein brukar, sidan det gjer det enklar
 - [ ] Etter at du har blitt Scratchbrukar kan du klikke __Programmering__ øvst
   til venstre for å kome i gang med programmeringa.
 
-    Vidare skal me gå gjennom ei oppskrift på korleis du kan lage eit enkelt
-    spel der målet er å hjelpe pingvinane å finne vegen heim til akvariet i
-    Bergen.
+  Vidare skal me gå gjennom ei oppskrift på korleis du kan lage eit enkelt spel
+  der målet er å hjelpe pingvinane å finne vegen heim til akvariet i Bergen.
 
 
 # Steg 1: Ein pingvin på tur {.activity}
@@ -55,19 +53,19 @@ seg._
 - [ ] Når du startar eit nytt Scratch-prosjekt ser du ein kattefigur. I dette
   spelet skal me ikkje bruke katten. Difor startar me med å slette kattefiguren:
 
-    Klikk på ![Slett](../bilder/slett.png) øvst i menyen, og så klikkar du på
-    kattefiguren for å slette den.
+  Klikk på ![Slett](../bilder/slett.png) øvst i menyen, og så klikkar du på
+  kattefiguren for å slette den.
 
-- [ ] I staden skal me leggje til ein pingvinfigur. Klikk på  ![Vel figur frå
-  biblioteket](../bilder/hent-fra-bibliotek.png) ved sidan av  __Ny figur:__
+- [ ] I staden skal me leggje til ein pingvinfigur. Klikk på ![Vel figur frå
+  biblioteket](../bilder/hent-fra-bibliotek.png) ved sidan av __Ny figur:__
   omlag midt på skjermen. Rull nedover skjermen til du finn ein pingvinfigur
   (det er fleire å velje mellom). Klikk på ein av dei, og så __OK__.
 
 - [ ] No har du ein pingvin i spelet ditt! La oss programmere den!
 
-    Midt på skjermen ser du mange farga klossar, til dømes `gå (10) steg`{.b}.
-    Desse er kommandoar me kan gi til figurane våre. For å skrive eit program
-    puslar me samen fleire klossar ved å dra dei over til høgre del av skjermen.
+  Midt på skjermen ser du mange farga klossar, til dømes `gå (10) steg`{.b}.
+  Desse er kommandoar me kan gi til figurane våre. For å skrive eit program
+  puslar me samen fleire klossar ved å dra dei over til høgre del av skjermen.
 
 - [ ] Pusle saman denne koden for pingvinen din:
 
@@ -79,9 +77,9 @@ seg._
   slutt
   ```
 
-    Legg merke til at farga på klossane samsvarar med kategoriane øvst på sida.
-    Til dømes finn du `når @greenFlag vert trykt på`{.b} i
-    `Hendingar`{.blockevents}-kategorien.
+  Legg merke til at farga på klossane samsvarar med kategoriane øvst på sida.
+  Til dømes finn du `når @greenFlag vert trykt på`{.b} i
+  `Hendingar`{.blockevents}-kategorien.
 
 ## Test prosjektet {.flag}
 
@@ -105,8 +103,8 @@ No har du laga eit lite program! Scratch lagrar alt du gjer automatisk med jamne
 mellomrom. Likevel er det lurt å leggje til seg vanen om å lagre sjølv
 innimellom.
 
-- [ ] Over scena er det eit tekstfelt der du kan gi namn til prosjektet ditt.
-  Du kan til dømes kalle det `Pingvinar på tur`.
+- [ ] Over scena er det eit tekstfelt der du kan gi namn til prosjektet ditt. Du
+  kan til dømes kalle det `Pingvinar på tur`.
 
 - [ ] I menyen __Fil__ kan du velje __Lagre no__ for å lagre prosjektet.
 
@@ -121,9 +119,9 @@ _No vil me få pingvinen til å bevege seg på kryss og tvers._
   alltid_ skal _gå_ og _sprette tilbake ved kanten_. Ser du korleis pingvinen
   gjer akkurat det me har sagt til den at den skal gjere?
 
-    Me kan gjere endringar i koden vår. Til dømes seier talet `10` i `gå (10)
-    steg`{.b}-klossen noko om kor fort pingvinen skal bevege seg. Prøv å endre
-    talet!
+  Me kan gjere endringar i koden vår. Til dømes seier talet `10` i `gå (10)
+  steg`{.b}-klossen noko om kor fort pingvinen skal bevege seg. Prøv å endre
+  talet!
 
 - [ ] Me kan endre storleiken på pingvinen. Endre koden din slik at den ser slik
   ut:
@@ -153,9 +151,9 @@ _No vil me få pingvinen til å bevege seg på kryss og tvers._
   slutt
   ```
 
-    For å lage `peik i retning (tilfeldig tal frå (1) til (360))`{.b} må du
-    fyrst leggje til `peik i retning (90 v)`{.b}-klossen og så pusle `tilfeldig
-    tal frå (1) til (10)`{.b}-klossen inn i den og forandre `10` til `360`.
+  For å lage `peik i retning (tilfeldig tal frå (1) til (360))`{.b} må du fyrst
+  leggje til `peik i retning (90 v)`{.b}-klossen og så pusle `tilfeldig tal frå
+  (1) til (10)`{.b}-klossen inn i den og forandre `10` til `360`.
 
 ## Test prosjektet {.flag}
 
@@ -177,8 +175,8 @@ gatene i Bergen._
 - [ ] No skal me leggje til ein bakgrunn på spelet vårt som viser eit kart over
   Bergen. Last ned fila [bergen.png](bergen.png) til datamaskina di.
 
-    Alternativt kan du lage ditt eige kart ved å gå til
-    [denne sida](../kart/kart.html).
+  Alternativt kan du lage ditt eige kart ved å gå til [denne
+  sida](../kart/kart.html).
 
 - [ ] For å leggje til ein ny bakgrunn klikkar du på ![Last opp bakgrunn frå
   fil](../bilder/hent-fra-fil.png) under __Ny bakgrunn__ heilt til venstre på
@@ -216,10 +214,9 @@ snu seg vekk frå der me heldt musepeikaren før den går vidare.
   trommeslag (1 v) som varer (0.25) takter
   ```
 
-    Ei slik _melding_ er ein beskjed programmet ditt sender til alle figurane.
-    Du får ikkje sjå meldingane, men figurane dine kan reagere på dei. Her vil
-    me at pingvinen skal snu når den får melding om at me har klikka på kartet
-    (scena).
+  Ei slik _melding_ er ein beskjed programmet ditt sender til alle figurane. Du
+  får ikkje sjå meldingane, men figurane dine kan reagere på dei. Her vil me at
+  pingvinen skal snu når den får melding om at me har klikka på kartet (scena).
 
 - [ ] Klikk på pingvinen. No skal me skrive eit nytt skript. Lag denne koden ved
   sidan av koden du skreiv tidlegare:
@@ -243,8 +240,8 @@ _Til slutt skal me få pingvinen til å oppdage at den har kome heim!_
 
 ## Sjekkliste {.check}
 
-- [ ] Me kan bruke klossen `rører [ v]`{.b} for å oppdage om to figurar er
-  borti kvarandre. Legg til ein `viss`{.blockcontrol}-test i koden som flyttar
+- [ ] Me kan bruke klossen `rører [ v]`{.b} for å oppdage om to figurar er borti
+  kvarandre. Legg til ein `viss`{.blockcontrol}-test i koden som flyttar
   pingvinen:
 
   ```blocks
@@ -283,8 +280,8 @@ nokre idear:
 
 - [ ] Kan du lage ein test for om _alle_ pingvinane har kome heim? Den er
   enklast å lage på akvariefiguren. Du bør bruke ei `for
-  alltid`{.blockcontrol}-løkke, ein `viss`{.blockcontrol}-test samt
-  `< > og < >`{.b}- og `rører [ v]`{.b}-klossar.
+  alltid`{.blockcontrol}-løkke, ein `viss`{.blockcontrol}-test samt `< > og <
+  >`{.b}- og `rører [ v]`{.b}-klossar.
 
 - [ ] Kanskje me kan telje poeng kvar gong ein pingvin finn vegen til akvariet?
   Til det treng du noko som heiter variablar. Desse finn du under

@@ -1,32 +1,31 @@
 ---
 title: Julekort
-level: 1
-author: 'Espen Clausen'
+author: Espen Clausen
 language: nb
 ---
 
 
 # Introduksjon {.intro}
 
-Vi skal lage et julekort i Scratch. Det skal ha noen enkle funksjoner
-og animasjoner. Når det er ferdig vil det se omtrent slik ut.
+Vi skal lage et julekort i Scratch. Det skal ha noen enkle funksjoner og
+animasjoner. Når det er ferdig vil det se omtrent slik ut.
 
 ![Eksempel på bilde av et julekort](julekort.png)
 
 
 # Steg 1: Endre bakgrunn og finne figurer {.activity}
 
-Når du er klar til å starte velger du `Programmering` i menyen øverst
-på siden <http://scratch.mit.edu/>. Da kommer vi inn i Scratch.
+Når du er klar til å starte velger du `Programmering` i menyen øverst på siden
+<http://scratch.mit.edu/>. Da kommer vi inn i Scratch.
 
 ![Bilde av hvordan starte Scratch fra nettsiden](programmering.png)
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på scenen ved siden av kattefiguren `Sprite1` i vinduet for
-  figurer. Trykk på ![bilde av bakgrunn ikonet](../bilder/bakgrunn-fra-bibliotek.png) for å
-  importere en ferdig bakgrunn. Velg den bakgrunnen du vil. Slett
-  deretter den tomme bakgrunnen som ligger der.
+- [ ] Klikk på scenen ved siden av kattefiguren `Sprite1` i vinduet for figurer.
+  Trykk på ![bilde av bakgrunn ikonet](../bilder/bakgrunn-fra-bibliotek.png) for
+  å importere en ferdig bakgrunn. Velg den bakgrunnen du vil. Slett deretter den
+  tomme bakgrunnen som ligger der.
 
   ![Bilde av hvor ny bakgrunn ikonet i scratch ligger](ny_bakgrunn.png)
 
@@ -44,9 +43,9 @@ Nå skal vi få figurene til å gjøre ting når de blir klikket på.
 
 ## Sjekkliste {.check}
 
-- [ ] Velg isbjørnen og fanen `Skript`{.blocklightgrey} og lag denne
-  koden. Når isbjørnen blir klikket på skal den si `God jul!`.
-  Deretter skal den skifte utseende hvert sekund, 10 ganger.
+- [ ] Velg isbjørnen og fanen `Skript`{.blocklightgrey} og lag denne koden. Når
+  isbjørnen blir klikket på skal den si `God jul!`. Deretter skal den skifte
+  utseende hvert sekund, 10 ganger.
 
   ```blocks
   når denne figuren klikkes
@@ -67,9 +66,9 @@ __Klikk på isbjørnen og se om koden din virker.__
 
 ## Sjekkliste {.check}
 
-- [ ] Velg snømannen og fanen `Skript` og lag denne koden.  Snømannen skal
-  spørre etter navnet ditt. Den setter svaret inn i en ny
-  setning. Deretter skal den skifte farge.
+- [ ] Velg snømannen og fanen `Skript` og lag denne koden. Snømannen skal spørre
+  etter navnet ditt. Den setter svaret inn i en ny setning. Deretter skal den
+  skifte farge.
 
   ```blocks
   når denne figuren klikkes
@@ -92,8 +91,8 @@ __Klikk på snømannen og se om koden din virker.__
 
 ## Sjekkliste {.check}
 
-- [ ] Velg juletreet og fanen `Skript`{.blocklightgrey} og lag denne
-koden.  Nå skal juletreet skifte farge og utseende.
+- [ ] Velg juletreet og fanen `Skript`{.blocklightgrey} og lag denne koden. Nå
+  skal juletreet skifte farge og utseende.
 
   ```blocks
   når grønt flagg klikkes
@@ -119,25 +118,24 @@ Da har du jobbet godt! Om du fortsatt har ledig tid kan du:
 
 ## Sjekkliste {.check}
 
-- [ ] Legge til din egen velkomsthilsen, for eksempel "God jul" eller du
-kan synge din egen julesang.
+- [ ] Legge til din egen velkomsthilsen, for eksempel "God jul" eller du kan
+  synge din egen julesang.
 
   Klikk på `Scene`, og velg fanen `Lyder`{.blocklightgrey}.
 
   ![Bilde av fanen "Lyder" i Scratch](lyder.png)
 
-  Ta op din egen lyd, og gi den et navn, for eksempel
-  `julehilsen`. Gå deretter inn på `Skript`{.blocklightgrey}, og
-  legg inn følgende kode:
+  Ta op din egen lyd, og gi den et navn, for eksempel `julehilsen`. Gå deretter
+  inn på `Skript`{.blocklightgrey}, og legg inn følgende kode:
 
   ```blocks
   når grønt flagg klikkes
   spill lyden [julehilsen v] til den er ferdig
   ```
 
-- [ ] Kanskje finne på noen andre morsomme animasjoner? Snømannen kan
-danse eller turne litt? Kan vi ha snakkende eller hoppende gale
-julepresanger? Du bestemmer!
+- [ ] Kanskje finne på noen andre morsomme animasjoner? Snømannen kan danse
+  eller turne litt? Kan vi ha snakkende eller hoppende gale julepresanger? Du
+  bestemmer!
 
 
 # Steg 4: Lagre og publisere {.activity}

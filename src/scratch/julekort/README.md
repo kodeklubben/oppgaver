@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Julekort
 author: Madeleine Lorås
-level: 1
 language: nb
 ---
 
@@ -14,7 +13,7 @@ jul.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Engelsk, Kunst og håndtverk, Musikk
+__Fag__: Engelsk, Kunst og håndtverk, Musikk
 
 __Trinn__: 2.-10. trinn
 
@@ -27,13 +26,13 @@ __Tidsbruk__: Dobbelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Engelsk, 2. årstrinn__: ta del i og oppleve barnekultur fra
-      engelskspråklige land gjennom å bruke ord, bilder, musikk og bevegelse
+  engelskspråklige land gjennom å bruke ord, bilder, musikk og bevegelse
 
 - [ ] __Kunst og håndtverk, 4. årstrinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+  bildebehandlingsprogram
 
 - [ ] __Musikk, 7. årstrinn__: komponere og gjøre lydopptak ved hjelp av
-      digitale verktøy
+  digitale verktøy
 
 ## Forslag til læringsmål {.challenge}
 
@@ -57,9 +56,9 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Forutsetninger__: Ingen.
 
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-      bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-      seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
-      Elevene kan gjerne jobbe to og to sammen.
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne
+  jobbe to og to sammen.
 
 ## Fremgangsmåte
 
@@ -73,5 +72,4 @@ oppgaven enda._
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan få i oppgave å lage julekort fra forskjellige land, med de
-      ulike tradisjonene illustrert.
-
+  ulike tradisjonene illustrert.

@@ -114,17 +114,19 @@ for å lage (data)pannekaker. Legg merke til at programmet hverken er skrevet
 helt på godt norsk eller i et programmeringsspråk. Dette er for å gjøre det litt
 mer forståelig.
 
-  hent 3 egg
-  hent 2 dl melk
-  hent 2 dl mel
-  hent 1 bakebolle
+```text
+hent 3 egg
+hent 2 dl melk
+hent 2 dl mel
+hent 1 bakebolle
 
-  bland mel i bakebolle
-  bland melk i bakebolle
+bland mel i bakebolle
+bland melk i bakebolle
 
-  gjenta 3 ganger:
-    hvis egg ikke er rottent
-      bland 1 egg i bakebollen
+gjenta 3 ganger:
+  hvis egg ikke er rottent
+    bland 1 egg i bakebollen
 
-  gjenta til bakebollen er tom:
-    stek en pannekake*
+gjenta til bakebollen er tom:
+  stek en pannekake*
+```

@@ -1,8 +1,7 @@
 ---
 title: Halloweenimasjon
-level: 1
-author: 'Torbjørn Skauli og Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+author: Torbjørn Skauli og Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -26,12 +25,12 @@ skjermen.*
 - [ ] Start eit nytt prosjekt. Slett kattefiguren, til dømes ved å klikke på
   ![Slett](../bilder/slett.png) i menylinja øvst på skjermen og så på katten.
 
-- [ ] Vel ein ny figur ved å klikke
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Finn
-  eit skummelt spøkelse! Me har brukt `Fantasi/Ghost2`.
+- [ ] Vel ein ny figur ved å klikke ![Velg figur fra
+  biblioteket](../bilder/hent-fra-bibliotek.png). Finn eit skummelt spøkelse! Me
+  har brukt `Fantasi/Ghost2`.
 
-- [ ] Trykk på `i`{.blockmotion} øvst til venstre på den nye
-  spøkelsesfiguren din. Gi den namnet `Spøkelse`.
+- [ ] Trykk på `i`{.blockmotion} øvst til venstre på den nye spøkelsesfiguren
+  din. Gi den namnet `Spøkelse`.
 
   ![Bilete av eit skummelt spøkelse](spokelse.png)
 
@@ -45,8 +44,8 @@ skjermen.*
   slutt
   ```
 
-- [ ] Klikk på skriptet ditt for å starte animasjonen. Flyttar spøkelset
-  ditt på seg? Ser du eit problem?
+- [ ] Klikk på skriptet ditt for å starte animasjonen. Flyttar spøkelset ditt på
+  seg? Ser du eit problem?
 
 - [ ] Spøkelset ser ut som om det set seg fast når det kjem til kanten! Det kan
   me fikse med ein `viss ved kant, sprett`{.blockmotion}-kloss:
@@ -137,9 +136,9 @@ skjermen.*
   ```
 
 - [ ] For å få litt variasjon vil me at demonen skal animerast over ein skummel
-  skog. Klikk på  ![Velg en ferdig
+  skog. Klikk på ![Velg en ferdig
   bakgrunn](../bilder/bakgrunn-fra-bibliotek.png) heilt til venstre på skjermen,
-  og vel bakgrunnen  `Utendørs/forest`. Gi bakgrunnen namnet `Skog`.
+  og vel bakgrunnen `Utendørs/forest`. Gi bakgrunnen namnet `Skog`.
 
 
 # Steg 3: Bytte bakgrunnar {.activity}
@@ -164,8 +163,8 @@ bakgrunnen og å starte spøkelsesanimasjonen.
   byt bakgrunn til [Svart v]
   ```
 
-- [ ] Klikk på spøkelsesfiguren og endre skriptet ved å leggje til ein kloss
-  på toppen:
+- [ ] Klikk på spøkelsesfiguren og endre skriptet ved å leggje til ein kloss på
+  toppen:
 
   ```blocks
   når eg får meldinga [Animer spøkelse v]
@@ -186,8 +185,8 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 
   ut ved sidan av det store skriptet til spøkelset.
 
-- [ ] Send meldinga ved å klikke på `send melding`{.blockevents}-klossen.
-  Blir spøkelset animert over ein svart bakgrunn?
+- [ ] Send meldinga ved å klikke på `send melding`{.blockevents}-klossen. Blir
+  spøkelset animert over ein svart bakgrunn?
 
 - [ ] No skal me gjere det same for demonen. Legg til eit nytt skript på scena:
 
@@ -223,7 +222,7 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 # Steg 4: Kople saman animasjonane {.activity}
 
 *Me vil kople saman animasjonane slik at dei blir vist etter kvarandre heilt
- automatisk, om att og om att.*
+automatisk, om att og om att.*
 
 ## Sjekkliste {.check}
 
@@ -328,9 +327,9 @@ __Klikk på det grøne flagget.__
   gøym
   ```
 
-  Du kan godt bytte ut meldinga `Animer graskar` med noko som passar for
-  figuren din. Klikk på skriptet (eller send ei melding) for å teste
-  animasjonen. Ser det bra ut?
+  Du kan godt bytte ut meldinga `Animer graskar` med noko som passar for figuren
+  din. Klikk på skriptet (eller send ei melding) for å teste animasjonen. Ser
+  det bra ut?
 
 - [ ] Du kan sette startposisjonen for den nye figuren:
 
@@ -380,7 +379,7 @@ Når du er fornøgd med animasjonane dine kan du dele det med familie og vener v
 # Projiser animasjonene {.activity}
 
 *Heilt til slutt kan du bruke dette steget for å lære korleis du kan skremme
- nabolaget med dei skumle animasjonane dine.*
+nabolaget med dei skumle animasjonane dine.*
 
 Det enklaste er å sette skjermen i vindauget. Klikk firkanten for
 fullskjermvisning øvst til venstre under Scratch-logoen. Viss du får låne ein

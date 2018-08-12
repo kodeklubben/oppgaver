@@ -1,7 +1,7 @@
 ---
 title: Kursrettleiing
 author: Geir Arne Hjelle
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 

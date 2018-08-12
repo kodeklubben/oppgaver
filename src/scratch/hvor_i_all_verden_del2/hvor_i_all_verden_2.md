@@ -1,7 +1,6 @@
 ---
-title: 'Hvor i All Verden? Del 2'
-level: 3
-author: 'Geir Arne Hjelle'
+title: Hvor i All Verden? Del 2
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -39,7 +38,7 @@ Hvis ikke disse tingene fungerer så gå tilbake til del 1 og gjør dem ferdige.
 # Steg 1: Bakgrunnen som figur {.activity}
 
 *Vi vil nå at bakgrunnen skal bli flyttbar. Vanlige bakgrunner i Scratch kan
- ikke flyttes. Vi må derfor "jukse litt", og la bakgrunnen være en figur.*
+ikke flyttes. Vi må derfor "jukse litt", og la bakgrunnen være en figur.*
 
 ## Sjekkliste {.check}
 
@@ -211,8 +210,7 @@ helikopteret ikke kan fly ut av kartet?
   sett [stedY v] til [-120]
   ```
 
-- [ ] Vi kan nå lage en helt ny blokk som flytter stedet rundt på
-  skjermen.
+- [ ] Vi kan nå lage en helt ny blokk som flytter stedet rundt på skjermen.
 
   ```blocks
   når jeg mottar [Nytt spill v]
@@ -234,7 +232,7 @@ helikopteret ikke kan fly ut av kartet?
 # Steg 5: Flere steder {.activity}
 
 *Vi skal nå se på hvordan vi relativt enkelt kan legge til flere reisemål i
- spillet vårt.*
+spillet vårt.*
 
 ## Sjekkliste {.check}
 
@@ -316,8 +314,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Flyr helikopteret rundt på kartet på en naturlig måte?
 
-- [ ] Fungerer reisemålene slik de skal? Ligger de omtrent der de skal
-  ligge?
+- [ ] Fungerer reisemålene slik de skal? Ligger de omtrent der de skal ligge?
 
 - [ ] Kan du reise til flere reisemål på rad?
 
@@ -345,4 +342,3 @@ tidsbegrensning og poengsum.
   prøve å pusle sammen. Du må da laste inn hver av dem som en egen figur. Hver
   av dem trenger omtrent samme kode som kartet vi har brukt så langt. Du må bare
   endre litt i `gå til`{.blockmotion}-klossene.
-

@@ -1,8 +1,7 @@
 ---
 title: Soloball
-level: 1
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -53,7 +52,7 @@ __Klikk på det grøne flagget.__
 # Steg 2: Katten spring rundt {.activity}
 
 *I staden for at katten roterer vil me at den skal kunne springe rundt i sirkel
- på skjermen.*
+på skjermen.*
 
 ## Sjekkliste {.check}
 
@@ -118,7 +117,9 @@ rundt dette punktet i staden for at den berre roterer utan å flytte seg.
   tidlegare.
 
 - [ ] Klikk på
+
   ![Vel figur frå biblioteket](../bilder/hent-fra-bibliotek.png)
+
   ved sidan av `Ny figur` under scena for å hente ein ny figur.
 
 - [ ] Viss du klikkar på kategorien `Ting` til venstre på skjermen vil du sjå
@@ -203,8 +204,8 @@ __Klikk på det grøne flagget.__
   slutt
   ```
 
-  Klossen `lag avtrykk`{.blockpen} stemplar ein figur på bakgrunnen slik at
-  den blir der. Du kan fjerne slike avtrykk att ved å bruke
+  Klossen `lag avtrykk`{.blockpen} stemplar ein figur på bakgrunnen slik at den
+  blir der. Du kan fjerne slike avtrykk att ved å bruke
   `slett`{.blockpen}-klossen.
 
 ## Test prosjektet {.flag}
@@ -267,7 +268,7 @@ __Klikk på det grøne flagget.__
 # Steg 6: Meir naturleg sprett {.activity}
 
 *No sprett ballen berre framm og attende på same linje heile tida. Me vil at den
- skal sprette meir naturleg når den treff katten.*
+skal sprette meir naturleg når den treff katten.*
 
 ## Sjekkliste {.check}
 
@@ -353,8 +354,7 @@ Så kan du dele nettadressa til spelet ditt med venene og familien din.
 For å telje poeng skal me bruke noko som kallast ein variabel. Ein variabel er
 eit namn på ein verdi som kan variere.
 
-- [ ] Klikk på `Data`-kategorien og så på
-  `Lag ein variabel`{.blocklightgrey}.
+- [ ] Klikk på `Data`-kategorien og så på `Lag ein variabel`{.blocklightgrey}.
 
 - [ ] Gi variabelen namnet `Poeng`{.blockdata}, og la den gjelde for alle
   figurar. Legg merke til at når du klikkar `OK` dukkar det opp ein boks som
@@ -386,7 +386,7 @@ skal me få eitt poeng kvar gong me returnerer ballen.
 # Ekstra 2: Auk hastigheita {.activity}
 
 *No skal me gjere spelet vanskelegare etter kvart som tida går, ved at ballen
- beveger seg stadig raskare.*
+beveger seg stadig raskare.*
 
 ## Sjekkliste {.check}
 
@@ -435,7 +435,7 @@ Ved å endre på 3-talet endrar me hastigheita på ballen. Prøv å gjere det sj
 # Ekstra 3: Unngå at katten fangar ballen {.activity}
 
 *Du har sikkert opplevd at katten av og til "fangar" ballen. No skal me fikse
- dette.*
+dette.*
 
 ## Sjekkliste {.check}
 

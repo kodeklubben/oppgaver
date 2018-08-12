@@ -1,7 +1,6 @@
 ---
-title: 'Hvor i All Verden? Del 3'
-level: 3
-author: 'Geir Arne Hjelle'
+title: Hvor i All Verden? Del 3
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -36,7 +35,7 @@ Sjekk spesielt at
 # Steg 1: Lag lister {.activity}
 
 *Vi skal nå flytte reisemålene våre over i lister. Dette vil gjøre det enklere
- både å legge til flere reisemål, og å velge reisemål tilfeldig.*
+både å legge til flere reisemål, og å velge reisemål tilfeldig.*
 
 ## Sjekkliste {.check}
 
@@ -144,8 +143,8 @@ tre ting: Stedsnavnet og de to koordinatene som sier hvor stedet ligger. En måt
 # Steg 3: Fjern reisemål fra listen {.activity}
 
 *I spillet vårt hender det at samme reisemål blir tilfeldig valgt flere ganger
- etter hverandre. Dette kan vi enkelt unngå ved å fjerne reisemål fra listene
- etterhvert som vi finner dem.*
+etter hverandre. Dette kan vi enkelt unngå ved å fjerne reisemål fra listene
+etterhvert som vi finner dem.*
 
 ## Sjekkliste {.check}
 
@@ -172,8 +171,8 @@ tre ting: Stedsnavnet og de to koordinatene som sier hvor stedet ligger. En måt
 # Steg 4: En introduksjon {.activity}
 
 *Vi er nå nesten ferdige med spillet vårt. Men vi vil forbedre det som kalles
- programflyten slik at vi får en startmeny, og slik at vi kan spille flere
- ganger.*
+programflyten slik at vi får en startmeny, og slik at vi kan spille flere
+ganger.*
 
 ## Sjekkliste {.check}
 
@@ -255,7 +254,7 @@ __Klikk på det grønne flagget.__
 # Steg 5: Ta tiden {.activity}
 
 *For å gjøre spillet litt mer spennende avslutter vi med å gi spilleren
- begrenset tid til å finne reisemålene.*
+begrenset tid til å finne reisemålene.*
 
 ## Sjekkliste {.check}
 
@@ -324,4 +323,3 @@ gjennom disse leksjonene. Du kan dele spillet med familie og venner ved å trykk
 
 Helt til slutt, husk at dette er ditt spill som du har laget! Du bestemmer selv
 hvordan du vil at spillet skal fungere!
-

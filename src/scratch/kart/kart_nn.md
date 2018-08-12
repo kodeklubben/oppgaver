@@ -1,19 +1,21 @@
 ---
 title: Last ned Scratchkart
 author: Geir Arne Hjelle og Lance Olav Eastgate
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+
 <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
 <script src="leaflet-image.js"></script>
 
 
 # Introduksjon {.intro}
 
-Her kan du laste ned kart som passar å bruke som bakgrunnar i
-Scratch-prosjekta dine.
+Her kan du laste ned kart som passar å bruke som bakgrunnar i Scratch-prosjekta
+dine.
 
 <div style="margin: auto; width: 480px">
   <div id="kart" style="width: 480px; height: 360px"></div>
@@ -22,6 +24,7 @@ Scratch-prosjekta dine.
     <br />
     <a id="last_ned_som_bilete" class="btn btn-default btn-lg btn-block">Last ned som Scratch-bakgrunn</a>
   </p>
+
 </div>
 
 
@@ -34,8 +37,8 @@ Scratch._
 ## Sjekkliste {.check}
 
 - [ ] Vel kartutsnitt ved å klikke og dra i kartet. Du kan forstørre og
-  forminske kartet med ![Bilete pluss](knapp_pluss.png) og
-  ![Bilete minus](knapp_minus.png)-knappane.
+  forminske kartet med ![Bilete pluss](knapp_pluss.png) og ![Bilete
+  minus](knapp_minus.png)-knappane.
 
 - [ ] Vel utsjånad på kartet frå lista som dukkar opp når du peikar på
   ![kartlag](kartlag.png) i nedre høgre hjørne.

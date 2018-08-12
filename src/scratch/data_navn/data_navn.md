@@ -1,7 +1,6 @@
 ---
-title: 'Bruk data: Jente- og guttenavn'
-level: 2
-author: 'Geir Arne Hjelle'
+title: "Bruk data: Jente- og guttenavn"
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -27,9 +26,9 @@ mange i Norge som får hvilke navn, både i dag og tidligere.*
   med hvilke data som er tilgjengelige. Prøv å søke på ditt eget navn og se på
   **Historisk utvikling (graf)**.
 
-    Prøv også andre navn: Her er en liten utfordring; Se på grafen over
-    historisk utvikling for navnet **Sonja**. Det har to veldig tydelige topper,
-    en på 1920-tallet og en til på 1960-tallet. Kan du forklare dette?
+  Prøv også andre navn: Her er en liten utfordring; Se på grafen over historisk
+  utvikling for navnet **Sonja**. Det har to veldig tydelige topper, en på
+  1920-tallet og en til på 1960-tallet. Kan du forklare dette?
 
 - [ ] Vi vil hente ut lister med alle jente- og guttenavnene. Disse finner vi
   ved å klikke på fanen **Tabeller**. På denne siden finner du blant annet to
@@ -39,9 +38,9 @@ mange i Norge som får hvilke navn, både i dag og tidligere.*
 - [ ] Åpne filene du nettopp lastet ned i Excel eller et tilsvarende
   regnearkprogram.
 
-    Vi er her bare interessert i selve navnelistene, ikke alle tallene som sier
-    noe om hvor mange som fikk hvert navn. Du kan derfor slette alle kolonnene
-    som inneholder tall.
+  Vi er her bare interessert i selve navnelistene, ikke alle tallene som sier
+  noe om hvor mange som fikk hvert navn. Du kan derfor slette alle kolonnene som
+  inneholder tall.
 
 - [ ] Legg begge listene inn i det samme regnearket, og gi dem beskrivende
   overskrifter. Dette vil se ut omtrent som dette:
@@ -97,8 +96,8 @@ katten vår til å se forskjellen på jente- og guttenavn?*
 
 ## Sjekkliste {.check}
 
-- [ ] Vi begynner med å la katten spørre om et navn. Til dette kan vi bruke `spør
-  [Skriv et navn] og vent`{.b}-klossen.
+- [ ] Vi begynner med å la katten spørre om et navn. Til dette kan vi bruke
+  `spør [Skriv et navn] og vent`{.b}-klossen.
 
 - [ ] For at katten skal kunne huske navnet vi forteller den vil vi bruke en
   variabel. Klikk på `Data`{.blockdata} og deretter `Lag en variabel`. Kall
@@ -111,9 +110,9 @@ katten vår til å se forskjellen på jente- og guttenavn?*
   sett [Navn v] til (svar)
   ```
 
-- [ ] Om du ser på klossene som nå finnes i `Data`{.blockdata}-kategorien er det en
-  som sier `<[Guttenavn v] inneholder [thing]?>`{.b}. Denne klossen kan vi bruke
-  for å finne ut om et navn finnes i jentenavnlisten eller guttenavnlisten
+- [ ] Om du ser på klossene som nå finnes i `Data`{.blockdata}-kategorien er det
+  en som sier `<[Guttenavn v] inneholder [thing]?>`{.b}. Denne klossen kan vi
+  bruke for å finne ut om et navn finnes i jentenavnlisten eller guttenavnlisten
   (eller begge eller ingen av dem).
 
 - [ ] Lag en sjekk for om `(Navn)`{.b} er et jentenavn:
@@ -135,26 +134,27 @@ __Klikk på koden din.__
 - [ ] Skriv inn et jentenavn, for eksempel `Emma`. Sier katten at `Emma er et
   jentenavn`?
 
-- [ ] Hva skjer om du skriver inn et guttenavn? Eller et ord som ikke er et navn?
+- [ ] Hva skjer om du skriver inn et guttenavn? Eller et ord som ikke er et
+  navn?
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en sjekk for om `(Navn)`{.b} er et guttenavn. Prøv å lag denne selv. Du
-  kan gjøre det på akkurat samme måte som for jentenavn. Legg den nye
+- [ ] Lag en sjekk for om `(Navn)`{.b} er et guttenavn. Prøv å lag denne selv.
+  Du kan gjøre det på akkurat samme måte som for jentenavn. Legg den nye
   hvis-testen under den du allerede har.
 
 - [ ] Legg til en `for alltid`{.b}-løkke rundt hele koden din. På den måten vil
   katten stadig spørre deg om nye navn.
 
-- [ ] Legg også en `når grønt flagg klikkes`{.b}-kloss på toppen av koden din, slik
-  at du kan starte programmet ved å klikke på det grønne flagget.
+- [ ] Legg også en `når grønt flagg klikkes`{.b}-kloss på toppen av koden din,
+  slik at du kan starte programmet ved å klikke på det grønne flagget.
 
 ## Prøv selv {.challenge}
 
-- [ ] Dette er et veldig enkelt eksempel på hva man kan gjøre med navnelistene (og
-  det har noen problemer: for eksempel finner ikke katten dobbeltnavn
-  som `Geir Arne`). Har du noen ideer til hvordan du kan bruke navnelistene på
-  en enda mer spennende måte?
+- [ ] Dette er et veldig enkelt eksempel på hva man kan gjøre med navnelistene
+  (og det har noen problemer: for eksempel finner ikke katten dobbeltnavn som
+  `Geir Arne`). Har du noen ideer til hvordan du kan bruke navnelistene på en
+  enda mer spennende måte?
 
-- [ ] Kjenner du til andre datasett som du har lyst til å jobbe med i Scratch? Bruk
-  [dataverktøyet](../data/data.html) for å lese inn dataene.
+- [ ] Kjenner du til andre datasett som du har lyst til å jobbe med i Scratch?
+  Bruk [dataverktøyet](../data/data.html) for å lese inn dataene.

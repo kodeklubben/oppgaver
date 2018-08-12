@@ -1,7 +1,6 @@
 ---
 title: Gangemesteren
-level: 2
-author: 'Geir Arne Hjelle'
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -75,8 +74,8 @@ skal nå se på hvordan vi får Scratch til å gange sammen tall.
   `tall2`{.blockdata}, og `riktig svar`{.blockdata}. La de gjelde for alle
   figurer.
 
-- [ ] Skriv nå et **helt nytt skript** (la det ligge ved siden av det
-  skriptet du skrev i forrige steg).
+- [ ] Skriv nå et **helt nytt skript** (la det ligge ved siden av det skriptet
+  du skrev i forrige steg).
 
   ```blocks
   når jeg mottar [Nytt spørsmål v]
@@ -161,8 +160,8 @@ Nå som vi kan svare på spørsmål vil vi også vite om vi svarer riktig.
   `Data`-kategorien og fjern haken foran hver variabel.
 
 - [ ] Nå skal vi bruke en `hvis ellers`{.blockcontrol}-kloss for å gjøre
-  forskjellige ting ettersom du svarer riktig eller feil på
-  gangestykkene. **Utvid** det ene skriptet ditt på denne måten:
+  forskjellige ting ettersom du svarer riktig eller feil på gangestykkene.
+  **Utvid** det ene skriptet ditt på denne måten:
 
   ```blocks
   når grønt flagg klikkes

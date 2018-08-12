@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Straffespark
 author: Geir Arne Hjelle
-level: 1
 language: nb
 ---
 
@@ -14,7 +13,7 @@ første introduksjon til Scratch.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, Programmering
+__Fag__: Matematikk, Programmering
 
 __Trinn__: 7.-10. trinn
 
@@ -26,40 +25,38 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 4. årstrinn__: lese av, plassere og beskrive posisjoner i
-       rutenett, på kart og i koordinatsystemer, både med og uten digitale
-       verktøy
+- [ ] __Matematikk, 4. årstrinn__: lese av, plassere og beskrive posisjoner i
+  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ]  Elevene kan bruke matematiske begreper til å forklare figurene og ballens
-       posisjon i koordinatsystemet (bakgrunnen).
+- [ ] Elevene kan bruke matematiske begreper til å forklare figurene og ballens
+  posisjon i koordinatsystemet (bakgrunnen).
 
-- [ ]  Elevene kan forklare hvordan løkker, tester og variabler fungerer, og
-       hvorfor de er hensiktsmessige å bruke i denne oppgaven.
+- [ ] Elevene kan forklare hvordan løkker, tester og variabler fungerer, og
+  hvorfor de er hensiktsmessige å bruke i denne oppgaven.
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven, for eksempel ved å gjøre en eller flere av variasjonene
-      nedenfor.
+  oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 - [ ] Dette er en oppgave hvor elevene fint kan prøve hverandres spill og
-      vurdere hverandre.
+  vurdere hverandre.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ]  __Forutsetninger__: Ingen
+- [ ] __Forutsetninger__: Ingen
 
-- [ ]  __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-       bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-       seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
+- [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
 ## Fremgangsmåte
 
@@ -163,18 +160,18 @@ kreativitet. Elevene kan gjerne oppfordres til å
 
 - [ ] eksperimentere med objektorientert programmering:
 
-    - [ ] Start et nytt Scratchprosjekt ved å klikke `Programmering` fra
-      hovedsiden, eller `Ny` i `Fil`-menyen.
+  - [ ] Start et nytt Scratchprosjekt ved å klikke `Programmering` fra
+    hovedsiden, eller `Ny` i `Fil`-menyen.
 
-    - [ ] Legg til en ekstra figur - for eksempel `Bat1` - slik at det er to
-      figurer i prosjektet. Dra dem rundt på scenen slik figurene er i hvert
-      sitt hjørne.
+  - [ ] Legg til en ekstra figur - for eksempel `Bat1` - slik at det er to
+    figurer i prosjektet. Dra dem rundt på scenen slik figurene er i hvert sitt
+    hjørne.
 
-    - [ ] Spør elevene hvordan de vil kode at katten beveger seg mot flaggermusa
-      (den andre figuren)? Spesielt, pass på at de er bevisst hvilken figur som
-      må programmeres (_Katten_). Spør om det det samme kan programmeres ved å
-      legge et skript på den andre figuren (_Nei, siden Katten beveger seg er
-      det Kattens oppførsel vi må beskrive_).
+  - [ ] Spør elevene hvordan de vil kode at katten beveger seg mot flaggermusa
+    (den andre figuren)? Spesielt, pass på at de er bevisst hvilken figur som må
+    programmeres (_Katten_). Spør om det det samme kan programmeres ved å legge
+    et skript på den andre figuren (_Nei, siden Katten beveger seg er det
+    Kattens oppførsel vi må beskrive_).
 
       ```blocks
       for alltid
@@ -183,11 +180,11 @@ kreativitet. Elevene kan gjerne oppfordres til å
       slutt
       ```
 
-    - [ ] Hvordan kan vi programmere at flaggermusa rømmer fra katten når katten
-      tar (berører) den? Igjen, hvilken figur må programmeres? Kanskje begge?
-      _Vi må programmere flaggermusa siden den rømmer (oppførsel)._ Her trenger
-      vi ikke noe nytt program for katten så lenge den ikke reagerer på at den
-      berører flaggermusa (_ingen ny oppførsel å beskrive_).
+  - [ ] Hvordan kan vi programmere at flaggermusa rømmer fra katten når katten
+    tar (berører) den? Igjen, hvilken figur må programmeres? Kanskje begge? _Vi
+    må programmere flaggermusa siden den rømmer (oppførsel)._ Her trenger vi
+    ikke noe nytt program for katten så lenge den ikke reagerer på at den
+    berører flaggermusa (_ingen ny oppførsel å beskrive_).
 
       Det er mange måter å skrive kode for at flaggermusa rømmer. Det følgende
       er et eksempel (husk at koden hører til flaggermusa):
@@ -199,8 +196,8 @@ kreativitet. Elevene kan gjerne oppfordres til å
       slutt
       ```
 
-    - [ ] Spør elevene om de kan tenke seg noen annen måte (enn objektorientert)
-      å programmere på? Hvor man ikke knytter skriptene til figurene?
+  - [ ] Spør elevene om de kan tenke seg noen annen måte (enn objektorientert) å
+    programmere på? Hvor man ikke knytter skriptene til figurene?
 
       Et eksempel på en annen type programmering er __imperativ programmering__
       hvor programmer skrives som en serie kommandoer uten at det skilles mellom

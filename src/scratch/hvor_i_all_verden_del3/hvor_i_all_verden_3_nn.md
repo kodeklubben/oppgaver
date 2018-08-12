@@ -1,8 +1,7 @@
 ---
-title: 'Kor i all verda? Del 3'
-level: 3
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
+title: Kor i all verda? Del 3
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -103,6 +102,7 @@ lister.
   Pass på at dei tre listene er samkøyrte slik at det er verdier for same
   reisemål som står på same plass i kvar liste.
 
+
 # Steg 2: Vel eit reisemål tilfeldig {.activity}
 
 *No skal me begynne å bruke listene våre til å velje stader å reise til
@@ -121,8 +121,8 @@ tilfeldig.*
   ```
 
 - [ ] Lag ein ny variabel som heiter `stad`{.blockdata} og som berre gjeld for
-  stad-figuren. Denne variabelen vil vere eit tal som identifiserer kva
-  posisjon i listene det gjeldande reisemålet har.
+  stad-figuren. Denne variabelen vil vere eit tal som identifiserer kva posisjon
+  i listene det gjeldande reisemålet har.
 
 - [ ] Koden for `Ny stad`{.blockevents} blir heilt ny. No skal me bruke både
   listene våre og den nye `Reis til`{.blockmoreblocks}-klossen me laga forrige

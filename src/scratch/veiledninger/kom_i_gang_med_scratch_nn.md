@@ -1,14 +1,14 @@
 ---
 title: Kom i gang med Scratch
 author: Geir Arne Hjelle
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 
 
 # Kom i gang med Scratch {.intro}
 
-Scratch er eit grafisk programmeringsspråk som er  laga for at born og unge
+Scratch er eit grafisk programmeringsspråk som er laga for at born og unge
 enkelt skal lære seg programmering. Denne rettleiinga syner korleis du kan halde
 eit kodekurs eller ein skuletime der elevane møter Scratch for fyrste gong.
 
@@ -106,7 +106,10 @@ datamaskiner.
   kontoen, og gir tilgang til ein del ekstra funksjonalitet. Det er *ikkje*
   nøvendig å bekrefte denne med ein gong.
 
-  Viss borna ikkje har ei eiga e-postadresse kan dei bruke ein av foreldra sine si adresse. Viss dei ikkje hugsar den kan du bruke di eiga adresse (helst opprett ei eiga adresse til dette føremålet). Klikk i så fall gjennom e-postane du får i etterkant av kurset, og bekreft kontoane.
+  Viss borna ikkje har ei eiga e-postadresse kan dei bruke ein av foreldra sine
+  si adresse. Viss dei ikkje hugsar den kan du bruke di eiga adresse (helst
+  opprett ei eiga adresse til dette føremålet). Klikk i så fall gjennom
+  e-postane du får i etterkant av kurset, og bekreft kontoane.
 
 ## Gmail-triks {.protip}
 
@@ -154,7 +157,10 @@ Alternativt kan du jobbe gjennom fyrste steg i oppgåva saman med borna.
   - __Kodevindauget__ til høgre, inkludert lista over klossar i midten, er der
     sjølve programmeringa skjer.
 
-- [ ] Peik på den øvste blå klossen, `gå (10) steg`{.b}. Fortel at når me klikkar på den fortel me katten at den skal gå. Klikk på klossen fleire gonger medan du påpeikar at katten startar å flytte seg over skjermen. _Me programmerer katten!_
+- [ ] Peik på den øvste blå klossen, `gå (10) steg`{.b}. Fortel at når me
+  klikkar på den fortel me katten at den skal gå. Klikk på klossen fleire gonger
+  medan du påpeikar at katten startar å flytte seg over skjermen. _Me
+  programmerer katten!_
 
 - [ ] Fortel at det er mange ulike kommandoar me kan gi til katten. Klikk på den
   neste klossen, `vend høyre (15) grader`{.b}, og vis korleis katten startar å
@@ -200,6 +206,7 @@ Alternativt kan du jobbe gjennom fyrste steg i oppgåva saman med borna.
   sletta. Vis at katten beveger seg rett fram medan den skiftar farge.
 
 - [ ] Legg til klossen `pek mot [ v]`{.b} nedst i skriptet. Trykk på
+
 - nedtrekksmenyen og vel `musepeker`. Skriptet ser no slik ut:
 
   ```blocks

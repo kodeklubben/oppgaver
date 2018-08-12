@@ -1,7 +1,6 @@
 ---
-title: 'King Kong'
-level: 3
-author: 'Samuel Erik Abildsø og Geir Arne Hjelle'
+title: King Kong
+author: Samuel Erik Abildsø og Geir Arne Hjelle
 language: nb
 ---
 
@@ -27,10 +26,9 @@ gorilla.
   `skyscraper icon`. Velg gjerne _Bildesøk_ eller lignende for å bare se
   søkeresultatene som er bilder.
 
-  Finn en skyskraper som du liker. Velg deretter _Se bildet_ for å
-  få bildet i full størrelse. Høyreklikk på bildet og velg _Lagre
-  bildet som_ og lagre det på din datamaskin et sted du finner det
-  igjen.
+  Finn en skyskraper som du liker. Velg deretter _Se bildet_ for å få bildet i
+  full størrelse. Høyreklikk på bildet og velg _Lagre bildet som_ og lagre det
+  på din datamaskin et sted du finner det igjen.
 
 ### Tips for søking {.protip}
 
@@ -55,7 +53,9 @@ gorilla.
   Skyskraper fra
   [www.iconka.com](http://www.iconarchive.com/show/home-sweet-home-icons-by-iconka/Home-Skyscraper-icon.html),
   fly fra
+
   [hellraz3r.deviantart.com](http://hellraz3r.deviantart.com/art/Plane-Pixel-Art-193480982)
+
   og King Kong fra
   [www.freepik.com](http://www.flaticon.com/free-icon/small-monkey-with-long-tail_28726).
 

@@ -1,8 +1,7 @@
 ---
 title: Flaksefugl
-level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Helge Astad'
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Helge Astad
 language: nb
 ---
 
@@ -56,8 +55,8 @@ __Klikk det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på `Drakter` og gi de to draktene navnene `Vinger opp` og
-  `Vinger ned`.
+- [ ] Klikk på `Drakter` og gi de to draktene navnene `Vinger opp` og `Vinger
+  ned`.
 
 - [ ] Gå tilbake til `Skript` og legg til dette skriptet:
 
@@ -87,10 +86,10 @@ __Klikk det grønne flagget.__
 # Steg 3: Gjør kontrollen bedre {.activity}
 
 *Vi vil at Flakse skal reagere hver gang vi trykker mellomrom. Men når vi
- trykker mellomrom så starter to løkker etter hverandre. Hvis vi trykker
- mellomrom før disse to løkkene er ferdig så skjer det ikke noe. For å løse
- dette problemet skal vi bruke en variabel til å telle hvor mange flaks vi
- trenger å gjøre.*
+trykker mellomrom så starter to løkker etter hverandre. Hvis vi trykker
+mellomrom før disse to løkkene er ferdig så skjer det ikke noe. For å løse dette
+problemet skal vi bruke en variabel til å telle hvor mange flaks vi trenger å
+gjøre.*
 
 ## Sjekkliste {.check}
 
@@ -172,10 +171,10 @@ __Klikk det grønne flagget.__
 - [ ] Gi den nye figuren navnet `Rør`.
 
 
-# Steg 5: Få rørene til å bevege seg{.activity}
+# Steg 5: Få rørene til å bevege seg {.activity}
 
 *Nå skal vi få rørene til å flytte seg og gjøre høyden tilfeldig slik at vi får
- en hinderløype til Flakse.*
+en hinderløype til Flakse.*
 
 ## Sjekkliste {.check}
 
@@ -217,8 +216,8 @@ __Klikk det grønne flagget.__
 # Steg 6: Finn ut om Flakse kræsjer med rørene {.activity}
 
 *For at spillet skal bli vanskelig må spilleren styre Flakse gjennom åpningene
- mellom rørene uten å komme borti hverken rør eller kanten av skjermen. Vi skal
- legge til noen klosser som merker om Flakse kræsjer.*
+mellom rørene uten å komme borti hverken rør eller kanten av skjermen. Vi skal
+legge til noen klosser som merker om Flakse kræsjer.*
 
 ## Sjekkliste {.check}
 
@@ -227,7 +226,7 @@ __Klikk det grønne flagget.__
 
 - [ ] Klikk på `Velg lyd fra biblioteket`.
 
-- [ ] Velg en kræsjelyd for `Flakse`.  `Screech` er en kul lyd.
+- [ ] Velg en kræsjelyd for `Flakse`. `Screech` er en kul lyd.
 
 - [ ] Klikk deg tilbake til `Skript`-fanen.
 
@@ -253,8 +252,7 @@ __Klikk det grønne flagget.__
 
 __Klikk det grønne flagget.__
 
-- [ ] Stopper spillet hvis Flakse kommer borti et rør eller kanten av
-  brettet?
+- [ ] Stopper spillet hvis Flakse kommer borti et rør eller kanten av brettet?
 
 
 # Steg 7: Legg til poeng {.activity}
@@ -293,15 +291,14 @@ __Klikk det grønne flagget.__
 
 ## Lagre prosjektet ditt {.save}
 
-Supert, du har laget ferdig din egen enkle versjon av Flappy
-Bird-spillet.
+Supert, du har laget ferdig din egen enkle versjon av Flappy Bird-spillet.
 
 Her er noen flere ting du kan prøve:
 
 ## Utfordring 1: Legg til tyngdekraft {.challenge}
 
-Når noe faller på grunn av tyngdekraft øker farten jo lenger fallet
-varer. Vi skal prøve å etterligne denne måten å falle på.
+Når noe faller på grunn av tyngdekraft øker farten jo lenger fallet varer. Vi
+skal prøve å etterligne denne måten å falle på.
 
 - [ ] Legg til en ny variabel for `Flakse` som heter `løft`{.blockdata}.
   Variablen skal gjelde for `For denne figuren`.

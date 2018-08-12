@@ -1,18 +1,16 @@
 ---
-title: 'Felix og Herbert'
-level: 1
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Gudbrand Tandberg'
+title: Felix og Herbert
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Gudbrand Tandberg
 language: nb
 ---
 
 
 # Introduksjon {.intro}
 
-Vi skal lage et spill hvor katten Felix skal fange musa Herbert. Du
-styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av
-Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du
-tatt, går poengsummen din ned.
+Vi skal lage et spill hvor katten Felix skal fange musa Herbert. Du styrer
+Herbert med musepekeren og skal prøve å unngå å bli tatt av Felix. Jo lenger du
+unngår ham jo flere poeng får du, men blir du tatt, går poengsummen din ned.
 
 ![Bilde av katten Felix og musa Herbert](felix_og_herbert.png)
 
@@ -25,20 +23,18 @@ tatt, går poengsummen din ned.
 
 - [ ] Start et nytt prosjekt.
 
-- [ ] Trykk på `i`{.blockmotion} i hjørnet av ![Sprite1](sprite1.png) og
-  bytt navn på figuren til `Felix`.
+- [ ] Trykk på `i`{.blockmotion} i hjørnet av ![Sprite1](sprite1.png) og bytt
+  navn på figuren til `Felix`.
 
-- [ ] Sørg for at Felix kun ser til høyre og venstre ved å sette
-  rotasjonsmåte til
-  ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
+- [ ] Sørg for at Felix kun ser til høyre og venstre ved å sette rotasjonsmåte
+  til ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
 - [ ] Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen
-  `Bakgrunner` og trykk på
-  ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) for å
-  importere en ferdig bakgrunn. Velg den bakgrunnen du vil.
+  `Bakgrunner` og trykk på ![Velg en ferdig
+  bakgrunn](../bilder/velg-bakgrunn.png) for å importere en ferdig bakgrunn.
+  Velg den bakgrunnen du vil.
 
-- [ ] Klikk på Felix, velg `Skript`-fanen og lag dette
-  skriptet:
+- [ ] Klikk på Felix, velg `Skript`-fanen og lag dette skriptet:
 
   ```blocks
   når grønt flagg klikkes
@@ -65,8 +61,8 @@ __Klikk på det grønne flagget.__
 
 ## Lagre prosjektet {.save}
 
-Scratch lagrer alle prosjektene dine automatisk med jevne mellomrom.
-Det kan likevel være lurt å lagre manuelt innimellom.
+Scratch lagrer alle prosjektene dine automatisk med jevne mellomrom. Det kan
+likevel være lurt å lagre manuelt innimellom.
 
 - [ ] I filmenyen, velg `Lagre nå`.
 
@@ -78,14 +74,15 @@ Det kan likevel være lurt å lagre manuelt innimellom.
 ## Sjekkliste {.check}
 
 - [ ] Lag en ny figur ved å trykke på
+
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
+
   og velg figuren `Dyr/Mouse1`.
 
 - [ ] Bytt navn på figuren til `Herbert`.
 
 - [ ] Gjør Herbert mindre enn Felix ved å trykke på
-  ![krymp](../bilder/krymp.png) (øverst mot midten av vinduet). Prøv
-  seks klikk.
+  ![krymp](../bilder/krymp.png) (øverst mot midten av vinduet). Prøv seks klikk.
 
 - [ ] Gi Herbert dette skriptet:
 
@@ -108,8 +105,7 @@ __Klikk på det grønne flagget.__
 
 # Steg 3: Felix sier når han har fanget Herbert {.activity}
 
-*Vi vil at Felix skal vite når han har fanget Herbert og fortelle det
- til oss.*
+*Vi vil at Felix skal vite når han har fanget Herbert og fortelle det til oss.*
 
 ## Sjekkliste {.check}
 
@@ -137,13 +133,13 @@ __Klikk på det grønne flagget.__
 
 # Steg 4: Herbert blir et spøkelse når han fanges {.activity}
 
-*I tillegg til at Felix sier noe, vil vi nå at Herbert blir forvandlet
- til et spøkelse når han fanges.*
+*I tillegg til at Felix sier noe, vil vi nå at Herbert blir forvandlet til et
+spøkelse når han fanges.*
 
 ## Sjekkliste {.check}
 
-- [ ] Endre skriptet til Felix slik at det sender en melding og lager en
-  lyd når han fanger Herbert:
+- [ ] Endre skriptet til Felix slik at det sender en melding og lager en lyd når
+  han fanger Herbert:
 
   ```blocks
   når grønt flagg klikkes
@@ -164,18 +160,19 @@ __Klikk på det grønne flagget.__
 - [ ] Velg Herbert og gå til `Drakter`-fanen.
 
 - [ ] Hent en ny drakt ved å trykke på
+
   ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png)
+
   og velg `Fantasi/ghost2-a`
 
-- [ ] Gjør drakten mindre ved å velge ![Krymp](../bilder/krymp.png) og
-  trykke seks ganger på spøkelsesdrakten.
+- [ ] Gjør drakten mindre ved å velge ![Krymp](../bilder/krymp.png) og trykke
+  seks ganger på spøkelsesdrakten.
 
-- [ ] Endre navnene på Herberts drakter slik at musedrakten heter
-  `levende` og spøkelsesdrakten heter `død`.
+- [ ] Endre navnene på Herberts drakter slik at musedrakten heter `levende` og
+  spøkelsesdrakten heter `død`.
 
-- [ ] Gå til `Skript`-fanen, og lag et nytt skript for
-  Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle
-  skriptet:
+- [ ] Gå til `Skript`-fanen, og lag et nytt skript for Herbert for å gjøre ham
+  om til et spøkelse. Ikke slett det gamle skriptet:
 
   ```blocks
   når jeg mottar [Fanget! v]
@@ -197,24 +194,22 @@ __Klikk på det grønne flagget.__
 
 # Steg 5: Telle poeng {.activity}
 
-*La oss legge til en poengsum slik at vi kan se hvor flink man er til
- å holde Herbert i live. Vi begynner med poengsummen null og øker den
- med en for hvert sekund. Hvis Felix fanger Herbert, minker vi
- poengsummen med ti.*
+*La oss legge til en poengsum slik at vi kan se hvor flink man er til å holde
+Herbert i live. Vi begynner med poengsummen null og øker den med en for hvert
+sekund. Hvis Felix fanger Herbert, minker vi poengsummen med ti.*
 
 ## Sjekkliste {.check}
 
-- [ ] På `Skript`-fanen under kategorien `Data`{.blockdata}, lag en ny
-  variabel. Kall variabelen for `Poeng`, og la den gjelde for alle
-  figurer.
+- [ ] På `Skript`-fanen under kategorien `Data`{.blockdata}, lag en ny variabel.
+  Kall variabelen for `Poeng`, og la den gjelde for alle figurer.
 
   ![Bilde av den nye poeng variabelen](ny-variabel-poeng.png)
 
-  Legg merke til at `Poeng `{}` 0 `{.blockdata}` ` dukket opp øverst til
-  venstre i spillet ditt.
+  Legg merke til at `Poeng `{}` 0 `{.blockdata}` ` dukket opp øverst til venstre
+  i spillet ditt.
 
-- [ ] Klikk på `Scene` til venstre på skjermen, ved siden av
-  `Figurer`. Lag disse to skriptene på scenen:
+- [ ] Klikk på `Scene` til venstre på skjermen, ved siden av `Figurer`. Lag
+  disse to skriptene på scenen:
 
   ```blocks
   når grønt flagg klikkes
@@ -244,5 +239,4 @@ __Klikk på det grønne flagget.__
 
 *Du er ferdig. Godt gjort. Nå kan du spille spillet!*
 
-Du kan dele spillet med familie og venner ved å trykke `Legg ut` på
-menylinjen.
+Du kan dele spillet med familie og venner ved å trykke `Legg ut` på menylinjen.

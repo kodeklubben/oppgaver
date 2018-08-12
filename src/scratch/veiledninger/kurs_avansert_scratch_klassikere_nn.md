@@ -1,7 +1,7 @@
 ---
 title: Kursrettleiing
 author: Geir Arne Hjelle
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -51,11 +51,11 @@ prøve seg!
 
 Under beskriv me korleis kvar oppgåve kan introduserast i fellesskap:
 
-- [__Pong__](../pong/pong_nn.html) er ein slags introduksjon til kurset. Den felles
-gjennomgangen bør leggje vekt på at når ein lagar eit spel bør ein tenke gjennom
-kva som er kjerna av spelet. I Pong er det ein ball som sprett rundt på
-skjermen. Så bør ein lage ein enkel versjon av dette, slik at ein kan starte å
-teste at ting oppfører seg som tenkt så raskt som mogleg.
+- [__Pong__](../pong/pong_nn.html) er ein slags introduksjon til kurset. Den
+  felles gjennomgangen bør leggje vekt på at når ein lagar eit spel bør ein
+  tenke gjennom kva som er kjerna av spelet. I Pong er det ein ball som sprett
+  rundt på skjermen. Så bør ein lage ein enkel versjon av dette, slik at ein kan
+  starte å teste at ting oppfører seg som tenkt så raskt som mogleg.
 
 - [__Breakout__](../breakout/breakout_nn.html) introduserer kloning. Kloning er
   eitt av dei viktigaste, avanserte konsepta i Scratch, og Breakout viser enkel

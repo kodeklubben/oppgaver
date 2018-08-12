@@ -1,6 +1,5 @@
 ---
 title: Norgestur
-level: 3
 author: Geir Arne Hjelle
 language: nb
 ---
@@ -18,7 +17,7 @@ finne steder og byer du blir bedt om å besøke.
 # Steg 1: Et norgeskart {.activity}
 
 *Vi legger først inn et norgeskart som en bakgrunn. Dette vil vi senere bruke
- helikopteret til å besøke.*
+helikopteret til å besøke.*
 
 ## Sjekkliste {.check}
 
@@ -41,17 +40,16 @@ finne steder og byer du blir bedt om å besøke.
 
 ### Norgeskart {.protip}
 
-Det finnes mengder av kart på internett. Det kartet vi bruker i denne
-oppgaven er laget av Kartverket og delt slik at alle kan bruke det til
-hva de ønsker. Bakerst i denne oppgaven beskrives hvordan du kan bruke
-andre kart.
+Det finnes mengder av kart på internett. Det kartet vi bruker i denne oppgaven
+er laget av Kartverket og delt slik at alle kan bruke det til hva de ønsker.
+Bakerst i denne oppgaven beskrives hvordan du kan bruke andre kart.
 
 
 # Steg 2: Styr helikopteret {.activity}
 
-*Vi skal nå lage et helikopter som vi kan styre rundt over kartet. Vi
- begynner med å programmere et skript som lar oss kontrollere
- helikopteret med piltastene.*
+*Vi skal nå lage et helikopter som vi kan styre rundt over kartet. Vi begynner
+med å programmere et skript som lar oss kontrollere helikopteret med
+piltastene.*
 
 ## Sjekkliste {.check}
 
@@ -161,7 +159,7 @@ steg`{.blockmotion}-klosser.
 # Steg 3: Legg til et reisemål {.activity}
 
 *Nå som helikopteret kan fly rundt omkring i Norge kan vi gi spilleren et mål
- med reisen.*
+med reisen.*
 
 ## Sjekkliste {.check}
 
@@ -222,7 +220,7 @@ __Klikk på det grønne flagget.__
 # Steg 4: Et nytt reisemål {.activity}
 
 *La oss legge til et nytt reisemål vi kan reise til etter å ha besøkt det
- første!*
+første!*
 
 ## Sjekkliste {.check}
 
@@ -261,9 +259,9 @@ __Klikk på det grønne flagget.__
 # Steg 5: Skjul reisemålene {.activity}
 
 *Foreløpig er ikke spillet veldig vanskelig: Alt du behøver å gjøre er å styre
- helikopteret til den røde sirkelen. For å lage et skikkelig spill vil vi skjule
- den røde sirkelen, og heller bare fortelle spilleren til hvilket sted hun skal
- fly!*
+helikopteret til den røde sirkelen. For å lage et skikkelig spill vil vi skjule
+den røde sirkelen, og heller bare fortelle spilleren til hvilket sted hun skal
+fly!*
 
 ## Sjekkliste {.check}
 
@@ -360,7 +358,7 @@ __Klikk på det grønne flagget.__
 # Steg 6: Vis reisemålet etter at det blir funnet {.activity}
 
 *Det vil være kult å vise spilleren hvor reisemålet faktisk er etter at hun har
- funnet det!*
+funnet det!*
 
 ## Sjekkliste {.check}
 
@@ -401,8 +399,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Dukker den røde sirkelen opp etterhvert som du finner reisemålene?
 
-- [ ] Hva skjer om du starter spillet på nytt etter å ha funnet
-  reisemålene?
+- [ ] Hva skjer om du starter spillet på nytt etter å ha funnet reisemålene?
 
 ## Sjekkliste {.check}
 
@@ -446,7 +443,7 @@ __Klikk på det grønne flagget.__
 # Steg 7: Tiden går {.activity}
 
 *Vi skal nå gjøre spillet enda mere utfordrende ved å legge på en
- tidsbegrensning.*
+tidsbegrensning.*
 
 ## Sjekkliste {.check}
 
@@ -510,7 +507,7 @@ reisemål.
 # Steg 8: Flere steder å besøke {.activity}
 
 *Til sist vil vi legge til litt flere steder å besøke for å gjøre spillet mer
- spennende!*
+spennende!*
 
 ## Sjekkliste {.check}
 
@@ -594,7 +591,7 @@ til høyre på skjermen.
 # Flere utfordringer {.activity}
 
 *Det er alltid muligheter til å utvide spill, nedenfor har vi noen forslag som
- du kan prøve deg på!*
+du kan prøve deg på!*
 
 ## Utfordring: Enda flere reisemål {.challenge}
 
@@ -663,7 +660,7 @@ eller bare gå videre til neste reisemål uten å spørre.
 # Hvordan lage egne kart {.activity}
 
 *Til sist vil vi se på hvordan du kan reise rundt i egne kart eller andre kart
- som du finner på internett.*
+som du finner på internett.*
 
 ## Sjekkliste {.check}
 
@@ -715,4 +712,3 @@ Scratch. Klikk på `Se prosjektsiden` øverst til høyre. Du kommer da til en si
 hvor du kan beskrive prosjektet. En av boksene heter `Merknader og
 bidragsytere`. Her kan du nevne dem som opprinnelig har laget for eksempel
 kartet du bruker.
-

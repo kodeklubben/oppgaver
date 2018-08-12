@@ -1,6 +1,5 @@
 ---
 title: Bursdag i Antarktis
-level: 2
 author: Caroline Tandberg
 language: nb
 ---
@@ -346,11 +345,11 @@ retningen.
 
 - [ ] Endre `-1` i `pek i retning`{.blockmotion}-klossen til `-1.5`.
 
-- [ ] For å skjønne bedre hva som skjer kan du klikke på `i`{.blockmotion}
-  på Felix og følge med på `retning` mens skriptet kjører.
+- [ ] For å skjønne bedre hva som skjer kan du klikke på `i`{.blockmotion} på
+  Felix og følge med på `retning` mens skriptet kjører.
 
-- [ ] Når Felix kommer fram til huset kan vi skjule ham, og skifte til en
-  ny scene.
+- [ ] Når Felix kommer fram til huset kan vi skjule ham, og skifte til en ny
+  scene.
 
   ```blocks
   når jeg mottar [Scene 2 v]
@@ -371,18 +370,17 @@ retningen.
   send melding [Scene 3 v]
   ```
 
-- [ ] For den scenen trenger vi en ny bakgrunn. Klikk
-  ![velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) og legg
-  til bakgrunnen `Holiday/gingerbread`. Gi scenen dette skriptet:
+- [ ] For den scenen trenger vi en ny bakgrunn. Klikk ![velg en ferdig
+  bakgrunn](../bilder/velg-bakgrunn.png) og legg til bakgrunnen
+  `Holiday/gingerbread`. Gi scenen dette skriptet:
 
   ```blocks
   når jeg mottar [Scene 3 v]
   bytt bakgrunn til [gingerbread v]
   ```
 
-- [ ] I det vi skifter til den nye scenen vil vi også at Felix skal få
-  tilbake sin vanlige størrelse. Klikk på Felix og start et nytt
-  skript:
+- [ ] I det vi skifter til den nye scenen vil vi også at Felix skal få tilbake
+  sin vanlige størrelse. Klikk på Felix og start et nytt skript:
 
   ```blocks
   når jeg mottar [Scene 3 v]
@@ -399,24 +397,24 @@ __Klikk på det grønne flagget.__
 
 - [ ] Skifter bakgrunnen over til huset som det skal?
 
-- [ ] Får Felix riktig størrelse igjen på slutten av animasjonen? Og når
-  du starter animasjonen på nytt?
+- [ ] Får Felix riktig størrelse igjen på slutten av animasjonen? Og når du
+  starter animasjonen på nytt?
 
-- [ ] Hvordan kan du sørge for at Felix alltid dukker opp i full størrelse
-  når det grønne flagget klikkes på nytt?
+- [ ] Hvordan kan du sørge for at Felix alltid dukker opp i full størrelse når
+  det grønne flagget klikkes på nytt?
 
 
 # Steg 5: Si hei til pingvinene {.activity}
 
 *Felix skal nå møte to pingviner som bor inne i pepperkakehuset. De skal komme
- ut av huset og snakke litt med Felix*
+ut av huset og snakke litt med Felix*
 
 ## Sjekkliste {.check}
 
-- [ ] Lag to nye figurer ved å trykke på
-  ![velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
-  `Dyr/Penguin1` og `Dyr/Penguin2`. Gi pingvinene navn du liker, vi
-  har valgt å kalle dem `Pingu` og `Pappa Pingu`.
+- [ ] Lag to nye figurer ved å trykke på ![velg figur fra
+  biblioteket](../bilder/hent-fra-bibliotek.png). Velg `Dyr/Penguin1` og
+  `Dyr/Penguin2`. Gi pingvinene navn du liker, vi har valgt å kalle dem `Pingu`
+  og `Pappa Pingu`.
 
 - [ ] For at pingvinene først skal dukke opp i `Scene 3`, må vi skjule dem når
   animasjonen starter. Legg til følgende skript på begge figurene:
@@ -474,7 +472,7 @@ __Klikk på det grønne flagget.__
 # Steg 6: Pingvinene danser {.activity}
 
 *Pingvinene blir glade for å treffe Felix, og etter en liten samtale begynner
- den ene pingvinen å danse siden det er Felix sin bursdag.*
+den ene pingvinen å danse siden det er Felix sin bursdag.*
 
 ## Sjekkliste {.check}
 
@@ -537,7 +535,7 @@ __Klikk på det grønne flagget.__
 ## Lagre prosjektet {.save}
 
 *Nå har vi begynt på historien om katten som feirer bursdagen sin i Antarktis.
- Men kanskje du kan fortelle mer om hva som skjer videre?*
+Men kanskje du kan fortelle mer om hva som skjer videre?*
 
 Eller om du heller vil vise fram historien din til familie og venner kan du
 velge `Legg ut` på toppen av skjermen.

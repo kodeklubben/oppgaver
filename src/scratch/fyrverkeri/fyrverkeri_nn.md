@@ -1,16 +1,17 @@
 ---
-title: 'Fyrverkeri'
-level: 2
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: Fyrverkeri
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
+
 
 # Introduksjon {.intro}
 
 I dette prosjektet skal me skyte opp fyrverkeri over ein by.
 
 ![Bilete av ein rakett over ein by](fyrverkeri.png)
+
 
 # Førebuingar: last ned biletefiler {.activity}
 
@@ -22,8 +23,9 @@ Du kan godt få hjelp frå ein vaksen til å gjere den fyrste delen.
   og legg den på skrivebordet på datamaskina di eller ein annan plass der du
   finn ho att.
 
-- [ ] Pakk ut zip-fila ved å høgreklikke på ho og velje `Extract All`,
-  `Pakk ut filer` eller noko liknande.
+- [ ] Pakk ut zip-fila ved å høgreklikke på ho og velje `Extract All`, `Pakk ut
+  filer` eller noko liknande.
+
 
 # Steg 1: Lag ein rakett som flyg mot musepeikaren {.activity}
 
@@ -46,8 +48,8 @@ Du kan godt få hjelp frå ein vaksen til å gjere den fyrste delen.
   gøym
   ```
 
-No vil me gjerne at raketten skal bevege seg mot musepeikaren når du trykkar
-på mellomromtasten.
+No vil me gjerne at raketten skal bevege seg mot musepeikaren når du trykkar på
+mellomromtasten.
 
 - [ ] Legg til ein kloss `når mellomrom vert trykt`{.blockevents}. Så lagar me
   to klossar som gjer raketten synleg og let den bevege seg mot musepeikaren.
@@ -73,9 +75,9 @@ __Klikk på det grøne flagget.__
 Fyrverkeri brukar ikkje å fly frå side til side, så du ber gjere det slik at
 raketten alltid flyg mot musepeikaren frå botnen av skjermen.
 
-- [ ] Før du fyrar opp raketten: bruk klossen `gå til`{.blockmotion} for å
-  få raketten til å flytte seg til botnen av skjermen, men slik at den er same
-  stad horisontalt.
+- [ ] Før du fyrar opp raketten: bruk klossen `gå til`{.blockmotion} for å få
+  raketten til å flytte seg til botnen av skjermen, men slik at den er same stad
+  horisontalt.
 
   ```blocks
   når @greenFlag vert trykt på
@@ -100,8 +102,8 @@ __Klikk på det grøne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] Prøv å få til det det same ved å bruke museknappen i staden for
-  mellomromtasten. For å gjere det kan me pakke skriptet vårt inn i
-  `for alltid`{.blockcontrol}- og `viss museknappen er trykt`{.blockcontrol}-
+  mellomromtasten. For å gjere det kan me pakke skriptet vårt inn i `for
+  alltid`{.blockcontrol}- og `viss museknappen er trykt`{.blockcontrol}-
   klossar.
 
 - [ ] Flytt skriptet frå `når mellomrom vert trykt`{.blockevents} til `når
@@ -129,11 +131,12 @@ __Klikk på det grøne flagget.__
 
 ## Utfordringar {.challenge}
 
-- [ ] Prøv å få nokre rakettar til å bevege seg litt seinare eller raskare
-  enn andre.
+- [ ] Prøv å få nokre rakettar til å bevege seg litt seinare eller raskare enn
+  andre.
 
-- [ ] Prøv å endre korleis raketten flyg mot musepeikaren. Til dømes kan du
-  få den til å gå i ei boge.
+- [ ] Prøv å endre korleis raketten flyg mot musepeikaren. Til dømes kan du få
+  den til å gå i ei boge.
+
 
 # Steg 2: Få raketten til å eksplodere {.activity}
 
@@ -141,10 +144,10 @@ __Klikk på det grøne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Fyrste steg for å få raketten til å eksplodere er å spele av eit smell
-  før den startar å bevege seg, og så å gøyme seg når den når musepeikaren.
-  For å importere ein lyd kan du gå til fana `Lydar`{.blocklightgrey} og klikke
-  *Last opp lyd fra fil*. Last opp lyden `fyrverkeri_lydogbilder/bang.wav`.
+- [ ] Fyrste steg for å få raketten til å eksplodere er å spele av eit smell før
+  den startar å bevege seg, og så å gøyme seg når den når musepeikaren. For å
+  importere ein lyd kan du gå til fana `Lydar`{.blocklightgrey} og klikke *Last
+  opp lyd fra fil*. Last opp lyden `fyrverkeri_lydogbilder/bang.wav`.
 
   ```blocks
   når @greenFlag vert trykt på
@@ -215,6 +218,7 @@ __Klikk på det grøne flagget.__
 - [ ] Kva skjer viss du heldt museknappen nede medan du flyttar musepeikaren?
   (Ta det med ro, me skal fikse det seinare.)
 
+
 # Steg 3: Gjer kvar eksplosjon unik {.activity}
 
 *No skal me lage variantar slik at ikkje alle eksplosjonane ser like ut.*
@@ -236,13 +240,13 @@ __Klikk på det grøne flagget.__
   ```
 
 - [ ] Legg til fleire bilete av eksplosjonar som drakter ved å velje
-  `Drakter`{.blocklightgrey}-fana til `firework1`. Ved å klikke *Last
-  opp drakt frå fil* kan du leggje til `firework2.png`, `firework3.png` og
-  `firework4.png` frå `fyrverkeri_lydogbilder`.
+  `Drakter`{.blocklightgrey}-fana til `firework1`. Ved å klikke *Last opp drakt
+  frå fil* kan du leggje til `firework2.png`, `firework3.png` og `firework4.png`
+  frå `fyrverkeri_lydogbilder`.
 
-- [ ] Klarar du å få eksplosjonane til å bruke ulike drakter? (Hint: Du kan
-  til dømes bruke `neste drakt`{.blocklooks} ein passande stad i skriptet
-  til Firework1.)
+- [ ] Klarar du å få eksplosjonane til å bruke ulike drakter? (Hint: Du kan til
+  dømes bruke `neste drakt`{.blocklooks} ein passande stad i skriptet til
+  Firework1.)
 
 ## Test prosjektet {.flag}
 
@@ -254,10 +258,10 @@ __Klikk på det grøne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Til slutt skal eksplosjonen bli større etter at raketten eksploderer!
-  I staden for å vente i eitt eksund kan du setje storleiken til figuren til
-  5 % før den blir vist, og så aukar du storleiken med fem 20 gonger ved å
-  bruke klossen `gjenta`{.blockcontrol}.
+- [ ] Til slutt skal eksplosjonen bli større etter at raketten eksploderer! I
+  staden for å vente i eitt eksund kan du setje storleiken til figuren til 5 %
+  før den blir vist, og så aukar du storleiken med fem 20 gonger ved å bruke
+  klossen `gjenta`{.blockcontrol}.
 
   ```blocks
   når eg får meldinga [Eksploder v]
@@ -284,8 +288,9 @@ __Klikk på det grøne flagget.__
 
 ## Utfordringar {.challenge}
 
-Prøv å gjere kvar eksplosjon endå meir unik. Endre storleiken og
-kor raskt eksplosjonen veks.
+Prøv å gjere kvar eksplosjon endå meir unik. Endre storleiken og kor raskt
+eksplosjonen veks.
+
 
 # Steg 4: Fiks "send melding"-feilen {.activity}
 
@@ -296,15 +301,14 @@ Problemet skjer fordi raketten sender meldinga si om eksplosjonen og gjentek
 før den førre er ferdig med animasjonen sin.
 
 I programmeringsverda kallar me denne typen problem for *bugs* fordi i gamle
-dagar var datamaskinene så mykje større at ein kunne få problem med at
-innsekt vart fanga inne i datamaskina og øydela programmet.
+dagar var datamaskinene så mykje større at ein kunne få problem med at innsekt
+vart fanga inne i datamaskina og øydela programmet.
 
 ## Sjekkliste {.check}
 
 - [ ] For å fikse problemet kan du erstatte klossen `send melding`{.blockevents}
   med `send meldinga og vent`{.blockevents}. Då vil ikkje løkka gjenta seg før
-  den førre eksplosjonen er ferdig. Gå tilbake til `rocket` og
-  endre skriptet:
+  den førre eksplosjonen er ferdig. Gå tilbake til `rocket` og endre skriptet:
 
   ```blocks
   når @greenFlag vert trykt på
@@ -331,5 +335,5 @@ __Klikk på det grøne flagget.__
 
 __Gratulerer, du er ferdig! No kan du kose deg med spelet!__
 
-Ikkje gløym å dele spelet ditt med venene og familien din! Klikk på `Legg ut`
-i menylinja.
+Ikkje gløym å dele spelet ditt med venene og familien din! Klikk på `Legg ut` i
+menylinja.

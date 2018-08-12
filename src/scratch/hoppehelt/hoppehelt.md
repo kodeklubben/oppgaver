@@ -1,7 +1,6 @@
 ---
 title: Hoppehelt
-level: 4
-author: 'Geir Arne Hjelle'
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -198,7 +197,7 @@ kloss. Eksperimenter med verdiene i klossen.
 # Steg 4: Flere streker og bokser {.activity}
 
 *Nå skal vi gjøre spillet ganske mye vanskeligere ved å lage tre rader med
- bokser.*
+bokser.*
 
 ## Sjekkliste {.check}
 

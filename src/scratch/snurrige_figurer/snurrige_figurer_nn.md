@@ -1,8 +1,7 @@
 ---
 title: Snurrige figurar
-level: 2
 author: Geir Arne Hjelle og Carl Andreas Myrland
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -18,7 +17,7 @@ korleis me kan flytte og snurre på figurar for å skape spanande mønster.
 # Steg 1: Ein snurrig figur {.activity}
 
 *La oss starte enkelt. Fyrst vil me sjå korleis me kan flytte og snurre på ein
- figur.*
+figur.*
 
 ## Sjekkliste {.check}
 
@@ -32,10 +31,9 @@ korleis me kan flytte og snurre på figurar for å skape spanande mønster.
   måtar. Fyrst teiknar me den sjølv, men under viser me og korleis du kan bruke
   dei eksisterande figurane i Scratch til å lage ein trekant.
 
-    Klikk på ![Teikn ny figur](../bilder/tegn-ny.png) for å teikne din eigen
-    figur. Så trykkar du på `Bytt til vektorgrafikk` nede til høgre, og bruk
-    linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å teikne ein
-    trekant.
+  Klikk på ![Teikn ny figur](../bilder/tegn-ny.png) for å teikne din eigen
+  figur. Så trykkar du på `Bytt til vektorgrafikk` nede til høgre, og bruk
+  linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å teikne ein trekant.
 
     ![Bilete av ein trekant i Scratch](tegn_trekant.png)
 
@@ -105,10 +103,10 @@ på.
 - [ ] No skal me lage mange trekantar. Det gjer me ved hjelp av __kloning__. I
   Scratch er ein __klone__ ein kopi av ein figur.
 
-    Kopier koden du skreiv før ved å høgreklikke på den og velje `lag ein kopip`.
-    Endre tasten som startar skriptet til `b` og legg klossen `lag klon av [meg
-    v]`{.b} nedst i `gjenta`{.blockcontrol}-løkka. Det nye skriptet skal sjå
-    slik ut:
+  Kopier koden du skreiv før ved å høgreklikke på den og velje `lag ein kopip`.
+  Endre tasten som startar skriptet til `b` og legg klossen `lag klon av [meg
+  v]`{.b} nedst i `gjenta`{.blockcontrol}-løkka. Det nye skriptet skal sjå slik
+  ut:
 
     ```blocks
     når [b v] vert trykt
@@ -142,8 +140,8 @@ __Trykk på B-tasten.__
   slutt
   ```
 
-- [ ] Legg til klossen `send meldinga [snurr v]`{.b} nedst i _B_-skriptet
-  (etter `gjenta`{.blockcontrol}-løkka).
+- [ ] Legg til klossen `send meldinga [snurr v]`{.b} nedst i _B_-skriptet (etter
+  `gjenta`{.blockcontrol}-løkka).
 
 ## Test prosjektet {.flag}
 
@@ -182,7 +180,7 @@ __Trykk på B-tasten.__
 # Steg 3: Meir variasjon {.activity}
 
 *No skal me sjå korleis me kan lage meir variasjon blant dei snurrande figurane,
- ved å endre på korleis dei startar.*
+ved å endre på korleis dei startar.*
 
 ## Sjekkliste {.check}
 
@@ -231,8 +229,8 @@ __Trykk på C-tasten.__
   Alle dei andre trekantane er kloner. Me har ikkje sett denne trekanten før
   fordi den peika i same retning som klonene. Men no snur me jo på dei!
 
-    La oss gøyme figuren så den ikkje øydelegg mønsteret. Legg til ein
-    `gøym`{.b}-kloss øvst i _C_-skriptet.
+  La oss gøyme figuren så den ikkje øydelegg mønsteret. Legg til ein
+  `gøym`{.b}-kloss øvst i _C_-skriptet.
 
 - [ ] Sidan klonene er kopiar av figuren vår vil dei også bli gøymt. Det vil me
   jo ikkje. Så me må passe på at klonene visast ved å leggje til ein
@@ -253,9 +251,9 @@ __Trykk på C-tasten.__
 - [ ] Leik med talet `-4` i `endra [retning v] :: variables`{.b}-klossen. Kva
   effekt har det å endre dette talet?
 
-    Du oppdagar kanskje at det fungerer best viss talet er deleleg med 4? Kvifor
-    heng ikkje figuren saman viss talet ikkje er deleleg med 4? (Prøv til dømes
-    med `endra [retning v] med (1)`{.b}.)
+  Du oppdagar kanskje at det fungerer best viss talet er deleleg med 4? Kvifor
+  heng ikkje figuren saman viss talet ikkje er deleleg med 4? (Prøv til dømes
+  med `endra [retning v] med (1)`{.b}.)
 
 
 # Steg 4: Andre figurar {.activity}

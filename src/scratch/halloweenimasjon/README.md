@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Halloweenimasjon
 author: Madeleine Lorås
-level: 1
 language: nb
 ---
 
@@ -13,7 +12,7 @@ hvordan de kan sette animasjonene sammen til en lang, sammenhengende animasjon.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Engelsk, Kunst og håndtverk, Programmering
+__Fag__: Engelsk, Kunst og håndtverk, Programmering
 
 __Trinn__: 2.-10. trinn
 
@@ -26,34 +25,34 @@ __Tidsbruk__: Dobbelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Engelsk, 2. årstrinn__: ta del i og oppleve barnekultur fra
-      engelskspråklige land gjennom å bruke ord, bilder, musikk og bevegelse
+  engelskspråklige land gjennom å bruke ord, bilder, musikk og bevegelse
 
 - [ ] __Engelsk fordypning, 10. årstrinn__: produsere skriftlig og presentere
-      muntlig selvvalgte fordypningsarbeider
+  muntlig selvvalgte fordypningsarbeider
 
 - [ ] __Kunst og håndtverk, 4. årstrinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+  bildebehandlingsprogram
 
 - [ ] __Kunst og håndtverk, 7. årstrinn__: bruke fargekontraster, forminsking og
-      sentralperspektiv for å gi illusjon av rom i bilder både med og uten
-      digitale verktøy
+  sentralperspektiv for å gi illusjon av rom i bilder både med og uten digitale
+  verktøy
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 - [ ] __Programmering, valgfag__: overføre løsninger til nye problemer ved å
-      generalisere og tilpasse eksisterende programkode og algoritmer.
+  generalisere og tilpasse eksisterende programkode og algoritmer.
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare hva Halloween er og hvordan Halloween fungerer i
-      andre land.
+  andre land.
 
 - [ ] Elevene kan bruke forskjellige teknikker for å animere figurer.
 
 - [ ] Elevene kan bruke fargekontraster, forminskning og sentralperspektiv i
-      animasjonene sine.
+  animasjonene sine.
 
 ## Forslag til vurderingskriterier {.challenge}
 
@@ -66,8 +65,8 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Forutsetninger__: Ingen.
 
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-      bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-      seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
 
 ## Fremgangsmåte
 
@@ -82,8 +81,8 @@ oppgaven enda.
 
 - [ ] Hele oppgaven kan gjøres på engelsk ved å skrifte språk:
 
-  - [ ] På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for
-    å velge språk helt nederst på skjermen.
+  - [ ] På de vanlige nettsidene til Scratch finnes en nedtrekksmeny for å velge
+    språk helt nederst på skjermen.
 
-  - [ ] Inne i Scratch-editoren kan man trykke på jordkloden øverst til
-    venstre for å endre språket som brukes.
+  - [ ] Inne i Scratch-editoren kan man trykke på jordkloden øverst til venstre
+    for å endre språket som brukes.

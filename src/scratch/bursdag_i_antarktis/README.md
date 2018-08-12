@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Bursdag i Antarktis
 author: Stein Olav Romslo
-level: 2
 language: nb
 ---
 
@@ -20,7 +19,7 @@ rom for interaktivitet.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, norsk.
+__Fag__: Matematikk, norsk.
 
 __Anbefalte trinn__: 3.-10. trinn
 
@@ -31,20 +30,18 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsystem
+  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
+  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
 
 - [ ] __Norsk, 4. trinn__: lage tekster som kombinerer ord, lyd og bilde, med og
-      uten digitale verktøy
+  uten digitale verktøy
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
@@ -63,17 +60,16 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven, for eksempel ved å gjøre en eller flere av variasjonene
-      nedenfor.
+  oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Elevene bør være komfortable med Scratch.
 
 - [ ] __Utstyr__: Datamaskiner med Scratch installert. Eventuelt kan elevene
-      bruke Scratch i nettleseren dersom de har en bruker (eller registrerer
-      seg) på [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}.
-      Elevene kan gjerne jobbe to og to sammen.
+  bruke Scratch i nettleseren dersom de har en bruker (eller registrerer seg) på
+  [scratch.mit.edu/](http://scratch.mit.edu/){target=_blank}. Elevene kan gjerne
+  jobbe to og to sammen.
 
 ## Fremgangsmåte
 

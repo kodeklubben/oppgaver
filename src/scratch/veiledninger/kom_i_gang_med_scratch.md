@@ -97,8 +97,8 @@ prosjektet sitt, prosjektet blir tilgjengelig på alle datamaskiner osv.
 - [ ] Om siden er på engelsk kan dere endre til norsk språk i nedtrekksmenyen
   nederst på siden.
 
-- [ ] Be barna klikke `Bli Scratch-bruker` øverst til høyre på siden, og
-  fylle ut skjemaet.
+- [ ] Be barna klikke `Bli Scratch-bruker` øverst til høyre på siden, og fylle
+  ut skjemaet.
 
 - [ ] Underveis blir barna bedt om å oppgi en e-postadresse. Denne vil brukes
   for å bekrefte kontoen som gir tilgang til en del ekstra funksjonalitet. Det
@@ -172,9 +172,8 @@ Alternativt, kan du også jobbe gjennom første steg i oppgaven sammen med barna
   Klikk på kodeblokken og vis hvordan katten både flytter seg og roterer. _Vi
   har laget et skript som gir to kommandoer til katten!_
 
-  I Scratch kaller vi en slik samling kodeklosser som utføres sammen
-  for et _skript_. Alle skriptene i et prosjekt utgjør tilsammen et
-  _program_.
+  I Scratch kaller vi en slik samling kodeklosser som utføres sammen for et
+  _skript_. Alle skriptene i et prosjekt utgjør tilsammen et _program_.
 
 - [ ] Endre tallet `10` i `gå (10) steg`{.b}-klossen til `20`. Katten tar nå
   lengre steg, og det blir enklere å se at den både _går_ og _vender_.
@@ -251,4 +250,3 @@ På alle sider - oppgaver og veiledninger - er det en `Rapporter et
 problem`-knapp nederst som du kan trykke for å sende oss en tilbakemelding. Bruk
 denne! Vi er veldig takknemlige for alle forslag som kan gjøre disse sidene enda
 nyttigere!
-

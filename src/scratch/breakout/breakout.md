@@ -1,7 +1,6 @@
 ---
 title: Breakout
-level: 4
-author: 'Geir Arne Hjelle og Martin Lie'
+author: Geir Arne Hjelle og Martin Lie
 language: nb
 ---
 
@@ -22,9 +21,9 @@ vanskelighetsgrad og så videre.
 # Oversikt over prosjektet {.activity}
 
 *Mesteparten av kodingen av Breakout skal du gjøre selv. Koden for racketen og
- ballen ligner en del på den tilsvarende koden i Pong. Vi vil derfor fokusere på
- boksene i dette prosjektet, og spesielt diskutere hvordan man kan bruke kloner
- på en effektiv måte.*
+ballen ligner en del på den tilsvarende koden i Pong. Vi vil derfor fokusere på
+boksene i dette prosjektet, og spesielt diskutere hvordan man kan bruke kloner
+på en effektiv måte.*
 
 ## Plan {.check}
 
@@ -40,8 +39,8 @@ vanskelighetsgrad og så videre.
 # Steg 1: Bokser ... Mange bokser! {.activity}
 
 *En sentral del av Breakout er alle boksene man skal prøve å skyte ned. Siden
- disse boksene alle oppfører seg (nesten) likt vil vi bruke den samme koden for
- alle boksene. Til dette bruker vi kloning.*
+disse boksene alle oppfører seg (nesten) likt vil vi bruke den samme koden for
+alle boksene. Til dette bruker vi kloning.*
 
 I Scratch kan vi klone figurer. Det betyr at vi lager en kopi av en figur, både
 av utseendet og oppførselen. Her vil vi derfor først lage en boks, og deretter
@@ -97,9 +96,9 @@ lage mange kopier av denne.
 # Steg 2: En sprettende ball og en enkel racket {.activity}
 
 *Når man lager nye programmer og spill er det alltid lurt å lage en enkel
- versjon av spillet tidlig. Denne tidlige versjonen behøver ikke kunne gjøre
- veldig mye, du kan likevel begynne å teste at programmet blir som du hadde
- tenkt nesten med en gang.*
+versjon av spillet tidlig. Denne tidlige versjonen behøver ikke kunne gjøre
+veldig mye, du kan likevel begynne å teste at programmet blir som du hadde tenkt
+nesten med en gang.*
 
 Vi begynner nå med grunnmekanismen i spillet: En ball som spretter og en racket
 som kan ta i mot ballen.
@@ -145,7 +144,7 @@ som kan ta i mot ballen.
 # Steg 3: Boksene forsvinner {.activity}
 
 *Vi skal nå koble sammen boksene og ballen. Boksene skal jo forsvinne når de
- blir truffet av ballen. Samtidig skal ballen sprette når den treffer en boks.*
+blir truffet av ballen. Samtidig skal ballen sprette når den treffer en boks.*
 
 ## Sjekkliste {.check}
 
@@ -180,7 +179,7 @@ Prøv spillet ditt. Grunnmekanismene skal nå fungere.
 # Steg 4: Videreutvikling av spillet {.activity}
 
 *Du står helt fritt i hvordan du vil jobbe videre med spillet ditt, men her er
- noen ideer som kan gjøre spillet enda morsommere å spille:*
+noen ideer som kan gjøre spillet enda morsommere å spille:*
 
 ## Ideer til videreutvikling {.check}
 
@@ -229,4 +228,3 @@ Prøv spillet ditt. Grunnmekanismene skal nå fungere.
 
   Videre i spillet kan du teste på `drakt nr.`{.blocklooks} for å vite hvilken
   type boks du har med å gjøre.
-
