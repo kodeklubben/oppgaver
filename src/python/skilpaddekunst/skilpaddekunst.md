@@ -1,7 +1,6 @@
 ---
 title: Skilpaddekunst
-author: 'Geir Arne Hjelle'
-level: 2
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -165,7 +164,7 @@ kan vi be Python gjenta deler av koden. Til dette bruker vi __for-løkker__.
 ## Sjekkliste {.check}
 
 - [ ] Det følgende programmet tegner også en firkant, akkurat som det
-tidligereprogrammet vi lagde:
+  tidligereprogrammet vi lagde:
 
   ```python
   from turtle import *
@@ -188,8 +187,8 @@ tidligereprogrammet vi lagde:
   `Tab`-tasten i IDLE. For å trekke koden tilbake til venstre kan du trykke
   `Shift` og `Tab`.
 
-- [ ] Prøv å trekk linjen `right(90)` til venstre, slik at for-løkken ser
-  slik ut:
+- [ ] Prøv å trekk linjen `right(90)` til venstre, slik at for-løkken ser slik
+  ut:
 
   ```python
   for i in range(4):
@@ -326,9 +325,9 @@ kjedelige mangekanter.
 ## Sjekkliste {.check}
 
 - [ ] Vi lager nå en ny funksjon `polylines` som ligner veldig mye på `polygon`,
-  men hvor vi også kan endre på vinklene slik at de ikke alltid summerer seg
-  til 360. Dette gjør underverker for kunsten vår! Endre programmet ditt slik at
-  det ser slik ut:
+  men hvor vi også kan endre på vinklene slik at de ikke alltid summerer seg til
+  360. Dette gjør underverker for kunsten vår! Endre programmet ditt slik at det
+  ser slik ut:
 
   ```python
   from turtle import *
@@ -401,4 +400,3 @@ tegne flere figurer som ikke henger sammen.
 Et annet tips er funksjonen `speed()`. Denne justerer hastigheten som skilpadden
 tegner med. For eksempel vil `speed(1)` tegne veldig sakte, mens `speed(11)`
 tegner kjempefort.
-

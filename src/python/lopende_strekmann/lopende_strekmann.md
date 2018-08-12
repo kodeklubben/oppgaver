@@ -1,7 +1,6 @@
 ---
-title: 'PGZ - Løpende strekmann'
-level: 3
-author: 'Ole Andreas Ramsdal, Kodeklubben Trondheim'
+title: PGZ - Løpende strekmann
+author: Ole Andreas Ramsdal, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -30,7 +29,7 @@ Begynn med å lage en fil som kan kjøres med Pygame Zero.
   ```
 
 - [ ] Lagre og kjør programmet med `pgzrun run_stickman.py`. Se til at du får
-      opp et vindu.
+  opp et vindu.
 
 
 # Steg 2: Hindringer {.activity}
@@ -101,8 +100,8 @@ Du skal nå lage en strekmann som vi skal kalle `stick_man`.
   stick_man.bottomleft = 50, HEIGHT
   ```
 
- + For at koden skal kjøre må du lagre bildet av strekmannen under som
-   `running_man.png` i mappen `images` der du har lagret `run_stickman.py`.
++ For at koden skal kjøre må du lagre bildet av strekmannen under som
+  `running_man.png` i mappen `images` der du har lagret `run_stickman.py`.
 
   ![Bilde av en strekmann](running_man.png "Strekmann")
 
@@ -110,8 +109,8 @@ Du skal nå lage en strekmann som vi skal kalle `stick_man`.
 
   ![Bilde av mappestrukturen](mappestruktur.png "Mappestruktur")
 
-
-[`Actor` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
+[`Actor` (les mer)]:
+https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
 
 
 # Steg 4: Funksjonene draw() og update() {.activity}
@@ -120,9 +119,10 @@ De fleste spill i [Pygame Zero] har funksjonene [`draw()` (les mer)] og
 [`update()` (les mer)]. Draw-funksjonen sørger for at spillvinduet blir tegnet
 og update-funksjonen gjør endringer i spillet før de tegnes med `draw()`.
 
-[Pygame Zero]: https://pygame-zero.readthedocs.org/
-[`draw()` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
-[`update()` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
+[Pygame Zero]: https://pygame-zero.readthedocs.org/ [`draw()` (les mer)]:
+https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
+[`update()` (les mer)]:
+https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
 
 ## Sjekkliste {.check}
 
@@ -229,7 +229,7 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
 - [ ] Prøv programmet. Hopper strekmannen?
 
 - [ ] Vi trenger nå en animasjon som gjør at strekmannen kommer ned til bakken
-      igjen. Lag funksjonen `back_down()`:
+  igjen. Lag funksjonen `back_down()`:
 
   ```python
   def back_down():
@@ -239,14 +239,16 @@ Du skal nå gjøre det mulig for strekmannen å hoppe med "space" tasten.
   Forstår du hva koden skal animere?
 
 - [ ] Sett verdien `jump_up.on_finished` til `back_down`. `back_down()` vil da
-      kjøres når opp-animasjonen er ferdig:
+  kjøres når opp-animasjonen er ferdig:
 
   ```python
   jump_up.on_finished = back_down
   ```
 
-[`on_key_down()` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
-[`animate()` (les mer)]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
+[`on_key_down()` (les mer)]:
+https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
+[`animate()` (les mer)]:
+https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
 
 ## Tips {.protip}
 
@@ -277,7 +279,7 @@ truffet av boksen.
 - [ ] Lag variabelen `stick_man.hit` og gi den verdien `False`.
 
 - [ ] Inne i `update()`, bestem at av du skal bruke den globale variablen
-      `SCORE`:
+  `SCORE`:
 
   ```python
   def update():
@@ -288,7 +290,7 @@ truffet av boksen.
 - [ ] Hvis strekmannen blir truffet, sett `SCORE = 0` og `stick_man.hit = True`.
 
 - [ ] Øk poengsummen med 10 poeng hvis boksen er ute av bildet og strekmannen
-      ikke er truffet.
+  ikke er truffet.
 
 - [ ] Før boksen flyttes til høyre side, nullstill `stick_man.hit` til `False`.
 
@@ -309,7 +311,7 @@ truffet av boksen.
 - [ ] Endre hvor lang tid et hopp tar.
 
 - [ ] Finn en kombinasjon av boksens hastighet og strekmannens hopp slik at
-      spillet er akkurat passe vanskelig.
+  spillet er akkurat passe vanskelig.
 
 - [ ] Øk hastigheten på boksen når man har fått 100 poeng.
 

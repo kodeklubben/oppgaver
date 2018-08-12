@@ -1,8 +1,7 @@
 ---
 title: Fargespel
-level: 3
-author: 'Omsett frå usingpython.com'
-translator: 'Stein Olav Romslo'
+author: Omsett frå usingpython.com
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -338,8 +337,8 @@ sjølve speldelen. Det skal me gjere no!
 
 - [ ] Programmet ditt skal no sjå slik ut:
 
-  ```python #!/usr/bin/python # -*- coding: UTF-8 -*-
-
+  ```python
+  #!/usr/bin/python # -*- coding: UTF-8 -*-
   import tkinter
   from random import randint
 

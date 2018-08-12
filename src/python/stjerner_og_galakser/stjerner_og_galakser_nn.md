@@ -1,8 +1,7 @@
 ---
-title: 'Stjerner og galaksar'
-level: 2
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: Stjerner og galaksar
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -225,7 +224,6 @@ på skjermen.
 
   hideturtle()
   done()
-
   ```
 
 - [ ] Me brukar funksjonen `setpos(x, y)` til å flytte skjelpadda til posisjonen

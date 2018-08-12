@@ -12,7 +12,8 @@ Analysis, GUI applications and servers.
 
 - Go to [python.org/downloads](https://python.org/downloads).
 
-- Download Python to your computer. Select the newest version (3.7.0 as of July 2018).
+- Download Python to your computer. Select the newest version (3.7.0 as of July
+  2018).
 
 - Install Python by following the installation guide.
 

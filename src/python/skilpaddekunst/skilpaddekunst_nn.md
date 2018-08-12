@@ -1,8 +1,7 @@
 ---
 title: Skjelpaddekunst
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
-level: 2
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 

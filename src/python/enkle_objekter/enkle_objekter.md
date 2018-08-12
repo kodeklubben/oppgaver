@@ -1,7 +1,6 @@
 ---
-title: 'Enkle objekter'
-level: 4
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
+title: Enkle objekter
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -30,15 +29,10 @@ circle = {
 Vi kan også hente ut og endre variablene:
 
 ```python
-
-
 # endrer radiusen til 5
-
 circle["radius"] = 5
 
-
 # skriver ut fargen på sirkelen
-
 print(circle["color"])
 ```
 
@@ -50,11 +44,8 @@ import math
 
 def circle_area(circle):
     radius = circle["radius"]
-    
 
-
-# formula: A = pi * r * r
-
+    # formula: A = pi * r * r
     area = math.pi * radius * radius
     return area
 ```
@@ -80,17 +71,12 @@ objektet kan ha. Vi kan lage en `Circle`-klasse, også lage et objekt av typen
 Dette er enklere å forstå med ett eksempel:
 
 ```python
-
-
 # Vi lager Circle-klassen:
-
 class Circle:
     radius = 3
     color = "red"
 
-
 # Så lager vi circle-objektet
-
 circle = Circle()
 ```
 
@@ -99,19 +85,13 @@ kaller for `circle`. `class`-nøkkelordet forteller datamaskinen at nå lager vi
 en klasse, du kan sammenlikne det med f.eks. `def` som forteller datamaskinen at
 nå kommer en funksjon.
 
-
 Vi kan hente ut og endre variablene til objektet:
 
 ```python
-
-
 # Endrer på radiusen
-
 circle.radius = 5
 
-
 # Skriver ut fargen
-
 print(circle.color)
 ```
 
@@ -143,7 +123,8 @@ er fordi vi sier at vi vil bruke `radius`-variabelen som er en del av klassen.
 Du må alltid bruke `self` når du skal bruke funksjoner eller variabler du har
 lagd i klassen.
 
-Som vi ser så er det ikke så stor forskjell mellom bruk av funksjoner og klasser:
+Som vi ser så er det ikke så stor forskjell mellom bruk av funksjoner og
+klasser:
 
 <div class="col-sm-6" >
 **Ordbøker**
@@ -160,12 +141,12 @@ def circle_area(circle):
     area = math.pi * circle["radius"] ** 2
     return area
 
-
 circle["radius"] = 5
 print(circle["color"])
 print(circle_area(circle))
 ```
 </div>
+
 <div class="col-sm-6" >
 **Klasser**
 
@@ -176,11 +157,9 @@ class Circle:
     radius = 3
     color = "red"
 
-
     def area(self):
         area = math.pi * self.radius ** 2
         return area
-
 
 circle = Circle()
 
@@ -226,4 +205,3 @@ blue
 ```
 
 Pass på at din "oversettelse" gjør det samme.
-

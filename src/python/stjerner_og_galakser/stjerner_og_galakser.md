@@ -1,8 +1,7 @@
 ---
-title: 'Stjerner og galakser'
-level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Ole Andreas Ramsdal'
+title: Stjerner og galakser
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Ole Andreas Ramsdal
 language: nb
 ---
 
@@ -18,7 +17,7 @@ enklere og mer oversiktlige.
 ## Sjekkliste {.check}
 
 - [ ] Vi begynner med å bruke det du allerede kan om tegning med skilpadden.
-      Kjør dette programmet:
+  Kjør dette programmet:
 
   ```python
   from turtle import *
@@ -45,11 +44,11 @@ enklere og mer oversiktlige.
   ![Bilde av en sky med en stjerne og skilpadde](sky-star.png)
 
 - [ ] Kan du alle komandoene? `bgcolor(color)` setter fargen på bakgrunnen. Sørg
-      for å forstå alle før du går videre.
+  for å forstå alle før du går videre.
 
 - [ ] Nå skal vi tegne tre stjerner på forskjellige posisjoner på skjermen. Vi
-      lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å
-      tegne tre stjerner.
+  lager en funksjon som heter `drawStar()` og kaller denne tre ganger for å
+  tegne tre stjerner.
 
   ```python
   from turtle import *
@@ -97,7 +96,7 @@ enklere og mer oversiktlige.
 Funksjonen du lagde i forrige steg tegner en like stor stjerne hver gang. Hva om
 du vil tegne stjerner med forskjellige størrelser? En måte du kan gjøre det på
 er å lage forskjellige funksjoner som `drawBigStar()` , `drawMediumStar()` eller
-`drawSmallStar()`
+`drawSmallStar()`.
 
 En bedre måte å gjøre det på er å sende inn verdier til funksjonen `drawStar()`
 for å fortelle hvilken størrelse du vil ha. Du har allerede brukt flere
@@ -107,7 +106,7 @@ sender du 100 inn funksjonen og det gjør at skilpadden går 100 piksler frem.
 ## Sjekkliste {.check}
 
 - [ ] Her er et program med en "stjernetegne-funksjon" som kan tegne stjerner i
-      forskjellige størrelser ut i fra hvilket tall du sender inn i funksjonen.
+  forskjellige størrelser ut i fra hvilket tall du sender inn i funksjonen.
 
   ```python
   from turtle import *
@@ -141,13 +140,13 @@ sender du 100 inn funksjonen og det gjør at skilpadden går 100 piksler frem.
   ![Bilde av sky med tre stjerner](sky-function.png)
 
 - [ ] Når programmet ditt kjører `drawStar(50)` er altså verdien til starSize
-      lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner
-      en linje som er 50 piksler lang.
+  lik 50. Dette gjør at kommandoen `forward(starSize)` inne i løkken tegner en
+  linje som er 50 piksler lang.
 
   ![Bilde av hvordan Python behandler parametere](sky-parameter-passing.png)
 
 - [ ] Det er mulig å sende inn flere verdier inn i funksjonen. For eksempel kan
-      vi sende inn hvilken farge vi vil at stjernen skal ha.
+  vi sende inn hvilken farge vi vil at stjernen skal ha.
 
   ```python
   from turtle import *
@@ -196,7 +195,7 @@ skjermen.
 ## Sjekkliste {.check}
 
 - [ ] Kjør dette programmet. Skilpadden flyttes til en ny posisjon og tegner en
-      hvit stjerne der.
+  hvit stjerne der.
 
   ```python
   from turtle import *
@@ -224,7 +223,6 @@ skjermen.
 
   hideturtle()
   done()
-
   ```
 
 - [ ] Vi bruker funksjonen `setpos(x, y)` til å flytte skilpadden til posisjonen
@@ -234,8 +232,8 @@ skjermen.
   ![Bilde av en stjerne i et koordinatsystem](sky-xy.png)
 
 - [ ] Vi skal nå flytte til en tilfeldig posisjon. Vi lager en ny funksjon som
-      heter `moveToRandomLocation()`, denne flytter altså skilpadden til en
-      tilfeldig posisjon.
+  heter `moveToRandomLocation()`, denne flytter altså skilpadden til en
+  tilfeldig posisjon.
 
   ```python
   from turtle import *
@@ -289,8 +287,8 @@ ha oversikt når man lager store programmer.
 ## Sjekkliste {.check}
 
 - [ ] Det ville vært kult hvis vi kunne lage en galakse med små flerfargede
-      stjerner i tegningen vår. Vi lager defor en funksjon som heter
-      `drawGalaxy()` som bruker funksjonen `drawStar()` som vi laget tidligere.
+  stjerner i tegningen vår. Vi lager defor en funksjon som heter `drawGalaxy()`
+  som bruker funksjonen `drawStar()` som vi laget tidligere.
 
   ```python
   from turtle import *
@@ -352,7 +350,7 @@ ha oversikt når man lager store programmer.
   dette skjer?
 
 - [ ] Du kan også tegne stjernebilder satt sammen av stjerner. Dette er ikke så
-      vanskelig siden vi allerede har mange av funksjonene vi trenger.
+  vanskelig siden vi allerede har mange av funksjonene vi trenger.
 
   ```python
   from turtle import *

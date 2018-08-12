@@ -1,8 +1,7 @@
 ---
-title: 'Tekst ABC'
-level: 3
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+title: Tekst ABC
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -37,26 +36,20 @@ som er store og små i utskrifta):
 
 ```python
 >>> s = "Per og Ada"
->>> s.upper()
 
-# store bokstavar
+>>> s.upper() # store bokstavar
 'PER OG ADA'
->>> s.lower()
 
-# små bokstavar
+>>> s.lower() # små bokstavar
 'per og ada'
->>> s.capitalize()
 
-# fyrste bokstav er stor
+>>> s.capitalize() # fyrste bokstav er stor
 'Per og ada'
->>> s.title()
 
-# fyrste bokstav i kvart ord er stor
-
+>>> s.title() # fyrste bokstav i kvart ord er stor
 'Per Og Ada'
->>> s.swapcase()
 
-# byttar store og små bokstavar
+>>> s.swapcase() # byttar store og små bokstavar
 'pER oG aDA'
 ```
 
@@ -67,6 +60,7 @@ Her er nokre døme på kva funksjonane kan brukast til:
 
   ```python
   >>> sentence = "dENne sETNinGa har IKKJE riKTige bokSTAVstOrLeIKAR."
+
   >>> sentence.capitalize()
   'Denne setninga har ikkje riktige bokstavstorleikar.'
   ```
@@ -75,6 +69,7 @@ Her er nokre døme på kva funksjonane kan brukast til:
 
   ```python
   >>> movie_title = "star wars: a new hope"
+
   >>> movie_title.title()
   'Star Wars: A New Hope'
   ```
@@ -84,17 +79,15 @@ Her er nokre døme på kva funksjonane kan brukast til:
 
   ```python
   >>> answer = "JA"
-  >>> answer == "ja"  
 
-# JA og ja er ikkje like
+  >>> answer == "ja" # JA og ja er ikkje like
   False
   ```
 
   ```python
   >>> answer = "JA"
-  >>> answer.lower() == "ja"  
 
-# konverter JA til ja for testen
+  >>> answer.lower() == "ja" # konverter JA til ja for testen
   True
   ```
 
@@ -103,20 +96,16 @@ lagre resultatet i ein ny variabel om du vil handsame endringa di:
 
 ```python
 >>> s = "tekst"
->>> s.upper()  
 
-# Me endrar ikkje på variabelen!
+>>> s.upper() # Me endrar ikkje på variabelen!
 'TEKST'
->>> s  
 
-# Framleis små bokstavar
+>>> s # Framleis små bokstavar
 'tekst'
->>> s = s.upper()  
 
-# No endrar me på variabelen
->>> s  
+>>> s = s.upper() # No endrar me på variabelen
 
-# Denne gongen er det store bokstavar
+>>> s # Denne gongen er det store bokstavar
 'TEKST'
 ```
 
@@ -155,6 +144,7 @@ datamaskina gjere det:
 
 ```python
 >>> s = "A, B, C, D, E, F, G, H, I, J, K, L"
+
 >>> s.count(",")
 11
 ```
@@ -163,6 +153,7 @@ Me kan òg telje tekst som er lengre, til dømes `"Per"`:
 
 ```python
 >>> s = "Per, Ada, Kim, Per, Kim, Per"
+
 >>> s.count("Per")
 3
 ```
@@ -201,6 +192,7 @@ Kva om me vil byte ut alle komma med semikolon?
 
 ```python
 >>> s = "A, B, C, D, E, F, G, H, I, J, K, L"
+
 >>> s.replace(",", ";")
 'A; B; C; D; E; F; G; H; I; J; K; L'
 ```
@@ -211,6 +203,7 @@ fjerne tekst. Me kan til dømes fjerne alle mellomrom:
 
 ```python
 >>> s = "1 2 3 4 5"
+
 >>> s.replace(" ", "")
 '12345'
 ```

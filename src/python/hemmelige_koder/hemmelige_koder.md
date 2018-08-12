@@ -1,8 +1,7 @@
 ---
-title: 'Hemmelige koder'
-level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Bjørn Einar Bjartnes'
+title: Hemmelige koder
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Bjørn Einar Bjartnes
 language: nb
 ---
 
@@ -22,7 +21,6 @@ sannsynligvis brukte det til å sende hemmelige beskjeder. Det er neppe den best
 måten å hindre andre i å lese beskjedene dine, men det kommer vi tilbake til.
 Det finnes ferdige moduler til Python du kan bruke hvis du vil lage noe som skal
 være vanskelig å knekke, men nå skal vi forsøke å lage Cæsar-chifferet selv.
-
 
 Start med å tegne alle bokstavene i en sirkel.
 
@@ -48,7 +46,6 @@ V                                               H
           R                        L
               Q                M
                   P    O   N
-
 ```
 
 For å lage en hemmelig bokstav fra en vanlig bokstav, trenger vi et tall vi kan
@@ -75,7 +72,7 @@ foran tekst som er inni `""`. For eksempel blir alfabetet under
 ## Sjekkliste {.check}
 
 - [ ] Først må vi lære python alfabetet. Åpne IDLE og lag en ny fil med koden
-      under:
+  under:
 
   ```python
   alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
@@ -84,8 +81,7 @@ foran tekst som er inni `""`. For eksempel blir alfabetet under
   ```
 
 - [ ] Når du kjører dette programmet skal det skrive ut 29. Pass på at du har
-      med alle bokstavene, ellers kommer ikke den hemmelige koden din til å
-      virke.
+  med alle bokstavene, ellers kommer ikke den hemmelige koden din til å virke.
 
   Hvis du er fornøyd med alfabetet ditt kan vi begynne å kode en bokstav.
 
@@ -95,7 +91,7 @@ foran tekst som er inni `""`. For eksempel blir alfabetet under
 ## Sjekkliste {.check}
 
 - [ ] Akkurat som vi gjorde med hjulet ovenfor kan vi finne posisjonen til en
-      bokstav ved å telle forover, og så bruke bokstaven vi ender opp med.
+  bokstav ved å telle forover, og så bruke bokstaven vi ender opp med.
 
   Skriv inn koden under og kjør den:
 
@@ -255,8 +251,7 @@ over tegn som punktum og mellomrom).
 ## Sjekkliste {.check}
 
 - [ ] Under de nye funksjonene fra forrige oppgave kan du skrive inn koden under
-      (med andre ord: behold det du gjorde i oppgave 4, og legg til koden
-      under).
+  (med andre ord: behold det du gjorde i oppgave 4, og legg til koden under).
 
   ```python
   secret = 17

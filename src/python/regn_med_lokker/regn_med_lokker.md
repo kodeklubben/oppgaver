@@ -1,7 +1,6 @@
 ---
-title: 'Regn med løkker'
-level: 3
-author: 'Tjerand Silde'
+title: Regn med løkker
+author: Tjerand Silde
 language: nb
 ---
 
@@ -10,8 +9,7 @@ language: nb
 
 En ting som mennesker ikke er så flinke til, men som datamaskiner er eksperter
 på, er å gjenta noe mange ganger etter hverandre. I python kan vi gjøre dette
-med løkker, og dere vil snart se at dette kan spare oss for mye tid og
-skriving.
+med løkker, og dere vil snart se at dette kan spare oss for mye tid og skriving.
 
 
 # Hello world! {.activity}
@@ -55,7 +53,7 @@ Bruk en for-løkke til å skrive ut alle tallene mellom 0 og 10.
 # Liftoff {.activity}
 
 - [ ] Bruk en for-løkke og range-funksjonen for å telle ned fra 10. Når du
-      kommer til 0, skal programmet skrive **liftoff!**
+  kommer til 0, skal programmet skrive **liftoff!**
 
 ![Bilde av program som teller ned til liftoff](liftoff.png)
 
@@ -70,7 +68,7 @@ legger sammen alle tallene før den skriver ut resultatet. Svaret skal bli 5050.
 # Summere n tall {.activity}
 
 - [ ] Lag en funksjon `summer(n)`, som tar inn en parameter og returnerer summen
-av alle tallene fra 0 til `n`. Definer funksjonen slik:
+  av alle tallene fra 0 til `n`. Definer funksjonen slik:
 
 ```python
 def summer(n):
@@ -82,4 +80,3 @@ def summer(n):
 Når koden din er rett, skal den fungere slik som dette:
 
 ![Bilde av summering av tallrekker med python](summer.png)
-

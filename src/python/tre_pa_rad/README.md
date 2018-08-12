@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Tre på rad
 author: Madeleine Lorås
-level: 3
 language: nb
 ---
 
@@ -12,7 +11,7 @@ I denne oppgaven skal elevene lage et tre på rad spill.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering
+__Fag__: Programmering
 
 __Anbefalte trinn__: 8.-10. trinn
 
@@ -23,16 +22,16 @@ __Tidsbruk__: Dobbelttime eller mer
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett
-       er tekstbasert
+  er tekstbasert
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan beskrive og bruke løkker, tester, variabler, og funksjoner til
-       å implementere et spill.
+  å implementere et spill.
 
 - [ ] Elevene kan implementere brukerinteraksjon ved bruk av musepekeren.
 
@@ -41,7 +40,7 @@ __Tidsbruk__: Dobbelttime eller mer
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-       oppgaven.
+  oppgaven.
 
 - [ ] Eleven kan jobbe sammen to og to med å vurdere hverandres spill.
 
@@ -63,9 +62,8 @@ oppgaven enda._
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan videreutvikle spillet til å [spille mot
-       datamaskinen](../tre_pa_rad_mot_datamaskinen/tre_pa_rad_mot_datamaskinen.html).
+  datamaskinen](../tre_pa_rad_mot_datamaskinen/tre_pa_rad_mot_datamaskinen.html).
 
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-

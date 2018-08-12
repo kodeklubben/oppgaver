@@ -1,7 +1,6 @@
 ---
 title: Repetisjon
-level: 3
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -84,6 +83,7 @@ Skriv inn et tall: 15
 >>> print("Du skrev inn: " + str(number))
 Du skrev inn: 15
 ```
+
 <!--A little workaround to avoid checklist being a part of protip-->
 
 
@@ -170,8 +170,6 @@ Det du trenger å gjøre er:
 `for`-løkker brukes når vi ønsker å gjøre ting flere ganger.
 
 ```python
-
-
 # print Hello three times
 
 for i in range(3):
@@ -190,8 +188,6 @@ Hello
 Vi kan også bruke `for`-løkker når vi ønsker å gå igjennom ei liste:
 
 ```python
-
-
 # print all elements in the list food_list
 
 food_list = ["eggs", "ham", "spiced ham", "jam"]
@@ -369,4 +365,3 @@ Dette må du gjøre:
 - [ ] Regn ut summen.
 
 - [ ] Returner summen.
-

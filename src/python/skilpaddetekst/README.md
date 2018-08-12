@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Skilpaddetekst
 author: Madeleine Lorås og Øistein Søvik
-level: 4
 language: nb
 ---
 
@@ -13,7 +12,7 @@ hjelp av turtle.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering
+__Fag__: Programmering
 
 __Anbefalte trinn__: 8.-10. trinn
 
@@ -24,28 +23,27 @@ __Tidsbruk__: Dobbelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: omgjøre problemer til konkrete delproblemer,
-       vurdere hvilke delproblemer som lar seg løse digitalt, og utforme
-       løsninger for disse.
+  vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
+  for disse.
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon.
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon.
 
 - [ ] __Programmering, valgfag__: utvikle og feilsøke programmer som løser
-       definerte problemer, inkludert realfaglige problemstillinger og
-       kontrollering eller simulering av fysiske objekter.
+  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
+  eller simulering av fysiske objekter.
 
 - [ ] __Programmering, valgfag__: dokumentere og forklare programkode gjennom å
-       skrive hensiktsmessige kommentarer og ved å presentere egen og andres
-       kode.
+  skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode.
 
 - [ ] __Programmering, valgfag__: overføre løsninger til nye problemer ved å
-       generalisere og tilpasse eksisterende programkode og algoritmer.
+  generalisere og tilpasse eksisterende programkode og algoritmer.
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke funksjoner og løkker til å behandle og printe
-      tekststrenger.
+  tekststrenger.
 
 - [ ] Elevene kan forklare og bruke andres kode i eget prosjekter.
 
@@ -56,7 +54,7 @@ __Tidsbruk__: Dobbelttime
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-       oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -77,4 +75,3 @@ oppgaveteksten.](../skilpaddetekst/skilpaddetekst.html){target=_blank}
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-

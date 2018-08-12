@@ -1,8 +1,7 @@
 ---
 title: If-setningar
-level: 2
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 

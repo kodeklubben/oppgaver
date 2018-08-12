@@ -1,8 +1,7 @@
 ---
-title: 'Tre på rad'
-level: 3
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Geir Arne Hjelle'
+title: Tre på rad
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Geir Arne Hjelle
 language: nb
 ---
 
@@ -50,7 +49,7 @@ stedet lære å bruke tk-biblioteket til tegning.
   ```
 
 - [ ] Lagre og kjør programmet ditt. Du vil se et rutenett tegnet på skjermen!
-      Steng vinduet rutenettet ble tegnet i for å avslutte programmet ditt.
+  Steng vinduet rutenettet ble tegnet i for å avslutte programmet ditt.
 
 ## Lerretet {.protip}
 
@@ -125,7 +124,6 @@ c.create_line(400, 0, 400, 600) # B til D
 
 c.create_line(0, 200, 600, 200) # M til O
 c.create_line(0, 400, 600, 400) # N til P
-
 ```
 
 Når vi koder kaller vi ofte bortover for `x`, mens nedover ofte kalles `y`.
@@ -139,7 +137,7 @@ venstre hjørne, slik at `y` blir større når vi går nedover.
 ## Sjekkliste {.check}
 
 - [ ] I den samme filen vil vi nå legge til en prosedyre som kan tegne en sirkel
-      når du klikker med musen!
+  når du klikker med musen!
 
   ```python
   from tkinter import *
@@ -168,7 +166,7 @@ venstre hjørne, slik at `y` blir større når vi går nedover.
   Du skal se en sirkel i den midterste ruta på skjermen.
 
 - [ ] La oss endre på koden slik at vi tegner sirkelen i den samme ruta som du
-      klikker i.
+  klikker i.
 
   For å gjøre dette må vi finne posisjonen til muspekeren og regne ut hvilken
   rute i rutenettet dette tilsvarer. Dette gjør vi ved å endre på
@@ -204,13 +202,14 @@ venstre hjørne, slik at `y` blir større når vi går nedover.
 
   Linjen `int(c.canvasx(event.x) / 200)` finner først posisjonen til muspekeren
   `event.x`, gjør om denne til en lerret-posisjon, `c.canvas(event.x)` og deler
-  denne på 200 og runder nedover slik at vi får et tall som er enten 0, 1
-  eller 2. Dette tallet forteller oss i hvilken kolonne muspekeren er. Linjen
-  `int(c.canvasy(event.y) / 200)` finner på samme måte ut hvilken rad muspekeren
-  befinner seg i.
+  denne på 200 og runder nedover slik at vi får et tall som er enten 0, 1 eller
+
+  2. Dette tallet forteller oss i hvilken kolonne muspekeren er. Linjen
+    `int(c.canvasy(event.y) / 200)` finner på samme måte ut hvilken rad
+    muspekeren befinner seg i.
 
 - [ ] Kjør koden. Legg merke til at hver gang du klikker i en rute tegnes en
-      sirkel i den ruten.
+  sirkel i den ruten.
 
   Koden `c.create_oval(across * 200, down * 200, (across+1) * 200, (down+1) *
   200)` gjør om 'Bortover 1, Nedover 2' til posisjoner på lerretet som Bortover
@@ -226,7 +225,7 @@ viktig når vi senere vil sjekke om man har tre på rad.
 ## Sjekkliste {.check}
 
 - [ ] Vi lager først en liste `grid` med ni elementer, en for hver rute. Legg
-      til følgende kode rett før definisjonen av prosedyren `click`:
+  til følgende kode rett før definisjonen av prosedyren `click`:
 
   ```python
   grid = [
@@ -241,7 +240,7 @@ viktig når vi senere vil sjekke om man har tre på rad.
   hvordan rutene på brettet er nummerert.
 
 - [ ] Nå vil vi registrere at vi tegner sirkler i denne listen. Bytt ut
-      `click`-prosedyren med følgende:
+  `click`-prosedyren med følgende:
 
   ```python
   def click(event):
@@ -267,7 +266,7 @@ viktig når vi senere vil sjekke om man har tre på rad.
   den forklarende teksten.
 
 - [ ] Kjør koden. Klikk i forskjellige ruter slik at du skjønner hvordan vi har
-      nummerert rutene på brettet.
+  nummerert rutene på brettet.
 
 
 # Steg 4: Tegne et kryss {.activity}
@@ -277,11 +276,11 @@ Vi vil nå legge til en spiller til, som tegner kryss i stedet for sirkel.
 ## Sjekkliste {.check}
 
 - [ ] Vi lager en prosedyre som bestemmer hvem sin tur det er. `choose_shape`
-      undersøker `grid`-listen vår og lar det være `X` sin tur dersom det
-      allerede er flere `O` enn `X` i listen.
+  undersøker `grid`-listen vår og lar det være `X` sin tur dersom det allerede
+  er flere `O` enn `X` i listen.
 
 - [ ] Vi utvider også `click`-prosedyren slik at den kan tegne både sirkler og
-      kryss. Koden ser nå slik ut:
+  kryss. Koden ser nå slik ut:
 
   ```python
   from tkinter import *
@@ -341,18 +340,18 @@ Vi vil nå legge til en spiller til, som tegner kryss i stedet for sirkel.
   ```
 
 - [ ] Kjør programmet ditt. Prøv å trykk på en rute. Det skal tegnes en O. Klikk
-      på en annen rute. Nå tegnes en X.
+  på en annen rute. Nå tegnes en X.
 
 
 # Steg 5: Å finne en vinner {.activity}
 
-Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen
-får tre på rad!
+Nå er vi nesten ferdige med spillet, vi mangler bare å sjekke om noen får tre på
+rad!
 
 ## Sjekkliste {.check}
 
 - [ ] I den samme filen vil vi nå skrive en ny prosedyre `winner`. Vi kaller
-      denne etter hvert klikk for å sjekke om en av spillerene har vunnet.
+  denne etter hvert klikk for å sjekke om en av spillerene har vunnet.
 
   Den ferdige koden ser ut som følger:
 
@@ -437,7 +436,7 @@ får tre på rad!
   ```
 
 - [ ] Prøv å spill spillet slik at du får tre på rad. Kan du klikke i noen flere
-      ruter?
+  ruter?
 
   Prosedyren `winner` undersøker de fire forskjellige måtene man kan få tre på
   rad på:

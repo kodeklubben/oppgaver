@@ -1,8 +1,7 @@
 ---
 title: Skjelpaddefraktalar
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
-level: 3
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 

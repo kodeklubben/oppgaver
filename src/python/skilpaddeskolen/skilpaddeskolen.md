@@ -1,8 +1,7 @@
 ---
 title: Skilpaddeskolen
-level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Bjørn Einar Bjartnes'
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Bjørn Einar Bjartnes
 language: nb
 ---
 
@@ -12,7 +11,7 @@ language: nb
 ## Sjekkliste {.check}
 
 - [ ] Åpne IDLE-editoren, og åpne en ny fil ved å trykke `File > New File`, og
-      la oss begynne.
+  la oss begynne.
 
   Husk at du skal ha to vinduer åpne. Det ene er 'Python Shell' og det andre er
   for å skrive kode i.
@@ -29,7 +28,7 @@ language: nb
   ```
 
 - [ ] Lagre det som en ny fil, og kjør programmet fra menyen ved å trykke `Run >
-      Run Module`.
+  Run Module`.
 
   Husk at `for n in range(4)` gjentar koden, og at koden må grupperes med
   mellomrom (innrykk) for å være en del av for-løkken. Bruk *tab* (knappen rett
@@ -58,7 +57,7 @@ endre, akkurat som vi gjorde i forrige modul.
   ```
 
 - [ ] Kjør det ved å trykke `Run > Run Module` fra menyen. Får du den samme
-      firkanten som før? Sjekk at det virker før du går videre.
+  firkanten som før? Sjekk at det virker før du går videre.
 
 Dette er et litt langt program, men nå kan vi endre det til å tegne hvilken
 figur vi vil. Problemet er bare at vi er nødt til å klippe og lime programmet
@@ -74,10 +73,11 @@ Funksjonen får et navn, og dette navnet kan vi senere bruke.
 ## Sjekkliste {.check}
 
 - [ ] Vi endrer koden og legger til `def poly():`. `def` betyr definer, altså å
-      lage. Pass på at koden har riktig innrykk og bruk den nye funksjonen. For
-      å få innrykk på flere linjer kan man merke linjene og deretter trykke
-      *tab* (knappen rett over *caps lock*). Dersom du vil ha mindre innrykk,
-      bruk *shift + tab*.
+  lage. Pass på at koden har riktig innrykk og bruk den nye funksjonen. For å få
+  innrykk på flere linjer kan man merke linjene og deretter trykke *tab*
+  (knappen rett over *caps lock*). Dersom du vil ha mindre innrykk, bruk *shift
+
+  + tab*.
 
   ```python
   from turtle import *
@@ -165,9 +165,9 @@ prosedyrer, så det er vanlig å bare kalle begge deler for funksjoner.
 ## Sjekkliste {.check}
 
 - [ ] Selv om skilpadden er en liten robot som kan tegne, kan den også flytte
-      seg uten å tegne. Husk at vi kan bruke `penup()` og `pendown()` for å slå
-      av og på at skilpadden setter spor. Åpne en ny Python-fil, og skriv inn
-      koden under:
+  seg uten å tegne. Husk at vi kan bruke `penup()` og `pendown()` for å slå av
+  og på at skilpadden setter spor. Åpne en ny Python-fil, og skriv inn koden
+  under:
 
   ```python
   from turtle import *
@@ -234,7 +234,7 @@ istedenfor hele streker.
 ## Sjekkliste {.check}
 
 - [ ] La oss bruke funksjoner igjen for å rydde opp i koden. Endre koden fra
-      steg 6 og la oss dele koden i biter.
+  steg 6 og la oss dele koden i biter.
 
   ```python
   from turtle import *

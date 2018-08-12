@@ -1,8 +1,7 @@
 ---
-title: 'Skilpadder hele veien ned'
-level: 3
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Bjørn Einar Bjartnes'
+title: Skilpadder hele veien ned
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Bjørn Einar Bjartnes
 language: nb
 ---
 
@@ -29,14 +28,13 @@ _________/      \________
          __/  \__
          \      /
 ____/\___/      \___/\___
-
 ```
 
 ## Sjekkliste {.check}
 
 - [ ] Å tegne den første er lett. Som alltid er den første linjen `from turtle
-      import *` så Python vet at vi vil tegne. Dette programmet tegner linjen,
-      sjekk at du får det til
+  import *` så Python vet at vi vil tegne. Dette programmet tegner linjen, sjekk
+  at du får det til
 
   ```python
   from turtle import *
@@ -45,7 +43,7 @@ ____/\___/      \___/\___
       forward(30)
 
   first()
-  ````
+  ```
 
   Jeg har puttet det inn i en prosedyre fordi jeg liker prosedyrer. Vi kommer
   til å lage prosedyrer for alle formene, så la oss legge dem til i filen vi
@@ -72,7 +70,7 @@ ____/\___/      \___/\___
   ```
 
 - [ ] Kjør koden din og se hva den gjør, tegner den riktig figur? Det skal se
-      slik ut
+  slik ut
 
   ```
               /\
@@ -93,7 +91,6 @@ fire ganger.
          __/  \__
          \      /
 ____/\___/      \___/\___
-
 ```
 
 Du kan se at vi tegner den andre figuren (det enkle fjellet), deretter snur vi,
@@ -102,7 +99,7 @@ tegner den igjen, snur, tegner igjen, snur og tegner den en siste gang.
 ## Sjekkliste {.check}
 
 - [ ] Istedenfor å skrive alle bevegelsene, la oss tegne den tredje figuren ved
-      å kalle `second`
+  å kalle `second`
 
   ```
   from turtle import *
@@ -178,7 +175,7 @@ tilfellet. Det er kanskje enklere å se på programmet enn å forklare.
   startet med.
 
 - [ ] Kjør det og se hva som skjer. Hva skjer om du prøver `mountain(1)`,
-      `mountain(2)`, eller `mountain(4)`?
+  `mountain(2)`, eller `mountain(4)`?
 
 
 # Steg 4: Tegn et snøflak av fjell {.activity}
@@ -186,10 +183,9 @@ tilfellet. Det er kanskje enklere å se på programmet enn å forklare.
 ## Sjekkliste {.check}
 
 - [ ] La oss bare legge til en siste ting til filen fra i sted, så den ser ut
-      som under. Vi legger til en ny prosedyre `snowflake`:
+  som under. Vi legger til en ny prosedyre `snowflake`:
 
   ```python
-
   from turtle import *
 
   def mountain(depth, length):
@@ -223,8 +219,8 @@ tilfellet. Det er kanskje enklere å se på programmet enn å forklare.
   selv.
 
 - [ ] Prøv å kjøre `snowflake(1, 50)`, `snowflake(2, 25)`, `snowflake(3, 20)`.
-      Jo større dybde, jo lenger tar det å tegne, så husk å putte inn
-      `speed(11)` så skilpadden går så fort den kan!
+  Jo større dybde, jo lenger tar det å tegne, så husk å putte inn `speed(11)` så
+  skilpadden går så fort den kan!
 
 
 # Steg 5: Bokser, flere bokser, og enda flere bokser {.activity}
@@ -233,8 +229,6 @@ La oss se på en annen figur, en som ligner veldig på snøflaket, men med bokse
 istedenfor fjell.
 
 ```
-
-
 ___________________________
 
         ___________
@@ -251,8 +245,6 @@ ________|         |________
       |_           _|
     _   |         |   _
 ___| |__|         |__| |___
-
-
 ```
 
 Akkurat som med fjellet er det et enkelt tilfelle: en rett linje, og et
@@ -263,7 +255,7 @@ er akkurat som før, tegn den andre figuren noen ganger.
 # Sjekkliste {.check}
 
 - [ ] La oss åpne en ny fil og forsøke å tegne det andre bildet, som er det vi
-      skal gjenta:
+  skal gjenta:
 
   ```python
   from turtle import *
@@ -282,7 +274,6 @@ er akkurat som før, tegn den andre figuren noen ganger.
 - [ ] Kjør det og sjekk at du får denne figuren:
 
   ```
-
           ___________
           |         |
           |         |
@@ -330,9 +321,9 @@ med firkanthumpen på seg, så la oss hoppe rett til tegningen!
   ```
 
 - [ ] Vi har ikke skrevet inn spesialtilfellet, det har vi tenkt å la deg gjøre.
-      Det er ganske likt som å programmere linjen vi hadde før, det burde holde
-      å kalle `box(newdepth, length)` for å få det til. Koden burde se veldig
-      lik ut som fjellet og snøflaket.
+  Det er ganske likt som å programmere linjen vi hadde før, det burde holde å
+  kalle `box(newdepth, length)` for å få det til. Koden burde se veldig lik ut
+  som fjellet og snøflaket.
 
 
 # Steg 7: Trekanter igjen {.activity}
@@ -419,10 +410,10 @@ vi det som tre trekanter sammen.
   flytte skilpadden til hjørnet av skjermen.
 
 - [ ] Kjør det og se hva som skjer. Vi kan se at det enkle tilfellet er bare å
-      tegne en trekant, og at spesialtilfellet er å tegne tre små trekanter.
+  tegne en trekant, og at spesialtilfellet er å tegne tre små trekanter.
 
 - [ ] Prøv å endre verdiene vi sender til `triforce()`, endre den siste linjen
-      til `triforce(5, 300)`, hva gjør den?
+  til `triforce(5, 300)`, hva gjør den?
 
 
 # Steg 8: Bobler {.activity}
@@ -430,7 +421,7 @@ vi det som tre trekanter sammen.
 ## Sjekkliste {.check}
 
 - [ ] Hvis du vil kan du tegne med sirkler istedenfor trekanter! Åpne en ny fil
-      og skriv inn følgende kode:
+  og skriv inn følgende kode:
 
   ```python
   from turtle import *
@@ -462,7 +453,7 @@ vi det som tre trekanter sammen.
   ```
 
 - [ ] Hva skjer? Hva ser det ut som? Vi har brukt `circle` kommandoen for å
-      tegne en sirkel på skjermen, som tar en radius.
+  tegne en sirkel på skjermen, som tar en radius.
 
 - [ ] Forsøk å endre sirkelens radius, bytt ut `circle(length/2)` med
-      `circle(length)`, dette tegner en større sirkel istedenfor.
+  `circle(length)`, dette tegner en større sirkel istedenfor.

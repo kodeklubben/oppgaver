@@ -1,7 +1,6 @@
 ---
-title: 'Hvor gammel er du?'
-level: 2
-author: 'Sindre O. Rasmussen, Kodeklubben Trondheim'
+title: Hvor gammel er du?
+author: Sindre O. Rasmussen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -25,6 +24,7 @@ riktig. Start ved å åpne en ny blank Python-fil.
 starte og slutte med `'` slik som `'denne teksten'`.
 
 **Eksempler:** Prøv dem ut og se hva som skjer.
+
 ```python
 print('Hei')
 print(2)
@@ -36,7 +36,7 @@ print('2+2')
 
 - [ ] Husk å ta bort eksemplene når du forsetter med oppgaven
 
-## Gjøre selv{.check}
+## Gjøre selv {.check}
 
 **Skriv ut teksten under. Den skal dekke 3 linjer.**
 
@@ -71,6 +71,7 @@ print(petter)
 print(variabel - et_tall)
 print(enda_et_tall)
 ```
+
 Husk å ta bort eksemplene når du forsetter med oppgaven
 
 ## Gjøre selv {.check}
@@ -83,7 +84,7 @@ Husk å ta bort eksemplene når du forsetter med oppgaven
   Date().getFullYear()</script>
 
 - [ ] Lag så en tredje variabel som skal inneholde alderen din. Hvordan kan du
-      regne ut alderen ved hjelp av variablene i steget over?
+  regne ut alderen ved hjelp av variablene i steget over?
 
 - [ ] Skriv ut teksten: `Jeg regnet ut at alderen din er:`
 
@@ -94,10 +95,11 @@ Husk å ta bort eksemplene når du forsetter med oppgaven
 
 **Hva:** Innputt er en måte vi kan hente tekst som skrives på tastaturet.
 
-**Hvordan:**
-Tekst hentes ved at du skriver: `input('Tekst som forteller hva en skal skrive')`
+**Hvordan:** Tekst hentes ved at du skriver: `input('Tekst som forteller hva en
+skal skrive')`
 
-Skal man hente inn et tall: `int(input('Tekst som forteller hva en skal skrive'))`
+Skal man hente inn et tall: `int(input('Tekst som forteller hva en skal
+skrive'))`
 
 **Eksempler:** Prøv dem ut og se hva som skjer
 
@@ -113,12 +115,12 @@ print(2+tall)
 **Du skal nå endre på koden som du skrev i del 2**.
 
 - [ ] Bruk `input()` slik at variabelen for året du er født lagres ved hjelp av
-      innputt når programmet kjøres.
+  innputt når programmet kjøres.
 
 - [ ] Test at det fungerer. Husk at året du skriver må være et tall, ikke tekst.
 
 
-# Del 4: If-setningen{.activity}
+# Del 4: If-setningen {.activity}
 
 **Hva:** En *if-setning* er en måte for å bestemme hva datamaskinen skal gjøre
 ved å sjekke om noe er sant (if* betyr *hvis* på engelsk). Dersom *if-setningen*
@@ -126,6 +128,7 @@ ikke er sann kan vi be datamaskinen gjøre noe annet, og vi bruker da *else* som
 er engelsk for *eller*.
 
 **Hvordan:**
+
 ```python
 if dette_er_sant:
     gjor_dette()
@@ -166,12 +169,12 @@ else:
 **Fortsett med koden fra del 3.**
 
 - [ ] Lag en ny variabel som tar inn tekst som innputt. Teksten som kommer opp
-      når programmet spør om innputt skal være `Stemmer det at du er så gammel?`
+  når programmet spør om innputt skal være `Stemmer det at du er så gammel?`
 
 - [ ] Skriv en *if-setning* som sjekker om teksten i variabelen er `ja`.
 
-- [ ] Hvis teksten er `ja`, skriv ut teksten: `Der ser du, jeg er kjempeflink i matematikk!`
+- [ ] Hvis teksten er `ja`, skriv ut teksten: `Der ser du, jeg er kjempeflink i
+  matematikk!`
 
 - [ ] Hvis teksten ikke er `ja`, mink aldervariabelen med 1 og skriv ut den
-      riktige alderen i lag med en forklarende tekst.
-
+  riktige alderen i lag med en forklarende tekst.

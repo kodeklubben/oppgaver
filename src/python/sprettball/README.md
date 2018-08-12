@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - PGZ - Sprettball
 author: Madeleine Lorås
-level: 4
 language: nb
 ---
 
@@ -13,7 +12,7 @@ Pygame og Pygame Zero.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, Programmering
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -24,26 +23,25 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon.
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon.
 
 - [ ] __Programmering, valgfag__: utvikle og feilsøke programmer som løser
-       definerte problemer, inkludert realfaglige problemstillinger og
-       kontrollering eller simulering av fysiske objekter.
+  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
+  eller simulering av fysiske objekter.
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-       kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-       koordinater til å beregne avstander parallelt med aksene i et
-       koordinatsystem.
+  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
+  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem.
 
 - [ ] __Matematikk, 10. trinn__: undersøke og beskrive egenskaper ved to- og
-       tredimensjonale figurer og bruke egenskapene i forbindelse med
-       konstruksjoner og beregninger.
+  tredimensjonale figurer og bruke egenskapene i forbindelse med konstruksjoner
+  og beregninger.
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke og forklare hensikten med bruken av klasser, objekter og
-      funksjoner.
+  funksjoner.
 
 - [ ] Elevene kan bruke matematiske begreper til å forklare ballens bevegelse.
 
@@ -59,7 +57,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Kjennskap til Python. Elevene burde ha gjort [Enkle
-       objekter](../enkle_objekter/enkle_objekter.html) først.
+  objekter](../enkle_objekter/enkle_objekter.html) først.
 
 - [ ] __Utstyr__: Datamaskiner med Python installert.
 

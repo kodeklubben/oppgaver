@@ -1,8 +1,7 @@
 ---
-title: 'PGZ - Hangman'
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
-level: 4
+title: PGZ - Hangman
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -50,7 +49,6 @@ pgzrun hangman.py
 skal du få opp eit vindauge som ser slik ut:
 
 ![Bilete av ein svart blank skjerm](./hangman_blank_screen.png)
-
 
 ## Feilsøking {.tip}
 
@@ -108,7 +106,7 @@ No skal du skrive kode i funksjonen. Dette må du gjere:
   **Hint:** `s.join(lst)`
 
 - [ ] Byt ut kvar bokstav som er i det nye ordet vårt og i `remaining_letters`
-      med `_`, slik som i dømet over.
+  med `_`, slik som i dømet over.
 
   **Hint:** `s.replace()`
 
@@ -168,8 +166,7 @@ Dette må du gjere:
   - [ ] Bruk `enumerate()` og gå gjennom dei 26 fyrste bokstavane i
     `string.ascii_letters`, og legg til desse i `state["remaining_letters"]`.
 
-
-    **Hint:** Bruk `lst.append(elm)`
+  **Hint:** Bruk `lst.append(elm)`
 
 - [ ] For å lage verdien som høyrer til `"display_string"` må me bruke
   funksjonen me laga i [steg 1](#steg-1-lage-det-hemmelege-ordet). Kva to
