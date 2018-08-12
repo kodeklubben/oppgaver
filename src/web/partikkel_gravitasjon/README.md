@@ -28,46 +28,46 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjo
+  brukerinteraksjon
 
 - [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer,
   vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
-  for diss
+  for disse
 
 - [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
   kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsyste
+  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
 
 - [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres
-  funksjoner eller metoder med parameter
+  funksjoner eller metoder med parametere
 
 - [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle
   multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av
-  typene tekst, bilde, lyd, video og animasjone
+  typene tekst, bilde, lyd, video og animasjoner
 
 - [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i
-  multimedieapplikasjone
+  multimedieapplikasjoner
 
 - [ ] __Informasjonsteknologi 2, VG3__: programmere med valg og gjentakelser
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Eleven kan bruke grunnleggende prinsipper innenfor programmering til å
-  videreutvikle arbeid fra en tidligere oppgave
+  videreutvikle arbeid fra en tidligere oppgave.
 
 - [ ] Eleven kan bruke grunnleggende prinsipper innenfor programmering til å
-  flytte objekter i et koordinatsystem
+  flytte objekter i et koordinatsystem.
 
-- [ ] Eleven kan få et objekt i JavaScript til å falle med økende hastighet
+- [ ] Eleven kan få et objekt i JavaScript til å falle med økende hastighet.
 
 - [ ] Eleven kan lage restriksjoner for gravitasjon på et objekt slik at den
-  faller, men ikke i det uendelige
+  faller, men ikke i det uendelige.
 
 - [ ] Eleven kan bruke den hen har lært til å løse en oppgave med bare små hint.
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på
   oppgaven.
@@ -91,7 +91,7 @@ oppgaveteksten.](../partikkel_gravitasjon/partikkel_gravitasjon.html){target=_bl
 - [ ] Oppgaven er åpen og elevene blir kun bedt om å kjøre ting, uten at de får
   svaret. De får hint underveis, men ellers må de klare å tolke oppgaven og
   prøve seg. Dette kan være utfordrende for mange og det anbefales derfor å
-  jobbe to-og-to
+  jobbe to-og-to.
 
 - [ ] Viktig at elevene leser oppgaven nøye og hvis det er ting de lurer på, så
   kan de gå tilbake til

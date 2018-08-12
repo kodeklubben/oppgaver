@@ -467,10 +467,7 @@ mobiltelefonen din.
   ![Bilete av adressa til sida øvst i nettlesaren](adresse.png)
 
 - [ ] Adressa du treng å taste inn på mobilen er det som står *før*
-
-  ```
-  /edit?js,output
-  ```
+  '/edit?js,output'.
 
 - [ ] I dømet over er adressa `jsbin.com/dutebe`.
 
