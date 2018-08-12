@@ -1,7 +1,6 @@
 ---
-title: 'CSS: Layout'
-author: 'Lars Klingenberg'
-level: 4
+title: "CSS: Layout"
+author: Lars Klingenberg
 language: nb
 ---
 
@@ -13,7 +12,6 @@ innholdsfelt.
 
 I denne oppgaven forventer vi at du har vært gjennom HTML- og CSS-oppgavene så
 langt og/eller er kjent med `<div>`- og HTML5-taggene.
-
 
 ![Bilde av en nettside med meny og innholdsfelt](ressurser/screenshot_resultat.png)
 
@@ -28,7 +26,7 @@ bruke HTML5-tagger, så bruker vi det i denne oppgaven.
 - [ ] Åpne `index.html` i din favoritt teksteditor
 
 - [ ] Legg nå til bildet `header.jpg` innenfor taggen `<header>` (husk å legge
-      til `alt`-tekst)
+  til `alt`-tekst)
 
 <toggle>
   <strong>Hint</strong>
@@ -41,7 +39,6 @@ bruke HTML5-tagger, så bruker vi det i denne oppgaven.
    ```
   </hide>
 </toggle>
-
 
 Bildet er 1080 (bredde) × 250 (høyde) piksler (`pixels` eller `px) så vi velger
 derfor å bruke bredden til bilde som et mål på hvor bred siden vår skal være.
@@ -83,7 +80,6 @@ Siden vi nå har gjort `body` smalere (`1080px` bred) så kan vi nå bruke
 definerer hvor bred og høy `html`-en skal være, og det bør være hele nettlesern,
 altså `100%`:
 
-
 ```css
 html{
     height: 100%;
@@ -104,7 +100,6 @@ Det første vi må gjøre er å legge til lenker i menyen vår. Menyen vår skal
 i `<nav>`-taggen.
 
 - [ ] Lag en liste og legg til 3 liste elementer som skal ha hver sin link.
-
 
 <toggle>
   <strong>Hint</strong>
@@ -238,17 +233,16 @@ innenfor `<section>`-taggen.
 - [ ] Legg til en passende bakgrunnsfarge på `section`
 
 - [ ] Legg til en høyde på `section` slik at siden blir seendes større og mer
-      komplett ut
+  komplett ut
 
 - [ ] Legg til en passende farge på overskriften din
 
 - [ ] Bruk `padding` til å få flytte overskriften litt vekk fra kanten på
-      venstre side
+  venstre side
 
 - [ ] Gjør det samme du gjorde med overskriften, med paragrafen du har laget
 
 - [ ] Dersom du la inn et bilde, prøv å få det sentrert på siden
-
 
 <toggle>
   <strong>Hint</strong>
@@ -334,10 +328,10 @@ lage disse sidene. Jeg har brukt `side2.html` og `side3.html`. Du kan kalle dem
 hva du vil.
 
 - [ ] Kopier all kode fra `index.html` til 2 nye sider `side2.html` og
-      `side3.html`
+  `side3.html`.
 
 - [ ] Nå skal du endre overskriften og teksten i `side2.html` og `side3.html`
-      slik at du får 3 ulike sider
+  slik at du får 3 ulike sider
 
 - [ ] Sørg for at de 2 sidene ligger i `nav` på alle sidene
 
@@ -354,24 +348,26 @@ __Eksempel:__
 ```
 
 - [ ] Prøv å trykk deg til hver av sidene for å teste om lenkene fungerer.
-      Fungerer de? Hvis ikke må du sjekke at alle filene ligger i samme mappe og
-      er skrevet riktig.
+  Fungerer de? Hvis ikke må du sjekke at alle filene ligger i samme mappe og er
+  skrevet riktig.
 
 __TADA! Du har nå laget en flott nettside som du kan bygge videre på!__
 
 ## Ting å jobbe videre med {.challenge}
 
 - [ ] Bruk
+
       [w3schools.com/css/css_link.asp](http://www.w3schools.com/css/css_link.asp)
+
       til å legge til forandring på linkene når du holder over dem
 
 - [ ] Legg til enda en side for eksempel "Mitt favorittspill". Skriv om det,
-      legg til bilder og videoer som er relatert til spillet.
+  legg til bilder og videoer som er relatert til spillet.
 
 - [ ] Legg teksten på siden i en `div`-er og sett forskjellig stil på dem
 
 - [ ] Del inn `section` slik at du kan få forskjellige deler på siden, hent
-      gjerne inspirasjon fra internett. Feks: [vg.no](http://vg.no)
+  gjerne inspirasjon fra internett. Feks: [vg.no](http://vg.no)
 
 
 # Eksempel på kode for nettsiden {.activity}

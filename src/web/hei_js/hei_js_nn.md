@@ -1,8 +1,7 @@
 ---
-title: 'JS: Hei, JavaScript!'
-level: 1
-author: 'Arve Seljebu'
-translator: 'Stein Olav Romslo'
+title: "JS: Hei, JavaScript!"
+author: Arve Seljebu
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -20,8 +19,9 @@ klassiske oppgåva *Hallo, verda* med ein katt.
 Du skal bruke ei nettside som heiter *JS Bin* for å løyse denne oppgåva. JS Bin
 er ei nettside som let deg programmere JavaScript. Me kunne ha brukt nettlesaren
 din direkte, men i JS Bin blir stega like for alle, uavhengig av om du brukar
-Microsoft Edge, Mozilla Firefox, Chrome, Opera, Safari eller ein annan nettlesar. I
-tillegg er det mogleg å gjere denne oppgåva på eit nettbrett ved å bruke JS Bin.
+Microsoft Edge, Mozilla Firefox, Chrome, Opera, Safari eller ein annan
+nettlesar. I tillegg er det mogleg å gjere denne oppgåva på eit nettbrett ved å
+bruke JS Bin.
 
 ## Tips {.tip}
 
@@ -220,7 +220,7 @@ venene dine? La oss lage ei personleg helsing til kvar av dei!
   programmet ditt.
 
   **Versjon 9:** <img height="25" src="versjon.png" alt="Skjermbilete som viser
-    at me har versjon 9">
+  at me har versjon 9">
 
   Kvar gong du endrar programmet og trykkar `ctrl + S` får programmet ein ny
   versjon. Slik kan du lage fleire variantar av same program, med ulike namn.
@@ -312,7 +312,7 @@ gjere det.
 - [ ] **Chrome og Firefox:** Trykk på knappen **F12**. Vel **Console**.
 
 - [ ] **Internet Explorer og Microsoft Edge:** Trykk på knappen **F12**. Vel
-      **Konsoll**.
+  **Konsoll**.
 
 - [ ] I konsollen skal du sjå katten mjaue til deg.
 

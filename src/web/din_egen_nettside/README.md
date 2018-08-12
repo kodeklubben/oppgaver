@@ -1,7 +1,6 @@
 ---
-title: "Lærerveiledning - Lag din egen nettside"
+title: Lærerveiledning - Lag din egen nettside
 author: Lars Klingenberg
-level: 4
 language: nb
 ---
 
@@ -13,7 +12,7 @@ lært hittil.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1 og 2
+__Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1 og 2
 
 __Anbefalte trinn__: 8. trinn - VG3
 
@@ -24,35 +23,35 @@ __Tidsbruk__: Dobbeltime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-       ett er tekstbasert.
+  ett er tekstbasert.
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon.
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon.
 
 - [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-      vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet
-      og design.
+  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
+  design.
 
 - [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av
-      standardiserte oppmerkingsspråk
+  standardiserte oppmerkingsspråk
 
 - [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for
-      nettsteder
+  nettsteder
 
 - [ ] __Informasjonsteknologi 1, VG2__: planlegge nettsteder som inneholder
-      multimediekomponenter
+  multimediekomponenter
 
 - [ ] __Informasjonsteknologi 1, VG2__: utvikle nettsteder i henhold til planer
-og vurdere om krav til brukergrensesnitt er oppfylt sette opp krav til og
-vurdere nettsteder
+  og vurdere om krav til brukergrensesnitt er oppfylt sette opp krav til og
+  vurdere nettsteder
 
 - [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle
-      multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer
-      av typene tekst, bilde, lyd, video og animasjoner
+  multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av
+  typene tekst, bilde, lyd, video og animasjoner
 
 - [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i
-      multimedieapplikasjoner
+  multimedieapplikasjoner
 
 ## Forslag til læringsmål {.challenge}
 
@@ -67,7 +66,7 @@ vurdere nettsteder
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven
 
 - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -87,9 +86,8 @@ oppgaven enda.
 ## Variasjoner {.challenge}
 
 - [ ] Denne oppgaven kan knyttes opp til skriftlige fag som norsk, engelsk eller
-      fremmedspråk ved å for eksempel programmere en blogg.
+  fremmedspråk ved å for eksempel programmere en blogg.
 
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser ...
-

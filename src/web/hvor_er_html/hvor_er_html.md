@@ -1,7 +1,6 @@
 ---
-title: 'Hvor er HTML? Jeg ser den ikke!'
-level: 1
-author: 'Teodor Heggelund'
+title: "Hvor er HTML? Jeg ser den ikke!"
+author: Teodor Heggelund
 language: nb
 ---
 
@@ -23,10 +22,11 @@ nettleseren! La oss ta en titt.
 
 ## Aktiviteter {.check}
 
-- [ ] Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller
-  Firefox
+- [ ] Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome
+  eller Firefox
 
-- [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
+- [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect`
+  (engelsk).
 
   ![Bilde av kodeklubbens nettsider med katten høyreklikket](inspiser_katten.png)
 
@@ -86,8 +86,8 @@ blir alt som det var. Prøv!
 Jeg er glad i Minecraft. Men Minecraft er ikke først i listen over kurs! La oss
 gjøre noe med det. Vi fjerner alt som er foran!
 
-- [ ] Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern elementet
-  med tasten `delete` på tastaturet!
+- [ ] Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern
+  elementet med tasten `delete` på tastaturet!
 
   ![Bilde av kodeklubbens nettsiden uten katten!](katten_er_borte.png)
 
@@ -127,8 +127,9 @@ gjøre noe med det. Vi fjerner alt som er foran!
   La oss fjerne litt mer.
 
 - [ ] Fjern elementet som inneholder alle kursene:
+
   ```html
-  <div class="courses">
+  <div class="courses"> ... </div>
   ```
 
   ![Bildet av at elementet som inneholder alle kursene er markert](class_courses.png)
@@ -147,7 +148,8 @@ gjøre noe med det. Vi fjerner alt som er foran!
 
 - [ ] Finn elementet som er den usynlige boksen rundt slangen. Fjern det!
 
-- [ ] Gjør det samme for `Lego Mindstorms`, `Web`, `App Inventor` og `CodeStudio`.
+- [ ] Gjør det samme for `Lego Mindstorms`, `Web`, `App Inventor` og
+  `CodeStudio`.
 
   ![Bilde av at bare fire elementer gjenstår på kodeklubbens nettsider](minecraft_yay.png)
 
@@ -174,7 +176,8 @@ på **alle kursene**!
 
 ## Aktiviteter {.check}
 
-- [ ] Finn et bilde du liker på internett. Hent bildeadressen ved høyreklikke på bildet:
+- [ ] Finn et bilde du liker på internett. Hent bildeadressen ved høyreklikke på
+  bildet:
 
   ![Bilde av hvordan finne bildeadressen til et bilde på internett](bildeadresse.png)
 

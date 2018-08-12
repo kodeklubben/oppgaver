@@ -1,7 +1,6 @@
 ---
-title: 'HTML: Del inn nettsiden'
-author: 'Lars Klingenberg'
-level: 3
+title: "HTML: Del inn nettsiden"
+author: Lars Klingenberg
 language: nb
 ---
 
@@ -38,12 +37,12 @@ oppgaven. La oss se på et eksempel:
 - [ ] Gå inn på [kidsakoder.no](https://kidsakoder.no).
 
 - [ ] Trykk på `X-Ray Goggles` eller bruk utviklerverktøy (Chrome: Visning ->
-      Utvikler -> Utviklingsverktøy, Firefox: bruk [X-Ray
-      Goggles](https://goggles.mozilla.org/)
+  Utvikler -> Utviklingsverktøy, Firefox: bruk [X-Ray
+  Goggles](https://goggles.mozilla.org/)
 
 - [ ] Trykk på symbolet helt øverst til venstre i utviklervindu og holder over
-      forskjellige elementer på siden. Se på koden i utviklervindu, ser du at
-      det er mange `<div>`-tagger
+  forskjellige elementer på siden. Se på koden i utviklervindu, ser du at det er
+  mange `<div>`-tagger
 
 - [ ] Trykk på de forskjellige og se hvor på siden du finner dem
 
@@ -56,7 +55,6 @@ venstre. I utviklervindu ser vi flere `<div>`-tagger inne i hverandre. Disse
 skal vi lære mer om.
 
 ![Bilde av kodeklubbens nettsider med utviklingsverktøyet til Chrome til høyre](ressurser/html_del_inn_4.png)
-
 
 Som du ser er `<div>`-taggen brukt til å organisere elementer eller ting på
 nettsiden. Legg også merke til at alle `<div>`-taggene har en `ID`. Dette er for
@@ -80,7 +78,7 @@ nettside slik ut:
   <body>
   </body>
  </html>
- ```
+```
 
 Husker du også at vi kan legge til metadata i `<head>` for å blant annet få
 tittel på nettsiden vår?
@@ -91,10 +89,10 @@ Når vi skal lage en `<div>` på siden vår må vi legge denne inne i
 `<body>`-taggen vår.
 
 - [ ] Lage en `<div>`. Denne skal holde styr på det som er øverst på siden vår.
-      Denne kalles ofte for en header (det er ikke det samme som `<head>`).
+  Denne kalles ofte for en header (det er ikke det samme som `<head>`).
 
 - [ ] Studer kidsakoder.no med utviklingsverktøyet og se om du finner
-      `<header>`-taggen eller en `<div>` med `ID` som inneholder *header*.
+  `<header>`-taggen eller en `<div>` med `ID` som inneholder *header*.
 
 Fant du det? Det er en sånn vi prøver å lage, bare at vi skal forenkle det litt.
 
@@ -117,14 +115,15 @@ Fant du det? Det er en sånn vi prøver å lage, bare at vi skal forenkle det li
     </body>
   </html>
   ```
+
   </hide>
 </toggle>
 
 - [ ] La oss lage en `<div>` som skal holde styr på navigasjonsmenyen vår. Legg
-      denne under der den andre `<div>`-en ble avsluttet
+  denne under der den andre `<div>`-en ble avsluttet
 
 - [ ] La oss nå lage en liste med 3 elementer som skal være menyen vår. Du
-      velger selv hva som skal være med i listen.
+  velger selv hva som skal være med i listen.
 
 <toggle>
 <strong>Hint</strong>
@@ -136,14 +135,14 @@ Fant du det? Det er en sånn vi prøver å lage, bare at vi skal forenkle det li
          <li> Mine hobbyer </li>
          <li> Om meg </li>
        </ul>
-
   ```
+
 </hide>
 </toggle>
 
 - [ ] Lage en ny `<div>` som skal ha innholdet på siden vår. Inni den kan vi
-      skrive en overskrift og legge til litt tekst. Gjerne også et bilde hvis du
-      vil det.
+  skrive en overskrift og legge til litt tekst. Gjerne også et bilde hvis du vil
+  det.
 
 <toggle>
 <strong>Se koden så langt</strong>
@@ -191,7 +190,7 @@ vi attributtet `style=””`. I `style` kan vi legge til variabler som for ekse
 ```
 
 - [ ] Prøv å legge til forskjellig farge på hver av `<div>`-ene og se hva som
-      skjer.
+  skjer.
 
 <toggle>
 <strong>Se et eksempel</strong>
@@ -249,7 +248,6 @@ ID lages ved å legge til attributte `id=””` som attributt i `<div>`-taggen.
   </hide>
 </toggle>
 
-
 Nå som vi har laget IDer på `<div>`-ene våre skal vi prøve ut en ny måte å lage
 CSS på.
 
@@ -267,7 +265,7 @@ selector {
 ```
 
 - [ ] Kan du finne knappene for ‘{‘ og ‘}’ på ditt tastatur? Hva med ‘:’ og ‘;’
-      ? Disse trenger vi får å skrive __CSS__
+  ? Disse trenger vi får å skrive __CSS__
 
 `Selektorer` er som regel HTML-tagger som `h1`, `p`, `img`, `a`. Men de kan også
 være IDer og klasser, som vi vil lære om senere.
@@ -289,7 +287,7 @@ Under ser du hvordan du kan legge til CSS i `<head>`-taggen med 3 IDer:
 
     #nav{
 
-    }  
+    }
 
     #innhold{
 
@@ -319,11 +317,11 @@ og/eller bokstaver. Siden det tar veldig lang tid å prøve ut alle
 kombinasjonene, så bruker vi litt hjelp for å finne de fargene vi vil ha:
 
 - [ ] Gå inn på [paletton.com](http://paletton.com) eller
-      [colorpicker.com](http://colorpicker.com) og velg og vrak i masse
-      forskjellige farger
+  [colorpicker.com](http://colorpicker.com) og velg og vrak i masse forskjellige
+  farger
 
 - [ ] Erstatt de fargene du har med noen andre du liker ved å bruke `#` foran de
-      6 tall/bokstavene. Eksempel: `#338F33` gir en ganske fin grønnfarge.
+  6 tall/bokstavene. Eksempel: `#338F33` gir en ganske fin grønnfarge.
 
 <toggle>
 <strong>Se koden så langt</strong>
@@ -339,10 +337,10 @@ kombinasjonene, så bruker vi litt hjelp for å finne de fargene vi vil ha:
 
 Vi skal se enda mer på CSS etter vi har lært litt mer HTML.
 
-## Utfordring {.challenge
+## Utfordring {.challenge}
 
-- [ ] Gå inn på [w3schools.com/css](https://w3schools.com/css) og se om du finner
-      en flere “properties” du kan endre på.
+- [ ] Gå inn på [w3schools.com/css](https://w3schools.com/css) og se om du
+  finner en flere “properties” du kan endre på.
 
 
 # Steg 6: HTML5-tagger {.activity}
@@ -369,6 +367,7 @@ siden og se hva det står nederst.
 denne taggen
 
 Du kan lese om flere her:
+
 [https://www.w3schools.com/html/html5_new_elements.asp](https://www.w3schools.com/html/html5_new_elements.asp)
 
 Disse taggene gjør det enklere for nettleseren å lese hva innholdet på siden er.
@@ -400,7 +399,6 @@ Nå vil `<body>`-en se noe sånt ut:
        <p> Denne siden inneholder informasjon om meg, hvem jeg er og mine hobbyer.</p>
      </section>
     </body>
-
 ```
 
 - [ ] Lagre og kjør og se om du får opp akkurat det samme. Forsvant fargene? For
@@ -433,7 +431,7 @@ CSS-en bør se noe sånt ut: (Merk at jeg har sikkert andre farger enn deg)
 ```
 
 - [ ] Legg til farge på bakgrunnen for hele siden ved å legge til CSS på
-      `<body>`-taggen. Velg farge selv.
+  `<body>`-taggen. Velg farge selv.
 
 Nå vil koden se noe sånt ut:
 

@@ -2,7 +2,6 @@
 title: "Lærerveiledning - CSS: Endre utseende og stil på tekst"
 author: Lars Klingenberg
 language: nb
-level: 2
 ---
 
 
@@ -20,7 +19,7 @@ nettsider](../style_nettsider/style_nettsider.html).
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1
+__Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1
 
 __Anbefalte trinn__: 8. trinn - VG2
 
@@ -31,40 +30,40 @@ __Tidsbruk__: Enkelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-       ett er tekstbaser
+  ett er tekstbasert
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjo
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 - [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-      vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet
-      og desig
+  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
+  design
 
 - [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av
-      standardiserte oppmerkingsspråk
+  standardiserte oppmerkingsspråk
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Elevene kan forskjellen på font-typene _sans serif_ og _serif
+- [ ] Elevene kan forskjellen på font-typene _sans serif_ og _serif_
 
-- [ ] Elevene kan legge til ramme på et bilde ved hjelp av CS
+- [ ] Elevene kan legge til ramme på et bilde ved hjelp av CSS
 
-- [ ] Elevene kan forskjellen på _id_ og _klasser_ i HTML og CS
+- [ ] Elevene kan forskjellen på _id_ og _klasser_ i HTML og CSS
 
 - [ ] Elevene kan bruke CSS til å sette stil på tekst
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Eleven oppnår måloppnåelse ved å fullføre oppgaven
+- [ ] Eleven oppnår måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på
-       oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: God kjennskap til HTML og gjort [CSS: Style
-       nettsider](../style_nettsider/style_nettsider.html){target=_blank}.
+  nettsider](../style_nettsider/style_nettsider.html){target=_blank}.
 
 - [ ] __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy
 
@@ -83,9 +82,8 @@ oppgaveteksten.](../tekststil/tekststil.html){target=_blank}
 # Steg 3: ID og klasser {.activity}
 
 - [ ] Det kan være litt vanskelig å huske på forskjellen mellom ID og klasser,
-      derfor kan det være lurt å repetere dette flere ganger i løpet av timen.
+  derfor kan det være lurt å repetere dette flere ganger i løpet av timen.
 
 ## Variasjoner {.challenge}
 
 - [ ] La elevene gå tilbake til tidligere arbeid og legge til _id_ og _klasser_.
-

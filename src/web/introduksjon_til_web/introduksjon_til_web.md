@@ -1,8 +1,7 @@
 ---
-title: 'HTML: Introduksjon til Web'
-level: 1
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Arve Seljebu'
+title: "HTML: Introduksjon til Web"
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Arve Seljebu
 language: nb
 ---
 
@@ -30,7 +29,8 @@ du ikke får pakket ut filen, kan du laste ned programmet
 ## Aktiviteter {.check}
 
 - [ ] Åpne en **teksteditor**, for eksempel teksteditoren
-      [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller
+  [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller
+
       [NotePad++](https://notepad-plus-plus.org/)
 
 - [ ] Lag et nytt dokument
@@ -40,7 +40,7 @@ du ikke får pakket ut filen, kan du laste ned programmet
 - [ ] Lagre filen til filnavnet `hei.txt`
 
 - [ ] Finn filen din i filbehandleren og åpne den. Den åpnes i et tekstprogram,
-      og det er jo ikke så gøy
+  og det er jo ikke så gøy
 
 - [ ] Lagre nå filen på nytt til filnavnet `fil.html` med *Lagre som*
 
@@ -104,18 +104,17 @@ mellom taggene vil bli synlig som en link.
 ## Aktiviteter {.check}
 
 - [ ] Installer **X-Ray Goggles** ved å trekke linken <a
-      href="javascript:(function () {var
-      script=document.createElement('script');script.src='https://goggles.mozilla.org'+'/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.mozilla.org');document.body.appendChild(script);}())">X-Ray
-      Goggles</a> til din bokmerkerad
+  href="javascript:(function () {var
+  script=document.createElement('script');script.src='https://goggles.mozilla.org'+'/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.mozilla.org');document.body.appendChild(script);}())">X-Ray
+  Goggles</a> til din bokmerkerad
 
 - [ ] Åpne filen `side.html` fra [internett.zip](internett.zip)
 
 - [ ] Trykk på *X-Ray Goggles* fra bokmerkeraden din. Om ingenting skjer, spør
-      en CodeMaster/veileder om hjelp til å bruke utviklerverktøyet i din
-      nettleser
+  en CodeMaster/veileder om hjelp til å bruke utviklerverktøyet i din nettleser
 
 - [ ] Beveg musen rundt på siden. Da kan du se deler av siden lyse opp og se
-      hvilke tagger delene er laget av
+  hvilke tagger delene er laget av
 
 - [ ] Trykk på noe for å se kodesnutten det er laget av
 
@@ -169,22 +168,22 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 - [ ] Åpne filen `side.html` i teksteditoren din
 
 - [ ] Legg merke til hvordan tagger kan stå på innsiden av andre tagger. Vi har
-      `<a>`-taggen, som er inni `<p>`-taggen, som igjen er inni `<div>`, som er
-      plassert i `<body>`. Når en tagg er på innsiden av en annen sier vi at
-      taggen som er inni er **barnet** og taggen som er rundt er **forelder**.
-      Det er nesten som et slektstre
+  `<a>`-taggen, som er inni `<p>`-taggen, som igjen er inni `<div>`, som er
+  plassert i `<body>`. Når en tagg er på innsiden av en annen sier vi at taggen
+  som er inni er **barnet** og taggen som er rundt er **forelder**. Det er
+  nesten som et slektstre
 
 - [ ] For nettleseren er tagger av samme type like, men du kan skille de fra
-      hverandre ved å bruke klasser. For eksempel kan noen paragrafer være
-      introduksjoner, og da kan vi bruke klassen `introduksjon` for å skille
-      disse paragrafene fra andre paragrafer. Finn taggene som har klasser i
-      filen `side.html`
+  hverandre ved å bruke klasser. For eksempel kan noen paragrafer være
+  introduksjoner, og da kan vi bruke klassen `introduksjon` for å skille disse
+  paragrafene fra andre paragrafer. Finn taggene som har klasser i filen `
+  side.html `.
 
 - [ ] ID-er brukes for å markere unike elementer på siden din. Finn `div`-taggen
-      som har `id="kattunge"`
+  som har `id="kattunge"`
 
 - [ ] Hva skjer hvis du flytter ting rundt? Finn en `<ol>` tagg i koden og velg
-      den og alt som er inni den, slik som dette:
+  den og alt som er inni den, slik som dette:
 
   ```html
   <ol>
@@ -200,23 +199,23 @@ Det finnes også noen tagger som vi alltid må ha med i HTML dokumenter:
 - [ ] Lagre siden og åpne den i nettleseren
 
 - [ ] Hvordan påvirker rekkefølgen av koden rekkefølgen på det som vises i
-      nettleseren?
+  nettleseren?
 
 ## Ting du kan prøve {.challenge}
 
 - [ ] Lag din egen paragraf med tekst
 
 - [ ] Lag en link som peker til en annen del av siden. **Hint:** Det har noe med
-      ID å gjøre, se etter en link som peker til katten
+  ID å gjøre, se etter en link som peker til katten
 
 - [ ] Legg til dine egne overskrifter der du syns de kan passe. Hva skjer hvis
-      du endrer tallet i overskrift-taggen, for eksempel fra `<h3>` til `<h4>`
+  du endrer tallet i overskrift-taggen, for eksempel fra `<h3>` til `<h4>`
 
 - [ ] Hva må du gjøre for å linke til en annen side
 
 - [ ] Bruk utviklerverktøyet og dobbeltklikk på kode som ser interessant ut.
-      Endre koden. Du får da en forhåndsvisning på hva som skjer, uten at du
-      trenger å bytte mellom nettleseren og teksteditor. Kult, ikke sant?
-      Oppdater siden. Hva skjedde? Når du redigerer kode på denne måten blir det
-      ikke lagret, så du kan teste hva som skjer uten å ødelegge filen. Sånn kan
-      du eksperimentere masse, men alltid ha muligheten til å gå tilbake.
+  Endre koden. Du får da en forhåndsvisning på hva som skjer, uten at du trenger
+  å bytte mellom nettleseren og teksteditor. Kult, ikke sant? Oppdater siden.
+  Hva skjedde? Når du redigerer kode på denne måten blir det ikke lagret, så du
+  kan teste hva som skjer uten å ødelegge filen. Sånn kan du eksperimentere
+  masse, men alltid ha muligheten til å gå tilbake.

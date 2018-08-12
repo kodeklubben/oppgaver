@@ -1,7 +1,6 @@
 ---
-title: 'HTML: Publiser nettsiden din'
-author: 'Lars Klingenberg'
-level: 3
+title: "HTML: Publiser nettsiden din"
+author: Lars Klingenberg
 language: nb
 ---
 
@@ -46,10 +45,10 @@ dele med alle som driver med programmering i verden. Vi skal nå lage en
 Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 
 - [ ] Logg inn på [Github.com](http://github.com) med den nye brukeren din, hvis
-      du ikke allerede er logget inn
+  du ikke allerede er logget inn
 
 - [ ] Trykk på `New repository` (Grønn knapp til høyre eller `+` øverst i høyre
-      hjørne rett ved siden av probilbildet ditt, se bilde under)
+  hjørne rett ved siden av probilbildet ditt, se bilde under)
 
   <img src="ressurser/nytt_repo.png" alt="bilde av hvordan opprette repository" alt="repo">
 
@@ -61,7 +60,7 @@ Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 - [ ] Du kan gjerne skrive en beskrivelse av nettsiden under `Description
 
 - [ ] Velg enten `Public`(alle kan se koden din) eller `Private`(koden til
-      nettsiden blir privat). Vi har valgt `Public`
+  nettsiden blir privat). Vi har valgt `Public`
 
 - [ ] Trykk `Create repository`(Lag oppbevaringssted).
 
@@ -82,16 +81,16 @@ Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 - [ ] Du vil få spørsmål om å laste ned Github-programmet, takk ja til det.
 
 - [ ] Trykk `Tillat` på eventuelle ting som dukker opp når `Github`-programmet
-      åpner seg:
+  åpner seg:
 
   <img src="ressurser/tillat.png" alt="Bilde av tillatelsesboks for GitHub">
 
 - [ ] Hvis du får spørsmål om å logge inn så logger du bare inn med
-      `Github`-brukeren du lagde i sted
+  `Github`-brukeren du lagde i sted
 
 - [ ] Du får nå spørsmål om å legge mappen `ditt-brukernavn.github.io` et sted
-      lokalt på datamaskinen, legg det et passende sted hvor du finner det
-      igjen. For eksempel på `Skrivebordet` eller i `Mine dokumenter`.
+  lokalt på datamaskinen, legg det et passende sted hvor du finner det igjen.
+  For eksempel på `Skrivebordet` eller i `Mine dokumenter`.
 
   For å ikke ødelegge det vi har på `kodeklubben.github.io` skal jeg videre vise
   med brukeren `larsfk.github.io`.
@@ -101,27 +100,27 @@ Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
   Da er det på tide å laste opp hjemmesidens første fil!
 
 - [ ] Åpne mappen `ditt-brukernavn.github.io`. Min heter `larsfk.github.io` og
-      ligger på `Skrivebordet`.
+  ligger på `Skrivebordet`.
 
   <img src="ressurser/skrivebord.png" alt="Bilde av GitHub mappen på skrivebordet" width="100%">
 
 - [ ] Åpne din favoritt `teksteditor` (Atom, NodePad, Brackets IO, NodePad++)
 
 - [ ] Lag `index.html` og lagre den i mappen `ditt-brukernavn.github.io`. Dette
-      skal være startsiden til nettsiden vår.
+  skal være startsiden til nettsiden vår.
 
   <img src="ressurser/innhold.png" alt="Bilde av filen index.htm i GitHub mappen" width="100%">
 
 - [ ] Skriv noe `HTML` i `index.html`. Du kan gjerne kopiere en av oppgavene du
-      allerede har laget. Hvis du ikke vet hva du skal skrive kan du for
-      eksempel skrive noe sånt:
+  allerede har laget. Hvis du ikke vet hva du skal skrive kan du for eksempel
+  skrive noe sånt:
 
   ```html
-  <DOCTYPE html>
+  <!DOCTYPE html>
   <html>
       <body>
           <h1>Min første hjemmeside!</h1>
-          <p>Denne hjemmesiden er laget med Git Pages.<p>
+          <p>Denne hjemmesiden er laget med Git Pages.</p>
       </body>
   </html>
   ```
@@ -175,8 +174,9 @@ lenken `ditt-brukernavn.github.io`.
 GitHub er et stort tema og kan være litt komplisert og vrient i starten, men jeg
 hvis du vil lære mer sjekk ut tipsene under:
 
- - Les mer om GitHub her:
+- Les mer om GitHub her:
+
   [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
 
- - Søk på `GitHub Tutorials` på [YouTube](http://youtube.com) F.eks: [GitHub for
+- Søk på `GitHub Tutorials` på [YouTube](http://youtube.com) F.eks: [GitHub for
   noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY)
