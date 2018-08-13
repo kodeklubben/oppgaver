@@ -1,8 +1,7 @@
 ---
 title: Lysintensitet
-level: 4
-author: 'Oversatt frra [Espen Clausen nettside](https://espenec.files.wordpress.com/2015/09/lego-mindstorms-del-4-1.pdf)'
-translator: 'Øistein Søvik'
+author: "Oversatt frra [Espen Clausen nettside](https://espenec.files.wordpress.com/2015/09/lego-mindstorms-del-4-1.pdf)"
+translator: Øistein Søvik
 language: nb
 ---
 
@@ -24,39 +23,39 @@ linjene på bordet.
 I disse oppgavene skal vi konstruere og programmere roboten for å finne de ulike
 fargene den kan lese, og se hvordan den skiller mellom hvit og svart.
 
-#  Lysintensitet {.activity}
+
+# Lysintensitet {.activity}
 
 ## Fremgangsmåte {.check}
 
 - [ ] Konstruer roboten på en slik måte at lys- og fargesensor blir passert
-      foran på roboten. Den skal peke nedover mot bordet. Det er viktig at den
-      ligger tett på bakken, men ikke for tett for da vil alt bli svart. En ½ cm
-      fra bordet er OK avstand.
+  foran på roboten. Den skal peke nedover mot bordet. Det er viktig at den
+  ligger tett på bakken, men ikke for tett for da vil alt bli svart. En ½ cm fra
+  bordet er OK avstand.
 
 - [ ] Koble lys- og fargesensoren til EV3 roboten ved hjelp av en kabel. Kabelen
-      skal kobles til en av portene merket med 1-4.
+  skal kobles til en av portene merket med 1-4.
 
 - [ ] Åpne programmeringsverktøyet.
-      
+
 - [ ] Koble roboten til datamaskinen og sjekk at lys og fargesensor er koblet
-      til nede til høyre.
+  til nede til høyre.
 
 ![Bilde av hvordan en sjekker at lys og fargesensor er koblet
 til](lego_mindstorms_lysintensitet_2.png)
 
 - [ ] Ved å klikke på sensoren i programmet kan en endre mellom lysintensitet og
-      farge. Velg lysintensitet.
+  farge. Velg lysintensitet.
 
 - [ ] Vi skal finne forskjellen på hvit og svart. På forhånd kan du tenke ut.
-      Intensiteten måles mellom 0 og 100.
+  Intensiteten måles mellom 0 og 100.
 
 - [ ] Hvilken lysintensitet tror du svart gir? Hvilken lysintensitet gir hvitt?
-      
+
 - [ ] Sett roboten og lyssensoren på et hvitt papir. Hvilken lysintensitet gir
-      hvitt?
+  hvitt?
 
-- [ ] Sett roboten og lyssensoren på et svart papir. Hvilken lysintensitet gir svart?
+- [ ] Sett roboten og lyssensoren på et svart papir. Hvilken lysintensitet gir
+  svart?
+
       10. Stemte det du trodde?
-
-
- 
