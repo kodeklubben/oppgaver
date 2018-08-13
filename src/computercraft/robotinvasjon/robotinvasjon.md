@@ -1,7 +1,6 @@
 ---
 title: Robotinvasjon
-level: 1
-author: 'Geir Arne Hjelle'
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -73,8 +72,8 @@ Dette vil starte kommandolinjen til roboten.
   igjen. I kommandolinjen står det nå en liten tekst som sier at du kan få
   roboten til å slutte å danse ved å trykke en knapp på tastaturet.
 
-  Hvis du vil kan du også la roboten fortsette å danse. Lag da en ny
-  robot som du kan bruke i de neste oppgavene.
+  Hvis du vil kan du også la roboten fortsette å danse. Lag da en ny robot som
+  du kan bruke i de neste oppgavene.
 
 
 # Steg 2: Roboter og skilpadder {.activity}
@@ -134,8 +133,8 @@ ComputerCraft Wiki'en: <http://computercraft.info/wiki/>.
 
 ## Sjekkliste {.check}
 
-- [ ] For å få vite mer om hvordan roboten kan flytte seg kan vi skrive
-  `help go`.
+- [ ] For å få vite mer om hvordan roboten kan flytte seg kan vi skrive `help
+  go`.
 
   Dette viser oss at vi kan bruke `go forward`, `go back`, `go up`, `go down`,
   `go left` og `go right` for å flytte roboten rundt. I tillegg ser vi at vi kan
@@ -155,14 +154,14 @@ ComputerCraft Wiki'en: <http://computercraft.info/wiki/>.
   forvirrende siden roboten ikke går noe sted, kan du bruke `turn left` og `turn
   right` i stedet.
 
-  Hva skjer dersom du ber roboten gå gjennom bakken, gjennom en
-  vegg, eller om du står i veien for roboten?
+  Hva skjer dersom du ber roboten gå gjennom bakken, gjennom en vegg, eller om
+  du står i veien for roboten?
 
 
 # Steg 3: Gruverobot {.activity}
 
-*Hvis vi gir roboter de riktige verktøyene kan de grave, bygge og
- slåss for oss.*
+*Hvis vi gir roboter de riktige verktøyene kan de grave, bygge og slåss for
+oss.*
 
 Vi skal nå bruke en gruverobot som kan grave for oss.
 
@@ -269,8 +268,7 @@ det at vi vil at robotene skal kunne for eksempel grave eller bygge.
 
 - [ ] Roboten kan også sjekke om den har noe foran seg: Skriv `turtle.detect()`.
 
-  Du skal få svaret `true` som betyr at roboten ser at den har noe
-  foran seg.
+  Du skal få svaret `true` som betyr at roboten ser at den har noe foran seg.
 
 - [ ] Prøv så `turtle.back()` etterfulgt av `turtle.detect()`.
 
@@ -306,14 +304,14 @@ Det samme fungerer ikke med `turtle`-biblioteket. I stedet må vi bruke løkker.
 
   ![Bilde av et høyt tårn](hoyt_tarn.png)
 
-Men oops! Vi glemte å fortelle roboten at den skulle komme ned når den
-blir ferdig med å bygge. Hvordan skal vi få tak i den igjen?
+Men oops! Vi glemte å fortelle roboten at den skulle komme ned når den blir
+ferdig med å bygge. Hvordan skal vi få tak i den igjen?
 
 
 # Steg 6: Bygg en trapp {.activity}
 
-*Kan vi skrive et program som kan hjelpe oss til å hente ned den
- forsvunne roboten?*
+*Kan vi skrive et program som kan hjelpe oss til å hente ned den forsvunne
+roboten?*
 
 Når vi skal gjøre ting som er litt kompliserte er det som regel enklere å skrive
 et program, i stedet for å bare gi enkeltkommandoer i Lua-tolkeren. La oss prøve
