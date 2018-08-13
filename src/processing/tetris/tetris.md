@@ -1,6 +1,5 @@
 ---
 title: Tetris
-level: 1
 author: Kine Gjerstad Eide
 language: nb
 ---
@@ -27,9 +26,10 @@ skriv koden på egenhånd ved hjelp av forklaringen først.
 ## Første gjøremål {.check}
 
 - [ ] La oss starte med å sette opp et vanlig vindu, dersom du ikke har åpna
-      Processing, så må du gjøre det nå.
+  Processing, så må du gjøre det nå.
 
-- [ ] Lagre programmet ditt, dette gjør du ved å velge `File` og deretter `Save As`.
+- [ ] Lagre programmet ditt, dette gjør du ved å velge `File` og deretter `Save
+  As`.
 
 Det anbefales at du gir koden din et navn som har noe med spillet å gjøre, slik
 at det er lett å finne igjen. Det er også lurt å lagre koden på et sted som er
@@ -134,8 +134,8 @@ skilles av kommategn.
 På samme måte som `size` så er det også en ferdigskrevet metode som kan bestemme
 bakgrunnsfarge. Denne heter `background` og trenger enten ett eller tre
 parametre for å fungere. Alle parameterne må være heltall, eller `int` som det
-heter når man programerer. Tallene som brukes i `background` må være mellom 0
-og 255. Tallene bestemmer hvor sterk lyspærene inni pc-skjermen skal lyse.
+heter når man programerer. Tallene som brukes i `background` må være mellom 0 og
+255. Tallene bestemmer hvor sterk lyspærene inni pc-skjermen skal lyse.
 
 ### Hvorfor heter  det int? {.protip}
 
@@ -167,7 +167,7 @@ Husk å avslutt linjen med semikolon. `background` skal slik som `size` også in
 ## Prøv selv {.check}
 
 - [ ] Test med å først bare ha ett tall inni parentesen og endre på tallet, hva
-      får du? Endre tallet minst 4 ganger og sjekk hvilken farge du får.
+  får du? Endre tallet minst 4 ganger og sjekk hvilken farge du får.
 
 - [ ] Få bakgrunnsfargen til å bli svart.
 
@@ -176,7 +176,7 @@ Husk å avslutt linjen med semikolon. `background` skal slik som `size` også in
 - [ ] Få bakgrunnsfargen til å bli hvit.
 
 - [ ] Prøv å sett inn tre forskjellige tall, og så endrer du på ett og ett av
-      disse, hva skjer?
+  disse, hva skjer?
 
 - [ ] Hvilken farge får du dersom alle parametrene til `background` er 0?
 
@@ -214,7 +214,7 @@ rect(275, 10, 50, 50);
 - [ ] Endre de forskjellige tallene slik at du finner ut hva de står for.
 
 - [ ] Endre plassering og størrelse til firkanten slik at den når fra toppen til
-      bunnen av vinduet ditt.
+  bunnen av vinduet ditt.
 
 - [ ] Tegn firkanten slik at den står midt i vinduet.
 
@@ -302,13 +302,13 @@ Prøv selv og sjekk at dette fungerer før du fortsetter med steg 7 under.
 ## Prøv selv {.check}
 
 - [ ] Bytt ut `20` med for eksempen `200` i `setup`-metoden der du skriver hva
-      `posisjonY` skal være. Hva skjer?
+  `posisjonY` skal være. Hva skjer?
 
 - [ ] Sett `posisjonY` til tallet som får firkanten til å bli plassert helt på
-      bunn av vinduet.
+  bunn av vinduet.
 
 - [ ] Plasser firkanten så langt opp at du bare ser bunnen av firkanten. Hint:
-      Du kan bruke negative tall.
+  Du kan bruke negative tall.
 
 Her er koden så langt.
 
@@ -343,10 +343,10 @@ Kjør programmet og sjekk at firkanten faller.
 - [ ] Hvorfor tror du det blir tegna en stripe over skjermen?
 
 - [ ] Hva skjer om du setter `+ 10` i stedet for `+ 1` når du endrer
-      `posisjonY`?
+  `posisjonY`?
 
 - [ ] La endringen i `posisjonY` være større en høyden på firkanten. Hva skjer
-      da?
+  da?
 
 - [ ] Finn en fart firkanten kan falle i som du synes er passelig.
 
@@ -365,11 +365,10 @@ Det er vanlig å kalle på `background` helt først i `draw` metoden.
 ## Prøv selv {.check}
 
 - [ ] Flytt kallet på `background` frem og tilbake fra `draw` til `setup` noen
-      ganger og vær sikker på at du forstår hva som skjer.
+  ganger og vær sikker på at du forstår hva som skjer.
 
 - [ ] Kall på `background` øverst i `draw`-metoden.
 
 Her er hele koden:
 
 ![Bilde av hele koden](steg6.png)
-

@@ -1,7 +1,6 @@
 ---
-title: 'Sprettende ball'
-level: 1
-author: 'Sigmund Hansen'
+title: Sprettende ball
+author: Sigmund Hansen
 language: nb
 ---
 
@@ -37,7 +36,8 @@ med Processing, så det er et fint sted å starte.
   }
   ```
 
-- [ ] Kjør programmet ved å trykke på pilen ![spill av pil](../play.png "spill av pil").
+- [ ] Kjør programmet ved å trykke på pilen ![spill av pil](../play.png "spill
+  av pil").
 
 - [ ] Lagre programmet som Ball ved å velge **File --> Save** i menyen.
 
@@ -46,21 +46,21 @@ med Processing, så det er et fint sted å starte.
 Her er en oversikt over hvordan man skriver tegn som ofte brukes i Processing og
 andre programmeringsspråk.
 
-| Tegn | Windows/Linux          | Mac                         |
-|:----:| ---------------------- | --------------------------- |
-| ;    | Shift + ,              | Shift + ,                   |
-| "    | Shift + 2              | Shift + 2                   |
-| \'   | \' (til høyre for Æ)   | \' (til venstre for 1)      |
-| \|   | \| (til venstre for 1) | Alt + 7                     |
-| \&   | Shift + 6              | Shift + 6                   |
-| +    | + (til høyre for 0)    | + (til høyre for 0)         |
-| -    | - (til høyre for .)    | - (til høyre for .)         |
-| *    | Shift + '              | Shift + @ (til høyre for Æ) |
-| /    | Shift + 7              | Shift + 7                   |
-| \[   | Alt Gr + 8             | Alt + 8                     |
-| \]   | Alt Gr + 9             | Alt + 9                     |
-| {    | Alt Gr + 7             | Shift + Alt + 8             |
-| }    | Alt Gr + 0             | Shift + Alt + 9             |
+| Tegn  | Windows/Linux          | Mac                           |
+| :---: | ---------------------- | ----------------------------- |
+|  `;`  | `shift + ,`            | `shift + ,`                   |
+|  `"`  | `shift + 2`            | `shift + 2`                   |
+| `\'`  | `\'` (til høyre for Æ) | `\'` (til venstre for 1)      |
+| `\|'  | `\|` (til venstre for 1)| `alt + 7`                    |
+| `\&`  | `shift + 6`            | `shift + 6`                   |
+|  `+`  | `+` (til høyre for 0)  | `+` (til høyre for 0)         |
+|  `-`  | `-` (til høyre for .)  | `-` (til høyre for .)         |
+|  `*`  | `shift + '`            | `shift + @` (til høyre for Æ) |
+|  `/`  | `shift + 7`            | `shift + 7`                   |
+| `\[`  | `alt gr + 8`           | `alt + 8`                     |
+| `\]`  | `alt gr + 9`           | `alt + 9`                     |
+|  `{`  | `alt gr + 7`           | `shift + alt + 8`             |
+|  `}`  | `alt gr + 0`           | `shift + alt + 9`             |
 
 ## Utforsking {.challenge}
 
@@ -149,6 +149,7 @@ begynner å tegne. La oss tegne en sirkel midt i vinduet.
   ```
 
 - [ ] La oss legge til en siste sirkel og kjøre programmet enda en gang:
+
   ```processing
   void draw() {
     background(0);
@@ -158,11 +159,10 @@ begynner å tegne. La oss tegne en sirkel midt i vinduet.
   }
   ```
 
-![Tre hvite sirkler på svart bakgrunn: en stor øverst
-til venstre, en middels stor midt i vinduet og en liten nederst til
-høyre](sirkel2.png "Tre hvite sirkler på svart bakgrunn: en stor øverst
-til venstre, en middels stor midt i vinduet og en liten nederst til
-høyre")
+![Tre hvite sirkler på svart bakgrunn: en stor øverst til venstre, en middels
+stor midt i vinduet og en liten nederst til høyre](sirkel2.png "Tre hvite
+sirkler på svart bakgrunn: en stor øverst til venstre, en middels stor midt i
+vinduet og en liten nederst til høyre")
 
 ## Forklaring av koden {.protip}
 
@@ -182,9 +182,9 @@ ellipse som er like høy som den er bred, er en sirkel, men ellipser kan også
 være bredere enn de er høye, eller høyere enn de er brede. Derfor heter
 funksjonen `ellipse` og ikke `circle`.
 
-![Tre hvite sirkler på svart bakgrunn med piler som
- viser X- og Y-aksen.](sirkel3.png "Tre hvite sirkler på svart bakgrunn med piler som
- viser X- og Y-aksen.")
+![Tre hvite sirkler på svart bakgrunn med piler som viser X- og
+Y-aksen.](sirkel3.png "Tre hvite sirkler på svart bakgrunn med piler som viser
+X- og Y-aksen.")
 
 I bildet ovenfor vises også området utenfor bilderammen og to piler **X** og
 **Y**.
@@ -224,9 +224,9 @@ derfor det heter variabel: *verdien kan variere*.
   Legg merke til at to av sirkelene har "flyttet" på seg. De er ikke i midten og
   høyre bunn av vinduet.
 
-  ![De tre hvite sirklene er nå vist på en svart
-   bilderamme som er større enn før.](variabler1.png "De tre hvite sirklene er nå vist på en svart
-   bilderamme som er større enn før.")
+  ![De tre hvite sirklene er nå vist på en svart bilderamme som er større enn
+  før.](variabler1.png "De tre hvite sirklene er nå vist på en svart bilderamme
+  som er større enn før.")
 
 - [ ] Vi skal nå ta i bruk to variabler som heter `width` og `height`, altså
   bredde og høyde. Disse variablene får verdien til størrelsen på vinduet når
@@ -317,8 +317,8 @@ tilbake hvis den kastes i en vegg.
 
 ## Sjekkliste {.check}
 
-- [ ] Vi trenger et par nye variabler for å styre retningen til
-  sirkelen. Legg til variablene `xFart` og `yFart` før `setup`:
+- [ ] Vi trenger et par nye variabler for å styre retningen til sirkelen. Legg
+  til variablene `xFart` og `yFart` før `setup`:
 
   ```processing
   float xFart = 1.5;
@@ -326,10 +326,10 @@ tilbake hvis den kastes i en vegg.
   ```
 
   Variablene har type `float`, altså flyttall eller desimaltall. Eksempelvis
-  `1.1`, `3.14`, `-2.01`, osv.  Variablene skal styre farten og retningen til
-  sirkelen. I Processing, og i de fleste programmeringsspråk, bruker vi
-  punktum istedenfor komma på desimaltall. Dette er fordi punktum er det som
-  brukes i engelsk.
+  `1.1`, `3.14`, `-2.01`, osv. Variablene skal styre farten og retningen til
+  sirkelen. I Processing, og i de fleste programmeringsspråk, bruker vi punktum
+  istedenfor komma på desimaltall. Dette er fordi punktum er det som brukes i
+  engelsk.
 
   **Notis:** La du merke til at variablene ble gitt verdier med en gang, mens vi
   tidligere ga dem verdier inni `setup`? Grunnen til dette er at `width` og
@@ -395,4 +395,3 @@ I `draw` ser vi en del nytt som du ikke har sett før.
 - [ ] Kan du få ballen til å endre fart avhengig av posisjonen?
 
   ![ball som har større fart på bunn](sprettende_ball.gif "ball som har større fart på bunn")
-

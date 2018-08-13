@@ -1,8 +1,7 @@
 ---
 title: Verda
-level: 1
-author: 'Kine Gjerstad Eide og Ruben Gjerstad Eide'
-translator: 'Stein Olav Romslo'
+author: Kine Gjerstad Eide og Ruben Gjerstad Eide
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -165,6 +164,7 @@ void draw(){
 }
 ```
 
+
 # Steg 3: Kor er musepeikaren? {.activity}
 
 For å finne ut kor i vindauget dei ulike verdsdelane er plassert må me vite kva
@@ -177,7 +177,7 @@ Me treng berre to kodelinjer for å få til dette, og må skrive dei inne i
 datamusa er, då treng me denne koden:
 
 ```processing
-    text("X: " + mouseX, 50, 50);  
+    text("X: " + mouseX, 50, 50);
     text("Y: " + mouseY, 50, 100);
 ```
 
@@ -222,10 +222,11 @@ void setup(){
 }
 void draw(){
   loadImage(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 }
 ```
+
 
 # Steg 4: Vis Europa {.activity}
 
@@ -458,7 +459,7 @@ void setup(){
 }
 void draw(){
   loadImage(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365){

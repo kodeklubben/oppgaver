@@ -15,8 +15,8 @@ seg spill og multimediaprogrammer.
 - Last ned Processing til din datamaskin. Velg nyeste versjon (3.4 per juli
   2018).
 
-- Installer Processing ved å pakke ut innholdet i arkivet til en
-  passende plassering.
+- Installer Processing ved å pakke ut innholdet i arkivet til en passende
+  plassering.
 
 - Ved å kjøre Processing får du opp et verktøy for å lage og kjøre
   Processing-programmer.
@@ -34,7 +34,7 @@ seg spill og multimediaprogrammer.
 
 - Gi programmet ditt navnet `HelloWorld` og lagre det i den mappen du ønsker.
 
-- Trykk på `ctrl + R`, knappen merket med en pil eller `Sketch --> Run`
-  for å kjøre programmet ditt.
+- Trykk på `ctrl + R`, knappen merket med en pil eller `Sketch --> Run` for å
+  kjøre programmet ditt.
 
 - Du har nå skrevet ditt første Processing-program!

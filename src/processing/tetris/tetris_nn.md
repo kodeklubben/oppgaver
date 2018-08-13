@@ -1,8 +1,7 @@
 ---
 title: Tetris
-level: 1
 author: Kine Gjerstad Eide
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -40,7 +39,7 @@ Processing er ein kodeeditor, det tyder at du kan skrive kode i den. Den fyrste
 koden du skal skrive er ein kodesnutt med to metodar. Ein metode ser ut som
 dette:
 
-```Processing
+```processing
 void setup(){
 
 }
@@ -79,7 +78,7 @@ ein metode som allereie er skrive, så seier me at ein *kallar på metoden*.
 
 Her er eit døme som kallar på metoden med namnet `size`:
 
-```Processing
+```processing
 size();
 ```
 
@@ -88,7 +87,7 @@ ein (eller fleire) parameter. Parametrane som du må oppgi for å setje storleik
 på eit vindauge er rett og slett kor stort det skal vere. Viss metoden treng
 fleire parametrar brukar ein komma (`,`) for å skilje dei:
 
-```Processing
+```processing
 size(100, 200);
 ```
 
@@ -101,7 +100,7 @@ får eit vindauge du synest passar.
 
 Slik kallar du på metoden som bestemmer storleiken på vindauget:
 
-```Processing
+```processing
 size(600, 900);
 ```
 
@@ -146,14 +145,14 @@ ordet for heiltal.
 Viss du berre brukar ein parameter, så får du kvit farge ved å skrive 255, svart
 ved å skrive 0. Kva trur du det blir for 128? Kva med 200? Her er eit døme:
 
-```Processing
+```processing
 background(70);
 ```
 
 Viss du brukar tre tal kallar me det RGB-farger. RGB står for raud, grøn og blå.
 Her er eit døme:
 
-```Processing
+```processing
 background(20, 255, 170);
 ```
 
@@ -205,7 +204,7 @@ på `rect` skal stå inne i `draw`-metoden.
 
 Start til dømes med desse tala:
 
-```Processing
+```processing
 rect(275, 10, 50, 50);
 ```
 
@@ -218,7 +217,8 @@ rect(275, 10, 50, 50);
 
 - [ ] Teikn firkanten slik at den står midt i vindauget.
 
-- [ ] La firkanten dekke heile vindauget. **Hint:** Du kan bruke minus framfor tala.
+- [ ] La firkanten dekke heile vindauget. **Hint:** Du kan bruke minus framfor
+  tala.
 
 
 # Steg 5: Gi firkanten farge {.activity}
@@ -278,7 +278,7 @@ opprette variabelen. Typen her skal vere `int`. Me må gi eit namn til
 variabelen, her har me valt `posisjonY`, men du kan velje det namnet du vil.
 Kodelinja ser slik ut, og må stå over `setup`-metoden:
 
-```Processing
+```processing
 int posisjonY;
 ```
 
@@ -286,14 +286,14 @@ Så skal me bestemme kva `posisjonY` skal vere når me startar programmet. Det
 skriv me inne i `setup`-metoden. Kodelinja skal sjå slik ut (hugs at her må du
 bruke same namn som over):
 
-```Processing
+```processing
 posisjonY = 20;
 ```
 
 Så set me variabelen inn i firkanten vår. Det er argument nummer to som må
 bytjast ut, og kodelinja der me lagar firkanten ser slik ut:
 
-```Processing
+```processing
 rect(275, posisjonY, 50, 50);
 ```
 
@@ -326,7 +326,7 @@ programmet.
 For å få firkanten til å flytte seg, så må me oppdatere `posisjonY`. Det gjer me
 ved å skrive dette i `draw`-metoden:
 
-```Processing
+```processing
 posisjonY = posisjonY + 1;
 ```
 

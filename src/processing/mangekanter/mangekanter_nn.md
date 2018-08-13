@@ -1,8 +1,7 @@
 ---
-title: 'Kantar, kantar, mange mangekantar'
-level: 2
-author: 'Sigmund Hansen'
-translator: 'Stein Olav Romslo'
+title: Kantar, kantar, mange mangekantar
+author: Sigmund Hansen
+translator: Stein Olav Romslo
 language: nn
 ---
 
