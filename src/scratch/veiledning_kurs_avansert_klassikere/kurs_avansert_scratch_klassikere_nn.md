@@ -99,7 +99,8 @@ teste at ting oppfører seg som tenkt så raskt som mogleg.
 
 - [__Donkey Kong__](../donkey_kong/donkey_kong_nn.html) er eit enkelt, men
   fullstendig plattformspel. Dette er òg ei oppgåve i kurset [Avansert Scratch -
-  Plattform](kurs_avansert_scratch_plattform_nn.html), og viss denne fell i smak
+  Plattform](../veiledning_kurs_avansert_plattform/kurs_avansert_scratch_plattform_nn.html),
+  og viss denne fell i smak
   kan borna lære mykje meir om plattformspel i det kurset. Den felles
   gjennomgangen bør leggje vekt på korleis ein simulerer enkel gravitasjon ved
   hjelp av eit par enkle variablar.

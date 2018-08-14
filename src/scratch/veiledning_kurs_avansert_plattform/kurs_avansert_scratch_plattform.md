@@ -59,7 +59,8 @@ Nedenfor beskrives hvordan hver oppgave kan introduseres i felleskap:
 + [__Donkey Kong__](../donkey_kong/donkey_kong.html) er en slags introduksjon
   til kurset hvor vi lager et enkelt, men fullstendig plattformspill. Denne er
   også en oppgave i kurset [Avansert Scratch -
-  Klassikere](kurs_avansert_scratch_klassikere.html) slik at noen har kanskje
+  Klassikere](../veiledning_kurs_avansert_klassikere/kurs_avansert_scratch_klassikere.html)
+  slik at noen har kanskje
   vært borti denne tidligere (oppfordre dem i såfall til å videreutvikle spillet
   sitt). Den felles gjennomgangen bør her vektlegge hvordan man simulerer enkel
   gravitasjon ved hjelp av et par enkle variabler.

@@ -1,6 +1,6 @@
 from linter_defaults import *
 
-REGEX_FIND_KEYS = re.compile(r"(^|\n)( *(\w+):\[([^\]]*)\]| *(\w+):(.*))")
+REGEX_FIND_KEYS = re.compile(r"(^|\n)( *(\w+) *: *\[([^\]]*)\]| *(\w+) *: *(.*))")
 
 
 def new_level(yml_path):
@@ -43,6 +43,7 @@ def new_lesson_yml(new_yml_path):
 
         save_FILE_INFO(settings_from_md_)
         f.write('\n'.join(filter(None, new_str)))
+        f.write('\n')
 
 
 def sort_tags_lesson_yml(key, tags):
@@ -54,11 +55,19 @@ def sort_tags_lesson_yml(key, tags):
             tag_lst[TAGS_REVERSE_[key][tag]] = tag
     return ', '.join(filter(None, tag_lst))
 
+def fix_parenthesis(temp_content):
+    # Removes the outer layer of quotations
+    content = re.sub(r'^(\"|\')(.*)(\"|\')$', r'\2', temp_content)
+    # Changes all internal quotations to ' and '
+    content = re.sub(r'\"(.*)\"', r"'\1'", content)
+    # Add back the quotations if need be
+    if re.search(r"[^\w\sæøåÆØÅ]", content):
+        content = '"{}"'.format(content)
+    return content
 
 def update_lesson_yml(yml_data, yml_path):
 
-    yml_data = re.sub('[\t ]', r'', yml_data)  # Remove all tabs/spaces
-    yml_data = re.sub(r',(?! )', r', ', yml_data)  #Adds space after comma
+    yml_data = re.sub('\t', r'{}'.format(YML_INDENT_STR), yml_data) # replaces all tabs
 
     titles = [''] * len(KEYS_YML)
     titles_extra = []
@@ -81,6 +90,8 @@ def update_lesson_yml(yml_data, yml_path):
             if title == 'tags': tag[0] = 'tags:'
             elif title in remaining_titles:
                 remaining_titles.remove(title)
+                if title == 'license':
+                    content = fix_parenthesis(content)
                 titles[KEYS_YML_REVERSE_[title]] = '{}: {}'.format(
                     title, content)
             else:
@@ -139,6 +150,9 @@ def lesson_yml(lesson_yml_path):
         with open(lesson_yml_path_temp, "w") as g:
             for line in new_yml_data:
                 g.write(line)
+            if new_yml_data:
+                if not line.endswith('\n'):
+                    g.write('\n')
 
         if filecmp.cmp(lesson_yml_path, lesson_yml_path_temp):
             # File has not changed, removing temp
@@ -151,7 +165,7 @@ def lesson_yml(lesson_yml_path):
 
 
 def main(yml_files):
-    '''This file autoformats lesson.yml filess, which can be broken into four
+    '''This file auto formats lesson.yml files, which can be broken into four
     parts:
 
     1. Create new yaml files if needed:
