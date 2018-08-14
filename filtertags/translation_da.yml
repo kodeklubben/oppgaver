@@ -2,9 +2,9 @@ language:
   NAME: Språk
   TAGS:
     nb:
-      NAME: Norsk bokmål
+      NAME: Bokmål
     nn:
-      NAME: Norsk nynorsk
+      NAME: Nynorsk
     sv:
       NAME: Svenska
     da:

@@ -1,12 +1,11 @@
 ---
 title: 'Felix og Herbert'
 level: 1
-logo: ../../assets/img/ccuk_logo.png
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
 translator: 'Gudbrand Tandberg'
-license: '[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)'
 language: nb
 ---
+
 
 # Introduksjon {.intro}
 
@@ -16,6 +15,7 @@ Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du
 tatt, går poengsummen din ned.
 
 ![Bilde av katten Felix og musa Herbert](felix_og_herbert.png)
+
 
 # Steg 1: Felix følger musepekeren {.activity}
 
@@ -70,6 +70,7 @@ Det kan likevel være lurt å lagre manuelt innimellom.
 
 - [ ] I filmenyen, velg `Lagre nå`.
 
+
 # Steg 2: Felix jager Herbert {.activity}
 
 *Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.*
@@ -104,6 +105,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Jager Felix Herbert?
 
+
 # Steg 3: Felix sier når han har fanget Herbert {.activity}
 
 *Vi vil at Felix skal vite når han har fanget Herbert og fortelle det
@@ -131,6 +133,7 @@ __Klikk på det grønne flagget.__
 __Klikk på det grønne flagget.__
 
 - [ ] Sier Felix fra når han har fanget Herbert?
+
 
 # Steg 4: Herbert blir et spøkelse når han fanges {.activity}
 
@@ -190,6 +193,7 @@ __Klikk på det grønne flagget.__
 - [ ] Spiller Felix de riktige lydene til riktig tid?
 
 - [ ] Står Felix stille lenge nok til at Herbert kommer seg unna?
+
 
 # Steg 5: Telle poeng {.activity}
 

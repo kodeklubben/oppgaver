@@ -5,6 +5,7 @@ author: Geir Arne Hjelle og Carl Andreas Myrland
 language: nb
 ---
 
+
 # Introduksjon {.intro}
 
 Det er ganske enkelt å lage interessante animasjoner i Scratch. Her skal vi se
@@ -12,24 +13,26 @@ hvordan vi kan flytte og snurre på figurer for å skape spennende mønstre.
 
 ![Bilde av et spennende mønster rundt en sirkel](snurrige_figurer.png)
 
+
 # Steg 1: En snurrig figur {.activity}
 
-*La oss begynne enkelt. Vi vil først se hvordan vi kan flytte og snurre på en figur.*
+*La oss begynne enkelt. Vi vil først se hvordan vi kan flytte og snurre på en
+figur.*
 
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt prosjekt, for eksempel ved å klikke `Programmering` i
-  menyen. Hvis du allerede har startet et prosjekt kan du begynne på
-  et nytt ved å velge `Fil` og deretter `Ny`.
+  menyen. Hvis du allerede har startet et prosjekt kan du begynne på et nytt ved
+  å velge `Fil` og deretter `Ny`.
 
 - [ ] Slett kattefiguren.
 
-- [ ] Vi vil starte med en enkel trekant-figur. Denne kan vi lage på forskjellige
-  måter. Først tegner vi denne selv, men nedenfor vil vi også vise deg hvordan
-  du kan lage en trekant fra en av de eksisterende figurene.
+- [ ] Vi vil starte med en enkel trekant-figur. Denne kan vi lage på
+  forskjellige måter. Først tegner vi denne selv, men nedenfor vil vi også vise
+  deg hvordan du kan lage en trekant fra en av de eksisterende figurene.
 
-    Klikk på ![Tegn ny figur](../bilder/tegn-ny.png) for å tegne din egen
-    figur. Trykk deretter `Bytt til vektorgrafikk` nede til høyre, og bruk
+    Klikk på ![Tegn ny figur](../bilder/tegn-ny.png) for å tegne din egen figur.
+    Trykk deretter `Bytt til vektorgrafikk` nede til høyre, og bruk
     linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å tegne en trekant.
 
     ![Bilde av en trekant i Scratch](tegn_trekant.png)
@@ -56,9 +59,8 @@ __Trykk på A-tasten.__
 
 ## Lagre prosjektet {.save}
 
-Du har nå skrevet et lite program! Scratch lagrer alt du gjør med
-jevne mellomrom. Det er likevel en god vane å lagre selv også
-innimellom.
+Du har nå skrevet et lite program! Scratch lagrer alt du gjør med jevne
+mellomrom. Det er likevel en god vane å lagre selv også innimellom.
 
 - [ ] Over scenen er det et tekstfelt hvor du kan gi et navn til prosjektet
   ditt. Kall det for eksempel `Snurrige figurer`.
@@ -72,15 +74,15 @@ andre figurene til en trekant. Om du allerede har laget en trekant trenger du
 ikke gjøre dette. Men det viser deg en morsom måte å leke med Scratchfigurene
 på.
 
-- [ ] Klikk på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png) for å
-  hente en eksisterende figur. Velg figuren `ting/Star2`.
+- [ ] Klikk på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
+  for å hente en eksisterende figur. Velg figuren `ting/Star2`.
 
-- [ ] Gå til `Drakter`-fanen. Ser du at denne stjernen består av to trekanter lagt
-  oppå hverandre?
+- [ ] Gå til `Drakter`-fanen. Ser du at denne stjernen består av to trekanter
+  lagt oppå hverandre?
 
 - [ ] Klikk på stjernen slik at den får en firkant rundt seg (blir merket). Det
-  dukker da opp en ny knapp som kalles `Del opp gruppe` (se skjermbildet
-  under). Klikk på denne knappen.
+  dukker da opp en ny knapp som kalles `Del opp gruppe` (se skjermbildet under).
+  Klikk på denne knappen.
 
   ![Viser "del opp gruppe" knappen i Scratch](del_opp_stjernegruppe.png)
 
@@ -89,6 +91,7 @@ på.
 
 - [ ] Du står nå igjen med en trekant-figur! Bruk gjerne `Fyll farge`-verktøyet,
   ![Fyll farge](../bilder/fyll-med-farge.png) for å endre farge på trekanten!
+
 
 # Steg 2: Mange trekanter {.activity}
 
@@ -127,7 +130,8 @@ __Trykk på B-tasten.__
 
 ## Sjekkliste {.check}
 
-- [ ] Vi kan også få trekantene til å røre på seg. Skriv først denne enkle koden:
+- [ ] Vi kan også få trekantene til å røre på seg. Skriv først denne enkle
+      koden:
 
   ```blocks
   når jeg mottar [snurr v]
@@ -136,17 +140,18 @@ __Trykk på B-tasten.__
   slutt
   ```
 
-- [ ] Legg til klossen `send melding [snurr v]`{.b} nederst i _B_-skriptet (etter
-  `gjenta`{.blockcontrol}-løkken).
+- [ ] Legg til klossen `send melding [snurr v]`{.b} nederst i _B_-skriptet
+  (etter `gjenta`{.blockcontrol}-løkken).
 
 ## Test prosjektet {.flag}
 
 __Trykk på B-tasten.__
 
-- [ ] Begynner trekantene å røre på seg etter at de er tegnet opp? Blir mønsteret levende?
+- [ ] Begynner trekantene å røre på seg etter at de er tegnet opp? Blir
+      mønsteret levende?
 
-- [ ] Prøv å endre på `4`-tallet i _snurr_-skriptet. Hva skjer? Alt dette skjer bare
-  fordi mange trekanter snurrer sammen!
+- [ ] Prøv å endre på `4`-tallet i _snurr_-skriptet. Hva skjer? Alt dette skjer
+  bare fordi mange trekanter snurrer sammen!
 
 ## Sjekkliste {.check}
 
@@ -160,8 +165,8 @@ __Trykk på B-tasten.__
   slutt
   ```
 
-- [ ] Endre `send melding [ v]`{.b}-klossen nederst i _B_-skriptet slik at den starter
-  dette nye _flytt og snurr_-skriptet.
+- [ ] Endre `send melding [ v]`{.b}-klossen nederst i _B_-skriptet slik at den
+  starter dette nye _flytt og snurr_-skriptet.
 
 ## Test prosjektet {.flag}
 
@@ -171,16 +176,17 @@ __Trykk på B-tasten.__
 
 - [ ] Prøv igjen å endre på tallene i det siste skriptet.
 
+
 # Steg 3: Mer variasjon {.activity}
 
 *Vi skal nå se hvordan vi kan lage mer variasjon blant de snurrende figurene,
  ved å endre på hvordan de starter.*
 
-# Sjekkliste {.check}
+## Sjekkliste {.check}
 
-- [ ] Lag en ny variabel, `retning :: variables`{.b}. Det er viktig at du merker av at variabelen
-  gjelder kun __For denne figuren__. Dette gjør nemlig at hver klon kan ha sin
-  egen verdi for `retning :: variables`{.b}.
+- [ ] Lag en ny variabel, `retning :: variables`{.b}. Det er viktig at du merker
+  av at variabelen gjelder kun __For denne figuren__. Dette gjør nemlig at hver
+  klon kan ha sin egen verdi for `retning :: variables`{.b}.
 
 - [ ] Lag en kopi av _B_-skriptet. Endre tasten som starter skriptet til `c`, og
   legg også til de to `retning :: stack variables`{.b}-klossene.
@@ -217,15 +223,16 @@ __Trykk på C-tasten.__
 
 ## Sjekkliste {.check}
 
-- [ ] Den ene trekanten som ikke passer helt inn i mønsteret er figuren vår. Alle de
-  andre trekantene er kloner. Vi har ikke sett denne trekanten tidligere fordi
-  den pekte i samme retning som klonene. Men nå snur vi jo på klonene!
+- [ ] Den ene trekanten som ikke passer helt inn i mønsteret er figuren vår.
+  Alle de andre trekantene er kloner. Vi har ikke sett denne trekanten tidligere
+  fordi den pekte i samme retning som klonene. Men nå snur vi jo på klonene!
 
     La oss skjule figuren så den ikke ødelegger mønsteret. Legg til en
     `skjul`{.b}-kloss øverst i _C_-skriptet.
 
-- [ ] Siden klonene er kopier av figuren vil de også skjules. Det vil vi jo ikke. Vi
-  må derfor passe på at klonene vises. Legg til en `vis`{.b}-kloss som dette:
+- [ ] Siden klonene er kopier av figuren vil de også skjules. Det vil vi jo
+  ikke. Vi må derfor passe på at klonene vises. Legg til en `vis`{.b}-kloss som
+  dette:
 
   ```blocks
   når jeg starter som klon
@@ -239,12 +246,13 @@ __Trykk på C-tasten.__
 
 - [ ] Er den flytende trekanten som ikke passet inn i mønsteret borte?
 
-- [ ] Lek med tallet `-4` i `endre [retning v] :: variables`{.b}-klossen. Hvilken
-  effekt har det å endre dette tallet?
+- [ ] Lek med tallet `-4` i `endre [retning v] :: variables`{.b}-klossen.
+  Hvilken effekt har det å endre dette tallet?
 
     Du oppdager kanskje at det fungerer best om tallet går opp i 4? Hvorfor
     henger ikke figuren sammen hvis tallet ikke går opp i 4? (Prøv for eksempel
     med `endre [retning v] med (1)`{.b}.)
+
 
 # Steg 4: Andre figurer {.activity}
 
@@ -258,11 +266,11 @@ __Trykk på C-tasten.__
   ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg for
   eksempel hjertet `ting/heart red`.
 
-- [ ] Start programmet igjen ved å trykke på __C__-tasten. Dannes det nå et mønster
-  av hjerter? Prøv å hente inn andre drakter eller tegn dine egne.
+- [ ] Start programmet igjen ved å trykke på __C__-tasten. Dannes det nå et
+  mønster av hjerter? Prøv å hente inn andre drakter eller tegn dine egne.
 
-- [ ] For å lage spennende mønstre er det også andre ting du kan endre på. Prøv å
-  legg til klosser for gjennomsiktig effekt og fargeeffekt som følger:
+- [ ] For å lage spennende mønstre er det også andre ting du kan endre på. Prøv
+  å legg til klosser for gjennomsiktig effekt og fargeeffekt som følger:
 
   ```blocks
   når [c v] trykkes
@@ -288,11 +296,11 @@ noen ideer:
 
 - [ ] Endre størrelsen på de forskjellige klonene.
 
-- [ ] Tegn en figur som består av tekst. Kanskje du kan få navnet ditt til å danse
-  rundt på skjermen?
+- [ ] Tegn en figur som består av tekst. Kanskje du kan få navnet ditt til å
+  danse rundt på skjermen?
 
-- [ ] Endre senterpunktet til drakten: Klikk `Drakter`-fanen og klikk på
-  ![Velg senterpunkt](../bilder/velg_senterpunkt.png) øverst til høyre.
+- [ ] Endre senterpunktet til drakten: Klikk `Drakter`-fanen og klikk på ![Velg
+  senterpunkt](../bilder/velg_senterpunkt.png) øverst til høyre.
 
 - [ ] Bruk penn-verktøyet for å tegne mønster på bakgrunnen samtidig. Legg for
   eksempel til klossen `penn på`{.b} under `når jeg starter som klon`{.b}.
