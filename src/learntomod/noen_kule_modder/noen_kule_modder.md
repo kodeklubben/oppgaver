@@ -1,47 +1,39 @@
 ---
-title: Noen kule modder
+title: 'Noen kule modder'
 level: 2
-author: Pål G. Solheim
+author: 'Pål G. Solheim'
 language: nb
-tags:
-    topic: [block_based, minecraft]
-    subject: [technology, programming]
-    grade: [primary, secondary, junior]
 ---
+
 
 # Introduksjon {.intro}
 
-Her er noen korte oppgaver som gjør kule ting i Minecraft.
-Det er kjapt å kode disse moddene så de kan brukes innimellom andre større oppgaver.
+Her er noen korte oppgaver som gjør kule ting i Minecraft. Det er kjapt å kode
+disse moddene så de kan brukes innimellom andre større oppgaver.
 
-De er ikke forklart i detalj så de passer best for de som har litt erfaring med Learn To Mod.
-
+De er ikke forklart i detalj så de passer best for de som har litt erfaring med
+Learn To Mod.
 
 ## Megaskilt
 
-![](image1.png)
-
+![Bilde av koden for et megaskilt](image1.png)
 
 ## Regnbue
 
-![](image2.png)
-
+![Bilde av koden for å lage en regnbue](image2.png)
 
 ## Lage spor
 
-![](image3.png)
-
+![Bilde av koden for å lage spor](image3.png)
 
 ## Pig Zombie
 
-![](image4.png)
-
+![Bilde av koden for å spawne in en zombie pigman](image4.png)
 
 ## Monster
 
-![](image5.png)
-
+![Bilde av koden for å spawne inn en creeper og en zombie](image5.png)
 
 ## Monster kamp
 
-![](image6.png)
+![Bilde av koden for å lage masse monstre og gi spilleren ett diamantsverd](image6.png)

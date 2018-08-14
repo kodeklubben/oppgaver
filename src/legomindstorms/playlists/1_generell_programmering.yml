@@ -1,0 +1,13 @@
+sortindex: 1
+title:
+  nb: 'Generell programmering'
+  nn: 'Generell programmering'
+  en: 'General programming'
+lessons:
+  - genprog_1rettfram
+  - genprog_2svinge
+  - genprog_3turretur
+  - genprog_4robotrace
+  - genprog_5klatring
+  - genprog_6svingebane
+  - genprog_7rektangelkvadrat

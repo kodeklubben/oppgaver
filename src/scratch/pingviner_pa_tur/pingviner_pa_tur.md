@@ -1,20 +1,18 @@
 ---
-title: Pingviner på tur
+title: 'Pingviner på tur'
 level: 1
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [programming]
-    grade: [primary, secondary, junior]
 ---
+
 
 # Introduksjon {.intro}
 
 Velkommen til Scratch. Vi skal sammen lage et enkelt spill hvor pingvinene har
 rømt fra akvariet i Bergen, og det er din jobb å hjelpe dem hjem igjen.
 
-![](pingviner_pa_tur.png)
+![Bilde av pingviner på rømmen](pingviner_pa_tur.png)
+
 
 # Velkommen til Scratch {.activity}
 
@@ -31,34 +29,37 @@ fordi dette gjør det enklere å lagre spillene dine og dele dem med andre.
 
 - [ ] Gå til nettsiden [scratch.mit.edu](https://scratch.mit.edu/) i en nettleser.
 
-- [ ] Om siden er på engelsk kan du endre språk til norsk (bokmål eller nynorsk) i
-  nedtrekksmenyen nederst på siden.
+- [ ] Om siden er på engelsk kan du endre språk til norsk (bokmål eller nynorsk)
+  i nedtrekksmenyen nederst på siden.
 
-- [ ] Klikk __Bli Scratch-bruker__ øverst til høyre, og fyll ut skjemaet som dukker
-  opp.
+- [ ] Klikk __Bli Scratch-bruker__ øverst til høyre, og fyll ut skjemaet som
+  dukker opp.
 
-- [ ] Etter at du har blitt Scratchbruker kan du klikke __Programmering__ øverst til
-  venstre for å begynne å programmere.
+- [ ] Etter at du har blitt Scratchbruker kan du klikke __Programmering__ øverst
+  til venstre for å begynne å programmere.
 
     Videre gir vi deg en oppskrift på hvordan du kan lage et enkelt spill hvor
     du skal hjelpe pingvinene å finne veien tilbake til akvariet i Bergen.
 
+
 # Steg 1: En pingvin på tur {.activity}
 
-_Vi begynner med å se på hvordan vi kan lage en figur og få denne til å bevege seg._
+_Vi begynner med å se på hvordan vi kan lage en figur og få denne til å bevege
+seg._
 
 ## Sjekkliste {.check}
 
-- [ ] Når du starter et nytt Scratch-prosjekt ser du en kattefigur. I dette spillet
-  skal vi ikke bruke denne. Vi begynner derfor med å slette kattefiguren:
+- [ ] Når du starter et nytt Scratch-prosjekt ser du en kattefigur. I dette
+  spillet skal vi ikke bruke denne. Vi begynner derfor med å slette
+  kattefiguren:
 
     Klikk på ![Slett](../bilder/slett.png) øverst i menyen, og klikk deretter på
     kattefiguren for å slette denne.
 
-- [ ] Vi skal nå legge til en pingvinfigur. Klikk på
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png) ved siden av
-  __Ny figur:__ omtrent midt på skjermen. Skroll nedover skjermen til du finner
-  en pingvinfigur (det er flere å velge mellom). Klikk en av dem, og deretter
+- [ ] Vi skal nå legge til en pingvinfigur. Klikk på ![Velg figur fra
+  biblioteket](../bilder/hent-fra-bibliotek.png) ved siden av __Ny figur:__
+  omtrent midt på skjermen. Skroll nedover skjermen til du finner en
+  pingvinfigur (det er flere å velge mellom). Klikk en av dem, og deretter
   __OK__.
 
 - [ ] Du har nå fått en pingvin inn i spillet ditt. La oss programmere den!
@@ -84,15 +85,15 @@ _Vi begynner med å se på hvordan vi kan lage en figur og få denne til å beve
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grønne flagget øverst midt på skjermen for å prøve spillet ditt.__
+__Klikk på det grønne flagget øverst midt på skjermen for å prøve spillet
+ditt.__
 
 - [ ] Pingvinen skal nå begynne å flytte seg frem og tilbake over skjermen.
 
-- [ ] Du merker kanskje at pingvinen snur seg på hodet når den går mot venstre? Det
-  er fordi scratchfigurer i utgangspunktet roterer når de skifter retning. Vi
-  kan forbedre dette ved å legge til klossen `begrens rotasjon
-  [vend sideveis v]`{.b} rett under `når grønt flagg klikkes`{.b}-klossen i
-  programmet vårt.
+- [ ] Du merker kanskje at pingvinen snur seg på hodet når den går mot venstre?
+  Det er fordi scratchfigurer i utgangspunktet roterer når de skifter retning.
+  Vi kan forbedre dette ved å legge til klossen `begrens rotasjon [vend sideveis
+  v]`{.b} rett under `når grønt flagg klikkes`{.b}-klossen i programmet vårt.
 
 Du kan bruke den røde knappen ved siden av det grønne flagget om du ønsker at
 pingvinen skal slutte å bevege seg. Etterhvert som du lager mer kode bør du
@@ -103,10 +104,11 @@ klikke på det grønne flagget for å se hva som skjer.
 Du har nå laget et lite program! Scratch lagrer alt du gjør automatisk med jevne
 mellomrom. Det kan likevel være lurt å lagre selv også innimellom.
 
-- [ ] Over scenen er det et tekstfelt hvor du kan gi navn til prosjektet ditt. Kall
-  det for eksempel `Pingviner på tur`.
+- [ ] Over scenen er det et tekstfelt hvor du kan gi navn til prosjektet ditt.
+  Kall det for eksempel `Pingviner på tur`.
 
 - [ ] I menyen __Fil__ kan du velge __Lagre nå__ for å lagre prosjektet.
+
 
 # Steg 2: På kryss og tvers {.activity}
 
@@ -114,16 +116,16 @@ _La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
 
 ## Sjekkliste {.check}
 
-- [ ] Se nærmere på koden du har laget. Vi har fortalt pingvinen at den _for alltid_
-  skal _gå_ og _sprette tilbake ved kanten_. Ser du hvordan pingvinen gjør
-  akkurat som den har blitt fortalt?
+- [ ] Se nærmere på koden du har laget. Vi har fortalt pingvinen at den _for
+  alltid_ skal _gå_ og _sprette tilbake ved kanten_. Ser du hvordan pingvinen
+  gjør akkurat som den har blitt fortalt?
 
     Vi kan gjøre forandringer i koden vår. For eksempel sier tallet `10` i `gå
     (10) steg`{.b}-klossen noe om hvor fort pingvinen skal bevege seg. Prøv å
     forandre dette tallet!
 
-- [ ] Vi kan også endre størrelsen på pingvinen. Endre koden din slik at den nå ser
-  slik ut:
+- [ ] Vi kan også endre størrelsen på pingvinen. Endre koden din slik at den nå
+  ser slik ut:
 
   ```blocks
   når grønt flagg klikkes
@@ -161,12 +163,14 @@ __Klikk på det grønne flagget.__
 
 - [ ] Går pingvinen mer på kryss og tvers?
 
-- [ ] Starter pingvinen forskjellige steder på skjermen om du klikker på det grønne
-  flagget flere ganger?
+- [ ] Starter pingvinen forskjellige steder på skjermen om du klikker på det
+  grønne flagget flere ganger?
+
 
 # Steg 3: Bergen {.activity}
 
-_Pingvinen har rømt fra akvariet i Bergen, så da burde den jo springe rundt i Bergens gater._
+_Pingvinen har rømt fra akvariet i Bergen, så da burde den jo springe rundt i
+Bergens gater._
 
 ## Sjekkliste {.check}
 
@@ -176,20 +180,21 @@ _Pingvinen har rømt fra akvariet i Bergen, så da burde den jo springe rundt i 
     Alternativt kan du [lage ditt eget kart](../kart/kart.html) ved å gå til
     [denne siden](../kart/kart.html).
 
-- [ ] For å legge til en ny bakgrunn klikker du på
-  ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) under __Ny bakgrunn__
-  helt til venstre på siden. Velg deretter filen du nettopp lastet ned.
+- [ ] For å legge til en ny bakgrunn klikker du på ![Last opp bakgrunn fra
+  fil](../bilder/hent-fra-fil.png) under __Ny bakgrunn__ helt til venstre på
+  siden. Velg deretter filen du nettopp lastet ned.
 
-- [ ] La oss nå markere Akvariet i Bergen på kartet. Hent en ny figur ved å klikke
-  på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
-  figuren `Button5`, og plasser denne ytterst på Nordnes for å vise hvor
+- [ ] La oss nå markere Akvariet i Bergen på kartet. Hent en ny figur ved å
+  klikke på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png).
+  Velg figuren `Button5`, og plasser denne ytterst på Nordnes for å vise hvor
   Akvariet er.
 
-    ![](nordnes.png)
+    ![Bilde av Nordnes i Bergen med kryss på akvariet](nordnes.png)
 
 - [ ] Vi vil nå endre navn på akvariefiguren slik at vi enklere husker hva den
   er. Klikk på `i`{.blockmotion} øverst til venstre på akvariefiguren i
   figurlisten. Endre navnet fra `Button5` til `Akvariet`.
+
 
 # Steg 4: Hjelp pingvinen hjem {.activity}
 
@@ -201,8 +206,8 @@ Akvariet._
 I dette spillet skal vi kontrollere pingvinen ved å klikke på kartet. Pingvinen
 skal da snu seg vekk fra der vi holder musepekeren før den går videre.
 
-- [ ] Klikk på __Scene__ nede til venstre på skjermen. Dette gir oss muligheten til
-  å skrive kode som gjelder for bakgrunnen og ikke for pingvinen.
+- [ ] Klikk på __Scene__ nede til venstre på skjermen. Dette gir oss muligheten
+  til å skrive kode som gjelder for bakgrunnen og ikke for pingvinen.
 
 - [ ] Lag den følgende nye koden på Scenen:
 
@@ -230,6 +235,7 @@ skal da snu seg vekk fra der vi holder musepekeren før den går videre.
 __Klikk på det grønne flagget.__
 
 - [ ] Snur pingvinen seg vekk fra musepekeren om du klikker på kartet?
+
 
 # Steg 5: Pingvinen kommer hjem! {.activity}
 
@@ -263,8 +269,8 @@ __Klikk på det grønne flagget.__
 
 - [ ] Hva skjer når pingvinen kommer til Akvariet?
 
-- [ ] Etter at pingvinen har vært hjemme i 7 sekunder tar den seg en ny tur. Dukker
-  den opp på et nytt tilfeldig sted?
+- [ ] Etter at pingvinen har vært hjemme i 7 sekunder tar den seg en ny tur.
+  Dukker den opp på et nytt tilfeldig sted?
 
 ## Prøv selv {.challenge}
 
@@ -280,6 +286,6 @@ er noen ideer:
   en `hvis`{.blockcontrol}-test samt `< > og < >`{.b}- og `berører
   [ v]`{.b}-klosser.
 
-- [ ] Kanskje vi kan telle poeng hver gang en pingvin finner veien til Akvariet? Til
-  dette trenger du noe som heter variabler. Disse finner du under
+- [ ] Kanskje vi kan telle poeng hver gang en pingvin finner veien til Akvariet?
+  Til dette trenger du noe som heter variabler. Disse finner du under
   `Data`{.blockdata}. Prøv selv om du får til noe!

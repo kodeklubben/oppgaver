@@ -1,0 +1,12 @@
+sortindex: 3
+title:
+  nb: 'Ultralydsensor'
+  nn: 'Ultralydsensor'
+  en: 'Ultrasonic sensor'
+lessons:
+  - lyd_1ultralydsensor
+  - lyd_2regning
+  - lyd_3hinderloype
+  - lyd_4parkeringsplass
+  - lyd_5innbrudd
+  - lyd_6ball

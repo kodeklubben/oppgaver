@@ -1,13 +1,10 @@
 ---
 title: Soloball
 level: 1
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [mathematics, programming]
-    grade: [primary, secondary, junior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -15,7 +12,8 @@ Vi skal nå lære hvordan vi kan lage et enkelt ballspill med Scratch. I
 soloball skal du styre katten som kontrollerer ballen, slik at ballen
 ikke går i nettet.
 
-![](soloball.png)
+![Bilde av katten Felix som spiller soloball](soloball.png)
+
 
 # Steg 1: En roterende katt {.activity}
 
@@ -54,6 +52,7 @@ __Klikk på det grønne flagget.__
 - [ ] For å stoppe programmet ditt kan du klikke på den røde åttekanten
   ved siden av det grønne flagget.
 
+
 # Steg 2: Katten løper rundt {.activity}
 
 *I stedet for at katten roterer vil vi at den skal kunne løpe rundt i
@@ -77,17 +76,17 @@ slik at det ser ut som om den løper i sirkel i stedet for å rotere.
 - [ ] Gjør katten mindre ved å klikke på den i det store bildet, og
   deretter dra i et av hjørnene.
 
-  ![](katt_krymp.png)
+  ![Bilde av hvordan krympe katten Felix](katt_krymp.png)
 
 - [ ] Roter deretter katten ved å dra i den lille rundingen over katten.
 
-  ![](katt_roter.png)
+  ![Bilde av hvordan rotere katten Felix](katt_roter.png)
 
 - [ ] Til slutt kan du ta tak i kattefiguren ved å klikke på den lille
   rundingen midt på katten. Flytt den et stykke til siden. Følg med på
   scenen øverst til venstre at du ikke drar den av skjermen.
 
-  ![](katt_flytt.png)
+  ![Bilde av hvordan flytte den roterte katten Felix](katt_flytt.png)
 
 ## Test prosjektet {.flag}
 
@@ -114,6 +113,7 @@ høyre på skjermen.
 Når vi flytter senterpunktet utenfor katten vil det se ut som om
 katten løper rundt dette punktet i stedet for at den bare roterer uten
 å flytte seg.
+
 
 # Steg 3: En ball! {.activity}
 
@@ -178,6 +178,7 @@ __Klikk på det grønne flagget.__
   gjøre katten litt mindre. Vi vil finne en bedre løsning på dette
   problemet i Ekstra 3-delen.
 
+
 # Steg 4: Et nett! {.activity}
 
 *Vi skal nå lage et nett som kan fange ballen hvis den flyr forbi
@@ -197,7 +198,7 @@ __Klikk på det grønne flagget.__
 - [ ] Tegn en liten loddrett strek til høyre på figuren din. Hold gjerne
   inne `Skift`-knappen, da får du en helt loddrett strek.
 
-  ![](tegn_nett.png)
+  ![Bilde av en helt loddrett strek](tegn_nett.png)
 
 - [ ] Klikk på `Skript`{.blocklightgrey}-fanen.
 
@@ -228,6 +229,7 @@ __Klikk på det grønne flagget.__
   begynnelsen av denne oppgaven.
 
 - [ ] Skjer det noe når ballen treffer nettet?
+
 
 # Steg 5: Nettet fanger ballen {.activity}
 
@@ -274,6 +276,7 @@ __Klikk på det grønne flagget.__
   ballen treffer nettet. For å spille videre må du klikke det grønne
   flagget igjen.
 
+
 # Steg 6: Mer naturlig sprett {.activity}
 
 *Nå spretter ballen bare fram og tilbake på samme linje hele tiden. Vi
@@ -284,12 +287,12 @@ __Klikk på det grønne flagget.__
 En bra modell for hvordan en ball spretter er at vinkelen ut er den
 samme som vinkelen inn.
 
-![](sprett_vinkel1.png)
+![Bilde av hvordan en ball sprett](sprett_vinkel1.png)
 
 I spillet er det to retninger vi må tenke på, retningen til ballen og
 retningen kattefiguren står i.
 
-![](sprett_vinkel2.png)
+![Bilde av retning av katt og ball](sprett_vinkel2.png)
 
 I figuren over og i koden videre betyr `retning`{.blockmotion} retningen
 til ballen, siden koden tilhører ballfiguren.  Så langt har vi brukt
@@ -356,6 +359,7 @@ slik at andre kan spille det. For å gjøre dette klikker du `Legg ut`
 øverst til høyre. Du kan deretter dele nettadressen til spillet ditt
 med venner og familie.
 
+
 # Ekstra 1: Tell poeng {.activity}
 
 *Alle spill blir morsommere hvis man får poeng!*
@@ -394,6 +398,7 @@ starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
   slutt
   ```
 
+
 # Ekstra 2: Øk hastigheten {.activity}
 
 *Vi skal nå lage spillet vanskeligere etterhvert som tiden går, ved at
@@ -418,7 +423,7 @@ selv!
   boksen på scenen ved å fjerne avhukingen ved siden av
   `Hastighet`{.blockdata}.
 
-  ![](variabel.png)
+  ![Bilde av hvordan skjule variabelen "Hastighet"](variabel.png)
 
 - [ ] Vi vil nå sette hastigheten til `3` (du kan bruke et annet tall om
   du vil) når spillet starter. Deretter vil vi øke denne littegrann
@@ -444,6 +449,7 @@ selv!
   ```
 
   Pass på at du også endrer `gå steg`{.blockmotion}-klossen.
+
 
 # Ekstra 3: Unngå at katten fanger ballen {.activity}
 

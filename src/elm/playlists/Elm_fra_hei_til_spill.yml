@@ -1,0 +1,15 @@
+sortindex: 1
+title:
+  nb: 'Elm fra hei til spill'
+  nn: 'Elm frå hei til spel'
+  en: 'Elm from hello to game'
+lessons:
+  - 01_prov_i_nettleser
+  - 02_funksjoner_elm_repl
+  - 03_moduler_elm_reactor
+  - 04_input
+  - 05_tegne
+  - 06_lare_andres_spill
+  - 07_tell_sekunder
+  - 08_mus
+  - 09_egen_kode
