@@ -1,10 +1,7 @@
 ---
-title: Khan Academy
+title: 'Khan Academy'
 language: nb
-external: https://nb.khanacademy.org/computing/
-tags:
-    topic: [text_based, step_based, web, game, animation]
-    grade: [secondary, junior, senior]
+external: 'https://nb.khanacademy.org/computing/'
 ---
 
 Khan Academy is a website with a lot of different interactive, step based

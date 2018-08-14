@@ -1,18 +1,16 @@
 ---
-title: Eget prosjekt
+title: 'Eget prosjekt'
 level: 4
 language: nb
-author: Teodor Heggelund
-tags:
-    topic: [text_based, web, game]
-    subject: [technology, programming]
-    grade: [junior, senior]
+author: 'Teodor Heggelund'
 ---
+
 
 # Introduksjon {.intro}
 
 Har du noe du har hatt lyst til å lage en stund? Nå er sjansen! Under er noen
 forslag for å komme i gang.
+
 
 # Idé 1: spill {.activity}
 

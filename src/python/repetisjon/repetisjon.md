@@ -1,22 +1,21 @@
 ---
 title: Repetisjon
 level: 3
-author: Ole Kristian Pedersen, Kodeklubben Trondheim
+author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
 language: nb
-tags:
-  topic: [text_based]
-  subject: [programming]
-  grade: [junior]
 ---
+
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi repetere litt Python-syntaks, det er en god blanding
-av alle tingene du har lært i Python til nå.
+I denne oppgaven skal vi repetere litt Python-syntaks, det er en god blanding av
+alle tingene du har lært i Python til nå.
+
 
 # Kodeblokker {.activity}
-I oppgavene er noen eksempler så korte at vi kan skrive de direkte inn i
-Python. Her er en kodeblokk som illustrerer et kort eksempel:
+
+I oppgavene er noen eksempler så korte at vi kan skrive de direkte inn i Python.
+Her er en kodeblokk som illustrerer et kort eksempel:
 
 ```python
 >>> 1 == 2
@@ -64,13 +63,13 @@ Hva heter du? <font color="green">Ada</font>
 Hei, Ada!
 </pre>
 
+
 # Input og output {.activity}
 
 ## input() og print() {.protip}
 
-Vi kan bruke `print()` når vi skal skrive ut tekst til brukeren.
-Koden etter `>>>` er kode vi skriver inn i f.eks. IDLE, og som
-kjøres med en gang.
+Vi kan bruke `print()` når vi skal skrive ut tekst til brukeren. Koden etter
+`>>>` er kode vi skriver inn i f.eks. IDLE, og som kjøres med en gang.
 
 ```python
 >>> print("Hei, verden")
@@ -86,10 +85,12 @@ Skriv inn et tall: 15
 Du skrev inn: 15
 ```
 <!--A little workaround to avoid checklist being a part of protip-->
+
+
 # {.check}
 
-Skriv et program som spør om brukerens navn, og så skriver ut en
-hilsen til brukeren. Det kan for eksempel fungere slik:
+Skriv et program som spør om brukerens navn, og så skriver ut en hilsen til
+brukeren. Det kan for eksempel fungere slik:
 
 <pre>
 >>>
@@ -101,8 +102,11 @@ Hyggelig å treffe deg, Per!
 Dette må du gjøre:
 
 - [ ] Spør om brukerens navn.
+
 - [ ] Lagre brukerens navn i en variabel.
+
 - [ ] Skriv ut en hilsen til brukeren som inneholder navnet brukeren skrev inn.
+
 
 # if-elif-else {.activity}
 
@@ -133,6 +137,8 @@ else:
 ```
 
 <!--A little workaround to avoid checklist being a part of protip-->
+
+
 # {.check}
 
 Du skal nå lage et program som finner ut hvilken aldersgruppe brukeren er i;
@@ -149,8 +155,11 @@ Du er visst en pensjonist.
 Det du trenger å gjøre er:
 
 - [ ] Spør om brukerens alder.
+
 - [ ] Lagre alderen til en variabel.
+
 - [ ] Test om alderen er barn, ungdom, voksen eller pensjonist.
+
 - [ ] Skriv ut hvilken aldersgruppe brukeren er i.
 
 
@@ -161,7 +170,10 @@ Det du trenger å gjøre er:
 `for`-løkker brukes når vi ønsker å gjøre ting flere ganger.
 
 ```python
+
+
 # print Hello three times
+
 for i in range(3):
     print("Hello")
 ```
@@ -178,7 +190,10 @@ Hello
 Vi kan også bruke `for`-løkker når vi ønsker å gå igjennom ei liste:
 
 ```python
+
+
 # print all elements in the list food_list
+
 food_list = ["eggs", "ham", "spiced ham", "jam"]
 for food in food_list:
     print(food)
@@ -195,6 +210,8 @@ jam
 ```
 
 <!--A little workaround to avoid checklist being a part of protip-->
+
+
 # {.check}
 
 Du skal nå lage ei liste med navn, og skrive ut alle navnene i lista. Resultatet
@@ -210,8 +227,11 @@ Kim
 Dette du må gjøre:
 
 - [ ] Lag ei liste med navn.
+
 - [ ] Bruk ei løkke for å gå igjennom lista med navn.
+
 - [ ] Skriv ut hvert navn.
+
 
 # range() {.protip}
 
@@ -220,15 +240,16 @@ ganger med hjelp av en `for`- eller `while`-løkke. `range()` tar inn tre
 argumenter `start`, `stop`, `step`:
 
 * `start` forteller hva vi skal telle fra.
-* `stop` forteller hva vi skal telle til, merk at vi **ikke** teller
-  med slutt-tallet.
-* `step` forteller hvor store steg vi skal telle med. Vi kan for eksempel
-  telle med steg på `2` eller steg på `100`.
+
+* `stop` forteller hva vi skal telle til, merk at vi **ikke** teller med
+  slutt-tallet.
+
+* `step` forteller hvor store steg vi skal telle med. Vi kan for eksempel telle
+  med steg på `2` eller steg på `100`.
 
 Ettersom rekken lages etterhvert som man teller over den, må man konvertere
 rekken til en liste dersom vi ønsker å se tallene i rekken. Rekken konverteres
 til en liste med `list()`. Her er noen eksempler:
-
 
 ```python
 >>> list(range(1, 10, 1))
@@ -251,10 +272,11 @@ for number in range(1, 101):
 print(sum)
 ```
 
+
 # while-løkker {.protip}
 
-`while`-løkker har mange ulike bruksområder. De kan for eksempel brukes når
-du vil kjøre kode inntil noe inntreffer:
+`while`-løkker har mange ulike bruksområder. De kan for eksempel brukes når du
+vil kjøre kode inntil noe inntreffer:
 
 ```python
 word = ""
@@ -274,6 +296,8 @@ while True:
 ```
 
 <!--A little workaround to avoid checklist being a part of protip-->
+
+
 # {.check}
 
 Skriv et program som summerer alle tallene fra `1` til `100` ved hjelp av ei
@@ -282,12 +306,18 @@ Skriv et program som summerer alle tallene fra `1` til `100` ved hjelp av ei
 Dette må du gjøre:
 
 - [ ] Lag en variabel som inneholder summen.
+
 - [ ] Lag en tellevariabel som inneholder tallet du er kommet til.
+
 - [ ] Så lenge tellevariabelen ikke er større enn 100:
-  * Oppdater summen.
-  * Inkrementer tellevariabelen din.
+
+* Oppdater summen.
+
+* Inkrementer tellevariabelen din.
+
 
 # Funksjoner {.activity}
+
 
 # {.protip}
 
@@ -301,9 +331,9 @@ def greet(name):
 greet("Per")
 ```
 
-Her har vi en funksjon med navn `greet`, som skriver ut en hilsen. `name` er
-et **parameter**, det vil si at `name` er en variabel som funksjonen `greet`
-tar imot. Når vi **kaller** funksjonen `greet`, med `greet("Per")` er `"Per"` et
+Her har vi en funksjon med navn `greet`, som skriver ut en hilsen. `name` er et
+**parameter**, det vil si at `name` er en variabel som funksjonen `greet` tar
+imot. Når vi **kaller** funksjonen `greet`, med `greet("Per")` er `"Per"` et
 **argument** til funksjonen. Et argument er den variabelen vi gir til funksjonen
 når vi kaller den.
 
@@ -316,11 +346,12 @@ def multiply(x, y):
 ```
 
 <!--A little workaround to avoid checklist being a part of protip-->
+
+
 # {.check}
 
-Nå skal vi lage en funksjon som adderer to tall. Test at
-funksjonen din fungerer som dette:
-
+Nå skal vi lage en funksjon som adderer to tall. Test at funksjonen din fungerer
+som dette:
 
 ```python
 >>> sum = add(3, 4)
@@ -332,6 +363,10 @@ Fikk inn 3 og 4
 Dette må du gjøre:
 
 - [ ] Definer en funksjon som tar inn to tall som parametre.
+
 - [ ] Skriv ut tallene du fikk inn.
+
 - [ ] Regn ut summen.
+
 - [ ] Returner summen.
+

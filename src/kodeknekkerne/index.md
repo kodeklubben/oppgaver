@@ -1,10 +1,7 @@
 ---
 title: Kodeknekkerne
 language: nb
-external: https://kodeknekkerne.kodegenet.no/
-tags:
-    topic: [block_based, step_based]
-    grade: [primary, secondary, junior]
+external: 'https://kodeknekkerne.kodegenet.no/'
 ---
 
 NRK Skole har utviklet denne serien som er en kombinasjon av gameshow og

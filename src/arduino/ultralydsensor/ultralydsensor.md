@@ -1,13 +1,10 @@
 ---
 title: Ultralydsensor
+author: 'Martin Ertsås & Morten Minde Neergaard'
 level: 2
-author: Martin Ertsås & Morten Minde Neergaard
 language: nb
-tags:
-    topic: [text_based, electronics]
-    subject: [technology, programming, science]
-    grade: [secondary, junior, senior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -47,8 +44,11 @@ på noe stort og flatt vil du se at den kan være veldig presis!
 ## Til denne oppgaven trenger du {.check}
 
 - [ ] 1 Arduino Uno
+
 - [ ] 1 breadboard
+
 - [ ] 1 ultralydsensor
+
 - [ ] 6 ledninger
 
 ![utstyr](utstyr.jpeg)
@@ -56,8 +56,8 @@ på noe stort og flatt vil du se at den kan være veldig presis!
 
 # Steg 2: Koble opp kretsen {.activity}
 
-Hvis du ser på pinnene på ultralydsensoren vil du se at over de står det
-`Gnd`, `Echo`, `Trig` og `Vcc`.
+Hvis du ser på pinnene på ultralydsensoren vil du se at over de står det `Gnd`,
+`Echo`, `Trig` og `Vcc`.
 
 `Gnd` er jord, `Vcc` er 5V strøm, `Echo` og `Trig` er digitale pinner.
 
@@ -111,12 +111,12 @@ gjort det med variabelen `lydens_hastighet`. (340,29 m/s * 100 cm/m / 1.000.000
 
 ## Seriellkonsoll {.protip}
 
-For å kunne lese hva vi skriver ut må du se på det som kalles et
-seriellkonsoll. `Serial.print` og `Serial.println` får arduinoen til å skrive
-til sin seriellkonsoll, som kan leses fra en pc koblet til arduinoen med USB
-ledning. `print` skriver ut tekst eller tall. `println` gjør akkurat det samme,
-og legger så til en linjeskift slik at neste `print` eller `println` havner på
-en ny linje.
+For å kunne lese hva vi skriver ut må du se på det som kalles et seriellkonsoll.
+`Serial.print` og `Serial.println` får arduinoen til å skrive til sin
+seriellkonsoll, som kan leses fra en pc koblet til arduinoen med USB ledning.
+`print` skriver ut tekst eller tall. `println` gjør akkurat det samme, og legger
+så til en linjeskift slik at neste `print` eller `println` havner på en ny
+linje.
 
 For å åpne seriellkonsollet går du til __Tools -> Serial Monitor__
 
@@ -125,9 +125,13 @@ For å åpne seriellkonsollet går du til __Tools -> Serial Monitor__
 ## Utfordring {.challenge}
 
 - [ ] Klarer du å få en lysdiode til å lyse når noe er nærmere enn 20 cm?
-- [ ] klarer du å få en lysdiode til å lyse sterkere jo nærmere noe er (husk `PWM`-pinner)?
+
+- [ ] klarer du å få en lysdiode til å lyse sterkere jo nærmere noe er (husk
+  `PWM`-pinner)?
 
 ## Utfordring (Vanskelig) {.challenge}
 
-- [ ] Klarer du å få et 7-Segment Display til å si hvor nærme du er på en skala fra
-  0-9 (husk `map`-funksjonen og oppgaven [7-Segment Display](../7_segment_display/7_segment_display.html))?
+- [ ] Klarer du å få et 7-Segment Display til å si hvor nærme du er på en skala
+  fra 0-9 (husk `map`-funksjonen og oppgaven [7-Segment
+  Display](../7_segment_display/7_segment_display.html))?
+

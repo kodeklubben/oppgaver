@@ -3,32 +3,39 @@ title: Python
 language: nn
 ---
 
-Python er et tekstbasert programmeringsspråk som ofte er anbefalt til
-nybegynnere på grunn av språkets enkle syntaks, men er også mye brukt i
-industrien. Python passer perfekt for 2D-spill, automatisering, vitenskapelig
-analyse, GUI-applikasjoner og servere.
+Python er eit tekstbasert programmeringsspråk som ofte blir anbefalt til
+nybyrjarar fordi det har eit enkelt syntaks. Det er òg mykje brukt i industrien.
+Python passar perfekt for 2D-spel, automatisering, vitskapleg analyse,
+GUI-applikasjonar og serverar.
 
-
-## Hvordan installere Python
+## Korleis installere Python
 
 - Gå til [python.org/downloads](https://python.org/downloads).
-- Last ned Python til din datamaskin. Velg nyeste versjon (3.5.0 per september
-  2015).
-- Installer Python ved å følge installasjonsguiden.
-- Når Python er installert kan du åpne programmet som heter IDLE.
 
-## Hvordan komme igang med Python
+- Last ned Python til datamaskina di. Vel nyaste versjon (3.7.0 per juli 2018).
 
-- Når du er i IDLE, så kan du lage en ny fil for å skrive et program.
-- Trykk på **Ctrl+N** eller **File --> New File** for å lage et nytt program.
-- Skriv: `print("Hello world")`
-- Trykk på **Ctrl+S** eller **File --> Save** for å lagre programmet ditt.
-- Gi programmet ditt navnet helloworld.py og lagre det i den mappen du ønsker.
-- Trykk på **F5** eller **Run --> Run Module** for å kjøre programmet ditt.
-- Du har nå skrevet ditt første program!
+- Installer Python ved å følgje installasjonsguiden.
 
-## Videoer
+- Når Python er installert kan du åpne programmet som heiter IDLE.
 
-- Sjekk ut NTNU sine videoer på norsk for hvordan du kan komme igang og
+## Korleis kome i gang med Python
+
+- Når du er i IDLE kan du lage ei ny fil for å skrive eit program.
+
+- Trykk på `ctrl + N` eller `File --> New File` for å lage eit nytt program.
+
+- Skriv: `print("Hello world")`.`
+
+- Trykk på `ctrl + S` eller `File --> Save` for å lagre programmet ditt.
+
+- Gi programmet ditt namnet `helloworld.py` og lagre det i den mappa du vil.
+
+- Trykk på `F5` eller `Run --> Run Module` for å køyre programmet ditt.
+
+- Du har skrive ditt fyrste Python-program!
+
+## Videoar
+
+- Sjekk ut NTNU sine videoar på norsk for korleis du kan kome i gang med å
   programmere i Python på
-  [youtube](https://www.youtube.com/channel/UCNwXyHlGGOWZLzTy0-hM63w/videos?flow=grid&sort=da&view=0).
+  [YouTube](https://www.youtube.com/channel/UCNwXyHlGGOWZLzTy0-hM63w/videos?flow=grid&sort=da&view=0).
