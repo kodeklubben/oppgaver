@@ -40,7 +40,7 @@ med å lage dine egne spill.
 ## Ressurser
 
 - Vi har en egen guide for veiledere og lærere: [Kom i gang med
-  Scratch](veiledninger/kom_i_gang_med_scratch.html).
+  Scratch](veiledning_kom_i_gang/kom_i_gang_med_scratch.html).
 
 - Last ned kart som passer som bakgrunner i Scratch: [Last ned
   Scratchkart](kart/kart.html).

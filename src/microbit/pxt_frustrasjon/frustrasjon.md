@@ -1,7 +1,8 @@
 ---
 title: 'PXT: Frustrasjon'
 level: 2
-author: dagfs
+author: 'Oversatt fra [Code Club UK](https://codeclubprojects.org/en-GB/microbit/frustration/)'
+translator: dagfs
 language: nb
 ---
 
@@ -21,8 +22,6 @@ Til dette prosjektet trengs det et par ekstra ting:
 - Treklosser med hull til å stikke ståltråden i.
 
 - Buzzer
-
-Basert på: https://codeclubprojects.org/en-GB/microbit/frustration/
 
 
 # Steg 1: Lagre poeng {.activity}

@@ -11,7 +11,7 @@ language: nn
 
 I denne oppgåva skal me importere ein geometrisk figur og så
 `rotere`{.blockmotion} den. Merk at viss du allereie har gjort oppgåva om
-[rotasjon kring eigen akse](../rotasjon/rotasjon_nn.md) kan du hoppe over steg 1
+[rotasjon kring eigen akse](../rotasjon/rotasjon_nn.html) kan du hoppe over steg 1
 og heller laste inn den førre oppgåva di frå "Mine ting"-mappa.
 
 ![Bilete av ein trollmannshatt](../rotasjon/Geometri.png)
