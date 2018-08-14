@@ -1,43 +1,42 @@
 ---
 title: Julekort
 level: 1
-author: Espen Clausen
+author: 'Espen Clausen'
 language: nb
-tags:
-    topic: [block_based, animation]
-    subject: [english, arts_and_crafts, music]
-    grade: [primary, secondary]
 ---
+
 
 # Introduksjon {.intro}
 
 Vi skal lage et julekort i Scratch. Det skal ha noen enkle funksjoner
 og animasjoner. Når det er ferdig vil det se omtrent slik ut.
 
-![](julekort.png)
+![Eksempel på bilde av et julekort](julekort.png)
+
 
 # Steg 1: Endre bakgrunn og finne figurer {.activity}
 
 Når du er klar til å starte velger du `Programmering` i menyen øverst
 på siden <http://scratch.mit.edu/>. Da kommer vi inn i Scratch.
 
-![](programmering.png)
+![Bilde av hvordan starte Scratch fra nettsiden](programmering.png)
 
 ## Sjekkliste {.check}
 
 - [ ] Klikk på scenen ved siden av kattefiguren `Sprite1` i vinduet for
-  figurer. Trykk på ![](../bilder/bakgrunn-fra-bibliotek.png) for å
+  figurer. Trykk på ![bilde av bakgrunn ikonet](../bilder/bakgrunn-fra-bibliotek.png) for å
   importere en ferdig bakgrunn. Velg den bakgrunnen du vil. Slett
   deretter den tomme bakgrunnen som ligger der.
 
-  ![](ny_bakgrunn.png)
+  ![Bilde av hvor ny bakgrunn ikonet i scratch ligger](ny_bakgrunn.png)
 
 - [ ] Slett kattefiguren `Sprite1` ved å høyreklikke på ham og slette.
 
 - [ ] Velg nye figurer fra biblioteket. Legg til isbjørnen, snømannen og
   juletreet.
 
-  ![](velg_figurer.png)
+  ![Bilde av hvor nye figurer ikonet i scratch ligger](velg_figurer.png)
+
 
 # Steg 2: Legge til kode {.activity}
 
@@ -113,6 +112,7 @@ __Trykk på det grønne flagget og se om alt virker.__
 
 - [ ] Danser treet fra side til side?
 
+
 # Steg 3: Har du ledig tid, sier du? {.activity}
 
 Da har du jobbet godt! Om du fortsatt har ledig tid kan du:
@@ -124,7 +124,7 @@ kan synge din egen julesang.
 
   Klikk på `Scene`, og velg fanen `Lyder`{.blocklightgrey}.
 
-  ![](lyder.png)
+  ![Bilde av fanen "Lyder" i Scratch](lyder.png)
 
   Ta op din egen lyd, og gi den et navn, for eksempel
   `julehilsen`. Gå deretter inn på `Skript`{.blocklightgrey}, og
@@ -139,12 +139,13 @@ kan synge din egen julesang.
 danse eller turne litt? Kan vi ha snakkende eller hoppende gale
 julepresanger? Du bestemmer!
 
+
 # Steg 4: Lagre og publisere {.activity}
 
 Gi julekortet ditt et navn. Velg deretter `Lagre nå` fra `Fil`menyen.
 
-![](lagre.png)
+![Bildet av menyen i Scratch](lagre.png)
 
 Deretter kan du publisere julekortet ditt ved å velge `Legg ut`.
 
-![](leggut.png)
+![Bilde av hvordan publisere Scratch julekortet](leggut.png)

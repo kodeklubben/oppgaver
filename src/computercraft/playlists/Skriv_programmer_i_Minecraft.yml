@@ -1,0 +1,11 @@
+sortindex: 1
+title:
+    nb: 'Skriv programmer i Minecraft'
+    nn: 'Skriv program i Minecraft'
+    en: 'Write programs in Minecraft'
+lessons:
+    - installasjon
+    - introduksjon_til_computercraft
+    - hendelser
+    - bygg_et_hus
+    - sprettball

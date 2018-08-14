@@ -1,9 +1,10 @@
 ---
 title: Hendelser
 level: 2
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
 ---
+
 
 # Introduksjon {.intro}
 
@@ -13,7 +14,8 @@ så videre. Etterhvert vil vi bli enda bedre kjent med datamaskinene,
 og lære hvordan vi flytter filer og programmer rundt omkring på en
 datamaskin eller mellom forskjellige datamaskiner.
 
-![](hendelser.png)
+![Illustrasjon av et ferdig skattejakt spill](hendelser.png)
+
 
 # Steg 1: Skattejakt {.activity}
 
@@ -141,7 +143,7 @@ lage et enkelt spill hvor vi styrer en figur med piltastene.
   Når du kjører dette programmet vil du se at du kan bruke `pil
   høyre` til å bevege figuren mot høyre.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 De andre piltastene kan du programmere selv på samme måte. Du trenger
 da å sammenligne med kodene `keys.left`, `keys.down` og
@@ -179,7 +181,7 @@ da å sammenligne med kodene `keys.left`, `keys.down` og
   Prøv spillet! Fungerer det som du hadde trodd? Klarer du å kanskje
   legge til flere skatter?
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Ved hjelp av `local maxX, maxY = term.getSize()` kan du finne
 størrelsen på skjermen. Kan du bruke dette til å begrense figuren din
@@ -188,6 +190,7 @@ slik at den ikke kan gå av skjermen?
 En litt utfordrende oppgave: Prøv å skriv et tilsvarende program til
 en robot, men i stedet for at piltastene bare flytter en figur på
 skjermen skal piltastene flytte roboten!
+
 
 # Steg 2: Hvordan bevege seg rundt i filsystemet {.activity}
 
@@ -242,7 +245,7 @@ se på noen enkle kommandoer for å kopiere og flytte filer.
   For å gå tilbake en katalog bruker du det spesielle navnet
   **..**. Skriv `cd ..`. Du vil nå komme tilbake til utgangspunktet.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Du har nå sett ganske mange kommandoer: `dir`, `edit`, `type`,
 `mkdir`, `move` og `cd`. I tillegg finnes også `delete` som kan brukes
@@ -252,6 +255,7 @@ som `move`, men som kopierer filer i stedet for å flytte dem.
 Prøv å bruke disse kommandoene til å flytte deg litt rundt i
 filsystemet, lag nye filer og kataloger, flytt dem rundt og så videre
 inntil du er ganske komfortabel med hvordan filsystemet fungerer.
+
 
 # Steg 3: Et bedre passord-program {.activity}
 
@@ -268,7 +272,7 @@ har et par svakheter.
 Vi skal her se på et par triks for å gjøre passord-programmet litt
 tryggere.
 
-![](passord.png)
+![Bilde av en vegg med en dør og en datamaskin](passord.png)
 
 ## Sjekkliste {.check}
 
@@ -340,12 +344,13 @@ tryggere.
   få datamaskinen til å gjøre noe annet enn å spørre om passord! Men
   det du lærer i de to neste stegene kan være nyttig.
 
+
 # Steg 4: Bruk av diskettstasjoner {.activity}
 
 Vi skal nå se hvordan vi kan bruke disketter og diskettstasjoner til å
 flytte filer mellom forskjellige datamaskiner.
 
-![](diskettstasjon.png)
+![Bilde av en datamaskin og en diskettstasjon](diskettstasjon.png)
 
 ## Sjekkliste {.check}
 
@@ -409,6 +414,7 @@ eksterne harddisker overtatt for diskettenes bruksområder.
 Morsomt nok, lever likevel diskettene videre som det mest vanlige
 symbolet for å lagre filer i forskjellige programmer.
 
+
 # Steg 5: Skrive kode utenfor ComputerCraft {.activity}
 
 Vi kan også se på og endre programmene våre utenfor Minecraft og
@@ -448,7 +454,7 @@ representerer de forskjellige datamaskinene i spillet ditt. Du vil
 også se en katalog som heter disk, som også har nummererte kataloger
 inne i seg. Disse representerer diskettene i spillet ditt.
 
-![](tekstprogram.png)
+![Bilde av hvordan skrive kode utenfor minecraft](tekstprogram.png)
 
 ## Sjekkliste {.check}
 
@@ -482,6 +488,7 @@ Med kommandoen `label` kan vi gi en datamaskin navn. Prøv for eksempel
 da legger seg i inventory'et ditt med navnet **snakker**. Om du nå
 setter ut maskinen igjen vil du se at alle programmene du har skrevet
 fortsatt finnes på maskinen.
+
 
 # Steg 6: De innebygde programmene {.activity}
 
@@ -552,7 +559,7 @@ siste linjen setter tekstfargen tilbake til hvit.
 Om du vil se hvordan dette virker kan du prøve å lage en **Advanced
 Computer**, og kjøre programmet `hello` på den.
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Prøv å se på noen av de andre programmene du kjenner til, som for
 eksempel `cd`, `go` eller `refuel`. Du må kanskje lete litt i
@@ -561,6 +568,7 @@ kompliserte enn de vi har laget så langt. Prøv likevel å se om du
 skjønner hva deler av koden gjør. Finner du for eksempel kodelinjen
 som bytter katalog i `cd` eller linjen som rapporterer fuelnivået i
 `refuel`?
+
 
 # Steg 7: Andre typer datamaskiner {.activity}
 
@@ -614,7 +622,7 @@ datamaskin, men har noen ekstra muligheter.
   end
   ```
 
-### Prøv selv {.try}
+### Prøv selv {.challenge}
 
 Kan du legge til farger i tegneprogrammet? Se tilbake på
 `hello`-programmet hvordan du kan bruke `term.setTextColour()` til å

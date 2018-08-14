@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eksempler på lyd og video</title>
+  </head>
+
+  <body>
+
+  	<h1>Eksempler på lyd og video</h1>
+  	<hr>
+
+  	<h2>Video</h2>
+
+  	<h3>Enkel video-tagg</h3>
+
+		<video src="spaceship_landing.mp4" type="video/mp4" width="600" height="338">
+		</video>
+
+		<h3>Video med to formater</h3>
+		<video width="600" height="338">
+			<source src="spaceship_landing.ogv" type="video/ogg">
+			<source src="spaceship_landing.mp4" type="video/mp4">
+		</video>
+
+		<h3>Video med et bilde før vi starter avspillingen</h3>
+		<video poster="spaceship_landing.jpg" width="600" height="338">
+			<source src="spaceship_landing.ogv" type="video/ogg">
+			<source src="spaceship_landing.mp4" type="video/mp4">
+		</video>
+
+		<h3>Video som starter automatisk</h3>
+		<video poster="spaceship_landing.jpg" autoplay width="600" height="338">
+			<source src="spaceship_landing.ogv" type="video/ogg">
+			<source src="spaceship_landing.mp4" type="video/mp4">
+		</video>
+
+		<h3>Video med kontroller</h3>
+		<video poster="spaceship_landing.jpg" controls width="600" height="338">
+			<source src="spaceship_landing.ogv" type="video/ogg">
+			<source src="spaceship_landing.mp4" type="video/mp4">
+		</video>
+
+		<h3>Video med en annen størrelse</h3>
+		<video poster="spaceship_landing.jpg" width="500" height="281">
+			<source src="spaceship_landing.ogv" type="video/ogg">
+			<source src="spaceship_landing.mp4" type="video/mp4">
+		</video>
+
+		<hr>
+
+		<h2>Lyd</h2>
+
+		<h3>Enkel lyd-tagg</h3>
+		<audio src="spaceship.mp3">
+		</audio>
+
+		<h3>Lyd med to formater</h3>
+		<audio>
+	 		<source src="spaceship.mp3" type='audio/mp3'>
+	 		<source src="spaceship.ogg" type='audio/ogg; codecs=vorbis'>
+		</audio>
+
+		<h3>Lyd med kontroller</h3>
+		<audio controls>
+	 		<source src="spaceship.mp3" type='audio/mp3'>
+	 		<source src="spaceship.ogg" type='audio/ogg; codecs=vorbis'>
+		</audio>
+
+		<h3>Lyd som starter automatisk</h3>
+		<audio controls autoplay>
+	 		<source src="spaceship.mp3" type='audio/mp3'>
+	 		<source src="spaceship.ogg" type='audio/ogg; codecs=vorbis'>
+		</audio>
+
+
+  </body>
+</html>

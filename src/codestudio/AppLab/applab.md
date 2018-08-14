@@ -1,5 +1,6 @@
 ---
-title: App Lab
+title: 'App Lab'
 level: 4
-external: https://studio.code.org/projects/playlab
+external: 'https://studio.code.org/projects/playlab'
+language: nb
 ---

@@ -1,13 +1,10 @@
 ---
 title: Astrokatt
 level: 1
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [arts_and_crafts, science]
-    grade: [primary, secondary]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -16,7 +13,8 @@ ham? Underveis vil vi lære hvordan vi flytter figurer rundt på
 skjermen, og hvordan katter blir påvirket av gravitasjonskreftene fra
 jorden.
 
-![](astrokatt.png)
+![Bilde av en katt i verdensrommet](astrokatt.png)
+
 
 # Steg 1: En flyvende katt {.activity}
 
@@ -108,6 +106,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Kan du få katten til å fly raskere eller saktere ved å endre i koden?
 
+
 # Steg 2: Ut i verdensrommet! {.activity}
 
 Nå skal vi sende den flyvende katten ut i verdensrommet.
@@ -125,7 +124,7 @@ Nå skal vi sende den flyvende katten ut i verdensrommet.
 - [ ] Velg først en litt lys farge. Klikk deretter på Ellipse-verktøyet
   til høyre på skjermen, og tegn en ellipse rundt hodet på katten.
 
-  ![](katt_oksygentank.png)
+  ![Bilde av katt med oksygentank](katt_oksygentank.png)
 
 Til slutt lager vi også en jordklode, som katten kan fly rundt.
 
@@ -138,6 +137,7 @@ Til slutt lager vi også en jordklode, som katten kan fly rundt.
 __Klikk på det grønne flagget.__
 
 - [ ] Flyr katten rundt omkring i verdensrommet?
+
 
 # Steg 3: Litt mer ekte ... {.activity}
 
@@ -211,7 +211,7 @@ __Klikk på det grønne flagget.__
   klossene.
 
 - [ ] Av og til vil katten fly bak jordkloden. For å slippe det kan du
-  legge klossen `legg øverst`{.blocklooks} først i katten sitt
+  legge klossen `legg foran`{.blocklooks} først i katten sitt
   skript.
 
 ## Test prosjektet {.flag}
@@ -223,6 +223,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Prøv også å flytte jordkloden til andre steder på skjermen. Blir det
   annerledes å fly med katten nå?
+
 
 # Steg 4: Gravitasjon {.activity}
 
