@@ -14,6 +14,10 @@ gjennom følgende oppgaver før man starter på denne:
 - [Hemmelige koder](../hemmelige_koder/hemmelige_koder.html)
 - [Hash-funksjoner](../hash-funksjoner/hash-funksjoner.html)
 
+Det kan være en fordel å repetere leksjonen om ordbøker,
+
+- [Ordbøker](../ordboker/ordboker.html)
+
 Oppgaven er ikke testet på hele målgruppen, så tilbakemeldinger på nivået
 og egnede trinn er velkomment.
 
@@ -61,12 +65,14 @@ __Tidsbruk__: Dobbeltime
 Vi har dessverre ikke noen konkrete tips, erfaringer eller utfordringer
 tilknyttet denne oppgaven enda.
 
-På de laveste trinnene kan temaet kan virke matematisk krevende når en
-ser på det første gang. Derfor kan det kanskje være nyttig å først og
-fremst angripe det fra et programmeringsperspektiv, for koden i seg
-selv er ikke særlig komplisert. I neste omgang kan man da bruke det en
-har programmert for å forstå matematikken bedre.
+Denne leksjonen er noe mer krevende programmeringsmessig enn de fleste
+andre leksjonene i kryptografi-serien. Den bør likevel være gjennomførbar
+fordi den krever forholdsvis liten egeninnsats, og vil forhåpentligvis
+være spennende fordi den er så tett innpå det som er *best practice* i
+den virkelige verden.
 
 ## Variasjoner {.challenge}
 
 ## Eksterne ressurser {.challenge}
+
+- [ ] Fra kanalen *Computerphile* på YouTube: [Password Cracking - Computerphile](https://www.youtube.com/watch?v=7U-RbOKanYs)
