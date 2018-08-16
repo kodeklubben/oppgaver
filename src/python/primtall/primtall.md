@@ -27,7 +27,7 @@ at vi får en *rest*. Åpne IDLE, men uten å lage en ny fil. Der det står
       2 går opp 7 ganger i 15
 - [ ] Skriv `15 % 2` og trykk Enter. Da skal du få 1. Til sammen betyr 
       dette at 15 delt på 2 blir 7, med 1 til rest.
-- [ ] Prøv det samme med `15//6` og `15//6`. Hva betyr svarene du får ut?
+- [ ] Prøv det samme med `15//6` og `15 % 6`. Hva betyr svarene du får ut?
 - [ ] Skriv `15 % 3`. Da får du 0. Hvorfor?
 
 # Steg 2: Enkel prøvedivisjon {.activity}
@@ -66,13 +66,13 @@ og sjekker om alle tall som er mindre enn `n` går opp i `n`.
 Vi har laget et program som gir riktig svar, men som bruker veldig lang 
 tid på å gjøre det. Da må vi se om vi kan øke hastigheten på koden vår, 
 og her kan vi få hjelp av et enkelt matematisk argument. Si at et tall 
-*n* er et produkt av to andre, slik at *n = pq*. Da må enten *p* eller 
-*q* være mindre enn kvadratroten av *n*. 
+$n$ er et produkt av to andre, slik at $n = pq$. Da må enten $p$ eller 
+$q$ være mindre enn (eller lik) kvadratroten av $n$. 
 
 (Hvis du er interessert, her er en forklaring på hvorfor: Hvis begge er 
-større, så får vi følgende utregning: *n* = *pq* > √*n* √*n* = *n*. Da 
-har vi *n* > *n*, og det er umulig. Derfor må minst en av *p* og *q* 
-være mindre.)
+større, så får vi følgende utregning: $n = pq > \sqrt{n} \sqrt{n} = n$. Da 
+har vi $n > n$, og det er umulig. Derfor må minst en av *p* og *q* 
+være mindre eller lik.)
 
 I Python kan vi regne ut kvadratrøtter ved å bruke funksjonen `sqrt` som 
 finnes i `math`-biblioteket. Siden `sqrt` kan returnere et flyttall, 
@@ -180,7 +180,7 @@ koden.
       for prime in small_primes:
           if n % prime == 0:
               return False
-      for i in range(20, ceil(sqrt(n)) + 1, 2):
+      for i in range(21, ceil(sqrt(n)) + 1, 2):
           if is_prime(i):
               if n % i == 0:
                   return False
@@ -255,15 +255,15 @@ def is_prime(n, small_primes=[2, 3, 5]):
     for prime in small_primes:
         if n % prime == 0:
             return False
-    min = small_primes[-1]
-    for i in range(min, ceil(sqrt(n)), 2):
+    start = small_primes[-1] + 2
+    for i in range(start, ceil(sqrt(n)), 2):
         if is_prime(i):
             if n % i == 0:
                 return False
     return True
 
-max = 1000000
-small_primes = eratosthenes(max)
+upper_bound = 1000000
+small_primes = eratosthenes(upper_bound)
 
 print(is_prime(15, small_primes))
 print(is_prime(29, small_primes))

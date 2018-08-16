@@ -10,7 +10,7 @@ Denne oppgaven inngår i en serie om kryptografi, og er den første som
 omhandler moderne temaer. Oppgaven kan brukes frittstående.
 
 Oppgaven er ikke testet på hele målgruppen, så tilbakemeldinger på nivået
-og egnede trinn er velkomment.
+og egnede trinn er velkommen.
 
 ## Oppgaven passer til: {.check}
 
