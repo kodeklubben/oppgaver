@@ -4,8 +4,8 @@ level: 4
 author: Martin Strand
 language: nb
 tags:
-  topic: [text_based]
-  subject: [programming, cryptography]
+  topic: [text_based, cryptography]
+  subject: [programming]
   grade: []
 ---
 
