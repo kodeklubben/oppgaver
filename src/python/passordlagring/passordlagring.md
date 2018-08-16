@@ -28,8 +28,6 @@ nettsider i dag.
 
 Til slutt vil vi kanskje også forstå hvorfor passordtipsene er som de er.
 
-Til denne leksjonen må du bruke Python 3.4 eller nyere.
-
 ## Advarsel {.tip}
 
 Selv om dagens sluttresultat vil være ganske sikkert, bør du likevel
@@ -51,7 +49,7 @@ tillegg inn en ordliste med omtrent 500 000 ord. Vi skal bruke den til
 - [ ] Last ned [kodefilen](./password_cracker.py) og
       [ordboken](./ordliste_aspell.txt). Det kan hende du må høyreklikke
       og velge "Lagre linken som ..." eller lignende. Legg begge filene
-      i samme katalog, og åpne `password_cracker.py` i IDLE. Prøv å
+      i samme mappe, og åpne `password_cracker.py` i IDLE. Prøv å
       forstå de punktene som følger.
 - [ ] Linje 18: Her endrer vi litt på ordboka vår. Funksjonen `strip()`
       fjerner alle mellomrom og linjeskiftstegn, og `lower()` sørger for
@@ -126,9 +124,10 @@ bokstaver, som i passordet til "tjesi". Bare ekstremt gode passord ville
 motstått et slikt angrep, resten hadde blitt funnet på under et sekund.
 
 Nå skal vi gjøre en forbedring som gjør at alt det forarbeidet blir til
-ingen nytte. Angrepet fungerer så godt fordi man hver gang noen lagrer
-"appelsin", så lagres det på samme måte. Hvis vi kan få "appelsin" til å
-bli lagret på nytt hver gang så har vi plutselig gjort det litt
+ingen nytte. Angrepet fungerte så godt fordi man alltid lagret samme hash
+når noen valgte samme passord, for eksempel "appelsin".
+Hvis vi kan få "appelsin" til å
+bli lagret som en ny streng hver gang så har vi plutselig gjort det litt
  vanskeligere. Det løser vi ved å finne en tilfeldig verdi som vi hasher
  sammen med passordet. Den tilfeldige verdien kalles *salt* og lagres
  ved siden av det beskyttede passordet, slik at det blir enkelt å teste
@@ -186,7 +185,7 @@ enda mye raskere.
 
 Salt alene var visst ikke nok. Vi kan ikke lenger bruke det samme
 forarbeidet som vi snakket om over, så vi må teste mot hele listen vår
-for hvert passord, men problemet er at det går så raskt å sjekke hele
+for hvert passord. Problemet er at det går så raskt å sjekke hele
 listen, så alle enkle passord blir avslørt med én gang likevel. Måten
 man da prøver å reparere dette på, er å sørge for at det ikke lenger er
 raskt å gå gjennom listen.
