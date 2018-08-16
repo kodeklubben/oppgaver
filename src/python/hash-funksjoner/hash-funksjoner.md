@@ -1,12 +1,7 @@
 ---
 title: Hash-funksjoner
-level: 3
 author: Martin Strand
 language: nb
-tags:
-  topic: [text_based]
-  subject: [mathematics, programming, cryptography]
-  grade: []
 ---
 
 # Introduksjon {.intro}
@@ -40,12 +35,12 @@ oppover. Det er sjekksifferet ditt.
 
 Husk at når vi jobber med en liste i Python, så er *den første* på plass
 0, så når det står `digits[0]`, så er det det første tallet, og
-`digits[1]` er det andre tallet -- også videre.
+`digits[1]` er det andre tallet -- og så videre.
 
 ## Eksempel {.tip}
 
 Jeg har valgt en tilfeldig bok fra bokhylla mi. EAN-13-koden er
-9780062731029. La oss sjekke at den stemmer.
+9780062731029. La oss sjekke at den er gyldig.
 
 Først regner vi ut 3 · (7 + 0 + 6 + 7 + 1 + 2) = 69 og 9 + 8 + 0 + 2 +
 3 + 0 = 22. 69 + 22 = 91. Den nærmeste tieren oppover er 100, så da er
@@ -130,7 +125,7 @@ alle situasjoner der man vil ha sterk sikkerhet.
 # Steg 3: Sikring av Cæsar-chifferet
 
 Tidligere har du programmert Cæsar-chifferet. Men, en av de mange
-svakhetene der er et at hvis du sender meldingen med et bud, så kan
+svakhetene der er at hvis du sender meldingen med et bud, så kan
 budet bare legge inn en helt ny melding. Antageligvis blir det helt
 uforståelig når det dekrypteres, men det er ingen måte mottakeren kan
 avgjøre om det er du som har gjort en feil, eller om det er budet som
@@ -140,7 +135,7 @@ I koden til Cæsar-chifferet er det en variabel som heter `secrets`. Den
 skal vi bruke her også. I koden bruker vi forkortelsen *mac*, den står
 for *message authentication code*.
 
-- [ ] Lag en ny fil i
+- [ ] Lag en ny fil i IDLE
 - [ ] Legg til de følgende funksjonene i fila di
   ```python
   secret = 17
@@ -159,7 +154,7 @@ for *message authentication code*.
 - [ ] Prøv `mac(secret, message)`. Det du skal sende til mottakeren nå
       er ikke bare `yvååc kcfåu`, men `('yvååc kcfåu',  'b5a1c943bf39423f55a6fa4e43a7642feddd371c355ec4560b2f360a2634d244')`.
 - [ ] Mottakeren (eller du selv) skriver følgende:
-      `mac(secret, 'yvååc kcfåu', 'b5a1c943bf39423f55a6fa4e43a7642feddd371c355ec4560b2f360a2634d244')`.
+      `verify_mac(secret, 'yvååc kcfåu', 'b5a1c943bf39423f55a6fa4e43a7642feddd371c355ec4560b2f360a2634d244')`.
       Det skal da komme en beskjed om at alt er i OK. Prøv å endre på
       enten meldingen eller hash-verdien. Hva får du da beskjed om?
 - [ ] Sett sammen denne koden med det du har gjort i Cæsar-chifferet

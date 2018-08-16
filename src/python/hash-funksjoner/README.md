@@ -13,7 +13,7 @@ anbefales å gå gjennom følgende oppgaver før man starter på denne:
 - [Hemmelige koder](../hemmelige_koder/hemmelige_koder.html)
 
 Oppgaven er ikke testet på hele målgruppen, så tilbakemeldinger på nivået
-og egnede trinn er velkomment.
+og egnede trinn er velkomne.
 
 ## Oppgaven passer til: {.check}
 
