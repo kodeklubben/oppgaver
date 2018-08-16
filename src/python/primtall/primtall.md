@@ -1,12 +1,7 @@
 ---
 title: Primtall og effektivitet
-level: 3
 author: Martin Strand
 language: nb
-tags:
-  topic: [text_based]
-  subject: [mathematics, programming, cryptography]
-  grade: []
 ---
 
 # Introduksjon {.intro}
