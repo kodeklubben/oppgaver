@@ -1,12 +1,7 @@
 ---
 title: Diffie-Hellman nøkkelutveksling
-level: 3
 author: Martin Strand
 language: nb
-tags:
-  topic: [text_based]
-  subject: [mathematics, programming, cryptography]
-  grade: []
 ---
 
 # Introduksjon {.intro}
@@ -140,6 +135,7 @@ om man kan få den samme verdien som ble ropt ut.
   def find_secret(share, g, p)
       # din kode her
       return a
+  ```
 - [ ] Du har nå funnet noens hemmelige tall. Den personen hadde en
       partner. Bruk tallet som partneren sa høyt som `other_share` i
       `generate_secret`, og finn deres delte hemmelighet ved hjelp av

@@ -15,7 +15,7 @@ oppgaver før man starter på denne:
 - [Tilfeldige tall](../tilfeldige_tall/tilfeldige_tall.html)
 
 Oppgaven er ikke testet på hele målgruppen, så tilbakemeldinger på nivået
-og egnede trinn er velkomment.
+og egnede trinn er velkomne.
 
 ## Oppgaven passer til: {.check}
 
