@@ -11,7 +11,7 @@ frittstående, og har som sekundærmål å lære elevene å bruke skriftlig
 dokumentasjon av programmeringsspråket.
 
 Oppgaven er ikke testet på hele målgruppen, så tilbakemeldinger på nivået
-og egnede trinn er velkomment.
+og egnede trinn er velkomne.
 
 ## Oppgaven passer til: {.check}
 

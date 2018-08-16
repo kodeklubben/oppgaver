@@ -1,12 +1,7 @@
 ---
 title: Tilfeldige tall
-level: 3
 author: Martin Strand
 language: nb
-tags:
-  topic: [text_based]
-  subject: [mathematics, programming, cryptography]
-  grade: []
 ---
 
 # Introduksjon {.intro}
@@ -60,7 +55,7 @@ dataene blir jevnt fordelt, og at det ikke blir for kraftig samling på
 visse steder. Kopier alle de tilfeldige tallene fra koden i punkt 2 over
 (du må antageligvis rulle oppover for å få med deg alle), og gå inn på
 [https://www.wessa.net/rwasp_histogram.wasp](https://www.wessa.net/rwasp_histogram.wasp).
-im inn tallene der det står "Data". Sett "Sample Range" til henholdsvis
+Lim inn tallene der det står "Data". Sett "Sample Range" til henholdsvis
 0 og 1000 (eller andre grenser dersom du har gjort endringene i koden
 over). Sett "Number of bins" til 4 eller 5. Trykk til slutt "Compute",
 og du vil få opp en graf som viser hvordan tallene er fordelt. Vi har
@@ -106,7 +101,7 @@ Vi kommer tilbake til hvordan vi kan løse dette problemet.
 
 # Steg 3: Tilfeldige tall for hemmelige koder {.activity}
 
-I steg 1 så vi at det det er viktig at de tilfeldige tallene blir fordelt
+I steg 1 så vi at det er viktig at de tilfeldige tallene blir fordelt
 *uniformt*, altså at alle er like sannsynlige, og i steg 2 så vi at de
 tilfeldige tallene fullt og helt avhenger av hva vi legger inn i starten.
 Det er også et tredje problem vi må tenke på: Dersom man får se på
