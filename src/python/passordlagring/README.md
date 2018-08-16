@@ -16,10 +16,10 @@ gjennom følgende oppgaver før man starter på denne:
 
 Det kan være en fordel å repetere leksjonen om ordbøker,
 
-- [Ordbøker](../ordboker/ordboker.html)
+- [Ordbøker](../ordboeker/ordboeker.html)
 
 Oppgaven er ikke testet på hele målgruppen, så tilbakemeldinger på nivået
-og egnede trinn er velkommen.
+og egnede trinn er velkomne.
 
 ## Oppgaven passer til: {.check}
 
