@@ -1,13 +1,10 @@
 ---
 title: Hendelser
 level: 2
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [text_based, minecraft, game]
-    subject: [technology, programming]
-    grade: [secondary, junior, senior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -17,7 +14,8 @@ så videre. Etterhvert vil vi bli enda bedre kjent med datamaskinene,
 og lære hvordan vi flytter filer og programmer rundt omkring på en
 datamaskin eller mellom forskjellige datamaskiner.
 
-![](hendelser.png)
+![Illustrasjon av et ferdig skattejakt spill](hendelser.png)
+
 
 # Steg 1: Skattejakt {.activity}
 
@@ -193,6 +191,7 @@ En litt utfordrende oppgave: Prøv å skriv et tilsvarende program til
 en robot, men i stedet for at piltastene bare flytter en figur på
 skjermen skal piltastene flytte roboten!
 
+
 # Steg 2: Hvordan bevege seg rundt i filsystemet {.activity}
 
 Datamaskiner organiserer informasjon i filer, og disse filene legges i
@@ -257,6 +256,7 @@ Prøv å bruke disse kommandoene til å flytte deg litt rundt i
 filsystemet, lag nye filer og kataloger, flytt dem rundt og så videre
 inntil du er ganske komfortabel med hvordan filsystemet fungerer.
 
+
 # Steg 3: Et bedre passord-program {.activity}
 
 Vi har tidligere laget et passord-program. Dette passord-programmet
@@ -272,7 +272,7 @@ har et par svakheter.
 Vi skal her se på et par triks for å gjøre passord-programmet litt
 tryggere.
 
-![](passord.png)
+![Bilde av en vegg med en dør og en datamaskin](passord.png)
 
 ## Sjekkliste {.check}
 
@@ -344,12 +344,13 @@ tryggere.
   få datamaskinen til å gjøre noe annet enn å spørre om passord! Men
   det du lærer i de to neste stegene kan være nyttig.
 
+
 # Steg 4: Bruk av diskettstasjoner {.activity}
 
 Vi skal nå se hvordan vi kan bruke disketter og diskettstasjoner til å
 flytte filer mellom forskjellige datamaskiner.
 
-![](diskettstasjon.png)
+![Bilde av en datamaskin og en diskettstasjon](diskettstasjon.png)
 
 ## Sjekkliste {.check}
 
@@ -413,6 +414,7 @@ eksterne harddisker overtatt for diskettenes bruksområder.
 Morsomt nok, lever likevel diskettene videre som det mest vanlige
 symbolet for å lagre filer i forskjellige programmer.
 
+
 # Steg 5: Skrive kode utenfor ComputerCraft {.activity}
 
 Vi kan også se på og endre programmene våre utenfor Minecraft og
@@ -452,7 +454,7 @@ representerer de forskjellige datamaskinene i spillet ditt. Du vil
 også se en katalog som heter disk, som også har nummererte kataloger
 inne i seg. Disse representerer diskettene i spillet ditt.
 
-![](tekstprogram.png)
+![Bilde av hvordan skrive kode utenfor minecraft](tekstprogram.png)
 
 ## Sjekkliste {.check}
 
@@ -486,6 +488,7 @@ Med kommandoen `label` kan vi gi en datamaskin navn. Prøv for eksempel
 da legger seg i inventory'et ditt med navnet **snakker**. Om du nå
 setter ut maskinen igjen vil du se at alle programmene du har skrevet
 fortsatt finnes på maskinen.
+
 
 # Steg 6: De innebygde programmene {.activity}
 
@@ -565,6 +568,7 @@ kompliserte enn de vi har laget så langt. Prøv likevel å se om du
 skjønner hva deler av koden gjør. Finner du for eksempel kodelinjen
 som bytter katalog i `cd` eller linjen som rapporterer fuelnivået i
 `refuel`?
+
 
 # Steg 7: Andre typer datamaskiner {.activity}
 

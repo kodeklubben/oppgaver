@@ -1,13 +1,10 @@
 ---
 title: Halloweenimasjon
 level: 1
-author: Torbjørn Skauli og Geir Arne Hjelle
+author: 'Torbjørn Skauli og Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based, animation]
-    subject: [english, arts_and_crafts, programming]
-    grade: [primary, secondary, junior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -16,7 +13,8 @@ Halloween-tema. Disse kan vi enten dele med vennene våre gjennom
 Scratch, eller kanskje enda morsommere: Vi kan projisere dem på en
 gardin, et laken eller en vegg under Halloween.
 
-![](halloweenimasjon.jpg)
+![Bilde av et skummelt halloween ansikt](halloweenimasjon.jpg)
+
 
 # Steg 1: En første animasjon {.activity}
 
@@ -36,7 +34,7 @@ gardin, et laken eller en vegg under Halloween.
 - [ ] Trykk på `i`{.blockmotion} øverst til venstre på den nye
   spøkelsesfiguren din. Gi den navnet `Spøkelse`.
 
-  ![](spokelse.png)
+  ![Bilde av et skummelt spøkelse](spokelse.png)
 
 - [ ] Nå skal vi lage et enkelt skript som får spøkelset til å fly over
   skjermen. Bygg sammen en `gjenta`{.blockcontrol}- og en
@@ -87,11 +85,12 @@ gardin, et laken eller en vegg under Halloween.
 
 - [ ] Gi bakgrunnen navnet `Svart`.
 
+
 # Steg 2: Enda en animasjon {.activity}
 
 *For vår andre animasjon vil en demon komme flyvende mot oss.*
 
-![](demon.png)
+![Bilde av en skummel demon](demon.png)
 
 ## Sjekkliste {.check}
 
@@ -147,6 +146,7 @@ gardin, et laken eller en vegg under Halloween.
   ![Velg en ferdig bakgrunn](../bilder/bakgrunn-fra-bibliotek.png)
   helt til venstre på skjermen, og velg bakgrunnen
   `Utendørs/forest`. Gi bakgrunnen navnet `Skog`.
+
 
 # Steg 3: Bytte bakgrunner {.activity}
 
@@ -230,6 +230,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   animasjonene når du klikker på meldingene? Byttes bakgrunnene
   riktig?
 
+
 # Steg 4: Koble sammen animasjonene {.activity}
 
 *Nå skal vi se hvordan vi kan koble sammen animasjonene slik at de
@@ -304,6 +305,7 @@ __Klikk på det grønne flagget.__
   ut. Kanskje du vil ha litt andre figurer? Hvordan kan du få figurene
   til å bevege seg raskere? Kanskje litt mer tilfeldig? Prøv deg frem!
 
+
 # Steg 5: Tegn egne figurer {.activity}
 
 *Vi vil nå lage en tredje animasjon hvor vi tegner en figur på egen hånd*
@@ -315,12 +317,12 @@ __Klikk på det grønne flagget.__
   figur`. Du kan tegne hva du vil. Her har vi tegnet et
   Jack-O'-Lantern-gresskar.
 
-  ![](gresskar.png)
+  ![Bilde av gresskar med utskjært ansikt](gresskar.png)
 
 - [ ] Lag en kopi av drakten du nettopp tegnet ved å høyreklikke på
   miniatyren under `Ny drakt`-overskriften og velg `lag en kopi`.
 
-  ![](kopier_gresskar.png)
+  ![Bilde av hvordan lage en kopi av gresskaret i scratch](kopier_gresskar.png)
 
 - [ ] Endre litt på den kopierte drakten, slik at du får to drakter som er
   ganske, men ikke helt, like. Vi vil nå animere figuren ved å bytte
@@ -373,9 +375,13 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
+
 # Steg 6: Enda flere animasjoner? {.activity}
 
-### Prøv selv {.challenge}
+##
+
+
+# Prøv selv {.challenge}
 
 Vi har nå sett noen eksempler på hvordan vi kan lage skumle
 halloween-animasjoner. Prøv å bruk lignende teknikker for å lage dine
@@ -385,6 +391,7 @@ egne animasjoner!
 
 Når du er fornøyd med animasjonene dine kan du dele det med familie og
 venner, ved å trykke `Legg ut`.
+
 
 # Projiser animasjonene {.activity}
 

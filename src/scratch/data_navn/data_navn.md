@@ -1,21 +1,19 @@
 ---
-title: "Bruk data: Jente- og guttenavn"
+title: 'Bruk data: Jente- og guttenavn'
 level: 2
-author: Geir Arne Hjelle
+author: 'Geir Arne Hjelle'
 language: nb
-tags:
-    topic: [block_based]
-    subject: [mathematics, norwegian]
-    grade: [primary, secondary]
 ---
+
 
 # Introduksjon {.intro}
 
-Vi skal her se hvordan vi kan bruke navnelister fra
-[Statistisk Sentralbyrå](http://www.ssb.no/navn) i Scratch. Kanskje katten
-klarer å finne forskjellen på jente- og guttenavn?
+Vi skal her se hvordan vi kan bruke navnelister fra [Statistisk
+Sentralbyrå](http://www.ssb.no/navn) i Scratch. Kanskje katten klarer å finne
+forskjellen på jente- og guttenavn?
 
-![](data_navn.png)
+![Illustrer katten Felix som skiller mellom jente- og guttenavn](data_navn.png)
+
 
 # Steg 1: Statistisk Sentralbyrås navnelister {.activity}
 
@@ -33,9 +31,9 @@ mange i Norge som får hvilke navn, både i dag og tidligere.*
     historisk utvikling for navnet **Sonja**. Det har to veldig tydelige topper,
     en på 1920-tallet og en til på 1960-tallet. Kan du forklare dette?
 
-- [ ] Vi vil hente ut lister med alle jente- og guttenavnene. Disse finner vi ved å
-  klikke på fanen **Tabeller**. På denne siden finner du blant annet to tabeller
-  som heter **Jentenavn, alfabetisk** og **Guttenavn, alfabetisk** (med
+- [ ] Vi vil hente ut lister med alle jente- og guttenavnene. Disse finner vi
+  ved å klikke på fanen **Tabeller**. På denne siden finner du blant annet to
+  tabeller som heter **Jentenavn, alfabetisk** og **Guttenavn, alfabetisk** (med
   årstall). Last ned disse to tabellene enten i **Excel** eller **CSV**-format.
 
 - [ ] Åpne filene du nettopp lastet ned i Excel eller et tilsvarende
@@ -48,16 +46,18 @@ mange i Norge som får hvilke navn, både i dag og tidligere.*
 - [ ] Legg begge listene inn i det samme regnearket, og gi dem beskrivende
   overskrifter. Dette vil se ut omtrent som dette:
 
-    ![](navnelister_regneark.png)
+    ![Bilde av regneark med kolonne for jente- og guttenavn](navnelister_regneark.png)
 
-- [ ] Dette er viktig! Lagre regnearket som CSV. Du gjør dette ved å velge **Lagre
-  som** eller **Eksporter** fra menyen og deretter velge formatet **CSV**. Gi
-  filen din et navn du vil kjenne igjen, for eksempel `navnelister.csv`.
+- [ ] Dette er viktig! Lagre regnearket som CSV. Du gjør dette ved å velge
+  **Lagre som** eller **Eksporter** fra menyen og deretter velge formatet
+  **CSV**. Gi filen din et navn du vil kjenne igjen, for eksempel
+  `navnelister.csv`.
 
-- [ ] Gå til verktøyet for å [lese data inn i Scratch](../data/data.html). Trykk på
-  knappen **Last opp datafil**, og velg CSV-filen du nettopp laget. Dette vil
+- [ ] Gå til verktøyet for å [lese data inn i Scratch](../data/data.html). Trykk
+  på knappen **Last opp datafil**, og velg CSV-filen du nettopp laget. Dette vil
   laste ned et Scratchprosjekt på datamaskinen din, sannsynligvis en fil som
   heter `data.sb2` i `Nedlastinger`-katalogen din.
+
 
 # Steg 2: Hent navnelistene inn i Scratch {.activity}
 
@@ -67,13 +67,13 @@ mange i Norge som får hvilke navn, både i dag og tidligere.*
 
 - [ ] Start et nytt Scratchprosjekt.
 
-- [ ] Velg **Fil** i menyen og klikk på **Last opp fra maskinen**. Velg filen som
-  ble lastet ned i forrige steg, sannsynligvis heter den `data.sb2` og ligger i
-  katalogen `Nedlastinger`.
+- [ ] Velg **Fil** i menyen og klikk på **Last opp fra maskinen**. Velg filen
+  som ble lastet ned i forrige steg, sannsynligvis heter den `data.sb2` og
+  ligger i katalogen `Nedlastinger`.
 
 - [ ] Klikk **OK**. Navnelistene vil nå lastes inn. Det skal se omtrent slik ut:
 
-    ![](navnelister_scratch.png)
+    ![Bilde av navnelistene i Scratch](navnelister_scratch.png)
 
 - [ ] Navnelistene er eksempler på noe som rett og slett kalles **lister** i
   Scratch. De programmeres ved hjelp av klosser som ligger i
@@ -88,6 +88,7 @@ Scratch. Ved hjelp av [dataverktøyet](../data/data.html) kan du lese inn
 kjempemasse data som du eller noen andre allerede har laget.
 
 Har du noen ideer til andre data du vil lese inn på samme måte?
+
 
 # Steg 3: Bruk navnelistene {.activity}
 

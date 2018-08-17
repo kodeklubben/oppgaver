@@ -10,6 +10,7 @@ language: nb
 <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>-->
 <script type="text/javascript" src="papaparse.min.js"></script> <!-- Using local copy because CDN contains a bug in guessDelimiter, should disappear when they bump version -->
 
+
 # Introduksjon {.intro}
 
 Her kan du gjøre om regneark og datafiler til lister som du kan bruke i
@@ -21,6 +22,7 @@ Scratchprosjektene dine.
 
   <div id="feilmelding"></div>
 </div>
+
 
 # Hvordan laste opp en datafil {.activity}
 
@@ -38,6 +40,7 @@ lage dine egne med regnearkprogrammer som Excel, Numbers eller Libre Office._
 Dette vil lage et Scratchprosjekt av datafilen din. Om du ikke får velge filnavn
 selv vil prosjektet hete `data.sb2` og sannsynligvis ligge i en katalog som
 heter `Nedlastinger`.
+
 
 # Hvordan laste dataene inn i Scratch {.activity}
 
