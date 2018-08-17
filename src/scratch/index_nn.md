@@ -38,7 +38,7 @@ lage dine eigne spel.
 ## Ressursar
 
 - Me har ein eigen guide for rettleiarar og lærarar: [Kom i gang med
-  Scratch](veiledninger/kom_i_gang_med_scratch_nn.html).
+  Scratch](veiledning_kom_i_gang/kom_i_gang_med_scratch_nn.html).
 
 - Last ned kart som passar som bakgrunnar i Scratch: [Last ned
   Scratchkart](kart/kart_nn.html).
