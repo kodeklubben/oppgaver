@@ -1,12 +1,7 @@
 ---
 title: Trygg lagring av passord
-level: 4
 author: Martin Strand
 language: nb
-tags:
-  topic: [text_based, cryptography]
-  subject: [programming]
-  grade: []
 ---
 
 # Introduksjon {.intro}
