@@ -1,8 +1,8 @@
 ---
 title: Lærerveiledning - Uendelig bakke
+author: Stein Olav Romslo
 level: 1
 language: nb
-author: Stein Olav Romslo
 ---
 
 
