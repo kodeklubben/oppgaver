@@ -3,9 +3,9 @@ title: Java FX
 language: nn
 ---
 
-Java er et objektorientert programmeringsspråk, og dette kurset krever
-forkunnskaper og erfaring med tekstbasert programmering fra tidligere. Java FX
-er et sett av biblioteker til Java som gjør det enklere å lage grafikk og teste
-programmer.
+Java er eit objektorientert programmeringsspråk, og dette kurset krev
+forkunnskapar og erfaring med tekstbasert programmering frå før. Java FX er eit
+sett bibliotek til Java som gjer det enklare å lage grafikk og teste program.
 
-[Her finner du en wiki om objektorientert programmering i Java fra NTNU](https://www.ntnu.no/wiki/display/tdt4100/Faginnhold)
+[Her finn du ein wiki om objektorientert programmering i Java frå
+NTNU](https://www.ntnu.no/wiki/display/tdt4100/Faginnhold)
