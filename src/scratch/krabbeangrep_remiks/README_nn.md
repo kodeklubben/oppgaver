@@ -69,7 +69,7 @@ oppgåva, til dømes ved å gjere ein eller fleire av variasjonane under.
 
 Her finn du tips, erfaringar og utfordringar til dei ulike stega i oppgåva.
 [Klikk her for å sjå
-oppgåveteksten.](../krabbeangrep/krabbeangrep_nn.html){target=_blank}
+oppgåveteksten.](../krabbeangrep_remiks/krabbeangrep_remiks_nn.html){target=_blank}
 
 _Me har diverre ikkje nokre tips, erfaringar eller utfordringar knytta til denne
 oppgåva endå._
