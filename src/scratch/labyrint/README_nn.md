@@ -100,6 +100,25 @@ oppgåveteksten.](../labyrint/labyrint_nn.html){target=_blank}
   litt *for enkel*. Nokre enkle tips for å motverke problemet er presentert i
   tipsboksen nedst i steg 5 i oppgåva.
 
+
+# Stopp alle {.activity}
+
+Me brukar klossen `stopp alle`{.b} for å stoppe alle skripta i programmet når
+froskekongen tek utforskaren. Det stoppar alle skripta som starta då me trykka
+på det grøne flagget, men det hindrar ikkje nye skript å starte. Difor kan
+framleis utforskaren bli flytta rundt med piltastane etterpå.
+
+Sidan oppgåva er eit introduksjonsprosjekt er det ikkje gjort noko med dette.
+For elevar som har lyst å prøve seg på ei løysing kan du foreslå det følgjande:
+
+- [ ] Lag ein `game_over`-variabel som er sett til `false` eller `0` når spelet
+  pågår, som blir sjekka kvar gong spelaren trykkjer ein piltast, før
+  utforskaren flyttar seg. Set variabelen til `true` eller `1` når spelet er
+  over.
+
+- [ ] Ei meir vanleg (og betre) løysing er å bruke ei `for alltid`-løkke med
+  `viss ... er trykt?`-klossar. Desse blir stoppa av `stopp alle`-klossen.
+
 ## Variasjonar {.challenge}
 
 - [ ] Dette er eit introduksjonsprosjekt, så elevane blir ført ganske detaljert
