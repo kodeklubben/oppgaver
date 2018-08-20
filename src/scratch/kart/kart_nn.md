@@ -20,7 +20,7 @@ Scratch-prosjekta dine.
 
   <p>
     <br />
-    <a id="last_ned_som_bilete" class="btn btn-default btn-lg btn-block">Last ned som Scratch-bakgrunn</a>
+    <a id="last_ned_som_bilde" class="btn btn-default btn-lg btn-block">Last ned som Scratch-bakgrunn</a>
   </p>
 </div>
 
