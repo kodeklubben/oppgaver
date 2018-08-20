@@ -39,7 +39,7 @@ Me har begynt å lage fire funksjonar for deg. Desse skal du gi innhald gjennom
 steg 1 til 4.
 
 
-# Steg 0: Test at alt fungerer {.activity}
+# Test at alt fungerer {.activity}
 
 Ved å køyre kommandoen
 
@@ -51,7 +51,6 @@ skal du få opp eit vindauge som ser slik ut:
 
 ![Bilete av ein svart blank skjerm](./hangman_blank_screen.png)
 
-
 ## Feilsøking {.tip}
 
 Viss du ikkje får opp eit vindauge som beskrive over, pass på at du har
@@ -59,6 +58,40 @@ installert Python på riktig måte, lasta ned [hangman.py](./hangman.py) og er i
 same mappe som fila.
 
 Viss du framleis står fast bør du prate med ein rettleiar.
+
+
+# Steg 0: Installere Pygame Zero {.activity}
+
+For å gjere denne oppgåva må du installere [Pygame
+Zero](https://pygame-zero.readthedocs.io/en/latest/installation.html). Start med
+å sjekke at du har installert Python 3, altså at Python-versjonen din er
+nummerert på forma 3.X.X.
+
+Åpne kommandolinja (engelsk: command prompt) på datamaskina di. Brukar du
+Windows kan du åpne start-menyen og skrive cmd (eventuelt *Ledetekst*, som er
+det norske namnet på programmet som skal køyre). På Mac og Linux åpnar du
+terminalvindauget. Skriv inn følgjande:
+
+__Windows og Mac:__
+
+```
+pip install pgzero
+```
+
+__Linux:__
+
+```
+sudo pip install pgzero
+```
+
+Nokre Linux-system kallar den `pip3`, i så fall må du skrive det i staden for
+`pip` i koden over. Viss pip ikkje er installert kan du prøve å skrive
+
+```
+sudo python3 -m ensurepip
+```
+
+før du prøver `sudo pip install pgzero` att.
 
 
 # Steg 1: Lag det hemmelege ordet {.activity}
