@@ -133,6 +133,6 @@ utforsker datamaskinene er det enklest med et rolig og enkelt spill:
   trykk **enter** for å komme igang.
 
 Gratulerer! Du har startet en datamaskin inne i Minecraft-verdenen. På
-[kodeklubben.github.io](http://kodeklubben.github.io/computercraft/) finner du
+[kodeklubben.github.io](http://kodeklubben.github.io/computercraft) finner du
 oppgaver som viser deg hvordan du kan programmere den og andre datamaskiner og
 roboter i ComputerCraft. Lykke til!

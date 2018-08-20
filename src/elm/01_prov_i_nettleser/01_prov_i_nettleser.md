@@ -1,7 +1,6 @@
 ---
-title: 'Prøv Elm i nettleseren'
-level: 1
-author: 'Teodor Heggelund'
+title: Prøv Elm i nettleseren
+author: Teodor Heggelund
 language: nb
 ---
 
@@ -14,7 +13,9 @@ nettleser.
 
 Elm kjører i nettleseren. I nettleseren viser vi fram ting med noe som heter
 HTML. Det er viktig å forstå hva HTML er.
+
 [Gjør oppgaven Hvor er HTML? Jeg ser den ikke!](../../web/hvor_er_html/hvor_er_html.html)
+
 i Web-kurset først om du ikke har hørt om HTML før.
 
 
@@ -28,9 +29,9 @@ i Web-kurset først om du ikke har hørt om HTML før.
 
     ![Bilde av hvordan få elm til å si "Hello, World!"](hello.png)
 
-    Hmm! Det gjorde ikke så mye. Skrev kun ut "Hello, World!" La oss gjøre det
-    litt mer spennende, og lære Elm norsk. Jeg heter Teodor, så jeg endrer
-    programmet til følgende:
+  Hmm! Det gjorde ikke så mye. Skrev kun ut "Hello, World!" La oss gjøre det
+  litt mer spennende, og lære Elm norsk. Jeg heter Teodor, så jeg endrer
+  programmet til følgende:
 
     ```elm
     import Html exposing (text)
@@ -39,9 +40,9 @@ i Web-kurset først om du ikke har hørt om HTML før.
       text "Hei, Teodor! Godt å se deg!"
     ```
 
-    Hva heter du? Hva vil du programmet skal skrive ut til deg?
+  Hva heter du? Hva vil du programmet skal skrive ut til deg?
 
-    Trykk `Compile` for å se!
+  Trykk `Compile` for å se!
 
 
 # Dokumenter i HTML og Elm {.protip}
@@ -50,9 +51,12 @@ HTML og Elm bygger opp dokumenter som et **tre**. Det betyr at elementer kan
 være inne i andre elementer. Eksempel:
 
 * `div`
-    * `h1`: Stor overskrift
-    * `p`: Første avsnitt.
-    * `p`: Andre avsnitt.
+
+  * `h1`: Stor overskrift
+
+  * `p`: Første avsnitt.
+
+  * `p`: Andre avsnitt.
 
 `div`-elementet inneholder tre elementer: `h1`, `p` og `p`.
 
@@ -115,16 +119,20 @@ Nå som du har tenkt litt på hva du vil lage, la oss se på hva andre har laget
 Oppdater siden for å få tilbake koden som den var før du begynte å redigere den.
 
 - [ ] Åpne **Buttons**.
-    - Kan du endre teksten på knappene til "Mer!" og "Mindre!"?
-    - Kan du få pluss-knappen til å legge til 5 hver gang du trykker?
+
+  - Kan du endre teksten på knappene til "Mer!" og "Mindre!"?
+
+  - Kan du få pluss-knappen til å legge til 5 hver gang du trykker?
 
 - [ ] Åpne **Clock**.
-    - Kan du gjøre viseren kortere?
-    - Kan du gjøre viseren rosa?
+
+  - Kan du gjøre viseren kortere?
+
+  - Kan du gjøre viseren rosa?
 
       Viseren har fra før av fargen `#023963`. En rosafarge kan være `#F0F`. Du
-      kan finne andre farger med
-      en [fargevelger](http://htmlcolorcodes.com/color-picker/). Vi har brukt
+      kan finne andre farger med en
+      [fargevelger](http://htmlcolorcodes.com/color-picker/). Vi har brukt
       **Hex**-koden til fargen.
 
 Har du fått flere gode ideer til hva du vil gjøre?

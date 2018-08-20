@@ -1,7 +1,6 @@
 ---
-title: "Ellie og funksjoner"
-level: 2
-author: 'Teodor Heggelund'
+title: Ellie og funksjoner
+author: Teodor Heggelund
 language: nb
 ---
 
@@ -22,8 +21,8 @@ web browser:
 
 Nå skal vi gjøre oss kjent med Ellie.
 
-- [ ] Gå til [https://ellie-app.com](https://ellie-app.com)
-  Dette vil starte Ellie i nettleseren, med et enkelt Elm kodeeksempel.
+- [ ] Gå til [https://ellie-app.com](https://ellie-app.com) Dette vil starte
+  Ellie i nettleseren, med et enkelt Elm kodeeksempel.
 
 - [ ] Klikk på *Compile*, for å kjøre koden som viser i den midterse delen av
   vinduet. Resultatet vil vise på høyre side.
@@ -63,13 +62,15 @@ vises av web browseren. Vi bruker her funksjonene `toString` og `text` til å
 konvertere resultatet av utregningen vår til noe som kan vises i browseren.
 
 - [ ] Gå til
+
       [https://ellie-app.com/HFJ7WyCctja1](https://ellie-app.com/HFJ7WyCctja1)
+
       for et eksempel utrykk.
 
 - [ ] Kjør eksempelkoden.
 
 - [ ] Bytt ut utrykket i koden med forskjellige utrykk hvor med `+`, `-`, `*`,
-      og `/`.
+  og `/`.
 
 Skriver vi inn `1 + 2`, viser resultatet `3` på høyre side. I praksis er det en
 Html struktur vi har generert, med en text node som har verdien "3".
@@ -98,7 +99,9 @@ math =
 ```
 
 - [ ] Gå til
+
       [https://ellie-app.com/HFMtv2Gw2ma1](https://ellie-app.com/HFMtv2Gw2ma1)
+
       og kjør eksempelet.
 
 - [ ] Prøv med forskjellige utrykk og bindinger.
