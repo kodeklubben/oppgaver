@@ -111,5 +111,5 @@ oppgåva endå._
 
 ## Eksterne ressursar {.challenge}
 
-- [ ] Sjå [www.ponggame.org](www.ponggame.org) for inspirasjon til ulike
+- [ ] Sjå [www.ponggame.org](http://www.ponggame.org/) for inspirasjon til ulike
   variantar.
