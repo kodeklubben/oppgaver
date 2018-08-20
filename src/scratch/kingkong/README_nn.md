@@ -86,7 +86,7 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 Her finn du tips, erfaringar og utfordringar til dei ulike stega i oppgåva.
 [Klikk her for å sjå
-oppgåveteksten.](../king_kong/king_kong_nn.html){target=_blank}
+oppgåveteksten.](../kingkong/kingkong_nn.html){target=_blank}
 
 _Me har diverre ikkje nokre tips, erfaringar eller utfordringar knytta til denne
 oppgåva endå._
