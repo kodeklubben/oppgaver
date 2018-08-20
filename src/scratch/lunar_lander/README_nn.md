@@ -88,6 +88,28 @@ Prosjektet [Asteroids](../asteroids/asteroids_nn.html) er basert på at elevane
 har gjort Lunar Lander fyrst, og at dei kan gjenbruke og vidareutvikle koden
 sin.
 
+
+# Når eg får meldinga [nytt spel] {.activity}
+
+I dei meir avanserte Scratch-oppgåvene brukar me kodeblokka
+
+```blocks
+når eg får meldinga [Nytt spel v]
+```
+
+i staden for
+
+```blocks
+når @greenFlag vert trykt på
+```
+
+Det blir introdusert litt subtilt i kvar oppgåve, så dei fleste elevane får det
+ikkje med seg når dei programmerer. Å bruke ei slik melding har fleire fordelar,
+mellom anna at det går an å starte spelet på nytt utan å måtte trykke på det
+grøne flagget (til dømes kan meldinga `Nytt spel` sendast ut når ein bestemt
+tast på tastaturet blir trykt). Gjerne diskuter fordelar og ulemper ved dette
+med elevane for å gjere eit poeng av det.
+
 ## Variasjonar {.challenge}
 
 - [ ] Elevane kan lage fleire landingsplassar, og gi ulike poengsummar ut frå
