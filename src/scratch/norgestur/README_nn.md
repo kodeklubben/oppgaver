@@ -105,4 +105,4 @@ oppgåva endå._
 ## Eksterne ressursar {.challenge}
 
 - [ ] Sjå [Kor i all
-  verda?](../hvor_i_all_verden_del1/hvor_i_all_verden_del1_nn.html).
+  verda?](../hvor_i_all_verden_del1/hvor_i_all_verden_1_nn.html).
