@@ -61,7 +61,7 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 Her finn du tips, erfaringar og utfordringar til dei ulike stega i oppgåva.
 [Klikk her for å sjå
-oppgåveteksten.](../rotasjon_rundt_et_punkt/rotasjon_rundt_et_punkt_nn.html){target=_blank}
+oppgåveteksten.](../rotasjon_rundt_punkt/rotasjon_rundt_punkt_nn.html){target=_blank}
 
 _Me har diverre ikkje nokre tips, erfaringar eller utfordringar knytta til denne
 oppgåva endå._
