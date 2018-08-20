@@ -3,21 +3,20 @@ title: Arduino
 language: nn
 ---
 
-Arduino er en platform som består av en rekke forskjellige mikrokontrollere,
-samt et programmeringsverktøy som heter Arduino IDE. Dette kan vi bruke til å
-programmere elektronikk, som lamper, sensorer og mye annet.
+Arduino er ei plattform som består av ei rekkje ulike mikrokontrollarar, og eit
+programmeringsverktøy som heiter Arduino IDE. Dette kan me bruke til å
+programmere elektronikk, som lamper, sensorar og mykje anna.
 
-## Hvordan komme igang med Arduino
+## Korleis kome i gang med Arduino
 
-+ Du trenger en Arduino-kompatibel mikrokontroller. Et bra utgangspunkt vil
-  være en Arduino Uno som er relativt liten, men med god fleksibilitet. Disse
-  får du for eksempel tak i gjennom både norske og
-  [utenlandske nettbutikker](https://store.arduino.cc/) for noen hundrelapper.
+- Du treng ein Arduino-kompatibel mikrokontrollar. Eit godt utgangspunkt vil
+  vere ein Arduino Uno, som er relativt liten, men med god fleksibilitet. Desse
+  kan du til dømes få tak i gjennom både norske og [utanlandske
+  nettbutikkar](https://store.arduino.cc/) for nokre hundrelappar.
 
-+ Last ned og installer Arduino IDE på din datamaskin fra
+- Last ned og installer Arduino IDE på datamaskina di frå
   [arduino.cc/en/Main/Software](http://arduino.cc/en/Main/Software).
 
-+ I de forskjellige prosjektene vil du koble Arduino-mikrokontrolleren
-  din til forskjellige elektroniske komponenter. Samtidig vil du
-  skrive kode i Arduino IDE på din datamaskin. Denne koden overføres
-  til Arduinoen gjennom en USB-kabel.
+- I dei ulike prosjekta vil du kople Arduino-mikrokontrollaren din til diverse
+  elektroniske komponentar. Samstundes vil du skrive kode i Arduino IDE på
+  datamaskina di. Denne koden blir overført til Arduinoen gjennom ein USB-kabel.

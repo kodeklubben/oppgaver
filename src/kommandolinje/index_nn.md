@@ -3,11 +3,11 @@ title: Kommandolinje
 language: nn
 ---
 
-En datamaskin kan gjøre mye spennende som ikke er mulig å gjøre i et grafisk
-brukergrensesnitt, men er mulig dersom vi koder litt i kommandolinjen. Her
-finner du oppgaver, veiledninger og videoer der du får innblikk i hva som er
-mulig å få til.
+Ei datamaskin kan gjere mykje spanande som ikkje er mogleg å gjere i eit grafisk
+brukargrensesnitt, men som er mogleg viss me kodar litt i kommandolinja. Her
+finn du oppgåver, rettleiingar og videoar der du får innblikk i kva som er
+mogleg å få til.
 
-Dette er litt mer avansert enn de fleste andre kursene på denne siden, og det er
-anbefalt å ha kjennskap til for eksempel Python, Processing, Arduino eller Java
-før du setter igang med dette.
+Dette er litt meir avansert enn dei fleste andre kursa på denne sida, og det er
+anbefalt at du har litt kjennskap til til dømes Python, Processing, Arduino
+eller Java før du startar med dette.
