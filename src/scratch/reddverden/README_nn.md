@@ -74,7 +74,7 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 Her finn du tips, erfaringar og utfordringar til dei ulike stega i oppgåva.
 [Klikk her for å sjå
-oppgåveteksten.](../redd_verden/redd_verden_nn.html){target=_blank}
+oppgåveteksten.](../reddverden/reddverden_nn.html){target=_blank}
 
 _Me har diverre ikkje nokre tips, erfaringar eller utfordringar knytta til denne
 oppgåva endå._
