@@ -1,7 +1,8 @@
 ---
-title: Uten datamaskin
+title: Utan datamaskin
 language: nn
 ---
 
-Det er mulig å lære mye om programmering, programmer og algoritmer uten å ha tilgang
-på en datamaskin. Her kan du finne veiledninger for hvordan det kan gjøres.
+Det er mogleg å lære mykje om programmering, program og algoritmar utan å ha
+tilgang på ei datamaskin. Her kan du finne rettleiingar for korleis det kan
+gjerast.
