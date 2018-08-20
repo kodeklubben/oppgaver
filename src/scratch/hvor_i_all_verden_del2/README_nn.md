@@ -15,7 +15,7 @@ rundt omkring på skjermen, og korleis ulike figurar kan reagere på kvarandre.
 Andre del utvidar kartet ved å lage ein bakgrunn som flyttar seg. Tredje del
 handlar om å lage ei liste som heldt oversikt over alle stadene å besåke.
 
-![Illustrasjon av eit enkelt "Kor i all verda?"-spel](../hvor_i_all_verden_1/hvor_i_all_verden_1.png)
+![Illustrasjon av eit enkelt "Kor i all verda?"-spel](../hvor_i_all_verden_del1/hvor_i_all_verden_1.png)
 
 ## Oppgåva passar til: {.check}
 
