@@ -4,8 +4,8 @@ author: Geir Arne Hjelle og Lance Olav Eastgate
 language: nb
 ---
 
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<link rel="stylesheet" href="leaflet.css" />
+<script src="leaflet.js"></script>
 <script src="leaflet-image.js"></script>
 
 

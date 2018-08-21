@@ -1,8 +1,7 @@
 ---
-title: 'Sving ved hjelp av en motor'
-level: 1
-author: 'Oversatt fra [Espen Clausen nettside](https://espenec.files.wordpress.com/2015/09/lego-mindstorms-del-1-2.pdf)'
-translator: 'Øistein Søvik'
+title: Sving ved hjelp av en motor
+author: "Oversatt fra [Espen Clausen nettside](https://espenec.files.wordpress.com/2015/09/lego-mindstorms-del-1-2.pdf)"
+translator: Øistein Søvik
 language: nb
 ---
 
@@ -24,40 +23,39 @@ objekt](../genprog_1rettfram/lego_mindstorms_frem_1.png)
 
 * Til høyre for disse kan en sette verdier til egenskapene
 
-    * Hastighet
+  * Hastighet
 
-    * Antall
+  * Antall
 
-    * Brems mot slutten Gjør følgende oppgaver. Kjør programmene etter hvert.
+  * Brems mot slutten Gjør følgende oppgaver. Kjør programmene etter hvert.
 
 ## Fremgangsmåte {.check}
 
 - [ ] Sett venstre motor til å rotere 5 fulle rotasjoner framover og deretter
-      stoppe. Hvordan står roboten i forhold til når den startet? Hvor mange
-      grader har den snudd?
+  stoppe. Hvordan står roboten i forhold til når den startet? Hvor mange grader
+  har den snudd?
 
 - [ ] Sett høyre motor til å rotere 6 fulle rotasjoner bakover og deretter
-      stoppe. Hvordan står roboten i forhold til når den startet? Hvor mange
-      grader har den snudd?
+  stoppe. Hvordan står roboten i forhold til når den startet? Hvor mange grader
+  har den snudd?
 
 - [ ] Sett venstre motor til å rotere 6 sekunder framover og deretter stoppe.
-      Hvordan står roboten i forhold til når den startet? Hvor mange grader har
-      den snudd?
+  Hvordan står roboten i forhold til når den startet? Hvor mange grader har den
+  snudd?
 
 - [ ] Roboten skal snu 360 grader ved hjelp av rotasjoner. Hvor mange rotasjoner
-      må en sette opp?
+  må en sette opp?
 
 - [ ] Roboten skal snu 90 grader ved hjelp av antall grader. En setter «På
-      antall grader» til 90. Hva skjer?
+  antall grader» til 90. Hva skjer?
 
 - [ ] Roboten skal tilbakelegge en gitt strekning, men en har ikke lov å bruke
-      begge motorene samtidig. Nå er det tid for å bruke «Kjør med styring». Her
-      svinger en ved endre retning mot høyre eller venstre.
+  begge motorene samtidig. Nå er det tid for å bruke «Kjør med styring». Her
+  svinger en ved endre retning mot høyre eller venstre.
 
 - [ ] Roboten skal snu 360 grader ved hjelp av rotasjoner. Hvordan svinger den
-      raskest? Hvor mange rotasjoner må en sette opp?
+  raskest? Hvor mange rotasjoner må en sette opp?
 
 - [ ] Roboten skal snu 90 grader ved hjelp av antall grader. En setter «På
-      antall grader» til 90. Hva skjer? Hvor mange grader må den settes på for å
-      snu 90 grader med full sving?
- 
+  antall grader» til 90. Hva skjer? Hvor mange grader må den settes på for å snu
+  90 grader med full sving?

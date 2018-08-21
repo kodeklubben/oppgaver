@@ -17,7 +17,7 @@ finne steder og byer du blir bedt om å besøke.
 ## Oppgaven passer til: {.check}
 
  __Fag__: Matematikk, samfunnsfag, programmering.
- 
+
 __Anbefalte trinn__: 3.-10. trinn.
 
 __Tema__: Geografi, lese kart, variabler, brukerinteraksjon.
@@ -83,7 +83,7 @@ __Tidsbruk__: Dobbelttime eller mer.
       at et norgeskart brukes som bakgrunn i oppgaven, og må lastes ned av
       eleven selv. En beskrivelse for dette er gitt i steg 1 av oppgaven, ellers
       kan du gjøre følgende bildefil tilgjengelig for elevene:
-      
+
       ![Bilde av norgeskartet](norgeskart.png)
 
 ## Fremgangsmåte
@@ -107,4 +107,4 @@ oppgaven enda._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Se også [Hvor i all
-      verden?](../hvor_i_all_verden_del1/hvor_i_all_verden_1.html){target=_blank}
+      verden?](../hvor_i_all_verden_del1/hvor_i_all_verden_del1.html){target=_blank}

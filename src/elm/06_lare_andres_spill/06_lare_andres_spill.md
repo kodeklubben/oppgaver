@@ -1,7 +1,6 @@
 ---
-title: 'Lær av et annet spill!'
-level: 3
-author: 'Teodor Heggelund'
+title: "Lær av et annet spill!"
+author: Teodor Heggelund
 language: nb
 ---
 
@@ -118,7 +117,7 @@ Du kan bruke `git` i stedet hvis du vil.
 ## Pakk ut kildekoden {.check}
 
 - [ ] Høyreklikk på zip-filen du lastet ned og velg **Pakk ut...** eller
-      liknende.
+  liknende.
 
 ## Åpne kommandovindu i mappen der kildekoden ligger {.check}
 

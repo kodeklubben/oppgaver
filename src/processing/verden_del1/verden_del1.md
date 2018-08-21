@@ -1,7 +1,6 @@
 ---
 title: Verden
-level: 1
-author: 'Kine Gjerstad Eide og Ruben Gjerstad Eide'
+author: Kine Gjerstad Eide og Ruben Gjerstad Eide
 language: nb
 ---
 
@@ -45,7 +44,10 @@ Veldig ofte er det semikolon som mangler, men akkurat nå er det mye mer. For at
 programmet vårt skal forstå at vi forsøker å skrive to metoder, så må vi skrive
 ordet `void` foran metodenavnene, slik som dette:
 
-![Bilde av metodenavnet setup og draw med void forran](void.png)
+```processing
+void setup
+void draw
+```
 
 Det er fremdeles en rød linje under både `setup` og `draw`, så det mangler
 fremdeles en del, men ordet `void` fikk fargen blå og det betyr at Processing
@@ -54,7 +56,10 @@ kjenner igjen ordet og vet hvordan det skal brukes.
 Neste steg for å lage metoder er at de må ha parenteser rett etter navnet sitt.
 Når vi legger til disse vil koden se slik ut:
 
-![Bilde av metodene setup og draw i processing](parenteser.png)
+```processing
+void setup()
+void draw()
+```
 
 Nå begynner det å ligne på noe, både `setup` og `draw` ble blå. Det betyr at
 Processing kjenner igjen de to ordene også. Forsøk å kjøre programmet ved å
@@ -63,7 +68,10 @@ til å få Processing til å forstå at vi skal lage to metoder. Det eneste vi
 mangler er å åpne og å stenge metodene. Vi åpner metoden med dette tegnet: `{`
 og så stenger vi metoden med dette tegnet: `}`, så da bli koden slik:
 
-![Bilde av metodene setup og draw med korrekte åpne og lukke klammer](stenge.png)
+```processing
+void setup(){}
+void draw(){}
+```
 
 Nå kan du førsøke å kjøre programmet igjen. Hva skjer?
 
@@ -93,14 +101,20 @@ programmet og se at det fungerer.
 - [ ] Sett vinduet tilbake til å være 1200 piksel bredt og 850 piksel høyt.
 
 - [ ] Lagre spillet, når du gjør det opprettes en mappe som heter det samme som
-      spillet ditt. Du må huske hvor denne plasseres, for den skal vi bruke
-      videre.
+  spillet ditt. Du må huske hvor denne plasseres, for den skal vi bruke videre.
 
 Her er koden så langt, se over at din kode ser lik ut. `size` er et stykke inn
 på linja fordi det er slik det er vanlig å skrive kode. Det gjør det lettere å
 lese.
 
-![Bilde av setup med metoden size](steg1.png)
+```processing
+void setup(){
+  size(1200, 850)
+}
+void draw(){
+
+}
+```
 
 
 # Steg 2: Vis verdenskartet {.activity}
@@ -143,7 +157,19 @@ metoden. Kodelinja vi trenger ser slik ut:
     image(verdenskartet, 0, 0);
 ```
 
-![Bilde av koden for steg 2](steg2.png)
+Etter steg 2 ser koden slik ut:
+
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  loadImage(verdenskartet, 0, 0);
+}
+```
 
 
 # Steg 3: Hva er datamusas plassering {.activity}
@@ -158,7 +184,7 @@ Vi trenger bare to kodelinjer for å få til dette, og de må skrives inni
 datamusa er, da trenger vi denne kodelinja:
 
 ```processing
-    text("X: " + mouseX, 50, 50);  
+    text("X: " + mouseX, 50, 50);
     text("Y: " + mouseY, 50, 100);
 ```
 
@@ -186,7 +212,7 @@ ut navnet til variabelen.
 - [ ] Lag en ny kodelinje som skriver ut navnet ditt.
 
 - [ ] Flytt kodelinjen med mouseX, slik at den står ca. på midten nederst på
-      skjermen.
+  skjermen.
 
 - [ ] Finn ut hvor i vinduet X er minst.
 
@@ -196,7 +222,19 @@ ut navnet til variabelen.
 
 Her er koden så langt.
 
-![Bilde av koden for steg 3](steg3.png)
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  loadImage(verdenskartet, 0, 0);
+  text("X: " + mouseX, 50, 50);  
+  text("Y: " + mouseY, 50, 100);
+}
+```
 
 
 # Steg 4: Vis Europa {.activity}
@@ -225,28 +263,36 @@ verdenskartet = loadImage("mapEuropa3.png");
 - [ ] Start programmet
 
 - [ ] Forsøk å skrive en kommentar i koden din. Alle kommentarer starter med to
-      stråstreker, slik som dette: `//`. Alt som skrives bak skråstrekene blir
-      grått og det betyr at programmet ikke leser det. Dette kan brukes som egne
-      notater i koden, slik at man kan notere hva som skjer eller lignende. Test
-      at du får til å skrive en kommentar i kode. Når du gjør de neste punktene
-      skal du notere svaret du får som kommentarer i koden din. Gå gjennom de
-      neste tre punktene fire ganger, en gang for hver av sidene i firkanten som
-      vi har laga som grensa til Europa.
+  stråstreker, slik som dette: `//`. Alt som skrives bak skråstrekene blir grått
+  og det betyr at programmet ikke leser det. Dette kan brukes som egne notater i
+  koden, slik at man kan notere hva som skjer eller lignende. Test at du får til
+  å skrive en kommentar i kode. Når du gjør de neste punktene skal du notere
+  svaret du får som kommentarer i koden din. Gå gjennom de neste tre punktene
+  fire ganger, en gang for hver av sidene i firkanten som vi har laga som grensa
+  til Europa.
 
 - [ ] Beveg musepekeren langs grensa (frem og tilbake, eller opp og ned) noen
-      ganger og finn ut hvilken av X- og Y-koordinatene som nesten ikke endrer
-      seg. Bare den koordinaten som nesten ikke endrer seg når du begever
-      datamusa langs grensa skal brukes i de neste punktene.
+  ganger og finn ut hvilken av X- og Y-koordinatene som nesten ikke endrer seg.
+  Bare den koordinaten som nesten ikke endrer seg når du begever datamusa langs
+  grensa skal brukes i de neste punktene.
 
 - [ ] Skriv ned tallet som koordinaten har når den er akkurat på grensa.
 
 - [ ] Beveg musa ut og inn over grensa, finn ut om verdien på koordinaten er
-      større eller mindre på innsiden enn på utsiden av grensa og skriv dette
-      ned.
+  større eller mindre på innsiden enn på utsiden av grensa og skriv dette ned.
 
 Har du funnet svare på alt? Her er svarene vi kom frem til:
 
-![Bilde av koordinatene til Europa i processing](grense.png)
+```processing
+// Grense 1: X-koordinaten beveger seg nesten ikke, den er ca. 367 på hele
+  // grensa, og innenfor er den større enn utenfor
+// Grense 2: X-koordinaten beveger seg nesten ikke, den er ca. 694 på hele
+  // grensa, og innenfor er den mindre enn utenfor
+// Grense 3: Y-koordinaten beveger seg nesten ikke, den er ca. 455 på hele
+  // grensa, og innenfor er den mindre enn utenfor
+// Grense 4: Y-koordinaten beveger seg nesten ikke, den er ca. 33 på hele
+  // grensa, og innenfor er den større enn utenfor
+```
 
 Nå skal vi sjekke om musepekeren er innenfor en og en av kantene, da må vi bruke
 `if`-setninger. De fungerer slik at man skriver en test, dersom det man tester
@@ -285,7 +331,7 @@ Nå kan vi gjøre dette om til kode, da ser det slik ut:
 - [ ] Sjekk at koden kjører.
 
 - [ ] Se at du får opp `EUROPA` opp til høyre i vinduet når musepekeren er
-      innenfor grense nummer 1.
+  innenfor grense nummer 1.
 
 Legg merke til at `EUROPA` dukker opp på skjermen selv om du holder musepekeren
 over selve Europa på kartet, eller om du holder den over Madagaskar. Dette er
@@ -333,8 +379,8 @@ Nå står det `EUROPA` på skjermen hele tiden, det er jo feil, la oss feilsøke
 ## Gjør dette: {.check}
 
 - [ ] Bytt ut plasseringen av teksten i den siste `if`-setningen. Dette gjør vi
-      ved å skrive `100` i stedet for `50` som den siste parameteren inni
-      parentesen bak `text` (du kan også ).
+  ved å skrive `100` i stedet for `50` som den siste parameteren inni parentesen
+  bak `text` (du kan også ).
 
 - [ ] Kjør koden igjen, nå skal den nye teksten dukke opp litt under den første.
 
@@ -366,7 +412,7 @@ sanne.
 ## Gjør dette: {.check}
 
 - [ ] Skriv om koden din, slik at `if`-setningene står inni hverandre, slik som
-      koden over viser.
+  koden over viser.
 
 - [ ] Test koden og se om det fungerer.
 
@@ -379,7 +425,7 @@ Nå er det på tide med grense nummer 3. Nå hjelper vi deg bare med å skrive
 `if`-setningen med nesten helt vanlige ord, så må du skrive nesten all koden
 selv:
 
-```prcessing
+```processing
 Dersom musepekeren sin Y-koordinat er mindre enn grense 3,
     så skal teksten "EUROPA" vises
 ```
@@ -401,7 +447,7 @@ Her er litt av koden, fyll ut resten selv:
 - [ ] Skriv koden du tror er riktig.
 
 - [ ] Test om koden fungerer. Dersom den gjør det, så skal `EUROPA` vises når
-      musepekeren er innenfor det grå området:
+  musepekeren er innenfor det grå området:
 
 ![Bilde av en nesten riktig overlapp over Europa](mapEuropa6.png)
 
@@ -412,16 +458,46 @@ Nå må du forsøke deg på koden til den siste `if`-setningen helt selv!
 - [ ] Skriv den siste `if`-setningen med vanlig tekst.
 
 - [ ] Skriv inn koden for den siste `if`-setningen inni de andre
-      `if`-setningene.
+  `if`-setningene.
 
 - [ ] Kjør programmet og se at det fungerer. Når alt er i orden skal `EUROPA`
-      vises bare når du er innenfor den firkanta grensa til Europa som vi har
-      laga.
+  vises bare når du er innenfor den firkanta grensa til Europa som vi har laga.
 
 Her har du bilde av koden, så kan du dobbelsjekke alt dersom det er noe som ikke
 fungerer helt som det skal.
 
-![Bilde av den ferdige koden for å markere Europa](steg4.png)
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  loadImage(verdenskartet, 0, 0);
+  text("X: " + mouseX, 50, 50);  
+  text("Y: " + mouseY, 50, 100);
+
+  if(mouseX > 365){
+      if(mouseX < 694){
+          if(mouseY < 455){
+              if(mouseY > 33){
+                text("EUROPA", 950, 50);
+              }
+          }
+      }
+  }
+}
+
+// Grense 1: X-koordinaten beveger seg nesten ikke, den er ca. 367 på hele
+  // grensa, og innenfor er den større enn utenfor
+// Grense 2: X-koordinaten beveger seg nesten ikke, den er ca. 694 på hele
+  // grensa, og innenfor er den mindre enn utenfor
+// Grense 3: Y-koordinaten beveger seg nesten ikke, den er ca. 455 på hele
+  // grensa, og innenfor er den mindre enn utenfor
+// Grense 4: Y-koordinaten beveger seg nesten ikke, den er ca. 33 på hele
+  // grensa, og innenfor er den større enn utenfor
+```
 
 Husk å bytte bildet tilbake til bildet av verdenskartet som ikke har grensa til
 Europa tegna inn!

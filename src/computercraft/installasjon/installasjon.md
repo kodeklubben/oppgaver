@@ -1,6 +1,6 @@
 ---
-title: 'Installering av ComputerCraft'
-author: 'Geir Arne Hjelle'
+title: Installering av ComputerCraft
+author: Geir Arne Hjelle
 indexed: false
 language: nb
 ---
@@ -57,18 +57,18 @@ riktig versjon av Forge.
 
   [![Bilde av installasjonen av forge](minecraft_forge_a.png)](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.8.9.html)
 
-  I boksen **Download Recommended** velger du `Installer`. Du kommer
-  nå til en reklameside. **Vent** til nedtellingen øverst til høyre er
-  ferdig. Klikk **deretter** på `Skip` og nedlastingen av en fil
-  starter.
+  I boksen **Download Recommended** velger du `Installer`. Du kommer nå til en
+  reklameside. **Vent** til nedtellingen øverst til høyre er ferdig. Klikk
+  **deretter** på `Skip` og nedlastingen av en fil starter.
 
   [![Bilde av den anbefalte utgaven](minecraft_forge_b.png)](http://files.minecraftforge.net/)
 
-- [ ] Kjør filen som ble lastet ned ved å dobbelklikke på den (om du blir
-  spurt hvordan den skal kjøres kan du velge Java eller JDK). Velg
-  `Install client` og klikk `OK`.
+- [ ] Kjør filen som ble lastet ned ved å dobbelklikke på den (om du blir spurt
+  hvordan den skal kjøres kan du velge Java eller JDK). Velg `Install client` og
+  klikk `OK`.
 
-  ![Bilde av installasjonsmenyen for forge](installer_forge.png) <!-- Venstrejuster bildet -->
+  ![Bilde av installasjonsmenyen for forge](installer_forge.png) <!--
+  Venstrejuster bildet -->
 
 - [ ] Start **Minecraft Launcher**. Det har nå dukket opp en ny profil i
   nedtrekkslisten til `Play`-knappen som heter `Forge` og har det
@@ -77,7 +77,8 @@ riktig versjon av Forge.
   at det har dukket opp et nytt valg i hovedmenyen: `Mods`. Avslutt spillet
   igjen.
 
-  ![Bilde av knappen for å starte forge](start_forge.png) <!-- Venstrejuster bildet -->
+  ![Bilde av knappen for å starte forge](start_forge.png) <!-- Venstrejuster
+  bildet -->
 
 - [ ] Finn `Minecraft`-katalogen din ved å starte **Minecraft Launcher**. Velg
   deretter `Launch options` og klikk på den forge-profilen vi nettop laget. Til
@@ -86,7 +87,8 @@ riktig versjon av Forge.
   **ComputerCraft**-filen vi lastet ned helt først inn i `mods`-katalogen. Klikk
   `Cancel` i `Edit Profile`-vinduet.
 
-  ![Bilde av minecraft katalogen](minecraft_katalog.png) <!-- Venstrejuster bildet -->
+  ![Bilde av minecraft katalogen](minecraft_katalog.png) <!-- Venstrejuster
+  bildet -->
 
 - [ ] Nå er vi ferdige. I **Minecraft Launcher** kan du nå velge profilen
   `Forge` og klikke `Play`. Når du klikker `Mods` fra hovedmenyen skal du se at
@@ -133,6 +135,6 @@ utforsker datamaskinene er det enklest med et rolig og enkelt spill:
   trykk **enter** for å komme igang.
 
 Gratulerer! Du har startet en datamaskin inne i Minecraft-verdenen. På
-[kodeklubben.github.io](http://kodeklubben.github.io/computercraft/) finner du
+[kodeklubben.github.io](http://kodeklubben.github.io/computercraft) finner du
 oppgaver som viser deg hvordan du kan programmere den og andre datamaskiner og
 roboter i ComputerCraft. Lykke til!

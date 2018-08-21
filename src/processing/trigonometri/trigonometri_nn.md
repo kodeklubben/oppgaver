@@ -1,8 +1,7 @@
 ---
-title: 'Trigonometri, regulære mangekantar og stjerner'
-level: 2
-author: 'Sigmund Hansen'
-translator: 'Stein Olav Romslo'
+title: Trigonometri, regulære mangekantar og stjerner
+author: Sigmund Hansen
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -187,7 +186,8 @@ to regulære mangekantar med halvparten så mange hjørne som stjerna har spissa
   [`noStroke()`](https://processing.org/reference/noStroke_.html) og
   [`stroke()`](https://processing.org/reference/stroke_.html)?
 
-- [ ] Kan du teikne fleire mangekantar eller stjerner på skjermen samstundes? Til dømes ei femkanta, ei sjukanta og ei nikanta stjerne, som vist under?
+- [ ] Kan du teikne fleire mangekantar eller stjerner på skjermen samstundes?
+  Til dømes ei femkanta, ei sjukanta og ei nikanta stjerne, som vist under?
 
   ![Bilete av fleire stjerner samstundes.](FlereStjerner.png)
 

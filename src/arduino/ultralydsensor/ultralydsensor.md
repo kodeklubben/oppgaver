@@ -1,7 +1,6 @@
 ---
 title: Ultralydsensor
-author: 'Martin Ertsås & Morten Minde Neergaard'
-level: 2
+author: "Martin Ertsås & Morten Minde Neergaard"
 language: nb
 ---
 
@@ -18,8 +17,8 @@ ekkolodd og medisinske ultralydmaskiner: De sender en lyd ut, og lytter etter
 hvor lang tid det tar før lyden kommer tilbake.
 
 Dette er et eksempel på hvordan vi kan bruke matematikk og vår kjennskap til
-fysikk til å beregne nyttige verdier. Hvis vi ser på denne animasjonen kan vi
-se hva som skjer når ultralydsensoren sender et signal og får det tilbake.
+fysikk til å beregne nyttige verdier. Hvis vi ser på denne animasjonen kan vi se
+hva som skjer når ultralydsensoren sender et signal og får det tilbake.
 
 ![Ekko-animasjon](ekko.gif)
 
@@ -134,4 +133,3 @@ For å åpne seriellkonsollet går du til __Tools -> Serial Monitor__
 - [ ] Klarer du å få et 7-Segment Display til å si hvor nærme du er på en skala
   fra 0-9 (husk `map`-funksjonen og oppgaven [7-Segment
   Display](../7_segment_display/7_segment_display.html))?
-

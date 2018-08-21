@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Tetris
 author: Stein Olav Romslo
-level: 1
 language: nb
 ---
 
@@ -16,7 +15,7 @@ spillet tetris.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Kunst og håndtverk, matematikk, programmering.
+__Fag__: Kunst og håndtverk, matematikk, programmering.
 
 __Anbefalte trinn__: 8. trinn til VG3.
 
@@ -26,26 +25,25 @@ __Tidsbruk__: Dobbelttime.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnforme
+- [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
 
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-       rutenett, på kart og i koordinatsystemer, både med og uten digitale
-       verktø
+  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
 
 - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-       ett er tekstbaser
+  ett er tekstbasert
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Elevene kan lage kvadrater digitalt
+- [ ] Elevene kan lage kvadrater digitalt.
 
-- [ ] Elevene kan plassere en figur i et koordinatsystem
+- [ ] Elevene kan plassere en figur i et koordinatsystem.
 
-- [ ] Elevene kan bruke et tekstbasert programmeringsspråk
+- [ ] Elevene kan bruke et tekstbasert programmeringsspråk.
 
 - [ ] Elevene kan bruke variabler for å få en figur til å flytte seg.
 
@@ -63,8 +61,8 @@ del andre nyttige tips til hvordan man underviser i programmering.
 - [ ] __Forutsetninger__: Elevene bør kjenne til Processing.
 
 - [ ] __Utstyr__: Datamaskiner med
-       [Processing](https://www.processing.org/download/){target=_blank}
-       installert. Elevene kan gjerne jobbe to og to sammen.
+  [Processing](https://www.processing.org/download/){target=_blank} installert.
+  Elevene kan gjerne jobbe to og to sammen.
 
 ## Fremgangsmåte
 
@@ -80,6 +78,5 @@ _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Se denne
-      [YouTube-videoen](https://www.youtube.com/watch?v=yTCTxdBKoSQ){target=_blank}
-      av et tetrisspill på Facebook.
-
+  [YouTube-videoen](https://www.youtube.com/watch?v=yTCTxdBKoSQ){target=_blank}
+  av et tetrisspill på Facebook.

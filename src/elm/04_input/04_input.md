@@ -1,7 +1,6 @@
 ---
-title: 'Input fra brukeren'
-level: 3
-author: 'Alexander Perry'
+title: Input fra brukeren
+author: Alexander Perry
 language: nb
 ---
 
@@ -29,9 +28,9 @@ import String
 ## Modell, meldinger og oppdatering {.check}
 
 - [ ] Vi oppretter programmet vårt med en *modell* som inneholder data
-      (`model`), et *brukergrensesnitt* hvor vi viser frem data (`view`) og en
-      funksjon for *oppdatering* av data (`update`). Vi kommer tilbake til
-      hvordan vi oppretter disse, skriv inn følgende i koden:
+  (`model`), et *brukergrensesnitt* hvor vi viser frem data (`view`) og en
+  funksjon for *oppdatering* av data (`update`). Vi kommer tilbake til hvordan
+  vi oppretter disse, skriv inn følgende i koden:
 
 ```elm
 main =
@@ -39,16 +38,16 @@ main =
 ```
 
 - [ ] Så trenger vi å si hva slags *meldinger* (`Msg`) vi skal sende i
-      programmet. Til å begynne med har vi bare én meldingstype, og det er
-      meldingen som sendes når brukeren endrer teksten i input-feltet, her
-      kaller vi den for `Endre`.
+  programmet. Til å begynne med har vi bare én meldingstype, og det er meldingen
+  som sendes når brukeren endrer teksten i input-feltet, her kaller vi den for
+  `Endre`.
 
 ```elm
 type Msg = Endre String
 ```
 
 - [ ] Etter det må vi skrive hva som skal skje når teksten oppdateres med en
-      *update*-funksjon:
+  *update*-funksjon:
 
 ```elm
 update msg model =
@@ -130,14 +129,12 @@ Nå skal vi lagre en setning i tillegg til teksten som brukeren skriver inn. Da
 må vi endre *modellen* vår. Den nye modellen skal se slik ut:
 
 ```elm
-
 -- MODEL
 model =
   {
     tekst = ""
   , setning = ""
   }
-
 ```
 
 Her kan vi se at modellen inneholder to tekster, som er tomme når man åpner
@@ -245,14 +242,14 @@ view model =
 ## Ting du kan prøve {.challenge}
 
 - [ ] Utvid nettsiden med en knapp som snur alle ordene i setningen tilbake til
-      rett vei
+  rett vei
 
 - [ ] Tekst kan manipuleres med mange forskjellige innebygde funksjoner som
-      `String.repeat` (gjenta en tekst), `String.toUpper` (gjør alle BOKSTAVENE
-      TIL STORE BOKSTAVER)
+  `String.repeat` (gjenta en tekst), `String.toUpper` (gjør alle BOKSTAVENE TIL
+  STORE BOKSTAVER)
 
 - [ ] Se full liste av hva man kan gjøre med tekst [i dokumentasjonen (på
-      engelsk)](http://package.elm-lang.org/packages/elm-lang/core/5.1.1/String)
+  engelsk)](http://package.elm-lang.org/packages/elm-lang/core/5.1.1/String)
 
 
 # Fargevelger {.activity}
@@ -284,7 +281,7 @@ model =
 ```
 
 - [ ] Lagre rødstyrken fra en input, men begrens rekkevidden fra 0 til 255 med
-      `Html.Attributes.min` og `Html.Attributes.max`:
+  `Html.Attributes.min` og `Html.Attributes.max`:
 
 ```elm
 input [ type_ "number", Html.Attributes.min "0", Html.Attributes.max "255" ] []
@@ -327,10 +324,10 @@ view model =
 ```
 
 - [ ] Legg til input-felter for de to andre fargene, og meldingene `EndreGronn`
-      og `EndreBlaa`
+  og `EndreBlaa`
 
 - [ ] Oppdater `rgb(255, 255, 255)` slik at den bruker verdiene for rød, grønn
-      og blå fra modellen vår (hint: slå sammen tekst)
+  og blå fra modellen vår (hint: slå sammen tekst)
 
 - [ ] Bytt ut number-input med `range`, og se hva som skjer!
 
@@ -342,7 +339,7 @@ Chrome, Edge, Firefox og Opera er nettlesere som kommer med innebygd
 fargevelger. Fargevelger er også en type input-felt.
 
 - [ ] Lag en ny type input på nettsiden, som bruker fargevelger-type istedenfor
-      `range` (hint: på engelsk er farge `color`)
+  `range` (hint: på engelsk er farge `color`)
 
 - [ ] Bytt ut verdien for `background` med fargen fra fargevelgeren (husk å
-      legge til fargen i modellen og i `update`)
+  legge til fargen i modellen og i `update`)

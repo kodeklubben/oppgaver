@@ -1,8 +1,7 @@
 ---
 title: "PXT: Terning"
-level: 1
 author: Geir Arne Hjelle
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -92,7 +91,7 @@ tips viss du står fast.
 # Steg 3: Terningen rullar {.activity}
 
 *Ein terning landar jo ikkje berre på ei side, den rullar og viser mange sider
- før den stoppar.*
+før den stoppar.*
 
 ## Sjekkliste {.check}
 

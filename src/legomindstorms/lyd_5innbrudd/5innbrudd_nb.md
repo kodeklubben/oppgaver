@@ -1,14 +1,12 @@
 ---
 title: Innbruddsalarm
-level: 3
-author: 'Oversatt frra [Espen Clausen nettside](https://espenec.files.wordpress.com/2015/09/lego-mindstorms-del-3-5.pdf)'
-translator: 'Øistein Søvik'
+author: "Oversatt frra [Espen Clausen nettside](https://espenec.files.wordpress.com/2015/09/lego-mindstorms-del-3-5.pdf)"
+translator: Øistein Søvik
 language: nb
 ---
 
 
-
-#  Innbruddsalarm {.intro}
+# Innbruddsalarm {.intro}
 
 Veldig mange hus i Norge har de siste årene fått innbruddsalarmer. De finnes i
 flere varianter, og brukes på ulike steder. Det finnes for eksempel
@@ -24,12 +22,12 @@ rommet.
 ## Fremgangsmåte {.check}
 
 - [ ] Konstruer roboten slik at ultralydsensoren står plassert på et stativ og
-      ikke på roboten. Pass på at stativet med ultralydsensoren er utformet slik
-      at det kan stå uten å falle, og klarer å oppdage eventuelle personer som
-      kommer inn døren.
+  ikke på roboten. Pass på at stativet med ultralydsensoren er utformet slik at
+  det kan stå uten å falle, og klarer å oppdage eventuelle personer som kommer
+  inn døren.
 
 - [ ] Koble til Ultralydsensoren til EV3 roboten ved hjelp av en kabel. Kabelen
-      skal kobles til en av portene merket med 1-4.
+  skal kobles til en av portene merket med 1-4.
 
 - [ ] Lag et program som registrerer om noen kommer inn gjennom døren.
 
@@ -40,4 +38,3 @@ rommet.
 Et ferdig program, kan se slik ut:
 
 ![Bilde av et ferdig program](lego_mindstorms_innbrudd_1.png)
- 

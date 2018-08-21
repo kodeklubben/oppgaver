@@ -1,6 +1,5 @@
 ---
 title: "PXT: Stein, saks, papir"
-level: 2
 author: Bjørn Hamre
 language: nb
 ---

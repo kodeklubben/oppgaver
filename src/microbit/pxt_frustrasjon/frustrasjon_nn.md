@@ -1,8 +1,7 @@
 ---
-title: 'PXT: Frustrasjon'
-level: 2
-author: 'Omsett frå [Code Club UK](https://codeclubprojects.org/en-GB/microbit/frustration/)'
-translator: 'Stein Olav Romslo'
+title: "PXT: Frustrasjon"
+author: "Omsett frå [Code Club UK](https://codeclubprojects.org/en-GB/microbit/frustration/)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -35,7 +34,7 @@ Basert på: https://codeclubprojects.org/en-GB/microbit/frustration/
 
 - [ ] Slett dei eksisterande blokkane.
 
- ![Bilete av "start"- og "for alltid"-blokker som kastast](slett_standard_blokker.png)
+![Bilete av "start"- og "for alltid"-blokker som kastast](slett_standard_blokker.png)
 
 - [ ] Me vil starte eit nytt spel når spelaren trykkar på knapp A. Til det kan
   me bruke `når knapp A blir trykka`-klossen som du finn i kategorien `Inndata`.
@@ -43,9 +42,9 @@ Basert på: https://codeclubprojects.org/en-GB/microbit/frustration/
   ![Bilete av "når knapp A blir trykka"-klossen](naar_a_trykkes.png)
 
 - [ ] Me må opprette ein *variabel* til å ta vare på kor mange gonger spelaren
-  berører ståltråden i løpet av spelet. Me opprettar variabelen `beroering`
-  for å gjere det. Hugs at det er lurt å unngå `æøå` fordi det fungerer ikkje
-  alltid når me programmerer.
+  berører ståltråden i løpet av spelet. Me opprettar variabelen `beroering` for
+  å gjere det. Hugs at det er lurt å unngå `æøå` fordi det fungerer ikkje alltid
+  når me programmerer.
 
   ![Bilete av korleis lage ein ny variabel](lag_variabel_beroeringer.png)
 
@@ -55,7 +54,7 @@ Basert på: https://codeclubprojects.org/en-GB/microbit/frustration/
 
 - [ ] Legg til at antal `beroering`ar blir vist etter at `knapp A` er trykka.
 
-  ![Bilete av koden for å vise antal berøringar](vis_tall_beroeringer.png)  
+  ![Bilete av koden for å vise antal berøringar](vis_tall_beroeringer.png)
 
 
 # Steg 2: Oppdatere berøringane {.activity}

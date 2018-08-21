@@ -5,8 +5,8 @@ translator: 'Stein Olav Romslo'
 language: nn
 ---
 
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<link rel="stylesheet" href="leaflet.css" />
+<script src="leaflet.js"></script>
 <script src="leaflet-image.js"></script>
 
 
@@ -20,7 +20,7 @@ Scratch-prosjekta dine.
 
   <p>
     <br />
-    <a id="last_ned_som_bilete" class="btn btn-default btn-lg btn-block">Last ned som Scratch-bakgrunn</a>
+    <a id="last_ned_som_bilde" class="btn btn-default btn-lg btn-block">Last ned som Scratch-bakgrunn</a>
   </p>
 </div>
 
