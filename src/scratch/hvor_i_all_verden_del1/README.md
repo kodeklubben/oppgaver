@@ -16,7 +16,7 @@ hverandre. Andre leksjon utvider kartet ved å lage en bakgrunn som flytter seg.
 Tredje leksjon handler om å lage en liste som holder oversikt over alle stedene
 vi kan besøke.
 
-![Illustrasjon av et enkelt Hvor-i-All-Verden spill](hvor_i_all_verden_del1/hvor_i_all_verden_1.png)
+![Illustrasjon av et enkelt Hvor-i-All-Verden spill](../hvor_i_all_verden_del1/hvor_i_all_verden_1.png)
 
 ## Oppgaven passer til: {.check}
 
