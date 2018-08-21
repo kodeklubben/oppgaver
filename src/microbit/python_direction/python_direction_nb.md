@@ -1,8 +1,7 @@
 ---
 title: "Python: Retninger"
-level: 3
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/direction.html)"
-translator: "Øistein Søvik"
+translator: Øistein Søvik
 language: nb
 ---
 
@@ -51,7 +50,7 @@ kan være vanskelig å forstå detaljene med en gang.
 
 Vi skal nå se nærmere på hva `compass.calibrate()` gjør.
 
-- [ ]  Kjør koden under
+- [ ] Kjør koden under
 
 ```python
 from microbit import *
@@ -63,7 +62,7 @@ while True:
 ```
 
 - [ ] Hvilken verdi viser koden ovenfor når du står i de fire himmelretningene?
-      Bruk denne informasjonen til å bestemme hva `compass.calibrate()` gjør.
+  Bruk denne informasjonen til å bestemme hva `compass.calibrate()` gjør.
 
 <toggle>
   <strong>Hint</strong>
@@ -77,8 +76,7 @@ compass.calibrate() ≤ 360`.
 </toggle>
 
 - [ ] Endre verdien til `A` til ulike heltall. Hvilke heltall er lovlige og hva
-      viser displayet?
-
+  viser displayet?
 
 ```python
 from microbit import *
@@ -97,7 +95,6 @@ bilder, disse kan velges fra og med 0 til og med 11.
 </toggle>
 
 - [ ] Test ut koden under og varier `A` fra og med 0 til og med 360, hva skjer?
-
 
 ```python
 from microbit import *

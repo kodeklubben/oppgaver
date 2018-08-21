@@ -1,8 +1,7 @@
 ---
 title: "Python: Tilfeldig"
-level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/random.html)"
-translator: "Øistein Søvik"
+translator: Øistein Søvik
 language: nb
 ---
 
@@ -37,7 +36,7 @@ returnerer et tilfeldig element. Dette elementer er argumentet til
 - [ ] Endre på listen og inkluder dine egne navn.
 
 - [ ] Hva kan bruksområdet til en slik liste være? Tenk ut to tilfeller hva du
-      kan bruke en slik liste til.
+  kan bruke en slik liste til.
 
 - [ ] Inkluder samme navnet flere ganger i listen. Hva skjer?
 
@@ -91,8 +90,8 @@ display.scroll(str(answer))
 - [ ] Skriv ned det minste tallet programmet ovenfor kan lage.
 
 - [ ] Skriv om koden for terningen ovenfor slik at den bruker `randrange` i
-      stedet for `randint`. Merk at du må gjøre noen endringer slik at den gir
-      ut verdier fra 1 til 6 og ikke 0 til 5.
+  stedet for `randint`. Merk at du må gjøre noen endringer slik at den gir ut
+  verdier fra 1 til 6 og ikke 0 til 5.
 
 <toggle>
   <strong>Hint</strong>
@@ -143,10 +142,10 @@ while True:
 ## Litt juks {.check}
 
 - [ ] Skriv om koden ovenfor slik at den alltid gir ut seks (6) dersom en holder
-      inne knappen `A` _og_ `B`.
+  inne knappen `A` _og_ `B`.
 
 - [ ] Skriv om koden ovenfor slik at hver gang du gjør en _bevegelse_ viser den
-      seks (6) ellers skal den virke som før.
+  seks (6) ellers skal den virke som før.
 
 Python kan kjenne igjen følgende bevegelser `up`, `down`, `left`, `right`, `face
 up`, `face down`, `freefall`, `3g`, `6g`, `8g`, `shake` ved å bruke funksjonen

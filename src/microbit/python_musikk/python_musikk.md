@@ -1,6 +1,5 @@
 ---
 title: "Python: Lage musikk med micro:bit"
-level: 2
 author: Asta Aker og Tjerand Silde
 language: nb
 ---
@@ -28,7 +27,7 @@ oppgaven.*
 - [ ] Hodetelefoner eller en høytaler.
 
 - [ ] En datamaskin med Internett eller en [installert micro-python
-      editor](https://codewith.mu/){target=_blank}.
+  editor](https://codewith.mu/){target=_blank}.
 
 *Her ser du et bilde av utstyr du kan bruke:*
 
@@ -44,12 +43,12 @@ oppgaven.*
 - [ ] Koble usb-kabelen til micro:biten og en usb-port på datamaskinen.
 
 - [ ] Koble den ene krokodilleklemmen til porten hvor det står GND på
-    micro:biten. Den andre enden kobler du til innerst på stikket til
-    hodetelefonene/høytaleren.
+  micro:biten. Den andre enden kobler du til innerst på stikket til
+  hodetelefonene/høytaleren.
 
 - [ ] Koble den andre krokodilleklemmen til porten hvor det står 0 på
-      micro:biten. Den andre enden kobler du til ytterst på stikket til
-      hodetelefonene/høytaleren.
+  micro:biten. Den andre enden kobler du til ytterst på stikket til
+  hodetelefonene/høytaleren.
 
 *Her ser du to bilder av hvordan utstyret bør kobles:*
 
@@ -95,8 +94,8 @@ hvordan feste klemmene på høytaleren](kobling_hoytaler.png){ width=45% }
 - [ ] Spilles melodien på micro:biten når du har overført programmet ditt?
 
 - [ ] Test ut noen [andre innebygde
-      melodier](https://microbit-micropython.readthedocs.io/en/latest/music.html#built-in-melodies){target=_blank}
-      også.
+  melodier](https://microbit-micropython.readthedocs.io/en/latest/music.html#built-in-melodies){target=_blank}
+  også.
 
 
 # Steg 4: Lag en tone selv {.activity}
@@ -131,7 +130,7 @@ skal vi gjøre nå.*
   ```
 
 - [ ] For å spille av tonen vår så må vi igjen bruke _play_. Legg til denne
-      kodelinjen nederst:
+  kodelinjen nederst:
 
   ```python
   play(tone)
@@ -149,7 +148,7 @@ skal vi gjøre nå.*
 *Nå skal vi erstatte tonen vår med melodien til "Twinkle twinkle little star".*
 
 - [ ] Erstatt variabelen *tone* med *melodi*, og spill av. Da ser koden din slik
-      ut:
+  ut:
 
   ```python
   from music import *
@@ -176,14 +175,14 @@ Vi legger til en knapp for å styre musikken.*
 - [ ] Først må vi importere enda et bibliotek. Legg til følgende linje helt
   øverst:
 
-  ``` python
+  ```python
   from microbit import *
   ```
 
 - [ ] Så legger vi til en løkke som kjøres for alltid, også sjekker vi om knapp
   **A** er trykket. Da ser programmet ditt slik ut:
 
-  ``` python
+  ```python
   from microbit import *
   from music import*
 
@@ -193,7 +192,7 @@ Vi legger til en knapp for å styre musikken.*
 
   while True:
     if button_a.is_pressed():
-      play(melodi)  
+      play(melodi)
   ```
 
 ## Test prosjektet {.flag}
@@ -204,7 +203,8 @@ Vi legger til en knapp for å styre musikken.*
 
 - [ ] Klarer du å komponere din egen melodi?
 
-- [ ] Klarer du å finne en melodi på Internett og lage en liste med toner som du kan spille av?
+- [ ] Klarer du å finne en melodi på Internett og lage en liste med toner som du
+  kan spille av?
 
 ## Forklaring av koden {.protip}
 
