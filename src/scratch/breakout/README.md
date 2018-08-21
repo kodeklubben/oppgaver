@@ -87,8 +87,27 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 [Klikk her for å se oppgaveteksten.](../breakout/breakout.html){target=_blank}
 
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
-oppgaven enda._
+
+# Når jeg mottar [nytt spill] {.activity}
+
+I de mer avanserte Scratch-oppgavene bruker vi kodeblokken
+
+```blocks
+når jeg mottar [Nytt spill v]
+```
+
+i stedet for
+
+```blocks
+når grønt flagg klikkes
+```
+
+Det blir introdusert litt subtilt i hver oppgave, så de fleste elevene får det
+ikke med seg når de programmerer. Å bruke en slik melding har flere fordeler,
+blant annet at det går an å starte spillet på nytt uten å måtte trykke på det
+grønne flagget (for eksempel kan meldingen `Nytt spill` sendes ut når en bestemt
+tast på tastaturet trykkes). Gjerne diskuter fordeler og ulemper ved dette med
+elevene for å gjøre et poeng av det.
 
 ## Variasjoner {.challenge}
 

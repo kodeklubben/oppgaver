@@ -1,8 +1,7 @@
 ---
-title: 'Eget prosjekt'
-level: 4
+title: Eget prosjekt
+author: Teodor Heggelund
 language: nb
-author: 'Teodor Heggelund'
 ---
 
 
@@ -86,8 +85,8 @@ klokke.
 
 ## Sjekkliste {.check}
 
-Ta en titt tilbake
-til [Tell sekunder](../07_tell_sekunder/07_tell_sekunder.html).
+Ta en titt tilbake til [Tell
+sekunder](../07_tell_sekunder/07_tell_sekunder.html).
 
 - [ ] Hvordan fikk vi tiden til å gå her?
 

@@ -65,7 +65,15 @@ Viss all koden din er riktig skal du få opp eit lite vindauge som ser slik ut:
 
 Her er heile koden slik den skal sjå ut no:
 
-![Bilete av koden for å teikne ein grå firkant](steg0.png)
+```processing
+void setup(){
+
+}
+
+void draw(){
+
+}
+```
 
 - [ ] Dobbeltsjekk at du har skrive alt riktig før du går vidare.
 
@@ -193,7 +201,18 @@ Hugs å avslutte linja med semikolon. Og hugs at `background` skal stå inni
 Her er eit bilete av korleis koden din skal sjå ut no. Hugs at du sikkert har
 andre tal enn me har, og det er heilt greitt.
 
-![Bilete av neste bit av koden i Processing](steg2.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+}
+
+void draw(){
+
+}
+```
 
 
 # Steg 4: Lag ein firkant {.activity}
@@ -236,7 +255,17 @@ for firkanten.
 
 Her er koden vår så langt.
 
-![Bilete av neste steg av koden for å lage tetris](steg3.png)
+```processing
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+}
+
+void draw(){
+  fill(255);
+  rect(275, 10, 50, 50);
+}
+```
 
 
 # Steg 6: Lag ein variabel {.activity}
@@ -312,7 +341,20 @@ Prøv sjølv og sjekk at det fungerer før du går vidare til steg 7.
 
 Her er koden så langt.
 
-![Bilete av neste steg for å lage tetris](steg4.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+  posisjonY = 20;
+}
+
+void draw(){
+  fill(255);
+  rect(275, posisjonY, 50, 50);
+}
+```
 
 
 # Steg 7: Beveg firkanten {.activity}
@@ -349,9 +391,23 @@ Køyr programmet og sjekk at firkanten fell.
 
 - [ ] Finn ei fart firkanten kan falle i som du synest ser passande ut.
 
-Her er heule koden så langt:
+Her er heile koden så langt:
 
-![Bilete av heile koden så langt](steg5.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+  posisjonY = 20;
+}
+
+void draw(){
+  fill(255);
+  rect(275, posisjonY, 50, 50);
+  posisjonY = posisjonY + 1;
+}
+```
 
 
 # Steg 8: Fjerne stripa som firkanten lagar {.activity}
@@ -371,4 +427,18 @@ skal sjå ut som firkanten fell må metodekallet `background` bli flytta inn i
 
 Her er heile koden:
 
-![Bilete av heile koden](steg6.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  posisjonY = 20;
+}
+
+void draw(){
+  background(20, 255, 170);
+  fill(255);
+  rect(275, posisjonY, 50, 50);
+  posisjonY = posisjonY + 1;
+}
+```
