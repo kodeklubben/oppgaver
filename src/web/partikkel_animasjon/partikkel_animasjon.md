@@ -1,7 +1,6 @@
 ---
-title: 'JS: Partikkel-animasjon'
-author: 'Lars Klingenberg'
-level: 2
+title: "JS: Partikkel-animasjon"
+author: Lars Klingenberg
 language: nb
 ---
 
@@ -95,10 +94,9 @@ La oss skrive det som trengs for å jobbe med `canvas`:
     <canvas id="canvas" width="500" height="500"></canvas>
 </body>
 </html>
-
 ```
 
-## Forklaring: Canvas{.tip}
+## Forklaring: Canvas {.tip}
 
 - `<canvas id="canvas" width="500" height="500"></canvas>` er selve
   `Canvas`-elementet. Den har en gitt høyde og bredde `500px x 500px`. Vi skal
@@ -122,7 +120,7 @@ var ctx;
 ```
 
 - [ ] Vi skal nå fylle disse variablene når siden vår lastes, da bruker vi noe
-      som heter `window.onload`:
+  som heter `window.onload`:
 
 ```js
 window.onload = function() {
@@ -165,6 +163,7 @@ console.log(bil.farge); // Skriver ut fargen på bilen: Blå
 ```
 
 For å endre på ett av attributtene gjør vi bare følgende:
+
 ```js
 bil.farge = "Rød";
 ```
@@ -177,10 +176,10 @@ element, vi bruker bare `objekter`.
 ##
 
 - [ ] Lag et objekt som heter `particle` og som inneholder følgende attributter:
-      `x`-posisjon, `y`-posisjon, `størrelse` og `farge`
+  `x`-posisjon, `y`-posisjon, `størrelse` og `farge`
 
 - [ ] Bestem selv en passende verdi for attributtene. Disse kan være lurt å
-      eksperimentere litt med senere i oppgaven.
+  eksperimentere litt med senere i oppgaven.
 
 <toggle>
     <strong> Hint </strong>
@@ -193,14 +192,14 @@ element, vi bruker bare `objekter`.
 - [ ] Lag en funksjon som heter `draw`. Denne skal tegne elementet for oss.
 
 - [ ] I `draw` skal vi nå legge til hvilke farge vi vil at elementet vårt skal
-      ha, du bestemmer selv hvilken farge:
+  ha, du bestemmer selv hvilken farge:
 
 ```js
 ctx.fillStyle = particle.farge;
-``
+```
 
 - [ ] Nå skal vi tegne et kvadrat (firkant hvor alle sidene er like lange) i
-      fargen vi valgte over:
+  fargen vi valgte over:
 
 ```js
 ctx.fillRect(particle.x,particle.y,particle.size,particle.size);
@@ -222,7 +221,6 @@ som vi setter på både `bredde` og `høyde` for å få et kvadrat.
 ##
 
 - [ ] Lagre og kjør funksjonen `draw()` når siden lastes.
-
 
 Forslag til koden så langt:
 
@@ -276,7 +274,6 @@ CTYPE html>
 
 </body>
 </html>
-
 ```
 
 
@@ -300,7 +297,7 @@ objekt.attributt1 = objekt.attributt1 + objekt.attributt2;
 ```
 
 - [ ] Legg til det som trengs i `draw` for å få `particle` til å endre `x`- og
-      `y`-posisjonen sin
+  `y`-posisjonen sin
 
 <toggle>
     <strong> Hint </strong>
@@ -328,7 +325,7 @@ setInterval(draw, 30);
 ##
 
 - [ ] Fjern `draw()`, vi trenger ikke den lenger, ettersom `setInterval` vil
-      kjøre `draw` for oss
+  kjøre `draw` for oss
 
 - [ ] Lagre og kjør siden vi har laget til nå!
 
@@ -337,8 +334,8 @@ finne en måte vi kan fjerne den forrige vi tegnet slik at vi skaper en illusjon
 om at den flytter på seg og ikke bare lager mange etter hverandre.
 
 - [ ] I starten av `draw` må vi bruke `ctx.clearRect(0,0,500,500);` for å fjerne
-      alt som er innenfor det svarte. Altså fra (`x`,`y`)-posisjonen (0,0) og
-      helt til (500,500).
+  alt som er innenfor det svarte. Altså fra (`x`,`y`)-posisjonen (0,0) og helt
+  til (500,500).
 
 - [ ] Lagre og kjør på nytt!
 
@@ -346,14 +343,14 @@ __Gratulere du har laget din første animasjon i JavaScript!__
 
 ## Utfordring {.challenge}
 
-- [x] Prøv å få partikkelen til å gå rett frem
+- [ ] Prøv å få partikkelen til å gå rett frem
 
 - [ ] Få partikkelen til å gå rett ned
 
 - [ ] Få partikkelen til å gå baklengs
 
 - [ ] Får du til at partikkelen bytter til en tilfeldig farge hver gang den
-      bytter posisjon?
+  bytter posisjon?
 
 ##
 

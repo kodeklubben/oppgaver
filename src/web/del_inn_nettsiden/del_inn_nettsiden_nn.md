@@ -1,8 +1,7 @@
 ---
-title: 'HTML: Del inn nettsida'
-author: 'Lars Klingenberg'
-translator: 'Stein Olav Romslo'
-level: 3
+title: "HTML: Del inn nettsida"
+author: Lars Klingenberg
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -79,7 +78,7 @@ tom nettside slik ut:
   <body>
   </body>
  </html>
- ```
+```
 
 Hugsar du at me kan leggje til metadata i `<head>` for mellom anna å få tittel
 på nettsida vår?
@@ -143,8 +142,8 @@ på nettsida vår?
 </toggle>
 
 - [ ] Lage en ny `<div>` som skal ha innhaldet på siden vår. Inni den kan vi
-      skrive en overskrift og legge til litt tekst. Gjerne også et bilde hvis du
-      vil det.
+  skrive en overskrift og legge til litt tekst. Gjerne også et bilde hvis du vil
+  det.
 
 <toggle>
 <strong>Sjå koden så langt</strong>
@@ -288,7 +287,7 @@ Under ser du korleis du kan leggje til CSS i `<head>`-taggen med 3 ID-ar:
 
     #nav{
 
-    }  
+    }
 
     #innhald{
 
@@ -338,7 +337,7 @@ kan me bruke eit hjelpemiddel:
 
 Me skal sjå meir på CSS etter me har lært litt meir HTML.
 
-## Utfordring {.challenge
+## Utfordring {.challenge}
 
 - [ ] Gå inn på [w3schools.com/css](https://w3schools.com/css) og sjå om du finn
   fleire "properties" du kan endre på.
@@ -367,6 +366,7 @@ botnen på denne sida og sjå kva som står der.
 taggen.
 
 Du kan lese om fleire her:
+
 [https://www.w3schools.com/html/html5_new_elements.asp](https://www.w3schools.com/html/html5_new_elements.asp)
 
 Desse taggane gjer det enklare for nettlesaren å sjå kva innhaldet på sida er.

@@ -1,8 +1,7 @@
 ---
-title: 'JS: Partikkel-gravitasjon'
-author: 'Lars Klingenberg'
-translator: 'Stein Olav Romslo'
-level: 3
+title: "JS: Partikkel-gravitasjon"
+author: Lars Klingenberg
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -125,9 +124,9 @@ No har du eit fallande objekt!
 # Steg 3: Få partikkelen til å flyge! {.activity}
 
 No som me har fått gravitasjon på partikkelen vår kan me leggje til styring på
-partikkelen ved hjelp av tastar. Me skal programmere slik at når du trykkar
-`pil opp` så gir du partikkelen negativ akselerasjon, og når me slepp att blir
-den påverka av gravitasjonen ned att. For å gjere det brukar me noko som heiter
+partikkelen ved hjelp av tastar. Me skal programmere slik at når du trykkar `pil
+opp` så gir du partikkelen negativ akselerasjon, og når me slepp att blir den
+påverka av gravitasjonen ned att. For å gjere det brukar me noko som heiter
 `onkeyup`, `onkeydown` og `keyCode`.
 
 For å kunne utføre ein operasjon når me trykkar på ein tast må me ha denne
@@ -174,6 +173,7 @@ støttar `keyCode`, men dei brukar `which` i staden.
   funksjon for `window.onkeyup`.
 
 - [ ] Les meir om `window.onkeyup` og meir her:
+
   [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp)
 
 Viss du står heilt bom fast kan du sjå her: [Forslag til

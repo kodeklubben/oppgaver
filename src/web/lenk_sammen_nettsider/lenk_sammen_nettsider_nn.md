@@ -1,8 +1,7 @@
 ---
-title: 'HTML: Lenk saman nettsider'
-author: 'Lars Klingenberg'
-translator: 'Stein Olav Romslo'
-level: 3
+title: "HTML: Lenk saman nettsider"
+author: Lars Klingenberg
+translator: Stein Olav Romslo
 language: nn
 ---
 

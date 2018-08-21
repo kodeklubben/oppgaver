@@ -1,7 +1,6 @@
 ---
-title: 'Lag din egen nettside'
-author: 'Arve Seljebu'
-level: 4
+title: Lag din egen nettside
+author: Arve Seljebu
 language: nb
 ---
 

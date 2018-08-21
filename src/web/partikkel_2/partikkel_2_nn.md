@@ -1,8 +1,7 @@
 ---
-title: 'JS: Partikkel-fest'
-author: 'Lars Klingenberg'
-translator: 'Stein Olav Romslo'
-level: 3
+title: "JS: Partikkel-fest"
+author: Lars Klingenberg
+translator: Stein Olav Romslo
 language: nn
 ---
 

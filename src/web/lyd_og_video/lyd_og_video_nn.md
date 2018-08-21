@@ -1,8 +1,7 @@
 ---
-title: 'HTML: Legg til lyd og video'
-level: 3
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: "HTML: Legg til lyd og video"
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -63,6 +62,7 @@ Viss du har ein video du har laga sjølv kan du leggje den til på sida utan å
 laste den opp på YouTube eller Vimeo.
 
 - [ ] For å leggje til ein video på sida di må du leggje til ein `video`-tagg.
+
 - Akkurat som `img`-taggen har video ein `src`-attributt som peikar på fila:
 
 ```

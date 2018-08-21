@@ -1,7 +1,6 @@
 ---
-title: 'JS: Trykkomania'
-level: 2
-author: 'Arve Seljebu'
+title: "JS: Trykkomania"
+author: Arve Seljebu
 language: nb
 ---
 
@@ -32,7 +31,7 @@ steg 2.
 - [ ] Åpne adressen [jsbin.com](http://jsbin.com) i ett eget vindu
 
 - [ ] Velg å vise **JavaScript** og **Output**. Skjul de andre fanene ved å
-      trykke på de.
+  trykke på de.
 
   ![Bilde av jsbin med fanene Javascript og Output](faner.png)
 
@@ -84,7 +83,7 @@ web](../introduksjon_til_web/introduksjon_til_web.html).
 - [ ] `el.style.backgroundColor = 'black'` gjør ballen svart
 
 - [ ] `el.style.width = '60px'` gjør ballen 60
-      [piksler](https://no.wikipedia.org/wiki/Piksel) bred
+  [piksler](https://no.wikipedia.org/wiki/Piksel) bred
 
 - [ ] `el.style.height = '60px'` gjør ballen 60 piksler høy
 
@@ -177,8 +176,7 @@ en funksjon som flytter ballen.
 ## Sjekkliste {.check}
 
 - [ ] Inni `Ball`, lag en funksjon som heter `el.posisjon`. Denne funksjonen
-      skal ta inn en x- og en y-verdi, plassere elementet og returnere
-      elementet.
+  skal ta inn en x- og en y-verdi, plassere elementet og returnere elementet.
 
   ```js
   function Ball() {
@@ -191,15 +189,15 @@ en funksjon som flytter ballen.
 
 - [ ] Funksjonen skal bestemme `el.style.top` og `el.style.left`.
 
-   ```js
+  ```js
    el.posisjon = function (x, y) {
      el.style.left = x;
      el.style.top = y;
    };
-   ```
+  ```
 
 - [ ] Returner `el`, slik at vi kan bruke funksjonene til ballen. Når elementet
-      `el` returneres så vil `el` oppdateres med ny plassering.
+  `el` returneres så vil `el` oppdateres med ny plassering.
 
   ```js
   function Ball() {
@@ -250,7 +248,7 @@ og 1. La oss bruke denne slik at ballen blir plassert på et tilfeldig sted.
   ![Bilde av outputt i prosent](prosent2.png)
 
 - [ ] Legg merke til at hver gang kommandoen kjøres, får vi nye tall. Det er
-      dette som kalles *tilfeldig*
+  dette som kalles *tilfeldig*
 
 - [ ] Lukk **Console** ved å trykke på den
 
@@ -261,22 +259,22 @@ og 1. La oss bruke denne slik at ballen blir plassert på et tilfeldig sted.
   var y = Math.random() * 100 + '%';
   ball.posisjon(x, y);
   ```
-  
+
 Her har vi laget 2 variabler `x` og `y` som begge holder på hvert sitt
 tilfeldige tall. Dette tallet sendes inn i funksjonen `posisjon(x,y)` som vi
 lagde i sted.
 
 - [ ] Hvis du trykker på knappen <button>Run with JS</button>, flytter ballen på
-      seg?
+  seg?
 
   ![Bildet av ballen som får en ny tilfeldig
   plassering](tilfeldig_plassering.gif)
 
 - [ ] Hvis du har haket av **Auto-run JS** vil også koden kjøres hver gang du
-      endrer koden
+  endrer koden
 
 - [ ] Trykker du nok antall ganger, legger du merke til at ballen noen ganger
-      kommer utenfor bunnen og høyre side
+  kommer utenfor bunnen og høyre side
 
 - [ ] For å unngå dette kan vi begrense forflytningen til 80%:
 
@@ -286,7 +284,7 @@ lagde i sted.
   ```
 
 - [ ] Siden `Math.random()` maksimalt er 1 og vi ganger med 80, vil aldri ballen
-      flytte seg lenger ut fra toppen eller venstre side enn 80%.
+  flytte seg lenger ut fra toppen eller venstre side enn 80%.
 
 ## Tips {.protip}
 
@@ -318,10 +316,10 @@ setInterval(function(){
   ```
 
 - [x] `setInterval(function ..., 2000)` betyr kjør `function` hvert `2000`
-      millisekund
+  millisekund
 
 - [ ] 2000 millisekund er 2 sekunder, altså tegnes ballen på et nytt sted hvert
-      andre sekund.
+  andre sekund.
 
 ## Tips {.protip}
 
@@ -380,7 +378,7 @@ opp likt som `Ball`, så du må gjerne lese gjennom og se om du forstår den.
   ```
 
 - [ ] For at poengsummen skal vises, må vi kjøre `Poeng()` en gang, slik vi også
-      gjorde med `Ball()`
+  gjorde med `Ball()`
 
 - [ ] Legg denne linjen over `Ball()`:
 
@@ -392,8 +390,8 @@ opp likt som `Ball`, så du må gjerne lese gjennom og se om du forstår den.
 - [ ] Vises "**Poeng 0**"
 
 - [ ] For å holde orden på programmet er det lurt å ha det som skjer i toppen.
-      Funksjoner kan brukes likevel om de ikke står først, så flytt `function
-      Ball` og `function Poeng` ned til bunnen.
+  Funksjoner kan brukes likevel om de ikke står først, så flytt `function Ball`
+  og `function Poeng` ned til bunnen.
 
   ```js
   var poeng = Poeng();
@@ -415,9 +413,9 @@ opp likt som `Ball`, så du må gjerne lese gjennom og se om du forstår den.
 - [ ] Nå står det som skjer i toppen:
 
   - Vis poengene: `var poeng = Poeng()`
-  
+
   - Vis ballen: `var ball = Ball()`
-  
+
   - Flytt ballen hvert andre sekund: `setInterval(..., 2000)
 
 - [ ] Vi velger nå å kjøre funksjonen `poeng.øk` hver gang ballen trykkes.
@@ -425,12 +423,12 @@ opp likt som `Ball`, så du må gjerne lese gjennom og se om du forstår den.
   ```js
   ball.onclick = poeng.øk;
   ```
-  
+
   **Obs:** Det skal **ikke** være `()` på slutten av `poeng.øk`. Dette er fordi
   funksjonen ikke kjøres her, men hver gang noen klikker på ballen.
 
 - [ ] `ball.onclick = poeng.øk;` betyr at funksjonen `poeng.øk()` kjøres når
-      noen klikker på ballen
+  noen klikker på ballen
 
 - [ ] Sjekk at du får poeng når du treffer ballen med et klikk.
 
@@ -450,7 +448,7 @@ mobiltelefonen.
 ## Sjekkliste {.check}
 
 - [ ] Noen mobiltelefoner zoomer når en dobbeltklikker på skjermen, derfor skal
-      vi slå av zooming
+  vi slå av zooming
 
 - [ ] Åpne fanen **HTML** ved å trykke på den
 
@@ -543,7 +541,7 @@ tid, slik at man kan konkurrere om hvem som klarer flest klikk på 10 sekunder.
 - [ ] Dette lager en nedtelling på 10 sekunder
 
 - [ ] Hvis du trykker på <button>Run with JS</button> ser du nedtellingen, men
-      ingenting skjer når tiden er ute
+  ingenting skjer når tiden er ute
 
 - [ ] Lag funksjonen `stopp` som forteller hva som skal skje når tiden er ute.
 
@@ -572,7 +570,7 @@ tid, slik at man kan konkurrere om hvem som klarer flest klikk på 10 sekunder.
   ```
 
 - [ ] Nå kan vi fortelle nedtellingen at den skal kjøre `stopp()` når tiden er
-      ute.
+  ute.
 
   ```js
   var nedtelling = Nedtelling(stopp);
@@ -604,7 +602,7 @@ stiligere med en knapp som starter spillet?
   ```
 
 - [ ] Funksjonen skal bestemme hva som skjer når spillet skal starte. Vi må
-      nullstille poengsummen, vise nedtellingen og vise ballen.
+  nullstille poengsummen, vise nedtellingen og vise ballen.
 
   ```js
   function start() {
@@ -665,7 +663,7 @@ stiligere med en knapp som starter spillet?
 - [ ] `knapp.onclick` bestemmer hva som skal skje når knappen klikkes
 
 - [ ] Knappen vises ikke, så vi må bestemme at den skal vises når spillet er
-      slutt.
+  slutt.
 
   ```js
   function stopp() {
@@ -677,7 +675,7 @@ stiligere med en knapp som starter spillet?
 - [ ] Vises knappen når spillet er ferdig
 
 - [ ] Du legger kanskje merke til at vi har en bug nå? Vi må jo skjule knappen
-      når spillet startes også
+  når spillet startes også
 
 - [ ] Skjul knappen når spillet startes.
 
@@ -689,7 +687,7 @@ stiligere med en knapp som starter spillet?
   ```
 
 - [ ] Spillet er nå ferdig! Del adressen med dine venner og se hvem som klarer
-      flest poeng.
+  flest poeng.
 
 ## Tips {.protip}
 
@@ -709,7 +707,6 @@ Her er noen utfordringer
 - [ ] Øk poengsummen med 1000 istedenfor 100
 
 - [ ] Klarer du å få ballen til å endre til forskjellig størrelse hver gang den
-      kommer til syne
+  kommer til syne
 
 - [ ] Klarer du å få frem flere enn én ball?
-

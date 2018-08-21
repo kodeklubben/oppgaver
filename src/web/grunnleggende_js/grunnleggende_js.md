@@ -1,7 +1,6 @@
 ---
-title: 'JS: Grunnleggende JavaScript'
-author: 'Lars Klingenberg'
-level: 2
+title: "JS: Grunnleggende JavaScript"
+author: Lars Klingenberg
 language: nb
 ---
 
@@ -47,7 +46,7 @@ var tekst = "Dette er en tekst";
 __La oss prøve oss litt frem!__
 
 - [ ] Gå inn på [JSbin.com](https://jsbin.com/?js,console) og sørg for at fanene
-      `JavaScript` og `Console` er markert. Dette gjør du ved å trykke på dem
+  `JavaScript` og `Console` er markert. Dette gjør du ved å trykke på dem
 
 - [ ] I `JavaScript`-vindu skriver du følgende:
 
@@ -76,7 +75,7 @@ console.log(tekst);
 - [ ] Vises teskten
 
 - [ ] La oss prøve oss på litt variabel-morro. Lag følgende variabler, du kan
-      godt slette det du allerede har:
+  godt slette det du allerede har:
 
 ```js
 var tall1 = 4;
@@ -92,8 +91,8 @@ console.log(tall1 + tall2);
 - [ ] Trykk `Run`. Fikk du 11
 
 - [ ] Nå som vi vet at vi kan få JavaScript til å regne for oss, ta å bytt ut
-      `+` med de andre regneartene vi har og se om JavaScript klarer å regne ut
-      med dem.
+  `+` med de andre regneartene vi har og se om JavaScript klarer å regne ut med
+  dem.
 
 La oss nå se på hvordan vi kan la en variabel være en annen:
 
@@ -200,10 +199,11 @@ if(alder >= 18) {
 
 ##
 
-- [ ] Prøv å endre `alder` slik at du får testet om `if/else`-setningene fungerer.
+- [ ] Prøv å endre `alder` slik at du får testet om `if/else`-setningene
+  fungerer.
 
 - [ ] La oss legge til noe som heter `prompt`, dette gjør at du kan ta inn
-      `input` fra brukeren av nettsiden:
+  `input` fra brukeren av nettsiden:
 
 ```js
 var alder = prompt("Hvor gammel er du?");
@@ -215,7 +215,7 @@ inneholder informasjon om dagen i dag. Dette er en klasse, hva det vil si skal
 vi ikke fokusere på nå.
 
 - [ ] Vi lager to variabler, en som er en `Date`-klasse og en annen som henter
-      timen vi er i nå:
+  timen vi er i nå:
 
 ```js
 var dato = new Date(); // Henter informasjon om dagen i dag
@@ -227,7 +227,7 @@ var tid = dato.getHours(); // Henter timen (klokka) vi er i nå
 Før du skal få en oppgave må vi gå igjennom noen verktøy vi kan bruke i
 `if/else`:
 
-## Forklaring  {.tip}
+## Forklaring {.tip}
 
 + I en `if(betingelse)` kan vi sjekke flere ting samtidig ved å bruke `&&` eller
   `||`. `&&` betyr `og`, `||` betyr `eller`. Finner du ikke disse på tastaturet,
@@ -307,7 +307,7 @@ En funksjon kalles ofte for en `metode`. Videre kommer vi til å bruke `funksjon
 og `metode` litt om hverandre.
 
 - [ ] Ta nå koden som har med alder å gjøre, og legg den inn i en funksjon. Kall
-      funksjonen for `sjekkAlder`
+  funksjonen for `sjekkAlder`
 
 <toggle>
     <strong>Hint</strong>
@@ -336,7 +336,6 @@ og `metode` litt om hverandre.
     sjekkAlder();
     </hide>
 </toggle>
-
 
 La oss nå se på et annet eksempel på bruk av funksjoner. Vi skal nå lage en
 funksjon som skal ta inn et `paramenter` og `returnere` en verdi.
@@ -475,7 +474,7 @@ __Bra! La oss se på lister.__
 - [ ] Skriv ut alle ved hjelp av en `for`-løkk
 
 - [ ] Skriv ut annen hvert element i lista (hint: bruk samme metode som med
-      partall)
+  partall)
 
 ## While-løkke {.tip}
 
@@ -521,14 +520,14 @@ har løkken sånn at den teller opp etter vi har utført det vi skal.
 - [ ] Skriv om løkken slik at du skriver ut alle partallene fra 1-100
 
 - [ ] Bruk listen din over favorittspill og skriv ut alle elementene ved hjelp
-      av `while`-løkken
+  av `while`-løkken
 
 __La oss nå lage et enkelt `Kron eller mynt`-spill ved hjelp av `while`.__
 
 - [ ] Åpne en ny [JSbin.com](https://jsbin.com/?js,console
 
 - [ ] Lag en variabel, `krone`, som skal være enten 0 eller 1, dette skal være
-      tilfeldig:
+  tilfeldig:
 
 ```js
 var krone = Math.floor(Math.random()*2);
@@ -539,7 +538,7 @@ henter et tall mellom 0 og 1, derfor bruker vi `*2` for at tallet blir mellom
 0-2.
 
 - [ ] Lag en `while`-løkke som skal kjøre helt til du får `mynt`. Vi sier nå at
-      `kron` er `1` og `mynt` er `0`:
+  `kron` er `1` og `mynt` er `0`:
 
 ```js
 while(krone === 0) {
@@ -554,7 +553,7 @@ __Bra jobba!__ Nå har du lært masse om JavaScript!
 ## Utfordring {.challenge}
 
 - [ ] Bruk `prompt` til å ta inn et valg fra brukeren sånn at du selv kan
-      bestemme om du vil ha `Kron` eller `Mynt`
+  bestemme om du vil ha `Kron` eller `Mynt`
 
 - [ ] Klarer du å gjøre det samme med terninger? Da må du ha tallene fra 0-6 og
-      ikke bare fra 0-2.
+  ikke bare fra 0-2.

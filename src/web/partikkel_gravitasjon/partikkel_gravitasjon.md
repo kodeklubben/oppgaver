@@ -1,7 +1,6 @@
 ---
-title: 'JS: Partikkel-gravitasjon'
-author: 'Lars Klingenberg'
-level: 3
+title: "JS: Partikkel-gravitasjon"
+author: Lars Klingenberg
 language: nb
 ---
 
@@ -68,9 +67,9 @@ Det første vi skal gjøre er å få partikkelen til å falle, for å få det ti
 skje må du programmere følgende:
 
 - [ ] Legg til to attributter i `particle` som skal holde styr på
-      `gravitasjonen` og `hastigheten` den faller med.
-      `Gravitasjons`-attributtet bør være et lite tall, som for eksempel `0.01`.
-      `Hastigheten` bør være `0` fra starten av
+  `gravitasjonen` og `hastigheten` den faller med. `Gravitasjons`-attributtet
+  bør være et lite tall, som for eksempel `0.01`. `Hastigheten` bør være `0` fra
+  starten av
 
 - [ ] Sett et passende startsted for `particle`, helst høyt oppe
 
@@ -83,7 +82,7 @@ For hver gang `draw()` kjører, skal følgende skje:
 <toggle>
     <strong> Hint </strong>
     <hide>
-    objekt.gravitasjon += objekt.hastighet eller 
+    objekt.gravitasjon += objekt.hastighet eller
     objekt.gravitasjon = objekt.gravitasjon + objekt.hastighet
     </hide>
 </toggle>
@@ -111,14 +110,14 @@ greit en sjekk hver gang vi kjører `draw()`
 </toggle>
 
 - [ ] I sjekken må du stoppe partikkelen ved å sette `y`-verdien. Kan du tenke
-      deg til hva `y`-verdien bør være?
+  deg til hva `y`-verdien bør være?
 
 Nå har du et fallende objekt!
 
 ## Utfordringer {.challenge}
 
 - [ ] Når partikkelen treffer kanten, snu gravitasjonen sånn at partikkelen går
-      oppover
+  oppover
 
 - [ ] Klarer du å få partikkelen til å gå til venster eller høyre også
 
@@ -146,7 +145,7 @@ window.onkeydown = function(inputKey) {
 ```
 
 - [ ] Bruk [keycode.info](http://keycode.info) til å finne ut hvilke
-      `knapp-kode` knappen du vil bruke har.
+  `knapp-kode` knappen du vil bruke har.
 
 ## Forklaring {.challenge}
 
@@ -173,12 +172,11 @@ støtter `keyCode`, men bruker `which` istedet.
 ##
 
 - [ ] For at du skal få gravitasjonen tilbake når du slipper knappen må du lage
-      en funksjon for `window.onkeyup`.
+  en funksjon for `window.onkeyup`.
 
 - [ ] Les mer om `window.onkeyup` osv her:
-      [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp)
 
+      [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp)
 
 Dersom du står bomfast: [Forlag til
 kode](https://jsbin.com/sezumakiyo/edit?html,output)
-

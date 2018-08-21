@@ -1,8 +1,7 @@
 ---
-title: 'JS: Partikkel-animasjon'
-author: 'Lars Klingenberg'
-translator: 'Stein Olav Romslo'
-level: 2
+title: "JS: Partikkel-animasjon"
+author: Lars Klingenberg
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -94,7 +93,6 @@ det som trengst for å jobbe med `canvas`:
     <canvas id="canvas" width="500" height="500"></canvas>
 </body>
 </html>
-
 ```
 
 ## Forklaring: Canvas {.tip}
@@ -171,7 +169,8 @@ bil.farge = "Raud";
 
 No blir attrubutten `farge` endra frå `Blå` til `Raud`.
 
-På denne måten slepp me å lage mange variablar som skal høyre til same element, me brukar heller `objekt`.
+På denne måten slepp me å lage mange variablar som skal høyre til same element,
+me brukar heller `objekt`.
 
 ##
 
@@ -199,6 +198,7 @@ ctx.fillStyle = particle.farge;
 ```
 
 - [ ] No skal me teikne eit kvadrat (ein firkant der alle sidene er like lange)
+
 - i farga me valte over:
 
 ```js
@@ -273,7 +273,6 @@ CTYPE html>
 
 </body>
 </html>
-
 ```
 
 

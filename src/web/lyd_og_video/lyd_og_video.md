@@ -1,8 +1,7 @@
 ---
-title: 'HTML: Legg til lyd og video'
-level: 3
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Trude Martinsen'
+title: "HTML: Legg til lyd og video"
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Trude Martinsen
 language: nb
 ---
 
@@ -44,16 +43,15 @@ vises på nettsiden. Forsøk gjerne å forandre på de.
 - [ ] Klikk på `Del`/`Share` knappen i videospilleren
 
 - [ ] Nederst vises det en boks med _Embed_. Klikk på den og kopiere koden.
-      Koden vil ligne på dette:
+  Koden vil ligne på dette:
 
 ```
 <iframe src="http://player.vimeo.com/video/44738167?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 ```
 
 - [ ] Lim inn koden der du vil at videoen skal vises på siden. Legg merke til
-      `width`(bredde) og `height`(høyde) attributtene. De gjør at du kan
-      bestemme hvor stort videoen skal vises på nettsiden. Forsøk gjerne å
-      forandre på de.
+  `width`(bredde) og `height`(høyde) attributtene. De gjør at du kan bestemme
+  hvor stort videoen skal vises på nettsiden. Forsøk gjerne å forandre på de.
 
 
 # Legge til en video fra datamaskinen din {.activity}
@@ -62,8 +60,7 @@ Hvis du har en video du har laget kan du legge den til på siden din uten å las
 den opp på YouTube eller Vimeo.
 
 - [ ] For å legge til en video på siden din må du legge til en `video` tag.
-      Akkurat som `img` taggen har også video en `src` attributt som peker på
-      filen:
+  Akkurat som `img` taggen har også video en `src` attributt som peker på filen:
 
 ```
   <video src="romskip_landing.mp4">
@@ -75,7 +72,7 @@ klarer å spille av alle videoformatene. `.mp4` og `.ogv` fungere i de fleste
 nettleserene, så det kan lønne seg å lagre videoen din i et av de formatene.
 
 - [ ] For å la nettleseren vite at vi har flere formater tilgjengelig, kan vi
-      skrive følgende kode:
+  skrive følgende kode:
 
 ```
   <video>
@@ -85,7 +82,7 @@ nettleserene, så det kan lønne seg å lagre videoen din i et av de formatene.
 ```
 
 - [ ] For å legge til et bilde som vises før videoen spilles av, kan du bruke
-      'poster' attributtet på videotaggen:
+  'poster' attributtet på videotaggen:
 
 ```
   <video poster="romskip_landing.jpg">
@@ -95,7 +92,7 @@ nettleserene, så det kan lønne seg å lagre videoen din i et av de formatene.
 ```
 
 - [ ] Hvis du vil at videoen automatisk skal start å spilles av kan du legge til
-      `autoplay` attributtet. Det gjøres på denne måten:
+  `autoplay` attributtet. Det gjøres på denne måten:
 
 ```
   <video poster="romskip_landing.jpg" autoplay>
@@ -105,7 +102,7 @@ nettleserene, så det kan lønne seg å lagre videoen din i et av de formatene.
 ```
 
 - [ ] For å vise knapper til å styre videoen med, sånn som spill av, pause,
-      volum og så videre kan du legge til `controls` attributtet:
+  volum og så videre kan du legge til `controls` attributtet:
 
 ```
   <video poster="romskip_landing.jpg" controls>
@@ -115,7 +112,7 @@ nettleserene, så det kan lønne seg å lagre videoen din i et av de formatene.
 ```
 
 - [ ] Du kan også styre størrelsen på videoen med `width`(bredde) og
-      `height`(høyde) attributtene på følgende måte:
+  `height`(høyde) attributtene på følgende måte:
 
 ```
   <video poster="romskip_landing.jpg" width="600" height="400">
@@ -152,7 +149,7 @@ spille av.
 ```
 
 - [ ] For å legge til knapper for å styre lydavspillingen må du legge til
-      `controls` attributtet:
+  `controls` attributtet:
 
 ```
   <audio controls>
@@ -162,7 +159,7 @@ spille av.
 ```
 
 - [ ] Hvis du ønsker at lyden skal starte å spilles av med en gang man går inn
-      på nettsiden kan du legge til `autoplay` attributten på denn måten:
+  på nettsiden kan du legge til `autoplay` attributten på denn måten:
 
 ```
   <audio controls autoplay>

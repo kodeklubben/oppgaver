@@ -1,8 +1,7 @@
 ---
-title: 'CSS: Layout'
-author: 'Lars Klingenberg'
-translator: 'Stein Olav Romslo'
-level: 4
+title: "CSS: Layout"
+author: Lars Klingenberg
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -20,8 +19,8 @@ langt og/eller er kjent med `<div>`- og HTML5-taggane.
 
 # Steg 1: Me startar frå toppen {.activity}
 
-Før me startar må me ha ei heilt enkel HTML-side. Sidan me har lært å
-bruke HTML5-taggar, så brukar me det i denne oppgåva.
+Før me startar må me ha ei heilt enkel HTML-side. Sidan me har lært å bruke
+HTML5-taggar, så brukar me det i denne oppgåva.
 
 - [ ] Last ned og pakk ut [layout.zip](ressurser/layout.zip).
 
@@ -250,7 +249,6 @@ innanfor `<section>`-taggen.
 
 - [ ] Viss du la inn eit bilete, prøv å få det sentrert på sida.
 
-
 <toggle>
   <strong>Hint</strong>
   <hide>
@@ -364,7 +362,9 @@ __TADA! Du har laga ei flott nettside du kan byggje vidare på!__
 ## Ting å jobbe vidare med {.challenge}
 
 - [ ] Bruk
+
   [w3schools.com/css/css_link.asp](http://www.w3schools.com/css/css_link.asp)
+
   til å leggje til forandring på lenkene når du heldt over dei.
 
 - [ ] Legg til endå ei side, til dømes "Mitt favorittspel". Skriv om det, legg
