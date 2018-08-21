@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - 7-Segment Display
-author: 'Martin Ertsås & Morten Minde Neergaard'
-level: 2
+author: "Martin Ertsås & Morten Minde Neergaard"
 language: nb
 ---
 
@@ -30,7 +29,7 @@ sluttresultatet vil se noe kaotisk ut.
 
 # Løsningsforslag
 
-## Display som teller opp og ned med to knapper.
+## Display som teller opp og ned med to knapper
 
 Kobling:
 
@@ -200,4 +199,3 @@ void loop() {
   }
 }
 ```
-
