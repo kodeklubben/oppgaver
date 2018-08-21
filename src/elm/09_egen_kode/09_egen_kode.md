@@ -1,7 +1,6 @@
 ---
-title: 'Skrive egen kode'
-level: 2
-author: 'Erik Aasmundrud'
+title: Skrive egen kode
+author: Erik Aasmundrud
 language: nb
 ---
 
@@ -11,9 +10,9 @@ language: nb
 Denne oppgaven har som hensikt i å lære å skrive sin egen kode, istedenfor å
 kopiere noe som allerede eksisterer.
 
-Når man skal bli god til å programmere er det helt nødvendig å klare å skrive sin
-egen kode. Det er fristende å prøve å google problemet man har, eller se på noe
-som noen andre har gjort. Dette fører til at man ikke lærer like mye, så i
+Når man skal bli god til å programmere er det helt nødvendig å klare å skrive
+sin egen kode. Det er fristende å prøve å google problemet man har, eller se på
+noe som noen andre har gjort. Dette fører til at man ikke lærer like mye, så i
 denne oppgaven skal vi prøve å skrive vår helt egne kode.
 
 
@@ -100,9 +99,9 @@ Prøv å lage følgende:
 
 # Steg 4: if-else-uttrykk {.activity}
 
-Når vi lager funksjoner er vi ofte interessert i å gjøre noe avhengig av hva
-det vi sender inn er. Dette kaller vi if-else-uttrykk. Dette har du sikkert
-vært borti flere ganger før, og nesten alle programmeringsspråk har dette.
+Når vi lager funksjoner er vi ofte interessert i å gjøre noe avhengig av hva det
+vi sender inn er. Dette kaller vi if-else-uttrykk. Dette har du sikkert vært
+borti flere ganger før, og nesten alle programmeringsspråk har dette.
 
 I elm skriver man if-else-uttrykk på følgende måte:
 

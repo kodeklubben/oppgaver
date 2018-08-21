@@ -6,7 +6,7 @@ language: nb
 ---
 
 
-# Om oppgaven
+# Om oppgaven {.activity}
 
 Nå skal vi lage vår egen versjon av spillet __Flappy Bird__. Du styrer fuglen
 __Flakse__ ved å trykke på mellomromtasten for å flakse med vingene. Du må holde
@@ -14,7 +14,7 @@ Flakse flyvende og prøve å styre mellom rørene!
 
 ![Illustrasjon av et ferdig Flaksefugl spill](flaksefugl.png)
 
-## Oppgaven passer til{.check}
+## Oppgaven passer til: {.check}
 
  __Fag__: Kunst og håndtverk, matematikk, naturfag, programmering.
 
