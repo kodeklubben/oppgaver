@@ -223,6 +223,7 @@ Her er koden me har laga så langt.
   }
 ```
 
+
 # Steg 4: Lag kontrollarar! {.activity}
 
 No skal me lage ei `if`-setning som registrerer om du trykkar på ein knapp.
@@ -345,7 +346,8 @@ er feil:
   }
 ```
 
-## Steg 5: Me treng ein vinnar! {.activity}
+
+# Steg 5: Me treng ein vinnar! {.activity}
 
 Me treng fleire `if`-setningar. Desse skal skrive ein beskjed på skjermen viss
 ein spelar vinn. Ein vinn ved å dytte spelebrikka ut av skjermen.
