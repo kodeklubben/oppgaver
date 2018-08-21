@@ -3,6 +3,7 @@ title: LEGO Mindstorms
 language: nn
 ---
 
+
 LEGO Mindstorms er eit produkt frå leiketøysprodusenten Lego som gjer det mogleg
 å lage og programmere sin eigen robot. Roboten kan koplast til fleire ulike
 sensorar, og i tillegg er det portar som gjer at du kan kople til motorar,
