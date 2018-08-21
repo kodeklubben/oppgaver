@@ -81,7 +81,7 @@ __Tidsbruk__: Dobbelttime eller meir.
   må laste det ned sjølv. Det er gitt ei beskriving for det i oppgåva, eventuelt
   kan du gjere følgjande biletefil tilgjengeleg for elevane:
 
-  ![Bilete av eit kart over Europa](../hvor_i_all_verden_del1/europakart.png)
+  ![Bilete av eit kart over Europa](europakart.png)
 
 ## Framgangsmåte
 
