@@ -67,7 +67,7 @@ __Tidsbruk__: Dobbelttime eller meir.
 - [ ] Eleven syner middels måloppnåing ved å fullføre oppgåva.
 
 - [ ] Eleven syner høg måloppnåing ved å vidareutvikle eigen kode basert på
-oppgåva, til dåmes ved å gjere ein eller fleire av variasjonane under.
+oppgåva, til dømes ved å gjere ein eller fleire av variasjonane under.
 
 ## Føresetnader og utstyr {.challenge}
 
