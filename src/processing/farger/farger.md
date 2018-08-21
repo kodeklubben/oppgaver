@@ -1,7 +1,6 @@
 ---
 title: Farger
-level: 1
-author: 'Sigmund Hansen'
+author: Sigmund Hansen
 language: nb
 ---
 
@@ -16,9 +15,9 @@ blandingen litt annerledes. Hvordan blandingen fungerer på en dataskjerm skal d
 lære mer om i denne leksjonen med Processing.
 
 ![Tre overlappende sirkler i rødt, grønt og blått. Der de overlapper blandes
- fargene til gul, cyan, magenta og hvitt.](RGB.png "Tre overlappende sirkler i
- rødt, grønt og blått. Der de overlapper blandes fargene til gul, cyan, magenta
- og hvitt.")
+fargene til gul, cyan, magenta og hvitt.](RGB.png "Tre overlappende sirkler i
+rødt, grønt og blått. Der de overlapper blandes fargene til gul, cyan, magenta
+og hvitt.")
 
 
 # Steg 1: Mer enn grått {.activity}
@@ -113,9 +112,9 @@ blått, får vi en slags rosa, kalt magenta. Når alle tre fargene er like sterk
 får vi en gråtone. Med alle tre på fullt, `255`, får vi hvitt.
 
 ![Tre overlappende sirkler i rødt, grønt og blått. Der de overlapper blandes
- fargene til gul, cyan, magenta og hvitt.](RGB.png "Tre overlappende sirkler i
- rødt, grønt og blått. Der de overlapper blandes fargene til gul, cyan, magenta
- og hvitt.")
+fargene til gul, cyan, magenta og hvitt.](RGB.png "Tre overlappende sirkler i
+rødt, grønt og blått. Der de overlapper blandes fargene til gul, cyan, magenta
+og hvitt.")
 
 Du har kankje også sett et fargehjul før, der primærfargne plasseres rundt
 hjulet. Sekundærfargene, fargene man får når man blander to primærfarger
@@ -192,8 +191,8 @@ så la oss se hva vi kan gjøre med fargene til former.
 
 - [ ] Prøv forskjellige fyllfarger. Hvordan passer disse med fargen på omrisset?
 
-- [ ] Prøv forskjellige farger på omrisset. Hvordan passer det med
-  bakgrunnen og fyllfargen?
+- [ ] Prøv forskjellige farger på omrisset. Hvordan passer det med bakgrunnen og
+  fyllfargen?
 
 - [ ] Prøv andre tykkelser på omrisset. Hvor synes du at det er passe tykt?
 
@@ -229,9 +228,8 @@ være lurt å bruke fargevelgeren som finnes i Processing.
 - [ ] Prøv å trykke i det lille fargefeltet rett ved siden av. Her kan du velge
   hvilken farge du vil ha.
 
-  ![En animasjon som viser at fargen endres i
-   fargevelgeren.](Fargevelger.gif "En animasjon som viser at fargen endres i
-   fargevelgeren.")
+  ![En animasjon som viser at fargen endres i fargevelgeren.](Fargevelger.gif
+  "En animasjon som viser at fargen endres i fargevelgeren.")
 
   Hva skjer med verdiene til RGB nå?
 
@@ -391,8 +389,8 @@ fargen skal være. Det siste, **B**, bestemmer hvor lys fargen skal være.
   float tone;
   ```
 
-  Så endrer vi `draw` til å tegne opp 9 sirkler der radene har samme
-  metning, og kolonnene har samme lyshet:
+  Så endrer vi `draw` til å tegne opp 9 sirkler der radene har samme metning, og
+  kolonnene har samme lyshet:
 
   ```processing
   void draw() {
@@ -579,4 +577,3 @@ variabler. Variablene defineres, som tidligere, utenfor _setup()_ og _draw()_.
   `lerpColor` for omriss- og/eller fyllfargene? Hvis du skal bruke
   blandingsfarger til både omriss og fyll, kan det være lurt å legge resultatene
   av blandingen i `color`-variabler.
-

@@ -1,8 +1,7 @@
 ---
-title: 'Verda - del 2'
-level: 2
-author: 'Kine Gjerstad Eide'
-translator: 'Stein Olav Romslo'
+title: Verda - del 2
+author: Kine Gjerstad Eide
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -32,7 +31,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365){
@@ -126,7 +125,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365){
@@ -221,7 +220,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33){
@@ -292,7 +291,7 @@ koordinatar.
 ## Sjekkliste {.check}
 
 - [ ] Lag ei ny `if`-setning som sjekkar grensene til den nye firkanten. Her er
-      biletet:
+  biletet:
 
 ![Bilete av verdskartet og Afrika](mapAfrika.png)
 
@@ -307,7 +306,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33){
@@ -471,7 +470,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33){
@@ -559,9 +558,8 @@ Me må setje inn parametrar i metodekallet.
 
 - [ ] Køyr programmet på nytt. Fungerer det framleis som det skal?
 
-Her er eit bilete av koden. Det er viktig at
-du har fjerna riktig `if`-setning og at du har brukt riktige parametrar i
-metodekallet på `sjekkVerdsdel();`.
+Her er eit bilete av koden. Det er viktig at du har fjerna riktig `if`-setning
+og at du har brukt riktige parametrar i metodekallet på `sjekkVerdsdel();`.
 
 ```processing
 PImage verdskartet;
@@ -572,7 +570,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 694) && mouseX < 1197 && mouseY < 537 && mouseY > 88){
@@ -634,7 +632,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   sjekkVerdsdel("EUROPA", 365, 694, 455, 33);
@@ -703,7 +701,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   sjekkVerdsdel("EUROPA", 365, 694, 455, 33);
@@ -864,7 +862,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("Trykk på: " + alleVerdsdelane[tilfeldigTal], 50, 50);  
+  text("Trykk på: " + alleVerdsdelane[tilfeldigTal], 50, 50);
 
   sjekkVerdsdel("EUROPA", 365, 694, 455, 33);
   sjekkVerdsdel("ASIA", 694, 1197, 537, 88);
@@ -966,7 +964,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("Trykk på: " + alleVerdsdelane[tilfeldigTal], 50, 50);  
+  text("Trykk på: " + alleVerdsdelane[tilfeldigTal], 50, 50);
 
   sjekkVerdsdel("EUROPA", 365, 694, 455, 33);
   sjekkVerdsdel("ASIA", 694, 1197, 537, 88);

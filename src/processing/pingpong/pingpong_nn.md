@@ -1,8 +1,7 @@
 ---
-title: 'Ping pong'
-level: 2
-author: 'Torbjørn Vik Lunde'
-translator: 'Stein Olav Romslo'
+title: Ping pong
+author: Torbjørn Vik Lunde
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -204,7 +203,7 @@ Viss du endrar:
 
 ```processing
   if (keyCode == UP) {
-````
+```
 
 Til:
 

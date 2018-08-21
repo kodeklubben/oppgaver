@@ -12,7 +12,8 @@ make games and multimedia programs.
 
 - Go to [processing.org/download](https://processing.org/download).
 
-- Download Processing to your computer. Select the newest version (3.4 as of July 2018).
+- Download Processing to your computer. Select the newest version (3.4 as of
+  July 2018).
 
 - Install Processing by unpacking the archive to a suitable drive on your
   computer.
