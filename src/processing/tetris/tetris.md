@@ -64,7 +64,15 @@ Dersom all koden din er riktig skal du få opp et lite vindu som ser slik ut:
 
 Her er hele koden slik den skal se ut nå:
 
-![Bilde av koden for å tegne en grå firkant](steg0.png)
+```processing
+void setup(){
+
+}
+
+void draw(){
+
+}
+```
 
 - [ ] Dobbelsjekk at du har skrevet alt riktig før du går videre.
 
@@ -193,7 +201,18 @@ Husk å avslutt linjen med semikolon. `background` skal slik som `size` også in
 Her er et bilde av hvordan koden din skal se ut nå. Husk at du sikkert har
 funnet litt andre tall enn vi har.
 
-![Bilde av neste bit av koden i processing](steg2.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+}
+
+void draw(){
+
+}
+```
 
 
 # Steg 4: Lag en firkant {.activity}
@@ -236,7 +255,17 @@ over firkanten.
 
 Her er vår kode så langt, husk at du sikkert har valgt andre parametre.
 
-![Bilde av neste steg av koden for å lage tetris](steg3.png)
+```processing
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+}
+
+void draw(){
+  fill(255);
+  rect(275, 10, 50, 50);
+}
+```
 
 
 # Steg 6: Lag en variabel {.activity}
@@ -312,7 +341,20 @@ Prøv selv og sjekk at dette fungerer før du fortsetter med steg 7 under.
 
 Her er koden så langt.
 
-![Bilde av neste steg for å lage tetris](steg4.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+  posisjonY = 20;
+}
+
+void draw(){
+  fill(255);
+  rect(275, posisjonY, 50, 50);
+}
+```
 
 
 # Steg 7: Beveg firkanten {.activity}
@@ -352,7 +394,21 @@ Kjør programmet og sjekk at firkanten faller.
 
 Her er hele koden så langt:
 
-![Bilde av hele koden så langt](steg5.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+  posisjonY = 20;
+}
+
+void draw(){
+  fill(255);
+  rect(275, posisjonY, 50, 50);
+  posisjonY = posisjonY + 1;
+}
+```
 
 
 # Steg 8: Fjerne stripa som firkanten lager {.activity}
@@ -371,5 +427,18 @@ Det er vanlig å kalle på `background` helt først i `draw` metoden.
 
 Her er hele koden:
 
-![Bilde av hele koden](steg6.png)
+```processing
+int posisjonY;
 
+void setup(){
+  size(600, 900);
+  posisjonY = 20;
+}
+
+void draw(){
+  background(20, 255, 170);
+  fill(255);
+  rect(275, posisjonY, 50, 50);
+  posisjonY = posisjonY + 1;
+}
+```

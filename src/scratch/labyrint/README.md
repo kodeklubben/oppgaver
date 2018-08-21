@@ -102,6 +102,24 @@ oppgaveteksten.](../labyrint/labyrint.html){target=_blank}
       problemet er presentert i tipsboksen nederst i [steg 5 i
       oppgaven](labyrint.html#tips-3).
 
+
+# Stopp alle {.activity}
+
+Vi bruker klossen `stopp alle`{.b} for å stoppe alle skript i programmet når
+froskekongen tar utforskeren. Dette stopper alle skriptene som startet da vi
+klikket på det grønne flagget, men det hindrer ikke nye skript å starte. Derfor
+kan fortsatt utforskeren flyttes rundt med piltastene etterpå.
+
+Siden oppgaven er et introduksjonsprosjekt er det ikke gjort noe med dette. For
+elever som har lyst å prøve seg på en løsning kan du foreslå følgende:
+
+- [ ] Lag en `game_over`-variabel som er satt til `false` eller `0` mens spillet
+  pågår, som sjekkes hver gang spilleren trykker en piltast, før utforskeren
+  flytter seg. Sett variabelen til `true` eller `1` når spillet er over.
+
+- [ ] En mer vanlig (og bedre) løsning er å bruke en `for alltid`-løkke med
+  `hvis ... trykket?`-klosser. Disse blir da stoppet av `stopp alle`-klossen.
+
 ## Variasjoner {.challenge}
 
 - [ ] Dette er et introduksjonsprosjekt, og elevene ledes derfor ganske

@@ -46,9 +46,17 @@ void setup(){
 Dersom programmet kjører og alt er i orden så vil det dukke opp et nytt bitte
 lite vindu på skjermen din. Dersom du fikk opp vinduet, så er det bare å gå
 videre til steg 2. Dersom ikke, så kan du sjekke at du har fått med alle
-detaljene i koden din, ved å sammenligne med bildet under.
+detaljene i koden din, ved å sammenligne med koden under.
 
-![Bilde av koden så langt](steg1.png)
+```processing
+  void setup(){
+
+  }
+
+  void draw(){
+
+  }
+```
 
 Lagre koden din før du går videre.
 
@@ -118,7 +126,16 @@ Kjør programmet ditt og sjekk at du får vinduet til å vises før du går vide
 Her er koden vi har laga så langt, husk at dine tall kanskje er litt forskjellig
 fra våre tall.
 
-![Bilde av neste steg av koden](steg2.png)
+```processing
+  void setup(){
+    size(800, 500);
+    background(40, 150, 255);
+  }
+
+  void draw(){
+
+  }
+```
 
 
 # Steg 3: Spillbrikke {.activity}
@@ -198,7 +215,20 @@ koden for ellipse slik ut:
 
 Her er koden vi har laga så langt.
 
-![Bilde av koden så langt](steg3.png)
+```processing
+  int x;
+
+  void setup(){
+    size(800, 500);
+    x = 400;
+  }
+
+  void draw(){
+    background(40, 150, 255);
+    fill(30, 230, 100);
+    ellipse(x, 250, 50, 50);
+  }
+```
 
 
 # Steg 4: Lag kontrollere! {.activity}
@@ -298,11 +328,34 @@ if(keyPressed && key == 'a'){
 - [ ] Bytt ut tallet inni den nye `if`-setningen, slik at du får ellipsen til å
       gå dobbelt så raskt til venstre.
 
-Dersom ikke koden din fungerer helt som den skal, så kan du sjekke her hva som er feil.
+Dersom ikke koden din fungerer helt som den skal, så kan du sjekke her hva som
+er feil.
 
-![Bilde av koden så langt](steg4.png)
+```processing
+  int x;
 
-## Steg 5: Vi trenger en vinner! {.activity}
+  void setup(){
+    size(800, 500);
+    x = 400;
+  }
+
+  void draw(){
+    background(40, 150, 255);
+    fill(30, 230, 100);
+    ellipse(x, 250, 50, 50);
+
+    if(keyPressed && key == 'a'){
+      x+=10;
+    }
+
+    if(keyPressed && key == 'l'){
+      x-=10;
+    }
+  }
+```
+
+
+# Steg 5: Vi trenger en vinner! {.activity}
 
 Vi trenger flere `if`-setninger, disse skal skrive en beskjed på skjermen hvis
 en spiller vinner. Man vinner med å dytte ellipsen ut av skjermen.
@@ -346,4 +399,33 @@ Denne skal skrives under de to forrige `if`-setningene:
 
 Her er hele koden, sjekk om din er lik.
 
-![Bilde av hele koden](steg5.png)
+```processing
+  int x;
+
+  void setup(){
+    size(800, 500);
+    x = 400;
+  }
+
+  void draw(){
+    background(40, 150, 255);
+    fill(30, 230, 100);
+    ellipse(x, 250, 50, 50);
+
+    if(keyPressed && key == 'a'){
+      x+=10;
+    }
+
+    if(keyPressed && key == 'l'){
+      x-=10;
+    }
+
+    if(x > 800){
+      text("Venstre spiller vant!", 350, 200);
+    }
+
+    if(x < 0){
+      text("Høyre spiller vant!", 350, 200);
+    }
+  }
+```

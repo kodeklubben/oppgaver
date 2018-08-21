@@ -3,12 +3,12 @@ title: App Inventor
 language: nn
 ---
 
-Her kan du lære hvordan MIT App Inventor virker. App Inventor er et
-programmeringsmiljø som brukes for å lage apps til Android-telefoner
-og nettbrett.
+Her kan du lære korleis MIT App Inventor virkar. App Inventor er eit
+programmeringsmiljø som blir brukt for å lage applikasjonar til
+Android-telefonar og -nettbrett.
 
-For å lage apps med MIT App Inventor bygger man sammen klosser på
-samme måte som i [Scratch](../scratch/). Det er derfor en fordel med
-litt erfaring fra Scratch før du begynner med dette.
+For å lage applikasjonar med MIT App Inventor byggjer ein saman klossar på same
+måte som i [Scratch](../scratch/). Det er difor ein fordel med litt erfaring frå
+Scratch før du startar med MIT App Inventor.
 
 [Sjekk ut MIT App Inventor her](http://ai2.appinventor.mit.edu/).

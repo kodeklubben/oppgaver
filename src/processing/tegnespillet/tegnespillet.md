@@ -106,7 +106,12 @@ Slik skal koden din se ut så langt, husk at tallene inni parentesene ikke
 nødvendigvis er like de du har, det betyr bare at du har annen størrelse på
 vinduet ditt, eller en annen bakgrunsfarge.
 
-![Bilde av første del av koden i processing](steg1.png)
+```processing
+void setup(){
+    size(640, 420);
+    background(0, 0, 0);
+}
+```
 
 
 # Steg 2: Tegne med sirkel! {.activity}
@@ -181,4 +186,14 @@ Til sist har vi lagt til et bilde av hele koden vår, så kan du se om din kode
 ligner på den vi har. Husk at tallene inni parentesene sikkert er litt
 forskjellige fra de du har i din kode.
 
-![Bilde av hele koden i Processing](helekoden.png)
+```processing
+void setup(){
+  size(640, 420);
+  background(0, 0, 0);
+}
+
+void draw(){
+  fill(100, 100, 255);
+  ellipse(mouseX, mouseY, 50, 50);
+}
+```
