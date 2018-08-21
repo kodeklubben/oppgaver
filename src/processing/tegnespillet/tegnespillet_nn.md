@@ -106,8 +106,12 @@ Koden din skal sjå slik ut så langt. Hugs at tala inni parentesane ikkje
 nødvendigvis er heilt lik det du har, det tyder berre at du har ein anna
 storleik på vindauget ditt, eller ei anna bakgrunnsfarge.
 
-![Bilete av fyrste del av koden i Processing](steg1.png)
-
+```processing
+void setup(){
+    size(640, 420);
+    background(0, 0, 0);
+}
+```
 
 # Steg 2: Teikne med diskar! {.activity}
 
@@ -181,4 +185,14 @@ Til slutt ser du eit bilete av heile koden vår. Sjekk om koden din liknar på d
 me har. Hugs at tala inne i parentesane heilt sikkert er ulike frå dei du har i
 koden din, men oppsettet bør vere likt.
 
-![Bilete av heile koden i Processing](helekoden.png)
+```processing
+void setup(){
+  size(640, 420);
+  background(0, 0, 0);
+}
+
+void draw(){
+  fill(100, 100, 255);
+  ellipse(mouseX, mouseY, 50, 50);
+}
+```

@@ -1,7 +1,6 @@
 ---
-title: 'Send en beskjed'
-level: 2
-author: 'Teodor Heggelund'
+title: Send en beskjed
+author: Teodor Heggelund
 language: nb
 ---
 
@@ -32,8 +31,8 @@ Siden trådløse datamaskiner er dyre, er det kjekt å bruke en *Creative-verden
 
 ### Server og klient {.tip}
 
-Vi trenger ofte å sende beskjeder fra en datamaskin til en annen. Vi pleier å
-gi datamaskinene to roller: server og klient.
+Vi trenger ofte å sende beskjeder fra en datamaskin til en annen. Vi pleier å gi
+datamaskinene to roller: server og klient.
 
 * **Serveren** venter pent på å få beskjed
 
@@ -80,7 +79,7 @@ kontrolleren aktivt skal sende beskjeder, blir *Sendulf* klienten vår, mens
   ```
 
 - [ ] Koble til `rednet` og vent på beskjed. Husker du hvor modemet var
-      plassert?
+  plassert?
 
   ```lua
   lua> rednet.open("left")
@@ -97,10 +96,10 @@ Hva er tallet som går inn i `receive`-funksjonen? Hva skjer når du putter inn 
 - [ ] Sjekk hvor modemet var plassert på *Sendulf*
 
 - [ ] Start lua-tolkeren på *Sendulf*. Hvor var modemet? Må du kalle
-      `rednet.open("left")`, `rednet.open("right")` eller `rednet.open("back")`?
+  `rednet.open("left")`, `rednet.open("right")` eller `rednet.open("back")`?
 
 - [ ] Hva var id-en til din *MaxMottak*? Denne trenger vi når vi skal sende
-      informasjon. Min var 5. Jeg bruker derfor 5 når jeg sender beskjeden min:
+  informasjon. Min var 5. Jeg bruker derfor 5 når jeg sender beskjeden min:
 
   ```lua
   rednet.send(5, "Hello, MaxMottak! Dette er Sendulf! Kan du høre meg?")

@@ -45,7 +45,10 @@ Veldig ofte er det nettopp semikolon som manglar, men akkurat no er det mykje
 meir. For at programmet vårt skal forstå at me prøver å skrive to metodar, så må
 me skrive ordet `void` framfor metodenamna, slik som dette:
 
-![Bilete av metodenamna setup og draw med void framfor](void.png)
+```processing
+void setup
+void draw
+```
 
 Det er framleis ei raud linje under både `setup` og `draw`, så det manglar
 framleis noko. I det minste fekk ordet `void` blå farge. Det tyder at Processing
@@ -54,7 +57,10 @@ kjenner att ordet og veit korleis det skal brukast.
 Neste steg for å lage metodar er at dei må ha parentesar rett etter namnet sitt.
 Når me legg til desse ser koden slik ut:
 
-![Bilete av metodane setup og draw i Processing](parenteser.png)
+```processing
+void setup()
+void draw()
+```
 
 No er det i ferd med å likne på noko! Både `setup` og `draw` vart blå. Det tyder
 at Processing kjenner att desse orda òg. Prøv å køyre programmet ved å trykkje
@@ -64,7 +70,10 @@ Endå ei feilmelding? No er me veldig nære å få Processing til å forstå at 
 skal lage to nye petoder. Det einaste me manglar er å åpne og å stenge metodane.
 Me åpnar og lukkar metoden med krøllparentesar, `{ }`, så då blir koden slik:
 
-![Bilete av metodane setup og draw med krøllparentesar](stenge.png)
+```processing
+void setup(){}
+void draw(){}
+```
 
 No kan du prøve å køyre programmet att. Kva skjer?
 

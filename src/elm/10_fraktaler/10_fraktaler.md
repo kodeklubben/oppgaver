@@ -1,8 +1,7 @@
 ---
-title: 'Fraktaler og datastrukturer'
-level: 4
+title: Fraktaler og datastrukturer
+author: Teodor Heggelund
 language: nb
-author: 'Teodor Heggelund'
 ---
 
 
@@ -36,7 +35,7 @@ Gå til [Wikipedia-artikkelen](https://en.wikipedia.org/wiki/Sierpinski_carpet)
 til Sierpinski-teppet. Se på animasjonen.
 
 - [ ] Hvordan er teppet før det begynner å bli fargelagt? Dette er
-      **startregelen**.
+  **startregelen**.
 
 - [ ] Hva tegner vi i hver firkant? Dette er **tegneregelen**.
 
@@ -94,8 +93,8 @@ egne typer_. Vi kommer til å lage en type for punkter og en type for kvadrater.
 
 Nå skal du få prøve å lese Elm sine egne læreressurser.
 
-- [ ] Gå til [Elm-dokumentasjonen for records](http://elm-lang.org/docs/records).
-  Finner du eksempelet for et punkt?
+- [ ] Gå til [Elm-dokumentasjonen for
+  records](http://elm-lang.org/docs/records). Finner du eksempelet for et punkt?
 
 Vi legger til en liten snutt i programmet vårt:
 
@@ -127,10 +126,12 @@ Nå kan du endre `toString myPoint` for å skrive ut noe annet.
 
 - [ ] Skriv ut kun `x`-attributten til `myPoint`
 
-- [ ] Lag et annet punkt, `yourPoint`. Velg koordinater og skriv ut dette i stedet.
+- [ ] Lag et annet punkt, `yourPoint`. Velg koordinater og skriv ut dette i
+  stedet.
 
-- [ ] Lag et tredje punkt, `theirPoint`. Dette skal du lage _ut ifra `myPoint`_, men
-  du skal bytte ut x-verdien med `0`. Se avsnittet **Updating Records** i guiden.
+- [ ] Lag et tredje punkt, `theirPoint`. Dette skal du lage _ut ifra `myPoint`_,
+  men du skal bytte ut x-verdien med `0`. Se avsnittet **Updating Records** i
+  guiden.
 
 Nå skal vi ta steget videre og lage våre egne punkter.
 
@@ -204,7 +205,8 @@ Nå skal vi tegne kvadratet!
 viewSquare square = -- ...
 ```
 
-- [ ] Lag funksjonen `viewSquare`. Bruk `rect` fra SVG som du har brukt tidligere.
+- [ ] Lag funksjonen `viewSquare`. Bruk `rect` fra SVG som du har brukt
+  tidligere.
 
 **Obs!** Når vi tegner kvadrater må vi bruke en farge. En måte å løse det på er
 å ha en `color : String`-attributt på `Square`.
@@ -272,8 +274,8 @@ describeHalfAge yearNow yearBorn =
 
 - [ ] Lag funksjonen `describeDoubleAge`. Hva skal denne gjøre?
 
-- [ ] Les overskriften **Let expressions**
-  i [syntaxguiden](http://elm-lang.org/docs/syntax). Her er det noen eksempler.
+- [ ] Les overskriften **Let expressions** i
+  [syntaxguiden](http://elm-lang.org/docs/syntax). Her er det noen eksempler.
   Prøv selv!
 
 Nå skal vi tilbake til fraktalene våre, vi skal lage den grønne firkanten i
@@ -299,7 +301,8 @@ Du skal kunne bruke den slik:
 { color = "blue", width = 9, corner = { x = 9, y = 9 } } : Utils.Square
 ```
 
-... hva må x-verdien være om det nye kvadratet skal være i sentrum av det forrige?
+... hva må x-verdien være om det nye kvadratet skal være i sentrum av det
+forrige?
 
 <svg width="500" height="500" viewBox="0 0 27 27"><rect x="0" y="0" width="27" height="27" fill="blue"></rect><rect x="9" y="9" width="9" height="9" fill="green"></rect></svg>
 
@@ -343,7 +346,7 @@ centerSquare old =
 ## Sjekkliste {.check}
 
 - [ ] Les avnsitet om `List.map` i [dokumentasjonen til
-      List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#map).
+  List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#map).
 
 - [ ] Bruk `List.map` til å lage listen `["1","2","3","4"]`
 
@@ -358,7 +361,8 @@ centerSquare old =
 [0,1,2,3] : List Int
 ```
 
-- [ ] Les avsnittet om `List.range` i [dokumentasjonen til List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#range)
+- [ ] Les avsnittet om `List.range` i [dokumentasjonen til
+  List](http://package.elm-lang.org/packages/elm-lang/core/latest/List#range)
 
 - [ ] Bruk `List.map` og `List.range` til å lage denne store listen:
 
@@ -372,7 +376,7 @@ Vi innfører enda en nyttig funksjon: `String.join`. Denne bygger opp tekst fra
 en liste.
 
 - [ ] Les dokumentasjonen til `String.join` i [dokumentasjonen til
-      String](http://package.elm-lang.org/packages/elm-lang/core/latest/String#join)
+  String](http://package.elm-lang.org/packages/elm-lang/core/latest/String#join)
 
 - [ ] Lag funksjonen `sayTo`. Den skal kunne brukes slik:
 
@@ -448,7 +452,8 @@ borderSquares old =
 
 <svg width="100%" viewBox="0 0 729 729"><rect x="0" y="0" width="729" height="729" fill="green"></rect><rect x="243" y="243" width="243" height="243" fill="blue"></rect><rect x="81" y="81" width="81" height="81" fill="blue"></rect><rect x="324" y="81" width="81" height="81" fill="blue"></rect><rect x="567" y="81" width="81" height="81" fill="blue"></rect><rect x="81" y="324" width="81" height="81" fill="blue"></rect><rect x="567" y="324" width="81" height="81" fill="blue"></rect><rect x="81" y="567" width="81" height="81" fill="blue"></rect><rect x="324" y="567" width="81" height="81" fill="blue"></rect><rect x="567" y="567" width="81" height="81" fill="blue"></rect></svg>
 
-Men videre blir det vanskeligere. Hvordan skal vi få til steg 3 og steg 4 på en elegant måte?
+Men videre blir det vanskeligere. Hvordan skal vi få til steg 3 og steg 4 på en
+elegant måte?
 
 **Nivå 3**:
 
@@ -657,7 +662,6 @@ sifreAvLengde n start =
 `List.concat (List.map funksjon liste)` er noe vi ser ofte. Derfor finnes
 funksjonen `concatMap` som kjører `List.concat` på resultatet av en `List.map`.
 Da kan vi korte ned litt til:
-
 
 ```elm
 sifreAvLengde n start =

@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Blinkende lysdiode
-author: 'Adrian Helle'
-level: 1
+author: Adrian Helle
 language: nb
 ---
 
@@ -16,8 +15,7 @@ Oppgaven «Blinkende lysdiode» introduserer flere konsepter:
 
 + Enkel programmering mot Arduino.
 
-  + Grunnleggende kodeelementer på Arduino; ``setup()``, ``loop()`` og
-  ``delay()``.
+  + Grunnleggende kodeelementer på Arduino; `setup()`, `loop()` og `delay()`.
 
   + Grunnleggende programmeringskonsepter; Variabler, funksjonskall,
     kontrollflyt.
@@ -32,11 +30,11 @@ Oppgaven «Blinkende lysdiode» introduserer flere konsepter:
 
   + Enkle elektroniske komponenter.
 
-    + Diode
+  + Diode
 
-    + Knapp
+  + Knapp
 
-    + Motstand
+  + Motstand
 
 
 # Forklaringer
@@ -118,8 +116,8 @@ kommer bittelitt lys ut.
 
 ## Kan du få lysdioden til å skrus på av et kort trykk på knappen?
 
-```cpp int led = 8; int knapp = 7; bool ledOn = false;
-
+```cpp
+int led = 8; int knapp = 7; bool ledOn = false;
 void setup() {
   pinMode(led, OUTPUT); pinMode(knapp, INPUT_PULLUP);
 }
@@ -131,7 +129,8 @@ void loop() {
     } else {
       ledOn = true; digitalWrite(led, HIGH);
     } delay(250);
-  } } ```
+  } }
+```
 
 ## Kan du få til det samme med å bruke kun 3 ledninger?
 

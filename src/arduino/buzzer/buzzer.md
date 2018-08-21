@@ -1,7 +1,6 @@
 ---
 title: Buzzer
-author: 'Adrian Helle'
-level: 1
+author: Adrian Helle
 language: nb
 ---
 
@@ -50,9 +49,9 @@ illustrasjonen under.
 
 ## Porter merket med ~ {.protip}
 
-Husker du hva "~" betyr? Det har seg slik at alle porter merket med "~"
-har en spesiel funksjon kalt PWM. Dette står for "Pulse With Modulation"
-og kan blant annet brukes for å spille lyder.
+Husker du hva "~" betyr? Det har seg slik at alle porter merket med "~" har en
+spesiel funksjon kalt PWM. Dette står for "Pulse With Modulation" og kan blant
+annet brukes for å spille lyder.
 
 
 # Steg 3: Lag en tone {.activity}
@@ -125,6 +124,7 @@ motstanden etter hvor mye lys den får inn. Finn frem alt du trenger og koble op
 slik som på diagrammet under og følg sjekklisten!
 
 <figure><img src="foto.jpg" alt="Bilde av komponentene" style="width: 900px"></figure>
+
 <figure><img src="ldr.png" alt="Bilde av kobblingsdiagrammet"style="width: 900px"></figure>
 
 ## Sjekkliste {.check}
@@ -161,22 +161,23 @@ Her er noen nøtter du kan prøve deg på ved å endre koden.
 
 - [ ] Hva skjer hvis du endrer verdien til delay
 
-- [ ] Kan du få en lysdiode til å lyse med forskjellig intensitet gitt forskjellige toner
+- [ ] Kan du få en lysdiode til å lyse med forskjellig intensitet gitt
+  forskjellige toner
 
 - [ ] Klarer du å bruke knapper for å spille forksjellige toner?
 
 ### Map {.protip}
 
-`map` tar en verdi, og endrer den fra et tall i et gitt område til et tall i et annet.
-F. eks. vil
+`map` tar en verdi, og endrer den fra et tall i et gitt område til et tall i et
+annet. F. eks. vil
 
 ```cpp
 int lysstyrke = analogRead(lys);
 int verdi = map(lysstyrke, 15, 512, 100, 1500);
 ```
 
-sette `verdi` til et tall mellom 100 og 1500, hvor en lysstyrke på 15 gir 100
-og en lysstyrke på 512 gir 1500.
+sette `verdi` til et tall mellom 100 og 1500, hvor en lysstyrke på 15 gir 100 og
+en lysstyrke på 512 gir 1500.
 
 ### Utfording (Vanskelig) {.challenge}
 

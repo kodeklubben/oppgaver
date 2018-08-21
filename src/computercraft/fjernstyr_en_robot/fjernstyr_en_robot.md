@@ -1,7 +1,6 @@
 ---
-title: 'Fjernstyr en robot'
-level: 3
-author: 'Teodor Heggelund'
+title: Fjernstyr en robot
+author: Teodor Heggelund
 language: nb
 ---
 
@@ -19,22 +18,25 @@ datamaskin, og tolke disse som en kommando. For avanserte ComputerCraft-ere!
 
 Denne oppgaven bygger videre på andre oppgaver:
 
-* [Send en beskjed over nettverk](../nettverk_send_beskjed/nettverk_send_beskjed.html)
-  beskriver hvordan vi sender og mottar meldinger over `rednet`.
+* [Send en beskjed over
+  nettverk](../nettverk_send_beskjed/nettverk_send_beskjed.html) beskriver
+  hvordan vi sender og mottar meldinger over `rednet`.
 
-* [Hendelser -- Steg 1: Skattejakt](../hendelser/hendelser.html#steg-1-skattejakt)
-  viser hvordan vi kan gjenkjenne hvilken tast brukeren har trykket på.
+* [Hendelser -- Steg 1:
+  Skattejakt](../hendelser/hendelser.html#steg-1-skattejakt) viser hvordan vi
+  kan gjenkjenne hvilken tast brukeren har trykket på.
 
-* [Bygg et Hus -- Steg 4: Funksjoner](../bygg_et_hus/bygg_et_hus.html#steg-4-funksjoner)
-  forklarer hvordan vi kan skrive egne funksjoner.
+* [Bygg et Hus -- Steg 4:
+  Funksjoner](../bygg_et_hus/bygg_et_hus.html#steg-4-funksjoner) forklarer
+  hvordan vi kan skrive egne funksjoner.
 
 Gå tilbake og kikk på disse to oppgavene hvis denne blir vanskelig.
 
 ## Redigere filer utenfor ComputerCraft {.tip}
 
 `edit`-programmet i ComputerCraft fungerer fint med små programmer, men blir
-tungvindt for store programmer. Det er for eksempel ikke lett å klippe og
-lime kode. Nå skal vi lære hvordan vi redigerer ComputerCraft-filer *utenfor*
+tungvindt for store programmer. Det er for eksempel ikke lett å klippe og lime
+kode. Nå skal vi lære hvordan vi redigerer ComputerCraft-filer *utenfor*
 ComputerCraft.
 
 Filene vi lager i ComputerCraft har forskjellig plassering på forskjellige
@@ -44,7 +46,8 @@ operativsystemer:
 
 * Linux: `~/.minecraft/saves/navn-på-din-save/computer/id`
 
-* Mac: `~/Library/Application Support/.minecraft/saves/navn-på-din-save/computer/id`
+* Mac: `~/Library/Application
+  Support/.minecraft/saves/navn-på-din-save/computer/id`
 
 Vil du redigere filen `hello` fra spillet "Kodeklubben 2016" på datamskin #3 på
 Windows finner du den altså på `AppData\Roaming\.minecraft\saves\Kodeklubben
@@ -63,12 +66,12 @@ For å åpne filene på Mac kan du bruke Finder:
   ![Gå til mappe](gaatilmappe.png)
 
 - [ ] Skriv inn filplasseringen (`~/Library/Application
-      Support/.minecraft/saves/navn-på-din-save/computer/id`)
+  Support/.minecraft/saves/navn-på-din-save/computer/id`)
 
   ![Skriv inn filplasseringen](gaatilmappedialog.png)
 
-Her finnes programmene du har skrevet som egne filer. Åpne så programmet ditt
-i en egen teksteditor:
+Her finnes programmene du har skrevet som egne filer. Åpne så programmet ditt i
+en egen teksteditor:
 
 * [Notepad++](https://notepad-plus-plus.org/) er god og enkel. Støtter Windows.
 
@@ -109,8 +112,9 @@ oversette disse til kommandoer og sende til roboten.
 
 ## Sjekkliste {.check}
 
-- [ ] Vi bygger først kontroller. Craft en **Advanced Wireless Pocket Computer**.
-  Denne kan vi bruke mens vi går rundt, og er ikke bundet til én plass.
+- [ ] Vi bygger først kontroller. Craft en **Advanced Wireless Pocket
+  Computer**. Denne kan vi bruke mens vi går rundt, og er ikke bundet til én
+  plass.
 
 ## Filtyper {.tip}
 
@@ -118,7 +122,8 @@ Filer har ofte etternavn som sier filtypen.
 
 * Lua programmer heter ofte `program.lua`
 
-* Nettsider heter ofte `nettside.html`: Nettsider skrives i et språk som heter HTML
+* Nettsider heter ofte `nettside.html`: Nettsider skrives i et språk som heter
+  HTML
 
 * `dokument.docx` er et Word-dokument
 
@@ -198,14 +203,14 @@ La oss først leke oss litt med en robot.
 
 ## Tabeller {.tip}
 
- * Prøver vi skrive ut en tabell alene, får vi *adressen* til tabellen
+* Prøver vi skrive ut en tabell alene, får vi *adressen* til tabellen
 
- * Unpack lar oss bruke tabellen i en funksjon:
+* Unpack lar oss bruke tabellen i en funksjon:
 
-   `print(unpack({1, 2}))` er det samme som `print(1, 2)`.
+  `print(unpack({1, 2}))` er det samme som `print(1, 2)`.
 
- * Vil vi ha ut et *element* fra tabellen, setter vi inn *indeksen* til
-   elementet med firkantklammer: `tabell[2]`.
+* Vil vi ha ut et *element* fra tabellen, setter vi inn *indeksen* til elementet
+  med firkantklammer: `tabell[2]`.
 
 ## Sjekkliste {.check}
 
@@ -357,14 +362,15 @@ Jepp, jeg er helt enig. La oss gjøre det!
 
 Metoden `main()` er ofte inngangsporten til et program. I for eksempel Lua og
 Python kan vi velge selv om vi vil ha en main-metode eller ikke. I andre språk
-må main være med. Eksempler på programmeringsspråk vi *må* ha main i er C,
-Java og Haskell.
+må main være med. Eksempler på programmeringsspråk vi *må* ha main i er C, Java
+og Haskell.
 
 ## Sjekkliste {.check}
 
 - [ ] Hva brukes 99999 til?
 
-- [ ] Hvorfor bruker vi en `while`-løkke? Hva skjer om vi ikke har en while-løkke?
+- [ ] Hvorfor bruker vi en `while`-løkke? Hva skjer om vi ikke har en
+  while-løkke?
 
 
 # Steg 5: Kjør robot! {.activity}
@@ -388,7 +394,7 @@ Nå skal vi prøve det selv!
 
   * Angrip
 
- * Bygg blokk foran
+* Bygg blokk foran
 
   * Kjør `excavate 4` her du er
 
@@ -446,10 +452,13 @@ Fjernstyrt graverobot er nyttig! En graverobot kan craftes fra en annen turtle
 med pickaxe på ledig side. Dette er hva min gjorde:
 
 ![Bilde av en graverobot klar til å grave](ssh_1.png)
+
 Graveroboten er klar til høyre i bildet.
 
 ![Bilde av en graverobot flyttet dit den skal grave](ssh_2.png)
+
 Flytter den til der den skal begynne å grave ...
 
 ![Bilde av en graverobot som har gravd ett hull](ssh_3.png)
+
 ... Og der har den kommet et stykke på vei!
