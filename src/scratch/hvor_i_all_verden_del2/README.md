@@ -16,14 +16,14 @@ hverandre. Andre leksjon utvider kartet ved å lage en bakgrunn som flytter seg.
 Tredje leksjon handler om å lage en liste som holder oversikt over alle stedene
 vi kan besøke.
 
-![Illustrasjon av et forbedret Hvor-i-All-Verden spill](hvor_i_all_verden_2.png)
+![Illustrasjon av et enkelt Hvor-i-All-Verden spill](hvor_i_all_verden_del1/hvor_i_all_verden_1.png)
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, samfunnsfag, programmering. 
- 
-__Anbefalte trinn__: 3.-10. trinn. 
- 
+__Fag__: Matematikk, samfunnsfag, programmering.
+
+__Anbefalte trinn__: 3.-10. trinn.
+
 __Tema__: Geografi, lese kart, variabler, brukerinteraksjon.
 
 __Tidsbruk__: Hver del passer til en dobbelttime, men kan også fungere i et
@@ -92,13 +92,13 @@ oppgaven, ellers kan du gjøre følgende bildefil tilgjengelig for elevene:
 ## Fremgangsmåte
 
 [Klikk her for å se oppgaveteksten til del
-1.](../hvor_i_all_verden_del1/hvor_i_all_verden_1.html){target=_blank}
+1.](../hvor_i_all_verden_del1/hvor_i_all_verden_del1.html){target=_blank}
 
 [Klikk her for å se oppgaveteksten til del
-2.](../hvor_i_all_verden_del2/hvor_i_all_verden_2.html){target=_blank}
+2.](../hvor_i_all_verden_del2/hvor_i_all_verden_del2.html){target=_blank}
 
 [Klikk her for å se oppgaveteksten til del
-3.](../hvor_i_all_verden_del3/hvor_i_all_verden_3.html){target=_blank}
+3.](../hvor_i_all_verden_del3/hvor_i_all_verden_del3.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet disse
 oppgavene enda._
