@@ -25,7 +25,29 @@ Slik skal oppgaven se ut når vi er ferdig å kode alt sammen:
 
 Her er koden vi gjorde i introduksjonsoppgaven:
 
-![Bilde av koden fra introduksjonsoppgaven](steg0.png)
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("X: " + mouseX, 50, 50);  
+  text("Y: " + mouseY, 50, 100);
+
+  if(mouseX > 365){
+      if(mouseX < 694){
+          if(mouseY < 455){
+              if(mouseY > 33){
+                text("EUROPA", 950, 50);
+              }
+          }
+      }
+  }
+}
+```
 
 Hittil har vi fått det til å dukke opp "EUROPA" på skjermen når musepekeren
 holdes over verdensdelen Europa på kartet.
@@ -54,7 +76,8 @@ introduksjonsdelen av oppgaven før du går videre.
 - [ ] Få teksten "EUROPA ER 10 180 000 KVADRATMETER" til å vises på skjermen i
       stede for bare "EUROPA" når du holder musepekeren over Europa.
 
-- [ ] Bytt størrelsen på vinduet, slik at det når fra toppen til bunnen av skjermen din.
+- [ ] Bytt størrelsen på vinduet, slik at det når fra toppen til bunnen av
+  skjermen din.
 
 Fikk du til alle punktene? Still tilbake alt sammen før du går videre.
 
@@ -69,8 +92,8 @@ husk at du kan sjekke med introduksjonsoppgaven.
 ## Sjekkliste {.check}
 
 - [ ] Last ned dette bilde og få det til å vise i vinduet i stedet for det du
-  har nå: 
-  
+  har nå:
+
   ![Bilde av kart med Europa og Asia markert](mapAsia.png)
 
 - [ ] Finn ut hvor grensene til Asia er og lagre dem som kommentarer i koden
@@ -97,7 +120,39 @@ husk at du kan sjekke med introduksjonsoppgaven.
 
 Her er koden så langt.
 
-![Bilde av koden som definerer ASIA](steg1.png)
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("X: " + mouseX, 50, 50);  
+  text("Y: " + mouseY, 50, 100);
+
+  if(mouseX > 365){
+      if(mouseX < 694){
+          if(mouseY < 455){
+              if(mouseY > 33){
+                text("EUROPA", 950, 50);
+              }
+          }
+      }
+  }
+
+  if(mouseX > 694){
+      if(mouseX < 1197){
+          if(mouseY < 537){
+              if(mouseY > 88){
+                text("ASIA", 950, 50);
+              }
+          }
+      }
+  }
+}
+```
 
 
 # Steg 2: Slå sammen if-setninger {.activity}
@@ -159,7 +214,27 @@ det sparer mye plass i koden.
 
 Her er bilde av koden så langt.
 
-![Bilde av en mer lettleslig kode for å finne Europa eller Asia](steg2.png)
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("X: " + mouseX, 50, 50);  
+  text("Y: " + mouseY, 50, 100);
+
+  if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33){
+                text("EUROPA", 950, 50);
+  }
+
+  if(mouseX > 694) && mouseX < 1197 && mouseY < 537 && mouseY > 88){
+                text("ASIA", 950, 50);
+  }
+}
+```
 
 
 # Steg 3: Sjekk Afrika med to if-setninger {.activity}
@@ -224,7 +299,35 @@ samme som skal gjøres, bare med nye koordinater på grensene.
 
 Her er koden vår så langt. Nå begynner det å bli en del `if`-setninger!
 
-![Bilde av koden for å definere Europa, Asia og Afrika](steg3.png)
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("X: " + mouseX, 50, 50);  
+  text("Y: " + mouseY, 50, 100);
+
+  if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33){
+                text("EUROPA", 950, 50);
+  }
+
+  if(mouseX > 694) && mouseX < 1197 && mouseY < 537 && mouseY > 88){
+                text("ASIA", 950, 50);
+  }
+
+  if(mouseX > 493) && mouseX < 695 && mouseY < 708 && mouseY > 455){
+                text("AFRIKA", 950, 50);
+  }
+
+  if(mouseX > 694) && mouseX < 740 && mouseY < 698 && mouseY > 537){
+                text("AFRIKA", 950, 50);
+  }
+}
+```
 
 
 # Steg 4: Lag en metode i steden for alle if-setningene {.activity}
@@ -362,7 +465,43 @@ det noe problem. Det kan være greit om deklarasjonene på de forskjellige
 grensene, samt navnet på verdensdelen ligger i samme rekkefølge, men det er bare
 for å gjøre det lettere å feilsøke i koden seinere.
 
-![Bilde av den nye funksjonen sjekkVerdensdel](steg4.png)
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("X: " + mouseX, 50, 50);  
+  text("Y: " + mouseY, 50, 100);
+
+  if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33){
+                text("EUROPA", 950, 50);
+  }
+
+  if(mouseX > 694) && mouseX < 1197 && mouseY < 537 && mouseY > 88){
+                text("ASIA", 950, 50);
+  }
+
+  if(mouseX > 493) && mouseX < 695 && mouseY < 708 && mouseY > 455){
+                text("AFRIKA", 950, 50);
+  }
+
+  if(mouseX > 694) && mouseX < 740 && mouseY < 698 && mouseY > 537){
+                text("AFRIKA", 950, 50);
+  }
+}
+
+void sjekkVerdensdel(String verdensdel, int hoyreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hoyreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+        text(verdensdel, 950, 50);
+    }
+}
+```
 
 
 # Steg 5: Bruk den nye metoden {.activity}
@@ -424,7 +563,41 @@ Her er bilde av koden, vi har bare tatt med metodene `draw` og
 viktig at du har fjernet riktig `if`-setning og at du har brukt riktige
 parametre inni metodekallet på `sjekkVerdensdel();`.
 
-![Bilde av koden som kjører sjekkVerdensdel på Europa](drawOgSjekk.png)
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("X: " + mouseX, 50, 50);  
+  text("Y: " + mouseY, 50, 100);
+
+  if(mouseX > 694) && mouseX < 1197 && mouseY < 537 && mouseY > 88){
+                text("ASIA", 950, 50);
+  }
+
+  if(mouseX > 493) && mouseX < 695 && mouseY < 708 && mouseY > 455){
+                text("AFRIKA", 950, 50);
+  }
+
+  if(mouseX > 694) && mouseX < 740 && mouseY < 698 && mouseY > 537){
+                text("AFRIKA", 950, 50);
+  }
+
+  sjekkVerdensdel("EUROPA", 365, 694, 455, 33);
+}
+
+void sjekkVerdensdel(String verdensdel, int hoyreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hoyreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+        text(verdensdel, 950, 50);
+    }
+}
+```
 
 
 # Steg 6: Bruk `sjekkVerdensdel`-metoden til alle verdensdelene {.activity}
@@ -495,7 +668,41 @@ kart.
 
 Her er koden vår så langt.
 
-![Bilde av koden så langt](steg6.png)
+```processing
+PImage verdenskartet;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("X: " + mouseX, 50, 50);  
+  text("Y: " + mouseY, 50, 100);
+
+  sjekkVerdensdel("EUROPA", 365, 694, 455, 33);
+
+  sjekkVerdensdel("ASIA", 694, 1197, 537, 88);
+
+  sjekkVerdensdel("AFRIKA", 493, 695, 708, 455);
+
+  sjekkVerdensdel("AFRIKA", 694, 740, 698, 537);
+
+  sjekkVerdensdel("OSEANIA", 874, 1194, 780, 537);
+
+  sjekkVerdensdel("NORD-AMERIKA", 2, 365, 528, 36);
+
+  sjekkVerdensdel("SØR-AMERIKA", 238, 449, 810, 528);
+}
+
+void sjekkVerdensdel(String verdensdel, int hoyreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hoyreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+        text(verdensdel, 950, 50);
+    }
+}
+```
 
 
 # Steg 7: Trekk en tilfeldig verdensdel {.activity}
@@ -545,25 +752,25 @@ La oss derfor først deklarere en variabel. `random();` gir oss et tall av typen
 skal bruke tallet senere må det være av typen `int`. Derfor skal vi gjøre noe
 som heter å `caste` til `int`. Det betyr rett og slett bare at vi gjør verdien
 fra `random();` om til en `int`. Navnet til variabelen kan vi bestemme selv, her
-har vi valgt at den skal hete `tilfeldigTall`. Denne deklarasjonen skal skje
+har vi valgt at den skal hete `tilfeldigTalll`. Denne deklarasjonen skal skje
 øverst i koden, enten rett over eller rett under deklarasjonen av lista.
 Kodelinja blir slik:
 
 ```processing
-int tilfeldigTall;
+int tilfeldigTalll;
 ```
 
-Nå må vi få `tilfeldigTall` til å inneholde et tilfeldig tall, det gjør vi inni
+Nå må vi få `tilfeldigTalll` til å inneholde et tilfeldig tall, det gjør vi inni
 `setup`-metoden. Vi starter med muntlig kode:
 
 ```processing
-    variabelen tilfeldigTall skal være ett tilfeldig tall;
+    variabelen tilfeldigTalll skal være ett tilfeldig tall;
 ```
 
 Nå bruker vi `random();` med casting til `int`, da blir det:
 
 ```processing
-    tilfeldigTall = (int)random(6);
+    tilfeldigTalll = (int)random(6);
 ```
 
 Parameteret til `random();` forteller hvor hvilke tall det skal velges tilfeldig
@@ -574,7 +781,7 @@ parameter.
 ## Gjør dette: {.check}
 
 - [ ] Deklarer en variabel av typen `int`, gi variabelen et passende navn, vi
-      anbefaler `tilfeldigTall`.
+      anbefaler `tilfeldigTalll`.
 
 - [ ] Sjekk at koden kjører.
 
@@ -584,17 +791,17 @@ parameter.
 - [ ] Sjekk at koden kjører.
 
 - [ ] Gjør et metodekall på `text();` der første parameter er: `"Variabelen
-  tilfeldigTall er: " + tilfeldigTall`. De to neste parameterne bestemmer du
-  selv. Nå skal vi bare sjekke hvilke tall `tilfeldigTall` er blitt til.
+  tilfeldigTalll er: " + tilfeldigTalll`. De to neste parameterne bestemmer du
+  selv. Nå skal vi bare sjekke hvilke tall `tilfeldigTalll` er blitt til.
 
-- [ ] Kjør programmet noen ganger og sjekk at det variabelen `tilfeldigTall`
+- [ ] Kjør programmet noen ganger og sjekk at det variabelen `tilfeldigTalll`
   blir forskjellige tall.
 
 - [ ] Gjør et nytt metodekall på `text();` der det første parameteret er:
-  `"Trykk på: " + alleVerdensdelene[tilfeldigTall]`. De to neste parameterne
+  `"Trykk på: " + alleVerdensdelene[tilfeldigTalll]`. De to neste parameterne
   bestemmer du selv. `alleVerdensdelene` er lista med verdensdeler, så det vi
   gjør her er å si at vi skal vise verdensdelen som er på plassen til det tallet
-  som variabelen `tilfeldigTall` inneholder.
+  som variabelen `tilfeldigTalll` inneholder.
 
 - [ ] Sjekk at koden kjører. Start programmet flere ganger og sjekka at
       forskjellige verdensdeler blir valgt.
@@ -604,7 +811,7 @@ Når vi skal velge noe fra et String array, så må vi skrive navnet på arrayet
 lista. Inni `[]` skriver vi nummeret på den tingen i lista vi vil ha, dette
 nummeret må være av typen `int`. Dette er grunnen til at vi caster til `int` når
 vi gjør metodekall på `random();`. Sjekk at tallene stemmer ved å sammenligne
-tallet som `tilfeldigTall` er med hvilken plass i lista verdensdelen som vises
+tallet som `tilfeldigTalll` er med hvilken plass i lista verdensdelen som vises
 på skjermen er.
 
 Før vi går videre er det på tide å fjerne litt unødvendig kode.
@@ -618,11 +825,41 @@ Før vi går videre er det på tide å fjerne litt unødvendig kode.
   inni `sjekkVerdensdeler`-metoden. I neste steg putter vi inn en helt annen
   kode her.
 
-- [ ] Fjern metodekallet på `text()` som viser hvilket tall `tilfeldigTall` er.
+- [ ] Fjern metodekallet på `text()` som viser hvilket tall `tilfeldigTalll` er.
 
 Her er koden så langt.
 
-![Bilde av koden så langt](steg7.png)
+```processing
+PImage verdenskartet;
+String[] alleVerdensdelene = {"ASIA", "EUROPA", "NORD-AMERIKA",
+  "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
+int tilfeldigTall;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+  tilfeldigTall = (int)random(6);
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("Trykk på: " + alleVerdensdelene[tilfeldigTall], 50, 50);  
+
+  sjekkVerdensdel("EUROPA", 365, 694, 455, 33);
+  sjekkVerdensdel("ASIA", 694, 1197, 537, 88);
+  sjekkVerdensdel("AFRIKA", 493, 695, 708, 455);
+  sjekkVerdensdel("AFRIKA", 694, 740, 698, 537);
+  sjekkVerdensdel("OSEANIA", 874, 1194, 780, 537);
+  sjekkVerdensdel("NORD-AMERIKA", 2, 365, 528, 36);
+  sjekkVerdensdel("SØR-AMERIKA", 238, 449, 810, 528);
+}
+
+void sjekkVerdensdel(String verdensdel, int hoyreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hoyreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+    }
+}
+```
 
 
 # Steg 8: Sjekk om man trykker på riktig verdensdel {.activity}
@@ -669,7 +906,7 @@ Dersom verdensdelen som er trekt tilfeldig er lik verdelsdelen fra Stringen,
 Vi putter inn de tingene vi har, da blir `if`-setningen slik:
 
 ```processing
-if(alleVerdensdelene[tilfeldigTall] er lik verdensdel){
+if(alleVerdensdelene[tilfeldigTalll] er lik verdensdel){
     text("RIKTIG", 950, 50);
 }
 ```
@@ -680,7 +917,7 @@ den det ordet vi skal sjekke. Når vi skal bruke en metode som hører til en
 klasse trenger vi bare sette punktum i mellom. Koden blir slik:
 
 ```processing
-if(alleVerdensdelene[tilfeldigTall].equals(verdensdel)){
+if(alleVerdensdelene[tilfeldigTalll].equals(verdensdel)){
     text("RIKTIG", 950, 50);
 }
 ```
@@ -694,7 +931,40 @@ if(alleVerdensdelene[tilfeldigTall].equals(verdensdel)){
 
 Her er koden så langt.
 
-![Bilde av koden så langt](steg8.png)
+```processing
+PImage verdenskartet;
+String[] alleVerdensdelene = {"ASIA", "EUROPA", "NORD-AMERIKA",
+  "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
+int tilfeldigTall;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+  tilfeldigTall = (int)random(6);
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("Trykk på: " + alleVerdensdelene[tilfeldigTall], 50, 50);  
+
+  sjekkVerdensdel("EUROPA", 365, 694, 455, 33);
+  sjekkVerdensdel("ASIA", 694, 1197, 537, 88);
+  sjekkVerdensdel("AFRIKA", 493, 695, 708, 455);
+  sjekkVerdensdel("AFRIKA", 694, 740, 698, 537);
+  sjekkVerdensdel("OSEANIA", 874, 1194, 780, 537);
+  sjekkVerdensdel("NORD-AMERIKA", 2, 365, 528, 36);
+  sjekkVerdensdel("SØR-AMERIKA", 238, 449, 810, 528);
+}
+
+void sjekkVerdensdel(String verdensdel, int hoyreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hoyreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+        if(alleVerdensdelene[tilfeldigTall].equals(verdensdel)){
+          text("RIKTIG", 950, 100);
+        }
+    }
+}
+```
 
 
 # Steg 9: Få ny verdensdel å trykke på {.activity}
@@ -704,11 +974,11 @@ riktig verdensdel. Derfor må vi velge ett nytt tilfeldig tall inni
 `if`-setningen som sjekker om riktig verdensdel er trykka på.
 
 Da gjør vi akkurat det samme som vi gjorde i `setup`-metoden da vi satt
-`tilfeldigTall` til å være ett tilfeldig tall.
+`tilfeldigTalll` til å være ett tilfeldig tall.
 
 ## Gjør dette: {.check}
 
-- [ ] Sett `tilfeldigTall` til å bli et nytt tilfeldig tall inni `if`-setningen
+- [ ] Sett `tilfeldigTalll` til å bli et nytt tilfeldig tall inni `if`-setningen
   som sjekker om spilleren har trykka på riktig verdensdel.
 
 - [ ] Kjør koden og se at det fungerer. Nå skal du få opp en ny verdensdel hver
@@ -717,7 +987,18 @@ Da gjør vi akkurat det samme som vi gjorde i `setup`-metoden da vi satt
 Her er koden så langt. Siden vi bare har lagt til en kodelinje inni metoden
 `sjekkVerdensdel` så viser vi bare den metoden:
 
-![Viser den nye kodelinjen i metoden sjekkVerdensdel](steg9.png)
+```processing
+void sjekkVerdensdel(String verdensdel, int hoyreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hoyreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+        if(alleVerdensdelene[tilfeldigTall].equals(verdensdel)){
+          text("RIKTIG", 950, 100);
+          tilfeldigTall = (int)random(6);
+        }
+    }
+}
+```
 
 
 # Steg 10: Få poeng {.activity}
@@ -736,7 +1017,7 @@ Variabelen skal være av typen `int` og kan for eksempel hete `poeng`.
 
 - [ ] Sett variabelen til å være `0`. Det gjør du ved å skrive denne kodelinja
   inni `setup`-metoden:
-      
+
 ```processing
     poeng = 0;
 ```
@@ -833,7 +1114,48 @@ Her er koden så langt. Husk at vår kode og din kode kan være forskjellig ders
 du har valgt andre variabelnavn eller andre verdier enn det vi har. Det
 viktigste er at den fungerer!
 
-![Bilde av den "endelige" koden](steg10.png)
+```processing
+PImage verdenskartet;
+String[] alleVerdensdelene = {"ASIA", "EUROPA", "NORD-AMERIKA",
+  "SØR-AMERIKA", "OSEANIA", "AFRIKA"};
+int tilfeldigTall;
+int poeng;
+
+void setup(){
+  size(1200, 850);
+  verdenskartet = loadImage("world-map.png");
+  tilfeldigTall = (int)random(6);
+  poeng = 0;
+}
+void draw(){
+  image(verdenskartet, 0, 0);
+  text("Trykk på: " + alleVerdensdelene[tilfeldigTall], 50, 50);
+  text("Poeng: " + poeng, 50, 100);
+
+  sjekkVerdensdel("EUROPA", 365, 694, 455, 33);
+  sjekkVerdensdel("ASIA", 694, 1197, 537, 88);
+  sjekkVerdensdel("AFRIKA", 493, 695, 708, 455);
+  sjekkVerdensdel("AFRIKA", 694, 740, 698, 537);
+  sjekkVerdensdel("OSEANIA", 874, 1194, 780, 537);
+  sjekkVerdensdel("NORD-AMERIKA", 2, 365, 528, 36);
+  sjekkVerdensdel("SØR-AMERIKA", 238, 449, 810, 528);
+}
+
+void sjekkVerdensdel(String verdensdel, int hoyreGrense, int venstreGrense,
+  int nedreGrense, int ovreGrense){
+    if(mouseX > hoyreGrense && mouseX < venstreGrense &&
+      mouseY < nedreGrense && mouseY > ovreGrense)]{
+        if(alleVerdensdelene[tilfeldigTall].equals(verdensdel)){
+          text("RIKTIG", 950, 100);
+          tilfeldigTall = (int)random(6);
+          poeng ++;
+        } else {
+          poeng --;
+        }
+        delay(80);
+    }
+}
+```
 
 
 # Steg 11: Ekstra {.activity}

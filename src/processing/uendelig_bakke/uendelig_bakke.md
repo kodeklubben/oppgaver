@@ -126,7 +126,23 @@ Først så gjør vi alt vi nettopp gjorde i steg 2, men vi kaller variabelen vå
 for `bilde2`. Vi plasserer bildet til høyre for det første slik at de ligger
 helt inntil hverandre.
 
-![Bilde av koden med bildefilene lastet inn](bilde3.png)
+```processing
+PImage bilde1;
+PImage bilde2;
+
+void setup(){
+  size(800, 800);
+  bilde1 = loadImage("bakke.png");
+  bilde2 = loadImage("bakke.png");
+}
+
+void draw(){
+  background(100, 100, 200);
+
+  image(bilde1, 150, 150, 240, 120);
+  image(bilde2, 390, 150, 240, 120);
+}
+```
 
 ![Bilde av en lang bakke bortover](bakke4.png)
 
@@ -142,16 +158,42 @@ pixler bredt)
 
 Nå bytter vi ut variablene med `x` plassen i `image`-metoden.
 
-![Bilde av koden med variabler for å plassere bakken](bakke6.png)
+```processing
+PImage bilde1;
+PImage bilde2;
+int x1;
+int x2;
+
+void setup(){
+  size(800, 800);
+  bilde1 = loadImage("bakke.png");
+  bilde2 = loadImage("bakke.png");
+  x1 = 150;
+  x2 = 390;
+}
+
+void draw(){
+  background(100, 100, 200);
+  image(bilde1, x1, 150, 240, 120)
+  image(bilde2, x2, 150, 240, 120)
+}
+```
 
 Fortsatt beveger de seg ikke når vi kjører koden, hva tror du det kan skyldes?
 For å gjøre det kan vi ta `x1 -= 2;` som betyr "ta verdien av x1, trekk ifra 2
 og putt den nye verdien inn i x1". Putt denne koden nederst i `draw`-metoden.
 
-![Bilde av koden som får bakken til å flytte seg](minus.png)
+```processing
+image(bilde2, x2, 150, 240, 120);
+
+x1 -= 2;
+x2 -= 2;
+```
 
 ## Prøv selv {.check}
+
 - [ ] Hva skjer dersom du bytter ut minus tegnet med pluss tegn?
+
 - [ ] Hva skjer dersom du øker tallet til 5? eller 10?
 
 
@@ -186,7 +228,14 @@ if(x1 + 240 < 0) {
 Dette må vi gjøre for begge x variablene. Legg merke til at vi kan skrive alt på
 en linje om vi vil, men det er lettere å lese om vi bruker flere linjer.
 
-![Bilde som flytter bakken helt til høyre hvis den er for langt til venstre](test.png)
+```processing
+x1 -= 2;
+x2 -= 2;
+
+if(x1 + 240 < 0){ x1 += 480; }
+if(x2 + 240 < 0){ x2 += 480; }
+
+```
 
 ## Testing {.protip}
 
@@ -200,4 +249,33 @@ bakken er uendelig lang og bare kommer og kommer.
 Hele koden ser nå slik ut, og dette er starten på et Runner spill som du finner
 i Nybegynner-delen.
 
-![Bilde av hele koden vi har skrevet](heleKoden.png)
+```processing
+PImage bilde1;
+PImage bilde2;
+int x1;
+int x2;
+
+void setup(){
+  size(240, 800);
+  bilde1 = loadImage("bakke.png");
+  bilde2 = loadImage("bakke.png");
+  x1 = 150;
+  x2 = 390;
+}
+
+void draw(){
+  background(100, 100, 200);
+  image(bilde1, x1, 150, 240, 120)
+}
+
+void y(){
+  image(bilde2, x2, 150, 240, 120)
+
+  x1 -= 2;
+  x2 -= 2;
+
+  if(x1 + 240 < 0){ x1 += 480; }
+  if(x2 + 240 < 0){ x2 += 480; }
+}
+
+```

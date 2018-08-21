@@ -15,6 +15,40 @@ og Pygame Zero. Viss du ikkje hugsar noko om objekt kan du gå tilbake til
 oppgåva og repetere.
 
 
+# Steg 0: Installere Pygame Zero {.activity}
+
+For å gjere denne oppgåva må du installere [Pygame
+Zero](https://pygame-zero.readthedocs.io/en/latest/installation.html). Start med
+å sjekke at du har installert Python 3, altså at Python-versjonen din er
+nummerert på forma 3.X.X.
+
+Åpne kommandolinja (engelsk: command prompt) på datamaskina di. Brukar du
+Windows kan du åpne start-menyen og skrive cmd (eventuelt *Ledetekst*, som er
+det norske namnet på programmet som skal køyre). På Mac og Linux åpnar du
+terminalvindauget. Skriv inn følgjande:
+
+__Windows og Mac:__
+
+```
+pip install pgzero
+```
+
+__Linux:__
+
+```
+sudo pip install pgzero
+```
+
+Nokre Linux-system kallar den `pip3`, i så fall må du skrive det i staden for
+`pip` i koden over. Viss pip ikkje er installert kan du prøve å skrive
+
+```
+sudo python3 -m ensurepip
+```
+
+før du prøver `sudo pip install pgzero` att.
+
+
 # Steg 1: Høgde og breidde {.activity}
 
 - [ ] Lag eit nytt Python-program med følgjande kode:
