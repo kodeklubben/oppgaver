@@ -1,7 +1,6 @@
 ---
-title: 'Bli Kjent med Datamaskinen'
-level: 1
-author: 'Geir Arne Hjelle'
+title: Bli Kjent med Datamaskinen
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -29,7 +28,7 @@ Men først, for å vise at en datamaskin kan bygges på vanlig måte i Minecraft
 ## Sjekkliste {.check}
 
 - [ ] Trykk `E` for å åpne inventory'et ditt. Finn frem 7 __Stone__, 1
-__Redstone__ og 1 __Glass pane__.
+  __Redstone__ og 1 __Glass pane__.
 
 - [ ] Åpne et __Crafting table__, og legg ut materialet slik:
 
@@ -109,7 +108,7 @@ og du kan endre på det slik at det sier noe annet. Som tidligere må du bruke
 # Steg 3: Litt enkel matematikk {.activity}
 
 *Vi skal nå bruke datamaskinen til å regne litt matematikk for oss, og kanskje
- til og med få den til å se hvor flinke vi er til å regne.*
+til og med få den til å se hvor flinke vi er til å regne.*
 
 Datamaskinene i ComputerCraft bruker et programmeringsspråk som heter __Lua__.
 Dette er et ganske enkelt og fleksibelt språk som ofte brukes inne i andre
@@ -125,8 +124,8 @@ syntes var et fint navn som passet sammen med SOL.
 
 ## Sjekkliste {.check}
 
-Vi skal nå prøve å skrive noen kommandoer direkte i Lua. Dette er en
-fin måte å teste enkle ting på.
+Vi skal nå prøve å skrive noen kommandoer direkte i Lua. Dette er en fin måte å
+teste enkle ting på.
 
 - [ ] Skriv `lua` og trykk enter. Dette starter en *Lua-tolker* som vil utføre
   hver enkelt kommando du skriver med en gang.
@@ -165,7 +164,7 @@ vi lager egne funksjoner.
 # Steg 4: En liten matteprøve {.activity}
 
 *Vi skal nå bruke de tilfeldige tallene til å lage et enkelt spill. Underveis
- vil vi også lære litt om tester og løkker.*
+vil vi også lære litt om tester og løkker.*
 
 ## Sjekkliste {.check}
 
@@ -232,8 +231,8 @@ variabelen sier at vi bare skal huske variabelen i dette programmet (lokalt).
   end
   ```
 
-  Kjør programmet igjen. Hva skjer når du svarer riktig? Hva skjer
-  når du svarer feil? Skjønner du hvorfor?
+  Kjør programmet igjen. Hva skjer når du svarer riktig? Hva skjer når du svarer
+  feil? Skjønner du hvorfor?
 
 - [ ] Det er kjedelig at vi hele tiden må starte programmet på nytt. Vi lager
   derfor en løkke som kan spørre oss flere spørsmål hver gang vi spiller. Her
@@ -256,10 +255,9 @@ variabelen sier at vi bare skal huske variabelen i dette programmet (lokalt).
   end                                           -- ny linje
   ```
 
-  Test programmet ditt igjen. Blir du spurt om fem gangestykker? Kan
-  du forandre programmet slik at det spør om et annet antall
-  gangestykker? Kan du bruke en variabel som sier hvor mange
-  gangestykker programmet skal bruke?
+  Test programmet ditt igjen. Blir du spurt om fem gangestykker? Kan du forandre
+  programmet slik at det spør om et annet antall gangestykker? Kan du bruke en
+  variabel som sier hvor mange gangestykker programmet skal bruke?
 
 - [ ] Til slutt vil vi at programmet skal telle hvor mange riktige svar vi
   klarer. For å gjøre dette bruker vi en ny variabel. Men denne gangen vil vi
@@ -289,24 +287,23 @@ variabelen sier at vi bare skal huske variabelen i dette programmet (lokalt).
 
 ### Prøv selv {.challenge}
 
-Kan du endre programmet slik at det spør om andre typer mattestykker?
-For eksempel plusstykker, minusstykker eller delestykker?
+Kan du endre programmet slik at det spør om andre typer mattestykker? For
+eksempel plusstykker, minusstykker eller delestykker?
 
-For minusstykker, hvordan kan du lage tilfeldige `tall2` på en slik
-måte at `tall2` aldri er større enn `tall1`?
+For minusstykker, hvordan kan du lage tilfeldige `tall2` på en slik måte at
+`tall2` aldri er større enn `tall1`?
 
-For delestykker, hvordan kan du enkelt lage stykker som du vet går
-opp, det vil si slik at svaret blir et helt tall?
+For delestykker, hvordan kan du enkelt lage stykker som du vet går opp, det vil
+si slik at svaret blir et helt tall?
 
-Kan du bruke `math.random` og passende `if`-tester for å tilfeldig
-velge hvilken type mattestykke det spørres om?
+Kan du bruke `math.random` og passende `if`-tester for å tilfeldig velge hvilken
+type mattestykke det spørres om?
 
 
 # Steg 5: Passordlås på en dør {.activity}
 
-*Datamaskinene våre er jo en del av Minecraft. Vi skal nå se et enkelt
- eksempel på hvordan vi kan koble dem sammen med resten av
- Minecraft-verdenen rundt oss.*
+*Datamaskinene våre er jo en del av Minecraft. Vi skal nå se et enkelt eksempel
+på hvordan vi kan koble dem sammen med resten av Minecraft-verdenen rundt oss.*
 
 ## Sjekkliste {.check}
 
@@ -337,22 +334,21 @@ velge hvilken type mattestykke det spørres om?
   end
   ```
 
-  Dette programmet ligner ganske mye på `mattetest`-programmet vi
-  laget tidligere. Det er bare èn ny ting her som vi ikke har sett
-  tidligere, nemlig en `while`-løkke. Slike løkker vil fortsette å
-  gjøre ting om igjen så lenge noe er sant. I vårt tilfelle er dette
-  *noe* verdien `true` som alltid er sann. Det betyr at vi har laget
-  en *evig løkke*. Dette programmet vil fortsette å spørre oss om
-  passordet for alltid!
+  Dette programmet ligner ganske mye på `mattetest`-programmet vi laget
+  tidligere. Det er bare èn ny ting her som vi ikke har sett tidligere, nemlig
+  en `while`-løkke. Slike løkker vil fortsette å gjøre ting om igjen så lenge
+  noe er sant. I vårt tilfelle er dette *noe* verdien `true` som alltid er sann.
+  Det betyr at vi har laget en *evig løkke*. Dette programmet vil fortsette å
+  spørre oss om passordet for alltid!
 
 - [ ] Kjør programmet. Oppfører programmet seg slik du hadde trodd? Husker du
   passordet?
 
 ### Avslutte programmer {.protip}
 
-For å avslutte dette programmet holder du inne *Ctrl* og *T* samtidig
-i cirka ett sekund. Da avbrytes programmet, og teksten `Terminated`
-skrives på skjermen. Dette fungerer både her og i andre programmer.
+For å avslutte dette programmet holder du inne *Ctrl* og *T* samtidig i cirka
+ett sekund. Da avbrytes programmet, og teksten `Terminated` skrives på skjermen.
+Dette fungerer både her og i andre programmer.
 
 ## Sjekkliste {.check}
 
@@ -377,13 +373,12 @@ skrives på skjermen. Dette fungerer både her og i andre programmer.
 
   Kjør programmet. Hva skjer nå når du skriver riktig passord?
 
-  Funksjonen `setOutput` i `redstone`-biblioteket skrur av eller på
-  litt *redstone*-energi som åpner døren. Her forteller `left`
-  hvilken side av datamaskinen døren står på. Du kan også bruke for
-  eksempel `right`, `top` eller `bottom`. Funksjonen `sleep` gjør at
-  datamaskinen sover, det vil si gjør ingenting. I dette tilfellet
-  sover datamaskinen i 5 sekunder, før energien skrus av igjen og
-  døren lukker seg.
+  Funksjonen `setOutput` i `redstone`-biblioteket skrur av eller på litt
+  *redstone*-energi som åpner døren. Her forteller `left` hvilken side av
+  datamaskinen døren står på. Du kan også bruke for eksempel `right`, `top`
+  eller `bottom`. Funksjonen `sleep` gjør at datamaskinen sover, det vil si gjør
+  ingenting. I dette tilfellet sover datamaskinen i 5 sekunder, før energien
+  skrus av igjen og døren lukker seg.
 
 - [ ] Før vi er helt fornøyde med dette programmet vil vi gjøre noen små
   forbedringer. Først kaller vi to funksjoner fra `term`-biblioteket. Den ene

@@ -1,7 +1,6 @@
 ---
-title: 'Kontroller med musen'
-level: 3
-author: 'Teodor Heggelund'
+title: Kontroller med musen
+author: Teodor Heggelund
 language: nb
 ---
 
