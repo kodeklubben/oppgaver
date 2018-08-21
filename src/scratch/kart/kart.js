@@ -1,7 +1,7 @@
 // List of layers
 var baseLayers = {
   'Kartverkets grunnkart': L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=norges_grunnkart&zoom={z}&x={x}&y={y}', {attribution: '&copy; <a href="http://www.kartverket.no/Kart/Gratis-kartdata/Lisens/">Kartverket</a>'}),
-  'Kartverkets topografiske kart': L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo2&zoom={z}&x={x}&y={y}', {attribution: '&copy; <a href="http://www.kartverket.no/Kart/Gratis-kartdata/Lisens/">Kartverket</a>'}),
+  'Kartverkets topografiske kart': L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo4&zoom={z}&x={x}&y={y}', {attribution: '&copy; <a href="http://www.kartverket.no/Kart/Gratis-kartdata/Lisens/">Kartverket</a>'}),
   'OpenStreetMap': L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19, attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> bidragsytere'}),
   'Stamens vannfargekart':  L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {attribution: 'Design av <a href="http://stamen.com">Stamen</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Kartdata &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> bidragsytere', subdomains: 'abcd', minZoom: 1, maxZoom: 16, ext: 'png'}),
   'Thunderforests pioneerkart': L.tileLayer('http://{s}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> bidragsytere'}),

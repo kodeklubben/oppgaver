@@ -1,7 +1,6 @@
 ---
-title: 'Elm reactor og moduler'
-level: 2
-author: 'Alexander Perry'
+title: Elm reactor og moduler
+author: Alexander Perry
 language: nb
 ---
 
@@ -12,8 +11,8 @@ Denne oppgaven innfører moduler, som lar oss bruke kode som andre har skrevet.
 Når vi forstår moduler, er vi klare for `elm reactor`, som viser oss en
 webapplikasjon vi har skrevet i vår egen fil.
 
-Før du starter, må du ha gjennomført innstallasjonen
-i [oppgave 2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html).
+Før du starter, må du ha gjennomført innstallasjonen i [oppgave
+2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html).
 
 
 # Lag din egen nettside! {.activity}
@@ -21,8 +20,8 @@ i [oppgave 2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html).
 ## Aktiviteter {.check}
 
 - [ ] Åpne en **teksteditor**, for eksempel teksteditoren
-      [Atom](http://atom.io), [Brackets](http://brackets.io/) eller
-      [Notepad++](https://notepad-plus-plus.org/).
+  [Atom](http://atom.io), [Brackets](http://brackets.io/) eller
+  [Notepad++](https://notepad-plus-plus.org/).
 
 - [ ] Lag en ny fil.
 
@@ -41,8 +40,8 @@ HTML er språket som forteller en nettleser om hvordan en nettside skal se ut. S
 [web-kurset](../../web/index.html) for å lære mer om HTML og nettsider.
 
 - [ ] Om du har gjort [oppgave
-      2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html), kan du nå åpne
-      kommandolinjen og skrive inn ```elm reactor```:
+  2](../02_funksjoner_elm_repl/02_funksjoner_elm_repl.html), kan du nå åpne
+  kommandolinjen og skrive inn `elm reactor`:
 
 ```
 elm-reactor 0.18.0
@@ -63,18 +62,21 @@ Nå leser Elm gjennom filen din og gjør den om til vanlig HTML!
 - [ ] Hvordan ser nettsiden din ut?
 
 - [ ] La oss gjøre en endring.
+
   - Endre `"Hei, verden!"` til `"Hei, alle sammen!"`
+
   - Lagre filen
+
   - Last nettleseren på nytt.
+
   - Skjedde det noe?
 
 ## Ting du kan prøve {.challenge}
 
 - [ ] For å åpne forskjellige programmer direkte fra nettsiden din, kan du
-      skrive nettadressen slik: ```localhost:8000/hei.elm```. Bare bytt ut
-      filnavnet!
+  skrive nettadressen slik: `localhost:8000/hei.elm`. Bare bytt ut filnavnet!
 
-- [ ] Hva skjer når du åpner ```hei.elm``` direkte i nettleseren?
+- [ ] Hva skjer når du åpner `hei.elm` direkte i nettleseren?
 
 
 # Når noe går galt {.activity}

@@ -1,7 +1,6 @@
 ---
 title: ToPlayer
-level: 1
-author: 'Ruben Gjerstad Eide og Kine Gjerstad Eide'
+author: Ruben Gjerstad Eide og Kine Gjerstad Eide
 language: nb
 ---
 
@@ -39,16 +38,24 @@ void setup(){
 - [ ] Skriv `draw`-metoden under `setup`-metoden.
 
 - [ ] Sjekk at metodene fungerer ved å kjøre programmet. Klikk på pilen oppe til
-      venstre for å gjøre det.
+  venstre for å gjøre det.
 
   ![Bilde av play knappen](play.png)
 
 Dersom programmet kjører og alt er i orden så vil det dukke opp et nytt bitte
 lite vindu på skjermen din. Dersom du fikk opp vinduet, så er det bare å gå
 videre til steg 2. Dersom ikke, så kan du sjekke at du har fått med alle
-detaljene i koden din, ved å sammenligne med bildet under.
+detaljene i koden din, ved å sammenligne med koden under.
 
-![Bilde av koden så langt](steg1.png)
+```processing
+  void setup(){
+
+  }
+
+  void draw(){
+
+  }
+```
 
 Lagre koden din før du går videre.
 
@@ -93,16 +100,16 @@ at du har forståelse for koden din før du går videre til neste steg.
 - [ ] Forsøk å få vinduet til å dekke hele skjermen din.
 
 - [ ] Sett tallene inni parentesene til `background` til å være dette: (255, 0,
-      0)
+  0)
 
 - [ ] Sett tallene inni parentesene til `background` til å være dette: (0, 255,
-      0)
+  0)
 
 - [ ] Sett tallene inni parentesene til `background` til å være dette: (0, 0,
-      255)
+  255)
 
 - [ ] Sett tallene inni parentesene til `background` til å være dette: (0, 255,
-      255)
+  255)
 
 - [ ] Sett alle tallene inni parentesene til `background` til å være 0.
 
@@ -118,7 +125,16 @@ Kjør programmet ditt og sjekk at du får vinduet til å vises før du går vide
 Her er koden vi har laga så langt, husk at dine tall kanskje er litt forskjellig
 fra våre tall.
 
-![Bilde av neste steg av koden](steg2.png)
+```processing
+  void setup(){
+    size(800, 500);
+    background(40, 150, 255);
+  }
+
+  void draw(){
+
+  }
+```
 
 
 # Steg 3: Spillbrikke {.activity}
@@ -137,17 +153,16 @@ Her er koden som skal brukes:
 - [ ] Skriv inn de to kodelinjene i `draw`-metoden og test at programmet kjører.
 
 - [ ] Bytt ut ett og ett av tallene inni parentesen til `ellipse` og finn ut hva
-      de gjør.
+  de gjør.
 
 - [ ] Bytt ut ett og ett av tallene inni parentesen til `fill` og finn ut hva de
-      gjør.
+  gjør.
 
 - [ ] Forsøk å få spillbrikka til å bli rosa.
 
 - [ ] Forsøk å få spillbrikka til å bli så stor at den dekker hele vinduet.
 
 - [ ] Still tilbake størrelsen på spillbrikka og velg en farge du liker.
-
 
 Nå skal vi gjøre slik at ellipsen er klar til å bevege seg sidelengs. Som du
 sikkert har funnet ut, så bestemmer det første tallet i parentesen hvor ellipsen
@@ -183,22 +198,35 @@ koden for ellipse slik ut:
 ## Gjør dette: {.check}
 
 - [ ] Skriv inn de tre kodelinjene som ble forklart over, pass på at du
-      plasserer dem på riktig plass i koden..
+  plasserer dem på riktig plass i koden..
 
 - [ ] Test at programmet ditt kjører, ingenting nytt skal skje, bortsett fra at
-      spillebrikken kanskje har flytta litt på seg.
+  spillebrikken kanskje har flytta litt på seg.
 
 - [ ] Bytt ut verdien til `x` med for eksempel `180` og se at ellipsa flytter
-      seg.
+  seg.
 
 - [ ] Se om du får til å plassere ellipsen så lagt ut til den høyre sida av
-      vinduet at du bare kan se halve ellipsen.
+  vinduet at du bare kan se halve ellipsen.
 
 - [ ] Plasser ellipsen midt på skjermen sideveis.
 
 Her er koden vi har laga så langt.
 
-![Bilde av koden så langt](steg3.png)
+```processing
+  int x;
+
+  void setup(){
+    size(800, 500);
+    x = 400;
+  }
+
+  void draw(){
+    background(40, 150, 255);
+    fill(30, 230, 100);
+    ellipse(x, 250, 50, 50);
+  }
+```
 
 
 # Steg 4: Lag kontrollere! {.activity}
@@ -246,7 +274,6 @@ Noe som er vanlig å sjekke i en `if`-setning er om man har trykka på en spesie
 knapp, eller om datamusa er innenfor et bestemt område. Eller man kan sjekke
 hvor mange liv man har igjen, og dersom det er 0 så kan man skrive "GAME OVER".
 
-
 Når vi skriver if-setningen vår med ord blir det slik:
 
 ```processing
@@ -278,7 +305,7 @@ if(keyPressed && key == 'a'){
 - [ ] Kjør programmet, trykk på `a`, hva skjer?
 
 - [ ] Flytt kodelinja som setter bakgrunsfargen fra `setup`-metoden til
-      `draw`metoden. Putt den øverst inni `draw`.
+  `draw`metoden. Putt den øverst inni `draw`.
 
 - [ ] Kjør programmet på nytt og se hva som skjer.
 
@@ -287,22 +314,45 @@ if(keyPressed && key == 'a'){
 - [ ] Bytt ut `a` med en annen bokstav.
 
 - [ ] Flytt kodelinja som setter bakgrunnsfargen frem og tilbake mellom `setup`
-      og `draw` noen ganger og se om du forstår hva som skjer.
+  og `draw` noen ganger og se om du forstår hva som skjer.
 
 - [ ] Forsøk nå å skrive en `if`-setning til. Denne skal stå under den forrige,
-      og nå kan du velge en annen bokstav. I stede for at `x` blir større, så må
-      du skrive koden slik at `x` blir mindre. Dersom det er litt vanskelig, så
-      kan du forsøke å sette opp `if`-setningen som en vanlig setning slik vi
-      har vist i forklaringen over.
+  og nå kan du velge en annen bokstav. I stede for at `x` blir større, så må du
+  skrive koden slik at `x` blir mindre. Dersom det er litt vanskelig, så kan du
+  forsøke å sette opp `if`-setningen som en vanlig setning slik vi har vist i
+  forklaringen over.
 
 - [ ] Bytt ut tallet inni den nye `if`-setningen, slik at du får ellipsen til å
-      gå dobbelt så raskt til venstre.
+  gå dobbelt så raskt til venstre.
 
-Dersom ikke koden din fungerer helt som den skal, så kan du sjekke her hva som er feil.
+Dersom ikke koden din fungerer helt som den skal, så kan du sjekke her hva som
+er feil.
 
-![Bilde av koden så langt](steg4.png)
+```processing
+  int x;
 
-## Steg 5: Vi trenger en vinner! {.activity}
+  void setup(){
+    size(800, 500);
+    x = 400;
+  }
+
+  void draw(){
+    background(40, 150, 255);
+    fill(30, 230, 100);
+    ellipse(x, 250, 50, 50);
+
+    if(keyPressed && key == 'a'){
+      x+=10;
+    }
+
+    if(keyPressed && key == 'l'){
+      x-=10;
+    }
+  }
+```
+
+
+# Steg 5: Vi trenger en vinner! {.activity}
 
 Vi trenger flere `if`-setninger, disse skal skrive en beskjed på skjermen hvis
 en spiller vinner. Man vinner med å dytte ellipsen ut av skjermen.
@@ -321,29 +371,58 @@ Denne skal skrives under de to forrige `if`-setningene:
 - [ ] Skriv inn den nye `if`-setningen.
 
 - [ ] Sjekk at programmet fungerer ved å få ellipsen ut av skjermen på høyre
-      side. Da skal teksten vises.
+  side. Da skal teksten vises.
 
 - [ ] Hva tror du skjer hvis du forandrer `800` tallet som står inni `(x > 800)`
-      til ett annet tall?
+  til ett annet tall?
 
 - [ ] Bytt ut `800` med noe mye mindre og finn ut hva som skjer.
 
 - [ ] Hva skjer hvis du forandrer teksten til "Høyre spiller har vunnet"?
 
 - [ ] Finn ut hva tallene som står inni parentesene til `text` gjør ved å bytte
-      dem ut.
+  dem ut.
 
 - [ ] Gjør størrelsen på vinduet ditt større og se hvordan det påvirker
-      `if`-setningen.
+  `if`-setningen.
 
 - [ ] Still tilbake alle tallene, slik at teksten dukker opp på skjermen bare
-      når spillbrikka er ute av skjermen.
+  når spillbrikka er ute av skjermen.
 
 - [ ] Lag en ny `if`-setning som gjør nesten akkurat det samme, men som heller
-      sjekker om ellipsen går ut av skjermen på venstre side.
+  sjekker om ellipsen går ut av skjermen på venstre side.
 
 - [ ] Test at koden din fungerer.
 
 Her er hele koden, sjekk om din er lik.
 
-![Bilde av hele koden](steg5.png)
+```processing
+  int x;
+
+  void setup(){
+    size(800, 500);
+    x = 400;
+  }
+
+  void draw(){
+    background(40, 150, 255);
+    fill(30, 230, 100);
+    ellipse(x, 250, 50, 50);
+
+    if(keyPressed && key == 'a'){
+      x+=10;
+    }
+
+    if(keyPressed && key == 'l'){
+      x-=10;
+    }
+
+    if(x > 800){
+      text("Venstre spiller vant!", 350, 200);
+    }
+
+    if(x < 0){
+      text("Høyre spiller vant!", 350, 200);
+    }
+  }
+```

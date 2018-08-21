@@ -12,7 +12,8 @@ grafiske program. Dette gjer Processing perfekt for dei som har lyst til å lær
 
 - Gå til [processing.org/download](https://processing.org/download).
 
-- Last ned Processing til datamaskina di. Vel nyaste versjon (3.4 per juli 2018).
+- Last ned Processing til datamaskina di. Vel nyaste versjon (3.4 per juli
+  2018).
 
 - Installer Processing ved å pakke ut innhaldet i arkivet til ei passande
   plassering.

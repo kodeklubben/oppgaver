@@ -1,7 +1,6 @@
 ---
-title: 'Ping pong'
-level: 2
-author: 'Torbjørn Vik Lunde'
+title: Ping pong
+author: Torbjørn Vik Lunde
 language: nb
 ---
 
@@ -65,8 +64,8 @@ ballen](../sprettende_ball/sprettende_ball.html).
   Hvorfor tror du vi har gjort dette?
 
 - [ ] Kjør programmet ved å trykke på **Ctrl + R** eller knappen ![Play - En
-knapp i verktøylinjen merket med pil](../play.png "Play - En knapp i
-verktøylinjen merket med pil")
+  knapp i verktøylinjen merket med pil](../play.png "Play - En knapp i
+  verktøylinjen merket med pil")
 
 ![En sprettende ball på en svart bakgrunn.](sprettendeBall.gif "En sprettende
 ball på en svart bakgrunn.")
@@ -89,7 +88,7 @@ når den treffer venstre vegg. Vi kan begynne med å sørge for at ballen ikke
 spretter tilbake.
 
 - [ ] Fjern koden som gjør at ballen spretter tilbake (denne ligger i den
-      øverste ‘if’-en), slik at du går fra dette:
+  øverste ‘if’-en), slik at du går fra dette:
 
   ```processing
   if (ballX < ballRadius) {
@@ -110,7 +109,7 @@ spretter tilbake.
 ## Utfordringer {.challenge}
 
 - [ ] Kan du få ballen til å dukke opp et annet sted etter den har gått igjennom
-      veggen?
+  veggen?
 
 
 # Steg 3: Legg til rekkerten {.activity}
@@ -141,9 +140,9 @@ så må vi ha kode som sender ballen tilbake.
   ![En ball går igjennom rekkerten](ballGjennomRekkert.gif "En ball går igjennom
   rekkerten")
 
-  Vi kan nå se rekkerten når vi kjører programmet, men ballen går
-  igjennom rekkerten. Det er fordi vi ikke har skrevet kode som
-  stopper ballen og sender den tilbake.
+  Vi kan nå se rekkerten når vi kjører programmet, men ballen går igjennom
+  rekkerten. Det er fordi vi ikke har skrevet kode som stopper ballen og sender
+  den tilbake.
 
   Legg til følgende i draw()-funksjonen:
 
@@ -209,7 +208,7 @@ Hvis du endrer:
 
 ```processing
   if (keyCode == UP) {
-````
+```
 
 Til:
 
@@ -233,4 +232,3 @@ kan du styre opp med **W**. Hva tror du at du må gjøre for å kunne styre ned 
 - [ ] Kan du gjøre noe som gjør at spillet blir vanskeligere etter hvert? For
   eksempel at ballen går raskere og raskere etter hvert, eller at rakkerten blir
   mindre.
-

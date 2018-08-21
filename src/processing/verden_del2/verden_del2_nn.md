@@ -1,8 +1,7 @@
 ---
-title: 'Verda - del 2'
-level: 2
-author: 'Kine Gjerstad Eide'
-translator: 'Stein Olav Romslo'
+title: Verda - del 2
+author: Kine Gjerstad Eide
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -32,7 +31,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365){
@@ -126,7 +125,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365){
@@ -150,6 +149,7 @@ void draw(){
   }
 }
 ```
+
 
 # Steg 2: Slå saman if-setningar {.activity}
 
@@ -220,7 +220,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33){
@@ -232,6 +232,7 @@ void draw(){
   }
 }
 ```
+
 
 # Steg 3: Sjekk Afrika med to if-setningar {.activity}
 
@@ -290,7 +291,7 @@ koordinatar.
 ## Sjekkliste {.check}
 
 - [ ] Lag ei ny `if`-setning som sjekkar grensene til den nye firkanten. Her er
-      biletet:
+  biletet:
 
 ![Bilete av verdskartet og Afrika](mapAfrika.png)
 
@@ -305,7 +306,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33){
@@ -469,7 +470,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 365 && mouseX < 694 && mouseY < 455 && mouseY > 33){
@@ -497,6 +498,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 5: Bruk den nye metoden {.activity}
 
@@ -556,9 +558,8 @@ Me må setje inn parametrar i metodekallet.
 
 - [ ] Køyr programmet på nytt. Fungerer det framleis som det skal?
 
-Her er eit bilete av koden. Det er viktig at
-du har fjerna riktig `if`-setning og at du har brukt riktige parametrar i
-metodekallet på `sjekkVerdsdel();`.
+Her er eit bilete av koden. Det er viktig at du har fjerna riktig `if`-setning
+og at du har brukt riktige parametrar i metodekallet på `sjekkVerdsdel();`.
 
 ```processing
 PImage verdskartet;
@@ -569,7 +570,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   if(mouseX > 694) && mouseX < 1197 && mouseY < 537 && mouseY > 88){
@@ -595,6 +596,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 6: Bruk `sjekkVerdsdel`-metoden til alle verdsdelane {.activity}
 
@@ -630,7 +632,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   sjekkVerdsdel("EUROPA", 365, 694, 455, 33);
@@ -699,7 +701,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("X: " + mouseX, 50, 50);  
+  text("X: " + mouseX, 50, 50);
   text("Y: " + mouseY, 50, 100);
 
   sjekkVerdsdel("EUROPA", 365, 694, 455, 33);
@@ -725,6 +727,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 7: Trekk ein tilfeldig verdsdel {.activity}
 
@@ -859,7 +862,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("Trykk på: " + alleVerdsdelane[tilfeldigTal], 50, 50);  
+  text("Trykk på: " + alleVerdsdelane[tilfeldigTal], 50, 50);
 
   sjekkVerdsdel("EUROPA", 365, 694, 455, 33);
   sjekkVerdsdel("ASIA", 694, 1197, 537, 88);
@@ -961,7 +964,7 @@ void setup(){
 }
 void draw(){
   image(verdskartet, 0, 0);
-  text("Trykk på: " + alleVerdsdelane[tilfeldigTal], 50, 50);  
+  text("Trykk på: " + alleVerdsdelane[tilfeldigTal], 50, 50);
 
   sjekkVerdsdel("EUROPA", 365, 694, 455, 33);
   sjekkVerdsdel("ASIA", 694, 1197, 537, 88);
@@ -982,6 +985,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 9: Få ny verdsdel å trykke på {.activity}
 
@@ -1015,6 +1019,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 10: Få poeng {.activity}
 
@@ -1171,6 +1176,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 11: Ekstra {.activity}
 

@@ -1,4 +1,4 @@
-veiledninger/kurs_avansert_scratch_klassikere.md
+veiledning_kurs_avansert_klassikere/kurs_avansert_scratch_klassikere.md
 pong/pong.md
 breakout/breakout.md
 snake/snake.md

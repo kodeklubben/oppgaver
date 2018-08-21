@@ -1,8 +1,8 @@
-hvor_i_all_verden_del1/hvor_i_all_verden_1.md
-hvor_i_all_verden_del2/hvor_i_all_verden_2.md
-hvor_i_all_verden_del3/hvor_i_all_verden_3.md
+hvor_i_all_verden_del1/hvor_i_all_verden_del1.md
+hvor_i_all_verden_del2/hvor_i_all_verden_del2.md
+hvor_i_all_verden_del3/hvor_i_all_verden_del3.md
 snoballkrig/snoballkrig.md
-3d_flakser_del1/3d_flakser_1.md
-3d_flakser_del2/3d_flakser_2.md
+3d_flakser_del1/3d_flakser_del1.md
+3d_flakser_del2/3d_flakser_del2.md
 hoppehelt/hoppehelt.md
 lag_ditt_eget_spill/lag_ditt_eget_spill.md

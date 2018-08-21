@@ -1,8 +1,7 @@
 ---
 title: Klatring
-level: 1
-author: 'Oversatt fra [Espen Clausen nettside](https://espenec.files.wordpress.com/2015/09/lego-mindstorms-del-1-5.pdf)'
-translator: 'Øistein Søvik'
+author: "Oversatt fra [Espen Clausen nettside](https://espenec.files.wordpress.com/2015/09/lego-mindstorms-del-1-5.pdf)"
+translator: Øistein Søvik
 language: nb
 ---
 
@@ -18,19 +17,19 @@ planken.
 ## Fremgangsmåte {.check}
 
 - [ ] Konstruere roboten til å frakte inntil 4 løkker opp bakken som er
-      konstruert. Løkkene skal være plassert på roboten slik at de ikke faller
-      av når roboten kjører opp bakken.
+  konstruert. Løkkene skal være plassert på roboten slik at de ikke faller av
+  når roboten kjører opp bakken.
 
 - [ ] Programmere roboten til å frakte objekter fra bunn til topps av en bane.
-      Dette er enkel programmering, men hva er best å sette kraften på?
+  Dette er enkel programmering, men hva er best å sette kraften på?
 
 - [ ] Finn ut hvor stor vinkel roboten er i stand til å klatre med ulik vekt ved
-      å justere vinkelen på planken. Fyll inn i tabellen under. Bruk vinkelmåler
-      for å finne vinkelen.
+  å justere vinkelen på planken. Fyll inn i tabellen under. Bruk vinkelmåler for
+  å finne vinkelen.
 
-|           | Uten    | 1 løkke    | 2 løkker    | 3 løkker    | 4 løkker    |
-| :-------- | :------ | :--------- | :---------- | :---------- | :---------- |
-| vinkel    |         |            |             |             |             |
-|           |         |            |             |             |             |
+|        | Uten | 1 løkke | 2 løkker | 3 løkker | 4 løkker |
+| :----- | :--- | :------ | :------- | :------- | :------- |
+| vinkel |      |         |          |          |          |
+|        |      |         |          |          |          |
 
 ![Bilde av en trekant med grader](lego_mindstorms_klatring_1.png)
