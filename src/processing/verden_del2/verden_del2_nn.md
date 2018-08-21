@@ -151,6 +151,7 @@ void draw(){
 }
 ```
 
+
 # Steg 2: Slå saman if-setningar {.activity}
 
 No som du har lært korleis du set opp `if`-setningar inni kvarandre, så er det
@@ -232,6 +233,7 @@ void draw(){
   }
 }
 ```
+
 
 # Steg 3: Sjekk Afrika med to if-setningar {.activity}
 
@@ -498,6 +500,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
 }
 ```
 
+
 # Steg 5: Bruk den nye metoden {.activity}
 
 For å bruke den nye metoden må me gjere eit metodekall på den. På same måte som
@@ -595,6 +598,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 6: Bruk `sjekkVerdsdel`-metoden til alle verdsdelane {.activity}
 
@@ -725,6 +729,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 7: Trekk ein tilfeldig verdsdel {.activity}
 
@@ -983,6 +988,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
 }
 ```
 
+
 # Steg 9: Få ny verdsdel å trykke på {.activity}
 
 Det er jo litt kjipt å måtte starte programmet på nytt kvar gong spelaren har
@@ -1015,6 +1021,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 10: Få poeng {.activity}
 
@@ -1171,6 +1178,7 @@ void sjekkVerdsdel(String verdsdel, int hogreGrense, int venstreGrense,
     }
 }
 ```
+
 
 # Steg 11: Ekstra {.activity}
 
