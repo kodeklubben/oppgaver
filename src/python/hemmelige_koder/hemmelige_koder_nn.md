@@ -1,8 +1,7 @@
 ---
-title: 'Hemmelege kodar'
-level: 2
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: Hemmelege kodar
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -23,7 +22,6 @@ ikkje den beste måten å hindre andre i å lese beskjedane dine, men det kjem m
 tilbake til. Det finst ferdige modular til Python du kan bruke viss du vil lage
 ein kode som skal vere vanskeleg å knekke, men no skal me prøve å lage
 Cæsar-chifferet sjølv.
-
 
 Start med å teikne alle bokstavane i ein sirkel.
 
@@ -49,7 +47,6 @@ V                                               H
           R                        L
               Q                M
                   P    O   N
-
 ```
 
 For å lage ein hemmeleg bokstav frå ein vanleg bokstav treng me eit tal me kan

@@ -1,8 +1,7 @@
 ---
 title: Skjelpaddeskulen
-level: 2
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -305,9 +304,9 @@ Scratch kan òg gjere det, då brukte me `pick`.
   talet me gir inn, så `randrange(1, 10)` vel eit tall mellom 1 og 9 (Python
   startar med 1, og stoppar rett før 10).
 
-  Prosedyra `choice()` vel ein ting frå lista me gir inn. Ei liste er ei
-  samling av verdiar, til dømes `[1, 2, 3]`. I koden over brukar me lista
-  `colors`, som har verdiane `'red'`, `'blue'`, og `'green'`.
+  Prosedyra `choice()` vel ein ting frå lista me gir inn. Ei liste er ei samling
+  av verdiar, til dømes `[1, 2, 3]`. I koden over brukar me lista `colors`, som
+  har verdiane `'red'`, `'blue'`, og `'green'`.
 
   Ved å bruke `choice()` og `randrange()` kan me be datamaskina om å velje
   farge, storleik og form for oss, og det kjem til å bli forskjellig resultat

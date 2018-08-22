@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Enkle objekter
 author: Madeleine Lorås
-level: 4
 language: nb
 ---
 
@@ -12,7 +11,7 @@ I denne oppgaven får elevene en enkel innføring til klasser og objekter.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering, Informasjonsteknologi
+__Fag__: Programmering, Informasjonsteknologi
 
 __Anbefalte trinn__: 8. trinn - VG3
 
@@ -23,14 +22,14 @@ __Tidsbruk__: Dobbelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett
-       er tekstbasert.
+  er tekstbasert.
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon.
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon.
 
 - [ ] __Informasjonsteknologi 2, VG3__: gjøre rede for hensikten med
-       objektorientert utvikling og begrepene klasse, objekt og arv.
+  objektorientert utvikling og begrepene klasse, objekt og arv.
 
 ## Forslag til læringsmål {.challenge}
 
@@ -41,7 +40,7 @@ __Tidsbruk__: Dobbelttime
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-       oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -61,10 +60,9 @@ oppgaven enda._
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan finne andre situasjoner hvor det egner seg godt å bruke
-      klasser og objekter. For eksempel kan elevene bruke erfaringer fra spill
-      og filmer til å sette opp klasser og objekter.
+  klasser og objekter. For eksempel kan elevene bruke erfaringer fra spill og
+  filmer til å sette opp klasser og objekter.
 
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-

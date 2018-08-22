@@ -1,8 +1,7 @@
 ---
 title: Kuprat
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
-level: 1
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 

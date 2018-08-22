@@ -1,7 +1,6 @@
 ---
 title: Mattespill
-author: 'Geir Arne Hjelle'
-level: 2
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -296,4 +295,3 @@ fakultet(1) = 1
 
   Prøv å regne ut fakultetet av andre tall. Skjønner du hvordan dette virker?
   Det er en litt merkelig måte å tenke på, så du må kanskje venne deg til det?
-

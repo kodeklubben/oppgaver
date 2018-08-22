@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Repetisjon
 author: Øistein Søvik
-level: 3
 language: nb
 ---
 
@@ -13,7 +12,7 @@ programmeringselementer og Python syntaks.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering
+__Fag__: Programmering
 
 __Anbefalte trinn__: 8.-10. trinn
 
@@ -24,15 +23,15 @@ __Tidsbruk__: Dobbelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 - [ ] __Programmering, valgfag__: gjøre rede for hvordan datamaskiner og
-       programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og
-       deres bruksområder
+  programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og deres
+  bruksområder
 
 - [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett
-       er tekstbasert
+  er tekstbasert
 
 ## Forslag til læringsmål {.challenge}
 
@@ -66,4 +65,3 @@ Selv om ikke elevene har brukt Python før, kan dette fungere som en god oppgave
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-

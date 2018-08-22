@@ -1,7 +1,6 @@
 ---
-level: 3
 title: Ordbøker
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -40,14 +39,14 @@ Vi kan bruke den samme skrivemåten for å lage nye nøkkel/verdi-par eller endr
 verdien knyttet til en nøkkel:
 
 ```python
->>> d['farge'] = 'colour'    
+>>> d['farge'] = 'colour'
 
 
 # legger til en ny verdi
 
 >>> d
 {'ost': 'cheese', 'brød': 'bread', 'farge': 'colour'}
->>> d['farge'] = 'color'     
+>>> d['farge'] = 'color'
 
 
 # endrer verdien

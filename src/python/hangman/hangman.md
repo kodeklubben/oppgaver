@@ -1,17 +1,15 @@
 ---
 title: Hangman
-level: 3
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Geir Arne Hjelle'
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Geir Arne Hjelle
 language: nb
 ---
 
 
 # Introduksjon {.intro}
 
-La oss lage et spill: Hangman! Datamaskinen vil velge et ord og du kan
-gjette det bokstav for bokstav. Dersom du gjetter feil for mange
-ganger taper du.
+La oss lage et spill: Hangman! Datamaskinen vil velge et ord og du kan gjette
+det bokstav for bokstav. Dersom du gjetter feil for mange ganger taper du.
 
 
 # Steg 1: Velg et ord {.activity}
@@ -64,7 +62,7 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
 - [ ] Lagre og kjør programmet.
 
 - [ ] Du burde se `Gjett en bokstav i ordet: ____`, i output-vinduet (det andre
-      vinduet, ikke vinduet du har skrevet programmet ditt i).
+  vinduet, ikke vinduet du har skrevet programmet ditt i).
 
   Vi bruker en `for`-løkke for å bygge en tekst hvor hver bokstav i ordet er
   byttet med en understrek `_`. Ordet `kode` vil da for eksempel skrives som
@@ -99,8 +97,8 @@ Da har vi gjort det viktigste, la oss fortsette videre.
 
 ## Python 2 tips: {.protip}
 
-Bruk `raw_input` i stedet for `input` dersom du bruker en gammel
-version av python.
+Bruk `raw_input` i stedet for `input` dersom du bruker en gammel version av
+python.
 
 
 # Steg 3: Husk bokstavene som er gjettet {.activity}
@@ -279,7 +277,7 @@ man har til å gjette.
   ```
 
 - [ ] Vi kan endre denne linjen for å legge til flere ord i spillet. Prøv for
-      eksempel
+  eksempel
 
   ```python
   word = choice(["kode", "kurs", "robot", "klubb"])

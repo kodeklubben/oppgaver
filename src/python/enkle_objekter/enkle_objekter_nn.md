@@ -1,8 +1,7 @@
 ---
-title: 'Enkle objekt'
-level: 4
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+title: Enkle objekt
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -55,8 +54,11 @@ print(circle_area(circle))
 
 # Klasser og objekt {.activity}
 
-Me ynskjer å bruke __objekt__ i staden for ordbøker i dei neste spela våre. Me kan la eit `Circle`-objekt ha to variablar: `radius` og `color`. Ei __klasse__ er ein slags mal for eit objekt. Klassa fortel oss kva verdiar objektet kan ha. Me kan lage ei `Circle`-klasse, og så lage eit objekt av typen
-`Circle` som me kaller `circle` basert på klassa.
+Me ynskjer å bruke __objekt__ i staden for ordbøker i dei neste spela våre. Me
+kan la eit `Circle`-objekt ha to variablar: `radius` og `color`. Ei __klasse__
+er ein slags mal for eit objekt. Klassa fortel oss kva verdiar objektet kan ha.
+Me kan lage ei `Circle`-klasse, og så lage eit objekt av typen `Circle` som me
+kaller `circle` basert på klassa.
 
 Dette er enklere å forstå med eit døme:
 
@@ -135,6 +137,7 @@ print(circle_area(circle))
 
 ```
 </div>
+
 <div class="col-sm-6" >
 Klasser
 
@@ -158,7 +161,8 @@ print(circle.area())
 ```
 </div>
 
-Difor kjem me til å bruke klasser i dei neste oppgåvene - det er minst like enkelt som ordbøker, og ein kan gjere meir avanserte ting med klasser.
+Difor kjem me til å bruke klasser i dei neste oppgåvene - det er minst like
+enkelt som ordbøker, og ein kan gjere meir avanserte ting med klasser.
 
 
 # Frå ordbok til klasser {.activity}

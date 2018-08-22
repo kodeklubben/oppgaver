@@ -1,7 +1,6 @@
 ---
 title: Kalkulator
-level: 3
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -113,7 +112,7 @@ Slik:
 ## Flere utregninger {.challenge}
 
 - [ ] Endre programmet ditt slik at brukeren kan skrive inn hvor mange
-      utregninger kalkulatoren skal utføre. Programmet vil da fungere slik:
+  utregninger kalkulatoren skal utføre. Programmet vil da fungere slik:
 
 ![Bilde av hvordan programmet virker når brukeren kan velge antall
 utregninger](python_calculator_multiple_calculations.png)
@@ -121,8 +120,7 @@ utregninger](python_calculator_multiple_calculations.png)
 ## Flere operasjoner {.challenge}
 
 - [ ] Prøv å legge til flere operatorer. Du kan for eksempel legge til
-      `**`-operatoren. `**`-operatoren opphøyer et tall i et annet. F.eks. er
-      `2**3` lik `8` fordi `2*2*2` er lik `8`.
+  `**`-operatoren. `**`-operatoren opphøyer et tall i et annet. F.eks. er `2**3`
+  lik `8` fordi `2*2*2` er lik `8`.
 
 - [ ] Kommer du på andre operatorer som kan legges til i kalkulatoren din?
-

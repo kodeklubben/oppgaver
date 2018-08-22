@@ -1,7 +1,6 @@
 ---
 title: Kuprat
-author: 'Geir Arne Hjelle'
-level: 1
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -261,4 +260,3 @@ små endringer på utseendet til kua, for eksempel kan du forandre øynene (med
 
 Du kan også legge til flere forskjellige figurer i samme program, slik at det
 virker som om de snakker sammen. Prøv deg fram!
-

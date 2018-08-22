@@ -1,8 +1,7 @@
 ---
 title: Fargespill
-level: 3
-author: 'Oversatt fra usingpython.com'
-translator: 'Steffen Granberg'
+author: Oversatt fra usingpython.com
+translator: Steffen Granberg
 language: nb
 ---
 
@@ -16,7 +15,7 @@ få testet hjernen og skrivehastigheten. Vi skal lage et fargespill!
 ![Illustrasjon av et ferdig fargespill](fargespill.png)
 
 
-# Steg 1: Klargjør og importerer bilioteker{.activity}
+# Steg 1: Klargjør og importerer bilioteker {.activity}
 
 I dette spillet skal vi lage et grafisk brukergrensesnitt (et GUI). Til dette
 bruker vi et bibliotek som heter `tkinter`. Vi trenger også hjelp for å generere
@@ -34,7 +33,7 @@ tilfeldige tall.
   ```
 
 - [ ] Vi vil etterhvert bruke bokstaver som *æøå*. For å gjøre dette må vi legge
-      til noe øverst i koden vår. Gjør om koden din slik at den ser slik ut:
+  til noe øverst i koden vår. Gjør om koden din slik at den ser slik ut:
 
   ```python
   #!/usr/bin/python
@@ -61,8 +60,8 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
 ## Sjekkliste {.check}
 
 - [ ] Vi skal begynne med å lage hovedvinduet. Dette kaller vi `root` Vi
-      tilkaller funksjoner fra `tkinter` biblioteket for å hjelpe oss med dette.
-      Legg til dette nederst i koden:
+  tilkaller funksjoner fra `tkinter` biblioteket for å hjelpe oss med dette.
+  Legg til dette nederst i koden:
 
   ```python
   root = tkinter.Tk()
@@ -74,8 +73,8 @@ Nå skal vi begynne på GUI. Les kommentarene for å forstå hva som skjer.
   ```
 
 - [ ] Nå har vi laget hovedvinduet. La oss legge til noen felter med tekst. Vi
-      kommer tilbake til hva disse skal fylles med etterhvert, nå skal vi bare
-      definere områdene. Gjør om koden din slik at den ser ut som dette:
+  kommer tilbake til hva disse skal fylles med etterhvert, nå skal vi bare
+  definere områdene. Gjør om koden din slik at den ser ut som dette:
 
   ```python
   #!/usr/bin/python
@@ -129,8 +128,7 @@ disse feltene slik at de synes for oss, og hvor den skal tegne de.
 ## Sjekkliste {.check}
 
 - [ ] Vi skal nå få programmet vårt til å telle 30 sekunder. Vi lager en
-      funksjon `countdown()` som tar seg av dette. Legg til dette i programmet
-      ditt:
+  funksjon `countdown()` som tar seg av dette. Legg til dette i programmet ditt:
 
   ```python
   def countdown():
@@ -150,7 +148,7 @@ disse feltene slik at de synes for oss, og hvor den skal tegne de.
   ```
 
 - [ ] Denne funksjonen jobber på en global variabel `time_left`, vi må lage den.
-      Programmet ditt skal nå se slik ut:
+  Programmet ditt skal nå se slik ut:
 
   ```python
   #!/usr/bin/python
@@ -206,7 +204,7 @@ Nå må vi definere fargene som programmet skal bruke.
 ## Sjekkliste {.check}
 
 - [ ] Fargene legger vi til som en liste. Legg til denne koden under `from
-      random import randint`
+  random import randint`.
 
   ```python
   colours_eng = ['Red', 'Blue', 'Green', 'Pink', 'Black',
@@ -214,8 +212,8 @@ Nå må vi definere fargene som programmet skal bruke.
   ```
 
 - [ ] Siden vi vil at programmet vårt skal skrive ut de norske ordene, lager vi
-      en liste til, med de norske navnene. Legg til dette rett under den andre
-      listen.
+  en liste til, med de norske navnene. Legg til dette rett under den andre
+  listen.
 
   ```python
   colours = ['Rød', 'Blå', 'Grønn', 'Rosa', 'Svart',
@@ -223,21 +221,20 @@ Nå må vi definere fargene som programmet skal bruke.
   ```
 
 - [ ] Vi må også lage en variabel for å holde orden på hvor mange poeng
-      spilleren har. Samt en variabel for å holde nummeret på fargene som skal
-      vises. Disse settes til tilfeldig tall etterpå. Legg til disse over
-      `time_left`-variabelen.
+  spilleren har. Samt en variabel for å holde nummeret på fargene som skal
+  vises. Disse settes til tilfeldig tall etterpå. Legg til disse over
+  `time_left`-variabelen.
 
   ```python
   # Brukes til å velge tilfeldig farge
   colour = 0
   points = 0
-
   ```
 
 - [ ] Nå må vi lage funksjonen som genererer en tilfeldig farge og viser denne
-      til spilleren. Her er det mye som skjer, så vi skal ta det stegvis. Først
-      definerer vi funksjonen og legger til variablene. Legg denne funksjonen
-      over `countdown()`:
+  til spilleren. Her er det mye som skjer, så vi skal ta det stegvis. Først
+  definerer vi funksjonen og legger til variablene. Legg denne funksjonen over
+  `countdown()`:
 
   ```python
   def next_color():
@@ -247,7 +244,7 @@ Nå må vi definere fargene som programmet skal bruke.
   ```
 
 - [ ] Så skal vi sette tekstboxen brukeren kan skrive i aktiv hvis det er tid
-      igjen på klokka. Legg til denne inne i `next_color()`:
+  igjen på klokka. Legg til denne inne i `next_color()`:
 
   ```python
   if time_left > 0:
@@ -255,9 +252,8 @@ Nå må vi definere fargene som programmet skal bruke.
   ```
 
 - [ ] Så vil vi sammenligne det brukeren skriver inn i boxen med den norske
-      fargelisten vår. `.lower()` gjør om alt til små bokstaver, slik at man
-      ikke får feil om man skriver "Rød" i steden for "rød". Legg til dette
-      under:
+  fargelisten vår. `.lower()` gjør om alt til små bokstaver, slik at man ikke
+  får feil om man skriver "Rød" i steden for "rød". Legg til dette under:
 
   ```python
   # Hvis det spilleren skrev er riktig farge.
@@ -267,15 +263,15 @@ Nå må vi definere fargene som programmet skal bruke.
   ```
 
 - [ ] Nå vil vi slette det som brukeren skrev inn. Slik at alt er klart for
-      neste runde. Legg til dette under `points = points + 1`:
+  neste runde. Legg til dette under `points = points + 1`:
 
   ```python
   box.delete(0, tkinter.END)
   ```
 
 - [ ] Nå skal vi få tkinter til å displaye farge og tekst. Til dette bruker vi
-      `randint()` funksjonen. Den lager et tilfeldig tall mellom to
-      ytterpunkter. Lag denne under `box.delete(0, tkinter.END)`
+  `randint()` funksjonen. Den lager et tilfeldig tall mellom to ytterpunkter.
+  Lag denne under `box.delete(0, tkinter.END)`
 
   ```python
   # Lager tilfeldig tall mellom 0 og 8
@@ -286,7 +282,7 @@ Nå må vi definere fargene som programmet skal bruke.
   ```
 
 - [ ] Nå gjenstår det bare å vise teksten og fargen i vinduet. Vi oppdaterer
-      feltene, og legger til en poenglabel. Funksjonen skal nå se slik ut:
+  feltene, og legger til en poenglabel. Funksjonen skal nå se slik ut:
 
   ```python
   def next_color():
@@ -324,7 +320,7 @@ selve spilldelen. Det skal vi gjøre nå!
 ## Sjekkliste {.check}
 
 - [ ] Vi lager en funksjon som starter spillet. Legg til denne funksjonen i
-      programmet:
+  programmet:
 
   ```python
   def start_game(event):
@@ -334,7 +330,7 @@ selve spilldelen. Det skal vi gjøre nå!
   ```
 
 - [ ] Siste steg er å kjøre denne funksjonen når spilleren trykker *enter*. Legg
-      til dette rett over `root.mainloop`:
+  til dette rett over `root.mainloop`:
 
   ```python
   # Kjører funksjonen start_game() når enter trykkes
@@ -345,8 +341,8 @@ selve spilldelen. Det skal vi gjøre nå!
 
 - [ ] Programmet ditt skal nå se slik ut:
 
-  ```python #!/usr/bin/python # -*- coding: UTF-8 -*-
-
+  ```python
+  #!/usr/bin/python # -*- coding: UTF-8 -*-
   import tkinter
   from random import randint
 

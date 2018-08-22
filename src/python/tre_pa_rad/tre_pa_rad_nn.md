@@ -1,8 +1,7 @@
 ---
-title: 'Tre på rad'
-level: 3
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: Tre på rad
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -126,7 +125,6 @@ c.create_line(400, 0, 400, 600) # B til D
 
 c.create_line(0, 200, 600, 200) # M til O
 c.create_line(0, 400, 600, 400) # N til P
-
 ```
 
 Når me koder kallar me ofte bortover for `x`, medan nedover ofte kallast `y`.

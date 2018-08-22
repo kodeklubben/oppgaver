@@ -1,8 +1,7 @@
 ---
 title: Repetisjon
-level: 3
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -167,6 +166,7 @@ for i in range(3):
 ```
 
 Då får me ut:
+
 ```
 >>>
 Hello

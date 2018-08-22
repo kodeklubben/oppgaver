@@ -1,8 +1,7 @@
 ---
 title: Hugsespel
-level: 3
-author: 'Sindre O. Rasmussen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+author: Sindre O. Rasmussen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -139,7 +138,8 @@ orda frå kvarandre.
 
 **Test ut dømet for å sjå kva som skjer.**
 
-[funksjonen `split()`]: https://docs.python.org/3/library/stdtypes.html#str.split
+[funksjonen `split()`]:
+https://docs.python.org/3/library/stdtypes.html#str.split
 
 
 # Steg 3: Lag spelet {.activity}

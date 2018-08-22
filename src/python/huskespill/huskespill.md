@@ -1,7 +1,6 @@
 ---
 title: Huskespill
-level: 3
-author: 'Sindre O. Rasmussen, Kodeklubben Trondheim'
+author: Sindre O. Rasmussen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -32,7 +31,8 @@ tips som ligner på slik en bør løse steget.
 
 - [ ] Funksjonen skal returnere den utvidede lista.
 
-- [ ] **Før du går videre til steg 2, sjekk at funksjonen din fungerer som den skal.**
+- [ ] **Før du går videre til steg 2, sjekk at funksjonen din fungerer som den
+  skal.**
 
 ## Tips: Lister {.protip}
 
@@ -76,7 +76,9 @@ Prøv ut eksemplene for å forstå hvordan du kan bruke dem til å løse oppgave
 ## Tips: Velge et tilfeldig element i en liste {.protip}
 
 For å hente et tilfeldig element i en liste kan man bruke
+
 [`choice()`](https://docs.python.org/3.4/library/random.html#random.choice)
+
 i random-biblioteket.
 
 **Eksempel:**
@@ -101,7 +103,7 @@ Prøv å kjør denne koden mange ganger!
 - [ ] Funksjonen skal returnere listen.
 
 - [ ] Før du går videre til steg 3, sjekk at funksjonen din fungerer som den
-      skal.
+  skal.
 
 ## Tips: Hente innputt {.protip}
 
@@ -112,6 +114,7 @@ For å hente innputt og lagre det til en variabel kan vi bruke [`input()`].
 ```python
 tekst = input('Skriv noe')
 ```
+
 Det som brukeren skriver inn vil lagres i variabelen `tekst`.
 
 [`input()`]: https://docs.python.org/3.4/library/functions.html#input
@@ -144,12 +147,12 @@ skiller ordene fra hverandre.
 - [ ] Bruk funksjonene fra steg 1 og 2 til å lage programmet.
 
 - [ ] Programmet skal benytte to lister. En som utvides for hver runde, og en
-      som lages ved hjelp av ordene som brukeren skriver inn.
+  som lages ved hjelp av ordene som brukeren skriver inn.
 
 - [ ] Så lenge listene er like skal programmet kjøre.
 
 - [ ] Når programmet er ferdig, skriv ut hvor mange ord spilleren klarte å
-      huske.
+  huske.
 
 ## Sjekkliste for oppgaven {.check}
 
@@ -158,5 +161,4 @@ skiller ordene fra hverandre.
 - [ ] Får spilleren vite hvor mange han eller hun husket riktig?
 
 - [ ] Blir lista som skal huskes usynlig for spilleren? (Tips: Skriv ut tomrom
-      mange ganger.)
-
+  mange ganger.)

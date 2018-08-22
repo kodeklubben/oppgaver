@@ -1,8 +1,7 @@
 ---
-title: 'PGZ - Springande strekmann'
-level: 3
-author: 'Ole Andreas Ramsdal, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+title: PGZ - Springande strekmann
+author: Ole Andreas Ramsdal, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -134,8 +133,8 @@ Du skal du lage ein strekmann me kallar `stick_man`.
   stick_man.bottomleft = 50, HEIGHT
   ```
 
-   - For at koden skal køyre må du lagre biletet av strekmannen under som
-     `running_man.png` i mappa `images` der du har lagra `run_stickman.py`.
+  - For at koden skal køyre må du lagre biletet av strekmannen under som
+    `running_man.png` i mappa `images` der du har lagra `run_stickman.py`.
 
   ![Bilete av ein strekmann](running_man.png)
 
@@ -143,7 +142,8 @@ Du skal du lage ein strekmann me kallar `stick_man`.
 
   ![Bilete av mappestrukturen](mappestruktur.png)
 
-[`Actor` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
+[`Actor` (les meir)]:
+https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=actor#actor
 
 
 # Steg 4: Funksjonane draw() og update() {.activity}
@@ -152,9 +152,10 @@ Dei fleste spela i [Pygame Zero] har funksjonane [`draw()` (les meir)] og
 [`update()` (les meir)]. Draw-funksjonen syt for at spelvindauget blir teikna,
 og update-funksjonen gjer endringar i spelet før dei blir teikna med `draw()`.
 
-[Pygame Zero]: https://pygame-zero.readthedocs.org/
-[`draw()` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
-[`update()` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
+[Pygame Zero]: https://pygame-zero.readthedocs.org/ [`draw()` (les meir)]:
+https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=draw#draw
+[`update()` (les meir)]:
+https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=update#update
 
 ## Sjekkliste {.check}
 
@@ -278,8 +279,10 @@ No skal du gjere det mogleg for strekmannen å hoppe med mellomromtasten.
   jump_up.on_finished = back_down
   ```
 
-[`on_key_down()` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
-[`animate()` (les meir)]: https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
+[`on_key_down()` (les meir)]:
+https://pygame-zero.readthedocs.org/en/latest/hooks.html?highlight=on_key_down#on_key_down
+[`animate()` (les meir)]:
+https://pygame-zero.readthedocs.org/en/latest/builtins.html?highlight=rect#animations
 
 ## Tips {.protip}
 

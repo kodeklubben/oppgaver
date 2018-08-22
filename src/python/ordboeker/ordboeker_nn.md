@@ -1,8 +1,7 @@
 ---
-level: 3
 title: Ordbøker
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -61,7 +60,7 @@ Du kan opprette ei tom ordbok slik:
 ```
 
 **Merk:** Det er berre tekst og tal som kan brukast som nøklar, men verdiane kan
- vere kva som helst: strengar, tal, lister, ordbøker, funksjonar, osb.
+vere kva som helst: strengar, tal, lister, ordbøker, funksjonar, osb.
 
 
 # Prøv sjølv {.check}

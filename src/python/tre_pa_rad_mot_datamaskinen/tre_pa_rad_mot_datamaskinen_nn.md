@@ -1,8 +1,7 @@
 ---
-title: 'Tre på rad mot datamaskina'
-level: 3
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: Tre på rad mot datamaskina
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -186,8 +185,8 @@ ruter i denne lista, for så å spele ei slik rute.
   Du hugsar kanskje at me brukte `random.choice` i ei anna oppgåve om Hangman.
 
 - [ ] No skriv me ei prosedyre `play_move()` som kan spele i ei tilfeldig tom
-  rute. Legg til denne prosedyra etter `free_squares`, men før linja
-  `c.bind(...)`
+  rute. Legg til denne prosedyra etter `free_squares`, men før linja `
+  c.bind(...) `.
 
   ```python
   def play_move():
@@ -332,6 +331,7 @@ spelet let me datamaskina spele det.
 
       play_move()
   ```
+
   Alle stader me har `winner()` i koden byter me det ut med `winner(grid)`.
 
 - [ ] Køyr koden, den skal framleis virke akkurat som før, for me har framleis

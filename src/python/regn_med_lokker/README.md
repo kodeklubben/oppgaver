@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Regn med løkker
 author: Øistein Søvik
-level: 3
 language: nb
 ---
 
@@ -13,7 +12,7 @@ ganger, og i forlengelsen av det regne sammen summer av tallrekker.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, Programmering
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 8. trinn - VG3
 
@@ -24,32 +23,31 @@ __Tidsbruk__: Dobbelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon.
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon.
 
 - [ ] __Matematikk R2, VG3__: summere endelige rekker med og uten digitale
-       hjelpemidler, utlede og bruke formlene for summen av de n første leddene
-       i aritmetiske og geometriske rekker, og bruke dette til å løse praktiske
-       problemer
+  hjelpemidler, utlede og bruke formlene for summen av de n første leddene i
+  aritmetiske og geometriske rekker, og bruke dette til å løse praktiske
+  problemer
 
 - [ ] __MAtematikk S2, VG3__: finne mønstre i tallfølger og bruke dem til å
-      summere endelige aritmetiske og geometriske rekker og andre rekker, med og
-      uten digitale hjelpemidler
+  summere endelige aritmetiske og geometriske rekker og andre rekker, med og
+  uten digitale hjelpemidler
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan forklare hensikten med og implementere for-løkker.
 
 - [ ] Elevene kan bruke for-løkker til å finne summen av de n første leddene i
-       en aritmetisk rekke.
+  en aritmetisk rekke.
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-       oppgaven, for eksempel ved å gjøre en eller flere av variasjonene
-       nedenfor.
+  oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -69,7 +67,7 @@ oppgaven enda._
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan finne og printe andre tallmønster. For eksempel: partall,
-      oddetall, kvadrattall, Fibonacci-tall.
+  oddetall, kvadrattall, Fibonacci-tall.
 
 - [ ] Hvorfor går det ikke an å bruke løkker til å printe primtall?
 

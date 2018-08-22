@@ -1,8 +1,7 @@
 ---
-title: 'Rekne med løkker'
-level: 3
-author: 'Tjerand Silde'
-translator: 'Stein Olav Romslo'
+title: Rekne med løkker
+author: Tjerand Silde
+translator: Stein Olav Romslo
 language: nn
 ---
 
