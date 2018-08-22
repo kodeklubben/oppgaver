@@ -1,5 +1,5 @@
 ---
-title: Lærarrettleiing - Bruke data: Jente- og gutenamn
+title: "Lærarrettleiing - Bruke data: Jente- og gutenamn"
 level: 2
 language: nn
 author: Stein Olav Romslo
