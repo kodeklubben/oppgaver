@@ -1,8 +1,7 @@
 ---
 title: Skilpadder
-level: 1
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Bjørn Einar Bjartnes'
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Bjørn Einar Bjartnes
 language: nb
 ---
 
@@ -37,9 +36,8 @@ Python-kommandoer.
   ```
 
 - [ ] Lagre programmet ditt som myturtle.py og velg `Run -> Run Module`. Ser du
-      hvordan skilpadden beveget seg 100 punkter fremover på skjermen?
-      Skilpadden har en penn festet til seg, så den tegner linjer når den
-      beveger seg rundt.
+  hvordan skilpadden beveget seg 100 punkter fremover på skjermen? Skilpadden
+  har en penn festet til seg, så den tegner linjer når den beveger seg rundt.
 
 ### Tips {.protip}
 
@@ -48,11 +46,11 @@ Python-filer skal alltid ha filnavn som slutter med `.py`.
 ## Sjekkliste {.check}
 
 - [ ] La oss få skilpadden til å bevege seg rundt på skjermen! Forsøk å bruke
-      `backward(distance)` i tillegg til å snu den ved å bruke `right(angle)` og
-      `left(angle)`. Instruksjonen `backward(20)` forteller for eksempel
-      skilpadden at den skal bevege seg bakover 20 pixler, og `right(90)`
-      forteller den at den skal snu seg 90 grader til høyre. Du kan gi den mer
-      enn en instruksjon om gangen, de blir utført i rekkefølge.
+  `backward(distance)` i tillegg til å snu den ved å bruke `right(angle)` og
+  `left(angle)`. Instruksjonen `backward(20)` forteller for eksempel skilpadden
+  at den skal bevege seg bakover 20 pixler, og `right(90)` forteller den at den
+  skal snu seg 90 grader til høyre. Du kan gi den mer enn en instruksjon om
+  gangen, de blir utført i rekkefølge.
 
   ```python
   from turtle import *
@@ -115,8 +113,8 @@ alltid helt rundt.
 ### Hva gjør koden på starten av programmet vårt? {.protip}
 
 * `from turtle import *` forteller Python at vi vil bruke skilpadde-biblioteket
-  (turtle), en samling av kode vi kan bruke for å tegne på skjermen. Å bruke et
-  ferdig bibliotek gjør at vi kan spare tid og gjenbruke andres arbeid.
+(turtle), en samling av kode vi kan bruke for å tegne på skjermen. Å bruke et
+ferdig bibliotek gjør at vi kan spare tid og gjenbruke andres arbeid.
 
 * `speed()` bestemmer farten til skilpadden. Vi må gi inn en verdi mellom 1 og
   11, der 11 er det raskeste og 1 er det treigeste.
@@ -165,7 +163,7 @@ rundt.
   firkanten. Derfor snur vi 120 grader, deretter 120 grader og så en gang til.
 
 - [ ] Endre koden din til å se ut som koden under for å få den til å tegne en
-      trekant:
+  trekant:
 
   ```python
   from turtle import *
@@ -192,7 +190,7 @@ Du kan også endre størrelsen på pennen ved å bruke `pensize`:
 ## Sjekkliste {.check}
 
 - [ ] Endre koden fra eksemplet over til å se ut som det neste eksemplet, ved å
-      legge til disse nye kommandoene:
+  legge til disse nye kommandoene:
 
   ```python
   from turtle import *
@@ -213,13 +211,13 @@ Du kan også endre størrelsen på pennen ved å bruke `pensize`:
   ```
 
 - [ ] Kjør koden din, hva tegner den på skjermen? Denne koden tegner en tykk
-      trekant i tre forskjellige farver.
+  trekant i tre forskjellige farver.
 
 - [ ] Forsøk å endre fargene i koden din, kjør den og se hva som skjer.
-      Skilpadden kan mange hundre forskjellige farger, ikke bare blå, rød og
-      grønn. Forsøk med din yndlingsfarge! Du kan også bruke farger i __hex__,
-      som du kanskje har gjort med CSS før. Istedenfor å bruke `pencolor("red")`
-      kan du bruke hex `pencolor("#FF0000")`. Hvilken farge er #FF4F00?
+  Skilpadden kan mange hundre forskjellige farger, ikke bare blå, rød og grønn.
+  Forsøk med din yndlingsfarge! Du kan også bruke farger i __hex__, som du
+  kanskje har gjort med CSS før. Istedenfor å bruke `pencolor("red")` kan du
+  bruke hex `pencolor("#FF0000")`. Hvilken farge er #FF4F00?
 
 
 # Steg 3: Gjenta deg selv (med en for-løkke) {.activity}
@@ -244,7 +242,6 @@ firkant har 4 sider.
   for count in range(4):
       forward(100)
       right(90)
-
   ```
 
 - [ ] Lagre programmet og velg: Run -> Run module.
@@ -255,7 +252,7 @@ firkant har 4 sider.
   bruke Shift-Tab til å ta dem bort.
 
 - [ ] La oss se hva som skjer hvis vi bare indenterer (skyver inn) `forward`.
-      Gjør om programmet ditt så det ser ut som dette:
+  Gjør om programmet ditt så det ser ut som dette:
 
   ```python
   from turtle import *
@@ -269,7 +266,7 @@ firkant har 4 sider.
   ```
 
 - [ ] Legg merke til at `forward` er indendert og `right` ikke er det. Hva tror
-      du dette programmet gjør? Forsøk å kjøre det og finn det ut.
+  du dette programmet gjør? Forsøk å kjøre det og finn det ut.
 
   Fikk du en rett linje? Python vil gjenta `forward` fire ganger, og deretter
   snu til høyre. Python bruker mellomrom for å gruppere kommandoer sammen,
@@ -277,8 +274,8 @@ firkant har 4 sider.
   mellomrommene riktig.
 
 - [ ] La oss endre programmet tilbake slik at det lager en firkant igjen, men
-      istedenfor å bruke tall i koden skal vi gi tallene navn. Dette gjør det
-      lettere å se hva programmet gjør, og gjør at vi slipper å gjenta oss selv.
+  istedenfor å bruke tall i koden skal vi gi tallene navn. Dette gjør det
+  lettere å se hva programmet gjør, og gjør at vi slipper å gjenta oss selv.
 
   Endre filen så den ser slik ut:
 
@@ -347,7 +344,7 @@ multiplikasjon bruker Python `*`, og for divisjon skriver vi `/`. Hvis vi må sn
   ```
 
 - [ ] Nå kan du endre antall sider, klarer Python å gjøre jobben riktig? Prøv
-med så mange kanter du vil!
+  med så mange kanter du vil!
 
 
 # Steg 5: Fylte figurer {.activity}
@@ -355,8 +352,7 @@ med så mange kanter du vil!
 ## Sjekkliste {.check}
 
 - [ ] Vi kan be skilpadden om å fylle figurene med en farge ved å bruke
-      `begin_fill()` og `end_fill()`. Endre koden din til å bruke disse
-      kommandoene:
+  `begin_fill()` og `end_fill()`. Endre koden din til å bruke disse kommandoene:
 
   ```python
   from turtle import *
@@ -385,7 +381,8 @@ med så mange kanter du vil!
   Du kan bruke `begin_fill()` for å fortelle skilpadden at den skal fargelegge
   figuren du tegner, og si `end_fill()` for å si at du er ferdig.
 
-- [ ] Forsøk å endre fargene, sidene og lengdene og se hvilke figurer du kan tegne!
+- [ ] Forsøk å endre fargene, sidene og lengdene og se hvilke figurer du kan
+  tegne!
 
 
 # Steg 6: Pennen går opp, pennen går ned {.activity}

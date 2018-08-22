@@ -1,8 +1,7 @@
 ---
-title: 'HTML: Introduksjon til Web'
-level: 1
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: "HTML: Introduksjon til Web"
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -29,9 +28,9 @@ Viss du ikkje får til å pakke ut fila kan du laste ned programmet
 
 ## Aktiviteter {.check}
 
-- [ ] Åpne ein **teksteditor**, til dømes teksteditoren
-      [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller
-      [NotePad++](https://notepad-plus-plus.org/).
+- [ ] Åpne ein **teksteditor**, til dømes teksteditoren [Atom](http://atom.io),
+  [Brackets](http://brackets.io/), NotePad eller
+  [NotePad++](https://notepad-plus-plus.org/).
 
 - [ ] Lag eit nytt dokument.
 
@@ -216,6 +215,6 @@ Det finst nokre taggar me alltid må ha med i HTML-dokument:
   at du må byte mellom nettlesaren og teksteditoren. Kult, ikkje sant? Oppdater
   sida. Kva skjedde?
 
-  Når du redigerer kode på denne måten blir det ikkje lagra,
-  så du kan teste kva som skjer utan å øydeleggje fila. Slik kan du
-  eksperimentere mykje, men alltid ha moglegheita til å gå attende.
+  Når du redigerer kode på denne måten blir det ikkje lagra, så du kan teste kva
+  som skjer utan å øydeleggje fila. Slik kan du eksperimentere mykje, men alltid
+  ha moglegheita til å gå attende.

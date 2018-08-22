@@ -1,8 +1,7 @@
 ---
 title: "Python: Bevegelser"
-level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/gestures.html)"
-translator: "Øistein Søvik"
+translator: Øistein Søvik
 language: nb
 ---
 
@@ -108,13 +107,13 @@ til og alltid være positivt eller negativt.
 ## Sjekkliste {.check}
 
 - [ ] Skriv om koden slik at ved å trykke på `A` mens den ristes vises ett
-      *positivt* resultat.
+  *positivt* resultat.
 
 - [ ] Skriv om koden slik at ved å trykke på `B` mens den ristes vises ett
-      *negativ* resultat.
+  *negativ* resultat.
 
 - [ ] Skriv om koden slik at ved å trykke både på `A` **og** `B` vises ett
-      nøytralt resultat.
+  nøytralt resultat.
 
 Merk at koden skal fortsatt virke som før om ingen knapper trykkes, med andre
 ord dersom enheten bare ristes skal den vise et tilfeldig resultat.

@@ -1,8 +1,7 @@
 ---
-title: 'CSS: Skjul ninjaane'
-level: 3
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: "CSS: Skjul ninjaane"
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -50,13 +49,13 @@ Når `position`-eigenskapane er sett til `absolute` meiner me at det beskriv
 posisjonen samanlikna med foreldreelementet til ninjaen - her er det `<div>` med
 `id` `gatehjoerne`.
 
-`px` betyr `pixel` (punkter). `left` beskriv kor langt frå venstrekanten
-ninjaen skal plasserast (antal pikslar) og `top` forteller nettleseren hvor langt
+`px` betyr `pixel` (punkter). `left` beskriv kor langt frå venstrekanten ninjaen
+skal plasserast (antal pikslar) og `top` forteller nettleseren hvor langt
 ninjaan skal flyttes ned fra toppen.
 
 - [ ] Endre `left` til `right` og `top` til `bottom`. Nå vil koden fortelle
-      nettleseren at den skal plassere ninjaan `100px` fra den høyre kanten og
-      `320px` fra bunnen.
+  nettleseren at den skal plassere ninjaan `100px` fra den høyre kanten og
+  `320px` fra bunnen.
 
 Pixel er en måleenhet som vi bruker til å forklare hvor stort et element skal
 være eller hvor det skal plasseres på siden. Hvis du endrar `right` frå `100px`
@@ -149,7 +148,7 @@ __Døme:__
 - [ ] Bytt tilbake og førebu deg på redde ninjaane!
 
 
-# Steg 5: Fort deg, skjul ninjaane!  {.activity}
+# Steg 5: Fort deg, skjul ninjaane! {.activity}
 
 - [ ] Sjå gjennom koden, finn ut kva element du kan gøyme ninjaane bak.
 
@@ -272,7 +271,8 @@ __LYKKE TIL!__
    /* Andre objekt (du kan ikkje flytte desse) */
 
  </style>
-<style id="jsbin-css"></style></head>
+<style id="jsbin-css"></style>
+</head>
 <body>
  <div id="gatehjorne">
 

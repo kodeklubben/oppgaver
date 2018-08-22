@@ -1,7 +1,6 @@
 ---
-title: 'HTML: Lenk sammen nettsider'
-author: 'Lars Klingenberg'
-level: 3
+title: "HTML: Lenk sammen nettsider"
+author: Lars Klingenberg
 language: nb
 ---
 
@@ -20,7 +19,7 @@ oppgaven skal vi gjøre det samme bare at alle sidene skal lenke til hverandre.
 - [ ] Lag 3 nye HTML-sider eller bruk 3 sider fra de tidligere oppgaven
 
 - [ ] Lenk den først siden til de 2 andre sidene (Husk: sidene bør ligge i
-      sammen mappe
+  sammen mappe
 
 - [ ] Lagre og prøv ut kommer deg fra den første siden til de 2 andre sidene.
 
@@ -45,7 +44,6 @@ Dersom du bruker [`<nav>`-taggen](http://www.w3schools.com/tags/tag_nav.asp) fra
 oppgave [“Del inn nettsiden"](../del_inn_nettsiden/del_inn_nettsiden.html), så
 kan du legge lenkene inne i `<nav>`-taggen.
 
-
 <toggle>
  <strong>Hint 2</strong>
  <hide>
@@ -62,7 +60,7 @@ kan du legge lenkene inne i `<nav>`-taggen.
 </toggle>
 
 - [ ] Nå skal du lenke sammen de 2 andre sidene med hverandre og med den første
-      siden sånn at alle sidene linker til hverandre.
+  siden sånn at alle sidene linker til hverandre.
 
 __Bra jobba!__ Nå har du 3 sider som er lenkeT til hverandre.
 
@@ -91,4 +89,3 @@ hvordan vi delte inn nettsiden ved hjelp av `<div>`- og `<nav>`-tagger.
 Bruk gjerne [w3schools](http://www.w3schools.com/) for å få enda mer hjelp eller
 lese mer om HTML-tagger. Dersom det er vanskelig språk så spør du en voksen,
 lærere eller veileder.
-

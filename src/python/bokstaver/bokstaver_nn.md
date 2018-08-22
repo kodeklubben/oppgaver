@@ -1,8 +1,7 @@
 ---
 title: Bokstavar
-level: 1
-author: 'Tjerand Silde'
-translator: 'Stein Olav Romslo'
+author: Tjerand Silde
+translator: Stein Olav Romslo
 language: nn
 ---
 

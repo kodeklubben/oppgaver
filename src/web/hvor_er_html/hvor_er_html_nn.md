@@ -1,8 +1,7 @@
 ---
-title: 'Kor er HTML? Eg ser den ikkje!'
-level: 1
-author: 'Teodor Heggelund'
-translator: 'Stein Olav Romslo'
+title: "Kor er HTML? Eg ser den ikkje!"
+author: Teodor Heggelund
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -131,7 +130,7 @@ noko med det og fjerne alt som er framfor det kurset!
 - [ ] Fjern elementet som inneheldt alle kursa:
 
   ```html
-  <div class="courses">
+  <div class="courses"> ... </div>
   ```
 
   ![Bilete av at elementet som inneheldt alle kursa er markert](class_courses.png)

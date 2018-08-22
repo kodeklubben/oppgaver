@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Bokstaver
 author: Øistein Søvik
-level: 1
 language: nb
 ---
 
@@ -26,35 +25,35 @@ __Tidsbruk__: Enkelttime
 - [ ] __kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
 
 - [ ] __kunst og håndtverk, 2. trinn__: eksperimentere med enkle geometriske
-       former i konstruksjon og som dekorative formelementer
+  former i konstruksjon og som dekorative formelementer
 
 - [ ] __Matematikk, 2. trinn__: gjennkjenne og beskrive trekk ved enkle to- og
-       tredimensjonale figurer i forbindelse med hjørner, kanter og flater, og
-       sortere og sette navn på figurene etter disse trekkene
+  tredimensjonale figurer i forbindelse med hjørner, kanter og flater, og
+  sortere og sette navn på figurene etter disse trekkene
 
 - [ ] __Matematikk, 10. trinn__: bruke koordinater til å avbilde figurer og
-       utforske egenskaper ved geometriske former, med og uten digitale verktøy
+  utforske egenskaper ved geometriske former, med og uten digitale verktøy
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke matematiske begreper til å beskrive 2 og 3-dimensjonale
-       figuer.
+  figuer.
 
 - [ ] Elevene kan bruke koordinater til å konstruere 2 og 3-dimensjonale
-       figurer.
+  figurer.
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på
-       oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ]  __Forutsetninger__: Ingen.
+- [ ] __Forutsetninger__: Ingen.
 
-- [ ]  __Utstyr__: Datamaskin med Python installert.
+- [ ] __Utstyr__: Datamaskin med Python installert.
 
 ## Fremgangsmåte
 
@@ -81,14 +80,13 @@ eller lese
 
 ## Variasjoner {.challenge}
 
- - [ ] Skrive fornavn og etternavn under hverandre.
+- [ ] Skrive fornavn og etternavn under hverandre.
 
- - [ ] Lage funksjoner som skriver hver bokstav, slik at man slipper repetisjon
-       av kode ved gjentagelser av bokstaver.
+- [ ] Lage funksjoner som skriver hver bokstav, slik at man slipper repetisjon
+  av kode ved gjentagelser av bokstaver.
 
- - [ ] Fylle bokstavene med ulike farger.
+- [ ] Fylle bokstavene med ulike farger.
 
 ## Eksterne ressurser {.challenge}
 
- - [ ] Foreløpig ingen eksterne ressurser ...
-
+- [ ] Foreløpig ingen eksterne ressurser ...

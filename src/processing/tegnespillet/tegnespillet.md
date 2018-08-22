@@ -1,7 +1,6 @@
 ---
 title: Tegnespillet
-level: 1
-author: 'Kine Gjerstad Eide og Ruben Gjerstad Eide'
+author: Kine Gjerstad Eide og Ruben Gjerstad Eide
 language: nb
 ---
 
@@ -39,31 +38,31 @@ void setup(){
 ```
 
 - [ ] Nå kan du starte programmet med å trykke `CTRL` + `R`, eller trykke `play`
-      pilen øverst.
+  pilen øverst.
 
 - [ ] Lagre programmet med å trykke `CTRL` + `S`, eller med å trykke `File`, så
-      `Save` i menyen øverst.
+  `Save` i menyen øverst.
 
 ### Tips: Hvordan skrive krøllparenteser { } {.protip}
 
-Her er en oversikt over hvordan man skriver tegn som ofte brukes
-i Processing og andre programmeringsspråk.
+Her er en oversikt over hvordan man skriver tegn som ofte brukes i Processing og
+andre programmeringsspråk.
 
-| Tegn | Windows/Linux          | Mac                         |
-|:----:| ---------------------- | --------------------------- |
-| ;    | Shift + ,              | Shift + ,                   |
-| "    | Shift + 2              | Shift + 2                   |
-| \'   | \' (til høyre for Æ)   | \' (til venstre for 1)      |
-| \|   | \| (til venstre for 1) | Alt + 7                     |
-| \&   | Shift + 6              | Shift + 6                   |
-| +    | + (til høyre for 0)    | + (til høyre for 0)         |
-| -    | - (til høyre for .)    | - (til høyre for .)         |
-| *    | Shift + '              | Shift + @ (til høyre for Æ) |
-| /    | Shift + 7              | Shift + 7                   |
-| \[   | Alt Gr + 8             | Alt + 8                     |
-| \]   | Alt Gr + 9             | Alt + 9                     |
-| {    | Alt Gr + 7             | Shift + Alt + 8             |
-| }    | Alt Gr + 0             | Shift + Alt + 9             |
+ | Tegn  | Windows/Linux            | Mac                           |
+ |:-----:| ------------------------ | ----------------------------- |
+ |  `;`  | `shift + ,`              | `shift + ,`                   |
+ |  `"`  | `shift + 2`              | `shift + 2`                   |
+ |  `\'` | `\'` (til høyre for Æ)   | `\'` (til venstre for 1)      |
+ |  `\|` | `\|` (til venstre for 1) | `alt + 7`                     |
+ |  `\&` | `shift + 6`              | `shift + 6`                   |
+ |  `+`  | `+` (til høyre for 0)    | `+` (til høyre for 0)         |
+ |  `-`  | `-` (til høyre for .)    | `-` (til høyre for .)         |
+ |  `*`  | `shift + '`              | `shift + @` (til høyre for Æ) |
+ |  `/`  | `shift + 7`              | `shift + 7`                   |
+ |  `\[` | `alt gr + 8`             | `alt + 8`                     |
+ |  `\]` | `alt gr + 9`             | `alt + 9`                     |
+ |  `{`  | `alt gr + 7`             | `shift + alt + 8`             |
+ |  `}`  | `alt gr + 0`             | `shift + alt + 9`             |
 
 ## Prøv dette: {.check}
 
@@ -72,7 +71,7 @@ i Processing og andre programmeringsspråk.
 - [ ] Se hva som skjer dersom du endrer ett av tallene til `255`.
 
 - [ ] Hva skjer når du setter tallet til å være høyere enn `255` eller lavere
-      enn `0`?
+  enn `0`?
 
 - [ ] Forsøk å endre størrelsen på vinduet ved endre på tallene i `size`.
 
@@ -99,8 +98,8 @@ Lurer du på hvordan koden du har skrevet fungerer?
   255)` så blir det hvitt. De forskjellige tallene står for `background(RØD,
   GRØNN, BLÅ)` og når vi endrer verdiene her, så blander vi fargene.
 
--    På linje 1 og 4 har vi `{` og `}` disse krøllparentesene åpner og lukker
-     metoden. Metoden inneholder all kode vi skriver mellom disse.
+- På linje 1 og 4 har vi `{` og `}` disse krøllparentesene åpner og lukker
+  metoden. Metoden inneholder all kode vi skriver mellom disse.
 
 Slik skal koden din se ut så langt, husk at tallene inni parentesene ikke
 nødvendigvis er like de du har, det betyr bare at du har annen størrelse på
@@ -129,7 +128,7 @@ void draw(){
 ```
 
 - [ ] Start programmet og se at det kjører. Det skal ikke skje noe nytt, men
-      dersom programmet ikke kjører, så har du skrivefeil i den nye koden.
+  dersom programmet ikke kjører, så har du skrivefeil i den nye koden.
 
 - [ ] Skriv denne koden inn i `draw`-metoden for å få noe å tegne med!
 
@@ -143,14 +142,14 @@ void draw(){
 ## Prøv dette: {.check}
 
 - [ ] Bytt fargen du tegner med, det gjør du ved å endre tallene inni `fill(100,
-      100, 255);`.
+  100, 255);`.
 
 - [ ] Se om du får til å tegne grønt.
 
 - [ ] Se om du får til å tegne blått.
 
 - [ ] Bytt ut det første `50` tallet med `200` som står i parentesen bak
-      `ellipse` og se hva som skjer.
+  `ellipse` og se hva som skjer.
 
 - [ ] Kan du få `ellipse` til å bli like høy som vinduet ditt?
 
@@ -172,15 +171,15 @@ finne nøyaktig samme farge og størrelse, men en som ligner er godt nok!
 Lurer du på hvordan koden du har skrevet fungerer?
 
 - `void draw(){` er en ny metode, slik som `void setup(){`, men med nytt navn og
-   nytt innhold.
+  nytt innhold.
 
 - ellipse betyr at du lager en sirkel, og `mouseX, mouseY` bestemmer at den skal
   følge etter musepekeren når du flytter på datamusa. Tallene `50, 50` bestemmer
   størrelsen til sirkelen.
 
--    `fill(100, 100, 255);` bestemmer hvilke farge sirkelen skal ha, her er det
-    likt som før, der de står for `(RØD, GRØNN, BLÅ)` og kan blandes slik som du
-    har prøvd før.
+- `fill(100, 100, 255);` bestemmer hvilke farge sirkelen skal ha, her er det
+  likt som før, der de står for `(RØD, GRØNN, BLÅ)` og kan blandes slik som du
+  har prøvd før.
 
 Til sist har vi lagt til et bilde av hele koden vår, så kan du se om din kode
 ligner på den vi har. Husk at tallene inni parentesene sikkert er litt

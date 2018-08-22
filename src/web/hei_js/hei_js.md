@@ -1,7 +1,6 @@
 ---
-title: 'JS: Hei JavaScript!'
-level: 1
-author: 'Arve Seljebu'
+title: "JS: Hei JavaScript!"
+author: Arve Seljebu
 language: nb
 ---
 
@@ -17,11 +16,10 @@ skal gjøre den klassiske oppgaven *Hei verden*, med en katt.
 # Steg 1: Bruke JS Bin {.activity}
 
 Du skal bruke en nettside som heter *JS Bin* for denne oppgaven. JS Bin er en
-nettside som lar deg programmere JavaScript. Vi kunne også brukt nettleseren
-din direkte, men i JS Bin blir stegene lik for alle, uansett om du bruker
-Internet Explorer, Mozilla Firefox, Chrome, Opera, Safari eller en annen
-nettleser. I tillegg er det med JS Bin mulig å gjøre denne oppgaven på
-nettbrett.
+nettside som lar deg programmere JavaScript. Vi kunne også brukt nettleseren din
+direkte, men i JS Bin blir stegene lik for alle, uansett om du bruker Internet
+Explorer, Mozilla Firefox, Chrome, Opera, Safari eller en annen nettleser. I
+tillegg er det med JS Bin mulig å gjøre denne oppgaven på nettbrett.
 
 ## Tips {.tip}
 
@@ -30,7 +28,7 @@ Her er flere måter å kjøre JavaScript-kode på:
 + Lagre en `.js`-fil i din favoritt teksteditor og åpne den i en nettleser
 
 + Skrive kode mellom `<script> </script>` i `<body>` eller `<head>` i en
-  HTML-fil,  og åpne den i en nettleser
+  HTML-fil, og åpne den i en nettleser
 
 + I `<head>`, skrive `<script src="fil_navn.js"></script>`
 
@@ -66,7 +64,7 @@ Her er en forklaring til koden over:
 - `.log` er en av flere utskriftsmetoder. Prøv `console.error`, ser du hva
   forskjellen til `console.log` er?
 
-- Tekst som skrives ut til konsollen ligger  mellom `"`, slik som `"hei verden"`.
+- Tekst som skrives ut til konsollen ligger mellom `"`, slik som `"hei verden"`.
 
 - `;` betyr at kodesetningen er ferdig.
 
@@ -119,7 +117,6 @@ hete `hei`, ta i mot et `navn` og skrive navnet til konsollen.
 - [ ] Trykk **Ctrl** + **Enter** for å kjøre koden
 
 - [ ] Ser du både `"Emma"` og `"Jens"` i konsollen?
-
 
 Koden til nå:
 
@@ -219,7 +216,8 @@ venner? La oss lage en personlig hilsen til hver av de.
 - [ ] Legg merke til at du nå fikk et tall i adressen. Tallet er versjonen til
   programmet ditt.
 
-  **Versjon 9:** <img height="25" src="versjon.png" alt="Bilde av versjonsnummeret" title="Versjon 9">
+  **Versjon 9:** <img height="25" src="versjon.png" alt="Bilde av
+  versjonsnummeret" title="Versjon 9">
 
   Hver gang du endrer programmet og trykker **Ctrl** + **s** får programmet en
   ny versjon. Slik kan du lagre flere varianter av samme program, med
@@ -235,8 +233,8 @@ venner? La oss lage en personlig hilsen til hver av de.
 
 - [ ] Gjenta stegene for flere av vennene dine
 
-- [ ] Hvis du senere ønsker å åpne prosjektet, kan du ta vare på en av lenkene du
-  sendte til vennene dine.
+- [ ] Hvis du senere ønsker å åpne prosjektet, kan du ta vare på en av lenkene
+  du sendte til vennene dine.
 
 ## En annen måte å dele programmet {.tip}
 
@@ -307,12 +305,12 @@ gjøre det.
 - [ ] Når filen er lastet ned, åpne filen
 
 - [ ] Du får et tomt vindu opp, utskriften av katten blir sendt til konsoll. La
-      oss åpne konsollen i din nettleser
+  oss åpne konsollen i din nettleser
 
 - [ ] **Chrome og Firefox:** Trykk på knappen **F12**. Velg **Console**
 
 - [ ] **Internet Explorer og Microsoft Edge:** Trykk på knappen **F12**. Velg
-      **Konsoll**
+  **Konsoll**
 
 - [ ] I konsollen skal du se katten mjaue til deg.
 

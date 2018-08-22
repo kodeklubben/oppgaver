@@ -1,8 +1,7 @@
 ---
 title: Mattespel
-author: 'Geir Arne Hjelle'
-translator: 'Stein Olav Romslo'
-level: 2
+author: Geir Arne Hjelle
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -182,7 +181,7 @@ progam!
   Når me brukar `input` til å lese inn `svar` vil det alltid vere tekst, sjølv
   om me berre skriv inn tal. På same måte som me kan gjere om tal til tekst med
   `str` kan me bruke `int` for å gjere om tekst til tal (hugs at `int` er ei
-  forkorting for *integer*  som tyder heiltal).
+  forkorting for *integer* som tyder heiltal).
 
   Endre `if`-linja i programmet ditt til
 

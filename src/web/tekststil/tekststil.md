@@ -1,7 +1,6 @@
 ---
-title: 'CSS: Endre utseende og stil på tekst'
-author: 'Arve Seljebu'
-level: 2
+title: "CSS: Endre utseende og stil på tekst"
+author: Arve Seljebu
 language: nb
 ---
 
@@ -60,8 +59,8 @@ nettsider](../style_nettsider/style_nettsider.html), så kan du hente koden ved 
 kopiere den nederst i *CSS: Style nettsider*-oppgaven.
 
 - [ ] Legg til `font-family` med en font du ønsker på overskriften på nettsiden
-      din. Under har vi brukt fonten `impact` med `sans-serif`-stil, du kan godt
-      velge en annen.
+  din. Under har vi brukt fonten `impact` med `sans-serif`-stil, du kan godt
+  velge en annen.
 
 __Merk!__ i CSS-en har vi `font-family: font, skriftstil`. Altså har vi navnet
 på fonten, etterfulgt av hvilken stil vi vil at den skal være, `sans-serif`
@@ -114,7 +113,6 @@ Du kan også lage teksten i __fet__, *kursiv* eller begge deler ved hjelp av
 font-stilegenskaper. La oss forandre epostteksten (husk at den finner vi inne i
 a-taggen).
 
-
 ```css
 a {
   font-weight: bold;
@@ -134,7 +132,7 @@ a {
 ## __Lagre__ og __se__ det i nettleseren. {.save}
 
 - [ ] Det er også en font-stil-verdi (`font-style`) som heter ‘oblique’. Hvordan
-      ser den ut?
+  ser den ut?
 
 Vi kan til og med bestemme hvor fet skriften skal være ved å bruke egenskapen
 `font-weight`. Den bruker verdier som `normal`, `bold`, `bolder`, `lighter`. Du
@@ -177,8 +175,7 @@ ha.
 ## __Lagre__ og __se__ det i nettleseren. {.save}
 
 - [ ] Prøv å forandre farge på rammen (her kan du godt bruke heksadesimaler som
-      vi brukte i [CSS: Style
-      nettsider](../style_nettsider/style_nettsider.html))
+  vi brukte i [CSS: Style nettsider](../style_nettsider/style_nettsider.html))
 
 - [ ] Prøv å forandre bredden på rammen
 
@@ -189,7 +186,7 @@ __Fant du en stil du liker?__
 ## Ting å prøve ut {.challenge}
 
 - [ ] Du kan sette på kantlinjer på alle slags elementer. Prøv å sett kantlinjer
-      på de andre elementene på siden din.
+  på de andre elementene på siden din.
 
 
 # Step 3: IDer og klasser {.activity}
@@ -208,6 +205,7 @@ ser slik ut:
 - [ ] La oss gjøre den __uthevet__ og sette en farge på teksten.
 
 Ved å sette stil på en `ID` bruker vi `#` foran ID-navnet i CSS-en:
+
 ```css
 #uthevet {
   font-weight: bold;
@@ -224,7 +222,7 @@ måte som å sette en `ID` bare at vi bruker `class`.
 
 ```html
 <p class="stor">Han forvant fra hagen i går.</p>
-<p class="stor"><strong>Takk!</strong><p>
+<p class="stor"><strong>Takk!</strong></p>
 ```
 
 Deretter setter vi stilen slik at tekten er større for alle paragrafer med
@@ -246,16 +244,16 @@ Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html).
 ## Ting du kan prøve: {.challenge}
 
 - [ ] Hvordan vil du endre siden for å få den til å se bedre ut? Hvorfor ikke
-      prøve å bruke din favorittskrifttype, farge, osv? Bruk gjerne
-      [w3schools.com/css](http://www.w3schools.com/css/) for å utforske CSS-ens
-      verden.
+  prøve å bruke din favorittskrifttype, farge, osv? Bruk gjerne
+  [w3schools.com/css](http://www.w3schools.com/css/) for å utforske CSS-ens
+  verden.
 
 - [ ] Hvis du er tidlig ferdig. Gå tilbake og legg på en stil i HTML dokumentet
-      fra forrige leksjon.
+  fra forrige leksjon.
 
 - [ ] Forresten, visste du at egenskapene for bakgrunn, ikke bare lar deg endre
-      farger, men også legge til et bilde? ([Hint: w3schools.com/css -
-      background-image](http://www.w3schools.com/cssref/pr_background-image.asp))
+  farger, men også legge til et bilde? ([Hint: w3schools.com/css -
+  background-image](http://www.w3schools.com/cssref/pr_background-image.asp))
 
 
 # Eksempel på hvordan det kan se ut {.activity}
@@ -338,7 +336,7 @@ Del inn nettsiden](../del_inn_nettsiden/del_inn_nettsiden.html).
     <p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
     <p class="stor">Han forvant fra hagen i går.</p>
     <p id="uthevet">Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
-    <p class="stor">Takk!<p>
+    <p class="stor">Takk!</p>
 </body>
 </html>
 ```

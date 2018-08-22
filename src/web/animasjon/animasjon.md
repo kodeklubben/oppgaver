@@ -1,7 +1,6 @@
 ---
-title: 'CSS: Animasjon'
-author: 'Lars Klingenberg'
-level: 2
+title: "CSS: Animasjon"
+author: Lars Klingenberg
 language: nb
 ---
 
@@ -27,7 +26,6 @@ Animasjon i CSS er ganske enkelt, i utgangspunktet har animasjonen 2 stadier:
 `start` og `slutt`. Mellom `start` og `slutt` kan du legge inn forskjellige
 faser, som vi skal se på litt senere. Animasjonen vil heller ikke gå i `loop`
 (altså gjenta seg selv) med mindre du forteller at den skal gjøre det.
-
 
 Før vi skal se på et enkelt eksempel skal vi se på `animation`-attributter. Vi
 skal bruke disse:
@@ -79,8 +77,8 @@ Her er et enkelt eksempel på en boks som går fra venstre til høyre:
 </style>
 
 <div id="boks"></div>
-<br>
 
+<br>
 
 ```html
 <!DOCTYPE html>
@@ -158,7 +156,7 @@ men det er da litt vanskeligere å finne ut hva som er hva:
 ## Utfordring {.challenge}
 
 - [ ] Skriv koden inn i din favoritt teksteditor, lagre det som en `.html`-fil
-      og gjør oppgavene under.
+  og gjør oppgavene under.
 
 - [ ] Få animasjonen til å bytte farge fra blå til rød underveis.
 
@@ -173,6 +171,7 @@ La oss nå se nærmere på `@keyframes`. `@keyframes` er CSS som forteller hvilk
 steg en animasjon består av.
 
 Her kommer noen eksempler:
+
 <style>
     #diagonalt {
         height: 50px;
@@ -236,7 +235,6 @@ Dette eksempelet får et objekt til å gå diagonalt siden det starter på `top:
 
 Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
 
-
 <style>
     #skifte_farge {
         height: 50px;
@@ -253,6 +251,7 @@ Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
 </style>
 
 <div id="skifte_farge"></div>
+
 <br>
 
 ```css
@@ -313,18 +312,17 @@ Nå skal vi få `pickaxe`-en til å fly. Vi begynner med å beskrive animasjonen
 - [ ] Lag en `@keyframes` med animasjonsnavnet `move-pickaxe`.
 
 - [ ] La figuren starte utenfor skjermen. **Hint:** bruk en negativ verdi av
-      `left`.
+  `left`.
 
 - [ ] La `pickaxe`-bildet bevege seg bort til blokkene. Klarer du å finne ut
-      hvor langt det er? **Hint:** positiv verdi av `left`.
+  hvor langt det er? **Hint:** positiv verdi av `left`.
 
 - [ ] Legg til rotasjon med `transform: rotate(antall grader)`.
 
 - [ ] Kan du tenke deg hvor `transform: rotate()` bør være? I `0%` eller `100%`?
 
 - [ ] Prøv deg frem med hvor mange grader du trenger for at den skal bli riktig.
-      **Hint:** 360 grader er én gang og 720 grader er to ganger rundt seg selv.
-
+  **Hint:** 360 grader er én gang og 720 grader er to ganger rundt seg selv.
 
 Så legger vi animasjonen til øksen.
 
@@ -336,7 +334,7 @@ Så legger vi animasjonen til øksen.
 
 - [ ] Legg til `animation-duration` på `2s`.
 
-- [ ]Legg til et `animation-delay` på `1s`.
+- [ ] Legg til et `animation-delay` på `1s`.
 
 - [ ] Sett `animation-timing-function` til `linear`.
 
@@ -366,7 +364,6 @@ Så legger vi animasjonen til øksen.
 </style>
 
 <div id="pickaxe"></div>
-
 
 <toggle>
 <strong>Forslag til kode så langt</strong>
@@ -409,7 +406,6 @@ Nå som du har klart å få `pickaxe` til å fly inn med rotasjon er oppgaven di
 + Bruk det du har lært i oppgaven til å og prøv få logoen til å komme inn når
   `pickaxe` er ferdig med sin animasjon.
 
-
 <style>
     #minecraft {
         background-image: url("ressurser/minecraft.png");
@@ -431,7 +427,6 @@ Nå som du har klart å få `pickaxe` til å fly inn med rotasjon er oppgaven di
         }
     }
 </style>
-
 
 <div id="minecraft"></div>
 

@@ -1,8 +1,7 @@
 ---
-title: 'Tre på rad mot datamaskinen'
-level: 3
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Geir Arne Hjelle'
+title: Tre på rad mot datamaskinen
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Geir Arne Hjelle
 language: nb
 ---
 
@@ -23,7 +22,7 @@ allerede har før vi begynner å skrive ny kode.
 ## Sjekkliste {.check}
 
 - [ ] Åpne IDLE. Åpne filen fra forrige leksjon og lagre den med et nytt navn.
-      Eller om du ikke kan finne den filen kan du kopiere inn følgende:
+  Eller om du ikke kan finne den filen kan du kopiere inn følgende:
 
   ```python
   from tkinter import *
@@ -105,9 +104,9 @@ allerede har før vi begynner å skrive ny kode.
   tre på rad.
 
 - [ ] Før vi begynner med dagens kode vil vi gjøre en liten opprydning i koden
-      for at vi enklere skal kunne lese hva som skjer i prosedyren `click`. Vi
-      flytter koden som tegner sirkler og kryss til en egen prosedyre. Bytt
-      prosedyren `click` ut med disse to prosedyrene:
+  for at vi enklere skal kunne lese hva som skjer i prosedyren `click`. Vi
+  flytter koden som tegner sirkler og kryss til en egen prosedyre. Bytt
+  prosedyren `click` ut med disse to prosedyrene:
 
   ```python
   def click(event):
@@ -155,8 +154,8 @@ ruter i denne listen for deretter å spille en slik rute.
 ## Sjekkliste {.check}
 
 - [ ] Vi vil først lage en ny prosedyre, `free_squares`, som kan finne ledige
-      ruter. Legg til denne koden nedenfor prosedyren `winner`, men over linjen
-      `c.bind(...)`:
+  ruter. Legg til denne koden nedenfor prosedyren `winner`, men over linjen
+  `c.bind(...)`:
 
   ```python
   def free_squares():
@@ -176,7 +175,7 @@ ruter i denne listen for deretter å spille en slik rute.
   elementene selv.
 
 - [ ] På toppen av filen vil vi importere `random`-biblioteket, som vi vil bruke
-      for å tilfeldig velge et trekk
+  for å tilfeldig velge et trekk
 
   ```python
   from tkinter import *
@@ -187,8 +186,8 @@ ruter i denne listen for deretter å spille en slik rute.
   Hangman.
 
 - [ ] Nå skriver vi en prosedyre `play_move()` som kan spille i en tilfeldig tom
-      rute. Legg til denne prosedyren etter `free_squares` men før linjnen
-      `c.bind(...)`
+  rute. Legg til denne prosedyren etter `free_squares` men før linjen
+  `c.bind(...)`.
 
   ```python
   def play_move():
@@ -241,8 +240,8 @@ ruter i denne listen for deretter å spille en slik rute.
   som vi allerede har brukt i `click`.
 
 - [ ] Til slutt endrer vi `click`-prosedyren slik at den kaller `play_move`. På
-      denne måten vil først spilleren gjøre sitt trekk, og deretter gjør
-      datamaskinen sitt trekk.
+  denne måten vil først spilleren gjøre sitt trekk, og deretter gjør
+  datamaskinen sitt trekk.
 
   ```python
   def click(event):
@@ -269,7 +268,7 @@ ruter i denne listen for deretter å spille en slik rute.
   gjøre sitt trekk.
 
 - [ ] Lagre programmet og kjør det. Datamaskinen vil nå trekke etter deg. Den
-      vil ikke spille spesielt bra siden den bare gjør tilfeldige trekk.
+  vil ikke spille spesielt bra siden den bare gjør tilfeldige trekk.
 
 
 # Steg 3: Velg et trekk som vinner {.activity}
@@ -333,13 +332,14 @@ datamaskinen spille det.
 
       play_move()
   ```
+
   Alle steder vi har `winner()` i koden bytter vi det ut med `winner(grid)`.
 
 - [ ] Kjør koden, den skal fortsatt virke akkurat som før for vi har enda ikke
-      endret hvordan datamaskinen spiller.
+  endret hvordan datamaskinen spiller.
 
 - [ ] La oss hjelpe datamaskinen ved å legge til noen linjer i `play_move` som
-      kan lete etter vinnende trekk!
+  kan lete etter vinnende trekk!
 
   ```python
   def play_move():
@@ -366,7 +366,7 @@ datamaskinen spille det.
   `winner` for å undersøke om dette vil være et vinnende trekk!
 
 - [ ] Kjør programmet ditt og test det flere ganger. Datamaskinen skal ha blitt
-      litt flinkere til å spille nå.
+  litt flinkere til å spille nå.
 
 
 # Steg 4: Velg et trekk som blokkerer {.activity}
@@ -378,7 +378,7 @@ plasserer ut O i de ledige rutene.
 ## Sjekkliste {.check}
 
 - [ ] Legg til litt mer kode i `play_move` som blokkerer trekk som gjør at
-      spilleren kan vinne.
+  spilleren kan vinne.
 
   ```python
   def play_move():
@@ -414,7 +414,7 @@ plasserer ut O i de ledige rutene.
   den seg en gang til!
 
 - [ ] Kjør koden og se om du klarer å vinne mot datamaskinen! Det har nå blitt
-      mye vanskeligere.
+  mye vanskeligere.
 
 
 # Hele programmet {.activity}

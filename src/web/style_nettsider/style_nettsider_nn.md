@@ -1,8 +1,7 @@
 ---
-title: 'CSS: Style nettsider'
-author: 'Arve Seljebu'
-translator: 'Stein Olav Romslo'
-level: 2
+title: "CSS: Style nettsider"
+author: Arve Seljebu
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -239,7 +238,10 @@ h1 {
 
 - [ ] No skal du prøve å endre tittelen slik at heile står i blokkbokstavar ved
   å bruke `text-transform:uppercase;`. Me kan gjere den understreka ved å bruke
-  `text-decoration:underline;`
+
+  ```
+  text-decoration:underline;
+  ```
 
 __Lagre prosjektet ditt og åpne det i nettlesaren for å sjå korleis det ser
 ut.__
@@ -260,7 +262,7 @@ All teksten vår visast heilt borte til venstre. Me kan endre det gjennom å bru
 `text-align:center` (ein kan bruke `right` (høgre) og `left` (venstre) òg).
 
 1. For denne nettsida vil me at all teksten skal vere sentrert. Då kan me
-skrive:
+  skrive:
 
 ```css
 body {
@@ -344,7 +346,7 @@ ut.__
     <p>Han forvann frå hagen i går.</p>
     <p>Har du sett Felix? Ver snill og kontakt eigaren hans på <a
       href="mailto:eigarentilfelix@email.com">eigarentilfelix@email.com</a></p>
-    <p><strong>Takk!</strong><p>
+    <p><strong>Takk!</strong></p>
 </body>
 </html>
 ```

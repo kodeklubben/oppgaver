@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Gjettelek
 author: Øistein Søvik
-level: 3
 language: nb
 ---
 
@@ -16,25 +15,25 @@ høyt.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering, informasjonsteknologi 2
+__Fag__: Programmering, informasjonsteknologi 2
 
- __Anbefalte trinn__: 7. trinn - VG2
+__Anbefalte trinn__: 7. trinn - VG2
 
- __Tema__: Brukerinteraksjon, while-løkker, spill, tilfeldig, funksjoner
+__Tema__: Brukerinteraksjon, while-løkker, spill, tilfeldig, funksjoner
 
- __Tidsbruk__: Enkelttime
+__Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
 - [ ] __IT2, VG3__: teste og finne feil i programmer ved å bruke vanlige
-      teknikker
+  teknikker
 
 - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-      ett er tekstbasert
+  ett er tekstbasert
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
@@ -49,21 +48,20 @@ høyt.
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven, for eksempel ved å gjøre en eller flere av variasjonene
-      nedenfor.
+  oppgaven, for eksempel ved å gjøre en eller flere av variasjonene nedenfor.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Kjennskap til if-setninger, while-løkker og
-       random-biblioteket.
+  random-biblioteket.
 
 - [ ] __Utstyr__: Datamaskin med Python installert.
 
 ## Fremgangsmåte
 
- Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
- oppgaven. [Klikk her for å se
- oppgaveteksten.](../gjettelek/gjettelek.html){target=_blank}
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
+oppgaven. [Klikk her for å se
+oppgaveteksten.](../gjettelek/gjettelek.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
@@ -73,12 +71,11 @@ oppgaven enda._
 - [ ] Klarer du å skrive om koden slik at brukeren bare får 12 forsøk?
 
 - [ ] Siden vi bare har tall mellom 1 og 100 kan vi alltid gjette tallet på 7
-      forsøk eller færre. Klarer du dette selv?
+  forsøk eller færre. Klarer du dette selv?
 
 - [ ] Klarer du å forstå hvorfor 7 forsøk alltid er nok? Prøv med tallene mellom
-      1 og 10 først, ser du noe mønster?
+  1 og 10 først, ser du noe mønster?
 
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser
-

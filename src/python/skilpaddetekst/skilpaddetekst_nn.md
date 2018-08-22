@@ -1,8 +1,7 @@
 ---
 title: Skjelpaddetekst
-level: 4
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -450,7 +449,9 @@ sirklar!
 Lag kode for kvart teikn i ein eigen funksjon, og hugs å oppdatere `MOVES`. Til
 dømes, viss du laga ein komma-funksjon, så må du endre
 
-`",": blank`
+```
+",": blank
+```
 
 til
 

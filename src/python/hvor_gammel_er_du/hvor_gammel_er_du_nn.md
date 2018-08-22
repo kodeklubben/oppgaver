@@ -1,8 +1,7 @@
 ---
-title: 'Kor gamal er du?'
-level: 2
-author: 'Sindre O. Rasmussen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+title: Kor gamal er du?
+author: Sindre O. Rasmussen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -23,7 +22,7 @@ ut. Start ved å åpne ei ny blank Python-fil.
 **Kva:** Me kan be datamaskina om å skrive kva som helst av tekst eller tal.
 
 **Korleis:** Funksjonen `print()` skriv ut det som er mellom `()`. Tekst må
- starte og slutte med `'` slik som `'denne teksten'`.
+starte og slutte med `'` slik som `'denne teksten'`.
 
 **Døme:** Prøv dei ut og sjå kva som skjer.
 
@@ -52,11 +51,11 @@ Skal eg vise deg?
 # Del 2: Variablar {.activity}
 
 **Kva:** Variablar gjer at me kan lagre tekst eller tal i datamaskina. Tenk på
- det som ei eske me puttar tal eller bokstavar inni. Utanpå skriv me kva som er
- inne i eska. Dette er variablenamnet.
+det som ei eske me puttar tal eller bokstavar inni. Utanpå skriv me kva som er
+inne i eska. Dette er variablenamnet.
 
 **Korleis:** For å lage ein variabel skriv du namnet på variabelen som du vel
- sjølv, så `=` og det du vil lagre i variabelen.
+sjølv, så `=` og det du vil lagre i variabelen.
 
 **Døme:** Prøv dei ut og sjå kva som skjer.
 
@@ -98,7 +97,7 @@ Hugs å ta bort døma når du fortset med oppgåva.
 **Kva:** Input er ein måte me kan hente tekst som blir skrive inn på tastaturet.
 
 **Korleis:** Tekst blir henta ved at du skriv: `input('Tekst som fortel kva ein
- skal skrive')`
+skal skrive')`
 
 Skal ein hente inn eit tal: `int(input('Tekst som fortel kva ein skal skrive'))`
 

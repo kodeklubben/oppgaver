@@ -1,8 +1,7 @@
 ---
 title: Kryptonøtt
-level: 4
-author: 'Arve Seljebu'
-translator: 'Stein Olav Romslo'
+author: Arve Seljebu
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -110,7 +109,9 @@ skal sjå nesten lik ut som den over.
 - [ ] No skal du prøve å knekke ein koda streng. Det er vanskeleg, så du må
   leggje ei plan fyrst. Strengen er:
 
-`q0Ø:;AI"E47FRBQNBG4WNB8B4LQN8ERKC88U8GEN?T6LaNBG4GØ""N6K086HB"Ø8CRHW"+LS79Ø""N29QCLN5WNEBS8GENBG4FØ47a`
+```
+q0Ø:;AI"E47FRBQNBG4WNB8B4LQN8ERKC88U8GEN?T6LaNBG4GØ""N6K086HB"Ø8CRHW"+LS79Ø""N29QCLN5WNEBS8GENBG4FØ47a
+```
 
 ## Hint {.protip}
 
@@ -136,7 +137,9 @@ Internett. Søk til dømes på *large English vocabulary word lists*.
   linjeskift. Finn ut korleis du kan laste inn orda frå fila (pass på at du
   fjernar linjeskifta) og bruk dei til å dekryptere ein ny streng:
 
-`t-JO:BK0aM,:CQ+ÆAGW?FJGB0KVCGMQ6SQN"GAIDL-PÅ7954E:7Jr,IÆoCF0M"CQdØVlHD53CÅ;IA2DMG5ØHDØVåL:JQØ439LRBBVEMTBÆ6CF0M"CQNAG8G1V6LÅ8FF4Z`
+```
+t-JO:BK0aM,:CQ+ÆAGW?FJGB0KVCGMQ6SQN"GAIDL-PÅ7954E:7Jr,IÆoCF0M"CQdØVlHD53CÅ;IA2DMG5ØHDØVåL:JQØ439LRBBVEMTBÆ6CF0M"CQNAG8G1V6LÅ8FF4Z
+```
 
 - [ ] Bruk metodane du laga i oppgåva over for å sjekke om du har funne riktig
   nøkkel. Viss du køyrer skriptet ditt med kommandoen `time python3 vigenere.py`

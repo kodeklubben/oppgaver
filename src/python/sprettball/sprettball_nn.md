@@ -1,8 +1,7 @@
 ---
-title: 'PGZ - Sprettball'
-level: 4
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+title: PGZ - Sprettball
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -58,8 +57,8 @@ HEIGHT = 400
 WIDTH = 600
 ```
 
-- [ ] Køyr programmet og sjå kva som skjer. Du skal sjå eit svart vindauge som er 400
-      pikslar høgt, og 600 pikslar breitt.
+- [ ] Køyr programmet og sjå kva som skjer. Du skal sjå eit svart vindauge som
+  er 400 pikslar høgt, og 600 pikslar breitt.
 
 Ein **piksel** er eit lyspunkt på skjermen og nøyaktig kor stort dette
 lyspunktet er avhenger av kva skjerm du har - så det kan vere at vindauget får

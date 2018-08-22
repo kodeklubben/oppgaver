@@ -1,7 +1,6 @@
 ---
 title: If-setninger
-level: 2
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -39,7 +38,7 @@ if age > 18:
 * `age > 18` tester om `age`-variabelen er større enn 18
 
 * `:` betyr at vi er ferdig med testen vår, og nå kommer koden som skal kjøres
-   hvis testen er sann.
+  hvis testen er sann.
 
 Legg merke til at det er et "innrykk" før `print`. Dette innrykket sørger for at
 datamaskinen vet nøyaktig hvilken kode som skal kjøres hvis `if`-setningen er
@@ -81,7 +80,7 @@ if 4 != 2+1:
 ## Utfordring {.challenge}
 
 - [ ] Her har en av CodeMasterne gjort en feil. Kan du hjelpe oss å finne
-      feilen?
+  feilen?
 
 ```python
 if 7 == 2*4:
@@ -106,7 +105,8 @@ if 7 == 2*4:
   Her har vi to linjer med innrykk! Begge disse kjøres om testen er sann, og
   kjører ikke om testen er usann.
 
-- [ ] Men hva skjer om den ene linjen ikke har et innrykk, slik som i koden under?
+- [ ] Men hva skjer om den ene linjen ikke har et innrykk, slik som i koden
+  under?
 
   ```python
   navn = input("Hva heter du? ")
@@ -118,4 +118,3 @@ if 7 == 2*4:
 - [ ] Hva blir skrevet ut nå?
 
 - [ ] Prøv deg frem med ulike navn!
-

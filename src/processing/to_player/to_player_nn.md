@@ -1,8 +1,7 @@
 ---
 title: ToPlayer
-level: 1
-author: 'Ruben Gjerstad Eide og Kine Gjerstad Eide'
-translator: 'Stein Olav Romslo'
+author: Ruben Gjerstad Eide og Kine Gjerstad Eide
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -131,6 +130,7 @@ forskjellige frå våre tal.
 
   }
 ```
+
 
 # Steg 3: Spelebrikke {.activity}
 

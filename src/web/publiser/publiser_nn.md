@@ -1,8 +1,7 @@
 ---
-title: 'HTML: Publiser nettsida di'
-author: 'Lars Klingenberg'
-translator: 'Stein Olav Romslo'
-level: 3
+title: "HTML: Publiser nettsida di"
+author: Lars Klingenberg
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -53,8 +52,8 @@ No som me har ein `Github-brukar` kan me registrere ei `github.io`-side.
 
   ![Bilete av korleis ein opprettar repository](ressurser/nytt_repo.png)
 
-- [ ] Under `Repository name` skriv du `ditt-brukarnamn.github.io`. Under
-  ser du korleis me gjorde det for `kodeklubben.github.io`.
+- [ ] Under `Repository name` skriv du `ditt-brukarnamn.github.io`. Under ser du
+  korleis me gjorde det for `kodeklubben.github.io`.
 
   ![Bilete av korleis velje namn på repository-et](ressurser/1.png)
 
@@ -84,7 +83,7 @@ No som me har ein `Github-brukar` kan me registrere ei `github.io`-side.
   det.
 
 - [ ] Trykk `Tillat` på eventuelle ting som dukkar opp når `Github`-programmet
-      åpnar seg:
+  åpnar seg:
 
   ![Bilete av tillatingar for GitHub](ressurser/tillat.png)
 
@@ -119,11 +118,11 @@ No som me har ein `Github-brukar` kan me registrere ei `github.io`-side.
   skrive noko som:
 
   ```html
-  <DOCTYPE html>
+  <!DOCTYPE html>
   <html>
       <body>
           <h1>Mi fyrste heimeside!</h1>
-          <p>Denne heimesida er laga med GitHub Pages.<p>
+          <p>Denne heimesida er laga med GitHub Pages.</p>
       </body>
   </html>
   ```
@@ -178,7 +177,9 @@ GitHub er stort og kan vere komplisert og vrient i starten. Viss du vil lære
 meir, sjekk ut tipsa under:
 
 - Les meir om GitHub her:
+
   [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
+
   eller på [Kodeklubbens
   wiki](https://github.com/kodeklubben/oppgaver/wiki/Komme-i-gang-med-Git).
 

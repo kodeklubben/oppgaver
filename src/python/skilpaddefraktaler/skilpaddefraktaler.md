@@ -1,7 +1,6 @@
 ---
 title: Skilpaddefraktaler
-author: 'Geir Arne Hjelle'
-level: 3
+author: Geir Arne Hjelle
 language: nb
 ---
 
@@ -36,10 +35,10 @@ forward(270)
 ## Sjekkliste {.check}
 
 - [ ] Skriv inn programmet over. Lagre det med navnet `snoflak.py` og kjør det.
-      En rett strek skal tegnes på skjermen.
+  En rett strek skal tegnes på skjermen.
 
 - [ ] Endre litt på tallene og fargene i koden slik at du husker hva de
-      forskjellige kommandoene gjør. Finner du en fargekombinasjon du liker?
+  forskjellige kommandoene gjør. Finner du en fargekombinasjon du liker?
 
 
 # Steg 2: En fraktal {.activity}
@@ -70,7 +69,7 @@ Vi skal se på hvordan vi kan lage funksjoner som kan tegne figurene over.
 ## Sjekkliste {.check}
 
 - [ ] Den rette streken har vi jo allerede tegnet. La oss bare endre litt i
-      programmet vårt slik at dette blir en funksjon:
+  programmet vårt slik at dette blir en funksjon:
 
   ```python
   from turtle import *
@@ -90,7 +89,7 @@ Vi skal se på hvordan vi kan lage funksjoner som kan tegne figurene over.
   Husk at vi må kalle funksjonen for at den skal bli gjort.
 
 - [ ] La oss nå legge til en funksjon `to()` som tegner den andre figuren, det
-      enkle fjellet. Skriv denne funksjonen i den samme filen.
+  enkle fjellet. Skriv denne funksjonen i den samme filen.
 
   ```python
   def to():
@@ -108,13 +107,13 @@ Vi skal se på hvordan vi kan lage funksjoner som kan tegne figurene over.
   Ser du sammenhengen mellom figuren og koden?
 
 - [ ] Kjør programmet ditt. Husk at du kan styre hvilke figurer som tegnes med
-      hvilke funksjoner du kaller. Selv om både `en` og `to` er definert trenger
-      du ikke kalle begge funksjonene.
+  hvilke funksjoner du kaller. Selv om både `en` og `to` er definert trenger du
+  ikke kalle begge funksjonene.
 
 - [ ] I `to` har vi brukt `forward(90)`, mens i `en` brukte vi `forward(270)`.
-      Det betyr at vi har tegnet den rette streken tre ganger mindre. Men vi har
-      brukt vinkler slik at de fire strekene i `to` tilsammen blir like lang som
-      den ene streken i `en`.
+  Det betyr at vi har tegnet den rette streken tre ganger mindre. Men vi har
+  brukt vinkler slik at de fire strekene i `to` tilsammen blir like lang som den
+  ene streken i `en`.
 
   La oss endre litt i funksjonene slik at vi bruker `en` i stedet for `forward`
   når vi definerer `to`.
@@ -138,9 +137,9 @@ Vi skal se på hvordan vi kan lage funksjoner som kan tegne figurene over.
 - [ ] Kjør programmet igjen. Tegnes fortsatt de samme figurene?
 
 - [ ] Vi vil nå tegne den tredje figuren. En måte å gjøre dette på kan være å
-      kombinere `forward`, `left` og `right` slik vi opprinnelig gjorde for
-      `to`. Du trenger ikke skrive inn denne koden, men se på den og sammenlign
-      med figuren. Ser du at det stemmer?
+  kombinere `forward`, `left` og `right` slik vi opprinnelig gjorde for `to`. Du
+  trenger ikke skrive inn denne koden, men se på den og sammenlign med figuren.
+  Ser du at det stemmer?
 
   ```python
   def tre():
@@ -178,7 +177,7 @@ Vi skal se på hvordan vi kan lage funksjoner som kan tegne figurene over.
   ```
 
 - [ ] Dette er en kjedelig måte å programmere på: Vi må skrive kjempemye kode,
-      det er veldig lett å gjøre feil og det tar tid å gjøre endringer i koden.
+  det er veldig lett å gjøre feil og det tar tid å gjøre endringer i koden.
 
   Hvis du ser litt nærmere på koden vil du se at linjene
 
@@ -196,8 +195,8 @@ Vi skal se på hvordan vi kan lage funksjoner som kan tegne figurene over.
   tidligere. Ser du en måte vi kan forenkle koden vår?
 
 - [ ] Vi har sett at koden til `tre` består av flere kopier av koden til `to`,
-      bare krympet. Da kan vi jo gjøre samme trikset som tidligere, vi bare
-      kaller `to`. Skriv inn følgende kode i den samme filen som `en` og `to`:
+  bare krympet. Da kan vi jo gjøre samme trikset som tidligere, vi bare kaller
+  `to`. Skriv inn følgende kode i den samme filen som `en` og `to`:
 
   ```python
   def tre(lengde):
@@ -225,8 +224,7 @@ Nå kommer det morsomste. Før vi kaster bort tid på å lage flere funksjoner
 `fire`, `fem` og kanskje `seks`, skal vi se at vi kan lage en funksjon som kan
 lage alle disse for oss!
 
-- [ ] Sammenlign funksjonene `to` og `tre`. Ser du at de er nesten helt
-      like?
+- [ ] Sammenlign funksjonene `to` og `tre`. Ser du at de er nesten helt like?
 
 Vi skal nå bruke noe som kalles rekursjon for å lage en funksjon som gjør jobben
 til både `en`, `to` og `tre`. Rekursjon husker du kanskje fra tidligere. Det
@@ -250,8 +248,8 @@ rett strek.
   tilfellet.
 
 - [ ] Det generelle tilfellet er det vi har sett tidligere i `to` og `tre`. Med
-      den nye variabelen `dybde` kan vi lage både `to` og `tre` med samme kode.
-      Utvid funksjonen `fjell` slik at den ser slik ut:
+  den nye variabelen `dybde` kan vi lage både `to` og `tre` med samme kode.
+  Utvid funksjonen `fjell` slik at den ser slik ut:
 
   ```python
   def fjell(lengde, dybde):
@@ -285,8 +283,8 @@ rett strek.
   Gir dette samme resultat som `to(270)` og `tre(270)`?
 
 - [ ] Den nye funksjonen gjør enda mer enn `to` og `tre`. Vi kan bruke enda
-      større dybde. Prøv for eksempel `fjell(270, 6)`. Denne vil bruke litt tid.
-      Bruk `speed(11)` for at skilpadden skal bevege seg så raskt som mulig.
+  større dybde. Prøv for eksempel `fjell(270, 6)`. Denne vil bruke litt tid.
+  Bruk `speed(11)` for at skilpadden skal bevege seg så raskt som mulig.
 
 
 # Steg 5: Et snøflak {.activity}
@@ -296,8 +294,8 @@ Vi skal nå kombinere flere slike fjell til et fint snøflak.
 ## Sjekkliste {.check}
 
 - [ ] Til sist skal vi kombinere flere kall til `fjell`-funksjonen vår for å
-      tegne det fine snøflaket du så helt først i oppgaven. Ser du hvordan
-      snøflaket består av tre fjell?
+  tegne det fine snøflaket du så helt først i oppgaven. Ser du hvordan snøflaket
+  består av tre fjell?
 
   Legg til denne funksjonen:
 
@@ -308,8 +306,7 @@ Vi skal nå kombinere flere slike fjell til et fint snøflak.
           right(120)
   ```
 
-- [ ] Prøv å kall denne `snoflak`-funksjonen med forskjellige lengder og
-      dybder.
+- [ ] Prøv å kall denne `snoflak`-funksjonen med forskjellige lengder og dybder.
 
 Dette snøflaket er en av de mest kjente fraktalene. Det har fått navnet Kochs
 snøflak fordi en av de første som studerte denne figuren het Helge von Koch.
@@ -330,7 +327,7 @@ under:
 - [ ] Lag en ny fil som du kaller `firkantfjell.py`.
 
 - [ ] Som tidligere så kan vi prøve å tegne dette nye fjellet med funksjoner for
-      hvert steg. For eksempel
+  hvert steg. For eksempel
 
   ```python
   from turtle import *
@@ -359,8 +356,8 @@ under:
   ```
 
 - [ ] Men vi har jo lært at det er mye bedre å bruke rekursjon. Vi vil lage en
-      funksjon som kan tegne mange forskjellige firkantfjell ved at den kaller
-      seg selv.
+  funksjon som kan tegne mange forskjellige firkantfjell ved at den kaller seg
+  selv.
 
   Prøv selv om du kan skrive denne. Se på hvordan vi laget `fjell` tidligere, og
   på hvordan vi laget `en` og `to` nå sist.
@@ -375,7 +372,7 @@ under:
   ```
 
 - [ ] Test koden din. Blir det riktig? Nedenfor ser du et eksempel hvor vi har
-      laget et firkantfjell med dybde 6.
+  laget et firkantfjell med dybde 6.
 
   ![Bilde av et firkantfjell med dybde 6](firkantfjell.png)
 
@@ -393,10 +390,10 @@ Vi skal nå lage en fraktal basert på trekanter. La oss se på de første stege
 Her ser vi at vi har en trekant som byttes ut med tre mindre trekanter.
 
 - [ ] Lag en ny fil `trekant.py` og legg til de vanlige kommandoene på toppen av
-      filen.
+  filen.
 
 - [ ] I det enkle tilfellet vil vi nå tegne en trekant. Det kan vi gjøre på
-      denne måten:
+  denne måten:
 
   ```python
   def trekant(lengde, dybde):
@@ -410,8 +407,8 @@ Her ser vi at vi har en trekant som byttes ut med tre mindre trekanter.
   ```
 
 - [ ] For det generelle tilfellet må vi stable tre trekanter. Det kan vi gjøre
-      for eksempel med koden under. Sammenlign koden med figuren. Ser du
-      sammenhengen?
+  for eksempel med koden under. Sammenlign koden med figuren. Ser du
+  sammenhengen?
 
   ```python
       trekant(lengde / 2, dybde - 1)
@@ -427,7 +424,7 @@ Her ser vi at vi har en trekant som byttes ut med tre mindre trekanter.
   ```
 
 - [ ] Tegn noen trekanter med forskjellig dybde og størrelse. Denne fraktalen er
-      også ganske kjent, og går ofte under navnet Sierpinski-trekanten.
+  også ganske kjent, og går ofte under navnet Sierpinski-trekanten.
 
 ## Prøv selv {.challenge}
 
@@ -442,4 +439,3 @@ Eller kanskje du kan lage en helt annen figur? Prøv og tegn dine egne `en`- og
 Her er et forslag til en figur du kan prøve, men prøv også å lage dine egne!
 
 ![Bilde av første steget i en drage fraktal](drage_forstesteg.png)
-

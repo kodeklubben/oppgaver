@@ -1,7 +1,6 @@
 ---
-title: 'HTML: Forsvunnet katt'
-author: 'Arve Seljebu'
-level: 2
+title: "HTML: Forsvunnet katt"
+author: Arve Seljebu
 language: nb
 ---
 
@@ -18,10 +17,11 @@ nabolaget, men du innser at å lage en webside gjør at mange fler kan se den.
 
 - [ ] Lag en ny mappe som du kaller Felix.
 
-- [ ] Lag et nytt dokument med navnet `index.html` og lagre det i mappen du kalte Felix
+- [ ] Lag et nytt dokument med navnet `index.html` og lagre det i mappen du
+  kalte Felix
 
 - [ ] Nå kan du sette opp dokumentet ditt slik som du lærte i [Introduksjon til
-      web](../introduksjon_til_web/introduksjon_til_web.html).
+  web](../introduksjon_til_web/introduksjon_til_web.html).
 
 ```html
 <!doctype html>
@@ -34,12 +34,11 @@ nabolaget, men du innser at å lage en webside gjør at mange fler kan se den.
 ```
 
 - [ ] Lag en tittel og en overskrift. Husk at tittelen skal plasseres i `<head>`
-      og overskriften skal plasseres i `<body>`.
+  og overskriften skal plasseres i `<body>`.
 
 - [ ] Bruk "Katten Felix er forsvunnet" som tittel, og "Forsvunnet" som `<h1>`.
 
 - [ ] Rett under `<h1>` kan vi lage en `<h2>` hvor det står "Katten Felix".
-
 
 <toggle>
   <strong>Hint</strong>
@@ -70,14 +69,14 @@ Internett, men denne gangen skal vi bruke et bilde på vår egen datamaskin.
 - [ ] Finn et bilde på nettet av en katt
 
 - [ ] Lagre bildet i mappen Felix og la bildet hete `felix.jpg` eller
-      `felix.png` avhengig av om bilde du laster ned har `.jpg` eller `.png` bak
-      navnet sitt
+  `felix.png` avhengig av om bilde du laster ned har `.jpg` eller `.png` bak
+  navnet sitt
 
 - [ ] Viktig at bildet blir lagt i samme mappe som `index.html`.
 
 - [ ] Nå kan du skrive `<img>` taggen som du vanligvis ville gjort, men i scr
-      attributten, istede for å skrive en URL skriver vi bare `felix.jpg` eller
-      `felix.png`. Ikke glem å legge inn en `alt` attributt!
+  attributten, istede for å skrive en URL skriver vi bare `felix.jpg` eller
+  `felix.png`. Ikke glem å legge inn en `alt` attributt!
 
 ```html
 <img src="felix.jpg" alt="bilde av Felix">
@@ -180,7 +179,7 @@ Det er også vanlig å legge til hvilket språk websiden er på. Vi gjør dette 
 legge til en attributt til `<html>` taggen.
 
 ```html
-<html lang="no">
+<html lang="no"> ... </html>
 ```
 
 `no` står for norsk.
@@ -204,24 +203,24 @@ Og noen nøkkelord, separert med komma
 <meta name="keywords" content="Felix, katt, forsvunnet">
 ```
 
-
 Siden vår vil nå se ca slik ut:
 
 ![Bilde av hvordan siden ser ut i nettelseren så langt](screenshot_jsbin.png)
 
-Til venstre har vi HTML-koden og til høyre har vi hvordan nettleseren viser siden vår.
+Til venstre har vi HTML-koden og til høyre har vi hvordan nettleseren viser
+siden vår.
 
 ## Hva kan du gjøre videre? {.challenge}
 
 - [ ] Er det noe annet du kan legge til websiden som vil hjelpe folk å finne
-      Felix? Mer informasjon? Hvordan ville du lagt til et kart over hvor han
-      forsvant?
+  Felix? Mer informasjon? Hvordan ville du lagt til et kart over hvor han
+  forsvant?
 
 - [ ] Mer gøy med bilder. Legg til et bilde som beveger seg. Prøv å legge til
-      bildet `catswithhats.gif` til websiden. Last ned gifen eller bruk lenken
-      her: [catswithhats.gif](../forsvunnet_katt/ressurser/catswithhats.gif).
-      Åpne det i nettleseren og se hva som skjer.
+  bildet `catswithhats.gif` til websiden. Last ned gifen eller bruk lenken her:
+  [catswithhats.gif](../forsvunnet_katt/ressurser/catswithhats.gif). Åpne det i
+  nettleseren og se hva som skjer.
 
 - [ ] Hvis Felix blir funnet. Bruk taggen `<del>` for å streke over informasjon
-      som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>`
-      for å sette inn ny informasjon istede, som foreksempel __Funnet__!
+  som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>` for å
+  sette inn ny informasjon istede, som foreksempel __Funnet__!

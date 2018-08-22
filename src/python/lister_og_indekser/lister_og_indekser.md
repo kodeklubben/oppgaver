@@ -1,7 +1,6 @@
 ---
-title: 'Lister og indekser'
-level: 3
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
+title: Lister og indekser
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -248,4 +247,3 @@ Dette må du gjøre:
 
   **Hint:** `tall%2` er *resten* av `tall` delt på `2`, hva gir `tall%2` når
   `tall` er et partall?
-

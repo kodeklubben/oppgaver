@@ -1,8 +1,7 @@
 ---
-title: 'Lag di eiga nettside'
-author: 'Arve Seljebu'
-translator: 'Stein Olav Romslo'
-level: 4
+title: Lag di eiga nettside
+author: Arve Seljebu
+translator: Stein Olav Romslo
 language: nn
 ---
 

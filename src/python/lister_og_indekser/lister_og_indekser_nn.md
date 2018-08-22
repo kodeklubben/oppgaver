@@ -1,8 +1,7 @@
 ---
-title: 'Lister og indeksar'
-level: 3
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+title: Lister og indeksar
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -76,10 +75,11 @@ fyrste elementet lik `elm` sletta:
 ['Per', 'Kim', 'Ada']
 ```
 
-
 ## Handleliste {.check}
 
-No skal me lage eit handlelisteprogram. Programmet skal be brukaren skrive inn matvarer, og så skrive ut matvarene når brukaren skriv `ferdig`. Programmet skal fungere slik:
+No skal me lage eit handlelisteprogram. Programmet skal be brukaren skrive inn
+matvarer, og så skrive ut matvarene når brukaren skriv `ferdig`. Programmet skal
+fungere slik:
 
 <pre>
 >>>
@@ -106,6 +106,7 @@ Dette må du gjere:
 - [ ] Skriv ut kvart element i lista.
 
   **Hint:** Kva type løkke kan me bruke her?
+
 
 # Indeksar {.activity}
 

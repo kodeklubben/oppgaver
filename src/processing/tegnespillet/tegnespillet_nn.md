@@ -1,8 +1,7 @@
 ---
 title: Teiknespelet
-level: 1
-author: 'Kine Gjerstad Eide og Ruben Gjerstad Eide'
-translator: 'Stein Olav Romslo'
+author: Kine Gjerstad Eide og Ruben Gjerstad Eide
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -52,19 +51,19 @@ og andre programmeringsspråk.
 
 | Teikn | Windows/Linux            | Mac                           |
 |:-----:| ------------------------ | ----------------------------- |
-| `;`   | `shift + ,`              | `shift + ,`                   |
-| `"`   | `shift + 2`              | `shift + 2`                   |
-| `\'`  | `\'` (til høgre for Æ)   | `\'` (til venstre for 1)      |
-| `\|`  | `\|` (til venstre for 1) | `alt + 7`                     |
-| `\&`  | `shift + 6`              | `shift + 6`                   |
-| `+`   | `+` (til høgre for 0)    | `+` (til høgre for 0)         |
-| `-`   | `-` (til høgre for .)    | `-` (til høgre for .)         |
-| `*`   | `shift + '`              | `shift + @` (til høgre for Æ) |
-| `/`   | `shift + 7`              | `shift + 7`                   |
-| `\[`  | `alt gr + 8`             | `alt + 8`                     |
-| `\]`  | `alt gr + 9`             | `alt + 9`                     |
-| `{`   | `alt gr + 7`             | `shift + alt + 8`             |
-| `}`   | `alt gr + 0`             | `shift + alt + 9`             |
+|  `;`  | `shift + ,`              | `shift + ,`                   |
+|  `"`  | `shift + 2`              | `shift + 2`                   |
+|  `\'` | `\'` (til høgre for Æ)   | `\'` (til venstre for 1)      |
+|  `\|` | `\|` (til venstre for 1) | `alt + 7`                     |
+|  `\&` | `shift + 6`              | `shift + 6`                   |
+|  `+`  | `+` (til høgre for 0)    | `+` (til høgre for 0)         |
+|  `-`  | `-` (til høgre for .)    | `-` (til høgre for .)         |
+|  `*`  | `shift + '`              | `shift + @` (til høgre for Æ) |
+|  `/`  | `shift + 7`              | `shift + 7`                   |
+|  `\[` | `alt gr + 8`             | `alt + 8`                     |
+|  `\]` | `alt gr + 9`             | `alt + 9`                     |
+|  `{`  | `alt gr + 7`             | `shift + alt + 8`             |
+|  `}`  | `alt gr + 0`             | `shift + alt + 9`             |
 
 ## Prøv dette {.check}
 

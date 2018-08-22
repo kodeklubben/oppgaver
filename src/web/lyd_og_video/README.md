@@ -1,7 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Legg til lyd og video"
 author: Lars Klingenberg
-level: 3
 language: nb
 ---
 
@@ -15,7 +14,7 @@ forskjellige måter å legge opp lyd på.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering, Teknologi i praksis, Norsk, Musikk
+__Fag__: Programmering, Teknologi i praksis, Norsk, Musikk
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -26,39 +25,39 @@ __Tidsbruk__: Dobbeltime
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon.
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon.
 
 - [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei
-      vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet
-      og design.
+  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
+  design.
 
 - [ ] __Norsk, 7. trinn__: velge ut og vurdere informasjon fra bibliotek og
-      digitale informasjonskanaler.
+  digitale informasjonskanaler.
 
 - [ ] __Musikk, 10. trinn__: gjøre rede for regler for opphavsrett knyttet til
-      bruk av musikk.
+  bruk av musikk.
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Eleven kan legge til video fra Youtube, Vimeo eller fra datamaskinen opp
-      på en nettside
+  på en nettside
 
 - [ ] Eleven kan bruke HTML for å velge riktig filtype, lenke til video og endre
-      størrelse på videoen
+  størrelse på videoen
 
 - [ ] Eleven kan bruke Youtube og Vimeo til å søke etter passende filmen for
-      nettsiden sin
+  nettsiden sin
 
 - [ ] Eleven kan gjøre rede for regler for opphavsrett knyttet til bruk av
-      musikk.
+  musikk.
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven
 
 - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
@@ -84,11 +83,11 @@ oppgaven enda.
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan legge til lenker slik at en går til en nettside dersom en
-      trykker på et bilde.
+  trykker på et bilde.
 
 ## Eksterne ressurser {.challenge}
 
 - [ ] På [datatilsynets
-      nettsider](https://www.datatilsynet.no/rettigheter-og-plikter/internett-og-apper/bilder-pa-nett/)
-      finnes det mer informasjon om rettigheter og plikter knyttet til bilder og
-      videoer på nett.
+  nettsider](https://www.datatilsynet.no/rettigheter-og-plikter/internett-og-apper/bilder-pa-nett/)
+  finnes det mer informasjon om rettigheter og plikter knyttet til bilder og
+  videoer på nett.

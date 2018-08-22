@@ -1,7 +1,6 @@
 ---
 title: RGB-lysdiode
-author: 'Morten Minde Neergaard & Martin Ertsås'
-level: 1
+author: "Morten Minde Neergaard & Martin Ertsås"
 language: nb
 ---
 
@@ -106,20 +105,33 @@ enkelt skrives om til `for`-løkker slik:
 ```cpp
 auto led = 9;
 while (led <= 11) {
-  <kode>
+  .
+  .
+  .
+  kode
+  .
+  .
+  .
   ++led;
 }
 ```
+
 ```cpp
 for (auto led = 9; led <= 11; ++led) {
-  <kode>
+  .
+  .
+  .
+  kode
+  .
+  .
+  .
 }
 ```
 
 ### Utfordring {.challenge}
 
 - [ ] Klarer du å skrive om det første programmet i denne oppgaven til å bruke
-      `for`-løkker istedenfor `while`-løkker?
+  `for`-løkker istedenfor `while`-løkker?
 
 
 # Nøstede løkker {.activity}
@@ -160,4 +172,4 @@ Skriv inn koden og se selv hva den gjør.
   bytter farge? (`++i` øker i med 1, `--i` minker i med 1)
 
 - [ ] Kan du få lysdioden til å sykle gjennom alle fargekombinasjonene? (blå,
- grønn, blå + grønn, rød, rød + blå, rød + grønn, rød + blå + grønn)
+  grønn, blå + grønn, rød, rød + blå, rød + grønn, rød + blå + grønn)

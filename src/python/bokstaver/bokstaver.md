@@ -1,7 +1,6 @@
 ---
 title: Bokstaver
-level: 1
-author: 'Tjerand Silde'
+author: Tjerand Silde
 language: nb
 ---
 
@@ -18,14 +17,14 @@ resultatet kommer til å bli - før koden kjøres!
 # Oppgave 1: Skriv navnet ditt {.activity}
 
 - [ ] Bruk turtle-komandoene som `forward()`, `left()`, `right()`, `penup()` og
-`pendown()` til å skrive navnet ditt i Python.
+  `pendown()` til å skrive navnet ditt i Python.
 
 
 # Oppgave 2: Fylte bokstaver {.activity}
 
 - [ ] Som neste utfordring skal du lage den første bokstaven i navnet ditt som
-en fyllt bokstav. Her kan det være lurt å dele bokstaven opp i enkle figurer som
-firkanter, trekanter og halvsirkler, og tegne én og én del.
+  en fyllt bokstav. Her kan det være lurt å dele bokstaven opp i enkle figurer
+  som firkanter, trekanter og halvsirkler, og tegne én og én del.
 
 ![Bilde av en stor rød K tegnet med skilpadde](stor_k.png)
 
@@ -33,4 +32,4 @@ firkanter, trekanter og halvsirkler, og tegne én og én del.
 # Oppgave 3: Figurer {.activity}
 
 - [ ] Lek deg med ulike farger, og tegn et hus, en bil eller noe annet du har
-lyst til å lage. Bruk fantasien!
+  lyst til å lage. Bruk fantasien!

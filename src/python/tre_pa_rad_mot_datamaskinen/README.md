@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Tre på rad mot datamaskinen
 author: Madeleine Lorås
-level: 3
 language: nb
 ---
 
@@ -14,7 +13,7 @@ rad](../tre_pa_rad/tre_pa_rad.html).
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering
+__Fag__: Programmering
 
 __Anbefalte trinn__: 8.-10. trinn
 
@@ -25,16 +24,16 @@ __Tidsbruk__: Dobbelttime eller mer
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett
-       er tekstbasert
+  er tekstbasert
 
 - [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan beskrive og bruke løkker, tester, variabler, og funksjoner til
-       å implementere et spill.
+  å implementere et spill.
 
 - [ ] Elevene kan implementere brukerinteraksjon ved bruk av musepekeren.
 
@@ -43,12 +42,12 @@ __Tidsbruk__: Dobbelttime eller mer
 - [ ] Eleven viser middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven viser høy måloppnåelse ved å videreutvikle egen kode basert på
-       oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Kjennskap til Python. Elevene burde ha gjort [Tre på
-       rad](../tre_pa_rad/tre_pa_rad.html) først.
+  rad](../tre_pa_rad/tre_pa_rad.html) først.
 
 - [ ] __Utstyr__: Datamaskiner med Python installert.
 
@@ -68,4 +67,3 @@ oppgaven enda._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-

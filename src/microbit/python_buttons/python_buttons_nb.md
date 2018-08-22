@@ -1,17 +1,16 @@
 ---
 title: "Python: knapper"
-level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/buttons.html)"
-translator: "Øistein Søvik"
+translator: Øistein Søvik
 language: nb
 ---
 
 
 # Introduksjon {.intro}
 
-Så langt har vi laget kode som får micro:bit'en til å gjøre noe. Dette kalles for
-*output*. Men, vi trenger og at micro:bit'en kan reagere på ulike handlinger.
-Slike handlinger kalles gjerne for *input*.
+Så langt har vi laget kode som får micro:bit'en til å gjøre noe. Dette kalles
+for *output*. Men, vi trenger og at micro:bit'en kan reagere på ulike
+handlinger. Slike handlinger kalles gjerne for *input*.
 
 Forskjellen er enkel å huske: output er hva micro:bit'en viser til verden, mens
 input er hva som blir prosessert av micro:bit'en.
@@ -29,19 +28,19 @@ sleep(10000)
 display.scroll(str(button_a.get_presses()))
 ```
 
-Det eneste dette skriptet gjør er å sove i ti tusen millisekunder (med andre ord 10
-sekunder) og deretter scroller antallet ganger du trykket knappen `A` over
+Det eneste dette skriptet gjør er å sove i ti tusen millisekunder (med andre ord
+10 sekunder) og deretter scroller antallet ganger du trykket knappen `A` over
 skjermen. Det er det!
 
 På tross av at dette er et veldig enkelt script så introduserer det et par
 interessante nye idéer.
 
 1. `sleep` *funksjonen* får micro:bit'ten til å vente et gitt antall
-   milliseukunder. *Dersom du ønsker å pause programmet ditt, er dette hvordan
-   det gjøres*.
+  milliseukunder. *Dersom du ønsker å pause programmet ditt, er dette hvordan
+  det gjøres*.
 
 2. Det er et objekt `button_a` som tillater deg å hente ut antall ganger den har
-   blitt aktivert via `get_presses` metoden.
+  blitt aktivert via `get_presses` metoden.
 
 Siden `get_presses` gir en numerisk verdi og `display.scroll` bare viser tekst,
 trenger vi å konvertere den numeriske verdien til en tekststreng. Vi gjør dette
@@ -100,7 +99,6 @@ Klippe plenen
 Dersom jeg ønsker å gjøre huskelisten min mer detaljert, ville jeg kanskje ha
 utvidet den slik:
 
-
 ```python
 Handling:
    Egg
@@ -132,7 +130,8 @@ while running_time() < 10000:
 display.show(Image.SURPRISED)
 ```
 
-Funksjonen `running_time` returnerer antall millisekunder siden micro:bit'en ble startet.
+Funksjonen `running_time` returnerer antall millisekunder siden micro:bit'en ble
+startet.
 
 Linjen `while running_time() < 10000:` sjekker dersom tiden er mindre enn 10000
 millisekunder (i.e. 10 sekunder). Dersom den er, det så vises `Image.ASLEEP`.
@@ -207,7 +206,6 @@ løkka, ellers vis en trist ansikt". Vi bryter ut av løkka (stopp programmet fr
 
 Kan du tenke på måter å gjøre spillet mindre tragisk på? Hvordan kan du sjekke
 om *begge* knappene er trykket ned samtidig?
-
 
 Hint: Python har `and`, `or` og `not` logiske operatorer for å sjekke flere
 logiske påstander samtidig (ting som enten er `True` eller `False`).

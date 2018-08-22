@@ -1,7 +1,6 @@
 ---
-title: 'PGZ - Hangman'
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-level: 4
+title: PGZ - Hangman
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -16,14 +15,12 @@ Det kan se ut som mye kode, men det bare den øverste delen du skal endre på. E
 lite stykke ned vil det være en overskrift som ser slik ut:
 
 ```python
-
 ###############################################################################
 
 
 # Library code
 
 ###############################################################################
-
 ```
 
 All koden under denne overskriften kan du bare overse. Dette er koden som
@@ -135,8 +132,8 @@ være lurt å gå tilbake og lese igjennom alle de gule boksene i oppgaven.
 Du skal nå skrive kode i funksjonen. Dette må du gjøre:
 
 - [ ] For å konvertere `secret_word` til ei liste må du bruke funksjonen
-      `list()`. Du kan gi en streng som argument til `list()`, også returneres
-      en liste av bokstaver.
+  `list()`. Du kan gi en streng som argument til `list()`, også returneres en
+  liste av bokstaver.
 
   ```python
   >>> list("ord")
@@ -144,12 +141,12 @@ Du skal nå skrive kode i funksjonen. Dette må du gjøre:
   ```
 
 - [ ] Slå sammen bokstavene til en streng igjen, med ett mellomrom mellom hver
-      bokstav.
+  bokstav.
 
   **Hint:** `s.join(lst)`
 
 - [ ] Bytt ut hver bokstav som er i det nye ordet vårt og i `remaining_letters`
-      med `_`, slik som i eksempelet over.
+  med `_`, slik som i eksempelet over.
 
   **Hint:** `s.replace()`
 
@@ -176,12 +173,10 @@ Nøklene i `state` er som følger:
 * `"help_text"` er hjelpetekst for brukeren, som forklarer hva brukeren skal
   gjøre
 
-* `"remaining_letters"` er en liste over de bokstavene brukeren ikke har
-  gjettet
+* `"remaining_letters"` er en liste over de bokstavene brukeren ikke har gjettet
 
 * `"display_string"` er det ordet som vises til brukeren (etter at vi har satt
   inn `_`).
-
 
 Dette må du gjøre:
 
@@ -195,27 +190,27 @@ Dette må du gjøre:
 
   * Nøkkel: `"help_text"` Verdi: `"Guess a letter!"`
 
-- [ ] For å velge et tilfeldig ord skal vi bruke `random.choice()`. Ved å gi denne
-      funksjonen en liste som argument returneres et tilfeldig element i lista.
+- [ ] For å velge et tilfeldig ord skal vi bruke `random.choice()`. Ved å gi
+  denne funksjonen en liste som argument returneres et tilfeldig element i
+  lista.
 
   - [ ] Gi `WORDS` som argument og bruk det returnerte ordet som verdien som
-        tilhører nøkkelen `"secret_word"`.
+    tilhører nøkkelen `"secret_word"`.
 
 - [ ] Vi skal nå lage lista over bokstaver som brukeren ikke har gjettet. For å
-      gjøre dette bruker vi de 26 første bokstavene i `string.ascii_letters`, og
-      legger disse til lista.
+  gjøre dette bruker vi de 26 første bokstavene i `string.ascii_letters`, og
+  legger disse til lista.
 
   - [ ] La den tilhørende verdien til `"remaining_letters"` være en tom liste.
 
   - [ ] Bruk `enumerate()` og gå igjennom de 26 første bokstavene i
-        `string.ascii_letters`, og legg disse til `state["remaining_letters"]`.
+    `string.ascii_letters`, og legg disse til `state["remaining_letters"]`.
 
-
-    **Hint:** Bruk `lst.append(elm)`
+  **Hint:** Bruk `lst.append(elm)`
 
 - [ ] For å lage verdien som hører til `"display_string"` må vi bruke funksjonen
-      vi lagde i [steg 1](#steg-1-lage-det-hemmelige-ordet). Hvilke to
-      argumenter skal vi gi til funksjonen?
+  vi lagde i [steg 1](#steg-1-lage-det-hemmelige-ordet). Hvilke to argumenter
+  skal vi gi til funksjonen?
 
 ## Test spillet ditt {.flag}
 
@@ -240,8 +235,8 @@ Dette må du gjøre:
 - [ ] Endre `state["running"]` til `False`.
 
 - [ ] Endre verdien til `state["display_string"]` slik at brukeren kan se
-      løsningen, selv om brukeren ikke har vunnet. Dette kan du gjøre ved hjelp
-      av funksjonen fra [steg 1](#steg-1-lage-det-hemmelige-ordet).
+  løsningen, selv om brukeren ikke har vunnet. Dette kan du gjøre ved hjelp av
+  funksjonen fra [steg 1](#steg-1-lage-det-hemmelige-ordet).
 
   **Hint:** Hva skal listen vi gir som argument inneholde når vi ønsker å vise
   alle bokstavene?
@@ -258,11 +253,11 @@ brukeren har brukt opp alle forsøkene sine eller om han har gjettet riktig ord.
 Dette må du gjøre:
 
 - [ ] Du finner bokstaven brukeren trykket på i `state["pressed_button"]`. Det
-      kan være lurt å lagre denne i en egen variabel, så du slipper å skrive
-      `state["pressed_button"]` mange ganger.
+  kan være lurt å lagre denne i en egen variabel, så du slipper å skrive
+  `state["pressed_button"]` mange ganger.
 
 - [ ] Dersom bokstaven finnes i `state["remaining_letters"]`, må programmet
-      gjøre det følgende:
+  gjøre det følgende:
 
   * Fjern bokstaven fra lista
 
@@ -271,16 +266,16 @@ Dette må du gjøre:
     du må legge til en til `state["used_tries"]`.
 
 - [ ] Sjekk om brukeren har brukt opp alle forsøkene sine. Dersom det er
-      tilfelle må du endre på `state["help_text"]` til `"You lost!"`. Til slutt
-      må du kalle funksjonen `game_over()`.
+  tilfelle må du endre på `state["help_text"]` til `"You lost!"`. Til slutt må
+  du kalle funksjonen `game_over()`.
 
   **Hint:** Sjekk om `state["used_tries"]` er større eller lik `TRIES`.
 
 - [ ] Vi må også sjekke om brukeren har gjettet ordet. En måte dette kan gjøres
-      på er å sjekke hvor mange `"_"` det er i `state["display_string"]`. Bruk
-      `s.count("_")` for å telle antall understreker. Dersom det ikke er flere
-      understreker har brukeren vunnet spillet, og du må da endre
-      `state["help_text"]` til `"You won!"` og kalle `game_over()`.
+  på er å sjekke hvor mange `"_"` det er i `state["display_string"]`. Bruk
+  `s.count("_")` for å telle antall understreker. Dersom det ikke er flere
+  understreker har brukeren vunnet spillet, og du må da endre
+  `state["help_text"]` til `"You won!"` og kalle `game_over()`.
 
 ## Test spillet ditt {.flag}
 
@@ -297,11 +292,11 @@ Spillet skal nå fungere fullt og helt. Nå er det noen ting vi må teste:
   ![Bilde av hvordan det kan se ut når spilleren vinner](./hangman_won_game.png)
 
 - [ ] Når spilleren taper kan det se ut omtrent som i bildet under. Pass på det
-      følgende:
+  følgende:
 
   - [ ] Det skal ikke være mulig å taste inn flere bokstaver. Dersom du har
-        mulighet til dette har du glemt å sette `state["running"] = False` i
-        `game_over()`.
+    mulighet til dette har du glemt å sette `state["running"] = False` i
+    `game_over()`.
 
   - [ ] Pass på at du viser løsningsordet nederst.
 

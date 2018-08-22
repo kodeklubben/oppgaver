@@ -1,6 +1,5 @@
 ---
 title: "PXT: Hermegåsa"
-level: 2
 author: Felix Bjerke og Tjerand Silde
 language: nb
 ---
@@ -40,22 +39,22 @@ sammen vei som pilen vinner.
 
   *Her er en oversikt over reglene i spillet:*
 
-|   Skjerm viser          | Spiller utfører             |
-|  ---------------------- | --------------------------- |
-|       A                 | Trykk på A                  |
-|       B                 | Trykk på B                  |
-|       C                 | Trykk på A + B              |
-|       <                 | Vipp til venstre            |
-|       \>                | Vipp til høyre              |
+| Skjerm viser | Spiller utfører  |
+| ------------ | ---------------- |
+| A            | Trykk på A       |
+| B            | Trykk på B       |
+| C            | Trykk på A + B   |
+| <            | Vipp til venstre |
+| \>           | Vipp til høyre   |
 
 
 # Steg 2: Programmere spillederen {.activity}
 
-*Når spillet skal starte så må vi sørge for at alle micro:bitene kan
-kommunisere med hverandre, og da må vi bestemme et gruppe-nummer som alle
-deltagere bruker når man sender informasjon over Bluetooth. I tillegg må vi
-lagre at vi har sendt ut en melding til deltagere, slik at vi ikke sender ut
-flere meldinger før vi har fått svar på den forrige.*
+*Når spillet skal starte så må vi sørge for at alle micro:bitene kan kommunisere
+med hverandre, og da må vi bestemme et gruppe-nummer som alle deltagere bruker
+når man sender informasjon over Bluetooth. I tillegg må vi lagre at vi har sendt
+ut en melding til deltagere, slik at vi ikke sender ut flere meldinger før vi
+har fått svar på den forrige.*
 
 ## Sjekkliste {.check}
 
@@ -167,8 +166,8 @@ over.*
 
 # Steg 4: Sjekke svaret til deltagerne {.activity}
 
-*Etter hver runde må spillederen sjekke hvem av deltagerne som var raskest til
-å herme.*
+*Etter hver runde må spillederen sjekke hvem av deltagerne som var raskest til å
+herme.*
 
 ## Sjekkliste {.check}
 
@@ -181,7 +180,7 @@ over.*
   `hvis-blokk` inni en annen `hvis-blokk`.
 
 - [ ] Dersom `receivedNumber` er lik `1` så tar vi blokken `endre Player1 med 1`
-      fra *Variabler* inni den innerste `hvis-blokken`.
+  fra *Variabler* inni den innerste `hvis-blokken`.
 
 - [ ] Under `endre Player1 med 1` legger du til `radio send tekst` med tallet
   `1`. Da sender vi beskjed til alle om hvem som vant. Legg også til `vis tall`
@@ -328,8 +327,8 @@ programmet med spillernummer mellom hver gang og last ned på nytt.*
 ### OBS! {.protip}
 
 Husk å endre hvilket nummer hver spiller er mellom hver nye microbit du kobler
-til og laster ned programmet til. Du må laste ned programmet på nytt for hver
-av spillerne med de endringene du har gjort.
+til og laster ned programmet til. Du må laste ned programmet på nytt for hver av
+spillerne med de endringene du har gjort.
 
 ## Utfordringer {.challenge}
 
@@ -381,4 +380,3 @@ og den vet hvem som kan administrere hvilke sider og grupper.
 
 Hva hadde skjedd dersom gruppeadministrasjon ble håndtert i klienten? Hvordan
 kunne du da laget din egen klient? Hva kunne du gjort med denne?
-

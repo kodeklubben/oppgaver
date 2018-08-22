@@ -1,8 +1,7 @@
 ---
-title: 'Skjelpadder heile vegen ned'
-level: 3
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: Skjelpadder heile vegen ned
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -29,7 +28,6 @@ _________/      \________
          __/  \__
          \      /
 ____/\___/      \___/\___
-
 ```
 
 ## Sjekkliste {.check}
@@ -45,7 +43,7 @@ ____/\___/      \___/\___
       forward(30)
 
   first()
-  ````
+  ```
 
   Her har me sett det inn i ei prosedyre. Me kjem til å lage prosedyrer for alle
   formene, så la oss leggje dei til i fila me lagar.
@@ -92,7 +90,6 @@ fire gonger.
          __/  \__
          \      /
 ____/\___/      \___/\___
-
 ```
 
 Du kan sjå at me teiknar den andre figuren (det enkle fjellet), så snur me og
@@ -189,7 +186,6 @@ tilfellet. Det er kanskje enklare å sjå på programmet enn å forklare det.
   som under. Me legg til ein ny prosedyre: `snowflake`:
 
   ```python
-
   from turtle import *
 
   def mountain(depth, length):
@@ -233,7 +229,6 @@ La oss sjå på ein annan figur, ein som liknar veldig på snøflaket, men med
 boksar i staden for fjell.
 
 ```
-
 ___________________________
 
         ___________
@@ -250,7 +245,6 @@ ________|         |________
       |_           _|
     _   |         |   _
 ___| |__|         |__| |___
-
 ```
 
 Akkurat som med fjellet er det eit enkelt tilfelle - ei rett linje - og eit

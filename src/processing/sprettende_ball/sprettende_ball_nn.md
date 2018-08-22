@@ -1,8 +1,7 @@
 ---
-title: 'Sprettande ball'
-level: 1
-author: 'Sigmund Hansen'
-translator: 'Stein Olav Romslo'
+title: Sprettande ball
+author: Sigmund Hansen
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -48,20 +47,20 @@ Her er ei oversikt over korleis ein skriv teikn me ofte brukar i både Processin
 og andre programmeringsspråk.
 
 | Teikn | Windows/Linux            | Mac                           |
-|:-----:| ------------------------ | ----------------------------- |
-| `;`   | `shift + ,`              | `shift + ,`                   |
-| `"`   | `shift + 2`              | `shift + 2`                   |
+| :---: | ------------------------ | ----------------------------- |
+|  `;`  | `shift + ,`              | `shift + ,`                   |
+|  `"`  | `shift + 2`              | `shift + 2`                   |
 | `\'`  | `\'` (til høgre for Æ)   | `\'` (til venstre for 1)      |
-| `\|`  | `\|` (til venstre for 1) | `alt + 7`                     |
+| `\|'  | `\|` (til venstre for 1) | `alt + 7`                     |
 | `\&`  | `shift + 6`              | `shift + 6`                   |
-| `+`   | `+` (til høgre for 0)    | `+` (til høgre for 0)         |
-| `-`   | `-` (til høgre for .)    | `-` (til høgre for .)         |
-| `*`   | `shift + '`              | `shift + @` (til høgre for Æ) |
-| `/`   | `shift + 7`              | `shift + 7`                   |
+|  `+`  | `+` (til høgre for 0)    | `+` (til høgre for 0)         |
+|  `-`  | `-` (til høgre for .)    | `-` (til høgre for .)         |
+|  `*`  | `shift + '`              | `shift + @` (til høgre for Æ) |
+|  `/`  | `shift + 7`              | `shift + 7`                   |
 | `\[`  | `alt gr + 8`             | `alt + 8`                     |
 | `\]`  | `alt gr + 9`             | `alt + 9`                     |
-| `{`   | `alt gr + 7`             | `shift + alt + 8`             |
-| `}`   | `alt gr + 0`             | `shift + alt + 9`             |
+|  `{`  | `alt gr + 7`             | `shift + alt + 8`             |
+|  `}`  | `alt gr + 0`             | `shift + alt + 9`             |
 
 ## Utforsking {.challenge}
 
@@ -196,7 +195,7 @@ kanten av vindauget med verdiane `640` for X og `480` for Y. Dette vart bestemt
 av `size(640, 480)`.
 
 **Tips:** Ein kan teikne opp ting utanfor biletet med negative tal eller tal som
- er større enn dei som vart brukt i `size`.
+er større enn dei som vart brukt i `size`.
 
 
 # Steg 3: Variablar {.activity}
@@ -243,7 +242,7 @@ grunnen til at det heiter ein variabel: *verdien kan variere*.
   halvparten av breidda. Kva gir `height / 2`?
 
   **Tips:** Me kunne ha brukt `width * 0.5` for å få det same, breidda ganga med
-   ein halv. Nokre gonger er det enklare med deling, andre gonger med ganging.
+  ein halv. Nokre gonger er det enklare med deling, andre gonger med ganging.
 
 - [ ] Lagre og køyr programmet, viss du ikkje har gjort det allereie.
 
@@ -328,9 +327,9 @@ viss du kastar den i ein vegg.
   engelsk.
 
   **Notis:** La du merke til at variablane fekk verdiar med ein gong, medan me
-   tidlegare ga dei verdiar inni `setup`? Grunnen til det er at me ikkje kan
-   bruke `width` og `height` før `size` er køyrt, så me kunne ikkje gi `x` og
-   `y` verdiar med ein gong.
+  tidlegare ga dei verdiar inni `setup`? Grunnen til det er at me ikkje kan
+  bruke `width` og `height` før `size` er køyrt, så me kunne ikkje gi `x` og `y`
+  verdiar med ein gong.
 
 - [ ] Legg til koden under i `draw` for å få ballen til å snu. Merk at me endrar
   setninga det me aukar `x` og fjernar to av diskane.

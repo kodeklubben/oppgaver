@@ -1,7 +1,6 @@
 ---
 title: Kryptonøtt
-level: 4
-author: 'Arve Seljebu'
+author: Arve Seljebu
 language: nb
 ---
 
@@ -40,7 +39,8 @@ Denne koden fungerer best med python 3. Dersom du har python 2, må du legge en
 
 - [ ] Legg til kommentarer med `#` over/bak hver linjene med din forklaring.
 
-```python """Vigenere encoding, by Arve Seljebu(arve@seljebu.no), MIT License,
+```python
+"""Vigenere encoding, by Arve Seljebu(arve@seljebu.no), MIT License,
 2014"""
 
 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅabcdefghijklmnopqrstuvwxyzæøå
@@ -65,8 +65,8 @@ def vigenere_encode(msg, key):
 message = 'My first computer program was a song called Popcorn written in
 QBasic. The second computer program I made was a bot made for IRC.' keyword =
 'source'
-
-encrypted = vigenere_encode(message, keyword) print(encrypted) ```
+encrypted = vigenere_encode(message, keyword) print(encrypted)
+```
 
 ## Hint {.protip}
 
@@ -98,16 +98,18 @@ skal se nesten helt lik ut som over.
 - [ ] Og returnere den dekrypterte teksten.
 
 - [ ] Test at funksjonen fungerer og prøv med dine egne strenger og
-      krypteringsnøkler.
+  krypteringsnøkler.
 
 - [ ] Kanskje du kan dele nøkkelen og sende den krypterte teksten til en venn?
 
 ## Cracking {.check}
 
 - [ ] Du skal nå prøve å knekke en kodet streng. Dette er vanskelig, så du må
-      lage en plan først. Strengen er:
+  lage en plan først. Strengen er:
 
-`q0Ø:;AI"E47FRBQNBG4WNB8B4LQN8ERKC88U8GEN?T6LaNBG4GØ""N6K086HB"Ø8CRHW"+LS79Ø""N29QCLN5WNEBS8GENBG4FØ47a`
+```
+q0Ø:;AI"E47FRBQNBG4WNB8B4LQN8ERKC88U8GEN?T6LaNBG4GØ""N6K086HB"Ø8CRHW"+LS79Ø""N29QCLN5WNEBS8GENBG4FØ47a
+```
 
 ## Hint {.protip}
 
@@ -130,14 +132,16 @@ under **/usr/share/dict**. Bruker du Windows, kan du laste ned en slik fil fra
 internett. Søk på *large english vocabulary word lists*.
 
 - [ ] Disse filene inneholder alle ord som finnes i en engelsk ordbok, separert
-      med linjeskift. Finn ut hvordan du kan laste inn ordene fra filen (pass på
-      at du fjerner linjeskiftene) og bruk dem til å dekryptere en ny streng:
+  med linjeskift. Finn ut hvordan du kan laste inn ordene fra filen (pass på at
+  du fjerner linjeskiftene) og bruk dem til å dekryptere en ny streng:
 
-`t-JO:BK0aM,:CQ+ÆAGW?FJGB0KVCGMQ6SQN"GAIDL-PÅ7954E:7Jr,IÆoCF0M"CQdØVlHD53CÅ;IA2DMG5ØHDØVåL:JQØ439LRBBVEMTBÆ6CF0M"CQNAG8G1V6LÅ8FF4Z`
+```
+t-JO:BK0aM,:CQ+ÆAGW?FJGB0KVCGMQ6SQN"GAIDL-PÅ7954E:7Jr,IÆoCF0M"CQdØVlHD53CÅ;IA2DMG5ØHDØVåL:JQØ439LRBBVEMTBÆ6CF0M"CQNAG8G1V6LÅ8FF4Z
+```
 
 - [ ] Bruk metodene du laget i oppgaven over for å detektere om vi har funnet
-      riktig nøkkel. Dersom du kjører scriptet ditt med kommandoen `time python3
-      vigenere.py` kan du se hvor lang tid den bruker.
+  riktig nøkkel. Dersom du kjører scriptet ditt med kommandoen `time python3
+  vigenere.py` kan du se hvor lang tid den bruker.
 
 ## Premie {.flag}
 
@@ -145,4 +149,3 @@ Dersom du klarer denne nøtten, spanderer jeg gjerne en sjokolade på deg dersom
 du deler koden din. Send en epost til arve@seljebu.no :-)
 
 [Hemmelige koder]: ../hemmelige_koder/hemmelige_koder.html
-

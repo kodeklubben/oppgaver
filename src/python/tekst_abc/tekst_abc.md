@@ -1,7 +1,6 @@
 ---
-title: 'Tekst ABC'
-level: 3
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
+title: Tekst ABC
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
 ---
 
@@ -33,41 +32,25 @@ og `s.capitalize()`.
 Legg merke til at funksjonen kalles **på** strengen - `s.lower()` - istedenfor å
 **gi** strengen til funksjonen - `lower(s)`.
 
-
 Her er noen eksempler på hvordan funksjonene brukes (legg merke til hvilke
 bokstaver som er store og små i utskriften):
 
 ```python
 >>> s = "Per og Ada"
->>> s.upper()        
 
-
-# store bokstaver
-
+>>> s.upper()        # store bokstaver
 'PER OG ADA'
->>> s.lower()        
 
-
-# små bokstaver
-
+>>> s.lower()        # små bokstaver
 'per og ada'
->>> s.capitalize()   
 
-
-# første bokstav er stor
-
+>>> s.capitalize()   # første bokstav er stor
 'Per og ada'
->>> s.title()        
 
-
-# første bokstav i hvert ord er stor
-
+>>> s.title()        # første bokstav i hvert ord er stor
 'Per Og Ada'
->>> s.swapcase()     
 
-
-# bytter stor og små
-
+>>> s.swapcase()     # bytter stor og små
 'pER oG aDA'
 ```
 
@@ -86,6 +69,7 @@ Her er noen eksempler på hva funksjonene kan brukes til:
 
   ```python
   >>> movie_title = "star wars: a new hope"
+
   >>> movie_title.title()
   'Star Wars: A New Hope'
   ```
@@ -95,21 +79,15 @@ Her er noen eksempler på hva funksjonene kan brukes til:
 
   ```python
   >>> answer = "JA"
-  >>> answer == "ja"  
 
-
-# JA og ja er ikke lik
-
+  >>> answer == "ja"  # JA og ja er ikke lik
   False
   ```
 
   ```python
   >>> answer = "JA"
-  >>> answer.lower() == "ja"  
 
-
-# konverter JA til ja for testen
-
+  >>> answer.lower() == "ja"  # konverter JA til ja for testen
   True
   ```
 
@@ -118,28 +96,16 @@ lagre resultatet i en ny variabel om du vil beholde endringen din:
 
 ```python
 >>> s = "tekst"
->>> s.upper()  
 
-
-# Vi endrer ikke på variabelen!!
-
+>>> s.upper()  # Vi endrer ikke på variabelen!!
 'TEKST'
->>> s  
 
-
-# Fremdeles små bokstaver
-
+>>> s  # Fremdeles små bokstaver
 'tekst'
->>> s = s.upper()  
 
+>>> s = s.upper()  # Nå endrer vi på variabelen
 
-# Nå endrer vi på variabelen
-
->>> s  
-
-
-# Denne gangen er det store bokstaver
-
+>>> s  # Denne gangen er det store bokstaver
 'TEKST'
 ```
 
@@ -184,6 +150,7 @@ datamaskinen gjøre det:
 
 ```python
 >>> s = "A, B, C, D, E, F, G, H, I, J, K, L"
+
 >>> s.count(",")
 11
 ```
@@ -192,6 +159,7 @@ Vi kan også telle tekst som er lengre, for eksempel `"Per"`:
 
 ```python
 >>> s = "Per, Ada, Kim, Per, Kim, Per"
+
 >>> s.count("Per")
 3
 ```
@@ -236,6 +204,7 @@ Hva om vi vil bytte ut alle kommaer med semikolon?
 
 ```python
 >>> s = "A, B, C, D, E, F, G, H, I, J, K, L"
+
 >>> s.replace(",", ";")
 'A; B; C; D; E; F; G; H; I; J; K; L'
 ```
@@ -246,6 +215,7 @@ fjerne tekst. Vi kan for eksempel fjerne alle mellomrom:
 
 ```python
 >>> s = "1 2 3 4 5"
+
 >>> s.replace(" ", "")
 '12345'
 ```
@@ -273,4 +243,3 @@ Dette må du gjøre:
 - [ ] Endre filnavnet slik som beskrevet ovenfor
 
 - [ ] Skrive ut det nye filnavnet
-

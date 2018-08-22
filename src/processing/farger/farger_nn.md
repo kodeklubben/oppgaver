@@ -1,8 +1,7 @@
 ---
 title: Farger
-level: 1
-author: 'Sigmund Hansen'
-translator: 'Stein Olav Romslo'
+author: Sigmund Hansen
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -369,8 +368,7 @@ slutt har me `B` som bestemmer kor lys farga skal vere.
   Viss du lurar på reknestykka for plasseringane av diskane, så deer me breidda
   på fire fordi det blir fire tomrom med tre kolonner. Tilsvarande blir det tre
   tomrom i høgda når me har to rader. Ved å dele på antal tomrom får me breidda
-  på avstanden mellom to nabodiskar eller vindaugekanten og den næraste
-  disken.
+  på avstanden mellom to nabodiskar eller vindaugekanten og den næraste disken.
 
 - [ ] Køyr programmet viss du ikkje har gjort det.
 

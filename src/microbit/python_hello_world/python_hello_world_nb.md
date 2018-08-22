@@ -1,8 +1,7 @@
 ---
 title: "Python: Hello, World!"
-level: 2
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/buttons.html)"
-translator: "Øistein Søvik"
+translator: Øistein Søvik
 language: nb
 ---
 
@@ -61,7 +60,7 @@ dette klart ved å bruke tomme parenteser som dette: `()`.
 - [ ] Kopier "Hello, World!" koden inn i editoren din og flash den til enheten.
 
 - [ ] Endre meldingen slik at den sier hallo til deg. For eksempel, så ville jeg
-      kanskje få den til å si "Hallo, Øistein!".
+  kanskje få den til å si "Hallo, Øistein!".
 
 Her er et hint, du trenger å endre `scroll` metoden sitt argument.
 

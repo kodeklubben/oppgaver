@@ -1,13 +1,12 @@
 ---
 title: Gjetteleik
-level: 3
-author: 'Ole Kristian Pedersen, Kodeklubben Trondheim'
-translator: 'Stein Olav Romslo'
+author: Ole Kristian Pedersen, Kodeklubben Trondheim
+translator: Stein Olav Romslo
 language: nn
 ---
 
 
-# Gjett eit tal!  {.intro}
+# Gjett eit tal! {.intro}
 
 I denne oppgåva skal du lage eit spel som kallast gjetteleik. Det er meininga at
 du skal skrive all koden sjølv, men sjølvsagt får du nokre hint.
@@ -28,7 +27,7 @@ Spelet er som følgjer:
     avslutte.
 
 4. Så lenge spelaren ikkje har gjetta riktig tal, så må programmet spørje om eit
-nytt tal (brukaren har uendeleg mange forsøk).
+  nytt tal (brukaren har uendeleg mange forsøk).
 
 Slik ser det ut når programmet køyrer:
 
@@ -66,11 +65,15 @@ tal, ved hjelp av `int()`.
 Kva er skilnaden på desse kodesnuttane? Køyr koden og test sjølv!
 
 ```python
-tal = input("Skriv eit tal: ") svar = 3 + tal print(svar)
+tal = input("Skriv eit tal: ")
+svar = 3 + tal
+print(svar)
 ```
 
 ```python
-tal = int(input("Skriv eit tal: ")) svar = 3 + tal print(svar)
+tal = int(input("Skriv eit tal: "))
+svar = 3 + tal
+print(svar)
 ```
 
 ## Kontrollstrukturar {.protip}
@@ -85,8 +88,9 @@ Døme på kontrollstrukturar er `for`-løkker, `while`-løkker og
   __Døme:__
 
   ```python
-  # skriv ut ti tal for i in range(10):
-        print('variabelen i er: ' + str(i))
+  # skriv ut ti tal
+  for i in range(10):
+      print('variabelen i er: ' + str(i))
   ```
 
 - Me brukar `while`-løkker når me vil gjere noko heilt til ein variabel endrar
@@ -96,8 +100,10 @@ Døme på kontrollstrukturar er `for`-løkker, `while`-løkker og
 
   ```python
   a = 0
-  # så lenge variabelen `a` ikkje er lik `10` while a != 10:
-       print(a) a = a + 1
+  # så lenge variabelen `a` ikkje er lik `10`
+  while a != 10:
+       print(a)
+       a = a + 1
   ```
 
   Prøv å sjå kva som skjer viss du ikkje tek med linja `a = a + 1`.
@@ -108,9 +114,12 @@ Døme på kontrollstrukturar er `for`-løkker, `while`-løkker og
   __Døme:__
 
   ```python
-  a = 1 if a == 2:
-    print('a er 2') elif a == 3:
-    print('a er 3') else:
+  a = 1
+  if a == 2:
+    print('a er 2')
+  elif a == 3:
+    print('a er 3')
+  else:
     print('a er ikkje 2 og ikkje 3')
   ```
 
