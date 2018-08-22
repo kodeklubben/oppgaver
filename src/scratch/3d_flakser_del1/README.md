@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - 3D-flakser
 author: Stein Olav Romslo
-level: 4
 language: nb
 ---
 
