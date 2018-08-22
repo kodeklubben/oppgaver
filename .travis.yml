@@ -26,7 +26,7 @@ deploy:
   skip-cleanup: true
   keep-history: true
   local-dir: ../codeclub-viewer/dist
-  repo: norwegiankiwi/kodeklubben.github.io
+  repo: kodeklubben/kodeklubben.github.io
   target-branch: master
   fqdn: oppgaver.kidsakoder.no
   on:
