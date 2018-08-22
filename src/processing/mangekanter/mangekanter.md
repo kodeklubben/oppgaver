@@ -1,7 +1,6 @@
 ---
-title: 'Kanter, kanter, mange mangekanter'
-level: 2
-author: 'Sigmund Hansen'
+title: Kanter, kanter, mange mangekanter
+author: Sigmund Hansen
 language: nb
 ---
 
@@ -71,10 +70,11 @@ datamaskinen.
     størrelse som firkanten?
 
   - [ ] Vi har også tatt i bruk `+=`. `x += 1;` gjør det samme som `x = x + 1;`
-  Dette er bare en forkortelse for det siste. Altså øk `x` med det som står på
-  høyresiden av `+=`.
+    Dette er bare en forkortelse for det siste. Altså øk `x` med det som står på
+    høyresiden av `+=`.
 
 - [ ] Kjør programmet ved å trykke på **Ctrl + R** eller knappen
+
   ![Play - En knapp i verktøylinjen merket med pil](../play.png "Play - En knapp i verktøylinjen merket med pil")
 
   ![En hvit firkant spretter rundt på en svart bakgrunn.](SprettendeFirkant.gif
@@ -290,11 +290,18 @@ spretter rundt på en svart bakgrunn.")
 I begynnelsen av `draw` har vi nå lagt inn noe som kalles en løkke, *loop* på
 engelsk. En løkke er en del med kode som utføres flere ganger. Det finnes andre
 slags løkker, og denne kalles en *for-løkke*. Inne i parentesene etter `for` har
-vi tre setninger. Den første, `int i = 0`, blir utført før løkken. Den neste, `i
-< x.length`, bestemmer om koden i løkken skal utføres eller om løkken er ferdig.
-Den siste, `i++`, utføres etter koden mellom krøllparentesene, altså innholdet i
-løkken. `i` bruker vi inne i løkken som indeks når vi jobber med arrayene
-istedenfor å skrive faste tall.
+vi tre setninger:
+
+* Den første, `int i = 0`, blir utført før løkken.
+
+* Den neste, `i < x.length`, bestemmer om koden i løkken skal utføres eller om
+  løkken er ferdig.
+
+* Den siste, `i++`, utføres etter koden mellom krøllparentesene, altså innholdet
+  i løkken.
+
+`i` bruker vi inne i løkken som indeks når vi jobber med arrayene istedenfor å
+skrive faste tall.
 
 Så om vi går gjennom koden steg for steg, ser vi at først lages en variabel `i`
 av typen `int` som starter med verdien `0`. `int` er typen som brukes for tall
@@ -422,4 +429,3 @@ osv.
   kanten av vinduet. Det er fordi vi egentlig lar den bevege seg litt utenfor
   vinduet for så å snu. Sett `x` eller `y` til å være lik posisjonen til
   vinduskanten inne i `if`-setningene for å unngå det.
-

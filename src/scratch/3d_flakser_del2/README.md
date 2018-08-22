@@ -104,9 +104,9 @@ et lengre undervisningsopplegg.
 
 ## Fremgangsmåte
 
-[Klikk her for å se oppgaveteksten for del 1.](../3d_flakser_del1/3d_flakser_1.html){target=_blank}
+[Klikk her for å se oppgaveteksten for del 1.](../3d_flakser_del1/3d_flakser_del1.html){target=_blank}
 
-[Klikk her for å se oppgaveteksten for del 2.](../3d_flakser_del2/3d_flakser_2.html){target=_blank}
+[Klikk her for å se oppgaveteksten for del 2.](../3d_flakser_del2/3d_flakser_del2.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
@@ -126,4 +126,3 @@ oppgaven enda._
 - [ ] Her er en
       [Youtube-video](https://www.youtube.com/watch?v%3DfQoJZuBwrkU){target=_blank}
       av Flappy Bird, som spillet er basert på.
-

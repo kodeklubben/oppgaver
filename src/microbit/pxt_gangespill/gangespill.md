@@ -1,7 +1,6 @@
 ---
-title: 'PXT: Gangespill'
-level: 1
-author: 'Espen Clausen og Tjerand Silde'
+title: "PXT: Gangespill"
+author: Espen Clausen og Tjerand Silde
 language: nb
 ---
 
@@ -118,4 +117,3 @@ sammen blir det 28.*
 - [ ] Klarer du lage et potens-spill?
 
 - [ ] Klarer du lage et spill som bruker et annet tallsystem enn titallsystemet?
-

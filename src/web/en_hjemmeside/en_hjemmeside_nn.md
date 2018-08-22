@@ -1,8 +1,7 @@
 ---
-title: 'HTML: Me byggjer heimeside'
-level: 1
-author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
+title: "HTML: Me byggjer heimeside"
+author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
+translator: Stein Olav Romslo
 language: nn
 ---
 

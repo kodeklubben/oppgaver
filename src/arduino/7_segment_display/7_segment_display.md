@@ -1,7 +1,6 @@
 ---
-title: '7-Segment Display'
-author: 'Martin Ertsås & Morten Minde Neergaard'
-level: 2
+title: 7-Segment Display
+author: "Martin Ertsås & Morten Minde Neergaard"
 language: nb
 ---
 
@@ -44,7 +43,6 @@ se hvilke pinner som lyser opp hvilken del av displayet.
 ![utforskning](utforskning.jpg)
 
 ```cpp
-
 int pin = 13;
 
 void setup() {
@@ -57,7 +55,6 @@ void loop() {
     pinMode(pin, LOW);
     delay(500);
 }
-
 ```
 
 Flytt så rundt på ledningen som står i breadboardet for å se hvilke pinner på
@@ -215,10 +212,12 @@ void loop() {
 
 ### Om switch {.protip}
 
-Her har vi introdusert switch. Denne kan minne om en if, hvor
-<code>switch&nbsp;(tall)</code> sjekker verdien av tall, og finner riktig verdi
-i `case` kallene under. Så når tallet er 2 vil vi gå til `case 2:` og eksekvere
-koden under dette. `break` vil si at vi er ferdige med casen.
+La oss introdusere begrepet *switch*:
+
+Denne kan minne om en if, hvor <code>switch&nbsp;(tall)</code> sjekker verdien
+av tall, og finner riktig verdi i `case` kallene under. Så når tallet er 2 vil
+vi gå til `case 2:` og eksekvere koden under dette. `break` vil si at vi er
+ferdige med casen.
 
 Dersom en `case` mangler `break`, vil koden som er under kjøre. Altså neste
 `case`. Dette kalles å _falle gjennom_, eller _fall through_ på engelsk. Dette
@@ -244,8 +243,8 @@ switch (tall) {
 
 + Dersom `tall != 0 && tall != 1` kjøres koden i default.
 
-Hvis verdien av `tall` ikke matcher noen `case` linjene vil vi eksekvere koden
-i `default`.
+Hvis verdien av `tall` ikke matcher noen `case` linjene vil vi eksekvere koden i
+`default`.
 
 Så i vår kode, når `tall` er 4 vil vi treffe `default`, sette tall til 0 og så
 tegne 0. Dette er grunnen til at vi begynner på igjen på 0 etter vi har telt til
@@ -262,4 +261,3 @@ tegne 0. Dette er grunnen til at vi begynner på igjen på 0 etter vi har telt t
 
 - [ ] Klarer du å legge til en ekstra knapp som teller nedover, så én knapp
   teller oppover, og den andre nedover?
-

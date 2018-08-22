@@ -1,6 +1,5 @@
 ---
 title: "PXT: Terning"
-level: 1
 author: Geir Arne Hjelle
 language: nb
 ---
@@ -90,7 +89,7 @@ tips om du står fast!
 # Steg 3: Terningen ruller {.activity}
 
 *En terning lander jo ikke bare på en side, den ruller og viser mange sider før
- den stopper.*
+den stopper.*
 
 ## Sjekkliste {.check}
 
@@ -98,8 +97,8 @@ tips om du står fast!
   den viser flere forskjellige tall før den tilslutt stopper på ett av dem.
 
   For å gjøre en ting flere ganger bruker vi __løkker__. Hent klossen `gjenta 4
-    ganger` fra `Løkker`-kategorien. Legg den rundt `vis tall`-klossen på denne
-    måten:
+  ganger` fra `Løkker`-kategorien. Legg den rundt `vis tall`-klossen på denne
+  måten:
 
   ![Bilde av koden for å få terningen til å "rulle"](risteskript_2.png)
 
@@ -172,4 +171,3 @@ helt eget!
 - [ ] Kanskje du kan bruke `A`- eller `B`-knappen til å bestemme hvor mange
   terninger som kastes? Da trenger du en variabel, `antall kast`, og en løkke
   som gjentas `antall kast` ganger.
-

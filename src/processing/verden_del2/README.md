@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Verden del 2
 author: Stein Olav Romslo
-level: 2
 language: nb
 ---
 
@@ -18,7 +17,7 @@ riktige klikk.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, programmering, samfunnsfag.
+__Fag__: Matematikk, programmering, samfunnsfag.
 
 __Anbefalte trinn__: 8. trinn til VG3.
 
@@ -30,39 +29,37 @@ undervisningsopplegg over lengre tid.
 ## Kompetansemål {.challenge}
 
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
 
 - [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-      å skrive hensiktsmessige kommentarer og ved å presentere egen og andres
-      kode
+  å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
 
 - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-      ett er tekstbasert
+  ett er tekstbasert
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 - [ ] __Samfunnsfag, 4. trinn__: setje namn på og plassere landa i Norden,
-      verdshava og verdsdelane og finne geografiske nemningar på kart
+  verdshava og verdsdelane og finne geografiske nemningar på kart
 
 - [ ] __Samfunnsfag, 10. trinn__: lese, tolke og bruke papirbaserte og digitale
-      kart, målestokk og kartteikn
+  kart, målestokk og kartteikn
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan plassere ulike elementer på bestemte plasser i et
-      koordinatsystem.
+  koordinatsystem.
 
 - [ ] Elevene kan skrive ryddig kode med hensiktsmessige kommentarer, slik at de
-      selv kan videreutvikle koden.
+  selv kan videreutvikle koden.
 
 - [ ] Elevene kan registrere musepekerens posisjon på skjermen, og bruke dette i
-      koden sin.
+  koden sin.
 
 - [ ] Elevene kan bruke variabler for å returnere tilfeldige verdensdeler og
-      holde styr på poeng.
+  holde styr på poeng.
 
 - [ ] Elevene kan lese et digitalt verdenskart.
 
@@ -80,11 +77,11 @@ del andre nyttige tips til hvordan man underviser i programmering.
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Elevene bør kjenne til Processing. Elevene må ha gjort
-       [Verden del 1](../verden_del1/verden_del1.html){target=_blank} først.
+  [Verden del 1](../verden_del1/verden_del1.html){target=_blank} først.
 
 - [ ] __Utstyr__: Datamaskiner med
-       [Processing](https://www.processing.org/download/){target=_blank}
-       installert. Elevene kan gjerne jobbe to og to sammen.
+  [Processing](https://www.processing.org/download/){target=_blank} installert.
+  Elevene kan gjerne jobbe to og to sammen.
 
 ## Fremgangsmåte
 
@@ -96,10 +93,10 @@ oppgavene enda._
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan lage bedre tilpassinger av grensene ved å bruke irregulære
-      mangekanter.
+  mangekanter.
 
 - [ ] Elevene kan lage tilsvarende spill på egne kart (en enkelt verdensdel,
-      Norge, solsystemet...)
+  Norge, solsystemet...)
 
 ## Eksterne ressurser {.challenge}
 

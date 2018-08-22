@@ -1,8 +1,7 @@
 ---
 title: Teiknespelet
-level: 1
-author: 'Kine Gjerstad Eide og Ruben Gjerstad Eide'
-translator: 'Stein Olav Romslo'
+author: Kine Gjerstad Eide og Ruben Gjerstad Eide
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -32,7 +31,7 @@ til nesten alle program me lagar i Processing.
 
 - [ ] Start Processing og skriv dette:
 
-```Processing
+```processing
 void setup(){
     size(640, 420);
     background(0, 0, 0);
@@ -52,19 +51,19 @@ og andre programmeringsspråk.
 
 | Teikn | Windows/Linux            | Mac                           |
 |:-----:| ------------------------ | ----------------------------- |
-| `;`   | `shift + ,`              | `shift + ,`                   |
-| `"`   | `shift + 2`              | `shift + 2`                   |
-| `\'`  | `\'` (til høgre for Æ)   | `\'` (til venstre for 1)      |
-| `\|`  | `\|` (til venstre for 1) | `alt + 7`                     |
-| `\&`  | `shift + 6`              | `shift + 6`                   |
-| `+`   | `+` (til høgre for 0)    | `+` (til høgre for 0)         |
-| `-`   | `-` (til høgre for .)    | `-` (til høgre for .)         |
-| `*`   | `shift + '`              | `shift + @` (til høgre for Æ) |
-| `/`   | `shift + 7`              | `shift + 7`                   |
-| `\[`  | `alt gr + 8`             | `alt + 8`                     |
-| `\]`  | `alt gr + 9`             | `alt + 9`                     |
-| `{`   | `alt gr + 7`             | `shift + alt + 8`             |
-| `}`   | `alt gr + 0`             | `shift + alt + 9`             |
+|  `;`  | `shift + ,`              | `shift + ,`                   |
+|  `"`  | `shift + 2`              | `shift + 2`                   |
+|  `\'` | `\'` (til høgre for Æ)   | `\'` (til venstre for 1)      |
+|  `\|` | `\|` (til venstre for 1) | `alt + 7`                     |
+|  `\&` | `shift + 6`              | `shift + 6`                   |
+|  `+`  | `+` (til høgre for 0)    | `+` (til høgre for 0)         |
+|  `-`  | `-` (til høgre for .)    | `-` (til høgre for .)         |
+|  `*`  | `shift + '`              | `shift + @` (til høgre for Æ) |
+|  `/`  | `shift + 7`              | `shift + 7`                   |
+|  `\[` | `alt gr + 8`             | `alt + 8`                     |
+|  `\]` | `alt gr + 9`             | `alt + 9`                     |
+|  `{`  | `alt gr + 7`             | `shift + alt + 8`             |
+|  `}`  | `alt gr + 0`             | `shift + alt + 9`             |
 
 ## Prøv dette {.check}
 
@@ -107,8 +106,12 @@ Koden din skal sjå slik ut så langt. Hugs at tala inni parentesane ikkje
 nødvendigvis er heilt lik det du har, det tyder berre at du har ein anna
 storleik på vindauget ditt, eller ei anna bakgrunnsfarge.
 
-![Bilete av fyrste del av koden i Processing](steg1.png)
-
+```processing
+void setup(){
+    size(640, 420);
+    background(0, 0, 0);
+}
+```
 
 # Steg 2: Teikne med diskar! {.activity}
 
@@ -118,7 +121,7 @@ Me lagar ein ny metode som me kallar `draw`, den skal òg vere `void`.
 
 - [ ] Skriv denne koden:
 
-```Processing
+```processing
 void draw(){
 
 }
@@ -129,7 +132,7 @@ void draw(){
 
 - [ ] Skriv denne koden i `draw`-metoden for å få noko å teikne med!
 
-```Processing
+```processing
     fill(100, 100, 255);
     ellipse(mouseX, mouseY, 50, 50);
 ```
@@ -182,4 +185,14 @@ Til slutt ser du eit bilete av heile koden vår. Sjekk om koden din liknar på d
 me har. Hugs at tala inne i parentesane heilt sikkert er ulike frå dei du har i
 koden din, men oppsettet bør vere likt.
 
-![Bilete av heile koden i Processing](helekoden.png)
+```processing
+void setup(){
+  size(640, 420);
+  background(0, 0, 0);
+}
+
+void draw(){
+  fill(100, 100, 255);
+  ellipse(mouseX, mouseY, 50, 50);
+}
+```

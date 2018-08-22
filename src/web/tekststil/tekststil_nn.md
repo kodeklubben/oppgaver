@@ -1,8 +1,7 @@
 ---
-title: 'CSS: Endre utsjånad og stil på tekst'
-author: 'Arve Seljebu'
-translator: 'Stein Olav Romslo'
-level: 2
+title: "CSS: Endre utsjånad og stil på tekst"
+author: Arve Seljebu
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -228,7 +227,7 @@ sette ein `ID`, men no brukar me `class`.
 
 ```html
 <p class="stor">Han forsvann frå hagen i går.</p>
-<p class="stor"><strong>Takk!</strong><p>
+<p class="stor"><strong>Takk!</strong></p>
 ```
 
 Så set me stilen slik at teksten er større for alle avsnitt med `class="stor"`
@@ -345,7 +344,7 @@ Del inn nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html).
     <p class="stor">Han forvann frå hagen i går.</p>
     <p id="utheva">Har du sett Felix? Ver snill og kontakt eigaren hans på <a
       href="mailto:eigarentilfelix@email.com">eigarentilfelix@email.com</a></p>
-    <p class="stor">Takk!<p>
+    <p class="stor">Takk!</p>
 </body>
 </html>
 ```

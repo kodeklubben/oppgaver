@@ -1,8 +1,7 @@
 ---
-title: 'JS: Trykkomania'
-level: 2
-author: 'Arve Seljebu'
-translator: 'Stein Olav Romslo'
+title: "JS: Trykkomania"
+author: Arve Seljebu
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -191,12 +190,12 @@ ein funksjon som flyttar ballen.
 
 - [ ] Funksjonen skal bestemme `el.style.top` og `el.style.left`.
 
-   ```js
+  ```js
    el.posisjon = function (x, y) {
      el.style.left = x;
      el.style.top = y;
    };
-   ```
+  ```
 
 - [ ] Returner `el` slik at me kan bruke funksjonane til ballen. Når elementet
   `el` returnerast vil `el` oppdaterast med ny plassering.
@@ -426,7 +425,7 @@ på same måte som `Ball`, så du må gjerne lese gjennom og sjå om du forstår
   ```
 
   **OBS!** Det skal **ikkje** vere `()` på slutten av `poeng.auk`. Det er fordi
-   funksjonen ikkje blir køyrt her, men kvar gong nokon klikkar på ballen.
+  funksjonen ikkje blir køyrt her, men kvar gong nokon klikkar på ballen.
 
 - [ ] `ball.onclick = poeng.auk;` tyder at funksjonen `poeng.auk()` køyrast når
   nokon klikkar på ballen.
@@ -468,7 +467,7 @@ mobiltelefonen din.
   ![Bilete av adressa til sida øvst i nettlesaren](adresse.png)
 
 - [ ] Adressa du treng å taste inn på mobilen er det som står *før*
-  `/edit?js,output`
+  '/edit?js,output'.
 
 - [ ] I dømet over er adressa `jsbin.com/dutebe`.
 

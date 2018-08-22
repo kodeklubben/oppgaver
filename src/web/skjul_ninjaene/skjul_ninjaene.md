@@ -1,8 +1,7 @@
 ---
-title: 'CSS: Skjul ninjaene'
-level: 3
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Trude Martinsen'
+title: "CSS: Skjul ninjaene"
+author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
+translator: Trude Martinsen
 language: nb
 ---
 
@@ -31,11 +30,11 @@ Fort – det er ingen tid å miste!
 - [ ] Åpne `ninjaer.html` i nettleseren for å se hvordan den ser ut
 
 - [ ] Les gjennom koden. Kan du gjette hvilken del av koden som hører til delene
-      i gatene? Legg merke til av vi bruker to språk her: `HTML` for å legge til
-      elementene på siden, og `CSS` plassert mellom `<style>`-taggene
+  i gatene? Legg merke til av vi bruker to språk her: `HTML` for å legge til
+  elementene på siden, og `CSS` plassert mellom `<style>`-taggene
 
 - [ ] Elementene vi skal leke med er bildene, `<img>`-taggen. Vi kan ta kontroll
-      over deres plassering ved å bruke CSS.
+  over deres plassering ved å bruke CSS.
 
 **Kom igjen – La oss flytte en ninja!**
 
@@ -55,8 +54,8 @@ ninjaen skal plasseres (antall pixler) og `top` forteller nettleseren hvor langt
 ninjaen skal flyttes ned fra toppen.
 
 - [ ] Endre `left` til `right` og `top` til `bottom`. Nå vil koden fortelle
-      nettleseren at den skal plassere ninjaen `100px` fra den høyre kanten og
-      `320px` fra bunnen.
+  nettleseren at den skal plassere ninjaen `100px` fra den høyre kanten og
+  `320px` fra bunnen.
 
 Pixel er en måleenhet som vi bruker til å forklare hvor stort et element skal
 være eller hvor det skal plasseres på siden. Hvis du endrer `right` fra `100px`
@@ -87,8 +86,8 @@ forskjellige betydninger.
 - [ ] Finn `soppelkasse`-elementet i CSSen.
 
 - [ ] Bytt ut verdiene `190px` og `460px` i `soppelkasse`-elementet med
-      prosenter sånn at søppelkassen står på ca. samme sted som den gjør nå.
-      Trenger ikke være helt nøyaktig.
+  prosenter sånn at søppelkassen står på ca. samme sted som den gjør nå. Trenger
+  ikke være helt nøyaktig.
 
 
 # Steg 3:  En størrelsetype til {.activity}
@@ -102,10 +101,10 @@ Legg merke til at på toppen av CSS-en, definerte vi `font-size` i `body`-taggen
 som `20px`, så én `em` vil være `20px`.
 
 - [ ] La oss teste dette ut, finn `body` i CSSen. Endre `font-size` verdien til
-      `30px`. Hva skjedde
+  `30px`. Hva skjedde
 
 - [ ] Studer koden og får å finne elementene som skal flytte på seg når
-      `font-size` endres
+  `font-size` endres
 
 - [ ] Flytter de riktige elementene på seg?
 
@@ -132,9 +131,10 @@ Her er et bilde som beskriver `z-index`:
 - [ ] Prøv å endre på `z-index`-verdien og se hva som skje
 
 - [ ] Legg til `z-index` på et element og se om du kan få elementet til å legge
-      seg bak eller foran et annet
+  seg bak eller foran et annet
 
 __Eksempel:__
+
 ```css
   #andre_objekter{
     z-index: 1;
@@ -148,7 +148,7 @@ __Eksempel:__
 - [ ] Bytt tilbake og forbered deg på redde ninjaene!
 
 
-# Steg 5: Fort deg, skjul ninjaene!  {.activity}
+# Steg 5: Fort deg, skjul ninjaene! {.activity}
 
 - [ ] Se gjennom koden, finn ut hvilke elementer du kan hjemme ninjaene bak
 
@@ -164,14 +164,14 @@ __LYKKE TIL!__
 ## Ting du kan prøve: {.challenge}
 
 - [ ] Legg gjerne til `z-index` eller endre `position` i CSS-en på de elementene
-      du føler trenger de
+  du føler trenger de
 
 - [ ] Kan du finne ut hvordan du kan få ninjaene til å komme foran noen av
-      gateobjektene? Hva skjer om du kopierer `<img>`-taggen for ninjaen etter
-      `<img>`-taggen som viser objektet
+  gateobjektene? Hva skjer om du kopierer `<img>`-taggen for ninjaen etter
+  `<img>`-taggen som viser objektet
 
 - [ ] Klarer du å legge til flere objekter på scenen? Du kan legge til bilder
-      fra datamaskinen din, eller finne noen på internett.
+  fra datamaskinen din, eller finne noen på internett.
 
 ## __Eksempel:__
 
@@ -271,7 +271,8 @@ __LYKKE TIL!__
    /* Other objects (you can't move these) */
 
  </style>
-<style id="jsbin-css"></style></head>
+<style id="jsbin-css"></style>
+</head>
 <body>
  <div id="gatehjorne">
 

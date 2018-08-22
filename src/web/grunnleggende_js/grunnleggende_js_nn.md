@@ -1,8 +1,7 @@
 ---
-title: 'JS: Grunnleggjande JavaScript'
-author: 'Lars Klingenberg'
-translator: 'Stein Olav Romslo'
-level: 2
+title: "JS: Grunnleggjande JavaScript"
+author: Lars Klingenberg
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -228,7 +227,7 @@ var tid = dato.getHours(); // Henter timen (klokka) vi er i nå
 Før du skal få ei ny oppgåve må me gå gjennom nokre verktøy me kan bruke i
 `if/else`:
 
-## Forklaring  {.tip}
+## Forklaring {.tip}
 
 - I ein `if(vilkår)` kan me sjekke fleire ting samstundes ved å bruke `&&` eller
   `||`. `&&` tyder `og`, `||` tyder `eller`. Finn du ikkje desse teikna på
@@ -345,7 +344,8 @@ som tek inn ein `parameter` og som skal `returnere` ein verdi.
 Me lagar ein funksjon som konverterer `Fahrenheit` (temperaturskalaen dei brukar
 i USA) til `Celsius`.
 
-- [ ] Slett det du har i JSBin eller åpne eit nytt vindauge i JSBin (File -> New).
+- [ ] Slett det du har i JSBin eller åpne eit nytt vindauge i JSBin (File ->
+  New).
 
 - [ ] Lag følgjande funksjon:
 

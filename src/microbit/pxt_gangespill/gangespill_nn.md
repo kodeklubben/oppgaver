@@ -1,8 +1,7 @@
 ---
-title: 'PXT: Gongespel'
-level: 1
-author: 'Espen Clausen og Tjerand Silde'
-translator: 'Stein Olav Romslo'
+title: "PXT: Gongespel"
+author: Espen Clausen og Tjerand Silde
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -91,9 +90,8 @@ Det er to ulike måtar me kan teste micro:bit-program på:
 # Steg 3: Kontrollere svar {.activity}
 
 *No skal me sjekke at svaret me har gitt er korrekt. Viss ein får beskjed om å
- multiplisere tala 4 og 7, så blir svaret 28. Då må me trykkje to gonger på
- knapp A for å få 20, og åtte gonger på knapp B for å få 8. Til saman blir det
- 28.*
+multiplisere tala 4 og 7, så blir svaret 28. Då må me trykkje to gonger på knapp
+A for å få 20, og åtte gonger på knapp B for å få 8. Til saman blir det 28.*
 
 ## Sjekkliste {.check}
 

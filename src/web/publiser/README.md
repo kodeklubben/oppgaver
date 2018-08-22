@@ -1,7 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Publiser nettsiden din"
 author: Lars Klingenberg
-level: 3
 language: nb
 ---
 
@@ -13,7 +12,7 @@ ved hjelp av `Github`.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 2
+__Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 2
 
 __Anbefalte trinn__: 8. trinn - VG2
 
@@ -24,27 +23,27 @@ __Tidsbruk__: Dobbeltime
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, 10. trinn__: gjøre rede for hvordan datamaskiner og
-      programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og
-      deres bruksområde
+  programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og deres
+  bruksområder
 
 - [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-       vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet
-       og design
+  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
+  design.
 
 - [ ] __Teknologi i praksis, 10. trinn__: demonstrere riktig bruk av utvalde
-      verktø
+  verktøy
 
 - [ ] __Teknologi i praksis, 10. trinn__: framstille produktet med eigna
-      materiale, komponentar, og funksjonelle teknologiske løysinga
+  materiale, komponentar, og funksjonelle teknologiske løysingar
 
 - [ ] __Informasjonsteknologi 2, VG3__: redigere nettsteder ved bruk av
-      standardiserte oppmerkingssprå
+  standardiserte oppmerkingsspråk
 
 - [ ] __Informasjonsteknologi 2, VG3__: organisere og begrunne filstrukturen for
-      nettstede
+  nettsteder
 
 - [ ] __Informasjonsteknologi 2, VG3__: gjøre rede for hvilke standarder og
-      prinsipper som muliggjør Internett
+  prinsipper som muliggjør Internett
 
 ## Forslag til læringsmål {.challenge}
 
@@ -52,15 +51,15 @@ __Tidsbruk__: Dobbeltime
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Kjennskap til HTML, CSS og JavaScript. Har en gyldig
-       epost-adresse.
+  epost-adresse.
 
 - [ ] __Utstyr__: Datamaskin med internett og teksteditor.
 
@@ -80,5 +79,4 @@ fremgangsmåten viser på storskjerm
 ## Eksterne ressurser {.challenge}
 
 - [ ] Lær å bruke terminalen til `Github` på 15 minutter: [Learn Git in 15
-      minutes](https://try.github.io/levels/1/challenges/1) (OBS! PÅ ENGELSK)
-
+  minutes](https://try.github.io/levels/1/challenges/1) (OBS! PÅ ENGELSK)

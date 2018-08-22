@@ -100,7 +100,7 @@ def generate_content(temp_content, title):
         content = levenshtein_lst(content, TAGS_['language'], error_line)
     # Changes all internal quotations to ' and ' while outer quotation is " and "
     content = re.sub(r'\"(.*)\"', r"'\1'", content)
-    if re.search(r"[^\w\sæøåÆØÅ]", content):
+    if re.search(r"[^\w\sæøåÆØÅ,-.?]", content):
         content = '"{}"'.format(content)
     return content
 
@@ -435,7 +435,7 @@ def fix_headers(header):
         return fix_headers('## ' + header_3.group(1).strip())
 
     # Makes sure every title has exactly one space after the last #
-    header = re.sub(r'^ *(#+) *(.)', r'\1 \2', header)
+    header = re.sub(r'^ *(#+) *(.*)', r'\1 \2', header).strip()
 
     # Removes all punctuation from titles
     header = re.sub(r'(#+ .*)(\.|\,|\;) *$', r'\1', header)
@@ -489,7 +489,7 @@ def is_header(line):
     asks the user to confirm whether the line is an header.
     '''
 
-    header = re.search(r'^(#+)( *)(.)', line)
+    header = re.search(r'^(#+)( *)([^#\r\n])', line)
     if not header:
         header_2 = re.search(r'^([^=\r\n]+)={3,}$', line)
         header_3 = re.search(r'^([^=\r\n]+)-{3,}$', line)
@@ -672,6 +672,71 @@ def add_newline_end_of_file(md_data):
     return md_data
 
 
+def is_html_closed(md_data_lst):
+    ''' This makes sure every opened html tag is properly closed,
+    if it is not the file should NOT be linted.
+
+    This file returns a tuple of the form:
+
+      (False, 410-460:[Missing]: </style>)
+
+    This means there is an error in the file and that the file is missing
+    an </style> somewhere from line 410 to line 460.
+    '''
+
+    html_keys = []
+    last_html_line = 1
+    for i, line in enumerate(md_data_lst):
+        line_number = i + 1
+        # If we are in a html block, use regex to check for end of block, else append
+        # Searches for expressions of the form: </hide>
+        match = re.search(r'^ *< */ *(\w+).*?> *$', line)
+        if match:
+            last_closed_tag = match.group(1)
+            if not html_keys:
+                # If we find a closed tag before any open ones, return error
+                error_msg = '  {}-{}:[{}]: {}'.format(color_word(last_html_line+1, MAIN_2_CLR),
+                                                      color_word(line_number, MAIN_2_CLR),
+                                                      color_word('Missing', ERROR_CLR),
+                                                      color_word(line, ERROR_CLR))
+                return (False, error_msg)
+            if not html_keys[-1][-1] == last_closed_tag:
+                # This checks if the last closed tag matches the last opened tag
+                error_msg = '  {}-{}:[{}]: {}'.format(color_word(html_keys[-1][0]+1, MAIN_2_CLR),
+                                                      color_word(line_number-1, MAIN_2_CLR),
+                                                      color_word('Missing', ERROR_CLR),
+                                                      color_word('</{}>'.format(html_keys[-1][-1]), ERROR_CLR))
+                return (False, error_msg)
+
+            last_html_line = line_number
+            del html_keys[-1]
+
+        # This regex searches for html
+        match = re.search(
+            r'^ *(< *(\w+).*?>.*?< *\/\2.*?>|(< *(\w+).*?>)) *(\r?\n|$)',
+            line)
+        if not match:
+            continue
+        if not match.group(4):
+            continue
+        # Finds codeblocks with no end. Example: <style>
+        key = match.group(4)
+        if key in VOID_HTML:
+            continue
+        html_key = (line_number, line, key)
+        html_keys.append(html_key)
+
+    # At the end every opened html tag should have been closed (and removed) if not print error
+    if html_keys:
+        error_msg = '  {}-{}:[{}]: {}'.format(color_word(html_keys[-1][0]+1, MAIN_2_CLR),
+                                              color_word(line_number-1, MAIN_2_CLR),
+                                           color_word('Missing', ERROR_CLR),
+                                           color_word('</{}>'.format(html_keys[-1][-1]), ERROR_CLR))
+        return (False, error_msg)
+    else:
+        return (True, ("","",""))
+
+
 def is_codeblocks_closed(md_string):
     ''' The first line searches through the entire file for all lines starting with 3 ` or more
     The second line count the number of occurences of each number of backticks
@@ -694,6 +759,13 @@ def update_md(md_data, filepath):
         print("ERROR: Unbalanced codeblocks in:\n {} \n Please fix this before formating".format(color_word(filepath, MAIN_2_CLR)))
         input("")
         return md_string
+
+    no_html_error, error_msg = is_html_closed(md_data_lst)
+    if not no_html_error:
+        print(error_msg)
+        input("")
+        return md_string
+
 
     md_data_ = split_md(md_data_lst)
 
@@ -776,7 +848,7 @@ def main(files_md):
     '''
 
     for file_md in files_md:
-        print(file_md)
+        print(color_word(file_md, MAIN_2_CLR))
         auto_lint_md(file_md)
 
 

@@ -13,6 +13,40 @@ over hindringer.
 ![Illustrasjon av det ferdige strekmann spillet](animasjon_spill.gif "Slik ser spillet ut")
 
 
+# Steg 0: Installere Pygame Zero {.activity}
+
+For å gjøre denne oppgaven må du installere [Pygame
+Zero](https://pygame-zero.readthedocs.io/en/latest/installation.html). Start med
+å sjekke at du har installert Python 3, altså at Python-versjonen din er
+nummerert på formen 3.X.X.
+
+Åpne kommandolinjen (engelsk: command prompt) på datamaskinen din. Bruker du
+Windows kan du åpne start-menyen og skrive cmd (eventuelt *Ledetekst*, som er
+det norske navnet på programmet som skal kjøre). På Mac og Linux åpner du
+terminalvinduet. Skriv inn følgende:
+
+__Windows og Mac:__
+
+```
+pip install pgzero
+```
+
+__Linux:__
+
+```
+sudo pip install pgzero
+```
+
+Noen Linux-systemer kaller den `pip3`, i så fall må du skrive det i stedet for
+`pip` i koden over. Hvis pip ikke er installert kan du prøve å skrive
+
+```
+sudo python3 -m ensurepip
+```
+
+før du prøver `sudo pip install pgzero` igjen.
+
+
 # Steg 1: Ny fil {.activity}
 
 Begynn med å lage en fil som kan kjøres med Pygame Zero.

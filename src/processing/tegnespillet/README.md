@@ -1,7 +1,6 @@
 ---
 title: Lærerveiledning - Tegneprogram
 author: Stein Olav Romslo
-level: 1
 language: nb
 ---
 
@@ -16,7 +15,7 @@ blant annet denne:
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Kunst og håndtverk, matematikk, programmering.
+__Fag__: Kunst og håndtverk, matematikk, programmering.
 
 __Anbefalte trinn__: 8. trinn til VG3.
 
@@ -27,27 +26,27 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogra
+  bildebehandlingsprogram
 
 - [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale verktø
+  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
 
 - [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-      ett er tekstbaser
+  ett er tekstbasert
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Elevene kan lage og bruke enkle funksjoner for bildebehandling
+- [ ] Elevene kan lage og bruke enkle funksjoner for bildebehandling.
 
 - [ ] Elevene kan bruke kode til å lese av posisjonen til musepekeren i et
-      koordinatsystem, og bruke denne informasjonen videre
+  koordinatsystem, og bruke denne informasjonen videre.
 
 - [ ] Elevene kan bruke kode til å endre funksjoner og verktøy etter
-      brukerinteraksjon.
+  brukerinteraksjon.
 
 ## Forslag til vurderingskriterier {.challenge}
 
@@ -63,8 +62,8 @@ del andre nyttige tips til hvordan man underviser i programmering.
 - [ ] __Forutsetninger__: Elevene bør kjenne til Processing.
 
 - [ ] __Utstyr__: Datamaskiner med
-       [Processing](https://www.processing.org/download/){target=_blank}
-       installert. Elevene kan gjerne jobbe to og to sammen.
+  [Processing](https://www.processing.org/download/){target=_blank} installert.
+  Elevene kan gjerne jobbe to og to sammen.
 
 ## Fremgangsmåte
 
@@ -75,9 +74,9 @@ oppgaven enda._
 
 ## Variasjoner {.challenge}
 
-- [ ] Elevene kan lage en blyant som endrer farge av seg selv
+- [ ] Elevene kan lage en blyant som endrer farge av seg selv.
 
-- [ ] Elevene kan lage tastatursnarveier for å endre farge uten å måtte klikke
+- [ ] Elevene kan lage tastatursnarveier for å endre farge uten å måtte klikke.
 
 - [ ] Elevene kan lage et verktøy som endrer størrelsen på blyantstreken.
 

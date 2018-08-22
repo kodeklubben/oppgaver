@@ -1,8 +1,7 @@
 ---
-title: 'CSS: Animasjon'
-author: 'Lars Klingenberg'
-translator: 'Stein Olav Romslo'
-level: 2
+title: "CSS: Animasjon"
+author: Lars Klingenberg
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -79,8 +78,8 @@ Her er eit enkelt døme på ein boks som går frå venstre til høgre:
 </style>
 
 <div id="boks"></div>
-<br>
 
+<br>
 
 ```html
 <!DOCTYPE html>
@@ -127,8 +126,8 @@ den.
 
 - `timing-function`: Ikkje gjeve, er `ease` som standard.
 
-- `delay`: Ikkje gjeve, sidan me vil at animasjonen skal starte med ein gong
-  og standard er `0s`.
+- `delay`: Ikkje gjeve, sidan me vil at animasjonen skal starte med ein gong og
+  standard er `0s`.
 
 - `iteration-count`: infinite (uendeleg, så den vil ikkje stoppe).
 
@@ -174,6 +173,7 @@ La oss sjå nærare på `@keyframes`. `@keyframes` er CSS som fortel kva steg ei
 animasjon består av.
 
 Her kjem nokre døme:
+
 <style>
     #diagonalt {
         height: 50px;
@@ -253,6 +253,7 @@ Her går HTML-objektet nedover ved hjelp av `top`-attributten.
 </style>
 
 <div id="skifte_farge"></div>
+
 <br>
 
 ```css
@@ -365,7 +366,6 @@ Så legger me til animasjonen til øksa.
 </style>
 
 <div id="pickaxe"></div>
-
 
 <toggle>
 <strong>Forslag til kode så langt</strong>

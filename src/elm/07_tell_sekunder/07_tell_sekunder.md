@@ -1,7 +1,6 @@
 ---
-title: 'Tell sekunder'
-level: 3
-author: 'Teodor Heggelund'
+title: Tell sekunder
+author: Teodor Heggelund
 language: nb
 ---
 
@@ -48,8 +47,7 @@ For å kunne lage skikkelige spill, mangler vi to byggesteiner:
 
 Det er hva vi skal gå gjennom nå!
 
-<!--
-Ideer til "spill":
+<!-- Ideer til "spill":
 
 - Nedtellingstimer
 
@@ -65,9 +63,9 @@ Ideer til "spill":
 For å innføre tid ber vi Elm om å si ifra hvert sekund. Vi abonnerer på når det
 har gått tid.
 
-| Norsk      | Engelsk      |
-|-----------:|--------------|
-| Abonnere   | Subscribe    |
+|      Norsk | Engelsk      |
+| ---------: | ------------ |
+|   Abonnere | Subscribe    |
 | Abonnement | Subscription |
 
 Eksempel på strukturen på et tidligere program:
@@ -89,7 +87,7 @@ vi bare å si noe om:
 2. hvordan dataen skal vises (`view`), og
 
 3. hvordan brukerens handlinger skal oppdatere tilstanden i programmet vårt
-   (`update`).
+  (`update`).
 
 Vi var altså kun avhengig av hva brukeren gjorde! Hvis brukeren ikke gjorde noe,
 skjedde det ingenting. Dette stemmer ikke lenger!
@@ -109,10 +107,10 @@ main =
 Her er det tre forskjeller:
 
 1. Vi bruker `Html.program` i stedet for `Html.beginnerProgram`, som lar oss
-   lage mer komplekse programmer
+  lage mer komplekse programmer
 
 2. Vi bruker `init` i stedet for `model` til å beskrive hvordan ting skal være
-   når vi starter opp
+  når vi starter opp
 
 3. Vi definerer abonnementer, `subscriptions`!
 
@@ -267,9 +265,9 @@ Hvert sekund, kjører vi modellen vår gjennom funksjonen `bump`. Den "dytter"
 
 - [ ] Kan du få timeren vår til å telle fortere?
 
-- [ ] Utfordring: Timeren får ikke telle til høyere enn 10. Når den kommer til 10,
-  skal den begynne fra start igjen! Tips: bruk
-  et [if-uttrykk](http://elm-lang.org/examples/if).
+- [ ] Utfordring: Timeren får ikke telle til høyere enn 10. Når den kommer til
+  10, skal den begynne fra start igjen! Tips: bruk et
+  [if-uttrykk](http://elm-lang.org/examples/if).
 
 
 # Gå fort, gå sakte {.activity}
@@ -350,9 +348,10 @@ Noen oddetall: 1, 3, 5, 7, 9
 Ser du at annenhvert tall er partall, og annenhvert oddetall? Da kan vi få til
 partall!
 
-For å sjekke om et tall er partall kan du se hva du får til rest når du deler
-på 2. Funksjonen rem gir resten ved divisjon. rem 5 4 gir 1, fordi tallet 5 gir
-en hel firer, og **1** ekstra.
+For å sjekke om et tall er partall kan du se hva du får til rest når du deler på
+
+2. Funksjonen rem gir resten ved divisjon. rem 5 4 gir 1, fordi tallet 5 gir en
+  hel firer, og **1** ekstra.
 
 Her prøver jeg i `elm repl`:
 

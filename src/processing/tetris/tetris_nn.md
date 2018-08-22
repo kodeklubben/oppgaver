@@ -1,8 +1,7 @@
 ---
 title: Tetris
-level: 1
 author: Kine Gjerstad Eide
-translator: 'Stein Olav Romslo'
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -40,7 +39,7 @@ Processing er ein kodeeditor, det tyder at du kan skrive kode i den. Den fyrste
 koden du skal skrive er ein kodesnutt med to metodar. Ein metode ser ut som
 dette:
 
-```Processing
+```processing
 void setup(){
 
 }
@@ -65,7 +64,15 @@ Viss all koden din er riktig skal du få opp eit lite vindauge som ser slik ut:
 
 Her er heile koden slik den skal sjå ut no:
 
-![Bilete av koden for å teikne ein grå firkant](steg0.png)
+```processing
+void setup(){
+
+}
+
+void draw(){
+
+}
+```
 
 - [ ] Dobbeltsjekk at du har skrive alt riktig før du går vidare.
 
@@ -79,7 +86,7 @@ ein metode som allereie er skrive, så seier me at ein *kallar på metoden*.
 
 Her er eit døme som kallar på metoden med namnet `size`:
 
-```Processing
+```processing
 size();
 ```
 
@@ -88,7 +95,7 @@ ein (eller fleire) parameter. Parametrane som du må oppgi for å setje storleik
 på eit vindauge er rett og slett kor stort det skal vere. Viss metoden treng
 fleire parametrar brukar ein komma (`,`) for å skilje dei:
 
-```Processing
+```processing
 size(100, 200);
 ```
 
@@ -101,7 +108,7 @@ får eit vindauge du synest passar.
 
 Slik kallar du på metoden som bestemmer storleiken på vindauget:
 
-```Processing
+```processing
 size(600, 900);
 ```
 
@@ -146,14 +153,14 @@ ordet for heiltal.
 Viss du berre brukar ein parameter, så får du kvit farge ved å skrive 255, svart
 ved å skrive 0. Kva trur du det blir for 128? Kva med 200? Her er eit døme:
 
-```Processing
+```processing
 background(70);
 ```
 
 Viss du brukar tre tal kallar me det RGB-farger. RGB står for raud, grøn og blå.
 Her er eit døme:
 
-```Processing
+```processing
 background(20, 255, 170);
 ```
 
@@ -193,7 +200,18 @@ Hugs å avslutte linja med semikolon. Og hugs at `background` skal stå inni
 Her er eit bilete av korleis koden din skal sjå ut no. Hugs at du sikkert har
 andre tal enn me har, og det er heilt greitt.
 
-![Bilete av neste bit av koden i Processing](steg2.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+}
+
+void draw(){
+
+}
+```
 
 
 # Steg 4: Lag ein firkant {.activity}
@@ -205,7 +223,7 @@ på `rect` skal stå inne i `draw`-metoden.
 
 Start til dømes med desse tala:
 
-```Processing
+```processing
 rect(275, 10, 50, 50);
 ```
 
@@ -218,7 +236,8 @@ rect(275, 10, 50, 50);
 
 - [ ] Teikn firkanten slik at den står midt i vindauget.
 
-- [ ] La firkanten dekke heile vindauget. **Hint:** Du kan bruke minus framfor tala.
+- [ ] La firkanten dekke heile vindauget. **Hint:** Du kan bruke minus framfor
+  tala.
 
 
 # Steg 5: Gi firkanten farge {.activity}
@@ -236,7 +255,17 @@ for firkanten.
 
 Her er koden vår så langt.
 
-![Bilete av neste steg av koden for å lage tetris](steg3.png)
+```processing
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+}
+
+void draw(){
+  fill(255);
+  rect(275, 10, 50, 50);
+}
+```
 
 
 # Steg 6: Lag ein variabel {.activity}
@@ -278,7 +307,7 @@ opprette variabelen. Typen her skal vere `int`. Me må gi eit namn til
 variabelen, her har me valt `posisjonY`, men du kan velje det namnet du vil.
 Kodelinja ser slik ut, og må stå over `setup`-metoden:
 
-```Processing
+```processing
 int posisjonY;
 ```
 
@@ -286,14 +315,14 @@ Så skal me bestemme kva `posisjonY` skal vere når me startar programmet. Det
 skriv me inne i `setup`-metoden. Kodelinja skal sjå slik ut (hugs at her må du
 bruke same namn som over):
 
-```Processing
+```processing
 posisjonY = 20;
 ```
 
 Så set me variabelen inn i firkanten vår. Det er argument nummer to som må
 bytjast ut, og kodelinja der me lagar firkanten ser slik ut:
 
-```Processing
+```processing
 rect(275, posisjonY, 50, 50);
 ```
 
@@ -312,7 +341,20 @@ Prøv sjølv og sjekk at det fungerer før du går vidare til steg 7.
 
 Her er koden så langt.
 
-![Bilete av neste steg for å lage tetris](steg4.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+  posisjonY = 20;
+}
+
+void draw(){
+  fill(255);
+  rect(275, posisjonY, 50, 50);
+}
+```
 
 
 # Steg 7: Beveg firkanten {.activity}
@@ -326,7 +368,7 @@ programmet.
 For å få firkanten til å flytte seg, så må me oppdatere `posisjonY`. Det gjer me
 ved å skrive dette i `draw`-metoden:
 
-```Processing
+```processing
 posisjonY = posisjonY + 1;
 ```
 
@@ -349,9 +391,23 @@ Køyr programmet og sjekk at firkanten fell.
 
 - [ ] Finn ei fart firkanten kan falle i som du synest ser passande ut.
 
-Her er heule koden så langt:
+Her er heile koden så langt:
 
-![Bilete av heile koden så langt](steg5.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  background(20, 255, 170);
+  posisjonY = 20;
+}
+
+void draw(){
+  fill(255);
+  rect(275, posisjonY, 50, 50);
+  posisjonY = posisjonY + 1;
+}
+```
 
 
 # Steg 8: Fjerne stripa som firkanten lagar {.activity}
@@ -371,4 +427,18 @@ skal sjå ut som firkanten fell må metodekallet `background` bli flytta inn i
 
 Her er heile koden:
 
-![Bilete av heile koden](steg6.png)
+```processing
+int posisjonY;
+
+void setup(){
+  size(600, 900);
+  posisjonY = 20;
+}
+
+void draw(){
+  background(20, 255, 170);
+  fill(255);
+  rect(275, posisjonY, 50, 50);
+  posisjonY = posisjonY + 1;
+}
+```

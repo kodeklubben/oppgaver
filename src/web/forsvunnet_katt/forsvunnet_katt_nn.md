@@ -1,15 +1,14 @@
 ---
-title: 'HTML: Forsvunne katt'
-author: 'Arve Seljebu'
-translator: 'Stein Olav Romslo'
-level: 2
+title: "HTML: Forsvunne katt"
+author: Arve Seljebu
+translator: Stein Olav Romslo
 language: nn
 ---
 
 
 # Introduksjon {.intro}
 
-Katten Felix har forsvunne.  Katten Felix har forsvunnet. Eigaren hans har laga
+Katten Felix har forsvunne. Katten Felix har forsvunnet. Eigaren hans har laga
 ein plakat for å henge opp i nabolaget, men du har innsett at det er fleire som
 kjem til å sjå den viss du lagar ei nettside.
 
@@ -24,7 +23,7 @@ kjem til å sjå den viss du lagar ei nettside.
   kalla Felix.
 
 - [ ] No kan du setje opp dokumentet ditt slik du lærte i [Introduksjon til
-      web](../introduksjon_til_web/introduksjon_til_web_nn.html).
+  web](../introduksjon_til_web/introduksjon_til_web_nn.html).
 
 ```html
 <!doctype html>
@@ -150,8 +149,8 @@ Me vil òg at "Tusen takk" skal visast skikkeleg, som me oppnår ved å bruke
 
 __Lagre dokumentet ditt og vis det i nettlesaren.__
 
-- [ ] Ser du no korleis "ver snill" visast i *kursiv* og "Tusen takk" i
-  __feit__ skrift?
+- [ ] Ser du no korleis "ver snill" visast i *kursiv* og "Tusen takk" i __feit__
+  skrift?
 
 
 # Step 5: Leggje til kommentarar i koden {.activity}
@@ -188,10 +187,10 @@ Det er vanleg å leggje til kva språk nettsida er på. Me gjer det ved å leggj
 til ein attributt til `<html>`-taggen.
 
 ```html
-<html lang="no">
+<html lang="nn"> ... </html>
 ```
 
-`no` står for norsk.
+`nn` står for nynorsk.
 
 Det er dessutan god praksis å leggje til teiknsettet (eller alfabetet)
 dokumentet er skrive med. Me brukar vanlegvis __UTF-8__.
@@ -211,7 +210,6 @@ Og nokre nøkkelord, separert med komma
 ```html
 <meta name="keywords" content="Felix, katt, forsvunne">
 ```
-
 
 No ser sida vår omlag slik ut:
 

@@ -2,7 +2,6 @@
 title: "Lærerveiledning - HTML: Forsvunnet katt"
 author: Lars Klingenberg
 language: nb
-level: 2
 ---
 
 
@@ -14,7 +13,7 @@ Eleven skal derfor lage en hjemmeside for den forsvunnede katten.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Norsk, Programmering, Teknologi i praksis, Informasjonsteknologi 1
+__Fag__: Norsk, Programmering, Teknologi i praksis, Informasjonsteknologi 1
 
 __Anbefalte trinn__: 7. trinn - VG2
 
@@ -25,54 +24,53 @@ __Tidsbruk__: Dobbelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Norsk, 4. trinn__: lage tekster som kombinerer ord, lyd og bilde, med og
-       uten digitale verktø
+  uten digitale verktøy
 
 - [ ] __Prorammering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjo
+  programmering, slik som løkker, tester, variabler, funksjoner og enkel
+  brukerinteraksjon
 
 - [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-      å skrive hensiktsmessige kommentarer og ved å presentere egen og andres
-      kod
+  å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
 
 - [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-      vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet
-      og design
+  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
+  design
 
 - [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av
-      standardiserte oppmerkingssprå
+  standardiserte oppmerkingsspråk
 
 - [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for
-      nettstede
+  nettsteder
 
 - [ ] __Informasjonsteknologi 1, VG2__: planlegge nettsteder som inneholder
-      multimediekomponenter
+  multimediekomponenter
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Elevene kan kombinere bilder og tekst i HTML
+- [ ] Elevene kan kombinere bilder og tekst i HTML.
 
-- [ ] Elevene kan kan bruke enkle HTML-tags til å lage fet teks
+- [ ] Elevene kan kan bruke enkle HTML-tags til å lage fet tekst
 
-- [ ] Elevene kan legge til paragrafer av tekst som er relevant til et bild
+- [ ] Elevene kan legge til paragrafer av tekst som er relevant til et bilde
 
-- [ ] Elevene vet hva meta-data er og klarer å legge dette til på nettside
+- [ ] Elevene vet hva meta-data er og klarer å legge dette til på nettsiden
 
-- [ ] Elevene klarer å legge til kommentarer i HTML-filen si
+- [ ] Elevene klarer å legge til kommentarer i HTML-filen sin
 
 - [ ] Elevene klarer se hvordan HTML og CSS brukes sammen for å lage nettsider
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven
+- [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
 
 - [ ] Eleven oppnår høy måloppnåelse ved å videreutvikle egen kode basert på
-      oppgaven.
+  oppgaven.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Bør ha gjort oppgaven [Vi bygger
-       hjemmeside](../en_hjemmeside/en_hjemmeside.html){target=_blank}.
+  hjemmeside](../en_hjemmeside/en_hjemmeside.html){target=_blank}.
 
 - [ ] __Utstyr__: Datamaskiner med internett og tekstbehandlingsprogram.
 
@@ -95,15 +93,14 @@ oppgaveteksten.](../forsvunnet_katt/forsvunnet_katt.html){target=_blank}
 ## Variasjoner {.challenge}
 
 - [ ] Elevene kan legge til mer innhold på siden: Er det noe annet du kan legge
-       til websiden som vil hjelpe folk å finne Felix? Mer informasjon? Hvordan
-       ville du lagt til et kart over hvor han forsvant
+  til websiden som vil hjelpe folk å finne Felix? Mer informasjon? Hvordan ville
+  du lagt til et kart over hvor han forsvant?
 
 - [ ] Mer gøy med bilder. Legg til et bilde som beveger seg. Prøv å legge til
-      bildet `catswithhats.gif` til websiden. Last ned gifen eller bruk lenken
-      her: [catswithhats.gif](../forsvunnet_katt/ressurser/catswithhats.gif).
-      Åpne det i nettleseren og se hva som skjer
+  bildet `catswithhats.gif` til websiden. Last ned gifen eller bruk lenken her:
+  [catswithhats.gif](../forsvunnet_katt/ressurser/catswithhats.gif). Åpne det i
+  nettleseren og se hva som skjer.
 
 - [ ] Hvis Felix blir funnet. Bruk taggen `<del>` for å streke over informasjon
-      som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>`
-      for å sette inn ny informasjon istede, som foreksempel __Funnet__!
-
+  som ikke lenger er sant, som foreksempel forsvunnet. Bruk taggen `<ins>` for å
+  sette inn ny informasjon istede, som foreksempel __Funnet__!

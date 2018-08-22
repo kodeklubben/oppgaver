@@ -1,8 +1,7 @@
 ---
 title: ToPlayer
-level: 1
-author: 'Ruben Gjerstad Eide og Kine Gjerstad Eide'
-translator: 'Stein Olav Romslo'
+author: Ruben Gjerstad Eide og Kine Gjerstad Eide
+translator: Stein Olav Romslo
 language: nn
 ---
 
@@ -132,6 +131,7 @@ forskjellige frå våre tal.
   }
 ```
 
+
 # Steg 3: Spelebrikke {.activity}
 
 Me skal lage spelebrikka, og så skal me gjere slik at den kan bevege seg.
@@ -222,6 +222,7 @@ Her er koden me har laga så langt.
     ellipse(x, 250, 50, 50);
   }
 ```
+
 
 # Steg 4: Lag kontrollarar! {.activity}
 
@@ -345,7 +346,8 @@ er feil:
   }
 ```
 
-## Steg 5: Me treng ein vinnar! {.activity}
+
+# Steg 5: Me treng ein vinnar! {.activity}
 
 Me treng fleire `if`-setningar. Desse skal skrive ein beskjed på skjermen viss
 ein spelar vinn. Ein vinn ved å dytte spelebrikka ut av skjermen.

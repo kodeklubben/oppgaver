@@ -1,7 +1,6 @@
 ---
-title: 'CSS: Style nettsider'
-author: 'Arve Seljebu'
-level: 2
+title: "CSS: Style nettsider"
+author: Arve Seljebu
 language: nb
 ---
 
@@ -50,13 +49,15 @@ slik:
     </style>
 </head>
 ```
-På denne måten slipper vi å håndere flere filer, vi kan ha alt vi trenger i én fil.
+
+På denne måten slipper vi å håndere flere filer, vi kan ha alt vi trenger i én
+fil.
 
 - [ ] Åpne index.html fra mappen Felix som vi lagde i oppgaven [Forvunnet
-      katt](../forsvunnet_katt/forsvunnet_katt.html) eller last ned filen ved å
-      høyreklikke og trykk `lagre som`:
-      [index.html](../forsvunnet_katt/ressurser/index.html). Lag en mappe som
-      heter `Felix` og legg `index.html` i den.
+  katt](../forsvunnet_katt/forsvunnet_katt.html) eller last ned filen ved å
+  høyreklikke og trykk `lagre som`:
+  [index.html](../forsvunnet_katt/ressurser/index.html). Lag en mappe som heter
+  `Felix` og legg `index.html` i den.
 
 - [ ] I seksjonen `<head>` trenger vi en __style-tag__.
 
@@ -124,13 +125,13 @@ alfabetisk rekkefølge kan dere finne på
 Er din favorittfargen i listen?
 
 - [ ] Men vi kan bruke enda flere farger gjennom å bruke den heksadesimale koden
-      istedenfor navnet. En heksadesimal kode er en `#` fulgt av 6 tegn der
-      tegnene kan være sifferne 0-9 eller bokstavene A, B, C, D, E, F. Gjennom å
-      bruke heksadesimale koder kan vi representere mer enn 16 millioner farger.
+  istedenfor navnet. En heksadesimal kode er en `#` fulgt av 6 tegn der tegnene
+  kan være sifferne 0-9 eller bokstavene A, B, C, D, E, F. Gjennom å bruke
+  heksadesimale koder kan vi representere mer enn 16 millioner farger.
 
 - [ ] Kodeklubben sin favorittfarge er `#58AB57`. Kan du gjette hvilken farge
-      det er? Prøv å endre noen tekst til den fargen og se hvordan det ser ut i
-      en nettleser.
+  det er? Prøv å endre noen tekst til den fargen og se hvordan det ser ut i en
+  nettleser.
 
 - [ ] Prøve å endre teksten, `<p>`, på siden til denne fargen: `#58AB57`.
 
@@ -147,11 +148,11 @@ Er din favorittfargen i listen?
 </toggle>
 
 - [ ] Bruk [www.colorpicker.com](http://www.colorpicker.com) til å finne en
-      farge du liker. Colorpicker genererer det nummer du trenger, så kan du
-      enkelt klippe og lime det inn i koden din.
+  farge du liker. Colorpicker genererer det nummer du trenger, så kan du enkelt
+  klippe og lime det inn i koden din.
 
 - [ ] Finn en farge du liker med `Colorpicker` og endre teksten på siden til den
-      fargen du fant.
+  fargen du fant.
 
 ## __LAGRE__ filen og __VISE__ den i nettleseren din {.save}
 
@@ -231,8 +232,8 @@ h1 {
 ```
 
 - [ ] Nå skal du forsøke å endre tittelen til å være kun i store bokstaver bare
-      gjennom å bruke `text-transform:uppercase;` Vi kan også gjøre den
-      understreket gjennom å bruke `text-decoration:underline;`
+  gjennom å bruke `text-transform:uppercase;` Vi kan også gjøre den understreket
+  gjennom å bruke `text-decoration:underline;`
 
 ## Nå skal du __LAGRE__ filen og se hvordan den ser ut. {.save}
 
@@ -252,7 +253,7 @@ All vår tekst vises helt borte til venstre. Vi kan endre det gjennom å bruke
 `text-align:center` (man kan også bruke `right`(høyre) og `left`(venstre)).
 
 1. For denne nettsiden vil vi at all vår tekst skal være sentrert, og da kan vi
-   skrive: (Merk deg at den engelske måten å stave senter på er center.)
+  skrive: (Merk deg at den engelske måten å stave senter på er center.)
 
 ```css
 body {
@@ -330,7 +331,7 @@ forsiktig, det finnes noen stiler som ikke blir videreført.
     <p>Felix er en veldig snill katt. Han liker å kose, sitte foran varmepumpa og lekemusa si. Pelsen hans er <span>oransje</span>. </p>
     <p>Han forvant fra hagen i går.</p>
     <p>Har du sett Felix? Vennligst kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
-    <p><strong>Takk!</strong><p>
+    <p><strong>Takk!</strong></p>
 </body>
 </html>
 ```
@@ -338,8 +339,8 @@ forsiktig, det finnes noen stiler som ikke blir videreført.
 ## Videre studier {.challenge}
 
 - [ ] Hvordan ville du endret på siden for å få den til å se bedre ut? Hvorfor
-      ikke prøve å bruke alle dine favorittfarger? Finnes din farge som et navn
-      eller må du bruke en heksadesimal kode
+  ikke prøve å bruke alle dine favorittfarger? Finnes din farge som et navn
+  eller må du bruke en heksadesimal kode
 
 - [ ] Hvis du blir fort ferdig kan du gå tilbake å legge på stiler for tidigere
-      leksjoner.
+  leksjoner.

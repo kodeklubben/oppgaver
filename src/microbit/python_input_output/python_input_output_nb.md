@@ -1,12 +1,9 @@
 ---
 title: "Python: Input og output"
-level: 3
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/io.html)"
-license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
-translator: "Øistein Søvik"
+translator: Øistein Søvik
 language: nb
 ---
-
 
 Det eksisterer metal langs kanten på bunnen av din micro:bit som gjør at det ser
 ut som enheten din har tenner. Dette er input/outputkomponentene (eller I/O
@@ -51,8 +48,8 @@ Med en hånd, hold enheten din på GND pin'en (her står GND for "ground" eller
 jord på norsk). Så, med den andre hånden berør (eller kil) 0 (null) pin'en. Du
 skal nå se at displayet endres fra sur til glad!
 
-Dette er en form for veldig enkel måling av input. Morroa begynner når du
-setter sammen elektriske komponenter og andre enheter via pin'ene.
+Dette er en form for veldig enkel måling av input. Morroa begynner når du setter
+sammen elektriske komponenter og andre enheter via pin'ene.
 
 
 # Beep Boop

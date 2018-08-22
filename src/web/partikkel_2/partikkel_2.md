@@ -1,7 +1,6 @@
 ---
-title: 'JS: Partikkel-fest'
-author: 'Lars Klingenberg'
-level: 3
+title: "JS: Partikkel-fest"
+author: Lars Klingenberg
 language: nb
 ---
 
@@ -121,7 +120,7 @@ få partiklene til å bevege seg overalt på skjermen.
   kalt, legge et nytt partikkel i en `liste` og bruke en `for`-løkke til å endre
   hvert partikkel sine attributter og gjenta dette for alle elementene i listen.
 
-#### Prøv selv først! Dersom du ikke får det til kan du benytte deg av hintene under.
+#### Prøv selv først! Dersom du ikke får det til kan du benytte deg av hintene under
 
 
 # Hint {.activity}
@@ -154,4 +153,3 @@ gjør i animasjonen må vi tenke over hvor vi putter koden vår.
   se hva som er forskjellen på om du legger den i eller utenfor `for`-løkken?
 
 ##
-

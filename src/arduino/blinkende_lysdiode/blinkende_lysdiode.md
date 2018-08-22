@@ -1,7 +1,6 @@
 ---
-title: 'Blinkende lysdiode'
-author: 'Adrian Helle'
-level: 1
+title: Blinkende lysdiode
+author: Adrian Helle
 language: nb
 ---
 
@@ -29,10 +28,11 @@ installasjonen.
 ## Sjekkliste {.check}
 
 - [ ] Last ned Arduino-programvaren fra
+
       [Arduno.cc](https://www.arduino.cc/en/Main/Software)
 
 - [ ] Installer programmet. Er du usikker på hvordan man gjør dette, bør du
-      snakke med en veileder
+  snakke med en veileder
 
 - [ ] Åpne programmet. Ikonet ser ut som dette:
 
@@ -43,15 +43,15 @@ installasjonen.
 
 # Steg 2: Studere Arduino-brettet {.activity}
 
-*La oss bli kjent med Arduino-brettet.*
-Under ser du Arduino-brettet. Finn frem din Arduino og studer den!
+*La oss bli kjent med Arduino-brettet.* Under ser du Arduino-brettet. Finn frem
+din Arduino og studer den!
 
 <figure><img src="brett.png" alt="Bilde av Arduinoen" style="width: 500px"></figure>
 
 ## Sjekkliste {.check}
 
 - [ ] På den ene siden har vi digitale inn- og utganger merket med **DIGITAL
-      (PWM ~ )**
+  (PWM ~ )**
 
 - [ ] Fra nå av kaller vi inn/utganger for *port*
 
@@ -151,8 +151,8 @@ lysdioden.
   ```
 
 - [ ] Trykk på ![Bilde av pilen til høyre som er opplastingsknappen](upload.png)
-for å laste opp koden. Denne sjekker først om koden er riktig, og så vil
-programmet ditt kjøre på arduinoen
+  for å laste opp koden. Denne sjekker først om koden er riktig, og så vil
+  programmet ditt kjøre på arduinoen
 
 - [ ] Blinker lysdioden?
 
@@ -180,7 +180,7 @@ Hvis dette ikke fungerer, kan du prøve å lukke programmet og åpne det igjen.
 ### Utfordringer {.challenge}
 
 - [ ] Klarer du å få lysdioden til å blinke raskt, med en lang pause mellom
-      blinkene
+  blinkene
 
 - [ ] Klarer du å lage ditt eget blinkemønster
 
@@ -222,7 +222,7 @@ digitalWrite(led, HIGH);
 Dette er fint hvis vi senere ønsker å bytte utgang. Da trenger vi bare å endre
 en linje, istedenfor alle linjene vi nå bruker `led`.
 
-Husk at du alltid må bruke ``;`` på slutten av hver kodelinje!
+Husk at du alltid må bruke `;` på slutten av hver kodelinje!
 
 
 # Steg 5: Legg til en knapp {.activity}
@@ -277,8 +277,7 @@ Her er noen nøtter du kan prøve deg på ved å endre koden.
   **Merk:** Lysdioden må være tilkoblet en port som har *PWM* (port med følgende
   tegn: *~*) for at `analogWrite` skal fungere.
 
-- [ ] Kan du få lysdioden til å skrus på av et kort trykk på knappen?
-  Og deretter skru av lysdioden med et nytt kort trykk?
+- [ ] Kan du få lysdioden til å skrus på av et kort trykk på knappen? Og
+  deretter skru av lysdioden med et nytt kort trykk?
 
 - [ ] Kan du få til det samme med å bruke bare 3 ledninger?
-

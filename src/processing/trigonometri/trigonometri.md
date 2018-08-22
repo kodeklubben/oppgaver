@@ -1,7 +1,6 @@
 ---
-title: 'Trigonometri, regulære mangekanter og stjerner'
-level: 2
-author: 'Sigmund Hansen'
+title: Trigonometri, regulære mangekanter og stjerner
+author: Sigmund Hansen
 language: nb
 ---
 
@@ -111,7 +110,6 @@ skal være. Opptegningen ellers er som for vanlige
   Til slutt forteller `CLOSE` i `endShape` at siste kant i figuren skal settes
   sammen med første kant, altså at figures lukkes og fylles.
 
-
 ![Vinkelen mellom to nabohjørner og sentrum i en femkant er 360° / 5 =
 72°.](Femkant.png "Vinkelen mellom to nabohjørner og sentrum i en femkant er
 360° / 5 = 72°.")
@@ -158,8 +156,7 @@ sentrum og spissen etter nabospissen i en femkantet stjerne er 2 · 360° / 5 =
          300 + sin(radians(vinkel * hjorne * 2)) * 200);
   ```
 
-  Kunne du ganget med `2` et annet sted i koden og fått den samme
-  effekten?
+  Kunne du ganget med `2` et annet sted i koden og fått den samme effekten?
 
 - [ ] Kan du tegne en syvkantet stjerne? Eller en nikantet stjerne?
 
@@ -188,7 +185,7 @@ halvparten så mange hjørner som stjernen har spisser.
 - [ ] Pass på at `KANTER` settes til et partall som er minst `6`.
 
   ![Bilde av et oktagram](Oktagram.png "Vinkelen mellom en spiss, sentrum og
-spissen etter nabospissen i en åttekantet stjerne er 2 · 360° / 8 = 90°.")
+  spissen etter nabospissen i en åttekantet stjerne er 2 · 360° / 8 = 90°.")
 
 ## Utfordring {.challenge}
 
@@ -203,11 +200,9 @@ spissen etter nabospissen i en åttekantet stjerne er 2 · 360° / 8 = 90°.")
   For eksempel en femkantet, en syvkantet og en nikantet stjerne som vist under?
 
   ![Bilde av flere stjerner samtidig.](FlereStjerner.png "Flere stjerner
-samtidig.")
+  samtidig.")
 
-- [ ] Hvis stjernene dine ikke snurrer allerede, kan du få dem til å gjøre
-  det?
+- [ ] Hvis stjernene dine ikke snurrer allerede, kan du få dem til å gjøre det?
 
   ![Bilde av tre stjerner som snurrer.](FlereStjernerSnurrer.gif "Tre stjerner
-som snurrer.")
-
+  som snurrer.")
