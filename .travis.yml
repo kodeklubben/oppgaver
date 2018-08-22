@@ -1,11 +1,14 @@
 language: node_js
-node_js:
-  - "7"
-install: ./travis-install.sh
-script: ./gulp dist && ./gulp links
-notifications:
-  recipients:
-    - geirarne@gmail.com
-    - arve.seljebu@gmail.com
-env:
-  - BUILD_PDF=false
+
+branches:
+  only:
+    - master
+
+before_install:
+  - git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
+  - cd ../codeclub-viewer && nvm install
+
+cache: yarn
+
+script:
+  - cd ../codeclub-viewer && yarn build:travis
