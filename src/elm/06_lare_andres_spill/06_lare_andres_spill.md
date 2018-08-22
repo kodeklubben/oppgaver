@@ -1,13 +1,9 @@
 ---
 title: "Lær av et annet spill!"
-level: 3
 author: Teodor Heggelund
 language: nb
-tags:
-    topic: [text_based, web, game]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -17,12 +13,16 @@ trening for å bli god.
 Det er også viktig å kunne _lese_ kode. Da lurer vi på ting som
 
 - Hvor finner jeg andres kode?
+
 - Hvordan kjører jeg andres kode?
+
 - Hvor begynner jeg når jeg skal finne ut hvordan ting henger sammen?
+
 - Hva skjer om jeg endrer på _dette_?
 
 Til dette bruker vi spillet Elm Joust, skrevet av Stefan Kreitmayer fra
 Tyskland.
+
 
 # Steg 1: Hvordan fungerer spillet? {.activity}
 
@@ -32,8 +32,10 @@ henger sammen.
 ## Spill! {.check}
 
 - [ ] Gå til [spillsiden til Elm Joust](http://kreitmayer.com/elm-joust/)
-- [ ] Finn en partner å prøve spillet sammen med. Det er OK å være tre personer og
-  bytte på hvilke to som spiller.
+
+- [ ] Finn en partner å prøve spillet sammen med. Det er OK å være tre personer
+  og bytte på hvilke to som spiller.
+
 - [ ] Hvor mange serier må man vinne for å vinne et spill?
 
 Har du spilt litt? Ti minutter er passe tid.
@@ -43,6 +45,7 @@ Har du spilt litt? Ti minutter er passe tid.
 Nå skal vi se på hvordan spillet er bygget opp.
 
 - [ ] Start spillet
+
 - [ ] Inspiser den ene ballen
 
 ## Hvordan inspisere? {.protip}
@@ -56,7 +59,9 @@ trenger!
 Først skal vi se på selve spillet.
 
 - [ ] Hva slags SVG-element er brukt til å tegne ballene?
+
 - [ ] Hva slags SVG-element er brukt til å tegne plattformen?
+
 - [ ] Hva slags SVG-element er brukt til å tegne stillingen?
 
 Finn `svg`-taggen.
@@ -94,6 +99,7 @@ Slik ser det ut i **Nettleseren**:
 </circle>
 ```
 
+
 # Steg 2: Last ned og kjør spillet lokalt {.activity}
 
 Elm Joust er et større Elm-program enn programmene vi har skrevet til nå. Når vi
@@ -103,18 +109,20 @@ på egen PC.
 
 ## Last ned kildekoden {.check}
 
-- [ ] Gå til https://github.com/teodorlu/elm-joust, og trykk på den grønne knappen
-  **Clone or download**.
+- [ ] Gå til https://github.com/teodorlu/elm-joust, og trykk på den grønne
+  knappen **Clone or download**.
 
 Du kan bruke `git` i stedet hvis du vil.
 
 ## Pakk ut kildekoden {.check}
 
-- [ ] Høyreklikk på zip-filen du lastet ned og velg **Pakk ut...** eller liknende.
+- [ ] Høyreklikk på zip-filen du lastet ned og velg **Pakk ut...** eller
+  liknende.
 
 ## Åpne kommandovindu i mappen der kildekoden ligger {.check}
 
 - [ ] Gå til mappen der du pakket ut filene.
+
 - [ ] Åpne et kommandovindu her.
 
   På **Windows** kan du holde inne Shift (pil opp for å lage store bokstaver),
@@ -160,7 +168,7 @@ vanskelig.
 
 # Steg 3: Endre reglene {.activity}
 
-![](neo.jpg)
+![Bilde av Neo fra The Matrix](neo.jpg)
 
 _Neo liker også å endre reglene_
 
@@ -170,6 +178,7 @@ Et søk i kildekoden viser at funksjonen `gravity` er definert i `src/Update.elm
 på linje 202.
 
 - [ ] Senk tyngdekraften. Hva gjør det med spillet? Liker du det?
+
 - [ ] Øk tyngdekraften. Bedre? Mer kjedelig?
 
 ## Fysikk {.protip}
@@ -180,7 +189,9 @@ tyngdekraften i spillet, endrer du på _fysikken_ i spillet.
 Andre fysikkregler:
 
 - Når ballene treffer hverandre, spretter de tilbake i hver sin retning
+
 - Du faller nedover
+
 - Du kan kun hoppe når du står på bakken
 
 Noen ting blir mer morsomme når vi ikke følger fysikken! I dette spillet kan vi
@@ -248,8 +259,8 @@ Hvor kaller vi `steerAndGravity`? Jeg fant disse to linjene:
 
   Hint: juster `delta`.
 
-- [ ] Sett forskjellig fart på de to spillerene. Er det fordel å ha rask tid eller
-  sakte tid?
+- [ ] Sett forskjellig fart på de to spillerene. Er det fordel å ha rask tid
+  eller sakte tid?
 
 ## Søke i kildekode {.protip}
 
@@ -272,9 +283,11 @@ den andre kun var en liten tennisball.
 
 - [ ] Kan du gjøre så spiller én er tung, og spiller to lett?
 
+
 # Steg 4: gjett hvilken regel! {.activity}
 
 Nå har du laget din helt egne versjon av Elm Joust.
 
 - [ ] Finn en partner som du kan spille spillet ditt med.
+
 - [ ] Klarer partneren din å gjette hvilke regler du har endret?

@@ -3,37 +3,44 @@ title: Web
 language: nn
 ---
 
-Akkurat nå leser du denne nettsiden med din nettleser. Teksten er sendt over
-internett fra en datamaskin til din datamaskin. Men hvordan er alt dette mulig?
-I dette kurset får du lære om *HTML*, *CSS* og *JavaScript*, og hvordan man kan
-lage en nettside!
+Akkurat no les du denne nettsida gjennom nettlesaren din. Teksten blir sendt
+over Internett frå ei datamaskin til datamaskina di. Men korleis er alt dette
+mogleg? I dette kurset får du lære om *HTML*, *CSS* og *JavaScript*, og korleis
+ein kan lage ei nettside!
 
-Web består av mange byggesteiner og webkurset lærer deg om tre av disse
-byggesteinene; *HTML*, *CSS* og *JavaScript*. HTML er tekst som beskriver
-innholdet til en nettside. CSS er stilen, altså hvordan nettsiden skal se ut.
-JavaScript er et programmeringsspråk som forteller hva nettleseren din skal
-gjøre.
+Web består av mange byggesteinar. Webkurset vil lære deg om tre av desse:
+*HTML*, *CSS* og *JavaScript*. HTML er tekst som beskriv innhaldet til nettsida.
+CSS er stilen, altså korleis nettsida skal sjå ut. JavaScript er eit
+programmeringsspråk som fortel kva nettlesaren din skal gjere.
 
-### La oss prøve noe
-Trykk på **Søk**-feltet oppe på denne siden. Skriv inn *web* og vente litt. Du
-får opp alle oppgavene som bruker ordet web i seg. I bakgrunnen skjer dette:
+### La oss prøve noko
 
-1. JavaScript utfører søket og henter søkeresultatet.
-2. Søkeresultatet gjøres om til HTML og vises.
-3. CSS bestemmer hvordan teksten i søkeresultatet skal se ut.
+Du har sikkert prøvd å bruke eit søkefelt direkte på ei nettside, til dømes på
+Facebook. Når du søkar på eit namn får du opp ei kort liste over søkeresultat,
+allereie før du trykkar "søk". I bakgrunnen skjer dette:
 
-Slik fungerer stort sett alle nettsider, selv om de ser og oppfører seg svært
-ulikt. Og nettsidene kan være alt mulig rart;
+1. JavaScript utfører søket og hentar søkeresultatet.
 
-- deling av bilder (Facebook)
-- videoavpiller (YouTube)
-- blog ([wordpress.com](https://wordpress.com))
-- spill ([html5games.com](http://html5games.com))
+2. Søkeresultatet blir gjort om til HTML og vist.
+
+3. CSS bestemmer korleis søkeresultatet skal sjå ut.
+
+Slik fungerer stort sett alle nettsider, sjølv om dei ser ut og oppfører seg
+svært ulikt. Og nettsidene kan vere alt mogleg rart:
+
+- deling av bilete (Facebook)
+
+- videoavspelar (YouTube)
+
+- blogg ([wordpress.com](https://wordpress.com))
+
+- spel ([html5games.com](http://html5games.com))
+
 - nettbutikk ([komplett.no](https://www.komplett.no))
 
-Og enda en ting, alt dette er mulig uten at noe installeres. Du trenger bare
-åpne en adresse i nettleseren din. Så om du har lyst å lære mer om dette, hopp
-rett i det med oppgaven
-[Introduksjon til web](introduksjon_til_web/introduksjon_til_web.html).
+Og endå ein ting: alt dette er mogleg utan å installere noko! Du treng berre å
+åpne ei adresse i nettlesaren din. Viss du vil lære meir om dette kan du hoppe
+rett i det med oppgåva [Introduksjon til
+web](introduksjon_til_web/introduksjon_til_web_nn.html).
 
 Lykke til!

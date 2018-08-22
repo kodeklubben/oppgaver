@@ -1,0 +1,14 @@
+sortindex: 1
+title:
+  nb: 'Intro til web'
+  nn: 'Intro til web'
+  en: 'Intro to web'
+lessons:
+  - introduksjon_til_web
+  - en_hjemmeside
+  - forsvunnet_katt
+  - style_nettsider
+  - tekststil
+  - skjul_ninjaene
+  - din_egen_nettside
+  - lyd_og_video

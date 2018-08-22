@@ -1,29 +1,34 @@
 ---
 title: "CSS: Animasjon"
 author: Lars Klingenberg
-level: 2
 language: nb
-tags:
-    topic: [text_based, web, animation]
-    subject: [arts_and_crafts, mathematics, programming]
-    grade: [secondary, junior, senior]
 ---
 
+
 # Introduksjon {.intro}
-I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS. Under ser du hvordan resultatet vil bli til slutt:
 
-![](ressurser/out.gif)
+I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS. Under
+ser du hvordan resultatet vil bli til slutt:
 
-Men før vi starter å lage animasjonen over må vi lære om hvordan animasjon fungerer ved hjelp av CSS. Så la oss starte med det grunnleggende!
+![Viser en animasjon av teksten "minecraft" som dukker opp og en hakke som
+treffer en klosse](ressurser/out.gif)
 
-__For å lære mest mulig bør du åpne en tom `.html`-fil og skrive koden for hånd når du leser oppgaven, da kommer du til å bli en racer i CSS-animasjon!__
+Men før vi starter å lage animasjonen over må vi lære om hvordan animasjon
+fungerer ved hjelp av CSS. Så la oss starte med det grunnleggende!
+
+__For å lære mest mulig bør du åpne en tom `.html`-fil og skrive koden for hånd
+når du leser oppgaven, da kommer du til å bli en racer i CSS-animasjon!__
+
 
 # Steg 1: Animasjons-attributtet {.activity}
 
-Animasjon i CSS er ganske enkelt, i utgangspunktet har animasjonen 2 stadier: `start` og `slutt`. Mellom `start` og `slutt` kan du legge inn forskjellige faser, som vi skal se på litt senere. Animasjonen vil heller ikke gå i `loop` (altså gjenta seg selv) med mindre du forteller at den skal gjøre det.
+Animasjon i CSS er ganske enkelt, i utgangspunktet har animasjonen 2 stadier:
+`start` og `slutt`. Mellom `start` og `slutt` kan du legge inn forskjellige
+faser, som vi skal se på litt senere. Animasjonen vil heller ikke gå i `loop`
+(altså gjenta seg selv) med mindre du forteller at den skal gjøre det.
 
-
-Før vi skal se på et enkelt eksempel skal vi se på `animation`-attributter. Vi skal bruke disse:
+Før vi skal se på et enkelt eksempel skal vi se på `animation`-attributter. Vi
+skal bruke disse:
 
 ```css
 #id {
@@ -37,13 +42,19 @@ Før vi skal se på et enkelt eksempel skal vi se på `animation`-attributter. V
 }
 ```
 
-
 - `name`: Navnet på animasjonen.
+
 - `duration`: Hvor lenge (i sekunder) skal animasjonen vare.
+
 - `timing-function`: Hvordan mellom-fasene er kalkulert.
-- `delay`: Hvor mye forsinkelse det skal være før animasjonen starter. Standard er 0 sekund.
+
+- `delay`: Hvor mye forsinkelse det skal være før animasjonen starter. Standard
+  er 0 sekund.
+
 - `iteration-count`: Hvor mange ganger skal animasjonen gjentas.
+
 - `direction`: Bestemmer om animasjonen skal gå baklengs eller ikke.
+
 - `fill-mode`: Hvilke stiler som er lagt til før og etter start av animasjonen.
 
 Her er et enkelt eksempel på en boks som går fra venstre til høyre:
@@ -66,8 +77,8 @@ Her er et enkelt eksempel på en boks som går fra venstre til høyre:
 </style>
 
 <div id="boks"></div>
-<br>
 
+<br>
 
 ```html
 <!DOCTYPE html>
@@ -102,22 +113,40 @@ Her er et enkelt eksempel på en boks som går fra venstre til høyre:
 
 __La oss se nærmere på koden over:__
 
-Vi har en `<div>` med ID `boks`, den er 50x50px med blå bakgrunnsfarge. Posisjonen er `relative` som vil si at vi har muligheter for å flytte på den.
+Vi har en `<div>` med ID `boks`, den er 50x50px med blå bakgrunnsfarge.
+Posisjonen er `relative` som vil si at vi har muligheter for å flytte på den.
 
 `animation`-attributtene:
+
 - `name`: frem-og-tilbake
+
 - `duration`: 2s (sekunder)
+
 - `timing-function`: Ikke oppgitt, er `ease` som standard.
-- `delay`: Ikke oppgitt, siden vi ønsker at animasjonen skal starte med en gang og standard er `0s`.
+
+- `delay`: Ikke oppgitt, siden vi ønsker at animasjonen skal starte med en gang
+  og standard er `0s`.
+
 - `iteration-count`: infinite (uendelig, så den vil ikke stoppe).
+
 - `direction`: alternate (for at den skal gå frem og tilbake)
-- `fill-mode`: Ikke oppgitt, ettersom animasjonen starter med en gang og aldri slutter trenger vi ikke en `fill-mode` før eller etter animasjonen.
 
-`@keyframes frem-og-tilbake` er det vi bruker for å spesifisere hva som skal skje under animasjonen. I dette tilfellet har vi satt navnet til animasjonen med `animation-name: frem-og-tilbake`, vi bruker derfor `@keyframes frem-og-tilbake` for å beskrive animasjonen.
+- `fill-mode`: Ikke oppgitt, ettersom animasjonen starter med en gang og aldri
+  slutter trenger vi ikke en `fill-mode` før eller etter animasjonen.
 
-Innen for `@keyframes` kan vi nå spesifisere hva vi vil at animasjonen skal gjøre, vi har to faser, en start og en slutt. `0%` er animasjonens start og `100%` er animasjonens slutt. Derfor vil boksen vår starte til venstre (`left: 0px`) og slutte lengre til høyre (`left: 100px`).
+`@keyframes frem-og-tilbake` er det vi bruker for å spesifisere hva som skal
+skje under animasjonen. I dette tilfellet har vi satt navnet til animasjonen med
+`animation-name: frem-og-tilbake`, vi bruker derfor `@keyframes frem-og-tilbake`
+for å beskrive animasjonen.
 
-__NB!__ Verdiene i `animation`-attributtene kan også skrives som en egen linje, men det er da litt vanskeligere å finne ut hva som er hva:
+Innen for `@keyframes` kan vi nå spesifisere hva vi vil at animasjonen skal
+gjøre, vi har to faser, en start og en slutt. `0%` er animasjonens start og
+`100%` er animasjonens slutt. Derfor vil boksen vår starte til venstre (`left:
+0px`) og slutte lengre til høyre (`left: 100px`).
+
+__NB!__ Verdiene i `animation`-attributtene kan også skrives som en egen linje,
+men det er da litt vanskeligere å finne ut hva som er hva:
+
 ```css
 #boks {
     animation: frem-og-tilbake 2s ...;
@@ -125,17 +154,24 @@ __NB!__ Verdiene i `animation`-attributtene kan også skrives som en egen linje,
 ```
 
 ## Utfordring {.challenge}
-- [ ] Skriv koden inn i din favoritt teksteditor, lagre det som en `.html`-fil og gjør oppgavene under.
+
+- [ ] Skriv koden inn i din favoritt teksteditor, lagre det som en `.html`-fil
+  og gjør oppgavene under.
+
 - [ ] Få animasjonen til å bytte farge fra blå til rød underveis.
+
 - [ ] Klarer du å få boksen til å flytte seg nedover og oppover?
+
 - [ ] Prøv å få boksen til å bevege seg i en firkant.
 
 
 # Steg 2: @keyframes {.activity}
 
-La oss nå se nærmere på `@keyframes`. `@keyframes` er CSS som forteller hvilke steg en animasjon består av.
+La oss nå se nærmere på `@keyframes`. `@keyframes` er CSS som forteller hvilke
+steg en animasjon består av.
 
 Her kommer noen eksempler:
+
 <style>
     #diagonalt {
         height: 50px;
@@ -165,7 +201,9 @@ Her kommer noen eksempler:
     }
 }
 ```
-Dette eksempelet får et objekt til å gå diagonalt siden det starter på `top: 0px; left: 0px;` og ender på `top: 100px; left: 100px;`.
+
+Dette eksempelet får et objekt til å gå diagonalt siden det starter på `top:
+0px; left: 0px;` og ender på `top: 100px; left: 100px;`.
 
 <style>
     #ned {
@@ -194,8 +232,8 @@ Dette eksempelet får et objekt til å gå diagonalt siden det starter på `top:
     }
 }
 ```
-Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
 
+Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
 
 <style>
     #skifte_farge {
@@ -213,6 +251,7 @@ Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
 </style>
 
 <div id="skifte_farge"></div>
+
 <br>
 
 ```css
@@ -228,49 +267,77 @@ Her går HTML-objektet nedover ved hjelp av `top`-attributtet.
     }
 }
 ```
-Merk at i dette eksempelet har vi lagt inn `50%`. Dette er et eksempel på at du kan dele inn animasjonen faser mellom `0%` og `100%`. Du kan legge til så mange faser du vil ved å bruke `%`.
 
-**Merk** at du ikke kan endre animasjonens varighet med `@keyframes` og `%`, du må da heller endre på `animation-duration`.
+Merk at i dette eksempelet har vi lagt inn `50%`. Dette er et eksempel på at du
+kan dele inn animasjonen faser mellom `0%` og `100%`. Du kan legge til så mange
+faser du vil ved å bruke `%`.
+
+**Merk** at du ikke kan endre animasjonens varighet med `@keyframes` og `%`, du
+må da heller endre på `animation-duration`.
 
 
 # Steg 3: Pakke ut filene {.activity}
+
 Nå skal vi animere øksen og Minecraft-logoen:
 
-![](ressurser/out.gif)
+![Viser en animasjon av teksten "minecraft" som dukker opp og en hakke som
+treffer en klosse](ressurser/out.gif)
 
 + Last ned og pakk ut [minecraft_animasjon.zip](minecraft_animasjon.zip).
+
 + Åpne `index.html` i din favoritt teksteditor og i en nettleser.
 
 Du vil nå ha en nettside som ser noe sånt ut:
 
 ![minecraft](ressurser/minecraft_1.png){width=100%}
 
-I koden til `index.html` har vi et bakgrunnsbilde og 3 div-er med følgende ID: `pickaxe`, `minecraft` og `block`. Alle disse ID-ene er et bilde på nettsiden, bakgrunnsbildet ligger i CSS-en under `body`.
+I koden til `index.html` har vi et bakgrunnsbilde og 3 div-er med følgende ID:
+`pickaxe`, `minecraft` og `block`. Alle disse ID-ene er et bilde på nettsiden,
+bakgrunnsbildet ligger i CSS-en under `body`.
 
 __Dette skal vi programmere:__
+
 1. `pickaxe`-en skal komme flyvende inn og treffe blokkene.
+
 2. Når øksen har truffet blokkene skal logoen skal komme inn.
+
 
 # Steg 4: Flyvende øks {.activity}
 
-Nå skal vi få `pickaxe`-en til å fly. Vi begynner med å beskrive animasjonen med `keyframes`.
+Nå skal vi få `pickaxe`-en til å fly. Vi begynner med å beskrive animasjonen med
+`keyframes`.
 
 ## Sjekkliste {.check}
+
 - [ ] Lag en `@keyframes` med animasjonsnavnet `move-pickaxe`.
-- [ ] La figuren starte utenfor skjermen. **Hint:** bruk en negativ verdi av `left`.
-- [ ] La `pickaxe`-bildet bevege seg bort til blokkene. Klarer du å finne ut hvor langt det er? **Hint:** positiv verdi av `left`.
+
+- [ ] La figuren starte utenfor skjermen. **Hint:** bruk en negativ verdi av
+  `left`.
+
+- [ ] La `pickaxe`-bildet bevege seg bort til blokkene. Klarer du å finne ut
+  hvor langt det er? **Hint:** positiv verdi av `left`.
+
 - [ ] Legg til rotasjon med `transform: rotate(antall grader)`.
+
 - [ ] Kan du tenke deg hvor `transform: rotate()` bør være? I `0%` eller `100%`?
-- [ ] Prøv deg frem med hvor mange grader du trenger for at den skal bli riktig. **Hint:** 360 grader er én gang og 720 grader er to ganger rundt seg selv.
+
+- [ ] Prøv deg frem med hvor mange grader du trenger for at den skal bli riktig.
+  **Hint:** 360 grader er én gang og 720 grader er to ganger rundt seg selv.
 
 Så legger vi animasjonen til øksen.
 
 ## Sjekkliste {.check}
+
 - [ ] Finn `#pickaxe` i CSS-en.
+
 - [ ] Legg til animasjonsnavnet fra `keyframes` med `animation-name`.
+
 - [ ] Legg til `animation-duration` på `2s`.
-- [ ]Legg til et `animation-delay` på `1s`.
+
+- [ ] Legg til et `animation-delay` på `1s`.
+
 - [ ] Sett `animation-timing-function` til `linear`.
+
 - [ ] Sett `animation-fill-mode` til `forwards`.
 
 <style>
@@ -297,7 +364,6 @@ Så legger vi animasjonen til øksen.
 </style>
 
 <div id="pickaxe"></div>
-
 
 <toggle>
 <strong>Forslag til kode så langt</strong>
@@ -331,11 +397,14 @@ Så legger vi animasjonen til øksen.
 </hide>
 </toggle>
 
+
 # Steg 5: Flyvende logo {.activity}
-Nå som du har klart å få `pickaxe` til å fly inn med rotasjon er oppgaven din nå å få `#minecraft` til komme flyvende inn etter at `pickaxe` har stoppet.
 
-+ Bruk det du har lært i oppgaven til å og prøv få logoen til å komme inn når `pickaxe` er ferdig med sin animasjon.
+Nå som du har klart å få `pickaxe` til å fly inn med rotasjon er oppgaven din nå
+å få `#minecraft` til komme flyvende inn etter at `pickaxe` har stoppet.
 
++ Bruk det du har lært i oppgaven til å og prøv få logoen til å komme inn når
+  `pickaxe` er ferdig med sin animasjon.
 
 <style>
     #minecraft {
@@ -358,7 +427,6 @@ Nå som du har klart å få `pickaxe` til å fly inn med rotasjon er oppgaven di
         }
     }
 </style>
-
 
 <div id="minecraft"></div>
 

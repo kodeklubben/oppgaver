@@ -1,15 +1,16 @@
 ---
 title: "PXT: Terning"
-level: 1
 author: Geir Arne Hjelle
 language: nb
 ---
+
 
 # Introduksjon {.intro}
 
 Kan micro:biten vår brukes som en terning? Ja, det er faktisk ganske enkelt!
 
-![](terning.jpg)
+![Bilde av en microbit og fire terninger](terning.jpg)
+
 
 # Steg 1: Vi rister løs {.activity}
 
@@ -28,7 +29,7 @@ Kan micro:biten vår brukes som en terning? Ja, det er faktisk ganske enkelt!
 
 - [ ] Sett sammen disse to klossene slik at skriptet ditt ser slik ut:
 
-    ![](risteskript_1.png)
+    ![Bilde av "ristes" og "vis tall" klossene](risteskript_1.png)
 
 ## Test prosjektet {.flag}
 
@@ -37,19 +38,19 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 - [ ] Til venstre på skjermen er det et bilde av en micro:bit. Dette er faktisk
   en simulator som kan kjøre programmet vi nettopp laget:
 
-    Siden vår kode skal reagere når man rister på micro:biten kan du simulere
-    dette ved å klikke på den hvite prikken til venstre for teksten `SHAKE` på
-    micro:bit-simulatoren. Tallet __1__ skal vises på skjermen til
-    micro:bit-simulatoren.
+  Siden vår kode skal reagere når man rister på micro:biten kan du simulere
+  dette ved å klikke på den hvite prikken til venstre for teksten `SHAKE` på
+  micro:bit-simulatoren. Tallet __1__ skal vises på skjermen til
+  micro:bit-simulatoren.
 
 - [ ] Enda morsommere er det å teste programmet på micro:biten din! Koble
   micro:biten din til datamaskinen med en USB-kabel. Klikk deretter på knappen
   `Last ned` nede til venstre på skjermen.
 
-    Det lastes nå ned en fil som heter `microbit-Uten-navn.hex` til datamaskinen
-    din. Samtidig dukker det opp et vindu som sier at du må flytte denne filen
-    til MICROBIT-disken. Dersom du trenger hjelp til dette så spør en av
-    veilederne.
+  Det lastes nå ned en fil som heter `microbit-Uten-navn.hex` til datamaskinen
+  din. Samtidig dukker det opp et vindu som sier at du må flytte denne filen til
+  MICROBIT-disken. Dersom du trenger hjelp til dette så spør en av veilederne.
+
 
 # Steg 2: Tilfeldig terning {.activity}
 
@@ -84,25 +85,27 @@ tips om du står fast!
   kombinere denne klossen med `0 + 0`-klossen som du også finner i
   `Matematikk`-kategorien.
 
+
 # Steg 3: Terningen ruller {.activity}
 
 *En terning lander jo ikke bare på en side, den ruller og viser mange sider før
- den stopper.*
+den stopper.*
 
 ## Sjekkliste {.check}
 
 - [ ] Vi kan få micro:biten til å oppføre seg som om en rullende terning, ved at
   den viser flere forskjellige tall før den tilslutt stopper på ett av dem.
 
-    For å gjøre en ting flere ganger bruker vi __løkker__. Hent klossen `gjenta
-    4 ganger` fra `Løkker`-kategorien. Legg den rundt `vis tall`-klossen på
-    denne måten:
+  For å gjøre en ting flere ganger bruker vi __løkker__. Hent klossen `gjenta 4
+  ganger` fra `Løkker`-kategorien. Legg den rundt `vis tall`-klossen på denne
+  måten:
 
-    ![](risteskript_2.png)
+  ![Bilde av koden for å få terningen til å "rulle"](risteskript_2.png)
 
 - [ ] Test programmet ditt igjen. Skjønner du hva `gjenta`-løkken gjør? Prøv å
   endre på de forsjellige tallene i koden din. Hva blir annerledes når du rister
   på micro:biten?
+
 
 # Steg 4: Terningen husker {.activity}
 
@@ -113,18 +116,18 @@ tips om du står fast!
 - [ ] Når vi programmerer bruker vi __variabler__ til å huske ting for oss. La
   oss lage en variabel som kan huske det siste terningkastet:
 
-    Klikk på `Variabler`-kategorien og deretter på knappen `Lag en variabel`. Gi
-    den nye variabelen navnet `terning` og klikk `OK`. Du vil se at det dukker
-    opp en kloss som heter `terning` i `Variabler`-kategorien.
+  Klikk på `Variabler`-kategorien og deretter på knappen `Lag en variabel`. Gi
+  den nye variabelen navnet `terning` og klikk `OK`. Du vil se at det dukker opp
+  en kloss som heter `terning` i `Variabler`-kategorien.
 
-    ![](variabel_terning.png)
+  ![Bilde av hvordan lage en ny variabel](variabel_terning.png)
 
 - [ ] For å bruke denne nye variabelen kan vi bestemme hva den skal huske med
   `sett variabel til 0`-klossen. La oss endre skriptet vårt slik at `terning`
   husker hvert terningkast. Legg til og flytt på klossene slik at skriptet ditt
   ser slik ut:
 
-    ![](risteskript_3.png)
+  ![Viser scriptet som nå bruker variabelen terning](risteskript_3.png)
 
 Om du tester prosjektet ditt nå skal det oppføre seg helt likt som før! Men
 denne endringen gir oss nye muligheter! Siden vi nå vet resultatet av
@@ -138,14 +141,15 @@ terningkastet kan vi for eksempel vise et smilefjes hver gang vi kaster en 6'er:
   vil vi sammenligne resultatet av terningkastet med tallet 6. Vi kan si at
   `hvis terning = 6` skal vi vise bildet smilefjes.
 
-    Prøv å pusle sammen klosser fra `Logikk`- og `Variabler`-kategoriene som
-    sier `hvis terning = 6`.
+  Prøv å pusle sammen klosser fra `Logikk`- og `Variabler`-kategoriene som sier
+  `hvis terning = 6`.
 
 - [ ] Vi vil sjekke om resultatet av terningkastet var 6 etter at terningen har
   rullet ferdig. Det betyr at vi må legge `hvis`-klossene etter løkken vi laget
   tidligere. Programmet ditt vil tilslutt se ut omtrent som dette:
 
-    ![](risteskript_4.png)
+    ![Bilde av scriptet for å smile dersom terningen viser 6](risteskript_4.png)
+
 
 # Steg 5: Mer avanserte terninger {.activity}
 

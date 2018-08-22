@@ -1,13 +1,9 @@
 ---
-title: "Tegning med SVG"
-level: 3
+title: Tegning med SVG
 author: Teodor Heggelund
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [technology, programming]
-    grade: [junior, senior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -16,26 +12,40 @@ I denne oppagaven skal vi lære hvordan vi kan tegne med Elm.
 Her er noen vanlige elementer i webprogrammering:
 
 - **HTML**: Struktur.
-    - "Dette er en overskrift"
-    - "Dette er et avsnitt"
-    - "Dette er en liste"
+
+  - "Dette er en overskrift"
+
+  - "Dette er et avsnitt"
+
+  - "Dette er en liste"
+
 - **CSS**: Utseende.
-    - "Slik skal en overskrift se ut"
-    - "Slik skal et avsnitt se ut"
-    - "Slik skal en liste se ut"
+
+  - "Slik skal en overskrift se ut"
+
+  - "Slik skal et avsnitt se ut"
+
+  - "Slik skal en liste se ut"
+
 - **Elm** eller **Javascript**: Logikk
-    - "Dette skjer når jeg trykker på denne knappen"
-    - "Når jeg skriver i dette feltet, ser jeg at det andre forandrer seg"
+
+  - "Dette skjer når jeg trykker på denne knappen"
+
+  - "Når jeg skriver i dette feltet, ser jeg at det andre forandrer seg"
 
 Vi skal nå bruke SVG for å tegne:
 
 - **SVG**: Tegning
-    - "Dette er en sirkel"
-    - "Sirkelen har sentrum i punktet (3,4)"
-    - "Sirkelen har bredde (diameter) 100"
 
-Jeg kommer til å vise eksempler med **Try Elm**. Hvis du vil kjøre nettsiden lokalt,
-er det helt greit.
+  - "Dette er en sirkel"
+
+  - "Sirkelen har sentrum i punktet (3,4)"
+
+  - "Sirkelen har bredde (diameter) 100"
+
+Jeg kommer til å vise eksempler med **Try Elm**. Hvis du vil kjøre nettsiden
+lokalt, er det helt greit.
+
 
 # Steg 1: sirkel og rektangel {.activity}
 
@@ -58,7 +68,7 @@ main =
 
 Da skal du se noe slikt:
 
-![](try_rect_circle.png)
+![Bilde av en 500x500 px boks laget i elms online editor](try_rect_circle.png)
 
 La oss plukke koden fra hverandre.
 
@@ -85,7 +95,8 @@ Potential problems could be:
 
 Da må vi installere pakken `svg`.
 
-- [ ] Åpne et kommandovindu i **samme mappe som du har lagret Elm-programmet ditt**
+- [ ] Åpne et kommandovindu i **samme mappe som du har lagret Elm-programmet
+  ditt**
 
   Hvis jeg har en mappe på skrivebordet mitt som heter Elm, skal jeg se
   følgende: `C:\Users\teodor\Desktop\Elm> `
@@ -111,12 +122,14 @@ Nå bruker vi pakken **Svg** og importerer funksjoner som `circle` for sirkel og
 
 - [ ] Trykk på `circle`. Ser du teksten `Docs: Svg.circle` som dukket opp over?
   `Svg.circle` er en link til dokumentasjonen! Trykk på denne.
+
 - [ ] Stemmer eksempelet for `circle` med koden vår? Hva er forskjellig?
 
 Rect er det ikke (per februar 2017) noe eksempel for.
 
-- [ ] Gå til [Mozilla sin dokumentasjon for SVG-elementet `rect`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect).
-  Hva står det under **Specific attributes**? Bruker vi noen av disse?
+- [ ] Gå til [Mozilla sin dokumentasjon for SVG-elementet
+  `rect`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect). Hva
+  står det under **Specific attributes**? Bruker vi noen av disse?
 
 - [ ] Finner du `path` i dokumentasjonen til Elm?
 
@@ -135,15 +148,16 @@ main =
 
 `height "500"` sier at vi skal bruke 500 pixler i høyden.
 
-- [ ] Sjekk at du får en 500x500 px boks i nettleseren din. Slik ser det ut når jeg
-  sjekker:
+- [ ] Sjekk at du får en 500x500 px boks i nettleseren din. Slik ser det ut når
+  jeg sjekker:
 
-  ![](inspect_svg.png)
+  ![Bilde av en 500x500 px i boks i nettleseren din](inspect_svg.png)
 
 `viewBox "0 0 200 200"` definerer koordinatsystemet vårt: x er fra 0 til 200 og
 y er fra 0 til 200.
 
 - [ ] Inspiser sirkelen. Hvor mange pixler tar sirkelen?
+
 - [ ] Inspiser rektangelet. Hvor stort er dette?
 
 Jeg har satt et koordinatsystem med "bredde" 200 til å passe til 500 pixler på
@@ -164,21 +178,21 @@ nettsiden vår. Nå kan vi bruke disse til å tegne:
 
 Vi tar `circle` først:
 
-| Atributt      | Verdi         | Forklaring                      |
-| ------------- | ------------- | -----                           |
-| `cx`          | "30"          | Sentrum ligger i x=30           |
-| `cy`          | "50"          | Sentrum ligger i y=50           |
-| `r`           | "50"          | Sirkelens radius er 50          |
-| `fill`        | "blue"        | Sirkelen er fylt med fargen blå |
+| Atributt | Verdi  | Forklaring                      |
+| -------- | ------ | ------------------------------- |
+| `cx`     | "30"   | Sentrum ligger i x=30           |
+| `cy`     | "50"   | Sentrum ligger i y=50           |
+| `r`      | "50"   | Sirkelens radius er 50          |
+| `fill`   | "blue" | Sirkelen er fylt med fargen blå |
 
 Obs! `(0,0)` er øverst til venstre, og `(200,200)` er nederst til høyre. Tenk at
 vi starter å lese i `(0,0)`:
 
 ```
 (0,0) ---- (100, 0) ---- (200, 0) ---→ x
-  |                                
+  |
 (0, 100)   (100, 100)    (200, 100)
-  |                                
+  |
 (0, 200)   (100, 200)    (200, 200)
   |
   ↓
@@ -188,23 +202,26 @@ vi starter å lese i `(0,0)`:
 Din tur!
 
 - [ ] Gjør sirkelen grønn
-- [ ] Sett sentrum for sirkelen til "helt i midten". Hvis koordinatsystemet er fra 0
-  til 200, hva er i midten?
+
+- [ ] Sett sentrum for sirkelen til "helt i midten". Hvis koordinatsystemet er
+  fra 0 til 200, hva er i midten?
+
 - [ ] Hva skjer om du tegner sirkelen utenfor koordinatsystemet?
 
 Så er det `rect` sin tur:
 
-| Atributt      | Verdi         | Forklaring                         |
-| ------------- | ------------- | -----                              |
-| `x`           | "100"         | Begynn å tegne rektangelet i x=100 |
-| `y`           | "100"         | ... og y=100.                      |
-| `width`       | "80"          | Bredden er 80                      |
-| `height`      | "40"          | Høyden er 40                       |
-| `fill`        | "red"         | Og fyllfargen er rød.              |
+| Atributt | Verdi | Forklaring                         |
+| -------- | ----- | ---------------------------------- |
+| `x`      | "100" | Begynn å tegne rektangelet i x=100 |
+| `y`      | "100" | ... og y=100.                      |
+| `width`  | "80"  | Bredden er 80                      |
+| `height` | "40"  | Høyden er 40                       |
+| `fill`   | "red" | Og fyllfargen er rød.              |
 
 Din tur!
 
 - [ ] Lag en firkant som fyller hele koordinatsystemet!
+
 - [ ] Gjør den svart.
 
 Nå ser du ikke sirkelen i det hele tatt.
@@ -225,17 +242,18 @@ Nå ser du ikke sirkelen i det hele tatt.
 
 - [ ] Ser du noe nå? Hva kommer øverst?
 
+
 # Steg 2: kurver {.activity}
 
-En kurve ("path" på engelsk), er en rett eller myk strek mellom flere punkter. Vi
-kan tegne både rette kurver og myke kurver.
+En kurve ("path" på engelsk), er en rett eller myk strek mellom flere punkter.
+Vi kan tegne både rette kurver og myke kurver.
 
 En linje går mellom *to* punkter. Vi skal ha noe som går mellom *mange* punkter!
 
 ## Importere funksjoner for å tegne kurve {.check}
 
-- [ ] Importer `path` fra **Svg**, og `stroke` og `d` fra **Svg.Attributes**. Husker
-  du hvordan du importerer moduler?
+- [ ] Importer `path` fra **Svg**, og `stroke` og `d` fra **Svg.Attributes**.
+  Husker du hvordan du importerer moduler?
 
 ## Hvordan å importere funksjoner fra moduler {.protip}
 
@@ -276,7 +294,7 @@ import Html exposing (text, h1, p, ul, li)
 
 Min ser nå slik ut:
 
-![](svg_path.png)
+![Bilde av en sirkel og et rektangel med en skrå strek igjennom](svg_path.png)
 
 
 # Steg 3: tegne smiley {.activity}
@@ -313,8 +331,9 @@ main =
 Ånei! Den var ikke stor!
 
 - [ ] Endre sentrum (`cx` og `cy`) så sirkelen er i midten.
-- [ ] Endre radius (`r`) på sirkelen så sirkelen blir stor! Hvor stor kan du gjøre
-  den uten at den kuttes av i kantene?
+
+- [ ] Endre radius (`r`) på sirkelen så sirkelen blir stor! Hvor stor kan du
+  gjøre den uten at den kuttes av i kantene?
 
 ## Bezierkurver {.protip}
 
@@ -324,7 +343,7 @@ Vi bruker ofte bezierkurver når vi vil ha en *myk* kurve. Det finnes
 forskjellige typer bezierkurver:
 
 | Navn på norsk    | Navn på engelsk     | Nøkkel | Forklaring                               |
-|------------------|---------------------|--------|------------------------------------------|
+| ---------------- | ------------------- | ------ | ---------------------------------------- |
 | Lineær kurve     | **L**inear curve    | L      | Rett strek mellom to punkter ("linje")   |
 | Kvadratisk kurve | **Q**uadratic curve | Q      | Myk strek mellom tre punkter ("kvadrat") |
 | Kubisk kurve     | **C**ubic curve     | C      | Myk strek mellom fire punkter ("kube")   |
@@ -332,6 +351,7 @@ forskjellige typer bezierkurver:
 ## En munn som bezierkurve {.check}
 
 - [ ] Gå til http://bl.ocks.org/joyrexus/5715642
+
 - [ ] Du kan dra i punktene. Klarer du å lage en munn?
 
 Her er en `path` med bezierkurve i Elm:
@@ -346,13 +366,14 @@ I strengen `"M20,60 C 40,50 60,50 80,60 "` dukker det opp to mystiske variabler.
 Ånei! Det ble et surt fjes!
 
 - [ ] Kan du gjøre munnen blid igjen?
+
 - [ ] Hva skjer om du bytter ut `C` med `L` eller `Q`?
 
 ## Ellipser {.protip}
 
 Her er to ellipser:
 
-![](ellipses.png)
+![Bilde av to ellipser](ellipses.png)
 
 En sirkel har lik høyde og bredde. En ellipse kan være flat eller tynn; den kan
 ha forskjellig radius i x- og y-retning.
@@ -374,19 +395,26 @@ Du finner `ellipse` i **Svg**, og `cx` og `cy` i **Svg.Attributes**.
 ## Øyne som ellipser {.check}
 
 - [ ] Lag en ellipse for venstre øye
-- [ ] Lag en ellipse for høyre øye. Hva er forskjellen mellom høyre og venstre øye?
+
+- [ ] Lag en ellipse for høyre øye. Hva er forskjellen mellom høyre og venstre
+  øye?
 
 Her er sånn min ble seende ut:
 
-![](smiley.png)
+![Bilde av en smiley!](smiley.png)
 
 - [ ] Hva skjer om du fyller en bezierkurve med en farge?
 
-  `path [ fill "red", stroke "black", d "M20,60 C 40,80 60,80 80,60 " ] []`
+  ```elm
+  path [ fill "red", stroke "black", d "M20,60 C 40,80 60,80 80,60 " ] []
+  ```
 
 - [ ] Hva skjer om du legger på `stroke` på den gule sirkelen?
 
-  `circle [ cx "50", cy "50", r "50", stroke "black", fill "yellow" ] - [ ]`
+  ```elm
+  circle [ cx "50", cy "50", r "50", stroke "black", fill "yellow" ] - [ ]
+  ```
+
 
 # Svg inne i et Html-dokument {.activity}
 
@@ -408,10 +436,9 @@ main =
         ]
      , p [] [text "Her har jeg tegnet en firkant og en sirkel!"]
      ]
-
 ```
 
 ## Tegne på din egen nettside {.check}
 
-- [ ] Gå tilbake til en av de tidligere oppgavene du har gjort. Vil du legge til en
-  tegning noe sted?
+- [ ] Gå tilbake til en av de tidligere oppgavene du har gjort. Vil du legge til
+  en tegning noe sted?

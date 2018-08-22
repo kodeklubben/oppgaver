@@ -3,32 +3,53 @@ title: Scratch
 language: nn
 ---
 
-Scratch er et grafisk programmeringsspråk som er laget for at barn og unge
-enkelt skal lære seg programmering. Programmering i Scratch er litt som å bygge
-med Lego, og vi har laget mange prosjekter slik at du enkelt kan komme igang
-med å lage dine egne spill.
+Scratch er eit grafisk programmeringsspråk som er  laga for at born og unge
+enkelt skal lære seg programmering. Programmering i Scratch er litt som å byggje
+med Lego, og me har laga mange prosjekt slik at du enkelt kan kome i gang med å
+lage dine eigne spel.
 
-## Hvordan komme igang med Scratch
+## Korleis kom i gang med Scratch
 
 - Gå til [scratch.mit.edu](https://scratch.mit.edu).
-- Dersom siden er på engelsk så kan du bytte til norsk ved å gå helt ned på siden og velge `Norsk Bokmål`.
-- Dersom du ikke har bruker så kan du lage det ved å trykke på `Bli Scratch-bruker`, øverst til høyre.
+
+- Viss sida er på engelsk kan du byte til norsk ved å gå heilt ned på sida og
+  velje `Norsk Nynorsk`.
+
+- Viss du ikkje har brukar allereie, så kan du lage det ved å trykkje på `Bli
+  Scratch-brukar` øvst til høgre.
 
 ## Starte å programmere i Scratch
 
-- For å starte å programmere så trykker du på `Programmering` øverst til venstre. Da kommer du til en side med tre felter.
-- I midten er verktøykassen din hvor alle kodeklossene er tilgjengelige. For å programmere så velger du en kloss og drar den over til feltet til høyre.
-- Til høyre setter du sammen kodeklosser til skript som forteller hva forskjellige figurer skal gjøre. Sammen med grafikk og lyd danner skriptene programmet ditt.
-- Når du vil kjøre programmet ditt trykker du på det grønne flagget. Da vil det du har programmert skje på Scenen øverst i feltet til venstre.
-- I oppgavesettene under så finner du spill og prosjekter du kan programmere i Scratch, vi anbefaler å starte med spillelisten `Introduksjon til programmering`.
+- For å starte å programmere trykkar du på `Programmering` øvst til venstre. Då
+  kjem du til ei side med tre felt.
 
-## Ressurser
+- I midten er verktøykassa di der alle kodeklossane ligg. For å programmere vel
+  du ein kloss og dreg den over til feltet til høgre.
 
-- Vi har en egen guide for veiledere og lærere: [Kom i gang med Scratch](veiledninger/kom_i_gang_med_scratch.html).
-- Last ned kart som passer som bakgrunner i Scratch: [Last ned Scratchkart](kart/kart.html).
-- Gjør om regneark og datafiler til Scratchprosjekter: [Bruk data i Scratch](data/data.html).
-- Du finner diplomer og annet grafisk materiell på [kidsakoder.no/ressurser](http://www.kidsakoder.no/ressurser).
+- Til høgre set du saman kodeklossar til eit skript som fortel kva ulike figurar
+  skal gjere. Saman med grafikk og lyd dannar skripta programmet ditt.
 
-## Videoer
+- Når du vil køyre programmet ditt trykkar du på det grøne flagget. Då vil det
+  du har programmert skje på scena øvst i feltet til venstre.
 
-- Sjekk ut våre videoer på norsk for hvordan en kan komme igang og programmere i Scratch på [vimeo.com/channels/623455](https://vimeo.com/channels/623455).
+- I oppgåvesetta under finn du spel og prosjekt du kan programmere i Scratch. Me
+  anbefalar at du startar med spelelista `Introduksjon til programmering`.
+
+## Ressursar
+
+- Me har ein eigen guide for rettleiarar og lærarar: [Kom i gang med
+  Scratch](veiledning_kom_i_gang/kom_i_gang_med_scratch_nn.html).
+
+- Last ned kart som passar som bakgrunnar i Scratch: [Last ned
+  Scratchkart](kart/kart_nn.html).
+
+- Gjer om rekneark og datafiler til Scratchprosjekt: [Bruk data i
+  Scratch](data/data_nn.html).
+
+- Du finn diplom og anna grafisk materiell på
+  [kidsakoder.no/ressurser](http://www.kidsakoder.no/ressurser).
+
+## Videoar
+
+- Sjekk ut videoane våre på norsk for korleis du kjem i gang med programmering i
+  Scratch på [vimeo.com/channels/623455](https://vimeo.com/channels/623455).

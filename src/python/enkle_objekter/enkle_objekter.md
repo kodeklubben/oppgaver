@@ -1,19 +1,18 @@
 ---
 title: Enkle objekter
-level: 4
 author: Ole Kristian Pedersen, Kodeklubben Trondheim
 language: nb
-tags:
-  topic: [text_based]
-  subject: [programming]
-  grade: [secondary, junior, senior]
 ---
+
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi gi en enkel innføring til klasser og objekter (ordene forklares senere i teksten).
+I denne oppgaven skal vi gi en enkel innføring til klasser og objekter (ordene
+forklares senere i teksten).
+
 
 # Ordbøker {.activity}
+
 
 # {.protip}
 
@@ -45,6 +44,7 @@ import math
 
 def circle_area(circle):
     radius = circle["radius"]
+
     # formula: A = pi * r * r
     area = math.pi * radius * radius
     return area
@@ -56,7 +56,9 @@ Så kaller vi funksjonen:
 print(circle_area(circle))
 ```
 
+
 # Klasser og objekter {.activity}
+
 
 # {.protip}
 
@@ -80,9 +82,8 @@ circle = Circle()
 
 Vi lager først `Circle`-klassen, før vi så lager et `Circle`-objekt som vi
 kaller for `circle`. `class`-nøkkelordet forteller datamaskinen at nå lager vi
-en klasse, du kan sammenlikne det med f.eks. `def` som forteller datamaskinen
-at nå kommer en funksjon.
-
+en klasse, du kan sammenlikne det med f.eks. `def` som forteller datamaskinen at
+nå kommer en funksjon.
 
 Vi kan hente ut og endre variablene til objektet:
 
@@ -117,12 +118,13 @@ Så kaller vi funksjonen:
 print(circle.area())
 ```
 
-Du lurer kanskje på hvorfor vi brukte `self.radius` i funksjonen `area()`?
-Dette er fordi vi sier at vi vil bruke `radius`-variabelen som er en del av
-klassen. Du må alltid bruke `self` når du skal bruke funksjoner eller
-variabler du har lagd i klassen.
+Du lurer kanskje på hvorfor vi brukte `self.radius` i funksjonen `area()`? Dette
+er fordi vi sier at vi vil bruke `radius`-variabelen som er en del av klassen.
+Du må alltid bruke `self` når du skal bruke funksjoner eller variabler du har
+lagd i klassen.
 
-Som vi ser så er det ikke så stor forskjell mellom bruk av funksjoner og klasser:
+Som vi ser så er det ikke så stor forskjell mellom bruk av funksjoner og
+klasser:
 
 <div class="col-sm-6" >
 **Ordbøker**
@@ -139,14 +141,12 @@ def circle_area(circle):
     area = math.pi * circle["radius"] ** 2
     return area
 
-
-
-
 circle["radius"] = 5
 print(circle["color"])
 print(circle_area(circle))
 ```
 </div>
+
 <div class="col-sm-6" >
 **Klasser**
 
@@ -157,11 +157,9 @@ class Circle:
     radius = 3
     color = "red"
 
-
     def area(self):
         area = math.pi * self.radius ** 2
         return area
-
 
 circle = Circle()
 
@@ -174,11 +172,11 @@ print(circle.area())
 Vi kommer dermed til å bruke klasser i de neste oppgavene - det er minst like
 enkelt som ordbøker, og man kan gjøre mer avanaserte ting med klasser.
 
+
 # {.check}
 
 Nå kommer det et program som er skrevet ved bruk av ordbøker. Du skal prøve å
 "oversette" dette til et program som bruker klasser.
-
 
 ```python
 rectangle = {
@@ -195,6 +193,7 @@ rectangle["width"] = 10
 print(rectangle["color"])
 print(rectangle_area(rectangle))
 ```
+
 
 # Test programmet ditt {.flag}
 

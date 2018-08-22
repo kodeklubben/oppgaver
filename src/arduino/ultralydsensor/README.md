@@ -1,7 +1,9 @@
 ---
 title: Lærerveiledning - Ultralydsensor
+author: "Martin Ertsås & Morten Minde Neergaard"
 language: nb
 ---
+
 
 # Informasjon til veiledere
 
@@ -10,6 +12,7 @@ language: nb
 Oppgaven «Ultralydsensor» introduserer flere konsepter:
 
 + Bruk av ultralydsensor
+
 + Seriellkonsoll
 
 
@@ -26,9 +29,9 @@ være greit å ha et koblingsskjema eller tre i bakhånd for å dele ut:
 # Hjelp til 7-segment-utfordringen
 
 I oppgaven [7-Segment Display](../7_segment_display/7_segment_display.html) har
-vi laget koden som kan vise et tall mellom 0 og 9 på et display. Koden under
-vil bare skrive ut «Om du hadde hatt et display burde det vist tallet (tall)»
-om og om igjen på seriellkonsollet.
+vi laget koden som kan vise et tall mellom 0 og 9 på et display. Koden under vil
+bare skrive ut «Om du hadde hatt et display burde det vist tallet (tall)» om og
+om igjen på seriellkonsollet.
 
 ```cpp
 const auto ekko = 2; // Echo pin
@@ -67,7 +70,7 @@ oppdage gjenstander rundt pulten. Ultralydsensoren skal kunne «se» opp til 4
 meter fremfor seg, men da må de være store og flate (f.eks. en vegg).
 
 For formelen brukt i `map`, se referansen for hos
-[arduino.cc](https://www.arduino.cc/reference/en/language/functions/math/map/). Dette kan være relevant om
-man vil vinkle denne oppgaven inn mot matematikk.
+[arduino.cc](https://www.arduino.cc/reference/en/language/functions/math/map/).
+Dette kan være relevant om man vil vinkle denne oppgaven inn mot matematikk.
 
 `constrain` vil her gjøre at alle verdier høyere enn 9 vil bli satt til 9.

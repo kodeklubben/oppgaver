@@ -1,76 +1,69 @@
 ---
 title: Sprettball
-level: 3
 author: Geir Arne Hjelle
 language: nb
-tags:
-    topic: [text_based, minecraft]
-    subject: [technology, programming]
-    grade: [secondary, junior, senior]
 ---
+
 
 # Introduksjon {.intro}
 
-Nå skal vi lære hvordan vi kan koble en skjerm til datamaskinen. Med
-en ekstra skjerm kan vi bruke datamaskinen til å kommunisere med
-verden rundt oss. Kanskje Minecraft-verden blir fyllt med store
-reklamebannere?
+Nå skal vi lære hvordan vi kan koble en skjerm til datamaskinen. Med en ekstra
+skjerm kan vi bruke datamaskinen til å kommunisere med verden rundt oss. Kanskje
+Minecraft-verden blir fyllt med store reklamebannere?
 
-![](sprettball.png)
+![Bilde av en datamaskin og et display med en sprettball på](sprettball.png)
+
 
 # Steg 1: Koble en skjerm til datamaskinen {.activity}
 
-La oss som vanlig begynne helt enkelt. La oss koble en skjerm til en
-datamaskin og se om vi får til å skrive noe på skjermen.
+La oss som vanlig begynne helt enkelt. La oss koble en skjerm til en datamaskin
+og se om vi får til å skrive noe på skjermen.
 
 ## Sjekkliste {.check}
 
-- [ ] Bygg en **Computer**. Du kan også bruke en **Advanced Computer** om
-  du foretrekker det.
+- [ ] Bygg en **Computer**. Du kan også bruke en **Advanced Computer** om du
+  foretrekker det.
 
-- [ ] Bygg så en **Monitor** inntil datamaskinen du nettopp bygget,
-  omtrent som på bildet.
+- [ ] Bygg så en **Monitor** inntil datamaskinen du nettopp bygget, omtrent som
+  på bildet.
 
-  ![](enkelskjerm.png)
+  ![Bilde av en datamaskin og en enkel monitor](enkelskjerm.png)
 
-- [ ] Start datamaskinen. Den enkleste måten å skrive noe til skjermen er
-  ved hjelp av programmet `monitor`. Om du skriver `help monitor` vil
-  du kunne lese at `monitor` kan kjøre andre programmer på en
-  tilkoblet skjerm.
+- [ ] Start datamaskinen. Den enkleste måten å skrive noe til skjermen er ved
+  hjelp av programmet `monitor`. Om du skriver `help monitor` vil du kunne lese
+  at `monitor` kan kjøre andre programmer på en tilkoblet skjerm.
 
-  La oss for eksempel prøve programmet `hello`. Dette er et enkelt
-  program som vi såvidt har sett litt på tidligere. Det skriver bare
-  teksten *Hello World!*. Kjør først programmet på datamaskinen:
+  La oss for eksempel prøve programmet `hello`. Dette er et enkelt program som
+  vi såvidt har sett litt på tidligere. Det skriver bare teksten *Hello World!*.
+  Kjør først programmet på datamaskinen:
 
   ```
   > hello
   Hello World!
   ```
 
-  Nå kan vi prøve å få dette til å kjøre på skjermen. Med skjermen
-  koblet til på høyre (*right*) side av datamaskinen (som på bildet
-  over) skriver vi bare
+  Nå kan vi prøve å få dette til å kjøre på skjermen. Med skjermen koblet til på
+  høyre (*right*) side av datamaskinen (som på bildet over) skriver vi bare
 
   ```
   > monitor right hello
   ```
 
-  Du kan nå trykke `Esc` for å gå ut av datamaskinen og se på
-  skjermen. Står det *Hello World!*?
+  Du kan nå trykke `Esc` for å gå ut av datamaskinen og se på skjermen. Står det
+  *Hello World!*?
 
-  ![](helloworld_liten.png)
+  ![Bilde av monitor sin viser skriften "Hello World!"](helloworld_liten.png)
 
-- [ ] Kult! Da er vi igang med skjermene! Men - det ble jo veldig dårlig
-  plass på den skjermen! Det er det heldigvis lett å gjøre noe med. Om
-  du setter en **Monitor** ved siden av den du allerede har vil de to
-  skjermene smelte sammen til en større skjerm. På denne måten kan du
-  lage en stor skjerm! Prøv å kjør `hello`-programmet på den store
-  skjermen.
+- [ ] Kult! Da er vi igang med skjermene! Men - det ble jo veldig dårlig plass
+  på den skjermen! Det er det heldigvis lett å gjøre noe med. Om du setter en
+  **Monitor** ved siden av den du allerede har vil de to skjermene smelte sammen
+  til en større skjerm. På denne måten kan du lage en stor skjerm! Prøv å kjør
+  `hello`-programmet på den store skjermen.
 
-  ![](helloworld_stor.png)
+  ![Bilde av en stor monitor med skriften "Hello World!"](helloworld_stor.png)
 
-- [ ] Trikset med `monitor` fungerer selvsagt også med programmer vi
-  skriver selv. La oss lage et enkelt program som vi kaller `ku`:
+- [ ] Trikset med `monitor` fungerer selvsagt også med programmer vi skriver
+  selv. La oss lage et enkelt program som vi kaller `ku`:
 
   ```lua
   print("^__^")
@@ -80,28 +73,27 @@ datamaskin og se om vi får til å skrive noe på skjermen.
   print("   ||     ||")
   ```
 
-  Det er ikke så farlig om din ku ikke ser ut akkurat som her. Du
-  kan også gjerne tegne noe helt annet. Vi vil bare teste at også
-  vårt eget program kan skrives på skjemen.
+  Det er ikke så farlig om din ku ikke ser ut akkurat som her. Du kan også
+  gjerne tegne noe helt annet. Vi vil bare teste at også vårt eget program kan
+  skrives på skjemen.
 
 - [ ] Nå kan vi kjøre programmet: `monitor right ku`.
 
-  ![](ku.png)
+  ![Bilde av en monitor som viser en ASCII ku](ku.png)
 
 ## Cowsay {.protip}
 
-Denne kuen er basert på et morsomt lite program som heter **Cowsay**,
-og som ble laget av Tony Monroe på slutten av 1990-tallet. En
-web-variant av programmet finnes nå på
-[http://cowsay.morecode.org/](http://cowsay.morecode.org/).
+Denne kuen er basert på et morsomt lite program som heter **Cowsay**, og som ble
+laget av Tony Monroe på slutten av 1990-tallet. En web-variant av programmet
+finnes nå på [http://cowsay.morecode.org/](http://cowsay.morecode.org/).
+
 
 # Steg 2: En annen metode {.activity}
 
-I stedet for at vi bruker `monitor`-programmet for å skrive til
-skjermen kan vi skrive direkte til skjermen i programmer vi selv
-lager. Dette er ganske enkelt med et bibliotek som heter `peripheral`
-(*peripheral* betyr i denne sammenhengen *tillegg*, altså skjermen er
-et tillegg til datamaskinen).
+I stedet for at vi bruker `monitor`-programmet for å skrive til skjermen kan vi
+skrive direkte til skjermen i programmer vi selv lager. Dette er ganske enkelt
+med et bibliotek som heter `peripheral` (*peripheral* betyr i denne sammenhengen
+*tillegg*, altså skjermen er et tillegg til datamaskinen).
 
 ## Sjekkliste {.check}
 
@@ -112,23 +104,23 @@ et tillegg til datamaskinen).
   skjerm.write("Heisann!")
   ```
 
-  Som vanlig kan du bytte ut *right* med for eksempel *left* eller
-  *top* om du har plassert skjermen annerledes.
+  Som vanlig kan du bytte ut *right* med for eksempel *left* eller *top* om du
+  har plassert skjermen annerledes.
 
 - [ ] Kjør programmet ditt ved å skrive `skjerm`. Selv uten `monitor` skal
   programmet skrive til skjermen ved siden av datamaskinen.
 
-- [ ] I stedet for `peripheral.wrap` kan vi bruke `peripheral.find`. Da
-  trenger vi ikke å spesifisere hvilken side av datamaskinen skjermen
-  er på. Endre programmet ditt som følger:
+- [ ] I stedet for `peripheral.wrap` kan vi bruke `peripheral.find`. Da trenger
+  vi ikke å spesifisere hvilken side av datamaskinen skjermen er på. Endre
+  programmet ditt som følger:
 
   ```lua
   local skjerm = peripheral.find("monitor")     -- endret linje
   skjerm.write("Heisann!")
   ```
 
-- [ ] Vi kan også sjekke om det er noen skjerm koblet til. Dette gjør vi
-  enkelt i en *if*-test:
+- [ ] Vi kan også sjekke om det er noen skjerm koblet til. Dette gjør vi enkelt
+  i en *if*-test:
 
   ```lua
   local skjerm = peripheral.find("monitor")
@@ -140,10 +132,11 @@ et tillegg til datamaskinen).
   end                                           -- ny linje
   ```
 
-  Prøv å kjør dette nye programmet. Det kan hende du vil gjøre
-  `monitor right clear` innimellom for å tømme skjermen. Prøv også å
-  koble fra (ødelegge) skjermen. Får du melding om at ingen skjerm
-  er koblet til når du prøver å kjøre programmet ditt?
+  Prøv å kjør dette nye programmet. Det kan hende du vil gjøre `monitor right
+  clear` innimellom for å tømme skjermen. Prøv også å koble fra (ødelegge)
+  skjermen. Får du melding om at ingen skjerm er koblet til når du prøver å
+  kjøre programmet ditt?
+
 
 # Steg 3: En ball faller over skjermen {.activity}
 
@@ -152,9 +145,9 @@ Vi skal nå begynne på en enkel animasjon som vi kan kjøre på skjermen.
 ## Sjekkliste {.check}
 
 - [ ] Lag et nytt program som heter `sprettball`. Det begynner ganske likt
-  programmet vi jobbet med tidligere, så om du vil kan du kopiere det
-  ved å skrive `copy skjerm sprettball`. Programmet `sprettball` skal
-  se ut som følger:
+  programmet vi jobbet med tidligere, så om du vil kan du kopiere det ved å
+  skrive `copy skjerm sprettball`. Programmet `sprettball` skal se ut som
+  følger:
 
   ```lua
   local skjerm = peripheral.find("monitor")
@@ -169,8 +162,8 @@ Vi skal nå begynne på en enkel animasjon som vi kan kjøre på skjermen.
 
   Dette skal tegne en ball øverst på skjermen.
 
-- [ ] Vi kan nå bruke en enkel *for*-løkke til å animere ballen. Endre
-  koden din:
+- [ ] Vi kan nå bruke en enkel *for*-løkke til å animere ballen. Endre koden
+  din:
 
   ```lua
   local skjerm = peripheral.find("monitor")
@@ -188,14 +181,13 @@ Vi skal nå begynne på en enkel animasjon som vi kan kjøre på skjermen.
   ```
 
   For at vi skal rekke å se at ballen flytter seg har vi lagt inn en
-  `sleep`-kommando som bare venter litt (1-tallet betyr 1 sekund)
-  mellom hver gang ballen flyttes.
+  `sleep`-kommando som bare venter litt (1-tallet betyr 1 sekund) mellom hver
+  gang ballen flyttes.
 
-- [ ] Dette er ikke så spennende enda, men før vi lager noe mer avansert
-  vil vi gjøre en liten omstrukturering av koden, som gjør det enklere
-  for oss å holde oversikten senere. Vi flytter alt som har med
-  animering av ballen inn i en egen funksjon `tegnBall`. Flytt
-  kodelinjene rundt slik at de blir som dette:
+- [ ] Dette er ikke så spennende enda, men før vi lager noe mer avansert vil vi
+  gjøre en liten omstrukturering av koden, som gjør det enklere for oss å holde
+  oversikten senere. Vi flytter alt som har med animering av ballen inn i en
+  egen funksjon `tegnBall`. Flytt kodelinjene rundt slik at de blir som dette:
 
   ```lua
   function tegnBall(skjerm)                     -- ny linje
@@ -216,19 +208,18 @@ Vi skal nå begynne på en enkel animasjon som vi kan kjøre på skjermen.
   end
   ```
 
+
 # Steg 4: Hvor stor er skjermen {.activity}
 
-En liten utfordring med skjermer er at de kan ha forskjellig
-størrelse. Hvis du for eksempel setter tre skjermer oppå hverandre
-slik at du får en veldig høy skjerm vil ikke ballen i
-`sprettball`-programmet ditt falle helt til bunnen av skjermen. Dette
-kan vi løse ved å bruke funksjonen `getSize`.
+En liten utfordring med skjermer er at de kan ha forskjellig størrelse. Hvis du
+for eksempel setter tre skjermer oppå hverandre slik at du får en veldig høy
+skjerm vil ikke ballen i `sprettball`-programmet ditt falle helt til bunnen av
+skjermen. Dette kan vi løse ved å bruke funksjonen `getSize`.
 
 ## Sjekkliste {.check}
 
-- [ ] Funksjonen `getSize` forteller oss hvor bred og hvor høy skjermen
-  er. Endre funksjonen `tegnBall` slik at ballen faller over hele
-  skjermen:
+- [ ] Funksjonen `getSize` forteller oss hvor bred og hvor høy skjermen er.
+  Endre funksjonen `tegnBall` slik at ballen faller over hele skjermen:
 
   ```lua
   function tegnBall(skjerm)
@@ -242,24 +233,24 @@ kan vi løse ved å bruke funksjonen `getSize`.
   end
   ```
 
-- [ ] Prøv å lag skjermen høyere eller lavere. Faller ballen hele veien
-  ned når du kjører programmet ditt?
+- [ ] Prøv å lag skjermen høyere eller lavere. Faller ballen hele veien ned når
+  du kjører programmet ditt?
 
-- [ ] Klarer du å sentrere ballen, slik at den faller nedover midt på
-  skjermen uansett hvor stor skjermen er? Prøv selv!
+- [ ] Klarer du å sentrere ballen, slik at den faller nedover midt på skjermen
+  uansett hvor stor skjermen er? Prøv selv!
+
 
 # Steg 5: Sprettball {.activity}
 
-Nå vil vi få ballen til å oppføre seg mer som en sprettball. For å få
-til dette vil vi innføre noen nye variabler. Vi vil la `X` og `Y`
-betegne hvor ballen er, mens `fartX` og `fartY` forteller hvor fort
-ballen flytter på seg.
+Nå vil vi få ballen til å oppføre seg mer som en sprettball. For å få til dette
+vil vi innføre noen nye variabler. Vi vil la `X` og `Y` betegne hvor ballen er,
+mens `fartX` og `fartY` forteller hvor fort ballen flytter på seg.
 
 ## Sjekkliste {.check}
 
 - [ ] I tillegg til de nye variablene bytter vi ut *for*-løkken med en
-  *while*-løkke. Denne gjør at ballen skal sprette for alltid. Husk at
-  du bruker `Ctrl-T` for å avslutte programmet.
+  *while*-løkke. Denne gjør at ballen skal sprette for alltid. Husk at du bruker
+  `Ctrl-T` for å avslutte programmet.
 
   ```lua
   function tegnBall(skjerm)
@@ -281,9 +272,9 @@ ballen flytter på seg.
 
   Ballen vil nå bevege seg på skrå over skjermen. Ser du hvorfor?
 
-- [ ] Vi vil nå la ballen sprette når den treffer kanten. Dette gjør vi
-  ved å "snu farten" når vi beveger oss ut av skjermen. Legg til et
-  par tester nederst i funksjonen din:
+- [ ] Vi vil nå la ballen sprette når den treffer kanten. Dette gjør vi ved å
+  "snu farten" når vi beveger oss ut av skjermen. Legg til et par tester nederst
+  i funksjonen din:
 
   ```lua
   function tegnBall(skjerm)
@@ -310,15 +301,13 @@ ballen flytter på seg.
   end
   ```
 
-  Spretter ballen tilbake når den treffer kanten av skjermen? Lag
-  gjerne en ganske stor skjerm. Du kan også endre pausen mellom hver
-  gang ballen flytter seg. For eksempel bytt ut `sleep(1)` med
-  `sleep(0.1)`.
+  Spretter ballen tilbake når den treffer kanten av skjermen? Lag gjerne en
+  ganske stor skjerm. Du kan også endre pausen mellom hver gang ballen flytter
+  seg. For eksempel bytt ut `sleep(1)` med `sleep(0.1)`.
 
-- [ ] Tilslutt kan vi lage en mer naturlig sprettball-bevegelse ved å ta
-  med en variabel for gravitasjon. Vi kan tenke at gravitasjonen gjør
-  at ballen faller stadig raskere ned mot bakken, altså den øker
-  `fartY`.
+- [ ] Tilslutt kan vi lage en mer naturlig sprettball-bevegelse ved å ta med en
+  variabel for gravitasjon. Vi kan tenke at gravitasjonen gjør at ballen faller
+  stadig raskere ned mot bakken, altså den øker `fartY`.
 
   ```lua
   function tegnBall(skjerm)
@@ -347,20 +336,19 @@ ballen flytter på seg.
   end
   ```
 
-  Vi endret også litt i sjekken om `Y` er slik at ballen skal
-  sprette, siden gravitasjonen gjør at vi ikke trenger å sprette i
-  taket lengre.
+  Vi endret også litt i sjekken om `Y` er slik at ballen skal sprette, siden
+  gravitasjonen gjør at vi ikke trenger å sprette i taket lengre.
+
 
 # Steg 6: Reklamebanner {.activity}
 
-Vi tar nå en liten pause fra sprettballen vår for å se på hvordan vi
-kan bruke skjermene til å lage enkle tekstplakater eller
-reklamebannere.
+Vi tar nå en liten pause fra sprettballen vår for å se på hvordan vi kan bruke
+skjermene til å lage enkle tekstplakater eller reklamebannere.
 
 ## Sjekkliste {.check}
 
-- [ ] Lag et nytt program som du kaller `reklame`. Vi begynner helt enkelt
-  med kommandoer du allerede kjenner:
+- [ ] Lag et nytt program som du kaller `reklame`. Vi begynner helt enkelt med
+  kommandoer du allerede kjenner:
 
   ```lua
   local skjerm = peripheral.find("monitor")
@@ -376,40 +364,39 @@ reklamebannere.
 
   Kjør programmet. Skriver det til skjermen som det skal?
 
-- [ ] Et problem hvis dette skal være et reklamebanner er at teksten er
-  alt for liten! Du må jo nesten gå helt fram til skjermen for å kunne
-  lese den.
+- [ ] Et problem hvis dette skal være et reklamebanner er at teksten er alt for
+  liten! Du må jo nesten gå helt fram til skjermen for å kunne lese den.
 
-  For skjermer kan vi bruke `setTextScale` for å endre
-  tekststørrelsen.  Legg til linjen
+  For skjermer kan vi bruke `setTextScale` for å endre tekststørrelsen. Legg til
+  linjen
 
   ```lua
   skjerm.setTextScale(3)
   ```
 
-  rett før linjen `skjerm.clear()`, og kjør programmet ditt på nytt.
-  Ble teksten større?
+  rett før linjen `skjerm.clear()`, og kjør programmet ditt på nytt. Ble teksten
+  større?
 
-  ![](reklame.png)
+  ![Bilde av en monitor med ordet "ComputerScraft" skrevet stort](reklame.png)
 
-  Tallet `3` i `setTextScale(3)` indikererer størrelsen på
-  teksten. Her kan vi bruke tall mellom 0.5 og 5, hvor 5 gir oss den
-  største mulige teksten. Etter at vi har brukt `setTextScale` må vi
-  bruke `clear` før tekststørrelsen blir oppdatert.
+  Tallet `3` i `setTextScale(3)` indikererer størrelsen på teksten. Her kan vi
+  bruke tall mellom 0.5 og 5, hvor 5 gir oss den største mulige teksten. Etter
+  at vi har brukt `setTextScale` må vi bruke `clear` før tekststørrelsen blir
+  oppdatert.
 
-- [ ] Prøv å endre verdien i `setTextScale`. Forandrer størrelsen på
-  teksten seg? Hva skjer hvis du bruker et tall større enn 5? Eller
-  mindre enn 0.5?
+- [ ] Prøv å endre verdien i `setTextScale`. Forandrer størrelsen på teksten
+  seg? Hva skjer hvis du bruker et tall større enn 5? Eller mindre enn 0.5?
 
-- [ ] Vi vil nå la programmet selv bestemme tekststørrelsen. Siden vi vil
-  at dette skal være en reklameplakat ønsker vi at teksten skal være
-  så stor som mulig.
+- [ ] Vi vil nå la programmet selv bestemme tekststørrelsen. Siden vi vil at
+  dette skal være en reklameplakat ønsker vi at teksten skal være så stor som
+  mulig.
 
   En måte å gjøre dette på er å lage en løkke hvor vi tester alle
-  tekststørrelsene fra størst til minst, helt til vi finner en
-  størrelse hvor all teksten får plass på skjermen.
+  tekststørrelsene fra størst til minst, helt til vi finner en størrelse hvor
+  all teksten får plass på skjermen.
 
   Legg inn denne funksjonen øverst i `reklame`-koden:
+
   ```lua
   function brukStorTekst(skjerm, tekst)
       local lengde = #tekst
@@ -425,36 +412,33 @@ reklamebannere.
   end
   ```
 
-  Skjønner du hvordan denne koden fungerer? Vi bruker noen nye triks
-  her som du kanskje ikke har sett før.
+  Skjønner du hvordan denne koden fungerer? Vi bruker noen nye triks her som du
+  kanskje ikke har sett før.
 
-  Tegnet `#` brukes for å telle ting. For eksempel betyr `#tekst`
-  rett og slett bare antall tegn i (lengden av) `tekst`. Dette må vi
-  vite når vi senere skal sjekke om skjermen er stor nok.
+  Tegnet `#` brukes for å telle ting. For eksempel betyr `#tekst` rett og slett
+  bare antall tegn i (lengden av) `tekst`. Dette må vi vite når vi senere skal
+  sjekke om skjermen er stor nok.
 
-  I *for*-løkken bruker vi tre tall i stedet for to som vanlig. Det
-  siste tallet, i dette tilfellet -0.5 bestemmer hvor store steg vi
-  tar i løkken. Siden vi her ville telle ned fra 5 til 0.5 må vi
-  bruke et negativt steg.
+  I *for*-løkken bruker vi tre tall i stedet for to som vanlig. Det siste
+  tallet, i dette tilfellet -0.5 bestemmer hvor store steg vi tar i løkken.
+  Siden vi her ville telle ned fra 5 til 0.5 må vi bruke et negativt steg.
 
-  Til slutt, `break` sier at vi vil avslutte *for*-løkken før den
-  egentlig er ferdig. Dermed avslutter vi letingen etter
-  tekststørrelser når vi finner en som passer. Tidligere har vi
-  brukt `break` for å for eksempel avslutte `skattejakt` når man
-  fant skatten.
+  Til slutt, `break` sier at vi vil avslutte *for*-løkken før den egentlig er
+  ferdig. Dermed avslutter vi letingen etter tekststørrelser når vi finner en
+  som passer. Tidligere har vi brukt `break` for å for eksempel avslutte
+  `skattejakt` når man fant skatten.
 
-- [ ] Nå vil vi bruke denne funksjonen for å sette tekststørrelsen. Prøv
-  selv om du finner ut hvor og hvordan funksjonen bør kalles! Skal
-  noen av de opprinnelige linjene slettes? Sjekk om programmet ditt
-  virker ved å endre størrelsen på skjermen (bygg eller ødelegg noen
-  enkeltskjermer) og kjøre det på nytt.
+- [ ] Nå vil vi bruke denne funksjonen for å sette tekststørrelsen. Prøv selv om
+  du finner ut hvor og hvordan funksjonen bør kalles! Skal noen av de
+  opprinnelige linjene slettes? Sjekk om programmet ditt virker ved å endre
+  størrelsen på skjermen (bygg eller ødelegg noen enkeltskjermer) og kjøre det
+  på nytt.
 
-- [ ] En ting du kanskje ser er at du må skrive teksten som skal stå på
-  skjermen to ganger? Først for at `brukStorTekst` trenger den for å
-  finne riktig størrelse på skjermen, og deretter for at
-  `skjerm.write` skal skrive den til skjermen. Da er det lurt å i
-  stedet lage en variabel. Med denne variabelen vil koden din (under
-  funksjonen `brukStorTekst`) se omtrent slik ut:
+- [ ] En ting du kanskje ser er at du må skrive teksten som skal stå på skjermen
+  to ganger? Først for at `brukStorTekst` trenger den for å finne riktig
+  størrelse på skjermen, og deretter for at `skjerm.write` skal skrive den til
+  skjermen. Da er det lurt å i stedet lage en variabel. Med denne variabelen vil
+  koden din (under funksjonen `brukStorTekst`) se omtrent slik ut:
 
   ```lua
   local tekst = "ComputerCraft"
@@ -471,26 +455,28 @@ reklamebannere.
 
 ### Prøv selv {.challenge}
 
-Det er flere måter å gjøre `reklame`-programmet enda bedre på. Her er
-to forslag:
+Det er flere måter å gjøre `reklame`-programmet enda bedre på. Her er to
+forslag:
 
-Kan du midtstille teksten på skjermen? Du må da endre tallene i
-`setCursorPos` ut ifra lengden på teksten og størrelsen på skjermen.
+Kan du midtstille teksten på skjermen? Du må da endre tallene i `setCursorPos`
+ut ifra lengden på teksten og størrelsen på skjermen.
 
-Om du endrer størrelsen på skjermen blir teksten borte. Vi kan heller
-få teksten til å bli skrevet i ny og riktig størrelse når skjermen
-blir endret. Du kan bruke `os.pullEvent` til å lytte på hendelser som
-heter `monitor_resize` og skrive teksten på nytt når disse skjer.
+Om du endrer størrelsen på skjermen blir teksten borte. Vi kan heller få teksten
+til å bli skrevet i ny og riktig størrelse når skjermen blir endret. Du kan
+bruke `os.pullEvent` til å lytte på hendelser som heter `monitor_resize` og
+skrive teksten på nytt når disse skjer.
+
 
 # Steg 7: En skikkelig ticker! {.activity}
 
-Dessverre er det en begrensning på hvor stor en skjerm kan være. Du
-kan maksimalt sette sammen 8 x 6 skjermer til en stor skjerm. Dette
-begrenser hvor lange tekster vi kan skrive, ihvertfall om vi vil bruke
-stor og godt synlig tekst.
+Dessverre er det en begrensning på hvor stor en skjerm kan være. Du kan
+maksimalt sette sammen 8 x 6 skjermer til en stor skjerm. Dette begrenser hvor
+lange tekster vi kan skrive, ihvertfall om vi vil bruke stor og godt synlig
+tekst.
 
-Et alternativ for lengre tekster er å bruke en ticker, hvor vi
-animerer teksten slik at den ruller over skjermen.
+Et alternativ for lengre tekster er å bruke en ticker, hvor vi animerer teksten
+slik at den ruller over skjermen.
+
 
 # Sjekkliste {.check}
 
@@ -512,15 +498,14 @@ animerer teksten slik at den ruller over skjermen.
   end
   ```
 
-  Her setter vi bare størrelsen på teksten fast til `5`, siden vi
-  vil bruke så stor tekst som mulig. Hva skjer når du kjører dette
-  programmet?
+  Her setter vi bare størrelsen på teksten fast til `5`, siden vi vil bruke så
+  stor tekst som mulig. Hva skjer når du kjører dette programmet?
 
-- [ ] I stedet for å prøve å skrive hele teksten til skjermen vil vi nå
-  bare skrive så mye tekst som faktisk får plass. Da bruker vi igjen
-  `skjerm.getSize()` for å finne ut hvor stor skjermen er. Videre vil
-  vi bruke funksjonen `string.sub` i `string`-biblioteket (*sub* betyr
-  i denne sammenhengen *del*, den brukes til å finne deltekster).
+- [ ] I stedet for å prøve å skrive hele teksten til skjermen vil vi nå bare
+  skrive så mye tekst som faktisk får plass. Da bruker vi igjen
+  `skjerm.getSize()` for å finne ut hvor stor skjermen er. Videre vil vi bruke
+  funksjonen `string.sub` i `string`-biblioteket (*sub* betyr i denne
+  sammenhengen *del*, den brukes til å finne deltekster).
 
   ```lua
   local tekst = "Jeg er en lang tekst. Bytt meg gjerne ut!"
@@ -539,10 +524,10 @@ animerer teksten slik at den ruller over skjermen.
   end
   ```
 
-  I linjen `string.sub(tekst, 1, bredde)` sier vi at vi vil ta ut en
-  deltekst fra `tekst` fra tegn nummer `1` til tegn nummer
-  `bredde`. Prøv å endre på disse tallene for å se effekten, slik at
-  du skjønner hvordan denne funksjonen virker.
+  I linjen `string.sub(tekst, 1, bredde)` sier vi at vi vil ta ut en deltekst
+  fra `tekst` fra tegn nummer `1` til tegn nummer `bredde`. Prøv å endre på
+  disse tallene for å se effekten, slik at du skjønner hvordan denne funksjonen
+  virker.
 
 - [ ] Vi kan nå animere teksten ved hjelp av en *for*-løkke.
 
@@ -568,28 +553,26 @@ animerer teksten slik at den ruller over skjermen.
   end
   ```
 
-  Skjønner du hvordan tellevariabelen `i` virker? Enkelt sagt teller
-  den hvor langt fra det første tegnet i teksten vi har kommet.
+  Skjønner du hvordan tellevariabelen `i` virker? Enkelt sagt teller den hvor
+  langt fra det første tegnet i teksten vi har kommet.
 
-- [ ] Kjør programmet. Ser du animasjonen? Hvis du bare ser slutten av
-  teksten på skjermen er det fordi datamaskinen animerer for
-  raskt. Prøv å legg inn en `sleep`-kommando nederst i
-  *for*-løkken. Ble det bedre nå?
+- [ ] Kjør programmet. Ser du animasjonen? Hvis du bare ser slutten av teksten
+  på skjermen er det fordi datamaskinen animerer for raskt. Prøv å legg inn en
+  `sleep`-kommando nederst i *for*-løkken. Ble det bedre nå?
 
-- [ ] Hvis dette skal være en ticker som står og går vil vi at teksten
-  skal rullere hele tiden, ikke bare en gang. Prøv også å lag en
-  `while true do`-løkke rundt *for*-løkken. Gjentas animasjonen? Husk
-  at du kan bruke `Ctrl-T` for å stoppe programmet ditt.
+- [ ] Hvis dette skal være en ticker som står og går vil vi at teksten skal
+  rullere hele tiden, ikke bare en gang. Prøv også å lag en `while true
+  do`-løkke rundt *for*-løkken. Gjentas animasjonen? Husk at du kan bruke
+  `Ctrl-T` for å stoppe programmet ditt.
 
-- [ ] Når animasjonen kommer til slutten av teksten, bare hopper den rett
-  til begynnelsen igjen. Dette ser ikke så bra ut. Vi kan forbedre
-  dette ved å legge på litt luft før og etter teksten.
+- [ ] Når animasjonen kommer til slutten av teksten, bare hopper den rett til
+  begynnelsen igjen. Dette ser ikke så bra ut. Vi kan forbedre dette ved å legge
+  på litt luft før og etter teksten.
 
-  Hvor mye luft vi legger på vil ideelt sett avhenge av hvor stor
-  skjermen er. Til dette kan vi bruke `string.rep` som kan repetere
-  tekststrenger. For eksempel er `string.rep("Hei", 4)` det samme
-  som `HeiHeiHeiHei`. Vi kan legge på litt luft rundt teksten før vi
-  begynner å animere den.
+  Hvor mye luft vi legger på vil ideelt sett avhenge av hvor stor skjermen er.
+  Til dette kan vi bruke `string.rep` som kan repetere tekststrenger. For
+  eksempel er `string.rep("Hei", 4)` det samme som `HeiHeiHeiHei`. Vi kan legge
+  på litt luft rundt teksten før vi begynner å animere den.
 
   ```lua
   local tekst = "Jeg er en lang tekst. Bytt meg gjerne ut!"

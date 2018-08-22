@@ -1,0 +1,13 @@
+sortindex: 4
+title:
+  nb: 'Lys- og fargesensor'
+  nn: 'Lys- og fargesensor'
+  en: 'Light and color sensor'
+lessons:
+  - lys_1lysintensitet
+  - lys_2fargekoder
+  - lys_3svartstrek
+  - lys_4fargegjenkjenner
+  - lys_5fargegjenkjenner2
+  - lys_6kalibrerelyssensor
+  - lys_7folgelinje

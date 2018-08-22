@@ -1,13 +1,9 @@
 ---
 title: "Hvor er HTML? Jeg ser den ikke!"
-level: 1
 author: Teodor Heggelund
 language: nb
-tags:
-    topic: [text_based, web]
-    subject: [programming, technology]
-    grade: [junior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -18,6 +14,7 @@ kjennskap til HTML, samt enkelt kunne endre på nettsider du er inne på.
 Denne oppgaven er demonstrert med nettleseren Google Chrome. Bruk Google Chrome
 hvis du har den.
 
+
 # Steg 1: Se {.activity}
 
 Hvor er da all HTML-koden bak nettsidene vi ser til vanlig? Den er gjemt bak
@@ -25,16 +22,18 @@ nettleseren! La oss ta en titt.
 
 ## Aktiviteter {.check}
 
-- [ ] Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome eller
-  Firefox
-- [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect` (engelsk).
+- [ ] Gå til [oppgaver.kidsakoder.no](http://oppgaver.kidsakoder.no) i Chrome
+  eller Firefox
 
-  ![](inspiser_katten.png)
+- [ ] Høyreklikk på katten og trykk `Inspiser` (norsk) eller `Inspect`
+  (engelsk).
+
+  ![Bilde av kodeklubbens nettsider med katten høyreklikket](inspiser_katten.png)
 
   Når vi klikker på `Inspiser`, får vi se en meny til hjelp for utviklere. Denne
   er svært nyttig til webutvikling.
 
-  ![](kattens_kildekode.png)
+  ![Bilde av kildekoden til katten på kodeklubbens nettsider](kattens_kildekode.png)
 
   Ser du den fargede teksten, du også? Det er HTML, slik Chrome leser den!
   Nettsidens kildekode.
@@ -45,12 +44,12 @@ nettleseren! La oss ta en titt.
   <img src="scratch/logo-black.png">
   ```
 
-- [ ] Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren over
-  filnavnet. Ser du filen dukker opp?
+- [ ] Se om du finner igjen `scratch/logo_black.png` i kildekoden. Hold pekeren
+  over filnavnet. Ser du filen dukker opp?
 
 - [ ] Inspiser slangen. Hva er filnavnet til slangen? Ser du det samme som meg?
 
-  ![](slangens_kildekode.png)
+  ![Bilde av kildekoden til slangen på kodeklubbens nettsider](slangens_kildekode.png)
 
   Kildekoden til slangen ser slik ut:
 
@@ -63,9 +62,11 @@ nettleseren! La oss ta en titt.
 **Høyreklikk og inspiser** finner HTML-koden til elementet vi ser på.
 
 **HTML-kode for bilder** ser slik ut:
+
 ```html
 <img src="fil.png">
 ```
+
 
 # Steg 2: Fjern {.activity}
 
@@ -85,17 +86,17 @@ blir alt som det var. Prøv!
 Jeg er glad i Minecraft. Men Minecraft er ikke først i listen over kurs! La oss
 gjøre noe med det. Vi fjerner alt som er foran!
 
-- [ ] Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern elementet
-  med tasten `delete` på tastaturet!
+- [ ] Høyreklikk på katten og inspiser. Finn elementet med katten. Fjern
+  elementet med tasten `delete` på tastaturet!
 
-  ![](katten_er_borte.png)
+  ![Bilde av kodeklubbens nettsiden uten katten!](katten_er_borte.png)
 
 - [ ] Yes! Katten ble borte!
 
   ... men. Vent litt. Slangen gikk ikke til venstre. Hva skjedde nå, mon tro? Og
   det står fremdeles `Scratch` under den tomme plassen?
 
-  ![](kattens_usynlige_boks.png)
+  ![Bilde av en usynlig boks på kodeklubbens nettsider](kattens_usynlige_boks.png)
 
   Ha! Det er en usynlig boks igjen, den som tidligere hadde katten i seg! Den
   heter `<a>`, og er en link:
@@ -110,31 +111,32 @@ gjøre noe med det. Vi fjerner alt som er foran!
   </a>
   ```
 
-- [ ] Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som er
-  inni linken!
+- [ ] Trykk på den lille pilen ved siden av linken `<a>`. Da gjemmer vi hva som
+  er inni linken!
 
-  ![](liten_a.png)
+  ![Viser hva som er inneholdt i <a> taggen](liten_a.png)
 
 - [ ] Fjern teksten `Scratch`. Merk den som under, og trykk `delete`:
 
-  ![](teksten_scratch.png)
+  ![Bildet av Scratch navnet markert i kildekoden til kodeklubbens nettsider](teksten_scratch.png)
 
   Simsalabim!
 
-  ![](simsalabim.png)
+  ![Bildet av at teksten under kattebildet og er fjernet](simsalabim.png)
 
   La oss fjerne litt mer.
 
 - [ ] Fjern elementet som inneholder alle kursene:
+
   ```html
-  <div class="courses">
+  <div class="courses"> ... </div>
   ```
 
-  ![](class_courses.png)
+  ![Bildet av at elementet som inneholder alle kursene er markert](class_courses.png)
 
   Poff!
 
-  ![](alt_borte.png)
+  ![Bilde av at alle elementet som inneholdt alle kursene er fjernet](alt_borte.png)
 
   Å nei! Nå ble alt borte!
 
@@ -146,9 +148,10 @@ gjøre noe med det. Vi fjerner alt som er foran!
 
 - [ ] Finn elementet som er den usynlige boksen rundt slangen. Fjern det!
 
-- [ ] Gjør det samme for `Lego Mindstorms`, `Web`, `App Inventor` og `CodeStudio`.
+- [ ] Gjør det samme for `Lego Mindstorms`, `Web`, `App Inventor` og
+  `CodeStudio`.
 
-  ![](minecraft_yay.png)
+  ![Bilde av at bare fire elementer gjenstår på kodeklubbens nettsider](minecraft_yay.png)
 
   Sånn skal det se ut!
 
@@ -160,28 +163,31 @@ Disse kan være lenker (`<a>`) eller bokser (`<div>`).
 
 Vi kan fremdeles finne og se alle de usynlige kodene når vi bruker `Inspiser`!
 
+
 # Steg 3: Skap {.activity}
 
 Nå skal vi leke! La oss putte denne rakkeren
 
-![](schnauzer.jpg)
+![Bilde av hunderasen schnauzer](schnauzer.jpg)
 
 på **alle kursene**!
 
-![](schnauzere.png)
+![Bilde av at alle ikonene til kodeklubbens kurs er erstattet av hunderasen schnauzer](schnauzere.png)
 
 ## Aktiviteter {.check}
 
-- [ ] Finn et bilde du liker på internett. Hent bildeadressen ved høyreklikke på bildet:
+- [ ] Finn et bilde du liker på internett. Hent bildeadressen ved høyreklikke på
+  bildet:
 
-  ![](bildeadresse.png)
+  ![Bilde av hvordan finne bildeadressen til et bilde på internett](bildeadresse.png)
 
 - [ ] Endre alle bildene ved å redigere `src`-attributten til `<img>`-taggen:
 
-  ![](ny_og_bedre_src.png)
+  ![Bilde av hvordan endre src-attributten til img-taggen på kodeklubbens nettsider](ny_og_bedre_src.png)
+
 
 # Steg 4: Masse moro! {.activity}
 
 Gratulerer! Du er har kommet ett skritt på vei til å bli webutvikler!
 
-![](schnauzer_web_developer.jpg)
+![Bilde av en schnauzer med briller som leser en bok](schnauzer_web_developer.jpg)

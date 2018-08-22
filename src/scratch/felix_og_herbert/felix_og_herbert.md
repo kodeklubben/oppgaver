@@ -1,16 +1,11 @@
 ---
-title: Felix og Herbert
+title: 'Felix og Herbert'
 level: 1
-logo: ../../assets/img/ccuk_logo.png
-author: Oversatt fra [Code Club UK](//codeclub.org.uk)
-translator: Gudbrand Tandberg
-license: "[Code Club World Limited Terms of Service](https://github.com/CodeClub/scratch-curriculum/blob/master/LICENSE.md)"
+author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+translator: 'Gudbrand Tandberg'
 language: nb
-tags:
-    topic: [block_based, game]
-    subject: [english, norwegian, programming]
-    grade: [primary, secondary, junior]
 ---
+
 
 # Introduksjon {.intro}
 
@@ -19,7 +14,8 @@ styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av
 Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du
 tatt, går poengsummen din ned.
 
-![](felix_og_herbert.png)
+![Bilde av katten Felix og musa Herbert](felix_og_herbert.png)
+
 
 # Steg 1: Felix følger musepekeren {.activity}
 
@@ -74,6 +70,7 @@ Det kan likevel være lurt å lagre manuelt innimellom.
 
 - [ ] I filmenyen, velg `Lagre nå`.
 
+
 # Steg 2: Felix jager Herbert {.activity}
 
 *Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.*
@@ -108,6 +105,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Jager Felix Herbert?
 
+
 # Steg 3: Felix sier når han har fanget Herbert {.activity}
 
 *Vi vil at Felix skal vite når han har fanget Herbert og fortelle det
@@ -135,6 +133,7 @@ __Klikk på det grønne flagget.__
 __Klikk på det grønne flagget.__
 
 - [ ] Sier Felix fra når han har fanget Herbert?
+
 
 # Steg 4: Herbert blir et spøkelse når han fanges {.activity}
 
@@ -195,6 +194,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Står Felix stille lenge nok til at Herbert kommer seg unna?
 
+
 # Steg 5: Telle poeng {.activity}
 
 *La oss legge til en poengsum slik at vi kan se hvor flink man er til
@@ -208,7 +208,7 @@ __Klikk på det grønne flagget.__
   variabel. Kall variabelen for `Poeng`, og la den gjelde for alle
   figurer.
 
-  ![](ny-variabel-poeng.png)
+  ![Bilde av den nye poeng variabelen](ny-variabel-poeng.png)
 
   Legg merke til at `Poeng `{}` 0 `{.blockdata}` ` dukket opp øverst til
   venstre i spillet ditt.
