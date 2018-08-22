@@ -4,18 +4,53 @@ indexed: False
 language: nb
 ---
 
+# Vis filtyper (Kun Windows) {.activity}
+
+Dette er et steg du kan hoppe over hvis du har gjordt dette tidligere.
+
+For å endre filtypene til de forskjellige filene, er det lettest å endre dem
+med å gi dem et nytt navn.
+
+Under står instruksjoner for å vise filtyper.
+
+## Sjekkliste {.check}
+
+- [ ] Åpne et filutforsker-vindu
+
+- [ ] I raden på toppen velger du "Vis"
+
+- [ ] I seksjonen "Vis/Sjul" Aktiver "Vis Filtyper"
+
+Du har nå aktivert visning av filtyper!
+
+
+
+
+
 # Installasjon av GBDK og Bgb {.intro}
 
-"Gameboy" var den første konsollen til Nintendo, som du kunne bytte spillet ut med et annet, ved bruk av kassetter.
+21. April slapp Nintendo konsollen "Gameboy" ut på markedet. Denne konsollen
+var revolusjonerende, dette var den første bærbare konsollen, der du kunne
+bytte spillet med å bytte kasseten.
 
-Her kan du se hvordan du setter opp utviklerområdet på en Windows pc.
+Når man programmerer generelt, er det lurt å ha en arbeidsplass. Vi anbefaler
+deg å ha alt av koding i en egen mappe.
+
+Under, kan du lese om hvordan du setter opp arbeidsplassen din.
+
+
 
 # Installering av GBDK {.activity}
 
-GBDK er en oversetter, som oversetter kode som mennesker kan lese, til kode som
-Gameboy-en kan lese.
+__GBDK__ er en "__Compiler__". Compilerens jobb er å oversette koden din til et språk
+som __prossesoren__ kan lese, og derreter gjøre ting.
 
-## Sjekkliste {.check}
+## Windows {.check}
+
+I tilleg til å installere __GBDK__ får du også en "__Bat__" -fil. Kjører du
+denne filen vil den ta koden din (som ligger hovedsaklig i  filen__main.c__),
+og gir den til GBDK. GBDK vil da ta koden din og oversette den. Etterpå vil den
+legge oversatt kode i filen __game.gb__.
 
 - [ ] Gå til [GBDK lastest release side på sourceforge-nettsiden](https://sourceforge.net/projects/gbdk/files/gbdk-win32/2.95-3/)
 
@@ -33,14 +68,17 @@ Du har nå installert GBDK!
 
 # Installering av Bgb {.activity}
 
-Ved å bruke GBDK, får du kode som en ekte Gameboy kan lese. Men det er en liten
-sjanse for at du har en Gameboy og et flashkort liggende. Derfor bruker vi Bgb,
-en emulator.
+Ved å bruke __GBDK__, får du kode som en ekte Gameboy kan lese. Men det er en liten
+sjanse for at du har en Gameboy og et flashkort liggende. Derfor bruker vi __BGB__,
+en __emulator__.
 
 Dette programmet, later som om den er en ekte Gameboy, slik at du får
-testet ut koden din.
+testet ut koden din. Programmet er også 100% lovlig.
 
-## Sjekkliste {.check}
+## Windows {.check}
+
+Vi gir deg også en annen "__bat__" fil her. Kjører du denne filen vil den ta koden
+som ligger i __game.gb__ og gi den til __BGB__,
 
 - [ ] Gå til [Bgb -hovednettsiden](http://bgb.bircd.org/)
 
@@ -61,20 +99,3 @@ testet ut koden din.
 - [ ] Flytt filen til bin -mappen også
 
 Du har nå installert Bgb!
-
-# Vis filtyper {.activity}
-
-Dette er et steg du kan hoppe over hvis du har gjordt dette tidligere.
-
-For å endre filtypene til de forskjellige filene, er det lettest å endre dem med
-å gi dem et nytt navn.
-
-## Sjekkliste {.check}
-
-- [ ] Åpne et filutforsker-vindu
-
-- [ ] I raden på toppen velger du "Vis"
-
-- [ ] I seksjonen "Vis/Sjul" Aktiver "Vis Filtyper"
-
-Du har nå aktivert visning av filtyper!

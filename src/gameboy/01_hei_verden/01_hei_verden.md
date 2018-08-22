@@ -6,20 +6,18 @@ language: nb
 
 # Introduksjon {.intro}
 
-Gameboy-en kodet man tidligere i "Asembly", men med moderne teknologi kan man
-bruke kodespråket "C".
+Gameboy-en kodet man tidligere i "__Asembly__", men med moderne teknologi kan man
+bruke kodespråket "__C__", som er enklere å programmere i.
+
 
 # Steg 1: Lag filen `main.c` {.activity}
 
-Dette steget trenger bare å gjøres en gang!
+Dette steget trenger kun å gjøres hvis filen ikke eksisterer.
 
-All kode vi skriver står i filen `main.c`, men denne filen finnes ikke. Så vi må
-lage den.
+All kode vi skriver står i filen `main.c`, men denne filen finnes ikke. Så må
+vi lage den.
 
-Det er også viktig, at du vet, at all koding og testing skal skje i
-`bin`-mappen!
-
-## Lag filen `main.c` {.check}
+## Windows {.check}
 
 - [ ] Høyreklikk i mappen `bin`, dette bringer opp handlingsmenyen din
 
@@ -30,6 +28,9 @@ Det er også viktig, at du vet, at all koding og testing skal skje i
 - [ ] Gi filen navnet `main.c` (Det er viktig at den ikke heter `main.c.txt`!)
 
 Du har nå laget filen `main.c`
+
+
+
 
 # Steg 2: Litt grunnleggende "C" {.activity}
 
@@ -69,11 +70,11 @@ Tredje Linje; Fjerde Linje;
 
 # Steg 3: Koding {.activity}
 
-Først, for å skrive kode til skjermen bruker vi en funksjon som heter `printf()`:
+Først, en enkel måte å skrive tekst til skjermen, er å bruke en funksjon som heter `printf()`:
 
 ```c
 printf("Skriv dette!");
-// Gir deg: Skriv dette!
+// Skriver "Skriv dette!" til skjermen.
 ```
 
 `printf` er ikke som standard en del av "C", men funksjonen ligger i biblioteket
@@ -83,7 +84,7 @@ For å skrive kode åpner du `main.c` i notepad eller lignende!
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til biblioteket `stdio.h` med:
+- [ ] Legg til biblioteket `stdio.h` med å skrive:
 ```c
 #include <stdio.h>
 ```
@@ -120,11 +121,10 @@ void int main()
 # Steg 4: Kompilere og teste {.activity}
 
 Du har nå skrevet kode, men denne koden er ubrukelig for en Gameboy, men det kan
-vi gjøre noe med. Ved å dobbelklikke på `ByggKode.bat`, bygger den kode som
-Gameboy-en kan lese.
+vi gjøre noe med. Bygg koden med å bruke ByggKode- filen din.
 Hvis du får en feil, er det noe galt med koden din!
 
-Etter det kan du dobbelklikke på `KjorKode.bat`, for å teste den.
+Etterpå kan du kjøre koden din, med filen Kjør kode.
 
 Ser du dette:
 
