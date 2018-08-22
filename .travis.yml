@@ -4,6 +4,10 @@ branches:
   only:
     - master
 
+stages:
+  - name: deploy
+    if: branch = master AND fork = false AND type = push
+
 before_install:
   - git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
   - cd ../codeclub-viewer
