@@ -25,7 +25,7 @@ deploy:
   github-token: $GITHUB_TOKEN
   skip-cleanup: true
   keep-history: true
-  local-dir: dist
+  local-dir: ../codeclub-viewer/dist
   repo: norwegiankiwi/kodeklubben.github.io
   target-branch: master
   fqdn: oppgaver.kidsakoder.no
