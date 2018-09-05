@@ -16,16 +16,16 @@ Spillet er som følger:
 
 1. Brukeren gjetter et tall mellom 1 og 100.
 
-2. Programmet skriver ut:
+1. Programmet skriver ut:
 
-  * `Higher!` hvis tallet var for lavt.
+    * `Higher!` hvis tallet var for lavt.
 
-  * `Lower!` hvis tallet var for høyt.
+    * `Lower!` hvis tallet var for høyt.
 
-  * Hvis brukeren gjetter riktig tall skal programmet skrive ut `Correct!` og
+    * Hvis brukeren gjetter riktig tall skal programmet skrive ut `Correct!` og
     avslutte.
 
-3. Så lenge brukeren ikke har gjettet tallet, så må programmet spørre om et nytt
+1. Så lenge brukeren ikke har gjettet tallet, så må programmet spørre om et nytt
   tall (brukeren har uendelig mange forsøk).
 
 Slik ser det ut når programmet kjører:
