@@ -21,7 +21,7 @@ riktig. Start ved å åpne en ny blank Python-fil.
 **Hva:** Vi kan be datamaskinen om å skrive hva som helst av tekst eller tall.
 
 **Hvordan:** Funksjonen `print()` skriver ut det som er mellom `()` . Tekst må
-starte og slutte med `'` slik som `'denne teksten'`.
+starte og slutte med `'` slik som `'denne teksten'`, eller ` " ` slik som `"denne teksten"`.
 
 **Eksempler:** Prøv dem ut og se hva som skjer.
 
