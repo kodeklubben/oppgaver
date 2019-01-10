@@ -269,8 +269,8 @@ __Trykk på C-tasten.__
 ## Sjekkliste {.check}
 
 - [ ] Klikk på `Drakter`-fanen. Velg en ny drakt fra biblioteket ved å klikke på
-  ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg for
-  eksempel hjertet `ting/heart red`.
+  ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png). Du kan for
+  eksempel søke opp hjertefiguren `Heart`.
 
 - [ ] Start programmet igjen ved å trykke på __C__-tasten. Dannes det nå et
   mønster av hjerter? Prøv å hente inn andre drakter eller tegn dine egne.
@@ -311,6 +311,6 @@ noen ideer:
 - [ ] Bruk penn-verktøyet for å tegne mønster på bakgrunnen samtidig. Legg for
   eksempel til klossen `penn på`{.b} under `når jeg starter som klon`{.b}.
 
-  For å finne penn-verktøyet må du først aktivere det. Dete gjør du ved å klikke
-  `Hent tilleggsfunksjon` nederst til venstre på skjermen, og deretter på
+  For å finne penn-verktøyet må du først aktivere det. Dette gjør du ved å
+  klikke `Hent tilleggsfunksjon` nederst til venstre på skjermen, og deretter på
   `Penn`.
