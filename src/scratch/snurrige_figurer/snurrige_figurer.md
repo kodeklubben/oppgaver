@@ -31,8 +31,8 @@ figur.*
   forskjellige måter. Først tegner vi denne selv, men nedenfor vil vi også vise
   deg hvordan du kan lage en trekant fra en av de eksisterende figurene.
 
-    Klikk på ![Tegn ny figur](../bilder/tegn-ny.png) for å tegne din egen figur.
-    Trykk deretter `Bytt til vektorgrafikk` nede til høyre, og bruk
+    Velg ny figur nede til høyre, og klikk på
+    ![Tegn ny figur](../bilder/tegn-ny.png) for å tegne din egen figur. Bruk
     linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å tegne en trekant.
 
     ![Bilde av en trekant i Scratch](tegn_trekant.png)
@@ -74,23 +74,29 @@ andre figurene til en trekant. Om du allerede har laget en trekant trenger du
 ikke gjøre dette. Men det viser deg en morsom måte å leke med Scratchfigurene
 på.
 
-- [ ] Klikk på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  for å hente en eksisterende figur. Velg figuren `ting/Star2`.
+- [ ] Velg en ny figur og klikk på forstørrelsesglasset for å hente en
+  eksisterende figur. Velg figuren `Party Hats` i Mote-kategorien.
 
-- [ ] Gå til `Drakter`-fanen. Ser du at denne stjernen består av to trekanter
-  lagt oppå hverandre?
+- [ ] Gå til `Drakter`-fanen. Ser du at denne hatten består av en trekant sammen
+  med forskjellige andre former?
 
-- [ ] Klikk på stjernen slik at den får en firkant rundt seg (blir merket). Det
-  dukker da opp en ny knapp som kalles `Del opp gruppe` (se skjermbildet under).
-  Klikk på denne knappen.
+- [ ] Klikk forskjellige steder på hatten. Du vil da se at blå firkanter merker
+  forskjellige deler av hatten. Disse delene kalles grupper.
 
-  ![Viser "del opp gruppe" knappen i Scratch](del_opp_stjernegruppe.png)
+  ![Viser grupper på hattefiguren i Scratch](hattegruppe.png)
 
-- [ ] Stjernen har nå blitt delt i to trekant-figurer. Du kan nå klikke på en av
-  trekantene, og deretter på `delete`-tasten på tastaturet for å slette den.
+- [ ] Du kan slette grupper ved å trykke på `delete`-tasten på tastaturet. Slett
+  gruppene som ikke er en del av trekanten.
 
-- [ ] Du står nå igjen med en trekant-figur! Bruk gjerne `Fyll farge`-verktøyet,
-  ![Fyll farge](../bilder/fyll-med-farge.png) for å endre farge på trekanten!
+- [ ] Trekanten består egentlig av en gruppe figurer den også. Den grønne
+  trekanten i bakgrunnen, og flere sirkelfigurer i forskjellige farger. Om du
+  vil endre på disse kan du bruke knappen `Del opp gruppe`.
+
+  ![Viser `Del opp gruppe` verktøyet i Scratch](del_opp_hattegruppe.png)
+
+- [ ] Du kan leke videre med trekant-figuren! Bruk gjerne `Fyll
+  farge`-verktøyet, ![Fyll farge](../bilder/fyll-med-farge.png) for å endre
+  farge på trekanten!
 
 
 # Steg 2: Mange trekanter {.activity}
@@ -299,9 +305,12 @@ noen ideer:
 - [ ] Tegn en figur som består av tekst. Kanskje du kan få navnet ditt til å
   danse rundt på skjermen?
 
-- [ ] Endre senterpunktet til drakten: Klikk `Drakter`-fanen og klikk på ![Velg
-  senterpunkt](../bilder/velg_senterpunkt.png) øverst til høyre.
+- [ ] Endre senterpunktet til drakten: Klikk `Drakter`-fanen og dra figuren litt
+  vekk fra sentrum av tegneområdet.
 
 - [ ] Bruk penn-verktøyet for å tegne mønster på bakgrunnen samtidig. Legg for
   eksempel til klossen `penn på`{.b} under `når jeg starter som klon`{.b}.
 
+  For å finne penn-verktøyet må du først aktivere det. Dete gjør du ved å klikke
+  `Hent tilleggsfunksjon` nederst til venstre på skjermen, og deretter på
+  `Penn`.
