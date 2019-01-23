@@ -8,8 +8,7 @@ language: nb
 
 # Introduksjon {.intro}
 
-Legg bort skilpaddene dine, i dag skal vi lære hvordan vi kan sende hemmelige
-beskjeder!
+I dag skal vi lære hvordan vi kan sende hemmelige beskjeder!
 
 
 # Kodeklubb-koden {.activity}
@@ -24,7 +23,7 @@ være vanskelig å knekke, men nå skal vi forsøke å lage Cæsar-chifferet sel
 
 Start med å tegne alle bokstavene i en sirkel.
 
-```
+```python
                        Å    A
                   Ø               B
               Æ                        C
@@ -269,14 +268,83 @@ over tegn som punktum og mellomrom).
   "hello world"
 
 
-# Steg 6: Dekoding av noen hemmelige beskjeder {.activity}
+# Steg 6: Bygge flere funksjoner {.activity}
+
+På samme måtte som vi skrev funksjoner for å kode og dekode bokstaver, så ønsker
+vi å lage funksjoner for å kryptere og dekryptere hele meldinger.
+
+- [ ] Skriv en funksjon `encrypt` som tar som input `message` og `key`, og
+  returnerer den krypterte meldingen under denne nøkkelen.
+
+- [ ] Skriv en funksjon `decrypt` som tar som input `secretmessage` og `key`,
+  og returnerer den dekrypterte meldingen under denne nøkkelen.
+
+
+# Steg 7: Utvide alfabetet og forbedre koden {.activity}
+
+Vi ønsker å kunne kryptere ulike tegn, ikke bare små bokstaver. Da må vi gjøre
+programmet vårt litt mer fleksibelt, ettersom vi har sagt at koden vår bare
+fungerer skikkelig dersom vi har 29 tegn i alfabetet. Vi ønsker i første gang å
+legge til store bokstaver, men du kan også legge til spesialtegn som `?` eller
+`!`.
+
+- [ ] Skriv om de første linjene i koden din. Først utvider vi alfabetet med
+  å legge til store bokstaver, og så legger vi til en ny variabel `l`:
+
+  ```python
+  alphabet = "abcdefghijklmnopqrstuvwxyzæøåABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ"
+  l = len(alphabet)
+  ```
+  Nå har vi lagt til flere bokstaver, og lagret lengden av alfabetet i
+  variabelen `l`.
+
+- [ ] Bytt ut tallet `29` med variablen `l` alle steder i programmet ditt.
+
+- [ ] Til slutt vil vi ende litt på koden hvor vi trekker fra lengden på
+  alfabetet. Dersom vi skriver `a % b` i koden, så betyr dette at vi får resten
+  av `a` etter at vi har delt på `b`. For eksempel vil `7 % 5` gi oss `2`,
+  fordi `7`er `2`større enn `5`. Gå til funksjonen `encode` og bytt om koden:
+
+  ```python
+  newpos = (pos + key)
+  ```
+  med følgende:
+  ```python
+  newpos = (pos + key) % l
+  ```
+  Nå kan vi **fjerne** kodebiten
+  ```python
+  if newpos >= l:
+        newpos = newpos - l
+  ```
+  fordi linjen vi nettopp endret gjør akkurat det samme. Dersom `newpos` er
+  større enn `l`, så blir den automatisk juster til et tall som er mindre enn
+  `l`.
+
+- [ ] Endre funksjonen `decode` på samme måten som vi endret `endcode`.
+
+# Steg 8: Dekryptering av noen hemmelige beskjeder {.activity}
 
 Her er noen hemmelige beskjeder, forsøk å dekode dem!
 
-- [ ] `daczj ym cgyzcdmwwzf?`, nøkkelen er 21.
+- [ ] Kryptert melding: `daczj ym cgyzcdmwwzf?`, nøkkel: `21`.
 
-- [ ] `æxkxånwn næ bnwwnwn mrwn`, nøkkelen er 9.
+- [ ] Kryptert melding: `yvivælul ly åluulul kpul`, nøkkel: `7`.
 
-Prøv å sende noen beskjeder til vennene dine! Hva med å lage et Python-program
-som forsøker seg på alle mulige hemmelige nøkler og forsøker å knekke koder selv
-om du ikke kan den hemmelige nøkkelen?
+- [ ] Kryptert melding: `Æxø, åxz IøJJxH Ez AEwxH!`. Den hemmelige meldingen
+  starter med `Hei`. Hva er nøkkelen? Hva er den hemmelige meldingen?
+
+- [ ] Kryptert melding: `CÆÅ Åvk iv dhZÆdenXXÆg ØhkZb cÆÅ ebdÆk v dhZÆ`. Den
+  hemmelige meldingen inneholder ordet `kodeklubben`. Hva er nøkkelen? Hva er
+  den hemmelige meldingen?
+
+- [ ] Kryptert melding:
+  ```python
+  qMOHPIZHQSSMHØQLHØQTHgHORfZMHTMSÆMZHNWZLQHRMOHMZHWXXØIØØHUMLHgHSWLM
+  ```
+  Den hemmelige meldingen inneholder en del vanlige norske
+  ord. Hva er nøkkelen? Hva er den hemmelige meldingen?
+
+  PS: Her har vi lagt til mellomrom på slutten av alfabetet vårt!
+
+Prøv å sende noen beskjeder til vennene dine!
