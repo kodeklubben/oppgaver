@@ -22,10 +22,12 @@ Vi begynner prosjektet vårt med å få katten til å fly!
 
 ## Sjekkliste {.check}
 
-- [ ] Start et nytt prosjekt. Du vil se en katt som venter på å bli
+- [ ] Start et nytt prosjekt. Når du står på startsiden til Scratch,
+  trykk på navnet ditt øverst i høyre hjørne.  Trykk så "Mine ting" og
+  til slutt "Nytt prosjekt". Du vil se en katt som venter på å bli
   programmert!
 
-- [ ] Prøv å klikk på de blå klossene midt på skjermen. For eksempel, om
+- [ ] Prøv å klikk på de blå klossene til venstre på skjermen. For eksempel, om
   du klikker på
 
   ```blocks
@@ -41,13 +43,15 @@ Vi begynner prosjektet vårt med å få katten til å fly!
   vil den snu seg! Disse klossene er kommandoer vi kan gi til
   katten!
 
-- [ ] Legg merke til at at over de blå klossene er det flere kategorier av
+- [ ] Legg merke til at til venstre for de blå klossene er det flere kategorier av
   kommandoer i forskjellige farger, for eksempel
   `Utseende`{.blocklooks} og `Lyd`{.blocksound}. Klikk på disse
   kategoriene og prøv noen av klossene du finner!
 
-- [ ] For å sette sammen flere kommandoer til et skript kan du dra klosser
-  til det store tomme området til høyre på skjermen.
+- [ ] Når vi programmerer så lager vi script, som er lister over kommandoer som skal kjøres.
+
+  For å sette sammen flere kommandoer til et skript kan du dra klosser
+  til det store tomme området til midt på skjermen.
 
   Prøv å pusle sammen disse klossene (bruk fargene for å finne
   riktig kategori):
@@ -63,7 +67,7 @@ Vi begynner prosjektet vårt med å få katten til å fly!
 ## Test prosjektet {.flag}
 
 Legg merke til at den første klossen sier at noe skal skje når vi
-klikker et grønt flagg. Over vinduet med katten til venstre er det et
+klikker et grønt flagg. Nær toppen av skjermen, over vinduet med katten, finner du et
 grønt flagg. __Klikk på det!__
 
 - [ ] Du skal se at katten flytter seg rundt i en sirkel. Les koden du
@@ -114,29 +118,29 @@ Nå skal vi sende den flyvende katten ut i verdensrommet.
 ## Sjekkliste {.check}
 
 - [ ] Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nederst
-  til venstre på skjermen for å hente inn en ny bakgrunn. Velg
-  bakgrunnen `stars` som du finner i kategorien `Romfart`.
+  til høyre på skjermen for å hente inn en ny bakgrunn. Velg
+  bakgrunnen `Stars` som du finner i kategorien `Romfart`.
 
-- [ ] Vi skal også gi katten en liten oksygentank, siden den flyr rundt
+- [ ] Vi skal også gi katten en liten romhjelm, siden den flyr rundt
   ute i rommet. Klikk på katten i figurvinduet og deretter på fanen
-  `Drakter` øverst på skjermen.
+  `Drakter` øverst til venstre på skjermen.
 
-- [ ] Velg først en litt lys farge. Klikk deretter på Ellipse-verktøyet
-  til høyre på skjermen, og tegn en ellipse rundt hodet på katten.
+- [ ] Velg først en litt lys farge. Klikk deretter på Sirkel-verktøyet
+  på siden av katten, og tegn en sirkel rundt hodet på katten.
 
   ![Bilde av katt med oksygentank](katt_oksygentank.png)
 
 Til slutt lager vi også en jordklode, som katten kan fly rundt.
 
-- [ ] Klikk på fanen `Skript` og deretter på
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
-  jordklodefiguren `Romfart/Earth`. Plasser denne litt på siden av skjermen.
+- [ ] Klikk på fanen `Kode` og deretter på
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png) nede til høyre på skjermen.
+  Skriv `Earth` i søkefeltet, og velg jordklodefiguren. Dra denne litt på siden av skjermen.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-- [ ] Flyr katten rundt omkring i verdensrommet?
+- [ ] Flyr katten fortsatt rundt omkring i verdensrommet når du trykker på piltastene?
 
 
 # Steg 3: Litt mer ekte ... {.activity}
@@ -211,7 +215,7 @@ __Klikk på det grønne flagget.__
   klossene.
 
 - [ ] Av og til vil katten fly bak jordkloden. For å slippe det kan du
-  legge klossen `legg foran`{.blocklooks} først i katten sitt
+  legge klossen `Legg foran alt`{.blocklooks} øverst i katten sitt
   skript.
 
 ## Test prosjektet {.flag}
@@ -260,7 +264,7 @@ med. Vi kan la astrokatten vår bli påvirket av gravitasjonen også.
   hvilken retning katten pekte før vi snudde den.
 
   For at programmer skal huske ting bruker vi variabler. Lag en
-  variabel ved å klikke på `Data`{.blockdata}-kategorien og deretter
+  variabel ved å klikke på `Variabler`{.blockdata}-kategorien og deretter
   på `Lag en variabel`. Kall variabelen `katteretning`.
 
 - [ ] Vi kan nå bruke denne variabelen til å huske hvilken retning katten
