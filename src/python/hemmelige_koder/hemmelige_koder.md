@@ -8,8 +8,7 @@ language: nb
 
 # Introduksjon {.intro}
 
-Legg bort skilpaddene dine, i dag skal vi lære hvordan vi kan sende hemmelige
-beskjeder!
+I dag skal vi lære hvordan vi kan sende hemmelige beskjeder!
 
 
 # Kodeklubb-koden {.activity}
@@ -24,33 +23,34 @@ være vanskelig å knekke, men nå skal vi forsøke å lage Cæsar-chifferet sel
 
 Start med å tegne alle bokstavene i en sirkel.
 
-```
-                    Å    A
-                Ø              B
-            Æ                      C
-        Z                               D
+```python
+                       Å    A
+                  Ø               B
+              Æ                        C
+           Z                               D
 
-    Y                                       E
+       Y                                       E
 
- X                                             F
+    X                                             F
 
-W                                               G
+   W                                               G
 
-V                                               H
+   V                                               H
 
- U                                             I
+    U                                             I
 
-    T                                       J
+       T                                       J
 
-        S                               K
-          R                        L
-              Q                M
-                  P    O   N
+         S                                 K
+
+             R                         L
+                Q                  M
+                    P         N
+                         O
 ```
 
 For å lage en hemmelig bokstav fra en vanlig bokstav, trenger vi et tall vi kan
-bruke som hemmelig nøkkel. Jeg liker tallet 3, det er et magisk tall, så vi
-bruker det.
+bruke som hemmelig nøkkel. Jeg liker tallet 3, så vi bruker det.
 
 ```
 A + 3 = D       T + 3 = W       Å + 3 = C
@@ -62,12 +62,6 @@ og teller bakover for å få A.
 
 
 # Steg 1: Alfabetet {.activity}
-
-Her kan du få trøbbel med norske bokstaver om du ikke har Python 3. Du har
-Python 2 dersom det står 2.6 eller 2.7 i IDLE. I så fall må du legge en `u`
-foran tekst som er inni `""`. For eksempel blir alfabetet under
-`u"abcdefghijklmnopqrstuvwxyzæøå"`. `u`-en betyr at teksten er av typen
-*Unicode* som støtter alle norske bokstaver.
 
 ## Sjekkliste {.check}
 
@@ -99,11 +93,11 @@ foran tekst som er inni `""`. For eksempel blir alfabetet under
   alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
 
   letter = "a"
-  secret = 3
+  key = 3
 
   pos = alphabet.find(letter)
 
-  newpos = (pos + secret)
+  newpos = (pos + key)
 
   if newpos >= 29:
       newpos = newpos - 29
@@ -113,35 +107,30 @@ foran tekst som er inni `""`. For eksempel blir alfabetet under
   print(secretletter)
   ```
 
-  Vi slår opp hvor "a" er i alfabetet og legger til det hemmelige tallet vårt
+  Vi slår opp hvor "a" er i alfabetet og legger til den hemmelige nøkkelen vår
   for å telle fremover. Vi sjekker om vi har gått rundt, hvis vi har det må vi
-  gå en hel runde tilbake igjen ved å trekke fra 29 (dette er litt som med
-  gradene, å trekke fra 360 gjør at vi er akkurat der vi var). Så slår vi opp i
+  gå en hel runde tilbake igjen ved å trekke fra 29. Så slår vi opp i
   alfabetet igjen for å se hvilken hemmelige bokstav vi fikk.
 
 - [ ] Kjør koden og se hva som skjer.
 
 - [ ] La oss ta en titt på koden igjen, men vi tar det sakte.
 
-  Du trenger ikke å skrive dette! Alt som står bak firkant-tegnet bryr python
-  seg vanligvis ikke om, det er bare kommentarer til mennesker som skal lese
-  koden.
-
   ```python
   # alphabet er navnet på teksten fra a til å
   alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
 
   # Den hemmelige bokstaven (letter) og det hemmelige tallet
-  # (secret) vi bruker for å kode det
+  # (key) vi bruker for å kode det
   letter = "a"
-  secret = 3
+  key = 3
 
   # Finn posisjonen til bokstaven. Python vil gi oss et
   # tall fra 0 til 28 (python teller fra 0)
   pos = alphabet.find(letter)
 
   # Gå like langt fremover som det hemmelige tallet sier
-  newpos = (pos + secret)
+  newpos = (pos + key)
 
   # Hvis vi har telt for langt, må vi gå en runde tilbake
   # for å få et tall mellom 0 og 28
@@ -155,12 +144,6 @@ foran tekst som er inni `""`. For eksempel blir alfabetet under
   # Skriv denne bokstaven ut på skjermen
   print(secretletter)
   ```
-
-  Det er mye python-ting som skjer her, men ikke bli skremt om du ikke forstår
-  alt til å begynne med. Mye av dette er akkurat som i scratch. `if newpos >=
-  29` er bare en `if`-setning, en ting som bare kjører koden under hvis det som
-  står etter `if` er sant. En `if`-setning bruker en innrykksblokk, akkurat som
-  `for` og `def` som vi har sett tidligere.
 
 Nå som vi kan kode en bokstav, hva med å dekode en?
 
@@ -177,12 +160,12 @@ bokstaven, men denne gangen skal vi gå bakover i alfabetet for å dekode.
   ```python
   alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
 
-  secret = 17
+  key = 17
   secretletter = "r"
 
   pos = alphabet.find(secretletter)
 
-  newpos = pos - secret
+  newpos = pos - key
 
   if newpos < 0:
       newpos = newpos + 29
@@ -211,10 +194,10 @@ variabelen.
   ```python
   alphabet = "abcdefghijklmnopqrstuvwxyzæøå"
 
-  def encode(letter, secret):
+  def encode(letter, key):
       pos = alphabet.find(letter)
 
-      newpos = (pos + secret)
+      newpos = (pos + key)
 
       if newpos >= 29:
           newpos = newpos - 29
@@ -222,10 +205,10 @@ variabelen.
       return alphabet[newpos]
 
 
-  def decode(letter, secret):
+  def decode(letter, key):
       pos = alphabet.find(letter)
 
-      newpos = (pos - secret)
+      newpos = (pos - key)
 
       if newpos < 0:
           newpos = newpos + 29
@@ -235,9 +218,6 @@ variabelen.
   print(encode("a", 17))
   print(decode("r", 17))
   ```
-
-  Husk at du kan bruke 'Tab' i IDLE for å få innrykk. Du kan også merke deler av
-  koden og rykke alt inn på en gang.
 
 - [ ] Prøv å kode og dekode noen bokstaver!
 
@@ -251,30 +231,30 @@ over tegn som punktum og mellomrom).
 ## Sjekkliste {.check}
 
 - [ ] Under de nye funksjonene fra forrige oppgave kan du skrive inn koden under
-  (med andre ord: behold det du gjorde i oppgave 4, og legg til koden under).
+  (med andre ord: behold det du gjorde i oppgave 4, og legg til følgende kode).
 
   ```python
-  secret = 17
+  key = 17
   message = "hello world"
 
   output = ""
 
   for character in message:
       if character in alphabet:
-          output = output +  encode(character, secret)
+          output = output +  encode(character, key)
       else:
           output = output + character
 
 
   print(output)
 
-  secret = 17
+  key = 17
   message = "yvååc kcfåu"
   output = ""
 
   for character in message:
       if character in alphabet:
-          output = output + decode(character, secret)
+          output = output + decode(character, key)
       else:
           output = output + character
 
@@ -288,14 +268,83 @@ over tegn som punktum og mellomrom).
   "hello world"
 
 
-# Steg 6: Dekoding av noen hemmelige beskjeder {.activity}
+# Steg 6: Bygge flere funksjoner {.activity}
+
+På samme måtte som vi skrev funksjoner for å kode og dekode bokstaver, så ønsker
+vi å lage funksjoner for å kryptere og dekryptere hele meldinger.
+
+- [ ] Skriv en funksjon `encrypt` som tar som input `message` og `key`, og
+  returnerer den krypterte meldingen under denne nøkkelen.
+
+- [ ] Skriv en funksjon `decrypt` som tar som input `secretmessage` og `key`,
+  og returnerer den dekrypterte meldingen under denne nøkkelen.
+
+
+# Steg 7: Utvide alfabetet og forbedre koden {.activity}
+
+Vi ønsker å kunne kryptere ulike tegn, ikke bare små bokstaver. Da må vi gjøre
+programmet vårt litt mer fleksibelt, ettersom vi har sagt at koden vår bare
+fungerer skikkelig dersom vi har 29 tegn i alfabetet. Vi ønsker i første gang å
+legge til store bokstaver, men du kan også legge til spesialtegn som `?` eller
+`!`.
+
+- [ ] Skriv om de første linjene i koden din. Først utvider vi alfabetet med
+  å legge til store bokstaver, og så legger vi til en ny variabel `l`:
+
+  ```python
+  alphabet = "abcdefghijklmnopqrstuvwxyzæøåABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ"
+  l = len(alphabet)
+  ```
+  Nå har vi lagt til flere bokstaver, og lagret lengden av alfabetet i
+  variabelen `l`.
+
+- [ ] Bytt ut tallet `29` med variablen `l` alle steder i programmet ditt.
+
+- [ ] Til slutt vil vi ende litt på koden hvor vi trekker fra lengden på
+  alfabetet. Dersom vi skriver `a % b` i koden, så betyr dette at vi får resten
+  av `a` etter at vi har delt på `b`. For eksempel vil `7 % 5` gi oss `2`,
+  fordi `7`er `2`større enn `5`. Gå til funksjonen `encode` og bytt om koden:
+
+  ```python
+  newpos = (pos + key)
+  ```
+  med følgende:
+  ```python
+  newpos = (pos + key) % l
+  ```
+  Nå kan vi **fjerne** kodebiten
+  ```python
+  if newpos >= l:
+        newpos = newpos - l
+  ```
+  fordi linjen vi nettopp endret gjør akkurat det samme. Dersom `newpos` er
+  større enn `l`, så blir den automatisk juster til et tall som er mindre enn
+  `l`.
+
+- [ ] Endre funksjonen `decode` på samme måten som vi endret `endcode`.
+
+# Steg 8: Dekryptering av noen hemmelige beskjeder {.activity}
 
 Her er noen hemmelige beskjeder, forsøk å dekode dem!
 
-1. `daczj ym cgyzcdmwwzf?`, hemmeligheten er 21.
+- [ ] Kryptert melding: `daczj ym cgyzcdmwwzf?`, nøkkel: `21`.
 
-2. `æxkxånwn næ bnwwnwn mrwn`, hemmeligheten er 9.
+- [ ] Kryptert melding: `yvivælul ly åluulul kpul`, nøkkel: `7`.
 
-Prøv å sende noen beskjeder til vennene dine! Hva med å lage et Python-program
-som forsøker seg på alle mulige hemmelige tall og forsøker å knekke koder selv
-om du ikke kan det hemmelige tallet?
+- [ ] Kryptert melding: `Æxø, åxz IøJJxH Ez AEwxH!`. Den hemmelige meldingen
+  starter med `Hei`. Hva er nøkkelen? Hva er den hemmelige meldingen?
+
+- [ ] Kryptert melding: `CÆÅ Åvk iv dhZÆdenXXÆg ØhkZb cÆÅ ebdÆk v dhZÆ`. Den
+  hemmelige meldingen inneholder ordet `kodeklubben`. Hva er nøkkelen? Hva er
+  den hemmelige meldingen?
+
+- [ ] Kryptert melding:
+  ```python
+  qMOHPIZHQSSMHØQLHØQTHgHORfZMHTMSÆMZHNWZLQHRMOHMZHWXXØIØØHUMLHgHSWLM
+  ```
+  Den hemmelige meldingen inneholder en del vanlige norske
+  ord. Hva er nøkkelen? Hva er den hemmelige meldingen?
+
+  PS: Her har vi lagt til mellomrom på slutten av alfabetet vårt!
+
+Prøv å sende noen beskjeder til vennene dine!

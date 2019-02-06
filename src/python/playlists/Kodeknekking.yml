@@ -1,0 +1,12 @@
+sortindex: 1
+title:
+  nb: 'Kodeknekking'
+  nn: 'Kodeknekking'
+  en: 'Break codes'
+lessons:
+  - hemmelige_koder
+  - primtall
+  - tilfeldige_tall
+  - diffie-hellman
+  - hash-funksjoner
+  - passordlagring
