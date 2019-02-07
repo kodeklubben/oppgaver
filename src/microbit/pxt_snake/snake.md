@@ -90,7 +90,7 @@ Men du trenger ikke bry deg med om f.eks. noen variabler flytter litt rundt på 
 
 ## Steg for steg {.check}
 
-- [ ] Lag en ny variabel. Kall variabelen `direction`. Sett variabelen til "Up" i oppstartsblokken. 
+- [ ] Lag en ny variabel. Kall variabelen `direction`. Sett variabelen til 'up' i oppstartsblokken. 
 
 - [ ] Nå skal vi lage en funksjon som oppdaterer `snake`. Får å få til dette må vi skrive litt javascript. Lag først fuksjonen `updateSnake()`.
 ```javascript
@@ -104,8 +104,8 @@ function updateSnake(){
 	y = snake[1]
 ```
 
-- [ ] Deretter skal vi trekke i fra en på `y` hvis direction er "up", plusse på en på `y` hvis "down", 
-trekke fra en på `x` hvis "left" og plusse på en på `x` hvis "right".
+- [ ] Deretter skal vi trekke i fra en på `y` hvis direction er 'up', plusse på en på `y` hvis 'down', 
+trekke fra en på `x` hvis 'left' og plusse på en på `x` hvis 'right'.
 ```javascript
     if (direction == 'up') {
         y = y - 1;
@@ -200,17 +200,17 @@ Hvis vi ikke er i `isPlaying`-modus så må vi skru den på.
 ```javascript
 input.onButtonPressed(Button.A, function () {
     if (isPlaying) {
-        if (direction == "up") {
-        	direction = "left";
+        if (direction == 'up') {
+        	direction = 'left';
         }
-        else if (direction == "left") {
-            direction = "down";
+        else if (direction == 'left') {
+            direction = 'down';
         }
-        else if (direction == "down") {
-            direction = "right";
+        else if (direction == 'down') {
+            direction = 'right';
         }
-        else if (direction == "right") {
-            direction = "up";
+        else if (direction == 'right') {
+            direction = 'up';
         }
     } else {
         isPlaying = true
@@ -218,20 +218,20 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     if (isPlaying) {
-        if (direction == "up") {
-            direction = "right";
+        if (direction == 'up') {
+            direction = 'right';
         }
-        else if (direction == "right") {
-            direction = "down";
+        else if (direction == 'right') {
+            direction = 'down';
         }
-        else if (direction == "down") {
-            direction = "left";
+        else if (direction == 'down') {
+            direction = 'left';
         }
-        else if (direction == "left") {
-            direction = "up";
+        else if (direction == 'left') {
+            direction = 'up';
         }
     } else {
-        isPlaying = true
+        isPlaying = true;
     }
 })
 ```
@@ -253,7 +253,7 @@ input.onButtonPressed(Button.A, function () {
         if (buttonPressed) {
             return;
         }
-        buttonPressed = true
+        buttonPressed = true;
 ```
 
 - [ ] Sett `buttonPressed` til `false` i `updateSnake()`
@@ -276,7 +276,7 @@ ved start. Så venter vi litt før vi setter "snake"-ikonet som i startskjermen.
 function checkGameOver(x: number, y: number) {
     if(x < 0 || x > 4 || y < 0 || y > 4)
     {
-        direction = "up";
+        direction = 'up';
         snake = [2, 1, 2, 2]
 
         basic.showIcon(IconNames.Skull);
@@ -306,7 +306,7 @@ Den spiller noten C, femte oktav i 20 ms som blir et fint lite blip.
 - [ ] Så vil vi spille en liten melodi når det er game over. Microbitten har noen innebygde melodier som vi kan spille. 
 Melodien **Wawawawa** eller **Funeral** passer kanskje best? Legg til denne kodelinjen i `checkGameOver()` rett før du viser hodeskallen.
 ```javascript
-    music.beginMelody(music.builtInMelody(Melodies.Wawawawaa), MelodyOptions.Once)
+    music.beginMelody(music.builtInMelody(Melodies.Wawawawaa), MelodyOptions.Once);
 ```
 
 ## Test prosjektet {.flag}
@@ -394,8 +394,8 @@ Hvordan gjør vi det? Vi lar bare være å fjerne det siste punktet på halen i 
 og genererer ny mat i `updateSnake()`. Hvis slangen ikke spiser mat, gjør vi det samme som før.
 ```javascript
     if (x == foodX && y == foodY) {
-        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
-        generateFood2()
+        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
+        generateFood();
     } else {
         snake.pop();
         snake.pop();
@@ -407,10 +407,10 @@ om x og y er på slangen. Vi legger til denne sjekken i `checkGameOver()`
 ```javascript
 function checkGameOver(x: number, y: number) {
     if (x < 0 || x > 4 || y < 0 || y > 4 || isOnSnake(x,y)) {
-        direction = "up";
+        direction = 'up';
         snake = [2, 1, 2, 2]
 
-        music.beginMelody(music.builtInMelody(Melodies.Wawawawaa), MelodyOptions.Once)
+        music.beginMelody(music.builtInMelody(Melodies.Wawawawaa), MelodyOptions.Once);
         basic.showIcon(IconNames.Skull);
         basic.pause(2000);
         basic.showIcon(IconNames.Snake);
@@ -425,9 +425,9 @@ La den være 1000 til å begynne med. Så skal vi trekke fra litt for hver oppda
 Endre slutten av `updateSnake()` slik
 ```javascript
     if (x === foodX && y === foodY) {
-        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
+        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
         updateRate *= 0.95;
-        generateFood()
+        generateFood();
     } else {
         snake.pop();
         snake.pop();
