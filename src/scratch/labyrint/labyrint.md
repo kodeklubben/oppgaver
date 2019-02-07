@@ -29,15 +29,15 @@ figurer, og hvordan vi kan programmere figurer til å bevege seg selv.
 
 - [ ] Slett kattefiguren ved å høyreklikke på den og velge `slett`.
 
-- [ ] Legg til en ny figur. Klikk på
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen
+- [ ] Legg til en ny figur. Klikk på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen
   og velg en figur du har lyst til å styre rundt. Vi har brukt
   `Dyr/Beetle`-figuren.
 
-- [ ] Gi den nye figuren navnet `Utforsker` ved å klikke på `i`{.blockmotion}.
+- [ ] Gi den nye figuren navnet `Utforsker`: trykk på navnfeltet over
+  figuren og skriv inn det nye navnet.
 
-Vi begynner med å la figuren bevege seg oppover skjermen når vi
-trykker på `pil opp`-tasten.
+  Vi begynner med å la figuren bevege seg oppover skjermen når vi
+  trykker på `pil opp`-tasten.
 
 - [ ] Legg til følgende skript på `Utforsker`-figuren din.
 
@@ -86,7 +86,7 @@ må vi bytte tallet i fire forskjellige skript. Det blir for mye jobb!
 Vi vil i stedet bruke en __variabel__ som kan styre farten til
 `Utforsker`-figuren.
 
-- [ ] Lag en ny variabel ved å gå til `Data`{.blockdata}-kategorien og
+- [ ] Lag en ny variabel ved å gå til `Variabler`{.blockdata}-kategorien og
   klikk `Lag en Variabel`.
 
 - [ ] Kall variabelen `hastighet`, og velg at den bare skal gjelde `For
@@ -149,9 +149,11 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Velg ![Tegn ny bakgrunn](../bilder/tegn-ny.png) nederst til
-  venstre på skjermen for å tegne en ny bakgrunn. Pass på at du
-  faktisk tegner en ny __bakgrunn__, og ikke en ny figur.
+- [ ] Trykk `Velg et bakgrunnsbilde`
+  ![Velg figur fra biblioteket](../bilder/velg-bakgrunn.png) nederst
+  til venstre på skjermen, og trykk så på penselen som dukker opp, for
+  å tegne en ny bakgrunn. Pass på at du faktisk tegner en ny
+  __bakgrunn__, og ikke en ny figur.
 
 - [ ] Gi den nye bakgrunnen navnet `Labyrint`.
 
@@ -180,11 +182,10 @@ __Klikk på det grønne flagget.__
 
 - [ ] Kan du bevege utforskerfiguren din rundt inne i labyrinten?
 
-- [ ] Dersom figuren din er for stor kan du gjøre den mindre ved å trykke
-  på ![krymp](../bilder/krymp.png)-knappen på toppen av skjermen.
+- [ ] Dersom figuren din er for stor kan du gjøre den mindre ved å
+  trykke på figuren, og så gjøre tallet i `Størrelse`-boksen mindre.
 
 - [ ] Hva skjer dersom figuren din går på veggen i labyrinten?
-
 
 # Steg 3: Utforskeren kan ikke gå gjennom veggen {.activity}
 
@@ -215,10 +216,12 @@ farge.
   slutt
   ```
 
-- [ ] For å få riktig farge i `berører fargen [#cc0000]`{.b}-klossen klikker du
-  først på den lille firkanten hvor fargen vises. Deretter flytter du
-  musepekeren slik at den peker på en vegg i labyrinten din. Da forandres fargen
-  i den lille firkanten. Klikk igjen for å velge denne fargen.
+- [ ] For å få riktig farge i `berører fargen [#cc0000]`{.b}-klossen
+  klikker du først på den lille firkanten hvor fargen vises. Det
+  dukker opp en boks med fargevalg. Under fargevalgene er det et
+  ikon. Klikk ikonet, deretter flytter du musepekeren slik at den
+  peker på en vegg i labyrinten din. Da forandres fargen i den lille
+  firkanten. Klikk igjen for å velge denne fargen.
 
 ## Test prosjektet {.flag}
 
@@ -253,11 +256,14 @@ retning som da den startet.
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til en ny figur. Du kan velge en figur fra biblioteket ved å
-  trykke
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  eller tegne en figur selv ved å trykke
-  ![Tegn ny figur](../bilder/tegn-ny.png). Vi brukte figuren
+- [ ] Legg til en ny figur. Du kan velge en figur fra biblioteket ved
+  å flytte musepekeren over
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png) og
+  enten trykke på penselen som dukker opp for å tegne en egen, eller
+  trykk på forstørrelsesglasset for å velge en figur som er
+  ferdiglagd.
+
+ . Vi brukte figuren
   `Ting/Star1`.
 
 - [ ] Gi den nye figuren navnet `Skatt`.
@@ -322,11 +328,12 @@ spennende.
 - [ ] Legg til en `gå til x: () y: ()`{.b}-kloss rett etter `sett
   [hastighet v] til (10)`{.b}-klossen.
 
-- [ ] For å finne ut hvilke tall vi vil bruke for `x` og `y` kan vi gjøre
-  følgende. Dra utforskeren til et sted det er fint å starte fra. Se
-  øverst i høyre hjørne. Sammen med `Utforsker`-figuren står det `x`
-  og `y` og to tall. Dette er posisjonen til figuren akkurat nå. Skriv
-  disse to tallene inn i `gå til x: () y: ()`{.b}-klossen.
+- [ ] For å finne ut hvilke tall vi vil bruke for `x` og `y` kan vi
+  gjøre følgende. Dra utforskeren til et sted det er fint å starte
+  fra. Se på tallene over figur-lista. Sammen med `Utforsker`-figuren
+  står det `x` og `y` og to tall. Dette er posisjonen til figuren
+  akkurat nå. Skriv disse to tallene inn i `gå til x: () y:
+  ()`{.b}-klossen.
 
 - [ ] Hele skriptet vil nå se slik ut (dine tall for `x` og `y` vil være
   forskjellige):
@@ -410,7 +417,7 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
 
 - [ ] Før vi lar `Froskekonge` begynne å bevege seg lager vi en
   `(hastighet)`{.b}-variabel også for ham. Klikk på
-  `Data`{.blockdata}, og deretter `Lag en Variabel`. Kall variabelen
+  `Variabler`{.blockdata}, og deretter `Lag en Variabel`. Kall variabelen
   `hastighet` og la den gjelde kun `For denne figuren`. Tilslutt,
   fjern avhukingen på variabelen.
 
