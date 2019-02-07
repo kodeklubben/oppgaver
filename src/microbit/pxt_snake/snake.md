@@ -14,7 +14,7 @@ Mange voksne kjenner spillet fra Nokias mobiltelefoner, mens mange barn kjenner 
 I spillet styres en slange rundt på skjermen, og slangen må unngå å krasje i kanten av skjermen og seg selv. 
 Slangen vokser når den spiser mat som dukker opp tilfeldige steder, og spillet går fortere og fortere etterhvert som slangen vokser.
 
-I denne oppgaven bruker vi engelsk som navn på blokkene og variabler. Dette er bla. for at det skal være lettere å finne 
+I denne oppgaven bruker vi engelske navn på blokkene og variabler. Dette er bla. for at det skal være lettere å finne 
 igjen innebygde funksjoner når vi bytter mellom blokkprogramering og javascript siden funksjonene har engelske navn i javascript. 
 Det er veldig vanlig å bruke engelske navn på funksjoner og variabeler blant programmerere. Dette gjør det bla. 
 enklere å poste kode på internettforum og få hjelp fra hele verden.
@@ -33,43 +33,43 @@ hvilken kolonne nedover (Y) vi skal tegne i. Sammen gir dette oss en X,Y posisjo
 
 ## Steg for steg {.check}
 
-- [ ] Først starter vi med å lage en array og sette de første verdiene. Arrays finne du under avansert. 
-Finn blokken "set list to" og endre variabelnavnet til snake. Legg den inn i "on start" blokken. 
+- [ ] Først starter vi med å lage en array og sette de første verdiene. Arrays finne du under `Advanced`. 
+Finn blokken `set list to` og endre variabelnavnet til `snake`. Legg den inn i `on start` blokken. 
 Trykk + til du har fire verdier i listen og sett dem til 2, 2, 2 og 3. Da skal det se slik ut:
 ![Bilde av kode for setting av liste](Set_array_on_start.png)
 
 Nå trenger vi litt kode for å tegne slangen. For å gjøre det litt enklere å holde oversikt over programmet 
 vårt så gjør vi dette med en funksjon. 
-- [ ] Lag en ny funksjon som heter drawSnake() og legg en for loop inni denne. En for loop er en vanlig måte å gå gjennom en liste. 
-For-loopen starter på 0 og skal slutte når den har kommet til lengden av arrayen snake minus en. 
+- [ ] Lag en ny funksjon som heter `drawSnake()` og legg en for-loop inni denne. En for-loop er en vanlig måte å gå gjennom en liste. 
+For-loopen starter på 0 og skal slutte når den har kommet til lengden av arrayen `snake` minus en. 
 
 ## {.tip}
-Hvorfor begynner itereringen på 0 og går til antall minus en? 
+Hvorfor begynner vi på 0 og går til antall minus en? 
 Tenk deg at du har en stabel med ark, f.eks. en oppgave som denne. Hvor mange ganger må du bla for å lese den første siden? 
 Hvor mange ganger må du bla for å lese alle arkene? Slik er det med en array også, arrayen begynner på posisjon 0, 
 og du må da bruke antall minus en for å bla igjennom alle. Hvis dette er vanskelig å forstå, så tenk "sånn er det bare".
 ##
 
-- [ ] Lag to variabler, x og y. Inni loopen henter vi ført ut en verdi fra snake arrayen med "get value at" med index og 
-legger i x variabelen, deretter teller vi opp indexen med en, og henter ut ut en verdi til og putter i y. 
-Nå har vi det vi trenger for å tegne et punkt i slangen. Til dette bruker vi plot xy funksjonen som ligger under led-fanen.
+- [ ] Lag to variabler, `x` og `y`. Inni loopen henter vi ført ut en verdi fra snake arrayen med `get value at` med index og 
+legger i `x`-variabelen, deretter teller vi opp `index` med en, og henter ut ut en verdi til og putter i `y`. 
+Nå har vi det vi trenger for å tegne et punkt i slangen. Til dette bruker vi `plot(x,y)` funksjonen som ligger under `led`-fanen.
 ![Bilde av kode for å tegne slangen](draw_snake_function.png)
 
-- [ ] Nå må vi bare kalle denne funksjonen fra et sted. Vi legger inn et kall til drawSnake() i forever()
+- [ ] Nå må vi bare kalle denne funksjonen fra et sted. Vi legger inn et kall til `drawSnake()` i `forever()`
 
 ![Bilde av mainloop steg 1](snake_mainloop_steg1.png)
 
 ## Test prosjektet {.flag}
 __Prøv spillet i simulatoren for å teste koden så langt. Sjekk at det blir tegnet to punkter.__
 
-- [ ] Prøv å legge til et punkt til i snake. Da må du legge til to verdier. Sjekk at det nye punktet også  blir tegnet. 
+- [ ] Prøv å legge til et punkt til i `snake`. Da må du legge til to verdier. Sjekk at det nye punktet også  blir tegnet. 
 
 - [ ] Bytt til javascript. Klarer du å kjenne igjen koden som er generert fra blokkprogrammeringen når du bytter til javascript? 
 
 ## {.tip}
 Egentlig er det vi skriver noe som heter Typescript som er en variant av Javascript. I vanlig Javascript trenger vi ikke bruke type 
 på variabler, men det må man noen steder i Typescript. F.eks. hvis en variabel skal inneholde tall må vi spesifisere at det er 
-et tall med let x: number.
+et tall med `let x: number`.
 ##
 
 
@@ -83,29 +83,29 @@ sier hvilken retning den er på vei. Vi beveger slangen ved å legge til et nytt
 på halen. 
 
 ## Tips {.tip}
-I denne oppgaven bruker vi både blockprogrammering og håndskriver kode. Før vi bytter mellom blockprogrammering og javascript så 
-kan det være lurt å lagre spillet. Det pleier å gå fint å bytte mellom blocks og javascript selv om noen blocker blir grå. 
+I denne oppgaven bruker vi både blokkprogrammering og håndskrevet kode. Før vi bytter mellom blokkprogrammering og javascript så 
+kan det være lurt å lagre spillet. Det pleier å gå fint å bytte mellom blokker og javascript selv om noen blokker kan bli grå. 
 Det hender at makecode ikke skjønner noe kode og kode forsvinner. Da er det veldig greit å ha et lagret punkt å gå tilbake til. 
 Men du trenger ikke bry deg med om f.eks. noen variabler flytter litt rundt på seg.
 
 ## Steg for steg {.check}
 
-- [ ] Lag en ny variabel. Kall variabelen direction. Sett variabelen til "Up" i oppstartsblokken. 
+- [ ] Lag en ny variabel. Kall variabelen `direction`. Sett variabelen til "Up" i oppstartsblokken. 
 
-- [ ] Nå skal vi lage en funksjon som oppdaterer snake. Får å få til dette må vi skrive litt javascript. Lag først fuksjonen updateSnake().
+- [ ] Nå skal vi lage en funksjon som oppdaterer `snake`. Får å få til dette må vi skrive litt javascript. Lag først fuksjonen `updateSnake()`.
 ```javascript
 function updateSnake(){
 }
 ```
 
-- [ ] Først i funksjonen henter vi ut "hodet" til slangen dvs. det første punktet, x og y, i fra snake. 
+- [ ] Først i funksjonen henter vi ut "hodet" til slangen dvs. det første punktet, x og y-koordinater, i fra `snake`. 
 ```javascript
 	x = snake[0]
 	y = snake[1]
 ```
 
-- [ ] Deretter skal vi trekke i fra en på y hvis direction er "up", plusse på en på y hvis "down", 
-trekke fra en på x hvis "left" og plusse på en på x hvis "right".
+- [ ] Deretter skal vi trekke i fra en på `y` hvis direction er "up", plusse på en på `y` hvis "down", 
+trekke fra en på `x` hvis "left" og plusse på en på `x` hvis "right".
 ```javascript
     if (direction == 'up') {
         y = y - 1;
@@ -121,8 +121,8 @@ trekke fra en på x hvis "left" og plusse på en på x hvis "right".
     }
 ```
 
-- [ ] Så dytter vi inn x og y i begynnelsen av arrayen snake med funksjonen unshift() og fjerne et punkt (to verdier, x og y) 
-fra halen med funksjonen pop(), slik at slangen beveger seg et hakk
+- [ ] Så dytter vi inn `x` og `y` i begynnelsen av arrayen `snake` med funksjonen `unshift()` og fjerne et punkt (to verdier, x og y) 
+fra halen med funksjonen `pop()`, slik at slangen beveger seg et hakk
 ```javascript
     snake.unshift(y);
     snake.unshift(x);
@@ -130,7 +130,7 @@ fra halen med funksjonen pop(), slik at slangen beveger seg et hakk
     snake.pop();
 ```
 
-- [ ] Til slutt legger vi til et kall til updateSnake() i forever()
+- [ ] Til slutt legger vi til et kall til `updateSnake()` i `forever()`
 ```javascript
 basic.forever(function () {
     drawSnake();
@@ -146,9 +146,9 @@ __Prøv koden i simulatoren for å teste koden så langt.__
 - [ ] Ta en titt på programmet i simulatoren. Oppfører det seg som du forventet? Ikke? Forstår du hvorfor dette skjer?
 
 - [ ] Hvis du har gjort alt riktig fram til nå så har du nå fire prikker på rekke midt på skjermen. Det er fordi vi aldri skrur 
-av ledlyset der slangen har vært. Vi legger til en funksjon til i forever():
+av ledlyset der slangen har vært. Vi legger til en funksjon til i `forever()`:
 ```javascript
-	basic.forever(function () {
+basic.forever(function () {
 	basic.clearScreen();
 	drawSnake();
 	updateSnake();
@@ -160,7 +160,7 @@ par kjappe blink før skjermen er tom. Skjønner du hvorfor? Dette er et godt ti
 Vi kan kjøre programmet i sakte fart ved å trykke på sneglen for å se hva som skjer, steg for steg. Nå skjønner du kanskje hva som 
 er problemet? Det går for fort! La oss legge inn en liten pause:
 ```javascript
-	basic.forever(function () {
+basic.forever(function () {
 	basic.clearScreen();
 	drawSnake();
 	updateSnake();
@@ -174,32 +174,29 @@ Nå er det på tide at vi legger inn litt styring av slangen. Men først lager v
 
 ## Steg for steg {.check}
 
-- [ ] Lag en ny variabel. Kall variabelen isPlaying. Sett variabelen til false i startsblokken. Aller først i start legger du en show icon 
-block med "snake"-ikonet.
+- [ ] Lag en ny variabel. Kall variabelen `isPlaying` og sett til `false` i startsblokken. Aller først i startblokken legger du en 
+`show icon`-blokk med "snake"-ikonet.
 ![Bilde av start](show_startscreen.png)
 
-- [ ] I forever funksjonen legger du en if som tester om isPlaying er sant(true). I så fall skal programmet tegne og oppdatere,
-så dette putter du inni if-blokken.
+- [ ] I `forever`-funksjonen legger du en `if` som tester om `isPlaying` er sant(`true`). I så fall skal programmet tegne og oppdatere,
+så dette putter du inni `if`-blokken.
 ![Bilde av forever](snake_mainloop_steg2.png)
 
-- [ ] Så legger vi til funksjoner for knappene. Når knappen blir trykket setter du isPlaying til true
+- [ ] Så legger vi til funksjoner for knappene. Når knappen blir trykket setter du `isPlaying` til `true`
 
 ![Bilde av knappekode for å starte](Buttons_code_start.png)
 
 ## Test prosjektet i simulatoren {.flag}
 
 Nå skal slangeikonet vises til du trykker på en knapp, da starter spillet.
-Men vi trenger litt mer kode for å styre. Når man spiller skal A-knappen styre slangen 90 grader mot venstre fra nåværende rettning 
+Men vi trenger litt mer kode for å styre. Når man spiller skal A-knappen styre slangen 90 grader mot venstre fra nåværende retning 
 mens B-knappen styre slangen 90 grader mot høyre.
 
 ## Steg for steg {.check}
 
-- [ ] Legg til en variabel dirChanged. Denne variabelen skal vi bruke slik at det bare er mulig å styre ett hakk mellom hver oppdatering, 
-eller kan man styre slangen slik at den går tilbake der den kom fra og da blir det bare tull.
-
-- [ ] Legg til en if-else i knappekoden. Hvis vi er i isPlaying modus, så skal knappetrykket styre slangen. Hvis vi trykker på A knappen og 
+- [ ] Legg til en `if-else` i knappekoden. Hvis vi er i `isPlaying`-modus, så skal knappetrykket styre slangen. Hvis vi trykker på A knappen og 
 direction er 'up' så endrer vi den til 'left', hvis den er 'left' så endrer vi til 'down' , osv. Og motsatt for B kanppen. 
-Hvis vi ikke er i isPlaying modus så må vi skru den på.
+Hvis vi ikke er i `isPlaying`-modus så må vi skru den på.
 ```javascript
 input.onButtonPressed(Button.A, function () {
     if (isPlaying) {
@@ -242,14 +239,14 @@ input.onButtonPressed(Button.B, function () {
 ## Test prosjektet {.flag}
 __Prøv spillet i simulatoren for å teste koden så langt. Sjekk at styringen virker.__
 
-Nå kan du styre slangen, men det er et lite problem. Hvis vi trykker for to ganger på en knapp så går slangen i stikk motsatt rettning. 
-Det vil vi ikke siden slangen på denne måten går gjennom seg selv og det er ikke lov. 
+Nå kan du styre slangen, men det er et lite problem. Hvis vi trykker for to ganger på en knapp så går slangen i stikk motsatt retning. 
+Det vil vi ikke siden slangen på denne måten går gjennom seg selv og det blir bare tull. 
 
 ## Steg for steg {.check}
 
-- [ ] Legg til en ny variabel som heter buttonPressed
+- [ ] Legg til en ny variabel som heter `buttonPressed`
 
-- [ ] Endre begge onButtonPressed funksjonene med følgende kode
+- [ ] Endre begge `onButtonPressed` funksjonene med følgende kode
 ```javascript
 input.onButtonPressed(Button.A, function () {
     if (isPlaying) {
@@ -259,7 +256,7 @@ input.onButtonPressed(Button.A, function () {
         buttonPressed = true
 ```
 
-- [ ] Sett buttonPressed til false i updateSnake()
+- [ ] Sett `buttonPressed` til `false` i `updateSnake()`
 
 
 ## Test prosjektet {.flag}
@@ -272,9 +269,9 @@ Men vi kan jo styre slangen selv om den kjører utenfor skjermen, det skal selvf
 
 ## Steg for steg {.check}
 
-- [ ] Lag en ny funksjon som du kaller checkGameOver(x,y). I denne sjekke vi om x og y er innenfor skjermen. Hvis x eller y er utenfor 
-er det game over. Det viser vi med en hodeskalle. Vi må også sette isPlaying til false, og slange og rettning tilbake til utgangspunktet 
-ved start. Så venter vi litt før vi setter snake som i startskjermen.
+- [ ] Lag en ny funksjon som du kaller `checkGameOver(x,y)`. I denne sjekke vi om x og y er innenfor skjermen. Hvis x eller y er utenfor 
+er det game over. Det viser vi med en hodeskalle. Vi må også sette `isPlaying` til `false`, og slange og retning tilbake til utgangspunktet 
+ved start. Så venter vi litt før vi setter "snake"-ikonet som i startskjermen.
 ```javascript
 function checkGameOver(x: number, y: number) {
     if(x < 0 || x > 4 || y < 0 || y > 4)
@@ -290,24 +287,24 @@ function checkGameOver(x: number, y: number) {
 }
 ```
 
-- [ ] Vi kaller checkGameOver() i updateSnake() før unshift() og bruker x og y som vi har der som parametere til funksjonen.
+- [ ] Vi kaller `checkGameOver()` i `updateSnake()` før `unshift()` og bruker `x` og `y` som vi har der som parametere til funksjonen.
 
 ## Test prosjektet {.flag}
 __På tide å prøve spillet på micro:bit__
 
 
-# Steg 5: Litt lyd takk! {.activity}
+# Steg 5: Litt lyd, takk! {.activity}
 
 ## Steg for steg {.check}
 
-- [ ] La oss legge til et blip for hver gang slangen beveger seg. Vi legger til denne kodelinjen i begynnelsen av updateSnake(). 
+- [ ] La oss legge til et blip for hver gang slangen beveger seg. Vi legger til denne kodelinjen i begynnelsen av `updateSnake()`. 
 Den spiller noten C, femte oktav i 20 ms som blir et fint lite blip.
 ```javascript
     music.playTone(Note.C5, 20)
 ```
 
 - [ ] Så vil vi spille en liten melodi når det er game over. Microbitten har noen innebygde melodier som vi kan spille. 
-Melodien Wawawawa eller Funeral passer kanskje best? Legg til denne kodelinjen i checkGameOver() rett før du viser hodeskallen.
+Melodien **Wawawawa** eller **Funeral** passer kanskje best? Legg til denne kodelinjen i `checkGameOver()` rett før du viser hodeskallen.
 ```javascript
     music.beginMelody(music.builtInMelody(Melodies.Wawawawaa), MelodyOptions.Once)
 ```
@@ -318,12 +315,12 @@ __Koble til hodetelefoner eller høytaler til micro:bit og sjekk at du får lyd.
 
 # Steg 6: Mat {.activity}
 
-Nå har kan man styre slangen, det kan bli game over og vi har litt lyd. På tide å legge til litt mat slik at vi får et skikkelig spill. 
+Nå har kan man styre slangen, det blir game over og vi har litt lyd. På tide å legge til litt mat slik at vi får et skikkelig spill. 
 Maten skal vi generere på et tilfeldig sted, men vi må passe på at det ikke er på slangen. Slik gjør vi:
 
 ## Steg for steg {.check}
 
-- [ ] Lag to nye variabler, foodX og foodY. Øverst i koden legger du til disse kodelinjene
+- [ ] Lag to nye variabler, `foodX` og `foodY`. Øverst i koden legger du til disse kodelinjene
 ```javascript
 let foodX: number = 0
 let foodY: number = 0
@@ -338,8 +335,8 @@ function generateFood(){
 ```
 
 - [ ] Men hvis vi er skikkelig uheldige nå så er maten et sted på slangen. Det må vi passe på at den ikke er. Først lager vi en funksjon 
-som sjekker om et punkt er på slangen. Vi bruker samme metoden som i drawSnake() for å hente en og en posisjon på slangen 
-(du kan kopiere 'innmaten' i fra drawSnake() hvis du vil) og sammenligner den med de posisjonene vi sender inn. Hvis begge stemmer er vi på slangen.
+som sjekker om et punkt er på slangen. Vi bruker samme metoden som i `drawSnake()` for å hente en og en posisjon på slangen 
+(du kan kopiere 'innmaten' i fra `drawSnake()` og endre den hvis du vil) og sammenligner den med de posisjonene vi sender inn. Hvis begge stemmer er vi på slangen.
 ```javascript
 function isOnSnake(myX: number, myY: number) {
     for (let index = 0; index <= snake.length - 1; index+=2) {
@@ -351,7 +348,8 @@ function isOnSnake(myX: number, myY: number) {
 }
 ```
 
-- [ ] Oppdater generateFood slik
+- [ ] Oppdater `generateFood()` slik
+```javascript
 function generateFood() {
     foodX = Math.randomRange(0, 4);
     foodY = Math.randomRange(0, 4);
@@ -359,17 +357,18 @@ function generateFood() {
         generateFood();
     }
 }
+```
 
-- [ ] Kall generateFood under oppstart, like etter der du setter koordinate i snake arrayen.
+- [ ] Kall `generateFood()` under oppstart, like etter der du setter koordinatene i `snake`-arrayen.
 
-- [ ] Da har vi laget maten, men vi må også tegne den. Lag en ny funksjon drawFood() slik
+- [ ] Da har vi en posisjon til maten, men vi må også tegne den. Lag en ny funksjon `drawFood()` slik
 ```javascript
 function drawFood() {
     led.plot(foodX, foodY);
 }
 ```
 
-- [ ] Kall drawFood() i fra forever(), etter clearScreen()
+- [ ] Kall `drawFood()` i fra `forever()`, etter `clearScreen()`
 ```javascript
 basic.forever(function () {
     if (isPlaying) {
@@ -385,14 +384,14 @@ basic.forever(function () {
 ## Test prosjektet {.flag}
 __Test i simulatoren for å sjekke at maten blir tegnet.__
 
-Da har vi laget maten, da gjenstår det bare å spise den. Hvordan vet vi at vi er på riktig sted for å spise maten? 
-Jo, hvis x og y i updateSnake() er den samme posisjonen som foodX og foodY. Da skal slangen vokse med et punkt. 
-Hvordan gjør vi det? Vi lar bare være å fjerne det siste punktet på halen i updateSnake(). Smart? 
+Nå har vi laget maten, da gjenstår det bare å spise den. Hvordan vet vi at vi er på riktig sted for å spise maten? 
+Jo, hvis `x` og `y` i `updateSnake()` er den samme posisjonen som `foodX` og `foodY`. Da skal slangen vokse med et punkt. 
+Hvordan gjør vi det? Vi lar bare være å fjerne det siste punktet på halen i `updateSnake()`. Smart? 
 
 ## Steg for steg {.check}
 
 - [ ] Vi legger til denne lille kodesnutten som spiller en liten trudelutt når vi er på samme sted som maten, 
-og genererer ny mat i updateSnake(). Hvis vi ikke spiser mat, gjør vi det samme som før.
+og genererer ny mat i `updateSnake()`. Hvis slangen ikke spiser mat, gjør vi det samme som før.
 ```javascript
     if (x == foodX && y == foodY) {
         music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
@@ -404,7 +403,7 @@ og genererer ny mat i updateSnake(). Hvis vi ikke spiser mat, gjør vi det samme
 ```
 
 - [ ] Etterhvert som slangen vokser må vi sjekke at den ikke biter seg selv. Vi har allerede en funksjon for å sjekke 
-om x og y er på slangen. Vi legger til denne sjekken i checkGameOver()
+om x og y er på slangen. Vi legger til denne sjekken i `checkGameOver()`
 ```javascript
 function checkGameOver(x: number, y: number) {
     if (x < 0 || x > 4 || y < 0 || y > 4 || isOnSnake(x,y)) {
@@ -421,9 +420,9 @@ function checkGameOver(x: number, y: number) {
 ```
 
 - [ ] I tilegg til at slangen vokser og gjør det vanskeligere på den måten, så skal spillet også gå fortere etterhvert. 
-Det gjør vi med å redusere pausen mellom hver oppdatering. Til det trenger vi en variabel som vi kaller for updateRate. 
+Det gjør vi med å redusere pausen mellom hver oppdatering. Til det trenger vi en variabel som vi kaller for `updateRate`. 
 La den være 1000 til å begynne med. Så skal vi trekke fra litt for hver oppdatering og litt mer hver gang slangen spiser mat. 
-Endre slutten av updateSnake() slik
+Endre slutten av `updateSnake()` slik
 ```javascript
     if (x === foodX && y === foodY) {
         music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
@@ -438,7 +437,7 @@ Endre slutten av updateSnake() slik
 }
 ```
 
-- [ ] Så bruker vi updateRate i pausen i forever()
+- [ ] Så bruker vi `updateRate` i pausen i `forever()`
 ```javascript
 basic.forever(function () {
     if (isPlaying) {
@@ -459,13 +458,14 @@ __Prøv spillet på micro:bit og sjekk at alt fungerer.__
 
 Nå har vi i grunnen et fungerede spill. Men vi skal pynte bittelitt på det for å gjøre det litt bedre. Det kan være litt vanskelig 
 å se maten noen ganger siden den kan komme hvor som helst og er lik slangen. For å gjøre det lettere å se den skal vi få den til 
-å blinke. Det gjør vi med å bruke input.runningTime() 
+å blinke. Det gjør vi med å bruke `input.runningTime()`. Denne funksjonen gir oss antall millisekund 
+siden siden microbiten ble skrudd på.
 
 ## Steg for steg {.check}
 
-- [ ] Hent ut input.runningTime() i begynnelsen av drawFood() og legg den i en variabel. Denne funksjonen gir oss antall millisekund 
-siden siden microbiten ble skrudd på. Vi bruker et "triks" med % operatoren for å dele i 500 millisekunder. Vi tegner bare maten hvis 
-den resterende verdien er større enn 250, det gir oss ganske rask blinking. Koden ser slik ut: 
+- [ ] Hent ut `input.runningTime()` i begynnelsen av `drawFood()` og legg den i en variabel.  Vi bruker et "triks" med `%`-operatoren 
+for å dele i 500 millisekunder. Vi tegner bare maten hvis den resterende verdien er større enn 250, det gir oss ganske rask blinking. 
+Koden ser slik ut: 
 ```javascript
 function drawFood() {
     const currentTime = input.runningTime();
@@ -475,16 +475,16 @@ function drawFood() {
 }
 ```
 
-- [ ] Nå kan vi ikke lenger bruke pause i forever(). Ta bort den kodelinjen. 
+- [ ] Nå kan vi ikke lenger bruke `pause()` i `forever()`. Ta bort den kodelinjen. 
 
-- [ ] Men nå løper spillet vår løpsk siden vi ikke venter på oppdatering, vi må fremdeles vente før hver oppdatering. Til dette trenger vi 
-en variabel som vi kan kalle lastUpdateTime. Denne må vi resette samme sted som vi setter isPlaying = true på første knappetrykk.
+- [ ] Spillet må fremdeles vente mellom hver oppdatering av slangen. Til dette trenger vi en variabel som vi kan kalle `lastUpdateTime`. 
+Denne må vi resette samme sted som vi setter `isPlaying = true` på første knappetrykk.
 ```javascript
 	lastUpdateTime = input.runningTime();
 ```
 
-- [ ] I forever() henter vi ut tiden og ser om det har gått lengre tid enn updateRate siden vi gjorde en oppdatering. I så fall er det på 
-tide med en ny oppdatering, og til slutt oppdaterer vi lastUpdateTime slik at vi er klar til å vente til neste gang vi skal gjøre en oppdatering.
+- [ ] I `forever()` henter vi ut tiden og ser om det har gått lengre tid enn `updateRate` siden vi gjorde en oppdatering. I så fall er det på 
+tide med en ny oppdatering, og til slutt settes `lastUpdateTime` slik at det er klart til å vente til neste gang vi skal gjøre en oppdatering.
 ```javascript
 basic.forever(function () {
 
@@ -518,6 +518,6 @@ Legg til score og highscore som vises etter at du dør. Spill en liten melodi og
 Styr slangen automagisk. Få den til å gå rundt og finne mat selv og prøve å ikke krasje.
 
 **Tips:** Du har allerede skrevet kode som sjekker om slangen kjører utenfor eller kolliderer med seg selv. Du kan bruke den samme koden 
-til å sjekke posisjonen og endre rettning(direction) mot høyre eller venstre hvis den krasjer, finne ny posisjon og sjekke om den også krasjer.
+til å sjekke posisjonen og endre retning(`direction`) mot høyre eller venstre hvis den krasjer, finne ny posisjon og sjekke om den også krasjer.
 For å finne maten kan du snu mot den når du kommer på samme rad eller kolonne som maten.
 
