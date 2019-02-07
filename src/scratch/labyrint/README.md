@@ -82,16 +82,18 @@ oppgaveteksten.](../labyrint/labyrint.html){target=_blank}
       prosjektet [Soloball](../soloball/soloball.html) for et bra eksempel på
       hvordan dette virker). Dersom dette senterpunktet ikke er midt på
       `Utforsker`-figuren vil det se ut som om den hopper rundt når den snur.
-      For å sette senterpunktet riktig kan dere klikke på `Drakter`-fanen og
-      deretter på ![Velg senterpunkt](../bilder/velg_senterpunkt.png). Korset
-      viser hvor senterpunktet er, og kan dras slik at det blir midt på figuren.
+
+- [ ] For å sette senterpunktet riktig kan du klikke på
+      `Drakter`-fanen, og `=` ikonet nede til høyre for tegningen for
+      å se hele tegningen samtidig. Hvis du ser nøye etter vil
+      senteret i tegningen ha et lite blink-ikon i seg. Du må legge
+      figuren midt på denne for at figuren skal være på midten.
 
 - [ ] Det kan også forekomme at __det er vanskelig å bevege seg i labyrinten__.
       Om gangene er for smale eller veggene for skrå blir det vanskelig for
       utforskeren og froskekongen å bevege seg. Se
       [nedenfor](#tema-tegne-bakgrunner-i-scratch) for flere tips til hvordan
       man bruker tegneverktøyet effektivt som kan hjelpe elevene.
-
 
 # Steg 5: Froskekongen vokter i gangene {.activity}
 
