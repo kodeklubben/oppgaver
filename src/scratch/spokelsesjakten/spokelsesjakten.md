@@ -25,20 +25,19 @@ bort flest mulig i løpet av 30 sekunder.
 
 - [ ] Slett kattefiguren ved å høyreklikke på den og velge `slett`
 
-- [ ] Endre bakgrunnen til `Natur/woods`.
+- [ ] Endre bakgrunnen til `Utendørs/Woods`.
 
 - [ ] For å legge til et spøkelse klikker du på
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen.
-  Velg `Fantasi/Ghost1`-figuren.
+  Velg `Fantasi/Ghost`-figuren.
 
-- [ ] Gi spøkelset navnet `spøkelse1`, ved å klikke på `i`{.blockmotion} på
-  figuren.
+- [ ] Gi spøkelset navnet `spøkelse1`.
 
 Du skal nå __lage en variabel__ som styrer hvor fort spøkelset beveger
 seg. Denne kan vi senere bruke til å endre hastigheten når spillet er
 i gang.
 
-- [ ] Under `Skript`{.blocklightgrey}, trykk på `Data`{.blockdata} og så
+- [ ] Under `Kode`{.blocklightgrey}, trykk på `Variabler`{.blockdata} og så
   `Lag en variabel`. Kall variabelen `hastighet`. Huk av der det står
   `For denne figuren`.
 
@@ -82,9 +81,10 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
-- [ ] For å hindre at spøkelset snur seg opp-ned, klikk på
-  ![venstre/høyre](../bilder/rotasjonsmate-hv.png)-knappen i
-  spøkelsets infoboks, `i`{.blockmotion}.
+- [ ] For å hindre at spøkelset snur seg opp-ned, klikk på `Retning` boksen over figuren.
+  Velg den midterste rotasjonsmåten ("frem og tilbake").
+
+  ![venstre/høyre](../bilder/rotasjonsmate-hv.png)
 
 ## Test prosjektet {.flag}
 
@@ -151,8 +151,9 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Hent lyden `Elektronisk/fairydust` fra
-  `Lyder`{.blocklightgrey}-fanen.
+- [ ] Gå inn på `Lyder`{.blocklightgrey}-fanen, legg til en ny lyd med
+  ikonet nede til venstre. Søk opp lyden `Fairydust` i søkefeltet, og
+  velg den. Nå er den tilgjengelig for skriptene i spøkelset.
 
 - [ ] Lag skriptet som får __spøkelset til å forsvinne__ når det blir
   klikket på:
@@ -241,10 +242,8 @@ __Klikk på det grønne flagget.__
 - [ ] __Lag flere spøkelser__ ved å høyreklikke på det du allerede har, og så
   kopiere dette.
 
-- [ ] __La spøkelsene få ulik størrelse__. Dette gjør du ved å bruke én av
-  knappene under. Den til venstre forstørrer figuren og den til høyre
-  forminsker: ![Bilde av ikonene for å forminske å
-  forstørre](endre-storrelse.png)
+- [ ] __La spøkelsene få ulik størrelse__. Dette gjør du ved å velge
+  et spøkelse, trykke `Størrelse`-boksen og endre tallet litt.
 
 - [ ] Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i
   `hastighet`{.blockdata}-variabelen i det øverste skriptet for hver enkelt
