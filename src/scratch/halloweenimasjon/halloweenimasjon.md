@@ -24,15 +24,13 @@ gardin, et laken eller en vegg under Halloween.
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt prosjekt. Slett kattefiguren, ved for eksempel å
-  klikke på ![Slett](../bilder/slett.png) i menylinjen øverst på
-  skjermen, og deretter på katten.
+  høyreklikke på kattefiguren og velge `slett`.
 
 - [ ] Velg en ny figur ved å klikke
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Finn
-  et skummelt spøkelse! Vi har brukt `Fantasi/Ghost2`.
+  noe skummelt, for eksempel et spøkelse! Vi har brukt `Fantasi/Ghost`.
 
-- [ ] Trykk på `i`{.blockmotion} øverst til venstre på den nye
-  spøkelsesfiguren din. Gi den navnet `Spøkelse`.
+- [ ] Trykk på navne-feltet over figuren din. Gi den navnet `Spøkelse`.
 
   ![Bilde av et skummelt spøkelse](spokelse.png)
 
@@ -76,29 +74,30 @@ gardin, et laken eller en vegg under Halloween.
   ```
 
 - [ ] Til slutt, det ser skumlere ut med en svart bakgrunn! Klikk på
-  `Scene` helt til venstre på skjermen, og deretter på
-  `Bakgrunner`{.blocklightgrey}-fanen nesten øverst på skjermen.
+  `Scene` helt til høyre på skjermen, deretter på
+  `Bakgrunner`{.blocklightgrey}-fanen nesten øverst på skjermen. Trykk
+  til slutt på `Gjør om til pikselgrafikk`.
 
 - [ ] Klikk på malingsspannet,
   ![Fyll med farge](../bilder/fyll-med-farge.png), og deretter på
-  den hvite bakgrunnen for å male denne svart.
+  bakgrunnen for å male denne svart.
 
 - [ ] Gi bakgrunnen navnet `Svart`.
 
 
 # Steg 2: Enda en animasjon {.activity}
 
-*For vår andre animasjon vil en demon komme flyvende mot oss.*
+*For vår andre animasjon vil en flaggermus komme flyvende mot oss.*
 
-![Bilde av en skummel demon](demon.png)
+![Bilde av en skummel flaggermus](flaggermus.png)
 
 ## Sjekkliste {.check}
 
 - [ ] Lag en ny figur ved å klikke
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Vi
-  har brukt `Fantasi/Ghoul`. Endre navnet på figuren til `Demon`.
+  har brukt `Fantasi/Bat`. Endre navnet på figuren til `Flaggermus`.
 
-- [ ] For at det skal se ut som demonen kommer flyvende mot oss, vil vi at
+- [ ] For at det skal se ut som flaggermusen kommer flyvende mot oss, vil vi at
   den skal starte veldig liten, og deretter bli større. Lag dette
   skriptet.
 
@@ -129,8 +128,8 @@ gardin, et laken eller en vegg under Halloween.
 - [ ] Klikk på spøkelset sitt skript. Skjules spøkelset etter at det er
   ferdig med å fly frem og tilbake?
 
-- [ ] Vi kan også gjøre det samme med demonen sitt skript. Klikk på
-  demon-figuren, og endre skriptet til
+- [ ] Vi kan også gjøre det samme med flaggermusen sitt skript. Klikk på
+  flaggermus-figuren, og endre skriptet til
 
   ```blocks
   sett størrelse til (0) %
@@ -141,11 +140,11 @@ gardin, et laken eller en vegg under Halloween.
   skjul
   ```
 
-- [ ] For å få litt variasjon vil vi at demonen skal animeres over en
+- [ ] For å få litt variasjon vil vi at flaggermusen skal animeres over en
   skummel skog-bakgrunn. Klikk på
-  ![Velg en ferdig bakgrunn](../bilder/bakgrunn-fra-bibliotek.png)
-  helt til venstre på skjermen, og velg bakgrunnen
-  `Utendørs/forest`. Gi bakgrunnen navnet `Skog`.
+  ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png)
+  helt nede til høyre på skjermen, og velg bakgrunnen
+  `Utendørs/Woods`. Gi bakgrunnen navnet `Skog`.
 
 
 # Steg 3: Bytte bakgrunner {.activity}
@@ -157,7 +156,7 @@ gardin, et laken eller en vegg under Halloween.
 
 Hvis vi for eksempel vil vise spøkelsesanimasjonen på svart bakgrunn
 må vi først klikke `Scene`, deretter `Bakgrunner`-fanen og den svarte
-bakgrunnen. Videre må vi klikke på spøkelsesfiguren, `Skript`-fanen og
+bakgrunnen. Videre må vi klikke på spøkelsesfiguren, `Kode`-fanen og
 til slutt på selve skriptet. Dette er veldig tungvint! Vi vil nå se
 hvordan vi kan bruke meldinger for å gjøre dette mye enklere.
 
@@ -198,18 +197,18 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 - [ ] Send meldingen ved å klikke på `send melding`{.blockevents}-klossen.
   Animeres spøkelset over en svart bakgrunn?
 
-- [ ] Vi vil nå gjøre det samme for demonen. Legg til et nytt skript på
+- [ ] Vi vil nå gjøre det samme for flaggermusen. Legg til et nytt skript på
   scenen:
 
   ```blocks
-  når jeg mottar [Animer demon v]
+  når jeg mottar [Animer flaggermus v]
   bytt bakgrunn til [Skog v]
   ```
 
-- [ ] Klikk på demonfiguren og endre skriptet slik
+- [ ] Klikk på flaggermusfiguren og endre skriptet slik
 
   ```blocks
-  når jeg mottar [Animer demon v]
+  når jeg mottar [Animer flaggermus v]
   sett størrelse til (0) %
   vis
   gjenta (100) ganger
@@ -221,12 +220,12 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 - [ ] Legg også til klossen
 
   ```blocks
-  send melding [Animer demon v]
+  send melding [Animer flaggermus v]
   ```
 
   for å teste at animasjonen fungerer.
 
-- [ ] Send meldingene som animerer spøkelset og demonen. Starter
+- [ ] Send meldingene som animerer spøkelset og flaggermusen. Starter
   animasjonene når du klikker på meldingene? Byttes bakgrunnene
   riktig?
 
@@ -244,12 +243,12 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   ```blocks
   for alltid
       send melding [Animer spøkelse v] og vent
-      send melding [Animer demon v] og vent
+      send melding [Animer flaggermus v] og vent
   slutt
   ```
 
 - [ ] Klikk på skriptet for å teste det. Trykk den røde stopp-sirkelen for
-  å stoppe animasjonen. Vises animasjonene etter hverandre i en evig løkke?
+  å stoppe animasjonen. Vises animasjonene etter hverandre om og om igjen?
 
 - [ ] Det vil se litt bedre ut med en kort pause mellom animasjonene. Legg
   til et par `vent`{.blockcontrol}-klosser i skriptet.
@@ -258,7 +257,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   for alltid
       send melding [Animer spøkelse v] og vent
       vent (1) sekunder
-      send melding [Animer demon v] og vent
+      send melding [Animer flaggermusen v] og vent
       vent (1) sekunder
   slutt
   ```
@@ -272,7 +271,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   for alltid
       send melding [Animer spøkelse v] og vent
       vent (1) sekunder
-      send melding [Animer demon v] og vent
+      send melding [Animer flaggermus v] og vent
       vent (1) sekunder
   slutt
   ```
@@ -287,7 +286,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   gå til x: (0) y:(0)
   ```
 
-- [ ] Legg et tilsvarende skript på demonen:
+- [ ] Legg et tilsvarende skript på flaggermusen:
 
   ```blocks
   når grønt flagg klikkes
@@ -312,9 +311,9 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en ny figur ved å trykke på
-  ![Tegn ny figur](../bilder/tegn-ny.png) ved siden av `Ny
-  figur`. Du kan tegne hva du vil. Her har vi tegnet et
+- [ ] Lag en ny figur ved å flytte pekeren over
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png), og
+  klikk så `Tegn`. Du kan tegne hva du vil. Her har vi tegnet et
   Jack-O'-Lantern-gresskar.
 
   ![Bilde av gresskar med utskjært ansikt](gresskar.png)
@@ -328,7 +327,7 @@ __Klikk på det grønne flagget.__
   ganske, men ikke helt, like. Vi vil nå animere figuren ved å bytte
   mellom de to draktene.
 
-- [ ] Klikk på `Skript`{.blocklightgrey}-fanen og legg på dette skriptet:
+- [ ] Klikk på `Kode`{.blocklightgrey}-fanen og legg på dette skriptet:
 
   ```blocks
   når jeg mottar [Animer gresskar v]
@@ -368,7 +367,7 @@ __Klikk på det grønne flagget.__
   for alltid
       send melding [Animer spøkelse v] og vent
       vent (1) sekunder
-      send melding [Animer demon v] og vent
+      send melding [Animer flaggermus v] og vent
       vent (1) sekunder
       send melding [Animer gresskar v] og vent
       vent (1) sekunder

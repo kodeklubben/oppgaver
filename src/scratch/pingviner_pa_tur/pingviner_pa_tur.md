@@ -19,7 +19,7 @@ rømt fra akvariet i Bergen, og det er din jobb å hjelpe dem hjem igjen.
 _Om du allerede kjenner Scratch og har en Scratchbruker kan du gå videre til
 [Steg 1](#steg-1-en-pingvin-pa-tur)._
 
-[Scratch](https://scratch.mit.edu/) er et programeringsspråk laget spesielt for
+[Scratch](https://scratch.mit.edu/) er et programmeringsspråk laget spesielt for
 at det skal være raskt å komme i gang med, og for at man raskt skal kunne lage
 sine egne spill og animasjoner. Scratch kjører i nettleseren og er helt gratis å
 bruke. Før du begynner å programmere er det lurt å lage seg en Scratchbruker
@@ -51,20 +51,18 @@ seg._
 
 - [ ] Når du starter et nytt Scratch-prosjekt ser du en kattefigur. I dette
   spillet skal vi ikke bruke denne. Vi begynner derfor med å slette
-  kattefiguren:
+  kattefiguren. Høyreklikk på kattefiguren, og klikk `slett`.
 
-    Klikk på ![Slett](../bilder/slett.png) øverst i menyen, og klikk deretter på
-    kattefiguren for å slette denne.
-
-- [ ] Vi skal nå legge til en pingvinfigur. Klikk på ![Velg figur fra
-  biblioteket](../bilder/hent-fra-bibliotek.png) ved siden av __Ny figur:__
-  omtrent midt på skjermen. Skroll nedover skjermen til du finner en
-  pingvinfigur (det er flere å velge mellom). Klikk en av dem, og deretter
-  __OK__.
+- [ ] Vi skal nå legge til en pingvinfigur. Klikk på
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png) nede
+  til høyre på skjermen. Skroll nedover skjermen til du finner en
+  pingvinfigur (det er flere å velge mellom). Klikk en av dem.
 
 - [ ] Du har nå fått en pingvin inn i spillet ditt. La oss programmere den!
 
-    Midt på skjermen ser du mange fargede klosser, for eksempel `gå (10)
+	Trykk på `Kode`-fanen oppe til venstre.
+
+    Til venstre på skjermen ser du mange fargede klosser, for eksempel `gå (10)
     steg`{.b}. Disse er kommandoer vi kan gi til figurene våre. For å skrive et
     program pusler vi sammen flere klosser ved å dra dem over til høyre delen av
     skjermen.
@@ -79,9 +77,9 @@ seg._
   slutt
   ```
 
-    Legg merke til at fargene på klossene samsvarer med kategoriene øverst på
-    siden. For eksempel finner du `når grønt flagg klikkes`{.b} i
-    `Hendelser`{.blockevents}-kategorien.
+    Legg merke til at fargene på klossene samsvarer med kategoriene
+    helt til venstre på siden. For eksempel finner du `når grønt flagg
+    klikkes`{.b} i `Hendelser`{.blockevents}-kategorien.
 
 ## Test prosjektet {.flag}
 
@@ -104,10 +102,11 @@ klikke på det grønne flagget for å se hva som skjer.
 Du har nå laget et lite program! Scratch lagrer alt du gjør automatisk med jevne
 mellomrom. Det kan likevel være lurt å lagre selv også innimellom.
 
-- [ ] Over scenen er det et tekstfelt hvor du kan gi navn til prosjektet ditt.
+- [ ] Øverst på skjermen er det et tekstfelt hvor du kan gi navn til
+  prosjektet ditt. Der står det kanskje noe sånt som `Untitled` nå.
   Kall det for eksempel `Pingviner på tur`.
 
-- [ ] I menyen __Fil__ kan du velge __Lagre nå__ for å lagre prosjektet.
+- [ ] I menyen `Fil` kan du velge `Lagre nå` for å lagre prosjektet.
 
 
 # Steg 2: På kryss og tvers {.activity}
@@ -180,9 +179,11 @@ Bergens gater._
     Alternativt kan du [lage ditt eget kart](../kart/kart.html) ved å gå til
     [denne siden](../kart/kart.html).
 
-- [ ] For å legge til en ny bakgrunn klikker du på ![Last opp bakgrunn fra
-  fil](../bilder/hent-fra-fil.png) under __Ny bakgrunn__ helt til venstre på
-  siden. Velg deretter filen du nettopp lastet ned.
+- [ ] For å legge til en ny bakgrunn klikker du `Last opp bakgrunn`:
+
+	![Last opp bilde](../bilder/scratch3-last-opp-bakgrunn.png)
+
+	Velg deretter filen du nettopp lastet ned.
 
 - [ ] La oss nå markere Akvariet i Bergen på kartet. Hent en ny figur ved å
   klikke på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png).
@@ -191,9 +192,9 @@ Bergens gater._
 
     ![Bilde av Nordnes i Bergen med kryss på akvariet](nordnes.png)
 
-- [ ] Vi vil nå endre navn på akvariefiguren slik at vi enklere husker hva den
-  er. Klikk på `i`{.blockmotion} øverst til venstre på akvariefiguren i
-  figurlisten. Endre navnet fra `Button5` til `Akvariet`.
+- [ ] Vi vil nå endre navn på akvariefiguren slik at vi enklere husker
+  hva den er. Trykk på figuren, og så på navnefeltet over
+  figuren. Endre navnet fra `Button5` til `Akvariet`.
 
 
 # Steg 4: Hjelp pingvinen hjem {.activity}
@@ -277,9 +278,9 @@ __Klikk på det grønne flagget.__
 Vi har nå laget et lite spill sammen, men prøv gjerne å utvikle det videre. Her
 er noen ideer:
 
-- [ ] Legg til flere pingviner! Dette er ganske enkelt. Klikk
-  ![Lag en kopi](../bilder/lag-en-kopi.png) og deretter på pingvinfiguren for å
-  lage en kopi av den.
+- [ ] Legg til flere pingviner! Dette er ganske enkelt. Høyreklikk på
+  pingvin-figuren og klikk deretter på `lag en kopi` for å lage en
+  kopi av den.
 
 - [ ] Kan du lage en test for om alle pingvinene har kommet hjem? Denne lager du
   enklest på akvariefiguren. Du bør bruke en `for alltid`{.blockcontrol}-løkke,
