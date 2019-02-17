@@ -147,21 +147,28 @@ __Klikk det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til en ny figur ved å klikke på *Tegn ny figur*-knappen, ![Tegn ny
-  figur](../bilder/tegn-ny.png).
+- [ ] Legg til en ny figur ved å klikke på *Tegn ny figur*-knappen. 
+
+  ![Tegn ny figur](tegn-ny.png)
 
 - [ ] Hvis det står `Gå til vektorgrafikk` på en knapp nederst til venstre, klikk på knappen.
 
 - [ ] Klikk på `Zoom =` så du kan se hele tegneområdet.
 
-- [ ] Klikk på `Rektangel`-ikonet, nederst til venstre ved tegneområdet. Velg farge på rektangelet som skal tegnes ved å klikke på `Fyll`. Velg en fin farge. Vi ønsker å gjøre omrisset av firkanten gjennomsiktig. Dette gjør vi ved å klikke på `Kant`, og klikke på ikonet helt nederst i farge-dialogen, med en rød skråstrek.
+  ![Zoom =](zoom_eq.png)
+
+- [ ] Klikk på `Rektangel`-ikonet, nederst til venstre ved tegneområdet ![Rektangel](rektangel.png). Velg farge på rektangelet som skal tegnes ved å klikke på `Fyll`. Velg en fin farge. Vi ønsker å gjøre omrisset av firkanten gjennomsiktig. Dette gjør vi ved å klikke på `Kant`, og klikke på ikonet helt nederst i farge-dialogen, med en rød skråstrek.
+
+  ![fyll kant](fyll_kant.png)
 
 - [ ] Tegn to bokser ved å klikke og dra i tegneområdet. Tegn én boks på toppen og én på bunnen av
   tegneflaten. Det skal se omtrent sånn ut:
 
   ![Bilde av et hinder for Flakse](pipe_design.png)
 
-- [ ] Skyggelegg rørene. Dette gjør du ved å klikke `Velg`, som ser ut som en musepeker. Deretter klikker du på firkanten som skal skyggelegges. Klikk på `Fyll`-ikonet over tegneområdet til venstre. I den nye dialogen som dukker opp, velg mellom forskjellige måter å skyggelegge på med de små ikonene i toppen av dialogen.
+- [ ] Skyggelegg rørene. Dette gjør du ved å klikke `Velg` ![velg](velg.png). Deretter klikker du på firkanten som skal skyggelegges. Klikk på `Fyll`-ikonet over tegneområdet til venstre. I den nye dialogen som dukker opp, velg mellom forskjellige måter å skyggelegge på med de små ikonene i toppen av dialogen.
+
+  ![Fyll gradering](fyll_gradering.png)
 
 - [ ] Gi den nye figuren navnet `Rør`.
 
