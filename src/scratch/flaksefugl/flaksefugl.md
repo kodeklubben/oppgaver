@@ -22,9 +22,8 @@ Flakse flyvende og prøve å styre mellom rørene!
 
 ## Sjekkliste {.check}
 
-- [ ] Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke den og
-  velge `Slett`. Alternativt kan du klikke på saksen i topplinjen, og deretter
-  på katten.
+- [ ] Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke på den og
+  velge `Slett`. Alternativt kan du klikke krysset øverst til høyre på figur-ikonet.
 
 - [ ] Bytt ut bakgrunnen med et landskap. `Desert` er et bra valg.
 
@@ -59,7 +58,7 @@ __Klikk det grønne flagget.__
 - [ ] Klikk på `Drakter` og gi de to draktene navnene `Vinger opp` og
   `Vinger ned`.
 
-- [ ] Gå tilbake til `Skript` og legg til dette skriptet:
+- [ ] Gå tilbake til `Kode` og legg til dette skriptet:
 
   ```blocks
   Når [mellomrom v] trykkes
@@ -80,7 +79,7 @@ __Klikk det grønne flagget.__
 - [ ] Klarer du å kontrollere Flakse med mellomromtasten?
 
 - [ ] La du merke til at om du trykker mellomrom flere ganger raskt
-  etterhverandre så flakser Flakse av og til bare en gang? Det er det neste vi
+  etter hverandre så flakser Flakse av og til bare en gang? Det er det neste vi
   skal fikse.
 
 
@@ -103,7 +102,7 @@ __Klikk det grønne flagget.__
   slik at den og klossene under løsner. Legg disse klossene til siden. Vi skal
   bruke dem igjen straks.
 
-- [ ] Lag et nytt skript. Legg merke til at klossene du nettopp la til siden kan
+- [ ] Legg til enda et nytt skript. Legg merke til at klossene du nettopp la til siden kan
   brukes igjen inne i `gjenta til flaks = 0`{.blockcontrol}-løkken:
 
   ```blocks
@@ -148,26 +147,28 @@ __Klikk det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til en ny figur ved å klikke på *Tegn ny figur*-knappen, ![Tegn ny
-  figur](../bilder/tegn-ny.png).
+- [ ] Legg til en ny figur ved å klikke på *Tegn ny figur*-knappen. 
 
-- [ ] Hvis det står `Punktgrafikk` nede til høyre, klikk på `Bytt til
-  vektorgrafikk`-knappen.
+  ![Tegn ny figur](tegn-ny.png)
 
-- [ ] Klikk på `Zoom -` så du kan se hele tegneområdet.
+- [ ] Hvis det står `Gå til vektorgrafikk` på en knapp nederst til venstre, klikk på knappen.
 
-- [ ] Klikk på `Rektangel`, velg en farge og klikk på `Fylt rektangel`-knappen
-  nederst til venstre.
+- [ ] Klikk på `Zoom =` så du kan se hele tegneområdet.
 
-- [ ] Klikk og dra to bokser, en fra toppen og en fra bunnen i midten av
+  ![Zoom =](zoom_eq.png)
+
+- [ ] Klikk på `Rektangel`-ikonet, nederst til venstre ved tegneområdet ![Rektangel](rektangel.png). Velg farge på rektangelet som skal tegnes ved å klikke på `Fyll`. Velg en fin farge. Vi ønsker å gjøre omrisset av firkanten gjennomsiktig. Dette gjør vi ved å klikke på `Kant`, og klikke på ikonet helt nederst i farge-dialogen, med en rød skråstrek.
+
+  ![fyll kant](fyll_kant.png)
+
+- [ ] Tegn to bokser ved å klikke og dra i tegneområdet. Tegn én boks på toppen og én på bunnen av
   tegneflaten. Det skal se omtrent sånn ut:
 
   ![Bilde av et hinder for Flakse](pipe_design.png)
 
-- [ ] Du kan skyggelegge rørene ved å klikke på `Fyll farge` og klikke på en av
-  skyggemetodene i firkantene nede til venstre. Velg to varianter av samme
-  farge: en for forgrunnen og en for bakgrunnen. Når du klikker på en firkant
-  med fylleverktøyet får du en fin effekt.
+- [ ] Skyggelegg rørene. Dette gjør du ved å klikke `Velg` ![velg](velg.png). Deretter klikker du på firkanten som skal skyggelegges. Klikk på `Fyll`-ikonet over tegneområdet til venstre. I den nye dialogen som dukker opp, velg mellom forskjellige måter å skyggelegge på med de små ikonene i toppen av dialogen.
+
+  ![Fyll gradering](fyll_gradering.png)
 
 - [ ] Gi den nye figuren navnet `Rør`.
 
@@ -179,7 +180,7 @@ __Klikk det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på `Rør`-figuren og velg `Skript`.
+- [ ] Klikk på `Rør`-figuren og velg `Kode`.
 
 - [ ] Legg til disse to skriptene:
 
@@ -209,7 +210,7 @@ __Klikk det grønne flagget.__
 
 - [ ] Har rørene åpninger til å fly gjennom?
 
-- [ ] Om du synes det er vanskelig å fly Flakse gjennom åpningene kan du for
+- [ ] Om du synes det er vanskelig å fly Flakse gjennom åpningene, kan du for
   eksempel endre på åpningen mellom rørene med tegneverktøyet. En annen mulighet
   er å lage Flakse mindre.
 
@@ -225,11 +226,11 @@ __Klikk det grønne flagget.__
 - [ ] Vi legger til en lyd som vi kan spille når Flakse kræsjer. Klikk på
   `Flakse`-figuren og så på `Lyder`.
 
-- [ ] Klikk på `Velg lyd fra biblioteket`.
+- [ ] Klikk på `Velg en lyd`-ikonet, nederst til venstre i vinduet.
 
 - [ ] Velg en kræsjelyd for `Flakse`.  `Screech` er en kul lyd.
 
-- [ ] Klikk deg tilbake til `Skript`-fanen.
+- [ ] Klikk deg tilbake til `Kode`-fanen.
 
 - [ ] Legg til dette skriptet på Flakse:
 
@@ -266,7 +267,7 @@ __Klikk det grønne flagget.__
 - [ ] Vi legger til en lyd hver gang Flakse scorer ett poeng. Klikk på
   `Rør`-figuren og legg til en lyd. `Bird` er et lurt valg.
 
-- [ ] Gå tilbake til `Skript`-fanen.
+- [ ] Gå tilbake til `Kode`-fanen.
 
 - [ ] Lag en ny variabel som skal gjelde `For alle figurer`. Kall den
   `poeng`{.blockdata}.
