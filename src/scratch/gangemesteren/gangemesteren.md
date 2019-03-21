@@ -254,7 +254,10 @@ ut at svaret er **12**.
 
 - [ ] For å tegne et rutenett med Hjelpere bruker vi to
   `gjenta`{.blockcontrol}-klosser i tillegg til `stemple avtrykk`{.blockpen} som
-  tegner Hjelperne på skjermen. Skriv dette skriptet på `Hjelper`-figuren:
+  tegner Hjelperne på skjermen. Blokken `stemple avtrykk`{.blockpen} er i Scratch
+  3 flyttet til tilleggsfunksjoner. Du finner den ved å trykke på "Hent
+  tilleggsfunksjon" neders til venstre, og så legge til tilleggsfunksjonen "Penn".
+  Skriv dette skriptet på `Hjelper`-figuren:
 
   ```blocks
   når jeg mottar [Tegn hjelper v]
