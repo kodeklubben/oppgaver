@@ -428,7 +428,7 @@ Dette skrives ut i konsollen:
 ```
 
 Man kan gjøre det samme hvis man for eksempel skal skrive ut en melding mange
-ganger eller skrive ut hva du har i handle listen din:
+ganger eller skrive ut hva du har i handlelisten din:
 
 ```js
 var handleliste = ["melk", "egg", "smør", "toalettpapir", "brus", "epler", "bananer"]  //[] betyr liste
