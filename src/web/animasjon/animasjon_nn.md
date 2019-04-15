@@ -322,6 +322,7 @@ No skal me få `pickaxe`-a til å fly. Me startar med å beskrive animasjonen me
 - [ ] Legg til rotasjon med `transform: rotate(antall grader)`.
 
 - [ ] Kan du tenke deg kor `transform: rotate()` bør vere? I `0%` eller `100%`?
+      **Eksempel:** `transform: rotate(20deg)`
 
 - [ ] Prøv deg fram med kor mange gradar du treng for at den skal bli riktig.
   **Hint:** 360 gradar er ein gong, og 720 gradar er to gonger, rundt seg sjølv.
