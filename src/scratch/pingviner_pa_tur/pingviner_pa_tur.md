@@ -218,6 +218,9 @@ skal da snu seg vekk fra der vi holder musepekeren før den går videre.
   trommeslag (1 v) som varer (0.25) takter
   ```
 
+    Blokken `trommeslag` er i Scratch 3 flyttet til tilleggsfunksjoner. Du
+    finner den ved å trykke på `Hent tilleggsfunksjon` nederst til venstre, og
+    så legge til tilleggsfunksjonen `Musikk`.
     En slik _melding_ er en beskjed programmet ditt sender til alle figurene. Du
     vil ikke se disse meldingene, men figurene dine kan reagere på dem. Her vil
     vi fortelle pingvinen at den skal snu når vi klikker på kartet (scenen).
