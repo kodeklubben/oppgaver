@@ -1,0 +1,91 @@
+language:
+  NAME: Tungumál
+  TAGS:
+    nb:
+      NAME: Norska (bokmál)
+    nn:
+      NAME: Norska (nýnorsk)
+    sv:
+      NAME: Sænska
+    da:
+      NAME: Danska
+    en:
+      NAME: Enska
+topic:
+  NAME: Þema
+  TAGS:
+    app:
+      NAME: App
+      TOOLTIP: Gerðu app fyrir snjállsíma og spjaldtölvur.
+    electronics:
+      NAME: Rafeindatækni
+      TOOLTIP: Forritaðu tæki sem Microbit, Arduino, Raspberry Pi, Lego Mindstorms o.s.frv.
+    step_based:
+      NAME: Skref
+      TOOLTIP: Námskeið sem kynnir námsefnið skref fyrir skref.
+    block_based:
+      NAME: Byggt á kubba
+      TOOLTIP: Forritaðu með forritunarmál byggt á kubba.
+    text_based:
+      NAME: Byggt á texta
+      TOOLTIP: Forritaðu með texta.
+    minecraft:
+      NAME: Minecraft
+      TOOLTIP: Forritaðu í Minecraft.
+    web:
+      NAME: Vefsíða
+      TOOLTIP: Gera vefsíður.
+    game:
+      NAME: Leikar
+      TOOLTIP: Forritaðu leika.
+    robot:
+      NAME: Velmenni
+      TOOLTIP: Forritaðu líkamlega hluta sem hreyfa sig.
+    animation:
+      NAME: Hreyfimynd
+      TOOLTIP: Gerðu myndir sem hreyfa sig, til dæmis teiknimyndir.
+    sound:
+      NAME: Hljóð
+      TOOLTIP: Forritaðu hljóð og tónlist.
+    cryptography:
+      NAME: Dulritunarfræði
+      TOOLTIP: Lærðu um tölvuöryggi.
+subject:
+  NAME: Fag
+  TAGS:
+    mathematics:
+      NAME: Stærðfræði
+    science:
+      NAME: Náttúrufræði
+    programming:
+      NAME: Forritun
+    technology:
+      NAME: Tækni
+    music:
+      NAME: Tónlist
+    norwegian:
+      NAME: Norska
+    english:
+      NAME: Enska
+    arts_and_crafts:
+      NAME: Myndlist
+    social_science:
+      NAME: Samfélagsfræði
+grade:
+  NAME: Bekkur
+  TAGS:
+    preschool:
+      NAME: Leikskóli
+      TOOLTIP: Börn 3-5 ár
+    primary:
+      NAME: 1.-4. bekkur
+      TOOLTIP: Börn 6-9 ár
+    secondary:
+      NAME: 5.-7. bekkur
+      TOOLTIP: Börn 10-12 ár
+    junior:
+      NAME: 8.-10. bekkur
+      TOOLTIP: Unglingar 13-15 ár
+    senior:
+      NAME: Framhaldsskóli
+      TOOLTIP: Unglingar 16-18 ár
