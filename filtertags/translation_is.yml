@@ -16,7 +16,7 @@ topic:
   TAGS:
     app:
       NAME: App
-      TOOLTIP: Gerðu app fyrir snjállsíma og spjaldtölvur.
+      TOOLTIP: Gerðu app fyrir snjallsíma og spjaldtölvur.
     electronics:
       NAME: Rafeindatækni
       TOOLTIP: Forritaðu tæki sem Microbit, Arduino, Raspberry Pi, Lego Mindstorms o.s.frv.
@@ -24,8 +24,8 @@ topic:
       NAME: Skref
       TOOLTIP: Námskeið sem kynnir námsefnið skref fyrir skref.
     block_based:
-      NAME: Byggt á kubba
-      TOOLTIP: Forritaðu með forritunarmál byggt á kubba.
+      NAME: Byggt með kubbum
+      TOOLTIP: Forritaðu með forritunarmál byggt með kubbum.
     text_based:
       NAME: Byggt á texta
       TOOLTIP: Forritaðu með texta.
@@ -36,14 +36,14 @@ topic:
       NAME: Vefsíða
       TOOLTIP: Gera vefsíður.
     game:
-      NAME: Leikar
-      TOOLTIP: Forritaðu leika.
+      NAME: Leikir
+      TOOLTIP: Forritaðu leiki.
     robot:
-      NAME: Velmenni
-      TOOLTIP: Forritaðu líkamlega hluta sem hreyfa sig.
+      NAME: Vélmenni
+      TOOLTIP: Forritaðu líkamlega hluti sem hreyfa sig.
     animation:
       NAME: Hreyfimynd
-      TOOLTIP: Gerðu myndir sem hreyfa sig, til dæmis teiknimyndir.
+      TOOLTIP: Gerðu myndir sem hreyfast, til dæmis teiknimyndir.
     sound:
       NAME: Hljóð
       TOOLTIP: Forritaðu hljóð og tónlist.
@@ -76,16 +76,16 @@ grade:
   TAGS:
     preschool:
       NAME: Leikskóli
-      TOOLTIP: Börn 3-5 ár
+      TOOLTIP: Börn 3-5 ára
     primary:
       NAME: 1.-4. bekkur
-      TOOLTIP: Börn 6-9 ár
+      TOOLTIP: Börn 6-9 ára
     secondary:
       NAME: 5.-7. bekkur
-      TOOLTIP: Börn 10-12 ár
+      TOOLTIP: Börn 10-12 ára
     junior:
       NAME: 8.-10. bekkur
-      TOOLTIP: Unglingar 13-15 ár
+      TOOLTIP: Unglingar 13-15 ára
     senior:
       NAME: Framhaldsskóli
-      TOOLTIP: Unglingar 16-18 ár
+      TOOLTIP: Unglingar 16-18 ára
