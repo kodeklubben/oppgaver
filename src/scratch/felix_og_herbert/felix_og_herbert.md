@@ -154,7 +154,7 @@ __Klikk på det grønne flagget.__
       neste drakt
       hvis <berører [Herbert v]?>
           send melding [Fanget! v]
-		  spill lyden [Mjau]
+		  start lyden [Mjau]
           si [Tok deg!] i (1) sekunder
           vent (1) sekunder
       slutt
