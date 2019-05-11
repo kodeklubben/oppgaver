@@ -47,29 +47,29 @@ Nå som vi vet hva bombe er, må vi komme opp med brukerinteraksjonene. Slik spi
 Dette kan du gjøre ved å velge `radio sett gruppe` fra `Radio`-kategorien. 
 Du kan velge et tall fra 0 til 255, og de som skal spille sammen må velge samme tall.
 
-    ![Bilde av "sett bombe til" og "radio sett gruppe" klossene](bombeskript_1.png)
+    ![Bilde av "sett bombe til" og "radio sett gruppe" klossene](bombeskript_1.PNG)
 
 - [ ] For å starte spillet, bruker vi på A + B-knappen, og gir et positivt tall til bombe-variabelen. For å gjøre
 spillet mindre forutsigbart, bruker vi  `plukk tilfeldig `- blokk fra `Matematikk`-kategorien for å lage en verdi mellom 10 og 20.:
 
-    ![Bilde av "når A+B trykkes" der bombe settes til tilfeldig tall mellom 20 og 20](bombeskript_2.png)
+    ![Bilde av "når A+B trykkes" der bombe settes til tilfeldig tall mellom 20 og 20](bombeskript_2.PNG)
 
 - [ ] For å sende en potet kan vi riste micro:bit. Hvis bombe-variabelen er positiv, har vi bomben og vi kan
 sende den. Etter å ha sendt den, setter vi bombe-variabelen til -1 siden vi ikke har den lenger.
 
-   ![Bilde av "når ristes" der verdien for bombe-variabelen sendes og settes til 0](bombeskript_3.png)
+   ![Bilde av "når ristes" der verdien for bombe-variabelen sendes og settes til 0](bombeskript_3.PNG)
 
 - [ ] Mottak av bombe gjøres med en ‘når radio mottar’-blokk. recievedNumber representerer bombe og
 lagres i bombe-variabelen.
 
-   ![Bilde av "når radio mottar-blokk" der verdien for bombe-variabelen settes til RecievedNumber](bombeskript_4.png)
+   ![Bilde av "når radio mottar-blokk" der verdien for bombe-variabelen settes til RecievedNumber](bombeskript_4.PNG)
 
 - [ ] Vi kan legge til en klokke med ‘gjenta for alltid’ blokken
 * Hvis bombe er lik 0 (bombe = 0), KABOOM! du tapte, og vi viser en hodskalle!
 * Hvis bombe-variabelen er negativ (bombe <0), har vi ikke bomben, så vi tømmer skjermen.
 * Hvis bombe-variabelen er positiv (bombe > 0), viser vi et bombe-bilde og reduserer variabelen med 1
 
-  ![Bilde av "for alltid blokk" der man viser bilde avhengig av verdien til bombe-variabelen](bombeskript_5.png)
+  ![Bilde av "for alltid blokk" der man viser bilde avhengig av verdien til bombe-variabelen](bombeskript_5.PNG)
 
 
 ## Test prosjektet {.flag}
