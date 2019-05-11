@@ -28,7 +28,7 @@ Nå som vi vet hva bombe er, må vi komme opp med brukerinteraksjonene. Slik spi
 * Når en bombe er mottatt, viser skjermen et bilde
 * Når spilleren rister på micro:bit, sender den bomben til andre spillere
 
-![Bilde av en microbit som viser en bombe](bombe.jpg)
+![Bilde av en microbit som viser en bombe](bombe.PNG)
 
 
 
