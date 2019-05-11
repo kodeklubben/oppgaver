@@ -67,10 +67,12 @@ __Klikk på det grønne flagget.__
 
 ## Lagre prosjektet {.save}
 
-Scratch lagrer alle prosjektene dine automatisk med jevne mellomrom.
+Hvis du er pålogget med din egen Scratchbruker lagrer scratch alle prosjektene dine automatisk med jevne mellomrom.
 Det kan likevel være lurt å lagre manuelt innimellom.
 
 - [ ] I filmenyen, velg `Lagre nå`.
+
+Hvis du ikke har bruker kan du ikke lagre, bare fortsett til steg 2.
 
 
 # Steg 2: Felix jager Herbert {.activity}
@@ -241,5 +243,5 @@ __Klikk på det grønne flagget.__
 
 *Du er ferdig. Godt gjort. Nå kan du spille spillet!*
 
-Du kan dele spillet med familie og venner ved å trykke `Legg ut` på
+Hvis du er logget inn med din scratchbruker kan du dele spillet med familie og venner ved å trykke `Legg ut` på
 menylinjen.
