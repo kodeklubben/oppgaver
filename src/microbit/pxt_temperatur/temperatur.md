@@ -110,7 +110,7 @@ temperaturmålingen kan vi for eksempel vise en sol hver gang vi måler over 20 
  `hvis - ellers`-kloss etter løkken vi laget
   tidligere. Programmet ditt vil tilslutt se ut omtrent som dette:
 
-    ![Bilde av scriptet for å vise sol og sky bilde etter at temperaturen er målt](temperaturscript_3.png)
+    ![Bilde av scriptet for å vise sol og sky bilde etter at temperaturen er målt](temperaturskript_3.png)
 
 # Steg 4: Mer avansert termometer {.activity}
 
