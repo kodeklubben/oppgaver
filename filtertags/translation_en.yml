@@ -11,6 +11,8 @@ language:
       NAME: Dansk
     en:
       NAME: English
+    is:
+      NAME: Íslenska
 topic:
   NAME: Topic
   TAGS:

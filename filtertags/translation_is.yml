@@ -2,15 +2,17 @@ language:
   NAME: Tungumál
   TAGS:
     nb:
-      NAME: Norska (bokmál)
+      NAME: Bokmål
     nn:
-      NAME: Norska (nýnorsk)
+      NAME: Nynorsk
     sv:
-      NAME: Sænska
+      NAME: Svenska
     da:
-      NAME: Danska
+      NAME: Dansk
     en:
-      NAME: Enska
+      NAME: English
+    is:
+      NAME: Íslenska
 topic:
   NAME: Þema
   TAGS:
