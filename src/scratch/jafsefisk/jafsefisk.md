@@ -23,13 +23,11 @@ spise alle byttedyrene som svømmer rundt i havet.
 
 - [ ] Start et nytt Scratch prosjekt.
 
-- [ ] __Riktig bakgrunn__ får du ved å velge `Scene` og så `Bakgrunner`-fanen.
-  Importer bakgrunnen `Natur/underwater2` ved å velge ![Velg en ferdig
-  bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Slett så den opprinnelige
-  bakgrunnen `bakgrunn1`.
+- [ ] __Riktig bakgrunn__ får du ved å trykke på ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) nederst til høyre på skjermen  .
+  Velg bakgrunnen `Natur/underwater2`.
 
 - [ ] Slett Figur1 og legg til en ny figur `Dyr/Shark 2`ved å trykke på ![Velg drakt
-  fra biblioteket](../bilder/hent-fra-bibliotek.png).
+  fra biblioteket](../bilder/hent-fra-bibliotek.png). Gi figuren navnet `Jafsefisk`.
 
 - [ ] Pass på at figuren
   bare kan bevege seg fra side til side ved å velge rotasjonsmåte
@@ -40,7 +38,7 @@ spise alle byttedyrene som svømmer rundt i havet.
   ```blocks
   bytt drakt til [shark2-b]
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       pek mot [musepeker v]
       gå (3) steg
   slutt
@@ -65,7 +63,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   bytt drakt til [shark2-b]
-  for alltid
+  gjenta for alltid
       hvis <(avstand til [musepeker v]) > [10]>
           pek mot [musepeker v]
           gå (3) steg
@@ -101,9 +99,9 @@ bevegelsene.
   ```blocks
   når grønt flagg klikkes
   sett størrelse til (40) %
-  for alltid
+  gjenta for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      snu venstre (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
   slutt
   ```
@@ -144,7 +142,7 @@ en liten stund senere.
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       gå (2) steg
       vend venstre (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
@@ -186,7 +184,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   vis
-  for alltid
+  gjenta for alltid
       gå (2) steg
       vend venstre (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
@@ -222,7 +220,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   vis
-  for alltid
+  gjenta for alltid
       gå (2) steg
       vend venstre (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
