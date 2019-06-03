@@ -31,9 +31,9 @@ figur.*
   forskjellige måter. Først tegner vi denne selv, men nedenfor vil vi også vise
   deg hvordan du kan lage en trekant fra en av de eksisterende figurene.
 
-    Velg ny figur nede til høyre, og klikk på
+    Gå til ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png) nede i høyre hjørne og klikk på
     ![Tegn ny figur](../bilder/tegn-ny.png) for å tegne din egen figur. Bruk
-    linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å tegne en trekant.
+    linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å tegne en trekant. 
 
     ![Bilde av en trekant i Scratch](tegn_trekant.png)
 
