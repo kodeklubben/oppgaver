@@ -244,7 +244,7 @@ klikke med kjevene.
 
   ```blocks
   når jeg mottar [Du tok meg! v]
-  spill lyden [bite v]
+  start lyden [bite v]
   gjenta (2) ganger
       bytt drakt til [Shark2-a v]
       vent (0.3) sekunder

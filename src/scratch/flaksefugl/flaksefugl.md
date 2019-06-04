@@ -237,7 +237,7 @@ __Klikk det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   vent til <<berører [kant v]?> eller <berører [Rør v]?>>
-  spill lyden [screech v]
+  start lyden [screech v]
   si [Du tapte!]
   send melding [Tap v]
   stopp [andre skript i figuren v] :: control
@@ -281,7 +281,7 @@ __Klikk det grønne flagget.__
   når jeg starter som klon
   vent til <(x-posisjon) < ([x-posisjon v] av [Flakse v])>
   endre [poeng v] med (1)
-  spill lyden [bird v]
+  start lyden [bird v]
   ```
 
 ## Test prosjektet {.flag}
