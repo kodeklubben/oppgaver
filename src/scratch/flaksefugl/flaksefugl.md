@@ -356,7 +356,7 @@ Når spilleren taper vil vi at Flakse faller ned og ut av skjermen.
   ```blocks
   når jeg mottar [Fall v]
   gjenta for alltid
-      vend høyre (5) grader
+      snu @turnRight (5) grader
   slutt
 
   når jeg mottar [Fall v]

@@ -166,7 +166,7 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] En ting som ser litt rart ut er at `Keeper` ikke ser på ballen. Vi
-  fikser dette ved å legge til en `begrens rotasjon [vend
+  fikser dette ved å legge til en `begrens rotasjon [snu
   sideveis v]`{.b}-kloss helt i begynnelsen av skriptet vårt.
 
 - [ ] Du synes kanskje at keeperen er litt stor? Vi har tidligere sett

@@ -144,7 +144,7 @@ en liten stund senere.
   når grønt flagg klikkes
   gjenta for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      snu  @turnLeft (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
       hvis <berører [JafseFisk v]?>
           skjul
@@ -186,7 +186,7 @@ __Klikk på det grønne flagget.__
   vis
   gjenta for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      snu  @turnLeft (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
       hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
           skjul
@@ -222,7 +222,7 @@ __Klikk på det grønne flagget.__
   vis
   gjenta for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      snu  @turnLeft (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
       hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
           send melding [Du tok meg! v]
@@ -304,8 +304,8 @@ __Klikk på det grønne flagget.__
 - [ ] Beveger byttedyrene seg på en fornuftig måte? Gjør disse forandringene
   spillet bedre?
 
-  __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i `vend
-  venstre (tilfeldig tall fra (-20) til (20)) grader`{.b}.
+  __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i `snu
+  @turnLeft (tilfeldig tall fra (-20) til (20)) grader`{.b}.
 
 - [ ] Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
   forskjellige kombinasjoner av disse bevegelsene?

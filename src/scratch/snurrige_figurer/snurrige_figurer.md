@@ -44,7 +44,7 @@ figur.*
   gå til x: (0) y: (120)
   pek i retning (90 v)
   gjenta (90) ganger
-      vend høyre (4) grader
+      snu @turnRight (4) grader
       gå (8) steg
   slutt
   ```
@@ -118,7 +118,7 @@ på.
     gå til x: (0) y: (120)
     pek i retning (90 v)
     gjenta (90) ganger
-        vend høyre (4) grader
+        snu @turnRight (4) grader
         gå (8) steg
         lag klon av [meg v]
     slutt
@@ -142,7 +142,7 @@ __Trykk på B-tasten.__
   ```blocks
   når jeg mottar [snurr v]
   for alltid
-      vend høyre (4) grader
+      snu @turnRight (4) grader
   slutt
   ```
 
@@ -167,7 +167,7 @@ __Trykk på B-tasten.__
   når jeg mottar [flytt og snurr v]
   for alltid
       gå (3) steg
-      vend høyre (4) grader
+      snu @turnRight (4) grader
   slutt
   ```
 
@@ -203,7 +203,7 @@ __Trykk på B-tasten.__
   gå til x: (0) y: (120)
   pek i retning (90 v)
   gjenta (90) ganger
-      vend høyre (4) grader
+      snu @turnRight (4) grader
       gå (8) steg
       endre [retning v] med (-4)
       lag klon av [meg v]
@@ -286,7 +286,7 @@ __Trykk på C-tasten.__
   gå til x: (0) y: (120)
   pek i retning (90 v)
   gjenta (90) ganger
-      vend høyre (4) grader
+      snu @turnRight (4) grader
       gå (8) steg
       endre [retning v] med (-4)
       endre [farge v] effekt med (20)
