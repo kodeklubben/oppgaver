@@ -36,8 +36,8 @@ spise alle byttedyrene som svømmer rundt i havet.
 - [ ] Få fisken til å følge musepekeren rundt i sjøen ved å lage dette skriptet:
 
   ```blocks
-  bytt drakt til [shark2-b]
   når grønt flagg klikkes
+  bytt drakt til [shark2-b]
   gjenta for alltid
       pek mot [musepeker v]
       gå (3) steg
