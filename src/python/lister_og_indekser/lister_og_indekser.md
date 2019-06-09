@@ -36,7 +36,7 @@ Vanskeligere er det ikke! Vi kan også lage tomme lister:
 []
 ```
 
-Ei liste kan inneholde alt mulig - tall, strenger og også andre lister:
+Ei liste kan inneholde alt mulig - tall, tekster og også andre lister:
 
 ```python
 >>> lst = [ 3, 'komma', [1 , 4] ]
@@ -207,12 +207,12 @@ Dette må du gjøre:
 - [ ] Avbryt utskriften når antallet er lik det brukeren ba om.
 
 
-# Strenger og indekser {.activity}
+# Tester og indekser {.activity}
 
 
 # {.protip}
 
-Vi kan også bruke indekser på strenger. For eksempel:
+Vi kan også bruke indekser på tekster. For eksempel:
 
 ```python
 >>> s = "Ada"

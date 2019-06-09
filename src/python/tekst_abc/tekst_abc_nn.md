@@ -14,11 +14,10 @@ på bokstavane og telje ord.
 I Python lagrar me tekst til ein **variabel** slik som dette:
 
 ```python
-streng = "teksten er her"
+tekst = "teksten er her"
 ```
 
-Variabelen kallast då **tekststreng** eller berre **streng**, som er typen til
-variabelen.
+Variabelen kallast då av typen **tekst**.
 
 
 # Store og små bokstavar {.activity}
@@ -28,8 +27,8 @@ funksjonar innebygd i Python, Gitt at me har tekst i ein variabel kalla `s`, så
 kan me bruke desse funksjonane: `s.lower()`, `s.upper()`, `s.title()`,
 `s.swapcase()` og `s.capitalize()`.
 
-Legg merke til at funksjonen kallast **på** strengen - `s.lower()` - i staden
-for å **gi** strengen til funksjonen - `lower(s)`.
+Legg merke til at funksjonen kallast **på** tekstvariabelen - `s.lower()` - i staden
+for å **gi** tekstvariabelen til funksjonen - `lower(s)`.
 
 Her er nokre døme på korleis funksjonane brukast (legg merke til kva bokstavar
 som er store og små i utskrifta):
@@ -127,15 +126,15 @@ Dette må du gjere:
 
 - [ ] Lagre filmtittelen i ein variabel.
 
-- [ ] Manipuler strengen slik at resultatet blir som beskrive over.
+- [ ] Manipuler teksten slik at resultatet blir som beskrive over.
 
-- [ ] Skriv ut den nye strengen.
+- [ ] Skriv ut den nye teksten.
 
 
 # Teljing av tekst {.activity}
 
-Ved hjelp av `s.count()` kan me finne ut om ein streng inneheldt ein bestemt
-tekst og kor mange gonger den finst i strengen. Til dømes inneheldt strengen
+Ved hjelp av `s.count()` kan me finne ut om ein tekst inneheldt ein bestemt
+tekst og kor mange gonger den finst i teksten. Til dømes inneheldt
 `"Hei verd!"` teksten `"verd"` ein gong.
 
 Tenk deg at du ynskjer å finne ut kor mange komma som er i `"A, B, C, D, E, F,
@@ -168,7 +167,7 @@ Slik skal programmet sjå ut:
 
 <pre>
 >>>
-Skriv inn ein streng: <font color="green">Hei på deg</font>
+Skriv inn ein tekst: <font color="green">Hei på deg</font>
 Du skreiv inn 3 ord.
 </pre>
 
@@ -187,7 +186,7 @@ Dette må du gjere:
 
 # Erstatte tekst {.activity}
 
-Me kan bruke `s.replace()` for å byte ut tekst i ein streng med ein annan tekst.
+Me kan bruke `s.replace()` for å byte ut tekst i ein tekstvariabel med ein annan tekst.
 Kva om me vil byte ut alle komma med semikolon?
 
 ```python
@@ -197,7 +196,7 @@ Kva om me vil byte ut alle komma med semikolon?
 'A; B; C; D; E; F; G; H; I; J; K; L'
 ```
 
-Her får `s.replace()` to argument - fyrst teksten me skal erstatte i strengen
+Her får `s.replace()` to argument - fyrst teksten me skal erstatte i tekstvariabelen
 `s`, og så teksten me skal erstatte med. Me kan òg bruke `s.replace()` for å
 fjerne tekst. Me kan til dømes fjerne alle mellomrom:
 
