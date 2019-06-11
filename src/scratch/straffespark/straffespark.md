@@ -368,9 +368,9 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
   på den lille versjonen av bakgrunnen til venstre på skjermen og velg
   `Lag en kopi`.
 
-- [ ] Velg en passende farge, og klikk deretter på tekstverktøyet. Velg
-  Skrifttype: `Marker` nederst på skjermen. Skriv en tekst som ligner
-  på `Gratulerer, du vant!` litt høyt på kopien av bakgrunnen. Gi
+- [ ] Velg en passende farge, og klikk deretter på tekstverktøyet (ikonet med stor T). Velg
+  Skrifttype: `Marker`. Skriv en seierstekst, for eksempel
+  `Gratulerer, du vant!`. Plasser den litt høyt på kopien av bakgrunnen. Gi
   denne bakgrunnen navnet `Seier`.
 
 - [ ] Lag deretter en ny kopi av den originale bakgrunnen. Kall denne
