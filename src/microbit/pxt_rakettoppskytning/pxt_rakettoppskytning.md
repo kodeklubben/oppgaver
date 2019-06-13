@@ -11,16 +11,16 @@ Her skal vi først telle ned fra fem, og så lage en animasjon av en rakett som 
 
 # Steg 1: Nedtelling {.activity}
 
-Først skal vi lage nedtelleren. Du vil at tallet 5 skal vises i et sekund, så 4, så 3 osv. Dette kan du få til ved å bruke en kombinasjon av blokkene `vis tall`og `pause`fra `Basis`kategorien.
+Først skal vi lage nedtelleren. Du vil at tallet 5 skal vises i et sekund, så 4, så 3 osv. Dette kan du få til ved å bruke en kombinasjon av blokkene `vis tall` og `pause` fra `Basis` kategorien.
 
 
 ## Sjekkliste {.check}
 
-- [ ] Få microbiten til å telle ned fra 5. *Husk at 1000 ms er det samme som 1 sekund*	
+- [ ] Få micro:biten til å telle ned fra 5. *Husk at 1000 ms er det samme som 1 sekund*	
 
 - [ ] Koden burde nå se slik ut:
 
-![Bilde som viser nedtelling med `pause`og `vis tall`blokker](nedtelling.png)
+![Bilde som viser nedtelling med `pause` og `vis tall` blokker](nedtelling.png)
 
 # Steg 2: Raketten {.activity}
 
