@@ -13,20 +13,20 @@ I denne opggaven skal vi få et hjerte til å blinke i ulike hastigheter.
 
 ## Sjekkliste {.check}
 
-- [ ] Finn en `gjenta for alltid`-kloss. Den ligger kanskje allerede i kodefeltet ditt, eller så kan du finne den i menyen under `Basis`. 
+- [ ] Finn en `gjenta for alltid`-kloss. Den ligger nok allerede i kodefeltet ditt, eller så kan du finne den i menyen under `Basis`. 
 
 ![Bilde for å vise gjenta for alltid klossen](gjenta_for_alltid.png)
 
-Koden som er inni en `gjenta for alltid`-kloss vil gjenta seg så lenge microbiten er koblet til strøm (batteri eller PC).
+Koden som er inni en `gjenta for alltid`-kloss vil gjenta seg så lenge micro:biten er koblet til strøm (batteri eller PC).
 
 
 # Steg 2: Hjerte som blinker {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til `Basis`og finn `vis ikon`-klossen. Legg den inni `gjenta for alltid`. Simulatoren skal nå vise et hjerte. 
+- [ ] Gå til `Basis` og finn `vis ikon`-klossen. Legg den inni `gjenta for alltid`. Simulatoren skal nå vise et hjerte. 
 
-- [ ] Nå skal vi få hjertet til å blinke. Vi gjør dette ved å fjerne bildet fra skjermen med `tøm skjermen`-klossen. Den finner du ved å trykke på `Basis`og så på `more` (mer) *som står rett under*. 
+- [ ] Nå skal vi få hjertet til å blinke. Vi gjør dette ved å fjerne bildet fra skjermen med `tøm skjermen`-klossen. Den finner du ved å trykke på `Basis` og så på `more` (mer) *som står rett under*. 
 
 ![Bilde for å vise koden for blinkende hjerte](blinkende_hjerte.png)
 
@@ -54,4 +54,4 @@ Hvis du skal bruke samme kloss flere ganger kan du høyreklikke på den og trykk
 
 - [ ] Kan du klare å få hjertet til å blinke i samme tempo som pulsen din?
 
-- [ ] Hva skjer dersom du endrer takket i `pause`-klossene til 200? Hva med 1000? 5000? Test det ut! Gjerne prøv med flere tall en disse. 
+- [ ] Hva skjer dersom du endrer tallet i `pause`-klossene til 200? Hva med 1000? 5000? Test det ut! Gjerne prøv med flere tall en disse. 
