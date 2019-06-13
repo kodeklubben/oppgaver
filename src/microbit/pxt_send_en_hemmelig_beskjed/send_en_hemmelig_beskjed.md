@@ -16,7 +16,7 @@ I denne oppgaven skal du sende og motta hemmelige beskjeder til/fra en annen sin
 
 - [ ] Finn en `ved start`-kloss (den ligger allerede i kodefeltet eller du finner den nederst i `Basis`). 
 
-- [ ] Gå til `Radio`og klikk på `radio sett gruppe`-klossen. 
+- [ ] Gå til `Radio` og klikk på `radio sett gruppe`-klossen. 
 
 - [ ] Velg dere et gruppenummer mellom 0 og 255 som dere tror ingen andre har. Alle micro:biter som er i samme gruppe kan kommunisere, og du vil ikke at noen andre skal høre den hemmelige beskjeden!
 
@@ -27,9 +27,9 @@ I denne oppgaven skal du sende og motta hemmelige beskjeder til/fra en annen sin
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til `Inndata`og finn klossen `når knapp A trykkes`. Vi bruker denne fordi vi vil sende den hemmelige beskjeden når vi trykker på A. 
+- [ ] Gå til `Inndata` og finn klossen `når knapp A trykkes`. Vi bruker denne fordi vi vil sende den hemmelige beskjeden når vi trykker på A. 
 
-- [ ] Finn klossen `radio send tekst`i `Radio`. Legg den inn i `når knapp A trykkes`og skriv inn den hemmelige beskjeden du vil sende. 
+- [ ] Finn klossen `radio send tekst` i `Radio`. Legg den inn i `når knapp A trykkes` og skriv inn den hemmelige beskjeden du vil sende. 
 
 ![Bilde som viser at når A trykkes så skal radio sende teksten "Hemmelig beskjed"](hemmelig_beskjed.png)
 
@@ -42,7 +42,7 @@ Micro:biten klarer ikke å vise Æ, Ø eller Å. Bruk heller AE, OE og AA. Beskj
 
 Du er nå klar til å sende hemmelige beskjeder. Men før du gjør det trenger vi å skrive kode slik at de hemmelige beskjedene kan bli mottatt og lest. 
 
-- [ ] Gå til `Radio`igjen og finn `når radio mottar recievedString`-blokka:
+- [ ] Gå til `Radio` igjen og finn `når radio mottar recievedString`-blokka:
 
 ![Bilde som viser når radio mottar recievedString klossen](naar_radio_mottar.png)
 
@@ -60,7 +60,7 @@ Nå er vi klare til å både sende og motta beskjeder!
 
 ## {.tip}
 
-For å laste ned koden må du først ha koblet micro:biten til datamaskinen med en USB-kabel. Klikk deretter på knappen `Last ned`nede til venstre på skjermen. Det lastes nå ned en fil som heter `microbit-Uten-navn.hex` til datamaskinen
+For å laste ned koden må du først ha koblet micro:biten til datamaskinen med en USB-kabel. Klikk deretter på knappen `Last ned` nede til venstre på skjermen. Det lastes nå ned en fil som heter `microbit-Uten-navn.hex` til datamaskinen
   din. Samtidig dukker det opp et vindu som sier at du må flytte denne filen til
   MICROBIT-disken på datamaskinen din.
 
