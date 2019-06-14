@@ -24,9 +24,9 @@ Koden som er inni en `gjenta for alltid`-kloss vil gjenta seg så lenge micro:bi
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til `Basis` og finn `vis ikon`-klossen. Legg den inni `gjenta for alltid`. Simulatoren skal nå vise et hjerte. 
+- [ ] Gå til `Basis` og finn `vis ikon`-klossen. Legg den inni `gjenta for alltid`. Simulatoren til venstre skal nå vise et hjerte. 
 
-- [ ] Nå skal vi få hjertet til å blinke. Vi gjør dette ved å fjerne bildet fra skjermen med `tøm skjermen`-klossen. Den finner du ved å trykke på `Basis` og så på `more` (mer) *som står rett under*. 
+- [ ] Nå skal vi få hjertet til å blinke. Vi gjør dette ved å fjerne bildet fra skjermen med `tøm skjermen`-klossen. Den finner du ved å trykke på `Basis` og så på `more` (mer) som står rett under. 
 
 ![Bilde for å vise koden for blinkende hjerte](blinkende_hjerte.png)
 
@@ -49,9 +49,13 @@ For å kontrollere hvor lenge bildet skal vises, og hvor lenge skjermen skal væ
 
 Hvis du skal bruke samme kloss flere ganger kan du høyreklikke på den og trykke på lag kopi. 
 
+## Test prosjektet {.flag}
+
+- [ ] Nå er programmet klart til å lastes ned på micro:biten. For å laste ned koden må du først ha koblet micro:biten til datamaskinen med en USB-kabel. Klikk deretter på knappen `Last ned` nede til venstre på skjermen. Det lastes nå ned en fil som heter `microbit-Uten-navn.hex` til datamaskinen din. Samtidig dukker det opp et vindu som sier at du må flytte denne filen til MICROBIT-disken på datamaskinen din.
+
 
 ## Utfordring {.challenge}
 
-- [ ] Kan du klare å få hjertet til å blinke i samme tempo som pulsen din?
-
 - [ ] Hva skjer dersom du endrer tallet i `pause`-klossene til 200? Hva med 1000? 5000? Test det ut! Gjerne prøv med flere tall en disse. 
+
+- [ ] Kan du klare å få hjertet til å blinke i samme tempo som pulsen din?
