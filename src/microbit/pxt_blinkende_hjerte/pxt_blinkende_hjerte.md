@@ -56,6 +56,6 @@ Hvis du skal bruke samme kloss flere ganger kan du høyreklikke på den og trykk
 
 ## Utfordring {.challenge}
 
-- [ ] Hva skjer dersom du endrer tallet i `pause`-klossene til 200? Hva med 1000? 5000? Test det ut! Gjerne prøv med flere tall en disse. 
+- [ ] Hva skjer dersom du endrer tallet i `pause`-klossene til 200? Hva med 1000? 5000? Test det ut! Gjerne prøv med flere tall enn disse. 
 
 - [ ] Kan du klare å få hjertet til å blinke i samme tempo som pulsen din?
