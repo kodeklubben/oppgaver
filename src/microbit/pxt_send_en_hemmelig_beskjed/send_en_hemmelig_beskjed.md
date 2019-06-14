@@ -7,7 +7,7 @@ language: nb
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal du sende og motta hemmelige beskjeder til/fra en annen sin micro:bit ved å bruke radiosignaler. Du trenger derfor en å utveksle hemmelige beskjeder med! Finn noen som har lyst til å gjøre denne oppgaven samtidig med deg.
+I denne oppgaven skal du sende og motta hemmelige beskjeder til/fra en annen sin micro:bit ved å bruke radiosignaler. Du trenger derfor noen å utveksle hemmelige beskjeder med! Finn noen som har lyst til å gjøre denne oppgaven samtidig med deg.
 
 
 # Steg 1: Sett opp en radiogruppe {.activity}
@@ -23,7 +23,7 @@ I denne oppgaven skal du sende og motta hemmelige beskjeder til/fra en annen sin
 ![Bilde som viser radio sett gruppe til 42 kloss inni ved start klossen](radiogruppe.png)
 
 
-# Steg 2: Lag hemmelig beskjed {.activity}
+# Steg 2: Send en hemmelig beskjed {.activity}
 
 ## Sjekkliste {.check}
 
@@ -35,7 +35,9 @@ I denne oppgaven skal du sende og motta hemmelige beskjeder til/fra en annen sin
 
 ### OBS! {.protip}
 
-Micro:biten klarer ikke å vise Æ, Ø eller Å. Bruk heller AE, OE og AA. Beskjeden må heller ikke være for lang. 
+Micro:biten klarer ikke å vise Æ, Ø eller Å. Bruk heller AE, OE og AA. 
+
+Beskjeden burde heller ikke være for lang siden micro:biten bare klarer å sende noen få ord av gangen. 
 
 
 # Steg 3: Lag sender og mottaker {.activity}
@@ -66,6 +68,8 @@ For å laste ned koden må du først ha koblet micro:biten til datamaskinen med 
 
 
 # Ekstra testing {.activity}
+
+Det er mulig å justere styrken på senderen til micro:biten ved å bruke klossen `radio sett sendereffekt` som du finner hvis du trykker på `Radio` og så `more` (mer) rett under. Den høyeste styrken senderen kan ha er 7. Prøv flere ulike styrker når du går gjennom punktene under.
 
 ## Sjekkliste {.check}
 
