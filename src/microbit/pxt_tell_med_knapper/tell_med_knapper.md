@@ -6,12 +6,12 @@ language: nb
 
 
 # Introduksjon {.intro}
-I denne oppgaven skal vi få micro:biten til å telle både oppover og nedover ved å trykke på knappene A og B
+I denne oppgaven skal vi få micro:biten til å telle både oppover og nedover ved å trykke på knappene A og B.
 
 
 # Steg 1: Lage en variabel {.activity}
 
-Før vi begynner å telle, trenger vi å lage en hukommelse for micro:biten. Hvis vi ikke gjør dette, kan den ikke huske hvilket tall vi har kommet til!
+Før vi begynner å telle, må vi finne en måte for micro:biten å huske tallet vi har kommet til. Hvis vi ikke gjør dette, så vil den glemme hvor langt vi har kommet!
 
 ## Sjekkliste {.check}
 
@@ -21,7 +21,7 @@ Før vi begynner å telle, trenger vi å lage en hukommelse for micro:biten. Hvi
 
 Ser du at det nå finnes en rød kloss som heter "Tall"? Den har du laget! I denne klossen skal vi lagre tallet vi har kommet til i tellingen. Den kalles en variabel fordi vi kan variere hvilket tall vi lagrer i den. 
 
-- [ ] Finn `sett variabel til`-klossen i `Variabler` og sett den inni en `ved start`-kloss. Så klikker du på den vesle pila og velger variabelen du lagde på forrige steg, "Tall". 
+- [ ] Finn `sett variabel til`-klossen i `Variabler` og sett den inni en `ved start`-kloss (denne ligger allerede i kodefeltet ditt eller så finner du den i `Basis`). Så klikker du på den vesle pila og velger variabelen du lagde på forrige steg, "Tall". 
 
 ![Bilde som viser hvordan en velger variabel](sett_variabel_til.png)
 
@@ -30,7 +30,7 @@ Når programmet starter blir nå tallet 0 lagret i variabelen/klossen som heter 
 
 # Steg 2: Telling {.activity}
 
-Nå er det på tide å begynne å telle. Vi skal telle 1 opp når vi trykker på knappen A, altså vi skal øke verdien av "Tall" med 1. 
+Nå er det på tide å begynne å telle. Når vi trykker på knappen A så ønsker vi å øke verdien av "Tall" med en. Slik kan vi telle oppover hver gang knappen trykkes. 
 
 - [ ] Prøv å lage en kodeblokk som øker variabelen "Tall" med 1 når knapp A trykkes. Koden din burde se slik ut:
 
@@ -49,12 +49,14 @@ Men vi ser jo ingenting! Det er fordi vi ikke har bedt programmet om å faktisk 
 
 - [ ] Hvis du vil se tallet 0 i begynnelsen kan du også legge den til nederst i `ved start`-klossen. 
 
+## {.tip}
+
 Husk at du finner "Tall"-klossen i `Variabler`. 
 
 
 # Steg 4: Siste bit {.activity}
 
-- [ ] Nå skal vi gjøre noe smart. Høyreklikk på den lilla rammen til `når knapp A trykkes` i koden din og velg Lag kopi fra menyen som dukker opp. Nå får du en kopi av hele den seksjonen med kode. Dette er lurt når man skal lage kode som er helt lik eller nesten helt lik den koden man allerede har laget, fordi det går så fort!
+- [ ] Nå skal vi gjøre noe smart. Høyreklikk på den lilla rammen til `når knapp A trykkes` i koden din og velg "Lag kopi" fra menyen som dukker opp. Nå får du en kopi av hele den seksjonen med kode. Dette er lurt når man skal lage kode som er helt lik eller nesten helt lik den koden man allerede har laget, fordi det går så fort!
 
 - [ ] Endre kopien din slik at koden ser ut som den under. Vi har gjort om A til B og 1 til -1. 
 
