@@ -7,12 +7,12 @@ language: nb
 
 # Introduksjon {.intro}
 
-Vi skal i denne opggaven lage et program som blinker et lys på micro:biten!
+Vi skal i denne opggaven lage et program som får et lys på micro:biten til å blinke!
 
 
 # Steg 1: Tenn et lys {.activity}
 
-*Blokka `tenn` kan bli brukt til å slå på et lys på micro:biten og klossen `slukk` kan bli bruk til å slå av et lys som er på. Begge klossene kan du finne i `Skjerm` kategorien.*
+*Klossen `tenn` kan bli brukt til å slå på et lys på micro:biten og klossen `slukk` kan bli bruk til å slå av et lys som er på. Begge klossene kan du finne i `Skjerm`-kategorien.*
 
 ## Sjekkliste {.check}
 
@@ -21,7 +21,7 @@ Vi skal i denne opggaven lage et program som blinker et lys på micro:biten!
 ![Blide som viser tenn kloss inni en start kloss](tenn_kloss.png)
 
 For at lyset skal slå seg av igjen må vi legge til en `slukk` blokk. Men vi har
-jo også lyst til å se at lyset faktisk lyser litt først, og da kan vi legge inn
+jo lyst til å se at lyset faktisk lyser litt først, og da kan vi legge inn
 en `pause`-kloss.
 
 - [ ] Legg en `pause`-kloss under `tenn`-klossen og en `slukk`-kloss under `pause`-klossen. `pause`-klossen kan du finne i `Basis`.
@@ -45,9 +45,9 @@ __Prøv koden i simulatoren for å teste koden så langt.__
 
 ## Sjekkliste {.check}
 
-- [ ] Prøv å få lyset til å blinke mange ganger med å bruke en løkke. Du må kanskje legge til en ekstra pause også.
+- [ ] Prøv å få lyset til å blinke mange ganger ved å bruke en løkke. Du må kanskje legge til en ekstra pause også.
 
-- [ ] Koden din kan nå for eksempel se slik ut:
+- [ ] Koden din kan for eksempel se slik ut:
 
 ![Bilde som viser hvordan vi kan få et lys til å blinke for alltid](blinke_for_alltid.png)
 
