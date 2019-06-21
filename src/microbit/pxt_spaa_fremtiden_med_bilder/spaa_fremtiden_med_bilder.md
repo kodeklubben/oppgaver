@@ -7,7 +7,7 @@ language: nb
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal vi lage en liste med bilder og ved å trykke på kontakt 0 på micro:biten skal et tilfeldig bilde vise seg. Dette kan du bruke til å spå andre med!
+I denne oppgaven skal vi opprette en liste med bilder, og ved å trykke på kontakt 0 på micro:biten skal et tilfeldig bilde vises på skjermen. Dette kan du bruke til å spå andre med!
 
 
 # Steg 1: Opprett liste {.activity}
@@ -42,7 +42,7 @@ Elementene (her: bildene) i en liste er nummerert. Det første elementet har num
 
 ## {.tip}
 
-Kan man ikke bare velge et tilfeldig tall fra 0 til 4, tenker du kanskje deg? Jo, det kan du. men nå kan du legge til flere bilder i listen uten å måtte oppdatere resten av koden. Dette trikset er nyttig når man har lang kode og store lister, så det er greit å ha lært seg. 
+Kan man ikke bare velge et tilfeldig tall fra 0 til 4, tenker du kanskje? Jo, det kan du. Men nå kan du legge til flere bilder i listen uten å måtte oppdatere resten av koden. Dette trikset er nyttig når man har lang kode og store lister, så det er greit å lære seg. 
 
 
 # Steg 3: Vis bilde {.activity}
@@ -51,17 +51,17 @@ Kan man ikke bare velge et tilfeldig tall fra 0 til 4, tenker du kanskje deg? Jo
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til kategorien `Bilder` og finn ![Bilde som viser show image variabel at offset 0 klossen](vis_bilde.png) -klossen (vis bilde variabel med forskyvning 0). Vi skal ikke forskyve bilde, så la det stå 0 bakerst. Legg klossen under `sett Tilfeldig bildenummer til... ` fra forrige steg.
+- [ ] Gå til kategorien `Bilder` og finn ![Bilde som viser show image variabel at offset 0 klossen](vis_bilde.png) -klossen (vis bilde variabel med forskyvning 0). Vi skal ikke forskyve bildet, så la det stå 0 bakerst. Legg klossen under `sett Tilfeldig bildenummer til... ` fra forrige steg.
 
-Hadde vi lagret ett bilde i en variabel, hadde vi brukt den variabelen nå til å erstatte `myImage`. Men vi må hente ut ett element (bilde) fra listen istedenfor. 
+Hadde vi lagret et bilde i en variabel, hadde vi brukt den variabelen nå til å erstatte `myImage`. Men her vi må hente ut et element (bilde) fra listen istedenfor. 
 
-- [ ] Bruk klossen ![Bilde som viser list får en verdi ved 0 klossen](bildeliste_faar_verdi.png) fra `Lister` og erstatt `list` med variabelen vi har lagret bildelisten vår i, nemlig "Bildeliste". Vi vil hente ut elementet med det nummeret som er lagret i "Tilfeldig bildenummer", så vi erstatter 0 med den variabelen. Ersatt `myImage` i klossen fra forrige punkt med blokken du nå har laget. 
+- [ ] Bruk klossen ![Bilde som viser list får en verdi ved 0 klossen](bildeliste_faar_verdi.png) fra `Lister` og erstatt `list` med variabelen vi har lagret bildelisten vår i, nemlig "Bildeliste". Vi vil hente ut elementet med det nummeret som er lagret i "Tilfeldig bildenummer", så vi erstatter 0 med denne variabelen. Erstatt `myImage` i klossen fra forrige punkt med blokken du nå har laget. 
 
 ## Test prosjektet {.flag}
 
 *Nå har du laget alt du trenger!*
 
-- [ ] Test koden din på simulatoren og/eller last den ned til micro:biten. Pass på at du holder jordkontakten (GND) samtidig som du trykker på kontakt 0 hvis du tester ut på micro:biten. 
+- [ ] Test koden din på simulatoren og/eller last den ned til micro:biten. Pass på at du holder jordkontakten (GND) samtidig som du trykker på kontakt 0 hvis du tester på micro:biten. 
 
 - [ ] Nå kan du prøve å spå fremtiden til den som tar på kontaktene, om du vil. 
 
