@@ -56,13 +56,13 @@ For å få flere plasser i `hvis-ellers`-klossen, trykk på pluss-tegnet (+) som
 
 - [ ] Fest en ledning fra der det står 0 på micro:biten til pinnen som det står pluss (+) ved på buzzeren. 
 
-- [ ] Fest den andre ledningen fra der det står GND på micro:biten til den andre pinnen på buzzeren.
+- [ ] Fest den andre ledningen fra der det står GND på micro:biten til den andre pinnen (-) på buzzeren.
 
 ## Hodetelefoner sjekkliste {.check}
 
-- [ ] Fest en ledning fra der det står GND på micro:biten til helt øverst på den metaliske delen av hodetelefonene.
+- [ ] Fest en ledning fra der det står GND på micro:biten til helt øverst på den metalliske delen av hodetelefonene.
 
-- [ ] Fest den andre ledningen fra der det står 0 på micro:biten til helt nederst på den metaliske delen av hodetelefonene. 
+- [ ] Fest den andre ledningen fra der det står 0 på micro:biten til helt nederst på den metalliske delen av hodetelefonene. 
 
 - [ ] Simulatoren viser hvordan det nå skal se ut:
 
@@ -72,7 +72,7 @@ For å få flere plasser i `hvis-ellers`-klossen, trykk på pluss-tegnet (+) som
 
 - [ ] Last ned programmet til micro:biten. 
 
-- [ ] Kjør programmet. Prøv å endre lysnivået ved å skygge med hånden. 
+- [ ] Kjør programmet. Prøv å endre lysnivået ved å skygge for med hånden. 
 
 ## {.tip}
 
