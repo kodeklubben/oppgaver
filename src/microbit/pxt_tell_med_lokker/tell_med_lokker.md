@@ -29,16 +29,16 @@ Dette er en mye brukt løkketype som er kjent som en for-løkke.
 
 - [ ] Simulatoren til venstre skal nå ved start av programmet telle fra 0 opp til 5.
 
-- [ ] Kan du endre koden så løkka teller fra 0 til 9 istedenfor?
-
 ## {.tip}
+En løkke kjører koden som står inni flere ganger. Det som gjør for-løkka nyttig, er at variabelen `indeks` får en ny verdi hver gang. Den første løkka som kjøres har `indeks` lik 0. Når den viser tallet som heter `indeks`, viser den dermed tallet 0. Så kjører den løkka en gang til, men nå har den endret verdien av `indeks` til 1, og viser tallet 1 istedenfor. Slik fortsetter den å kjøre løkka for `indeks` = 2, `indeks` = 3, `indeks` = 4 og `indeks` = 5. Da stopper den, siden vi har sagt at den bare skal gjenta seg selv for indeksverdiene fra 0 til 5. 
+##
 
-En løkke kjører koden som står inni flere ganger. Det som gjør for-løkka nyttig, er at variabelen `indeks` får en ny verdi hver gang. Den første løkka som kjøres har indeks lik 0. Når den viser tallet som heter indeks, viser den dermed tallet 0. Så kjører den løkka en gang til, men nå har den endret verdien av indeks til 1, og viser tallet 1 istedenfor. Slik fortsetter den å kjøre løkka for indeks = 2, indeks = 3, indeks = 4 og indeks = 5. Da stopper den, siden vi har sagt at den bare skal gjenta seg selv for indeksverdiene fra 0 til 5. 
+- [ ] Kan du endre koden så løkka teller fra 0 til 9 istedenfor?
 
 
 # Steg 3: Endre indeks {.activity}
 
-Indeks begynner på null, men hvis vi viser tallet indeks + 1 istedenfor, vil det første tallet som vises være 1.
+`Indeks` begynner på null, men hvis vi viser tallet `indeks + 1` istedenfor, vil det første tallet som vises være 1.
 
 ## Sjekkliste {.check}
 
@@ -48,14 +48,14 @@ Indeks begynner på null, men hvis vi viser tallet indeks + 1 istedenfor, vil de
 
 	![Bilde av program som teller fra 1 til 10](ved_start_2.png)
 
-- [ ] Fra hvilket tall til hvilket tall teller løkka nå? Når indeks er lik 9, hva blir indeks + 1?
+- [ ] Fra hvilket tall til hvilket tall teller løkka nå? Når `indeks` er lik 9, hva blir `indeks + 1`?
 
 
 # Steg 4: Telle nedover {.activity}
 
-Indeks øker med 1 for hver runde i løkka, men med matematikk kan vi få koden til å telle nedover likevel.
+`Indeks` øker med 1 for hver runde i løkka, men med matematikk kan vi få koden til å telle nedover likevel.
 
-- [ ] Gjør `+`-klossen om til en `-`-kloss ved å velge `-` i nedtrekkslista (klikk på pila ved siden av +). 
+- [ ] Gjør `+`-klossen om til en `-`-kloss ved å velge `-` i nedtrekkslista (klikk på pila ved siden av `+`). 
 
 - [ ] Endre resten av koden slik at den ser slik ut: 
 
