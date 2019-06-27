@@ -65,8 +65,8 @@ subject:
       NAME: Tækni
     music:
       NAME: Tónlist
-    norwegian:
-      NAME: Norska
+    first_language:
+      NAME: Íslenska
     english:
       NAME: Enska
     arts_and_crafts:
