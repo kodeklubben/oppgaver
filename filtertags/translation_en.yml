@@ -2,17 +2,17 @@ language:
   NAME: Language
   TAGS:
     nb:
-      NAME: Bokmål
+      NAME: Norwegian (Bokmål)
     nn:
-      NAME: Nynorsk
+      NAME: Norwegian (Nynorsk)
     sv:
-      NAME: Svenska
+      NAME: Swedish
     da:
-      NAME: Dansk
+      NAME: Danish
     en:
       NAME: English
     is:
-      NAME: Íslenska
+      NAME: Icelandic
 topic:
   NAME: Topic
   TAGS:
