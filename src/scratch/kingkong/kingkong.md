@@ -133,11 +133,11 @@ står på venstre side av skyskraperen og en der han står på høyre side.
 Prøv gjerne de forskjellige tegneverktøyene på egen hånd. Vet du hva alle gjør?
 
 Legg merke til at nede i høyre hjørnet velger du mellom å jobbe med
-_pikselgrafikk_ og _vektorgrafikk_. I pikselgrafikk jobber vi med nettopp
-pikslene (hvert punkt bildet består av kalles en piksel) i bildet. Typisk vil du
-gjøre dette med bilder du laster ned fra nettet. Med vektorgrafikk kan vi jobbe
-med direkte med linjer og former. Mange av figurene i Scratchbiblioteket bruker
-dette, og det er ofte bedre når vi skal tegne selv.
+_punktgrafikk_ og _vektorgrafikk_. I punktgrafikk jobber vi med nettopp punktene
+(også kalt pikslene) i bildet. Typisk vil du gjøre dette med bilder du laster
+ned fra nettet. Med vektorgrafikk kan vi jobbe med direkte med linjer og former.
+Mange av figurene i Scratchbiblioteket bruker dette, og det er ofte bedre når vi
+skal tegne selv.
 
 
 # Steg 3: King Kong flytter seg {.activity}
@@ -153,7 +153,7 @@ Nå har vi tatt inn grafikken vi trenger. Det er på tide å begynne å programm
   ```blocks
   når grønt flagg klikkes
   sett størrelse til (200) %
-  legg foran alt
+  legg foran
   gå til x: (0) y: (-50)
   ```
 
