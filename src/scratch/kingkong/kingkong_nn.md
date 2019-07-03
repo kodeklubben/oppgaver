@@ -152,7 +152,7 @@ No har me tatt inn grafikken me treng. Det er på tide å begynne å programmere
   ```blocks
   når @greenFlag vert trykt på
   set storleik til (200) %
-  legg øvst
+  legg framfor alt
   gå til x: (0) y: (-50)
   ```
 
