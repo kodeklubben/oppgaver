@@ -13,6 +13,15 @@ Vi trenger litt ekstra utstyr:
 - 2 ledninger med krokodilleklemmer
 - Hodetelefoner eller 1 buzzer (en liten høyttaler)
 
+Micro:biten har fem store tilkoblinger på brettet, som vi kaller porter. Disse er koblet til store hull og er merket: 0, 1, 2, 3V og GND, på micro:biten. 
+
+![Bilde av en micro:bit og påkoblede krokodilleklemmer](kontakt.png)
+
+GND porten blir brukt for å fullføre en krets. Hvis du holder på GND-porten med en hånd, kan du programmere micro:biten til å oppdage at du berører 0, 1 eller 2 pinnen med den andre hånden (da bruker du kroppen din til å fullføre en elektrisk krets). Dette kan du bruke for å få micro:biten til å gjøre eller vise ulike ting. Du kan også få micro:biten til å sende signaler ut gjennom portene. For eksempel kan du programmere micro:biten til å sende ut lyd, og kobler du på en høyttaler med krokodilleklemmer, kan du høre på lyden. 
+
+Du kan lese mer om portene på micro:biten her:
+[microbit.org](https://microbit.org/no/guide/hardware/pins/){target=_blank}
+
 
 # Steg 1: Grunnkoden {.activity}
 
@@ -40,15 +49,15 @@ Vi trenger litt ekstra utstyr:
 
 ## Buzzer sjekkliste {.check}
 
-- [ ] Fest en ledning fra der det står 0 på micro:biten til pinnen som det står pluss (+) ved på buzzeren. 
+- [ ] Fest en ledning fra port 0 på micro:biten til pinnen som det står pluss (+) ved på buzzeren. 
 
 - [ ] Fest den andre ledningen fra der det står GND på micro:biten til den andre pinnen på buzzeren.
 
 ## Hodetelefoner sjekkliste {.check}
 
-- [ ] Fest en ledning fra der det står GND på micro:biten til helt øverst på den metaliske delen av hodetelefonene.
+- [ ] Fest en ledning fra GND-porten på micro:biten til helt øverst på den metaliske delen av hodetelefonene.
 
-- [ ] Fest den andre ledningen fra der det står 0 på micro:biten til helt nederst på den metaliske delen av hodetelefonene.
+- [ ] Fest den andre ledningen fra port 0 på micro:biten til helt nederst på den metaliske delen av hodetelefonene.
 
 - [ ] Simulatoren viser hvordan det nå skal se ut:
 
