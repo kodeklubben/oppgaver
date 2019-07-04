@@ -7,7 +7,7 @@ language: nb
 
 # Introduksjon {.intro} 
 
-Det regner mat! er et spill som går ut på å fange flest mulig matbiter. Det fungerer slik at matbiter faller ned på skjermen og spilleren som står på bunn skal prøve å fange maten ved å bevege seg med knappene A og B. Liv går tapt når spilleren ikke klarer å få tak i maten. Spilleren har til sammen tre liv før spillet er over.  
+"Det regner mat!" er et spill som går ut på å fange flest mulig matbiter. Det fungerer slik at matbiter faller ned på skjermen og spilleren som står på bunn skal prøve å fange maten. Spilleren skal bevege seg med knappene A og B. Liv går tapt når spilleren ikke klarer å få tak i maten. Spilleren har til sammen tre liv før spillet er over.  
 
 
 # Steg 1: Grunnlag {.activity}
@@ -18,15 +18,21 @@ Det regner mat! er et spill som går ut på å fange flest mulig matbiter. Det f
 
 - [ ] Lag tre variabler `spiller`, `mat` og `liv` med `Lag en variabel...` i kategorien `Variabler`. 
 
-Skjermen vår består av 5x5 ledlys. Disse kan vi skru av og på med litt kode. I denne oppgaven bruker vi klosser fra `Spill`-kategorien til å sette og endre hvor lysene skal være. Posisjonen til lysene blir gitt med en x- og en y-posisjon som i et rutenett. X angir plassen til lyset bortover og y angir plassen nedover, dette er vist på bilder under. 
+Skjermen vår består av 5x5 ledlys. Disse kan vi skru av og på med litt kode. I denne oppgaven bruker vi klosser fra `Spill`-kategorien til å sette og endre hvor lysene skal være. Posisjonen til lysene blir gitt med en x- og en y-posisjon som i et rutenett. Verdien til x angir plassen til lyset bortover (horisontalt) og verdien til y angir plassen nedover (vertikalt), dette er vist på bildet under. Hjørnet øverst til venstre har verdiene `(0,0)`, mens hjørnet nederst til høyre har verdiene `(4,4)`. 
 	
 ![Bilde som viser hvordan x og y angir posisjonen til ledlysene](ved_start_skjerm.png)
 
-- [ ] Spilleren skal bevege seg på nederste rad til høyre og venstre. For å få spilleren til være på midten ved starten av spillet, gjør vi som vist under og setter variabelen `spiller` til punktet x: 2 og y: 4. `Create sprite at x: 2 y: 2`-klossen finner du i kategorien `Spill` i `Avansert`. Koden skal settes i `ved start`-klossen som allerede finnes i kodefeltet ditt (eller du kan finne den i `Basis`-kategorien). 
+Spilleren skal bevege seg på nederste rad til høyre og venstre. Vi vil at `spiller` skal starte på midten av skjermen ved start (x: 2 og y: 4). 
+
+- [ ] Legg til koden under i `ved start`-klossen som allerede finnes i kodefeltet ditt (eller du kan finne den i `Basis`-kategorien).
 
 	![Bilde som viser hvilke klosser en bruker for å sette spiller variabelen til midten av nederste rad ved starten av spillet](sett_spiller_til.png)
 
-- [ ] Gjør det samme med vaiabelen `mat` som du gjorde med variabelen `spiller` i punktet over. Den eneste forskjellen er at `mat` skal settes til x: 2 og y: 2. 
+- [ ] Gjør det samme med vaiabelen `mat` som du gjorde med variabelen `spiller` i punktet over. `mat` skal settes til x: 2 og y: 2. 
+
+## {.tip}
+`Sett spiller til`-klossen finner du i `Variabler`. `Create sprite at x: 2 y: 4`-klossen finner du i kategorien `Spill` i `Avansert`. 
+##
 
 ## {.tip}
 Det er egentlig ikke så viktig hvor vi plasserer `mat` ved starten siden den kommer til å flytte på seg i neste steg. Det som er viktig er at `mat` finnes på spillebrettet ved start slik at det går an å bruke variabelen senere.
@@ -51,22 +57,24 @@ Både `mat` og `spiller` blir et ledlys hver på micro:biten. Hvis du vil skille
 
 ## Sjekkliste {.check}
 
-- [ ] I `gjenta for alltid`-klossen, sett inn ![Bilde som viser klossen sprite angir x til 0](sprite_angir.png) som du finner i `Spill`. `Gjenta for alltid`-klossen finnes allerede på kodefeltet ditt eller du kan finne den i `Basis`.  Sett inn variabelen `mat` i stedenfor `sprite`. 0 bytter du ut med `plukk et tilfeldig tall mellom 0 og 4`-klossen være som du finner i kategorien `Matematikk`. 
+- [ ] I `gjenta for alltid`-klossen (denne finnes allerede i kodefeltet ditt, eller du kan finne den i `Basis`), sett inn ![Bilde som viser klossen sprite angir x til 0](sprite_angir.png) som du finner i `Spill`. Bytt ut `sprite` med variabelen `mat`. 0 bytter du ut med `plukk et tilfeldig tall mellom 0 og 4`-klossen som du finner i kategorien `Matematikk`. 
 
-- [ ] Sett inn en til `sprite angir x til 0` -kloss under den forrige, men i steden for x skal det stå y. 
+- [ ] Sett inn en til `sprite angir x til 0` -kloss under den forrige og bytt ut `x` med `y`.
 
-- [ ] Sett inn en `pause`-kloss. Den finner du i `Basis`. Endre tallet til 300. Dette gir oss litt tid fra maten blir satt øverst til den begynner å regne.
+- [ ] Så trenger vi en `pause`-kloss (finnes i `Basis`). Endre tallet til 300.
 
-Det vi har gjort til nå i steget er å ha satt `mat` til en tilfeldig x-posisjon (et tilfeldig sted bortover). Vi har i tillegg passet på at `mat` starter på øverste rad for hver runde. Det vi nå skal gjøre, er å lage kode som gjør at maten skal regne ned.  
+Det vi har gjort til nå er å ha satt `mat` til en tilfeldig x-posisjon (et tilfeldig sted bortover). Vi har i tillegg passet på at `mat` starter på øverste rad for hver runde. Det vi skal gjøre videre, er å lage kode for maten som skal regne ned.  
 
 - [ ] Finn en `gjenta 4 ganger`-kloss i `Løkker` og plasser den under `pause`-klossen. 
 
-- [ ] For å få maten til å regne nedover, må vi endre posisjonen til variabelen `mat` i y-retning. Vi endrer posisjonen med 1 for hver gang vi går gjennom løkka. Legg til koden under i `gjenta 4 ganger`-klossen. 
+For å få maten til å regne nedover, må vi endre posisjonen til variabelen `mat` i y-retning. Vi endrer posisjonen med 1 for hver gang vi går gjennom løkka.
+
+- [ ]  Legg til koden under i `gjenta 4 ganger`-klossen. 
 
 	![Bilde som viser de to klossene som skal inni gjenta 4 ganger klossen](gjenta_4_ganger.png)
 
 ## {.tip}
-Hvis vi ikke legger til en `pause`-kloss vil maten bevege seg for fort til at vi klarer å fange den!
+Hvis vi ikke legger til `pause`-klosser vil maten bevege seg for fort til at vi klarer å fange den!
 
 
 # Steg 3: Få poeng og tap liv {.activity}
@@ -77,13 +85,25 @@ Hvis vi ikke legger til en `pause`-kloss vil maten bevege seg for fort til at vi
 
 - [ ] Plasser en `hvis-ellers`-kloss under `gjenta 4 ganger`-blokken. `Hvis-ellers`-klossen finner du i `Logikk`.
 
-- [ ] Vi vil at poengsummen skal øke med én hvis spilleren klarer å fange maten. Bytt ut `sann` med `is sprite touching `-klossen som du finner i `Spill`-kategorien. I stedenfor `sprite`, vil vi ha variabelen `spiller` og i den tomme boksen vil vi ha variabelen `mat`. *"Is spiller touching mat" betyr "berører spiller mat" på norsk.* 
+Vi vil at poengsummen skal øke med én hvis spilleren klarer å fange maten.
 
-- [ ] Sett klossen `endre poengsum med 1` inn i området som hører til `hvis`-delen av `hvis-ellers`-klossen.
+- [ ] Bytt ut `sann` med `is sprite touching `-klossen som du finner i `Spill`-kategorien. I stedenfor `sprite`, vil vi ha variabelen `spiller` og i den tomme boksen vil vi ha variabelen `mat`. *"Is spiller touching mat" betyr "berører spiller mat" på norsk.* 
 
-- [ ] Hvis spilleren ikke klarer å berøre maten vil programmet gå inn i `ellers`-delen av `hvis-ellers`-klossen. Det første vi skal legge inn her er `endre liv med -1`-klossen som du finner i `Variabler`. *Husk å endre fra 1 til -1 i klossen*. For hvis ikke spiller klarer å fange maten, må vi miste et liv.
+- [ ] Sett klossen `endre poengsum med 1` inn slik som vist under. 
 
-- [ ] Deretter må vi sjekke om variabelen `liv` er lik null, for hvis den er det, er spillet over. Sett koden nedenfor under `endre liv med -1`-klossen. "Game over" er et uttrykk for at spillet er slutt.  
+![Bilde som viser starten på hvis-ellers klossen](hvis_ellers.png)
+
+## {.tip}
+`Hvis-ellers`-klossen fungerer slik at hvis spilleren får tak i maten, vil programmet kjøre koden som hører til `hvis`-delen av klossen. Hvis dette ikke er sant (spilleren klarte ikke å få tak i maten denne runden), vil programmet kjøre koden som hører til `ellers`-delen av klossen. 
+##
+
+Når `spiller` ikke klarer å fange maten, skal vi miste et liv. 
+
+- [ ] I `ellers`-delen av `hvis-ellers`-klossen, sett inn `endre liv med -1` som du finner i `Variabler`. *Husk å endre fra 1 til -1 i klossen*. 
+
+Videre må vi sjekke om variabelen `liv` er lik null, for hvis den er det, er spillet over.
+
+- [ ] Sett koden nedenfor under `endre liv med -1`-klossen. "Game over" er et uttrykk for at spillet er slutt.  
 
 	![Bilde som viser kode som gjør at hvis liv er lik 0 så er spillet over](hvis_liv_lik_0.png)
 
@@ -91,13 +111,9 @@ Hvis vi ikke legger til en `pause`-kloss vil maten bevege seg for fort til at vi
 	
 	![Bilde som viser hvordan koden burde se ut for det som skal inni gjenta for alltid klossen](spill_koden.png)
 
-## {.tip}
-`Hvis-ellers`-klossen fungerer slik at hvis spilleren får tak i maten, vil programmet kjøre koden som hører til `hvis`-delen av klossen. Hvis dette ikke er sant og spilleren ikke klarte å få tak i maten i denne runden, vil programmet kjøre koden som hører til `ellers`-delen av klossen. 
-##
-
 ## Test prosjektet {.flag}
 
-- [ ] Sjekk i simulatoren at det regner et ledlys ned med forskjellig verdi av x for hver runde, og at det er et ledlys som står stille på nederste rad i midten. 
+- [ ] Sjekk i simulatoren at det regner et ledlys ned med forskjellig verdi av x for hver runde. Et annet ledys skal hele tiden stå stille i midten av nederste rad. 
 
 
 # Steg 4: Beveg spilleren! {.activity}
