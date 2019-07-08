@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - PXT: Blinkende lys"
+title: "Lærerveiledning - PXT: Blinkende lys"
 author: Stein Olav Romslo
 language: nb
 ---
