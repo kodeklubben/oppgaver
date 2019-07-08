@@ -22,15 +22,20 @@ Vi begynner prosjektet vårt med å få katten til å fly!
 
 ## Sjekkliste {.check}
 
-- [ ] Start et nytt prosjekt. Når du står på startsiden til Scratch
-  kan du starte et nytt prosjekt på to måter.
-  
-  1. Dersom du har en bruker kan du logge inn og deretter trykke på navnet 
-  ditt øverst i høyre hjørne. Trykk så `Mine ting` og til slutt 
-  `Nytt prosjekt`. 
-  2. Har du ingen bruker kan du trykke på Start Creating.
-  
+- [ ] Start et nytt prosjekt. Når du står på startsiden til Scratch kan du
+  starte et nytt prosjekt på to måter. Gå til [scratch.mit.edu](scrath.mit.edu).
+
+  1. Hvis du ikke har en bruker kan du trykke på `Direkte til programmering` på
+  forsiden. Da blir du sendt til verktøyet der vi faktisk programmerer.
+
+  2. Dersom du har en bruker kan du logge inn og deretter trykke på navnet
+  ditt øverst i høyre hjørne. Trykk så `Mine ting` og til slutt
+  `Nytt prosjekt`.
+
   Du vil se en katt som venter på å bli programmert!
+
+  Hvis du allerede har prøvd deg frem med noe kan du starte et nytt prosjekt ved
+  å velge `Fil` over programmeringsområdet og så `Ny`.
 
 - [ ] Prøv å klikk på de blå klossene til venstre på skjermen. For eksempel, om
   du klikker på
