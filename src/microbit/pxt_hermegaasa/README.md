@@ -61,7 +61,7 @@ __Tidsbruk__: Dobbelttime
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
-oppgaveteksten.](../hermegaasa.html){target=_blank}
+oppgaveteksten.](../pxt_hermegaasa/hermegaasa.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
