@@ -50,7 +50,7 @@ __Tidsbruk__: Enkelttime
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
-oppgaveteksten.](../blinkende_lys.html){target=_blank}
+oppgaveteksten.](../pxt_blinkende_lys/blinkende_lys.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
