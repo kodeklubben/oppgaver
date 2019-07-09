@@ -8,8 +8,8 @@ language: nb
 # Introduksjon {.intro}
 
 Denne oppgaven bygger på koden du skrev i oppgaven
-[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html). Så
-dersom du ikke har gjort den, så anbefaler vi å gjøre
+[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon). 
+Så dersom du ikke har gjort den, så anbefaler vi å gjøre
 [Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html) før du
 fortsetter på denne oppgaven.
 
