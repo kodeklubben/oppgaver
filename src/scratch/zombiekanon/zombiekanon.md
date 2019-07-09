@@ -43,10 +43,10 @@ Etterpå gjør du tilsvarende for pil venstre.
 ## Tips {.tip}
 
 I Scratch er retning 0 grader rett opp, og videre følger rotasjonen klokka. Det
-betyr at retning 0 grader er rett opp, 90 grader er rett til høyre, 180 grader
-nedover og 270 grader rett til venstre. Blokkene `Snu @turnRight`{.blockmotion}
-og `Snu @turnLeft`{.blockmotion} vil henholdsvis legge til og trekke fra grader
-på retningen.
+betyr at 90 grader er rett til høyre, 180 grader nedover, 270 grader rett til
+venstre, og 360 er hele runden og retning rett opp igjen. Du finner blokker med
+`Snu`{.blockmotion} og en pil mot høyre eller mot venstre. Disse vil henholdsvis
+legge til og trekke fra grader på retningen.
 
 # Steg 3: Få kanonen til å skyte automatisk {.activity}
 
