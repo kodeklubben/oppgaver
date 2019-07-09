@@ -158,11 +158,14 @@ primtall til å gjøre dette litt bedre.
 
 - [ ] Finn fram koden din fra [Primtall og
   effektivitet](../primtall/primtall.html), og legg den til å fila vi jobber
-  med. Den skal nå se slik ut ```python from math import sqrt, ceil from secrets
+  med. Den skal nå se slik ut 
+  
+  ```python 
+  from math import sqrt, ceil from secrets
   import randbelow
 
   def is_prime(n):
-      if not (isinstance(n, (int, long)) and n > 1):
+      if not (isinstance(n, int) and n > 1):
           return False
       small_primes = [2, 3, 5, 7, 11, 13, 17, 19]
       if n in small_primes:
