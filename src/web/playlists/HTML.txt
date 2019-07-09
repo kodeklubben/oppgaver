@@ -1,8 +1,0 @@
-introduksjon_til_web/introduksjon_til_web.md
-en_hjemmeside/en_hjemmeside.md
-forsvunnet_katt/forsvunnet_katt.md
-publiser/publiser.md
-lyd_og_video/lyd_og_video.md
-din_egen_nettside/din_egen_nettside.md
-lenk_sammen_nettsider/lenk_sammen_nettsider.md
-del_inn_nettsiden/del_inn_nettsiden.md
