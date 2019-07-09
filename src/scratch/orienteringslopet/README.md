@@ -42,7 +42,6 @@ __Tidsbruk__: Dobbelttime eller mer.
 - [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
       generalisere og tilpasse eksisterende programkode og algoritmer.
 
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke kode og brukerinteraksjon til å gjennomføre

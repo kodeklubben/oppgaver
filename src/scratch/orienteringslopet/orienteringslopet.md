@@ -34,7 +34,9 @@ Nå får du en kopi av prosjektet.
 *Lag kode som flytter løperen mellom bokstavene.*
 
 Begynn å legge inn kode under klossen `Når jeg mottar start
-figuren`{.blockevents}:
+figuren`{.blockevents}, som vist på bildet:
+
+[Bilde som viser koden i prosjektet](kode.png)
 
 ## Sjekkliste {.check}
 
