@@ -52,8 +52,12 @@ før du prøver `sudo pip install pgzero` igjen.
 - [ ] Lag et nytt python-program med følgende kode:
 
 ```python
+import pgzrun
+
 HEIGHT = 400
 WIDTH = 600
+
+pgzrun.go()
 ```
 
 - [ ] Kjør programmet, og se hva som skjer. Du skal nå se et svart vindu som er
