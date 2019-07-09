@@ -20,7 +20,7 @@ Vi skal lage et spill der målet er å skyte zombiene før de tar oss.
 ## Sjekkliste {.check}
 
 - [ ] Gå til
-  [https://scratch.mit.edu/projects/266969817/](https://scratch.mit.edu/projects/266969817/)
+  [https://scratch.mit.edu/projects/266969817](https://scratch.mit.edu/projects/266969817){target=_blank}.
 
 - [ ] Se inni prosjektet, og trykk remiks-knappen.
 
@@ -60,7 +60,7 @@ legge til og trekke fra grader på retningen.
 
 __Klikk på det grønne flagget.__
 
-* Fungerer koden?
+- [ ]  Fungerer koden?
 
 ## Lagre prosjektet {.save}
 
