@@ -12,7 +12,7 @@ Vi skal øve på forflytning i en scene. `Løperen` i scenen skal berøre alle
 bokstav-postene. Når det er gjort `vinner` han spillet. Hvor mange måter klarer
 du å løse oppgaven?
 
-![Illustrasjon av et ferdig oriienteringsløp-spill](orienteringslop.png)
+![Illustrasjon av et ferdig orienteringsløp-spill](orienteringslop.png)
 
 
 # Steg 1: Lag en remiks av Orienteringsløpet {.activity}
@@ -22,7 +22,7 @@ du å løse oppgaven?
 ## Sjekkliste {.check}
 
 - [ ] Gå til
-  [https://scratch.mit.edu/projects/261157815/](https://scratch.mit.edu/projects/261157815/)
+  [https://scratch.mit.edu/projects/261157815](https://scratch.mit.edu/projects/261157815){target=_blank}.
 
 - [ ] Se inni prosjektet, og trykk remiks-knappen.
 
@@ -36,7 +36,7 @@ Nå får du en kopi av prosjektet.
 Begynn å legge inn kode under klossen `Når jeg mottar start
 figuren`{.blockevents}, som vist på bildet:
 
-[Bilde som viser koden i prosjektet](kode.png)
+![Bilde som viser koden i prosjektet](kode.png)
 
 ## Sjekkliste {.check}
 
@@ -44,7 +44,7 @@ figuren`{.blockevents}, som vist på bildet:
   han har berørt alle bokstavene, skifter scenen utseende og jubler for deg.
 
 - [ ] Du kommer nok til å trenge kommandoer fra `Hendelser`{.blockevents},
-  `Styring`{.blockcontrol} og `Bevegelse`{.blockmotion}. Men alle script-blokker
+  `Styring`{.blockcontrol} og `Bevegelse`{.blockmotion}. Men alle klosser
   er lov!
 
 - [ ] Du trenger ikke treffe bokstavene i alfabetisk rekkefølge.
@@ -59,7 +59,7 @@ figuren`{.blockevents}, som vist på bildet:
 
 __Klikk på det grønne flagget.__
 
-* Fungerer koden?
+- [ ] Fungerer koden?
 
 ## Utfordring {.challenge}
 

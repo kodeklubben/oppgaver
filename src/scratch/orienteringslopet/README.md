@@ -15,7 +15,7 @@ på et lite rigid problem.
 ![Illustrasjon av et ferdig Orienteringsløp-spill](orienteringslop.png)
 
 Du finner en ferdig utgave med en del ulike løsningsforslag her:
-[https://scratch.mit.edu/projects/261153085/](https://scratch.mit.edu/projects/261153085/).
+[https://scratch.mit.edu/projects/261153085](https://scratch.mit.edu/projects/261153085){target=_blank}.
 
 
 ## Oppgaven passer til: {.check}
@@ -80,11 +80,11 @@ oppgaveteksten.](../orienteringslop/orienteringslop.html){target=_blank}
 Oppfordre gjerne først til å prøve den meste åpenbare løsningen de kommer på. Gi
 dem "easy wins".
 
-* De som f.eks bare bruker 7 stk "Flytt figuren til xy=..." får da en
+- [ ] De som f.eks bare bruker 7 stk "Flytt figuren til xy=..." får da en
   mestringsfølelse umiddelbart. Så kan du be dem prøve andre måter der de ikke
   får bruke den kommandoen.
 
-* Jo mer koko/ut av boksen måte å oppfylle vilkårene i oppgaven, jo bedre. En
+- [ ] Jo mer koko/ut av boksen måte å oppfylle vilkårene i oppgaven, jo bedre. En
   helt gyldig løsning er f.eks. å gjøre figuren like høy som skjermen, og bare
   sveipe til høyre for å mose over alle bokstavene omtrent samtidig. Eller
   vinkle den 45 grader og så la den sprette evig rundt som en biljardkule over
@@ -92,37 +92,37 @@ dem "easy wins".
   linje og bare springer tvers gjennom dem på x-aksen. Dette tøyer oppgaven en
   hel del, men er jo utenfor boksen tenking...
 
-* Hvis noen står fast så kan du prøve å gi dem noen hint om en enkel måte å løse
+- [ ] Hvis noen står fast så kan du prøve å gi dem noen hint om en enkel måte å løse
   oppgaven.
 
-* Hvis noen har klart en eller flere "åpenbare" metoder så kan du gi dem hint om
+- [ ] Hvis noen har klart en eller flere "åpenbare" metoder så kan du gi dem hint om
   alternative måter, feks:
 
-  * Har du prøvd `Kjempen`?
+- [ ] Har du prøvd `Kjempen`?
 
-  * Har dere forsøkt å male scenen som en husvegg? Løperen er penselen.
+- [ ] Har dere forsøkt å male scenen som en husvegg? Løperen er penselen.
 
 Merk: Hvis dette er brukt som en del av et undervisningsopplegg kan det være en
 fin intro å snakke om koordinatsystem og forflytning, hvis barna ikke har hatt
 om det på skolen eller ikke helt har “tatt den” enda. Huskeliste å gi dem:
 
-* X er hvor langt du er fra høyre til venstre
+- [ ] X er hvor langt du er fra høyre til venstre
 
-* Y er hvor langt du er opp og ned
+- [ ] Y er hvor langt du er opp og ned
 
-* Når du flytter til høyre, så blir X større
+- [ ] Når du flytter til høyre, så blir X større
 
-* Når du flytter til venstre, så blir X mindre
+- [ ] Når du flytter til venstre, så blir X mindre
 
-* Når du flytter oppover, så blir Y større
+- [ ] Når du flytter oppover, så blir Y større
 
-* Når du flytter nedover, så blir Y mindre
+- [ ] Når du flytter nedover, så blir Y mindre
 
-* Når du flytter på skrå, så endrer både X og Y seg
+- [ ] Når du flytter på skrå, så endrer både X og Y seg
 
-* Når både x og y er 0, så er du midt i scenen
+- [ ] Når både x og y er 0, så er du midt i scenen
 
-* Når du flytter musa rundt i scenen står x og y nede til høyre for scenen
+- [ ] Når du flytter musa rundt i scenen står x og y nede til høyre for scenen
 
 ## Variasjoner {.challenge}
 
