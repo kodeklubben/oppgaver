@@ -6,4 +6,4 @@ language: nn
 ---
 
 Lær dei grunnleggjande konsepta i datavitskap med 
-enkel programmering i JavaScript..
+enkel programmering i JavaScript.

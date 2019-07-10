@@ -5,5 +5,5 @@ external: 'https://studio.code.org/s/starwars/stage/1/puzzle/1'
 language: en
 ---
 
-Learn the basic concepts of Computer Science with simple programmring 
+Learn the basic concepts of Computer Science with simple programming 
 in JavaScript.

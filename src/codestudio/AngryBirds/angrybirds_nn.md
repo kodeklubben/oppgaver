@@ -6,4 +6,4 @@ language: nn
 ---
 
 Lær dei grunnleggjande konsepta i datavitskap med 
-dra-og-slipp programmering.
+dra-og-slipp-programmering.

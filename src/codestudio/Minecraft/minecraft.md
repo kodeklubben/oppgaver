@@ -6,4 +6,4 @@ language: nb
 ---
 
 Lær de grunnleggende konseptene i datavitenskap med 
-dra-og-slipp programmering.
+dra-og-slipp-programmering.
