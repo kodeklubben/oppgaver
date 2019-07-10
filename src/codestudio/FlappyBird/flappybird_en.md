@@ -5,5 +5,5 @@ external: 'https://studio.code.org/flappy/1'
 language: en
 ---
 
-Lær de grunnleggende konseptene i datavitenskap med 
-dra-og-slipp programmering.
+Learn the basic concepts of Computer Science with drag 
+and drop programming.
