@@ -7,11 +7,11 @@ language: nb
 # Introduksjon {.intro}
 
 Du har tidligere jobbet med Cæsar-chifferet, en oppgave der du skulle lage
-[enkel kryptering](../hemmelige_koder/hemmelige_koder.html). Men, den typen
-kryptering ("symmetrisk kryptografi") har et iboende problem: Før man kan
-kryptere og sende en melding, må man være enig om hvilken nøkkel man skal bruke.
-Med andre ord, for å kunne snakke sammen hemmelig, må man først bli enig om en
-hemmelighet -- og da er man jo like langt?
+[enkel kryptering](https://oppgaver.kidsakoder.no/python/hemmelige_koder/hemmelige_koder). 
+Men, den typen kryptering ("symmetrisk kryptografi") har et iboende problem: 
+Før man kan kryptere og sende en melding, må man være enig om hvilken nøkkel 
+man skal bruke. Med andre ord, for å kunne snakke sammen hemmelig, må man 
+først bli enig om en hemmelighet -- og da er man jo like langt?
 
 En løsning på dette problemet er Diffie-Hellman nøkkelutveksling. Ideen kom fra
 Whitfield Diffie og Martin Hellman i 1976, og er fortsatt i bruk i dag. I denne

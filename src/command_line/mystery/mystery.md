@@ -4,3 +4,5 @@ level: 3
 external: https://github.com/veltman/clmystery
 language: en
 ---
+
+A command-line murder mystery.

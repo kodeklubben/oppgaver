@@ -1,5 +1,5 @@
 ---
-title: Kommandolinje
+title: Command Line
 language: en
 ---
 

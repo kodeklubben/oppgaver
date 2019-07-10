@@ -9,9 +9,9 @@ language: nn
 # Introduksjon {.intro}
 
 Denne oppgåva byggjer på koden du skreiv i oppgåva
-[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon_nn.html). Så
-viss du ikkje har gjort den anbefalar me at du ser på den før du fortset med
-denne oppgåva.
+[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon_nn). 
+Så viss du ikkje har gjort den anbefalar me at du ser på den før du fortset 
+med denne oppgåva.
 
 Her skal me vidareutvikle `partikkel`-animasjonen vår slik at den ser slik ut:
 

@@ -9,8 +9,8 @@ language: nn
 # Introduksjon {.intro}
 
 I denne oppgåva skal du lage ein ballanimasjon. Du skal bruke det du har lært i
-[oppgåva om enkle objekt](../enkle_objekter/enkle_objekter_nn.html), og Pygame
-og Pygame Zero. Viss du ikkje hugsar noko om objekt kan du gå tilbake til
+[oppgåva om enkle objekt](https://oppgaver.kidsakoder.no/python/enkle_objekter/enkle_objekter_nn), 
+og Pygame og Pygame Zero. Viss du ikkje hugsar noko om objekt kan du gå tilbake til
 oppgåva og repetere.
 
 
