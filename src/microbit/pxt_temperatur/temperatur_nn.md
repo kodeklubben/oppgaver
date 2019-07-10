@@ -7,10 +7,10 @@ language: nn
 
 # Introduksjon {.intro}
 
-Kan me bruke micro:biten vår som eit termometer? Ja, den har faktisk ein temperatursensor!
+Kan me bruke micro:biten vår som eit termometer? Ja, den har faktisk ein
+temperatursensor!
 
 ![Bilete av ein microbit som viser bilete av eit termometer](temperatur.jpg)
-
 
 
 # Steg 1: Me ristar laus {.activity}
@@ -56,28 +56,27 @@ Det er to ulike måtar me kan teste micro:bit-program på:
 
 # Steg 2: Mål temperaturen {.activity}
 
-*Du vil vise temperaturen i rommet der du er. korleis gjer me det på ein micro:bit?*
+*Du vil vise temperaturen i rommet der du er. Korleis gjer me det på ein
+ micro:bit?*
 
 ## Sjekkliste {.check}
 
-- [ ] Micro:bit har ein innebygd temperatursensor som gir temperaturen i °C. 
-  Den kan du få tak i ved å bruke klossen `Temperatur (°C)` i `Inndata`-kategorien.
+- [ ] Micro:bit har ein innebygd temperatursensor som gir temperaturen i °C.
+  Den kan du få tak i ved å bruke klossen `Temperatur (°C)` i
+  `Inndata`-kategorien.
 
 - [ ] Prøv sjølv å legg `Temperatur (°C)`-klossen inn i koden din, slik at
   den målte temperaturen blir vist i staden for __1__ som me fekk opp før.
 
-- [ ] Bruk simulatoren eller last koden til micro:biten din for å teste som
-  tidligere. Når du rister på micro:biten (eller klikker på `SHAKE`) skal det
-  temperaturen måles på nytt. Hvilken temperatur vises? Hva er temperaturen i et annet rom eller ute ?
-
 - [ ] Bruk simulatoren eller last ned koden til micro:biten din for å teste,
   slik du gjorde i stad. Når du ristar på micro:biten (eller klikkar på `SHAKE`)
-  skal temperaturen bli målt på nytt. Kva for temperatur visast? kva er temperaturen i eit anna rom eller ute ?
+  skal temperaturen bli målt på nytt. Kva for temperatur visast? kva er
+  temperaturen i eit anna rom eller ute ?
 
 
-# Steg 4: Terningen hugsar og viser vêr-teikn{.activity}
+# Steg 4: Terningen hugsar og viser vêr-teikn {.activity}
 
-*Kva om me vil bruke temperaturmålingen seinare? Da må me hugse kva vi målte!*
+*Kva om me vil bruke temperaturmålingen seinare? Da må me hugse kva me målte!*
 
 ## Sjekkliste {.check}
 
@@ -98,20 +97,14 @@ Det er to ulike måtar me kan teste micro:bit-program på:
   ![Viser skriptet som no brukar variabelen temperatur](temperaturskript_2.png)
 
 Viss du testar prosjektet ditt no skal det oppføre seg likt som før! Men denne
-endringa gir oss nye moglegheiter! Sidan me no veit resultatet av 
-temperaturmålingen kan me til dømes vise ein sol kvar gang me måler over 20 °C, ein paraply kvar gang me måler under 20 °C:
-
-
-
-
-- [ ] Vi vil sjekke om temperaturen ble større enn 20 °C. Det betyr at vi må legge en 
- `hvis - ellers`-kloss etter løkken vi laget
-  tidligere. Programmet ditt vil tilslutt se ut omtrent som dette:
-
+endringa gir oss nye moglegheiter! Sidan me no veit resultatet av
+temperaturmålingen kan me til dømes vise ein sol kvar gang me måler over 20 °C,
+ein paraply kvar gang me måler under 20 °C.
 
 - [ ] Med klossen `vis bilde` som du finn i `Basis`-kategorien kan me sjølv
-  bestemme biletet som visast på skjermen til micro:biten. Prøv å teikne ei
-  sol og ein paraply på kvar si bilde-kloss (eller andre bilete du heller vil bruke).
+  bestemme biletet som visast på skjermen til micro:biten. Prøv å teikne ei sol
+  og ein paraply på kvar sin bilete-kloss (eller andre bilete du heller vil
+  bruke).
 
 - [ ] For å samanlikne to ting brukar me klossar frå `Logikk`-kategorien. Her
   vil me samanlikne resultatet av temperturmålingen med talet 20. Me kan seie at
@@ -121,26 +114,24 @@ temperaturmålingen kan me til dømes vise ein sol kvar gang me måler over 20 �
   `hvis temperatur > 20`.
 
 
-- [ ] Me vil sjekke om temperaturen er større enn 20 °C. Det vil seie at me må legge ein 
- `hvis - ellers`-kloss etter løkka me laga
-  tidlegare. Til slutt ser programmet ditt om lag ut som dette:
+- [ ] Me vil sjekke om temperaturen er større enn 20 °C. Det vil seie at me må
+  legge ein  `hvis - ellers`-kloss etter løkka me laga tidlegare. Til slutt ser
+  programmet ditt om lag ut som dette:
 
-    ![Bilete av skriptet for å vise sol og paraply bilete etter at temperaturen er målt](temperaturskript_3.png)
-
+  ![Bilete av skriptet for å vise sol- og paraply-bilete etter at temperaturen er målt](temperaturskript_3.png)
 
 
 # Steg 5: Meir avanserte termometer {.activity}
 
-*Kva kan me bruke temperaturmålingane våre til? Prøv sjølv viss du har nokre idear!*
+*Kva kan me bruke temperaturmålingane våre til? Prøv sjølv viss du har nokre
+ idear!*
 
 ## Fleire idear {.check}
 
-No har du lært korleis micro:biten kan kaste terning. Men det finst mange måtar
+No har du lært korleis micro:biten kan måle temperatur. Men det finst mange måtar
 du kan vidareutvikle det på. Under finn du nokre idear, men finn gjerne på noko
 heilt sjølv!
 
-- [ ] Kan ein vise måleeininga (°C) etter at temperaturen er vist? 
+- [ ] Kan ein vise måleeininga (°C) etter at temperaturen er vist?
 
-- [ ] Kan du rekna om til Farenheit T(°F) = T(°C) × 9/5 + 3? 
-
-
+- [ ] Kan du rekne om til Farenheit T(°F) = T(°C) × 9/5 + 32?

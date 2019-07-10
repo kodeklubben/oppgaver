@@ -7,7 +7,8 @@ language: nb
 
 # Introduksjon {.intro}
 
-Kan micro:biten vår brukes som et termometer? Ja, den har faktisk en temperatursensor!
+Kan micro:biten vår brukes som et termometer? Ja, den har faktisk en
+temperatursensor!
 
 ![Bilde av en microbit som viser bilde av et termometer](temperatur.jpg)
 
@@ -54,19 +55,21 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 # Steg 2: Mål temperaturen {.activity}
 
-*Vi vil vise temperaturen i rommet der du er. Hvordan gjør vi det på en micro:bit?*
+*Vi vil vise temperaturen i rommet der du er. Hvordan gjør vi det på en
+ micro:bit?*
 
 ## Sjekkliste {.check}
 
-- [ ] Micro:bit har en innebygd temperatursensor som gir temperaturen i <sup>o</sup>C. 
-  Den kan du få tak i ved å bruke klossen `Temperatur (°C)` i `Inndata`-kategorien.
+- [ ] Micro:bit har en innebygd temperatursensor som gir temperaturen i °C. Den
+  kan du få tak i ved å bruke klossen `Temperatur (°C)` i `Inndata`-kategorien.
 
-- [ ] Prøv selv å legge`Temperatur (°C)`-klossen inn i koden din, slik at
+- [ ] Prøv selv å legge `Temperatur (°C)`-klossen inn i koden din, slik at
   den målte temperaturen vises i stedet for __1__ som tidligere.
 
 - [ ] Bruk simulatoren eller last koden til micro:biten din for å teste som
   tidligere. Når du rister på micro:biten (eller klikker på `SHAKE`) skal
-  temperaturen måles på nytt. Hvilken temperatur vises? Hva er temperaturen i et annet rom eller ute ?
+  temperaturen måles på nytt. Hvilken temperatur vises? Hva er temperaturen i et
+  annet rom eller ute ?
 
 
 # Steg 3: Temperaturen huskes og vis værtegn {.activity}
@@ -93,24 +96,27 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 Om du tester prosjektet ditt nå skal det oppføre seg helt likt som før! Men
 denne endringen gir oss nye muligheter! Siden vi nå vet resultatet av
-temperaturmålingen kan vi for eksempel vise en sol hver gang vi måler over 20 °C, en paraply hver gang vi måler under 20 °C:
+temperaturmålingen kan vi for eksempel vise en sol hver gang vi måler over 20
+°C, en paraply hver gang vi måler under 20 °C.
 
 - [ ] Med klossen `vis bilde` som du finner i `Basis`-kategorien kan vi selv
-  bestemme bildet som vises på skjermen til micro:biten. Prøv selv å tegne en
-  en sol og en paraply på hver sin bilde-kloss (eller andre bilder du heller vil bruke).
+  bestemme bildet som vises på skjermen til micro:biten. Prøv selv å tegne en en
+  sol og en paraply på hver sin bilde-kloss (eller andre bilder du heller vil
+  bruke).
 
 - [ ] For å sammenligne to ting bruker vi klosser fra `Logikk`-kategorien. Her
-  vil vi sammenligne resultatet av temperaturmålingen med tallet 20. Vi kan si at
-  `hvis temperatur > 20` skal vi vise sol-bildet, ellers skal vi vise paraply-bildet.
+  vil vi sammenligne resultatet av temperaturmålingen med tallet 20. Vi kan si
+  at `hvis temperatur > 20` skal vi vise sol-bildet, ellers skal vi vise
+  paraply-bildet.
 
   Prøv å pusle sammen klosser fra `Logikk`- og `Variabler`-kategoriene som sier
   `hvis temperatur > 20`.
 
-- [ ] Vi vil sjekke om temperaturen ble større enn 20°C. Det betyr at vi må legge en 
- `hvis - ellers`-kloss etter løkken vi laget
-  tidligere. Programmet ditt vil tilslutt se ut omtrent som dette:
+- [ ] Vi vil sjekke om temperaturen ble større enn 20°C. Det betyr at vi må
+  legge en `hvis - ellers`-kloss etter løkken vi laget tidligere. Programmet
+  ditt vil til slutt se ut omtrent som dette:
 
-    ![Bilde av scriptet for å vise sol og paraply bilde etter at temperaturen er målt](temperaturskript_3.png)
+    ![Bilde av scriptet for å vise sol- og paraply-bilde etter at temperaturen er målt](temperaturskript_3.png)
 
 # Steg 4: Mer avansert termometer {.activity}
 
@@ -118,12 +124,10 @@ temperaturmålingen kan vi for eksempel vise en sol hver gang vi måler over 20 
 
 ## Flere ideer {.check}
 
-Du har nå lært hvordan micro:biten kan måle temperatur. Men det finnes mange måter
-dette kan utvikles videre på. Nedenfor er noen ideer, men finn gjerne på noe
-helt eget!
+Du har nå lært hvordan micro:biten kan måle temperatur. Men det finnes mange
+måter dette kan utvikles videre på. Nedenfor er noen ideer, men finn gjerne på
+noe helt eget!
 
-- [ ] Kan man vise måleenheten (°C) etter at temperaturen er vist? 
+- [ ] Kan man vise måleenheten (°C) etter at temperaturen er vist?
 
-- [ ] Kan du rekne om til Farenheit T(°F) = T(°C) × 9/5 + 3? 
-
-
+- [ ] Kan du regne om til Farenheit T(°F) = T(°C) × 9/5 + 32? 
