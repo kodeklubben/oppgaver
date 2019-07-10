@@ -10,7 +10,7 @@ language: nb
 Kan micro:biten vår brukes som et termometer? Ja, den har faktisk en
 temperatursensor!
 
-![Bilde av en microbit som viser bilde av et termometer](temperatur.jpg)
+![Bilde av en microbit som viser bilde av et termometer](temperatur.png)
 
 
 # Steg 1: Vi rister løs {.activity}
@@ -20,12 +20,12 @@ temperatursensor!
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}.
 
 - [ ] Vi vil at noe skal skje når vi rister på micro:biten. Til dette kan vi
   bruke `når ristes`-klossen som finnes i kategorien `Inndata`.
 
-- [ ] Aller først vil vi bare se at vi får til å vise tallet __1__. For å vise
+- [ ] Aller først vil vi bare se at vi får til å vise tallet `1`. For å vise
   tall bruker vi `vis tall`-klossen i `Basis`-kategorien.
 
 - [ ] Sett sammen disse to klossene slik at skriptet ditt ser slik ut:
@@ -41,7 +41,7 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
   Siden vår kode skal reagere når man rister på micro:biten kan du simulere
   dette ved å klikke på den hvite prikken til venstre for teksten `SHAKE` på
-  micro:bit-simulatoren. Tallet __1__ skal vises på skjermen til
+  micro:bit-simulatoren. Tallet `1` skal vises på skjermen til
   micro:bit-simulatoren.
 
 - [ ] Enda morsommere er det å teste programmet på micro:biten din! Koble
@@ -60,11 +60,13 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 ## Sjekkliste {.check}
 
-- [ ] Micro:bit har en innebygd temperatursensor som gir temperaturen i °C. Den
-  kan du få tak i ved å bruke klossen `Temperatur (°C)` i `Inndata`-kategorien.
+- [ ] Micro:bit har en innebygd temperatursensor som gir temperaturen i °C.
+  Dette betyr grader målt i Celcius, og er den enheten vi vanligvis bruker når
+  vi snakker om temperatur i Norge. Den kan du få tak i ved å bruke klossen
+  `Temperatur (°C)` i `Inndata`-kategorien.
 
 - [ ] Prøv selv å legge `Temperatur (°C)`-klossen inn i koden din, slik at
-  den målte temperaturen vises i stedet for __1__ som tidligere.
+  den målte temperaturen vises i stedet for `1` som tidligere.
 
 - [ ] Bruk simulatoren eller last koden til micro:biten din for å teste som
   tidligere. Når du rister på micro:biten (eller klikker på `SHAKE`) skal
@@ -96,8 +98,8 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 Om du tester prosjektet ditt nå skal det oppføre seg helt likt som før! Men
 denne endringen gir oss nye muligheter! Siden vi nå vet resultatet av
-temperaturmålingen kan vi for eksempel vise en sol hver gang vi måler over 20
-°C, en paraply hver gang vi måler under 20 °C.
+temperaturmålingen kan vi for eksempel vise en sol hver gang vi måler over `20
+°C`, en paraply hver gang vi måler under `20 °C`.
 
 - [ ] Med klossen `vis bilde` som du finner i `Basis`-kategorien kan vi selv
   bestemme bildet som vises på skjermen til micro:biten. Prøv selv å tegne en en
@@ -112,11 +114,12 @@ temperaturmålingen kan vi for eksempel vise en sol hver gang vi måler over 20
   Prøv å pusle sammen klosser fra `Logikk`- og `Variabler`-kategoriene som sier
   `hvis temperatur > 20`.
 
-- [ ] Vi vil sjekke om temperaturen ble større enn 20°C. Det betyr at vi må
+- [ ] Vi vil sjekke om temperaturen ble større enn `20 °C`. Det betyr at vi må
   legge en `hvis - ellers`-kloss etter løkken vi laget tidligere. Programmet
   ditt vil til slutt se ut omtrent som dette:
 
     ![Bilde av scriptet for å vise sol- og paraply-bilde etter at temperaturen er målt](temperaturskript_3.png)
+
 
 # Steg 4: Mer avansert termometer {.activity}
 
@@ -130,4 +133,5 @@ noe helt eget!
 
 - [ ] Kan man vise måleenheten (°C) etter at temperaturen er vist?
 
-- [ ] Kan du regne om til Farenheit T(°F) = T(°C) × 9/5 + 32? 
+- [ ] En annen temperaturenhet er Fahreinheit, den brukes for eksempel i USA.
+  Kan du regne om til Farenheit med formelen `T(°F) = T(°C) × 9/5 + 32`?
