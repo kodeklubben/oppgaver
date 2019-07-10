@@ -14,7 +14,7 @@ Den virtuelle bomben er en tall-variabel som telles ned til `0`, og vi skal send
 Den som har den virtuelle bomben når den blir `0` taper. Vi kan sende tall ved hjelp av radioblokkene. De bruker antennen på micro:bit for å sende data som
 radiosignaler, akkurat som telefoner eller dingser rundt deg.
 
-![Bilde av en microbit som viser en bombe](bombe.PNG)
+![Bilde av en microbit som viser en bombe](bombe.png)
 
 
 
