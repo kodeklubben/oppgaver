@@ -9,9 +9,9 @@ language: nn
 # Introduksjon {.intro}
 
 I oppgåva [Introduksjon til
-Web](../introduksjon_til_web/introduksjon_til_web_nn.html) kan du lære om
-*HTML*-taggar, og i denne oppgåva skal du bruke dei i den fyrste heimesida di!
-La oss starte med ein gong!
+Web](https://oppgaver.kidsakoder.no/web/introduksjon_til_web/introduksjon_til_web) 
+kan du lære om *HTML*-taggar, og i denne oppgåva skal du bruke dei i den 
+fyrste heimesida di! La oss starte med ein gong!
 
 
 # Steg 1: Åpne sida som heiter "Om meg" {.activity}

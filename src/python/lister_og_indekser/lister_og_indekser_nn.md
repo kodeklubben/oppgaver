@@ -10,7 +10,7 @@ language: nn
 
 Denne oppgåva handlar om *lister*, altså å samle fleire ting i ein og same
 variabel. Sidan lister og løkker heng tett saman i Python bør du sjå på [løkker
-i repetisjonsoppgåva](../repetisjon/repetisjon_nn.html#løkker) viss du har
+i repetisjonsoppgåva](https://oppgaver.kidsakoder.no/python/repetisjon/repetisjon_nn) viss du har
 gløymt korleis løkker fungerer.
 
 

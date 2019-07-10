@@ -9,9 +9,9 @@ language: nb
 # Introduksjon {.intro}
 
 I oppgaven [Introduksjon til
-Web](../introduksjon_til_web/introduksjon_til_web.html) kan du lære om
-*HTML*-tagger, og i denne oppgaven skal du bruke HTML-taggene i din første
-hjemmeside. La oss begynne med en gang!
+Web](https://oppgaver.kidsakoder.no/web/introduksjon_til_web/introduksjon_til_web) 
+kan du lære om *HTML*-tagger, og i denne oppgaven skal du bruke HTML-taggene 
+i din første hjemmeside. La oss begynne med en gang!
 
 
 # Steg 1: Åpne siden som heter om meg {.activity}
