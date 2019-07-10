@@ -30,7 +30,7 @@ temperatursensor!
 
 - [ ] Set saman desse to klossane slik at skriptet ditt ser slik ut:
 
-    ![Bilete av "ristes"- og "vis tal"-klossane](risteskript_1.png)
+    ![Bilete av "ristes"- og "vis tal"-klossane](temperaturskript_1.png)
 
 ## Test prosjektet {.flag}
 
