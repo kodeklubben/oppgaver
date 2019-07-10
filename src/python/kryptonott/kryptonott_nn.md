@@ -10,7 +10,9 @@ language: nn
 
 Kryptering har vore i bruk i kommunikasjon lenge. Faktisk brukte dei det for
 nesten 4000 år sidan! I tillegg er det artig å sende hemmelege meldingar. Før du
-startar på denne oppgåva anbefalar me at du har gjort [Hemmelege koder] fyrst.
+startar på denne oppgåva anbefalar me at du har gjort 
+[Hemmelege koder](https://oppgaver.kidsakoder.no/python/hemmelige_koder/hemmelige_koder) 
+fyrst.
 
 Denne oppgåva er ei nøtt. Det vil seie at du skal finne ut av det meste sjølv.
 Står du heilt fast må du spørje nokon om hjelp.

@@ -8,9 +8,9 @@ language: nn
 
 # Introduksjon {.intro}
 
-I [Kuprat](../kuprat/kuprat_nn.html) lærte me at me kan bruke `input()` for å få
-tekst frå brukaren og `print()` for å skrive ut tekst til brukaren. Det kan til
-dømes gjerast slik:
+I [Kuprat](https://oppgaver.kidsakoder.no/python/kuprat/kuprat_nn) lærte me 
+at me kan bruke `input()` for å få tekst frå brukaren og `print()` for å 
+skrive ut tekst til brukaren. Det kan til dømes gjerast slik:
 
 ```python
 namn = input("Kva heiter du? ")

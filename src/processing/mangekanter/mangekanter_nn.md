@@ -10,10 +10,11 @@ language: nn
 
 Her skal me sjå på litt meir avansert oppteikning og rørsle. Me skal ta
 utgangspunkt i oppgåva om [den sprettande
-ballen](../sprettende_ball/sprettende_ball_nn.html), men bytte ut ballen med
-trekantar, firkantar og mangekantar. Difor anbefalar me at du har gjort den
-oppgåva fyrst, eller i det minste at du kjenner til `if`-setningar og
-koordinatsystemet. Du skal altså lære å teikne former med kantar, mange kantar.
+ballen](https://oppgaver.kidsakoder.no/processing/sprettende_ball/sprettende_ball_nn), 
+men bytte ut ballen med trekantar, firkantar og mangekantar. Difor 
+anbefalar me at du har gjort den oppgåva fyrst, eller i det minste at du 
+kjenner til `if`-setningar og koordinatsystemet. Du skal altså lære å teikne 
+former med kantar, mange kantar.
 
 
 # Steg 1: Enkle firkantar {.activity}
