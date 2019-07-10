@@ -1,5 +1,5 @@
-level: 2
+level: 1
 tags:
-  topic: [block_based, electronics, game]
-  subject: [programming]
+  topic: [electronics, block_based, sound]
+  subject: [music, programming]
   grade: [secondary, junior, senior]
