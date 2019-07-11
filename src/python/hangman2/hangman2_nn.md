@@ -9,7 +9,7 @@ language: nn
 # Introduksjon {.intro}
 
 I denne oppgåva skal me lage vårt eige Hangman-spel. Me har laga litt kode
-allereie for å hjelpe deg på veg. Den kan du [laste ned her](./hangman.py).
+allereie for å hjelpe deg på veg. Den kan du [laste ned her](https://oppgaver.kidsakoder.no/python/hangman2/hangman.py).
 Lagre den der du brukar å lagre Python-koden din.
 
 Det kan sjå ut som mykje kode, men det er berre den øvste delen du skal endre
