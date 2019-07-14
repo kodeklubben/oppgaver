@@ -27,7 +27,7 @@ _Me startar med å vise eit tal når me ristar på micro:bit-en._
 ## Sjekkliste {.check}
 
 - [ ] Start eit nytt PXT-prosjekt, til dømes ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}._
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}.
 
 Kva tyder det å ha eit tal som representerer ei bombe? Me kan lage ei
 bombe-klokke som er eit tal som vert sendt mellom micro:bit-ane ved hjelp av
