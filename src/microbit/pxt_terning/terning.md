@@ -1,6 +1,6 @@
 ---
 title: "PXT: Terning"
-author: Geir Arne Hjelle
+author: Geir Arne Hjelle, Julie Revdahl
 language: nb
 ---
 
@@ -61,7 +61,7 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 - [ ] Før vi kaster en vanlig terning vet vi ikke hva resultatet kommer til å
   bli. Vi vet at det vil bli enten 1, 2, 3, 4, 5 eller 6, men ikke hvilket av
   disse tallene terningen lander på. Et slikt resultat kaller vi et __tilfeldig
-  tall__. Tilfeldige tall kan vi lage på micro:biten med klossen `tilfeldig tall
+  tall__. Tilfeldige tall kan vi lage på micro:biten med klossen `velg tilfeldig
   0 til 4` i `Matematikk`-kategorien.
 
 - [ ] Prøv selv å legg denne `tilfeldig tall`-klossen inn i koden din, slik at
@@ -72,13 +72,13 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
   lages nye tilfeldige tall. Rist flere ganger. Forandrer tallet seg?
 
 - [ ] En vanlig terning viser tallene 1, 2, 3, 4, 5 og 6. Om du brukte
-  `tilfeldig tall 0 til 4`-klossen velger micro:biten mellom tallene 0, 1, 2, 3
+  `velg tilfeldig 0 til 4`-klossen velger micro:biten mellom tallene 0, 1, 2, 3
   og 4. Hvordan kan vi få micro:biten til å også velge mellom tallene 1 til 6?
 
 Vi gir deg ikke hele svaret, du må prøve litt på egen hånd! Men nedenfor er to
 tips om du står fast!
 
-- [ ] Du kan endre på __4__-tallet i `tilfeldig tall 0 til 4`-klossen. Hva skjer
+- [ ] Du kan endre på __4__-tallet i `velg tilfeldig 0 til 4`-klossen. Hva skjer
   da?
 
 - [ ] Du kan ikke endre på __0__ i `tilfeldig tall`-klossen. I stedet kan du
@@ -133,19 +133,19 @@ Om du tester prosjektet ditt nå skal det oppføre seg helt likt som før! Men
 denne endringen gir oss nye muligheter! Siden vi nå vet resultatet av
 terningkastet kan vi for eksempel vise et smilefjes hver gang vi kaster en 6'er:
 
-- [ ] Med klossen `vis bilde` som du finner i `Basis`-kategorien kan vi selv
-  bestemme bildet som vises på skjermen til micro:biten. Prøv selv å tegne et
+- [ ] Med klossen `vis ikon` eller `show leds` fra `Basis`-kategorien kan vi selv
+  velge et bildet eller lage et bildet som skal vises på skjermen til micro:biten. Prøv for eksempel å tegne et
   smilefjes (eller et annet bilde du heller vil bruke).
 
 - [ ] For å sammenligne to ting bruker vi klosser fra `Logikk`-kategorien. Her
   vil vi sammenligne resultatet av terningkastet med tallet 6. Vi kan si at
   `hvis terning = 6` skal vi vise bildet smilefjes.
 
-  Prøv å pusle sammen klosser fra `Logikk`- og `Variabler`-kategoriene som sier
+  Prøv å sette sammen klosser fra `Logikk`- og `Variabler`-kategoriene som sier
   `hvis terning = 6`.
 
 - [ ] Vi vil sjekke om resultatet av terningkastet var 6 etter at terningen har
-  rullet ferdig. Det betyr at vi må legge `hvis`-klossene etter løkken vi laget
+  rullet ferdig. Det betyr at vi må legge `hvis`-klossen etter løkken vi laget
   tidligere. Programmet ditt vil tilslutt se ut omtrent som dette:
 
     ![Bilde av scriptet for å smile dersom terningen viser 6](risteskript_4.png)
