@@ -1,6 +1,6 @@
 ---
 title: "PXT: Gangespill"
-author: Espen Clausen og Tjerand Silde
+author: Espen Clausen, Tjerand Silde, Julie Revdahl
 language: nb
 ---
 
@@ -39,9 +39,9 @@ en få opp et smilefjes, hvis ikke kommer et surt fjes.
   ![Bilde av koden for å sette faktor1 og faktor 2 tilfeldig](tilfeldig_tall.png)
 
 - [ ] Deretter må vi sette sammen faktorene til gangestykket som skal vises på
-  skjermen. Vi bruker her `join` funksjonen som finnes under tekst, og som kan
-  tilpasses til så mange elementer en ønsker. Man må klikke på `tannhjulet` for
-  å utvide blokken.
+  skjermen. Vi bruker her `sett sammen`-klossen som finnes under *Avansert -> Tekst*, og som kan
+  tilpasses til så mange elementer en ønsker. Man må klikke på `plusstegnet` for
+  å utvide klossen.
 
   ![Bilde av koden for å vise faktor1xfactor2=](vis_tekst.png)
 
