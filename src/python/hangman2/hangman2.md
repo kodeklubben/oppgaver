@@ -132,7 +132,7 @@ være lurt å gå tilbake og lese igjennom alle de gule boksene i oppgaven.
 Du skal nå skrive kode i funksjonen. Dette må du gjøre:
 
 - [ ] For å konvertere `secret_word` til ei liste må du bruke funksjonen
-  `list()`. Du kan gi en streng som argument til `list()`, også returneres en
+  `list()`. Du kan gi en tekst som argument til `list()`, også returneres en
   liste av bokstaver.
 
   ```python
@@ -140,7 +140,7 @@ Du skal nå skrive kode i funksjonen. Dette må du gjøre:
   ['o', 'r', 'd']
   ```
 
-- [ ] Slå sammen bokstavene til en streng igjen, med ett mellomrom mellom hver
+- [ ] Slå sammen bokstavene til en tekst igjen, med ett mellomrom mellom hver
   bokstav.
 
   **Hint:** `s.join(lst)`
@@ -186,7 +186,7 @@ Dette må du gjøre:
 
   * Nøkkel: `"used_tries"` Verdi: `0`
 
-  * Nøkkel: `"pressed_button"` Verdi: `""` (En tom streng)
+  * Nøkkel: `"pressed_button"` Verdi: `""` (En tom tekstvariabel)
 
   * Nøkkel: `"help_text"` Verdi: `"Guess a letter!"`
 

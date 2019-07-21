@@ -25,8 +25,8 @@ lage nesten lik kode sjølv.
 ## Python 2 {.protip}
 
 Denne koden fungerer best med Python 3. Viss du har Python 2 må du leggje ein
-`u` framfor alle strengar, altså må strengen `'asdf'` skrivast slik som dette:
-`u'asdf'`.
+`u` framfor alle tekstvariablar, altså må teksten `'asdf'` skrivast slik som
+dette: `u'asdf'`.
 
 ## Lag kommentarar med forklaring {.check}
 
@@ -99,15 +99,15 @@ skal sjå nesten lik ut som den over.
 
 - [ ] Og returnere den dekrypterte teksten.
 
-- [ ] Test at funksjonen fungerer og prøv med dine eigne strengar og
+- [ ] Test at funksjonen fungerer og prøv med dine eigne tekstar og
   krypteringsnøklar.
 
 - [ ] Kanskje du kan dele nøkkelen og sende den krypterte teksten til ein ven?
 
 ## Cracking {.check}
 
-- [ ] No skal du prøve å knekke ein koda streng. Det er vanskeleg, så du må
-  leggje ei plan fyrst. Strengen er:
+- [ ] No skal du prøve å knekke ein koda tekst. Det er vanskeleg, så du må
+  leggje ei plan fyrst. Teksten er:
 
 ```
 q0Ø:;AI"E47FRBQNBG4WNB8B4LQN8ERKC88U8GEN?T6LaNBG4GØ""N6K086HB"Ø8CRHW"+LS79Ø""N29QCLN5WNEBS8GENBG4FØ47a
@@ -119,7 +119,7 @@ q0Ø:;AI"E47FRBQNBG4WNB8B4LQN8ERKC88U8GEN?T6LaNBG4GØ""N6K086HB"Ø8CRHW"+LS79Ø"
 
 - Språket i setninga er engelsk.
 
-- Finn ein metode å sjekke om den dekrypterte strengen er korrekt. Til dømes kan
+- Finn ein metode å sjekke om den dekrypterte teksten er korrekt. Til dømes kan
   du tenke på kor mange mellomrom den burde innehalde.
 
 - For å generere moglege nøklar kan du bruke `itertools.product()`. Prøv til
@@ -135,7 +135,7 @@ Internett. Søk til dømes på *large English vocabulary word lists*.
 
 - [ ] Desse filene inneheldt alle ord som står i ei engelsk ordbok, separert med
   linjeskift. Finn ut korleis du kan laste inn orda frå fila (pass på at du
-  fjernar linjeskifta) og bruk dei til å dekryptere ein ny streng:
+  fjernar linjeskifta) og bruk dei til å dekryptere ein ny tekst:
 
 ```
 t-JO:BK0aM,:CQ+ÆAGW?FJGB0KVCGMQ6SQN"GAIDL-PÅ7954E:7Jr,IÆoCF0M"CQdØVlHD53CÅ;IA2DMG5ØHDØVåL:JQØ439LRBBVEMTBÆ6CF0M"CQNAG8G1V6LÅ8FF4Z

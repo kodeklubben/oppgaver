@@ -28,8 +28,8 @@ flere slike funksjoner. Gitt at vi har tekst i en variabel kalt `s`, så kan vi
 bruke disse funksjonene: `s.lower()`, `s.upper()`, `s.title()`, `s.swapcase()`
 og `s.capitalize()`.
 
-Legg merke til at funksjonen kalles **på** tekstvariabelen - `s.lower()` - istedenfor å
-**gi** tekstvariabelen til funksjonen - `lower(s)`.
+Legg merke til at funksjonen kalles **på** tekstvariabelen - `s.lower()` - i
+stedet for å **gi** tekstvariabelen til funksjonen - `lower(s)`.
 
 Her er noen eksempler på hvordan funksjonene brukes (legg merke til hvilke
 bokstaver som er store og små i utskriften):
@@ -139,8 +139,9 @@ Dette må du gjøre:
 
 # {.protip}
 
-Ved hjelp av `s.count()` kan vi finne ut om en tekst inneholder en bestemt
-tekst og hvor mange ganger den finnes i teksten. For eksempel så inneholder `"Hei verden!"` teksten `"verden"` en gang.
+Ved hjelp av `s.count()` kan vi finne ut om en tekst inneholder et bestemt ord
+eller tegn og hvor mange ganger det finnes i teksten. For eksempel så inneholder
+`"Hei verden!"` ordet `"verden"` én gang.
 
 Tenk deg at du ønsker å finne ut hvor mange kommaer som er i `"A, B, C, D, E, F,
 G, H, I, J, K, L"`. Det er enkelt å telle for hånd, men ikke like gøy som å la

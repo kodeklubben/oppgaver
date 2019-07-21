@@ -133,9 +133,9 @@ Dette må du gjere:
 
 # Teljing av tekst {.activity}
 
-Ved hjelp av `s.count()` kan me finne ut om ein tekst inneheldt ein bestemt
-tekst og kor mange gonger den finst i teksten. Til dømes inneheldt
-`"Hei verd!"` teksten `"verd"` ein gong.
+Ved hjelp av `s.count()` kan me finne ut om ein tekst inneheldt eit bestemt ord
+eller teikn og kor mange gonger det finst i teksten. Til dømes inneheldt `"Hei
+verda!"` ordet `"verda"` ein gong.
 
 Tenk deg at du ynskjer å finne ut kor mange komma som er i `"A, B, C, D, E, F,
 G, H, I, J, K, L"`. Det er enkelt å telje for hand, men ikkje like moro som å la
@@ -186,8 +186,8 @@ Dette må du gjere:
 
 # Erstatte tekst {.activity}
 
-Me kan bruke `s.replace()` for å byte ut tekst i ein tekstvariabel med ein annan tekst.
-Kva om me vil byte ut alle komma med semikolon?
+Me kan bruke `s.replace()` for å byte ut tekst i ein tekstvariabel med ein
+annan. Kva om me vil byte ut alle komma med semikolon?
 
 ```python
 >>> s = "A, B, C, D, E, F, G, H, I, J, K, L"

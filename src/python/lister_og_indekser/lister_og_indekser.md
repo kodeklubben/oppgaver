@@ -207,7 +207,7 @@ Dette må du gjøre:
 - [ ] Avbryt utskriften når antallet er lik det brukeren ba om.
 
 
-# Tester og indekser {.activity}
+# Tekster og indekser {.activity}
 
 
 # {.protip}
