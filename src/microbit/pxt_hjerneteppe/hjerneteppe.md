@@ -43,8 +43,7 @@ Forslag til tre ulike teksstrenger er: ABCCBABA, ACCBACBC og CBACCBAB
 
 ## OBS! {.tip}
 Hvis du endrer antall oppgaver i listen, må du også endre makstallet for det
-tilfeldige tallet du plukker. Makstallet skal være "antall oppgaver - 1".
-##
+tilfeldige tallet du plukker. Makstallet skal være `antall oppgaver - 1`.
 
 
 # Steg 2: Vis fasit {.activity}
@@ -142,6 +141,7 @@ skal se slik ut: ![Bilde som viser ja ikonet](check.png)
   spilleren har klart alle nivåene i oppgaven. Du kan selv velge hvilket bilde
   du vil bruke.
 
+
 # Steg 4: Knapper {.activity}
 
 *Nå skal vi lage knappene som spilleren skal bruke når den gjetter på bokstavene!*
@@ -175,7 +175,8 @@ trenge litt ekstra utstyr:*
 
 *- 2 krokodilleklemmer*
 
-- [ ] Bytt ut ![Bilde som viser tegn fra tekst posisjon variabel](tegn_fra_fullfort.png) i `Vis fasit`-funksjonen med det under:
+- [ ] Bytt ut ![Bilde som viser tegn fra tekst posisjon variabel](tegn_fra_fullfort.png)
+  i `Vis fasit`-funksjonen med det under:
 
 	![Bilde av kode som skal byttes til for å få lyd](hvis_ellers.png)
 
