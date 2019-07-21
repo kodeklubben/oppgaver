@@ -9,7 +9,7 @@ language: nb
 
 Denne oppgaven handler om *lister*, altså å samle flere ting i en og samme
 variabel. Ettersom lister og løkker henger tett sammen i Python, bør du se på
-[løkker i repetisjonsoppgaven](../repetisjon/repetisjon.html#løkker) dersom du
+[løkker i repetisjonsoppgaven](https://oppgaver.kidsakoder.no/python/repetisjon/repetisjon) dersom du
 har glemt hvordan løkker fungerer.
 
 

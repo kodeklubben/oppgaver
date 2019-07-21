@@ -7,11 +7,11 @@ language: nb
 # Introduksjon {.intro}
 
 Du har tidligere jobbet med Cæsar-chifferet, en oppgave der du skulle lage
-[enkel kryptering](../hemmelige_koder/hemmelige_koder.html). Men, den typen
-kryptering ("symmetrisk kryptografi") har et iboende problem: Før man kan
-kryptere og sende en melding, må man være enig om hvilken nøkkel man skal bruke.
-Med andre ord, for å kunne snakke sammen hemmelig, må man først bli enig om en
-hemmelighet -- og da er man jo like langt?
+[enkel kryptering](https://oppgaver.kidsakoder.no/python/hemmelige_koder/hemmelige_koder). 
+Men, den typen kryptering ("symmetrisk kryptografi") har et iboende problem: 
+Før man kan kryptere og sende en melding, må man være enig om hvilken nøkkel 
+man skal bruke. Med andre ord, for å kunne snakke sammen hemmelig, må man 
+først bli enig om en hemmelighet -- og da er man jo like langt?
 
 En løsning på dette problemet er Diffie-Hellman nøkkelutveksling. Ideen kom fra
 Whitfield Diffie og Martin Hellman i 1976, og er fortsatt i bruk i dag. I denne
@@ -158,11 +158,14 @@ primtall til å gjøre dette litt bedre.
 
 - [ ] Finn fram koden din fra [Primtall og
   effektivitet](../primtall/primtall.html), og legg den til å fila vi jobber
-  med. Den skal nå se slik ut ```python from math import sqrt, ceil from secrets
+  med. Den skal nå se slik ut 
+  
+  ```python 
+  from math import sqrt, ceil from secrets
   import randbelow
 
   def is_prime(n):
-      if not (isinstance(n, (int, long)) and n > 1):
+      if not (isinstance(n, int) and n > 1):
           return False
       small_primes = [2, 3, 5, 7, 11, 13, 17, 19]
       if n in small_primes:
