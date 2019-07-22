@@ -9,8 +9,8 @@ language: nn
 # Introduksjon {.intro}
 
 I denne oppgåva tek me utgangspunkt i animasjonen me laga i oppgåva
-[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon_nn.html) . Viss
-du ikkje har gjort den oppgåva anbefalar me at du gjer den før du fortset her.
+[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon_nn) .
+Viss du ikkje har gjort den oppgåva anbefalar me at du gjer den før du fortset her.
 
 Denne oppgåva går ut på å leggje til gravitasjon på `partikkel`-objektet. Du får
 presentert kva du skal gjere, men du må sjølv finne ut korleis du skriv kode for

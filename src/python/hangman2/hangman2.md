@@ -9,7 +9,8 @@ language: nb
 
 I denne oppgaven skal vi lage vårt eget hangman-spill. Vi har laget litt
 ferdigskrevet kode for å hjelpe deg på vei. Den kan du [laste ned
-her](./hangman.py). Lagre den der du pleier å lagre Python-koden din.
+her](https://oppgaver.kidsakoder.no/python/hangman2/hangman.py). 
+Lagre den der du pleier å lagre Python-koden din.
 
 Det kan se ut som mye kode, men det bare den øverste delen du skal endre på. Et
 lite stykke ned vil det være en overskrift som ser slik ut:

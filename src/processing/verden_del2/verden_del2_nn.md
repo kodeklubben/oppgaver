@@ -8,8 +8,9 @@ language: nn
 
 # introduksjon {.intro}
 
-Denne oppgåva byggjer på oppgåva [Verda](../verden_del1/verden_del1_nn.html). I
-denne oppgåva skal me fortsetje med verdsspelet! No skal me kome så langt på
+Denne oppgåva byggjer på oppgåva 
+[Verda](https://oppgaver.kidsakoder.no/processing/verden_del1/verden_del1_nn). 
+I denne oppgåva skal me fortsetje med verdsspelet! No skal me kome så langt på
 spelet at namnet på ein verdsdel skal dukke opp i vindauget, og så er målet å
 trykkje på den riktige verdsdelen.
 
