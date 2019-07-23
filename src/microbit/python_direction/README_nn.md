@@ -11,7 +11,7 @@ I denne oppgåva skal elevane lage eit kompass av ein micro:bit.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Naturfag, programmering, IT, samfunnsfag, teknologi (valfag)
+__Fag__: Naturfag, programmering, IT, samfunnsfag, teknologi i praksis.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
