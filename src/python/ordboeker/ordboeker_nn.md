@@ -60,7 +60,7 @@ Du kan opprette ei tom ordbok slik:
 ```
 
 **Merk:** Det er berre tekst og tal som kan brukast som nøklar, men verdiane kan
-vere kva som helst: strengar, tal, lister, ordbøker, funksjonar, osb.
+vere kva som helst: tekstar, tal, lister, ordbøker, funksjonar, osb.
 
 
 # Prøv sjølv {.check}
@@ -149,7 +149,7 @@ Dette må du gjere:
 
 - [ ] Ta imot input for gjenstand.
 
-- [ ] Så lenge gjenstanden ikkje er ein tom streng `""`:
+- [ ] Så lenge gjenstanden ikkje er ein tom tekst `""`:
 
   - Be om antal.
 
