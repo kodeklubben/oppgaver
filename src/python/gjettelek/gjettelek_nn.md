@@ -58,9 +58,9 @@ Kva gjer desse funksjonskalla?
 
 ## int() {.protip}
 
-Når ein får input frå spelaren får ein ein *tekststreng*, sjølv om brukaren
-skreiv inn eit tal. Då kan det vere greitt å kunne konvertere teksten til eit
-tal, ved hjelp av `int()`.
+Når ein får input frå spelaren får me ein tekst, som på fagspråket kallast ein
+*streng*, sjølv om brukaren skreiv inn eit tal. Då kan det vere greitt å kunne
+konvertere teksten til eit tal, ved hjelp av `int()`.
 
 Kva er skilnaden på desse kodesnuttane? Køyr koden og test sjølv!
 
