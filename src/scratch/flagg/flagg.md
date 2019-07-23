@@ -41,10 +41,10 @@ La oss se hvordan vi kan bruke dette til å tegne sirkler!
   ```blocks
   når grønt flagg klikkes
   begrens rotasjon [ikke roter v]
-  for alltid
+  gjenta for alltid
       sett x til ((100) * ([cos v] av (retning)))
       sett y til ((100) * ([sin v] av (retning)))
-      vend venstre (5) grader
+      snu @turnLeft (5) grader
   slutt
   ```
 
@@ -61,12 +61,12 @@ __Klikk på det grønne flagget.__
 - [ ] Hva skjer om du bruker forskjellige tall de to stedene i stedet for `100`?
 
 - [ ] Hvordan forandrer bevegelsen til katten seg om du forandrer tallet `5` i
-  `vend venstre (5) grader`{.b}? Prøv gjerne med negative tall også!
+  `snu @turnLeft (5) grader`{.b}? Prøv gjerne med negative tall også!
 
 ## Retning på sirkelbevegelsen {.tip}
 
 Du legger kanskje merke til at katten flytter seg i motsatt retning av hvordan
-pilen i `vend venstre (5) grader`{.b} klossen peker? Dette er fordi Scratch
+pilen i `snu @turnLeft (5) grader`{.b} klossen peker? Dette er fordi Scratch
 måler vinkler i motsatt retning av hva som er vanlig i matematikken (og som vi
 har tegnet over).
 
@@ -91,10 +91,10 @@ flytte den!
   begrens rotasjon [ikke roter v]
   sett [sentrumX v] til [-100]
   sett [sentrumY v] til [50]
-  for alltid
+  gjenta for alltid
       sett x til ((sentrumX) + ((100) * ([cos v] av (retning)))
       sett y til ((sentrumY) + ((100) * ([sin v] av (retning)))
-      vend venstre (5) grader
+      snu @turnLeft (5) grader
   slutt
   ```
 
@@ -140,10 +140,10 @@ Nå skal vi prøve å få mange figurer til å gå i sirkel samtidig.
   slutt
 
   når jeg starter som klon
-  for alltid
+  gjenta for alltid
       sett x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
       sett y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
-      vend venstre (5) grader
+      snu @turnLeft (5) grader
   slutt
   ```
 
@@ -192,10 +192,10 @@ på et flagrende flagg.
 
   ```blocks
   når jeg mottar [flagre v]
-  for alltid
+  gjenta for alltid
       sett x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
       sett y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
-      vend venstre (5) grader
+      snu @turnLeft (5) grader
   slutt
   ```
 
@@ -203,7 +203,7 @@ på et flagrende flagg.
   som beveger seg i sirkel. Men nå kommer det morsomme: Vi kan la de røde
   diskene bevege seg litt i utakt!
 
-  Legg til klossen `vend høyre (1) grader`{.b} etter `lag klon av [meg
+  Legg til klossen `snu @turnRight (1) grader`{.b} etter `lag klon av [meg
   v]`{.b}-klossen, og prøv programmet ditt igjen. Hva har skjedd?
 
 
@@ -244,7 +244,7 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
   bytt drakt til (bokstav (nummer) i (flagg))
   ```
 
-  øverst i `for alltid`{.blockcontrol}-løkken i `flagre`-skriptet.
+  øverst i `gjenta for alltid`{.blockcontrol}-løkken i `flagre`-skriptet.
 
 - [ ] Kjør programmet ditt. Den venstre delen av flagget ditt skal nå ha fått
   fargene til det norske flagget. For å fargelegge hele flagget må vi gi mange
@@ -273,7 +273,7 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
   drakter. Pass på at hver drakt har en bokstav eller tall som navn.
 
 - [ ] Du kan også leke litt med de forskjellige tallene for en litt annerledes
-  animasjon. Prøv for eksempel med `vend høyre (25) grader`{.b} i klossen etter
+  animasjon. Prøv for eksempel med `snu @turnRight (25) grader`{.b} i klossen etter
   `lag klon av [meg v]`{.b}.
 
 - [ ] Du kan endre utseendet på flagget underveis. For eksempel om du bruker en
