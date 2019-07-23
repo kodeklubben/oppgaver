@@ -103,7 +103,7 @@ Nå må vi endre i skriptene våre slik at bruker
   `10`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [hastighet v] til [10]
   ```
 
@@ -205,7 +205,7 @@ farge.
   allerede har laget som setter `(hastighet)`{.b}-variabelen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [hastighet v] til [10]
   gjenta for alltid
       hvis <berører fargen [#cc0000]?>
@@ -284,7 +284,7 @@ litt enklere å lage skriptet på `Skatt`.
 - [ ] Pass på at figuren `Skatt` er markert, og skriv følgende kode:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta for alltid
       hvis <berører [Utforsker v]?>
           skjul
@@ -310,7 +310,7 @@ skatten en gang, forblir skatten borte.
   skriptet på `Skatt` ved å legge til `vis`{.b} helt i begynnelsen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   vis
   gjenta for alltid
       hvis <berører [Utforsker v]?>
@@ -339,7 +339,7 @@ spennende.
   forskjellige):
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [hastighet v] til [10]
   gå til x: (-200) y: (0)
   gjenta for alltid
@@ -380,7 +380,7 @@ Dette blir veldig likt hvordan `Skatt` merket at den ble funnet.
 - [ ] Legg til følgende kode:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta for alltid
       hvis <berører [Utforsker v]?>
           si [Tok deg!] i (1) sekunder
@@ -410,7 +410,7 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
   tallene for `x` og `y` med noe som passer for din labyrint.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   ```
@@ -426,7 +426,7 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
   måte som vi hindrer utforskeren i å gå gjennom veggen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   sett [hastighet v] til [5]
@@ -445,7 +445,7 @@ av og til endre retning.
 - [ ] Legg til kode som lar `Froskekonge` snu seg tilfeldig rundt i labyrinten:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   sett [hastighet v] til [5]
