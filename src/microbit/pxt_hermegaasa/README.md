@@ -30,7 +30,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __IT2, VG3:__ programmere med valg og gjentakelser
 
-- [ ] __Teknologi_i_praksis, 10. trinn:__ framstille produktet med eigna
+- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
   materiale, komponentar, og funksjonelle teknologiske løysingar
 
 ## Forslag til læringsmål {.challenge}

@@ -25,7 +25,7 @@ __Tidsbruk__: Dobbelttime
   programmering, slik som løkker, tester, variabler, funksjoner og enkel
   brukerinteraksjon
 
-- [ ] __Teknologi_i_praksis, 10. trinn:__ framstille produktet med eigna
+- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
   materiale, komponentar, og funksjonelle teknologiske løysingar
 
 ## Forslag til læringsmål {.challenge}
