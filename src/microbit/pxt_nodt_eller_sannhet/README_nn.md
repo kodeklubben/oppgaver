@@ -1,5 +1,5 @@
 ---
-title: "Lærarrettleiing - PXT: Nødt eller sanning"
+title: "Lærarrettleiing - PXT: Nødt eller sannheit"
 author: Stein Olav Romslo
 language: nn
 ---
