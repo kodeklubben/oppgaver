@@ -67,7 +67,7 @@ I staden for `sann` vil me at løkka skal køyre så lenge `liv` er større enn 
   midten av klossen og endre vegen teiknet står. Variabelen `liv` skal inn i
   staden for den fyrste `0`-en.
 
-![Bilete som viser korleis gjenta viss liv er større enn null-kloss](gjenta_viss.png)
+![Bilete som viser korleis gjenta viss liv er større enn null-kloss](gjenta_hvis.png)
 
 **All koden me skriv vidare i steg 2 og steg 3 skal inn i `gjenta viss liv >
  0`-klossen.**
@@ -163,7 +163,7 @@ visast ei stund før resten av koden køyrer.
   ein `viss sann`-kloss sidan koden i klossen vil køyre heilt til me vil starte
   spelet på nytt. Set inn koden nedanfor under `pause`-klossen.
 
-![Bilete som viser kva som skal vere inni gjenta viss sann-klossen](gjenta_viss_sann.png)
+![Bilete som viser kva som skal vere inni gjenta viss sann-klossen](gjenta_hvis_sann.png)
 
 ## {.tip}
 
@@ -225,7 +225,7 @@ andre er det som hindrar spelaren i å gå ut av brettet.
   å gå utanfor spelebrettet mot høgre.
 
 - [ ] Endre talet i `endre spelar med ...` slik at spelaren går mot høgre når
-- knapp B vert trykt (du trenger berre å ta bort ein minus (`-`)).
+  knapp B vert trykt (du treng berre å ta bort ein minus (`-`)).
 
 ## Test prosjektet {.flag}
 
