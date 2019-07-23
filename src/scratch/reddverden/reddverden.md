@@ -37,7 +37,7 @@ søppelet som vi skal kaste.
   `Data`{.blockdata}-kategorien og trykk på `Lag en Variabel`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [Mål v] til [0]
   sett [Poeng v] til [0]
   ```
@@ -72,7 +72,7 @@ søppelet som vi skal kaste.
   plasserer dem på nytt hver gang vi starter spillet.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (78) y: (5)
   ```
 
@@ -96,7 +96,7 @@ av det, så ber vi om hjelp fra søppel-figurene selv.
   sende meldingen `Forbered spill`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [Mål v] til [0]
   sett [Poeng v] til [0]
   send melding [Forbered spill v]
@@ -114,7 +114,7 @@ av det, så ber vi om hjelp fra søppel-figurene selv.
   litt. Når Ronny er ferdig med å prate, så kan vi starte spillet.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [Mål v] til [0]
   sett [Poeng v] til [0]
   send melding [Forbered spill v]
@@ -164,7 +164,7 @@ Nå som vi vet antall poeng vi skal nå, kan vi sette opp bøttene våre.
   kan vi benytte oss av `Start spill`-meldingen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   ```
 
@@ -177,7 +177,7 @@ Nå som vi vet antall poeng vi skal nå, kan vi sette opp bøttene våre.
   før spillet er i gang.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   gå til x: (78) y: (5)
   ```
@@ -250,7 +250,7 @@ Når vi har fått alt søppelet på plass, må vi avslutte spillet.
   til `vent til`-blokk i skriptet hans.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [Mål v] til [0]
   sett [Poeng v] til [0]
   send melding [Forbered spill v]
