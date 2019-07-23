@@ -157,7 +157,7 @@ kartet nedover.
   ```blocks
   når jeg mottar [Nytt spill v]
   vis
-  for alltid
+  gjenta for alltid
       gå til x: ((0) - (X)) y: ((0) - (Y))
   slutt
   ```
@@ -216,7 +216,7 @@ helikopteret ikke kan fly ut av kartet?
 
   ```blocks
   når jeg mottar [Nytt spill v]
-  for alltid
+  gjenta for alltid
       gå til x: ((stedX) - (X)) y: ((stedY) - (Y))
   slutt
   ```
@@ -345,4 +345,3 @@ tidsbegrensning og poengsum.
   prøve å pusle sammen. Du må da laste inn hver av dem som en egen figur. Hver
   av dem trenger omtrent samme kode som kartet vi har brukt så langt. Du må bare
   endre litt i `gå til`{.blockmotion}-klossene.
-
