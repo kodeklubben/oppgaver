@@ -94,7 +94,7 @@ __Klikk på snømannen og se om koden din virker.__
 koden.  Nå skal juletreet skifte farge og utseende.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta for alltid
       vent (0.3) sekunder
       endre [farge v] effekt med (25)
@@ -131,7 +131,7 @@ kan synge din egen julesang.
   og legg inn følgende kode:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   spill lyden [julehilsen v] til den er ferdig
   ```
 
