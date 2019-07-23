@@ -16,7 +16,7 @@ av `turtle`, slik som på biletet under.
 
 # Steg 1: Tekst på fleire linjer {.activity}
 
-Me har allereie lært at me skriv tekststrengar slik:
+Me har allereie lært at me skriv tekstar slik:
 
 ```python
 tekst = "Hallo, verda!"
