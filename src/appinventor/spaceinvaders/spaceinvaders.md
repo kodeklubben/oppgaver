@@ -12,24 +12,25 @@ language: nb
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi lage et spill som heter Space Invaders, som er en enkel
-utgave av det [klassiske spillet](https://youtu.be/MU4psw3ccUI?t=7). Spillet
-handler om å styre et romskip som skal skyte ned en alien. Vi skal bruke
-stoppeklokke, animasjoner og mye mer. Målet for appen er å skyte ned så mange
-aliens som mulig.
+utgave av det [klassiske
+spillet](https://youtu.be/MU4psw3ccUI?t=7){target=_blank}. Spillet handler om å
+styre et romskip som skal skyte ned en alien. Vi skal bruke stoppeklokke,
+animasjoner og mye mer. Målet for appen er å skyte ned så mange aliens som
+mulig.
 
 ![Bilde av et ferdig Space Invaders-spill](./media/spaceinvaders.png)
 
 
 # Steg 1: Komme i gang med App Inventor {.activity}
 
-For å komme igang med App Inventor åpner vi nettsiden i Chrome
-eller Firefox. OBS! App Inventor fungerer ikke i Internet Explorer.
+For å komme igang med App Inventor åpner vi nettsiden i Chrome, Safari eller
+Firefox. OBS! App Inventor fungerer ikke i Internet Explorer.
 
 ![Bilde av App Inventor-vinduet](./media/appinventor.png)
 
 ## Sjekkliste {.check}
 
-- [ ] Åpne [http://appinventor.mit.edu/](http://appinventor.mit.edu/).
+- [ ] Åpne [http://appinventor.mit.edu/](http://appinventor.mit.edu/){target=_blank}.
 
 - [ ] Trykk på "Create apps!" og logg inn med Google-kontoen din.
 
