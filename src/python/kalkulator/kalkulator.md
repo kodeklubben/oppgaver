@@ -38,9 +38,9 @@ Her er noen ting å tenke på:
 
 ## int() {.protip}
 
-Når man får input fra brukeren får man en *tekststreng*, selv om brukeren skrev
-et tall, da kan det være greit å kunne konvertere teksten til et tall, ved hjelp
-av `int()`.
+Når man får input fra brukeren får man en tekst, som på fagspråket kalles
+*streng*, selv om brukeren skrev et tall, da kan det være greit å kunne
+konvertere teksten til et tall, ved hjelp av `int()`.
 
 Hva er forskjellen på disse kodesnuttene? (Kjør koden og test selv!)
 
