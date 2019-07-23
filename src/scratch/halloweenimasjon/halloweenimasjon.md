@@ -267,7 +267,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   skjermen klikkes.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta for alltid
       send melding [Animer spøkelse v] og vent
       vent (1) sekunder
@@ -281,7 +281,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   spøkelset:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   gå til x: (0) y:(0)
   ```
@@ -289,7 +289,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 - [ ] Legg et tilsvarende skript på flaggermusen:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   gå til x: (0) y:(0)
   ```
@@ -346,7 +346,7 @@ __Klikk på det grønne flagget.__
 - [ ] Legg også til startposisjonen for den figuren:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   gå til x: (0) y: (0)
   ```
@@ -363,7 +363,7 @@ __Klikk på det grønne flagget.__
   viser animasjonene:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta for alltid
       send melding [Animer spøkelse v] og vent
       vent (1) sekunder
