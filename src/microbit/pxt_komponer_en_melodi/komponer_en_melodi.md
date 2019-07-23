@@ -38,7 +38,7 @@ Du kan lese mer om portene på micro:biten her:
 - [ ] Finn `når knapp A trykkes`-klossen. Du kan finne den i `Inndata`
 -kategorien.
 
-	![Bilde av når knapp A trykkes klossen](knapp_A_trykkes.png)
+![Bilde av når knapp A trykkes klossen](knapp_A_trykkes.png)
 
 
 # Steg 2: Komponer melodi {.activity}
