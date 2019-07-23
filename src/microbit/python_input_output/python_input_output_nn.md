@@ -65,8 +65,8 @@ til `0` og `GND` som vist på biletet under.
 
 ![Bilete av micro:bit-en med krokodilleklemmer på 0 og GND](./pin0-gnd.png)
 
-Ledningen frå pin 0 skal vere kopla til det positive koplingspunktet (dette er
-vanlegvis det lengste beinet), medan ledningen frå GND skal til det negative
+Ledningen frå `pin0` skal vere kopla til det positive koplingspunktet (dette er
+vanlegvis det lengste beinet), medan ledningen frå `GND` skal til det negative
 koplingspunktet.
 
 Det følgjande programmet vil gjere at buzzaren lagar ein lyd:
@@ -94,8 +94,8 @@ Kan du finne ut korleis dette programmet virkar? Hugs at `1` er "på" og `0` er
 "av" i den digitale verda.
 
 Eininga er sett til å køyre ei `while`-løkke for alltid (sidan `True` alltid er
-sant) og skru på pin 0 med ein gong. Dette gjer at buzzaren pip. Medan buzzaren
-pip ventar programmet i 20 millisekund, og så skrur den pin 0 av. Det gir
+sant) og skru på `pin0` med ein gong. Dette gjer at buzzaren pip. Medan buzzaren
+pip ventar programmet i 20 millisekund, og så skrur den `pin0` av. Det gir
 effekten av eit kort pip. Til slutt ventar eininga i 480 millisekund før den går
 tilbake til start og byrjar på att.
 
