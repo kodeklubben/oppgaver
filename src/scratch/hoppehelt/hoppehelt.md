@@ -62,7 +62,7 @@ kloner!
   ```blocks
   når jeg mottar [Nytt spill v]
   gå til x: (210) y: (-120)
-  for alltid
+  gjenta for alltid
       endre [sprett v] med (-1)
       hvis <berører fargen [#00cc00] ?>
           neste drakt
@@ -134,7 +134,7 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] Vi vil la spillet stoppe når helten springer inn i en boks. Gå til `Helt
-  1`. Bytt nå ut `for alltid`{.blockcontrol}-løkken med en `gjenta
+  1`. Bytt nå ut `gjenta for alltid`{.blockcontrol}-løkken med en `gjenta
   til`{.blockcontrol}-løkke som du lar gjenta til helten berører `Boks`.
 
 - [ ] Etter den nye `gjenta til`{.blockcontrol}-løkken kan du sende ut en ny
