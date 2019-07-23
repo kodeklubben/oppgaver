@@ -118,15 +118,13 @@ variasjoner av store og små bokstaver, og erstatninger av tall med
 bokstaver, som i passordet til "tjesi". Bare ekstremt gode passord ville
 motstått et slikt angrep, resten hadde blitt funnet på under et sekund.
 
-Nå skal vi gjøre en forbedring som gjør at alt det forarbeidet blir til
-ingen nytte. Angrepet fungerte så godt fordi man alltid lagret samme hash
-når noen valgte samme passord, for eksempel "appelsin".
-Hvis vi kan få "appelsin" til å
-bli lagret som en ny streng hver gang så har vi plutselig gjort det litt
- vanskeligere. Det løser vi ved å finne en tilfeldig verdi som vi hasher
- sammen med passordet. Den tilfeldige verdien kalles *salt* og lagres
- ved siden av det beskyttede passordet, slik at det blir enkelt å teste
- senere.
+Nå skal vi gjøre en forbedring som gjør at alt det forarbeidet blir til ingen
+nytte. Angrepet fungerte så godt fordi man alltid lagret samme hash når noen
+valgte samme passord, for eksempel "appelsin". Hvis vi kan få "appelsin" til å
+bli lagret som en ny tekst hver gang så har vi plutselig gjort det litt
+vanskeligere. Det løser vi ved å finne en tilfeldig verdi som vi hasher sammen
+med passordet. Den tilfeldige verdien kalles *salt* og lagres ved siden av det
+beskyttede passordet, slik at det blir enkelt å teste senere.
 
 ## Sjekkliste {.check}
 
