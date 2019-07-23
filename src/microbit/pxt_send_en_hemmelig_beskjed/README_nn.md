@@ -12,7 +12,7 @@ radiosendar.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Programmering, teknologi (valfag)
+__Fag__: Programmering, teknologi i praksis
 
 __Anbefalte trinn__: 5. trinn - VG3
 
@@ -26,7 +26,7 @@ __Tidsbruk__: Dobbelttime
   programmering, slik som løkker, testar, variablar, funksjonar og enkel
   brukarinteraksjon
 
-- [ ] __Teknologi_i_praksis, 10. trinn:__ framstille produktet med eigna
+- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
   materiale, komponentar, og funksjonelle teknologiske løysingar
 
 ## Forslag til læringsmål {.challenge}
