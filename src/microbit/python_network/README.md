@@ -11,7 +11,7 @@ I denne oppgaven skal elevene lære å koble sammen micro:bit-er til et nettverk
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, IT.
 
 __Anbefalte trinn__: 5. trinn - VG3
 

@@ -11,7 +11,7 @@ I denne oppgaven skal elevene lage spillet stein, saks, papir.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Matematikk, programmering.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
@@ -21,11 +21,11 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [] __Matematikk, 7. trinn:__ vurdere og samtale om sjanser i dagligdagse
+- [ ] __Matematikk, 7. trinn:__ vurdere og samtale om sjanser i dagligdagse
   sammenhenger, spill og eksperimenter og beregne sannsynlighet i enkle
   situasjoner
 
-- [] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
   programmering, slik som løkker, tester, variabler, funksjoner og enkel
   brukerinteraksjon
 
@@ -74,4 +74,3 @@ oppgaven enda._
   "[Rock, paper, scissors, lizard,
   Spock](https://www.youtube.com/watch?v=x5Q6-wMx-K8)" brukt for å avgjøre
   uenigheter i vennegjengen.
-  

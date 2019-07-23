@@ -11,7 +11,7 @@ I denne oppgaven skal vi sende og motta hemmelige beskjeder via en radiosender.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, teknologi i praksis.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
@@ -25,7 +25,7 @@ __Tidsbruk__: Dobbelttime
   programmering, slik som løkker, tester, variabler, funksjoner og enkel
   brukerinteraksjon
 
-- [ ] __Teknologi_i_praksis, 10. trinn:__ framstille produktet med eigna
+- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
   materiale, komponentar, og funksjonelle teknologiske løysingar
 
 ## Forslag til læringsmål {.challenge}

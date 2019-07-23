@@ -12,7 +12,7 @@ matbiter som faller ned på skjermen.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Matematikk, programmering, IT.
 
 __Anbefalte trinn__: 5. trinn - VG3
 

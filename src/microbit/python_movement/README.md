@@ -12,7 +12,7 @@ basert på hvordan den holdes.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Musikk, programmering, IT
 
 __Anbefalte trinn__: 5. trinn - VG3
 
@@ -28,13 +28,13 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk der minst ett
  er tekstbasert
 
-- [] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
   programmering, slik som løkker, tester, variabler, funksjoner og enkel
   brukerinteraksjon
 
-- [] __IT2, VG3:__ tilordne uttrykk til variabler
+- [ ] __IT2, VG3:__ tilordne uttrykk til variabler
 
-- [] __IT2, VG3:__ lese og bruke dokumentasjon og kode
+- [ ] __IT2, VG3:__ lese og bruke dokumentasjon og kode
 
 ## Forslag til læringsmål {.challenge}
 

@@ -12,7 +12,7 @@ raskest mulig herme etter det spillederen bestemmer.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, IT, teknologi i praksis.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
@@ -30,7 +30,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __IT2, VG3:__ programmere med valg og gjentakelser
 
-- [ ] __Teknologi_i_praksis, 10. trinn:__ framstille produktet med eigna
+- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
   materiale, komponentar, og funksjonelle teknologiske løysingar
 
 ## Forslag til læringsmål {.challenge}

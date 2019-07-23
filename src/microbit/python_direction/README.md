@@ -11,7 +11,7 @@ I denne oppgaven skal elevene lage et kompass av en micro:bit.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Naturfag, programmering, IT, samfunnsfag, teknologi i praksis.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
@@ -39,7 +39,7 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Samfunnsfag, 4. trinn:__ peike ut og orientere seg etter himmelretningar
   og gjere greie for kvifor det er tidsskilnader
 
-- [ ] __Teknologi_i_praksis, 10. trinn:__ framstille produktet med eigna
+- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
   materiale, komponentar, og funksjonelle teknologiske løysingar
 
 ## Forslag til læringsmål {.challenge}
