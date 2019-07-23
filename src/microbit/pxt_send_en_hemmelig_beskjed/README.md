@@ -11,7 +11,7 @@ I denne oppgaven skal vi sende og motta hemmelige beskjeder via en radiosender.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, teknologi i praksis.
 
 __Anbefalte trinn__: 5. trinn - VG3
 

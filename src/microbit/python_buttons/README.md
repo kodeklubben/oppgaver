@@ -12,7 +12,7 @@ knappene på micro:bit-en er trykket inn.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, IT.
 
 __Anbefalte trinn__: 5. trinn - VG3
 

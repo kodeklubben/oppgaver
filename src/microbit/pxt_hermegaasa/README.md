@@ -12,7 +12,7 @@ raskest mulig herme etter det spillederen bestemmer.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, IT, teknologi i praksis.
 
 __Anbefalte trinn__: 5. trinn - VG3
 

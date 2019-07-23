@@ -12,7 +12,7 @@ velge et tilfeldig bilde som vises på skjermen.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Kunst og håndverk, matematikk, programmering, IT.
 
 __Anbefalte trinn__: 5. trinn - VG3
 

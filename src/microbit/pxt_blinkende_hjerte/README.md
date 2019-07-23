@@ -11,7 +11,7 @@ I denne oppgaven skal elevene få et hjerte til å blinke i ulike hastigheter.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, IT.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
