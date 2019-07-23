@@ -67,7 +67,7 @@ sprettende ball!
   sett [hastighet v] til [7]
   gå til x: (0) y: (0)
   pek i retning (tilfeldig tall fra (1) til (360))
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       sprett tilbake ved kanten
   slutt
@@ -91,7 +91,7 @@ enklere starte spillet.
 + Legg denne enkle kodesnutten til på scenen:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   send melding [Ny ball v]
   ```
 
@@ -123,7 +123,7 @@ eller når den berører spesielle farger.
   etterhvert skal vi telle poeng. Dette kan vi gjøre ved å bytte ut
 
   ```blocks
-  for alltid
+  gjenta for alltid
   slutt
   ```
 
