@@ -57,7 +57,7 @@ Hvis ikke disse tingene fungerer så gå tilbake til del 1 og gjør dem ferdige.
   starte med følgende kode:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   flytt bakover (50) lag
   ```
 

@@ -40,7 +40,7 @@ over alle stedene vi kan besøke.
 - [ ] Klikk på scenen til venstre for figurene, og lag det følgende skriptet:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   send melding [Nytt spill v]
   ```
 
@@ -55,7 +55,7 @@ over alle stedene vi kan besøke.
   størrelsen og hastigheten.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   begrens rotasjon [vend sideveis v]
   sett størrelse til (30) %
