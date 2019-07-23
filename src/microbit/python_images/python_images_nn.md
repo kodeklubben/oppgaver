@@ -226,7 +226,7 @@ primes = [2, 3, 5, 7, 11, 13, 17, 19]
 ## Merk {.tip}
 
 Tall treng ikkje å vere i hermeteikn fordi dei representerer ein verdi. Det er
-ein forskjell på `2` (talverdien 2) og (`"2"`) (ein tekst med talet 2). Viss det
+ein forskjell på `2` (talverdien 2) og `"2"` (ein tekst med talet 2). Viss det
 er vanskeleg å forstå no kan du slappe av, du kjem snart til å bli vant til det.
 
 ##

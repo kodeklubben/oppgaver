@@ -225,7 +225,7 @@ primes = [2, 3, 5, 7, 11, 13, 17, 19]
 ## Merk {.tip}
 
 Tall trenger ikke å være sitert siden de representerer en verdi (heller enn en
-tekststreng). Det er en forskjell mellom `2` (Tallverdien 2) og (`"2"`)
+tekststreng). Det er en forskjell mellom `2` (Tallverdien 2) og `"2"`
 (tekststrengen som representerer tallet 2). Hvis dette er vanskelig å forstå så
 slapp av. Du kommer snart til å bli vant til det.
 
