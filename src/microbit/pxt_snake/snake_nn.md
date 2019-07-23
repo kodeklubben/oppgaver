@@ -325,8 +325,8 @@ input.onButtonPressed(Button.A, function () {
             return;
         }
         buttonPressed = true;
-			}
-		})
+		}
+})
 ```
 
 - [ ] Set `buttonPressed` til `false` i `updateSnake()`.
@@ -498,13 +498,13 @@ gjer me det? Me let berre vere å fjerne det siste punktet på halen i
   ikkje et mat gjer me det same som før.
 
 ```Javascript
-    if (x == foodX && y == foodY) {
-        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
-        generateFood();
-    } else {
-        snake.pop();
-        snake.pop();
-    }
+if (x == foodX && y == foodY) {
+    music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
+    generateFood();
+} else {
+    snake.pop();
+    snake.pop();
+}
 ```
 
 - [ ] Etter kvart som slangen veks må me sjekke at den ikkje bit seg sjølv. Me
@@ -534,17 +534,16 @@ function checkGameOver(x: number, y: number) {
   `updateSnake()` slik:
 
 ```Javascript
-    if (x === foodX && y === foodY) {
-        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
-        updateRate *= 0.95;
-        generateFood();
-    } else {
-        snake.pop();
-        snake.pop();
-    }
-    buttonPressed = false
-    updateRate -= 5;
+if (x === foodX && y === foodY) {
+    music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
+    updateRate *= 0.95;
+    generateFood();
+} else {
+    snake.pop();
+    snake.pop();
 }
+buttonPressed = false
+updateRate -= 5;
 ```
 
 - [ ] Så brukar me `updateRate` i pausa i `forever()`:
@@ -598,7 +597,7 @@ function drawFood() {
   stad som me set `isPlaying = true` på fyrste knappetrykk.
 
 ```Javascript
-	lastUpdateTime = input.runningTime();
+lastUpdateTime = input.runningTime();
 ```
 
 - [ ] I `forever()` hentar me ut tida og ser om det har gått lengre tid enn
@@ -608,7 +607,6 @@ function drawFood() {
 
 ```Javascript
 basic.forever(function () {
-
     if (isPlaying) {
         basic.clearScreen();
         drawSnake();
