@@ -44,7 +44,7 @@ Dette er et spill med tre figurer som endrer utseende. Din oppgave er
 - [ ] Legg til dette skriptet:
 
   ```blocks
-  Når grønt flagg klikkes
+  Når @greenFlag klikkes
   gjenta for alltid
       neste drakt
       vent (0.5) sekunder
@@ -86,7 +86,7 @@ som setter statusen til figuren. Dette vil vi se at er praktisk også senere.
   vi variabelen til `0`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [stoppet v] til [0]
   gjenta for alltid
       neste drakt
@@ -109,7 +109,7 @@ som setter statusen til figuren. Dette vil vi se at er praktisk også senere.
   `0`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [stoppet v] til (0)
   gjenta for alltid
       hvis <(stoppet) = (0)>
@@ -180,7 +180,7 @@ uforutsigbart.
   gang den forandres.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [stoppet v] til [0]
   bytt drakt til (tilfeldig tall fra (1) til (3))
   gjenta for alltid
@@ -248,7 +248,7 @@ La oss først hente en ny bakgrunn som vi viser når spillet er over.
   ut `x-posisjon` med `stoppet`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   bytt bakgrunn til [Spill v]
   vent til <([stoppet v] av [Figur3 v])  = [1]>
   bytt bakgrunn til [Slutt v]
@@ -276,7 +276,7 @@ rekkefølge figurene stoppes i.
   `stoppet av Figur`{.blocksensing}-klosser.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   bytt bakgrunn til [Spill v]
   vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
   bytt bakgrunn til [Slutt v]
@@ -322,7 +322,7 @@ spillet er over.
   om `Figur2` har samme drakt som `Figur3`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   bytt bakgrunn til [Spill v]
   vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
   hvis <<([drakt nr. v]  av [Figur1 v]) = ([drakt nr. v]  av [Figur2 v])> og <([drakt nr. v]  av [Figur2 v]) = ([drakt nr. v] av [Figur3 v])>>
@@ -355,7 +355,7 @@ litt (for å gjøre spillet vanskeligere). Hvis spilleren taper runden kan man �
 forsinkelsen litt for å gjøre spillet lettere.
 
 Du må sikkert vurdere å bruke en annen måte å starte spillet på istedet for å
-bruke `når grønt flagg klikkes`{.blockgrey}. Deretter kan du lagre verdiene i
+bruke `når @greenFlag klikkes`{.blockgrey}. Deretter kan du lagre verdiene i
 variabler som huskes mellom rundene.
 
 ## Lagre prosjektet {.save}
