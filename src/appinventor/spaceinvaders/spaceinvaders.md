@@ -1,9 +1,9 @@
 ---
 title: Space invaders
 level: 4
-author: Oppgaven er laget av [GDG
+author: "Oppgaven er laget av [GDG
 Bergen](https://www.meetup.com/en-AU/GDGBergen/), og tilpasset Kodeklubbens
-format på oppgaver.
+format på oppgaver."
 translator: Teodor Heggelund og Stein Olav Romslo
 language: nb
 ---
@@ -37,11 +37,11 @@ eller Firefox. OBS! App Inventor fungerer ikke i Internet Explorer.
   lagre dem på datamaskinen din. Pass på å velge en mappe du enkelt finner igjen
   senere.
 
-[Bilde av romskipet vi bruker i spillet](./media/spaceship.png)
+![Bilde av romskipet vi bruker i spillet](./media/spaceship.png)
 
-[Bilde av alien-figuren vi bruker i spillet](./media/alien.png)
+![Bilde av alien-figuren vi bruker i spillet](./media/alien.png)
 
-[Bilde av laserkulen vi bruker i spillet](./media/bullet.png)
+![Bilde av laserkulen vi bruker i spillet](./media/bullet.png)
 
 
 # Steg 2: La oss komme i gang med koding! {.activity}
@@ -119,7 +119,7 @@ romskipet fra side til side ved å flytte den med fingeren.
 # Steg 4: Gjør klar kulen {.activity}
 
 *Vi vil at kulen til romskipet skal være usynlig fram til den blir skutt fra
-*romskipet, og etter den har truffet et romvesen.*
+romskipet, og etter den har truffet et romvesen.*
 
 Vi skal starte med å gjøre kulen usynlig. Så skal vi skyte den fra romskipet, og
 den blir synlig. Dersom den treffer et romvesen skal kulen forsvinne og
@@ -224,6 +224,6 @@ Prøv å videreutvikle spillet. Du kan for eksempel prøve noe av det følgende:
 - [ ] Legge inn et [bakgrunnsbilde](.media/background.jpg).
 
 - [ ] Legge til lyd når du skyter og/eller treffer (prøv
-  [laser.mp3](./media/laser.mp3) og [explosion](./media/explosion.mp3)).
+  [laser.mp3](./media/laser.mp3) og [explosion.mp3](./media/explosion.mp3)).
 
 - [ ] Få romvesenet til å skyte tilbake
