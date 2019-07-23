@@ -2,7 +2,7 @@
 title: "PXT: Det regnar mat!"
 author: Helene Isnes
 translator: Stein Olav Romslo
-language: nb
+language: nn
 ---
 
 
