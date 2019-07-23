@@ -45,7 +45,7 @@ Dette er et spill med tre figurer som endrer utseende. Din oppgave er
 
   ```blocks
   Når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       neste drakt
       vent (0.5) sekunder
   slutt
@@ -88,7 +88,7 @@ som setter statusen til figuren. Dette vil vi se at er praktisk også senere.
   ```blocks
   når grønt flagg klikkes
   sett [stoppet v] til [0]
-  for alltid
+  gjenta for alltid
       neste drakt
       vent (0.5) sekunder
   slutt
@@ -111,7 +111,7 @@ som setter statusen til figuren. Dette vil vi se at er praktisk også senere.
   ```blocks
   når grønt flagg klikkes
   sett [stoppet v] til (0)
-  for alltid
+  gjenta for alltid
       hvis <(stoppet) = (0)>
           neste drakt
           vent (0.5) sekunder
@@ -146,7 +146,7 @@ __Start skriptet en gang til ved å klikke på det grønne flagget igjen.__
 - [ ] Lag en kopi til slik at du har tre figurer på skjermen. Vi har kalt våre
   figurer `Figur1`, `Figur2` og `Figur3`.
 
-- [ ] Flytt figurene slik at de er en linje. Gjør figurene mindre ved å 
+- [ ] Flytt figurene slik at de er en linje. Gjør figurene mindre ved å
   skrive inn et mindre tall enn "100" i feltet "Størrelse", hvis det trengs.
 
 ## Test prosjektet{.flag}
@@ -175,14 +175,14 @@ uforutsigbart.
   `bytt drakt til ()`{.b}-kloss med `tilfeldig tall fra (1) til
   (3)`{.b} for å velge draktnummer.
 
-- [ ] Vi kan også bruke den samme klossen i `gjenta for alltid`{.blockcontrol}-løkken
+- [ ] Vi kan også bruke den samme klossen i `gjenta gjenta for alltid`{.blockcontrol}-løkken
   slik at figuren skifter til en ulik drakt hver gang den forandres.
 
   ```blocks
   når grønt flagg klikkes
   sett [stoppet v] til [0]
   bytt drakt til (tilfeldig tall fra (1) til (3))
-  for alltid
+  gjenta for alltid
       hvis <(stoppet) = [0]>
           bytt drakt til (tilfeldig tall fra (1) til (3))
           vent (0.5) sekunder
@@ -300,13 +300,13 @@ __Klikk på det grønne flagget.__
 Vi har tidligere skrevet kode som sjekker om spillet er over, så alt vi trenger
 å gjøre er å sjekke om spilleren har vunnet.
 
-- [ ] Gå tilbake til bakgrunnene. Gi bakgrunnen `Slutt` et nytt navn, og kall den 
+- [ ] Gå tilbake til bakgrunnene. Gi bakgrunnen `Slutt` et nytt navn, og kall den
   for `Vinner`.
 
 - [ ] Legg til teksten `Du vant!` på `Vinner`-bakgrunnen.
 
 - [ ] Lag en kopi av `Vinner`-bakgrunnen. Kall den
-  nye bakgrunnen for `Taper`. 
+  nye bakgrunnen for `Taper`.
 
 - [ ] I `Taper`-bakgrunnen kan du skrive teksten `Du tapte!`.
 
