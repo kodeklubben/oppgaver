@@ -235,7 +235,7 @@ seinare sjekkar om ein har tre på rad.
   ]
   ```
 
-  Me kunne ha starta lista med ni tomme strengar, `grid = ["", "", "", "", "",
+  Me kunne ha starta lista med ni tomme tekstar, `grid = ["", "", "", "", "",
   "", "", "", ""]`, men ved å skrive listen som me gjer er det enklare å hugse
   korleis rutene på brettet er nummerert.
 
@@ -262,7 +262,7 @@ seinare sjekkar om ein har tre på rad.
 
   For å teste at lista virkar brukar me ein enkel `print`-kommando som fortel
   oss kva rute me klikkar i, og om me klikkar i same rute to gonger. Med `str`
-  gjer me om eit tal til tekst (ein streng) slik at den kan skrivast ut saman
+  gjer me om eit tal til tekst slik at den kan skrivast ut saman
   med den forklarande teksten.
 
 - [ ] Køyr koden. Klikk i forskjellige ruter slik at du forstår korleis me har
