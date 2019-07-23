@@ -2,7 +2,7 @@
 title: "PXT: Blinkande lys"
 author: Helene Isnes
 translator: Stein Olav Romslo
-language: nb
+language: nn
 ---
 
 
