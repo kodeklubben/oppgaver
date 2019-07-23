@@ -113,8 +113,9 @@ Vi kan nå bruke tilfeldige tall til å lage et enkelt mattespill.
   på både tekst og tall, og da skjønner ikke Python helt hva vi mener.
 
   For å fortelle Python at her vil vi egentlig sette sammen tekst må vi bruke
-  funksjonen `str` for å gjøre om tallene til tekststrenger. Endre den siste
-  linjen slik at den ser slik ut i stedet:
+  funksjonen `str` for å gjøre om tallene til tekst (`str` er en forkortelse for
+  *streng*, som er det vi kaller tekster på fagspråket). Endre den siste linjen
+  slik at den ser slik ut i stedet:
 
   ```python
   print('Hva er ' + str(tall1) + ' ganger ' + str(tall2) + '?')
