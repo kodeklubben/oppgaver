@@ -35,7 +35,7 @@ inni hverandre, fylt med en farge imellom.
   ```blocks
   når jeg mottar [Nytt spill v]
   skjul
-  for alltid
+  gjenta for alltid
       lag klon av [meg v]
       vent (1) sekunder
   slutt
@@ -171,7 +171,7 @@ mot deg! Nå kan du ta et pust i bakken og se over det du har skrevet så langt.
   når jeg mottar [Nytt spill v]
   sett [x v] til [0]
   sett [y v] til [0]
-  for alltid
+  gjenta for alltid
       hvis <tast [pil høyre v] trykket>
           endre [x v] med (10)
           vent (0.05) sekunder
