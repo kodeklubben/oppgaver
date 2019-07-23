@@ -237,11 +237,11 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 
 ## Sjekkliste {.check}
 
-- [ ] Vi begynner med å lage en `for alltid`{.blockcontrol}-løkke på
+- [ ] Vi begynner med å lage en `gjenta for alltid`{.blockcontrol}-løkke på
   scenen, som sender meldinger:
 
   ```blocks
-  for alltid
+  gjenta for alltid
       send melding [Animer spøkelse v] og vent
       send melding [Animer flaggermus v] og vent
   slutt
@@ -254,7 +254,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
   til et par `vent`{.blockcontrol}-klosser i skriptet.
 
   ```blocks
-  for alltid
+  gjenta for alltid
       send melding [Animer spøkelse v] og vent
       vent (1) sekunder
       send melding [Animer flaggermusen v] og vent
@@ -268,7 +268,7 @@ skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       send melding [Animer spøkelse v] og vent
       vent (1) sekunder
       send melding [Animer flaggermus v] og vent
@@ -364,7 +364,7 @@ __Klikk på det grønne flagget.__
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       send melding [Animer spøkelse v] og vent
       vent (1) sekunder
       send melding [Animer flaggermus v] og vent
@@ -377,10 +377,7 @@ __Klikk på det grønne flagget.__
 
 # Steg 6: Enda flere animasjoner? {.activity}
 
-##
-
-
-# Prøv selv {.challenge}
+## Prøv selv {.challenge}
 
 Vi har nå sett noen eksempler på hvordan vi kan lage skumle
 halloween-animasjoner. Prøv å bruk lignende teknikker for å lage dine
