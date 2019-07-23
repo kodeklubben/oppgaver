@@ -175,8 +175,9 @@ uforutsigbart.
   `bytt drakt til ()`{.b}-kloss med `tilfeldig tall fra (1) til
   (3)`{.b} for å velge draktnummer.
 
-- [ ] Vi kan også bruke den samme klossen i `gjenta gjenta for alltid`{.blockcontrol}-løkken
-  slik at figuren skifter til en ulik drakt hver gang den forandres.
+- [ ] Vi kan også bruke den samme klossen i `gjenta for
+  alltid`{.blockcontrol}-løkken slik at figuren skifter til en ulik drakt hver
+  gang den forandres.
 
   ```blocks
   når grønt flagg klikkes
