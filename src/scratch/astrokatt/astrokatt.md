@@ -67,7 +67,7 @@ Vi begynner prosjektet vårt med å få katten til å fly!
   riktig kategori):
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta for alltid
       gå (10) steg
       snu @turnRight (15) grader
@@ -96,7 +96,7 @@ flagg. __Klikk på det!__
   Bytt ut klossene i koden din slik at den blir seende slik ut:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta for alltid
       hvis <tast [pil høyre v] trykket?>
           snu @turnRight (5) grader
@@ -167,7 +167,7 @@ realistisk.
   og lag deretter dette skriptet:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta for alltid
       snu @turnRight (1) grader
   slutt
@@ -182,7 +182,7 @@ realistisk.
   avhengig av avstanden til jordkloden:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta for alltid
       hvis <tast [pil høyre v] trykket?>
           snu @turnRight (5) grader
@@ -249,7 +249,7 @@ la astrokatten vår bli påvirket av gravitasjonen også.
   skriptet du allerede har laget. Skriptet skal se slik ut:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (-200) y: (150)
   gjenta for alltid
       pek mot [Earth v]
@@ -279,7 +279,7 @@ la astrokatten vår bli påvirket av gravitasjonen også.
   Endre skriptet ditt ved å legge til to nye klosser:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (-200) y: (150)
   gjenta for alltid
       sett [katteretning v] til (retning)
