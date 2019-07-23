@@ -11,7 +11,7 @@ I denne oppgåva skal elevane få micro:bit til å spele av lyd.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Matematikk, programmering
+__Fag__: Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
