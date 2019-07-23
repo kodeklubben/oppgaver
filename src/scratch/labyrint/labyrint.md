@@ -207,11 +207,11 @@ farge.
   ```blocks
   når grønt flagg klikkes
   sett [hastighet v] til [10]
-  for alltid
+  gjenta for alltid
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
-          vend høyre (180) grader
+          snu @turnRight (180) grader
       slutt
   slutt
   ```
@@ -238,9 +238,9 @@ En måte vi kan bruke for å begrense hvor en figur kan gå, er å tvinge
 den til å ta et skritt tilbake når den gjør noe feil. I koden
 
 ```blocks
-  vend høyre (180) grader
+  snu @turnRight (180) grader
   gå (hastighet) steg
-  vend høyre (180) grader
+  snu @turnRight (180) grader
 ```
 
 vil figuren først snu seg helt rundt (180 grader), deretter ta et
@@ -285,7 +285,7 @@ litt enklere å lage skriptet på `Skatt`.
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       hvis <berører [Utforsker v]?>
           skjul
       slutt
@@ -312,7 +312,7 @@ skatten en gang, forblir skatten borte.
   ```blocks
   når grønt flagg klikkes
   vis
-  for alltid
+  gjenta for alltid
       hvis <berører [Utforsker v]?>
           skjul
       slutt
@@ -342,11 +342,11 @@ spennende.
   når grønt flagg klikkes
   sett [hastighet v] til [10]
   gå til x: (-200) y: (0)
-  for alltid
+  gjenta for alltid
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
-          vend høyre (180) grader
+          snu @turnRight (180) grader
       slutt
   slutt
   ```
@@ -381,7 +381,7 @@ Dette blir veldig likt hvordan `Skatt` merket at den ble funnet.
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       hvis <berører [Utforsker v]?>
           si [Tok deg!] i (1) sekunder
           stopp [alle v] :: control
@@ -430,10 +430,10 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   sett [hastighet v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
       slutt
   slutt
@@ -449,14 +449,14 @@ av og til endre retning.
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   sett [hastighet v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
       slutt
       hvis <(tilfeldig tall fra (1) til (25)) = [1]>
-          vend høyre ((tilfeldig tall fra (-1) til (1)) * (90)) grader
+          snu @turnRight ((tilfeldig tall fra (-1) til (1)) * (90)) grader
       slutt
   slutt
   ```
@@ -466,7 +466,7 @@ Disse to siste klossene ser litt kompliserte ut. La oss se litt nøyere på dem.
 - [ ] Klossen `hvis <(tilfeldig tall fra (1) til (25)) = [1]>`{.b} sier at
   vi skal gjøre *noe* cirka èn av 25 ganger.
 
-- [ ] Dette *noe* er `vend høyre ((tilfeldig tall fra (-1) til (1)) *
+- [ ] Dette *noe* er `snu @turnRight ((tilfeldig tall fra (-1) til (1)) *
   (90)) grader`{.b}. Tegnet `*` betyr gange, slik at om vi velger
   tilfeldig mellom tallene -1, 0 og 1, betyr det at froskekongen vil
   vende -90, 0 eller 90 grader. Det vil si at den svinger mot venstre,
