@@ -25,11 +25,14 @@ tatt, går poengsummen din ned.
 
 - [ ] Start et nytt prosjekt.
 
-- [ ] Trykk på `i`{.blockmotion} i hjørnet av ![Sprite1](sprite1.png) og
-  bytt navn på figuren til `Felix`.
+- [ ] Trykk på kattefiguren nede i høyre del av skjermen og bytt navn
+  på figuren til `Felix`.
+
+  ![Skift navn](navn_figur.png)
 
 - [ ] Sørg for at Felix kun ser til høyre og venstre ved å sette
-  rotasjonsmåte til
+  rotasjonsmåte til høyre-venstre.
+
   ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
 - [ ] Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen
@@ -37,7 +40,7 @@ tatt, går poengsummen din ned.
   ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) for å
   importere en ferdig bakgrunn. Velg den bakgrunnen du vil.
 
-- [ ] Klikk på Felix, velg `Skript`-fanen og lag dette
+- [ ] Klikk på Felix, velg `Kode`-fanen og lag dette
   skriptet:
 
   ```blocks
@@ -46,7 +49,6 @@ tatt, går poengsummen din ned.
       pek mot [musepeker v]
       gå (10) steg
       neste drakt
-      trommeslag (3 v) som varer (0.25) takter
   slutt
   ```
 
@@ -65,10 +67,12 @@ __Klikk på det grønne flagget.__
 
 ## Lagre prosjektet {.save}
 
-Scratch lagrer alle prosjektene dine automatisk med jevne mellomrom.
+Hvis du er pålogget med din egen Scratchbruker lagrer scratch alle prosjektene dine automatisk med jevne mellomrom.
 Det kan likevel være lurt å lagre manuelt innimellom.
 
 - [ ] I filmenyen, velg `Lagre nå`.
+
+Hvis du ikke har bruker kan du ikke lagre, bare fortsett til steg 2.
 
 
 # Steg 2: Felix jager Herbert {.activity}
@@ -83,9 +87,9 @@ Det kan likevel være lurt å lagre manuelt innimellom.
 
 - [ ] Bytt navn på figuren til `Herbert`.
 
-- [ ] Gjør Herbert mindre enn Felix ved å trykke på
-  ![krymp](../bilder/krymp.png) (øverst mot midten av vinduet). Prøv
-  seks klikk.
+- [ ] Gjør Herbert mindre enn Felix ved å velge `Størrelse` feltet
+  rett over figuren, og skriv inn et mindre tall. Prøv å endre tallet
+  fra 100 til 30.
 
 - [ ] Gi Herbert dette skriptet:
 
@@ -121,7 +125,6 @@ __Klikk på det grønne flagget.__
       pek mot [musepeker v]
       gå (10) steg
       neste drakt
-      trommeslag (3 v) som varer (0.25) takter
       hvis <berører [Herbert v]?>
           si [Tok deg!] i (1) sekunder
       slutt
@@ -151,10 +154,9 @@ __Klikk på det grønne flagget.__
       pek mot [musepeker v]
       gå (10) steg
       neste drakt
-      trommeslag (3 v) som varer (0.25) takter
       hvis <berører [Herbert v]?>
           send melding [Fanget! v]
-          trommeslag (1 v) som varer (0.25) takter
+		  spill lyden [Mjau]
           si [Tok deg!] i (1) sekunder
           vent (1) sekunder
       slutt
@@ -165,15 +167,12 @@ __Klikk på det grønne flagget.__
 
 - [ ] Hent en ny drakt ved å trykke på
   ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  og velg `Fantasi/ghost2-a`
-
-- [ ] Gjør drakten mindre ved å velge ![Krymp](../bilder/krymp.png) og
-  trykke seks ganger på spøkelsesdrakten.
+  og velg `Fantasi/Ghost-a`
 
 - [ ] Endre navnene på Herberts drakter slik at musedrakten heter
   `levende` og spøkelsesdrakten heter `død`.
 
-- [ ] Gå til `Skript`-fanen, og lag et nytt skript for
+- [ ] Gå til `Kode`-fanen, og lag et nytt skript for
   Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle
   skriptet:
 
@@ -190,7 +189,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Forvandles Herbert til et spøkelse når han fanges?
 
-- [ ] Spiller Felix de riktige lydene til riktig tid?
+- [ ] Spiller Felix lyden sin til riktig tid?
 
 - [ ] Står Felix stille lenge nok til at Herbert kommer seg unna?
 
@@ -204,16 +203,16 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] På `Skript`-fanen under kategorien `Data`{.blockdata}, lag en ny
+- [ ] På `Kode`-fanen under kategorien `Variabler`{.blockdata}, lag en ny
   variabel. Kall variabelen for `Poeng`, og la den gjelde for alle
   figurer.
 
   ![Bilde av den nye poeng variabelen](ny-variabel-poeng.png)
 
-  Legg merke til at `Poeng `{}` 0 `{.blockdata}` ` dukket opp øverst til
-  venstre i spillet ditt.
+  Legg merke til at `Poeng 0` dukket opp øverst til venstre i spillet
+  ditt.
 
-- [ ] Klikk på `Scene` til venstre på skjermen, ved siden av
+- [ ] Klikk på `Scene` til høyre på skjermen, ved siden av
   `Figurer`. Lag disse to skriptene på scenen:
 
   ```blocks
@@ -244,5 +243,5 @@ __Klikk på det grønne flagget.__
 
 *Du er ferdig. Godt gjort. Nå kan du spille spillet!*
 
-Du kan dele spillet med familie og venner ved å trykke `Legg ut` på
+Hvis du er logget inn med din scratchbruker kan du dele spillet med familie og venner ved å trykke `Legg ut` på
 menylinjen.

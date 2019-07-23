@@ -28,7 +28,7 @@ skjermen.*
 
 - [ ] Vel ein ny figur ved å klikke
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Finn
-  eit skummelt spøkelse! Me har brukt `Fantasi/Ghost2`.
+  eit skummelt spøkelse! Me har brukt `Fantasi/Bat`.
 
 - [ ] Trykk på `i`{.blockmotion} øvst til venstre på den nye
   spøkelsesfiguren din. Gi den namnet `Spøkelse`.
@@ -85,17 +85,17 @@ skjermen.*
 
 # Steg 2: Ein ny animasjon {.activity}
 
-*Som vår andre animasjon skal me få ein demon til å flyge mot oss.*
+*Som vår andre animasjon skal me få ein flaggermus til å flyge mot oss.*
 
-![Bilete av ein skummel demon](demon.png)
+![Bilete av ein skummel flaggermus](flaggermus.png)
 
 ## Sjekkliste {.check}
 
 - [ ] Lag ein ny figur ved å klikke ![Velg figur fra
   biblioteket](../bilder/hent-fra-bibliotek.png). Me har brukt `Fantasi/Ghoul`.
-  Endre namnet på figuren til `Demon`.
+  Endre namnet på figuren til `Flaggermus`.
 
-- [ ] For at det skal sjå ut som demonen kjem flygande mot oss vil me at den
+- [ ] For at det skal sjå ut som flaggermusen kjem flygande mot oss vil me at den
   skal starte veldig liten og bli større. Lag dette skriptet:
 
   ```blocks
@@ -124,7 +124,7 @@ skjermen.*
 - [ ] Klikk på skriptet for spøkelset. Bli spøkelset skjult når det er ferdig
   med å fly fram og attende?
 
-- [ ] Me kan gjere det same med demonen sitt skript. Klikk på demon-figuren og
+- [ ] Me kan gjere det same med flaggermusen sitt skript. Klikk på flaggermus-figuren og
   endre skriptet til
 
   ```blocks
@@ -136,7 +136,7 @@ skjermen.*
   gøym
   ```
 
-- [ ] For å få litt variasjon vil me at demonen skal animerast over ein skummel
+- [ ] For å få litt variasjon vil me at flaggermusen skal animerast over ein skummel
   skog. Klikk på  ![Velg en ferdig
   bakgrunn](../bilder/bakgrunn-fra-bibliotek.png) heilt til venstre på skjermen,
   og vel bakgrunnen  `Utendørs/forest`. Gi bakgrunnen namnet `Skog`.
@@ -189,17 +189,17 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 - [ ] Send meldinga ved å klikke på `send melding`{.blockevents}-klossen.
   Blir spøkelset animert over ein svart bakgrunn?
 
-- [ ] No skal me gjere det same for demonen. Legg til eit nytt skript på scena:
+- [ ] No skal me gjere det same for flaggermusen. Legg til eit nytt skript på scena:
 
   ```blocks
-  når eg får meldinga [Animer demon v]
+  når eg får meldinga [Animer flaggermus v]
   byt bakgrunn til [Skog v]
   ```
 
-- [ ] Klikk på demonfiguren og endre skriptet slik
+- [ ] Klikk på flaggermusfiguren og endre skriptet slik
 
   ```blocks
-  når eg får meldinga [Animer demon v]
+  når eg får meldinga [Animer flaggermus v]
   set storleik til (0) %
   vis
   gjenta (100) gongar
@@ -211,12 +211,12 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 - [ ] Legg til klossen
 
   ```blocks
-  send meldinga [Animer demon v]
+  send meldinga [Animer flaggermus v]
   ```
 
   for å teste at animasjonen fungerer.
 
-- [ ] Send meldingane som animerer spøkelset og demonen. Startar animasjonane
+- [ ] Send meldingane som animerer spøkelset og flaggermusen. Startar animasjonane
   når du klikkar på meldingane? Blir bakgrunnane bytta riktig?
 
 
@@ -233,7 +233,7 @@ bakgrunnen og å starte spøkelsesanimasjonen.
   ```blocks
   for alltid
       send meldinga [Animer spøkelse v] og vent
-      send meldinga [Animer demon v] og vent
+      send meldinga [Animer flaggermus v] og vent
   slutt
   ```
 
@@ -247,7 +247,7 @@ bakgrunnen og å starte spøkelsesanimasjonen.
   for alltid
       send meldinga [Animer spøkelse v] og vent
       vent (1) sekund
-      send meldinga [Animer demon v] og vent
+      send meldinga [Animer flaggermus v] og vent
       vent (1) sekund
   slutt
   ```
@@ -260,7 +260,7 @@ bakgrunnen og å starte spøkelsesanimasjonen.
   for alltid
       send meldinga [Animer spøkelse v] og vent
       vent (1) sekund
-      send meldinga [Animer demon v] og vent
+      send meldinga [Animer flaggermus v] og vent
       vent (1) sekund
   slutt
   ```
@@ -274,7 +274,7 @@ bakgrunnen og å starte spøkelsesanimasjonen.
   gå til x: (0) y:(0)
   ```
 
-- [ ] Legg til eit tilsvarande skript på demonen:
+- [ ] Legg til eit tilsvarande skript på flaggermusen:
 
   ```blocks
   når @greenFlag vert trykt på
@@ -356,7 +356,7 @@ __Klikk på det grøne flagget.__
   for alltid
       send meldinga [Animer spøkelse v] og vent
       vent (1) sekund
-      send meldinga [Animer demon v] og vent
+      send meldinga [Animer flaggermus v] og vent
       vent (1) sekund
       send meldinga [Animer graskar v] og vent
       vent (1) sekund

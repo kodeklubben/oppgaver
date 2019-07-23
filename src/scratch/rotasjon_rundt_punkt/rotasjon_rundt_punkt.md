@@ -31,7 +31,7 @@ biblioteket til Scratch. Denne figuren er tilnærmet lik en likebeint trekant*
       biblioteket](../bilder/hent-fra-bibliotek.png)-knappen og velg
       trollmannshatten. Vi har brukt `Ting/Wizard Hat`-figuren.
 
-- [ ] Gi den nye figuren navnet `Hattulf` ved å klikke på `i`.
+- [ ] Gi den nye figuren navnet `Hattulf`.
 
 - [ ] Før vi begynner med selve oppgaven, skal vi legge inn en liten
       hjelpefunksjon om noe uventet skulle skje:

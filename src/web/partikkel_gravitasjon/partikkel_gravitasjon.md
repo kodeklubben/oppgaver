@@ -8,9 +8,9 @@ language: nb
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi ta utgangspunkt i animasjone vi lagde i oppgaven
-[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html). Dersom
-du ikke har gjort denne oppgaven anbefaler vi deg om å gå tilbake å gjøre den
-før du fortsetter her.
+[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon). 
+Dersom du ikke har gjort denne oppgaven anbefaler vi deg om å gå tilbake å gjøre 
+den før du fortsetter her.
 
 Oppgaven her går ut på å legge til gravitasjon på `Partikkel`-objektet. Du vil
 få presentert hva du skal gjøre, så du må selv finne ut hvordan man skriver kode

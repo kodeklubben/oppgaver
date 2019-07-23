@@ -13,29 +13,27 @@ og animasjoner. Når det er ferdig vil det se omtrent slik ut.
 
 ![Eksempel på bilde av et julekort](julekort.png)
 
-
 # Steg 1: Endre bakgrunn og finne figurer {.activity}
-
-Når du er klar til å starte velger du `Programmering` i menyen øverst
-på siden <http://scratch.mit.edu/>. Da kommer vi inn i Scratch.
-
-![Bilde av hvordan starte Scratch fra nettsiden](programmering.png)
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på scenen ved siden av kattefiguren `Sprite1` i vinduet for
-  figurer. Trykk på ![bilde av bakgrunn ikonet](../bilder/bakgrunn-fra-bibliotek.png) for å
-  importere en ferdig bakgrunn. Velg den bakgrunnen du vil. Slett
-  deretter den tomme bakgrunnen som ligger der.
+- [ ] Start et nytt prosjekt. Når du står på startsiden til Scratch,
+  trykk på navnet ditt øverst i høyre hjørne.  Trykk så "Mine ting" og
+  til slutt "Nytt prosjekt". Du vil se en katt som venter på å bli
+  programmert!
 
-  ![Bilde av hvor ny bakgrunn ikonet i scratch ligger](ny_bakgrunn.png)
+- [ ] Trykk på
+![Velg figur fra biblioteket](../bilder/velg-bakgrunn.png) nede til
+høyre for å importere en ferdig bakgrunn. Velg den bakgrunnen du
+vil. Trykk så `Scene`, `Bakgrunner`, velg den tomme bakgrunnen til
+venstre, og slett den ved å høyreklikke på den og velg `Slett`.
 
 - [ ] Slett kattefiguren `Sprite1` ved å høyreklikke på ham og slette.
 
-- [ ] Velg nye figurer fra biblioteket. Legg til isbjørnen, snømannen og
-  juletreet.
+- [ ] Velg nye figurer fra biblioteket med dette ikonet nede til
+  høyre: ![Hent fra bibliotek](../bilder/hent-fra-bibliotek.png)
 
-  ![Bilde av hvor nye figurer ikonet i scratch ligger](velg_figurer.png)
+   Legg til isbjørnen, snømannen og juletreet.
 
 
 # Steg 2: Legge til kode {.activity}
@@ -122,13 +120,15 @@ Da har du jobbet godt! Om du fortsatt har ledig tid kan du:
 - [ ] Legge til din egen velkomsthilsen, for eksempel "God jul" eller du
 kan synge din egen julesang.
 
-  Klikk på `Scene`, og velg fanen `Lyder`{.blocklightgrey}.
+  Klikk på `Scene`, og velg fanen `Lyder`{.blocklightgrey}. Flytt
+  musepekeren over `Velg en lyd`-ikonet helt nede til venstre, og
+  klikk `Spill inn lyd`.
 
   ![Bilde av fanen "Lyder" i Scratch](lyder.png)
 
-  Ta op din egen lyd, og gi den et navn, for eksempel
-  `julehilsen`. Gå deretter inn på `Skript`{.blocklightgrey}, og
-  legg inn følgende kode:
+   Ta opp din egen lyd, og gi den et navn, for
+  eksempel `julehilsen`. Gå deretter inn på `Skript`{.blocklightgrey},
+  og legg inn følgende kode:
 
   ```blocks
   når grønt flagg klikkes
@@ -142,9 +142,7 @@ julepresanger? Du bestemmer!
 
 # Steg 4: Lagre og publisere {.activity}
 
-Gi julekortet ditt et navn. Velg deretter `Lagre nå` fra `Fil`menyen.
-
-![Bildet av menyen i Scratch](lagre.png)
+Gi julekortet ditt et navn. Klikk `Fil`-menyen øverst til venstre, og klikk `Lagre nå` under den.
 
 Deretter kan du publisere julekortet ditt ved å velge `Legg ut`.
 

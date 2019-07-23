@@ -16,16 +16,16 @@ Spillet er som følger:
 
 1. Brukeren gjetter et tall mellom 1 og 100.
 
-2. Programmet skriver ut:
+1. Programmet skriver ut:
 
-  * `Higher!` hvis tallet var for lavt.
+    * `Higher!` hvis tallet var for lavt.
 
-  * `Lower!` hvis tallet var for høyt.
+    * `Lower!` hvis tallet var for høyt.
 
-  * Hvis brukeren gjetter riktig tall skal programmet skrive ut `Correct!` og
+    * Hvis brukeren gjetter riktig tall skal programmet skrive ut `Correct!` og
     avslutte.
 
-3. Så lenge brukeren ikke har gjettet tallet, så må programmet spørre om et nytt
+1. Så lenge brukeren ikke har gjettet tallet, så må programmet spørre om et nytt
   tall (brukeren har uendelig mange forsøk).
 
 Slik ser det ut når programmet kjører:
@@ -57,9 +57,9 @@ Hva gjør disse funksjonskallene?
 
 ## int() {.protip}
 
-Når man får input fra brukeren får man en *tekststreng*, selv om brukeren skrev
-et tall, da kan det være greit å kunne konvertere teksten til et tall, ved hjelp
-av `int()`.
+Når man får input fra brukeren får man en tekst, som på fagspråket kalles
+*streng*, selv om brukeren skrev et tall, da kan det være greit å kunne
+konvertere teksten til et tall, ved hjelp av `int()`.
 
 Hva er forskjellen på disse kodesnuttene? (Kjør koden og test selv!)
 

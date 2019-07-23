@@ -24,24 +24,21 @@ spise alle byttedyrene som svømmer rundt i havet.
 - [ ] Start et nytt Scratch prosjekt.
 
 - [ ] __Riktig bakgrunn__ får du ved å velge `Scene` og så `Bakgrunner`-fanen.
-  Importer bakgrunnen `Natur/underwater3` ved å velge ![Velg en ferdig
+  Importer bakgrunnen `Natur/underwater2` ved å velge ![Velg en ferdig
   bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Slett så den opprinnelige
-  bakgrunnen `backdrop1`.
+  bakgrunnen `bakgrunn1`.
 
-- [ ] Endre Sprite1's navn til `JafseFisk` ved å klikke på katten og deretter på
-  det blå `i`{.blockmotion}-symbolet.
+- [ ] Slett Figur1 og legg til en ny figur `Dyr/Shark 2`ved å trykke på ![Velg drakt
+  fra biblioteket](../bilder/hent-fra-bibliotek.png).
 
-- [ ] Gi figuren en haidrakt ved å gå til `Drakter`-fanen og velge ![Velg drakt
-  fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg drakten
-  `Dyr/shark-b`. Kall drakten `Åpen munn`. Slett så figurens kattedrakter.
-
-- [ ] Klikk på det blå `i`{.blockmotion}-symbolet igjen, og pass på at figuren
+- [ ] Pass på at figuren
   bare kan bevege seg fra side til side ved å velge rotasjonsmåte
   ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
 - [ ] Få fisken til å følge musepekeren rundt i sjøen ved å lage dette skriptet:
 
   ```blocks
+  bytt drakt til [shark2-b]
   når grønt flagg klikkes
   for alltid
       pek mot [musepeker v]
@@ -67,6 +64,7 @@ __Klikk på det grønne flagget.__
 
   ```blocks
   når grønt flagg klikkes
+  bytt drakt til [shark2-b]
   for alltid
       hvis <(avstand til [musepeker v]) > [10]>
           pek mot [musepeker v]
@@ -93,11 +91,8 @@ bevegelsene.
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til en ny figur fra biblioteket ved å bruke `Dyr/Fish2`. Gi figuren
+- [ ] Legg til en ny figur fra biblioteket ved å bruke `Dyr/Fish`. Gi figuren
   navnet `Byttedyr`.
-
-- [ ] Gjør figuren mindre ved å bruke krympeknappen
-  ![krymp](../bilder/krymp.png) som ligger over den røde stopp-knappen.
 
 - [ ] Få byttedyret til å bevege seg i tilfeldige retninger. Først skal vi la
   det bevege seg litt framover, og så snu en tilfeldig valgt vinkel med eller
@@ -105,6 +100,7 @@ bevegelsene.
 
   ```blocks
   når grønt flagg klikkes
+  sett størrelse til (40) %
   for alltid
       gå (2) steg
       vend venstre (tilfeldig tall fra (-20) til (20)) grader
@@ -184,8 +180,12 @@ __Klikk på det grønne flagget.__
   y: (tilfeldig tall fra (-170) til (170))`{.b} som vi gir tilfeldige verdier
   for `x` og `y`.
 
+- [ ] For å sikre oss at byttedyret alltid er synlig når vi starter spillet legger
+  vi også til en 'vis'-kloss i starten av skriptet til byttedyret.
+
   ```blocks
   når grønt flagg klikkes
+  vis
   for alltid
       gå (2) steg
       vend venstre (tilfeldig tall fra (-20) til (20)) grader
@@ -221,6 +221,7 @@ __Klikk på det grønne flagget.__
 
   ```blocks
   når grønt flagg klikkes
+  vis
   for alltid
       gå (2) steg
       vend venstre (tilfeldig tall fra (-20) til (20)) grader
@@ -238,22 +239,19 @@ __Klikk på det grønne flagget.__
 Nå vil vi at JafseFisk reagerer på denne meldingen ved å lage en gomlelyd og
 klikke med kjevene.
 
-- [ ] Legg til drakten `Dyr/shark-a` og lyden `Effekter/bubbles` på JafseFisk.
-  Kall drakten `Lukket munn`.
-
 - [ ] Legg så til et nytt skript til JafseFisk slik at han kan svare på
   meldingen `Du tok meg!` fra byttedyret. Dette skriptet gjør at fisken spiller
-  av boblelyden og `bytt drakt til [Åpen munn v]`{.b} drakten, venter litt og så
+  av en bitelyd og `bytt drakt til [Shark2-a v]`{.b} drakten, venter litt og så
   bytter tilbake.
 
   ```blocks
   når jeg mottar [Du tok meg! v]
-  spill lyden [bubbles v]
+  spill lyden [bite v]
   gjenta (2) ganger
-      bytt drakt til [Lukket munn v]
-      vent (0.5) sekunder
-      bytt drakt til [Åpen munn v]
-      vent (0.5) sekunder
+      bytt drakt til [Shark2-a v]
+      vent (0.3) sekunder
+      bytt drakt til [Shark2-b v]
+      vent (0.3) sekunder
   slutt
   ```
 
