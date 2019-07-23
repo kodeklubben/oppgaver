@@ -32,7 +32,7 @@ kloner!
   på scenen:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   send melding [Nytt spill v]
   ```
 
