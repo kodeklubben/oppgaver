@@ -22,7 +22,7 @@ _Vi begynner med å vise et tall når vi rister på micro:biten._
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-      [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=\_blank}.
+      [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}.
 
 Hva betyr det å ha et tall som representerer en bombe? Vi kan lage en bombe-klokke som er et tall som sendes
 mellom micro:bitene ved hjelp av radioen. Bombeklokka skal telle ned, og når den blir `0`, skal den ringe.
