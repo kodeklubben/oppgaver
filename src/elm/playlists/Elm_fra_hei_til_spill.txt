@@ -1,9 +1,0 @@
-01_prov_i_nettleser/01_prov_i_nettleser.md
-02_funksjoner_elm_repl/02_funksjoner_elm_repl.md
-03_moduler_elm_reactor/03_moduler_elm_reactor.md
-04_input/04_input.md
-05_tegne/05_tegne.md
-06_lare_andres_spill/06_lare_andres_spill.md
-07_tell_sekunder/07_tell_sekunder.md
-08_mus/08_mus.md
-09_egen_kode/09_egen_kode.md

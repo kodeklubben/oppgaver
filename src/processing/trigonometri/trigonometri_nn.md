@@ -8,11 +8,11 @@ language: nn
 
 # Introduksjon {.intro}
 
-No som du kan teikne [mangekantar](../mangekanter/mangekanter_nn.html) (viss du
-ikkje har gjort oppgåva om mangekantar bør du gjere den fyrst), skal me sjå på
-ein spesiell type mangekantar: dei regulære mangekantane. Det vil seie dei
-mangekantane der lengda av kvar side er lik, og vinkelen i kvart hjørne er lik.
-Me skal dessutan teikne nokre av dei nære slektningane deira: dei regulære
+No som du kan teikne [mangekantar](https://oppgaver.kidsakoder.no/processing/mangekanter/mangekanter_nn) 
+(viss du ikkje har gjort oppgåva om mangekantar bør du gjere den fyrst), 
+skal me sjå på ein spesiell type mangekantar: dei regulære mangekantane. Det 
+vil seie dei mangekantane der lengda av kvar side er lik, og vinkelen i kvart hjørne 
+er lik. Me skal dessutan teikne nokre av dei nære slektningane deira: dei regulære
 stjernene.
 
 Det er ein stor fordel om du kan litt trigonometri før du startar med denne
