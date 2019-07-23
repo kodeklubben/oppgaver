@@ -39,7 +39,7 @@ La oss se hvordan vi kan bruke dette til å tegne sirkler!
 - [ ] Skriv det følgende skriptet på kattefiguren:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   begrens rotasjon [ikke roter v]
   gjenta for alltid
       sett x til ((100) * ([cos v] av (retning)))
@@ -87,7 +87,7 @@ flytte den!
   `(sentrumY)`{.b}-variablene:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   begrens rotasjon [ikke roter v]
   sett [sentrumX v] til [-100]
   sett [sentrumY v] til [50]
@@ -131,7 +131,7 @@ Nå skal vi prøve å få mange figurer til å gå i sirkel samtidig.
   i to deler, og endre den på denne måten:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gjenta (99) ganger
       sett [sentrumX v] til (tilfeldig tall fra (-150) til (150))
       sett [sentrumY v] til (tilfeldig tall fra (-100) til (100))
@@ -172,7 +172,7 @@ på et flagrende flagg.
   dem ut litt mer organisert. Skriv om skriptet som legger ut diskene dine slik:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   vis
   sett [radius v] til [25]
   sett [sentrumX v] til [-160]
@@ -224,7 +224,7 @@ Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
   flagget. Lag variabelen _for alle figurer_ og legg deretter til koden:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [flagg v] til [rrrrrhbbhrrrrr]
   ```
 
