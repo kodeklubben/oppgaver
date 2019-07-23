@@ -40,7 +40,7 @@ Du kan lese meir om portane på micro:bit-en her:
 
 - [ ] Finn `når knapp A vert trykt`-klossen. Du finn den i `Inndata`-kategorien.
 
-	![Bilete av når knapp A vert trykt-klossen](Knapp_A_trykkes.png)
+	![Bilete av når knapp A vert trykt-klossen](knapp_A_trykkes.png)
 
 
 # Steg 2: Komponer melodi {.activity}
@@ -51,7 +51,7 @@ Viss du set saman fleire toner får du ein melodi. No skal me vise korleis du ka
 komponere den velkjente "Happy Birthday". Viss me skriv den som noter ser den
 slik ut:
 
-	![Bilete av notene for Happy Birthday](noter.png)
+![Bilete av notene for Happy Birthday](noter.png)
 
 ## Sjekkliste {.check}
 
