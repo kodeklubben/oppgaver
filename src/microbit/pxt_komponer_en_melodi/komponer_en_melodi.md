@@ -49,7 +49,7 @@ Og setter du sammen tonene får du en melodi. Vi skal nå vise hvordan vi kan
 komponere den velkjente 'Happy birthday'. Skriver vi den som noter ser den slik
 ut:
 
-	![Bilde av noter for Happy Birthday](noter.png)
+![Bilde av noter for Happy Birthday](noter.png)
 
 ## Sjekkliste {.check}
 
