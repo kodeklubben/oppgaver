@@ -82,7 +82,7 @@ sjekksifferet 9 -- akkurat som det skal være.
     if (len(barcode) != 13) or not (barcode.isdigit()):
         return None
 
-    # Oversett strengen til en liste av sifre
+    # Oversett teksten til en liste av sifre
     digits = [int(d) for d in barcode]
 
     return digits

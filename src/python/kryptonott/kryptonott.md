@@ -26,7 +26,8 @@ viktig at du forstår denne koden, ettersom du skal lage nesten lik kode selv.
 ## Python 2 {.protip}
 
 Denne koden fungerer best med python 3. Dersom du har python 2, må du legge en
-`u` foran alle strenger. Altså `'asdf'` må skrives slik som dette: `u'asdf'`.
+`u` foran alle tekstvariabler. Altså `'asdf'` må skrives slik som dette:
+`u'asdf'`.
 
 ## Lag kommentarer med forklaring {.check}
 
@@ -98,15 +99,15 @@ skal se nesten helt lik ut som over.
 
 - [ ] Og returnere den dekrypterte teksten.
 
-- [ ] Test at funksjonen fungerer og prøv med dine egne strenger og
+- [ ] Test at funksjonen fungerer og prøv med dine egne tekst og
   krypteringsnøkler.
 
 - [ ] Kanskje du kan dele nøkkelen og sende den krypterte teksten til en venn?
 
 ## Cracking {.check}
 
-- [ ] Du skal nå prøve å knekke en kodet streng. Dette er vanskelig, så du må
-  lage en plan først. Strengen er:
+- [ ] Du skal nå prøve å knekke en kodet tekst. Dette er vanskelig, så du må
+  lage en plan først. Teksten er:
 
 ```
 q0Ø:;AI"E47FRBQNBG4WNB8B4LQN8ERKC88U8GEN?T6LaNBG4GØ""N6K086HB"Ø8CRHW"+LS79Ø""N29QCLN5WNEBS8GENBG4FØ47a
@@ -118,7 +119,7 @@ q0Ø:;AI"E47FRBQNBG4WNB8B4LQN8ERKC88U8GEN?T6LaNBG4GØ""N6K086HB"Ø8CRHW"+LS79Ø"
 
 - Språket i setningen er engelsk.
 
-- Finn en metode å sjekke om den dekrypterte strengen er korrekt. For eksempel
+- Finn en metode å sjekke om den dekrypterte teksten er korrekt. For eksempel
   kan du tenke på hvor mange mellomrom den burde inneholde?
 
 - For å generere mulige nøkler kan du bruke `itertools.product()`, prøv for
@@ -134,7 +135,7 @@ internett. Søk på *large english vocabulary word lists*.
 
 - [ ] Disse filene inneholder alle ord som finnes i en engelsk ordbok, separert
   med linjeskift. Finn ut hvordan du kan laste inn ordene fra filen (pass på at
-  du fjerner linjeskiftene) og bruk dem til å dekryptere en ny streng:
+  du fjerner linjeskiftene) og bruk dem til å dekryptere en ny tekst:
 
 ```
 t-JO:BK0aM,:CQ+ÆAGW?FJGB0KVCGMQ6SQN"GAIDL-PÅ7954E:7Jr,IÆoCF0M"CQdØVlHD53CÅ;IA2DMG5ØHDØVåL:JQØ439LRBBVEMTBÆ6CF0M"CQNAG8G1V6LÅ8FF4Z
