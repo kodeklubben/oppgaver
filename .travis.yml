@@ -11,6 +11,7 @@ stages:
     if: branch = master AND fork = false AND type = push
 
 before_install:
+  - pip install pathlib
   - python ./linter/LKK_linter.py
   - git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
   - cd ../codeclub-viewer
