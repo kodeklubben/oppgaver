@@ -4,7 +4,8 @@ matrix:
       python: 3.7.4
       script:
         - pip install pathlib termcolor colorama
-        - python ./linter/LKK_linter.py ./src/
+        - cd linter
+        - python LKK_linter.py -r -l ../src/
     
     - language: node_js
       branches:
