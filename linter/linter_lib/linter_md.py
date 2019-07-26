@@ -252,7 +252,7 @@ def print_lines_with_errors(md_filepath, data, lines_with_errors):
 def main(md_files):
 
     for md_filepath in md_files:
-        with open(md_filepath, "r") as f:
+        with open(md_filepath, "r", encoding='utf8') as f:
             md_data = f.read()
 
         lines_with_errors = find_lines_with_errors(md_data, md_filepath)
