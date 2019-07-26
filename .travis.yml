@@ -1,5 +1,7 @@
 language: node_js
 
+python: 3.7.4
+
 branches:
   only:
     - master
@@ -16,6 +18,7 @@ before_install:
 cache: yarn
 
 script:
+  - python ./linter/LKK_linter.py
   - yarn build:travis
 
 # Deploy only runs for push builds (merges), never for PR builds:
