@@ -4,6 +4,7 @@ matrix:
       python: 3.7.4
       script:
         - pip install pathlib
+        - pip install termcolor
         - python ./linter/LKK_linter.py
     
     - language: node_js
