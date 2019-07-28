@@ -38,7 +38,7 @@ Vi skal skrive funksjoner som kan brukes for å spille Bjelleklang.
 
 ## Sjekkliste {.check}
 
-- [ ] Lag din første funksjon ved å velge `Avansert` og deretter`Funksjoner` 
+- [ ] Lag din første funksjon ved å velge `Avansert` og deretter `Funksjoner` 
 og trykk på `Lag en funksjon`. Da vil du få opp en egen meny for å lage en 
 funksjon. Gi den navnet 'Bjelleklang' 
 
@@ -61,8 +61,8 @@ notene der vi synger 'Over skog og hei'. Da skal tonene
 
 - [ ] Nå er de nye funksjonene vi har laget tilgjengelige under `Funksjoner` 
 kategorien. Nå skal vi kode at sangen vår spilles når vi trykker på A-knappen, 
-og der vi  bruker de nye funksjonene vi har laget. For å få et OK tempo, kan 
-du legge til en `sett tempo til` - kloss fra `Musikk`-kategorien og sette 
+og der vi bruker de nye funksjonene vi har laget. For å få et OK tempo, kan 
+du legge til en `sett tempo til`-kloss fra `Musikk`-kategorien og sette 
 tempoet til `180 Bpm`
 
 	![Bilde av skript for å spille Bjelleklang](spill_bjelleklang.png)
@@ -81,14 +81,14 @@ Da kan du også vise et ikon av en bjelle som svinger mot venstre.
 	![Bilde av spill-tone klossen klossen](start_ikon.png)
 	
 Nå skal vi lage en funksjon som bytter ikonet som vises på micro:biten. Vi 
-bruker da variabelen c til å kontrollere hvilket ikon som skal vises. Siden 
-vi veksler mellom to ikon, kan variabelen `bilde` bilde kun ha to verdier. 
+bruker da variabelen `bilde` til å kontrollere hvilket ikon som skal vises. Siden 
+vi veksler mellom to ikon, kan variabelen `bilde` kun ha to verdier. 
 
 - [ ] Du må lage en ny funksjon som heter `ByttBilde`.
 
 - [ ] Inne i denne funksjonen må du legge inn en `hvis - ellers` kloss fra 
-`logikk` kategorien for å kunne teste for hvilke verdier variabelen `bilde` 
-har. Klosser for å sammenligne verdier ligger også under `logikk` kategorien. 
+`logikk`-kategorien for å kunne teste for hvilke verdier variabelen `bilde` 
+har. Klosser for å sammenligne verdier ligger også under `logikk`-kategorien. 
 Hvis den er `1` skal bjella svinge mot høyre, og hvis den er `2` skal bjella 
 svinge mot venstre. Etter at ikonet er vist, må vi endre verdien på 
 variabelen `bilde`.
@@ -98,8 +98,10 @@ variabelen `bilde`.
 - [ ] Lag en funksjon som heter `AnimerBjelleklang`. Pass på at den får med 
 seg to parametre av typen `Number` og kall disse `antall` og `pause`. Dette 
 gjør at hver kan vi kaller funksjonen kan bestemme hvor mange ganger bildet 
-skal byttes og hvor lenge hvert ikon vises. Funksjonen vil se slik ut til 
-slutt:
+skal byttes og hvor lenge hvert ikon vises. Når vi vil bruke parametrene 
+`antall` og `pause` inne i funksjonen, må du klikke på og 
+og deretter dra parameter-klossene som ligger på toppen av `AnimerBjelleklang`. 
+Funksjonen vil se slik ut til slutt:
  
 	![Bilde av animer_funksjonen](animer_funksjon.png)
 	
@@ -107,8 +109,8 @@ slutt:
 triks for å gjøre to ting samtidig når knapp A trykkes. Bruk en 
 `for-alltid` kloss og inne i denne legger du en `hvis` kloss som tester for 
 om knapp A trykkes. Da startes funksjonen som vi har kalt
-`AnimerBjelleklang` og vi kan gi med verdiene `8` og `260` till hhv `antall` 
-og `pause`slik at bjellene svinger sånn omtrent i takt med musikken. Du må 
+`AnimerBjelleklang` og vi kan gi med verdiene `8` og `260` til henholdsvis `antall` 
+og `pause` slik at bjellene svinger sånn omtrent i takt med musikken. Du må 
 kanskje justere `pause` for å få riktig hastighet.
 
 	![Bilde av skript for å kjøre animasjon](kjor_animasjon.png)
@@ -150,7 +152,7 @@ komponert!*
 - [ ] Last ned prosjektet til micro:biten og lytt!
 
 
-# Steg 4: Non utfordringer {.activity}
+# Steg 4: Noen utfordringer {.activity}
 
 *Noen forslag til endringer og utvidelser, men prøv selv dine ideer!*
 
@@ -158,6 +160,8 @@ komponert!*
 
 Du har nå lært hvordan du kan skrive en melodi i micro:biten. Nedenfor er noen 
 ideer til videreutvikling, men finn gjerne på noe helt eget!
+
+- [ ] Kan du skrive inn hele bjelleklang? 
 
 - [ ] Kan du endre hvor fort melodien spilles? 
 
