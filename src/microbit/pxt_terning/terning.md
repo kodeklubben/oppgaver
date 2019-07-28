@@ -29,7 +29,11 @@ Kan micro:biten vår brukes som en terning? Ja, det er faktisk ganske enkelt!
 
 - [ ] Sett sammen disse to klossene slik at skriptet ditt ser slik ut:
 
-    ![Bilde av "ristes" og "vis tall" klossene](risteskript_1.png)
+    ```microbit
+    input.onGesture(Gesture.Shake, function () {
+    basic.showNumber(1)
+    })
+    ```
 
 ## Test prosjektet {.flag}
 
@@ -100,7 +104,13 @@ den stopper.*
   ganger` fra `Løkker`-kategorien. Legg den rundt `vis tall`-klossen på denne
   måten:
 
-  ![Bilde av koden for å få terningen til å "rulle"](risteskript_2.png)
+  ```microbit
+  input.onGesture(Gesture.Shake, function () {
+    for (let i = 0; i < 4; i++) {
+        basic.showNumber(1 + Math.randomRange(0, 5))
+    }
+  })
+  ```
 
 - [ ] Test programmet ditt igjen. Skjønner du hva `gjenta`-løkken gjør? Prøv å
   endre på de forsjellige tallene i koden din. Hva blir annerledes når du rister
@@ -127,7 +137,15 @@ den stopper.*
   husker hvert terningkast. Legg til og flytt på klossene slik at skriptet ditt
   ser slik ut:
 
-  ![Viser scriptet som nå bruker variabelen terning](risteskript_3.png)
+  ```microbit
+  let terning = 0
+  input.onGesture(Gesture.Shake, function () {
+    for (let i = 0; i < 4; i++) {
+        terning = 1 + Math.randomRange(0, 5)
+        basic.showNumber(terning)
+    }
+  })
+  ```
 
 Om du tester prosjektet ditt nå skal det oppføre seg helt likt som før! Men
 denne endringen gir oss nye muligheter! Siden vi nå vet resultatet av
@@ -148,8 +166,18 @@ terningkastet kan vi for eksempel vise et smilefjes hver gang vi kaster en 6'er:
   rullet ferdig. Det betyr at vi må legge `hvis`-klossen etter løkken vi laget
   tidligere. Programmet ditt vil tilslutt se ut omtrent som dette:
 
-    ![Bilde av scriptet for å smile dersom terningen viser 6](risteskript_4.png)
-
+    ```microbit
+    let terning = 0
+    input.onGesture(Gesture.Shake, function () {
+    for (let i = 0; i < 4; i++) {
+        terning = 1 + Math.randomRange(0, 5)
+        basic.showNumber(terning)
+    }
+    if (terning == 6) {
+        basic.showIcon(IconNames.Happy)
+    }
+  })
+  ```
 
 # Steg 5: Mer avanserte terninger {.activity}
 
