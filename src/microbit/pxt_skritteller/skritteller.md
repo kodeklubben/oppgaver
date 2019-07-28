@@ -26,7 +26,6 @@ I denne variabelen skal vi lagre alle skrittene vi går.
 
 Nå bør koden din se ut som dette:
 
-  ![Bilde som viser hvordan vi setter vår nye skritt-variabel til 0.](variabel.png)
   ```microbit
   let skritt = 0
   ```
@@ -46,7 +45,6 @@ variabelen `skritt` på skjermen. Se om du finner disse klossene på egenhånd!
 
 Nå ligner nok koden din på dette:
 
-  ![Bilde av kode som viser variabelen skritt på skjermen](vis_skritt.png)
   ```microbit
   basic.forever(function () {
     basic.showNumber(skritt)
@@ -66,7 +64,6 @@ micro:biten på én fot. For hver gang micro:biten ristes har vi dermed tatt
  sette sammen disse klossene selv?
 
  Koden for å telle antall skritt bør se slik ut:
-![Bilde av kode som teller antall skritt hver gang microbiten ristes](tell_skritt.png)
 ```microbit
 input.onGesture(Gesture.Shake, function () {
     skritt += 2
