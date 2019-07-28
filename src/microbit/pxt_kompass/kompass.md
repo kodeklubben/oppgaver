@@ -24,12 +24,12 @@ Siden vi vet i hvilken retning micro:biten peker, kan vi beregne
 i hvilken retning et pilbilde på micro:biten må peke for å vise retning mot 
 nord.
 
-![Bilde av en kompassrose](kopmassrose.png)
+![Bilde av en kompassrose](kompassrose.png)
 
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}
 
 - [ ] Lag en ny varibel som heter `retning` inne i `Variabler` kategorien.
 
@@ -52,16 +52,16 @@ magnet-sensoren etter at du har lastet opp et nytt program på micro:biten,
 må den kalibreres. Du blir bedt om å vippe på micro:biten slik at det blir 
 lys på hele skjermen eller tegne en sirkel. Følg med på instruksjonen 
 micro:biten gir. Her er et eksempel på 
-  [kalibrering av kompass](https://dzwonsemrish7.cloudfront.net/items/3e0K2a0V3p0q1z1T352Y/compass%20calibration.mp4).
+  [kalibrering av kompass](https://dzwonsemrish7.cloudfront.net/items/3e0K2a0V3p0q1z1T352Y/compass%20calibration.mp4){target=_blank}
 
 
 # Steg 2: Vi viser pilen {.activity}
 
 Det er mye lettere å finne ut hvilken vei Nord er ved å legge inn en pil'
-som allltid peker mot nord. Vi skal bruke et pilbilde som kan peke i `8` 
+som alltid peker mot nord. Vi skal bruke et pilbilde som kan peke i `8` 
 ulike retninger. Vi må derfor tenke at vi deler kompassrosa opp i `8` 
 kakestykker eller segmenter som alle har en åpning på 
-`360<sup>o</sup> / 8 = 45<sup>o</sup>`. Segmentene for de `8` ulike 
+`360`<sup>o</sup> / `8` = `45`<sup>o</sup>. Segmentene for de `8` ulike 
 himmelretningene blir da:
 * Nord: `337.5`<sup>o</sup> til `22.5`<sup>o</sup>. 
 * Nord-vest: `22.5`<sup>o</sup> til `67.5`<sup>o</sup>. 
@@ -71,7 +71,7 @@ himmelretningene blir da:
 * Sør-øst: `202.5`<sup>o</sup> til `247.5`<sup>o</sup>.
 * Øst: `247.5`<sup>o</sup> til `292.5`<sup>o</sup>. 
 * Nord-øst: `292.5`<sup>o</sup> til `337.5`<sup>o</sup>.
-Da kan vi sette i gang med å teste for i hvilken retning micro:bten peker.
+Da kan vi sette i gang med å teste for i hvilken retning micro:biten peker.
 
 - [ ] Legg inn en `hvis ellers`-kloss fra `logikk`-kategorien. Trykk på 
 `+`-tegnet `7` ganger slik at du kan legge nye klosser inn i totalt `9` 
@@ -85,18 +85,25 @@ Da kan vi sette i gang med å teste for i hvilken retning micro:bten peker.
 - [ ] Nå må vi teste systematisk hvilken retning micro:biten peker i. Dette 
 gjør vi ved å teste for verdien av variabelen `retning` som har fått verdi 
 fra micro:biten sin kompassretning. Vi må legge inn en sammenlignings-kloss
-fra `logikk`-kategorien, og vi tester for om `retning` er mindre enn `22.5`.
-Da peker micro:biten mot nord, og vi viser pilbildet som peker mot nord. 
-I neste `ellers hvis`-test må vi finne ut om `retning` er mindre enn `67.5`.
-Da peker micro:biten mot nord-øst, mens micro:bitens nord-vest peker mot
+fra `logikk`-kategorien, og i første `hvis`-test må vi finne ut om `retning` 
+er mindre enn `22.5`. Da peker micro:biten omtrent mot nord, og vi viser 
+pilbildet som peker mot nord. 
+
+- [ ] I påfølgende `ellers hvis`-test må vi finne ut om `retning` er mindre enn 
+`67.5`. Da peker micro:biten mot nordøst, mens micro:bitens nordvest peker mot
 ekte nord. Siden vi vil at pilen skal peke mot ekte nord, må vi velge at 
-`pilbilde` viser `Nordvest`. Videre må vi teste for om om `retning` er mindre 
+`pilbilde` viser `Nordvest`. 
+
+- [ ] I påfølgende `ellers hvis`-test må vi finne ut om `retning` er mindre 
 enn `112.5`. Da peker micro:biten mot øst, mens micro:bitens vest peker mot
 ekte nord. Siden vi vil at pilen skal peke mot ekte nord, må vi velge at 
 `pilbilde` viser `Vest`. 
-Slik fortsetter vi rundt hele sirkelen. Vi tester for om `retning` er mindre
-enn `157.5`, `202.5`, `247.5`, `292.5` og `337.5` og vise `pilbilde` som
-peker mot hhv  `Sørvest`, `Sør`, `Sørøst`, `Øst`, `Nordøst`og `Nord`.
+
+- [ ] Slik fortsetter vi rundt hele sirkelen. Vi tester for om `retning` er 
+mindre enn `157.5`, `202.5`, `247.5`, `292.5` og `337.5` og vise `pilbilde` 
+som peker mot hhv  `Sørvest`, `Sør`, `Sørøst`, `Øst`, `Nordøst`og på siste 
+plass der vi ikke trenger å teste for `retning` siden den nødvendigvis er 
+større enn `337.5` vises `pilbilde` som heter `Nord`.
 
 ![Bilde som koden der pil peker mot ekte nord](kompass_skript_v2_1.png)
 
