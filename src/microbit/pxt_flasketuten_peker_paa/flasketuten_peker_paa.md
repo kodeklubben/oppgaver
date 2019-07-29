@@ -81,10 +81,10 @@ Altså: Velger vi tallet 4, viser vi en pil som peker mot Sør.
 
 Nå skal vi få pilen til å snurre og å stoppe i en tilfeldig retning.
 
-- [ ] Lag en funksjon som heter `snurr` og la den ha `number` som 
+- [ ] Lag en funksjon som heter `Snurr` og la den ha `number` som 
 parameter. Kall denne parameteren for `antall`. Da kan du bestemme
 hvor mange kanger pilen skal snurre rundt når du bruker funksjonen
-`snurr`.
+`Snurr`.
 
 - [ ] For å holde styr på hvor mange pilbilder som skal vises og hvilken pil 
 som skal vises hver gang, lager vi en variabel som heter `antallbilder` og en 
@@ -111,7 +111,7 @@ Dette siden `pilbilde`-lista har indekser fra `0` til `7`.
 
    ![Bilde av snurr-funksjonen](snurr_funksjon.png)
 
-- [ ] Nå kan vil kalle funksjonen `snurr` f.ek.s når knapp A trykkes.
+- [ ] Nå kan vil kalle funksjonen `Snurr` f.ek.s når knapp A trykkes.
 
    ![Bilde av "når knapp A trykkes" scriptet](knappA.png)
 
@@ -125,7 +125,7 @@ kan du teste at pilen snurrer og stopper i en tilfeldig retning.
 
 For å markere at pilen har sluttet å snurre, kan vi legge til at pilen blinker.
 
-- [ ] Lag en funksjon som heter `blink` og la den ha en number-parameter som 
+- [ ] Lag en funksjon som heter `Blink` og la den ha en number-parameter som 
 heter `retning`.
 
 - [ ] Legg til en `gjenta`-kloss fra `Løkker`-kategorien og gjenta f.eks. 
@@ -139,7 +139,7 @@ hvilket av de åtte pilbildene som vises. Ta en ny pause i `50` ms.
 
    ![Bilde av blink-funksjonen](blink.png)
    
-- [ ] Nå kan du kalle funksjonen `blink` helt i slutten av funksjonen `snurr`. 
+- [ ] Nå kan du kalle funksjonen `Blink` helt i slutten av funksjonen `Snurr`. 
 Da må du spesifisere hvilken retning pilen skal peke i.
 
    ![Bilde av snurr-funksjonen](snurr_funksjon_2.png)
@@ -167,8 +167,8 @@ er noen ideer til videreutvikling, men finn gjerne på noe helt eget!
 
 - [ ] Kan du bruke et annet bilde, f.eks. bytte ut bilde av pil med kun en led som viser retning? 
 
-- [ ] Kan du endre bilder som brukes og f.ek.s lage en terning?
+- [ ] Kan du endre bilder som brukes og lage et annet spill, for eksempel en terning?
 
 - [ ] Hvis dere er tre-fire sammen kan dere legge inn samme sekvens av bilder og se hvor ofte dere
-klarer å vise samme bilde på micro:bitene.
+klarer å vise samme bilde på micro:bitene. Da har dere lage en enarmet banditt.
 
