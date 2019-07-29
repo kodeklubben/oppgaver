@@ -42,7 +42,7 @@ For å koble til joystick-en trenger vi noe ekstra utstyr:
 
 - [ ] Sjekk en gang til at du har koblet riktig som vist på bildet nedenfor:.
 
-    ![Bilde av start-skriptet](koblinger.png)
+    ![Bilde av koblinger](koblinger.png)
 	
 
 # Steg 2: Vi koder micro:biten {.activity}
