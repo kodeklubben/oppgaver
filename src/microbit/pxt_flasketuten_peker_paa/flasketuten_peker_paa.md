@@ -142,7 +142,7 @@ hvilket av de åtte pilbildene som vises. Ta en ny pause i `50` ms.
 - [ ] Nå kan du kalle funksjonen `blink` helt i slutten av funksjonen `snurr`. 
 Da må du spesifisere hvilken retning pilen skal peke i.
 
-   ![Bilde av snurr-funksjonen](snurr_funksjon.png)
+   ![Bilde av snurr-funksjonen](snurr_funksjon_2.png)
 
 ## Test prosjektet {.flag}
 
