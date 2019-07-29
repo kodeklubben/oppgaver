@@ -30,7 +30,6 @@ For å koble til joystick-en trenger vi noe ekstra utstyr:
     ![Bilde av koblingsbrett](koblingsbrett.png)
 
 
-
 ## Sjekkliste {.check}
 
 - [ ] Svart ledning festes på `GND` på joystick og på en av `0V` på tilkoblingsenheten.
@@ -49,7 +48,7 @@ For å koble til joystick-en trenger vi noe ekstra utstyr:
 # Steg 2: Vi koder micro:biten {.activity}
 
 For å kode micro:biten må vi forstå hvordan koblingen vi laget i forrige steg
-fungerer. Strøm vil gå fra `3V` på micro:bit-en til `+5V` på Joysticken. Strøm 
+fungerer. Strøm vil gå fra `3V` på micro:biten til `+5V` på Joysticken. Strøm 
 vil så gå tilbake fra `GND` på joystick til `0V` (`GND`) på Micro:bit-en. 
 Joysticken vil også sende litt strøm over `VRx` og `VRy` og mengden strøm vil 
 avhenge av hvor mye vi beveger pinnen på joysticken langs X-aksen (side til 
