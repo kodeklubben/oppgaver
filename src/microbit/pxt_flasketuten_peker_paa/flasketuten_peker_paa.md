@@ -52,7 +52,7 @@ Variabelen `pilliste` har de åtte pilene der hver pil har et nummer. I
 tabellen under finner du en oversikten over pilene, både med norske og 
 engelske navn.
 
-|      Pil     	|   ↑   	|      ↗    	|   →  	|      ↘     	|   ↓   	|           	|   ←  	|       &#8598   	|
+|      Pil     	|   ↑   	|      ↗     	|   →  	|      ↘     	|   ↓   	|      ↙     	|   ←  	|      ↖     	|
 |:------------:	|:-----:	|:----------:	|:----:	|:----------:	|:-----:	|:----------:	|:----:	|:----------:	|
 |    Nummer    	|   0   	|      1     	|   2  	|      3     	|   4   	|      5     	|   6  	|      7     	|
 |  Norsk navn  	|  Nord 	|   Nordøst  	|  Øst 	|   Sørøst   	|  Sør  	|   Sørvest  	| Vest 	|  Nordvest  	|
