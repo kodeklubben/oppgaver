@@ -12,7 +12,7 @@ for å gjøre ulike ting.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, IT.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
@@ -22,14 +22,14 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [] __Programmering, 10. trinn:__ bruke flere programmeringsspråk der minst ett
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk der minst ett
   er tekstbasert
 
-- [] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
   programmering, slik som løkker, tester, variabler, funksjoner og enkel
   brukerinteraksjon
 
-- [] __IT2, VG3:__ lage egne og bruke egne og andres funksjoner eller metoder
+- [ ] __IT2, VG3:__ lage egne og bruke egne og andres funksjoner eller metoder
   med parametere
 
 ## Forslag til læringsmål {.challenge}

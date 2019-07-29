@@ -11,7 +11,7 @@ I denne oppgaven skal elevene lage en digital terning av micro:bit-en.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Matematikk, programmering, IT.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
@@ -21,15 +21,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [] __Matematikk, 7. trinn:__ vurdere og samtale om sjanser i dagligdagse
+- [ ] __Matematikk, 7. trinn:__ vurdere og samtale om sjanser i dagligdagse
   sammenhenger, spill og eksperimenter og beregne sannsynlighet i enkle
   situasjoner
 
-- [] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
   programmering, slik som løkker, tester, variabler, funksjoner og enkel
   brukerinteraksjon
 
-- [] __IT2, VG3:__ programmere med valg og gjentakelser
+- [ ] __IT2, VG3:__ programmere med valg og gjentakelser
 
 ## Forslag til læringsmål {.challenge}
 

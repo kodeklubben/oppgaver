@@ -22,7 +22,7 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
   programmering, slik som løkker, tester, variabler, funksjoner og enkel
   brukerinteraksjon
 

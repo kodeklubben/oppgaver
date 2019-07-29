@@ -12,7 +12,7 @@ I denne oppgaven skal elevene lage et program som får et lys på micro:biten ti
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Matematikk, programmering.
 
 __Anbefalte trinn__: 5. trinn - VG3
 

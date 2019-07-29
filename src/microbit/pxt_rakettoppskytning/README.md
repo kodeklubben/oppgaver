@@ -12,7 +12,7 @@ som skytes opp på skjermen.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Kunst og håndverk, programmering.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
@@ -22,9 +22,9 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [] __K&H, 2. trinn:__ bygge med enkle geometriske grunnformer
+- [ ] __K&H, 2. trinn:__ bygge med enkle geometriske grunnformer
 
-- [] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
   programmering, slik som løkker, tester, variabler, funksjoner og enkel
   brukerinteraksjon
 

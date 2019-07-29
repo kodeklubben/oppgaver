@@ -22,7 +22,7 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [] __Programmering, 10. trinn:__ bruke flere programmeringsspråk der minst ett er tekstbasert
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk der minst ett er tekstbasert
 
 ## Forslag til læringsmål {.challenge}
 
