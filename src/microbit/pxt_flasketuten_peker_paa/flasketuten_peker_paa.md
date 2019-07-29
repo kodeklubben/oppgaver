@@ -1,6 +1,6 @@
 ---
 title: "PXT: Flasketuten peker på"
-author: Kolbjørn Engeland
+author: Kolbjørn Engeland, Julie Christina Revdahl
 language: nb
 ---
 
@@ -24,7 +24,7 @@ totalt åtte piler.
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}
 
 - [ ] Gå til `Avansert` og fra `Bilde`-kategorien velger du en 
 `show image at offset`-kloss og legg den inne i `ved start` -blokken.
@@ -35,17 +35,49 @@ totalt åtte piler.
 - [ ] Lag først en variabel som heter `pilliste`
 
 - [ ] Gå til `Avansert` og `Lister`-kategorien. Der velger du en 
-`sett list til array of` -kloss. Pass på at du bruker variabelen `Pilbilde`
+`sett list til array of`-kloss. Pass på at du bruker variabelen `Pilbilde`
 Du må gjøre klart til åtte elementer i lista.
 
 - [ ] Gå til `Avansert` og `Bilder`-kategorien. Du legger inn en
-`pilbilde` -kloss i hvert av de åtte elementer i lista. La de peke 
+`pilbilde`-kloss i hvert av de åtte elementer i lista. La de peke 
 i hver sin retning, og la de følge klokka slik at pilen snurre fint rundt.
 
     ![Bilde av start-skriptet](startskript.png)
 
 
-# Steg 2: Vi snurrer pilen {.activity}
+# Steg 2: Velge en tilfeldig pil {.activity}
+
+Her skal du velge mellom piler som peker i åtte forskjellige retninger. 
+Variabelen `pilliste` har de åtte pilene der hver pil har et nummer. I
+tabellen under finner du en oversikten over pilene, både med norske og 
+engelske navn.
+
+|      Pil     	|   ↑   	|      ↗    	|   →  	|      ↘     	|   ↓   	|           	|   ←  	|       &#8598   	|
+|:------------:	|:-----:	|:----------:	|:----:	|:----------:	|:-----:	|:----------:	|:----:	|:----------:	|
+|    Nummer    	|   0   	|      1     	|   2  	|      3     	|   4   	|      5     	|   6  	|      7     	|
+|  Norsk navn  	|  Nord 	|   Nordøst  	|  Øst 	|   Sørøst   	|  Sør  	|   Sørvest  	| Vest 	|  Nordvest  	|
+| Engelsk navn 	| North 	| North East 	| East 	| South East 	| South 	| South West 	| West 	| North West 	|
+
+Å velge en tilfeldig pil, blir derfor det samme som å velge et tilfeldig tall.
+Altså: Velger vi tallet 4, viser vi en pil som peker mot Sør.
+
+## Sjekkliste {.check}
+
+ - [ ] Lag en ny variabel som skal lagre det tilfeldige tallet.
+
+ - [ ] Sett denne variabelen til et tilfeldig tall mellom 0 og 7.
+
+ - [ ] Legg inn en`show image`-kloss fra `Bilde`-kategorien. Så må vi legge 
+ inn en `list får en verdi ved`-kloss fra `Lister`-kategorien. Velg 
+ liste-variabelen `pilbilde` og la variabelen `retning` bestemme hvilket av 
+ de åtte pilbildene som vises.
+
+ - [ ] Koden burde nå se slik ut:
+
+ ![Bilde som viser hvordan vi velger et tilfeldig tall mellom 0 og 7 og deretter lagrer dette til en ny variabel](tilfeldig.png)
+
+
+# Steg 3: Vi snurrer pilen {.activity}
 
 Nå skal vi få pilen til å snurre og å stoppe i en tilfeldig retning.
 
@@ -56,9 +88,9 @@ hvor mange kanger pilen skal snurre rundt når du bruker funksjonen
 
 - [ ] For å holde styr på hvor mange pilbilder som skal vises og hvilken pil 
 som skal vises hver gang, lager vi en variabel som heter `antallbilder` og en 
-som heter `pilbilde`
+som heter `pilbilde`.
 
-- [ ] Vi vet at ett snurr inneholder åtte bilder.Til slutt vil vi at pilen 
+- [ ] Vi vet at ett snurr inneholder åtte bilder. Til slutt vil vi at pilen 
 skal stoppe ved en tilfeldig retning. Vi setter derfor `antallbilder` 
 til `antall*8 + tilfeldig tall fra 0 til 7`. Vi setter `pilindeks` 
 til `0`.
@@ -68,7 +100,7 @@ til `0`.
 
 - [ ] Inne i `gjenta`-klossen kan bildet vises ved å legge inn `show image`
 -kloss fra `Bilde`-kategorien. Nå må vi legge inn en 
-`list får en verdi ved'-kloss fra `Lister`-kategorien. 
+`list får en verdi ved`-kloss fra `Lister`-kategorien. 
 Velg liste-variabelen `pilbilde` og la variabelen `pilindeks` bestemme 
 hvilket av de åtte pilbildene som vises.
 
@@ -86,10 +118,10 @@ Dette siden `pilbilde`-lista har indekser fra `0` til `7`.
 ## Test prosjektet {.flag}
 
 - [ ] Til venstre på skjermen er det et bilde av en micro:bit. Her 
-kan du teste at pilen snurrer og supper i en tilfeldig retning.
+kan du teste at pilen snurrer og stopper i en tilfeldig retning.
 
 
-# Steg 3: Pilen blinker. {.activity}
+# Steg 4: Pilen blinker. {.activity}
 
 For å markere at pilen har sluttet å snurre, kan vi legge til at pilen blinker.
 
@@ -118,3 +150,25 @@ Da må du spesifisere hvilken retning pilen skal peke i.
 teste at pilen snurrer og blinker som den skal.
 
 - [ ] Du kan laste ned programmet til til micro:biten.
+
+- [ ] Nå kan dere leke Flasketuten peker på.
+
+
+# Steg 4: Noen utfordringer {.activity}
+
+*Noen forslag til endringer og utvidelser, men prøv selv dine ideer!*
+
+## Flere ideer {.check}
+
+Du har nå lært hvordan du kan lage en enkel animasjon med micro:bit. Nedenfor 
+er noen ideer til videreutvikling, men finn gjerne på noe helt eget!
+
+- [ ] Kan du få pile til å snurre i motsatt retning? 
+
+- [ ] Kan du bruke et annet bilde, f.eks. bytte ut bilde av pil med kun en led som viser retning? 
+
+- [ ] Kan du endre bilder som brukes og f.ek.s lage en terning?
+
+- [ ] Hvis dere er tre-fire sammen kan dere legge inn samme sekvens av bilder og se hvor ofte dere
+klarer å vise samme bilde på micro:bitene.
+
