@@ -16,7 +16,7 @@ I denne oppgaven er målet å få micro:biten vår til å vise et tilfeldig tall
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] For at vi skal få noe til å skje, må vi ha en blokk som gjør noe når knapp
  A trykkes inn. Denne klossen finner vi ved å gå i kategorien `Inndata` i menyen
