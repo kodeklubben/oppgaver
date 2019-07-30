@@ -15,7 +15,7 @@ I denne oppgaven skal vi se hvor enkelt vi kan lage en skritteller med micro:bit
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] Først vil vi lage en ny variabel. Dette gjør vi ved å gå inn i `Variabler`
 i sidemenyen. Deretter trykker vi på `Lag en variabel` som vi kaller `skritt`.
