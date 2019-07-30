@@ -17,7 +17,7 @@ hver tid. Da må vi kunne legge til og fjerne passasjerer når de går på og av
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] For å kunne ha oversikt over antall passasjerer til enhver tid, må vi lagre
   denne informasjonen på en slik måte at den kan endres på uten å overskrive all
