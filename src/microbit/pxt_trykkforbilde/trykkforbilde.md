@@ -16,7 +16,7 @@ knapp A.
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] Klossen `når knapp A trykkes` ligger under kategorien `Inndata` i menyen
   til venstre. Alt vi legger inne i klossen, som danner en blokk, vil skje etter
@@ -67,10 +67,9 @@ den nye klossen med `show leds` eller `vis ikon` under den forrige.
 Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 - [ ] Til venstre på skjermen er det et bilde av en micro:bit. Dette er faktisk
-  en simulator som kan kjøre programmet vi nettopp laget:
-
-Siden koden vår kjører med en gang kan det hende du må starte og stoppe simuleringen
-med knappen til venstre under bildet av micro:biten.
+  en simulator som kan kjøre programmet vi nettopp laget. Siden koden vår kjører
+  med en gang kan det hende du må starte simuleringen på nytt med knappen til
+  venstre under bildet av micro:biten.
 
 - [ ] Enda morsommere er det å teste programmet på micro:biten din! Koble
   micro:biten din til datamaskinen med en USB-kabel. Klikk deretter på knappen
