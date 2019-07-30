@@ -18,10 +18,10 @@ vise dem på micro:biten vår!
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
   [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
-- [ ] Klossen `ved start` ligger i kodefeltet når vi starter et nytt prosjekt.
-  Dersom du ikke finner den der, ligger den under kategorien `Basis`.
-  Alt vi legger inne i klossen `ved start` vil skje med en gang programmet vårt
-  lastes over på micro:biten vår.
+- [ ] Klossen `ved start`{.microbitbasic} ligger i kodefeltet når vi starter et
+nytt prosjekt. Dersom du ikke finner den der, ligger den under kategorien `Basis`{.microbitbasic}.
+Alt vi legger inne i klossen `ved start`{.microbitbasic} vil skje med en gang
+programmet vårt lastes over på micro:biten vår.
 
 
 # Steg 2: Vis bilde-klossen {.activity}
@@ -29,13 +29,14 @@ vise dem på micro:biten vår!
 ## Sjekkliste {.check}
 
 - [ ] Nå vil vi legge til et bilde vi vil at skal vises på micro:biten vår. Vi
-går først inn i kategorien `Basis`. Der finner vi klossen `show leds`, som lar
-tegne et bilde på egenhånd, ved å velge hvilke leds som skal tennes. Vi kan også
-bruke klossen `vis ikon`, men der er bildene allerede tegnet for oss.
+går først inn i kategorien `Basis`{.microbitbasic}. Der finner vi klossen
+`show leds`{.microbitbasic}, som lar tegne et bilde på egenhånd, ved å velge
+hvilke leds som skal tennes. Vi kan også bruke klossen `vis ikon`{.microbitbasic},
+men der er bildene allerede tegnet for oss.
 
-- [ ] Legg nå klossen du har valgt inne i `ved start`-klossen. Tegn i vei dersom
-du valgt `show leds`-klossen! Om du valgte `vis ikon`-klossen, kan du bruke den
-lille pila til å velge blant mange andre bilder.
+- [ ] Legg nå klossen du har valgt inne i `ved start`{.microbitbasic}-klossen.
+Tegn i vei dersom du valgt `show leds`{.microbitbasic}-klossen! Om du valgte `vis ikon`{.microbitbasic}-klossen,
+kan du bruke den lille pila til å velge blant mange andre bilder.
 
 Vi har valgt å tegne vårt eget bilde, så vår kode ser ut som dette:
 
@@ -55,7 +56,8 @@ Vi har valgt å tegne vårt eget bilde, så vår kode ser ut som dette:
 ## Sjekkliste {.check}
 
 - [ ] Nå kan du legge til flere bilder dersom du ønsker det. Da legger du bare
-den nye klossen med `show leds` eller `vis ikon` under den forrige.
+den nye klossen med `show leds`{.microbitbasic} eller `vis ikon`{.microbitbasic}
+under den forrige.
 
 - [ ] Sånn! Nå er koden vår ferdig og vi kan gå videre til å teste den.
 
@@ -78,13 +80,15 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 ## Utfordring  {.challenge}
 
-- [ ] Synes du bildene skifter litt for fort? Prøv å legge inn en `pause`-kloss
-mellom hvert av bildene. Denne klossen finner du under `Basis` i menyen.
+- [ ] Synes du bildene skifter litt for fort? Prøv å legge inn en `pause`{.microbitbasic}-kloss
+mellom hvert av bildene. Denne klossen finner du under `Basis`{.microbitbasic}
+i menyen.
 
 - [ ] Greier du å få et bilde til å blinke i rytmen til en sang du kan ved å
-legge `vis ikon`-klosser og `pause`-klosser annenhver gang? *Tips: Bruk ulik
-lengde på pausene mellom* `vis ikon`*-klossene.*  
+legge `vis ikon`{.microbitbasic}-klosser og `pause`{.microbitbasic}-klosser
+annenhver gang? *Tips: Bruk ulik lengde på pausene mellom* `vis ikon`{.microbitbasic}
+*-klossene.*  
 
-- [ ] Nå brukte vi `ved start`-klossen i koden vår, slik at kom på skjermen med
-en gang vi lastet over koden. Prøv å bytte ut `ved start`-klossen med en
-`gjenta for alltid`-kloss. Hva skjer da?
+- [ ] Nå brukte vi `ved start`{.microbitbasic}-klossen i koden vår, slik at kom
+på skjermen med en gang vi lastet over koden. Prøv å bytte ut `ved start`{.microbitbasic}-klossen
+med en `gjenta for alltid`{.microbitbasic}-kloss. Hva skjer da?
