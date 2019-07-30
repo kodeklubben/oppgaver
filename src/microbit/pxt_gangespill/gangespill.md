@@ -19,16 +19,17 @@ en få opp et smilefjes, hvis ikke kommer et surt fjes.
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] Vi vil at noe skal skje når vi rister på micro:biten. Til dette kan vi
-  bruke `når ristes`-klossen som finnes i kategorien `Inndata`.
+  bruke `når ristes`{.microbitinput}-klossen som finnes i kategorien `Inndata`{.microbitinput}.
 
 - [ ] Når micro:bit ristes skal det vises et gangestykke på skjermen. Vi må
-  opprette en del `variabler` til å ta vare på verdiene vi skal bruke underveis:
-  `tiere` tar vare på antall tiere i svaret, `enere` tar vare på antall enere i
-  svaret, `svar` er summen av variablene `tiere` og `enere`, mens `produkt` er
-  svaret som micro:bit regner seg fram til.
+  opprette en del `variabler`{.microbitvariables} til å ta vare på verdiene vi
+  skal bruke underveis: `tiere`{.microbitvariables} tar vare på antall tiere i
+  svaret, `enere`{.microbitvariables} tar vare på antall enere i svaret, `svar`{.microbitvariables}
+  er summen av variablene `tiere`{.microbitvariables} og `enere`{.microbitvariables},
+  mens `produkt`{.microbitvariables} er svaret som micro:bit regner seg fram til.
 
   ```microbit
   let tiere = 0
@@ -43,9 +44,9 @@ en få opp et smilefjes, hvis ikke kommer et surt fjes.
   })
   ```
 
-- [ ] Deretter trenger vi to `faktorer`, som er selve gangestykket. En kan selv
-  velge hvor langt opp i gangetabellene en ønsker å komme, ved å endre grensense
-  for de tilfeldige tallene.
+- [ ] Deretter trenger vi to `faktorer`{.microbitvariables}, som er selve
+gangestykket. En kan selv velge hvor langt opp i gangetabellene en ønsker å
+komme, ved å endre grensense for de tilfeldige tallene.
 
   ```microbit
   let tiere = 0
@@ -65,9 +66,10 @@ en få opp et smilefjes, hvis ikke kommer et surt fjes.
   ```
 
 - [ ] Deretter må vi sette sammen faktorene til gangestykket som skal vises på
-  skjermen. Vi bruker her `sett sammen`-klossen som finnes under *Avansert -> Tekst*, og som kan
-  tilpasses til så mange elementer en ønsker. Man må klikke på `plusstegnet` for
-  å utvide klossen.
+  skjermen. Vi bruker her `vis tekst`{.microbitbasic}-klossen fra kategorien `Basis`{.microbitbasic}
+  og erstatter "Hello" med `sett sammen`{.microbittext}-klossen som finnes under
+   `Avansert -> Tekst`{.microbittext}. Denne kan tilpasses til så mange
+   elementer en ønsker. Man må klikke på plusstegnet for å utvide klossen.
 
   ```microbit
   let tiere = 0
@@ -87,8 +89,8 @@ en få opp et smilefjes, hvis ikke kommer et surt fjes.
   })
   ```
 
-- [ ] Vi regner til slutt ut `produktet` av de to `faktorene`, som vi skal
-  kontrollere mot svaret som blir avgitt.
+- [ ] Vi regner til slutt ut `produktet`{.microbitvariables} av de to `faktorene`{.microbitvariables},
+ som vi skal kontrollere mot svaret som blir avgitt.
 
   ```microbit
   let tiere = 0
@@ -133,7 +135,8 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 ## Sjekkliste {.check}
 
-- [ ] `Knapp A` skal registrere `tiere`, så ved hvert trykk skal den øke med 1.
+- [ ] `Knapp A`{.microbitinput} skal registrere `tiere`{.microbitvariables}, så ved hvert trykk
+skal den øke med 1.
 
   ```microbit
   let tiere = 0
@@ -142,7 +145,8 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
   })
   ```
 
-- [ ] `Knapp B` skal registrere `enere`, så ved hvert trykk skal den øke med 1.
+- [ ] `Knapp B`{.microbitinput} skal registrere `enere`{.microbitvariables}, så ved hvert trykk
+skal den øke med 1.
 
   ```microbit
   let enere = 0
@@ -161,9 +165,10 @@ sammen blir det 28.*
 
 ## Sjekkliste {.check}
 
-- [ ] Når `A+B – knappene` trykkes samtidig, skal den kontrollere om en har
-  regnet korrekt. Da legger vi sammen antall `tiere` og antall `enere` som vi
-  har trykket, og lagrer summen av de tallene i varibelen `svar`.
+- [ ] Når `A+B– knappene`{.microbitinput} trykkes samtidig, skal den kontrollere om en har
+  regnet korrekt. Da legger vi sammen antall `tiere`{.microbitvariables} og
+  antall `enere`{.microbitvariables} som vi  har trykket, og lagrer summen av de
+  tallene i varibelen `svar`{.microbitvariables}.
 
   ```microbit
   let svar = 0
@@ -174,8 +179,9 @@ sammen blir det 28.*
   })
   ```
 
-- [ ] Vi kontrollerer deretter om `svar` og `produkt` er likt. Dersom det er
-  rett, viser den smilefjes. Dersom det er galt, viser den trist fjes.
+- [ ] Vi kontrollerer deretter om `svar`{.microbitvariables} og `produkt`{.microbitvariables}
+ er likt. Dersom det er rett, viser den smilefjes. Dersom det er galt, viser den
+ trist fjes.
 
   ```microbit
   let svar = 0
