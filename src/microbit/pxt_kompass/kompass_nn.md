@@ -63,25 +63,25 @@ basic.forever(function () {
   den kalibrerast. Du blir bedt om å vippe på micro:bit-en slik at det blir lys
   på heile skjermen, eller om å teikne ein sirkel. Følg med på instruksjonane
   micro:bit-en gir. Her er eit døme på [kalibrering av
-  kompass](https://dzwonsemrish7.cloudfront.net/items/3e0K2a0V3p0q1z1T352Y/compass%20calibration.mp4){target=_blank}_
+  kompass](https://dzwonsemrish7.cloudfront.net/items/3e0K2a0V3p0q1z1T352Y/compass%20calibration.mp4){target=_blank}
 
 
 # Steg 2: Me viser pila {.activity}
 
 Det er mykje lettare å finne ut kva veg nord er ved å leggje inn ei pil som
-alltid peikar mot nord. Me skal bruke eit pilbilete som kan peike i 8 ulike
+alltid peikar mot nord. Me skal bruke ei pil som kan peike i 8 ulike
 retningar. Difor må me tenke oss at me deler kompassrosa inn i 8 kakestykke
 eller delar som alle har ei opning på `360`° / `8` =
 `45`°. Kvar retning er då innanfor følgjande vinklar:
 
 * Nord: `337.5`° til `22.5`°.
-* Nord-aust: `22.5`° til `67.5`°.
+* Nordaust: `22.5`° til `67.5`°.
 * Aust:`67.5`° til `112.5`°.'
-* Sør-aust: `112.5`° til `157.5`°.
+* Søraust: `112.5`° til `157.5`°.
 * Sør: `157.5`° til `202.5`°.
-* Sør-vest: `202.5`° til `247.5`°.
+* Sørvest: `202.5`° til `247.5`°.
 * Vest: `247.5`° til `292.5`°.
-* Nord-vest: `292.5`° til `337.5`°.
+* Nordvest: `292.5`° til `337.5`°.
 
 Då kan me starte å teste kva retning micro:bit-en peikar i.
 
@@ -89,12 +89,10 @@ Då kan me starte å teste kva retning micro:bit-en peikar i.
   `logikk`{.microbitlogic}-kategorien. Trykk på `+`-teiknet 7 gonger slik at du
   kan leggje inn nye klossar i totalt 9 opningar.
 
-- [ ] For å vise ei pil kan du leggje inn ein `vis
-  bilete`{.microbitimages}-kloss frå `Bilete`{.microbitimages}-kategorien. Vel
-  `pilbilete`{.microbitimages} og legg den inne i `show
+- [ ] For å vise ei pil kan du leggje inn ein `vis pil`{.microbitbasic} frå
+  `Basis`{.microbitbasic}-kategorien. Legg den inne i `show
   image`{.microbitimages}-klossen. Kvar av dei 9 opningane i den utvida `viss
-  elles`{.microbitlogic}-klossen skal ha ein `show
-  image`{.microbitimages}-kloss.
+  elles`{.microbitlogic}-klossen skal ha ein `vis pil`{.microbitbasic}-kloss.
 
 - [ ] No skal me teste systematisk kva retning micro:bit-en peikar i. Det gjer
   me ved å teste for verdien av variabelen `retning`{.microbitvariables} som har
@@ -102,51 +100,50 @@ Då kan me starte å teste kva retning micro:bit-en peikar i.
   samanlikningskloss frå `logikk`{.microbitlogic}-kategorien, og i den fyrste
   `viss`{.microbitlogic}-testen må me finne ut om `retning`{.microbitvariables}
   er mindre enn `22.5`. Då peikar micro:bit-en omtrent mot nord, og me viser
-  pilbiletet som peikar mot nord.
+  pilbiletet som peikar mot `nord`{.microbitimages}.
 
 - [ ] I neste `elles viss`{.microbitlogic}-test må me finne ut om
   `retning`{.microbitvariables} er mindre enn `67.5`. Då peikar micro:bit-en mot
   nordaust, og retning nordvest på micro:bit-en peikar mot ekte nord. Sidan me
-  vil at pila skal peike mot ekte nord må me velje at
-  `pilbilde`{.microbitimages} viser `Nordvest`{.microbitimages}.
+  vil at pila skal peike mot ekte nord må me velje at pila viser
+  `nordvest`{.microbitimages}.
 
 - [ ] I neste `elles viss`{.microbitlogic}-test må me finne ut om
   `retning`{.microbitvariables} er mindre enn `112.5`. Då peikar micro:bit-en
   mot aust, og retning vest på micro:bit-en peikar mot ekte nord. Sidan me vil
-  at pila skal peike mot ekte nord må me velje at `pilbilde`{.microbitimages}
-  viser `Vest`{.microbitimages}.
+  at pila skal peike mot ekte nord må me velje at pila viser
+  `vest`{.microbitimages}.
 
 - [ ] Slik fortset me heile sirkelen. Me testar om `retning`{.microbitvariables}
-  er mindre enn `157.5`, `202.5`, `247.5`, `292.5` og `337.5` og viser
-  `pilbilde`{.microbitimages} som peikar mot høvesvis
-  `Sørvest`{.microbitimages}, `Sør`{.microbitimages},
-  `Søraust`{.microbitimages}, `Aust`{.microbitimages},
-  `Nordaust`{.microbitimages} og på siste plass der me ikkje treng å teste for
+  er mindre enn `157.5`, `202.5`, `247.5`, `292.5` og `337.5` og viser piler som
+  peikar mot høvesvis `sørvest`{.microbitimages}, `sør`{.microbitimages},
+  `søraust`{.microbitimages}, `aust`{.microbitimages},
+  `nordaust`{.microbitimages} og på siste plass der me ikkje treng å teste for
   `retning`{.microbitvariables}, sidan den må vere større enn `337.5`, viser me
-  `pilbilde`{.microbitimages} `Nord`{.microbitimages}.
+  pil mot `nord`{.microbitimages}.
 
 ```microbit
 let retning = 0
 basic.forever(function () {
     retning = input.compassHeading()
     if (retning < 22.5) {
-        images.arrowImage(ArrowNames.North).showImage(0)
+        basic.showArrow(ArrowNames.North)
     } else if (retning < 67.5) {
-        images.arrowImage(ArrowNames.NorthWest).showImage(0)
+        basic.showArrow(ArrowNames.NorthWest)
     } else if (retning < 112.5) {
-        images.arrowImage(ArrowNames.West).showImage(0)
+        basic.showArrow(ArrowNames.West)
     } else if (retning < 157.5) {
-        images.arrowImage(ArrowNames.SouthWest).showImage(0)
+        basic.showArrow(ArrowNames.SouthWest)
     } else if (retning < 202.5) {
-        images.arrowImage(ArrowNames.South).showImage(0)
+        basic.showArrow(ArrowNames.South)
     } else if (retning < 247.5) {
-        images.arrowImage(ArrowNames.SouthEast).showImage(0)
+        basic.showArrow(ArrowNames.SouthEast)
     } else if (retning < 292.5) {
-        images.arrowImage(ArrowNames.East).showImage(0)
+        basic.showArrow(ArrowNames.East)
     } else if (retning < 337.5) {
-        images.arrowImage(ArrowNames.NorthEast).showImage(0)
+        basic.showArrow(ArrowNames.NorthEast)
     } else {
-        images.arrowImage(ArrowNames.North).showImage(0)
+        basic.showArrow(ArrowNames.North)
     }
 })
 ```
