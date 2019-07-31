@@ -21,7 +21,8 @@ riktig. Start ved å åpne en ny blank Python-fil.
 **Hva:** Vi kan be datamaskinen om å skrive hva som helst av tekst eller tall.
 
 **Hvordan:** Funksjonen `print()` skriver ut det som er mellom `()` . Tekst må
-starte og slutte med `'` slik som `'denne teksten'`, eller ` " ` slik som `"denne teksten"`.
+starte og slutte med `'` slik som `'denne teksten'`, eller ` " ` slik som
+`"denne teksten"`.
 
 **Eksempler:** Prøv dem ut og se hva som skjer.
 
@@ -79,9 +80,7 @@ Husk å ta bort eksemplene når du forsetter med oppgaven
 **Fortsett med koden du har fra del 1.**
 
 - [ ] Lag to variabler som du selv gir navnet på. Den ene variabelen skal være
-  dette året, altså <span id="aar">2016</span>. Den andre variabelen skal være
-  året du ble født i. <script>document.getElementById('aar').innerHTML = new
-  Date().getFullYear()</script>
+  året som er nå. Den andre variabelen skal være året du ble født i.
 
 - [ ] Lag så en tredje variabel som skal inneholde alderen din. Hvordan kan du
   regne ut alderen ved hjelp av variablene i steget over?
