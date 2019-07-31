@@ -1,7 +1,7 @@
 ---
 title: "PXT: Mentometer"
-author: 'Oversatt fra [Code Club UK](//makecode.microbit.org/projects/voting-machine)'
-translator: 'Koljørn Engeland'
+author: 'Oversatt fra [makecode.microbit.org](https://makecode.microbit.org/projects/voting-machine)'
+translator: 'Kolbjørn Engeland'
 language: nb
 ---
 
