@@ -19,7 +19,7 @@ micro:biten til å vise en pil som alltid peker mot nord.
 # Steg 1: Vi finner kompassretning {.activity}
 
 Micro:biten leser av kompassretningen i grader. 0<sup>o</sup> er Nord, 
-90<sup>o</sup> er vest, 180<sup>o</sup> er sør og 270<sup>o</sup> er vest. 
+90<sup>o</sup> er øst, 180<sup>o</sup> er sør og 270<sup>o</sup> er vest. 
 Siden vi vet i hvilken retning micro:biten peker, kan vi beregne 
 i hvilken retning et pilbilde på micro:biten må peke for å vise retning mot 
 nord.
