@@ -23,8 +23,8 @@ hver tid. Da må vi kunne legge til og fjerne passasjerer når de går på og av
   denne informasjonen på en slik måte at den kan endres på uten å overskrive all
   informasjon. En enkel måte å gjøre dette på, er å opprette en liste som kan
   legge til elementer og slette elementer når passasjerer kommer og går. Du kan
-  opprette en liste under kategorien `Avansert -> Lister`. Til å begynne med bør
-  denne lista være tom.
+  opprette en liste under kategorien `Avansert -> Lister`{.microbitarrays}. Til
+  å begynne med bør denne lista være tom.
 
 
 # Steg 2: Legge til en passasjer {.activity}
@@ -33,7 +33,8 @@ hver tid. Da må vi kunne legge til og fjerne passasjerer når de går på og av
 
 - [ ] Vi kan på forhånd bestemme oss for at et trykk på knapp A legger til en
   passasjer i listen, mens et trykk på knapp B fjerner en passasjer fra listen.
-  Under `Avansert -> Lister` finner du klosser du kan bruke til å gjøre dette.
+  Under `Avansert -> Lister`{.microbitarrays} finner du klosser du kan bruke til
+  å gjøre dette.
 
 - [ ] For å legge til en passasjer, kan man legge til et element i listen,
 for eksempel bakerst. Hva elementet inneholder, er ikke så viktig i denne oppgaven
@@ -45,8 +46,7 @@ finner riktig blokk på egenhånd!
 - [ ] Antall passasjerer på bussen blir dermed det samme som antall elementer i
  listen. Print gjerne antall passasjerer på skjermen slik at du enklere kan se
  om det stemmer.
-
-  Koden din kan for eksempel se ut som dette:
+Koden din kan for eksempel se ut som dette:
 
   ```microbit
   let passasjerer: string[] = []
@@ -59,7 +59,7 @@ finner riktig blokk på egenhånd!
 ## Test prosjektet {.flag}
 
 - [ ] Test koden enkelt og greit ved å bruke simulatoren. Hver gang du trykker
-    knapp A, skal tallet som vises på skjermen øke med _1_.
+    knapp A, skal tallet som vises på skjermen øke med __1__.
 
 
 # Steg 3: Fjerne en passasjer {.activity}
@@ -70,7 +70,7 @@ finner riktig blokk på egenhånd!
   vi trykker på knapp B.
 
 - [ ] For å fjerne en passasjer, kan man bruke funksjonen for å hente og fjerne
-  elementer i en liste. Denne klossen finnes også under `Avansert -> Lister`,
+  elementer i en liste. Denne klossen finnes også under `Avansert -> Lister`{.microbitarrays},
   Ettersom denne funksjonen henter ut den siste variabelen, må vi opprette en ny
   variabel hvor denne skal lagres, før den blir slettet. På denne måten kunne vi
   brukt variabelen om igjen dersom vi hadde hatt behov for det.
@@ -89,8 +89,8 @@ finner riktig blokk på egenhånd!
 ## Test prosjektet {.flag}
 
 - [ ] Test koden enkelt og greit ved å bruke simulatoren. Hver gang du trykker
-  knapp A, skal tallet som vises på skjermen øke med _1_, og når du trykker på
-  knapp B skal tallet minke med _1_.
+  knapp A, skal tallet som vises på skjermen øke med __1__, og når du trykker på
+  knapp B skal tallet minke med __1__.
 
 
 # Steg 4: Resette telleren {.activity}
