@@ -259,7 +259,7 @@ vi tømme skjermen mellom hvert spill.*
 og plasser den for seg selv. Den skal ikke henge sammen med den andre kodeblokken.
 
 - [ ] Inne i `når knapp A trykkes`{.microbitinput}-klossen legger du klossen
-`tøm skjerm`{.microbitinput}. Når `A`{.microbitinput}-knappen trykkes skal
+`tøm skjerm`{.microbitbasic}. Når `A`{.microbitinput}-knappen trykkes skal
 micro:biten slå av alle lysene slik at den er klar til nytt spill.
 
 - [ ] Den nye programblokken ser da slik ut:
