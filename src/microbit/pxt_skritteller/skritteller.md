@@ -17,13 +17,13 @@ I denne oppgaven skal vi se hvor enkelt vi kan lage en skritteller med micro:bit
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
   [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
-- [ ] Først vil vi lage en ny variabel. Dette gjør vi ved å gå inn i `Variabler`
-i sidemenyen. Deretter trykker vi på `Lag en variabel` som vi kaller `skritt`.
-I denne variabelen skal vi lagre alle skrittene vi går.
+- [ ] Først vil vi lage en ny variabel. Dette gjør vi ved å gå inn i `Variabler`{.microbitvariables}
+i sidemenyen. Deretter trykker vi på `Lag en variabel`{.microbitvariables} som
+vi kaller `skritt`{.microbitvariables}. I denne variabelen skal vi lagre alle
+skrittene vi går.
 
 - [ ] Når vi skrur på micro:biten vil vi at antall skritt skal være 0. Under
-`Variabler` i menyen finner vi klossen `Sett variabel til 0`.
-
+`Variabler`{.microbitvariables} i menyen finner vi klossen `Sett variabel til 0`{.microbitvariables}.
 Nå bør koden din se ut som dette:
 
   ```microbit
@@ -36,14 +36,14 @@ Nå bør koden din se ut som dette:
 
 - [ ] Nå vil vi at antall skritt vi har gått skal vises på skjermen. Det skal
 ikke bare vises med en gang vi starter, men hele tiden. Vi trenger derfor klossen
-`Gjenta for alltid` som vi finner under kategorien `Basis`. Hadde vi brukt klossen
-`ved start` istedet, hadde vi visst at vi hadde _0_ skritt når vi startet å gå,
-men vi ville ikke sett de nye skrittene underveis.
+`Gjenta for alltid`{.microbitbasic} som vi finner under kategorien `Basis`{.microbitbasic}.
+Hadde vi brukt klossen `ved start`{.microbitbasic} istedet, hadde vi visst at vi
+hadde __0__ skritt når vi startet å gå, men vi ville ikke sett de nye skrittene
+underveis.
 
-- [ ] Ved å bruke klossen `Vis tall` fra `Basis`-kategorien kan vi vise
-variabelen `skritt` på skjermen. Se om du finner disse klossene på egenhånd!
-
-Nå ligner nok koden din på dette:
+- [ ] Ved å bruke klossen `Vis tall`{.microbitbasic} fra `Basis`{.microbitbasic}-kategorien
+kan vi vise variabelen `skritt`{.microbitvariables} på skjermen. Se om du finner
+disse klossene på egenhånd! Nå ligner nok koden din på dette:
 
   ```microbit
   basic.forever(function () {
@@ -58,12 +58,12 @@ Nå ligner nok koden din på dette:
 
 - [ ] Nå må vi telle antallet skritt vi går. Vi ser for oss at vi fester
 micro:biten på én fot. For hver gang micro:biten ristes har vi dermed tatt
- _to_ skritt! Vi trenger derfor en kloss som gjør noe når micro:biten ristes.
- Denne finnes under kategorien `Inndata`. I tillegg trenger du en kloss som
- endrer variabelen `skritt` med 2. Denne finnes under `Variabler`. Greier du å
- sette sammen disse klossene selv?
+ __to__ skritt! Vi trenger derfor en kloss som gjør noe når micro:biten ristes.
+ Denne finnes under kategorien `Inndata`{.microbitinput}. I tillegg trenger du
+ en kloss som endrer variabelen `skritt`{.microbitvariables} med 2. Denne finnes
+ under `Variabler`{.microbitvariables}. Greier du å sette sammen disse klossene
+ selv? Koden for å telle antall skritt bør se slik ut:
 
- Koden for å telle antall skritt bør se slik ut:
 ```microbit
 input.onGesture(Gesture.Shake, function () {
     skritt += 2
