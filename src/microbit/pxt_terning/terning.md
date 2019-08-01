@@ -19,13 +19,13 @@ Kan micro:biten vår brukes som en terning? Ja, det er faktisk ganske enkelt!
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] Vi vil at noe skal skje når vi rister på micro:biten. Til dette kan vi
-  bruke `når ristes`-klossen som finnes i kategorien `Inndata`.
+  bruke `når ristes`{.microbitinput}-klossen som finnes i kategorien `Inndata`{.microbitinput}.
 
 - [ ] Aller først vil vi bare se at vi får til å vise tallet __1__. For å vise
-  tall bruker vi `vis tall`-klossen i `Basis`-kategorien.
+  tall bruker vi `vis tall`{.microbitbasic}-klossen i `Basis`{.microbitbasic}-kategorien.
 
 - [ ] Sett sammen disse to klossene slik at skriptet ditt ser slik ut:
 
@@ -66,28 +66,29 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
   bli. Vi vet at det vil bli enten 1, 2, 3, 4, 5 eller 6, men ikke hvilket av
   disse tallene terningen lander på. Et slikt resultat kaller vi et __tilfeldig
   tall__. Tilfeldige tall kan vi lage på micro:biten med klossen `velg tilfeldig
-  0 til 4` i `Matematikk`-kategorien.
+  0 til 4`{.microbitmath} i `Matematikk`{.microbitmath}-kategorien.
 
-- [ ] Prøv selv å legg denne `tilfeldig tall`-klossen inn i koden din, slik at
-  det tilfeldige tallet vises i stedet for __1__ som tidligere.
+- [ ] Prøv selv å legg denne `velg tilfeldig`{.microbitmath}-klossen inn i koden
+din, slik at det tilfeldige tallet vises i stedet for __1__ som tidligere.
 
 - [ ] Bruk simulatoren eller last koden til micro:biten din for å teste som
   tidligere. Når du rister på micro:biten (eller klikker på `SHAKE`) skal det
   lages nye tilfeldige tall. Rist flere ganger. Forandrer tallet seg?
 
 - [ ] En vanlig terning viser tallene 1, 2, 3, 4, 5 og 6. Om du brukte
-  `velg tilfeldig 0 til 4`-klossen velger micro:biten mellom tallene 0, 1, 2, 3
-  og 4. Hvordan kan vi få micro:biten til å også velge mellom tallene 1 til 6?
+  `velg tilfeldig 0 til 4`{.microbitmath}-klossen velger micro:biten mellom
+  tallene 0, 1, 2, 3 og 4. Hvordan kan vi få micro:biten til å også velge mellom
+  tallene 1 til 6?
 
 Vi gir deg ikke hele svaret, du må prøve litt på egen hånd! Men nedenfor er to
 tips om du står fast!
 
-- [ ] Du kan endre på __4__-tallet i `velg tilfeldig 0 til 4`-klossen. Hva skjer
-  da?
+- [ ] Du kan endre på __4__-tallet i `velg tilfeldig 0 til 4`{.microbitmath}-klossen.
+Hva skjer da?
 
-- [ ] Du kan ikke endre på __0__ i `tilfeldig tall`-klossen. I stedet kan du
-  kombinere denne klossen med `0 + 0`-klossen som du også finner i
-  `Matematikk`-kategorien.
+- [ ] Du kan ikke endre på __0__ i `velg tilfeldig`{.microbitmath}-klossen. I
+stedet kan du kombinere denne klossen med `0 + 0`{.microbitmath}-klossen som du
+også finner i `Matematikk`{.microbitmath}-kategorien.
 
 
 # Steg 3: Terningen ruller {.activity}
@@ -101,8 +102,8 @@ den stopper.*
   den viser flere forskjellige tall før den tilslutt stopper på ett av dem.
 
   For å gjøre en ting flere ganger bruker vi __løkker__. Hent klossen `gjenta 4
-  ganger` fra `Løkker`-kategorien. Legg den rundt `vis tall`-klossen på denne
-  måten:
+  ganger`{.microbitloops} fra `Løkker`{.microbitloops}-kategorien. Legg den rundt
+  `vis tall`{.microbitbasic}-klossen på denne måten:
 
   ```microbit
   input.onGesture(Gesture.Shake, function () {
@@ -112,9 +113,9 @@ den stopper.*
   })
   ```
 
-- [ ] Test programmet ditt igjen. Skjønner du hva `gjenta`-løkken gjør? Prøv å
-  endre på de forsjellige tallene i koden din. Hva blir annerledes når du rister
-  på micro:biten?
+- [ ] Test programmet ditt igjen. Skjønner du hva `gjenta`{.microbitloops}-løkken
+gjør? Prøv å endre på de forsjellige tallene i koden din. Hva blir annerledes
+når du rister på micro:biten?
 
 
 # Steg 4: Terningen husker {.activity}
@@ -126,16 +127,17 @@ den stopper.*
 - [ ] Når vi programmerer bruker vi __variabler__ til å huske ting for oss. La
   oss lage en variabel som kan huske det siste terningkastet:
 
-  Klikk på `Variabler`-kategorien og deretter på knappen `Lag en variabel`. Gi
-  den nye variabelen navnet `terning` og klikk `OK`. Du vil se at det dukker opp
-  en kloss som heter `terning` i `Variabler`-kategorien.
+  Klikk på `Variabler`{.microbitvariables}-kategorien og deretter på knappen
+  `Lag en variabel`{.microbitvariables}. Gi den nye variabelen navnet `terning`{.microbitvariables}
+  og klikk `OK`{.microbitvariables}. Du vil se at det dukker opp en kloss som
+  heter `terning`{.microbitvariables} i `Variabler`{.microbitvariables}-kategorien.
 
   ![Bilde av hvordan lage en ny variabel](variabel_terning.png)
 
 - [ ] For å bruke denne nye variabelen kan vi bestemme hva den skal huske med
-  `sett variabel til 0`-klossen. La oss endre skriptet vårt slik at `terning`
-  husker hvert terningkast. Legg til og flytt på klossene slik at skriptet ditt
-  ser slik ut:
+  `sett variabel til 0`{.microbitvariables}-klossen. La oss endre skriptet vårt
+  slik at `terning`{.microbitvariables} husker hvert terningkast. Legg til og
+  flytt på klossene slik at skriptet ditt ser slik ut:
 
   ```microbit
   let terning = 0
@@ -151,20 +153,21 @@ Om du tester prosjektet ditt nå skal det oppføre seg helt likt som før! Men
 denne endringen gir oss nye muligheter! Siden vi nå vet resultatet av
 terningkastet kan vi for eksempel vise et smilefjes hver gang vi kaster en 6'er:
 
-- [ ] Med klossen `vis ikon` eller `show leds` fra `Basis`-kategorien kan vi selv
-  velge et bildet eller lage et bildet som skal vises på skjermen til micro:biten. Prøv for eksempel å tegne et
-  smilefjes (eller et annet bilde du heller vil bruke).
+- [ ] Med klossen `vis ikon`{.microbitbasic} eller `show leds`{.microbitbasic}
+fra `Basis`{.microbitbasic}-kategorien kan vi selv velge et bildet eller lage et
+bildet som skal vises på skjermen til micro:biten. Prøv for eksempel å tegne et
+smilefjes (eller et annet bilde du heller vil bruke).
 
-- [ ] For å sammenligne to ting bruker vi klosser fra `Logikk`-kategorien. Her
-  vil vi sammenligne resultatet av terningkastet med tallet 6. Vi kan si at
-  `hvis terning = 6` skal vi vise bildet smilefjes.
+- [ ] For å sammenligne to ting bruker vi klosser fra `Logikk`{.microbitlogic}-kategorien.
+Her vil vi sammenligne resultatet av terningkastet med tallet 6. Vi kan si at
+`hvis terning = 6`{.microbitlogic} skal vi vise bildet smilefjes.
 
-  Prøv å sette sammen klosser fra `Logikk`- og `Variabler`-kategoriene som sier
-  `hvis terning = 6`.
+  Prøv å sette sammen klosser fra `Logikk`{.microbitlogic}- og `Variabler`{.microbitvariables}-kategoriene
+  som sier `hvis terning = 6`{.microbitlogic}.
 
 - [ ] Vi vil sjekke om resultatet av terningkastet var 6 etter at terningen har
-  rullet ferdig. Det betyr at vi må legge `hvis`-klossen etter løkken vi laget
-  tidligere. Programmet ditt vil tilslutt se ut omtrent som dette:
+  rullet ferdig. Det betyr at vi må legge `hvis`{.microbitlogic}-klossen etter
+  løkken vi laget tidligere. Programmet ditt vil tilslutt se ut omtrent som dette:
 
     ```microbit
     let terning = 0
@@ -197,5 +200,5 @@ helt eget!
   flere terning-variabler og vis summen av disse til slutt!
 
 - [ ] Kanskje du kan bruke `A`- eller `B`-knappen til å bestemme hvor mange
-  terninger som kastes? Da trenger du en variabel, `antall kast`, og en løkke
-  som gjentas `antall kast` ganger.
+  terninger som kastes? Da trenger du en variabel, `antall kast`{.microbitvariables},
+  og en løkke som gjentas `antall kast`{.microbitvariables} ganger.
