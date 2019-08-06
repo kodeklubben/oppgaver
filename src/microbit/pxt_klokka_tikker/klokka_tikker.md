@@ -16,6 +16,9 @@ Den som samler flest poeng vinner.
 
 ## Sjekkliste {.check}
 
+- [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
+
 - [ ] Først vil vi lage en variabel som skal
 inneholde de ti sekundene vi vil telle ned fra. Vi oppretter derfor en variabel
 vi kaller `tid`{.microbitvariables}. Dette gjøres under kategorien `Variabler`{.microbitvariables}.
