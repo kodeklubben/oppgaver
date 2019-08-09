@@ -1,6 +1,6 @@
 ---
 title: "PXT: Temperatur"
-author: Kolbjørn Engeland
+author: Kolbjørn Engeland, Julie Revdahl
 language: nb
 ---
 
@@ -20,17 +20,20 @@ temperatursensor!
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}.
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] Vi vil at noe skal skje når vi rister på micro:biten. Til dette kan vi
-  bruke `når ristes`-klossen som finnes i kategorien `Inndata`.
+  bruke `når ristes`{.microbitinput}-klossen som finnes i kategorien `Inndata`{.microbitinput}.
 
-- [ ] Aller først vil vi bare se at vi får til å vise tallet `1`. For å vise
-  tall bruker vi `vis tall`-klossen i `Basis`-kategorien.
+- [ ] Aller først vil vi bare se at vi får til å vise tallet __1__. For å vise
+  et tall bruker vi `vis tall`{.microbitbasic}-klossen fra `Basis`{.microbitbasic}-kategorien.
 
 - [ ] Sett sammen disse to klossene slik at skriptet ditt ser slik ut:
-
-    ![Bilde av "ristes" og "vis tall" klossene](temperaturskript_1.png)
+```microbit
+input.onGesture(Gesture.Shake, function () {
+    basic.showNumber(1)
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -55,7 +58,7 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 # Steg 2: Mål temperaturen {.activity}
 
-*Vi vil vise temperaturen i rommet der du er. Hvordan gjør vi det på en
+*Vi vil vise temperaturen i rommet der vi er. Hvordan gjør vi det på en
  micro:bit?*
 
 ## Sjekkliste {.check}
@@ -63,10 +66,10 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 - [ ] Micro:bit har en innebygd temperatursensor som gir temperaturen i °C.
   Dette betyr grader målt i Celcius, og er den enheten vi vanligvis bruker når
   vi snakker om temperatur i Norge. Den kan du få tak i ved å bruke klossen
-  `Temperatur (°C)` i `Inndata`-kategorien.
+  `Temperatur (°C)`{.microbitinput} fra `Inndata`{.microbitinput}-kategorien.
 
-- [ ] Prøv selv å legge `Temperatur (°C)`-klossen inn i koden din, slik at
-  den målte temperaturen vises i stedet for `1` som tidligere.
+- [ ] Prøv selv å legge `Temperatur (°C)`{.microbitinput}-klossen inn i koden
+din, slik at den målte temperaturen vises i stedet for __1__ som tidligere.
 
 - [ ] Bruk simulatoren eller last koden til micro:biten din for å teste som
   tidligere. Når du rister på micro:biten (eller klikker på `SHAKE`) skal
@@ -80,45 +83,69 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 ## Sjekkliste {.check}
 
-- [ ] Når vi programmerer bruker vi __variabler__ til å huske ting for oss. La
-  oss lage en variabel som kan huske den målte temperaturen:
+- [ ] Når vi programmerer bruker vi `variabler`{.microbitvariables} til å huske
+  ting for oss. La oss lage en variabel som kan huske den målte temperaturen:
 
-  Klikk på `Variabler`-kategorien og deretter på knappen `Lag en variabel`. Gi
-  den nye variabelen navnet `temperatur` og klikk `OK`. Du vil se at det dukker opp
-  en kloss som heter `temperatur` i `Variabler`-kategorien.
+  Klikk på `Variabler`{.microbitvariables}-kategorien og deretter på knappen
+  `Lag en variabel`{.microbitvariables}. Gi den nye variabelen navnet `temperatur`{.microbitvariables}.
+  Du vil se at det dukker opp en ny kloss som heter `temperatur`{.microbitvariables}
+  i `Variabler`{.microbitvariables}-kategorien.
 
   ![Bilde av hvordan lage en ny variabel](variabel_temperatur.png)
 
 - [ ] For å bruke denne nye variabelen kan vi bestemme hva den skal huske med
-  `sett variabel til 0`-klossen. La oss endre skriptet vårt slik at `temperatur`
-  husker målt temperatur. Legg til og flytt på klossene slik at skriptet ditt
-  ser slik ut:
+  `sett variabel til 0`{.microbitvariables}-klossen. La oss endre skriptet vårt
+  slik at `temperatur`{.microbitvariables} husker målt temperatur. Legg til og
+  flytt på klossene slik at skriptet ditt ser slik ut:
 
-  ![Viser scriptet som nå bruker variabelen temperatur](temperaturskript_2.png)
-
+  ```microbit
+    let temperatur = 0
+    input.onGesture(Gesture.Shake, function () {
+        temperatur = input.temperature()
+        basic.showNumber(temperatur)
+      })
+  ```
 Om du tester prosjektet ditt nå skal det oppføre seg helt likt som før! Men
 denne endringen gir oss nye muligheter! Siden vi nå vet resultatet av
-temperaturmålingen kan vi for eksempel vise en sol hver gang vi måler over `20
-°C`, en paraply hver gang vi måler under `20 °C`.
+temperaturmålingen kan vi for eksempel vise en sol hver gang vi måler over 20
+°C, en paraply hver gang vi måler under 20 °C.
 
-- [ ] Med klossen `vis bilde` som du finner i `Basis`-kategorien kan vi selv
-  bestemme bildet som vises på skjermen til micro:biten. Prøv selv å tegne en en
-  sol og en paraply på hver sin bilde-kloss (eller andre bilder du heller vil
-  bruke).
+- [ ] Med klossen `show leds`{.microbitbasic} som du finner i `Basis`{.microbitbasic}-kategorien
+  kan vi selv bestemme bildet som vises på skjermen til micro:biten. Prøv selv å
+  tegne en sol og en paraply på hver sin bilde-kloss (eller andre bilder du
+  heller vil bruke). Du kan også bruke en `vis ikon`{.microbitbasic}-kloss med
+  ferdiglagde bilder.
 
-- [ ] For å sammenligne to ting bruker vi klosser fra `Logikk`-kategorien. Her
-  vil vi sammenligne resultatet av temperaturmålingen med tallet 20. Vi kan si
-  at `hvis temperatur > 20` skal vi vise sol-bildet, ellers skal vi vise
-  paraply-bildet.
+- [ ] For å sammenligne to ting bruker vi klosser fra `Logikk`{.microbitlogic}-kategorien.
+  Her vil vi sammenligne resultatet av temperaturmålingen med tallet 20. Vi kan
+  si at `hvis temperatur > 20`{.microbitlogic} skal vi vise sol-bildet, ellers
+  skal vi vise paraply-bildet.
 
-  Prøv å pusle sammen klosser fra `Logikk`- og `Variabler`-kategoriene som sier
-  `hvis temperatur > 20`.
+  Prøv å pusle sammen klosser fra `Logikk`{.microbitlogic}- og `Variabler`{.microbitvariables}-kategoriene
+  som sier `hvis temperatur > 20`{.microbitlogic}.
 
-- [ ] Vi vil sjekke om temperaturen ble større enn `20 °C`. Det betyr at vi må
-  legge en `hvis - ellers`-kloss etter løkken vi laget tidligere. Programmet
-  ditt vil til slutt se ut omtrent som dette:
+- [ ] Vi vil sjekke om temperaturen ble større enn 20 °C. Det betyr at vi må
+  legge en `hvis - ellers`{.microbitlogic}-kloss etter løkken vi laget tidligere.
+  Programmet ditt vil til slutt se ut omtrent som dette:
 
-    ![Bilde av scriptet for å vise sol- og paraply-bilde etter at temperaturen er målt](temperaturskript_3.png)
+```microbit
+  let temperatur = 0
+  input.onGesture(Gesture.Shake, function () {
+      temperatur = input.temperature()
+      basic.showNumber(temperatur)
+      if (temperatur > 20) {
+          basic.showLeds(`
+            # . # . #
+            . # # # .
+            # # # # #
+            . # # # .
+            # . # . #
+            `)
+          } else {
+            basic.showIcon(IconNames.Umbrella)
+        }
+      })
+```
 
 
 # Steg 4: Mer avansert termometer {.activity}
