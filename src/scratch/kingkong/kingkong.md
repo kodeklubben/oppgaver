@@ -275,7 +275,7 @@ flyene.
       vent til <berører [fly v] ?>
       endre [farge v] effekt med (25)
       vent (0.5) sekunder
-      ta bort grafiske effekter
+      fjern grafiske effekter
   slutt
   ```
 
