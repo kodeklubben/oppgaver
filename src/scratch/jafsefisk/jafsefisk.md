@@ -23,13 +23,11 @@ spise alle byttedyrene som svømmer rundt i havet.
 
 - [ ] Start et nytt Scratch prosjekt.
 
-- [ ] __Riktig bakgrunn__ får du ved å velge `Scene` og så `Bakgrunner`-fanen.
-  Importer bakgrunnen `Natur/underwater2` ved å velge ![Velg en ferdig
-  bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Slett så den opprinnelige
-  bakgrunnen `bakgrunn1`.
+- [ ] __Riktig bakgrunn__ får du ved å trykke på ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) nederst til høyre på skjermen  .
+  Velg bakgrunnen `Natur/underwater2`.
 
 - [ ] Slett Figur1 og legg til en ny figur `Dyr/Shark 2`ved å trykke på ![Velg drakt
-  fra biblioteket](../bilder/hent-fra-bibliotek.png).
+  fra biblioteket](../bilder/hent-fra-bibliotek.png). Gi figuren navnet `Jafsefisk`.
 
 - [ ] Pass på at figuren
   bare kan bevege seg fra side til side ved å velge rotasjonsmåte
@@ -38,9 +36,9 @@ spise alle byttedyrene som svømmer rundt i havet.
 - [ ] Få fisken til å følge musepekeren rundt i sjøen ved å lage dette skriptet:
 
   ```blocks
-  bytt drakt til [shark2-b]
   når grønt flagg klikkes
-  for alltid
+  bytt drakt til [shark2-b]
+  gjenta for alltid
       pek mot [musepeker v]
       gå (3) steg
   slutt
@@ -65,7 +63,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   bytt drakt til [shark2-b]
-  for alltid
+  gjenta for alltid
       hvis <(avstand til [musepeker v]) > [10]>
           pek mot [musepeker v]
           gå (3) steg
@@ -101,9 +99,9 @@ bevegelsene.
   ```blocks
   når grønt flagg klikkes
   sett størrelse til (40) %
-  for alltid
+  gjenta for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      snu venstre (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
   slutt
   ```
@@ -144,9 +142,9 @@ en liten stund senere.
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      snu  @turnLeft (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
       hvis <berører [JafseFisk v]?>
           skjul
@@ -186,9 +184,9 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   vis
-  for alltid
+  gjenta for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      snu  @turnLeft (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
       hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
           skjul
@@ -222,9 +220,9 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   vis
-  for alltid
+  gjenta for alltid
       gå (2) steg
-      vend venstre (tilfeldig tall fra (-20) til (20)) grader
+      snu  @turnLeft (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
       hvis <<berører [JafseFisk v]?> og <berører fargen [#FFFFFF]?>>
           send melding [Du tok meg! v]
@@ -306,8 +304,8 @@ __Klikk på det grønne flagget.__
 - [ ] Beveger byttedyrene seg på en fornuftig måte? Gjør disse forandringene
   spillet bedre?
 
-  __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i `vend
-  venstre (tilfeldig tall fra (-20) til (20)) grader`{.b}.
+  __Hint:__ Hvis byttet ditt svømmer rundt i sirkler, sjekk verdiene i `snu
+  @turnLeft (tilfeldig tall fra (-20) til (20)) grader`{.b}.
 
 - [ ] Hva om du lar alle byttedyrene bevege seg forskjellig, ved å bruke
   forskjellige kombinasjoner av disse bevegelsene?

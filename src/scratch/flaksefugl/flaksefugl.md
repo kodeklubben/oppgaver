@@ -37,7 +37,7 @@ Flakse flyvende og prøve å styre mellom rørene!
   ```blocks
   når grønt flagg klikkes
   gå til x: (-50) y: (0)
-  for alltid
+  gjenta for alltid
       endre y med (-3)
   slutt
   ```
@@ -109,7 +109,7 @@ __Klikk det grønne flagget.__
   når grønt flagg klikkes
   sett [flaks v] til [0]
   bytt drakt til [Vinger opp v]
-  for alltid
+  gjenta for alltid
       gjenta til <(flaks) = [0]>
           endre [flaks v] med (-1)
           bytt drakt til [Vinger ned v]
@@ -151,7 +151,7 @@ __Klikk det grønne flagget.__
 
   ![Tegn ny figur](tegn-ny.png)
 
-- [ ] Hvis det står `Gå til vektorgrafikk` på en knapp nederst til venstre, klikk på knappen.
+- [ ] Hvis det står `Gå til vektorgrafikk` på en knapp til venstre under tegneområdet, klikk på knappen.
 
 - [ ] Klikk på `Zoom =` så du kan se hele tegneområdet.
 
@@ -188,7 +188,7 @@ __Klikk det grønne flagget.__
   når grønt flagg klikkes
   skjul
   sett størrelse til (200)%
-  for alltid
+  gjenta for alltid
       lag klon av [meg v]
       vent (2) sekunder
   slutt
@@ -224,7 +224,7 @@ __Klikk det grønne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] Vi legger til en lyd som vi kan spille når Flakse kræsjer. Klikk på
-  `Flakse`-figuren og så på `Lyder`.
+  `Flakse`-figuren og så på fanen `Lyder`.
 
 - [ ] Klikk på `Velg en lyd`-ikonet, nederst til venstre i vinduet.
 
@@ -313,7 +313,7 @@ varer. Vi skal prøve å etterligne denne måten å falle på.
   når grønt flagg klikkes
   sett [løft v] til [0]
   gå til x: (-50) y: (0)
-  for alltid
+  gjenta for alltid
       endre y med (løft)
       endre [løft v] med (-0.2)
   slutt
@@ -325,7 +325,7 @@ varer. Vi skal prøve å etterligne denne måten å falle på.
   når grønt flagg klikkes
   sett [flaks v] til [0]
   bytt drakt til [Vinger opp v]
-  for alltid
+  gjenta for alltid
       gjenta til <(flaks) = [0]>
           endre [flaks v] med (-1)
           bytt drakt til [Vinger ned v]
@@ -355,8 +355,8 @@ Når spilleren taper vil vi at Flakse faller ned og ut av skjermen.
 
   ```blocks
   når jeg mottar [Fall v]
-  for alltid
-      vend høyre (5) grader
+  gjenta for alltid
+      snu @turnRight (5) grader
   slutt
 
   når jeg mottar [Fall v]
