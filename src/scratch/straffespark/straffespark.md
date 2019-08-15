@@ -242,7 +242,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-Nå skal vi også sjekke om ballen har gått i mål. Vi gjr dette ved å undersøke
+Nå skal vi også sjekke om ballen har gått i mål. Vi gjør dette ved å undersøke
 hvor langt til høyre på skjermen ballen har beveget seg. Posisjonen til en figur
 i Scratch er beskrevet ved hjelp av koordinater: `(x-posisjon)`{.b} sier hvor en
 figur er sidelengs på skjermen, mens `(y-posisjon)`{.b} sier hvor langt opp
