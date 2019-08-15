@@ -13,7 +13,7 @@ ved hjelp av tiere (knapp A) og enere (knapp B).
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, Programmering
+__Fag__: Matematikk, programmering
 
 __Anbefalte trinn__: 4.-10. trinn
 

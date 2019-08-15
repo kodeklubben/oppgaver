@@ -424,11 +424,11 @@ __Klikk på det grønne flagget.__
   `Effekter/rattle`, men du kan gjerne bruke en annen lyd.
 
 - [ ] Spill lyden når et sted blir funnet. Klikk `Skript`{.blocklightgrey}-fanen
-  og legg til en `spill lyden`{.blocksound}-kloss.
+  og legg til en `start lyden`{.blocksound}-kloss.
 
   ```blocks
   når jeg mottar [Fant sted v]
-  spill lyden [rattle v]
+  start lyden [rattle v]
   sett [gjennomsiktig v] effekt til (0)
   stemple avtrykk
   sett [gjennomsiktig v] effekt til (100)
@@ -715,4 +715,3 @@ Scratch. Klikk på `Se prosjektsiden` øverst til høyre. Du kommer da til en si
 hvor du kan beskrive prosjektet. En av boksene heter `Merknader og
 bidragsytere`. Her kan du nevne dem som opprinnelig har laget for eksempel
 kartet du bruker.
-

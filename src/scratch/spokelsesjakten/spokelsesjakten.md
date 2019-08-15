@@ -161,7 +161,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når denne figuren klikkes
   skjul
-  spill lyden [fairydust v]
+  start lyden [fairydust v]
   ```
 
 ## Test prosjektet {.flag}
@@ -193,7 +193,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når denne figuren klikkes
   skjul
-  spill lyden [fairydust v]
+  start lyden [fairydust v]
   endre [Poeng v] med (1)
   ```
 

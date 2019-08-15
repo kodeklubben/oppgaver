@@ -10,7 +10,7 @@ language: nn
 
 Denne oppgåva handlar om *lister*, altså å samle fleire ting i ein og same
 variabel. Sidan lister og løkker heng tett saman i Python bør du sjå på [løkker
-i repetisjonsoppgåva](../repetisjon/repetisjon_nn.html#løkker) viss du har
+i repetisjonsoppgåva](https://oppgaver.kidsakoder.no/python/repetisjon/repetisjon_nn) viss du har
 gløymt korleis løkker fungerer.
 
 
@@ -34,7 +34,7 @@ ikkje vanskelegare enn det! Me kan òg lage tomme lister:
 []
 ```
 
-Ei liste kan innehalde alt mogleg - tal, strengar, eller til og med andre
+Ei liste kan innehalde alt mogleg - tal, tekst, eller til og med andre
 lister!
 
 ```python
@@ -197,9 +197,9 @@ Dette må du gjere:
 - [ ] Avbryt utskrifta når du har skrive ut så mange element som brukaren ba om.
 
 
-# Strengar og indeksar {.activity}
+# Tekstar og indeksar {.activity}
 
-Me kan bruke indeksar på strengar òg. Til dømes:
+Me kan bruke indeksar på tekstar òg. Til dømes:
 
 ```python
 >>> s = "Ada"

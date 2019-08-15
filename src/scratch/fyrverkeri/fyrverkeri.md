@@ -159,7 +159,7 @@ __Klikk på det grønne flagget.__
   for alltid
       hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
-          spill lyden [bang v]
+          start lyden [bang v]
           vis
           gli (1) sekunder til x: (mus x) y: (mus y)
           skjul
@@ -177,7 +177,7 @@ __Klikk på det grønne flagget.__
   for alltid
       hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
-          spill lyden [bang v]
+          start lyden [bang v]
           vis
           gli (1) sekunder til x: (mus x) y: (mus y)
           skjul
@@ -322,7 +322,7 @@ ble fanget inne i datamaskinene og ødela programmer.
   for alltid
       hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
-          spill lyden [bang v]
+          start lyden [bang v]
           vis
           gli (1.5) sekunder til x: (mus x) y: (mus y)
           skjul
