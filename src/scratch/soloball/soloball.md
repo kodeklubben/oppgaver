@@ -27,9 +27,9 @@ ikke går i nettet.
 - [ ] Pusle sammen de følgende klossene i kode-området i midten av skjermen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       pek mot [musepeker v]
   slutt
   ```
@@ -140,9 +140,9 @@ seg.
   litt, og snur om katten kommer borti den.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       gå (3) steg
       hvis <berører [Katt v] ?>
           pek i retning ((180) + (retning))
@@ -203,10 +203,10 @@ __Klikk på det grønne flagget.__
   bakgrunnen mange ganger i en sirkel. Lag det følgende skriptet:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
   gjenta (36) ganger
-      vend venstre (10) grader
+      snu @turnLeft (10) grader
       lag klon av (meg)
   slutt
   ```
@@ -244,9 +244,9 @@ truffet nettet. Det skal vi gjøre nå.
   ditt slik at det blir seende slik ut:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       gå (3) steg
       hvis <berører [Katt v] ?>
           pek i retning ((180) + (retning))
@@ -301,9 +301,9 @@ Før vi gjør noe mer så trenger ballen å vite hvilken retning katten har.
 - [ ] I kattens skript, juster slik at den hele tiden oppdaterer denne variabelen med sin retning:
 
  ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       pek mot [musepeker v]
       sett (kattens retning) til (retning)
   slutt
@@ -340,9 +340,9 @@ Vi kan forenkle dette til
 - [ ] Endre i skriptet til ballen slik at spretten blir bedre,
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       gå (3) steg
       hvis <berører [Katt v] ?>
           pek i retning (((180) - (retning)) + ((2) * (retning av katt)))
@@ -401,10 +401,10 @@ starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
 - [ ] Legg på to nye klosser i skriptet som styrer ballen:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
   sett [Poeng v] til [0]
-  for alltid
+  gjenta for alltid
       gå (3) steg
       hvis <berører [Katt v] ?>
           pek i retning (((180) - (retning)) + ((2) * (retning av katt)))
@@ -449,11 +449,11 @@ selv!
   vi teller poeng.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
   sett [Poeng v] til [0]
   sett [Hastighet v] til [3]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       hvis <berører [Katt v] ?>
           pek i retning (((180) - (retning)) + ((2) * (retning av katt)))
@@ -494,11 +494,11 @@ sist snudde.
   `hvis`{.blockcontrol}-testen har blitt utvidet.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
   sett [Poeng v] til [0]
   sett [Hastighet v] til [3]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       endre [Flytt v] med (1)
       hvis <<berører [Katt v] ?> og <(Flytt) > [20]>>
