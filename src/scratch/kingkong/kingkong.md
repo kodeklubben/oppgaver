@@ -151,9 +151,9 @@ Nå har vi tatt inn grafikken vi trenger. Det er på tide å begynne å programm
   kan vi gjøre med et skript som ligner dette:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett størrelse til (200) %
-  legg foran alt
+  legg [foran alt v]
   gå til x: (0) y: (-50)
   ```
 
@@ -166,10 +166,10 @@ Nå har vi tatt inn grafikken vi trenger. Det er på tide å begynne å programm
   tallene, men et lite skript som ser omtrent slik ut gjør jobben:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (-45) y: (30)
   bytt drakt til [venstre v]
-  for alltid
+  gjenta for alltid
       hvis <tast [pil venstre v] trykket?>
           gli (0.2) sekunder til x: (-45) y: (30)
           bytt drakt til [venstre v]
@@ -204,10 +204,10 @@ skyskraperen.
   fly:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   begrens rotasjon [vend sideveis v]
-  for alltid
+  gjenta for alltid
       vent (tilfeldig tall fra (0.5) til (4)) sekunder
       lag klon av [meg v]
   slutt
@@ -270,8 +270,8 @@ flyene.
   skript på ham. Et enkelt utgangspunkt kan være:
 
   ```blocks
-  når grønt flagg klikkes
-  for alltid
+  når @greenFlag klikkes
+  gjenta for alltid
       vent til <berører [fly v] ?>
       endre [farge v] effekt med (25)
       vent (0.5) sekunder
