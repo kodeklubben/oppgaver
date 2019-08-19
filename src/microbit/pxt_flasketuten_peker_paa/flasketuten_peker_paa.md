@@ -7,50 +7,51 @@ language: nb
 
 # Introduksjon {.intro}
 
-Du har sikker lekt 'flasketuten peker på' mange ganger. 
-I dette prosjektet vil vi bygge en lignende type spill, men i steden for å 
-snurre på en flaske skal vi la en pil snurre rundt på displayet på 
-micro:biten. 
+Du har sikker lekt 'flasketuten peker på' mange ganger.
+I dette prosjektet vil vi bygge et lignende type spill, men i steden for å
+snurre på en flaske skal vi la en pil snurre rundt på displayet på
+micro:biten.
 
 ![Bilde av en microbit som viser en pil](pil.png)
 
 
 # Steg 1: Vi starter spillet {.activity}
 
-Når vi starter spillet, viser vi først en pil som peker rett opp, og deretter 
-lager vi en liste med bilde av piler som peker i hver sin retning, 
-totalt åtte piler.
+Når vi starter spillet, viser vi først en pil som peker rett opp, og deretter
+lager vi en liste med bilde av piler som peker i hver sin retning. Totalt har
+vi åtte ulike piler.
 
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}
 
-- [ ] Gå til `Avansert` og fra `Bilde`-kategorien velger du en 
-`show image at offset`-kloss og legg den inne i `ved start` -blokken.
+- [ ] Gå til __Avansert__ og fra `Bilde`{.microbitimages}-kategorien velger du en
+`show image at offset`{.microbitimages}-kloss og legg den inne i `ved start`{.microbitbasic}-klossen.
 
-- [ ] Fra `Bilde`-kategorien velger du en `Pilbilde`-kloss og legg den inne i 
-`show image at offset`-klossen. La offset være `0`.
+- [ ] Fra `Bilde`{.microbitimages}-kategorien velger du en `pilbilde`{.microbitimages}-kloss
+og legger den inne i `show image at offset`{.microbitimages}-klossen. La offset
+være __0__.
 
-- [ ] Lag først en variabel som heter `pilliste`
+- [ ] Lag en variabel som heter `pilliste`{.microbitvariables}.
 
-- [ ] Gå til `Avansert` og `Lister`-kategorien. Der velger du en 
-`sett list til array of`-kloss. Pass på at du bruker variabelen `Pilbilde`
-Du må gjøre klart til åtte elementer i lista.
+- [ ] Gå til __Avansert__ og `Lister`{.microbitarrays}-kategorien. Der velger du en
+`sett list til array of`{.microbitarrays}-kloss. Pass på at du bruker variabelen
+`pilbilde`{.microbitvariables}. Du må gjøre klart til åtte elementer i lista.
 
-- [ ] Gå til `Avansert` og `Bilder`-kategorien. Du legger inn en
-`pilbilde`-kloss i hvert av de åtte elementer i lista. La de peke 
-i hver sin retning, og la de følge klokka slik at pilen snurre fint rundt.
+- [ ] Gå til __Avansert__ og `Bilder`{.microbitimages}-kategorien. Legg inn en
+`pilbilde`{.microbitimages}-kloss i hvert av de åtte elementene i lista. La de peke
+i hver sin retning, og la de følge klokka slik at pilen snurrer pent rundt.
 
-    ![Bilde av start-skriptet](startskript.png)
+![Bilde av start-skriptet](startskript.png)
 
 
 # Steg 2: Velge en tilfeldig pil {.activity}
 
-Her skal du velge mellom piler som peker i åtte forskjellige retninger. 
-Variabelen `pilliste` har de åtte pilene der hver pil har et nummer. I
-tabellen under finner du en oversikten over pilene, både med norske og 
-engelske navn.
+Her skal du velge mellom piler som peker i åtte forskjellige retninger.
+Variabelen `pilliste`{.microbitvariables} inneholder de åtte pilene der hver pil
+har et nummer. I tabellen under finner du en oversikt over pilene, både med
+norske og engelske navn.
 
 |      Pil     	|   ↑   	|      ↗     	|   →  	|      ↘     	|   ↓   	|      ↙     	|   ←  	|      ↖     	|
 |:------------:	|:-----:	|:----------:	|:----:	|:----------:	|:-----:	|:----------:	|:----:	|:----------:	|
@@ -67,86 +68,132 @@ Altså: Velger vi tallet 4, viser vi en pil som peker mot Sør.
 
  - [ ] Sett denne variabelen til et tilfeldig tall mellom 0 og 7.
 
- - [ ] Legg inn en`show image`-kloss fra `Bilde`-kategorien. Så må vi legge 
- inn en `list får en verdi ved`-kloss fra `Lister`-kategorien. Velg 
- liste-variabelen `pilbilde` og la variabelen `retning` bestemme hvilket av 
- de åtte pilbildene som vises.
+ - [ ] Legg inn en`show image`{.microbitimages}-kloss fra `Bilde`{.microbitimages}-kategorien.
+ Så må vi legge inn en `list får en verdi ved`{.microbitarrays}-kloss fra `Lister`{.microbitarrays}-kategorien.
+ Velg liste-variabelen `pilbilde`{.microbitvariables} og la variabelen `retning`{.microbitvariables}
+ bestemme hvilket av de åtte pilbildene som skal vises.
 
  - [ ] Koden burde nå se slik ut:
 
- ![Bilde som viser hvordan vi velger et tilfeldig tall mellom 0 og 7 og deretter lagrer dette til en ny variabel](tilfeldig.png)
+```microbit
+input.onButtonPressed(Button.A, function () {
+    let pilliste: Image[] = []
+    retning = Math.randomRange(0, 7)
+    pilliste[retning].showImage(0)
+})
+```
 
 
 # Steg 3: Vi snurrer pilen {.activity}
 
-Nå skal vi få pilen til å snurre og å stoppe i en tilfeldig retning.
+Nå skal vi få pilen til å snurre og så stoppe i en tilfeldig retning.
 
-- [ ] Lag en funksjon som heter `Snurr` og la den ha `number` som 
-parameter. Kall denne parameteren for `antall`. Da kan du bestemme
-hvor mange kanger pilen skal snurre rundt når du bruker funksjonen
-`Snurr`.
+- [ ] Lag en funksjon som heter `snurr`{.microbitfunctions} og la den ha `number`{.microbitvariables}
+som parameter. Kall denne parameteren for `antall`{.microbitvariables}. Da kan
+du bestemme hvor mange ganger pilen skal snurre rundt når du bruker funksjonen
+`snurr`{.microbitfunctions}.
 
-- [ ] For å holde styr på hvor mange pilbilder som skal vises og hvilken pil 
-som skal vises hver gang, lager vi en variabel som heter `antallbilder` og en 
-som heter `pilbilde`.
+- [ ] For å holde styr på hvor mange pilbilder som skal vises, og hvilken pil
+som skal vises hver gang, oppretter vi noen variabler. Leg en variabel som heter
+`antallbilder`{.microbitvariables} og en som heter `pilbilde`{.microbitvariables}.
 
-- [ ] Vi vet at ett snurr inneholder åtte bilder. Til slutt vil vi at pilen 
-skal stoppe ved en tilfeldig retning. Vi setter derfor `antallbilder` 
-til `antall*8 + tilfeldig tall fra 0 til 7`. Vi setter `pilindeks` 
-til `0`.
+- [ ] Vi vet at ett snurr inneholder åtte bilder. Til slutt vil vi at pilen
+skal stoppe ved en tilfeldig retning. Vi setter derfor `antallbilder`{.microbitvariables}
+til `antall*8 + tilfeldig tall fra 0 til 7`{.microbitmath}. Vi setter `pilindeks`{.microbitvariables}
+til __0__.
 
-- [ ] Vi legger inn en `gjenta`-kloss fra `Løkker`-kategorien og gjentar 
-`antallbilder` ganger.
+- [ ] Vi legger inn en `gjenta`{.microbitloops}-kloss fra `Løkker`{.microbitloops}-kategorien
+og gjentar løkken `antallbilder`{.microbitvariables} ganger.
 
-- [ ] Inne i `gjenta`-klossen kan bildet vises ved å legge inn `show image`
--kloss fra `Bilde`-kategorien. Nå må vi legge inn en 
-`list får en verdi ved`-kloss fra `Lister`-kategorien. 
-Velg liste-variabelen `pilbilde` og la variabelen `pilindeks` bestemme 
-hvilket av de åtte pilbildene som vises.
+- [ ] Inne i `gjenta`{.microbitloops}-klossen kan bildet vises ved å legge inn
+`show image`{.microbitimages}-kloss fra `Bilde`{.microbitimages}-kategorien.
+Nå må vi legge inn en `list får en verdi ved`{.microbitarrays}-kloss fra `Lister`{.microbitarrays}-kategorien.
+Velg liste-variabelen `pilbilde`{.microbitvariables} og la variabelen `pilindeks`{.microbitvariables}
+bestemme hvilket av de åtte pilbildene som skal vises.
 
-- [ ] For at neste pil skal vises neste gang, må pilindeks økes med en. 
-Men vi må passe på at den settes til `0` hvis den har blitt `8`.
-Dette siden `pilbilde`-lista har indekser fra `0` til `7`.
+- [ ] For at neste pil skal vises neste gang, må pilindeks økes med en.
+Men vi må passe på at den settes til __0__ hvis den har blitt __8__.
+Dette må vi gjøre fordi `pilbilde`{.microbitvariables}-lista kun har indekser
+fra __0__ til __7__.
 
+- [ ] Nå kan vil kalle funksjonen `snurr`{.microbitfunctions} for eksempel når
+knapp A trykkes.
 
-   ![Bilde av snurr-funksjonen](snurr_funksjon.png)
+- [ ] Koden ser nå slik ut:
 
-- [ ] Nå kan vil kalle funksjonen `Snurr` f.ek.s når knapp A trykkes.
-
-   ![Bilde av "når knapp A trykkes" scriptet](knappA.png)
+```microbit
+input.onButtonPressed(Button.A, function () {
+    snurr(5)
+})
+function snurr (antall: number) {
+    antallbilder = antall * 8 + Math.randomRange(0, 7)
+    pilindeks = 0
+    for (let i = 0; i < antallbilder; i++) {
+        let pilbilde: Image[] = []
+        pilbilde[pilindeks].showImage(0)
+        pilindeks += 1
+        if (pilindeks == 8) {
+            pilindeks = 0
+        }
+    }
+}
+```
 
 ## Test prosjektet {.flag}
 
-- [ ] Til venstre på skjermen er det et bilde av en micro:bit. Her 
+- [ ] Til venstre på skjermen er det et bilde av en micro:bit. Her
 kan du teste at pilen snurrer og stopper i en tilfeldig retning.
 
 
 # Steg 4: Pilen blinker. {.activity}
 
-For å markere at pilen har sluttet å snurre, kan vi legge til at pilen blinker.
+For å markere at pilen har sluttet å snurre, kan vi legge til at pilen skal
+blinke.
 
-- [ ] Lag en funksjon som heter `Blink` og la den ha en number-parameter som 
-heter `retning`.
+- [ ] Lag en funksjon som heter `blink`{.microbitfunctions} og la den ha en
+number-parameter som heter `retning`{.microbitvariables}.
 
-- [ ] Legg til en `gjenta`-kloss fra `Løkker`-kategorien og gjenta f.eks. 
-`10` ganger.
+- [ ] Legg til en `gjenta`{.microbitloops}-kloss fra `Løkker`{.microbitloops}-kategorien
+og gjenta for eksempel __10__ ganger.
 
-- [ ] Tøm skjermen, ta en pause i `100` ms, og bruk en `show image`-kloss 
-fra `Bilder`-kategorien. Nå må vi legge inn en 
-`list får en verdi ved'-kloss fra `Lister`-kategorien. 
-Velg liste-variabelen `pilbilde` og la parameteren `retning` bestemme 
-hvilket av de åtte pilbildene som vises. Ta en ny pause i `50` ms.
+- [ ] Tøm skjermen, ta en pause i __100__ ms, og bruk en `show image`{.microbitimages}-kloss
+fra `Bilder`{.microbitimages}-kategorien. Nå må vi legge inn en `list får en verdi ved`{.microbitarrays}-kloss
+fra `Lister`{.microbitarrays}-kategorien. Velg liste-variabelen `pilbilde`{.microbitvariables}
+og la parameteren `retning`{.microbitvariables} bestemme hvilket av de åtte
+pilbildene som vises. Ta en ny pause i __50__ ms.
 
-   ![Bilde av blink-funksjonen](blink.png)
-   
-- [ ] Nå kan du kalle funksjonen `Blink` helt i slutten av funksjonen `Snurr`. 
-Da må du spesifisere hvilken retning pilen skal peke i.
+- [ ] Nå kan du kalle funksjonen `blink`{.microbitfunctions} helt i slutten av
+funksjonen `snurr`{.microbitfunctions}. Da må du spesifisere hvilken retning
+pilen skal peke i.
 
-   ![Bilde av snurr-funksjonen](snurr_funksjon_2.png)
+```microbit
+function blink (retning: number) {
+    for (let i = 0; i < 10; i++) {
+        let pilbilde: Image[] = []
+        basic.clearScreen()
+        basic.pause(100)
+        pilbilde[retning].showImage(0)
+        basic.pause(50)
+    }
+}
+function snurr (antall: number) {
+    antallbilder = antall * 8 + Math.randomRange(0, 7)
+    pilindeks = 0
+    for (let i = 0; i < antallbilder; i++) {
+        let pilbilde: Image[] = []
+        pilbilde[pilindeks].showImage(0)
+        pilindeks += 1
+        if (pilindeks == 8) {
+            pilindeks = 0
+        }
+    }
+    blink(pilindeks)
+}
+```
 
 ## Test prosjektet {.flag}
 
-- [ ] Til venstre på skjermen er det et bilde av en micro:bit. Her kan du 
+- [ ] Til venstre på skjermen er det et bilde av en micro:bit. Her kan du
 teste at pilen snurrer og blinker som den skal.
 
 - [ ] Du kan laste ned programmet til til micro:biten.
@@ -156,19 +203,21 @@ teste at pilen snurrer og blinker som den skal.
 
 # Steg 4: Noen utfordringer {.activity}
 
-*Noen forslag til endringer og utvidelser, men prøv selv dine ideer!*
+*Noen forslag til endringer og utvidelser. Prøv gjerne dine egne ideer!*
 
 ## Flere ideer {.check}
 
-Du har nå lært hvordan du kan lage en enkel animasjon med micro:bit. Nedenfor 
+Du har nå lært hvordan du kan lage en enkel animasjon med micro:bit. Nedenfor
 er noen ideer til videreutvikling, men finn gjerne på noe helt eget!
 
-- [ ] Kan du få pile til å snurre i motsatt retning? 
+- [ ] Kan du få pilen til å snurre i motsatt retning?
 
-- [ ] Kan du bruke et annet bilde, f.eks. bytte ut bilde av pil med kun en led som viser retning? 
+- [ ] Kan du bruke et annet bilde, f.eks. bytte ut bildet av en pil med kun en
+led som viser retning?
 
-- [ ] Kan du endre bilder som brukes og lage et annet spill, for eksempel en terning?
+- [ ] Kan du endre bildet som brukes og lage et annet spill, for eksempel en
+terning?
 
-- [ ] Hvis dere er tre-fire sammen kan dere legge inn samme sekvens av bilder og se hvor ofte dere
-klarer å vise samme bilde på micro:bitene. Da har dere lage en enarmet banditt.
-
+- [ ] Hvis dere er tre-fire sammen kan dere legge inn samme sekvens av bilder og
+se hvor ofte dere klarer å vise det samme bildet på micro:bitene. Da har dere
+laget en enarmet banditt.
