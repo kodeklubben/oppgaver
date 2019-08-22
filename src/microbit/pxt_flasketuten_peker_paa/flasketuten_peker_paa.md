@@ -37,13 +37,18 @@ være __0__.
 
 - [ ] Gå til __Avansert__ og `Lister`{.microbitarrays}-kategorien. Der velger du en
 `sett list til array of`{.microbitarrays}-kloss. Pass på at du bruker variabelen
-`pilbilde`{.microbitvariables}. Du må gjøre klart til åtte elementer i lista.
+`pilbilde`{.microbitvariables}. Du må gjøre klart til åtte elementer i lista som
+vist i bildet under:
+
+```microbit
+images.arrowImage(ArrowNames.North).showImage(0)
+let pilbilde = [0, 0, 0, 0, 0, 0, 0, 0]
+```
 
 - [ ] Gå til __Avansert__ og `Bilder`{.microbitimages}-kategorien. Legg inn en
 `pilbilde`{.microbitimages}-kloss i hvert av de åtte elementene i lista. La de peke
-i hver sin retning, og la de følge klokka slik at pilen snurrer pent rundt.
-
-![Bilde av start-skriptet](startskript.png)
+i hver sin retning, og la de følge klokka slik at pilen snurrer pent rundt. Start
+med Nord, deretter Nordøst, Øst, Sørøst og så videre.
 
 
 # Steg 2: Velge en tilfeldig pil {.activity}
