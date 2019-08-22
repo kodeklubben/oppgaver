@@ -86,11 +86,10 @@ Da kan vi sette i gang med å teste for i hvilken retning micro:biten peker.
 Trykk på `+`{.microbitlogic}-tegnet __7__ ganger slik at du kan legge nye
 klosser inn i totalt __9__ åpninger.
 
-- [ ] For å vise en pil, kan du legge inn en `show image`{.microbitimages}-kloss
-fra `Bilder`{.microbitimages}-kategorien. Velg også en `pilbilde`{.microbitimages}-kloss,
-og legg den inne i `show image`{.microbitimages}-klossen. Hver av de __9__
+- [ ] For å vise en pil, kan du legge inn en `vis pil`{.microbitbasic}-kloss
+fra `Basis`{.microbitbasic}-kategorien. Velg så en pilretning. Hver av de __9__
 åpningene i den utvidede `hvis ellers`{.microbitlogic}-klossen skal ha en
-`show image`{.microbitimages}-kloss. På denne måten får vi til å vise alle
+`vis pil`{.microbitbasic}-kloss. På denne måten får vi til å vise alle
 pilretningene.
 
 - [ ] Nå må vi teste systematisk hvilken retning micro:biten peker i. Dette
@@ -98,47 +97,47 @@ gjør vi ved å teste for verdien av variabelen `retning`{.microbitvariables} so
 har fått verdi fra micro:biten sin kompassretning. Vi må legge inn en
 sammenlignings-kloss fra `Logikk`{.microbitlogic}-kategorien, og i første `hvis`{.microbitlogic}-test
 må vi finne ut om `retning`{.microbitvariables} er mindre enn __22.5__. Da peker
-micro:biten omtrent mot nord, og vi viser pilbildet som peker mot nord.
+micro:biten omtrent mot nord, og vi viser en pil som peker mot nord.
 
 - [ ] I påfølgende `ellers hvis`{.microbitlogic}-test må vi finne ut om `retning`{.microbitvariables}
 er mindre enn __67.5__. Da peker micro:biten mot nordøst, mens micro:bitens
 nordvest peker mot ekte nord. Siden vi vil at pilen skal peke mot ekte nord, må
-vi velge at `pilbilde`{.microbitimages} viser `Nordvest`{.microbitimages}.
+vi velge at `vis pil`{.microbitbasic} peker mot `Nordvest`{.microbitimages}.
 
 - [ ] I påfølgende `ellers hvis`{.microbitlogic}-test må vi finne ut om `retning`{.microbitvariables}
 er mindre enn __112.5__. Da peker micro:biten mot øst, mens micro:bitens vest
 peker mot ekte nord. Siden vi vil at pilen skal peke mot ekte nord, må vi velge at
-`pilbilde`{.microbitimages} viser `Vest`{.microbitimages}.
+`vis pil`{.microbitimages} peker mot `Vest`{.microbitimages}.
 
 - [ ] Slik fortsetter vi rundt hele sirkelen. Vi tester for om `retning`{.microbitvariables}
 er mindre enn __157.5__, __202.5__, __247.5__, __292.5__ og __337.5__ og viser
-`pilbilde`{.microbitimages}
-som peker mot hhv.  `Sørvest`{.microbitimages}, `Sør`{.microbitimages}, `Sørøst`{.microbitimages},
-`Øst`{.microbitimages}, `Nordøst`{.microbitimages}, og på siste ledige plass,
-trenger vi ikke å teste for `retning`{.microbitvariables} siden den er større enn
-__337.5__, og vi vil vise `pilbilde`{.microbitimages} mot `Nord`{.microbitimages}.
+en pil som peker mot hhv.  `Sørvest`{.microbitimages}, `Sør`{.microbitimages},
+`Sørøst`{.microbitimages}, `Øst`{.microbitimages}, `Nordøst`{.microbitimages},
+og på siste ledige plass, trenger vi ikke å teste for `retning`{.microbitvariables}
+siden den er større enn __337.5__, og vi vil vise en pil mot `Nord`{.microbitimages}.
 
 ```microbit
+let retning = 0
 basic.forever(function () {
     retning = input.compassHeading()
     if (retning < 22.5) {
-        images.arrowImage(ArrowNames.North).showImage(0)
+        basic.showArrow(ArrowNames.North)
     } else if (retning < 67.5) {
-        images.arrowImage(ArrowNames.NorthWest).showImage(0)
+        basic.showArrow(ArrowNames.NorthWest)
     } else if (retning < 112.5) {
-        images.arrowImage(ArrowNames.West).showImage(0)
+        basic.showArrow(ArrowNames.West)
     } else if (retning < 157.5) {
-        images.arrowImage(ArrowNames.SouthWest).showImage(0)
+        basic.showArrow(ArrowNames.SouthWest)
     } else if (retning < 202.5) {
-        images.arrowImage(ArrowNames.South).showImage(0)
+        basic.showArrow(ArrowNames.South)
     } else if (retning < 247.5) {
-        images.arrowImage(ArrowNames.SouthEast).showImage(0)
+        basic.showArrow(ArrowNames.SouthEast)
     } else if (retning < 292.5) {
-        images.arrowImage(ArrowNames.East).showImage(0)
+        basic.showArrow(ArrowNames.East)
     } else if (retning < 337.5) {
-        images.arrowImage(ArrowNames.NorthEast).showImage(0)
+        basic.showArrow(ArrowNames.NorthEast)
     } else {
-        images.arrowImage(ArrowNames.North).showImage(0)
+        basic.showArrow(ArrowNames.North)
     }
 })
 ```
