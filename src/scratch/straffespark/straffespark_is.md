@@ -37,8 +37,8 @@ mörg vítaspyrnu og hægt er.
   vinstri:
 
   ```blocks
-  þegar teikningin fær smell :: events
-  fara (10) skref :: motion
+  þegar smellt er á þennan karakter
+  fara (10) skref
   ```
 
 ## Prófaðu verkefnið {.flag}
@@ -60,8 +60,8 @@ __Smelltu á græna fánann.__
   lítur svona út:
 
   ```blocks
-  þegar smellt er á @greenFlag :: events
-  fara til x: (-90) y: (-60) :: motion
+  þegar smellt er á @greenFlag
+  fara til x: (-90) og y: (-60)
   ```
 
 - [ ] Nú mun `Leo` koma aftur á völlinn í hvert skipti sem þú smellir á grænan
@@ -99,11 +99,11 @@ __Smelltu á græna fánann.__
   hvort þú þekkir hvar í atburðaritinu mismunandi hlutir eru gerðar:
 
   ```blocks
-  þegar smellt er á @greenFlag :: events
-  fara til x: (0) y: (-80) :: motion
-  bíða þangað til <snertir [Leo v] ? :: sensing> :: control
+  þegar smellt er á @greenFlag
+  fara til x: (0) og y: (-80)
+  bíða þangað til <snertir [Leo v] ?>
   endalaust
-    fara (6) skref :: motion :: control
+    fara (6) skref
   end
   ```
 
@@ -116,12 +116,12 @@ __Smelltu á græna fánann.__
 - [ ] Get `Leo` sparkað boltanum aftur ef þú smellur á græna fánann aftur?
 
 - [ ] Ef `Leo` snertir á boltann áður en þú smellir á hann (þegar þú smellir á
-  græna fánann) þarftu að breyta tölunum í `fara til x: () y: ()`{.b}-kubbanum
-  þannig að boltinn er í hvild fyrir framan `Leo`.
+  græna fánann) þarftu að breyta tölunum í `fara til x: () og y:
+  ()`{.b}-kubbanum þannig að boltinn er í hvild fyrir framan `Leo`.
 
 - [ ] Stundum fer boltinn aftur *áður en* `Leo` snýr aftur til hans, þannig að
   hann snertir boltann aftur og byrjar að hreyfa sig. Þá hjálpar það að bæta við
-  einu `bíða í (1) sek`{.b}-kubba fyrir `bíða þangað til <snertir [Leo
+  einu `bíða í (1) sekúndur`{.b}-kubba fyrir `bíða þangað til <snertir [Leo
   v]?>`{.b}-kubbann.
 
 
@@ -142,12 +142,12 @@ __Smelltu á græna fánann.__
 - [ ] Gerðu eftirfarandi atburðarit fyrir markvörðinn:
 
   ```blocks
-  þegar smellt er á @greenFlag :: events
-  fara til x: (200) y: (-50) :: motion
-  stefna í (0 v) gráður :: motion
+  þegar smellt er á @greenFlag
+  fara til x: (200) og y: (-50)
+  stefna í (0 v) gráður
   endalaust
-    fara (15) skref :: motion
-    ef á kanti snúðu við :: motion :: control
+    fara (15) skref
+    ef á kanti snúðu við
   end
   ```
 
@@ -194,14 +194,14 @@ boltann eða þegar boltinn fer í mark.
   `Bolti`. Bættu við eina `ef annars`{.blockcontrol}-kubba í atburðaritið:
 
   ```blocks
-  þegar smellt er á @greenFlag :: events
-  fara til x: (0) y: (-50) :: motion
-  bíða þangað til <snertir [Leo v] ? :: sensing> :: control
+  þegar smellt er á @greenFlag
+  fara til x: (0) og y: (-50)
+  bíða þangað til <snertir [Leo v] ?
   endalaust
-    fara (6) skref :: motion
-    ef <snertir [Markvörður v] ? :: sensing> þá
-      senda [Varið v] :: events :: control
-    end :: control
+  fara (6) skref
+    ef <snertir [Markvörður v] ?> þá
+      senda [Varið v]
+    end
   end
   ```
 
@@ -218,7 +218,7 @@ boltann eða þegar boltinn fer í mark.
 
   ```blocks
   þegar ég fæ sent [Varið v]
-  stöðva [önnur forrit á karakter v] :: control
+  stöðva [önnur forrit á karakter v]
   ```
 
   Eitt trikk er að fyrst skrifa þenna kóða fyrir boltann. Síðan er hægt að
@@ -250,7 +250,7 @@ músarbendilsins. Þær breytast sjálfkrafa þegar hann færist.
 
   ```blocks
   þegar smellt er á @greenFlag
-  fara til x: (0) y: (-50)
+  fara til x: (0) og y: (-50)
   bíða þangað til <snertir [Leo v]?>
   endalaust
       fara (6) skref
@@ -269,7 +269,7 @@ músarbendilsins. Þær breytast sjálfkrafa þegar hann færist.
 
   ```blocks
   þegar ég fæ sent [Mark v]
-  stöðva [önnur forrit á karakter v] :: control
+  stöðva [önnur forrit á karakter v]
   ```
 
 - [ ] Við getum líka látið Leo hressa smá þegar hann skorar mörk. Smelltu á
@@ -392,7 +392,7 @@ tekst að stoppa hann 10 sinnum. Þetta er svolítið mikið.
 
   ```blocks
   þegar ég fæ sent [Nýtt spark v]
-  fara til x: (-90) y: (-60)
+  fara til x: (-90) og y: (-60)
   ```
 
 - [ ] Að lokum setjum við prófið um hvort við höfum skorað 10 mörk eða hvort
@@ -403,11 +403,11 @@ tekst að stoppa hann 10 sinnum. Þetta er svolítið mikið.
   þegar ég fæ sent [Mark v]
   breyttu [Mörk v] um (1)
   bíða í (2) sekúndur
-  ef <(Mörk) < [10]>
+  ef <(Mörk) < [10]> þá
       senda [Nýtt spark v]
   annars
       bakgrunnur verður [Sigur v]
-      stöðva [allt v] :: control
+      stöðva [allt v]
   end
   ```
 
@@ -417,11 +417,11 @@ tekst að stoppa hann 10 sinnum. Þetta er svolítið mikið.
   þegar ég fæ sent [Varið v]
   breyttu [Varin v] um (1)
   bíða í (2) sekúndur
-  ef <(Varin) < [10]>
+  ef <(Varin) < [10]> þá
       senda [Nýtt spark v]
   annars
       bakgrunnur verður [Tap v]
-      stöðva [allt v] :: control
+      stöðva [allt v]
   end
   ```
 
