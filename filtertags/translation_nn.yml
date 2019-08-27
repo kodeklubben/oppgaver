@@ -6,11 +6,13 @@ language:
     nn:
       NAME: Nynorsk
     sv:
-      NAME: Svenska
+      NAME: Svensk
     da:
       NAME: Dansk
     en:
-      NAME: English
+      NAME: Engelsk
+    is:
+      NAME: Islandsk
 topic:
   NAME: Tema
   TAGS:

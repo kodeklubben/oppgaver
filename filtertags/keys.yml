@@ -2,6 +2,7 @@ language: #Logical OR
   - nb  # Norwegian bokmål
   - nn  # Norwegian nynorsk
   - en  # English
+  - is  # Icelandic
   #  - sv  # Swedish
   #  - da  # Danish
   #  - hr  # Croatian
