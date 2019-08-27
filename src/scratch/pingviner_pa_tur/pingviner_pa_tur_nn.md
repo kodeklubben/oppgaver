@@ -131,7 +131,7 @@ _No vil me få pingvinen til å bevege seg på kryss og tvers._
   ```blocks
   når @greenFlag vert trykt på
   set storleik til (40) %
-  bruk roteringstypen [vend sidevegs v]
+  avgrens rotering til [venstre-høgre v]
   for alltid
       gå (4) steg
       viss ved kant, sprett
@@ -144,7 +144,7 @@ _No vil me få pingvinen til å bevege seg på kryss og tvers._
   ```blocks
   når @greenFlag vert trykt på
   set storleik til (40) %
-  bruk roteringstypen [vend sidevegs v]
+  avgrens rotering til [venstre-høgre v]
   gå til [tilfeldig stad v]
   peik i retning (tilfeldig tal frå (1) til (360))
   for alltid
@@ -250,7 +250,7 @@ _Til slutt skal me få pingvinen til å oppdage at den har kome heim!_
   ```blocks
   når @greenFlag vert trykt på
   set storleik til (40) %
-  bruk roteringstypen [vend sidevegs v]
+  avgrens rotering til [venstre-høgre v]
   gå til [tilfeldig stad v]
   peik i retning (tilfeldig tal frå (1) til (360))
   for alltid

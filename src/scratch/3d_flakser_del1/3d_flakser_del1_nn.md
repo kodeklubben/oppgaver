@@ -173,7 +173,7 @@ flaggermus-figuren. Kall den __Flakse__.
         set [x v] til [0]
         set [y v] til [0]
         for alltid
-            viss <tasten [pil høyre v] er trykt>
+            viss <tasten [pil høgre v] er trykt>
                 endra [x v] med (10)
                 vent (0.05) sekund
             slutt

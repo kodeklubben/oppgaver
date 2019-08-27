@@ -39,7 +39,7 @@ No skal me bruke dette til å teikne sirklar!
 
   ```blocks
   når @greenFlag vert trykt på
-  bruk roteringstypen [ikkje roter v]
+  avgrens rotering til [ikkje roter v]
   for alltid
       set x til ((100) * ([cos v] av (retning)))
       set y til ((100) * ([sin v] av (retning)))
@@ -85,7 +85,7 @@ Til no har me berre teikna ein sirkel midt på skjermen. No skal me flytte den!
 
   ```blocks
   når @greenFlag vert trykt på
-  bruk roteringstypen [ikkje roter v]
+  avgrens rotering til [ikkje roter v]
   set [sentrumX v] til [-100]
   set [sentrumY v] til [50]
   for alltid

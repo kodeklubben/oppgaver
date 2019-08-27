@@ -53,7 +53,8 @@ Begynn med å lage en fil som kan kjøres med Pygame Zero.
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en ny fil `run_stickman.py`.
+- [ ] Lag en ny fil `run_stickman.py`. Legg til koden `import pgzrun` 
+helt øverst i programmet ditt. Helt nederst må det stå `pgzrun.go()`.
 
 - [ ] Du starter med å bestemme hvor stort vindu vi skal bruke:
 
