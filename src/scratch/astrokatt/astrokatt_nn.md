@@ -22,8 +22,21 @@ Me begynner prosjektet vårt med å få katten til å fly!
 
 ## Sjekkliste {.check}
 
-- [ ] Start eit nytt prosjekt. Du vil sjå ein katt som ventar på å bli
-      programmert!
+- [ ] Start eit nytt prosjekt. Når du står på startsida til Scratch kan du
+  starta eit nytt prosjekt på to måtar. Gå til
+  [scratch.mit.edu](scratch.mit.edu).
+
+  1. Viss du ikkje har ein brukar kan du trykke på `Lag noko` på framsida. Då
+  blir du vidaresendt til verktøyet der me faktisk programmerer.
+
+  2. Dersom du har ein brukar kan du logga inn og deretter trykka på namnet
+  ditt øvst i høgre hjørne. Trykk så `Tinga mine` og til slutt
+  `Nytt prosjekt`.
+
+  No skal du sjå ein katt som ventar på å bli programmert!
+
+  Viss du allereie har prøvd deg fram med noko kan du starte eit nytt prosjekt
+  ved å velje `Fil` over programmeringsområdet og så `Ny`.
 
 - [ ] Prøv å klikk på dei blå klossane midt på skjermen. For eksempel, om du
       klikkar på
@@ -292,3 +305,7 @@ __Klikk på det grøne flaget.__
 Då har me ein katt som kan fly rundt i verdsrommet. Eksperimenter gjerne med å
 utvide spelet ditt. Når du er ferdig kan du klikke på `Legg ut`-knappen. Då vil
 spelet bli lagt ut på Scratch-heimesida din slik at andre kan spele det.
+
+Merk at du må ha ein brukar og vera innlogga for å kunna lagra og
+legga ut på nett. Det er mogleg å lagra på datamaskina utan å vera
+innlogga. Trykk på `Fil` og vel `Lager på datamaskina`.

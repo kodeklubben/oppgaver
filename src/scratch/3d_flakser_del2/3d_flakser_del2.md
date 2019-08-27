@@ -45,7 +45,7 @@ eller siden bakken. Dette gjør vi med en ny figur som vi kaller `bakken`.
   skriptet til bakken,
 
   ```blocks
-  for alltid
+  gjenta for alltid
       sett y til ((20) - (y))
       hvis <berører [Flakse v]>
           si [du tapte!] i (2) sekunder
@@ -114,7 +114,7 @@ slik at den flakser med vingene når vi trykker mellomromtasten.
 
   ```blocks
   når jeg mottar [Nytt spill v]
-  for alltid
+  gjenta for alltid
       gjenta til <(flaks) = [0]>
           endre [flaks v] med (-1)
           hvis <(løft) < [5]>
@@ -154,10 +154,10 @@ Dette får vi til ved å endre litt på hovedskriptet til flakse.
 
   ```blocks
   hvis <(retning) < [90]>
-      vend høyre (1) grader
+      snu @turnRight (1) grader
   slutt
   hvis <(retning) > [90]>
-      vend venstre (1) grader
+      snu @turnLeft (1) grader
   slutt
   ```
 

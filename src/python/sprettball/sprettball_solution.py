@@ -1,4 +1,6 @@
 
+import pgzrun
+
 HEIGHT = 400
 WIDTH = 600
 
@@ -58,3 +60,5 @@ def update():
 
 def on_key_down(key):
     ball1.on_key_down(key)
+
+pgzrun.go()

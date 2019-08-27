@@ -92,7 +92,7 @@ prosjekter. Vi vil derfor først kopiere romskipet vi laget i Lunar Lander.
 
   ```blocks
   når jeg mottar [Nytt spill v]
-  for alltid
+  gjenta for alltid
       hvis <(x-posisjon) < [-235]>
           endre x med (470)
       slutt
@@ -125,7 +125,7 @@ prosjekter. Vi vil derfor først kopiere romskipet vi laget i Lunar Lander.
   koden som lager en ny skuddklone når mellomromtasten trykkes:
 
   Lag et skript på skudd-figuren som starter på `Nytt spill`-meldingen. Skriptet
-  kan bestå av en `for alltid`{.blockcontrol}-løkke, hvor du tester på om
+  kan bestå av en `gjenta for alltid`{.blockcontrol}-løkke, hvor du tester på om
   mellomromtasten er trykket. Dersom et skudd skal avfyres kan du først la
   skuddet `gå til`{.blockmotion} romskipet og deretter peke i samme retning som
   romskipet. Dette siste kan du gjøre med en kombinasjon av `pek i
@@ -269,4 +269,3 @@ prosjekter. Vi vil derfor først kopiere romskipet vi laget i Lunar Lander.
   tallerken (UFO) innimellom. Denne måtte man også passe seg for, men i
   motsetning til asteroidene kunne UFOen skyte tilbake. Prøv å legg til en slik
   UFO i spillet ditt!
-
