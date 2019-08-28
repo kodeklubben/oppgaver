@@ -2,6 +2,7 @@ language: #Logical OR
   - nb  # Norwegian bokmål
   - nn  # Norwegian nynorsk
   - en  # English
+  - is  # Icelandic
   #  - sv  # Swedish
   #  - da  # Danish
   #  - hr  # Croatian
@@ -24,7 +25,7 @@ subject: #Logical AND
   - programming
   - technology
   - music
-  - norwegian
+  - first_language
   - english
   - arts_and_crafts
   - social_science

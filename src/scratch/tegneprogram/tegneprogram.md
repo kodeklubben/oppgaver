@@ -76,7 +76,7 @@ interessert i nå er `penn på`{.blockpen} og `penn av`{.blockpen}.
   når grønt flagg klikkes
   for alltid
       gå til [musepeker v]
-      hvis <museknappen er nede?>
+      hvis <museknappen er trykket?>
           penn på
       ellers
           penn av
@@ -103,7 +103,7 @@ __Klikk på det grønne flagget.__
   slett
   for alltid
       gå til [musepeker v]
-      hvis <museknappen er nede?>
+      hvis <museknappen er trykket?>
           penn på
       ellers
           penn av
@@ -251,7 +251,7 @@ musepekeren er utenfor tavlas `x`- og `y`-koordinater, så virker ikke blyanten.
   for alltid
       hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
           gå til [musepeker v]
-          hvis <museknappen er nede?>
+          hvis <museknappen er trykket?>
               penn på
           ellers
               penn av
@@ -274,7 +274,7 @@ musepekeren er utenfor tavlas `x`- og `y`-koordinater, så virker ikke blyanten.
       hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
           gå til [musepeker v]
           vis
-          hvis <museknappen er nede?>
+          hvis <museknappen er trykket?>
               penn på
           ellers
               penn av
@@ -408,7 +408,7 @@ __Klikk på det grønne flagget.__
       hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
           gå til [musepeker v]
           vis
-          hvis <museknappen er nede?>
+          hvis <museknappen er trykket?>
               hvis <(stempelmodus) = [på]>
                   stemple avtrykk
               ellers

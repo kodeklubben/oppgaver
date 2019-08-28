@@ -419,12 +419,12 @@ __Klikk på det grøne flagget.__
   `Lyder`{.blocklightgrey}-fana og vel ein ny lyd frå biblioteket. Me brukar
   `Effekter/rattle`, men du kan gjerne bruke ein annan lyd.
 
-- [ ] Spel lyden når ein stad blir funne. Klikk `Skript`{.blocklightgrey}-fana
-  og legg til ein `spel lyden`{.blocksound}-kloss.
+- [ ] start lyden når ein stad blir funne. Klikk `Skript`{.blocklightgrey}-fana
+  og legg til ein `start lyden`{.blocksound}-kloss.
 
   ```blocks
   når eg får meldinga [Fann stad v]
-  spel lyden [rattle v]
+  start lyden [rattle v]
   set [gjennomsiktig v]-effekt til (0)
   lag avtrykk
   set [gjennomsiktig v]-effekt til (100)

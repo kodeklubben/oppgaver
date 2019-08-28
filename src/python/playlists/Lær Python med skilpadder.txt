@@ -1,7 +1,0 @@
-skilpadder/skilpadder.md
-skilpaddeskolen/skilpaddeskolen.md
-hemmelige_koder/hemmelige_koder.md
-skilpadder_hele_veien/skilpadder_hele_veien.md
-hangman/hangman.md
-tre_pa_rad/tre_pa_rad.md
-tre_pa_rad_mot_datamaskinen/tre_pa_rad_mot_datamaskinen.md

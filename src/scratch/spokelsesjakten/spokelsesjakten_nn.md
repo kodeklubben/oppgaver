@@ -156,7 +156,7 @@ __Klikk på det grøne flagget.__
   ```blocks
   når denne figuren vert trykt på
   gøym
-  spel lyden [fairydust v]
+  start lyden [fairydust v]
   ```
 
 ## Test prosjektet {.flag}
@@ -187,7 +187,7 @@ __Klikk på det grøne flagget.__
   ```blocks
   når denne figuren vert trykt på
   gøym
-  spel lyden [fairydust v]
+  start lyden [fairydust v]
   endra [Poeng v] med (1)
   ```
 

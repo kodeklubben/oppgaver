@@ -6,11 +6,13 @@ language:
     nn:
       NAME: Nynorsk
     sv:
-      NAME: Svenska
+      NAME: Svensk
     da:
       NAME: Dansk
     en:
-      NAME: English
+      NAME: Engelsk
+    is:
+      NAME: Islandsk
 topic:
   NAME: Tema
   TAGS:
@@ -63,7 +65,7 @@ subject:
       NAME: Teknologi
     music:
       NAME: Musikk
-    norwegian:
+    first_language:
       NAME: Norsk
     english:
       NAME: Engelsk

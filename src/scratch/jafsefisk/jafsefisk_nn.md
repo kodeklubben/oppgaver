@@ -248,7 +248,7 @@ klikke med kjevane.
 
   ```blocks
   når eg får meldinga [Du tok meg! v]
-  spel lyden [bubbles v]
+  start lyden [bubbles v]
   gjenta (2) gongar
       byt drakt til [Lukka munn v]
       vent (0.5) sekund

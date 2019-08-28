@@ -512,7 +512,7 @@ etter ordet `blir`!
 
   ```blocks
   når eg får meldinga [Party v]
-  spel lyden [human beatbox1 v]
+  start lyden [human beatbox1 v]
   gjenta (20) gongar
       neste drakt
       vent (0.2) sekund

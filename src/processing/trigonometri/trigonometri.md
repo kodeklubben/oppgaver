@@ -7,11 +7,11 @@ language: nb
 
 # Introduksjon {.intro}
 
-Nå som du kan tegne [mangekanter](../mangekanter/mangekanter.html) (hvis du ikke
-har gjort leksjonen om mangekanter, bør du gjøre dem først), skal vi se på en
-litt spesiell type mangekanter: de regulære mangekantene. Det vil si de
-mangekantene hvor lengden av hver kant er lik og vinkelen i hvert hjørne er lik.
-Vi skal også tegne deres nære slektninger, de regulære stjernene.
+Nå som du kan tegne [mangekanter](https://oppgaver.kidsakoder.no/processing/mangekanter/mangekanter) 
+(hvis du ikke har gjort leksjonen om mangekanter, bør du gjøre dem først), 
+skal vi se på en litt spesiell type mangekanter: de regulære mangekantene. 
+Det vil si de mangekantene hvor lengden av hver kant er lik og vinkelen i hvert 
+hjørne er lik. Vi skal også tegne deres nære slektninger, de regulære stjernene.
 
 Det er en stor fordel å kunne litt trigonometri før man slår seg løs på disse
 oppgavene, men vi skal prøve å gi korte forklaringer av de konseptene som brukes

@@ -1,6 +1,6 @@
 ---
 title: "PXT: Gangespill"
-author: Espen Clausen og Tjerand Silde
+author: Espen Clausen, Tjerand Silde, Julie Revdahl
 language: nb
 ---
 
@@ -19,36 +19,97 @@ en få opp et smilefjes, hvis ikke kommer et surt fjes.
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] Vi vil at noe skal skje når vi rister på micro:biten. Til dette kan vi
-  bruke `når ristes`-klossen som finnes i kategorien `Inndata`.
+  bruke `når ristes`{.microbitinput}-klossen som finnes i kategorien `Inndata`{.microbitinput}.
 
 - [ ] Når micro:bit ristes skal det vises et gangestykke på skjermen. Vi må
-  opprette en del `variabler` til å ta vare på verdiene vi skal bruke underveis:
-  `tiere` tar vare på antall tiere i svaret, `enere` tar vare på antall enere i
-  svaret, `svar` er summen av variablene `tiere` og `enere`, mens `produkt` er
-  svaret som micro:bit regner seg fram til.
+  opprette en del `variabler`{.microbitvariables} til å ta vare på verdiene vi
+  skal bruke underveis: `tiere`{.microbitvariables} tar vare på antall tiere i
+  svaret, `enere`{.microbitvariables} tar vare på antall enere i svaret, `svar`{.microbitvariables}
+  er summen av variablene `tiere`{.microbitvariables} og `enere`{.microbitvariables},
+  mens `produkt`{.microbitvariables} er svaret som micro:bit regner seg fram til.
 
-  ![Bilde av koden for å sette variablene til null](ristes.png)
+  ```microbit
+  let tiere = 0
+  let enere = 0
+  let svar = 0
+  let produkt = 0
+  input.onGesture(Gesture.Shake, function () {
+    tiere = 0
+    enere = 0
+    svar = 0
+    produkt = 0
+  })
+  ```
 
-- [ ] Deretter trenger vi to `faktorer`, som er selve gangestykket. En kan selv
-  velge hvor langt opp i gangetabellene en ønsker å komme, ved å endre grensense
-  for de tilfeldige tallene.
+- [ ] Deretter trenger vi to `faktorer`{.microbitvariables}, som er selve
+gangestykket. En kan selv velge hvor langt opp i gangetabellene en ønsker å
+komme, ved å endre grensense for de tilfeldige tallene.
 
-  ![Bilde av koden for å sette faktor1 og faktor 2 tilfeldig](tilfeldig_tall.png)
+  ```microbit
+  let tiere = 0
+  let enere = 0
+  let svar = 0
+  let produkt = 0
+  let faktor1 = 0
+  let faktor2 = 0
+  input.onGesture(Gesture.Shake, function () {
+    tiere = 0
+    enere = 0
+    svar = 0
+    produkt = 0
+    faktor1 = Math.randomRange(0, 5)
+    faktor2 = Math.randomRange(0, 10)
+  })
+  ```
 
 - [ ] Deretter må vi sette sammen faktorene til gangestykket som skal vises på
-  skjermen. Vi bruker her `join` funksjonen som finnes under tekst, og som kan
-  tilpasses til så mange elementer en ønsker. Man må klikke på `tannhjulet` for
-  å utvide blokken.
+  skjermen. Vi bruker her `vis tekst`{.microbitbasic}-klossen fra kategorien `Basis`{.microbitbasic}
+  og erstatter "Hello" med `sett sammen`{.microbittext}-klossen som finnes under
+   `Avansert -> Tekst`{.microbittext}. Denne kan tilpasses til så mange
+   elementer en ønsker. Man må klikke på plusstegnet for å utvide klossen.
 
-  ![Bilde av koden for å vise faktor1xfactor2=](vis_tekst.png)
+  ```microbit
+  let tiere = 0
+  let enere = 0
+  let svar = 0
+  let produkt = 0
+  let faktor1 = 0
+  let faktor2 = 0
+  input.onGesture(Gesture.Shake, function () {
+    tiere = 0
+    enere = 0
+    svar = 0
+    produkt = 0
+    faktor1 = Math.randomRange(0, 5)
+    faktor2 = Math.randomRange(0, 10)
+    basic.showString("" + faktor1 + "x" + faktor2 + "=")
+  })
+  ```
 
-- [ ] Vi regner til slutt ut `produktet` av de to `faktorene`, som vi skal
-  kontrollere mot svaret som blir avgitt.
+- [ ] Vi regner til slutt ut `produktet`{.microbitvariables} av de to `faktorene`{.microbitvariables},
+ som vi skal kontrollere mot svaret som blir avgitt.
 
-  ![Bilde av koden for å lagre produktet av faktor1 og faktor2](produkt.png)
+  ```microbit
+  let tiere = 0
+  let enere = 0
+  let svar = 0
+  let produkt = 0
+  let faktor1 = 0
+  let faktor2 = 0
+  input.onGesture(Gesture.Shake, function () {
+    tiere = 0
+    enere = 0
+    svar = 0
+    produkt = 0
+    faktor1 = Math.randomRange(0, 5)
+    faktor2 = Math.randomRange(0, 10)
+    basic.showString("" + faktor1 + "x" + faktor2 + "=")
+    produkt = faktor1 * faktor2
+  })
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -74,13 +135,25 @@ Det er to forskjellige måter vi kan teste micro:bit-programmer på:
 
 ## Sjekkliste {.check}
 
-- [ ] `Knapp A` skal registrere `tiere`, så ved hvert trykk skal den øke med 1.
+- [ ] `Knapp A`{.microbitinput} skal registrere `tiere`{.microbitvariables}, så ved hvert trykk
+skal den øke med 1.
 
-  ![Bilde av hvordan få knapp A til å øke tiere med 1](knapp_a.png)
+  ```microbit
+  let tiere = 0
+  input.onButtonPressed(Button.A, function () {
+    tiere += 1
+  })
+  ```
 
-- [ ] `Knapp B` skal registrere `enere`, så ved hvert trykk skal den øke med 1.
+- [ ] `Knapp B`{.microbitinput} skal registrere `enere`{.microbitvariables}, så ved hvert trykk
+skal den øke med 1.
 
-  ![Bilde av hvordan få knapp B til øke enere med 1](knapp_b.png)
+  ```microbit
+  let enere = 0
+  input.onButtonPressed(Button.B, function () {
+    enere += 1
+  })
+  ```
 
 
 # Steg 3: Kontrollere svar {.activity}
@@ -92,16 +165,38 @@ sammen blir det 28.*
 
 ## Sjekkliste {.check}
 
-- [ ] Når `A+B – knappene` trykkes samtidig, skal den kontrollere om en har
-  regnet korrekt. Da legger vi sammen antall `tiere` og antall `enere` som vi
-  har trykket, og lagrer summen av de tallene i varibelen `svar`.
+- [ ] Når `A+B– knappene`{.microbitinput} trykkes samtidig, skal den kontrollere om en har
+  regnet korrekt. Da legger vi sammen antall `tiere`{.microbitvariables} og
+  antall `enere`{.microbitvariables} som vi  har trykket, og lagrer summen av de
+  tallene i varibelen `svar`{.microbitvariables}.
 
-  ![Bilde av koden for å lagre 10xtiere + enere i variablen svar](knapp_a_b.png)
+  ```microbit
+  let svar = 0
+  input.onButtonPressed(Button.AB, function () {
+    let enere = 0
+    let tiere = 0
+    svar = tiere * 10 + enere
+  })
+  ```
 
-- [ ] Vi kontrollerer deretter om `svar` og `produkt` er likt. Dersom det er
-  rett, viser den smilefjes. Dersom det er galt, viser den trist fjes.
+- [ ] Vi kontrollerer deretter om `svar`{.microbitvariables} og `produkt`{.microbitvariables}
+ er likt. Dersom det er rett, viser den smilefjes. Dersom det er galt, viser den
+ trist fjes.
 
-  ![Bilde av koden for å sjekke om svaret var rett](glad_trist.png)
+  ```microbit
+  let svar = 0
+  input.onButtonPressed(Button.AB, function () {
+    let produkt = 0
+    let enere = 0
+    let tiere = 0
+    svar = tiere * 10 + enere
+    if (svar == produkt) {
+        basic.showIcon(IconNames.Happy)
+    } else {
+        basic.showIcon(IconNames.Sad)
+    }
+  })
+    ```
 
 
 # Steg 4: Muligheter for endringer {.activity}
