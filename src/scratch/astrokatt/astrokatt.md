@@ -22,7 +22,7 @@ Vi begynner prosjektet vårt med å få katten til å fly!
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt prosjekt. Når du står på startsiden til Scratch kan du
-  starte et nytt prosjekt på to måter. Gå til [scratch.mit.edu](scrath.mit.edu).
+  starte et nytt prosjekt på to måter. Gå til [scratch.mit.edu](scratch.mit.edu).
 
   1. Hvis du ikke har en bruker kan du trykke på `Direkte til programmering` på
   forsiden. Da blir du sendt til verktøyet der vi faktisk programmerer.
