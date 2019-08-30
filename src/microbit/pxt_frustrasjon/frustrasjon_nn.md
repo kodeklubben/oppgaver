@@ -30,58 +30,139 @@ Basert på: https://codeclubprojects.org/en-GB/microbit/frustration/
 ## Sjekkliste {.check}
 
 - [ ] Start eit nytt PXT-prosjekt, til dømes ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] Slett dei eksisterande blokkane.
 
 ![Bilete av "start"- og "for alltid"-blokker som kastast](slett_standard_blokker.png)
 
 - [ ] Me vil starte eit nytt spel når spelaren trykkar på knapp A. Til det kan
-  me bruke `når knapp A blir trykka`-klossen som du finn i kategorien `Inndata`.
+  me bruke `når knapp A blir trykka`{.microbitinput}-klossen som du finn i
+  kategorien `Inndata`{.microbitinput}.
 
-  ![Bilete av "når knapp A blir trykka"-klossen](naar_a_trykkes.png)
+```microbit
+  input.onButtonPressed(Button.A, function () {
+
+})
+```
 
 - [ ] Me må opprette ein *variabel* til å ta vare på kor mange gonger spelaren
-  berører ståltråden i løpet av spelet. Me opprettar variabelen `beroering` for
-  å gjere det. Hugs at det er lurt å unngå `æøå` fordi det fungerer ikkje alltid
+  berører ståltråden i løpet av spelet. Me opprettar variabelen `beroering`{.microbitvariables}
+  for å gjere det. Hugs at det er lurt å unngå *æøå* fordi det fungerer ikkje alltid
   når me programmerer.
 
   ![Bilete av korleis lage ein ny variabel](lag_variabel_beroeringer.png)
 
   ![Bilete av korleis setje variabelnamn](lag_variabel_beroeringer2.png)
 
-  ![Bilete av den ferdige variabelen](variabel_beroeringer.png)
+```microbit
+let beroeringer = 0
+input.onButtonPressed(Button.A, function () {
+    beroeringer = 0
+})
+```
 
-- [ ] Legg til at antal `beroering`ar blir vist etter at `knapp A` er trykka.
+- [ ] Legg til at me viser antal `beroering`{.microbitvariables}ar etter at
+`knapp A`{.microbitinput} er trykka.
 
-  ![Bilete av koden for å vise antal berøringar](vis_tall_beroeringer.png)
+```microbit
+let beroeringer = 0
+input.onButtonPressed(Button.A, function () {
+    beroeringer = 0
+    basic.showNumber(beroeringer)
+})
+```
 
 
 # Steg 2: Oppdatere berøringane {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] Du skal leggje til 1 til variabelen `beroering` kvar gong kontakt `P0`
-  blir trykka.
+- [ ] Du skal leggje til 1 til variabelen `beroering`{.microbitvariables} kvar
+gong kontakt P0 blir trykka.
 
-  ![Bilete av når kontakt P0 blir trykt](kontakt_p0_trykkes.png)
+```microbit
+input.onPinPressed(TouchPin.P0, function () {
 
-- [ ] Vidare skal me vise eit kryss for 1 sekund kvar gong kontakt `P1` blir
+})
+```
+
+- [ ] Vidare skal me vise eit kryss for 1 sekund kvar gong kontakt P1 blir
   trykka.
 
-  ![Bilete av koden for eit kryss når kontakt P1 blir trykka](pin1_bilde.png)
+```microbit
+input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+})
+```
 
-  ![Bilete av Musikk-kategorien og "spill av tone"-klossen](pin1_musikk.png)
+```microbit
+  input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    music.playTone(262, music.beat(BeatFraction.Whole))
+})
+```
 
-  ![Bilete av koden for kryss og tone sett saman](pin1_pause.png)
+```microbit
+input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    basic.pause(500)
+})
+```
 
-- [ ] Så må du endre verdien til `beroering` med 1.
+- [ ] Så må du endre verdien til `beroering`{.microbitvariables} med 1.
 
-  ![Bilete av koden med beroering endra med 1](endre_beroeringer.png)
+```microbit
+input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    basic.pause(500)
+    beroeringer += 1
+})
+```
 
 - [ ] Så må me vise kor mange gonger me har vore borti ståltråden.
 
-  ![Bilete av koden for å vise antal berøringar](vis_beroeringer.png)
+```microbit
+input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    basic.pause(500)
+    beroeringer += 1
+    basic.showNumber(beroeringer)
+})
+```
 
 
 # Steg 3: Bygg spelet {.activity}
@@ -92,16 +173,16 @@ Basert på: https://codeclubprojects.org/en-GB/microbit/frustration/
 
 - [ ] Tre løkka i ein annan bit ståltråd som du set i to treklossar med hol i.
 
-- [ ] Fest ein kabel med krokodilleklyper i `P0` på micro:biten til det eine
-  beinet på `buzzaren` og ein annan kabel frå `GND` på micro:biten til det andre
-  beinet på `buzzaren`. *Det har ikkje noko å seie kva bein på buzzaren som blir
+- [ ] Fest ein kabel med krokodilleklyper i P0 på micro:biten til det eine
+  beinet på buzzaren og ein annan kabel frå GND på micro:biten til det andre
+  beinet på buzzaren. *Det har ikkje noko å seie kva bein på buzzaren som blir
   kopla til kva kabel på buzzaren*
 
 ![Bilete av to krokodilleklemmer og ein buzzar](buzzer.png)
 
-- [ ] Fest ein kabel med krokodilleklyper til `P1` på micro:biten og til
+- [ ] Fest ein kabel med krokodilleklyper til P1 på micro:biten og til
   ståltråden med løkka. Fest ein kabel til ståltråden som er festa til
-  treklossane og til `GND` på micro:biten.
+  treklossane og til GND på micro:biten.
 
 ![Bilete av ein buzzwire](buzzwire.png)
 
@@ -111,5 +192,5 @@ Basert på: https://codeclubprojects.org/en-GB/microbit/frustration/
 
 - [ ] Klarar du å endre spelet slik at ein startar med tre liv, og mistar eitt
   for kvar gong ein kjem borti ståltråden? __Tips:__ Du kan bruke klossen `game
-  over` i kategorien `Spill` for å vise ein "Game over"-animasjon når spelaren
-  mistar det siste livet.
+  over`{.microbitgame} i kategorien `Spill`{.microbitgame} for å vise ein
+  "Game over"-animasjon når spelaren mistar det siste livet.

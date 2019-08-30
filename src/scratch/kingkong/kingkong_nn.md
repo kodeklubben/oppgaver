@@ -152,7 +152,7 @@ No har me tatt inn grafikken me treng. Det er på tide å begynne å programmere
   ```blocks
   når @greenFlag vert trykt på
   set storleik til (200) %
-  legg framfor alt
+  legg [framfor alt v]
   gå til x: (0) y: (-50)
   ```
 
@@ -205,7 +205,7 @@ skyskraparen.
   ```blocks
   når @greenFlag vert trykt på
   gøym
-  bruk roteringstypen [vend sidevegs v]
+  avgrens rotering til [venstre-høgre v]
   for alltid
       vent (tilfeldig tal frå (0.5) til (4)) sekund
       lag klon av [meg v]

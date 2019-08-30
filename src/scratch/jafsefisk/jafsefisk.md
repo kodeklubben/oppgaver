@@ -101,7 +101,7 @@ bevegelsene.
   sett størrelse til (40) %
   gjenta for alltid
       gå (2) steg
-      snu venstre (tilfeldig tall fra (-20) til (20)) grader
+      snu @turnLeft (tilfeldig tall fra (-20) til (20)) grader
       sprett tilbake ved kanten
   slutt
   ```
