@@ -23,61 +23,75 @@ tre liv før spelet er over.
 
 ## Sjekkliste {.check}
 
-- [ ] Lag tre variablar `spelar`, `mat` og `liv` med `Lag ein variabel...` i
-  kategorien `Variablar`.
+- [ ] Lag tre variablar `spelar`{.microbitvariables}, `mat`{.microbitvariables}
+  og `liv`{.microbitvariables} med `Lag ein variabel...`{.microbitvariables} i
+  kategorien `Variablar`{.microbitvariables}.
 
 Skjermen vår har 5x5 ledlys. Desse kan me skru av og på med litt kode. I denne
-oppgåva brukar me klossar frå `Spel`-kategorien til å setje og endre kor lysa
-skal vere. Posisjonen til lysa blir gitt ved ein `x`- og ein `y`-posisjon, som i
-eit rutenett. Verdien til `x` gir plassen til lyset bortover (vassrett) og
-verdien til `y` gir plassen nedover (loddrett), som du ser på biletet under.
-Hjørnet øvst til venstre er `(0, 0)` og hjørnet nedst til høgre er `(4, 4)`.
+oppgåva brukar me klossar frå `Spel`{.microbitgame}-kategorien til å setje og
+endre kor lysa skal vere. Posisjonen til lysa blir gitt ved ein __x__- og ein
+__y__-posisjon, som i eit rutenett. Verdien til __x__ gir plassen til lyset
+bortover (vassrett) og verdien til __y__ gir plassen nedover (loddrett), som du
+ser på biletet under. Hjørnet øvst til venstre er __(0, 0)__ og hjørnet nedst
+til høgre er __(4, 4)__.
 
 ![Bilete som viser korleis x og y gir posisjonen til ledlysa](ved_start_skjerm.png)
 
 Spelaren skal bevege seg til høgre og venstre nedst på skjermen. Me vil at
-`spelar` skal starte på midten av skjermen når me startar, (`x = 2` og `y = 4`).
+`spelar`{.microbitvariables} skal starte på midten av skjermen når me startar,
+ (__x = 2__ og __y = 4__).
 
-- [ ] Legg til koden under i `ved start`-klossen som allereie er i kodefeltet
-  ditt (eller i `Basis`-kategorien).
+- [ ] Legg til koden under i `ved start`{.microbitbasic}-klossen som allereie er
+  i kodefeltet ditt (eller i `Basis`{.microbitbasic}-kategorien).
 
-	![Bilete som viser kva klossar ein brukar for å setje spelar-variabelen til
-	midten av nedste rad ved starten av spelet](sett_spelar_til.png)
+```microbit
+let spiller: game.LedSprite = null
+spiller = game.createSprite(2, 4)
+```
 
-- [ ] Gjer det same med variabelen `mat` som du gjorde med variabelen `spelar` i
-  punktet over. Me set `mat` til `x = 2` og `y = 2`.
+- [ ] Gjer det same med variabelen `mat`{.microbitvariables} som du gjorde med
+  variabelen `spelar`{.microbitvariables} i punktet over. Me set `mat`{.microbitvariables}
+  til __x = 2__ og __y = 2__.
 
 ## {.tip}
 
-Du finn `Set spelar til`-klossen i `Variablar`. `Create sprite at x: 2 y:
-4`-klossen finn du i kategorien `Spel` i `Avansert`.
+Du finn `Set spelar til`{.microbitvariables}-klossen i `Variablar`{.microbitvariables}.
+`Create sprite at x: 2 y: 4`{.microbitgame}-klossen finn du i kategorien `Spel`{.microbitgame}
+i __Avansert__.
 
 ## {.tip}
 
-Det er eigentleg ikkje så viktig kor me plasserer `mat` ved starten, sidan den
-skal flytte på seg i neste steg. Det som er viktig er at `mat` er på
-spelebrettet når me startar, slik at det går an å bruke variabelen seinare.
+Det er eigentleg ikkje så viktig kor me plasserer `mat`{.microbitvariables} ved
+starten, sidan den skal flytte på seg i neste steg. Det som er viktig er at `mat`{.microbitvariables}
+er på spelebrettet når me startar, slik at det går an å bruke variabelen seinare.
 
 ##
 
-- [ ] Set variabelen `liv` til `3`. Klossen du skal bruke finn du i `Variablar`.
+- [ ] Set variabelen `liv`{.microbitvariables} til __3__. Klossen du skal bruke
+  finn du i `Variablar`{.microbitvariables}.
 
-- [ ] Ved start skal poengsummen vere `0`. settes til 0. Du finn ein kloss som
-  gjer dette i `Spel`-kategorien.
+- [ ] Ved start skal poengsummen vere __0__. settes til 0. Du finn ein kloss som
+  gjer dette i `Spel`{.microbitgame}-kategorien.
 
 - [ ] Viss du har gjort alt rett skal koden din sjå slik ut:
 
-	![Bilete som viser korleis koden burde sjå ut etter steg 1](ved_start.png)
+```microbit
+let spiller = game.createSprite(2, 4)
+let mat = game.createSprite(2, 2)
+let liv = 3
+game.setScore(0)
+```
 
 ## {.tip}
 
-Både `mat` og `spelar` blir eit ledlys kvar på micro:bit-en. Viss du vil skilje
-dei meir frå kvarandre kan du få maten til å lyse litt mindre enn spelaren. Det
-gjer du ved å setje ![Bilete som viser klossen sprite angir x til
-0](sprite_angir.png)-klossen etter `set poengsum til 0`. Bytt ut `sprite` med
-`mat` og `x` med `lysstyrke`. Simulatoren og micro:bit-en opplever lysstyrke på
-litt ulike måtar, så i simulatoren kan du ha lysstyrke `100`, men når du lastar
-det ned bør du har endra lysstyrken til `30`.
+Både `mat`{.microbitvariables} og `spelar`{.microbitvariables} blir eit ledlys
+kvar på micro:bit-en. Viss du vil skilje dei meir frå kvarandre kan du få maten
+til å lyse litt mindre enn spelaren. Det gjer du ved å setje `sprite angir x til 0`{.microbitgame}-klossen
+etter `set poengsum til 0`{.microbitgame}. Bytt ut `sprite`{.microbitvariables}
+med `mat`{.microbitvariables} og __x__ med `lysstyrke`{.microbitled}.
+Simulatoren og micro:bit-en opplever lysstyrke på litt ulike måtar, så i
+simulatoren kan du ha lysstyrke __100__, men når du lastar det ned bør du ha
+endra lysstyrken til __30__.
 
 
 # Steg 2: Mat regnar {.activity}
@@ -87,34 +101,36 @@ det ned bør du har endra lysstyrken til `30`.
 
 ## Sjekkliste {.check}
 
-- [ ] I `gjenta for alltid`-klossen (denne har du allereie i kodefeltet ditt,
-  eller du finn den i `Basis`), set inn ![Bilete som viser klossen sprite angir
-  x til 0](sprite_angir.png) som du finn i `Spel`. Bytt ut `sprite` med
-  variabelen `mat`. Så byttar du ut `0` med `plukk eit tilfeldig tal mellom 0 og
-  4`-klossen som du finn i kategorien `Matematikk`.
+- [ ] I `gjenta for alltid`{.microbitbasic}-klossen (denne har du allereie i
+  kodefeltet ditt, eller du finn den i `Basis`{.microbitbasic}), set inn
+  `sprite angir x til 0`{.microbitgame}-klossen som du finn i `Spel`{.microbitgame}.
+  Bytt ut `sprite`{.microbitvariables} med variabelen `mat`{.microbitvariables}.
+  Så byttar du ut __0__ med `velg tilfeldig 0 til 4`{.microbitmath}-klossen
+  som du finn i kategorien `Matematikk`{.microbitmath}.
 
-- [ ] Set inn endå ein `sprite angir x til 0` -kloss under den førre og bytt ut
-  `x` med `y`.
+- [ ] Set inn endå ein `sprite angir x til 0`{.microbitgame} -kloss under den
+  førre og bytt ut __x__ med __y__.
 
-- [ ] Så treng me ein `pause`-kloss (den ligg i `Basis`). Endre talet til `300`.
+- [ ] Så treng me ein `pause`{.microbitbasic}-kloss (den ligg i `Basis`{.microbitbasic}).
+  Endre talet til __300__.
 
-Til no har me sett `mat` til ein tilfeldig `x`-posisjon, og sikra at den startar
-på øvste rad kvar runde. Vidare skal me lage kode for maten som skal regne ned.
+Til no har me sett `mat`{.microbitvariables} til ein tilfeldig x-posisjon, og
+sikra at den startar på øvste rad kvar runde. Vidare skal me lage kode for maten
+som skal regne ned.
 
-- [ ] Finn ein `gjenta 4 gonger`-kloss i `Løkker` og plasser den under
-  `pause`-klossen.
+- [ ] Finn ein `gjenta 4 gonger`{.microbitloops}-kloss i `Løkker`{.microbitloops}
+  og plasser den under `pause`{.microbitbasic}-klossen.
 
-For å få maten til å regne nedover må me endre posisjonen til `mat` i
-`y`-retninga. Me endrar posisjonen med `1` for kvar gong me går gjennom løkka.
+For å få maten til å regne nedover må me endre posisjonen til `mat`{.microbitvariables}
+i __y__-retninga. Me endrar posisjonen med __1__ for kvar gong me går gjennom
+løkka.
 
-- [ ] Legg til koden under i `gjenta 4 gonger`-klossen.
-
-	![Bilete som viser dei to klossane som skal inni gjenta 4 gonger-klossen](gjenta_4_ganger.png)
+- [ ] Legg til koden under i `gjenta 4 gonger`{.microbitloops}-klossen.
 
 ## {.tip}
 
-Viss me ikkje legg til `pause`-klosser vil maten bevege seg for fort til at me
-klarar å fange den!
+Viss me ikkje legg til `pause`{.microbitbasic}-klosser vil maten bevege seg for
+fort til at me klarar å fange den!
 
 
 # Steg 3: Få poeng og tap liv {.activity}
@@ -124,50 +140,71 @@ klarar å fange den!
 
 ## Sjekkliste {.check}
 
-- [ ] Plasser ein `viss-elles`-kloss under `gjenta 4 gonger`-blokka.
-  `Viss-elles`-klossen finn du i `Logikk`.
+- [ ] Plasser ein `viss-elles`{.microbitlogic}-kloss under `gjenta 4 gonger`{.microbitloops}-blokka.
+  `Viss-elles`{.microbitlogic}-klossen finn du i `Logikk`{.microbitlogic}.
 
-Me vil at poengsummen skal auke med `1` viss spelaren klarar å fange maten.
+Me vil at poengsummen skal auke med __1__ viss spelaren klarar å fange maten.
 
-- [ ] Bytt ut `sann` med `is sprite touching`-klossen som du finn i
-  `Spel`-kategorien. I staden for `sprite` vil me ha variabelen `spelar` og i
-  den tomme boksen vil me ha variabelen `mat`. *"Is `spelar` touching `mat`"
-  tyder "berører `spelar` `mat`" på norsk.*
+- [ ] Bytt ut `sann`{.microbitlogic} med `is sprite touching`{.microbitgame}-klossen
+  som du finn i `Spel`{.microbitgame}-kategorien. I staden for `sprite`{.microbitvariables}
+  vil me ha variabelen `spelar`{.microbitvariables} og i den tomme boksen vil me
+  ha variabelen `mat`{.microbitvariables}. *"Is* `spelar`{.microbitvariables}
+  *touching* `mat`{.microbitvariables} *"
+  tyder "berører* `spelar`{.microbitvariables} `mat`{.microbitvariables}*" på
+  norsk.*
 
-- [ ] Set inn klossen `endre poengsum med 1` slik som på biletet under.
-
-![Bilete som viser starten på viss-elles klossen](hvis_ellers.png)
+- [ ] Set inn klossen `endre poengsum med 1`{.microbitgame}-
 
 ## {.tip}
 
-`Viss-elles`-klossen fungerer slik at viss spelaren får tak i maten, så vil
-programmet køyre koden som høyrer til `viss`-delen av klossen. Viss ikkje dette
-er sant (spelaren klarte ikkje å få tak i maten denne runden), så vil programmet
-køyre koden som høyrer til `elles`-delen av klossen.
+`Viss-elles`{.microbitlogic}-klossen fungerer slik at viss spelaren får tak i
+maten, så vil programmet køyre koden som høyrer til `viss`{.microbitlogic}-delen
+av klossen. Viss ikkje dette er sant (spelaren klarte ikkje å få tak i maten
+denne runden), så vil programmet køyre koden som høyrer til `elles`{.microbitlogic}-delen
+av klossen.
 
 ##
 
-Når `spelar` ikkje klarar å fange maten skal me miste eit liv.
+Når `spelar`{.microbitvariables} ikkje klarar å fange maten skal me miste eit liv.
 
-- [ ] I `elles`-delen av `viss-elles`-klossen må du setje inn `endre liv med -1`
-  som du finn i `Variablar`. *Hugs å endre frå `1` til `-1` i klossen. Kva skjer
-  viss du ikkje gjer det?*
+- [ ] I `elles`{.microbitlogic}-delen av `viss-elles`{.microbitlogic}-klossen må
+  du setje inn `endre liv med -1`{.microbitvariables}
+  som du finn i `Variablar`{.microbitvariables}. *Hugs å endre frå* __1__ *til*
+  __-1__ i klossen. Kva skjer viss du ikkje gjer det?*
 
-Vidare må me sjekke om variabelen `liv` er lik null, for viss den er det har
-spelaren tapt.
+Vidare må me sjekke om variabelen `liv`{.microbitvariables} er lik null, for
+viss den er det har spelaren tapt.
 
-- [ ] Set koden i biletet inn rett under `endre liv med -1`-klossen. "Game over"
-  er engelsk for at spelet er slutt, og blir ofte nytta i slike spel.  
-
-	![Bilete som viser kode som gjer at viss liv er lik 0 så er spelet over](hvis_liv_lik_0.png)
+- [ ] Set koden i biletet inn rett under `endre liv med -1`{.microbitvariables}-klossen.
+  "Game over" er engelsk for at spelet er slutt, og blir ofte nytta i slike spel.  
 
 - [ ] Sjekk at koden din frå steg 2 og 3 ser slik ut:
 
-	![Bilete som viser korleis koden burde sjå ut for det som skal inni gjenta for alltid-klossen](spill_koden.png)
+```microbit
+basic.forever(function () {
+    let spiller: game.LedSprite = null
+    let mat: game.LedSprite = null
+    mat.set(LedSpriteProperty.X, Math.randomRange(0, 4))
+    mat.set(LedSpriteProperty.Y, 0)
+    basic.pause(300)
+    for (let i = 0; i < 4; i++) {
+        mat.change(LedSpriteProperty.Y, 1)
+        basic.pause(300)
+    }
+    if (spiller.isTouching(mat)) {
+        game.addScore(1)
+    } else {
+        liv += -1
+        if (liv == 0) {
+            game.gameOver()
+        }
+    }
+})
+```
 
 ## Test prosjektet {.flag}
 
-- [ ] Sjekk i simulatoren at det regnar eit ledlys ned med ulik `x`-posisjon for
+- [ ] Sjekk i simulatoren at det regnar eit ledlys ned med ulik __x__-posisjon for
   kvar runde. Eit anna ledys skal heile tida stå stille midt på nedste rad.
 
 
@@ -177,14 +214,19 @@ spelaren tapt.
 
 ## Sjekkliste {.check}
 
-- [ ] Når knapp `A` vert trykt skal `spelar` bevege seg mot venstre. Dette får
-  me til ved å bruke ein kloss me finn i `Spel`-kategorien. Lag koden som er
-  vist under.
+- [ ] Når knapp `A`{.microbitinput} vert trykt skal `spelar`{.microbitvariables}
+  bevege seg mot venstre. Dette får me til ved å bruke ein kloss me finn i
+  `Spel`{.microbitgame}-kategorien. Lag koden som er vist under.
 
-	![Bilete som viser kode for når knapp A trykkes skal `spelar` endre x med 1](knapp_A.png)
+```microbit
+  input.onButtonPressed(Button.A, function () {
+      let spiller: game.LedSprite = null
+      spiller.change(LedSpriteProperty.X, -1)
+  })
+```
 
-- [ ] Kopier koden frå førre punkt og endre den slik at når knapp `B` vert
-  trykt, skal `spelar` bevege seg til høgre.
+- [ ] Kopier koden frå førre punkt og endre den slik at når knapp `B`{.microbitinput}
+  vert trykt, skal `spelar`{.microbitvariables} bevege seg til høgre.
 
 ## Test prosjektet {.flag}
 
