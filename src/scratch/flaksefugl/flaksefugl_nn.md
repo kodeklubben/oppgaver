@@ -229,7 +229,7 @@ leggje til nokre klossar som merkar om Flakse krasjar.*
   ```blocks
   når @greenFlag vert trykt på
   vent til <<rører [kant v]?> eller <rører [Røyr v]?>>
-  spel lyden [screech v]
+  start lyden [screech v]
   sei [Du tapte!]
   send meldinga [Tap v]
   stopp [andre skript i figuren v] :: control
@@ -271,7 +271,7 @@ __Klikk det grøne flagget.__
   når eg startar som klon
   vent til <(x-posisjon) < ([x-posisjon v] av [Flakse v])>
   endra [poeng v] med (1)
-  spel lyden [bird v]
+  start lyden [bird v]
   ```
 
 ## Test prosjektet {.flag}

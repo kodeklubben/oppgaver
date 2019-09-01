@@ -133,11 +133,11 @@ står på venstre side av skyskraperen og en der han står på høyre side.
 Prøv gjerne de forskjellige tegneverktøyene på egen hånd. Vet du hva alle gjør?
 
 Legg merke til at nede i høyre hjørnet velger du mellom å jobbe med
-_punktgrafikk_ og _vektorgrafikk_. I punktgrafikk jobber vi med nettopp punktene
-(også kalt pikslene) i bildet. Typisk vil du gjøre dette med bilder du laster
-ned fra nettet. Med vektorgrafikk kan vi jobbe med direkte med linjer og former.
-Mange av figurene i Scratchbiblioteket bruker dette, og det er ofte bedre når vi
-skal tegne selv.
+_pikselgrafikk_ og _vektorgrafikk_. I pikselgrafikk jobber vi med nettopp
+pikslene (hvert punkt bildet består av kalles en piksel) i bildet. Typisk vil du
+gjøre dette med bilder du laster ned fra nettet. Med vektorgrafikk kan vi jobbe
+med direkte med linjer og former. Mange av figurene i Scratchbiblioteket bruker
+dette, og det er ofte bedre når vi skal tegne selv.
 
 
 # Steg 3: King Kong flytter seg {.activity}
@@ -151,9 +151,9 @@ Nå har vi tatt inn grafikken vi trenger. Det er på tide å begynne å programm
   kan vi gjøre med et skript som ligner dette:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett størrelse til (200) %
-  legg foran
+  legg [foran alt v]
   gå til x: (0) y: (-50)
   ```
 
@@ -166,10 +166,10 @@ Nå har vi tatt inn grafikken vi trenger. Det er på tide å begynne å programm
   tallene, men et lite skript som ser omtrent slik ut gjør jobben:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (-45) y: (30)
   bytt drakt til [venstre v]
-  for alltid
+  gjenta for alltid
       hvis <tast [pil venstre v] trykket?>
           gli (0.2) sekunder til x: (-45) y: (30)
           bytt drakt til [venstre v]
@@ -204,10 +204,10 @@ skyskraperen.
   fly:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   begrens rotasjon [vend sideveis v]
-  for alltid
+  gjenta for alltid
       vent (tilfeldig tall fra (0.5) til (4)) sekunder
       lag klon av [meg v]
   slutt
@@ -270,12 +270,12 @@ flyene.
   skript på ham. Et enkelt utgangspunkt kan være:
 
   ```blocks
-  når grønt flagg klikkes
-  for alltid
+  når @greenFlag klikkes
+  gjenta for alltid
       vent til <berører [fly v] ?>
       endre [farge v] effekt med (25)
       vent (0.5) sekunder
-      ta bort grafiske effekter
+      fjern grafiske effekter
   slutt
   ```
 

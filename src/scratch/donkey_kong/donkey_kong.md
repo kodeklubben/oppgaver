@@ -84,7 +84,7 @@ spesielt hvordan vi får den til å hoppe og falle på en troverdig måte.
   ```blocks
   når jeg mottar [nytt spill v]
   gå til x: (-150) y: (-100)
-  for alltid  // hovedløkken
+  gjenta for alltid  // hovedløkken
       sett [fartX v] til ((0.8) * (fartX))  // farten bremses
       endre [fartY v] med (-0.5)  // gravitasjon, figuren faller
       hvis <berører fargen [#0000ff]>  // figuren står på plattformen
@@ -281,4 +281,3 @@ dem.
 - [ ] Du kan legge til en tidsbegrensning om du vil gjøre spillet mer
   utfordrende. Til dette bruker du en variabel `(tid)`{.b} som du
   `endrer`{.blockdata} og deretter `venter 1 sekund`{.blockcontrol}.
-

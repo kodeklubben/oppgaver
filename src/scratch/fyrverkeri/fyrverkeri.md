@@ -107,7 +107,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Endelig, prøv å få til det samme ved å bruke museknappen i stedet for
   mellomromstasten. For å gjøre dette kan vi pakke skriptet vårt inn i `for
-  alltid`{.blockcontrol}- og `hvis museknappen er nede`{.blockcontrol}-klosser.
+  alltid`{.blockcontrol}- og `hvis museknappen er trykket`{.blockcontrol}-klosser.
 
 - [ ] Flytt skriptet fra `når mellomrom trykkes`{.blockevents} til `når grønt
   flagg klikkes`{.blockevents}, slik at det blir seende slik ut:
@@ -116,7 +116,7 @@ __Klikk på det grønne flagget.__
   når grønt flagg klikkes
   skjul
   for alltid
-      hvis <museknappen er nede?>
+      hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
           vis
           gli (1) sekunder til x: (mus x) y: (mus y)
@@ -157,9 +157,9 @@ __Klikk på det grønne flagget.__
   når grønt flagg klikkes
   skjul
   for alltid
-      hvis <museknappen er nede?>
+      hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
-          spill lyden [bang v]
+          start lyden [bang v]
           vis
           gli (1) sekunder til x: (mus x) y: (mus y)
           skjul
@@ -175,9 +175,9 @@ __Klikk på det grønne flagget.__
   når grønt flagg klikkes
   skjul
   for alltid
-      hvis <museknappen er nede?>
+      hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
-          spill lyden [bang v]
+          start lyden [bang v]
           vis
           gli (1) sekunder til x: (mus x) y: (mus y)
           skjul
@@ -320,9 +320,9 @@ ble fanget inne i datamaskinene og ødela programmer.
   når grønt flagg klikkes
   skjul
   for alltid
-      hvis <museknappen er nede?>
+      hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
-          spill lyden [bang v]
+          start lyden [bang v]
           vis
           gli (1.5) sekunder til x: (mus x) y: (mus y)
           skjul

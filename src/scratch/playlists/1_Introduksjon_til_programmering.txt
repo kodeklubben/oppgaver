@@ -1,7 +1,0 @@
-straffespark/straffespark.md
-labyrint/labyrint.md
-bursdag_i_antarktis/bursdag_i_antarktis.md
-flaksefugl/flaksefugl.md
-norgestur/norgestur.md
-krabbeangrep_remiks/krabbeangrep_remiks.md
-lag_ditt_eget_spill/lag_ditt_eget_spill.md
