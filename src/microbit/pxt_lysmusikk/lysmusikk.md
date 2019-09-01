@@ -36,7 +36,7 @@ let lysnivå = input.lightLevel()
 # Steg 2: Musikk {.activity}
 
 ## Sjekkliste {.check}
-c
+
 - [ ] Lag koden som er vist under. Klossen `spill tone midtre C i 1 takt`{.microbitmusic}
 	finner du i kategorien `Musikk`{.microbitmusic}. Legg merke til at du skal
 	bytte fra 1 til 1/2 takt.
