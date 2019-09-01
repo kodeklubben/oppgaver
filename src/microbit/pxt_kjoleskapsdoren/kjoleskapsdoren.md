@@ -7,7 +7,7 @@ language: nb
 
 # Introduksjon {.intro}
 Av og til er det lett å glemme å lukke kjøleskapsdøren, noe som gjør at lyset
-blir sstående på og kjøleskapet blir varmt. Vi skal nå programmere micro:biten
+blir stående på og kjøleskapet blir varmt. Vi skal nå programmere micro:biten
 slik at den varsler oss dersom lyset i kjøleskapet blir stående på for lenge.
 
 
@@ -146,5 +146,5 @@ kan du prøve å dekke til sensoren med hendene.
 ## Utfordring {.challenge}
 
 - [ ] Greier du å få til akkurat det samme ved å bruke `kjøretid`{.microbitinput}-klossen
-i stedet for en `pause`{.microbitbasic}-kloss? *Tips:Du må sette en starttid og
+i stedet for en `pause`{.microbitbasic}-kloss? *Tips: Du må sette en starttid og
 en sluttid, før du sammenligner om dette overskrider 20 sekunder.*
