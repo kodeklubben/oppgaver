@@ -15,27 +15,38 @@ I denne oppgåva skal me få eit hjarte til å blinke i ulike hastigheiter.
 
 ## Sjekkliste {.check}
 
-- [ ] Finn ein `gjenta for alltid`-kloss. Den ligg nok allereie i kodefeltet
-- ditt, elles finn du den under `Basis` i menyen.
+- [ ] Finn ein `gjenta for alltid`{.microbitbasic}-kloss. Den ligg nok allereie
+i kodefeltet ditt, elles finn du den under `Basis`{.microbitbasic} i menyen.
 
-![Bilete for å vise gjenta for alltid-klossen](gjenta_for_alltid.png)
+```microbit
+basic.forever(function () {
 
-Koden som er inni ein `gjenta for alltid`-kloss vil gjenta seg så lenge
-micro:bit-en er kopla til straum (batteri eller PC).
+})
+```
+
+Koden som er inni ein `gjenta for alltid`{.microbitbasic}-kloss vil gjenta seg
+så lenge micro:bit-en er kopla til straum (batteri eller PC).
 
 
 # Steg 2: Hjarte som blinkar {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til `Basis` og finn `vis ikon`-klossen. Legg den inni `gjenta for
-  alltid`. No skal simulatoren til venstre vise eit hjarte.
+- [ ] Gå til `Basis`{.microbitbasic} og finn `vis ikon`{.microbitbasic}-klossen.
+  Legg den inni `gjenta for alltid`{.microbitbasic}. No skal simulatoren til
+  venstre vise eit hjarte.
 
 - [ ] No skal me få hjartet til å blinke. Det gjer me ved å fjerne biletet frå
-  skjermen med `tøm skjermen`-klossen. Den finn du ved å trykkje på `Basis` og
-  så på `more` (meir) som står rett under.
+  skjermen med `tøm skjermen`{.microbitbasic}-klossen. Den finn du ved å trykkje
+  på `Basis`{.microbitbasic} og så på `more`{.microbitbasic}{.mirobitbasic}
+  (meir) som står rett under.
 
-![Bilete for å vise koden for blinkande hjarte](blinkende_hjerte.png)
+```microbit
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    basic.clearScreen()
+})
+```
 
 Ser du at hjartet blinkar? Det skjer veldig fort, for biletet visast og slettast
 så raskt programmet får til.
@@ -47,18 +58,24 @@ så raskt programmet får til.
 For å kontrollere kor lenge biletet skal vere synleg, og kor lenge skjermen skal
 vere mørk, legg me inn pauser.
 
-- [ ] Du finn `pause`-klossen i `Basis`. Legg til to `pause`-klossar i koden
-  din.
+- [ ] Du finn `pause`{.microbitbasic}-klossen i `Basis`{.microbitbasic}. Legg
+  til to `pause`{.microbitbasic}-klossar i koden din.
 
 - [ ] No bør koden din sjå slik ut:
 
-![Bilete for å vise koden for blinkande hjarte med
-pauser](blinkende_hjerte_med_pauser.png)
+```microbit
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    basic.pause(100)
+    basic.clearScreen()
+    basic.pause(100)
+})
+```
 
 ## {.tip}
 
 Viss du skal bruke den same klossen fleire gonger kan du høgreklikke på den og
-trykke på `lag kopi`.
+trykke på __lag kopi__.
 
 ## Test prosjektet {.flag}
 
@@ -71,7 +88,7 @@ trykke på `lag kopi`.
 
 ## Utfordring {.challenge}
 
-- [ ] Kva skjer viss du endrar talet i `pause`-klossane til 200? Kva med 1000?
-  5000? Prøv deg fram! Gjerne prøv med andre tal òg.
+- [ ] Kva skjer viss du endrar talet i `pause`{.microbitbasic}-klossane til 200?
+  Kva med 1000? 5000? Prøv deg fram! Gjerne prøv med andre tal òg.
 
 - [ ] Klarar du å få hjartet til å blinke i same tempo som pulsen din?
