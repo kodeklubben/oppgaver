@@ -21,9 +21,8 @@ For å koble til joystick-en trenger vi noe ekstra utstyr:
 * 1 rød ledning med kontakt (hull) i begge ender. 
 * 1 blå ledning med kontakt (hull) i begge ender.
 * 1 svart ledning med kontakt (hull) i begge ender.
-* 1 [koblingsbrett](https://kodegenet.no/shop/product/microbit_edge_connector)
-{target=_blank} slik at vi kan bruke alle tilkoblingsmuligheter micro:biten har.
-* 1 [analog joystick](https://kodegenet.no/shop/product/joystick_analog){target=_blank}
+* 1 [koblingsbrett](https://kodegenet.no/shop/product/microbit_edge_connector){target=_blank}.
+* 1 [analog joystick](https://kodegenet.no/shop/product/joystick_analog){target=_blank}.
 
     ![Bilde av ledninger](ledninger.png)
 
@@ -129,6 +128,6 @@ er noen ideer til videreutvikling, men finn gjerne på noe helt eget!
 - [ ] Kan du få Spilleren til å kun bevege seg lodrett eller vannrett? 
 
 - [ ] Kan du bruke joystick-en i et annet micro:bit prosjekt, for eksempel
-[Det regner mat](https://oppgaver.kidsakoder.no/microbit/pxt_det_regner_mat/det_regner_mat){target=_blank}
+["Det regner mat"](https://oppgaver.kidsakoder.no/microbit/pxt_det_regner_mat/det_regner_mat){target=_blank}?
 
 
