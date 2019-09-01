@@ -17,29 +17,36 @@ med! Finn nokon som har lyst å gjere denne oppgåva saman med deg.
 
 ## Sjekkliste {.check}
 
-- [ ] Finn ein `ved start`-kloss (den ligg allereie i kodefeltet, elles finn du
-  den nedst i `Basis`).
+- [ ] Finn ein `ved start`{.microbitbasic}-kloss (den ligg allereie i kodefeltet,
+  elles finn du den nedst i `Basis`{.microbitbasic}).
 
-- [ ] Gå til `Radio` og klikk på `radio sett gruppe`-klossen.
+- [ ] Gå til `Radio`{.microbitradio} og klikk på `radio sett gruppe`{.microbitradio}-klossen.
 
-- [ ] Vel eit gruppenummer mellom `0` og `255` som de trur ingen andre her. Alle
-  micro:bit-ar i same gruppe kan kommunisere, og du vil ikkje at nokon andre
+- [ ] Vel eit gruppenummer mellom __0__ og __255__ som de trur ingen andre her.
+  Alle micro:bit-ar i same gruppe kan kommunisere, og du vil ikkje at nokon andre
   skal høyre den hemmelege beskjeden!
 
-![Bilete som viser `radio sett gruppe til 42`-kloss inni `ved start`-klossen](radiogruppe.png)
+  ```microbit
+  radio.setGroup(42)
+  ```
 
 
 # Steg 2: Send ein hemmeleg beskjed {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til `Inndata` og finn klossen `når knapp A vert trykt`. Me brukar denne
-  fordi me vil sende den hemmelege beskjeden når me trykkar på A.
+- [ ] Gå til `Inndata`{.microbitinput} og finn klossen `når knapp A vert trykt`{.microbitinput}.
+  Me brukar denne fordi me vil sende den hemmelege beskjeden når me trykkar på A.
 
-- [ ] Finn klossen `radio send tekst` i `Radio`. Legg den inni `når knapp A vert
-  trykt` og skriv inn den hemmelege beskjeden du vil sende.
+- [ ] Finn klossen `radio send tekst`{.microbitradio} i `Radio`{.microbitradio}.
+  Legg den inni `når knapp A vert trykt`{.microbitinput} og skriv inn den
+  hemmelege beskjeden du vil sende.
 
-![Bilete som viser at når A vert trykt så skal radio sende teksten "Hemmelig beskjed"](hemmelig_beskjed.png)
+```microbit
+input.onButtonPressed(Button.A, function () {
+    radio.sendString("Hemmelig beskjed")
+})
+```
 
 ### OBS! {.protip}
 
@@ -54,18 +61,26 @@ sende nokre få ord kvar gong.
 No er du klar til å sende hemmelege beskjedar. Men fyrst må me skrive kode slik
 at dei hemmelege beskjedane kan bli motteke og lese.
 
-- [ ] Gå til `Radio` att og finn `når radio mottek recievedString`-klossen:
+- [ ] Gå til `Radio`{.microbitradio} att og finn `når radio mottek recievedString`{.microbitradio}-klossen:
 
-![Bilete som viser `når radio mottar recievedString`-klossen](naar_radio_mottar.png)
+```microbit
+radio.onReceivedString(function (receivedString) {
+
+})
+```
 
 "RecievedString" tyder "Motteke tekst" på norsk, og beskjeden som blir motteke
 blir lagra i klossen som heiter dette.
 
-- [ ] Legg til ein `vis tekst`-kloss (frå `Basis`) og `recievedString`-kloss
-  (frå `Variablar`). Legg dei slik at koden din for å motta beskjedar ser slik
-  ut:
+- [ ] Legg til ein `vis tekst`{.microbitbasic}-kloss (frå `Basis`{.microbitbasic})
+  og `recievedString`{.microbitvariables}-kloss (frå `Variablar`{.microbitvariables}).
+  Legg dei slik at koden din for å motta beskjedar ser slik ut:
 
-![Bilete som viser `vis tekst recievedString`-klossen inni `når radio mottar recievedString`-klossen](vis_mottat_beskjed.png)
+```microbit
+radio.onReceivedString(function (receivedString) {
+    basic.showString(receivedString)
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -86,9 +101,9 @@ MICROBIT-disken på datamaskina di.
 # Ekstra testing {.activity}
 
 Det er mogleg å justere styrken på sendaren til micro:bit-en ved å bruke klossen
-`radio sett sendareffekt` som du finn viss du trykkar på `Radio` og så `more`
-(meir) rett under. Den høgste styrken sendaren kan ha er 7. Prøv fleire ulike
-styrkar når du går gjennom punkta under.
+`radio sett sendareffekt`{.microbitradio} som du finn viss du trykkar på `Radio`{.microbitradio}
+og så `more`{.microbitradio}(meir) rett under. Den høgste styrken sendaren kan
+ha er 7. Prøv fleire ulike styrkar når du går gjennom punkta under.
 
 ## Sjekkliste {.check}
 

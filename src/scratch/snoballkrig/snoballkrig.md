@@ -44,7 +44,7 @@ raskere og vanskeligere å jage bort.
 - [ ] Legg følgende lille skript på scenen:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   send melding [start v]
   ```
 
@@ -59,7 +59,7 @@ raskere og vanskeligere å jage bort.
   figuren, og lag dette skriptet:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett størrelse til (75) %
   begrens rotasjon [vend sideveis v]
   sett [hastighet v] til [5]
@@ -75,7 +75,7 @@ raskere og vanskeligere å jage bort.
   ```blocks
   når jeg mottar [start v]
   gå til x: (0) y: (-75)
-  for alltid
+  gjenta for alltid
   slutt
   ```
 
@@ -119,7 +119,7 @@ __Klikk på det grønne flagget.__
   som kun gjelder for denne figuren:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   sett størrelse til (40) %
   sett [hastighet v] til [10]
@@ -190,7 +190,7 @@ __Klikk på det grønne flagget.__
   `hastighet`{.blockdata} som gjelder kun for denne figuren. Deretter,
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   skjul
   gå til x: (0) y: (-70)
   begrens rotasjon [vend sideveis v]
@@ -203,7 +203,7 @@ __Klikk på det grønne flagget.__
 
   ```blocks
   når jeg mottar [start v]
-  for alltid
+  gjenta for alltid
       hvis <(tilfeldig tall fra (0) til (1)) = [0]>
           pek i retning (90 v)
           sett x til (-250)
@@ -220,16 +220,16 @@ __Klikk på det grønne flagget.__
   enkelt `Skumling`.
 
   Lag først en `når jeg starter som klon`{.blockcontrol}-kloss hvor du først
-  viser figuren, og deretter lager en `for alltid`{.blockcontrol}-løkke hvor
-  figuren beveger seg `hastighet`{.blockdata} steg og deretter venter et lite
-  øyeblikk, for eksempel 0.1 sekunder.
+  viser figuren, og deretter lager en `gjenta for alltid`{.blockcontrol}-løkke
+  hvor figuren beveger seg `hastighet`{.blockdata} steg og deretter venter et
+  lite øyeblikk, for eksempel 0.1 sekunder.
 
 - [ ] Deretter lager vi en *ny* `når jeg starter som klon`{.blockcontrol}-kloss
   hvor vi undersøker om vi treffer enten en __snøball__ eller `Helten`.
 
   ```blocks
   når jeg starter som klon
-  for alltid
+  gjenta for alltid
       hvis <berører [Helten v]?>
           send melding [slutt v]
           slett denne klonen
@@ -293,7 +293,7 @@ oss lage en meny og en bakgrunn som forteller oss at vi tapte.
   det grønne flagget klikkes:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   bytt bakgrunn til [Meny v]
   ```
 
@@ -334,7 +334,7 @@ __Klikk på det grønne flagget.__
   mottar `start`-meldingen på scenen med den følgende løkken:
 
   ```blocks
-  for alltid
+  gjenta for alltid
       sett [Nivå v] til ((1) + ([gulv v] av ((Poeng) / (5))))
   slutt
   ```
@@ -361,7 +361,7 @@ __Klikk på det grønne flagget.__
   endre [farge v] effekt med ((10) * (Slem))
   endre størrelse med ((5) * (Slem))
   vis
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       vent (0.1) sekunder
   slutt
@@ -381,7 +381,7 @@ __Klikk på det grønne flagget.__
   vanskeligere etterhvert. Du kan for eksempel bruke denne utregningen:
 
   ```blocks
-  for alltid
+  gjenta for alltid
       sett [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
   slutt
   ```

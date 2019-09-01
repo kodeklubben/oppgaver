@@ -79,7 +79,7 @@ i forhold til den skrå streken.
   pek i retning (90 v)
   sett [fartX v] til [0]
   sett [fartY v] til [0]
-  for alltid
+  gjenta for alltid
       endre [fartY v] med (-0.01)
       endre x med (fartX)
       endre y med (fartY)
@@ -108,7 +108,7 @@ i forhold til den skrå streken.
 - [ ] Når pil opp-tasten trykkes vil vi at romskipet skal få litt ekstra fart i
   den retningen romskipet peker. Som vi snakket om tidligere kan vi bruke de
   matematiske funksjonene sinus og cosinus for å få til dette. Legg også til
-  denne blokken inne i `for alltid`{.blockcontrol}-løkken din.
+  denne blokken inne i `gjenta for alltid`{.blockcontrol}-løkken din.
 
   ```blocks
   hvis <tast [pil opp v] trykket?>
@@ -152,7 +152,7 @@ i forhold til den skrå streken.
   er å bruke en farge for landskapet og en annen for landingsplassen.
 
 - [ ] For at romskipet skal slutte å fly når det treffer bakken kan du bytte ut
-  `for alltid`{.blockcontrol}-løkken med en `gjenta til`{.blockcontrol}-løkke
+  `gjenta for alltid`{.blockcontrol}-løkken med en `gjenta til`{.blockcontrol}-løkke
   hvor du tester på om romskipet `berører fargen`{.blocksensing} du har brukt på
   landskapet eller på landingsplassen.
 
@@ -238,4 +238,3 @@ i forhold til den skrå streken.
   bakken når spillet begynner, og spilleren må grave denne frem ved å slippe
   bomber fra romskipet. Du kan implementere dette for eksempel ved bruk av noen
   av klossene under `Penn`{.blockpen}-kategorien.
-

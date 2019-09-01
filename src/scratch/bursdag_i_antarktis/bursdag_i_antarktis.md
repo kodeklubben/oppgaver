@@ -515,7 +515,7 @@ sette sammen tekst. Pass på at du skriver et mellomrom etter ordet `blir`!
 
   ```blocks
   når jeg mottar [Party v]
-  spill lyden [human beatbox1 v]
+  start lyden [human beatbox1 v]
   gjenta (20) ganger
       neste drakt
       vent (0.2) sekunder

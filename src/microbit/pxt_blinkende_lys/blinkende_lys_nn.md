@@ -14,35 +14,44 @@ blinke!
 
 # Steg 1: Tenn eit lys {.activity}
 
-*Me kan bruke klossen `tenn` til å slå på eit lys på micro:biten og klossen
- `slukk` til å slå av eit lys som er på. Du finn begge klossane i
- `Skjerm`-kategorien.*
+*Me kan bruke klossen* `tenn`{.microbitled} *til å slå på eit lys på micro:biten
+og klossen* `slukk`{.microbitled} *til å slå av eit lys som er på. Du finn begge
+klossane i* `Skjerm`{.microbitled}*-kategorien.*
 
 ## Sjekkliste {.check}
 
-- [ ] Sjå kva som skjer når `tenn`-klossen ligg inne i ein `ved start`-kloss.
+- [ ] Sjå kva som skjer når `tenn`{.microbitled}-klossen ligg inne i ein
+  `ved start`{.microbitbasic}-kloss.
 
-![Bilete som viser tennkloss inne i ein startkloss](tenn_kloss.png)
+```microbit
+led.plot(0, 0)
+```
 
-For at lyset skal slå seg av att må me leggje til ein `slukk`-kloss. Men me vil
-sjå at lyset er på fyrst, så me legg inn ei `pause`.
+For at lyset skal slå seg av att må me leggje til ein `slukk`{.microbitled}-kloss.
+Men me vil sjå at lyset er på fyrst, så me legg inn ei `pause`{.microbitbasic}.
 
-- [ ] Legg ein `pause`-kloss under `tenn`-klossen og ein `slukk`-kloss under
-  `pause`-klossen. Du finn `pause`-klossen i `Basis`.
+- [ ] Legg ein `pause`{.microbitbasic}-kloss under `tenn`{.microbitled}-klossen
+  og ein `slukk`{.microbitled}-kloss under `pause`{.microbitbasic}-klossen. Du
+  finn `pause`{.microbitbasic}-klossen i `Basis`{.microbitbasic}.
 
-- [ ] Set talet inne i `pause`-klossen til 1000 (1000 millisekund = 1 sekund).
+- [ ] Set talet inne i `pause`{.microbitbasic}-klossen til 1000
+(1000 millisekund = 1 sekund).
 
-![Bilete som viser program for tenning og slukking av lys](tenn_og_slukk.png)
+```microbit
+led.plot(0, 0)
+basic.pause(1000)
+led.unplot(0, 0)
+```
 
 ## Test prosjektet {.flag}
 
 __Prøv koden i simulatoren for å teste koden så langt.__
 
-- [ ] Kva skjer når du endrar tala i `tenn`-klossen og `slukk`-klossen? *Hint:
-  prøv med eit tal mellom 0 og 4*
+- [ ] Kva skjer når du endrar tala i `tenn`{.microbitled}-klossen og `slukk`{.microbitled}-klossen?
+  *Hint: prøv med eit tal mellom 0 og 4*
 
-- [ ] Kva skjer når tala i `tenn`-klossen er ulike dei tala som er i
-  `slukk`-klossen?
+- [ ] Kva skjer når tala i `tenn`{.microbitled}-klossen er ulike dei tala som er
+  i `slukk`{.microbitled}-klossen?
 
 
 # Steg 2: La det blinke {.activity}
@@ -57,7 +66,14 @@ __Prøv koden i simulatoren for å teste koden så langt.__
 
 - [ ] No kan koden din til dømes sjå slik ut:
 
-![Bilete som viser korleis me kan få eit lys til å blinke for alltid](blinke_for_alltid.png)
+```microbit
+basic.forever(function () {
+    led.plot(0, 0)
+    basic.pause(1000)
+    led.unplot(0, 0)
+    basic.pause(1000)
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -68,4 +84,4 @@ __Prøv koden i simulatoren for å teste koden så langt.__
 - [ ] Legg til kode slik at fleire lys blinkar samstundes.
 
 - [ ] Få fleire lys til å blinke, men med ulike hastigheiter. *Prøv med ulike
-  tal i `pause`-klossane.*
+  tal i* `pause`{.microbitbasic}*-klossane.*
