@@ -8,13 +8,13 @@ language: nb
 
 # Introduksjon {.intro} 
 
-Ildlfuer blinker i mørket om
-natta. Noen ild-fluer er spesielle ved at de kan blinke nesten i takt. 
-Hvordan er dette mulig. Forskere har funnet ut at hver ildlfue har sin egen interne
- klokke og blinker med jevne mellomrom. I tilleg ser hver ildflue når naboen blinker, 
- og da endrer de litt på på sin egen klokke. Til slutt kan da hele svermer av ildlfluer 
- blinke i takt. Du kan lese mer om ildlfuer og synkronisert blinking på 
- [denne nettsiden](http://ncase.me/fireflies/){target=_blank}
+Ildlfuer blinker i mørket om natta. Noen ild-fluer er spesielle ved at de kan 
+blinke nesten i takt. Hvordan er dette mulig? Forskere har funnet ut at hver 
+ildlfue har sin egen interne klokke og blinker med jevne mellomrom. I tilleg 
+ser hver ildflue når naboen blinker, og da endrer de litt på på sin egen klokke. 
+Til slutt kan da hele svermer av ildlfluer blinke i takt. Du kan lese mer om 
+ildlfuer og synkronisert blinking på 
+[denne nettsiden](http://ncase.me/fireflies/){target=_blank}
 
 I denne oppgaven skal vi kode micro:bitene slik at de fungere som en sverm med blinkende 
 ildfluer. 
@@ -61,9 +61,9 @@ fra `Logikk`-kategorien.
 
 # Steg 2: Ildfluene kommuniserer {.activity}
 
-Vi kan nå micro:bitene tuil å kommunisere ved å be de sende ut et radiosignal hver gang 
-de blinker. Vi vil også la alle micro:bitene motta radiosignal ra naboene og 
-endre klokka når signalet mottas.
+Vi kan nå få micro:bitene til å kommunisere ved å be de sende ut et radiosignal 
+hver gang de blinker. Vi vil også la alle micro:bitene motta radiosignal fra 
+naboene og endre klokka når signalet mottas.
 
 
 ## Sjekkliste {.check}
