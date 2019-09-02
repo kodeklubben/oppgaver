@@ -2,7 +2,7 @@
 title: Vítaspyrna
 level: 1
 author: Erik Kalstad og Geir Arne Hjelle
-translator: Stein Olav Romslo
+translator: Stein Olav Romslo og Aldís Mjöll Geirsdóttir
 language: is
 ---
 
