@@ -2,15 +2,17 @@ language:
   NAME: Language
   TAGS:
     nb:
-      NAME: Bokmål
+      NAME: Norwegian (Bokmål)
     nn:
-      NAME: Nynorsk
+      NAME: Norwegian (Nynorsk)
     sv:
-      NAME: Svenska
+      NAME: Swedish
     da:
-      NAME: Dansk
+      NAME: Danish
     en:
       NAME: English
+    is:
+      NAME: Icelandic
 topic:
   NAME: Topic
   TAGS:
@@ -63,8 +65,8 @@ subject:
       NAME: Technology
     music:
       NAME: Music
-    norwegian:
-      NAME: Norwegian
+    first_language:
+      NAME: English
     english:
       NAME: English
     arts_and_crafts:

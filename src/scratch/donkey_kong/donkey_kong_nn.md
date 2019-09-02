@@ -59,7 +59,7 @@ og særskilt korleis me får den til å hoppe og falle på ein truverdig måte.
   ```blocks
   når @greenFlag vert trykt på
   set storleik til (40) %
-  bruk roteringstypen [vend sidevegs v]
+  avgrens rotering til [venstre-høgre v]
   ```
 
   Me har lagt til ein kloss som passar på at Jumpman berre snur seg mot

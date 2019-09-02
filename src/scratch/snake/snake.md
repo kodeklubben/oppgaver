@@ -131,9 +131,9 @@ selv trenger vi bare å endre retningen når piltastene trykkes.
 
 ## Sjekkliste {.check}
 
-- [ ] Lag et nytt skript som også starter på `Nytt spill`-meldingen. Lag en `for
-  alltid`{.blockcontrol}-løkke hvor du tester om hver piltast er trykket og
-  endrer hvilken retning figuren peker tilsvarende.
+- [ ] Lag et nytt skript som også starter på `Nytt spill`-meldingen. Lag en
+  `gjenta for alltid`{.blockcontrol}-løkke hvor du tester om hver piltast er
+  trykket og endrer hvilken retning figuren peker tilsvarende.
 
 - [ ] Legg til en `gå til x: y:`{.blockmotion}- og en `pek i
   retning`{.blockmotion}-kloss først i skriptet ditt slik at slangen starter et
@@ -237,4 +237,3 @@ bruker vi kloner av eplene også.
 - [ ] Spillet ditt fortjener også en forside og en meny som kan starte spillet.
   Her kan du også la spillerene velge vanskelighetsgrad ved å endre på ting som
   lengde, hastighet, hinder i banen og så videre.
-

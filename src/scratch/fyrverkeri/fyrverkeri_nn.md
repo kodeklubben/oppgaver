@@ -152,7 +152,7 @@ __Klikk på det grøne flagget.__
   for alltid
       viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
-          spel lyden [bang v]
+          start lyden [bang v]
           vis
           gli (1) sekund til x: (mus x) y: (mus y)
           gøym
@@ -170,7 +170,7 @@ __Klikk på det grøne flagget.__
   for alltid
       viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
-          spel lyden [bang v]
+          start lyden [bang v]
           vis
           gli (1) sekund til x: (mus x) y: (mus y)
           gøym
@@ -312,7 +312,7 @@ innsekt vart fanga inne i datamaskina og øydela programmet.
   for alltid
       viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
-          spel lyden [bang v]
+          start lyden [bang v]
           vis
           gli (1.5) sekund til x: (mus x) y: (mus y)
           gøym
