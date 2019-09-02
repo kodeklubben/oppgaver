@@ -129,7 +129,7 @@ __Smelltu á græna fánann.__
 
 ## Gátlisti {.check}
 
-- [ ] Bættu við fígúru sem getur verið markvörður. Við höfum notað smokkfiskinn
+- [ ] Bættu við fígúru sem getur verið markvörður. Við höfum notað kolkrabba
   `Animals/Octopus`, en þú getur líka notað aðrar fígúrur ef þú vilt.
 
 - [ ] Settu fígúruna inn í markið. Það er hægt að snúa fígúrunni með því að
@@ -169,7 +169,7 @@ __Smelltu á græna fánann.__
   Settu inn kubbinn `stærð verður (100)%`{.b} í
   `endalaust`{.blockcontrol}-slaufuna. Þú getur prófað að breyta `100%` í aðrar
   tölur þar til þú finnur viðeigandi stærð fyrir markvörðinn. Ef þú notar
-  smokkfiskinn sem `Markvörður` passar `50%` nokkuð vel. Prófaðu það!
+  kolkrabbann sem `Markvörður` passar `50%` nokkuð vel. Prófaðu það!
 
 ## Prófaðu verkefnið {.flag}
 
