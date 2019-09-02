@@ -9,7 +9,7 @@ language: nb
 
 Denne oppgaven bygger på oppgaven med samme navn som ligger på introduksjonsnivå
 her i Processingoppgavene. [Klikk her for å gå til introduksjonsoppgaven av
-verden](../verden_del1/verden_del1.html){target=blank}.
+verden](https://oppgaver.kidsakoder.no/processing/verden_del1/verden_del1){target=blank}.
 
 I denne oppgaven skal vi fortsette med verdenspillet! Nå skal vi komme så langt
 på spillet at det skal dukke opp navnet på en verdensdel i vinduet, og så er det

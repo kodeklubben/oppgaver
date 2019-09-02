@@ -9,10 +9,10 @@ language: nn
 # Introduksjon
 
 Her skal me bruke det me lærte i oppgåva
-[Skilpadder](../skilpadder/skilpadder.html) til å skrive bokstavar og lage
-figurar. Prøv å bruke det du kan om vinklar til å tenke deg fram til korleis du
-kan løyse problemet. Med litt trening kan du sjå for deg korleis resultatet kjem
-til å bli - før du køyrer koden!
+[Skilpadder](https://oppgaver.kidsakoder.no/python/skilpadder/skilpadder_nn) 
+til å skrive bokstavar og lage figurar. Prøv å bruke det du kan om vinklar til 
+å tenke deg fram til korleis du kan løyse problemet. Med litt trening kan du 
+sjå for deg korleis resultatet kjem til å bli - før du køyrer koden!
 
 
 # Oppgåve 1: Skriv namnet ditt {.activity}

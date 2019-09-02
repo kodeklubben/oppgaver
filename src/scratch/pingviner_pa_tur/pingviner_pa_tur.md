@@ -70,15 +70,15 @@ seg._
 - [ ] Pusle sammen denne koden for pingvinen din:
 
   ```blocks
-  når grønt flagg klikkes
-  for alltid
+  når @greenFlag klikkes
+  gjenta for alltid
       gå (10) steg
       sprett tilbake ved kanten
   slutt
   ```
 
     Legg merke til at fargene på klossene samsvarer med kategoriene
-    helt til venstre på siden. For eksempel finner du `når grønt flagg
+    helt til venstre på siden. For eksempel finner du `når @greenFlag
     klikkes`{.b} i `Hendelser`{.blockevents}-kategorien.
 
 ## Test prosjektet {.flag}
@@ -91,7 +91,7 @@ ditt.__
 - [ ] Du merker kanskje at pingvinen snur seg på hodet når den går mot venstre?
   Det er fordi scratchfigurer i utgangspunktet roterer når de skifter retning.
   Vi kan forbedre dette ved å legge til klossen `begrens rotasjon [vend sideveis
-  v]`{.b} rett under `når grønt flagg klikkes`{.b}-klossen i programmet vårt.
+  v]`{.b} rett under `når @greenFlag klikkes`{.b}-klossen i programmet vårt.
 
 Du kan bruke den røde knappen ved siden av det grønne flagget om du ønsker at
 pingvinen skal slutte å bevege seg. Etterhvert som du lager mer kode bør du
@@ -127,10 +127,10 @@ _La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
   ser slik ut:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett størrelse til (40) %
   begrens rotasjon [vend sideveis v]
-  for alltid
+  gjenta for alltid
       gå (4) steg
       sprett tilbake ved kanten
   slutt
@@ -140,12 +140,12 @@ _La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
   skjermen. Legg til flere klosser slik at koden nå ser slik ut:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett størrelse til (40) %
   begrens rotasjon [vend sideveis v]
   gå til [tilfeldig sted v]
   pek i retning (tilfeldig tall fra (1) til (360))
-  for alltid
+  gjenta for alltid
       gå (4) steg
       sprett tilbake ved kanten
   slutt
@@ -252,12 +252,12 @@ _Vi skal til slutt se hvordan pingvinen kan oppdage at den har kommet hjem!_
   pingvinen:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett størrelse til (40) %
   begrens rotasjon [vend sideveis v]
   gå til [tilfeldig sted v]
   pek i retning (tilfeldig tall fra (1) til (360))
-  for alltid
+  gjenta for alltid
       gå (4) steg
       sprett tilbake ved kanten
       hvis <berører [Akvariet v] ?>
@@ -286,7 +286,7 @@ er noen ideer:
   kopi av den.
 
 - [ ] Kan du lage en test for om alle pingvinene har kommet hjem? Denne lager du
-  enklest på akvariefiguren. Du bør bruke en `for alltid`{.blockcontrol}-løkke,
+  enklest på akvariefiguren. Du bør bruke en `gjenta for alltid`{.blockcontrol}-løkke,
   en `hvis`{.blockcontrol}-test samt `< > og < >`{.b}- og `berører
   [ v]`{.b}-klosser.
 
