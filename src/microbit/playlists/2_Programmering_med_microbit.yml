@@ -1,8 +1,8 @@
 sortindex: 2
 title:
-  nb: 'Programmering med Micro:bit'
-  nn: 'Programmering med Micro:bit'
-  en: 'Programming in Micro:bit'
+  nb: 'Programmering med Micro:bit-sensorer'
+  nn: 'Programmering med Micro:bit-sensorar'
+  en: 'Programming using the Micro:bit sensors'
 lessons:
   - pxt_terning
   - pxt_tilfeldigtall
