@@ -1,8 +1,8 @@
 sortindex: 5
 title:
-  nb: 'Programmering i python'
-  nn: 'Programmering i python'
-  en: 'Programming in Python'
+  nb: 'Programmering i micro-python'
+  nn: 'Programmering i micro-python'
+  en: 'Programming in micro-python'
 lessons:
   - python_hello_world
   - python_random
