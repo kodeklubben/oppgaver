@@ -1,8 +1,8 @@
 sortindex: 1
 title:
-	nb: 'Introduksjon til programmering'
-	nn: 'Introduksjon til programmering'
-	en: 'Introduction to programming'
+  nb: 'Introduksjon til programmering'
+  nn: 'Introduksjon til programmering'
+  en: 'Introduction to programming'
 lessons:
   - pxt_vis_navnet_ditt
   - pxt_lagegetbilde
