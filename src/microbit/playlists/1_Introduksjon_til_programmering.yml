@@ -1,0 +1,13 @@
+sortindex: 1
+title:
+	nb: 'Introduksjon til programmering'
+	nn: 'Introduksjon til programmering'
+	en: 'Introduction to programming'
+lessons:
+  - pxt_vis_navnet_ditt
+  - pxt_lagegetbilde
+  - pxt_kompass
+  - pxt_rakettoppskytning
+  - pxt_tell_med_knapper
+  - pxt_send_en_hemmelig_beskjed
+  - pxt_spaa_fremtiden_med_bilder
