@@ -1,0 +1,13 @@
+sortindex: 2
+title:
+  nb: 'Programmering med Micro:bit-sensorer'
+  nn: 'Programmering med Micro:bit-sensorar'
+  en: 'Programming using the Micro:bit sensors'
+lessons:
+  - pxt_terning
+  - pxt_tilfeldigtall
+  - pxt_klokka_tikker
+  - pxt_tell_med_lokker
+  - pxt_akselerometer
+  - pxt_er_du_rask_nok
+  - pxt_temperaturforandringer

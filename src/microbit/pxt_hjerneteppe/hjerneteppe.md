@@ -1,6 +1,6 @@
 ---
 title: "PXT: Hjerneteppe!"
-author: Helene Isnes
+author: Helene Isnes og Julie Revdahl
 language: nb
 ---
 
@@ -20,30 +20,33 @@ programmet. Det kan også være lurt for å dele opp programmet i mindre deler.
 
 *Det første vi skal kode er en funksjon som skal inneholde de forskjellige
 bokstavkombinasjonene man kan få som en oppgave. Funksjonen skal også ha med en
-variabel `Fasit` som skal velge hvilken oppgave som er den gjeldende.*
+variabel* `Fasit`{.microbitvariables} *som skal velge hvilken oppgave som er
+den gjeldende.*
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en ny funksjon som du kaller `Velg fasit`. Du lager en ny funksjon med
-`Lag en funksjon...`-knappen i kategorien `Funksjoner` i `Avansert`.
+- [ ] Lag en ny funksjon som du kaller `Velg fasit`{.microbitfunctions}. Du lager
+  en ny funksjon med `Lag en funksjon...`{.microbitfunctions}-knappen i kategorien
+  `Funksjoner`{.microbitfunctions} i __Avansert__.
 
-- [ ] Sett en variabel kalt `Oppgaver` til en liste med tre eller flere
-  tekstsstrenger med ulike variasjoner på rekkefølge på bokstavene A, B og C. Du
-  kan få bruk for denne klossen: ![Bilde som viser klossen sett text list
-  til](sett_liste_til.png). Koden settes inn i `Velg fasit`.
+- [ ] Sett en variabel kalt `Oppgaver`{.microbitvariables} til en liste med tre
+  eller flere tekstsstrenger med ulike variasjoner på rekkefølge på bokstavene A,
+  B og C. Du kan få bruk for klossen `sett text list til array of...`{.microbitvariables}.
+  Koden settes inn i `Velg fasit`{.microbitfunctions}.
 
 ## {.tip}
 Forslag til tre ulike teksstrenger er: ABCCBABA, ACCBACBC og CBACCBAB
 ##
 
-- [ ] En variabel `Fasit` skal settes til `Oppgaver` som får en verdi mellom 0
-  og "antall oppgaver - 1". `Sett Fasit til`-klossen finner du i `Variabler`,
-  ![Bilde av klossen list får en verdi](list_faar_verdi.png) finner du i
-  `Lister` og `plukk et tilfeldig tall mellom...` finner du i `Matematikk`.
+- [ ] En variabel `Fasit`{.microbitvariables} skal settes til `Oppgaver`{.microbitvariables}
+  som får en verdi mellom 0 og __antall oppgaver - 1__. `Sett Fasit til`{.microbitvariables}-klossen
+  finner du i `Variabler`{.microbitvariables}, `list får en verdi ved 0`{.microbitarrays}
+  finner du i `Lister`{.microbitarrays} og `velg tilfeldig 0 til 4`{.microbitmath}
+  finner du i `Matematikk`{.microbitmath}.
 
 ## OBS! {.tip}
 Hvis du endrer antall oppgaver i listen, må du også endre makstallet for det
-tilfeldige tallet du plukker. Makstallet skal være `antall oppgaver - 1`.
+tilfeldige tallet du plukker. Makstallet skal være __antall oppgaver - 1__.
 
 
 # Steg 2: Vis fasit {.activity}
@@ -53,93 +56,113 @@ er på og vise bokstavene til skjermen på micro:biten.*
 
 ## Sjekkliste
 
-- [ ] Lag en ny funskjon kalt `Vis fasit` og sett den inn i kodefeltet ditt.  
+- [ ] Lag en ny funskjon kalt `Vis fasit`{.microbitfunctions} og sett den inn i
+  kodefeltet ditt.  
 
-- [ ] Lag en ny variabel `Gjetning`. Denne skal inneholde gjetningen av
-bokstaver til spilleren.
+- [ ] Lag en ny variabel `Gjetning`{.microbitvariables}. Denne skal inneholde
+  gjetningen av bokstaver til spilleren.
 
-- [ ] Sett den nye variabelen til en tom teksstreng i `Vis fasit`-funksjonen.
-  ![Bilde som viser en tom tekstsstreng kloss](tom_tekst.png)-klossen finner du
-  i kategorien `Tekst`.
+- [ ] Sett den nye variabelen til en tom teksstreng i `Vis fasit`{.microbitfunctions}-funksjonen.
+  `Vis tekst`{.microbitbasic}-klossen finner du i kategorien `Tekst`{.microbitbasic}.
 
-- [ ] Lag en ny variabel `Kan gjette`. Denne variabelen skal holde styr på om
-  personen som spiller kan gjette, eller om den må vente. *Senere skal vi kode
-  at spilleren bare kan gjette hvis et spørsmålstegn vises på skjermen til
-  micro:biten.*
+- [ ] Lag en ny variabel `Kan gjette`{.microbitvariables}. Denne variabelen skal
+  holde styr på om personen som spiller kan gjette, eller om den må vente. *Senere
+  skal vi kode at spilleren bare kan gjette hvis et spørsmålstegn vises på
+  skjermen til micro:biten.*
 
-- [ ] Sett `Kan gjette` til `usann`. ![Bilde av klossen usann](usann.png)
--klossen finner du i `Logikk`.
+- [ ] Sett `Kan gjette`{.microbitvariables} til `usann`{.microbitlogic}.`usann`{.microbitlogic}-klossen
+  finner du i `Logikk`{.microbitlogic}.
 
 Nivået vi er på tilsvarer antall bokstaver vi må huske. Det vi nå skal kode er
 bokstavene som skal vises på skjermen til nivået vi er på.
 
-- [ ] Lag to nye variabler `indeks` og `Nivå`.
+- [ ] Lag to nye variabler `indeks`{.microbitvariables} og `Nivå`{.microbitvariables}.
 
-- [ ] Finn en passende løkke i `Løkker` som skal gjenta for variabelen `indeks`
-fra 0 til "`Nivå` - 1". Løkken skal settes inn nederst i `Vis fasit`.
+- [ ] Finn en passende løkke i `Løkker`{.microbitloops} som skal gjenta for
+  variabelen `indeks`{.microbitvariables} fra 0 til `Nivå`{.microbitvariables}__- 1__.
+  Løkken skal settes inn nederst i `Vis fasit`{.microbitfunctions}.
 
-- [ ] Sett først inn en `tøm skjerm`-kloss og så en `pause`-kloss på 200 ms i
-løkken. Begge klossene kan du finne i `Basis`.
+- [ ] Sett først inn en `tøm skjerm`{.microbitbasic}-kloss og deretter en `pause`{.microbitbasic}-kloss
+  på 200 ms inn i løkken. Begge klossene kan du finne i `Basis`{.microbitbasic}-kategorien.
 
-- [ ] Videre i løkken vil vi at en bokstav fra variabelen `Fasit` skal vises, på
-  den posisjoen (`indeks`) vi er på i løkken. En `vis tekst`-kloss finner du i
-  `Basis`, klossen under fra `Tekst` kan også komme godt med.
+- [ ] Videre i løkken vil vi at en bokstav fra variabelen `Fasit`{.microbitvariables}
+  skal vises, på den posisjoen (`indeks`{.microbitvariables}) vi er på i løkken.
+  En `vis tekst`{.microbitbasic}-kloss finner du i `Basis`{.microbitbasic},
+  klossen `tegn fra .. posisjon 0`{.microbittext} fra `Tekst`{.microbittext} kan
+  også komme godt med.  
 
-	![Bilde som viser tegn fra tekst posisjon variabel](tegn_fra.png)   
-
-- [ ] Sett inn en `pause`-kloss med et tall mellom 500 og 1000.
+- [ ] Sett inn en `pause`{.microbitbasic}-kloss med et tall mellom 500 og 1000.
 
 Vi går nå ut av løkken og fortsetter videre under.
 
 - [ ] Siden vi er ferdig med å vise bokstavene spilleren skal gjette, setter vi
-`Kan gjette` til `sann`.
+`Kan gjette`{.microbitvariables} til `sann`{.microbitlogic}.
 
 - [ ] Til slutt i denne funksjonen vil vi vise et spørsmålstegn så lenge
   gjetningen ikke er like lang som det nivået vi er på. Sett inn koden som er
-  vist nedenfor under forrige kloss. Klossen `lengde på` finner du i
-  `Tekst`-kategorien.
+  vist nedenfor under forrige kloss. Klossen `lengde på`{.microbittext} finner du i
+  `Tekst`{.microbittext}-kategorien.
 
-	![Bilde av klossen gjenta hvis](gjenta_hvis.png)
+```microbit
+let Nivå = 0
+let Gjetning = ""
+while (Gjetning.length < Nivå) {
+    basic.showString("?")
+}
+```
+Merk at du må sette denne koden inn i funksjonen din på riktig sted, og ikke
+i en `ved start`{.microbitbasic}-blokk som på bildet.
 
 
 # Steg 3: Sett sammen programmet {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] I `ved start` skal det legges inn en kloss som heter `call Velg fasit` fra
-  `Funksjoner`. *Denne klossen henter funksjonen `Velg fasit` og kjører koden
-  der den plasseres.*
+- [ ] I `ved start`{.microbitbasic} skal det legges inn en kloss som heter
+  `call Velg fasit`{.microbitfunctions} fra `Funksjoner`{.microbitfunctions}.
+  *Denne klossen henter funksjonen* `Velg fasit`{.microbitfunctions} *og kjører
+  koden der den plasseres.*
 
-- [ ] Lag en ny variabel som du kaller `Nivå`. Denne skal settes til 0.
+- [ ] Lag en ny variabel som du kaller `Nivå`{.microbitvariables}. Denne skal
+  settes til 0.
 
-- [ ] Legg til en `gjenta hvis sann`-kloss. I steden for `sann` vil vi at løkken
-  skal kjøre så lenge `Nivå` er mindre enn lengden på `Fasit`. `Mindre
-  enn`-klossen ser slik ut: ![Bilde som viser mindre enn
-  klossen](mindre_enn.png)
+- [ ] Legg til en `gjenta hvis sann`{.microbitloops}-kloss. I steden for `sann`{.microbitlogic}
+  vil vi at løkken skal kjøre så lenge `Nivå`{.microbitvariables} er mindre enn
+  lengden på `Fasit`{.microbitvariables}. `Mindre enn`{.microbitlogic}-klossen
+  finner du i `Logikk`{.microbitlogic}-kategorien.
 
-- [ ] Endre `Nivå` med 1 inni løkken fra forrige punkt.
+- [ ] Endre `Nivå`{.microbitvariables} med 1 inne i løkken fra forrige punkt.
 
-- [ ] Hent ut funksjonen `Vis fasit`.
+- [ ] Hent ut funksjonen `Vis fasit`{.microbitfunctions}.
 
-- [ ] Sett inn en `gjenta hvis sann`-kloss. Bytt ut `sann` med koden under. *Vi
-skal fortsatt være inni den første løkken.*
+- [ ] Sett inn en `gjenta hvis sann`{.microbitloops}-kloss. Bytt ut `sann`{.microbitlogic}
+  med koden under. *Vi skal fortsatt være inne i den første løkken.*
 
-	![Bilde som viser hva som skal inn for sann i gjenta hvis løkken](er_ulik_0.png)
+```microbit
+let Nivå = 0
+let Fasit = ""
+let Gjetning = ""
+while (Gjetning.compare(Fasit.substr(0, Nivå)) != 0) {
 
-- [ ] Sett inn en `vis ikon`-kloss (fra `Basis`) i løkken fra forrige punkt.
-Bildet som skal vises skal være et kryss.
+}
+```
+Pass på at du plasserer koden der den skal.
 
-- [ ] Under bildet skal `Vis fasit` hentes på nytt.  
+- [ ] Sett inn en `vis ikon`{.microbitbasic}-kloss (fra `Basis`{.microbitbasic})
+  i løkken fra forrige punkt. Bildet som skal vises skal være et kryss.
+
+- [ ] Under bildet skal `Vis fasit`{.microbitfunctions} hentes på nytt.  
 
 Vi går nå ut av den ene løkken.
 
-- [ ] Sett inn en `vis ikon`-kloss under. Bildet
-skal se slik ut: ![Bilde som viser ja ikonet](check.png)
+- [ ] Sett inn en `vis ikon`{.microbitbasic}-kloss under løkken. Du kan for
+  eksempel bruke bildet som heter __ja__. Hvis du holder musepekeren over de
+  ulike ikonene kommer navnene deres opp.
 
-- [ ] Gå ut av den første løkken og sett inn en `vis ikon`-kloss helt nederst i
-  `ved start`-blokken. Dette bildet skal vise at spillet er ferdig og at
-  spilleren har klart alle nivåene i oppgaven. Du kan selv velge hvilket bilde
-  du vil bruke.
+- [ ] Gå ut av den første løkken og sett inn en `vis ikon`{.microbitbasic}-kloss
+  helt nederst i `ved start`{.microbitbasic}-blokken. Dette bildet skal vise at
+  spillet er ferdig og at spilleren har klart alle nivåene i oppgaven. Du kan
+  selv velge hvilket bilde du vil bruke.
 
 
 # Steg 4: Knapper {.activity}
@@ -148,17 +171,21 @@ skal se slik ut: ![Bilde som viser ja ikonet](check.png)
 
 ## Sjekkliste {.check}
 
-- [ ] Plasser en `når knapp A trykkes`-kloss fra `Inndata` i kodefeltet ditt.
+- [ ] Plasser en `når knapp A trykkes`{.microbitinput}-kloss fra `Inndata`{.microbitinput}
+  i kodefeltet ditt.
 
-Spilleren skal bare kunne gjette hvis variabelen `Kan gjette` er satt til sann.
+Spilleren skal bare kunne gjette hvis variabelen `Kan gjette`{.microbitvariables}
+er satt til sann.
 
-- [ ] Sett inn en `hvis`-kloss fra `Logikk`. Bytt ut `sann` med `Kan gjette`.
+- [ ] Sett inn en `hvis`{.microbitlogic}-kloss fra `Logikk`{.microbitlogic}.
+  Bytt ut `sann`{.microbitlogic} med `Kan gjette`{.microbitvariables}.
 
-- [ ] I `hvis`-klossen, sett inn: ![Bilde som viser hva som skal inni klossen
-når knapp A trykkes](hvis_kan_gjette.png)
+- [ ] Inne i `hvis`{.microbitlogic}-klossen, skal du sette sammen `sett gjetning til 0`{.microbitvariables}
+  og `sett sammen`{.microbittext} slik at når knapp A trykkes, skal bokstaven __A__
+  settes sammen med gjetningen vår.  
 
-- [ ] Lag kode for `når knapp B trykkes` og `når knapp A+B trykkes`. `Når knapp
- A+B trykkes` skal det være en gjetning på bokstaven C.
+- [ ] Lag kode for `når knapp B trykkes`{.microbitinput} og `når knapp A+B trykkes`{.microbitinput}.
+  `Når knapp A+B trykkes`{.microbitinput} skal det være en gjetning på bokstaven C.
 
 ## Test prosjektet {.flag}
 *Nå er koden din ferdig!*
@@ -175,14 +202,46 @@ trenge litt ekstra utstyr:*
 
 *- 2 krokodilleklemmer*
 
-- [ ] Bytt ut ![Bilde som viser tegn fra tekst posisjon variabel](tegn_fra_fullfort.png)
-  i `Vis fasit`-funksjonen med det under:
-
-	![Bilde av kode som skal byttes til for å få lyd](hvis_ellers.png)
-
+- [ ] Bytt ut `Vis tekst tegn fra...`{.microbitbasic} i `Vis fasit`{.microbitfunctions}-funksjonen
+  med det under:
+```microbit
+let indeks = 0
+let Fasit = ""
+if (Fasit.charAt(indeks) == "A") {
+    music.playTone(262, music.beat(BeatFraction.Whole))
+} else if (Fasit.charAt(indeks) == "B") {
+    music.playTone(330, music.beat(BeatFraction.Whole))
+} else {
+    music.playTone(392, music.beat(BeatFraction.Whole))
+}
+```
+Pass på at du plasserer koden inne i funksjonen din og ikke i `ved start`{.microbitbasic}-klossen
+som på bildet.
 - [ ] Utvid koden for knappene til de ser slik ut:
 
-	![Bilde som viser hvordan koden til knapp A bør se ut med lyd](knapp_A_tone.png) ![Bilde som viser hvordan koden til knapp B bør se ut med lyd](knapp_B_tone.png) ![Bilde som viser hvordan koden til knapp A+B bør se ut med lyd](knapp_AB_tone.png)
+```microbit
+input.onButtonPressed(Button.A, function () {
+    let Kan_Gjette = 0
+    if (Kan_Gjette) {
+        music.playTone(262, music.beat(BeatFraction.Whole))
+        Gjetning = "" + Gjetning + "A"
+    }
+})
+input.onButtonPressed(Button.AB, function () {
+    let Kan_Gjette = 0
+    if (Kan_Gjette) {
+        music.playTone(392, music.beat(BeatFraction.Whole))
+        Gjetning = "" + Gjetning + "C"
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    let Kan_Gjette = 0
+    if (Kan_Gjette) {
+        music.playTone(330, music.beat(BeatFraction.Whole))
+        Gjetning = "" + Gjetning + "B"
+    }
+})
+```
 
 - [ ] Koble til en høyttaler (buzzer) eller hodetelefoner med krokodilleklemmer
   (hvis du er usikker på hvordan dette gjøres kan du se på en av de andre
