@@ -1,0 +1,14 @@
+sortindex: 3
+title:
+  nb: 'Spillprogrammering'
+  nn: 'Spelprogrammering'
+  en: 'Game programming'
+lessons:
+  - pxt_gangespill
+  - pxt_tikkende_bombe
+  - pxt_stein_saks_papir
+  - pxt_frustrasjon
+  - pxt_himmelfall
+  - pxt_det_regner_mat
+  - pxt_hjerneteppe
+  - pxt_snake
