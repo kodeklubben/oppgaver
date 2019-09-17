@@ -1,0 +1,13 @@
+sortindex: 5
+title:
+  nb: 'Programmering i micro-python'
+  nn: 'Programmering i micro-python'
+  en: 'Programming in micro-python'
+lessons:
+  - python_hello_world
+  - python_random
+  - python_gestures
+  - python_direction
+  - python_input_output
+  - python_movement
+  - python_network
