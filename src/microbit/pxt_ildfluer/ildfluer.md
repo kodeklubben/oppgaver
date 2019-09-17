@@ -8,13 +8,13 @@ language: nb
 
 # Introduksjon {.intro} 
 
-Ildlfuer blinker i mørket om natta. Noen ild-fluer er spesielle ved at de kan 
+Ildfluer blinker i mørket om natta. Noen ildfluer er spesielle ved at de kan 
 blinke nesten i takt. Hvordan er dette mulig? Forskere har funnet ut at hver 
 ildlfue har sin egen interne klokke og blinker med jevne mellomrom. I tilleg 
 ser hver ildflue når naboen blinker, og da endrer de litt på på sin egen klokke. 
 Til slutt kan da hele svermer av ildlfluer blinke i takt. Du kan lese mer om 
 ildlfuer og synkronisert blinking på 
-[denne nettsiden](http://ncase.me/fireflies/){target=_blank}
+[denne nettsiden](http://ncase.me/fireflies/){target=_blank}.
 
 I denne oppgaven skal vi kode micro:bitene slik at de fungere som en sverm med blinkende 
 ildfluer. 
@@ -22,33 +22,43 @@ ildfluer.
 
 # Steg 1: Vi lager en ensom ildflue {.activity}
 
-Det første er å lage en ensom ildflue som ikke kommuniserer med de andre. 
+Det første vi skal gjøre er å lage en ensom ildflue som ikke kommuniserer med de andre. 
 Det gjør vi ved å lage en intern klokke som teller langsomt oppver. 
-Hver gang den når verdien 8 
-bruker den endre poengsum-blokk fra spill-menyen for å vise en liten animasjon. 
+Hver gang den når verdien __8__ 
+bruker en `endre poengsum`{.microbitgame}-kloss fra `Spill`{.microbitgame}-menyen for å vise en liten animasjon. 
 
 
 ## Sjekkliste {.check}
 
-- [ ] Lag en variabel som heter `klokke`
+- [ ] Lag en variabel som heter `klokke`{.microbitvariables}
 
-- [ ] Bruk `gjenta for alltid`-blokken og legg inn en `hvis ellers`-kloss 
-fra `Logikk`-kategorien. 
+- [ ] Bruk `gjenta for alltid`{.microbitbasic}-klossen og legg inn en `hvis-ellers`{.microbitlogic}-kloss 
+fra `Logikk`{.microbitlogic}-kategorien. 
 
-- [ ] Test for om variabelen `klokke` er større eller lik `8` øverst i 
-`hvis ellers`-klossen. 
+- [ ] Test for om variabelen `klokke`{.microbitvariables} er større eller lik __8__ øverst i 
+`hvis-ellers`{.microbitlogic}-klossen. 
 
-- [ ] I den øverset åpningen i `hvis ellers`-klossen, legg inn en 
-`endre poengsum med 1`-kloss fra `Spill`-kategorien, legg inn en 
-`pause`-kloss og ta en pause på `200 ms` Sett så variabelen 
-`klokke` til `0`. 
+- [ ] I den øverset åpningen i `hvis ellers`{.microbitlogic}-klossen, legg inn en 
+`endre poengsum med 1`{.microbitgame}-kloss fra `Spill`{.microbitgame}-kategorien, legg inn en 
+`pause`{.microbitbasic}-kloss og ta en pause på `200 ms`{.microbitbasic}. Sett så variabelen 
+`klokke`{.microbitvariables} til __0__. 
 
-- [ ] I den nederste åpningen i `hvis ellers`-klossen legg inn en 
-`pause`-kloss og ta en pause på `100 ms`. Legg så til en 
-`endre klokke med 1`-kloss fra `Variabler`-kategorien.
+- [ ] I den nederste åpningen i `hvis-ellers`{.microbitlogic}-klossen legg inn en 
+`pause`{.microbitbasic}-kloss og ta en pause på `100 ms`{.microbitbasic}. Legg så til en 
+`endre klokke med 1`{.microbitvariables}-kloss fra `Variabler`{.microbitvariables}-kategorien.
 
-	![Bilde av kode for ensom flue](ensom_flue.png)
-
+```microbit
+basic.forever(function () {
+    if (klokke >= 8) {
+        game.addScore(1)
+        basic.pause(200)
+        klokke = 0
+    } else {
+        basic.pause(100)
+        klokke += 1
+    }
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -69,20 +79,38 @@ naboene og endre klokka når signalet mottas.
 ## Sjekkliste {.check}
 
 - [ ] Alle micro:bitene må bruke samme radiokanal. Dette gjør vi ved å
-legge inn en `radio send serienummer`-kloss fra Radio-kategorien inne i ved start-klossen.
+legge inn en `radio send serienummer`{.microbitradio}-kloss fra `Radio`{.microbitradio}-kategorien inne i `ved start`{.microbitbasic}-klossen.
 
-	![Bilde av kode for start-klossen](start.png)
+```microbit
+radio.setGroup(1)
+```
 
-- [ ] Nå må vi endre på koden fra Steg 1 ved å legge inn en radio send tall-kloss i den
-øverste åpningen i `hvis ellers`-klossen. Nå sender micro:biten ut et radiosignal hver gang
+- [ ] Nå må vi endre på koden fra Steg 1 ved å legge inn en `radio send tall`{.microbitradio}-kloss i den
+øverste åpningen i `hvis-ellers`{.microbitlogic}-klossen. Nå sender micro:biten ut et radiosignal hver gang
 den blinker.
 
-	![Bilde av kode for sosial flue](sosial_flue.png)
+```microbit
+basic.forever(function () {
+    if (klokke >= 8) {
+        radio.sendNumber(0)
+        game.addScore(1)
+        basic.pause(200)
+        klokke = 0
+    } else {
+        basic.pause(100)
+        klokke += 1
+    }
+})
+```
 
 - [ ] Nå må vi få micro:biten til å motta radio-signal fra andre. Legg inn en
-når mottar recievedNumber-kloss fra Radio-kategorien. Inne i denne endres klokke med 1.
+`når mottar recievedNumber`{.microbitradio}-kloss fra `Radio`{.microbitradio}-kategorien. Inne i denne endres klokke med 1.
 
-	![Bilde av kode for radiomottak](radiomottak.png)
+```microbit
+radio.onReceivedNumber(function (receivedNumber) {
+    klokke += 1
+})
+```
 
 ## Test prosjektet {.flag}
 
