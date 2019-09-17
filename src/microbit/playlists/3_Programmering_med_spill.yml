@@ -1,8 +1,8 @@
 sortindex: 3
 title:
-  nb: 'Programmering med spill'
-  nn: 'Programmering med spill'
-  en: 'Programming in games'
+  nb: 'Spillprogrammering'
+  nn: 'Spelprogrammering'
+  en: 'Game programming'
 lessons:
   - pxt_gangespill
   - pxt_tikkende_bombe
