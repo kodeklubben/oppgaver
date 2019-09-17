@@ -1,0 +1,13 @@
+sortindex: 4
+title:
+  nb: 'Avansert Micro:bit'
+  nn: 'Avansert Micro:bit'
+  en: 'Advanced Micro:bit'
+lessons:
+  - pxt_tell_med_lokker
+  - pxt_akselerometer
+  - pxt_microbit_repeater
+  - pxt_lysmusikk
+  - pxt_fjernstyr_en_venn
+  - pxt_flappy_bird
+  - pxt_nodt_eller_sannhet
