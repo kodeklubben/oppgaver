@@ -22,8 +22,7 @@ Flakse flyvende og prøve å styre mellom rørene!
 
 ## Sjekkliste {.check}
 
-- [ ] Start et nytt Scratch-prosjekt. Slett katten ved å høyreklikke på den og
-  velge `Slett`. Alternativt kan du klikke krysset øverst til høyre på figur-ikonet.
+- [ ] Start et nytt Scratch-prosjekt. Slett katten ved klikke på søppelkassen.
 
 - [ ] Bytt ut bakgrunnen med et landskap. `Desert` er et bra valg.
 
@@ -147,7 +146,7 @@ __Klikk det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til en ny figur ved å klikke på *Tegn ny figur*-knappen. 
+- [ ] Legg til en ny figur ved å klikke på *Tegn*-knappen. 
 
   ![Tegn ny figur](tegn-ny.png)
 
@@ -157,7 +156,7 @@ __Klikk det grønne flagget.__
 
   ![Zoom =](zoom_eq.png)
 
-- [ ] Klikk på `Rektangel`-ikonet, nederst til venstre ved tegneområdet ![Rektangel](rektangel.png). Velg farge på rektangelet som skal tegnes ved å klikke på `Fyll`. Velg en fin farge. Vi ønsker å gjøre omrisset av firkanten gjennomsiktig. Dette gjør vi ved å klikke på `Kant`, og klikke på ikonet helt nederst i farge-dialogen, med en rød skråstrek.
+- [ ] Klikk på `Rektangel`-ikonet, til venstre ved tegneområdet ![Rektangel](rektangel.png). Velg farge på rektangelet som skal tegnes ved å klikke på `Fyll`. Velg en fin farge. Vi ønsker å gjøre omrisset av firkanten gjennomsiktig. Dette gjør vi ved å klikke på `Kant`, og klikke på ikonet helt nederst i farge-dialogen, med en rød skråstrek.
 
   ![fyll kant](fyll_kant.png)
 
