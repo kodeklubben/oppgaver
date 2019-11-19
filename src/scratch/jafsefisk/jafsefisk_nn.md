@@ -57,14 +57,14 @@ __Klikk på det grøne flagget.__
 - [ ] Flytt musepeikaren rundt i sjøen. Følgjer fisken etter?
 
 - [ ] Kva skjer viss du ikkje flyttar musepeikaren og fisken når den att?
-
-- [ ] Korleis ser den ut? Kvifor gjer den dette?
+  Korleis ser den ut? Kvifor gjer den dette?
 
 ## Sjekkliste {.check}
 
-- [ ] Du kan stoppe den maniske flippinga til Jafsefisk viss du syt for at den
-  berre flyttar seg når den ikkje er for nær musepeikaren (`avstand til
-  [musepeikar v]`{.b} ligg i `Sansing`{.blocksensing}-kategorien).
+- [ ] Du kan stoppe flippinga til Jafsefisk viss du syt for at den berre
+  flyttar seg når den ikkje er for nær musepeikaren
+  (`avstand til [musepeikar v]`{.b} ligg i
+  `Sansing`{.blocksensing}-kategorien).
 
   ```blocks
   når @greenFlag vert trykt på

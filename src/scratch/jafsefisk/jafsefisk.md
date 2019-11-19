@@ -51,14 +51,14 @@ __Klikk på det grønne flagget.__
 - [ ] Flytt musepekeren rundt i sjøen. Følger fisken etter?
 
 - [ ] Hva skjer hvis du ikke flytter musepekeren og fisken når den igjen?
-
-- [ ] Hvordan ser den ut? Hvorfor gjør den dette?
+  Hvordan ser den ut? Hvorfor gjør den dette?
 
 ## Sjekkliste {.check}
 
-- [ ] Du kan stoppe JafseFisks maniske flipping hvis du sørger for at den bare
-  flytter seg når den ikke er for nær musepekeren (`avstand til [musepeker
-  v]`{.b} ligger i `Sansning`{.blocksensing}-kategorien).
+- [ ] Du kan stoppe flippingen til JafseFisk hvis du sørger for at den bare
+  flytter seg når den ikke er for nær
+  musepekeren (`avstand til [musepeker v]`{.b}
+  ligger i `Sansning`{.blocksensing}-kategorien).
 
   ```blocks
   når grønt flagg klikkes
