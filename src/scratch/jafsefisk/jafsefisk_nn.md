@@ -185,6 +185,8 @@ byttedyret er borti det kvite på tennene til Jafsefisk.*
   (tilfeldig tal frå (-170) til (170))`{.b} for å gi tilfeldige koordinatar for
   `x` og `y`.
 
+Slik skal skriptet til byttedyret sjå ut:
+
   ```blocks
   når @greenFlag vert trykt på
   for alltid
