@@ -148,6 +148,7 @@ lita stund seinare.
 
   ```blocks
   når @greenFlag vert trykt på
+  vis
   for alltid
       gå (2) steg
       snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar

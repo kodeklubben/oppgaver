@@ -142,6 +142,7 @@ en liten stund senere.
 
   ```blocks
   når grønt flagg klikkes
+  vis
   gjenta for alltid
       gå (2) steg
       snu  @turnLeft (tilfeldig tall fra (-20) til (20)) grader
@@ -178,8 +179,7 @@ __Klikk på det grønne flagget.__
   y: (tilfeldig tall fra (-170) til (170))`{.b} som vi gir tilfeldige verdier
   for `x` og `y`.
 
-- [ ] For å sikre oss at byttedyret alltid er synlig når vi starter spillet legger
-  vi også til en 'vis'-kloss i starten av skriptet til byttedyret.
+Slik skal skriptet til byttedyret se ut:
 
   ```blocks
   når grønt flagg klikkes
