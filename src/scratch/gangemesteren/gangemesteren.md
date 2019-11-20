@@ -261,7 +261,7 @@ ut at svaret er **12**.
 
   ```blocks
   når jeg mottar [Tegn hjelper v]
-  slett
+  slett alt
   sett størrelse til (20)%
   vis
   sett y til (140)
