@@ -35,17 +35,16 @@ tatt, går poengsummen din ned.
 
   ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
-- [ ] Klikk på scenen ved siden av Felix i vinduet for figurer. Velg fanen
-  `Bakgrunner` og trykk på
-  ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) for å
-  importere en ferdig bakgrunn. Velg den bakgrunnen du vil.
+- [ ] Klikk på
+  ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) nederst  til høyre på skjermen for å sette en bakgrunn. 
+  Velg den bakgrunnen du vil.
 
 - [ ] Klikk på Felix, velg `Kode`-fanen og lag dette
   skriptet:
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       pek mot [musepeker v]
       gå (10) steg
       neste drakt
@@ -95,7 +94,7 @@ Hvis du ikke har bruker kan du ikke lagre, bare fortsett til steg 2.
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       gå til [musepeker v]
       pek mot [Felix v]
   slutt
@@ -121,7 +120,7 @@ __Klikk på det grønne flagget.__
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       pek mot [musepeker v]
       gå (10) steg
       neste drakt
@@ -150,13 +149,13 @@ __Klikk på det grønne flagget.__
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       pek mot [musepeker v]
       gå (10) steg
       neste drakt
       hvis <berører [Herbert v]?>
           send melding [Fanget! v]
-		  spill lyden [Mjau]
+		  start lyden [Mjau]
           si [Tok deg!] i (1) sekunder
           vent (1) sekunder
       slutt
@@ -167,7 +166,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Hent en ny drakt ved å trykke på
   ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  og velg `Fantasi/Ghost-a`
+  og velg `Fantasi/Ghost`
 
 - [ ] Endre navnene på Herberts drakter slik at musedrakten heter
   `levende` og spøkelsesdrakten heter `død`.
@@ -212,13 +211,13 @@ __Klikk på det grønne flagget.__
   Legg merke til at `Poeng 0` dukket opp øverst til venstre i spillet
   ditt.
 
-- [ ] Klikk på `Scene` til høyre på skjermen, ved siden av
-  `Figurer`. Lag disse to skriptene på scenen:
+- [ ] Klikk på `Scene` helt til høyre på skjermen, ved siden av
+  lista over figurene Felix og Herbert. Lag disse to skriptene på scenen:
 
   ```blocks
   når grønt flagg klikkes
   sett [Poeng v] til [0]
-  for alltid
+  gjenta for alltid
       vent (1) sekunder
       endre [Poeng v] med (1)
   slutt

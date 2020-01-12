@@ -7,9 +7,9 @@ language: nb
 
 # Introduksjon {.intro}
 
-Vi lærte i [Kuprat](../kuprat/kuprat.html) at vi kan bruke `input()` for å få
-tekst fra brukeren og `print()` for å skrive ut tekst til brukeren. Det kan for
-eksempel gjøres slik:
+Vi lærte i [Kuprat](https://oppgaver.kidsakoder.no/python/kuprat/kuprat) at 
+vi kan bruke `input()` for å få tekst fra brukeren og `print()` for å skrive 
+ut tekst til brukeren. Det kan for eksempel gjøres slik:
 
 ```python
 navn = input("Hva er navnet ditt? ")

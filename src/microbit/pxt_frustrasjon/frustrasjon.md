@@ -28,58 +28,137 @@ Til dette prosjektet trengs det et par ekstra ting:
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] Slett de eksisterende blokkende.
 
 ![Bilde av start og for alltid blokker som kastes](slett_standard_blokker.png)
 
 - [ ] Vi ønsker å starte et nytt spill når spilleren trykker på knapp A. Til
-  dette kan vi bruke `når knapp A trykkes`-klossen som finnes i kategorien
-  `Inndata`.
+  dette kan vi bruke `når knapp A trykkes`{.microbitinput}-klossen som finnes i kategorien
+  `Inndata`{.microbitinput}.
 
-  ![Bilde av "når knapp A trykkes" klossen](naar_a_trykkes.png)
+  ```microbit
+    input.onButtonPressed(Button.A, function () {
 
-  - [ ] Vi må opprette en `variabel` til å ta vare på hvor mange ganger
+  })
+  ```
+
+  - [ ] Vi må opprette en *variabel* til å ta vare på hvor mange ganger
     spilleren berører ståltråden i løpet av spillet. Vi oppretter variabelen
-    `beroering` til dette. Husk det er lurt å unngå `æøå` fordi det fungerer
+    `beroering`{.microbitvariables} til dette. Husk det er lurt å unngå *æøå* fordi det fungerer
     ikke i alle tilfeller.
 
     ![Bilde av hvordan lage en ny variabel](lag_variabel_beroeringer.png)
 
     ![Bilde av hvordan sette variabelnavn](lag_variabel_beroeringer2.png)
 
-    ![Bilde av den ferdige variablen](variabel_beroeringer.png)
+```microbit
+    let beroeringer = 0
+    input.onButtonPressed(Button.A, function () {
+        beroeringer = 0
+    })
+  ```
 
-  - [ ] Legg til at antall `beroeringer` vises etter at `knapp a` er trykket.
+  - [ ] Legg til at antall `beroeringer`{.microbitvariables} vises etter at `knapp a`{.microbitinput} er trykket.
 
-    ![Bilde av koden for å vise antall berøringer](vis_tall_beroeringer.png)
+```microbit
+  let beroeringer = 0
+  input.onButtonPressed(Button.A, function () {
+      beroeringer = 0
+      basic.showNumber(beroeringer)
+  })
+```
 
 
 # Steg 2: Oppdatere berøringene {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] Du skal legge til 1 til variabelen `beroeringer` hver gang kontakt `P0`
+- [ ] Du skal legge til 1 til variabelen `beroeringer`{.microbitvariables} hver gang kontakt P0
   trykkes.
 
-  ![Bilde av når kontakt P0 trykkes](kontakt_p0_trykkes.png)
+```microbit
+  input.onPinPressed(TouchPin.P0, function () {
 
-- [ ] Videre skal vi vise et kryss for 1 sekund hver gang kontakt `P1` trykkes.
+  })
+```
 
-  ![Bilde av koden for et kryss når kontakt P1 trykkes](pin1_bilde.png)
+- [ ] Videre skal vi vise et kryss for 1 sekund hver gang kontakt P1 trykkes.
 
-  ![Bilde av Musikk og spill av tone](pin1_musikk.png)
+```microbit
+input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+})
+```
 
-  ![Bilde av koden for kryss og tone satt sammen](pin1_pause.png)
+```microbit
+  input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    music.playTone(262, music.beat(BeatFraction.Whole))
+})
+```
 
-- [ ] Så må du endre verdien til `beroeringer` med 1.
+```microbit
+input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    basic.pause(500)
+})
+```
 
-  ![Bilde av koden med beroeringer endret med 1](endre_beroeringer.png)
+- [ ] Så må du endre verdien til `beroeringer`{.microbitvariables} med 1.
+
+```microbit
+input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    basic.pause(500)
+    beroeringer += 1
+})
+```
 
 - [ ] Så må vi vise hvor mange ganger vi har berørt.
 
-  ![Bilde av koden for antall å vise antall berøringer](vis_beroeringer.png)
+```microbit
+input.onPinPressed(TouchPin.P1, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    music.playTone(262, music.beat(BeatFraction.Whole))
+    basic.pause(500)
+    beroeringer += 1
+    basic.showNumber(beroeringer)
+})
+```
 
 
 # Steg 3: Bygg spillet {.activity}
@@ -91,16 +170,16 @@ Til dette prosjektet trengs det et par ekstra ting:
 - [ ] Tre løkken i en annen bit ståltråd som du setter i to treklosser med hull
   i.
 
-- [ ] Fest en kabel med ktrokkodilleklyper i `P0` på Microbiten til det ene
-  beinet på `buzzeren` og en annen kabel fra `GND` på Microbiten til det andre
-  beinet på `buzzeren`. *Det har ikke noe å si hvilket bein på buzzeren som
+- [ ] Fest en kabel med ktrokkodilleklyper i P0 på Microbiten til det ene
+  beinet på buzzeren og en annen kabel fra GND på Microbiten til det andre
+  beinet på buzzeren. *Det har ikke noe å si hvilket bein på buzzeren som
   kobles til hvilken kabel på buzzeren*
 
 ![Bilde av to krokodilleklemmer og en buzzer](buzzer.png)
 
-- [ ] Fest en kabel med krokkodilleklyper til `P1` på Microbiten og til
+- [ ] Fest en kabel med krokkodilleklyper til P1 på Microbiten og til
   ståltråden med løkke. Fest en kabel til ståltråden som er festet til
-  treklossene og til `GND` på Microbiten.
+  treklossene og til GND på Microbiten.
 
 ![Bilde av en buzzwire](buzzwire.png)
 
@@ -110,5 +189,5 @@ Til dette prosjektet trengs det et par ekstra ting:
 
 - [ ] Klarer du å endre spillet slik at en starter med 3 liv og for hver gang en
   kommer borte i ståltråden reduseres liv med 1? Tips: Det er mulig å bruke
-  blokken `game over` i kategorien `Spill` for å vise en Game over annimasjon
+  blokken `game over`{.microbitgame} i kategorien `Spill`{.microbitgame} for å vise en Game over annimasjon
   når spilleren mister det siste livet.

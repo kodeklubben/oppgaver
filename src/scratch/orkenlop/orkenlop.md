@@ -198,7 +198,7 @@ __Klikk på det grønne flagget.__
       gå (4) steg
       hvis <berører [kant v]?>
           sett [kappløp v] til [0]
-          spill lyden [Polly v]
+          start lyden [Polly v]
           si [Polly vinner!] i (3) sekunder
       slutt
   slutt
@@ -232,7 +232,7 @@ __Klikk på det grønne flagget.__
       gå (4) steg
       hvis <berører [kant v]?>
           sett [kappløp v] til [0]
-          spill lyden [Polly v]
+          start lyden [Polly v]
           si [Polly vinner! v] i (3) sekunder
           send melding [Avslutt v]
       slutt
@@ -303,10 +303,10 @@ hvis <<(kappløp) = [1]> og <(rakett_brukt) = [0]>>
     bytt drakt til [parrot-rakett v]
     sett [rakett_brukt v] til [1]
     gå (30) steg
-    spill lyden [motorcycle passing v]
+    start lyden [motorcycle passing v]
     hvis <berører [kant v]?>
         sett [kappløp v] til [0]
-        spill lyden [Polly v]
+        start lyden [Polly v]
         si [Polly vinner! v] i (3) sekunder
         send melding [Avslutt v]
     slutt
@@ -357,7 +357,7 @@ som at vi lager vår egen Scratch-kodekloss!
   definer ferdig
   hvis <berører [kant v]?>
       sett [kappløp v] til [0]
-      spill lyden [Polly v]
+      start lyden [Polly v]
       si [Polly vinner! v] i (3) sekunder
       send melding [Avslutt v]
 
@@ -371,7 +371,7 @@ som at vi lager vår egen Scratch-kodekloss!
       bytt drakt til [parrot-rakett v]
       sett [rakett_brukt v] til [1]
       gå (30) steg
-      spill lyden [motorcycle passing v]
+      start lyden [motorcycle passing v]
       ferdig
       bytt drakt til [parrot-a v]
   ```

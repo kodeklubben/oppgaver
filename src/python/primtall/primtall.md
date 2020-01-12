@@ -204,7 +204,7 @@ koden.
   ```python
   (...)
   def is_prime(n):
-      if not (isinstance(n, (int, long)) and n > 1): 
+      if not (isinstance(n, int) and n > 1): 
           return False
       small_primes = [2, 3, 5, 7, 11, 13, 17, 19]
   (...)
@@ -248,7 +248,7 @@ def eratosthenes(upper_limit):
     // din kode her
 
 def is_prime(n, small_primes=[2, 3, 5]):
-    if not (isinstance(n, (int, long)) and n > 1): 
+    if not (isinstance(n, int) and n > 1): 
         return False
     if n in small_primes:
         return True

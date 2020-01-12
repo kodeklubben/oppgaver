@@ -103,7 +103,7 @@ Nå må vi endre i skriptene våre slik at bruker
   `10`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [hastighet v] til [10]
   ```
 
@@ -151,7 +151,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Trykk `Velg et bakgrunnsbilde`
   ![Velg figur fra biblioteket](../bilder/velg-bakgrunn.png) nederst
-  til venstre på skjermen, og trykk så på penselen som dukker opp, for
+  til høyre på skjermen, og trykk så på penselen som dukker opp, for
   å tegne en ny bakgrunn. Pass på at du faktisk tegner en ny
   __bakgrunn__, og ikke en ny figur.
 
@@ -205,13 +205,13 @@ farge.
   allerede har laget som setter `(hastighet)`{.b}-variabelen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [hastighet v] til [10]
-  for alltid
+  gjenta for alltid
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
-          vend høyre (180) grader
+          snu @turnRight (180) grader
       slutt
   slutt
   ```
@@ -238,9 +238,9 @@ En måte vi kan bruke for å begrense hvor en figur kan gå, er å tvinge
 den til å ta et skritt tilbake når den gjør noe feil. I koden
 
 ```blocks
-  vend høyre (180) grader
+  snu @turnRight (180) grader
   gå (hastighet) steg
-  vend høyre (180) grader
+  snu @turnRight (180) grader
 ```
 
 vil figuren først snu seg helt rundt (180 grader), deretter ta et
@@ -284,8 +284,8 @@ litt enklere å lage skriptet på `Skatt`.
 - [ ] Pass på at figuren `Skatt` er markert, og skriv følgende kode:
 
   ```blocks
-  når grønt flagg klikkes
-  for alltid
+  når @greenFlag klikkes
+  gjenta for alltid
       hvis <berører [Utforsker v]?>
           skjul
       slutt
@@ -310,9 +310,9 @@ skatten en gang, forblir skatten borte.
   skriptet på `Skatt` ved å legge til `vis`{.b} helt i begynnelsen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   vis
-  for alltid
+  gjenta for alltid
       hvis <berører [Utforsker v]?>
           skjul
       slutt
@@ -339,14 +339,14 @@ spennende.
   forskjellige):
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [hastighet v] til [10]
   gå til x: (-200) y: (0)
-  for alltid
+  gjenta for alltid
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
-          vend høyre (180) grader
+          snu @turnRight (180) grader
       slutt
   slutt
   ```
@@ -380,8 +380,8 @@ Dette blir veldig likt hvordan `Skatt` merket at den ble funnet.
 - [ ] Legg til følgende kode:
 
   ```blocks
-  når grønt flagg klikkes
-  for alltid
+  når @greenFlag klikkes
+  gjenta for alltid
       hvis <berører [Utforsker v]?>
           si [Tok deg!] i (1) sekunder
           stopp [alle v] :: control
@@ -410,7 +410,7 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
   tallene for `x` og `y` med noe som passer for din labyrint.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   ```
@@ -426,14 +426,14 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
   måte som vi hindrer utforskeren i å gå gjennom veggen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   sett [hastighet v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
       slutt
   slutt
@@ -445,18 +445,18 @@ av og til endre retning.
 - [ ] Legg til kode som lar `Froskekonge` snu seg tilfeldig rundt i labyrinten:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   sett [hastighet v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
       slutt
       hvis <(tilfeldig tall fra (1) til (25)) = [1]>
-          vend høyre ((tilfeldig tall fra (-1) til (1)) * (90)) grader
+          snu @turnRight ((tilfeldig tall fra (-1) til (1)) * (90)) grader
       slutt
   slutt
   ```
@@ -466,7 +466,7 @@ Disse to siste klossene ser litt kompliserte ut. La oss se litt nøyere på dem.
 - [ ] Klossen `hvis <(tilfeldig tall fra (1) til (25)) = [1]>`{.b} sier at
   vi skal gjøre *noe* cirka èn av 25 ganger.
 
-- [ ] Dette *noe* er `vend høyre ((tilfeldig tall fra (-1) til (1)) *
+- [ ] Dette *noe* er `snu @turnRight ((tilfeldig tall fra (-1) til (1)) *
   (90)) grader`{.b}. Tegnet `*` betyr gange, slik at om vi velger
   tilfeldig mellom tallene -1, 0 og 1, betyr det at froskekongen vil
   vende -90, 0 eller 90 grader. Det vil si at den svinger mot venstre,

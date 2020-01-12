@@ -223,7 +223,7 @@ Husker du hva du må gjøre nå?
 Nå må bildet lastes opp, da skriver vi denne kodelinja inni `setup`:
 
 ```processing
-    verdensrommet = loadImage(space.jpg);
+    verdensrommet = loadImage("space.jpg");
 ```
 
 Nå gjenstår bare å fortelle programmet hvordan du vil at bildet skal vises. La

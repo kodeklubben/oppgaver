@@ -8,9 +8,10 @@ language: nb
 # Introduksjon {.intro}
 
 I denne oppgaven skal du lage en ballanimasjon, ved hjelp av det du har lært i
-[oppgaven om enkle objekter](../enkle_objekter/enkle_objekter.html), samt Pygame
-og Pygame Zero. Dersom du ikke husker objekter, kan du [gå
-tilbake](../enkle_objekter/enkle_objekter.html) og raskt repetere.
+[oppgaven om enkle objekter](https://oppgaver.kidsakoder.no/python/enkle_objekter/enkle_objekter)
+, samt Pygame og Pygame Zero. Dersom du ikke husker objekter, kan du 
+[gå tilbake](https://oppgaver.kidsakoder.no/python/enkle_objekter/enkle_objekter)
+og raskt repetere.
 
 
 # Steg 0: Installere Pygame Zero {.activity}
@@ -52,8 +53,12 @@ før du prøver `sudo pip install pgzero` igjen.
 - [ ] Lag et nytt python-program med følgende kode:
 
 ```python
+import pgzrun
+
 HEIGHT = 400
 WIDTH = 600
+
+pgzrun.go()
 ```
 
 - [ ] Kjør programmet, og se hva som skjer. Du skal nå se et svart vindu som er

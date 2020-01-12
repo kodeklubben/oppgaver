@@ -95,7 +95,7 @@ Nå skal vi altså rotere Hattulf rundt origo på en ganske enkel måte.
   ```blocks
   når [pil høyre v] trykkes
   gå (200) steg
-  vend høyre (90) grader
+  snu @turnRight (90) grader
   ```
 
 ## Test prosjektet {.flag}

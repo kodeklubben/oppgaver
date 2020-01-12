@@ -104,8 +104,7 @@ mellom taggene vil bli synlig som en link.
 ## Aktiviteter {.check}
 
 - [ ] Installer **X-Ray Goggles** ved å trekke linken <a
-  href="javascript:(function () {var
-  script=document.createElement('script');script.src='https://goggles.mozilla.org'+'/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.mozilla.org');document.body.appendChild(script);}())">X-Ray
+  href="javascript:(function () {var script=document.createElement('script');script.src='https://goggles.mozilla.org'+'/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.mozilla.org');document.body.appendChild(script);}())">X-Ray
   Goggles</a> til din bokmerkerad
 
 - [ ] Åpne filen `side.html` fra [internett.zip](internett.zip)

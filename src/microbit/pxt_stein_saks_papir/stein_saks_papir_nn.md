@@ -1,6 +1,6 @@
 ---
 title: "PXT: Stein, saks, papir"
-author: Bjørn Hamre
+author: Bjørn Hamre, Julie Christina Revdahl
 translator: Stein Olav Romslo
 language: nn
 ---
@@ -21,29 +21,35 @@ variabel.*
 ## Sjekkliste {.check}
 
 - [ ] Start eit nytt PXT-prosjekt, til dømes ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no).
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
 - [ ] Micro:biten skal velje eit tilfeldig tal når du ristar på den. For å gjere
-  det skal du bruke `når ristes`-klossen som du finn i kategorien `Inndata`.
+  det skal du bruke `når ristes`{.microbitinput}-klossen som du finn i kategorien `Inndata`{.microbitinput}.
 
-- [ ] Klikk på `Variabler`-kategorien og så på knappen `Lag en variabel`. Gi den
-  nye variabelen namnet `trekk` og klikk `OK`. Då ser du at det dukkar opp ein
-  kloss som heiter `trekk` i `Variabler`-kategorien.
+- [ ] Klikk på `Variabler`{.microbitvariables}-kategorien og så på knappen `Lag en variabel`{.microbitvariables}. Gi den
+  nye variabelen namnet `trekk`{.microbitvariables} og klikk `OK`{.microbitvariables}. Då ser du at det dukkar opp ein
+  kloss som heiter `trekk`{.microbitvariables} i `Variabler`{.microbitvariables}-kategorien.
 
-- [ ] Ta `sett variabel til 0`-klossen og plasser denne inne i `når
-  ristes`-klossen. Trykk på den vesle pila bak `variabel` og endre til den nye
-  variabelen du laga - `trekk`.
+- [ ] Ta `sett variabel til 0`{.microbitvariables}-klossen og plasser denne inne i `når
+  ristes`{.microbitinput}-klossen. Trykk på den vesle pila bak `variabel`{.microbitvariables} og endre til den nye
+  variabelen du laga - `trekk`{.microbitvariables}.
 
 - [ ] For å få micro:biten til å lage eit nytt tilfeldig tal kvar gong me
-  speler, så kan du bruke klossen `plukk et tilfeldig tall mellom 0 og 4` i
-  `Matematikk`-kategorien. Kople den saman med `sett trekk til`-klossen i staden
-  for talet `0`.
+  speler, så kan du bruke klossen `velg tilfeldig 0 til 4`{.microbitmath} i
+  `Matematikk`{.microbitmath}-kategorien. Kople den saman med `sett trekk til`{.microbitvariables}-klossen i staden
+  for talet `0`{.microbitvariables}.
 
-- [ ] Du kan sjå kva tal som vart valt ved å bruke `Basis`-klossen `vis tall 0`
-  og bytte ut `0` med variabelen `trekk`. Denne set du saman med dei andre
+- [ ] Du kan sjå kva tal som vart valt ved å bruke `Basis`{.microbitbasic}-klossen `vis tall 0`{.microbitbasic}
+  og bytte ut `0`{.microbitbasic} med variabelen `trekk`{.microbitvariables}. Denne set du saman med dei andre
   klossane så programmet ditt ser slik ut:
 
-  ![Bilete av koden som gir eit tilfeldig tal mellom 0 og 4](variabel_trekk.png)
+  ```microbit
+  let trekk = 0
+  input.onGesture(Gesture.Shake, function () {
+    trekk = Math.randomRange(0, 4)
+    basic.showNumber(trekk)
+  })
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -77,28 +83,42 @@ Det er to ulike måtar du kan reste micro:bit-program på:
 
 - [ ] Det er berre tre moglege trekk å velje mellom i stein, saks, papir. Sidan
   klossen som vel eit tilfeldig tal startar å telje på null, så endrar me til at
-  den skal velje eit tal mellom `0` og `2`.
+  den skal velje eit tal mellom 0 og 2.
 
-- [ ] Variabelen `trekk` skal no ha ein av verdiane `0`, `1` eller `2`. La `0`
-  vere stein, `1` vere saks og `2` vere papir.
+- [ ] Variabelen `trekk`{.microbitvariables} skal no ha ein av verdiane 0, 1 eller 2. La 0
+  vere stein, 1 vere saks og 2 vere papir.
 
 - [ ] Du skal teikne ulike bilete på skjermen, avhengig av kva tal som vart
-  valt. Start med ein `hvis`-kloss frå kategorien `Logikk`. Plasser den nedst
-  inne i `når ristes`-klossen. For å samanlikne to tal treng du `0 = 0`-klossen.
-  Denne erstattar `sann` i øvste del av `hvis`-klossen.
+  valt. Start med ein `hvis`{.microbitlogic}-kloss frå kategorien `Logikk`{.microbitlogic}. Plasser den nedst
+  inne i `når ristes`{.microbitinput}-klossen. For å samanlikne to tal treng du `0 = 0`{.microbitlogic}-klossen.
+  Denne erstattar `sann`{.microbitlogic} i øvste del av `hvis`{.microbitlogic}-klossen.
 
-- [ ] Du skal samanlikne og sjå om variabelen `trekk` er lik `0`. For å få til
-  det må du klikke på kategorien `Variabler` og erstatte det venstre `0`-talet i
-  `0 = 0`-klossen med variabelen `trekk`.
+- [ ] Du skal samanlikne og sjå om variabelen `trekk`{.microbitvariables} er lik 0. For å få til
+  det må du klikke på kategorien `Variabler`{.microbitvariables} og erstatte det venstre `0`{.microbitlogic}-talet i
+  `0 = 0`{.microbitlogic}-klossen med variabelen `trekk`{.microbitvariables}.
 
-- [ ] Viss variabelen `trekk` inneheldt verdien `0` vil du teikne eit bilete av
-  ein stein. Vel klossen `vis bilde` frå `Basis`-kategorien og plasser den inne
-  i `hvis`-klossen.
+- [ ] Viss variabelen `trekk`{.microbitvariables} inneheldt verdien 0 vil du teikne eit bilete av
+  ein stein. Vel klossen `vis bilde`{.microbitbasic} frå `Basis`{.microbitbasic}-kategorien og plasser den inne
+  i `hvis`{.microbitlogic}-klossen.
 
 - [ ] Klikk på dei midterste lampene på biletet. Det er dei som skal tennast når
   du skal vise bilete av ein stein. Nå bør programmet sjå slik ut:
 
-  ![Bilete av koden for å teikne ein stein](tegne_stein.png)
+  ```microbit
+  input.onGesture(Gesture.Shake, function () {
+    trekk = Math.randomRange(0, 2)
+    basic.showNumber(trekk)
+    if (trekk == 0) {
+        basic.showLeds(`
+            . . # . .
+            . # # # .
+            # # # # #
+            . # # # .
+            . . # . .
+            `)
+    }
+  })
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -113,28 +133,47 @@ No skal du teste programmet ditt ved å trykkje på den kvite `SHAKE`-knappen.
 
 # Steg 3: Vise saks {.activity}
 
-*Teikn saks når talet `1` blir valt.*
+*Teikn saks når talet 1 blir valt.*
 
 ## Sjekkliste {.check}
 
-- [ ] Du treng ein ny `hvis`-kloss for å teikne ei saks når talet 1 er valt.
-  Denne plasserast rett under den førre `hvis`-klossen.
+- [ ] Du treng ein ny `hvis`{.microbitlogic}-kloss for å teikne ei saks når talet 1 er valt.
+  Denne plasserast rett under den førre `hvis`{.microbitlogic}-klossen.
 
-- [ ] På same måte som du gjorde med stein, så skal du bruke ein `0 = 0`-kloss,
-  men erstatte det venstre `0`-talet med variabelen `trekk`.
+- [ ] På same måte som du gjorde med stein, så skal du bruke ein `0 = 0`{.microbitlogic}-kloss,
+  men erstatte det venstre `0`{.microbitlogic}-talet med variabelen `trekk`{.microbitvariables}.
 
-- [ ] Du skal vise ei saks når variabelen `trekk` inneheldt talet `1`, så
-  erstatt det høgre `0`-talet med eit `1`-tal. No ser programmet slik ut:
+- [ ] Du skal vise ei saks når variabelen `trekk`{.microbitvariables} inneheldt talet 1, så
+  erstatt det høgre `0`{.microbitlogic}-talet med eit `1`{.microbitlogic}-tal. No ser programmet slik ut:
 
-  ![Bilete av ein ny variabel kalla saks](tegne_saks-1.png)
+  ```microbit
+  input.onGesture(Gesture.Shake, function () {
+      trekk = Math.randomRange(0, 2)
+      basic.showNumber(trekk)
+      if (trekk == 0) {
+          basic.showLeds(`
+              . . # . .
+              . # # # .
+              # # # # #
+              . # # # .
+              . . # . .
+              `)
+      }
+      if (trekk == 1) {
+
+      }
+  })
+  ```
 
 - [ ] Det finst eit ferdig bilete av ei saks som du kan bruke. Gå til kategorien
-  `Basis` og dra klossen `vis ikon` inn i `hvis`-klossen du jobbar med no.
+  `Basis`{.microbitbasic} og dra klossen `vis ikon`{.microbitbasic} inn i `hvis`{.microbitlogic}-klossen du jobbar med no.
 
 - [ ] Ikonet har ei lita pil oppe i høgre hjørne. Trykk på den, og sjå at du får
   opp eit vindauge med mange ferdige ikon. Vel ikonet som liknar på ei saks:
 
-  ![Bilete av ikonet for ei saks](saks.png)
+  ```microbit
+  basic.showIcon(IconNames.Scissors)
+  ```
 
 ## Test prosjektet {.flag}
 
@@ -145,21 +184,48 @@ opp talet `2` viss det er det som er valt.
 
 # Steg 4: Vise papir {.activity}
 
-*Å teikne papir når variabelen `trekk` har verdien `2` blir veldig likt det du
+*Å teikne papir når variabelen* `trekk`{.microbitvariables} *har verdien 2 blir veldig likt det du
 gjorde for steinen tidlegare.*
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til ein `hvis`-kloss under dei to andre `hvis`-klossane.
+- [ ] Legg til ein `hvis`{.microbitlogic}-kloss under dei to andre `hvis`{.microbitlogic}-klossane.
 
-- [ ] Bruk ein `0 = 0`-kloss og endre slik at det blir til `trekk = 2`.
+- [ ] Bruk ein `0 = 0`{.microbitlogic}-kloss og endre slik at det blir til `trekk = 2`{.microbitlogic}.
 
-- [ ] Inne i `hvis`-klossen plasserer du klossen `vis bilde` frå
-  `Basis`-kategorien og klikkar på alle lysa i klossen.
+- [ ] Inne i `hvis`{.microbitlogic}-klossen plasserer du klossen `vis bilde`{.microbitbasic} frå
+  `Basis`{.microbitbasic}-kategorien og klikkar på alle lysa i klossen.
 
 - [ ] Det ferdige programmet skal sjå slik ut:
 
-  ![Bilete av det ferdige stein-saks-papir-programmet](ssp_ferdig.png)
+```microbit
+let trekk = 0
+input.onGesture(Gesture.Shake, function () {
+  trekk = Math.randomRange(0, 2)
+  basic.showNumber(trekk)
+  if (trekk == 0) {
+      basic.showLeds(`
+          . . # . .
+          . # # # .
+          # # # # #
+          . # # # .
+          . . # . .
+          `)
+  }
+  if (trekk == 1) {
+      basic.showIcon(IconNames.Scissors)
+  }
+  if (trekk == 2) {
+      basic.showLeds(`
+          # # # # #
+          # # # # #
+          # # # # #
+          # # # # #
+          # # # # #
+          `)
+  }
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -180,23 +246,26 @@ eller om det same talet vart valt to gonger på rad.*
 
 ## Sjekkliste {.check}
 
-- [ ] Gå til kategorien `Inndata` og vel klossen `når knapp A trykkes`. Dra
+- [ ] Gå til kategorien `Inndata`{.microbitinput} og vel klossen `når knapp A trykkes`{.microbitinput}. Dra
   denne over til den delen av sida du programmerer på, og plasser den for seg
   sjølv. Den skal ikkje henge saman med nokon av dei andre klossane.
 
-- [ ] Inne i `når knapp A trykkes`-klossen legg du klossen `tøm skjerm`. Når
-  `A`-knappen blir trykka skal micro:biten slå av alle lysa slik at den er klar
+- [ ] Inne i `når knapp A trykkes`{.microbitinput}-klossen legg du klossen `tøm skjerm`{.microbitbasic}. Når
+  `A`{.microbitinput}-knappen blir trykka skal micro:biten slå av alle lysa slik at den er klar
   til eit nytt spel.
 
 - [ ] Den nye programklossen ser slik ut:
-
-  ![Bilete av korleis tømme skjermen mellom kvart spel](nullstill.png)
+```microbit
+input.onButtonPressed(Button.A, function () {
+    basic.clearScreen()
+})
+```
 
 
 # Vidare arbeid {.activity}
 
 - [ ] Viss du ikkje vil sjå talet på skjermen før du teiknar biletet, så kan du
-  fjerne `vis tall 'trekk'`-klossen mei la inn i steg 1.
+  fjerne `vis tall 'trekk'`{.microbitbasic}-klossen mei la inn i steg 1.
 
 - [ ] Last ned programmet til di eiga datamaskin. Hugs å gi fila eit godt namn.
 

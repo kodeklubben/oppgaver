@@ -13,11 +13,10 @@ størrelsen på bokstavene og telle ord.
 I Python lagrer vi tekst til en **variabel** slik som dette:
 
 ```python
-streng = "teksten er her"
+tekst = "teksten er her"
 ```
 
-Variabelen kalles da **tekststreng** eller bare **streng**, som er typen til
-variabelen.
+Variabelen kalles da av typen **tekst**.
 
 
 # Store og små bokstaver {.activity}
@@ -29,8 +28,8 @@ flere slike funksjoner. Gitt at vi har tekst i en variabel kalt `s`, så kan vi
 bruke disse funksjonene: `s.lower()`, `s.upper()`, `s.title()`, `s.swapcase()`
 og `s.capitalize()`.
 
-Legg merke til at funksjonen kalles **på** strengen - `s.lower()` - istedenfor å
-**gi** strengen til funksjonen - `lower(s)`.
+Legg merke til at funksjonen kalles **på** tekstvariabelen - `s.lower()` - i
+stedet for å **gi** tekstvariabelen til funksjonen - `lower(s)`.
 
 Her er noen eksempler på hvordan funksjonene brukes (legg merke til hvilke
 bokstaver som er store og små i utskriften):
@@ -130,9 +129,9 @@ Dette må du gjøre:
 
 - [ ] Lagre filmtittelen i en variabel.
 
-- [ ] Manipuler strengen slik at resultatet blir som beskrevet over.
+- [ ] Manipuler teksten slik at resultatet blir som beskrevet over.
 
-- [ ] Skriv ut den nye strengen.
+- [ ] Skriv ut den nye teksten.
 
 
 # Telling av tekst {.activity}
@@ -140,9 +139,9 @@ Dette må du gjøre:
 
 # {.protip}
 
-Ved hjelp av `s.count()` kan vi finne ut om en streng inneholder en bestemt
-tekst og hvor mange ganger den finnes i strengen. For eksempel så inneholder
-strengen `"Hei verden!"` teksten `"verden"` en gang.
+Ved hjelp av `s.count()` kan vi finne ut om en tekst inneholder et bestemt ord
+eller tegn og hvor mange ganger det finnes i teksten. For eksempel så inneholder
+`"Hei verden!"` ordet `"verden"` én gang.
 
 Tenk deg at du ønsker å finne ut hvor mange kommaer som er i `"A, B, C, D, E, F,
 G, H, I, J, K, L"`. Det er enkelt å telle for hånd, men ikke like gøy som å la
@@ -177,7 +176,7 @@ Slik skal programmet se ut:
 
 <pre>
 >>>
-Skriv inn en streng: <font color="green">Hei på deg</font>
+Skriv inn en tekst: <font color="green">Hei på deg</font>
 Du skrev inn 3 ord.
 </pre>
 
@@ -199,7 +198,7 @@ Dette må du gjøre:
 
 # {.protip}
 
-Vi kan bruke `s.replace()` for å bytte ut tekst i en streng med en annen tekst.
+Vi kan bruke `s.replace()` for å bytte ut tekst i en tekstvariabel med en annen tekst.
 Hva om vi vil bytte ut alle kommaer med semikolon?
 
 ```python
@@ -209,7 +208,7 @@ Hva om vi vil bytte ut alle kommaer med semikolon?
 'A; B; C; D; E; F; G; H; I; J; K; L'
 ```
 
-Her får `s.replace()` to argumenter - først teksten vi skal erstatte i strengen
+Her får `s.replace()` to argumenter - først teksten vi skal erstatte i tekstvariabelen
 `s`, og så teksten vi skal erstatte med. Vi kan også bruke `s.replace()` for å
 fjerne tekst. Vi kan for eksempel fjerne alle mellomrom:
 
