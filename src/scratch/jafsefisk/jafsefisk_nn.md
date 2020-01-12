@@ -57,14 +57,14 @@ __Klikk på det grøne flagget.__
 - [ ] Flytt musepeikaren rundt i sjøen. Følgjer fisken etter?
 
 - [ ] Kva skjer viss du ikkje flyttar musepeikaren og fisken når den att?
-
-- [ ] Korleis ser den ut? Kvifor gjer den dette?
+  Korleis ser den ut? Kvifor gjer den dette?
 
 ## Sjekkliste {.check}
 
-- [ ] Du kan stoppe den maniske flippinga til Jafsefisk viss du syt for at den
-  berre flyttar seg når den ikkje er for nær musepeikaren (`avstand til
-  [musepeikar v]`{.b} ligg i `Sansing`{.blocksensing}-kategorien).
+- [ ] Du kan stoppe flippinga til Jafsefisk viss du syt for at den berre
+  flyttar seg når den ikkje er for nær musepeikaren
+  (`avstand til [musepeikar v]`{.b} ligg i
+  `Sansing`{.blocksensing}-kategorien).
 
   ```blocks
   når @greenFlag vert trykt på
@@ -148,6 +148,7 @@ lita stund seinare.
 
   ```blocks
   når @greenFlag vert trykt på
+  vis
   for alltid
       gå (2) steg
       snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
@@ -183,6 +184,8 @@ byttedyret er borti det kvite på tennene til Jafsefisk.*
   dukkar opp att. Bruk `gå til x: (tilfeldig tal frå (-220) til (220)) y:
   (tilfeldig tal frå (-170) til (170))`{.b} for å gi tilfeldige koordinatar for
   `x` og `y`.
+
+Slik skal skriptet til byttedyret sjå ut:
 
   ```blocks
   når @greenFlag vert trykt på
