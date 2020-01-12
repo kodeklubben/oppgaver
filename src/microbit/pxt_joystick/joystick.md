@@ -21,8 +21,9 @@ For å koble til joystick-en trenger vi noe ekstra utstyr:
 * 1 rød ledning med kontakt (hull) i begge ender. 
 * 1 blå ledning med kontakt (hull) i begge ender.
 * 1 svart ledning med kontakt (hull) i begge ender.
-* 1 [koblingsbrett](https://kodegenet.no/shop/product/microbit_edge_connector){target=_blank}.
-* 1 [analog joystick](https://kodegenet.no/shop/product/joystick_analog){target=_blank}.
+* 1 [koblingsbrett](https://kodegenet.no/shop/product/microbit_edge_connector)
+{target=_blank} slik at vi kan bruke alle tilkoblingsmuligheter micro:biten har.
+* 1 [analog joystick](https://kodegenet.no/shop/product/joystick_analog){target=_blank}
 
     ![Bilde av ledninger](ledninger.png)
 
@@ -70,7 +71,9 @@ står rett opp.
 `sprite`-kloss fra `Spill`-kategorien. Plasser `spiller` midt på 
 micro:bit-en, dvs i posisjon 2,2.
 
- ![Bilde som viser hvordan vi kan styre spriten](lag_spiller.png)
+```microbit
+let spiller = game.createSprite(2, 2)
+```
 
 - [ ] Lag en variabel som heter `lesX` og en som heter `lesY`.
 
@@ -103,8 +106,24 @@ beveger seg for fort.
 
  - [ ] Koden burde nå se slik ut:
 
- ![Bilde som viser hvordan vi kan styre spriten](joystick_kode.png)
-
+```microbit
+basic.forever(function () {
+    lesX = pins.analogReadPin(AnalogPin.P0)
+    lesY = pins.analogReadPin(AnalogPin.P1)
+    if (lesX < 300) {
+        spiller.change(LedSpriteProperty.X, -1)
+    }
+    if (lesX > 700) {
+        spiller.change(LedSpriteProperty.X, 1)
+    }
+    if (lesY < 300) {
+        spiller.change(LedSpriteProperty.X, 1)
+    }
+    if (lesY > 700) {
+        spiller.change(LedSpriteProperty.X, -1)
+    }
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -128,6 +147,6 @@ er noen ideer til videreutvikling, men finn gjerne på noe helt eget!
 - [ ] Kan du få Spilleren til å kun bevege seg lodrett eller vannrett? 
 
 - [ ] Kan du bruke joystick-en i et annet micro:bit prosjekt, for eksempel
-["Det regner mat"](https://oppgaver.kidsakoder.no/microbit/pxt_det_regner_mat/det_regner_mat){target=_blank}?
+[Det regner mat](https://oppgaver.kidsakoder.no/microbit/pxt_det_regner_mat/det_regner_mat){target=_blank}
 
 
