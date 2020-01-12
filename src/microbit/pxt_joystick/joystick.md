@@ -21,8 +21,7 @@ For å koble til joystick-en trenger vi noe ekstra utstyr:
 * 1 rød ledning med kontakt (hull) i begge ender. 
 * 1 blå ledning med kontakt (hull) i begge ender.
 * 1 svart ledning med kontakt (hull) i begge ender.
-* 1 [koblingsbrett](https://kodegenet.no/shop/product/microbit_edge_connector)
-{target=_blank} slik at vi kan bruke alle tilkoblingsmuligheter micro:biten har.
+* 1 [koblingsbrett](https://kodegenet.no/shop/product/microbit_edge_connector){target=_blank} slik at vi kan bruke alle tilkoblingsmuligheter micro:biten har.
 * 1 [analog joystick](https://kodegenet.no/shop/product/joystick_analog){target=_blank}
 
     ![Bilde av ledninger](ledninger.png)
