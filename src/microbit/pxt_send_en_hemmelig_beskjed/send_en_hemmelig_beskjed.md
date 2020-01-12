@@ -29,7 +29,6 @@ deg.
 ```microbit
 radio.setGroup(42)
 ```
-![Bilde som viser radio sett gruppe til 42 kloss inni ved start klossen](radiogruppe.png)
 
 
 # Steg 2: Send en hemmelig beskjed {.activity}
@@ -50,7 +49,6 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-![Bilde som viser at når A trykkes så skal radio sende teksten "Hemmelig beskjed"](hemmelig_beskjed.png)
 
 ### OBS! {.protip}
 
@@ -72,7 +70,7 @@ radio.onReceivedString(function (receivedString) {
 
 })
 ```
-![Bilde som viser når radio mottar recievedString klossen](naar_radio_mottar.png)
+
 
 "RecievedString" betyr "Mottatt tekst" på norsk, og beskjeden som mottas blir
 lagret i klossen som heter dette.
@@ -88,7 +86,7 @@ radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
 })
 ```
-![Bilde som viser vis tekst recieved string klossen inni når radio mottar recievedString klossen](vis_mottat_beskjed.png)
+
 
 ## Test prosjektet {.flag}
 

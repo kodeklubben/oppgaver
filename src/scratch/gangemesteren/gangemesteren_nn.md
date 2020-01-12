@@ -265,7 +265,7 @@ ut at svaret er **12**.
 
     ```blocks
     når eg får meldinga [Tegn hjelper v]
-    slett
+    slett alt
     set storleik til (20)%
     vis
     set y til (140)
