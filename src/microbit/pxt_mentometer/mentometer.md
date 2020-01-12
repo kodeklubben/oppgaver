@@ -31,7 +31,11 @@ legge inn `radio send serienummer` til `sann` inne i `start`-blokken.
 Til sist kan du la micro:biten vise et hyggelig ikon. for eksempel et 
 hjerte.
 
-	![Bilde av start kloss](start_mentometer.png)
+```microbit
+radio.setGroup(1)
+radio.setTransmitSerialNumber(true)
+basic.showIcon(IconNames.Heart)
+```
 
 - [ ] Du kan stemme `Ja` ved å trykke på A-knappen. Dette gjør vi ved
 å be micro:biten sende verdien `255` i en `radio send tall`-kloss fra 
@@ -40,8 +44,12 @@ lyse opp en led med full lysstyrke. Til slutt inne i
 `når knapp A trykkes`-klossen kan du legge inn et ikon som viser at du 
 har stemt ja.
 
-	![Bilde av ja-kloss](stem_ja.png)
-
+```microbit
+input.onButtonPressed(Button.A, function () {
+    radio.sendNumber(255)
+    basic.showIcon(IconNames.Yes)
+})
+```
 - [ ] Du kan stemme `Nei` ved å trykke på B-knappen. Dette gjør vi ved
 å be micro:biten sende verdien `0` i en `radio send tall`-kloss fra 
 `Radio`-kategorien når vi tykker på denne knappen. Da vil mentometert 
@@ -49,7 +57,12 @@ lyse opp en led med null lysstyrke. Til slutt inne i
 `når knapp B trykkes`-klossen kan du legge inn et ikon som viser at du 
 har stemt nei.
 
-	![Bilde av nei-kloss](stem_nei.png)
+```microbit
+input.onButtonPressed(Button.B, function () {
+    radio.sendNumber(255)
+    basic.showIcon(IconNames.No)
+})
+```
 
 - [ ] Lagre denne koden og kall den for eksempel `stemmebrikke`. 
 
@@ -71,7 +84,10 @@ inne i `start`-klossen. Da blir variabelen `velger` en liste vi kan fylle opp
 med serienummer til micro:bitene som sender inn stemmer, og slik kan vi holde 
 styr på hvem som har stemt. Du må også sette radio-gruppe til `4`.  
 
-	![Bilde av start-klossen](start.png)
+```microbit
+radio.setGroup(1)
+let velger = []
+```
  
 - [ ] For å registrere stemmer, kan vi lage en ny funksjon som heter 
 `Registrer stemme`. Den må ha to parametre som heter `styrke` og `id`. 
@@ -115,7 +131,18 @@ er `1`, `6`, `11` etc. Dette får vi til ved å sette `ledY` til
  ved å bruke en `tenn`-kloss fra `skjerm`-kategorien. Nå er funksjonen
 `RegistrerStemme` ferdig, og den ser slik ut:
 
-	![Bilde av registrer stemme funksjonen](registrer_stemme.png) 
+```microbit
+function RegistrerStemme (styrke: number, id: number) {
+    velgerindeks = velger.indexOf(id)
+    if (velgerindeks < 0) {
+        velger.push(id)
+        velgerindeks = velger.indexOf(id)
+    }
+    ledX = Math.floor(velgerindeks / 5)
+    ledY = 4 - (velgerindeks - ledX * 5)
+    led.plotBrightness(ledX, ledY, styrke)
+}
+```
 
  - [ ] Nå kan vi kalle på funksjonen `RegistrerStemme` inne i en 
 `når radio mottar receviedNumber`-kloss fra `Radio`-kategorien. 
@@ -124,7 +151,11 @@ Vi må da sende med `receviedNumber` og
 stemme-brikken har sendt mens `recieved packet serial number` er 
 stemme-brikken sitt serienummer.
 
-	![Bilde av når radi mottar-klossen](motta_stemmer.png) 
+```microbit
+radio.onReceivedNumber(function (receivedNumber) {
+    RegistrerStemme(receivedNumber, radio.receivedPacket(RadioPacketProperty.SerialNumber))
+})
+```
 
 - [ ] For å slette alle de mottatte stemmene, kan vi f.eks. bruke knapp `B`. 
 Da må vi gå gjennom lista `velger` og slukke alle LED-lys som er tatt i bruk.
@@ -134,9 +165,19 @@ inn en `gjenta for indeks fra 0 til`-kloss og legger inn en
 LED-ene en etter en ved å bruke samme aloritme som i 
 `RegisterStemmer`-funksjonen. Koden ser slik ut:
 
-	![Bilde av slett stemmer funksjonen](slett_stemmer.png) 
+```microbit
+function SlettStemmer () {
+    for (let indeks = 0; indeks <= velger.length; indeks++) {
+        ledX = Math.floor(velgerindeks / 5)
+        ledY = 4 - (velgerindeks - ledX * 5)
+    }
+    led.unplot(ledX, ledY)
+}
 
-	![Bilde av når knapp B trykkes-klossen](knappB.png) 
+input.onButtonPressed(Button.B, function () {
+    SlettStemmer()
+})
+```
 
 - [ ] For å slette alle velgere, kan vi f.eks. bruke knapp `A+B`. 
 da kan vi først gjenbruke funksjonen `SlettStemmer`. Deretter setter vi
@@ -175,8 +216,4 @@ stemmer nei?
 
 - [ ] Kan du telle opp antall ja- og nei stemmer og sende til stemme-brikkene
 og få stemme-brikkene til å motta disse to tallene og vise resultatet?
-
-
-
-
 
