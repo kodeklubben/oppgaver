@@ -20,9 +20,7 @@ Flakse flygande og prøve å styre mellom røra.
 
 ## Sjekkliste {.check}
 
-- [ ] Start eit nytt Scratch-prosjekt. Slett katten ved å høgreklikke på den
-  og vel `Slett`. Alternativt kan du klikke på saksa i topplinja, og så på
-  katten.
+- [ ] Start eit nytt Scratch-prosjekt. Slett katten ved å klikke på søppelkassen.
 
 - [ ] Byt ut bakgrunnen med eit landskap. `Desert` er eit bra val.
 
@@ -143,7 +141,7 @@ __Klikk det grøne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til ein ny figur ved å klikke på *Teikne ny figur*-knappen,
+- [ ] Legg til ein ny figur ved å klikke på *Teikn*-knappen,
   ![Teikne ny figur](../bilder/tegn-ny.png).
 
 - [ ] Viss det står `Punktgrafikk` nede til høgre, må du klikke på `Byt til
@@ -151,8 +149,8 @@ __Klikk det grøne flagget.__
 
 - [ ] Klikk på `Zoom -` slik at du kan sjå heile teikneområdet.
 
-- [ ] Klikk på `Rektangel`, vel ei farge og klikk på `Fylt rektangel`-knappen
-  nedst til venstre.
+- [ ] Klikk på `Rektangel`, vel ei farge ved å klikke på `Fyll`-knappen
+  øvst til venstre.
 
 - [ ] Klikk og dra to boksar, ein frå toppen og ein frå botnen, i midten av
   teikneområdet. Det skal sjå omlag slik ut:

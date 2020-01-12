@@ -151,7 +151,7 @@ __Klikk på det grønne flagget.__
 
 - [ ] Trykk `Velg et bakgrunnsbilde`
   ![Velg figur fra biblioteket](../bilder/velg-bakgrunn.png) nederst
-  til venstre på skjermen, og trykk så på penselen som dukker opp, for
+  til høyre på skjermen, og trykk så på penselen som dukker opp, for
   å tegne en ny bakgrunn. Pass på at du faktisk tegner en ny
   __bakgrunn__, og ikke en ny figur.
 

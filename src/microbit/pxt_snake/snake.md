@@ -133,7 +133,7 @@ du trenger ikke bry deg med om f.eks. noen variabler flytter litt rundt på seg.
 - [ ] Nå skal vi lage en funksjon som oppdaterer `snake`. Får å få til dette må
   vi skrive litt javascript. Lag først fuksjonen `updateSnake()`.
 
-```javascript
+```microbit
 function updateSnake(){
 }
 ```
@@ -141,7 +141,7 @@ function updateSnake(){
 - [ ] Først i funksjonen henter vi ut "hodet" til slangen dvs. det første
   punktet, `x`- og `y`-koordinater, i fra `snake`.
 
-```javascript
+```microbit
 	x = snake[0]
 	y = snake[1]
 ```
@@ -150,7 +150,7 @@ function updateSnake(){
   en på `y` hvis `down`,  trekke fra en på `x` hvis `left` og plusse på en på
   `x` hvis `right`.
 
-```javascript
+```microbit
     if (direction == 'up') {
         y = y - 1;
     }
@@ -169,7 +169,7 @@ function updateSnake(){
   funksjonen `unshift()` og fjerne et punkt (to verdier, x og y)  fra halen med
   funksjonen `pop()`, slik at slangen beveger seg et hakk
 
-```javascript
+```microbit
     snake.unshift(y);
     snake.unshift(x);
     snake.pop();
@@ -178,7 +178,7 @@ function updateSnake(){
 
 - [ ] Til slutt legger vi til et kall til `updateSnake()` i `forever()`
 
-```javascript
+```microbit
 basic.forever(function () {
     drawSnake();
     updateSnake();
@@ -199,7 +199,7 @@ __Prøv koden i simulatoren for å teste koden så langt.__
   rekke midt på skjermen. Det er fordi vi aldri skrur  av ledlyset der slangen
   har vært. Vi legger til en funksjon til i `forever()`:
 
-```javascript
+```microbit
 basic.forever(function () {
 	basic.clearScreen();
 	drawSnake();
@@ -215,7 +215,7 @@ basic.forever(function () {
   kanskje hva som  er problemet? Det går for fort! La oss legge inn en liten
   pause:
 
-```javascript
+```microbit
 basic.forever(function () {
 	basic.clearScreen();
 	drawSnake();
@@ -264,7 +264,7 @@ slangen 90 grader mot høyre.
   `down` , osv. Og motsatt for B kanppen.  Hvis vi ikke er i `isPlaying`-modus
   så må vi skru den på.
 
-```javascript
+```microbit
 input.onButtonPressed(Button.A, function () {
     if (isPlaying) {
         if (direction == 'up') {
@@ -318,7 +318,7 @@ siden slangen på denne måten går gjennom seg selv og det blir bare tull.
 
 - [ ] Endre begge `onButtonPressed` funksjonene med følgende kode
 
-```javascript
+```microbit
 input.onButtonPressed(Button.A, function () {
     if (isPlaying) {
         if (buttonPressed) {
@@ -351,7 +351,7 @@ selvfølgelig ikke være lov!
   slange og retning tilbake til utgangspunktet  ved start. Så venter vi litt før
   vi setter "snake"-ikonet som i startskjermen.
 
-```javascript
+```microbit
 function checkGameOver(x: number, y: number) {
     if(x < 0 || x > 4 || y < 0 || y > 4)
     {
@@ -382,7 +382,7 @@ __På tide å prøve spillet på micro:bit__
   denne kodelinjen i begynnelsen av `updateSnake()`.  Den spiller noten C, femte
   oktav i 20 ms som blir et fint lite blip.
 
-```javascript
+```microbit
     music.playTone(Note.C5, 20)
 ```
 
@@ -391,7 +391,7 @@ __På tide å prøve spillet på micro:bit__
   **Funeral** passer kanskje best? Legg til denne kodelinjen i `checkGameOver()`
   rett før du viser hodeskallen.
 
-```javascript
+```microbit
     music.beginMelody(music.builtInMelody(Melodies.Wawawawaa), MelodyOptions.Once);
 ```
 
@@ -412,14 +412,14 @@ et tilfeldig sted, men vi må passe på at det ikke er på slangen. Slik gjør v
 - [ ] Lag to nye variabler, `foodX` og `foodY`. Øverst i koden legger du til
   disse kodelinjene
 
-```javascript
+```microbit
 let foodX: number = 0
 let foodY: number = 0
 ```
 
 - [ ] Så trenger vi en funksjon for å generere maten et tilfeldig sted
 
-```javascript
+```microbit
 function generateFood(){
     foodX = Math.randomRange(0, 4);
     foodY = Math.randomRange(0, 4);
@@ -433,7 +433,7 @@ function generateFood(){
   og endre den hvis du vil) og sammenligner den med de posisjonene vi sender
   inn. Hvis begge  stemmer er vi på slangen.
 
-```javascript
+```microbit
 function isOnSnake(myX: number, myY: number) {
     for (let index = 0; index <= snake.length - 1; index+=2) {
         if (myX === snake[index] && myY === snake[index+1]) {
@@ -445,7 +445,7 @@ function isOnSnake(myX: number, myY: number) {
 ```
 
 - [ ] Oppdater `generateFood()` slik
-```javascript
+```microbit
 function generateFood() {
     foodX = Math.randomRange(0, 4);
     foodY = Math.randomRange(0, 4);
@@ -461,7 +461,7 @@ function generateFood() {
 - [ ] Da har vi en posisjon til maten, men vi må også tegne den. Lag en ny
   funksjon `drawFood()` slik
 
-```javascript
+```microbit
 function drawFood() {
     led.plot(foodX, foodY);
 }
@@ -469,7 +469,7 @@ function drawFood() {
 
 - [ ] Kall `drawFood()` i fra `forever()`, etter `clearScreen()`
 
-```javascript
+```microbit
 basic.forever(function () {
     if (isPlaying) {
         basic.clearScreen()
@@ -497,7 +497,7 @@ Hvordan gjør vi det? Vi lar bare være å fjerne det siste punktet på halen i
   vi er på samme sted som maten,  og genererer ny mat i `updateSnake()`. Hvis
   slangen ikke spiser mat, gjør vi det samme som før.
 
-```javascript
+```microbit
 if (x == foodX && y == foodY) {
     music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
     generateFood();
@@ -511,7 +511,7 @@ if (x == foodX && y == foodY) {
   har allerede en funksjon for å sjekke  om x og y er på slangen. Vi legger til
   denne sjekken i `checkGameOver()`
 
-```javascript
+```microbit
 function checkGameOver(x: number, y: number) {
     if (x < 0 || x > 4 || y < 0 || y > 4 || isOnSnake(x,y)) {
         direction = 'up';
@@ -533,7 +533,7 @@ function checkGameOver(x: number, y: number) {
   for hver oppdatering og litt mer hver gang slangen spiser mat.  Endre slutten
   av `updateSnake()` slik
 
-```javascript
+```microbit
 if (x === foodX && y === foodY) {
     music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
     updateRate *= 0.95;
@@ -548,7 +548,7 @@ updateRate -= 5;
 
 - [ ] Så bruker vi `updateRate` i pausen i `forever()`
 
-```javascript
+```microbit
 basic.forever(function () {
     if (isPlaying) {
         basic.clearScreen();
@@ -581,7 +581,7 @@ på.
   millisekunder. Vi tegner bare maten hvis den resterende verdien er større enn
   250, det gir oss ganske rask blinking.  Koden ser slik ut:
 
-```javascript
+```microbit
 function drawFood() {
     const currentTime = input.runningTime();
     if(currentTime%500 > 250){
@@ -597,7 +597,7 @@ function drawFood() {
   trenger vi en variabel som vi kan kalle `lastUpdateTime`.  Denne må vi resette
   samme sted som vi setter `isPlaying = true` på første knappetrykk.
 
-```javascript
+```microbit
 	lastUpdateTime = input.runningTime();
 ```
 
@@ -606,7 +606,7 @@ function drawFood() {
   ny oppdatering, og til slutt settes `lastUpdateTime` slik at det er klart til
   å vente til neste gang vi skal gjøre en oppdatering.
 
-```javascript
+```microbit
 basic.forever(function () {
 
 	  if (isPlaying) {
