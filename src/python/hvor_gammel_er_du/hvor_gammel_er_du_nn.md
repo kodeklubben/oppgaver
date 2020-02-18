@@ -80,9 +80,7 @@ Hugs å ta bort døma når du fortset med oppgåva.
 **Fortset med koden du har frå steg 1.**
 
 - [ ] Lag to variablar som du sjølv gir namnet på. Den eine variabelen skal vere
-  dette året, altså <span id="aar">2018</span>. Den andre variabelen skal vere
-  året du vart fødd. <script>document.getElementById('aar').innerHTML = new
-  Date().getFullYear()</script>
+  året som er no. Den andre variabelen skal vere året du vart fødd.
 
 - [ ] Lag ein tredje variabel som skal innehalde alderen din. Korleis kan du
   rekne ut alderen din med variablane i steget over?

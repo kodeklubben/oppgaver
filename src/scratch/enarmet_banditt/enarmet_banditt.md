@@ -39,13 +39,13 @@ Dette er et spill med tre figurer som endrer utseende. Din oppgave er
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på `Skript`-fanen,
+- [ ] Klikk på `Kode`-fanen,
 
 - [ ] Legg til dette skriptet:
 
   ```blocks
-  Når grønt flagg klikkes
-  for alltid
+  Når @greenFlag klikkes
+  gjenta for alltid
       neste drakt
       vent (0.5) sekunder
   slutt
@@ -78,7 +78,7 @@ Bra! Vi kan få draktene til å bytte i det uendelige, men hvordan får vi de ti
 stoppe når vi klikker på de? En måte å gjøre dette på er ved å bruke en variabel
 som setter statusen til figuren. Dette vil vi se at er praktisk også senere.
 
-- [ ] Klikk på `Data`{.blockdata} og `Lag en variabel`.  Kall variabelen
+- [ ] Klikk på `Variabler`{.blockdata} og `Lag en variabel`.  Kall variabelen
   `stoppet`{.blockdata} og huk av for `For denne figuren`. Fjern
   avhukingen foran variabelen slik at den ikke vises på scenen.
 
@@ -86,9 +86,9 @@ som setter statusen til figuren. Dette vil vi se at er praktisk også senere.
   vi variabelen til `0`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [stoppet v] til [0]
-  for alltid
+  gjenta for alltid
       neste drakt
       vent (0.5) sekunder
   slutt
@@ -104,15 +104,15 @@ som setter statusen til figuren. Dette vil vi se at er praktisk også senere.
 
 - [ ] Til slutt må vi få figuren til å slutte å forandre drakt når
   variabelen `stoppet`{.blockdata} blir `1`. Legg til en
-  `hvis`{.blockcontrol}-løkke og bruk en `_ = _`{.blockoperators}
+  `hvis`{.blockcontrol}-løkke og bruk en `<() = ()>`{.b}
   operator-kloss for å sjekke om `stoppet`{.blockdata} fremdeles er
   `0`.
 
   ```blocks
-  når grønt flagg klikkes
-  sett [stoppet v] til [0]
-  for alltid
-      hvis <(stoppet) = [0]>
+  når @greenFlag klikkes
+  sett [stoppet v] til (0)
+  gjenta for alltid
+      hvis <(stoppet) = (0)>
           neste drakt
           vent (0.5) sekunder
       slutt
@@ -146,8 +146,8 @@ __Start skriptet en gang til ved å klikke på det grønne flagget igjen.__
 - [ ] Lag en kopi til slik at du har tre figurer på skjermen. Vi har kalt våre
   figurer `Figur1`, `Figur2` og `Figur3`.
 
-- [ ] Flytt figurene slik at de er en linje. Gjør dem mindre med
-  krympeknappen, ![krymp](../bilder/krymp.png), hvis det trengs.
+- [ ] Flytt figurene slik at de er en linje. Gjør figurene mindre ved å
+  skrive inn et mindre tall enn "100" i feltet "Størrelse", hvis det trengs.
 
 ## Test prosjektet{.flag}
 
@@ -172,17 +172,18 @@ uforutsigbart.
   ved å bruke enten navnet eller nummeret.
 
 - [ ] For å få figuren til å starte med en tilfeldig drakt, la oss legge til en
-  `bytt drakt til`{.blocklooks}-kloss med `tilfeldig tall fra 1 til
-  3`{.blockoperators} for å velge draktnummer.
+  `bytt drakt til ()`{.b}-kloss med `tilfeldig tall fra (1) til
+  (3)`{.b} for å velge draktnummer.
 
-- [ ] Vi kan også bruke den samme klossen i `for alltid`{.blockcontrol}-løkken
-  slik at figuren skifter til en ulik drakt hver gang den forandres.
+- [ ] Vi kan også bruke den samme klossen i `gjenta for
+  alltid`{.blockcontrol}-løkken slik at figuren skifter til en ulik drakt hver
+  gang den forandres.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [stoppet v] til [0]
   bytt drakt til (tilfeldig tall fra (1) til (3))
-  for alltid
+  gjenta for alltid
       hvis <(stoppet) = [0]>
           bytt drakt til (tilfeldig tall fra (1) til (3))
           vent (0.5) sekunder
@@ -236,7 +237,7 @@ La oss først hente en ny bakgrunn som vi viser når spillet er over.
   slutt!`. Du kan forandre størrelsen på teksten ved å klikke på den og dra i
   hjørnene. Kall bakgrunnen `Slutt`.
 
-- [ ] Klikk på `Skript`-fanen for scenen og pass på at du bytter til
+- [ ] Klikk på `Kode`-fanen for scenen og pass på at du bytter til
   `Spill`-bakgrunnen når spillet starter.
 
 - [ ] Hvordan kan vi sjekke om alle figurene har stoppet? Husk at vi brukte
@@ -247,7 +248,7 @@ La oss først hente en ny bakgrunn som vi viser når spillet er over.
   ut `x-posisjon` med `stoppet`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   bytt bakgrunn til [Spill v]
   vent til <([stoppet v] av [Figur3 v])  = [1]>
   bytt bakgrunn til [Slutt v]
@@ -271,11 +272,11 @@ rekkefølge figurene stoppes i.
   er satt til `1`, kan vi bruke `og`{.blockoperators}-operatoren. Dette er en
   komplisert kloss som kan være litt trøblete å lage, så forsøk å gjøre ett steg
   av gangen. Legg merke til at vi har satt sammen to
-  `og`{.blockoperators}-klosser, tre `_ = _`{.blockoperators}-operatorer og tre
+  `<<> og <>>`{.b}-klosser, tre `<() = ()>`{.b}-klosser og tre
   `stoppet av Figur`{.blocksensing}-klosser.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   bytt bakgrunn til [Spill v]
   vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
   bytt bakgrunn til [Slutt v]
@@ -300,10 +301,13 @@ __Klikk på det grønne flagget.__
 Vi har tidligere skrevet kode som sjekker om spillet er over, så alt vi trenger
 å gjøre er å sjekke om spilleren har vunnet.
 
-- [ ] Gå tilbake til bakgrunnene og lag en kopi av `Slutt`-bakgrunnen. Skift
-  navn på `Slutt` til `Vinner`. Gi kopien navnet `Taper`.
+- [ ] Gå tilbake til bakgrunnene. Gi bakgrunnen `Slutt` et nytt navn, og kall den
+  for `Vinner`.
 
 - [ ] Legg til teksten `Du vant!` på `Vinner`-bakgrunnen.
+
+- [ ] Lag en kopi av `Vinner`-bakgrunnen. Kall den
+  nye bakgrunnen for `Taper`.
 
 - [ ] I `Taper`-bakgrunnen kan du skrive teksten `Du tapte!`.
 
@@ -318,7 +322,7 @@ spillet er over.
   om `Figur2` har samme drakt som `Figur3`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   bytt bakgrunn til [Spill v]
   vent til < < <([stoppet v] av [Figur1 v]) = [1]> og <([stoppet v] av [Figur2 v]) = [1]> > og <([stoppet v] av [Figur3 v]) = [1]> >
   hvis <<([drakt nr. v]  av [Figur1 v]) = ([drakt nr. v]  av [Figur2 v])> og <([drakt nr. v]  av [Figur2 v]) = ([drakt nr. v] av [Figur3 v])>>
@@ -351,7 +355,7 @@ litt (for å gjøre spillet vanskeligere). Hvis spilleren taper runden kan man �
 forsinkelsen litt for å gjøre spillet lettere.
 
 Du må sikkert vurdere å bruke en annen måte å starte spillet på istedet for å
-bruke `når grønt flagg klikkes`{.blockgrey}. Deretter kan du lagre verdiene i
+bruke `når @greenFlag klikkes`{.blockgrey}. Deretter kan du lagre verdiene i
 variabler som huskes mellom rundene.
 
 ## Lagre prosjektet {.save}

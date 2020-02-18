@@ -8,6 +8,8 @@ nybegynnere på grunn av språkets enkle syntaks, men er også mye brukt i
 industrien. Python passer perfekt for 2D-spill, automatisering, vitenskapelig
 analyse, GUI-applikasjoner og servere.
 
+**Merk:** oppgavene forutsetter at man jobber med Python 3.
+
 ## Hvordan installere Python
 
 - Gå til [python.org/downloads](https://python.org/downloads).

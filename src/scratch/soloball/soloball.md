@@ -24,13 +24,12 @@ ikke går i nettet.
 - [ ] Start et nytt Scratch-prosjekt. Du vil se en kattefigur midt på
   scenen.
 
-- [ ] Pusle sammen de følgende klossene i skriptområdet til høyre på
-  skjermen.
+- [ ] Pusle sammen de følgende klossene i kode-området i midten av skjermen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       pek mot [musepeker v]
   slutt
   ```
@@ -49,8 +48,8 @@ __Klikk på det grønne flagget.__
 - [ ] Begynner katten å rotere rundt slik at den alltid ser mot
   musepekeren?
 
-- [ ] For å stoppe programmet ditt kan du klikke på den røde åttekanten
-  ved siden av det grønne flagget.
+- [ ] For å stoppe programmet ditt kan du klikke på det røde
+  stopp-tegnet ved siden av det grønne flagget.
 
 
 # Steg 2: Katten løper rundt {.activity}
@@ -63,11 +62,8 @@ __Klikk på det grønne flagget.__
 Vi skal nå gjøre et lite triks hvor vi flytter katten vekk fra sentrum
 slik at det ser ut som om den løper i sirkel i stedet for å rotere.
 
-- [ ] Gi først kattefiguren din navnet `Katt`. Dette gjør du ved å først
-  klikke på den lille `i`{.blockmotion}en på kattefiguren under
-  scenen. Deretter kan du skrive `Katt` i tekstfeltet. Når du går
-  tilbake, `<`{.blockmotion}, ser du at figuren har fått det riktige
-  navnet.
+- [ ] Gi først kattefiguren din navnet `Katt`. Dette gjør du ved å
+ skrive `Katt` i tekstfeltet over kattefiguren.
 
 - [ ] Klikk på `Drakter`{.blocklightgrey}-fanen øverst på skjermen. Du vil
   nå se to kattefigurer. Slett en av dem ved å klikke på den lille
@@ -105,14 +101,16 @@ Selv om ikke endret programmet vårt oppfører katten seg veldig
 annerledes. Skjønner du hvorfor?
 
 Når vi sier at katten skal `peke mot musepekeren`{.blockmotion} må den
-rotere rundt et punkt. Dette punktet kalles senterpunktet til figuren,
-og du kan se (og endre) senterpunktet til en figur ved å klikke på
-![Velg senterpunkt](../bilder/velg_senterpunkt.png) øverst til
-høyre på skjermen.
+rotere rundt et punkt. Dette punktet kalles senterpunktet til figuren.
 
-Når vi flytter senterpunktet utenfor katten vil det se ut som om
-katten løper rundt dette punktet i stedet for at den bare roterer uten
-å flytte seg.
+Senterpunktet er i midten av bildet til katten. Når du trykker `=`
+ikonet under bildet vil du se hele bildet til figuren, og senterpunktet er da alltid i midten.
+
+![Senterpunkt illustrasjon](../bilder/scratch_3_senterpunkt_illustrasjon.png)
+
+Når katten er utenfor senterpunktet vil det se ut som om katten løper
+rundt dette punktet i stedet for at den bare roterer uten å flytte
+seg.
 
 
 # Steg 3: En ball! {.activity}
@@ -122,29 +120,29 @@ katten løper rundt dette punktet i stedet for at den bare roterer uten
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på `Skript`{.blocklightgrey}-fanen slik at du ser skriptet du
+- [ ] Klikk på `Kode`{.blocklightgrey}-fanen slik at du ser skriptet du
   skrev tidligere.
 
 - [ ] Klikk på
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  ved siden av `Ny figur` under scenen for å hente en ny figur.
+  ved siden av `Ny figur` for å hente en ny figur.
 
-- [ ] Hvis du klikker kategorien `Ting` til venstre på skjermen vil du se
-  flere baller. Velg en av dem.
+- [ ] Hvis du klikker kategorien `Sport` vil du se flere baller. Velg
+  en av dem.
 
-- [ ] Vi skal nå se en annen måte å gjøre figurer mindre på. Klikk
-  ![Krymp](../bilder/krymp.png) øverst på skjermen. Klikk deretter
-  på ballfiguren noen ganger slik at den er passe stor i forhold til
-  katten.
+- [ ] Vi skal nå se en annen måte å gjøre figurer mindre på. Finn
+  `Størrelse` feltet over ball-figuren. Den har nå verdien 100. Skriv
+  en mindre verdi, da blir ballen mindre. Prøv ulike tall til ballen
+  ser ut som riktig størrelse i forhold til katten.
 
 - [ ] Nå lager vi et program for ballen. Vi vil at ballen skal starte midt
   på skjermen. Deretter går den inn i en løkke hvor den flytter seg
   litt, og snur om katten kommer borti den.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       gå (3) steg
       hvis <berører [Katt v] ?>
           pek i retning ((180) + (retning))
@@ -187,36 +185,34 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] Vi skal nå lage en figur som vi tegner selv. For å gjøre dette
-  klikker du ![Tegn ny figur](../bilder/tegn-ny.png) ved siden av
-  `Ny figur` under scenen.
+  holder du musepekeren over
+  ![Hent fra bibliotek](../bilder/hent-fra-bibliotek.png), og så klikker du på `Tegn` ikonet.
 
-- [ ] Klikk på `Bytt til vektorgrafikk` nederst til høyre på skjermen.
-
-- [ ] Velg en godt synlig farge, for eksempel rød, og klikk på
-  linje-verktøyet på høyre side av skjermen.
+- [ ] Velg linje-verktøyet på venstre side av skjermen, og trykk så
+  `Kant` boksen for å velge farge. Velg en godt synlig farge, eksempel
+   rød.
 
 - [ ] Tegn en liten loddrett strek til høyre på figuren din. Hold gjerne
   inne `Skift`-knappen, da får du en helt loddrett strek.
 
   ![Bilde av en helt loddrett strek](tegn_nett.png)
 
-- [ ] Klikk på `Skript`{.blocklightgrey}-fanen.
+- [ ] Klikk på `Kode`{.blocklightgrey}-fanen.
 
 - [ ] Vi skal nå tegne et sirkelformet nett ved å stemple denne figuren på
-  bakgrunnen. Lag det følgende skriptet:
+  bakgrunnen mange ganger i en sirkel. Lag det følgende skriptet:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
   gjenta (36) ganger
-      vend venstre (10) grader
-      stemple avtrykk
+      snu @turnLeft (10) grader
+      lag klon av (meg)
   slutt
   ```
 
-  `stemple avtrykk`{.blockpen} stempler en figur på bakgrunnen
-  slik at den blir der. Du kan fjerne slike avtrykk ved å bruke
-  `slett`{.blockpen}-klossen.
+  `lag klon av (meg)` lager en kopi av figuren der den
+  befinner seg, før original-figuren flytter seg videre.
 
 ## Test prosjektet {.flag}
 
@@ -248,9 +244,9 @@ truffet nettet. Det skal vi gjøre nå.
   ditt slik at det blir seende slik ut:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       gå (3) steg
       hvis <berører [Katt v] ?>
           pek i retning ((180) + (retning))
@@ -262,9 +258,11 @@ truffet nettet. Det skal vi gjøre nå.
   ```
 
 - [ ] For å få riktig farge i `berører fargen`{.blocksensing}-klossen
-  klikker du først på den lille firkanten hvor fargen vises. Deretter
-  flytter du musepekeren slik at den peker på nettet. Da forandres
-  fargen i den lille firkanten. Klikk igjen for å velge denne fargen.
+  klikker du først på den lille firkanten hvor fargen vises. I boksen
+  som vises midt på skjermen med fargevalg, så er det et lite
+  "dråpeteller"-ikon under. Klikk på det. Deretter flytter du
+  musepekeren slik at den peker på nettet sin rød-farge. Trykk på det,
+  så velger du den fargen.
 
 ## Test prosjektet {.flag}
 
@@ -294,8 +292,28 @@ retningen kattefiguren står i.
 
 ![Bilde av retning av katt og ball](sprett_vinkel2.png)
 
-I figuren over og i koden videre betyr `retning`{.blockmotion} retningen
-til ballen, siden koden tilhører ballfiguren.  Så langt har vi brukt
+Før vi gjør noe mer så trenger ballen å vite hvilken retning katten har.
+
+- [ ] Velg kattefiguren, trykk på `Variabel` kategorien og lag en ny
+  variabel på katten som du kaller `retning av katt` (og velg at den
+  skal være synlig for alle figurer).
+
+- [ ] I kattens skript, juster slik at den hele tiden oppdaterer denne variabelen med sin retning:
+
+ ```blocks
+  når @greenFlag klikkes
+  gå til x: (0) y: (0)
+  gjenta for alltid
+      pek mot [musepeker v]
+      sett (kattens retning) til (retning)
+  slutt
+  ```
+
+Nå kan ballen få tak i retningen til katten.
+
+I figuren over og i koden videre betyr `retning`{.blockmotion}
+retningen til ballen, siden koden tilhører ballfiguren.  Så langt har
+vi brukt
 
 ```blocks
 pek i retning ((180) + (retning))
@@ -306,28 +324,28 @@ spretter tilbake der den kom i fra.
 
 Vi bør også kompensere for retningen til `Katt`. Dette kan vi gjøre
 ved å trekke fra to ganger (`retning`{.blockmotion} - `retning av
-katt`{.blocksensing}). Skjønner du hvorfor av figuren? Da blir den
+katt`{.blockdata}). Skjønner du hvorfor av figuren? Da blir den
 nye retningen
 
 ```blocks
-(((180) + (retning)) - ((2) * ((retning) - ([retning v] av [Katt v])))
+(((180) + (retning)) - ((2) * ((retning) - (retning av katt)))
 ```
 
 Vi kan forenkle dette til
 
 ```blocks
-(((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+(((180) - (retning)) + ((2) * (retning av katt)))
 ```
 
 - [ ] Endre i skriptet til ballen slik at spretten blir bedre,
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       gå (3) steg
       hvis <berører [Katt v] ?>
-          pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+          pek i retning (((180) - (retning)) + ((2) * (retning av katt)))
       slutt
       hvis <berører fargen [#ff0000] ?>
           stopp [alle v] :: control
@@ -355,9 +373,9 @@ har laget deg brukerkonto kan du velge `Last ned til datamaskinen` i
 stedet.
 
 Om du lagrer spillet på brukerkontoen din kan du også legge det ut
-slik at andre kan spille det. For å gjøre dette klikker du `Legg ut`
-øverst til høyre. Du kan deretter dele nettadressen til spillet ditt
-med venner og familie.
+slik at andre kan spille det. For å gjøre dette klikker du `Legg ut` i
+midten i toppen av skjermen. Du kan deretter dele nettadressen til
+spillet ditt med venner og familie.
 
 
 # Ekstra 1: Tell poeng {.activity}
@@ -383,13 +401,13 @@ starter. Deretter skal vi få ett poeng hver gang vi returnerer ballen.
 - [ ] Legg på to nye klosser i skriptet som styrer ballen:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
   sett [Poeng v] til [0]
-  for alltid
+  gjenta for alltid
       gå (3) steg
       hvis <berører [Katt v] ?>
-          pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+          pek i retning (((180) - (retning)) + ((2) * (retning av katt)))
           endre [Poeng v] med (1)
       slutt
       hvis <berører fargen [#ff0000] ?>
@@ -431,14 +449,14 @@ selv!
   vi teller poeng.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
   sett [Poeng v] til [0]
   sett [Hastighet v] til [3]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       hvis <berører [Katt v] ?>
-          pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+          pek i retning (((180) - (retning)) + ((2) * (retning av katt)))
           endre [Poeng v] med (1)
           endre [Hastighet v] med (0.1)
       slutt
@@ -476,15 +494,15 @@ sist snudde.
   `hvis`{.blockcontrol}-testen har blitt utvidet.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (0) y: (0)
   sett [Poeng v] til [0]
   sett [Hastighet v] til [3]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       endre [Flytt v] med (1)
       hvis <<berører [Katt v] ?> og <(Flytt) > [20]>>
-          pek i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
+          pek i retning (((180) - (retning)) + ((2) * (retning av katt)))
           endre [Poeng v] med (1)
           endre [Hastighet v] med (0.1)
           sett [Flytt v] til [0]

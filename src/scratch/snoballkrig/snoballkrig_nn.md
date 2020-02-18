@@ -61,7 +61,7 @@ raskare og vanskelegare å jage bort.
   ```blocks
   når @greenFlag vert trykt på
   set storleik til (75) %
-  bruk roteringstypen [vend sidevegs v]
+  avgrens rotering til [venstre-høgre v]
   set [hastigheit v] til [5]
   ```
 
@@ -193,7 +193,7 @@ __Klikk på det grøne flagget.__
   når @greenFlag vert trykt på
   gøym
   gå til x: (0) y: (-70)
-  bruk roteringstypen [vend sidevegs v]
+  avgrens rotering til [venstre-høgre v]
   set storleik til (30) %
   set [hastigheit v] til [3]
   ```

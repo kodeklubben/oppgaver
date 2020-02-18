@@ -22,7 +22,7 @@ La oss se på å få et display til å telle.
 
 - [ ] 11 ledninger
 
-- [ ] 1 7-segment display
+- [ ] 1 7-segment display (med common type katode)
 
 ![utstyr](utstyr.jpg)
 

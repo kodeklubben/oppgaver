@@ -29,15 +29,15 @@ figurer, og hvordan vi kan programmere figurer til å bevege seg selv.
 
 - [ ] Slett kattefiguren ved å høyreklikke på den og velge `slett`.
 
-- [ ] Legg til en ny figur. Klikk på
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen
+- [ ] Legg til en ny figur. Klikk på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen
   og velg en figur du har lyst til å styre rundt. Vi har brukt
   `Dyr/Beetle`-figuren.
 
-- [ ] Gi den nye figuren navnet `Utforsker` ved å klikke på `i`{.blockmotion}.
+- [ ] Gi den nye figuren navnet `Utforsker`: trykk på navnfeltet over
+  figuren og skriv inn det nye navnet.
 
-Vi begynner med å la figuren bevege seg oppover skjermen når vi
-trykker på `pil opp`-tasten.
+  Vi begynner med å la figuren bevege seg oppover skjermen når vi
+  trykker på `pil opp`-tasten.
 
 - [ ] Legg til følgende skript på `Utforsker`-figuren din.
 
@@ -86,7 +86,7 @@ må vi bytte tallet i fire forskjellige skript. Det blir for mye jobb!
 Vi vil i stedet bruke en __variabel__ som kan styre farten til
 `Utforsker`-figuren.
 
-- [ ] Lag en ny variabel ved å gå til `Data`{.blockdata}-kategorien og
+- [ ] Lag en ny variabel ved å gå til `Variabler`{.blockdata}-kategorien og
   klikk `Lag en Variabel`.
 
 - [ ] Kall variabelen `hastighet`, og velg at den bare skal gjelde `For
@@ -103,7 +103,7 @@ Nå må vi endre i skriptene våre slik at bruker
   `10`.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [hastighet v] til [10]
   ```
 
@@ -149,9 +149,11 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Velg ![Tegn ny bakgrunn](../bilder/tegn-ny.png) nederst til
-  venstre på skjermen for å tegne en ny bakgrunn. Pass på at du
-  faktisk tegner en ny __bakgrunn__, og ikke en ny figur.
+- [ ] Trykk `Velg et bakgrunnsbilde`
+  ![Velg figur fra biblioteket](../bilder/velg-bakgrunn.png) nederst
+  til høyre på skjermen, og trykk så på penselen som dukker opp, for
+  å tegne en ny bakgrunn. Pass på at du faktisk tegner en ny
+  __bakgrunn__, og ikke en ny figur.
 
 - [ ] Gi den nye bakgrunnen navnet `Labyrint`.
 
@@ -180,11 +182,10 @@ __Klikk på det grønne flagget.__
 
 - [ ] Kan du bevege utforskerfiguren din rundt inne i labyrinten?
 
-- [ ] Dersom figuren din er for stor kan du gjøre den mindre ved å trykke
-  på ![krymp](../bilder/krymp.png)-knappen på toppen av skjermen.
+- [ ] Dersom figuren din er for stor kan du gjøre den mindre ved å
+  trykke på figuren, og så gjøre tallet i `Størrelse`-boksen mindre.
 
 - [ ] Hva skjer dersom figuren din går på veggen i labyrinten?
-
 
 # Steg 3: Utforskeren kan ikke gå gjennom veggen {.activity}
 
@@ -204,21 +205,23 @@ farge.
   allerede har laget som setter `(hastighet)`{.b}-variabelen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [hastighet v] til [10]
-  for alltid
+  gjenta for alltid
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
-          vend høyre (180) grader
+          snu @turnRight (180) grader
       slutt
   slutt
   ```
 
-- [ ] For å få riktig farge i `berører fargen [#cc0000]`{.b}-klossen klikker du
-  først på den lille firkanten hvor fargen vises. Deretter flytter du
-  musepekeren slik at den peker på en vegg i labyrinten din. Da forandres fargen
-  i den lille firkanten. Klikk igjen for å velge denne fargen.
+- [ ] For å få riktig farge i `berører fargen [#cc0000]`{.b}-klossen
+  klikker du først på den lille firkanten hvor fargen vises. Det
+  dukker opp en boks med fargevalg. Under fargevalgene er det et
+  ikon. Klikk ikonet, deretter flytter du musepekeren slik at den
+  peker på en vegg i labyrinten din. Da forandres fargen i den lille
+  firkanten. Klikk igjen for å velge denne fargen.
 
 ## Test prosjektet {.flag}
 
@@ -235,9 +238,9 @@ En måte vi kan bruke for å begrense hvor en figur kan gå, er å tvinge
 den til å ta et skritt tilbake når den gjør noe feil. I koden
 
 ```blocks
-  vend høyre (180) grader
+  snu @turnRight (180) grader
   gå (hastighet) steg
-  vend høyre (180) grader
+  snu @turnRight (180) grader
 ```
 
 vil figuren først snu seg helt rundt (180 grader), deretter ta et
@@ -253,11 +256,14 @@ retning som da den startet.
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til en ny figur. Du kan velge en figur fra biblioteket ved å
-  trykke
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  eller tegne en figur selv ved å trykke
-  ![Tegn ny figur](../bilder/tegn-ny.png). Vi brukte figuren
+- [ ] Legg til en ny figur. Du kan velge en figur fra biblioteket ved
+  å flytte musepekeren over
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png) og
+  enten trykke på penselen som dukker opp for å tegne en egen, eller
+  trykk på forstørrelsesglasset for å velge en figur som er
+  ferdiglagd.
+
+ . Vi brukte figuren
   `Ting/Star1`.
 
 - [ ] Gi den nye figuren navnet `Skatt`.
@@ -278,8 +284,8 @@ litt enklere å lage skriptet på `Skatt`.
 - [ ] Pass på at figuren `Skatt` er markert, og skriv følgende kode:
 
   ```blocks
-  når grønt flagg klikkes
-  for alltid
+  når @greenFlag klikkes
+  gjenta for alltid
       hvis <berører [Utforsker v]?>
           skjul
       slutt
@@ -304,9 +310,9 @@ skatten en gang, forblir skatten borte.
   skriptet på `Skatt` ved å legge til `vis`{.b} helt i begynnelsen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   vis
-  for alltid
+  gjenta for alltid
       hvis <berører [Utforsker v]?>
           skjul
       slutt
@@ -322,24 +328,25 @@ spennende.
 - [ ] Legg til en `gå til x: () y: ()`{.b}-kloss rett etter `sett
   [hastighet v] til (10)`{.b}-klossen.
 
-- [ ] For å finne ut hvilke tall vi vil bruke for `x` og `y` kan vi gjøre
-  følgende. Dra utforskeren til et sted det er fint å starte fra. Se
-  øverst i høyre hjørne. Sammen med `Utforsker`-figuren står det `x`
-  og `y` og to tall. Dette er posisjonen til figuren akkurat nå. Skriv
-  disse to tallene inn i `gå til x: () y: ()`{.b}-klossen.
+- [ ] For å finne ut hvilke tall vi vil bruke for `x` og `y` kan vi
+  gjøre følgende. Dra utforskeren til et sted det er fint å starte
+  fra. Se på tallene over figur-lista. Sammen med `Utforsker`-figuren
+  står det `x` og `y` og to tall. Dette er posisjonen til figuren
+  akkurat nå. Skriv disse to tallene inn i `gå til x: () y:
+  ()`{.b}-klossen.
 
 - [ ] Hele skriptet vil nå se slik ut (dine tall for `x` og `y` vil være
   forskjellige):
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   sett [hastighet v] til [10]
   gå til x: (-200) y: (0)
-  for alltid
+  gjenta for alltid
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
-          vend høyre (180) grader
+          snu @turnRight (180) grader
       slutt
   slutt
   ```
@@ -373,8 +380,8 @@ Dette blir veldig likt hvordan `Skatt` merket at den ble funnet.
 - [ ] Legg til følgende kode:
 
   ```blocks
-  når grønt flagg klikkes
-  for alltid
+  når @greenFlag klikkes
+  gjenta for alltid
       hvis <berører [Utforsker v]?>
           si [Tok deg!] i (1) sekunder
           stopp [alle v] :: control
@@ -403,14 +410,14 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
   tallene for `x` og `y` med noe som passer for din labyrint.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   ```
 
 - [ ] Før vi lar `Froskekonge` begynne å bevege seg lager vi en
   `(hastighet)`{.b}-variabel også for ham. Klikk på
-  `Data`{.blockdata}, og deretter `Lag en Variabel`. Kall variabelen
+  `Variabler`{.blockdata}, og deretter `Lag en Variabel`. Kall variabelen
   `hastighet` og la den gjelde kun `For denne figuren`. Tilslutt,
   fjern avhukingen på variabelen.
 
@@ -419,14 +426,14 @@ Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
   måte som vi hindrer utforskeren i å gå gjennom veggen.
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   sett [hastighet v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
       slutt
   slutt
@@ -438,18 +445,18 @@ av og til endre retning.
 - [ ] Legg til kode som lar `Froskekonge` snu seg tilfeldig rundt i labyrinten:
 
   ```blocks
-  når grønt flagg klikkes
+  når @greenFlag klikkes
   gå til x: (50) y: (100)
   pek i retning (-90 v)
   sett [hastighet v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       hvis <berører fargen [#cc0000]?>
-          vend høyre (180) grader
+          snu @turnRight (180) grader
           gå (hastighet) steg
       slutt
       hvis <(tilfeldig tall fra (1) til (25)) = [1]>
-          vend høyre ((tilfeldig tall fra (-1) til (1)) * (90)) grader
+          snu @turnRight ((tilfeldig tall fra (-1) til (1)) * (90)) grader
       slutt
   slutt
   ```
@@ -459,7 +466,7 @@ Disse to siste klossene ser litt kompliserte ut. La oss se litt nøyere på dem.
 - [ ] Klossen `hvis <(tilfeldig tall fra (1) til (25)) = [1]>`{.b} sier at
   vi skal gjøre *noe* cirka èn av 25 ganger.
 
-- [ ] Dette *noe* er `vend høyre ((tilfeldig tall fra (-1) til (1)) *
+- [ ] Dette *noe* er `snu @turnRight ((tilfeldig tall fra (-1) til (1)) *
   (90)) grader`{.b}. Tegnet `*` betyr gange, slik at om vi velger
   tilfeldig mellom tallene -1, 0 og 1, betyr det at froskekongen vil
   vende -90, 0 eller 90 grader. Det vil si at den svinger mot venstre,

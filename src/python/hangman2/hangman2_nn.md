@@ -9,7 +9,7 @@ language: nn
 # Introduksjon {.intro}
 
 I denne oppgåva skal me lage vårt eige Hangman-spel. Me har laga litt kode
-allereie for å hjelpe deg på veg. Den kan du [laste ned her](./hangman.py).
+allereie for å hjelpe deg på veg. Den kan du [laste ned her](https://oppgaver.kidsakoder.no/python/hangman2/hangman.py).
 Lagre den der du brukar å lagre Python-koden din.
 
 Det kan sjå ut som mykje kode, men det er berre den øvste delen du skal endre
@@ -126,7 +126,7 @@ lurt å gå attende og lese gjennom alle dei gule boksane i oppgåva.
 No skal du skrive kode i funksjonen. Dette må du gjere:
 
 - [ ] For å konvertere `secret_word` til ei liste må du bruke funksjonen
-  `list()`. Du kan gi ein streng som argument til `list()`, og så blir det
+  `list()`. Du kan gi ein tekst som argument til `list()`, og så blir det
   returnert ei liste med bokstavar.
 
   ```python
@@ -134,7 +134,7 @@ No skal du skrive kode i funksjonen. Dette må du gjere:
   ['o', 'r', 'd']
   ```
 
-- [ ] Slå saman bokstavane til ein streng att, med eitt mellomrom mellom kvar
+- [ ] Slå saman bokstavane til ein tekst att, med eitt mellomrom mellom kvar
   bokstav.
 
   **Hint:** `s.join(lst)`
@@ -180,7 +180,7 @@ Dette må du gjere:
 
   - Nøkkel: `"used_tries"` Verdi: `0`
 
-  - Nøkkel: `"pressed_button"` Verdi: `""` (Ein tom streng)
+  - Nøkkel: `"pressed_button"` Verdi: `""` (Ein tom tekstvariabel)
 
   - Nøkkel: `"help_text"` Verdi: `"Guess a letter!"`
 

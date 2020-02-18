@@ -64,7 +64,7 @@ En tom ordbok opprettes slik:
 ```
 
 **Merk:** Bare tekst og tall kan brukes som nøkler, men verdiene kan være hva
-som helst: strenger, tall, lister, ordbøker, funksjoner, osv.
+som helst: tekstar, tall, lister, ordbøker, funksjoner, osv.
 
 
 # {.check}
@@ -156,7 +156,7 @@ Dette må du gjøre:
 
 - [ ] Ta imot input for gjenstand.
 
-- [ ] Så lenge gjenstanden ikke er en tom streng `""`:
+- [ ] Så lenge gjenstanden ikke er en tom tekst `""`:
 
   * Be om antall.
 

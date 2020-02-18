@@ -11,7 +11,7 @@ language: nb
 Vi skal lage et enkelt fotballspill, hvor du skal prøve å score på så
 mange straffespark som mulig.
 
-![Illustrasjon av et ferdig straffespark spill](straffespark.png)
+![Illustrasjon av et ferdig straffesparkspill](straffespark.png)
 
 
 # Steg 1: Katten og fotballbanen {.activity}
@@ -24,18 +24,16 @@ mange straffespark som mulig.
   menyen. Hvis du allerede har startet et prosjekt kan du begynne på
   et nytt ved å velge `Fil` og deretter `Ny`.
 
-- [ ] Klikk på `i`{.blockmotion} i hjørnet av kattefiguren, og gi katten
-  navnet `Leo`.
+- [ ] Klikk på kattefiguren og gi katten navnet `Leo`.
 
 - [ ] Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nederst
-  til venstre på skjermen for å hente inn en ny bakgrunn. Velg
-  bakgrunnen `Utendørs/goal1` eller `Utendørs/goal2`.
+  til høyre på skjermen for å hente inn en ny bakgrunn. Velg
+  bakgrunnen `Sport/soccer 2`.
 
 - [ ] Vi skal nå skrive et lite program som flytter katten `Leo` når vi
-  klikker på ham. Merk `Leo` i figurvinduet nederst på skjermen, og
-  klikk `Skript`-fanen slik at du ser de forskjellige kommandoklossene
-  igjen. Pusle deretter sammen de følgende klossene i skriptvinduet
-  til høyre:
+  klikker på ham. Klikk på `Leo` i figurvinduet nederst på skjermen. 
+  Pusle deretter sammen de følgende klossene i skriptvinduet
+  i midten av skjermen:
 
   ```blocks
   når denne figuren klikkes
@@ -74,7 +72,7 @@ Du har nå skrevet et lite program! Scratch lagrer alt du gjør med
 jevne mellomrom. Det er likevel en god vane å lagre selv også
 innimellom.
 
-- [ ] Over scenen er det et tekstfelt hvor du kan gi et navn til spillet
+- [ ] På midten øverst på skjermen er det et tekstfelt hvor du kan gi et navn til spillet
   ditt. Kall det for eksempel `Straffespark`.
 
 - [ ] I menyen `Fil` kan du velge `Lagre nå` for å lagre prosjektet.
@@ -88,15 +86,14 @@ innimellom.
 
 - [ ] Vi skal nå legge til en ball-figur i spillet vårt. Klikk på
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  og velg fotballen `Ting/Soccer Ball`.
+  og velg fotballen `Sport/Soccer Ball`.
 
 - [ ] Gi fotballen navnet `Ball`.
 
-- [ ] Lag ballen mindre ved først å trykke på
-  ![krymp](../bilder/krymp.png) øverst mot midten av vinduet.
-  Deretter kan du trykke på ballen seks ganger.
+- [ ] Gjør ballen mindre ved først å trykke på `Størrelse` feltet, og
+  endre tallet fra 100 til 60.
 
-- [ ] Vi skal nå skrive et litt lengre program. I dette programmet legger
+- [ ] Vi skal nå skrive et litt lengre program for ballen. I dette programmet legger
   vi først fotballen på plass foran katten. Etter at ballen berører
   `Leo` (det vil si `Leo` sparker ballen) begynner ballen å bevege
   seg. Se om du kjenner igjen hvor i programmet de forskjellige
@@ -106,7 +103,7 @@ innimellom.
   når grønt flagg klikkes
   gå til x: (-125) y: (-60)
   vent til <berører [Leo v]?>
-  for alltid
+  gjenta for alltid
       gå (6) steg
   slutt
   ```
@@ -125,7 +122,7 @@ __Klikk på det grønne flagget.__
   x: () y: ()`{.b}-klossen slik at ballen ligger i ro foran `Leo`.
 
 - [ ] Noen ganger flytter ballen seg tilbake *før* `Leo`
-  er tilbake på plassen sin, og dermed berører ballen `Leo` igjen og
+  er tilbake på plassen sin og dermed berører ballen `Leo` igjen og
   begynner å bevege seg. Da hjelper det å legge til en
   `vent (1) sekunder`{.b}-kloss før `vent til <berører [Leo v]?>`{.b}-klossen.
 
@@ -139,12 +136,7 @@ __Klikk på det grønne flagget.__
 - [ ] Legg til en figur til som kan være keeper. Vi har brukt
   `Dyr/Octopus`, men du kan også bruke en annen figur om du vil.
 
-- [ ] Flytt figuren inn i målet. Om det ser ut som figuren står med ryggen
-  til ballen kan du snu den på følgende måte: Klikk på
-  `Drakter`-fanen, og deretter på snu-knappen som er merket med rødt i
-  figuren under.
-
-  ![Bilde av hvordan snu figuren i Scratch](snu_figur.png)
+- [ ] Flytt figuren foran på høyre side.
 
 - [ ] Gi figuren navnet `Keeper`.
 
@@ -154,7 +146,7 @@ __Klikk på det grønne flagget.__
   når grønt flagg klikkes
   gå til x: (100) y: (-50)
   pek i retning (0 v)
-  for alltid
+  gjenta for alltid
       gå (15) steg
       sprett tilbake ved kanten
   slutt
@@ -174,15 +166,15 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] En ting som ser litt rart ut er at `Keeper` ikke ser på ballen. Vi
-  fikser dette ved å legge til en `begrens rotasjon [vend
+  fikser dette ved å legge til en `begrens rotasjon [snu
   sideveis v]`{.b}-kloss helt i begynnelsen av skriptet vårt.
 
 - [ ] Du synes kanskje at keeperen er litt stor? Vi har tidligere sett
-  hvordan vi kan bruke ![krymp](../bilder/krymp.png) for å gjøre
-  figurer mindre. En annen måte å endre størrelsen på er ved å bruke
-  klosser fra `Utseendet`{.blocklooks}-kategorien.
+  hvordan vi kan redusere tallet i `Størrelse`-boksen i figuren for å
+  gjøre figurer mindre. En annen måte å endre størrelsen på er ved å
+  bruke klosser fra `Utseendet`{.blocklooks}-kategorien.
 
-  Legg klossen `sett størrelse til (100)%`{.b} inn i `for
+  Legg klossen `sett størrelse til (100)%`{.b} inn i `gjenta for
   alltid`{.blockcontrol}-løkka. Du kan nå eksperimentere med å endre
   `100%` til et annet tall til du finner en passende størrelse på
   keeperen. Om du har brukt blekkspruten som `Keeper` passer `50%`
@@ -214,7 +206,7 @@ eller når ballen går i mål.
   når grønt flagg klikkes
   gå til x: (-125) y: (-60)
   vent til <berører [Leo v]?>
-  for alltid
+  gjenta for alltid
       gå (6) steg
       hvis <berører [Keeper v]?>
           send melding [Redning v]
@@ -254,26 +246,30 @@ Nå skal vi også sjekke om ballen har gått i mål. Vi gjør dette ved å under
 hvor langt til høyre på skjermen ballen har beveget seg. Posisjonen til en figur
 i Scratch er beskrevet ved hjelp av koordinater: `(x-posisjon)`{.b} sier hvor en
 figur er sidelengs på skjermen, mens `(y-posisjon)`{.b} sier hvor langt opp
-eller ned på skjermen en figur er. Rett under scenen kan du se to tall merket
-`x` og `y`. Disse viser koordinatene til musepekeren.
+eller ned på skjermen en figur er.
+
+Rett under scenen kan du se to tall merket `x` og `y`. Disse viser
+koordinatene til musepekeren. De endrer seg automatisk når figuren
+flytter seg - og når du endrer dem så flytter figuren seg automatisk,
+også.
 
 ![Bilde av hvor x- og y-koordinatene vises i Scratch](koordinater.png)
 
-- [ ] Vi sier at det har blitt mål om ballen går langt nok til høyre uten at den
-  blir reddet. Om du prøver å peke på målstangen med musepekeren ser du at den
-  står omtrent ved `x` lik 160. Utvid skriptet på ballen videre slik at det blir
-  seende slik ut:
+- [ ] Vi sier at det har blitt mål om ballen går langt nok til høyre
+  uten at den blir reddet. Om du prøver å legge ballen på målstangen
+  du at målstanga er omtrent ved `x` lik 230. Endre skriptet på ballen
+  litt til, slik at det blir seende slik ut:
 
   ```blocks
   når grønt flagg klikkes
   gå til x: (-125) y: (-60)
   vent til <berører [Leo v]?>
-  for alltid
+  gjenta for alltid
       gå (6) steg
       hvis <berører [Keeper v]?>
           send melding [Redning v]
       ellers
-          hvis <(x-posisjon) > [160]>
+          hvis <(x-posisjon) > [230]>
               send melding [Mål v]
           slutt
       slutt
@@ -327,9 +323,9 @@ umulig.
 For å telle hvor mange mål du har scoret, og hvor mange redninger `Keeper` har
 gjort, skal vi bruke *variabler*.
 
-- [ ] Klikk på scenen til venstre for figurlisten.
+- [ ] Klikk på scenen til høyre for figurlisten.
 
-- [ ] Klikk på `Data`{.blockdata}-kategorien og lag en ny variabel. Gi
+- [ ] Klikk på `Variabler`{.blockdata}-kategorien og lag en ny variabel. Gi
   den nye variabelen navnet `Mål`. Legg merke til at det
   dukket opp en ny boks på scenen som er merket `Mål`, og som viser
   tallet `0`{.blockdata}.
@@ -369,12 +365,12 @@ mål eller `Keeper` klarer å redde 10 ganger. Dette er litt omfattende.
 - [ ] Først vil vi lage to nye bakgrunner, en vi kan bruke om spilleren
   vinner (katten scorer 10 ganger) og en vi bruker om spilleren taper
   (keeperen redder 10 ganger). Klikk på `Bakgrunner`-fanen. Høyreklikk
-  på den lille versjonen av bakgrunnen din midt på skjermen og velg
+  på den lille versjonen av bakgrunnen til venstre på skjermen og velg
   `Lag en kopi`.
 
-- [ ] Velg en passende farge, og klikk deretter på tekstverktøyet. Velg
-  Skrifttype: `Marker` nederst på skjermen. Skriv en tekst som ligner
-  på `Gratulerer, du vant!` litt høyt på kopien av bakgrunnen. Gi
+- [ ] Velg en passende farge, og klikk deretter på tekstverktøyet (ikonet med stor T). Velg
+  Skrifttype: `Marker`. Skriv en seierstekst, for eksempel
+  `Gratulerer, du vant!`. Plasser den litt høyt på kopien av bakgrunnen. Gi
   denne bakgrunnen navnet `Seier`.
 
 - [ ] Lag deretter en ny kopi av den originale bakgrunnen. Kall denne
