@@ -29,9 +29,7 @@ du ikke får pakket ut filen, kan du laste ned programmet
 ## Aktiviteter {.check}
 
 - [ ] Åpne en **teksteditor**, for eksempel teksteditoren
-  [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller
-
-      [NotePad++](https://notepad-plus-plus.org/)
+  [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller [NotePad++](https://notepad-plus-plus.org/)
 
 - [ ] Lag et nytt dokument
 
