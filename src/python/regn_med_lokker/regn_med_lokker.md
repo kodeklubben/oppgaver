@@ -72,9 +72,9 @@ legger sammen alle tallene før den skriver ut resultatet. Svaret skal bli 5050.
 
 ```python
 def summer(n):
-    sum = 0
+    summert = 0
     # Din kode
-    return sum
+    return summert
 ```
 
 Når koden din er rett, skal den fungere slik som dette:
