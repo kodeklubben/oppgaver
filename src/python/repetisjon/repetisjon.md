@@ -262,10 +262,10 @@ til en liste med `list()`. Her er noen eksempler:
 summere alle tallene fra 1 til 100:
 
 ```python
-sum = 0
+summert = 0
 for number in range(1, 101):
-    sum += number
-print(sum)
+    summert += number
+print(summert)
 ```
 
 
@@ -350,9 +350,9 @@ Nå skal vi lage en funksjon som adderer to tall. Test at funksjonen din fungere
 som dette:
 
 ```python
->>> sum = add(3, 4)
+>>> summert = add(3, 4)
 Fikk inn 3 og 4
->>> print(sum)
+>>> print(summert)
 7
 ```
 
