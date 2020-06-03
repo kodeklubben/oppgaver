@@ -75,7 +75,7 @@ oppgaveteksten.](../straffespark/straffespark.html){target=_blank}
   skriptene ligger på riktig figur som beskrevet i oppgaven.
 
 
-# Steg 2: Vi sparker ballenn {.activity}
+# Steg 2: Vi sparker ballen {.activity}
 
 - [ ] Katten skyter ballen før man klikker på den, eller den må gå flere steg
   før den når frem til ballen. Om dette skjer bør man flytte på hvor `Leo` og
