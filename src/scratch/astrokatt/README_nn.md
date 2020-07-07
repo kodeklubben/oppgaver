@@ -23,13 +23,13 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Naturfag, 7. trinn__: beskriva og visualisera korleis døgn, månefasar
+- [ ]  __Naturfag, 7. trinn__: beskrive og visualisere korleis døgn, månefasar
        og årstider oppstår, og samtale om korleis dette påverkar livet på jorda
 
-- [ ]  __Naturfag, 7. trinn__: utforska, laga og programmera teknologiske
+- [ ]  __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
        system som består av delar som verkar saman
 
-- [ ]  __Kunst og handtverk, 7. trinn__: teikna form, flate og rom ved hjelp av
+- [ ]  __Kunst og handtverk, 7. trinn__: teikne form, flate og rom ved hjelp av
        verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
 - [ ]   __Kunst og handtverk, 7. trinn__: bruke programmering til å skape
