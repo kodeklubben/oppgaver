@@ -60,7 +60,7 @@ __Tidsbruk__: En enkelttime, som en innledningsøkt til LEGO Mindstorms
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: Ingen, en god innledningøkt. 
+- [ ] __Forutsetninger__: Ingen, en god innledningøkt.
 
 - [ ] __Utstyr__: Datamaskin med EV3-programmerings-app installert, og en robot
       satt opp med standardoppsett.
@@ -69,7 +69,7 @@ __Tidsbruk__: En enkelttime, som en innledningsøkt til LEGO Mindstorms
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
-oppgaveteksten.](../genprog_1rettfram/genprog_1rettfram.html){target=_blank}
+oppgaveteksten.](../genprog_1rettfram/1rettfram_nb.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
