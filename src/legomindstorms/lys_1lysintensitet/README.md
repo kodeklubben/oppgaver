@@ -60,7 +60,7 @@ __Tidsbruk__: En enkelttime
 - [ ] Elevene kan formulere en hypotese for hvor sterk lysintensiteten til svart
       og hvitt er.
 
-- [ ] Elevene kan repordusere forsøk på lysintensitet for å finne pålitelige
+- [ ] Elevene kan reprodusere forsøk på lysintensitet for å finne pålitelige
       resultater.  
 
 ## Forslag til vurderingskriterier {.challenge}
