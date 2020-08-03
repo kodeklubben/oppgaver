@@ -68,7 +68,7 @@ __Tidsbruk__: En enkelttime
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Elevene burde kunne grunnleggende programmering i LEGO
-      Mindstorms, elevene burde også ha gjort oppgaven: "lysintensitet", for å
+      Mindstorms, elevene burde også ha gjort oppgaven: "Fargekoder", for å
       ha verdier til sensorene.
 
 - [ ] __Utstyr__: Datamaskin med EV3-programmerings-app installert, og en robot
