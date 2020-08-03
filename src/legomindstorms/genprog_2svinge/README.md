@@ -46,7 +46,7 @@ __Tidsbruk__: En enkelttime, kan fint slås sammen med "kjør rett fram" for en
 
 - [ ] Elevene kan bruke enkle fremgangsmåter for å måle lengden roboten kjører.
 
-- [ ] Elevene kan regne seg frem til hvor langt roboten kjører på per rotasjon.
+- [ ] Elevene kan regne seg frem til hvor langt roboten kjører per rotasjon.
 
 - [ ] Elevene kan beskrive hvordan roboten skal bevege seg ved hjelp av
       rotasjoner og grader.
