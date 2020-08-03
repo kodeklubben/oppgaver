@@ -8,10 +8,10 @@ language: nb
 
 # Parkeringsplass {.intro}
 
-De aller fleste moderne bilder, har en fantastisk nyvinning som kalles
+De aller fleste moderne biler, har en fantastisk nyvinning som kalles
 ryggesensor. Ryggesensoren er en ultralydsensor plassert flere steder bak på
 bilen. De piper når de nærmer seg andre objekter som vegger, gjerder og andre
-bilder. Jo nærmere bilen kommer andre objekter, jo oftere piper den.
+biler. Jo nærmere bilen kommer andre objekter, jo oftere piper den.
 
 Vi har konstruert en liten parkeringsplass til roboten. Den ligner litt på en
 garasje, fordi det er høye vegger rundt den. Alt du skal gjøre er å parkere
