@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - Fargegjenkjenner
+title: Lærerveiledning - Fargegjenkjenner 2
 level: 4
 language: nb
 author: Vegard Tuset
