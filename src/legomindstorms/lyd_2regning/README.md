@@ -73,7 +73,7 @@ __Tidsbruk__: En enkelttime
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven.
-[Klikk her for å se oppgaveteksten.](../lyd2regning/2regning_nb.html){target=_blank}
+[Klikk her for å se oppgaveteksten.](../lyd_2regning/2regning_nb.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
