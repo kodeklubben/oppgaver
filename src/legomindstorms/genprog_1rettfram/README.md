@@ -60,8 +60,7 @@ __Tidsbruk__: En enkelttime, som en innledningsøkt til LEGO Mindstorms
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: Elevene trenger for denne oppgaven ikke mye kunnskap i
-      LEGO Mindstorms
+- [ ] __Forutsetninger__: Ingen, en god innledningøkt. 
 
 - [ ] __Utstyr__: Datamaskin med EV3-programmerings-app installert, og en robot
       satt opp med standardoppsett.
