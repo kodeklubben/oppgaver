@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Rotasjon kring eit punkt
 level: 1
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -22,15 +22,17 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre spegling, rotasjon og
-  parallellforskyving
+- [ ] __Matematikk, 4. årstrinn__: utforske, beskrive og samanlikne eigenskapar
+       ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk, 6. årstrinn__: bruke variablar, løkker, vilkår og
+       funksjonar i programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Matematikk, 10. trinn__: bruke koordinatar til å avbilde figurar og
-  utforske eigenskapar ved geometriske former, med og utan digitale verktøy
+- [ ] __Matematikk, 6 årstrinn__: utforske og beskrive symmetri og mønster og
+      utføre kongurensavbildinger med og utan koordinatsystem
+
+- [ ] __Matematikk, 10. årstrinn__: utforske matematiske eigenskapar og
+      samanhengar ved å bruke programmering
 
 ## Forslag til læringsmål {.challenge}
 

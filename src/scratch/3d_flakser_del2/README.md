@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - 3D-flakser
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 4
 language: nb
 ---
@@ -23,7 +23,7 @@ gjennom en ring.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Kunst og håndtverk, matematikk, naturfag, programmering.
+__Fag__: Kunst og håndtverk, matematikk, naturfag.
 
 __Anbefalte trinn__: 5.-10. trinn.
 
@@ -34,30 +34,25 @@ et lengre undervisningsopplegg.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske
-      former i konstruksjon og som dekorative formelementer
+- [ ] __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+      virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke fargekontraster, forminsking og
-      sentralperspektiv for å gi illusjon av rom i bilder både med og uten
-      digitale verktøy
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i       
+      koordinatsystemet
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+- [ ] __Matematikk, 7. trinn__: beskrive egenskaper ved og minimumsdefinisjoner
+      av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene
+      har felles, og hvilke egenskaper som skiller dem fra hverandre
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsystem
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og vurdere
+      spilldesign og egne spill
 
-- [ ] __Naturfag, 7. trinn__: bruke animasjoner og andre modeller til å beskrive
-      planetenes og månens bevegelser, og forklare hvordan årstider og månefaser
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+      fenomener
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
 
 ## Forslag til læringsmål {.challenge}
 
