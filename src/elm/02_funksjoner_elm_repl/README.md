@@ -26,10 +26,10 @@ __Tidsbruk__: En dobbeltime
       programmering, slik som variabler, løkker, vilkår og funksjoner, og
       reflektere over bruken av disse
 
-- [ ] __IT1, VG1__: lage og bruke egne og andres funksjoner med og uten
+- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
       parametre og returverdier
 
-- [ ] __IT1, VG1__: lese, strukturere, analysere og kommentere programkode
+- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 
