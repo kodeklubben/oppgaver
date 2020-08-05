@@ -30,12 +30,12 @@ __Tidsbruk__: En eller flere dobbeltimer
       programmering, slik som variabler, løkker, vilkår og funksjoner, og
       reflektere over bruken av disse
 
-- [ ] __IT1, VG1__: designe og utvikle nettsider ved hjelp av markeringsspråk og
+- [ ] __IT1, VG2__: designe og utvikle nettsider ved hjelp av markeringsspråk og
       programmering
 
-- [ ] __IT1, VG1__: lese, strukturere, analysere og kommentere programkode
+- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode
 
-- [ ] __IT1, VG1__: lagre og hente fram data og presentere dem på nettsider
+- [ ] __IT1, VG2__: lagre og hente fram data og presentere dem på nettsider
 
 ## Forslag til læringsmål {.challenge}
 
