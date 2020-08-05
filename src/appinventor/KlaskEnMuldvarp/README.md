@@ -23,7 +23,7 @@ __Fag__: Programmering, IT1, Kunst og håndtverk, Matematikk
 
 __Anbefalte trinn__: 5.trinn - VG2
 
-__Tema__: Spill, App 
+__Tema__: Spill, App
 
 __Tidsbruk__: Dobbelttime
 
@@ -73,7 +73,7 @@ __Tidsbruk__: Dobbelttime
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Elevene bør være godt kjent til programmering i
-      scratch, og ha gjennomført ["Komme igang med App Inventor"](../introduksjon/introduksjon.html){target=_blank}).
+      scratch, og ha gjennomført ["Komme igang med App Inventor"](../introduksjon/introduksjon.html){target=_blank}.
 
 - [ ] __Utstyr__: Datamaskiner med internett. Hvis man har lyst til å teste
       appene må man også enten ha en telefon med Android-operativsystem, eller
@@ -83,8 +83,8 @@ __Tidsbruk__: Dobbelttime
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. [Klikk her for å se
-oppgaveteksten.](../KlaskEnMuldvarp/KlaskEnMuldvarp.html){target=_blank}
+oppgaven.
+[Klikk her for å se oppgaveteksten.](../KlaskEnMuldvarp/klaskenmuldvarp.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
