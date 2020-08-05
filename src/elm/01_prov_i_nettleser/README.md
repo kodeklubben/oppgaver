@@ -33,10 +33,10 @@ __Tidsbruk__: En enkelttime
 - [ ] __Programmering, 10.trinn__: bruke flere programmeringsspråk,
       deriblant minst ett som er tekstbasert
 
-- [ ] __IT1, VG1__: lage og bruke egne og andres funksjoner med og uten
+- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
       parametre og returverdier
 
-- [ ] __IT1, VG1__: lese, strukturere, analysere og kommentere programkode
+- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 
