@@ -62,10 +62,10 @@ __Tidsbruk__: En dobbeltime
       programmering, slik som variabler, løkker, vilkår og funksjoner, og
       reflektere over bruken av disse
 
-- [ ] __IT1, VG1__: designe og utvikle nettsider ved hjelp av markeringsspråk og
+- [ ] __IT1, VG2__: designe og utvikle nettsider ved hjelp av markeringsspråk og
       programmering
 
-- [ ] __IT1, VG1__: lage og bruke egne og andres funksjoner med og uten
+- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
       parametre og returverdier
 
 - [ ] __Kunst og håndtverk, 7.trinn__: bruke programmering til å skape
