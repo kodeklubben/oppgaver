@@ -7,9 +7,13 @@ author: Vegard Tuset
 
 # Om oppgaven {.activity}
 
-Input-felter lar brukere skrive inn tekst, tall, datoer og så videre i nettsiden
-vår. Informasjonen vi får fra brukerne kan vi endre, skrive ut, og kombinere med
-annen informasjon.
+Denne oppgaven har som hensikt i å lære å skrive sin egen kode, istedenfor å
+kopiere noe som allerede eksisterer.
+
+Når man skal bli god til å programmere er det helt nødvendig å klare å skrive
+sin egen kode. Det er fristende å prøve å google problemet man har, eller se på
+noe som noen andre har gjort. Dette fører til at man ikke lærer like mye, så i
+denne oppgaven skal vi prøve å skrive vår helt egne kode.
 
 ## Oppgaven passer til: {.check}
 
