@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Skilpaddetekst
-author: Madeleine Lorås og Øistein Søvik
+author: Madeleine Lorås, Øistein Søvik og Vegard Tuset
 language: nb
 ---
 
@@ -22,23 +22,20 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: omgjøre problemer til konkrete delproblemer,
-  vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
-  for disse.
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
-- [ ] __Programmering, valgfag__: utvikle og feilsøke programmer som løser
-  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
-  eller simulering av fysiske objekter.
+- [ ] __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
-- [ ] __Programmering, valgfag__: dokumentere og forklare programkode gjennom å
-  skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode.
-
-- [ ] __Programmering, valgfag__: overføre løsninger til nye problemer ved å
-  generalisere og tilpasse eksisterende programkode og algoritmer.
+- [ ] __Programmering, 10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
 ## Forslag til læringsmål {.challenge}
 
