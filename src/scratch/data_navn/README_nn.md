@@ -2,7 +2,7 @@
 title: "Lærarrettleiing - Bruke data: Jente- og gutenamn"
 level: 2
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -23,23 +23,15 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 2. trinn__: samle, sortere, notere og illustrere data med
-  teljestrekar, tabellar og søylediagram, og samtale om prosessen og kva
-  illustrasjonane fortel om datamaterialet
+- [ ] __Matematikk, 7. årstrinn__: logge, sortere, presentere og lese data i
+      tabellar og diagram og grunngi valet av framstilling
 
-- [ ] __Matematikk, 4. trinn__: samle, sortere, notere og illustrere data på
-  formålstenlege måtar med teljestrekar, tabellar og søylediagram, med og utan
-  digitale verktøy, og samtale om prosess og framstilling
+- [ ] __Matematikk, 9. årstrinn__: berekne og vurdere sannsyn i statistikk
+      og spel
 
-- [ ] __Matematikk, 7. trinn__: representere data i tabellar og diagram som er
-  framstilte med og utan digitale verktøy, lese og tolke framstillingane og
-  vurdere kor nyttige dei er
-
-- [ ] __Norsk, 4. trinn__: søkje etter informasjon, skape, lagre og finne att
-  tekstar ved hjelp av digitale verktåy
-
-- [ ] __Norsk, 7. trinn__: velje ut og vurdere informasjon frå bibliotek og
-  digitale informasjonskanalar
+- [ ] __Norsk, 7. årstrinn__: orientere seg i faglege kjelder på bibliotek og
+      digitalt, vurdera kor pålitelege kjeldene er, og vise til kjelder i eigne
+      tekstar
 
 ## Forslag til læringsmål {.challenge}
 
