@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Julekort
 level: 1
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -25,14 +25,22 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 2. trinn__: ta del i og oppleve barnekultur frå
-  engelskspråklege land gjennom å bruke ord, bilete, musikk og rørsle
+- [ ] __Engelsk, 2. årstrinn__: tileigne seg ord og kulturell kunnskap gjennom
+      engelskspråkleg barnelitteratur og barnekultur
 
-- [ ] __Kunst og handverk, 4. trinn__: bruke enkle funksjonar i digitale
-  bildehandsamingsprogram
+- [ ] __Engelsk, 7. årstrinn__: utforske levemåtar og tradisjonar i ulike
+      samfunn i den engelskspråklege verda og i Noreg og reflektere over
+      identitet og kulturell tilhørighet
 
-- [ ] __Musikk, 7. trinn__: komponere og gjere lydopptak ved hjelp av digitale
-  verktøy
+- [ ] __Kunst og håndtverk, 4. årstrinn__: gjennomføre kunst- og designprosessar
+      ved å søka inspirasjon, utforske moglegheiter, gjere val og laga eigne
+      produkt
+
+- [ ] __Kunst og håndtverk, 7. årstrinn__: bruke digitale verktøy til å
+      planlegge og presentere prosessar og produkt
+
+- [ ] __Musikk, 7. årstrinn__: bruke teknologi og digitale verktøy til å skape,
+      øve inn og omarbeide musikk
 
 ## Forslag til læringsmål {.challenge}
 
