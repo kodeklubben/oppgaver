@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Repetisjon
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -22,16 +22,12 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
-- [ ] __Programmering, valgfag__: gjøre rede for hvordan datamaskiner og
-  programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og deres
-  bruksområder
-
-- [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett
-  er tekstbasert
+- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk, deriblant
+  minst ett som er tekstbasert
 
 ## Forslag til læringsmål {.challenge}
 
