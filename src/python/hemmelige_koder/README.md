@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Hemmelige koder
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -23,15 +23,15 @@ __Tidsbruk__: Enkelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Programmering, 10. trinn__: utvikle og feilsøke programmer som løser
-  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
-  eller simulering av fysiske objekter
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
-- [ ] __Samfunnsfag, 7. trinn__: plassere en hendelsesrekke i historie og samtid
-  på tidslinje og kart
+- [ ] __Samfunnsfag, 7. trinn__: utforske hvordan teknologi har vært og fortsatt
+  er en endringsfaktor, og drøfte innvirkningen teknologien har hatt og har på enkeltmenneske, samfunn og natur
 
 ## Forslag til læringsmål {.challenge}
 
