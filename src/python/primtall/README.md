@@ -14,7 +14,7 @@ og egnede trinn er velkommen.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, matematikk
+__Fag__: Programmering, matematikk, IT1, IT2
 
 __Anbefalte trinn__: 8. trinn--VG3
 
@@ -24,25 +24,39 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Valgfag programmering__: Prinsipper som ligger til grunn for
-      god programmeringspraksis inngår også i hovedområdet, deriblant
-      forklaring og dokumentasjon av løsninger og programkode; vurdering
-      og analyse av egen og andres programkode (Fra hovedområdene)
-- [ ] __Valgfag programmering__: omgjøre problemer til konkrete delproblemer
-- [ ] __Matematikk X__: bruke Eratostenes’ såld til å finne primtall
-- [ ] __Matematikk X__: bruke kongruensregning til å analysere delelighet
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
+
+- [ ] __Matematikk, 8. trinn__: bruke potenser og kvadratrøtter i utforsking og
+  problemløsing og argumentere for fremgangsmåter og resultater  
+
+- [ ] __Matematikk 1T, VG1__: formulere og løse problem ved hjelp av algoritmisk
+  tenking, ulike problemløsingsstrategier, digitale verktøy og programmering
+
+- [ ] __IT1, VG2__:lage og bruke egne og andres funksjoner med og uten parametre
+  og returverdier
+
+- [ ] __IT1, VG2__: forklare hva en algoritme er, og selv skrive strukturert og
+  effektiv kode for å løse små problemer
+
+- [ ] __IT2, VG3__: generalisere løsninger, lage gjenbrukbar programkode og
+  benytte eksisterende kode i nye programmer
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan finne ut om et utvalg tall er eller ikke er primtall
+
 - [ ] Elevene kan forstå og forklare hvorfor koden kjørere raskere eller
        tregere fra steg til steg
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
+
 - [ ] Eleven oppnår høy måloppnåelse ved å kunne forklare hvilken
       innvirkning endringene i koden har på kjøretiden
+
 - [ ] Eleven oppnår ekstra høy måloppnåelse ved å implementere
       Erostathones sil, og selv undersøke hvor store tall koden kan
       brukes på og fortsatt operere noenlunde raskt.
@@ -66,4 +80,8 @@ har programmert for å forstå matematikken bedre.
 
 ## Variasjoner {.challenge}
 
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
+
 ## Eksterne ressurser {.challenge}
+
+- [ ] Foreløpig ingen eksterne ressurser ...
