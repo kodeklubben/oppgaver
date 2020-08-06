@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Snøballkrig
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 4
 language: nb
 ---
@@ -16,7 +16,7 @@ gutter ved å kaste snøball etter dem.
 ## Oppgaven passer til: {.check}
 
 __Fag__: Kunst og håndtverk, matematikk, programmering.
- 
+
 __Anbefalte trinn__: 5.-10. trinn.
 
 __Tema__: Digitalt bildebehandlingsprogram, koordinatsystem, variabler.
@@ -25,25 +25,21 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+      frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
+      koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsystem
-
-- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-      å skrive hensiktsmessige kommentarer og ved å presentere egen og andres
-      kode
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+      vurdere spilldesign og egne spill
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+      programmering, slik som variabler, løkker, vilkår og funksjoner, og
+      reflektere over bruken av disse
+
+- [ ] __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
+      vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 
@@ -232,4 +228,3 @@ eksempel på hvordan koden kan se ut under de forskjellige elementene._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-
