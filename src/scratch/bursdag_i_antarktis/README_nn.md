@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Bursdag i Antarktis
 level: 2
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -20,7 +20,7 @@ gi rom for interaktivitet.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Matematikk, norsk, programmering
+__Fag__: Matematikk, norsk, engelsk, kunst og handtverk
 
 __Anbefalte trinn__: 3.-10. trinn.
 
@@ -30,19 +30,19 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
+      koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
+      programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Norsk, 4. trinn__: lage tekstar som kombinerer ord, lyd og bilete, med
-  og utan digitale verktåy
+- [ ] __Norsk, 2. trinn__: lage tekstar som kombinerer skrift med bilde
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Engelsk fordypning, 10. trinn__: skape digitale produkt som kombinerer
+      ulike medietypar
+
+- [ ] __Kunst og handtverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
 ## Forslag til læringsmål {.challenge}
 
