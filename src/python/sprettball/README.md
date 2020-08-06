@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - PGZ - Sprettball
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 language: nb
 ---
 
@@ -14,7 +14,7 @@ Pygame og Pygame Zero.
 
 __Fag__: Matematikk, Programmering
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 6.-10. trinn
 
 __Tema__: Funksjoner, tester, klasser, objekter, bevegelse i planet
 
@@ -22,21 +22,17 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
-- [ ] __Programmering, valgfag__: utvikle og feilsøke programmer som løser
-  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
-  eller simulering av fysiske objekter.
+- [ ] __Programmering, 10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem.
-
-- [ ] __Matematikk, 10. trinn__: undersøke og beskrive egenskaper ved to- og
-  tredimensjonale figurer og bruke egenskapene i forbindelse med konstruksjoner
-  og beregninger.
+- [ ] __Matematikk, 6. trinn__: beskrive egenskaper ved og minimumsdefinisjoner
+  av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene har
+  felles, og hvilke egenskaper som skiller dem fra hverandre
 
 ## Forslag til læringsmål {.challenge}
 
