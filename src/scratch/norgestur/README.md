@@ -1,6 +1,6 @@
 ---
 title: 'Lærerveiledning - Norgestur'
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 3
 language: nb
 ---
@@ -26,24 +26,23 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
+      koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsystem
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+      variabler, vilkår og løkker
 
-- [ ] __Samfunnsfag, 4. trinn__: plassere heimstaden, heimkommunen og heimfylket
-      på kart
+- [ ] __Samfunnsfag, 4. trinn__: beskrive kultur- og naturlandskap i Norge og
+      samtale om hvordan historiske og geografiske kilder, inkludert kart, kan
+      gi informasjon om landskap
 
-- [ ] __Samfunnsfag, 10. trinn__: lese, tolke og bruke papirbaserte og digitale
-      kart, målestokk og kartteikn
+- [ ] __Samfunnsfag, 7. trinn__: beskrive geografiske hovedtrekk i ulike deler
+      av verden og reflektere over hvordan disse hovedtrekkene påvirker de som
+      bor der
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+      programmering, slik som variabler, løkker, vilkår og funksjoner, og
+      reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Snurrige figurer
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 2
 language: nb
 ---
@@ -14,7 +14,7 @@ med andre former og figurer.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk
+ __Fag__: Matematikk, Kunst og håndtverk
 
 __Trinn__: 3-7. trinn
 
@@ -24,26 +24,21 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndverk, 2. årstrinn__: bygge med enkle geometriske
-      grunnformer
+- [ ] __Kunst og håndverk, 2. årstrinn__: eksperimentere med form, farge, rytme
+      og kontrast
 
-- [ ] __Kunst og håndverk, 4. årstrinn__: eksperimentere med enkle geometriske
-      former i konstruksjon og som dekorative formelementer
+- [ ] __Kunst og håndverk, 7. årstrinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ]  __Matematikk, 4. årstrinn__: tegne, bygge, utforske og beskrive
-       geometriske figurer og modeller i praktiske sammenhenger, medregnet
-       teknologi og design
+- [ ]  __Matematikk, 2. årstrinn__: utforske, tegne og beskrive geometriske
+      figurer fra sitt eget nærmiljø og argumentere for måter å sortere de på
+      etter egenskaper
 
-- [ ]  __Matematikk, 4. årstrinn__: lese av, plassere og beskrive posisjoner i
-       rutenett, på kart og i koordinatsystemer, både med og uten digitale
-       verktøy
+- [ ]  __Matematikk, 3. årstrinn__: lage og følge regler og trinnvise
+       instruksjoner i lek og spill knyttet til koordinatsystem
 
-- [ ]  __Matematikk, 7. årstrinn__: beskrive og gjennomføre speiling, rotasjon
-       og parallellforskyvning
-
-- [ ]  __Programmering, 10. årstrinn__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+- [ ]  __Matematikk, 6. årstrinn__: utforske og beskrive symmetri og mønster
+       og utføre kongurensavbildinger med og uten koordinatsystem
 
 ## Forslag til læringsmål {.challenge}
 
