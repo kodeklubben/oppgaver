@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Lunar Lander
 level: 4
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -27,25 +27,25 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 2. trinn__: bruke dekorative element frå kunst og
-  kunsthandverk i eigne arbeid
+- [ ] __Kunst og handverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
+      vidare på andres idear i eige skapande arbeid
 
-- [ ] __Kunst og handverk, 4. trinn__: bruke enkle funksjonar i digitale
-  bildehandsamingsprogram
+- [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
+      verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Kunst og handverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelement
+- [ ] __Kunst og handverk, 10. trinn__: visualisere form ved hjelp av
+      frihandteikningar, arbeidsteikningar, modeller og digitale verktøy
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 4. trinn__: utforske og bruke målings og delingsdivisjon i
+      praktiske situasjonar
 
-- [ ] __Naturfag, 2. trinn__: beskrive og illustrere korleis jorda, månen og
-  sola bevegar seg i forhold til kvarandre, og fortelje om årstider, døgn og
-  månefasar
+- [ ] __Naturfag, 10. trinn__: bruke og lage modellar for å føreseie eller
+      beskrive naturfaglige prosessar og system og gjere reie for styrkane til
+      modellane og begrensinger
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+      programmering, slik som variablar, løkker, vilkår og funksjonar, og
+      reflektere over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
