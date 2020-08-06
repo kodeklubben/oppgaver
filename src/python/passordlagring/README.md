@@ -23,7 +23,7 @@ og egnede trinn er velkomne.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, IT1, IT2
 
 __Anbefalte trinn__: 8. trinn--VG3
 
@@ -33,22 +33,38 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Valgfag programmering__: Prinsipper som ligger til grunn for
-      god programmeringspraksis inngår også i hovedområdet, deriblant
-      forklaring og dokumentasjon av løsninger og programkode; vurdering
-      og analyse av egen og andres programkode (Fra hovedområdene)
-- [ ] __Valgfag programmering__: omgjøre problemer til konkrete delproblemer
+- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode
+
+- [ ] __IT1, VG2__: utforske trusler mot datasikkerheten og kjenne til
+  beskyttende tiltak for noen av disse
+
+- [ ] __IT2, VG3__: beskrive hvordan data kan beskyttes ved hjelp av
+  tilgangskontroll og kryptering  
+
+- [ ] __IT2, VG3__: kartlegge og analysere trusler, sårbarheter og risiko i
+  informasjonssystemer  
+
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
+
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene forstå hvorfor passord ikke bør lagres i klartekst
+
 - [ ] Elevene forstår hvorfor man bør salte passord
+
 - [ ] Elevene forstår hvorfor man ikke ønsker å bruke raske funksjoner
       for å hashe passord.
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven
+
 - [ ] Eleven oppnår høy måloppnåelse ved å etterpå kunne forklare
       hvorfor noen passord er bedre enn andre, og hvorfor enkle
       erstatningsteknikker som "l" til "1" og "e" til "3" ikke gir
@@ -58,6 +74,7 @@ __Tidsbruk__: Dobbeltime
 
 - [ ]  __Forutsetninger__: God kjennskap til Python. Gjennomført
        tidligere oppgaver som beskrevet over.
+
 - [ ]  __Utstyr__: Datamaskin med Python 3.4 eller høyere installert
 
 ## Fremgangsmåte
@@ -72,6 +89,8 @@ være spennende fordi den er så tett innpå det som er *best practice* i
 den virkelige verden.
 
 ## Variasjoner {.challenge}
+
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 
 ## Eksterne ressurser {.challenge}
 
