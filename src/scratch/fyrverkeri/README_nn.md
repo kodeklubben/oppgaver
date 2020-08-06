@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Fyrverkeri
 level: 2
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -25,19 +25,17 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 2. trinn__: bruke dekorative element frå kunst og
-  kunsthandverk i eigne arbeid
+- [ ]  __Kunst og handverk, 2. trinn__: utforske ulike visuelle uttrykk og
+      bygge vidare på andres idear i eige skapande arbeid
 
-- [ ] __Kunst og handverk, 7. trinn__: bruke fargekontrastar, forminsking og
-  sentralperspektiv for å gi illusjon av rom i bilete både med og utan digitale
-  verktåy
+- [ ]  __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
+       verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktåy
+- [ ]  __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
+       koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ]  __Matematikk, 6. trinn__: utforske og beskrive symmetri i mønster og
+       utføre kongruensavbildinger med og utan koordinatsystem
 
 ## Forslag til læringsmål {.challenge}
 
