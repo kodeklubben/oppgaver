@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Felix og Herbert
 level: 1
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -26,20 +26,20 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 2. trinn__: bruke digitale ressursar i oppleving av språket
+- [ ] __Engelsk, 4. årstrinn__: bruke digitale ressursar og ulike ordbøker i
+        språklæring, tekstskaping og samhandling
 
-- [ ] __Engelsk, 4. trinn__: bruke digitale ressursar og andre hjelpemiddel i
-  utforsking av språket
+- [ ] __Engelsk fordypning, 10. årstrinn__: utforske og presentere innhald,
+        form og formål i spel, film og musikk
 
-- [ ] __Engelsk, 7. trinn__: uttrykke seg på ein kreativ måte inspirert av ulike
-  typer engelskspråklege litterøre tekstar fra ulike kjelder
+- [ ] __Norsk, 2. årstrinn__: uttrykke tekstopplevingar gjennom leik, song,
+      teikning, skriving og andre kreative aktivitetar
 
-- [ ] __Norsk, 4. trinn__: lage tekstar som kombinerer ord, lyd og bilete, med
-  og utan digitale verktåy
+- [ ] __Norsk, 2. årstrinn__: lage tekstar som kombinerer skrift med bilde
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Programmering, 10. årstrinn__: bruke grunnleggande prinsipp i programmering
+      , slik som variablar, løkker, vilkår og funksjonar, og reflektere over
+      bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
