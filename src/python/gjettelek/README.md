@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Gjettelek
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -15,7 +15,7 @@ høyt.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, informasjonsteknologi 2
+__Fag__: Programmering, IT1
 
 __Anbefalte trinn__: 7. trinn - VG2
 
@@ -25,15 +25,17 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __IT2, VG3__: teste og finne feil i programmer ved å bruke vanlige
-  teknikker
+- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
+  parametre og returverdier
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __IT1, VG2__: forklare hva en algoritme er, og selv skrive strukturert og
+  effektiv kode for å løse små problemer
+
+- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
