@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Noregstur
 level: 3
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -24,22 +24,23 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
+      koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmar med bruk av
+      variablar, vilkår og løkker
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Samfunnsfag, 4. trinn__: beskrive kultur- og naturlandskap i Noreg og
+      samtale om korleis historiske og geografiske kjelder, inkludert kart, kan
+      gi informasjon om landskap
 
-- [ ] __Samfunnsfag, 4. trinn__: plassere heimstaden, heimkommunen og heimfylket
-  på kart
+- [ ] __Samfunnsfag, 7. trinn__: beskrive geografiske hovudtrekk i ulike delar
+      av verda og reflektere over korleis desse hovudtrekka påverkar dei som
+      bur der
 
-- [ ] __Samfunnsfag, 10. trinn__: lese, tolke og bruke papirbaserte og digitale
-  kart, målestokk og kartteikn
+- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+      programmering, slik som variablar, løkker, vilkår og funksjonar, og
+      reflektere over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
