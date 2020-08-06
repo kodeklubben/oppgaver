@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Redd verda
 level: 2
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -24,18 +24,17 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 3. trinn__: eksperimenter med og forklar plasseringar i
+      koordinatsystemet
 
-- [ ] __Naturfag, 4. trinn__: praktisere kjeldesortering og diskutere kvifor
-  kjeldesortering er viktig
+- [ ] __Naturfag, 2. trinn__: utforske og beskrive observerbare eigenskapar til
+      ulike objekt, materiale og stoff og sortere etter eigenskapar
 
-- [ ] __Norsk, 4. trinn__: lage tekstar som kombinerer ord, lyd og bilete, med
-  og utan digitale verktøy
+- [ ] __Norsk, 4. trinn__: lage tekstar som kombinerer skrift med bilde
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+      programmering, slik som variablar, løkker, vilkår og funksjonar, og
+      reflektere over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
