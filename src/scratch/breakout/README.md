@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Breakout
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 4
 language: nb
 ---
@@ -30,27 +30,25 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke digitale verktøy til å planlegge
+      og presentere prosesser og produkter
 
-- [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske
-      former i konstruksjon og som dekorative formelementer
+- [ ] __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+      virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+- [ ] __Matematikk, 4. trinn__: lage og følge regler og trinnvise instruksjoner
+      i lek og spill knyttet til koordinatsystem
 
-- [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre speiling, rotasjon og
-      parallellforskyvning
+- [ ] __Matematikk, 6. trinn__: utforske og beskrive symmetri i mønster og
+      utføre kongruensavbildinger med og uten koordinatsystem
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsystem
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+      programmering til å utforske geometriske figurer og mønster
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
-
+      programmering, slik som variabler, løkker, vilkår og funksjoner, og
+      reflektere over bruken av disse
+      
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan lage bokser i form av rektangler, og bruke dem i et spill.
