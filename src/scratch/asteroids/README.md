@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Asteroids
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 4
 language: nb
 ---
@@ -30,24 +30,17 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+- [ ] __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+      virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+- [ ] __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
+      i lek og spill knyttet til koordinatsystem
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsystem
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+      vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
-
-- [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
-      generalisere og tilpasse eksisterende programkode og algoritmer.
+- [ ] __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
+      vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

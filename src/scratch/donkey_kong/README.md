@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Donkey Kong
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 4
 language: nb
 ---
@@ -29,24 +29,24 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 2. trinn__: ta del i og oppleve barnekultur fra
-      engelskspråklige land gjennom å bruke ord, bilder, musikk og bevegelse
+- [ ] __Engelsk, 4. trinn__: tilegne seg ord, fraser og kulturell kunnskap
+      gjennom engelskspråklig litteratur og barnekultur
 
-- [ ] __Engelsk, 7. trinn__: lage, formidle og samtale om egne tekster inspirert
-      av engelskspråklig litteratur, film og kulturelle uttrykksformer
+- [ ] __Engelsk fordypning, 10. trinn__: utforske og presentere innhold, form og
+      formål i spill, film og musikk
 
-- [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+- [ ] __Kunst og håndtverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
+      videre på andres ideer i eget skapende arbeid
 
-- [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske
-      former i konstruksjon og som dekorative formelementer
+- [ ] __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+      virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ] __Naturfag, 2. trinn__: beskrive og illustrere hvordan jorda, månen og
-      sola beveger seg i forhold til hverandre, og fortelle om årstider, døgn og
-      månefaser
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+      fenomener
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til 
+      delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+      programmering
 
 ## Forslag til læringsmål {.challenge}
 
