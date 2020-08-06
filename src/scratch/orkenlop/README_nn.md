@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Ørkenløp
 level: 2
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -26,19 +26,14 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre spegling, rotasjon og
-  parallellforskyving
+- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
+      programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planleggje, laga og
+      vurdere spilldesign og eigne spel
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
-
-- [ ] __Programmering, 10. trinn__: overføre løysingar til nye problem ved å
-  generalisere og tilpasse eksisterande programkode og algoritmar.
+- [ ] __Programmering, 10. trinn__: planleggje og skape eit digitalt produkt og
+      vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 
