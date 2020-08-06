@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Flagg
 level: 3
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -28,24 +28,27 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 2. trinn__: byggje med enkle geometriske grunnformer
+- [ ] __Kunst og handverk, 2. trinn__: eksperimentere med form, farge, rytme og
+      kontrast
 
-- [ ] __Kunst og handverk, 4. trinn__: bruke enkle funksjonar i digitale
-  bildehandsamingsprogram
+- [ ] __Kunst og handverk, 4. trinn__: tolke former og symbol frå ulike
+      kulturar og bruke desse i visuelle uttrykk
 
-- [ ] __Kunst og handverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelement
+- [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Kunst og handverk, 7. trinn__: bruke fargekontrastar, forminsking og
-  sentralperspektiv for å gi illusjon av rom i bilete både med og utan digitale
-  verktøy
+- [ ] __Kunst og handverk, 10. trinn__: visualisere form ved hjelp av
+      frihandteikningar, arbeidsteikningar, modeller og digitale verktøy
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 4. trinn__: utforske, beskrive og samanlikne eigenskapar
+      ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
+      programmering til å utforske geometriske figurar og mønster
+
+- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+      programmering, slik som variablar, løkker, vilkår og funksjonar, og
+      reflektere over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
