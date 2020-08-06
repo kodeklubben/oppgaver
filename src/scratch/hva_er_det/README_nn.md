@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Kva er det?
 level: 3
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -25,12 +25,12 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 4. trinn__: bruke enkle funksjonar i digitale
-  bildehandsamingsprogram
+- [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+      programmering, slik som variablar, løkker, vilkår og funksjonar, og
+      reflektere over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
