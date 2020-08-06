@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Soloball
 level: 1
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -23,18 +23,20 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: teikne, byggje, utforske og beskrive geometriske
-  figurar og modellar i praktiske samanhengar, medrekna teknologi og design
+- [ ]  __Matematikk, 4. årstrinn__: utforske, beskrive og samanlikne eigenskapar
+       ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne
 
-- [ ] __Matematikk, 4. trinn__: lage og utforske geometriske mønster og beskrive
-  dei munnleg
+- [ ]  __Matematikk, 6. årstrinn__: beskrive eigenskapar ved og
+       minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva
+       eigenskapar figurane har felles, og kva eigenskapar som skil dei frå
+       kvarandre
 
-- [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre spegling, rotasjon og
-  parallellforskyving
+- [ ]  __Matematikk, 6. årstrinn__: bruke variablar, løkker, vilkår og
+       funksjonar i programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ]  __Programmering, valgfag__: bruke grunnleggande prinsipp i
+       programmering, slik som variablar, løkker, vilkår og funksjonar, og
+       reflektere over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 

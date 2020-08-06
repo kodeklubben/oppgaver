@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Tegneprogram
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 3
 language: nb
 ---
@@ -17,7 +17,7 @@ og mye mer!
 ## Oppgaven passer til: {.check}
 
  __Fag__: Kunst og håndtverk, matematikk, programmering.
- 
+
 __Anbefalte trinn__: 3.-10. trinn.
 
 __Tema__: Tegning, koordinatsystem, brukerinteraksjon.
@@ -26,16 +26,25 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+- [ ] __Kunst og håndtverk, 2. trinn__: eksperimentere med form, farge, rytme og
+      kontrast
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+- [ ] __Kunst og håndtverk, 4. trinn__: gjennomføre kunst- og designprosesser
+      ved å søke inspirasjon, utforske muligheter, gjøre valg og lage egne
+      produkter
+
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
+
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
+      koordinatsystemet
+
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av  
+      variabler, vilkår og løkker
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+      programmering, slik som variabler, løkker, vilkår og funksjoner, og
+      reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
@@ -103,4 +112,3 @@ løsninger:
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-
