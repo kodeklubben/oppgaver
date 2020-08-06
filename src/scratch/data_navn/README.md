@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - Bruk data: Jente- og guttenavn"
-author: Madeleine Lorås og Lars Klingenberg
+author: Madeleine Lorås, Lars Klingenberg, Vegard Tuset
 level: 2
 language: nb
 ---
@@ -23,23 +23,15 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 2. årstrinn__: samle, sortere, notere og illustrere data med
-      tellestreker, tabeller og søylediagrammer, og samtale om prosessen og hva
-      illustrasjonene forteller om datamaterialet
+- [ ] __Matematikk, 7. årstrinn__: logge, sortere, presentere og lese data i
+      tabeller og diagram og grunngi valget av framstilling
 
-- [ ] __Matematikk, 4. årstrinn__: samle, sortere, notere og illustrere data på
-      hensiktsmessige måter med tellestreker, tabeller og søylediagrammer, med
-      og uten digitale verktøy, og samtale om prosess og framstilling
+- [ ] __Matematikk, 9. årstrinn__: beregne og vurdere sannsynlighet i statistikk
+      og spill
 
-- [ ] __Matematikk, 7. årstrinn__: representere data i tabeller og diagrammer
-      som er framstilt med og uten digitale verktøy, lese og tolke
-      framstillingene og vurdere hvor nyttige de er
-
-- [ ] __Norsk, 4. årstrinn__: søke etter informasjon, skape, lagre og gjenfinne
-      tekster ved hjelp av digitale verktøy
-
-- [ ] __Norsk, 7. årstrinn__: velge ut og vurdere informasjon fra bibliotek og
-      digitale informasjonskanaler
+- [ ] __Norsk, 7. årstrinn__: orientere seg i faglige kilder på bibliotek og
+      digitalt, vurdere hvor pålitelige kildene er, og vise til kilder i egne
+      tekster
 
 ## Forslag til læringsmål {.challenge}
 
