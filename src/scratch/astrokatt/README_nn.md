@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Astrokatt
 level: 1
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -23,17 +23,20 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 7. trinn__: bruke fargekontrastar, forminsking og
-  sentralperspektiv for å gi illusjon av rom i bilete både med og utan digitale
-  verktøy
+- [ ]  __Naturfag, 7. trinn__: beskrive og visualisere korleis døgn, månefasar
+       og årstider oppstår, og samtale om korleis dette påverkar livet på jorda
 
-- [ ] __Naturfag, 2. trinn__: beskrive og illustrere korleis jorda, månen og
-  sola bevegar seg i forhold til kvarandre, og fortelje om årstider, døgn og
-  månefasar
+- [ ]  __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+       system som består av delar som verkar saman
 
-- [ ] __Naturfag, 7. trinn__: bruke animasjonar og andre modellar til å beskrive
-  korleis planetane og månen bevegar seg, og forklare korleis det blir årstider
-  og månefasar
+- [ ]  __Kunst og handtverk, 7. trinn__: teikne form, flate og rom ved hjelp av
+       verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
+
+- [ ]   __Kunst og handtverk, 7. trinn__: bruke programmering til å skape
+       interaktivitet og visuelle uttrykk
+
+- [ ]  __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise
+       instruksjonar i leik og spel knytte til koordinatsystemet
 
 ## Forslag til læringsmål {.challenge}
 
