@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - Kontroller med med musen
+title: Lærerveiledning - Kontroller med musen
 level: 3
 language: nb
 author: Vegard Tuset
