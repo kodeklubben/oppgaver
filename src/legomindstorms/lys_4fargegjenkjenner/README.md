@@ -9,7 +9,7 @@ author: Vegard Tuset
 
 I denne oppgaven skal vi konstruere og programmere roboten til å fortelle
 hvilken farge klossene du holder fram har. Den skal både skrive fargen i
-displayet og «rope» ut hvilken farge du har.
+displayet og «rope» ut hvilken farge de har.
 
 ## Oppgaven passer til: {.check}
 
