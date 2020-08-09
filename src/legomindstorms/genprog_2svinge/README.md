@@ -8,7 +8,7 @@ author: Vegard Tuset
 # Om oppgaven {.activity}
 
 I denne oppgaven skal vi programmere roboten til først å kjøre ved å bruke
-vekselsvis venstre og høyre motor. Roboten vi da svinge, og det kreves mye
+vekselsvis venstre og høyre motor. Roboten vil da svinge, og det kreves mye
 trening for å få den til å svinge akkurat slik vi ønsker. Deretter skal vi
 svinge ved å bruke «Kjør med styring» Objektet «Stor motor» har mange av de
 samme valgene som «Kjør med styring».
