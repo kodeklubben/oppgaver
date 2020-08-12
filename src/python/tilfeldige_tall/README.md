@@ -15,9 +15,9 @@ og egnede trinn er velkomne.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, matematikk
+__Fag__: Matematikk, Programmering, IT1
 
-__Anbefalte trinn__: 8. trinn--VG3
+__Anbefalte trinn__: 7. trinn--VG3
 
 __Tema__: Kryptografi, tilfeldige tall, dokumentasjon
 
@@ -25,31 +25,45 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Valgfag programmering__: Prinsipper som ligger til grunn for
-      god programmeringspraksis inngår også i hovedområdet, deriblant
-      forklaring og dokumentasjon av løsninger og programkode; vurdering
-      og analyse av egen og andres programkode (Fra hovedområdene)
-- [ ] __Informasjonsteknologi__: lese og bruke dokumentasjon og kode
-- [ ] __Matematikk__ (etter 10. klasse): ordne og gruppere data, (...)
-      presentere data, med og utan digitale verktøy, og drøfte ulike
-      dataframstillingar og kva inntrykk dei kan gje
+
+- [ ] __Matematikk, 7. trinn__: logge, sortere, presentere og lese data i
+  tabeller og diagram og grunngi valget av framstilling
+
+- [ ] __Matematikk, 7. trinn__: bruk programmering til å utforske data i
+  tabeller og datasett
+
+- [ ] __Matematikk, 8. trinn__: utforske hvordan algoritmer kan skapes, testes
+  og forbedres ved hjelp av programmering
+
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
+
+- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
+  parametre og returverdier
+
+- [ ] __IT1, VG2__: utforske trusler mot datasikkerheten og kjenne til
+  beskyttende tiltak for noen av disse  
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Elevene kan lese dokumentasjonen på en selvstendig måte og hente
+- [ ] Elevene kan lese kode og dokumentasjonen på en selvstendig måte og hente
       ut den nødvendige dokumentasjonen
+
 - [ ] Elevene kan forstå og undersøke om data er tilnærmet uniformt
       fordelt
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven.
+
 - [ ] Eleven oppnår høy måloppnåelse ved å kunne gjøre rede for hvilke
       krav vi må stille til tilfeldigheten i dette tilfellet.
 
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ]  __Forutsetninger__: God kjennskap til Python
+
 - [ ]  __Utstyr__: Datamaskin med Python installert
 
 ## Fremgangsmåte
@@ -59,4 +73,8 @@ tilknyttet denne oppgaven enda.
 
 ## Variasjoner {.challenge}
 
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
+
 ## Eksterne ressurser {.challenge}
+
+- [ ] Foreløpig ingen eksterne ressurser ...
