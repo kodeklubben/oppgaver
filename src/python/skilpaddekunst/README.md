@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Skilpaddekunst
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -12,7 +12,7 @@ figurer ved hjelp av `turtle`-biblioteket.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, Kunst og håndtverk
+__Fag__: Matematikk, Kunst og håndtverk, Programmering
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -22,19 +22,25 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-  - [ ] __Kunst og håndtverk, 2. trinn__: eksperimentere med enkle geometriske
-    former i konstruksjon og som dekorative formelementer
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke digitale verktøy til å planlegge
+    og presentere prosesser og produkter
 
-- [ ] __Matematikk, 2. trinn__: gjennkjenne og beskrive trekk ved enkle to- og
-  tredimensjonale figurer i forbindelse med hjørner, kanter og flater, og
-  sortere og sette navn på figurene etter disse trekkene
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 10. trinn__: bruke koordinater til å avbilde figurer og
-  utforske egenskaper ved geometriske former, med og uten digitale verktøy
+- [ ] __Matematikk, 6. trinn__: beskrive egenskaper ved og minimumsdefinisjoner
+  av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene har
+  felles, og hvilke egenskaper som skiller dem fra hverandre
+
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønster
+
+- [ ] __Matematikk, 9. trinn__: beskrive, forklare og presentere strukturer og
+  utviklinger i geometriske mønster og i tallmønster
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
