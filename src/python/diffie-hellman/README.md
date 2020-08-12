@@ -54,7 +54,7 @@ __Tidsbruk__: Dobbeltime
 
 - [ ] Elevene behersker modulo-regning
 
-- [ ] Elevene kan forklare hvordan nøkkelutveksling fungerer, og hvorfor det er
+- [ ] Elevene kan forklare hvordan nøkkelutveksling fungerer, og hvorfor det
       fungerer som en kryptering
 
 - [ ] Elevene kan lese, forstå og endre andres programkode
