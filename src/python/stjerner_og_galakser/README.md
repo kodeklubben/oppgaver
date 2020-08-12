@@ -1,13 +1,13 @@
 ---
 title: Lærerveiledning - Stjerner og galakser
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi se nærmere på hvordan funkjoner kan gjøre programmene
+I denne oppgaven skal vi se nærmere på hvordan funksjoner kan gjøre programmene
 vi skriver enklere og mer oversiktlige. Spesielt så skal vi se hvordan
 if-setninger kan brukes til å tegne stjerner og galakser.
 
@@ -15,7 +15,7 @@ if-setninger kan brukes til å tegne stjerner og galakser.
 
 __Fag__: Programmering
 
-__Anbefalte trinn__: 8.-10. trinn
+__Anbefalte trinn__: 7.-10. trinn
 
 __Tema__: Funksjoner, if-setninger, Skilpadder
 
@@ -23,16 +23,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer,
-  vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
-  for disse
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
-- [ ] __Programmering, 10. trinn__: utvikle og feilsøke programmer som løser
-  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
-  eller simulering av fysiske objekter
+- [ ] __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+  virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelementer
+- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+  frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
 ## Forslag til læringsmål {.challenge}
 
@@ -62,8 +61,8 @@ __Tidsbruk__: Dobbelttime
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. [Klikk her for å se
-oppgaveteksten.](../stjerner_og_galakser/stjerner_og_galakser.html){target=_blank}
+oppgaven.
+[Klikk her for å se oppgaveteksten.](../stjerner_og_galakser/stjerner_og_galakser.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
