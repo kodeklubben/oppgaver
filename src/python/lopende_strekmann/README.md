@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - PGZ - Løpende strekmann
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -13,7 +13,7 @@ styrer en strekmann som hopper over hindringer.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Programmering, IT1
 
 __Anbefalte trinn__: 7.- VGS
 
@@ -24,23 +24,23 @@ __Tidsbruk__: Dobbeltime eller mer
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer,
-  vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
-  for disse
-
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
-- [ ] __Programmering, 10. trinn__: utvikle og feilsøke programmer som løser
-  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
-  eller simulering av fysiske objekter
+- [ ] __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
-- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-  å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
+
+- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
+  parametre og returverdier
+
+- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode 
 
 ## Forslag til læringsmål {.challenge}
 
