@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Ordbøker
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -15,7 +15,7 @@ ordbøker til å lage en enkel handleliste.
 
 __Fag__: Engelsk, Programmering
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 7.trinn - VGS
 
 __Tema__: Ordbøker, funksjoner, løkker
 
@@ -23,15 +23,14 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 7. trinn__: bruke digitale ressurser og andre hjelpemidler i
-  egen språklæring
+- [ ] __Engelsk, 7. trinn__: bruke digitale ressurser og ulike ordbøker i
+  språklæring, tekstskaping og samhandling
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Engelsk, VG1__: bruke egnede digitale ressurser og andre hjelpemidler i
+  språklæring, tekstskaping og samhandling
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering
 
 ## Forslag til læringsmål {.challenge}
 
