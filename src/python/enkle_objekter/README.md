@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Enkle objekter
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 language: nb
 ---
 
@@ -11,7 +11,7 @@ I denne oppgaven får elevene en enkel innføring til klasser og objekter.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Informasjonsteknologi
+__Fag__: Programmering, IT1, IT2
 
 __Anbefalte trinn__: 8. trinn - VG3
 
@@ -21,15 +21,21 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett
-  er tekstbasert.
+- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk, deriblant
+   minst ett som er tekstbasert
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Informasjonsteknologi 2, VG3__: gjøre rede for hensikten med
-  objektorientert utvikling og begrepene klasse, objekt og arv.
+- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
+  parametre og returverdier  
+
+- [ ] __IT1, VG2__: forklare hva en algoritme er, og selv skrive strukturert og
+   effektiv kode for å løse små problemer    
+
+- [ ] __IT2, VG3__: lage objektorienterte programmer som benytter klasser med
+  metoder
 
 ## Forslag til læringsmål {.challenge}
 
