@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Skilpadder
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -12,7 +12,7 @@ skilpadder.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk
+__Fag__: Matematikk, Kunst og håndtverk, Programmering
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -22,19 +22,24 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelementer
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke digitale verktøy til å planlegge
+  og presentere prosesser og produkter
 
-- [ ] __Matematikk, 2. trinn__: gjennkjenne og beskrive trekk ved enkle to- og
-  tredimensjonale figurer i forbindelse med hjørner, kanter og flater, og
-  sortere og sette navn på figurene etter disse trekkene
+- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+  frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __Matematikk, 10. trinn__: bruke koordinater til å avbilde figurer og
-  utforske egenskaper ved geometriske former, med og uten digitale verktøy
+- [ ] __Matematikk, 2. trinn__: utforske, tegne og beskrive geometriske figurer
+  fra sitt eget nærmiljø og argumentere for måter å sortere de på etter egenskaper
+
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønster
+
+- [ ] __Matematikk, 9. trinn__: utforske egenskapene ved ulike polygoner og
+  forklare begrepene formlikhet og kongruens
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
