@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Komponer ein melodi"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -12,33 +12,33 @@ melodi.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Musikk, programmering, IT
+__Fag__: IT1, Matematikk, Musikk, Naturfag, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Musikk, løkker, variablar.
+__Tema__: Musikk, Lykkjer, Variablar
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Musikk, 2. trinn:__ setje saman musikalske grunnelement som klang,
-  rytme, dynamikk og melodiske motiv til små komposisjonar
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
 
-- [ ] __Musikk, 7. trinn:__ komponere og gjere lydopptak ved hjelp av digitale
-  verktøy
+- [ ] __Musikk, 2. trinn:__ leke med grunnelementer til musikken gjennom lyd og stemme, lage mønster og setja saman mønstere til enkle improvisasjonar og komposisjonar, også med digitale verktøy
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk der minst
-  eitt er tekstbasert
+- [ ] __Musikk, 4. trinn:__ eksperimentere med rytmar, melodiar og andre grunnelement, setja saman mønster til komposisjonar, også ved bruk av digitale verktøy, og beskrive arbeidsprosessar og resultat
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og omarbeide musikk
 
-- [ ] __IT2, VG3:__ tilordne uttrykk til variablar
+- [ ] __Musikk, 10. trinn:__ skape og programmere musikalske forløp ved å eksperimentere med lyd frå ulike kjelder
 
-- [ ] __IT2, VG3:__ lage eigne og bruke eigne og andre sine funksjonar eller
-  metodar med parameter
+- [ ] __Naturfag, 4. trinn:__ utforske teknologiske system som er satt saman av ulike delar, og beskrive korleis delane fungerer og verkar saman
+
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+
+- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
 
 ## Forslag til læringsmål {.challenge}
 

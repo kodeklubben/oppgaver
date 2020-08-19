@@ -180,11 +180,9 @@ komponert!*
 - [ ] Last ned prosjektet til micro:biten og lytt!
 
 
-# Steg 4: Non utfordringer {.activity}
+## Noen utfordringer {.challenge}
 
 *Noen forslag til endringer og utvidelser, men prøv selv dine ideer!*
-
-## Flere ideer {.check}
 
 Du har nå lært hvordan du kan skrive en melodi i micro:biten. Nedenfor er noen
 ideer til videreutvikling, men finn gjerne på noe
