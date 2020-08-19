@@ -6,7 +6,7 @@ language: nb
 
 
 # Introduksjon {.intro}
-I denne opggaven skal vi få et hjerte til å blinke i ulike hastigheter.
+I denne oppgaven skal vi få et hjerte til å blinke i ulike hastigheter.
 
 
 # Steg 1: Vi finner "gjenta for alltid"-klossen {.activity}
