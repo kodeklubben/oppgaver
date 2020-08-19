@@ -82,17 +82,6 @@ slik at det tilfeldige talet blir vist i staden for __1__ som me fekk opp før.
   `velg tilfeldig 0 til 4`{.microbitmath}-klossen vel micro:biten mellom tala
   0, 1, 2, 3 og 4. Korleis kan me få micro:biten til å velje mellom tala 1 til 6?
 
-Me gir deg ikkje heile svaret, du må prøve litt på eiga hand! Men under er to
-tips viss du står fast.
-
-- [ ] Du kan endre på __4__-talet i `velg tilfeldig 0 til 4`{.microbitmath}-klossen.
-Kva skjer då?
-
-- [ ] Du kan ikkje endre på __0__ i `velg tilfeldig`{.microbitmath}-klossen. I
-staden kan du kombinere denne klossen med `0 + 0`{.microbitmath}-klossen som du
-òg finn i `Matematikk`{.microbitmath}-kategorien.
-
-
 # Steg 3: Terningen rullar {.activity}
 
 *Ein terning landar jo ikkje berre på ei side, den rullar og viser mange sider
@@ -110,7 +99,7 @@ før den stoppar.*
   ```microbit
   input.onGesture(Gesture.Shake, function () {
     for (let i = 0; i < 4; i++) {
-        basic.showNumber(1 + Math.randomRange(0, 5))
+        basic.showNumber(Math.randomRange(1, 6))
     }
   })
   ```
@@ -145,7 +134,7 @@ micro:biten?
   let terning = 0
   input.onGesture(Gesture.Shake, function () {
     for (let i = 0; i < 4; i++) {
-        terning = 1 + Math.randomRange(0, 5)
+        terning = Math.randomRange(1, 6)
         basic.showNumber(terning)
     }
   })
@@ -174,7 +163,7 @@ så kan me til dømes vise eit smilefjes kvar gong me kastar 6:
     let terning = 0
     input.onGesture(Gesture.Shake, function () {
       for (let i = 0; i < 4; i++) {
-        terning = 1 + Math.randomRange(0, 5)
+        terning = Math.randomRange(1, 6)
         basic.showNumber(terning)
       }
       if (terning == 6) {
