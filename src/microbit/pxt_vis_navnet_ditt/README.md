@@ -12,19 +12,21 @@ skjermen.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Løkker, variabler.
+__Tema__: Løkker
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
+
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
