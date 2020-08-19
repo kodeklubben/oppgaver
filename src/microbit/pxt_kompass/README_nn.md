@@ -11,36 +11,39 @@ I denne oppgåva skal elevane lage eit kompass av ein micro:bit.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Naturfag, programmering, IT, samfunnsfag, teknologi i praksis.
+__Fag__: IT1, Programmering, Naturfag, Matematikk
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Himmelretningar, løkker.
+__Tema__: Lykkjer, Variablar, Vilkår, Himmelretningar
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Naturfag, VG1:__ bruke enkle datasimuleringar eller animasjonar for å
-  illustrere og forklare naturfaglege fenomen og teste hypoteser
+- [ ] __Matematikk, 4. trinn:__ lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk der minst
-  eitt er tekstbasert
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 10. trinn:__ utforske matematiske eigenskapar og samanhengar ved å bruke programmering
 
-- [ ] __IT2, VG3:__ tilordne uttrykk til variablar
+- [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
 
-- [ ] __IT2, VG3:__ lage eigne og bruke eigne og andre sine funksjonar eller
-  metodar med parameter
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
-- [ ] __Samfunnsfag, 4. trinn:__ peike ut og orientere seg etter himmelretningar
-  og gjere greie for kvifor det er tidsskilnader
+- [ ] __Naturfag, 10. trinn:__ bruke og lage modellar for å føreseia eller beskrive naturfaglige prosessar og system og gjera reie for styrkane til modellane og begrensinger
 
-- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
-  materiale, komponentar, og funksjonelle teknologiske løysingar
+- [ ] __Naturfag, 10. trinn:__ bruke programmering til å utforske naturfaglige fenomen
+
+- [ ] __Naturfag, VG1:__ vurdere og lage program som modellerer naturfaglige fenomen
+
+- [ ] __Naturfag, VG3 Påbygg:__ vurdere og lage program som modellerer naturfaglige fenomen
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+
+- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
+
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 
@@ -67,9 +70,6 @@ __Tidsbruk__: Dobbelttime
 Her kjem tips, erfaringar og utfordringar til dei ulike stega i den faktiske
 oppgåva. [Klikk her for å sjå
 oppgåveteksten.](../pxt_kompass/kompass_nn.html){target=_blank}
-
-_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
-oppgaven enda._
 
 _Me har diverre ikkje nokon tips, erfaringar eller utfordringar tilknytta denne
 oppgåva endå._
