@@ -12,28 +12,29 @@ matbitar som fell ned på skjermen.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Matematikk, programmering, IT
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Spel, koordinatsystem.
+__Tema__: Spill, Variabler, Løkker, Vilkår, Koordinater
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringar i koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn:__ beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk, 3. trinn:__ lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturar og mønster i leik og spel
 
-- [ ] __IT2, VG3:__ programmere med val og gjentakingar
+- [ ] __Matematikk, 4. trinn:__ lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
+
+- [ ] __Matematikk, 7. trinn:__ bruke tallinje i rekning med positive og negative tal
+
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilledesign og egne spill
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
