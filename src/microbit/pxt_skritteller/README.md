@@ -32,7 +32,7 @@ __Tidsbruk__: Dobbeltime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Teknologi og forskningslære, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
 
 ## Forslag til læringsmål {.challenge}
 
