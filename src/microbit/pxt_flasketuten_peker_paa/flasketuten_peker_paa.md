@@ -206,11 +206,9 @@ teste at pilen snurrer og blinker som den skal.
 - [ ] Nå kan dere leke Flasketuten peker på.
 
 
-# Steg 4: Noen utfordringer {.activity}
+## Noen utfordringer {.challenge}
 
 *Noen forslag til endringer og utvidelser. Prøv gjerne dine egne ideer!*
-
-## Flere ideer {.check}
 
 Du har nå lært hvordan du kan lage en enkel animasjon med micro:bit. Nedenfor
 er noen ideer til videreutvikling, men finn gjerne på noe helt eget!
