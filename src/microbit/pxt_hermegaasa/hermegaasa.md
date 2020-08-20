@@ -1,6 +1,6 @@
 ---
 title: "PXT: Hermegåsa"
-author: Felix Bjerke og Tjerand Silde
+author: Felix Bjerke, Tjerand Silde og Susanne Rynning Seip
 language: nb
 ---
 
@@ -59,27 +59,32 @@ har fått svar på den forrige.*
 ## Sjekkliste {.check}
 
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
-  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}
-  .
+  [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=_blank}.
 
-- [ ] Finn blokken `ved start` under *Basis* og dra den inn i kodefeltet.
+- [ ] Finn blokken `ved start`{.microbitbasic} under `Basis`{.microbitbasic} og dra den inn i kodefeltet.
 
-- [ ] Gå til *Radio* og finn blokken `radio sett gruppe`. I utgangspunktet står
-  det tallet `1` i denne blokken, men du bestemmer selv hvilket tall du vil
-  bruke.
+- [ ] Gå til `Radio`{.microbitradio} og finn blokken `radio sett gruppe`{.microbitradio}. I utgangspunktet står det tallet `1` i denne blokken, men du bestemmer selv hvilket tall du vil bruke.
 
-- [ ] Til slutt går vi til *Variabler* og velger blokken `sett variabel til`.
+- [ ] Til slutt går vi til `Variabler`{.microbitvariables} og velger blokken `sett variabel til`{.microbitvariables}.
   Denne kan du bytte navn på ved å klikke på _variabel_ og så på _Rename
-  variable_. Den bør hete _MessageSent_.
+  variable_. Den bør hete `MessageSent`{.microbitvariables}.
 
-- [ ] Til _MessageSent_ kobler vi blokken `usann`, som du finner under *Logikk*.
+- [ ] Til `MessageSent`{.microbitvariables} kobler vi blokken `usann`{.microbitlogic}, som du finner under `Logikk`{.microbitlogic}.
 
 - [ ] Når spillet starter skal alle spillerne ha `0` poeng. Lag en variabel for
-  hver spiller med navn `Player1`, `Player2` osv. som du setter til `0` poeng.
+  hver spiller med navn `Player1`{.microbitvariables}, `Player2`{.microbitvariables} osv. som du setter til `0` poeng.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
-  ![Bilde av koden for å sette opp en radiogruppe](start.png)
+```microbit
+  radio.setGroup(37)
+  let Player5 = 0
+  let Player4 = 0
+  let Player3 = 0
+  let Player2 = 0
+  let Player1 = 0
+  let MessageSent = false
+```
 
 ### OBS! {.protip}
 
@@ -98,39 +103,76 @@ vi beskjed om at den spilleren vant.*
 
 ## Sjekkliste {.check}
 
-- [ ] Først legger vi til `gjenta for alltid`-blokken fra *Basis*.
+- [ ] Først legger vi til `gjenta for alltid`{.microbitbasic}-blokken fra `Basis`{.microbitbasic}.
 
 - [ ] Vi vil vise poengsummen til hver spiller i radene på skjermen til
-  spillederen. `Player1` vises i rad `1`, `Player2` vises i rad `2` osv. Legg
-  til blokken `tenn x y` fra *Skjerm*. La `y` være lik `0`.
+  spillederen. `Player1`{.microbitvariables} vises i rad `1`, `Player2`{.microbitvariables} vises i rad `2` osv. Legg
+  til blokken `tenn x y`{.microbitled} fra `Skjerm`{.microbitled}. La `y` være lik `0`.
 
 - [ ] Vi må sette `x` til å være lik poengsummmen til spillerne. Fordi
   koordinatene til skjermen starter på `(0,0)` og _ikke_ `(1,1)` så må vi trekke
   fra ett poeng hele tiden, slik at lysene sier hvor mange poeng spilleren har.
   Det kan gjøres slik:
 
-  ![Bilde av koden for å lage en løkke som går for alltid](forever_part1.png)
+```microbit
+  basic.forever(function () {
+      led.plot(Player1 - 1, 0)
+  })
+```
 
-- [ ] Gjør det samme for `Player2`, `Player3`, `Player4` og `Player5`.
+- [ ] Gjør det samme for `Player2`{.microbitvariables}, `Player3`{.microbitvariables}, `Player4`{.microbitvariables} og `Player5`{.microbitvariables}.
 
-- [ ] Legg til en `hvis-blokken`og sjekk om `Player1` er lik `5` poeng. Da har
+- [ ] Legg til en `hvis`{.microbitlogic}-klossen og sjekk om `Player1`{.microbitvariables} er lik `5` poeng. Da har
   spilleren vunnet.
 
-- [ ] Dersom `Player1` har `5` poeng så skal vi sende ut beskjed til alle om
-  dette. Først legger vi til `radio send tekst`, og så legger vi til `vis
-  tekst`. Sett begge tekstene til _P1 Won!_. Da ser koden slik ut:
+- [ ] Dersom `Player1`{.microbitvariables} har `5` poeng så skal vi sende ut beskjed til alle om
+  dette. Først legger vi til `radio send tekst`{.microbitradio}, og så legger vi til `vis tekst`{.microbitbasic}. Sett begge tekstene til _P1 Won!_. Da ser koden slik ut:
 
-![Bilde av koden for å sjekke om en spiller 5 har vunnet](forever_part2.png)
+```microbit
+  basic.forever(function () {
+      led.plot(Player1 - 1, 0)
+      led.plot(Player2 - 1, 1)
+      led.plot(Player3 - 1, 2)
+      led.plot(Player4 - 1, 3)
+      led.plot(Player5 - 1, 4)
+      if (Player1 == 5) {
+          radio.sendString("P1 won!")
+          basic.showString("P1 won")
+      }
+```
 
-- [ ] Utvid `hvis-blokken` til `hvis - ellers hvis - ellers hvis - ellers hvis -
-  ellers hvis`, slik at du kan sjekke poengene til alle spillere, og gjør det
-  samme for `Player2`, `Player3`, `Player4` og `Player5` dersom de har vunnet
+- [ ] Utvid `hvis`{.microbitlogic}-klossen til `hvis - ellers hvis - ellers hvis - ellers hvis -
+  ellers hvis`{.microbitlogic}, slik at du kan sjekke poengene til alle spillere, og gjør det
+  samme for `Player2`{.microbitvariables}, `Player3`{.microbitvariables}, `Player4`{.microbitvariables} og `Player5`{.microbitvariables} dersom de har vunnet
   istedenfor.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
-  ![Bilde av koden for å sjekke om en spiller har vunnet](forever_part3.png)
-
+```microbit
+  basic.forever(function () {
+      led.plot(Player1 - 1, 0)
+      led.plot(Player2 - 1, 1)
+      led.plot(Player3 - 1, 2)
+      led.plot(Player4 - 1, 3)
+      led.plot(Player5 - 1, 4)
+      if (Player1 == 5) {
+          radio.sendString("P1 won!")
+          basic.showString("P1 won")
+      } else if (Player2 == 5) {
+          radio.sendString("P2 won!")
+          basic.showString("P2 won")
+      } else if (Player3 == 5) {
+          radio.sendString("P1 won!")
+          basic.showString("P1 won")
+      } else if (Player4 == 5) {
+          radio.sendString("P1 won!")
+          basic.showString("P1 won")
+      } else if (Player5 == 5) {
+          radio.sendString("P1 won!")
+          basic.showString("P1 won")
+      }
+  })
+```
 
 # Steg 3: Sende ut meldinger til deltagerne {.activity}
 
@@ -140,29 +182,66 @@ over.*
 
 ## Sjekkliste {.check}
 
-- [ ] Først må vi finne blokken som heter `når knapp A trykkes`. Den ligger
-  under *Inndata*.
+- [ ] Først må vi finne blokken som heter `når knapp A trykkes`{.microbitinput}. Den ligger
+  under `Inndata`{.microbitinput}.
 
-- [ ] Så henter vi `hvis-blokken` fra *Logikk* og setter den sammen med
-  `erlik-blokken` (`=`) fra samme kategori. Her skal du sjekke om `MessageSent`
-  er lik `usann`. Klarer du å sette dette sammen?
+- [ ] Så henter vi `hvis`{.microbitlogic}-blokken fra `Logikk`{.microbitlogic} og setter den sammen med
+  `erlik-blokken`{.microbitlogic} (`=`) fra samme kategori. Her skal du sjekke om `MessageSent`{.microbitvariables}
+  er lik `usann`{.microbitlogic}. Klarer du å sette dette sammen?
 
-- [ ] Inni `hvis-blokken` setter vi `radio send tekst` med teksten `A`.
+- [ ] Inni `hvis`{.microbitlogic}-blokken setter vi `radio send tekst`{.microbitradio} med teksten `A`.
 
-- [ ] Til slutt legger vi også til blokken `sett MessageSent til` fra
-  *Variabler* og setter verdien til `sann`.
+- [ ] Til slutt legger vi også til blokken `sett MessageSent til`{.microbitvariables} fra
+  `Variabler`{.microbitvariables} og setter verdien til `sann`{.microbitlogic}.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
-  ![Bilde av koden for å sende ut meldingen A](actions_button_a.png)
+```microbit
+  input.onButtonPressed(Button.A, function () {
+    if (MessageSent == false) {
+        radio.sendString("A")
+        MessageSent = true
+    }
+  })
+```
 
 - [ ] Gjør det samme for `B`, `C`, `<` og `>`. Sjekk tabellen ovenfor for å se
   hva som skal gjøres.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
-  ![Bilde av koden for å sende 5 ulike signaler](actions.png)
-
+```microbit
+  input.onButtonPressed(Button.A, function () {
+      if (MessageSent == false) {
+          radio.sendString("A")
+          MessageSent = true
+      }
+  })
+  input.onButtonPressed(Button.B, function () {
+      if (MessageSent == false) {
+          radio.sendString("B")
+          MessageSent = true
+      }
+  })
+  input.onButtonPressed(Button.AB, function () {
+      if (MessageSent == false) {
+          radio.sendString("C")
+          MessageSent = true
+      }
+  })
+  input.onGesture(Gesture.TiltLeft, function () {
+      if (MessageSent == false) {
+          radio.sendString("<")
+          MessageSent = true
+      }
+  })
+  input.onGesture(Gesture.TiltRight, function () {
+      if (MessageSent == false) {
+          radio.sendString(">")
+          MessageSent = true
+      }
+  })
+```
 
 # Steg 4: Sjekke svaret til deltagerne {.activity}
 
@@ -171,40 +250,73 @@ herme.*
 
 ## Sjekkliste {.check}
 
-- [ ] Finn `når radio mottar receivedNumber` fra *Radio*.
+- [ ] Finn `når radio mottar receivedNumber`{.microbitradio} fra `Radio`{.microbitradio}.
 
-- [ ] Sjekk om `MessageSent` er lik `sann`.
+- [ ] Sjekk om `MessageSent`{.microbitvariables} er lik `sann`{.microbitlogic}.
 
-- [ ] Dersom `MessageSent` er lik `sann` så skal du sjekke om `receivedNumber`
-  er lik `1`, for da har `Player1` vunnet denne runden. Vi får altså en
-  `hvis-blokk` inni en annen `hvis-blokk`.
+- [ ] Dersom `MessageSent`{.microbitvariables} er lik `sann`{.microbitlogic} så skal du sjekke om `receivedNumber`{.microbitvariables}
+  er lik `1`, for da har `Player1`{.microbitvariables} vunnet denne runden. Vi får altså en
+  `hvis`{.microbitlogic}-blokk inni en annen `hvis`{.microbitlogic}-blokk.
 
-- [ ] Dersom `receivedNumber` er lik `1` så tar vi blokken `endre Player1 med 1`
-  fra *Variabler* inni den innerste `hvis-blokken`.
+- [ ] Dersom `receivedNumber`{.microbitvariables} er lik `1` så tar vi blokken `endre Player1 med 1`{.microbitvariables}
+  fra `Variabler`{.microbitvariables} inni den innerste `hvis`{.microbitlogic}-blokken.
 
-- [ ] Under `endre Player1 med 1` legger du til `radio send tekst` med tallet
-  `1`. Da sender vi beskjed til alle om hvem som vant. Legg også til `vis tall`
+- [ ] Under `endre Player1 med 1`{.microbitvariables} legger du til `radio send tekst`{.microbitradio} med tallet
+  `1`. Da sender vi beskjed til alle om hvem som vant. Legg også til `vis tall`{.microbitbasic}
   med tallet `1`. Da viser vi det også på spillederen sin micro:bit.
 
-- [ ] Så legger vi til en pause på `1` sekund mellom de to `hvis-blokkene` før
+- [ ] Så legger vi til en pause på `1` sekund mellom de to `hvis`{.microbitlogic}-blokkene før
   vi går videre til neste runde. Dette gjør du ved å legge til blokken `pause
-  (ms)` og setter den til `1000`. Tusen millisekund er det samme som ett sekund.
+  (ms)`{.microbitbasic} og setter den til `1000`. Tusen millisekund er det samme som ett sekund.
 
-- [ ] Til slutt endrer vi `MessageSent` til `usann`.
-
-- [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
-
-  ![Bilde av koden for å sjekke om mottat svar er rett](check_answer_part1.png)
-
-- [ ] Utvid `hvis-blokken` til `hvis - ellers hvis - ellers hvis - ellers hvis -
-  ellers hvis`, slik at du kan sjekke om det var noen av de andre spillerne som
-  vant denne runden, og gjør det samme for `Player2`, `Player3`, `Player4` og
-  `Player5` dersom de har vunnet istedenfor.
+- [ ] Til slutt endrer vi `MessageSent`{.microbitvariables} til `usann`{.microbitlogic}.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
-  ![Bilde av koden for å sjekke hvem som svarte rett](check_answer_part2.png)
+```microbit
+  radio.onReceivedNumber(function (receivedNumber) {
+      if (MessageSent == true) {
+          if (receivedNumber == 1) {
+              Player1 += 1
+              radio.sendString("1")
+          }
+          MessageSent = false
+          basic.pause(1000)
+      }
+  })
+```
 
+- [ ] Utvid `hvis`{.microbitlogic}-blokken til `hvis - ellers hvis - ellers hvis - ellers hvis -
+  ellers hvis`{.microbitlogic}, slik at du kan sjekke om det var noen av de andre spillerne som
+  vant denne runden, og gjør det samme for `Player2`{.microbitvariables}, `Player3`{.microbitvariables}, `Player4`{.microbitvariables} og
+  `Player5`{.microbitvariables} dersom de har vunnet istedenfor.
+
+- [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
+
+```microbit
+  radio.onReceivedNumber(function (receivedNumber) {
+    if (MessageSent == true) {
+        if (receivedNumber == 1) {
+            Player1 += 1
+            radio.sendString("1")
+        } else if (receivedNumber == 2) {
+            Player2 += 1
+            radio.sendString("2")
+        } else if (receivedNumber == 3) {
+            Player3 += 1
+            radio.sendString("3")
+        } else if (receivedNumber == 4) {
+            Player4 += 1
+            radio.sendString("4")
+        } else if (receivedNumber == 5) {
+            Player5 += 1
+            radio.sendString("5")
+        }
+        MessageSent = false
+        basic.pause(1000)
+    }
+  })
+```
 
 # Steg 5: Overføre programmet til spillederen {.activity}
 
@@ -229,22 +341,25 @@ spillernummer, slik at vi kan sjekke hvem som vinner.*
 
 - [ ] Start et nytt PXT-prosjekt.
 
-- [ ] Finn blokken `ved start` under *Basis* og dra den inn i kodefeltet.
+- [ ] Finn blokken `ved start`{.microbitbasic} under `Basis`{.microbitbasic} og dra den inn i kodefeltet.
 
-- [ ] Gå til *Radio* og finn blokken `radio sett gruppe`. Husk å fylle inn det
+- [ ] Gå til `Radio`{.microbitradio} og finn blokken `radio sett gruppe`{.microbitradio}. Husk å fylle inn det
   samme tallet her som du gjorde på `spilleder`.
 
-- [ ] Gå så til *Variabler* og velger blokken `sett variabel til`. Denne kan du
+- [ ] Gå så til `Variabler`{.microbitvariables} og velger blokken `sett variabel til`{.microbitvariables}. Denne kan du
   bytte navn på ved å klikke på _variabel_ og så på _Rename variable_. Den bør
-  hete _Player_. Sett verdien til `1`.
+  hete `Player`. Sett verdien til `1`.
 
-- [ ] Til slutt viser vi tallet vårt til skjerm, ved å hente blokken `vis tall`
-  og koble den til variabelen `Player`.
+- [ ] Til slutt viser vi tallet vårt til skjerm, ved å hente blokken `vis tall`{.microbitbasic}
+  og koble den til variabelen `Player`{.microbitvariables}.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
-  ![Bilde av koden for å sette spillernummer](player_start.png)
-
+```microbit
+  radio.setGroup(37)
+  let Player = 1
+  basic.showNumber(Player)
+```
 
 # Steg 7: Når spiller mottar melding {.activity}
 
@@ -253,18 +368,22 @@ kan vi senere sjekke om vi har gjort rett.*
 
 ## Sjekkliste {.check}
 
-- [ ] Finn `når radio mottar receivedString` fra *Radio*.
+- [ ] Finn `når radio mottar receivedString`{.microbitradio} fra `Radio`.{.microbitradio}
 
-- [ ] Vis teksten `receivedString` på skjermen.
+- [ ] Vis teksten `receivedString`{.microbitvariables} på skjermen.
 
 - [ ] Opprett en ny variabel med navn `Press` og sett denne til
-  `receivedString`. Da har vi lagret dette til å sjekke om vi har klart å herme
+  `receivedString`{.microbitvariables}. Da har vi lagret dette til å sjekke om vi har klart å herme
   etter spillederen.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
-  ![Bilde av koden for å motta en tekststreng](player_receive.png)
-
+```microbit
+  radio.onReceivedString(function (receivedString) {
+      basic.showString(receivedString)
+      Press = receivedString
+  })
+```
 
 # Steg 8: Når spiller mottar melding {.activity}
 
@@ -273,35 +392,92 @@ kan vi senere sjekke om vi har gjort rett.*
 ## Sjekkliste {.check}
 
 - [ ] Vi starter med å herme etter spilleder dersom meldingen var `A`. Først må
-  vi finne blokken som heter `når knapp A trykkes`. Den ligger under *Inndata*.
+  vi finne blokken som heter `når knapp A trykkes`{.microbitinput}. Den ligger under `Inndata`{.microbitinput}.
 
-- [ ] Så henter vi `hvis-blokken` fra *Logikk* og setter den sammen med
-  `erlik-blokken` (`=`) fra samme kategori. Her skal du sjekke om `Press` er lik
+- [ ] Så henter vi `hvis`{.microbitlogic}-blokken fra `Logikk`{.microbitlogic} og setter den sammen med
+  `erlik-blokken`{.microbitlogic} (`=`) fra samme kategori. Her skal du sjekke om `Press`{.microbitvariables} er lik
   `A`.
 
-- [ ] Dersom `Press` er lik `A` så skal vi sende spillernummeret vårt tilbake
-  til spilleder. Legg til blokken `radio send tall` inni `hvis-blokken` og koble
-  den til `Player`. Legg også til blokken `tøm skjermen` fra *Basis*.
+- [ ] Dersom `Press`{.microbitvariables} er lik `A` så skal vi sende spillernummeret vårt tilbake
+  til spilleder. Legg til blokken `radio send tall`{.microbitradio} inni `hvis`{.microbitlogic}-blokken og koble
+  den til `Player`{.microbitvariables}. Legg også til blokken `tøm skjermen`{.microbitbasic} fra `Basis`{.microbitbasic}.
 
-- [ ] Utvid `hvis-blokken` til `hvis - ellers`.
+- [ ] Utvid `hvis`{.microbitlogic}-blokken til `hvis - ellers`{.microbitlogic}.
 
-- [ ] `Press` ikke er lik `A` så skal man vise et surt fjes. Du finner blokken
-  `vis ikon` under *Basis*. Velg et passende ikon.
+- [ ] `Press`{.microbitvariables} ikke er lik `A` så skal man vise et surt fjes. Du finner blokken
+  `vis ikon`{.microbitbasic} under `Basis`{.microbitbasic}. Velg et passende ikon.
 
-- [ ] Legg også til `pause` i `500` ms. Til slutt kan du finne blokken `vis
-  tekst` og legge variabelen `Press` inni den, for å vise hva du egentlig burde
+- [ ] Legg også til `pause`{.microbitbasic} i `500` ms. Til slutt kan du finne blokken `vis
+  tekst`{.microbitbasic} og legge variabelen `Press`{.microbitvariables} inni den, for å vise hva du egentlig burde
   gjort.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
-  ![Bilde av koden for å sende A til spilleleder](player_press_a.png)
+```microbit
+  input.onButtonPressed(Button.A, function () {
+      if (Press == "A") {
+          radio.sendNumber(Player)
+          basic.clearScreen()
+      } else {
+          basic.showIcon(IconNames.Angry)
+          basic.pause(500)
+          basic.showString(Press)
+      }
+  })
+```
 
 - [ ] Gjør tilsvarende for `B`, `C`, `<` og `>`.
 
 - [ ] Dersom du har gjort alt rett så vil koden din se slik ut:
 
-  ![Bilde av koden for å sende alle tegnene til spilleleder](player_press_all.png)
-
+```microbit
+  input.onButtonPressed(Button.A, function () {
+      if (Press == "A") {
+          radio.sendNumber(Player)
+          basic.clearScreen()
+      } else {
+          basic.showIcon(IconNames.Angry)
+          basic.pause(500)
+          basic.showString(Press)
+      }
+  })input.onButtonPressed(Button.B, function () {
+      if (Press == "B") {
+          radio.sendNumber(Player)
+          basic.clearScreen()
+      } else {
+          basic.showIcon(IconNames.Angry)
+          basic.pause(500)
+          basic.showString(Press)
+      }
+  })input.onButtonPressed(Button.AB, function () {
+      if (Press == "C") {
+          radio.sendNumber(Player)
+          basic.clearScreen()
+      } else {
+          basic.showIcon(IconNames.Angry)
+          basic.pause(500)
+          basic.showString(Press)
+      }
+  })input.onGesture(Gesture.TiltLeft, function () {
+      if (Press == "<") {
+          radio.sendNumber(Player)
+          basic.clearScreen()
+      } else {
+          basic.showIcon(IconNames.Angry)
+          basic.pause(500)
+          basic.showString(Press)
+      }
+  })input.onGesture(Gesture.TiltRight, function () {
+      if (Press == ">") {
+          radio.sendNumber(Player)
+          basic.clearScreen()
+      } else {
+          basic.showIcon(IconNames.Angry)
+          basic.pause(500)
+          basic.showString(Press)
+      }
+  })
+```
 
 # Steg 9: Overføre programmet til spillerne {.activity}
 

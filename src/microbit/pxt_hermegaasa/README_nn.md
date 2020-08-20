@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Hermegåsa"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -12,26 +12,29 @@ raskast mogleg herme etter det spelleiaren bestemmer.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Programmering, IT, teknologi i praksis.
+__Fag__: Matematikk, Naturfag, Programmering, Teknologi og design, Teknologi og forskningslære
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Samarbeid, reaksjonsevne, brukarinteraksjon
+__Tema__: Spel, Radio, Samarbeid, Reaksjonsevne, Brukarinteraksjon
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilledesign og egne spill
 
-- [ ] __IT2, VG3:__ utvikle og setje saman delprogram
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
-- [ ] __IT2, VG3:__ programmere med val og gjentakingar
+- [ ] __Naturfag, 10. trinn:__ utforske, forstå og lage teknologiske system som består av ein sendar og ein mottakar
 
-- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
-  materiale, komponentar, og funksjonelle teknologiske løysingar
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+
+- [ ] __Teknologi og design, 10. trinn:__ velje og bruke ulike materialar og verktøy i arbeidet med prototypar for teknologiske produkt
+
+- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal frå sensorar
+
+- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle eit produkt
 
 ## Forslag til læringsmål {.challenge}
 
