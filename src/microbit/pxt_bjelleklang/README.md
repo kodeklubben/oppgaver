@@ -22,7 +22,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ] __Matematikk, 8. trinn:__ representere funksjonar på ulike måtar og vise samanhengar mellom representasjonane
+- [ ] __Matematikk, 8. trinn:__ representere funksjoner på ulike måter og vise sammenhenger mellom representasjonene
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
 
