@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Blinkande hjarte"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -11,21 +11,21 @@ I denne oppgåva skal elevane få eit hjarte til å blinke i ulike hastigheiter.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Programmering
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Løkker.
+__Tema__: Lykkjer
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 4. trinn:__ lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
 
-- [ ] __IT2, VG3:__ programmere med val og gjentakingar
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse.
 
 ## Forslag til læringsmål {.challenge}
 
