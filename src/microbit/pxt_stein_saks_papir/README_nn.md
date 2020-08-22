@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Stein, saks, papir"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -11,22 +11,31 @@ I denne oppgåva skal elevane lage spelet stein, saks, papir.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Matematikk, programmering
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Spel, tilfeldigheit.
+__Tema__: Spel, Tilfeldigheit, Variablar, Vilkår, Brukarinteraksjon
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. trinn:__ vurdere og samtale om sjansar i daglegdagse
-  samanhengar, spel og eksperiment og berekne sannsyn i enkle situasjonar
+- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturar og mønster i leik og spel
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 4. trinn:__ lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
+
+- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk
+
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
+
+- [ ] __Matematikk, 9. trinn:__ berekne og vurdere sannsyn i statistikk og spel
+
+- [ ] __Matematikk, 9. trinn:__ simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering
+
+- [ ] __Fordypning i matematikk, 10. trinn:__ lage, utføre og presentere oppgaver knyttet til sannsynlighetsregning
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
