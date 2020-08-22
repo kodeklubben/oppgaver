@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Spel ein melodi"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -11,19 +11,23 @@ I denne oppgåva skal elevane få micro:bit til å spele av lyd.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Programmering
+__Fag__: Musikk, Naturfag
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Musikk, løkker.
+__Tema__: Musikk, Løkker
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Musikk, 4. trinn:__ eksperimentere med rytmar, melodiar og andre grunnelement, setja saman mønster til komposisjonar, også ved bruk av digitale verktøy, og beskrive arbeidsprosessar og resultat
+
+- [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og omarbeide musikk
+
+- [ ] __Musikk, 10. trinn:__ skape og programmere musikalske forløp ved å eksperimentere med lyd frå ulike kjelder
+
+- [ ] __Naturfag, 4. trinn:__ utforske teknologiske system som er satt saman av ulike delar, og beskrive korleis delane fungerer og verkar saman
 
 ## Forslag til læringsmål {.challenge}
 
