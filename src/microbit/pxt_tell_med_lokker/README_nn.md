@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Tel med løkker"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -12,19 +12,23 @@ løkker.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Programmering
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Teljing, løkker.
+__Tema__: Teljing, Løkker
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 2. trinn:__ eksperimentere med teljing både framlengs og baklengs, velje ulike startpunkt og ulik differanse og beskrive mønster i teljingane
+
+- [ ] __Matematikk, 4. trinn:__ lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
+
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
