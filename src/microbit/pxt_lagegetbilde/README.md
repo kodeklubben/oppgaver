@@ -1,21 +1,20 @@
 ---
-title: "Lærerveiledning - PXT: Terning"
-author: Stein Olav Romslo og Susanne Rynning Seip
+title: "Lærerveiledning - PXT: Lag ditt eget bilde"
+author: Susanne Rynning Seip
 language: nb
 ---
 
-
 # Om oppgaven {.activity}
 
-I denne oppgaven skal elevene lage en digital terning av micro:bit-en.
+I denne oppgaven skal elevene lage ett eller flere bilder og vise dem på micro:biten.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, Programmering
+ __Fag__: Programmering, Matematikk, Kunst og håndverk
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Tilfeldighet, Løkker, Variabler, Vilkår
+__Tema__: Bilder
 
 __Tidsbruk__: Dobbelttime
 
@@ -23,21 +22,19 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
 
-- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldighet og sannsynlighet i spill og praktiske situasjoner og knytte det til brøk
-
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ] __Matematikk, 9. trinn:__ simulere utfall i tilfeldige forsøk og beregne sannsynligheten for at noe skal inntreffe, ved å bruke programmering
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Fordypning i matematikk, 10. trinn:__ lage, utføre og presentere oppgaver knyttet til sannsynlighetsregning
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Elevene kan lage kode for å simulere tilfeldige utfall.
+- [ ] Elevene kan få micro:biten til å vise et bilde.
 
-- [ ] Elevene kan bruke variabler for å lagre utfall.
+- [ ] Elevene kan få micro:biten til å vise flere bilder etter hverandre.
 
 ## Forslag til vurderingskriterier {.challenge}
 
@@ -56,19 +53,15 @@ __Tidsbruk__: Dobbelttime
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
-oppgaveteksten.](../pxt_terning/terning.html){target=_blank}
+oppgaveteksten.](../pxt_lagegetbilde/egetbilde.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
 
 ## Variasjoner {.challenge}
 
-- [ ] Vis bilder (som på en vanlig terning) i stedet for tall.
-
-- [ ] Lag flere terning-variabler og vis summen eller produktet av tallene.
-
-- [ ] Gjør det mulig for brukeren å velge hvor mange terninger som skal kastes.
+_Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Foreløpig ingen eksterne ressurser ...
