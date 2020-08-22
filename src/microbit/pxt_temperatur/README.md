@@ -10,7 +10,7 @@ I denne oppgaven skal elevene programmere micro:biten til å fungere som et term
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Matematikk, Naturfag, Programmering
+ __Fag__: Matematikk, Naturfag, Programmering, Teknologi og forskningslære
 
 __Anbefalte trinn__: 3. trinn - 10. trinn
 
@@ -31,6 +31,8 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Naturfag, VG1 og VG3 Påbygg:__ vurdere og lage programmer som modellerer naturfaglige fenomener
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal fra sensorer
 
 ## Forslag til læringsmål {.challenge}
 

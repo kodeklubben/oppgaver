@@ -10,7 +10,7 @@ I denne oppgåva skal elevane programmere micro:biten til å fungere som eit ter
 
 ## Oppgåva passar til: {.check}
 
- __Fag__: Matematikk, Naturfag, Programmering
+ __Fag__: Matematikk, Naturfag, Programmering, Teknologi og forskningslære
 
 __Anbefalte trinn__: 3. trinn - 10. trinn
 
@@ -31,6 +31,8 @@ __Tidsbruk__: Dobbelttime
 - [ ] __Naturfag, VG1 og VG3 Påbygg:__ vurdere og lage program som modellerer naturfaglige fenomen
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+
+- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal frå sensorar
 
 ## Forslag til læringsmål {.challenge}
 
