@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Rakettoppskyting"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -12,21 +12,23 @@ rakett som vert skote opp på skjermen.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Kunst og handverk, programmering
+__Fag__: Kunst og handverk, Matematikk, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Løkker
+__Tema__: Løkker, Bilder
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __K&H, 2. trinn:__ byggje med enkle geometriske grunnformer
+- [ ] __Kunst og håndverk, 2. trinn__: eksperimentere med form, farge, rytme og kontrast
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
+
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
