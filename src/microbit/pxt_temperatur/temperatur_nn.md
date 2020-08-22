@@ -1,5 +1,5 @@
 ---
-title: "PXT: Terning"
+title: "PXT: Temperatur"
 author: Kolbjørn Engeland
 language: nn
 ---
