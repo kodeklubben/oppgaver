@@ -1,24 +1,22 @@
 ---
-title: "Lærerveiledning - PXT: Blinkende lys"
-author: Stein Olav Romslo og Susanne Rynning Seip
+title: "Lærerveiledning - PXT: Akselerometer"
+autor: Susanne Rynning Seip
 language: nb
 ---
 
-
 # Om oppgaven {.activity}
 
-I denne oppgaven skal elevene lage et program som får et lys på micro:biten til
-å blinke!
+I denne oppgaven skal elevene se på akselerasjon langs x- og y-aksen for så å vise piler i hvilken retning micro:biten heller.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, programmering.
+ __Fag__: Matematikk, Programming
 
-__Anbefalte trinn__: 5. trinn - VG3
+__Anbefalte trinn__: 4. trinn - 10. trinn
 
-__Tema__: Løkker, Koordinater
+__Tema__: Akselerometer, Variabler, Vilkår
 
-__Tidsbruk__: Enkelttime
+__Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
@@ -34,35 +32,35 @@ __Tidsbruk__: Enkelttime
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Elevene kan bruke koordinater til å tenne og slukke lys på en micro:bit.
+- [ ] Elevene kan lage kode for å lagre målinger fra akselerometeret i variabler.
+
+- [ ] Elevene kan bruke vilkår for å få forskjellige tilbakemeldinger fra forskjellige utfall.
+
+- [ ] Elevene kan forklare sammenhengen mellom verdiene lest fra akselerometeret og micro:biten sin helling.
 
 ## Forslag til vurderingskriterier {.challenge}
 
-- [ ] Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av
-  kompetansemålet.
+- [ ] Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av kompetansemålet.
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__: Oppgaven er en introduksjon til micro:bit, og krever
-  ingen forkunnskaper eller erfaring.
+- [ ] __Forutsetninger__:Oppgaven er en introduksjon til micro:bit, og krever ingen forkunnskaper eller erfaring.
 
-- [ ] __Utstyr__: Datamaskin med tilgang til Internett, micro:bit og
-  micro-usb-kabel.
+- [ ] __Utstyr__: Datamaskin med tilgang til Internett, micro:bit og micro-usb-kabel.
 
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
-oppgaveteksten.](../pxt_blinkende_lys/blinkende_lys.html){target=_blank}
+oppgaveteksten.](../pxt_akselerometer/akselerometer.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
 oppgaven enda._
 
 ## Variasjoner {.challenge}
 
-- [ ] Elevene kan lage mønstre, bilder eller få flere lys til å tennes og
-  slukkes uavhengig av hverandre.
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Foreløpig ingen eksterne ressurser...
+- [ ] Foreløpig ingen eksterne ressurser ...
