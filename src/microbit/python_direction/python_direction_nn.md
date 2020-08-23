@@ -1,10 +1,19 @@
 ---
 title: "Python: Retningar"
 author: "Omsett frå [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/direction.html)"
-translator: Stein Olav Romslo
+translator: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
+
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgåva er ein del av oppgåvesamlinga "Programmering i micro-python" og byggjer vidare på [Python: Rotasjon og fall](../python_gestures/python_gestures_nn.html){target=_blank}.
+
+Me tilrår at du lastar ned og skriv koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobbar med desse oppgåvene. Instruksjonar for korleis ein lastar ned Mu finn du på nettsida via linken.
+
+Når Mu er installert kan du kople micro:biten din til datamaskinen via ein USB-kabel. Skriv koden din i editor-vindauget og trykk på “Flash”-knappen for å laste koden over på micro:biten. Dersom det ikkje fungerer, sørg for at micro:biten har dukka opp som ei USB-eining på datamaskinen din.
 
 # Introduksjon {.intro}
 
@@ -94,8 +103,7 @@ bilete, desse kan veljast frå og med `0` til og med `11`.
 </hide>
 </toggle>
 
-- [ ] Test ut koden under og varier `A` frå og med `0` til og med `360`. Kva
-  skjer?
+- [ ] Test ut koden under og varier `A` frå og med `0` til og med `360`. Kva skjer?
 
 ```python
 from microbit import *
@@ -105,3 +113,9 @@ display.show((15 - A // 30) % 12)
 
 Gratulererer! Viss du har klart å løyse oppgåvene over er du klar til å gå ut og
 utforske verda med kompasset ditt!
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+
+Neste oppgåve i samlinga er [Python: Input og output](../python_input_output/python_input_output_nn.html){target=_blank}.
+Klikk vidare for å halde fram gjennom samlinga.
