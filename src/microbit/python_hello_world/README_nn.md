@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - Python: Hello, World!"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -22,8 +22,9 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk der minst
-  eitt er tekstbasert
+- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk, mellom dei minst eitt som er tekstbasert
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
@@ -36,11 +37,11 @@ __Tidsbruk__: Dobbelttime
 
 ## Føresetnader og utstyr {.challenge}
 
-- [ ] __Føresetnader__: Oppgåva er ein introduksjon til micro:bit, og krev
-  ingen forkunnskapar eller erfaring.
+- [ ] __Føresetnader__: Oppgåva er ein introduksjon til micro python, men det er ei fordel å ha programmert med blokk-kode for micro:bit tidlegare og å kunne noko engelsk.
 
-- [ ] __Utstyr__: Datamaskin med tilgang til Internett, micro:bit og
-  micro-usb-kabel.
+- [ ] __Utstyr__: Datamaskin med tilgang til Internett, micro:bit og micro-usb-kabel.<br/><br/>
+Me tilrår å bruke [mu editor](https://codewith.mu/){target=_blank}. Det er instruksjonar for korleis ein lastar ned Mu på nettsida via linken.<br/><br/>
+Det er også mogeleg å bruke micro:bits eigen [online-editor](https://python.microbit.org/v/2.0){target=_blank}.
 
 ## Framgangsmåte
 
@@ -48,8 +49,11 @@ Her kjem tips, erfaringar og utfordringar til dei ulike stega i den faktiske
 oppgåva. [Klikk her for å sjå
 oppgåveteksten.](../python_hello_world/python_hello_world_nn.html){target=_blank}
 
-_Me har diverre ikkje nokon tips, erfaringar eller utfordringar tilknytta denne
-oppgåva endå._
+# Mu editor {.activity}
+Skriv koden i editor-vindauget og trykk på “Flash”-knappen for å laste koden over på micro:biten. Dersom det ikkje fungerer, sørg for at micro:biten har dukka opp som ei USB-eining på datamaskinen.
+
+# Micro:bit online-editor {.activity}
+Skriv koden i nettlesaren, last ned på datamaskinen og dra filen over til micro:biten.
 
 ## Variasjonar {.challenge}
 
