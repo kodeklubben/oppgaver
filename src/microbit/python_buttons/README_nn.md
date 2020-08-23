@@ -59,10 +59,10 @@ Her kjem tips, erfaringar og utfordringar til dei ulike stega i den faktiske
 oppgåva. [Klikk her for å sjå
 oppgåveteksten.](../python_buttons/python_buttons_nn.html){target=_blank}
 
-## Mu editor {.activity}
+### Mu editor
 Skriv koden i editor-vindauget og trykk på “Flash”-knappen for å laste koden over på micro:biten. Dersom det ikkje fungerer, sørg for at micro:biten har dukka opp som ei USB-eining på datamaskinen.
 
-# Micro:bit online-editor {.activity}
+### Micro:bit online-editor
 Skriv koden i nettlesaren, last ned på datamaskinen og dra filen over til micro:biten.
 
 ## Variasjonar {.challenge}
