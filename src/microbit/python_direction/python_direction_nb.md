@@ -1,10 +1,19 @@
 ---
 title: "Python: Retninger"
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/direction.html)"
-translator: Øistein Søvik
+translator: Øistein Søvik og Susanne Rynning Seip
 language: nb
 ---
 
+
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgaven er en del av oppgavesamlingen _Programmering i micro-python_ og bygger videre på [Python: Rotasjon og fall](../python_gestures/python_gestures_nb.html){target=_blank}.
+
+Vi anbefaler at du laster ned og skriver koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobber med disse oppgavene. Instruksjoner for hvordan man laster ned Mu finner du på nettsiden via linken.
+
+Når Mu er installert kan du koble micro:biten din til datamaskinen via en USB-kabel. Skriv koden din i editor-vinduet og trykk på “Flash”-knappen for å laste koden over på micro:biten. Hvis det ikke fungerer, sørg for at micro:biten har dukket opp som en USB-enhet på datamaskinen din.
 
 # Introduksjon {.intro}
 
@@ -99,8 +108,14 @@ bilder, disse kan velges fra og med 0 til og med 11.
 ```python
 from microbit import *
 
-display.show(((15 - A // 30) % 12)
+display.show((15 - A // 30) % 12)
 ```
 
 Gratulererer. Dersom du har klart å løse oppgavene ovenfor er du klar til å gå
 ut og utforske verden med kompasset ditt!
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+
+Neste oppgave i samlingen er [Python: Input og output](../python_input_output/python_input_output_nb.html){target=_blank}.
+Klikk videre for å fortsette gjennom samlingen.
