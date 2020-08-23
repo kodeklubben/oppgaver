@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - Python: Lage musikk med microbit"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
