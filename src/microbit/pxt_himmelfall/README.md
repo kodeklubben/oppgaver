@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - PXT: Himmelfall"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -12,28 +12,29 @@ himmelen som faller nedover skjermen.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, programmering, IT.
+__Fag__: Matematikk, Programmering, IT.
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Spill, koordinatsystem.
+__Tema__: Spill, Koordinatsystem
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ lese av, plassere og beskrive posisjoner i
-  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
+- [ ] __Matematikk, 3. trinn:__ lage og følge regler og trinnvise instruksjoner i lek og spill knyttet til koordinatsystem
 
-- [ ] __Matematikk, 7. trinn:__ beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturer og mønster i lek og spill
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ] __IT2, VG3:__ programmere med valg og gjentakelser
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
+
+- [ ] __Matematikk 1T, VG1:__ formulere og løse problemer ved hjelp av algoritmisk tankegang, ulike problemløsningsstrategier, digitale verktøy og programmering
+
+- [ ] __Programmering, 10. trinn:__ analysere problemer, gjøre dem om til delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering
+
+- [ ] __IT1, VG2:__ forklare hva en algoritme er, og selv skrive strukturert og effektiv kode for å løse små problemer
 
 ## Forslag til læringsmål {.challenge}
 
