@@ -6,6 +6,15 @@ language: nn
 ---
 
 
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgåva er ein del av oppgåvesamlinga "Programmering i micro-python" og byggjer vidare på [Python: Retningar](../python_direction/python_direction_nn.html){target=_blank}.
+
+Me tilrår at du lastar ned og skriv koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobbar med desse oppgåvene. Instruksjonar for korleis ein lastar ned Mu finn du på nettsida via linken.
+
+Når Mu er installert kan du kople micro:biten din til datamaskinen via ein USB-kabel. Skriv koden din i editor-vindauget og trykk på “Flash”-knappen for å laste koden over på micro:biten. Dersom det ikkje fungerer, sørg for at micro:biten har dukka opp som ei USB-eining på datamaskinen din.
+
 # Introduksjon {.intro}
 
 Det er metall langs kanten på botnen av micro:bit-en din som gjer at det ser ut
@@ -106,3 +115,9 @@ tilbake til start og byrjar på att.
 - [ ] Skriv om koden slik at den pip ein gong i sekundet.
 
 Gratulerer! Du har laga eit veldig enkelt *metronom*!
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+
+Neste oppgåve i samlinga er [Python: Rørsle](../python_movement/python_movement_nn.html){target=_blank}.
+Klikk vidare for å halde fram gjennom samlinga.
