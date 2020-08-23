@@ -49,10 +49,10 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
 oppgaveteksten.](../python_hello_world/python_hello_world_nb.html){target=_blank}
 
-# Mu editor {.activity}
+### Mu editor
 Skriv koden i editor-vinduet og trykk på “Flash”-knappen for å laste koden over på micro:biten. Hvis det ikke fungerer, sørg for at micro:biten har dukket opp som en USB-enhet på datamaskinen.
 
-# Micro:bit online-editor {.activity}
+### Micro:bit online-editor
 Skriv koden i nettleseren, last ned på datamaskinen og dra filen over til micro:biten.
 
 ## Variasjoner {.challenge}
