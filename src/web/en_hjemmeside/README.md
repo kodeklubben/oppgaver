@@ -11,29 +11,27 @@ I denne oppgaven skal elevene bruke HTML-tags til å lage sin første hjemmeside
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, teknologi i praksis, informasjonsteknologi 1
+__Fag__: Programmering, Kunst og håndverk, IT1
 
 __Anbefalte trinn__: 8. trinn - VG2
 
-__Tema__: HTML, web,
+__Tema__: HTML, Web
 
 __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av
-  standardiserte oppmerkingsspråk
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for
-  nettsteder
+- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
+
+- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
+
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 
@@ -90,7 +88,7 @@ oppgaveteksten.](en_hjemmeside.html){target=_blank}
 - [ ] Et tips kan være å be elevene strukturere HTML-dokumentet sitt ordentlig
   med innrykk og linjeskift slik at det er enklelt å hvilke HTML-tags som hører
   til hvor.
-
+designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
 # Steg 3: Lag en ny side og link til den {.activity}
 
@@ -103,4 +101,4 @@ oppgaveteksten.](en_hjemmeside.html){target=_blank}
 
 - [ ] Eleven klarer å legge til mer innhold ved hjelp av HTML-tags.
 
-- [ ] Elevene kan prøve å finne nye HTML-tags til kan bruke på hjemmesiden sin.
+- [ ] Elevene kan prøve å finne nye HTML-tags til å bruke på hjemmesiden sin.
