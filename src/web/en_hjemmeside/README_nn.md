@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Me byggjer heimeside"
-author: Susanne Rynning Seip
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nn
 ---
 
