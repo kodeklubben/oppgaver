@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Spå framtida med bilete"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -12,30 +12,25 @@ velje eit tilfeldig bilete som visast på skjermen.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Kunst og handverk, programmering, IT
+__Fag__: Kunst og handverk, Matematikk
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Tilfeldigheit, bilete.
+__Tema__: Tilfeldigheit, Bilete, Lister
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __K&H, 2. trinn:__ bruke dekorative element frå kunst og kunsthandverk i
-  eige arbeid
+- [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 7. trinn:__ vurdere og samtale om sjansar i daglegdagse
-  samanhengar, spel og eksperiment og berekne sannsyn i enkle situasjonar
+- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 9. trinn:__ berekne og vurdere sannsyn i statistikk og spel
 
-- [ ] __Programmering, 10. trinn:__ overføre løysingar til nye problem ved å
-  generalisere og tilpasse eksisterande programkode og algoritmar.
+- [ ] __Matematikk, 9. trinn:__ simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering
 
-- [ ] __IT2, VG3:__ programmere med val og gjentakingar
+- [ ] __Fordypning i matematikk, 10. trinn:__ lage, utføre og presentere oppgaver knyttet til sannsynlighetsregning
 
 ## Forslag til læringsmål {.challenge}
 
