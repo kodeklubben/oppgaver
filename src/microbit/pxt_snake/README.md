@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - PXT: Snake"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -11,31 +11,25 @@ I denne oppgaven skal elevene lage en variant av det klassiske spillet Snake.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, programmering, IT.
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Spill, løkker, koordinatsystem.
+__Tema__: Spill, Løkker, Koordinatsystem
 
 __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ lese av, plassere og beskrive posisjoner i
-  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
+- [ ] __Matematikk, 3. trinn:__ lage og følge regler og trinnvise instruksjoner i lek og spill knyttet til koordinatsystem
 
-- [ ] __Matematikk, 7. trinn:__ beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn:__ overføre løsninger til nye problemer ved å
-  generalisere og tilpasse eksisterende programkode og algoritmer.
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __IT2, VG3:__ bruke programmeringsspråk i multimedieapplikasjoner
+- [ ] __Programmering, 10. trinn:__ analysere problemer, gjøre dem om til delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering
 
 ## Forslag til læringsmål {.challenge}
 
