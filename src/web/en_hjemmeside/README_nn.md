@@ -55,7 +55,7 @@ __Tidsbruk__: Dobbelttime eller meir
 
 ## Føresetnader og utstyr {.challenge}
 
-- [ ] __Utstyr__: Datamaskiner med tilgang internett og teksteditor (Atom, Visual Studio Code eller Brackets IO kan tilrådast). [JSBin.com](http://jsbin.com){target=_blank} kan evt. brukes. Elevane kan fint jobbe to og to.
+- [ ] __Utstyr__: Datamaskiner med tilgang internett og teksteditor (Atom, Visual Studio Code eller Brackets IO kan tilrådast). [JSBin.com](http://jsbin.com){target=_blank} kan evt. brukast. Elevane kan fint jobbe to og to.
 
 - [ ] __Forutsetninger__: Elevane burde kunne grunneleggande HTML-tags.
 
@@ -83,7 +83,7 @@ oppgåveteksten.](en_hjemmeside_nn.html){target=_blank}
 
 ## Variasjonar {.challenge}
 
-- [ ] Elevane kan lage nye sider som kan lenkes saman med _Om meg-siden_.
+- [ ] Elevane kan lage nye sider som kan lenkast saman med _Om meg-sida_.
 
 - [ ] Elevane klarar å leggje til meir innhald ved hjelp av HTML-tags.
 
