@@ -1,8 +1,10 @@
 ---
-title: Kuprat
-author: Geir Arne Hjelle
+title: test
+author: 
+
 language: nb
 ---
+
 
 
 # Introduksjon {.intro}
@@ -18,7 +20,7 @@ historisk program som heter `Cowsay`
 ([http://www.cowsays.com/](http://www.cowsays.com/)) hvor en smart ku sprer sin
 visdom.
 
-![Bilde av en ASCII ku som prater!](kuprat.png)
+![Bilde av en ASCII ku som prater!](kuprat.png )
 
 
 # Steg 1: Hei Verden {.activity}
@@ -51,14 +53,14 @@ kjempeenkelt program. Vi vil bare skrive en enkel hilsen på skjermen.
 - [ ] I dette nye vinduet skal vi nå skrive vårt første Python-program. Skriv
   følgende:
 
-  ![Bilde av print('hei på deg')](hei_program.png)
+  ![Bilde av print('hei på deg')](hei_program.png )
 
 - [ ] Vi skal nå lagre og kjøre dette programmet. Velg først `File > Save`, og
   gi programmet ditt navnet `hei.py`. Deretter kan du kjøre programmet ved å
   klikke `Run > Run Module`. Du skal nå se at Python skriver en liten hilsen i
   det første vinduet.
 
-  ![Bilde av at Python skriver ut "hei på deg"](hei_kjor.png)
+  ![Bilde av at Python skriver ut "hei på deg"](hei_kjor.png )
 
   Gratulerer! Du har nå skrevet og kjørt ditt første Python-program!
 
