@@ -12,7 +12,7 @@ ved hjelp av `Github`.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 2
+__Fag__: Programmering, IT1
 
 __Anbefalte trinn__: 8. trinn - VG2
 
