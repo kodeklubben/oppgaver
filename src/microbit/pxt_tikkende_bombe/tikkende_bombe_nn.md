@@ -18,7 +18,7 @@ tel ned til __0__, og me skal sende dette talet mellom fleire micro:bit-ar. Den
 som har den virituelle bomba når me kjem til __0__ tapar. Me kan sende tal ved
 hjelp av radioklossane.
 
-![Bilete av ein micro:bit som viser ei bombe](bombe.png)
+![Bilete av ein micro:bit som viser ei bombe](bombe.png )
 
 # Steg 1: Me startar spelet {.activity}
 
