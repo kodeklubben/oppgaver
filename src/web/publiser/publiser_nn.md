@@ -15,9 +15,9 @@ er på og kopla til Internett, og dei er sett opp slik at folk kan besøke
 nettstader som lev på desse datamaskinene.
 
 For å leggje nettsida vår på Internett skal me bruke [Github
-Pages](https://pages.github.com). Det er det __Kodeklubben__ brukar:
+Pages](https://pages.github.com){target=_blank}. Det er det __Kodeklubben__ brukar:
 `kodeklubben.github.io`. For at du skal kunne gjere det må du fyrst ha ei
-epost-adresse. Du kan lage din eigen ([Gmail](http://gmail.com)), bruke den du
+epost-adresse. Du kan lage din eigen ([Gmail](http://gmail.com){target=_blank}), bruke den du
 har på skulen, eller spørje om å låne foreldra dine sin. Det er viktig at du
 hugsar kva epost du har brukt, og at du har tilgang på innboksen slik at du får
 godkjent brukaren på `GitHub`.
@@ -30,7 +30,7 @@ leggje ut prosjekt som andre kan hjelpe til med, eller me kan finne eit prosjekt
 me kan bidra på. Slik kan me enkelt hjelpe, samarbeide og dele med alle andre
 som driv med programmering i verda. No skal me lage ein `GitHub`-brukar.
 
-- [ ] Gå inn på [Github.com](http://github.com).
+- [ ] Gå inn på [Github.com](http://github.com){target=_blank}.
 
 - [ ] Skriv inn `Username` (brukarnamn), `epost` og `password` (passord) før du
   trykkar `Sign up for Github` (sjå biletet under).
@@ -44,7 +44,7 @@ som driv med programmering i verda. No skal me lage ein `GitHub`-brukar.
 
 No som me har ein `Github-brukar` kan me registrere ei `github.io`-side.
 
-- [ ] Logg inn på [Github.com](http://github.com) med den nye brukaren din viss
+- [ ] Logg inn på [Github.com](http://github.com){target=_blank} med den nye brukaren din viss
   du ikkje allereie er logga inn.
 
 - [ ] Trykk på `New repository` (ein grøn knapp oppe til venstre, eller under
@@ -176,12 +176,6 @@ lenka `ditt-brukarnamn.github.io`.
 GitHub er stort og kan vere komplisert og vrient i starten. Viss du vil lære
 meir, sjekk ut tipsa under:
 
-- Les meir om GitHub her:
+Les meir om GitHub her: [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials){target=_blank} eller på [Kodeklubbens wiki](https://github.com/kodeklubben/oppgaver/wiki/Komme-i-gang-med-Git){target=_blank}.
 
-  [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
-
-  eller på [Kodeklubbens
-  wiki](https://github.com/kodeklubben/oppgaver/wiki/Komme-i-gang-med-Git).
-
-- Søk på `GitHub Tutorials` på [YouTube](http://youtube.com), til dømes [GitHub
-  for noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY).
+Søk på `GitHub Tutorials` på [YouTube](http://youtube.com){target=_blank}, til dømes [GitHub for noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY){target=_blank}.
