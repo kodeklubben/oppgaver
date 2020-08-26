@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Forsvunnet katt"
-author: Lars Klingenberg og Susanne Rynning Seip
+author: Lars Klingenberg
 language: nb
 ---
 
