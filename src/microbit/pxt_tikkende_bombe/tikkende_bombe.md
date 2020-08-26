@@ -1,8 +1,11 @@
 ---
 title: "PXT: Tikkende bombe"
 author: Kolbjørn Engeland og Julie Revdahl
+
 language: nb
 ---
+
+
 
 # Introduksjon {.intro}
 
@@ -13,7 +16,7 @@ I dette prosjektet vil vi bygge et lignende type spill, men i stedet bruker vi e
 Den virtuelle bomben er en tall-variabel som teller ned til __0__, og vi skal sende dette tallet mellom flere micro:biter.
 Den som har den virtuelle bomben når vi kommer til __0__ taper. Vi kan sende tall ved hjelp av radioblokkene.
 
-![Bilde av en microbit som viser en bombe](bombe.png)
+![Bilde av en microbit som viser en bombe](bombe.png )
 
 # Steg 1: Vi starter spillet {.activity}
 
