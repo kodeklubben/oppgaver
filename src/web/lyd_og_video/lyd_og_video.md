@@ -18,11 +18,11 @@ oss ta en titt på de sammen.
 
 Å legge til enn video fra YouTube er veldig lett.
 
-- [ ] Gå til videoen sin side på YouTub
+- [ ] Gå til videoen sin side på YouTube
 
 - [ ] Under videospilleren finner du en `Del`/`Share` knapp. Trykk på den
 
-- [ ] For å få kode du kan bruke på nettsiden din, trykk `Embed`.
+- [ ] For å få kode du kan bruke på nettsiden din, trykk `Bygg inn`/`Embed`.
 
 Koden vil ligne på dette:
 
