@@ -1,9 +1,10 @@
 ---
-title: Kuprat
-author: Geir Arne Hjelle
-translator: Stein Olav Romslo
+title: test
+author: 
+
 language: nn
 ---
+
 
 
 # Introduksjon {.intro}
@@ -18,7 +19,7 @@ som kan lese og vise tekst. Spesielt skal me lage vår eigen versjon av eit
 historisk program som heiter [Cowsay](http://www.cowsays.com/)) der ei smart ku
 spreier visdommen sin.
 
-![Bilete av ei ASCII-ku som pratar!](kuprat.png)
+![Bilete av ei ASCII-ku som pratar!](kuprat.png )
 
 
 # Steg 1: Hei, Verda {.activity}
@@ -51,14 +52,14 @@ Me vil berre skrive ei enkel helsing på skjermen.
 - [ ] I dette nye vindauget skal me skrive vårt fyrste Python-program. Skriv
   følgjande:
 
-  ![Bilete av print('hei på deg')](hei_program.png)
+  ![Bilete av print('hei på deg')](hei_program.png )
 
 - [ ] No skal me lagre og køyre dette programmet. Vel `File > Save`, og gi
   programmet ditt namnet `hei.py`. Så kan du køyre programmet ved å klikke `Run
   > Run Module`. No skal du sjå at Python skriv ei lita helsing i det fyrste
   vindauget.
 
-  ![Bilete av at Python skriv ut "hei på deg"](hei_kjor.png)
+  ![Bilete av at Python skriv ut "hei på deg"](hei_kjor.png )
 
   Gratulerer! No har du skrive og køyrt det fyrste Python-programmet ditt!
 
