@@ -1,7 +1,7 @@
 ---
 title: "HTML: Introduksjon til Web"
 author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
-translator: Stein Olav Romslo
+translator: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 

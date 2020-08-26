@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Introduksjon til Web"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 

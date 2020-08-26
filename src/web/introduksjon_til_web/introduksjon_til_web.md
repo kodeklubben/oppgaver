@@ -1,7 +1,7 @@
 ---
 title: "HTML: Introduksjon til Web"
 author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
-translator: Arve Seljebu
+translator: Arve Seljebu og Susanne Rynning Seip
 language: nb
 ---
 
