@@ -70,9 +70,9 @@ var tekst = "Hei på deg!";
 console.log(tekst);
 ```
 
-- [ ] Trykk på `Run
+- [ ] Trykk på `Run`
 
-- [ ] Vises teskten
+- [ ] Vises teksten?
 
 - [ ] La oss prøve oss på litt variabel-morro. Lag følgende variabler, du kan
   godt slette det du allerede har:
@@ -88,7 +88,7 @@ var tall2 = 7;
 console.log(tall1 + tall2);
 ```
 
-- [ ] Trykk `Run`. Fikk du 11
+- [ ] Trykk `Run`. Fikk du 11?
 
 - [ ] Nå som vi vet at vi kan få JavaScript til å regne for oss, ta å bytt ut
   `+` med de andre regneartene vi har og se om JavaScript klarer å regne ut med
@@ -112,7 +112,7 @@ var tall3 = tall2;
     </hide>
 </toggle>
 
-- [ ] Skriv ut `tall3` og `tall2` til `console
+- [ ] Skriv ut `tall3` og `tall2` til `console`
 
 - [ ] Prøv å endre på `tall2`, hva skjer med `tall3`?
 
@@ -452,9 +452,9 @@ for(var i = 0; i < handleliste.length; i++) {
 
 ## Prøv selv! {.check}
 
-- [ ] Åpne ny side i JSBi
+- [ ] Åpne ny side i JSBin
 
-- [ ] Prøv å skriv ut tallene fra 1 - 100 ved hjelp av en `for`-løkk
+- [ ] Prøv å skriv ut tallene fra 1 - 100 ved hjelp av en `for`-løkke
 
 - [ ] Bytt på telleren `i++` slik at alle partall mellom 1 og 100 skrives ut
 
@@ -469,9 +469,9 @@ for(var i = 0; i < handleliste.length; i++) {
 
 __Bra! La oss se på lister.__
 
-- [ ] Lag nå en liste over dine favoritt spil
+- [ ] Lag nå en liste over dine favoritt spill
 
-- [ ] Skriv ut alle ved hjelp av en `for`-løkk
+- [ ] Skriv ut alle ved hjelp av en `for`-løkke
 
 - [ ] Skriv ut annen hvert element i lista (hint: bruk samme metode som med
   partall)
@@ -524,7 +524,7 @@ har løkken sånn at den teller opp etter vi har utført det vi skal.
 
 __La oss nå lage et enkelt `Kron eller mynt`-spill ved hjelp av `while`.__
 
-- [ ] Åpne en ny [JSbin.com](https://jsbin.com/?js,console
+- [ ] Åpne en ny [JSbin.com](https://jsbin.com/?js,console)
 
 - [ ] Lag en variabel, `krone`, som skal være enten 0 eller 1, dette skal være
   tilfeldig:
