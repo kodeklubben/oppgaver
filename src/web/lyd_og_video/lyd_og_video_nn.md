@@ -22,7 +22,7 @@ oss sjå på dei saman.
 
 - [ ] Under videospelaren finn du ein `Del`/`Share`-knapp. Trykk på den.
 
-- [ ] For å få kode du kan bruke på nettsida di, trykk `Embed`.
+- [ ] For å få kode du kan bruke på nettsida di, trykk `Bygg inn`/`Embed`.
 
 Koden vil likne på dette:
 
