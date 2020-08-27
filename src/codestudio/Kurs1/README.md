@@ -51,6 +51,6 @@ Om man er helt nybegynner på programmering er det best å følge oppgavesamling
 [Klikk her for å se oppgavesamlingen.](https://studio.code.org/s/course1){target=_blank}
 
 # OBS! {.tip}
-Pass på at elevene velger __Norsk (Bokmål)__ i språkvalg-menyen helt nederst til høyre på siden, ellers vil ikke oppgavene vises på norsk.
+Pass på at elevene velger __Norsk (Bokmål)__/__Norsk (Nynorsk)__ i språkvalg-menyen helt nederst til høyre på siden, ellers vil ikke oppgavene vises på norsk.
 
 Det er introduksjonsvideoer til flere av oppgavene. Disse er på engelsk, men de skal få norsk teksting automatisk dersom man har valg norsk som språk på nettsiden. Det kan fortsatt hende enkelte oppgaver ikke har norsk teksting på selve videoen, men da vil det være mulig å klikke på notat-fanen over videoen hvor alt som blir sagt er skrevet ned sammen med bilder fra videoen.
