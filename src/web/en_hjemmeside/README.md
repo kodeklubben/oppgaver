@@ -88,7 +88,6 @@ oppgaveteksten.](en_hjemmeside.html){target=_blank}
 - [ ] Et tips kan være å be elevene strukturere HTML-dokumentet sitt ordentlig
   med innrykk og linjeskift slik at det er enklelt å hvilke HTML-tags som hører
   til hvor.
-designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
 # Steg 3: Lag en ny side og link til den {.activity}
 
