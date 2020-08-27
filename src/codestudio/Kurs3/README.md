@@ -14,7 +14,7 @@ på mer komplekse problemer.
 
  __Fag__: Matematikk, Programmering
 
-__Anbefalte trinn__: Barnehage - 7. trinn
+__Anbefalte trinn__: 1. trinn - 7. trinn
 
 __Tema__: Funksjoner, Vilkår, Løkker, Feilsøking, Spill
 
