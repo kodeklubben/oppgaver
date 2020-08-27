@@ -9,6 +9,8 @@ language: nb
 I denne oppgaven skal du lage din egen nettside! Du skal selv bestemme hva du vil
 at nettsiden skal handle om og lage innholdet selv (tekst, bilder, video etc.)
 
+## Tips! {.tip}
+
 Dersom du ikke har gjort dem allerede, anbefaler vi å ta en titt på oppgavene i samlingen _Intro til web_ før du setter i gang med denne oppgaven:
 
 - [HTML: Introduksjon til Web](../introduksjon_til_web/introduksjon_til_web.html){target=_blank}

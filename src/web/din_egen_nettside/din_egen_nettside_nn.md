@@ -11,6 +11,8 @@ I denne oppgåva skal du lage di eiga nettside! Du skal sjølv bestemme kva du v
 at nettsida skal handle om, og du skal lage innhaldet sjølv (tekst, bilete,
 videoar og så bortetter).
 
+## Tips! {.tip}
+
 Dersom du ikkje har gjort de allereie, tilråder me å ta ein titt på oppgåvane i samlinga _Intro til web_ før du set i gang med denne oppgåva:
 
 - [HTML: Introduksjon til Web](../introduksjon_til_web/introduksjon_til_web_nn.html){target=_blank}
