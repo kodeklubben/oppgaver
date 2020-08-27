@@ -48,7 +48,7 @@ __Tema__: Algoritmer, Sekvens, Feilsøking, Vilkår, Løkker, Spill
 
 Om man er helt nybegynner på programmering er det best å følge oppgavesamlingen kronologisk. Det blir introdusert nye funksjoner og begreper litt etter litt, så hvis man hopper rett ut i det kan det kanskje være litt forvirrende.
 
-[Klikk her for å se oppgavesamlingen.](https://studio.code.org/s/course1){target=_blank}
+[Klikk her for å se oppgavesamlingen.](https://studio.code.org/s/course2){target=_blank}
 
 # OBS! {.tip}
 Pass på at elevene velger __Norsk (Bokmål)__/__Norsk (Nynorsk)__ i språkvalg-menyen helt nederst til høyre på siden, ellers vil ikke oppgavene vises på norsk.
