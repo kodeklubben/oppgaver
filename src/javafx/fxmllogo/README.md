@@ -6,7 +6,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-Formålet til denne oppgaven er for elevene å lære hvordan de kan bruke **FXML** for å lage skjerminnhold, og **to måter** å lage slikt innhold. I tillegg vil elevene lære hvordan de får app-en til å last inn og vise frem innholdet i FXML-filer.
+Formålet til denne oppgaven er for elevene å lære hvordan de kan bruke **FXML** for å lage skjerminnhold, og **to måter** å lage slikt innhold. I tillegg vil elevene lære hvordan de får app-en til å laste inn og vise frem innholdet i FXML-filer.
 
 ## Oppgaven passer til: {.check}
 
