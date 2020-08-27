@@ -10,7 +10,7 @@ language: nb
 
 Formålet til denne leksjonen er å lære hvordan man får satt opp et Java-prosjekt
 i Eclipse og kjørt et JavaFX-program. I tillegg skal du lære litt om
-sammenhengen mellom JavaFX-koden og innholdet i app-vindeuet en får opp.
+sammenhengen mellom JavaFX-koden og innholdet i app-vinduet en får opp.
 
 
 # Steg 1: Sette opp Java-prosjekt, og lage app-mappe og app-klasse {.activity}
