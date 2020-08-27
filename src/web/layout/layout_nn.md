@@ -73,9 +73,9 @@ Hugs å __LAGRE__ fila og prøv å __VISE__ den i nettlesaren din.
 
 No som me har eit biletet som `header` kan det passe å finne ein fin bakgrunn.
 Ved hjelp av eit utvidingsverktøy til Chrome som heiter
-[ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp),
+[ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp){target=_blank},
 kan du finne grønfarga som er på `header.jpg`. Utvidinga `ColorZilla` finst til
-`Firefox` [her](https://addons.mozilla.org/en-us/firefox/addon/colorzilla/).
+`Firefox` [her](https://addons.mozilla.org/en-us/firefox/addon/colorzilla/){target=_blank}.
 Farga me har valt her er `#3DD14B`.
 
 Sidan me har gjort `body` smalare (`1080px` brei) så kan me bruke
@@ -363,7 +363,7 @@ __TADA! Du har laga ei flott nettside du kan byggje vidare på!__
 
 - [ ] Bruk
 
-  [w3schools.com/css/css_link.asp](http://www.w3schools.com/css/css_link.asp)
+  [w3schools.com/css/css_link.asp](http://www.w3schools.com/css/css_link.asp){target=_blank}
 
   til å leggje til forandring på lenkene når du heldt over dei.
 
@@ -373,7 +373,7 @@ __TADA! Du har laga ei flott nettside du kan byggje vidare på!__
 - [ ] Legg teksten på sida i `div`-ar og set ulik stil på dei.
 
 - [ ] Del inn `section` slik at du kan få ulike delar på sida, hent gjerne
-  inspirasjon frå Internett. Til dømes [vg.no](http://vg.no)
+  inspirasjon frå Internett. Til dømes [vg.no](http://vg.no){target=_blank}
 
 
 # Døme på kode for nettsida {.activity}
