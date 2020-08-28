@@ -1,5 +1,5 @@
 ---
-title: "Lærerveiledning - TITTEL"
+title: "Lærerveiledning - Play Lab"
 author: Susanne Rynning Seip
 language: nb
 ---
