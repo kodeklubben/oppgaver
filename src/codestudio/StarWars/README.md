@@ -1,5 +1,5 @@
 ---
-title: "Lærerveiledning - TITTEL"
+title: "Lærerveiledning - Star Wars"
 author: Susanne Rynning Seip
 language: nb
 ---
