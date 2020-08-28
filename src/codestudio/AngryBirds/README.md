@@ -13,7 +13,7 @@ dra-og-slipp-programmering.
 
  __Fag__: Matematikk, Programmering
 
-__Anbefalte trinn__: 1. trinn - 10. trinn
+__Anbefalte trinn__: 3. trinn - 10. trinn
 
 __Tema__: Sekvens, Løkker, Vilkår, Spill
 
