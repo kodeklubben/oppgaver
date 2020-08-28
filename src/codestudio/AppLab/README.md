@@ -1,5 +1,5 @@
 ---
-title: "Lærerveiledning - TITTEL"
+title: "Lærerveiledning - App Lab"
 author: Susanne Rynning Seip
 language: nb
 ---
