@@ -48,7 +48,7 @@ Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av kompetansem
 
 ## Fremgangsmåte
 
-Denne oppgaven har ingen steg for steg å følge. Det er opp til elevene selv hva de vil lage. Det er derfor lurt å be dem lage en plan for hva de vil lage før de klikker seg inn på laben.
+Denne oppgaven har ingen steg å følge. Det er opp til elevene selv hva de vil lage. Det er derfor lurt å be dem lage en plan for hva de vil lage før de klikker seg inn på laben.
 
 [Klikk her for å se laben.](https://studio.code.org/projects/playlab){target=_blank}
 
