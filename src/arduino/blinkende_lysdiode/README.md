@@ -82,8 +82,7 @@ Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av kompetansem
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. [Klikk her for å se
-oppgaveteksten.](../OPPGAVENAVN/OPPGAVENAVN.html){target=_blank}
+oppgaven. [Klikk her for å se oppgaveteksten.](../blinkende_lysdiode/blinkende_lysdiode.html){target=_blank}
 
 ### Arduino
 
