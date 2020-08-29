@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Tetris
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -15,27 +15,25 @@ spillet tetris.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Kunst og håndtverk, matematikk, programmering.
+__Fag__: Kunst og håndverk, Matematikk, Programmering
 
-__Anbefalte trinn__: 8. trinn til VG3.
+__Anbefalte trinn__: 8. trinn - VG3
 
-__Tema__: Koordinatsystem, variabler.
+__Tema__: Koordinater, Variabler, Form, Farger
 
-__Tidsbruk__: Dobbelttime.
+__Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
+- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
