@@ -42,7 +42,7 @@ Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av kompetansem
 
 ## Forutsetninger og utstyr {.challenge}
 
-- [ ] __Forutsetninger__:
+- [ ] __Forutsetninger__: Oppgaven er en introduksjon til Arduino, og krever ingen forkunnskaper eller erfaring. Det er en fordel å kunne litt engelsk.
 
 - [ ] __Utstyr__:
 
