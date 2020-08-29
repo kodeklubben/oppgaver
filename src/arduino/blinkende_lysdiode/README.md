@@ -1,19 +1,39 @@
 ---
 title: Lærerveiledning - Blinkende lysdiode
-author: Adrian Helle
+author: Adrian Helle og Susanne Rynning Seip
 language: nb
 ---
+# Om oppgaven {.activity}
 
+I denne oppgaven skal elevene programmere Arduinoen til å få et lys til å blinke.
 
-# Informasjon til veiledere
+## Oppgaven passer til: {.check}
 
-## Læringsmål
+ __Fag__: Naturfag, Teknologi og Design, Teknologi og forskningslære
 
-Oppgaven «Blinkende lysdiode» introduserer flere konsepter:
+__Anbefalte trinn__: 5. trinn - VG3
 
-+ Hvordan laste opp programmer til Arduino.
+__Tema__: Arduino, Kretser, LED, Knapp
 
-+ Enkel programmering mot Arduino.
+__Tidsbruk__: Dobbelttime
+
+## Kompetansemål {.challenge}
+
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
+
+- [ ] __Teknologi og design, 10. trinn:__ velge og bruke ulike materialer og verktøy i arbeidet med prototyper for teknologiske produkt
+
+- [ ] __Teknologi og design, 10. trinn:__ grunngi valg av design, materialer, verktøy og framgangsmåter, og reflektere over hvor trygge og bærekraftige valgene er
+
+- [ ] __Teknologi og forskningslære X og 1, VG2:__ anvende kravspesifikasjon i arbeid med å utvikle og teste funksjonelle produkter og vurdere produktet opp mot kravspesifikasjonen
+
+- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+
+## Forslag til læringsmål {.challenge}
+
+- [ ] Elevene kan laste opp programmer til Arduino.
+
+- [ ] Elevene kan skrive enkle program for Arduino, som inkluderer:
 
   + Grunnleggende kodeelementer på Arduino; `setup()`, `loop()` og `delay()`.
 
@@ -24,7 +44,7 @@ Oppgaven «Blinkende lysdiode» introduserer flere konsepter:
 
   + Lese verdi fra digitale pinner.
 
-+ Hvordan koble enkle kretser.
+- [ ] Elevene kan koble enkle kretser, som inkluderer:
 
   + Bruk av jord og sluttede kretser, herunder felles jording.
 
@@ -36,17 +56,43 @@ Oppgaven «Blinkende lysdiode» introduserer flere konsepter:
 
   + Motstand
 
+## Forslag til vurderingskriterier {.challenge}
 
-# Forklaringer
+Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av kompetansemålet.
 
-## Arduino
+## Forutsetninger og utstyr {.challenge}
+
+- [ ] __Forutsetninger__: Oppgaven er en introduksjon til Arduino, og krever ingen forkunnskaper eller erfaring. Det er en fordel å kunne litt engelsk.
+
+- [ ] __Utstyr__:
+  - [ ] 1 Arduino Uno
+
+  - [ ] Datamaskin og USB-kabel
+
+  - [ ] 2 ledninger
+
+  - [ ] 1 LED
+
+  - [ ] 1 breadboard
+
+  - [ ] 1 motstand 220 Ohm (Fargekode: rød-rød-brun-gull)
+
+  ![Bilde av komponentene som trengs](komp.jpg)
+
+## Fremgangsmåte
+
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
+oppgaven. [Klikk her for å se
+oppgaveteksten.](../OPPGAVENAVN/OPPGAVENAVN.html){target=_blank}
+
+### Arduino
 
 Arduino er en åpen plattform for prototyping av elektronikk. Arduino kan brukes
 for å styre elektroniske komponenter som motorer og lys, samt få data fra
 knapper, temperaturmålere, osv. Mer info kan finnes på
 [arduino.cc](https://www.arduino.cc/en/Guide/Introduction).
 
-## Breadboard
+### Breadboard
 
 Et «breadboard» er et brett brukt for å forenkle prototyping.
 
@@ -58,7 +104,7 @@ delene. På radene med **+** og **-** går koblingene langs raden. På de
 nummererte kolonnene går koblingene langs kolonnene. Mer informasjon kan finnes
 på [Wikipedia](https://en.wikipedia.org/wiki/Breadboard).
 
-## Lukket krets
+### Lukket krets
 
 En lukket krets er en krets der komponentene er sammenkoblet fra en positiv
 spenning (+5 volt på arduinoens utganger) til en annen, lavere spenning (GND,
@@ -66,7 +112,7 @@ jord-koblingen på arduinoen). I en lukket krets vil strømmen gå fra den høye
 spenningen til den lavere gjennom alle komponentene, og så til den lavere
 spenningen.
 
-## Motstand
+### Motstand
 
 En motstand, også kalt resistor, er en elektronisk komponent som brukes til å
 begrense hvor mye strøm som går gjennom en lukket krets. Det finnes mange måter
@@ -82,7 +128,7 @@ fra lysdioden. Ved 220 Ohm vil diodene lyse ganske sterkt, ved 1000 Ohm en god
 del svakere, ved 10k mye svakere igjen. Om du finner motstander på 100k vil det
 være vanskelig å se lyset.
 
-## Jord, felles jord
+### Jord, felles jord
 
 Jord, markert GND på bl.a arduinoen, er en sammenkoblet serie med kabler og
 punkter, som alle holder samme elektriske spenning. Hvis man har jord
@@ -90,7 +136,7 @@ tilgjengelig flere steder gjør dette det enkelt å lage sluttede kretser, som m
 ser i steg 5 --- her har vi koblet GND til minus-skinnen på breadboardet, og
 fører jord videre derfra.
 
-## Kortslutninger (og litt om `INPUT_PULLUP`)
+### Kortslutninger (og litt om `INPUT_PULLUP`)
 
 Når man kobler en pinne med spenning på direkte til jord, vil det kunne gå
 ubegrenset med strøm fra denne. Dette kalles en kortslutning, og kan i mange
@@ -112,9 +158,9 @@ opp mot en pinne og glemmer å sette den til `OUTPUT`, vil du muligens se at det
 kommer bittelitt lys ut.
 
 
-# Løsningsforslag
+## Løsningsforslag
 
-## Kan du få lysdioden til å skrus på av et kort trykk på knappen?
+### Kan du få lysdioden til å skrus på av et kort trykk på knappen?
 
 ```cpp
 int led = 8; int knapp = 7; bool ledOn = false;
@@ -132,15 +178,21 @@ void loop() {
   } }
 ```
 
-## Kan du få til det samme med å bruke kun 3 ledninger?
+### Kan du få til det samme med å bruke kun 3 ledninger?
 
 ![tre ledninger](tre_ledninger.png)
 
 
-# Installasjonsinstruksjoner
+## Variasjoner {.challenge}
 
-+ [Windows](https://arduino.cc/en/Guide/Windows)
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
 
-+ [Mac OS X](https://arduino.cc/en/Guide/MacOSX)
+## Eksterne ressurser {.challenge}
 
-+ [Linux](https://arduino.cc/en/Guide/Linux)
+- [ ] Installasjonsinstruksjoner
+
+  + [Windows](https://arduino.cc/en/Guide/Windows)
+
+  + [Mac OS X](https://arduino.cc/en/Guide/MacOSX)
+
+  + [Linux](https://arduino.cc/en/Guide/Linux)
