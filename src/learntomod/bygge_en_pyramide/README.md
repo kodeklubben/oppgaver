@@ -1,5 +1,5 @@
 ---
-title: Lærerveiledning - Bygge en kube
+title: Lærerveiledning - Bygge en pyramide
 author: Susanne Rynning Seip
 language: nb
 ---
