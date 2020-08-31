@@ -69,7 +69,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="D6F6:DB61:4A8C765:6D5B5A2:5F4D64C5" data-pjax-transient="true"/><meta name="html-safe-nonce" content="f0a02cb63b9ffb24d1a5f419d158649572648110" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJENkY2OkRCNjE6NEE4Qzc2NTo2RDVCNUEyOjVGNEQ2NEM1IiwidmlzaXRvcl9pZCI6IjQxMTgwMDkzNjY0ODg5MDA4MDUiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJmcmEifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="27d479721424646488c8ed68939c17ecbab81eebeabb284f590aa646dba542cf" data-pjax-transient="true"/><meta name="cookie-consent-required" content="false" data-pjax-transient="true"/>
+  <meta name="request-id" content="BB54:34F7:73142B5:A95A733:5F4D64C6" data-pjax-transient="true"/><meta name="html-safe-nonce" content="4fccd14fb4f5499d6a17441156bedd85452dff9e" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJCQjU0OjM0Rjc6NzMxNDJCNTpBOTVBNzMzOjVGNEQ2NEM2IiwidmlzaXRvcl9pZCI6IjM2NTQ5MjAzOTE5OTY4MjY4MjIiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJmcmEifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="1530b925234ebef1ca11a2592e44ab8b9bb7b1ab88e26cab808d4a621cc94c18" data-pjax-transient="true"/><meta name="cookie-consent-required" content="false" data-pjax-transient="true"/>
 
 
 
@@ -200,7 +200,7 @@
 
 <div class="auth-form px-3" id="login">
 
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/session" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="3HTw8QjpjDMj0npYSelVOc82nSazDcvqakuIawVlgww5v9DaGekUHcc9ccfH1GC2gGx7S6+iLdR8cC72w0Dyeg==" />      <input type="hidden" name="ga_id" class="js-octo-ga-id-input">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/session" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="4vEcUDjpUoanCXCyI8L5q8e464Mdm6s5//HyYiQ2qX6vYtCu7MAHSvkSi3PxtXhCrRFvQWpS+C7VM4LGaPZ5GQ==" />      <input type="hidden" name="ga_id" class="js-octo-ga-id-input">
 
 
       <div id="js-flash-container">
@@ -252,9 +252,9 @@
         <input type="hidden" class="js-webauthn-support" name="webauthn-support" value="unknown">
         <input type="hidden" class="js-webauthn-iuvpaa-support" name="webauthn-iuvpaa-support" value="unknown">
         <input type="hidden" name="return_to" id="return_to" value="/login/oauth/authorize?client_id=e880a288499ff2a0599c&amp;redirect_uri=https%3A%2F%2Flessoneditor.ew.r.appspot.com%2Fcallback&amp;response_type=code&amp;scope=repo%2Cuser%3Aemail" class="form-control" />
-        <input class="form-control" type="text" name="required_field_ca0b" hidden="hidden" />
-<input class="form-control" type="hidden" name="timestamp" value="1598907589160" />
-<input class="form-control" type="hidden" name="timestamp_secret" value="6b2348433444bd3e2b493820960ed0fb52f5b24bf2152b7adb90698f4a8581f7" />
+        <input class="form-control" type="text" name="required_field_7f10" hidden="hidden" />
+<input class="form-control" type="hidden" name="timestamp" value="1598907590521" />
+<input class="form-control" type="hidden" name="timestamp_secret" value="a90175eded38816bae643cd81f0c2bb75bae43ac4fb8bca6992d656363af7221" />
 
         <input type="submit" name="commit" value="Sign in" tabindex="3" class="btn btn-primary btn-block" data-disable-with="Signing in…" />
       </div>
