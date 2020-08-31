@@ -1,7 +1,7 @@
 ---
-title: Astrokatt
-level: 1
-author: 'Geir Arne Hjelle'
+title: AstrokattTEST
+author: Geir Arne Hjelle,Erik Sagatun 
+translator: Testings
 language: nb
 ---
 
@@ -12,7 +12,7 @@ Katten vår har så lyst å være en astronaut, la oss se om vi kan hjelpe ham?
 Underveis vil vi lære hvordan vi flytter figurer rundt på skjermen, og hvordan
 katter blir påvirket av gravitasjonskreftene fra jorden.
 
-![Bilde av en katt i verdensrommet](astrokatt.png)
+![Bilde av en katt i verdensrommet](astrokatt.png )
 
 
 # Steg 1: En flyvende katt {.activity}
@@ -127,7 +127,7 @@ Nå skal vi sende den flyvende katten ut i verdensrommet.
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på ![Velg ny bakgrunn](../bilder/velg-bakgrunn.png) nederst til
+- [ ] Klikk på ![Velg ny bakgrunn](velg-bakgrunn.png ) nederst til
   høyre på skjermen for å hente inn en ny bakgrunn. Velg bakgrunnen `Stars` som
   du finner i kategorien `Romfart`.
 
@@ -138,12 +138,12 @@ Nå skal vi sende den flyvende katten ut i verdensrommet.
 - [ ] Velg først en litt lys farge. Klikk deretter på Sirkel-verktøyet på siden
   av katten, og tegn en sirkel rundt hodet på katten.
 
-  ![Bilde av katt med oksygentank](katt_oksygentank.png)
+  ![Bilde av katt med oksygentank](katt_oksygentank.png )
 
 Til slutt lager vi også en jordklode, som katten kan fly rundt.
 
 - [ ] Klikk på fanen `Kode` og deretter på ![Velg figur fra
-  biblioteket](../bilder/hent-fra-bibliotek.png) nede til høyre på skjermen.
+  biblioteket](hent-fra-bibliotek.png ) nede til høyre på skjermen.
   Skriv `Earth` i søkefeltet, og velg jordklodefiguren. Dra denne litt på siden
   av skjermen.
 
