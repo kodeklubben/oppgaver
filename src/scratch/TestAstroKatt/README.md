@@ -5,8 +5,6 @@ language: nb
 ---
 
 
-
-
 # Introduksjon {.intro}
 
 Katten vår har så lyst å være en astronaut, la oss se om vi kan hjelpe ham?
