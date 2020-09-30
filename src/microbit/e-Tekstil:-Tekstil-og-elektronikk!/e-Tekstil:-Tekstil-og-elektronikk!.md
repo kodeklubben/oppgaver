@@ -1,6 +1,6 @@
 ---
-title: "e Tekstil: Tekstil og elektronikk!"
-author: ",Carl A. Myrland,Øyvind O. Rise,Kristine Sevik,Vibeke Guttormsen" 
+title: "eTekstil: Tekstil og elektronikk!"
+author: "Carl A. Myrland,Øyvind O. Rise,Kristine Sevik,Vibeke Guttormsen" 
 language: "nb"
 ---
 
