@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Forsvunnet katt"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -13,38 +13,29 @@ Eleven skal derfor lage en hjemmeside for den forsvunnede katten.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Norsk, Programmering, Teknologi i praksis, Informasjonsteknologi 1
+__Fag__: Norsk, Programmering, IT1
 
 __Anbefalte trinn__: 7. trinn - VG2
 
-__Tema__: HTML, css, web, dokumentasjon
+__Tema__: HTML, CSS, Web, Dokumentasjon
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Norsk, 4. trinn__: lage tekster som kombinerer ord, lyd og bilde, med og
-  uten digitale verktøy
+- [ ] __Norsk, 7. trinn__: utforske og beskrive samspillet mellom skrift, bilder og andre uttrykksformer og lage egne sammensatte tekster
 
-- [ ] __Prorammering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av uttrykksformer
 
-- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-  å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av
-  standardiserte oppmerkingsspråk
+- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
 
-- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for
-  nettsteder
+- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
 
-- [ ] __Informasjonsteknologi 1, VG2__: planlegge nettsteder som inneholder
-  multimediekomponenter
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 

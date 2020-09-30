@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Trigonometri
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -12,44 +12,35 @@ vil også lære noe trigonometri (_sinus_ og _cosinus_).
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Kunst og håndtverk, matematikk, programmering.
+__Fag__: Kunst og håndverk, Matematikk, Programmering
 
-__Anbefalte trinn__: 8. trinn til VG3.
+__Anbefalte trinn__: 8. trinn - VG3
 
-__Tema__: Mangekanter, koordinatsystem, trigonometri, variabler, løkker.
+__Tema__: Mangekanter, Koordinater, Trigonometri, Variabler, Løkker
 
-__Tidsbruk__: Dobbelttime.
+__Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+- [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringer i koordinatsystemet
 
-- [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelementer
+- [ ] __Matematikk, 4. trinn:__ utforske, beskrive og sammenligne egenskaper ved to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
 
-- [ ] __Matematikk, 2. trinn__: gjenkjenne og beskrive trekk ved enkle to- og
-  tredimensjonale figurer i forbindelse med hjørner, kanter og flater, og
-  sortere og sette navn på figurene etter disse trekkene
+- [ ] __Matematikk, 6. trinn:__ beskrive egenskaper ved og minimumsdefinisjoner av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene har felles, og hvilke egenskaper som skiller dem fra hverandre
 
-- [ ] __Matematikk, 4. trinn__: tegne, bygge, utforske og beskrive geometriske
-  figurer og modeller i praktiske sammenhenger, medregnet teknologi og design
+- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre speiling, rotasjon og
-  parallellforskyvning
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 1T__: gjere greie for definisjonane av sinus, cosinus og
-  tangens og bruke trigonometri til å berekne lengder, vinklar og areal i
-  vilkårlege trekantar
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
-  generalisere og tilpasse eksisterende programkode og algoritmer
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __Matematikk 1T, VG1:__ redegjøre for definisjonene av sinus, cosinus og tangens og bruke trigonometri til å beregne lengder, vinkler og areal i vilkårlige trekanter
 
 ## Forslag til læringsmål {.challenge}
 

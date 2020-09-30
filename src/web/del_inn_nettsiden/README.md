@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Del inn nettsiden"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -16,7 +16,7 @@ sette farge på de forskjellige taggene ved hjelp av CSS, men vi kommer ikke til
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1
+__Fag__: Programmering, Kunst og håndverk, IT1
 
 __Anbefalte trinn__: 8. trinn - VG2
 
@@ -26,25 +26,15 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av
-  standardiserte oppmerkingsspråk
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for
-  nettsteder
+- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
 
-- [ ] __Informasjonsteknologi 1, VG2__: planlegge nettsteder som inneholder
-  multimediekomponenter
-
-- [ ] __Informasjonsteknologi 1, VG2__: utvikle nettsteder i henhold til planer
-  og vurdere om krav til brukergrensesnitt er oppfylt
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 

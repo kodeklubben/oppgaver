@@ -83,7 +83,7 @@ void loop() {
   delayMicroseconds(10);
   digitalWrite(sender, LOW);
 
-  auto tid = pulseIn(ekko);
+  auto tid = pulseIn(ekko, HIGH);
   auto avstand = (tid * lydens_hastighet) / 2;
 
   Serial.print("Avstand til gjenstand er ");

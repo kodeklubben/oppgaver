@@ -9,7 +9,7 @@ language: nn
 # Introduksjon {.intro}
 
 I denne oppgåva må du bruke det du har lært til no for å lage tre nettsider som
-skal lenke til kvarandre. Her er eit døme: [www.ulv.no](http://www.ulv.no/).
+skal lenke til kvarandre. Her er eit døme: [www.ulv.no](http://sobakk.no/iver/Smaoppgaver/dyr/ulv.html){target=_blank}.
 
 Denne sida lenkar til to ny sider som lenkar tilbake att til ulv.no. I denne
 oppgåva skal me gjere det same, men alle sidene skal lenke til kvarandre.
@@ -39,8 +39,8 @@ Prøv hinta under, og pass på at sidene ligg i same mappe.
  </hide>
 </toggle>
 
-Viss du brukar [`<nav>`-taggen](http://www.w3schools.com/tags/tag_nav.asp) frå
-oppgåv [Del inn nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html), så
+Viss du brukar [`<nav>`-taggen](http://www.w3schools.com/tags/tag_nav.asp){target=_blank} frå
+oppgåva [Del inn nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html){target=_blank}, så
 kan du leggje lenkene inne i `<nav>`-taggen.
 
 <toggle>
@@ -66,8 +66,8 @@ __Bra jobba!__ No har du tre sider som lenkar til kvarandre.
 
 # Eit døme {.activity}
 
-Her er eit døme på tre sider som er knytt saman. Koden er henta frå [Del inn
-nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html), der me lærte korleis
+Her er eit døme på tre sider som er knytt saman. Koden er henta frå oppgåva [Del inn
+nettsida](../del_inn_nettsiden/del_inn_nettsiden_nn.html){target=_blank}, der me lærte korleis
 me deler inn nettsida ved hjelp av `<div>`- og `<nav>`-taggar.
 
 ## Heim
@@ -85,6 +85,6 @@ me deler inn nettsida ved hjelp av `<div>`- og `<nav>`-taggar.
 
 # TIPS {.challenge}
 
-Du må gjerne bruke [w3schools](http://www.w3schools.com/) for å få endå meir
+Du må gjerne bruke [w3schools](http://www.w3schools.com/){target=_blank} for å få endå meir
 hjelp eller lese meir om HTML-taggar. Viss det er vanskeleg språk så spør du ein
 vaksen, lærarar eller rettleiaren din.

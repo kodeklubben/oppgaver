@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - PXT: Nødt eller sannhet"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -12,31 +12,35 @@ spilleren en utfordring som må gjennomføres eller et spørsmål som må besvar
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, programmering, IT.
+__Fag__: Matematikk, Programmering, IT1
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Spill, tilfeldighet.
+__Tema__: Spill, Tilfeldighet, Lister
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. trinn:__ vurdere og samtale om sjanser i dagligdagse
-  sammenhenger, spill og eksperimenter og beregne sannsynlighet i enkle
-  situasjoner
+- [ ] __Matematikk, 8. trinn:__ utforske hvordan algoritmer kan skapes, testes og forbedres ved hjelp av programmering
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Matematikk, 9. trinn:__ beregne og vurdere sannsynlighet i statistikk og spill
 
-- [ ] __IT2, VG3:__ programmere med valg og gjentakelser
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __Programmering, 10. trinn:__ analysere problemer, gjøre dem om til delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering
+
+- [ ] __IT1, VG2:__ forklare hva en algoritme er, og selv skrive strukturert og effektiv kode for å løse små problemer
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan lage kode som velger et tilfeldig element fra en liste.
 
 - [ ] Elevene kan lage kode som lar brukeren velge mellom nødt og sannhet.
+
+- [ ] Elevene kan skrive pseudokode for hva de ønsker å gjennomføre for så å implementere det.
 
 ## Forslag til vurderingskriterier {.challenge}
 

@@ -11,7 +11,7 @@ language: nb
 En viktig del av det å lage app-er er å utforme skjerminnholdet, dvs. alt app-en
 inneholder av grafikk, knapper, lister, osv. Formålet til denne leksjonen er å
 lære hvordan du kan bruke **FXML** for å lage skjerminnhold, og **to måter** å
-lage slikt innhold. I tillegg skal du lære hvordan du får app-en til å last inn
+lage slikt innhold. I tillegg skal du lære hvordan du får app-en til å laste inn
 og vise frem innholdet i FXML-filer. App-en er ikke så komplisert, den skal bare
 vise frem logoene til Kodeklubben og NTNU (eller andre logoer, hvis du ønsker
 det):
@@ -61,7 +61,7 @@ i denne leksjonen.
 - [ ] Denne FXML-en gir bare et tomt panel (av typen **AnchorPane**), så for å
   få noe å jobbe med, så trenger vi Rediger teksten slik at den blir som følger:
 
-  ```xml
+```xml
 <AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefWidth="500" prefHeight="400">
   <Rectangle layoutX="100" layoutY="20" width="80" height="80" fill="black"
     arcWidth="25" arcHeight="25"

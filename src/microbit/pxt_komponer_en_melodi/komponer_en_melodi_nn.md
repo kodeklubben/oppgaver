@@ -188,12 +188,10 @@ input.onButtonPressed(Button.A, function () {
 - [ ] Last ned prosjektet til micro:bit-en og lytt!
 
 
-# Steg 4: Nokre utfordringar {.activity}
+## Nokre utfordringar {.challenge}
 
 *Nokre forslag til endringar og utvidingar, men prøv å kome på andre ting
  sjølv!*
-
-## Fleire idear {.check}
 
 No har du lært korleis du kan skrive ein melodi i micro:bit-en. Under er nokre
 idear til vidareutvikling, men finn gjerne på noko heilt eige!

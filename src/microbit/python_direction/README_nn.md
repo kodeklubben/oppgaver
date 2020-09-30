@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - Python: Retningar"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -11,36 +11,29 @@ I denne oppgåva skal elevane lage eit kompass av ein micro:bit.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Naturfag, programmering, IT, samfunnsfag, teknologi i praksis.
+__Fag__: IT1, IT2, Naturfag, Programmering, Teknologi og design, Teknologi og forskningslære
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Himmelretningar, løkker.
+__Tema__: Himmelretningar, Lykkjer
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Naturfag, VG1:__ bruke enkle datasimuleringar eller animasjonar for å
-  illustrere og forklare naturfaglege fenomen og teste hypoteser
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk der minst
-  eitt er tekstbasert
+- [ ] __Naturfag, 10. trinn:__ bruke programmering til å utforske naturfaglige fenomen
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk, mellom dei minst eitt som er tekstbasert
 
-- [ ] __IT2, VG3:__ tilordne uttrykk til variablar
+- [ ] __Teknologi og design, 10. trinn:__ velje og bruke ulike materialar og verktøy i arbeidet med prototypar for teknologiske produkt
 
-- [ ] __IT2, VG3:__ lage eigne og bruke eigne og andre sine funksjonar eller
-  metodar med parameter
+- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle eit produkt
 
-- [ ] __Samfunnsfag, 4. trinn:__ peike ut og orientere seg etter himmelretningar
-  og gjere greie for kvifor det er tidsskilnader
+- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
 
-- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
-  materiale, komponentar, og funksjonelle teknologiske løysingar
+- [ ] __IT2, VG3:__ generalisere løysingar, lage gjenbrukbar programkode og nytte eksisterande kode i nye program
 
 ## Forslag til læringsmål {.challenge}
 
@@ -56,11 +49,11 @@ __Tidsbruk__: Dobbelttime
 
 ## Føresetnader og utstyr {.challenge}
 
-- [ ] __Føresetnader__: Oppgåva er ein introduksjon til micro:bit, og krev
-  ingen forkunnskapar eller erfaring.
+- [ ] __Føresetnader__: Oppgåva er ein introduksjon til micro python, men det er ei fordel å ha programmert med blokk-kode for micro:bit tidlegare og å kunne noko engelsk.
 
-- [ ] __Utstyr__: Datamaskin med tilgang til Internett, micro:bit og
-  micro-usb-kabel.
+- [ ] __Utstyr__: Datamaskin med tilgang til Internett, micro:bit og micro-usb-kabel.<br/><br/>
+Me tilrår å bruke [mu editor](https://codewith.mu/){target=_blank}. Det er instruksjonar for korleis ein lastar ned Mu på nettsida via linken.<br/><br/>
+Det er også mogeleg å bruke micro:bits eigen [online-editor](https://python.microbit.org/v/2.0){target=_blank}.
 
 ## Framgangsmåte
 
@@ -68,8 +61,11 @@ Her kjem tips, erfaringar og utfordringar til dei ulike stega i den faktiske
 oppgåva. [Klikk her for å sjå
 oppgåveteksten.](../python_direction/python_direction_nn.html){target=_blank}
 
-_Me har diverre ikkje nokon tips, erfaringar eller utfordringar tilknytta denne
-oppgåva endå._
+### Mu editor
+Skriv koden i editor-vindauget og trykk på “Flash”-knappen for å laste koden over på micro:biten. Dersom det ikkje fungerer, sørg for at micro:biten har dukka opp som ei USB-eining på datamaskinen.
+
+### Micro:bit online-editor
+Skriv koden i nettlesaren, last ned på datamaskinen og dra filen over til micro:biten.
 
 ## Variasjonar {.challenge}
 
