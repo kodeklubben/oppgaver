@@ -1,32 +1,33 @@
 ---
 title: "Robotdyra"
-author: "Læringsverksted Drammen,Carl A. Myrland" 
+author: "Læringsverksted Drammen og Carl A. Myrland"
 language: "nb"
 ---
 
 
 # Innledning{.intro}
 
-*Oppgaven er opprinnelig utviklet ved Læringsverkstedet Drammen*
-
-Denne leken kan ta alt fra 15-60 minutter avhengig av gruppens størrelse og utholdenhet.
+Denne oppgaven kan ta alt fra 15-60 minutter avhengig av gruppens størrelse og utholdenhet.
 
 Ved å bruke et forhåndsdefinert «Robotordforråd» samarbeider barna om å sette sammen en rekke symboler til en algoritme. Barna får gjennom denne programmeringsleken en mulighet til å oppdage, utforske og se sammenhenger gjennom algoritmisk tekning.
 
 ## {.tip}
 Denne øvelsen introduserer barna for prinsippene bak programmering, og kan enkelt knyttes sammen med målsetninger knyttet til
-- antall, rom  og form
-- natur miljø, teknikk  
-- kommunikasjon språk og tekst.
+- antall, rom og form
+- natur, miljø og teknikk  
+- kommunikasjon, språk og tekst.
 
 # Læringsutbytte{.activity}
+
 ## Viktige begreper å lære {.check}
+
 Nøkkelord som er viktige i denne leken:
+
 - **Symbol** – et tegn som symboliserer en handling
 
 - **Koding** – omgjøre handlinger til et symbolspråk
 
-- **Algoritme** – en samling av symboler som omgjøres til handling for å kunne nå et mål
+- **Algoritme** – en samling av symboler som omgjøres til handling for å nå et mål
 #
 
 ## Barna... {.check}
@@ -49,15 +50,13 @@ Nøkkelord som er viktige i denne leken:
 - [ ] Laminerte kodesymboler
 - [ ] Farget maskeringstape for å markere rutenett på gulvet
 
-**PDF med dyrebilder og kodesymboler kan lastes ned her:** 
-`https://drive.google.com/file/d/1bJSqf3ArvXK-eazcS01VTbo66xD8lOSi/view?usp=sharing`
+[**PDF med dyrebilder og kodesymboler kan lastes ned her.**](https://drive.google.com/file/d/1bJSqf3ArvXK-eazcS01VTbo66xD8lOSi/view?usp=sharing)
 
 
 # Symbolforklaring {.activity}
-#
+
 ![Bildebeskrivelse](symbolerrobotdyra.png)
 
-#
 
 # Forberedelser {.activity}
 - [ ] Marker et rutenett på gulvet ved hjelp av maskeringstape
@@ -79,11 +78,11 @@ Vis kodesymbolene og forklar barna hva de ulike symbolene betyr.
 
 ## Gjennomføring av spillet {.check}
 
-1. Et av barna velges til robot
-1. Roboten velger hvilket dyr den ønsker å gå til
-1. De andre barna er programmerere, og samarbeider med den voksne om å finne ut hvilken vei roboten skal gå for å komme til det valgte dyret
-1. Programmererne bruker symbolene for å sette sammen algoritmen som symboliserer den valgte ruten
-1. Når algoritmen er klar trygger programmerene på Gå-symbolet for at roboten skal starte å gå
-1. Roboten “leser” algoritmen og utfører instruksjonen. Den voksne støtter gjennom å veilede og stille spørsmål underveis.
-1. Når roboten kommer frem til det valgte dyret utfører den en handling som symboliserer de ulike dyra - for eksempel å stå på ett ben som en flamingo, eller å gjøre seg liten som en mus.
+- [ ] Et av barna velges til robot
+- [ ] Roboten velger hvilket dyr den ønsker å gå til
+- [ ] De andre barna er programmerere, og samarbeider med den voksne om å finne ut hvilken vei roboten skal gå for å komme til det valgte dyret
+- [ ] Programmererne bruker symbolene for å sette sammen algoritmen som symboliserer den valgte ruten
+- [ ] Når algoritmen er klar trygger programmerene på Gå-symbolet for at roboten skal starte å gå
+- [ ] Roboten “leser” algoritmen og utfører instruksjonen. Den voksne støtter gjennom å veilede og stille spørsmål underveis.
+- [ ] Når roboten kommer frem til det valgte dyret utfører den en handling som symboliserer de ulike dyra - for eksempel å stå på ett ben som en flamingo, eller å gjøre seg liten som en mus.
 #
