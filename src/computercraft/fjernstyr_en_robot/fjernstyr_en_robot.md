@@ -30,7 +30,7 @@ Denne oppgaven bygger videre på andre oppgaver:
   Funksjoner](../bygg_et_hus/bygg_et_hus.html#steg-4-funksjoner) forklarer
   hvordan vi kan skrive egne funksjoner.
 
-Gå tilbake og kikk på disse to oppgavene hvis denne blir vanskelig.
+Gå tilbake og kikk på disse tre oppgavene hvis denne blir vanskelig.
 
 ## Redigere filer utenfor ComputerCraft {.tip}
 

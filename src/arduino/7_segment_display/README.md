@@ -1,25 +1,73 @@
 ---
 title: Lærerveiledning - 7-Segment Display
-author: "Martin Ertsås & Morten Minde Neergaard"
+author: "Martin Ertsås, Morten Minde Neergaard og Susanne Rynning Seip"
 language: nb
 ---
 
+# Om oppgaven {.activity}
 
-# Informasjon til veiledere
+I denne oppgaven skal elevene få et display til å telle.
 
-## Læringsmål
+## Oppgaven passer til: {.check}
 
-Oppgaven «7-Segment Display» introduserer flere konsepter:
+ __Fag__: Naturfag, Teknologi og Design, Teknologi og forskningslære
 
-+ En teknikk for å utforske ukjente komponenter
+__Anbefalte trinn__: 5. trinn - VG3
 
-+ 7-Segment Display
+__Tema__: Arduino, Kretser, Funksjoner, Switch
 
-+ Funksjoner og funksjonskall
+__Tidsbruk__: Dobbelttime
 
-+ Switch statements
+## Kompetansemål {.challenge}
 
-## Merk
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
+
+- [ ] __Teknologi og design, 10. trinn:__ velge og bruke ulike materialer og verktøy i arbeidet med prototyper for teknologiske produkt
+
+- [ ] __Teknologi og design, 10. trinn:__ grunngi valg av design, materialer, verktøy og framgangsmåter, og reflektere over hvor trygge og bærekraftige valgene er
+
+- [ ] __Teknologi og forskningslære X og 1, VG2:__ anvende kravspesifikasjon i arbeid med å utvikle og teste funksjonelle produkter og vurdere produktet opp mot kravspesifikasjonen
+
+- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+
+## Forslag til læringsmål {.challenge}
+
+- [ ] Elevene kan forklare hvordan et 7-Segment Display fungerer
+
+- [ ] Elevene kan skrive program for en Arduino som bruker funksjoner, funksjonskall og switch statements
+
+- [ ] Elevene kan videreføre teknikken for å utforske ukjente komponenter på egenhånd
+
+## Forslag til vurderingskriterier {.challenge}
+
+Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av kompetansemålet.
+
+## Forutsetninger og utstyr {.challenge}
+
+- [ ] __Forutsetninger__: Oppgaven er en introduksjon til Arduino, og krever ingen forkunnskaper eller erfaring. Det er en fordel å kunne litt engelsk.
+
+- [ ] __Utstyr__:
+
+  - [ ] 1 Arduino Uno
+
+  - [ ] Datamaskin med Arduino software installert (Se _Eksterne ressurser_) og USB-kabel
+
+  - [ ] 1 breadboard
+
+  - [ ] 2 motstander 1k Ohm (Fargekode: brun-svart-rød-gull)
+
+  - [ ] 11 ledninger
+
+  - [ ] 1 7-segment display (med common type katode)
+
+  ![utstyr](utstyr.jpg)
+
+## Fremgangsmåte
+
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
+oppgaven. [Klikk her for å se oppgaveteksten.](../7_segment_display/7_segment_display.html){target=_blank}
+
+### Merk
 
 Denne oppgaven krever at elevene holder styr på en god del ledninger, og
 sluttresultatet vil se noe kaotisk ut.
@@ -27,9 +75,9 @@ sluttresultatet vil se noe kaotisk ut.
 ![kaotisk](kaotisk.jpg)
 
 
-# Løsningsforslag
+## Løsningsforslag
 
-## Display som teller opp og ned med to knapper
+### Display som teller opp og ned med to knapper
 
 Kobling:
 
@@ -199,3 +247,16 @@ void loop() {
   }
 }
 ```
+
+## Variasjoner {.challenge}
+
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
+
+## Eksterne ressurser {.challenge}
+- [ ] Installasjonsinstruksjoner:
+
+  + [Windows](https://arduino.cc/en/Guide/Windows)
+
+  + [Mac OS X](https://arduino.cc/en/Guide/MacOSX)
+
+  + [Linux](https://arduino.cc/en/Guide/Linux)

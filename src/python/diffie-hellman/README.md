@@ -19,7 +19,7 @@ og egnede trinn er velkomne.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, matematikk
+__Fag__: Programmering, matematikk, IT
 
 __Anbefalte trinn__: 8. trinn--VG3
 
@@ -29,25 +29,43 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Valgfag programmering__: Prinsipper som ligger til grunn for
-      god programmeringspraksis inngår også i hovedområdet, deriblant
-      forklaring og dokumentasjon av løsninger og programkode; vurdering
-      og analyse av egen og andres programkode (Fra hovedområdene)
-- [ ] __Valgfag programmering__: omgjøre problemer til konkrete delproblemer
-- [ ] __Matematikk X__: gjøre rede for praktiske anvendelser av
-      kongruensregning i kryptering og feilrettingskoder
-- [ ] __Matematikk X__: planlegge, utføre og presentere et selvstendig
-      utforskende arbeid i et emne tilknyttet hovedområdet
+- [ ]  __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+      delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+       programmering
+
+- [ ] __Matematikk, 8. trinn__: bruke potenser og kvadratrøtter i utforsking og
+      problemløsing og argumentere for fremgangsmåter og resultat
+
+- [ ] __Matematikk, 8. trinn__: lage og forklare regneuttrykk med tall,
+      variabler og konstanter knyttet til praktiske situasjoner
+
+- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
+
+- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
+      parametre og returverdier
+
+- [ ] __IT1, VG2__: utforske trusler mot datasikkerheten og kjenne til
+      beskyttende tiltak for noen av disse
+
+- [ ] __IT2, VG3__: beskrive hvordan data kan beskyttes ved hjelp av
+      tilgangskontroll og kryptering
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene behersker modulo-regning
+
+- [ ] Elevene kan forklare hvordan nøkkelutveksling fungerer, og hvorfor det
+      fungerer som en kryptering
+
+- [ ] Elevene kan lese, forstå og endre andres programkode
+
 - [ ] Elevene får til å genere nøkler sammen
 
 ## Forslag til vurderingskriterier {.challenge}
 
 - [ ] Eleven oppnår middels måloppnåelse ved å fullføre oppgaven til og
       med steg 3.
+
 - [ ] Eleven oppnår høy måloppnåelse ved å fullføre stegene 4 og 5. Kun
       de aller sterkeste elevene forventes å få til utfordringen på
       slutten av steg 5.
@@ -56,6 +74,7 @@ __Tidsbruk__: Dobbeltime
 
 - [ ]  __Forutsetninger__: God kjennskap til Python, noe matematisk
        modenhet. Gjennomført tidligere oppgaver som beskrevet over.
+
 - [ ]  __Utstyr__: Datamaskin med Python installert
 
 ## Fremgangsmåte
@@ -71,4 +90,8 @@ har programmert for å forstå matematikken bedre.
 
 ## Variasjoner {.challenge}
 
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
+
 ## Eksterne ressurser {.challenge}
+
+- [ ] Foreløpig ingen eksterne ressurser ...

@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Straffespark
-author: Geir Arne Hjelle
+author: Geir Arne Hjelle, Vegard Tuset
 level: 1
 language: nb
 ---
@@ -26,13 +26,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 4. årstrinn__: lese av, plassere og beskrive posisjoner i
-       rutenett, på kart og i koordinatsystemer, både med og uten digitale
-       verktøy
+- [ ] __Matematikk, 6. årstrinn__: utforske og beskrive symmetri og mønster og
+      utføre kongurensavbildinger med og uten koordinatsystem
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+- [ ] __Matematikk fordypning, 10 årstrinn__: diskutere, planlegge, lage og
+      vurdere spilldesign og egne spill
+
+- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering
+      , slik som variabler, løkker, vilkår og funksjoner, og reflektere over
+      bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Rotasjon rundt egen akse
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 level: 1
 language: nb
 ---
@@ -24,13 +24,14 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 7. årstrinn__: beskrive og gjennomføre speiling, rotasjon
-       og parallellforskyvning
+- [ ] __Matematikk, 4. årstrinn__: utforske, beskrive og sammenligne egenskaper
+      ved to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
 
-- [ ]  __Matematikk, 7. årstrinn__: beskrive plassering og flytting i rutenett,
-       på kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-       koordinater til å beregne avstander parallelt med aksene i et
-       koordinatsystem
+- [ ] __Matematikk, 6. årstrinn__: bruke variabler, løkker, vilkår og
+      funksjoner i programmering til å utforske geometriske figurer og mønster
+
+- [ ] __Matematikk, 6 årstrinn__: utforske og beskrive symmetri og mønster og
+      utføre kongurensavbildinger med og uten koordinatsystem
 
 ## Forslag til læringsmål {.challenge}
 

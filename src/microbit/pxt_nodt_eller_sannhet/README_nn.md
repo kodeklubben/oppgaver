@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Nødt eller sannheit"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -12,30 +12,35 @@ spelarane ei utfordring som må gjennomførast eller eit spørsmål dei må svar
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Matematikk, programmering, IT
+__Fag__: Matematikk, Programmering, IT1
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Spel, tilfeldigheit.
+__Tema__: Spel, Tilfeldigheit, Lister
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. trinn:__ vurdere og samtale om sjansar i daglegdagse
-  samanhengar, spel og eksperiment og berekne sannsyn i enkle situasjonar
+- [ ] __Matematikk, 8. trinn:__ utforske hvordan algoritmer kan skapes, testes og forbedres ved hjelp av programmering
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 9. trinn:__ berekne og vurdere sannsyn i statistikk og spel
 
-- [ ] __IT2, VG3:__ programmere med val og gjentakingar
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilledesign og egne spill
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __Programmering, 10. trinn:__ analysere problem, gjera dei om til delproblem og gjera reie for korleis nokon av delproblema kan løysast med programmering
+
+- [ ] __IT1, VG2:__ forklare kva ein algoritme er, og sjølv skrive strukturert og effektiv kode for å løysa små problem
 
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevane kan lage kode som vel eit tilfeldig element frå ei liste.
 
 - [ ] Elevane kan lage kode som let brukaren velje mellom nødt og sanning.
+
+- [ ] Elevane kan skrive pseudokode for kva dei ynskjer å gjennomføre for så å implementere det.
 
 ## Forslag til vurderingskriterium {.challenge}
 

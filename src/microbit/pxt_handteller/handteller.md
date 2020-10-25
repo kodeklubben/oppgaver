@@ -7,7 +7,7 @@ language: nb
 
 # Introduksjon {.intro}
 
-I denne oppgaven skal programmere micro:biten slik at den kan hjelpe oss å telle.
+I denne oppgaven skal vi programmere micro:biten slik at den kan hjelpe oss å telle.
 Det kan for eksempel være at vi vil telle hvor mange som er på en buss til en
 hver tid. Da må vi kunne legge til og fjerne passasjerer når de går på og av.
 

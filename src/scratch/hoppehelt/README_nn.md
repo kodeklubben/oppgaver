@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Hoppehelt
 level: 4
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -16,7 +16,7 @@ boksar som lagar lyd.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Kunst og handverk, matematikk, programmering.
+__Fag__: Kunst og handverk, matematikk, programmering, musikk.
 
 __Anbefalte trinn__: 3.-10. trinn.
 
@@ -26,21 +26,25 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 2. trinn__: byggje med enkle geometriske grunnformer
+- [ ] __Kunst og handverk, 2. trinn__: eksperimentere med form, farge, rytme og
+      kontrast
 
-- [ ] __Kunst og handverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelement
+- [ ] __Kunst og handverk, 7. trinn__: bruka programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktåy
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
+      koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk, 10. trinn__: utforske matematiske eigenskapar og samanhengar
+      ved å bruke programmering
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Musikk, 2. trinn__: leke med grunnelementa til musikken gjennom lyd og
+      stemme, lage mønster og setja saman mønstera til enkle improvisasjonar
+      og komposisjonar, også med digitale verktøy
+
+- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+      programmering, slik som variablar, løkker, vilkår og funksjonar, og
+      reflektere over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 

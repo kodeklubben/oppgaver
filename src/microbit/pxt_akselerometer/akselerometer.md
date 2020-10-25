@@ -9,8 +9,8 @@ language: nb
 
 Micro:biten har et akselerometer som merker hvilken vei vi holder micro:biten, om
 den ristes, er i fritt fall og lignende. Akselerasjonen måles langs tre akser:
-x (høyre/venstre), y (framover/bakover) og z (opp/ned). I dennne oppgaven skal
-vi se på akselerasjon lengs x- og y-aksen for så å vise piler i hvilken retning
+x (høyre/venstre), y (framover/bakover) og z (opp/ned). I denne oppgaven skal
+vi se på akselerasjon langs x- og y-aksen for så å vise piler i hvilken retning
 micro:biten heller.
 
 
