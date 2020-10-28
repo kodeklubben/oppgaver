@@ -8,7 +8,8 @@ language: "nb"
 
 # Om oppgaven {.activity}
 
-I denne oppgaven...
+I denne oppgaven blir elevene kjent med programmeringsbegrepet "hendelser", og hvordan vi bruker hendelser til å påvirke dataprogrammer. 
+
 
 ## Oppgaven passer til: {.check}
 
