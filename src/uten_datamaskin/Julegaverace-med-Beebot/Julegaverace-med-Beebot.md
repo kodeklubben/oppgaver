@@ -1,17 +1,13 @@
 ---
 title: "Julegaverace med Beebot"
-author: ",Sigurd Schaathun" 
+author: "Sigurd Schaathun"
 language: "nb"
 ---
 
 
-(TEKSTMAL FOR OPPGAVER)
-
 # Introduksjon {.intro}
 
 Du skal programmere en Bee Bot eller Blue Bot til å kjøre gjennom en løype. Denne løypen er å levere julegaver til forskjellige steder, men du må unngå hindringer.
-
-![ALTERNATIV_TEKST](BILDEFIL)
 
 
 # Steg 1: Gjør klar banen {.activity}
