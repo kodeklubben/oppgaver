@@ -1,6 +1,6 @@
 ---
-title: "BallongBattle"
-author: "Sigurd Schaathun" 
+title: "PXT: BallongBattle"
+author: "Sigurd Schaathun"
 language: "nb"
 ---
 
@@ -17,15 +17,15 @@ I denne oppgaven skal vi lage fjernstyring til Bit:Bot som kommer i Super:bit-pa
 
 **Tema**: Fjernstyring, motorer
 
-**Tidsbruk**: 45 -90 minutter
+**Tidsbruk**: 45 - 90 minutter
 
 ## Kompetansemål {.challenge}
 
-- [ ] **Naturfag, 10. trinn**:  utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker
+- [ ] **Matematikk, 5. trinn**:  lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
 
 - [ ] **Naturfag, 7. trinn**:  utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
 
-- [ ] **Matematikk, 5. trinn**:  lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
+- [ ] **Naturfag, 10. trinn**:  utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker
 
 
 ## Forslag til læringsmål {.challenge}
@@ -51,14 +51,14 @@ nyttige tips til hvordan man underviser i programmering.
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. 
+oppgaven.
 
 # Steg 1: Radiokommunikasjon {.activity}
 
-- [ ] Her må lærer/instruktør tildele radiogrupper til hver. Radiogrupper bestemmer hvilke micro:bit som skal kommunisere med hverandre. Det er 256 grupper, nummerert fra 0 til 255. 
+- [ ] Her må lærer/instruktør tildele radiogrupper til hver. Radiogrupper bestemmer hvilke micro:bit som skal kommunisere med hverandre. Det er 256 grupper, nummerert fra 0 til 255.
 
 - [ ] Begge micro:bitene (fjernkontroll og bit:bot) må være på samme gruppe - husk dette til senere.
- 
+
 # Steg 2: Fjernkontroll {.activity}
 
 - [ ] Her er det først to måter, en enkel, men med begrensete muligheter, før en mer elegant, men litt mer kompleks måte.
@@ -74,5 +74,3 @@ oppgaven.
 ## Variasjoner {.challenge}
 
 - [ ]  Elevene kan gjerne bruke lysfunksjonene i bit:bot hvis de har ekstra tid.
-
-
