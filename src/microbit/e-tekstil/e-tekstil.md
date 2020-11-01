@@ -1,22 +1,15 @@
 ---
-title: "eTekstil: Tekstil og elektronikk!"
-author: "Carl A. Myrland,Øyvind O. Rise,Kristine Sevik,Vibeke Guttormsen" 
+title: "e-Tekstil: Tekstil og elektronikk!"
+author: "Carl A. Myrland, Øyvind O. Rise, Kristine Sevik, Vibeke Guttormsen"
 language: "nb"
 ---
 
-
-- [ ] # Introduksjon til eTekstil {.intro}
+# Introduksjon til eTekstil {.intro}
 
 I denne oppgaven skal vi lage en figur i filt og koble den opp mot en micro:bit ved hjelp av strømledende sytråd, noen LED-pærer og kabler. LED-pærene skal vi programmere til å lyse eller blinke!
 
-## {.tip}
-Har du aldri programmert en micro:bit før, kan det være lurt å gjøre noen enkle øvelser først. 
 
-- **PC**: Gå til makecode.microbit.org og gjør øvelsene "Blinkende hjerte" og "Smileknapper". Pass på at du velger "Blokker - Start øvelse".
-- **iPad**: Bruk appen "Micro:bit". Resten er likt som på PC.
-#
-
-![Bildebeskrivelse](katte:bit2.jpg)
+![Katte-bit](katte-bit2.jpg)
 
 ## Mål for arbeidet {.check}
 - Lage et fysisk produkt av tekstiler, LED-lys, strømledende sytråd og micro:bit.
@@ -45,7 +38,9 @@ Pass på at ingen strømførende tråder berører hverandre eller andre poler en
 #
 
 # Les og forstå: Elektriske kretser {.activity}
-For å få en LED-pære til å lyse, må vi danne en elektrisk *krets*. Vi må passe på at kretsen er *lukket*, og at pluss- og minus-polene er koblet riktig, både på strømkilden og LED-pæra. At kretsen er lukket, betyr at elektrisiteten kan strømme fra minuspol til plusspol. ![Bildebeskrivelse](strømkildeLED.png)
+For å få en LED-pære til å lyse, må vi danne en elektrisk *krets*. Vi må passe på at kretsen er *lukket*, og at pluss- og minus-polene er koblet riktig, både på strømkilden og LED-pæra. At kretsen er lukket, betyr at elektrisiteten kan strømme fra minuspol til plusspol.
+
+![Strømkilde](strømkildeLED.png)
 
 Strømkilden vår i dette arbeidet er en micro:bit. På en micro:bit har vi mange plusspoler, men bare én minuspol: GND.  Alle de andre kontaktene (kalles ofte "*pin*") er separate plusspoler, som gjør at vi kan sende ulike beskjeder fra de ulike kontaktpunktene. I denne oppgaven fokuserer vi kun på P0 (Pin 0) og P1 (Pin 1), i tillegg til GND.
 
@@ -56,8 +51,7 @@ På en LED-pære er alltid det lange "beinet" pluss, og det korte beinet er minu
 
 På bildet under ser du en krets som lar begge LED-pærene lyse på samme måte, fordi P0 er koblet til plusspolen på begge LED-pærene, og begge minuspolene er koblet til GND. Det betyr at begge lysene mottar den samme beskjeden fra micro:biten.
 
-![Bildebeskrivelse](kobling1kurs.png)
-
+![Kobling av kurs](kobling1kurs.png)
 
 
 # Montere LED-lys og koble sammen elektronikken {.activity}
@@ -67,10 +61,11 @@ Koble en krokodilleklemme til P0, og koble den andre enden av ledningen til den 
 
 Til denne oppgaven trenger du kun én sytråd ut til plusspolene på begge LED-pærene, og én sytråd fra minuspolene tilbake til GND.
 
-![Bildebeskrivelse](rundtang1.jpg)
+![Tang](rundtang1.jpg)
 
 Pass på at beina rulles opp slik at de ikke berører hverandre:
-![Bildebeskrivelse](rundtang2.jpg)
+
+![Tang](rundtang2.jpg)
 
 
 # Programmere micro:bit {.activity}
@@ -80,7 +75,7 @@ Pass på at beina rulles opp slik at de ikke berører hverandre:
 
 Nå skal vi skrive den første algoritmen som får LED-pærene til å blinke.
 
-- [ ] Start et nytt prosjekt på makecode.microbit.org.
+- [ ] Start et nytt prosjekt på [makecode.microbit.org](https://makecode.microbit.org){target=_blank}.
 - [ ] Som standard ligger det to blå blokker klare til bruk; `ved start`{.microbitbasic} og en `gjenta for alltid`{.microbitbasic}-løkke. `ved start`{.microbitbasic}-blokken kan du fjerne ved å dra den til verktøykassa midt på skjermen.
 - [ ] Finn frem `basis`{.microbitbasic}-blokken og legg den inni `gjenta for alltid`{.microbitbasic}-blokken:
 
@@ -99,7 +94,7 @@ basic.forever(function () {
 ```
 ## {.tip}
 I denne oppgaven ønsker vi kun å skru lyset av eller på. Derfor bruker vi `skriv digital`{.microbitpins}-blokken. Digitale beskjeder kan kun være 0 eller 1 altså "av" eller "på". Ved å bruke blokken `Skriv analog`{.microbitpins} kan du endre strømstyrken som sendes ut. 0 er fremdeles "av", mens 1023 betyr "full strømstyrke". Hva skjer om du setter analog-verdien til for eksempel 600?
-#
+##
 
 - [ ] Lag en kopi av de to blokkene, og lag denne algoritmen:
 
@@ -113,16 +108,16 @@ basic.forever(function () {
 ```
 
 ## {.tip}
-Algoritmen vi har laget, skal altså for alltid sende ut beskjed om å skru av lyset, vente 500 ms (et halvt sekund), skru på lyset, vente et halvt sekund - og begynne på toppen av løkka igjen. 
-#
+Algoritmen vi har laget, skal altså for alltid sende ut beskjed om å skru av lyset, vente 500 ms (et halvt sekund), skru på lyset, vente et halvt sekund - og begynne på toppen av løkka igjen.
+##
 
 ## Blinke blinke! {.flag}
 
-- [ ] Last ned koden og overfør den til micro:biten. 
+- [ ] Last ned koden og overfør den til micro:biten.
 - [ ] Koble micro:biten til den strømførende tråden ved hjelp av krokodilleklemmene.
 - [ ] Blinker LED-lysene som de skal?
 
-![Bildebeskrivelse](tadaa2.jpg)
+![Tadaa](tadaa2.jpg)
 
 # Alternativer {.activity}
 Hittil i oppgaven har vi kun koblet de to LED-lysene til samme pin, P0. Det fungerer fint det, men vi kan ha det litt mer moro ved å kjøre lysene på hver sin krets! Legg opp en ny krets med strømførende sytråd til det ene LED-lyset, og koble den til P1. Fjern koblingen til den andre kretsen. Pass på at trådene fra de to kretsene ikke berører hverandre.
@@ -130,7 +125,7 @@ Hittil i oppgaven har vi kun koblet de to LED-lysene til samme pin, P0. Det fung
 ## {.tip}
 På bildet under ser du hvordan vi kan få de to LED-pærene til å lyse ulikt. Den ene pæra er koblet til P0, den andre til P1. Da kan vi sende ulike signaler til de to pærene. Vi ser at begge pærene er koblet til GND.
 
-![Bildebeskrivelse](kobling2kurser.png)
+![Kobling](kobling2kurser.png)
 #
 Her følger tre alternative forslag til hvordan du kan få lysene til å blinke:
 
