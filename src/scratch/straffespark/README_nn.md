@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Straffespark
 level: 1
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -26,12 +26,15 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 6. årstrinn__: utforske og beskrive symmetri og mønster og
+      utføre kongurensavbildinger med og utan koordinatsystem
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk fordypning, 10 årstrinn__: diskutere, planlegge, lage og
+      vurdere spilldesign og eigne spel
+
+- [ ] __Programmering, valgfag__: bruke grunnleggande prinsipp i programmering
+      , slik som variablar, løkker, vilkår og funksjonar, og reflektere over
+      bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 

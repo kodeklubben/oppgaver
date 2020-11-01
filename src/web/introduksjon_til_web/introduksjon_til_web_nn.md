@@ -1,7 +1,7 @@
 ---
 title: "HTML: Introduksjon til Web"
 author: "Omsett frå [Code Club UK](//codeclub.org.uk)"
-translator: Stein Olav Romslo
+translator: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -101,17 +101,13 @@ deg, og teksten mellom taggane blir synleg som ei lenke.
 
 ## Aktivitetar {.check}
 
-- [ ] Installer **X-Ray Goggles** ved å trekke lenka <a
-  href="javascript:(function () {var
-  script=document.createElement('script');script.src='https://goggles.mozilla.org'+'/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.mozilla.org');document.body.appendChild(script);}())">X-Ray
-  Goggles</a> til bokmerkerada di.
+- [ ] Åpne fila `side.html` frå [internett.zip](internett.zip) i nettlesaren (Chrome).
 
-- [ ] Åpne fila `side.html` frå [internett.zip](internett.zip).
+- [ ] Høgreklikk på sida og velg "Inspiser" ("Inspect" på engelsk). Då åpnar utviklarverktøyet til nettlesaren din.
 
-- [ ] Trykk på *X-Ray Goggles* på bokmerkerada di. Viss ikkje noko skjer, så kan
-  du spørje ein vaksen om hjelp til å bruke utviklarverktøyet i nettlesaren din.
+- [ ] Klikk på ikonet øvst til venstre som ser ut som ei pil i ein firkant (![Bilete av "Pick element" ikon](pickelement.png)).
 
-- [ ] Beveg musa rundt på sida. Då kan du sjå delar av sida lyse opp og sjå kva
+- [ ] Beveg så musa rundt på sida. Då kan du sjå delar av sida lyse opp og sjå kva
   taggar delane er laga av.
 
 - [ ] Trykk på noko for å sjå kodesnutten det er laga av.

@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Jafsefisk
 level: 2
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -25,14 +25,18 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
+      koordinatsystemet
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk 5. trinn__: lage og programmere algoritmar med bruk av
+      variablar, vilkår og løkker
 
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planleggje, lage og
+      vurdere spilldesign og eigne spel
+
+- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+      programmering, slik som variablar, løkker, vilkår og funksjonar, og
+      reflektere over bruken av desse
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevane kan bruke eit koordinatsystem for å plassere og flytte ein figur.

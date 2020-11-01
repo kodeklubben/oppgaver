@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - If-setninger
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -24,12 +24,12 @@ __Tidsbruk__: Enkelttime
 ## Kompetansemål {.challenge}
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som if-setninger, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
-- [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer,
-  vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
-  for disse
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 

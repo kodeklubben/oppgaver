@@ -70,13 +70,13 @@ din Arduino og studer den!
 
 ## Dette trenger du {.check}
 
-- [ ] 2 ledninge
+- [ ] 2 ledninger
 
-- [ ] 1 LE
+- [ ] 1 LED
 
-- [ ] 1 Arduino Un
+- [ ] 1 Arduino Uno
 
-- [ ] 1 breadboar
+- [ ] 1 breadboard
 
 - [ ] 1 motstand 220 Ohm (Fargekode: rød-rød-brun-gull)
 

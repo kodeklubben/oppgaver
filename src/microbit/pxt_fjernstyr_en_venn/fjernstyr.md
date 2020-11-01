@@ -41,13 +41,13 @@ pilretningen mottakeren skal gå i.*
 2 = høyre (Øst), 4 = ned (Sør) eller 6 = venstre (Vest). Lag en kode som bestemmer
 hvilken av disse du skal sende. Du kan selv velge hvordan du vil gjøre dette,
 men her er noen forslag:
-- Bruk innebygd funksjon for helning av micro:bit til å bestemme hvilken pil
-som skal sendes.
-- Bruk målt akselerasjon i x-og y-retning til å avgjøre retningen (høyre: x>0,
-  venstre: x<0, opp: y<0, ned: y>0) .
-- La trykk på kontaktene P0, P1 og P2 representere pilene venstre, høyre og opp,
-mens knapp A representerer pil ned.
-- Når du trykker på A vises neste pil.
+  - Bruk innebygd funksjon for helning av micro:bit til å bestemme hvilken pil
+  som skal sendes.
+  - Bruk målt akselerasjon i x-og y-retning til å avgjøre retningen (høyre: x>0,
+    venstre: x<0, opp: y<0, ned: y>0) .
+  - La trykk på kontaktene P0, P1 og P2 representere pilene venstre, høyre og opp,
+  mens knapp A representerer pil ned.
+  - Når du trykker på A vises neste pil.
 
 - [ ] Lag kode som sender pilnummeret til mottakeren. Dersom du lagret dette i
 en variabel kalt `pilnummer`{.microbitvariables} kan koden din se slik ut:
@@ -103,10 +103,10 @@ Legg til en kodesnutt som sender en tekst tilbake.
 - [ ] Du vil med stor sannsynlighet motta flere like piler etter hverandre.
 Oppdater koden din slik at du tydelig ser når du har mottatt en ny pil. Dette
 kan du gjøre på flere ulike måter, så her er noen forslag:
-- Tøm skjermen, og vent et halvt sekund før du viser den nye pila.
-- Vis noe annet bilde på skjermen mellom hver pil.
-- Få microbiten til å lage en lyd når du mottar en ny pil. *Til dette trenger du
-2 ledninger og 1 buzzer. Koble GND til - på buzzeren og kontakt 0 til + på buzzeren.*
+  - Tøm skjermen, og vent et halvt sekund før du viser den nye pila.
+  - Vis noe annet bilde på skjermen mellom hver pil.
+  - Få microbiten til å lage en lyd når du mottar en ny pil. *Til dette trenger du
+  2 ledninger og 1 buzzer. Koble GND til - på buzzeren og kontakt 0 til + på buzzeren.*
 
 - [ ] Nå er mottakerens del av koden ferdig og klar til å lastes ned!
 

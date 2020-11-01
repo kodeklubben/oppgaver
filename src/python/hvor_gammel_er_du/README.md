@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Hvor gammel er du?
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -12,7 +12,7 @@ hvilket år du er født og regner ut alderen din.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -22,13 +22,15 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Matematikk, 5.  trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
-- [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer,
-  vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
-  for disse
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
+
+- [ ] __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

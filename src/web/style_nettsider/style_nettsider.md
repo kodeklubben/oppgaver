@@ -8,7 +8,7 @@ language: nb
 # Introduksjon {.intro}
 
 Nå skal vi lære å endre på stilen til nettsider. I denne oppgaven forventer vi
-at du har gjort HTML-oppgavene eller er litt kjent med HTML fra før av.
+at du har gjort HTML-oppgavene (i oppgavesamlingen _Intro til web_) eller er litt kjent med HTML fra før av.
 
 I denne og neste leksjon skal vi lære oss hvordan å __endre farge, tekst,
 størrelse og mer__! Dette gjør vi ved å lære oss å bruke et språk som heter

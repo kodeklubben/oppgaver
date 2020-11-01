@@ -9,7 +9,7 @@ language: nn
 # Introduksjon {.intro}
 
 No skal me lære å endre på stilen på nettsider. I denne oppgåva forventar me at
-du har gjort HTML-oppgåvene eller er litt kjent med HTML frå før.
+du har gjort HTML-oppgåvene (i oppgåvesamlinga _Intro til web_) eller er litt kjent med HTML frå før.
 
 I denne og neste oppgåve skal me lære oss korleis du __endrar farge, tekst,
 storleik og meir__! Dette gjer me ved å lære oss å bruke eit språk som heiter

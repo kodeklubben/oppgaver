@@ -1,54 +1,47 @@
 ---
 title: "Lærerveiledning - PXT: Gangespill"
-author: Tjerand Silde
+author: Tjerand Silde og Susanne Rynning Seip
 language: nb
 ---
 
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal vi lage et enkelt gangspill med micro:bit. Når micro:biten
-ristes så presenteres et gangsstykke, og eleven skal svare hva produktet blir
+I denne oppgaven skal vi lage et enkelt gangespill med micro:bit. Når micro:biten
+ristes så presenteres et gangestykke, og eleven skal svare hva produktet blir
 ved hjelp av tiere (knapp A) og enere (knapp B).
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, programmering
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 4.-10. trinn
 
-__Tema__: Multiplikasjon, tallsystemer, variabler, if-setninger,
-brukerinteraksjon
+__Tema__: Multiplikasjon, Tallsystemer, Variabler, Vilkår, Brukerinteraksjon
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 2. trinn__ : telle til 100, dele opp og bygge mengder opp
-  til 10, sette sammen og dele opp tiergrupper opp til 100 og dele tosifrete
-  tall i tiere og enere
+- [ ] __Matematikk, 3. trinn__ : eksperimentere med multiplikasjon og divisjon i hverdagsituasjoner
 
-- [ ] __Matematikk, 4. trinn__ : beskrive og bruke plassverdisystemet for de
-  hele tallene, bruke positive og negative hele tall, enkle brøker og
-  desimaltall i praktiske sammenhenger og uttrykke tallstørrelser på varierte
-  måter
+- [ ] __Matematikk, 4. trinn__ : utforske og beskrive strukturer og mønster i lek og spill
 
-- [ ] __Matematikk, 4. trinn__ : utvikle og bruke varierte metoder for
-  multiplikasjon og divisjon, bruke dem i praktiske situasjoner og bruke den
-  lille multiplikasjonstabellen i hoderegning og i oppgaveløsning
+- [ ] __Matematikk, 4. trinn__ : lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
 
-- [ ] __Matematikk, 10. trinn__ : bruke faktorer, potenser, kvadratrøtter og
-  primtall i beregninger
+- [ ] __Matematikk, 5. trinn__ : lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ] __Matematikk, 10. trinn__ : utvikle, bruke og gjøre rede for ulike metoder
-  i hoderegning, overslagsregning og skriftlig regning med de fire regneartene
+- [ ] __Matematikk, 10. trinn__ : utforske matematiske egenskaper og sammenhenger ved å bruke programmering
 
-- [ ] __Fordypning i matematikk, 10. trinn__ : utvikle, gjøre greie for og bruke
-  forskjellige metoder i hoderegning og overslagsregning i ulike tallsystemer
+- [ ] __Fordypning i matematikk, 10. trinn__ : bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
 
-- [ ] __Programmering, 10. trinn__ : bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Fordypning i matematikk, 10. trinn__ : bruke, forklare og lage formler uttrykt med ord og symboler med utgangspunkt i en praktisk problemstilling
+
+- [ ] __Fordypning i matematikk, 10. trinn__ : diskutere, planlegge, lage og vurdere spilledesign og egne spill
+
+- [ ] __Programmering, 10. trinn__ : bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+
 
 ## Forslag til læringsmål {.challenge}
 
@@ -72,7 +65,7 @@ __Tidsbruk__: Dobbelttime
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Det er en fordel om elevene har erfaring med
-  blokkbasert programmering i Code Studio eller Scratch, med det går fint å
+  blokkbasert programmering i Code Studio eller Scratch, men det går fint å
   starte rett på.
 
 - [ ] __Utstyr__: Datamaskin med tilgang til Internett, micro:bit og

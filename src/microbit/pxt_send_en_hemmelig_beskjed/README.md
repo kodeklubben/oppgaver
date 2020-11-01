@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - PXT: Send en hemmelig beskjed"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -11,22 +11,25 @@ I denne oppgaven skal vi sende og motta hemmelige beskjeder via en radiosender.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, teknologi i praksis.
+__Fag__: Naturfag, Teknologi og design, Teknologi og forskningslære
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Signaler.
+__Tema__: Signaler, Radio
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Naturfag, 4. trinn:__ utforske teknologiske systemer som er satt sammen av ulike deler, og beskrive hvordan delene fungerer og virker sammen
 
-- [ ] __Teknologi i praksis, 10. trinn:__ framstille produktet med eigna
-  materiale, komponentar, og funksjonelle teknologiske løysingar
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
+
+- [ ] __Naturfag, 10. trinn:__ utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker
+
+- [ ] __Teknologi og design, 10. trinn:__ velge og bruke ulike materialer og verktøy i arbeidet med prototyper for teknologiske produkt
+
+- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal fra sensorer
 
 ## Forslag til læringsmål {.challenge}
 
