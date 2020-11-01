@@ -63,4 +63,4 @@ oppgaveteksten.](../OPPGAVENAVN/OPPGAVENAVN.html){target=_blank}
 ## Eksterne ressurser {.challenge}
 
 - [ ] Introduksjonsvideo om å lage matte/programmere: [Youtube](https://youtu.be/uNPq__83K0k){target=_blank}
-- [ ] Programmeringskort til utskrift: [Google Drive](https://drive.google.com/drive/folders/1vHl41l7F28TDo5-7k3NMeUGjxVyi165w){target=_blank}
+- [ ] Programmeringskort til utskrift: [Google Drive](https://drive.google.com/file/d/1orVTAO3gLJk2jc5aCE2PizKozOkzftkY/view?usp=sharing){target=_blank}
