@@ -19,6 +19,15 @@ Micro:Bit kan kommunisere med hverandre ved hjelp av radio. Først må vi få se
 - [ ] I seksjonen Radio finner du alle kodeblokkene for å bruke radiofunksjonene.
 
 - [ ] I kodeblokken __ved start__ må du fortelle micro:biten hvilken radiokanal som skal brukes. Sett inn `radio sett gruppe`{.microbitradio} og velg f. eks. 42. Alle micro:bit som skal snakke sammen må ha samme kanal. Er du i kodeklubben eller på skolen vil instruktøren eller læreren gi deg en kode.
+```microbit
+
+ {
+
+    radio.setGroup(42)
+
+})
+````
+
 
 - [ ] Når du trykker på A skal micro:bit sende et tall.
 
@@ -27,7 +36,16 @@ Micro:Bit kan kommunisere med hverandre ved hjelp av radio. Først må vi få se
 
 
 Koden kan se slik ut:
-![Bildebeskrivelse](Smittebit_Step1.png)
+```microbit
+
+input.onButtonPressed(Button.A, function () {
+   radio.sendNumber(5)
+})
+
+radio.onReceivedNumber(function (receivedNumber) {
+        basic.showNumber(receivedNumber))
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -38,6 +56,11 @@ Koden kan se slik ut:
 - [ ] Hvor langt unna kan man være og likevel motta?
 
 - [ ] Kodeblokken `radio sett sendereffekt`{.microbitradio} som du finner under Radio - mer justerer hvor sterkt micro:bit skal sende. Legg denne blokken inn i `ved start`{.microbitbasic} og juster senderstyrken. Hvor langt rekker senderen ved styrke 5, 3, 1, og 0?
+
+```microbit
+radio.setGroup(42)
+radio.setTransmitPower(3)
+```
 
 - [ ] Hvilken sendereffekt bør vi bruke i dette eksperimentet?
 
@@ -56,18 +79,56 @@ I dette steget skal vi sette opp en funksjon for å vise status til micro:biten,
 
 - [ ] I samme blokk kan vi også gi beskjed om at micro:biten skal vise et smilefjes når den starter.
 
+```microbit
+radio.setGroup(42)
+radio.setTransmitPower(7)
+smitte = 0
+farlig = randint(2, 5)
+basic.showIcon(IconNames.Happy)
+```
+
 - [ ] I blokken `gjenta for alltid`{.microbitbasic} trenger vi en `hvis`{.microbitlogic}-løkke. Den skal sjekke hvor mye `smitte`{.microbitvariables} denne micro:biten har mottatt. Når smitten er over 25, skal den sende tallet som ligger i variabelen `farlig`{.microbitvariables} over radio hvert 5. sekund. Når smitten er over 50, skal vi få sur munn og sende som over, og når smitten er over 100, skal micro:biten "dø": Den skal ikke sende noe, og den skal vise X.
 
 - [ ] Vi må oppdatere blokken `når radio mottar`{.microbitradio}. I stedet for at tallet skal vises, vil vi at variabelen `smitte`{.microbitvariables} endres med det tallet vi får.
 
 - [ ] Det er lurt å lage to testfunksjoner: Når du trykker på B skal du se `smitte`{.microbitvariables}, og når du trykker på A og B skal du se `farlig`{.microbitvariables}.
 
+
+
 ## Tips: Rekkefølge i en hvis-løkke{.tip}
 Når du lager en hvis - eller-løkke med områder som inneholder andre områder du også skal sjekke (mer enn 100 er også mer enn 25), bør du begynne med det som inneholder alt, i dette tilfellet mer enn 100.
 #
 
 Koden kan se slik ut:
-![Bildebeskrivelse](Smittebit_Step2.png)
+```microbit
+basic.forever(function () {
+    if (smitte > 100) {
+        basic.showIcon(IconNames.No)
+    } else if (smitte > 50) {
+        basic.showIcon(IconNames.Sad)
+        radio.sendNumber(farlig)
+    } else if (smitte > 25) {
+        radio.sendNumber(farlig)
+    }
+    basic.pause(5000)
+})
+
+radio.onReceivedNumber(function (receivedNumber) {
+    smitte += receivedNumber
+})
+input.onButtonPressed(Button.A, function () {
+    radio.sendNumber(5)
+})
+input.onGesture(Gesture.Shake, function () {
+    radio.sendNumber(farlig * 3)
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showNumber(farlig)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showNumber(smitte)
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -92,7 +153,6 @@ Nå er det på tide å prøve dette med hele gruppen, men først kan vi legge in
 - [ ] Håndvask reduserer smitten. I stedet for å sende et tall når vi trykker på A, vil vi vaske hendene. En forenkling kan være at `smitte`{.microbitvariables} reduseres med 1 eller 2.
 
 - [ ] Er alle micro:bitene i samme radiogruppe? Til det store eksperimentet må alle snakke på samme kanal.
-
 
 
 
@@ -128,7 +188,44 @@ Nå er det på tide å prøve dette med hele gruppen, men først kan vi legge in
 ##  {.tip}
 
 Hvordan virus smitter er avhengig av mange ting. Dette er en simulering og er sterkt forenklet. Her er den endelige koden:
-![Bildebeskrivelse](Smittebit_Step3.png)
+
+```microbit
+radio.onReceivedNumber(function (receivedNumber) {
+    smitte += receivedNumber
+    basic.showNumber(radio.receivedPacket(RadioPacketProperty.SignalStrength))
+})
+input.onButtonPressed(Button.A, function () {
+    smitte += -2
+})
+input.onGesture(Gesture.Shake, function () {
+    radio.sendNumber(farlig * 3)
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showNumber(farlig)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showNumber(smitte)
+})
+let farlig = 0
+let smitte = 0
+radio.setGroup(42)
+radio.setTransmitPower(7)
+smitte = 0
+farlig = randint(2, 5)
+basic.showIcon(IconNames.Happy)
+basic.forever(function () {
+    if (smitte > 100) {
+        basic.showIcon(IconNames.No)
+    } else if (smitte > 50) {
+        basic.showIcon(IconNames.Sad)
+        radio.sendNumber(farlig)
+    } else if (smitte > 25) {
+        radio.sendNumber(farlig)
+    }
+    basic.pause(5000)
+})
+
+```
 
 ## Lagre spillet {.save}
 
