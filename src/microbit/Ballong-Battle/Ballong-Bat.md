@@ -1,6 +1,6 @@
 ---
-title: "BallongBattle"
-author: "Sigurd Schaathun" 
+title: "PXT: Ballong Battle"
+author: "Sigurd Schaathun"
 language: "nb"
 ---
 
@@ -18,13 +18,11 @@ I de første oppgavene med Bit:Bot, er alt forhåndsprogrammert på en micro:bit
 
 - [ ] I seksjonen Radio finner du alle kodeblokkene for å bruke radiofunksjonene.
 
-- [ ] I kodeblokken __ved start må du fortelle micro:biten hvilken radiokanal som skal brukes. Sett inn `radio sett gruppe`{.microbitradio} og velg f. eks. 42. Alle micro:bit som skal snakke sammen må ha samme kanal. Er du i kodeklubben eller på skolen vil instruktøren eller læreren gi deg en kode.
+- [ ] I kodeblokken `ved start`{.microbitbasic} må du fortelle micro:biten hvilken radiokanal som skal brukes. Sett inn `radio sett gruppe`{.microbitradio} og velg f. eks. 42. Alle micro:bit som skal snakke sammen må ha samme kanal. Er du i kodeklubben eller på skolen vil instruktøren eller læreren gi deg en kode.
 ```microbit
 
  {
-
     radio.setGroup(42)
-
 })
 ````
 
@@ -47,9 +45,9 @@ radio.onReceivedNumber(function (receivedNumber) {
 
 ## Test prosjektet {.flag}
 
-**Last inn programmet på 2 micro:biter.** 
+**Last inn programmet på 2 micro:biter.**
 
-- [ ] Mottar den andre micro:biten når du sender ved å trykke på A?
+- [ ] Mottar den andre micro:biten tallet når du sender ved å trykke på A?
 
 - [ ] Hvor langt unna kan man være og likevel motta?
 
@@ -183,7 +181,7 @@ radio.onReceivedNumber(function (receivedNumber) {
 
 `skriv digital`{.microbitpins} er enten 0 eller 1. Hvis du vil kjøre med redusert fart, kan du bruke `skriv analog`{.microbitpins}. Da kan du justere kraften mellom 0 og 1023. Dette må vi bruke for å kunne svinge mens vi rygger.
 
-På undersiden av bit:bot, står det hvilke pinner motoren er koblet til. Når det står P14/P8, er det en pinne for å kjøre fremover og en for å kjøre bakover. Hvis du setter strøm på begge samtidig, vil ikke motoren gå. 
+På undersiden av bit:bot, står det hvilke pinner motoren er koblet til. Når det står P14/P8, er det en pinne for å kjøre fremover og en for å kjøre bakover. Hvis du setter strøm på begge samtidig, vil ikke motoren gå.
 
 ## Test prosjektet {.flag}
 
@@ -199,7 +197,7 @@ På undersiden av bit:bot, står det hvilke pinner motoren er koblet til. Når d
 
 - [ ] På Bit:boten er det masse ledlys. Kan du få det til å blinke eller lyse når du kjører?
 
-- [ ] Kan bit:boten få ansikt (bruk `vis bilde`{.microbitbasic}).
+- [ ] Kan bit:boten få ansikt (bruk `vis bilde`{.microbitbasic})?
 
 - [ ] Hva skjer hvis vi dekker til en micro:bit med aluminiumsfolie? Hvorfor?
 
