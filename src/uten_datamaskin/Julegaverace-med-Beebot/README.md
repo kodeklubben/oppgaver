@@ -1,11 +1,8 @@
 ---
 title: "Julegaverace med Beebot"
-author: "Sigurd Schaathun" 
+author: "Sigurd Schaathun"
 language: "nb"
 ---
-
-
-(TEKSTMAL FOR LÆRERVEILEDNING: )
 
 # Om Julegaverace med BeeBot{.activity}
 
@@ -15,15 +12,16 @@ I denne oppgaven skal elevene programmere en BeeBot eller BlueBot til å kjøre 
 
  __Fag__: Matematikk
 
-__Anbefalte trinn__: 1.-4. trinn
+__Anbefalte trinn__: 1. - 4. trinn
 
 __Tema__: Programmering
 
-__Tidsbruk__: 20-45 minutter
+__Tidsbruk__: 20 - 45 minutter
 
 ## Kompetansemål {.challenge}
 
 - [ ] __Matematikk, 2. trinn__: lage og følgje reglar og trinnvise instruksjonar i leik og spel
+
 - [ ] __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet
 
 ## Forslag til læringsmål {.challenge}
@@ -64,5 +62,5 @@ oppgaveteksten.](../OPPGAVENAVN/OPPGAVENAVN.html){target=_blank}
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Introduksjonsvideo om å lage matte/programmere: [https://www.youtube.com/watch?v=uNPq__83K0k](https://https://www.youtube.com/watch?v=uNPq__83K0k){target=_blank}
-- [ ] Programmeringskort til utskrift: [https://drive.google.com/drive/folders/1vHl41l7F28TDo5-7k3NMeUGjxVyi165w](https://https://drive.google.com/drive/folders/1vHl41l7F28TDo5-7k3NMeUGjxVyi165w){target=_blank}
+- [ ] Introduksjonsvideo om å lage matte/programmere: [Youtube](https://youtu.be/uNPq__83K0k){target=_blank}
+- [ ] Programmeringskort til utskrift: [Google Drive](https://drive.google.com/drive/folders/1vHl41l7F28TDo5-7k3NMeUGjxVyi165w){target=_blank}
