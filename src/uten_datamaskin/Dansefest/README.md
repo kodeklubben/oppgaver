@@ -1,14 +1,14 @@
 ---
 title: "Dansefest"
-author: "Carl A. Myrland,Code.org" 
-translator: "https://curriculum.code.org/hoc/unplugged/4/"
+author: "[Code.org](https://curriculum.code.org/hoc/unplugged/4)"
+translator: "Carl A. Myrland"
 language: "nb"
 ---
 
 
 # Om oppgaven {.activity}
 
-I denne oppgaven blir elevene kjent med programmeringsbegrepet "hendelser", og hvordan vi bruker hendelser til å påvirke dataprogrammer. 
+I denne oppgaven blir elevene kjent med programmeringsbegrepet "hendelser", og hvordan vi bruker hendelser til å påvirke dataprogrammer.
 
 
 ## Oppgaven passer til: {.check}
@@ -17,7 +17,7 @@ I denne oppgaven blir elevene kjent med programmeringsbegrepet "hendelser", og h
 
 **Anbefalte trinn**: 1.-10.
 
-**Tema**: Dans, programmeringslogikk
+**Tema**: Dans, logikk
 
 **Tidsbruk**: 45 minutter
 
@@ -44,7 +44,6 @@ I denne oppgaven blir elevene kjent med programmeringsbegrepet "hendelser", og h
 
 **Kroppsøving, 10. årstrinn**:
 - [ ] øve på og gjennomføre danseaktivitetar frå ungdomskulturar og andre kulturar, og saman med medelevar skape og presentere dansekomposisjonar
-
 
 **Musikk, 2. årstrinn**:
 - [ ] utøve et repertoar av sangleker, sanger og danser hentet fra elevenes nære musikkultur og fra kulturarven
@@ -91,4 +90,4 @@ oppgaven enda.*
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] [Opprinnelig opplegg hos code.org](https://curriculum.code.org/hoc/unplugged/4/){target=_blank}
+[Opprinnelig opplegg hos code.org](https://curriculum.code.org/hoc/unplugged/4/){target=_blank}
