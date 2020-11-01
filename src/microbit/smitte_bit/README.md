@@ -1,6 +1,6 @@
 ---
-title: "Smitte:Bit"
-author: "Sigurd Schaathun" 
+title: "PXT: Smitte:Bit"
+author: "Sigurd Schaathun"
 language: "nb"
 ---
 
@@ -68,19 +68,19 @@ nyttige tips til hvordan man underviser i programmering.
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. 
+oppgaven.
 
 # Steg 1: Radiokommunikasjon {.activity}
 
 - [ ] Her jobber elevene i par.
 
-- [ ] Her må lærer/instruktør tildele radiogrupper til hvert par. Radiogrupper bestemmer hvilke micro:bit som skal kommunisere med hverandre. Det er 256 grupper, nummerert fra 0 til 255. 
+- [ ] Her må lærer/instruktør tildele radiogrupper til hvert par. Radiogrupper bestemmer hvilke micro:bit som skal kommunisere med hverandre. Det er 256 grupper, nummerert fra 0 til 255.
 
 - [ ] Hvis man vil redusere rekkevidden av smitte ytterligere, kan man bruke `mottok pakke signalstyrke`{.microbitradio} i en `hvis`{.microbitlogic}-løkke. Et svakt signal gir verdien -128, og et sterkt gir -42. Dette krever litt ekstra forskning for de sterkeste elevene.
 
 # Steg 2: Smittespredning{.activity}
 
-- [ ] Her er mesteparten av programmeringen. Pass på rekkefølgen i `hvis - eller`{.microbitlogic}-løkken. Med vilje står vilkårene i "feil" rekkefølge i teksten, med en forklaring i tipsruten. Hvis løkken først tester på >25, vil den gjøre det, selv om verdien er større enn 50 og vilkåret dermed er oppfyllt. Derfor må den teste med det største først. 
+- [ ] Her er mesteparten av programmeringen. Pass på rekkefølgen i `hvis - eller`{.microbitlogic}-løkken. Med vilje står vilkårene i "feil" rekkefølge i teksten, med en forklaring i tipsruten. Hvis løkken først tester på >25, vil den gjøre det, selv om verdien er større enn 50 og vilkåret dermed er oppfyllt. Derfor må den teste med det største først.
 
 - [ ] Det er bare en micro:bit som vil vise X, siden den slutter å sende smitte når den gjør det.
 
@@ -98,10 +98,10 @@ oppgaven.
 
 ## Variasjoner {.challenge}
 
-- [ ]  Elevene kan legge inn ulike smittetiltak og ekstra smitting som er nevnt i slutten av elevdokumentet. 
+- [ ]  Elevene kan legge inn ulike smittetiltak og ekstra smitting som er nevnt i slutten av elevdokumentet.
 
 - [ ] Radiokommunikasjonen kan også brukes hvis man skal få en micro:bit til å gjøre noe når andre er i nærheten.
- 
+
 
 ## Eksterne ressurser {.challenge}
 
