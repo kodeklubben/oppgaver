@@ -1,5 +1,5 @@
 ---
-title: "e-Tekstil: Tekstil og elektronikk!"
+title: "PXT: e-Tekstil: Tekstil og elektronikk!"
 author: "Carl A. Myrland, Øyvind O. Rise, Kristine Sevik, Vibeke Guttormsen"
 language: "nb"
 ---

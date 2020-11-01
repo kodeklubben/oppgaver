@@ -1,6 +1,6 @@
 ---
-title: "eTekstil: Tekstil og elektronikk!"
-author: "Carl A. Myrland" 
+title: "PXT: eTekstil: Tekstil og elektronikk!"
+author: "Carl A. Myrland"
 language: "nb"
 ---
 
@@ -23,7 +23,7 @@ __Tidsbruk__: 90 min
 
 ## Kompetansemål etter 4. årstrinn{.challenge}
 
-__Matematikk__: 
+__Matematikk__:
 
 - [ ] lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
 
@@ -51,7 +51,7 @@ __Naturfag__:
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Eleven kjenner til noe grunnleggende funksjonalitet i BBC Micro:bit
-- [ ] Eleven kjenner til begrepet "elektronikk" og har grunnleggende forståelse for hva det 
+- [ ] Eleven kjenner til begrepet "elektronikk" og har grunnleggende forståelse for hva det
 - [ ] Eleven har grunnleggende kjennskap til hvordan elektronikk kan programmeres
 - [ ] Eleven har fått uttrykke kreativitet gjennom å utforske kombinasjonen av tradisjonelle håndverksteknikker og moderne teknologi
 - [ ] Eleven har grunnleggende forståelse for hva en algoritme er, og kan bruke noen grunnleggende begreper i samtale om programmering
@@ -62,7 +62,7 @@ Det er mange ulike måter man kan vurdere et programmeringsprosjekt, og her må 
 selv vurdere hva som er den beste måten ut ifra hvilket fag man jobber i,
 hvilken aldergruppe og hviklet nivå elevene er på, hva man ønsker å teste og
 hvor mye tid man har til rådighet til å jobbe med prosjektet. I vårt
-[lærerdokument](pages\guide_bruk_lærerveiledning.md){target=_blank} har vi blant
+[lærerdokument](https://github.com/kodeklubben/oppgaver/wiki/Hvordan-undervise-i-og-vurdere-programmering){target=_blank} har vi blant
 annet beskrevet ulike måter dette kan gjøres på, tillegg til en del andre
 nyttige tips til hvordan man underviser i programmering.
 
@@ -91,10 +91,10 @@ oppgaven enda._
 
 ## Variasjoner {.challenge}
 
-- [ ] Lag en bamse eller lignende tøyfigur fylt med vatt, som elevene kan ta med hjem. 
-- [ ] Eldre eller mer erfarne elever kan kombinere flere materialer og teknikker, for eksempel 3D-printing, vinylkutting, treverk eller papp til å designe egne produkter som gjør bruk av elektronikk. 
+- [ ] Lag en bamse eller lignende tøyfigur fylt med vatt, som elevene kan ta med hjem.
+- [ ] Eldre eller mer erfarne elever kan kombinere flere materialer og teknikker, for eksempel 3D-printing, vinylkutting, treverk eller papp til å designe egne produkter som gjør bruk av elektronikk.
 - [ ] Utvid arbeidet med å for eksempel lage arbeidslogg, lage en presentasjon av produktet, en skriftlig innlevering (rapport), eller andre, tverrfaglige elementer som trekker språkfagene inn i læringsarbeidet.
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Korte videoer om hvordan man kobler til og programmerer diverse elektronikk med microbit: https://www.vitensenter.no/superbit/tips-triks-og-feilsoeking/
+- [ ] Korte videoer om hvordan man kobler til og programmerer diverse elektronikk med microbit: [Vitensenter.no](https://www.vitensenter.no/superbit/tips-triks-og-feilsoeking){target=_blank}
