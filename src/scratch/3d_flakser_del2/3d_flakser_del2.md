@@ -42,7 +42,7 @@ eller siden bakken. Dette gjør vi med en ny figur som vi kaller `bakken`.
   oppe (`y`{.blockdata} er stor) så skal bakken gå nedover, og når Flakse er
   langt nede så er bakken tilsvarende høyt oppe. Hvis Flakse berører bakken skal
   spilleren tape. Vi legger til følgende `gjenta for
-  alltid`{.blockcontrol}-løkke i skriptet til bakken,
+  alltid`{.blockcontrol}-løkke i skriptet til bakken:
 
   ```blocks
   gjenta for alltid
