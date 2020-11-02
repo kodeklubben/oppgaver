@@ -125,8 +125,8 @@ For elevar som har lyst å prøve seg på ei løysing kan du foreslå det følgj
   utforskaren flyttar seg. Set variabelen til `true` eller `1` når spelet er
   over.
 
-- [ ] Ei meir vanleg (og betre) løysing er å bruke ei `for alltid`-løkke med
-  `viss ... er trykt?`-klossar. Desse blir stoppa av `stopp alle`-klossen.
+- [ ] Ei meir vanleg (og betre) løysing er å bruke ei `gjenta for alltid`-løkke
+  med `viss ... er trykt?`-klossar. Desse blir stoppa av `stopp alle`-klossen.
 
 ## Variasjonar {.challenge}
 

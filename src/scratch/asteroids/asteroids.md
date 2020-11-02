@@ -78,7 +78,7 @@ prosjekter. Vi vil derfor først kopiere romskipet vi laget i Lunar Lander.
 
 - [ ] Vi skal gjøre en liten forandring i hvordan romskipet oppfører seg.
   Asteroids foregår langt ute i rommet hvor det ikke er noen merkbar
-  tyngdekraft. Slett derfor klossen som modellerer tyngdekraften i `for
+  tyngdekraft. Slett derfor klossen som modellerer tyngdekraften i `gjenta for
   alltid`{.blockcontrol}-løkken din, `endre [fartY v] med (-0.01)`{.b}.
 
 - [ ] Vi skal også gjøre en litt større endring i spillet. Vi vil at

@@ -82,7 +82,7 @@ andre kart.
   når grønt flagg klikkes
   sett størrelse til (25) %
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       hvis <tast [pil opp v] trykket?>
           pek i retning (0 v)
           gå (2) steg
@@ -109,7 +109,7 @@ Vi skal nå programmere de andre piltastene også.
   koden som flytter helikopteret oppover. Vi kan derfor kopiere denne!
   Høyreklikk på klossen `hvis `{.blockcontrol}`tast pil opp
   trykket?`{.blocksensing}, og velg `lag en kopi`. Slipp disse klossene inn i
-  `for alltid`{.blockcontrol}-løkken. Gjenta til du har fire
+  `gjenta for alltid`{.blockcontrol}-løkken. Gjenta til du har fire
   `hvis`{.blockcontrol}-klosser. Endre på skriptet ditt slik at det ser ut som
   følger:
 
@@ -117,7 +117,7 @@ Vi skal nå programmere de andre piltastene også.
   når grønt flagg klikkes
   sett størrelse til (25) %
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       hvis <tast [pil opp v] trykket?>
           pek i retning (0 v)
           gå (2) steg

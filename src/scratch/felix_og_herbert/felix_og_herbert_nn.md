@@ -40,7 +40,7 @@ din ned.
 
     ```blocks
         Når @greenFlag vert trykt på
-        for alltid
+        gjenta for alltid
             peik mot [musepeikar v]
             gå (10) steg
             neste drakt
@@ -90,7 +90,7 @@ Viss du ikkje har brukar kan du ikkje lagre, berre fortsett til steg 2.
 
     ```blocks
         Når @greenFlag vert trykt på
-        for alltid
+        gjenta for alltid
             gå til [musepeikar v]
             peik mot [Felix v]
         slutt
@@ -115,7 +115,7 @@ __Klikk på det grøne flaget.__
 
     ```blocks
         Når @greenFlag vert trykt på
-        for alltid
+        gjenta for alltid
             peik mot [musepeikar v]
             gå (10) steg
             neste drakt
@@ -145,7 +145,7 @@ spøkelse når han vert fanga.*
 
     ```blocks
         Når @greenFlag vert trykt på
-        for alltid
+        gjenta for alltid
             peik mot [musepeikar v]
             gå (10) steg
             neste drakt
@@ -214,7 +214,7 @@ sekund. Hvis Felix fangar Herbert, minker me poengsummen med ti.*
     ```blocks
         Når @greenFlag vert trykt på
         sett [Poeng v] til (0)
-        for alltid
+        gjenta for alltid
             vent (1) sekund
             endra [Poeng v] med (1)
         når eg får meldinga [Fanga! v]

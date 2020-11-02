@@ -128,8 +128,9 @@ elever som har lyst å prøve seg på en løsning kan du foreslå følgende:
   pågår, som sjekkes hver gang spilleren trykker en piltast, før utforskeren
   flytter seg. Sett variabelen til `true` eller `1` når spillet er over.
 
-- [ ] En mer vanlig (og bedre) løsning er å bruke en `for alltid`-løkke med
-  `hvis ... trykket?`-klosser. Disse blir da stoppet av `stopp alle`-klossen.
+- [ ] En mer vanlig (og bedre) løsning er å bruke en `gjenta for alltid`-løkke
+  med `hvis ... trykket?`-klosser. Disse blir da stoppet av `stopp
+  alle`-klossen.
 
 ## Variasjoner {.challenge}
 

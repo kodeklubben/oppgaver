@@ -34,7 +34,7 @@ Flakse flygande og prøve å styre mellom røra.
   ```blocks
   når @greenFlag vert trykt på
   gå til x: (-50) y: (0)
-  for alltid
+  gjenta for alltid
       endra y med (-3)
   slutt
   ```
@@ -104,7 +104,7 @@ gjere.*
   når @greenFlag vert trykt på
   set [flaks v] til [0]
   byt drakt til [Venger opp v]
-  for alltid
+  gjenta for alltid
       gjenta til <(flaks) = [0]>
           endra [flaks v] med (-1)
           byt drakt til [Venger ned v]
@@ -179,7 +179,7 @@ ei hinderløype for Flakse.*
   når @greenFlag vert trykt på
   gøym
   set storleik til (200)%
-  for alltid
+  gjenta for alltid
       lag klon av [meg v]
       vent (2) sekund
   slutt
@@ -300,7 +300,7 @@ Me skal prøve å etterlikne denne måten å dette på.
   når @greenFlag vert trykt på
   set [løft v] til [0]
   gå til x: (-50) y: (0)
-  for alltid
+  gjenta for alltid
       endra y med (løft)
       endra [løft v] med (-0.2)
   slutt
@@ -312,7 +312,7 @@ Me skal prøve å etterlikne denne måten å dette på.
   når @greenFlag vert trykt på
   set [flaks v] til [0]
   byt drakt til [Venger opp v]
-  for alltid
+  gjenta for alltid
       gjenta til <(flaks) = [0]>
           endra [flaks v] med (-1)
           byt drakt til [Venger ned v]
@@ -343,7 +343,7 @@ Når spelaren tapar vil me at Flakse skal dette ned og ut av skjermen.
 
   ```blocks
   når eg får meldinga [Fall v]
-  for alltid
+  gjenta for alltid
       snu @turnRight (5) gradar
   slutt
 

@@ -177,7 +177,7 @@ kreativitet. Elevane kan gjerne oppfordrast til å
     beveger seg).
 
     ```blocks
-    for alltid
+    gjenta for alltid
         peik mot [Bat1 v]
         gå (10) steg
     slutt
@@ -193,7 +193,7 @@ kreativitet. Elevane kan gjerne oppfordrast til å
     eit døme (hugs at koden høyrer til flaggermusa):
 
     ```blocks
-    for alltid
+    gjenta for alltid
         vent til <rører [Sprite1 v]>
         gli (0.2) sekund til x: (tilfeldig tal frå (-240) til (240)) y: (tilfeldig tal frå (-180) til (180))
     slutt
@@ -209,7 +209,7 @@ kreativitet. Elevane kan gjerne oppfordrast til å
     ikkje i Scratch):
 
     ```blocks
-    for alltid
+    gjenta for alltid
         flytt [katten v] mot [flaggermusa v] :: motion
         viss <[katten v] rører [flaggermusa v] :: sensing>
             flytt [flaggermusa v] til x: (tilfeldig tal frå (-240) til (240)) y: (tilfeldig tal frå (-180) til (180)) :: motion

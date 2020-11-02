@@ -157,7 +157,7 @@ kartet flytte seg nedover viss me vil at helikopteret skal fly oppover.
   ```blocks
   når eg får meldinga [Nytt spel v]
   vis
-  for alltid
+  gjenta for alltid
       gå til x: ((0) - (X)) y: ((0) - (Y))
   slutt
   ```
@@ -215,7 +215,7 @@ helikopteret ikkje kan flyge ut av kartet?
 
   ```blocks
   når eg får meldinga [Nytt spel v]
-  for alltid
+  gjenta for alltid
       gå til x: ((stadX) - (X)) y: ((stadY) - (Y))
   slutt
   ```

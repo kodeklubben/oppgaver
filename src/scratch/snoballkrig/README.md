@@ -94,7 +94,7 @@ eksempel på hvordan koden kan se ut under de forskjellige elementene._
   når jeg mottar [start v]
   sett [Poeng v] til [0]
   bytt bakgrunn til [Spill v]
-  for alltid
+  gjenta for alltid
     sett [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
   slutt
 
@@ -116,7 +116,7 @@ eksempel på hvordan koden kan se ut under de forskjellige elementene._
   når jeg mottar [start v]
   gå til x: (0) y: (-75)
   vis
-  for alltid
+  gjenta for alltid
     hvis <tast [pil høyre v] trykket?>
       pek i retning (90 v)
       neste drakt
@@ -179,7 +179,7 @@ eksempel på hvordan koden kan se ut under de forskjellige elementene._
   sett [hastighet v] til [3]
 
   når jeg mottar [start v]
-  for alltid
+  gjenta for alltid
     hvis <(tilfeldig tall fra (0) til (1)) = [0]>
       pek i retning (90 v)
       sett x til (-250)
@@ -198,13 +198,13 @@ eksempel på hvordan koden kan se ut under de forskjellige elementene._
   endre [farge v] effekt med ((10) * (Slem))
   endre størrelse med ((5) * (Slem))
   vis
-  for alltid
+  gjenta for alltid
     gå (hastighet) steg
     vent (0.1) sekunder
   slutt
 
   når jeg starter som klon
-  for alltid
+  gjenta for alltid
     hvis <berører [Helten v]?>
       send melding [slutt v]
     slutt

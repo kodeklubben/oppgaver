@@ -179,7 +179,7 @@ kreativitet. Elevene kan gjerne oppfordres til å
       det Kattens oppførsel vi må beskrive_).
 
       ```blocks
-      for alltid
+      gjenta for alltid
           pek mot [Bat1 v]
           gå (10) steg
       slutt
@@ -195,7 +195,7 @@ kreativitet. Elevene kan gjerne oppfordres til å
       er et eksempel (husk at koden hører til flaggermusa):
 
       ```blocks
-      for alltid
+      gjenta for alltid
           vent til <berører [Sprite1 v]>
           gli (0.2) sekunder til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180))
       slutt
@@ -211,7 +211,7 @@ kreativitet. Elevene kan gjerne oppfordres til å
       eksisterer i Scratch):
 
       ```blocks
-      for alltid
+      gjenta for alltid
           flytt [katten v] mot [flaggermusa v] :: motion
           hvis <[katten v] berører [flaggermusa v] :: sensing>
               flytt [flaggermusa v] til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180)) :: motion

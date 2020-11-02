@@ -294,7 +294,7 @@ spillet kan videreutvikles?
 
 - [ ] Tell poeng! Kanskje du kan få poeng for hvert fly som passerer?
 
-- [ ] Tell liv! King Kong kan ikke bli truffet av flyene `for
+- [ ] Tell liv! King Kong kan ikke bli truffet av flyene `gjenta for
   alltid`{.blockcontrol}. Legg til en `liv`{.blockdata}-variabel som teller hvor
   mange liv du har igjen. Kanskje `kong` ramler ned fra skyskraperen når han er
   tom for liv?
