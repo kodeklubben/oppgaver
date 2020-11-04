@@ -1,7 +1,7 @@
 ---
 title: "Test Fin!"
 author: "Erik Sagatun" 
-language: "nb"
+language: "nn"
 ---
 
 
