@@ -1,4 +1,4 @@
-  ---
+---
 title: Scratch Jr
 language: en
 ---
