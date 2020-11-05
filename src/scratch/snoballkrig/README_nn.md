@@ -95,7 +95,7 @@ _Det kan vere ei utfordring for mange elevar å lage koden. Under følgjer eit d
   når eg får meldinga [start v]
   set [Poeng v] til [0]
   byt bakgrunn til [Spill v]
-  for alltid
+  gjenta for alltid
     set [Nivå v] til ((1) + ([golv v] av ([kvadratrot v] av ((Poeng) / (3)))))
   slutt
 
@@ -117,7 +117,7 @@ _Det kan vere ei utfordring for mange elevar å lage koden. Under følgjer eit d
   når eg får meldinga [start v]
   gå til x: (0) y: (-75)
   vis
-  for alltid
+  gjenta for alltid
     viss <tasten [pil høgre v] er trykt?>
       peik i retning (90 v)
       neste drakt
@@ -180,7 +180,7 @@ _Det kan vere ei utfordring for mange elevar å lage koden. Under følgjer eit d
   set [hastigheit v] til [3]
 
   når eg får meldinga [start v]
-  for alltid
+  gjenta for alltid
     viss <(tilfeldig tal frå (0) til (1)) = [0]>
       peik i retning (90 v)
       set x til (-250)
@@ -199,13 +199,13 @@ _Det kan vere ei utfordring for mange elevar å lage koden. Under følgjer eit d
   endre [farge v]-effekt med ((10) * (Slem))
   endre storleik med ((5) * (Slem))
   vis
-  for alltid
+  gjenta for alltid
     gå (hastigheit) steg
     vent (0.1) sekund
   slutt
 
   når eg startar som klon
-  for alltid
+  gjenta for alltid
     viss <rører [Helten v]?>
       send meldinga [slutt v]
     slutt

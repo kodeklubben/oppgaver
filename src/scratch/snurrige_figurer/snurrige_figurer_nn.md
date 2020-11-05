@@ -137,7 +137,7 @@ __Trykk på B-tasten.__
 
   ```blocks
   når eg får meldinga [snurr v]
-  for alltid
+  gjenta for alltid
       snu @turnRight (4) gradar
   slutt
   ```
@@ -161,7 +161,7 @@ __Trykk på B-tasten.__
 
   ```blocks
   når eg får meldinga [flytt og snurr v]
-  for alltid
+  gjenta for alltid
       gå (3) steg
       snu @turnRight (4) gradar
   slutt

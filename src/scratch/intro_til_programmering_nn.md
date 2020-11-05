@@ -59,19 +59,22 @@ og mykje meir.
 
 ## Løkker
 
-Veldig ofte har me behov for å gjere nokre instruksar fleire gonger. La oss seie
-at me vil at datamaskina vår skal lage (data)pannekaker. Då vil me at
-datamaskina skal hente eit egg, knuse det i bollen og røre rundt. Og me vil at
-den skal gjere det mange gonger. Då kan me bruke det som heiter ei __løkke__ for
-å be den gjere den same oppgåva (blande inn eit egg) så mange gonger me vil. I
-Scratch finn me alle løkkene under `Styring`{.blockyellow}-kategorien. Viss me
-vil at noko skal bli repetert eit bestemt tal gonger brukar me ein `gjenta (10)
-ganger`{.blockyellow}-blokk. Du legg kanskje merke til at denne blokka ikkje er
-som alle andre blokker? Den har nemleg eit lite holrom der du kan setje inn dei
-instruksane du vil skal repeterast. Ein annan viktig type løkke heiter `for
-alltid`{.blockyellow}. I staden for å repetere noko eit bestemt tal gonger, så
-repeterer den noko *for alltid*. Då gjeld det å vere forsiktig så ein ikkje
-ender opp med ei uendeleg stor eggerøre!
+Veldig ofte har me behov for å gjere nokre instruksar fleire
+gonger. La oss seie at me vil at datamaskina vår skal lage
+(data)pannekaker. Då vil me at datamaskina skal hente eit egg, knuse
+det i bollen og røre rundt. Og me vil at den skal gjere det mange
+gonger. Då kan me bruke det som heiter ei __løkke__ for å be den gjere
+den same oppgåva (blande inn eit egg) så mange gonger me vil. I
+Scratch finn me alle løkkene under
+`Styring`{.blockyellow}-kategorien. Viss me vil at noko skal bli
+repetert eit bestemt tal gonger brukar me ein `gjenta (10)
+ganger`{.blockyellow}-blokk. Du legg kanskje merke til at denne blokka
+ikkje er som alle andre blokker? Den har nemleg eit lite holrom der du
+kan setje inn dei instruksane du vil skal repeterast. Ein annan viktig
+type løkke heiter `gjenta for alltid`{.blockyellow}. I staden for å
+repetere noko eit bestemt tal gonger, så repeterer den noko *for
+alltid*. Då gjeld det å vere forsiktig så ein ikkje ender opp med ei
+uendeleg stor eggerøre!
 
 ## Testar
 
