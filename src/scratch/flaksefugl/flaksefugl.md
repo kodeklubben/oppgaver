@@ -146,7 +146,7 @@ __Klikk det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til en ny figur ved å klikke på *Tegn*-knappen. 
+- [ ] Legg til en ny figur ved å klikke på *Tegn*-knappen.
 
   ![Tegn ny figur](tegn-ny.png)
 
@@ -379,38 +379,6 @@ __Klikk det grønne flagget.__
 
 - [ ] Flyr Flakse riktig vei når spillet starter igjen?
 
-## Utfordring 3: Legg til rekorder {.challenge}
-
-- [ ] Lag en ny variabel og merk av `Nett variabel (lagret på nett)`-boksen.
-  Kall variabelen `Rekord`{.blockdata}.
-
-- [ ] Når spillet er ferdig må vi sjekke om det er en ny rekord. Det gjør vi ved
-  å endre `Tap`-skriptet på `Rør` slik:
-
-  ```blocks
-  når jeg mottar [Tap v]
-  hvis <(poeng) > (Rekord)>
-      sett [Rekord v] til (poeng)
-  slutt
-  stopp [andre skript i figuren v] :: control
-  ```
-
-## Nettvariabler {.protip}
-
-Nettvariabler gir deg muligheten til å huske ting mellom forskjellige brukere og
-forskjellige kjøringer av spillet ditt (i motsetning til vanlige variabler hvor
-verdiene blir nullstilt hver gang du trykker det grønne flagget). Dette er
-nøyaktig det vi trenger for å huske hva rekorden i spillet er.
-
-Nettvariabler er fortsatt litt eksperimentelle, og for tiden får ikke nye
-brukere av Scratch lov til å lage slike variabler. Hvis du ikke får lov til å
-lage en slik variabel må du hoppe over den siste utfordringen.
-
-## Test prosjektet {.flag}
-
-__Klikk det grønne flagget.__
-
-- [ ] Oppdaterer rekorden seg hver gang du setter ny rekord?
 
 ## Lagre prosjektet ditt {.save}
 

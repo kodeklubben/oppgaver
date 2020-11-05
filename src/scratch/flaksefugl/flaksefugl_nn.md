@@ -368,33 +368,6 @@ __Klikk det grøne flagget.__
 
 - [ ] Flyg Flakse riktig veg når spelet startar att?
 
-## Utfordring 3: Legg til rekordar {.challenge}
-
-- [ ] Lag ein ny variabel og merk av `Nett-variabel (lagra på
-  nett)`-boksen. Kall variabelen `Rekord`{.blockdata}.
-
-- [ ] Når spelet er ferdig må me sjekke om det er ein ny rekord. Det gjer
-  me ved å endre `Tap`-skriptet på `røyr` slik:
-
-  ```blocks
-  når eg får meldinga [Tap v]
-  viss <(poeng) > (Rekord)>
-      set [Rekord v] til (poeng)
-  slutt
-  stopp [andre skript i figuren v] :: control
-  ```
-
-## Nettvariablar {.protip}
-
-Nettvariablar gir deg moglegheita til å hugse ting mellom ulike brukarar og
-ulike køyringar av spelet ditt (i motsetnad til vanlege variablar der verdiane
-blir nullstilt mellom kvar gong du trykkjer det grøne flagget). Dette er
-akkurat det me treng for å hugse kva rekorden i spelet er.
-
-Nettvariablar er framleis eksperimentelle, og for tida får ikkje nye Scratch-
-bruarar lov til å lage slike variablar. Viss du ikkje får lov til det må du
-hoppe over den siste utfordringa.
-
 ## Test prosjektet {.flag}
 
 __Klikk det grøne flagget.__
