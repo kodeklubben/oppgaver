@@ -12,30 +12,29 @@ skal gjøre den klassiske oppgaven _Hei verden_, med en katt.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Informasjonsteknologi 2
+__Fag__: Programmering, Kunst og håndverk, Matematikk, IT1
 
 __Anbefalte trinn__: 8. trinn - VG3
 
-__Tema__: JavaScript, web, html, funksjoner, variabler
+__Tema__: JavaScript, HTML, Web, Funksjoner
 
 __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Matematikk, 8. trinn:__ utforske, forklare og sammenligne funksjoner tilknyttet praktiske situasjoner
 
-- [ ] __Informasjonsteknologi 2, VG3__: definere variabler og velge
-  hensiktsmessige datatyper
+- [ ] __Matematikk, 10. trinn:__ utforske og sammenligne egenskaper ved ulike funksjoner ved å bruke digitale verktøy
 
-- [ ] __Informasjonsteknologi 2, VG3__: tilordne uttrykk til variabler
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres
-  funksjoner eller metoder med parametere
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
+
+- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
 
 ## Forslag til læringsmål {.challenge}
 

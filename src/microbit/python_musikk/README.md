@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - Python: Lage musikk med microbit"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -12,33 +12,27 @@ melodi.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Musikk, programmering, IT.
+__Fag__: IT1, Musikk, Naturfag, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Musikk, løkker, variabler.
+__Tema__: Musikk, Løkker, Variabler
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Musikk, 2. trinn:__ sette sammen musikalske grunnelementer som klang,
-  rytme, dynamikk og melodiske motiver til små komposisjoner
+- [ ] __Musikk, 4. trinn:__ eksperimentere med rytmer, melodier og andre grunnelementer, sette sammen mønstre til komposisjoner, også ved bruk av digitale verktøy, og beskrive arbeidsprosesser og resultater
 
-- [ ] __Musikk, 7. trinn:__ komponere og gjøre lydopptak ved hjelp av digitale
-  verktøy
+- [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og bearbeide musikk
 
-- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Musikk, 10. trinn:__ skape og programmere musikalske forløp ved å eksperimentere med lyd fra ulike kilder
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
 
-- [ ] __IT2, VG3:__ tilordne uttrykk til variabler
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __IT2, VG3:__ lage egne og bruke egne og andres funksjoner eller metoder
-  med parametere
+- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
 
 ## Forslag til læringsmål {.challenge}
 

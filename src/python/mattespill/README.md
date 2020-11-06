@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Mattespill
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -23,17 +23,21 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. trinn__: vurdere og samtale om sjanser i dagligdagse
-  sammenhenger, spill og eksperimenter og beregne sannsynlighet i enkle
-  situasjoner
+- [ ] __Matematikk, 8. trinn__: utforske algebraiske regneregler
+
+- [ ] __Matematikk, 9. trinn__: simulere utfall i tilfeldige forsøk og beregne
+   sannsynligheten for at noe skal inntreffe, ved å bruke programmering
+
+- [ ] __Matematikk, 10. trinn__: utforske matematiske egenskaper og sammenhenger
+  ved å bruke programmering   
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
-- [ ] __Programmering, 10. trinn__: utvikle og feilsøke programmer som løser
-  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
-  eller simulering av fysiske objekter
+- [ ] __Programmering, 10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
 ## Forslag til læringsmål {.challenge}
 

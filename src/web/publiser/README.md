@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Publiser nettsiden din"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -12,38 +12,21 @@ ved hjelp av `Github`.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 2
+__Fag__: Programmering, IT1
 
 __Anbefalte trinn__: 8. trinn - VG2
 
-__Tema__: Web
+__Tema__: Web, GitHub
 
 __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: gjøre rede for hvordan datamaskiner og
-  programmer fungerer, inkludert et utvalg utbredte programmeringsspråk og deres
-  bruksområder
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design.
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Teknologi i praksis, 10. trinn__: demonstrere riktig bruk av utvalde
-  verktøy
-
-- [ ] __Teknologi i praksis, 10. trinn__: framstille produktet med eigna
-  materiale, komponentar, og funksjonelle teknologiske løysingar
-
-- [ ] __Informasjonsteknologi 2, VG3__: redigere nettsteder ved bruk av
-  standardiserte oppmerkingsspråk
-
-- [ ] __Informasjonsteknologi 2, VG3__: organisere og begrunne filstrukturen for
-  nettsteder
-
-- [ ] __Informasjonsteknologi 2, VG3__: gjøre rede for hvilke standarder og
-  prinsipper som muliggjør Internett
+- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
 
 ## Forslag til læringsmål {.challenge}
 
@@ -79,4 +62,4 @@ fremgangsmåten viser på storskjerm
 ## Eksterne ressurser {.challenge}
 
 - [ ] Lær å bruke terminalen til `Github` på 15 minutter: [Learn Git in 15
-  minutes](https://try.github.io/levels/1/challenges/1) (OBS! PÅ ENGELSK)
+  minutes](https://try.github.io/levels/1/challenges/1){target=_blank} (OBS! PÅ ENGELSK)

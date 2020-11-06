@@ -8,7 +8,7 @@ language: nb
 # Introduksjon {.intro}
 
 Nå som vi har sett litt på hvordan vi kan kontrollere en lysdiode på
-forskjellige måter, kan vi gå over til å lage litt lyd!
+forskjellige måter ([Blinkende lysiode](../blinkende_lysiode/blinkende_lysiode.html){target=_blank} og [RGB-lysiode](../RGB_diode/RGB_diode.html){target=_blank}), kan vi gå over til å lage litt lyd!
 
 
 # Steg 1: Finn frem utstyr {.activity}

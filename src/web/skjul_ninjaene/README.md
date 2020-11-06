@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - CSS: Skjul ninjaene"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -12,51 +12,38 @@ gjemme elementene bak andre elementer ved hjelp av CSS.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Teknologi i praksis, Matematikk, Kunst og håndverk,
-Informasjonsteknologi 1
+__Fag__: Programmering, Matematikk, Kunst og håndverk, IT1
 
 __Anbefalte trinn__: 7. trinn - VG2
 
-__Tema__: Web, CSS, HTML, koordinater
+__Tema__: CSS, HTML, Web, Koordinater
 
 __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert.
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design.
+- [ ] __Matematikk, 7. trinn:__ representere og bruke brøk, desimaltall og prosent på ulike måter og utforske de matematiske sammenhengene mellom disse representasjonsformene
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem.
+- [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy.
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Kunst og håndverk, 7. trinn__: bruke fargekontraster, forminsking og
-  sentralperspektiv for å gi illusjon av rom i bilder både med og uten digitale
-  verktøy.
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av
-  standardiserte oppmerkingsspråk
+- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
 
-- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for
-  nettsteder
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Eleven kan bruke CSS til å plassere bilder i x-,y- og z-retning.
+- [ ] Eleven kan bruke CSS til å plassere bilder i x-, y- og z-retning.
 
-  - [ ] Eleven kan bruke CSS for å plassere elementer bak andre elementer
-    (z-retning
+  - Eleven kan bruke CSS for å plassere elementer bak andre elementer
+    (z-retning)
 
 - [ ] Eleven kan bruke `id` i HTML-tags for å manipulere forskjellige elementer
   ved hjelp av CSS.
@@ -81,11 +68,11 @@ oppgaven. [Klikk her for å se
 oppgaveteksten.](../skjul_ninjaene/skjul_ninjaene.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
-oppgaven enda.
+oppgaven enda._
 
 ## Variasjoner {.challenge}
 
-- [ ] Klarer eleven å legge til flere elementer
+- [ ] Klarer eleven å legge til flere elementer?
 
 - [ ] Klarer eleven å gjemme andre elementer enn ninjaene?
 

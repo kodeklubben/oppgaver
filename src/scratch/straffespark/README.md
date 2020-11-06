@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Straffespark
-author: Geir Arne Hjelle
+author: Geir Arne Hjelle, Vegard Tuset
 level: 1
 language: nb
 ---
@@ -26,13 +26,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 4. årstrinn__: lese av, plassere og beskrive posisjoner i
-       rutenett, på kart og i koordinatsystemer, både med og uten digitale
-       verktøy
+- [ ] __Matematikk, 6. årstrinn__: utforske og beskrive symmetri og mønster og
+      utføre kongurensavbildinger med og uten koordinatsystem
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+- [ ] __Matematikk fordypning, 10 årstrinn__: diskutere, planlegge, lage og
+      vurdere spilldesign og egne spill
+
+- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering
+      , slik som variabler, løkker, vilkår og funksjoner, og reflektere over
+      bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
@@ -75,7 +77,7 @@ oppgaveteksten.](../straffespark/straffespark.html){target=_blank}
   skriptene ligger på riktig figur som beskrevet i oppgaven.
 
 
-# Steg 2: Vi sparker ballenn {.activity}
+# Steg 2: Vi sparker ballen {.activity}
 
 - [ ] Katten skyter ballen før man klikker på den, eller den må gå flere steg
   før den når frem til ballen. Om dette skjer bør man flytte på hvor `Leo` og
@@ -177,7 +179,7 @@ kreativitet. Elevene kan gjerne oppfordres til å
       det Kattens oppførsel vi må beskrive_).
 
       ```blocks
-      for alltid
+      gjenta for alltid
           pek mot [Bat1 v]
           gå (10) steg
       slutt
@@ -193,7 +195,7 @@ kreativitet. Elevene kan gjerne oppfordres til å
       er et eksempel (husk at koden hører til flaggermusa):
 
       ```blocks
-      for alltid
+      gjenta for alltid
           vent til <berører [Sprite1 v]>
           gli (0.2) sekunder til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180))
       slutt
@@ -209,7 +211,7 @@ kreativitet. Elevene kan gjerne oppfordres til å
       eksisterer i Scratch):
 
       ```blocks
-      for alltid
+      gjenta for alltid
           flytt [katten v] mot [flaggermusa v] :: motion
           hvis <[katten v] berører [flaggermusa v] :: sensing>
               flytt [flaggermusa v] til x: (tilfeldig tall fra (-240) til (240)) y: (tilfeldig tall fra (-180) til (180)) :: motion

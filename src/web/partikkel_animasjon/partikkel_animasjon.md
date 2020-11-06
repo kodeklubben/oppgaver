@@ -67,9 +67,9 @@ I HTML bruker vi `<canvas>` til å tegne figurer ved hjelp av JavaScript. Selve
 JavaScript til å fortelle hva slags grafikk `<canvas>`-elementet skal inneholde.
 La oss skrive det som trengs for å jobbe med `canvas`:
 
-- [ ] Åpne favoritt teksteditoren di
+- [ ] Åpne favoritt teksteditoren din
 
-- [ ] Lag en ny HTML-fil som heter `partikler.html
+- [ ] Lag en ny HTML-fil som heter `partikler.html`
 
 - [ ] Kopier koden under inn i `partikler.html`:
 
@@ -150,7 +150,7 @@ var bil = {
     navn: "Volkswagen",
     modell: "Golf"
     antallSeter: 5,
-    farge: "Blå",
+    farge: "blue",
 };
 ```
 
@@ -165,10 +165,10 @@ console.log(bil.farge); // Skriver ut fargen på bilen: Blå
 For å endre på ett av attributtene gjør vi bare følgende:
 
 ```js
-bil.farge = "Rød";
+bil.farge = "red";
 ```
 
-Nå vil attributtet `farge` bli endret fra `Blå` til `Rød`.
+Nå vil attributtet `farge` bli endret fra blå (`blue`), til rød (`red`). Vi bruker engelske navn på fargene, slik at vi kan bruke dem i koden senere.
 
 På denne måten slipper vi å lage mange variabler, som skal høre til samme
 element, vi bruker bare `objekter`.
@@ -285,7 +285,7 @@ legge til noen nye attributter i objektet vårt, og endre disse underveis i
 funksjonen vår. For å gjøre dette må vi lære å bruke `setInterval`, men først må
 vi endre på objektet vårt.
 
-- [ ] I objektet `particle`, legg til attributtene `xSpeed` og `ySpeed
+- [ ] I objektet `particle`, legg til attributtene `xSpeed` og `ySpeed`
 
 - [ ] Sett verdiene til `xSpeed` og `ySpeed` til å være `2` foreløpig
 

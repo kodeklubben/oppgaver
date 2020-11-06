@@ -1,7 +1,7 @@
 ---
 title: "HTML: Introduksjon til Web"
 author: "Oversatt fra [Code Club UK](//codeclub.org.uk)"
-translator: Arve Seljebu
+translator: Arve Seljebu og Susanne Rynning Seip
 language: nb
 ---
 
@@ -29,9 +29,7 @@ du ikke får pakket ut filen, kan du laste ned programmet
 ## Aktiviteter {.check}
 
 - [ ] Åpne en **teksteditor**, for eksempel teksteditoren
-  [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller
-
-      [NotePad++](https://notepad-plus-plus.org/)
+  [Atom](http://atom.io), [Brackets](http://brackets.io/), NotePad eller [NotePad++](https://notepad-plus-plus.org/)
 
 - [ ] Lag et nytt dokument
 
@@ -103,16 +101,13 @@ mellom taggene vil bli synlig som en link.
 
 ## Aktiviteter {.check}
 
-- [ ] Installer **X-Ray Goggles** ved å trekke linken <a
-  href="javascript:(function () {var script=document.createElement('script');script.src='https://goggles.mozilla.org'+'/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.mozilla.org');document.body.appendChild(script);}())">X-Ray
-  Goggles</a> til din bokmerkerad
+- [ ] Åpne filen `side.html` fra [internett.zip](internett.zip) i nettleseren (Chrome).
 
-- [ ] Åpne filen `side.html` fra [internett.zip](internett.zip)
+- [ ] Høyreklikk på siden og velg "Inspiser" ("Inspect" på engelsk). Da åpner utviklerverktøyet til nettleseren din.
 
-- [ ] Trykk på *X-Ray Goggles* fra bokmerkeraden din. Om ingenting skjer, spør
-  en CodeMaster/veileder om hjelp til å bruke utviklerverktøyet i din nettleser
+- [ ] Klikk på ikonet øverst til venstre som ser ut som en pil i en firkant (![Bilde av "Pick element" ikon](pickelement.png)).
 
-- [ ] Beveg musen rundt på siden. Da kan du se deler av siden lyse opp og se
+- [ ] Beveg så musen rundt på siden. Da kan du se deler av siden lyse opp og se
   hvilke tagger delene er laget av
 
 - [ ] Trykk på noe for å se kodesnutten det er laget av

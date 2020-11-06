@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Labyrint
 level: 1
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -15,7 +15,7 @@ utforskar som leitar etter skatten gøymt inne i ein labyrint.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Programmering.
+__Fag__: Programmering, matematikk.
 
 __Anbefalte trinn__: 3.-10. trinn.
 
@@ -25,9 +25,18 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 5. årstrinn__: lage og programmere algoritmar med bruk av
+      variablar, vilkår og løkker
+
+- [ ] __Matematikk, 6. årstrinn__: bruke variablar, løkker, vilkår og
+      funksjonar i programmering til å utforska geometriske figurar og mønster
+
+- [ ] __Programmering, valgfag__: bruke grunnleggande prinsipp i programmering
+      , slik som variablar, løkker, vilkår og funksjonar, og reflektere over
+      bruken av desse
+
+- [ ] __Programmering, valgfag__: analysere problem, gjere dei om til
+      delproblem og gjere reie for korleis nokon av delproblema kan løysast med programmering
 
 ## Forslag til læringsmål {.challenge}
 
@@ -116,8 +125,8 @@ For elevar som har lyst å prøve seg på ei løysing kan du foreslå det følgj
   utforskaren flyttar seg. Set variabelen til `true` eller `1` når spelet er
   over.
 
-- [ ] Ei meir vanleg (og betre) løysing er å bruke ei `for alltid`-løkke med
-  `viss ... er trykt?`-klossar. Desse blir stoppa av `stopp alle`-klossen.
+- [ ] Ei meir vanleg (og betre) løysing er å bruke ei `gjenta for alltid`-løkke
+  med `viss ... er trykt?`-klossar. Desse blir stoppa av `stopp alle`-klossen.
 
 ## Variasjonar {.challenge}
 

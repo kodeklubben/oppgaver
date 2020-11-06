@@ -53,12 +53,12 @@ Denne første delen kan du godt få hjelp fra en voksen til å gjøre!
 
   ![Bilde av en blyant med flyttet senterpunkt](senterpunkt.png)
 
-- [ ] Få blyanten til å følge musepekeren rundt på scenen ved å bruke `for
-  alltid`{.blockcontrol}- og `gå til musepeker`{.blockmotion}-klossene.
+- [ ] Få blyanten til å følge musepekeren rundt på scenen ved å bruke `gjenta
+  for alltid`{.blockcontrol}- og `gå til musepeker`{.blockmotion}-klossene.
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       gå til [musepeker v]
   slutt
   ```
@@ -74,7 +74,7 @@ interessert i nå er `penn på`{.blockpen} og `penn av`{.blockpen}.
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       gå til [musepeker v]
       hvis <museknappen er trykket?>
           penn på
@@ -101,7 +101,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   slett
-  for alltid
+  gjenta for alltid
       gå til [musepeker v]
       hvis <museknappen er trykket?>
           penn på
@@ -248,7 +248,7 @@ musepekeren er utenfor tavlas `x`- og `y`-koordinater, så virker ikke blyanten.
   ```blocks
   når grønt flagg klikkes
   slett
-  for alltid
+  gjenta for alltid
       hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
           gå til [musepeker v]
           hvis <museknappen er trykket?>
@@ -270,7 +270,7 @@ musepekeren er utenfor tavlas `x`- og `y`-koordinater, så virker ikke blyanten.
   ```blocks
   når grønt flagg klikkes
   slett
-  for alltid
+  gjenta for alltid
       hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
           gå til [musepeker v]
           vis
@@ -404,7 +404,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   slett
-  for alltid
+  gjenta for alltid
       hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
           gå til [musepeker v]
           vis

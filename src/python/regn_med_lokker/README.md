@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Regn med løkker
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -22,18 +22,18 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Programmering, 10.trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
-- [ ] __Matematikk R2, VG3__: summere endelige rekker med og uten digitale
-  hjelpemidler, utlede og bruke formlene for summen av de n første leddene i
-  aritmetiske og geometriske rekker, og bruke dette til å løse praktiske
-  problemer
+- [ ] __Matematikk R2, VG3__: utforske rekursive sammenhenger ved å bruke
+  programmering og presentere egne framgangsmåter
 
-- [ ] __MAtematikk S2, VG3__: finne mønstre i tallfølger og bruke dem til å
-  summere endelige aritmetiske og geometriske rekker og andre rekker, med og
-  uten digitale hjelpemidler
+- [ ] __Matematikk S2, VG3__: utforske egenskaper ved ulike rekker og gjøre rede
+  for praktiske anvendelser av egenskaper ved rekker
+
+- [ ] __Matematikk S2, VG3__: utforske rekursive sammenhenger ved å bruke
+  programmering og presentere egne framgangsmåter
 
 ## Forslag til læringsmål {.challenge}
 

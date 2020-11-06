@@ -41,10 +41,10 @@ før eller seinare. Dette gjer me med ein ny figur som me kallar `bakken`.
   er høgt oppe (`y`{.blockdata} er stor) så går bakken nedover, og når Flakse
   er langt nede skal bakken vere tilsvarande høgt oppe. Viss Flakse kjem
   borti bakken skal spelaren tape. Me legg til følgande
-  `for alltid`{.blockcontrol}-løkke i skriptet til bakken:
+  `gjenta for alltid`{.blockcontrol}-løkke i skriptet til bakken:
 
   ```blocks
-  for alltid
+  gjenta for alltid
       set y til ((20) - (y))
       viss <rører [Flakse v]>
           sei [du tapte!] i (2) sekund
@@ -112,7 +112,7 @@ figuren, slik at den flaksar med vengjene når me trykkar mellomromtasten.
 
   ```blocks
   når eg får meldinga [Nytt spel v]
-  for alltid
+  gjenta for alltid
       gjenta til <(flaks) = [0]>
           endra [flaks v] med (-1)
           viss <(løft) < [5]>
