@@ -1,6 +1,6 @@
 ---
-title: 
-author:  
+title: "Hyllest"
+author: "Béatrice Bieuville"
 language: "nn"
 ---
 
@@ -36,7 +36,7 @@ Her skildrar du hva som er målet med steget.
 
 ## {.tip}
 HTML er ein spesifikk måte å skrive innhaldet til ei nettside.
-#
+##
 
 
 - [ ] Slik ser det ut:
@@ -52,6 +52,7 @@ HTML er ein spesifikk måte å skrive innhaldet til ei nettside.
 
 
 ![publish](web1.png)
+
 ![publish 2](web2.png)
 
 
@@ -61,14 +62,13 @@ HTML er ein spesifikk måte å skrive innhaldet til ei nettside.
 
 
 # Steg 2: Skriv innhald til nettsida di {.activity}
-#
 
 
-No skal me ha på plass alle tekstane og bileta som skal ligga på nettsida. Ein del av koden er på plass. No skal me fylla inn. 
+No skal me ha på plass alle tekstane og bileta som skal ligga på nettsida. Ein del av koden er på plass. No skal me fylla inn.
 
 
-Teksten i `index.html`har fleire ulike fargar. På nettsida ser me bare teksten som er i svart i redigeringsprogrammet! Resten har andre funksjonar. Til dømes: Det som me kallar for "tag" er rosa. 
-
+Teksten i `index.html`har fleire ulike fargar. På nettsida ser me bare teksten som er i svart i redigeringsprogrammet! Resten har andre funksjonar. Til dømes: Det som me kallar for "tag" er rosa.
+##
 
 - [ ] Lag ein introduksjon til nettsida. I `<header>`-boksen kan du skrive eit kort innlegg som oppsummerer nettsida di. I mitt eksempel:
 
@@ -78,7 +78,7 @@ Teksten i `index.html`har fleire ulike fargar. På nettsida ser me bare teksten 
 
 ## {.tip}
 `<h1>`, `<h2>`, `<h3>` er til overskrift. `<p>` er til vanleg tekst.
-#
+##
 
 
 - [ ] No som me har ein `header` med tekst kan me gå vidare og velja tekst og bilde til `main`. Me vil laga ei nettside med fleire boksar, med tekst eller bilete i kvar boks, slik som her:
@@ -116,12 +116,12 @@ Med `href` for å gje lenkja og `target="blank"`for å opna lenkja i ei ny fane.
 ![lenkja](lenkja.png)
 
 
-- [ ] Legg til eit bilde-boks. Finn eit bilde på internet og kopier adressa til bildet. Lim inn adressa. 
+- [ ] Legg til eit bilde-boks. Finn eit bilde på internet og kopier adressa til bildet. Lim inn adressa.
 
 
 ![bilde](bilde.png)
 
-Det er best å skrive informasjon om bildet i tillegg, det gjer du slik: 
+Det er best å skrive informasjon om bildet i tillegg, det gjer du slik:
 
 
 ```web
@@ -129,7 +129,7 @@ Det er best å skrive informasjon om bildet i tillegg, det gjer du slik:
 ```
 
 
-- [ ] Under `main`, legg til `footer` med bilde-godskriving: 
+- [ ] Under `main`, legg til `footer` med bilde-godskriving:
 
 
 ![footer](footer.png)
@@ -137,14 +137,12 @@ Det er best å skrive informasjon om bildet i tillegg, det gjer du slik:
 
 ## Tips {.tip}
 Merk at `<img>` er ein av dei einaste taggane utan lukke-tag `</img>` etter seg.
-#
+##
 
 
 ## Test prosjektet {.flag}
 
-
-**Trykk på `save`. Gå på nettsida di og trykk på `ctrl`+ `R`.** 
-
+**Trykk på `save`. Gå på nettsida di og trykk på `ctrl`+ `R`.**
 
 - [ ] Du skal sjå at teksten og bildet er på plass, utan stil.
 
@@ -165,40 +163,38 @@ I dette steget skal me legga til ein css, som innheld stilen til nettsida. No sk
 
 
 Vel sjølv kva bilde du vil bruka ved å endra adressa til bildet.
-#
-# Ting å prøva {.try}
-Kva skjer om du sletter linja `backgorund-size:cover;`?
-#
 
+## Ting å prøva {.try}
+Kva skjer om du sletter linja `backgorund-size:cover;`?
+##
 
 - [ ] La oss velja fonten til nettsida under linjene for bakgrunn:
 
 ![ont farge](fontfarge.png)
 
-#
-# Ting å prøva {.try}
+## Ting å prøva {.try}
 Vel sjølv kva farge du vil bruka. Ei fargeliste finn du [her](https://www.w3schools.com/colors/colors_names.asp){target=_blank}.
-#
+##
 
 
 - [ ] No kan me endra designet til `header` ved å velja utsjånad til teksten og ved å gje litt luft rundt boksen:
 
 
 ![header](header.png)
-#
-# Ting å prøva {.try}
+
+## Ting å prøva {.try}
 Prøv å endra talet bak `letter-spacing`!
-#
+##
 
 
 - [ ] Understrek tittelen:
 
 
 ![h1](h1.png)
-#
-# Ting å prøva {.try}
+
+## Ting å prøva {.try}
 Du kan prøva andre parameter: `overline` eller `line-through`!
-#
+##
 
 
 - [ ] Legg til farge, vel størrelse, vel avtstand mellom tekst boksene:
@@ -206,11 +202,11 @@ Du kan prøva andre parameter: `overline` eller `line-through`!
 
 ![tekst bokse](3.png)
 
-#
-# Ting å prøva {.try}
+
+## Ting å prøva {.try}
 - Du kan endra fargen til bakgrunnen til tekst-boksane.
 - Prøv å endra margin og padding. Kva forskjell ser du mellom dei to?
-#
+##
 
 
 - [ ] Legg til stil på lenkja:
@@ -242,4 +238,4 @@ Du kan prøva andre parameter: `overline` eller `line-through`!
 ## Lagre og del {.save}
 
 
-No har du ein ferdig nettsida!! Du kan dela adressa for at andre skal besøkja nettsida di!
+No har du ei ferdig nettsida!! Du kan dela adressa for at andre skal besøkja nettsida di!
