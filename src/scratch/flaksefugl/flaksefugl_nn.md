@@ -34,7 +34,7 @@ Flakse flygande og prøve å styre mellom røra.
   ```blocks
   når @greenFlag vert trykt på
   gå til x: (-50) y: (0)
-  for alltid
+  gjenta for alltid
       endra y med (-3)
   slutt
   ```
@@ -104,7 +104,7 @@ gjere.*
   når @greenFlag vert trykt på
   set [flaks v] til [0]
   byt drakt til [Venger opp v]
-  for alltid
+  gjenta for alltid
       gjenta til <(flaks) = [0]>
           endra [flaks v] med (-1)
           byt drakt til [Venger ned v]
@@ -179,7 +179,7 @@ ei hinderløype for Flakse.*
   når @greenFlag vert trykt på
   gøym
   set storleik til (200)%
-  for alltid
+  gjenta for alltid
       lag klon av [meg v]
       vent (2) sekund
   slutt
@@ -300,7 +300,7 @@ Me skal prøve å etterlikne denne måten å dette på.
   når @greenFlag vert trykt på
   set [løft v] til [0]
   gå til x: (-50) y: (0)
-  for alltid
+  gjenta for alltid
       endra y med (løft)
       endra [løft v] med (-0.2)
   slutt
@@ -312,7 +312,7 @@ Me skal prøve å etterlikne denne måten å dette på.
   når @greenFlag vert trykt på
   set [flaks v] til [0]
   byt drakt til [Venger opp v]
-  for alltid
+  gjenta for alltid
       gjenta til <(flaks) = [0]>
           endra [flaks v] med (-1)
           byt drakt til [Venger ned v]
@@ -343,7 +343,7 @@ Når spelaren tapar vil me at Flakse skal dette ned og ut av skjermen.
 
   ```blocks
   når eg får meldinga [Fall v]
-  for alltid
+  gjenta for alltid
       snu @turnRight (5) gradar
   slutt
 
@@ -367,33 +367,6 @@ __Klikk det grøne flagget.__
 - [ ] Fell Flakse ut av skjermen når han treff eit røyr?
 
 - [ ] Flyg Flakse riktig veg når spelet startar att?
-
-## Utfordring 3: Legg til rekordar {.challenge}
-
-- [ ] Lag ein ny variabel og merk av `Nett-variabel (lagra på
-  nett)`-boksen. Kall variabelen `Rekord`{.blockdata}.
-
-- [ ] Når spelet er ferdig må me sjekke om det er ein ny rekord. Det gjer
-  me ved å endre `Tap`-skriptet på `røyr` slik:
-
-  ```blocks
-  når eg får meldinga [Tap v]
-  viss <(poeng) > (Rekord)>
-      set [Rekord v] til (poeng)
-  slutt
-  stopp [andre skript i figuren v] :: control
-  ```
-
-## Nettvariablar {.protip}
-
-Nettvariablar gir deg moglegheita til å hugse ting mellom ulike brukarar og
-ulike køyringar av spelet ditt (i motsetnad til vanlege variablar der verdiane
-blir nullstilt mellom kvar gong du trykkjer det grøne flagget). Dette er
-akkurat det me treng for å hugse kva rekorden i spelet er.
-
-Nettvariablar er framleis eksperimentelle, og for tida får ikkje nye Scratch-
-bruarar lov til å lage slike variablar. Viss du ikkje får lov til det må du
-hoppe over den siste utfordringa.
 
 ## Test prosjektet {.flag}
 

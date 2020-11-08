@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Uendelig bakke
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 level: 1
 language: nb
 ---
@@ -14,32 +14,29 @@ lang. Dette kan være starten på et spill hvor en figur løper fremover.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering.
+__Fag__: Matematikk, Programmering
 
-__Anbefalte trinn__: 8. trinn til VG3.
+__Anbefalte trinn__: 8. trinn - VG3
 
-__Tema__: Koordinatsystem, variabler.
+__Tema__: Spill, Koordinater
 
-__Tidsbruk__: Dobbelttime.
+__Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
+- [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringer i koordinatsystemet
 
-- [ ]  __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ] __Matematikk, 3. trinn:__ lage og følge regler og trinnvise instruksjoner i lek og spill knyttet til koordinatsystem
 
-- [ ]  __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-  å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ]  __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
 
-- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
+
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

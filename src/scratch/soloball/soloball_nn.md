@@ -28,7 +28,7 @@ du styre katten som kontrollerer ballen slik at ballen ikkje går i nettet.
   ```blocks
   når @greenFlag vert trykt på
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       peik mot [musepeikar v]
   slutt
   ```
@@ -135,7 +135,7 @@ rundt dette punktet i staden for at den berre roterer utan å flytte seg.
   ```blocks
   når @greenFlag vert trykt på
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       gå (3) steg
       viss <rører [Katt v] ?>
           peik i retning ((180) + (retning))
@@ -238,7 +238,7 @@ Det skal me gjere no.
   ```blocks
   når @greenFlag vert trykt på
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       gå (3) steg
       viss <rører [Katt v] ?>
           peik i retning ((180) + (retning))
@@ -311,7 +311,7 @@ Me kan forenkle dette til
   ```blocks
   når @greenFlag vert trykt på
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       gå (3) steg
       viss <rører [Katt v] ?>
           peik i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
@@ -370,7 +370,7 @@ skal me få eitt poeng kvar gong me returnerer ballen.
   når @greenFlag vert trykt på
   gå til x: (0) y: (0)
   set [Poeng v] til [0]
-  for alltid
+  gjenta for alltid
       gå (3) steg
       viss <rører [Katt v] ?>
           peik i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
@@ -416,7 +416,7 @@ Ved å endre på 3-talet endrar me hastigheita på ballen. Prøv å gjere det sj
   gå til x: (0) y: (0)
   set [Poeng v] til [0]
   set [Hastigheit v] til [3]
-  for alltid
+  gjenta for alltid
       gå (Hastigheit) steg
       viss <rører [Katt v] ?>
           peik i retning (((180) - (retning)) + ((2) * ([retning v] av [Katt v])))
@@ -458,7 +458,7 @@ snu viss den har flytta mange gonger sidan sist den snudde.
   gå til x: (0) y: (0)
   set [Poeng v] til [0]
   set [Hastigheit v] til [3]
-  for alltid
+  gjenta for alltid
       gå (Hastigheit) steg
       endra [Flytt v] med (1)
       viss <<rører [Katt v] ?> og <(Flytt) > [20]>>

@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Skilpaddeskolen
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -23,18 +23,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
-- [ ] __Kunst og håndtverk, 2. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelementer
+- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+  frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer,
-  vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
-  for disse
-
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med 
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 

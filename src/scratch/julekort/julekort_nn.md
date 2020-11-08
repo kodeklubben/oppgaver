@@ -74,7 +74,7 @@ __Klikk på isbjørnen og sjå om koden din virkar.__
   når denne figuren vert trykt på
   spør [Kva heiter du ?] og vent
   sei (set saman  [God jul ] (svar)) i (2) sekund
-  for alltid
+  gjenta for alltid
       endra  [farge v]-effekt med (25)
   slutt
   ```
@@ -96,7 +96,7 @@ koden. No skal juletreet skifte farge og utsjånad.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       vent (0.3) sekund
       endra [farge v]-effekt med (25)
       neste drakt

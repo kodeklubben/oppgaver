@@ -75,7 +75,7 @@ raskare og vanskelegare å jage bort.
   ```blocks
   når eg får meldinga [start v]
   gå til x: (0) y: (-75)
-  for alltid
+  gjenta for alltid
   slutt
   ```
 
@@ -203,7 +203,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   når eg får meldinga [start v]
-  for alltid
+  gjenta for alltid
       viss <(tilfeldig tal frå (0) til (1)) = [0]>
           peik i retning (90 v)
           set x til (-250)
@@ -229,7 +229,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   når eg startar som klon
-  for alltid
+  gjenta for alltid
       viss <rører [Helten v]?>
           send meldinga [slutt v]
           slett denne klonen
@@ -334,7 +334,7 @@ __Klikk på det grøne flagget.__
   tek imot `start`-meldinga på scena med den følgjande løkka:
 
   ```blocks
-  for alltid
+  gjenta for alltid
       set [Nivå v] til ((1) + ([golv v] av ((Poeng) / (5))))
   slutt
   ```
@@ -360,7 +360,7 @@ __Klikk på det grøne flagget.__
   endra [farge v]-effekt med ((10) * (Slem))
   endra storleik med ((5) * (Slem))
   vis
-  for alltid
+  gjenta for alltid
       gå (hastigheit) steg
       vent (0.1) sekund
   slutt
@@ -380,7 +380,7 @@ __Klikk på det grøne flagget.__
   mykje vanskelegare. Til dømes kan du bruke denne utrekninga:
 
   ```blocks
-  for alltid
+  gjenta for alltid
       set [Nivå v] til ((1) + ([gulv v] av ([kvadratrot v] av ((Poeng) / (3)))))
   slutt
   ```

@@ -53,7 +53,7 @@ i gang.
   ```blocks
   når grønt flagg klikkes
   sett [hastighet v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
   slutt
   ```
@@ -75,7 +75,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   sett [hastighet v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastighet) steg
       sprett tilbake ved kanten
   slutt
@@ -119,7 +119,7 @@ __Klikk på det grønne flagget.__
 
   ```blocks
   når grønt flagg klikkes
-  for alltid
+  gjenta for alltid
       vis
       vent (tilfeldig tall fra (3) til (5)) sekunder
       skjul

@@ -88,7 +88,7 @@ basic.forever(function () {
         basic.pause(20000)
         lysstyrke = input.lightLevel()
         if (lysstyrke > 80) {
-            music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
+            music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
             basic.showLeds(`
                 # # # # #
                 # # # # #
@@ -98,7 +98,7 @@ basic.forever(function () {
                 `)
             basic.clearScreen()
             basic.pause(500)
-            music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
+            music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
             basic.showLeds(`
                 # # # # #
                 # # # # #
@@ -108,7 +108,7 @@ basic.forever(function () {
                 `)
             basic.clearScreen()
             basic.pause(500)
-            music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
+            music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
             basic.showLeds(`
                 # # # # #
                 # # # # #

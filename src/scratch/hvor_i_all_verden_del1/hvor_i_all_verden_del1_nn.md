@@ -73,7 +73,7 @@ med piltastane.*
   når eg får meldinga [Nytt spel v]
   gå til x: (0) y: (0)
   vis
-  for alltid
+  gjenta for alltid
       viss <tasten [pil høgre v] er trykt?>
           peik i retning (90 v)
           gå (hastigheit) steg

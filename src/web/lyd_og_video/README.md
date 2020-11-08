@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Legg til lyd og video"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -14,7 +14,7 @@ forskjellige måter å legge opp lyd på.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Teknologi i praksis, Norsk, Musikk
+__Fag__: Programmering, Kunst og håndverk, Norsk, IT1
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -24,19 +24,17 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Kunst og håndverk, 7. trinn__: bruke digitale verktøy til å planlegge og presentere prosesser og produkter
 
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design.
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Norsk, 7. trinn__: velge ut og vurdere informasjon fra bibliotek og
-  digitale informasjonskanaler.
+- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av uttrykksformer
 
-- [ ] __Musikk, 10. trinn__: gjøre rede for regler for opphavsrett knyttet til
-  bruk av musikk.
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
+
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
+
+- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
 
 ## Forslag til læringsmål {.challenge}
 
@@ -88,6 +86,6 @@ oppgaven enda.
 ## Eksterne ressurser {.challenge}
 
 - [ ] På [datatilsynets
-  nettsider](https://www.datatilsynet.no/rettigheter-og-plikter/internett-og-apper/bilder-pa-nett/)
+  nettsider](https://www.datatilsynet.no/rettigheter-og-plikter/internett-og-apper/bilder-pa-nett/){target=_blank}
   finnes det mer informasjon om rettigheter og plikter knyttet til bilder og
   videoer på nett.

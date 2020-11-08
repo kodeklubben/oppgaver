@@ -1,10 +1,19 @@
 ---
 title: "Python: Hello, World!"
-author: "Omsett frå [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/buttons.html)"
-translator: Stein Olav Romslo
+author: "Omsett frå [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/hello.html)"
+translator: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
+
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgåva er den første i oppgåvesamlinga "Programmering i micro-python".
+
+Me tilrår at du lastar ned og skriv koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobbar med desse oppgåvene. Instruksjonar for korleis ein lastar ned Mu finn du på nettsida via linken.
+
+Når Mu er installert kan du kople micro:biten din til datamaskinen via ein USB-kabel. Skriv koden din i editor-vindauget og trykk på “Flash”-knappen for å laste koden over på micro:biten. Dersom det ikkje fungerer, sørg for at micro:biten har dukka opp som ei USB-eining på datamaskinen din.
 
 # Introduksjon {.intro}
 
@@ -88,3 +97,9 @@ Viss micro:bit-en sluttar å svare kan du ikkje gi den ny kode eller skrive inn
 kommandoar. Prøv å ta ut USB-kabelen (og kabelen til batteriet dersom du har
 kopla det til), og så å kople den inn att. Det kan vere at du må avslutte og
 starte programmet du skriv kode i på nytt.
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+
+Neste oppgåve i samlinga er [Python: Bilete](../python_images/python_images_nn.html){target=_blank}.
+Klikk vidare for å halde fram gjennom samlinga.

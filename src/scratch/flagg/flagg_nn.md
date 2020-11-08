@@ -40,7 +40,7 @@ No skal me bruke dette til å teikne sirklar!
   ```blocks
   når @greenFlag vert trykt på
   avgrens rotering til [ikkje roter v]
-  for alltid
+  gjenta for alltid
       set x til ((100) * ([cos v] av (retning)))
       set y til ((100) * ([sin v] av (retning)))
       snu @turnLeft (5) gradar
@@ -88,7 +88,7 @@ Til no har me berre teikna ein sirkel midt på skjermen. No skal me flytte den!
   avgrens rotering til [ikkje roter v]
   set [sentrumX v] til [-100]
   set [sentrumY v] til [50]
-  for alltid
+  gjenta for alltid
       set x til ((sentrumX) + ((100) * ([cos v] av (retning)))
       set y til ((sentrumY) + ((100) * ([sin v] av (retning)))
       snu @turnLeft (5) gradar
@@ -136,7 +136,7 @@ No skal me prøve å få mange figurar til å gå i sirkel samstundes.
   slutt
 
   når eg startar som klon
-  for alltid
+  gjeta for alltid
       set x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
       set y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
       snu @turnLeft (5) gradar
@@ -189,7 +189,7 @@ flagg.
 
   ```blocks
   når eg får meldinga [flagre v]
-  for alltid
+  gjenta for alltid
       set x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
       set y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
       snu @turnLeft (5) gradar
@@ -241,7 +241,7 @@ No skal me teikne flagget med ulike fargar.
   byt drakt til (bokstav (nummer) i (flagg))
   ```
 
-  øvst i `for alltid`{.blockcontrol}-løkka i `flagre`-skriptet.
+  øvst i `gjenta for alltid`{.blockcontrol}-løkka i `flagre`-skriptet.
 
 - [ ] Køyr programmet ditt. Den venstre delen av flagget ditt skal ha fått
   fargane til det norske flagget. For å farge heilt flagget må me gi mange

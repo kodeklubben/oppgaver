@@ -45,9 +45,8 @@ Du kan lese mer om portene på micro:biten her:
 	Koden din skal nå se slik ut:
 
 ```microbit
-music.beginMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
+music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
 ```
-
 
 # Steg 2: Velg melodi {.activity}
 
