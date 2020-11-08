@@ -1,6 +1,6 @@
 ---
-title: "Labyrint med Angry Birds!"
-author: "Carl A. Myrland,Code.org" 
+title: "Labyrint med Angry Birds"
+author: "Carl A. Myrland, Code.org" 
 language: "nb"
 ---
 
