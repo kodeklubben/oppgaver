@@ -1,5 +1,5 @@
 ---
-title: "Labyrint med Angry Birds!"
+title: "Labyrint med Angry Birds"
 author: "Carl A. Myrland" 
 language: "nb"
 ---
@@ -59,7 +59,7 @@ oppgaven.
 
 # Videoinstruksjoner {.activity}
 I starten av et kurs hos code.org, møter man på videoer som forklarer formålet med oppgaven. Disse videoene er på engelsk, men med norsk tekst. Disse videoene kan det være greit å vise i fellesskap mens en voksen oversetter til norsk underveis, eller at du som lærer går gjennom og forklarer essensen i videoene, uten å vise selve videoene. Elevene kan dermed bare lukke ned videoene når de popper opp på skjermen. 
-#
+
 
 
 ## Variasjoner {.challenge}
