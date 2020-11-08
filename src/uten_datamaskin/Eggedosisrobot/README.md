@@ -1,12 +1,9 @@
 ---
 title: "Eggedosisrobot"
-author: "Carl A. Myrland,Espen Clausen" 
-translator: "https://espenec.wordpress.com/2019/10/22/lage-eggedosis/"
+author: "[Espen Clausen](https://espenec.wordpress.com/2019/10/22/lage-eggedosis)"
+translator: "Carl A. Myrland"
 language: "nb"
 ---
-
-
-(TEKSTMAL FOR LÆRERVEILEDNING)
 
 # Om oppgaven {.activity}
 
@@ -16,7 +13,7 @@ I denne oppgaven skal elevene skrive *pseudokode* som forteller roboten (en voks
 
  **Fag**: Programmering, Norsk, Matematikk, Naturfag
 
-**Anbefalte trinn**: 3.-4. klasse, 5.-7. klasse
+**Anbefalte trinn**: 3.-7. klasse
 
 **Tema**: Robot
 
@@ -55,7 +52,7 @@ nyttige tips til hvordan man underviser i programmering.
 
 ## Forutsetninger og utstyr {.challenge}
 
-**Forutsetninger**: 
+**Forutsetninger**:
 - [ ] Ingen
 
 **Utstyr**:
