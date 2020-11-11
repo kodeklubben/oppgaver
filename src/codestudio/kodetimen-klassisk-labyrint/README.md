@@ -1,7 +1,7 @@
 ---
 title: "Kodetimen: Klassisk labyrint"
 author: "Carl A. Myrland" 
-language: "nb"
+language: 
 ---
 
 
