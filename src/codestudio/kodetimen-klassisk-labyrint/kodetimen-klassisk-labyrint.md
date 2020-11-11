@@ -1,11 +1,15 @@
 ---
 title: "Kodetimen: Klassisk labyrint"
 author: "Carl A. Myrland" 
-language: "nb"
+language: 
 ---
 
 
 # Introduksjon {.intro}
+
+## {.tip}
+Dette dokumentet er rettet mot voksne kodeveiledere, for eksempel i anledning Kodetimen. Selve opplegget finner du ved å følge lenken under.
+#
 
 Dette er den klassiske "Kodetimen"-oppgaven fra code.org. Man gjennomgår de fleste grunnleggende konseptene i dataprogrammering, ved hjelp av spillfigurer fra Angry Birds, Plants vs. Zombies og istid. 
 
@@ -26,36 +30,36 @@ Når du er klar for å komme i gang, kan du [trykke her for å gå til oppgaven]
 
 Dette er en rask gjennomgang av hva som er hva i brukergrensesnittet til Code Studio. 
 
-Sånn ser hele grensesnittet i Code Studio ut. Under går vi gjennom del for del av grensesnittet.
+Sånn ser hele grensesnittet i Code Studio ut. Under går vi gjennom del for del av grensesnittet
 
-![hele skjermen](skjermhoc.png)
+![Code Studio](codestudioHOC.jpg)
 
 ## Grensesnitt, del for del {.check}
 
 
 - [ ] Nederst til venstre på skjermen finner du språkvalg. Av og til kan man få opp oppgaven på engelsk. Da skifter du til nors her. Har man nytilflyttede elever med annet språk enn norsk, kan de velge sitt språk her. I språkfag kan man velge å gjennomføre Kodetimen på tysk, spansk, fransk osv.
 
-![Språkvalg](sprakhoc.png)
+![Språkvalg](sprakdance.jpg)
 
 - [ ] Øverst på skjermen ser du fremdriften til elevene. 
 
-![fremdrift](fremdrifthoc.png)
+![Oppgaver](oppgaverHOC.jpg)
 
 
 - [ ] På scenen foregår det som har blitt programmert. Her ser man også labyrinten som må løses for å klare oppgaven. Rett under scenen finner man "Kjør"-knappen som starter programmet når man er ferdig med kodingen.
 
-![Scene](scenehoc.png)
+![Scene](sceneHOC.jpg)
 
 - [ ] Rett under fremdriftsoversikten finner du instruksjonene til oppgaven som skal løses!
 
-![instruks](instrukshoc.png)
+![Instruks](InstruksHOC.jpg)
 
 - [ ] I feltet midt på skjermen, finner vi alle tilgjengelige kodeklosser som trengs for å løse oppgaven. Vi kan kalle dette området for "verktøykassen"
 
-![verktøy](verktoyhoc.png)
+![Verktøy](verktoyHOC.jpg)
 
 - [ ] Arbeidsflaten er det store, hvite feltet som dominerer i grensesnittet. Her bygger man opp koden sin ved å dra blokker fra verktøykassa og sette dem sammen til algoritmer som forhåpentligvis løser oppgaven.
 
-![arbeidsflate](arbeidsflatehoc.png)
+![Arbeidsflate](arbeidsflateHOC.jpg)
 
-- [ ] Når du er klar for å komme i gang, kan du [trykke her for å gå til oppgaven](https://studio.code.org/hoc/1){target=_blank}. 
+- [ ] Når du er klar for å komme i gang, kan du [trykke her for å gå til oppgaven](https://studio.code.org/hoc/1){target=_blank}.
