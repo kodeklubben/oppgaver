@@ -1,6 +1,6 @@
 ---
-title: "Labyrint med Angry Birds (før-lesere)"
-author: "Carl A. Myrland" 
+title: "Kodetimen: Labyrint med Angry Birds (før-lesere)"
+author: "Carl A. Myrland"
 language: "nb"
 ---
 
@@ -12,7 +12,7 @@ Denne teksten er et hjelpedokument til voksne veiledere som skal gjennomføre Ko
 
 I denne oppgaven skal du hjelpe en Angry Bird med å komme seg rundt i en labyrint for å fange de slemme grisene, ved hjelp av blokkprogrammering. Blokkene består av symboler som viser hvilken funksjon blokken har (N, S, Ø, V), så oppgaven passer fint for elever som ikke har knekt lesekoden enda.
 
-Denne oppgaven er svært godt egnet som fadderoppgave. Mellomtrinnselever er supre veiledere, og kan hjelpe de yngste elevene med å lese det lille som er av tekst, hjelpe til med å tolke oppgaver og løse problemer når de sitter fast. 
+Denne oppgaven er svært godt egnet som fadderoppgave. Mellomtrinnselever er supre veiledere, og kan hjelpe de yngste elevene med å lese det lille som er av tekst, hjelpe til med å tolke oppgaver og løse problemer når de sitter fast.
 
 Nettsiden der vi jobber med disse oppgavene kalles Code Studio.
 
@@ -34,7 +34,7 @@ Aldri brukt Code Studio før? Under finner du en kort innføring i hva de forskj
 
 - [ ] Øverst på skjermen ser du navnet på oppgaven og en oversikt over deloppgavene. Hver prikk er en ny deloppgave som bygger på den forrige.
 
-![Bildebeskrivelse](Scene.png)
+![Bildebeskrivelse](oppgaveoversiktAB.png)
 
 - [ ] Under oppgavenavnet, finner du instruksjonen til den gjeldende oppgaven. Instruksjonen kan leses av en voksen for hele klassen for hver oppgave, av skolefadderne, eller elevene kan forsøke å lese teksten selv, avhengig av alder og leseferdigheter.
 
@@ -46,7 +46,7 @@ Aldri brukt Code Studio før? Under finner du en kort innføring i hva de forskj
 
 - [ ] I midten har du en verktøykasse med tilgjengelige kodeblokker som kan brukes for å løse problemene man møter på. Etterhvert vil man få tilgang til flere blokker for å løse nye problemer.
 
-![Bildebeskrivelse](verktøy.png)
+![Bildebeskrivelse](verktoy.png)
 
 - [ ] Til høyre er arbeidsflaten. Man skriver programkoden ved å dra kodeblokkene fra verktøykassa og inn på arbeidsflaten, og koble dem sammen som puslespillbiter. Pass på at den øverste blokka kobles til "Når den kjører"-blokka
 

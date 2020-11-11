@@ -1,15 +1,15 @@
 ---
-title: "Labyrint med Angry Birds (før-lesere)"
-author: "Carl A. Myrland" 
+title: "Kodetimen: Labyrint med Angry Birds (før-lesere)"
+author: "Carl A. Myrland"
 language: "nb"
 ---
 
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal elevene hjelpe en Angry Bird rundt i en labyrint for å fange den slemme grisen. Dette gjøres ved å lage algoritmer av symbolblokker merket med N, S, Ø og V, og piler i tilhørende retninger. 
+I denne oppgaven skal elevene hjelpe en Angry Bird rundt i en labyrint for å fange den slemme grisen. Dette gjøres ved å lage algoritmer av symbolblokker merket med N, S, Ø og V, og piler i tilhørende retninger.
 
-Oppgaven er en fin abstraksjonsøvelse, der man må planlegge flere trekk frem i tid, og kan kombineres med Beebot eller andre leker med forflytning i et koorinatsystem. 
+Oppgaven er en fin abstraksjonsøvelse, der man må planlegge flere trekk frem i tid, og kan kombineres med Beebot eller andre leker med forflytning i et koorinatsystem.
 
 ## Oppgaven passer til: {.check}
 
@@ -50,15 +50,15 @@ nyttige tips til hvordan man underviser i programmering.
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. 
+oppgaven.
 
 # Instruksjonene {.activity}
 
-- [ ] For førlesere bør en voksen bidra til å lese opp oppgaveinstruksjonen. 
+- [ ] For førlesere bør en voksen bidra til å lese opp oppgaveinstruksjonen.
 - [ ] Dersom man bruker oppgaven som fadderaktivitet, tar fadderne seg av lesing av tekst og hjelper fadderbarna med å tolke oppgavene.
 
 # Videoinstruksjoner {.activity}
-I starten av et kurs hos code.org, møter man på videoer som forklarer formålet med oppgaven. Disse videoene er på engelsk, men med norsk tekst. Disse videoene kan det være greit å vise i fellesskap mens en voksen oversetter til norsk underveis, eller at du som lærer går gjennom og forklarer essensen i videoene, uten å vise selve videoene. Elevene kan dermed bare lukke ned videoene når de popper opp på skjermen. 
+I starten av et kurs hos code.org, møter man på videoer som forklarer formålet med oppgaven. Disse videoene er på engelsk, men med norsk tekst. Disse videoene kan det være greit å vise i fellesskap mens en voksen oversetter til norsk underveis, eller at du som lærer går gjennom og forklarer essensen i videoene, uten å vise selve videoene. Elevene kan dermed bare lukke ned videoene når de popper opp på skjermen.
 
 
 
