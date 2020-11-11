@@ -100,7 +100,7 @@ i forhold til den skrå streken.
 - [ ] Vi vil nå programmere kontrollen av romskipet. Først og fremst vil vi at
   romskipet vender seg når vi trykker på piltastene mot høyre og venstre.
 
-  Legg til to `hvis`{.blockcontrol}-blokker inne i `for
+  Legg til to `hvis`{.blockcontrol}-blokker inne i `gjenta for
   alltid`{.blockcontrol}-løkken hvor du `vender`{.blockmotion} romskipet for
   eksempel `5` grader mot høyre eller venstre avhengig av hvilken piltast som
   trykkes.

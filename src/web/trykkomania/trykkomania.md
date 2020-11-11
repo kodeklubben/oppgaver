@@ -352,7 +352,7 @@ opp likt som `Ball`, så du må gjerne lese gjennom og se om du forstår den.
 
     // CSS til "el"
     el.style.position = 'fixed';
-    el.style.bottom = '5px';
+    el.style.bottom = '50px';
     el.style.left = '8px';
     el.style.padding = '5px';
     el.style.backgroundColor = 'black';

@@ -1,10 +1,19 @@
 ---
 title: "Python: Tilfeldig"
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/random.html)"
-translator: Øistein Søvik
+translator: Øistein Søvik og Susanne Rynning Seip
 language: nb
 ---
 
+
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgaven er en del av oppgavesamlingen _Programmering i micro-python_ og bygger videre på [Python: Knapper](../python_buttons/python_buttons_nb.html){target=_blank}.
+
+Vi anbefaler at du laster ned og skriver koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobber med disse oppgavene. Instruksjoner for hvordan man laster ned Mu finner du på nettsiden via linken.
+
+Når Mu er installert kan du koble micro:biten din til datamaskinen via en USB-kabel. Skriv koden din i editor-vinduet og trykk på “Flash”-knappen for å laste koden over på micro:biten. Hvis det ikke fungerer, sørg for at micro:biten har dukket opp som en USB-enhet på datamaskinen din.
 
 # Introduksjon {.intro}
 
@@ -165,9 +174,16 @@ while True:
         sleep(500)
     elif button_a.is_pressed():
         display.show(str(random.randint(1, 6)))
-        sleep(500)```
+        sleep(500)
+```
 
 Her må du selv velge hvilken bevegelse du ønsker å bytte ut `A` med.
 
 </hide>
 </toggle>
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+
+Neste oppgave i samlingen er [Python: Rotasjon og fall](../python_gestures/python_gestures_nb.html){target=_blank}.
+Klikk videre for å fortsette gjennom samlingen.

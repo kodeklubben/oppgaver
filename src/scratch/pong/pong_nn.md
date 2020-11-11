@@ -64,7 +64,7 @@ Ingen spelarar, ingen poeng, ingenting anna enn ein sprettande ball!
   set [hastigheit v] til [7]
   gå til x: (0) y: (0)
   peik i retning (tilfeldig tal frå (1) til (360))
-  for alltid
+  gjenta for alltid
       gå (hastigheit) steg
       viss ved kant, sprett
   slutt
@@ -116,7 +116,7 @@ racketane til spelarane) eller når den er borti spesielle farger.
   telje poeng. Det kan me gjere ved å bytte ut
 
   ```blocks
-  for alltid
+  gjenta for alltid
   slutt
   ```
 

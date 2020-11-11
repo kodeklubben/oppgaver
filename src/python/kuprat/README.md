@@ -1,19 +1,19 @@
 ---
 title: Lærerveiledning - Kuprat
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
 
 # Om oppgaven {.activity}
 
-I denne oppgaven introduseres elevene for første gang for programmeringssprket
+I denne oppgaven introduseres elevene for første gang for programmeringsspråket
 Python. Hensikten med oppgaven er å lære seg å lage et program som skriver ut
 tekst på skjermen.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Norsk
+__Fag__: Norsk, Programmering
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -23,11 +23,13 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Norsk, 4. trinn__: lage tekster som kombinerer ord, lyd og bilde, med og
-  uten digitale verktøy
+- [ ] __Norsk, 2. trinn__: lage tekster som kombinerer skrift med bilder
 
-- [ ] __Norsk, 4. trinn__: søke etter informasjon, skape, lagre og gjenfinne
-  tekster ved hjelp av digitale verktøy
+- [ ] __Norsk, 4. trinn__: skrive tekster med funksjonell håndskrift og med
+      tastatur
+
+- [ ] __Programmering, 10.trinn__: bruke flere programmeringsspråk, deriblant
+      minst ett som er tekstbasert
 
 ## Forslag til læringsmål {.challenge}
 

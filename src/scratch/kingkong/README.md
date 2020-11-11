@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - King Kong
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 3
 language: nb
 ---
@@ -17,7 +17,7 @@ vi King Kong som må passe seg for flyene som angriper ham.
 ## Oppgaven passer til: {.check}
 
  __Fag__: Engelsk, kunst og håndtverk, matematikk, programmering.
- 
+
 __Anbefalte trinn__: 3.-10. trinn.
 
 __Tema__: Lage et spill basert på engelskspråklig kultur, bildebehandling,
@@ -27,27 +27,21 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 7. trinn__: uttrykke seg på en kreativ måte inspirert av ulike
-      typer engelskspråklige litterære tekster fra forskjellige kilder
+- [ ] __Engelsk, 7. trinn__: bruke digitale ressurser og ulike ordbøker i
+      språklæring, tekstskaping og samhandling
 
-- [ ] __Engelsk, 7. trinn__: lage, formidle og samtale om egne tekster inspirert
-      av engelskspråklig litteratur, film og kulturelle uttrykksformer
+- [ ] __Engelsk, 10. trinn__: lese, diskutere og videreformidle innhold fra ulike
+      typer tekster, inkludert selvvalgte tekster
 
-- [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
-
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsystem
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
+      koordinatsystemet
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+      programmering, slik som variabler, løkker, vilkår og funksjoner, og
+      reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
@@ -109,4 +103,3 @@ oppgaven enda._
 
 - [ ] Se klipp av den ikoniske scenen på fra [King Kong (2005) på
       YouTube](https://www.youtube.com/watch?v=NoD85qZhkWY){target=_blank}.
-

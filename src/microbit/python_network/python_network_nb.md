@@ -1,10 +1,19 @@
 ---
 title: "Python: Nettverk"
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/network.html)"
-translator: Øistein Søvik
+translator: Øistein Søvik og Susanne Rynning Seip
 language: nb
 ---
 
+
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgaven er den _siste_ i oppgavesamlingen _Programmering i micro-python_ og bygger videre på [Python: Bevegelse](../python_movement/python_movement_nb.html){target=_blank}.
+
+Vi anbefaler at du laster ned og skriver koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobber med disse oppgavene. Instruksjoner for hvordan man laster ned Mu finner du på nettsiden via linken.
+
+Når Mu er installert kan du koble micro:biten din til datamaskinen via en USB-kabel. Skriv koden din i editor-vinduet og trykk på “Flash”-knappen for å laste koden over på micro:biten. Hvis det ikke fungerer, sørg for at micro:biten har dukket opp som en USB-enhet på datamaskinen din.
 
 # Introduksjon {.intro}
 
@@ -51,7 +60,7 @@ som enten er på eller av, og sendt via IO pin'ene.
 Om du husker det er det mulig å bruke IO pinene slik:
 
 ```python
-  pin1.write_digital(1) # skru signalet på 
+  pin1.write_digital(1) # skru signalet på
   pin1.write_digital(0) # skru signalet av
   input = pin2.read_digital() # Les av verdien av signalet (enten 1 or 0)
 ```
@@ -288,7 +297,7 @@ while True:
     # kjøringen av løkka. Så vi sjekker om det ikke har vært en pause for å
     # indikere enden av den inkommende morsekoden. Pausen må være lenge enn
     # varigheten av en BINDESTREK
-    
+
     elif len(buffer) > 0 and waiting > DASH_THRESHOLD:
         # Dersom det er noen tegn i buffer'en og vi har nådd enden på
         # meldingen...

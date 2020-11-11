@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - PXT: Spå fremtiden med bilder"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -12,31 +12,25 @@ velge et tilfeldig bilde som vises på skjermen.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Kunst og håndverk, matematikk, programmering, IT.
+__Fag__: Kunst og håndverk, Matematikk
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Tilfeldighet, bilder.
+__Tema__: Tilfeldighet, Bilder, Lister
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __K&H, 2. trinn:__ bruke dekorative elementer fra kunst og kunsthåndverk i
- egne arbeider
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 7. trinn:__ vurdere og samtale om sjanser i dagligdagse
-  sammenhenger, spill og eksperimenter og beregne sannsynlighet i enkle
-  situasjoner
+- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldighet og sannsynlighet i spill og praktiske situasjoner og knytte det til brøk
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Matematikk, 9. trinn:__ beregne og vurdere sannsynlighet i statistikk og spill
 
-- [ ] __Programmering, 10. trinn:__ overføre løsninger til nye problemer ved å
-  generalisere og tilpasse eksisterende programkode og algoritmer.
+- [ ] __Matematikk, 9. trinn:__ simulere utfall i tilfeldige forsøk og beregne sannsynligheten for at noe skal inntreffe, ved å bruke programmering
 
-- [ ] __IT2, VG3:__ programmere med valg og gjentakelser
+- [ ] __Fordypning i matematikk, 10. trinn:__ lage, utføre og presentere oppgaver knyttet til sannsynlighetsregning
 
 ## Forslag til læringsmål {.challenge}
 

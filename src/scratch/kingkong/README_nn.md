@@ -2,7 +2,7 @@
 title: Lærarrettleiing - King Kong
 level: 3
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -25,25 +25,21 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 7. trinn__: uttrykke seg på ein kreativ måte inspirert av ulike
-  typer engelskspråklege litterære tekstar fra ulike kjelder
+- [ ] __Engelsk, 7. trinn__: bruke digitale ressursar og ulike ordbøker i
+      språklæring, tekstskaping og samhandling
 
-- [ ] __Engelsk, 7. trinn__: lage, formidle og samtale om eigne tekstar
-  inspirert av engelskspråkleg litteratur, film og kulturelle uttrykksformer
+- [ ] __Engelsk, 10. trinn__: lese, diskutere og vidareformidle innhald frå
+      ulike typar tekstar, inkludert selvvalgte tekstar
 
-- [ ] __Kunst og handverk, 4. trinn__: bruke enkle funksjonar i digitale
-  bildehandsamingsprogram
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
+      koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
-
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+      programmering, slik som variablar, løkker, vilkår og funksjonar, og
+      reflektere over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 

@@ -1,20 +1,71 @@
 ---
 title: Lærerveiledning - RGB-lysdiode
-author: "Morten Minde Neergaard & Martin Ertsås"
+author: "Morten Minde Neergaard, Martin Ertsås og Susanne Rynning Seip"
 language: nb
 ---
 
+# Om oppgaven {.activity}
 
-# Informasjon til veiledere
+I denne oppgaven skal elevene få en RGB-lysdiode til å lyse.
 
-## Læringsmål
+## Oppgaven passer til: {.check}
 
-+ `for`- og `while`-løkker
+ __Fag__: Naturfag, Teknologi og Design, Teknologi og forskningslære
 
-+ Styre en RGB-lysdiode
+__Anbefalte trinn__: 5. trinn - VG3
 
+__Tema__: Arduino, Kretser, RGB-lysiode, Løkker
 
-# Løsningsforslag for fargekombinasjonssykling {.activity}
+__Tidsbruk__: Dobbelttime
+
+## Kompetansemål {.challenge}
+
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
+
+- [ ] __Teknologi og design, 10. trinn:__ velge og bruke ulike materialer og verktøy i arbeidet med prototyper for teknologiske produkt
+
+- [ ] __Teknologi og design, 10. trinn:__ grunngi valg av design, materialer, verktøy og framgangsmåter, og reflektere over hvor trygge og bærekraftige valgene er
+
+- [ ] __Teknologi og forskningslære X og 1, VG2:__ anvende kravspesifikasjon i arbeid med å utvikle og teste funksjonelle produkter og vurdere produktet opp mot kravspesifikasjonen
+
+- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+
+## Forslag til læringsmål {.challenge}
+
+- [ ] Elevene kan styre en RGB-lysdiode
+
+- [ ] Elevene kan skrive program for en Arduino som bruker `for`- og `while`-løkker
+
+## Forslag til vurderingskriterier {.challenge}
+
+Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av kompetansemålet.
+
+## Forutsetninger og utstyr {.challenge}
+
+- [ ] __Forutsetninger__: Oppgaven er en introduksjon til Arduino, og krever ingen forkunnskaper eller erfaring. Det er en fordel å kunne litt engelsk.
+
+- [ ] __Utstyr__:
+
+  - [ ] 1 Arduino Uno
+
+  - [ ] Datamaskin med Arduino software installert (Se _Eksterne ressurser_) og USB-kabel
+
+  - [ ] 1 breadboard
+
+  - [ ] 1 motstand 1k Ohm (Fargekode: brun-svart-rød-gull)
+
+  - [ ] 4 ledninger
+
+  - [ ] 1 RGB-lysdiode
+
+  ![utstyr](utstyr.jpeg)
+
+## Fremgangsmåte
+
+Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
+oppgaven. [Klikk her for å se oppgaveteksten.](../rgb_diode/rgb_diode.html){target=_blank}
+
+### Løsningsforslag for fargekombinasjonssykling {.activity}
 
 ```cpp
 const auto roed_pinne = 9;
@@ -57,3 +108,16 @@ med 0.85, denne gangen for å kunne se blå.
 
 Skaleringsfaktorene kan variere mellom lysdioder, så hvis disse faktorene ikke
 fungerer må en prøve seg frem.
+
+## Variasjoner {.challenge}
+
+- [ ]  _Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda._
+
+## Eksterne ressurser {.challenge}
+- [ ] Installasjonsinstruksjoner:
+
+  + [Windows](https://arduino.cc/en/Guide/Windows)
+
+  + [Mac OS X](https://arduino.cc/en/Guide/MacOSX)
+
+  + [Linux](https://arduino.cc/en/Guide/Linux)

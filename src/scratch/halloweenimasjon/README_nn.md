@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Halloweenimasjon
 level: 1
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -23,25 +23,23 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 2. trinn__: ta del i og oppleve barnekultur frå
-  engelskspråklege land gjennom å bruke ord, bilete, musikk og rørsle
+- [ ] __Engelsk, 2. årstrinn__: tileigna seg ord og kulturell kunnskap gjennom
+      engelskspråkleg barnelitteratur og barnekultur
 
-- [ ] __Engelsk fordjupning, 10. trinn__: produsere skriftleg og presentere
-  munnleg sjølvvalte fordjupingsarbeid
+- [ ] __Engelsk, 4. årstrinn__: utforske levemåtar og tradisjonar i ulike
+      samfunn i den engelskspråklege verda og i Noreg og reflektere over
+      identitet og kulturell tilhørighet
 
-- [ ] __Kunst og handverk, 4. trinn__: bruke enkle funksjonar i digitale
-  bildehandsamingsprogram
+- [ ] __Kunst og håndtverk, 4. årstrinn__: gjennomføre kunst- og designprosessar
+      ved å søka inspirasjon, utforske moglegheiter, gjere val og lage eigne
+      produkt
 
-- [ ] __Kunst og handverk, 7. trinn__: bruke fargekontrastar, forminsking og
-  sentralperspektiv for å gi illusjon av rom i bilete både med og utan digitale
-  verktøy
+- [ ] __Kunst og håndtverk, 7. årstrinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
-
-- [ ] __Programmering, 10. trinn__: overføre løysingar til nye problem ved å
-  generalisere og tilpasse eksisterande programkode og algoritmar.
+- [ ] __Programmering, valgfag__: bruke grunnleggande prinsipp i programmering
+      , slik som variablar, løkker, vilkår og funksjonar, og reflektere over
+      bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
