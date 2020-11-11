@@ -80,7 +80,7 @@ og særskilt korleis me får den til å hoppe og falle på ein truverdig måte.
   ```blocks
   når eg får meldinga [Nytt spel v]
   gå til x: (-150) y: (-100)
-  for alltid  // hovudløkka
+  gjenta for alltid  // hovudløkka
       set [fartX v] til ((0.8) * (fartX))  // farta bremsast
       endra [fartY v] med (-0.5)  // gravitasjon, figuren fell
       viss <rører fargen [#0000ff]>  // figuren står på plattforma
@@ -209,7 +209,7 @@ rullande ildkuler mot oss.*
   når du klikkar på det grøne flagget.
 
 - [ ] No skal me skrive koden på Donkey Kong. Den blir ganske enkel. Etter
-  at `Donkey Kong` mottek `Nytt spel` kan du la han gå inn i ei `for
+  at `Donkey Kong` mottek `Nytt spel` kan du la han gå inn i ei `gjenta for
   alltid`{.blockcontrol}-løkke der han `lagar klon av
   Ildkule`{.blockcontrol} og så `ventar 3 sekund`{.blockcontrol}.
 

@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - PXT Frustrasjon"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -12,19 +12,27 @@ lede en stav med en løkke langs en bøyd ståltråd.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering
+__Fag__: Naturfag, Matematikk, Programmering, Teknologi og forskningslære
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Koordinasjon
+__Tema__: Spill, Koordinasjon, Brukerinteraksjon
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Naturfag, 4. trinn:__ utforske teknologiske systemer som er satt sammen av ulike deler, og beskrive hvordan delene fungerer og virker sammen
+
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
+
+- [ ] __Programmering, 10. trinn:__ planlegge og skape et digitalt produkt og vurdere dette med tanke på brukervennlighet
+
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
+
+- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal fra sensorer
+
+- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
 
 ## Forslag til læringsmål {.challenge}
 

@@ -53,12 +53,12 @@ Den fyrste delen kan du gjerne få hjelp av ein voksen til å gjere!
 
   ![Bilete av ein blyant med flytta senterpunkt](senterpunkt.png)
 
-- [ ] Få blyanten til å følgje musepeikaren rundt på scena ved å bruke `for
-  alltid`{.blockcontrol}- og `gå til musepeikar`{.blockmotion}-klossane.
+- [ ] Få blyanten til å følgje musepeikaren rundt på scena ved å bruke `gjenta
+  for alltid`{.blockcontrol}- og `gå til musepeikar`{.blockmotion}-klossane.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       gå til [musepeikar v]
   slutt
   ```
@@ -74,7 +74,7 @@ interesserte i no er `penn ned`{.blockpen} og `penn opp`{.blockpen}.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       gå til [musepeikar v]
       viss <museknappen er trykt?>
           penn ned
@@ -101,7 +101,7 @@ __Klikk på det grøne flagget.__
   ```blocks
   når @greenFlag vert trykt på
   slett
-  for alltid
+  gjenta for alltid
       gå til [musepeikar v]
       viss <museknappen er trykt?>
           penn ned
@@ -249,7 +249,7 @@ blyanten.
   ```blocks
   når @greenFlag vert trykt på
   slett
-  for alltid
+  gjenta for alltid
       viss <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
           gå til [musepeikar v]
           viss <museknappen er trykt?>
@@ -271,7 +271,7 @@ blyanten.
   ```blocks
   når @greenFlag vert trykt på
   slett
-  for alltid
+  gjenta for alltid
       viss <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
           gå til [musepeikar v]
           vis
@@ -405,7 +405,7 @@ __Klikk på det grøne flagget.__
   ```blocks
   når @greenFlag vert trykt på
   slett
-  for alltid
+  gjenta for alltid
       viss <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
           gå til [musepeikar v]
           vis

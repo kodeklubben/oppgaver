@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - PGZ Hangman
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 language: nb
 ---
 
@@ -22,19 +22,16 @@ __Tidsbruk__: Dobbelttime eller mer
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett
-  er tekstbasert.
+- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk, deriblant
+  minst ett som er tekstbasert
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
-- [ ] __Programmering, valgfag__: utvikle og feilsøke programmer som løser
-  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
-  eller simulering av fysiske objekter.
-
-- [ ] __Programmering, valgfag__: dokumentere og forklare programkode gjennom å
-  skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode.
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 

@@ -104,7 +104,7 @@ innimellom.
   når @greenFlag vert trykt på
   gå til x: (-125) y: (-60)
   vent til <rører [Leo v]?>
-  for alltid
+  gjenta for alltid
       gå (6) steg
   slutt
   ```
@@ -151,7 +151,7 @@ __Klikk på det grøne flagget.__
   når @greenFlag vert trykt på
   gå til x: (100) y: (-50)
   peik i retning (0 v)
-  for alltid
+  gjenta for alltid
       gå (15) steg
       viss ved kant, sprett
   slutt
@@ -179,7 +179,7 @@ __Klikk på det grøne flagget.__
   endre storleiken på er ved å bruke klossar frå
   `Utseende`{.blocklooks}-kategorien.
 
-  Legg inn klossen `set storleik til (100)%`{.b} i `for
+  Legg inn klossen `set storleik til (100)%`{.b} i `gjenta for
   alltid`{.blockcontrol}-løkka. No kan du eksperimentere med å endre `100%` til
   eit anna tal til du får ein passe stor målmann. Viss du har brukt blekkspruten
   som `Målmann` passar `50%` ganske bra. Prøv deg fram!
@@ -209,7 +209,7 @@ når ballen går i mål.
   når @greenFlag vert trykt på
   gå til x: (-125) y: (-60)
   vent til <rører [Leo v]?>
-  for alltid
+  gjenta for alltid
       gå (6) steg
       viss <rører [Målmann v]?>
           send meldinga [Redning v]
@@ -262,7 +262,7 @@ Desse viser koordinatane til musepeikaren.
   når @greenFlag vert trykt på
   gå til x: (-125) y: (-60)
   vent til <rører [Leo v]?>
-  for alltid
+  gjenta for alltid
       gå (6) steg
       viss <rører [Målmann v]?>
           send meldinga [Redning v]

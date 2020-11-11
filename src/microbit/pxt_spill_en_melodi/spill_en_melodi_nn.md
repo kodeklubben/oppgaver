@@ -48,7 +48,7 @@ Du kan lese meir om portane på micro:bit-en her:
   No skal koden din sjå slik ut:
 
   ```microbit
-  music.beginMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
+  music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
   ```
 
 

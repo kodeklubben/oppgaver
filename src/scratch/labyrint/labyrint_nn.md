@@ -195,7 +195,7 @@ veggane i labyrinten i same farge.
   ```blocks
   når @greenFlag vert trykt på
   set [hastigheit v] til [10]
-  for alltid
+  gjenta for alltid
       viss <rører fargen [#cc0000]?>
           snu @turnRight (180) gradar
           gå (hastigheit) steg
@@ -266,7 +266,7 @@ skriptet på `Skatt`.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       viss <rører [Utforskar v]?>
           gøym
       slutt
@@ -293,7 +293,7 @@ gong, forblir skatten borte.
   ```blocks
   når @greenFlag vert trykt på
   vis
-  for alltid
+  gjenta for alltid
       viss <rører [Utforskar v]?>
           gøym
       slutt
@@ -321,7 +321,7 @@ der den fann skatten sist. Det blir ikkje veldig spanande.
   når @greenFlag vert trykt på
   set [hastigheit v] til [10]
   gå til x: (-200) y: (0)
-  for alltid
+  gjenta for alltid
       viss <rører fargen [#cc0000]?>
           snu @turnRight (180) gradar
           gå (hastigheit) steg
@@ -360,7 +360,7 @@ veldig likt korleis `Skatt` merka at den vart funne.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       viss <rører [Utforskar v]?>
           sei [Tok deg!] i (1) sekund
           stopp [alle v] :: control
@@ -407,7 +407,7 @@ Til slutt skal me få froskekongen til å bevege seg rundt i labyrinten.
   gå til x: (50) y: (100)
   peik i retning (-90 v)
   set [hastigheit v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastigheit) steg
       viss <rører fargen [#cc0000]?>
           snu @turnRight (180) gradar
@@ -426,7 +426,7 @@ retning av og til.
   gå til x: (50) y: (100)
   peik i retning (-90 v)
   set [hastigheit v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastigheit) steg
       viss <rører fargen [#cc0000]?>
           snu @turnRight (180) gradar

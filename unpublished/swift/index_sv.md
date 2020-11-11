@@ -1,4 +1,0 @@
----
-title: Swift
-language: sv
----

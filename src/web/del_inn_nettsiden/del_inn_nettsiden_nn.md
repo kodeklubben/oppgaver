@@ -10,7 +10,7 @@ language: nn
 
 Målet med denne oppgåva er å lære korleis ein kan organisere ei nettside ved å
 dele den inn med ulike taggar. Viss du ikkje er kjent med tagg-strukturen i HTML
-som me har sett på i andre oppgåver, så anbefalar me at du går tilbake og ser på
+som me har sett på i dei andre oppgåvene (i oppgåvesamlinga _HTML_), så anbefalar me at du går tilbake og ser på
 det. Me skal sjå korleis me kan setje farge på dei ulike taggane med CSS, men me
 kjem ikkje til å gå djupt inn i CSS i denne oppgåva. For meir CSS kan du sjå på
 dei spesialiserte oppgåvene.
@@ -36,11 +36,9 @@ skal sjå på seinare i oppgåva. La oss starte med eit døme:
 
 - [ ] Gå inn på [kidsakoder.no](https://kidsakoder.no).
 
-- [ ] Trykk på `X-Ray Goggles` eller bruk utviklarverktøyet (Chrome: `Visning ->
-  Utviklar -> Utviklarverktøy` eller `ctrl + shift + I`, Firefox: bruk [X-Ray
-  Goggles](https://goggles.mozilla.org/)).
+- [ ] Bruk utviklarverktøyet (Chrome: Visning -> Utvikler -> Utviklingsverktøy eller `ctrl + shift + I`, Firefox: Verktøy -> Nettsideutvikler -> Inspector eller `ctrl + shift + C`).
 
-- [ ] Trykk på symbolet heilt øvst til venstre i utviklarvindauget og hald over
+- [ ] Trykk på symbolet heilt øvst til venstre (![Bilete av symbolet](ressurser/pickelement.png)) i utviklarvindauget og hald over
   ulike element på sida. Sjå på koden i utviklarvindauget. Ser du at det er
   mange `<div>`-taggar?
 

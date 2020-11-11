@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Blinkande lys"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -16,18 +16,21 @@ __Fag__: Matematikk, programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Løkker.
+__Tema__: Lykkjer, Koordinatar
 
 __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringar i koordinatsystemet
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 3. trinn:__ lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet
+
+- [ ] __Matematikk, 4. trinn:__ lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
+
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 

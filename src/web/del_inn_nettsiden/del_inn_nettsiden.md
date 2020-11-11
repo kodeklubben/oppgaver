@@ -9,7 +9,7 @@ language: nb
 
 __Målet med denne oppgaven__ er å lære hvordan man kan organisere en nettside
 ved å dele den inn med forskjellige tagger. Dersom du ikke er kjent med
-tagg-strukturen i HTML som vi har sett på de tidligere oppgaven, så anbefaler
+tagg-strukturen i HTML som vi har sett på i de tidligere oppgavene (i oppgavesamlingen _HTML_), så anbefaler
 jeg at du går tilbake og se disse. Vi skal også se på hvordan vi kan sette farge
 på de forskjellige taggene ved hjelp av CSS, men vi kommer ikke til å gå i
 dybden i denne oppgaven. For mer CSS, se spillelisten som heter `CSS`.
@@ -36,13 +36,11 @@ oppgaven. La oss se på et eksempel:
 
 - [ ] Gå inn på [kidsakoder.no](https://kidsakoder.no).
 
-- [ ] Trykk på `X-Ray Goggles` eller bruk utviklerverktøy (Chrome: Visning ->
-  Utvikler -> Utviklingsverktøy, Firefox: bruk [X-Ray
-  Goggles](https://goggles.mozilla.org/)
+- [ ] Bruk utviklerverktøy (Chrome: Visning -> Utvikler -> Utviklingsverktøy eller `ctrl + shift + I`, Firefox: Verktøy -> Nettsideutvikler -> Inspector eller `ctrl + shift + C`)
 
-- [ ] Trykk på symbolet helt øverst til venstre i utviklervindu og holder over
+- [ ] Trykk på symbolet helt øverst til venstre (![Bilde av symbolet](ressurser/pickelement.png)) i utviklervindu og holder over
   forskjellige elementer på siden. Se på koden i utviklervindu, ser du at det er
-  mange `<div>`-tagger
+  mange `<div>`-tagger?
 
 - [ ] Trykk på de forskjellige og se hvor på siden du finner dem
 
@@ -375,7 +373,7 @@ Nå skal vi bytte ut `<div>`-taggene på siden vår med noen av taggene over.
 
 - [ ] Kan du tenke deg hvilke taggen vi bør bruke istedet for `<div>`-ene
 
-- [ ] La oss starte med `<div id=”header”>`, bytt den ut med `<header>
+- [ ] La oss starte med `<div id=”header”>`, bytt den ut med `<header>`
 
 - [ ] Gjør det samme med `<div id=”nav”>` og `<div id=”innhold”>` NB! Husk å
   fjerne `</div>` og erstatte disse med `</header>, </nav>` og `</section>`
