@@ -1,13 +1,13 @@
 ---
 title: "Kodetimen: Klassisk labyrint"
-author: "Carl A. Myrland" 
-language: 
+author: "Carl A. Myrland"
+language: "nb"
 ---
 
 
 # Om oppgaven {.activity}
 
-I denne oppgaven møter elevene en spillpreget tilnærming til de grunnleggende konseptene innen programmering. Alle konseptene forklares med videoer underveis i oppgaven, på engelsk med norsk tekst. For elever på mellomtrinnet bør innholdet i videoene oversettes av lærer ved behov. 
+I denne oppgaven møter elevene en spillpreget tilnærming til de grunnleggende konseptene innen programmering. Alle konseptene forklares med videoer underveis i oppgaven, på engelsk med norsk tekst. For elever på mellomtrinnet bør innholdet i videoene oversettes av lærer ved behov.
 
 Dette er den opprinnelige Kodetimen-oppgaven, som har blitt litt oppdatert og finpusset gjennom årenes løp. En flott "kom i gang"-oppgave for alle fra ca mellomtrinn og oppover.
 
@@ -15,9 +15,9 @@ Dette er den opprinnelige Kodetimen-oppgaven, som har blitt litt oppdatert og fi
 
  **Fag**: Programmering, Matematikk
 
-**Anbefalte trinn**: 5.-7. klasse, 8.-10. klasse, Videregående Skole
+**Anbefalte trinn**: 5.-13. klasse
 
-**Tema**: Blokkbasert, Stegbasert
+**Tema**: Variabler, løkker, tester
 
 **Tidsbruk**:
 
@@ -46,15 +46,12 @@ nyttige tips til hvordan man underviser i programmering.
 
 ## Forutsetninger og utstyr {.challenge}
 
-**Forutsetninger**:
-- [ ] Ingen
-
 **Utstyr**:
 - [ ] Minimum 1:2-dekning med PC/læringsbrett, slik at elevene kan jobbe parvis.
 
 ## Fremgangsmåte
 
-Vi anbefaler å se forklaringsvideoene som følger opplegget i forkant, du finner disse nederst på siden, under "Eksterne ressurser". Her følger en svært forenklet forklaring av de ulike konseptene som introduseres: 
+Vi anbefaler å se forklaringsvideoene som følger opplegget i forkant, du finner disse nederst på siden, under "Eksterne ressurser". Her følger en svært forenklet forklaring av de ulike konseptene som introduseres:
 
 # Steg 1: Oppgave 1-5: Enkle sekvenser {.activity}
 
@@ -71,7 +68,7 @@ Vi anbefaler å se forklaringsvideoene som følger opplegget i forkant, du finne
 - [ ] Når vi bruker vilkår, eller "hvis-test" (If-statement), ber vi koden vår om å sjekke om et gitt vilkår er innfridd. Hvis vilkåret er innfridd, skal noe nytt skje. Hvis ikke, fortsetter koden å kjøre som før. Dette ligner mye på "gjenta til"-løkker.
 
 # Steg 5: Oppgave 18-20: Vilkår: Hvis/ellers {.activity}
-- [ ] Litt mer avanserte vilkår som kan håndtere flere ulike utfall av en hvis-test. Disse kalles "Hvis/ellers", eller "If/else-statements" på engelsk. Her sjekker vi helt enkelt om et gitt vilkår er innfridd, og hvis ja - 'gjør dette'. ELLERS; 'gjør noe annet'. 
+- [ ] Litt mer avanserte vilkår som kan håndtere flere ulike utfall av en hvis-test. Disse kalles "Hvis/ellers", eller "If/else-statements" på engelsk. Her sjekker vi helt enkelt om et gitt vilkår er innfridd, og hvis ja - 'gjør dette'. ELLERS; 'gjør noe annet'.
 
 ## Eksterne ressurser {.challenge}
 

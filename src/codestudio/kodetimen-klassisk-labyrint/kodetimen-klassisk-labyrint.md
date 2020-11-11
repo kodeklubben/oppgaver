@@ -1,7 +1,7 @@
 ---
 title: "Kodetimen: Klassisk labyrint"
-author: "Carl A. Myrland" 
-language: 
+author: "Carl A. Myrland"
+language: "nb"
 ---
 
 
@@ -11,13 +11,13 @@ language:
 Dette dokumentet er rettet mot voksne kodeveiledere, for eksempel i anledning Kodetimen. Selve opplegget finner du ved å følge lenken under.
 #
 
-Dette er den klassiske "Kodetimen"-oppgaven fra code.org. Man gjennomgår de fleste grunnleggende konseptene i dataprogrammering, ved hjelp av spillfigurer fra Angry Birds, Plants vs. Zombies og istid. 
+Dette er den klassiske "Kodetimen"-oppgaven fra code.org. Man gjennomgår de fleste grunnleggende konseptene i dataprogrammering, ved hjelp av spillfigurer fra Angry Birds, Plants vs. Zombies og istid.
 
-Til hvert nye konsept man blir introdusert for, dukker det opp en video som forklarer logikken bak konseptet. Videoene er på engelsk, med norsk tekst. 
+Til hvert nye konsept man blir introdusert for, dukker det opp en video som forklarer logikken bak konseptet. Videoene er på engelsk, med norsk tekst.
 
-Under kan du lese litt mer om de ulike konseptene du møter på i opplegget. 
+Under kan du lese litt mer om de ulike konseptene du møter på i opplegget.
 
-Når du er klar for å komme i gang, kan du [trykke her for å gå til oppgaven](https://studio.code.org/hoc/1){target=_blank}. 
+Når du er klar for å komme i gang, kan du [trykke her for å gå til oppgaven](https://studio.code.org/hoc/1){target=_blank}.
 
 ![Bildebeskrivelse](codeorg.jpg)
 
@@ -28,7 +28,7 @@ Når du er klar for å komme i gang, kan du [trykke her for å gå til oppgaven]
 
 # Code Studio: Layout {.activity}
 
-Dette er en rask gjennomgang av hva som er hva i brukergrensesnittet til Code Studio. 
+Dette er en rask gjennomgang av hva som er hva i brukergrensesnittet til Code Studio.
 
 Sånn ser hele grensesnittet i Code Studio ut. Under går vi gjennom del for del av grensesnittet
 
@@ -41,7 +41,7 @@ Sånn ser hele grensesnittet i Code Studio ut. Under går vi gjennom del for del
 
 ![Språkvalg](sprakdance.jpg)
 
-- [ ] Øverst på skjermen ser du fremdriften til elevene. 
+- [ ] Øverst på skjermen ser du fremdriften til elevene.
 
 ![Oppgaver](oppgaverHOC.jpg)
 
