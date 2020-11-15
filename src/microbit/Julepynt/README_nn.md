@@ -1,10 +1,8 @@
 ---
 title: "Fjernkontrollert julepynt"
-author: "Béatrice Bieuville" 
-language: 
+author: "Béatrice Bieuville"
+language: "nn"
 ---
-
-
 
 
 # Om oppgåva {.activity}
@@ -44,10 +42,10 @@ I denne oppgåva skal elevane laga julepynt som viser ein animasjon, ved hjelp a
 
 ## Forkunnskapar og utstyr {.challenge}
 
-**Forkunnskapar**: 
+**Forkunnskapar**:
 - [ ] Å kunne lesa og forstå skriftlege instruksjonar
 
-**Utstyr**: 
+**Utstyr**:
 - [ ] PC eller læringsbrett
 - [ ] microbit (1 per elev + minst 1 til)
 - [ ] papp
@@ -60,7 +58,7 @@ I denne oppgåva skal elevane laga julepynt som viser ein animasjon, ved hjelp a
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. 
+oppgaven.
 
 - Læraren må ha ein micro:bit som er programmert for å vera ein fjernkontroll. Her kan læraren henta koden som kan overførast til micro:biten: [https://makecode.microbit.org/_6DWP7Di7LDpK](https://makecode.microbit.org/_6DWP7Di7LDpK){target=_blank}
 - Ein moglegheit for å gjennomføra oppgåva er å dela klassen i grupper med kvar sin fjernkontroll. Då blir det lettare for elevane å testa koden underveis. Kvar gruppe må bruke sin eigen radiokanal (og koden som er overført til fjernkontrollane må vera tilpassa slik at kvar fjernkontroll bruker sin eigen radiokanal).
