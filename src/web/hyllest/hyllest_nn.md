@@ -1,5 +1,5 @@
 ---
-title: "Hyllest"
+title: "Nettside: Hyllest"
 author: "Béatrice Bieuville"
 language: "nn"
 ---
@@ -51,9 +51,9 @@ HTML er ein spesifikk måte å skrive innhaldet til ei nettside.
 - [ ] Publiser nettsida di: trykk på "save", også trykk på "share", deretter på "publish". Ein boks blir opna. Trykk igjen på "publish". Ho er no på nett!
 
 
-![publish](web1.png)
+!["publish"](publish.png)
 
-![publish 2](web2.png)
+!["publish 2"](publish2.png)
 
 
 - [ ] Trykk på lenkja til nettsida di, `site URL`. Og opne den i ei ny fane. Kvar gong du forandrer koden i Trinket, kan du besøkja nettsida di og trykkja på `ctrl` + `R` for å oppdatera det som du ser.
@@ -84,13 +84,13 @@ Teksten i `index.html`har fleire ulike fargar. På nettsida ser me bare teksten 
 - [ ] No som me har ein `header` med tekst kan me gå vidare og velja tekst og bilde til `main`. Me vil laga ei nettside med fleire boksar, med tekst eller bilete i kvar boks, slik som her:
 
 
-![preview](gifBarbs1)
+!["preview"](barbs1.gif)
 
 
 Me kan laga ein boks ved å bruka tag `div` i HTML. Slik gjer du: `<div class="classNamn">Boks-innhald </div>`. Og du kan skrive inn overskrift og tekst med `<h2>` og `<p>`:
 
 
-![boks main 2](boks.png)
+!["boks main 2"](boks.png)
 
 
 - [ ] Legg til meir tekstboks (og skriv inn din eigen tekst):

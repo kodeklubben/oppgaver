@@ -1,5 +1,5 @@
 ---
-title: "Hyllest"
+title: "Nettside: Hyllest"
 author: "Béatrice Bieuville"
 language: "nn"
 ---
