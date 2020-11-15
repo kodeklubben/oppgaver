@@ -1,7 +1,7 @@
 ---
 title: "Nattlys"
-author: "Béatrice Bieuville" 
-language: 
+author: "Béatrice Bieuville"
+language: "nn"
 ---
 
 
@@ -39,11 +39,11 @@ I denne oppgåva skal elevane laga eit nattlys som slår seg på når det er mø
 
 ## Forkunnskapar og utstyr {.challenge}
 
-**Forkunnskapar**: 
+**Forkunnskapar**:
 - [ ] Å kunne lesa og forstå skriftlege instruksjonar.
 
 
-**Utstyr**: 
+**Utstyr**:
 - [ ] PC
 - [ ] microbit (1 per elev)
 - [ ] krokodillklemmer
@@ -53,6 +53,6 @@ I denne oppgåva skal elevane laga eit nattlys som slår seg på når det er mø
 - [ ] saks
 - [ ] tapetkniv
 - [ ] teip
-- [ ] tråd 
+- [ ] tråd
 
 Elevane kan bruka andre materialler enn papp for å laga nattlyset (t.d. tekstil).

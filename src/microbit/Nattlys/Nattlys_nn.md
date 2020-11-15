@@ -1,7 +1,7 @@
 ---
-title: "Nattlys"
-author: "Béatrice Bieuville" 
-language: 
+title: "PXT: Nattlys"
+author: "Béatrice Bieuville"
+language: "nn"
 ---
 
 
@@ -9,13 +9,13 @@ language:
 
 I denne oppgåva skal me laga eit nattlys som slår seg på når det blir mørkt ute. Her er eit eksempel på korleis det kan sjå ut:
 
-![GIF1natt]
+!["Nattlys"](GIF1natt.gif)
 
 
 # Steg 1: Programmer micro:biten {.activity}
 #
 
-Me skal programmera micro:biten slik at han slår LED-lyset på når det er mørkt. Opna (makecode)[https://makecode.microbit.org/] og trykk på `nytt prosjekt`. Kall prosjektet for `nattlys`.
+Me skal programmera micro:biten slik at han slår LED-lyset på når det er mørkt. Opna [makecode](https://makecode.microbit.org) og trykk på `nytt prosjekt`. Kall prosjektet for `nattlys`.
 
 ## Sjekkliste {.check}
 
@@ -53,19 +53,19 @@ basic.forever(function () {
 ## Test prosjektet {.flag}
 - Overfør koden til din micro:bit. Du kan bruke ein kabel eller bluetooth for å kobla saman PC-en du bruker og microbiten:
 
-![IMGkobla]
+!["Koble saman"](IMGkobla.png)
 
 - og deretter overføre koden til micro:biten ved å trykkja på `last ned`:
 
-![IMGlastned]
+!["Last ned"](IMGlastned.png)
 
-- Kobla din microbit til LED-lyset med krokodilleklemme, slik som på bildet: 
+- Kobla din microbit til LED-lyset med krokodilleklemme, slik som på bildet:
 
-![IMG1]
+!["Kobla"](IMG1.jpg)
 
 - Funker koden? Blir lyset slått på når du legg handa di over skjermen på micro:biten? Då blir det mørkt for sensoren og lyset skal slå seg på!
 
-![GIF2natt]
+!["Test"](GIF2natt.gif)
 
 #
 
@@ -73,7 +73,7 @@ basic.forever(function () {
 Kan du skrive kode som gjer at lyset blinker i staden for å lyse konstant?
 
 ### Tips
-Digital lys har to moglege verdier: 
+Digital lys har to moglege verdier:
 - `1` betyr at lyset er på
 - `0` betyr at lyset er av
 
@@ -95,28 +95,29 @@ Koden som du skriver bør ha denne rekkefølgja:
 
 - [ ] Lag din nattlys med papp (eller andre materialer). Her er eit eksempel med Pandacorn. Lag eit hòl til nesa, og stikk LED-pæra gjennom hòlet.
 
-![IMG2]
+![""](IMG2.jpg)
 
 - [ ] Ha krokodilleklemme på kvart bein av LED-pæra og fest med teip.
 
-![IMG3]
-![IMG4]
+![""](IMG3.jpg)
+
+![""](IMG4.jpg)
 
 - [ ] Kobla saman med micro:biten. Pass på at du koplar leidningane rett!
 
-![IMG5]
+![""](IMG5.jpg)
 
 - [ ] Fest micro:biten og batteriet på baksida av pappfiguren med teip. Pass på at du ikkje festar noke over skjermen på micro:biten, fordi det er der lyssensoren er. På dette bildet er ikkje batteriet festa på endå.
 
-![IMG6]
+![""](IMG6.jpg)
 
 - [ ] Du kan testa ditt prosjekt ved å ha handa di på baksida av microbiten. Då blir sensoren i mørket og nesa skal slå seg på!
- 
-![GIF1natt]
+
+!["Nattlys"](GIF1natt.gif)
 
 #
 ## Heng nattlyset mot vindauget {.save}
 
 Når det blir mørkt ute, skal lyset slå seg på!
 
-![IMG6]
+![""](IMG6.jpg)
