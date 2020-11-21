@@ -1,21 +1,21 @@
 ---
 title: "Feilsøking: Sorteringsalgoritme"
-author: "Øyvind Stengrundet, Carl A. Myrland" 
-language: 
+author: "Øyvind Stengrundet, Carl A. Myrland"
+language: "nb"
 ---
 
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal elevene lese Python-kode som inneholder feil, identifisere feilene og fikse dem. Når det er gjort, kan de utvide og forbedre sorteringsalgoritmen 
+I denne oppgaven skal elevene lese Python-kode som inneholder feil, identifisere feilene og fikse dem. Når det er gjort, kan de utvide og forbedre sorteringsalgoritmen
 
 ## Oppgaven passer til: {.check}
 
  **Fag**: Matematikk, Programmering
 
-**Anbefalte trinn**: 8.-10. klasse, Videregående Skole
+**Anbefalte trinn**: 8.-13. klasse
 
-**Tema**: Tekstbasert
+**Tema**: Fikse feil
 
 **Tidsbruk**: 1 skoletime
 
@@ -76,6 +76,5 @@ print("Navnene sortert etter lengde:" , navn)      # Skriver ut hele lista
 - [ ]  *Vi har dessverre ikke noen variasjoner tilknyttet denne oppgaven enda.*
 
 ## Eksterne ressurser {.challenge}
-
 
 - [ ] Foreløpig ingen eksterne ressurser ...
