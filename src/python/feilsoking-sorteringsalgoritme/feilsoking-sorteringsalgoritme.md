@@ -1,7 +1,7 @@
 ---
 title: "Feilsøking: Sorteringsalgoritme"
-author: "Øyvind Stengrundet, Carl A. Myrland" 
-language: 
+author: "Øyvind Stengrundet og Carl A. Myrland"
+language: "nb"
 ---
 
 
@@ -15,7 +15,7 @@ language:
 
 I koden nedenfor er det 5 feil. Prøv å lese deg frem til feilene her først. Så kan skrive inn koden i editoren din, og rette opp feilene der. Virker programmet nå?
 
-```python
+```
 # Et program for å sortere 4 navn etter lengde
 navn = []      # Definerer 'navn' som en tom liste
 x = 1      # Sier at det skal skje en forandring
@@ -59,6 +59,7 @@ langt.**
 ## Sjekkliste {.check}
 
 - [ ] Les koden nøye på nytt og rett opp de feilene du finner.
+
 - [ ] Kjør programmet på nytt. Funker det nå?
 
 - [ ] Gjenta disse punktene til alle feilene er rettet!
@@ -66,5 +67,6 @@ langt.**
 
 ## Utfordring {.challenge}
 
-- [ ] Gjør om programmet slik at det skriver ut de korteste navnene først. 
+- [ ] Gjør om programmet slik at det skriver ut de korteste navnene først.
+
 - [ ] Prøv også om du kan programmet til å skrive ut ett og ett navn, under hverandre.
