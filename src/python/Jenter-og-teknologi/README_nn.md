@@ -1,6 +1,6 @@
 ---
 title: "Jenter og teknologi"
-author: "Béatrice Bieuville" 
+author: "Béatrice Bieuville"
 language: "nn"
 ---
 
@@ -20,7 +20,7 @@ Du kan finne ein eksempel av oppgåven ferdig koda [her](https://trinket.io/pyth
 
 ## Oppgåva passar til: {.check}
 
- **Fag**: Matematikk, Samfunnsfag (merk at med andre datasett kan oppgåva passe til t.d.. Naturfag)
+ **Fag**: Matematikk, Samfunnsfag (andre datasett kan passe til Naturfag)
 
 **Anbefalte trinn**: Ungdomstrinn
 
@@ -45,7 +45,7 @@ Du kan finne ein eksempel av oppgåven ferdig koda [her](https://trinket.io/pyth
 
 ## Forslag til vurderingskriterier {.challenge}
 
-Sjekk  [lærerdokumenett](https://github.com/kodeklubben/oppgaver/wiki/Hvordan-undervise-i-og-vurdere-programmering){target=_blank} vårt. Vi har mellom anna skildra ulike måtar dette kan gjerast på, i tillegg til ein del andre nyttige tips til korleis ein underviser i programmering. 
+Sjekk  [lærerdokumenett](https://github.com/kodeklubben/oppgaver/wiki/Hvordan-undervise-i-og-vurdere-programmering){target=_blank} vårt. Vi har mellom anna skildra ulike måtar dette kan gjerast på, i tillegg til ein del andre nyttige tips til korleis ein underviser i programmering.
 
 
 ## Forutsetninger og utstyr {.challenge}
@@ -57,7 +57,7 @@ Sjekk  [lærerdokumenett](https://github.com/kodeklubben/oppgaver/wiki/Hvordan-u
 
 ## Framgangsmåte
 
-- [ ] Det kan vera nyttig å ha ei felles oppsummering av timen, for å snakka om diagramma som vart laga. Elevane kan vise fram kva dei har laga, og læraren kan stille spørsmål om kva informasjon diagramma gjev. 
+- [ ] Det kan vera nyttig å ha ei felles oppsummering av timen, for å snakka om diagramma som vart laga. Elevane kan vise fram kva dei har laga, og læraren kan stille spørsmål om kva informasjon diagramma gjev.
 
 
 ## Variasjonar {.challenge}
