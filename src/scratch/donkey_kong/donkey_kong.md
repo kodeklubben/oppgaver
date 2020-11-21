@@ -215,7 +215,7 @@ dem.
   `skjules`{.blocklooks} når det grønne flagget klikkes.
 
 - [ ] Nå skal vi skrive koden på Donkey Kong. Den blir ganske enkel. Etter at
-  `Donkey Kong` mottar `nytt spill` kan du la han gå inn i en `for
+  `Donkey Kong` mottar `nytt spill` kan du la han gå inn i en `gjenta for
   alltid`{.blockcontrol}-løkke hvor han `lager klon av Ildkule`{.blockcontrol}
   og deretter `venter 3 sekunder`{.blockcontrol}.
 

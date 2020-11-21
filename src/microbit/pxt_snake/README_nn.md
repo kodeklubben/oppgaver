@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Snake"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -11,31 +11,25 @@ I denne oppgåva skal elevane lage ein variant av det klassiske spelet Snake.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Matematikk, programmering, IT
+__Fag__: Matematikk, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Spel, løkker, koordinatsystem.
+__Tema__: Spel, Lykkjer, Koordinatsystem
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 3. trinn:__ lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn:__ beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilledesign og egne spill
 
-- [ ] __Programmering, 10. trinn:__ overføre løysingar til nye problem ved å
-  generalisere og tilpasse eksisterande programkode og algoritmar.
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __IT2, VG3:__ bruke programmeringsspråk i multimedieapplikasjonar
+- [ ] __Programmering, 10. trinn:__ analysere problem, gjera dei om til delproblem og gjera reie for korleis nokon av delproblema kan løysast med programmering
 
 ## Forslag til læringsmål {.challenge}
 

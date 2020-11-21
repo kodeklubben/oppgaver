@@ -59,20 +59,22 @@ holde styr på poeng, tid, tur, hastighet, vinner og mye mer.
 
 ## Løkker
 
-Veldig ofte i programmer har vi bruk for å gjøre noen instrukser flere ganger.
-La oss si vi vil at datamaskinen vår skal lage (data)pannekaker. Da vil vi at
-datamaskinen skal hente et egg, knuse det i bollen og røre rundt. Og vi vil at
-den skal gjøre det mange ganger. Da kan vi bruke det som heter en __løkke__ for
-å be den gjøre den samme oppgaven (blande inn et egg) så mange ganger vi måtte
+Veldig ofte i programmer har vi bruk for å gjøre noen instrukser flere
+ganger.  La oss si vi vil at datamaskinen vår skal lage
+(data)pannekaker. Da vil vi at datamaskinen skal hente et egg, knuse
+det i bollen og røre rundt. Og vi vil at den skal gjøre det mange
+ganger. Da kan vi bruke det som heter en __løkke__ for å be den gjøre
+den samme oppgaven (blande inn et egg) så mange ganger vi måtte
 ønske. I Scratch så finner vi alle løkkene under
-`Styring`{.blockyellow}-kategorien. Hvis vi vil at noe skal gjentas et bestemt
-antall ganger, så bruker vi en `gjenta (10) ganger`{.blockyellow}-blokk. Du
-legger kanskje merke til at denne blokken ikke er som alle andre blokker? Den
-har nemlig et lite hulrom hvor du kan knepse inn de instruksene du vil skal
-gjentas. En anne viktig type løkke heter `for alltid`{.blockyellow}. I stedet
-for å gjenta noe et bestemt antall ganger, så gjentar den noe *i evigheten*. Da
-gjelder det å være forsiktig så man ikke ender opp med en uendelig stor
-eggerøre!
+`Styring`{.blockyellow}-kategorien. Hvis vi vil at noe skal gjentas et
+bestemt antall ganger, så bruker vi en `gjenta (10)
+ganger`{.blockyellow}-blokk. Du legger kanskje merke til at denne
+blokken ikke er som alle andre blokker? Den har nemlig et lite hulrom
+hvor du kan knepse inn de instruksene du vil skal gjentas. En anne
+viktig type løkke heter `gjenta for alltid`{.blockyellow}. I stedet
+for å gjenta noe et bestemt antall ganger, så gjentar den noe *i
+evigheten*. Da gjelder det å være forsiktig så man ikke ender opp med
+en uendelig stor eggerøre!
 
 ## Tester
 

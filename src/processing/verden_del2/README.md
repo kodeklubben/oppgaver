@@ -17,35 +17,30 @@ riktige klikk.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, programmering, samfunnsfag.
+__Fag__: Geografi, Matematikk, Programmering
 
-__Anbefalte trinn__: 8. trinn til VG3.
+__Anbefalte trinn__: 8. trinn - VG3
 
-__Tema__: Geografi, lese kart, variabler, brukerinteraksjon.
+__Tema__: Spill, Geografi, Kart, Koordinater, Brukerinteraksjon, Vilkår
 
 __Tidsbruk__: Hver del passer til en dobbelttime, men kan også fungere i et
 undervisningsopplegg over lengre tid.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
+- [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringer i koordinatsystemet
 
-- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-  å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __Matematikk, 3. trinn:__ lage og følge regler og trinnvise instruksjoner i lek og spill knyttet til koordinatsystem
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
-- [ ] __Samfunnsfag, 4. trinn__: setje namn på og plassere landa i Norden,
-  verdshava og verdsdelane og finne geografiske nemningar på kart
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Samfunnsfag, 10. trinn__: lese, tolke og bruke papirbaserte og digitale
-  kart, målestokk og kartteikn
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __Geografi, VG1 og VG2 SF:__ utforske og presentere geografiske forhold og prosesser ved å bruke ulike kilder, inkludert kart
 
 ## Forslag til læringsmål {.challenge}
 

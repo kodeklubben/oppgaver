@@ -14,9 +14,9 @@ og koblet til Internett, og de er satt opp slik at folk kan besøke nettsteder
 som lever på disse datamaskinene.
 
 For å legge nettsiden vår på internett skal vi nå bruke [Github
-Pages](https://pages.github.com). Det er det __Kodeklubben__ bruker:
+Pages](https://pages.github.com){target=_blank}. Det er det __Kodeklubben__ bruker:
 `kodeklubben.github.io`. For at du skal kunne gjøre dette må du ha en
-epost-adresse. Du kan enten lage din egen ([Gmail](http://gmail.com)), bruk den
+epost-adresse. Du kan enten lage din egen ([Gmail](http://gmail.com){target=_blank}), bruk den
 du har på skolen eller spørre om å låne foreldrene dine sin. Det er viktig her
 at du husker hvilken epost du har brukt, du må også ha tilgang til eposten slik
 at du får godkjent brukeren på `Github`.
@@ -30,7 +30,7 @@ prosjekt vi kan bidra på. På denne måten kan vi enkelt hjelpe, samarbeide og
 dele med alle som driver med programmering i verden. Vi skal nå lage en
 `GitHub`-bruker.
 
-- [ ] Gå inn på [Github.com](http://github.com)
+- [ ] Gå inn på [Github.com](http://github.com){target=_blank}
 
 - [ ] Skriv inn `Username`(brukernavn), `epost` og `password`(passord) før du
   trykker `Sign up for Github` (se bilde under)
@@ -44,7 +44,7 @@ dele med alle som driver med programmering i verden. Vi skal nå lage en
 
 Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 
-- [ ] Logg inn på [Github.com](http://github.com) med den nye brukeren din, hvis
+- [ ] Logg inn på [Github.com](http://github.com){target=_blank} med den nye brukeren din, hvis
   du ikke allerede er logget inn
 
 - [ ] Trykk på `New repository` (Grønn knapp til høyre eller `+` øverst i høyre
@@ -57,7 +57,7 @@ Nå som vi har en `Github-bruker` kan vi registrere en `github.io`-side.
 
   <img src="ressurser/1.png" alt="bilde av hvordan velge navn på repository'et" width="100%">
 
-- [ ] Du kan gjerne skrive en beskrivelse av nettsiden under `Description
+- [ ] Du kan gjerne skrive en beskrivelse av nettsiden under `Description`
 
 - [ ] Velg enten `Public`(alle kan se koden din) eller `Private`(koden til
   nettsiden blir privat). Vi har valgt `Public`
@@ -174,9 +174,6 @@ lenken `ditt-brukernavn.github.io`.
 GitHub er et stort tema og kan være litt komplisert og vrient i starten, men jeg
 hvis du vil lære mer sjekk ut tipsene under:
 
-- Les mer om GitHub her:
+Les mer om GitHub her: [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials){target=_blank} eller på [Kodeklubbens wiki](https://github.com/kodeklubben/oppgaver/wiki/Komme-i-gang-med-Git){target=_blank}
 
-  [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
-
-- Søk på `GitHub Tutorials` på [YouTube](http://youtube.com) F.eks: [GitHub for
-  noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY)
+Søk på `GitHub Tutorials` på [YouTube](http://youtube.com){target=_blank} F.eks: [GitHub for noobs](https://www.youtube.com/watch?v=BKr8lbx3uFY){target=_blank}

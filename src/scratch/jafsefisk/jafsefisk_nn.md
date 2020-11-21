@@ -44,7 +44,7 @@ Jafsefisk med å ete alle byttedyra som svømmer rundt i havet.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       peik mot [musepeikar v]
       gå (3) steg
   slutt
@@ -68,7 +68,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       viss <(avstand til [musepeikar v]) > [10]>
           peik mot [musepeikar v]
           gå (3) steg
@@ -106,7 +106,7 @@ rørslene.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       gå (2) steg
       snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
       viss ved kant, sprett
@@ -149,7 +149,7 @@ lita stund seinare.
   ```blocks
   når @greenFlag vert trykt på
   vis
-  for alltid
+  gjenta for alltid
       gå (2) steg
       snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
       viss ved kant, sprett
@@ -189,7 +189,7 @@ Slik skal skriptet til byttedyret sjå ut:
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       gå (2) steg
       snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
       viss ved kant, sprett
@@ -224,7 +224,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       gå (2) steg
       snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
       viss ved kant, sprett

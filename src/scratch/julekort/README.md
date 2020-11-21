@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Julekort
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 level: 1
 language: nb
 ---
@@ -26,14 +26,22 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 2. årstrinn__: ta del i og oppleve barnekultur fra
-      engelskspråklige land gjennom å bruke ord, bilder, musikk og bevegelse
+- [ ] __Engelsk, 2. årstrinn__: tilegne seg ord og kulturell kunnskap gjennom
+      engelskspråklig barnelitteratur og barnekultur
 
-- [ ] __Kunst og håndtverk, 4. årstrinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+- [ ] __Engelsk, 7. årstrinn__: utforske levemåter og tradisjoner i ulike
+      samfunn i den engelskspråklige verden og i Norge og reflektere over
+      identitet og kulturell tilhørighet
 
-- [ ] __Musikk, 7. årstrinn__: komponere og gjøre lydopptak ved hjelp av
-      digitale verktøy
+- [ ] __Kunst og håndtverk, 4. årstrinn__: gjennomføre kunst- og designprosesser
+      ved å søke inspirasjon, utforske muligheter, gjøre valg og lage egne
+      produkter
+
+- [ ] __Kunst og håndtverk, 7. årstrinn__: bruke digitale verktøy til å
+      planlegge og presentere prosesser og produkter
+
+- [ ] __Musikk, 7. årstrinn__: bruke teknologi og digitale verktøy til å skape,
+      øve inn og bearbeide musikk
 
 ## Forslag til læringsmål {.challenge}
 
@@ -74,4 +82,3 @@ oppgaven enda._
 
 - [ ] Elevene kan få i oppgave å lage julekort fra forskjellige land, med de
       ulike tradisjonene illustrert.
-

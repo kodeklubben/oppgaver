@@ -80,7 +80,7 @@ til den skrå streken.
       peik i retning (90 v)
       set [fartX v] til (0)
       set [fartY v] til (0)
-      for alltid
+      gjenta for alltid
           endra [fartY v] med (-0.01)
           endra x med (fartX)
           endra y med (fartY)
@@ -101,7 +101,7 @@ til den skrå streken.
 - [ ] Me vil nå programmera kontrollen av romskipet. Først og fremst vil me at
       romskipet vender seg når me trykker på piltastene mot høgre og venstre.
 
-  Legg til to `viss`{.blockcontrol}-blokker inne i `for
+  Legg til to `viss`{.blockcontrol}-blokker inne i `gjenta for
   alltid`{.blockcontrol}-løkken hvor du `vender`{.blockmotion} romskipet for
   eksempel `5` grader mot høgre eller venstre avhengig av kva piltast du trykker
   på.
@@ -109,7 +109,7 @@ til den skrå streken.
 - [ ] Når du trykker pil opp-tasten vil me at romskipet skal få litt ekstra fart
       i den retninga romskipet peikar. Som me snakka om tidlegare kan me bruke
       dei matematiske funksjonane sinus og cosinus for å få til dette. Legg og
-      til denne blokken inne i `for alltid`{.blockcontrol}-løkken din.
+      til denne blokken inne i `gjenta for alltid`{.blockcontrol}-løkken din.
 
   ```blocks
       viss <tasten [pil opp v] er trykt?>
@@ -154,9 +154,10 @@ til den skrå streken.
       landingsplassen.
 
 - [ ] For at romskipet skal slutta å fly når det treff bakken kan du byte ut
-      `for alltid`{.blockcontrol}-løkk med ein `gjenta til`{.blockcontrol}-løkke
-      der du testar på om romskipet `rører fargen`{.blocksensing} du har brukt
-      på landskapet eller på landingsplassen.
+      `gjenta for alltid`{.blockcontrol}-løkk med ein `gjenta
+      til`{.blockcontrol}-løkke der du testar på om romskipet `rører
+      fargen`{.blocksensing} du har brukt på landskapet eller på
+      landingsplassen.
 
 - [ ] Legg og til ein `send meldinga [Sjekk landing v]`{.b} rett etter `gjenta
       til`{.blockcontrol}-løkken.

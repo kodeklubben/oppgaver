@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Hangman
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -22,12 +22,12 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

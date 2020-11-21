@@ -63,7 +63,7 @@ blir brukt til programmering i Scratch. Me skal også sjå på klonar av klonar!
   ```blocks
   når eg får meldinga [Nytt spel v]
   gå til x: (210) y: (-120)
-  for alltid
+  gjenta for alltid
       endra [sprett v] med (-1)
       viss <rører fargen [#00cc00] ?>
           neste drakt
@@ -136,7 +136,7 @@ __Klikk på det grøne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] Me vil at spelet skal stoppe når helten spring inn i ein boks. Gå til
-  `Helt 1`. Bytt ut `for alltid`{.blockcontrol}-løkka med ei `gjenta
+  `Helt 1`. Bytt ut `gjenta for alltid`{.blockcontrol}-løkka med ei `gjenta
   til`{.blockcontrol}-løkke som du gjentek til helten kjem borti `Boks`.
 
 - [ ] Etter den nye `gjenta til`{.blockcontrol}-løkka kan du sende ut ei ny
