@@ -1,6 +1,6 @@
 ---
-title: "Interaktiv forteljing i twine"
-author: "Béatrice Bieuville" 
+title: "Twine: Interaktiv forteljing"
+author: "Béatrice Bieuville"
 language: "nn"
 ---
 
@@ -13,7 +13,7 @@ I denne oppgåva kjem me til å skrive ei interaktiv forteljing, eller tekstbase
 
 ## Sjekkliste {.check}
 
-- [ ] Åpna [twinery](http://twinery.org/2) i ei ny fane. For å skrive din aller fyrste historie, trykk på `+story`-knappen og skriv namnet til forteljinga: «Rommet».
+- [ ] Åpne [twinery](http://twinery.org/2){target=_blank} i ei ny fane. For å skrive din aller fyrste historie, trykk på `+story`-knappen og skriv namnet til forteljinga: «Rommet».
 
 ![story-knapp](story.png)
 
@@ -34,13 +34,13 @@ I denne oppgåva kjem me til å skrive ei interaktiv forteljing, eller tekstbase
 
 ![passasje](passasje.png)
 
-- [ ] No ser du ein boks som blir brukt til å redigera denne passasjen. Tittelen til passasjen kjem ikkje til å vera synleg når folk spelar di forteljing. I staden for `Double-click this passage to edit it` skriv du det som skal vera synleg i spelet. 
+- [ ] No ser du ein boks som blir brukt til å redigera denne passasjen. Tittelen til passasjen kjem ikkje til å vera synleg når folk spelar di forteljing. I staden for `Double-click this passage to edit it` skriv du det som skal vera synleg i spelet.
 
 ![endra passasje](passcont.png)
 
 - [ ] Gje passasjen tittelen `introduksjon`.
 
-- [ ] Byt ut `Double-click this passage to edit it`  med: 
+- [ ] Byt ut `Double-click this passage to edit it`  med:
 ```diverse
 Du har vakna i eit rom. Du veit ikkje kor du er. Hugsar ingenting.
 ```
@@ -62,7 +62,7 @@ No skal me utvida spelet. Slik skal strukturen sjå ut til slutt:
 
 ## Sjekkliste {.check}
 
-- [ ] Sidan det berre er ein tekst i forteljinga, er det ingen ting lesaren kan gjera. Du kan no stenga spelet og legga til fleire passasjar. La oss gje lesaren moglegheita til å gå ut. Skriv i slutten av `introduksjon` boksen: 
+- [ ] Sidan det berre er ein tekst i forteljinga, er det ingen ting lesaren kan gjera. Du kan no stenga spelet og legga til fleire passasjar. La oss gje lesaren moglegheita til å gå ut. Skriv i slutten av `introduksjon` boksen:
 
 ```diverse
 [[Du ser rundt deg.->start]]
@@ -70,7 +70,7 @@ No skal me utvida spelet. Slik skal strukturen sjå ut til slutt:
 
 `Du ser rundt deg` er valget lesaren kan ta. `start` er tittelen på passasjen der lesaren skal om han/ho trykkjer på `Du ser rundt deg`.
 
-- [ ] Fjern passasjen ved å trykkja på `x`. No ser du ein ny boks: du har tilsett ein ny passasje! Han heiter `start`. La oss redigera han. Åpne han og skriv inn: 
+- [ ] Fjern passasjen ved å trykkja på `x`. No ser du ein ny boks: du har tilsett ein ny passasje! Han heiter `start`. La oss redigera han. Åpne han og skriv inn:
 ```diverse
 Du er i eit rom. Du ser ei dør. Du må gå ut! Kva gjer du?
 ```
@@ -90,13 +90,13 @@ Ved å trykkja på «play».
 ## Utfordring {.challenge}
 Kan du legga til eit bilete i passasjen?
 ### Tips
-Koden for å tilsetta eit bilete er: 
+Koden for å tilsetta eit bilete er:
 `<img src="http://www.bileteadresse.jpg" height=50% width=50% alt="info om biletet">`
 Vel sjølv eit bilte på nett, kopier adressa, og lim den inn etter `src=`. Hugs hermeteikna: `“”`.  
 Skriv ein kort beskrivelse av bildet etter `alt=`. Hugs hermeteikna: `""`.
-# 
+#
 
-## Prøv sjølv {.try} 
+## Prøv sjølv {.try}
 Prøv å forandra nummeret som ligg etter “height” og “width”. Kva forskjell gjer det når du spelar spelet?
 #
 
@@ -104,7 +104,7 @@ Prøv å forandra nummeret som ligg etter “height” og “width”. Kva forsk
 
 ## Sjekkliste {.check}
 
-- [ ] for å åpne døra treng lesaren ein nøkkel. Viss han har nøkkelen, kan han gå ut. Til det må me laga ein variabel som heiter $harNøkkel. Den kan vera true (sann) når lesaren har ein nøkkel, eller false (usann) når lesaren ikkje har nøkkelen. Rediger “introduksjon” slik at lesaren ikkje har nøkkelen i byrjinga. Skriv over `Du har vakna i eit rom. Du veit ikkje kor du er. Hugsar ingenting.`: 
+- [ ] for å åpne døra treng lesaren ein nøkkel. Viss han har nøkkelen, kan han gå ut. Til det må me laga ein variabel som heiter $harNøkkel. Den kan vera true (sann) når lesaren har ein nøkkel, eller false (usann) når lesaren ikkje har nøkkelen. Rediger “introduksjon” slik at lesaren ikkje har nøkkelen i byrjinga. Skriv over `Du har vakna i eit rom. Du veit ikkje kor du er. Hugsar ingenting.`:
 ```diverse
 <<set $harNøkkel to false>>
 ```
@@ -145,7 +145,7 @@ No har du lagt til tre passasjar: `boks`, `røyr` og `spegel`.
 
 ## Utfordring {.challenge}
 - Kan du sjølv skrive passasjen `boks`? Nøkkelen er ikkje i boksen, boksen er tom. Lesaren kan velja å gå tilbake til rommet.
-#
+##
 
 - [ ] Skriv kode for å gå tilbake til rommet:
 ```diverse
@@ -153,17 +153,17 @@ No har du lagt til tre passasjar: `boks`, `røyr` og `spegel`.
 ```
 
 ## Utfordring {.challenge}
-- Kan du legge til ein moglegheit til å gå tilbake til døra (start) frå rom-passasjen? 
+- Kan du legge til ein moglegheit til å gå tilbake til døra (start) frå rom-passasjen?
 ### Tips
 Slik kan du gjera:
 ```diverse
 [[Val som lesaren kan ta. -> tittel på passasjen der lesaren skal]]
 ```
-#
+##
 
 - [ ] Skriv følgjande i `røyr`-passasjen:
 ```diverse
-Røyret er tomt. Du tar det med deg, kanskje du treng det seinare. 
+Røyret er tomt. Du tar det med deg, kanskje du treng det seinare.
 ```
 
 ## Utfordring {.challenge}
@@ -171,9 +171,9 @@ Kan du kode forteljinga slik at lesaren får med seg røyret i denne passasjen? 
 ### Tips
 Her er kode som du må redigera:
 `<<set $namnVariabel to true>>`.
-#
+##
 
-- [ ] Skriv koden slik at det er mogleg å gå tilbake til rommet. 
+- [ ] Skriv koden slik at det er mogleg å gå tilbake til rommet.
 ```diverse
 [[Leit vidare->rom]].
 ```
@@ -218,9 +218,9 @@ body{
 ```
 
 # Prøv sjølv {.try}
-Prøv å forandra fargen eller fonten! 
-### Tips 
-Du kan finna ein fargekatalog på https://www.w3schools.com/colors/colors_names.asp 
+Prøv å forandra fargen eller fonten!
+### Tips
+Du kan finna ein fargekatalog på https://www.w3schools.com/colors/colors_names.asp
 #
 
 ## Test prosjektet {.flag}
@@ -234,15 +234,15 @@ Legg til passasjar for å gjera forteljinga meir spennande!
 
 ### Tips {.tip}
 - Namnet på ein variabel ser slik ut: `$namnVariabel`
-- Ein variabel kan ha fleire verdiar: 
- 
-   **tal**, t.d. `<<set $talVariabel to 5>>`, 
+- Ein variabel kan ha fleire verdiar:
 
-  **sant/usant** (true/false), t.d. `<<set $alive to true>>`, 
+   **tal**, t.d. `<<set $talVariabel to 5>>`,
+
+  **sant/usant** (true/false), t.d. `<<set $alive to true>>`,
 
   **eit ord** (kalla ein «string»), som må ha hermeteikn, t.d. `<<set $spelarNamn to “Simone”>>`
 - Viss du vil auka ein tal-variabel med 1 kan du skrive `<<set $talVariabel += 1>>`
-# 
+#
 
 # Steg 7: Del forteljinga di {.activity}
 
