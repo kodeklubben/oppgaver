@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefWidth="500" prefHeight="400">
+	<Rectangle layoutX="100" layoutY="20" width="80" height="80" fill="black"
+		arcWidth="25" arcHeight="25"
+	/>
+	<Text layoutX="140" layoutY="60" text="k" fill="white">
+		<font>
+			<Font name="Courier" size="72"/>
+		</font>
+	</Text>
+	<Circle layoutX="150" layoutY="150" radius="40" fill="blue"/>
+	<Text layoutX="10" layoutY="120" text="NTNU">
+		<font>
+			<Font name="Arial" size="36"/>
+		</font>
+	</Text>
+</AnchorPane>
