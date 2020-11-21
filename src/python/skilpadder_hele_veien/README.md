@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Skilpadder hele veien
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 language: nb
 ---
 
@@ -13,9 +13,9 @@ fra tidligere oppgaver. Denne oppgaven burde sees i sammenheng med
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, Kunst og håndtverk, programmering
+__Fag__: Matematikk, Naturfag, Kunst og håndtverk, Programmering
 
-__Anbefalte trinn__: 7.-10. trinn
+__Anbefalte trinn__: 6.-10. trinn
 
 __Tema__: Fraktaler, geometriske mønster, løkker, tester, rekursjon
 
@@ -23,19 +23,24 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7.trinn__: utforske og beskrive strukturer og forandringer i
-  geometriske mønster og tallmønster med figurer, ord og formler
+- [ ] __Matematikk, 6. trinn__:  bruke variabler, løkker, vilkår og funksjoner
+  i programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Matematikk, 10.trinn__: undersøke geometriske mønstre, finne ulike
-  geometriske figurer og beskrive og presentere hvordan disse er sammensatt for
-  å danne en helhet
+- [ ] __Matematikk, 10.trinn__: beskrive, forklare og presentere strukturer og
+  utviklinger i geometriske mønster og i tallmønster
 
-- [ ] __Kunst og håndtverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelementer
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+  fenomener
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
+
+- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+  frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
+
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

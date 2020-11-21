@@ -5,6 +5,8 @@ title:
   en: 'Programming in micro-python'
 lessons:
   - python_hello_world
+  - python_images
+  - python_buttons
   - python_random
   - python_gestures
   - python_direction

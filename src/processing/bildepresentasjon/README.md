@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Bildepresentasjon
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 level: 1
 language: nb
 ---
@@ -12,26 +12,27 @@ de kan bytte mellom ulike bilder ved hjelp av et museklikk.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering.
+__Fag__: Kunst og håndverk, Matematikk, Programmering
 
 __Anbefalte trinn__: 8. trinn til VG3.
 
-__Tema__: Variabler, brukerinteraksjon.
+__Tema__: Variabler, Koordinater, Brukerinteraksjon
 
 __Tidsbruk__: Dobbelttime.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ]  __Programmering, 10. trinn__: utvikle og feilsøke programmer som løser
-  definerte problemer, inkludert realfaglige problemstillinger og kontrollering
-  eller simulering av fysiske objekter
+- [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
+
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __Programmering, 10. trinn:__ utvikle og feilsøke dataprogram som løser definerte problemer, inkludert kontrollering eller simulering av fysiske objekter
 
 ## Forslag til læringsmål {.challenge}
 

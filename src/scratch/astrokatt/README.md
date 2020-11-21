@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Astrokatt
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 level: 1
 language: nb
 ---
@@ -13,7 +13,7 @@ verdensrommet, som kan styres med piltastene.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Naturfag, Kunst og håndtverk
+ __Fag__: Naturfag, kunst og håndtverk, matematikk
 
 __Trinn__: 2.-7. trinn
 
@@ -23,17 +23,20 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Naturfag, 2. trinn__: beskrive og illustrere hvordan jorda, månen og
-       sola beveger seg i forhold til hverandre, og fortelle om årstider, døgn
-       og månefaser
+- [ ]  __Naturfag, 7. trinn__: beskrive og visualisere hvordan døgn, månefaser
+       og årstider oppstår, og samtale om hvordan dette påvirker livet på jorda
 
-- [ ]  __Naturfag, 7. trinn__: bruke animasjoner og andre modeller til å
-       beskrive planetenes og månens bevegelser, og forklare hvordan årstider og
-       månefaser oppstår
+- [ ]  __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+       systemer som består av deler som virker sammen
 
-- [ ]  __Kunst og håndtverk, 7. trinn__: bruke fargekontraster, forminsking og
-       sentralperspektiv for å gi illusjon av rom i bilder både med og uten
-       digitale verktøy
+- [ ]  __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+       virkemidler som kontraster, skygge, proporsjoner og perspektiv
+
+- [ ]   __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+       interaktivitet og visuelle uttrykk
+
+- [ ]  __Matematikk, 3. trinn__: lage og følge regler og trinnvise
+       instruksjoner i lek og spill knyttet til koordinatsystemet
 
 ## Forslag til læringsmål {.challenge}
 

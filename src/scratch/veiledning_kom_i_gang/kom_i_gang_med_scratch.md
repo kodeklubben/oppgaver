@@ -212,11 +212,11 @@ Alternativt, kan du også jobbe gjennom første steg i oppgaven sammen med barna
   flinke til å gjøre ting mange ganger. Dette programmerer vi ved hjelp av noe
   som heter løkker.
 
-  Klikk på `Styring`{.blockcontrol}-kategorien, og dra ut en `for
+  Klikk på `Styring`{.blockcontrol}-kategorien, og dra ut en `gjenta for
   alltid`{.b}-kloss slik at den legger seg rundt skriptet ditt.
 
   ```blocks
-  for alltid
+  gjenta for alltid
       endre [farge v] effekt med (25)
       gå (20) steg
       pek mot [musepeker v]
@@ -251,4 +251,3 @@ På alle sider - oppgaver og veiledninger - er det en `Rapporter et
 problem`-knapp nederst som du kan trykke for å sende oss en tilbakemelding. Bruk
 denne! Vi er veldig takknemlige for alle forslag som kan gjøre disse sidene enda
 nyttigere!
-

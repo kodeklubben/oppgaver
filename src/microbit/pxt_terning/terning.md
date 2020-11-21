@@ -80,16 +80,6 @@ din, slik at det tilfeldige tallet vises i stedet for __1__ som tidligere.
   tallene 0, 1, 2, 3 og 4. Hvordan kan vi få micro:biten til å også velge mellom
   tallene 1 til 6?
 
-Vi gir deg ikke hele svaret, du må prøve litt på egen hånd! Men nedenfor er to
-tips om du står fast!
-
-- [ ] Du kan endre på __4__-tallet i `velg tilfeldig 0 til 4`{.microbitmath}-klossen.
-Hva skjer da?
-
-- [ ] Du kan ikke endre på __0__ i `velg tilfeldig`{.microbitmath}-klossen. I
-stedet kan du kombinere denne klossen med `0 + 0`{.microbitmath}-klossen som du
-også finner i `Matematikk`{.microbitmath}-kategorien.
-
 
 # Steg 3: Terningen ruller {.activity}
 
@@ -108,7 +98,7 @@ den stopper.*
   ```microbit
   input.onGesture(Gesture.Shake, function () {
     for (let i = 0; i < 4; i++) {
-        basic.showNumber(1 + Math.randomRange(0, 5))
+        basic.showNumber(Math.randomRange(1, 6))
     }
   })
   ```
@@ -143,7 +133,7 @@ når du rister på micro:biten?
   let terning = 0
   input.onGesture(Gesture.Shake, function () {
     for (let i = 0; i < 4; i++) {
-        terning = 1 + Math.randomRange(0, 5)
+        terning = Math.randomRange(1, 6)
         basic.showNumber(terning)
     }
   })
@@ -173,7 +163,7 @@ Her vil vi sammenligne resultatet av terningkastet med tallet 6. Vi kan si at
     let terning = 0
     input.onGesture(Gesture.Shake, function () {
     for (let i = 0; i < 4; i++) {
-        terning = 1 + Math.randomRange(0, 5)
+        terning = Math.randomRange(1, 6)
         basic.showNumber(terning)
     }
     if (terning == 6) {

@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Straffespark
 level: 1
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -26,12 +26,15 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 6. årstrinn__: utforske og beskrive symmetri og mønster og
+      utføre kongurensavbildinger med og utan koordinatsystem
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk fordypning, 10 årstrinn__: diskutere, planlegge, lage og
+      vurdere spilldesign og eigne spel
+
+- [ ] __Programmering, valgfag__: bruke grunnleggande prinsipp i programmering
+      , slik som variablar, løkker, vilkår og funksjonar, og reflektere over
+      bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 
@@ -174,7 +177,7 @@ kreativitet. Elevane kan gjerne oppfordrast til å
     beveger seg).
 
     ```blocks
-    for alltid
+    gjenta for alltid
         peik mot [Bat1 v]
         gå (10) steg
     slutt
@@ -190,7 +193,7 @@ kreativitet. Elevane kan gjerne oppfordrast til å
     eit døme (hugs at koden høyrer til flaggermusa):
 
     ```blocks
-    for alltid
+    gjenta for alltid
         vent til <rører [Sprite1 v]>
         gli (0.2) sekund til x: (tilfeldig tal frå (-240) til (240)) y: (tilfeldig tal frå (-180) til (180))
     slutt
@@ -206,7 +209,7 @@ kreativitet. Elevane kan gjerne oppfordrast til å
     ikkje i Scratch):
 
     ```blocks
-    for alltid
+    gjenta for alltid
         flytt [katten v] mot [flaggermusa v] :: motion
         viss <[katten v] rører [flaggermusa v] :: sensing>
             flytt [flaggermusa v] til x: (tilfeldig tal frå (-240) til (240)) y: (tilfeldig tal frå (-180) til (180)) :: motion

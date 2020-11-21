@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - HTML: Introduksjon til Web"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -13,32 +13,25 @@ tar seg god tid og leser oppgavene nøye.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1
+__Fag__: Programmering, Kunst og håndverk, IT1
 
 __Anbefalte trinn__: 8. trinn - VG2
 
-__Tema__: HTML, web, internett
+__Tema__: HTML, Web, Internett
 
-__Tidsbruk__: Dobbeltime.
+__Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av
-  standardiserte oppmerkingsspråk
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for
-  nettsteder
+- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
 
-- [ ] __Informasjonsteknologi 1, VG2__: gjøre rede for hvilke standarder og
-  prinsipper som muliggjør Internett
+- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
 
 ## Forslag til læringsmål {.challenge}
 
@@ -72,6 +65,11 @@ Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske
 oppgaven. [Klikk her for å se
 oppgaveteksten](introduksjon_til_web.html){target=_blank}.
 
+# Steg 2: Hva er HTML? {.activity}
+
+- [ ] Hvis noen elever ikke har Chrome-nettleseren som vi anbefaler, kan man også bruke Firefox. Da skal man klikke på "Inspiser element"/"Inspect element" etter å ha høyreklikket.
+
+  Safari er også mulig, men da må man først trykke på "Safari" på menylinjen og gå inn på "Preferences"/"Valg...", velge "Advanced"/"Avansert" og hake av på "Show Develop menu in menu bar"/"Vis Utvikle-menyen i menylinjen" nederst på siden. Da kan man velge "Show Web Inspector"/"Vis nettinspektør" i den menyen for å få opp utviklerverktøyet.
 
 # Steg 3: Flere tagger {.activity}
 

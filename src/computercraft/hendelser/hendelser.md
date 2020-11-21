@@ -251,7 +251,7 @@ komfortabel med hvordan filsystemet fungerer.
 
 # Steg 3: Et bedre passord-program {.activity}
 
-Vi har tidligere laget et passord-program. Dette passord-programmet har et par
+Vi har tidligere laget et passord-program (Se oppgaven [Bli kjent med Datamaskinen](../bli_kjent_med_datamaskinen/bli_kjent_med_datamaskinen.html){target=_blank}). Dette passord-programmet har et par
 svakheter.
 
 1. Programmet må startes manuelt ved å skrive `passord` etter at datamaskinen er

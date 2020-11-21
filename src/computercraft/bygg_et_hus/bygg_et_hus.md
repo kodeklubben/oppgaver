@@ -1,5 +1,5 @@
 ---
-title: Bygg et Hus
+title: Bygg et hus
 author: Geir Arne Hjelle
 language: nb
 ---

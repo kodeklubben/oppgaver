@@ -143,7 +143,7 @@ __Klikk på koden din.__
   kan gjøre det på akkurat samme måte som for jentenavn. Legg den nye
   hvis-testen under den du allerede har.
 
-- [ ] Legg til en `for alltid`{.b}-løkke rundt hele koden din. På den måten vil
+- [ ] Legg til en `gjenta for alltid`{.b}-løkke rundt hele koden din. På den måten vil
   katten stadig spørre deg om nye navn.
 
 - [ ] Legg også en `når grønt flagg klikkes`{.b}-kloss på toppen av koden din, slik

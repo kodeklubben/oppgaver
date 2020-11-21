@@ -1,9 +1,18 @@
 ---
-title: "Python: Bevegelser"
+title: "Python: Rotasjon og fall"
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/gestures.html)"
-translator: Øistein Søvik
+translator: Øistein Søvik og Susanne Rynning Seip
 language: nb
 ---
+
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgaven er en del av oppgavesamlingen _Programmering i micro-python_ og bygger videre på [Python: Tilfeldig](../python_random/python_random_nb.html){target=_blank}.
+
+Vi anbefaler at du laster ned og skriver koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobber med disse oppgavene. Instruksjoner for hvordan man laster ned Mu finner du på nettsiden via linken.
+
+Når Mu er installert kan du koble micro:biten din til datamaskinen via en USB-kabel. Skriv koden din i editor-vinduet og trykk på “Flash”-knappen for å laste koden over på micro:biten. Hvis det ikke fungerer, sørg for at micro:biten har dukket opp som en USB-enhet på datamaskinen din.
 
 
 # Introduksjon {.intro}
@@ -117,3 +126,8 @@ til og alltid være positivt eller negativt.
 
 Merk at koden skal fortsatt virke som før om ingen knapper trykkes, med andre
 ord dersom enheten bare ristes skal den vise et tilfeldig resultat.
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+Neste oppgave i samlingen er [Python: Retninger](../python_direction/python_direction_nb.html){target=_blank}.
+Klikk videre for å fortsette gjennom samlingen.

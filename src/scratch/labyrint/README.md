@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Labyrint
-author: Geir Arne Hjelle og Madeleine Lorås
+author: Geir Arne Hjelle, Madeleine Lorås, Vegard Tuset
 level: 1
 language: nb
 ---
@@ -13,7 +13,7 @@ liten utforsker som leter etter skatten gjemt inne i en labyrint.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Programmering
+ __Fag__: Matematikk, Programmering
 
 __Trinn__: 3.-10. trinn
 
@@ -25,9 +25,18 @@ __Tidsbruk__: Dobbelttime eller mer
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+- [ ] __Matematikk, 5. årstrinn__: lage og programmere algoritmer med bruk av
+      variabler, vilkår og løkker
+
+- [ ] __Matematikk, 6. årstrinn__: bruke variabler, løkker, vilkår og
+      funksjoner i programmering til å utforske geometriske figurer og mønster
+
+- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering
+      , slik som variabler, løkker, vilkår og funksjoner, og reflektere over
+      bruken av disse
+
+- [ ] __Programmering, valgfag__: analysere problemer, gjøre dem om til
+      delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering
 
 ## Forslag til læringsmål {.challenge}
 
@@ -119,8 +128,9 @@ elever som har lyst å prøve seg på en løsning kan du foreslå følgende:
   pågår, som sjekkes hver gang spilleren trykker en piltast, før utforskeren
   flytter seg. Sett variabelen til `true` eller `1` når spillet er over.
 
-- [ ] En mer vanlig (og bedre) løsning er å bruke en `for alltid`-løkke med
-  `hvis ... trykket?`-klosser. Disse blir da stoppet av `stopp alle`-klossen.
+- [ ] En mer vanlig (og bedre) løsning er å bruke en `gjenta for alltid`-løkke
+  med `hvis ... trykket?`-klosser. Disse blir da stoppet av `stopp
+  alle`-klossen.
 
 ## Variasjoner {.challenge}
 

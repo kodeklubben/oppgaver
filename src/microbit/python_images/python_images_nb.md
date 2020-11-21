@@ -1,10 +1,19 @@
 ---
 title: "Python: Bilder"
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html)"
-translator: Øistein Søvik
+translator: Øistein Søvik og Susanne Rynning Seip
 language: nb
 ---
 
+
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgaven er en del av oppgavesamlingen _Programmering i micro-python_ og bygger videre på [Python: Hello, World!](../python_hello_world/python_hello_world_nb.html){target=_blank}.
+
+Vi anbefaler at du laster ned og skriver koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobber med disse oppgavene. Instruksjoner for hvordan man laster ned Mu finner du på nettsiden via linken.
+
+Når Mu er installert kan du koble micro:biten din til datamaskinen via en USB-kabel. Skriv koden din i editor-vinduet og trykk på “Flash”-knappen for å laste koden over på micro:biten. Hvis det ikke fungerer, sørg for at micro:biten har dukket opp som en USB-enhet på datamaskinen din.
 
 # Introduksjon {.intro}
 
@@ -334,3 +343,8 @@ Her er hvordan koden virker
 
 - [ ] Velg ditt eget bilde og animer det. Trenger du inspirasjon kan du se på
   listen over innebygde bilder ovenfor.
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+Neste oppgave i samlingen er [Python: Knapper](../python_buttons/python_buttons_nb.html){target=_blank}.
+Klikk videre for å fortsette gjennom samlingen.

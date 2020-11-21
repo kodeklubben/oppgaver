@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - JS: Trykkomania"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -19,12 +19,11 @@ husker konteksten de ble laget i).
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, Programmering, Informasjonsteknologi 2
+__Fag__: Matematikk, Programmering, Kunst og håndverk, IT1
 
 __Trinn__: 4. trinn - VG3
 
-__Tema__: JavaScript, web, variabler, closures, objektsorientering, objekter,
-funksjoner, HTML, CSS
+__Tema__: Javascript, Web, Spill, Variabler, Funksjoner, Closures, Objekter
 
 __Nivå__: Nybegynner
 
@@ -32,47 +31,21 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: bruke matematiske symboler og uttrykksmåter for
-  å uttrykke matematiske sammenhenger i oppgaveløsning
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 4. trinn__: tegne, bygge, utforske og beskrive geometriske
-  figurer og modeller i praktiske sammenhenger, medregnet teknologi og design
+- [ ] __Matematikk, 7. trinn:__ representere og bruke brøk, desimaltall og prosent på ulike måter og utforske de matematiske sammenhengene mellom disse representasjonsformene
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
+- [ ] __Matematikk, 8. trinn:__ lage og forklare regneuttrykk med tall, variabler og konstanter tilknyttet praktiske situasjoner
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-  å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
 
-- [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
-  generalisere og tilpasse eksisterende programkode og algoritmer.
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
-- [ ] __Informasjonsteknologi 2, VG3__: utvikle og sette sammen delprogrammer
-
-- [ ] __Informasjonsteknologi 2, VG3__: definere variabler og velge
-  hensiktsmessige datatyper
-
-- [ ] __Informasjonsteknologi 2, VG3__: tilordne uttrykk til variabler
-
-- [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres
-  funksjoner eller metoder med parametere
-
-- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle
-  multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av
-  typene tekst, bilde, lyd, video og animasjoner
-
-- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i
-  multimedieapplikasjoner
-
-- [ ] __Informasjonsteknologi 2, VG3__: programmere med valg og gjentakelser
+- [ ] __IT2, VG3:__ lage objektorienterte programmer som benytter klasser med metoder
 
 ## Forslag til læringsmål {.challenge}
 
@@ -138,6 +111,9 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 [Her er en full løsning av oppgaven.](losning.js)
 
+<!--A workaround to get "Fremgangsmåte" out from the challenge box-->
+# {.intro}
+
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
@@ -188,6 +164,10 @@ oppgaven. [Klikk her for å se oppgaveteksten.](trykkomania.html){target=_blank}
 
 - [ ] Elevene må kopiere koden akkurat som den står oppført, hvis ikke blir det
   fort feil.
+
+- [ ] __Merk:__ Det er en liten forskjell i koden gitt i dette steget og koden som det er linket til i fasitene.
+
+  `el.style.bottom` er satt til `50px` (i motsettning til `5px`). Dette er for at den ikke skal ende opp bak reklamen som kan dukke opp på bunnen av editoren.
 
 
 # Steg 8: Begrense tiden {.activity}

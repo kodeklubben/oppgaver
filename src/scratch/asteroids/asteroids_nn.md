@@ -80,7 +80,7 @@ fly romskipet rundt omkring?
 
 - [ ] Me skal gjera ein liten forandring i korleis romskipet oppfører seg.
 Asteroids foregår langt ute i rommet der det ikkje er noko merkbar tyngdekraft.
-Slett derfor klossen som modellerar tyngdekrafta i `for
+Slett derfor klossen som modellerar tyngdekrafta i `gjenta for
 alltid`{.blockcontrol}-løkka di, `endra [fartY v] med (-0.01)`{.b}.
 
 - [ ] Me skal og gjera ein litt større endring i spelet. Me vil at verdsrommet
@@ -94,7 +94,7 @@ skjermen på den eine sida skal det dukka opp på andre sida av skjermen.
 
   ```blocks
       når eg får meldinga [Nytt spel v]
-      for alltid
+      gjenta for alltid
           viss <(x-posisjon) < (-235)>
               endra x med (470)
           slutt
@@ -127,10 +127,10 @@ stor. Legg også på ein kloss for å `gøyme`{.blocklooks} figuren.
 koden som lagar ein ny skotklone når du trykkjer mellomromtasten:
 
   Lag eit skript på skot-figuren som starter på `Nytt spel`-meldingen.
-  Skriptet kan bestå av ein `for alltid`{.blockcontrol}-løkke, der du testar om
-  mellomromtasten er trykka. Dersom eit skot skal avfyrast kan du først la
-  skotet `gå til`{.blockmotion} romskipet og deretter peike i same retning som
-  romskipet. Dette siste kan du gjera med ein kombinasjon av `peik i
+  Skriptet kan bestå av ein `gjenta for alltid`{.blockcontrol}-løkke, der du
+  testar om mellomromtasten er trykka. Dersom eit skot skal avfyrast kan du
+  først la skotet `gå til`{.blockmotion} romskipet og deretter peike i same
+  retning som romskipet. Dette siste kan du gjera med ein kombinasjon av `peik i
   retning`{.blockmotion}, `retning av`{.blocksensing} og
   `vend`{.blockmotion}-klosser. Til slutt kan du `lage ein klon`{.blockcontrol}
   av figuren.

@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Snurrige figurar
 level: 2
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -24,23 +24,21 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 2. trinn__: byggje med enkle geometriske grunnformer
+- [ ] __Kunst og handverk, 2. årstrinn__: eksperimentere med form, farge, rytme
+      og kontrast
 
-- [ ] __Kunst og handverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelement
+- [ ] __Kunst og handverk, 7. årstrinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 4. trinn__: teikne, byggje, utforske og beskrive geometriske
-  figurar og modellar i praktiske samanhengar, medrekna teknologi og design
+- [ ]  __Matematikk, 2. årstrinn__: utforske, teikne og beskrive geometriske
+      figurar frå sitt eige nærmiljø og argumentere for måtar å sortera dei på
+      etter eigenskapar
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ]  __Matematikk, 3. årstrinn__: lage og følgje reglar og trinnvise
+       instruksjonar i leik og spel knytt til koordinatsystem
 
-- [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre spegling, rotasjon og
-  parallellforskyving
-
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ]  __Matematikk, 6. årstrinn__: utforske og beskrive symmetri og mønster
+       og utføre kongurensavbildinger med og utan koordinatsystem
 
 ## Forslag til læringsmål {.challenge}
 

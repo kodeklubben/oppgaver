@@ -6,6 +6,15 @@ language: nn
 ---
 
 
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgåva er ein del av oppgåvesamlinga "Programmering i micro-python" og byggjer vidare på [Python: Knappar](../python_buttons/python_buttons_nn.html){target=_blank}.
+
+Me tilrår at du lastar ned og skriv koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobbar med desse oppgåvene. Instruksjonar for korleis ein lastar ned Mu finn du på nettsida via linken.
+
+Når Mu er installert kan du kople micro:biten din til datamaskinen via ein USB-kabel. Skriv koden din i editor-vindauget og trykk på “Flash”-knappen for å laste koden over på micro:biten. Dersom det ikkje fungerer, sørg for at micro:biten har dukka opp som ei USB-eining på datamaskinen din.
+
 # Introduksjon {.intro}
 
 Er du lei av at micro:bit-en din gjer det same kvar gong? Kanskje vil du at
@@ -172,3 +181,9 @@ Her må du sjølv velje kva rørsle du skal bytte ut `A` med.
 
 </hide>
 </toggle>
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+
+Neste oppgåve i samlinga er [Python: Rotasjon og fall](../python_gestures/python_gestures_nn.html){target=_blank}.
+Klikk vidare for å halde fram gjennom samlinga.
