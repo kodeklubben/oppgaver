@@ -1,14 +1,13 @@
 ---
 title: "Bugfiksing: Smelt snømennene!"
-author: "Carl A. Myrland" 
-translator: "https://scratch.mit.edu/projects/30592006"
+author: "Carl A. Myrland"
 language: "nb"
 ---
 
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal elevene lese, feilsøke og forbedre eksisterende kode. Formålet er å lage et lite program der snømennene sier "Klar, ferdig, smelt!" i tur og orden, for så å smelte bort samtidig. Dette forutsetter noe kjennskap til koding fra før, og anbefales først og fremst til elever med kodeerfaring fra ca 6.-/7.-trinn og oppover. Eldre elever på 9.-/10. trinn kan sannsynligvis løse oppgaven uten tidligere kodeerfaring, ved å følge hintene som gis i oppskriften.
+I denne oppgaven skal elevene lese, feilsøke og forbedre eksisterende kode. Formålet er å lage et lite program der snømennene sier "Klar, ferdig, smelt!" i tur og orden, for så å smelte bort samtidig. Dette forutsetter noe kjennskap til koding fra før, og anbefales først og fremst til elever med kodeerfaring fra ca 6.-7.-trinn og oppover. Eldre elever på 9.-10. trinn kan sannsynligvis løse oppgaven uten tidligere kodeerfaring, ved å følge hintene som gis i oppskriften.
 
 Det gis ingen fasit i oppgaveteksten, kun hint og skriftlige instruksjoner. Til slutt i oppgaven viser vi et forslag til ferdig kode for Snømann 1. Du finner løsningsforslag til hvert enkelt steg her i lærerveiledningen.
 
@@ -16,7 +15,7 @@ Det gis ingen fasit i oppgaveteksten, kun hint og skriftlige instruksjoner. Til 
 
  **Fag**: Programmering, Matematikk
 
-**Anbefalte trinn**: 5.-7. klasse, 8.-10. klasse
+**Anbefalte trinn**: 5.-10. klasse
 
 **Tema**: Animasjon, Blokkbasert
 
@@ -45,11 +44,11 @@ nyttige tips til hvordan man underviser i programmering.
 
 - [ ] **Forutsetninger**: Å ha noe programmeringserfaring er en fordel, spesielt for elever på mellomtrinnet.
 
-- [ ] **Utstyr**: Læringsbrett/PC 
+- [ ] **Utstyr**: Læringsbrett/PC
 
 ## Løsningsforslag
 
-Her følger forslag til hvordan koden bør se ut etter hvert steg i oppgaven. Vær obs på at det finnes flere måter å løse oppgaven på, og spesielt erfarne elever kan finne andre, bedre og mer effektive måter å løse oppgaven på. Spør hva de tenker og hva de ønsker å få til! 
+Her følger forslag til hvordan koden bør se ut etter hvert steg i oppgaven. Vær obs på at det finnes flere måter å løse oppgaven på, og spesielt erfarne elever kan finne andre, bedre og mer effektive måter å løse oppgaven på. Spør hva de tenker og hva de ønsker å få til!
 
 # Steg 1: Remiks oppgaven {.activity}
 
@@ -95,7 +94,7 @@ endre størrelse med (-10)
 # Steg 4: Siste justeringer {.activity}
 
 Koden til Snømann 1 bør se omtrent slik ut:
- 
+
 ```blocks
 Når grønt flagg klikkes
 sett størrelse til [100]%
@@ -107,7 +106,7 @@ vent (1) sekunder
 endre størrelse med (-10)
 ```
 Koden til Snømann 2 bør se omtrent slik ut:
- 
+
 ```blocks
 Når grønt flagg klikkes
 sett størrelse til [100]%
@@ -120,7 +119,7 @@ vent (1) sekunder
 endre størrelse med (-10)
 ```
 Koden til Snømann 3 bør se omtrent slik ut:
- 
+
 ```blocks
 Når grønt flagg klikkes
 sett størrelse til [100]%
@@ -134,7 +133,7 @@ endre størrelse med (-10)
 
 ## Variasjoner {.challenge}
 
-- [ ] Elevene kan lage en liten historie eller et spillbart spill ut i fra dette utgangspunktet. De har fått noen tips helt til slutt i oppgaven. 
+- [ ] Elevene kan lage en liten historie eller et spillbart spill ut i fra dette utgangspunktet. De har fått noen tips helt til slutt i oppgaven.
 
 ## Eksterne ressurser {.challenge}
 
