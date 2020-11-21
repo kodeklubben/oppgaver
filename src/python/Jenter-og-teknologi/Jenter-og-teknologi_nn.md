@@ -1,6 +1,6 @@
 ---
 title: "Jenter og teknologi"
-author: "Béatrice Bieuville" 
+author: "Béatrice Bieuville"
 language: "nn"
 ---
 
@@ -28,15 +28,15 @@ Simone Veil, 1975
 ```
 
 I .csv-fila er det  `,` eller `;` mellom kvar kolonne.
-#
+##
 
 - [ ] Opne python 3 i [Trinket](https://trinket.io/python3){target=_blank}
 
 ## {.tip}
 Trinket gjer det mogleg å skrive og køyre Python i nettlesaren. Vanlegvis køyrer Python på PCen, ikkje i nettlesaren.
-#
+##
 
-- [ ] Last opp .csv-filaved å trykkja på "upload text file"-ikonet. Vel dokumentet som du har lasta ned i "nedlastingar"-mappa på PC-en din.
+- [ ] Last opp .csv-fila ved å trykkja på "upload text file"-ikonet. Vel dokumentet som du har lasta ned i "nedlastingar"-mappa på PC-en din.
 
 ![ikon upload](ikonUpload.png)
 
@@ -51,10 +51,10 @@ Trinket gjer det mogleg å skrive og køyre Python i nettlesaren. Vanlegvis køy
 No skal du laga eit diagram for å presentera data frå tabellen du har importert. Skriv koden under i main.py.
 
 ## Sjekkliste {.check}
-#
 
-- [ ] Import bibliotek: 
-**Bibliotek** innheld mellom anna ferdig laga funksjonar, som gjer at når me bruker dei så slepper me å skrive all koden sjølv. Meir informasjon om [programvarebibliotek på wiki](https://nn.wikipedia.org/wiki/Programvarebibliotek)
+- [ ] Import bibliotek:
+**Bibliotek** innheld mellom anna ferdig laga funksjonar, som gjer at når me bruker dei så slepper me å skrive all koden sjølv. Meir informasjon om [programvarebibliotek på Wikipedia](https://nn.wikipedia.org/wiki/Programvarebibliotek){target=_blank}
+##
 
 ```python
 import matplotlib.pyplot as plt
@@ -63,7 +63,7 @@ import numpy as np
 
 ## {.tip}
 Det er OK å vera litt lat av og til. Dermed tilsetter me `as np`, slik at me kan skrive `np` i staden for `numpy` i koden.
-#
+##
 
 - [ ] Lagre data frå jenter-teknologi.csv i main.py med `np.genfromtext`. Fyrst, lag ein variabel `x1` som blir x-aksen. Den skal innehalda data frå den aller fyrste kolonna i tabellen, som har index 0. Dermed skriv me `usecols=(0)`.
 
@@ -72,7 +72,7 @@ x1  = np.genfromtxt('jenter-teknologi.csv', skip_header=1, usecols=(0), unpack=T
 ```
 ## {.tip}
 I programmering startar ikkje data indexen på 1. Den aller fyrste tingen i ei liste har index 0.
-#
+##
 
 - [ ] No, lag ein variabel `y1` som blir y-aksem. Den skal innhalda data frå den andre kolonna i tabellen, som har index 1. Dermed skriv me `usecols=(1)`.
 
@@ -109,7 +109,7 @@ plt.show()
 
 Når du teikna diagrammet, skreiv du `plt.plot(x,y, marker='p')`. Kan du endre på det og velja sjølv kva type `marker` du vil bruke?
 
-### Tips 
+### Tips
 
 Prøv andre marker som finns i matplotlib [dokumentasjon](https://matplotlib.org/3.1.1/api/markers_api.html){target=_blank}. Køyr koden ein gong til. Kva skjer?
 
@@ -119,7 +119,7 @@ Prøv andre marker som finns i matplotlib [dokumentasjon](https://matplotlib.org
 
 I .csv-filene: endre alle `,` med `;` og køyr koden. Kva skjer? Kan du fiksa koden i `main.py` slik at den kan lese .csv-filene som no innheld `;` ?
 
-### Tips 
+### Tips
 Sjekk  `delimiter` parameter i `main.py`.
 #
 
@@ -129,7 +129,7 @@ Sjekk  `delimiter` parameter i `main.py`.
 No har du eit diagram, men det står ikkje kva informasjon det viser. Desse linjene treng du å skrive over `plt.show()`.
 
 ## Sjekkliste {.check}
-#
+##
 
 - [ ] Tilsett ein label til x-aksen:
 ```python
@@ -150,15 +150,13 @@ plt.title('Andel jenter som vel teknologi utdanning som fyrsteval')
 
 - [ ] Trykk på køyr-knappen (over main.py tittelen).
 
-#
-
 # Tilsett ei andre linje med data {.activity}
 #
 
 Det kunne vera interessant å samanlikna data. No veit me kor mangeav søkjarane innan teknologi som er jenter. Kva med andre utdanningsområder? No skal du laga ein andre linje i diagrammet for å samanlikna data.
 
 ## Import data {.check}
-#
+##
 
 - [ ] Me skal samanlikna data frå teknologi-søkjarar med søkjarar til helsefag. Den nye fila inneheld data om kor mange jenter det er som har søkt, av alle dei som søkjer for utdanning i helsefag. Fila med data som du skal lasta ned finn du [her](https://drive.google.com/file/d/1elt74YdjJwMwp4kQ-ZLIaLRvLfyqSybB/view?usp=sharing){target=_blank}
 
@@ -166,15 +164,15 @@ Det kunne vera interessant å samanlikna data. No veit me kor mangeav søkjarane
 
 ## Utfordring #3 {.challenge}
 
-- Kan du laga ein variabel `x2`, og lagra data frå kolonna `0` i jenter-helsefag.csv inni den? 
+- Kan du laga ein variabel `x2`, og lagra data frå kolonna `0` i jenter-helsefag.csv inni den?
 - Kan du laga ein variabel `y2`, og lagra data frå kolonna `1` i jenter-helsefag.csv inni den?
 
 ### Tips
 
 - Denne delen av koden må du skrive rett etter `x1- og `y1`-variablane.
-- Du treng å bruke `np.genfromtxt`. 
+- Du treng å bruke `np.genfromtxt`.
 - Måten å gjera det er det same når du har laga variablane `x1` og `y1`.
-#
+###
 
 ## Sjekkliste {.check}
 #
@@ -220,7 +218,7 @@ Kan du oppdatera tittelen til diagrammet?
 # Prøv sjølv {.try}
 
 - Kva skjer om du endrer `label="teknologi"` og `label="helsefag"`  ?
-# 
+#
 
 ## Utfordring #5 {.challenge}
 
@@ -240,8 +238,8 @@ Du kan velja fargen du vil bruka blant dei som står i [denne lista](https://www
 
 ## Lagre og del {.save}
 
-Du har laga ei programvare som viser fleire dataset i eit diagram. 
+Du har laga ei programvare som viser fleire dataset i eit diagram.
 
-Programvara har laga eit bilete som heiter `trinket_plot.png`. Du kan trykkja på det for å åpna biletet i ei ny fane og lagra det. 
+Programvara har laga eit bilete som heiter `trinket_plot.png`. Du kan trykkja på det for å åpna biletet i ei ny fane og lagra det.
 
 Kva viser diagrammet når det gjeld datasetta som du har samanlikna?
