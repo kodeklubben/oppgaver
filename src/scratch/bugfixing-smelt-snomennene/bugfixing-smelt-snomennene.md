@@ -1,7 +1,7 @@
 ---
 title: "Bugfixing: Smelt snømennene!"
-author: "Carl A. Myrland" 
-translator: "https://scratch.mit.edu/projects/30592006"
+author: "[c4creativity](https://scratch.mit.edu/users/c4creativity)"
+translator: "Carl A. Myrland"
 language: "nb"
 ---
 
@@ -25,14 +25,13 @@ Først må vi åpne et eksisterende prosjekt og lage en remiks av det. Les gjenn
 
 ## Test prosjektet {.flag}
 
-**Klikk på det grønne flagget.** / **Start prosjektet for å teste koden så
-langt.**
+**Start prosjektet for å teste koden så langt.**
 
 Besvar gjerne disse spørsmålene i en notatblokk, diskuter dem med en medelev eller to, og forsøk å svare så presist som du kan.
 
-- [ ] Hva skjer når du trykker på grønt flagg?
+- [ ] Hva skjer når du trykker på det grønne flagget?
 
-- [ ] Målet er at snømennene skal si "Klar, ferdig, smelt!" i tur og orden, der hver snømann kun sier ett ord. Hvordan kan du få til det? 
+- [ ] Målet er at snømennene skal si "Klar, ferdig, smelt!" i tur og orden, der hver snømann kun sier ett ord. Hvordan kan du få til det?
 
 - [ ] Les koden til de tre ulike figurene. Finner du noen spor eller hint i koden som gir deg en idé til hvilke endringer som må gjøres?
 
@@ -56,8 +55,7 @@ hektet på under `si`{.blocklooks}-klossen.
 
 ## Test prosjektet {.flag}
 
-**Klikk på det grønne flagget.** / **Start prosjektet for å teste koden så
-langt.**
+**Klikk på det grønne flagget.**
 
 - [ ] Test den nye koden din. Hva skjer nå? Noter ned det du observerer, eller diskuter med en medelev.
 - [ ] Snakker de tre snømennene samtidig nå?
@@ -65,34 +63,35 @@ langt.**
 
 # Steg 2: Klar, ferdig, smelt! {.activity}
 
-Basert på det vi oppdaget på steg 1, er vi nå klare for å løse den første bug-en i koden vår: Snømennene skal si "Klar", "Ferdig", "Smelt!" i tur og orden. 
+Basert på det vi oppdaget på steg 1, er vi nå klare for å løse den første bug-en i koden vår: Snømennene skal si "Klar", "Ferdig", "Smelt!" i tur og orden.
 
 ## Sjekkliste {.check}
 
 - [ ] Snømann 1 skal si "Klar" i det du trykker på grønt flagg.
 
 - [ ] Snømann 2 skal si "Ferdig" etter at snømann 1 har sagt "Klar"
+
 - [ ] Snømann 3 skal si "Smelt!" etter at snømann 2 har sagt "Ferdig"
 
-Du trenger å sette inn klossen `vent (1) sekunder`{.blockcontrol} hos Snømann 2 og 3, og legge den inn over `si`{.blocklooks}-klossen, slik:
+Du trenger å sette inn klossen `vent`{.blockcontrol} hos Snømann 2 og 3, og legge den inn over `si`{.blocklooks}-klossen, slik:
+
 ```blocks
 vent (1) sekunder
 si [Ferdig] i (2) sekunder
-``` 
+```
 - [ ] Fjern `vent`{.blockcontrol}-klossen hos Snømann 1
 
 - [ ] Hvor lenge må Snømann 2 og Snømann 3 vente før de får si ordet sitt?
 
 ## Test prosjektet {.flag}
 
-**Klikk på det grønne flagget.** / **Start prosjektet for å teste koden så
-langt.**
+**Klikk på det grønne flagget for å teste koden så langt.**
 
 Besvar spørsmålene i en notatblokk eller diskuter dem med en medelev.
 
 - [ ] Sier de tre snømennene "Klar, ferdig, smelt!" i tur og orden nå?
 
-- [ ] Forsvinner de etter at sistemann har sagt "smelt!"? 
+- [ ] Forsvinner de etter at sistemann har sagt "smelt!"?
 
 - [ ] Finner du spor i koden som gir et hint om hva du må gjøre videre?
 
@@ -102,7 +101,7 @@ Det kan være tungvint å lage lignende algoritmer til hver enkelt figur i Scrat
 
 # Steg 3: Smelt! {.activity}
 
-Nå som vi har fått snømennene til å snakke i tur og orden, er det på tide å fikse smelte-koden. 
+Nå som vi har fått snømennene til å snakke i tur og orden, er det på tide å fikse smelte-koden.
 
 Snømann 1 har et viktig hint til oss:
 
@@ -113,7 +112,7 @@ vent (1) sekunder
 endre størrelse med (-10)
 ```
 
-`ghost`{.blocklooks}-effekten bidrar til å gjøre en figur mer og mer usynlig, på en skala fra 0 (helt synlig) til 100 (helt usynlig). I tillegg vil vi at snømannen skal bli litt mindre for hver gang, for å vise at den "smelter" bort. Derfor bruker vi `endre størrelse`{.blocklooks} også. 
+`ghost`{.blocklooks}-effekten bidrar til å gjøre en figur mer og mer usynlig, på en skala fra 0 (helt synlig) til 100 (helt usynlig). I tillegg vil vi at snømannen skal bli litt mindre for hver gang, for å vise at den "smelter" bort. Derfor bruker vi `endre størrelse`{.blocklooks} også.
 
 ## Sjekkliste {.check}
 - [ ] Endre koden slik at `ghost`{.blocklooks}-effekten til slutt blir 100 når løkka er ferdig med å kjøre. Ghost-verdien starter på 0 når grønt flagg klikkes. Hvor mange ganger må løkka gjentas dersom vi lar ghost-effekten endres med 25 for hver gang?
@@ -133,9 +132,9 @@ Noter svarene i en notatblokk eller diskuter med en medelev.
 Når du har kommet så langt i oppgaven, skal de tre snømennene si "Klar, ferdig, smelt!" i tur og orden, og snømann 1 smelter helt bort. Men vi er ikke helt i mål enda. Oppgaven er at de tre snømennene skal smelte samtidig *etter* at de har sagt "Klar, ferdig, smelt!" - og der er vi ikke helt i mål enda.
 
 ## Sjekkliste {.check}
-- [ ] Kopier `gjenta`{.blockcontrol}-løkka over til Snømann 2 og 3. 
+- [ ] Kopier `gjenta`{.blockcontrol}-løkka over til Snømann 2 og 3.
 - [ ] Du ser at Snømann 2 har en algoritme som skal starte `Når denne figuren klikkes`{.blockevents}. Du kan slette hele den algoritmen nå.
-- [ ] For å sørge for at alle snømennene smelter samtidig, må du legge til en `vent`{.blockcontrol}-kloss over `gjenta`{.blockcontrol}-løkka til hver enkelt snømann. Snømann 1 må vente lengre enn de to andre før han starter på `gjenta`{.blockcontrol}-løkka, men hvor lenge må han vente? 
+- [ ] For å sørge for at alle snømennene smelter samtidig, må du legge til en `vent`{.blockcontrol}-kloss over `gjenta`{.blockcontrol}-løkka til hver enkelt snømann. Snømann 1 må vente lengre enn de to andre før han starter på `gjenta`{.blockcontrol}-løkka, men hvor lenge må han vente?
 - [ ] Et hint er at han må vente helt til Snømann 3 har sagt "Smelt!"
 - [ ] Til slutt rydder vi opp ved å legge `Sett størrelse`{.blocklooks}-klossen øverst i `Når grønt flagg klikkes`{.blockevents}-algoritmen på alle figurene, sletter eventuelt ubrukte klosser og ser over en siste gang for å sjekke at koden er i orden på alle de tre snømennene.
 
