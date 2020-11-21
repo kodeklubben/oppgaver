@@ -1,8 +1,8 @@
 ---
 title: "Dansefest"
-author: "Carl A. Myrland" 
-translator: "https://code.org/dance"
-language: 
+author: "[Code.org](https://code.org/dance)"
+translator: "Carl A. Myrland"
+language: "nb"
 ---
 
 

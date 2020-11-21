@@ -1,8 +1,8 @@
 ---
 title: "Dansefest"
-author: "Carl A. Myrland" 
-translator: "https://code.org/dance"
-language: 
+author: "[Code.org](https://code.org/dance)"
+translator: "Carl A. Myrland"
+language: "nb"
 ---
 
 
@@ -16,7 +16,7 @@ Eldre elever bør oppmuntres til å se gjennom videoene og forsøke å forstå d
 
  **Fag**: Programmering, Musikk
 
-**Anbefalte trinn**: 5.-7. klasse, 8.-10. klasse, Videregående Skole
+**Anbefalte trinn**: 5.-13. klasse
 
 **Tema**: Blokkbasert, Stegbasert
 
@@ -61,8 +61,8 @@ nyttige tips til hvordan man underviser i programmering.
 
 ## Forutsetninger og utstyr {.challenge}
 
-**Forutsetninger**: 
-- [ ] Ingen 
+**Forutsetninger**:
+- [ ] Ingen
 
 **Utstyr**:
 - [ ] PC eller læringsbrett
@@ -71,11 +71,11 @@ nyttige tips til hvordan man underviser i programmering.
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. 
+oppgaven.
 
 # Oppgave 1: Oppvarming {.activity}
 
-- [ ] Denne oppgaven er kun for å komme i gang. 
+- [ ] Denne oppgaven er kun for å komme i gang.
 
 # Oppgave 2 og 3: Hendelser {.activity}
 
@@ -87,11 +87,11 @@ oppgaven.
 
 # Oppgave 7-9: Egenskaper {.activity}
 
-- [ ] Før oppgave 7 blir elevene vist en video som forklarer hvordan vi kan tillegge danserne ulike egenskaper som påvirker utseendet deres. 
+- [ ] Før oppgave 7 blir elevene vist en video som forklarer hvordan vi kan tillegge danserne ulike egenskaper som påvirker utseendet deres.
 
 # Oppgave 10: Fortsett festen {.activity}
 
-- [ ] Denne oppgaven er en helt fri oppgave. Elevene får tilgang til alle de forskjellige kodeblokkene, og kan lage sin helt egen dans. 
+- [ ] Denne oppgaven er en helt fri oppgave. Elevene får tilgang til alle de forskjellige kodeblokkene, og kan lage sin helt egen dans.
 ## Veien videre {.challenge}
 
 For mer informasjon, flere oppgaver og annet, besøk [code.org/dance](https://code.org/dance){target=_blank}!
