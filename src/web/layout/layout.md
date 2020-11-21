@@ -40,7 +40,7 @@ bruke HTML5-tagger, så bruker vi det i denne oppgaven.
   </hide>
 </toggle>
 
-Bildet er 1080 (bredde) × 250 (høyde) piksler (`pixels` eller `px) så vi velger
+Bildet er 1080 (bredde) × 250 (høyde) piksler (`pixels` eller `px`) så vi velger
 derfor å bruke bredden til bilde som et mål på hvor bred siden vår skal være.
 
 Som du ser er det et hvitt mellomrom over og på siden av bildet. Dette kan vi
@@ -70,9 +70,9 @@ har midtstilt headeren vår.
 
 Nå som vi har et bilde som `header`, kan det være passende å finne en fin
 bakgrunn. Ved hjelp av et utvidelsesverktøy til Chrome som heter
-[ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp),
+[ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp){target=_blank},
 så fant jeg ut hvilke grønnfarge som var på `header.jpg`. `ColorZilla` finnes
-til `Firefox` [her](https://addons.mozilla.org/en-us/firefox/addon/colorzilla/).
+til `Firefox` [her](https://addons.mozilla.org/en-us/firefox/addon/colorzilla/){target=_blank}.
 Fargen jeg har valgt å bruke er `#3DD14B`.
 
 Siden vi nå har gjort `body` smalere (`1080px` bred) så kan vi nå bruke
@@ -357,7 +357,7 @@ __TADA! Du har nå laget en flott nettside som du kan bygge videre på!__
 
 - [ ] Bruk
 
-      [w3schools.com/css/css_link.asp](http://www.w3schools.com/css/css_link.asp)
+      [w3schools.com/css/css_link.asp](http://www.w3schools.com/css/css_link.asp){target=_blank}
 
       til å legge til forandring på linkene når du holder over dem
 
@@ -367,7 +367,7 @@ __TADA! Du har nå laget en flott nettside som du kan bygge videre på!__
 - [ ] Legg teksten på siden i en `div`-er og sett forskjellig stil på dem
 
 - [ ] Del inn `section` slik at du kan få forskjellige deler på siden, hent
-  gjerne inspirasjon fra internett. Feks: [vg.no](http://vg.no)
+  gjerne inspirasjon fra internett. Feks: [vg.no](http://vg.no){target=_blank}
 
 
 # Eksempel på kode for nettsiden {.activity}

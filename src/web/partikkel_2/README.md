@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - JS: Partikkel-fest"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -8,14 +8,14 @@ language: nb
 # Om oppgaven {.activity}
 
 Denne oppgaven bygger på koden elevene skrev i oppgaven
-[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html). Så
+[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html){target=_blank}. Så
 dersom elevene ikke har gjort den, så anbefaler vi å gjøre
-[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html) før
+[Partikkel-animasjon](../partikkel_animasjon/partikkel_animasjon.html){target=_blank} før
 elevene fortsetter på denne oppgaven.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Matematikk, Kunst og håndverk, Informasjonsteknologi 2
+__Fag__: Programmering, Matematikk, Kunst og håndverk, IT1
 
 __Anbefalte trinn__: 7. trinn - VG3
 
@@ -25,33 +25,19 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer,
-  vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
-  for disse.
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem.
+- [ ] __Kunst og håndverk, 10. trinn__: utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter
 
-- [ ] __Kunst og håndverk, 7. trinn__: bruke fargekontraster, forminsking og
-  sentralperspektiv for å gi illusjon av rom i bilder både med og uten digitale
-  verktøy.
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres
-  funksjoner eller metoder med parametere
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle
-  multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av
-  typene tekst, bilde, lyd, video og animasjoner
+- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
 
-- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i
-  multimedieapplikasjoner
-
-- [ ] __Informasjonsteknologi 2, VG3__: programmere med valg og gjentakelser
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 
@@ -75,7 +61,7 @@ __Tidsbruk__: Dobbeltime eller mer.
 ## Forutsetninger og utstyr {.challenge}
 
 - [ ] __Forutsetninger__: Kunnskap om JavaScript og gjennomført
-  [Partikkel-animasjons-oppgaven](../partikkel_animasjon/partikkel_animasjon.html).
+  [Partikkel-animasjons-oppgaven](../partikkel_animasjon/partikkel_animasjon.html){target=_blank}.
 
 - [ ] __Utstyr__: Datamaskin med internett og tekstbehandlingsverktøy.
 

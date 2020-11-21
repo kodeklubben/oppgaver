@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Redd verden
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 2
 language: nb
 ---
@@ -16,7 +16,7 @@ programmering.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, naturfag, norsk, programmering, teknologi i praksis.
+__Fag__: Matematikk, naturfag, norsk, programmering.
 
 __Anbefalte trinn__: 3.-10. trinn.
 
@@ -26,22 +26,17 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-      rutenett, på kart og i koordinatsystemer, både med og uten digitale
-      verktøy
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
+      koordinatsystemet
 
-- [ ] __Naturfag, 4. trinn__: praktisere kildesortering og diskutere hvorfor
-      kildesortering er viktig
+- [ ] __Naturfag, 2. trinn__: utforske og beskrive observerbare egenskaper til
+      ulike objekter, materialer og stoffer og sortere etter egenskaper
 
-- [ ] __Norsk, 4. trinn__: lage tekster som kombinerer ord, lyd og bilde, med og
-      uten digitale verktøy
+- [ ] __Norsk, 4. trinn__: lage tekster som kombinerer skrift med bilder
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
-
-- [ ] __Teknologi i praksis, 10. trinn__: bruke kunnskap om andre produkt i
-      arbeidet med eige produkt
+      programmering, slik som variabler, løkker, vilkår og funksjoner, og
+      reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

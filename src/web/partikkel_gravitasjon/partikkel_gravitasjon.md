@@ -8,8 +8,8 @@ language: nb
 # Introduksjon {.intro}
 
 I denne oppgaven skal vi ta utgangspunkt i animasjone vi lagde i oppgaven
-[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon). 
-Dersom du ikke har gjort denne oppgaven anbefaler vi deg om å gå tilbake å gjøre 
+[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon){target=_blank}.
+Dersom du ikke har gjort denne oppgaven anbefaler vi deg om å gå tilbake å gjøre
 den før du fortsetter her.
 
 Oppgaven her går ut på å legge til gravitasjon på `Partikkel`-objektet. Du vil
@@ -75,15 +75,15 @@ skje må du programmere følgende:
 
 For hver gang `draw()` kjører, skal følgende skje:
 
-- `gravitasjons`-attributtet skal endres med `hastighets`-attributtet
+- `hastighets`-attributtet skal endres med `gravitasjons`-attributtet
 
 - `particle` sin `y`-posisjon blir endret med `hastighets`-attributtet
 
 <toggle>
     <strong> Hint </strong>
     <hide>
-    objekt.gravitasjon += objekt.hastighet eller
-    objekt.gravitasjon = objekt.gravitasjon + objekt.hastighet
+    objekt.hastighet += objekt.gravitasjon eller
+    objekt.hastighet = objekt.hastighet + objekt.gravitasjon
     </hide>
 </toggle>
 
@@ -105,7 +105,7 @@ greit en sjekk hver gang vi kjører `draw()`
 <toggle>
     <strong> Hint </strong>
     <hide>
-    Lag en variabel som holder på verdien til canvas.heigh - particle.size.
+    Lag en variabel som holder på verdien til `canvas.height - particle.size`.
     </hide>
 </toggle>
 
@@ -174,9 +174,7 @@ støtter `keyCode`, men bruker `which` istedet.
 - [ ] For at du skal få gravitasjonen tilbake når du slipper knappen må du lage
   en funksjon for `window.onkeyup`.
 
-- [ ] Les mer om `window.onkeyup` osv her:
+- [ ] Les mer om `window.onkeyup` osv her: [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp){target=_blank}
 
-      [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp)
-
-Dersom du står bomfast: [Forlag til
-kode](https://jsbin.com/sezumakiyo/edit?html,output)
+Dersom du står bomfast: [Forslag til
+kode](https://jsbin.com/sezumakiyo/edit?html,output){target=_blank}

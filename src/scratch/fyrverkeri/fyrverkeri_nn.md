@@ -101,8 +101,8 @@ __Klikk på det grøne flagget.__
 
 - [ ] Prøv å få til det det same ved å bruke museknappen i staden for
   mellomromtasten. For å gjere det kan me pakke skriptet vårt inn i
-  `for alltid`{.blockcontrol}- og `viss museknappen er trykt`{.blockcontrol}-
-  klossar.
+  `gjenta for alltid`{.blockcontrol}- og `viss museknappen er
+  trykt`{.blockcontrol}-klossar.
 
 - [ ] Flytt skriptet frå `når mellomrom vert trykt`{.blockevents} til `når
   @greenFlag vert trykt på`{.blockevents}, så det ser slik ut:
@@ -110,7 +110,7 @@ __Klikk på det grøne flagget.__
   ```blocks
   når @greenFlag vert trykt på
   gøym
-  for alltid
+  gjenta for alltid
       viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
           vis
@@ -149,7 +149,7 @@ __Klikk på det grøne flagget.__
   ```blocks
   når @greenFlag vert trykt på
   gøym
-  for alltid
+  gjenta for alltid
       viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
           start lyden [bang v]
@@ -167,7 +167,7 @@ __Klikk på det grøne flagget.__
   ```blocks
   når @greenFlag vert trykt på
   gøym
-  for alltid
+  gjenta for alltid
       viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
           start lyden [bang v]
@@ -309,7 +309,7 @@ innsekt vart fanga inne i datamaskina og øydela programmet.
   ```blocks
   når @greenFlag vert trykt på
   gøym
-  for alltid
+  gjenta for alltid
       viss <museknappen er trykt?>
           gå til x: (mus x) y: (-200)
           start lyden [bang v]

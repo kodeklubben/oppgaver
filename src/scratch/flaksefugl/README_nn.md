@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Flaksefugl
 level: 2
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -26,25 +26,21 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 2. trinn__: byggje med enkle geometriske grunnformer
+- [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
+      verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Kunst og handverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelement
+- [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 4. trinn__: eksperimentere med og forklare plasseringar i
+      koordinatsystemet
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+      vurdere spilldesign og eigne spel
 
-- [ ] __Naturfag, 7. trinn__: bruke animasjonar og andre modellar til å beskrive
-  korleis planetane og månen bevegar seg, og forklare korleis det blir årstider
-  og månefasar
-
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Naturfag, 10. trinn__: bruke og lage modellar for å føreseie eller
+      beskrive naturfaglige prosessar og system og gjere reie for styrkane til
+      modellane og begrensinger
 
 ## Forslag til læringsmål {.challenge}
 

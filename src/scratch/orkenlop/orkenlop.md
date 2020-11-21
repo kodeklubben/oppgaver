@@ -9,7 +9,7 @@ language: nb
 
 # Introduksjon {.intro}
 
-Dette er et spill for to, der en papegøye og en løvinne kjemper om å
+Dette er et spill for to, der en papegøye og en løve kjemper om å
 komme først gjennom ørkenen. Hver spiller må trykke en tast så fort og
 ofte som mulig for å flytte figuren sin, og den som kommer først til
 kanten av skjermen vinner.
@@ -25,20 +25,20 @@ kanten av skjermen vinner.
 
 - [ ] Klikk på Scene og velg en ferdig bakgrunn,
   ![velg en ferdig bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Velg
-  `Natur/desert`.
+  `Alle/desert`.
 
 - [ ] Fjern katten ved å høyreklikke på figuren og velg `slett`.
 
 - [ ] Legg til en ny figur ved å trykke på
   ![velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Velg
-  `Dyr/Lionness`.
+  `Dyr/Lion`.
 
-- [ ] Legg så til enda en ny figur: velg `Dyr/Parrot`. Krymp figuren slik
-  at den er omtrent like stor som løvinnen ved å bruke
-  ![krymp](../bilder/krymp.png).
+- [ ] Legg så til enda en ny figur: velg `Dyr/Parrot`. Krymp figuren
+  slik at den er omtrent like stor som løven ved å endre tallet i
+  "Størrelse" ruten.
 
 
-# Steg 2: La løvinnen og papegøyen bevege seg {.activity}
+# Steg 2: La løven og papegøyen bevege seg {.activity}
 
 *Vi vil at figurene skal bevege seg når du trykker på en knapp.*
 
@@ -64,7 +64,7 @@ kanten av skjermen vinner.
 
 __Klikk på det grønne flagget.__
 
-- [ ] Beveger løvinnen og papegøyen seg over skjermen når du trykker på
+- [ ] Beveger løven og papegøyen seg over skjermen når du trykker på
   `A` og `L` tastene?
 
 
@@ -75,7 +75,7 @@ __Klikk på det grønne flagget.__
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til en ny figur. Velg `Ting/Button3`. Flytt den til midten av
+- [ ] Legg til en ny figur. Velg `Alle/Button3`. Flytt den til midten av
   scenen.
 
 - [ ] Klikk på `Drakter`-fanen og verktøyet `T` for å legge til
@@ -150,13 +150,13 @@ og vi ønsker å vite når kappløpet er over.
   slutt
   ```
 
-- [ ] Gjenta det samme for løvinnen.
+- [ ] Gjenta det samme for løven.
 
 ## Test prosjektet {.flag}
 
 __Klikk på det grønne flagget.__
 
-- [ ] Kan løvinnen og papegøyen bare flytte seg når nedtellingen er
+- [ ] Kan løven og papegøyen bare flytte seg når nedtellingen er
   ferdig?
 
 
@@ -204,7 +204,7 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
-- [ ] Gjør tilsvarende for løvinnen.
+- [ ] Gjør tilsvarende for løven.
 
 ## Test prosjektet {.flag}
 
@@ -247,8 +247,8 @@ __Klikk på det grønne flagget.__
   sett x til (-170)
   ```
 
-- [ ] Gjør det samme for løvinnen. Test forskjellige `x`-verdier for å
-  være sikker på at løvinnen og papegøyen starter fra samme sted.
+- [ ] Gjør det samme for løven. Test forskjellige `x`-verdier for å
+  være sikker på at løven og papegøyen starter fra samme sted.
 
 - [ ] For at figurene skal stå på startstreken når kappløpet starter den
   aller første gangen må vi også legge til følgende klosser på begge
@@ -274,7 +274,7 @@ __Klikk på det grønne flagget.__
 __Klikk på det grønne flagget.__
 
 - [ ] Kan du spille mot en venn? En av dere styrer papegøyen ved å trykke
-  `A`, og den andre løvinnen ved å trykke `L`.
+  `A`, og den andre løven ved å trykke `L`.
 
 ## Lagre prosjektet {.save}
 
@@ -287,7 +287,7 @@ spillet og gjøre det enda mer interessant.
 ## Utfordring 1: Legg til en rakett! {.challenge}
 
 - [ ] __Legg til en rakett__ som kan brukes én gang per kappløp og som
-  flytter papegøyen eller løvinnen __30 steg på en gang.__
+  flytter papegøyen eller løven __30 steg på en gang.__
 
 - [ ] __Legg til en ny drakt__ med ild som kommer ut bak figurene. La
   denne aktiveres når raketten avfyres.
@@ -377,7 +377,7 @@ som at vi lager vår egen Scratch-kodekloss!
   ```
 
 - [ ] Gjør dette koden din enklere å lese? Kan du lage en tilsvarende
-  egendefinert kloss for løvinnen?
+  egendefinert kloss for løven?
 
 ## Test prosjektet {.flag}
 
@@ -385,7 +385,7 @@ __Klikk på det grønne flagget.__
 
 * Virker spillet fortsatt slik det skal?
 
-* Er spillet ferdig når papegøyen eller løvinnen kommer til kanten av
+* Er spillet ferdig når papegøyen eller løven kommer til kanten av
   skjermen?
 
 ## Lagre prosjektet {.save}

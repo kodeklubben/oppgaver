@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - CSS: Animasjon"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -11,42 +11,29 @@ I denne oppgaven skal du lære å animerer HTML-objekter ved hjelp av CSS.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Kunst og håndverk, matematikk, programmering, informasjonsteknologi 2
+__Fag__: Kunst og håndverk, Matematikk, Programmering, IT1
 
 __Anbefalte trinn__: 7.trinn - VG3
 
-__Tema__: Animasjon, web, html, css
+__Tema__: Animasjon, CSS, HTML, Web
 
 __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndverk, 7. trinn__: bruke fargekontraster, forminsking og
-  sentralperspektiv for å gi illusjon av rom i bilder både med og uten digitale
-  verktøy
+- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Matematikk, 4. trinn__: tegne, bygge, utforske og beskrive geometriske
-  figurer og modeller i praktiske sammenhenger, medregnet teknologi og design
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ] __Kunst og håndverk, 10. trinn__: utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle
-  multimedieapplikasjoner ved å kombinere egne og andres
+- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
 
-- [ ] __Informasjonsteknologi 2, VG3__: multimedieelementer av typene tekst,
-  bilde, lyd, video og animasjoner
-
-- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i
-  multimedieapplikasjoner
+- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
 
 ## Forslag til læringsmål {.challenge}
 

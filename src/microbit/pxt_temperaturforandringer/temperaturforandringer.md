@@ -22,10 +22,10 @@ måler.*
 - [ ] Start et nytt PXT-prosjekt, for eksempel ved å gå til
   [makecode.microbit.org](https://makecode.microbit.org/?lang=no){target=blank}.
 
-- [ ] Opprett en variabel med et passende navn. Dette blir navnet på listen som
+- [ ] Opprett en `variabel`{.microbitvariables} med et passende navn. Dette blir navnet på listen som
 skal inneholde de ulike temperaturene vi måler.
 
-- [ ] Ved start skal denne variabelen settes til en tom liste, da vi ikke har
+- [ ] Ved start skal denne variabelen settes til en `tom liste`{.microbitarrays}, da vi ikke har
 gjort noen målinger ennå.
 
 

@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Tekst ABC
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 language: nb
 ---
 
@@ -22,12 +22,12 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke flere programmeringsspråk der minst ett
-  er tekstbasert
+- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk, deriblant
+  minst ett som er tekstbasert
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+   over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
