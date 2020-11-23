@@ -44,9 +44,8 @@ Trinket gjer det mogleg å skrive og køyre Python i nettlesaren. Vanlegvis køy
 
 ![pyhton3 trinket prosjekt](arbeidsO.png)
 
-#
+
 # Bygg diagrammet i main.py {.activity}
-#
 
 No skal du laga eit diagram for å presentera data frå tabellen du har importert. Skriv koden under i main.py.
 
@@ -98,7 +97,6 @@ plt.show()
 
 ![køyr](koeyr.png)
 
-#
 
 # Prøv sjølv {.try}
 
@@ -113,7 +111,6 @@ Når du teikna diagrammet, skreiv du `plt.plot(x,y, marker='p')`. Kan du endre p
 
 Prøv andre marker som finns i matplotlib [dokumentasjon](https://matplotlib.org/3.1.1/api/markers_api.html){target=_blank}. Køyr koden ein gong til. Kva skjer?
 
-#
 
 ## Utfordring #2 {.challenge}
 
@@ -129,7 +126,6 @@ Sjekk  `delimiter` parameter i `main.py`.
 No har du eit diagram, men det står ikkje kva informasjon det viser. Desse linjene treng du å skrive over `plt.show()`.
 
 ## Sjekkliste {.check}
-##
 
 - [ ] Tilsett ein label til x-aksen:
 ```python
@@ -148,7 +144,7 @@ plt.title('Andel jenter som vel teknologi utdanning som fyrsteval')
 
 ## Test prosjektet {.flag}
 
-- [ ] Trykk på køyr-knappen (over main.py tittelen).
+Trykk på køyr-knappen (over main.py tittelen).
 
 # Tilsett ei andre linje med data {.activity}
 #
@@ -156,7 +152,6 @@ plt.title('Andel jenter som vel teknologi utdanning som fyrsteval')
 Det kunne vera interessant å samanlikna data. No veit me kor mangeav søkjarane innan teknologi som er jenter. Kva med andre utdanningsområder? No skal du laga ein andre linje i diagrammet for å samanlikna data.
 
 ## Import data {.check}
-##
 
 - [ ] Me skal samanlikna data frå teknologi-søkjarar med søkjarar til helsefag. Den nye fila inneheld data om kor mange jenter det er som har søkt, av alle dei som søkjer for utdanning i helsefag. Fila med data som du skal lasta ned finn du [her](https://drive.google.com/file/d/1elt74YdjJwMwp4kQ-ZLIaLRvLfyqSybB/view?usp=sharing){target=_blank}
 
@@ -172,10 +167,8 @@ Det kunne vera interessant å samanlikna data. No veit me kor mangeav søkjarane
 - Denne delen av koden må du skrive rett etter `x1- og `y1`-variablane.
 - Du treng å bruke `np.genfromtxt`.
 - Måten å gjera det er det same når du har laga variablane `x1` og `y1`.
-###
 
 ## Sjekkliste {.check}
-#
 
 - [ ] Skriv at du skal ha fleire datasett. Fyrst må du fjerna:
 ```python
@@ -209,11 +202,10 @@ ax.legend()
 
 Kan du oppdatera tittelen til diagrammet?
 
-#
 
 ## Test prosjektet {.flag}
 
-- [ ] Trykk på køyr-knappen.
+Trykk på køyr-knappen.
 
 # Prøv sjølv {.try}
 
