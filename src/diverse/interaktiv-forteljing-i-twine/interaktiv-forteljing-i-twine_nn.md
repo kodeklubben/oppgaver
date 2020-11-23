@@ -57,8 +57,7 @@ Du kan no stenga passasjen (x). Prøv spelet ved å trykkja på «play».
 
 # Steg 2: Gje fleire val til lesaren  {.activity}
 
-No skal me utvida spelet. Slik skal strukturen sjå ut til slutt:
-![arkitektur spelet](overview.png)
+No skal me utvida spelet.
 
 ## Sjekkliste {.check}
 
@@ -123,7 +122,7 @@ som betyr: sett $harnøkkel til usann.
 
 ## Test prosjektet {.flag}
 Ved å trykkja på «play».
-![play](play.png)
+![play](koeyr.png)
 #
 
 
