@@ -2,5 +2,5 @@ level: 3
 license: "[The MIT License (MIT)](https://github.com/bbcmicrobit/micropython/blob/master/LICENSE)"
 tags:
   topic: [electronics, text_based]
-  subject: [programming, science, social_science, technology]
+  subject: [programming, science, technology]
   grade: [secondary, junior, senior]

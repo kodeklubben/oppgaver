@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Kalkulator
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -13,9 +13,9 @@ tall på hverandre.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, Programmering
+__Fag__: Matematikk, Programmering, IT1
 
-__Anbefalte trinn__:7.-10. trinn
+__Anbefalte trinn__:7.-VG2. trinn
 
 __Tema__: Aritmetikk, if-setninger, brukerinteraksjon, funksjoner
 
@@ -23,19 +23,17 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: bruke matematiske symboler og uttrykksmåter for
-  å uttrykke matematiske sammenhenger i oppgaveløsning
+- [ ] __Matematikk, 8. trinn__: utforske hvordan algoritmer kan skapes, testes
+  og forbedres ved hjelp av programmering
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
-- [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer,
-  vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger
-  for disse
+- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
 
 ## Forslag til læringsmål {.challenge}
 

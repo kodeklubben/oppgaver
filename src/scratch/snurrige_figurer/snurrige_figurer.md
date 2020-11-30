@@ -33,7 +33,7 @@ figur.*
 
     Gå til ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png) nede i høyre hjørne og klikk på
     ![Tegn ny figur](../bilder/tegn-ny.png) for å tegne din egen figur. Bruk
-    linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å tegne en trekant. 
+    linjeverktøyet, ![Linje](../bilder/tegn-linje.png), til å tegne en trekant.
 
     ![Bilde av en trekant i Scratch](tegn_trekant.png)
 
@@ -141,7 +141,7 @@ __Trykk på B-tasten.__
 
   ```blocks
   når jeg mottar [snurr v]
-  for alltid
+  gjenta for alltid
       snu @turnRight (4) grader
   slutt
   ```
@@ -165,7 +165,7 @@ __Trykk på B-tasten.__
 
   ```blocks
   når jeg mottar [flytt og snurr v]
-  for alltid
+  gjenta for alltid
       gå (3) steg
       snu @turnRight (4) grader
   slutt

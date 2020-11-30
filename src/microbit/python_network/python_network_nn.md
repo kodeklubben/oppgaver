@@ -1,10 +1,19 @@
 ---
 title: "Python: Nettverk"
 author: "Omsett frå [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/network.html)"
-translator: Stein Olav Romslo
+translator: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
+
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgåva er den _siste_ i oppgåvesamlinga "Programmering i micro-python" og byggjer vidare på [Python: Rørsle](../python_movement/python_movement_nn.html){target=_blank}.
+
+Me tilrår at du lastar ned og skriv koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobbar med desse oppgåvene. Instruksjonar for korleis ein lastar ned Mu finn du på nettsida via linken.
+
+Når Mu er installert kan du kople micro:biten din til datamaskinen via ein USB-kabel. Skriv koden din i editor-vindauget og trykk på “Flash”-knappen for å laste koden over på micro:biten. Dersom det ikkje fungerer, sørg for at micro:biten har dukka opp som ei USB-eining på datamaskinen din.
 
 # Introduksjon {.intro}
 

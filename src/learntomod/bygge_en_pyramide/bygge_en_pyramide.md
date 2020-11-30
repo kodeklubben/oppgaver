@@ -9,7 +9,7 @@ language: nb
 # Introduksjon {.intro}
 
 La oss gjøre som Egypterne og bygge en pyramide! Denne oppgaven har ikke så
-detaljerte instruksjoner som "Bygge en kube", den passer fint som oppgave nr 2.
+detaljerte instruksjoner som [Bygge en kube](../bygge_en_kube/bygge_en_kube.html){target=_blank}, den passer fint som oppgave nr 2.
 
 ![Bilde av en pyramide av diamantblokker](./intro.png)
 

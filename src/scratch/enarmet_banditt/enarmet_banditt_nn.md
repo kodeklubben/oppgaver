@@ -44,7 +44,7 @@ figurane stoppar ein etter ein, og målet er at alle skal vere like.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       neste drakt
       vent (0.5) sekund
   slutt
@@ -86,7 +86,7 @@ vere ei praktisk løysing.
   ```blocks
   når @greenFlag vert trykt på
   set [stoppa v] til [0]
-  for alltid
+  gjenta for alltid
       neste drakt
       vent (0.5) sekund
   slutt
@@ -108,7 +108,7 @@ vere ei praktisk løysing.
   ```blocks
   når @greenFlag vert trykt på
   set [stoppa v] til [0]
-  for alltid
+  gjenta for alltid
       viss <(stoppa) = [0]>
           neste drakt
           vent (0.5) sekund
@@ -171,14 +171,14 @@ blir meir morosamt (og vanskelegare) viss dei endrar drakt meir tilfeldig.
   `byt drakt til`{.blocklooks}-kloss med `tilfeldig tal frå 1 til
   3`{.blockoperators}. Den vel eit tilfeldig draktnummer.
 
-- [ ] Me kan bruke den same klossen i `for alltid`{.blockcontrol}-løkka slik at
-  figuren byttar til ei tilfeldig drakt kvar gong.
+- [ ] Me kan bruke den same klossen i `gjenta for alltid`{.blockcontrol}-løkka
+  slik at figuren byttar til ei tilfeldig drakt kvar gong.
 
   ```blocks
   når @greenFlag vert trykt på
   set [stoppa v] til [0]
   byt drakt til (tilfeldig tal frå (1) til (3))
-  for alltid
+  gjenta for alltid
       viss <(stoppa) = [0]>
           byt drakt til (tilfeldig tal frå (1) til (3))
           vent (0.5) sekund

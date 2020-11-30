@@ -65,7 +65,7 @@ Me begynner prosjektet vårt med å få katten til å fly!
 
     ```blocks
         når @greenFlag vert trykt på
-        for alltid
+        gjenta for alltid
             gå (10) steg
             snu @turnRight (15) gradar
         slutt
@@ -94,7 +94,7 @@ __Klikk på det!__
 
     ```blocks
         når @greenFlag vert trykt på
-        for alltid
+        gjenta for alltid
             viss <tasten [pil høgre v] er trykt?>
                 snu @turnRight (5) gradar
             slutt
@@ -163,7 +163,7 @@ realistisk.
 
     ```blocks
         når @greenFlag vert trykt på
-        for alltid
+        gjenta for alltid
             snu @turnRight (1) gradar
         slutt
     ```
@@ -173,12 +173,12 @@ realistisk.
       den kjem jordkloden.
 
   Klikk på katten i figurlista. Legg `set storleik til`{.blocklooks} nederst i
-  `for alltid`{.blockcontrol}-løkka, slik at størrelsen på katten er avhengig av
+  `gjenta for alltid`{.blockcontrol}-løkka, slik at størrelsen på katten er avhengig av
   avstanden til jordkloden:
 
     ```blocks
         når @greenFlag vert trykt på
-        for alltid
+        gjenta for alltid
             viss <tasten [pil høgre v] er trykt?>
                 snu @turnRight (5) gradar
             slutt
@@ -246,7 +246,7 @@ la astrokatten vår bli påverka av gravitasjonen og.
     ```blocks
         når @greenFlag vert trykt på
         gå til x: (-200) y: (150)
-        for alltid
+        gjenta for alltid
             peik mot [Earth v]
             gå (1) steg
         slutt
@@ -257,9 +257,9 @@ la astrokatten vår bli påverka av gravitasjonen og.
 
 - [ ] MEN, me har eit problem: Me kan ikkje lengre styra katten! Kva har skjedd?
 
-    I det nye skriptet seier me at katten `for alltid`{.blockcontrol} skal
-    `peike mot`{.blockmotion} jordkloden. Då hjelper det jo ikkje at me i det
-    andre skriptet seier at katten skal snu seg.
+    I det nye skriptet seier me at katten `gjenta for alltid`{.blockcontrol}
+    skal `peike mot`{.blockmotion} jordkloden. Då hjelper det jo ikkje at me i
+    det andre skriptet seier at katten skal snu seg.
 
 - [ ] Det er ingen kommando i Scratch for å flytta ein figur mot ein annan.
       Derfor må me peika katten mot jordkloden og deretter flytta den. Men me
@@ -276,7 +276,7 @@ la astrokatten vår bli påverka av gravitasjonen og.
     ```blocks
         når @greenFlag vert trykt på
         gå til x: (-200) y: (150)
-        for alltid
+        gjenta for alltid
             set [katteretning v] til (retning)
             peik mot [Earth v]
             gå (1) steg

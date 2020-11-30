@@ -245,10 +245,10 @@ liste med `list()`. Her er nokre døme:
 alle tala frå 1 til 100:
 
 ```python
-sum = 0
+summert = 0
 for number in range(1, 101):
-    sum += number
-print(sum)
+    summert += number
+print(summert)
 ```
 
 ## while-løkker {.protip}
@@ -323,9 +323,9 @@ No skal me lage ein funksjon som adderer to tal. Test at funksjonen din fungerer
 som dette:
 
 ```python
->>> sum = add(3, 4)
+>>> summert = add(3, 4)
 Fikk inn 3 og 4
->>> print(sum)
+>>> print(summert)
 7
 ```
 

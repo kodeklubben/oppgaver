@@ -53,16 +53,16 @@ sjekksifferet 9 -- akkurat som det skal være.
   def verify_barcode(digits):
 
       # Regn ut i henhold til formelen
-      sum = 3 * (digits[1] + digits[3] + digits[5] + digits[7]
+      summert = 3 * (digits[1] + digits[3] + digits[5] + digits[7]
                  + digits[9] + digits[11])
-      print(sum)
-      sum = sum + (digits[0] + digits[2] + digits[4] + digits[6]
+      print(summert)
+      summert = summert + (digits[0] + digits[2] + digits[4] + digits[6]
                    + digits[8] + digits[10])
 
       # Finn differansen mellom 10 og det siste sifferet i summen
       # Sjekksifferet kan ikke være 10, så den siste % 10 gjør at det
       # blir 0 i stedet.
-      checksum = (10 - (sum % 10)) % 10
+      checksum = (10 - (summert % 10)) % 10
 
       if checksum == digits[12]:
           return True

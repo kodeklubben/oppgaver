@@ -73,7 +73,7 @@ seg._
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       gå (10) steg
       viss ved kant, sprett
   slutt
@@ -132,7 +132,7 @@ _No vil me få pingvinen til å bevege seg på kryss og tvers._
   når @greenFlag vert trykt på
   set storleik til (40) %
   avgrens rotering til [venstre-høgre v]
-  for alltid
+  gjenta for alltid
       gå (4) steg
       viss ved kant, sprett
   slutt
@@ -147,7 +147,7 @@ _No vil me få pingvinen til å bevege seg på kryss og tvers._
   avgrens rotering til [venstre-høgre v]
   gå til [tilfeldig stad v]
   peik i retning (tilfeldig tal frå (1) til (360))
-  for alltid
+  gjenta for alltid
       gå (4) steg
       viss ved kant, sprett
   slutt
@@ -253,7 +253,7 @@ _Til slutt skal me få pingvinen til å oppdage at den har kome heim!_
   avgrens rotering til [venstre-høgre v]
   gå til [tilfeldig stad v]
   peik i retning (tilfeldig tal frå (1) til (360))
-  for alltid
+  gjenta for alltid
       gå (4) steg
       viss ved kant, sprett
       viss <rører [Akvariet v] ?>
@@ -282,7 +282,7 @@ nokre idear:
   av den.
 
 - [ ] Kan du lage ein test for om _alle_ pingvinane har kome heim? Den er
-  enklast å lage på akvariefiguren. Du bør bruke ei `for
+  enklast å lage på akvariefiguren. Du bør bruke ei `gjenta for
   alltid`{.blockcontrol}-løkke, ein `viss`{.blockcontrol}-test samt
   `< > og < >`{.b}- og `rører [ v]`{.b}-klossar.
 

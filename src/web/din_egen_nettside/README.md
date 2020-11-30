@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Lag din egen nettside
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -12,7 +12,7 @@ lært hittil.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Teknologi i praksis, Informasjonsteknologi 1 og 2
+__Fag__: Programmering, Kunst og håndverk, Norsk, IT1
 
 __Anbefalte trinn__: 8. trinn - VG3
 
@@ -22,36 +22,23 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert.
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Kunst og håndverk, 10. trinn__: utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter
 
-- [ ] __Teknologi i praksis, 10. trinn__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design.
+- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av uttrykksformer
 
-- [ ] __Informasjonsteknologi 1, VG2__: redigere nettsteder ved bruk av
-  standardiserte oppmerkingsspråk
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Informasjonsteknologi 1, VG2__: organisere og begrunne filstrukturen for
-  nettsteder
+- [ ] __Programmering, 10. trinn:__ planlegge og skape et digitalt produkt og vurdere dette med tanke på brukervennlighet
 
-- [ ] __Informasjonsteknologi 1, VG2__: planlegge nettsteder som inneholder
-  multimediekomponenter
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Informasjonsteknologi 1, VG2__: utvikle nettsteder i henhold til planer
-  og vurdere om krav til brukergrensesnitt er oppfylt sette opp krav til og
-  vurdere nettsteder
+- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
 
-- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle
-  multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av
-  typene tekst, bilde, lyd, video og animasjoner
+- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
 
-- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i
-  multimedieapplikasjoner
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 
@@ -80,8 +67,8 @@ Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
 oppgaveteksten.](../din_egen_nettside/din_egen_nettside.html){target=_blank}
 
-Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
-oppgaven enda.
+_Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne
+oppgaven enda._
 
 ## Variasjoner {.challenge}
 
