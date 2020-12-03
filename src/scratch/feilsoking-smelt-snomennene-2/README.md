@@ -1,7 +1,7 @@
 ---
 title: "Feilsøking: Smelt snømennene 2"
-author: "Carl A. Myrland" 
-language: 
+author: "Carl A. Myrland"
+language: "nb"
 ---
 
 
@@ -13,7 +13,7 @@ I denne oppgaven skal elevene feilsøke koden til tre snømenn og rette opp alle
 
  **Fag**: Matematikk, Programmering
 
-**Anbefalte trinn**: 5.-7. klasse, 8.-10. klasse, Videregående Skole
+**Anbefalte trinn**: 5. klasse til VG3
 
 **Tema**: Blokkbasert, Spill
 
@@ -51,7 +51,7 @@ nyttige tips til hvordan man underviser i programmering.
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. 
+oppgaven.
 
 # Steg 1: Remiks {.activity}
 
@@ -101,7 +101,7 @@ Dette er en ganske enkel og grov nedtellingsalgoritme som kan utvides og forbedr
 
 ## Utfordring {.challenge}
 
-- [ ]  Elevene blir utfordret til å forsøke å videreutvikle prosjektet med en rekke forslag. Disse utfordringene lages det ikke løsningsforslag til. Oppfordre elevene til å diskutere og feilsøke hverandres kode. Kan de finne ideer til løsninger i andre oppgaver på [oppgaver.kidsakoder.no](oppgaver.kidsakoder.no){target=_blank}? 
+- [ ]  Elevene blir utfordret til å forsøke å videreutvikle prosjektet med en rekke forslag. Disse utfordringene lages det ikke løsningsforslag til. Oppfordre elevene til å diskutere og feilsøke hverandres kode. Kan de finne ideer til løsninger i andre oppgaver på [oppgaver.kidsakoder.no](oppgaver.kidsakoder.no){target=_blank}?
 
 ## Eksterne ressurser {.challenge}
 

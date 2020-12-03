@@ -1,7 +1,7 @@
 ---
 title: "Feilsøking: Smelt snømennene 2"
-author: "Carl A. Myrland" 
-language: 
+author: "Carl A. Myrland"
+language: "nb"
 ---
 
 
@@ -35,7 +35,7 @@ Før vi begynner, må du trykke på lenken under og lage en remiks av prosjektet
 
 ## Test prosjektet {.flag}
 
-**Klikk på det grønne flagget.** 
+**Klikk på det grønne flagget.**
 
 - [ ] Hva skjer?
 
@@ -68,7 +68,7 @@ begrens rotasjon [vend sideveis v]
 - [ ] Holder alle snømennene seg på beina når de går rundt på skjermen nå?
 - [ ] Forsvinner snømennene når du trykker på dem?
 
-**Dersom koden ikke fungerer som forventet når du er kommet hit, må du gå tilbake og rette opp i feilene før du fortsetter.** 
+**Dersom koden ikke fungerer som forventet når du er kommet hit, må du gå tilbake og rette opp i feilene før du fortsetter.**
 
 ## Snakk med noen {.protip}
 To hoder tenker bedre enn ett. Snakk med de du har rundt deg - hva har de gjort? Lurer dere på de samme tingene? Kan dere snakke sammen og prøve å finne en løsning sammen?
@@ -101,7 +101,7 @@ stopp [alle v]
 
 ## Test prosjektet {.flag}
 
-**Klikk på det grønne flagget.** 
+**Klikk på det grønne flagget.**
 
 - [ ] Ser du at tiden går nedover fra 10 til 0?
 
@@ -110,12 +110,12 @@ stopp [alle v]
 - [ ] Kan du komme på andre/bedre måter å stoppe spillet på?
 
 ## Utfordring {.challenge}
-Vi har nå fikset koden og lagt til litt ny funksjonalitet. Kan du videreutvikle dette konseptet til å bli et mer avansert spill? 
+Vi har nå fikset koden og lagt til litt ny funksjonalitet. Kan du videreutvikle dette konseptet til å bli et mer avansert spill?
 Forslag til videreutvikling:
 - [ ] Lag flere snømenn med ulike størrelser og ulik fart. Et tips er å bruke `lag klon av meg`{.blockcontrol} og `Når jeg starter som klon`{.blockcontrol}, og tildele klonene litt ulike egenskaper, som `tilfeldig`{.blockoperators} `størrelse`{.blocklooks} og `tilfeldig`{.blockoperators} `fart`{.blockmotion}. Sørg for at det `for alltid`{.blockcontrol} skapes nye kloner.
 - [ ] Lag et poengsystem (hint: lag en `variabel`{.blockdata}) som gir deg poeng for hver smeltede snømann. Hvor mange poeng klarer du å samle på 10 sekunder?
 - [ ] Legg til en velkomstskjerm som vises før spillet starter, og en "Game Over"-skjerm som vises når tiden er ute.
-- [ ] Hvem klarer å lage det kuleste spillet? 
+- [ ] Hvem klarer å lage det kuleste spillet?
 #
 
 Husk å lagre spillet/programmet ditt. Når du er ferdig kan du klikke på "Legg
