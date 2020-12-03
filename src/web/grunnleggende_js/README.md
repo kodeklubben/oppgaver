@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - JS: Grunnleggende JavaScript"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -13,39 +13,29 @@ I denne oppgaven skal du lære helt enkle og grunnleggende elementer av
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, programmering, teknologi i praksis, informasjonsteknologi 2
+__Fag__: Matematikk, Programmering, IT1, IT2
 
 __Anbefalte trinn__: 7. trinn - VG2
 
-__Tema__: JavaScript, løkker, if-setninger, funksjoner, variabeler
+__Tema__: JavaScript, Variabler, Vilkår, Input, Funksjoner, Løkker
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4.trinn__: bruke matematiske symboler og uttrykksmåter for å
-  uttrykke matematiske sammenhenger i oppgaveløsning
+- [ ] __Matematikk, 8. trinn:__ utforske, forklare og sammenligne funksjoner tilknyttet praktiske situasjoner
 
-- [ ] __Programmering, valgfag__: dokumentere og forklare programkode gjennom å
-  skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __Matematikk, 10. trinn:__ utforske og sammenligne egenskaper ved ulike funksjoner ved å bruke digitale verktøy
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Informasjonsteknologi 2, VG2__: programmere med valg og gjentakelser
+- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
 
-- [ ] __Informasjonsteknologi 2, VG2__: definere variabler og velge
-  hensiktsmessige datatyper
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
-- [ ] __Informasjonsteknologi 2, VG2__: tilordne uttrykk til variabler
-
-- [ ] __Informasjonsteknologi 2, VG2__: lage egne og bruke egne og andres
-  funksjoner eller metoder med parametere
+- [ ] __IT2, VG3:__ generalisere løsninger, lage gjenbrukbar programkode og benytte eksisterende kode i nye programmer
 
 ## Forslag til læringsmål {.challenge}
 

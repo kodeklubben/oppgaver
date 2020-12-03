@@ -11,6 +11,23 @@ I denne oppgåva skal du lage di eiga nettside! Du skal sjølv bestemme kva du v
 at nettsida skal handle om, og du skal lage innhaldet sjølv (tekst, bilete,
 videoar og så bortetter).
 
+## Tips! {.tip}
+
+Dersom du ikkje har gjort de allereie, tilråder me å ta ein titt på oppgåvane i samlinga _Intro til web_ før du set i gang med denne oppgåva:
+
+- [HTML: Introduksjon til Web](../introduksjon_til_web/introduksjon_til_web_nn.html){target=_blank}
+
+- [HTML: Me byggjer heimmeside](../en_hjemmeside/en_hjemmeside_nn.html){target=_blank}
+
+- [HTML: Forsvunne katt](../forsvunnet_katt/forsvunnet_katt_nn.html){target=_blank}
+
+- [CSS: Style nettsider](../style_nettsider/style_nettsider_nn.html){target=_blank}
+
+- [CSS: Endre utsjånad og stil på tekst](../tekststil/tekststil_nn.html){target=_blank}
+
+- [CSS: Skjul ninjaane](../skjul_ninjaene/skjul_ninjaene_nn.html){target=_blank}
+
+- [HTML: Legg til lyd og video](../lyd_og_video/lyd_og_video_nn.html){target=_blank}
 
 # Steg 1: Utforming av nettsida {.activity}
 

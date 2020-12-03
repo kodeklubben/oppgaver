@@ -138,7 +138,7 @@ __Klikk på koden din.__
   sjølv. Du kan gjere det på akkurat same måte som for jentenamn. Legg den nye
   viss-testen under den du allereie har.
 
-- [ ] Legg til ei `for alltid`{.b}-løkke rundt heile koden din. Det gjer at
+- [ ] Legg til ei `gjenta for alltid`{.b}-løkke rundt heile koden din. Det gjer at
   katten stadig vil spørje deg om nye namn.
 
 - [ ] Legg ein `når @greenFlag vert trykt på`{.b}-kloss på toppen av koden din,

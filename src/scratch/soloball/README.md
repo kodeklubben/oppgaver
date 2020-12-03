@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Soloball
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 level: 1
 language: nb
 ---
@@ -23,19 +23,20 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 4. årstrinn__: tegne, bygge, utforske og beskrive
-       geometriske figurer og modeller i praktiske sammenhenger, medregnet
-       teknologi og design
+- [ ]  __Matematikk, 4. årstrinn__: utforske, beskrive og sammenligne egenskaper
+       ved to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
 
-- [ ]  __Matematikk, 4. årstrinn__: lage og utforske geometriske mønster og
-       beskrive dem muntlig
+- [ ]  __Matematikk, 6. årstrinn__: beskrive egenskaper ved og
+       minimumsdefinisjoner av to- og tredimensjonale figurer og forklare hvilke
+       egenskaper figurene har felles, og hvilke egenskaper som skiller dem fra
+       hverandre
 
-- [ ]  __Matematikk, 7. årstrinn__: beskrive og gjennomføre speiling, rotasjon
-       og parallellforskyvning
+- [ ]  __Matematikk, 6. årstrinn__: bruke variabler, løkker, vilkår og
+       funksjoner i programmering til å utforske geometriske figurer og mønster
 
 - [ ]  __Programmering, valgfag__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+       programmering, slik som variabler, løkker, vilkår og funksjoner, og
+       reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

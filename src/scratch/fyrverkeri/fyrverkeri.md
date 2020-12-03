@@ -106,8 +106,8 @@ __Klikk på det grønne flagget.__
 ## Sjekkliste {.check}
 
 - [ ] Endelig, prøv å få til det samme ved å bruke museknappen i stedet for
-  mellomromstasten. For å gjøre dette kan vi pakke skriptet vårt inn i `for
-  alltid`{.blockcontrol}- og `hvis museknappen er trykket`{.blockcontrol}-klosser.
+  mellomromstasten. For å gjøre dette kan vi pakke skriptet vårt inn i `gjenta
+  for alltid`{.blockcontrol}- og `hvis museknappen er trykket`{.blockcontrol}-klosser.
 
 - [ ] Flytt skriptet fra `når mellomrom trykkes`{.blockevents} til `når grønt
   flagg klikkes`{.blockevents}, slik at det blir seende slik ut:
@@ -115,7 +115,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   skjul
-  for alltid
+  gjenta for alltid
       hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
           vis
@@ -156,7 +156,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   skjul
-  for alltid
+  gjenta for alltid
       hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
           start lyden [bang v]
@@ -174,7 +174,7 @@ __Klikk på det grønne flagget.__
   ```blocks
   når grønt flagg klikkes
   skjul
-  for alltid
+  gjenta for alltid
       hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
           start lyden [bang v]
@@ -319,7 +319,7 @@ ble fanget inne i datamaskinene og ødela programmer.
   ```blocks
   når grønt flagg klikkes
   skjul
-  for alltid
+  gjenta for alltid
       hvis <museknappen er trykket?>
           gå til x: (mus x) y: (-200)
           start lyden [bang v]

@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - Hvor er HTML? Jeg ser den ikke!"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -16,32 +16,32 @@ hvis du har den.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Programmering, Teknologi i praksis
+__Fag__: Programmering, IT1
 
 __Anbefalte trinn__: 8.-10. trinn
 
-__Tema__: HTML, web
+__Tema__: HTML, Web
 
-__Tidsbruk__: Dobbeltime.
+__Tidsbruk__: Dobbelttime.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon.
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Teknologi i praksis, valgfag__: undersøkje teknologiske produkt og dei
-  vala som er gjorde med omsyn til bruk, tekniske løysingar, funksjonalitet og
-  design
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
+
+- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
+
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 
-- [ ] Eleven klarer å inspisere en hjemmeside for å se hvordan den er oppbyg
+- [ ] Eleven klarer å inspisere en hjemmeside for å se hvordan den er oppbygd
 
 - [ ] Eleven klarer å gjøre endringer på en nettside ved å bruke
   _inspeksjonsvektøyet_ til en nettleser
 
-- [ ] Eleven skal kunne kjenne igjen HTML-tags og kunne forklare hvordan hva de
+- [ ] Eleven skal kunne kjenne igjen HTML-tags og kunne forklare hva de
   brukes til.
 
 ## Forslag til vurderingskriterier {.challenge}

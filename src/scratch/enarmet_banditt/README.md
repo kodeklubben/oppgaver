@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Enarmet banditt
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 2
 language: nb
 ---
@@ -16,7 +16,7 @@ når de alle viser det samme bildet (tilsvarende en enarmet banditt-maskin).
 ## Oppgaven passer til: {.check}
 
  __Fag__: Programmering, matematikk
- 
+
 __Anbefalte trinn__: 3.-10. trinn
 
 __Tema__: Løkker, spill.
@@ -25,17 +25,19 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 7. trinn__: vurdere og samtale om sjanser i dagligdagse
-       sammenhenger, spill og eksperimenter og beregne sannsynlighet i enkle
-       situasjoner
+- [ ]  __Matematikk, 5. trinn__: diskutere tilfeldighet og sannsynlighet i spill
+       og praktiske situasjoner og knytte det til brøk
+
+- [ ] __Matematikk, 7. trinn__: representere og bruke brøk, desimaltall og
+      prosent på ulike måter og utforske de matematiske sammenhengene mellom
+      disse representasjonsformene
 
 - [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+       programmering, slik som variabler, løkker, vilkår og funksjoner, og
+       reflektere over bruken av disse
 
-- [ ]  __Programmering, 10. trinn__: utvikle og feilsøke programmer som løser
-       definerte problemer, inkludert realfaglige problemstillinger og
-       kontrollering eller simulering av fysiske objekter
+- [ ]  __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
+       vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

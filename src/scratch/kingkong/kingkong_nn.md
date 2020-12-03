@@ -168,7 +168,7 @@ No har me tatt inn grafikken me treng. Det er på tide å begynne å programmere
   når @greenFlag vert trykt på
   gå til x: (-45) y: (30)
   byt drakt til [venstre v]
-  for alltid
+  gjenta for alltid
       viss <tasten [pil venstre v] er trykt?>
           gli (0.2) sekund til x: (-45) y: (30)
           byt drakt til [venstre v]
@@ -206,7 +206,7 @@ skyskraparen.
   når @greenFlag vert trykt på
   gøym
   avgrens rotering til [venstre-høgre v]
-  for alltid
+  gjenta for alltid
       vent (tilfeldig tal frå (0.5) til (4)) sekund
       lag klon av [meg v]
   slutt
@@ -269,7 +269,7 @@ Oppgåva til **King Kong** er å passe seg slik at han ikkje blir treft av flya.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       vent til <rører [fly v] ?>
       endra [farge v]-effekt med (25)
       vent (0.5) sekund
@@ -292,7 +292,7 @@ korleis du kan vidareutvikle spelet?
 
 - [ ] Tell poeng! Kanskje du kan få poeng for kvart fly som passerer?
 
-- [ ] Tell liv! King Kong kan ikkje bli treft av flya `for
+- [ ] Tell liv! King Kong kan ikkje bli treft av flya `gjenta for
   alltid`{.blockcontrol}. Legg til ein `liv`{.blockdata}-variabel som tel kor
   mange liv du har att. Kanskje `kong` ramlar ned frå skyskraparen når han er
   tom for liv?

@@ -80,7 +80,7 @@ oppgåva finn du beskrivingar for å bruke andre kart.
   når @greenFlag vert trykt på
   set storleik til (25) %
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       viss <tasten [pil opp v] er trykt?>
           peik i retning (0 v)
           gå (2) steg
@@ -107,7 +107,7 @@ Me skal programmere dei andre piltastane òg.
   koden som flyttar helikopteret oppover. Difor kan me kopiere den me allereie
   har skrive! Høgreklikk på klossen `viss `{.blockcontrol}`tasten pil opp
   er trykt?`{.blocksensing}, og vel `lag ein kopi`. Slepp desse klossane inn i
-  `for alltid`{.blockcontrol}-løkka. Gjenta til du har fire
+  `gjenta for alltid`{.blockcontrol}-løkka. Gjenta til du har fire
   `viss`{.blockcontrol}-klossar. Endre på skriptet ditt slik at det ser ut som
   følgjer:
 
@@ -115,7 +115,7 @@ Me skal programmere dei andre piltastane òg.
   når @greenFlag vert trykt på
   set storleik til (25) %
   gå til x: (0) y: (0)
-  for alltid
+  gjenta for alltid
       viss <tasten [pil opp v] er trykt?>
           peik i retning (0 v)
           gå (2) steg

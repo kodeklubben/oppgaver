@@ -40,14 +40,13 @@ Hele kodesnutter skrives som et eget avsnitt på følgende måte:
 <pre>
 ```blocks
 når grønt flagg trykkes
-for alltid
+gjenta for alltid
 pek mot [musepekeren v]
 slutt
 ```
 </pre>
 
-Hvis du vil referere til enkeltblokker i teksten kan det gjøres slik: `` `for
-alltid`{.b}``. I tillegg er fargene for kategoriene tilgjengenlig:
+Hvis du vil referere til enkeltblokker i teksten kan det gjøres slik: `` `gjenta for alltid`{.b}``. I tillegg er fargene for kategoriene tilgjengenlig:
 
 - `` `Bevegelse`{.blockmotion}``
 

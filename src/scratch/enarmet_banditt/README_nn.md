@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Einarma banditt
 level: 2
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -25,16 +25,19 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. trinn__: vurdere og samtale om sjansar i daglegdagse
-  samanhengar, spel og eksperiment og berekne sannsyn i enkle situasjonar
+- [ ]  __Matematikk, 5. trinn__: diskutere tilfeldighet og sannsyn i spel
+       og praktiske situasjonar og knytte det til brøk
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Matematikk, 7. trinn__: representere og bruke brøk, desimaltal og
+      prosent på ulike måtar og utforske dei matematiske samanhengane mellom
+      desse representasjonsformene
 
-- [ ] __Programmering, 10. trinn__: utvikle og feilsøkje program som låyser
-  definerte problem, inkludert realfaglege problemstillingar og kontrollering
-  eller simulering av fysiske objekt
+- [ ]  __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+       programmering, slik som variablar, løkker, vilkår og funksjonar, og
+       reflektere over bruken av desse
+
+- [ ]  __Programmering, 10. trinn__: planlegge og skape eit digitalt produkt og
+       vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

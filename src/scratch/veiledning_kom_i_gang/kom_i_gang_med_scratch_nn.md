@@ -214,11 +214,11 @@ Alternativt kan du jobbe gjennom fyrste steg i oppgåva saman med borna.
   til å gjere ting mange gonger. Dette programmerer me ved hjelp av noko som
   heiter løkker.
 
-  Klikk på `Styring`{.blockcontrol}-kategorien, og dra ut ein `for
+  Klikk på `Styring`{.blockcontrol}-kategorien, og dra ut ein `gjenta for
   alltid`{.b}-kloss slik at den legg seg rundt skriptet ditt.
 
   ```blocks
-  for alltid
+  gjenta for alltid
       endre [farge v] effekt med (25)
       gå (20) steg
       pek mot [musepeker v]

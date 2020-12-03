@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Spøkelsesjakten
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 1
 language: nb
 ---
@@ -29,21 +29,21 @@ __Tidsbruk__: Dobbelttime.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-       rutenett, på kart og i koordinatsystemer, både med og uten digitale
-       verktøy
+- [ ]  __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer
+       i koordinatsystemet
 
-- [ ]  __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-       kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-       koordinater til å beregne avstander parallelt med aksene i et
-       koordinatsystem
+- [ ]  __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
+       i lek og spill knyttet til koordinatsystem
 
-- [ ]  __Musikk, 7. trinn__: komponere og gjøre lydopptak ved hjelp av digitale
-       verktøy
+- [ ]  __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og vurdere
+       spilldesign og egne spill
+
+- [ ]  __Musikk, 7. trinn__: bruke teknologi og digitale verktøy til å skape,
+       øve inn og bearbeide musikk
 
 - [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+       programmering, slik som variabler, løkker, vilkår og funksjoner, og
+       reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

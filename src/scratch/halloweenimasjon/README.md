@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Halloweenimasjon
-author: Madeleine Lorås
+author: Madeleine Lorås, Vegard Tuset
 level: 1
 language: nb
 ---
@@ -25,25 +25,23 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Engelsk, 2. årstrinn__: ta del i og oppleve barnekultur fra
-      engelskspråklige land gjennom å bruke ord, bilder, musikk og bevegelse
+- [ ] __Engelsk, 2. årstrinn__: tilegne seg ord og kulturell kunnskap gjennom
+      engelskspråklig barnelitteratur og barnekultur
 
-- [ ] __Engelsk fordypning, 10. årstrinn__: produsere skriftlig og presentere
-      muntlig selvvalgte fordypningsarbeider
+- [ ] __Engelsk, 4. årstrinn__: utforske levemåter og tradisjoner i ulike
+      samfunn i den engelskspråklige verden og i Norge og reflektere over
+      identitet og kulturell tilhørighet
 
-- [ ] __Kunst og håndtverk, 4. årstrinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+- [ ] __Kunst og håndtverk, 4. årstrinn__: gjennomføre kunst- og designprosesser
+      ved å søke inspirasjon, utforske muligheter, gjøre valg og lage egne
+      produkter
 
-- [ ] __Kunst og håndtverk, 7. årstrinn__: bruke fargekontraster, forminsking og
-      sentralperspektiv for å gi illusjon av rom i bilder både med og uten
-      digitale verktøy
+- [ ] __Kunst og håndtverk, 7. årstrinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
-
-- [ ] __Programmering, valgfag__: overføre løsninger til nye problemer ved å
-      generalisere og tilpasse eksisterende programkode og algoritmer.
+- [ ] __Programmering, valgfag__: bruke grunnleggende prinsipper i programmering
+      , slik som variabler, løkker, vilkår og funksjoner, og reflektere over
+      bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

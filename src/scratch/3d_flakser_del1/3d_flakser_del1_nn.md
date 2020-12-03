@@ -36,7 +36,7 @@ inni kvarandre, fylt med ein farge i mellom.
     ```blocks
         når eg får meldinga [Nytt spel v]
         gøym
-        for alltid
+        gjenta for alltid
             lag klon av [meg v]
             vent (1) sekund
         slutt
@@ -172,7 +172,7 @@ flaggermus-figuren. Kall den __Flakse__.
         når eg får meldinga [Nytt spel v]
         set [x v] til [0]
         set [y v] til [0]
-        for alltid
+        gjenta for alltid
             viss <tasten [pil høgre v] er trykt>
                 endra [x v] med (10)
                 vent (0.05) sekund
