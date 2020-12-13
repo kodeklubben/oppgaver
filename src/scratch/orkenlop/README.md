@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Ørkenløp
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 2
 language: nb
 ---
@@ -26,20 +26,14 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre speiling, rotasjon og
-      parallellforskyvnin
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+      programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-      kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-      koordinater til å beregne avstander parallelt med aksene i et
-      koordinatsyste
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+      vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjo
-
-- [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
-      generalisere og tilpasse eksisterende programkode og algoritmer.
+- [ ] __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
+      vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 
@@ -96,4 +90,3 @@ oppgaven enda._
 ## Eksterne ressurser {.challenge}
 
 - [ ] Foreløpig ingen eksterne ressurser...
-

@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - Python: Nettverk"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -11,39 +11,27 @@ I denne oppgåva skal elevane lære å kople saman micro:bit-ar til eit nettverk
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Programmering, IT
+__Fag__: IT1, IT2, Naturfag, Programmering
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Nettverk.
+__Tema__: Nettverk, Protokoll
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk der minst
-  eitt er tekstbasert
+- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk, mellom dei minst eitt som er tekstbasert
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
 
-- [ ] __Programmering, 10. trinn:__ gjere greie for kva standardar og prinsipp
-  som gjer Internett mogleg
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
-- [ ] __IT1, VG2:__ gjere greie for kva standardar og prinsipp som gjer
-  Internett mogleg
+- [ ] __IT2, VG3:__ generalisere løysingar, lage gjenbrukbar programkode og nytte eksisterande kode i nye program
 
-- [ ] __IT2, VG3:__ tilordne uttrykk til variablar
+- [ ] __IT2, VG3:__ gjera reie for infrastruktur, protokollar og standardar for informasjonsutveksling
 
-- [ ] __IT2, VG3:__ lage eigne og bruke eigne og andre sine funksjonar eller
-  metodar med parameter
-
-- [ ] __IT2, VG3:__ bruke programmeringsspråk i multimedieapplikasjonar
-
-- [ ] __IT2, VG3:__ lese og bruke dokumentasjon og kode
-
-- [ ] __IT2, VG3:__ programmere med val og gjentakingar
+- [ ] __Naturfag, VG3 Påbygg:__ forklare hovudprinsippa for trådlaus kommunikasjon og gi døme på kva slik teknologi blir brukt til
 
 ## Forslag til læringsmål {.challenge}
 
@@ -63,12 +51,11 @@ __Tidsbruk__: Dobbelttime
 
 ## Føresetnader og utstyr {.challenge}
 
-- [ ] __Føresetnader__: Oppgåva er ein introduksjon til micro:bit, og krev
-  ingen forkunnskapar eller erfaring.
+- [ ] __Føresetnader__: Oppgåva er ein introduksjon til micro python, men det er ei fordel å ha programmert med blokk-kode for micro:bit tidlegare og å kunne noko engelsk.
 
-- [ ] __Utstyr__: Datamaskin med tilgang til Internett, to micro:bit-ar med
-  straumforsyning (micro-usb-kabel eller batteri) og to ledningar med
-  krokodilleklemmer.
+- [ ] __Utstyr__: Datamaskin med tilgang til Internett, to micro:bit-ar med straumforsyning (micro-usb-kabel eller batteri) og to ledningar med krokodilleklemmer.<br/><br/>
+Me tilrår å bruke [mu editor](https://codewith.mu/){target=_blank}. Det er instruksjonar for korleis ein lastar ned Mu på nettsida via linken.<br/><br/>
+Det er også mogeleg å bruke micro:bits eigen [online-editor](https://python.microbit.org/v/2.0){target=_blank}.
 
 ## Framgangsmåte
 

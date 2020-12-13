@@ -1,10 +1,18 @@
 ---
-title: "Python: knapper"
+title: "Python: Knapper"
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/buttons.html)"
-translator: Øistein Søvik
+translator: Øistein Søvik og Susanne Rynning Seip
 language: nb
 ---
 
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgaven er en del av oppgavesamlingen _Programmering i micro-python_ og bygger videre på [Python: Bilder](../python_images/python_images_nb.html){target=_blank}.
+
+Vi anbefaler at du laster ned og skriver koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobber med disse oppgavene. Instruksjoner for hvordan man laster ned Mu finner du på nettsiden via linken.
+
+Når Mu er installert kan du koble micro:biten din til datamaskinen via en USB-kabel. Skriv koden din i editor-vinduet og trykk på “Flash”-knappen for å laste koden over på micro:biten. Hvis det ikke fungerer, sørg for at micro:biten har dukket opp som en USB-enhet på datamaskinen din.
 
 # Introduksjon {.intro}
 
@@ -212,5 +220,10 @@ logiske påstander samtidig (ting som enten er `True` eller `False`).
 
 <!--A little workaround to avoid checklist being a part of protip-->
 
-
 # {.check}
+
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+Neste oppgave i samlingen er [Python: Tilfeldig](../python_random/python_random_nb.html){target=_blank}.
+Klikk videre for å fortsette gjennom samlingen.

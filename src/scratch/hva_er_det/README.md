@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Hva er det?
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 level: 3
 language: nb
 ---
@@ -26,12 +26,12 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
+      programmering, slik som variabler, løkker, vilkår og funksjoner, og
+      reflektere over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

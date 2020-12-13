@@ -2,7 +2,7 @@
 title: Lærarrettleiing - Breakout
 level: 4
 language: nn
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 ---
 
 
@@ -28,24 +28,24 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 2. trinn__: byggje med enkle geometriske grunnformer
+- [ ] __Kunst og handverk, 7. trinn__: bruke digitale verktøy til å planlegga
+      og presentere prosessar og produkt
 
-- [ ] __Kunst og handverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelement
+- [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
+      verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktåy
+- [ ] __Matematikk, 4. trinn__: lage og følgje reglar og trinnvise instruksjonar
+      i leik og spel knytt til koordinatsystem
 
-- [ ] __Matematikk, 7. trinn__: beskrive og gjennomføre spegling, rotasjon og
-  parallellforskyving
+- [ ] __Matematikk, 6. trinn__: utforske og beskrive symmetri i mønster og
+      utføre kongruensavbildinger med og utan koordinatsystem
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
+      programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
+      programmering, slik som variablar, løkker, vilkår og funksjonar, og
+      reflektere over bruken av desse
 
 ## Forslag til læringsmål {.challenge}
 

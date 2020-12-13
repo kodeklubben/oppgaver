@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Farger
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nb
 ---
 
@@ -13,31 +13,33 @@ pigmentfarger.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Kunst og håndtverk, matematikk, programmering.
+__Fag__: Kunst og håndverk, Matematikk, Programmering, IT1
 
-__Anbefalte trinn__: 8. trinn til VG3.
+__Anbefalte trinn__: 8. trinn - VG3
 
-__Tema__: Farger, sirkler, variabler.
+__Tema__: Farger, Sirkler, Variabler
 
-__Tidsbruk__: Dobbelttime.
+__Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: blande og bruke primærfarger i eget
-  skapende arbeid
+- [ ] __Kunst og håndverk, 2. trinn__: eksperimentere med form, farge, rytme og kontrast
 
-- [ ] __Kunst og håndtverk, 7. trinn__: skille mellom blanding av pigmentfarger
-  og lysfarger
+- [ ] __Kunst og håndverk, 7. trinn__: bruke digitale verktøy til å planlegge og presentere prosesser og produkter
 
-- [ ] __Matematikk, 4. trinn__: tegne, bygge, utforske og beskrive geometriske
-  figurer og modeller i praktiske sammenhenger, medregnet teknologi og design
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
+
+- [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
+
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __IT1, VG2:__ gjøre rede for hvordan ulike typer informasjon kan representeres ved hjelp av bit
 
 ## Forslag til læringsmål {.challenge}
 

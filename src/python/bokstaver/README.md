@@ -1,6 +1,6 @@
 ---
 title: Lærerveiledning - Bokstaver
-author: Øistein Søvik
+author: Øistein Søvik, Vegard Tuset
 language: nb
 ---
 
@@ -12,7 +12,7 @@ andre geometriske figurer.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, Kunst og håndtverk
+__Fag__: Matematikk, Kunst og håndtverk, Norsk
 
 __Anbefalte trinn__: 7.-10. trinn
 
@@ -22,17 +22,17 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __kunst og håndtverk, 2. trinn__: bygge med enkle geometriske grunnformer
+- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+      frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __kunst og håndtverk, 2. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelementer
+- [ ] __Matematikk, 4. trinn__: utforske, beskrive og sammenligne egenskaper ved
+      to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
 
-- [ ] __Matematikk, 2. trinn__: gjennkjenne og beskrive trekk ved enkle to- og
-  tredimensjonale figurer i forbindelse med hjørner, kanter og flater, og
-  sortere og sette navn på figurene etter disse trekkene
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+      programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Matematikk, 10. trinn__: bruke koordinater til å avbilde figurer og
-  utforske egenskaper ved geometriske former, med og uten digitale verktøy
+- [ ] __Norsk, 7.trinn__: leke med språket og prøve ut ulike virkemidler og
+      framstillingsmåter i muntlige og skriftlige tekster
 
 ## Forslag til læringsmål {.challenge}
 

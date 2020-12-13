@@ -227,11 +227,11 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 
 ## Sjekkliste {.check}
 
-- [ ] Me startar med å lage ei `for alltid`{.blockcontrol}-løkke på scena som
-  sender meldingane
+- [ ] Me startar med å lage ei `gjenta for alltid`{.blockcontrol}-løkke på
+  scena som sender meldingane
 
   ```blocks
-  for alltid
+  gjenta for alltid
       send meldinga [Animer spøkelse v] og vent
       send meldinga [Animer flaggermus v] og vent
   slutt
@@ -244,7 +244,7 @@ bakgrunnen og å starte spøkelsesanimasjonen.
   til eit par `vent`{.blockcontrol}-klossar i skriptet.
 
   ```blocks
-  for alltid
+  gjenta for alltid
       send meldinga [Animer spøkelse v] og vent
       vent (1) sekund
       send meldinga [Animer flaggermus v] og vent
@@ -257,7 +257,7 @@ bakgrunnen og å starte spøkelsesanimasjonen.
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       send meldinga [Animer spøkelse v] og vent
       vent (1) sekund
       send meldinga [Animer flaggermus v] og vent
@@ -353,7 +353,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       send meldinga [Animer spøkelse v] og vent
       vent (1) sekund
       send meldinga [Animer flaggermus v] og vent

@@ -1,6 +1,6 @@
 ---
 title: "Lærerveiledning - JS: Partikkel-animasjon"
-author: Lars Klingenberg
+author: Lars Klingenberg og Susanne Rynning Seip
 language: nb
 ---
 
@@ -16,51 +16,31 @@ derfor er det viktig å forstå det som skjer i denne oppgaven.
 
 ## Oppgaven passer til: {.check}
 
-__Fag__: Matematikk, Programmering, Informasjonsteknologi 2
+__Fag__: Matematikk, Kunst og håndverk, Programmering, IT1, IT2
 
 __Anbefalte trinn__: 7. trinn - VG3
 
-__Tema__: JavaScript, HTML, CSS, web, objektorientering, variabler, canvas,
-funksjoner
+__Tema__: JavaScript, HTML, Web, Canvas, Objektorientering, Funksjoner
 
 __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn__: bruke matematiske symboler og uttrykksmåter for
-  å uttrykke matematiske sammenhenger i oppgaveløsning
+- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
 
-- [ ] __Matematikk, 4. trinn__: tegne, bygge, utforske og beskrive geometriske
-  figurer og modeller i praktiske sammenhenger, medregnet teknologi og design
+- [ ] __Kunst og håndverk, 7. trinn__: bruke digitale verktøy til å planlegge og presentere prosesser og produkter
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjoner i
-  rutenett, på kart og i koordinatsystemer, både med og uten digitale verktøy
+- [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-  koordinater til å beregne avstander parallelt med aksene i et koordinatsystem
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-  å skrive hensiktsmessige kommentarer og ved å presentere egen og andres kode
+- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
 
-- [ ] __Programmering, 10. trinn__: bruke flere programmeringsspråk der minst
-  ett er tekstbasert
+- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-  programmering, slik som løkker, tester, variabler, funksjoner og enkel
-  brukerinteraksjon
+- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
-- [ ] __Informasjonsteknologi 2, VG3__: lage egne og bruke egne og andres
-  funksjoner eller metoder med parametere
-
-- [ ] __Informasjonsteknologi 2, VG3__: planlegge og utvikle
-  multimedieapplikasjoner ved å kombinere egne og andres multimedieelementer av
-  typene tekst, bilde, lyd, video og animasjoner
-
-- [ ] __Informasjonsteknologi 2, VG3__: bruke programmeringsspråk i
-  multimedieapplikasjoner
-
-- [ ] __Informasjonsteknologi 2, VG3__: programmere med valg og gjentakelser
+- [ ] __IT2, VG3:__ lage objektorienterte programmer som benytter klasser med metoder
 
 ## Forslag til læringsmål {.challenge}
 

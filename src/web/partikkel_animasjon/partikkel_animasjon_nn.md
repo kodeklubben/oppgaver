@@ -167,7 +167,7 @@ For å endre på ein av attributtane gjer me berre følgjande:
 bil.farge = "Raud";
 ```
 
-No blir attrubutten `farge` endra frå `Blå` til `Raud`.
+No blir attrubutten `farge` endra frå blå (`blue`) til raud (`red`). Me bruker engelske namn på fargane, slik at me kan bruke de i koden seinare.
 
 På denne måten slepp me å lage mange variablar som skal høyre til same element,
 me brukar heller `objekt`.

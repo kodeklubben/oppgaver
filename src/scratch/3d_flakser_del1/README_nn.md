@@ -1,7 +1,7 @@
 ---
 title: Lærarrettleiing - 3D-flaksar
 level: 4
-author: Stein Olav Romslo
+author: Stein Olav Romslo, Vegard Tuset
 language: nn
 ---
 
@@ -28,25 +28,24 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 2. trinn__: byggje med enkle geometriske grunnformer
+- [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
+      interaktivitet og visuelle uttrykk
 
-- [ ] __Kunst og handverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelement
+- [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
+      verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Kunst og handverk, 7. trinn__: bruke fargekontrastar, forminsking og
-  sentralperspektiv for å gi illusjon av rom i bilete både med og utan digitale
-  verktøy
+- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i       
+      koordinatsystemet
 
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
+- [ ] __Matematikk, 7. trinn__: beskrive eigenskapar ved og minimumsdefinisjonar
+      av to- og tredimensjonale figurar og forklare kva eigenskapar figurane
+      har felles, og kva eigenskapar som skil dei frå kvarandre
 
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+      vurdere spilldesign og eigne spel
 
-- [ ] __Naturfag, 2. trinn__: beskrive og illustrere korleis jorda, månen og
-  sola bevegar seg i forhold til kvarandre, og fortelje om årstider, døgn og
-  månefasar
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+      fenomen
 
 ## Forslag til læringsmål {.challenge}
 

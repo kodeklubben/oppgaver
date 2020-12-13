@@ -9,7 +9,7 @@ language: nn
 # Introduksjon {.intro}
 
 I denne oppgåva tek me utgangspunkt i animasjonen me laga i oppgåva
-[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon_nn) .
+[Partikkel-animasjon](https://oppgaver.kidsakoder.no/web/partikkel_animasjon/partikkel_animasjon_nn){target=_blank}.
 Viss du ikkje har gjort den oppgåva anbefalar me at du gjer den før du fortset her.
 
 Denne oppgåva går ut på å leggje til gravitasjon på `partikkel`-objektet. Du får
@@ -73,15 +73,15 @@ du programmere det følgjande:
 
 For kvar gong `draw()` køyrer, skal følgjande skje:
 
-- Attributten `gravitasjon` skal endrast med `hastigheit`-attributten.
+- Attributten `hastigheit` skal endrast med `gravitasjon`-attributten.
 
 - `y`-posisjonen til `particle` blir endra med `hastigheit`-attributten.
 
 <toggle>
     <strong> Hint </strong>
     <hide>
-    objekt.gravitasjon += objekt.hastigheit eller
-    objekt.gravitasjon = objekt.gravitasjon + objekt.hastigheit
+    objekt.hastigheit += objekt.gravitasjon eller
+    objekt.hastigheit = objekt.hastigheit + objekt.gravitasjon
     </hide>
 </toggle>
 
@@ -172,9 +172,7 @@ støttar `keyCode`, men dei brukar `which` i staden.
 - [ ] For at du skal få att gravitasjonen når du slepp tasten må du lage ein
   funksjon for `window.onkeyup`.
 
-- [ ] Les meir om `window.onkeyup` og meir her:
-
-  [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp)
+- [ ] Les meir om `window.onkeyup` og meir her: [w3school](http://www.w3schools.com/jsref/event_onkeydown.asp){target=_blank}
 
 Viss du står heilt bom fast kan du sjå her: [Forslag til
-kode](https://jsbin.com/sezumakiyo/edit?html,output).
+kode](https://jsbin.com/sezumakiyo/edit?html,output){target=_blank}.

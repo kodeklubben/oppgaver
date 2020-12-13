@@ -52,7 +52,7 @@ Denne kan me bruke til å endre hastigheita undervegs i spelet seinare.
   ```blocks
   når @greenFlag vert trykt på
   set [hastigheit v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastigheit) steg
   slutt
   ```
@@ -74,7 +74,7 @@ __Klikk på det grøne flagget.__
   ```blocks
   når @greenFlag vert trykt på
   set [hastigheit v] til [5]
-  for alltid
+  gjenta for alltid
       gå (hastigheit) steg
       viss ved kant, sprett
   slutt
@@ -116,7 +116,7 @@ __Klikk på det grøne flagget.__
 
   ```blocks
   når @greenFlag vert trykt på
-  for alltid
+  gjenta for alltid
       vis
       vent (tilfeldig tal frå (3) til (5)) sekund
       gøym

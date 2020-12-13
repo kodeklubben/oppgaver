@@ -1,6 +1,6 @@
 ---
 title: "Lærarrettleiing - PXT: Lysmusikk"
-author: Stein Olav Romslo
+author: Stein Olav Romslo og Susanne Rynning Seip
 language: nn
 ---
 
@@ -12,22 +12,25 @@ av kor mykje lys som treff ein lyssensor.
 
 ## Oppgåva passar til: {.check}
 
-__Fag__: Naturfag, programmering
+__Fag__: Naturfag, Programmering, Teknologi og design, Teknologi og forskningslære
 
 __Anbefalte trinn__: 5. trinn - VG3
 
-__Tema__: Lys, løkker.
+__Tema__: Lys, Sensor, Lykkjer, Variablar, Vilkår
 
 __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Naturfag, 10. trinn:__ gjennomføre forsøk med lys, syn og farger, og
-  beskrive og forklare resultata.
+- [ ] __Naturfag, 4. trinn:__ utforske teknologiske system som er satt saman av ulike delar, og beskrive korleis delane fungerer og verkar saman
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
+
+- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __Teknologi og design, 10. trinn:__ lage prototypar for teknologiske produkt og reflektere over korleis desse kan betrast eller utviklast vidare
+
+- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal frå sensorar
 
 ## Forslag til læringsmål {.challenge}
 

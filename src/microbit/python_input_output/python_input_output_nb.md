@@ -1,9 +1,21 @@
 ---
 title: "Python: Input og output"
 author: "Oversatt fra [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io/en/latest/tutorials/io.html)"
-translator: Øistein Søvik
+translator: Øistein Søvik og Susanne Rynning Seip
 language: nb
 ---
+
+
+<!-- To get a box around the text about the playlist and to make it distinct from the rest of the exercise-->
+# {.tip}
+
+Denne oppgaven er en del av oppgavesamlingen _Programmering i micro-python_ og bygger videre på [Python: Retninger](../python_direction/python_direction_nb.html){target=_blank}.
+
+Vi anbefaler at du laster ned og skriver koden din i [mu editor](https://codewith.mu/){target=_blank} når du jobber med disse oppgavene. Instruksjoner for hvordan man laster ned Mu finner du på nettsiden via linken.
+
+Når Mu er installert kan du koble micro:biten din til datamaskinen via en USB-kabel. Skriv koden din i editor-vinduet og trykk på “Flash”-knappen for å laste koden over på micro:biten. Hvis det ikke fungerer, sørg for at micro:biten har dukket opp som en USB-enhet på datamaskinen din.
+
+# Introduksjon {.intro}
 
 Det eksisterer metal langs kanten på bunnen av din micro:bit som gjør at det ser
 ut som enheten din har tenner. Dette er input/outputkomponentene (eller I/O
@@ -19,7 +31,7 @@ enheter
 
 ![Bilde av en microbit og et kobblingsbrett](./edge_connector_breakout_board.jpg)
 
-Hve pin på micro:bit'en er et *objekt* med navn `pinN` hvor `N` er nummeret til
+Hver pin på micro:bit'en er et *objekt* med navn `pinN` hvor `N` er nummeret til
 pin'en. Så, for eksempel, for å gjøre noe med pin'en merket med 0 (null) så
 bruker vi objektet med navn `pin0`.
 
@@ -106,3 +118,9 @@ millisekunder før den går tilbake til start og begynner på nytt igjen.
 - [ ] Skriv om koden slik at den piper en gang i sekundet
 
 Gratulerer du har laget et veldig enkelt metronom!
+
+<!--To get the link to the next exercise in a box. -->
+# {.tip}
+
+Neste oppgave i samlingen er [Python: Bevegelse](../python_movement/python_movement_nb.html){target=_blank}.
+Klikk videre for å fortsette gjennom samlingen.
