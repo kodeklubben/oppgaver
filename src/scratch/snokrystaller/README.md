@@ -1,13 +1,12 @@
 ---
 title: Snøkrystaller
-author: 'Espen Claussen, Carl A. Myrland'
-translator: >-
-  https://espenec.wordpress.com/2020/11/29/undervisningsopplegg-tegne-snofnugg-i-scratch/
-language: !<tag:yaml.org,2002:js/undefined> ''
+author: "[Espen Claussen](https://espenec.wordpress.com/2020/11/29/undervisningsopplegg-tegne-snofnugg-i-scratch)"
+translator: "Carl A. Myrland"
+language: "nb"
 ---
 # Om oppgaven {.activity}
 
-I denne oppgaven skal elevene jobbe med geometri, symmetri og rotasjon ved å designe snøkrystaller. I løpet av arbeidet skal de øve på å skrive og lese pseudokode, feilsøke og utforske egen og andres kode. 
+I denne oppgaven skal elevene jobbe med geometri, symmetri og rotasjon ved å designe snøkrystaller. I løpet av arbeidet skal de øve på å skrive og lese pseudokode, feilsøke og utforske egen og andres kode.
 
 Til slutt kan man eksportere snøkrystallene og enten printe dem ut på papir, med vinylkutter eller laserkutter - eller 3D-printe dem!
 
@@ -69,7 +68,7 @@ nyttige tips til hvordan man underviser i programmering.
 ## Fremgangsmåte
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. 
+oppgaven.
 
 # Steg 1: Finn inspirasjon {.activity}
 
@@ -82,7 +81,7 @@ oppgaven.
 
 # Steg 3: Skriv koden! {.activity}
 - [ ] Elevene bør veiledes til å fullføre med en enkel krystall i tråd med oppgaven i første omgang, slik at de har laget minst én krystall som oppfyller kravene.
-- [ ] La elevene uttrykke seg kreativt - men oppfordre dem til å tegne for hånd først og skrive pseudokode før de gyver løs på nye krystaller. Vi ønsker å trene opp den algoritmiske tenkningen! 
+- [ ] La elevene uttrykke seg kreativt - men oppfordre dem til å tegne for hånd først og skrive pseudokode før de gyver løs på nye krystaller. Vi ønsker å trene opp den algoritmiske tenkningen!
 
 
 
@@ -92,5 +91,5 @@ oppgaven.
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Denne oppgaven ble opprinnelig skrevet av Espen Clausen. Originaloppgaven finner du [her](https://espenec.wordpress.com/2020/11/29/undervisningsopplegg-tegne-snofnugg-i-scratch/){target=_blank}
-- [ ] Mer informasjon om snøkrystaller og hvordan de dannes, finner du [her](https://www.mn.uio.no/kjemi/tjenester/kunnskap/snokrystaller/){target=_blank}
+- [ ] Denne oppgaven ble opprinnelig skrevet av Espen Clausen. Originaloppgaven finner du [her](https://espenec.wordpress.com/2020/11/29/undervisningsopplegg-tegne-snofnugg-i-scratch/){target=_blank}.
+- [ ] Mer informasjon om snøkrystaller og hvordan de dannes, finner du [her](https://www.mn.uio.no/kjemi/tjenester/kunnskap/snokrystaller/){target=_blank}.

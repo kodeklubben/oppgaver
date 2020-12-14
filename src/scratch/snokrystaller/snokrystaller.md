@@ -1,9 +1,8 @@
 ---
 title: Snøkrystaller
-author: 'Espen Claussen,  Carl A. Myrland'
-translator: >-
-  https://espenec.wordpress.com/2020/11/29/undervisningsopplegg-tegne-snofnugg-i-scratch/
-language: !<tag:yaml.org,2002:js/undefined> ''
+author: "[Espen Claussen](https://espenec.wordpress.com/2020/11/29/undervisningsopplegg-tegne-snofnugg-i-scratch)"
+translator: "Carl A. Myrland"
+language: "nb"
 ---
 # Introduksjon {.intro}
 
@@ -24,7 +23,7 @@ I denne oppgaven skal du lage dine egne snøkrystaller! Disse krystallene kan s�
 
 - [ ] Hvordan ser en snøkrystall ut? Bruk gjerne nettet til å søke opp bilder av forskjellige snøkrystaller. Oppdager du noen mønster som går igjen i svært mange snøkrystaller?
 
-- [ ] Vi kjenner jo uttrykket som sier at "ingen snøkrystaller er like" - men likevel følger de noen bestemte regler. De fleste snøkrystaller er *hexagoner*, eller sekskanter, og alle armene i snøfnugget er eksakt like. Derfor trenger vi egentlig bare å tegne én arm til snøkrystallen vår og gjenta den armen seks ganger. 
+- [ ] Vi kjenner jo uttrykket som sier at "ingen snøkrystaller er like" - men likevel følger de noen bestemte regler. De fleste snøkrystaller er *hexagoner*, eller sekskanter, og alle armene i snøfnugget er eksakt like. Derfor trenger vi egentlig bare å tegne én arm til snøkrystallen vår og gjenta den armen seks ganger.
 
 - [ ] Tegn et forslag til en snøkrystall-arm. Det er lurt å begynne med en enkel figur første gang, og så forsøke å gjøre den mer avansert etterhvert. Her er noen forslag til armer du kan tegne:
 
@@ -33,19 +32,19 @@ I denne oppgaven skal du lage dine egne snøkrystaller! Disse krystallene kan s�
 
 # Steg 2: Analyser figuren din {.activity}
 
-Når du nå har laget ditt første forslag til snøkrystall-arm, er det på tide å analysere det du har tegnet. 
-- [ ] Tenk deg at du skal tegne hele armen uten å løfte blyanten fra papiret en eneste gang. 
-- [ ] Tegningen starter ved den enden av armen som skal ligge i sentrum av snøkrystallen. 
-- [ ] Skriv ned *pseudokode* som forklarer hva du skal gjøre. 
+Når du nå har laget ditt første forslag til snøkrystall-arm, er det på tide å analysere det du har tegnet.
+- [ ] Tenk deg at du skal tegne hele armen uten å løfte blyanten fra papiret en eneste gang.
+- [ ] Tegningen starter ved den enden av armen som skal ligge i sentrum av snøkrystallen.
+- [ ] Skriv ned *pseudokode* som forklarer hva du skal gjøre.
 
 ## {.tip}
 Pseudokode betyr "liksomkode" og fungerer som en kladd før man begynner å kode på ekte. Pseudokoden trenger ikke å være presis eller følge bestemte regler, slik som ekte kode gjør. Den fungerer som et slags tankekart eller flytskjema for programmeringen. Når man har forsøkt å løse problemet som pseudokode først, går det raskere å skrive den ekte koden etterpå, og det blir lettere å feilsøke om man oppdager feil i koden.
 
 
 **Eksempel på pseudokode:**
-```
+```Java
 # Når vi skriver kode, må vi beskrive alt datamaskinen skal gjøre
-sett blyanten på papiret. Det er vanlig å bruke #-tegnet for å skrive 
+sett blyanten på papiret. Det er vanlig å bruke #-tegnet for å skrive
 forklaringer til koden underveis.
 
 #Først må vi gi blyanten vår noen egenskaper og sette den ned på papiret
@@ -92,7 +91,7 @@ Skjønner du hvorfor vi må bruke gradtallene som vi gjør i pseudokoden? Se om 
 
 - [ ] Bryt ned hver eneste handling til enkeltvise instrukser.
 
-- [ ] Skriv instruksene under hverandre, slik at det er lett å feilsøke dem. 
+- [ ] Skriv instruksene under hverandre, slik at det er lett å feilsøke dem.
 
 - [ ] Du kan bruke piler eller symboler i stedet for ord når du skriver pseudokoden din.
 - [ ] Skriv gjerne kommentarer til pseudokoden, for eksempel slik som i eksempelet over.
@@ -133,7 +132,7 @@ gå (50) steg
 snu @turnLeft (45) grader
 gå (25) steg
 gå (-25) steg
-snu @turnRight (90) grader 
+snu @turnRight (90) grader
 gå (25) steg
 gå (-25) steg
 snu @turnLeft (45) grader
@@ -141,7 +140,7 @@ gå (25) steg
 snu @turnLeft (45) grader
 gå (25) steg
 gå (-25) steg
-snu @turnRight (90) grader 
+snu @turnRight (90) grader
 gå (25) steg
 gå (-25) steg
 ```
@@ -166,7 +165,7 @@ Da kan dere bytte ut blokken `Når [mellomrom] trykkes`{.blockevents} med blokke
 Det kan være lurt å skrive inn løkken(e) i pseudokoden du skrev tidligere.
 ##
 
-- [ ] Legg merke til at vi bruker opp igjen den forrige koden, men vi gjør noen endringer i rekkefølgen. 
+- [ ] Legg merke til at vi bruker opp igjen den forrige koden, men vi gjør noen endringer i rekkefølgen.
 
 ```blocks
 Når [mellomrom v] trykkes
@@ -178,7 +177,7 @@ gå (50) steg
 snu @turnLeft (45) grader
 gå (25) steg
 gå (-25) steg
-snu @turnRight (90) grader 
+snu @turnRight (90) grader
 gå (25) steg
 gå (-25) steg
 snu @turnLeft (45) grader
@@ -186,7 +185,7 @@ gå (25) steg
 snu @turnLeft (45) grader
 gå (25) steg
 gå (-25) steg
-snu @turnRight (90) grader 
+snu @turnRight (90) grader
 gå (25) steg
 gå (-25) steg
 snu @turnLeft (45) grader
@@ -203,7 +202,7 @@ end
 
 ## Utfordring {.challenge}
 
-- [ ] Nå er det opp til deg å skape noen fantastiske snøkrystaller! Tegn, skriv pseudokode og bruk geometrikunnskapen din til å skape din helt unike snøkrystall! Husk at det er lurt å samarbeide og utveksle ideer med andre. 
+- [ ] Nå er det opp til deg å skape noen fantastiske snøkrystaller! Tegn, skriv pseudokode og bruk geometrikunnskapen din til å skape din helt unike snøkrystall! Husk at det er lurt å samarbeide og utveksle ideer med andre.
 
 - [ ] Vi anbefaler å eksperimentere med koden. Kan du bruke løkker til å effektivisere koden?
 
@@ -224,7 +223,7 @@ gå (50) steg
 snu @turnLeft (vinkel) grader
 gå (arm) steg
 gå ((-1)*(25)) steg
-snu @turnRight ((2)*(vinkel)) grader 
+snu @turnRight ((2)*(vinkel)) grader
 gå (25) steg
 gå (-25) steg
 snu @turnLeft (45) grader
@@ -232,7 +231,7 @@ gå (25) steg
 snu @turnLeft (vinkel) grader
 gå (arm) steg
 gå ((-1)*(25)) steg
-snu @turnRight ((2)*(vinkel)) grader 
+snu @turnRight ((2)*(vinkel)) grader
 gå (arm) steg
 gå ((-1)*(arm)) steg
 snu @turnLeft (vinkel) grader
@@ -274,13 +273,13 @@ sekskant
 
 ## Eksportere og konvertere bildet  {.save}
 
-- [ ] Når du har laget en snøkrystall du er fornøyd med, kan du lagre bildet. 
-- PC: Høyretrykk på scena og velg "lagre bilde som". 
-- Nettbrett: Ta skjermdump først, så beskjære bildet slik at man kun sitter igjen med snøkrystallen. 
+- [ ] Når du har laget en snøkrystall du er fornøyd med, kan du lagre bildet.
+- PC: Høyretrykk på scena og velg "lagre bilde som".
+- Nettbrett: Ta skjermdump først, så beskjære bildet slik at man kun sitter igjen med snøkrystallen.
 
 - [ ] Om bildet skal printes ut på papir og f. eks. lamineres, kan du gjøre det nå.
 
-- [ ] Om bildet skal skjæres ut med vinylkutter eller laserkutter, eller 3D-printes, må bildet konverteres til vektorgrafikk (SVG) først. Til dette finnes det forskjellige onlinetjenester, eller du kan bruke Inkscape, Adobe Illustrator - eller programvaren som følger med vinylkutteren/laserkutteren. Nettsiden [https://convertio.co/png-svg/](https://convertio.co/png-svg/){target=_blank} fungerer fint til dette formålet.
+- [ ] Om bildet skal skjæres ut med vinylkutter eller laserkutter, eller 3D-printes, må bildet konverteres til vektorgrafikk (SVG) først. Til dette finnes det forskjellige onlinetjenester, eller du kan bruke Inkscape, Adobe Illustrator - eller programvaren som følger med vinylkutteren/laserkutteren. Nettsiden [convertio.co/png-svg](https://convertio.co/png-svg/){target=_blank} fungerer fint til dette formålet.
 
 - [ ] Når du har konvertert bildet til SVG, kan du for eksempel laste det opp (Import) i TinkerCAD, gjøre nødvendige justeringer der, og 3D-printe din favorittsnøkrystall!
 
@@ -289,5 +288,5 @@ ut"-knappen. Da vil det bli lagt ut på Scratch-hjemmesiden din slik at du enkel
 kan dele det med familien og vennene dine.
 
 # Lær mer om snøkrystaller {.try}
-Om du synes snøkrystaller er spennende, og har lyst å lære mer, kan du lese mer om hvordan snøkrystaller egentlig dannes her: [https://www.mn.uio.no/kjemi/tjenester/kunnskap/snokrystaller/](https://www.mn.uio.no/kjemi/tjenester/kunnskap/snokrystaller/){target=_blank}
+Om du synes snøkrystaller er spennende, og har lyst å lære mer, kan du lese mer om hvordan snøkrystaller egentlig dannes her: [mn.uio.no/kjemi/tjenester/kunnskap/snokrystaller](https://www.mn.uio.no/kjemi/tjenester/kunnskap/snokrystaller){target=_blank}
 #
