@@ -9,7 +9,7 @@ language: !<tag:yaml.org,2002:js/undefined> ''
 
 I denne oppgaven skal elevene jobbe med geometri, symmetri og rotasjon ved å designe snøkrystaller. I løpet av arbeidet skal de øve på å skrive og lese pseudokode, feilsøke og utforske egen og andres kode. 
 
-Til slutt kan man eksportere snøkrystallene og enten printe dem ut på papir, med vinylkutter eller laserkutter - eller 3D-printe dem!
+Til slutt kan man eksportere snøkrystallene og enten printe dem ut på papir, med vinylkutter eller laserkutter - eller 3D-printe dem! Selve vektoriseringen og printingen er utenfor denne oppgavens rekkevidde, og forutsetter at det er noe elevene/læreren/skolen har nødvendig utstyr og kompetanse til å få finne ut av selv. Under "eksterne ressurser" nederst i dette dokumentet, lenker vi til ressurser som kan brukes for å få mer informasjon.
 
 ## Oppgaven passer til: {.check}
 
@@ -48,7 +48,7 @@ Til slutt kan man eksportere snøkrystallene og enten printe dem ut på papir, m
 
 Det er mange ulike måter man kan vurdere et programmeringsprosjekt, og her må en
 selv vurdere hva som er den beste måten ut ifra hvilket fag man jobber i,
-hvilken aldergruppe og hviklet nivå elevene er på, hva man ønsker å teste og
+hvilken aldergruppe og hvilket nivå elevene er på, hva man ønsker å teste og
 hvor mye tid man har til rådighet til å jobbe med prosjektet. I vårt
 [lærerdokument](https://github.com/kodeklubben/oppgaver/wiki/Hvordan-undervise-i-og-vurdere-programmering){target=_blank} har vi blant
 annet beskrevet ulike måter dette kan gjøres på, tillegg til en del andre
@@ -94,3 +94,11 @@ oppgaven.
 
 - [ ] Denne oppgaven ble opprinnelig skrevet av Espen Clausen. Originaloppgaven finner du [her](https://espenec.wordpress.com/2020/11/29/undervisningsopplegg-tegne-snofnugg-i-scratch/){target=_blank}
 - [ ] Mer informasjon om snøkrystaller og hvordan de dannes, finner du [her](https://www.mn.uio.no/kjemi/tjenester/kunnskap/snokrystaller/){target=_blank}
+
+**Mer om vektorisering og printing:**
+- [ ] [Vektorisering i Inkscape](https://www.youtube.com/watch?v=BCj5IQUM0Oc){target=_blank}
+- [ ] [TinkerCAD for lærere](https://www.youtube.com/watch?v=uDFKwGVIKlA){target=_blank}
+- [ ] [Importere SVG i TinkerCAD](https://www.youtube.com/watch?v=y4HHSCzmgIo){target=_blank} (Trenger kun se det første minuttet av videoen)
+- [ ] Wikipedia: [Vektorgrafikk](https://no.wikipedia.org/wiki/Vektorgrafikk){target=_blank}
+
+Når det gjelder vinylkuttere og 3D-printere, finnes det så mange ulike alternativer at vi ikke kan ta høyde for alt her. Spør i Facebook-gruppa "Lær Kidsa Koding lærernettverk", eller søk etter tutorial-videoer på youtube for det utstyret du har tilgjengelig.
