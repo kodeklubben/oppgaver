@@ -123,6 +123,9 @@ skjul
 ```
 
 - [ ] Nå kan vi begynne å skrive algoritmen som skal tegne snøkrystallen vår. Bruk pseudokoden din fra steg 2. Scratch-versjonen av eksempelkoden i steg 2 ser slik ut:
+## {.tip}
+Vi bruker svart pennefarge og grov strek her, fordi enkelte farger og for tynne streker kan være vanskelig å plukke opp for vektoriseringsprogrammene. Dersom du skal printe ut snøkrystallen på papir, eller bare ha den digitalt, kan du velge hvilken farge og pennebredde som helst!
+##
 
 ```blocks
 Når [mellomrom v] trykkes
@@ -205,7 +208,7 @@ end
 
 - [ ] Nå er det opp til deg å skape noen fantastiske snøkrystaller! Tegn, skriv pseudokode og bruk geometrikunnskapen din til å skape din helt unike snøkrystall! Husk at det er lurt å samarbeide og utveksle ideer med andre. 
 
-- [ ] Vi anbefaler å eksperimentere med koden. Kan du bruke løkker til å effektivisere koden?
+- [ ] Vi anbefaler å eksperimentere med koden. Hva skjer om du endrer på vinkelstørrelser eller lengden på armene? Kan du bruke løkker til å effektivisere koden?
 
 ## Utfordring 2 - Snøkrystallgenerator{.challenge}
 
@@ -275,14 +278,14 @@ sekskant
 ## Eksportere og konvertere bildet  {.save}
 
 - [ ] Når du har laget en snøkrystall du er fornøyd med, kan du lagre bildet. 
-- PC: Høyretrykk på scena og velg "lagre bilde som". 
-- Nettbrett: Ta skjermdump først, så beskjære bildet slik at man kun sitter igjen med snøkrystallen. 
+- PC: Høyretrykk på scena og velg "lagre bilde som". (OBS! Av og til kan bildet bli helt svart når man lagrer det. Bare prøv på nytt dersom det skjer.)
+- Nettbrett: Ta skjermdump først, så beskjærer du bildet slik at du kun sitter igjen med selve snøkrystallen. 
 
 - [ ] Om bildet skal printes ut på papir og f. eks. lamineres, kan du gjøre det nå.
 
-- [ ] Om bildet skal skjæres ut med vinylkutter eller laserkutter, eller 3D-printes, må bildet konverteres til vektorgrafikk (SVG) først. Til dette finnes det forskjellige onlinetjenester, eller du kan bruke Inkscape, Adobe Illustrator - eller programvaren som følger med vinylkutteren/laserkutteren. Nettsiden [https://convertio.co/png-svg/](https://convertio.co/png-svg/){target=_blank} fungerer fint til dette formålet.
+- [ ] Om bildet skal skjæres ut med vinylkutter eller laserkutter, eller 3D-printes, må bildet konverteres til vektorgrafikk (SVG) først. Til dette anbefales verktøy som Inkscape, Adobe Illustrator - eller programvaren som følger med vinylkutteren/laserkutteren. Dersom man ikke har tilgang på disse programmene, fungerer nettsiden [https://convertio.co/png-svg/](https://convertio.co/png-svg/){target=_blank} fungerer fint til dette formålet. [Vectorizer.io](https://www.vectorizer.io/){target=_blank} er også et godt alternativ med litt flere valgmuligheter enn convertio. 
 
-- [ ] Når du har konvertert bildet til SVG, kan du for eksempel laste det opp (Import) i TinkerCAD, gjøre nødvendige justeringer der, og 3D-printe din favorittsnøkrystall!
+- [ ] Når du har konvertert bildet til SVG, kan du for eksempel laste det opp (Import) i [TinkerCAD](https://tinkercad.com){target=_blank}, gjøre nødvendige justeringer der, og 3D-printe din favorittsnøkrystall! Dette gjennomgår vi ikke i detalj her, ettersom oppsett osv varierer veldig. Det finnes mange gode tutorials på nett du kan søke opp for å lære mer om selve 3D-printingen.
 
 - [ ] Husk å gi Scratch-programmet ditt et navn. Når du er ferdig kan du klikke på "Legg
 ut"-knappen. Da vil det bli lagt ut på Scratch-hjemmesiden din slik at du enkelt
