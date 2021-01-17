@@ -45,29 +45,32 @@ Denne koden fungerer best med python 3. Dersom du har python 2, må du legge en
 """Vigenere encoding, by Arve Seljebu(arve@seljebu.no), MIT License,
 2014"""
 
-alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅabcdefghijklmnopqrstuvwxyzæøå
-.,?-_;:+1234567890"'
+alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅabcdefghijklmnopqrstuvwxyzæøå .,?-_;:+1234567890"'
 
 def vigenere_encode(msg, key):
     """Function that encodes a string with Vigenere cipher. The encrypted
-       string is returned. """ secret = '' key_length = len(key) alphabet_length
-    = len(alphabet)
+       string is returned. """ 
+    secret = '' 
+    key_length = len(key) 
+    alphabet_length = len(alphabet)
 
     for i, char in enumerate(msg):
-        msgInt = alphabet.find(char) encInt = alphabet.find(key[i % key_length])
+        msgInt = alphabet.find(char) 
+        encInt = alphabet.find(key[i % key_length])
 
         if msgInt == -1 or encInt == -1:
             return ''
 
-        encoded = (msgInt + encInt) % alphabet_length secret +=
-        alphabet[encoded]
+        encoded = (msgInt + encInt) % alphabet_length 
+        secret += alphabet[encoded]
 
     return secret
 
-message = 'My first computer program was a song called Popcorn written in
-QBasic. The second computer program I made was a bot made for IRC.' keyword =
-'source'
-encrypted = vigenere_encode(message, keyword) print(encrypted)
+message = 'My first computer program was a song called Popcorn written in QBasic. The second computer program I made was a bot made for IRC.' 
+keyword = 'source'
+
+encrypted = vigenere_encode(message, keyword) 
+print(encrypted)
 ```
 
 ## Hint {.protip}
