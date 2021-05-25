@@ -124,7 +124,7 @@ print(2+tall)
 **Hva:** En *if-setning* er en måte for å bestemme hva datamaskinen skal gjøre
 ved å sjekke om noe er sant (if* betyr *hvis* på engelsk). Dersom *if-setningen*
 ikke er sann kan vi be datamaskinen gjøre noe annet, og vi bruker da *else* som
-er engelsk for *eller*.
+er engelsk for *ellers*.
 
 **Hvordan:**
 
