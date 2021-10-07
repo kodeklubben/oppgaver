@@ -18,7 +18,7 @@ en [issue](//github.com/kodeklubben/oppgaver/issues). Særlig dersom du har et
 problem eller en idé som du ikke har en løsning på her og nå.
 
 Til slutt: Vi trenger din hjelp! Alle bidrag settes pris på og er nyttige for å
-gjøre nettsidene så gode som mulig.
+gjøre nettsidene så gode som mulig. Ta gjerne kontakt for å komme i gang.
 
 
 # English version
