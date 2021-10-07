@@ -50,13 +50,18 @@ bli kvitt ved å bruke følgende CSS innenfor `<style>`:
 body{
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     width: 1080px;
 }
 ```
 
 `margin-top: 0px; margin-bottom: 0px;` fjerner alle marger i `<body>` som
-allerede ligger inne som standard. Denne midtstiller også `<body>`-taggen på
-siden vår.
+allerede ligger inne som standard. `margin-left: auto; margin-right: auto;` midtstiller `<body>`-taggen på
+siden vår ved å legge inn automatisk margin på hver side ut fra hvor mye rom den har tilgjengelig.
+
+En annen, litt ryddigere måte å spesifisere dette på er å skrive `margin: 0 auto;`. Det betyr akkurat det 
+samme: 0 margin oppe og nede, og automatisk margin på høyre og venstre side.
 
 `width: 1080px;` forteller nettsiden vår at `<body>` skal være `1080px` bred.
 
@@ -156,8 +161,7 @@ lister.
 
 ```css
 nav ul{
-    margin-top: 0px;        /* fjerner marger og midtstiller */
-    margin-bottom: 0px;
+    margin: 0 auto;         /* fjerner marger og midtstiller */
     width: 1072px;          /* setter bredden til 1040px, siden */
     height: 40px;           /* setter høyden til 40px */
     border: #000000 4px solid; /* Ramme rundt hele lista */
@@ -394,8 +398,7 @@ bestemmer hvor mye av rød, grønn og blå det skal være i fargen.
     }
 
     body{
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin: 0 auto;
         width: 1080px;
         background-color: #634335;
     }
@@ -403,11 +406,10 @@ bestemmer hvor mye av rød, grønn og blå det skal være i fargen.
 
 
     nav ul{
-        margin-top: 0px;        /* fjerner marger og midtstiller */
-        margin-bottom: 0px;
-        width: 1072px;          /* setter bredden til 1040px, siden */
-        height: 40px;           /* setter høyden til 40px */
-        border: #000 4px solid; /* Ramme rundt hele lista */
+        margin: 0 auto;         /* fjerner marger og midtstiller */
+        width: 1072px;          /* setter bredden til 1040px, siden.. */
+        height: 40px;           /* .. denne linjen setter høyden til 40px.. */
+        border: #000 4px solid; /* .. og denne linjen gir 4px ramme på alle sider */
         padding: 0px;           /* Fjerner standard mellomrom mellom tekst og "vegger" */
     }
 
