@@ -1,6 +1,6 @@
 ---
-title: Lærerveiledning - Felix og Herbert
-author: Madeleine Lorås, Vegard Tuset
+title: Lærerveiledning - Heksens kjøkken
+author: Johanna B. Stumpf
 level: 1
 language: nb
 ---
@@ -8,9 +8,7 @@ language: nb
 
 # Om oppgaven {.activity}
 
-I denne oppgaven skal elevene lage et spill hvor katten __Felix__ skal fange
-musa __Herbert__. Spilleren styrer Herbert med musepekeren og skal prøve å unngå
-å bli tatt av Felix.
+I denne oppgaven skal elevene lage et "escape" spill hvor spilleren må klikke objekter for å løse gåter og finne nøkkelen.
 
 ## Oppgaven passer til: {.check}
 
@@ -22,7 +20,7 @@ __Tema__: Historiefortelling, Variabler
 
 __Tidsbruk__: Dobbelttime eller mer
 
-![Bilde av Felix og Herbert](felix_og_herbert.png)
+![heksens kjøkken start](heksens_kjøkken_start.png)
 
 ## Kompetansemål {.challenge}
 
@@ -47,7 +45,7 @@ __Tidsbruk__: Dobbelttime eller mer
       omgivelsene i spillet.
 
 - [ ] Elevene kan bruke språket (Norsk/Engelsk)til å generere en
-      bakgrunnsfortelling til Felix og Herbert.
+      bakgrunnsfortelling til heksens kjøkken og figurer i dette.
 
 - [ ] Elevene kan forklare hvordan variabler, løkker og tester fungerer.
 
@@ -87,7 +85,7 @@ __Tidsbruk__: Dobbelttime eller mer
 
 Her kommer tips, erfaring og utfordringer til hvert av stegene i den faktiske
 oppgaven. [Klikk her for å se
-oppgaveteksten.](../felix_og_herbert/felix_og_herbert.html){target=_blank}
+oppgaveteksten.](../heksens_kjøkken/heksens_kjøkken.html){target=_blank}
 
 _Vi har dessverre ikke noen tips, erfaringer eller utfordringer tilknyttet denne oppgaven enda._
 
