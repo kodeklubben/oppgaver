@@ -26,7 +26,7 @@ jobs:
       - name: Caching Dist Folder
         uses: actions/cache@v2
         with:
-          path: /home/runner/work/oppgaver/codeclub-viewer/dist
+          path: ../codeclub-viewer/dist/
           key: cache-dist-${{ github.sha }}
 
   deploy:
