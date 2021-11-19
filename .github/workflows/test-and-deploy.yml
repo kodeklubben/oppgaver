@@ -2,8 +2,6 @@ name: Codeclub-viewer
 on:
   push:
     branches: [master]
-  pull_request:
-    branches: [master]
 
 jobs:
   build:
@@ -16,7 +14,9 @@ jobs:
       - name: Clone codeclub-viewer
         run: git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
       - name: Build
-        run: yarn build
+        run: |
+          cd ../codeclub-viewer 
+          yarn build
       - name: Caching Dist Folder
         uses: actions/cache@v2
         with:
