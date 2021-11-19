@@ -16,7 +16,8 @@ jobs:
       - name: Build
         run: |
           cd ../codeclub-viewer 
-          yarn build
+          nvm install
+          yarn build:travis
       - name: Caching Dist Folder
         uses: actions/cache@v2
         with:
