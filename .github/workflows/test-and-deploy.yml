@@ -1,7 +1,16 @@
-name: Codeclub-viewer
+name: Oppgaver
+
 on:
   push:
-    branches: [master]
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - master
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
