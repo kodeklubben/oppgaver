@@ -31,6 +31,7 @@ jobs:
           cd ../codeclub-viewer
           yarn build:travis
       - name: Deploy
+        if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.NORWEGIANMANGO }}
