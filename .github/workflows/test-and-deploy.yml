@@ -40,6 +40,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.DEPLOYKEY }}
-          publish_branch: master
+          publish_branch: main
           publish_dir: ./dist
           external_repository: sagatun/sagatun.github.io
