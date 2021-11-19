@@ -13,11 +13,15 @@ jobs:
           node-version: '10'
       - name: Clone codeclub-viewer
         run: git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
+      - name: Install Node Modules
+        run : |
+        cd ../codeclub-viewer
+        yarn install
       - name: Build
         run: |
-          cd ../codeclub-viewer 
-          yarn install
-          yarn build:travis
+        pwd
+        yarn build:travis
+        ls
       - name: Caching Dist Folder
         uses: actions/cache@v2
         with:
