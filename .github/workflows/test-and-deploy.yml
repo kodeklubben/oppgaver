@@ -19,6 +19,7 @@ jobs:
           yarn install
       - name: Build
         run: |
+          cd ../codeclub-viewer
           pwd
           yarn build:travis
           ls
