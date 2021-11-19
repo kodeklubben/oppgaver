@@ -13,38 +13,14 @@ jobs:
           node-version: '10'
       - name: Clone codeclub-viewer
         run: git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
-      - name: Install Node Modules
-        run: |
-          cd ../codeclub-viewer
-          yarn install
       - name: Build
-        id: dist-folder
         run: |
           cd ../codeclub-viewer
           yarn build:travis
-
-      - name: Caching Dist Folder
-        uses: actions/cache@v2
-        with:
-          path: ../codeclub-viewer/dist/
-          key: cache-dist-${{ github.sha }}
-
-  deploy:
-    needs: build
-    name: GitPages Deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-      - name: Restoring Dist Folder
-        uses: actions/cache@v2
-        with:
-          path: ./dist
-          key: cache-dist-${{ github.sha }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.MANGO }}
           publish_branch: main
-          publish_dir: ./dist
+          publish_dir: ../codeclub-viewer/dist
           external_repository: sagatun/sagatun.github.io
