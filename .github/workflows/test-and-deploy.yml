@@ -1,0 +1,31 @@
+name: Codeclub-viewer
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '10'
+      - name: Clone codeclub-viewer
+        run: git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
+      - name: Install Dependencies
+        run: |
+          cd ../codeclub-viewer
+          yarn install
+      - name: Build
+        run: |
+          cd ../codeclub-viewer
+          yarn build:travis
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.NORWEGIANMANGO }}
+          publish_branch: master
+          publish_dir: ../codeclub-viewer/dist
+          cname: oppgaver.kidsakoder.no
+          external_repository: kodeklubben/kodeklubben.github.io
