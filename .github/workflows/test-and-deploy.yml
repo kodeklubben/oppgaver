@@ -14,7 +14,9 @@ jobs:
       - name: Clone codeclub-viewer
         run: git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
       - name: Install Dependencies
-        run: yarn install
+        run: |
+          cd ../codeclub-viewer
+          yarn install
       - name: Build
         run: |
           cd ../codeclub-viewer
