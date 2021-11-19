@@ -21,17 +21,12 @@ jobs:
         id: dist-folder
         run: |
           cd ../codeclub-viewer
-          pwd
           yarn build:travis
-          cd dist
-          pwd
-          cd ~ 
-          pwd
 
       - name: Caching Dist Folder
         uses: actions/cache@v2
         with:
-          path: ../codeclub-viewer/dist/
+          path: /home/runner/work/oppgaver/codeclub-viewer/dist
           key: cache-dist-${{ github.sha }}
 
   deploy:
