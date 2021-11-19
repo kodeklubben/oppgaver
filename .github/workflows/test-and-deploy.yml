@@ -24,7 +24,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.MANGO }}
-          publish_branch: main
+          deploy_key: ${{ secrets.NORWEGIANMANGO }}
+          publish_branch: master
           publish_dir: ../codeclub-viewer/dist
-          external_repository: sagatun/sagatun.github.io
+          cname: oppgaver.kidsakoder.no
+          external_repository: kodeklubben/kodeklubben.github.io
