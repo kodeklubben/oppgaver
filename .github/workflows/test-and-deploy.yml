@@ -13,6 +13,15 @@ jobs:
           node-version: '10'
       - name: Clone codeclub-viewer
         run: git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: ../codeclub-viewer/node_modules
+          key: node-modules-${{ hashFiles('yarn.lock') }}
+      - name: Install Dependencies
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: yarn install
       - name: Build
         run: |
           cd ../codeclub-viewer
