@@ -22,7 +22,6 @@ jobs:
           cd ../codeclub-viewer
           pwd
           yarn build:travis
-          ls
       - name: Caching Dist Folder
         uses: actions/cache@v2
         with:
