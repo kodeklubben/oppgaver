@@ -18,14 +18,17 @@ jobs:
           cd ../codeclub-viewer
           yarn install
       - name: Build
+        id: dist-folder
         run: |
           cd ../codeclub-viewer
           pwd
           yarn build:travis
+          echo "::set-output name=dir::$(.dist)"
+
       - name: Caching Dist Folder
         uses: actions/cache@v2
         with:
-          path: ../codeclub-viewer/dist
+          path: ${{ steps.dist-folder.outputs.dir }}
           key: cache-dist-${{ github.sha }}
 
   deploy:
@@ -43,7 +46,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.DEPLOYKEY }}
+          deploy_key: ${{ secrets.MANGO }}
           publish_branch: main
           publish_dir: ./dist
           external_repository: sagatun/sagatun.github.io
