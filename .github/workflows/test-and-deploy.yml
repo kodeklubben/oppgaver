@@ -16,7 +16,8 @@ jobs:
       - name: Build
         run: |
           cd ../codeclub-viewer 
-          ls
+          yarn install
+          yarn build:travis
       - name: Caching Dist Folder
         uses: actions/cache@v2
         with:
@@ -33,7 +34,7 @@ jobs:
       - name: Restoring Dist Folder
         uses: actions/cache@v2
         with:
-          path: ./dist
+          path: ../codeclub-viewer/dist
           key: cache-dist-${{ github.sha }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
