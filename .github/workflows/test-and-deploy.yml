@@ -5,10 +5,6 @@ on:
     branches:
       - master
 
-concurrency:
-  group: ${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '10'
+          node-version: '10.16.0'
       - name: Clone codeclub-viewer
         run: git clone --depth=1 --branch=master https://github.com/kodeklubben/codeclub-viewer.git ../codeclub-viewer
       - name: Install Dependencies
