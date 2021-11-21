@@ -3,9 +3,6 @@ name: Oppgaver
 on:
   push:
     branches:
-      - '*'
-  pull_request:
-    branches:
       - master
 
 concurrency:
