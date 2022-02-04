@@ -1,6 +1,6 @@
 ---
 title: hei
-author: Erik Brendbekken Rudlang
+author: Erik Brendbekken Rudlang, Arthur
 language: nb
 ---
 (TEKSTMAL FOR OPPGAVER)
