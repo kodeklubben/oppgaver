@@ -1,6 +1,6 @@
 ---
 title: Dette er en test
-author: ''
+author: Erik Sagatun
 language: nb
 ---
 (TEKSTMAL FOR LÆRERVEILEDNING)
