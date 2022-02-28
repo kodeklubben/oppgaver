@@ -1,5 +1,5 @@
 ---
-title: Kunst med geometriske figurer
+title: Lærerveiledning - Kunst med geometriske figurer
 author: Carl Andreas Myrland
 language: nb
 ---
