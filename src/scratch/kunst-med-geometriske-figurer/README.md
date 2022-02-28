@@ -1,5 +1,5 @@
 ---
-title: Geometrikunst
+title: Kunst med geometriske figurer
 author: Carl Andreas Myrland
 language: nb
 ---
