@@ -1,5 +1,5 @@
 ---
-title: Geometrikunst 2
+title: Geometrikunst
 author: Carl Andreas Myrland
 language: nb
 ---
