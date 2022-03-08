@@ -3,6 +3,7 @@ title: Lærerveiledning - Kunst med geometriske figurer
 author: Carl Andreas Myrland
 language: nb
 ---
+
 # Om oppgaven {.activity}
 
 I denne oppgaven lærer elevene å skrive et enkelt program som lar deg tegne regulære mangekanter ved å trykke på et tilfeldig sted på scena. I første omgang setter vi opp en enkel algoritme vi kan justere på for å tegne ulike regulære mangekanter. For nybegynnere kan det være nok å kode til og med Steg 2. For elever som har kodet litt fra før, eller skal lære om funksjoner (matematikk, 6. trinn) og forbedring av algoritmer (matematikk, 8. trinn), er stegene 3-5 nyttige.
@@ -11,11 +12,9 @@ Vi har forsøkt å skrive oppgaven så enkelt og tydelig som mulig, slik at alt 
 
 Legg også merke til at Steg 2 er skrevet to ganger, én gang for nettbrett, og én gang for PC. Dette pga ulikheter i hvordan brukeren interagerer med Scratch med mus vs touchskjerm.
 
-
-
 ## Oppgaven passer til: {.check}
 
- **Fag**: Matematikk, Kunst og Håndverk, Programmering
+**Fag**: Matematikk, Kunst og Håndverk, Programmering
 
 **Anbefalte trinn**: 5.-7. klasse, 8.-10. klasse
 
@@ -40,7 +39,7 @@ Det er mange ulike måter man kan vurdere et programmeringsprosjekt, og her må 
 selv vurdere hva som er den beste måten ut ifra hvilket fag man jobber i,
 hvilken aldergruppe og hviklet nivå elevene er på, hva man ønsker å teste og
 hvor mye tid man har til rådighet til å jobbe med prosjektet. I vårt
-[lærerdokument](https://github.com/kodeklubben/oppgaver/wiki/Hvordan-undervise-i-og-vurdere-programmering){target=_blank} har vi blant
+[lærerdokument](https://github.com/kodeklubben/oppgaver/wiki/Hvordan-undervise-i-og-vurdere-programmering){target=\_blank} har vi blant
 annet beskrevet ulike måter dette kan gjøres på, tillegg til en del andre
 nyttige tips til hvordan man underviser i programmering.
 
@@ -53,10 +52,12 @@ nyttige tips til hvordan man underviser i programmering.
 ## Kodefasit
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
-oppgaven. 
+oppgaven.
 
 # Steg 1: Komplett kode etter steg 1 {.activity}
-For figuren `Pencil`
+
+For figuren `Pencil`:
+
 ```blocks
 Når grønt flagg klikkes
 send melding [klar v]
@@ -74,9 +75,9 @@ gjenta for alltid
 gå til [musepeker v]
 ```
 
-
 # Steg 2: Komplett kode etter steg 2 (PC) {.activity}
-For figuren `Pencil`
+
+For figuren `Pencil`:
 
 ```blocks
 Når grønt flagg klikkes
@@ -100,13 +101,15 @@ penn på
 pek i retning (90)
 gjenta (4) ganger
 gå (100) steg
-vend høyre (90) grader 
+vend høyre (90) grader
 end
 penn av
 send melding [ferdig v]
 ```
+
 # Steg 2: Komplett kode etter steg 2 (nettbrett) {.activity}
-For figuren `Button1`
+
+For figuren `Button1`:
 
 ```blocks
 Når grønt flagg klikkes
@@ -116,7 +119,7 @@ Når denne figuren klikkes
 send melding [start v]
 ```
 
-For figuren `Pencil`
+For figuren `Pencil`:
 
 ```blocks
 Når grønt flagg klikkes
@@ -140,19 +143,19 @@ penn på
 pek i retning (90)
 gjenta (4) ganger
 gå (100) steg
-vend høyre (90) grader 
+vend høyre (90) grader
 end
 penn av
 send melding [ferdig v]
 ```
 
-# Steg 3:  {.activity}
+# Steg 3: {.activity}
+
 Her skal ikke elevene lage ny kode, kun endre på eksisterende kode.
-#
 
 # Steg 4: Komplett kode fra steg 4 {.activity}
 
-Her må elevene bygge om koden fra steg 2 til å bli slik.
+Her må elevene bygge om koden fra steg 2 til å bli som følger.
 
 Første del gjelder både PC og nettbrett:
 
@@ -181,22 +184,23 @@ end
 
 **Den neste delen er ulik for PC og nettbrett.**
 
-**PC:**
+**PC**
 
-For figuren `Pencil`
+For figuren `Pencil`:
+
 ```blocks
 Når denne figuren klikkes
 stopp [andre skript i figuren v]
 penn på
 pek i retning (90)
-mangekant () () 
+mangekant () ()
 penn av
 send melding [ferdig v]
 ```
 
-**For nettbrett:**
+**For nettbrett**
 
-For figuren `Button1`
+For figuren `Button1`:
 
 ```blocks
 Når grønt flagg klikkes
@@ -206,7 +210,7 @@ Når denne figuren klikkes
 send melding [start v]
 ```
 
-For figuren `Pencil`
+For figuren `Pencil`:
 
 ```blocks
 Når grønt flagg klikkes
@@ -226,10 +230,9 @@ gå til [musepeker v]
 
 ```
 
-#
-
 # Steg 5: Eksempel på hvordan koden kan utformes {.activity}
-Dette steget åpner for kreativitet og utforskning. Her er et forslag til hvordan koden kan settes opp. Merk: Dette er justeringer på eksisterende kode. 
+
+Dette steget åpner for kreativitet og utforskning. Her er et forslag til hvordan koden kan settes opp. Merk: Dette er justeringer på eksisterende kode.
 
 ```blocks
 Når grønt flagg klikkes
@@ -237,7 +240,8 @@ sett pennfarge til ()
 send melding [klar v]
 ```
 
-For figuren `Pencil`
+For figuren `Pencil`:
+
 ```blocks
 Når denne figuren klikkes
 stopp [andre skript i figuren v]
@@ -245,8 +249,7 @@ endre pennfarge med (15)
 sett pennbredde til (tilfeldig tall fra (1) til (10))
 penn på
 pek i retning (tilfeldig tall fra (-180) til (180))
-mangekant (sideAntall) (sideLengde) 
+mangekant (sideAntall) (sideLengde)
 penn av
 send melding [ferdig v]
 ```
-#

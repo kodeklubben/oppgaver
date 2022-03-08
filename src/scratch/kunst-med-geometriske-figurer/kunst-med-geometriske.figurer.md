@@ -24,7 +24,7 @@ Først setter vi opp de "kjedelige" tingene for å få programmet til å fungere
 
 - [ ] Bytt tilbake til "Kode"-fanen.
 
-- [ ] Legg til Penn-biblioteket ved å trykke på det blå "+"-ikonet nederst i vesntre hjørne på skjermen og velg "Penn"
+- [ ] Legg til Penn-biblioteket ved å trykke på det blå "+"-ikonet nederst i venstre hjørne på skjermen og velg "Penn"
 
 - [ ] Hent blokken `når grønt flagg klikkes`{.blockevents} og `send melding [melding1]`{.blockevents} og sett disse sammen.
 
@@ -65,13 +65,9 @@ gå til [musepeker v]
 
 # Steg 2: Lag kunst! (PC){.activity}
 
-#
-
 ## PC eller nettbrett?{.protip}
 
 I dette steget finner du instruksjoner for både enheter med ekstern mus og enheter med berøringsskjerm. Pass på at du velger riktig instruksjon til enheten du skal bruke, feks iPad eller PC
-
-#
 
 Nå skal vi sette sammen koden som lar oss tegne geometriske figurer! Vi begynner med en enkel variant, og så gjør vi koden mer avansert i steg 3.
 
@@ -102,11 +98,7 @@ send melding [ferdig v]
 
 - [ ] Nå får vi riktignok bare tegnet én type figur. Forstår du hvorfor? I neste avsnitt skal vi lære å lage flere figurer!
 
-#
-
 # Steg 2: Lag kunst! (nettbrett){.activity}
-
-#
 
 ## Instruksjoner for nettbrett {.check}
 
@@ -143,19 +135,15 @@ send melding [ferdig v]
 
 **Klikk på det grønne flagget.**
 
-- [ ] trykk et tilfeldig sted på scena
+- [ ] Trykk et tilfeldig sted på scena
 
-- [ ] trykk på knappen vi satte inn
+- [ ] Trykk på knappen vi satte inn
 
 - [ ] Dukker det opp en figur der du trykket?
 
 - [ ] Trykk flere steder på skjermen, etterfulgt av et trykk på knappen. Hva skjer?
 
 - [ ] Nå får vi riktignok bare tegnet én type figur. Forstår du hvorfor? I neste avsnitt skal vi lære å lage flere figurer!
-
-#
-
-#
 
 # Steg 3: Flere geometriske figurer {.activity}
 
@@ -176,8 +164,6 @@ end
 
 - [ ] Nøkkelen er _forholdet_ mellom antall ganger `gjenta`{.blockcontrol}-løkken kjøres, og hvor mange grader figuren skal snu.
 
-#
-
 ## Vinkelsummer{.protip}
 
 Du vet kanskje at ulike figurer har ulike vinkelsummer. I matematikken lærer vi at en trekant har vinkelsum 180 grader, firkanter 360 grader, femkanter 540 grader, osv.
@@ -187,8 +173,6 @@ Dette er riktig dersom man måler innvendige vinkler i figuren. Men for at dette
 Du vet kanskje at summen av to nabovinkler alltid er 180 grader. Det betyr at når vi sier at alle vinklene i en likesidet trekant er 60 grader, må vi bruke nabovinkelen 120 grader når vi skal be datamaskinen tegne en likesidet trekant. For en rettvinklet firkant blir nabovinkelen uansett 90 grader. For en femkant er nabovinkelen 72 grader, osv.
 
 Når vi beregner utvendige vinkler på regulære geometriske figurer, blir vinkelsummen alltid 360 grader! Forstår du hvorfor?
-
-#
 
 - [ ] Målet er at produktet av antall repetisjoner multiplisert med antall grader, skal bli 360 grader. Da kan vi tenke oss at antall repetisjoner (`gjenta (3) ganger`{.blockcontrol}) forteller oss hvor mange kanter figuren vår får, mens antall `grader`{.blockmotion} må justeres slik at produktet blir 360 grader. `gå () steg`{.blockmotion} angir kun hvor lange sidene i figuren blir:
 
@@ -209,8 +193,6 @@ Trenger du å finne ut hvor stor den utvendige vinkelen må være for en gitt ma
 
 osv.
 
-#
-
 ## Test prosjektet {.flag}
 
 **Klikk på det grønne flagget.**
@@ -226,8 +208,6 @@ osv.
 Nå som vi har fungerende kode som lar oss tegne ulike figurer, kan vi se på hvordan vi kan rydde litt i koden for å gjøre den enda litt bedre, og spare oss for jobb senere! Dette gjør vi ved å først lage en `funksjon`{.blockmoreblocks} som automatiserer en del av jobben for oss. I Scratch kalles `funksjoner`{.blockmoreblocks} "`Mine klosser`{.blockmoreblocks}", så vi finner den første klossen vi trenger der.
 
 ## Lag en funksjon {.check}
-
-#
 
 - [ ] Gå til kategorien `Mine klosser`{.blockmoreblocks}, og trykk "Lag en kloss".
 
@@ -267,8 +247,6 @@ mangekant (kanter) (sidelengde)
 
 Koden for mus og berøringsskjerm er lik herfra og ut, den eneste forskjellen er hendelsen som starter skriptet som lager tegningen. For mus er det `Når denne figuren klikkes`{.blockevents}, for berøringsskjerm er det `Når jeg mottar [start]`{.blockevents}
 
-#
-
 - [ ] Først må vi fjerne `gjenta`{.blockcontrol}-løkken fra sekvensen, slik at vi sitter igjen med
 
 ```blocks
@@ -298,8 +276,6 @@ send melding [ferdig v]
 
 `Mangekant`{.blockmoreblocks}-blokken vises med rød farge i koden over, men det er av tekniske årsaker i verktøyet vi skriver oppgaven med. Du kan se bort fra feil farger på klossene i denne delen av oppgaven.
 
-#
-
 Du kan nå fylle inn hvor mange kanter du vil at figuren skal ha, og hvor lange de skal være i funksjonsblokken
 
 - [ ] Hvis vi vil tegne en sekskant med 40 piksler lange sider, fyller vi inn:
@@ -320,8 +296,6 @@ mangekant (6) (40)
 
 - [ ] Forstår du hva som skjer?
 
-#
-
 ## Den magiske formelen {.challenge}
 
 Denne formelen er det "magiske" elementet i koden vår:
@@ -334,11 +308,7 @@ Denne utregningen finner nemlig vinkelen i en regulær mangekant, kun ved å vit
 
 Klarer du å finne ut hvorfor det blir slik?
 
-#
-
 # Steg 5: Litt mer farge og liv! {.activity}
-
-#
 
 Vi har nå laget et program som lar deg lage mange forskjellige kunstverk ved hjelp av geometriske figurer, men figurene har kanskje litt kjedelige farger?
 
@@ -377,8 +347,6 @@ tilfeldig tall fra () til ()
 ```
 
 fra `operatorer`{.blockoperators}-kategorien. `Tilfeldig tall`{.blockoperators}-klossen kan settes inn i `pek i retning`{.blockmotion}-klossen, i `mangekant`{.blockmoreblocks}-klossen, og i de ulike `penn`{.blockpen}-klossene for å endre farge og bredde.
-
-#
 
 ## Gjør programmet enda enklere å bruke! {.protip}
 
