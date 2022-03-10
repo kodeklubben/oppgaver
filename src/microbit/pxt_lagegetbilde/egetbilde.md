@@ -30,12 +30,12 @@ programmet vårt lastes over på micro:biten vår.
 
 - [ ] Nå vil vi legge til et bilde vi vil at skal vises på micro:biten vår. Vi
 går først inn i kategorien `Basis`{.microbitbasic}. Der finner vi klossen
-`show leds`{.microbitbasic}, som lar tegne et bilde på egenhånd, ved å velge
-hvilke leds som skal tennes. Vi kan også bruke klossen `vis ikon`{.microbitbasic},
+`vis skjerm`{.microbitbasic}, som lar tegne et bilde på egenhånd, ved å velge
+hvilke lys som skal tennes. Vi kan også bruke klossen `vis ikon`{.microbitbasic},
 men der er bildene allerede tegnet for oss.
 
 - [ ] Legg nå klossen du har valgt inne i `ved start`{.microbitbasic}-klossen.
-Tegn i vei dersom du valgt `show leds`{.microbitbasic}-klossen! Om du valgte `vis ikon`{.microbitbasic}-klossen,
+Tegn i vei dersom du valgt `vis skjerm`{.microbitbasic}-klossen! Om du valgte `vis ikon`{.microbitbasic}-klossen,
 kan du bruke den lille pila til å velge blant mange andre bilder.
 
 Vi har valgt å tegne vårt eget bilde, så vår kode ser ut som dette:
@@ -56,7 +56,7 @@ Vi har valgt å tegne vårt eget bilde, så vår kode ser ut som dette:
 ## Sjekkliste {.check}
 
 - [ ] Nå kan du legge til flere bilder dersom du ønsker det. Da legger du bare
-den nye klossen med `show leds`{.microbitbasic} eller `vis ikon`{.microbitbasic}
+den nye klossen med `vis skjerm`{.microbitbasic} eller `vis ikon`{.microbitbasic}
 under den forrige.
 
 - [ ] Sånn! Nå er koden vår ferdig og vi kan gå videre til å teste den.
