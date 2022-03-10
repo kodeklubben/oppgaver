@@ -188,7 +188,9 @@ end
 Trenger du å finne ut hvor stor den utvendige vinkelen må være for en gitt mangekant, finner du det ved å dele 360 på antall sider i figuren:
 
 360 : 3 = 120
+
 360 : 4 = 90
+
 360 : 5 = 72
 
 osv.
