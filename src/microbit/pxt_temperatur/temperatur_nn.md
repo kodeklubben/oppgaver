@@ -114,7 +114,7 @@ endringa gir oss nye moglegheiter! Sidan me no veit resultatet av
 temperaturmålingen kan me til dømes vise ein sol kvar gang me måler over 20 °C,
 ein paraply kvar gang me måler under 20 °C.
 
-- [ ] Med klossen `show leds`{.microbitbasic} som du finn i `Basis`{.microbitbasic}-kategorien
+- [ ] Med klossen `vis skjerm`{.microbitbasic} som du finn i `Basis`{.microbitbasic}-kategorien
   kan me sjølv bestemme biletet som visast på skjermen til micro:biten. Prøv å
   teikne ei sol og ein paraply på kvar sin bilete-kloss (eller andre bilete du
   heller vil bruke). Me kan også bruke klossen `vis ikon`{.microbitbasic} og velje

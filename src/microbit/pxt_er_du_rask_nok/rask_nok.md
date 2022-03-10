@@ -155,7 +155,7 @@ og deretter fylle inn at vi vil vise en pil mot Øst.
 
 - [ ] Vi kan ha tilfeller hvor det samme `pilnummer`{.microbitvariables} velges
 flere ganger etter hverandre. For å skille hver gang det kommer en ny pil legger
-vi inn et bilde mellom hver gang. Bruk klossen `show leds`{.microbitbasic} til
+vi inn et bilde mellom hver gang. Bruk klossen `vis skjerm`{.microbitbasic} til
 å lage et bilde som skal komme mellom hver pil.
 
 - [ ] Nå har vi lagd hele spillet vårt, og når det er over vil vi gjerne vise

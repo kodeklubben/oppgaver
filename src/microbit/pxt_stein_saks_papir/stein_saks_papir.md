@@ -115,7 +115,7 @@ sier `hvis- bildenummer = 0`{.microbitlogic}.
 - [ ] Dersom variablen `bildenummer`{.microbitvariables} innholder verdien 0
 ønsker vi å vise et bilde av en stein, som bestemt over. Velg klossen `vis ikon`{.microbitbasic}
 fra `Basis`{.microbitbasic}-kategorien og velg et bilde som skal representere en
-stein. Eventuelt kan du lage bildet selv med `show leds`{.microbitbasic}-klossen.
+stein. Eventuelt kan du lage bildet selv med `vis skjerm`{.microbitbasic}-klossen.
 Plasser klossen inne i `hvis-bildenummer = 0`{.microbitlogic}-blokken
 
   ```microbit
