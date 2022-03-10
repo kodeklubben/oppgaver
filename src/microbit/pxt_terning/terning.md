@@ -143,7 +143,7 @@ Om du tester prosjektet ditt nå skal det oppføre seg helt likt som før! Men
 denne endringen gir oss nye muligheter! Siden vi nå vet resultatet av
 terningkastet kan vi for eksempel vise et smilefjes hver gang vi kaster en 6'er:
 
-- [ ] Med klossen `vis ikon`{.microbitbasic} eller `show leds`{.microbitbasic}
+- [ ] Med klossen `vis ikon`{.microbitbasic} eller `vis skjerm`{.microbitbasic}
 fra `Basis`{.microbitbasic}-kategorien kan vi selv velge et bildet eller lage et
 bildet som skal vises på skjermen til micro:biten. Prøv for eksempel å tegne et
 smilefjes (eller et annet bilde du heller vil bruke).
