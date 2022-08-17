@@ -6,9 +6,7 @@ language: nb
 
 # Introduksjon {.intro}
 
-I matematikktimene har du lært om primtall, altså tall som er slik at de 
-bare kan deles av seg selv og 1. Nå skal vi se hvordan vi kan undersøke 
-om et vilkårlig heltall er et primtall eller ikke.
+I matematikktimene har du lært om primtall, altså tall som bare er delelige med seg selv og 1. Nå skal vi se hvordan vi kan undersøke om et vilkårlig heltall er et primtall eller ikke.
 
 Når vi skal kryptere data er vi ofte avhengige av å jobbe med store 
 primtall, og vi vil få bruk for det i senere oppgaver. For å jobbe med 
