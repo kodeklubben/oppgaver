@@ -14,7 +14,7 @@ oppgaver på en praktisk og ordentlig måte. Der finner du tips til programvare 
 jobbe i, og tips til hvordan du skriver en god oppgave.
 
 Hvis du har funnet en feil eller har lyst å forbedre noe, så kan du gjerne sende
-en [issue](//github.com/kodeklubben/oppgaver/issues). Særlig dersom du har et
+en [issue](https://github.com/kodeklubben/oppgaver/issues). Særlig dersom du har et
 problem eller en idé som du ikke har en løsning på her og nå.
 
 Til slutt: Vi trenger din hjelp! Alle bidrag settes pris på og er nyttige for å
@@ -41,7 +41,7 @@ recommendations for useful software and tips on how to write good assignments.
 There is a template for assignments as well.
 
 If you find any errors or want to improve something, you are welcome to raise an
-[issue](//github.com/kodeklubben/oppgaver/issues). In particular if you have a
+[issue](https://github.com/kodeklubben/oppgaver/issues). In particular if you have a
 problem or an idea which you do not have a solution for right here and now.
 
 Finally: we need your help! All contributions are highly valued and useful to
