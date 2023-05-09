@@ -137,22 +137,12 @@ venstre og høyre så trenger vi en variabel som  sier hvilken retning den er p�
 vei. Vi beveger slangen ved å legge til et nytt punkt i begynnelsen og ta vekk
 det siste punktet  på halen.
 
-## Tips {.tip}
-
-I denne oppgaven bruker vi både klossprogrammering og håndskrevet kode. Før vi
-bytter mellom klossprogrammering og javascript så  kan det være lurt å lagre
-spillet. Det pleier å gå fint å bytte mellom klosser og javascript selv om noen
-klosser kan bli grå.  Det hender at makecode ikke skjønner noe kode og kode
-forsvinner. Da er det veldig greit å ha et lagret punkt å gå tilbake til.  Men
-du trenger ikke bry deg med om f.eks. noen variabler flytter litt rundt på seg.
-
 ## Steg for steg {.check}
 
 - [ ] Lag en ny variabel. Kall variabelen `direction`. Sett variabelen til `up`
   i oppstartsklossen.
 
-- [ ] Nå skal vi lage en funksjon som oppdaterer `snake`. Får å få til dette må
-  vi skrive litt javascript. Lag først fuksjonen `updateSnake()`.
+- [ ] Nå skal vi lage en funksjon som oppdaterer `snake`.
 
 ```microbit
 function updateSnake(){
@@ -187,8 +177,10 @@ function updateSnake(){
 ```
 
 - [ ] Så dytter vi inn `x` og `y` i begynnelsen av arrayen `snake` med
-  funksjonen `unshift()` og fjerne et punkt (to verdier, x og y)  fra halen med
-  funksjonen `pop()`, slik at slangen beveger seg et hakk
+  javascript funksjon `unshift()` (eller `insert at begin`-klossen) og
+  fjerne et punkt (to verdier, x og y) fra halen med javascript funksjonen
+  `pop()` (eller `remove last from`-klossen), slik at slangen beveger seg et
+  hakk.
 
 ```microbit
     snake.unshift(y);
