@@ -52,7 +52,15 @@ gir dette oss en `(X,Y)`-posisjon til leden som vi skal skru på.
   til `snake`. Legg den inn i `on start`-klossen. Trykk `+` til du har fire
   verdier i listen og sett dem til `2`, `2`, `2` og `3`. Da skal det se slik ut:
 
-![Bilde av kode for setting av liste](Set_array_on_start.png)
+```microbit
+let snake: number[] = []
+snake = [
+2,
+2,
+2,
+3
+]
+```
 
 Nå trenger vi litt kode for å tegne slangen. For å gjøre det litt enklere å
 holde oversikt over programmet vårt så gjør vi dette med en funksjon.
@@ -78,12 +86,25 @@ tenk "sånn er det bare".
   i `y`.  Nå har vi det vi trenger for å tegne et punkt i slangen. Til dette
   bruker vi `plot(x,y)` funksjonen som ligger under `led`-fanen.
 
-![Bilde av kode for å tegne slangen](draw_snake_function.png)
+```microbit
+function drawSnake () {
+    for (let index = 0; index <= snake.length - 1; index++) {
+        x = snake[index]
+        index += 1
+        y = snake[index]
+        led.plot(x, y)
+    }
+}
+```
 
 - [ ] Nå må vi bare kalle denne funksjonen fra et sted. Vi legger inn et kall
   til `drawSnake()` i `forever()`.
 
-![Bilde av hovedløkke steg 1](snake_mainloop_steg1.png)
+```microbit
+basic.forever(function () {
+    drawSnake()
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -236,18 +257,38 @@ en liten startskjerm.
   startklossen. Aller først i startklossen legger du en  `show icon`-kloss med
   "snake"-ikonet.
 
-![Bilde av start](show_startscreen.png)
+```microbit
+basic.showIcon(IconNames.Snake)
+let isPlaying = false
+```
 
 - [ ] I `forever`-funksjonen legger du en `if` som tester om `isPlaying` er
   sant(`true`). I så fall skal programmet tegne og oppdatere, så dette putter du
   inni `if`-klossen.
 
-![Bilde av forever](snake_mainloop_steg2.png)
+```microbit
+basic.forever(function () {
+    if (isPlaying) {
+        basic.clearScreen()
+        drawSnake();
+        updateSnake();
+        basic.pause(1000);
+    }
+})
+```
 
 - [ ] Så legger vi til funksjoner for knappene. Når knappen blir trykket setter
   du `isPlaying` til `true`
 
-![Bilde av knappekode for å starte](Buttons_code_start.png)
+```microbit
+input.onButtonPressed(Button.A, function () {
+    isPlaying = true
+})
+input.onButtonPressed(Button.B, function () {
+    isPlaying = true
+
+})
+```
 
 ## Test prosjektet i simulatoren {.flag}
 
