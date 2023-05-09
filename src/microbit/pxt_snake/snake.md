@@ -153,8 +153,10 @@ function updateSnake(){
   punktet, `x`- og `y`-koordinater, i fra `snake`.
 
 ```microbit
-	x = snake[0]
-	y = snake[1]
+function updateSnake(){
+    x = snake[0]
+    y = snake[1]
+}
 ```
 
 - [ ] Deretter skal vi trekke i fra en på `y` hvis direction er `up`, plusse på
@@ -162,6 +164,7 @@ function updateSnake(){
   `x` hvis `right`.
 
 ```microbit
+function updateSnake(){
     if (direction == 'up') {
         y = y - 1;
     }
@@ -174,6 +177,7 @@ function updateSnake(){
     if (direction == 'right') {
         x = x + 1
     }
+}
 ```
 
 - [ ] Så dytter vi inn `x` og `y` i begynnelsen av arrayen `snake` med
@@ -183,10 +187,12 @@ function updateSnake(){
   hakk.
 
 ```microbit
+function updateSnake(){
     snake.unshift(y);
     snake.unshift(x);
     snake.pop();
     snake.pop();
+}
 ```
 
 - [ ] Til slutt legger vi til et kall til `updateSnake()` i `forever()`
@@ -416,7 +422,9 @@ __På tide å prøve spillet på micro:bit__
   oktav i 20 ms som blir et fint lite blip.
 
 ```microbit
+function updateSnake(){
     music.playTone(Note.C5, 20)
+}
 ```
 
 - [ ] Så vil vi spille en liten melodi når det er game over. Microbitten har
@@ -425,7 +433,9 @@ __På tide å prøve spillet på micro:bit__
   rett før du viser hodeskallen.
 
 ```microbit
+function checkGameOver(){
     music.beginMelody(music.builtInMelody(Melodies.Wawawawaa), MelodyOptions.Once);
+}
 ```
 
 ## Test prosjektet {.flag}
@@ -531,12 +541,14 @@ Hvordan gjør vi det? Vi lar bare være å fjerne det siste punktet på halen i
   slangen ikke spiser mat, gjør vi det samme som før.
 
 ```microbit
-if (x == foodX && y == foodY) {
-    music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
-    generateFood();
-} else {
-    snake.pop();
-    snake.pop();
+function updateSnake(){
+    if (x == foodX && y == foodY) {
+        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
+        generateFood();
+    } else {
+        snake.pop();
+        snake.pop();
+    }
 }
 ```
 
@@ -567,16 +579,18 @@ function checkGameOver(x: number, y: number) {
   av `updateSnake()` slik
 
 ```microbit
-if (x === foodX && y === foodY) {
-    music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
-    updateRate *= 0.95;
-    generateFood();
-} else {
-    snake.pop();
-    snake.pop();
+function updateSnake(){
+    if (x === foodX && y === foodY) {
+        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
+        updateRate *= 0.95;
+        generateFood();
+    } else {
+        snake.pop();
+        snake.pop();
+    }
+    buttonPressed = false
+    updateRate -= 5;
 }
-buttonPressed = false
-updateRate -= 5;
 ```
 
 - [ ] Så bruker vi `updateRate` i pausen i `forever()`
@@ -631,7 +645,9 @@ function drawFood() {
   samme sted som vi setter `isPlaying = true` på første knappetrykk.
 
 ```microbit
-	lastUpdateTime = input.runningTime();
+input.onButtonPressed(Button.A, function () {
+    lastUpdateTime = input.runningTime();
+}
 ```
 
 - [ ] I `forever()` henter vi ut tiden og ser om det har gått lengre tid enn
@@ -641,7 +657,6 @@ function drawFood() {
 
 ```microbit
 basic.forever(function () {
-
 	  if (isPlaying) {
 	      basic.clearScreen();
 	      drawSnake();
