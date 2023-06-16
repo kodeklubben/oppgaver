@@ -50,9 +50,9 @@ void setup() {
 }
 
 void loop() {
-    pinMode(pin, HIGH);
+    dititalWrite(pin, HIGH);
     delay(500);
-    pinMode(pin, LOW);
+    digitalWrite(pin, LOW);
     delay(500);
 }
 ```
