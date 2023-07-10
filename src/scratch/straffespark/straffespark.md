@@ -147,7 +147,8 @@ __Klikk på det grønne flagget.__
   gå til x: (100) y: (-50)
   pek i retning (0 v)
   gjenta for alltid
-      gå (15) steg
+      gli (0.8) sekunder til x: (100) y: (-130)
+      gli (0.8) sekunder til x: (100) y: (30)
       sprett tilbake ved kanten
   slutt
   ```
