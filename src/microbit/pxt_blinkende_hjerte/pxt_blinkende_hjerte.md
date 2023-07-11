@@ -8,12 +8,14 @@ language: nb
 # Introduksjon {.intro}
 I denne oppgaven skal vi få et hjerte til å blinke i ulike hastigheter.
 
-Trykk på denne lenken for å komme til MakeCode: https://makecode.microbit.org/
-Trykk så på nytt prosjekt før du begynner på oppgaven.
-
 # Steg 1: Vi finner "gjenta for alltid"-klossen {.activity}
 
 ## Sjekkliste {.check}
+
+- [ ] Trykk på denne lenken for å komme til MakeCode:
+      [MakeCode](https://makecode.microbit.org/){target=_blank}.
+
+- [ ] Trykk på nytt prosjekt.
 
 - [ ] Finn en `gjenta for alltid`{.microbitbasic}-kloss. Den ligger nok allerede
 i kodefeltet ditt, eller så kan du finne den i menyen under `Basis`{.microbitbasic}.
