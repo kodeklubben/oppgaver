@@ -275,6 +275,9 @@ la astrokatten vår bli påvirket av gravitasjonen også.
   klikke på `Variabler`{.blockdata}-kategorien og deretter på `Lag en variabel`.
   Kall variabelen `katteretning`.
 
+- [ ] (Husk at katten skal peke i den retningen du vil at den skal peke, før du
+  lager variabelen.)
+
 - [ ] Vi kan nå bruke denne variabelen til å huske hvilken retning katten pekte.
   Endre skriptet ditt ved å legge til to nye klosser:
 
