@@ -1,9 +1,11 @@
 
-![Algoritmia logoen](./algoritmia.png)
+## ![Algoritmia logoen](./Algoritmia.png)
 # Algoritmia:{.intro}
 # ei innføring i matematikk, programmering, problemløsning, og roboter...
 
 #
+
+[![Rossum Universal Robots play 1927 ](RUR-1927-pulse.jpg)](https://digitalcollections.nypl.org/items/510d47dd-fc62-a3d9-e040-e00a18064a99)
 
 # Uten datamaskin {.tip}
 - Oppgaven er ment som en **lærerveiledning**, og gjennomføres i grupp på klasseromet.
@@ -24,8 +26,7 @@
 
 ## Ferdigheter
 
-- Grafisk og oral uttrykk, romlig orientering, autonomi, kapasitet til å analysere komplekse situasjoner og kontekster, samarbeid og deltakende ferdigheter
-anvendt på problemløsning.
+- Grafisk og oral uttrykk, romlig orientering, autonomi, kapasitet til å analysere komplekse situasjoner og kontekster, samarbeid og deltakende ferdigheter anvendt på problemløsning.
 
 
 ## Prosedyrer
@@ -65,11 +66,11 @@ Improviser! Det handler om å finskrue nivåen til folket!
 - [ ] Det var en gang, for lenge, lenge siden, en mann som het **Muhammad ibn Mūsā al-Khwārizmī**, -**Al-Khuwarizmi**- som han ble kalt, oppfunnet **algebra**, som betyr "**endring**". Han oppfant og beskrevet et sett av enkle operasjoner, som hovedsakelig besto av å bevege ting - **tall**, **mengder** - fra ett sted til et annet, noe som bidro enormt til å løse matteproblemer som **ligninger** bedre enn noensinne. Det var en Revolusjon. De nye metoder han utviklet var så gode og praktiske at **vi i dag kaller serien av trinn eller instruksjoner å følge for å løse et problem, en algoritme**.
 
 
-![Al-Khuwarizmi - 1983 frimerke](./al-khuwarizmi.png)
+![Al-Khuwarizmi - 1983 frimerke](./Al-Khuwarizmi.1983.frimerke.png)
 
 - [ ] **Al-Khuwarizmi**s navn betyr "**fra Khuarizmi**" som er en østpersisk by i **Usbekistan** som heter **Khiva** nå, som er litt av en **labyrint** med noen av de vakreste vegger, dører og tårn du noen gang kan finne. Men han levde i **Bagdad**, og noen sier at han kjente tyven til Bagdad, og han jobbet i **Visdomshuset**. Og det er takket være ham og hans arbeid at vi bruker tallene vi bruker nå her i Europa.
 
-![Bildet viser et monument til Al-Khuwarizmi i Khiva med et typisk tårn i bakgrunnen](./jivaitchankala600x399.jpeg)
+![Bildet viser et monument til Al-Khuwarizmi i Khiva med et typisk tårn i bakgrunnen](./Jiva_Itchan_Kala_600x399.jpg)
 
 ## {.tip}
 Det er mulig å strekke seg litt her på de to matematiske operasjonene (**reduksjon** og **balansering** [**Hisab al-jabr w’al-muqabala** (kan oversettes med «**gjenopprettelse og forenkling**»)]) som er kjernen i hans verk, hvorav den ene gir navnet til **Algebra**, og tilpasse det til barnas nivå. Selv om de er både enkelt nok, var de faktisk et massivt fremskritt for vitenskapen.
@@ -98,6 +99,8 @@ Det er barna (eller elev-lærerne :)) som skal lage eget programmeringsspråk. D
 Vil de oppmuntre deg å skrive tegn i stedet for en helt setning?
 Det var lurt!
 ![symboler brukt i LightBot spillet, som referanse av symboler elever kan selv opprette](./translations.png)
+
+
 #
 
 - [ ] Da vil hun bestemme hvilken kommando hun skal bruke etter behov ved å peke på den på tavla.
@@ -111,12 +114,13 @@ Det var lurt!
 
 # Aktivitetet 3 - Ut av labyrinten! (30 min) {.activity}
 
-![Labyrinth film poster](./labyrinth-vintage-movie-poster-original-1-sheet-600x866.jpeg)
+![Labyrinth film poster](./Labyrinth-Vintage-Movie-Poster-Original-1-Sheet-600x866.jpg)
 
 ## Ut av labyrinten! - økt 1
 To lag konkurrerer om å få roboten ut av labyrinten så fort som mulig. Robotene går denne gangen med **bind for øynene**. Det **bør være** et nivå av **forvirring**. Og det er bra, best hvis det er litt kaos. De to lagene snakker i det minste samtidig, desorientert robotene når de mottar flere instruksjoner, de andre elevene i klassen, som ikke har blitt instruert til å avstå fra deltakelse, vil sannsynligvis prøve å hjelpe eller forvirre robotene, de vil rope (der!, der!, til høyre!, Nei! Andre veien! osv.).
 
-![Blinds man bluff 1803.  Tegn av kvinner som leker blindebukk](./blindmansbluff1803-800x526.png)
+![Blinds man bluff 1803.  Tegn av kvinner som leker blindebukk](./Blind_mans_bluff_1803-800x526.png)
+
 
 ## Litt kaos er bra!{.tip}
 Hvis kaos ikke oppstår spontant, bør det oppmuntres (ved hjelp av synonymer for hver kommando (flytt og gå, sving og snu deg, kanskje gjøre bevegelser av utålmodighet for å "motivere" de mer rastløse, gi vage instruksjoner, juble høyt selv eller til og med "jukse"). Øvelsen bør avbrytes før et lag kan komme seg ut av klassen hvis det er mulig.
@@ -136,19 +140,21 @@ Hvis kaos ikke oppstår spontant, bør det oppmuntres (ved hjelp av synonymer fo
 - [ ] Viktige konsepter knyttet til programmering kan brukes til å definere ulike deler av prosessen med å gjøre spillet enklere, ved å forbedre kommandoene og organisere dem i grupper eller redusere støy og finne andre bedre måter å kommunisere og utføre oppgaven på. Her er en kort liste: **programming language**, **command**, **object**, **property**, **runtime**, **compiler**, **memory**, **function**, **input**, **output**, **DRY** (Don't Repeat Yourself), **optimization**, **lists**, **loops**, **conditionals**, **variables** and **values**...
 [ programmeringsspråk, kommando, objekt, egenskap, kjøretid, kompilator, minne, funksjon, input, output, DRY (Ikke gjenta deg selv), optimalisering, lister, looper, betingelser, variabler og verdier...]
 
-
-![snapshot of LightBot spillet](./proclast.png)
+![Snapshot of LightBot spillet](./proclast.png)
 
 
 - [ ] **LightBot** var et tidlig og morsomt spill om programmering fremhevet i Hour of Code, og er nyttig for en leken introduksjon av første grunnleggende konsepter som **looper** og **prosedyrer**/**funksjoner**.  [https://lightbot.com/hoclearn.html](https://lightbot.com/hoclearn.html){:target=_blank}
 
 
-
 ## Ut av labyrinten! - økt 2
 
+
 ## {.tip}
-Vi gjentar det tidligere spillet, men nå spiller bare deltakerne mens resten av klassen legger merke til stillhet og vi introduserer forbedrelser som var ontenkt før.
+Vi gjentar det tidligere spillet, men nå spiller bare deltakerne mens resten av klassen legger merke til stillhet og vi introduserer forbedrelser som var omtenkt før.
 #
+
+
+![Bildebeskrivelse](./Vigelands-labyrinth.600x627.jpg)
 
 - [ ] Lagene spiller hver på sin tur, og utsteder bare én kortere, bedre definert kommando, og kaller roboten som må utføre kommandoen ved navn. Vi må se at nå fungerer alt på en mye mer flytende måte.
 
@@ -159,7 +165,9 @@ Vi gjentar det tidligere spillet, men nå spiller bare deltakerne mens resten av
 
 - [ ] Hvem vet hva en robot er? La barna pratte sammen litt om roboter.
 
-- [ ] I **1920** skrev **Karel Čapek** og tok til teatret med store suksesser et skuespill om menn og kvinner som er laget på en fabrikk, og ser akkurat ut som normale mennesker, bortsett fra at de ikke er født av en mor, men fabrikkert i fabrikken, "**Rossum's Universal Robots (R.U.R.)**" [**Rosumovi Umeli Roboti**] fabrikken, som også var navnet på stykket, og (angivelig) ikke har noen følelser, og (angivelig) ikke kan få barn, og da ble de (ikke angivelig) solgt som slaver til å arbeide og arbeide og ikke noe mer enn arbeide. Er det noen som gjetter hvordan det ender? Men det var Karels bror, **Josef Čapek**, som foreslo ordet robot, og også brukte det i en novelle, men denne er en annen fortelling.
+- [ ] I **1920** skrev **Karel Čapek** og tok til teatret med store suksesser et skuespill om menn og kvinner som er laget på en fabrikk, og ser akkurat ut som normale mennesker, bortsett fra at de ikke er født av en mor, men fabrikkert i fabrikken, "**Rossum's Universal Robots (R.U.R.)**" [**Rosumovi Umeli Roboti**] fabrikken, som også var navnet på stykket, og (angivelig) ikke har noen følelser, behov eller ønsker, og (angivelig) ikke kan få barn, og da ble de (ikke angivelig) solgt som slaver til å arbeide og arbeide og ikke noe mer enn arbeide. Er det noen som gjetter hvordan det ender? Men det var Karels bror, **Josef Čapek**, som foreslo ordet robot, og også brukte det i en novelle, men denne er en annen fortelling.
+
+  ![[Robot historic,  1933. At a 'fairytale ball' in Grosvenor House in  London a couple represents 'Beauty and the Beast'. The Beauty is played  by Rose Vincent.,  01.01.1933](https://tr.pinterest.com/pin/832954893557351651/)](./Fairytale-Ball--Beauty-and-the-Beast--Rose-Vincent-1933.jpg)
 
 ## {.tip}
 **Robot** var en forkortelse for **robotnik**, fra tsjekkisk robotnik "**tvangsarbeider**", fra robota "tvangsarbeid, obligatorisk tjeneste, slaveri", fra robotiti "å jobbe, slave", fra en gammel tsjekkisk kilde som ligner på Old Church Slavonic rabota "tjeneste", fra rabu "slave", fra old slavisk orbu - fra PIE orbh - "**pass fra en status til en annen**" (se foreldreløse). Det slaviske ordet er dermed en fetter til tysk Arbeit "arbeid" (Old High German arabeit).
@@ -169,7 +177,8 @@ Vi gjentar det tidligere spillet, men nå spiller bare deltakerne mens resten av
 
 (10/15 min.)
 
-![The Great Scape film poster](./the-great-scape.jpeg)
+![The Great Scape film poster](./The-Great-Scape.jpg)
+
 
 - [ ] Nå vil vi bruke kommandoene vi har lært / opprettet for å planlegge hver enkelt av oss vår egen flukt.
 
@@ -184,7 +193,7 @@ Vi gjentar det tidligere spillet, men nå spiller bare deltakerne mens resten av
 - [ ] De bør oppfordres til å hjelpe hverandre og dele sin taktikk for å takle oppgaven.
 
 
-# Oppsummering
+# Oppsummering {.activity}
 
 ## Konklusjoner
 
@@ -236,19 +245,22 @@ Avslutning, konklusjoner og farvel (5 / 10 minutter)
 
 ## Problemløsning algoritme
 
-![Problemløsning algoritme!](./sdf-problemlosning-algoritme-1.png)
+![Problemløsning algoritme!](./SDF-Problemløsning-algoritme-1.png)
+
+
 #
 
-## Spranget fra matematikk til datamaskiner
+# Spranget fra matematikk til datamaskiner {.activity}
 
 -  Vi begynte å snakke om en mann hvis navn brukes til å definere løsningene på problemer. Så vi bør slutte med en annen person.
 
 -  Vet du hvem som regnes som den **første personen som noen gang forestilte seg en "regnemaskin"** og anerkjente sitt fulle potensial, **for å løse ikke bare matematiske problemer, men alle slags problemer**, faktisk, og regnes også som **første personen som noen gang skrevet et dataprogram**, og dermed den **første programmereren noensinne**?
 
-![Maleri av unge Ada Lovelace](./220px-miniatureofadabyron.jpeg)
+![Maleri av unge Ada Lovelace](./220px-Miniature_of_Ada_Byron.jpg)
 
 -  Ja! Det er den fascinerende **Ada Lovelace**!
-![Ada Lovelace](./adalovelace.jpeg)
+
+![Ada Lovelace](./Ada_Lovelace.600x751.jpg)
 
 
 
@@ -280,8 +292,14 @@ Avslutning, konklusjoner og farvel (5 / 10 minutter)
 
 # Anerkjennelse
 - En idé av Sergio Daroca Fernández, sergiodaroca@gmail.com, utført første gang på **Huerta Santa Marina**-skolen i **Sevilla** med støtte fra **Raquel Sancho** og **Ara Urdambidelus** og de fantastiske **barna i 2A og 2B - 2016**, og andre gangen i Oslos **Gamlebyen Skole** med stor hjelp av **Iris Øiesvold Pride**.
+
 - Engelske versjon, spansk og litt andre på [http://www.flashdance.es](https://http://www.flashdance.es){target=_blank}
+
 - Dette er satt av forfatteren på det offentlige domenet, du kan gjøre med det hva du vil.
+
 - Så vennligst bruk den, del den, forbedre den, del den igjen!
-#
-#
+
+  
+
+[![Algorithmia project english cover page](./Algoritmia-web-348x493.jpg)](http://flashdance.es)
+
