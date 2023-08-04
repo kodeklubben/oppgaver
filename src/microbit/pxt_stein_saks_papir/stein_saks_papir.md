@@ -183,6 +183,7 @@ med et `1`{.microbitlogic}-tall. Programmet ser nå slik ut:
 - [ ] Det finnes et ferdig bilde av en saks som du kan bruke. Gå til kategorien
 `Basis`{.microbitbasic} for å finne `vis ikon`{.microbitbasic}-klossen. Ved å
 trykke på den lille pila, kan du endre hvilket ikon som skal vises.
+Ved start-klossen trenger ikke å være med i programmet.
 
   ```microbit
   basic.showIcon(IconNames.Scissors)
