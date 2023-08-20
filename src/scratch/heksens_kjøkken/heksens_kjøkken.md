@@ -123,7 +123,7 @@ __Klikk på wizard-toad.__
 
 - [ ] Lager wizard-toad lyd hvis du skriver "abrakadabra" eller "abra kadabra"?
 
-- [ ] Reagierer wizard-toad hvis du skriver noe annet?
+- [ ] Reagerer wizard-toad hvis du skriver noe annet?
 
 
 # Steg 3: Lager nye variabler {.activity}
