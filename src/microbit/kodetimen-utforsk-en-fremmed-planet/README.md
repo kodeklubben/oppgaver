@@ -5,6 +5,8 @@ language: nb
 ---
 ![Bildebeskrivelse](./kodar.png)
   
+![Bildebeskrivelse](./kodar-spill-feil.png)
+
 # Introduksjon {.intro}
   
 Vel møtt, modige romfarere! Jeg heter Kodar, og velkommen til min planet; Timenor! 
