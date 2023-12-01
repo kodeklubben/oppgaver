@@ -77,7 +77,7 @@ Nå skal vi skrive den første algoritmen som får LED-pærene til å blinke.
 
 - [ ] Start et nytt prosjekt på [makecode.microbit.org](https://makecode.microbit.org){target=_blank}.
 - [ ] Som standard ligger det to blå blokker klare til bruk; `ved start`{.microbitbasic} og en `gjenta for alltid`{.microbitbasic}-løkke. `ved start`{.microbitbasic}-blokken kan du fjerne ved å dra den til verktøykassa midt på skjermen.
-- [ ] Finn frem `basis`{.microbitbasic}-blokken og legg den inni `gjenta for alltid`{.microbitbasic}-blokken:
+- [ ] Finn frem `pause`{.microbitbasic}-blokken og legg den inni `gjenta for alltid`{.microbitbasic}-blokken:
 
 ```microbit
 basic.forever(function () {
