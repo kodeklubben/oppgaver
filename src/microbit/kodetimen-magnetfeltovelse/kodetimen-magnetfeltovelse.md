@@ -76,7 +76,6 @@ radio.setGroup(1)
 
 ```
 
-![Bildebeskrivelse](./screenshot-2023-11-28-at-09.png)
 
 For å lagre data velger du «eksporter data».
 
