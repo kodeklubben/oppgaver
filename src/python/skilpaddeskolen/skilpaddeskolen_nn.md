@@ -145,7 +145,7 @@ på verdiane me gir inn er eitt av dei kraftigaste verktøya i programmering.
 
 ### Tips {.protip}
 
-I Python fist det funksjonar, og det finst prosedyrer. Desse omgrepa går litt
+I Python finst det funksjonar, og det finst prosedyrer. Desse omgrepa går litt
 inn i kvarandre, så det er ikkje så farleg om du ikkje ser skilnaden mellom dei.
 Ein funksjon returnerer noko, og skal helst ikkje gjere noko anna enn å rekne ut
 returverdien. I tillegg bør ein funksjon alltid returnere det same når den får
