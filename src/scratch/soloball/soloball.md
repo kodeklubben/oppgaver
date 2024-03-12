@@ -305,7 +305,7 @@ Før vi gjør noe mer så trenger ballen å vite hvilken retning katten har.
   gå til x: (0) y: (0)
   gjenta for alltid
       pek mot [musepeker v]
-      sett (kattens retning) til (retning)
+      sett (retning av katt) til (retning)
   slutt
   ```
 
