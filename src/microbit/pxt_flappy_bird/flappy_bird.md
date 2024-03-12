@@ -243,8 +243,10 @@ basic.forever(function () {
                 game.gameOver()
             }
         }
+        if (hinder.get(LedSpriteProperty.X) == 0){
         game.addScore(1)
         hinder.delete()
+        }
     }
 })
 ```
