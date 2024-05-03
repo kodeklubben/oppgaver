@@ -15,6 +15,22 @@ I denne oppgaven skal dere lage en simulering av romoppdraget til Atlas i Scratc
 
 Dette er en oppgave for dere som har kodet mye før. Det innebærer at oppgaven inneholder instruksjoner om hva de ulike figurene skal gjøre, men ikke fasit på hvordan kodene ser ut. Dersom du er usikker kan du sjekke fasiten under lærerveiledningen.  
 
+## iPad
+
+Dersom dere skal bruke iPad til denne oppgaven trenger dere å programmere noen “knapper” dere kan bruke dersom dere ikke har tastatur.
+Slik gjør dere:
+Gå inn på figuroversikten og finn et pilsymbol.
+På pilsymbolet programmerer du følgende kode:
+
+Når denne klikkes
+Send “Gå høyre”
+Nå går du på figuren pilen skal styre, og legger inn følgende kode:
+Når jeg mottar “Gå høyre”
+Gå x steg (her justerer du farten selv)
+Gjenta begge stegene for alle retningspilene du trenger å ha (enten høyre og venstre-pil, eller piler til høyre, venstre, opp og ned).
+Du kan nå styre figuren ved å klikke på pil-figurene på skjermen!
+
+![Bildebeskrivelse](./ipad_arrows.png)
 
 #  Hva skal dere gjennom i oppgaven? {.activity}
 
