@@ -18,6 +18,28 @@ Denne oppgaven er en remiks-oppgave. Vi har laget et spill der vi skal hjelpe Ko
 
 Vi trenger din hjelp til å reparere koden, så Kodar kan redde planeten sin. 
 
+Dersom dere skal bruke iPad til denne oppgaven trenger dere å programmere noen “knapper” dere kan bruke dersom dere ikke har tastatur.
+
+# Slik gjør dere:
+
+Gå inn på figuroversikten og finn et pilsymbol.
+
+På pilsymbolet programmerer du følgende kode:
+
+Når denne klikkes
+Send “Gå høyre”
+
+
+Nå går du på figuren pilen skal styre, og legger inn følgende kode:
+
+Når jeg mottar “Gå høyre”
+Gå x steg (her justerer du farten selv)
+
+Gjenta begge stegene for alle retningspilene du trenger å ha (enten høyre og venstre-pil, eller piler til høyre, venstre, opp og ned).
+
+
+Du kan nå styre figuren ved å klikke på pil-figurene på skjermen!
+
 
 # iPad
 
