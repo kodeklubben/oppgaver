@@ -1,0 +1,93 @@
+language:
+  NAME: мова
+  TAGS:
+    nb:
+      NAME: норвезька (Букмол)
+    nn:
+      NAME: норвезька (нюнорск)
+    sv:
+      NAME: шведська
+    da:
+      NAME: датський
+    en:
+      NAME: англійська
+    is:
+      NAME: ісландська
+topic:
+  NAME: він
+  TAGS:
+    app:
+      NAME: додаток
+      TOOLTIP: Створюйте програми для мобільних пристроїв і планшетів.
+    electronics:
+      NAME: електроніка
+      TOOLTIP: Програмування таких гаджетів, як Microbit, Arduino, Raspberry Pi, Lego Mindstorms та ін.
+    step_based:
+      NAME: Покрокова
+      TOOLTIP: Інтерактивні онлайн-курси, які знайомлять вас з новими концепціями крок за кроком.
+    block_based:
+      NAME: На основі блоків
+      TOOLTIP: Програмування на блочній мові програмування.
+    text_based:
+      NAME: На основі тексту
+      TOOLTIP: Програмування з текстом.
+    minecraft:
+      NAME: Мінекрафт
+      TOOLTIP: Програмування в Мінекрафт.
+    web:
+      NAME: Веб-сайт
+      TOOLTIP: Створення сайтів.
+    game:
+      NAME: Гра
+      TOOLTIP: Робіть ігри.
+    robot:
+      NAME: Робот
+      TOOLTIP: Програмування фізичних об'єктів, які рухаються.
+    animation:
+      NAME: Анімація
+      TOOLTIP: Створюйте рухливу графіку, наприклад мультфільми.
+    sound:
+      NAME: Звук
+      TOOLTIP: Програмувати звук і музику.
+    cryptography:
+      NAME: Криптографія
+      TOOLTIP: Дізнайтеся про безпеку даних.
+subject:
+  NAME: Тема
+  TAGS:
+    mathematics:
+      NAME: Математика
+    science:
+      NAME: Наука
+    programming:
+      NAME: Програмування
+    technology:
+      NAME: технології
+    music:
+      NAME: музика
+    first_language:
+      NAME: норвезька
+    english:
+      NAME: англійська
+    arts_and_crafts:
+      NAME: Декоративно-прикладне мистецтво
+    social_science:
+      NAME: Суспільствознавство
+grade:
+  NAME: Рівень оцінки
+  TAGS:
+    preschool:
+      NAME: дитячий садок
+      TOOLTIP: Діти 3-5 років
+    primary:
+      NAME: 1.-4. клас
+      TOOLTIP: Діти 6-9 років
+    secondary:
+      NAME: 5.-7. klasse
+      TOOLTIP: 5.-7. клас
+    junior:
+      NAME: 8.-10. клас
+      TOOLTIP: Молодь 13-15 років
+    senior:
+      NAME: Середня школа
+      TOOLTIP: Молодь 16-18 років
