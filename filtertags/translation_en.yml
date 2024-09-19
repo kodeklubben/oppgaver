@@ -13,6 +13,8 @@ language:
       NAME: English
     is:
       NAME: Icelandic
+    ua:
+      NAME: Ukrainian
 topic:
   NAME: Topic
   TAGS:
