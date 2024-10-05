@@ -1,291 +1,281 @@
 ---
-title: 'Pingviner på tur'
+title: 'Пінгвіни на прогулянці'
 level: 1
 author: 'Geir Arne Hjelle'
 translator: 'Stein Olav Romslo'
-language: nn
+language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-I denne oppgåva skal me lage eit enkelt spel der pingvinane har rømt frå
-akvariet i Bergen. Det er din (spelaren) sin jobb å hjelpe dei heim att.
+Ласкаво просимо до Scratch. Разом ми створимо просту гру, де пінгвіни втекли з акваріума в Бергені, а ваше завдання допомогти їм повернутися додому.
 
 ![Bilete av pingvinar på rømmen](pingviner_pa_tur.png)
 
 
-# Velkommen til Scratch {.activity}
+# Ласкаво просимо до Scratch {.activity}
 
-_Viss du allereie kjenner Scratch og har ein Scratchbrukar kan du gå vidare til
+_Якщо ви вже знаєте Scratch і маєте користувача Scratch, ви можете перейти до
 [steg 1](#steg-1-ein-pingvin-pa-tur)._
 
-[Scratch](https://scratch.mit.edu/) er eit programmeringsspråk som er laga
-spesielt for å vere enkelt å kome i gang med og raskt kunne lage sine eigne spel
-og animasjonar. Scratch køyrer i nettlesaren og er heilt gratis å bruke. Før du
-startar å programmere er det lurt å lage ein brukar, sidan det gjer det enklare
-å lagre det du lagar og dele det med andre.
+[Scratch](https://scratch.mit.edu/) це мова програмування, розроблена спеціально для швидкого початку роботи та швидкого створення власних ігор і анімацій. Scratch працює у браузері та є абсолютно безкоштовним у використанні. Перш ніж почати програмувати, доцільно створити користувача Scratch, оскільки це спрощує збереження ваших ігор і обмін ними з іншими.
 
-## Lag ein Scratchbrukar {.check}
+## Створіть користувача Scratch {.check}
 
-- [ ] Gå til nettsida [scratch.mit.edu](https://scratch.mit.edu/) i ein
-  nettlesar.
+- [ ] Перейдіть на веб-сайт scratch.mit.edu  [scratch.mit.edu](https://scratch.mit.edu/) у веб-браузері.
 
-- [ ] Viss sida er på engelsk kan du endre språk til norsk (både nynorsk og
-  bokmål er tilgjengeleg) i nedtrekksmenyen nedst på sida.
+- [ ] Якщо сторінка англійською мовою, ви можете змінити мову на українську, для цього перейдіть у самий низ сторінки та у спадному меню виберіть українську мову.
 
-- [ ] Klikk __Bli Scratch-brukar__ øvst til høgre, og fyll ut skjemaet som
-  dukkar opp.
+- [ ] Натисніть __«Приєднатись»__ угорі праворуч і заповніть форму, що з’явиться.
 
-- [ ] Etter at du har blitt Scratchbrukar kan du klikke __Programmering__ øvst
-  til venstre for å kome i gang med programmeringa.
+- [ ] Після того як ви стали користувачем Scratch, ви можете натиснути __«Створити»__ у верхньому лівому куті, щоб розпочати програмування.
 
-    Vidare skal me gå gjennom ei oppskrift på korleis du kan lage eit enkelt
-    spel der målet er å hjelpe pingvinane å finne vegen heim til akvariet i
-    Bergen.
+    Крім того, ми даємо вам рецепт того, як ви можете створити просту гру, де ви повинні допомогти пінгвінам знайти дорогу назад до акваріума в Бергені.
 
 
-# Steg 1: Ein pingvin på tur {.activity}
+# Крок 1: Пінгвін у русі {.activity}
 
-_Me startar med å sjå på korleis me kan lage ein figur og få denne til å bevege
-seg._
+_Ми починаємо з розгляду того, як ми можемо створити фігуру та змусити її рухатися._
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Når du startar eit nytt Scratch-prosjekt ser du ein kattefigur. I dette
-  spelet skal me ikkje bruke katten. Difor startar me med å slette kattefiguren:
+- [ ] Коли ви починаєте новий проект Scratch, ви бачите фігурку кота. У цій грі ми не будемо цього використовувати. Тому ми починаємо з видалення фігури кота. Клацніть правою кнопкою миші на фігурі кота та натисніть `вилучити`.
 
-    Klikk på ![Slett](../bilder/slett.png) øvst i menyen, og så klikkar du på
-    kattefiguren for å slette den.
+- [ ] Тепер ми додамо фігуру пінгвіна. Натисніть на
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png) Прокрутіть екран вниз, доки не знайдете фігуру пінгвіна (є кілька на вибір). Натисніть на одну із них щоб обрати героя.
 
-- [ ] I staden skal me leggje til ein pingvinfigur. Klikk på  ![Vel figur frå
-  biblioteket](../bilder/hent-fra-bibliotek.png) ved sidan av  __Ny figur:__
-  omlag midt på skjermen. Rull nedover skjermen til du finn ein pingvinfigur
-  (det er fleire å velje mellom). Klikk på ein av dei, og så __OK__.
+- [ ] Тепер ви додали пінгвіна до своєї гри. Давайте запрограмуємо це!
 
-- [ ] No har du ein pingvin i spelet ditt! La oss programmere den!
+	Натисніть `Kode` вкладку вгорі ліворуч.
 
-    Midt på skjermen ser du mange farga klossar, til dømes `gå (10) steg`{.b}.
-    Desse er kommandoar me kan gi til figurane våre. For å skrive eit program
-    puslar me samen fleire klossar ved å dra dei over til høgre del av skjermen.
+    Til venstre på skjermen ser du mange fargede klosser, for eksempel `gå (10)
+    steg`{.b}. Disse er kommandoer vi kan gi til figurene våre. For å skrive et
+    program pusler vi sammen flere klosser ved å dra dem over til høyre delen av
+    skjermen.
 
-- [ ] Pusle saman denne koden for pingvinen din:
+- [ ] Додайте цей код для свого пінгвіна:
 
   ```blocks
-  når @greenFlag vert trykt på
+  når @greenFlag klikkes
   gjenta for alltid
       gå (10) steg
-      viss ved kant, sprett
+      sprett tilbake ved kanten
   slutt
   ```
 
-    Legg merke til at farga på klossane samsvarar med kategoriane øvst på sida.
-    Til dømes finn du `når @greenFlag vert trykt på`{.b} i
-    `Hendingar`{.blockevents}-kategorien.
+    Legg merke til at fargene på klossene samsvarer med kategoriene
+    helt til venstre på siden. For eksempel finner du `når @greenFlag
+    klikkes`{.b} i `Hendelser`{.blockevents}-kategorien.
 
-## Test prosjektet {.flag}
+## Тестування проекту {.flag}
 
-__Klikk på det grøne flagget øvst midt på skjermen for å prøve spelet ditt.__
+__Натисніть зелений прапор у верхній частині екрана, щоб спробувати свою гру.__
 
-- [ ] No skal pingvinen starte å flytte seg fram og attende over skjermen.
+- [ ] Тепер пінгвін повинен почати рухатися вперед і назад по екрану.
 
-- [ ] Legg du merke til at pingvinen snur seg på hovudet når den går mot
-  venstre? Det er fordi scratchfigurar i utgangspunktet roterer når dei skiftar
-  retning. Dette kan du justere ved å leggje til klossen `bruk roteringstypen
-  [vend sidevegs v]`{.b} rett under `når @greenFlag vert trykt på`{.b}-klossen i
-  programmet vårt.
+- [ ] Du merker kanskje at pingvinen snur seg på hodet når den går mot venstre?
+  Det er fordi scratchfigurer i utgangspunktet roterer når de skifter retning.
+  Vi kan forbedre dette ved å legge til klossen `begrens rotasjon [vend sideveis
+  v]`{.b} rett under `når @greenFlag klikkes`{.b}-klossen i programmet vårt.
 
-Du kan bruke den raude knappen ved sidan av det grøne flagget for å stoppe
-pingvinen att. Etter kvart som du lagar meir kode bør du trykkje på det grøne
-flagget for å sjå kva som skjer.
+Du kan bruke den røde knappen ved siden av det grønne flagget om du ønsker at
+pingvinen skal slutte å bevege seg. Etterhvert som du lager mer kode bør du
+klikke på det grønne flagget for å se hva som skjer.
 
 ## Lagre prosjektet {.save}
 
-No har du laga eit lite program! Scratch lagrar alt du gjer automatisk med jamne
-mellomrom. Likevel er det lurt å leggje til seg vanen om å lagre sjølv
-innimellom.
+Du har nå laget et lite program! Scratch lagrer alt du gjør automatisk med jevne
+mellomrom. Det kan likevel være lurt å lagre selv også innimellom.
 
-- [ ] Over scena er det eit tekstfelt der du kan gi namn til prosjektet ditt.
-  Du kan til dømes kalle det `Pingvinar på tur`.
+- [ ] Øverst på skjermen er det et tekstfelt hvor du kan gi navn til
+  prosjektet ditt. Der står det kanskje noe sånt som `Untitled` nå.
+  Kall det for eksempel `Pingviner på tur`.
 
-- [ ] I menyen __Fil__ kan du velje __Lagre no__ for å lagre prosjektet.
+- [ ] I menyen `Fil` kan du velge `Lagre nå` for å lagre prosjektet.
 
 
 # Steg 2: På kryss og tvers {.activity}
 
-_No vil me få pingvinen til å bevege seg på kryss og tvers._
+_La oss se hvordan vi kan kontrollere hvordan pingvinen beveger seg._
 
 ## Sjekkliste {.check}
 
-- [ ] Sjå meir på koden du har laga. Me har sagt til pingvinen at den _for
-  alltid_ skal _gå_ og _sprette tilbake ved kanten_. Ser du korleis pingvinen
-  gjer akkurat det me har sagt til den at den skal gjere?
+- [ ] Se nærmere på koden du har laget. Vi har fortalt pingvinen at den _for
+  alltid_ skal _gå_ og _sprette tilbake ved kanten_. Ser du hvordan pingvinen
+  gjør akkurat som den har blitt fortalt?
 
-    Me kan gjere endringar i koden vår. Til dømes seier talet `10` i `gå (10)
-    steg`{.b}-klossen noko om kor fort pingvinen skal bevege seg. Prøv å endre
-    talet!
+    Vi kan gjøre forandringer i koden vår. For eksempel sier tallet `10` i `gå
+    (10) steg`{.b}-klossen noe om hvor fort pingvinen skal bevege seg. Prøv å
+    forandre dette tallet!
 
-- [ ] Me kan endre storleiken på pingvinen. Endre koden din slik at den ser slik
-  ut:
+- [ ] Vi kan også endre størrelsen på pingvinen. Endre koden din slik at den nå
+  ser slik ut:
 
   ```blocks
-  når @greenFlag vert trykt på
-  set storleik til (40) %
-  avgrens rotering til [venstre-høgre v]
+  når @greenFlag klikkes
+  sett størrelse til (40) %
+  begrens rotasjon [vend sideveis v]
   gjenta for alltid
       gå (4) steg
-      viss ved kant, sprett
+      sprett tilbake ved kanten
   slutt
   ```
 
-- [ ] Til slutt skal me la pingvinen gå _tilfeldig_ på kryss og tvers på
-  skjermen. Legg til fleire klossar slik at koden ser slik ut:
+- [ ] Til slutt skal vi la pingvinen gå _tilfeldig_ på kryss og tvers på
+  skjermen. Legg til flere klosser slik at koden nå ser slik ut:
 
   ```blocks
-  når @greenFlag vert trykt på
-  set storleik til (40) %
-  avgrens rotering til [venstre-høgre v]
-  gå til [tilfeldig stad v]
-  peik i retning (tilfeldig tal frå (1) til (360))
+  når @greenFlag klikkes
+  sett størrelse til (40) %
+  begrens rotasjon [vend sideveis v]
+  gå til [tilfeldig sted v]
+  pek i retning (tilfeldig tall fra (1) til (360))
   gjenta for alltid
       gå (4) steg
-      viss ved kant, sprett
+      sprett tilbake ved kanten
   slutt
   ```
 
-    For å lage `peik i retning (tilfeldig tal frå (1) til (360))`{.b} må du
-    fyrst leggje til `peik i retning (90 v)`{.b}-klossen og så pusle `tilfeldig
-    tal frå (1) til (10)`{.b}-klossen inn i den og forandre `10` til `360`.
+    For å lage `pek i retning (tilfeldig tall fra (1) til (360))`{.b} må du
+    først legge til `pek i retning (90 v)`{.b}-klossen og deretter pusle
+    `tilfeldig tall fra (1) til (10)`{.b}-klossen inn i denne og forandre `10`
+    til `360`.
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grøne flagget.__
+__Klikk på det grønne flagget.__
 
-- [ ] Går pingvinen meir på kryss og tvers?
+- [ ] Går pingvinen mer på kryss og tvers?
 
-- [ ] Startar pingvinen ulike stader på skjermen viss du klikkar på det grøne
-  flagget fleire gonger?
+- [ ] Starter pingvinen forskjellige steder på skjermen om du klikker på det
+  grønne flagget flere ganger?
 
 
 # Steg 3: Bergen {.activity}
 
-_Pingvinen har rømt frå akvariet i Bergen, så den burde jo springe rundt i
-gatene i Bergen._
+_Pingvinen har rømt fra akvariet i Bergen, så da burde den jo springe rundt i
+Bergens gater._
 
 ## Sjekkliste {.check}
 
-- [ ] No skal me leggje til ein bakgrunn på spelet vårt som viser eit kart over
-  Bergen. Last ned fila [bergen.png](bergen.png) til datamaskina di.
+- [ ] Vi skal nå legge til en bakgrunn på spillet vårt som viser et kart over
+  Bergen. Last ned filen [bergen.png](bergen.png) til datamaskinen din.
 
-    Alternativt kan du lage ditt eige kart ved å gå til
-    [denne sida](../kart/kart.html).
+    Alternativt kan du [lage ditt eget kart](../kart/kart.html) ved å gå til
+    [denne siden](../kart/kart.html).
 
-- [ ] For å leggje til ein ny bakgrunn klikkar du på ![Last opp bakgrunn frå
-  fil](../bilder/hent-fra-fil.png) under __Ny bakgrunn__ heilt til venstre på
-  sida. Så vel du fila du akkurat lasta ned.
+- [ ] For å legge til en ny bakgrunn klikker du `Last opp bakgrunn`:
 
-- [ ] No skal me markere Akvariet i Bergen på kartet. Hent ein ny figur ved å
-  klikke på ![Vel figur frå biblioteket](../bilder/hent-fra-bibliotek.png). Vel
-  figuren `Button5`, og plasser den ytst på Nordnes for å vise kor akvariet er.
+	![Last opp bilde](../bilder/scratch3-last-opp-bakgrunn.png)
 
-    ![Bilete av Nordnes i Bergen med kryss på akvariet](nordnes.png)
+	Velg deretter filen du nettopp lastet ned.
 
-- [ ] No vil me endre namn på akvariefiguren slik at me enklare kan hugse kva
-  den er. Klikk på `i`{.blockmotion} øvst til venstre på akvariefiguren i
-  figurlista. Endre namnet frå `Button5` til `Akvariet`.
+- [ ] La oss nå markere Akvariet i Bergen på kartet. Hent en ny figur ved å
+  klikke på ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png).
+  Velg figuren `Button5`, og plasser denne ytterst på Nordnes for å vise hvor
+  Akvariet er.
+
+    ![Bilde av Nordnes i Bergen med kryss på akvariet](nordnes.png)
+
+- [ ] Vi vil nå endre navn på akvariefiguren slik at vi enklere husker
+  hva den er. Trykk på figuren, og så på navnefeltet over
+  figuren. Endre navnet fra `Button5` til `Akvariet`.
 
 
-# Steg 4: Hjelp pingvinen heim {.activity}
+# Steg 4: Hjelp pingvinen hjem {.activity}
 
-_No skal me prøve å kontrollere pingvinen slik at me kan hjelpe den heim til
-akvariet._
+_Vi skal prøve å kontrollere pingvinen slik at vi kan hjelpe den tilbake til
+Akvariet._
 
 ## Sjekkliste {.check}
 
-I dette spelet kontrollerer me pingvinen ved å klikke på kartet. Pingvinen skal
-snu seg vekk frå der me heldt musepeikaren før den går vidare.
+I dette spillet skal vi kontrollere pingvinen ved å klikke på kartet. Pingvinen
+skal da snu seg vekk fra der vi holder musepekeren før den går videre.
 
-- [ ] Klikk på __Scene__ nede til venstre på skjermen. Då får me moglegheit til
-  å skrive kode som gjeld for bakgrunnen, ikkje for pingvinen.
+- [ ] Klikk på __Scene__ nede til venstre på skjermen. Dette gir oss muligheten
+  til å skrive kode som gjelder for bakgrunnen og ikke for pingvinen.
 
-- [ ] Lag den følgjande nye koden på scena:
+- [ ] Lag den følgende nye koden på Scenen:
 
   ```blocks
-  når scena vert trykt på :: hat events
-  send meldinga[snu retning v]
+  når scenen klikkes :: hat events
+  send melding [snu retning v]
   trommeslag (1 v) som varer (0.25) takter
   ```
 
-    Ei slik _melding_ er ein beskjed programmet ditt sender til alle figurane.
-    Du får ikkje sjå meldingane, men figurane dine kan reagere på dei. Her vil
-    me at pingvinen skal snu når den får melding om at me har klikka på kartet
-    (scena).
+    Blokken `trommeslag` er i Scratch 3 flyttet til tilleggsfunksjoner. Du
+    finner den ved å trykke på `Hent tilleggsfunksjon` nederst til venstre, og
+    så legge til tilleggsfunksjonen `Musikk`.
+    En slik _melding_ er en beskjed programmet ditt sender til alle figurene. Du
+    vil ikke se disse meldingene, men figurene dine kan reagere på dem. Her vil
+    vi fortelle pingvinen at den skal snu når vi klikker på kartet (scenen).
 
-- [ ] Klikk på pingvinen. No skal me skrive eit nytt skript. Lag denne koden ved
-  sidan av koden du skreiv tidlegare:
+- [ ] Klikk på pingvinen. Vi skal nå skrive et nytt skript. Lag denne koden ved
+  siden av koden du skrev tidligere:
 
   ```blocks
-  når eg får meldinga [snu retning v]
-  peik mot [musepeikar v]
-  snu @turnLeft (180) gradar
+  når jeg mottar [snu retning v]
+  pek mot [musepeker v]
+  vend venstre (180) grader
   ```
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grøne flagget.__
+__Klikk på det grønne flagget.__
 
-- [ ] Snur pingvinen seg vekk frå musepeikaren viss du klikkar på kartet?
+- [ ] Snur pingvinen seg vekk fra musepekeren om du klikker på kartet?
 
 
-# Steg 5: Pingvinen kjem heim! {.activity}
+# Steg 5: Pingvinen kommer hjem! {.activity}
 
-_Til slutt skal me få pingvinen til å oppdage at den har kome heim!_
+_Vi skal til slutt se hvordan pingvinen kan oppdage at den har kommet hjem!_
 
 ## Sjekkliste {.check}
 
-- [ ] Me kan bruke klossen `rører [ v]`{.b} for å oppdage om to figurar er
-  borti kvarandre. Legg til ein `viss`{.blockcontrol}-test i koden som flyttar
+- [ ] Klossen `berører [ v]`{.b} kan brukes for å oppdage om to figurer berører
+  hverandre. Legg til en `hvis`{.blockcontrol}-test i koden som flytter
   pingvinen:
 
   ```blocks
-  når @greenFlag vert trykt på
-  set storleik til (40) %
-  avgrens rotering til [venstre-høgre v]
-  gå til [tilfeldig stad v]
-  peik i retning (tilfeldig tal frå (1) til (360))
+  når @greenFlag klikkes
+  sett størrelse til (40) %
+  begrens rotasjon [vend sideveis v]
+  gå til [tilfeldig sted v]
+  pek i retning (tilfeldig tall fra (1) til (360))
   gjenta for alltid
       gå (4) steg
-      viss ved kant, sprett
-      viss <rører [Akvariet v] ?>
-          sei [Hurra!] i (7) sekund
-          gå til [tilfeldig stad v]
+      sprett tilbake ved kanten
+      hvis <berører [Akvariet v] ?>
+          si [Hurra!] i (7) sekunder
+          gå til [tilfeldig sted v]
       slutt
   slutt
   ```
 
 ## Test prosjektet {.flag}
 
-__Klikk på det grøne flagget.__
+__Klikk på det grønne flagget.__
 
-- [ ] Kva skjer når pingvinen kjem til akvariet?
+- [ ] Hva skjer når pingvinen kommer til Akvariet?
 
-- [ ] Etter at pingvinen har vore heime i 7 sekund tek den seg ein ny tur.
-  Dukkar den opp på ein ny tilfeldig stad?
+- [ ] Etter at pingvinen har vært hjemme i 7 sekunder tar den seg en ny tur.
+  Dukker den opp på et nytt tilfeldig sted?
 
-## Prøv sjølv {.challenge}
+## Prøv selv {.challenge}
 
-No har me laga eit lite spel saman, men du kan gjerne utvikle det vidare. Her er
-nokre idear:
+Vi har nå laget et lite spill sammen, men prøv gjerne å utvikle det videre. Her
+er noen ideer:
 
-- [ ] Legg til fleire pingvinar! Dette er ganske enkelt. Klikk ![Lag ein
-  kopi](../bilder/lag-en-kopi.png) og så på pingvinfiguren for å lage ein kopi
-  av den.
+- [ ] Legg til flere pingviner! Dette er ganske enkelt. Høyreklikk på
+  pingvin-figuren og klikk deretter på `lag en kopi` for å lage en
+  kopi av den.
 
-- [ ] Kan du lage ein test for om _alle_ pingvinane har kome heim? Den er
-  enklast å lage på akvariefiguren. Du bør bruke ei `gjenta for
-  alltid`{.blockcontrol}-løkke, ein `viss`{.blockcontrol}-test samt
-  `< > og < >`{.b}- og `rører [ v]`{.b}-klossar.
+- [ ] Kan du lage en test for om alle pingvinene har kommet hjem? Denne lager du
+  enklest på akvariefiguren. Du bør bruke en `gjenta for alltid`{.blockcontrol}-løkke,
+  en `hvis`{.blockcontrol}-test samt `< > og < >`{.b}- og `berører
+  [ v]`{.b}-klosser.
 
-- [ ] Kanskje me kan telje poeng kvar gong ein pingvin finn vegen til akvariet?
-  Til det treng du noko som heiter variablar. Desse finn du under
-  `Data`{.blockdata}. Prøv sjølv om du får til noko!
+- [ ] Kanskje vi kan telle poeng hver gang en pingvin finner veien til Akvariet?
+  Til dette trenger du noe som heter variabler. Disse finner du under
+  `Data`{.blockdata}. Prøv selv om du får til noe!
