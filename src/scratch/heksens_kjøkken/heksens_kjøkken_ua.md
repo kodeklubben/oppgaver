@@ -95,21 +95,19 @@ __Натисніть на зелений прапорець.__
 
 ## Збереження проєкту {.save}
 
-Hvis du er pålogget med din egen Scratchbruker lagrer scratch alle prosjektene dine automatisk med jevne mellomrom.
-Det kan likevel være lurt å lagre manuelt innimellom.
+Якщо ви увійшли до свого облікового запису Scratch, всі ваші проєкти будуть зберігатися автоматично. Проте, корисно зберігати їх вручну час від часу.
 
-- [ ] I fil-menyen, velg `Lagre nå`.
+- [ ] У меню файлів виберіть Зберегти зараз.
 
-Hvis du ikke har bruker kan du ikke lagre, bare fortsett til steg 2.
+Якщо у вас немає облікового запису, ви не зможете зберегти проєкт, просто переходьте до кроку 2.
 
+# Крок 2: Запитай про магічне слово {.activity}
 
-# Steg 2: Spør om trylleformel {.activity}
+*Тепер ми хочемо, щоб "Жаба-чаклун" запитував гравця про магічне слово, і гравець міг ввести відповідь.*
 
-*Nå ønsker vi at wizard-toad spør spilleren om trylleformel og spilleren kan skrive in svar.*
+## Список перевірки {.check}
 
-## Sjekkliste {.check}
-
-- [ ] Klikk på Wizard-Toad, velg `Kode`-fanen og lag dette skriptet:
+- [ ] Натисніть на "Жаба-чаклуна", виберіть вкладку "Код" та створіть такий скрипт:
 
 ![spøre_trylleformel](spøre_trylleformel.png)
 
