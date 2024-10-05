@@ -36,6 +36,7 @@ language: ua
     ![sprites](sprites.png)
 
 - [ ] Натисніть на "Жабу-чаклуна", виберіть вкладку "Костюми" і віддзеркаліть фігуру.
+
 ![speilvend](speilvend.png)
 
 - [ ] Klikk på Wizard-Toad, velg `Kode`-fanen og lag dette skriptet:
