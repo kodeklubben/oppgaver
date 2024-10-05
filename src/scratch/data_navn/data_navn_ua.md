@@ -14,29 +14,15 @@ language: ua
 ![Illustrer katten Felix som skiller mellom jente- og guttenavn](data_navn_ua.png)
 
 
-# Steg 1: Statistisk Sentralbyrås navnelister {.activity}
+# Крок 1: Списки імен {.activity}
 
-*La oss se litt på navnelistene til Statistisk Sentralbyrå. Disse viser hvor
-mange i Norge som får hvilke navn, både i dag og tidligere.*
+*Погляньмо на списки імен.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Gå til navnesidene hos Statistisk Sentralbyrå:
-  [ssb.no/navn](http://www.ssb.no/navn). Klikk litt rundt på dem for å bli kjent
-  med hvilke data som er tilgjengelige. Prøv å søke på ditt eget navn og se på
-  **Historisk utvikling (graf)**.
+- [ ] Ми хочемо отримати списки з усіма іменами дівчаток та хлопчиків. Їх можна знайти, натиснувши [сюди](https://docs.google.com/spreadsheets/d/1RlKtvPeGG5bcNv9uiWwC6nC0mB9HJwDltoQRlZR9adM/edit?gid=0#gid=0). На цій сторінці ви   побачите **таблицю**, яка містить «**Імена дівчаток** в алфавітному порядку» та «**Імена хлопчиків** в алфавітному порядку». Завантажте цю таблицю у форматі **Excel** або **CSV**.
 
-    Prøv også andre navn: Her er en liten utfordring; Se på grafen over
-    historisk utvikling for navnet **Sonja**. Det har to veldig tydelige topper,
-    en på 1920-tallet og en til på 1960-tallet. Kan du forklare dette?
-
-- [ ] Vi vil hente ut lister med alle jente- og guttenavnene. Disse finner vi
-  ved å klikke på fanen **Tabeller**. På denne siden finner du blant annet to
-  tabeller som heter **Jentenavn, alfabetisk** og **Guttenavn, alfabetisk** (med
-  årstall). Last ned disse to tabellene enten i **Excel** eller **CSV**-format.
-
-- [ ] Åpne filene du nettopp lastet ned i Excel eller et tilsvarende
-  regnearkprogram.
+- [ ] Відкрийте щойно завантажені файли в Excel або подібній програмі для роботи з електронними таблицями.
 
     Vi er her bare interessert i selve navnelistene, ikke alle tallene som sier
     noe om hvor mange som fikk hvert navn. Du kan derfor slette alle kolonnene
