@@ -39,60 +39,61 @@ language: ua
 
 ![speilvend](speilvend.png)
 
-- [ ] Klikk på Wizard-Toad, velg `Kode`-fanen og lag dette skriptet:
+- [ ] Перейдіть до вкладки "Код" та створіть такий скрипт:
 
   ```blocks
-  når grønt flagg klikkes
-  set størrelse til 120%
-  gå til x: 150 y: -100
-  vis
+  коли натиснуто
+  встановити розмір на 120%
+  перейти до x: 150 y: -100
+  показати
   ```
-- [ ] Klikk på Fishbowl, velg `Kode`-fanen og lag dette skriptet:
+- [ ] Натисніть на "Акваріум з рибкою", виберіть вкладку "Код" та створіть такий скрипт:
 
     ```blocks
-    når grønt flagg klikkes
-    set størrelse til 120%
-    gå til x: -50 y: 120
-    skjul
+    коли натиснуто
+    встановити розмір на 120%
+    перейти до x: -50 y: 120
+    показати
+
     ```
-- [ ] Klikk på Mouse1, velg `Kode`-fanen og lag dette skriptet:
+- [ ] Натисніть на "Миша1", виберіть вкладку "Код" та створіть такий скрипт:
 
     ```blocks
-    når grønt flagg klikkes
-    gå til x: -250 y: -120
-    skjul
+    коли натиснуто
+    перейти до x: -250 y: -120
+    сховати
     ```
 
-- [ ] Klikk på Donut, velg `Kode`-fanen og lag dette skriptet:
+- [ ] Натисніть на "Пончик", виберіть вкладку "Код" та створіть такий скрипт:
 
     ```blocks
-    når grønt flagg klikkes
-    set størrelse til 45%
-    gå til x: -55 y: 30
-    vis
-    tillat å dra med musen
+    коли клацнути зелений прапорець
+    встановити розмір 45%
+    перейти до x: -55 y: 30
+    шоу
+    дозволяють перетягувати за допомогою миші
     ```
 
-- [ ] Klikk på Key, velg `Kode`-fanen og lag dette skriptet:
+- [ ] Натисніть на "Ключ", виберіть вкладку "Код" та створіть такий скрипт:
 
     ```blocks
-    når grønt flagg klikkes
-    set størrelse til 80%
-    gå til x: -70 y: -130
-    skjul
+    коли натиснуто
+    встановити розмір на 80%
+    перейти до x: -70 y: -130
+    сховати
     ```
 
-## Test prosjektet {.flag}
+## Тестування проєкту {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Sitter wizard-toad i høyre hjørne av bildet?
+- [ ] Чи знаходиться "Жаба-чаклун" у правому куті зображення?
 
-- [ ] Sitter donut på bordet?
+- [ ] Чи лежить пончик на столі?
 
-- [ ] Er alle andere figurer skjult?
+- [ ] Чи приховані всі інші фігури?
 
-## Lagre prosjektet {.save}
+## Збереження проєкту {.save}
 
 Hvis du er pålogget med din egen Scratchbruker lagrer scratch alle prosjektene dine automatisk med jevne mellomrom.
 Det kan likevel være lurt å lagre manuelt innimellom.
