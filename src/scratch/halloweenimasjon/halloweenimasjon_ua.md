@@ -1,164 +1,140 @@
 ---
-title: Halloweenimasjon
+title: Анімація на Хелловін
 level: 1
-author: 'Torbjørn Skauli og Geir Arne Hjelle'
-language: nb
+author: 'Торбйорн Скаулі та Гейр Арне Хєлле'
+translator: 'Anatolii Pylypenko'
+language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-Vi vil her se på hvordan vi kan lage forskjellige animasjoner med et
-Halloween-tema. Disse kan vi enten dele med vennene våre gjennom
-Scratch, eller kanskje enda morsommere: Vi kan projisere dem på en
-gardin, et laken eller en vegg under Halloween.
+Тут ми розглянемо, як можна створювати різні анімації на тему Хелловіну. 
+Ми можемо поділитися ними з друзями за допомогою Scratch, або ж зробити ще цікавіше: Ми можемо спроектувати їх на штору, простирадло або стіну під час Хелловіну.
 
-![Bilde av et skummelt halloween ansikt](halloweenimasjon.jpg)
+![Зображення страшного обличчя на Хелловін](halloweenimasjon.jpg)
 
 
-# Steg 1: En første animasjon {.activity}
+# Крок 1: Початкова анімація {.activity}
 
-*Vi begynner med å la et skummelt spøkelse fly fram og tilbake over
- skjermen.*
+*Ми починаємо з того, що дозволяємо страшному привиду літати туди-сюди по екрану.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Start et nytt prosjekt. Slett kattefiguren, ved for eksempel å
-  høyreklikke på kattefiguren og velge `slett`.
+- [ ] Почніть новий проект. Видаліть символ кота, наприклад, клацнувши правою кнопкою миші на ньому і вибравши пункт `вилучити`.
 
-- [ ] Velg en ny figur ved å klikke
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Finn
-  noe skummelt, for eksempel et spøkelse! Vi har brukt `Fantasi/Ghost`.
+- [ ] Виберіть нового персонажа, натиснувши
+  ![Виберіть форму з бібліотеки](../bilder/hent-fra-bibliotek.png). Знайдіть щось страшне, наприклад, привида! Ми використовували `Фантазії/Привид`.
 
-- [ ] Trykk på navne-feltet over figuren din. Gi den navnet `Spøkelse`.
+- [ ] Торкніться поля імені над своєю фігурою. Назвіть його `Привид`.
 
-  ![Bilde av et skummelt spøkelse](spokelse.png)
+  ![Зображення страшного привида](spokelse.png)
 
-- [ ] Nå skal vi lage et enkelt skript som får spøkelset til å fly over
-  skjermen. Bygg sammen en `gjenta`{.blockcontrol}- og en
-  `gå`{.blockmotion}-kloss på denne måten:
+- [ ] Тепер ми створимо простий скрипт, який змусить привида літати по екрану.  Створіть `повторити`{.blockcontrol}- та блок
+  `перемістити`{.blockmotion}-kloss таким чином:
 
   ```blocks
-  gjenta (200) ganger
-      gå (5) steg
+  повторити (200) 
+      перемістити на (5) кроків
   slutt
   ```
 
-- [ ] Klikk på skriptet ditt for å starte animasjonen. Flytter spøkelset
-  ditt på seg? Ser du et problem?
+- [ ] Натисніть на свій сценарій, щоб запустити анімацію. Ваш привид рухається? Ви бачите проблему?
 
-- [ ] Spøkelset ser ut som om det setter seg fast når det kommer til
-  kanten! Dette kan vi fikse med en
-  `sprett tilbake`{.blockmotion}-kloss:
+- [ ] Привид виглядає так, ніби він застрягає, коли доходить до краю! Ми можемо виправити це за допомогою блоку 
+  `якщо на межі, відбити`{.blockmotion}:
 
   ```blocks
-  gjenta (200) ganger
-      gå (5) steg
-      sprett tilbake ved kanten
+  повторити (200)
+      перемістити на (5) кроків
+      якщо на межі, відбити
   slutt
   ```
 
-- [ ] Klikk på skriptet ditt igjen. Virker det bedre nå?
+- [ ] Знову натисніть на свій сценарій. Тепер це працює краще?
 
-- [ ] Hmm ... Spøkelset flyr opp-ned ... Det ser litt rart ut. Vi kan si
-  at spøkelset bare skal snu seg sidelengs med en
-  `begrens rotasjon`{.blockmotion}-kloss. Denne legger vi helt først i
-  skriptet på denne måten:
+- [ ] Хм... Привид летить догори ногами... Виглядає трохи дивно. Можна сказати, що привид повинен повертатися тільки в бік з блоком
+  `стиль обертання`{.blockmotion}. Ми поставимо це на самому початку сценарію, ось так:
 
   ```blocks
-  begrens rotasjon [vend sideveis v]
-  gjenta (200) ganger
-      gå (5) steg
-      sprett tilbake ved kanten
+  стиль обертання [не обертати]
+  повторити (200) 
+      перемістити на (5) кроків
+      якщо на межі, відбити
   slutt
   ```
 
-- [ ] Til slutt, det ser skumlere ut med en svart bakgrunn! Klikk på
-  `Scene` helt til høyre på skjermen, deretter på
-  `Bakgrunner`{.blocklightgrey}-fanen nesten øverst på skjermen. Trykk
-  til slutt på `Gjør om til pikselgrafikk`.
+- [ ] Нарешті, на чорному тлі це виглядає ще страшніше! Натисніть
+  `Сцена` у правому нижньому куті екрана, а потім перейдіть на вкладку
+  `Тло`{.blocklightgrey} у верхній частині екрана. І тепер натисніть  `У растрове`.
 
-- [ ] Klikk på malingsspannet,
-  ![Fyll med farge](../bilder/fyll-med-farge.png), og deretter på
-  bakgrunnen for å male denne svart.
+- [ ] Клацніть на відерце з фарбою,
+  ![Заповнити кольором](../bilder/fyll-med-farge.png), а потім на тло, щоб зафарбувати його чорним кольором.
 
-- [ ] Gi bakgrunnen navnet `Svart`.
+- [ ] Назвемо тло `Чорний`.
 
 
-# Steg 2: Enda en animasjon {.activity}
+# Крок 2: Ще одна анімація {.activity}
 
-*For vår andre animasjon vil en flaggermus komme flyvende mot oss.*
+*Для нашої другої анімації до нас прилетить кажан.*
 
-![Bilde av en skummel flaggermus](flaggermus.png)
+![Зображення страшного кажана](flaggermus.png)
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Lag en ny figur ved å klikke
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png). Vi
-  har brukt `Fantasi/Bat`. Endre navnet på figuren til `Flaggermus`.
+- [ ] Створіть нового персонажа, натиснувши
+  ![Виберіть форму з бібліотеки](../bilder/hent-fra-bibliotek.png). Ми використали `Фантазії/Bat`. Змініть ім'я персонажа на `Кажан`.
 
-- [ ] For at det skal se ut som flaggermusen kommer flyvende mot oss, vil vi at
-  den skal starte veldig liten, og deretter bli større. Lag dette
-  skriptet.
+- [ ] Щоб виглядало так, ніби кажан летить до нас, ми хочемо, щоб він спочатку був дуже маленьким, а потім збільшувався. Створіть цей скрипт.
 
   ```blocks
-  sett størrelse til (0) %
-  gjenta (100) ganger
-      endre størrelse med (4)
+  задати розмір (0) %
+  повторити (100)
+      змінити розмір на (4)
   slutt
   ```
 
-- [ ] Trykk på skriptet for å se om det virker.
+- [ ] Натисніть на скрипт, щоб перевірити, чи він працює.
 
-- [ ] Et lite problem er at spøkelset også ligger på skjermen. Det vil
-  være bedre å skjule spøkelset når det ikke animeres. Klikk på
-  spøkelsesfiguren, og legg til en `vis`{.blocklooks}- og en
-  `skjul`{.blocklooks}-kloss i skriptet:
+- [ ] Невелика проблема полягає в тому, що привид також знаходиться на екрані. Було б краще приховати привида, коли він не анімаційний. Клацніть на персонажа-привида і додайте до сценарію блок `показати`{.blocklooks}- і
+  `сховати`{.blocklooks}:
 
   ```blocks
-  begrens rotasjon [vend sideveis v]
-  vis
-  gjenta (200) ganger
-      gå (5) steg
-      sprett tilbake ved kanten
+  стиль обертання [не обертати]
+  показати
+  повторити (200) 
+      перемістити на (5) кроків
+      якщо на межі, відбити
   slutt
-  skjul
+  сховати
   ```
 
-- [ ] Klikk på spøkelset sitt skript. Skjules spøkelset etter at det er
-  ferdig med å fly frem og tilbake?
+- [ ] Натисніть на сценарій привида. Чи сховається привид після того, як закінчить літати туди-сюди?
 
-- [ ] Vi kan også gjøre det samme med flaggermusen sitt skript. Klikk på
-  flaggermus-figuren, og endre skriptet til
+- [ ] Те ж саме можна зробити зі скриптом кажана. Натисніть на малюнок кажана і змініть скрипт на
 
   ```blocks
-  sett størrelse til (0) %
-  vis
-  gjenta (100) ganger
-      endre størrelse med (4)
+  задати розмір (0) %
+  показати
+  повторити (100) 
+      зміниити розмір на (4)
   slutt
-  skjul
+  сховати
   ```
 
-- [ ] For å få litt variasjon vil vi at flaggermusen skal animeres over en
-  skummel skog-bakgrunn. Klikk på
-  ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png)
-  helt nede til høyre på skjermen, og velg bakgrunnen
-  `Utendørs/Woods`. Gi bakgrunnen navnet `Skog`.
+- [ ] Для більшої різноманітності ми хочемо, щоб кажана було анімовано на моторошному лісовому тлі. Натисніть на
+  ![Виберіть готовий фон](../bilder/velg-bakgrunn.png)
+  у правому нижньому куті екрана і виберіть тло
+  `Поза приміщенням/Woods`. Назвіть тло `Ліс`.
 
 
-# Steg 3: Bytte bakgrunner {.activity}
+# Крок 3: Змініть тло {.activity}
 
-*Vi vil nå se på hvordan vi lett kan bytte bakgrunn når vi starter en
- animasjon.*
+*Зараз ми розглянемо, як можна легко перемикати фон під час запуску анімації.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-Hvis vi for eksempel vil vise spøkelsesanimasjonen på svart bakgrunn
-må vi først klikke `Scene`, deretter `Bakgrunner`-fanen og den svarte
-bakgrunnen. Videre må vi klikke på spøkelsesfiguren, `Kode`-fanen og
-til slutt på selve skriptet. Dette er veldig tungvint! Vi vil nå se
-hvordan vi kan bruke meldinger for å gjøre dette mye enklere.
+Наприклад, якщо ми хочемо показати анімацію привида на чорному тлі, ми повинні спочатку натиснути `Сцена`, потім вкладку `Тло`та чорний фон. Крім того, нам потрібно натиснути фігуру привида, вкладку `Код` і, нарешті, сам сценарій. Це дуже громіздко! Тепер ми побачимо, як ми можемо використовувати повідомлення, щоб зробити це набагато простіше.
 
 Meldinger gjør det lett å få flere ting til å skje samtidig. Vi skal
 nå først lage en melding, `Animer spøkelse`. Vi vil at denne meldingen
