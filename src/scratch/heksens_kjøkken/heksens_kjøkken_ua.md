@@ -6,34 +6,32 @@ translator: 'Anatolii Pylypenko'
 language: ua
 ---
 
-
 # Вступ {.intro}
 
 Ми зробимо гру "Bтеча", де гравець повинен натискати на об'єкти, щоб вирішувати загадки та знайти ключ.
 
 ![heksens kjøkken start](heksens_kjøkken_start.png)
 
-
-# Steg 1: Velg bakgrunn og figurer {.activity}
+# Крок 1: Вибір фону та персонажів {.activity}
 
 *Vi velger bakgrunn og alle figurer og setter de på sted.*
 
 ## Sjekkliste {.check}
 
-- [ ] Start et nytt prosjekt.
+- [ ] Почніть новий проект.
 
-- [ ] Trykk på kattefiguren nede i høyre del av skjermen og slett kattefiguren ved å høyreklikke på den og velge `slett`
+- [ ] Натисніть на фігуру кота внизу праворуч і видаліть її, клацнувши правою кнопкою миші та вибравши "видалити".
 
-- [ ] Endre bakgrunnen til `Innendørs/Witch house`, med å klikke på   
-![velg-bakgrunn](../bilder/velg-bakgrunn.png)-knappen.
+- [ ] Змініть фон на "Відьмин дім", натиснувши на    
+![velg-bakgrunn](../bilder/velg-bakgrunn.png)-кнопку.
 
-- [ ] For å legge til et figurer (sprites) klikker du på
-    ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen.
-    - [ ] Velg `Dyr/Wizard-Toad`-figuren.
-    - [ ] Velg `Dyr/Fishbowl`-figuren.
-    - [ ] Velg `Dyr/Mouse1`-figuren.
-    - [ ] Velg `Mat/Donut`-figuren.
-    - [ ] Velg `Fantasi/Key`-figuren.
+- [ ] Щоб додати фігури (спрайти), натисніть на 
+    ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-кнопку.
+    - [ ] Виберіть фігуру "Жаба-чаклун".
+    - [ ] Виберіть фігуру "Акваріум з рибкою".
+    - [ ] Виберіть фігуру "Миша1".
+    - [ ] Виберіть фігуру "Пончик".
+    - [ ] Виберіть фігуру "Ключ".
 
     ![sprites](sprites.png)
 
