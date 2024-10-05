@@ -1,9 +1,9 @@
 ---
-title: 'Felix og Herbert'
+title: 'Фелікс і Герберт'
 level: 1
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Gudbrand Tandberg'
-language: nb
+translator: 'Anatolii Pylypenko'
+language: ua
 ---
 
 
