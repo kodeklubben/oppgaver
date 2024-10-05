@@ -13,6 +13,8 @@ language:
       NAME: Enska
     is:
       NAME: Íslenska
+    ua:
+      NAME: Úkraínska
 topic:
   NAME: Þema
   TAGS:
