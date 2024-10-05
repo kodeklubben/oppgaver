@@ -259,30 +259,30 @@ __Відповідь "абракадабра".__
 
 ![heksens kjøkken mus](heksens_kjøkken_mus.png)
 
-# Steg 6: Finn nøkkelen og vinner {.activity}
+# Крок 6: Знайдіть ключ і виграйте {.activity}
 
-*Til slutt skal vi finne nøkkelen og vinne spillet.*
+*Зрештою ми знайдемо ключ і виграємо гру.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Klikk på Key, velg `Kode`-fanen og lag dette skriptet:
-  ![key_skript.png](key_skript.png)
+- [ ] Клацніть на Key, виберіть вкладку `Код` і створіть цей скрипт:
+ ![key_script.png](key_script.png)
 
-## Test prosjektet {.flag}
+## Перевірте проект {.flag}
 
-__Klikk på det grønne flagget.__
-__Klikk på wizard-toad.__
-__Svar "abrakadabra".__
+__Натисніть на зелений прапорець.__
+__Натисніть жабу-чарівника.__
+__Відповідь "абракадабра".__
 
-- [ ] Dukker nøkkelen opp etter at musen spiste donuten?
+- [ ] Чи з’являється ключ після того, як мишка з’їла пончик?
 
-- [ ] Sier wizard-toad at du har vunnet?
+- [ ] Жаба-чарівник каже, що ти виграв?
 
-![heksens kjøkken end](heksens_kjøkken_end.png)
+![кінець відьминої кухні](the witch's_kitchen_end.png)
 
-## Lagre prosjektet {.save}
+## Збережіть проект {.save}
 
-*Du er ferdig. Godt gjort. Nå kan du spille spillet!*
+* Ви закінчили. молодець Тепер ви можете грати в гру!*
 
-Hvis du er logget inn med din scratchbruker kan du dele spillet med familie og venner ved å trykke `Legg ut` på
-menylinjen.
+Якщо ви ввійшли в обліковий запис свого скретч-користувача, ви можете поділитися грою з родиною та друзями, натиснувши «Опублікувати» на
+рядок меню.
