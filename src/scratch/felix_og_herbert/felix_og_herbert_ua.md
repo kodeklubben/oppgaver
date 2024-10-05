@@ -24,7 +24,7 @@ language: ua
 
 - [ ] Натисніть на фігурку кота внизу правої частини екрана та змініть ім’я фігури на  `Фелікс`.
 
-  ![Skift navn](navn_figur.png)
+  ![Skift navn](navn_figur_ua.png)
 
 - [ ] Переконайтеся, що Фелікс дивиться лише праворуч і ліворуч, встановивши режим обертання зліва-направо.
 
@@ -114,88 +114,78 @@ __Натисніть на зелений прапорець.__
       перемістити на (10) крок
       наступний образ
       якщо <торкається [Герберт v]? то>
-          si [Tok deg!] i (1) sekunder
+          говорити [Попався!] (1) сек
       slutt
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Sier Felix fra når han har fanget Herbert?
+- [ ] Чи розповідає Фелікс, коли він спіймав Герберта?
 
 
-# Steg 4: Herbert blir et spøkelse når han fanges {.activity}
+# Крок 4: Герберт стає привидом, коли його схопили {.activity}
 
-*I tillegg til at Felix sier noe, vil vi nå at Herbert blir forvandlet
- til et spøkelse når han fanges.*
+*На додаток до того, що Фелікс щось говорить, ми тепер хочемо, щоб Герберт перетворився на привида, коли його схоплять.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Endre skriptet til Felix slik at det sender en melding og lager en
-  lyd når han fanger Herbert:
+- [ ] Змініть сценарій Фелікса так, щоб він надсилав повідомлення та видавав звук, коли він ловить Герберта:
 
   ```blocks
-  når grønt flagg klikkes
-  gjenta for alltid
-      pek mot [musepeker v]
-      gå (10) steg
-      neste drakt
-      hvis <berører [Herbert v]?>
-          send melding [Fanget! v]
-		  start lyden [Mjau]
-          si [Tok deg!] i (1) sekunder
-          vent (1) sekunder
+  коли grønt flagg натиснуто
+  завжди
+      слідувати за [вказівник v]
+      перемістити на (10) кроків
+      наступний образ
+      якщо <торкається [Герберт v]? то>
+          оповістити [Упіймав! v]
+		  відтворити звук [Няв]
+          говорити [Попався!] (1) сек
+          чекати (1) секунду
       slutt
   slutt
   ```
 
-- [ ] Velg Herbert og gå til `Drakter`-fanen.
+- [ ] Виберіть Герберт і перейдіть на вкладку `Образи`.
 
-- [ ] Hent en ny drakt ved å trykke på
+- [ ] Отримайте новий костюм, натиснувши
   ![Velg drakt fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  og velg `Fantasi/Ghost`
+  і виберіть `Фантазії/Ghost`
 
-- [ ] Endre navnene på Herberts drakter slik at musedrakten heter
-  `levende` og spøkelsesdrakten heter `død`.
+- [ ] Змініть назви костюмів Герберта, щоб костюм миші називався `живий` а костюм привида `мертвий`.
 
-- [ ] Gå til `Kode`-fanen, og lag et nytt skript for
-  Herbert for å gjøre ham om til et spøkelse. Ikke slett det gamle
-  skriptet:
+- [ ] Перейдіть на вкладку Код  і створіть новий сценарій для Герберта, щоб перетворити його на привида. Не видаляйте старий скрипт:
 
   ```blocks
-  når jeg mottar [Fanget! v]
-  bytt drakt til [død v]
-  vent (0.5) sekunder
-  bytt drakt til [levende v]
+  коли я отримую [Упіймав! v]
+  змінити образ на [мертвий v]
+  чекати (0.5) секунд
+  змінити образ на  [живий v]
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Forvandles Herbert til et spøkelse når han fanges?
+- [ ] Чи перетворюється Герберт на привида, коли його ловлять?
 
-- [ ] Spiller Felix lyden sin til riktig tid?
+- [ ] Чи вмикає Фелікс свій звук у потрібний момент?
 
-- [ ] Står Felix stille lenge nok til at Herbert kommer seg unna?
+- [ ] Чи стоїть Фелікс на місці достатньо довго, щоб Герберт зміг втекти?
 
 
-# Steg 5: Telle poeng {.activity}
+# Крок 5: Підрахуйте бали {.activity}
 
-*La oss legge til en poengsum slik at vi kan se hvor flink man er til
- å holde Herbert i live. Vi begynner med poengsummen null og øker den
- med en for hvert sekund. Hvis Felix fanger Herbert, minker vi
- poengsummen med ti.*
+*Давайте додамо бали, щоб побачити, наскільки добре вам вдається тримати Герберта живим. Починаємо з нуля і збільшуємо його на одиницю за кожну секунду. Якщо Фелікс спіймає Герберта, ми зменшуємо рахунок на десять.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] På `Kode`-fanen under kategorien `Variabler`{.blockdata}, lag en ny
-  variabel. Kall variabelen for `Poeng`, og la den gjelde for alle
-  figurer.
+- [ ] На вкладці `Код` у розділі `Змінні`{.blockdata}, створіть нову змінну. Назвіть змінну `Рахунок`, і застосуйте її до всіх фігур.
 
-  ![Bilde av den nye poeng variabelen](ny-variabel-poeng.png)
+  ![Bilde av den nye poeng variabelen](ny-variabel-poeng_ua.png)
 
   Legg merke til at `Poeng 0` dukket opp øverst til venstre i spillet
   ditt.
