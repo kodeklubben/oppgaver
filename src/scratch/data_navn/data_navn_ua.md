@@ -1,18 +1,17 @@
 ---
-title: 'Bruk data: Jente- og guttenavn'
+title: 'Використовуйте дані: Імена дівчаток та хлопчиків'
 level: 2
 author: 'Geir Arne Hjelle'
-language: nb
+translator: 'Анатолій Пилипенко'
+language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-Vi skal her se hvordan vi kan bruke navnelister fra [Statistisk
-Sentralbyrå](http://www.ssb.no/navn) i Scratch. Kanskje katten klarer å finne
-forskjellen på jente- og guttenavn?
+Давайте подивимося, як можна використовувати [списки імен](https://docs.google.com/spreadsheets/d/1RlKtvPeGG5bcNv9uiWwC6nC0mB9HJwDltoQRlZR9adM/edit?usp=sharing) у Scratch. Можливо, кіт зможе відрізнити імена дівчаток від імен хлопчиків?
 
-![Illustrer katten Felix som skiller mellom jente- og guttenavn](data_navn.png)
+![Illustrer katten Felix som skiller mellom jente- og guttenavn](data_navn_ua.png)
 
 
 # Steg 1: Statistisk Sentralbyrås navnelister {.activity}
