@@ -38,7 +38,7 @@ language: ua
   ```blocks
   коли grønt flagg натиснуто
   завжди
-      слідувати за [вказівник]
+      слідувати за [вказівник v]
       перемістити на (10) кроків
       наступний образ
   slutt
@@ -83,38 +83,37 @@ __Натисніть на зелений прапорець.__
 - [ ] Дайте Герберту цей скрипт:
 
   ```blocks
-  når grønt flagg klikkes
-  gjenta for alltid
-      gå til [musepeker v]
-      pek mot [Felix v]
+  коли grønt flagg натиснуто
+  завжди
+      перейти до [вказівник v]
+      слідувати [Фелікс v]
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Flytter Herbert seg med musepekeren?
+- [ ] Герберт рухається разом із вказівником миші?
 
-- [ ] Jager Felix Herbert?
+- [ ] Фелікс женеться за Гербертом?
 
 
-# Steg 3: Felix sier når han har fanget Herbert {.activity}
+# Крок 3: Фелікс каже, коли він спіймав Герберта {.activity}
 
-*Vi vil at Felix skal vite når han har fanget Herbert og fortelle det
- til oss.*
+*Ми хочемо, щоб Фелікс знав, коли він спіймав Герберта, і сказав нам.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Endre skriptet til Felix til dette:
+- [ ] Змініть сценарій Фелікса на такий:
 
   ```blocks
-  når grønt flagg klikkes
-  gjenta for alltid
-      pek mot [musepeker v]
-      gå (10) steg
-      neste drakt
-      hvis <berører [Herbert v]?>
+  коли grønt flagg натиснуто
+  завжди
+      слідувати за [вказівник v]
+      перемістити на (10) крок
+      наступний образ
+      якщо <торкається [Герберт v]? то>
           si [Tok deg!] i (1) sekunder
       slutt
   slutt
