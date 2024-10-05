@@ -50,9 +50,7 @@ language: ua
 
     ![Bilde av navnelistene i Scratch](navnelister_scratch_ua.png)
 
-- [ ] Navnelistene er eksempler på noe som rett og slett kalles **lister** i
-  Scratch. De programmeres ved hjelp av klosser som ligger i
-  `Data`{.blockdata}-kategorien. Som for variabler kan du ta listene vekk fra
+- [ ] Списки імен є прикладами того, що у Scratch просто називається списками. Вони програмуються за допомогою цеглинок,       розташованих у категорії `Змінні`{.blockdata}-kategorien. Som for variabler kan du ta listene vekk fra
   Scenen ved å fjerne avhukingen, høyreklikke på den eller bruke klossen `skjul
   liste [ v]`{.b}.
 
