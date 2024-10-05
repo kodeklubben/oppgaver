@@ -24,14 +24,9 @@ language: ua
 
 - [ ] Відкрийте щойно завантажені файли в Excel або подібній програмі для роботи з електронними таблицями.
 
-    Vi er her bare interessert i selve navnelistene, ikke alle tallene som sier
-    noe om hvor mange som fikk hvert navn. Du kan derfor slette alle kolonnene
-    som inneholder tall.
+- [ ] Це буде виглядати приблизно так:
 
-- [ ] Legg begge listene inn i det samme regnearket, og gi dem beskrivende
-  overskrifter. Dette vil se ut omtrent som dette:
-
-    ![Bilde av regneark med kolonne for jente- og guttenavn](navnelister_regneark.png)
+    ![Bilde av regneark med kolonne for jente- og guttenavn](navnelister_regneark_ua.png)
 
 - [ ] Dette er viktig! Lagre regnearket som CSV. Du gjør dette ved å velge
   **Lagre som** eller **Eksporter** fra menyen og deretter velge formatet
