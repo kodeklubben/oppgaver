@@ -7,28 +7,24 @@ language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-Vi skal lage et spill hvor katten Felix skal fange musa Herbert. Du
-styrer Herbert med musepekeren og skal prøve å unngå å bli tatt av
-Felix. Jo lenger du unngår ham jo flere poeng får du, men blir du
-tatt, går poengsummen din ned.
+Ми будемо створювати гру, де кіт Фелікс повинен схопити мишу Герберта. Ви керуватимете Гербертом за допомогою мишки та спробуєте уникнути захоплення Феліксом. Чим довше ви уникнете його, тим більше балів ви отримаєте, але якщо вас спіймали, ваша сума балів зменшиться.
 
 ![Bilde av katten Felix og musa Herbert](felix_og_herbert.png)
 
 
-# Steg 1: Felix følger musepekeren {.activity}
+# Крок 1: Фелікс слідує за курсором {.activity}
 
-*Vi ønsker at katten Felix skal følge etter musepekeren.*
+*Ми хочемо, щоб кіт Фелікс слідував за курсором.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Start et nytt prosjekt.
+- [ ] Розпочніть новий проєкт.
 
-- [ ] Trykk på kattefiguren nede i høyre del av skjermen og bytt navn
-  på figuren til `Felix`.
+- [ ] Натисніть на фігурку кота внизу правої частини екрана та змініть ім’я фігури на  `Фелікс`.
 
-  ![Skift navn](navn_figur.png)
+  ![Skift navn](navn_figur_ua.png)
 
 - [ ] Sørg for at Felix kun ser til høyre og venstre ved å sette
   rotasjonsmåte til høyre-venstre.
