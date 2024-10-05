@@ -111,46 +111,81 @@ __Натисніть на зелений прапорець.__
 
 ![spøre_trylleformel](spøre_trylleformel.png)
 
-## Test prosjektet {.flag}
+    ```blocks
+    Коли натиснути цю фігуру
+    спитати “Чи знаєш ти магічне слово?” та зачекати
+    якщо відповідь = “Абра кадабра” або відповідь = “Абракадабра”
+    почати звук “квакає”
+    відправ повідомлення “закляття”
+    або
+    скажи “Я такого не знаю. Спробуй інакше магічне слово.” протягом 2,5 секунд
+    ```
+
+## Тестування проєкту {.flag}
+
+Натисніть на зелений прапорець. Натисніть на "Жаба-чаклун".
 
 __Klikk på det grønne flagget.__
 __Klikk på wizard-toad.__
 
 
-- [ ] Spør wizard-toad om trylleformel?
+- [ ] Чи запитує "Жаба-чаклун" про магічне слово?
 
-- [ ] Lager wizard-toad lyd hvis du skriver "abrakadabra" eller "abra kadabra"?
+- [ ] Чи видає "Жаба-чаклун" звук, якщо ви введете "Абра кадабра" або "Абра кадабра"?
 
-- [ ] Reagerer wizard-toad hvis du skriver noe annet?
+- [ ] Чи реагує "Жаба-чаклун", якщо ви вводите щось інше?
 
 
-# Steg 3: Lager nye variabler {.activity}
+# Крок 3: Створення змінних {.activity}
 
-*Vi vil at wizard-toad skal spørre til vi svarer riktig.*
+*Ми хочемо, щоб "Жаба-чаклун" запитував, поки ми не відповімо правильно.*
 
-## Sjekkliste {.check}
+## Список перевірки {.check}
 
-- [ ] Klikk på Wizard-Toad, velg `Kode`-fanen. Under kategorien `Variabler`{.blockdata}, lag to nye
-  variabel. Kall variabelen for `win` og `magic_spell` og la de gjelde for alle
-  figurer.
+- [ ] Натисніть на "Жаба-чаклуна", виберіть вкладку "Код". У категорії "Змінні" створіть дві нові змінні: перемога та магічне закляття і зробіть їх доступними для всіх фігур.
    ![nye_variabler](nye_variabler.png)
 
-- [ ] Endre skriptet til wizard-toad til dette:
+- [ ] Змініть скрипт "Жаба-чаклун" так:
 
   ![toad_skript](toad_skript.png)
 
-## Test prosjektet {.flag}
+   ```blocks
+   Коли натиснути зелений прапорець
+   встановити магічне закляттяна невірно
+   встановити перемога win на невірно
+   перейти до x: 150 y: -100
+   показати
+
+   Коли натиснути цю фігуру
+
+   почати звук квакає
+   якщо магічне закляття = невірно
+   повторювати поки магічне закляття = вірно
+   запитати "Чи знаєш ти магічне слово?" і чекати
+   якщо відповідь = Абра кадабра або відповідь = Абракадабра
+   встановити магічне закляттяl на вірно
+   або
+   сказати "Я не знаю такого. Спробуй інше магічне слово." протягом 2.5 секунд
+   відтворити звук “квакає” до кінця
+   почекати 1 секунду
+   відправити повідомлення закляття
+   або
+   якщо перемога = невірно
+   сказати "Миша виглядає голодною." протягом 2.5 секунд
+   ```
+
+## Тестування проєкту {.flag}
 
 __Klikk på det grønne flagget.__
 __Klikk på wizard-toad.__
 
+Натисніть на зелений прапорець. Натисніть на "Жабу-чаклуна".
 
-- [ ] Spør wizard-toad om trylleformel? Spør den igjen hvis svar er ikke riktig?
+- [ ] Чи запитує "Жаба-чаклун" про магічне слово? Чи запитує знову, якщо відповідь неправильна?
 
-- [ ] Lager wizard-toad lyd hvis du skriver "abrakadabra" eller "abra kadabra"?
+- [ ] Чи видає "Жаба-чаклун" звук, якщо ви введете "Абра кадабра" або "Абракадабра"?
 
-- [ ] Reagierer wizard-toad hvis du skriver noe annet?
-
+- [ ] Чи реагує "Жаба-чаклун", якщо ви вводите щось інше?
 
 # Steg 4: Katten blir forvandlet {.activity}
 
