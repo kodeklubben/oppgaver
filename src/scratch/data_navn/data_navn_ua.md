@@ -28,32 +28,27 @@ language: ua
 
     ![Bilde av regneark med kolonne for jente- og guttenavn](navnelister_regneark_ua.png)
 
-- [ ] Dette er viktig! Lagre regnearket som CSV. Du gjør dette ved å velge
-  **Lagre som** eller **Eksporter** fra menyen og deretter velge formatet
-  **CSV**. Gi filen din et navn du vil kjenne igjen, for eksempel
-  `navnelister.csv`.
+- [ ] Це важливо! Збережіть таблицю у форматі CSV. Для цього виберіть **Зберегти як** або **Експортувати** в меню, а потім виберіть формат CSV. Дайте файлу ім'я, яке ви впізнаєте, наприклад, `списки_імен.csv`.
 
-- [ ] Gå til verktøyet for å [lese data inn i Scratch](../data/data.html). Trykk
-  på knappen **Last opp datafil**, og velg CSV-filen du nettopp laget. Dette vil
-  laste ned et Scratchprosjekt på datamaskinen din, sannsynligvis en fil som
-  heter `data.sb2` i `Nedlastinger`-katalogen din.
+# Крок 2: Перенесіть списки імен до Scratch {.activity}
 
+*Тепер ми можемо читати списки імен у Scratch.*
 
-# Steg 2: Hent navnelistene inn i Scratch {.activity}
+## Контрольний список {.check}
 
-*Vi kan nå lese navnelistene inn i Scratch.*
+- [ ] Почніть новий Scratch-проєкт.
 
-## Sjekkliste {.check}
+- [ ] Створіть новий список, перейшовши на вкладку `Змінні`{.blockdata} і натиснувши кнопку `Створити список`.
 
-- [ ] Start et nytt Scratchprosjekt.
+- [ ] Дайте ім'я списку **Імена дівчаток**.
 
-- [ ] Velg **Fil** i menyen og klikk på **Last opp fra maskinen**. Velg filen
-  som ble lastet ned i forrige steg, sannsynligvis heter den `data.sb2` og
-  ligger i katalogen `Nedlastinger`.
+- [ ] Клацнути правою кнопкою миші у вікні  `Імена дівчаток` і вибрати пункт `імпорт`. Виберіть CSV-файл, який ви щойно           створили та виберіть 1 стовпчик.
 
-- [ ] Klikk **OK**. Navnelistene vil nå lastes inn. Det skal se omtrent slik ut:
+- [ ] Створіть ще один список: `Імена хлопчиків`
 
-    ![Bilde av navnelistene i Scratch](navnelister_scratch.png)
+- [ ] Клацнути правою кнопкою миші у вікні  `Імена хлопчиків` і вибрати пункт `імпорт`. Виберіть CSV-файл  та виберіть 2          стовпчик.
+
+    ![Bilde av navnelistene i Scratch](navnelister_scratch_ua.png)
 
 - [ ] Navnelistene er eksempler på noe som rett og slett kalles **lister** i
   Scratch. De programmeres ved hjelp av klosser som ligger i
