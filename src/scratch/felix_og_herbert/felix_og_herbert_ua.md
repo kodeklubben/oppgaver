@@ -24,69 +24,63 @@ language: ua
 
 - [ ] Натисніть на фігурку кота внизу правої частини екрана та змініть ім’я фігури на  `Фелікс`.
 
-  ![Skift navn](navn_figur_ua.png)
+  ![Skift navn](navn_figur.png)
 
-- [ ] Sørg for at Felix kun ser til høyre og venstre ved å sette
-  rotasjonsmåte til høyre-venstre.
+- [ ] Переконайтеся, що Фелікс дивиться лише праворуч і ліворуч, встановивши режим обертання зліва-направо.
 
   ![Høyre/Venstre](../bilder/rotasjonsmate-hv.png).
 
-- [ ] Klikk på
-  ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) nederst  til høyre på skjermen for å sette en bakgrunn. 
-  Velg den bakgrunnen du vil.
+- [ ] Натисніть на
+  ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png) у нижньому правому куті екрана, щоб встановити фон. Виберіть потрібний фон.
 
-- [ ] Klikk på Felix, velg `Kode`-fanen og lag dette
-  skriptet:
+- [ ] Натисніть на Фелікс, виберіть вкладку `Код` і створіть цей сценарій:
 
   ```blocks
-  når grønt flagg klikkes
-  gjenta for alltid
-      pek mot [musepeker v]
-      gå (10) steg
-      neste drakt
+  коли grønt flagg натиснуто
+  завжди
+      слідувати за [вказівник]
+      перемістити на (10) кроків
+      наступний образ
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Følger Felix musepekeren?
+- [ ] Чи стежить Фелікс за вказівником миші?
 
-- [ ] Ser det ut som han går når han beveger seg?
+- [ ] Коли він рухається, здається, що він ходить?
 
-- [ ] Beveger han seg med riktig hastighet?
+- [ ] Він рухається з правильною швидкістю?
 
-- [ ] Klikk det røde stopp-symbolet for at Felix skal slutte å følge etter
-  musepekeren.
+- [ ] Натисніть на червоний символ зупинки, щоб Фелікс перестав слідувати за курсором миші.
 
-## Lagre prosjektet {.save}
+## Збережіть проєкт {.save}
 
-Hvis du er pålogget med din egen Scratchbruker lagrer scratch alle prosjektene dine automatisk med jevne mellomrom.
-Det kan likevel være lurt å lagre manuelt innimellom.
+Якщо ви увійшли у свій обліковий запис Scratch, усі ваші проекти автоматично зберігаються з певною періодичністю. Однак все одно корисно зберігати їх вручну час від часу.
 
-- [ ] I filmenyen, velg `Lagre nå`.
+- [ ] У меню «Файл» виберіть `Зберегти негайно`.
 
-Hvis du ikke har bruker kan du ikke lagre, bare fortsett til steg 2.
+Якщо у вас немає облікового запису і ви не можете зберігати проекти, просто перейдіть до кроку 2.
 
 
-# Steg 2: Felix jager Herbert {.activity}
+# Крок 2: Фелікс переслідує Герберта {.activity}
 
-*Nå ønsker vi at Felix skal jage musa Herbert i stedet for musepekeren.*
+*Тепер ми хочемо, щоб Фелікс ганявся за мишкою Гербертом замість вказівника миші.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Lag en ny figur ved å trykke på
+- [ ] Створіть новий спрайт, натиснувши на кнопку
   ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)
-  og velg figuren `Dyr/Mouse1`.
+  і виберіть фігурку `Тварини/Mouse1`.
 
-- [ ] Bytt navn på figuren til `Herbert`.
+- [ ] Перейменуйте фігуру на `Герберт`.
 
-- [ ] Gjør Herbert mindre enn Felix ved å velge `Størrelse` feltet
-  rett over figuren, og skriv inn et mindre tall. Prøv å endre tallet
-  fra 100 til 30.
+- [ ] Зробіть Герберта меншим за Фелікса, вибравши поле `Розмір` прямо над фігурою та введіть менше число. Спробуйте змінити число з 100 на 30.
 
-- [ ] Gi Herbert dette skriptet:
+
+- [ ] Дайте Герберту цей скрипт:
 
   ```blocks
   når grønt flagg klikkes
