@@ -2,14 +2,14 @@
 title: 'Heksens kjøkken'
 level: 1
 author: 'Johanna B. Stumpf'
-translator: ‘Anatolii Pylypenko’
+translator: 'Anatolii Pylypenko'
 language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-Vi skal lage et "escape" spill hvor spilleren må klikke objekter for å løse gåter og finne nøkkelen.
+Ми зробимо гру "Bтеча", де гравець повинен натискати на об'єкти, щоб вирішувати загадки та знайти ключ.
 
 ![heksens kjøkken start](heksens_kjøkken_start.png)
 
