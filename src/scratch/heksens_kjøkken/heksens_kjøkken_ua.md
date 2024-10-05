@@ -187,58 +187,75 @@ __Klikk på wizard-toad.__
 
 - [ ] Чи реагує "Жаба-чаклун", якщо ви вводите щось інше?
 
-# Steg 4: Katten blir forvandlet {.activity}
+# Крок 4: Перетворення кота {.activity}
 
-*Vi vil at riktig trylleformel utløser en magisk forvandling av katten.*
+*Натисніть на "Акваріум з рибкою", виберіть вкладку "Код" та створіть такий скрипт:*
 
-## Sjekkliste {.check}
+    ```blocks
+    Коли натиснути зелений прапорець
+    перейти до x: -50 y: 120
+    сховати
+    
+    Коли отримую повідомлення закляття
+    показати
+    повторити 10 разів
+    змінити розмір на 2
+    повторити 10 разів
+    змінити розмір на -2
+    відтворити звук “крапля води” до кінця
+    почекати 1 секунду
+    відправити повідомлення “кіт_зник”
+    
+    Коли натиснути цю фігуру
+    почати звук “крапля води”
+    ```
 
-- [ ] Klikk på Fishbowl, velg `Kode`-fanen og lag dette skriptet:
+## Контрольний список {.check}
+
+- [ ] Натисніть «Акваріум з рибкою», виберіть вкладку «Код» і створіть цей скрипт:
 
   ![fishbowl_skript](fishbowl_skript.png)
 
-## Test prosjektet {.flag}
+## Тестування проєкту {.flag}
 
 __Klikk på det grønne flagget.__
 __Klikk på wizard-toad.__
 __Svar "abrakadabra".__
 
-- [ ] Forvandles Katten til Fishbowl?
+- [ ] Чи перетворюється кіт на акваріум з рибкою?
 
-- [ ] Spiller Fishbowl lyden sin til riktig tid?
+- [ ] Чи видає акваріум звук у потрібний час?
 
-- [ ] Spiller Fishbowl lyden når du klikker på Fishbowl?
+- [ ] Чи видає акваріум звук, коли ви натискаєте на нього?
 
+# Крок 5: Миша приходить по пончик {.activity}
 
-# Steg 5: Musen kommer og henter donut {.activity}
+*Коли кіт зникає, миша повинна зайти в кімнату і взяти пончик.*
 
-*Når katten er forvandlet skal musen komme i rommet og hente donut.*
+## Контрольний список {.check}
 
-## Sjekkliste {.check}
-
-- [ ] Klikk på Mouse1, velg `Drakter`-fanen og lag en ny speilvend drakt med donut (kopier donut bildet fra donut-drakten). Kall drakten `Mouse1-turned`:
+- [ ] Клацніть мишею1, виберіть вкладку ``Костюми'' та створіть новий дзеркальний костюм пончика (скопіюйте зображення пончика з костюма пончика). Назвіть костюм `Mouse1-turned':
   ![mus_og_donut](mus_og_donut.png)
 
-- [ ] Klikk på Mouse1, velg `Kode`-fanen og lag dette skriptet:
-  ![mus_skript.png](mus_skript.png)
+- [ ] Натисніть на Mouse1, виберіть вкладку `Код` і створіть цей скрипт:
+ ![mus_skript.png](mus_skript.png)
 
-- [ ] Klikk på Donut, velg `Kode`-fanen og lag dette skriptet:
+- [ ] Натисніть на Donut, виберіть вкладку `Код` і створіть цей сценарій:
 ![donut_skript.png](donut_skript.png)
 
+## Перевірте проект {.flag}
 
-## Test prosjektet {.flag}
+__Натисніть на зелений прапорець.__
+__Натисніть жабу-чарівника.__
+__Відповідь "абракадабра".__
 
-__Klikk på det grønne flagget.__
-__Klikk på wizard-toad.__
-__Svar "abrakadabra".__
+- [ ] Чи прийдуть миші після перетворення кота?
 
-- [ ] Kommer mus etter at katten blir forvandlet?
+- [ ] Мишка видає звук, коли ви клацаєте нею?
 
-- [ ] Lager mus lyd når du klikker på den?
+- [ ] Чи залишає миша кімнату після того, як ви торкнулися її пончиком?
 
-- [ ] Forlater musen rommet etter at du har rørt den med donuten?
-
-- [ ] Forsvinner donuten etter at musen ta det?
+- [ ] Чи зникає пончик після того, як мишка його бере? 
 
 ![heksens kjøkken mus](heksens_kjøkken_mus.png)
 
