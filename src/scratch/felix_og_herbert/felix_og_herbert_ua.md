@@ -187,39 +187,36 @@ __Натисніть на зелений прапорець.__
 
   ![Bilde av den nye poeng variabelen](ny-variabel-poeng_ua.png)
 
-  Legg merke til at `Poeng 0` dukket opp øverst til venstre i spillet
-  ditt.
+ Зверніть увагу, що `Рахунок 0` з’явився у верхньому лівому куті гри.
 
-- [ ] Klikk på `Scene` helt til høyre på skjermen, ved siden av
-  lista over figurene Felix og Herbert. Lag disse to skriptene på scenen:
+- [ ] Клацніть `Сцена` в крайньому правому куті екрана, поруч зі списком персонажів Фелікса і Герберта. Створіть ці два сценарії на сцені:
 
   ```blocks
-  når grønt flagg klikkes
-  sett [Poeng v] til [0]
-  gjenta for alltid
-      vent (1) sekunder
-      endre [Poeng v] med (1)
+  коли grønt flagg натиснуто
+  надати [Рахунок v] значення [0]
+  завжди
+      чекати (1) секунд
+      змінити [Рахунок v] на (1)
   slutt
 
-  når jeg mottar [Fanget! v]
-  endre [Poeng v] med (-10)
+  коли я отримую [Упіймав! v]
+  змінити [Рахунок v] на (-10)
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Øker poengsummen med en hvert sekund?
+- [ ] Чи збільшується рахунок на одиницю щосекунди?
 
-- [ ] Går poengsummen ned med ti når Herbert blir fanget?
+- [ ] Чи зменшується кількість очок на десять, коли Герберта спіймають?
 
-- [ ] Hva skjer om Herbert fanges før du har ti poeng?
+- [ ] Що станеться, якщо Герберта спіймають до того, як у вас буде десять очок?
 
-- [ ] Går poengsummen tilbake til null når du starter spillet på nytt?
+- [ ] Чи обнуляється рахунок при перезапуску гри?
 
-## Lagre prosjektet {.save}
+## Збережіть проєкт {.save}
 
-*Du er ferdig. Godt gjort. Nå kan du spille spillet!*
+*Все готово. Молодець. Тепер ви можете грати у гру!*
 
-Hvis du er logget inn med din scratchbruker kan du dele spillet med familie og venner ved å trykke `Legg ut` på
-menylinjen.
+Якщо ви увійшли в систему під своїм обліковим записом Scratch, ви можете поділитися грою з родиною та друзями, натиснувши кнопку  `Поділитись в рядку меню`.
