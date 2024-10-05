@@ -2,7 +2,8 @@
 title: 'Heksens kjøkken'
 level: 1
 author: 'Johanna B. Stumpf'
-language: nb
+translator: ‘Anatolii Pylypenko’
+language: ua
 ---
 
 
