@@ -13,6 +13,8 @@ language:
       NAME: Engelsk
     is:
       NAME: Islandsk
+    ua
+      NAME: Ukrainsk
 topic:
   NAME: Tema
   TAGS:
