@@ -61,44 +61,42 @@ language: ua
 - [ ] Ми починаємо з того, що дозволяємо коту попросити ім'я. Для цього ми можемо використати блок `запитати
   [ Як вас звати?] і чекати`{.b}.
 
-- [ ] For at katten skal kunne huske navnet vi forteller den vil vi bruke en
-  variabel. Klikk på `Data`{.blockdata} og deretter `Lag en variabel`. Kall
-  variabelen `(Navn)`{.b}.
+- [ ] Для того, щоб кіт запам'ятав ім'я, яке ми йому скажемо, ми використаємо змінну. Клацніть на `Змінні`{.blockdata} а       потім `Створити змінну`. Назвіть змінну `(Ім'я)`{.b}.
 
-- [ ] Vi kan nå ta vare på svaret i `(Navn)`{.b}-variabelen.
+- [ ] Тепер ми можемо зберегти відповідь у змінну `(Ім'я)`{.b}.
 
   ```blocks
-  spør [skriv et navn] og vent
-  sett [Navn v] til (svar)
+  запитати [Як вас звати?] і чекати
+  надати [Ім'я v] значення (відповідь)
   ```
 
-- [ ] Om du ser på klossene som nå finnes i `Data`{.blockdata}-kategorien er det en
-  som sier `<[Guttenavn v] inneholder [thing]?>`{.b}. Denne klossen kan vi bruke
-  for å finne ut om et navn finnes i jentenavnlisten eller guttenavnlisten
-  (eller begge eller ingen av dem).
+- [ ] Якщо ви подивитеся на цеглинки, які зараз знаходяться в категорії `Змінні`{.blockdata}, є одна, яка каже
+    
+- [ ] <[Імена дівчаток v] містить (щось)?>
 
-- [ ] Lag en sjekk for om `(Navn)`{.b} er et jentenavn:
+- [ ] Ми можемо використовувати цей блок, щоб дізнатися, чи є ім'я в списку імен дівчаток або хлопчиків (або в обох            списках, або в жодному з них).
+
+- [ ] Зробіть перевірку `(Ім'я)`{.b} дівчини:
 
   ```blocks
-  spør [skriv et navn] og vent
-  sett [Navn v] til (svar)
-  hvis <[Jentenavn v] inneholder (Navn)?>
-      si (sett sammen (Navn) [ er et jentenavn]) i (2) sekunder
+  запитати [Як вас звати?] і чекати
+  надати [Ім'я v] значення (відповідь)
+  якщо <[Імена дівчаток v] містить (Ім'я)?> то
+      говорити (з'єднати (І'мя) [ це і'мя дівчинки]) (2) сек
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på koden din.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Spør katten deg om å skrive inn et navn?
+- [ ] Ваш кіт просить вас ввести ім'я?
 
-- [ ] Skriv inn et jentenavn, for eksempel `Emma`. Sier katten at `Emma er et
-  jentenavn`?
+- [ ] Введіть ім’я дівчини, наприклад `Анна`. Кіт каже, що `Анна це ім’я дівчинки`?
 
-- [ ] Hva skjer om du skriver inn et guttenavn? Eller et ord som ikke er et navn?
+- [ ] Що станеться, якщо ви введете ім'я хлопчика? Або слово, яке не є ім'ям?
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
 - [ ] Lag en sjekk for om `(Navn)`{.b} er et guttenavn. Prøv å lag denne selv. Du
   kan gjøre det på akkurat samme måte som for jentenavn. Legg den nye
