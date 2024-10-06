@@ -177,55 +177,45 @@ __Натисніть на зелений прапорець.__
   v]`{.b}, і спробуйте свою програму ще раз. Що сталося?
 
 
-# Steg 5: Det norske flagget {.activity}
+# Крок 5: Норвезький прапор {.activity}
 
-Nå skal vi se hvordan vi kan tegne flagget i forskjellige farger.
+Тепер давайте подивимося, як можна намалювати прапор у різних кольорах.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Tegn først to nye drakter, begge kopier av den røde disken. Den første
-  skal være en hvit disk mens den andre skal være en blå disk. Gi de tre
-  diskfigurene dine navnene `r`, `h` og `b` slik at navnet er første bokstaven i
-  fargen på disken: `r`ød, `h`vit og `b`lå.
+- [ ] Спочатку замініть колір у двох копій червоного диска. Перший повинен бути білим диском, а другий - синім диском.        Назвіть ваші три фігури дисків ч, б і с так, щоб назва була першою літерою кольору диска: червоний, білий і синій.
 
-  ![Bilde av en rød, hvit og blå disk i Scratch](tre_disker.png)
+  ![Bilde av en rød, hvit og blå disk i Scratch](tre_disker_ua.png)
 
-- [ ] Vi skal nå bruke en ny variabel `(flagg)`{.b} som beskriver fargene i
-  flagget. Lag variabelen _for alle figurer_ og legg deretter til koden:
+- [ ] Тепер ми будемо використовувати нову змінну `(прапор)`{.b} яка описує кольори у прапорі. Створіть змінну _Для усіх       спрайтів_, а потім додайте код:
 
   ```blocks
-  når @greenFlag klikkes
-  sett [flagg v] til [rrrrrhbbhrrrrr]
+  коли @greenFlag натиснуто
+  надати [прапор v] значення [чччччбссбччччч]
   ```
 
-  Bokstavene `rrrrrhbbhrrrrr` beskriver at vi først vil ha 5 røde disker,
-  deretter 1 hvit, 2 blå, 1 hvit og 5 røde disker.
+  Букви чччччбссбччччч означають, що спочатку ми хочемо 5 червоних дисків, потім 1 білий, 2 синіх, 1 білий і 5 червоних       дисків.
 
-- [ ] For å kunne bruke den nye `(flagg)`{.b}-variabelen må også hver disk vite
-  hvilket nummer den har. Lag en ny variabel `(nummer)`{.b} som gjelder kun _for
-  denne figuren_.
+- [ ] Для того, щоб використовувати нову змінну `(прапор)`{.b}, кожен диск повинен знати, який номер він має. Створіть нову   змінну `(номер)`{.b} яка застосовуватиметься _Тільки для цього спрайту_.
 
-- [ ] Legg til `sett [nummer v] til [1]`{.b} rett under `vis`{.b} og `endre
-  [nummer v] med (1)`{.b} rett under `lag klon av [meg v]`{.b}-klossen.
+- [ ] Додайте `надати [номер v] значення [1]`{.b} трохи нижче `показати`{.b} та `змінити
+  [номер v] на (1)`{.b} нижче блоку `створити клон з [мене v]`{.b}.
 
-- [ ] Til slutt skal vi endre drakt på diskene. Legg til
+- [ ] Нарешті, ми змінимо зовнішній вигляд дисків. Додайте
 
   ```blocks
-  bytt drakt til (bokstav (nummer) i (flagg))
+  змінити образ на (символ (номер) у (прапор))
   ```
 
-  øverst i `gjenta for alltid`{.blockcontrol}-løkken i `flagre`-skriptet.
+  у верхній частині циклу `завжди`{.blockcontrol} у скрипті `майоріти`.
 
-- [ ] Kjør programmet ditt. Den venstre delen av flagget ditt skal nå ha fått
-  fargene til det norske flagget. For å fargelegge hele flagget må vi gi mange
-  flere bokstaver til `(flagg)`{.b}-variabelen. Hele det norske flagget vil ha
-  bokstavene
+- [ ] Запустіть програму. Тепер ліва частина вашого прапора повинна мати кольори норвезького прапора. Щоб розфарбувати весь   прапор, нам потрібно додати ще багато літер до змінної `(прапор)`{.b} Весь норвезький прапор матиме літери
 
   ```
-  rrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrr
-  hhhhhhbbhhhhhhbbbbbbbbbbbbbbbbbbbbbbbbbbbbhhhhhhbbhhhhhhrrrrrhbbhrrrrr
-  rrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrr
-  rrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrrrrrrrhbbhrrrrr
+  чччччбссбччччччччччбссбччччччччччбссбччччччччччбссбччччччччччбссбччччч
+  ббббббссббббббссссссссссссссссссссссссссссббббббссббббббчччччбссбччччч
+  чччччбссбччччччччччбссбччччччччччбссбччччччччччбссбччччччччччбссбччччч
+  чччччбссбччччччччччбссбччччччччччбссбччччччччччбссбччччч
   ```
 
 - [ ] En enklere måte å tegne flagg på er å si at vi vil at mønsteret skal
