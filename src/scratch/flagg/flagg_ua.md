@@ -162,20 +162,19 @@ __Натисніть на зелений прапорець.__
 - [ ] Тоді нехай сценарій `майоріти` буде тим самим, який був у сценарії танець:
 
   ```blocks
-  når jeg mottar [flagre v]
-  gjenta for alltid
-      sett x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
-      sett y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
-      snu @turnLeft (5) grader
+  коли я отримую [майоріти v]
+  завжди
+      задати x ((центрX) + ((радіус) * ([cos v] з (напрям)))
+      задати y ((центрY) + ((радіус) * ([sin v] з (напрям)))
+      поворот @turnLeft на (5) градусів
   slutt
   ```
 
-- [ ] Kjør programmet ditt. Du vil nå se et flagg bestående av mange røde disker
-  som beveger seg i sirkel. Men nå kommer det morsomme: Vi kan la de røde
-  diskene bevege seg litt i utakt!
+- [ ] Запустіть програму. Тепер ви побачите прапор, що складається з багатьох червоних дисків, які рухаються по колу. Але      ось найцікавіше: Ми можемо змусити червоні диски рухатися трохи не синхронно!
 
-  Legg til klossen `snu @turnRight (1) grader`{.b} etter `lag klon av [meg
-  v]`{.b}-klossen, og prøv programmet ditt igjen. Hva har skjedd?
+
+  Додайте блок `поворот @turnRight на (1) градусів`{.b} після блоку `створити клон з [мене
+  v]`{.b}, і спробуйте свою програму ще раз. Що сталося?
 
 
 # Steg 5: Det norske flagget {.activity}
