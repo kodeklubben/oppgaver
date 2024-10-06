@@ -57,17 +57,13 @@ __Натисніть на зелений прапорець.__
 
 Ви можете помітити, що кіт рухається в напрямку, протилежному напрямку стрілки на `поворот @turnLeft на (5) градусів`{.b} Це тому, що Scratch вимірює кути у протилежному напрямку від того, що прийнято в математиці (і який ми намалювали вище).
 
-# Steg 2: Flytt sirkelen {.activity}
+# Крок 2: Перемістіть коло {.activity}
 
-Så langt har vi bare tegnet en sirkel midt på skjermen. La oss se om vi kan
-flytte den!
+Поки що ми просто намалювали коло в центрі екрана. Спробуймо його перемістити!
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Siden vi allerede flytter figuren langs en sirkel kan vi ikke bruke `gå
-  til x: () y: ()`{.b}-klosser for å flytte hele sirkelen. I stedet vil vi bruke
-  variabler. Lag to variabler som heter `(sentrumX)`{.b} og `(sentrumY)`{.b} og
-  som gjelder kun _for denne figuren_.
+- [ ] Оскільки ми вже рухаємо фігуру по колу, ми не можемо використовувати блок `перемістити в x: () y: ()`{.b} для переміщення всього кола. Замість цього ми будемо використовувати змінні. Створіть дві змінні з іменами `(центрX)`{.b} та `(центрY)`{.b} і яка застосовується _Тільки для цього спрайту_.
 
 - [ ] Vi kan nå flytte sirkelen over ved å sette `(sentrumX)`{.b}- og
   `(sentrumY)`{.b}-variablene:
