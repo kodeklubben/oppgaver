@@ -65,49 +65,46 @@ __Натисніть на зелений прапорець.__
 
 - [ ] Оскільки ми вже рухаємо фігуру по колу, ми не можемо використовувати блок `перемістити в x: () y: ()`{.b} для переміщення всього кола. Замість цього ми будемо використовувати змінні. Створіть дві змінні з іменами `(центрX)`{.b} та `(центрY)`{.b} і яка застосовується _Тільки для цього спрайту_.
 
-- [ ] Vi kan nå flytte sirkelen over ved å sette `(sentrumX)`{.b}- og
-  `(sentrumY)`{.b}-variablene:
+- [ ] Тепер ми можемо перемістити коло, встановивши змінні `(центрX)`{.b} та
+  `(центрY)`{.b}:
 
   ```blocks
-  når @greenFlag klikkes
-  begrens rotasjon [ikke roter v]
-  sett [sentrumX v] til [-100]
-  sett [sentrumY v] til [50]
-  gjenta for alltid
-      sett x til ((sentrumX) + ((100) * ([cos v] av (retning)))
-      sett y til ((sentrumY) + ((100) * ([sin v] av (retning)))
-      snu @turnLeft (5) grader
+  коли @greenFlag натиснуто
+  стиль обертання [не обертати v]
+  надати [центрX v] значення [-100]
+  надати [центрY v] значення [50]
+  завжди
+      задати x ((центрX) + ((100) * ([cos v] з (напрям)))
+      задати y ((центрY) + ((100) * ([sin v] з (напрям)))
+      поворот @turnLeft на (5) градусів
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Flytter sirkelen seg til det nye sentrumet?
+- [ ] Чи рухається коло до нового центру?
 
-## Prøv selv {.challenge}
+## Спробуйте самі. {.challenge}
 
-- [ ] Legg til en ny variabel, `(radius)`{.b}, som også gjelder kun _for denne
-  figuren_. Kan du bruke denne til å styre hvor stor sirkelen er? Det vil si,
-  `(radius)`{.b} skal fortelle lengden av den skrå streken i figuren i
-  begynnelsen av oppgaven.
+- [ ] Додайте нову змінну, `(радіус)`{.b}, яка також застосовується _Тільки для цього спрайту_.
+  Чи можна за допомогою цього контролювати розмір кола?
+  Тобто, `(радіус)`{.b} повинен показувати довжину похилої лінії на малюнку який був на початку завдання.
 
-  Du trenger en `sett [radius v] til []`{.b}-kloss i tillegg til å bruke
-  `(radius)`{.b} to steder i koden din.
+  Вам потрібен блок `надати [радіус v] значення []`{.b} на додаток до використання
+  `(радіус)`{.b} у двох місцях вашого коду.
 
 
-# Steg 3: Dansende disker {.activity}
+# Крок 3: Танцювальні диски {.activity}
 
-Nå skal vi prøve å få mange figurer til å gå i sirkel samtidig.
+Тепер ми спробуємо змусити багато фігур обертатися по колу одночасно.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Tegn en ny drakt på figuren din. Bruk vektorgrafikk til å tegne en rød
-  fyllt sirkel (disk). Denne kan være ganske liten, for eksempel `20 x 20`
-  piksler.
+- [ ] Намалюйте новий костюм для свого персонажа. За допомогою векторної графіки намалюйте коло (диск), заповнене червоним    кольором. Він може бути досить маленьким, наприклад, `20 x 20` пікселів.
 
-  ![Bilde av en liten rød fyllt disk i Scratch](rod_disk.png)
+  ![Bilde av en liten rød fyllt disk i Scratch](rod_disk_ua.png)
 
 - [ ] Vi kan lage mange røde disker ved å klone denne ene disken. Del koden din
   i to deler, og endre den på denne måten:
