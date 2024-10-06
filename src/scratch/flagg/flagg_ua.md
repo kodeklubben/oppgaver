@@ -218,12 +218,10 @@ __Натисніть на зелений прапорець.__
   чччччбссбччччччччччбссбччччччччччбссбччччччччччбссбччччч
   ```
 
-- [ ] En enklere måte å tegne flagg på er å si at vi vil at mønsteret skal
-  gjenta seg selv. Da trenger vi ikke skrive en bokstav for hver disk. Til dette
-  kan vi bruke `() mod ()`{.b}-klossen.
+- [ ] Простіший спосіб намалювати прапори - сказати, що ми хочемо, щоб візерунок повторювався. Тоді нам не доведеться         писати літеру для кожного диска. Для цього ми можемо використати `остача () на ()`{.b}.
 
-  Bytt `(bokstav (nummer) i (flagg))`{.b} med `(bokstav ((nummer) mod (lengden
-  av (flagg))) i (flagg))`{.b} i `bytt drakt til [ v]`{.b}-klossen. Om du prøver
+  Змініть `(символ (номер) у (прапор))`{.b} на `(символ (остача (номер) на (довжина
+  (прапор))) i (flagg))`{.b} i `bytt drakt til [ v]`{.b}-klossen. Om du prøver
   programmet igjen vil du se at flaggmønsteret gjentas (sett for eksempel
   `(flagg)`{.b} til `rhb` for å se dette).
 
