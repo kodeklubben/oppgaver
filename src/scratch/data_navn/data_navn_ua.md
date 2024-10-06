@@ -98,22 +98,14 @@ __Натисніть на зелений прапорець.__
 
 ## Контрольний список {.check}
 
-- [ ] Lag en sjekk for om `(Navn)`{.b} er et guttenavn. Prøv å lag denne selv. Du
-  kan gjøre det på akkurat samme måte som for jentenavn. Legg den nye
-  hvis-testen under den du allerede har.
+- [ ] Зробіть перевірку `(Ім'я)`{.b} хлопчика. Спробуйте створити його самостійно. Ви можете зробити це так само, як і для    дівочих імен. Додайте новий якщо-блок під тим, що вже є.
 
-- [ ] Legg til en `gjenta for alltid`{.b}-løkke rundt hele koden din. På den måten vil
-  katten stadig spørre deg om nye navn.
+- [ ] Додайте  цикл `завжди`{.b} навколо всього коду. Таким чином, кіт буде постійно запитувати у вас нові імена.
 
-- [ ] Legg også en `når grønt flagg klikkes`{.b}-kloss på toppen av koden din, slik
-  at du kan starte programmet ved å klikke på det grønne flagget.
+- [ ] Також додайте блок `коли grønt flagg натиснуто`{.b}  поверх вашого коду, щоб ви могли запустити програму, натиснувши    на зелений прапорець.
 
-## Prøv selv {.challenge}
+## Спробуйте самі. {.challenge}
 
-- [ ] Dette er et veldig enkelt eksempel på hva man kan gjøre med navnelistene (og
-  det har noen problemer: for eksempel finner ikke katten dobbeltnavn
-  som `Geir Arne`). Har du noen ideer til hvordan du kan bruke navnelistene på
-  en enda mer spennende måte?
+- [ ] Це дуже простий приклад того, що можна зробити зі списками імен (і він має деякі проблеми: наприклад, кіт не може       знайти подвійні імена, такі як `Марта-Марія`). Чи є у вас ідеї, як використовувати списки імен ще цікавіше?
 
-- [ ] Kjenner du til andre datasett som du har lyst til å jobbe med i Scratch? Bruk
-  [dataverktøyet](../data/data.html) for å lese inn dataene.
+- [ ] Чи знаєте ви інші набори даних, з якими хотіли б попрацювати у Scratch?
