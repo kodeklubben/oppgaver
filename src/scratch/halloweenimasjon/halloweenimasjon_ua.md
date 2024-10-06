@@ -24,7 +24,7 @@ language: ua
 - [ ] Почніть новий проект. Видаліть символ кота, наприклад, клацнувши правою кнопкою миші на ньому і вибравши пункт `вилучити`.
 
 - [ ] Виберіть нового персонажа, натиснувши
-  ![Виберіть форму з бібліотеки](../bilder/hent-fra-bibliotek.png). Знайдіть щось страшне, наприклад, привида! Ми використовували `Фантазії/Привид`.
+  ![Виберіть фігуру з бібліотеки](../bilder/hent-fra-bibliotek.png). Знайдіть щось страшне, наприклад, привида! Ми використовували `Фантазії/Привид`.
 
 - [ ] Торкніться поля імені над своєю фігурою. Назвіть його `Привид`.
 
@@ -83,7 +83,7 @@ language: ua
 ## Контрольний список {.check}
 
 - [ ] Створіть нового персонажа, натиснувши
-  ![Виберіть форму з бібліотеки](../bilder/hent-fra-bibliotek.png). Ми використали `Фантазії/Bat`. Змініть ім'я персонажа на `Кажан`.
+  ![Виберіть фігуру з бібліотеки](../bilder/hent-fra-bibliotek.png). Ми використали `Фантазії/Bat`. Змініть ім'я персонажа на `Кажан`.
 
 - [ ] Щоб виглядало так, ніби кажан летить до нас, ми хочемо, щоб він спочатку був дуже маленьким, а потім збільшувався. Створіть цей скрипт.
 
@@ -127,7 +127,6 @@ language: ua
   у правому нижньому куті екрана і виберіть тло
   `Поза приміщенням/Woods`. Назвіть тло `Ліс`.
 
-
 # Крок 3: Змініть тло {.activity}
 
 *Зараз ми розглянемо, як можна легко перемикати фон під час запуску анімації.*
@@ -136,261 +135,218 @@ language: ua
 
 Наприклад, якщо ми хочемо показати анімацію привида на чорному тлі, ми повинні спочатку натиснути `Сцена`, потім вкладку `Тло`та чорний фон. Крім того, нам потрібно натиснути фігуру привида, вкладку `Код` і, нарешті, сам сценарій. Це дуже громіздко! Тепер ми побачимо, як ми можемо використовувати повідомлення, щоб зробити це набагато простіше.
 
-Meldinger gjør det lett å få flere ting til å skje samtidig. Vi skal
-nå først lage en melding, `Animer spøkelse`. Vi vil at denne meldingen
-skal både bytte bakgrunnen og starte spøkelsesanimasjonen.
+За допомогою повідомлень можна легко зробити кілька речей одночасно. Спочатку ми створимо повідомлення, `Анімація привида`. Ми хочемо, щоб це повідомлення змінювало тло і запускало анімацію привида.
 
-- [ ] Klikk på `Scene` og lag dette skriptet:
+- [ ] Натисніть кнопку 
+ `Сцена`і створіть цей сценарій:
 
   ```blocks
-  når jeg mottar [Animer spøkelse v]
-  bytt bakgrunn til [Svart v]
+  коли я отримую [Анімація привида v]
+  змінити тло на [Чорний v]
   ```
 
-- [ ] Klikk på spøkelsesfiguren og endre skriptet ved å legge til en kloss
-  på toppen:
+- [ ] Натисніть на персонажа-привида і змініть сценарій, додавши блок зверху:
 
   ```blocks
-  når jeg mottar [Animer spøkelse v]
-  begrens rotasjon [vend sideveis v]
-  vis
-  gjenta (200) ganger
-      gå (5) steg
-      sprett tilbake ved kanten
+  коли я отрисую [Анімація привида v]
+  стиль обертання [не обертати v]
+  показати
+  повторити (200)
+      перемістити на  (5) кроків
+      якщо на межі, відбити
   slutt
-  skjul
+  сховати
   ```
 
-- [ ] Nå venter skriptene våre på meldingen. For å teste kan vi dra
-  klossen
+- [ ] Тепер наші скрипти чекають на повідомлення. Для тестування ми можемо перетягнути блок
 
   ```blocks
-  send melding [Animer spøkelse v]
+  оповістити [Анімація привида v]
+  ```
+  поруч із великим написом привида. 
+
+- [ ] Надішліть повідомлення, натиснувши на `блок оповістити`{.blockevents}.
+ Чи оживляється привид на чорному тлі?
+
+- [ ] Тепер ми зробимо те саме для кажана. Додайте новий сценарій до сцени:
+
+  ```blocks
+  коли я отримую [Анімація кажана v]
+  змінити тло на [Ліс v]
   ```
 
-  ut ved siden av det store skriptet til spøkelset.
-
-- [ ] Send meldingen ved å klikke på `send melding`{.blockevents}-klossen.
-  Animeres spøkelset over en svart bakgrunn?
-
-- [ ] Vi vil nå gjøre det samme for flaggermusen. Legg til et nytt skript på
-  scenen:
+- [ ] Натисніть на фігурку кажана та змініть сценарій таким чином
 
   ```blocks
-  når jeg mottar [Animer flaggermus v]
-  bytt bakgrunn til [Skog v]
-  ```
-
-- [ ] Klikk på flaggermusfiguren og endre skriptet slik
-
-  ```blocks
-  når jeg mottar [Animer flaggermus v]
-  sett størrelse til (0) %
-  vis
-  gjenta (100) ganger
-      endre størrelse med (4)
+  коли я отримую [Анімація кажана v]
+  задати розмір (0) %
+  показати
+  повторити (100) 
+      змінити розмір на (4)
   slutt
-  skjul
+  сховати
   ```
 
-- [ ] Legg også til klossen
+- [ ] Також додайте блок
 
   ```blocks
-  send melding [Animer flaggermus v]
+  оповістити [Анімація кажана v]
   ```
 
-  for å teste at animasjonen fungerer.
+  щоб перевірити, чи працює анімація.
 
-- [ ] Send meldingene som animerer spøkelset og flaggermusen. Starter
-  animasjonene når du klikker på meldingene? Byttes bakgrunnene
-  riktig?
+- [ ] Надішліть повідомлення, які анімують привида та кажана. Чи запускається анімація, коли ви натискаєте на повідомлення? Чи правильно змінюються фони?
 
+# Крок 4: Підключіть анімацію {.activity}
 
-# Steg 4: Koble sammen animasjonene {.activity}
+*Тепер давайте подивимося, як ми можемо з'єднати анімації так, щоб вони з'являлися послідовно одна за одною.*
 
-*Nå skal vi se hvordan vi kan koble sammen animasjonene slik at de
- vises i sekvens etter hverandre.*
+## Контрольний список {.check}
 
-## Sjekkliste {.check}
-
-- [ ] Vi begynner med å lage en `gjenta for alltid`{.blockcontrol}-løkke på
-  scenen, som sender meldinger:
+- [ ] Ми починаємо зі створення на сцені `завжди`{.blockcontrol} циклу, який надсилає повідомлення:
 
   ```blocks
-  gjenta for alltid
-      send melding [Animer spøkelse v] og vent
-      send melding [Animer flaggermus v] og vent
+  завжди
+      оповістити [Анімація привида v] і чекати
+      оповістити [Анімація кажана v] і чекати
   slutt
   ```
+- [ ] Натисніть на скрипт, щоб протестувати його. Натисніть червоне коло зупинки, щоб зупинити анімацію. Чи з'являються анімації одна за одною знову і знову?
 
-- [ ] Klikk på skriptet for å teste det. Trykk den røde stopp-sirkelen for
-  å stoppe animasjonen. Vises animasjonene etter hverandre om og om igjen?
-
-- [ ] Det vil se litt bedre ut med en kort pause mellom animasjonene. Legg
-  til et par `vent`{.blockcontrol}-klosser i skriptet.
+- [ ] Це буде виглядати трохи краще з невеликою паузою між анімаціями. Додайте в скрипт кілька блоків `чекати`{.blockcontrol}-klosser i skriptet.
 
   ```blocks
-  gjenta for alltid
-      send melding [Animer spøkelse v] og vent
-      vent (1) sekunder
-      send melding [Animer flaggermusen v] og vent
-      vent (1) sekunder
+  завжди
+      оповістити [Анімація привида v] і чекати
+      чекати (1) секуед
+      оповістити [Анімація кажана v] і чекати
+      чекати (1) секунд
   slutt
   ```
 
-- [ ] For å gjøre det enklere å starte animasjonen legger vi til en kloss
-  som gjør at animasjonen starter når det grønne flagget øverst på
-  skjermen klikkes.
+- [ ] Щоб полегшити запуск анімації, ми додали блок, який запускає анімацію при натисканні на зелений прапорець у верхній частині екрана.
 
   ```blocks
-  når @greenFlag klikkes
-  gjenta for alltid
-      send melding [Animer spøkelse v] og vent
-      vent (1) sekunder
-      send melding [Animer flaggermus v] og vent
-      vent (1) sekunder
+  коли @greenFlag натиснуто
+  завжди
+      оповістити [Анімація привида v] і чекати
+      чекати (1) секунд
+      оповістити [Анімація кажана v] і чекати
+      чекати (1) секунд
   slutt
   ```
 
-- [ ] Vi kan også bruke grønt flagg-klosser på figurene for å være sikre
-  på at de starter animasjonen på riktig måte. Legg dette skriptet på
-  spøkelset:
+- [ ] Ми також можемо використовувати цеглинки із зеленими прапорцями на персонажах, щоб переконатися, що вони правильно запускають анімацію. Помістіть цей скрипт на привида:
 
   ```blocks
-  når @greenFlag klikkes
-  skjul
-  gå til x: (0) y:(0)
+  коли @greenFlag натиснуто
+  сховати
+  перемістити в x: (0) y:(0)
   ```
 
-- [ ] Legg et tilsvarende skript på flaggermusen:
+- [ ] Помістіть відповідний скрипт на кажана:
 
   ```blocks
-  når @greenFlag klikkes
-  skjul
-  gå til x: (0) y:(0)
+  коли @greenFlag натиснуто
+  сховати
+  перемістити в x: (0) y:(0)
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Kjøres begge animasjonene etter hverandre? Dukker figurene opp når de skal?
+- [ ] Чи виконуються обидві анімації одна за одною? Чи з’являються фігури, коли вони повинні?
 
-- [ ] Endre gjerne i animasjonene slik at du synes de ser bedre
-  ut. Kanskje du vil ha litt andre figurer? Hvordan kan du få figurene
-  til å bevege seg raskere? Kanskje litt mer tilfeldig? Prøv deg frem!
+- [ ] Не соромтеся змінювати анімацію так, щоб вона виглядала краще.
+      Можливо, ви хочете трохи інших персонажів? Як зробити так, щоб персонажі рухалися швидше?
+      Можливо, трохи більш випадковими? Спробуйте свої сили!
 
+# Крок 5: Намалюйте власні фігури {.activity}
 
-# Steg 5: Tegn egne figurer {.activity}
+*Тепер ми створимо третю анімацію, де самостійно намалюємо персонажа*
 
-*Vi vil nå lage en tredje animasjon hvor vi tegner en figur på egen hånd*
+## Контрольний список {.check}
 
-## Sjekkliste {.check}
+- [ ] Створіть нову фігуру, навівши вказівник на пункт 
+  ![Виберіть фігуру з бібліотеки](../bilder/hent-fra-bibliotek.png), і натиснувши кнопку `Малювати`. Ви можете намалювати все, що завгодно. Тут ми намалювали гарбуз у вигляді ліхтарика.
 
-- [ ] Lag en ny figur ved å flytte pekeren over
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png), og
-  klikk så `Tegn`. Du kan tegne hva du vil. Her har vi tegnet et
-  Jack-O'-Lantern-gresskar.
+  ![Зображення гарбуза з вирізаним обличчям](gresskar.png)
 
-  ![Bilde av gresskar med utskjært ansikt](gresskar.png)
+- [ ] Створіть копію костюма, який ви щойно намалювали, клацнувши правою кнопкою миші на мініатюрі   `Образи` та вибравши `дублювати`.
 
-- [ ] Lag en kopi av drakten du nettopp tegnet ved å høyreklikke på
-  miniatyren under `Ny drakt`-overskriften og velg `lag en kopi`.
+  ![Зображення того, як зробити копію гарбуза в скретч](kopier_gresskar.png)
 
-  ![Bilde av hvordan lage en kopi av gresskaret i scratch](kopier_gresskar.png)
+- [ ] Трохи змініть скопійований костюм так, щоб у вас вийшло два костюми, які досить, але не зовсім, схожі. Тепер ми будемо анімувати персонажа, перемикаючись між двома костюмами.
 
-- [ ] Endre litt på den kopierte drakten, slik at du får to drakter som er
-  ganske, men ikke helt, like. Vi vil nå animere figuren ved å bytte
-  mellom de to draktene.
-
-- [ ] Klikk på `Kode`{.blocklightgrey}-fanen og legg på dette skriptet:
+- [ ] Перейдіть на вкладку 
+ `Код`{.blocklightgrey} і додайте цей скрипт:
 
   ```blocks
-  når jeg mottar [Animer gresskar v]
-  vis
-  gjenta (50) ganger
-      neste drakt
-      vent (tilfeldig tall fra (0.1) til (0.3)) sekunder
+  коли я отримую [Анімація гарбуза v]
+  показати
+  повторити (50) 
+      наступний образ
+      чекати (випадкове від (0.1) до (0.3)) секунд
   slutt
-  skjul
+  сховати
   ```
 
-  Bytt gjerne ut meldingsnavnet `Animer gresskar` med noe som passer
-  for din figur. Klikk på skriptet (eller send en melding) for å
-  teste animasjonen. Ser det bra ut?
+Не соромтеся замінити назву повідомлення `Анімація гарбуза` на щось, що підходить для вашого персонажа. Натисніть на сценарій (або оповістити), щоб перевірити анімацію. Виглядає добре?
 
-- [ ] Legg også til startposisjonen for den figuren:
+- [ ] Також додайте початкову позицію для цієї фігури:
 
   ```blocks
-  når @greenFlag klikkes
-  skjul
-  gå til x: (0) y: (0)
+  коли @greenFlag натиснуто
+  сховати
+  перемістити в x: (0) y: (0)
   ```
 
-- [ ] Gå så til scenen og legg på et skript som bytter til riktig bakgrunn
-  for den siste animasjonen. Her har vi brukt den svarte bakgrunnen.
+- [ ] Потім перейдіть до сцени і додайте скрипт, який перемикається на правильний фон для фінальної анімації. Тут ми використали чорний фон.
 
   ```blocks
-  når jeg mottar [Animer gresskar v]
-  bytt bakgrunn til [Svart v]
+  коли я отримую [Анімація гарбуза v]
+  змінити тло на [Чорний v]
   ```
 
-- [ ] Til slutt legger vi denne siste animasjonen til i hovedløkken som
-  viser animasjonene:
+- [ ] Нарешті, ми додаємо цю останню анімацію до основного циклу, що показує анімації:
 
   ```blocks
-  når @greenFlag klikkes
-  gjenta for alltid
-      send melding [Animer spøkelse v] og vent
-      vent (1) sekunder
-      send melding [Animer flaggermus v] og vent
-      vent (1) sekunder
-      send melding [Animer gresskar v] og vent
-      vent (1) sekunder
+  коли @greenFlag натиснуто
+  завжди
+      оповістити [Анімація привида v] і чекати
+      чекати (1) секунд
+      send melding [Анімація кажана v] і чекати
+      чекати (1) секунд
+      send melding [Анімація гарбуза v] і чекати
+      чекати (1) секунд
   slutt
   ```
 
+# Крок 6: Ще більше анімації? {.activity}
 
-# Steg 6: Enda flere animasjoner? {.activity}
+## Спробуйте самі {.challenge}
 
-## Prøv selv {.challenge}
+Ми розглянули кілька прикладів того, як створювати моторошні анімації на Хелловін. Спробуйте використати подібні техніки для створення власної анімації!
 
-Vi har nå sett noen eksempler på hvordan vi kan lage skumle
-halloween-animasjoner. Prøv å bruk lignende teknikker for å lage dine
-egne animasjoner!
+## Опублікуйте свій проєкт {.save}
 
-## Legg ut prosjektet {.save}
+Якщо ви задоволені своєю анімацією, ви можете поділитися нею з родиною та друзями, натиснувши кнопку `Поділитись`.
 
-Når du er fornøyd med animasjonene dine kan du dele det med familie og
-venner, ved å trykke `Legg ut`.
+# Проектуйте анімацію {.activity}
 
+*На завершення ми розглянемо, як можна налякати сусідів своїми моторошними анімаціями на загальний огляд.*
 
-# Projiser animasjonene {.activity}
+Найпростіший спосіб зробити це - помістити екран у вікно і натиснути квадрат для повноекранного перегляду у верхньому лівому кутку під логотипом Scratch. Але якщо у вас є можливість позичити проектор на Хелловін, ви можете показати анімацію на вулиці, на стіні або на шторі чи простирадлі, як показано на зображенні на початку. У будь-якому випадку, трохи нерозумно, що Scratch показує анімацію з білою рамкою на екрані. Щоб отримати кращий вигляд, ви можете скористатися наведеними нижче порадами.
 
-*Vi avslutter med å se på hvordan du kan skremme nabolaget med de
- skumle animasjonene dine slik at alle kan se dem.*
+## Контрольний список {.check}
 
-Det enkleste er å sette skjermen i vinduet, og klikke på firkanten for
-fullskjermvisning øverst til venstre under Scratch-logoen. Men hvis du
-kan låne en prosjektør til Halloween kan du vise animasjonen utendørs,
-på en vegg eller på et gardin eller laken, slik bildet i begynnelsen
-viser. I begge tilfeller er det litt dumt at Scratch viser animasjonen
-med en hvit ramme på skjermen. For å få en bedre visning kan du følge
-tipsene nedenfor.
+- [ ] Спочатку ми створюємо файл, який відображає вашу анімацію у великому вікні з чорним фоном.
+Ми робимо це за допомогою HTML-коду. HTML - це мова, яка використовується для створення веб-сторінок.
 
-## Sjekkliste {.check}
+  Завантажте файл [projiser.html](projiser.html). Перейшовши за цією адресою, виберіть у меню браузера `Файл > Зберегти як `, або щось подібне. Збережіть файл там, де ви зможете його знайти.
 
-- [ ] Først lager vi en fil som viser animasjonen din i et større vindu
-  med svart bakgrunn. Dette gjør vi med litt HTML-kode. HTML er det
-  språket som brukes til å lage nettsider.
-
-  Last ned filen [projiser.html](projiser.html).  Etter at du har
-  gått til denne adressen kan du velge `Fil > lagre som`, eller noe
-  som ligner, i menyen til nettleseren din. Legg filen et sted du
-  finner den igjen.
-
-- [ ] Åpne filen i Notepad eller et tilsvarende program. Du vil se en
-  tekst som ser slik ut:
+- [ ] Відкрийте файл у Блокноті або подібній програмі. Ви побачите текст, який виглядає так:
 
   ```html
   <html>
@@ -415,25 +371,19 @@ tipsene nedenfor.
   </html>
   ```
 
-- [ ] Gjemt inne i denne teksten står det et Scratch-prosjektnummer. I
-  dette tilfelle er nummeret `30923784`. Du må bytte dette nummeret
-  med prosjektnummeret ditt.
+- [ ] Усередині цього тексту сховано номер проекту Scratch. У цьому випадку це номер `30923784`. Вам потрібно поміняти цей номер на номер вашого проекту.
 
-### Prosjektnummer {.protip}
+### Номер проєкту {.protip}
+Щоб знайти номер свого проєкту, ви можете дивитися в адресний рядок свого браузера під час роботи над проєктом. У складі адреси ви знайдете 8-значне число. Це і є номер вашого проєкту.
 
-For å finne prosjektnummeret ditt kan du se i adressefeltet i
-nettleseren din mens du jobber med prosjektet. Som en del av adressen
-finner du et 8-sifret tall. Dette er ditt prosjektnummer.
+## Контрольний список {.check}
 
-## Sjekkliste {.check}
+- [ ] Замініть `30923784` на номер вашого проекту і збережіть файл.
 
-- [ ] Bytt `30923784` med ditt prosjektnummer og lagre filen.
+- [ ] Тепер ви можете відкрити файл, який ви щойно змінили, у своєму браузері. Виберіть у браузері
+  `Файл > Відкрити файл`, або щось подібне. Виберіть потрібний файл.
 
-- [ ] I nettleseren din kan du nå åpne filen du nettopp endret. Velg
-  `Fil > åpne fil`, eller noe som ligner, i nettleseren din. Velg den
-  riktige filen.
+- [ ] Тепер ви повинні побачити свою анімацію на чорному фоні.
 
-- [ ] Du skal nå se animasjonen din på svart bakgrunn.
-
-- [ ] Koble datamaskinen din til en prosjektør, og vis animasjonen
-  din på et hvitt laken, en gardin eller kanskje en vegg!
+- [ ] Підключіть комп'ютер до проектора і покажіть свою анімацію на білому аркуші, шторі або, можливо, на стіні!
+Ліцензія: CC BY-SA 4.0
