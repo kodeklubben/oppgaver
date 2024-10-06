@@ -2,75 +2,95 @@
 title: Spøkelsesjakten
 level: 1
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Gudbrand Tandberg'
-language: nb
+translator: 'Malin Bruland'
+language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-Dette prosjektet er inspirert av tivolispillet __Whack-a-mole__, hvor
-man slår muldvarper ned igjen i hullene sine. I vårt spill er det
-spøkelsene som blir borte når vi klikker på dem. Målet er å klikke
-bort flest mulig i løpet av 30 sekunder.
+Цей проект створено за мотивами ярмаркової гри __Вдарити крота__, де
+один збиває кротів назад у їхні нори. У нашій грі так і є
+привиди, які зникають, коли ми натискаємо на них. Мета - натиснути
+видалити якомога більше протягом 30 секунд.
 
 ![Illustrasjon av et ferdig spøkelsejakt spill](spokelsesjakten.png)
 
+# Крок 1: створіть літаючого привида {.activity}
 
-# Steg 1: Lag et flyvende spøkelse {.activity}
+## Контрольний список {.check}
 
-## Sjekkliste {.check}
+- [ ] Розпочати новий проект Scratch.
 
-- [ ] Start et nytt Scratch-prosjekt.
+- [ ] Видаліть фігуру кота, клацнувши її правою кнопкою миші та вибравши «видалити»
 
-- [ ] Slett kattefiguren ved å høyreklikke på den og velge `slett`
+- [ ] Змінити фон на `Outdoor/Woods`.
 
-- [ ] Endre bakgrunnen til `Utendørs/Woods`.
+- [ ] Щоб додати привида, натисніть
+ Кнопка ![Вибрати форму з бібліотеки](../images/get-from-library.png).
+ Виберіть персонажа `Fantasy/Ghost'.
 
-- [ ] For å legge til et spøkelse klikker du på
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png)-knappen.
-  Velg `Fantasi/Ghost`-figuren.
+- [ ] Дайте привиду ім’я `ghost1`.
 
-- [ ] Gi spøkelset navnet `spøkelse1`.
+Тепер ви __створите змінну__, яка контролює швидкість руху привида
+себе. Пізніше ми можемо використати це, щоб змінити швидкість під час гри
+в процесі.
 
-Du skal nå __lage en variabel__ som styrer hvor fort spøkelset beveger
-seg. Denne kan vi senere bruke til å endre hastigheten når spillet er
-i gang.
+- [ ] У розділі `Код`{.blocklightgrey} натисніть `Змінні`{.blockdata}, а потім
+ `Створити змінну'. Викличте змінну `швидкість'. Перекресліть там, де написано
+ «Для цієї фігури».
 
-- [ ] Under `Kode`{.blocklightgrey}, trykk på `Variabler`{.blockdata} og så
-  `Lag en variabel`. Kall variabelen `hastighet`. Huk av der det står
-  `For denne figuren`.
+- [ ] На сцені змінна має називатися `ghost1: speed`. Якби тільки
+ називається `швидкість', тому видаліть його та додайте знову.
 
-- [ ] På scenen skal variabelen hete `spøkelse1: hastighet`. Hvis den bare
-  heter `hastighet`, så slett den og legg den til en gang til.
+- [ ] Видаліть відступ біля змінної, щоб вона не з’являлася на
+ сцена: ![Зображення того, як не показувати змінну швидкості](speed.png)
 
-- [ ] Fjern avhukingen ved siden av variabelen, slik at den ikke vises på
-  scenen: ![Bilde av hvordan ikke vise hastighet variabelen](hastighet.png)
+- [ ] Ми хочемо, щоб привид рухався, коли починається гра. Ми робимо
+ створивши такий сценарій:
 
-- [ ] Vi vil at spøkelset skal bevege seg når spillet starter. Det gjør vi
-  ved å lage følgende skript:
+    ``` блоки
+    коли клацнути зелений прапорець
+    встановіть [швидкість v] на [5]
+    повторювати вічно
+        ходьба (швидкість) крок
+    кінець
+    ```
 
-  ```blocks
-  når grønt flagg klikkes
-  sett [hastighet v] til [5]
-  gjenta for alltid
-      gå (hastighet) steg
-  slutt
-  ```
+FIXME Sjekk om blokk-programmering virker
 
-## Test Prosjektet {.flag}
+    ```blocks
+    når grønt flagg klikkes
+    sett [hastighet v] til [5]
+    gjenta for alltid
+        gå (hastighet) steg
+    slutt
+    ```
 
-__Klikk på det grønne flagget.__
+## Перевірте проект {.flag}
 
-- [ ] Flyr spøkelset over skjermen?
+__Натисніть на зелений прапорець.__
 
-- [ ] Hvorfor sitter spøkelset fast når det treffer kanten på skjermen?
+- [ ] Привид літає по екрану?
 
-## Sjekkliste {.check}
+- [ ] Чому привид застрягає, коли торкається краю екрана?
 
-- [ ] For å unngå at spøkelset sitter fast i kanten må vi få det til å snu
-  når det treffer den. Dette gjøres ved å legge til klossen `sprett
-  tilbake ved kanten`{.blockmotion}. Skriptet ser da slik ut:
+## Контрольний список {.check}
+
+- [ ] Щоб привид не застряг на краю, ми повинні змусити його повертатися
+ коли він потрапляє в нього. Це робиться шляхом додавання блоку `bounce
+ назад на краю`{.blockmotion}. Тоді сценарій виглядає так:
+
+    ``` блоки
+    коли клацнути зелений прапорець
+    встановіть [швидкість v] на [5]
+    повторювати вічно
+        ходьба (швидкість) крок
+        відскочити на краю
+    кінець
+    ```
+
+FIXME Sjekk om blokken virker
 
   ```blocks
   når grønt flagg klikkes
@@ -81,41 +101,53 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
-- [ ] For å hindre at spøkelset snur seg opp-ned, klikk på `Retning` boksen over figuren.
-  Velg den midterste rotasjonsmåten ("frem og tilbake").
+- [ ] Щоб привид не перевернувся догори дном, клацніть поле «Напрямок» над фігурою.
+ Виберіть середній режим обертання («вперед-назад»).
 
   ![venstre/høyre](../bilder/rotasjonsmate-hv.png)
 
-## Test prosjektet {.flag}
+## Перевірте проект {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Flyr spøkelset fram og tilbake?
+- [ ] Привид літає туди-сюди?
 
-- [ ] Flyr spøkelset riktig vei?
+- [ ] Привид летить у правильному напрямку?
 
-## Ting å prøve {.challenge}
+## Що спробувати {.challenge}
 
-- [ ] __Endre hastighetsvariabelen__, slik at spøkelset går raskere eller
-  saktere.
+- [ ] __Змініть змінну швидкості__, щоб привид рухався швидше або
+ повільніше.
 
-- [ ] Hvordan kan vi få spøkelset til å __fly fortere jo lenger det
-  flyr?__ (Dette er nokså vanskelig, så ikke vær bekymret hvis du ikke
-  skjønner hvordan. Du vil få flere hint underveis.)
+- [ ] Як ми можемо змусити привида __літати швидше, ніж далі
+ літати?__ (Це досить важко, тому не хвилюйтеся, якщо ви цього не зробите
+ зрозуміти як. Попутно ви отримаєте більше підказок.)
 
 
-# Steg 2: Få spøkelset til å dukke opp og forsvinne {.activity}
+# Крок 2: змусьте привида з’являтися та зникати {.activity}
 
-*For å gjøre spillet morsommere vil vi få spøkelset til å dukke opp og
- forsvinne.*
+* Щоб зробити гру веселішою, ми зробимо так, щоб привид з'явився і
+ зникнути.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Vi lager et nytt skript, som skal kjøre samtidig med skriptet som
-  beveger på spøkelset. Det nye skriptet __viser spøkelset en
-  tilfeldig periode__ og __gjemmer det deretter bort i en tilfeldig
-  periode__. Dette skal skje om og om igjen, frem til spillet er
-  slutt. Slik lager du skriptet:
+- [ ] Ми створюємо новий скрипт, який буде працювати одночасно зі скриптом, який
+ рухається привид. Новий сценарій __показує привид
+ випадковий період__ і __тоді ховає його у випадковому
+ період__. Це повинно відбуватися знову і знову, поки гра не закінчиться
+ кінець. Як створити сценарій:
+
+    ``` блоки
+    коли клацнути зелений прапорець
+    повторювати вічно
+        шоу
+        зачекайте (випадкове число від (3) до (5)) секунд
+        приховати
+        зачекайте (випадкове число від (2) до (4)) секунд
+     кінець
+ ```
+
+FIXME Sjekk blokk
 
   ```blocks
   når grønt flagg klikkes
@@ -127,36 +159,44 @@ __Klikk på det grønne flagget.__
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проект {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Flytter spøkelset seg fra side til side?
+- [ ] Чи рухається привид з боку в бік?
 
-- [ ] Forsvinner det og dukker opp igjen helt tilfeldig?
+- [ ] Він зникає і знову з’являється абсолютно випадково?
 
-## Ting å prøve {.challenge}
+## Що спробувати {.challenge}
 
-- [ ] Prøv å __endre tallene i koden__ der det står `tilfeldig tall fra _
-  til _`{.blockoperators}. Hva skjer hvis du velger veldig store
-  eller små tall? (Dette gir deg kanskje et nytt hint for hvordan vi
-  skal få spøkelset til å gå fortere jo lenger man spiller.)
+- [ ] Спробуйте __змінити числа в коді__, де написано «випадкове число з _
+ до _`{.blockoperators}. Що станеться, якщо вибрати дуже великий
+ чи маленькі цифри? (Це може дати вам ще одну підказку щодо того, як ми
+ має змусити привида рухатися швидше, чим довше ви граєте.)
 
 
-# Steg 3: Tryll bort spøkelset med et klikk! {.activity}
+# Крок 3: Викличте привида одним клацанням! {.activity}
 
-*For å gjøre dette til et ordentlig spill må vi gi spilleren noe å
- gjøre - for eksempel å klikke bort spøkelset. Når det skjer vil vi
- også at det skal komme en stilig tryllelyd!*
+* Щоб зробити цю гру правильною, нам потрібно дати гравцеві щось робити
+ зробити - наприклад, клацанням геть привида. Коли це станеться, ми це зробимо
+ також, щоб був стильний магічний звук!*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Gå inn på `Lyder`{.blocklightgrey}-fanen, legg til en ny lyd med
-  ikonet nede til venstre. Søk opp lyden `Fairydust` i søkefeltet, og
-  velg den. Nå er den tilgjengelig for skriptene i spøkelset.
+- [ ] Перейдіть на вкладку `Звуки`{.blocklightgrey}, додайте новий звук за допомогою
+ унизу ліворуч. Знайдіть звук «Fairydust» у полі пошуку та
+ виберіть його. Тепер він доступний для скриптів у привиді.
 
-- [ ] Lag skriptet som får __spøkelset til å forsvinne__ når det blir
-  klikket på:
+- [ ] Створіть сценарій, який змушує __привид зникати__, коли він стає
+ натиснув на:
+
+    ``` блоки
+     коли клацнути цю фігуру
+     приховати
+     початковий звук [fairydust v]
+     ```
+
+FIXME Sjekk blokken
 
   ```blocks
   når denne figuren klikkes
@@ -164,24 +204,26 @@ __Klikk på det grønne flagget.__
   start lyden [fairydust v]
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проект {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Forsvinner spøkelset med en tryllelyd når du klikker på det?
+- [ ] Чи зникає привид із чарівним звуком, коли ви натискаєте його?
 
-## Ting å prøve {.challenge}
+## Що спробувати {.challenge}
 
-- [ ] Spør de voksne om du kan ta opp en egen lyd. Denne kan du bruke i
-  stedet for tryllelyden.
+- [ ] Запитайте дорослих, чи можете ви записати власний звук. Ви можете використовувати це в
+ місце чарівного звуку.
 
 
-# Steg 4: Legg til tid og poeng {.activity}
+# Крок 4: Додайте час і бали {.activity}
 
-*Vi har et spøkelse å trylle bort, så nå vil vi ha poeng for å gjøre
- det! Vi vil også ha en tidsfrist, slik at det er om å gjøre å få
- flest mulig poeng på denne tiden. Vi løser begge deler ved å bruke
- variabler.*
+*Нам потрібно викликати привида, тож тепер ми хочемо підкреслити
+ the! Ми також хочемо часові рамки ist, так що мова йде про те, щоб отримати
+ якомога більше очок за цей час. Ми вирішуємо обидва за допомогою
+ змінні.*
+
+ ===
 
 ## Sjekkliste {.check}
 
