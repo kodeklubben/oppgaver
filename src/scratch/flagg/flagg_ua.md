@@ -125,24 +125,18 @@ __Натисніть на зелений прапорець.__
   slutt
   ```
 
-- [ ] Om du kjører programmet ditt nå vil du se 99 disker som danser (og 1 som står
-  i ro) rundt på skjermen i et herlig kaos!
+- [ ] Якщо ви запустите програму зараз, то побачите 99 дисків, що танцюють (і 1, що стоїть на місці) по екрану в чудовому     хаосі!
 
-  Kaoset kommer faktisk av at Scratch bruker litt tid på å starte hver klon. Vi
-  kan lage en mindre kaotisk dans på denne måten:
+  Хаос насправді виникає через те, що Scratch потребує певного часу для запуску кожного клону. Таким чином ми можемо          створити менш хаотичний танець:
 
-  Bytt `når jeg starter som klon`{.b} med `når jeg mottar [dans v]`{.b}, og legg
-  til en `send melding [dans v]`{.b}-kloss etter `gjenta (99)
-  ganger`{.b}-løkken.
+  Змінемо `коли я починаю як клон`{.b} на `коли я отримую  [танець v]`{.b}, і додайте
+  `оповістити [танець v]`{.b} після `повторити (99)`{.b}.
 
-  Om du kjører programmet ditt igjen vil du se at alle diskene danser i takt.
-  Hva liker du best?
+  Якщо ви запустите програму ще раз, то побачите, що всі диски танцюють в такт. Який вам подобається найбільше?
 
+# Крок 4: Підняття прапора {.activity}
 
-# Steg 4: Flagrende flagg {.activity}
-
-Vi skal nå se hvordan vi kan gjøre om denne kaotiske dansen til noe som ligner
-på et flagrende flagg.
+Давайте подивимося, як можна перетворити цей хаотичний танець на щось схоже на триколірний прапор.
 
 ## Sjekkliste {.check}
 
