@@ -1,42 +1,34 @@
 ---
-title: Flagg
+title: Прапор
 level: 3
 author: 'Sverre Oskar Konestabo og Geir Arne Hjelle'
-language: nb
+translator: 'Анатолій Пилипенко'
+language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-I denne oppgaven vil vi se litt nærmere på hvordan vi kan lage spennende mønstre
-og animasjoner ved hjelp av litt matematikk. Spesielt skal vi tegne et flagg som
-ser ut som om det vaier i vinden.
+У цьому завданні ми розглянемо, як за допомогою математики можна створювати захоплюючі візерунки та анімації. Зокрема, ми намалюємо прапор, який ніби розвівається на вітрі.
 
 ![Bilde av Norges flagg som vaier i vind](flagg.png)
 
 
-# Steg 1: Gå i sirkel {.activity}
+# Крок 1: Пройдіться по колу {.activity}
 
-Vi har tidligere sett flere måter vi kan få figurer til å gå i sirkel på. For
-eksempel flyttet vi i [Soloball](../soloball/soloball.html) figuren vekk fra
-sentrum og brukte `pek mot [musepeker v]`{.b} for å flytte figuren i sirkel.
+Раніше ми вже бачили кілька способів, як змусити фігури рухатися по колу. Ми відсунули фігуру від центру і використали `слідувати за [вказівник v]`{.b} для переміщення фігури по колу.
 
-I denne oppgaven skal vi bruke to funksjoner, _sinus_ og _cosinus_, for å ta
-litt mer kontroll over hvordan sirkelbevegelsen skjer. Du har kanskje ikke hørt
-om _sinus_ og _cosinus_? Disse er tall som forteller hvor lange sidene i en
-rettvinklet trekant er i forhold til hverandre. I figuren nedenfor forteller for
-eksempel _cosinus_, `cos(vinkel)` oss hvor lang den vannrette streken er i
-forhold til den skrå streken.
+У цьому завданні ми будемо використовувати дві функції, синус і косинус, щоб краще контролювати, як відбувається круговий рух. Можливо, ви ще не чули про синус і косинус? Це числа, які показують, якою є довжина сторін прямокутного трикутника відносно одна до одної. На прикладі нижче, косинус, `cos(кут)`, показує, якою є довжина горизонтальної лінії відносно похилої лінії.
 
-![Bilde av sammenhengen mellom vinkel, sinus og cosinus](../lunar_lander/sinus_cosinus.png)
+![Bilde av sammenhengen mellom vinkel, sinus og cosinus](sinus_cosinus_ua.png)
 
-La oss se hvordan vi kan bruke dette til å tegne sirkler!
+Давайте подивимося, як ми можемо використовувати це для малювання кіл!
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Start et nytt prosjekt.
+- [ ] Розпочати новий проект.
 
-- [ ] Skriv det følgende skriptet på kattefiguren:
+- [ ] Напишіть наступний сценарій для персонажа кота:
 
   ```blocks
   når @greenFlag klikkes
