@@ -225,12 +225,21 @@ __Натисніть на зелений прапорець.__
 
  ===
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Lag en ny variabel som heter `Poeng`{.blockdata}. Denne skal
-  gjelde `For alle figurer`. Legg til en ny kloss som gjør at
-  `Poeng`{.blockdata}-variabelen økes med 1 poeng for hver gang
-  spilleren klikker på spøkelset.
+- [ ] Створіть нову змінну під назвою `Points`{.blockdata}. Цей повинен
+ застосувати «Для всіх фігур». Додайте нову цеглу, яка це зробить
+ Змінна `points`{.blockdata} щоразу збільшується на 1 пункт
+ гравець натискає на привида.
+
+     ``` блоки
+     коли клацнути цю фігуру
+     приховати
+     початковий звук [fairydust v]
+     змінити [Точки v] на (1)
+     ```
+
+FIXME Sjekk blokk
 
   ```blocks
   når denne figuren klikkes
@@ -239,17 +248,30 @@ __Натисніть на зелений прапорець.__
   endre [Poeng v] med (1)
   ```
 
-- [ ] Klikk på `Scene` og lag en ny variabel som heter `Tid`. La variablen
-  vises på skjermen.
+- [ ] Клацніть на `Scene` і створіть нову змінну під назвою `Time`. Нехай змінна
+ з’являється на екрані.
 
-- [ ] Lag et nytt skript som setter `Tid`{.blockdata}-variabelen til
-  __30__ og `Poeng`-variablen til __0__ når det grønne flagget
-  klikkes.
+- [ ] Створіть новий сценарій, який встановлює змінну `Time`{.blockdata}
+ __30__, а змінна `Points' __0__ досягає зеленого прапора
+ клацається.
 
-- [ ] Bruk så en `gjenta til`{.blockcontrol}-kloss for å vente i __1__
-  sekund og deretter redusere tiden med 1 sekund. Denne skal kjøre
-  fram til tiden er ute. Til slutt stopper du hele spillet med en
-  `stopp alle`{.blockcontrol}-kloss.
+- [ ] Потім використовуйте блок `repeat until`{.blockcontrol}, щоб зачекати __1__
+ секунду, а потім зменшіть час на 1 секунду. Це має запуститися
+ поки не закінчиться час. Нарешті ви зупиняєте всю гру одним
+ `зупинити всі` {.blockcontrol} блоки.
+
+   ``` блоки
+   Коли натиснуто зелений прапорець
+   встановіть [Time v] на [30]
+   встановіть [Точки v] на [0]
+   повторювати, доки <(час) = [0]>
+       зачекайте (1) секунд
+       змінити [Time v] на (-1)
+   кінець
+   зупинити [всі v] :: контроль
+   ```
+
+FIXME Sjekk blokk
 
   ```blocks
   Når grønt flagg klikkes
@@ -262,64 +284,62 @@ __Натисніть на зелений прапорець.__
   stopp [alle v] :: control
   ```
 
-## Test prosjektet {.flag}
+FIXME Sjekk blokk 
 
-__Klikk på det grønne flagget.__
+## Перевірте проект {.flag}
 
-## Ting å prøve {.challenge}
+__Натисніть на зелений прапорець.__
 
-- [ ] Hvordan kan du få spøkelset til å gå fortere etter at spillet er i
-  gang?
+## Що спробувати {.challenge}
 
-## Lagre prosjektet {.save}
+- [ ] Як можна змусити привида рухатися швидше після початку гри
+ час?
 
-- [ ] __Bra jobba!__ Nå er du egentlig ferdig med spillet, men prøv deg
-  gjerne på neste steg også.
+## Збережіть проект {.save}
 
-## En ekstra utfordring: Flere spøkelser! {.challenge}
+- [ ] __Гарна робота!__ Ви фактично закінчили гру, але спробуйте
+ бажано також на наступному кроці.
 
-*Hvis ett spøkelse er bra, må vel flere være enda bedre! La oss ha tre
- spøkelser flyvende rundt!*
+## Додатковий виклик: більше привидів! {.challenge}
 
-- [ ] __Lag flere spøkelser__ ved å høyreklikke på det du allerede har, og så
-  kopiere dette.
+*Якщо один привид хороший, напевно кілька мають бути ще кращими! Давайте три
+ привиди літають!*
 
-- [ ] __La spøkelsene få ulik størrelse__. Dette gjør du ved å velge
-  et spøkelse, trykke `Størrelse`-boksen og endre tallet litt.
+- [ ] __Створіть більше привидів__, клацнувши правою кнопкою миші те, що у вас уже є, а потім
+ скопіюйте це.
 
-- [ ] Du kan også __endre spøkelsenes flyvefart__. Dette gjøres i
-  `hastighet`{.blockdata}-variabelen i det øverste skriptet for hver enkelt
-  figur.
+- [ ] __Нехай привиди мають різні розміри__. Ви робите це шляхом вибору
+ привид, натисніть поле ``Розмір'' і трохи змініть число.
 
-- [ ] Til slutt kan du __spre spøkelsene__ litt bedre ut på scenen. Dette gjør
-  du ved å klikke og dra figurene rundt i selve skjermbildet.
+- [ ] Ви також можете __змінити швидкість польоту привидів__. Це робиться в
+ змінна `speed`{.blockdata} у верхньому скрипті для кожного
+ фігура.
 
-## Test prosjektet {.flag}
+- [ ] Нарешті ви можете __розпорошити привидів__ на сцені трохи краще. Це робить
+ ви, клацаючи та перетягуючи фігури на реальному екрані.
 
-__Klikk på det grønne flagget.__
+## Перевірте проект {.flag}
 
-- [ ] Har du nå tre spøkelser som flyr fra side til side?
+__Натисніть на зелений прапорець.__
 
-- [ ] Som plutselig forsvinner og dukker opp igjen?
+- [ ] У вас зараз три привиди літають з боку в бік?
 
-- [ ] Forsvinner de når du klikker på dem?
+- [ ] Що раптом зникає і знову з'являється?
 
-Gratulerer! Da har du gjort alt riktig!
+- [ ] Вони зникають, коли ви натискаєте їх?
 
-## Ting å prøve {.challenge}
+Щиро вітаю! Тоді ви все зробили правильно!
 
-- [ ] Hvor mange spøkelser synes du spillet fungerer best med? __Legg til
-  flere__ og prøv!
+## Що спробувати {.challenge}
 
-- [ ] Klarer du å få spøkelsene til __å se forskjellige ut__? Klikk på
-  `Drakter`{.blocklightgrey} og prøv deg frem. Du kan også velge noen av
-  klossene under `Utseende`{.blocklooks}.
+- [ ] Як ви думаєте, зі скількома привидами гра працює найкраще? __Додати
+ more__ і пробуйте!
 
-- [ ] Kan du få spøkelsene til __å bli verdt forskjellige antall poeng?__ Hva
-  med å få den minste og raskeste til å gi 10 poeng?
+- [ ] Чи можете ви зробити так, щоб привиди __ виглядали інакше__? Натисніть на
+ `Suits`{.blocklightgrey} і спробуйте свої сили. Ви також можете вибрати будь-який з
+ блоки в розділі `Appearance`{.blocklooks}.
 
-## Lagre prosjektet {.save}
+- [ ] Чи можете ви зробити так, щоб привиди __вартіли різної кількості балів?__ Що
+ з отриманням найменших і найшвидших, щоб дати 10 балів?
 
-Bra jobba! Nå er du ferdig, og det er på tide med litt seriøs spilling. Husk
-også at du kan dele spillet med vennene dine. Det gjør du ved å klikke på `Legg
-ut` i toppmenyen.
+## Збережіть проект {.save} 
