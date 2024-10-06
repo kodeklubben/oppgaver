@@ -2,7 +2,7 @@
 title: Анімація на Хелловін
 level: 1
 author: 'Торбйорн Скаулі та Гейр Арне Хєлле'
-translator: 'Anatolii Pylypenko'
+translator: 'Анатолій Пилипенко'
 language: ua
 ---
 
