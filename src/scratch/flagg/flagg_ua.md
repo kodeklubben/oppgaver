@@ -106,23 +106,22 @@ __Натисніть на зелений прапорець.__
 
   ![Bilde av en liten rød fyllt disk i Scratch](rod_disk_ua.png)
 
-- [ ] Vi kan lage mange røde disker ved å klone denne ene disken. Del koden din
-  i to deler, og endre den på denne måten:
+- [ ] Ми можемо створити багато червоних дисків, дублюючі один диск. Розділіть свій код на дві частини і змініть його таким   чином:
 
   ```blocks
-  når @greenFlag klikkes
-  gjenta (99) ganger
-      sett [sentrumX v] til (tilfeldig tall fra (-150) til (150))
-      sett [sentrumY v] til (tilfeldig tall fra (-100) til (100))
-      sett [radius v] til [50]
-      lag klon av [meg v]
+  коли @greenFlag натиснуто
+  повторити (99) 
+      надати [центрX v] значення (випадкове від (-150) до (150))
+      надати [центрY v] значення (випадкове від (-100) до (100))
+      надати [радіус v] значення [50]
+      створити клон з [мене v]
   slutt
 
-  når jeg starter som klon
-  gjenta for alltid
-      sett x til ((sentrumX) + ((radius) * ([cos v] av (retning)))
-      sett y til ((sentrumY) + ((radius) * ([sin v] av (retning)))
-      snu @turnLeft (5) grader
+  коли я починаю як клон
+  завжди
+      задати x ((центрX) + ((радіус) * ([cos v] з (напрям)))
+      задати y ((центрY) + ((радіус) * ([sin v] з (напрям)))
+      поворот @turnLeft на (5) градусів
   slutt
   ```
 
