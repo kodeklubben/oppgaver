@@ -31,37 +31,31 @@ language: ua
 - [ ] Напишіть наступний сценарій для персонажа кота:
 
   ```blocks
-  når @greenFlag klikkes
-  begrens rotasjon [ikke roter v]
-  gjenta for alltid
-      sett x til ((100) * ([cos v] av (retning)))
-      sett y til ((100) * ([sin v] av (retning)))
-      snu @turnLeft (5) grader
+  коли @greenFlag натиснуто
+  стиль обертання [не обертати v]
+  завжди
+      задати x ((100) * ([cos v] з (напрям)))
+      задати y ((100) * ([sin v] з (напрям)))
+      поворот @turnLeft на (5) градусів
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Hva skjer? Skjønner du hvorfor kattefiguren flytter seg rundt i en sirkel?
+- [ ] Що відбувається? Ви розумієте, чому фігурка кота рухається по колу?
 
-  Tallet `100` forteller hvor stor sirkelen skal være (det er lengden av den
-  skrå streken i figuren over). Prøv å endre på tallet (begge steder) for å se
-  hva som skjer.
+  Число `100` показує, якого розміру має бути коло (це довжина похилої лінії на малюнку вище). Спробуйте змінити число (в     обох місцях) і подивіться, що станеться.
 
-- [ ] Hva skjer om du bruker forskjellige tall de to stedene i stedet for `100`?
+- [ ] Що станеться, якщо замість `100` використати різні числа в цих двох місцях?
 
-- [ ] Hvordan forandrer bevegelsen til katten seg om du forandrer tallet `5` i
-  `snu @turnLeft (5) grader`{.b}? Prøv gjerne med negative tall også!
+- [ ] Як зміниться рух кота, якщо змінити число 5 у
+  `поворот @turnLeft на (5) градусів`{.b}? Не соромтеся пробувати і з від'ємними числами!
 
-## Retning på sirkelbevegelsen {.tip}
+## Напрямок кругового руху {.tip}
 
-Du legger kanskje merke til at katten flytter seg i motsatt retning av hvordan
-pilen i `snu @turnLeft (5) grader`{.b} klossen peker? Dette er fordi Scratch
-måler vinkler i motsatt retning av hva som er vanlig i matematikken (og som vi
-har tegnet over).
-
+Ви можете помітити, що кіт рухається в напрямку, протилежному напрямку стрілки на `поворот @turnLeft на (5) градусів`{.b} Це тому, що Scratch вимірює кути у протилежному напрямку від того, що прийнято в математиці (і який ми намалювали вище).
 
 # Steg 2: Flytt sirkelen {.activity}
 
