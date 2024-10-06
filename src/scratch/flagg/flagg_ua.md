@@ -138,29 +138,28 @@ __Натисніть на зелений прапорець.__
 
 Давайте подивимося, як можна перетворити цей хаотичний танець на щось схоже на триколірний прапор.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] I forrige steg klonet vi disker til tilfeldige steder. Nå skal vi legge
-  dem ut litt mer organisert. Skriv om skriptet som legger ut diskene dine slik:
+- [ ] На попередньому кроці ми клонували диски у випадкові місця. Тепер ми розкладемо їх більш впорядковано. Перепишіть скрипт, який розкладає диски таким чином:
 
   ```blocks
-  når @greenFlag klikkes
-  vis
-  sett [radius v] til [25]
-  sett [sentrumX v] til [-160]
-  gjenta (19) ganger
-      sett [sentrumY v] til [-100]
-      gjenta (14) ganger
-          lag klon av [meg v]
-          endre [sentrumY v] med (16)
+  коли @greenFlag натиснуто
+  показати
+  надати [радіус v] значення [25]
+  надати [центрX v] значення [-160]
+  повторити (19) 
+      надати [центрY v] значення [-100]
+      повторити (14) 
+          створити клон з [мене v]
+          змінити [центрY v] на (16)
       slutt
-      endre [sentrumX v] med (16)
+      змінити [центрX v] на (16)
   slutt
-  send melding [flagre v]
-  skjul
+  оповістити [майоріти v]
+  сховати
   ```
 
-- [ ] La så `flagre`-skriptet være det samme som du brukte til å danse tidligere:
+- [ ] Тоді нехай сценарій `майоріти` буде тим самим, який був у сценарії танець:
 
   ```blocks
   når jeg mottar [flagre v]
