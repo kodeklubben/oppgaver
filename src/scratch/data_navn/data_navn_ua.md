@@ -50,28 +50,16 @@ language: ua
 
     ![Bilde av navnelistene i Scratch](navnelister_scratch_ua.png)
 
-- [ ] Списки імен є прикладами того, що у Scratch просто називається списками. Вони програмуються за допомогою цеглинок,       розташованих у категорії `Змінні`{.blockdata}-kategorien. Som for variabler kan du ta listene vekk fra
-  Scenen ved å fjerne avhukingen, høyreklikke på den eller bruke klossen `skjul
-  liste [ v]`{.b}.
+- [ ] Списки імен є прикладами того, що у Scratch просто називається списками. Вони програмуються за допомогою цеглинок,       розташованих у категорії `Змінні`{.blockdata} Як і у випадку зі змінними, ви можете видалити списки зі Сцени, знявши з них позначку, клацнувши правою кнопкою миші або скориставшись блоком `сховати список [Імена дівчаток v]`{.b}.
 
-## Data i Scratch {.tip}
+# Крок 3: Використовуйте списки імен {.activity}
 
-Vanligvis må man skrive inn alle dataene i lister selv, om man vil bruke dem i
-Scratch. Ved hjelp av [dataverktøyet](../data/data.html) kan du lese inn
-kjempemasse data som du eller noen andre allerede har laget.
+*Зараз ми напишемо невелику програму, яка використовує списки імен. Можливо, ми зможемо навчити нашого кота розпізнавати різницю між іменами дівчаток та хлопчиків?*
 
-Har du noen ideer til andre data du vil lese inn på samme måte?
+## Контрольний список {.check}
 
-
-# Steg 3: Bruk navnelistene {.activity}
-
-*Vi skal nå skrive et lite program som bruker navnelistene. Kanskje vi kan få
-katten vår til å se forskjellen på jente- og guttenavn?*
-
-## Sjekkliste {.check}
-
-- [ ] Vi begynner med å la katten spørre om et navn. Til dette kan vi bruke `spør
-  [Skriv et navn] og vent`{.b}-klossen.
+- [ ] Ми починаємо з того, що дозволяємо коту попросити ім'я. Для цього ми можемо використати блок `запитати
+  [ Як вас звати?] і чекати`{.b}.
 
 - [ ] For at katten skal kunne huske navnet vi forteller den vil vi bruke en
   variabel. Klikk på `Data`{.blockdata} og deretter `Lag en variabel`. Kall
