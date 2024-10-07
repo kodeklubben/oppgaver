@@ -1,72 +1,65 @@
 ---
-title: 'Kodetimen - Redd Timenor fra meteorregnet! '
-author: marikisfoss
-language: nb
+title: 'Час коду - Врятуйте Тименор від метеоритного дощу!'
+author: 'marikisfoss'
+translator: 'Viktoriia Tkachenko'
+language: ua
 ---
-![Bildebeskrivelse](./meteorregnspill.png)
+![Зображення з описом1](./meteorregnspill.png)
 
-Modige romfarere! Jeg trenger deres hjelp! Jeg heter Kodar, og kommer fra planeten Timenor. Jeg har fått i oppdrag om å beskytte planeten min mot et meteorregn som er på vei gjennom galaksen, men ufoen min fungerer ikke som den skal! Kan dere hjelpe meg med å fikse koden, og hjelpe meg med å knuse meteorittene før de krasjer inn i planeten min?  
+Сміливі космонавти! Мені потрібна ваша допомога! Мене звати Кодар, я з планети Тименор. Мені доручили захищати мою планету від метеоритного дощу, що рухається через галактику, але мій НЛО не працює як слід! Чи можете ви допомогти мені виправити код і допомогти знищити метеорити, перш ніж вони знищать мою планету?  
 
-Når koden er reparert kan du teste og se hvor mange meteoritter du klarer å skyte med ufoens laser! 
-
+Коли код буде виправлено, ви зможете протестувати і подивитися, скільки метеоритів ви зможете збити лазером НЛО! 
   
-# Introduksjon {.intro}
+# Вступ {.intro}
   
-Denne oppgaven er en remiks-oppgave. Vi har laget et spill der vi skal hjelpe Kodar med å redde planeten sin, Timenor, men som du ser på bildet er det noe som er alvorlig galt! 
+Це завдання - ремікс-завдання. Ми створили гру, де маємо допомогти Кодару врятувати свою планету Тименор, але, як ви бачите на зображенні, щось серйозно не так! 
 
-![Bildebeskrivelse](./kodar-spill-feil.png)
+![Зображення з описом2](./kodar-spill-feil.png)
 
-Vi trenger din hjelp til å reparere koden, så Kodar kan redde planeten sin. 
-
+Нам потрібна ваша допомога у виправленні коду, щоб Кодар зміг врятувати свою планету. 
 
 # iPad
 
 ![Bildebeskrivelse](./arrows.png)
 
-Dersom dere skal bruke iPad til denne oppgaven trenger dere å programmere noen “knapper” dere kan bruke dersom dere ikke har tastatur.
-Slik gjør dere:
-Gå inn på figuroversikten og finn et pilsymbol.
-På pilsymbolet programmerer du følgende kode:
+Якщо ви будете використовувати iPad для цього завдання, вам потрібно буде запрограмувати кілька “кнопок”, які можна використовувати, якщо у вас немає клавіатури. 
+Ось як це зробити: 
+Перейдіть до огляду фігур і знайдіть символ стрілки. 
+На символі стрілки запрограмуйте наступний код:
 
 ```blocks
-når denne figuren klikkes
-send melding(go_right)
+коли ця фігура натискається
+надіслати повідомлення (go_right)
 ```
 
-Når denne klikkes
-Send “Gå høyre”
-Nå går du på figuren pilen skal styre, og legger inn følgende kode:
-Når jeg mottar “Gå høyre”
-Gå x steg (her justerer du farten selv, i eksemplet er farten 10)
+Коли натиснути 
+Надіслати "Йти вправо" перейдіть до фігури, яку повинна керувати стрілка, і додайте наступний код: Коли я отримую "Йти праворуч", пройдіть x кроків (тут ви самі регулюєте швидкість, у прикладі швидкість 10)
+ 
 
 ```blocks
-når jeg mottar(go_right)
-gå(10)steg
+коли я отримую (go_right)
+перемістити на (10) кроків
 ```
 
-Gjenta begge stegene for alle retningspilene du trenger å ha (enten høyre og venstre-pil, eller piler til høyre, venstre, opp og ned).
-Du kan nå styre figuren ved å klikke på pil-figurene på skjermen!
+Повторіть ці кроки для всіх стрілок напрямків, які вам потрібні (вправо і вліво, або стрілки вправо, вліво, вгору і вниз). Тепер ви можете керувати фігурою, натискаючи на стрілки на екрані!
 
+# Крок 1: Відкрийте проєкт і знайдіть помилки! {.activity}
 
+- [ ] Оскільки це завдання-повторення, першим кроком буде відкрити проєкт, який містить помилки: [https://scratch.mit.edu/projects/882702131](https://scratch.mit.edu/projects/882702131)
 
-# Steg 1: Åpne prosjektet og finn feil! {.activity}
+- [ ] Спочатку ми переглянемо, що саме має робити код. 
+- Клавіші зі стрілками вправо та вліво повинні переміщати космічний корабель, а клавіша пробілу має стріляти лазером. 
+- Метеорити повинні з'являтися внизу екрана у випадковому порядку з регулярними інтервалами.
+- Коли Кодер стріляє в метеорит, повинні підраховуватися очки. За кожен збитий метеорит дається одне очко.
+- Коли метеорит досягає Кодера, гра закінчується, і на екрані має з'явитися "ГРА ПРОГРАНА". 
 
-- [ ] Siden dette er en remiks-oppgave er første steg å åpne prosjektet som inneholder feil: [https://scratch.mit.edu/projects/882702131](https://scratch.mit.edu/projects/882702131)
+# Крок 2: Виправте код {.activity}
 
-- [ ] Det første vi gjør er å gå gjennom hva koden egentlig skal gjøre. 
--  Piltastene høyre og venstre skal flytte på romskipet, og mellomrom-tasten skal skyte laseren. 
-- Meteorittene skal komme fra bunnen av skjermen i et tilfeldig mønster ved jevne mellomrom.
-- Når Kodar skyter en meteoritt skal det telles poeng. Hver meteoritt skutt gir ett poeng.
-- Når en meteoritt når Kodar, er spillet over og GAME OVER skal vises på skjermen. 
+## Керування НЛО
 
+- [ ] Почнемо з керування НЛО. Переглянувши код, ми бачимо наступний код:
 
-# Steg 2: Reparer koden {.activity}
-
-## UFOens styring
-
-- [ ] Vi starter med å se på styringen til UFOen. Når vi går inn i koden ser vi følgende kode:
-
- ![Bildebeskrivelse](./ufo-feilkode.png)
+ ![Зображення з описом3](./ufo-feilkode.png)
 ```blocks
 Når grønt flagg klikkes
 sett [poeng v] til (0)
