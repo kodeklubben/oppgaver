@@ -61,65 +61,57 @@ language: ua
 
  ![Зображення з описом3](./ufo-feilkode.png)
 ```blocks
-Når grønt flagg klikkes
-sett [poeng v] til (0)
-sett [meteoritter skutt v] til (0)
-gå til x: (10) y: (100)
-gjenta til <berører (Meteor v) ?>
-hvis <tast (pil høyre v) trykket?<
+коли @greenFlag натиснуто
+надати [бали v] на (0)
+надати [збиті метеорити v] на (0)
+перейти до x: (10) y: (100)
+повторити до <торкається (Meteor v) ?>
+якщо <натиснуто (стрілка вправо v) ?<
 ```
 
 –
-- [ ] Hva kan gjøre at UFOen går kjempefort? Og hvordan kan vi justere dette så vi enklere kan kontrollere den? 
+- [ ] Що може змусити НЛО рухатися дуже швидко? І як ми можемо це налаштувати, щоб ми могли легше контролювати його? 
 
+## Метеоритний шторм
+- [ ] Наступна проблема - це велика кількість метеоритів! Код показує наступне: 
 
-## Meteorstormen
-- [ ] Det neste problemet vi må takle er at det dukker opp ekstremt mange meteorer! Koden viser følgende: 
+![Зображення з описом4](./meteorstorm-feilkode.png)
 
-![Bildebeskrivelse](./meteorstorm-feilkode.png)
+- [ ]Як ми можемо відредагувати код, щоб метеоритний дощ не був таким інтенсивним? 
 
-- [ ] Hvordan kan vi redigere koden så meteorsvermen ikke blir så kraftig? 
+## Лазер
+- [ ] Лазер стріляє в неправильному напрямку! Код виглядає так: 
+![Зображення з описом5](./laser-feilkode.png)
 
-## Laseren
-- [ ] Laseren skyter feil vei! Koden ser dere her: 
-![Bildebeskrivelse](./laser-feilkode.png)
-
-Kan dere finne ut av hva som er galt og hvordan vi får den til å skyte riktig vei?
+Чи можете ви зрозуміти, що не так, і як змусити його стріляти в правильному напрямку?
  
-## Poengtelleren
-- [ ] Nå fungerer laseren! Men vil vi ikke telle hvor mange meteoritter vi har klart å skyte ned? Kan du fikse denne koden så den viser hvor mange meteoritter vi har skutt?
+## Лічильник очок 
+- [ ] Тепер лазер працює! Але чи не хотіли б ми рахувати, скільки метеоритів ми змогли збити? Чи можете ви виправити цей код, щоб він показував, скільки метеоритів ми збили?
 
-![Bildebeskrivelse](./poengteller-feilkode.png)
+![Зображення з описо6](./poengteller-feilkode.png)
 
+Пам’ятайте, що ми маємо отримувати одне очко за кожен збитий метеорит!
 
-Husk at vi skal få ett poeng per meteoritt vi skyter ned! 
+## Повідомлення "ГРУ ЗАВЕРШЕНО"!
 
-## GAME OVER-beskjeden!
+Нарешті, має з'явитися повідомлення "ГРУ ЗАВЕРШЕНО", якщо Кодара вразить метеорит. Це повідомлення не з'являється, хоча фігура є. Чи можете ви з'ясувати, чому воно не відображається?
 
-Til slutt skal det dukke opp en GAME OVER-beskjed dersom Kodar blir truffet av en meteoritt. Denne beskjeden dukker ikke opp, selv om figuren ligger der. Kan du finne ut av hvorfor den ikke vises? 
-
-![Bildebeskrivelse](./game-over-feilkode.png)
-
-
-
-## Test koden! {.flag}
-
-**Klikk på det grønne flagget.** 
-
-Nå fungerer koden! Bra jobba! 
-Hvor mange meteoritter kan dere hjelpe Kodar å skyte ned, så de ikke treffer planeten? Vår high-score er på 24 - hvor høy blir deres? Lykke til modige romfarere! 
-
-## Utfordring {.challenge}
-
-- [ ] Du kan selv justere kodene for å gjøre spillet lettere eller vanskeligere.
-- [ ] Kan du legge til liv? Prøv å gi Kodar tre liv som må brukes opp før GAME OVER vises på skjermen. 
+![Зображення з описом7](./game-over-feilkode.png)
 
 
 
-## Lagre spillet {.save}
+## Тестуваннф коду! {.flag}
 
+**Натисніть на зелений прапорець..** 
 
+Тепер код працює! Гарна робота! Скільки метеоритів ви можете допомогти Кодару збити, щоб вони не вразили планету? Наш рекорд - 24, яким буде ваш? Удачі, сміливі космонавти!
 
-Husk å lagre spillet/programmet ditt. Når du er ferdig kan du klikke på "Legg
-ut"-knappen. Da vil det bli lagt ut på Scratch-hjemmesiden din slik at du enkelt
-kan dele det med familien og vennene dine.
+## Виклик {.challenge}
+
+- [ ] Ви можете самостійно налаштувати коди, щоб зробити гру легшою або важчою. 
+- [ ] Чи можете ви додати життя? Спробуйте дати Кодару три життя, які потрібно використати, перш ніж на екрані з'явиться "ГРА ПРОГРАНА".
+
+## Збережіть гру {.save}
+
+Не забудьте зберегти свою гру/програму. Коли ви закінчите, натисніть кнопку "Опублікувати". 
+Це розмістить гру на вашій сторінці Scratch, щоб ви могли легко поділитися нею з родиною та друзями.
