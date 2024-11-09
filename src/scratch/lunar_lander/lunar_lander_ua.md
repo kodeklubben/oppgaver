@@ -55,11 +55,8 @@ language: ua
 
   одразу після натискання зеленого прапорця.
 
-- [ ] Lag to nye variable, `fartX`{.blockdata} og `fartY`{.blockdata} som
-  gjelder kun for denne romskip-figuren.
-
-- [ ] Vi lager først hovedløkken som lar romskipet falle, kun påvirket av
-  tyngdekraften. Skriv denne koden:
+- [ ] Створіть дві нові змінні, `швидкістьX`{.blockdata} та `швидкістьY`{.blockdata}, які застосовуються лише до цієї фігури космічного корабля.
+- [ ] Спочатку створюємо основний цикл, який дозволяє космічному апарату падати під дією лише сили тяжіння. Напишіть цей код:
 
   ```blocks
   når jeg mottar [Nytt spill v]
