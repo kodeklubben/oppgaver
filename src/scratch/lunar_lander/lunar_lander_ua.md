@@ -128,32 +128,23 @@ language: ua
 - [ ] Спробуйте ще раз. Тепер у вас має вийти літати навколо, поки космічний корабель не наблизиться до землі.
 
 
-# Steg 3: Klar for landing {.activity}
+# Крок 3: Готовність до посадки {.activity}
 
-*Vi vil til slutt sjekke hvor og hvordan romskipet landet.*
+*Ми нарешті перевіримо, де і як приземлився космічний апарат.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Når vi sjekker landingen til romskipet vil vi skille mellom tre
-  forskjellige tilfeller:
+- [ ] Коли ми перевіряємо приземлення космічного апарату, ми будемо розрізняти три різні випадки:
 
-  __1__: Romskipet landet utenfor landingsplassen (kræsjet).
+  __1__: Космічний апарат приземлився за межами посадкового майданчика (розбився).
 
-  __2__: Romskipet landet på landingsplassen, men landet enten på
-  skrå (eller opp-ned) eller for raskt.
+  __2__: Космічний апарат приземлився на посадковому майданчику, але приземлився під кутом (або догори дном) або занадто швидко.
 
-  __3__: Romskipet landet perfekt på landingsplassen.
+  __3__: Космічний апарат ідеально приземлився на посадковому майданчику.
 
-  Lag et nytt skript på romskipet som starter når det mottar meldingen `Sjekk
-  landing`. Under denne klossen må du bruke `hvis`{.blockcontrol}- og `hvis
-  ellers`{.blockcontrol}-klosser som tester for de tre tilfellene. Du kan for
-  eksempel si at landingen er perfekt dersom romskipet lander på
-  landingsplassen, `fartY`{.blockdata} er større enn `-1.5` og
-  `retning`{.blockmotion} er mellom `80` og `100`.
+  Створіть новий скрипт на космічному кораблі, який запускається, коли він отримує повідомлення `Перевірте посадку`. Під цим блоком вам потрібно використовувати блоки `якщо`{.blockcontrol} та `якщо-інакше`{.blockcontrol}, які перевіряють три випадки. Наприклад, ви можете сказати, що посадка пройшла ідеально, якщо апарат приземлився на посадковий майданчик, `швидкістьY`{.blockdata} більше `-1.5`, а напрямок знаходиться в межах від `80` до `100`.
 
-- [ ] Finn en måte å fortelle spilleren hvordan romskipet landet. Det enkleste
-  er kanskje å bare bruke en `si`{.blocklooks}-kloss. Men du kan også bruke
-  lydeffekter, forskjellige drakter eller kanskje en tekstplakat som dukker opp.
+- [ ] Знайдіть спосіб розповісти гравцеві, як космічний корабель приземлився. Найпростішим способом може бути просто використання блоку `говомрити`{.blocklooks}. Але ви також можете використовувати звукові ефекти, різні костюми або, можливо, текстовий плакат, що спливає.
 
 
 # Steg 4: Videreutvikling av spillet {.activity}
