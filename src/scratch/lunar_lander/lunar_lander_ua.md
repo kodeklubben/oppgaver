@@ -11,14 +11,12 @@ language: ua
 
 "Місячний модуль" (Lunar Lander) була розроблена наприкінці 1970-х років. Метою гри є посадка космічного корабля на Місяць. Керування космічним кораблем було продовжено у грі "Астероїди", яка вийшла наступного року.
 
-![Illustrasjon av et ferdig Lunar Lander spill](lunar_lander.png)
+![Illustrasjon av et ferdig Lunar Lander spill](lunar_lander_ua.png)
 
 
-# Oversikt over prosjektet {.activity}
+# Огляд проєкту {.activity}
 
-*Mesteparten av kodingen av Lunar Lander skal du gjøre selv. I Lunar Lander vil
- vi spesielt bruke litt tid på gjøre den fysiske modelleringen av romskipet
- ganske realistisk.*
+*Більшу частину кодування "Місячний модуль" будете виконувати ви. Зокрема, в "Місячний модуль" ми витратимо деякий час на те, щоб зробити фізичне моделювання космічного корабля досить реалістичним.*
 
 ## Plan {.check}
 
