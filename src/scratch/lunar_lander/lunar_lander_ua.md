@@ -59,23 +59,22 @@ language: ua
 - [ ] Спочатку створюємо основний цикл, який дозволяє космічному апарату падати під дією лише сили тяжіння. Напишіть цей код:
 
   ```blocks
-  når jeg mottar [Nytt spill v]
-  gå til x: (0) y: (175)
-  pek i retning (90 v)
-  sett [fartX v] til [0]
-  sett [fartY v] til [0]
-  gjenta for alltid
-      endre [fartY v] med (-0.01)
-      endre x med (fartX)
-      endre y med (fartY)
+  коли я отримую [Нова гра v]
+  перемістити в x: (0) y: (175)
+  повернути в напрямку (90 v)
+  надати [швидкістьX v] значення [0]
+  надати [швидкістьY v] значення [0]
+  завжди
+      змінити [швидкістьY v] на (-0.01)
+      змінити x на (швидкістьX)
+      змінити y на (швидкістьY)
   slutt
   ```
 
-  Om du prøver spillet ditt nå skal romskipet falle stadig raskere nedover
-  skjermen. Prøv å endre litt i klossen
+  Якщо ви спробуєте запустити гру зараз, космічний корабель повинен падати все швидше і швидше вниз по екрану. Спробуйте змінити щось у блоці
 
   ```blocks
-  endre [fartY v] med (-0.01)
+  змінити [швидкість v] на (-0.01)
   ```
 
   Det er denne som modellerer tyngdekraften. Om du forandrer verdien her vil
