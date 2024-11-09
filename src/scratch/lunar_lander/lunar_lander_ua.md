@@ -7,11 +7,9 @@ language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-Lunar Lander ble opprinnelig utviklet på slutten av 1970-tallet. Målet med
-spillet er å lande et romskip på månen. Selve kontrollen av romskipet ble
-videreført i spillet Asteroids som ble utgitt året etter.
+"Місячний модуль" (Lunar Lander) була розроблена наприкінці 1970-х років. Метою гри є посадка космічного корабля на Місяць. Керування космічним кораблем було продовжено у грі "Астероїди", яка вийшла наступного року.
 
 ![Illustrasjon av et ferdig Lunar Lander spill](lunar_lander.png)
 
