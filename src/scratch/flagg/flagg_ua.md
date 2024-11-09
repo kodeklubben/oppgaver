@@ -223,15 +223,14 @@ __Натисніть на зелений прапорець.__
   Змініть `(символ (номер) у (прапор))`{.b} на `(символ (остача (номер) на (довжина
   (прапор))) у (прапор))`{.b} в `змінити образ на [с v]`{.b}. Якщо ви спробуєте запустити програму ще раз, ви побачите, що шаблон прапорців повторюється (наприклад, встановіть прапорці до `чбс`, щоб побачити це).
 
-## Prøv selv {.challenge}
+## Спробуйте самі {.challenge}
 
-- [ ] Tegn egne flagg. Om du trenger flere farger er det bare å lage flere
-  drakter. Pass på at hver drakt har en bokstav eller tall som navn.
+- [ ] Намалюйте власні прапори. Якщо вам потрібно більше кольорів, просто зробіть більше костюмів. Переконайтеся, що кожен образ має літеру або цифру в якості назви.
 
-- [ ] Du kan også leke litt med de forskjellige tallene for en litt annerledes
-  animasjon. Prøv for eksempel med `snu @turnRight (25) grader`{.b} i klossen etter
-  `lag klon av [meg v]`{.b}.
 
-- [ ] Du kan endre utseendet på flagget underveis. For eksempel om du bruker en
-  `når [ v] trykkes`{.b}-kloss kan du endre verdien av `(flagg)`{.b} basert på
-  hvilke taster som trykkes. Fargene i flagget vil da også oppdatere seg.
+- [ ] Ви також можете погратися з різними цифрами, щоб отримати дещо іншу анімацію.
+Спробуйте, наприклад, в блоці `поворот @turnRight на (25) градусів`{.b} після
+  `створити клон з [мене v]`{.b}.
+
+- [ ] Ви можете змінювати зовнішній вигляд прапора в процесі роботи. Наприклад, якщо ви використовуєте блок
+  `коли клавішу [пропуск v] натиснуто`{.b} ви можете змінити значення `(прапор)`{.b} залежно від того, які клавіші натиснуто. Кольори у прапорці також буде змінено.
