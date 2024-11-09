@@ -147,50 +147,20 @@ language: ua
 - [ ] Знайдіть спосіб розповісти гравцеві, як космічний корабель приземлився. Найпростішим способом може бути просто використання блоку `говомрити`{.blocklooks}. Але ви також можете використовувати звукові ефекти, різні костюми або, можливо, текстовий плакат, що спливає.
 
 
-# Steg 4: Videreutvikling av spillet {.activity}
+# Крок 4: Подальший розвиток гри {.activity}
 
-*Du har nå laget en enkel variant av Lunar Lander. Men prøv å gjøre spillet
- morsommere ved å videreutvikle det. Du bestemmer selv hvordan du vil jobbe
- videre, men nedenfor er noen ideer som kanskje kan være til inspirasjon?*
+*Ви створили просту версію "Місячний модуль". Але спробуйте зробити гру ще цікавішою, розвиваючи її далі. Вам вирішувати, як ви хочете діяти далі, але нижче наведено кілька ідей, які можуть вас надихнути.*
 
-## Ideer til videreutvikling {.check}
+## Ідеї для подальшого розвитку {.check}
 
-- [ ] Lag flere landingsplasser. Kanskje noen kan være vanskeligere enn andre å
-  lande på (enten på grunn av terrenget eller fordi selve landingsplassen er
-  mindre).
+- [ ] Створіть кілька посадкових майданчиків. Можливо, на деякі з них буде складніше приземлитися, ніж на інші (або через рельєф місцевості, або через те, що сам посадочний майданчик менший).
 
-- [ ] Lag flere bakgrunner eller brett. Du kan enten la spilleren velge seg en
-  bakgrunn å spille på i begynnelsen av spillet, eller gå videre fra brett til
-  brett etterhvert som spilleren klarer å lande.
+- [ ] Створіть кілька фонів або дощок. Ви можете дозволити гравцеві вибрати фон для гри на початку гри або переходити від дошки до дошки, коли гравцеві вдасться приземлитися.
 
-- [ ] Du kan også bruke flere bakgrunner som et brett. Dersom romskipet flyr ut
-  av skjermen på høyre side kan du la det dukke opp igjen på venstre side av en
-  annen bakgrunn, og motsatt.
+- [ ] Ви також можете використовувати кілька фонів як лоток. Якщо космічний корабель вилітає з екрана праворуч, ви можете зробити так, щоб він знову з'явився ліворуч на іншому тлі, і навпаки.
 
-- [ ] Prøv å animere bruken av motoren. For eksempel, kan du lage en kopi av den
-  flyvende romskip-drakten, og endre den som følger. Klikk først på romskipet,
-  og deretter på den nye knappen som dukker opp nederst i knapperekka (markert
-  med rødt i figuren til venstre). Denne vil dele opp romskip-figuren i mindre
-  deler. Velg en passende flammefarge, og bruk malingsspannet til å fargelegge
-  de tre finnene på romskipet slik at det ser ut som flammer som kommer fra
-  motoren.
+- [ ] Однією з проблем оригінальної гри Lunar Lander було те, що гравець мав лише обмежену кількість пального. Ви можете додати це у свою гру, створивши змінну `паливо`{.blockdata}, яка зменшуватиметься, коли гравець натискатиме клавіші зі стрілками. Якщо у космічного корабля закінчується паливо, ви можете ігнорувати натискання клавіш гравця і просто дозволити кораблю летіти, поки він нарешті не розіб'ється.
 
-  ![Bilde av kopi av romskipet med flammer på!](animer_romskip.png)
+- [ ] Ви можете створити різні бонусні предмети для гравця, які він зможе підібрати. Щоб трохи ускладнити завдання, ви можете залишити їх на поверхні Місяця, щоб гравцеві довелося ретельно маневрувати, щоб підібрати їх. Прикладами таких бонусів можуть бути додаткове паливо, бонусні бали, більший посадковий майданчик тощо.
 
-- [ ] En av utfordringene i det originale Lunar Lander-spillet var at spilleren
-  bare hadde begrenset drivstoff tilgjengelig. Du kan legge til dette i ditt
-  spill ved å lage en `Drivstoff`{.blockdata}-variabel som du lar bli stadig
-  mindre etterhvert som spilleren trykker på piltastene. Dersom romskipet går
-  tomt for drivstoff kan du ignorere tastetrykkene fra spilleren og bare la
-  romskipet sveve til det til slutt kræsjer.
-
-- [ ] Du kan lage forskjellige bonusting som spilleren kan plukke opp. For å
-  gjøre det litt utfordrende kan du la disse ligge på måneoverflaten slik at
-  spilleren må manøvrere forsiktig for å få tak i dem. Eksempler på slike
-  bonusting kan være ekstra drivstoff, bonuspoeng, større landingsplass og så
-  videre.
-
-- [ ] En større endring i spillet kan være at landingsplassen er skjult under
-  bakken når spillet begynner, og spilleren må grave denne frem ved å slippe
-  bomber fra romskipet. Du kan implementere dette for eksempel ved bruk av noen
-  av klossene under `Penn`{.blockpen}-kategorien.
+- [ ] Серйозною зміною в грі може бути те, що на початку гри посадковий майданчик захований під землею, і гравець повинен відкопати його, скидаючи бомби з космічного корабля.
