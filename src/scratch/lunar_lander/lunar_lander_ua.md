@@ -112,28 +112,20 @@ language: ua
   Переконайтеся, що ви налаштували обидва блоки на однакове число.
 
 
-# Steg 2: Vi ankommer månen {.activity}
+# Крок 2: Ми прибуваємо на Місяць {.activity}
 
-*Nå skal vi legge til et månelandskap hvor spilleren skal prøve å lande.*
+*Тепер ми додамо місячний пейзаж, де гравець намагатиметься приземлитися.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Lag en ny bakgrunn, hvor du tegner et passende månelandskap. Gjør det så
-  lett eller vanskelig som du selv vil. Tegn også inn en eller flere
-  landingsplasser hvor romskipet skal lande. Vi vil bruke `berører
-  fargen`{.blocksensing}-klosser for å sjekke landingen senere, så det enkleste
-  er å bruke en farge for landskapet og en annen for landingsplassen.
+- [ ] Створіть новий фон, на якому намалюйте відповідний місячний пейзаж. Зробіть його настільки простим або складним, наскільки вам подобається. Також намалюйте один або кілька посадкових майданчиків, де приземлиться космічний корабель. Пізніше ми будемо використовувати `торкається кольору`{.blocksensing} блоки для перевірки посадки, тому найпростіше використовувати один колір для ландшафту, а інший - для місця посадки.
 
-- [ ] For at romskipet skal slutte å fly når det treffer bakken kan du bytte ut
-  `gjenta for alltid`{.blockcontrol}-løkken med en `gjenta til`{.blockcontrol}-løkke
-  hvor du tester på om romskipet `berører fargen`{.blocksensing} du har brukt på
-  landskapet eller på landingsplassen.
+- [ ] Щоб змусити космічний корабель припинити політ, коли він впаде на землю, ви можете замінити цикл
+  `завжди`{.blockcontrol} на цикл `повторити до`{.blockcontrol}, в якому ви перевіряєте, чи `торкається кольору`{.blocksensing} космічний корабель, який ви застосували до ландшафту або місця приземлення.
 
-- [ ] Legg også til en `send melding [Sjekk landing v]`{.b} rett etter `gjenta
-  til`{.blockcontrol}-løkken.
+- [ ] Також додайте `оповістити [Перевірте посадку v]`{.b} одразу після `повторити до`{.blockcontrol}.
 
-- [ ] Prøv spillet ditt igjen. Du skal nå kunne fly rundt helt til romskipet
-  kommer nær bakken.
+- [ ] Спробуйте ще раз. Тепер у вас має вийти літати навколо, поки космічний корабель не наблизиться до землі.
 
 
 # Steg 3: Klar for landing {.activity}
