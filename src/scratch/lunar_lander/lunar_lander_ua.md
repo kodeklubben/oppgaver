@@ -39,21 +39,21 @@ language: ua
 На перший погляд, це може здатися трохи складним, але це саме те, що роблять 
 математичні функції `синус` і `косинус`. Наприклад, у функції нижче `косинус(кут)` показує нам, наскільки довшою є горизонтальна лінія по відношенню до похилої.
 
-![Viser sammenhengen mellom vinkel, cosinus og sinus](sinus_cosinus.png)
+![Viser sammenhengen mellom vinkel, cosinus og sinus](sinus_cosinus_ua.png)
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Start et nytt prosjekt. Slett kattefiguren.
+- [ ] Почніть новий проект. Видаліть символ кота.
 
-- [ ] Legg til en romskip-figur. Du kan gjerne bruke `Romfart/Spaceship`.
+- [ ] Додайте персонажа космічного корабля. Не соромтеся використовувати `Усі/Rocketship`.
 
-- [ ] Lag romskipet ganske lite. Du kan for eksempel bruke
+- [ ] Зробіть космічний корабель зовсім маленьким. Наприклад, ви можете використати
 
   ```blocks
-  sett størrelse til (20) %
+  задати розмір (20)
   ```
 
-  rett etter at det grønne flagget er klikket.
+  одразу після натискання зеленого прапорця.
 
 - [ ] Lag to nye variable, `fartX`{.blockdata} og `fartY`{.blockdata} som
   gjelder kun for denne romskip-figuren.
