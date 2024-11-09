@@ -77,17 +77,11 @@ language: ua
   змінити [швидкість v] на (-0.01)
   ```
 
-  Det er denne som modellerer tyngdekraften. Om du forandrer verdien her vil
-  romskipet falle raskere eller tregere, eller det kan til og med falle oppover
-  om du lar tyngdekraften være positiv.
+  Саме він моделює силу гравітації. Якщо ви зміните значення тут, космічний корабель буде падати швидше або повільніше, або навіть може впасти вгору, якщо залишити гравітацію з плюсом.
 
-- [ ] Vi vil nå programmere kontrollen av romskipet. Først og fremst vil vi at
-  romskipet vender seg når vi trykker på piltastene mot høyre og venstre.
+- [ ] Тепер ми запрограмуємо керування космічним кораблем. Перш за все, ми хочемо, щоб корабель повертався, коли ми натискаємо клавіші зі стрілками вправо та вліво.
 
-  Legg til to `hvis`{.blockcontrol}-blokker inne i `gjenta for
-  alltid`{.blockcontrol}-løkken hvor du `vender`{.blockmotion} romskipet for
-  eksempel `5` grader mot høyre eller venstre avhengig av hvilken piltast som
-  trykkes.
+  Додайте два блоки `якщо`{.blockcontrol} всередині циклу `завжди`{.blockcontrol} де ви `повертаєте`{.blockmotion} космічний корабель, наприклад, на `5` градусів праворуч або ліворуч, залежно від того, яку клавішу зі стрілкою натиснуто.
 
 - [ ] Når pil opp-tasten trykkes vil vi at romskipet skal få litt ekstra fart i
   den retningen romskipet peker. Som vi snakket om tidligere kan vi bruke de
