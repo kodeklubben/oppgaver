@@ -102,16 +102,14 @@ language: ua
  `((0) - ([cos v] з (напрям)))`{.b} замість `([cos v] з
   (напрям))`{.b} тому що `напрям`{.blockmotion} у Scratch вимірюються у протилежний спосіб від того, як кути вимірюються у математиці.
 
-- [ ] Prøv spillet ditt. Kan du styre romskipet rundt på skjermen? Dersom du
-  synes romskipet flyr for raskt eller sakte kan du justere `endre
-  fart`{.blockdata}-klossene, for eksempel slik,
+- [ ] Спробуй свою гру. Чи можете ви керувати космічним кораблем по екрану? Якщо вам здається, що космічний корабель рухається надто швидко або повільно, ви можете відрегулювати блоки `швидкості`{.blockdata}, наприклад, ось так,
 
   ```blocks
-  endre [fartX v] med ((0.3) * ((0) - ([cos v] av (retning))))
-  endre [fartY v] med ((0.3) * ([sin v] av (retning)))
+  замінити [швидкістьX v] на ((0.3) * ((0) - ([cos v] з (напрям))))
+  замінити [швидкістьY v] на ((0.3) * ([sin v] з (напрям)))
   ```
 
-  Pass på at du justerer begge klossene med det samme tallet.
+  Переконайтеся, що ви налаштували обидва блоки на однакове число.
 
 
 # Steg 2: Vi ankommer månen {.activity}
