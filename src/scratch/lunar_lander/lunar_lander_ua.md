@@ -83,27 +83,24 @@ language: ua
 
   Додайте два блоки `якщо`{.blockcontrol} всередині циклу `завжди`{.blockcontrol} де ви `повертаєте`{.blockmotion} космічний корабель, наприклад, на `5` градусів праворуч або ліворуч, залежно від того, яку клавішу зі стрілкою натиснуто.
 
-- [ ] Når pil opp-tasten trykkes vil vi at romskipet skal få litt ekstra fart i
-  den retningen romskipet peker. Som vi snakket om tidligere kan vi bruke de
-  matematiske funksjonene sinus og cosinus for å få til dette. Legg også til
-  denne blokken inne i `gjenta for alltid`{.blockcontrol}-løkken din.
+- [ ] Коли натиснута клавіша зі стрілкою вгору, ми хочемо, щоб космічний апарат набрав трохи більшої швидкості в напрямку, на який він вказує. Як ми вже говорили раніше, для цього ми можемо використати математичні функції синус і косинус. Також додайте цей блок всередину вашого циклу `завжди`{.blockcontrol}.
 
   ```blocks
-  hvis <tast [pil opp v] trykket?>
-      endre [fartX v] med ((0) - ([cos v] av (retning)))
-      endre [fartY v] med ([sin v] av (retning))
+  якщо <клавішу [стрілка в гору v] натиснуто?> то
+      замінити [швидкістьX v] на ((0) - ([cos v] з (напрям)))
+      замінити [швидкістьY v] на ([sin v] з (напрям))
   slutt
   ```
 
-  Du finner både sinus og cosinus-funksjonene som valg på klossen
+  Ви знайдете функції синуса і косинуса як варіанти на вибір у блоці
 
   ```blocks
-  ([kvadratrot v] av (9))
+  ([sqrt v] з (9))
   ```
 
-  Vi må bruke `((0) - ([cos v] av (retning)))`{.b} i stedet for `([cos v] av
-  (retning))`{.b} fordi `retning`{.blockmotion} i Scratch måles motsatt vei av
-  hvordan man måler vinkler i matematikk.
+  Нам потрібно використовувати
+ `((0) - ([cos v] з (напрям)))`{.b} замість `([cos v] з
+  (напрям))`{.b} тому що `напрям`{.blockmotion} у Scratch вимірюються у протилежний спосіб від того, як кути вимірюються у математиці.
 
 - [ ] Prøv spillet ditt. Kan du styre romskipet rundt på skjermen? Dersom du
   synes romskipet flyr for raskt eller sakte kan du justere `endre
