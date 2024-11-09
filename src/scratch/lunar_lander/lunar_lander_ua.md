@@ -29,24 +29,15 @@ language: ua
 - [ ] Обмежене паливо, кілька посадочних майданчиків та інші виклики
 
 
-# Steg 1: Et flyvende romskip {.activity}
+# Крок 1: Літаючий космічний корабель {.activity}
 
-Vi skal nå programmere et romskip som flyr rundt på skjermen. For å ha kontroll
-på bevegelsen vil vi bruke to variable, `fartX`{.blockdata} og
-`fartY`{.blockdata}, som beskriver hvor raskt romskipet beveger seg henholdsvis
-sidelengs og opp-og-ned. Ved å bruke begge disse samtidig vil romskipet kunne
-bevege seg i hvilken som helst retning.
+Зараз ми запрограмуємо космічний корабель, який буде літати по екрану. Для керування рухом ми будемо використовувати дві змінні: `швидкістьX`{.blockdata} та
+`швидкістьY`{.blockdata},які описують швидкість руху корабля з боку в бік та вгору-вниз відповідно. Використовуючи обидві змінні одночасно, космічний корабель зможе рухатися в будь-якому напрямку.
 
-Utfordringen i programmeringen av spillet er at romskipet kan rotere uavhengig
-av hvilken retning det faktisk flyr. Når spilleren trykker pil-opp for å bruke
-motoren vil vi gi romskipet ekstra fart i den retningen det peker. Det betyr at
-vi må fordele farten i romskipets retning i hvor mye sidelengs fart det får, og
-hvor mye av farten som går opp eller ned.
+Складність програмування гри полягає в тому, що космічний корабель може обертатися незалежно від того, в якому напрямку він насправді летить. Коли гравець натискає стрілку вгору, щоб задіяти двигун, ми хочемо надати космічному кораблю додаткову швидкість у напрямку, на який він вказує. Це означає, що нам потрібно розподілити швидкість у напрямку руху космічного корабля таким чином, щоб визначити, яку частину швидкості він отримує у бік, а яку - вгору або вниз.
 
-Dette virker umiddelbart kanskje litt vanskelig, men det er akkurat dette de
-matematiske funksjonene `sinus` og `cosinus` gjør. I funksjonen nedenfor
-forteller for eksempel `cosinus(vinkel)` oss hvor lang den vannrette streken er
-i forhold til den skrå streken.
+На перший погляд, це може здатися трохи складним, але це саме те, що роблять 
+математичні функції `синус` і `косинус`. Наприклад, у функції нижче `косинус(кут)` показує нам, наскільки довшою є горизонтальна лінія по відношенню до похилої.
 
 ![Viser sammenhengen mellom vinkel, cosinus og sinus](sinus_cosinus.png)
 
