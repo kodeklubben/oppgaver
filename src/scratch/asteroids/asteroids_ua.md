@@ -130,7 +130,12 @@ language: ua
   `сховати`{.blocklooks} персонажа і створює пару клонів астероїдів у випадкових місцях на екрані, коли він отримує повідомлення `Нова гра`.
 
 - [ ] Коли фігура запускається як клон `коли я починаю як клон`{.blockcontrol} , ми хочемо, щоб вона спочатку вказувала у випадковому напрямку:
-`повернути в напрямку (випадкове від (0) до (360))`{.blockmotion} а потім з'являлася `показати`{.blocklooks}.
+
+```blocks
+  повернути в напрямку (випадкове від (0) до (360))
+```
+
+а потім з'являлася `показати`{.blocklooks}.
 Потім вона може увійти в `завжди`{.blockcontrol} цикл, який повторюється, поки вона не
 `торкається`{.blocksensing} місячного модуля. Усередині циклу ви спочатку дозволяєте астероїду пройти кілька кроків `перемістити на .. кроків`{.blockmotion}. Потім потрібно перевірити, чи `торкається`{.blocksensing} астероїд пострілу. Якщо так, ви можете зробити астероїд меншим за допомогою блоку, подібного до
 
@@ -154,28 +159,20 @@ language: ua
   ```
 
 
-# Steg 4: Videreutvikling av spillet {.activity}
+# Крок 4: Подальший розвиток гри {.activity}
 
-*Du har nå laget en enkel variant av Asteroids. Men prøv å gjøre spillet
- morsommere ved å videreutvikle det. Du bestemmer selv hvordan du vil jobbe
- videre, men nedenfor er noen ideer som kanskje kan være til inspirasjon?*
+*Ви створили просту версію Астероїди. Але спробуйте зробити гру цікавішою, розвиваючи її далі. Вам вирішувати, як ви хочете діяти далі, але нижче наведено кілька ідей, які можуть вас надихнути.*
 
-## Ideer til videreutvikling {.check}
+## Ідеї для подальшого розвитку {.check}
 
-- [ ] Gi poeng når spilleren treffer en asteroide. Man burde kanskje få flere
-  poeng for å treffe de små asteroidene? Det kan du fikse med en utregning
-  omtrent som
+- [ ] Давати очки, коли гравець влучає в астероїд. Можливо, варто давати більше очок за влучання в маленькі астероїди? Ви можете зробити це за допомогою такого розрахунку
 
   ```blocks
-  avrund ((100) / (størrelse))
+  округлити ((100) / (розмір))
   ```
 
-- [ ] Dersom du plasserer asteroidene helt tilfeldig når et nytt spill starter
-  er det ganske sannsynlig at romskipet krasjer i en asteroide allerede før
-  spillet har begynt. Det er ikke noe moro. En måte å fikse det på vil være å
-  først la asteroideklonen `gå til romskipet`{.blockmotion}, men deretter peke i
-  en tilfeldig retning og `gå 100 til 200 steg`{.blockmotion} før det til slutt
-  `vises`{.blocklooks}.
+- [ ] Якщо ви розміщуєте астероїди навмання, коли починаєте нову гру, то цілком ймовірно, що ваш космічний корабель вріжеться в астероїд ще до того, як гра почнеться. Це не дуже весело. Один із способів виправити це - спочатку підпустити клон астероїда до космічного корабля `перейти до Місячний модуль`{.blockmotion}, а потім направити його у випадковому напрямку і `перемістити на 100-200 кроків`{.blockmotion}, перш ніж він нарешті з'явиться
+  `показати`{.blocklooks}.
 
 - [ ] Spillet ser litt kulere ut om du tegner flere asteroidedrakter, og velger
   en av dem tilfeldig når en klon lages.
