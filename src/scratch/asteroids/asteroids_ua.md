@@ -174,22 +174,12 @@ language: ua
 - [ ] Якщо ви розміщуєте астероїди навмання, коли починаєте нову гру, то цілком ймовірно, що ваш космічний корабель вріжеться в астероїд ще до того, як гра почнеться. Це не дуже весело. Один із способів виправити це - спочатку підпустити клон астероїда до космічного корабля `перейти до Місячний модуль`{.blockmotion}, а потім направити його у випадковому напрямку і `перемістити на 100-200 кроків`{.blockmotion}, перш ніж він нарешті з'явиться
   `показати`{.blocklooks}.
 
-- [ ] Spillet ser litt kulere ut om du tegner flere asteroidedrakter, og velger
-  en av dem tilfeldig når en klon lages.
+- [ ] Гра виглядає трохи крутіше, якщо ви намалюєте кілька астероїдних костюмів і виберете один з них навмання при створенні клону.
 
-- [ ] Dersom man klarer å skyte ned alle asteroidene burde man komme videre til
-  et vanskeligere nivå. Kanskje med flere asteroider? Eller med asteroider som
-  beveger seg raskere? Eller deler seg i flere deler når de blir skutt?
+- [ ] Якщо вам вдасться збити всі астероїди, ви перейдете на складніший рівень. Можливо, з більшою кількістю астероїдів? Або з астероїдами, які рухаються швидше? Або розбиваються на кілька частин при пострілі?
 
-  For å vite når du kan gå videre til et nytt nivå må du telle hvor mange
-  asteroider som flyr rundt. Lag derfor en variabel `Antall
-  asteroider`{.blockdata} som du øker med 1 når en asteroide `starter som
-  klon`{.blockcontrol}. Deretter må variabelen minke med 1 når klonen slettes.
+  Щоб знати, коли можна переходити на новий рівень, потрібно порахувати, скільки астероїдів пролітає навколо. Тому створіть змінну `Кількість астероїдів`{.blockdata}, яку ви збільшуватимете на 1, коли астероїд `починає як клон`{.blockcontrol}. Змінна повинна зменшуватися на 1, коли клон видаляється.
 
-  Videre bruker du en `Nivå`{.blockdata}-variabel som holder styr på hvilket
-  nivå spilleren har kommet til.
+  Крім того, ви використовуєте змінну `Рівень`{.blockdata}, яка відстежує, якого рівня досяг гравець.
 
-- [ ] I det originale Asteroids-spillet dukket det også opp en flyvende
-  tallerken (UFO) innimellom. Denne måtte man også passe seg for, men i
-  motsetning til asteroidene kunne UFOen skyte tilbake. Prøv å legg til en slik
-  UFO i spillet ditt!
+- [ ] В оригінальній грі Астероїди час від часу з'являлася літаюча тарілка (НЛО). За нею теж треба було стежити, але на відміну від астероїдів, НЛО могло відстрілюватися. Спробуйте додати такий НЛО у свою гру!
