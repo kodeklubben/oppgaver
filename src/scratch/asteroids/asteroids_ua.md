@@ -57,14 +57,10 @@ language: ua
 - [ ] Ми збираємося внести невеликі зміни в поведінку космічного апарату. Астероїди знаходяться далеко в космосі, де немає помітної гравітації. Тому видаліть блок, який моделює гравітацію у вашому циклі `завжди`{.blockcontrol},
 `замінити [швидкістьY v] на (-0.01)`{.b}.
 
-- [ ] Vi skal også gjøre en litt større endring i spillet. Vi vil at
-  verdensrommet skal føles litt stort og uoversiktlig ved at når romskipet går
-  ut av skjermen på den ene siden skal det dukke opp på andre siden av skjermen.
+- [ ] Ми також робимо дещо більшу зміну в грі. Ми хочемо, щоб космос відчувався трохи великим і захаращеним, тому, коли космічний корабель виходить з екрану з одного боку, він з'являється з іншого боку екрану.
 
-  Dette gjør vi ved ganske enkle `hvis`{.blockcontrol}-tester. Det vi må huske
-  på er at `x`-koordinatene på skjermen går fra `-240` til `240`, mens
-  `y`-koordinatene ligger mellom `-180` og `180`. Siden Scratch passer på at
-  figurer ikke går helt av skjermen flytter vi dem litt innenfor skjermkanten:
+  Ми робимо це за допомогою досить простих тестів `якщо`{.blockcontrol}. Потрібно пам'ятати, що координати `x` на екрані знаходяться в діапазоні від `-240` до `240`, а координати
+  `y` від `-180` до `180`. Оскільки Scratch стежить за тим, щоб фігури не виходили повністю за межі екрану, ми зсуваємо їх трохи всередину краю екрану:
 
   ```blocks
   når jeg mottar [Nytt spill v]
