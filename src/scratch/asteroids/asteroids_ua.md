@@ -130,15 +130,12 @@ language: ua
   `сховати`{.blocklooks} персонажа і створює пару клонів астероїдів у випадкових місцях на екрані, коли він отримує повідомлення `Нова гра`.
 
 - [ ] Коли фігура запускається як клон `коли я починаю як клон`{.blockcontrol} , ми хочемо, щоб вона спочатку вказувала у випадковому напрямку:
-  `peker`{.blockmotion} i en tilfeldig retning og deretter `vises`{.blocklooks}.
-  Videre kan den gå inn i en løkke som `gjentas til`{.blockcontrol} figuren
-  `berører romskipet`{.blocksensing}. Inne i løkken lar du først asteroiden `gå
-  noen steg`{.blockmotion}. Deretter må du teste om asteroiden `berører et
-  skudd`{.blocksensing}. Hvis den gjør det kan du lage asteroiden mindre med en
-  kloss som ligner
+`повернути в напрямку (випадкове від (0) до (360))`{.blockmotion} а потім з'являлася `показати`{.blocklooks}.
+Потім вона може увійти в `завжди`{.blockcontrol} цикл, який повторюється, поки вона не
+`торкається`{.blocksensing} місячного модуля. Усередині циклу ви спочатку дозволяєте астероїду пройти кілька кроків `перемістити на .. кроків`{.blockmotion}. Потім потрібно перевірити, чи `торкається`{.blocksensing} астероїд пострілу. Якщо так, ви можете зробити астероїд меншим за допомогою блоку, подібного до
 
   ```blocks
-  sett størrelse til ((størrelse) / (2)) %
+  задати розмір ((розмір) * (0.9))
   ```
 
   `Hvis`{.blockcontrol} `størrelsen`{.blocklooks} fortsatt er større enn for
