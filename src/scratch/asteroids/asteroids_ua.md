@@ -81,17 +81,13 @@ language: ua
   ```
 
 
-# Steg 2: Romskipet kan skyte {.activity}
+# Крок 2: Космічний апарат може стріляти {.activity}
 
-*Romskipet vårt vil snart fly inn i en asteroidesverm, så vi må montere raketter
- som kan sprenge unna asteroidene.*
+*Наш космічний корабель незабаром влетить в астероїдний рій, тому нам потрібно встановити ракети, які зможуть підірвати астероїди.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Lag en ny figur som du kaller `Skudd`. Denne tegner du greit selv.
-  Eventuelt finnes det for eksempel noen ball-figurer som kan brukes som kuler.
-  Bruk en `sett størrelse`{.blocklooks}-kloss for at figuren skal bli passe
-  stor. Legg også på en kloss for å `skjule`{.blocklooks} figuren.
+- [ ] Створіть нового персонажа, якого ви назвете `Постріл`. Ви можете намалювати його самостійно. Ви також можете знайти фігури у вигляді куль, які можна використати як кулі. Використовуйте блок `задати розмір`{.blocklooks}, щоб зробити фігуру потрібного розміру. Також додайте блок `сховати`{.blocklooks}, щоб приховати фігуру.
 
 - [ ] Vi vil bruke kloner slik at vi kan skyte flere skudd. Først trenger vi
   koden som lager en ny skuddklone når mellomromtasten trykkes:
