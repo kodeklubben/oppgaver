@@ -48,16 +48,11 @@ language: ua
 
 - [ ] Тепер ви можете перетягнути репліку космічного корабля з сховку у вікно персонажа нового проєкту.
 
-  ![Bilde av hvordan dra romskip-kopien fra ryggsekken i Scratch](ryggsekk.png)
+  ![Bilde av hvordan dra romskip-kopien fra ryggsekken i Scratch](ryggsekk_ua.png)
 
-  Du vil nå se at alle draktene, alle variablene og alle skriptene til romskipet
-  er kopiert over. Du kan rydde opp litt ved å slette skript som ikke har noe
-  med kontrollen over romskipet å gjøre, for eksempel om du har et `Sjekk
-  landing`-skript trenger vi ikke det i dette spillet.
+  Тепер ви побачите, що всі костюми, всі змінні і всі скрипти для космічного корабля були скопійовані. Ви можете трохи навести лад, видаливши скрипти, які не мають нічого спільного з керуванням космічним кораблем, наприклад, якщо у вас є скрипт `Перевірте посадку`, то він нам не потрібен у цій грі.
 
-- [ ] Legg et skript på scenen som sender en melding til romskipet om at det
-  skal begynne å fly når det grønne flagget klikkes. Prøv spillet ditt. Kan du
-  fly romskipet rundt omkring?
+- [ ] Розмістіть на сцені сценарій, який надсилає повідомлення космічному кораблю про початок польоту після натискання на зелений прапорець. Спробуйте свою гру. Чи зможете ви керувати космічним кораблем?
 
 - [ ] Vi skal gjøre en liten forandring i hvordan romskipet oppfører seg.
   Asteroids foregår langt ute i rommet hvor det ikke er noen merkbar
