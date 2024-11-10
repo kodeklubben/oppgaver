@@ -122,15 +122,14 @@ language: ua
 
 ## Контрольний список {.check}
 
-- [ ] Створіть фігуру астероїда. Один із способів зробити це - намалювати нову фігуру за допомогою векторної графіки. Почніть з простого квадрата, а потім за допомогою інструмента `Реформувати`додайте більше кутових точок і перемістіть їх, як показано на малюнку нижче.
+- [ ] Створіть фігуру астероїда. Один із способів зробити це - намалювати нову фігуру за допомогою векторної графіки. Почніть з простого квадрата, а потім за допомогою інструмента `Реформувати` додайте більше кутових точок і перемістіть їх, як показано на малюнку нижче.
 
   ![Bilde av en astroidefigur i Scratch](flyttpunkt_ua.png)
 
-- [ ] Også for asteroidene vil vi bruke kloner. Lag et skript som
-  `skjuler`{.blocklooks} figuren og lager et par asteroide-kloner tilfeldige
-  steder på skjermen når det mottar `Nytt spill`-meldingen.
+- [ ] Також для астероїдів ми будемо використовувати клони. Створіть скрипт, який приховує
+  `сховати`{.blocklooks} персонажа і створює пару клонів астероїдів у випадкових місцях на екрані, коли він отримує повідомлення `Нова гра`.
 
-- [ ] Når figuren `starter som klon`{.blockcontrol} vil vi først at den
+- [ ] Коли фігура запускається як клон `коли я починаю як клон`{.blockcontrol} , ми хочемо, щоб вона спочатку вказувала у випадковому напрямку:
   `peker`{.blockmotion} i en tilfeldig retning og deretter `vises`{.blocklooks}.
   Videre kan den gå inn i en løkke som `gjentas til`{.blockcontrol} figuren
   `berører romskipet`{.blocksensing}. Inne i løkken lar du først asteroiden `gå
