@@ -11,54 +11,42 @@ language: ua
 
 Наприкінці 1970-х Atari випустила дві гри, в яких потрібно було керувати космічним кораблем. Першою була "Місячний модуль", але її витіснила "Астероїди", яку Atari випустила кількома місяцями пізніше. Насправді, ігри були настільки схожі, що змогли повторно використати багато технологій. Ми збираємося зробити те ж саме! Отже, перед тим, як розпочати цей проект, вам потрібно буде створити "Місячний модуль". У "Астероїди" ваша мета - захистити свій космічний корабель від астероїдів, розстрілюючи їх на шматки.
 
-![Illustrasjon av et ferdig astroide spill](asteroids.png)
+![Illustrasjon av et ferdig astroide spill](asteroids_ua.png)
 
 
-# Oversikt over prosjektet {.activity}
+# Огляд проєкту {.activity}
 
-*Mesteparten av kodingen av Asteroids skal du gjøre selv (og noe har du allerede
- gjort). I Asteroids vil vi spesielt se på noen av måtene man kan gjenbruke kode
- i Scratch.*
+*Більшу частину коду для "Астероїди" ви будете писати самостійно (а дещо ви вже написали). У "Астероїди" ми розглянемо деякі способи повторного використання коду у Scratch.*
 
-## Plan {.check}
+## План {.check}
 
-- [ ] Enda et flyvende romskip
+- [ ] Ще один літаючий космічний корабель
 
-- [ ] Romskipet kan skyte!
+- [ ] Космічний корабель вміє стріляти!
 
-- [ ] Pass deg for asteroidene
+- [ ] Обережно, астероїди!
 
-- [ ] .. og andre utfordringer
+- [ ] .. та інші виклики
 
 
-# Steg 1: Enda et flyvende romskip {.activity}
+# Крок 1: Ще один літаючий космічний корабель {.activity}
 
-*I [Lunar Lander](../lunar_lander/lunar_lander.html) laget vi et flott romskip.
- Nå skal vi se hvordan vi kan bruke det samme romskipet i dette prosjektet.*
+*У "Місячний модуль" ми зробили чудовий космічний корабель. Тепер ми побачимо, як ми можемо використовувати той самий космічний корабель у цьому проєкті.*
 
-Du vet sikkert at du kan *Remikse* andres Scratch-prosjekter. Du får da
-muligheten til å lage din egen versjon av noe andre har gjort, og spesielt kan
-du gjenbruke kode andre har skrevet tidligere.
+Ви, мабуть, знаєте, що можете реміксувати чужі Scratch-проєкти. Це дає вам можливість створити власну версію того, що зробили інші, і, зокрема, ви можете повторно використовувати код, написаний іншими раніше.
 
-Nå skal vi se på et triks for å gjenbruke kode vi selv har laget tidligere. Ved
-å bruke `Ryggsekken` kan man kopiere figurer og kode mellom forskjellige
-prosjekter. Vi vil derfor først kopiere romskipet vi laget i Lunar Lander.
+Давайте розглянемо трюк для повторного використання коду, який ми створили в минулому. Використовуючи `Сховок`, ви можете копіювати фігури та код між різними проєктами. Тому спочатку ми скопіюємо космічний корабель, який ми створили у "Місячний модуль".
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Åpne [Lunar Lander](../lunar_lander/lunar_lander.html)-prosjektet ditt.
+- [ ] Відкрийте свій проєкт "Місячний модуль".
+Зверніть увагу, що в самому низу екрана написано `Сховок`. Натисніть на нього, і перед вами відкриється трохи більше поле.
 
-- [ ] Legg merke til at det står `Ryggsekk` helt nederst på skjermen. Klikk på
-  `Ryggsekk` og et litt større felt skal åpne seg opp.
+- [ ] Перетягніть фігуру космічного корабля до відкритого сховку. Копія вашої фігурки космічного корабля залишиться в сховку.
 
-- [ ] Dra hele romskip-figuren din til den åpne ryggsekken. En kopi av
-  romskip-figuren blir værende i ryggsekken.
+- [ ] Створіть новий проєкт, вибравши команду `Новий` в меню `Файл`. Видаліть символ кота і додайте зоряне тло.
 
-- [ ] Start et nytt prosjekt ved å velge `Ny` i `Fil`-menyen. Slett kattefiguren
-  og legg på en stjernebakgrunn.
-
-- [ ] Du kan nå dra romskip-kopien ut fra ryggsekken, og til figurvinduet i det
-  nye prosjektet.
+- [ ] Тепер ви можете перетягнути репліку космічного корабля з сховку у вікно персонажа нового проєкту.
 
   ![Bilde av hvordan dra romskip-kopien fra ryggsekken i Scratch](ryggsekk.png)
 
