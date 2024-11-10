@@ -7,15 +7,9 @@ language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-På slutten av 1970-tallet ga Atari ut to spill hvor man skulle kontrollere et
-romskip. Det første var Lunar Lander, men dette ble utkonkurrert av Asteroids
-som Atari ga ut noen måneder senere. Spillene var faktisk så like at de kunne
-gjenbruke mye av teknologien. Vi skal gjøre det samme! Du må derfor ha laget
-[Lunar Lander](../lunar_lander/lunar_lander.html) før du begynner på dette
-prosjektet. I Asteroids er målet å beskytte romskipet mot asteroider ved å skyte
-dem i småbiter.
+Наприкінці 1970-х Atari випустила дві гри, в яких потрібно було керувати космічним кораблем. Першою була "Місячний модуль", але її витіснила "Астероїди", яку Atari випустила кількома місяцями пізніше. Насправді, ігри були настільки схожі, що змогли повторно використати багато технологій. Ми збираємося зробити те ж саме! Отже, перед тим, як розпочати цей проект, вам потрібно буде створити "Місячний модуль". У "Астероїди" ваша мета - захистити свій космічний корабель від астероїдів, розстрілюючи їх на шматки.
 
 ![Illustrasjon av et ferdig astroide spill](asteroids.png)
 
