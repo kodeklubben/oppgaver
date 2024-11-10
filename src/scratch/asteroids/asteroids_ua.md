@@ -63,19 +63,19 @@ language: ua
   `y` від `-180` до `180`. Оскільки Scratch стежить за тим, щоб фігури не виходили повністю за межі екрану, ми зсуваємо їх трохи всередину краю екрану:
 
   ```blocks
-  når jeg mottar [Nytt spill v]
-  gjenta for alltid
-      hvis <(x-posisjon) < [-235]>
-          endre x med (470)
+  коли я отримую [Нова гра v]
+  завжди
+      якщо <(значення x) < [-235]> то
+          змінити x на (470)
       slutt
-      hvis <(x-posisjon) > [235]>
-          endre x med (-470)
+      якщо <(значення x) > [235]> то
+          змінити x на (-470)
       slutt
-      hvis <(y-posisjon) < [-175]>
-          endre y med (350)
+      якщо <(значення y) < [-175]> то
+          змінити y на (350)
       slutt
-      hvis <(y-posisjon) > [175]>
-          endre y med (-350)
+      якщо <(значення y) > [175]> то
+          змінити y на (-350)
       slutt
   slutt
   ```
