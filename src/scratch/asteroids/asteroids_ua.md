@@ -102,40 +102,25 @@ language: ua
   slutt
   ```
 
-- [ ] Nå skal vi kode oppførselen til skuddet etter at det er avfyrt. Det kan
-  være ganske enkelt. Når skuddfiguren `starter som klon`{.blockcontrol} må den
-  `vises`{.blocklooks}, og deretter kan den flyttes i en løkke før den til slutt
-  slettes. Eksperimenter med hastigheten og rekkevidden på skuddet ved å endre
-  på hvor mange ganger løkka gjentas og hvor mange steg figuren går inne i
-  løkka.
+- [ ] Тепер ми закодуємо поведінку пострілу після того, як він був зроблений. Це може бути досить просто. Коли символ пострілу запускається `коли я стартую як клон`{.blockcontrol}, він повинен з'явитися
+  `показати`{.blocklooks}, а потім його можна переміщати у циклі, перш ніж він буде видалений. Експериментуйте зі швидкістю та дальністю пострілу, змінюючи кількість повторень циклу та кількість кроків, які персонаж робить всередині циклу.
 
-- [ ] Til slutt vil vi at også skuddene skal kunne forsvinne ut på den ene siden
-  av skjermen og dukke opp igjen på den andre. Til dette vil vi bruke omtrent
-  samme kode for romskipet.
+- [ ] Нарешті, ми також хочемо, щоб зображення могли зникати з одного боку екрана та з’являтися з іншого. Для цього ми будемо використовувати приблизно такий же код для космічного корабля.
 
-  For å kopiere skript mellom figurer kan du bruke ryggsekken på samme måte som
-  tidligere. En litt raskere metode er å bare dra skriptet du vil kopiere til
-  den figuren du vil kopiere til.
+ Щоб копіювати скрипти між фігурами, ви можете використовувати сховок так само, як і раніше. Трохи швидший спосіб - просто перетягнути скрипт, який ви хочете скопіювати, на фігуру, до якої ви хочете скопіювати.
 
-  Kopier koden for å *warp'e* rundt skjermen fra romskipet til skudd-figuren.
+  Скопіюйте код, щоб перемістити з космічного корабля на фігуру `Постріл`.
 
-- [ ] Vi kan nesten bruke denne koden som den er. Den eneste endringen vi
-  trenger å gjøre er at den skal starte på `når jeg starter som klon`{.b} i
-  stedet for på `når jeg mottar [Nytt spill v]`{.b}, siden denne oppførselen
-  skal gjelde for alle skuddklonene.
+- [ ] Ми можемо використовувати цей код як є. Єдина зміна, яку нам потрібно внести, це те, що він повинен починатися з `коли я починаю як клон`{.b} замість `коли я отримую [Нова гра v]`{.b} оскільки така поведінка має застосовуватися до всіх клонів.
 
-- [ ] Prøv spillet ditt. Nå skal du kunne fly rundt i verdensrommet mens du
-  skyter.
+- [ ] Спробуй свою гру. Тепер ви зможете літати в космосі під час стрілянини.
 
 
-# Steg 3: Pass deg for asteroidene {.activity}
+# Крок 3: Слідкуйте за астероїдами {.activity}
 
-*Da er det på tide å lage en asteroidesverm. Noe av det som er kult med
- Asteroids er at asteroidene blir skutt i småbiter når de treffes, og man må
- fortsatt passe seg for og skyte disse mindre asteroidene. Vi vil kode dette ved
- å bruke kloner i forskjellige størrelser.*
+*Тоді настав час створити астероїдний рій. Одна з цікавинок гри Астероїди полягає в тому, що при зіткненні астероїди розлітаються на шматки, і вам все одно потрібно стежити за цими меншими астероїдами і стріляти в них. Ми будемо кодувати це за допомогою клонів різних розмірів.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
 - [ ] Lag en asteroidefigur. En måte å gjøre dette på er å tegne en ny figur med
   vektorgrafikk. Start med en enkel firkant, og bruk deretter `Bøy`-verktøyet
