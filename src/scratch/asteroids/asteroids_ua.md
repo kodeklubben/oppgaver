@@ -138,23 +138,13 @@ language: ua
   задати розмір ((розмір) * (0.9))
   ```
 
-  `Hvis`{.blockcontrol} `størrelsen`{.blocklooks} fortsatt er større enn for
-  eksempel 10 kan du lage et par nye kloner av denne mindre asteroiden. Til
-  slutt kan du `slette denne klonen`{.blockcontrol} uansett hva størrelsen er.
+`Якщо`{.blockcontrol} `розмір`{.blocklooks} все ще більший, ніж, наприклад, 10, ви можете створити кілька нових клонів цього меншого астероїда. Нарешті, ви можете `вилучити цей клон`{.blockcontrol} незалежно від його розміру.
 
-- [ ] Legg på en melding eller en `stopp`{.blockcontrol}-kloss slik at spillet
-  kan avsluttes etter at `gjenta til`{.blockcontrol}-løkken avsluttes, siden
-  romskipet da har krasjet i en asteroide.
+- [ ] Додайте повідомлення або блок `зупинити все`{.blockcontrol}, щоб гру можна було завершити після завершення циклу `повторити до`{.blockcontrol}, оскільки космічний корабель зіткнеться з астероїдом.
 
-- [ ] Også asteroidene skal kunne fly ut av skjermen på en side og dukke opp på
-  en annen. Kopier derfor skriptet som fikser dette fra skudd-figuren på samme
-  måte som tidligere.
+- [ ] Астероїди також повинні мати можливість вилітати з одного боку екрану і з'являтися з іншого. Тому скопіюйте скрипт, який це виправляє, з постріл фігури.
 
-- [ ] Til slutt vil vi også slette skudd-klonene når de treffer asteroidene. Her
-  må vi være litt forsiktig så vi ikke sletter skudd-klonene før asteroidene
-  merker at de er truffet. Dette kan vi fikse ved å legge inn en ørliten
-  forsinkelse. Du kan for eksempel legge inn kode som dette i løkka som flytter
-  skudd-figuren:
+- [ ] Нарешті, ми також видалимо розстріляні клони, коли вони вдаряться об астероїди. Тут треба бути обережними, щоб не видалити постріляні клони до того, як астероїди зрозуміють, що в них влучили. Це можна зробити, додавши невелику затримку. Наприклад, ви можете ввести такий код у цикл, який переміщує фігурку пострілу:
 
   ```blocks
   hvis <berører [Asteroide v] ?>
