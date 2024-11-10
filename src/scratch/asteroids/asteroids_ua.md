@@ -89,17 +89,9 @@ language: ua
 
 - [ ] Створіть нового персонажа, якого ви назвете `Постріл`. Ви можете намалювати його самостійно. Ви також можете знайти фігури у вигляді куль, які можна використати як кулі. Використовуйте блок `задати розмір`{.blocklooks}, щоб зробити фігуру потрібного розміру. Також додайте блок `сховати`{.blocklooks}, щоб приховати фігуру.
 
-- [ ] Vi vil bruke kloner slik at vi kan skyte flere skudd. Først trenger vi
-  koden som lager en ny skuddklone når mellomromtasten trykkes:
+- [ ] Ми хочемо використовувати клони, щоб зробити більше пострілів. Спочатку нам потрібен код, який створює новий клон пострілу при натисканні клавіші пробілу:
 
-  Lag et skript på skudd-figuren som starter på `Nytt spill`-meldingen. Skriptet
-  kan bestå av en `gjenta for alltid`{.blockcontrol}-løkke, hvor du tester på om
-  mellomromtasten er trykket. Dersom et skudd skal avfyres kan du først la
-  skuddet `gå til`{.blockmotion} romskipet og deretter peke i samme retning som
-  romskipet. Dette siste kan du gjøre med en kombinasjon av `pek i
-  retning`{.blockmotion}, `retning av`{.blocksensing} og
-  `vend`{.blockmotion}-klosser. Til slutt kan du `lage en klon`{.blockcontrol}
-  av figuren.
+  Створіть скрипт для `Постріл` персонажа, який запускається на повідомленні `Нова гра`. Скрипт може складатися з `завжди`{.blockcontrol}циклу, де перевіряється, чи натиснута клавіша пробілу. Якщо потрібно здійснити постріл, спочатку перемістіть постріл до `перейти до`{.blockmotion} місячного модуля, а потім наведіть його в тому ж напрямку, що й місячний модуль. Останнє можна зробити за допомогою комбінації блоків `повернути в напрямку`{.blockmotion}, `напрям з Місячний модуль`{.blocksensing}. Нарешті, `створити клон з мене`{.blockcontrol}.
 
 - [ ] For å passe på at bare en melding sendes ut hver gang mellomromtasten
   trykkes kan vi starte `hvis`{.blockcontrol}-testen med å vente til
