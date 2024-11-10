@@ -1,0 +1,95 @@
+language:
+  NAME: Tungumál
+  TAGS:
+    nb:
+      NAME: Norska (bókmál)
+    nn:
+      NAME: Norska (nýnorska)
+    sv:
+      NAME: Sænska
+    da:
+      NAME: Danska
+    en:
+      NAME: Enska
+    is:
+      NAME: Íslenska
+    ua:
+      NAME: Úkraínska
+topic:
+  NAME: Þema
+  TAGS:
+    app:
+      NAME: App
+      TOOLTIP: Gerðu app fyrir snjallsíma og spjaldtölvur.
+    electronics:
+      NAME: Rafeindatækni
+      TOOLTIP: Forritaðu tæki sem Microbit, Arduino, Raspberry Pi, Lego Mindstorms o.s.frv.
+    step_based:
+      NAME: Skref
+      TOOLTIP: Námskeið sem kynnir námsefnið skref fyrir skref.
+    block_based:
+      NAME: Byggt með kubbum
+      TOOLTIP: Forritaðu með forritunarmál byggt með kubbum.
+    text_based:
+      NAME: Byggt á texta
+      TOOLTIP: Forritaðu með texta.
+    minecraft:
+      NAME: Minecraft
+      TOOLTIP: Forritaðu í Minecraft.
+    web:
+      NAME: Vefsíða
+      TOOLTIP: Gera vefsíður.
+    game:
+      NAME: Leikir
+      TOOLTIP: Forritaðu leiki.
+    robot:
+      NAME: Vélmenni
+      TOOLTIP: Forritaðu líkamlega hluti sem hreyfa sig.
+    animation:
+      NAME: Hreyfimynd
+      TOOLTIP: Gerðu myndir sem hreyfast, til dæmis teiknimyndir.
+    sound:
+      NAME: Hljóð
+      TOOLTIP: Forritaðu hljóð og tónlist.
+    cryptography:
+      NAME: Dulritunarfræði
+      TOOLTIP: Lærðu um tölvuöryggi.
+subject:
+  NAME: Fag
+  TAGS:
+    mathematics:
+      NAME: Stærðfræði
+    science:
+      NAME: Náttúrugreinar
+    programming:
+      NAME: Forritun
+    technology:
+      NAME: Upplýsinga- og tæknimennt
+    music:
+      NAME: Tónmennt
+    first_language:
+      NAME: Íslenska
+    english:
+      NAME: Enska
+    arts_and_crafts:
+      NAME: Myndmennt
+    social_science:
+      NAME: Samfélagsgreinar
+grade:
+  NAME: Bekkur
+  TAGS:
+    preschool:
+      NAME: Leikskóli
+      TOOLTIP: Börn 3-5 ára
+    primary:
+      NAME: 1.-4. bekkur
+      TOOLTIP: Börn 6-9 ára
+    secondary:
+      NAME: 5.-7. bekkur
+      TOOLTIP: Börn 10-12 ára
+    junior:
+      NAME: 8.-10. bekkur
+      TOOLTIP: Unglingar 13-15 ára
+    senior:
+      NAME: Framhaldsskóli
+      TOOLTIP: Unglingar 16-18 ára

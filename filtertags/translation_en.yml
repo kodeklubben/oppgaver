@@ -1,0 +1,95 @@
+language:
+  NAME: Language
+  TAGS:
+    nb:
+      NAME: Norwegian (Bokmål)
+    nn:
+      NAME: Norwegian (Nynorsk)
+    sv:
+      NAME: Swedish
+    da:
+      NAME: Danish
+    en:
+      NAME: English
+    is:
+      NAME: Icelandic
+    ua:
+      NAME: Ukrainian
+topic:
+  NAME: Topic
+  TAGS:
+    app:
+      NAME: App
+      TOOLTIP: Create apps for mobiles and tablets.
+    electronics:
+      NAME: Electronics
+      TOOLTIP: Program devices such as Microbit, Arduino, Raspberry Pi, and Lego Mindstorms.
+    step_based:
+      NAME: Step based
+      TOOLTIP: Interactive web-based courses that introduces you to new concepts one step at a time.
+    block_based:
+      NAME: Block based
+      TOOLTIP: Programming language based on Blockly.
+    text_based:
+      NAME: Text based
+      TOOLTIP: Programming language based on text.
+    minecraft:
+      NAME: Minecraft
+      TOOLTIP: Make cool stuff in Minecraft.
+    web:
+      NAME: Web
+      TOOLTIP: Create web pages.
+    game:
+      NAME: Game
+      TOOLTIP: Create games.
+    robot:
+      NAME: Robot
+      TOOLTIP: Physical objects that moves.
+    animation:
+      NAME: Animation
+      TOOLTIP: Graphics that move, like cartoons.
+    sound:
+      NAME: Sound
+      TOOLTIP: Program sound and music.
+    cryptography:
+      NAME: Cryptography
+      TOOLTIP: Learn about computer security.
+subject:
+  NAME: Subject
+  TAGS:
+    mathematics:
+      NAME: Mathematics
+    science:
+      NAME: Science
+    programming:
+      NAME: Programming
+    technology:
+      NAME: Technology
+    music:
+      NAME: Music
+    first_language:
+      NAME: English
+    english:
+      NAME: English
+    arts_and_crafts:
+      NAME: Arts and crafts
+    social_science:
+      NAME: Social science
+grade:
+  NAME: Grade
+  TAGS:
+    preschool:
+      NAME: Preschool
+      TOOLTIP: Kindergarten, ages 3-5
+    primary:
+      NAME: Primary
+      TOOLTIP: Grades 1-4, ages 6-9
+    secondary:
+      NAME: Secondary
+      TOOLTIP: Grades 5-7, ages 10-12
+    junior:
+      NAME: Junior
+      TOOLTIP: Grades 8-10, ages 13-15
+    senior:
+      NAME: Senior
+      TOOLTIP: Highschool, grades 11-13, ages 16-18
