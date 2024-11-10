@@ -122,11 +122,9 @@ language: ua
 
 ## Контрольний список {.check}
 
-- [ ] Lag en asteroidefigur. En måte å gjøre dette på er å tegne en ny figur med
-  vektorgrafikk. Start med en enkel firkant, og bruk deretter `Bøy`-verktøyet
-  for å legge til flere hjørnepunkter og flytte dem rundt som i figuren under.
+- [ ] Створіть фігуру астероїда. Один із способів зробити це - намалювати нову фігуру за допомогою векторної графіки. Почніть з простого квадрата, а потім за допомогою інструмента `Реформувати`додайте більше кутових точок і перемістіть їх, як показано на малюнку нижче.
 
-  ![Bilde av en astroidefigur i Scratch](flyttpunkt.png)
+  ![Bilde av en astroidefigur i Scratch](flyttpunkt_ua.png)
 
 - [ ] Også for asteroidene vil vi bruke kloner. Lag et skript som
   `skjuler`{.blocklooks} figuren og lager et par asteroide-kloner tilfeldige
