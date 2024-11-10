@@ -2,7 +2,7 @@
 title: 'Однорукий бандит'
 level: 2
 author: 'перекладено з [Code Club UK](//codeclub.org.uk)'
-translator: 'Malin та Сергій'
+translator: 'Malin'
 language: ua
 ---
 
