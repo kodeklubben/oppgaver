@@ -54,10 +54,8 @@ language: ua
 
 - [ ] Розмістіть на сцені сценарій, який надсилає повідомлення космічному кораблю про початок польоту після натискання на зелений прапорець. Спробуйте свою гру. Чи зможете ви керувати космічним кораблем?
 
-- [ ] Vi skal gjøre en liten forandring i hvordan romskipet oppfører seg.
-  Asteroids foregår langt ute i rommet hvor det ikke er noen merkbar
-  tyngdekraft. Slett derfor klossen som modellerer tyngdekraften i `gjenta for
-  alltid`{.blockcontrol}-løkken din, `endre [fartY v] med (-0.01)`{.b}.
+- [ ] Ми збираємося внести невеликі зміни в поведінку космічного апарату. Астероїди знаходяться далеко в космосі, де немає помітної гравітації. Тому видаліть блок, який моделює гравітацію у вашому циклі `завжди`{.blockcontrol},
+`замінити [швидкістьY v] на (-0.01)`{.b}.
 
 - [ ] Vi skal også gjøre en litt større endring i spillet. Vi vil at
   verdensrommet skal føles litt stort og uoversiktlig ved at når romskipet går
