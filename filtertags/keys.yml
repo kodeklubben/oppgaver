@@ -3,6 +3,7 @@ language: #Logical OR
   - nn  # Norwegian nynorsk
   - en  # English
   - is  # Icelandic
+  - ua  # Ukrainian
   #  - sv  # Swedish
   #  - da  # Danish
   #  - hr  # Croatian
