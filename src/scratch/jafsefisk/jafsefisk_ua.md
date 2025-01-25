@@ -115,85 +115,73 @@ __Натисніть на зелений прапорець.__
 
 - [ ] Що робить `якщо на межі, відбити`{.b}? Видаліть цей блок і подивіться, що станеться.
 
-# Steg 3: Jafsefisk et byttet {.activity}
+# Крок 3: Акула їсть здобич {.activity}
 
-*No skal Jafsefisk ete byttet!*
+*Тепер нехай Акула з'їсть здобич!*
 
-Når Jafsefisk har fanga byttet i munnen skal to ting skje: Jafsefisk må lukke
-munnen og lage ein gomlelyd. Vidare må byttet forsvinne, og så dukke opp att ei
-lita stund seinare.
+Коли Акула спіймала здобич у роті, мають відбутися дві речі: Акула повинна закрити свій рот і зробити звук ковтання. Здобич повинна зникнути і з'явитися через деякий час.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Me startar med å la byttet forsvinne viss det kjem borti Jafsefisk, og så
-  kome tilbake etter `3` sekund. Bruk `rører [Jafsefisk v]?`{.b} for å sjekke
-  om byttet kjem borti Jafsefisk. Utvid skriptet på byttedyret slik:
+- [ ] Ми починаємо з того, що дозволяємо здобичі зникнути, якщо вона торкається Акули, а потім здобич повертається через `3` секунди. Використовуйте `торкається [Акула v]?`{.b} щоб перевірити, чи доторкнулася жертва до Акули. Розширте скрипт для здобичі таким чином:
 
   ```blocks
-  når @greenFlag vert trykt på
-  vis
-  gjenta for alltid
-      gå (2) steg
-      snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
-      viss ved kant, sprett
-      viss <rører [Jafsefisk v]?>
-          gøym
-          vent (3) sekund
-          vis
+  коли @greenFlag натиснуто
+  показати
+  завжди
+      перемістити на (2) кроків
+      поворот @turnLeft на (випадкове від (-20) до (20)) градусів
+      якщо на межі, відбити
+      якщо <торкається [Акула v]? то>
+          сховати
+          чекати (3) секунд
+          показати
+      slutt
+  slutt
+  ```
+## Протестуйте проект {.flag}
+
+__Натисніть на зелений прапорець.__
+
+- [ ] Зверніть увагу, що здобич зникає незалежно від того, якої частини Акули вона торкається.
+
+- [ ] Більше того, Акула може чекати лише 3 секунди, а потім з'їсти здобич, як тільки вона знову з'явиться, що не дуже чесно!
+
+## Контрольний список {.check}
+
+*Як зробити так, щоб здобич зникала лише тоді, коли торкнеться рота Акули? Ну, ми можемо використати `<торкається кольору  [#FFFFFF]?>`{.b} і подивитися, чи торкається здобич білих зубів риби.*
+
+- [ ] Додайте `<торкається кольору [#FFFFFF]?>`{.b} разом з `<торкається
+  [Акула v]?>`{.b} у ваш скрипт. Щоб вибрати білий колір, клацніть на колір у блоці, а потім на зуби риби.
+
+- [ ] Тепер ми можемо дозволити здобичі переміститися у довільну точку екрана, перш ніж вона знову з'явиться на екрані за допомогою `перемістити в x: (випадкове від (-220) до (220)) y:
+  (випадкове від (-170) до (170))`{.b} ми присвоюємо випадкові значення `x` та `y` здобичі.
+
+Ось як повинен виглядати сценарій здобичі:
+
+  ```blocks
+  коли @greenFlag натиснуто
+  показати
+  завжди
+      перемістити на (2) кроків
+      поворот @turnLeft на (випадкове від (-20) до (20)) градусів
+      якщо на межі, відбити
+      якщо <<торкається [Акула v]?> і <торкається кольору [#FFFFFF]?> то>
+          сховати
+          чекати (3) секунд
+          перемістити в x: (випадкове від (-220) до (220)) y: (випадкове від (-170) до (170))
+          показати
       slutt
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Протестуйте проект {.flag}
 
-__Klikk på det grøne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Legg merke til at byttet forsvinn uansett kor på Jafsefisk det er borti.
+- [ ] Чи зникає здобич тільки тоді, коли вона торкається зубів Акули?
 
-- [ ] Dessutan kan Jafsefisk berre vente tre sekund og så ete byttet i akkurat
-  når det dukkar opp att. Det er ikkje rettferdig!
-
-## Sjekkliste {.check}
-
-*Korleis kan me sikre at byttet berre forsvinn viss det kjem borti munnen til
-Jafsefisk. Me kan prøve `<rører fargen [#FFFFFF]?>`{.b} for å sjekke om
-byttedyret er borti det kvite på tennene til Jafsefisk.*
-
-- [ ] Legg til `<rører fargen [#FFFFFF]?>`{.b} i tillegg til `<rører
-  [Jafsefisk v]?>`{.b} i skriptet ditt. For å velje kvit klikkar du på farga i
-  klossen, og så på tennene til Jafsefisk.
-
-- [ ] No kan me la byttet flytte seg til ein tilfeldig stad på skjermen før det
-  dukkar opp att. Bruk `gå til x: (tilfeldig tal frå (-220) til (220)) y:
-  (tilfeldig tal frå (-170) til (170))`{.b} for å gi tilfeldige koordinatar for
-  `x` og `y`.
-
-Slik skal skriptet til byttedyret sjå ut:
-
-  ```blocks
-  når @greenFlag vert trykt på
-  gjenta for alltid
-      gå (2) steg
-      snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
-      viss ved kant, sprett
-      viss <<rører [Jafsefisk v]?> og <rører fargen [#FFFFFF]?>>
-          gøym
-          vent (3) sekund
-          gå til x: (tilfeldig tal frå (-220) til (220)) y: (tilfeldig tal frå (-170) til (170))
-          vis
-      slutt
-  slutt
-  ```
-
-## Test prosjektet {.flag}
-
-__Klikk på det grøne flagget.__
-
-- [ ] Forsvinn byttet berre når det kjem borti tennene på Jafsefisk?
-
-- [ ] Kjem det att ein tilfeldig stad på skjermen - altså ikkje same stad som
-  det vart borte?
-
+- [ ] Чи з'являється вона знову у випадковому місці на екрані - тобто не там, де була з'їдена?
 
 # Steg 4: Jafsefisk reagerer {.activity}
 
