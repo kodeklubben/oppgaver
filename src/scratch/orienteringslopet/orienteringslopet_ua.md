@@ -2,7 +2,7 @@
 title: Змаганння з орієнтування
 level: 2
 author: 'Thomas Kjeldahl Nilsson og Stein Olav Romslo'
-translator: 'Serhii Shumskyi'
+translator: 'Olha Pankiv, Serhii Shumskyi'
 language: ua
 ---
 
