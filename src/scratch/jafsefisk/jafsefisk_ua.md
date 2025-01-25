@@ -78,49 +78,42 @@ __Натисніть на зелений прапорець.__
   або на мале (наприклад `1`, або навіть `0`) що стається.
 
 
-# Steg 2: Legg til byttedyr {.activity}
+# Крок 2: Додайте здобич {.activity}
 
-*Det er på tide å gi Jafsefisk noko å ete!*
+*Настав час нагодувати Акулу чимось смачненьким!*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Legg til ein ny figur frå biblioteket ved å bruke `Dyr/Fish2`. Gi figuren
-  namnet `Byttedyr`.
+- [ ] Додайте нового персонажа з бібліотеки, обравши `Тварини/Fish`. Надайте персонажу імʼя `Здобич`.
 
-- [ ] Gjer figuren mindre ved å bruke krympeknappen
-  ![krymp](../bilder/krymp.png) som ligg over den raude stopp-knappen.
-
-- [ ] Få byttedyret til å bevege seg i tilfeldige retningar. Fyrst skal me la
-  det bevege seg litt framover, og så snu ein tilfeldig valt vinkel med eller
-  mot klokka, og så gjenta.
+- [ ] Змусьте здобич рухатися у випадкових напрямках. Спочатку ми дозволимо їй трохи просунутися вперед, потім повернемо на випадково обраний кут за годинниковою стрілкою або проти годинникової стрілки, а потім повторимо.
 
   ```blocks
-  når @greenFlag vert trykt på
-  gjenta for alltid
-      gå (2) steg
-      snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
-      viss ved kant, sprett
+  коли @greenFlag натиснуто
+  задати розмір (40)
+  завжди
+      перемістити на (2) кроків
+      поворот @turnLeft на (випадкове від (-20) до (20)) градусів
+      якщо на межі, відбити
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Протестуйте проект {.flag}
 
-__Klikk på det grøne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Svømmer byttedyret rundt slik du forventa?
+- [ ] Чи плаває здобич так, як ви очікували?
 
-- [ ] Ser rørslene naturlege ut?
+- [ ] Чи виглядають її рухи природно?
 
-*Til no har me ikkje laga noko samspel mellom Jafsefisk og byttedyret. Det skal
-me gjere i neste steg.*
+*Наразі Акула і здобич не взаємодіють один з одним. Ми зробимо щось з цим на наступному кроці.*
 
-## Ting å prøve {.challenge}
+## Речі, які варто спробувати {.challenge}
 
-- [ ] Prøv å forandre tala for `gå (2) steg`{.b} og `tilfeldig tal frå (-20)
-  til (20)`{.b}. Korleis forandrar det måten byttedyret beveger seg på?
+- [ ] Спробуйте змінити числа в `перемістити на (2) кроків`{.b} та `випадкове від (-20)
+  до (20)`{.b}. Як це змінює рухи здобичі?
 
-- [ ] Kva gjer `viss ved kant, sprett`{.b}? Fjern klossen og sjå kva som
-  skjer.
+- [ ] Що робить `якщо на межі, відбити`{.b}? Видаліть цей блок і подивіться, що станеться.
 
 # Steg 3: Jafsefisk et byttet {.activity}
 
