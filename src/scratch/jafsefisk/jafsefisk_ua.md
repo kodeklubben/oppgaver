@@ -72,7 +72,7 @@ __Натисніть на зелений прапорець.__
 За бажанням, ви можете змінити числа в скрипті і подивитися, як це змінює рухи.
 
 - [ ] Встановіть обмеження відстані на велике число (наприклад `100`), або на мале
-  (наприклад `1`) og sjå kva som skjer.
+  (наприклад `1`).
 
 - [ ] Встановіть кількість кроків, на які рухається Акула, на велике число (наприклад `20`)
   або на мале (наприклад `1`, або навіть `0`) що стається.
@@ -183,98 +183,85 @@ __Натисніть на зелений прапорець.__
 
 - [ ] Чи з'являється вона знову у випадковому місці на екрані - тобто не там, де була з'їдена?
 
-# Steg 4: Jafsefisk reagerer {.activity}
+# Крок 4: Акула реагує {.activity}
 
-*Jafsefisk må vite når den har ete noe slik at den kan gi frå seg ein lyd og
- bytte drakt.*
+*Акула повинна знати, коли вона щось з'їла, щоб видавати звуки і змінювати свій образ.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] For at Jafsefisk skal vite kva som skjer kan me la byttet `send meldinga
-  [Du tok meg! v]`{.b}, om at det har blitt ete, før det forsvinn.
+- [ ] Щоб Акула знала, що відбувається, ми можемо дозволити здобичі надсилати сповіщення `оповістити
+  [Ти з'їв мене! v]`{.b}, що її з'їли, перш ніж вона зникне.
 
   ```blocks
-  når @greenFlag vert trykt på
-  gjenta for alltid
-      gå (2) steg
-      snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar
-      viss ved kant, sprett
-      viss <<rører [Jafsefisk v]?> og <rører fargen [#FFFFFF]?>>
-          send meldinga [Du tok meg! v]
-          gøym
-          vent (3) sekund
-          gå til x: (tilfeldig tal frå (-220) til (220)) y: (tilfeldig tal frå (-170) til (170))
-          vis
+  коли @greenFlag натиснуто
+  показати
+  завжди
+      перемістити на (2) кроків
+      поворот @turnLeft на (випадкове від (-20) до (20)) градусів
+      якщо на межі, відбити
+      якщо <<торкається [Акула v]?> і <торкається кольру [#FFFFFF]?> то>
+          оповістити [Ти з'їв мене! v]
+          сховати
+          чекати (3) секунд
+          перемістити в x: (випадкове від (-220) до (220)) y: (випадкове від (-170) до (170))
+          показати
       slutt
   slutt
   ```
-
-No vil me at Jafsefisk skal reagere på meldinga ved å lage ein gomlelyd og
-klikke med kjevane.
+  
+Тепер ми хочемо, щоб Акула відреагувала на це повідомлення, зробивши звук ковтання і клацання щелепами.
 
 - [ ] Legg til drakta `Dyr/shark-a` og lyden `Effekter/bubbles` på Jafsefisk.
   Kall drakta `Lukka munn`.
 
-- [ ] Legg så til eit nytt skript til Jafsefisk slik at han kan svare på
-  meldinga `Du tok meg!` frå byttedyret. Dette skriptet gjer at fisken spelar
-  av boblelyden og `byt drakt til [Ope munn v]`{.b}-drakta, ventar litt og så
-  byttar tilbake.
+- [ ] Додайте новий скрипт до Акули, щоб вона могла реагувати на повідомлення `Ти з'їв мене!` від здобичі. Цей скрипт змушує Акулу відтворити звук укусу і зробити вигляд, наче вона кусає `змінити образ на [shark2-a v]`{.b}-drakta, трохи почекати, а потім переключитися назад.
 
   ```blocks
-  når eg får meldinga [Du tok meg! v]
-  start lyden [bubbles v]
-  gjenta (2) gongar
-      byt drakt til [Lukka munn v]
-      vent (0.5) sekund
-      byt drakt til [Ope munn v]
-      vent (0.5) sekund
+  коли я отримую [Ти з'їв мене! v]
+  відтворити звук [Bite v]
+  повторити (2)
+      змінити образ на [shark2-a v]
+      чекати (0.3) секунд
+      змінити образ на [shark2-b v]
+      чекати (0.3) секунд
   slutt
   ```
 
-No er Jafsefisk klar til å ete, så la oss fylle havet med byttedyr.
+Тепер Акула готова їсти, тож давайте наповнимо море здобиччю.
 
-- [ ] Høgreklikk på byttedyret og vel `lag kopi` til du føler at du har fått
-  nok fisk.
+- [ ] Клацніть правою кнопкою миші на здобич і виберіть `дублювати`, доки не відчуєте, що маєте достатньо риби.
 
-## Test prosjektet {.flag}
+## Протестуйте проект {.flag}
 
-__Klikk på det grøne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Et Jafsefisk byttet?
+- [ ] Чи їсть Акула свою здобич?
 
-- [ ] Et den alle byttedyra?
+- [ ] Чи з'їдає вона всю здобич?
 
-## Noko å tenke på {.protip}
+## Дещо для роздумів {.protip}
 
-Kvifor bør me leggje til `vis`{.b} i starten av skriptet til byttedyret? Tenk på
-kva som vil skje om byttet blir ete opp og spelet stoppar før det dukkar opp
-att. Og kva skjer om me så startar spelet att?
+Чому ми повинні додати `показати`{.b} на початку скрипта для здобичі? Подумайте, що станеться, якщо здобич буде з'їдена, а гра зупиниться до того, як вона знову з'явиться. І що станеться, якщо гру перезапустити?
 
-## Lagre prosjektet {.save}
+## Збережіть свій проект {.save}
 
-__Godt gjort!__ Du har i grunn fullført spelet! Men det finst fleire
-moglegheiter for å utvide spelet. Er du klar for ei utfordring?
+__Молодець!__ Ви практично завершили гру! Але є кілька можливостей для розширення гри. Чи готові ви до виклику?
 
-## Utfordring 1: Forandre rørslene til byttedyra {.challenge}
+## Виклик 1: Змінити рух здобичі {.challenge}
 
-No beveger alle byttedyra seg likt. __Kan du få eitt av dei til å
-bevege seg annleis?__
+Наразі всі здобичі рухаються однаково. __Чи можете ви змусити одну з них рухатися інакше?__ 
 
-__Hint:__ Ikke bruk for lang tid på denne oppgåva utan å sjå på dei andre
-utfordringane.
+__Підказка:__ Не витрачайте занадто багато часу на це завдання, не подивившись на інші завдання цього проекту.
 
-__Vel eit byttedyr å eksperimentere med.__ Viss dei har same drakt, bytt farge
-med `set [farge v]-effekt til (0)`{.b}. Slik kan du ser skilnad på dette frå
-dei andre byttedyra. Prøv å få dette byttedyret til å bevege seg saktare enn dei
-andre.
+__Виберіть рибу-здобич для експерименту.__ Якщо у них усіх однаковий вигляд, то змініть колір `встановити ефект [колір v]- в (0)`{.b}. Так ви можете відрізнити її від решти здобичі. Тепер спробуйте змусити цю здобич рухатися повільніше, ніж інші.
 
-__Hint:__ Sjå på klossen `gå (2) steg`{.b}.
+__Підказка:__ Подивіться на блок `перемістити на (2) кроків`{.b}.
 
-## Test prosjektet {.flag}
+## Протестуйте проект {.flag}
 
-__Klikk på det grøne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Beveger byttet seg saktare? Gjer dette spelet betre?
+- [ ] Чи рухається здобич повільніше? Чи робить це гру кращою?
 
 - [ ] Viss du klarte dette, prøv å gjere eit av byttedyra __raskere__ enn dei
   andre.
