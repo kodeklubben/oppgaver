@@ -47,24 +47,22 @@ language: ua
 
 __Натисніть на зелений прапорець.__
 
-- [ ] Flytt musepeikaren rundt i sjøen. Følgjer fisken etter?
+- [ ] Перемістіть вказівник миші навколо водойми. Чи слідує Акула за вказівником?
 
-- [ ] Kva skjer viss du ikkje flyttar musepeikaren og fisken når den att?
-  Korleis ser den ut? Kvifor gjer den dette?
+- [ ] Що станеться, якщо ви не відведете вказівник миші, а Акула знову його досягне? На що це схоже? Чому вона це робить?
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Du kan stoppe flippinga til Jafsefisk viss du syt for at den berre
-  flyttar seg når den ikkje er for nær musepeikaren
-  (`avstand til [musepeikar v]`{.b} ligg i
-  `Sansing`{.blocksensing}-kategorien).
+- [ ] Ви можете зупинити перевертання Акули, якщо переконаєтеся, що вона рухається лише тоді, коли не знаходиться надто близько до вказівника миші 
+  (`відстань до [вказівник v]`{.b} знаходиться в категорії `Датчики`.
 
   ```blocks
-  når @greenFlag vert trykt på
-  gjenta for alltid
-      viss <(avstand til [musepeikar v]) > [10]>
-          peik mot [musepeikar v]
-          gå (3) steg
+  коли @greenFlag натиснуто
+  змінити образ на [shark2-b v]
+  завжди
+      якщо <(відстань до [вказівник v]) > [10] то>
+          слідувати за [вказівник v]
+          перемістити на (3) кроків
       slutt
   slutt
   ```
