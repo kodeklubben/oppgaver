@@ -67,16 +67,15 @@ __Натисніть на зелений прапорець.__
   slutt
   ```
 
-## Ting å prøve {.challenge}
+## Речі, які варто спробувати {.challenge}
 
-Viss du vil kan du forandre tala i skriptet, og sjå korleis det forandrar
-rørslene.
+За бажанням, ви можете змінити числа в скрипті і подивитися, як це змінює рухи.
 
-- [ ] Set avstandsgrensa til eit stort tal (til dømes `100`), eller eit lite tal
-  (til dømes `1`) og sjå kva som skjer.
+- [ ] Встановіть обмеження відстані на велике число (наприклад `100`), або на мале
+  (наприклад `1`) og sjå kva som skjer.
 
-- [ ] Set talet på steg fisken flyttar seg til eit stort tal (til dømes `20`)
-  eller eit lite tal (til dømes `1`, eller til og med `0`) og sjå kva som skjer.
+- [ ] Встановіть кількість кроків, на які рухається Акула, на велике число (наприклад `20`)
+  або на мале (наприклад `1`, або навіть `0`) що стається.
 
 
 # Steg 2: Legg til byttedyr {.activity}
