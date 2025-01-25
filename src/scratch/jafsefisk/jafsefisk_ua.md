@@ -1,46 +1,38 @@
 ---
-title: Jafsefisk
+title: Акула
 level: 2
 author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Stein Olav Romslo'
-language: nn
+translator: 'Vitalii'
+language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-No skal me lage eit spel som heiter Jafsefisk! Målet i spelet er å hjelpe
-Jafsefisk med å ete alle byttedyra som svømmer rundt i havet.
+Зараз ми створимо гру про Акулу! Мета гри - допомогти Акулі з'їсти всю здобич, що плаває в морі.
 
 ![Illustrasjon av eit ferdig Jafsefisk-spel](jafsefisk.png)
 
 
-# Steg 1: Jafsefisk følgjer musepeikaren {.activity}
+# Крок 1: Акула слідує за вказівником миші {.activity}
 
-*Fyrst skal me lage Jafsefisk som svømmer rundt i havet!*
+*Спершу ми змусимо Акулу плавати!*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Start eit nytt Scratch-prosjekt.
+- [ ] Почніть новий проект у Scratch.
 
-- [ ] Du får __riktig bakgrunn__ ved å velje `Scene` og så `Bakgrunner`-fana.
-  Importer bakgrunnen `Natur/underwater3` ved å velje ![Vel ein ferdig
-  bakgrunn](../bilder/bakgrunn-fra-bibliotek.png). Så slettar du den
-  opphavlege bakgrunnen `backdrop1`.
+- [ ] Щоб отримати потрібне тло, натисніть ![Vel drakt
+  frå biblioteket](../bilder/hent-fra-bibliotek.png).  у правому нижньому куті екрана. Виберіть фон Під водою/underwater2.
 
-- [ ] Endre namnet på katten til `Jafsefisk` ved å klikke på den og så på det
-  blå `i`{.blockmotion}-symbolet.
+- [ ] Видаліть початкового персонажа і додайте нового, натиснувши  ![Vel drakt
+  frå biblioteket](../bilder/hent-fra-bibliotek.png). і обравши `Тварини/Shark 2`.
+  Назвіть персонажа `Акула`.
 
-- [ ] Gi figuren ei haidrakt ved å gå til `Drakter`-fana og velje ![Vel drakt
-  frå biblioteket](../bilder/hent-fra-bibliotek.png). Vel drakta `Dyr/shark-b`.
-  Kall drakta `Ope munn`. Så slettar du kattedraktene på figuren.
+- [ ] Переконайтеся, що персонаж може рухатися тільки з боку в бік, вибравши режим обертання
+  ![Høgre/Venstre](../bilder/rotasjonsmate-hv-ua.png).
 
-- [ ] Klikk på det blå `i`{.blockmotion}-symbolet att, og pass på at figuren
-  berre kan bevege seg frå side til side ved å velje rotasjonsmåte
-  ![Høgre/Venstre](../bilder/rotasjonsmate-hv.png).
-
-- [ ] Få fisken til å følgje musepeikaren rundt i sjøen ved å lage dette
-  skriptet:
+- [ ] Змусьте Акулу слідувати за вказівником миші, створивши
 
   ```blocks
   når @greenFlag vert trykt på
