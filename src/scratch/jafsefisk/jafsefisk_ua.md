@@ -26,25 +26,26 @@ language: ua
   frå biblioteket](../bilder/hent-fra-bibliotek.png).  у правому нижньому куті екрана. Виберіть фон Під водою/underwater2.
 
 - [ ] Видаліть початкового персонажа і додайте нового, натиснувши  ![Vel drakt
-  frå biblioteket](../bilder/hent-fra-bibliotek.png). і обравши `Тварини/Shark 2`.
+  frå biblioteket](../bilder/hent-fra-bibliotek.png) і обравши `Тварини/Shark 2`.
   Назвіть персонажа `Акула`.
 
 - [ ] Переконайтеся, що персонаж може рухатися тільки з боку в бік, вибравши режим обертання
   ![Høgre/Venstre](../bilder/rotasjonsmate-hv-ua.png).
 
-- [ ] Змусьте Акулу слідувати за вказівником миші, створивши
+- [ ] Змусьте Акулу слідувати за вказівником миші, створивши цей скрипт
 
   ```blocks
-  når @greenFlag vert trykt på
-  gjenta for alltid
-      peik mot [musepeikar v]
-      gå (3) steg
+  коли @greenFlag натиснуто
+  змінити образ на [shark2-b v]
+  завжди
+      слідувати за [вказівник v]
+      перемістити на (3) кроків
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Протестуйте проект {.flag}
 
-__Klikk på det grøne flagget.__
+__Натисніть на зелений прапорець.__
 
 - [ ] Flytt musepeikaren rundt i sjøen. Følgjer fisken etter?
 
