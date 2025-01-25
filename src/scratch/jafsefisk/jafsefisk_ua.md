@@ -263,109 +263,83 @@ __Натисніть на зелений прапорець.__
 
 - [ ] Чи рухається здобич повільніше? Чи робить це гру кращою?
 
-- [ ] Viss du klarte dette, prøv å gjere eit av byttedyra __raskere__ enn dei
-  andre.
+- [ ] Якщо вам вдалося це зробити, спробуйте зробити одну з жертв __швидшою за інших.__
 
-- [ ] Beveger byttedyra seg på ein fornuftig måte? Gjer desse forandringane
-  spelet betre?
+- [ ] Чи рухається здобич у розумний спосіб? Чи роблять ці зміни гру кращою?
 
-  __Hint:__ Viss byttet ditt svømmer rundt i sirklar, sjekk verdiane i `snu @turnLeft (tilfeldig tal frå (-20) til (20)) gradar`{.b}.
+  __Підказка:__ Якщо ваша здобич плаває колами, перевірте значення у полі  `поворот @turnLeft на (випадкове від (-20) до (20)) градусів`{.b}.
 
-- [ ] Kva viss du let alle byttedyra bevege seg ulikt ved å bruke ulike
-  kombinasjonar av desse rørslene?
+- [ ] Що, якщо дозволити здобичі рухатися по-різному, використовуючи різні комбінації цих рухів?
 
-- [ ] Gjer nokre av desse forandringane spelet betre? Gjer dei spelet meir
-  interessant, morosamt, vanskelegare eller lettare? Er noko av dette betre,
-  synest du?
+- [ ] Чи роблять якісь із цих змін гру кращою? Вони роблять гру цікавішою, веселішою, складнішою чи легшою? Як ви вважаєте, які з них кращі?
 
-## Utfordring 2: Hjelp byttet å unngå Jafsefisk {.challenge}
+## Виклик 2: Допоможіть здобичі уникнути Акули {.challenge}
 
-Byttedyrene i dette spelet er skikkeleg dumme! De svømmer berre tilfeldig rundt
-til dei blir etne. Ekte fisk svømmer vekk frå rovfiskane. No vil me __la eitt av
-byttedyra svømme vekk frå Jafsefisk.__
+Здобич у цій грі дуже дурна! Вона просто плаває навмання, поки її не з'їдять. Справжні риби тікають від хижих риб. Зараз ми __дозволимо одній з жертв втекти від Акули.__
 
-Det finst ingen kloss i Scratch som kan gi oss retningen vekk frå ein annan
-figur. Men du kan få en figur til å snu seg i retninga mot ein annen, og så la
-den snu seg i motsett retning. Klossane du treng er i
-`Rørsle `{.blockmotion}-kategorien.
+У Scratch немає блоку, який би вказував нам напрямок руху від іншого персонажа. Але ви можете змусити одного персонажа повернутися в напрямку іншого, а потім змусити його повернутися в протилежному напрямку. Блоки, які вам потрібні, знаходяться у категорії `Рух `{.blockmotion}.
 
-Prøv å hjelpe eitt av byttedyra med å __snu seg vekk frå Jafsefisk__. La den
-også virre litt mens den svømmer bort! Du vil kanskje oppdage at byttet set seg
-fast i eit hjørne? Kanskje vil du berre at byttet skal flykte viss Jafsefisk
-kjem for nære? __Hint:__ Sjå tilbake på korleis me brukte `(avstand til
-[musepeikar v])`{.b} tidlegare i spelet.
+Тепер спробуйте допомогти одній рибі __відвернутися від Акули.__. Крім того, нехай вона трохи поворушиться, відпливаючи! Ви ймовірно можете помітити, що здобич застрягла в кутку? Ви можете помітити, що здобич хоче втекти лише тоді, коли Акула підпливе надто близько? __Підказка:__ Згадайте, як ми використовували `(відстань до
+[вказівник v])`{.b} на початку гри.
 
-## Test prosjektet {.flag}
+## Протестуйте проект {.flag}
 
-__Klikk på det grøne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Gjør dette at fisken blir vanskelegare å ta? Gjer det spelet betre?
+- [ ] Чи робить це полювання складнішим? Чи робить це гру кращою?
 
-## Utfordring 3: Legg til poeng {.challenge}
+## Виклик 3: Додайте бали {.challenge}
 
-Det er ikkje nok å berre ete fisk. Korleis vet du at du er ein betre spelar enn
-venene dine? Du må kunne __samle poeng__, så la oss leggje til __ei
-poengtavle.__ Lag ein variabel som heiter `(poeng)`{.b}, og endre denne når
-Jafsefisk et. Pass på at poenga går tilbake til null når spelet startar. Kor
-skal du leggje inn desse endringane?
+Недостатньо просто їсти рибу. Як дізнатися, що ти кращий гравець, ніж твої друзі? Для цього потрібно вміти набирати очки, тож давайте додамо табло. Створіть змінну з назвою `(Бали)`{.b}, і змінюйте її, коли Акула їсть. Переконайтеся, що бали повертаються до нуля на початку гри. Куди потрібно внести ці зміни?
 
-## Test prosjektet {.flag}
+## Протестуйте проект {.flag}
 
-__Klikk på det grøne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Går poengsummen opp kvar gong Jafsefisk et byttedyr?
+- [ ] Чи збільшується рахунок щоразу, коли Акула з'їдає здобич?
 
-- [ ] Går den tilbake til null når spelet startar?
+- [ ] Чи повертається він до нуля, коли гра починається?
 
-## Utfordring 4: Legg til ei nedtelling {.challenge}
+## Виклик 4: Додайте зворотний відлік {.challenge}
 
-Gi deg sjølv __ein tidsfrist__. Kor mange fisk kan du ete på `30` sekund?
+Встановіть собі __дедлайн__. Скільки риби ви можете з'їсти за 30 секунд?
 
-Legg til ein ny variabel, `(tid)`{.b}. Lag eit nytt skript som set variabelen
-til til dømes `30`, for så å endre denne med `-1`, vente eitt sekund, og endre
-att, heilt til den når null. Til slutt kan du bruke ein `stopp [alle
-v]`{.b}-kloss for å avslutte spelet.
+Додайте нову змінну, `(Час)`{.b}. Створіть новий скрипт, який встановлює змінну, наприклад, на 30, потім змінює її на -1, чекає 1 секунду і знову змінює її, поки вона не досягне нуля. Нарешті, ви можете скористатися блоком `зупинити [все
+v]`{.b}-kloss щоб завершити гру.
 
-## Test prosjektet {.flag}
+## Протестуйте проект {.flag}
 
-__Klikk på det grøne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Startar tidtakaren på 30?
+- [ ] Чи починається таймер на 30?
 
-- [ ] Tel den ned med rett hastigheit?
+- [ ] Чи він відраховує час з правильною швидкістю?
 
-- [ ] Kan du fange fisk når tida tel ned?
+- [ ] Чи можна ловити рибу під час зворотного відліку часу?
 
-- [ ] Stoppar spelet når teljaren når null?
+- [ ] Чи зупиняється гра, коли лічильник досягає нуля?
 
-## Utfordring 5: Legg til bonuspoeng {.challenge}
+## Виклик 5: Додайте бонусні бали {.challenge}
 
-Legg til ei belønning med mange bonuspoeng om du klarar å ete alle fiskane
-samstundes. Korleis kan du vite hvor mange som er etne?
+Додайте винагороду з великою кількістю бонусних балів, якщо вдасться з'їсти всю рибу одночасно. Як визначити, скільки рибок було з'їдено?
 
-__Hint:__ Ein måte å gjere dette på er å bruke ein variabel for å __telje__ kor
-mange byttedyr som svømmer i havet.
+__Підказка:__ Один із способів зробити це - використати змінну для підрахунку кількості здобичі, що плаває в океані.
 
-## Test prosjektet {.flag}
+## Протестуйте проект {.flag}
 
-__Klikk på det grøne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Får du bonuspoeng for å ete opp alle fiskane?
+- [ ] Чи отримуєте ви бонуси за те, що з'їли всю рибу?
 
-## Utfordring 6: Forandre spelet: Hald byttedyra i live! {.challenge}
+## Виклик 6: Змінити правила гри: Збережіть здобич живою! {.challenge}
 
-Av og til kan ein få glimrande nye idear ved å gjere det motsette av det ein
-allereie har gjort.
+Іноді ви можете знайти чудові нові ідеї, роблячи протилежне тому, що ви вже робили.
 
-Endre spelet slik at du i staden __kontrollerer eit byttedyr__ i eit hav med
-__mange Jafsefiskar__. Kor lenge kan du halde det gåande før du blir ete? I
-staden for å bruke poeng kan du telje liv. Kva med å gi byttedyret `3` liv og
-avslutte spelet når dei er brukt opp?
+Змініть гру так, щоб замість цього ви керували здобиччю в морі з безліччю Акул. Як довго ви зможете протриматися, перш ніж вас з'їдять? Замість того, щоб використовувати очки, ви можете рахувати життя. Як щодо того, щоб дати здобичі 3 життя і закінчити гру, коли вони закінчаться?
 
-## Lagre prosjektet {.save}
+## Збережіть свій проект {.save}
 
-__Godt gjort, du er ferdig! No kan du nyte spelet ditt!__
+__Молодець, ти впорався! Тепер ти можеш насолоджуватися грою!__
 
-Ikkje gløym at du kan dele spelet med alle venene og familien din ved å klikke
-på `Legg ut` i topp-menyen!
+Не забувай, що ти можете поділитися своєю грою з друзями та родиною, натиснувши кнопку "Поділитись" у верхньому меню!
 
