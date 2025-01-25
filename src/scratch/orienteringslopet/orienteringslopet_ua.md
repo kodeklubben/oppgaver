@@ -23,7 +23,7 @@ language: ua
 ## Контрольний перелік {.check}
 
 - [ ] Перейдіть за посиланням:
-  [https://scratch.mit.edu/projects/261157815](https://scratch.mit.edu/projects/261157815){target=_blank}.
+  https://scratch.mit.edu/projects/261157815{target=_blank}.
 
 - [ ] Перегляньте проект і натисніть кнопку Ремікс.
 
@@ -36,7 +36,7 @@ language: ua
 Почніть вводити код під блоком `Коли я отримую start-figuren`{.blockevents},
 як показано на малюнку:
 
-![Зображенння з кодом в проекті](kode.png)
+![Зображенння з кодом в проекті](kode_ua.png)
 
 ## Контрольний перелік {.check}
 
