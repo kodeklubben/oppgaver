@@ -2,7 +2,7 @@
 title: Акула
 level: 2
 author: 'Omsett frå [Code Club UK](//codeclub.org.uk)'
-translator: 'Vitalii'
+translator: 'Віталій'
 language: ua
 ---
 
