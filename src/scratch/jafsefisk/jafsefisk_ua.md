@@ -22,8 +22,7 @@ language: ua
 
 - [ ] Почніть новий проект у Scratch.
 
-- [ ] Щоб отримати потрібне тло, натисніть ![Vel drakt
-  frå biblioteket](../bilder/hent-fra-bibliotek.png).  у правому нижньому куті екрана. Виберіть фон Під водою/underwater2.
+- [ ] Щоб отримати потрібне тло, натисніть ![Velg en ferdig bakgrunn](../bilder/velg-bakgrunn.png).  у правому нижньому куті екрана. Виберіть фон Під водою/underwater2.
 
 - [ ] Видаліть початкового персонажа і додайте нового, натиснувши  ![Vel drakt
   frå biblioteket](../bilder/hent-fra-bibliotek.png) і обравши `Тварини/Shark 2`.
