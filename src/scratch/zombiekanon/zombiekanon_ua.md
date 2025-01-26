@@ -32,38 +32,34 @@ language: ua
 
 *Створіть код, який дозволить вам керувати гарматою за допомогою клавіш зі стрілками.*
 
-Begynn å legge inn kode under klossen `Når pil høyre trykkes`{.blockevents}.
-Etterpå gjør du tilsvarende for pil venstre.
+Почніть вводити код під блоком після того, як `натиснете стрілку праворуч`{.blockevents}.
+Згодом зробіть те саме для лівої стрілки.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Hva må skje når pil høyre trykkes?
+- [ ] Що повинно статися, коли натиснута стрілка вправо?
 
-- [ ] Prøv å justere hvor raskt kanonen snus.
+- [ ] Спробуйте налаштувати швидкість обертання гармати.
 
-## Tips {.tip}
+## Підказки {.tip}
 
-I Scratch er retning 0 grader rett opp, og videre følger rotasjonen klokka. Det
-betyr at 90 grader er rett til høyre, 180 grader nedover, 270 grader rett til
-venstre, og 360 er hele runden og retning rett opp igjen. Du finner blokker med
-`Snu`{.blockmotion} og en pil mot høyre eller mot venstre. Disse vil henholdsvis
-legge til og trekke fra grader på retningen.
+У Scratch початковий напрямок – 0 градусів прямо вгору, а потім обертання відбувається за годинниковою стрілкою. Це означає, що 90 градусів – це прямо праворуч, 180 градусів – донизу, 270 градусів – прямо ліворуч, а 360 – це повний оберт і напрямок знову прямо вгору. Ви знайдете блоки з кнопкою `Повернути`{.blockmotion} і стрілкою праворуч або ліворуч. Вони відповідно додають і віднімають градуси до напрямку.
 
-# Steg 3: Få kanonen til å skyte automatisk {.activity}
+# Крок 3: Зробіть так, щоб гармата стріляла автоматично {.activity}
 
-*Lag kode som gjør at kanonen skyter zombiene automatisk.*
+*Створіть код, який змусить гармату автоматично стріляти по зомбі.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Hvordan kan kanonen vite hvor zombiene er?
+- [ ] Звідки гармата знає, де знаходяться зомбі?
 
-## Test prosjektet {.flag}
+## Протестувати проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ]  Fungerer koden?
+- [ ]  Чи працює код?
 
-## Lagre prosjektet {.save}
+## Зберегти проєкт {.save}
 
-Veldig bra! Nå er du ferdig og kan kose deg med spillet du har laget!
+Дуже добре! Тепер ви закінчили і можете насолоджуватися грою, яку ви створили!
 
