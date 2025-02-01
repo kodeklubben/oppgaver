@@ -51,38 +51,38 @@ language: "ua"
 чекати (1) секунду
 ```
 
-hektet på under `si`{.blocklooks}-klossen.
-- [ ] Hva skjer om du flytter `vent`{.blockcontrol}-klossen over `si`{.blocklooks}-klossen og endrer ventetiden til for eksempel 3 sekunder i stedet for 1?
+Змінити блок `говорити`{.blocklooks}.
+- [ ] Що станеться, якщо перемістити блок `чекати`{.blockcontrol} над блоком `говорити`{.blocklooks} і змінити час очікування, наприклад, на 3 секунди замість 1?
 
-## Test prosjektet {.flag}
+## Тестуйте проект {.flag}
 
-**Klikk på det grønne flagget.**
+**Натисніть на зелений прапорець.**
 
-- [ ] Test den nye koden din. Hva skjer nå? Noter ned det du observerer, eller diskuter med en medelev.
-- [ ] Snakker de tre snømennene samtidig nå?
+- [ ] Перевірте свій новий код. Що відбувається далі? Запишіть те, що ви спостерігаєте, або обговоріть це з однокласником.
+- [ ] Чи розмовляють три сніговики одночасно?
 
 
-# Steg 2: Klar, ferdig, smelt! {.activity}
+# Крок 2: Готово, увага, танути! {.activity}
 
-Basert på det vi oppdaget på steg 1, er vi nå klare for å løse den første bug-en i koden vår: Snømennene skal si "Klar", "Ferdig", "Smelt!" i tur og orden.
+На основі того, що ми виявили на кроці 1, ми готові виправити першу помилку в нашому коді: Сніговики повинні по черзі говорити «Готово», «Увага», «Танути!».
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Snømann 1 skal si "Klar" i det du trykker på grønt flagg.
+- [ ] Сніговик 1 повинен сказати «Готово», коли ви натиснете на зелений прапорець.
 
-- [ ] Snømann 2 skal si "Ferdig" etter at snømann 1 har sagt "Klar"
+- [ ] Сніговик 2 повинен сказати «Увага» після того, як сніговик 1 скаже «Готово»
 
-- [ ] Snømann 3 skal si "Smelt!" etter at snømann 2 har sagt "Ferdig"
+- [ ] Сніговик 3 повинен сказати «Танути!» після того, як сніговик 2 скаже «Увага» 
 
-Du trenger å sette inn klossen `vent`{.blockcontrol} hos Snømann 2 og 3, og legge den inn over `si`{.blocklooks}-klossen, slik:
+Вам необхідно вставити оператор очікування для Сніговиків 1 і 2, розмістити це перед оператором говорити, подібно до:
 
 ```blocks
-vent (1) sekunder
-si [Ferdig] i (2) sekunder
+чекати (1) секунду
+говорити [Готово] (2) сек
 ```
-- [ ] Fjern `vent`{.blockcontrol}-klossen hos Snømann 1
+- [ ] Приберіть блок `чекати`{.blockcontrol} для Сніговіка 1
 
-- [ ] Hvor lenge må Snømann 2 og Snømann 3 vente før de får si ordet sitt?
+- [ ] Як довго Сніговику 2 і Сніговику 3 доведеться чекати, перш ніж вони скажуть своє слово?
 
 ## Test prosjektet {.flag}
 
