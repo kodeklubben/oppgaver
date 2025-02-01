@@ -120,63 +120,63 @@ language: "ua"
 
 - [ ] Чи можете ви налаштувати співвідношення між кількістю `повторити`{.blockevents}, `ghost`{.blocklooks} ефектом і `чекати`{.blockcontrol}, щоб отримати більш плавну анімацію танення?
 
-## Test prosjektet {.flag}
-Noter svarene i en notatblokk eller diskuter med en medelev.
+## Тестуйте проект {.flag}
+Запишіть відповіді в зошит або обговоріть їх з однокласником.
 
-- [ ] Smelter Snømann 1 helt bort?
+- [ ] Чи повністю розтанув Сніговик 1?
 
-- [ ] Ser smelteanimasjonen grei ut? Går den passe fort, og med jevnt tempo helt til snømannen er borte?
+- [ ] Чи добре виглядає анімація танення? Чи рухається вона з правильною швидкістю і в постійному темпі, поки сніговик не зникне?
 
-- [ ] Hva er det som ikke fungerer som det skal hittil?
+- [ ] Що поки що не працює належним чином?
 #
 
-# Steg 4: Siste justeringer {.activity}
-Når du har kommet så langt i oppgaven, skal de tre snømennene si "Klar, ferdig, smelt!" i tur og orden, og snømann 1 smelter helt bort. Men vi er ikke helt i mål enda. Oppgaven er at de tre snømennene skal smelte samtidig *etter* at de har sagt "Klar, ferdig, smelt!" - og der er vi ikke helt i mål enda.
+# Крок 4: Остаточне коригування {.activity}
+Коли ви зайдете так далеко у виконанні завдання, три сніговики повинні по черзі сказати «Готово, увага, танути!», і сніговик 1 розтане повністю. Але ми ще не дійшли до кінця. Завдання полягає в тому, щоб три сніговики розтанули одночасно після того, як вони скажуть «Готово, увага, танути!». - і ми ще не досягли цього.
 
-## Sjekkliste {.check}
-- [ ] Kopier `gjenta`{.blockcontrol}-løkka over til Snømann 2 og 3.
-- [ ] Du ser at Snømann 2 har en algoritme som skal starte `Når denne figuren klikkes`{.blockevents}. Du kan slette hele den algoritmen nå.
-- [ ] For å sørge for at alle snømennene smelter samtidig, må du legge til en `vent`{.blockcontrol}-kloss over `gjenta`{.blockcontrol}-løkka til hver enkelt snømann. Snømann 1 må vente lengre enn de to andre før han starter på `gjenta`{.blockcontrol}-løkka, men hvor lenge må han vente?
-- [ ] Et hint er at han må vente helt til Snømann 3 har sagt "Smelt!"
-- [ ] Til slutt rydder vi opp ved å legge `Sett størrelse`{.blocklooks}-klossen øverst i `Når grønt flagg klikkes`{.blockevents}-algoritmen på alle figurene, sletter eventuelt ubrukte klosser og ser over en siste gang for å sjekke at koden er i orden på alle de tre snømennene.
-
-## Test prosjektet {.flag}
-- [ ] Sier de tre snømennene hvert sitt ord i tur og orden?
-
-- [ ] Smelter de bort samtidig og blir helt borte?
-
-- [ ] Blir alle tre snømennene like store og synlige igjen hver gang du trykker på grønt flagg?
+## Контрольний список {.check}
+- [ ] Скопіюйте цикл `повторити`{.blockcontrol} для Сніговиків 2 і 3.
+- [ ] Ви бачите, що Сніговик 2 має алгоритм, який повинен запускатися `Коли клацають на цій фігурі`{.blockevents}. Тепер ви можете видалити весь алгоритм.
+- [ ] Щоб гарантувати, що всі сніговики розтануть одночасно, вам потрібно додати блок `чекати`{.blockcontrol} над блоком  `повторити`{.blockcontrol} для кожного сніговика. Сніговику 1 доведеться чекати довше, ніж іншим двом, перш ніж він почне виконувати цикл `повторити`{.blockcontrol} але як довго йому доведеться чекати?
+- [ ] Одна з підказок полягає в тому, що він повинен дочекатися, поки Сніговик 3 не скаже «Танути!».
+- [ ] Нарешті, ми наведемо лад, додавши блок `задати розмір`{.blocklooks} у верхній частині алгоритму `коли grønt flagg натиснуто`{.blockevents} на всіх фігурах, видалимо всі невикористані блоки і востаннє перевіримо, чи все в порядку з кодом на всіх трьох сніговиках.
 
 
-Hvis svaret på hvert av de tre spørsmålene er "Ja": Gratulerer, du har klart å fikse alle bugs-ene i koden!
+## Тестуйте проект {.flag}
+- [ ] Чи вимовляють три сніговика кожне слово по черзі?
 
-Her er et forslag til hvordan koden til Snømann 1 kan se ut når du er ferdig:
+- [ ] Чи тануть вони одночасно і зникають повністю?
+
+- [ ] Чи всі три сніговика стають однакового розміру і знову з'являються на екрані щоразу, коли ви натискаєте на зелений прапорець?
+
+
+Якщо відповідь на кожне з трьох питань «Так»: Вітаємо, вам вдалося виправити всі помилки у коді!
+
+Ось приклад того, як може виглядати код для Сніговика 1, коли ви закінчите:
 
 ```blocks
-Når grønt flagg klikkes
-sett størrelse til [100]%
-si [Klar] i (2) sekunder
-vent (4) sekunder
-gjenta (4) ganger
-endre [ghost v] effekt med (25)
-vent (1) sekunder
-endre størrelse med (-10)
+коли grønt flagg натиснуто
+задати розмір [100]
+говорити [Готово] (2) сек
+чекати (4) секунд
+повторити (4)
+змінити ефект [ghost v] на (25)
+чекати (1) секунд
+змінити розмір на (-10)
 ```
 
-## Utfordring {.challenge}
+## Завдання {.challenge}
 
-Animasjonene og funksjonaliteten i dette lille programmet er jo ganske enkle.
+Анімація та функціональність цієї маленької програми досить прості.
 
-Her er noen tips til ting du kan prøve for å gi programmet litt mer kompleksitet:
-- [ ] Lag en algoritme som får snømennene til å gå frem og tilbake på skjermen mens de snakker.
+Ось кілька порад щодо того, що можна спробувати зробити, щоб додати програмі трохи більше складності:
+- [ ] Створіть алгоритм, який змусить сніговиків ходити туди-сюди по екрану під час розмови.
 
-- [ ] Bytt ut "klar, ferdig, smelt!" med en dialog der snømennene for eksempel snakker sammen om hvor varmt det begynner å bli
+- [ ] Замініть команду «Готово, увага, танути!» діалогом, в якому сніговики, наприклад, разом говорять про те, як потеплішало.
 
-- [ ] Få snømennene til å si "Hjelp, jeg smelter!" når ghost-effekten begynner.
+- [ ] Попросіть сніговиків сказати «Допоможіть, я тану!», коли почнеться ефект привидів.
 
-Lykke til!
+Удачі!
 #
 
-Når du er ferdig kan du klikke på "Legg ut"-knappen. Da vil det bli lagt ut på Scratch-hjemmesiden din slik at du enkelt
-kan dele det med familien og vennene dine.
+Коли закінчите, натисніть кнопку "Опублікувати".Після цього його буде опубліковано на вашому веб-сайті Scratch, і ви зможете легко поділитися ним з родиною та друзями.
 
