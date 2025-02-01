@@ -84,40 +84,41 @@ language: "ua"
 
 - [ ] Як довго Сніговику 2 і Сніговику 3 доведеться чекати, перш ніж вони скажуть своє слово?
 
-## Test prosjektet {.flag}
+## Тестуйте проект {.flag}
 
-**Klikk på det grønne flagget for å teste koden så langt.**
+**Натисніть на зелений прапорець для тестування коду**
 
-Besvar spørsmålene i en notatblokk eller diskuter dem med en medelev.
+Дайте відповіді на запитання в зошиті або обговоріть їх з однокласником.
 
-- [ ] Sier de tre snømennene "Klar, ferdig, smelt!" i tur og orden nå?
+- [ ] Чи кажуть зараз три сніговика по черзі «Готово, увага, танути!»?
 
-- [ ] Forsvinner de etter at sistemann har sagt "smelt!"?
+- [ ] Чи зникають вони після того, як останній сказав «Танути!»?
 
-- [ ] Finner du spor i koden som gir et hint om hva du må gjøre videre?
+- [ ] Чи знаходите ви в коді підказки, які дають уявлення про те, що робити далі?
 
 ## {.tip}
-Det kan være tungvint å lage lignende algoritmer til hver enkelt figur i Scratch. Derfor er det smart å gjøre koden mer eller mindre ferdig i én figur først, og så kopiere koden over til de andre figurene. Bare dra den algoritmen du vil kopiere bort til figuroversikten under scena, og slipp den over den figuren du vil kopiere til. Da trenger du bare å gjøre noen små justeringer på koden, i stedet for å skrive den på nytt for hver figur.
+Створення подібних алгоритмів для кожної окремої фігури у Скретч може бути громіздким. Ось чому варто спочатку більш-менш доопрацювати код для однієї фігури, а потім скопіювати його до інших фігур. Просто перетягніть алгоритм, який ви хочете скопіювати, на огляд фігур під сценою і перетягніть його на фігуру, до якої ви хочете скопіювати. Після цього вам потрібно буде внести лише кілька невеликих змін до коду, замість того, щоб переписувати його для кожного персонажа.
 #
 
-# Steg 3: Smelt! {.activity}
+# КРОК 3: Танути! {.activity}
 
-Nå som vi har fått snømennene til å snakke i tur og orden, er det på tide å fikse smelte-koden.
+Тепер, коли ми по черзі поговорили зі сніговиками, настав час виправити код танення.
 
-Snømann 1 har et viktig hint til oss:
+Сніговик 2 має для нас важливу підказку:
 
 ```blocks
-gjenta (2) ganger
-endre [ghost v] effekt med (25)
-vent (1) sekunder
-endre størrelse med (-10)
+повторити (2)
+змінити ефект [ghost v] на (25)
+чекати (1) секунд
+змінити розмір на (-10)
 ```
 
-`ghost`{.blocklooks}-effekten bidrar til å gjøre en figur mer og mer usynlig, på en skala fra 0 (helt synlig) til 100 (helt usynlig). I tillegg vil vi at snømannen skal bli litt mindre for hver gang, for å vise at den "smelter" bort. Derfor bruker vi `endre størrelse`{.blocklooks} også.
+Ефект `ghost`{.blocklooks} допомагає зробити персонажа все більш і більш невидимим, за шкалою від 0 (повністю видимий) до 100 (повністю невидимий). Крім того, ми хочемо, щоб сніговик щоразу ставав трохи меншим, щоб показати, що він «тане». Тому ми також використовуємо `зміна розміру`{.blocklooks}.
 
-## Sjekkliste {.check}
-- [ ] Endre koden slik at `ghost`{.blocklooks}-effekten til slutt blir 100 når løkka er ferdig med å kjøre. Ghost-verdien starter på 0 når grønt flagg klikkes. Hvor mange ganger må løkka gjentas dersom vi lar ghost-effekten endres med 25 for hver gang?
-- [ ] Kan du justere på forholdet mellom antall `gjentakelser`{.blockevents}, `ghost`{.blocklooks}-effekten og `vent`{.blockcontrol}-tiden for å få en smidigere animasjon av smeltingen?
+## Контрольний список {.check}
+- [ ] Змініть код таким чином, щоб ефект `ghost`{.blocklooks} досягав 100 після завершення роботи циклу. Значення ефекту починається з 0, коли натискається зелений прапорець. Скільки разів потрібно повторити цикл, якщо ми дозволимо примарному значенню змінюватися на 25 кожного разу?
+
+- [ ] Чи можете ви налаштувати співвідношення між кількістю `повторити`{.blockevents}, `ghost`{.blocklooks} ефектом і `чекати`{.blockcontrol}, щоб отримати більш плавну анімацію танення?
 
 ## Test prosjektet {.flag}
 Noter svarene i en notatblokk eller diskuter med en medelev.
