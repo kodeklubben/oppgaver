@@ -122,47 +122,38 @@ __Натисніть на зелений прапорець в Scratch.__
 
 Тепер додаймо більше зображень, з яких гравець зможе обирати.
 
-- [ ] Gi først figuren din navnet `Spørsmål`.
+- [ ] Назвіть ваш спрайт `питання`.
 
-- [ ] Lag så en kopi av figuren ved å høyreklikke på den. På scenen drar du
-  deretter den nye figuren ned i venstre hjørne.
+- [ ] Зробіть копію спрайту, натиснувши на нього правою кнопкою миші. Перетягніть новий спрайт у лівий кут сцени.
 
-- [ ] Endre denne nye figurens navn til `Svar1`.
+- [ ] Змініть назву новоствореного спрайту на `відповідь1`. 
 
-- [ ] Slett skriptet til `Svar1` og alle draktene bortsett fra den første.
+- [ ] Видаліть його скрипт (у вкладці `Код`) і всі його образи, крім першого.
 
-- [ ] Gjenta de tre siste stegene igjen (kall neste kopi `Svar2`), plasser
-  `Svar2` ved siden av `Svar1` og slett alle bortsett fra den andre drakten.
+- [ ] Повторіть останні три кроки ще раз (назвіть наступну копію `відповідь2`), помістіть `відповідь2` поруч із `відповідь1`, видаліть скрипт для цього спрайту і всі образи, крім другого.
 
-- [ ] Gjenta disse punktene tre ganger til, slik at du har også figurene
-  `Svar3`, `Svar4` og `Svar5`.
+- [ ] Повторіть ці кроки ще три рази, щоб створити спрайти `відповідь3`, `відповідь4` і `відповідь5`.
 
-  Du skal nå ha en rad med fem svar-figurer nederst på scenen, hver viser en
-  drakt som hovedfiguren kan ha. Ingen av `Svar`-figurene skal ha skript knyttet
-  til seg.
+  Тепер в ​​нижній частині сцени у вас є п’ять зображень з образами, що може отримати головний спрайт. Жоден спрайт-відповідь не повинен мати скрипту.
 
-- [ ] Nå må vi få alle figurene til å reagere når de blir klikket på. Hva som
-  skal skje avhenger av om spilleren har klikket riktig eller galt. Legg til
-  dette skriptet til `Svar1`:
+- [ ] Тепер нам потрібно змусити фігури реагувати, коли на них натискають. Що саме станеться, залежить від того, правильно чи неправильно натиснув гравець. Додайте такий скрипт до спрайту `відповідь1`:
 
   ```blocks
-  når denne figuren klikkes
-  hvis <(riktig) = [1]>
-      send melding [Vant v]
-  ellers
-      skjul
+  коли спрайт натиснуто
+  якщо <(відповідь) = [1] то>
+      оповістити [Ти виграв v]
+  інакше
+      сховати
   slutt
   ```
 
-- [ ] Dra skriptet over til de andre figurene, slik at alle får hver sin kopi.
-  For hver figur, bytt 1 til 2, 3, og så videre.
+- [ ] Перетягніть скрипт до інших спрайтів-відповідей, змінюючи `відповідь` на 2, 3, 4 чи 5, відповідно до назви спрайту.
 
-- [ ] Nå skal vi lage skriptet som gir melding til spilleren når han har vunnet.
-  Klikk på `Spørsmål` igjen og legg til dette skriptet:
+- [ ] Тепер ми створимо скрипт, який сповіщатиме гравця про виграш. Натисніть на спрайт `питання` і додайте цей скрипт:
 
   ```blocks
-  når jeg mottar [Vant v]
-  si (sett sammen [Gratulerer! Din poengsum ble ] (poeng))
+  коли я отримую [Ти виграв v]
+  говорити (з'єднати [Вітаємо! Твій бал: ] (оцінка))
   ```
 
 ## Test prosjektet {.flag}
