@@ -1,47 +1,41 @@
 ---
-title: 'Hva er det?'
+title: 'Що це?'
 level: 3
 author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
-translator: 'Anne-Marit Gravem'
-language: nb
+translator: 'Ольга Паньків'
+language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-Et bilde av en tilfeldig ting vises på tavlen. Men bildet er forvrengt, slik at
-du må gjette hva det er ved å klikke på et av alternativene som vises under.
-Desto raskere du gjetter riktig, desto flere poeng får du.
+На дошці з’являється зображення випадкового предмету. Воно спотворене, тож вам потрібно вгадати, що це, натиснувши на одну з опцій під картинкою. Чим швидше ви впізнаєте зображення, тим більше балів отримаєте.
 
 ![Illustrasjon av et ferdig hva-er-det spill](hva_er_det.png)
 
 
-# Steg 1: Få flere ting til å vise seg på tavlen {.activity}
+# Крок 1: Додайте нові предмети {.activity}
 
-*Vi vil at noen forskjellige bilder skal komme opp på tavlen.*
+*Ми хочемо, щоб на дошці з’являлися різні зображення.*
 
-## Sjekkliste {.check}
+## Контрольний перелік {.check}
 
-- [ ] Start et nytt Scratch-prosjekt og slett kattefiguren.
+- [ ] Розпочніть новий проект Scratch і видаліть фігуру кота.
 
-- [ ] Klikk på scenen og deretter `Bakgrunner`-fanen. Åpne biblioteket med
-  bakgrunner ved å trykke på ![Velg en ferdig
-  bakgrunn](../bilder/velg-bakgrunn.png) og velg så `Innendørs/chalkboard`.
+- [ ] В розділі “Сцена” зайдіть у вкладку “Тло”. Відкрийте бібліотеку з різними варіантами тла, натиснувши на ![Velg en ferdig
+  bakgrunn](../bilder/velg-bakgrunn.png) і виберіть `У приміщенні/Chalkboard`.
 
-- [ ] Importer en valgfri figur. Velg gjerne en figur fra `Ting`-mappen.
+- [ ] Оберіть довільний спрайт.
 
-- [ ] Plasser figuren på midten av tavlen, og endre størrelsen hvis den ikke
-  passer.
+- [ ] Розташуйте спрайт в центрі дошки та змініть його розмір, якщо потрібно.
 
-- [ ] Legg til fire nye drakter fra `Ting`-mappen. Du kan velge de figurene du
-  vil!
+- [ ] Виберіть ще чотири образи для цього спрайту. Можна обирати будь-які інші спрайти, але додавати їх як образи. Для цього виберіть вкладку `Образи` і натисніть на зображення кота в лівому нижньому куті екрану.
 
-- [ ] La oss nå få en tilfeldig ting til å dukke opp på tavlen. Bruk dette
-  skriptet.
+- [ ]  Тепер давайте зробимо так, щоб на дошці з’являвся випадковий предмет. Використовуйте цей скрипт.
 
   ```blocks
-  når grønt flagg klikkes
-  bytt drakt til (tilfeldig tall fra (1) til (5))
+  коли grønt flagg натиснуто
+  змінити образ на (випадкове від (1) до (5))
   ```
 
 ## Test prosjektet {.flag}
