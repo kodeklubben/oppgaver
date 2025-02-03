@@ -156,39 +156,31 @@ __Натисніть на зелений прапорець в Scratch.__
   говорити (з'єднати [Вітаємо! Твій бал: ] (оцінка))
   ```
 
-## Test prosjektet {.flag}
+## Протестуйте свій проект {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець в Scratch.__
 
-Når du tester spillet kan du se på spørsmålsfiguren under scenen for å se hva
-riktig svar er. Det fungerer bra for testing.
+Під час тестування, правильну відповідь можна побачити на зображенні з назвою `питання` під сценою.
 
-- [ ] Hva skjer når du klikker på riktig svar?
+- [ ] Що відбувається, коли ви натискаєте на правильну відповідь?
 
-- [ ] Hva skjer når du klikker på galt svar?
+- [ ] Що відбувається, коли ви натиснете на неправильну відповідь?
 
-- [ ] Hva skjer med det gale svaret når du starter et nytt spill?
+- [ ] Що стається з неправильною відповіддю, коли ви починаєте нову гру?
 
-## Sjekkliste {.check}
+## Контрольний перелік {.check}
 
-Denne testen viser oss __to problemer__: Først og fremst, ting som ble klikket
-på ved galt svar kommer ikke tilbake når et nytt spill starter. For det andre,
-poengsummen fortsetter å gå ned, også etter at man har klikket på riktig svar.
+Тест показав нам дві проблеми: по-перше, зображення, на які клацнули неправильно, не повертаються, коли починається нова гра. По-друге, рахунок продовжує знижуватися навіть після того, як гравець натиснув на правильну відповідь.
 
-- [ ] For å fikse det første problemet kan vi bare legge til følgende skript for
-  hver av de fem svarfigurene:
+- [ ] Щоб вирішити першу проблему, ми можемо додати наступний скрипт для кожної з п’яти можливих відповідей:
 
   ```blocks
-  når grønt flagg klikkes
-  vis
+  коли grønt flagg натиснуто
+  показати
   ```
 
-For å fikse det andre problemet må vi få stoppet spørsmålfigurens `gjenta
-til`{.blockcontrol}-løkke når spilleren klikker på riktig svar. Vi kan bruke en
-ny variabel for å gjøre det. Vi vil kalle denne variabelen `vant`{.blockdata} og
-legger inn en `sett`{.blockdata}-kloss som gir den verdien `0` når spillet
-starter, og en tilsvarende kloss som setter verdien til `1` når spillet vinnes.
-Se skriptene nedenfor.
+Для вирішення другої проблеми, нам потрібно зупинити цикл `повторити до`{.blockcontrol}, що виконує спрайт `питання`, коли гравець натискає на правильну відповідь. Для цього ми можемо використати нову змінну. Назвемо її `виграш`{.blockdata} , і помістимо в блок `надати значення`{.blockdata} що присвоює їй значення 0, коли гра починається. Також в другу частину коду для спрайту “питання” додамо блок, що присвоює виграшу значення 1, коли гру виграно.
+Перегляньте скрипти нижче.
 
 - [ ] Vi må videre stoppe `gjenta til`{.blockcontrol}-løkken når poengsummen har
   blitt `0` eller `vant`{.blockdata} er `1`.
