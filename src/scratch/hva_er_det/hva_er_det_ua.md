@@ -74,65 +74,53 @@ __Натисніть на зелений прапорець в Scratch.__
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Протестуйте свій проект {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець в Scratch.__
 
-- [ ] Kommer det opp et tilfeldig og forvrengt bilde?
+- [ ] Чи з’являється випадкове та спотворене зображення?
 
-- [ ] Blir bildet gradvis tydeligere?
+- [ ] Зображення поступово стає чіткішим?
 
-- [ ] Går poengsummen ned i takt med at bildet blir tydeligere?
+- [ ] Чи зменшується оцінка, коли зображення стає чіткішим?
 
-- [ ] Blir bildet fullstendig tydelig når poengsummen er 0?
+- [ ] Чи стає зображення повністю чітким при оцінці 0?
 
-- [ ] Får du fremdeles nye ting på tavlen når du klikker på det grønne
-  flagget?
+- [ ] Ви отримуєте новий предмет на дошці, коли знову натискаєте зелений прапорець?
 
-## Ting å prøve {.challenge}
+## Поекспериментуйте {.challenge}
 
-- [ ] Prøv å __endre poengsummen__ fra start, samt hvor mye den skal __forandre
-  seg__ for hver gang den går gjennom løkken. Hvordan endrer det utseendet til
-  bildet? Blir det vanskeligere eller enklere å se hva bildet forestiller?
+- [ ] Спробуйте змінити початкове значення оцінки, а також розмір кроку, на який вона змінюється під час проходження кожного циклу. Як це впливає на вигляд зображення? Стає важче чи легше побачити, що зображено на малюнку?
 
-- [ ] Forsøk noen __ulike grafiske effekter__ fra nedtrekkslisten. Hvordan
-  påvirker dette vanskelighetgsraden?
+- [ ] Спробуйте різні ефекти з блоку __встановити ефект__. Як вони впливають на зміну зображення?
 
 
-# Steg 3: La spilleren prøve å gjette bildet {.activity}
+# Крок 3: Дозвольте гравцю вгадати предмет {.activity}
 
-Så langt har vi fått vårt tilfeldige bilde til å gradvis bli tydeligere samtidig
-som poengsummen synker. Men hvordan skal man vinne spillet? Vi vil legge til
-noen figurer nederst på skjermen som spilleren kan klikke på. Klikker man på den
-rette, vinner man spillet. Klikker man feil forsvinner figuren og spillet
-fortsetter.
+Отже, наше випадкове зображення поступово стає чіткішим, а оцінка падає. Але як грати в цю гру? Ми додамо варіанти зображень, на які гравець зможе натиснути. Якщо вибір правильний, гру виграно. Якщо натиснути неправильно, зображення зникає і гра продовжується.
 
-Først må vi å vite hva det rette svaret er.
+Спочатку нам потрібно знати, яка відповідь є правильною.
 
-## Sjekkliste {.check}
+## Контрольний перелік {.check}
 
-- [ ] Lag en ny variabel og kall den `riktig`{.blockdata}. Pass på at den er
-  tilgjengelig `for alle figurer`. Fjern avhukingen slik at variabelen ikke
-  vises i spillet.
+- [ ] Створіть нову змінну та назвіть її `відповідь`{.blockdata}. Переконайтеся, що змінна застосовується для всіх спрайтів. Видаліть галочку, щоб змінну не було видно в полі гри.
 
-- [ ] Endre skriptet slik at det klarer å holde styr på hva som er rett svar.
-  Etter at vi har bestemt drakten legger du derfor til klossen `sett riktig
-  til`{.blockdata}`drakt nr.`{.blocklooks}:
+- [ ] Змініть скрипт, щоб він відслідковував правильну відповідь. Після того, як програма визначає, який саме образ буде показано, додайте блок, що присвоїть змінній `відповідь`{.blockdata}`його номер:
 
   ```blocks
-  når grønt flagg klikkes
-  bytt drakt til (tilfeldig tall fra (1) til (5))
-  sett [riktig v] til (drakt nr.)
-  sett [poeng v] til [110]
-  gjenta til <(poeng) = [0]>
-      endre [poeng v] med (-10)
-      sett [piksel v] effekt til (poeng)
-      sett [farge v] effekt til (poeng)
-      vent (1) sekunder
+  коли grønt flagg натиснуто
+  змінити образ на (випадкове від (1) до (5))
+  надати [відповідь v] значення (образ [номер v])
+  надати [оцінка v] значення [110]
+  повторити до <(оцінка) = [0]>
+      змінити [оцінка v] на (-10)
+      встановити ефект [пікселями v] в (оцінка)
+      встановити ефект [колір v] в (оцінка)
+      чекати (1) секунд
   slutt
   ```
 
-Nå skal vi legge til flere figurer som spilleren kan klikke på.
+Тепер додаймо більше зображень, з яких гравець зможе обирати.
 
 - [ ] Gi først figuren din navnet `Spørsmål`.
 
