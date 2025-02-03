@@ -182,33 +182,30 @@ __Натисніть на зелений прапорець в Scratch.__
 Для вирішення другої проблеми, нам потрібно зупинити цикл `повторити до`{.blockcontrol}, що виконує спрайт `питання`, коли гравець натискає на правильну відповідь. Для цього ми можемо використати нову змінну. Назвемо її `виграш`{.blockdata} , і помістимо в блок `надати значення`{.blockdata} що присвоює їй значення 0, коли гра починається. Також в другу частину коду для спрайту “питання” додамо блок, що присвоює виграшу значення 1, коли гру виграно.
 Перегляньте скрипти нижче.
 
-- [ ] Vi må videre stoppe `gjenta til`{.blockcontrol}-løkken når poengsummen har
-  blitt `0` eller `vant`{.blockdata} er `1`.
+- [ ] Нам потрібно зупинити повтор циклу `повторити до`{.blockcontrol}, коли оцінка стане 0 або `виграш`{.blockdata} дорівнюватиме 1.
 
-- [ ] Til slutt legger vi også inn en `ta bort grafiske
-  effekter`{.blocklooks}-kloss som avslører spørsmålsfiguren når spilleren har
-  gjettet riktig. Skriptene på `Spørsmål` skal nå se slik ut:
+- [ ] Нарешті, ми додаємо блок `очистити графічні ефекти`{.blocklooks}, щоб показати неспотворене зображення, коли гравець вгадав його. Сценарії для спрайту `питання` тепер мають виглядати так:
 
   ```blocks
-  når grønt flagg klikkes
-  bytt drakt til (tilfeldig tall fra (1) til (5))
-  sett [riktig v] til (drakt nr.)
-  sett [poeng v] til [110]
-  sett [vant v] til [0]
-  gjenta til <<(poeng) = [0]> eller <(vant) = [1]>>
-      endre [poeng v] med (-10)
-      sett [piksel v] effekt til (poeng)
-      sett [farge v] effekt til (poeng)
-      vent (1) sekunder
+  коли grønt flagg натиснуто
+  змінити образ на (випадкове від (1) до (5))
+  надати [відповідь v] значення (образ [номер v])
+  надати [оцінка v] значення [110]
+  надати [виграш v] значення [0]
+  повторити до <<(оцінка) = [0]> або <(виграш) = [1]>>
+      змінити [оцінка v] на (-10)
+      встановити ефект [пікселями v] в (оцінка)
+      встановити ефект [колір v] в (оцінка)
+      чекати (1) секунд
   slutt
 
-  når jeg mottar [Vant v]
-  sett [vant v] til [1]
-  ta bort grafiske effekter
-  si (sett sammen [Gratulerer! Din poengsum ble] (poeng))
+  коли я отримую [Ти виграв v]
+  надати [виграш v] значення [1]
+  очистити графічні ефекти
+  говорити (з'єднати [Вітаємо! Твій бал:] (оцінка))
   ```
 
-## Lagre prosjektet {.save}
+## Збережіть проект {.save}
 
 __Gratulerer! Du er nå ferdig med spillet.__
 
