@@ -207,88 +207,65 @@ __Натисніть на зелений прапорець в Scratch.__
 
 ## Збережіть проект {.save}
 
-__Gratulerer! Du er nå ferdig med spillet.__
+__Вітаю! Ви закінчили створювати гру.__
 
-Men det finnes mange flere ting du kan gjøre med spillet. Prøv deg gjerne på
-utfordringene nedenfor!
+Але простір для експериментів не закінчується. Спробуйте втілити ідеї, що описані нижче!
 
-## Utfordring 1: Gjør spillet enklere eller vanskeligere {.challenge}
+## Завдання 1: Зробіть гру простішою чи складнішою {.challenge}
 
-Endre vanskelighetsgrad for spillet.
+Змініть рівень складності гри.
 
-* Forsøk å endre hvor lenge bildet vises frem og hvor raskt poengsummen minker.
+* Спробуйте змінити час, протягом якого видно спотворене зображення, та швидкість зменшення оцінки.
 
-* Forsøk å endre forvrengingen av bildet.
+* Спробуйте змінити спосіб спотворення зображення.
 
-* Forsøk å gjøre figurene likere hverandre eller mer forskjellig. Husk også å
-  forandre svarfigurenes drakter.
+* Оберіть схожі чи більш відмінні зображення.
 
-## Utfordring 2: Forvreng bildet ulikt fra gang til gang {.challenge}
+## Завдання 2: Спотворюйте зображення по-різному {.challenge}
 
-For øyeblikket bruker spillet samme forvrengingsalgoritme hele tiden. Men i steg
-2 prøvde du kanskje ut noen forskjellige alternativer. Prøv nå om du kan finne
-noen flere forvrenginger som du synes fungerer like bra som `farge` og
-`piksler`.
+Зараз у грі постійно використовується один і той же алгоритм деформації. Але під час кроку 2 ви, можливо, випробували кілька інших варіантів. Спробуйте відшукати інші способи спотворення зображення, які працюють так же добре, як `колір` та `пікселі`.
 
-Endre spillet slik at hvert spill bruker forskjellige forvrengninger i `gjenta
-til`{.blockcontrol}-løkken.
+Змініть код так, щоб кожна гра використовувала різні спотворення в циклі `повторити до`{.blockcontrol}.
 
-__Hint:__ Forsøk å opprette en ny variabel som du kaller `forvrenging`. Sett
-denne til en tilfeldig verdi i starten av spillet. Bruk så
-`hvis`{.blockcontrol}-klosser i `gjenta til`{.blockcontrol}-løkken for å velge
-ut en forvrenging til hvert spill.
+__Підказка:__ спробуйте створити нову змінну з назвою `спотворення`. Присвойте їй  випадкове значення на початку гри. Використовуйте блоки `якщо`{.blockcontrol} і `повторити до`{.blockcontrol}, щоб вибрати спотворення для кожної гри.
 
-## Utfordring 3: La hvert spill ha flere runder {.challenge}
+## Завдання 3: Створіть кілька раундів кожної гри {.challenge}
 
-For øyeblikket er hvert spill uavhengig av andre. Prøv om du kan legge til flere
-runder slik at man får gjette på for eksempel tre ting og kan vinne inntil 300
-poeng.
+Наразі кожна гра не залежить від інших. Спробуйте додати більше раундів, щоб можна було вгадати, наприклад, три предмети та виграти до 300 балів.
 
-__Hint:__ Du vil trenge en ekstra variabel for å lagre den totale poengsummen.
-Du må også ha en løkke som går rundt for hver runde.
+__Підказка:__ вам знадобиться додаткова змінна щоб зберігати загальний бал. Вам також потрібно буде створити цикл для кожного раунду.
 
-## Utfordring 4: Øk vanskelighetsgraden gradvis {.challenge}
+## Завдання 4: Поступово ускладнюйте гру {.challenge}
 
-Gjør nå spillet vanskeligere og vanskeligere for hver runde.
+Ускладнюйте гру з кожним раундом.
 
-Kanskje hver runde også skal gi ulikt antall poeng? Bør spilleren også få ekstra
-mange poeng for å gjette kjapt i de vanskeligste rundene?
+Можливо, кожен раунд має давати різну кількість балів? Чи повинен гравець отримувати додаткові очки за швидке вгадування в найскладніших раундах?
 
-__Hint:__ Hvordan kan du vite hvilken runde du er i? Hvordan kan du bruke det
-til å endre vanskelighetsgraden og poengsummen?
+__Підказка:__ як визначити, у якому раунді ви перебуваєте? Як ви можете використовувати цю інформацію, щоб змінити складність гри і отримані бали?
 
-## Utfordring 5: Fortsett til spilleren gjør feil {.challenge}
+## Завдання 5: Гра до першої помилки {.challenge}
 
-I stedet for et bestemt antall runder kan du la spillet gå til det blir klikket
-på feil svar. Dette fungerer nok best dersom man også øker vanskelighetsgraden
-utover i spillet.
+Замість визначеної кількості раундів, гра може тривати аж доки гравець не допустить помилки. Таке правило працюватиме найкраще, якщо складність гри поступово підвищуватиметься. 
 
-## Utfordring 6: Tilpass spillet til hvor flink spilleren er {.challenge}
+## Завдання 6: Адаптуйте гру до рівня майстерності гравця {.challenge}
 
-I stedet for å gjøre det stadig vanskeligere kan vi tilpasse vanskelighetsgraden
-til spillernes dyktighet. Hvis de raskt gjetter riktig ting, kan den neste
-runden gjøres vanskeligere. Hvis de klikker feil eller gjetter sakte, kan neste
-runde gjøres enklere.
+Замість того, щоб поступово ускладнювати гру, ми можемо адаптувати рівень її складності до рівня майстерності гравця. Якщо гравець вгадує швидко, наступний раунд може бути складнішим. Якщо вони клацають неправильно або вгадують повільно, наступний раунд може бути легшим.
 
-Dette fungerer bare hvis du ikke samler opp poengsummen fra runde til runde.
+Це працює лише якщо ви не накопичуєте рахунок від раунду до раунду.
 
-## Utfordring 7: Hold styr på rekorden {.challenge}
+## Завдання 7: Зберігайте рекорди {.challenge}
 
-Finn en måte å lagre den høyeste poengsummen på. Klarer du også å lagre navnet
-til spilleren, og få spillet til å si hvem som har rekorden?
+Знайдіть спосіб зберегти найвищий бал. Чи можете ви також зберегти ім’я гравця, щоб показувати, хто здобув рекордну кількість балів?
 
-## Utfordring 8: Gi en straff for galt svar {.challenge}
+## Завдання 8: Штрафуйте за неправильну відповідь {.challenge}
 
-Slik spillet er nå kan man bare klikke som en gal på alle svarene, og dermed
-raskt finne riktig svar. Det kan derfor være en god idé å trekke fra poeng hver
-gang spilleren klikker på feil figur.
+Зараз гра дозволяє дуже швидко клацати на всі відповіді, і таким чином швидко знайти правильну. Тому, можливо, варто віднімати бали кожного разу, коли гравець обирає неправильну відповідь.
 
-Gjør dette spillet bedre?
+Чи вдосконалить гру така зміна?
 
-## Lagre prosjektet{.save}
+## Збережіть свій проект {.save}
 
-__Veldig bra! Nå er du ferdig og kan spille det nye spillet du har laget!__
+__Чудово! Ви закінчили, і тепер можете тішитися власною грою!__
 
-Ikke glem å dele spillet ditt med venner og familie ved å trykke på `Legg ut` i
-menyen!
+Не забудьте поділитися нею з друзями та родиною, натиснувши кнопку `Опублікувати`!
 
