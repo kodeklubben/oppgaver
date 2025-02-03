@@ -38,45 +38,39 @@ language: ua
   змінити образ на (випадкове від (1) до (5))
   ```
 
-## Test prosjektet {.flag}
+## Протестуйте свій проект {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець в Scratch.__
 
-- [ ] Endrer figuren seg?
+- [ ] Фігура змінюється?
 
-- [ ] Klikk flere ganger. Får figuren stadig nye drakter? Flott.
+- [ ] Натисніть на прапорець кілька разів. Чи з’являються на дошці зображення спрайту і його нещодавно доданих  образів? Чудово.
 
-Det gjør ingenting om samme drakt kommer opp flere ganger på rad. Det er helt
-normalt når det velges en tilfeldig drakt hver gang.
+Одне і те ж зображення може з’явиться кілька разів поспіль. Це цілком нормально, оскільки кожного разу воно вибирається випадково.
 
 
-# Steg 2: Forvreng bildet {.activity}
+# Крок 2: Спотворюємо зображення {.activity}
 
-*La oss nå forvrenge figuren når den dukker opp på tavlen, så det blir
- vanskeligere å gjette hva det er. Deretter skal vi gradvis gjøre vi den
- tydeligere igjen.*
+*Тепер давайте спотворимо фігуру, що з’явиться на дошці, щоб важче було вгадати, що це таке. Потім ми поступово знову зробимо її зрозумілішою.*
 
-Vi skal bruke en `poeng`{.blockdata}-variabel til å kontrollere graden av
-forvrenging. Dersom poengscoren er høy vil bildet bli veldig forvrengt. Når
-antallet poeng synker, vil også graden av forvrenging synke. Poengvariabelen
-fungerer dermed som en slags tidteller.
+Для того, щоб контролювати ступінь спотворення, ми будемо використовувати змінну `оцінка`{.blockdata} Якщо оцінка висока, зображення буде сильно спотвореним. Зі зменшенням оцінки,  спотворення також буде зменшуватися. Таким чином, оцінка функціонує як своєрідний таймер.
 
-## Sjekkliste {.check}
+## Контрольний перелік {.check}
 
-- [ ] Velg `Data`{.blockdata}-kategorien og lag en variabel kalt
-  `poeng`{.blockdata}. La den gjelde `for alle figurer`.
+- [ ] Оберіть категорію `Змінні`{.blockdata}  в якій створіть змінну з назвою
+  `оцінка`{.blockdata}. При створенні, підтвердіть, що змінна застосовується `для всіх спрайтів`.
 
-- [ ] Endre skriptet slik:
+- [ ] Змініть скрипт наступним чином:
 
   ```blocks
-  når grønt flagg klikkes
-  bytt drakt til (tilfeldig tall fra (1) til (5))
-  sett [poeng v] til [110]
-  gjenta til <(poeng) = [0]>
-      endre [poeng v] med (-10)
-      sett [piksel v] effekt til (poeng)
-      sett [farge v] effekt til (poeng)
-      vent (1) sekunder
+  коли grønt flagg натиснуто
+  змінити образ на (випадкове від (1) до (5))
+  надати [оцінка v] значення [110]
+  повторити до <(оцінка) = [0]>
+      змінити [оцінка v] на (-10)
+      встановити ефект [пікселями v] в (оцінка)
+      встановити ефект [колір v] в (оцінка)
+      чекати (1) секунд
   slutt
   ```
 
