@@ -58,51 +58,47 @@ language: ua
 
 ![Bildebeskrivelse](./romsoppel-collector-spill.png)
 
-# Steg 1: Åpne prosjektet og programmer romskipet {.activity}
+# Крок 1: Відкрийте проєкт і запрограмуйте космічний корабель {.activity}
 
-**Her finner du prosjektet du skal åpne:**
+**Тут ви знайдете проект, який потрібно відкрити:**
 [https://scratch.mit.edu/projects/915491222](https://scratch.mit.edu/projects/915491222)
 
-- [ ] Romskipet skal styres med alle de fire piltastene. 
-- [ ] Vær obs på at alt som er ute i verdensrommet beveger seg sakte - dette må dere ta med i beregningen for hvordan romskipet skal bevege seg. 
-- [ ] Dere skal også legge til en liv-teller. Denne skal starte på 3 liv. 
+- [ ] Космічний корабель повинен керуватися всіма чотирма стрілками. 
+- [ ] Враховуйте, що все, що знаходиться в космосі, рухається повільно – це треба враховувати при програмуванні руху космічного корабля. 
+- [ ] Ви також повинні додати лічильник життів. Він повинен починати з 3 життів. 
 
-- [ ] Utfordring: Kan dere legge til noe i koden som gjør at romskipet endrer retning mens du kjører til høyre og venstre? 
-## Test prosjektet {.flag}
+- [ ] Виклик: Чи можете ви додати щось у код, щоб космічний корабель змінював напрямок, коли ви рухаєтесь вправо та вліво? 
+## Перевірте проєкт {.flag}
 
-**Klikk på det grønne flagget.** / **Start prosjektet for å teste koden så
-langt.**
+**Натисніть на зелений прапорець.** / **Запустіть проект, щоб перевірити код на цьому етапі.**
 
-- [ ] Etter dette steget skal du kunne flytte på romskipet med fire piltaster.  Du skal også se en liv-teller oppe til venstre.
+- [ ] Після цього кроку ви зможете переміщувати космічний корабель за допомогою чотирьох стрілок. Ви також побачите лічильник життів у верхньому лівому куті.
 
-# Steg 2: Programmer romsøppel {.activity} 
-- [ ] Romsøppelet skal dukke opp en etter en, litt etter litt, og dukker ikke opp før om noen sekunder etter spillet starter. Her skal du bruke klone-funksjonen så du slipper å lage mange kopier av romsøppelet. 
-- [ ] Det skal dukke opp totalt 20 romsøppel-kloner.
-- [ ] Siden romsøppelet flyter i verdensrommet skal det være tilfeldig hvor romsøppelet kommer fra og hvor de flyter til, men husk å definere at søppelet ikke skal flyte utenfor skjermen vår. 
-- [ ] Hver gang romskipet kjører på romsøppel for å plukke det opp, får dere ett poeng og romsøppelet dere treffer skal bli borte. 
+# Крок 2: Запрограмуйте космічне сміття {.activity} 
+- [ ] Космічне сміття повинне з’являтися одне за одним, трохи пізніше після початку гри. Тут слід використовувати функцію клонування, щоб не створювати багато копій сміття. 
+- [ ] Повинно з’явитися загалом 20 клонів космічного сміття.
+- [ ] Оскільки сміття дрейфує в космосі, його поява та рух повинні бути випадковими, але пам’ятайте, що сміття не повинно виходити за межі екрану. 
+- [ ] Кожного разу, коли космічний корабель стикається зі сміттям, ви отримуєте один бал, а сміття зникає. 
 
-**Tips: Her trenger dere tre algoritmer:**
+**Порада: Вам знадобляться три алгоритми:**
 
-- [ ] en som skjuler den originale romsøppel-figuren, setter i gang poengteller og oppretter kloner
-- [ ] en som styrer hva som skjer når klonene starter
-- [ ] en som styrer hva som skjer når romskipet berører romsøppelet
+- [ ] Алгоритм який приховує оригінальну фігуру сміття, запускає лічильник балів і створює клони.
+- [ ] Алгоритм який керує тим, що відбувається, коли клони починають з’являтися.
+- [ ] Алгоритм який керує тим, що відбувається, коли космічний корабель торкається сміття.
 
-## Test prosjektet {.flag}
-**Klikk på det grønne flagget.** / **Start prosjektet for å teste koden så
-langt.**
+## Перевірте проєкт {.flag}
+**Натисніть на зелений прапорець.** / **Запустіть проєкт, щоб перевірити код на цьому етапі.**
 
-- [ ] Etter dette steget skal det dukke opp 20 romsøppel-kloner som dukker opp ved jevne mellomrom, fra tilfeldige steder. 
-- [ ] Når romskipet berører romsøppelet skal de bli borte og poengtelleren skal telle oppover. 
+- [ ] Після цього кроку повинні з’явитися 20 клонів космічного сміття через рівні проміжки часу, з випадкових місць. 
+- [ ] Коли космічний корабель торкається сміття, воно зникає, і лічильник балів підраховує ваші бали. 
 
-# Steg 3: Programmer meteorregnet {.activity} 
+# Крок 3: Запрограмуйте метеоритний дощ {.activity} 
 
-- [ ] Meteorregnet skal jevnt skli fra bunnen av skjermen og opp. 
-- [ ] Meteorene skal starte utenfor skjermen nede, og forsvinne når de går utenfor skjermen oppe. 
-- [ ] De skal dukke opp en og en, på ulike steder. Dere skal bruke klone-funksjonen for å slippe å lage mange kopier av figuren. 
-- [ ] Når en meteor treffer romskipet, mister du et av de tre livene dine.
-Meteorene skal fortsette å fly, frem til du har mistet alle de tre livene dine. 
-- [ ] Da skal det meldingen GAME OVER sendes. 
- Når GAME OVER-meldingen er sendt skal alle figurene stoppes. 
+- [ ] Метеоритний дощ повинен плавно рухатися знизу екрану і вгору. 
+- [ ] Метеорити повинні стартувати поза екраном знизу і зникати, коли вони виходять за межі екрану зверху. 
+- [ ]Вони повинні з’являтися один за одним, в різних місцях. Використовуйте функцію клонування, щоб не створювати багато копій фігури. 
+- [ ] Коли метеорит влучає в космічний корабель, ви втрачаєте одне з трьох життів. Метеорити повинні продовжувати рухатися, поки ви не втратите всі три життя. 
+- [ ] Тоді має з’явитися повідомлення "GAME OVER" (ГРУ ЗАВЕРШЕНО). Коли з’являється повідомлення "GAME OVER" (ГРУ ЗАВЕРШЕНО), всі фігури повинні зупинитися. 
 
 **Tips: Her trenger dere tre algoritmer:**
 - [ ] En som skjuler den originale meteor-figuren, og lager kloner som dukker opp ved jevne mellomrom. 
