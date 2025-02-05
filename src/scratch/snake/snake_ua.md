@@ -53,7 +53,7 @@ language: ua
 - [ ] Зробіть форму блока. Намалюйте це самі. Ви повинні зробити його досить маленьким, щоб у вас було місце для довгої 
   змії на екрані. Також переконайтеся, що блок такий же широкий, як і високий. Десь між `10 х 10` і `20 х 20` є хорошим       розміром.
 
-  ![Bilde av en eksempelboks i Scratch](boks.png)
+  ![Bilde av en eksempelboks i Scratch](boks_ua.png)
 
 - [ ] Lag så de tre variablene: `lengde`{.blockdata} og `teller`{.blockdata}
   skal gjelde for alle figurer, mens `min id`{.blockdata} må gjelde kun for
