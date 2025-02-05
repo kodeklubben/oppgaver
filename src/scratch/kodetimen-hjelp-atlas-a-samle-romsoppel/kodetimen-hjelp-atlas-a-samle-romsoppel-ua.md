@@ -2,7 +2,7 @@
 title: 'Година кодування: допоможіть Атласу зібрати космічне сміття!'
 author: marikisfoss
 translator: 'Юлія'
-language: nb
+language: ua
 ---
 ![Bildebeskrivelse](./atlas-spill.png)
 # Вступ {.intro}
@@ -26,42 +26,35 @@ language: nb
 оповістити (праворуч v)
 ```
 
-Når denne klikkes
-Send “Gå høyre”
-Nå går du på figuren pilen skal styre, og legger inn følgende kode:
-Når jeg mottar “Gå høyre”
-Gå x steg (her justerer du farten selv, i eksemplet er farten 10)
+Тепер виберіть фігуру, якою стрілка повинна керувати, і додайте наступний код:
 
 ```blocks
-når jeg mottar(go_right)
-gå(10)steg
+коли я отримую  [праворуч v]
+перемістити на (10) кроків
 ```
 
-Gjenta begge stegene for alle retningspilene du trenger å ha (enten høyre og venstre-pil, eller piler til høyre, venstre, opp og ned).
-Du kan nå styre figuren ved å klikke på pil-figurene på skjermen!
+Повторіть ці кроки для всіх напрямкових стрілок, які вам потрібні (вправо, вліво, вгору і вниз). Тепер ви можете керувати фігурою, натискаючи на фігури-стрілки на екрані!
 
 
+#  Що ви пройдете в завданні? {.activity}
 
+Короткий огляд категорій коду та понять, які ви будете використовувати:
 
-#  Hva skal dere gjennom i oppgaven? {.activity}
+Рух
 
-Kort oversikt over kodekategoriene og begrepene dere skal innom:
+Події
 
-Bevegelse
+Змінні
 
-Hendelser
+Керування
 
-Variabler
+Оператори
 
-Styring
+Клонування фігур
 
-Operatorer
+Сенсори
 
-Klone figurer
-
-Sansing
-
-Hvis - så 
+Якщо - то
 
 ![Bildebeskrivelse](./romsoppel-collector-spill.png)
 
