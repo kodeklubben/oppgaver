@@ -100,42 +100,36 @@ language: ua
 - [ ] Коли метеорит влучає в космічний корабель, ви втрачаєте одне з трьох життів. Метеорити повинні продовжувати рухатися, поки ви не втратите всі три життя. 
 - [ ] Тоді має з’явитися повідомлення "GAME OVER" (ГРУ ЗАВЕРШЕНО). Коли з’являється повідомлення "GAME OVER" (ГРУ ЗАВЕРШЕНО), всі фігури повинні зупинитися. 
 
-**Tips: Her trenger dere tre algoritmer:**
-- [ ] En som skjuler den originale meteor-figuren, og lager kloner som dukker opp ved jevne mellomrom. 
-- [ ] En som forteller hvilken retning meteorittene flyr til, og hvor langt de skal fly før de blir skjult.
-- [ ] En som forteller hvor lenge meteorregnet skal vare: frem til romskipet har blitt truffet tre ganger og liv-telleren er lik null. 
-- [ ] Den skal også slette meteoren romskipet skal krasje med, sende GAME OVER-melding og stoppe alle figurene. 
-## Test prosjektet {.flag}
-**Klikk på det grønne flagget.** / **Start prosjektet for å teste koden så
-langt.**
-- [ ] Etter dette steget skal det dukke opp uendelig mange meteoritter fra bunnen av skjermen ved jevne mellomrom. 
-- [ ] Dersom romskipet krasjer med meteorregnet skal du miste ett liv. 
+**Порада: Вам знадобляться три алгоритми:**
+- [ ] Алгоритм який приховує оригінальну фігуру метеорита та створює клони, які з’являються через рівні проміжки часу. 
+- [ ] Алгоритм який визначає в якому напрямку летять метеорити і як далеко вони повинні летіти, перш ніж зникнути.
+- [ ] Алгоритм який визначає як довго триватиме метеоритний дощ: поки космічний корабель не буде вражений тричі і лічильник життів не стане нульовим. Він також повинен видалити метеорит, з яким космічний корабель зіткнеться, надіслати повідомлення "GAME OVER" (ГРУ ЗАВЕРШЕНО) і зупинити всі фігури. 
+## Перевірте проєкт {.flag}
+**Натисніть на зелений прапорець.** / **Запустіть проект, щоб перевірити код на цьому етапі.**
+- [ ] Після цього кроку знизу  екрану через рівні проміжки часу повинні з’являтися нескінченні метеорити. 
+- [ ] Якщо космічний корабель зіткнеться з метеоритом, ви втратите одне життя. 
 
-# Steg 4: Programmer GAME OVER-bildet {.activity} 
-- [ ] Sørg for at denne figuren ikke dukker opp før etter du har mistet alle livene dine. 
+# Крок 4: Запрограмуйте зображення "GAME OVER" (ГРУ ЗАВЕРШЕНО) {.activity} 
+- [ ] Переконайтеся, що ця фігура не з’являється до того, як ви втратите всі життя. 
 
-**Tips: Her trenger dere to algoritmer:**
-- [ ] En som skjuler figuren
-- [ ] En som får figuren til å dukke opp når du mottar meldingen GAME OVER. 
+**Порада: Вам знадобляться два алгоритми:**
+- [ ] Алгоритм який приховує фігуру.
+- [ ] Алгоритм який показує фігуру, коли ви отримуєте повідомлення "GAME OVER" (ГРУ ЗАВЕРШЕНО). 
 
 
-
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
  
 
-**Klikk på det grønne flagget.** / **Start prosjektet for å teste koden så
-langt.**
+**Натисніть на зелений прапорець.** / **Запустіть проект, щоб перевірити код на цьому етапі.**
 
-- [ ] Dersom du mister alle livene dine skal det dukke opp en GAME OVER-beskjed på skjermen. 
+- [ ] Якщо ви втратите всі життя, на екрані має з’явитися повідомлення "GAME OVER" (ГРУ ЗАВЕРШЕНО).
 
-## Utfordring {.challenge}
-Kan du programmere spillet til å vise GAME OVER hvis romskipet krasjer med romstasjonen? 
+## Виклик {.challenge}
+Чи можете ви запрограмувати гру так, щоб напис "GAME OVER" (ГРУ ЗАВЕРШЕНО) з’явився, якщо космічний корабель зіткнеться з космічною станцією?
 
-## Lagre spillet {.save}
+## Збережіть гру {.save}
 
 
-Husk å lagre spillet/programmet ditt. Når du er ferdig kan du klikke på "Legg
-ut"-knappen. Da vil det bli lagt ut på Scratch-hjemmesiden din slik at du enkelt
-kan dele det med familien og vennene dine.
+Не забудьте зберегти свою гру/програму. Коли закінчите, ви можете натиснути кнопку "Опублікувати". Тоді вона буде опублікована на вашій сторінці Scratch, щоб ви могли легко поділитися нею з родиною та друзями.
 
 
