@@ -55,12 +55,10 @@ language: ua
 
   ![Bilde av en eksempelboks i Scratch](boks_ua.png)
 
-- [ ] Lag så de tre variablene: `lengde`{.blockdata} og `teller`{.blockdata}
-  skal gjelde for alle figurer, mens `min id`{.blockdata} må gjelde kun for
-  denne figuren siden den skal være forskjellig for hver klon.
+- [ ] Потім створіть три змінні: `довжина`{.blockdata} і `кількість`{.blockdata}
+  мають застосовуватися до всіх фігур, тоді як `мій ідентифікатор`{.blockdata} має застосовуватися лише до цієї фігури,       оскільки він має бути різним для кожного клону.
 
-- [ ] Vi skal nå lage hovedløkken i spillet. Først setter vi de nødvendige
-  variablene, deretter bruker vi en løkke til å lage stadig nye slangebokser.
+- [ ] Тепер ми створимо основний цикл гри. Спочатку ми встановлюємо необхідні змінні, а потім використовуємо цикл для         постійного створення нових блоків змійки.
 
   ```blocks
   når jeg mottar [Nytt spill v]
