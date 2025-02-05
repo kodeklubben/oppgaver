@@ -33,37 +33,20 @@ language: ua
 
 # Крок 1. Змія рухається... чи це так? {.activity}
 
-*Snake er i prinsippet et enkelt spill å lage. Men en utfordring er hvordan
- selve slangen skal flyttes rundt. Først virker det kanskje som om man trenger
- en eller annen liste som husker hvor hver del av slangen er slik at man kan
- flytte den.*
+*Змійка — це в основному проста гра. Але одна проблема полягає в тому, як рухати саму змійку. Спочатку може здатися, що вам потрібен якийсь список, який пам’ятає, де знаходиться кожна частина змійки, щоб ви могли її перемістити.*
 
-I stedet for å bruke lister skal vi bruke kloning på en litt spesiell måte. Husk
-at når vi kloner kopierer vi både utseendet og oppførselen til en figur. Vi vil
-starte med en enkel boks som vil være en del av kroppen til slangen. Denne
-boksen vil vi flytte, klone, flytte, klone og så videre. Trikset for at det skal
-se ut som om slangen flytter på seg er at de gamle klonene sletter seg selv
-etter litt tid.
+Замість використання списків ми будемо використовувати клонування дещо особливим способом. Пам'ятайте, що під час клонування ми копіюємо як зовнішність, так і поведінку персонажа. Ми почнемо з простого блоку, який буде частиною тіла змії. Цей блок ми будемо переміщати, клонувати, переміщати, клонувати і так далі. Фокус, щоб створити враження, що змія рухається, полягає в тому, що старі клони через деякий час видаляються.
 
-I figuren er den blå boksen hodet til slangen, de grønne boksene er kroppen til
-slangen, mens de hvite boksene indikerer hvor slangen har vært (men er egentlig
-slettede klonede bokser).
+На малюнку синє поле — це голова змії, зелені — тіло змії, а білі — вказують, де була змія (але насправді це видалені клоновані поля).
 
 ![Bilde av slangen, og hvor den har vært](teller.png)
 
-For å vite når vi skal slette kloner bruker vi tre variabler:
-`lengde`{.blockdata} er lengden på slangen, `teller`{.blockdata} er en enkel
-teller som passer på hvor mange steg slangen har gått siden begynnelsen av
-spillet. Til slutt vil `min id`{.blockdata} være et tall som forteller hvilket
-nummer i rekken en gitt klone er. Over er `min id`{.blockdata} skrevet i hver
-boks, `teller`{.blockdata} er 16 siden slangen har gått 16 steg, og
-`lengde`{.blockdata} er 6.
+Щоб знати, коли видаляти клони, ми використовуємо три змінні:
+`довжина`{.blockdata} — це довжина змії, `кількість`{.blockdata} — простий лічильник, який підраховує, скільки кроків зробила змія з початку гри. Нарешті, `моїм ідентифікатором`{.blockdata} буде число, яке вказує, яким номером у рядку є даний клон. Зверху в кожному полі вказано `мій ідентифікатор`{.blockdata}, `кількість`{.blockdata} — 16, оскільки змія зробила 16 кроків, а `довжина`{.blockdata} — 6.
 
-Trikset er nå ganske enkelt. Hver klone sletter seg selv hvis `min
-id`{.blockdata} er mindre enn `teller`{.blockdata} - `lengde`{.blockdata}. La
-oss prøve dette ut i praksis.
+Трюк тепер досить простий. Кожен клон видаляється сам, якщо `мій ідентифікатор`{.blockdata} менший за `довжину`{.blockdata} - `лічильника`{.blockdata}. Давайте спробуємо це на практиці.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
 - [ ] Start et nytt prosjekt. Slett kattefiguren.
 
