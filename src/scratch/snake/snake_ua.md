@@ -61,36 +61,31 @@ language: ua
 - [ ] Тепер ми створимо основний цикл гри. Спочатку ми встановлюємо необхідні змінні, а потім використовуємо цикл для         постійного створення нових блоків змійки.
 
   ```blocks
-  når jeg mottar [Nytt spill v]
-  sett [teller v] til [0]
-  sett [lengde v] til [5]
-  gjenta til <berører [kant v]>
-      sett [min id v] til (teller)
-      endre [teller v] med (1)
-      vent (0.1) sekunder
-      lag klon av [meg v]
-      gå (10) steg
+  коли я отримую [Нова гра v]
+  змінити [Рахунок v] на [0]
+  змінити [Довжина v] на [5]
+  повторити до <торкається [межа v] ?>
+      змінити [Мій ідентифікатор v] на (Рахунок)
+      надати [Рахунок v] значення (1)
+      чекати (0.1) секунд
+      створити клон з [мене v]
+      перемістити на (10) кроків
   slutt
   ```
 
-  Her må `10`-tallet i `gå 10 steg`{.blockmotion}-klossen være likt med
-  størrelsen på din boks.
+  Тут `10` у блоці `перемістити на 10 кроків`{.blockmotion} мають збігатися з розміром вашого блоку.
 
-- [ ] Selve kloneboksene trenger nå bare vente til de skal slette seg selv. Det
-  er ganske enkelt.
+- [ ] Самим клонованим боксам тепер потрібно просто почекати, доки вони самі видаляться. Це досить просто.
 
   ```blocks
-  når jeg starter som klon
-  vent til <((teller) - (lengde)) > (min id)>
-  slett denne klonen
+  коли я починаю як клон
+  чекати поки <((Рахунок) - (Довжина)) > (Мій ідентифікатор)>
+  вилучити цей клон
   ```
 
-  Sammenlign disse skriptene med figuren og forklaringen ovenfor. Skjønner du
-  hvordan de fungerer?
+  Порівняйте ці сценарії з малюнком і поясненням вище. Ви розумієте, як вони працюють?
 
-- [ ] Prøv spillet ditt. Det kan være greit å lage et skript på scenen som
-  sender ut meldingen `Nytt spill` når det grønne flagget klikkes. Du skal se en
-  slange som beveger seg over skjermen, du kan selvsagt ikke styre den enda!
+- [ ] Спробуйте свою гру. Було б добре створити сценарій на сцені, який видає повідомлення `Нова гра`, коли клацає зелений    прапорець. Ви повинні побачити змію, що рухається по екрану, звичайно, ви ще не можете керувати нею!
 
 
 # Steg 2: Styr slangen til den krasjer! {.activity}
