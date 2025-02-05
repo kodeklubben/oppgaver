@@ -48,11 +48,10 @@ language: ua
 
 ## Контрольний список {.check}
 
-- [ ] Start et nytt prosjekt. Slett kattefiguren.
+- [ ] Розпочніть новий проект.
 
-- [ ] Lag en boksfigur. Tegn denne selv. Du bør lage den ganske liten slik at du
-  får plass til en lang slange på skjermen. Pass også på at boksen blir like
-  bred som høy. Et sted mellom `10 x 10` og `20 x 20` er en fin størrelse.
+- [ ] Зробіть форму блока. Намалюйте це самі. Ви повинні зробити його досить маленьким, щоб у вас було місце для довгої 
+  змії на екрані. Також переконайтеся, що блок такий же широкий, як і високий. Десь між `10 х 10` і `20 х 20` є хорошим       розміром.
 
   ![Bilde av en eksempelboks i Scratch](boks.png)
 
