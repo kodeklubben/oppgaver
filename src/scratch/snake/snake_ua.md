@@ -88,119 +88,73 @@ language: ua
 - [ ] Спробуйте свою гру. Було б добре створити сценарій на сцені, який видає повідомлення `Нова гра`, коли клацає зелений    прапорець. Ви повинні побачити змію, що рухається по екрану, звичайно, ви ще не можете керувати нею!
 
 
-# Steg 2: Styr slangen til den krasjer! {.activity}
+# Крок 2: Керуйте змією, доки вона не розіб’ється! {.activity}
 
-*Vi skal nå kontrollere slangen med piltastene.*
+*Тепер ми будемо керувати змією за допомогою клавіш зі стрілками.*
 
-Det er lett å bruke piltastene til å kontrollere slangen. Siden den går av seg
-selv trenger vi bare å endre retningen når piltastene trykkes.
+Керувати змією легко за допомогою клавіш зі стрілками. Оскільки він працює сам, нам потрібно лише змінити напрямок, коли натискаються клавіші зі стрілками.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Lag et nytt skript som også starter på `Nytt spill`-meldingen. Lag en
-  `gjenta for alltid`{.blockcontrol}-løkke hvor du tester om hver piltast er
-  trykket og endrer hvilken retning figuren peker tilsvarende.
+- [ ] Створіть новий сценарій, який також запускатиметься з повідомлення `Нова гра`. Створіть 
+  `цикл повторення назавжди`{.blockcontrol}, у якому ви перевіряєте, чи була натиснута кожна клавіша зі стрілкою, і           відповідно змінюєте напрямок, у якому вказує фігура.
 
-- [ ] Legg til en `gå til x: y:`{.blockmotion}- og en `pek i
-  retning`{.blockmotion}-kloss først i skriptet ditt slik at slangen starter et
-  fornuftig sted i begynnelsen av spillet.
+- [ ] Спершу додайте в сценарій `перехід до x: y:`{.blockmotion} і блок `вказівка на напрямок`{.blockmotion}, щоб змійка      починала десь розумно на початку гри.
 
-- [ ] Du kan markere hodet til slangen ved å lage en ekstra drakt. Lag for
-  eksempel en kopi av den boksen du allerede har tegnet, og endre fargen på
-  denne. Kall en av draktene `hode` og den andre `kropp`. Du kan da bruke
-  `hode`-drakten i hovedløkken hvor du genererer klonen. I skriptet for hver
-  klon endrer du så drakten til `kropp` før `vente`{.blockcontrol}-klossen.
+- [ ] Позначити голову змії можна, зробивши додатковий костюм. Наприклад, зробіть копію блока, який ви вже намалювали, і      змініть його колір. Назвіть один з костюмів `Голова`, а інший `Тіло`. Потім ви можете використовувати костюм
+  `Голова` у головному циклі, де ви створюєте клон. У сценарії для кожного клону ви потім змінюєте костюм на `Тіло` перед     `блоком очікування`{.blockcontrol}.
 
-- [ ] Legg også inn en sjekk på om slangen krasjer i seg selv. Dette kan du for
-  eksempel gjøre ved å utvide testen i `gjenta til`{.blockcontrol}-klossen med
-  `eller`{.blockoperators} og `berører fargen`{.blocksensing}.
+- [ ] Також додайте перевірку, щоб побачити, чи не врізається змійка сама у себе. Ви можете зробити це, наприклад,            розгорнувши тест у `повторі до`{.blockcontrol} блоку за допомогою
+  `або`{.blockoperators} та `торкнувшись кольору`{.blocksensing}.
 
-- [ ] Prøv spillet ditt. Du skal nå kunne styre slangen din rundt på skjermen,
-  helt til du krasjer i kanten eller i deg selv.
+- [ ] Спробуйте свою гру. Тепер ви зможете керувати своєю змією по екрану, доки не вріжетеся об край або в себе.
 
+# Крок 3: Яблука та інші закуски {.activity}
 
-# Steg 3: Epler og annet snadder {.activity}
+*Тепер ми надамо змії міру і значення. Поїдаючи яблука, змія може вирости великою та сильною!*
 
-*Nå skal vi gi slangen litt mål og mening. Ved å spise epler kan slangen vokse
- seg stor og sterk!*
+Яблука досить легко зробити, оскільки нам потрібна лише фігурка, яка зникає, коли їх з’їдає змія. Щоб полегшити розширення за допомогою додаткових яблук і так далі, ми також використовуємо клони яблук.
 
-Eplene er ganske enkle å lage da vi bare trenger en figur som blir borte når
-slangen spiser dem. For å enklere kunne utvide med flere epler og slikt senere
-bruker vi kloner av eplene også.
+## Контрольний список {.check}
 
-## Sjekkliste {.check}
+- [ ] Створіть нову форму яблука. Він має бути приблизно такого ж розміру, як змійка. Наприклад, добре підійде червоне коло   розміром приблизно `10 x 10`.
 
-- [ ] Lag en ny eplefigur. Denne bør være omtrent like stor som slangen. For
-  eksempel en rød fyllt sirkel som er omtrent `10 x 10` passer bra.
-
-- [ ] Lag et skript som starter på en ny melding `Lag eple`. Dette skriptet skal
-  flytte eplet til et tilfeldig sted på skjermen, og deretter lage en klon. Men
-  vi vil være litt nøye med at eplet havner i samme "rutenett" som slangen. For
-  eksempel, om slangeboksene dine er `10 x 10` kan du bruke noe som dette:
+- [ ] Створити сценарій, який запускається з нового повідомлення Створити яблуко. Цей скрипт перемістить яблуко у випадкове   місце на екрані, а потім створить клон. Але ми будемо трохи обережні, щоб яблуко потрапило в ту саму «сітку», що і змія.    Наприклад, якщо ваші бокси для змійки мають розміри `10 x 10`, ви можете використовувати щось на зразок цього:
 
   ```blocks
-  gå til x: ((10) * (tilfeldig tall fra (-23) til (23))) y: ((10) * (tilfeldig tall fra (-16) til (16)))
+  перемістити в x: ((10) * (випадкове від (-23) до (23))) y: ((10) * (випадкове від (-16) до (16)))
   ```
 
-  Husk at skjermen har koordinater fra `-240` til `240` i x-retning, og `-180`
-  til `180` i y-retning. Pass på at eplene dine lander godt innenfor skjermen
-  slik at slangen kan spise dem.
+  Пам’ятайте, що екран має координати від `-240` до `240` у X-напрямку і від `-180`
+  до `180` у Y-напрямку. Переконайтеся, що ваші яблука добре потрапляють на екран, щоб змія могла їх з’їсти.
 
-- [ ] Nå trenger vi et skript som sender ut slike `Lag eple`-meldinger. Lag et
-  skript som starter når det mottar `Nytt spill`. Dette skriptet skal
-  `skjule`{.blocklooks} eplet og deretter sende en `Lag eple`-melding.
+- [ ] Тепер нам потрібен сценарій, який надсилає такі повідомлення `Створи яблуко`Створіть сценарій, який запускається,       коли отримує повідомлення `Нова гра`. Цей скрипт має `приховати`{.blocklooks} яблуко, а потім надіслати повідомлення        `Створи яблуко`.
 
-- [ ] Til slutt lager vi oppførselen for et slikt kloneeple. Lag et nytt skript
-  som starter med `når jeg starter som klon`{.blockcontrol}. Dette skriptet må
-  `vise`{.blocklooks} eplet, `vente til`{.blockcontrol} det `berører
-  slangen`{.blocksensing}, øke `lengden`{.blockdata} på slangen, deretter
-  `sende`{.blockevents} en `Lag eple`-melding og til slutt `slette denne
-  klonen`{.blockcontrol}.
+- [ ] Нарешті, ми створюємо поведінку для такого яблука-клону. Створіть новий сценарій, який починається з моменту `коли я    починаю як клон`{.blockcontrol}. Цей сценарій має `показати`{.blocklooks} яблуко, `дочекатися`{.blockcontrol}, поки воно    `торкнеться змії`{.blocksensing}, збільшити `довжину`{.blockdata} змії, потім `надіслати`{.blockevents} повідомлення        `Створи яблуко` і, нарешті, `видалити цей клон`{.blockcontrol}.
 
-- [ ] Legg på noen enkle lydeffekter! For eksempel passer lyden `chomp` ganske
-  bra når et eple blir spist. Hvilken lyd passer når slangen krasjer?
+- [ ] Додайте прості звукові ефекти! Наприклад, звук `Chomp` досить добре підходить, коли їдять яблуко. Який звук             підходить, коли змія розбивається?
 
 
-# Steg 4: Videreutvikling av spillet {.activity}
+# Крок 4: Подальший розвиток ігор {.activity}
 
-*Du står helt fritt i hvordan du vil jobbe videre med spillet ditt, men her er
- noen ideer som kan gjøre spillet enda morsommere å spille:*
+*Ви абсолютно вільні в тому, як ви хочете працювати над своєю грою, але ось кілька ідей, які можуть зробити гру ще цікавішою:*
 
-## Ideer til videreutvikling {.check}
+## Ідеї для подальшого розвитку {.check}
 
-- [ ] Legg til en poeng-teller. Det enkleste er bare å bruke
-  `lengde`{.blockdata} som poeng. Vis denne variabelen på skjermen. Høyreklikk
-  på den og velg `stor`.
+- [ ] Додайте лічильник балів. Найпростіше просто використовувати
+  `довжину`{.blockdata} як точку. Виведіть цю змінну на екран. Клацніть на ньому правою кнопкою миші та виберіть `великий`.
 
-- [ ] La hastigheten øke etterhvert i spillet. Vanligvis gjør vi dette ved å
-  forandre hvor mange steg en figur går. Det kan vi ikke gjøre her siden hver
-  boks i slangekroppen må henge sammen. I stedet kan du forandre på hvor lenge
-  det ventes mellom hver klon som lages.
+- [ ] Нехай швидкість у грі збільшується поступово. Зазвичай ми робимо це, змінюючи кількість кроків, які робить фігура. Ми   не можемо цього зробити тут, оскільки кожен блок в тілі змії має бути з’єднаний. Натомість ви можете змінити час            очікування між створенням кожного клону.
 
-- [ ] Kanskje du kan videreutvikle hele konseptet, slik at det er mulig å plukke
-  opp forskjellige bonusepler underveis. For eksempel kan du ha epler som øker
-  lengden på slangen med mer enn 1, epler som lager flere epler, ekstra store
-  epler, eller noe helt annet.
+- [ ] Можливо, ви можете далі розвинути всю концепцію, щоб можна було збирати різні бонусні яблука по дорозі. Наприклад, ви   можете мати яблука, які збільшують довжину змії більш ніж на 1, яблука, які роблять більше яблук, дуже великі яблука або    щось зовсім інше.
 
-- [ ] Det trenger jo ikke bare være ett eple om gangen. Om du for eksempel lager
-  tre epler i starten av spillet vil det være litt mindre leting etter eplene og
-  spillet kan være litt morsommere. Du kan gjøre dette ved hjelp av kloning,
-  bare pass på at ikke klonene lager nye kloner igjen!
+- [ ] Це не обов’язково має бути лише одне яблуко за раз. Наприклад, якщо ви зробите три яблука на початку гри, пошук яблук   буде трохи меншим, і гра стане трохи веселішою. Ви можете зробити це за допомогою клонування, просто переконайтеся, що      клони не створюють нових клонів знову!
 
-- [ ] La eplene flytte seg om det går en viss tid uten at de blir spist. For å
-  holde styr på tiden kan du bruke `tid`{.blocksensing}-klossen i
-  `Sansning`{.blocksensing}-kategorien.
+- [ ] Дайте яблукам ворухнутися, якщо мине певний проміжок часу, коли вони не будуть з’їдені. Щоб відстежувати час, ви        можете використовувати `часовий блок`{.blocksensing} `Sansning`{.blocksensing} у категорії.
 
-- [ ] I stedet for at slangen bare kan krasje i seg selv eller i kanten, kan du
-  også lage hindringer på selve brettet. Disse kan du for eksempel tegne på
-  bakgrunnen i en spesiell farge og deretter undersøke om slangen `berører
-  fargen`{.blocksensing}. Du kan til og med ha flere brett med dører mellom.
+- [ ] Замість того, щоб змія врізалася лише в себе або край, ви також можете створювати перешкоди на самій дошці. Ви          можете, наприклад, намалювати їх на фоні спеціальним кольором, а потім перевірити, чи змія `торкається                      кольору`{.blocksensing}. Ви навіть можете мати кілька лотків з дверцятами між ними.
 
-- [ ] Hva med å lage en to-spiller versjon? Spillerene styrer hver sin slange,
-  og samtidig som de konkurrerer om å spise eplene prøver de å sperre hverandre
-  inne.
+- [ ] Як щодо створення версії для двох гравців? Кожен гравець керує змією, і, змагаючись, хто з’їсть яблука, вони            намагаються замкнути один одного.
 
-- [ ] Spillet ditt fortjener også en forside og en meny som kan starte spillet.
-  Her kan du også la spillerene velge vanskelighetsgrad ved å endre på ting som
-  lengde, hastighet, hinder i banen og så videre.
+- [ ] Ваша гра також заслуговує на першу сторінку та меню, яке може запускати гру. Тут ви також можете дозволити гравцям      вибирати рівень складності, змінюючи такі параметри, як довжина, швидкість, перешкоди на трасі тощо.
 
