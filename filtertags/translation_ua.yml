@@ -1,37 +1,37 @@
 language:
-  NAME: мова
+  NAME: Мова
   TAGS:
     nb:
       NAME: Норвезька (Букмол)
     nn:
       NAME: Норвезька (Нюнорск)
     sv:
-      NAME: Швед
+      NAME: Шведська
     da:
       NAME: Данська
     en:
-      NAME: Англ
+      NAME: Англійська
     is:
       NAME: Ісландська
     ua:
       NAME: Українська
 topic:
-  NAME: тема
+  NAME: Тема
   TAGS:
     app:
-      NAME: додаток
-      TOOLTIP: Створюйте програми для 'мобільних пристроїв і планшетів.
+      NAME: Додаток
+      TOOLTIP: Створення додатків для мобільних телефонів і планшетів.
     electronics:
       NAME: Електроніка
-      TOOLTIP: Гаджети для програмування, такі як Microbit, Arduino, Raspberry Pi, Lego Mindstorms тощо.
+      TOOLTIP: Програмування пристроїв, таких як Microbit, Arduino, Raspberry Pi, Lego Mindstorms тощо.
     step_based:
-      NAME: На основі кроків
-      TOOLTIP: Інтерактивні онлайн-курси, які крок за кроком знайомлять вас з новими концепціями.
+      NAME: Покрокове
+      TOOLTIP: Інтерактивні онлайн-курси, які знайомлять вас із новими концепціями крок за кроком.
     block_based:
-      NAME: На основі блоків
-      TOOLTIP: Програмування блочною мовою програмування.
+      NAME: Блокове
+      TOOLTIP: Програмування на блоковій мові програмування.
     text_based:
-      NAME: На основі тексту
+      NAME: Текстове
       TOOLTIP: Програмування за допомогою тексту.
     minecraft:
       NAME: Minecraft
@@ -41,55 +41,55 @@ topic:
       TOOLTIP: Створення веб-сайтів.
     game:
       NAME: Гра
-      TOOLTIP: Створюйте ігри.
+      TOOLTIP: Створення ігор.
     robot:
       NAME: Робот
       TOOLTIP: Програмування фізичних об’єктів, які рухаються.
     animation:
       NAME: Анімація
-      TOOLTIP: Створюйте рухливу графіку, наприклад мультфільми.
+      TOOLTIP: Створення графіки, що рухається, наприклад, мультфільмів.
     sound:
       NAME: Звук
       TOOLTIP: Програмування звуку та музики.
     cryptography:
       NAME: Криптографія
-      TOOLTIP: Дізнайтеся про безпеку даних.
+      TOOLTIP: Вивчення комп'ютерної безпеки.
 subject:
-  NAME: Тема
+  NAME: Предмет
   TAGS:
     mathematics:
       NAME: Математика
     science:
-      NAME: наука
+      NAME: Природничі науки
     programming:
       NAME: Програмування
     technology:
-      NAME: Технологія
+      NAME: Технології
     music:
       NAME: Музика
     first_language:
-      NAME: Норвезька
+      NAME: Українська
     english:
-      NAME: Англ
+      NAME: Англійська
     arts_and_crafts:
-      NAME: Декоративно-прикладне мистецтво
+      NAME: Мистецтво та ремесло
     social_science:
       NAME: Суспільствознавство
 grade:
-  NAME: Рівень класу
+  NAME: Клас
   TAGS:
     preschool:
       NAME: Дитячий садок
-      TOOLTIP: Народжені 3-5 років
+      TOOLTIP: Діти 3-5 років
     primary:
       NAME: 1.-4. клас
-      TOOLTIP: Народжені 6-9 років
+      TOOLTIP: Діти 6-9 років
     secondary:
       NAME: 5.-7. клас
-      TOOLTIP: Народжені 10-12 років
+      TOOLTIP: Діти 10-12 років
     junior:
       NAME: 8.-10. клас
       TOOLTIP: Молодь 13-15 років
     senior:
-      NAME: Середня школа
-      TOOLTIP: Молодь 16-18 
+      NAME: Старша школа
+      TOOLTIP: Молодь 16-18 років
