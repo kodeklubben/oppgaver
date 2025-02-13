@@ -2,7 +2,7 @@
 title: Тур Норвегією
 level: 3
 author: Гейр Арне Хьєлле
-translator: Ольга Ков
+translator: Ольга Ковб Сергій Шумський
 language: UA
 ---
 
@@ -678,13 +678,7 @@ fylke i Norge?
  за допомогою графічного редактора, такого як Paint, Gimp або Photoshop (Elements).
 
 
-- [ ] Les inn det nye kartet i Scratchprosjektet ditt på samme måte som du leste
-  inn det opprinnelige norgeskartet i Steg 1, ved å velge ![Last opp bakgrunn
-  fra fil](../bilder/hent-fra-fil.png) under `Ny bakgrunn` helt til venstre på
-  skjermen.
-  
-  
- Завантаж нову карту в проєкт Scratch так само, як ти завантажував початкову карту Норвегії в Кроці 1.
+- [ ]  Завантаж нову карту в проєкт Scratch так само, як ти завантажував початкову карту Норвегії в Кроці 1.
  Для цього вибери ![Завантажити фон](../bilder/hent-fra-fil.png) у розділі `Новий фон` у лівій частині екрана.
 
 
@@ -692,26 +686,10 @@ fylke i Norge?
 
 ## Авторське право {.protip}
 
-Noen har laget de kartene du finner på internett, og som regel vil de ha
-opphavsretten til disse kartene. I praksis betyr det at de eier kartene. Det
-betyr at dersom du vil bruke kartene i et spill du gjør tilgjengelig for andre
-(bruker `Legg ut`-knappen i Scratch), må du undersøke om dette er greit for de
-som har laget kartene.
-
 Більшість карт, які можна знайти в інтернеті, були створені кимось, 
 і зазвичай ці люди мають на них авторське право. Це означає, що вони володіють цими картами. 
 Якщо ти хочеш використовувати карту у своїй грі та зробити її доступною для інших (`Опублікувати` у Scratch), 
 тобі потрібно перевірити, чи дозволено це творцем карти.
-
-
-Mye materiell på internett, inkludert kartet vi har brukt i denne oppgaven, er
-lagt ut med en såkalt lisens som kan si at du kan bruke materiellet så lenge du
-referer til dem som opprinnelig lagde materiellet. Dette er lett å gjøre i
-Scratch. Klikk på `Se prosjektsiden` øverst til høyre. Du kommer da til en side
-hvor du kan beskrive prosjektet. En av boksene heter `Merknader og
-bidragsytere`. Her kan du nevne dem som opprinnelig har laget for eksempel
-kartet du bruker.
-
 
 Багато матеріалів в інтернеті, зокрема карта, яку ми використовували у цій вправі, 
 доступні за спеціальними ліцензіями. Такі ліцензії можуть дозволяти використання матеріалу за умови, 
