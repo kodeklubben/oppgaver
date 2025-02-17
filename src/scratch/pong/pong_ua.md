@@ -7,93 +7,71 @@ language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-Pong er et av de aller første dataspillene som ble laget, og det første
-dataspillet som ble en kommersiell suksess. Selve spillet er en forenklet
-variant av tennis hvor to spillere slår en ball frem og tilbake. Hvis en av
-spillerne ikke klarer å returnere ballen får den andre spilleren poeng.
+Pong — одна з перших створених комп’ютерних ігор і перша комп’ютерна гра, яка мала комерційний успіх. Сама гра є спрощеною версією тенісу, де двоє гравців б’ють по м’ячу туди-сюди. Якщо одному з гравців не вдається повернути м'яч, інший гравець отримує очко.
 
 ![Illustrasjon av et ferdig poing spill](pong.png)
 
 
-# Oversikt over prosjektet {.activity}
+# Огляд проекту {.activity}
 
-*Mesteparten av kodingen av Pong skal du gjøre på egen hånd. Men vi
- vil gi litt tips underveis. Spesielt vil vi se litt på hvordan vi
- kontrollerer en ballfigur mens den spretter rundt på skjermen. I
- resten av leksjonen vil du finne følgende:*
+*Більшу частину кодування Pong ви зробите самостійно. Але попутно ми дамо вам кілька порад. Зокрема, ми розглянемо, як керувати фігуркою м’яча, коли вона підстрибує по екрану. У решті уроку ви знайдете наступне:*
 
-## Plan {.check}
+## План {.check}
 
-- [ ] Hvordan lage en sprettende ball-figur
+- [ ] Як створити фігуру стрибаючого м'яча
 
-- [ ] Litt mer kontroll på hvordan ballen spretter
+- [ ] Трохи більше контролю над тим, як м'яч стрибає
 
-- [ ] Racketer som spillerne kan styre
+- [ ] Ракетки, якими гравці можуть керувати
 
-- [ ] Poeng, lyder og slikt
+- [ ] Очки, звуки тощо
 
 
-# Steg 1: En sprettende ball {.activity}
+# Крок 1: Стрибаючий м'яч {.activity}
 
-*Når man lager nye programmer og spill er det alltid lurt å begynne
-med en enkel versjon som gjør litt av det det ferdige programmet skal
-gjøre. Da kan du begynne og teste at programmet virker som det skal
-nesten med en gang.*
+*Коли ви створюєте нові програми та ігри, завжди корисно починати з простої версії, яка виконує частину того, що має робити готова програма. Тоді ви можете почати тестувати, чи працює програма належним чином, майже відразу.*
 
-I vår enkle versjon skal vi bare få en ball til å sprette over
-skjermen. Ingen spillere, ingen poeng, ingenting annet enn en
-sprettende ball!
+У нашій простій версії ми хочемо лише змусити м'яч підстрибувати по екрану. Без гравців, без очок, нічого, крім підстрибуючого м'яча!
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Start et nytt prosjekt. Slett kattefiguren.
+- [ ] Розпочніть новий проект. Видаліть фігуру кота.
 
-- [ ] Lag en ny ball-figur. Du kan enten finne en i biblioteket, eller
-  tegne en selv.
+- [ ] Створіть нову фігуру м'яча. Ви можете або знайти її в бібліотеці, або намалювати самостійно.
 
-- [ ] Vi vil ha muligheten til senere enkelt å endre hastigheten til
-  ballen. Lag derfor en ny variabel `hastighet`{.blockdata} som
-  gjelder for ball-figuren.
+- [ ] Ми хочемо мати можливість пізніше легко змінювати швидкість м'яча. Тому створіть нову змінну `швидкість`{.blockdata}, 
+  яка стосується фігури м'яча.
 
-- [ ] Vår enkle kode for en sprettende ball består essensielt av to deler:
-  Den første delen passer på at ballen starter riktig (riktig
-  hastighet, riktig sted, riktig retning), mens den andre delen er
-  løkken som gjør at ballen beveger seg og snur når den treffer kanten
-  av skjermen.
+- [ ] Наш простий код для стрибаючого м'яча складається, по суті, з двох частин: перша частина забезпечує правильний старт 
+  м'яча (правильна швидкість, правильне місце, правильний напрямок), тоді як друга частина - це цикл, який змушує м'яч 
+  рухатися і повертатися, коли він досягає краю екрану.
 
   ```blocks
-  når jeg mottar [Ny ball v]
-  sett [hastighet v] til [7]
-  gå til x: (0) y: (0)
-  pek i retning (tilfeldig tall fra (1) til (360))
-  gjenta for alltid
-      gå (hastighet) steg
-      sprett tilbake ved kanten
+  коли я отримую [Новий м'яч v]
+  надати [швидкість v] значення [7]
+  перемістити в x: (0) y: (0)
+  повернути в напрямку (випадкове від (1) до (360))
+  завжди
+      перемістити на (швидкість) кроків
+      якщо на межі, відбити
   slutt
   ```
 
-  Les koden nøye mens du legger den til på ball-figuren. Pass på at
-  du skjønner hva hver enkelt kloss gjør, fordi denne koden skal du
-  endre selv etterhvert.
+  Уважно читайте код, додаючи його до фігури м'яча. Переконайтесь, що ви розумієте, що робить кожен окремий блок, тому що цей код ви повинні будете змінити самостійно згодом.
 
-- [ ] Klikk på kodeblokken din for at den skal kjøre, og for at ballen
-  skal begynne å bevege seg. Ser det bra ut?
+- [ ] Натисніть на свій блок коду, щоб запустити його і щоб м'яч почав рухатися. Виглядає добре?
 
-### En bedre måte å starte programmet på {.protip}
+### Кращий спосіб запустити програму {.protip}
 
-Vi har laget meldingen `Ny ball` siden vi tenker at i selve spillet
-vil vi at ballen begynner fra midten av skjermen etter hver gang en
-spiller har gjort poeng. I denne enkle versjonen kan vi sende
-meldingen `Ny ball` hver gang det grønne flagget klikkes, for å
-enklere starte spillet.
+Ми створили повідомлення `Новий м'яч`, оскільки вважаємо, що в самій грі ми хочемо, щоб м'яч починав з середини екрану кожного разу, коли гравець забиває очки. У цій простій версії ми можемо надсилати повідомлення `Новий м'яч` щоразу, коли натискається зелений прапорець, щоб легше запустити гру.
 
-+ Legg denne enkle kodesnutten til på scenen:
++ Додайте цей простий фрагмент коду до сцени:
 
   ```blocks
-  når @greenFlag klikkes
-  send melding [Ny ball v]
+  коли @greenFlag натиснуто
+  оповістити [Новий м'яч v]
   ```
 
 
