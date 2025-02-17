@@ -120,66 +120,54 @@ Pong — одна з перших створених комп’ютерних �
   slutt
   ```
 
-  Skjønner du hva tallet `180` gjør? Prøv å tenk på hvordan en ball
-  spretter i en vegg, og hvordan retningen på ballen endrer seg.
+  Ви розумієте, що означає число `180`? Спробуйте подумати про те, як м'яч відскакує від стіни і як змінюється напрямок 
+  м'яча.
 
 
-# Steg 3: Racketer til spillerene {.activity}
+# Крок 3: Ракетки для гравців {.activity}
 
-*Nå som ballen spretter fint kan vi lage racketene som spillerene skal
- styre. Disse vil være veldig like hverandre, slik at vi kan først
- lage den ene racketen og deretter kopiere denne.*
+*Тепер, коли м'яч добре відскакує, ми можемо створити ракетки, якими гравці будуть керувати. Вони будуть дуже схожі одна на одну, тому ми можемо спочатку створити одну ракетку, а потім скопіювати її.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Tegn en ny figur. Lag for eksempel et rektangel som kan fungere som racket.
+- [ ] Намалюй нову фігуру. Наприклад, створи прямокутник, який може служити ракеткою.
 
-- [ ] Skriv kode som starter på meldingen `Ny ball`. På samme måte som for
-  ballen skal denne bestå av to deler: Først må koden passe på at
-  racketen starter på riktig sted. Deretter går koden inn i en løkke
-  hvor racketen flyttes opp og ned (`endre y`{.blockmotion}) når for
-  eksempel tastene `W` og `S` trykkes.
+- [ ] Напиши код, який починається з повідомлення `Новий м'яч`. Як і для м'яча, це має складатися з двох частин: Спочатку 
+  код повинен переконатися, що ракетка починає у правильному місці. Потім код входить у цикл, де ракетка рухається вгору та 
+  вниз (`змінюючи y`{.blockmotion}), коли, наприклад, натискаються клавіші `W` та `S`.
 
-- [ ] Test at du kan flytte racketen. Du vil kanskje også legge inn en
-  begrensning slik at ikke racketen kan forsvinne ut av skjermen? Det
-  kan du gjøre for eksempel med en test som ser omtrent slik ut:
+- [ ] Перевір, чи можеш ти рухати ракеткою. Можливо, ти також захочеш додати обмеження, щоб ракетка не могла зникнути за 
+  межами екрану? Це можна зробити, наприклад, за допомогою тесту, який виглядає приблизно так:
 
   ```blocks
-  hvis <<tast [w v] trykket> og <(y-posisjon) < [150]>>
+  якщо <<клавішу [w v] натиснуто> або <(значення y) < [150]>> то
   slutt
   ```
 
-- [ ] Når du er fornøyd med hvordan denne racketen styres kan du kopiere
-  den.
+- [ ] Коли ви будете задоволені тим, як ця ракетка керується, ви можете її скопіювати.
 
-- [ ] Endre litt på den nye racket-figuren. Du kan for eksempel endre
-  fargen på den om du vil? Du må også endre litt i koden, slik at den
-  starter på andre siden av skjermen og slik at den reagerer på andre
-  taster, for eksempel `pil opp` og `pil ned`.
+- [ ] Зміни трохи нову фігуру ракетки. Можеш, наприклад, змінити її колір, якщо хочеш? Тобі також потрібно трохи змінити 
+  код, щоб вона починала з іншого боку екрану і щоб вона реагувала на інші клавіші, наприклад, `стрілка вгору` і `стрілка 
+  вниз`.
 
-- [ ] Til slutt må vi legge til kode på ball-figuren slik at ballen
-  spretter når den berører en racket. Dette kan gjøres veldig likt
-  hvordan vi fikk ballen til å sprette på veggen. Du må bare bruke
-  `berører farge`{.blocksensing} i stedet for
-  `berører`{.blocksensing}.
 
-- [ ] Siden ballen nå treffer en vertikal racket i stedet for en
-  horisontal vegg må vi også bytte ut tallet `180` i `pek i
-  retning`{.blockmotion}-klossen. Hvilket tall kan du bruke? Prøv deg
-  fram, eller tenk gjennom hvordan en ball spretter når den treffer en
-  vegg.
+- [ ] Насамкінець, нам потрібно додати код до фігури м'яча, щоб м'яч відскакував, коли він торкається ракетки. Це можна 
+  зробити дуже подібно до того, як ми змусили м'яч відскакувати від стіни. Вам просто потрібно використовувати
+  `торкається кольору`{.blocksensing} замість `торкається`{.blocksensing}.
 
-- [ ] Sjekk at spillet nå fungerer! Ballen spretter fram og tilbake mellom
-  de to racketene. For å slippe å stadig starte spillet på nytt kan du
-  lage litt enkel kode for ballen når den mottar meldingen `Poeng`. La
-  denne koden spille en passende poeng-lyd til den er ferdig. Deretter
-  kan den sende meldingen `Ny ball` igjen.
+- [ ] Оскільки м'яч тепер потрапляє у вертикальну ракетку замість горизонтальної стіни, нам також потрібно замінити число 
+  `180` у блоці `повернути в напрямку`{.blockmotion}. Яке число можна використати? Спробуйте самі, або подумайте, як м'яч 
+  відскакує, коли він вдаряється об стіну.
 
-- [ ] Du vil kanskje oppleve at racketene beveger seg raskere og raskere
-  for hver ny ball? Dette skjer fordi hver gang meldingen `Ny ball`
-  blir sendt startes en ny løkke som flytter racketene. For å fikse
-  dette kan du `stoppe andre skript i figuren`{.blockcontrol} for de to
-  racketene når meldingen `Poeng` mottas.
+
+- [ ] Перевір, чи гра тепер працює! М'яч стрибає вперед і назад між двома ракетками. Щоб не запускати гру постійно заново, 
+  ти можеш створити трохи простого коду для м'яча, коли він отримує повідомлення `Очко`. Нехай цей код програє відповідний 
+  звук до тих пір, поки він не закінчиться. Після цього він може надіслати повідомлення знову `Новий м'яч`.
+
+
+- [ ] Можливо, ви помітите, що ракетки рухаються швидше і швидше з кожним новим м'ячем? Це відбувається тому, що кожного 
+  разу, коли надсилається повідомлення `Новий м'яч`, запускається новий цикл, який переміщує ракетки. Щоб це виправити, ви 
+  можете `зупинити все`{.blockcontrol} у фігурі для двох ракеток, коли отримано повідомлення `Очко`.
 
 
 # Steg 4: Videreutvikling av spillet {.activity}
