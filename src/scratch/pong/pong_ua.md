@@ -75,59 +75,48 @@ Pong — одна з перших створених комп’ютерних �
   ```
 
 
-# Steg 2: Litt mer kontroll på ballen {.activity}
+# Крок 2: Трохи більше контролю над м'ячем {.activity}
 
-*Klossen `sprett tilbake ved kanten`{.blockmotion} er veldig enkel å
- bruke, men dessverre gir den oss ikke så mye kontroll. For eksempel
- kan vi ikke bruke den om vi vil at ballen skal sprette andre steder
- enn ved kanten (for eksempel i en racket). Den er også vanskelig å
- bruke om vi vil at andre ting skal skje når ballen spretter, kanskje
- vi vil spille en lyd, endring på hastigheten eller endre litt i
- retningen.*
+*Блок `якщо на межі, відбити`{.blockmotion} є дуже простим у використанні, але, на жаль, він не дає нам багато контролю. Наприклад, ми не можемо використовувати його, якщо хочемо, щоб м'яч відскакував в інших місцях, крім краю (наприклад, у ракетці). Його також важко використовувати, якщо ми хочемо, щоб інші речі відбувалися, коли м'яч відскакує, можливо, ми хочемо відтворити звук, змінити швидкість або трохи змінити напрямок.*
 
-Vi vil bruke `sansning`{.blocksensing}-klosser for å bedre
-kontrollere hvordan ballen spretter. Da kan vi oppdage når ballen
-berører andre figurer (som for eksempel racketene til spillerene),
-eller når den berører spesielle farger.
+Ми будемо використовувати блоки `чуття`{.blocksensing}, щоб краще контролювати, як м'яч відскакує. Тоді ми зможемо виявляти, коли м'яч торкається інших фігур (наприклад, ракеток гравців), або коли він торкається певних кольорів.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Legg til din egen bakgrunn hvor du bruker forskjellige farger der du
-  vil at ballen skal sprette (vi har brukt lyseblått) og der du vil gi
-  poeng (vi har brukt mørkeblått).
+- [ ] Додайте свій власний фон, де ви використовуєте різні кольори там, де ви хочете, щоб м'яч підстрибував (ми 
+  використовували світло-блакитний), і там, де ви хочете давати очки (ми використовували темно-блакитний).
 
   ![Bilde av bakgrunnen til Pong spillet](bakgrunn.png)
 
-- [ ] Om ballen treffer mål (mørkeblå) vil vi at den stopper, og
-  etterhvert skal vi telle poeng. Dette kan vi gjøre ved å bytte ut
+- [ ] Якщо м'яч потрапить у ворота (темно-сині), ми хочемо, щоб він зупинився, і згодом ми будемо рахувати очки. Це можна 
+  зробити, замінивши
 
   ```blocks
-  gjenta for alltid
+  завжди
   slutt
   ```
 
-  med
+  на
 
   ```blocks
-  gjenta til <berører fargen [#0000FF]>
+  повторити до <торкається кольору [#0000FF] ? >
   slutt
-  send melding [Poeng v]
+  оповістити [Очко v]
   ```
 
-- [ ] For at ballen skal sprette når den treffer veggen (lyseblå) vil vi
-  endre retningen på ballen selv. Igjen undersøker vi om ballen
-  berører en spesiell farge ved å bytte ut
+- [ ] Щоб м'яч відскочив від стіни (світло-синій), ми змінимо напрямок руху м'яча. Знову ж таки, ми перевіряємо, чи м'яч 
+  торкається певного кольору, замінюючи
 
   ```blocks
-  sprett tilbake ved kanten
+  якщо на межі, відбити
   ```
 
-  med for eksempel
+  на наприклад
 
   ```blocks
-  hvis <berører fargen [#9999FF]>
-      pek i retning ((180) - (retning))
-      trommeslag (15 v) som varer (0.01) takter
+  якщо <торкається кольору [#9999FF] ? > то
+      повернути в напрямку ((180) - (напрям))
+      відтворити звук (Boing v)
   slutt
   ```
 
