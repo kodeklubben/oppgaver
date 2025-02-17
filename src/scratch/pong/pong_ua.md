@@ -170,59 +170,42 @@ Pong — одна з перших створених комп’ютерних �
   можете `зупинити все`{.blockcontrol} у фігурі для двох ракеток, коли отримано повідомлення `Очко`.
 
 
-# Steg 4: Videreutvikling av spillet {.activity}
+# Крок 4: Подальший розвиток гри {.activity}
 
-*Vi har nå laget en enkel versjon av et av de første dataspillene i
- historien. Men det er mange muligheter for videreutvikling av
- spillet.*
+*Ми зараз створили просту версію однієї з перших комп'ютерних ігор в історії. Але є багато можливостей для подальшого розвитку гри.*
 
-Du står helt fritt i hvordan du vil jobbe videre med spillet ditt, men
-her er noen ideer som kan gjøre spillet enda morsommere å spille:
+Du står helt fritt i hvordan du vil jobbe videre med spillet ditt, men her er noen ideer som kan gjøre spillet enda morsommere å spille:
 
-## Ideer til videreutvikling {.check}
+## Ідеї для подальшого розвитку {.check}
 
-- [ ] Legg til en poeng-teller. Dette kan du gjøre for eksempel med to
-  variabler, en for hver spiller. Når meldingen `Poeng` mottas kan du
-  sjekke `x`-posisjonen av ball-figuren for å finne ut hvem som skal
-  få poeng.
+- [ ] Додайте лічильник балів. Це можна зробити, наприклад, за допомогою двох змінних, по одній для кожного гравця. Коли 
+  отримано повідомлення `Очко`, ви можете перевірити положення `x` фігури м'яча, щоб визначити, хто отримає очко.
 
-- [ ] La hastigheten øke etterhvert som ballen går frem og tilbake. For
-  eksempel kan du la hastigheten øke hver gang ballen berører en av de
-  to racketene.
+- [ ] Збільшуйте швидкість щоразу, коли м'яч рухається вперед і назад. Наприклад, ви можете збільшувати швидкість кожного 
+  разу, коли м'яч торкається однієї з двох ракеток.
 
-- [ ] Det kan være et problem at ballen bare går opp og ned, og ikke
-  sidelengs (eller veldig sakte sidelengs) siden vi har satt
-  utgangsretningen til ballen helt tilfeldig. Kan du begrense hvilke
-  retninger ballen starter i slik at den alltid beveger seg noe
-  sidelengs?
+- [ ] Це може бути проблемою, що м'яч рухається лише вгору і вниз, а не в сторони (або дуже повільно в сторони), оскільки 
+  ми встановили напрямок руху м'яча абсолютно випадковим. Чи можете ви обмежити напрямки, в яких м'яч починає рухатися, щоб 
+  він завжди рухався трохи в сторони?
 
-- [ ] I stedet for at ballen spretter perfekt på racketene kan du endre
-  retning litt tilfeldig, for eksempel ved å legge til et lite
-  tilfeldig tall (positivt eller negativt) etter at ballen har snudd i
-  racketen.
+- [ ] Замість того, щоб м'яч ідеально відскакував від ракеток, ви можете трохи змінити напрямок, наприклад, додавши 
+  невелике випадкове число (позитивне або від'ємне) після того, як м'яч змінив напрямок на ракетці.
 
-- [ ] En morsommere, og mer naturlig, sprett på racketen kan du få ved å
-  ta hensyn til hvor på racketen ballen treffer. Dette kan du gjøre
-  for eksempel ved å sammenligne `y`-posisjonen til ballen og
-  racketen.
+- [ ] Більш веселий та природний відскок на ракетці можна отримати, враховуючи, в якому місці ракетки м'яч потрапляє. Це 
+  можна зробити, наприклад, порівнюючи положення м'яча та ракетки по осі `y`.
 
-- [ ] Hva om man kan flytte racketene sidelengs også? Ikke bare opp og
-  ned? Det kan være lurt å begrense hvor langt racketene kan bevege
-  seg sidelengs, for eksempel kun over halve skjermen. Da vil spillet
-  ligne enda litt mer på tennis.
 
-- [ ] Kanskje du kan videreutvikle hele konseptet, slik at det er mulig å
-  plukke opp power-ups etterhvert som man spiller. For eksempel noe
-  som endrer hastigheten på racketen eller ballen, eller kanskje lager
-  litt skru på ballen. På nettet, for eksempel på
-  [http://www.ponggame.org/](http://www.ponggame.org/) finnes
-  forskjellige Pong-varianter du kan hente inspirasjon fra.
+- [ ] Що, якби можна було переміщати ракетки і в сторони? Не тільки вгору і вниз? Може бути розумно обмежити, наскільки 
+  далеко ракетки можуть рухатися в сторони, наприклад, лише на половину екрану. Тоді гра буде ще трохи більше схожа на 
+  теніс.
 
-- [ ] Pong er morsomst når man er to spillere. Men av og til er man alene,
-  og da hadde det vært morsomt om man kunne spilt mot
-  datamaskinen. Klarer du å kode en av racketene slik at datamaskinen
-  kan styre den? Det er ikke så veldig vanskelig, du kan for eksempel
-  la datamaskinen flytte racketen sin opp eller ned ved å sammenligne
-  `y`-posisjonen til ballen med `y`-posisjonen til racketen til
-  datamaskinen.
+- [ ] Можливо, ви можете розвинути всю концепцію, щоб можна було збирати бонуси під час гри. Наприклад, щось, що змінює 
+  швидкість ракетки або м'яча, або, можливо, створює невелике обертання м'яча. В Інтернеті, наприклад, на
+  [http://www.ponggame.org/](http://www.ponggame.org/) є різні варіанти Pong, з яких ви можете отримати натхнення.
+
+
+- [ ] Pong найцікавіший, коли грають двоє. Але іноді ти сам, і тоді було б весело, якби ти міг грати проти комп'ютера. Чи 
+  можеш ти закодувати одну з ракеток так, щоб комп'ютер міг нею керувати? Це не так вже й складно, ти можеш, наприклад, 
+  дозволити комп'ютеру переміщати свою ракетку вгору або вниз, порівнюючи `y`-позицію м'яча з `y`-позицією ракетки 
+  комп'ютера.
 
