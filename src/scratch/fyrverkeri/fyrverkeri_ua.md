@@ -1,7 +1,7 @@
 ---
 title: Феєрверк
 level: 2
-author: 'Oversatt fra [Code Club UK](//codeclub.org.uk)'
+author: 'Переклад з [Code Club UK](//codeclub.org.uk)'
 translator: 'Юлія Б'
 language: ua
 ---
