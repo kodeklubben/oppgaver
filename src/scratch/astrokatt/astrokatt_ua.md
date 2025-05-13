@@ -2,7 +2,7 @@
 title: Кіт-астронавт
 level: 1
 author: 'Geir Arne Hjelle'
-translator: `Anatolii`
+translator: 'Anatolii'
 language: ua
 ---
 
