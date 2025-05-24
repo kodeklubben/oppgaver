@@ -263,57 +263,51 @@ __Перевірте свій проєкт__
 - [ ] Що відбувається з олівцем, коли вказівник миші входить і виходить з дошки?
 
 
-# Steg 5: Viskelær {.activity}
+# Крок 5: Гумка {.activity}
 
-*Nå kan vi tegne hva vi vil. Men hva om vi trenger et viskelær?*
+*Тепер ми можемо малювати все, що завгодно. Але що, якщо нам знадобиться гумка?*
 
-Hmm… da kan vi jo bare få blyanten til å tegne med samme farge som tavla! Og så
-gir vi blyanten en viskelærdrakt!
+Хм... ми могли б просто змусити олівець малювати тим же кольором, що і дошка! А потім ми дамо олівцю образ гумки!
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Last opp en figur fra fil. Velg filen `eraser.png` fra katalogen du lastet
-  ned i starten. Kall figuren `Viskelær`.
+- [ ] Завантажте малюнок з файлу. Виберіть файл `eraser.png` з каталогу, який ви завантажили на початку. Назвіть персонажа  `Гумка`.
 
-- [ ] Gjør figuren litt mindre med krympeknappen, ![krymp](../bilder/krymp.png),
-  og deretter drar du den ned i høyre hjørne, ved siden av slett-knappen.
+- [ ] Зробіть фігуру трохи меншою, стисніть її, а потім перетягніть до правого кута, поруч з кнопкою видалення.
 
-- [ ] Gi viskelær-figuren et skript som sender meldingen `Visk`.
+- [ ] Створіть скрипт, який надсилатиме повідомлення `Стерти`.
 
   ```blocks
-  når denne figuren klikkes
-  send melding [Visk v]
+  коли спрайт натиснуто
+  оповістити [Стерти v]
   ```
 
-- [ ] For å få blyanten til å viske må du legge til viskelæret også som en drakt
-  på denne. Klikk blyantfiguren. Gå til `Drakter`-fanen og importer `eraser.png`
-  igjen. Husk å sette senterpunktet til viskelæret foran.
+- [ ] Щоб олівець стирався, вам потрібно додати гумку як образ і на спрайт. Клацніть спрайт олівця. Перейдіть на вкладку `Образи` і знову імпортуйте `eraser.png` Не забудьте встановити центральну точку гумки спереду. 
 
-- [ ] Blyanten svarer på `Visk`-meldingen med å bytte pennfarge til grå (bruk
-  fargevelgeren for å velge bakgrunnsfargen til tavla).
+- [ ] Олівець реагує на повідомлення `Стерти`, змінюючи колір пера на сірий (скористайтеся палітрою кольорів, щоб вибрати колір фону дошки). 
 
   ```blocks
-  når jeg mottar [Visk v]
-  bytt drakt til [eraser v]
-  velg pennfarge [#606060]
+  коли я отримую [Стерти v]
+  змінити образ на [eraser v]
+  надайти олівцю колір [#606060]
   ```
 
-## Test prosjektet ditt {.flag}
+## Перевірте свій проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Klarer viskelæret å viske?
+- [ ] Чи може гумка стирати?
 
-- [ ] Fungerer det helt ut til kantene av tavla?
+- [ ] Чи працює вона до самого краю дошки?
 
-- [ ] Går det greit å veksle mellom blyant og viskelær?
+- [ ] Чи легко перемикатися між олівцем і гумкою?
 
 
-# Steg 6: Stempel {.activity}
+# Крок 6: Штамп {.activity}
 
-*Nå skal vi lage et stempel som kan lage små avtrykk på tavla.*
+*Тепер ми зробимо штамп, яким можна робити невеликі відбитки на дошці.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
 - [ ] Legg til en ny figur med valgfritt utseende og kall den `Stempel`. Vi
   valgte Scratch-logoen fra `Ting`-mappen i biblioteket. Krymp figuren og
