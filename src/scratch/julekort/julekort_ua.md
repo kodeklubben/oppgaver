@@ -7,12 +7,11 @@ language: ua
 ---
 
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-Vi skal lage et julekort i Scratch. Det skal ha noen enkle funksjoner
-og animasjoner. Når det er ferdig vil det se omtrent slik ut.
+Ми створимо різдвяну листівку у Scratch. Вона матиме кілька простих функцій та анімацій. Коли вона буде готова, вона виглядатиме приблизно так.
 
-![Eksempel på bilde av et julekort](julekort.png)
+![Eksempel på bilde av et julekort](julekort_ua.png)
 
 # Steg 1: Endre bakgrunn og finne figurer {.activity}
 
