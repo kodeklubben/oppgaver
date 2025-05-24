@@ -1,32 +1,33 @@
 ---
-title: Kunst med geometriske figurer
-author: Carl Andreas Myrland
-language: nb
+title: Мистецтво з геометричними фігурами
+author: 'Карл Андреас Мірланд'
+translator: 'Анатолій Пилипенко'
+language: ua
 ---
 
-# Introduksjon {.intro}
+# Вступ {.intro}
 
-I denne oppgaven skal vi lære oss å lage stilige kunstverk ved hjelp av geometriske figurer, tilfeldighet og funksjoner.
+У цьому завданні ми навчимося створювати стильні роботи, використовуючи геометричні фігури, випадковість та функції.
 
 ![Bildebeskrivelse](./scratchopplegg.png)
 
-# Steg 1: Vi gjør klar blyanten {.activity}
+# Крок 1: Готуємо олівець {.activity}
 
-Først setter vi opp de "kjedelige" tingene for å få programmet til å fungere som det skal senere.
+Спочатку ми налаштовуємо "нудні" речі, щоб потім програма працювала належним чином.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Slett kattefiguren
+- [ ] Видалити символ кота
 
-- [ ] Sett inn figuren `Pencil`
+- [ ] Вставте фігуру `Pencil`
 
-- [ ] Bytt til "Drakter"-fanen, og flytt blyanten slik at blyantspissen peker på senterpunktet.
+- [ ] Перейдіть на вкладку "Образи", і перемістіть олівець так, щоб кінчик олівця вказував на центральну точку.
+      
+- [ ] Поверніться на вкладку "Код".
 
-- [ ] Bytt tilbake til "Kode"-fanen.
+- [ ] Додайте бібліотеку олівця, натиснувши синій значок "+" у лівому нижньому кутку екрана та вибравши "Олівець"
 
-- [ ] Legg til Penn-biblioteket ved å trykke på det blå "+"-ikonet nederst i venstre hjørne på skjermen og velg "Penn"
-
-- [ ] Hent blokken `når grønt flagg klikkes`{.blockevents} og `send melding [melding1]`{.blockevents} og sett disse sammen.
+- [ ] Отримайте блок, `коли зелений прапорець натиснуто`{.blockevents} і надішліть `оповістити [повідомлення1]`{.blockevents}, а потім об'єднайте їх разом.
 
 - [ ] Trykk på den lille hvite pilen ved siden av "melding1", velg "ny melding" og gi den navnet "klar":
 
