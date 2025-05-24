@@ -132,61 +132,63 @@ end
 оповістити [завершино v]
 ```
 
-## Test prosjektet - for nettbrett {.flag}
+## Тестування проєкту {.flag}
 
-**Klikk på det grønne flagget.**
+**Натисніть на зелений прапор.**
 
-- [ ] Trykk et tilfeldig sted på scena
+- [ ] Торкніться довільного місця на сцені
 
-- [ ] Trykk på knappen vi satte inn
+- [ ] Натисніть кнопку, яку ми вставили
 
-- [ ] Dukker det opp en figur der du trykket?
+- [ ] Чи з'явилася фігура там, де ви натиснули?
 
-- [ ] Trykk flere steder på skjermen, etterfulgt av et trykk på knappen. Hva skjer?
+- [ ] Торкніться кількох місць на екрані, а потім торкніться кнопки. Що відбувається?
 
-- [ ] Nå får vi riktignok bare tegnet én type figur. Forstår du hvorfor? I neste avsnitt skal vi lære å lage flere figurer!
+- [ ] Тепер ми можемо малювати лише один тип фігур. Зрозуміло, чому? У наступному розділі ми дізнаємося, як створювати більше фігур!
 
-# Steg 3: Flere geometriske figurer {.activity}
+# Крок 3: Більше геометричних фігур {.activity}
 
-I dette steget skal vi lære hvordan vi kan lage både trekanter, firkanter og femkanter til kunstverket vårt.
+На цьому кроці ми навчимося створювати трикутники, квадрати та п'ятикутники для наших робіт.
 
-**OBS! I dette steget trenger du ikke legge til nye kodeblokker. Vi skal kun endre på verdiene til noen av blokkene vi allerede har!**
+**УВАГА! На цьому кроці вам не потрібно додавати нові блоки коду. Ми лише змінимо значення деяких блоків, які у нас вже є!
+**
 
-## Vi lager flere geometriske figurer {.check}
+## Ми робимо кілька геометричних фігур {.check}
 
-- [ ] Hemmeligheten bak å lage ulike geometriske figurer ligger i denne lille sekvensen fra Steg 2:
+- [ ] Секрет створення різних геометричних фігур криється в цій невеликій послідовності з кроку 2:
 
 ```blocks
-gjenta (4) ganger
-gå (100) steg
-vend høyre (90) grader
+повторити (4) 
+перемістити на (100) кроків
+повернути høyre на (90) градусів
 end
 ```
 
-- [ ] Nøkkelen er _forholdet_ mellom antall ganger `gjenta`{.blockcontrol}-løkken kjøres, og hvor mange grader figuren skal snu.
+- [ ] Ключовим моментом є взаємозв'язок між кількістю циклів  `повторити`{.blockcontrol} і тим, на скільки градусів повинна повернутися фігура.
 
-## Vinkelsummer{.protip}
+## Кутові суми{.protip}
 
-Du vet kanskje at ulike figurer har ulike vinkelsummer. I matematikken lærer vi at en trekant har vinkelsum 180 grader, firkanter 360 grader, femkanter 540 grader, osv.
+Ви, мабуть, знаєте, що різні фігури мають різні кутові суми. З математики ми знаємо, що трикутник має суму кутів 180 градусів, квадрат - 360 градусів, п'ятикутник - 540 градусів тощо.
 
-Dette er riktig dersom man måler innvendige vinkler i figuren. Men for at dette skal bli riktig på en datamaskin, må vi forholde oss til utsiden av vinklene, altså nabovinkelen til de vi vanligvis måler i matematikken.
+Це правильно, якщо вимірювати внутрішні кути фігури. Але для того, щоб це було правильно на комп'ютері, нам потрібно враховувати зовнішні кути, тобто сусідні кути до тих, які ми зазвичай вимірюємо в математиці.
 
-Du vet kanskje at summen av to nabovinkler alltid er 180 grader. Det betyr at når vi sier at alle vinklene i en likesidet trekant er 60 grader, må vi bruke nabovinkelen 120 grader når vi skal be datamaskinen tegne en likesidet trekant. For en rettvinklet firkant blir nabovinkelen uansett 90 grader. For en femkant er nabovinkelen 72 grader, osv.
+Ви, мабуть, знаєте, що сума двох сусідніх кутів завжди дорівнює 180 градусам. Це означає, що коли ми говоримо, що всі кути в рівносторонньому трикутнику дорівнюють 60 градусам, ми повинні використовувати сусідній кут 120 градусів, коли просимо комп'ютер намалювати рівносторонній трикутник. Для прямокутного чотирикутника сусідній кут завжди дорівнює 90 градусам. Для п'ятикутника сусідній кут дорівнює 72 градусам тощо.
 
-Når vi beregner utvendige vinkler på regulære geometriske figurer, blir vinkelsummen alltid 360 grader! Forstår du hvorfor?
+Коли ми обчислюємо зовнішні кути правильних геометричних фігур, сума кутів завжди дорівнює 360 градусам! Розумієте, чому?
 
-- [ ] Målet er at produktet av antall repetisjoner multiplisert med antall grader, skal bli 360 grader. Da kan vi tenke oss at antall repetisjoner (`gjenta (3) ganger`{.blockcontrol}) forteller oss hvor mange kanter figuren vår får, mens antall `grader`{.blockmotion} må justeres slik at produktet blir 360 grader. `gå () steg`{.blockmotion} angir kun hvor lange sidene i figuren blir:
+- [ ] Мета полягає в тому, щоб добуток кількості повторень на кількість градусів дорівнював 360 градусам. Можна уявити, що кількість повторень (`повторити (3)`{.blockcontrol}) говорить нам, скільки ребер матиме наша фігура, в той час як кількість градусів потрібно підбирати так, щоб добуток дорівнював 360 градусам. крок перемістити `перемістити`{.blockmotion} вказує лише на те, якої довжини будуть сторони фігури:
 
 ```blocks
-gjenta (3) ganger
-gå (100) steg
-vend høyre (120) grader
+повторити (3)
+перемістити на (100) кроків
+поворот høyre на (120) градусів
 end
 ```
 
-## Hvordan finne utvendig vinkel raskt{.protip}
+## {.protip}
 
-Trenger du å finne ut hvor stor den utvendige vinkelen må være for en gitt mangekant, finner du det ved å dele 360 på antall sider i figuren:
+Як швидко знайти зовнішній кут
+Якщо вам потрібно дізнатися, наскільки великим повинен бути зовнішній кут для даного багатокутника, ви можете знайти його, розділивши 360 на кількість сторін у фігурі:
 
 360 : 3 = 120
 
@@ -194,57 +196,57 @@ Trenger du å finne ut hvor stor den utvendige vinkelen må være for en gitt ma
 
 360 : 5 = 72
 
-osv.
+і т.д.
 
-## Test prosjektet {.flag}
+## Тестування проєкту {.flag}
 
-**Klikk på det grønne flagget.**
+**Натисніть на зелений прапор.**
 
-- [ ] Endre verdiene i koden din, slik at du kan tegne trekanter og femkanter.
+- [ ] Змініть значення у вашому коді так, щоб ви могли малювати трикутники та п'ятикутники.
 
-- [ ] Kjør koden, og se hva som skjer nå!
+- [ ] Запустіть код і подивіться, що станеться далі!
 
-- [ ] Forstår du hvorfor dette skjer?
+- [ ] Чи розумієте ви, чому це відбувається?
 
-# Steg 4: Funksjoner og variabler {.activity}
+# Крок 4: Функції та змінні {.activity}
 
-Nå som vi har fungerende kode som lar oss tegne ulike figurer, kan vi se på hvordan vi kan rydde litt i koden for å gjøre den enda litt bedre, og spare oss for jobb senere! Dette gjør vi ved å først lage en `funksjon`{.blockmoreblocks} som automatiserer en del av jobben for oss. I Scratch kalles `funksjoner`{.blockmoreblocks} "`Mine klosser`{.blockmoreblocks}", så vi finner den første klossen vi trenger der.
+Тепер, коли у нас є робочий код, який дозволяє нам малювати різні фігури, ми можемо розглянути, як ми можемо трохи прибрати код, щоб зробити його ще кращим і заощадити нашу роботу пізніше! Спочатку ми створимо `функцію`{.blockmoreblocks}, яка автоматизує частину роботи за нас. У Scratch `функції`{.blockmoreblocks} називаються "`Мої блоки`{.blockmoreblocks}", тож ми знаходимо першу потрібну цеглинку там.
 
-## Lag en funksjon {.check}
+## Створіть функцію {.check}
 
-- [ ] Gå til kategorien `Mine klosser`{.blockmoreblocks}, og trykk "Lag en kloss".
+- [ ] Перейдіть на вкладку `Мої блоки`{.blockmoreblocks}, і натисніть "Створити блок".
 
-- [ ] Her får du opp en meny som lar deg bestemme hva funksjonen skal hete, og hvilke _parametre_ den skal ha.
-- [ ] Vi kaller klossen "mangekant" og legger til to felt for "tall eller tekst".
-- [ ] Det første feltet kaller vi "kanter", det andre kaller vi "sidelengde".
-- [ ] Når du er ferdig, får du en ny kloss på arbeidsflaten din, og en ny kloss under `Mine klosser`{.blockmoreblocks}:
+- [ ] При цьому з'являється меню, яке дозволяє вам вирішити, як викликати функцію і які параметри вона повинна мати.
+- [ ] Назвемо блок "багатокутник" і додамо два поля для  "чисел або тексту".
+- [ ] Перше поле назвемо "ребра", друге -  "довжина сторони".
+- [ ] Коли ти закінчиш, ти отримаєш новий блок на своєму робочому місці і новий блок під `Мої блоки`{.blockmoreblocks}:
 
 ```blocks
-definer mangekant (kanter) (sidelengde)
+визначити багатокутник (ребра) (довжина сторони)
 
-mangekant (kanter) (sidelengde)
+багатокутник (ребра) (довжина сторони)
 
 ```
 
-## Vi endrer koden vår {.check}
+## Ми змінюємо наш код {.check}
 
-**Dette steget kan være litt vanskelig. Sørg for å ha tunga rett i munnen, og les instruksjonene nøye.**
-Vi skal nå bygge om koden vår, slik at vi enkelt kan bytte mellom tre-, fire- og femkanter, hele veien opp til sirkler, uten å måtte regne ut vinkler på egenhånd!
+**Цей крок може бути трохи складним. Переконайтеся, що ви тримаєте язик за зубами і уважно читаєте інструкції.**
+Тепер ми перебудуємо наш код так, що зможемо легко перемикатися між трикутниками, чотирикутниками і п'ятикутниками, аж до кіл, без необхідності обчислювати кути самостійно!
 
-- [ ] Først skal vi definere funksjonen vår. De rosa variablene (kanter) og (sidelengde) hentes rett ut fra defineringsblokken øverst, og settes inn i koden som vanlige variabler:
+- [ ] Спочатку визначимо нашу функцію. Рожеві змінні (ребра) і (довжина сторони) беруться прямо з блоку визначення вгорі і вставляються в код як звичайні змінні:
 
 ```blocks
-definer mangekant (kanter) (sidelengde)
-gjenta (kanter) ganger
-gå (sidelengde) steg
-vend høyre ((180) -  ((((kanter) - (2)) * (180)) / (kanter))) grader
+визначити багатокутник (ребра) (довжина сторони)
+повторити (ребра)
+перемістити на (довжина сторони) кроків
+поворот høyre на ((180) -  ((((ребра) - (2)) * (180)) / (ребра))) градусів
 end
 
-mangekant (kanter) (sidelengde)
+багатокутник (ребра) (довжина сторони)
 
 ```
 
-- [ ] Nå skal vi endre på sekvensen som starter `Når denne figuren klikkes`{.blockevents} om man bruker mus, eller `Når jeg mottar start`{.blockevents} om man bruker berøringsskjerm, slik at vi bruker `mangekant`{.blockmoreblocks}-funksjonen i stedet.
+- [ ] Тепер ми змінимо послідовність, `коли спрайт натиснуто`{.blockevents} яка запускається при натисканні на цю фігуру, якщо ви використовуєте мишу, або `коли я отримую старт`{.blockevents} якщо ви використовуєте сенсорний екран, і замість цього використаємо функцію `багатокутника`{.blockmoreblocks}.
 
 ## Viktig info {.protip}
 
