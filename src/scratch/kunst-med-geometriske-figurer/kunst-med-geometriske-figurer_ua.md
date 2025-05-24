@@ -29,26 +29,26 @@ language: ua
 
 - [ ] Отримайте блок, `коли зелений прапорець натиснуто`{.blockevents} і надішліть `оповістити [повідомлення1]`{.blockevents}, а потім об'єднайте їх разом.
 
-- [ ] Trykk på den lille hvite pilen ved siden av "melding1", velg "ny melding" og gi den navnet "klar":
+- [ ] Натисніть маленьку білу стрілку поруч із "повідомлення1", , виберіть «нове повідомлення» та назвіть його "готовий":
 
 ```blocks
-Når grønt flagg klikkes
-send melding [klar v]
+коли grønt flagg натиснуто
+оповістит [готовий v]
 ```
 
-- [ ] Nå skal vi lage en ny sekvens som gjør figuren vår klar til å tegne:
+- [ ] Тепер ми створимо нову послідовність, яка підготує нашого персонажа до малювання:
 
 ```blocks
-Når jeg mottar [klar v]
-begrens rotasjon [ikke roter v]
-skjul
-penn av
-slett alt
-vis
-send melding [ferdig v]
+коли я отримую [готовий v]
+стиль обертання [не обертати v]
+сховати
+підняти олівець
+очистити все
+показати
+оповістити [завершено v]
 ```
 
-- [ ] Til slutt i dette steget lager vi en liten sekvens som sier at figuren skal følge musepekeren eller fingeren vår når vi flytter den over skjermen:
+- [ ] Наприкінці цього кроку ми створюємо невелику послідовність, яка наказує персонажу слідувати за вказівником миші або нашим пальцем, коли ми рухаємо його по екрану:
 
 ```blocks
 Når jeg mottar [ferdig v]
