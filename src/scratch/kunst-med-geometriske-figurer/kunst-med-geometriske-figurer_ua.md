@@ -334,24 +334,24 @@ end
 - [ ] Ви також можете поекспериментувати з блоком
 
 ```blocks
-endre pennens (farge v) med ()
+змінити (колір v) олівця на ()
 ```
 
-og
+та
 
 ```blocks
-endre pennens bredde med ()
+змінити розмір олівця на ()
 ```
 
-og se hva som skjer da!
+і подивіться, що з цього вийде!
 
-- [ ] For å gjøre kunsten enda mer variert, kan du også eksperimentere med å sette inn klossen
+- [ ] Щоб зробити малюнок ще більш різноманітним, ви також можете поекспериментувати зі вставкою блоку
 
 ```blocks
-tilfeldig tall fra () til ()
+випадкове від () до ()
 ```
 
-fra `operatorer`{.blockoperators}-kategorien. `Tilfeldig tall`{.blockoperators}-klossen kan settes inn i `pek i retning`{.blockmotion}-klossen, i `mangekant`{.blockmoreblocks}-klossen, og i de ulike `penn`{.blockpen}-klossene for å endre farge og bredde.
+в категорії `оператори`{.blockoperators}. Блок `випадкових`{.blockoperators} чисел можна вставити в блок `повернути в напрямку`{.blockmotion}, блок `mangekant`{.blockmoreblocks}-klossen, og i de ulike `penn`{.blockpen}-klossene for å endre farge og bredde.
 
 ## Gjør programmet enda enklere å bruke! {.protip}
 
