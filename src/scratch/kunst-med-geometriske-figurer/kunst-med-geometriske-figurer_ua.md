@@ -351,15 +351,12 @@ end
 випадкове від () до ()
 ```
 
-в категорії `оператори`{.blockoperators}. Блок `випадкових`{.blockoperators} чисел можна вставити в блок `повернути в напрямку`{.blockmotion}, блок `mangekant`{.blockmoreblocks}-klossen, og i de ulike `penn`{.blockpen}-klossene for å endre farge og bredde.
+в категорії `оператори`{.blockoperators}. Блок `випадкових`{.blockoperators} чисел можна вставити в блок `повернути в напрямку`{.blockmotion}, блок `багатокутник`{.blockmoreblocks} і різні блоки `олівець`{.blockpen}, щоб змінити колір і ширину.
 
-## Gjør programmet enda enklere å bruke! {.protip}
+## Зробіть програму ще простішою у використанні! {.protip}
 
-For å gjøre programmet enda mer brukervennlig, kan du lage to variabler. La oss kalle dem `sideAntall`{.blockdata} og `sideLengde`{.blockdata}. Sett inn variablene i `mangekant ( ) ( )`{.blockmoreblocks}-klossen. Variablene vil også vises på scena. Trykk og hold på hver av variabel-boblene, slik at du får opp en meny. I denne menyen velger du "skyveknapp". Da kan du enkelt endre på hva slags type mangekant du vil ha, og hvor lange sidene skal være, ved å dra skyveknappen til høyre eller venstre. I menyen kan du også velge å endre verdiområdet for variabelen, sånn at sideAntall begrenses mellom 3 og 20, og sideLengde begrenses mellom 10 og 100, for eksempel.
+Щоб зробити програму ще зручнішою у використанні, ви можете створити дві змінні. Назвемо їх `кількістьСторін`{.blockdata} і `довжинаСторони`{.blockdata}. Вставте змінні у блок `багатокутника ( ) ( )`{.blockmoreblocks}. Змінні також з'являться на сцені. Натисніть і утримуйте кожну з бульбашок змінних, щоб викликати меню. У цьому меню виберіть "Повзунок". Після цього ви можете легко змінити тип багатокутника і довжину його сторін, перетягуючи повзунок праворуч або ліворуч. У меню ви також можете змінити діапазон значень для змінної, наприклад, кількістьСторін буде обмежено між 3 і 20, а довжинаСторони між 10 і 100.
 
-## Lagre programmet {.save}
+## Зберегти програму {.save}
 
-Husk å gi programmet ditt et navn, sånn at du lett finner det igjen senere. Når du er ferdig kan du klikke på "Legg
-ut"-knappen. Da vil det bli lagt ut på Scratch-hjemmesiden din slik at du enkelt
-kan dele det med familien og vennene dine.
-
+Не забудьте дати своїй програмі назву, щоб ви могли легко знайти її пізніше. Коли закінчите, натисніть кнопку "Поділитися". Вона буде опублікована на вашому веб-сайті Scratch, і ви зможете легко поділитися нею з родиною та друзями.
