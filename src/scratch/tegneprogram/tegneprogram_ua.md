@@ -32,81 +32,72 @@ language: ua
 
 - [ ] Створіть новий проєкт у Скретч. Видаліть кота.
 
-- [ ] Клацніть на `Сцена` і перейдіть на вкладку `Тло`. Натисніть кнопку ![hent fra
-  fil](../bilder/hent-fra-fil.png) `Вивантажити тло`, щоб завантажити тло з назвою 
+- [ ] Клацніть на `Сцена` і перейдіть на вкладку `Тло`. Натисніть кнопку `Вивантажити тло`, щоб завантажити тло з назвою 
   `frame.png` з каталогу, який ви завантажили під час підготовки.
 
-- [ ] Натисніть кнопку Вивантажити спрайт в Обрати спрайт. Виберіть файл `green-pencil.png` , розташований у завантаженому каталозі. Назвіть нову фігуру `Олівець`.
+- [ ] Натисніть кнопку `Вивантажити спрайт` в `Обрати спрайт`. Виберіть файл `green-pencil.png` , розташований у завантаженому каталозі. Назвіть нову фігуру `Олівець`.
   
-- [ ] Bytt til `Drakter`-fanen og velg senterpunkt for figuren ved hjelp av
-  ![Velg senterpunkt](../bilder/velg_senterpunkt.png). Flytt korset slik at det
-  markerer blyantspissen. Da vil spissen tegne og ikke midten av blyanten.
+- [ ] Перейдіть на вкладку `Образи` і виберіть центральну точку. Перемістіть хрестик так, щоб він позначив кінчик олівця. Тоді малюватиметься кінчик, а не центр олівця.
 
-  ![Bilde av en blyant med flyttet senterpunkt](senterpunkt.png)
+  ![Bilde av en blyant med flyttet senterpunkt](senterpunkt_ua.png)
 
-- [ ] Få blyanten til å følge musepekeren rundt på scenen ved å bruke `gjenta
-  for alltid`{.blockcontrol}- og `gå til musepeker`{.blockmotion}-klossene.
+- [ ] Змусьте олівець слідувати за вказівником миші по сцені, використовуючи цикл `завжди`{.blockcontrol}, і  до блоку `перейти до вказівник`{.blockmotion}.
 
   ```blocks
-  når grønt flagg klikkes
-  gjenta for alltid
-      gå til [musepeker v]
+  коли grønt flagg натиснуто
+  завжди
+      перейти до [вказівник v]
   slutt
   ```
 
-Nå vil vi bruke denne blyantfiguren som en ordentlig blyant. Om du ser under
-`Penn`{.blockpen}-kategorien kan du se mange slags tegnefunksjoner. De vi er
-interessert i nå er `penn på`{.blockpen} og `penn av`{.blockpen}.
+Тепер ми хочемо використати цю фігуру олівця як справжній олівець. Якщо ви подивитеся на категорію 
+`Олівець`{.blockpen}, то побачите багато різних функцій для малювання. Нас зараз цікавлять такі, як `опустити олівець`{.blockpen} та `підняти олівець`{.blockpen}.
 
-- [ ] Vi vil bruke museknappen til å kontrollere blyanten - når museknappen er
-  nede tegner blyanten og når museknappen er oppe tegner den ikke. Vi kan gjøre
-  dette ved å bruke enn `hvis ellers`{.blockcontrol}- og en `museknappen er
-  nede?`{.blocksensing}-kloss. Utvid skriptet som følger.
+- [ ] Ми хочемо використовувати кнопку миші для керування олівцем - коли кнопка миші натиснута, олівець малює, а коли кнопка миші піднята, він не малює. Ми можемо зробити це за допомогою блоку `якщо інакше`{.blockcontrol} та блока `мишку натиснуто?`{.blocksensing}. Розширте скрипт наступним чином.
 
   ```blocks
-  når grønt flagg klikkes
-  gjenta for alltid
-      gå til [musepeker v]
-      hvis <museknappen er trykket?>
-          penn på
-      ellers
-          penn av
+  коли grønt flagg натиснуто
+  завжди
+      перейти до [вказівник v]
+      якщо <мишку натиснуто?> то
+          опустити олівець
+      інакше
+          підняти олівець
       slutt
   slutt
   ```
 
-## Test prosjektet ditt {.flag}
+## Перевірте свій проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Følger blyanten musa rundt?
+- [ ] Чи слідує олівець за мишею?
 
-- [ ] Hva skjer om du holder museknappen nede og flytter på musa? Ikke bry deg
-  om fargen enda.
+- [ ] Що станеться, якщо утримувати кнопку миші та рухати мишею? Поки що не хвилюйся про колір.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Etterhvert vil skjermen bli ganske full av rabbel. Vi kan bruke
-  `slett`{.blockpen}-klossen til å fjerne dette.
+- [ ] Зрештою, екран стане досить захаращеним. Ми можемо скористатися блоком
+  `очистити все`{.blockpen}, щоб вилучити його.
 
   ```blocks
-  når grønt flagg klikkes
-  slett
-  gjenta for alltid
-      gå til [musepeker v]
-      hvis <museknappen er trykket?>
-          penn på
-      ellers
-          penn av
+  коли grønt flagg натиснуто
+  очистити все
+  завжди
+      перейти до [вказівник v]
+      якщо <мишку натиснуто?> то
+          опустити олівець
+      інакше
+          підняти олівець
       slutt
   slutt
   ```
 
-## Test prosjektet ditt {.flag}
+## Перевірте свій проект {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Forsvinner tegningene dine når du klikker på det grønne flagget?
+- [ ] Чи зникають ваші малюнки, коли ви натискаєте на зелений прапорець?
 
 
 # Steg 2: Rydde opp {.activity}
