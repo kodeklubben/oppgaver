@@ -42,67 +42,62 @@ language: ua
   говорити [Щасливого Різдва!] (2) сек
   ```
 
-## Test prosjektet ditt {.flag}
+## Тестування проєкту {.flag}
 
-__Klikk på isbjørnen og se om koden din virker.__
+__Натисніть на оленя та перевірте, чи працює ваш код.__
 
-- [ ] Sier isbjørnen `God jul!`?
+- [ ] Чи каже олень `Щасливого Різдва!`?
 
-- [ ] Forandrer isbjørnen stilling?
+## Контрольний список {.check}
 
-## Sjekkliste {.check}
-
-- [ ] Velg snømannen og fanen `Skript` og lag denne koden.  Snømannen skal
-  spørre etter navnet ditt. Den setter svaret inn i en ny
-  setning. Deretter skal den skifte farge.
+- [ ] Виберіть сніговика та вкладку `код` і створіть цей код.Сніговик запитає ваше ім'я. Він вставить відповідь у нове речення. Після цього він повинен змінити колір.
 
   ```blocks
-  når denne figuren klikkes
-  spør [Hva er navnet ditt?] og vent
-  si (sett sammen [God jul ] (svar)) i (2) sekunder
-  gjenta for alltid
-      endre [farge v] effekt med (25)
+  коли спрайт натиснуто
+  запитати [Як Вас звати?] і чекати
+  говорити (з'єднати [Щасливого Різдва! ] (відповідь)) (2) сек
+  завжди
+      змінити ефект [колір v] на (25)
   slutt
   ```
 
-## Test prosjektet ditt {.flag}
+## Тестування проєкту {.flag}
 
-__Klikk på snømannen og se om koden din virker.__
+__Натисніть на сніговика і перевірте, чи працює ваш код.__
 
-- [ ] Spør snømannen om navnet ditt?
+- [ ] Чи запитує сніговик ваше ім'я?
 
-- [ ] Svarer snømannen med navnet ditt når du har skrevet det inn?
+- [ ] Чи відгукується сніговик на ваше ім'я після того, як ви його 
+ввели?
+- [ ] Чи змінює сніговик колір?
 
-- [ ] Forandrer snømannen farge?
+## Контрольний список {.check}
 
-## Sjekkliste {.check}
-
-- [ ] Velg juletreet og fanen `Skript`{.blocklightgrey} og lag denne
-koden.  Nå skal juletreet skifte farge og utseende.
+- [ ] Виберіть подарунок та вкладку `код`{.blocklightgrey} і створіть цей код. Тепер подарунок має змінити колір і вигляд.
 
   ```blocks
-  når @greenFlag klikkes
-  gjenta for alltid
-      vent (0.3) sekunder
-      endre [farge v] effekt med (25)
-      neste drakt
+  коли @greenFlag натиснуто
+  завжди
+      чекати (0.3) секунд
+      змінити ефект [колір v] на (25)
+      наступний образ
   slutt
   ```
 
-## Test prosjektet ditt {.flag}
+## Тестування проєкту {.flag}
 
-__Trykk på det grønne flagget og se om alt virker.__
+__Натисніть зелений прапорець і перевірте, чи все працює.__
 
-- [ ] Endrer treet farge?
+- [ ] Чи змінює подарунок колір?
 
-- [ ] Danser treet fra side til side?
+- [ ] Чи двигається подарунок?
 
 
-# Steg 3: Har du ledig tid, sier du? {.activity}
+# Крок 3: Чи є у вас вільний час? {.activity}
 
-Da har du jobbet godt! Om du fortsatt har ledig tid kan du:
+Тоді ви добре попрацювали! Якщо у вас ще залишився вільний час, ви можете це зробити:
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
 - [ ] Legge til din egen velkomsthilsen, for eksempel "God jul" eller du
 kan synge din egen julesang.
