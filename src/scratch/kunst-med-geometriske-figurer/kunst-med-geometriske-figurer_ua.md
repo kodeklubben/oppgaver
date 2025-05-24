@@ -51,44 +51,44 @@ language: ua
 - [ ] Наприкінці цього кроку ми створюємо невелику послідовність, яка наказує персонажу слідувати за вказівником миші або нашим пальцем, коли ми рухаємо його по екрану:
 
 ```blocks
-Når jeg mottar [ferdig v]
-gjenta for alltid
-gå til [musepeker v]
+коли я отримую [завершино v]
+завжди
+перейти до [вказівник v]
 ```
 
-## Test prosjektet {.flag}
+## Тестування проєкту {.flag}
 
-**Klikk på det grønne flagget.**
+**Натисніть на зелений прапор.**
 
-- [ ] Nå skal du se at figuren vår følger etter musepekeren eller fingeren din når du flytter den over scena.
+- [ ] Тепер ви побачите, що наш персонаж слідує за вказівником миші або пальцем, коли ви переміщуєте його по сцені.
 
-- [ ] Forstår du hvorfor dette skjer?
+- [ ] Ви розумієте, чому це відбувається?
 
-# Steg 2: Lag kunst! (PC){.activity}
+# Крок 2: Створюйте мистецтво (ПК){.activity}
 
-## PC eller nettbrett?{.protip}
+## ПК чи планшет?{.protip}
 
-I dette steget finner du instruksjoner for både enheter med ekstern mus og enheter med berøringsskjerm. Pass på at du velger riktig instruksjon til enheten du skal bruke, feks iPad eller PC
+На цьому кроці ви знайдете інструкції як для пристроїв із зовнішньою мишею, так і для пристроїв із сенсорним екраном. Переконайтеся, що ви вибрали правильну інструкцію для пристрою, який ви використовуєте, наприклад, iPad або ПК.
 
-Nå skal vi sette sammen koden som lar oss tegne geometriske figurer! Vi begynner med en enkel variant, og så gjør vi koden mer avansert i steg 3.
+Тепер давайте складемо код, який дозволить нам малювати геометричні фігури! Ми почнемо з простої версії, а потім зробимо код більш просунутим у кроці 3.
 
-## Instruksjoner for PC: {.check}
+## Інструкція для ПК: {.check}
 
-- [ ] Hopp over dette steget om du bruker en enhet med berøringsskjerm, som iPad eller lignende.
+- [ ] Пропустіть цей крок, якщо ви використовуєте пристрій із сенсорним екраном, наприклад, iPad або подібний.
 
-- [ ] Vi vil at figuren skal begynne å tegne når vi trykker med venstre musetast. Derfor setter vi opp denne sekvensen:
+- [ ] Ми хочемо, щоб фігура починала малюватися, коли ми натискаємо ліву кнопку миші. Тому ми встановили таку послідовність:
 
 ```blocks
-Når denne figuren klikkes
-stopp [andre skript i figuren v]
-penn på
-pek i retning (90)
-gjenta (4) ganger
-gå (100) steg
-vend høyre (90) grader
+коли спрайт натиснуто
+зупинити [інші скрипти цього спрайту v]
+опустити олівець
+повернути в напрямку (90)
+повторити (4)
+перемістити на (100) кроків
+поворот на høyre (90) градусів
 end
-penn av
-send melding [ferdig v]
+підняти олівець
+оповістити [завершино v]
 ```
 
 ## Test prosjektet - for PC{.flag}
