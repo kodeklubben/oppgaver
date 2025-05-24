@@ -9,7 +9,7 @@ language: ua
 
 У цьому завданні ми навчимося створювати стильні роботи, використовуючи геометричні фігури, випадковість та функції.
 
-![Bildebeskrivelse](./scratchopplegg.png)
+![Bildebeskrivelse](./scratchopplegg_ua.png)
 
 # Крок 1: Готуємо олівець {.activity}
 
