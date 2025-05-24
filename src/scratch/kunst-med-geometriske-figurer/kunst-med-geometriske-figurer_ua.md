@@ -248,90 +248,90 @@ end
 
 - [ ] Тепер ми змінимо послідовність, `коли спрайт натиснуто`{.blockevents} яка запускається при натисканні на цю фігуру, якщо ви використовуєте мишу, або `коли я отримую старт`{.blockevents} якщо ви використовуєте сенсорний екран, і замість цього використаємо функцію `багатокутника`{.blockmoreblocks}.
 
-## Viktig info {.protip}
+## Важлива інформація {.protip}
 
-Koden for mus og berøringsskjerm er lik herfra og ut, den eneste forskjellen er hendelsen som starter skriptet som lager tegningen. For mus er det `Når denne figuren klikkes`{.blockevents}, for berøringsskjerm er det `Når jeg mottar [start]`{.blockevents}
+Далі код для миші та сенсорного екрану однаковий, єдина відмінність - це подія, яка запускає скрипт, що створює малюнок. Для миші це `коли спрайт натиснуто`{.blockevents}, , для сенсорного екрану це `коли я отримую [старт]`{.blockevents}
 
-- [ ] Først må vi fjerne `gjenta`{.blockcontrol}-løkken fra sekvensen, slik at vi sitter igjen med
+- [ ] По-перше, нам потрібно видалити цикл `завжди`{.blockcontrol} з послідовності так, щоб у нас залишилося
 
 ```blocks
-Når denne figuren klikkes
-stopp [andre skript i figuren v]
-penn på
-pek i retning (90)
-penn av
-send melding [ferdig v]
+коли спрайт натиснуто
+зупинити [інші скрипти цього спрайту v]
+опустити олівець
+повирнути в напрямку (90)
+підняти олівець
+оповістити [завершино v]
 
 ```
 
-- [ ] Så setter vi inn `mangekant`{.blockmoreblocks}-blokken der gjenta-løkka var:
+- [ ] Потім вставляємо блок `багатокутник`{.blockmoreblocks} там, де був цикл повторення:
 
 ```blocks
-Når denne figuren klikkes
-stopp [andre skript i figuren v]
-penn på
-pek i retning (90)
-mangekant () ()
-penn av
-send melding [ferdig v]
+коли спрайт натиснуто
+зупинити [інші скрипти цього сайту v]
+опустити олівець
+повернути в напрямку (90)
+багатокутник () ()
+підняти олівець
+оповістити [завершино v]
 
 ```
 
-#### Feil farge på klossene? {.protip}
+#### Неправильний колір на блоках? {.protip}
 
-`Mangekant`{.blockmoreblocks}-blokken vises med rød farge i koden over, men det er av tekniske årsaker i verktøyet vi skriver oppgaven med. Du kan se bort fra feil farger på klossene i denne delen av oppgaven.
+У коді вище блок `багатокутника`{.blockmoreblocks} показано червоним кольором, але це пов'язано з технічними причинами в інструменті, який ми використовуємо для написання завдання. Ви можете не звертати уваги на неправильні кольори блоків у цій частині завдання.
 
-Du kan nå fylle inn hvor mange kanter du vil at figuren skal ha, og hvor lange de skal være i funksjonsblokken
+Тепер ви можете вказати, скільки ребер ви хочете, щоб фігура мала і якої довжини вони повинні бути у функціональному блоці
 
-- [ ] Hvis vi vil tegne en sekskant med 40 piksler lange sider, fyller vi inn:
-
-```blocks
-mangekant (6) (40)
-```
-
-## Test koden din {.flag}
-
-- [ ] Fyll inn hvor mange kanter du vil at figuren din skal ha, og hvor lange sidene skal være
-
-- [ ] Trykk på grønt flagg
-
-- [ ] Hvis du bruker mus, trykk et sted på scena der du vil at figuren skal tegnes.
-
-- [ ] Hva skjer om du endrer på verdiene i `mangekant`{.blockmoreblocks}?
-
-- [ ] Forstår du hva som skjer?
-
-## Den magiske formelen {.challenge}
-
-Denne formelen er det "magiske" elementet i koden vår:
+- [ ] Якщо ми хочемо намалювати шестикутник зі сторонами 40 пікселів, ми заповнюємо:
 
 ```blocks
-vend høyre ((180) -  ((((kanter) - (2)) * (180)) / (kanter))) grader
+багатокутник (6) (40)
 ```
 
-Denne utregningen finner nemlig vinkelen i en regulær mangekant, kun ved å vite hvor mange kanter figuren består av. Sett inn hvor mange kanter figuren din skal ha (3 for trekant, 4 for firkant, osv) i `kanter`{.blockdata}-variabelen, og regn ut, så finner du alltid riktig vinkel.
+## Перевірте свій код {.flag}
 
-Klarer du å finne ut hvorfor det blir slik?
+- [ ] Заповніть, скільки ребер ви хочете, щоб ваша фігура мала і якої довжини повинні бути сторони
 
-# Steg 5: Litt mer farge og liv! {.activity}
+- [ ] Натисніть зелений прапорець
 
-Vi har nå laget et program som lar deg lage mange forskjellige kunstverk ved hjelp av geometriske figurer, men figurene har kanskje litt kjedelige farger?
+- [ ] Якщо ви використовуєте мишу, клацніть десь на сцені, де ви хочете намалювати фігуру.
 
-- [ ] Ved å sette inn
+- [ ] Що станеться, якщо змінити значення в `багатокутнику`{.blockmoreblocks}?
+
+- [ ] Ви розумієте, що станеться?
+
+## Магічна формула {.challenge}
+
+Ця формула є  "магічним" елементом нашого коду:
 
 ```blocks
-sett pennbredde til ()
+поворот høyre на ((180) -  ((((ребра) - (2)) * (180)) / (ребра))) градусів
 ```
 
-og
+Цей розрахунок знаходить кут у звичайному багатокутнику, просто знаючи, зі скількох ребер складається фігура. Вставте, скільки ребер повинна мати ваша фігура (3 для трикутника, 4 для квадрата і т.д.) у змінну `ребра`{.blockdata} і обчисліть, і ви завжди знайдете правильний кут.
+
+Чи можете ви з'ясувати, чому так відбувається?
+
+# Крок 5: Трохи більше кольору та життя! {.activity}
+
+Ми створили програму, яка дозволяє створювати різноманітні витвори мистецтва з геометричних фігур, але кольори фігур можуть бути трохи нудними?
+
+- [ ] Вставивши
 
 ```blocks
-sett pennens (farge v) til ()
+задати розмір олівця ()
 ```
 
-etter `penn på`{.blockpen}-klossen, kan du endre på både strekens bredde og farge. Prøv deg frem!
+та
 
-- [ ] Du kan også eksperimentere med klossene
+```blocks
+надати  (колір v) олівця значення ()
+```
+
+За допомогою олівця на блоці можна змінювати як ширину, так і колір лінії. Спробуйте свої сили!
+
+- [ ] Ви також можете поекспериментувати з блоком
 
 ```blocks
 endre pennens (farge v) med ()
