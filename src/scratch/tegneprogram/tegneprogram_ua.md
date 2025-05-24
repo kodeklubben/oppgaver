@@ -211,7 +211,7 @@ __Натисніть на зелений прапорець.__
   коли grønt flagg натиснуто
   очистити все
   завжди
-      якщо <<<(мишка x) > [-230]> og <(мишка x) < [230]>> і <<(мишка y) > [-120]> і <(мишка y) < [170]>>> то
+      якщо <<<(мишка x) > [-230]> і <(мишка x) < [230]>> і <<(мишка y) > [-120]> і <(мишка y) < [170]>>> то
           перейти до [вказівник v]
           якщо <мишку натиснуто?> то
               опустити олівець
@@ -222,49 +222,45 @@ __Натисніть на зелений прапорець.__
   slutt
   ```
 
-- [ ] Siden vi ikke kan tegne utenfor tavla, er det like greit at blyanten bare
-  blir borte når musepekeren går utenfor tavla. For å gjøre dette må vi erstatte
-  `hvis`{.blockcontrol}-klossen ovenfor med en `hvis -
-  ellers`{.blockcontrol}-kloss. Reglene blir nå: __Hvis__ musepekeren er
-  innenfor tavlas `x`- og `y`-koordinater følger blyanten pekeren, __ellers__
-  skjules blyanten.
+- [ ] Оскільки ми не можемо малювати за межами дошки, добре, що олівець зникає лише тоді, коли вказівник миші виходить за межі дошки. Для цього нам потрібно замінити блок
+  `якщо`{.blockcontrol} вище на блок `якщо -
+  інакше`{.blockcontrol}. Тепер правила такі: __якщо__ вказівник миші знаходиться в межах координат `x` та `y`дошки, олівець слідує за вказівником, __інакше__ олівець ховається.
+
 
   ```blocks
-  når grønt flagg klikkes
-  slett
-  gjenta for alltid
-      hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
-          gå til [musepeker v]
-          vis
-          hvis <museknappen er trykket?>
-              penn på
-          ellers
-              penn av
+  коли grønt flagg натиснуто
+  очистити все
+  завжди
+      якщо <<<(мишка x) > [-230]> і <(мишка x) < [230]>> і <<(мишка y) > [-120]> і <(мишка y) < [170]>>>
+          перейти до [вказівник v]
+          показати
+          якщо <мишку натиснуто?> то
+              опустити олівець
+          інакше
+              підняти олівець
           slutt
-      ellers
-          skjul
-          penn av
+      інакше
+          сховати
+          підняти олівець
       slutt
   slutt
   ```
 
-  Fordi blyanten vil skjules når pekeren går utenfor tavla, må vi få den til å
-  vises igjen når den kommer innenfor. Pass derfor på at du får lagt inn en
-  `vis`{.blocklooks}-kommando innenfor `hvis`{.blockcontrol}-klossen.
+  Оскільки олівець буде прихований, коли вказівник вийде за межі дошки, нам потрібно зробити так, щоб він знову з'явився, коли він повернеться всередину. Тому переконайтеся, що ви помістили команду
+  `показати`{.blocklooks} всередину блоку `якщо`{.blockcontrol}.
 
-  Vi har også lagt på en `penn av`{.blockpen}-kloss når blyanten er utenfor
-  tavla, for at den ikke skal tegne en strek akkurat i det den kommer tilbake
-  inn på tavla.
+  Ми також додали функцію `підняти олівець`{.blockpen}, коли олівець відривається від дошки, щоб він не малював лінію, коли повертається на дошку.
 
-## Test prosjektet ditt {.flag}
 
-__Klikk på det grønne flagget.__
+## Перевірте свій проєкт {.flag}
 
-- [ ] Kan du fremdeles tegne på tavla?
+__Перевірте свій проєкт__
 
-- [ ] Kan du tegne utenfor tavla?
+- [ ] Натисніть на зелений прапорець.
 
-- [ ] Hva skjer med blyanten når musepekeren går ut og inn av tavla?
+- [ ] Ти все ще можеш малювати на дошці?
+
+- [ ] Що відбувається з олівцем, коли вказівник миші входить і виходить з дошки?
 
 
 # Steg 5: Viskelær {.activity}
