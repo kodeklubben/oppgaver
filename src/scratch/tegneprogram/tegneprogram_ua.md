@@ -100,143 +100,123 @@ __Натисніть на зелений прапорець.__
 - [ ] Чи зникають ваші малюнки, коли ви натискаєте на зелений прапорець?
 
 
-# Steg 2: Rydde opp {.activity}
+# Крок 2: Прибираємо {.activity}
 
-*I stedet for å måtte starte og stoppe prosjektet for å slette tavla kan vi lage
- en knapp som sletter alt i stedet.*
+*Замість того, щоб запускати і зупиняти проєкт, щоб стерти дошку, ми можемо створити кнопку, яка стирає все.*
 
-Vi kan fortsatt bruke `slett`{.blockpen}-klossen.
+Ми все ще можемо використовувати блок `очистити все`{.blockpen}.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Lag en ny figur fra ressurskatalogen du lastet ned i begynnelsen av
-  prosjektet. Velg `cancel-button.png`.
+- [ ] Створіть новий спрайт з каталогу ресурсів, який ви завантажили на початку проєкту. Виберіть файл `cancel-button.png`.
 
-- [ ] Bytt navn på figuren til `Slett`.
+- [ ] Змініть ім'я персонажа на `Видалити`.
 
-- [ ] Flytt figuren til nederste høyre hjørne av scenen.
+- [ ] Перемістіть персонажа у правий нижній кут сцени.
 
-- [ ] Gi slette-figuren dette skriptet:
+- [ ] Дайте видаленому персонажу цей сценарій:
 
   ```blocks
-  når denne figuren klikkes
-  slett
+  коли спрайт натиснуто
+  очистити все
   ```
 
-## Test prosjektet ditt {.flag}
+## Перевірте свій проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Fjerner sletteknappen alle tegningene dine?
+- [ ] Кнопка видалення видаляє всі ваші малюнки?
 
 
-# Steg 3: Bytte farge {.activity}
+# Крок 3: Змініть колір {.activity}
 
-*Til nå har vi bare kunnet tegne blå streker. Vi kan bruke andre farger også!*
+*Досі ми могли малювати лише сині лінії. Ми можемо використовувати й інші кольори!*
 
-Vi legger til noen figurer på bunnen av skjermen. Figurene vil se ut som fargede
-knapper. Når vi klikker på en knapp endres blyantfargen til den fargen knappen
-har. For å vise at vi har byttet farge skal vi gjøre det slik at blyanten også
-skifter farge.
+Додамо кілька фігур у нижній частині екрана. Фігури виглядатимуть як кольорові кнопки. Коли ми натискаємо на кнопку, колір олівця змінюється на колір кнопки. Щоб показати, що ми змінили колір, ми зробимо так, щоб олівець також змінив колір.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Lag en ny figur ved å laste opp `red-selector.gif`.
+- [ ] Створіть нову форму, завантаживши `red-selector.gif`.
 
-- [ ] Gi figuren navnet `Rød` og flytt den ned i venstre hjørne av skjermen.
-
-- [ ] Gi den et skript som sender meldingen `Rød`.
+- [ ] Назвіть фігуру `Червоний` і перемістіть її вниз до лівого кута екрана.
+  
+- [ ] Дайте йому скрипт, який надсилає повідомлення `Червоний`.
 
   ```blocks
-  når denne figuren klikkes
-  send melding [Rød v]
+  коли спрайт натиснуто
+  оповістити [Червоний v]
   ```
 
-  Dette er alt denne figuren gjør. Det vanskelige arbeidet gjøres av blyanten.
+  Це все, що робить ця фігура. Важку роботу виконує олівець.
 
-- [ ] Klikk på blyanten, og deretter på `Drakter`{.blocklightgrey}-fanen.
-  Importer drakten `red-pencil.png`. Sett midtpunktet til blyantspissen for
-  denne drakten også.
+- [ ] Натисніть на олівець і перейдіть на вкладку `Образи`{.blocklightgrey}.
+  Імпортуйте файл `red-pencil.png`. Встановіть центральну точку кінчика олівця для цього костюма.
 
-- [ ] Legg til et nytt skript. Når blyanten får meldingen `Rød`, skal den
-  forandre drakt til `red-pencil`. Og så skal den selvsagt også begynne å tegne
-  rødt. Slik bygger du skriptet:
+- [ ] Додати новий скрипт. Коли олівець отримує повідомлення `Червоний`, він повинен змінити свій образ на `червоний олівець`. І тоді, звичайно, воно також почне малювати червоним. Як створити скрипт:
 
   ```blocks
-  når jeg mottar [Rød v]
-  bytt drakt til [red-pencil v]
-  velg pennfarge [#FF0000]
+  коли я отримую [червоний v]
+  змінити образ на [red-pencil v]
+  надати олівцю колір [#FF0000]
   ```
 
-  For å velge fargen i `velg pennfarge`{.blockpen}-klossen kan du først klikke i
-  fargeruten på klossen, og deretter på den røde knappen du lagde på scenen
-  tidligere.
+  Щоб вибрати колір у блоці `надати олівцю колір`{.blockpen}, ви можете спочатку натиснути на поле кольору на блоці, а потім на червону кнопку, яку ви зробили на сцені раніше.
 
-## Test prosjektet ditt {.flag}
+## Перевірте свій проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Begynn å tegne en strek.
+- [ ] Почніть малювати лінію.
 
-- [ ] Bytt til rødt, og se om fargen forandres.
+- [ ] Переключіться на червоний і подивіться, чи змінився колір.
 
-- [ ] Kommer streken fra blyantspissen nå også?
+- [ ] Чи лінія тепер також виходить від кінчика олівця?
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Gjenta punktene over for å lage blå, gule og grønne knapper og blyanter.
+- [ ] Повторіть наведені вище кроки, щоб зробити сині, жовті та зелені кнопки і олівці.
 
-## Test prosjektet ditt {.flag}
+## Перевірте свій проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Fungerer alle knappene?
+- [ ] Чи всі кнопки працюють?
 
-- [ ] Skifter de til en annen farge på blyanten?
+- [ ] Чи змінюють вони колір олівця на інший?
 
-- [ ] Tegner de med riktig farge?
+- [ ] Чи малюють вони правильним кольором?
 
-- [ ] Tegner alle figurene fra tuppen av blyanten?
+- [ ] Чи всі фігури малюються з кінчика олівця?
 
 
-# Steg 4: Bare tegne på tavla {.activity}
+# Крок 4: Просто малюйте на дошці {.activity}
 
-*Du har sikkert lagt merke til at man kan tegne over hele scenen, og det blir jo
- litt rotete. Skal vi begrense skriblingen til bare den lysegrå tavla må vi
- sette grenser for hvor blyanten kan gå.*
+*Ви, напевно, помічали, що ви можете малювати по всій сцені, і це стає трохи безладним. Якщо ми збираємося обмежити наші каракулі лише світло-сірою дошкою, нам потрібно встановити межі, куди може потрапити олівець.*
 
-Du husker kanskje at Scratch definerer punkter på scenen ved hjelp av `x`- og
-`y`-koordinater. Når du flytter musepekeren rundt omkring vil du se disse
-verdiene nedenfor det høyre hjørnet av scenen.
+Ви, мабуть, пам'ятаєте, що Скретч визначає точки на сцені за допомогою координат `x` та
+`y` Переміщуючи вказівник миші, ви побачите ці значення під правим кутом сцени.
 
-For å finne ut hvor grensene for tavla går kan vi begynne nede i det venstre
-hjørnet. Da står det `x`: *-230* og `y`: *120*. Flytter vi pekeren rett bort til
-det høyre hjørnet ser vi at `y` er uforandret, mens `x` har blitt til *230*. Da
-vet vi at `x`-koordinatene går fra *-230* til *230*. `y`-koordinatene finner vi
-ved å flytte pekeren opp til toppen av tavla. Da kan vi lese av at
-`y`-koordinatene går fra *-120* til *170*.
+Щоб дізнатися, де знаходяться межі дошки, ми можемо почати з лівого нижнього кута. Тут написано `x`: *-230* та `y`: *120*. Якщо ми перемістимо вказівник у правий кут, то побачимо, що `y` не змінилося, а `x` стало *230*. Отже, ми знаємо, що координати `x` змінюються від *-230* до *230*. Ми знаходимо координати `y` перемістивши вказівник у верхню частину дошки. Ми бачимо, що координати `y` змінюються від -120 до 170.
 
-Disse verdiene kan vi bruke inne i en `hvis`{.blockcontrol}-kloss, og si at når
-musepekeren er utenfor tavlas `x`- og `y`-koordinater, så virker ikke blyanten.
+Ми можемо використовувати ці значення всередині блоку `якщо`{.blockcontrol}, і сказати, що коли вказівник миші знаходиться за межами координат `x` і `y` дошки, олівець не буде працювати.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Legg til testene som sier at blyanten bare får følge musepekeren hvis `y`
-  er større enn *-120* og mindre enn *170* og `x` er større enn *-230* og mindre
-  enn *230*. For å få plass til alle testene må du først legge inn en `_ og
-  _`{.blockoperators}-kloss, og deretter legge til to nye `_ og
-  _`{.blockoperators}-klosser inni denne.
+- [ ] Додайте тести, які стверджують, що олівець може слідувати за вказівником миші, тільки якщо `y`
+  більше -120 і менше 170, а `x` більше -230 і менше 230. Щоб вписати всі тести, потрібно спочатку додати блок `_ і
+  _`{.blockoperators}, а потім додати два нових блоки `_ і
+  _`{.blockoperators} всередині нього.
 
   ```blocks
-  når grønt flagg klikkes
-  slett
-  gjenta for alltid
-      hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
-          gå til [musepeker v]
-          hvis <museknappen er trykket?>
-              penn på
-          ellers
-              penn av
+  коли grønt flagg натиснуто
+  очистити все
+  завжди
+      якщо <<<(мишка x) > [-230]> og <(мишка x) < [230]>> і <<(мишка y) > [-120]> і <(мишка y) < [170]>>> то
+          перейти до [вказівник v]
+          якщо <мишку натиснуто?> то
+              опустити олівець
+          інакше
+              підняти олівець
           slutt
       slutt
   slutt
