@@ -85,51 +85,51 @@ language: ua
 повернути в напрямку (90)
 повторити (4)
 перемістити на (100) кроків
-поворот на høyre (90) градусів
+поворот høyre на (90) градусів
 end
 підняти олівець
 оповістити [завершино v]
 ```
 
-## Test prosjektet - for PC{.flag}
+## Тестування проєкту{.flag}
 
-**Klikk på det grønne flagget.**
+**Натисніть на зелений прапор.**
 
-- [ ] Trykk et tilfeldig sted på scena. Ser du et kvadrat? Forsøk å trykke flere steder etter hverandre. Hva skjer?
+- [ ] Доторкніться до довільного місця на сцені. Бачите квадрат? Спробуйте торкнутися кількох місць поспіль. Що відбувається?
 
-- [ ] Nå får vi riktignok bare tegnet én type figur. Forstår du hvorfor? I neste avsnitt skal vi lære å lage flere figurer!
+- [ ] Однак зараз ми можемо намалювати лише один тип фігур. Зрозуміло, чому? У наступному розділі ми навчимося створювати більше фігур!
 
-# Steg 2: Lag kunst! (nettbrett){.activity}
+# Крок 2: Створюємо мистецтво (планшет){.activity}
 
-## Instruksjoner for nettbrett {.check}
+## Інструкція для планшетів {.check}
 
-Siden berøringsenheter som iPad ikke har musepeker, må vi lage en litt annen løsning.
+Оскільки сенсорні пристрої, такі як iPad, не мають вказівників миші, ми повинні створити дещо інше рішення.
 
-- [ ] Dersom du har en PC/Mac med mus, kan du gå videre til Steg 3.
+- [ ] Якщо у вас є PC/Mac з мишкою, ви можете перейти до кроку 3.
 
-- [ ] Først må vi lage oss en knapp vi kan trykke på. Sett inn en ny figur fra galleriet, for eksempel `Button1`, og skriv denne koden:
+- [ ] По-перше, нам потрібно створити кнопку, яку ми зможемо натиснути. Вставте нову фігуру з галереї, наприклад  `Button1`, і напишіть цей код:
 
 ```blocks
-Når grønt flagg klikkes
-gå til x: (180) y: (-150)
+коли grønt flagg натиснуто
+перемістити x: (180) y: (-150)
 
-Når denne figuren klikkes
-send melding [start v]
+коли спрайт натиснуто
+оповістити [старт v]
 ```
 
-- [ ] Bytt tilbake til Blyant-figuren og skriv denne koden:
+- [ ] Поверніться до символу Олівець і напишіть цей код:
 
 ```blocks
-Når jeg mottar [start v]
-stopp [andre skript i figuren v]
-penn på
-pek i retning (90)
-gjenta (4) ganger
-gå (100) steg
-vend høyre (90) grader
+коли я отримую [старт v]
+зупинити [інші скрипти цього сайту v]
+опустити олівець
+повернути в напрямку (90)
+повторити (4)
+перемістити на (100) кроків
+поворот høyre на (90) градусів
 end
-penn av
-send melding [ferdig v]
+підняти олівець
+оповістити [завершино v]
 ```
 
 ## Test prosjektet - for nettbrett {.flag}
