@@ -1,149 +1,150 @@
 ---
-title: Julekort
+title: Різдвяна листівка
 level: 1
-author: 'Espen Clausen'
-translator: 'Stein Olav Romslo'
-language: nn
+author: 'Еспен Клауз'
+translator: 'Анатолій Пилипенко'
+language: ua
 ---
+
 
 # Introduksjon {.intro}
 
-Me skal lage eit julekort i Scratch. Det skal ha nokre enkle funksjonar og
-animasjonar. Når det er ferdig vil det sjå ut om lag som på biletet under.
+Vi skal lage et julekort i Scratch. Det skal ha noen enkle funksjoner
+og animasjoner. Når det er ferdig vil det se omtrent slik ut.
 
-![Døme på eit julekort i Scratch](julekort.png)
+![Eksempel på bilde av et julekort](julekort.png)
 
-# Steg 1: Endre bakgrunn og finn figurar {.activity}
-
-Når du er klar til å starte vel du `Programmering` i menyen øvst på sida
-<http://scratch.mit.edu/>. Då kjem me inn i Scratch.
-
-![Bilete av korleis du startar Scratch frå nettsida](programmering.png)
+# Steg 1: Endre bakgrunn og finne figurer {.activity}
 
 ## Sjekkliste {.check}
 
-- [ ] Klikk på scena ved sidan av kattefiguren `Sprite1` i vindauget for
-  figurar. Trykk på ![Bilete av
-  bakgrunn-ikonet](../bilder/bakgrunn-fra-bibliotek.png) for å importere ein
-  ferdig bakgrunn. Vel den bakgrunnen du vil. Så slettar du den tomme bakgrunnen
-  som ligg der.
+- [ ] Start et nytt prosjekt. Når du står på startsiden til Scratch,
+  trykk på navnet ditt øverst i høyre hjørne.  Trykk så "Mine ting" og
+  til slutt "Nytt prosjekt". Du vil se en katt som venter på å bli
+  programmert!
 
-  ![Bilete som syner kor bakgrunn-ikonet i Scratch ligg](ny_bakgrunn.png)
+- [ ] Trykk på
+![Velg figur fra biblioteket](../bilder/velg-bakgrunn.png) nede til
+høyre for å importere en ferdig bakgrunn. Velg den bakgrunnen du
+vil. Trykk så `Scene`, `Bakgrunner`, velg den tomme bakgrunnen til
+venstre, og slett den ved å høyreklikke på den og velg `Slett`.
 
-- [ ] Slett kattefiguren `Sprite1` ved å høgreklikke på den og slette.
+- [ ] Slett kattefiguren `Sprite1` ved å høyreklikke på ham og slette.
 
-- [ ] Vel nye figurar frå biblioteket. Legg til isbjørnen, snømannen og
-  juletreet.
+- [ ] Velg nye figurer fra biblioteket med dette ikonet nede til
+  høyre: ![Hent fra bibliotek](../bilder/hent-fra-bibliotek.png)
 
-  ![Bilete som syner kor nye figurar-ikonet i Scratch ligg](velg_figurer.png)
+   Legg til isbjørnen, snømannen og juletreet.
 
-# Steg 2: Leggje til kode {.activity}
 
-No skal me få figurane til å gjere ting når dei blir klikka på.
+# Steg 2: Legge til kode {.activity}
+
+Nå skal vi få figurene til å gjøre ting når de blir klikket på.
 
 ## Sjekkliste {.check}
 
-- [ ] Vel isbjørnen og fana `Skript`{.blocklightgrey} og lag denne koden. Når
-  isbjørnen blir klikka på skal den seie `God jul!`. Så skal den skifte utsjånad
-  kvart sekund, 10 gonger.
+- [ ] Velg isbjørnen og fanen `Skript`{.blocklightgrey} og lag denne
+  koden. Når isbjørnen blir klikket på skal den si `God jul!`.
+  Deretter skal den skifte utseende hvert sekund, 10 ganger.
 
   ```blocks
-  når denne figuren vert trykt på
-  sei [God jul!] i (2) sekund
-  gjenta (10) gongar
+  når denne figuren klikkes
+  si [God jul!] i (2) sekunder
+  gjenta (10) ganger
       neste drakt
-      vent (1) sekund
+      vent (1) sekunder
   slutt
   ```
 
 ## Test prosjektet ditt {.flag}
 
-__Klikk på isbjørnen og sjå om koden din virkar.__
+__Klikk på isbjørnen og se om koden din virker.__
 
-- [ ] Seier isbjørnen `God jul!`?
+- [ ] Sier isbjørnen `God jul!`?
 
-- [ ] Forandrar isbjørnen stilling?
+- [ ] Forandrer isbjørnen stilling?
 
 ## Sjekkliste {.check}
 
-- [ ] Vel snømannen og fana `Skript` og lag denne koden. Snømannen skal spørje
-  etter namnet ditt. Den set inn svaret i ei ny setning. Så skal den skifte
-  farge.
+- [ ] Velg snømannen og fanen `Skript` og lag denne koden.  Snømannen skal
+  spørre etter navnet ditt. Den setter svaret inn i en ny
+  setning. Deretter skal den skifte farge.
 
   ```blocks
-  når denne figuren vert trykt på
-  spør [Kva heiter du ?] og vent
-  sei (set saman  [God jul ] (svar)) i (2) sekund
+  når denne figuren klikkes
+  spør [Hva er navnet ditt?] og vent
+  si (sett sammen [God jul ] (svar)) i (2) sekunder
   gjenta for alltid
-      endra  [farge v]-effekt med (25)
+      endre [farge v] effekt med (25)
   slutt
   ```
 
 ## Test prosjektet ditt {.flag}
 
-__Klikk på snømannen og sjå om koden din virkar.__
+__Klikk på snømannen og se om koden din virker.__
 
-- [ ] Spør snømannen om namnet ditt?
+- [ ] Spør snømannen om navnet ditt?
 
-- [ ] Svarar snømannen med namnet ditt når du har skrive det inn?
+- [ ] Svarer snømannen med navnet ditt når du har skrevet det inn?
 
-- [ ] Forandrar snømannen farge?
+- [ ] Forandrer snømannen farge?
 
 ## Sjekkliste {.check}
 
-- [ ] Vel juletreet og fana `Skript`{.blocklightgrey} og lag denne
-koden. No skal juletreet skifte farge og utsjånad.
+- [ ] Velg juletreet og fanen `Skript`{.blocklightgrey} og lag denne
+koden.  Nå skal juletreet skifte farge og utseende.
 
   ```blocks
-  når @greenFlag vert trykt på
+  når @greenFlag klikkes
   gjenta for alltid
-      vent (0.3) sekund
-      endra [farge v]-effekt med (25)
+      vent (0.3) sekunder
+      endre [farge v] effekt med (25)
       neste drakt
   slutt
   ```
 
 ## Test prosjektet ditt {.flag}
 
-__Trykk på det grøne flagget og sjå om alt virkar.__
+__Trykk på det grønne flagget og se om alt virker.__
 
-- [ ] Endrar treet farge?
+- [ ] Endrer treet farge?
 
-- [ ] Dansar treet frå side til side?
+- [ ] Danser treet fra side til side?
 
-# Steg 3: Har du meir tid, seier du? {.activity}
 
-Då har du jobba godt! Om du framleis har tid kan du prøve noko av det følgjande:
+# Steg 3: Har du ledig tid, sier du? {.activity}
+
+Da har du jobbet godt! Om du fortsatt har ledig tid kan du:
 
 ## Sjekkliste {.check}
 
-- [ ] Legg til din eigen velkomsthelsing, til dømes "God jul" eller ein julesang
-  du syng sjølv.
+- [ ] Legge til din egen velkomsthilsen, for eksempel "God jul" eller du
+kan synge din egen julesang.
 
-  Klikk på `Scene`, og vel fana `Lydar`{.blocklightgrey}.
+  Klikk på `Scene`, og velg fanen `Lyder`{.blocklightgrey}. Flytt
+  musepekeren over `Velg en lyd`-ikonet helt nede til venstre, og
+  klikk `Spill inn lyd`.
 
-  ![Bilete av fana "Lydar" i Scratch](lyder.png)
+  ![Bilde av fanen "Lyder" i Scratch](lyder.png)
 
-  Ta opp din eigen lyd og gi den eit namn, til dømes
-  `julehelsing`. Så går du inn på `Skript`{.blocklightgrey}, og
-  legg inn følgjande kode:
+   Ta opp din egen lyd, og gi den et navn, for
+  eksempel `julehilsen`. Gå deretter inn på `Skript`{.blocklightgrey},
+  og legg inn følgende kode:
 
   ```blocks
-  når @greenFlag vert trykt på
-  spel lyden [julehelsing v] til han er ferdig
+  når @greenFlag klikkes
+  spill lyden [julehilsen v] til den er ferdig
   ```
 
-- [ ] Kanskje finn du på nokre andre morosame animasjonar? Snømannen kan til
-  dømes danse eller turne litt? Kan me ha snakkande eller hoppande galne
-  julepresangar? Du bestemmer!
+- [ ] Kanskje finne på noen andre morsomme animasjoner? Snømannen kan
+danse eller turne litt? Kan vi ha snakkende eller hoppende gale
+julepresanger? Du bestemmer!
+
 
 # Steg 4: Lagre og publisere {.activity}
 
-Gi julekortet ditt eit namn. Vel `Lagre no` frå `Fil`menyen.
+Gi julekortet ditt et navn. Klikk `Fil`-menyen øverst til venstre, og klikk `Lagre nå` under den.
 
-![Bilete av menyen i Scratch](lagre.png)
+Deretter kan du publisere julekortet ditt ved å velge `Legg ut`.
 
-Så kan du publisere julekortet ditt ved å velje `Legg ut`.
-
-![Bilde av korleis du publiserer Scratch-julekortet](leggut.png)
-
+![Bilde av hvordan publisere Scratch julekortet](leggut.png)
