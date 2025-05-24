@@ -309,86 +309,79 @@ __Натисніть на зелений прапорець.__
 
 ## Контрольний список {.check}
 
-- [ ] Legg til en ny figur med valgfritt utseende og kall den `Stempel`. Vi
-  valgte Scratch-logoen fra `Ting`-mappen i biblioteket. Krymp figuren og
-  plasser den nederst på skjermen ved siden av de andre verktøyene. Når figuren
-  klikkes skal den sende meldingen `Stempel`.
+- [ ] Додайте нову фігуру з необов'язковим зовнішнім виглядом і назвіть її `Штамп`. Ми вибрали логотип Scratch  у бібліотеці. Зменшіть розмір фігури і розмістіть її внизу екрана поруч з іншими інструментами. Коли ви натиснете на фігуру, вона має надіслати повідомлення `Штамп`.
 
   ```blocks
-  når denne figuren klikkes
-  send melding [Stempel v]
+  коли спрайт натиснуто
+  оповістити [Штамп v]
   ```
 
-- [ ] Legg til en ny drakt for blyantfiguren. Det skal være samme drakt som du
-  nettopp ga stempelet.
+- [ ] Додайте новий образ для фігурки олівця. Це має бути той самий костюм, який ви щойно надали штампу.
 
-- [ ] Velg blyanten og lag en variabel. Kall variabelen
-  `stempelmodus`{.blockdata} og la den gjelde `For denne figuren`. Fjern
-  avhukingen foran variabelen slik at den ikke vises på scenen. Oppgaven til
-  denne variabelen er å holde styr på om vi skal tegne eller stemple.
+- [ ] Виберіть олівець і створіть змінну. Переведіть змінну в
+  `режим штамп`{.blockdata} та застосуйте її `Тільки для цього спрайту`. Зніміть позначку навпроти змінної, щоб вона не відображалася на робочій області. Завдання цієї змінної — відстежувати, чи нам слід малювати, чи штампувати.
 
-- [ ] Legg til et skript for blyanten som responderer på `Stempel`-meldingen.
-  Skriptet skal skifte drakt til den samme drakten du valgte for stempelet.
-  Deretter skal det sette verdien til `stempelmodus`{.blockdata} lik `på`.
+
+- [ ] Додайте сценарій для олівця, який реагує на повідомлення `Штамп`.
+  Скрипт повинен змінювати образ на той самий, який ви вибрали для штампа. Після цього він має встановити значення 
+  `режиму штампа`{.blockdata} на `увімкнено`.
 
   ```blocks
-  når jeg mottar [Stempel v]
-  bytt drakt til [scratch logo v]
-  sett [stempelmodus v] til [på]
+  коли я отримую [Штамп v]
+  змінити образ на [scratch logo v]
+  надати [режим штамп v] значення [увімкнено]
   ```
 
-- [ ] Forandre de andre skriptene som er knyttet til fargevelgerne og viskelæret
-  slik at de setter `stempelmodus`{.blockdata} lik `av`. For eksempel blir
-  viskelærskriptet slik:
+- [ ] Змініть інші скрипти, пов’язані з палітрами кольорів та гумкою, щоб вимкнути `режим штампа`{.blockdata} Наприклад, скрипт гумки стає таким:
 
   ```blocks
-  når jeg mottar [Visk v]
-  bytt drakt til [eraser v]
-  velg pennfarge [#606060]
-  sett [stempelmodus v] til [av]
+  коли я отримую [Стерти v]
+  змінити образ на [eraser v]
+  надати олівцю колір [#606060]
+  надати [режим штамп v] значення [вимкнено]
   ```
 
-- [ ] Til slutt må vi sjekke variabelen inne i `hvis`{.blockcontrol}`museknappen
-  er nede?`{.blocksensing} for å se om vi skal tegne eller stemple. Hvis
-  `stempelmodus`{.blockdata} er satt til `på` skal vi stemple, hvis ikke skal vi
-  bruke den eksisterende `penn på`{.blockpen}-klossen.
+- [ ] Нарешті, нам потрібно перевірити змінну всередині `якщо`{.blockcontrol}`мишку натиснуто?`{.blocksensing} щоб побачити, чи нам слід малювати, чи штампувати. Якщо
+  `режим штампа`{.blockdata} ввімкнено, ми будемо штампувати, якщо ні, то використовуватимемо блок.
+ `опустити олівець`{.blockpen}.
 
   ```blocks
-  når grønt flagg klikkes
-  slett
-  gjenta for alltid
-      hvis <<<(mus x) > [-230]> og <(mus x) < [230]>> og <<(mus y) > [-120]> og <(mus y) < [170]>>>
-          gå til [musepeker v]
-          vis
-          hvis <museknappen er trykket?>
-              hvis <(stempelmodus) = [på]>
-                  stemple avtrykk
-              ellers
-                  penn på
+  коли grønt flagg натиснуто
+  сховати
+  очистити все
+  завжди
+      hvis <<<(мишка x) > [-230]> і <(мишка x) < [230]>> і <<(мишка y) > [-120]> і <(мишка y) < [170]>>> то
+          перейти до [вказівник v]
+          показати
+          якщо <мишку натиснуто?> то
+              якщо <(режим штамп) = [увімкнено]> то
+                  штамп
+              інакше
+                  опустити олівець
               slutt
-          ellers
-              penn av
+          інакше
+              підняти олівець
           slutt
-      ellers
-          skjul
-          penn av
+      інакше
+          сховати
+          підняти олівець
       slutt
   slutt
   ```
 
-## Test prosjektet ditt {.flag}
+## Перевірте свій проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапор.__
 
-- [ ] Klarer du å stemple avtrykk?
+- [ ] Чи вмієте ви робити відбитки штампів?
 
-- [ ] Hva skjer når du skifter tilbake til en av blyantene?
+- [ ] Що станеться, якщо ви знову перейдете до одного з олівців?
 
-## Lagre prosjektet {.save}
+## Зберегти проєкт {.save}
 
-__Veldig bra jobba! Du er nå ferdig med programmet.__
+__Чудова робота! Ви закінчили програму.__
 
-Du kan også prøve disse utfordringene!
+Ви також можете спробувати ці виклики!
 
 ## Utfordring 1: Regnbueblyant {.challenge}
 
