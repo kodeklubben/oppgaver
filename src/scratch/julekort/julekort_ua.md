@@ -13,46 +13,33 @@ language: ua
 
 ![Eksempel på bilde av et julekort](julekort_ua.png)
 
-# Steg 1: Endre bakgrunn og finne figurer {.activity}
+# Крок 1: Змініть фон і знайдіть фігури {.activity}
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Start et nytt prosjekt. Når du står på startsiden til Scratch,
-  trykk på navnet ditt øverst i høyre hjørne.  Trykk så "Mine ting" og
-  til slutt "Nytt prosjekt". Du vil se en katt som venter på å bli
-  programmert!
+- [ ] Почніть новий проєкт. На стартовій сторінці Scratch натисніть на своє ім'я у верхньому правому куті. Потім натисніть "Мої проекти" і, нарешті, "Створити проект". Ти побачиш кота, який чекає, щоб його запрограмували!
 
-- [ ] Trykk på
-![Velg figur fra biblioteket](../bilder/velg-bakgrunn.png) nede til
-høyre for å importere en ferdig bakgrunn. Velg den bakgrunnen du
-vil. Trykk så `Scene`, `Bakgrunner`, velg den tomme bakgrunnen til
-venstre, og slett den ved å høyreklikke på den og velg `Slett`.
+- [ ] Натисніть
+![Velg figur fra biblioteket](../bilder/velg-bakgrunn.png) у правому нижньому куті, щоб імпортувати готове тло. Виберіть потрібне тло. Потім натисніть `Сцена`, `Тло`, виберіть порожнє тло зліва і видаліть його, клацнувши правою кнопкою миші і вибравши `Вилучити`.
 
-- [ ] Slett kattefiguren `Sprite1` ved å høyreklikke på ham og slette.
+- [ ] Видаліть персонажа кота `Спрайт 1`.
 
-- [ ] Velg nye figurer fra biblioteket med dette ikonet nede til
-  høyre: ![Hent fra bibliotek](../bilder/hent-fra-bibliotek.png)
+- [ ] Виберіть нові фігури з бібліотеки за допомогою цієї іконки в правому нижньому куті: ![Hent fra bibliotek](../bilder/hent-fra-bibliotek.png)
 
-   Legg til isbjørnen, snømannen og juletreet.
+   Додайте оленя, сніговика та подарунок.
 
 
-# Steg 2: Legge til kode {.activity}
+# Крок 2: Додайте код {.activity}
 
-Nå skal vi få figurene til å gjøre ting når de blir klikket på.
+Тепер ми зробимо так, щоб фігури виконували певні дії при натисканні на них.
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Velg isbjørnen og fanen `Skript`{.blocklightgrey} og lag denne
-  koden. Når isbjørnen blir klikket på skal den si `God jul!`.
-  Deretter skal den skifte utseende hvert sekund, 10 ganger.
+- [ ] Виберіть `reindeer` та вкладку `код`{.blocklightgrey}і створіть цей код. Коли на оленя натискають, він повинен сказати `Щасливого Різдва!`.
 
   ```blocks
-  når denne figuren klikkes
-  si [God jul!] i (2) sekunder
-  gjenta (10) ganger
-      neste drakt
-      vent (1) sekunder
-  slutt
+  коли спрайт натиснуто
+  говорити [Щасливого Різдва!] (2) сек
   ```
 
 ## Test prosjektet ditt {.flag}
