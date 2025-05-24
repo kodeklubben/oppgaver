@@ -99,33 +99,26 @@ __Натисніть зелений прапорець і перевірте, ч
 
 ## Контрольний список {.check}
 
-- [ ] Legge til din egen velkomsthilsen, for eksempel "God jul" eller du
-kan synge din egen julesang.
+- [ ] Додайте власне привітання, наприклад, "Щасливого Різдва", або заспівайте власну різдвяну пісню.
 
-  Klikk på `Scene`, og velg fanen `Lyder`{.blocklightgrey}. Flytt
-  musepekeren over `Velg en lyd`-ikonet helt nede til venstre, og
-  klikk `Spill inn lyd`.
+  Клацніть на `Сцена`, і виберіть вкладку `Звуки`{.blocklightgrey}. Наведіть вказівник миші на іконку `Обрати звук` внизу ліворуч і натисніть кнопку `Записати`.
 
-  ![Bilde av fanen "Lyder" i Scratch](lyder.png)
+  ![Bilde av fanen "Lyder" i Scratch](lyder_ua.png)
 
-   Ta opp din egen lyd, og gi den et navn, for
-  eksempel `julehilsen`. Gå deretter inn på `Skript`{.blocklightgrey},
-  og legg inn følgende kode:
+   Запишіть власний звук і дайте йому назву, наприклад, `різдвяне привітання`. Потім перейдіть до `коду`{.blocklightgrey},
+  і введіть наступний код:
 
   ```blocks
-  når @greenFlag klikkes
-  spill lyden [julehilsen v] til den er ferdig
+  коли @greenFlag натиснуто
+  відтворити звук [різдвяне привітання v] до кінця
   ```
 
-- [ ] Kanskje finne på noen andre morsomme animasjoner? Snømannen kan
-danse eller turne litt? Kan vi ha snakkende eller hoppende gale
-julepresanger? Du bestemmer!
+- [ ] Може, придумати якусь іншу веселу анімацію? Сніговик може потанцювати або помандрувати? Чи можемо ми мати розмовляючі або стрибаючі божевільні різдвяні подарунки? Це залежить від вас!
 
+# Крок 4: Зберегти та поділитись {.activity}
 
-# Steg 4: Lagre og publisere {.activity}
+Дайте своїй різдвяній листівці назву. Клацніть меню `Файл` у верхньому лівому кутку і натисніть `Зберегти негайно` під ним.
 
-Gi julekortet ditt et navn. Klikk `Fil`-menyen øverst til venstre, og klikk `Lagre nå` under den.
+Після цього ви можете опублікувати свою різдвяну листівку, вибравши `Поділитись`.
 
-Deretter kan du publisere julekortet ditt ved å velge `Legg ut`.
-
-![Bilde av hvordan publisere Scratch julekortet](leggut.png)
+![Bilde av hvordan publisere Scratch julekortet](leggut_ua.png)
