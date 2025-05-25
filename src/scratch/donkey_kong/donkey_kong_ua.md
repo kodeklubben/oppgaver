@@ -37,12 +37,9 @@ Donkey Kong була першою по-справжньому платформе
 
 ## Контрольний список {.check}
 
-- [ ] Start et nytt prosjekt.
+- [ ] Розпочати новий проєкт.
 
-- [ ] For å kunne teste at heltefiguren oppfører seg som vi vil trenger vi en
-  enkel plattform (vi skal tegne flere plattformer senere). Tegn en ny bakgrunn.
-  Velg å tegne med `Vektorgrafikk`. Tegn en smal, lang boks nederst på skjermen.
-  Fyll den med en farge forskjellig fra linjefargen.
+- [ ] Щоб перевірити, що герой поводиться так, як ми хочемо, нам знадобиться проста платформа (пізніше ми намалюємо більше платформ). Намалюйте нове тло. Виберіть для малювання `векторну графіку`. Намалюйте вузьку довгу рамку внизу екрана. Заповніть його кольором, відмінним від кольору лінії.
 
   ![Bilde av en plattform i Scratch](plattform.png)
 
