@@ -1,7 +1,7 @@
 ---
 title: 'Лабіринт'
 level: 1
-author: 'Гейр Арне Х'єлле'
+author: 'Гейр Арне Хєлле'
 translator: 'Анатолій Пилипенко'
 language: ua
 ---
