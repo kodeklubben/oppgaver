@@ -275,79 +275,65 @@ __Натисніть на зелений прапорець.__
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Forsvinner fortsatt skatten når utforskeren finner fram til den?
+- [ ] Чи зникає скарб, коли дослідник його знаходить?
 
-- [ ] Virker spillet slik det skal når du starter det på nytt etter å ha
-  funnet skatten?
+- [ ] Чи працює гра належним чином, коли ви перезапускаєте її після того, як знайшли скарб?
 
+# Крок 5: Жаб'ячий король охороняє коридори {.activity}
 
-# Steg 5: Froskekongen vokter i gangene {.activity}
+*Тепер ми ускладнимо гру. Жаб'ячий король блукає лабіринтом і шукає скарб.*
 
-*Nå skal vi gjøre spillet vanskeligere. Froskekongen vandrer rundt i
- labyrinten og passer på skatten.*
+## Контрольний список {.check}
 
-## Sjekkliste {.check}
+- [ ] Додайте нового персонажа. Ми використали `Тварини/Frog`. Назвемо його
+  `Жаб'ячий король`.
 
-- [ ] Legg til en ny figur. Vi brukte `Dyr/Frog`. Gi den navnet
-  `Froskekonge`.
+- [ ] Помістіть нову фігуру десь у лабіринті. Зробіть її меншою або більшою, якщо потрібно.
 
-- [ ] Plasser den nye figuren et sted i labyrinten. Gjør den mindre eller
-  større om nødvendig.
+Ми почнемо з того, що дамо `Жаб'ячому королю` зрозуміти, що він спіймав дослідницю. Це буде дуже схоже на те, як `Скарб` помітив, що його знайшли.
 
-Vi begynner med å la `Froskekonge` merke at den fanger utforskeren.
-Dette blir veldig likt hvordan `Skatt` merket at den ble funnet.
-
-- [ ] Legg til følgende kode:
+- [ ] Додайте наступний код:
 
   ```blocks
-  når @greenFlag klikkes
-  gjenta for alltid
-      hvis <berører [Utforsker v]?>
-          si [Tok deg!] i (1) sekunder
-          stopp [alle v] :: control
+  коли @greenFlag натиснуто
+  завжди
+      якщо <торкається [Дослідниця v]?> то
+          говорити [Попався!] (1) сек
+          зупинити [все v] :: control
       slutt
   slutt
   ```
 
-Linjen `stopp [alle v] :: control`{.b} gjør at skriptet på `Skatt`
-slutter å kjøre. Det betyr at vi klarer ikke å få tak i skatten etter
-at vi har blitt tatt av `Froskekonge`.
+Блок `зупинити [все v] :: control`{.b} зупиняє виконання скрипту `Скарб`. Це означає, що ми не зможемо повернути скарб після того, як його захопить `Жаб'ячий король`.
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Hva skjer om utforskeren kommer borti froskekongen?
+- [ ] Що станеться, якщо дослідниця зіткнеться з жаб'ячим королем?
 
-- [ ] Hva skjer når du finner skatten etter å ha blitt tatt av
-  froskekongen?
+- [ ] Що станеться, якщо ви знайдете скарб після того, як вас спіймав жаб'ячий король?
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-Til sist skal vi få froskekongen til å bevege seg rundt i labyrinten.
+Нарешті, ми змусимо жаб'ячого короля рухатися лабіринтом.
 
-- [ ] Start et nytt skript på `Froskekonge`-figuren. Igjen kan du bytte ut
-  tallene for `x` og `y` med noe som passer for din labyrint.
+- [ ] Запустіть новий сценарій для персонажа `Жаб'ячого короля`. Знову ж таки, ви можете замінити числа для `x` та `y` чимось, що підходить для вашого лабіринту.
 
   ```blocks
-  når @greenFlag klikkes
-  gå til x: (50) y: (100)
-  pek i retning (-90 v)
+  коли @greenFlag натиснуто
+  перемістити в x: (50) y: (100)
+  повернути в напрямку (-90 v)
   ```
 
-- [ ] Før vi lar `Froskekonge` begynne å bevege seg lager vi en
-  `(hastighet)`{.b}-variabel også for ham. Klikk på
-  `Variabler`{.blockdata}, og deretter `Lag en Variabel`. Kall variabelen
-  `hastighet` og la den gjelde kun `For denne figuren`. Tilslutt,
-  fjern avhukingen på variabelen.
+- [ ] Перш ніж дозволити `Жаб'ячому королю` почати рух, ми створюємо  змінну
+  `(швидкість)`{.b}для нього. Клацніть на `Змінні`{.blockdata}, а потім `Створити змінну`. Назвіть змінну `швидкість` і дозвольте їй застосовуватися `Тільки для цього спрайту`.
 
-- [ ] Vi kan nå utvide skriptet slik at froskekongen går fram og
-  tilbake. Vi får ham til å snu når han treffer veggen på nesten samme
-  måte som vi hindrer utforskeren i å gå gjennom veggen.
+- [ ] Тепер ми можемо розширити сценарій так, щоб жаб'ячий король ходив туди-сюди. Ми змушуємо його розвертатися, коли він вдаряється об стіну, так само, як ми не даємо дослідниці пройти крізь стіну.
 
   ```blocks
   når @greenFlag klikkes
