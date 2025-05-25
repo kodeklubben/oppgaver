@@ -368,46 +368,29 @@ __Натисніть на зелений прапорець.__
   slutt
   ```
 
-Disse to siste klossene ser litt kompliserte ut. La oss se litt nøyere på dem.
+Останні дві цеглинки виглядають трохи складніше. Давайте подивимося на них ближче.
 
-- [ ] Klossen `hvis <(tilfeldig tall fra (1) til (25)) = [1]>`{.b} sier at
-  vi skal gjøre *noe* cirka èn av 25 ganger.
+- [ ] Це `якщо <(випадкове від (1) до (25)) = [1]> то`{.b} каже нам *щось* робити приблизно один раз на 25.
 
-- [ ] Dette *noe* er `snu @turnRight ((tilfeldig tall fra (-1) til (1)) *
-  (90)) grader`{.b}. Tegnet `*` betyr gange, slik at om vi velger
-  tilfeldig mellom tallene -1, 0 og 1, betyr det at froskekongen vil
-  vende -90, 0 eller 90 grader. Det vil si at den svinger mot venstre,
-  fortsetter rett frem eller svinger mot høyre.
+- [ ] Це `поворот @turnRight на ((випадкове від (-1) до (1)) *
+  (90)) градусів`{.b}. Знак `*` означає ходьбу, тож якщо ми виберемо навмання числа -1, 0 і 1, це означатиме, що жаб'ячий король повернеться на -90, 0 або 90 градусів. Іншими словами, він поверне ліворуч, продовжить йти прямо або поверне праворуч.
 
-## Tips {.protip}
+## Поради щодо використання {.protip}
 
-Du kan av og til oppleve at `Froskekonge` setter seg fast i
-veggen. Dette er fordi `Froskekonge` fortsatt berører labyrintveggen
-etter at den har snudd seg. Et par ting du kan prøve for å forbedre
-dette er å gjøre `Froskekonge`-figuren mindre, legge en `begrens
-rotasjon [ikke roter v]`{.b}-kloss øverst i `Froskekonge`-skriptet,
-eller velge en figur som er _rundere_ (prøv også å viske bort tunga
-til `Froskekonge` om du bruker `Dyr/Frog`-figuren).
+Іноді ви можете помітити, що Жаб'ячий король застряг у стіні. Це відбувається тому, що Жаб'ячий король все ще торкається стіни лабіринту після того, як він розвернувся. Ви можете спробувати виправити цю ситуацію кількома способами: зменшити фігурку Жаб'ячого короля, додавши  `стиль обертання [не обертати v]`{.b} у верхній частині сценарію `Жаб'ячого короля` або виберіть округлішу форму (також спробуйте стерти язик `Жаб'ячого короля`, якщо ви використовуєте форму `Тварини/Frog`).
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Klarer du å få tak i skatten?
+- [ ] Чи зможете ви дістати скарб?
 
-- [ ] Om du synes spillet er for lett eller vanskelig er det mange måter
-  du kan endre dette på! Prøv å lag froskekongen større eller
-  mindre. Prøv å endre hastigheten på både utforskeren og
-  froskekongen. Om du endrer tallet 25 i det siste skriptet vi laget
-  for `Froskekonge` vil han endre retning oftere eller sjednere.
+- [ ] Якщо гра здається вам занадто легкою або складною, є безліч способів це змінити! Спробуйте зробити жаб'ячого короля більшим або меншим. Спробуйте змінити швидкість дослідниці та жаб'ячого короля. Якщо ви зміните число 25 в останньому скрипті, який ми створили для `Жаб'ячого короля`, він буде змінювати напрямок руху частіше або повільніше.
 
-- [ ] Du kan også prøve å lage flere skatter. Prøv å høyreklikk på
-  `Skatt`-figuren og velg `Lag en kopi`.
+- [ ] Ви також можете спробувати створити більше `Скарбів`. Спробуйте клацнути правою кнопкою миші на символі `Скарб` і вибрати пункт `дублювати`.
 
-## Lagre prosjektet {.save}
+## Збережіть свій проєкт {.save}
 
-*Da var vi ferdig med labyrint-spillet!*
+*На цьому ми закінчили з грою в лабіринт!*
 
-Nå kan du gå på skattejakt! Hvis du vil kan du dele spillet med
-familie og venner ved å trykke `Legg ut`.
-
+Тепер ви можете вирушати на пошуки скарбів! Якщо хочете, можете поділитися грою з родиною та друзями, натиснувши кнопку `Поділитися`.
