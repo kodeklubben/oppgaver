@@ -192,30 +192,19 @@ Donkey Kong була першою по-справжньому платформе
 - [ ] Нарешті, створіть скарб, який повинен врятувати Стрибун. Це буде новий персонаж, який може стояти на місці, поки не `торкається Стрибуна` а потім надішле повідомлення про `знахідку скарбу`. Напишіть код, який відповідним чином реагує на це повідомлення.
 
 
-# Steg 4: Videreutvikling av spillet {.activity}
+# Крок 4: Подальший розвиток гри {.activity}
 
-*Du har nå laget en enkel variant av Donkey Kong. Men prøv å gjøre spillet
- morsommere ved å videreutvikle det. Du bestemmer selv hvordan du vil jobbe
- videre, men nedenfor er noen ideer som kanskje kan være til inspirasjon?*
+*Ви створили просту версію Donkey Kong. Але спробуйте зробити гру ще цікавішою, розвиваючи її далі. Вам вирішувати, як ви хочете діяти далі, але нижче наведено кілька ідей, які можуть вас надихнути.*
 
-## Ideer til videreutvikling {.check}
+## Ідеї для подальшого розвитку {.check}
 
-- [ ] Legg gjerne til flere animasjoner og lyder. For eksempel kan Donkey Kong
-  gjøre en kastebevegelse når han kaster ildkuler.
+- [ ] Не соромтеся додавати більше анімації та звуків. Наприклад, Donkey Kong може робити кидковий рух, коли кидає вогняні кулі.
 
-- [ ] Lag en forside og meny. Om du lager en forside som forteller litt om
-  hvordan man spiller spillet ditt blir det enklere for andre å spille det også!
+- [ ] Створіть головну сторінку та меню. Якщо ви створите домашню сторінку, яка пояснює, як грати у вашу гру, іншим буде легше в неї грати!
 
-- [ ] Vi har laget ett brett, men du kan enkelt tegne flere bakgrunner med andre
-  plattformer og hindringer. Prøv å lag flere brett hvor man kommer videre til
-  neste nivå etter at man har funnet skatten.
+- [ ] Ми створили одну дошку, але ви можете легко створити більше фонів з іншими платформами та перешкодами. Спробуйте створити кілька дощок, на яких ви зможете перейти на наступний рівень після того, як знайдете скарб.
 
-- [ ] For å gi spillerene litt mer motivasjon kan det være lurt å telle poeng og
-  liv. Til dette trenger du to nye variabler, `(poeng)`{.b} og `(liv)`{.b}. For
-  å telle liv kan du bruke `fanget Jumpman`-meldingen. Før du teller poeng må du
-  tenke på hva du vil at spillerene skal få poeng for?
+- [ ] Щоб дати гравцям трохи більше мотивації, можливо, було б гарною ідеєю рахувати очки та життя. Для цього вам знадобляться дві нові змінні, `(очки)`{.b} і `(життя)`{.b}. Щоб підрахувати життя, ви можете скористатися повідомленням `Стрибуна вражено`. Перш ніж рахувати очки, потрібно подумати, за що ви хочете, щоб гравці отримували очки?
 
-- [ ] Du kan legge til en tidsbegrensning om du vil gjøre spillet mer
-  utfordrende. Til dette bruker du en variabel `(tid)`{.b} som du
-  `endrer`{.blockdata} og deretter `venter 1 sekund`{.blockcontrol}.
+- [ ] Ви можете додати обмеження часу, якщо хочете зробити гру більш складною. Для цього використовуйте змінну `(час)`{.b}, яку ви `змінюєте`{.blockdata}, а потім `чекаєте 1 секунду`{.blockcontrol}.
 
