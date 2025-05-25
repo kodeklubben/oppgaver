@@ -77,31 +77,26 @@ Donkey Kong була першою по-справжньому платформе
 
 - [ ] Якщо ви спробуєте свою гру (не забудьте додати скрипт до фону, який надсилає повідомлення `нова гра` при натисканні на зелений прапорець), ви побачите, що ваш персонаж падає на платформу. Але ви не можете ним керувати.
 
-- [ ] For å styre `Jumpman` legger vi flere `hvis`{.blockcontrol}-tester inn i
-  hovedløkken. For eksempel kan du få figuren til å bevege seg mot venstre ved å
-  legge til dette rett før `endre x med (fartX)`{.b}:
+- [ ] Щоб керувати `Стрибуном`, ми додаємо кілька тестів `якщо`{.blockcontrol} до основного циклу. Наприклад, ви можете змусити персонажа рухатися ліворуч, додавши це безпосередньо перед
+ `змінити x на (швидкістьX)`{.b}:
 
   ```blocks
-  hvis <tast [pil venstre v] trykket?>
-      pek i retning (-90 v)
-      sett [fartX v] til [-5]
-      neste drakt
+  якщо <клавішу [стрілка вгору v] натиснуто?> то
+      повернути в напрямку (-90 v)
+      надати [швидкістьX v] значення [-5]
+      наступний образ
   slutt
   ```
 
-  Lag også en tilsvarende blokk for å flytte figuren mot høyre.
+  Також створіть відповідний блок, щоб перемістити фігуру вправо.
 
-- [ ] Vi vil også at `Jumpman` hopper når vi trykker på `pil opp`-tasten. Her må
-  vi være litt forsiktig, siden vi bare vil at figuren kan hoppe hvis den står
-  på en plattform (ikke når den allerede hopper). En enkel måte å få til dette
-  på er å legge `pil opp`-testen inne i testen for om figuren står på
-  plattformen:
+- [ ] Ми також хочемо, щоб `Стрибун` стрибав, коли ми натискаємо клавішу зі `стрілка вгору`. Тут потрібно бути трохи обережними, оскільки ми хочемо, щоб персонаж стрибав лише тоді, коли він стоїть на платформі (а не тоді, коли він вже стрибає). Простий спосіб досягти цього - додати тест зі  `стрілкою вгору` всередину тесту, який перевіряє, чи стоїть персонаж на платформі:
 
   ```blocks
-  hvis <berører fargen [#0000ff]>  // gammel kode: figuren står på plattformen
-      sett [fartY v] til [0]
-      hvis <tast [pil opp v] trykket?>  // ny kode: figuren hopper
-          sett [fartY v] til [5]
+  якщо <торкається кольору [#cc0099]> то // старий код: персонаж стоїть на платформі
+      надати [швидкістьY v] значення [0]
+      якщо <клавішу [стрілка вгору v] натиснуто?> то  // новий код: персонаж стрибає
+          надати [швидкістьY v] значення [5]
       slutt
   slutt
   ```
