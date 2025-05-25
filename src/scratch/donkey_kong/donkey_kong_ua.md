@@ -101,104 +101,75 @@ Donkey Kong була першою по-справжньому платформе
   slutt
   ```
 
-Vi har nå et bra utgangspunkt for et plattformspill. Nemlig en figur som vi kan
-styre rundt, og som kan hoppe når vi vil det. Lek litt med `Jumpman` og tallene
-vi har brukt i `sett [fartX v] til []`{.b}- og `sett [fartY v] til
-[]`{.b}-klossene slik at du får en bevegelse du synes virker naturlig.
+Тепер у нас є хороша відправна точка для платформної гри. А саме, персонаж, яким ми можемо керувати і який може стрибати, коли захочемо. Пограйте з `Стрибуном` і числами, які ми використовували в блоках `надати [швидкістьX v] значення []`{.b}- і `надати [швидкістьY v] значення[]`{.b} так, щоб ви отримали рух, який буде природним для вас.
 
-- [ ] Du har kanskje oppdaget at av og til faller `Jumpman` delvis _gjennom_
-  plattformen? Hvis ikke, prøv å slipp ham fra toppen av skjermen. Den følgende
-  testen fikser dette ganske greit:
+- [ ] Можливо, ви помітили, що іноді `Стрибун` частково падає _через_
+  платформу? Якщо ні, спробуйте кинути його з верхньої частини екрана. Наступний тест виправляє це досить плавно:
 
   ```blocks
-  hvis <berører fargen [#009900]>
-      endre y med (2)
+  якщо <торкається кольору [#990072]> то
+      змінити y на (2)
   slutt
   ```
 
-  Dette var også grunnen til at vi fylte plattformen med en annen farge enn
-  linjefargen.
+  Це також стало причиною того, що ми зафарбували платформу кольором, відмінним від кольору лінії.
 
+# Крок 2: Платформи та драбини {.activity}
 
-# Steg 2: Plattformer og stiger {.activity}
+*Тепер у нас є персонаж, який може бігати і стрибати по екрану. Давайте створимо більше платформ, на яких він зможе грати.*
 
-*Nå har vi en figur som kan springe og hoppe rundt på skjermen. La oss lage
- flere plattformer den kan leke seg på.*
+Під час малювання декількох платформ важливо використовувати `векторну графіку`
+оскільки це дозволяє легко переміщати платформи після того, як ми їх намалювали.
 
-Mens vi tegner flere plattformer er det viktig at vi bruker `Vektorgrafikk`
-fordi dette gjør det lett å flytte plattformene rundt etter at vi har tegnet
-dem.
+## Контрольний список {.activity}
 
-## Sjekkliste {.activity}
+- [ ] Перш ніж намалювати більше платформ, ми створимо драбини, які полегшать нашому герою підйом і спуск. Як і у випадку з платформами, ми розпізнаватимемо драбини за кольором. Щоб провести простий тест, спочатку намалюйте лінію, що йде прямо вгору від платформи (драбину ми намалюємо пізніше) новим кольором:
 
-- [ ] Før vi tegner flere plattformer skal vi lage stiger, som vil gjøre det
-  enklere for helten vår å klatre opp eller ned. Som for plattformer skal vi
-  kjenne igjen stiger ved hjelp av fargen. For å gjøre litt enkel testing, tegn
-  først en strek rett opp fra plattformen (vi skal tegne en finere stige senere)
-  i en ny farge:
+  ![Bilde av en rett strek som illustrerer en stige](stige_ua.png)
 
-  ![Bilde av en rett strek som illustrerer en stige](stige.png)
+  Використовуйте інструмент __лінія__ і утримуйте клавішу `shift` під час малювання, щоб отримати ідеально пряму лінію.  
 
-  Bruke __linje__-verktøyet og hold inne `shift`-knappen mens du
-  tegner for å få en helt rett linje.
-
-- [ ] Hvordan skal helten vår klatre i en stige? Først og fremst vil han ikke
-  falle nedover (på samme måte som når han står på en plattform). I tillegg vil
-  vi kunne klatre opp og ned i stigen. Legg til denne testen på `Jumpman`:
+- [ ] Як наш герой підніматиметься по драбині? Перш за все, він не впаде вниз (так само, як коли стоїть на платформі). Крім того, ми зможемо підніматися і спускатися по драбині. Додайте цей тест до `Стрибуна`:
 
   ```blocks
-  hvis <berører fargen [#ff0000]?>
-      sett [fartY v] til [0]
-      hvis <tast [pil opp v] trykket?>
-          endre y med (3)
+  якщо <торкається кольору [#99ffcc]?> то
+      надати [швидкістьY v] значення [0]
+      якщо <клавішу [стрілка вгору v] натиснуто?>
+          змінити y на (3)
       slutt
   slutt
   ```
 
-  Med denne koden kan vi klatre opp stigen. Hvordan kommer vi oss ned igjen? Kan
-  du legge til en `hvis <tast [pil ned v] trykket?>`{.b}-test til slik at vi
-  også kan klatre ned stigen?
+  За допомогою цього коду ми можемо піднятися по сходах. А як спуститися назад? Чи можете ви додати 
+ `якщо <клавішу [стрілка вниз v] натиснуто?> то`{.b} тест, щоб ми також могли спуститися вниз по сходах?
 
-- [ ] Tegn flere plattformer og stiger. Test underveis at det er mulig for
-  `Jumpman` å klatre eller hoppe mellom plattformene, men samtidig at han ikke
-  klarer å hoppe mellom to plattformer når det ikke er meningen at det skal gå
-  an.
+- [ ] Намалюйте кілька платформ і сходів. Перевірте, чи може
+  `Стрибун` стрибати або перестрибувати між платформами, а також чи не може він перестрибувати між двома платформами, коли йому це не потрібно.
 
-- [ ] Når du er fornøyd med hvordan brettet ser ut kan du også tegne stigene
-  litt finere. Om du vil kan du også vente med dette til etter at du har
-  programmert Donkey Kong i neste steg.
+- [ ] Після того, як ви задоволені тим, як виглядає дошка, ви можете промальовувати сходи трохи тонше. Якщо хочете, можете зачекати, поки не запрограмуєте Donkey Kong на наступному кроці.
 
-  ![Bilde av en mer realistisk stige](stige_med_plattform.png)
+  ![Bilde av en mer realistisk stige](stige_med_plattform_ua.png)
 
 
-# Steg 3: Donkey Kong og rullende ildkuler {.activity}
+# Крок 3: Donkey Kong та вогняні кулі {.activity}
 
-*På tide med litt utfordringer! Nå skal vi programmere Donkey Kong til å kaste
- rullende ildkuler mot oss.*
+*Час для деяких викликів! Тепер ми запрограмуємо Donkey Kong кидати в нас вогняні кулі, що котяться.*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Lag en `Donkey Kong`-figur, og plasser den på en passende plattform. Denne
-  vil ikke bevege seg i dette spillet, slik at den eneste koden vi egentlig
-  trenger er for å kaste ildkuler. Vi skal lage denne koden snart.
+- [ ] Створіть персонажа `Donkey Kong` і розмістіть його на відповідній платформі. У цій грі він не буде рухатися, тому єдиний код, який нам потрібен, - це код для кидання вогняних кульок. Ми створимо цей код найближчим часом.
 
-- [ ] Lag også en ny `Ildkule`-figur. Dette kan være en sirkel du farger
-  oransje, eller du kan prøve å tegne noe mer avansert. La figuren
-  `skjules`{.blocklooks} når det grønne flagget klikkes.
+- [ ] Також створіть нову фігуру `Вогняна куля`. Це може бути коло, яке ви можете зафарбувати помаранчевим кольором, або ви можете спробувати намалювати щось більш складне. Нехай фігура буде
+  `схована`{.blocklooks} при натисканні на зелений прапорець.
 
-- [ ] Nå skal vi skrive koden på Donkey Kong. Den blir ganske enkel. Etter at
-  `Donkey Kong` mottar `nytt spill` kan du la han gå inn i en `gjenta for
-  alltid`{.blockcontrol}-løkke hvor han `lager klon av Ildkule`{.blockcontrol}
-  og deretter `venter 3 sekunder`{.blockcontrol}.
+- [ ] Тепер ми напишемо код для Donkey Kong. Це буде досить просто. Після того, як
+  `Donkey Kong` отримає `нова гра`, ви можете дозволити йому піти у `завжди`{.blockcontrol} цикл повторення, де він `створе клон з вогняної кулі`{.blockcontrol}, а потім `чекає 3 секунди`{.blockcontrol}.
 
-- [ ] Men nå må vi programmere hvordan ildkulene skal oppføre seg. Vi vil holde
-  styr på hvordan de beveger seg ved hjelp av `(fartX)`{.b} og `(fartY)`{.b} på
-  samme måte som for `Jumpman`. Lag derfor disse to variablene også på
-  `Ildkule`. Husk at de skal gjelde kun _for denne figuren_.
+- [ ] Але тепер нам потрібно запрограмувати, як повинні поводитися вогняні кулі. Ми будемо відстежувати, як вони рухаються, використовуючи
+ `(швидкістьX)`{.b} і `(швидкістьY)`{.b} так само, як і для `Стрибуна`. Тому створіть ці дві змінні також на
+  `Вогнянії кулі`. Пам'ятайте, що вони повинні стосуватися  _тільки для цього спрайту_.
 
-- [ ] Først bestemmer vi hvilken fart kula har når `Donkey Kong` kaster den.
-  Dette gjør vi ved å sette `fart`{.blockdata}-variablene, for eksempel på denne
-  måten:
+- [ ] Спочатку визначимо, яку швидкість має м'яч, коли його кидає `Donkey Kong` Ми робимо це, задаючи змінним  `швидкість`{.blockdata}, наприклад, таким чином: 
 
   ```blocks
   når jeg starter som klon
