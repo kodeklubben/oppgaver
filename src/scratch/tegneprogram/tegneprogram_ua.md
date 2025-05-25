@@ -417,73 +417,60 @@ __Натисніть на зелений прапорець.__
 Ви можете використовувати, `якщо`{.blockcontrol}`клавішу_ натиснут?`{.blocksensing} використовувати клавіатуру. Для кожної доданої клавіші вам потрібна нова змінна
 `якщо`{.blockcontrol}`клавішу_ натиснуто?`{.blocksensing} блок, який надсилає ті самі повідомлення, що й параметри інструмента, коли вони натискаються. Додайте сценарії до сцени.
 
-Vi har brukt disse snarveiene:
+Ми використовували такі скорочення:
 
-Rød blyant - `r`, Grønn blyant - `g`, Blå blyant - `b`, Gul blyant - `y`,
-Regnbue blyant - `w`, Stempel - `s`, Visk - `v`, Slett alt - `a`
+Червоний олівець - `r`, Зелений олівець - `g`, Синій олівець - `b`, Жовтий олівець - `y`,
+Райдужний олівець - `w`, Штамп - `s`, Стирання - `v`, Очистити все - `a`
 
-## Test prosjektet ditt {.flag}
+## Перевірте свій проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Virker alle snarveiene?
+- [ ] Чи всі ярлики працюють?
 
-- [ ] Virker knappene på skjermen fremdeles også?
+- [ ] Кнопки на екрані також працюють?
 
-## Utfordring 3: Større og mindre {.challenge}
+## Виклик 3: Більший і менший {.challenge}
 
-En annen funksjon som tegneprogrammer gjerne har er å forandre størrelsen på
-blyantstreken. Prøv å se om du får til dette.
+Зміна розміру лінії олівця - ще одна функція, яку часто мають програми для малювання. Спробуйте, чи зможете ви це зробити.
 
-Det er en ting som gjør dette vanskelig. Noen ganger trenger vi å endre
-størrelsen på blyantstreken og noen ganger trenger vi å forandre størrelsen på
-drakten. Det er avhengig av om du bruker blyanten eller stemplet.
+Є одна річ, яка ускладнює це завдання. Іноді нам потрібно змінити розмір лінії олівця, а іноді нам потрібно змінити розмір образа. Це залежить від того, що ви використовуєте - олівець чи штамп.
 
-- [ ] Lag to nye figurer ved å importere `bigger-selector.gif` og
-  `smaller-selctor.gif` fra katalogen med ressurser. Kall figurene `Større` og
-  `Mindre`.
+- [ ] Створіть дві нові фігури, імпортувавши `bigger-selector.gif` та
+  `smaller-selctor.gif` з каталогу ресурсів. Назвіть фігури `Більша` і
+  `Менша`.
 
-- [ ] La figurene sende ut meldingene `Større` og `Mindre`.
+- [ ] Нехай фігури надсилають повідомлення `Більший` і `Менший`.
 
-- [ ] Blyanten kan svare på meldingen ved å enten `endre pennebredde`{.blockpen}
-  med 1 eller `endre størrelse`{.blocklooks} med 10, avhengig av verdien på
-  `stempelmodus`.
+- [ ] Олівець може реагувати на повідомлення, `змінюючи розмір олівця`{.blockpen}
+  на 1 або `змінюючи розмір на`{.blocklooks} 10, залежно від значення
+  `режим штампа`.
 
-  __Hint:__ Du kan bruke noen av `endre`-klossene under `Penn`{.blockpen} eller
-  `Utseende`{.blocklooks}. For å forminske setter du bare et minustegn foran
-  tallet.
+  __Підказка:__ Ви можете використовувати будь-який із блоків `редагування` в розділі `Олівець`{.blockpen} або
+  `Вигляд`{.blocklooks}. Щоб зменшити, просто поставте знак мінус перед числом.
 
-  __Hint:__ For å holde styr på om det er blyantstreken eller stempelet som skal
-  endres må du bruke en `hvis - ellers`{.blockcontrol}-kloss.
 
-- [ ] Glem ikke å lage snarveier for disse funksjonene også. For eksempel `pil
-  opp` for større og `pil ned` for mindre.
+  __Підказка:__ Щоб відстежувати, що потрібно змінити: лінію олівця чи штамп, потрібно використовувати блок `якщо інакше.`{.blockcontrol}.
 
-- [ ] Har du lagt merke til at også blyantfiguren blir større når du forstørrer
-  stempelet? For å unngå dette kan vi sette størrelsen til 100% hver gang en ny
-  farge klikkes.
+- [ ] Не забудьте також створити ярлики для цих функцій. Наприклад, `стрілка вгору` для збільшення і `стрілка вниз` для зменшення.
 
-- [ ] For å gjøre det enda mer avansert kan du få stempelet til å huske
-  størrelsen sin fra gang til gang. Den enkleste måten å gjøre dette på er å
-  opprette en ny variabel som du kaller `stempelstørrelse`{.blockdata}. Denne må
-  oppdateres hver gang størrelsen på stempelet endres. Når man skifter fra
-  blyant til stempel settes så størrelsen fra denne variabelen.
+- [ ] Ви помітили, що фігура олівцем також стає більшою, коли ви збільшуєте штамп? Щоб уникнути цього, ми можемо встановлювати розмір на 100% щоразу, коли натискається новий колір.
 
-## Test prosjektet ditt {.flag}
+- [ ] Щоб зробити його ще більш досконалим, ви можете налаштувати штамп на запам'ятовування його розміру. Найпростіший спосіб зробити це – створити нову змінну під назвою `розмір штама`{.blockdata}. Це потрібно оновлювати щоразу, коли змінюється розмір штампа. Під час переходу від олівця до штампа розмір встановлюється з цієї змінної.
 
-__Klikk på det grønne flagget.__
+## Перевірте свій проєкт {.flag}
 
-- [ ] Fungerer forstørrelsesknappen?
+__Натисніть на зелений прапор.__
 
-- [ ] Fungerer forminskingsknappen?
+- [ ] Чи працює кнопка масштабування? 
 
-- [ ] Hva skjer om du bytter til stempelet, endrer størrelsen og så forandrer
-  tilbake til blyanten?
+- [ ] Чи працює кнопка зменшення масштабу?
+    
+- [ ] Що станеться, якщо ви перейдете на штамп, зміните розмір, а потім знову перейдете на олівець?
 
-## Lagre prosjektet {.save}
+## Зберегти проєкт {.save}
 
-__Veldig, veldig bra! Nå kan du tegne akkurat det du vil!__
+__Дуже, дуже добре! Тепер ви можете намалювати саме те, що хочете!__
 
-Ikke glem å del spillet ditt med venner og familie ved å trykke på `Legg ut` i
-menyen!
+Не забудьте поділитися своєю грою з друзями та родиною, натиснувши `Поділитись` в меню!
 
