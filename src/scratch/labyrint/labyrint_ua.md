@@ -336,37 +336,34 @@ __Натисніть на зелений прапорець.__
 - [ ] Тепер ми можемо розширити сценарій так, щоб жаб'ячий король ходив туди-сюди. Ми змушуємо його розвертатися, коли він вдаряється об стіну, так само, як ми не даємо дослідниці пройти крізь стіну.
 
   ```blocks
-  når @greenFlag klikkes
-  gå til x: (50) y: (100)
-  pek i retning (-90 v)
-  sett [hastighet v] til [5]
-  gjenta for alltid
-      gå (hastighet) steg
-      hvis <berører fargen [#cc0000]?>
-          snu @turnRight (180) grader
-          gå (hastighet) steg
+  коли @greenFlag натиснуто
+  перемістити в x: (50) y: (100)
+  повернути в напрямку (-90 v)
+  надати [швидкість v] значення [5]
+  завжди
+      перемістити на (швидкість) кроків
+      якщо <торкається кольору [#cc0000]?> то
+          повернути @turnRight на (180) градусів
+          перемістити на (швидкість) кроків
       slutt
   slutt
   ```
 
-Helt tilslutt kan vi gjøre det enda vanskeligere ved å la froskekongen
-av og til endre retning.
-
-- [ ] Legg til kode som lar `Froskekonge` snu seg tilfeldig rundt i labyrinten:
+Нарешті, ми можемо ще більше ускладнити завдання, дозволивши `Жаб'ячому королю` час від часу змінювати напрямок руху.
 
   ```blocks
-  når @greenFlag klikkes
-  gå til x: (50) y: (100)
-  pek i retning (-90 v)
-  sett [hastighet v] til [5]
-  gjenta for alltid
-      gå (hastighet) steg
-      hvis <berører fargen [#cc0000]?>
-          snu @turnRight (180) grader
-          gå (hastighet) steg
+  коли @greenFlag натиснуто
+  перемістити в x: (50) y: (100)
+  повернути в напрямку (-90 v)
+  надати [швидкість v] значення [5]
+  завжди
+      перемістити на (швидкість) кроків
+      якщо <торкається кольору [#cc0000]?> то
+          поворот на @turnRight (180) градусів
+          перемістити на (швидкість) кроків
       slutt
-      hvis <(tilfeldig tall fra (1) til (25)) = [1]>
-          snu @turnRight ((tilfeldig tall fra (-1) til (1)) * (90)) grader
+      якщо <(випадкове від (1) до (25)) = [1]> то
+          поворот @turnRight на ((випадкове від (-1) до (1)) * (90)) градусів
       slutt
   slutt
   ```
