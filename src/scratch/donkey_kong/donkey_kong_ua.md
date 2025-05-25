@@ -62,23 +62,20 @@ Donkey Kong була першою по-справжньому платформе
   Якщо ніщо не впливає на нашу фігуру, ми цього хочемо `(швидкістьX)`{.b} має прямувати до 0 (швидкість сповільнюється), тоді як `(швидкістьY)`{.b} має ставати дедалі більш негативним числом (цифра зменшується). Але якщо фігура стоїть на платформі,  `(швидкістьY)`{.b} має бути 0 (фігура перебуває у стані спокою). Ми можемо закодувати це приблизно так:
 
   ```blocks
-  når jeg mottar [nytt spill v]
-  gå til x: (-150) y: (-100)
-  gjenta for alltid  // hovedløkken
-      sett [fartX v] til ((0.8) * (fartX))  // farten bremses
-      endre [fartY v] med (-0.5)  // gravitasjon, figuren faller
-      hvis <berører fargen [#0000ff]>  // figuren står på plattformen
-          sett [fartY v] til [0]
+  коли я отримую [нова гра v]
+  перемістити в x: (-150) y: (-100)
+  завжди  // головний цикл
+      надати [швидкістьX v] значення ((0.8) * (швидкістьX))  // швидкість сповільнюється
+      змінити [швидкістьY v] на (-0.5)  // гравітація, фігура падає
+      якщо <торкається кольору [#cc0099]> то // фігура стоїть на платформі
+          надати [швидкістьY v] значення [0]
       slutt
-      endre x med (fartX)  // flytt selve figuren
-      endre y med (fartY)
+      змінити x на (швидкістьX)  // перемістити саму фігуру
+      змінити y на (швидкістьY)
   slutt
   ```
 
-- [ ] Om du prøver spillet ditt så langt (husk å legge til et skript på
-  bakgrunnen som sender en `nytt spill`-melding når det grønne flagget klikkes),
-  vil du se at figuren din faller ned til plattformen. Men du kan ikke
-  kontrollere den.
+- [ ] Якщо ви спробуєте свою гру (не забудьте додати скрипт до фону, який надсилає повідомлення `нова гра` при натисканні на зелений прапорець), ви побачите, що ваш персонаж падає на платформу. Але ви не можете ним керувати.
 
 - [ ] For å styre `Jumpman` legger vi flere `hvis`{.blockcontrol}-tester inn i
   hovedløkken. For eksempel kan du få figuren til å bevege seg mot venstre ved å
