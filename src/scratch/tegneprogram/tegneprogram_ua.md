@@ -383,57 +383,39 @@ __Чудова робота! Ви закінчили програму.__
 
 Ви також можете спробувати ці виклики!
 
-## Utfordring 1: Regnbueblyant {.challenge}
+## Виклик 1: Веселковий олівець {.challenge}
 
-I denne utfordringen skal du legge til en blyant som kan forandrer farge mens du
-tegner. Kult, ikke sant?
+У цьому завданні вам потрібно додати олівець, який змінює колір під час малювання. Круто, правда?
 
-Først må du legge til regnbue-knappen og regnbue-drakten:
+Спочатку потрібно додати веселковий олівець та веселковий образ:
 
-- [ ] Legg til regnbue-knappen som figur. Du finner den i katalogen du lastet
-  ned i starten. Den heter `rainbow-selector.gif`. Kall den `Regnbue` og sett
-  den ved siden av de andre knappene nederst til venstre. Figuren skal sende
-  meldingen `Regnbue` når den klikkes.
+- [ ] Додайте веселковий олівець як фігуру. Ви можете знайти його в каталозі, який ви завантажили на початку. Він називається  `rainbow-selector.gif`. Назвіть це `Веселка` та розмістіть поруч з іншими кнопками внизу ліворуч. Фігура повинна надсилати повідомлення `Веселка` при натисканні.
 
-- [ ] Legg til regnbue-blyanten fra filen `rainbow-pencil.png` som en ny drakt
-  til blyanten. Husk å justere senterpunktet.
+- [ ] Додайте веселковий олівець з файлу `rainbow-pencil.png` як новий костюм для олівця. Не забудьте відрегулювати центральну точку.
 
-- [ ] Nå må du lage et skript som får pennfargen til å skifte mange ganger i
-  sekundet. Vi fant ut at å endre fargen med 5 hvert 0.05 sekunder fungerer
-  fint, men du bør prøve ut egne verdier også.
+- [ ] Тепер вам потрібно створити скрипт, який змінюватиме колір пера багато разів на секунду. Ми виявили, що зміна кольору на 5 кожні 0,05 секунди працює добре, але вам варто спробувати свої власні значення.
 
-__Hint:__ Du har sikkert fått ting til å forandre seg med jevne mellomrom i
-tidligere prosjekter, for eksempel tid eller poeng. I dette tilfellet kan du
-gjøre nesten det samme, men passe på at det er pennfarge som endrer seg.
+__Підказка:__ У попередніх проєктах вам, мабуть, доводилося періодично змінювати щось, наприклад, час або пункти. У цьому випадку ви можете зробити майже те саме, але переконайтеся, що змінюється саме колір олівця.
 
-Klossen som endrer pennfargen må legges inn i en løkke. Men du trenger også noe
-å kontrollere løkken med, slik at den bare endrer farge når regnbueblyanten er
-valgt.
+Блок, який змінює колір олівця, потрібно помістити в цикл. Але вам також потрібно якось керувати циклом, щоб він змінював колір тільки тоді, коли вибрано веселковий олівець.
 
-__Hint:__ Du kan gjøre dette på en måte som ligner på hvordan
-`stempelmodus`{.blockdata} styrer når stempelet skal skrues av og på. Prøv å
-lage en variabel som du kaller `regnbuemodus`{.blockdata}. La denne skrues på
-når regnbueblyanten klikkes, og av når de andre fargene velges.
+__Підказка:__ Ви можете зробити це аналогічно до того, яквеселковий режим
+`режим штампу`{.blockdata} керує тим, коли вмикати і вимикати штамп. Спробуйте створити змінну, яку ви назвете `веселковий режим`{.blockdata}. Нехай вона вмикається, коли клацають веселковий олівець, і вимикається, коли вибирають інші кольори.
 
-## Test prosjektet ditt {.flag}
+## Перевірте свій проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Virker regnbueblyanten?
+- [ ] Чи працює веселковий олівець?
 
-- [ ] Hva skjer når du skifter tilbake til en av de andre blyantene?
+- [ ] Що станеться, коли ти переключишся на інший олівець?
 
-## Utfordring 2: Snarveier {.challenge}
+## Виклик 2: Ярлики {.challenge}
 
-Nå skal du prøve deg på å lage snarveier på tastaturet. Det betyr at man i
-stedet for å klikke på knappene på skjermen kan bruke tastene for å bytte farge,
-stemple og viske ut.
+Тепер вам слід спробувати створити комбінації клавіш. Це означає, що замість натискання кнопок на екрані, ви можете використовувати клавіші для зміни кольору, штампа та стирання.
 
-Du kan bruke `hvis`{.blockcontrol}`tast _ trykket?`{.blocksensing} for å benytte
-tastaturet. For hver tast du legger til trenger du en ny
-`hvis`{.blockcontrol}`tast _ trykket?`{.blocksensing}-kloss som sender de samme
-meldingene som verktøy-valgene gjør når de klikkes. Legg til skriptene på
-scenen.
+Ви можете використовувати, `якщо`{.blockcontrol}`клавішу_ натиснут?`{.blocksensing} використовувати клавіатуру. Для кожної доданої клавіші вам потрібна нова змінна
+`якщо`{.blockcontrol}`клавішу_ натиснуто?`{.blocksensing} блок, який надсилає ті самі повідомлення, що й параметри інструмента, коли вони натискаються. Додайте сценарії до сцени.
 
 Vi har brukt disse snarveiene:
 
