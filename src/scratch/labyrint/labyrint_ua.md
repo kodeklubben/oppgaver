@@ -197,105 +197,80 @@ __Натисніть на зелений прапорець.__
 фігура спочатку повністю обернеться (на 180 градусів), потім зробить крок і, нарешті, знову обернеться так, що буде вказувати в тому ж напрямку, що і на початку руху.
 
 
-# Steg 4: På leting etter skatten {.activity}
+# Крок 4: У пошуках скарбу {.activity}
 
-*Nå kan vi bevege oss rundt i labyrinten. Men det blir jo fort
- kjedelig om vi ikke har noe å gjøre inne i labyrinten. La oss se om
- vi kanskje finner en skatt!*
+*Тепер ми можемо пересуватися лабіринтом. Але це швидко набридає, якщо в лабіринті немає чим зайнятися. Спробуймо знайти скарб!*
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-- [ ] Legg til en ny figur. Du kan velge en figur fra biblioteket ved
-  å flytte musepekeren over
-  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png) og
-  enten trykke på penselen som dukker opp for å tegne en egen, eller
-  trykk på forstørrelsesglasset for å velge en figur som er
-  ferdiglagd.
+- [ ] Додавання нової фігури. Ви можете вибрати фігуру з бібліотеки, навівши вказівник миші на пункт
+  ![Velg figur fra biblioteket](../bilder/hent-fra-bibliotek.png) і натиснувши на пензель, що з'явиться, щоб намалювати власну фігуру, або натиснувши на лупу, щоб вибрати вже готову фігуру. 
 
- . Vi brukte figuren
-  `Ting/Star1`.
+ . Ми використали символ
+  `Усі/Star`.
 
-- [ ] Gi den nye figuren navnet `Skatt`.
+- [ ] Дайте новій фігурці ім'я `Скарб`.
 
-- [ ] Dra skatten rundt inne i labyrinten din, og gjem den et sted den er
-  vanskelig å komme til.
+- [ ] Перетягніть скарб у своєму лабіринті та сховайте його у важкодоступному місці.
 
-Vi skal nå lage litt kode som oppdager når utforskeren finner
-skatten. Her har vi faktisk et valg: Vi kan lage et skript på
-`Utforsker` som sjekker om hun berører `Skatt`, eller vi kan gjøre det
-omvendt, vi kan lage et skript på `Skatt` som sjekker om den berører
-`Utforsker`.
+Тепер ми створимо код, який визначить, коли дослідник знайде скарб. Тут у нас є вибір:  Ми можемо створити скрипт для `Дослідниці` який перевіряє, чи торкається вона `Скарбу`, або ми можемо зробити навпаки, ми можемо створити скрипт для  `Скарбу` який перевіряє, чи торкається він `Дослідниці`.
 
-I dette tilfellet spiller det liten rolle hva vi velger, men om vi
-tenker oss at vi kanskje vil lage flere skatter senere kan det være
-litt enklere å lage skriptet på `Skatt`.
-
-- [ ] Pass på at figuren `Skatt` er markert, og skriv følgende kode:
+- [ ] Переконайтеся, що вибрана фігура `Скарб`  і введіть наступний код:
 
   ```blocks
-  når @greenFlag klikkes
-  gjenta for alltid
-      hvis <berører [Utforsker v]?>
-          skjul
+  коли @greenFlag натиснуто
+  завжди
+      якщо <торкається [Дослідниця v]?> то
+          сховати
       slutt
   slutt
   ```
 
-## Test prosjektet {.flag}
+## Перевірте проєкт {.flag}
 
-__Klikk på det grønne flagget.__
+__Натисніть на зелений прапорець.__
 
-- [ ] Forsvinner skatten når utforskeren finner fram til den?
+- [ ] Чи зникає скарб, коли дослідниця його знаходить?
 
-- [ ] Hva skjer når du prøver å starte spillet på nytt etter å ha funnet
-  skatten? Hvor har skatten blitt av?
+- [ ] Що станеться, коли ви спробуєте перезапустити гру після того, як знайдете скарб? Куди зник скарб?
 
-## Sjekkliste {.check}
+## Контрольний список {.check}
 
-Det er et problem i spillet vårt. Etter at utforskeren har funnet
-skatten en gang, forblir skatten borte.
+У нашій грі виникла проблема. Після того, як дослідниця один раз знайшла скарб, він більше не з'являється.
 
-- [ ] Vi må passe på at skatten vises på begynnelsen av spillet. Endre
-  skriptet på `Skatt` ved å legge til `vis`{.b} helt i begynnelsen.
+- [ ] Нам потрібно зробити так, щоб скарб з'являвся на початку гри. Змініть скрипт  `Скарб`, додавши `показати`{.b} на самому початку.
 
   ```blocks
-  når @greenFlag klikkes
-  vis
-  gjenta for alltid
-      hvis <berører [Utforsker v]?>
-          skjul
+  коли @greenFlag натиснуто
+  показати
+  завжди
+      якщо <торкається [Дослідниця v]?> то
+          сховати
       slutt
   slutt
   ```
 
-Vi har enda et problem: Når vi starter spillet på nytt står
-utforskeren fortsatt der den fant skatten sist. Det blir ikke veldig
-spennende.
+У нас ще одна проблема: Коли ми перезапускаємо гру, дослідниця все ще стоїть на тому місці, де вона знайшла скарб минулого разу. Це не дуже захоплююче.
 
-- [ ] Klikk på `Utforsker`-figuren.
+- [ ] Клацніть на символ `Дослідниці`.
 
-- [ ] Legg til en `gå til x: () y: ()`{.b}-kloss rett etter `sett
-  [hastighet v] til (10)`{.b}-klossen.
+- [ ] Додайте `перемістити в x: () y: ()`{.b} відразу після `надати
+  [швидкість v] значення (10)`{.b}.
 
-- [ ] For å finne ut hvilke tall vi vil bruke for `x` og `y` kan vi
-  gjøre følgende. Dra utforskeren til et sted det er fint å starte
-  fra. Se på tallene over figur-lista. Sammen med `Utforsker`-figuren
-  står det `x` og `y` og to tall. Dette er posisjonen til figuren
-  akkurat nå. Skriv disse to tallene inn i `gå til x: () y:
-  ()`{.b}-klossen.
+- [ ] Щоб дізнатися, які числа ми хочемо використати для `x` та `y` ми можемо зробити наступне. Перетягніть провідник у потрібне місце, з якого можна почати. Подивіться на числа над списком фігур. Поряд з фігурою `Дослідниці` знаходяться `x` і `y` та два числа. Це положення фігури в даний момент. Введіть ці два числа до поля
+`перемістити в x: () y: ()`{.b}-klossen.
 
-- [ ] Hele skriptet vil nå se slik ut (dine tall for `x` og `y` vil være
-  forskjellige):
+- [ ] Тепер весь скрипт буде виглядати так (ваші числа для `x` та `y` будуть відрізнятися):
 
   ```blocks
-  når @greenFlag klikkes
-  sett [hastighet v] til [10]
-  gå til x: (-200) y: (0)
-  gjenta for alltid
-      hvis <berører fargen [#cc0000]?>
-          snu @turnRight (180) grader
-          gå (hastighet) steg
-          snu @turnRight (180) grader
+  коли @greenFlag натиснуто
+  надати [швидкість v] значення [10]
+  перемістити в x: (-200) y: (0)
+  завжди
+      якщо <торкається кольору [#cc0000]?> то
+          поворот @turnRight на (180) градусів
+          перемістити на (швидкість) кроків
+          поворот @turnRight на (180) градусів
       slutt
   slutt
   ```
