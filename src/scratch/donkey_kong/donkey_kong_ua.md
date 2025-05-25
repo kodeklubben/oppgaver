@@ -172,30 +172,24 @@ Donkey Kong була першою по-справжньому платформе
 - [ ] Спочатку визначимо, яку швидкість має м'яч, коли його кидає `Donkey Kong` Ми робимо це, задаючи змінним  `швидкість`{.blockdata}, наприклад, таким чином: 
 
   ```blocks
-  når jeg starter som klon
-  gå til [Donkey Kong v]
-  sett [fartX v] til [3]
-  sett [fartY v] til (tilfeldig tall fra (0) til (5))
-  vis
+  коли я починаю як клон
+  перейти до [Donkey Kong v]
+  надати [швидкістьX v] значення [3]
+  надати [швидкістьY v] значення (випадкове від (0) до (5))
+  показати
   ```
 
-- [ ] Videre bestemmer vi hvordan kulene oppfører seg ved å lage en hovedløkke
-  på omtrent samme måte som for `Jumpman`.
+- [ ] Далі ми визначаємо поведінку кульок, створюючи основний цикл так само, як і для `Стрибуна`.
 
-  Legg en `gjenta til <(y-posisjon) < [-170]>`{.b}-kloss nederst i `når jeg
-  starter som klon`{.b}-skriptet, og fyll denne med kode som lar kulen falle,
-  merker at ildkulen ligger på plattformen, og flytter selve figuren.
+  Додайте `повторити до <(значення y) < [-170]>`{.b} у нижній частині `коли я починаю як клон`{.b} і заповніть його кодом, який кидає кульку, розпізнає, що вогняна куля знаходиться на платформі, і переміщує саму фігуру.
 
-- [ ] Legg også til kode som gjør at ildkulene snur, `sett [fartX v] til ((-1) *
-  (fartX))`{.b}, når de `berører kant`{.blocksensing}, og kode som sender en
-  melding, `fanget Jumpman`, når de `berører Jumpman`{.blocksensing}.
 
-- [ ] Lag kode på `Jumpman` som mottar `fanget Jumpman`, og som kanskje `spiller
-  en lyd`{.blocksound}.
+- [ ] Також додайте код, який змушує вогняні кулі обертатися, `надати [швидкістьX v] значення ((-1) *
+  (швидкістьX))`{.b}, коли вони `торкаються межі`{.blocksensing}, і код, який надсилає повідомлення, коли вони `торкаються Стрибкна`{.blocksensing}.
 
-- [ ] Til slutt, lag en skatt som Jumpman skal redde. Dette blir en ny figur som
-  kan stå i ro til den `berører Jumpman` og deretter sende en melding `fant
-  skatten`. Skriv kode som svarer på denne meldingen på passende måte.
+- [ ] Створіть код на `Стрибун`, який отримує `Стрибуна вражено` і може `відтворювати звук`{.blocksound}.
+
+- [ ] Нарешті, створіть скарб, який повинен врятувати Стрибун. Це буде новий персонаж, який може стояти на місці, поки не `торкається Стрибуна` а потім надішле повідомлення про `знахідку скарбу`. Напишіть код, який відповідним чином реагує на це повідомлення.
 
 
 # Steg 4: Videreutvikling av spillet {.activity}
