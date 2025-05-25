@@ -41,36 +41,25 @@ Donkey Kong була першою по-справжньому платформе
 
 - [ ] Щоб перевірити, що герой поводиться так, як ми хочемо, нам знадобиться проста платформа (пізніше ми намалюємо більше платформ). Намалюйте нове тло. Виберіть для малювання `векторну графіку`. Намалюйте вузьку довгу рамку внизу екрана. Заповніть його кольором, відмінним від кольору лінії.
 
-  ![Bilde av en plattform i Scratch](plattform.png)
+  ![Bilde av en plattform i Scratch](plattform_ua.png)
 
-- [ ] Velg eller lag deg en figur du ønsker å bruke som den hoppende helten du
-  skal styre. Om du ikke bruker Scratch-katten så slett denne. Kall figuren
-  `Jumpman`. Sannsynligvis vil vi gjøre figuren mindre slik at vi får plass til
-  flere plattformer på skjermen. Dette kan du gjøre med kode som kun kjører i
-  det du starter spillet, for eksempel:
+- [ ] Виберіть або створіть персонажа, якого ви хочете використовувати як стрибучого героя, яким ви керуватимете. Якщо ви не використовуєте кота Scratch, видаліть його. Назвіть персонажа `Стрибун`. Ми, ймовірно, зменшимо фігуру, щоб на екрані можна було розмістити більше платформ. Ви можете зробити це за допомогою коду, який запускається лише під час запуску гри, наприклад:
 
   ```blocks
-  når grønt flagg klikkes
-  sett størrelse til (40) %
-  begrens rotasjon [vend sideveis v]
+  коли grønt flagg натиснуто
+  задати розмір (40)
+  стиль обериання [зліва-направо v]
   ```
 
-  Vi har også lagt til en kloss som passer på at `Jumpman` bare snur seg mot
-  høyre eller venstre.
+  Ми також додали блок, щоб переконатися, що `Стрибун` повертає тільки вправо або вліво.
 
-- [ ] Vi trenger to variabler som vi skal bruke til å kontrollere bevegelsen til
-  `Jumpman`. Lag to variabler, `(fartX)`{.b} og `(fartY)`{.b}. Pass på at begge
-  gjelder kun _for denne figuren_.
+- [ ] Нам потрібні дві змінні, які ми використовуватимемо для керування рухом
+  `Стрибуна`. Створіть дві змінні, `(швидкістьX)`{.b} і `(швидкістьY)`{.b}. Переконайтеся, що обидва стосуються _тільки цього спрайту_.
 
-- [ ] I hovedløkken som styrer `Jumpman` vil vi først endre litt på disse
-  `fart`{.blockdata}-variablene, og til slutt flytte selve figuren basert på
-  dem.
+- [ ] У головному циклі, який керує `Стрибуном`, ми спочатку трохи модифікуємо ці змінні
+  `швидкості`{.blockdata}, а потім на їх основі переміщуємо саму фігуру.
 
-  Dersom ingenting påvirker figuren vår vil vi at `(fartX)`{.b} skal gå mot 0
-  (farten bremses), mens vi vil at `(fartY)`{.b} skal bli et stadig større
-  negativt tall (figuren faller). Men om figuren står på plattformen skal
-  `(fartY)`{.b} være 0 (figuren står i ro). Dette kan vi kode omtrent som
-  følger:
+  Якщо ніщо не впливає на нашу фігуру, ми цього хочемо `(швидкістьX)`{.b} має прямувати до 0 (швидкість сповільнюється), тоді як `(швидкістьY)`{.b} має ставати дедалі більш негативним числом (цифра зменшується). Але якщо фігура стоїть на платформі,  `(швидкістьY)`{.b} має бути 0 (фігура перебуває у стані спокою). Ми можемо закодувати це приблизно так:
 
   ```blocks
   når jeg mottar [nytt spill v]
