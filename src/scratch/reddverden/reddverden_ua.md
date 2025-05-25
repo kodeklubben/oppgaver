@@ -1,5 +1,5 @@
 ---
-title: /Врятуй світ'
+title: Врятуй світ
 level: 2
 author: 'Shayan Zeida og [Arne Hassel](http://icanhasweb.net/)'
 translator: Anastassia, Serhii Shumskyi
