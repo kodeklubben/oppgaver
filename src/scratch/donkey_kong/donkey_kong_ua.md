@@ -1,7 +1,7 @@
 ---
 title: 'Donkey Kong'
 level: 4
-author: 'Гейр Арне Х'єлле'
+author: 'Гейр Арне Хєлле'
 translator: 'Анатолій Пилипенко'
 language: ua
 ---
