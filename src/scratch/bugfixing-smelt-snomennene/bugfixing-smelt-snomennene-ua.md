@@ -1,6 +1,6 @@
-
 ---
 title: "Виправлення помилок: Розтопити сніговиків!"
+level: 3
 author: "[c4creativity](https://scratch.mit.edu/users/c4creativity)"
 translator: "Ніна"
 language: "ua"
