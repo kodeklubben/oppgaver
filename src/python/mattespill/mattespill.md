@@ -94,8 +94,8 @@ Vi kan nå bruke tilfeldige tall til å lage et enkelt mattespill.
   ```python
   from random import randint
 
-  tall1 = randint(2, 12)
-  tall2 = randint(2, 12)
+  tall1 = randint(2, 10)
+  tall2 = randint(2, 10)
   ```
 
 - [ ] Vi vil nå at Python skal gi oss en matteoppgave, kan vi bli spurt om å
@@ -142,8 +142,8 @@ Vi kan nå bruke tilfeldige tall til å lage et enkelt mattespill.
   ```python
   from random import randint
 
-  tall1 = randint(2, 12)
-  tall2 = randint(2, 12)
+  tall1 = randint(2, 10)
+  tall2 = randint(2, 10)
 
   print('Hva er ' + str(tall1) + ' ganger ' + str(tall2) + '?')
   svar = input()
@@ -216,8 +216,8 @@ flere mattestykker etter hverandre.
   ant_rett = 0
 
   for i in range(ant_stykker):
-      tall1 = randint(2, 12)
-      tall2 = randint(2, 12)
+      tall1 = randint(2, 10)
+      tall2 = randint(2, 10)
 
       print('Hva er ' + str(tall1) + ' ganger ' + str(tall2) + '?')
       svar = input()
