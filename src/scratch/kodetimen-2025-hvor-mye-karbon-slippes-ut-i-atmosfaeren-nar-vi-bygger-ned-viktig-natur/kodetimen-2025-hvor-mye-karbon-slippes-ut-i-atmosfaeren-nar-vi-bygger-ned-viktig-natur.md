@@ -61,7 +61,7 @@ Når du klikker i grønt område (skog) eller oransje område (myr), bygger du n
 
 
 ## Forberedelser i Scratch
-1. Gå inn på denne lenken [https://scratch.mit.edu/projects/1240223002/editor/ ](https://scratch.mit.edu/projects/1240223002/editor/) for å finne Scratchprosjektet du skal remikse. 
+1. Gå inn på denne lenken [https://scratch.mit.edu/projects/1240223002/ ](https://scratch.mit.edu/projects/1240223002/) for å finne Scratchprosjektet du skal remikse. 
 
 
 2. Slå på Utvidelser → Penn.
