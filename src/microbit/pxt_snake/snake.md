@@ -52,7 +52,15 @@ gir dette oss en `(X,Y)`-posisjon til leden som vi skal skru på.
   til `snake`. Legg den inn i `on start`-klossen. Trykk `+` til du har fire
   verdier i listen og sett dem til `2`, `2`, `2` og `3`. Da skal det se slik ut:
 
-![Bilde av kode for setting av liste](Set_array_on_start.png)
+```microbit
+let snake: number[] = []
+snake = [
+2,
+2,
+2,
+3
+]
+```
 
 Nå trenger vi litt kode for å tegne slangen. For å gjøre det litt enklere å
 holde oversikt over programmet vårt så gjør vi dette med en funksjon.
@@ -78,12 +86,25 @@ tenk "sånn er det bare".
   i `y`.  Nå har vi det vi trenger for å tegne et punkt i slangen. Til dette
   bruker vi `plot(x,y)` funksjonen som ligger under `led`-fanen.
 
-![Bilde av kode for å tegne slangen](draw_snake_function.png)
+```microbit
+function drawSnake () {
+    for (let index = 0; index <= snake.length - 1; index++) {
+        x = snake[index]
+        index += 1
+        y = snake[index]
+        led.plot(x, y)
+    }
+}
+```
 
 - [ ] Nå må vi bare kalle denne funksjonen fra et sted. Vi legger inn et kall
   til `drawSnake()` i `forever()`.
 
-![Bilde av hovedløkke steg 1](snake_mainloop_steg1.png)
+```microbit
+basic.forever(function () {
+    drawSnake()
+})
+```
 
 ## Test prosjektet {.flag}
 
@@ -116,22 +137,12 @@ venstre og høyre så trenger vi en variabel som  sier hvilken retning den er p�
 vei. Vi beveger slangen ved å legge til et nytt punkt i begynnelsen og ta vekk
 det siste punktet  på halen.
 
-## Tips {.tip}
-
-I denne oppgaven bruker vi både klossprogrammering og håndskrevet kode. Før vi
-bytter mellom klossprogrammering og javascript så  kan det være lurt å lagre
-spillet. Det pleier å gå fint å bytte mellom klosser og javascript selv om noen
-klosser kan bli grå.  Det hender at makecode ikke skjønner noe kode og kode
-forsvinner. Da er det veldig greit å ha et lagret punkt å gå tilbake til.  Men
-du trenger ikke bry deg med om f.eks. noen variabler flytter litt rundt på seg.
-
 ## Steg for steg {.check}
 
 - [ ] Lag en ny variabel. Kall variabelen `direction`. Sett variabelen til `up`
   i oppstartsklossen.
 
-- [ ] Nå skal vi lage en funksjon som oppdaterer `snake`. Får å få til dette må
-  vi skrive litt javascript. Lag først fuksjonen `updateSnake()`.
+- [ ] Nå skal vi lage en funksjon som oppdaterer `snake`.
 
 ```microbit
 function updateSnake(){
@@ -142,8 +153,10 @@ function updateSnake(){
   punktet, `x`- og `y`-koordinater, i fra `snake`.
 
 ```microbit
-	x = snake[0]
-	y = snake[1]
+function updateSnake(){
+    x = snake[0]
+    y = snake[1]
+}
 ```
 
 - [ ] Deretter skal vi trekke i fra en på `y` hvis direction er `up`, plusse på
@@ -151,6 +164,7 @@ function updateSnake(){
   `x` hvis `right`.
 
 ```microbit
+function updateSnake(){
     if (direction == 'up') {
         y = y - 1;
     }
@@ -163,17 +177,22 @@ function updateSnake(){
     if (direction == 'right') {
         x = x + 1
     }
+}
 ```
 
 - [ ] Så dytter vi inn `x` og `y` i begynnelsen av arrayen `snake` med
-  funksjonen `unshift()` og fjerne et punkt (to verdier, x og y)  fra halen med
-  funksjonen `pop()`, slik at slangen beveger seg et hakk
+  javascript funksjon `unshift()` (eller `insert at begin`-klossen) og
+  fjerne et punkt (to verdier, x og y) fra halen med javascript funksjonen
+  `pop()` (eller `remove last from`-klossen), slik at slangen beveger seg et
+  hakk.
 
 ```microbit
+function updateSnake(){
     snake.unshift(y);
     snake.unshift(x);
     snake.pop();
     snake.pop();
+}
 ```
 
 - [ ] Til slutt legger vi til et kall til `updateSnake()` i `forever()`
@@ -236,18 +255,38 @@ en liten startskjerm.
   startklossen. Aller først i startklossen legger du en  `show icon`-kloss med
   "snake"-ikonet.
 
-![Bilde av start](show_startscreen.png)
+```microbit
+basic.showIcon(IconNames.Snake)
+let isPlaying = false
+```
 
 - [ ] I `forever`-funksjonen legger du en `if` som tester om `isPlaying` er
   sant(`true`). I så fall skal programmet tegne og oppdatere, så dette putter du
   inni `if`-klossen.
 
-![Bilde av forever](snake_mainloop_steg2.png)
+```microbit
+basic.forever(function () {
+    if (isPlaying) {
+        basic.clearScreen()
+        drawSnake();
+        updateSnake();
+        basic.pause(1000);
+    }
+})
+```
 
 - [ ] Så legger vi til funksjoner for knappene. Når knappen blir trykket setter
   du `isPlaying` til `true`
 
-![Bilde av knappekode for å starte](Buttons_code_start.png)
+```microbit
+input.onButtonPressed(Button.A, function () {
+    isPlaying = true
+})
+input.onButtonPressed(Button.B, function () {
+    isPlaying = true
+
+})
+```
 
 ## Test prosjektet i simulatoren {.flag}
 
@@ -383,7 +422,9 @@ __På tide å prøve spillet på micro:bit__
   oktav i 20 ms som blir et fint lite blip.
 
 ```microbit
+function updateSnake(){
     music.playTone(Note.C5, 20)
+}
 ```
 
 - [ ] Så vil vi spille en liten melodi når det er game over. Microbitten har
@@ -392,7 +433,9 @@ __På tide å prøve spillet på micro:bit__
   rett før du viser hodeskallen.
 
 ```microbit
+function checkGameOver(){
     music.beginMelody(music.builtInMelody(Melodies.Wawawawaa), MelodyOptions.Once);
+}
 ```
 
 ## Test prosjektet {.flag}
@@ -498,12 +541,14 @@ Hvordan gjør vi det? Vi lar bare være å fjerne det siste punktet på halen i
   slangen ikke spiser mat, gjør vi det samme som før.
 
 ```microbit
-if (x == foodX && y == foodY) {
-    music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
-    generateFood();
-} else {
-    snake.pop();
-    snake.pop();
+function updateSnake(){
+    if (x == foodX && y == foodY) {
+        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
+        generateFood();
+    } else {
+        snake.pop();
+        snake.pop();
+    }
 }
 ```
 
@@ -534,16 +579,18 @@ function checkGameOver(x: number, y: number) {
   av `updateSnake()` slik
 
 ```microbit
-if (x === foodX && y === foodY) {
-    music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
-    updateRate *= 0.95;
-    generateFood();
-} else {
-    snake.pop();
-    snake.pop();
+function updateSnake(){
+    if (x === foodX && y === foodY) {
+        music.beginMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once);
+        updateRate *= 0.95;
+        generateFood();
+    } else {
+        snake.pop();
+        snake.pop();
+    }
+    buttonPressed = false
+    updateRate -= 5;
 }
-buttonPressed = false
-updateRate -= 5;
 ```
 
 - [ ] Så bruker vi `updateRate` i pausen i `forever()`
@@ -598,7 +645,9 @@ function drawFood() {
   samme sted som vi setter `isPlaying = true` på første knappetrykk.
 
 ```microbit
-	lastUpdateTime = input.runningTime();
+input.onButtonPressed(Button.A, function () {
+    lastUpdateTime = input.runningTime();
+}
 ```
 
 - [ ] I `forever()` henter vi ut tiden og ser om det har gått lengre tid enn
@@ -608,7 +657,6 @@ function drawFood() {
 
 ```microbit
 basic.forever(function () {
-
 	  if (isPlaying) {
 	      basic.clearScreen();
 	      drawSnake();

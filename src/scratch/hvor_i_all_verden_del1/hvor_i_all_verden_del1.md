@@ -30,10 +30,13 @@ over alle stedene vi kan besøke.
 - [ ] Start et nytt Scratch-prosjekt. Slett kattefiguren, for eksempel ved å
   høyreklikke på den og velge `slett`.
 
-- [ ] Legg til en ny figur ved å klikke ![Velg figur fra
-  biblioteket](../bilder/hent-fra-bibliotek.png) under `Figurer`. Vi har brukt
-  `Transport/Helicopter`, men du kan gjerne bruke en annen figur å reise rundt
-  med.
+- [ ] Vi vil først laste ned helikopteret fra nettet. Åpne lenken
+  [helikopter.png](../bilder/fra-scratch-v2/helikopter.png) i en ny fane i nettleseren din. Dette vil
+  åpne et bilde av et helikopter. Høyreklikk på bildet, og velg `Lagre bildet
+  som` eller noe som ligner. Lagre bildet et sted du finner det igjen.
+
+- [ ] Velg ![Last opp figur fra fil](../bilder/scratch3-last-opp-figur.png) under `figur` nesten helt til venstre på skjermen. Velg filen `helikopter.png` du nettopp
+  lastet ned.
 
 - [ ] Klikk `i`{.blockmotion} og skift navn på figuren til `Helikopter`.
 
@@ -111,7 +114,7 @@ __Klikk på det grønne flagget.__
   åpne et bilde av et europakart. Høyreklikk på bildet, og velg `Lagre bildet
   som` eller noe som ligner. Lagre bildet et sted du finner det igjen.
 
-- [ ] Velg ![Last opp bakgrunn fra fil](../bilder/hent-fra-fil.png) under `Ny
+- [ ] Velg ![Last opp bakgrunn fra fil](../bilder/scratch3-last-opp-bakgrunn.png) under `Ny
   bakgrunn` helt til venstre på skjermen. Velg filen `europakart.png` du nettopp
   lastet ned.
 

@@ -92,50 +92,13 @@ For å kunne vise retningen til jordens magnetfelt, altså hvilken retning magne
 
 Vi kan gjøre det litt lettere hvis vi fester en pinne langs en av aksene. På bildet har jeg valgt å peke langs y-aksen til magnetometeret. Vi kan også legge til en visuell bekreftelse som indikerer hvor nærme man er å peke langs magnetfeltet.
 
-**Program sender:** [https://makecode.microbit.org/S89067-75635-13371-88070](https://makecode.microbit.org/S89067-75635-13371-88070){:target=_blank}
 
 - [ ] Nå skal vi utvide koden til senderen til å inkludere `visuelle bekreftelser`{.microbitbasic} på dataen vi leser av med micro:biten. Dette gjør vi gjennom `logikk-klosser`{.microbitlogic}, `matematikk-klosser`{.microbitmath} og `magnetfelt inndataklosser`{.microbitinput}.
 
-```microbit
-radio.setGroup(1)
-input.calibrateCompass()
-basic.forever(function () {
-    radio.sendValue("mx", input.magneticForce(Dimension.X))
-    radio.sendValue("my", input.magneticForce(Dimension.Y))
-    radio.sendValue("mz", input.magneticForce(Dimension.Z))
-    if (input.magneticForce(Dimension.Y) > 0 && (Math.abs(input.magneticForce(Dimension.X)) < 1 && Math.abs(input.magneticForce(Dimension.Z)) < 1)) {
-        basic.showLeds(`
-            . # # # .
-            # . . . #
-            # . # . #
-            # . . . #
-            . # # # .
-            `)
-    } else if (input.magneticForce(Dimension.Y) > 0 && (Math.abs(input.magneticForce(Dimension.X)) < 3 && Math.abs(input.magneticForce(Dimension.Z)) < 3)) {
-        basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . # . .
-            . . . . .
-            . . . . .
-            `)
-    } else if (input.magneticForce(Dimension.Y) > 0 && (Math.abs(input.magneticForce(Dimension.X)) < 6 && Math.abs(input.magneticForce(Dimension.Z)) < 6)) {
-        basic.showLeds(`
-            . . . . .
-            . # . # .
-            . . # . .
-            . # . # .
-            . . . . .
-            `)
-    } else if (input.magneticForce(Dimension.Y) > 0 && (Math.abs(input.magneticForce(Dimension.X)) < 10 && Math.abs(input.magneticForce(Dimension.Z)) < 10)) {
-        basic.showIcon(IconNames.No)
-    } else if (input.magneticForce(Dimension.Y) > 0 && (Math.abs(input.magneticForce(Dimension.X)) < input.magneticForce(Dimension.Strength) && Math.abs(input.magneticForce(Dimension.Z)) < input.magneticForce(Dimension.Strength))) {
-        basic.showIcon(IconNames.Happy)
-    } else if (input.magneticForce(Dimension.Y) < 0) {
-        basic.showIcon(IconNames.Sad)
-    }
-})
-```
+Denne koden er svært lang, og får ikke plass på denne siden. Dersom du ønsker å laste den ned direkte, eller bare åpne filen for å se hvordan koden ser ut, bruker du lenken under for å se koden til sender: 
+
+**Program sender:** [https://makecode.microbit.org/S89067-75635-13371-88070](https://makecode.microbit.org/S89067-75635-13371-88070){:target=_blank}
+
 
 **Program for mottaker endres ikke: (** [https://makecode.microbit.org/S28166-63766-99567-34707](https://makecode.microbit.org/S28166-63766-99567-34707){:target=_blank} )
 

@@ -13,6 +13,8 @@ language:
       NAME: Enska
     is:
       NAME: Íslenska
+    ua:
+      NAME: Úkraínska
 topic:
   NAME: Þema
   TAGS:
@@ -58,21 +60,21 @@ subject:
     mathematics:
       NAME: Stærðfræði
     science:
-      NAME: Náttúrufræði
+      NAME: Náttúrugreinar
     programming:
       NAME: Forritun
     technology:
-      NAME: Tækni
+      NAME: Upplýsinga- og tæknimennt
     music:
-      NAME: Tónlist
+      NAME: Tónmennt
     first_language:
       NAME: Íslenska
     english:
       NAME: Enska
     arts_and_crafts:
-      NAME: Myndlist
+      NAME: Myndmennt
     social_science:
-      NAME: Samfélagsfræði
+      NAME: Samfélagsgreinar
 grade:
   NAME: Bekkur
   TAGS:

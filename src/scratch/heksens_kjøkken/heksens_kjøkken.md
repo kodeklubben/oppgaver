@@ -13,9 +13,9 @@ Vi skal lage et "escape" spill hvor spilleren må klikke objekter for å løse g
 ![heksens kjøkken start](heksens_kjøkken_start.png)
 
 
-# Steg 1: Velg backgrunn og figurer {.activity}
+# Steg 1: Velg bakgrunn og figurer {.activity}
 
-*Vi velger backgrunn og alle figurer og setter de på sted.*
+*Vi velger bakgrunn og alle figurer og setter de på sted.*
 
 ## Sjekkliste {.check}
 
@@ -123,7 +123,7 @@ __Klikk på wizard-toad.__
 
 - [ ] Lager wizard-toad lyd hvis du skriver "abrakadabra" eller "abra kadabra"?
 
-- [ ] Reagierer wizard-toad hvis du skriver noe annet?
+- [ ] Reagerer wizard-toad hvis du skriver noe annet?
 
 
 # Steg 3: Lager nye variabler {.activity}
