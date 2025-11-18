@@ -42,7 +42,8 @@ Vi lager en liten hage!
 
 ## Sjekkliste {.check}
 
-- [ ] Åpne denne lenken: [ https://www.uia.no/naturmuseum/lering-og-skole/naturfakta/botanikk/blomsterduft/ ](https://www.uia.no/naturmuseum/lering-og-skole/naturfakta/botanikk/blomsterduft/ )
+- [ ] Åpne denne lenken: [https://scratch.mit.edu/projects/1240231430 
+](https://scratch.mit.edu/projects/1240231430 )
 
 - [ ] Her finner dere et Scratch-prosjekt dere kan bruke til oppgaven. Vi har laget fine figurer som dere kan velge å bruke, men dere kan også gå inn i figur-biblioteket og legge til flere figurer.
 
