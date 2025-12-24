@@ -17,6 +17,34 @@ Når dere er ferdige kan dere vise frem prosjektet til de andre elevene i klasse
 
 Følg denne lenken for å remikse prosjektet med figurene på bildet: [https://scratch.mit.edu/projects/928002017  ](https://scratch.mit.edu/projects/928002017  )
 
+# iPad
+
+![Bildebeskrivelse](./arrows.png)
+
+Dersom dere skal bruke iPad til denne oppgaven trenger dere å programmere noen “knapper” dere kan bruke dersom dere ikke har tastatur.
+Slik gjør dere:
+Gå inn på figuroversikten og finn et pilsymbol.
+På pilsymbolet programmerer du følgende kode:
+
+```blocks
+når denne figuren klikkes
+send melding(go_right)
+```
+
+Når denne klikkes
+Send “Gå høyre”
+Nå går du på figuren pilen skal styre, og legger inn følgende kode:
+Når jeg mottar “Gå høyre”
+Gå x steg (her justerer du farten selv, i eksemplet er farten 10)
+
+```blocks
+når jeg mottar(go_right)
+gå(10)steg
+```
+
+Gjenta begge stegene for alle retningspilene du trenger å ha (enten høyre og venstre-pil, eller piler til høyre, venstre, opp og ned).
+Du kan nå styre figuren ved å klikke på pil-figurene på skjermen!
+
 # Steg 1: Finn fakta om verdensrommet!{.activity}
 
 Visste du at Jupiter har 79 måner? Eller at det finnes en planet som er laget av diamanter? 
