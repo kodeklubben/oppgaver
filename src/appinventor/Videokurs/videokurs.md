@@ -2,7 +2,7 @@
 title: Course In A Box
 level: 1
 language: en
-external: http://www.appinventor.org/course-in-a-box-intro
+external: https://web.archive.org/web/20230108235132/http://www.appinventor.org/course-in-a-box-intro
 ---
 
 The Course In A Box is designed for complete beginners to App Inventor. 
