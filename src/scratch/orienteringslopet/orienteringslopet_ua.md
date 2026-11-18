@@ -23,7 +23,7 @@ language: ua
 ## Контрольний перелік {.check}
 
 - [ ] Перейдіть за посиланням:
-  https://scratch.mit.edu/projects/261157815{target=_blank}.
+  [https://scratch.mit.edu/projects/261157815](https://scratch.mit.edu/projects/261157815){target=_blank}.
 
 - [ ] Перегляньте проект і натисніть кнопку Ремікс.
 
