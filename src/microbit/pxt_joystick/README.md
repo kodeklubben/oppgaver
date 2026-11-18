@@ -59,8 +59,8 @@ Oppgaven er grunnleggende, og kan ikke brukes alene for vurdering av kompetansem
   * 1 rød ledning med kontakt (hull) i begge ender.
   * 1 blå ledning med kontakt (hull) i begge ender.
   * 1 svart ledning med kontakt (hull) i begge ender.
-  * 1 [koblingsbrett](https://kodegenet.no/shop/product/microbit_edge_connector){target=_blank}.
-  * 1 [analog joystick](https://kodegenet.no/shop/product/joystick_analog){target=_blank}.
+  * 1 koblingsbrett.
+  * 1 analog joystick.
 
 
 ## Fremgangsmåte
