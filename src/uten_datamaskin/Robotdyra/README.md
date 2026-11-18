@@ -61,4 +61,3 @@ Grunnpremisset til denne oppgaven er s√•pass enkelt at det ikke er noe problem √
 ## Eksterne ressurser {.challenge}
 
 - [ ] Forslag til alternativt opplegg: [Kidbots](https://csunplugged.org/en/at-home/kidbots){target=_blank}
-- [ ] Lenke til opprinnelig oppleggg: [Robotdyra](http://iktipraksis.spillpedagogene.no/iktipraksis.iktsenteret.no/content/robotdyra-koding-uten-digital-enhet.html){target=_blank}
