@@ -9,10 +9,7 @@ language: nn
 # Introduksjon {.intro}
 
 I denne oppgåva må du bruke det du har lært til no for å lage tre nettsider som
-skal lenke til kvarandre. Her er eit døme: [www.ulv.no](http://sobakk.no/iver/Smaoppgaver/dyr/ulv.html){target=_blank}.
-
-Denne sida lenkar til to ny sider som lenkar tilbake att til ulv.no. I denne
-oppgåva skal me gjere det same, men alle sidene skal lenke til kvarandre.
+skal lenke til kvarandre.
 
 
 # Lenk saman nettsider {.activity}
