@@ -48,8 +48,3 @@ lage dine eigne spel.
 
 - Du finn diplom og anna grafisk materiell på
   [kidsakoder.no/ressurser](http://www.kidsakoder.no/ressurser).
-
-## Videoar
-
-- Sjekk ut videoane våre på norsk for korleis du kjem i gang med programmering i
-  Scratch på [vimeo.com/channels/623455](https://vimeo.com/channels/623455).
