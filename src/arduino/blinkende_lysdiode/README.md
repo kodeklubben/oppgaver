@@ -89,7 +89,7 @@ oppgaven. [Klikk her for å se oppgaveteksten.](../blinkende_lysdiode/blinkende_
 Arduino er en åpen plattform for prototyping av elektronikk. Arduino kan brukes
 for å styre elektroniske komponenter som motorer og lys, samt få data fra
 knapper, temperaturmålere, osv. Mer info kan finnes på
-[arduino.cc](https://www.arduino.cc/en/Guide/Introduction).
+[arduino.cc](https://docs.arduino.cc/learn/starting-guide/whats-arduino/).
 
 ### Breadboard
 
