@@ -15,7 +15,7 @@ Google, NASA og CERN.
 
 Me startar ganske enkelt med å sjå på korleis me kan lage små program i Python
 som kan lese og vise tekst. Spesielt skal me lage vår eigen versjon av eit
-historisk program som heiter [Cowsay](http://www.cowsays.com/)) der ei smart ku
+historisk program som heiter [Cowsay](https://en.wikipedia.org/wiki/Cowsay) der ei smart ku
 spreier visdommen sin.
 
 ![Bilete av ei ASCII-ku som pratar!](kuprat.png)
@@ -153,7 +153,7 @@ Til dømes kan du trykke `ctrl + S` for å lagre (`cmd + S` på Mac) eller `F5` 
 # Steg 3: Kuprat {.activity}
 
 No skal me lage ein enkel versjon av det klassiske programmet
-[Cowsay](http://www.cowsays.com), som vart laga av Tony Monroe. Med dette
+[Cowsay](https://en.wikipedia.org/wiki/Cowsay), som vart laga av Tony Monroe. Med dette
 programmet kan du få ei stilig ku til å seie omtrent kva som helst.
 
 ## Sjekkliste {.check}
