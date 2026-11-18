@@ -1,7 +1,7 @@
 ---
 title: 'Raspberry Pi'
 language: en
-external: 'https://www.raspberrypi.org/resources/learn/'
+external: 'https://projects.raspberrypi.org/en'
 ---
 
 Raspberry Pi have a lot of resources for how to learn programming, just as Lær

@@ -1,7 +1,7 @@
 ---
 title: 'Coder Dojo'
 language: en
-external: 'https://coderdojo.com/resources/'
+external: 'https://codeclub.org/en/learn-to-code'
 ---
 
 Coder Dojo have a lot of resources for how to learn programming, just as Lær
