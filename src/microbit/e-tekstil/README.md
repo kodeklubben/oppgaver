@@ -97,4 +97,4 @@ oppgaven enda._
 
 ## Eksterne ressurser {.challenge}
 
-- [ ] Korte videoer om hvordan man kobler til og programmerer diverse elektronikk med microbit: [Vitensenter.no](https://www.vitensenter.no/superbit/tips-triks-og-feilsoeking){target=_blank}
+- [ ] Korte videoer om hvordan man kobler til og programmerer diverse elektronikk med microbit: [Super:bit](https://superbit.no/feilretting-tips-og-triks/){target=_blank}
