@@ -12,7 +12,7 @@ med vennene dine. Spillet kalles *Trykkomania* fordi det handler om å trykke p�
 en ball flest mulig ganger før tiden renner ut.
 
 Oppgaven henter ideer fra utvikling av web-applikasjoner med bibliotek som
-[React](https://facebook.github.io/react/) og [Mithril](http://mithril.js.org/),
+[React](https://react.dev/) og [Mithril](http://mithril.js.org/),
 der elementer i spillet lages som inviduelle komponenter. Komponentene ligner på
 objektorientert programmering, men bruker teknikken "closures" (funksjoner som
 husker konteksten de ble laget i).

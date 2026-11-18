@@ -8,10 +8,7 @@ language: nb
 # Introduksjon {.intro}
 
 I denne oppgaven må du bruke det du har lært til nå for å lage 3 nettsider som
-skal linke til hverandre. Her er et eksempel: [www.ulv.no](http://sobakk.no/iver/Smaoppgaver/dyr/ulv.html){target=_blank}.
-
-Denne siden linker til 2 nye sider som linker tilbake igjen til ulv.no. I denne
-oppgaven skal vi gjøre det samme bare at alle sidene skal lenke til hverandre.
+skal linke til hverandre.
 
 
 # Lenk sammen nettsider {.activity}
