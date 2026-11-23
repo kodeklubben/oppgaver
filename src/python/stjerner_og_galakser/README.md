@@ -27,10 +27,10 @@ __Tidsbruk__: Dobbelttime
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
    over bruken av disse
 
-- [ ] __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+- [ ] __Kunst og håndverk, 7. trinn__: tegne form, flate og rom ved hjelp av
   virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av
   frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
 ## Forslag til læringsmål {.challenge}

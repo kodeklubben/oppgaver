@@ -23,12 +23,6 @@ Vigenere er litt smartere enn krypteringen i [Hemmelige koder], men den er ikke
 så annerledes. I stegene under skal du prøve å forstå vigenere-koden. Det er
 viktig at du forstår denne koden, ettersom du skal lage nesten lik kode selv.
 
-## Python 2 {.protip}
-
-Denne koden fungerer best med python 3. Dersom du har python 2, må du legge en
-`u` foran alle tekstvariabler. Altså `'asdf'` må skrives slik som dette:
-`u'asdf'`.
-
 ## Lag kommentarer med forklaring {.check}
 
 - [ ] Les koden under.

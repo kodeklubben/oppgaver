@@ -30,9 +30,6 @@ __Tidsbruk__: Enkelttime
   delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
   programmering
 
-- [ ] __Samfunnsfag, 7. trinn__: utforske hvordan teknologi har vært og fortsatt
-  er en endringsfaktor, og drøfte innvirkningen teknologien har hatt og har på enkeltmenneske, samfunn og natur
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan lage egne hemmelige beskjeder

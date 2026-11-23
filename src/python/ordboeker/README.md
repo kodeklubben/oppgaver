@@ -26,11 +26,15 @@ __Tidsbruk__: Enkelttime
 - [ ] __Engelsk, 7. trinn__: bruke digitale ressurser og ulike ordbøker i
   språklæring, tekstskaping og samhandling
 
-- [ ] __Engelsk, VG1__: bruke egnede digitale ressurser og andre hjelpemidler i
-  språklæring, tekstskaping og samhandling
+- [ ] __Engelsk, 10. trinn__: bruke ulike digitale ressurser og andre
+  hjelpemidler i språklæring, tekstskaping og samhandling
 
 - [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
   delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering
+
+- [ ] __Informasjonsteknologi 1__: gjøre rede for og vurdere hvordan ulike typer
+  informasjon kan representeres digitalt og struktureres ved hjelp av ulike
+  datalagringsmetoder
 
 ## Forslag til læringsmål {.challenge}
 

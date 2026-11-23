@@ -22,17 +22,14 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
-      frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
-
-- [ ] __Matematikk, 4. trinn__: utforske, beskrive og sammenligne egenskaper ved
-      to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av
+  frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
-      programmering til å utforske geometriske figurer og mønster
+  programmering til å utforske geometriske figurer og mønstre
 
-- [ ] __Norsk, 7.trinn__: leke med språket og prøve ut ulike virkemidler og
-      framstillingsmåter i muntlige og skriftlige tekster
+- [ ] __Matematikk, 4. trinn__: beskrive og utforske egenskaper ved to- og
+  tredimensjonale figurer ved å bruke vinkler, kanter, hjørner og flater
 
 ## Forslag til læringsmål {.challenge}
 

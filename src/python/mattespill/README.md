@@ -23,13 +23,11 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 8. trinn__: utforske algebraiske regneregler
-
 - [ ] __Matematikk, 9. trinn__: simulere utfall i tilfeldige forsøk og beregne
    sannsynligheten for at noe skal inntreffe, ved å bruke programmering
 
 - [ ] __Matematikk, 10. trinn__: utforske matematiske egenskaper og sammenhenger
-  ved å bruke programmering   
+  ved å bruke programmering
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere

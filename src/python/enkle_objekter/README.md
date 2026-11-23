@@ -28,14 +28,12 @@ __Tidsbruk__: Dobbelttime
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
   over bruken av disse
 
-- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
-  parametre og returverdier  
+- [ ] __Informasjonsteknologi 2__: utvikle objektorienterte programmer med
+  klasser, objekter, metoder og arv
 
-- [ ] __IT1, VG2__: forklare hva en algoritme er, og selv skrive strukturert og
-   effektiv kode for å løse små problemer    
-
-- [ ] __IT2, VG3__: lage objektorienterte programmer som benytter klasser med
-  metoder
+- [ ] __Informasjonsteknologi 1__: gjøre rede for og vurdere hvordan ulike typer
+  informasjon kan representeres digitalt og struktureres ved hjelp av ulike
+  datalagringsmetoder
 
 ## Forslag til læringsmål {.challenge}
 

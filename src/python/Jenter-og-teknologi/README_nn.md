@@ -31,12 +31,13 @@ Du kan finne ein eksempel av oppgåven ferdig koda [her](https://trinket.io/pyth
 
 ## Kompetansemål {.challenge}
 
-- [ ] **Tverrfaglige tema i LK20:** Demokrati og medborgarskap, Berekraftig utvikling
-- [ ] **Kjerneelementer i samfunnsfag :** Samfunnskritisk tenking og samanhengar, Berekraftige samfunn, Identitetsutvikling og fellesskap
-- [ ] **Mattematikk, 7.**: bruke programmering til å utforske data i tabellar og datasett
-- [ ] **Mattematikk, 8.**: utforske korleis algoritmar kan skapast, testast og forbetrast ved hjelp av programmering
-- [ ] **Kunst og håndverk, 7.**:  bruke programmering til å skape interaktivitet og visuelle uttrykk
+- [ ] __Matematikk, 7. trinn__: bruke programmering til å utforske data i
+  tabellar og datasett
 
+- [ ] __Matematikk, 8. trinn__: utforske korleis algoritmar kan skapast,
+  testast og forbetrast ved hjelp av programmering
+
+- [ ] **Kunst og håndverk, 7.**:  bruke programmering til å skape interaktivitet og visuelle uttrykk
 
 ## Forslag til læringsmål {.challenge}
 

@@ -1,2 +1,6 @@
 level: 4
 indexed: false
+tags:
+  topic: [text_based]
+  subject: [programming, mathematics]
+  grade: [secondary, junior]

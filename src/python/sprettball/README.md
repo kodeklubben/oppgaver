@@ -30,10 +30,6 @@ __Tidsbruk__: Dobbelttime eller mer.
   definerte problemer, inkludert kontrollering eller simulering av fysiske
   objekter
 
-- [ ] __Matematikk, 6. trinn__: beskrive egenskaper ved og minimumsdefinisjoner
-  av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene har
-  felles, og hvilke egenskaper som skiller dem fra hverandre
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke og forklare hensikten med bruken av klasser, objekter og
