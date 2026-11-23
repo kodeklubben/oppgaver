@@ -18,13 +18,13 @@ __Tema__: Tegning, Vinkler
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ utforske, beskrive og sammenligne egenskaper ved to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
-
-- [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
@@ -33,6 +33,9 @@ __Tema__: Tegning, Vinkler
 - [ ] __Matematikk, 10. trinn:__ utforske matematiske egenskaper og sammenhenger ved å bruke programmering
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
+
+- [ ] __Matematikk, 4. trinn__: beskrive og utforske egenskaper ved to- og
+  tredimensjonale figurer ved å bruke vinkler, kanter, hjørner og flater
 
 ## Forslag til læringsmål {.challenge}
 
