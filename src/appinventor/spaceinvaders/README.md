@@ -28,22 +28,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
-      parametre og returverdier
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode
-
-- [ ] __Matematikk fordypning, 10.trinn__: diskutere, planlegge, lage og vurdere
-      spilldesign og egne spill
-
-- [ ] __Programmering, 10.trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
-
-- [ ] __Programmerin, 10.trinn__: planlegge og skape et digitalt produkt og
-      vurdere dette med tanke på brukervennlighet
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

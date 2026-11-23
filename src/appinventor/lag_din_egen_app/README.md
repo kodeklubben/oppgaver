@@ -43,3 +43,19 @@ Underveis får barna spesielt trening i
   delprosjekter__,
 
 + __testing__ og __feilretting__ av egen kode.
+
+## Kompetansemål {.challenge}
+
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
+
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
+
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
+
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
