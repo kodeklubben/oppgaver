@@ -3,6 +3,11 @@ title: LEGO Mindstorms
 language: nb
 ---
 
+## Merk {.tip}
+
+LEGO har pensjonert EV3. Oppgavene gjelder EV3-sett som finnes fra før, og
+bruker den gamle EV3-programvaren.
+
 LEGO Mindstorms er et produkt fra leketøysprodusenten Lego som gjør det mulig å
 lage og programmere sin egen robot. Roboten kan kobles til flere forskjellige
 sensorer, og i tillegg løper det ut porter hvor det kan kobles til motorer,

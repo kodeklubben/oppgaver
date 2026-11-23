@@ -30,18 +30,15 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3.trinn__: eksperimentere med og forklare plasseringer i
-      koordinatsystemet
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
-- [ ] __Matematikk, 5.trinn__: lage og programmere algoritmer med bruk av
-      variabler, vilkår og løkker
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
-- [ ] __Naturfag, 4.trinn__: utforske, lage og programmere teknologiske systemer
-      som består av deler som virker sammen
-
-- [ ] __Programmering, 10.trinn__: analysere problemer, gjøre dem om til
-      delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
-      programmering
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 
