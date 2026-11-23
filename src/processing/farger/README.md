@@ -31,7 +31,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
 
@@ -39,7 +40,9 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __IT1, VG2:__ gjøre rede for hvordan ulike typer informasjon kan representeres ved hjelp av bit
+- [ ] __Informasjonsteknologi 1__: gjøre rede for og vurdere hvordan ulike typer
+  informasjon kan representeres digitalt og struktureres ved hjelp av ulike
+  datalagringsmetoder
 
 ## Forslag til læringsmål {.challenge}
 
