@@ -28,20 +28,17 @@ __Tidsbruk__: Dobbeltime
   delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
   programmering
 
-- [ ] __Matematikk, 8. trinn__: bruke potenser og kvadratrøtter i utforsking og
-  problemløsing og argumentere for fremgangsmåter og resultater  
+- [ ] __Matematikk T, 1T__: formulere og løse problemer ved hjelp av algoritmisk
+  tenkning, ulike problemløsingsstrategier, digitale verktøy og programmering
 
-- [ ] __Matematikk 1T, VG1__: formulere og løse problem ved hjelp av algoritmisk
-  tenking, ulike problemløsingsstrategier, digitale verktøy og programmering
+- [ ] __Matematikk, 8. trinn__: beskrive og utforske faktorisering og
+  primtallsfaktorisering og bruke det i brøkregning
 
-- [ ] __IT1, VG2__:lage og bruke egne og andres funksjoner med og uten parametre
-  og returverdier
+- [ ] __Informasjonsteknologi 1__: beskrive ulike typer algoritmer og vurdere
+  effektiviteten av egen programkode
 
-- [ ] __IT1, VG2__: forklare hva en algoritme er, og selv skrive strukturert og
-  effektiv kode for å løse små problemer
-
-- [ ] __IT2, VG3__: generalisere løsninger, lage gjenbrukbar programkode og
-  benytte eksisterende kode i nye programmer
+- [ ] __Informasjonsteknologi 1__: utvikle prosedyreorienterte programmer med
+  prosedyrer med og uten parametre og returverdier
 
 ## Forslag til læringsmål {.challenge}
 

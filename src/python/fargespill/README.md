@@ -35,7 +35,8 @@ __Tidsbruk__: Enkelttime
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
    over bruken av disse
 
-- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

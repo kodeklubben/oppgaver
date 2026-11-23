@@ -24,12 +24,6 @@ Vigenère er litt smartare enn krypteringa i [Hemmelege koder], men den er ikkje
 så annleis. Det er viktig at du forstår koden frå den oppgåva, sidan du skal
 lage nesten lik kode sjølv.
 
-## Python 2 {.protip}
-
-Denne koden fungerer best med Python 3. Viss du har Python 2 må du leggje ein
-`u` framfor alle tekstvariablar, altså må teksten `'asdf'` skrivast slik som
-dette: `u'asdf'`.
-
 ## Lag kommentarar med forklaring {.check}
 
 - [ ] Les koden under.

@@ -25,17 +25,12 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
-  parametre og returverdier
-
-- [ ] __IT1, VG2__: forklare hva en algoritme er, og selv skrive strukturert og
-  effektiv kode for å løse små problemer
-
-- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode
-
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
    over bruken av disse
+
+- [ ] __Matematikk, 8. trinn__: utforske hvordan algoritmer kan skapes, testes
+  og forbedres ved hjelp av programmering
 
 ## Forslag til læringsmål {.challenge}
 

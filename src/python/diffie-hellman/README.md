@@ -33,22 +33,14 @@ __Tidsbruk__: Dobbeltime
       delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
        programmering
 
-- [ ] __Matematikk, 8. trinn__: bruke potenser og kvadratrøtter i utforsking og
-      problemløsing og argumentere for fremgangsmåter og resultat
-
 - [ ] __Matematikk, 8. trinn__: lage og forklare regneuttrykk med tall,
       variabler og konstanter knyttet til praktiske situasjoner
 
-- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
+- [ ] __Matematikk, 8. trinn__: regne med potenser og kvadratrøtter og forklare
+  framgangsmåter og resultater
 
-- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
-      parametre og returverdier
-
-- [ ] __IT1, VG2__: utforske trusler mot datasikkerheten og kjenne til
-      beskyttende tiltak for noen av disse
-
-- [ ] __IT2, VG3__: beskrive hvordan data kan beskyttes ved hjelp av
-      tilgangskontroll og kryptering
+- [ ] __Informasjonsteknologi 2__: gjøre rede for standarder for lagring,
+  utveksling og sikring av ulike typer data
 
 ## Forslag til læringsmål {.challenge}
 

@@ -23,10 +23,10 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
   interaktivitet og visuelle uttrykk
 
-- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av
   frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
 - [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til

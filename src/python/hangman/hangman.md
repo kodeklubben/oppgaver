@@ -95,12 +95,6 @@ Nå har vi valgt et ord, la oss finne ut hvordan vi gjetter en bokstav.
 
 Da har vi gjort det viktigste, la oss fortsette videre.
 
-## Python 2 tips: {.protip}
-
-Bruk `raw_input` i stedet for `input` dersom du bruker en gammel version av
-python.
-
-
 # Steg 3: Husk bokstavene som er gjettet {.activity}
 
 Nå skal vi bruke to nye komponenter i python, lister og `while`-løkker.

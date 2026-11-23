@@ -27,13 +27,12 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Valgfag programmering__: Prinsipper som ligger til grunn for
-      god programmeringspraksis inngår også i hovedområdet, deriblant
-      forklaring og dokumentasjon av løsninger og programkode; vurdering
-      og analyse av egen og andres programkode (Fra hovedområdene)
-- [ ] __Valgfag programmering__: omgjøre problemer til konkrete delproblemer
-- [ ] __Matematikk X__: gjøre rede for praktiske anvendelser av
-      kongruensregning i kryptering og feilrettingskoder
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
+
+- [ ] __Informasjonsteknologi 2__: gjøre rede for standarder for lagring,
+  utveksling og sikring av ulike typer data
 
 ## Forslag til læringsmål {.challenge}
 

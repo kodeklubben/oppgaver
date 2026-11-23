@@ -22,20 +22,18 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke digitale verktøy til å planlegge
-  og presentere prosesser og produkter
+- [ ] __Kunst og håndverk, 7. trinn__: bruke digitale verktøy til å planlegge og
+  presentere prosesser og produkter
 
-- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av
   frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
 - [ ] __Matematikk, 2. trinn__: utforske, tegne og beskrive geometriske figurer
-  fra sitt eget nærmiljø og argumentere for måter å sortere de på etter egenskaper
+  fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter
+  egenskaper
 
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
-  programmering til å utforske geometriske figurer og mønster
-
-- [ ] __Matematikk, 9. trinn__: utforske egenskapene ved ulike polygoner og
-  forklare begrepene formlikhet og kongruens
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere

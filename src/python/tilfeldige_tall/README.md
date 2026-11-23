@@ -25,11 +25,7 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-
-- [ ] __Matematikk, 7. trinn__: logge, sortere, presentere og lese data i
-  tabeller og diagram og grunngi valget av framstilling
-
-- [ ] __Matematikk, 7. trinn__: bruk programmering til å utforske data i
+- [ ] __Matematikk, 7. trinn__: bruke programmering til å utforske data i
   tabeller og datasett
 
 - [ ] __Matematikk, 8. trinn__: utforske hvordan algoritmer kan skapes, testes
@@ -39,11 +35,11 @@ __Tidsbruk__: Dobbeltime
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
    over bruken av disse
 
-- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
-  parametre og returverdier
+- [ ] __Matematikk, 7. trinn__: logge, sortere, lese av og presentere data i
+  tabeller og diagrammer og forklare valget av framstilling
 
-- [ ] __IT1, VG2__: utforske trusler mot datasikkerheten og kjenne til
-  beskyttende tiltak for noen av disse  
+- [ ] __Matematikk, 9. trinn__: simulere utfall i tilfeldige forsøk og beregne
+  sannsynligheten for at noe skal inntreffe, ved å bruke programmering
 
 ## Forslag til læringsmål {.challenge}
 

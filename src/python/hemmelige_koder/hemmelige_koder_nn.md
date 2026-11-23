@@ -63,12 +63,6 @@ med D og tel 3 bakover for å få A.
 
 # Steg 1: Alfabetet {.activity}
 
-Her kan du få trøbbel med norske bokstavar viss du ikkje har Python 3. Du har
-Python 2 viss det står 2.6 eller 2.7 i IDLE. I så fall må du leggje ein `u`
-framfor tekst som er inni `""`. Til dømes blir alfabetet under
-`u"abcdefghijklmnopqrstuvwxyzæøå"`. Når me legg til `u`-en seier me at teksten
-er av typen *Unicode* som støttar alle norske bokstavar.
-
 ## Sjekkliste {.check}
 
 - [ ] Fyrst må me lære Python alfabetet. Åpne IDLE og lag ei ny fil med koden

@@ -33,17 +33,6 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode
-
-- [ ] __IT1, VG2__: utforske trusler mot datasikkerheten og kjenne til
-  beskyttende tiltak for noen av disse
-
-- [ ] __IT2, VG3__: beskrive hvordan data kan beskyttes ved hjelp av
-  tilgangskontroll og kryptering  
-
-- [ ] __IT2, VG3__: kartlegge og analysere trusler, sårbarheter og risiko i
-  informasjonssystemer  
-
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
    over bruken av disse
@@ -51,6 +40,12 @@ __Tidsbruk__: Dobbeltime
 - [ ] __Programmering, 10. trinn__: analysere problemer, gjøre dem om til
   delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
   programmering
+
+- [ ] __Informasjonsteknologi 2__: gjøre rede for standarder for lagring,
+  utveksling og sikring av ulike typer data
+
+- [ ] __Vg2 informasjonsteknologi, Utvikling__: analysere digitale trusler,
+  verdier og sårbarheter og utvikle applikasjoner med innebygget sikkerhet
 
 ## Forslag til læringsmål {.challenge}
 

@@ -22,25 +22,22 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke digitale verktøy til å planlegge
-    og presentere prosesser og produkter
+- [ ] __Kunst og håndverk, 7. trinn__: bruke digitale verktøy til å planlegge og
+  presentere prosesser og produkter
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
   interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 6. trinn__: beskrive egenskaper ved og minimumsdefinisjoner
-  av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene har
-  felles, og hvilke egenskaper som skiller dem fra hverandre
-
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
-  programmering til å utforske geometriske figurer og mønster
-
-- [ ] __Matematikk, 9. trinn__: beskrive, forklare og presentere strukturer og
-  utviklinger i geometriske mønster og i tallmønster
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
   programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
    over bruken av disse
+
+- [ ] __Matematikk, 6. trinn__: beskrive og utforske egenskaper ved to- og
+  tredimensjonale figurer og forklare hvilke egenskaper figurene har til felles,
+  og hvilke egenskaper som skiller figurene fra hverandre
 
 ## Forslag til læringsmål {.challenge}
 

@@ -33,8 +33,6 @@ __Tidsbruk__: Dobbeltime
   delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
   programmering
 
-- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene klarer å dele opp programmet sitt i logiske funksjoner

@@ -26,10 +26,10 @@ __Tidsbruk__: Enkelttime
 - [ ] __Norsk, 2. trinn__: lage tekster som kombinerer skrift med bilder
 
 - [ ] __Norsk, 4. trinn__: skrive tekster med funksjonell håndskrift og med
-      tastatur
+  tastatur
 
-- [ ] __Programmering, 10.trinn__: bruke flere programmeringsspråk, deriblant
-      minst ett som er tekstbasert
+- [ ] __Programmering, 8.-10. trinn__: bruke flere programmeringsspråk,
+  deriblant minst ett som er tekstbasert
 
 ## Forslag til læringsmål {.challenge}
 

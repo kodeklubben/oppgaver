@@ -35,12 +35,8 @@ __Tidsbruk__: Dobbeltime eller mer
 - [ ] __Programmering, 10. trinn__: planlegge og skape et digitalt produkt og
   vurdere dette med tanke på brukervennlighet
 
-- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
-
-- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
-  parametre og returverdier
-
-- [ ] __IT1, VG2__: lese, strukturere, analysere og kommentere programkode 
+- [ ] __Informasjonsteknologi 1__: utvikle prosedyreorienterte programmer med
+  prosedyrer med og uten parametre og returverdier
 
 ## Forslag til læringsmål {.challenge}
 
