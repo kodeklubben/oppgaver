@@ -22,13 +22,11 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk, mellom dei minst eitt som er tekstbasert
+- [ ] __Informasjonsteknologi 1__: utvikle nettsider ved hjelp av
+  markeringsspråk
 
-- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
-
-- [ ] __IT1, VG2:__ lagre og hente fram data og presentera dei på nettsider
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
+- [ ] __Programmering, 8.-10. trinn__: bruke flere programmeringsspråk,
+  deriblant minst ett som er tekstbasert
 
 ## Forslag til læringsmål {.challenge}
 

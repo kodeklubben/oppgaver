@@ -27,11 +27,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
-
-- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
-
-- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
+- [ ] __Informasjonsteknologi 1__: utvikle nettsider ved hjelp av
+  markeringsspråk
 
 ## Forslag til læringsmål {.challenge}
 

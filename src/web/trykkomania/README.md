@@ -33,19 +33,18 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 7. trinn:__ representere og bruke brøk, desimaltall og prosent på ulike måter og utforske de matematiske sammenhengene mellom disse representasjonsformene
-
-- [ ] __Matematikk, 8. trinn:__ lage og forklare regneuttrykk med tall, variabler og konstanter tilknyttet praktiske situasjoner
-
 - [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
 - [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
+- [ ] __Informasjonsteknologi 1__: utvikle prosedyreorienterte programmer med
+  prosedyrer med og uten parametre og returverdier
 
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
+- [ ] __Informasjonsteknologi 1__: utforske, strukturere og kommentere
+  programkode
 
-- [ ] __IT2, VG3:__ lage objektorienterte programmer som benytter klasser med metoder
+- [ ] __Matematikk, 8. trinn__: lage og forklare regneuttrykk med tall,
+  variabler og konstanter knyttet til praktiske situasjoner
 
 ## Forslag til læringsmål {.challenge}
 
