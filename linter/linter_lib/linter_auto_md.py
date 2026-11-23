@@ -819,7 +819,7 @@ def auto_lint_md(filename):
         os.remove(temp_file)
     else:
         # File has changed, renaming temp to perm
-        os.rename(temp_file, filename)
+        os.replace(temp_file, filename)
 
 
 def main(files_md):
