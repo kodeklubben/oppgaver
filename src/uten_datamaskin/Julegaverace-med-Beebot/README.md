@@ -1,7 +1,7 @@
 ---
 title: "Julegaverace med Beebot"
 author: "Sigurd Schaathun"
-language: "nb"
+language: nb
 ---
 
 # Om Julegaverace med BeeBot{.activity}
@@ -20,9 +20,11 @@ __Tidsbruk__: 20 - 45 minutter
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 2. trinn__: lage og følgje reglar og trinnvise instruksjonar i leik og spel
+- [ ] __Matematikk, 2. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill
 
-- [ ] __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet
+- [ ] __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill knyttet til koordinatsystemet
 
 ## Forslag til læringsmål {.challenge}
 
@@ -42,7 +44,7 @@ Man kan måle tid det tar å kjøre løypen (inkludert programmering) eller hvor
 
 Her kommer tips, erfaring og utfordringer til de ulike stegene i den faktiske
 oppgaven. [Klikk her for å se
-oppgaveteksten.](../OPPGAVENAVN/OPPGAVENAVN.html){target=_blank}
+oppgaveteksten.](../Julegaverace-med-Beebot/Julegaverace-med-Beebot.html){target=_blank}
 
 # Steg 1:... {.activity}
 

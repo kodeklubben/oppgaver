@@ -22,7 +22,8 @@ __Tidsbruk__: 15 - 60 min
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 2. trinn__: lage og følgje reglar og trinnvise instruksjonar i leik og spel
+- [ ] __Matematikk, 2. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill
 
 ## Forslag til læringsmål {.challenge}
 
