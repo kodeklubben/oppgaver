@@ -22,15 +22,17 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] **Kjerneelement - Språket som system og mulighet**: De skal beherske etablerte språk- og sjangernormer, og kunne leke, utforske og eksperimentere med språket på kreative måter.
+- [ ] __Matematikk, 4. trinn__: lage algoritmar og uttrykkje dei ved bruk av
+  variablar, vilkår og lykkjer
 
-- [ ] __Matematikk, 4. trinn:__  lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
-
-- [ ] __Matematikk, 5. trinn:__  lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmar med bruk av
+  variablar, vilkår og lykkjer
 
 - [ ] __Matematikk, 7. trinn:__  bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Kunst og håndverk, 10. trinn:__ utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter + presentere valg fra idé til ferdig resultat
+- [ ] __Kunst og handverk, 10. trinn__: utforske korleis digitale verktøy og ny
+  teknologi kan gi moglegheiter for kommunikasjonsformer og opplevingar i
+  skapande prosessar og produkt
 
 ## Føresetnader og utstyr {.challenge}
 
