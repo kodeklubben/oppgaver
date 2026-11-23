@@ -29,23 +29,18 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __IT1, VG2__: planlegge og implementere brukergrensesnitt
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
-- [ ] __IT1, VG2__: lage og bruke egne og andres funksjoner med og uten
-      parametre og returverdier
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Kunst og håndtverk, 7.trinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Matematikk fordypning, 10.trinn__: diskutere, planlegge, lage og vurdere
-      spilldesign og egne spill
-
-- [ ] __Programmering, 10.trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
-
-- [ ] __Programmerin, 10.trinn__: planlegge og skape et digitalt produkt og
-      vurdere dette med tanke på brukervennlighet
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

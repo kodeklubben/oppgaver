@@ -1,9 +1,9 @@
 ---
 title: Space invaders
 level: 4
-author: "Oppgaven er laget av [GDG
-Bergen](https://www.meetup.com/en-AU/GDGBergen/), og tilpasset Kodeklubbens
-format på oppgaver."
+author: >-
+  Oppgaven er laget av [GDG Bergen](https://www.meetup.com/en-AU/GDGBergen/),
+  og tilpasset Kodeklubbens format på oppgaver.
 translator: Teodor Heggelund og Stein Olav Romslo
 language: nb
 ---
@@ -222,7 +222,7 @@ Da er vi ferdig med å programmere. Kos deg med spillet!
 
 Prøv å videreutvikle spillet. Du kan for eksempel prøve noe av det følgende:
 
-- [ ] Legge inn et [bakgrunnsbilde](.media/background.jpg).
+- [ ] Legge inn et [bakgrunnsbilde](media/background.jpg).
 
 - [ ] Legge til lyd når du skyter og/eller treffer (prøv
   [laser.mp3](./media/laser.mp3) og [explosion.mp3](./media/explosion.mp3)).
