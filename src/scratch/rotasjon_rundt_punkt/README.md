@@ -22,17 +22,14 @@ __Tidsbruk__: Enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. årstrinn__: utforske, beskrive og sammenligne egenskaper
-       ved to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
-- [ ] __Matematikk, 6. årstrinn__: bruke variabler, løkker, vilkår og
-       funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: lage kongruensavbildninger med og uten
+  koordinatsystemer
 
-- [ ] __Matematikk, 6 årstrinn__: utforske og beskrive symmetri og mønster og
-      utføre kongurensavbildinger med og uten koordinatsystem
-
-- [ ] __Matematikk, 10. årstrinn__: utforske matematiske egenskaper og
-      sammenhenger ved å bruke programmering
+- [ ] __Matematikk, 10. trinn__: utforske matematiske egenskaper og sammenhenger
+  ved å bruke programmering
 
 ## Forslag til læringsmål {.challenge}
 

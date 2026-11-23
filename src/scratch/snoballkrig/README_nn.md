@@ -26,20 +26,17 @@ __Tidsbruk__: Dobbelttime eller meir.
 ## Kompetansemål {.challenge}
 
 - [ ] __Kunst og handverk, 10. trinn__: visualisere form ved hjelp av
-      frihandteikningar, arbeidsteikningar, modeller og digitale verktøy
-
-- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
-      koordinatsystemet
+  frihandsteikningar, arbeidsteikningar, modellar og digitale verktøy
 
 - [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
-      vurdere spilldesign og eigne spel
+  vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
-      programmering, slik som variablar, løkker, vilkår og funksjonar, og
-      reflektere over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Programmering, 10. trinn__: planlegge og skape eit digitalt produkt og
-      vurdere dette med tanke på brukervennlighet
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

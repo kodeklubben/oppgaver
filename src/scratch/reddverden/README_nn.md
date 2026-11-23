@@ -24,17 +24,17 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn__: eksperimenter med og forklar plasseringar i
-      koordinatsystemet
-
 - [ ] __Naturfag, 2. trinn__: utforske og beskrive observerbare eigenskapar til
-      ulike objekt, materiale og stoff og sortere etter eigenskapar
+  ulike objekt, materiale og stoff og sortere etter eigenskapar
 
-- [ ] __Norsk, 4. trinn__: lage tekstar som kombinerer skrift med bilde
+- [ ] __Naturfag, 2. trinn__: samtale om korleis vi kan ta miljømedvitne val og
+  gjennomføre lokale miljøtiltak
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
-      programmering, slik som variablar, løkker, vilkår og funksjonar, og
-      reflektere over bruken av desse
+- [ ] __Norsk, 2. trinn__: lage tekstar som kombinerer skrift med bilete
+
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

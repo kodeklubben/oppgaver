@@ -25,19 +25,15 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 5. trinn__: diskutere tilfeldighet og sannsyn i spel
-       og praktiske situasjonar og knytte det til brøk
+- [ ] __Matematikk, 5. trinn__: utforske og beskrive tilfeldigheit og sannsyn i
+  spel og praktiske situasjonar, og knyte det til brøk
 
-- [ ] __Matematikk, 7. trinn__: representere og bruke brøk, desimaltal og
-      prosent på ulike måtar og utforske dei matematiske samanhengane mellom
-      desse representasjonsformene
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ]  __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
-       programmering, slik som variablar, løkker, vilkår og funksjonar, og
-       reflektere over bruken av desse
-
-- [ ]  __Programmering, 10. trinn__: planlegge og skape eit digitalt produkt og
-       vurdere dette med tanke på brukervennlighet
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

@@ -27,20 +27,20 @@ __Tidsbruk__: Dobbelttime eller meir.
 ## Kompetansemål {.challenge}
 
 - [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
-      verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
+  verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
 - [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
+  interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 4. trinn__: eksperimentere med og forklare plasseringar i
-      koordinatsystemet
+- [ ] __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise instruksjonar
+  i leik og spel knytte til koordinatsystemet
 
 - [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
-      vurdere spilldesign og eigne spel
+  vurdere spilldesign og egne spill
 
 - [ ] __Naturfag, 10. trinn__: bruke og lage modellar for å føreseie eller
-      beskrive naturfaglige prosessar og system og gjere reie for styrkane til
-      modellane og begrensinger
+  beskrive naturfaglege prosessar og system og gjere greie for kva styrkar og
+  avgrensingar modellane har
 
 ## Forslag til læringsmål {.challenge}
 

@@ -31,23 +31,23 @@ __Tidsbruk__: Hver del passer til en dobbelttime, men kan også fungere i et
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
-      koordinatsystemet
+- [ ] __Matematikk, 3. trinn__: eksperimentere med, navngi og plassere punkter i
+  koordinatsystemet
 
 - [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
-      variabler, vilkår og løkker
+  variabler, vilkår og løkker
+
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 - [ ] __Samfunnsfag, 4. trinn__: beskrive kultur- og naturlandskap i Norge og
-      samtale om hvordan historiske og geografiske kilder, inkludert kart, kan
-      gi informasjon om landskap
+  samtale om hvordan historiske og geografiske kilder, inkludert kart, kan gi
+  informasjon om landskap
 
 - [ ] __Samfunnsfag, 7. trinn__: beskrive geografiske hovedtrekk i ulike deler
-      av verden og reflektere over hvordan disse hovedtrekkene påvirker de som
-      bor der
-
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
+  av verden og reflektere over hvordan disse hovedtrekkene påvirker menneskene
+  som bor der
 
 ## Forslag til læringsmål {.challenge}
 

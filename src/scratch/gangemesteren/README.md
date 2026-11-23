@@ -20,26 +20,15 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 2. trinn__: samle, sortere, notere og illustrere data med
-      tellestreker, tabeller og søylediagrammer, og samtale om prosessen og hva
-      illustrasjonene forteller om datamaterialet
+- [ ] __Matematikk, 3. trinn__: bruke multiplikasjon og divisjon til å lage og
+  løse problemer fra lek og hverdag
 
-- [ ] __Matematikk, 4. trinn__: bruke matematiske symboler og uttrykksmåter for
-      å uttrykke matematiske sammenhenger i oppgaveløsning
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
-- [ ] __Matematikk, 4. trinn__: samle, sortere, notere og illustrere data på
-      hensiktsmessige måter med tellestreker, tabeller og søylediagrammer, med
-      og uten digitale verktøy, og samtale om prosess og framstilling
-
-- [ ] __Matematikk, 7. trinn__: utforske og beskrive strukturer og forandringer
-      i geometriske mønster og tallmønster med figurer, ord og formler
-
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
-
-- [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
-      generalisere og tilpasse eksisterende programkode og algoritmer.
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

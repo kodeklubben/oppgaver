@@ -26,21 +26,21 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
-      videre på andres ideer i eget skapende arbeid
+- [ ] __Kunst og håndverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
+  videre på andres ideer i eget skapende arbeid
 
-- [ ] __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
-      virkemidler som kontraster, skygge, proporsjoner og perspektiv
+- [ ] __Kunst og håndverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+  virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ] __Kunst og håndtverk, 10. trinn__: visualisere form ved hjelp av
-      frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
+- [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av
+  frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __Matematikk, 4. trinn__: utforske og bruke målings og delingsdivisjon i
-      praktiske situasjoner
+- [ ] __Matematikk, 4. trinn__: utforske og bruke målings- og delingsdivisjon i
+  praktiske situasjoner
 
 - [ ] __Naturfag, 10. trinn__: bruke og lage modeller for å forutsi eller
-      beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
-      styrker og begrensinger
+  beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
+  styrker og begrensninger
 
 - [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
       programmering, slik som variabler, løkker, vilkår og funksjoner, og 

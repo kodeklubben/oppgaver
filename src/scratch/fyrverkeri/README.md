@@ -26,17 +26,17 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Kunst og håndtverk, 2. trinn__: utforske ulike visuelle uttrykk og
-      bygge videre på andres ideer i eget skapende arbeid
+- [ ] __Kunst og håndverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
+  videre på andres ideer i eget skapende arbeid
 
-- [ ]  __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
-       virkemidler som kontraster, skygge, proporsjoner og perspektiv
+- [ ] __Kunst og håndverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+  virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ]  __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
-       koordinatsystemet
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
-- [ ]  __Matematikk, 6. trinn__: utforske og beskrive symmetri i mønster og
-       utføre kongruensavbildinger med og uten koordinatsystem
+- [ ] __Matematikk, 3. trinn__: eksperimentere med, navngi og plassere punkter i
+  koordinatsystemet
 
 ## Forslag til læringsmål {.challenge}
 

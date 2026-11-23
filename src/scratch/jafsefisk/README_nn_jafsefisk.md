@@ -25,18 +25,16 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
-      koordinatsystemet
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmar med bruk av
+  variablar, vilkår og lykkjer
 
-- [ ] __Matematikk 5. trinn__: lage og programmere algoritmar med bruk av
-      variablar, vilkår og løkker
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planleggje, lage og
-      vurdere spilldesign og eigne spel
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
-      programmering, slik som variablar, løkker, vilkår og funksjonar, og
-      reflektere over bruken av desse
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevane kan bruke eit koordinatsystem for å plassere og flytte ein figur.

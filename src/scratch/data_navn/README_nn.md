@@ -23,15 +23,14 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 7. årstrinn__: logge, sortere, presentere og lese data i
-      tabellar og diagram og grunngi valet av framstilling
+- [ ] __Matematikk, 7. trinn__: bruke programmering til å utforske data i
+  tabellar og datasett
 
-- [ ] __Matematikk, 9. årstrinn__: berekne og vurdere sannsyn i statistikk
-      og spel
+- [ ] __Matematikk, 9. trinn__: berekne og vurdere sannsyn i statistikk og spel
 
-- [ ] __Norsk, 7. årstrinn__: orientere seg i faglege kjelder på bibliotek og
-      digitalt, vurdera kor pålitelege kjeldene er, og vise til kjelder i eigne
-      tekstar
+- [ ] __Norsk, 7. trinn__: orientere seg i faglege kjelder på bibliotek og
+  digitalt, vurdere kor pålitelege kjeldene er, og vise til kjelder i eigne
+  tekstar
 
 ## Forslag til læringsmål {.challenge}
 

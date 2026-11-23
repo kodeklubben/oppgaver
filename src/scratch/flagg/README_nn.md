@@ -29,26 +29,26 @@ __Tidsbruk__: Dobbelttime eller meir.
 ## Kompetansemål {.challenge}
 
 - [ ] __Kunst og handverk, 2. trinn__: eksperimentere med form, farge, rytme og
-      kontrast
+  kontrast
 
-- [ ] __Kunst og handverk, 4. trinn__: tolke former og symbol frå ulike
-      kulturar og bruke desse i visuelle uttrykk
+- [ ] __Kunst og handverk, 4. trinn__: tolke former og symbol frå ulike kulturar
+  og bruke desse i visuelle uttrykk
 
 - [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
+  interaktivitet og visuelle uttrykk
 
 - [ ] __Kunst og handverk, 10. trinn__: visualisere form ved hjelp av
-      frihandteikningar, arbeidsteikningar, modeller og digitale verktøy
+  frihandsteikningar, arbeidsteikningar, modellar og digitale verktøy
 
-- [ ] __Matematikk, 4. trinn__: utforske, beskrive og samanlikne eigenskapar
-      ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne
+- [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
+  programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
-      programmering til å utforske geometriske figurar og mønster
+- [ ] __Matematikk, 10. trinn__: utforske matematiske eigenskapar og samanhengar
+  ved å bruke programmering
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
-      programmering, slik som variablar, løkker, vilkår og funksjonar, og
-      reflektere over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

@@ -30,19 +30,19 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
-      koordinatsystemet
-
-- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
-      programmering til å utforske geometriske figurer og mønster
-
-- [ ] __Norsk, 2. trinn__: lage tekster som kombinerer skrift med bilder
-
 - [ ] __Engelsk fordypning, 10. trinn__: skape digitale produkter som kombinerer
       ulike medietyper
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
+
+- [ ] __Matematikk, 3. trinn__: eksperimentere med, navngi og plassere punkter i
+  koordinatsystemet
+
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
+
+- [ ] __Norsk, 2. trinn__: lage tekster som kombinerer skrift med bilder
 
 ## Forslag til læringsmål {.challenge}
 

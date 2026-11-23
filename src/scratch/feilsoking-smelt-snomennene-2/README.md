@@ -57,7 +57,7 @@ oppgaven.
 
 - [ ] Her skal elevene helt enkelt trykke på lenken og lage sin egen remiks av prosjektet. Dersom elevene ikke har Scratch-konto, kan de bare trykke "se inni" og begynne å kode. De må da trykke på "Fil - Lagre på datamaskinen" om de vil ta vare på prosjektet sitt.
 
-Dersom du har printet ut oppgaveheftene, kan du be elevene gå til denne adressen for å remikse prosjektet: [scratch.mit.edu/projects/448963560/](scratch.mit.edu/projects/448963560/){target=_blank}
+Dersom du har printet ut oppgaveheftene, kan du be elevene gå til denne adressen for å remikse prosjektet: [scratch.mit.edu/projects/448963560/](https://scratch.mit.edu/projects/448963560/){target=_blank}
 
 # Steg 2: Fiks koden {.activity}
 
@@ -101,7 +101,7 @@ Dette er en ganske enkel og grov nedtellingsalgoritme som kan utvides og forbedr
 
 ## Utfordring {.challenge}
 
-- [ ]  Elevene blir utfordret til å forsøke å videreutvikle prosjektet med en rekke forslag. Disse utfordringene lages det ikke løsningsforslag til. Oppfordre elevene til å diskutere og feilsøke hverandres kode. Kan de finne ideer til løsninger i andre oppgaver på [oppgaver.kidsakoder.no](oppgaver.kidsakoder.no){target=_blank}?
+- [ ]  Elevene blir utfordret til å forsøke å videreutvikle prosjektet med en rekke forslag. Disse utfordringene lages det ikke løsningsforslag til. Oppfordre elevene til å diskutere og feilsøke hverandres kode. Kan de finne ideer til løsninger i andre oppgaver på [oppgaver.kidsakoder.no](https://oppgaver.kidsakoder.no){target=_blank}?
 
 ## Eksterne ressurser {.challenge}
 

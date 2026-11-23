@@ -29,21 +29,18 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar
-       i koordinatsystemet
+- [ ] __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise instruksjonar
+  i leik og spel knytte til koordinatsystemet
 
-- [ ]  __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise
-       instruksjonar i leik og spel knytt til koordinatsystem
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ]  __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
-       vurdere spilldesign og eigne spel
+- [ ] __Musikk, 7. trinn__: bruke teknologi og digitale verktøy til å skape, øve
+  inn og arbeide vidare med musikk
 
-- [ ]  __Musikk, 7. trinn__: bruke teknologi og digitale verktøy til å skape,
-       øve inn og omarbeide musikk
-
-- [ ]  __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
-       programmering, slik som variablar, løkker, vilkår og funksjonar, og
-       reflektere over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
