@@ -29,11 +29,11 @@ __Tidsbruk__: Dobbelttime
 - [ ]  __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
        systemer som består av deler som virker sammen
 
-- [ ]  __Kunst og håndtverk, 7. trinn__: tegne form, flate og rom ved hjelp av
-       virkemidler som kontraster, skygge, proporsjoner og perspektiv
+- [ ]  __Kunst og håndverk, 7. trinn__: tegne form, flate og rom ved hjelp av
+  virkemidler som kontraster, skygge, proporsjoner og perspektiv
 
-- [ ]   __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
-       interaktivitet og visuelle uttrykk
+- [ ]   __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
 - [ ]  __Matematikk, 3. trinn__: lage og følge regler og trinnvise
        instruksjoner i lek og spill knyttet til koordinatsystemet

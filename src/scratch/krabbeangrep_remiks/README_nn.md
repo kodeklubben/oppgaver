@@ -25,15 +25,12 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 10. trinn__: vurdere ulike bodskap, etiske
-  problemstillingar og visuell kvalitet i reklame, film, nettstader og dataspel
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-  å skrive omsynsmessige kommentarar og ved å presentere eigen og andre sin kode
-
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

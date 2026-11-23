@@ -24,9 +24,12 @@ Legg også merke til at Steg 2 er skrevet to ganger, én gang for nettbrett, og 
 
 ## Kompetansemål {.challenge}
 
-- [ ] **Matematikk, 5. årstrinn**: lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
-- [ ] **Matematikk, 6. årstrinn**: bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster
-- [ ] **Matematikk, 8. årstrinn**: utforske korleis algoritmar kan skapast, testast og forbetrast ved hjelp av programmering
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
+- [ ] __Matematikk, 8. trinn__: utforske hvordan algoritmer kan skapes, testes
+  og forbedres ved hjelp av programmering
 
 ## Forslag til læringsmål {.challenge}
 

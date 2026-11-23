@@ -28,24 +28,18 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 7. trinn__: bruke digitale verktøy til å planlegga
-      og presentere prosessar og produkt
+- [ ] __Kunst og handverk, 7. trinn__: bruke digitale verktøy til å planleggje
+  og presentere prosessar og produkt
 
 - [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
-      verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
+  verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Matematikk, 4. trinn__: lage og følgje reglar og trinnvise instruksjonar
-      i leik og spel knytt til koordinatsystem
+- [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
+  programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Matematikk, 6. trinn__: utforske og beskrive symmetri i mønster og
-      utføre kongruensavbildinger med og utan koordinatsystem
-
-- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
-      programmering til å utforske geometriske figurar og mønster
-
-- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
-      programmering, slik som variablar, løkker, vilkår og funksjonar, og
-      reflektere over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

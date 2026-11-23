@@ -27,24 +27,18 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og håndtverk, 2. trinn__: eksperimentere med form, farge, rytme og
-      kontrast
+- [ ] __Kunst og håndverk, 2. trinn__: eksperimentere med form, farge, rytme og
+  kontrast
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
-
-- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringer i
-      koordinatsystemet
-
-- [ ] __Matematikk, 6. trinn__: utforske og beskrive symmetri og mønster og
-      utføre kongurensavbildinger med og uten koordinatsystem
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
-      programmering til å utforske geometriske figurer og mønster
+  programmering til å utforske geometriske figurer og mønstre
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

@@ -29,23 +29,19 @@ __Tidsbruk__: Dobbelttime eller meir.
 ## Kompetansemål {.challenge}
 
 - [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
+  interaktivitet og visuelle uttrykk
 
 - [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
-      verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
+  verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i       
-      koordinatsystemet
-
-- [ ] __Matematikk, 7. trinn__: beskrive eigenskapar ved og minimumsdefinisjonar
-      av to- og tredimensjonale figurar og forklare kva eigenskapar figurane
-      har felles, og kva eigenskapar som skil dei frå kvarandre
+- [ ] __Matematikk, 10. trinn__: utforske matematiske eigenskapar og samanhengar
+  ved å bruke programmering
 
 - [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
-      vurdere spilldesign og eigne spel
+  vurdere spilldesign og egne spill
 
-- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
-      fenomen
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglege
+  fenomen
 
 ## Forslag til læringsmål {.challenge}
 

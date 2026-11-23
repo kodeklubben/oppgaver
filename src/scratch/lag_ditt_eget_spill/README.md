@@ -16,8 +16,8 @@ har laget tidligere i kurset.
 
 ## Oppgaven passer til: {.check}
 
- __Fag__: Arbeidslivsfag, kunst og håndtverk, musikk, norsk, programmering,
- teknologi i praksis.
+ __Fag__: Kunst og håndtverk, musikk, norsk, programmering,
+ teknologi og design.
  
 __Anbefalte trinn__: 5.-10. trinn.
 
@@ -31,42 +31,30 @@ __Tidsbruk__: Minst to dobbelttimer.
 _Oppgaven kan avgrenses til å dekke mange kompetansemål, men vil i mange
 tilfeller kunne dekke følgende:_
 
-- [ ] __Arbeidslivsfag, 10. trinn__: kommunisere og samarbeide med andre i en
-      arbeidssituasjon
+- [ ] __Kunst og håndverk, 7. trinn__: bruke ulike strategier for idéutvikling
+  og problemløsing
 
-- [ ] __Kunst og håndtverk, 4. trinn__: bruke enkle funksjoner i digitale
-      bildebehandlingsprogram
+- [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke ulike grafiske teknikker i eget
-      arbeid
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Musikk, 7. trinn__: komponere og gjøre lydopptak ved hjelp av digitale
-      verktøy
+- [ ] __Norsk, 7. trinn__: utforske og beskrive samspillet mellom skrift, bilder
+  og andre uttrykksformer og lage egne sammensatte tekster
 
-- [ ] __Norsk, 4. trinn__: lage tekster som kombinerer ord, lyd og bilde, med og
-      uten digitale verktøy
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
-- [ ] __Programmering, 10. trinn__: omgjøre problemer til konkrete delproblemer,
-      vurdere hvilke delproblemer som lar seg løse digitalt, og utforme
-      løsninger for disse
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
-- [ ] __Programmering, 10. trinn__: dokumentere og forklare programkode gjennom
-      å skrive hensiktsmessige kommentarer og ved å presentere egen og andres
-      kode
+- [ ] __Teknologi og design, 8.-10. trinn__: designe og grunngi konsept for
+  teknologiske produkt
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som løkker, tester, variabler, funksjoner og enkel
-      brukerinteraksjon
-
-- [ ] __Programmering, 10. trinn__: overføre løsninger til nye problemer ved å
-      generalisere og tilpasse eksisterende programkode og algoritmer.
-
-- [ ] __Teknologi i praksis, 10. trinn__: vurdere teknologiske produkt ut frå
-      brukartilpassing, HMS-krav og miljøtilpassing
-
-- [ ] __Teknologi i praksis, 10. trinn__: utvikle ein realistisk
-      kravspesifikasjon for eit teknologisk produkt og beskrive kva behov
-      produktet skal dekkje
+- [ ] __Teknologi og design, 8.-10. trinn__: lage prototypar for teknologiske
+  produkt og reflektere over korleis desse kan betrast eller utviklast vidare
 
 ## Forslag til læringsmål {.challenge}
 

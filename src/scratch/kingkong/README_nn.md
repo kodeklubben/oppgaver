@@ -25,21 +25,23 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Engelsk, 10. trinn__: bruke kjelder på ein kritisk og etterretteleg måte
+
 - [ ] __Engelsk, 7. trinn__: bruke digitale ressursar og ulike ordbøker i
       språklæring, tekstskaping og samhandling
 
-- [ ] __Engelsk, 10. trinn__: lese, diskutere og vidareformidle innhald frå
-      ulike typar tekstar, inkludert selvvalgte tekstar
+- [ ] __Kunst og handverk, 2. trinn__: utforske ulike visuelle uttrykk og byggje
+  vidare på ideane til andre i eige skapande arbeid
 
-- [ ] __Kunst og håndtverk, 7. trinn__: bruke programmering til å skape
-      interaktivitet og visuelle uttrykk
+- [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape
+  interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 3. trinn__: eksperimentere med og forklare plasseringar i
-      koordinatsystemet
+- [ ] __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise instruksjonar
+  i leik og spel knytte til koordinatsystemet
 
-- [ ] __Programmering, 10. trinn__: bruke grunnleggande prinsipp i
-      programmering, slik som variablar, løkker, vilkår og funksjonar, og
-      reflektere over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

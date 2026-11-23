@@ -35,22 +35,12 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Kunst og handverk, 4. trinn__: bruke enkle funksjonar i digitale
-  bildehandsamingsprogram
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Kunst og handverk, 4. trinn__: eksperimentere med enkle geometriske
-  former i konstruksjon og som dekorative formelement
-
-- [ ] __Matematikk, 4. trinn__: lese av, plassere og beskrive posisjonar i
-  rutenett, på kart og i koordinatsystem, både med og utan digitale verktøy
-
-- [ ] __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-  kart og i koordinatsystem, med og utan digitale hjelpemiddel, og bruke
-  koordinatar til å berekne avstandar parallelt med aksane i eit koordinatsystem
-
-- [ ] __Programmering, 10. trinn__: bruke grunnleggjande prinsipp i
-  programmering, slik som løkker, testar, variablar, funksjonar og enkel
-  brukarinteraksjon
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

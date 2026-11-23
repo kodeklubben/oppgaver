@@ -26,15 +26,15 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 6. årstrinn__: utforske og beskrive symmetri og mønster og
-      utføre kongurensavbildinger med og utan koordinatsystem
+- [ ] __Matematikk, 3. trinn__: lage og følgje reglar og trinnvise instruksjonar
+  i leik og spel knytte til koordinatsystemet
 
-- [ ] __Matematikk fordypning, 10 årstrinn__: diskutere, planlegge, lage og
-      vurdere spilldesign og eigne spel
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Programmering, valgfag__: bruke grunnleggande prinsipp i programmering
-      , slik som variablar, løkker, vilkår og funksjonar, og reflektere over
-      bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

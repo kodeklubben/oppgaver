@@ -27,24 +27,24 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Engelsk fordypning, 10. trinn__: utforske og presentere innhold, form og
+  formål i spill, film og musikk
+
 - [ ] __Engelsk, 4. trinn__: tileigne seg ord, frasar og kulturell kunnskap
       gjennom engelskspråkleg litteratur og barnekultur
 
-- [ ] __Engelsk fordypning, 10. trinn__: utforske og presentere innhald, form og
-      formål i spel, film og musikk
+- [ ] __Kunst og handverk, 2. trinn__: utforske ulike visuelle uttrykk og byggje
+  vidare på ideane til andre i eige skapande arbeid
 
-- [ ] __Kunst og håndtverk, 2. trinn__: utforske ulike visuelle uttrykk og bygge
-      vidare på andres idear i eige skapande arbeid
+- [ ] __Kunst og handverk, 7. trinn__: teikne form, flate og rom ved hjelp av
+  verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
 
-- [ ] __Kunst og håndtverk, 7. trinn__: teikne form, flate og rom ved hjelp av
-      verkemiddel som kontrastar, skugge, proporsjonar og perspektiv
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglege
+  fenomen
 
-- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
-      fenomen
-
-- [ ] __Programmering, 10. trinn__: analysere problem, gjere dei om til 
-      delproblem og gjere reie for korleis nokon av delproblema kan løysast med
-      programmering
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 

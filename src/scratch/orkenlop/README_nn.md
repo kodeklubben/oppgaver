@@ -26,14 +26,14 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 6. trinn__: bruke variablar, løkker, vilkår og funksjonar i
-      programmering til å utforske geometriske figurar og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
+  programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planleggje, laga og
-      vurdere spilldesign og eigne spel
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn__: planleggje og skape eit digitalt produkt og
-      vurdere dette med tanke på brukervennlighet
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
 ## Forslag til læringsmål {.challenge}
 

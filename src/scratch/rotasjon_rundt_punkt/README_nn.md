@@ -22,17 +22,14 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. årstrinn__: utforske, beskrive og samanlikne eigenskapar
-       ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne
+- [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
+  programmering til å utforske geometriske figurar og mønster
 
-- [ ] __Matematikk, 6. årstrinn__: bruke variablar, løkker, vilkår og
-       funksjonar i programmering til å utforske geometriske figurar og mønster
+- [ ] __Matematikk, 6. trinn__: lage kongruensavbildingar med og utan
+  koordinatsystem
 
-- [ ] __Matematikk, 6 årstrinn__: utforske og beskrive symmetri og mønster og
-      utføre kongurensavbildinger med og utan koordinatsystem
-
-- [ ] __Matematikk, 10. årstrinn__: utforske matematiske eigenskapar og
-      samanhengar ved å bruke programmering
+- [ ] __Matematikk, 10. trinn__: utforske matematiske eigenskapar og samanhengar
+  ved å bruke programmering
 
 ## Forslag til læringsmål {.challenge}
 

@@ -26,20 +26,23 @@ __Tidsbruk__: Dobbelttime eller mer
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Engelsk fordypning, 10. årstrinn__: utforske og presentere innhold,
+        form og formål i spill, film og musikk
+
 - [ ] __Engelsk, 4. årstrinn__: bruke digitale ressurser og ulike ordbøker i
         språklæring, tekstskaping og samhandling
 
-- [ ] __Engelsk fordypning, 10. årstrinn__: utforske og presentere innhold,
-        form og formål i spill, film og musikk
+- [ ] __Matematikk, 2. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill
 
 - [ ] __Norsk, 2. årstrinn__: uttrykke tekstopplevelser gjennom lek, sang,
       tegning, skriving og andre kreative aktiviteter
 
 - [ ] __Norsk, 2. årstrinn__: lage tekster som kombinerer skrift med bilder
 
-- [ ] __Valgfag, Programmering__: bruke grunnleggende prinsipper i programmering
-      , slik som variabler, løkker, vilkår og funksjoner, og reflektere over
-      bruken av disse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

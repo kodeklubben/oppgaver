@@ -23,20 +23,18 @@ __Tidsbruk__: Dobbelttime eller meir.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 4. årstrinn__: utforske, beskrive og samanlikne eigenskapar
-       ved to- og tredimensjonale figurar ved å bruke vinklar, kantar og hjørne
+- [ ] __Matematikk, 6. trinn__: bruke variablar, lykkjer, vilkår og funksjonar i
+  programmering til å utforske geometriske figurar og mønster
 
-- [ ]  __Matematikk, 6. årstrinn__: beskrive eigenskapar ved og
-       minimumsdefinisjonar av to- og tredimensjonale figurar og forklare kva
-       eigenskapar figurane har felles, og kva eigenskapar som skil dei frå
-       kvarandre
+- [ ] __Matematikk, 7. trinn__: bruke reglar for reknerekkefølgje i
+  problemløysing og til å lage og løyse samansette rekneuttrykk
 
-- [ ]  __Matematikk, 6. årstrinn__: bruke variablar, løkker, vilkår og
-       funksjonar i programmering til å utforske geometriske figurar og mønster
+- [ ] __Matematikk, 8. trinn__: lage og forklare rekneuttrykk med tal, variablar
+  og konstantar knytte til praktiske situasjonar
 
-- [ ]  __Programmering, valgfag__: bruke grunnleggande prinsipp i
-       programmering, slik som variablar, løkker, vilkår og funksjonar, og
-       reflektere over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

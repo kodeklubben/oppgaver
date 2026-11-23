@@ -27,7 +27,7 @@ __Tidsbruk__: Dobbelttime eller mer.
 ## Kompetansemål {.challenge}
 
 - [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
-      programmering til å utforske geometriske figurer og mønster
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
       vurdere spilldesign og egne spill

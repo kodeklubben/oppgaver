@@ -26,14 +26,12 @@ __Tidsbruk__: Dobbelttime.
 
 ## Kompetansemål {.challenge}
 
-- [ ]  __Matematikk, 7. trinn__: beskrive plassering og flytting i rutenett, på
-       kart og i koordinatsystem, med og uten digitale hjelpemidler, og bruke
-       koordinater til å beregne avstander parallelt med aksene i et
-       koordinatsystem
+- [ ] __Matematikk, 2. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill
 
-- [ ]  __Programmering, 10. trinn__: bruke grunnleggende prinsipper i
-       programmering, slik som løkker, tester, variabler, funksjoner og enkel
-       brukerinteraksjon
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 
