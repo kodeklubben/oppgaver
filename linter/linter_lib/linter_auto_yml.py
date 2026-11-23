@@ -159,7 +159,7 @@ def lesson_yml(lesson_yml_path):
             os.remove(lesson_yml_path_temp)
         else:
             # File has changed, renaming temp to perm
-            os.rename(lesson_yml_path_temp, lesson_yml_path)
+            os.replace(lesson_yml_path_temp, lesson_yml_path)
     else:
         new_lesson_yml(lesson_yml_path)
 

@@ -117,11 +117,12 @@ if PATH_2_KEYS_AND_TAGS.is_file():
 YML_INDENT = 2  #Changes the indent in lesson.yml files
 YML_INDENT_STR = ' ' * YML_INDENT
 
-KEYS_YML = ['level', 'license', 'tags']  #Which titles are recognized in lesson.yml
+KEYS_YML = ['level', 'license', 'indexed', 'tags']  #Which titles are recognized in lesson.yml
 KEYS_YML_REVERSE_ = dict(
     level=0,
     license=1,
-    tags=2,
+    indexed=2,
+    tags=3,
 )
 #=============================================================
 
