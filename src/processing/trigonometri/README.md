@@ -22,13 +22,8 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringer i koordinatsystemet
-
-- [ ] __Matematikk, 4. trinn:__ utforske, beskrive og sammenligne egenskaper ved to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
-
-- [ ] __Matematikk, 6. trinn:__ beskrive egenskaper ved og minimumsdefinisjoner av to- og tredimensjonale figurer og forklare hvilke egenskaper figurene har felles, og hvilke egenskaper som skiller dem fra hverandre
-
-- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
@@ -40,7 +35,12 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Matematikk 1T, VG1:__ redegjøre for definisjonene av sinus, cosinus og tangens og bruke trigonometri til å beregne lengder, vinkler og areal i vilkårlige trekanter
+- [ ] __Matematikk T, 1T__: gjøre rede for definisjonene av sinus, cosinus og
+  tangens og bruke trigonometri til å beregne lengder, vinkler og arealer i
+  vilkårlige trekanter
+
+- [ ] __Matematikk, 10. trinn__: utforske matematiske egenskaper og sammenhenger
+  ved å bruke programmering
 
 ## Forslag til læringsmål {.challenge}
 

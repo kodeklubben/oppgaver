@@ -27,11 +27,11 @@ undervisningsopplegg over lengre tid.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringer i koordinatsystemet
+- [ ] __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill knyttet til koordinatsystemet
 
-- [ ] __Matematikk, 3. trinn:__ lage og følge regler og trinnvise instruksjoner i lek og spill knyttet til koordinatsystem
-
-- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 

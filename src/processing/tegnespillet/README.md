@@ -31,7 +31,8 @@ __Tidsbruk__: Dobbelttime eller mer
 
 - [ ] __Kunst og håndverk, 10. trinn__: visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy
 
-- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
 
