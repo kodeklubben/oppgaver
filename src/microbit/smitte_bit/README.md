@@ -25,13 +25,18 @@ I denne oppgaven skal vi lære om radioblokkene og bruke det for å simulere smi
 
 - [ ] **Naturfag, 7. trinn**: utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
 
-- [ ] **Naturfag, 10. trinn**: bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensinger
+- [ ] __Naturfag, 10. trinn__: bruke og lage modeller for å forutsi eller
+  beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
+  styrker og begrensninger
 
-- [ ] **Naturfag, 10. trinn**: utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker
-bruke programmering til å utforske naturfaglige fenomener
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
 
-- [ ] **Matematikk, 5. trinn**: lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+  fenomener
 
 - [ ] **KRLE, 7. trinn**: utforske og beskrive egne og andres perspektiver i etiske dilemmaer knyttet til hverdags- og samfunnsutfordringer
 
@@ -41,7 +46,8 @@ bruke programmering til å utforske naturfaglige fenomener
 
 - [ ] **KRLE, 10. trinn**: identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon
 
-- [ ] **KRLE, 10. trinn**: identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, urfolks rettigheter, bærekraft og fattigdom
+- [ ] __KRLE, 10. trinn__: identifisere og drøfte aktuelle etiske
+  problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom
 
 
 

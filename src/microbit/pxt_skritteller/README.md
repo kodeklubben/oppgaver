@@ -20,7 +20,8 @@ __Tidsbruk__: Dobbeltime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
@@ -32,7 +33,12 @@ __Tidsbruk__: Dobbeltime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+- [ ] __Teknologi og forskningslære 1__: utvikle og teste et produkt som
+  inneholder en mikrokontroller, og vurdere muligheter for utvidelser og
+  forbedringer
+
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

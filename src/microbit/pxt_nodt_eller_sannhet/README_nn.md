@@ -22,17 +22,19 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 8. trinn:__ utforske hvordan algoritmer kan skapes, testes og forbedres ved hjelp av programmering
+- [ ] __Matematikk, 8. trinn__: utforske korleis algoritmar kan skapast, testast
+  og forbetrast ved hjelp av programmering
 
 - [ ] __Matematikk, 9. trinn:__ berekne og vurdere sannsyn i statistikk og spel
 
-- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilledesign og egne spill
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Programmering, 10. trinn:__ analysere problem, gjera dei om til delproblem og gjera reie for korleis nokon av delproblema kan løysast med programmering
-
-- [ ] __IT1, VG2:__ forklare kva ein algoritme er, og sjølv skrive strukturert og effektiv kode for å løysa små problem
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 

@@ -22,11 +22,10 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ] __Matematikk, 8. trinn:__ representere funksjoner på ulike måter og vise sammenhenger mellom representasjonene
-
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
+- [ ] __Matematikk, 5. trinn__: utforske og beskrive tilfeldighet og
+  sannsynlighet i spill og praktiske situasjoner og knytte det til brøk
 
 ## Forslag til læringsmål {.challenge}
 

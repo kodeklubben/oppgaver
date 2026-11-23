@@ -28,9 +28,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
-
-- [ ] __IT2, VG3:__ generalisere løsninger, lage gjenbrukbar programkode og benytte eksisterende kode i nye programmer
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

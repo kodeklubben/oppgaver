@@ -30,9 +30,12 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal fra sensorer
+- [ ] __Teknologi og forskningslære 1__: utvikle og teste et produkt som
+  inneholder en mikrokontroller, og vurdere muligheter for utvidelser og
+  forbedringer
 
-- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

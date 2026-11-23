@@ -22,15 +22,12 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Naturfag, 4. trinn:__ utforske teknologiske system som er satt saman av ulike delar, og beskrive korleis delane fungerer og verkar saman
+- [ ] __Naturfag, 4. trinn__: utforske teknologiske system som er sette saman av
+  ulike delar, og beskrive korleis delane fungerer og verkar saman
 
 - [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
 - [ ] __Naturfag, 10. trinn:__ utforske, forstå og lage teknologiske system som består av ein sendar og ein mottakar
-
-- [ ] __Teknologi og design, 10. trinn:__ velje og bruke ulike materialar og verktøy i arbeidet med prototypar for teknologiske produkt
-
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal frå sensorar
 
 ## Forslag til læringsmål {.challenge}
 

@@ -22,11 +22,7 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
-- [ ] __Matematikk, 8. trinn:__ representere funksjoner på ulike måter og vise sammenhenger mellom representasjonene
-
 - [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
-
-- [ ] __Matematikk 1P, VG1:__ bruke digitale verktøy i utforskning og problemløsning tilknyttet egenskaper ved funksjoner, og diskutere løsningene
 
 - [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og bearbeide musikk
 
@@ -34,7 +30,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
+- [ ] __Informasjonsteknologi 1__: utvikle prosedyreorienterte programmer med
+  prosedyrer med og uten parametre og returverdier
 
 ## Forslag til læringsmål {.challenge}
 

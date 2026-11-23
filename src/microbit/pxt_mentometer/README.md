@@ -24,13 +24,12 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk
 
-- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
 
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
-
-- [ ] __IT1, VG2:__ forklare hva en algoritme er, og selv skrive strukturert og effektiv kode for å løse små problemer
-
-- [ ] __IT2, VG3:__ generalisere løsninger, lage gjenbrukbar programkode og benytte eksisterende kode i nye programmer
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

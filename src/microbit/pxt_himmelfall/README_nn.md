@@ -24,17 +24,16 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 3. trinn:__ lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet
 
-- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturar og mønster i leik og spel
-
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
 
-- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilledesign og egne spill
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
 - [ ] __Matematikk 1T, VG1:__ formulere og løyse problem ved hjelp av algoritmisk tenking, ulike problemløysingsstrategiar, digitale verktøy og programmering
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
-
-- [ ] __IT1, VG2:__ forklare kva ein algoritme er, og sjølv skrive strukturert og effektiv kode for å løysa små problem
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
 ## Forslag til læringsmål {.challenge}
 

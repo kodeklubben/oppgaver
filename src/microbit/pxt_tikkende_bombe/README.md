@@ -20,7 +20,8 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldighet og sannsynlighet i spill og praktiske situasjoner og knytte det til brøk
+- [ ] __Matematikk, 5. trinn__: utforske og beskrive tilfeldighet og
+  sannsynlighet i spill og praktiske situasjoner og knytte det til brøk
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
@@ -30,7 +31,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
 
 ## Forslag til læringsmål {.challenge}
 

@@ -21,17 +21,19 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk, mellom dei minst eitt som er tekstbasert
-
-- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
-
-- [ ] __IT2, VG3:__ generalisere løysingar, lage gjenbrukbar programkode og nytte eksisterande kode i nye program
-
-- [ ] __IT2, VG3:__ gjera reie for infrastruktur, protokollar og standardar for informasjonsutveksling
+- [ ] __Programmering, 8.-10. trinn__: bruke flere programmeringsspråk,
+  deriblant minst ett som er tekstbasert
 
 - [ ] __Naturfag, VG3 Påbygg:__ forklare hovudprinsippa for trådlaus kommunikasjon og gi døme på kva slik teknologi blir brukt til
+
+- [ ] __Informasjonsteknologi 1__: utvikle prosedyreorienterte programmer med
+  prosedyrer med og uten parametre og returverdier
+
+- [ ] __Informasjonsteknologi 1__: beskrive sentrale komponenter i datamaskiner
+  og nettverk og gjøre rede for hvilken funksjon de har
+
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske system som
+  består av ein sendar og ein mottakar
 
 ## Forslag til læringsmål {.challenge}
 

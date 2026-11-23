@@ -30,7 +30,9 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal fra sensorer
+- [ ] __Naturfag, 10. trinn__: bruke og lage modeller for å forutsi eller
+  beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
+  styrker og begrensninger
 
 ## Forslag til læringsmål {.challenge}
 

@@ -4,7 +4,7 @@ author: 'marikisfoss'
 language: ua
 ---
 
-![Bildebeskrivelse](./interaktivt-univers.png)
+![Bildebeskrivelse](./eget-romvesen.png)
 
 # Вступ {.intro}
 

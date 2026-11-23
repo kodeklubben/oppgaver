@@ -27,10 +27,6 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Naturfag, 10. trinn:__ utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker
 
-- [ ] __Teknologi og design, 10. trinn:__ velge og bruke ulike materialer og verktøy i arbeidet med prototyper for teknologiske produkt
-
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal fra sensorer
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan bruke radiosignaler for å kommunisere mellom enheter.

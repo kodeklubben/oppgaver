@@ -21,11 +21,10 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturar og mønster i leik og spel
-
 - [ ] __Matematikk, 4. trinn:__ lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
 
-- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk
+- [ ] __Matematikk, 5. trinn__: utforske og beskrive tilfeldigheit og sannsyn i
+  spel og praktiske situasjonar, og knyte det til brøk
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
 
@@ -35,7 +34,9 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ lage, utføre og presentere oppgaver knyttet til sannsynlighetsregning
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

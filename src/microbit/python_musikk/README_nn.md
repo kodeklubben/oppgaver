@@ -22,17 +22,19 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Musikk, 4. trinn:__ eksperimentere med rytmar, melodiar og andre grunnelement, setja saman mønster til komposisjonar, også ved bruk av digitale verktøy, og beskrive arbeidsprosessar og resultat
+- [ ] __Musikk, 4. trinn__: eksperimenter med rytmar, melodiar og andre
+  grunnelement, setje saman mønster til komposisjonar, òg ved bruk av digitale
+  verktøy, og beskrive arbeidsprosessar og resultat
 
-- [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og omarbeide musikk
+- [ ] __Musikk, 7. trinn__: bruke teknologi og digitale verktøy til å skape, øve
+  inn og arbeide vidare med musikk
 
 - [ ] __Musikk, 10. trinn:__ skape og programmere musikalske forløp ved å eksperimentere med lyd frå ulike kjelder
 
 - [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk, mellom dei minst eitt som er tekstbasert
-
-- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
+- [ ] __Programmering, 8.-10. trinn__: bruke flere programmeringsspråk,
+  deriblant minst ett som er tekstbasert
 
 ## Forslag til læringsmål {.challenge}
 

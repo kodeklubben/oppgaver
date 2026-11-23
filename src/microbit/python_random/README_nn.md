@@ -21,19 +21,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk
+- [ ] __Matematikk, 5. trinn__: utforske og beskrive tilfeldigheit og sannsyn i
+  spel og praktiske situasjonar, og knyte det til brøk
 
 - [ ] __Matematikk, 9. trinn:__ simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ lage, utføre og presentere oppgaver knyttet til sannsynlighetsregning
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk, mellom dei minst eitt som er tekstbasert
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
-
-- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
-
-- [ ] __IT2, VG3:__ generalisere løysingar, lage gjenbrukbar programkode og nytte eksisterande kode i nye program
+- [ ] __Programmering, 8.-10. trinn__: bruke flere programmeringsspråk,
+  deriblant minst ett som er tekstbasert
 
 ## Forslag til læringsmål {.challenge}
 

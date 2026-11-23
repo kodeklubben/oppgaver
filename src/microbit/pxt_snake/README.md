@@ -21,7 +21,8 @@ __Tidsbruk__: Dobbelttime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn:__ lage og følge regler og trinnvise instruksjoner i lek og spill knyttet til koordinatsystem
+- [ ] __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill knyttet til koordinatsystemet
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 

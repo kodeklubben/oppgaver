@@ -29,9 +29,9 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ analysere problemer, gjøre dem om til delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering
 
-- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
-
-- [ ] __IT1, VG2:__ forklare hva en algoritme er, og selv skrive strukturert og effektiv kode for å løse små problemer
+- [ ] __Teknologi og forskningslære 1__: utvikle og teste et produkt som
+  inneholder en mikrokontroller, og vurdere muligheter for utvidelser og
+  forbedringer
 
 ## Forslag til læringsmål {.challenge}
 

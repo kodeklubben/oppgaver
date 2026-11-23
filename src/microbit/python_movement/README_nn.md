@@ -22,19 +22,22 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og omarbeide musikk
+- [ ] __Musikk, 7. trinn__: bruke teknologi og digitale verktøy til å skape, øve
+  inn og arbeide vidare med musikk
 
 - [ ] __Musikk, 10. trinn:__ skape og programmere musikalske forløp ved å eksperimentere med lyd frå ulike kjelder
 
 - [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
-- [ ] __Programmering, 10. trinn:__ bruke fleire programmeringsspråk, mellom dei minst eitt som er tekstbasert
+- [ ] __Programmering, 8.-10. trinn__: bruke flere programmeringsspråk,
+  deriblant minst ett som er tekstbasert
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
-
-- [ ] __IT2, VG3:__ generalisere løysingar, lage gjenbrukbar programkode og nytte eksisterande kode i nye program
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

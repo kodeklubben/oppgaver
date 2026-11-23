@@ -9,7 +9,7 @@ language: nb
 
 (Her skriver du en introduksjon til oppgaven - denne teksten kan du slette.) legg til `124345`{.microbitbasic}
 
-![ALTERNATIV_TEKST](./image_rT34Yx.png)
+<!-- BILDE: bilde av ferdig prosjekt -->
 
 
 # Steg 1: Første steg {.activity}
