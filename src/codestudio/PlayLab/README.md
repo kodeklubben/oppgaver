@@ -20,9 +20,8 @@ __Tema__: Spill, Hendelser (Events), Løkker
 
 - [ ] __Matematikk, 2. trinn:__ lage og følge regler og trinnvise instruksjoner i lek og spill
 
-- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturer og mønster i lek og spill
-
-- [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
@@ -32,7 +31,12 @@ __Tema__: Spill, Hendelser (Events), Løkker
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disseektere over bruken av disse
+- [ ] __Matematikk, 4. trinn__: beskrive og utforske strukturer og mønstre i lek
+  og spill
+
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

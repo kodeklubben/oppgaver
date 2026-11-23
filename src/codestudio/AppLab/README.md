@@ -30,8 +30,6 @@ __Tema__: Applikasjon
 
 - [ ] __Programmering, 10. trinn:__ planlegge og skape et digitalt produkt og vurdere dette med tanke på brukervennlighet
 
-- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] _Vi har dessverre ikke noen læringsmål å foreslå enda._
