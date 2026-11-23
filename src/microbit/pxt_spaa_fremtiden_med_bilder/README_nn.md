@@ -24,7 +24,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Kunst og handverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldigheit og sannsyn i spel og praktiske situasjonar og knyte det til brøk
+- [ ] __Matematikk, 5. trinn__: utforske og beskrive tilfeldigheit og sannsyn i
+  spel og praktiske situasjonar, og knyte det til brøk
 
 - [ ] __Matematikk, 9. trinn:__ berekne og vurdere sannsyn i statistikk og spel
 

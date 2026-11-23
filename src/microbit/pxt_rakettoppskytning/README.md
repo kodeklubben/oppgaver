@@ -26,7 +26,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 

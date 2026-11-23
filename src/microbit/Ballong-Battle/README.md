@@ -21,7 +21,8 @@ I denne oppgaven skal vi lage fjernstyring til Bit:Bot som kommer i Super:bit-pa
 
 ## Kompetansemål {.challenge}
 
-- [ ] **Matematikk, 5. trinn**:  lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
 - [ ] **Naturfag, 7. trinn**:  utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
 

@@ -23,15 +23,16 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
-
-- [ ] __IT2, VG3:__ generalisere løsninger, lage gjenbrukbar programkode og benytte eksisterende kode i nye programmer
-
-- [ ] __IT2, VG3:__ gjøre rede for infrastruktur, protokoller og standarder for informasjonsutveksling
-
 - [ ] __Naturfag, VG3 Påbygg:__ forklare hovedprinsippene for trådløs kommunikasjon og gi eksempler på hva slik teknologi brukes til
+
+- [ ] __Informasjonsteknologi 1__: utvikle prosedyreorienterte programmer med
+  prosedyrer med og uten parametre og returverdier
+
+- [ ] __Informasjonsteknologi 1__: beskrive sentrale komponenter i datamaskiner
+  og nettverk og gjøre rede for hvilken funksjon de har
+
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
 
 ## Forslag til læringsmål {.challenge}
 

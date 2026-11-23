@@ -23,10 +23,6 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn__ : eksperimentere med multiplikasjon og divisjon i kvardagssituasjonar
-
-- [ ] __Matematikk, 4. trinn__ : utforske og beskrive strukturar og mønster i leik og spel
-
 - [ ] __Matematikk, 4. trinn__ : lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
 
 - [ ] __Matematikk, 5. trinn__ : lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
@@ -39,7 +35,12 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Fordypning i matematikk, 10. trinn__ : diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
-- [ ] __Programmering, 10. trinn__ : bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
+
+- [ ] __Matematikk, 3. trinn__: bruke multiplikasjon og divisjon til å lage og
+  løyse problem frå leik og kvardag
 
 ## Forslag til læringsmål {.challenge}
 

@@ -31,19 +31,22 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
-- [ ] __Naturfag, 10. trinn:__ bruke og lage modellar for å føreseia eller beskrive naturfaglige prosessar og system og gjera reie for styrkane til modellane og begrensinger
+- [ ] __Naturfag, 10. trinn__: bruke og lage modellar for å føreseie eller
+  beskrive naturfaglege prosessar og system og gjere greie for kva styrkar og
+  avgrensingar modellane har
 
-- [ ] __Naturfag, 10. trinn:__ bruke programmering til å utforske naturfaglige fenomen
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglege
+  fenomen
 
-- [ ] __Naturfag, VG1:__ vurdere og lage program som modellerer naturfaglige fenomen
+- [ ] __Naturfag, Vg1 SF__: vurdere og lage program som modellerer naturfaglege
+  fenomen
 
-- [ ] __Naturfag, VG3 Påbygg:__ vurdere og lage program som modellerer naturfaglige fenomen
+- [ ] __Naturfag, Vg3 Påbygging__: vurdere og lage program som modellerer
+  naturfaglege fenomen
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
-
-- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

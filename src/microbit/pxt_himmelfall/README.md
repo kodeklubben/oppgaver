@@ -22,19 +22,17 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn:__ lage og følge regler og trinnvise instruksjoner i lek og spill knyttet til koordinatsystem
-
-- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturer og mønster i lek og spill
+- [ ] __Matematikk, 3. trinn__: lage og følge regler og trinnvise instruksjoner
+  i lek og spill knyttet til koordinatsystemet
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
 - [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilldesign og egne spill
 
-- [ ] __Matematikk 1T, VG1:__ formulere og løse problemer ved hjelp av algoritmisk tankegang, ulike problemløsningsstrategier, digitale verktøy og programmering
-
 - [ ] __Programmering, 10. trinn:__ analysere problemer, gjøre dem om til delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering
 
-- [ ] __IT1, VG2:__ forklare hva en algoritme er, og selv skrive strukturert og effektiv kode for å løse små problemer
+- [ ] __Matematikk T, 1T__: formulere og løse problemer ved hjelp av algoritmisk
+  tenkning, ulike problemløsingsstrategier, digitale verktøy og programmering
 
 ## Forslag til læringsmål {.challenge}
 

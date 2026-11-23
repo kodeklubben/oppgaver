@@ -9,7 +9,7 @@ language: en
 
 (Here you write an introduction to the task - you can delete this text.) add `124345`{.microbitbasic}
 
-![ALTERNATIVE_TEXT](./image_rT34Yx.png)
+<!-- BILDE: bilde av ferdig prosjekt -->
 
 
 # Step 1: First step {.activity}

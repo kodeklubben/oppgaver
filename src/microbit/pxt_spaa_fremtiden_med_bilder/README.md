@@ -24,7 +24,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
-- [ ] __Matematikk, 5. trinn:__ diskutere tilfeldighet og sannsynlighet i spill og praktiske situasjoner og knytte det til brøk
+- [ ] __Matematikk, 5. trinn__: utforske og beskrive tilfeldighet og
+  sannsynlighet i spill og praktiske situasjoner og knytte det til brøk
 
 - [ ] __Matematikk, 9. trinn:__ beregne og vurdere sannsynlighet i statistikk og spill
 

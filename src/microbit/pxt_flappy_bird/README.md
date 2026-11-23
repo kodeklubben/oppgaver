@@ -33,8 +33,6 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ analysere problemer, gjøre dem om til delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering
 
-- [ ] __IT1, VG2:__ forklare hva en algoritme er, og selv skrive strukturert og effektiv kode for å løse små problemer
-
 ## Forslag til læringsmål {.challenge}
 
 - [ ] Elevene kan lage kode slik at spiller-spriten beveger seg ved et knappetrykk.

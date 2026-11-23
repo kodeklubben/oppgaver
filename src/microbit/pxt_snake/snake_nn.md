@@ -52,7 +52,7 @@ skal skru på.
   du har fire verdiar i lista, og set dei til `2`, `2`, `2` og `3`. Då skal det
   sjå slik ut:
 
-	![Bilete av kode for å setje lista](Set_array_on_start.png)
+	<!-- BILDE: Bilete av kode for å setje lista -->
 
 No treng me kode for å teikne slangen. For å gjere det enklare å halde oversikt
 over programmet vårt, så gjer me dette med ein funksjon.
@@ -79,12 +79,12 @@ du prøve å tenke "slik er det berre" no, og så blir du vant til det seinare.
   `x`- og `y`-verdi. No har me det me treng for å teikne eit punkt i slangen.
   Til det brukar me `plot(x,y)`-funksjonen som ligg under `led`-fana.
 
-![Bilete av kode for å teikne slangen](draw_snake_function.png)
+<!-- BILDE: Bilete av kode for å teikne slangen -->
 
 - [ ] No må me berre finne ein stad å kalle funksjonen frå. Me legg inn eit kall
   til `drawSnake()` i `forever()`
 
-![Bilete av hovudløkka, steg 1](snake_mainloop_steg1.png)
+<!-- BILDE: Bilete av hovudløkka, steg 1 -->
 
 ## Test prosjektet {.flag}
 
@@ -236,18 +236,18 @@ startskjerm.
   startblokka. Aller fyrst i startblokka legg du ein `show icon`-kloss med
   "snake"-ikonet.
 
-![Bilete av start](show_startscreen.png)
+<!-- BILDE: Bilete av start -->
 
 - [ ] I `forever`-funksjonen legg du ein `if` som testar om `isPlaying` er sann
   (`true`). I så fall skal programmet teikne og oppdatere, så dette puttar du
   inni `if`-klossen.
 
-![Bilete av forever](snake_mainloop_steg2.png)
+<!-- BILDE: Bilete av forever -->
 
 - [ ] Så legg me til funksjonar for knappane. Når knappen vert trykt set du
   `isPlaying` til `true`
 
-![Bilete av knappekode for å starte](Buttons_code_start.png)
+<!-- BILDE: Bilete av knappekode for å starte -->
 
 ## Test prosjektet i simulatoren {.flag}
 

@@ -21,7 +21,8 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4. trinn:__ lage algoritmer og utrykke de ved bruk av variabler, vilkår og løkker
+- [ ] __Matematikk, 4. trinn__: lage algoritmer og uttrykke dem ved bruk av
+  variabler, vilkår og løkker
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmer med bruk av variabler, vilkår og løkker
 
@@ -31,19 +32,15 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
 
-- [ ] __Naturfag, 10. trinn:__ bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensinger
+- [ ] __Naturfag, 10. trinn__: bruke og lage modeller for å forutsi eller
+  beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
+  styrker og begrensninger
 
 - [ ] __Naturfag, 10. trinn:__ bruke programmering til å utforske naturfaglige fenomener
 
 - [ ] __Naturfag, VG1:__ vurdere og lage programmer som modellerer naturfaglige fenomener
 
-- [ ] __Naturfag, VG3 Påbygg:__ vurdere og lage programmer som modellerer naturfaglige fenomener
-
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
-
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
 
 ## Forslag til læringsmål {.challenge}
 

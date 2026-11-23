@@ -24,21 +24,27 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Matematikk, 5. trinn:__ lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer
 
-- [ ] __Musikk, 2. trinn:__ leke med grunnelementer til musikken gjennom lyd og stemme, lage mønster og setja saman mønstere til enkle improvisasjonar og komposisjonar, også med digitale verktøy
+- [ ] __Musikk, 2. trinn__: leike med grunnelementa i musikken gjennom lyd og
+  stemme, lage mønster og setje saman mønstra til enkle improvisasjonar og
+  komposisjonar, òg med digitale verktøy
 
-- [ ] __Musikk, 4. trinn:__ eksperimentere med rytmar, melodiar og andre grunnelement, setja saman mønster til komposisjonar, også ved bruk av digitale verktøy, og beskrive arbeidsprosessar og resultat
+- [ ] __Musikk, 4. trinn__: eksperimenter med rytmar, melodiar og andre
+  grunnelement, setje saman mønster til komposisjonar, òg ved bruk av digitale
+  verktøy, og beskrive arbeidsprosessar og resultat
 
-- [ ] __Musikk, 7. trinn:__ bruke teknologi og digitale verktøy til å skape, øve inn og omarbeide musikk
+- [ ] __Musikk, 7. trinn__: bruke teknologi og digitale verktøy til å skape, øve
+  inn og arbeide vidare med musikk
 
 - [ ] __Musikk, 10. trinn:__ skape og programmere musikalske forløp ved å eksperimentere med lyd frå ulike kjelder
 
-- [ ] __Naturfag, 4. trinn:__ utforske teknologiske system som er satt saman av ulike delar, og beskrive korleis delane fungerer og verkar saman
+- [ ] __Naturfag, 4. trinn__: utforske teknologiske system som er sette saman av
+  ulike delar, og beskrive korleis delane fungerer og verkar saman
 
 - [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
-
-- [ ] __IT1, VG2:__ lage og bruke eigne og andres funksjonar med og utan parametrar og returverdiar
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
 ## Forslag til læringsmål {.challenge}
 

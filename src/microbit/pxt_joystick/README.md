@@ -30,11 +30,12 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ planlegge og skape et digitalt produkt og vurdere dette med tanke på brukervennlighet
 
-- [ ] __Teknologi og design, 10. trinn:__ lage prototyper for teknologiske produkt og reflektere over hvordan disse kan bedres eller utvikles videre
+- [ ] __Teknologi og forskningslære 1__: utvikle og teste et produkt som
+  inneholder en mikrokontroller, og vurdere muligheter for utvidelser og
+  forbedringer
 
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal fra sensorer
-
-- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

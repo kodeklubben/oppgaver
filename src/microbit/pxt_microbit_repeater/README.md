@@ -28,7 +28,8 @@ __Tidsbruk__: Dobbelttime
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle et produkt
+- [ ] __Naturfag, Vg1 SF__: forklare hovedprinsippene for trådløs kommunikasjon
+  og gi eksempler på hva slik teknologi brukes til
 
 ## Forslag til læringsmål {.challenge}
 

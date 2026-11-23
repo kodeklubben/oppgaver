@@ -22,17 +22,23 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Naturfag, 4. trinn:__ utforske teknologiske system som er satt saman av ulike delar, og beskrive korleis delane fungerer og verkar saman
+- [ ] __Naturfag, 4. trinn__: utforske teknologiske system som er sette saman av
+  ulike delar, og beskrive korleis delane fungerer og verkar saman
 
 - [ ] __Naturfag, 7. trinn:__ utforske, lage og programmere teknologiske system som består av delar som verkar saman
 
-- [ ] __Programmering, 10. trinn:__ planlegge og skape eit digitalt produkt og vurdere dette med tanke på brukervennlighet
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
-- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilledesign og egne spill
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Teknologi og forskningslære X og 1, VG2:__ utforske analoge og digitale signal frå sensorar
+- [ ] __Teknologi og forskningslære 1__: utvikle og teste et produkt som
+  inneholder en mikrokontroller, og vurdere muligheter for utvidelser og
+  forbedringer
 
-- [ ] __Teknologi og forskningslære 1, VG2:__ bruke og programmere mikrokontroller for å utvikle eit produkt
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
 ## Forslag til læringsmål {.challenge}
 

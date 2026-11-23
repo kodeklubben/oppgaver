@@ -22,19 +22,19 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3. trinn:__ eksperimentere med og forklare plasseringar i koordinatsystemet
-
 - [ ] __Matematikk, 3. trinn:__ lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet
-
-- [ ] __Matematikk, 4. trinn:__ utforske og beskrive strukturar og mønster i leik og spel
 
 - [ ] __Matematikk, 4. trinn:__ lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer
 
-- [ ] __Matematikk, 7. trinn:__ bruke tallinje i rekning med positive og negative tal
+- [ ] __Matematikk fordypning, 10. trinn__: diskutere, planlegge, lage og
+  vurdere spilldesign og egne spill
 
-- [ ] __Fordypning i matematikk, 10. trinn:__ diskutere, planlegge, lage og vurdere spilledesign og egne spill
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Programmering, 10. trinn:__ bruke grunnleggande prinsipp i programmering, slik som variablar, lykkjer, vilkår og funksjonar, og reflektera over bruken av desse
+- [ ] __Matematikk, 3. trinn__: eksperimentere med, namngi og plassere punkt i
+  koordinatsystemet
 
 ## Forslag til læringsmål {.challenge}
 
