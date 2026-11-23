@@ -25,21 +25,21 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 4.trinn__: utforske, beskrive og sammenligne egenskaper ved
-      to- og tredimensjonale figurer ved å bruke vinkler, kanter og hjørner
+- [ ] __Matematikk, 5. trinn__: lage og programmere algoritmer med bruk av
+  variabler, vilkår og løkker
 
-- [ ] __Matematikk, 5.trinn__: lage og programmere algoritmer med bruk av
-      variabler, vilkår og løkker
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
-- [ ] __Matematikk, 7.trinn__: logge, sortere, presentere og lese data i
-      tabeller og diagram og grunngi valget av framstilling
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
-- [ ] __Naturfag, 4.trinn__: utforske, lage og programmere teknologiske systemer
-      som består av deler som virker sammen
+- [ ] __Matematikk, 7. trinn__: logge, sortere, lese av og presentere data i
+  tabeller og diagrammer og forklare valget av framstilling
 
-- [ ] __Programmering, 10.trinn__: analysere problemer, gjøre dem om til
-      delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
-      programmering
+- [ ] __Matematikk, 4. trinn__: beskrive og utforske egenskaper ved to- og
+  tredimensjonale figurer ved å bruke vinkler, kanter, hjørner og flater
 
 ## Forslag til læringsmål {.challenge}
 

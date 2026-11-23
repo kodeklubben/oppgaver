@@ -24,21 +24,18 @@ __Tidsbruk__: En enkelttime, som en innledningsøkt til LEGO Mindstorms
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 3.trinn__: bruke ulike måleenheter for lengde og masse i
-      praktiske situasjoner og grunngi valget av måleenhet
+- [ ] __Matematikk, 4. trinn__: utforske og bruke målings- og delingsdivisjon i
+  praktiske situasjoner
 
-- [ ] __Matematikk, 4.trinn__: utforske og bruke målings- og delingsdivisjon i
-      praktiske situasjonar
+- [ ] __Naturfag, 4. trinn__: utforske teknologiske systemer som er satt sammen
+  av ulike deler, og beskrive hvordan delene fungerer og virker sammen
 
-- [ ] __Naturfag, 4.trinn__: utforske teknologiske systemer som er satt sammen
-      av ulike deler, og beskrive hvordan delene fungerer og virker sammen
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
-- [ ] __Naturfag, 7.trinn__: utforske, lage og programmere teknologiske systemer
-      som består av deler som virker sammen
-
-- [ ] __Programmering, 10.trinn__: utvikle og feilsøke dataprogram som løser
-      definerte problemer, inkludert kontrollering eller simulering av fysiske
-      objekter
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
 ## Forslag til læringsmål {.challenge}
 

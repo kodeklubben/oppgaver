@@ -5,6 +5,11 @@ translator: Øistein Søvik
 language: nb
 ---
 
+## Merk {.tip}
+
+LEGO har pensjonert EV3. Oppgavene gjelder EV3-sett som finnes fra før, og
+bruker den gamle EV3-programvaren.
+
 
 # Fargegjenkjenner {.intro}
 

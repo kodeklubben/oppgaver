@@ -24,27 +24,26 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Naturfag, 10. trinn__: bruke programmering til å utforske naturfaglige
+  fenomener
 
-- [ ] __Naturfag, 10.trinn__: bruke programmering til å utforske naturfaglige
-      fenomener
+- [ ] __Naturfag, 10. trinn__: bruke og lage modeller for å forutsi eller
+  beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
+  styrker og begrensninger
 
-- [ ] __Naturfag, 10.trinn__: bruke og lage modeller for å forutsi eller
-      beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
-      styrker og begrensinger
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Programmering, 10.trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
-- [ ] __Programmering, 10.trinn__: utvikle og feilsøke dataprogram som løser
-      definerte problemer, inkludert kontrollering eller simulering av fysiske
-      objekter
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
-
-- [ ] __Teknologi og forskningslære, VG2__: planlegge og utføre reproduserbare
-      forsøk og vurdere hvor pålitelig resultatet er
+- [ ] __Teknologi og forskningslære 1__: bruke kvantitativ metode i forsøk og
+  vurdere påliteligheten til resultatene
 
 ## Forslag til læringsmål {.challenge}
 

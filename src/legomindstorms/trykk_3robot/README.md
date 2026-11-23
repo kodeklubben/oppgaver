@@ -23,21 +23,18 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Naturfag, 4.trinn__: utforske teknologiske systemer som er satt sammen
-      av ulike deler, og beskrive hvordan delene fungerer og virker sammen
+- [ ] __Naturfag, 4. trinn__: utforske teknologiske systemer som er satt sammen
+  av ulike deler, og beskrive hvordan delene fungerer og virker sammen
 
-- [ ] __Naturfag, 7.trinn__: utforske, lage og programmere teknologiske
-      systemer som består av deler som virker sammen
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
-- [ ] __Naturfag, 10.trinn__: utforske, forstå og lage teknologiske systemer
-      som består av en sender og en mottaker
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
 
-- [ ] __Programmering, 10.trinn__: utvikle og feilsøke dataprogram som løser
-      definerte problemer, inkludert kontrollering eller simulering av fysiske
-      objekter
-
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
+- [ ] __Programmering, 8.-10. trinn__: utvikle og feilsøke dataprogram som løser
+  definerte problemer, inkludert kontrollering eller simulering av fysiske
+  objekter
 
 ## Forslag til læringsmål {.challenge}
 

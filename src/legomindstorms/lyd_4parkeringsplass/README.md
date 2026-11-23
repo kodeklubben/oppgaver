@@ -34,31 +34,31 @@ __Tidsbruk__: En enkelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Naturfag, 7.trinn__: utforske, lage og programmere teknologiske
-      systemer som består av deler som virker sammen
+- [ ] __Naturfag, 7. trinn__: utforske, lage og programmere teknologiske
+  systemer som består av deler som virker sammen
 
-- [ ] __Naturfag, 7.trinn__: designe og lage et produkt basert på brukerbehov
+- [ ] __Naturfag, 7. trinn__: designe og lage et produkt basert på brukerbehov
 
-- [ ] __Naturfag, 10.trinn__: utforske, forstå og lage teknologiske systemer
-      som består av en sender og en mottaker
+- [ ] __Naturfag, 10. trinn__: utforske, forstå og lage teknologiske systemer
+  som består av en sender og en mottaker
 
-- [ ] __Programmering, 10.trinn__: bruke grunnleggende prinsipper i
-      programmering, slik som variabler, løkker, vilkår og funksjoner, og
-      reflektere over bruken av disse
+- [ ] __Programmering, 8.-10. trinn__: bruke grunnleggende prinsipper i
+  programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere
+  over bruken av disse
 
-- [ ] __Programmering, 10.trinn__: analysere problemer, gjøre dem om til
-      delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
-       programmering
+- [ ] __Programmering, 8.-10. trinn__: analysere problemer, gjøre dem om til
+  delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med
+  programmering
 
-- [ ] __Programmering, 10.trinn__: planlegge og skape et digitalt produkt og
-      vurdere dette med tanke på brukervennlighet
+- [ ] __Programmering, 8.-10. trinn__: planlegge og skape et digitalt produkt og
+  vurdere dette med tanke på brukervennlighet
 
-- [ ] __Teknologi og design, 10.trinn__: grunngi valg av design, materialer,
-      verktøy og framgangsmåter, og reflektere over hvor trygge og bærekraftige
-      valgene er
+- [ ] __Teknologi og forskningslære 1__: utforske og bruke analoge og digitale
+  signaler fra sensorer og beskrive sensorenes ulike bruksområder
 
-- [ ] __Teknologi og forskningslære, VG2__: utforske analoge og digitale
-      signaler fra sensorer
+- [ ] __Teknologi og design, 8.-10. trinn__: grunngi val av design, materialar,
+  verktøy og framgangsmåtar, og reflektere over kor trygge og berekraftige vala
+  er
 
 ## Forslag til læringsmål {.challenge}
 
