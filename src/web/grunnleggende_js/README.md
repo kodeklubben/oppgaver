@@ -23,19 +23,15 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 8. trinn:__ utforske, forklare og sammenligne funksjoner tilknyttet praktiske situasjoner
-
-- [ ] __Matematikk, 10. trinn:__ utforske og sammenligne egenskaper ved ulike funksjoner ved å bruke digitale verktøy
-
 - [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
+- [ ] __Informasjonsteknologi 1__: utvikle prosedyreorienterte programmer med
+  prosedyrer med og uten parametre og returverdier
 
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
-
-- [ ] __IT2, VG3:__ generalisere løsninger, lage gjenbrukbar programkode og benytte eksisterende kode i nye programmer
+- [ ] __Informasjonsteknologi 1__: utforske, strukturere og kommentere
+  programkode
 
 ## Forslag til læringsmål {.challenge}
 

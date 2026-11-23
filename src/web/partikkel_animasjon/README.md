@@ -26,7 +26,8 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Matematikk, 6. trinn:__ bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønster
+- [ ] __Matematikk, 6. trinn__: bruke variabler, løkker, vilkår og funksjoner i
+  programmering til å utforske geometriske figurer og mønstre
 
 - [ ] __Kunst og håndverk, 7. trinn__: bruke digitale verktøy til å planlegge og presentere prosesser og produkter
 
@@ -34,13 +35,11 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Programmering, 10. trinn:__ bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse
 
-- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
+- [ ] __Informasjonsteknologi 1__: utvikle prosedyreorienterte programmer med
+  prosedyrer med og uten parametre og returverdier
 
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
-
-- [ ] __IT2, VG3:__ lage objektorienterte programmer som benytter klasser med metoder
+- [ ] __Informasjonsteknologi 1__: utforske, strukturere og kommentere
+  programkode
 
 ## Forslag til læringsmål {.challenge}
 

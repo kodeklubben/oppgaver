@@ -27,15 +27,16 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 - [ ] __Matematikk, 10. trinn:__ utforske matematiske egenskaper og sammenhenger ved å bruke programmering
 
-- [ ] __Naturfag, 10. trinn:__ bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensinger
+- [ ] __Naturfag, 10. trinn__: bruke og lage modeller for å forutsi eller
+  beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes
+  styrker og begrensninger
 
 - [ ] __Naturfag, 10. trinn:__ bruke programmering til å utforske naturfaglige fenomener
 
 - [ ] __Naturfag, VG1 og VG3 Påbygg:__ vurdere og lage programmer som modellerer naturfaglige fenomener
 
-- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
-
-- [ ] __IT1, VG2:__ lage og bruke egne og andres funksjoner med og uten parametre og returverdier
+- [ ] __Programmering og modellering X, Vg2, Vg3__: bruke matematiske modellar
+  for å simulere verkelege system og vurdere om modellane er gyldige
 
 ## Forslag til læringsmål {.challenge}
 

@@ -22,23 +22,25 @@ __Tidsbruk__: Dobbeltime eller mer.
 
 ## Kompetansemål {.challenge}
 
+- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av
+  uttrykksformer
+
 - [ ] __Kunst og håndverk, 7. trinn__: bruke programmering til å skape interaktivitet og visuelle uttrykk
 
 - [ ] __Kunst og håndverk, 10. trinn__: utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter
-
-- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av uttrykksformer
 
 - [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
 - [ ] __Programmering, 10. trinn:__ planlegge og skape et digitalt produkt og vurdere dette med tanke på brukervennlighet
 
-- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
+- [ ] __Informasjonsteknologi 1__: utvikle nettsider ved hjelp av
+  markeringsspråk
 
-- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
+- [ ] __Informasjonsteknologi 1__: planlegge og lage nettsider som tar hensyn
+  til brukervennlighet og universell utforming
 
-- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
+- [ ] __Informasjonsteknologi 1__: utforske, strukturere og kommentere
+  programkode
 
 ## Forslag til læringsmål {.challenge}
 

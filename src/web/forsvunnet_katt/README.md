@@ -23,19 +23,19 @@ __Tidsbruk__: Dobbelttime
 
 ## Kompetansemål {.challenge}
 
-- [ ] __Norsk, 7. trinn__: utforske og beskrive samspillet mellom skrift, bilder og andre uttrykksformer og lage egne sammensatte tekster
+- [ ] __Norsk, 7. trinn__: utforske og beskrive samspillet mellom skrift, bilder
+  og andre uttrykksformer og lage egne sammensatte tekster
 
-- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av uttrykksformer
+- [ ] __Norsk, 10. trinn__: lage sammensatte tekster og begrunne valg av
+  uttrykksformer
 
 - [ ] __Programmering, 10. trinn:__ bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert
 
-- [ ] __IT1, VG2:__ designe og utvikle nettsider ved hjelp av markeringsspråk og programmering
+- [ ] __Informasjonsteknologi 1__: utvikle nettsider ved hjelp av
+  markeringsspråk
 
-- [ ] __IT1, VG2:__ lagre og hente fram data og presentere dem på nettsider
-
-- [ ] __IT1, VG2:__ planlegge og implementere brukergrensesnitt
-
-- [ ] __IT1, VG2:__ lese, strukturere, analysere og kommentere programkode
+- [ ] __Informasjonsteknologi 1__: utforske, strukturere og kommentere
+  programkode
 
 ## Forslag til læringsmål {.challenge}
 

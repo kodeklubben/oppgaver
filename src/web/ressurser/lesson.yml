@@ -1,2 +1,6 @@
 level: 1
 indexed: false
+tags:
+  topic: [web]
+  subject: [programming, technology]
+  grade: [secondary, junior]
